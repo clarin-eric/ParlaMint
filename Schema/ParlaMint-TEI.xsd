@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:ns1="http://www.tei-c.org/ns/1.0">
+  <xs:import namespace="http://www.w3.org/2001/XInclude" schemaLocation="xi.xsd"/>
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
+  <!-- METADATA -->
+  <xs:element name="fileDesc">
+    <xs:annotation>
+      <xs:documentation>File description.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ns1:titleStmt"/>
+        <xs:element ref="ns1:editionStmt"/>
+        <xs:element ref="ns1:extent"/>
+        <xs:element ref="ns1:publicationStmt"/>
+        <xs:element ref="ns1:sourceDesc"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="ns1:global.atts"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="respStmt">
+    <xs:annotation>
+      <xs:documentation>Responsibility statement.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence maxOccurs="unbounded">
+        <xs:element maxOccurs="unbounded" name="persName">
+          <xs:complexType mixed="true">
+            <xs:attributeGroup ref="ns1:global.atts"/>
+            <xs:attributeGroup ref="ns1:ref.att"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element maxOccurs="unbounded" ref="ns1:resp"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="resp">
+    <xs:complexType mixed="true">
+      <xs:attributeGroup ref="ns1:lang.att"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="editionStmt">
+    <xs:annotation>
+      <xs:documentation>Edition statement.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="edition" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="extent">
+    <xs:annotation>
+      <xs:documentation>Extent of the document.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="ns1:measure"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="measure">
+    <xs:complexType mixed="true">
+      <xs:attribute name="unit" use="required" type="xs:NCName"/>
+      <xs:attribute name="quantity" use="required" type="xs:integer"/>
+      <xs:attributeGroup ref="ns1:lang.att"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="publicationStmt">
+    <xs:annotation>
+      <xs:documentation>Pulbications statement.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ns1:publisher"/>
+        <xs:element ref="ns1:idno"/>
+        <xs:element minOccurs="0" ref="ns1:pubPlace"/>
+        <xs:element ref="ns1:availability"/>
+        <xs:group ref="ns1:date-simple"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="pubPlace">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="ns1:ref"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="availability">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ns1:licence"/>
+        <xs:group ref="ns1:paras"/>
+      </xs:sequence>
+      <xs:attribute name="status" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="free"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="licence" type="xs:anyURI"/>
+  <xs:element name="sourceDesc">
+    <xs:annotation>
+      <xs:documentation>Source description.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="ns1:bibl"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bibl">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:group maxOccurs="unbounded" ref="ns1:title"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" name="edition">
+          <xs:complexType mixed="true">
+            <xs:attributeGroup ref="ns1:lang.att"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" ref="ns1:publisher"/>
+        <xs:element maxOccurs="unbounded" ref="ns1:idno"/>
+        <xs:group minOccurs="0" maxOccurs="unbounded" ref="ns1:date"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="revisionDesc">
+    <xs:annotation>
+      <xs:documentation>Revision description.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="ns1:change"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="ns1:global.atts"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="change">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element ref="ns1:name"/>
+      </xs:sequence>
+      <xs:attribute name="when" use="required" type="xs:date"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="tagsDecl">
+    <xs:annotation>
+      <xs:documentation>Tags declaration.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ns1:namespace"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="namespace">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="ns1:tagUsage"/>
+      </xs:sequence>
+      <xs:attribute name="name" use="required" type="xs:anyURI"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="tagUsage">
+    <xs:complexType mixed="true">
+      <xs:attribute name="gi" use="required" type="xs:Name"/>
+      <xs:attribute name="occurs" use="required" type="xs:nonNegativeInteger"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="settingDesc">
+    <xs:annotation>
+      <xs:documentation>Setting description.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ns1:setting"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="setting">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="ns1:name"/>
+        <xs:group ref="ns1:date"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:group name="title-header">
+    <xs:sequence>
+      <xs:element name="title">
+        <xs:annotation>
+          <xs:documentation>A title in the teiHeader. Must have a @type.</xs:documentation>
+        </xs:annotation>
+        <xs:complexType mixed="true">
+          <xs:attributeGroup ref="ns1:lang.att"/>
+          <xs:attribute name="type" use="required">
+            <xs:annotation>
+              <xs:documentation>@type is here obligatory.</xs:documentation>
+            </xs:annotation>
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="main"/>
+                <xs:enumeration value="sub"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="title">
+    <xs:sequence>
+      <xs:element name="title">
+        <xs:annotation>
+          <xs:documentation>A title in the text.</xs:documentation>
+        </xs:annotation>
+        <xs:complexType mixed="true">
+          <xs:attributeGroup ref="ns1:lang.att"/>
+          <xs:attribute name="type">
+            <xs:annotation>
+              <xs:documentation>@type is optional.</xs:documentation>
+            </xs:annotation>
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="main"/>
+                <xs:enumeration value="sub"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:element name="meeting">
+    <xs:complexType mixed="true">
+      <xs:attributeGroup ref="ns1:global.atts"/>
+      <xs:attributeGroup ref="ns1:pointing.atts"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="publisher">
+    <xs:complexType mixed="true">
+      <xs:sequence minOccurs="0">
+        <xs:element maxOccurs="unbounded" name="orgName">
+          <xs:complexType mixed="true">
+            <xs:attributeGroup ref="ns1:lang.att"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" ref="ns1:ref"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="funder">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="orgName">
+          <xs:complexType mixed="true">
+            <xs:attributeGroup ref="ns1:lang.att"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="idno">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:anyURI">
+          <xs:attributeGroup ref="ns1:lang.att"/>
+          <xs:attribute name="type" use="required" type="xs:Name"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="name">
+    <xs:complexType mixed="true">
+      <xs:attribute name="type" type="xs:Name"/>
+      <xs:attribute name="key" type="xs:Name"/>
+    </xs:complexType>
+  </xs:element>
+  <!-- Paragraphs. Appear in the header only. -->
+  <xs:group name="paras">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" ref="ns1:p"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:element name="p">
+    <xs:complexType mixed="true">
+      <xs:group ref="ns1:annotated-text"/>
+      <xs:attributeGroup ref="ns1:global.atts"/>
+    </xs:complexType>
+  </xs:element>
+  <!-- DATA -->
+  <xs:element name="text">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ns1:body"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="ns1:global.atts"/>
+      <xs:attributeGroup ref="ns1:pointing.atts"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="body">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="ns1:div"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="div">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="ns1:head"/>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element ref="ns1:note"/>
+          <xs:element ref="ns1:comment"/>
+          <xs:element ref="ns1:u"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attributeGroup ref="ns1:global.atts"/>
+      <xs:attribute name="type" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="debateSection"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="u">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element ref="ns1:seg"/>
+        <xs:element ref="ns1:comment"/>
+      </xs:choice>
+      <xs:attributeGroup ref="ns1:global.atts"/>
+      <xs:attribute name="prev" type="xs:anyURI"/>
+      <xs:attribute name="next" type="xs:anyURI"/>
+      <xs:attribute name="who" use="required" type="ns1:anyURIs"/>
+      <xs:attribute name="ana" use="required" type="ns1:anyURIs"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="seg">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="ns1:comment"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="ns1:global.atts"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="note" substitutionGroup="ns1:comment">
+    <xs:complexType mixed="true">
+      <xs:attributeGroup ref="ns1:global.atts"/>
+      <xs:attribute name="type" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="comment" abstract="true"/>
+  <xs:element name="gap" substitutionGroup="ns1:comment">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="ns1:desc">
+          <xs:attribute name="reason" use="required">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="editorial"/>
+                <xs:enumeration value="inaudible"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="kinesic" substitutionGroup="ns1:comment">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="ns1:desc">
+          <xs:attribute name="type">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="applause"/>
+                <xs:enumeration value="ringing"/>
+                <xs:enumeration value="signal"/>
+                <xs:enumeration value="kinesic"/>
+                <xs:enumeration value="playback"/>
+                <xs:enumeration value="gesture"/>
+                <xs:enumeration value="laughter"/>
+                <xs:enumeration value="snapping"/>
+                <xs:enumeration value="noise"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="incident" substitutionGroup="ns1:comment">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="ns1:desc">
+          <xs:attribute name="type">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="action"/>
+                <xs:enumeration value="incident"/>
+                <xs:enumeration value="leaving"/>
+                <xs:enumeration value="entering"/>
+                <xs:enumeration value="break"/>
+                <xs:enumeration value="sound"/>
+                <xs:enumeration value="editorial"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="vocal" substitutionGroup="ns1:comment">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="ns1:desc">
+          <xs:attribute name="type" use="required">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="speaking"/>
+                <xs:enumeration value="interruption"/>
+                <xs:enumeration value="noise"/>
+                <xs:enumeration value="laughter"/>
+                <xs:enumeration value="exclamat"/>
+                <xs:enumeration value="shouting"/>
+                <xs:enumeration value="greeting"/>
+                <xs:enumeration value="question"/>
+                <xs:enumeration value="signal"/>
+                <xs:enumeration value="clarification"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="desc">
+    <xs:sequence>
+      <xs:element ref="ns1:desc"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="desc" type="xs:string"/>
+  <!-- GENERALLY USEFUL DEFINITIONS -->
+  <xs:element name="head">
+    <xs:complexType mixed="true">
+      <xs:attribute name="type" type="xs:token"/>
+      <xs:attributeGroup ref="ns1:global.atts"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ref">
+    <xs:complexType mixed="true">
+      <xs:attribute name="target" use="required" type="xs:anyURI"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:group name="date-simple">
+    <xs:annotation>
+      <xs:documentation>A simple date, just with @when</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="date">
+        <xs:complexType mixed="true">
+          <xs:attributeGroup ref="ns1:when.att"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="date">
+    <xs:annotation>
+      <xs:documentation>A date with with all possible temporal information.</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="date">
+        <xs:complexType mixed="true">
+          <xs:attributeGroup ref="ns1:global.atts"/>
+          <xs:attributeGroup ref="ns1:pointing.atts"/>
+          <xs:attributeGroup ref="ns1:temporal.atts"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="annotated-text">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="ns1:ref"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:simpleType name="temporal.val">
+    <xs:union memberTypes="xs:date xs:gYearMonth xs:gYear"/>
+  </xs:simpleType>
+  <xs:attributeGroup name="when.att">
+    <xs:attribute name="when" use="required" type="ns1:temporal.val"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="temporal.atts">
+    <xs:attribute name="when" type="ns1:temporal.val"/>
+    <xs:attribute name="from" type="ns1:temporal.val"/>
+    <xs:attribute name="to" type="ns1:temporal.val"/>
+    <xs:attribute name="notBefore" type="ns1:temporal.val"/>
+    <xs:attribute name="notAfter" type="ns1:temporal.val"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="ref.att">
+    <xs:attribute name="ref" type="xs:anyURI"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="global.atts">
+    <xs:attribute ref="xml:id"/>
+    <xs:attributeGroup ref="ns1:lang.att"/>
+    <xs:attribute name="n" type="xs:string"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="pointing.atts">
+    <xs:attribute name="ana" type="ns1:anyURIs"/>
+    <xs:attribute name="corresp" type="ns1:anyURIs"/>
+  </xs:attributeGroup>
+  <xs:simpleType name="anyURIs">
+    <xs:annotation>
+      <xs:documentation>A list of URI, including fragment references.</xs:documentation>
+    </xs:annotation>
+    <xs:restriction>
+      <xs:simpleType>
+        <xs:list itemType="xs:anyURI"/>
+      </xs:simpleType>
+      <xs:minLength value="1"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:attributeGroup name="id.att">
+    <xs:annotation>
+      <xs:documentation>Identifier of the element.</xs:documentation>
+    </xs:annotation>
+    <xs:attribute ref="xml:id" use="required"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="lang.att">
+    <xs:annotation>
+      <xs:documentation>The language of the element content. Optional
+    everywhere except on TEI and teiCorpus, where its is defined
+    separately.</xs:documentation>
+    </xs:annotation>
+    <xs:attribute ref="xml:lang"/>
+  </xs:attributeGroup>
+  <xs:simpleType name="lang.vals">
+    <xs:annotation>
+      <xs:documentation>Values for @xml:lang - specified sloppily!</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:language"/>
+  </xs:simpleType>
+</xs:schema>

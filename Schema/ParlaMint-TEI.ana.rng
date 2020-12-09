@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="http://www.tei-c.org/ns/1.0"
+	 xmlns:xml="http://www.w3.org/XML/1998/namespace"
+	 xmlns="http://relaxng.org/ns/structure/1.0"
+	 xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+	 datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  
+  <a:documentation>Schema for ParlaMint linguistically annotatated TEI
+  XML documents (components of the corpus).  It currently covers
+  sentences, tokens, lemmas, morphosyntactic tags, morphological feautures, 
+  UD dependency relations, and named entities.</a:documentation>
+  
+  <include href="ParlaMint-TEI.rng">
+    <a:documentation>Most definitions taken from the schema of the
+    unannotated corpus.</a:documentation>
+    <define name="seg">
+      <a:documentation>The only element that contains analysed text is
+      segment. It can, however, contain transcription
+      commentary.</a:documentation>
+      <element name="seg">
+	<ref name="global.atts"/>
+	<oneOrMore>
+	  <choice>
+            <ref name="sentence"/>
+            <ref name="comment"/>
+	  </choice>
+	</oneOrMore>
+      </element>
+    </define>
+  </include>
+  
+  <define name="sentence">
+    <element name="s">
+      <ref name="global.atts"/>
+      <oneOrMore>
+	<choice>
+          <ref name="comment"/>
+          <ref name="name"/>
+          <ref name="word"/>
+          <ref name="punct"/>
+	</choice>
+      </oneOrMore>
+      <ref name="syntax"/>
+    </element>
+  </define>
+  
+  <define name="name">
+    <element name="name">
+      <ref name="global.atts"/>
+      <attribute name="type">
+	<choice>
+	  <value>PER</value>
+	  <value>LOC</value>
+	  <value>ORG</value>
+	  <value>MISC</value>
+	</choice>
+      </attribute>
+      <oneOrMore>
+	<choice>
+          <ref name="word"/>
+          <ref name="punct"/>
+	</choice>
+      </oneOrMore>
+    </element>
+  </define>
+  
+  <define name="word">
+    <element name="w">
+      <a:documentation>cf. https://clarin-eric.github.io/parla-clarin/#sec-ananorm </a:documentation>
+      <choice>
+	<a:documentation>Simple word</a:documentation>
+	<group>
+	  <ref name="word.atts"/>
+	  <text/>
+	</group>
+	<a:documentation>Word with several normalised words</a:documentation>
+	<group>
+	  <text/>
+	  <oneOrMore>
+	    <element name="w">
+	      <ref name="word.atts"/>
+	    </element>
+	  </oneOrMore>
+	</group>
+	<a:documentation>Normalised word with several surface words</a:documentation>
+	<group>
+	  <ref name="word.atts"/>
+	  <oneOrMore>
+	    <element name="w">
+	      <text/>
+	    </element>
+	  </oneOrMore>
+	</group>
+      </choice>
+    </element>
+  </define>
+  
+  <define name="punct">
+    <element name="pc">
+      <ref name="token.atts"/>
+      <text/>
+    </element>
+  </define>
+  
+  <define name="syntax">
+    <element name="linkGrp">
+      <attribute name="targFunc">
+	<value>head argument</value>
+      </attribute>
+      <attribute name="type">
+	<value>UD-SYN</value>
+      </attribute>
+      <oneOrMore>
+	<element name="link">
+	  <attribute name="ana">
+	    <data type="anyURI"/>
+	  </attribute>
+	  <attribute name="target">
+	    <ref name="anyURIs"/>
+	  </attribute>
+	  <empty/>
+	</element>
+      </oneOrMore>
+    </element>
+  </define>
+  
+  <define name="token.atts">
+    <ref name="id.att"/>
+    <attribute name="msd">
+      <data type="string"/>
+    </attribute>
+    <optional>
+      <attribute name="ana">
+	<ref name="anyURIs"/>
+      </attribute>
+    </optional>
+    <optional>
+      <attribute name="norm">
+	<data type="string"/>
+      </attribute>
+    </optional>
+    <optional>
+      <attribute name="join">
+	<value>right</value>
+      </attribute>
+    </optional>
+  </define>
+
+  <define name="word.atts">
+    <attribute name="lemma">
+      <data type="string"/>
+    </attribute>
+    <ref name="token.atts"/>
+  </define>
+
+</grammar>

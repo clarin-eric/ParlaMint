@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://www.tei-c.org/ns/1.0">
+  <xs:include schemaLocation="ParlaMint-TEI.xsd"/>
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
+  <xs:element name="seg">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element ref="ns1:s"/>
+        <xs:element ref="ns1:comment"/>
+      </xs:choice>
+      <xs:attributeGroup ref="ns1:global.atts"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="s">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element ref="ns1:comment"/>
+          <xs:group ref="ns1:name"/>
+          <xs:element ref="ns1:w"/>
+          <xs:element ref="ns1:pc"/>
+        </xs:choice>
+        <xs:element ref="ns1:linkGrp"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="ns1:global.atts"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:group name="name">
+    <xs:sequence>
+      <xs:element name="name">
+        <xs:complexType>
+          <xs:choice maxOccurs="unbounded">
+            <xs:element ref="ns1:w"/>
+            <xs:element ref="ns1:pc"/>
+          </xs:choice>
+          <xs:attributeGroup ref="ns1:global.atts"/>
+          <xs:attribute name="type" use="required">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="PER"/>
+                <xs:enumeration value="LOC"/>
+                <xs:enumeration value="ORG"/>
+                <xs:enumeration value="MISC"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:element name="w">
+    <xs:annotation>
+      <xs:documentation>cf. https://clarin-eric.github.io/parla-clarin/#sec-ananorm </xs:documentation>
+    </xs:annotation>
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Simple word</xs:documentation>
+        </xs:annotation>
+        <xs:element maxOccurs="unbounded" name="w">
+          <xs:complexType>
+            <xs:attributeGroup ref="ns1:word.atts"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element maxOccurs="unbounded" name="w" type="xs:string"/>
+      </xs:choice>
+      <xs:attribute name="lemma" type="xs:string"/>
+      <xs:attribute ref="xml:id"/>
+      <xs:attribute name="msd" type="xs:string"/>
+      <xs:attribute name="ana" type="ns1:anyURIs"/>
+      <xs:attribute name="norm" type="xs:string"/>
+      <xs:attribute name="join">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="right"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="pc">
+    <xs:complexType mixed="true">
+      <xs:attributeGroup ref="ns1:token.atts"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="linkGrp">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="ns1:link"/>
+      </xs:sequence>
+      <xs:attribute name="targFunc" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="head argument"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="type" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="UD-SYN"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="link">
+    <xs:complexType>
+      <xs:attribute name="ana" use="required" type="xs:anyURI"/>
+      <xs:attribute name="target" use="required" type="ns1:anyURIs"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="token.atts">
+    <xs:attributeGroup ref="ns1:id.att"/>
+    <xs:attribute name="msd" use="required" type="xs:string"/>
+    <xs:attribute name="ana" type="ns1:anyURIs"/>
+    <xs:attribute name="norm" type="xs:string"/>
+    <xs:attribute name="join">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="right"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="word.atts">
+    <xs:attribute name="lemma" use="required" type="xs:string"/>
+    <xs:attributeGroup ref="ns1:token.atts"/>
+  </xs:attributeGroup>
+</xs:schema>

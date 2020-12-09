@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="http://www.tei-c.org/ns/1.0"
+	 xmlns:xi="http://www.w3.org/2001/XInclude"
+	 xmlns:xml="http://www.w3.org/XML/1998/namespace"
+	 xmlns="http://relaxng.org/ns/structure/1.0"
+	 xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+	 datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  
+  <a:documentation>RelaxNG XML schema for ParlaMint corpora: schema
+  for root teiCorpus file.</a:documentation>
+
+  <include href="ParlaMint-TEI.rng">
+    
+    <start>
+      <a:documentation>Root element of a ParlaMint root
+      file.</a:documentation>
+      <element name="teiCorpus">
+      <ref name="id.att"/>
+      <attribute name="xml:lang">
+	<ref name="lang.vals"/>
+      </attribute>
+      <ref name="teiHeader"/>
+	<oneOrMore>
+	  <element name="xi:include">
+	    <attribute name="href">
+	      <data type="anyURI"/>
+	    </attribute>
+	  </element>
+	</oneOrMore>
+      </element>
+    </start>
+    
+    <define name="teiHeader">
+      <a:documentation>Metadata of the corpus.</a:documentation>
+      <element name="teiHeader">
+	<ref name="global.atts"/>
+	<ref name="fileDesc"/>
+	<ref name="encodingDesc"/>
+	<ref name="profileDesc"/>
+	<optional>
+	  <ref name="revisionDesc"/>
+	</optional>
+      </element>
+    </define>
+    
+    <define name="titleStmt">
+      <element name="titleStmt">
+	<oneOrMore>
+	  <ref name="title-header"/>
+	</oneOrMore>
+	<zeroOrMore>
+	  <ref name="meeting"/>
+	</zeroOrMore>
+	<oneOrMore>
+	  <ref name="respStmt"/>
+	</oneOrMore>
+	<oneOrMore>
+	  <ref name="funder"/>
+	</oneOrMore>
+      </element>
+    </define>
+    
+    <define name="encodingDesc">
+      <a:documentation>Encoding description.</a:documentation>
+      <element name="encodingDesc">
+	<ref name="global.atts"/>
+	<element name="projectDesc">
+	  <ref name="paras"/>
+	</element>
+	<ref name="editorialDecl"/>
+	<ref name="tagsDecl"/>
+	<element name="classDecl">
+	  <oneOrMore>
+	    <ref name="taxonomy"/>
+	  </oneOrMore>
+	</element>
+      </element>
+    </define>
+    
+    <define name="profileDesc">
+      <a:documentation>Profile description.</a:documentation>
+      <element name="profileDesc">
+	<ref name="global.atts"/>
+	<ref name="settingDesc"/>
+	<ref name="particDesc"/>
+	<ref name="langUsage"/>
+      </element>
+    </define>
+    
+  </include>
+
+  <define name="editorialDecl">
+    <element name="editorialDecl">
+      <element name="correction">
+	<ref name="paras"/>
+      </element>
+      <element name="normalization">
+	<ref name="paras"/>
+      </element>
+      <element name="hyphenation">
+	<ref name="paras"/>
+      </element>
+      <element name="quotation">
+	<ref name="paras"/>
+      </element>
+      <element name="segmentation">
+	<ref name="paras"/>
+      </element>
+    </element>
+  </define>
+
+<define name="taxonomy">
+    <element name="taxonomy">
+      <ref name="id.att"/>
+      <oneOrMore>
+	<element name="desc">
+	  <ref name="lang.att"/>
+	  <ref name="term-text"/>
+	</element>
+      </oneOrMore>
+      <oneOrMore>
+	<ref name="category"/>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="category">
+    <element name="category">
+      <ref name="id.att"/>
+      <oneOrMore>
+	<element name="catDesc">
+	  <ref name="lang.att"/>
+	  <ref name="term-text"/>
+	</element>
+      </oneOrMore>
+      <zeroOrMore>
+	<ref name="category"/>
+      </zeroOrMore>
+    </element>
+  </define>
+
+  <define name="particDesc">
+    <a:documentation>Metadata on the organisations (esp. political
+    parties) and speakers.</a:documentation>
+    <element name="particDesc">
+      <oneOrMore>
+	<ref name="listOrg"/>
+      </oneOrMore>
+      <oneOrMore>
+	<ref name="listPerson"/>
+      </oneOrMore>
+    </element>
+  </define>
+
+  <define name="listOrg">
+    <element name="listOrg">
+      <zeroOrMore>
+	<ref name="head"/>
+      </zeroOrMore>
+      <oneOrMore>
+	<element name="org">
+	  <ref name="global.atts"/>
+	  <ref name="pointing.atts"/>
+	  <attribute name="role">
+	    <choice>
+              <value>political_party</value>
+              <value>parliament</value>
+              <value>government</value>
+	      <a:documentation>The following used only by sl:</a:documentation>
+              <value>ethnic_communities</value>
+              <value>independet</value>
+	      <a:documentation>The following used only by bg:</a:documentation>
+              <value>coalition</value>
+              <value>ngo</value>
+	    </choice>
+	  </attribute>
+	  <oneOrMore>
+	    <ref name="orgName"/>
+	  </oneOrMore>
+	  <zeroOrMore>
+	    <ref name="event"/>
+	  </zeroOrMore>
+	  <zeroOrMore>
+	    <ref name="idno"/>
+	  </zeroOrMore>
+	  <optional>
+	    <ref name="listEvent"/>
+	  </optional>
+	</element>
+      </oneOrMore>
+      <optional>
+	<ref name="listRelation"/>
+      </optional>
+    </element>
+  </define>
+
+  <define name="orgName">
+    <element name="orgName">
+      <ref name="lang.att"/>
+      <optional>
+	<a:documentation>Used when "the same" party changes its name</a:documentation>
+	<ref name="temporal.atts"/>
+      </optional>
+      <attribute name="full">
+	<choice>
+	  <value>yes</value>
+	  <value>init</value>
+	</choice>
+      </attribute>
+      <text/>
+    </element>
+  </define>
+  
+  <define name="listEvent">
+    <element name="listEvent">
+      <zeroOrMore>
+	<ref name="head"/>
+      </zeroOrMore>
+      <oneOrMore>
+	<ref name="event"/>
+      </oneOrMore>
+    </element>
+  </define>
+
+  <define name="listRelation">
+    <a:documentation>Currently used to link political parties in -si: 3 relations.</a:documentation>
+    <element name="listRelation">
+      <oneOrMore>
+	<element name="relation">
+	  <ref name="pointing.atts"/>
+	  <optional>
+	    <ref name="temporal.atts"/>
+	  </optional>
+	  <attribute name="name">
+	    <choice>
+	      <value>coalition</value>
+	      <value>renaming</value>
+	      <value>successor</value>
+	    </choice>
+	  </attribute>
+	  <choice>
+	    <attribute name="mutual">
+	      <ref name="anyURIs"/>
+	    </attribute>
+	    <group>
+	      <attribute name="active">
+		<data type="anyURI"/>
+	      </attribute>
+	      <attribute name="passive">
+		<ref name="anyURIs"/>
+	      </attribute>
+	    </group>
+	  </choice>
+	</element>
+      </oneOrMore>
+    </element>
+  </define>
+  
+  <define name="listPerson">
+    <element name="listPerson">
+      <zeroOrMore>
+	<ref name="head"/>
+      </zeroOrMore>
+      <oneOrMore>
+	<ref name="person"/>
+      </oneOrMore>
+    </element>
+  </define>
+
+  <define name="person">
+    <element name="person">
+      <ref name="global.atts"/>
+      <oneOrMore>
+	<a:documentation>Can have person name in several languages,
+	or, rather, scripts. Used by bg.</a:documentation>
+	<ref  name="persName"/>
+      </oneOrMore>
+      <interleave>
+	<optional>
+	  <element name="sex">
+	    <attribute name="value">
+	      <choice>
+		<value>M</value>
+		<value>F</value>
+		<value>U</value>
+	      </choice>
+	    </attribute>
+	    <text/>
+	  </element>
+	</optional>
+	<optional>
+	  <element name="birth">
+	    <ref name="life-event.content"/>
+	  </element>
+	</optional>
+	<optional>
+	  <element name="death">
+	    <ref name="life-event.content"/>
+	  </element>
+	</optional>
+	<zeroOrMore>
+	  <ref name="affiliation"/>
+	</zeroOrMore>
+	<zeroOrMore>
+	  <ref name="occupation"/>
+	</zeroOrMore>
+	<zeroOrMore>
+	  <ref name="education"/>
+	</zeroOrMore>
+	<zeroOrMore>
+	  <ref name="idno"/>
+	</zeroOrMore>
+      </interleave>
+    </element>
+  </define>
+  
+  <define name="persName">
+    <element name="persName">
+      <ref name="lang.att"/>
+      <choice>
+	<a:documentation>Special persons (like 'anonymous', 'group' etc.) have their name in
+	term.</a:documentation>
+	<ref name="term"/>
+	<interleave>
+	  <oneOrMore>
+	    <element name="surname">
+	      <text/>
+	    </element>
+	  </oneOrMore>
+	  <oneOrMore>
+	    <element name="forename">
+	      <text/>
+	    </element>
+	  </oneOrMore>
+	  <zeroOrMore>
+	    <element name="addName">
+	      <text/>
+	    </element>
+	  </zeroOrMore>
+	  <zeroOrMore>
+	    <element name="roleName">
+	      <text/>
+	    </element>
+	  </zeroOrMore>
+	</interleave>
+      </choice>
+    </element>
+  </define>
+  
+  <define name="affiliation">
+    <element name="affiliation">
+      <ref name="pointing.atts"/>
+      <optional>
+	<ref name="temporal.atts"/>
+      </optional>
+      <optional>
+	<ref name="ref.att"/>
+      </optional>
+      <attribute name="role">
+	<choice>
+	  <value>MP</value>
+	  <value>member</value>
+	  <a:documentation>The following used only by bg:</a:documentation>
+	  <value>academician</value>
+	  <value>candidate-chairman</value>
+	  <value>chairman</value>
+	  <value>chair-of-parliament</value>
+	  <value>chairperson</value>
+	  <value>chiefInspector</value>
+	  <value>commander</value>
+	  <value>constitutionalJudge</value>
+	  <value>deputyChief</value>
+	  <value>deputyMinister</value>
+	  <value>deputyPrimeMinister</value>
+	  <value>deputyPrimeMinster</value>
+	  <value>director</value>
+	  <value>head-of-department</value>
+	  <value>leader</value>
+	  <value>member</value>
+	  <value>minister</value>
+	  <value>ombudsman</value>
+	  <value>president</value>
+	  <value>presidentEP</value>
+	  <value>primeMinister</value>
+	  <value>prosecutor-general</value>
+	  <value>secretary</value>
+	  <value>secretaryGeneral</value>
+	  <value>vice-chairman</value>
+	  <value>vice-chair-of-parliament</value>
+	  <value>vice-director</value>
+	  <value>vice-president</value>
+	</choice>
+      </attribute>
+      <text/>
+    </element>
+  </define>
+
+  <define name="occupation">
+    <element name="occupation">
+      <ref name="global.atts"/>
+      <optional>
+	<ref name="temporal.atts"/>
+      </optional>
+      <text/>
+    </element>
+  </define>
+
+  <define name="education">
+    <element name="education">
+      <ref name="global.atts"/>
+      <optional>
+	<ref name="temporal.atts"/>
+      </optional>
+      <text/>
+    </element>
+  </define>
+
+  <define name="langUsage">
+    <element name="langUsage">
+      <oneOrMore>
+	<element name="language">
+	  <ref name="lang.att"/>
+	  <attribute name="ident">
+	    <ref name="lang.vals"/>
+	  </attribute>
+	  <text/>
+	</element>
+      </oneOrMore>
+    </element>
+  </define>
+
+  <define name="life-event.content">
+    <a:documentation>The content of elements that describe life
+    events: they can have an partial date (e.g. year only) in temporal
+    attributes, and have as content plain text giving the date and
+    possibly the placeName where the event happened.</a:documentation>
+    <attribute name="when">
+      <choice>
+	<data type="date"/>
+	<data type="gYearMonth"/>
+	<data type="gYear"/>
+      </choice>
+    </attribute>
+    <mixed>
+      <zeroOrMore>
+	<element name="placeName">
+	  <ref name="ref.att"/>
+	  <text/>
+	</element>
+      </zeroOrMore>
+    </mixed>
+  </define>
+  
+  <define name="event">
+    <element name="event">
+      <ref name="global.atts"/>
+      <ref name="temporal.atts"/>
+      <oneOrMore>
+	<element name="label">
+	  <ref name="lang.att"/>
+	  <text/>
+	</element>
+      </oneOrMore>
+    </element>
+  </define>
+
+  <define name="term">
+    <element name="term">
+      <text/>
+    </element>
+  </define>
+  
+  <define name="term-text">
+    <a:documentation>Text preceded by term, for use in
+    taxonomies.</a:documentation>
+    <ref name="term"/>
+    <ref name="annotated-text"/>
+  </define>
+  
+</grammar>

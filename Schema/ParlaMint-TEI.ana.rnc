@@ -1,0 +1,63 @@
+default namespace = "http://www.tei-c.org/ns/1.0"
+namespace a = "http://relaxng.org/ns/compatibility/annotations/1.0"
+
+a:documentation [
+  "Schema for ParlaMint linguistically annotatated TEI\x{a}" ~
+  "  XML documents (components of the corpus).  It currently covers\x{a}" ~
+  "  sentences, tokens, lemmas, morphosyntactic tags, morphological feautures, \x{a}" ~
+  "  UD dependency relations, and named entities."
+]
+
+## Most definitions taken from the schema of the
+##     unannotated corpus.
+include "ParlaMint-TEI.rnc" {
+  
+  ## The only element that contains analysed text is
+  ##       segment. It can, however, contain transcription
+  ##       commentary.
+  seg = element seg { global.atts, (sentence | comment)+ }
+}
+sentence =
+  element s { global.atts, (comment | name | word | punct)+, syntax }
+name =
+  element name {
+    global.atts,
+    attribute type { "PER" | "LOC" | "ORG" | "MISC" },
+    (word | punct)+
+  }
+word =
+  
+  ## cf. https://clarin-eric.github.io/parla-clarin/#sec-ananorm 
+  element w {
+    
+    ## Simple word
+    ((word.atts, text)
+     >> a:documentation [ "Word with several normalised words" ]
+     | (text,
+        element w { word.atts }+)
+       >> a:documentation [
+            "Normalised word with several surface words"
+          ]
+     | (word.atts,
+        element w { text }+))
+  }
+punct = element pc { token.atts, text }
+syntax =
+  element linkGrp {
+    attribute targFunc { "head argument" },
+    attribute type { "UD-SYN" },
+    element link {
+      attribute ana { xsd:anyURI },
+      attribute target { anyURIs },
+      empty
+    }+
+  }
+token.atts =
+  id.att,
+  attribute msd { xsd:string },
+  attribute ana { anyURIs }?,
+  attribute norm { xsd:string }?,
+  attribute join { "right" }?
+word.atts =
+  attribute lemma { xsd:string },
+  token.atts

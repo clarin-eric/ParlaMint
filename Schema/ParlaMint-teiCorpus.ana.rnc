@@ -1,0 +1,44 @@
+default namespace = "http://www.tei-c.org/ns/1.0"
+namespace a = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace xi = "http://www.w3.org/2001/XInclude"
+
+a:documentation [
+  "Schema for ParlaMint linguistically annotated\x{a}" ~
+  "  teiCorpus. Assumed to contain the corpus header and XIncludes of\x{a}" ~
+  "  component TEI files, but which should not be actually\x{a}" ~
+  "  included!"
+]
+include "ParlaMint-teiCorpus.rnc" {
+  
+  ## Encoding description.
+  encodingDesc =
+    element encodingDesc {
+      global.atts,
+      element projectDesc { paras },
+      editorialDecl,
+      tagsDecl,
+      element classDecl { taxonomy+ },
+      element listPrefixDef { prefixDef+ },
+      element appInfo { application+ }
+    }
+}
+prefixDef =
+  element prefixDef {
+    attribute ident {
+      xsd:token { pattern = "[a-z][a-z0-9\+\.\-]*" }
+    },
+    attribute matchPattern { xsd:token },
+    attribute replacementPattern { xsd:token },
+    paras
+  }
+application =
+  element application {
+    attribute version {
+      xsd:token {
+        pattern = "[\d]+[a-z]*[\d]*(\.[\d]+[a-z]*[\d]*){0,3}"
+      }
+    },
+    attribute ident { xsd:Name },
+    element label { text },
+    element desc { lang.att, annotated-text }+
+  }

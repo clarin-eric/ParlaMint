@@ -1,0 +1,521 @@
+<?xml version="1.0"?>
+<!-- Transform one ParlaMint file to CQP vertical format.
+     Note that the output is still in XML, and needs another polish. -->
+<!-- Needs the file with corpus teiHeader as a parameter -->
+<xsl:stylesheet 
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:fn="http://www.w3.org/2005/xpath-functions" 
+    xmlns:et="http://nl.ijs.si/et"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    exclude-result-prefixes="fn et tei xs xi"
+    version="2.0">
+
+  <xsl:output method="xml" encoding="utf-8" indent="no" omit-xml-declaration="yes"/>
+  
+  <!-- File with corpus teiHeader for information about taxonomies, persons, parties -->
+  <xsl:param name="hdr"/>
+
+  <!-- Separator for string multi-valued attributes
+       doesn't work in Saxon!? Need to use a literal 
+  <xsl:param name="multi-separator">;</xsl:param-->
+
+  <!-- Output labels for MPs and guests -->
+  <xsl:param name="mp-label">MP</xsl:param>
+  <xsl:param name="guest-label">notMP</xsl:param>
+
+  <!-- String to put at the start and end of "incidents", i.e. transcriber notes -->
+  <xsl:param name="note-open">/</xsl:param>
+  <xsl:param name="note-close">/</xsl:param>
+  
+  <xsl:variable name="today-iso" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
+
+  <xsl:key name="id" match="tei:*" use="@xml:id"/>
+  <!-- Key which directly finds local references -->
+  <xsl:key name="idr" match="tei:*" use="concat('#', @xml:id)"/>
+
+  <xsl:variable name="teiHeader">
+    <xsl:if test="not(doc-available($hdr))">
+      <xsl:message terminate="yes">
+	<xsl:text>TEI header file </xsl:text>
+	<xsl:value-of select="$hdr"/>
+	<xsl:text> not found!</xsl:text>
+      </xsl:message>
+    </xsl:if>
+     <xsl:copy-of select="document($hdr)"/>
+  </xsl:variable>
+
+  <xsl:variable name="date-from">
+    <xsl:variable name="d" select="/tei:TEI/tei:teiHeader//tei:settingDesc//tei:date"/>
+    <xsl:choose>
+      <xsl:when test="$d/@when">
+	<xsl:value-of select="$d/@when"/>
+      </xsl:when>
+      <xsl:when test="$d/@from">
+	<xsl:value-of select="$d/@from"/>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:message terminate="yes">
+	  <xsl:text>Can't find TEI date(s) in settingDesc of input file!</xsl:text>
+	</xsl:message>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:variable>
+  <xsl:variable name="date-to">
+    <xsl:variable name="d" select="/tei:TEI/tei:teiHeader//tei:settingDesc//tei:date"/>
+    <xsl:choose>
+      <xsl:when test="$d/@when">
+	<xsl:value-of select="$d/@when"/>
+      </xsl:when>
+      <xsl:when test="$d/@to">
+	<xsl:value-of select="$d/@to"/>
+      </xsl:when>
+    </xsl:choose>
+  </xsl:variable>
+  
+  <xsl:template match="@*"/>
+  <xsl:template match="text()"/>
+
+  <xsl:template match="tei:TEI">
+    <text id="{@xml:id}">
+      <xsl:attribute name="subcorpus">
+	<xsl:for-each select="tokenize(@ana, ' ')">
+	  <xsl:if test="key('idr', ., $teiHeader)/ancestor::tei:taxonomy/tei:desc = 'Subcorpora'">
+	    <xsl:value-of select="key('idr', ., $teiHeader)//tei:catDesc[@xml:lang='en']/tei:term"/>
+	  </xsl:if>
+	</xsl:for-each>
+      </xsl:attribute>
+      <xsl:attribute name="term">
+	<xsl:call-template name="meeting">
+	  <xsl:with-param name="type">term</xsl:with-param>
+	</xsl:call-template>
+      </xsl:attribute>
+      <xsl:attribute name="session">
+	<xsl:call-template name="meeting">
+	  <xsl:with-param name="type">session</xsl:with-param>
+	</xsl:call-template>
+      </xsl:attribute>
+      <xsl:attribute name="sitting">
+	<xsl:call-template name="meeting">
+	  <xsl:with-param name="type">meeting</xsl:with-param>
+	</xsl:call-template>
+      </xsl:attribute>
+      <xsl:attribute name="from" select="$date-from"/>
+      <xsl:attribute name="to" select="$date-to"/>
+      <xsl:attribute name="title" select="tei:teiHeader/tei:fileDesc/tei:titleStmt/
+					  tei:title[@xml:lang='en' and @type='sub']"/>
+      <xsl:text>&#10;</xsl:text>
+      <xsl:apply-templates select="tei:text/tei:body//tei:u"/>
+    </text>
+    <xsl:text>&#10;</xsl:text>
+  </xsl:template>
+
+  <xsl:template match="tei:u[not(@who and @who != '#')]">
+    <xsl:message>
+      <xsl:text>ERROR: u </xsl:text>
+      <xsl:value-of select="@xml:id"/>
+      <xsl:text> without @who, skipping!</xsl:text>
+    </xsl:message>
+  </xsl:template>
+  
+  <xsl:template match="tei:u">
+    <speech id="{@xml:id}">
+      <xsl:variable name="speaker" select="key('idr', @who, $teiHeader)"/>
+      <xsl:attribute name="speaker_id" select="$speaker/@xml:id"/>
+      <xsl:attribute name="speaker_name" select="et:format-name($speaker//tei:persName[1])"/>
+      <xsl:attribute name="speaker_role" select="replace(@ana, '#', '')"/>
+      <xsl:attribute name="speaker_type" select="et:speaker-type($speaker)"/>
+      <xsl:attribute name="speaker_party" select="et:speaker-party($speaker, 'init')"/>
+      <xsl:attribute name="speaker_party_name" select="et:speaker-party($speaker, 'yes')"/>
+      <xsl:attribute name="speaker_gender">
+	<xsl:choose>
+	  <xsl:when test="$speaker/tei:sex">
+	    <xsl:value-of select="$speaker/tei:sex/@value"/>
+	  </xsl:when>
+	  <xsl:otherwise>?</xsl:otherwise>
+	</xsl:choose>
+      </xsl:attribute>
+      <xsl:attribute name="speaker_birth">
+	<xsl:choose>
+	  <xsl:when test="$speaker/tei:birth">
+	    <xsl:value-of select="replace($speaker/tei:birth/@when, '-.+', '')"/>
+	  </xsl:when>
+	  <xsl:otherwise>?</xsl:otherwise>
+	</xsl:choose>
+      </xsl:attribute>
+      <xsl:text>&#10;</xsl:text>
+      <xsl:apply-templates/>
+    </speech>
+    <xsl:text>&#10;</xsl:text>
+  </xsl:template>
+
+  <!-- Ignore notes! -->
+  <xsl:template match="tei:note"/>
+
+  <!-- Conflate gap and all "incidents" into <note> -->
+  <xsl:template match="tei:gap | tei:vocal | tei:incident | tei:kinesic">
+    <note>
+      <xsl:attribute name="type">
+	<xsl:value-of select="name()"/>
+	<xsl:choose>
+	  <xsl:when test="@reason">
+	    <xsl:value-of select="concat(':', @reason)"/>
+	  </xsl:when>
+	  <xsl:when test="@type">
+	    <xsl:value-of select="concat(':', @type)"/>
+	  </xsl:when>
+	</xsl:choose>
+      </xsl:attribute>
+      <!--xsl:attribute name="desc" select="tei:desc"/-->
+      <xsl:text>&#10;</xsl:text>
+      <xsl:value-of select="concat($note-open, tei:desc, $note-close)"/>
+      <xsl:text>&#9;_&#9;_&#9;_&#9;_&#9;_&#9;_&#9;_&#9;_&#9;_&#10;</xsl:text>
+    </note>
+    <xsl:text>&#10;</xsl:text>
+  </xsl:template>
+
+  <xsl:template match="tei:seg">
+    <p id="{@xml:id}">
+      <xsl:text>&#10;</xsl:text>
+      <xsl:apply-templates/>
+    </p>
+    <xsl:text>&#10;</xsl:text>
+  </xsl:template>
+
+  <xsl:template match="tei:name">
+    <xsl:copy>
+      <xsl:copy-of select="@type"/>
+      <xsl:text>&#10;</xsl:text>
+      <xsl:apply-templates/>
+    </xsl:copy>
+    <xsl:text>&#10;</xsl:text>
+  </xsl:template>
+  
+  <xsl:template match="tei:s">
+    <xsl:copy>
+      <xsl:attribute name="id" select="@xml:id"/>
+      <xsl:text>&#10;</xsl:text>
+      <xsl:apply-templates/>
+    </xsl:copy>
+    <xsl:text>&#10;</xsl:text>
+  </xsl:template>
+
+  <!-- TOKENS -->
+  <xsl:template match="tei:pc | tei:w">
+    <xsl:value-of select="concat(.,'&#9;',et:output-annotations(.))"/>
+    <xsl:call-template name="deps"/>
+    <xsl:text>&#10;</xsl:text>
+    <xsl:if test="@join = 'right' or @join='both' or
+		  following::tei:*[self::tei:w or self::tei:pc][1]/@join = 'left' or
+		  following::tei:*[self::tei:w or self::tei:pc][1]/@join = 'both'">
+      <g/>
+      <xsl:text>&#10;</xsl:text>
+    </xsl:if>
+  </xsl:template>
+
+  <!-- NAMED TEMPLATES -->
+
+  <!-- Get @n from appropriate meeting, e.g.
+       <meeting n="7" corresp="#DZ" ana="#parla.term #DZ.7">7. mandat</meeting>
+       <meeting n="1" corresp="#DZ" ana="#parla.meeting.regular">Redna</meeting>
+       or
+       <meeting ana="#parla.lower">Sejm</meeting>
+       <meeting n="8-lower" ana="#parla.lower #parla.term">8. kadencja Sejmu</meeting>
+       <meeting n="1-lower" ana="#parla.lower #parla.session">1. sesja Sejmu</meeting>
+       <meeting n="1-lower" ana="#parla.lower #parla.sitting">1. dzień sesji Sejmu</meeting>
+  -->
+  <xsl:template name="meeting">
+    <xsl:param name="prefix">#parla.</xsl:param>
+    <xsl:param name="type"/>
+    <xsl:variable name="result">
+      <xsl:variable name="idref" select="concat($prefix, $type)"/>
+      <xsl:for-each select="//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:meeting">
+	<xsl:variable name="n" select="@n"/>
+	<xsl:for-each select="tokenize(@ana, ' ')">
+	  <xsl:if test="starts-with(., $idref)">
+	    <xsl:value-of select="$n"/>
+	  </xsl:if>
+	</xsl:for-each>
+      </xsl:for-each>
+    </xsl:variable>
+    <xsl:choose>
+      <xsl:when test="normalize-space($result)">
+	<xsl:value-of select="$result"/>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:text>?</xsl:text>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+    
+  <xsl:template name="deps">
+    <xsl:param name="type">UD-SYN</xsl:param>
+    <xsl:variable name="id" select="@xml:id"/>
+    <xsl:variable name="s" select="ancestor::tei:s"/>
+    <xsl:choose>
+      <xsl:when test="$s/tei:linkGrp[@type=$type]">
+	<xsl:variable name="link"
+		      select="$s/tei:linkGrp[@type=$type]/tei:link
+			      [ends-with(@target, concat(' #',$id))]"/>
+	<xsl:if test="not(normalize-space($link/@ana))">
+	  <xsl:message>
+	    <xsl:text>ERROR: no syntactic link for token </xsl:text>
+	    <xsl:value-of select="concat(ancestor::tei:TEI/@xml:id, ':', @xml:id)"/>
+	  </xsl:message>
+	</xsl:if>
+	<xsl:value-of select="concat('&#9;', substring-after($link/@ana,'syn:'))"/>
+	<xsl:variable name="target" select="key('id', replace($link/@target,'#(.+?) #.*','$1'))"/>
+	<xsl:choose>
+	  <xsl:when test="$target/self::tei:s">
+	    <xsl:text>&#9;-&#9;-&#9;-&#9;-</xsl:text>
+	  </xsl:when>
+	  <xsl:otherwise>
+	    <xsl:value-of select="concat('&#9;', et:output-annotations($target))"/>
+	  </xsl:otherwise>
+	</xsl:choose>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:message>
+	  <xsl:text>ERROR: no linkGroup for sentence </xsl:text>
+	  <xsl:value-of select="ancestor::tei:s/@xml:id"/>
+	</xsl:message>
+	<xsl:text>&#9;-&#9;-&#9;-&#9;-</xsl:text>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
+  <!-- FUNCTIONS -->
+
+  <!-- Format the name of a person from persName -->
+  <xsl:function name="et:format-name">
+    <xsl:param name="persName"/>
+    <xsl:choose>
+      <xsl:when test="$persName/tei:surname[2] and $persName/tei:forename">
+	<xsl:value-of select="concat($persName/tei:surname[1], ' ',
+			      $persName/tei:surname[2], ', ',
+			      $persName/tei:forename[1])"/>
+      </xsl:when>
+      <xsl:when test="$persName/tei:surname and $persName/tei:forename">
+	<xsl:value-of select="normalize-space(
+			      concat($persName/tei:surname[1], ', ',
+			      $persName/tei:forename[1]))"/>
+      </xsl:when>
+      <xsl:when test="$persName/tei:surname">
+	<xsl:value-of select="normalize-space($persName/tei:surname[1])"/>
+      </xsl:when>
+      <xsl:when test="$persName/tei:term">
+	<xsl:value-of select="concat('@', $persName/tei:term, '@')"/>
+      </xsl:when>
+      <xsl:when test="normalize-space($persName)">
+	<xsl:value-of select="$persName"/>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:message>
+	  <xsl:text>ERROR: empty persName!</xsl:text>
+	</xsl:message>
+	<xsl:text>?</xsl:text>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:function>
+  
+  <!-- Output if the speaker is an MP or merely a 'visitor'
+       when speaking (= check global $date-from and $date-to) -->
+  <xsl:function name="et:speaker-type" as="xs:string">
+    <xsl:param name="speaker" as="element(tei:person)"/>
+    <xsl:variable name="mp" select="$speaker/tei:affiliation[@role='MP']"/>
+    <xsl:variable name="type">
+      <xsl:for-each select="$mp/self::tei:affiliation">
+	<xsl:choose>
+	  <xsl:when test="@from and @to">
+	    <xsl:if test="et:between-dates($date-from, @from, @to) and
+			  et:between-dates($date-to, @from, @to)">
+	      <xsl:value-of select="$mp-label"/>
+	    </xsl:if>
+	  </xsl:when>
+	  <xsl:when test="@from">
+	    <xsl:if test="et:between-dates($date-from, @from, $today-iso) and
+			  et:between-dates($date-to, @from, $today-iso)">
+	      <xsl:value-of select="$mp-label"/>
+	    </xsl:if>
+	  </xsl:when>
+	  <xsl:otherwise>
+	    <xsl:value-of select="$mp-label"/>
+	  </xsl:otherwise>
+	</xsl:choose>
+      </xsl:for-each>
+    </xsl:variable>
+    <xsl:choose>
+      <xsl:when test="normalize-space($type)">
+	<xsl:if test="$type ne $mp-label">
+	  <xsl:message>
+	    <xsl:text>ERROR: multiple MP for </xsl:text>
+	    <xsl:value-of select="$speaker/@xml:id"/>
+	    <xsl:text> on </xsl:text>
+	    <xsl:value-of select="concat($date-from, ' - ', $date-to, ': ', $type)"/>
+	  </xsl:message>
+	</xsl:if>
+	<xsl:value-of select="$type"/>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:value-of select="$guest-label"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:function>
+  
+  <!-- Output the name of the party the speaker belongs to when speaking -->
+  <xsl:function name="et:speaker-party" as="xs:string">
+    <xsl:param name="speaker" as="element(tei:person)"/>
+    <!-- Full ('yes') or abbreviated ('init') name of the party -->
+    <xsl:param name="full" as="xs:string"/>
+    <!-- Should be just one ref for a given date, but sometimes isn't  -->
+    <xsl:variable name="refs">
+      <xsl:variable name="tmp">
+	<xsl:for-each select="$speaker/tei:affiliation[@role='member']">
+	  <xsl:choose>
+	    <xsl:when test="@from and @to">
+	      <xsl:if test="et:between-dates($date-from, @from, @to) and
+			    et:between-dates($date-to, @from, @to)">
+		<xsl:value-of select="@ref"/>
+		<xsl:text>&#32;</xsl:text>
+	      </xsl:if>
+	    </xsl:when>
+	    <xsl:when test="@from">
+	      <xsl:if test="et:between-dates($date-from, @from, $today-iso) and
+			    et:between-dates($date-to, @from, $today-iso)">
+		<xsl:value-of select="@ref"/>
+		<xsl:text>&#32;</xsl:text>
+	      </xsl:if>
+	    </xsl:when>
+	    <xsl:otherwise>
+	      <xsl:value-of select="@ref"/>
+	      <xsl:text>&#32;</xsl:text>
+	    </xsl:otherwise>
+	  </xsl:choose>
+	</xsl:for-each>
+      </xsl:variable>
+      <xsl:if test="contains(normalize-space($tmp), ' ')">
+	<!--xsl:message>
+	  <xsl:text>WARN: more than one party for </xsl:text>
+	  <xsl:value-of select="$speaker/@xml:id"/>
+	  <xsl:text> on </xsl:text>
+	  <xsl:value-of select="concat($date-from, ' - ', $date-to, ': ', $tmp)"/>
+	</xsl:message-->
+      </xsl:if>
+      <xsl:value-of select="normalize-space($tmp)"/>
+    </xsl:variable>
+    <xsl:variable name="parties">
+      <xsl:for-each select="tokenize($refs, ' ')">
+	<xsl:variable name="party" select="key('idr', ., $teiHeader)"/>
+	<xsl:choose>
+	  <!-- Choose non-English name -->
+	  <xsl:when test="$party/tei:orgName[@full=$full]
+			  [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang != 'en']">
+	    <xsl:value-of select="$party/tei:orgName[@full=$full]
+				  [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang != 'en']"/>
+	    <!--xsl:value-of select="$multi-separator"/-->
+	    <xsl:text>;</xsl:text>
+	  </xsl:when>
+	  <!-- Fall back on ID -->
+	  <xsl:when test="$full = 'init' and $party/@xml:id">
+	    <xsl:value-of select="replace($party/@xml:id, 'party\.' , '')"/>
+	    <!--xsl:value-of select="$multi-separator"/-->
+	    <xsl:text>;</xsl:text>
+	  </xsl:when>
+	  <xsl:otherwise>
+	    <!--xsl:message>
+		<xsl:text>WARN: no party for </xsl:text>
+		<xsl:value-of select="$speaker/@xml:id"/>
+		<xsl:text> on </xsl:text>
+		<xsl:value-of select="concat($date-from, ' - ', $date-to)"/>
+		</xsl:message-->
+	  </xsl:otherwise>
+	</xsl:choose>
+      </xsl:for-each>
+    </xsl:variable>
+    <xsl:choose>
+      <xsl:when test="normalize-space($parties)">
+	<!-- Doesn't work! xsl:value-of select="replace($parties, concat($multi-separator, '$'), '')"/-->
+	<xsl:value-of select="replace($parties, ';$', '')"/>
+      </xsl:when>
+      <xsl:otherwise>_</xsl:otherwise>
+    </xsl:choose>
+  </xsl:function>
+  
+  <!-- Is the first date between the following two? -->
+  <xsl:function name="et:between-dates" as="xs:boolean">
+    <xsl:param name="date" as="xs:string"/>
+    <xsl:param name="from" as="xs:string"/>
+    <xsl:param name="to" as="xs:string"/>
+    <xsl:choose>
+      <xsl:when test="xs:date(et:fix-date($date)) &gt;= xs:date(et:fix-date($from)) and
+	              xs:date(et:fix-date($date)) &lt;= xs:date(et:fix-date($to))">
+	<xsl:value-of select="true()"/>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:value-of select="false()"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:function>
+  
+  <!-- Fix too short dates a la "2018-02" -->
+  <xsl:function name="et:fix-date">
+    <xsl:param name="date"/>
+    <xsl:choose>
+      <xsl:when test="matches($date, '^\d\d\d\d-\d\d-\d\d$')">
+	<xsl:value-of select="$date"/>
+      </xsl:when>
+      <xsl:when test="matches($date, '^\d\d\d\d-\d\d$')">
+	<!--xsl:message>
+	  <xsl:text>WARN: short date </xsl:text>
+	  <xsl:value-of select="$date"/>
+	</xsl:message-->
+	<xsl:value-of select="concat($date, '-01')"/>
+      </xsl:when>
+      <xsl:when test="matches($date, '^\d\d\d\d$')">
+	<!--xsl:message>
+	  <xsl:text>WARN: short date </xsl:text>
+	  <xsl:value-of select="$date"/>
+	</xsl:message-->
+	<xsl:value-of select="concat($date, '-01-01')"/>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:message terminate="yes">
+	  <xsl:text>ERROR: bad date </xsl:text>
+	  <xsl:value-of select="$date"/>
+	</xsl:message>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:function>
+  
+  <xsl:function name="et:output-annotations">
+    <xsl:param name="token"/>
+    <xsl:variable name="n" select="replace($token/@xml:id, '.+\.(\d+)$', 'tok$1')"/>
+    <xsl:variable name="lemma">
+      <xsl:choose>
+	<xsl:when test="$token/@lemma">
+	  <xsl:value-of select="$token/@lemma"/>
+	</xsl:when>
+	<xsl:otherwise>
+	  <xsl:value-of select="substring($token,1,1)"/>
+	</xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+    <xsl:variable name="ud-pos" select="replace(replace($token/@msd, 'UPosTag=', ''), '\|.+', '')"/>
+    <xsl:variable name="ud-feats">
+      <xsl:variable name="fs" select="replace($token/@msd, 'UPosTag=[^|]+\|?', '')"/>
+      <xsl:choose>
+	<xsl:when test="normalize-space($fs)">
+	  <!-- Change source pipe to whatever we have for multivalued attributes -->
+	  <xsl:value-of select="replace($fs, '\|', ' ')"/>
+	</xsl:when>
+	<xsl:otherwise>
+	  <xsl:text>_</xsl:text>
+	</xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+    <xsl:sequence select="concat($lemma, '&#9;', $ud-pos, '&#9;', $ud-feats, '&#9;', $n)"/>
+  </xsl:function>
+
+</xsl:stylesheet>

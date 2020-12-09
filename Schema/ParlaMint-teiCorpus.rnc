@@ -1,0 +1,222 @@
+default namespace = "http://www.tei-c.org/ns/1.0"
+namespace a = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace xi = "http://www.w3.org/2001/XInclude"
+
+a:documentation [
+  "RelaxNG XML schema for ParlaMint corpora: schema\x{a}" ~
+  "  for root teiCorpus file."
+]
+include "ParlaMint-TEI.rnc" {
+  
+  ## Root element of a ParlaMint root
+  ##       file.
+  start =
+    element teiCorpus {
+      id.att,
+      attribute xml:lang { lang.vals },
+      teiHeader,
+      element xi:include {
+        attribute href { xsd:anyURI }
+      }+
+    }
+  
+  ## Metadata of the corpus.
+  teiHeader =
+    element teiHeader {
+      global.atts, fileDesc, encodingDesc, profileDesc, revisionDesc?
+    }
+  titleStmt =
+    element titleStmt { title-header+, meeting*, respStmt+, funder+ }
+  
+  ## Encoding description.
+  encodingDesc =
+    element encodingDesc {
+      global.atts,
+      element projectDesc { paras },
+      editorialDecl,
+      tagsDecl,
+      element classDecl { taxonomy+ }
+    }
+  
+  ## Profile description.
+  profileDesc =
+    element profileDesc {
+      global.atts, settingDesc, particDesc, langUsage
+    }
+}
+editorialDecl =
+  element editorialDecl {
+    element correction { paras },
+    element normalization { paras },
+    element hyphenation { paras },
+    element quotation { paras },
+    element segmentation { paras }
+  }
+taxonomy =
+  element taxonomy {
+    id.att,
+    element desc { lang.att, term-text }+,
+    category+
+  }
+category =
+  element category {
+    id.att,
+    element catDesc { lang.att, term-text }+,
+    category*
+  }
+
+## Metadata on the organisations (esp. political
+##     parties) and speakers.
+particDesc = element particDesc { listOrg+, listPerson+ }
+listOrg =
+  element listOrg {
+    head*,
+    element org {
+      global.atts,
+      pointing.atts,
+      attribute role {
+        "political_party"
+        | "parliament"
+        | 
+          ## The following used only by sl:
+          "government"
+        | "ethnic_communities"
+        | 
+          ## The following used only by bg:
+          "independet"
+        | "coalition"
+        | "ngo"
+      },
+      orgName+,
+      event*,
+      idno*,
+      listEvent?
+    }+,
+    listRelation?
+  }
+orgName =
+  element orgName {
+    lang.att,
+    
+    ## Used when "the same" party changes its name
+    (temporal.atts?),
+    attribute full { "yes" | "init" },
+    text
+  }
+listEvent = element listEvent { head*, event+ }
+
+## Currently used to link political parties in -si: 3 relations.
+listRelation =
+  element listRelation {
+    element relation {
+      pointing.atts,
+      temporal.atts?,
+      attribute name { "coalition" | "renaming" | "successor" },
+      (attribute mutual { anyURIs }
+       | (attribute active { xsd:anyURI },
+          attribute passive { anyURIs }))
+    }+
+  }
+listPerson = element listPerson { head*, person+ }
+person =
+  element person {
+    global.atts,
+    
+    ## Can have person name in several languages,
+    ##	or, rather, scripts. Used by bg.
+    (persName+),
+    (element sex {
+       attribute value { "M" | "F" | "U" },
+       text
+     }?
+     & element birth { life-event.content }?
+     & element death { life-event.content }?
+     & affiliation*
+     & occupation*
+     & education*
+     & idno*)
+  }
+persName =
+  element persName {
+    lang.att,
+    
+    ## Special persons (like 'anonymous', 'group' etc.) have their name in
+    ##	term.
+    (term
+     | (element surname { text }+
+        & element forename { text }+
+        & element addName { text }*
+        & element roleName { text }*))
+  }
+affiliation =
+  element affiliation {
+    pointing.atts,
+    temporal.atts?,
+    ref.att?,
+    attribute role {
+      "MP"
+      | 
+        ## The following used only by bg:
+        "member"
+      | "academician"
+      | "candidate-chairman"
+      | "chairman"
+      | "chair-of-parliament"
+      | "chairperson"
+      | "chiefInspector"
+      | "commander"
+      | "constitutionalJudge"
+      | "deputyChief"
+      | "deputyMinister"
+      | "deputyPrimeMinister"
+      | "deputyPrimeMinster"
+      | "director"
+      | "head-of-department"
+      | "leader"
+      | "member"
+      | "minister"
+      | "ombudsman"
+      | "president"
+      | "presidentEP"
+      | "primeMinister"
+      | "prosecutor-general"
+      | "secretary"
+      | "secretaryGeneral"
+      | "vice-chairman"
+      | "vice-chair-of-parliament"
+      | "vice-director"
+      | "vice-president"
+    },
+    text
+  }
+occupation = element occupation { global.atts, temporal.atts?, text }
+education = element education { global.atts, temporal.atts?, text }
+langUsage =
+  element langUsage {
+    element language {
+      lang.att,
+      attribute ident { lang.vals },
+      text
+    }+
+  }
+
+## The content of elements that describe life
+##     events: they can have an partial date (e.g. year only) in temporal
+##     attributes, and have as content plain text giving the date and
+##     possibly the placeName where the event happened.
+life-event.content =
+  attribute when { xsd:date | xsd:gYearMonth | xsd:gYear },
+  mixed {
+    element placeName { ref.att, text }*
+  }
+event =
+  element event {
+    global.atts,
+    temporal.atts,
+    element label { lang.att, text }+
+  }
+term = element term { text }
+
+## Text preceded by term, for use in
+##     taxonomies.
+term-text = term, annotated-text
