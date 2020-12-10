@@ -1,5 +1,3 @@
-mami:
-	$j ParlaMint-TEI.ana.rng ../test.xml
 trang:
 	$t ParlaMint-TEI.rng ParlaMint-TEI.rnc
 	$t ParlaMint-TEI.rng ParlaMint-TEI.xsd

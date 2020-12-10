@@ -446,7 +446,11 @@
       <xs:element ref="ns1:desc"/>
     </xs:sequence>
   </xs:complexType>
-  <xs:element name="desc" type="xs:string"/>
+  <xs:element name="desc">
+    <xs:complexType mixed="true">
+      <xs:attributeGroup ref="ns1:lang.att"/>
+    </xs:complexType>
+  </xs:element>
   <!-- GENERALLY USEFUL DEFINITIONS -->
   <xs:element name="head">
     <xs:complexType mixed="true">
