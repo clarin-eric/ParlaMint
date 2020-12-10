@@ -13,7 +13,7 @@
   <!-- Output directory for samples -->
   <xsl:param name="outDir"/>
   <!-- How many utterances to select from start and end of component files -->
-  <xsl:param name="Range">1</xsl:param>
+  <xsl:param name="Range">2</xsl:param>
   
   <xsl:variable name="today" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
 
@@ -24,7 +24,7 @@
     <xsl:copy-of select="//xi:include[last()]"/>
   </xsl:variable>
 
-  <xsl:output method="xml" indent="yes"/>
+  <xsl:output method="xml" indent="no"/>
   
   <xsl:template match="/">
     <!-- Output root file -->
@@ -86,7 +86,9 @@
       <xsl:apply-templates>
 	<xsl:with-param name="to" select="tei:u[position() = $Range]/@xml:id"/>
       </xsl:apply-templates>
+      <xsl:text>&#10;            </xsl:text>
       <gap reason="sampling"/>
+      <xsl:text>&#10;            </xsl:text>
       <xsl:apply-templates>
 	<xsl:with-param name="from">
 	  <xsl:variable name="all" select="count(tei:u)"/>
@@ -96,15 +98,22 @@
     </xsl:copy>
   </xsl:template>
   
-  <xsl:template match="tei:div[@type='debateSection']/tei:*">
+  <xsl:template match="tei:div[@type='debateSection']/node()">
     <xsl:param name="from">0</xsl:param>
     <xsl:param name="to">0</xsl:param>
     <xsl:if test="($from = '0' and (self::tei:* | following-sibling::tei:*)[@xml:id = $to]) or 
 		  ($to   = '0' and (self::tei:* | preceding-sibling::tei:*)[@xml:id = $from])">
-	<xsl:copy>
-	  <xsl:apply-templates select="@*"/>
-	  <xsl:apply-templates/>
-	</xsl:copy>
+      <xsl:choose>
+	<xsl:when test="self::tei:*">
+	  <xsl:copy>
+	    <xsl:apply-templates select="@*"/>
+	    <xsl:apply-templates/>
+	  </xsl:copy>
+	</xsl:when>
+	<xsl:when test="self::text()">
+	  <xsl:value-of select="."/>
+	</xsl:when>
+      </xsl:choose>
     </xsl:if>
   </xsl:template>
   
