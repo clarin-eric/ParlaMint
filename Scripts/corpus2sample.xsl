@@ -14,14 +14,20 @@
   <xsl:param name="outDir"/>
   <!-- How many utterances to select from start and end of component files -->
   <xsl:param name="Range">2</xsl:param>
+
+  <!-- Location of the GitHub project containing the output files -->
+  <xsl:param name="GitHub-project">https://github.com/clarin-eric/ParlaMint</xsl:param>
   
   <xsl:variable name="today" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
 
   <!-- Select first and last XInclude components -->
   <xsl:variable name="components">
     <xsl:variable name="n" select="count(/tei:teiCorpus/xi:include)"/>
+    <xsl:text>&#10;   </xsl:text>
     <xsl:copy-of select="//xi:include[1]"/>
+    <xsl:text>&#10;   </xsl:text>
     <xsl:copy-of select="//xi:include[last()]"/>
+    <xsl:text>&#10;</xsl:text>
   </xsl:variable>
 
   <xsl:output method="xml" indent="no"/>
@@ -50,8 +56,20 @@
   <xsl:template match="tei:teiCorpus">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
+      <!-- Fix error from V1: ID != file name for .ana. files -->
+      <xsl:attribute name="xml:id" select="replace(document-uri(/), '.+/([^/]+)\.xml', '$1')"/>
+      <xsl:text>&#10;   </xsl:text>
       <xsl:apply-templates select="tei:teiHeader"/>
       <xsl:copy-of select="$components"/>
+    </xsl:copy>
+  </xsl:template>
+    
+  <xsl:template match="tei:TEI">
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <!-- Fix error from V1: ID != file name for .ana. files -->
+      <xsl:attribute name="xml:id" select="replace(document-uri(/), '.+/([^/]+)\.xml', '$1')"/>
+      <xsl:apply-templates/>
     </xsl:copy>
   </xsl:template>
     
@@ -59,6 +77,39 @@
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
       <xsl:value-of select="replace(., '\]', ' SAMPLE]')"/>
+    </xsl:copy>
+  </xsl:template>
+    
+  <xsl:template match="tei:publicationStmt/tei:idno[@type='handle']"/>
+  <xsl:template match="tei:publicationStmt/tei:pubPlace">
+    <idno type="URL">
+      <xsl:value-of select="$GitHub-project"/>
+    </idno>
+    <xsl:text>&#10;            </xsl:text>
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <ref target="{$GitHub-project}">
+	<xsl:value-of select="$GitHub-project"/>
+      </ref>
+    </xsl:copy>
+  </xsl:template>
+    
+  <xsl:template match="tei:publicationStmt/tei:date">
+    <xsl:copy>
+      <xsl:attribute name="when" select="$today"/>
+      <xsl:value-of select="$today"/>
+    </xsl:copy>
+  </xsl:template>
+    
+  <xsl:template match="tei:sourceDesc">
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <xsl:text>&#10;            </xsl:text>
+      <bibl>
+	<title>Multilingual comparable corpora of parliamentary debates ParlaMint 1.0</title>
+	<xsl:copy-of select="ancestor::tei:teiHeader//tei:publicationStmt/tei:idno[@type='handle']"/>
+      </bibl>
+      <xsl:apply-templates/>
     </xsl:copy>
   </xsl:template>
     
@@ -73,6 +124,7 @@
   <xsl:template match="tei:revisionDesc">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
+      <xsl:text>&#10;         </xsl:text>
       <change when="{$today}"><name>Tomaž Erjavec</name>: Made sample.</change>
       <xsl:apply-templates/>
     </xsl:copy>
@@ -87,7 +139,7 @@
 	<xsl:with-param name="to" select="tei:u[position() = $Range]/@xml:id"/>
       </xsl:apply-templates>
       <xsl:text>&#10;            </xsl:text>
-      <gap reason="sampling"/>
+      <gap reason="editorial"><desc xml:lang="en">SAMPLING</desc></gap>
       <xsl:text>&#10;            </xsl:text>
       <xsl:apply-templates>
 	<xsl:with-param name="from">
@@ -115,6 +167,15 @@
 	</xsl:when>
       </xsl:choose>
     </xsl:if>
+  </xsl:template>
+
+  <!-- Fix error from V1: missing @full -->
+  <xsl:template match="tei:org/tei:orgName[not(@full)]">
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <xsl:attribute name="full">yes</xsl:attribute>
+      <xsl:apply-templates/>
+    </xsl:copy>
   </xsl:template>
   
   <xsl:template match="tei:*">
