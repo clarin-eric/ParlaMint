@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="hr" xml:id="ParlaMint-HR_S01" ana="#parla.session #reference">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="hr">Hrvatski parlamentarni korpus ParlaMint-HR, sjednica 1 [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Croatian parliamentary corpus ParlaMint-HR, Session 1 [ParlaMint SAMPLE]</title>
+            <title type="sub" xml:lang="hr">Zapisnici sjednica Hvratskog sabora, mandat IX, sjednica 1 (2016-11-15 - 2016-11-28)</title>
+            <title type="sub" xml:lang="en">Minutes of the National Assembly of the Republic of Croatia, Term 9, Session 1 (2016-11-15 - 2016-11-28)</title>
+            <meeting n="9" corresp="#HS" ana="#parla.term #HS.9">9. mandat</meeting>
+            <meeting n="1" ana="#parla.session">1. sjednica</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="hr">Preuzimanje i čiščenje digitalnog izvora</resp>
+               <resp xml:lang="en">Download and clean-up of the JSON digital source</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-1560-4099">Tomaž Erjavec</persName>
+               <resp xml:lang="hr">Kodiranje Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="hr">Istraživačka infrastrukutra CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>1.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="3851" xml:lang="hr">3.851 govora</measure>
+            <measure unit="speeches" quantity="3851" xml:lang="en">3,851 speeches</measure>
+            <measure unit="words" quantity="641329" xml:lang="hr">641.329 riječi</measure>
+            <measure unit="words" quantity="641329" xml:lang="en">641,329 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="hr">Istraživačka infrastrukutra CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URL">https://github.com/clarin-eric/ParlaMint</idno>
+            <pubPlace><ref target="https://github.com/clarin-eric/ParlaMint">https://github.com/clarin-eric/ParlaMint</ref></pubPlace>
+            
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="hr">Ovaj rad je dostupan pod <ref target="http://creativecommons.org/licenses/by/4.0/">međunarodnom licencom Creative Commons Imenovanje 4.0</ref>
+               </p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+            </availability>
+            <date when="2020-12-10">2020-12-10</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl><title>Multilingual comparable corpora of parliamentary debates ParlaMint 1.0</title><idno type="handle">http://hdl.handle.net/11356/1345</idno></bibl>
+            <bibl>
+               <title type="main">Minutes of the National Assembly of the Republic of Croatia</title>
+               <idno type="URI">https://parlametar.hr/</idno>
+               <idno type="URI">http://www.sabor.hr/</idno>
+               <date from="2016-11-15" to="2016-11-28">2016-11-15 - 2016-11-28</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="hr">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="u" occurs="3851"/>
+               <tagUsage gi="seg" occurs="17363"/>
+               <tagUsage gi="vocal" occurs="188"/>
+               <tagUsage gi="desc" occurs="448"/>
+               <tagUsage gi="kinesic" occurs="55"/>
+               <tagUsage gi="gap" occurs="205"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Trg sv. Marka 6</name>
+               <name type="city">Zagreb</name>
+               <name type="country" key="HR">Croatia</name>
+               <date from="2016-11-15" to="2016-11-28" ana="#parla.session">2016-11-15 - 2016-11-28</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2020-12-10"><name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2020-10-04">
+            <name>Tomaž Erjavec</name>: Small fixes for ParlaMint.</change>
+         <change when="2020-10-04">
+            <name>Tomaž Erjavec</name>: Generated corpus in Parla-CLARIN.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="hr" ana="#reference">
+      <body>
+         <div type="debateSection">
+            <head>1. sjednica</head>
+            <u who="#ReinerŽeljko" ana="#chair" xml:id="ParlaMint-HR_S01.u1" n="314897">
+               <seg xml:id="seg1">Cijenjene gospođe i gospodo, sukladno članku 4. stavak 2. Poslovnika Hrvatskog sabora pripala mi je dužnost i čast otvoriti prvu konstituirajuću sjednicu Hrvatskog sabora i privremeno joj predsjedati do izbora novog predsjednika Hrvatskog sabora.</seg>
+               <seg xml:id="seg2">Sve vas srdačno pozdravljam i čestitam na izboru za zastupnice i zastupnike u Hrvatski sabor.</seg>
+               <seg xml:id="seg3">Poštovane gospođe i gospodo, cijenjeni uzvanici čast mi je i zadovoljstvo posebno pozdraviti predsjednicu Republike Hrvatske gospođu Kolindu Grabar Kitarović,<kinesic type="applause"><desc>Pljesak.</desc></kinesic> predsjednika Vlade Republike Hrvatske gospodina Tihomira Oreškovića i sve nazočne ministre.</seg>
+               <kinesic type="applause"><desc>Pljesak.</desc></kinesic>
+               <seg xml:id="seg4">Posebno pozdravljam mandatara za sastavljanje Vlade Republike Hrvatske gospodina Andreja Plenkovića.</seg>
+               <kinesic type="applause"><desc>Pljesak.</desc></kinesic>
+               <seg xml:id="seg5">Pozdravljam predsjednika Ustavnog suda gospodina Miroslava Šeparovića i predsjednika Vrhovnog suda gospodina Branka Hrvatina.</seg>
+               <kinesic type="applause"><desc>Pljesak.</desc></kinesic>
+               <seg xml:id="seg6">Pozdravljam načelnika Glavnog stožera Oružanih snaga Republike Hrvatske generala zbora Mirka Šundova.</seg>
+               <kinesic type="applause"><desc>Pljesak.</desc></kinesic>
+               <seg xml:id="seg7">Pozdravljam dosadašnje poštovane potpredsjednike, zastupnice i zastupnike osmog saziva Hrvatskog sabora kao i novoizabrane zastupnice i zastupnike u Hrvatski sabor.</seg>
+               <seg xml:id="seg8">Pozdravljam nazočne dosadašnje predsjednike Hrvatskog sabora gospodina Žarka Domljana, gospodina Josipa Manolića, gospođu Katicu Ivanišević, gospodina Vladimira Šeksa i gospodina Josipa Leku.</seg>
+               <kinesic type="applause"><desc>Pljesak.</desc></kinesic>
+               <seg xml:id="seg9">Također posebno pozdravljam nazočne članove Europskog parlamenta iz Republike Hrvatske gospođu Ivanu Maletić, gospođu Marijanu Petir, gospođu Dubravku Šuicu i gospodina Jozu Radoša.</seg>
+               <kinesic type="applause"><desc>Pljesak.</desc></kinesic>
+               <seg xml:id="seg10">Pozdravljam glavnog državnog odvjetnika gospodina Dinka Cvitana kao i nazočne visoke dužnosnike sigurnosne obavještajne zajednice Republike Hrvatske.</seg>
+               <kinesic type="applause"><desc>Pljesak.</desc></kinesic>
+               <seg xml:id="seg11">Pozdravljam predsjednika Hrvatske akademije znanosti i umjetnosti akademika Zvonka Kusića.</seg>
+               <kinesic type="applause"><desc>Pljesak.</desc></kinesic>
+               <seg xml:id="seg12">Predsjednika Rektorskog zbora i rektora Svučilišta u Splitu profesora doktora Šimuna Anđelinovića.</seg>
+               <kinesic type="applause"><desc>Pljesak.</desc></kinesic>
+               <seg xml:id="seg13">Također pozdravljam nazočne rektore hrvatskih sveučilišta, rektore Sveučilišta u Zagrebu, profesora doktora Damira Borasa.</seg>
+               <kinesic type="applause"><desc>Pljesak.</desc></kinesic>
+               <seg xml:id="seg14">Rektoricu Sveučilišta u Zadru profesoricu doktoricu Dijanu Vican.</seg>
+               <kinesic type="applause"><desc>Pljesak.</desc></kinesic>
+               <seg xml:id="seg15">Rektora Sveučilišta Jurja Dobrile u Puli, profesora doktora Alfia Barbieria, <kinesic type="applause"><desc>Pljesak.</desc></kinesic>te rektora Katoličkog sveučilišta profesora doktora Željka Tanjića.</seg>
+               <kinesic type="applause"><desc>Pljesak.</desc></kinesic>
+               <seg xml:id="seg16">Osobita mi je čast pozdraviti uzoritog kardinala Josipa Bozanića, zagrebačkog nadbiskupa <kinesic type="applause"><desc>Pljesak.</desc></kinesic>i monsinjora Želimira Puljića, zadarskog nadbiskupa i predsjednika Hrvatske biskupske konferencije.</seg>
+               <kinesic type="applause"><desc>Pljesak.</desc></kinesic>
+               <seg xml:id="seg17">Upućujem posebni pozdrav predsjedniku Židovske općine doktoru Ognjenu Krausu i rabinu Licianu Moši Preleviću <kinesic type="applause"><desc>Pljesak.</desc></kinesic>kao i predstavniku Židovske zajednice „Bet Israel“ u Republici Hrvatskoj rabinu doktoru Kotelu Da-doneu <kinesic type="applause"><desc>Pljesak.</desc></kinesic>te predstavniku Židovske organizacije „Menora“ rabinu Pini Zaklasu.</seg>
+               <kinesic type="applause"><desc>Pljesak.</desc></kinesic>
+               <seg xml:id="seg18">Također pozdravljam i sve ostale nazočne predstavnike vjerskih zajednica u Republici Hrvatskoj.</seg>
+               <seg xml:id="seg19">Pozdravljam guvernera Hrvatske narodne banke gospodina Borisa Vujčića.</seg>
+               <kinesic type="applause"><desc>Pljesak.</desc></kinesic>
+               <seg xml:id="seg20">Posebno pozdravljam apostolskog nuncija Alessandra Derika te sve nazočne predstavnike diplomatskog zbora u Republici Hrvatskoj.</seg>
+               <kinesic type="applause"><desc>Pljesak.</desc></kinesic>
+               <seg xml:id="seg21">Pozdravljam glavnog državnog revizora gospodina Ivana Klešića <kinesic type="applause"><desc>Pljesak.</desc></kinesic>i predsjednika Hrvatske gospodarske komore gospodina Luku Burilovića.</seg>
+               <kinesic type="applause"><desc>Pljesak.</desc></kinesic>
+               <seg xml:id="seg22">Pozdravljam povjerenicu za informiranje gospođu Ana-Mariju Musu.</seg>
+               <kinesic type="applause"><desc>Pljesak.</desc></kinesic>
+               <seg xml:id="seg23">Pravobraniteljicu za djecu gospođu Ivanu Milas Klarić,<kinesic type="applause"><desc>Pljesak.</desc></kinesic> te pravobraniteljicu za ravnopravnost spolova gospođu Višnju Ljubičić.</seg>
+               <kinesic type="applause"><desc>Pljesak.</desc></kinesic>
+               <seg xml:id="seg24">Pozdravljam predsjednika Savjeta za nacionalne manjine Vlade Republike Hrvatske gospodina Aleksandra Tolnauera <kinesic type="applause"><desc>Pljesak.</desc></kinesic>i predsjednika Hrvatskog Helsinškog odbora gospodina Ivana Zvonimira Čička.</seg>
+               <kinesic type="applause"><desc>Pljesak.</desc></kinesic>
+               <seg xml:id="seg25">Pozdravljam predsjednicu javno-bilježničke, Hrvatske javnobilježničke komore gospođu Luciju Popov <kinesic type="applause"><desc>Pljesak.</desc></kinesic>i predsjednika Hrvatske obrtničke komore gospodina Dragutina Ranogajeca,<kinesic type="applause"><desc>Pljesak.</desc></kinesic> predsjednicu i glavnog direktora Hrvatske udruge poslodavaca gospođu Gordanu Deranju i gospodina Davora Majetića.</seg>
+               <kinesic type="applause"><desc>Pljesak.</desc></kinesic>
+               <seg xml:id="seg26">Pozdravljam i nazočne predstavnike sindikalnih organizacija u Republici Hrvatskoj gospodina Krešimira Severa <kinesic type="applause"><desc>Pljesak.</desc></kinesic>i gospodina Vedrana Dragičevića, te ostale cijenjene uzvanike.</seg>
+               <kinesic type="applause"><desc>Pljesak.</desc></kinesic>
+               <seg xml:id="seg27">Sve vas srdačno pozdravljam na ovoj konstituirajućoj prvoj sjednici devetog saziva Hrvatskog sabora.</seg>
+               <seg xml:id="seg28">Gospođe i gospodo na temelju odredbe članka 98. stavka 1. podstavka 1. a u svezi s odredbom članka 74. stavka 2. Ustava Republike Hrvatske te članka 5. stavka 1. Zakona o izborima zastupnika u Hrvatski sabor predsjednica republike donijela je odluku o raspisivanju izbora za zastupnike u Hrvatski sabor koji su održani u nedjelju 11. rujna 2016. Izbori na biračkim mjestima u diplomatsko konzularnim predstavništvima Republike Hrvatske održali su se u subotu 10. rujna 2016. godine i u nedjelju 11. rujna 2016. godine.</seg>
+               <seg xml:id="seg29">Državno izborno povjerenstvo 26. rujna 2016. godine objavilo je službeno rezultate izbora za zastupnike u Hrvatski sabor. Predsjednica Republike Hrvatske na temelju članka 98. stavka 1. podstavka 1. Ustava Republike Hrvatske sazvala je Hrvatski sabor na prvo zasjedanje.</seg>
+               <seg xml:id="seg30">Izvješćujem vas da je prema izvješću Državnog izbornog povjerenstva 26. rujna 2016. godine u Hrvatski sabor izabran 151 zastupnik, odnosno zastupnica. Prema evidencijskim listićima dosada je evidentirana nazočnost 145 zastupnica i zastupnika.</seg>
+               <seg xml:id="seg31">Poštovane gospođe i gospodo dozvolite mi da vam se kao dosadašnji predsjednik Sabora, a to je nekad dobar običaj obratim sa nekoliko riječi. Poštovane gospođe i gospodo sada mi dopustite da kažem nekoliko riječi vezane uz sve ono što se zbivalo u zadnje vrijeme tijekom 8. saziva Hrvatskog sabora. Prije nego što krenemo na dnevni red sjednice želim iskoristiti ovaj svečani trenutak demokracije kako bih se kratko osvrnuo na rad upravo tog 8. saziva Hrvatskog sabora.</seg>
+               <seg xml:id="seg32">Razdoblje u kojem sam imao čast predsjedati u ovom visokom domu bilo je turbulentno i u političkom smislu značajno različito od prethodnih razdoblja. Trajalo je niti pola godine i bilo je obilježeno mnogim lutanjima u politici iako je trenutak bio takav da se tražila jasna vizija i jedinstvo te zajedništvo kojem nažalost nismo svjedočili.</seg>
+               <seg xml:id="seg33">Na mnogo toga što smo u tom kratkom vremenu učinili sam ponosan, no istodobno sam duboko svjestan da smo mogli i morali učiniti mnogo više i za mnogo toga mi je žao što smo propustili učiniti. Naime, Sabor kako vrhovno tijelo parlamentarne demokracije suodgovoran je za sve ono dobro što se događalo ne samo u ovih 6 mjeseci, već i u cijeloj kratkoj četvrtstoljetnoj povijesti Hrvatske, ali i za ono što nije bilo baš tako dobro odnosno što se moglo, što je moglo i trebalo biti bolje.</seg>
+               <seg xml:id="seg34">Ustrajnost demokratski izbranog višestranačkog Sabora u obrani hrvatskog suvereniteta i identiteta koja je okrunjena proglašenjem Božićnog ustava i donošenjem odluka kojima je Hrvatska pod vodstvom svog prvog predsjednika doktora Franje Tuđmana konačno ostvarila i punu neovisnost i samostalnost obranjenu životima 15 000 njenih građana u srbočetničkoj agresiji, nadajmo se i posljednjem nasrtaju na hrvatski suverenitet i nacionalni identitet treba biti uzor parlamentarne demokracije.</seg>
+               <seg xml:id="seg35">Priznajmo sami sebi da to u posljednjem razdoblju nismo uvijek bili. Upravo zbog svih onih koji su dali svoje živote za Hrvatsku i koje nikada ne smijemo zaboraviti moramo biti kao što je svojedobno rekao Abraham Lincoln „Prema nikome zluradi i prema svima milosrdni.“ Nije to međutim uvijek lako, ali moramo biti takvi ponajprije zbog sebe i svojih potomaka. Mnoge diskusije su se u prošlom sazivu Sabora umjesto o gospodarstvu, investicijama, demografskoj obnovi i pronatalitetnoj politici, nezaposlenosti i ostalim ključnim i životnim pitanjima koja muče hrvatske građane vodile o događajima od prije 70 ili 75 godina a da pri tom ništa konkretnoga nije učinjeno barem na pokušaju rasvjetljavanja primjerice zločina koji su se dogodili nakon završetka 2. svjetskog rata.</seg>
+               <seg xml:id="seg36">Kada je već zato očito nije bilo prave političke volje a nema se dojam niti da će ubrzo biti, nadam se da će se ovaj sastav Sabora voditi riječima Adolfa Suareza španjolskog premijera koji je proveo tranziciju te zemlje iz diktature frankizma u parlamentarnu demokraciju, citiram „Za stvaranje demokracije važno je ostaviti na miru pepeo prošlosti i okrenuti se zidanju temelja budućnost.“ I mi to moramo učiniti ne samo zbog sebe već još više zbog svojih potomaka. Zbog svojih potomaka moramo i dalje razvijati parlamentarnu demokraciju. Jer samo u pravoj istinskoj demokraciji i poštivanju osobne slobode svakog pojedinca da misli i kaže sve što želi i u što vjeruje ako to ne ugrožava drugog pojedinca.</seg>
+               <seg xml:id="seg37">Naša domovina može ostvariti sve svoje snove, snove niza generacija koje su zamišljale život u slobodnoj neovisnoj Hrvatskoj, snove poput onoga kojeg je izrekao Eugen Kumičić u čast sedamdesetog rođendana doktora Ante Starčevića, citiram „Krasna zemlja u kojoj živimo i more, cijele njezine obale i mi svi ovdje i mi svi ostali Hrvati i naš milozvučni i sjajni stari uvijek mladi hrvatski jezik, i to je naša domovina. Sva naša prošlost, sadašnjost i budućnost, svi naši umnici i junaci, mrtvi i živi i oni koji će se roditi od hrvatske majke i to je naša domovina.“</seg>
+               <seg xml:id="seg38">Za tu domovinu ništa nije i ne smije biti teško učiniti, ni jedna žrtva ne može biti prevelika. Za tu i takvu domovinu moramo biti bolji, uspješniji, pošteniji, tolerantniji jedni prema drugima, moramo svim silama nastojati postići konsenzus oko dugoročnih i strateških pitanja važnih za opstanaka Hrvatske kao države i nacije. No, u kratkom razdoblju od nepunih pola godine tijekom 8. saziva Sabora učinjene su i neke dobre stvari. Ponosan sam što smo uspjeli vratiti pokroviteljstvo obilježavanja stradanja nevinih hrvatski žrtava u Bleiburgu i time konačno prekinuti podjelu nevinih žrtava na naše i vaše od kojih su jedne očito bile smatrane vrjednijim od drugih, odnosno prekinuti ignoriranje europskih i općecivilizacijskih i standarda o podjednakoj osudi svih totalitarnih režima pa tako i komunističkog i činjenicu da je zločin uvijek zločin i samo obični zločin bez obzira na to kojom se ideološkom krinkom pokušao prekriti.</seg>
+               <seg xml:id="seg39">Ponosan sam što je obilježavanje proboja zatočenika iz koncentracijskog logora Jasenovac u spomen na sve stradale i zločine koji su se dogodili u tom logoru ove godine nije bilo ispolitizirano niti političkim govorima, niti neprimjerenim ponašanjem zlorabljeno u svrhu bilo koje političke opcije, već je to učinjeno s dostojanstvom koje priliči takvom događaju</seg>
+               <seg xml:id="seg40">Ponosan sam što smo prvi put ove godine u Hrvatskom saboru obilježili Europski dan sjećanja na žrtve svih totalitarnih i autoritarnih režima. Naime, odlukom da se taj dan u Hrvatskoj proglasi spomendanom Sabor je loš u lipnju 2011. godine donijevši Deklaraciju o osudi zločina počinjenih tijekom totalitarno komunističkog poretka u Hrvatskoj 1945. do 1990. godine izrazio svoju jasnu osudu ne samo nacističkih i fašističkih već i komunističkih zločina, ali nikada prije taj spomendan nije bio obilježen u Hrvatskom saboru. Nadam se da će se ubuduće redovito obilježavati.</seg>
+               <seg xml:id="seg41">Ponosan sam što smo u Saboru obilježili 100. obljetnicu službenog, pravnog i institucionalnog priznanja islama u Hrvatskoj. Isticanje da su muslimani u Hrvatskoj javnosti prepoznati i cijenjeni kao autohtoni potpuno integrirani, tolerantni ljudi i sastavni dio hrvatskog života i kulture koji su mnogi od njih bitno pridonijeli, osobito je važno u ovo vrijeme porasta vjerske netrpeljivosti u mnogim dijelovima svijeta, pa i nekima nama vrlo blizim, uključujući i neke europske zemlje, posebice pod utjecajem migrantske krize.</seg>
+               <seg xml:id="seg42">Upravo je stoga važno da model odnosa u Hrvatskoj između države Islamske zajednice ponudimo kao primjer i rješenje za mnoge zemlje koje danas imaju problema u odnosima između države Islamske zajednice kako one neislamske zemlje s islamskim stanovništvom tako i one islamske sa svojim građanima neislamskim vjeroispovijesti.</seg>
+               <seg xml:id="seg43">Ponosan sam i na to što je Sabor barem dijelom svojim odlukama sudjelovao u početku gospodarskog oporavka Hrvatske kojim zorno svjedočimo jer je nakon više godina smanjivanja BDP porastao, a razina javnog duga smanjena za oko 5 milijardi kuna.</seg>
+               <seg xml:id="seg44">Nerijetko sam se pitao slušajući poneke rasprave u Saboru, želimo li mi kao društvo uistinu prosperitet, socijalnu pravdu, zaštitu potrebitih i nemoćnih, pravednost i meritokraciju ili nam sve to služi samo kao zgodne uzrečice u trenucima kada nam zatrebaju, a trebali bismo upravo takvo željeti i nastojati ostvariti.</seg>
+               <seg xml:id="seg45">Trebali bismo ostvariti ono što je savjetovao još davno otac hrvatske književnosti Marko Marulić, „Održavajte sabore, o stvarima općima se savjetujte, po redu, zakonu, po pravdi, iskreno početno odlučujte. Nikakva strast i mržnja nek dušu vam ne mori i nepristrano osluhujte savjete ća narod vam ih zbori“. Kad bismo se uvijek toga držali uvjeren sam da bi ovaj Sabor bio više cijenjen među građanima koje predstavlja.</seg>
+               <seg xml:id="seg46">U svom radu zastupnici trebaju biti i proaktivni i hrabri i uvijek se prisjećati stihova Dantea Alighieria da su „najmračnija mjesta pakla rezervirana za one koji zadrže svoju neutralnost u kriznim vremenima“. A sada su upravo takva vremena i ona traže jasan odgovarajući politički odgovor.</seg>
+               <seg xml:id="seg47">Da bismo to ostvarili parafrazirat ću Charlesa Pickeringa koji je rekao „Zdrava demokracija zahtjeva časno društvo“. Trebali bismo biti časni, velikodušni, tolerantni i puni međusobnog uvažavanja.</seg>
+               <seg xml:id="seg48">Čast, čestitost, poštenje, odricanje od sitnih osobnih ili skupnih interesa osobito političara i državnika, jedino mogu ovu zemlju pokrenuti u pravom smjeru. Duboko sam uvjeren da će se to dogoditi. I ja ću osobno uložiti sve svoje sposobnosti i napore da pomognem budućem predsjedniku Hrvatskog sabora i cijelom ovom Visokom domu, budućem premijeru i hrvatskoj Vladi da to zajedno ostvarimo, a nadam se da će to učiniti i svi ostali zastupnici.</seg>
+               <seg xml:id="seg49">U tom nastojanju čuvao vas sve dragi Bog, čuvao ovaj Hrvatski sabor, čuvao sve zastupnike i zastupnice, Hrvatice i Hrvate, sve hrvatske građanke i građane i jedinu nam i vječnu Hrvatsku.</seg>
+               <kinesic type="applause"><desc>Pljesak</desc></kinesic>
+            </u>
+            <u who="#ReinerŽeljko" ana="#chair" xml:id="ParlaMint-HR_S01.u2" n="324922">
+               <seg xml:id="seg51">Nakon ovih riječi koje sam imao potrebu izreći poštovane gospođe i gospodo, da bi Hrvatski sabor bio konstituiran sukladno članku 74. Ustava RH i članku 4. Poslovnika Hrvatskog sabora uz nazočnost većine zastupnika, potrebno je pristupiti izboru predsjednika Hrvatskog sabora.</seg>
+               <seg xml:id="seg52">Člankom 5. Poslovnika Hrvatskog sabora utvrđeno je da pravo podnošenja prijedloga na Konstituirajućoj sjednici za izbor predsjednika Hrvatskog sabora ima najmanje jedna trećina zastupnika Hrvatskog sabora.</seg>
+               <seg xml:id="seg53">Za izbor predsjednika Sabora podnesen je jedan prijedlog. Na temelju članka 5. Poslovnika Hrvatskog sabora za predsjednika Hrvatskog sabora predložen je zastupnik gospodin Božo Petrov.</seg>
+               <seg xml:id="seg54">Želi li netko od predlagatelja obrazložiti prijedlog? Da. Izvolite.</seg>
+               <seg xml:id="seg55">Uvažena zastupnica Strenja-Linić.</seg>
+               <seg xml:id="seg56">Izvolite.</seg>
+            </u>
+            <gap reason="editorial"><desc xml:lang="en">SAMPLING</desc></gap>
+            <u who="#KrižanićJosip" ana="#regular" xml:id="ParlaMint-HR_S01.u3850" n="331392">
+               <seg xml:id="seg21199">Poštovani predsjedniče, kolegice i kolega! Nastavno na ovu temu, da u posljednjih mjesec dana imamo tri ugroze: kvrgava koža, salmonela i ptičja gripa. I mislim da je ministar promptno i dobro reagirao u sva tri slučaja. Međutim, želim ja vrlo jasno reći za ovom govornicom, da je uvoznički lobij uništio hrvatsku poljoprivredu i stočarstvo, da uvozimo preko tri milijarde eura hrane upitne kvalitete. Kad kažem upitne, onda smatram da je to roba rubnog roka trajanja i bez vidljive deklaracije, bez datuma prvog smrzavanja i lošije kvalitete.</seg>
+               <seg xml:id="seg21200">Primjerice, meso nema nigdje u EU rok trajanja propisan. Ali pametne zemlje određuju preporuku. Nije dokazano da je takvo meso zdravstveno neispravno, ali je dokazano da je loše kvalitete. Problem je ako se takvo meso odmrzava i prodaje pod svježe.</seg>
+               <seg xml:id="seg21201">Mi, Hrvatska ne može i ne smije biti čistač Europe. Ono što bi oni bacili u kafileriju to mi uvozimo. Hrvatski proizvodi se kontroliraju dobro i to vam jamčim. Nadstandardi, nitko nam ne zabranjuje da mi imamo nadstandarde i na ovo meso koje se uvozi na granicama. Tražimo pod hitno da se riješi Zakon o poštenoj trgovačkoj praksi jer je premala učestalost kontrole na granicama. Ne može se zbog par miliona kuna, dame i gospodo to sam vam već i govorio u ovome Saboru, saborskih, proračunskih sredstava dovoditi u pitanje zdravlje ljudi i smrt koja se dogodila prije mjesec dana.</seg>
+               <seg xml:id="seg21202">Tražimo da Zakon o trgovačkoj praksi uvedemo čim prije. To podrazumijeva zakon koji ne dopušta cijene koje su ispod proizvođačke cijene. Ne može ista namirnica u trgovačkom centru u Austriji koštati jedan euro, a u Hrvatskoj pola eura. Šta to znači? To znači da trgovački lanci stranih vlasnika bez ikakve kontrole dopremaju hranu upitne kvalitete, koja je tri puta subvencionirana od zemlje izvoznice i time uništavaju hrvatsku poljoprivredu.</seg>
+               <seg xml:id="seg21203">Ali ne samo poljoprivredu nego i industrijsku proizvodnju. Izvlače enormnu dobit. Slijedom Uredbe 141/15 dužni smo vezano uz ovu situaciju koja se događa u proteklo vrijeme neselektivno pretraživati ove uvezene namirnice. Napominjem, radi se o ljudskim životima.</seg>
+               <seg xml:id="seg21204">Dragi prijatelji, tu je i ministar, mi ovdje moramo postaviti političku volju jer državni interes proizvodnja ili uvoz. Moramo maksimalno pozitivno diskriminirati domaću proizvodnju na način kao što to rade naši susjedi. I to je moguće napraviti uz tzv. „zavičajnu prodaju“. Kratki lanci dostave. Tko nama brani da naša vojska, policija, bolnice ili starački domovi ne jedu hranu iz becije kod koje se nalaze? Tko nama brani da po primjeru Austrije 80% domaće robe mora biti na policama trgovačkih lanaca. To je nepisano pravilo. Pogledajte koliko je po našim trgovačkim pravilnicima. Moramo mijenjati svijest ljudi.</seg>
+               <seg xml:id="seg21205">Hvala lijepo.</seg>
+            </u>
+            <u who="#ReinerŽeljko" ana="#chair" xml:id="ParlaMint-HR_S01.u3851" n="331393">
+               <seg xml:id="seg21207">Hvala lijepa.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

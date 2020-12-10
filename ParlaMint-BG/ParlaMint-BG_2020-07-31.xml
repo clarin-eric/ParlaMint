@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#covid" xml:id="ParlaMint-BG_2020-07-31" xml:lang="bg">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="bg">Български парламентарен корпус ParlaMint-BG (2020-07-31) [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Bulgarian Parliamentary Corpus ParlaMint-BG (2020-07-31) [ParlaMint SAMPLE]</title>
+            <title type="sub" xml:lang="bg">Стенограмa от 394 пленарнo заседаниe на 9 сесия на 44 Народно събрание на Република България (2020-07-31)</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Bulgarian National Assembly, Term 44, Session 9, Meeting 394 (2020-07-31)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#NS" n="394">394 пленарно заседание</meeting>
+            <meeting ana="#parla.session" corresp="#NS" n="9">9 парламентарна сесия</meeting>
+            <meeting ana="#parla.term" corresp="#NS" n="44">Четиридесет и четвърто народно събрание</meeting>
+            <respStmt>
+               <persName xml:lang="bg">Владислава Григорова</persName>
+               <persName xml:lang="en">Vladislava Grigorova</persName>
+               <resp xml:lang="bg">Сваляне, почистване и конвертиране до XML</resp>
+               <resp xml:lang="en">Download, clean-up converting of the data to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-4484-5027" xml:lang="bg">Петя Осенова</persName>
+               <persName ref="https://orcid.org/0000-0002-4484-5027" xml:lang="en">Petya Osenova</persName>
+               <resp xml:lang="bg">Кодиране в Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3555-0179" xml:lang="bg">Кирил Симов</persName>
+               <persName ref="https://orcid.org/0000-0003-3555-0179" xml:lang="en">Kiril Simov</persName>
+               <resp xml:lang="bg">Валидиране на корпуса Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Parla-CLARIN TEI XML corpus validation</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="bg">Изследователска инфраструктура CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>1.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure quantity="224" unit="speeches" xml:lang="bg">224 изказвания</measure>
+            <measure quantity="224" unit="speeches" xml:lang="en">224 speeches</measure>
+            <measure quantity="29931" unit="words" xml:lang="bg">29 931 думи</measure>
+            <measure quantity="29931" unit="words" xml:lang="en">29,931 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="bg">Изследователска инфраструктура CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URL">https://github.com/clarin-eric/ParlaMint</idno>
+            <pubPlace><ref target="https://github.com/clarin-eric/ParlaMint">https://github.com/clarin-eric/ParlaMint</ref></pubPlace>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+               <p xml:lang="bg">Този ресурс е лицензиран под лиценз:<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2020-12-10">2020-12-10</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl><title>Multilingual comparable corpora of parliamentary debates ParlaMint 1.0</title><idno type="handle">http://hdl.handle.net/11356/1167</idno></bibl>
+            <bibl>
+               <title type="main">Minutes of the National Assembly of the Republic of Bulgaria</title>
+               <idno type="URI">https://parliament.bg/bg/plenaryst</idno>
+               <date when="2020-07-31">2020-07-31</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="bg">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="35"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="incident" occurs="2"/>
+               <tagUsage gi="kinesic" occurs="13"/>
+               <tagUsage gi="seg" occurs="930"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="224"/>
+               <tagUsage gi="vocal" occurs="20"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">2 Narodno Sabranie Sq.</name>
+               <name type="city">Sofia</name>
+               <name key="BG" type="country">Bulgaria</name>
+               <date when="2020-07-31">2020-07-31</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2020-12-10"><name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2020-10-14">
+            <name>Tomaž Erjavec</name>: Small fixes for ParlaMint.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="bg">
+      <body>
+         <div type="debateSection">
+            <u ana="#chair" n="147209" who="#KarayanchevaTsveta" xml:id="ParlaMint-BG_2020-07-31.u1">
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg1">Има кворум. Откривам заседанието.</seg>
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg2">Уважаеми колеги, преди началото на пленарното заседание да поздравим нашите сънародници – мюсюлмани, по повод свещения празник Курбан байрам. Да им пожелаем здраве, мир и благоденствие!</seg>
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg3">Този светъл празник е повод да размислим върху ценностите на добротата, състрадателността, толерантността и уважението към другия и отново да изразим волята си всички български граждани да живеем в разбирателство.</seg>
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg4">Честит празник!</seg>
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg5">Господин Цонев, заповядайте и Вие.</seg>
+            </u>
+            <u ana="#regular" n="147210" who="#TzonevJordan" xml:id="ParlaMint-BG_2020-07-31.u2">
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg6">Благодаря Ви, госпожо Председател.</seg>
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg7">Уважаеми колеги, днес мюсюлманите в България и по света празнуват един от най-големите мюсюлмански празници Курбан байрам. От името на парламентарната група на „Движението за права и свободи“ поздравявам всички мюсюлмани в България.</seg>
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg8">Курбан байрам е празник на опрощението, празник на милосърдието, празник на укрепване на вярата – милосърдието към ближния, милосърдието към себеподобния, взаимопомощта, особено ценни в днешните трудни и сложни времена.</seg>
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg9">Прошката – на днешния ден мюсюлманите искат прошка от по-възрастните, от родителите си, от дядовците, от бабите си, както ние християните искаме прошка преди Великия пост.</seg>
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg10">От името на парламентарната група пожелавам на всички мюсюлмани в България здраве в семейството, да бъдат здрави самите те! Пожелавам им успехи, пожелавам им наистина да бъдат стълбове на помощта, на мира, на стабилността, както винаги са били в нашата обща родина Република България.</seg>
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg11">Да сте живи и здрави! Честит празник, скъпи приятели!</seg>
+               <kinesic type="applause"><desc>Ръкопляскания.</desc></kinesic>
+            </u>
+            <gap reason="editorial"><desc xml:lang="en">SAMPLING</desc></gap>
+            <u ana="#regular" n="147431" who="#SimeonovEmil" xml:id="ParlaMint-BG_2020-07-31.u223">
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg920">Уважаеми господин Симеонов – господин Председател, уважаеми народни представители, уважаеми квестори, стенографи, компютърни експерти, уважаеми служители на Народното събрание, уважаеми служители на Българското национално радио и Българската национална телевизия! Днес е последният ден на тази сесия в Четиридесет и четвъртото народно събрание. От есента дейността на парламента се премества в друга сграда. Днес като министър на околната среда и водите на практика съм последният министър, който отговаря в парламентарен контрол в тази сграда, в тази зала и от тази трибуна. Имах честта тук да бъда пет години народен представител – в два парламента, включително заместник-председател и председател на няколко парламентарни комисии.</seg>
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg921">Искам да благодаря и да изкажа почит и уважение на всички, които са заставали на тази трибуна!</seg>
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg922">От днес тази сграда остава в историята. Позволете ми за последен път да прочета текста на клетвата от Конституцията на Република България – чл. 76, ал. 2, в която всички народни представители, депутати в тази сграда, премиери и министри са полагали: „Заклевам се в името на Република България <incident type="action"><desc>присъстващите в залата народни представители стават</desc></incident> да спазвам Конституцията и законите на страната и във всичките си действия да се ръководя от интересите на народа. Заклех се!“</seg>
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg923">Уважаеми господин Председател, на Вас се пада честта да съобщите датата, часа и мястото на следващата парламентарна сесия и да закриете последното заседание в тази сграда, след което тя да стане част от българската парламентарна история, с която всички ние трябва да се гордеем.</seg>
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg924">Още веднъж благодаря! За мен беше чест! Да живее България!</seg>
+               <kinesic type="applause"><desc>Ръкопляскания.</desc></kinesic>
+            </u>
+            <u ana="#chair" n="147432" who="#SimeonovValeri" xml:id="ParlaMint-BG_2020-07-31.u224">
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg925">Да живее България!</seg>
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg926">Благодаря, господин Димитров.</seg>
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg927">Начинът, по който започнахте, силно ме притесни. Помислих, че ще си подадете оставката, но слава богу…</seg>
+               <vocal type="noise"><desc>Оживление.</desc></vocal>
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg928">Поради изчерпване на дневния ред закривам заседанието.</seg>
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg929">Следващото заседание на Народното събрание ще се проведе в новата пленарна зала в Народно събрание 2 – бившия Партиен дом, на 2 септември 2020 г. от 9,00 ч.</seg>
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg930">Приятна почивка.</seg>
+               <kinesic type="ringing"><desc>Звъни.</desc></kinesic>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

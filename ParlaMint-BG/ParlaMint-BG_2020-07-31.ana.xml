@@ -1,0 +1,1574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#covid" xml:id="ParlaMint-BG_2020-07-31.ana" xml:lang="bg">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="bg">Български парламентарен корпус ParlaMint-BG (2020-07-31) [ParlaMint.ana SAMPLE]</title>
+            <title type="main" xml:lang="en">Bulgarian Parliamentary Corpus ParlaMint-BG (2020-07-31) [ParlaMint.ana SAMPLE]</title>
+            <title type="sub" xml:lang="bg">Стенограмa от 394 пленарнo заседаниe на 9 сесия на 44 Народно събрание на Република България (2020-07-31)</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Bulgarian National Assembly, Term 44, Session 9, Meeting 394 (2020-07-31)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#NS" n="394">394 пленарно заседание</meeting>
+            <meeting ana="#parla.session" corresp="#NS" n="9">9 парламентарна сесия</meeting>
+            <meeting ana="#parla.term" corresp="#NS" n="44">Четиридесет и четвърто народно събрание</meeting>
+            <respStmt>
+               <persName xml:lang="bg">Владислава Григорова</persName>
+               <persName xml:lang="en">Vladislava Grigorova</persName>
+               <resp xml:lang="bg">Сваляне, почистване и конвертиране до XML</resp>
+               <resp xml:lang="en">Download, clean-up converting of the data to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-4484-5027" xml:lang="bg">Петя Осенова</persName>
+               <persName ref="https://orcid.org/0000-0002-4484-5027" xml:lang="en">Petya Osenova</persName>
+               <resp xml:lang="bg">Кодиране в Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3555-0179" xml:lang="bg">Кирил Симов</persName>
+               <persName ref="https://orcid.org/0000-0003-3555-0179" xml:lang="en">Kiril Simov</persName>
+               <resp xml:lang="bg">Валидиране на корпуса Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Parla-CLARIN TEI XML corpus validation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="en">Linguistic annotation</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="bg">Изследователска инфраструктура CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>1.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure quantity="224" unit="speeches" xml:lang="bg">224 изказвания</measure>
+            <measure quantity="224" unit="speeches" xml:lang="en">224 speeches</measure>
+            <measure quantity="29931" unit="words" xml:lang="bg">29 931 думи</measure>
+            <measure quantity="29931" unit="words" xml:lang="en">29,931 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="bg">Изследователска инфраструктура CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URL">https://github.com/clarin-eric/ParlaMint</idno>
+            <pubPlace><ref target="https://github.com/clarin-eric/ParlaMint">https://github.com/clarin-eric/ParlaMint</ref></pubPlace>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+               <p xml:lang="bg">Този ресурс е лицензиран под лиценз:<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2020-12-10">2020-12-10</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl><title>Multilingual comparable corpora of parliamentary debates ParlaMint 1.0</title><idno type="handle">http://hdl.handle.net/11356/1167</idno></bibl>
+            <bibl>
+               <title type="main">Minutes of the National Assembly of the Republic of Bulgaria</title>
+               <idno type="URI">https://parliament.bg/bg/plenaryst</idno>
+               <date when="2020-07-31">2020-07-31</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="bg">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="34"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="incident" occurs="2"/>
+               <tagUsage gi="kinesic" occurs="12"/>
+               <tagUsage gi="seg" occurs="929"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="223"/>
+               <tagUsage gi="vocal" occurs="20"/>
+               <tagUsage gi="s" occurs="1671"/>
+               <tagUsage gi="name" occurs="1449"/>
+               <tagUsage gi="w" occurs="29931"/>
+               <tagUsage gi="pc" occurs="4816"/>
+               <tagUsage gi="linkGrp" occurs="1671"/>
+               <tagUsage gi="link" occurs="34747"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">2 Narodno Sabranie Sq.</name>
+               <name type="city">Sofia</name>
+               <name key="BG" type="country">Bulgaria</name>
+               <date when="2020-07-31">2020-07-31</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2020-12-10"><name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2020-10-14">
+            <name>Nikola Ljubešić</name>: Linguistic annotation.</change>
+         <change when="2020-10-14">
+            <name>Tomaž Erjavec</name>: Small fixes for ParlaMint.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="bg">
+      <body>
+         <div type="debateSection">
+            <u ana="#chair" n="147209" who="#KarayanchevaTsveta" xml:id="ParlaMint-BG_2020-07-31.u1">
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg1">
+                  <s xml:id="ParlaMint-BG_2020-07-31.seg1.1">
+                     <w lemma="има" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vnitf-r3s" xml:id="ParlaMint-BG_2020-07-31.seg1.1.1">Има</w>
+                     <w join="right" lemma="кворум" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg1.1.2">кворум</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg1.1.3">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root" target="#ParlaMint-BG_2020-07-31.seg1.1 #ParlaMint-BG_2020-07-31.seg1.1.1"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-BG_2020-07-31.seg1.1.1 #ParlaMint-BG_2020-07-31.seg1.1.2"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg1.1.1 #ParlaMint-BG_2020-07-31.seg1.1.3"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BG_2020-07-31.seg1.2">
+                     <w lemma="откривам-(се)" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vpitf-r1s" xml:id="ParlaMint-BG_2020-07-31.seg1.2.1">Откривам</w>
+                     <w join="right" lemma="заседание" msd="UPosTag=NOUN|Definite=Def|Gender=Neut|Number=Sing|XPosTag=Ncnsd" xml:id="ParlaMint-BG_2020-07-31.seg1.2.2">заседанието</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg1.2.3">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root" target="#ParlaMint-BG_2020-07-31.seg1.2 #ParlaMint-BG_2020-07-31.seg1.2.1"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-BG_2020-07-31.seg1.2.1 #ParlaMint-BG_2020-07-31.seg1.2.2"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg1.2.1 #ParlaMint-BG_2020-07-31.seg1.2.3"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg2">
+                  <s xml:id="ParlaMint-BG_2020-07-31.seg2.1">
+                     <w lemma="уважаем" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Number=Plur|XPosTag=A-pi" xml:id="ParlaMint-BG_2020-07-31.seg2.1.1">Уважаеми</w>
+                     <w join="right" lemma="колега" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Plur|XPosTag=Ncmpi" xml:id="ParlaMint-BG_2020-07-31.seg2.1.2">колеги</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg2.1.3">,</pc>
+                     <w lemma="преди" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg2.1.4">преди</w>
+                     <w lemma="начало" msd="UPosTag=NOUN|Definite=Def|Gender=Neut|Number=Sing|XPosTag=Ncnsd" xml:id="ParlaMint-BG_2020-07-31.seg2.1.5">началото</w>
+                     <w lemma="на" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg2.1.6">на</w>
+                     <w lemma="пленарен" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|XPosTag=Ansd" xml:id="ParlaMint-BG_2020-07-31.seg2.1.7">пленарното</w>
+                     <w lemma="заседание" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing|XPosTag=Ncnsi" xml:id="ParlaMint-BG_2020-07-31.seg2.1.8">заседание</w>
+                     <w lemma="да" msd="UPosTag=AUX|XPosTag=Tx" xml:id="ParlaMint-BG_2020-07-31.seg2.1.9">да</w>
+                     <w lemma="поздравя" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vpptf-r1p" xml:id="ParlaMint-BG_2020-07-31.seg2.1.10">поздравим</w>
+                     <w lemma="наш" msd="UPosTag=DET|Definite=Def|Number=Plur|Person=1|Poss=Yes|PronType=Prs|XPosTag=Pszl-p1-d" xml:id="ParlaMint-BG_2020-07-31.seg2.1.11">нашите</w>
+                     <w lemma="сънародник" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Plur|XPosTag=Ncmpi" xml:id="ParlaMint-BG_2020-07-31.seg2.1.12">сънародници</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg2.1.13">–</pc>
+                     <w join="right" lemma="мюсюлманин" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Plur|XPosTag=Ncmpi" xml:id="ParlaMint-BG_2020-07-31.seg2.1.14">мюсюлмани</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg2.1.15">,</pc>
+                     <w lemma="по" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg2.1.16">по</w>
+                     <w lemma="повод" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg2.1.17">повод</w>
+                     <w lemma="свещен" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|XPosTag=Amsh" xml:id="ParlaMint-BG_2020-07-31.seg2.1.18">свещения</w>
+                     <w lemma="празник" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg2.1.19">празник</w>
+                     <w lemma="курбан" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg2.1.20">Курбан</w>
+                     <w join="right" lemma="байрам" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg2.1.21">байрам</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg2.1.22">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg2.1.2 #ParlaMint-BG_2020-07-31.seg2.1.1"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-BG_2020-07-31.seg2.1 #ParlaMint-BG_2020-07-31.seg2.1.2"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg2.1.2 #ParlaMint-BG_2020-07-31.seg2.1.3"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg2.1.5 #ParlaMint-BG_2020-07-31.seg2.1.4"/>
+                        <link ana="ud-syn:obl" target="#ParlaMint-BG_2020-07-31.seg2.1.10 #ParlaMint-BG_2020-07-31.seg2.1.5"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg2.1.8 #ParlaMint-BG_2020-07-31.seg2.1.6"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg2.1.8 #ParlaMint-BG_2020-07-31.seg2.1.7"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg2.1.5 #ParlaMint-BG_2020-07-31.seg2.1.8"/>
+                        <link ana="ud-syn:aux" target="#ParlaMint-BG_2020-07-31.seg2.1.10 #ParlaMint-BG_2020-07-31.seg2.1.9"/>
+                        <link ana="ud-syn:acl" target="#ParlaMint-BG_2020-07-31.seg2.1.2 #ParlaMint-BG_2020-07-31.seg2.1.10"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-BG_2020-07-31.seg2.1.12 #ParlaMint-BG_2020-07-31.seg2.1.11"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-BG_2020-07-31.seg2.1.10 #ParlaMint-BG_2020-07-31.seg2.1.12"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg2.1.14 #ParlaMint-BG_2020-07-31.seg2.1.13"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg2.1.12 #ParlaMint-BG_2020-07-31.seg2.1.14"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg2.1.19 #ParlaMint-BG_2020-07-31.seg2.1.15"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg2.1.19 #ParlaMint-BG_2020-07-31.seg2.1.16"/>
+                        <link ana="ud-syn:fixed" target="#ParlaMint-BG_2020-07-31.seg2.1.16 #ParlaMint-BG_2020-07-31.seg2.1.17"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg2.1.19 #ParlaMint-BG_2020-07-31.seg2.1.18"/>
+                        <link ana="ud-syn:obl" target="#ParlaMint-BG_2020-07-31.seg2.1.10 #ParlaMint-BG_2020-07-31.seg2.1.19"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg2.1.19 #ParlaMint-BG_2020-07-31.seg2.1.20"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg2.1.20 #ParlaMint-BG_2020-07-31.seg2.1.21"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg2.1.2 #ParlaMint-BG_2020-07-31.seg2.1.22"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BG_2020-07-31.seg2.2">
+                     <w lemma="да" msd="UPosTag=AUX|XPosTag=Tx" xml:id="ParlaMint-BG_2020-07-31.seg2.2.1">Да</w>
+                     <w lemma="аз" msd="UPosTag=PRON|Case=Dat|Number=Plur|Person=3|PronType=Prs|XPosTag=Ppetdp3" xml:id="ParlaMint-BG_2020-07-31.seg2.2.2">им</w>
+                     <w lemma="пожелая" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vpptf-r1p" xml:id="ParlaMint-BG_2020-07-31.seg2.2.3">пожелаем</w>
+                     <w join="right" lemma="здраве" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing|XPosTag=Ncnsi" xml:id="ParlaMint-BG_2020-07-31.seg2.2.4">здраве</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg2.2.5">,</pc>
+                     <w lemma="мир" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg2.2.6">мир</w>
+                     <w lemma="и" msd="UPosTag=CCONJ|XPosTag=Cp" xml:id="ParlaMint-BG_2020-07-31.seg2.2.7">и</w>
+                     <w join="right" lemma="благоденствие" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing|XPosTag=Ncnsi" xml:id="ParlaMint-BG_2020-07-31.seg2.2.8">благоденствие</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg2.2.9">!</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:aux" target="#ParlaMint-BG_2020-07-31.seg2.2.3 #ParlaMint-BG_2020-07-31.seg2.2.1"/>
+                        <link ana="ud-syn:iobj" target="#ParlaMint-BG_2020-07-31.seg2.2.3 #ParlaMint-BG_2020-07-31.seg2.2.2"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-BG_2020-07-31.seg2.2 #ParlaMint-BG_2020-07-31.seg2.2.3"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-BG_2020-07-31.seg2.2.3 #ParlaMint-BG_2020-07-31.seg2.2.4"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg2.2.6 #ParlaMint-BG_2020-07-31.seg2.2.5"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg2.2.4 #ParlaMint-BG_2020-07-31.seg2.2.6"/>
+                        <link ana="ud-syn:cc" target="#ParlaMint-BG_2020-07-31.seg2.2.8 #ParlaMint-BG_2020-07-31.seg2.2.7"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg2.2.4 #ParlaMint-BG_2020-07-31.seg2.2.8"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg2.2.3 #ParlaMint-BG_2020-07-31.seg2.2.9"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg3">
+                  <s xml:id="ParlaMint-BG_2020-07-31.seg3.1">
+                     <w lemma="този" msd="UPosTag=DET|Gender=Masc|Number=Sing|PronType=Dem|XPosTag=Pde-os-m" xml:id="ParlaMint-BG_2020-07-31.seg3.1.1">Този</w>
+                     <w lemma="светъл" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|XPosTag=Amsi" xml:id="ParlaMint-BG_2020-07-31.seg3.1.2">светъл</w>
+                     <w lemma="празник" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg3.1.3">празник</w>
+                     <w lemma="съм" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vxitf-r3s" xml:id="ParlaMint-BG_2020-07-31.seg3.1.4">е</w>
+                     <w lemma="повод" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg3.1.5">повод</w>
+                     <w lemma="да" msd="UPosTag=AUX|XPosTag=Tx" xml:id="ParlaMint-BG_2020-07-31.seg3.1.6">да</w>
+                     <w lemma="размисля-(се)" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vpptf-r1p" xml:id="ParlaMint-BG_2020-07-31.seg3.1.7">размислим</w>
+                     <w lemma="върху" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg3.1.8">върху</w>
+                     <w lemma="ценност" msd="UPosTag=NOUN|Definite=Def|Gender=Fem|Number=Plur|XPosTag=Ncfpd" xml:id="ParlaMint-BG_2020-07-31.seg3.1.9">ценностите</w>
+                     <w lemma="на" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg3.1.10">на</w>
+                     <w join="right" lemma="доброта" msd="UPosTag=NOUN|Definite=Def|Gender=Fem|Number=Sing|XPosTag=Ncfsd" xml:id="ParlaMint-BG_2020-07-31.seg3.1.11">добротата</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg3.1.12">,</pc>
+                     <w join="right" lemma="състрадателност" msd="UPosTag=NOUN|Definite=Def|Gender=Fem|Number=Sing|XPosTag=Ncfsd" xml:id="ParlaMint-BG_2020-07-31.seg3.1.13">състрадателността</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg3.1.14">,</pc>
+                     <w lemma="толерантност" msd="UPosTag=NOUN|Definite=Def|Gender=Fem|Number=Sing|XPosTag=Ncfsd" xml:id="ParlaMint-BG_2020-07-31.seg3.1.15">толерантността</w>
+                     <w lemma="и" msd="UPosTag=CCONJ|XPosTag=Cp" xml:id="ParlaMint-BG_2020-07-31.seg3.1.16">и</w>
+                     <w lemma="уважение" msd="UPosTag=NOUN|Definite=Def|Gender=Neut|Number=Sing|XPosTag=Ncnsd" xml:id="ParlaMint-BG_2020-07-31.seg3.1.17">уважението</w>
+                     <w lemma="към" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg3.1.18">към</w>
+                     <w lemma="друг" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|XPosTag=Amsh" xml:id="ParlaMint-BG_2020-07-31.seg3.1.19">другия</w>
+                     <w lemma="и" msd="UPosTag=CCONJ|XPosTag=Cp" xml:id="ParlaMint-BG_2020-07-31.seg3.1.20">и</w>
+                     <w lemma="отново" msd="UPosTag=ADV|Degree=Pos|XPosTag=Dt" xml:id="ParlaMint-BG_2020-07-31.seg3.1.21">отново</w>
+                     <w lemma="да" msd="UPosTag=AUX|XPosTag=Tx" xml:id="ParlaMint-BG_2020-07-31.seg3.1.22">да</w>
+                     <w lemma="изразя-(се)" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vpptf-r1p" xml:id="ParlaMint-BG_2020-07-31.seg3.1.23">изразим</w>
+                     <w lemma="воля" msd="UPosTag=NOUN|Definite=Def|Gender=Fem|Number=Sing|XPosTag=Ncfsd" xml:id="ParlaMint-BG_2020-07-31.seg3.1.24">волята</w>
+                     <w lemma="свой" msd="UPosTag=PRON|Case=Nom|Poss=Yes|PronType=Prs|Reflex=Yes|XPosTag=Psxto" xml:id="ParlaMint-BG_2020-07-31.seg3.1.25">си</w>
+                     <w lemma="всеки" msd="UPosTag=DET|Case=Nom|Number=Plur|PronType=Tot|XPosTag=Pce-op" xml:id="ParlaMint-BG_2020-07-31.seg3.1.26">всички</w>
+                     <w lemma="български" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Number=Plur|XPosTag=A-pi" xml:id="ParlaMint-BG_2020-07-31.seg3.1.27">български</w>
+                     <w lemma="гражданин" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Plur|XPosTag=Ncmpi" xml:id="ParlaMint-BG_2020-07-31.seg3.1.28">граждани</w>
+                     <w lemma="да" msd="UPosTag=AUX|XPosTag=Tx" xml:id="ParlaMint-BG_2020-07-31.seg3.1.29">да</w>
+                     <w lemma="живея" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vpitf-r1p" xml:id="ParlaMint-BG_2020-07-31.seg3.1.30">живеем</w>
+                     <w lemma="в" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg3.1.31">в</w>
+                     <w join="right" lemma="разбирателство" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing|XPosTag=Ncnsi" xml:id="ParlaMint-BG_2020-07-31.seg3.1.32">разбирателство</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg3.1.33">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:det" target="#ParlaMint-BG_2020-07-31.seg3.1.3 #ParlaMint-BG_2020-07-31.seg3.1.1"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg3.1.3 #ParlaMint-BG_2020-07-31.seg3.1.2"/>
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-BG_2020-07-31.seg3.1.5 #ParlaMint-BG_2020-07-31.seg3.1.3"/>
+                        <link ana="ud-syn:cop" target="#ParlaMint-BG_2020-07-31.seg3.1.5 #ParlaMint-BG_2020-07-31.seg3.1.4"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-BG_2020-07-31.seg3.1 #ParlaMint-BG_2020-07-31.seg3.1.5"/>
+                        <link ana="ud-syn:aux" target="#ParlaMint-BG_2020-07-31.seg3.1.7 #ParlaMint-BG_2020-07-31.seg3.1.6"/>
+                        <link ana="ud-syn:acl" target="#ParlaMint-BG_2020-07-31.seg3.1.5 #ParlaMint-BG_2020-07-31.seg3.1.7"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg3.1.9 #ParlaMint-BG_2020-07-31.seg3.1.8"/>
+                        <link ana="ud-syn:iobj" target="#ParlaMint-BG_2020-07-31.seg3.1.7 #ParlaMint-BG_2020-07-31.seg3.1.9"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg3.1.11 #ParlaMint-BG_2020-07-31.seg3.1.10"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg3.1.9 #ParlaMint-BG_2020-07-31.seg3.1.11"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg3.1.13 #ParlaMint-BG_2020-07-31.seg3.1.12"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg3.1.11 #ParlaMint-BG_2020-07-31.seg3.1.13"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg3.1.15 #ParlaMint-BG_2020-07-31.seg3.1.14"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg3.1.11 #ParlaMint-BG_2020-07-31.seg3.1.15"/>
+                        <link ana="ud-syn:cc" target="#ParlaMint-BG_2020-07-31.seg3.1.17 #ParlaMint-BG_2020-07-31.seg3.1.16"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg3.1.11 #ParlaMint-BG_2020-07-31.seg3.1.17"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg3.1.19 #ParlaMint-BG_2020-07-31.seg3.1.18"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg3.1.17 #ParlaMint-BG_2020-07-31.seg3.1.19"/>
+                        <link ana="ud-syn:cc" target="#ParlaMint-BG_2020-07-31.seg3.1.23 #ParlaMint-BG_2020-07-31.seg3.1.20"/>
+                        <link ana="ud-syn:advmod" target="#ParlaMint-BG_2020-07-31.seg3.1.23 #ParlaMint-BG_2020-07-31.seg3.1.21"/>
+                        <link ana="ud-syn:aux" target="#ParlaMint-BG_2020-07-31.seg3.1.23 #ParlaMint-BG_2020-07-31.seg3.1.22"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg3.1.7 #ParlaMint-BG_2020-07-31.seg3.1.23"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-BG_2020-07-31.seg3.1.23 #ParlaMint-BG_2020-07-31.seg3.1.24"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-BG_2020-07-31.seg3.1.24 #ParlaMint-BG_2020-07-31.seg3.1.25"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-BG_2020-07-31.seg3.1.28 #ParlaMint-BG_2020-07-31.seg3.1.26"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg3.1.28 #ParlaMint-BG_2020-07-31.seg3.1.27"/>
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-BG_2020-07-31.seg3.1.30 #ParlaMint-BG_2020-07-31.seg3.1.28"/>
+                        <link ana="ud-syn:aux" target="#ParlaMint-BG_2020-07-31.seg3.1.30 #ParlaMint-BG_2020-07-31.seg3.1.29"/>
+                        <link ana="ud-syn:acl" target="#ParlaMint-BG_2020-07-31.seg3.1.24 #ParlaMint-BG_2020-07-31.seg3.1.30"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg3.1.32 #ParlaMint-BG_2020-07-31.seg3.1.31"/>
+                        <link ana="ud-syn:iobj" target="#ParlaMint-BG_2020-07-31.seg3.1.30 #ParlaMint-BG_2020-07-31.seg3.1.32"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg3.1.5 #ParlaMint-BG_2020-07-31.seg3.1.33"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg4">
+                  <s xml:id="ParlaMint-BG_2020-07-31.seg4.1">
+                     <w lemma="честя-(се)" msd="UPosTag=VERB|Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|XPosTag=Vpitz--2s" xml:id="ParlaMint-BG_2020-07-31.seg4.1.1">Честит</w>
+                     <w join="right" lemma="празник" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg4.1.2">празник</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg4.1.3">!</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root" target="#ParlaMint-BG_2020-07-31.seg4.1 #ParlaMint-BG_2020-07-31.seg4.1.1"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-BG_2020-07-31.seg4.1.1 #ParlaMint-BG_2020-07-31.seg4.1.2"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg4.1.1 #ParlaMint-BG_2020-07-31.seg4.1.3"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg5">
+                  <s xml:id="ParlaMint-BG_2020-07-31.seg5.1">
+                     <w lemma="господин" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg5.1.1">Господин</w>
+                     <name type="PER">
+                        <w join="right" lemma="цонев" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Hmsi" xml:id="ParlaMint-BG_2020-07-31.seg5.1.2">Цонев</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg5.1.3">,</pc>
+                     <w lemma="заповядам" msd="UPosTag=VERB|Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|XPosTag=Vpptz--2p" xml:id="ParlaMint-BG_2020-07-31.seg5.1.4">заповядайте</w>
+                     <w lemma="и" msd="UPosTag=CCONJ|XPosTag=Cp" xml:id="ParlaMint-BG_2020-07-31.seg5.1.5">и</w>
+                     <w join="right" lemma="аз" msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=2|PronType=Prs|XPosTag=Pph-os2" xml:id="ParlaMint-BG_2020-07-31.seg5.1.6">Вие</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg5.1.7">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:vocative" target="#ParlaMint-BG_2020-07-31.seg5.1.4 #ParlaMint-BG_2020-07-31.seg5.1.1"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg5.1.1 #ParlaMint-BG_2020-07-31.seg5.1.2"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg5.1.1 #ParlaMint-BG_2020-07-31.seg5.1.3"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-BG_2020-07-31.seg5.1 #ParlaMint-BG_2020-07-31.seg5.1.4"/>
+                        <link ana="ud-syn:cc" target="#ParlaMint-BG_2020-07-31.seg5.1.6 #ParlaMint-BG_2020-07-31.seg5.1.5"/>
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-BG_2020-07-31.seg5.1.4 #ParlaMint-BG_2020-07-31.seg5.1.6"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg5.1.4 #ParlaMint-BG_2020-07-31.seg5.1.7"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <u ana="#regular" n="147210" who="#TzonevJordan" xml:id="ParlaMint-BG_2020-07-31.u2">
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg6">
+                  <s xml:id="ParlaMint-BG_2020-07-31.seg6.1">
+                     <w lemma="благодаря" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vpiif-r1s" xml:id="ParlaMint-BG_2020-07-31.seg6.1.1">Благодаря</w>
+                     <w join="right" lemma="аз" msd="UPosTag=PRON|Case=Dat|Number=Sing|Person=2|PronType=Prs|XPosTag=Pphtds2" xml:id="ParlaMint-BG_2020-07-31.seg6.1.2">Ви</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg6.1.3">,</pc>
+                     <w lemma="госпож" msd="UPosTag=ADJ|Case=Voc|Degree=Pos|Gender=Masc|Number=Sing|XPosTag=Ams-e" xml:id="ParlaMint-BG_2020-07-31.seg6.1.4">госпожо</w>
+                     <name type="PER">
+                        <w join="right" lemma="председател" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg6.1.5">Председател</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg6.1.6">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root" target="#ParlaMint-BG_2020-07-31.seg6.1 #ParlaMint-BG_2020-07-31.seg6.1.1"/>
+                        <link ana="ud-syn:iobj" target="#ParlaMint-BG_2020-07-31.seg6.1.1 #ParlaMint-BG_2020-07-31.seg6.1.2"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg6.1.5 #ParlaMint-BG_2020-07-31.seg6.1.3"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg6.1.5 #ParlaMint-BG_2020-07-31.seg6.1.4"/>
+                        <link ana="ud-syn:vocative" target="#ParlaMint-BG_2020-07-31.seg6.1.1 #ParlaMint-BG_2020-07-31.seg6.1.5"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg6.1.1 #ParlaMint-BG_2020-07-31.seg6.1.6"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg7">
+                  <s xml:id="ParlaMint-BG_2020-07-31.seg7.1">
+                     <w lemma="уважаем" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Number=Plur|XPosTag=A-pi" xml:id="ParlaMint-BG_2020-07-31.seg7.1.1">Уважаеми</w>
+                     <w join="right" lemma="колега" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Plur|XPosTag=Ncmpi" xml:id="ParlaMint-BG_2020-07-31.seg7.1.2">колеги</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg7.1.3">,</pc>
+                     <w lemma="днес" msd="UPosTag=ADV|Degree=Pos|XPosTag=Dt" xml:id="ParlaMint-BG_2020-07-31.seg7.1.4">днес</w>
+                     <w lemma="мюсюлманин" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Plur|XPosTag=Ncmpd" xml:id="ParlaMint-BG_2020-07-31.seg7.1.5">мюсюлманите</w>
+                     <w lemma="в" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg7.1.6">в</w>
+                     <name type="LOC">
+                        <w lemma="българия" msd="UPosTag=PROPN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Npfsi" xml:id="ParlaMint-BG_2020-07-31.seg7.1.7">България</w>
+                     </name>
+                     <w lemma="и" msd="UPosTag=CCONJ|XPosTag=Cp" xml:id="ParlaMint-BG_2020-07-31.seg7.1.8">и</w>
+                     <w lemma="по" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg7.1.9">по</w>
+                     <w lemma="свят" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing|XPosTag=Ncmsh" xml:id="ParlaMint-BG_2020-07-31.seg7.1.10">света</w>
+                     <w lemma="празнувам" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vpitf-r3p" xml:id="ParlaMint-BG_2020-07-31.seg7.1.11">празнуват</w>
+                     <w lemma="един" msd="UPosTag=NUM|Definite=Ind|Gender=Masc|NumType=Card|Number=Sing|XPosTag=Mcmsi" xml:id="ParlaMint-BG_2020-07-31.seg7.1.12">един</w>
+                     <w lemma="от" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg7.1.13">от</w>
+                     <w lemma="голям" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Number=Plur|XPosTag=A-pd" xml:id="ParlaMint-BG_2020-07-31.seg7.1.14">най-големите</w>
+                     <w lemma="мюсюлмански" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Number=Plur|XPosTag=A-pi" xml:id="ParlaMint-BG_2020-07-31.seg7.1.15">мюсюлмански</w>
+                     <w lemma="празник" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Plur|XPosTag=Ncmpi" xml:id="ParlaMint-BG_2020-07-31.seg7.1.16">празници</w>
+                     <name type="MISC">
+                        <w lemma="курбан" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg7.1.17">Курбан</w>
+                        <w join="right" lemma="байрам" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg7.1.18">байрам</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg7.1.19">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg7.1.2 #ParlaMint-BG_2020-07-31.seg7.1.1"/>
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-BG_2020-07-31.seg7.1.11 #ParlaMint-BG_2020-07-31.seg7.1.2"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg7.1.2 #ParlaMint-BG_2020-07-31.seg7.1.3"/>
+                        <link ana="ud-syn:advmod" target="#ParlaMint-BG_2020-07-31.seg7.1.2 #ParlaMint-BG_2020-07-31.seg7.1.4"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg7.1.2 #ParlaMint-BG_2020-07-31.seg7.1.5"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg7.1.7 #ParlaMint-BG_2020-07-31.seg7.1.6"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg7.1.5 #ParlaMint-BG_2020-07-31.seg7.1.7"/>
+                        <link ana="ud-syn:cc" target="#ParlaMint-BG_2020-07-31.seg7.1.10 #ParlaMint-BG_2020-07-31.seg7.1.8"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg7.1.10 #ParlaMint-BG_2020-07-31.seg7.1.9"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg7.1.5 #ParlaMint-BG_2020-07-31.seg7.1.10"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-BG_2020-07-31.seg7.1 #ParlaMint-BG_2020-07-31.seg7.1.11"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-BG_2020-07-31.seg7.1.11 #ParlaMint-BG_2020-07-31.seg7.1.12"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg7.1.16 #ParlaMint-BG_2020-07-31.seg7.1.13"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg7.1.16 #ParlaMint-BG_2020-07-31.seg7.1.14"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg7.1.16 #ParlaMint-BG_2020-07-31.seg7.1.15"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg7.1.12 #ParlaMint-BG_2020-07-31.seg7.1.16"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg7.1.12 #ParlaMint-BG_2020-07-31.seg7.1.17"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg7.1.17 #ParlaMint-BG_2020-07-31.seg7.1.18"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg7.1.11 #ParlaMint-BG_2020-07-31.seg7.1.19"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BG_2020-07-31.seg7.2">
+                     <w lemma="от" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg7.2.1">От</w>
+                     <w lemma="име" msd="UPosTag=NOUN|Definite=Def|Gender=Neut|Number=Sing|XPosTag=Ncnsd" xml:id="ParlaMint-BG_2020-07-31.seg7.2.2">името</w>
+                     <w lemma="на" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg7.2.3">на</w>
+                     <w lemma="парламентарен" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|XPosTag=Afsd" xml:id="ParlaMint-BG_2020-07-31.seg7.2.4">парламентарната</w>
+                     <w lemma="група" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Ncfsi" xml:id="ParlaMint-BG_2020-07-31.seg7.2.5">група</w>
+                     <w lemma="на" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg7.2.6">на</w>
+                     <w join="right" lemma="„" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing|XPosTag=Ncnsi" xml:id="ParlaMint-BG_2020-07-31.seg7.2.7">„</w>
+                     <name type="ORG">
+                        <w lemma="движение" msd="UPosTag=NOUN|Definite=Def|Gender=Neut|Number=Sing|XPosTag=Ncnsd" xml:id="ParlaMint-BG_2020-07-31.seg7.2.8">Движението</w>
+                        <w lemma="за" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg7.2.9">за</w>
+                        <w lemma="право" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Plur|XPosTag=Ncnpi" xml:id="ParlaMint-BG_2020-07-31.seg7.2.10">права</w>
+                     </name>
+                     <w lemma="и" msd="UPosTag=CCONJ|XPosTag=Cp" xml:id="ParlaMint-BG_2020-07-31.seg7.2.11">и</w>
+                     <w join="right" lemma="свобода" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Plur|XPosTag=Ncfpi" xml:id="ParlaMint-BG_2020-07-31.seg7.2.12">свободи</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg7.2.13">“</pc>
+                     <w lemma="поздравявам" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vpitf-r1s" xml:id="ParlaMint-BG_2020-07-31.seg7.2.14">поздравявам</w>
+                     <w lemma="всеки" msd="UPosTag=DET|Case=Nom|Number=Plur|PronType=Tot|XPosTag=Pce-op" xml:id="ParlaMint-BG_2020-07-31.seg7.2.15">всички</w>
+                     <w lemma="мюсюлманин" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Plur|XPosTag=Ncmpi" xml:id="ParlaMint-BG_2020-07-31.seg7.2.16">мюсюлмани</w>
+                     <w lemma="в" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg7.2.17">в</w>
+                     <name type="LOC">
+                        <w join="right" lemma="българия" msd="UPosTag=PROPN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Npfsi" xml:id="ParlaMint-BG_2020-07-31.seg7.2.18">България</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg7.2.19">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg7.2.2 #ParlaMint-BG_2020-07-31.seg7.2.1"/>
+                        <link ana="ud-syn:obl" target="#ParlaMint-BG_2020-07-31.seg7.2.14 #ParlaMint-BG_2020-07-31.seg7.2.2"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg7.2.5 #ParlaMint-BG_2020-07-31.seg7.2.3"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg7.2.5 #ParlaMint-BG_2020-07-31.seg7.2.4"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg7.2.2 #ParlaMint-BG_2020-07-31.seg7.2.5"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg7.2.7 #ParlaMint-BG_2020-07-31.seg7.2.6"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg7.2.5 #ParlaMint-BG_2020-07-31.seg7.2.7"/>
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-BG_2020-07-31.seg7.2.14 #ParlaMint-BG_2020-07-31.seg7.2.8"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg7.2.10 #ParlaMint-BG_2020-07-31.seg7.2.9"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg7.2.8 #ParlaMint-BG_2020-07-31.seg7.2.10"/>
+                        <link ana="ud-syn:cc" target="#ParlaMint-BG_2020-07-31.seg7.2.12 #ParlaMint-BG_2020-07-31.seg7.2.11"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg7.2.10 #ParlaMint-BG_2020-07-31.seg7.2.12"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg7.2.2 #ParlaMint-BG_2020-07-31.seg7.2.13"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-BG_2020-07-31.seg7.2 #ParlaMint-BG_2020-07-31.seg7.2.14"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-BG_2020-07-31.seg7.2.16 #ParlaMint-BG_2020-07-31.seg7.2.15"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-BG_2020-07-31.seg7.2.14 #ParlaMint-BG_2020-07-31.seg7.2.16"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg7.2.18 #ParlaMint-BG_2020-07-31.seg7.2.17"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg7.2.16 #ParlaMint-BG_2020-07-31.seg7.2.18"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg7.2.14 #ParlaMint-BG_2020-07-31.seg7.2.19"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg8">
+                  <s xml:id="ParlaMint-BG_2020-07-31.seg8.1">
+                     <w lemma="курбан" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg8.1.1">Курбан</w>
+                     <w lemma="байрам" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg8.1.2">байрам</w>
+                     <w lemma="съм" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vxitf-r3s" xml:id="ParlaMint-BG_2020-07-31.seg8.1.3">е</w>
+                     <w lemma="празник" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg8.1.4">празник</w>
+                     <w lemma="на" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg8.1.5">на</w>
+                     <w join="right" lemma="опрощение" msd="UPosTag=NOUN|Definite=Def|Gender=Neut|Number=Sing|XPosTag=Ncnsd" xml:id="ParlaMint-BG_2020-07-31.seg8.1.6">опрощението</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg8.1.7">,</pc>
+                     <w lemma="празник" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg8.1.8">празник</w>
+                     <w lemma="на" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg8.1.9">на</w>
+                     <w join="right" lemma="милосърдие" msd="UPosTag=NOUN|Definite=Def|Gender=Neut|Number=Sing|XPosTag=Ncnsd" xml:id="ParlaMint-BG_2020-07-31.seg8.1.10">милосърдието</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg8.1.11">,</pc>
+                     <w lemma="празник" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg8.1.12">празник</w>
+                     <w lemma="на" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg8.1.13">на</w>
+                     <w lemma="укрепване" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing|XPosTag=Ncnsi" xml:id="ParlaMint-BG_2020-07-31.seg8.1.14">укрепване</w>
+                     <w lemma="на" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg8.1.15">на</w>
+                     <w lemma="вяра" msd="UPosTag=NOUN|Definite=Def|Gender=Fem|Number=Sing|XPosTag=Ncfsd" xml:id="ParlaMint-BG_2020-07-31.seg8.1.16">вярата</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg8.1.17">–</pc>
+                     <w lemma="милосърдие" msd="UPosTag=NOUN|Definite=Def|Gender=Neut|Number=Sing|XPosTag=Ncnsd" xml:id="ParlaMint-BG_2020-07-31.seg8.1.18">милосърдието</w>
+                     <w lemma="към" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg8.1.19">към</w>
+                     <w join="right" lemma="ближен" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|XPosTag=Amsh" xml:id="ParlaMint-BG_2020-07-31.seg8.1.20">ближния</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg8.1.21">,</pc>
+                     <w lemma="милосърдие" msd="UPosTag=NOUN|Definite=Def|Gender=Neut|Number=Sing|XPosTag=Ncnsd" xml:id="ParlaMint-BG_2020-07-31.seg8.1.22">милосърдието</w>
+                     <w lemma="към" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg8.1.23">към</w>
+                     <w join="right" lemma="себеподобен" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|XPosTag=Amsh" xml:id="ParlaMint-BG_2020-07-31.seg8.1.24">себеподобния</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg8.1.25">,</pc>
+                     <w join="right" lemma="взаимопомощт" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing|XPosTag=Ncmsh" xml:id="ParlaMint-BG_2020-07-31.seg8.1.26">взаимопомощта</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg8.1.27">,</pc>
+                     <w lemma="особено" msd="UPosTag=ADV|Degree=Pos|XPosTag=Dd" xml:id="ParlaMint-BG_2020-07-31.seg8.1.28">особено</w>
+                     <w lemma="ценен" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Number=Plur|XPosTag=A-pi" xml:id="ParlaMint-BG_2020-07-31.seg8.1.29">ценни</w>
+                     <w lemma="в" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg8.1.30">в</w>
+                     <w lemma="днешен" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Number=Plur|XPosTag=A-pd" xml:id="ParlaMint-BG_2020-07-31.seg8.1.31">днешните</w>
+                     <w lemma="труден" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Number=Plur|XPosTag=A-pi" xml:id="ParlaMint-BG_2020-07-31.seg8.1.32">трудни</w>
+                     <w lemma="и" msd="UPosTag=CCONJ|XPosTag=Cp" xml:id="ParlaMint-BG_2020-07-31.seg8.1.33">и</w>
+                     <w lemma="сложен" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Number=Plur|XPosTag=A-pi" xml:id="ParlaMint-BG_2020-07-31.seg8.1.34">сложни</w>
+                     <w join="right" lemma="време" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Plur|XPosTag=Ncnpi" xml:id="ParlaMint-BG_2020-07-31.seg8.1.35">времена</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg8.1.36">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-BG_2020-07-31.seg8.1.4 #ParlaMint-BG_2020-07-31.seg8.1.1"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg8.1.1 #ParlaMint-BG_2020-07-31.seg8.1.2"/>
+                        <link ana="ud-syn:cop" target="#ParlaMint-BG_2020-07-31.seg8.1.4 #ParlaMint-BG_2020-07-31.seg8.1.3"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-BG_2020-07-31.seg8.1 #ParlaMint-BG_2020-07-31.seg8.1.4"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg8.1.6 #ParlaMint-BG_2020-07-31.seg8.1.5"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg8.1.4 #ParlaMint-BG_2020-07-31.seg8.1.6"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg8.1.8 #ParlaMint-BG_2020-07-31.seg8.1.7"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg8.1.6 #ParlaMint-BG_2020-07-31.seg8.1.8"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg8.1.10 #ParlaMint-BG_2020-07-31.seg8.1.9"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg8.1.8 #ParlaMint-BG_2020-07-31.seg8.1.10"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg8.1.12 #ParlaMint-BG_2020-07-31.seg8.1.11"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg8.1.6 #ParlaMint-BG_2020-07-31.seg8.1.12"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg8.1.14 #ParlaMint-BG_2020-07-31.seg8.1.13"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg8.1.12 #ParlaMint-BG_2020-07-31.seg8.1.14"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg8.1.16 #ParlaMint-BG_2020-07-31.seg8.1.15"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg8.1.14 #ParlaMint-BG_2020-07-31.seg8.1.16"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg8.1.18 #ParlaMint-BG_2020-07-31.seg8.1.17"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg8.1.6 #ParlaMint-BG_2020-07-31.seg8.1.18"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg8.1.20 #ParlaMint-BG_2020-07-31.seg8.1.19"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg8.1.18 #ParlaMint-BG_2020-07-31.seg8.1.20"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg8.1.22 #ParlaMint-BG_2020-07-31.seg8.1.21"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg8.1.6 #ParlaMint-BG_2020-07-31.seg8.1.22"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg8.1.24 #ParlaMint-BG_2020-07-31.seg8.1.23"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg8.1.22 #ParlaMint-BG_2020-07-31.seg8.1.24"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg8.1.26 #ParlaMint-BG_2020-07-31.seg8.1.25"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg8.1.6 #ParlaMint-BG_2020-07-31.seg8.1.26"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg8.1.29 #ParlaMint-BG_2020-07-31.seg8.1.27"/>
+                        <link ana="ud-syn:advmod" target="#ParlaMint-BG_2020-07-31.seg8.1.29 #ParlaMint-BG_2020-07-31.seg8.1.28"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg8.1.6 #ParlaMint-BG_2020-07-31.seg8.1.29"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg8.1.35 #ParlaMint-BG_2020-07-31.seg8.1.30"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg8.1.35 #ParlaMint-BG_2020-07-31.seg8.1.31"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg8.1.35 #ParlaMint-BG_2020-07-31.seg8.1.32"/>
+                        <link ana="ud-syn:cc" target="#ParlaMint-BG_2020-07-31.seg8.1.34 #ParlaMint-BG_2020-07-31.seg8.1.33"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg8.1.32 #ParlaMint-BG_2020-07-31.seg8.1.34"/>
+                        <link ana="ud-syn:obl" target="#ParlaMint-BG_2020-07-31.seg8.1.29 #ParlaMint-BG_2020-07-31.seg8.1.35"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg8.1.4 #ParlaMint-BG_2020-07-31.seg8.1.36"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg9">
+                  <s xml:id="ParlaMint-BG_2020-07-31.seg9.1">
+                     <w lemma="прошка" msd="UPosTag=NOUN|Definite=Def|Gender=Fem|Number=Sing|XPosTag=Ncfsd" xml:id="ParlaMint-BG_2020-07-31.seg9.1.1">Прошката</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg9.1.2">–</pc>
+                     <w lemma="на" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg9.1.3">на</w>
+                     <w lemma="днешен" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|XPosTag=Amsh" xml:id="ParlaMint-BG_2020-07-31.seg9.1.4">днешния</w>
+                     <w lemma="ден" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg9.1.5">ден</w>
+                     <w lemma="мюсюлманин" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Plur|XPosTag=Ncmpd" xml:id="ParlaMint-BG_2020-07-31.seg9.1.6">мюсюлманите</w>
+                     <w lemma="искам" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vpitf-r3p" xml:id="ParlaMint-BG_2020-07-31.seg9.1.7">искат</w>
+                     <w lemma="прошка" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Ncfsi" xml:id="ParlaMint-BG_2020-07-31.seg9.1.8">прошка</w>
+                     <w lemma="от" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg9.1.9">от</w>
+                     <w join="right" lemma="възрастен" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Number=Plur|XPosTag=A-pd" xml:id="ParlaMint-BG_2020-07-31.seg9.1.10">по-възрастните</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg9.1.11">,</pc>
+                     <w lemma="от" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg9.1.12">от</w>
+                     <w lemma="родител" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Plur|XPosTag=Ncmpd" xml:id="ParlaMint-BG_2020-07-31.seg9.1.13">родителите</w>
+                     <w join="right" lemma="свой" msd="UPosTag=PRON|Case=Nom|Poss=Yes|PronType=Prs|Reflex=Yes|XPosTag=Psxto" xml:id="ParlaMint-BG_2020-07-31.seg9.1.14">си</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg9.1.15">,</pc>
+                     <w lemma="от" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg9.1.16">от</w>
+                     <w join="right" lemma="дядо" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Plur|XPosTag=Ncmpd" xml:id="ParlaMint-BG_2020-07-31.seg9.1.17">дядовците</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg9.1.18">,</pc>
+                     <w lemma="от" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg9.1.19">от</w>
+                     <w lemma="баба" msd="UPosTag=NOUN|Definite=Def|Gender=Fem|Number=Plur|XPosTag=Ncfpd" xml:id="ParlaMint-BG_2020-07-31.seg9.1.20">бабите</w>
+                     <w join="right" lemma="свой" msd="UPosTag=PRON|Case=Nom|Poss=Yes|PronType=Prs|Reflex=Yes|XPosTag=Psxto" xml:id="ParlaMint-BG_2020-07-31.seg9.1.21">си</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg9.1.22">,</pc>
+                     <w lemma="както" msd="UPosTag=ADV|PronType=Rel|XPosTag=Prm" xml:id="ParlaMint-BG_2020-07-31.seg9.1.23">както</w>
+                     <w lemma="аз" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs|XPosTag=Ppe-op1" xml:id="ParlaMint-BG_2020-07-31.seg9.1.24">ние</w>
+                     <w lemma="християнин" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Plur|XPosTag=Ncmpd" xml:id="ParlaMint-BG_2020-07-31.seg9.1.25">християните</w>
+                     <w lemma="искам" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vpitf-r1p" xml:id="ParlaMint-BG_2020-07-31.seg9.1.26">искаме</w>
+                     <w lemma="прошка" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Ncfsi" xml:id="ParlaMint-BG_2020-07-31.seg9.1.27">прошка</w>
+                     <w lemma="преди" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg9.1.28">преди</w>
+                     <w lemma="велик" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|XPosTag=Amsh" xml:id="ParlaMint-BG_2020-07-31.seg9.1.29">Великия</w>
+                     <w join="right" lemma="пост" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg9.1.30">пост</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg9.1.31">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-BG_2020-07-31.seg9.1.7 #ParlaMint-BG_2020-07-31.seg9.1.1"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg9.1.1 #ParlaMint-BG_2020-07-31.seg9.1.2"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg9.1.5 #ParlaMint-BG_2020-07-31.seg9.1.3"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg9.1.5 #ParlaMint-BG_2020-07-31.seg9.1.4"/>
+                        <link ana="ud-syn:obl" target="#ParlaMint-BG_2020-07-31.seg9.1.7 #ParlaMint-BG_2020-07-31.seg9.1.5"/>
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-BG_2020-07-31.seg9.1.7 #ParlaMint-BG_2020-07-31.seg9.1.6"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-BG_2020-07-31.seg9.1 #ParlaMint-BG_2020-07-31.seg9.1.7"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-BG_2020-07-31.seg9.1.7 #ParlaMint-BG_2020-07-31.seg9.1.8"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg9.1.10 #ParlaMint-BG_2020-07-31.seg9.1.9"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg9.1.8 #ParlaMint-BG_2020-07-31.seg9.1.10"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg9.1.13 #ParlaMint-BG_2020-07-31.seg9.1.11"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg9.1.13 #ParlaMint-BG_2020-07-31.seg9.1.12"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg9.1.10 #ParlaMint-BG_2020-07-31.seg9.1.13"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-BG_2020-07-31.seg9.1.13 #ParlaMint-BG_2020-07-31.seg9.1.14"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg9.1.17 #ParlaMint-BG_2020-07-31.seg9.1.15"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg9.1.17 #ParlaMint-BG_2020-07-31.seg9.1.16"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg9.1.10 #ParlaMint-BG_2020-07-31.seg9.1.17"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg9.1.20 #ParlaMint-BG_2020-07-31.seg9.1.18"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg9.1.20 #ParlaMint-BG_2020-07-31.seg9.1.19"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg9.1.10 #ParlaMint-BG_2020-07-31.seg9.1.20"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-BG_2020-07-31.seg9.1.20 #ParlaMint-BG_2020-07-31.seg9.1.21"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg9.1.26 #ParlaMint-BG_2020-07-31.seg9.1.22"/>
+                        <link ana="ud-syn:advmod" target="#ParlaMint-BG_2020-07-31.seg9.1.26 #ParlaMint-BG_2020-07-31.seg9.1.23"/>
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-BG_2020-07-31.seg9.1.26 #ParlaMint-BG_2020-07-31.seg9.1.24"/>
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-BG_2020-07-31.seg9.1.26 #ParlaMint-BG_2020-07-31.seg9.1.25"/>
+                        <link ana="ud-syn:advcl" target="#ParlaMint-BG_2020-07-31.seg9.1.7 #ParlaMint-BG_2020-07-31.seg9.1.26"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-BG_2020-07-31.seg9.1.26 #ParlaMint-BG_2020-07-31.seg9.1.27"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg9.1.30 #ParlaMint-BG_2020-07-31.seg9.1.28"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg9.1.30 #ParlaMint-BG_2020-07-31.seg9.1.29"/>
+                        <link ana="ud-syn:obl" target="#ParlaMint-BG_2020-07-31.seg9.1.26 #ParlaMint-BG_2020-07-31.seg9.1.30"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg9.1.7 #ParlaMint-BG_2020-07-31.seg9.1.31"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg10">
+                  <s xml:id="ParlaMint-BG_2020-07-31.seg10.1">
+                     <w lemma="от" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg10.1.1">От</w>
+                     <w lemma="име" msd="UPosTag=NOUN|Definite=Def|Gender=Neut|Number=Sing|XPosTag=Ncnsd" xml:id="ParlaMint-BG_2020-07-31.seg10.1.2">името</w>
+                     <w lemma="на" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg10.1.3">на</w>
+                     <w lemma="парламентарен" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|XPosTag=Afsd" xml:id="ParlaMint-BG_2020-07-31.seg10.1.4">парламентарната</w>
+                     <w lemma="група" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Ncfsi" xml:id="ParlaMint-BG_2020-07-31.seg10.1.5">група</w>
+                     <w lemma="пожелавам" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vpitf-r1s" xml:id="ParlaMint-BG_2020-07-31.seg10.1.6">пожелавам</w>
+                     <w lemma="на" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg10.1.7">на</w>
+                     <w lemma="всеки" msd="UPosTag=DET|Case=Nom|Number=Plur|PronType=Tot|XPosTag=Pce-op" xml:id="ParlaMint-BG_2020-07-31.seg10.1.8">всички</w>
+                     <w lemma="мюсюлманин" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Plur|XPosTag=Ncmpi" xml:id="ParlaMint-BG_2020-07-31.seg10.1.9">мюсюлмани</w>
+                     <w lemma="в" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg10.1.10">в</w>
+                     <name type="LOC">
+                        <w lemma="българия" msd="UPosTag=PROPN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Npfsi" xml:id="ParlaMint-BG_2020-07-31.seg10.1.11">България</w>
+                     </name>
+                     <w lemma="здраве" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing|XPosTag=Ncnsi" xml:id="ParlaMint-BG_2020-07-31.seg10.1.12">здраве</w>
+                     <w lemma="в" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg10.1.13">в</w>
+                     <w join="right" lemma="семейство" msd="UPosTag=NOUN|Definite=Def|Gender=Neut|Number=Sing|XPosTag=Ncnsd" xml:id="ParlaMint-BG_2020-07-31.seg10.1.14">семейството</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg10.1.15">,</pc>
+                     <w lemma="да" msd="UPosTag=AUX|XPosTag=Tx" xml:id="ParlaMint-BG_2020-07-31.seg10.1.16">да</w>
+                     <w lemma="бъда" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vyptf-r3p" xml:id="ParlaMint-BG_2020-07-31.seg10.1.17">бъдат</w>
+                     <w lemma="здрав" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Number=Plur|XPosTag=A-pi" xml:id="ParlaMint-BG_2020-07-31.seg10.1.18">здрави</w>
+                     <w lemma="сам" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Number=Plur|XPosTag=A-pd" xml:id="ParlaMint-BG_2020-07-31.seg10.1.19">самите</w>
+                     <w join="right" lemma="аз" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=3|PronType=Prs|XPosTag=Ppe-op3" xml:id="ParlaMint-BG_2020-07-31.seg10.1.20">те</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg10.1.21">!</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg10.1.2 #ParlaMint-BG_2020-07-31.seg10.1.1"/>
+                        <link ana="ud-syn:obl" target="#ParlaMint-BG_2020-07-31.seg10.1.6 #ParlaMint-BG_2020-07-31.seg10.1.2"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg10.1.5 #ParlaMint-BG_2020-07-31.seg10.1.3"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg10.1.5 #ParlaMint-BG_2020-07-31.seg10.1.4"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg10.1.2 #ParlaMint-BG_2020-07-31.seg10.1.5"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-BG_2020-07-31.seg10.1 #ParlaMint-BG_2020-07-31.seg10.1.6"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg10.1.9 #ParlaMint-BG_2020-07-31.seg10.1.7"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-BG_2020-07-31.seg10.1.9 #ParlaMint-BG_2020-07-31.seg10.1.8"/>
+                        <link ana="ud-syn:obl" target="#ParlaMint-BG_2020-07-31.seg10.1.6 #ParlaMint-BG_2020-07-31.seg10.1.9"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg10.1.11 #ParlaMint-BG_2020-07-31.seg10.1.10"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg10.1.9 #ParlaMint-BG_2020-07-31.seg10.1.11"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-BG_2020-07-31.seg10.1.6 #ParlaMint-BG_2020-07-31.seg10.1.12"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg10.1.14 #ParlaMint-BG_2020-07-31.seg10.1.13"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg10.1.12 #ParlaMint-BG_2020-07-31.seg10.1.14"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg10.1.17 #ParlaMint-BG_2020-07-31.seg10.1.15"/>
+                        <link ana="ud-syn:aux" target="#ParlaMint-BG_2020-07-31.seg10.1.18 #ParlaMint-BG_2020-07-31.seg10.1.16"/>
+                        <link ana="ud-syn:ccomp" target="#ParlaMint-BG_2020-07-31.seg10.1.6 #ParlaMint-BG_2020-07-31.seg10.1.17"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg10.1.6 #ParlaMint-BG_2020-07-31.seg10.1.18"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg10.1.20 #ParlaMint-BG_2020-07-31.seg10.1.19"/>
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-BG_2020-07-31.seg10.1.18 #ParlaMint-BG_2020-07-31.seg10.1.20"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg10.1.6 #ParlaMint-BG_2020-07-31.seg10.1.21"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BG_2020-07-31.seg10.2">
+                     <w lemma="пожелавам" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vpitf-r1s" xml:id="ParlaMint-BG_2020-07-31.seg10.2.1">Пожелавам</w>
+                     <w lemma="аз" msd="UPosTag=PRON|Case=Dat|Number=Plur|Person=3|PronType=Prs|XPosTag=Ppetdp3" xml:id="ParlaMint-BG_2020-07-31.seg10.2.2">им</w>
+                     <w join="right" lemma="успех" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Plur|XPosTag=Ncmpi" xml:id="ParlaMint-BG_2020-07-31.seg10.2.3">успехи</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg10.2.4">,</pc>
+                     <w lemma="пожелавам" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vpitf-r1s" xml:id="ParlaMint-BG_2020-07-31.seg10.2.5">пожелавам</w>
+                     <w lemma="аз" msd="UPosTag=PRON|Case=Dat|Number=Plur|Person=3|PronType=Prs|XPosTag=Ppetdp3" xml:id="ParlaMint-BG_2020-07-31.seg10.2.6">им</w>
+                     <w lemma="наистина" msd="UPosTag=ADV|Degree=Pos|XPosTag=Dm" xml:id="ParlaMint-BG_2020-07-31.seg10.2.7">наистина</w>
+                     <w lemma="да" msd="UPosTag=AUX|XPosTag=Tx" xml:id="ParlaMint-BG_2020-07-31.seg10.2.8">да</w>
+                     <w lemma="бъда" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vyptf-r3p" xml:id="ParlaMint-BG_2020-07-31.seg10.2.9">бъдат</w>
+                     <w lemma="стълб" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Plur|XPosTag=Ncmpi" xml:id="ParlaMint-BG_2020-07-31.seg10.2.10">стълбове</w>
+                     <w lemma="на" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg10.2.11">на</w>
+                     <w join="right" lemma="помощ" msd="UPosTag=NOUN|Definite=Def|Gender=Fem|Number=Sing|XPosTag=Ncfsd" xml:id="ParlaMint-BG_2020-07-31.seg10.2.12">помощта</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg10.2.13">,</pc>
+                     <w lemma="на" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg10.2.14">на</w>
+                     <w join="right" lemma="мир" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing|XPosTag=Ncmsh" xml:id="ParlaMint-BG_2020-07-31.seg10.2.15">мира</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg10.2.16">,</pc>
+                     <w lemma="на" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg10.2.17">на</w>
+                     <w join="right" lemma="стабилност" msd="UPosTag=NOUN|Definite=Def|Gender=Fem|Number=Sing|XPosTag=Ncfsd" xml:id="ParlaMint-BG_2020-07-31.seg10.2.18">стабилността</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg10.2.19">,</pc>
+                     <w lemma="както" msd="UPosTag=ADV|PronType=Rel|XPosTag=Prm" xml:id="ParlaMint-BG_2020-07-31.seg10.2.20">както</w>
+                     <w lemma="винаги" msd="UPosTag=ADV|Degree=Pos|XPosTag=Dt" xml:id="ParlaMint-BG_2020-07-31.seg10.2.21">винаги</w>
+                     <w lemma="съм" msd="UPosTag=AUX|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vxitf-r3p" xml:id="ParlaMint-BG_2020-07-31.seg10.2.22">са</w>
+                     <w lemma="съм" msd="UPosTag=AUX|Aspect=Imp|Definite=Ind|Mood=Ind|Number=Plur|VerbForm=Part|Voice=Act|XPosTag=Vxitcat-p-i" xml:id="ParlaMint-BG_2020-07-31.seg10.2.23">били</w>
+                     <w lemma="в" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg10.2.24">в</w>
+                     <w lemma="наш" msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs|XPosTag=Pszl-s1fd" xml:id="ParlaMint-BG_2020-07-31.seg10.2.25">нашата</w>
+                     <w lemma="общ" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|XPosTag=Afsi" xml:id="ParlaMint-BG_2020-07-31.seg10.2.26">обща</w>
+                     <w lemma="родина" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Ncfsi" xml:id="ParlaMint-BG_2020-07-31.seg10.2.27">родина</w>
+                     <name type="LOC">
+                        <w lemma="република" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Ncfsi" xml:id="ParlaMint-BG_2020-07-31.seg10.2.28">Република</w>
+                        <w join="right" lemma="българия" msd="UPosTag=PROPN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Npfsi" xml:id="ParlaMint-BG_2020-07-31.seg10.2.29">България</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg10.2.30">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root" target="#ParlaMint-BG_2020-07-31.seg10.2 #ParlaMint-BG_2020-07-31.seg10.2.1"/>
+                        <link ana="ud-syn:expl" target="#ParlaMint-BG_2020-07-31.seg10.2.1 #ParlaMint-BG_2020-07-31.seg10.2.2"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-BG_2020-07-31.seg10.2.1 #ParlaMint-BG_2020-07-31.seg10.2.3"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg10.2.5 #ParlaMint-BG_2020-07-31.seg10.2.4"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg10.2.1 #ParlaMint-BG_2020-07-31.seg10.2.5"/>
+                        <link ana="ud-syn:iobj" target="#ParlaMint-BG_2020-07-31.seg10.2.5 #ParlaMint-BG_2020-07-31.seg10.2.6"/>
+                        <link ana="ud-syn:advmod" target="#ParlaMint-BG_2020-07-31.seg10.2.9 #ParlaMint-BG_2020-07-31.seg10.2.7"/>
+                        <link ana="ud-syn:aux" target="#ParlaMint-BG_2020-07-31.seg10.2.9 #ParlaMint-BG_2020-07-31.seg10.2.8"/>
+                        <link ana="ud-syn:ccomp" target="#ParlaMint-BG_2020-07-31.seg10.2.5 #ParlaMint-BG_2020-07-31.seg10.2.9"/>
+                        <link ana="ud-syn:ccomp" target="#ParlaMint-BG_2020-07-31.seg10.2.5 #ParlaMint-BG_2020-07-31.seg10.2.10"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg10.2.12 #ParlaMint-BG_2020-07-31.seg10.2.11"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg10.2.10 #ParlaMint-BG_2020-07-31.seg10.2.12"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg10.2.15 #ParlaMint-BG_2020-07-31.seg10.2.13"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg10.2.15 #ParlaMint-BG_2020-07-31.seg10.2.14"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg10.2.12 #ParlaMint-BG_2020-07-31.seg10.2.15"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg10.2.18 #ParlaMint-BG_2020-07-31.seg10.2.16"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg10.2.18 #ParlaMint-BG_2020-07-31.seg10.2.17"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg10.2.12 #ParlaMint-BG_2020-07-31.seg10.2.18"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg10.2.20 #ParlaMint-BG_2020-07-31.seg10.2.19"/>
+                        <link ana="ud-syn:advmod" target="#ParlaMint-BG_2020-07-31.seg10.2.27 #ParlaMint-BG_2020-07-31.seg10.2.20"/>
+                        <link ana="ud-syn:advmod" target="#ParlaMint-BG_2020-07-31.seg10.2.27 #ParlaMint-BG_2020-07-31.seg10.2.21"/>
+                        <link ana="ud-syn:aux" target="#ParlaMint-BG_2020-07-31.seg10.2.27 #ParlaMint-BG_2020-07-31.seg10.2.22"/>
+                        <link ana="ud-syn:cop" target="#ParlaMint-BG_2020-07-31.seg10.2.27 #ParlaMint-BG_2020-07-31.seg10.2.23"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg10.2.27 #ParlaMint-BG_2020-07-31.seg10.2.24"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-BG_2020-07-31.seg10.2.27 #ParlaMint-BG_2020-07-31.seg10.2.25"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg10.2.27 #ParlaMint-BG_2020-07-31.seg10.2.26"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg10.2.1 #ParlaMint-BG_2020-07-31.seg10.2.27"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg10.2.27 #ParlaMint-BG_2020-07-31.seg10.2.28"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg10.2.28 #ParlaMint-BG_2020-07-31.seg10.2.29"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg10.2.1 #ParlaMint-BG_2020-07-31.seg10.2.30"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg11">
+                  <s xml:id="ParlaMint-BG_2020-07-31.seg11.1">
+                     <w lemma="да" msd="UPosTag=AUX|XPosTag=Tx" xml:id="ParlaMint-BG_2020-07-31.seg11.1.1">Да</w>
+                     <w lemma="съм" msd="UPosTag=AUX|Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vxitf-r2p" xml:id="ParlaMint-BG_2020-07-31.seg11.1.2">сте</w>
+                     <w lemma="жив" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Number=Plur|XPosTag=A-pi" xml:id="ParlaMint-BG_2020-07-31.seg11.1.3">живи</w>
+                     <w lemma="и" msd="UPosTag=CCONJ|XPosTag=Cp" xml:id="ParlaMint-BG_2020-07-31.seg11.1.4">и</w>
+                     <w join="right" lemma="здрав" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Number=Plur|XPosTag=A-pi" xml:id="ParlaMint-BG_2020-07-31.seg11.1.5">здрави</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg11.1.6">!</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:aux" target="#ParlaMint-BG_2020-07-31.seg11.1.3 #ParlaMint-BG_2020-07-31.seg11.1.1"/>
+                        <link ana="ud-syn:cop" target="#ParlaMint-BG_2020-07-31.seg11.1.3 #ParlaMint-BG_2020-07-31.seg11.1.2"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-BG_2020-07-31.seg11.1 #ParlaMint-BG_2020-07-31.seg11.1.3"/>
+                        <link ana="ud-syn:cc" target="#ParlaMint-BG_2020-07-31.seg11.1.5 #ParlaMint-BG_2020-07-31.seg11.1.4"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg11.1.3 #ParlaMint-BG_2020-07-31.seg11.1.5"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg11.1.3 #ParlaMint-BG_2020-07-31.seg11.1.6"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BG_2020-07-31.seg11.2">
+                     <w lemma="честя-(се)" msd="UPosTag=VERB|Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|XPosTag=Vpitz--2s" xml:id="ParlaMint-BG_2020-07-31.seg11.2.1">Честит</w>
+                     <w join="right" lemma="празник" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg11.2.2">празник</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg11.2.3">,</pc>
+                     <w lemma="скъп" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Number=Plur|XPosTag=A-pi" xml:id="ParlaMint-BG_2020-07-31.seg11.2.4">скъпи</w>
+                     <w join="right" lemma="приятел" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Plur|XPosTag=Ncmpi" xml:id="ParlaMint-BG_2020-07-31.seg11.2.5">приятели</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg11.2.6">!</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root" target="#ParlaMint-BG_2020-07-31.seg11.2 #ParlaMint-BG_2020-07-31.seg11.2.1"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-BG_2020-07-31.seg11.2.1 #ParlaMint-BG_2020-07-31.seg11.2.2"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg11.2.5 #ParlaMint-BG_2020-07-31.seg11.2.3"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg11.2.5 #ParlaMint-BG_2020-07-31.seg11.2.4"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg11.2.2 #ParlaMint-BG_2020-07-31.seg11.2.5"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg11.2.1 #ParlaMint-BG_2020-07-31.seg11.2.6"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <kinesic type="applause"><desc>Ръкопляскания.</desc></kinesic>
+            </u>
+            <gap reason="editorial"><desc xml:lang="en">SAMPLING</desc></gap>
+            <u ana="#regular" n="147431" who="#SimeonovEmil" xml:id="ParlaMint-BG_2020-07-31.u223">
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg920">
+                  <s xml:id="ParlaMint-BG_2020-07-31.seg920.1">
+                     <w lemma="уважаем" msd="UPosTag=ADJ|Case=Voc|Degree=Pos|Gender=Masc|Number=Sing|XPosTag=Ams-e" xml:id="ParlaMint-BG_2020-07-31.seg920.1.1">Уважаеми</w>
+                     <w lemma="господин" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg920.1.2">господин</w>
+                     <name type="PER">
+                        <w lemma="симеонов" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Hmsi" xml:id="ParlaMint-BG_2020-07-31.seg920.1.3">Симеонов</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg920.1.4">–</pc>
+                     <w lemma="господин" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg920.1.5">господин</w>
+                     <w join="right" lemma="председател" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg920.1.6">Председател</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg920.1.7">,</pc>
+                     <w lemma="уважаем" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Number=Plur|XPosTag=A-pi" xml:id="ParlaMint-BG_2020-07-31.seg920.1.8">уважаеми</w>
+                     <w lemma="народен" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Number=Plur|XPosTag=A-pi" xml:id="ParlaMint-BG_2020-07-31.seg920.1.9">народни</w>
+                     <w join="right" lemma="представител" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Plur|XPosTag=Ncmpi" xml:id="ParlaMint-BG_2020-07-31.seg920.1.10">представители</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg920.1.11">,</pc>
+                     <w lemma="уважаем" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Number=Plur|XPosTag=A-pi" xml:id="ParlaMint-BG_2020-07-31.seg920.1.12">уважаеми</w>
+                     <w join="right" lemma="квестор" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Plur|XPosTag=Ncmpi" xml:id="ParlaMint-BG_2020-07-31.seg920.1.13">квестори</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg920.1.14">,</pc>
+                     <w join="right" lemma="стенограф" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Plur|XPosTag=Ncmpi" xml:id="ParlaMint-BG_2020-07-31.seg920.1.15">стенографи</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg920.1.16">,</pc>
+                     <w lemma="компютърен" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Number=Plur|XPosTag=A-pi" xml:id="ParlaMint-BG_2020-07-31.seg920.1.17">компютърни</w>
+                     <w join="right" lemma="експерт" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Plur|XPosTag=Ncmpi" xml:id="ParlaMint-BG_2020-07-31.seg920.1.18">експерти</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg920.1.19">,</pc>
+                     <w lemma="уважаем" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Number=Plur|XPosTag=A-pi" xml:id="ParlaMint-BG_2020-07-31.seg920.1.20">уважаеми</w>
+                     <w lemma="служител" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Plur|XPosTag=Ncmpi" xml:id="ParlaMint-BG_2020-07-31.seg920.1.21">служители</w>
+                     <w lemma="на" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg920.1.22">на</w>
+                     <name type="ORG">
+                        <w lemma="народен" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|XPosTag=Ansd" xml:id="ParlaMint-BG_2020-07-31.seg920.1.23">Народното</w>
+                        <w join="right" lemma="събрание" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing|XPosTag=Ncnsi" xml:id="ParlaMint-BG_2020-07-31.seg920.1.24">събрание</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg920.1.25">,</pc>
+                     <w lemma="уважаем" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Number=Plur|XPosTag=A-pi" xml:id="ParlaMint-BG_2020-07-31.seg920.1.26">уважаеми</w>
+                     <w lemma="служител" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Plur|XPosTag=Ncmpi" xml:id="ParlaMint-BG_2020-07-31.seg920.1.27">служители</w>
+                     <w lemma="на" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg920.1.28">на</w>
+                     <name type="ORG">
+                        <w lemma="български" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|XPosTag=Ansd" xml:id="ParlaMint-BG_2020-07-31.seg920.1.29">Българското</w>
+                        <w lemma="национален" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|XPosTag=Ansi" xml:id="ParlaMint-BG_2020-07-31.seg920.1.30">национално</w>
+                        <w lemma="радио" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing|XPosTag=Ncnsi" xml:id="ParlaMint-BG_2020-07-31.seg920.1.31">радио</w>
+                     </name>
+                     <w lemma="и" msd="UPosTag=CCONJ|XPosTag=Cp" xml:id="ParlaMint-BG_2020-07-31.seg920.1.32">и</w>
+                     <name type="ORG">
+                        <w lemma="български" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|XPosTag=Afsd" xml:id="ParlaMint-BG_2020-07-31.seg920.1.33">Българската</w>
+                        <w lemma="национален" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|XPosTag=Afsi" xml:id="ParlaMint-BG_2020-07-31.seg920.1.34">национална</w>
+                        <w join="right" lemma="телевизия" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Ncfsi" xml:id="ParlaMint-BG_2020-07-31.seg920.1.35">телевизия</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg920.1.36">!</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg920.1.2 #ParlaMint-BG_2020-07-31.seg920.1.1"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-BG_2020-07-31.seg920.1 #ParlaMint-BG_2020-07-31.seg920.1.2"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg920.1.2 #ParlaMint-BG_2020-07-31.seg920.1.3"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg920.1.5 #ParlaMint-BG_2020-07-31.seg920.1.4"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg920.1.2 #ParlaMint-BG_2020-07-31.seg920.1.5"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg920.1.5 #ParlaMint-BG_2020-07-31.seg920.1.6"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg920.1.10 #ParlaMint-BG_2020-07-31.seg920.1.7"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg920.1.10 #ParlaMint-BG_2020-07-31.seg920.1.8"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg920.1.10 #ParlaMint-BG_2020-07-31.seg920.1.9"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg920.1.2 #ParlaMint-BG_2020-07-31.seg920.1.10"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg920.1.13 #ParlaMint-BG_2020-07-31.seg920.1.11"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg920.1.13 #ParlaMint-BG_2020-07-31.seg920.1.12"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg920.1.2 #ParlaMint-BG_2020-07-31.seg920.1.13"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg920.1.15 #ParlaMint-BG_2020-07-31.seg920.1.14"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg920.1.2 #ParlaMint-BG_2020-07-31.seg920.1.15"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg920.1.18 #ParlaMint-BG_2020-07-31.seg920.1.16"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg920.1.18 #ParlaMint-BG_2020-07-31.seg920.1.17"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg920.1.2 #ParlaMint-BG_2020-07-31.seg920.1.18"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg920.1.21 #ParlaMint-BG_2020-07-31.seg920.1.19"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg920.1.21 #ParlaMint-BG_2020-07-31.seg920.1.20"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg920.1.2 #ParlaMint-BG_2020-07-31.seg920.1.21"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg920.1.24 #ParlaMint-BG_2020-07-31.seg920.1.22"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg920.1.24 #ParlaMint-BG_2020-07-31.seg920.1.23"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg920.1.21 #ParlaMint-BG_2020-07-31.seg920.1.24"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg920.1.27 #ParlaMint-BG_2020-07-31.seg920.1.25"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg920.1.27 #ParlaMint-BG_2020-07-31.seg920.1.26"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg920.1.2 #ParlaMint-BG_2020-07-31.seg920.1.27"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg920.1.31 #ParlaMint-BG_2020-07-31.seg920.1.28"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg920.1.31 #ParlaMint-BG_2020-07-31.seg920.1.29"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg920.1.31 #ParlaMint-BG_2020-07-31.seg920.1.30"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg920.1.27 #ParlaMint-BG_2020-07-31.seg920.1.31"/>
+                        <link ana="ud-syn:cc" target="#ParlaMint-BG_2020-07-31.seg920.1.35 #ParlaMint-BG_2020-07-31.seg920.1.32"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg920.1.35 #ParlaMint-BG_2020-07-31.seg920.1.33"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg920.1.35 #ParlaMint-BG_2020-07-31.seg920.1.34"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg920.1.31 #ParlaMint-BG_2020-07-31.seg920.1.35"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg920.1.2 #ParlaMint-BG_2020-07-31.seg920.1.36"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BG_2020-07-31.seg920.2">
+                     <w lemma="днес" msd="UPosTag=ADV|Degree=Pos|XPosTag=Dt" xml:id="ParlaMint-BG_2020-07-31.seg920.2.1">Днес</w>
+                     <w lemma="съм" msd="UPosTag=AUX|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vxitf-r3s" xml:id="ParlaMint-BG_2020-07-31.seg920.2.2">е</w>
+                     <w lemma="последен" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|XPosTag=Amsf" xml:id="ParlaMint-BG_2020-07-31.seg920.2.3">последният</w>
+                     <w lemma="ден" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg920.2.4">ден</w>
+                     <w lemma="на" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg920.2.5">на</w>
+                     <w lemma="този" msd="UPosTag=DET|Case=Nom|Gender=Fem|Number=Sing|PronType=Dem|XPosTag=Pde-os-f" xml:id="ParlaMint-BG_2020-07-31.seg920.2.6">тази</w>
+                     <w lemma="сесия" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Ncfsi" xml:id="ParlaMint-BG_2020-07-31.seg920.2.7">сесия</w>
+                     <w lemma="в" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg920.2.8">в</w>
+                     <name type="ORG">
+                        <w lemma="четиридесет" msd="UPosTag=NUM|Definite=Ind|NumType=Card|Number=Plur|XPosTag=Mc-pi" xml:id="ParlaMint-BG_2020-07-31.seg920.2.9">Четиридесет</w>
+                        <w lemma="и" msd="UPosTag=CCONJ|XPosTag=Cp" xml:id="ParlaMint-BG_2020-07-31.seg920.2.10">и</w>
+                        <w lemma="четвърти" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Neut|NumType=Ord|Number=Sing|XPosTag=Monsd" xml:id="ParlaMint-BG_2020-07-31.seg920.2.11">четвъртото</w>
+                        <w lemma="народен" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|XPosTag=Ansi" xml:id="ParlaMint-BG_2020-07-31.seg920.2.12">народно</w>
+                        <w join="right" lemma="събрание" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing|XPosTag=Ncnsi" xml:id="ParlaMint-BG_2020-07-31.seg920.2.13">събрание</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg920.2.14">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:advmod" target="#ParlaMint-BG_2020-07-31.seg920.2.4 #ParlaMint-BG_2020-07-31.seg920.2.1"/>
+                        <link ana="ud-syn:cop" target="#ParlaMint-BG_2020-07-31.seg920.2.4 #ParlaMint-BG_2020-07-31.seg920.2.2"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg920.2.4 #ParlaMint-BG_2020-07-31.seg920.2.3"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-BG_2020-07-31.seg920.2 #ParlaMint-BG_2020-07-31.seg920.2.4"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg920.2.7 #ParlaMint-BG_2020-07-31.seg920.2.5"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-BG_2020-07-31.seg920.2.7 #ParlaMint-BG_2020-07-31.seg920.2.6"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg920.2.4 #ParlaMint-BG_2020-07-31.seg920.2.7"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg920.2.13 #ParlaMint-BG_2020-07-31.seg920.2.8"/>
+                        <link ana="ud-syn:nummod" target="#ParlaMint-BG_2020-07-31.seg920.2.13 #ParlaMint-BG_2020-07-31.seg920.2.9"/>
+                        <link ana="ud-syn:cc" target="#ParlaMint-BG_2020-07-31.seg920.2.11 #ParlaMint-BG_2020-07-31.seg920.2.10"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg920.2.9 #ParlaMint-BG_2020-07-31.seg920.2.11"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg920.2.13 #ParlaMint-BG_2020-07-31.seg920.2.12"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg920.2.4 #ParlaMint-BG_2020-07-31.seg920.2.13"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg920.2.4 #ParlaMint-BG_2020-07-31.seg920.2.14"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BG_2020-07-31.seg920.3">
+                     <w lemma="от" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg920.3.1">От</w>
+                     <w lemma="есен" msd="UPosTag=NOUN|Definite=Def|Gender=Fem|Number=Sing|XPosTag=Ncfsd" xml:id="ParlaMint-BG_2020-07-31.seg920.3.2">есента</w>
+                     <w lemma="дейност" msd="UPosTag=NOUN|Definite=Def|Gender=Fem|Number=Sing|XPosTag=Ncfsd" xml:id="ParlaMint-BG_2020-07-31.seg920.3.3">дейността</w>
+                     <w lemma="на" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg920.3.4">на</w>
+                     <w lemma="парламент" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing|XPosTag=Ncmsh" xml:id="ParlaMint-BG_2020-07-31.seg920.3.5">парламента</w>
+                     <w lemma="се" msd="UPosTag=PRON|Case=Acc|PronType=Prs|Reflex=Yes|XPosTag=Ppxta" xml:id="ParlaMint-BG_2020-07-31.seg920.3.6">се</w>
+                     <w lemma="премествам-(се)" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vpitf-r3s" xml:id="ParlaMint-BG_2020-07-31.seg920.3.7">премества</w>
+                     <w lemma="в" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg920.3.8">в</w>
+                     <w lemma="друг" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|XPosTag=Afsi" xml:id="ParlaMint-BG_2020-07-31.seg920.3.9">друга</w>
+                     <w join="right" lemma="сграда" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Ncfsi" xml:id="ParlaMint-BG_2020-07-31.seg920.3.10">сграда</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg920.3.11">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg920.3.2 #ParlaMint-BG_2020-07-31.seg920.3.1"/>
+                        <link ana="ud-syn:obl" target="#ParlaMint-BG_2020-07-31.seg920.3.7 #ParlaMint-BG_2020-07-31.seg920.3.2"/>
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-BG_2020-07-31.seg920.3.7 #ParlaMint-BG_2020-07-31.seg920.3.3"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg920.3.5 #ParlaMint-BG_2020-07-31.seg920.3.4"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg920.3.3 #ParlaMint-BG_2020-07-31.seg920.3.5"/>
+                        <link ana="ud-syn:expl" target="#ParlaMint-BG_2020-07-31.seg920.3.7 #ParlaMint-BG_2020-07-31.seg920.3.6"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-BG_2020-07-31.seg920.3 #ParlaMint-BG_2020-07-31.seg920.3.7"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg920.3.10 #ParlaMint-BG_2020-07-31.seg920.3.8"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg920.3.10 #ParlaMint-BG_2020-07-31.seg920.3.9"/>
+                        <link ana="ud-syn:iobj" target="#ParlaMint-BG_2020-07-31.seg920.3.7 #ParlaMint-BG_2020-07-31.seg920.3.10"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg920.3.7 #ParlaMint-BG_2020-07-31.seg920.3.11"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BG_2020-07-31.seg920.4">
+                     <w lemma="днес" msd="UPosTag=ADV|Degree=Pos|XPosTag=Dt" xml:id="ParlaMint-BG_2020-07-31.seg920.4.1">Днес</w>
+                     <w lemma="като" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg920.4.2">като</w>
+                     <w lemma="министър" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg920.4.3">министър</w>
+                     <w lemma="на" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg920.4.4">на</w>
+                     <w lemma="околен" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|XPosTag=Afsd" xml:id="ParlaMint-BG_2020-07-31.seg920.4.5">околната</w>
+                     <w lemma="среда" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Ncfsi" xml:id="ParlaMint-BG_2020-07-31.seg920.4.6">среда</w>
+                     <w lemma="и" msd="UPosTag=CCONJ|XPosTag=Cp" xml:id="ParlaMint-BG_2020-07-31.seg920.4.7">и</w>
+                     <w lemma="вода" msd="UPosTag=NOUN|Definite=Def|Gender=Fem|Number=Plur|XPosTag=Ncfpd" xml:id="ParlaMint-BG_2020-07-31.seg920.4.8">водите</w>
+                     <w lemma="на" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg920.4.9">на</w>
+                     <w lemma="практика" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Ncfsi" xml:id="ParlaMint-BG_2020-07-31.seg920.4.10">практика</w>
+                     <w lemma="съм" msd="UPosTag=AUX|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vxitf-r1s" xml:id="ParlaMint-BG_2020-07-31.seg920.4.11">съм</w>
+                     <w lemma="последен" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|XPosTag=Amsf" xml:id="ParlaMint-BG_2020-07-31.seg920.4.12">последният</w>
+                     <w join="right" lemma="министър" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg920.4.13">министър</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg920.4.14">,</pc>
+                     <w lemma="който" msd="UPosTag=PRON|Case=Nom|Gender=Masc|Number=Sing|PronType=Rel|XPosTag=Pre-os-m" xml:id="ParlaMint-BG_2020-07-31.seg920.4.15">който</w>
+                     <w lemma="отговарям" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vpiif-r3s" xml:id="ParlaMint-BG_2020-07-31.seg920.4.16">отговаря</w>
+                     <w lemma="в" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg920.4.17">в</w>
+                     <w lemma="парламентарен" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|XPosTag=Amsi" xml:id="ParlaMint-BG_2020-07-31.seg920.4.18">парламентарен</w>
+                     <w lemma="контрол" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg920.4.19">контрол</w>
+                     <w lemma="в" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg920.4.20">в</w>
+                     <w lemma="този" msd="UPosTag=DET|Case=Nom|Gender=Fem|Number=Sing|PronType=Dem|XPosTag=Pde-os-f" xml:id="ParlaMint-BG_2020-07-31.seg920.4.21">тази</w>
+                     <w join="right" lemma="сграда" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Ncfsi" xml:id="ParlaMint-BG_2020-07-31.seg920.4.22">сграда</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg920.4.23">,</pc>
+                     <w lemma="в" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg920.4.24">в</w>
+                     <w lemma="този" msd="UPosTag=DET|Case=Nom|Gender=Fem|Number=Sing|PronType=Dem|XPosTag=Pde-os-f" xml:id="ParlaMint-BG_2020-07-31.seg920.4.25">тази</w>
+                     <w lemma="зала" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Ncfsi" xml:id="ParlaMint-BG_2020-07-31.seg920.4.26">зала</w>
+                     <w lemma="и" msd="UPosTag=CCONJ|XPosTag=Cp" xml:id="ParlaMint-BG_2020-07-31.seg920.4.27">и</w>
+                     <w lemma="от" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg920.4.28">от</w>
+                     <w lemma="този" msd="UPosTag=DET|Case=Nom|Gender=Fem|Number=Sing|PronType=Dem|XPosTag=Pde-os-f" xml:id="ParlaMint-BG_2020-07-31.seg920.4.29">тази</w>
+                     <w join="right" lemma="трибуна" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Ncfsi" xml:id="ParlaMint-BG_2020-07-31.seg920.4.30">трибуна</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg920.4.31">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:advmod" target="#ParlaMint-BG_2020-07-31.seg920.4.13 #ParlaMint-BG_2020-07-31.seg920.4.1"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg920.4.3 #ParlaMint-BG_2020-07-31.seg920.4.2"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg920.4.13 #ParlaMint-BG_2020-07-31.seg920.4.3"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg920.4.6 #ParlaMint-BG_2020-07-31.seg920.4.4"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg920.4.6 #ParlaMint-BG_2020-07-31.seg920.4.5"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg920.4.3 #ParlaMint-BG_2020-07-31.seg920.4.6"/>
+                        <link ana="ud-syn:cc" target="#ParlaMint-BG_2020-07-31.seg920.4.8 #ParlaMint-BG_2020-07-31.seg920.4.7"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg920.4.3 #ParlaMint-BG_2020-07-31.seg920.4.8"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg920.4.10 #ParlaMint-BG_2020-07-31.seg920.4.9"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg920.4.8 #ParlaMint-BG_2020-07-31.seg920.4.10"/>
+                        <link ana="ud-syn:cop" target="#ParlaMint-BG_2020-07-31.seg920.4.13 #ParlaMint-BG_2020-07-31.seg920.4.11"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg920.4.13 #ParlaMint-BG_2020-07-31.seg920.4.12"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-BG_2020-07-31.seg920.4 #ParlaMint-BG_2020-07-31.seg920.4.13"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg920.4.16 #ParlaMint-BG_2020-07-31.seg920.4.14"/>
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-BG_2020-07-31.seg920.4.16 #ParlaMint-BG_2020-07-31.seg920.4.15"/>
+                        <link ana="ud-syn:acl_relcl" target="#ParlaMint-BG_2020-07-31.seg920.4.13 #ParlaMint-BG_2020-07-31.seg920.4.16"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg920.4.19 #ParlaMint-BG_2020-07-31.seg920.4.17"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg920.4.19 #ParlaMint-BG_2020-07-31.seg920.4.18"/>
+                        <link ana="ud-syn:iobj" target="#ParlaMint-BG_2020-07-31.seg920.4.16 #ParlaMint-BG_2020-07-31.seg920.4.19"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg920.4.22 #ParlaMint-BG_2020-07-31.seg920.4.20"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-BG_2020-07-31.seg920.4.22 #ParlaMint-BG_2020-07-31.seg920.4.21"/>
+                        <link ana="ud-syn:obl" target="#ParlaMint-BG_2020-07-31.seg920.4.16 #ParlaMint-BG_2020-07-31.seg920.4.22"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg920.4.26 #ParlaMint-BG_2020-07-31.seg920.4.23"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg920.4.26 #ParlaMint-BG_2020-07-31.seg920.4.24"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-BG_2020-07-31.seg920.4.26 #ParlaMint-BG_2020-07-31.seg920.4.25"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg920.4.13 #ParlaMint-BG_2020-07-31.seg920.4.26"/>
+                        <link ana="ud-syn:cc" target="#ParlaMint-BG_2020-07-31.seg920.4.30 #ParlaMint-BG_2020-07-31.seg920.4.27"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg920.4.30 #ParlaMint-BG_2020-07-31.seg920.4.28"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-BG_2020-07-31.seg920.4.30 #ParlaMint-BG_2020-07-31.seg920.4.29"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg920.4.26 #ParlaMint-BG_2020-07-31.seg920.4.30"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg920.4.13 #ParlaMint-BG_2020-07-31.seg920.4.31"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BG_2020-07-31.seg920.5">
+                     <w lemma="имам" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin|Voice=Act|XPosTag=Vpitf-m1s" xml:id="ParlaMint-BG_2020-07-31.seg920.5.1">Имах</w>
+                     <w lemma="чест" msd="UPosTag=NOUN|Definite=Def|Gender=Fem|Number=Sing|XPosTag=Ncfsd" xml:id="ParlaMint-BG_2020-07-31.seg920.5.2">честта</w>
+                     <w lemma="там" msd="UPosTag=ADV|PronType=Dem|XPosTag=Pdl" xml:id="ParlaMint-BG_2020-07-31.seg920.5.3">тук</w>
+                     <w lemma="да" msd="UPosTag=AUX|XPosTag=Tx" xml:id="ParlaMint-BG_2020-07-31.seg920.5.4">да</w>
+                     <w lemma="бъда" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vyptf-r1s" xml:id="ParlaMint-BG_2020-07-31.seg920.5.5">бъда</w>
+                     <w lemma="пет" msd="UPosTag=NUM|Definite=Ind|NumType=Card|Number=Plur|XPosTag=Mc-pi" xml:id="ParlaMint-BG_2020-07-31.seg920.5.6">пет</w>
+                     <w lemma="година" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Plur|XPosTag=Ncfpi" xml:id="ParlaMint-BG_2020-07-31.seg920.5.7">години</w>
+                     <w lemma="народен" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|XPosTag=Amsi" xml:id="ParlaMint-BG_2020-07-31.seg920.5.8">народен</w>
+                     <w lemma="представител" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg920.5.9">представител</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg920.5.10">–</pc>
+                     <w lemma="в" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg920.5.11">в</w>
+                     <w lemma="два" msd="UPosTag=NUM|Definite=Ind|Gender=Masc|NumType=Card|Number=Plur|XPosTag=Mcmpi" xml:id="ParlaMint-BG_2020-07-31.seg920.5.12">два</w>
+                     <w join="right" lemma="парламент" msd="UPosTag=NOUN|Gender=Masc|Number=Count|XPosTag=Ncmt" xml:id="ParlaMint-BG_2020-07-31.seg920.5.13">парламента</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg920.5.14">,</pc>
+                     <w lemma="включително" msd="UPosTag=ADV|Degree=Pos|XPosTag=Dd" xml:id="ParlaMint-BG_2020-07-31.seg920.5.15">включително</w>
+                     <w lemma="заместник-председател" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg920.5.16">заместник-председател</w>
+                     <w lemma="и" msd="UPosTag=CCONJ|XPosTag=Cp" xml:id="ParlaMint-BG_2020-07-31.seg920.5.17">и</w>
+                     <w lemma="председател" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg920.5.18">председател</w>
+                     <w lemma="на" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg920.5.19">на</w>
+                     <w lemma="няколко" msd="UPosTag=PRON|Definite=Ind|PronType=Ind|XPosTag=Pfq-----i" xml:id="ParlaMint-BG_2020-07-31.seg920.5.20">няколко</w>
+                     <w lemma="парламентарен" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Number=Plur|XPosTag=A-pi" xml:id="ParlaMint-BG_2020-07-31.seg920.5.21">парламентарни</w>
+                     <w join="right" lemma="комисия" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Plur|XPosTag=Ncfpi" xml:id="ParlaMint-BG_2020-07-31.seg920.5.22">комисии</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg920.5.23">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root" target="#ParlaMint-BG_2020-07-31.seg920.5 #ParlaMint-BG_2020-07-31.seg920.5.1"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-BG_2020-07-31.seg920.5.1 #ParlaMint-BG_2020-07-31.seg920.5.2"/>
+                        <link ana="ud-syn:advmod" target="#ParlaMint-BG_2020-07-31.seg920.5.5 #ParlaMint-BG_2020-07-31.seg920.5.3"/>
+                        <link ana="ud-syn:aux" target="#ParlaMint-BG_2020-07-31.seg920.5.5 #ParlaMint-BG_2020-07-31.seg920.5.4"/>
+                        <link ana="ud-syn:acl" target="#ParlaMint-BG_2020-07-31.seg920.5.2 #ParlaMint-BG_2020-07-31.seg920.5.5"/>
+                        <link ana="ud-syn:nummod" target="#ParlaMint-BG_2020-07-31.seg920.5.7 #ParlaMint-BG_2020-07-31.seg920.5.6"/>
+                        <link ana="ud-syn:obl" target="#ParlaMint-BG_2020-07-31.seg920.5.5 #ParlaMint-BG_2020-07-31.seg920.5.7"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg920.5.9 #ParlaMint-BG_2020-07-31.seg920.5.8"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg920.5.7 #ParlaMint-BG_2020-07-31.seg920.5.9"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg920.5.13 #ParlaMint-BG_2020-07-31.seg920.5.10"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg920.5.13 #ParlaMint-BG_2020-07-31.seg920.5.11"/>
+                        <link ana="ud-syn:nummod" target="#ParlaMint-BG_2020-07-31.seg920.5.13 #ParlaMint-BG_2020-07-31.seg920.5.12"/>
+                        <link ana="ud-syn:obl" target="#ParlaMint-BG_2020-07-31.seg920.5.5 #ParlaMint-BG_2020-07-31.seg920.5.13"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg920.5.16 #ParlaMint-BG_2020-07-31.seg920.5.14"/>
+                        <link ana="ud-syn:advmod" target="#ParlaMint-BG_2020-07-31.seg920.5.16 #ParlaMint-BG_2020-07-31.seg920.5.15"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg920.5.13 #ParlaMint-BG_2020-07-31.seg920.5.16"/>
+                        <link ana="ud-syn:cc" target="#ParlaMint-BG_2020-07-31.seg920.5.18 #ParlaMint-BG_2020-07-31.seg920.5.17"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg920.5.16 #ParlaMint-BG_2020-07-31.seg920.5.18"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg920.5.22 #ParlaMint-BG_2020-07-31.seg920.5.19"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg920.5.22 #ParlaMint-BG_2020-07-31.seg920.5.20"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg920.5.22 #ParlaMint-BG_2020-07-31.seg920.5.21"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg920.5.16 #ParlaMint-BG_2020-07-31.seg920.5.22"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg920.5.1 #ParlaMint-BG_2020-07-31.seg920.5.23"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg921">
+                  <s xml:id="ParlaMint-BG_2020-07-31.seg921.1">
+                     <w lemma="искам" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vpitf-r1s" xml:id="ParlaMint-BG_2020-07-31.seg921.1.1">Искам</w>
+                     <w lemma="да" msd="UPosTag=AUX|XPosTag=Tx" xml:id="ParlaMint-BG_2020-07-31.seg921.1.2">да</w>
+                     <w lemma="благодаря" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vpiif-r1s" xml:id="ParlaMint-BG_2020-07-31.seg921.1.3">благодаря</w>
+                     <w lemma="и" msd="UPosTag=CCONJ|XPosTag=Cp" xml:id="ParlaMint-BG_2020-07-31.seg921.1.4">и</w>
+                     <w lemma="да" msd="UPosTag=AUX|XPosTag=Tx" xml:id="ParlaMint-BG_2020-07-31.seg921.1.5">да</w>
+                     <w lemma="изкажа-(се)" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vpptf-r1s" xml:id="ParlaMint-BG_2020-07-31.seg921.1.6">изкажа</w>
+                     <w lemma="почит" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Ncfsi" xml:id="ParlaMint-BG_2020-07-31.seg921.1.7">почит</w>
+                     <w lemma="и" msd="UPosTag=CCONJ|XPosTag=Cp" xml:id="ParlaMint-BG_2020-07-31.seg921.1.8">и</w>
+                     <w lemma="уважение" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing|XPosTag=Ncnsi" xml:id="ParlaMint-BG_2020-07-31.seg921.1.9">уважение</w>
+                     <w lemma="на" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg921.1.10">на</w>
+                     <w join="right" lemma="всеки" msd="UPosTag=DET|Case=Nom|Number=Plur|PronType=Tot|XPosTag=Pce-op" xml:id="ParlaMint-BG_2020-07-31.seg921.1.11">всички</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg921.1.12">,</pc>
+                     <w lemma="който" msd="UPosTag=PRON|Case=Nom|Number=Plur|PronType=Rel|XPosTag=Pre-op" xml:id="ParlaMint-BG_2020-07-31.seg921.1.13">които</w>
+                     <w lemma="съм" msd="UPosTag=AUX|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vxitf-r3p" xml:id="ParlaMint-BG_2020-07-31.seg921.1.14">са</w>
+                     <w lemma="заставам" msd="UPosTag=VERB|Aspect=Imp|Definite=Ind|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act|XPosTag=Vpitcao-p-i" xml:id="ParlaMint-BG_2020-07-31.seg921.1.15">заставали</w>
+                     <w lemma="на" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg921.1.16">на</w>
+                     <w lemma="този" msd="UPosTag=DET|Case=Nom|Gender=Fem|Number=Sing|PronType=Dem|XPosTag=Pde-os-f" xml:id="ParlaMint-BG_2020-07-31.seg921.1.17">тази</w>
+                     <w join="right" lemma="трибуна" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Ncfsi" xml:id="ParlaMint-BG_2020-07-31.seg921.1.18">трибуна</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg921.1.19">!</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root" target="#ParlaMint-BG_2020-07-31.seg921.1 #ParlaMint-BG_2020-07-31.seg921.1.1"/>
+                        <link ana="ud-syn:aux" target="#ParlaMint-BG_2020-07-31.seg921.1.3 #ParlaMint-BG_2020-07-31.seg921.1.2"/>
+                        <link ana="ud-syn:ccomp" target="#ParlaMint-BG_2020-07-31.seg921.1.1 #ParlaMint-BG_2020-07-31.seg921.1.3"/>
+                        <link ana="ud-syn:cc" target="#ParlaMint-BG_2020-07-31.seg921.1.6 #ParlaMint-BG_2020-07-31.seg921.1.4"/>
+                        <link ana="ud-syn:aux" target="#ParlaMint-BG_2020-07-31.seg921.1.6 #ParlaMint-BG_2020-07-31.seg921.1.5"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg921.1.3 #ParlaMint-BG_2020-07-31.seg921.1.6"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-BG_2020-07-31.seg921.1.6 #ParlaMint-BG_2020-07-31.seg921.1.7"/>
+                        <link ana="ud-syn:cc" target="#ParlaMint-BG_2020-07-31.seg921.1.9 #ParlaMint-BG_2020-07-31.seg921.1.8"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg921.1.7 #ParlaMint-BG_2020-07-31.seg921.1.9"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg921.1.11 #ParlaMint-BG_2020-07-31.seg921.1.10"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg921.1.7 #ParlaMint-BG_2020-07-31.seg921.1.11"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg921.1.15 #ParlaMint-BG_2020-07-31.seg921.1.12"/>
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-BG_2020-07-31.seg921.1.15 #ParlaMint-BG_2020-07-31.seg921.1.13"/>
+                        <link ana="ud-syn:aux" target="#ParlaMint-BG_2020-07-31.seg921.1.15 #ParlaMint-BG_2020-07-31.seg921.1.14"/>
+                        <link ana="ud-syn:acl_relcl" target="#ParlaMint-BG_2020-07-31.seg921.1.11 #ParlaMint-BG_2020-07-31.seg921.1.15"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg921.1.18 #ParlaMint-BG_2020-07-31.seg921.1.16"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-BG_2020-07-31.seg921.1.18 #ParlaMint-BG_2020-07-31.seg921.1.17"/>
+                        <link ana="ud-syn:iobj" target="#ParlaMint-BG_2020-07-31.seg921.1.15 #ParlaMint-BG_2020-07-31.seg921.1.18"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg921.1.1 #ParlaMint-BG_2020-07-31.seg921.1.19"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg922">
+                  <s xml:id="ParlaMint-BG_2020-07-31.seg922.1">
+                     <w lemma="от" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg922.1.1">От</w>
+                     <w lemma="днес" msd="UPosTag=ADV|Degree=Pos|XPosTag=Dt" xml:id="ParlaMint-BG_2020-07-31.seg922.1.2">днес</w>
+                     <w lemma="този" msd="UPosTag=DET|Case=Nom|Gender=Fem|Number=Sing|PronType=Dem|XPosTag=Pde-os-f" xml:id="ParlaMint-BG_2020-07-31.seg922.1.3">тази</w>
+                     <w lemma="сграда" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Ncfsi" xml:id="ParlaMint-BG_2020-07-31.seg922.1.4">сграда</w>
+                     <w lemma="оставам" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vpiif-r3s" xml:id="ParlaMint-BG_2020-07-31.seg922.1.5">остава</w>
+                     <w lemma="в" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg922.1.6">в</w>
+                     <w join="right" lemma="история" msd="UPosTag=NOUN|Definite=Def|Gender=Fem|Number=Sing|XPosTag=Ncfsd" xml:id="ParlaMint-BG_2020-07-31.seg922.1.7">историята</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg922.1.8">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:obl" target="#ParlaMint-BG_2020-07-31.seg922.1.5 #ParlaMint-BG_2020-07-31.seg922.1.1"/>
+                        <link ana="ud-syn:advmod" target="#ParlaMint-BG_2020-07-31.seg922.1.1 #ParlaMint-BG_2020-07-31.seg922.1.2"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-BG_2020-07-31.seg922.1.4 #ParlaMint-BG_2020-07-31.seg922.1.3"/>
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-BG_2020-07-31.seg922.1.5 #ParlaMint-BG_2020-07-31.seg922.1.4"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-BG_2020-07-31.seg922.1 #ParlaMint-BG_2020-07-31.seg922.1.5"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg922.1.7 #ParlaMint-BG_2020-07-31.seg922.1.6"/>
+                        <link ana="ud-syn:iobj" target="#ParlaMint-BG_2020-07-31.seg922.1.5 #ParlaMint-BG_2020-07-31.seg922.1.7"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg922.1.5 #ParlaMint-BG_2020-07-31.seg922.1.8"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BG_2020-07-31.seg922.2">
+                     <w lemma="позволя-(си)" msd="UPosTag=VERB|Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|XPosTag=Vpptz--2p" xml:id="ParlaMint-BG_2020-07-31.seg922.2.1">Позволете</w>
+                     <w lemma="аз" msd="UPosTag=PRON|Case=Dat|Number=Sing|Person=1|PronType=Prs|XPosTag=Ppetds1" xml:id="ParlaMint-BG_2020-07-31.seg922.2.2">ми</w>
+                     <w lemma="за" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg922.2.3">за</w>
+                     <w lemma="последен" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|XPosTag=Amsi" xml:id="ParlaMint-BG_2020-07-31.seg922.2.4">последен</w>
+                     <w lemma="път" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg922.2.5">път</w>
+                     <w lemma="да" msd="UPosTag=AUX|XPosTag=Tx" xml:id="ParlaMint-BG_2020-07-31.seg922.2.6">да</w>
+                     <w lemma="прочета" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vpptf-r1s" xml:id="ParlaMint-BG_2020-07-31.seg922.2.7">прочета</w>
+                     <w lemma="текст" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing|XPosTag=Ncmsh" xml:id="ParlaMint-BG_2020-07-31.seg922.2.8">текста</w>
+                     <w lemma="на" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg922.2.9">на</w>
+                     <w lemma="клетва" msd="UPosTag=NOUN|Definite=Def|Gender=Fem|Number=Sing|XPosTag=Ncfsd" xml:id="ParlaMint-BG_2020-07-31.seg922.2.10">клетвата</w>
+                     <w lemma="от" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg922.2.11">от</w>
+                     <name type="MISC">
+                        <w lemma="конституция" msd="UPosTag=PROPN|Definite=Def|Gender=Fem|Number=Sing|XPosTag=Npfsd" xml:id="ParlaMint-BG_2020-07-31.seg922.2.12">Конституцията</w>
+                     </name>
+                     <w lemma="на" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg922.2.13">на</w>
+                     <name type="LOC">
+                        <w lemma="република" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Ncfsi" xml:id="ParlaMint-BG_2020-07-31.seg922.2.14">Република</w>
+                        <w lemma="българия" msd="UPosTag=PROPN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Npfsi" xml:id="ParlaMint-BG_2020-07-31.seg922.2.15">България</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg922.2.16">–</pc>
+                     <w lemma="чл." msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg922.2.17">чл.</w>
+                     <w join="right" lemma="76" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Masc|NumType=Ord|Number=Sing|XPosTag=Momsi" xml:id="ParlaMint-BG_2020-07-31.seg922.2.18">76</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg922.2.19">,</pc>
+                     <w lemma="ал." msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Ncfsi" xml:id="ParlaMint-BG_2020-07-31.seg922.2.20">ал.</w>
+                     <w join="right" lemma="втори" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Fem|NumType=Ord|Number=Sing|XPosTag=Mofsi" xml:id="ParlaMint-BG_2020-07-31.seg922.2.21">2</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg922.2.22">,</pc>
+                     <w lemma="в" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg922.2.23">в</w>
+                     <w lemma="който" msd="UPosTag=PRON|Case=Nom|Gender=Fem|Number=Sing|PronType=Rel|XPosTag=Pre-os-f" xml:id="ParlaMint-BG_2020-07-31.seg922.2.24">която</w>
+                     <w lemma="всеки" msd="UPosTag=DET|Case=Nom|Number=Plur|PronType=Tot|XPosTag=Pce-op" xml:id="ParlaMint-BG_2020-07-31.seg922.2.25">всички</w>
+                     <w lemma="народен" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Number=Plur|XPosTag=A-pi" xml:id="ParlaMint-BG_2020-07-31.seg922.2.26">народни</w>
+                     <w join="right" lemma="представител" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Plur|XPosTag=Ncmpi" xml:id="ParlaMint-BG_2020-07-31.seg922.2.27">представители</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg922.2.28">,</pc>
+                     <w lemma="депутат" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Plur|XPosTag=Ncmpi" xml:id="ParlaMint-BG_2020-07-31.seg922.2.29">депутати</w>
+                     <w lemma="в" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg922.2.30">в</w>
+                     <w lemma="този" msd="UPosTag=DET|Case=Nom|Gender=Fem|Number=Sing|PronType=Dem|XPosTag=Pde-os-f" xml:id="ParlaMint-BG_2020-07-31.seg922.2.31">тази</w>
+                     <w join="right" lemma="сграда" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Ncfsi" xml:id="ParlaMint-BG_2020-07-31.seg922.2.32">сграда</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg922.2.33">,</pc>
+                     <w lemma="премиер" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Plur|XPosTag=Ncmpi" xml:id="ParlaMint-BG_2020-07-31.seg922.2.34">премиери</w>
+                     <w lemma="и" msd="UPosTag=CCONJ|XPosTag=Cp" xml:id="ParlaMint-BG_2020-07-31.seg922.2.35">и</w>
+                     <w lemma="министър" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Plur|XPosTag=Ncmpi" xml:id="ParlaMint-BG_2020-07-31.seg922.2.36">министри</w>
+                     <w lemma="съм" msd="UPosTag=AUX|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vxitf-r3p" xml:id="ParlaMint-BG_2020-07-31.seg922.2.37">са</w>
+                     <w join="right" lemma="полагам" msd="UPosTag=VERB|Aspect=Imp|Definite=Ind|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act|XPosTag=Vpitcao-p-i" xml:id="ParlaMint-BG_2020-07-31.seg922.2.38">полагали</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg922.2.39">:</pc>
+                     <pc join="right" msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg922.2.40">„</pc>
+                     <w lemma="заклевам-(се)" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vpitf-r1s" xml:id="ParlaMint-BG_2020-07-31.seg922.2.41">Заклевам</w>
+                     <w lemma="се" msd="UPosTag=PRON|Case=Acc|PronType=Prs|Reflex=Yes|XPosTag=Ppxta" xml:id="ParlaMint-BG_2020-07-31.seg922.2.42">се</w>
+                     <w lemma="в" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg922.2.43">в</w>
+                     <w lemma="име" msd="UPosTag=NOUN|Definite=Def|Gender=Neut|Number=Sing|XPosTag=Ncnsd" xml:id="ParlaMint-BG_2020-07-31.seg922.2.44">името</w>
+                     <w lemma="на" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg922.2.45">на</w>
+                     <name type="LOC">
+                        <w lemma="република" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Ncfsi" xml:id="ParlaMint-BG_2020-07-31.seg922.2.46">Република</w>
+                        <w lemma="българия" msd="UPosTag=PROPN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Npfsi" xml:id="ParlaMint-BG_2020-07-31.seg922.2.47">България</w>
+                     </name>
+                     <incident type="action"><desc>(присъстващите в залата народни представители стават)</desc></incident>
+                     <w lemma="да" msd="UPosTag=AUX|XPosTag=Tx" xml:id="ParlaMint-BG_2020-07-31.seg922.2.48">да</w>
+                     <w lemma="спазвам" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vpitf-r1s" xml:id="ParlaMint-BG_2020-07-31.seg922.2.49">спазвам</w>
+                     <name type="MISC">
+                        <w lemma="конституция" msd="UPosTag=PROPN|Definite=Def|Gender=Fem|Number=Sing|XPosTag=Npfsd" xml:id="ParlaMint-BG_2020-07-31.seg922.2.50">Конституцията</w>
+                     </name>
+                     <w lemma="и" msd="UPosTag=CCONJ|XPosTag=Cp" xml:id="ParlaMint-BG_2020-07-31.seg922.2.51">и</w>
+                     <w lemma="закон" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Plur|XPosTag=Ncmpd" xml:id="ParlaMint-BG_2020-07-31.seg922.2.52">законите</w>
+                     <w lemma="на" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg922.2.53">на</w>
+                     <w lemma="страна" msd="UPosTag=NOUN|Definite=Def|Gender=Fem|Number=Sing|XPosTag=Ncfsd" xml:id="ParlaMint-BG_2020-07-31.seg922.2.54">страната</w>
+                     <w lemma="и" msd="UPosTag=CCONJ|XPosTag=Cp" xml:id="ParlaMint-BG_2020-07-31.seg922.2.55">и</w>
+                     <w lemma="във" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg922.2.56">във</w>
+                     <w lemma="всичкия" msd="UPosTag=PRON|Definite=Def|Number=Plur|PronType=Tot|XPosTag=Pcq--p--d" xml:id="ParlaMint-BG_2020-07-31.seg922.2.57">всичките</w>
+                     <w lemma="свой" msd="UPosTag=PRON|Case=Nom|Poss=Yes|PronType=Prs|Reflex=Yes|XPosTag=Psxto" xml:id="ParlaMint-BG_2020-07-31.seg922.2.58">си</w>
+                     <w lemma="действие" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Plur|XPosTag=Ncnpi" xml:id="ParlaMint-BG_2020-07-31.seg922.2.59">действия</w>
+                     <w lemma="да" msd="UPosTag=AUX|XPosTag=Tx" xml:id="ParlaMint-BG_2020-07-31.seg922.2.60">да</w>
+                     <w lemma="се" msd="UPosTag=PRON|Case=Acc|PronType=Prs|Reflex=Yes|XPosTag=Ppxta" xml:id="ParlaMint-BG_2020-07-31.seg922.2.61">се</w>
+                     <w lemma="ръководя-(се)" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vpitf-r1s" xml:id="ParlaMint-BG_2020-07-31.seg922.2.62">ръководя</w>
+                     <w lemma="от" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg922.2.63">от</w>
+                     <w lemma="интерес" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Plur|XPosTag=Ncmpd" xml:id="ParlaMint-BG_2020-07-31.seg922.2.64">интересите</w>
+                     <w lemma="на" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg922.2.65">на</w>
+                     <w join="right" lemma="народ" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing|XPosTag=Ncmsh" xml:id="ParlaMint-BG_2020-07-31.seg922.2.66">народа</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg922.2.67">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root" target="#ParlaMint-BG_2020-07-31.seg922.2 #ParlaMint-BG_2020-07-31.seg922.2.1"/>
+                        <link ana="ud-syn:expl" target="#ParlaMint-BG_2020-07-31.seg922.2.1 #ParlaMint-BG_2020-07-31.seg922.2.2"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg922.2.5 #ParlaMint-BG_2020-07-31.seg922.2.3"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg922.2.5 #ParlaMint-BG_2020-07-31.seg922.2.4"/>
+                        <link ana="ud-syn:obl" target="#ParlaMint-BG_2020-07-31.seg922.2.1 #ParlaMint-BG_2020-07-31.seg922.2.5"/>
+                        <link ana="ud-syn:aux" target="#ParlaMint-BG_2020-07-31.seg922.2.7 #ParlaMint-BG_2020-07-31.seg922.2.6"/>
+                        <link ana="ud-syn:ccomp" target="#ParlaMint-BG_2020-07-31.seg922.2.1 #ParlaMint-BG_2020-07-31.seg922.2.7"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-BG_2020-07-31.seg922.2.7 #ParlaMint-BG_2020-07-31.seg922.2.8"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg922.2.10 #ParlaMint-BG_2020-07-31.seg922.2.9"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg922.2.8 #ParlaMint-BG_2020-07-31.seg922.2.10"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg922.2.12 #ParlaMint-BG_2020-07-31.seg922.2.11"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg922.2.10 #ParlaMint-BG_2020-07-31.seg922.2.12"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg922.2.14 #ParlaMint-BG_2020-07-31.seg922.2.13"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg922.2.12 #ParlaMint-BG_2020-07-31.seg922.2.14"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg922.2.14 #ParlaMint-BG_2020-07-31.seg922.2.15"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg922.2.17 #ParlaMint-BG_2020-07-31.seg922.2.16"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg922.2.10 #ParlaMint-BG_2020-07-31.seg922.2.17"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg922.2.17 #ParlaMint-BG_2020-07-31.seg922.2.18"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg922.2.20 #ParlaMint-BG_2020-07-31.seg922.2.19"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg922.2.17 #ParlaMint-BG_2020-07-31.seg922.2.20"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg922.2.20 #ParlaMint-BG_2020-07-31.seg922.2.21"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg922.2.38 #ParlaMint-BG_2020-07-31.seg922.2.22"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg922.2.24 #ParlaMint-BG_2020-07-31.seg922.2.23"/>
+                        <link ana="ud-syn:obl" target="#ParlaMint-BG_2020-07-31.seg922.2.38 #ParlaMint-BG_2020-07-31.seg922.2.24"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-BG_2020-07-31.seg922.2.27 #ParlaMint-BG_2020-07-31.seg922.2.25"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg922.2.27 #ParlaMint-BG_2020-07-31.seg922.2.26"/>
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-BG_2020-07-31.seg922.2.38 #ParlaMint-BG_2020-07-31.seg922.2.27"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg922.2.29 #ParlaMint-BG_2020-07-31.seg922.2.28"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg922.2.27 #ParlaMint-BG_2020-07-31.seg922.2.29"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg922.2.32 #ParlaMint-BG_2020-07-31.seg922.2.30"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-BG_2020-07-31.seg922.2.32 #ParlaMint-BG_2020-07-31.seg922.2.31"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg922.2.29 #ParlaMint-BG_2020-07-31.seg922.2.32"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg922.2.34 #ParlaMint-BG_2020-07-31.seg922.2.33"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg922.2.27 #ParlaMint-BG_2020-07-31.seg922.2.34"/>
+                        <link ana="ud-syn:cc" target="#ParlaMint-BG_2020-07-31.seg922.2.36 #ParlaMint-BG_2020-07-31.seg922.2.35"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg922.2.27 #ParlaMint-BG_2020-07-31.seg922.2.36"/>
+                        <link ana="ud-syn:aux" target="#ParlaMint-BG_2020-07-31.seg922.2.38 #ParlaMint-BG_2020-07-31.seg922.2.37"/>
+                        <link ana="ud-syn:acl_relcl" target="#ParlaMint-BG_2020-07-31.seg922.2.8 #ParlaMint-BG_2020-07-31.seg922.2.38"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg922.2.41 #ParlaMint-BG_2020-07-31.seg922.2.39"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg922.2.41 #ParlaMint-BG_2020-07-31.seg922.2.40"/>
+                        <link ana="ud-syn:advcl" target="#ParlaMint-BG_2020-07-31.seg922.2.38 #ParlaMint-BG_2020-07-31.seg922.2.41"/>
+                        <link ana="ud-syn:expl" target="#ParlaMint-BG_2020-07-31.seg922.2.41 #ParlaMint-BG_2020-07-31.seg922.2.42"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg922.2.44 #ParlaMint-BG_2020-07-31.seg922.2.43"/>
+                        <link ana="ud-syn:obl" target="#ParlaMint-BG_2020-07-31.seg922.2.41 #ParlaMint-BG_2020-07-31.seg922.2.44"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg922.2.46 #ParlaMint-BG_2020-07-31.seg922.2.45"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg922.2.44 #ParlaMint-BG_2020-07-31.seg922.2.46"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg922.2.46 #ParlaMint-BG_2020-07-31.seg922.2.47"/>
+                        <link ana="ud-syn:aux" target="#ParlaMint-BG_2020-07-31.seg922.2.49 #ParlaMint-BG_2020-07-31.seg922.2.48"/>
+                        <link ana="ud-syn:acl" target="#ParlaMint-BG_2020-07-31.seg922.2.44 #ParlaMint-BG_2020-07-31.seg922.2.49"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-BG_2020-07-31.seg922.2.49 #ParlaMint-BG_2020-07-31.seg922.2.50"/>
+                        <link ana="ud-syn:cc" target="#ParlaMint-BG_2020-07-31.seg922.2.52 #ParlaMint-BG_2020-07-31.seg922.2.51"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg922.2.50 #ParlaMint-BG_2020-07-31.seg922.2.52"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg922.2.54 #ParlaMint-BG_2020-07-31.seg922.2.53"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg922.2.50 #ParlaMint-BG_2020-07-31.seg922.2.54"/>
+                        <link ana="ud-syn:cc" target="#ParlaMint-BG_2020-07-31.seg922.2.59 #ParlaMint-BG_2020-07-31.seg922.2.55"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg922.2.59 #ParlaMint-BG_2020-07-31.seg922.2.56"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg922.2.59 #ParlaMint-BG_2020-07-31.seg922.2.57"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-BG_2020-07-31.seg922.2.57 #ParlaMint-BG_2020-07-31.seg922.2.58"/>
+                        <link ana="ud-syn:obl" target="#ParlaMint-BG_2020-07-31.seg922.2.62 #ParlaMint-BG_2020-07-31.seg922.2.59"/>
+                        <link ana="ud-syn:aux" target="#ParlaMint-BG_2020-07-31.seg922.2.62 #ParlaMint-BG_2020-07-31.seg922.2.60"/>
+                        <link ana="ud-syn:expl" target="#ParlaMint-BG_2020-07-31.seg922.2.62 #ParlaMint-BG_2020-07-31.seg922.2.61"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg922.2.49 #ParlaMint-BG_2020-07-31.seg922.2.62"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg922.2.64 #ParlaMint-BG_2020-07-31.seg922.2.63"/>
+                        <link ana="ud-syn:iobj" target="#ParlaMint-BG_2020-07-31.seg922.2.62 #ParlaMint-BG_2020-07-31.seg922.2.64"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg922.2.66 #ParlaMint-BG_2020-07-31.seg922.2.65"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg922.2.64 #ParlaMint-BG_2020-07-31.seg922.2.66"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg922.2.1 #ParlaMint-BG_2020-07-31.seg922.2.67"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BG_2020-07-31.seg922.3">
+                     <w lemma="закълна-(се)" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act|XPosTag=Vpptf-o1s" xml:id="ParlaMint-BG_2020-07-31.seg922.3.1">Заклех</w>
+                     <w join="right" lemma="се" msd="UPosTag=PRON|Case=Acc|PronType=Prs|Reflex=Yes|XPosTag=Ppxta" xml:id="ParlaMint-BG_2020-07-31.seg922.3.2">се</w>
+                     <pc join="right" msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg922.3.3">!</pc>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg922.3.4">“</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root" target="#ParlaMint-BG_2020-07-31.seg922.3 #ParlaMint-BG_2020-07-31.seg922.3.1"/>
+                        <link ana="ud-syn:expl" target="#ParlaMint-BG_2020-07-31.seg922.3.1 #ParlaMint-BG_2020-07-31.seg922.3.2"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg922.3.1 #ParlaMint-BG_2020-07-31.seg922.3.3"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg922.3.1 #ParlaMint-BG_2020-07-31.seg922.3.4"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg923">
+                  <s xml:id="ParlaMint-BG_2020-07-31.seg923.1">
+                     <w lemma="уважаем" msd="UPosTag=ADJ|Case=Voc|Degree=Pos|Gender=Masc|Number=Sing|XPosTag=Ams-e" xml:id="ParlaMint-BG_2020-07-31.seg923.1.1">Уважаеми</w>
+                     <w lemma="господин" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg923.1.2">господин</w>
+                     <w join="right" lemma="председател" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg923.1.3">Председател</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg923.1.4">,</pc>
+                     <w lemma="на" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg923.1.5">на</w>
+                     <w lemma="аз" msd="UPosTag=PRON|Case=Acc|Number=Sing|Person=2|PronType=Prs|XPosTag=Pphlas2" xml:id="ParlaMint-BG_2020-07-31.seg923.1.6">Вас</w>
+                     <w lemma="се" msd="UPosTag=PRON|Case=Acc|PronType=Prs|Reflex=Yes|XPosTag=Ppxta" xml:id="ParlaMint-BG_2020-07-31.seg923.1.7">се</w>
+                     <w lemma="падам-(се)" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vpiif-r3s" xml:id="ParlaMint-BG_2020-07-31.seg923.1.8">пада</w>
+                     <w lemma="чест" msd="UPosTag=NOUN|Definite=Def|Gender=Fem|Number=Sing|XPosTag=Ncfsd" xml:id="ParlaMint-BG_2020-07-31.seg923.1.9">честта</w>
+                     <w lemma="да" msd="UPosTag=AUX|XPosTag=Tx" xml:id="ParlaMint-BG_2020-07-31.seg923.1.10">да</w>
+                     <w lemma="съобщя" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vpptf-r2p" xml:id="ParlaMint-BG_2020-07-31.seg923.1.11">съобщите</w>
+                     <w join="right" lemma="дата" msd="UPosTag=NOUN|Definite=Def|Gender=Fem|Number=Sing|XPosTag=Ncfsd" xml:id="ParlaMint-BG_2020-07-31.seg923.1.12">датата</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg923.1.13">,</pc>
+                     <w lemma="час" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing|XPosTag=Ncmsh" xml:id="ParlaMint-BG_2020-07-31.seg923.1.14">часа</w>
+                     <w lemma="и" msd="UPosTag=CCONJ|XPosTag=Cp" xml:id="ParlaMint-BG_2020-07-31.seg923.1.15">и</w>
+                     <w lemma="място" msd="UPosTag=NOUN|Definite=Def|Gender=Neut|Number=Sing|XPosTag=Ncnsd" xml:id="ParlaMint-BG_2020-07-31.seg923.1.16">мястото</w>
+                     <w lemma="на" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg923.1.17">на</w>
+                     <w lemma="следвам" msd="UPosTag=ADJ|Aspect=Imp|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act|XPosTag=Vpitcar-sfd" xml:id="ParlaMint-BG_2020-07-31.seg923.1.18">следващата</w>
+                     <w lemma="парламентарен" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|XPosTag=Afsi" xml:id="ParlaMint-BG_2020-07-31.seg923.1.19">парламентарна</w>
+                     <w lemma="сесия" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Ncfsi" xml:id="ParlaMint-BG_2020-07-31.seg923.1.20">сесия</w>
+                     <w lemma="и" msd="UPosTag=CCONJ|XPosTag=Cp" xml:id="ParlaMint-BG_2020-07-31.seg923.1.21">и</w>
+                     <w lemma="да" msd="UPosTag=AUX|XPosTag=Tx" xml:id="ParlaMint-BG_2020-07-31.seg923.1.22">да</w>
+                     <w lemma="закрия" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vpptf-r2p" xml:id="ParlaMint-BG_2020-07-31.seg923.1.23">закриете</w>
+                     <w lemma="последен" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|XPosTag=Ansd" xml:id="ParlaMint-BG_2020-07-31.seg923.1.24">последното</w>
+                     <w lemma="заседание" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing|XPosTag=Ncnsi" xml:id="ParlaMint-BG_2020-07-31.seg923.1.25">заседание</w>
+                     <w lemma="в" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg923.1.26">в</w>
+                     <w lemma="този" msd="UPosTag=DET|Case=Nom|Gender=Fem|Number=Sing|PronType=Dem|XPosTag=Pde-os-f" xml:id="ParlaMint-BG_2020-07-31.seg923.1.27">тази</w>
+                     <w join="right" lemma="сграда" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Ncfsi" xml:id="ParlaMint-BG_2020-07-31.seg923.1.28">сграда</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg923.1.29">,</pc>
+                     <w lemma="след" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg923.1.30">след</w>
+                     <w lemma="който" msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|PronType=Rel|XPosTag=Pre-os-n" xml:id="ParlaMint-BG_2020-07-31.seg923.1.31">което</w>
+                     <w lemma="аз" msd="UPosTag=PRON|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs|XPosTag=Ppe-os3f" xml:id="ParlaMint-BG_2020-07-31.seg923.1.32">тя</w>
+                     <w lemma="да" msd="UPosTag=AUX|XPosTag=Tx" xml:id="ParlaMint-BG_2020-07-31.seg923.1.33">да</w>
+                     <w lemma="стана" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vppif-r3s" xml:id="ParlaMint-BG_2020-07-31.seg923.1.34">стане</w>
+                     <w lemma="част" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Ncfsi" xml:id="ParlaMint-BG_2020-07-31.seg923.1.35">част</w>
+                     <w lemma="от" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg923.1.36">от</w>
+                     <w lemma="български" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|XPosTag=Afsd" xml:id="ParlaMint-BG_2020-07-31.seg923.1.37">българската</w>
+                     <w lemma="парламентарен" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|XPosTag=Afsi" xml:id="ParlaMint-BG_2020-07-31.seg923.1.38">парламентарна</w>
+                     <w join="right" lemma="история" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Ncfsi" xml:id="ParlaMint-BG_2020-07-31.seg923.1.39">история</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg923.1.40">,</pc>
+                     <w lemma="с" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg923.1.41">с</w>
+                     <w lemma="който" msd="UPosTag=PRON|Case=Nom|Gender=Fem|Number=Sing|PronType=Rel|XPosTag=Pre-os-f" xml:id="ParlaMint-BG_2020-07-31.seg923.1.42">която</w>
+                     <w lemma="всеки" msd="UPosTag=DET|Case=Nom|Number=Plur|PronType=Tot|XPosTag=Pce-op" xml:id="ParlaMint-BG_2020-07-31.seg923.1.43">всички</w>
+                     <w lemma="аз" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs|XPosTag=Ppe-op1" xml:id="ParlaMint-BG_2020-07-31.seg923.1.44">ние</w>
+                     <w lemma="трябва" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vniif-r3s" xml:id="ParlaMint-BG_2020-07-31.seg923.1.45">трябва</w>
+                     <w lemma="да" msd="UPosTag=AUX|XPosTag=Tx" xml:id="ParlaMint-BG_2020-07-31.seg923.1.46">да</w>
+                     <w lemma="се" msd="UPosTag=PRON|Case=Acc|PronType=Prs|Reflex=Yes|XPosTag=Ppxta" xml:id="ParlaMint-BG_2020-07-31.seg923.1.47">се</w>
+                     <w join="right" lemma="гордя" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vpitf-r1p" xml:id="ParlaMint-BG_2020-07-31.seg923.1.48">гордеем</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg923.1.49">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg923.1.2 #ParlaMint-BG_2020-07-31.seg923.1.1"/>
+                        <link ana="ud-syn:vocative" target="#ParlaMint-BG_2020-07-31.seg923.1.8 #ParlaMint-BG_2020-07-31.seg923.1.2"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg923.1.2 #ParlaMint-BG_2020-07-31.seg923.1.3"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg923.1.2 #ParlaMint-BG_2020-07-31.seg923.1.4"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg923.1.6 #ParlaMint-BG_2020-07-31.seg923.1.5"/>
+                        <link ana="ud-syn:iobj" target="#ParlaMint-BG_2020-07-31.seg923.1.8 #ParlaMint-BG_2020-07-31.seg923.1.6"/>
+                        <link ana="ud-syn:expl" target="#ParlaMint-BG_2020-07-31.seg923.1.8 #ParlaMint-BG_2020-07-31.seg923.1.7"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-BG_2020-07-31.seg923.1 #ParlaMint-BG_2020-07-31.seg923.1.8"/>
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-BG_2020-07-31.seg923.1.8 #ParlaMint-BG_2020-07-31.seg923.1.9"/>
+                        <link ana="ud-syn:aux" target="#ParlaMint-BG_2020-07-31.seg923.1.11 #ParlaMint-BG_2020-07-31.seg923.1.10"/>
+                        <link ana="ud-syn:acl" target="#ParlaMint-BG_2020-07-31.seg923.1.9 #ParlaMint-BG_2020-07-31.seg923.1.11"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-BG_2020-07-31.seg923.1.11 #ParlaMint-BG_2020-07-31.seg923.1.12"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg923.1.14 #ParlaMint-BG_2020-07-31.seg923.1.13"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg923.1.12 #ParlaMint-BG_2020-07-31.seg923.1.14"/>
+                        <link ana="ud-syn:cc" target="#ParlaMint-BG_2020-07-31.seg923.1.16 #ParlaMint-BG_2020-07-31.seg923.1.15"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg923.1.12 #ParlaMint-BG_2020-07-31.seg923.1.16"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg923.1.20 #ParlaMint-BG_2020-07-31.seg923.1.17"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg923.1.20 #ParlaMint-BG_2020-07-31.seg923.1.18"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg923.1.20 #ParlaMint-BG_2020-07-31.seg923.1.19"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg923.1.16 #ParlaMint-BG_2020-07-31.seg923.1.20"/>
+                        <link ana="ud-syn:cc" target="#ParlaMint-BG_2020-07-31.seg923.1.23 #ParlaMint-BG_2020-07-31.seg923.1.21"/>
+                        <link ana="ud-syn:aux" target="#ParlaMint-BG_2020-07-31.seg923.1.23 #ParlaMint-BG_2020-07-31.seg923.1.22"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg923.1.11 #ParlaMint-BG_2020-07-31.seg923.1.23"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg923.1.25 #ParlaMint-BG_2020-07-31.seg923.1.24"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-BG_2020-07-31.seg923.1.23 #ParlaMint-BG_2020-07-31.seg923.1.25"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg923.1.28 #ParlaMint-BG_2020-07-31.seg923.1.26"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-BG_2020-07-31.seg923.1.28 #ParlaMint-BG_2020-07-31.seg923.1.27"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg923.1.25 #ParlaMint-BG_2020-07-31.seg923.1.28"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg923.1.34 #ParlaMint-BG_2020-07-31.seg923.1.29"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg923.1.31 #ParlaMint-BG_2020-07-31.seg923.1.30"/>
+                        <link ana="ud-syn:obl" target="#ParlaMint-BG_2020-07-31.seg923.1.34 #ParlaMint-BG_2020-07-31.seg923.1.31"/>
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-BG_2020-07-31.seg923.1.34 #ParlaMint-BG_2020-07-31.seg923.1.32"/>
+                        <link ana="ud-syn:aux" target="#ParlaMint-BG_2020-07-31.seg923.1.34 #ParlaMint-BG_2020-07-31.seg923.1.33"/>
+                        <link ana="ud-syn:advcl" target="#ParlaMint-BG_2020-07-31.seg923.1.23 #ParlaMint-BG_2020-07-31.seg923.1.34"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-BG_2020-07-31.seg923.1.34 #ParlaMint-BG_2020-07-31.seg923.1.35"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg923.1.39 #ParlaMint-BG_2020-07-31.seg923.1.36"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg923.1.39 #ParlaMint-BG_2020-07-31.seg923.1.37"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg923.1.39 #ParlaMint-BG_2020-07-31.seg923.1.38"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg923.1.35 #ParlaMint-BG_2020-07-31.seg923.1.39"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg923.1.45 #ParlaMint-BG_2020-07-31.seg923.1.40"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg923.1.42 #ParlaMint-BG_2020-07-31.seg923.1.41"/>
+                        <link ana="ud-syn:obl" target="#ParlaMint-BG_2020-07-31.seg923.1.45 #ParlaMint-BG_2020-07-31.seg923.1.42"/>
+                        <link ana="ud-syn:det" target="#ParlaMint-BG_2020-07-31.seg923.1.44 #ParlaMint-BG_2020-07-31.seg923.1.43"/>
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-BG_2020-07-31.seg923.1.48 #ParlaMint-BG_2020-07-31.seg923.1.44"/>
+                        <link ana="ud-syn:acl_relcl" target="#ParlaMint-BG_2020-07-31.seg923.1.39 #ParlaMint-BG_2020-07-31.seg923.1.45"/>
+                        <link ana="ud-syn:aux" target="#ParlaMint-BG_2020-07-31.seg923.1.48 #ParlaMint-BG_2020-07-31.seg923.1.46"/>
+                        <link ana="ud-syn:expl" target="#ParlaMint-BG_2020-07-31.seg923.1.48 #ParlaMint-BG_2020-07-31.seg923.1.47"/>
+                        <link ana="ud-syn:ccomp" target="#ParlaMint-BG_2020-07-31.seg923.1.45 #ParlaMint-BG_2020-07-31.seg923.1.48"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg923.1.8 #ParlaMint-BG_2020-07-31.seg923.1.49"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg924">
+                  <s xml:id="ParlaMint-BG_2020-07-31.seg924.1">
+                     <w lemma="още" msd="UPosTag=ADV|Degree=Pos|XPosTag=Dq" xml:id="ParlaMint-BG_2020-07-31.seg924.1.1">Още</w>
+                     <w lemma="веднъж" msd="UPosTag=ADV|Degree=Pos|XPosTag=Dq" xml:id="ParlaMint-BG_2020-07-31.seg924.1.2">веднъж</w>
+                     <w join="right" lemma="благодаря" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vpiif-r1s" xml:id="ParlaMint-BG_2020-07-31.seg924.1.3">благодаря</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg924.1.4">!</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:advmod" target="#ParlaMint-BG_2020-07-31.seg924.1.2 #ParlaMint-BG_2020-07-31.seg924.1.1"/>
+                        <link ana="ud-syn:advmod" target="#ParlaMint-BG_2020-07-31.seg924.1.3 #ParlaMint-BG_2020-07-31.seg924.1.2"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-BG_2020-07-31.seg924.1 #ParlaMint-BG_2020-07-31.seg924.1.3"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg924.1.3 #ParlaMint-BG_2020-07-31.seg924.1.4"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BG_2020-07-31.seg924.2">
+                     <w lemma="за" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg924.2.1">За</w>
+                     <w lemma="аз" msd="UPosTag=PRON|Case=Acc|Number=Sing|Person=1|PronType=Prs|XPosTag=Ppelas1" xml:id="ParlaMint-BG_2020-07-31.seg924.2.2">мен</w>
+                     <w lemma="съм" msd="UPosTag=AUX|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act|XPosTag=Vxitf-t3s" xml:id="ParlaMint-BG_2020-07-31.seg924.2.3">беше</w>
+                     <w join="right" lemma="чест" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Ncfsi" xml:id="ParlaMint-BG_2020-07-31.seg924.2.4">чест</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg924.2.5">!</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg924.2.2 #ParlaMint-BG_2020-07-31.seg924.2.1"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg924.2.4 #ParlaMint-BG_2020-07-31.seg924.2.2"/>
+                        <link ana="ud-syn:cop" target="#ParlaMint-BG_2020-07-31.seg924.2.4 #ParlaMint-BG_2020-07-31.seg924.2.3"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-BG_2020-07-31.seg924.2 #ParlaMint-BG_2020-07-31.seg924.2.4"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg924.2.4 #ParlaMint-BG_2020-07-31.seg924.2.5"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BG_2020-07-31.seg924.3">
+                     <w lemma="да" msd="UPosTag=AUX|XPosTag=Tx" xml:id="ParlaMint-BG_2020-07-31.seg924.3.1">Да</w>
+                     <w lemma="живея" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vpitf-r3s" xml:id="ParlaMint-BG_2020-07-31.seg924.3.2">живее</w>
+                     <name type="LOC">
+                        <w join="right" lemma="българия" msd="UPosTag=PROPN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Npfsi" xml:id="ParlaMint-BG_2020-07-31.seg924.3.3">България</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg924.3.4">!</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:aux" target="#ParlaMint-BG_2020-07-31.seg924.3.2 #ParlaMint-BG_2020-07-31.seg924.3.1"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-BG_2020-07-31.seg924.3 #ParlaMint-BG_2020-07-31.seg924.3.2"/>
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-BG_2020-07-31.seg924.3.2 #ParlaMint-BG_2020-07-31.seg924.3.3"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg924.3.2 #ParlaMint-BG_2020-07-31.seg924.3.4"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <kinesic type="applause"><desc>Ръкопляскания.</desc></kinesic>
+            </u>
+            <u ana="#chair" n="147432" who="#SimeonovValeri" xml:id="ParlaMint-BG_2020-07-31.u224">
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg925">
+                  <s xml:id="ParlaMint-BG_2020-07-31.seg925.1">
+                     <w lemma="да" msd="UPosTag=AUX|XPosTag=Tx" xml:id="ParlaMint-BG_2020-07-31.seg925.1.1">Да</w>
+                     <w lemma="живея" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vpitf-r3s" xml:id="ParlaMint-BG_2020-07-31.seg925.1.2">живее</w>
+                     <name type="LOC">
+                        <w join="right" lemma="българия" msd="UPosTag=PROPN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Npfsi" xml:id="ParlaMint-BG_2020-07-31.seg925.1.3">България</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg925.1.4">!</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:aux" target="#ParlaMint-BG_2020-07-31.seg925.1.2 #ParlaMint-BG_2020-07-31.seg925.1.1"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-BG_2020-07-31.seg925.1 #ParlaMint-BG_2020-07-31.seg925.1.2"/>
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-BG_2020-07-31.seg925.1.2 #ParlaMint-BG_2020-07-31.seg925.1.3"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg925.1.2 #ParlaMint-BG_2020-07-31.seg925.1.4"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg926">
+                  <s xml:id="ParlaMint-BG_2020-07-31.seg926.1">
+                     <w join="right" lemma="благодаря" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vpiif-r1s" xml:id="ParlaMint-BG_2020-07-31.seg926.1.1">Благодаря</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg926.1.2">,</pc>
+                     <w lemma="господин" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg926.1.3">господин</w>
+                     <name type="PER">
+                        <w join="right" lemma="димитров" msd="UPosTag=PROPN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Hmsi" xml:id="ParlaMint-BG_2020-07-31.seg926.1.4">Димитров</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg926.1.5">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root" target="#ParlaMint-BG_2020-07-31.seg926.1 #ParlaMint-BG_2020-07-31.seg926.1.1"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg926.1.3 #ParlaMint-BG_2020-07-31.seg926.1.2"/>
+                        <link ana="ud-syn:vocative" target="#ParlaMint-BG_2020-07-31.seg926.1.1 #ParlaMint-BG_2020-07-31.seg926.1.3"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg926.1.3 #ParlaMint-BG_2020-07-31.seg926.1.4"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg926.1.1 #ParlaMint-BG_2020-07-31.seg926.1.5"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg927">
+                  <s xml:id="ParlaMint-BG_2020-07-31.seg927.1">
+                     <w join="right" lemma="начин" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing|XPosTag=Ncmsf" xml:id="ParlaMint-BG_2020-07-31.seg927.1.1">Начинът</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg927.1.2">,</pc>
+                     <w lemma="по" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg927.1.3">по</w>
+                     <w lemma="който" msd="UPosTag=PRON|Case=Nom|Gender=Masc|Number=Sing|PronType=Rel|XPosTag=Pre-os-m" xml:id="ParlaMint-BG_2020-07-31.seg927.1.4">който</w>
+                     <w join="right" lemma="започна" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act|XPosTag=Vpptf-o2p" xml:id="ParlaMint-BG_2020-07-31.seg927.1.5">започнахте</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg927.1.6">,</pc>
+                     <w lemma="силно" msd="UPosTag=ADV|Degree=Pos|XPosTag=Dm" xml:id="ParlaMint-BG_2020-07-31.seg927.1.7">силно</w>
+                     <w lemma="аз" msd="UPosTag=PRON|Case=Acc|Number=Sing|Person=1|PronType=Prs|XPosTag=Ppetas1" xml:id="ParlaMint-BG_2020-07-31.seg927.1.8">ме</w>
+                     <w join="right" lemma="притесня-(се)" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act|XPosTag=Vpptf-o3s" xml:id="ParlaMint-BG_2020-07-31.seg927.1.9">притесни</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg927.1.10">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:nsubj" target="#ParlaMint-BG_2020-07-31.seg927.1.9 #ParlaMint-BG_2020-07-31.seg927.1.1"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg927.1.5 #ParlaMint-BG_2020-07-31.seg927.1.2"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg927.1.4 #ParlaMint-BG_2020-07-31.seg927.1.3"/>
+                        <link ana="ud-syn:iobj" target="#ParlaMint-BG_2020-07-31.seg927.1.5 #ParlaMint-BG_2020-07-31.seg927.1.4"/>
+                        <link ana="ud-syn:acl" target="#ParlaMint-BG_2020-07-31.seg927.1.1 #ParlaMint-BG_2020-07-31.seg927.1.5"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg927.1.5 #ParlaMint-BG_2020-07-31.seg927.1.6"/>
+                        <link ana="ud-syn:advmod" target="#ParlaMint-BG_2020-07-31.seg927.1.9 #ParlaMint-BG_2020-07-31.seg927.1.7"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-BG_2020-07-31.seg927.1.9 #ParlaMint-BG_2020-07-31.seg927.1.8"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-BG_2020-07-31.seg927.1 #ParlaMint-BG_2020-07-31.seg927.1.9"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg927.1.9 #ParlaMint-BG_2020-07-31.seg927.1.10"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BG_2020-07-31.seg927.2">
+                     <w join="right" lemma="помисля" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act|XPosTag=Vpptf-o1s" xml:id="ParlaMint-BG_2020-07-31.seg927.2.1">Помислих</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg927.2.2">,</pc>
+                     <w lemma="че" msd="UPosTag=SCONJ|XPosTag=Cs" xml:id="ParlaMint-BG_2020-07-31.seg927.2.3">че</w>
+                     <w lemma="ще" msd="UPosTag=AUX|XPosTag=Tx" xml:id="ParlaMint-BG_2020-07-31.seg927.2.4">ще</w>
+                     <w lemma="се" msd="UPosTag=PRON|Case=Dat|PronType=Prs|Reflex=Yes|XPosTag=Ppxtd" xml:id="ParlaMint-BG_2020-07-31.seg927.2.5">си</w>
+                     <w lemma="подам-(се)" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vpptf-r2p" xml:id="ParlaMint-BG_2020-07-31.seg927.2.6">подадете</w>
+                     <w join="right" lemma="оставка" msd="UPosTag=NOUN|Definite=Def|Gender=Fem|Number=Sing|XPosTag=Ncfsd" xml:id="ParlaMint-BG_2020-07-31.seg927.2.7">оставката</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg927.2.8">,</pc>
+                     <w lemma="но" msd="UPosTag=CCONJ|XPosTag=Cc" xml:id="ParlaMint-BG_2020-07-31.seg927.2.9">но</w>
+                     <w lemma="слава" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Ncfsi" xml:id="ParlaMint-BG_2020-07-31.seg927.2.10">слава</w>
+                     <w join="right" lemma="богу" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vpitf-r1s" xml:id="ParlaMint-BG_2020-07-31.seg927.2.11">богу</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg927.2.12">…</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root" target="#ParlaMint-BG_2020-07-31.seg927.2 #ParlaMint-BG_2020-07-31.seg927.2.1"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg927.2.6 #ParlaMint-BG_2020-07-31.seg927.2.2"/>
+                        <link ana="ud-syn:mark" target="#ParlaMint-BG_2020-07-31.seg927.2.6 #ParlaMint-BG_2020-07-31.seg927.2.3"/>
+                        <link ana="ud-syn:aux" target="#ParlaMint-BG_2020-07-31.seg927.2.6 #ParlaMint-BG_2020-07-31.seg927.2.4"/>
+                        <link ana="ud-syn:expl" target="#ParlaMint-BG_2020-07-31.seg927.2.6 #ParlaMint-BG_2020-07-31.seg927.2.5"/>
+                        <link ana="ud-syn:ccomp" target="#ParlaMint-BG_2020-07-31.seg927.2.1 #ParlaMint-BG_2020-07-31.seg927.2.6"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-BG_2020-07-31.seg927.2.6 #ParlaMint-BG_2020-07-31.seg927.2.7"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg927.2.9 #ParlaMint-BG_2020-07-31.seg927.2.8"/>
+                        <link ana="ud-syn:cc" target="#ParlaMint-BG_2020-07-31.seg927.2.11 #ParlaMint-BG_2020-07-31.seg927.2.9"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-BG_2020-07-31.seg927.2.11 #ParlaMint-BG_2020-07-31.seg927.2.10"/>
+                        <link ana="ud-syn:conj" target="#ParlaMint-BG_2020-07-31.seg927.2.1 #ParlaMint-BG_2020-07-31.seg927.2.11"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg927.2.1 #ParlaMint-BG_2020-07-31.seg927.2.12"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <vocal type="noise"><desc>Оживление.</desc></vocal>
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg928">
+                  <s xml:id="ParlaMint-BG_2020-07-31.seg928.1">
+                     <w lemma="поради" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg928.1.1">Поради</w>
+                     <w lemma="изчерпване" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing|XPosTag=Ncnsi" xml:id="ParlaMint-BG_2020-07-31.seg928.1.2">изчерпване</w>
+                     <w lemma="на" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg928.1.3">на</w>
+                     <w lemma="дневен" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|XPosTag=Amsh" xml:id="ParlaMint-BG_2020-07-31.seg928.1.4">дневния</w>
+                     <w lemma="ред" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg928.1.5">ред</w>
+                     <w lemma="закривам" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vpitf-r1s" xml:id="ParlaMint-BG_2020-07-31.seg928.1.6">закривам</w>
+                     <w join="right" lemma="заседание" msd="UPosTag=NOUN|Definite=Def|Gender=Neut|Number=Sing|XPosTag=Ncnsd" xml:id="ParlaMint-BG_2020-07-31.seg928.1.7">заседанието</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg928.1.8">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg928.1.2 #ParlaMint-BG_2020-07-31.seg928.1.1"/>
+                        <link ana="ud-syn:obl" target="#ParlaMint-BG_2020-07-31.seg928.1.6 #ParlaMint-BG_2020-07-31.seg928.1.2"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg928.1.5 #ParlaMint-BG_2020-07-31.seg928.1.3"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg928.1.5 #ParlaMint-BG_2020-07-31.seg928.1.4"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg928.1.2 #ParlaMint-BG_2020-07-31.seg928.1.5"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-BG_2020-07-31.seg928.1 #ParlaMint-BG_2020-07-31.seg928.1.6"/>
+                        <link ana="ud-syn:obj" target="#ParlaMint-BG_2020-07-31.seg928.1.6 #ParlaMint-BG_2020-07-31.seg928.1.7"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg928.1.6 #ParlaMint-BG_2020-07-31.seg928.1.8"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg929">
+                  <s xml:id="ParlaMint-BG_2020-07-31.seg929.1">
+                     <w lemma="следвам" msd="UPosTag=ADJ|Aspect=Imp|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act|XPosTag=Vpitcar-snd" xml:id="ParlaMint-BG_2020-07-31.seg929.1.1">Следващото</w>
+                     <w lemma="заседание" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing|XPosTag=Ncnsi" xml:id="ParlaMint-BG_2020-07-31.seg929.1.2">заседание</w>
+                     <w lemma="на" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg929.1.3">на</w>
+                     <name type="ORG">
+                        <w lemma="народен" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|XPosTag=Ansd" xml:id="ParlaMint-BG_2020-07-31.seg929.1.4">Народното</w>
+                        <w lemma="събрание" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing|XPosTag=Ncnsi" xml:id="ParlaMint-BG_2020-07-31.seg929.1.5">събрание</w>
+                     </name>
+                     <w lemma="ще" msd="UPosTag=AUX|XPosTag=Tx" xml:id="ParlaMint-BG_2020-07-31.seg929.1.6">ще</w>
+                     <w lemma="се" msd="UPosTag=PRON|Case=Acc|PronType=Prs|Reflex=Yes|XPosTag=Ppxta" xml:id="ParlaMint-BG_2020-07-31.seg929.1.7">се</w>
+                     <w lemma="проведа" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vpptf-r3s" xml:id="ParlaMint-BG_2020-07-31.seg929.1.8">проведе</w>
+                     <w lemma="в" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg929.1.9">в</w>
+                     <w lemma="нов" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|XPosTag=Afsd" xml:id="ParlaMint-BG_2020-07-31.seg929.1.10">новата</w>
+                     <w lemma="пленарен" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|XPosTag=Afsi" xml:id="ParlaMint-BG_2020-07-31.seg929.1.11">пленарна</w>
+                     <w lemma="зала" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Ncfsi" xml:id="ParlaMint-BG_2020-07-31.seg929.1.12">зала</w>
+                     <w lemma="в" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg929.1.13">в</w>
+                     <name type="ORG">
+                        <w lemma="народен" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|XPosTag=Ansi" xml:id="ParlaMint-BG_2020-07-31.seg929.1.14">Народно</w>
+                        <w lemma="събрание" msd="UPosTag=NOUN|Definite=Ind|Gender=Neut|Number=Sing|XPosTag=Ncnsi" xml:id="ParlaMint-BG_2020-07-31.seg929.1.15">събрание</w>
+                     </name>
+                     <w lemma="два" msd="UPosTag=NUM|Definite=Ind|NumType=Card|Number=Plur|XPosTag=Mc-pi" xml:id="ParlaMint-BG_2020-07-31.seg929.1.16">2</w>
+                     <w lemma="–" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg929.1.17">–</w>
+                     <w lemma="бивш" msd="UPosTag=ADJ|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|XPosTag=Amsh" xml:id="ParlaMint-BG_2020-07-31.seg929.1.18">бившия</w>
+                     <name type="ORG">
+                        <w lemma="партиен" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|XPosTag=Amsi" xml:id="ParlaMint-BG_2020-07-31.seg929.1.19">Партиен</w>
+                        <w join="right" lemma="дом" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg929.1.20">дом</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg929.1.21">,</pc>
+                     <w lemma="на" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg929.1.22">на</w>
+                     <w lemma="двадесети" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Masc|NumType=Ord|Number=Sing|XPosTag=Momsi" xml:id="ParlaMint-BG_2020-07-31.seg929.1.23">2</w>
+                     <w lemma="септември" msd="UPosTag=NOUN|Definite=Ind|Gender=Masc|Number=Sing|XPosTag=Ncmsi" xml:id="ParlaMint-BG_2020-07-31.seg929.1.24">септември</w>
+                     <w lemma="2020" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Fem|NumType=Ord|Number=Sing|XPosTag=Mofsi" xml:id="ParlaMint-BG_2020-07-31.seg929.1.25">2020</w>
+                     <w lemma="година" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Ncfsi" xml:id="ParlaMint-BG_2020-07-31.seg929.1.26">г.</w>
+                     <w lemma="от" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg929.1.27">от</w>
+                     <w lemma="9,00" msd="UPosTag=NUM|Definite=Ind|NumType=Card|Number=Plur|XPosTag=Mc-pi" xml:id="ParlaMint-BG_2020-07-31.seg929.1.28">9,00</w>
+                     <w lemma="час" msd="UPosTag=NOUN|Definite=Def|Gender=Masc|Number=Sing|XPosTag=Ncmsh" xml:id="ParlaMint-BG_2020-07-31.seg929.1.29">ч.</w>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg929.1.2 #ParlaMint-BG_2020-07-31.seg929.1.1"/>
+                        <link ana="ud-syn:nsubj_pass" target="#ParlaMint-BG_2020-07-31.seg929.1.8 #ParlaMint-BG_2020-07-31.seg929.1.2"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg929.1.5 #ParlaMint-BG_2020-07-31.seg929.1.3"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg929.1.5 #ParlaMint-BG_2020-07-31.seg929.1.4"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg929.1.2 #ParlaMint-BG_2020-07-31.seg929.1.5"/>
+                        <link ana="ud-syn:aux" target="#ParlaMint-BG_2020-07-31.seg929.1.8 #ParlaMint-BG_2020-07-31.seg929.1.6"/>
+                        <link ana="ud-syn:expl" target="#ParlaMint-BG_2020-07-31.seg929.1.8 #ParlaMint-BG_2020-07-31.seg929.1.7"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-BG_2020-07-31.seg929.1 #ParlaMint-BG_2020-07-31.seg929.1.8"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg929.1.12 #ParlaMint-BG_2020-07-31.seg929.1.9"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg929.1.12 #ParlaMint-BG_2020-07-31.seg929.1.10"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg929.1.12 #ParlaMint-BG_2020-07-31.seg929.1.11"/>
+                        <link ana="ud-syn:obl" target="#ParlaMint-BG_2020-07-31.seg929.1.8 #ParlaMint-BG_2020-07-31.seg929.1.12"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg929.1.15 #ParlaMint-BG_2020-07-31.seg929.1.13"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg929.1.15 #ParlaMint-BG_2020-07-31.seg929.1.14"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg929.1.12 #ParlaMint-BG_2020-07-31.seg929.1.15"/>
+                        <link ana="ud-syn:nummod" target="#ParlaMint-BG_2020-07-31.seg929.1.12 #ParlaMint-BG_2020-07-31.seg929.1.16"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg929.1.20 #ParlaMint-BG_2020-07-31.seg929.1.17"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg929.1.20 #ParlaMint-BG_2020-07-31.seg929.1.18"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg929.1.20 #ParlaMint-BG_2020-07-31.seg929.1.19"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg929.1.16 #ParlaMint-BG_2020-07-31.seg929.1.20"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg929.1.24 #ParlaMint-BG_2020-07-31.seg929.1.21"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg929.1.24 #ParlaMint-BG_2020-07-31.seg929.1.22"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg929.1.24 #ParlaMint-BG_2020-07-31.seg929.1.23"/>
+                        <link ana="ud-syn:obl" target="#ParlaMint-BG_2020-07-31.seg929.1.8 #ParlaMint-BG_2020-07-31.seg929.1.24"/>
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg929.1.26 #ParlaMint-BG_2020-07-31.seg929.1.25"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg929.1.24 #ParlaMint-BG_2020-07-31.seg929.1.26"/>
+                        <link ana="ud-syn:case" target="#ParlaMint-BG_2020-07-31.seg929.1.29 #ParlaMint-BG_2020-07-31.seg929.1.27"/>
+                        <link ana="ud-syn:nummod" target="#ParlaMint-BG_2020-07-31.seg929.1.29 #ParlaMint-BG_2020-07-31.seg929.1.28"/>
+                        <link ana="ud-syn:nmod" target="#ParlaMint-BG_2020-07-31.seg929.1.24 #ParlaMint-BG_2020-07-31.seg929.1.29"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BG_2020-07-31.seg930">
+                  <s xml:id="ParlaMint-BG_2020-07-31.seg930.1">
+                     <w lemma="приятен" msd="UPosTag=ADJ|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|XPosTag=Afsi" xml:id="ParlaMint-BG_2020-07-31.seg930.1.1">Приятна</w>
+                     <w join="right" lemma="почивка" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Ncfsi" xml:id="ParlaMint-BG_2020-07-31.seg930.1.2">почивка</w>
+                     <pc msd="UPosTag=PUNCT|XPosTag=punct" xml:id="ParlaMint-BG_2020-07-31.seg930.1.3">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:amod" target="#ParlaMint-BG_2020-07-31.seg930.1.2 #ParlaMint-BG_2020-07-31.seg930.1.1"/>
+                        <link ana="ud-syn:root" target="#ParlaMint-BG_2020-07-31.seg930.1 #ParlaMint-BG_2020-07-31.seg930.1.2"/>
+                        <link ana="ud-syn:punct" target="#ParlaMint-BG_2020-07-31.seg930.1.2 #ParlaMint-BG_2020-07-31.seg930.1.3"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <kinesic type="ringing"><desc>Звъни.</desc></kinesic>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

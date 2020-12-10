@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="hr" xml:id="ParlaMint-HR_S16" ana="#parla.session #covid">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="hr">Hrvatski parlamentarni korpus ParlaMint-HR, sjednica 16 [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Croatian parliamentary corpus ParlaMint-HR, Session 16 [ParlaMint SAMPLE]</title>
+            <title type="sub" xml:lang="hr">Zapisnici sjednica Hvratskog sabora, mandat IX, sjednica 16 (2020-01-17 - 2020-05-17)</title>
+            <title type="sub" xml:lang="en">Minutes of the National Assembly of the Republic of Croatia, Term 9, Session 16 (2020-01-17 - 2020-05-17)</title>
+            <meeting n="9" corresp="#HS" ana="#parla.term #HS.9">9. mandat</meeting>
+            <meeting n="16" ana="#parla.session">16. sjednica</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="hr">Preuzimanje i čiščenje digitalnog izvora</resp>
+               <resp xml:lang="en">Download and clean-up of the JSON digital source</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-1560-4099">Tomaž Erjavec</persName>
+               <resp xml:lang="hr">Kodiranje Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="hr">Istraživačka infrastrukutra CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>1.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="14532" xml:lang="hr">14.532 govora</measure>
+            <measure unit="speeches" quantity="14532" xml:lang="en">14,532 speeches</measure>
+            <measure unit="words" quantity="2479758" xml:lang="hr">2.479.758 riječi</measure>
+            <measure unit="words" quantity="2479758" xml:lang="en">2,479,758 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="hr">Istraživačka infrastrukutra CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URL">https://github.com/clarin-eric/ParlaMint</idno>
+            <pubPlace><ref target="https://github.com/clarin-eric/ParlaMint">https://github.com/clarin-eric/ParlaMint</ref></pubPlace>
+            
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="hr">Ovaj rad je dostupan pod <ref target="http://creativecommons.org/licenses/by/4.0/">međunarodnom licencom Creative Commons Imenovanje 4.0</ref>
+               </p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+            </availability>
+            <date when="2020-12-10">2020-12-10</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl><title>Multilingual comparable corpora of parliamentary debates ParlaMint 1.0</title><idno type="handle">http://hdl.handle.net/11356/1345</idno></bibl>
+            <bibl>
+               <title type="main">Minutes of the National Assembly of the Republic of Croatia</title>
+               <idno type="URI">https://parlametar.hr/</idno>
+               <idno type="URI">http://www.sabor.hr/</idno>
+               <date from="2020-01-17" to="2020-05-17">2020-01-17 - 2020-05-17</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="hr">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="2"/>
+               <tagUsage gi="u" occurs="14532"/>
+               <tagUsage gi="seg" occurs="50526"/>
+               <tagUsage gi="vocal" occurs="1756"/>
+               <tagUsage gi="desc" occurs="2867"/>
+               <tagUsage gi="kinesic" occurs="38"/>
+               <tagUsage gi="gap" occurs="1073"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Trg sv. Marka 6</name>
+               <name type="city">Zagreb</name>
+               <name type="country" key="HR">Croatia</name>
+               <date from="2020-01-17" to="2020-05-17" ana="#parla.session">2020-01-17 - 2020-05-17</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2020-12-10"><name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2020-10-04">
+            <name>Tomaž Erjavec</name>: Small fixes for ParlaMint.</change>
+         <change when="2020-10-04">
+            <name>Tomaž Erjavec</name>: Generated corpus in Parla-CLARIN.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="hr" ana="#covid">
+      <body>
+         <div type="debateSection">
+            <head>16. sjednica</head>
+            <u who="#JandrokovićGordan" ana="#chair" xml:id="ParlaMint-HR_S16.u1" n="433076">
+               <seg xml:id="seg580399">Poštovane gospođe i gospodo zastupnici otvaram 16. sjednicu Hrvatskog sabora i sve vas srdačno pozdravljam.</seg>
+               <seg xml:id="seg580400">Posebno pozdravljam predsjednika Vlade RH Andreja Plenkovića, potpredsjednike i ostale nazočne članice i članove Vlade RH.</seg>
+               <seg xml:id="seg580401">Ovom sjednicom započinje redovito zasjedanje Hrvatskog sabora koje prema odredbama Ustava RH i Poslovnika Hrvatskog sabora započinje 15. siječnja i završava 15. srpnja. Pozivam vas na početku da odamo počast domovini izvođenjem himne „Lijepa naša domovino“.</seg>
+               <seg xml:id="seg580402">- Izvođenje himne „Lijepa naša domovino“ –</seg>
+               <seg xml:id="seg580403">Isto tako pozivam vas da minutom šutnje odamo počast svima onima koji su svojim radom i djelovanjem pridonijeli stvaranju i razvoju neovisne i slobodne Hrvatske, posebno Hrvatskim braniteljima i svima koji su svoj život dali za domovinu.</seg>
+               <seg xml:id="seg580404">- Minuta šutnje –</seg>
+               <seg xml:id="seg580405">Neka im je vječna slava i hvala im.</seg>
+               <seg xml:id="seg580406">Gospođe i gospodo zastupnici na današnji dan obilježava se 28 godišnjica Međunarodnog priznanja Hrvatske. Nakon što je proglasila svoju samostalnost i suverenost, raskinula sve državno-pravne veze s bivšom jugoslavenskom državnom zajednicom na današnji dan 15. siječnja 1992. postigla je i međunarodno priznanje svoje neovisnosti.</seg>
+               <seg xml:id="seg580407">Neovisnost i suverenost RH priznalo je svih 12 zemalja članica tadašnje europske zajednice kojim su se istog dana pridružile i Austrija, Bugarska, Kanada, Mađarska, Malta, Norveška, Poljska i Švicarska.</seg>
+               <seg xml:id="seg580408">Na današnji dan obilježava se i 22 godišnja završetka mirne reintegracije istočne Slavonije, Baranje i zapadnog Srijema, ustavnopravni poredak RH. Dan međunarodnog priznanja RH i dan mirne reintegracije hrvatskog Podunavlja u Hrvatskoj se obilježavaju kao spomendani.</seg>
+               <seg xml:id="seg580409">Prije nego nastavimo s radom dopustite mi da u vaše i u svoje ime zahvalim predsjednici RH gospođi Kolindi Grabar Kitrović na dosadašnjoj suradnji u obavljanju odgovorne i zahtjevne dužnosti predsjednice RH. Također mi dozvolite da u ime zastupnica i zastupnika Hrvatskog sabora čestitam gospodinu Zoranu Milanoviću na izboru za predsjednika RH. Želim mu uspješno obavljanje dužnosti predsjednika RH.</seg>
+               <seg xml:id="seg580410">Prije što pređemo još na dnevni red, jedna informacija, dakle glasovanje će biti u petak u 13 i 30 ovoga puta jer je veći broj saborskih zastupnika međunarodno, ima i međunarodne obveze, njihov let je i povratak u Hrvatsku oko 12 sati, tako da ćemo onda u 13 sati i 30 minuta u petak.</seg>
+               <seg xml:id="seg580411">Zapisnik 15. sjednice Hrvatskog sabora primili ste elektroničkim putem. Ima li primjedbi na zapisnik? Ako nema, utvrđujem da smo usvojili zapisnik 15. sjednice Hrvatskog sabora u predloženom tekstu.</seg>
+               <seg xml:id="seg580412">Prelazimo sada na utvrđivanje dnevnog reda sjednice. Uz poziv za sjednicu primili ste i prijedlog dnevnog reda, konačni prijedlog dnevnog reda dostavljen vam je elektroničkim putem i u tom konačnom prijedlogu dnevnog reda uvrštene su i 3 nove točke. Naglašavam da su nove točke predložene u konačnom prijedlogu dnevnog reda tiskane debljim slovima, te točke nije sadržavao prijedlog dnevnog reda koji ste primili uz poziv. To su točke pod rednim brojevima 1., 22. i 25.</seg>
+               <seg xml:id="seg580413">Članak 227. Poslovnika određuje da se najprije odlučuje o prijedlogu da se pojedini zakon donese po hitnom postupku. Sukladno Članku 205. Poslovnika odlučit ćemo o prijedlozima zakona za koje predlagatelj predlaže donošenje u hitnom postupku, to su točke 12. i 103. konačnog prijedloga dnevnog reda.</seg>
+               <seg xml:id="seg580414">Članak 206. Poslovnika određuje da se po hitnom postupku donose zakoni koji se usklađuju s dokumentima EU, ako to zatraži predlagatelj, te se o njima ne glasuje. To je točka 12. konačnog prijedloga dnevnog reda.</seg>
+               <seg xml:id="seg580415">Sukladno Članku 206., stavku 1. Poslovnika utvrđujem da je ovaj zakonski prijedlog uvršten u dnevni red po hitnom postupku.</seg>
+               <seg xml:id="seg580416">Ima li tko od zastupnika primjedbu na primjenu hitnog postupka kod donošenja zakona pod točkom 103. konačnog prijedloga dnevnog reda?</seg>
+               <seg xml:id="seg580417">To je Prijedlog zakona o izmjenama Zakona o mirovinskom osiguranju s konačnim prijedlogom zakona. Predlagatelj je Klub zastupnika Hrvatske stranke umirovljenika, SNAGA-e, nezavisnih zastupnika i Nove Politike.</seg>
+               <seg xml:id="seg580418">Ako nema primjedbi, utvrđujem da je prihvaćen prijedlog za provođenje hitnog postupka sukladno čl. 205. Poslovnika. Pisani prigovor na dnevni red koji sam predložio uz poziv na sjednicu podnio je zastupnik Željko Jovanović.</seg>
+               <seg xml:id="seg580419">Kako podneseni prigovor nije podnesen u skladu sa čl. 225. st. 2. Poslovnika, dnevni red koji sam predložio uz poziv za sjednicu sukladno čl. 225. st. 3. Poslovnika, smatra se utvrđenim.</seg>
+               <seg xml:id="seg580420">Dakle, izvolite kolega Jovanovnić.</seg>
+            </u>
+            <u who="#JovanovićŽeljko" ana="#regular" xml:id="ParlaMint-HR_S16.u2" n="433077">
+               <seg xml:id="seg580422">Poštovani predsjedniče HS-a.</seg>
+               <seg xml:id="seg580423">Kolegice i kolege, predložio sam da se dnevni red izmijeni na način da se točka 109. i 110., a to je Izvješće o radu Odbora za etiku i visokom obrazovanju u znanosti za 2016., dobro slušajte i 2017. pomakne prema gornjim točkama dnevnog reda. Dakle sramotno je da izvješće o radu najvišeg stručnog i savjetodavnog tijela za promicanje etičkih vrijednosti u visokom obrazovanju i znanosti za 2016. i 2017. još nismo raspravili.</seg>
+               <seg xml:id="seg580424">Ali, ne samo to, ne raspravljamo o tome zato što taj Odbor uopće ne postoji, kolegice i kolege. Taj Odbor imenuje HS na prijedlog hrvatske Vlade. On ne radi već 2 godine. Cijelu 2018. i 2019. Zato sam tražio da se to pomakne da bi vidjeli u čemu je problem. Zašto Odbor <vocal type="interruption"><desc>Upadica predsjednik: Hvala kolega Jovanović.</desc></vocal>za etiku i visokom obrazovanju i znanosti ne radi već 2 godine?</seg>
+            </u>
+            <gap reason="editorial"><desc xml:lang="en">SAMPLING</desc></gap>
+            <u who="#SanaderAnte" ana="#chair" xml:id="ParlaMint-HR_S16.u14531" n="446078">
+               <seg xml:id="seg645366">Dobro, s ovim smo iscrpili raspravu.</seg>
+               <seg xml:id="seg645367">Zaključujem raspravu, glasovat ćemo kad se steknu uvjeti.</seg>
+               <seg xml:id="seg645368">Nastavljamo sjednicu u ponedjeljak, 18. svibnja u 9 i 30 sati iznošenjem stajališta klubova zastupnika a glasovanje će biti u 11 sati.</seg>
+               <seg xml:id="seg645369">Hvala, laku noć.</seg>
+            </u>
+            <u who="#JandrokovićGordan" ana="#regular" xml:id="ParlaMint-HR_S16.u14532" n="446079">
+               <seg xml:id="seg645371">a) Prijedlog odluke o razrješenju predsjednika Vijeća za zaštitu tržišnog natjecanja, b) Prijedlog odluke o imenovanju predsjednika Vijeća za zaštitu tržišnog natjecanja, predlagatelj je Vlada, rasprava je zaključena.</seg>
+               <seg xml:id="seg645372">Prvo dajem na glasovanje Prijedlog odluke o razrješenju predsjednika Vijeća za zaštitu tržišnog natjecanja.</seg>
+               <seg xml:id="seg645373">Tko je za? Tko je suzdržan? I tko je protiv?</seg>
+               <seg xml:id="seg645374">Donijeli smo odluku, 105 za, 10 suzdržanih i 1 je bio protiv pa sada idemo na glasovanje o Prijedlogu odluke o imenovanju predsjednika Vijeća za zaštitu tržišnog natjecanja, molim glasujmo.</seg>
+               <seg xml:id="seg645375">Tko je za? Tko je suzdržan? I tko je protiv?</seg>
+               <seg xml:id="seg645376">Utvrđujem da je većinom glasova, 80 za, 29 suzdržanih i 7 protiv donijeta odluka o imenovanju predsjednika Vijeća za zaštitu tržišnog natjecanja.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

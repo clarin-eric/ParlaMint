@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-SI_2014-08-01_SDZ7-Redna-01" xml:lang="sl" ana="#parla.sitting #reference">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="sl">Slovenski parlamentarni korpus ParlaMint-SI, redna seja 1 [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Slovenian parliamentary corpus ParlaMint-SI, Regular Session 1 [ParlaMint SAMPLE]</title>
+            <title type="sub" xml:lang="sl">Zapisi sej Državnega zbora Republike Slovenije, 7. mandat, 1. redna seja, 1.8.2014</title>
+            <title type="sub" xml:lang="en">Minutes of the National Assembly of the Republic of Slovenia, Term 7, Regular Session 1, 1.8.2014</title>
+            <meeting n="1" corresp="#DZ" ana="#parla.meeting.regular">Redna</meeting>
+            <meeting n="7" corresp="#DZ" ana="#parla.term #DZ.7">7. mandat</meeting>
+            <respStmt>
+               <persName>Andrej Pančur</persName>
+               <resp xml:lang="sl">Kodiranje TEI</resp>
+               <resp xml:lang="en">TEI corpus encoding</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="sl">Raziskovalna infrastruktura CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>1.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="58" xml:lang="sl">58 govorov</measure>
+            <measure unit="speeches" quantity="58" xml:lang="en">58 speeches</measure>
+            <measure unit="words" quantity="11148" xml:lang="sl">11.148 besed</measure>
+            <measure unit="words" quantity="11148" xml:lang="en">11,148 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="sl">Raziskovalna infrastruktura CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URL">https://github.com/clarin-eric/ParlaMint</idno>
+            <pubPlace><ref target="https://github.com/clarin-eric/ParlaMint">https://github.com/clarin-eric/ParlaMint</ref></pubPlace>
+            
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+               <p xml:lang="sl">To delo je ponujeno pod <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Priznanje avtorstva 4.0 mednarodna licenca</ref>.</p>
+            </availability>
+            <date when="2020-12-10">2020-12-10</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl><title>Multilingual comparable corpora of parliamentary debates ParlaMint 1.0</title><idno type="handle">http://hdl.handle.net/11356/1345</idno></bibl>
+            <bibl>
+               <title type="main" xml:lang="en">Minutes of the National Assembly of the Republic of Slovenia</title>
+               <title type="main" xml:lang="sl">Zapisi sej Državnega zbora Republike Slovenije</title>
+               <edition xml:lang="sl">Nepreverjen zapis seje</edition>
+               <edition xml:lang="en">Unverified session record</edition>
+               <idno type="URI">https://www.dz-rs.si/wps/portal/Home/deloDZ/seje/evidenca?mandat=VII&amp;type=sz&amp;uid=1324DC2FE44607F9C1257D2A003CC1AF</idno>
+               <date when="2014-08-01">1.8.2014</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="sl">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="2"/>
+               <tagUsage gi="note" occurs="75"/>
+               <tagUsage gi="u" occurs="58"/>
+               <tagUsage gi="seg" occurs="231"/>
+               <tagUsage gi="kinesic" occurs="5"/>
+               <tagUsage gi="desc" occurs="7"/>
+               <tagUsage gi="gap" occurs="2"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city">Ljubljana</name>
+               <name type="country" key="SI">Slovenija</name>
+               <date when="2014-08-01" ana="#parla.sitting">1.8.2014</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2020-12-10"><name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2020-10-06">
+            <name>Tomaž Erjavec</name>: Small fixes for ParlaMint.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="debateSection">
+            <head>REPUBLIKA SLOVENIJA DRŽAVNI ZBOR</head>
+            <head type="session">1. seja</head>
+            <head type="chairman">Sejo sta vodila predsedujoča Marjana Kotnik Poropat in predsednik Državnega zbora dr. Milan Brglez.</head>
+            <note type="time">Seja se je začela ob 10. uri.</note>
+            <note type="speaker">PREDSEDUJOČA MARJANA KOTNIK POROPAT:</note>
+            <u who="#KotnikPoropatMarjana" xml:id="ParlaMint-SI_2014-08-01_SDZ7-Redna-01.u1" ana="#chair">
+               <seg xml:id="ParlaMint-SI_2014-08-01_SDZ7-Redna-01.seg1">Spoštovani, prosim, da zasedete svoja mesta.</seg>
+               <seg xml:id="ParlaMint-SI_2014-08-01_SDZ7-Redna-01.seg2">V naši sredini pozdravljam predsednika države, gospoda Boruta Pahorja in predsednika Državnega zbora, gospoda Janka Vebra. Lepo pozdravljena.</seg>
+               <kinesic type="applause"><desc>aplavz</desc></kinesic>
+               <gap reason="editorial"><desc>himna</desc></gap>
+               <seg xml:id="ParlaMint-SI_2014-08-01_SDZ7-Redna-01.seg3">Besedo dajem spoštovanemu predsedniku Državnega zbora, gospodu Janku Vebru. Izvolite, prosim.</seg>
+            </u>
+            <note type="speaker">JANKO VEBER (PS SD):</note>
+            <u who="#VeberJanko" xml:id="ParlaMint-SI_2014-08-01_SDZ7-Redna-01.u2" ana="#regular">
+               <seg xml:id="ParlaMint-SI_2014-08-01_SDZ7-Redna-01.seg4">Hvala za besedo, predsedujoča. Spoštovani predsednik Republike Slovenije, gospod Borut Pahor, spoštovani poslanke in poslanci, gospe in gospodje!</seg>
+               <seg xml:id="ParlaMint-SI_2014-08-01_SDZ7-Redna-01.seg5">Dovolite mi, da vas nagovorim ob izteku VI. mandata Državnega zbora. Mandat se izteka prej, kot določa Ustava, kar govori o tem, da smo delovali v zelo zahtevnih razmerah, ki so jih v veliki meri narekovale tako gospodarske in finančne razmere, ki pa so nastale v svetu, ne v Sloveniji, to moramo poudariti, seveda pa smo sestavni del tega dogajanja bili tudi v Sloveniji. In ukrepi, ki jih je bilo treba sprejemati v Državnem zboru, so bili zelo pomembni, da smo lahko obvladovali ravno to področje.</seg>
+               <seg xml:id="ParlaMint-SI_2014-08-01_SDZ7-Redna-01.seg6">Ob tej priložnosti bi se želel še posebej zahvaliti poslankam in poslancem sklica, ki se mu z današnjim dnem izteka mandat, za izjemno sodelovanje. Dosegli smo soglasje tako med opozicijo in koalicijo, zato da smo lahko spremenili v dveh bistvenih točkah tudi Ustavo Republike Slovenije in tudi na mednarodnem področju sprejeli pomembno odločitev, ko smo soglasno ratificirali vstop Republike Hrvaške v Evropsko unijo. Mislim, da smo s tem dejanjem dali en pomemben pečat v zgodovini parlamentarizma v Sloveniji. Po mojem mnenju bo to tudi zaznamovalo v največji meri mandat, ki se nam izteka.</seg>
+               <seg xml:id="ParlaMint-SI_2014-08-01_SDZ7-Redna-01.seg7">Za to, da smo lahko, po mojem mnenju, uspešno delovali, je velika zasluga tudi predsednika, tako da se mu tudi zahvaljujem in hkrati se oba zahvaljujeva za vse, kar je bilo sprejeto v Državnem zboru, kajti veliko zahtevnih predlogov je posredoval predsednik republike v sprejem Državnemu zboru in vsi predlogi so bili sprejeti. Tudi to je nekaj, kar bo zagotovo ostalo kot pomemben mejnik ali pa dosežek pri delovanju Državnega zbora.</seg>
+               <seg xml:id="ParlaMint-SI_2014-08-01_SDZ7-Redna-01.seg8">Ob zaključku mojega govora mi dovolite, da se zahvalim tudi vsem sodelavcem in sodelavkam v Državnem zboru za pomoč pri delu Državnega zbora, še posebej pa tudi Kabinetu, ki je skrbel za to, da sem tudi sam, upam, da dovolj, primerno opravljal funkcijo Državnega zbora. Še enkrat iskrena hvala za vso pomoč in tudi novemu sklicu veliko uspeha pri delu, v katerega vstopamo z današnjim dnem. Hvala.</seg>
+               <kinesic type="applause"><desc>aplavz</desc></kinesic>
+            </u>
+            <gap reason="editorial"><desc xml:lang="en">SAMPLING</desc></gap>
+            <u who="#KotnikPoropatMarjana" xml:id="ParlaMint-SI_2014-08-01_SDZ7-Redna-01.u57" ana="#chair">
+               <seg xml:id="ParlaMint-SI_2014-08-01_SDZ7-Redna-01.seg233">Hvala lepa predsedniku za izgovorjene besede in še enkrat čestitke za izvolitev.</seg>
+               <seg xml:id="ParlaMint-SI_2014-08-01_SDZ7-Redna-01.seg234">S tem zaključujem to točko dnevnega reda in novoizvoljenega predsednika prosim, da zasede svoje mesto.</seg>
+            </u>
+            <note type="speaker">PREDSEDNIK DR. MILAN BRGLEZ:</note>
+            <u who="#BrglezMilan" xml:id="ParlaMint-SI_2014-08-01_SDZ7-Redna-01.u58" ana="#chair">
+               <seg xml:id="ParlaMint-SI_2014-08-01_SDZ7-Redna-01.seg235">Poslanke in poslanci, preostane mi le še, da zaključim prvo sejo Državnega zbora.</seg>
+               <seg xml:id="ParlaMint-SI_2014-08-01_SDZ7-Redna-01.seg236">Poslanke in poslance obveščam, da bomo čez 5 minut najprej v dvorani, nato pa še na stopnišču opravili skupinsko fotografiranje. Poslanke in poslance, ki trenutno niso v dvorani, prosim, da se nam pridružijo. Po skupinskem fotografiranju pa poslanke in poslance vabim na sprejem v preddverje velike dvorane. Hvala.</seg>
+            </u>
+            <note type="time">Seja se je končala 1. avgusta 2014 ob 14.47.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
