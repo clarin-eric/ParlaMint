@@ -80,18 +80,17 @@
     </xsl:copy>
   </xsl:template>
     
-  <xsl:template match="tei:publicationStmt/tei:idno[@type='handle']"/>
-  <xsl:template match="tei:publicationStmt/tei:pubPlace">
+  <xsl:template match="tei:publicationStmt/tei:pubPlace"/>
+  <xsl:template match="tei:publicationStmt/tei:idno[@type='handle']">
     <idno type="URL">
       <xsl:value-of select="$GitHub-project"/>
     </idno>
     <xsl:text>&#10;            </xsl:text>
-    <xsl:copy>
-      <xsl:apply-templates select="@*"/>
+    <pubPlace>
       <ref target="{$GitHub-project}">
 	<xsl:value-of select="$GitHub-project"/>
       </ref>
-    </xsl:copy>
+    </pubPlace>
   </xsl:template>
     
   <xsl:template match="tei:publicationStmt/tei:date">
