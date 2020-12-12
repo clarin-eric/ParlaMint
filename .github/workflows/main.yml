@@ -53,7 +53,11 @@ jobs:
       #- name: Navigate to repository
       #  run: cd $GITHUB_WORKSPACE/ParlaMint
       - name: Validate corpus root / text
-        run: ls ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs -t java -jar $GITHUB_WORKSPACE/jing/build/jing.jar -t Schema/ParlaMint-teiCorpus.rng 
+        run: |
+          cd $GITHUB_WORKSPACE/ParlaMint
+          ls ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs -t java -jar $GITHUB_WORKSPACE/jing/build/jing.jar -t Schema/ParlaMint-teiCorpus.rng 
       - name: Validate corpus component / text
-        run: ls ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep    '_' | xargs -t java -jar $GITHUB_WORKSPACE/jing/build/jing.jar -t Schema/ParlaMint-TEI.rng
+        run: |
+          cd $GITHUB_WORKSPACE/ParlaMint
+          ls ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep    '_' | xargs -t java -jar $GITHUB_WORKSPACE/jing/build/jing.jar -t Schema/ParlaMint-TEI.rng
           
