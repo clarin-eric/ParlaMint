@@ -45,8 +45,13 @@ jobs:
         run: |
           cd $GITHUB_WORKSPACE/jing
           ./ant
+      - name: Checkout ParlaMint
+        uses: actions/checkout@v2
+        with:
+          path: ParlaMint
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          echo Add other actions to build,
+          cd $GITHUB_WORKSPACE/ParlaMint
+          ls ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs java -jar $GITHUB_WORKSPACE/jing/build/jing.jar Schema/ParlaMint-teiCorpus.rng 
           echo test, and deploy your project.
