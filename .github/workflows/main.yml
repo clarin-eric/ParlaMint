@@ -50,8 +50,8 @@ jobs:
         with:
           path: ParlaMint
       # Runs a set of commands using the runners shell
-      - name: Navigate to repository
-        run: cd $GITHUB_WORKSPACE/ParlaMint
+      #- name: Navigate to repository
+      #  run: cd $GITHUB_WORKSPACE/ParlaMint
       - name: Validate corpus root / text
         run: ls ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs -t java -jar $GITHUB_WORKSPACE/jing/build/jing.jar -t Schema/ParlaMint-teiCorpus.rng 
       - name: Validate corpus component / text
