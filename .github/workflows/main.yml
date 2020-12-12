@@ -53,5 +53,5 @@ jobs:
       - name: Run a multi-line script
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
-          ls ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs java -jar $GITHUB_WORKSPACE/jing/build/jing.jar Schema/ParlaMint-teiCorpus.rng 
+          ls ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs -t java -jar $GITHUB_WORKSPACE/jing/build/jing.jar Schema/ParlaMint-teiCorpus.rng 
           echo test, and deploy your project.
