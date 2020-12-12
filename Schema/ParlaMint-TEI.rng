@@ -107,7 +107,12 @@
       <oneOrMore>
 	<element name="measure">
 	  <attribute name="unit">
-	    <data type="NCName"/>
+	    <!--data type="NCName"/-->
+	    <choice>
+	      <value>speeches</value>
+	      <value>words</value>
+	      <value>tokens</value>
+	    </choice>
 	  </attribute>
 	  <attribute name="quantity">
 	    <data type="integer"/>
@@ -121,10 +126,10 @@
   
   <define name="publicationStmt">
     <element name="publicationStmt">
-      <a:documentation>Pulbications statement.</a:documentation>
+      <a:documentation>Publications statement.</a:documentation>
       <ref name="publisher"/>
       <ref name="idno"/>
-      <!-- bg is missing pubPlace but do we even need it? -->
+      <!-- bg is missing pubPlace but we don't really need it -->
       <optional> 
 	<element name="pubPlace">
 	  <oneOrMore>
@@ -138,7 +143,8 @@
 	  <value>free</value>
 	</attribute>
 	<element name="licence">
-	  <data type="anyURI"/>
+	  <!--data type="anyURI"/-->
+	  <value>http://creativecommons.org/licenses/by/4.0/</value>
 	</element>
 	<ref name="paras"/>
       </element>

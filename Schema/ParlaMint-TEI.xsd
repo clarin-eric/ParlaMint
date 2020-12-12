@@ -61,14 +61,22 @@
   </xs:element>
   <xs:element name="measure">
     <xs:complexType mixed="true">
-      <xs:attribute name="unit" use="required" type="xs:NCName"/>
+      <xs:attribute name="unit" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="speeches"/>
+            <xs:enumeration value="words"/>
+            <xs:enumeration value="tokens"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
       <xs:attribute name="quantity" use="required" type="xs:integer"/>
       <xs:attributeGroup ref="ns1:lang.att"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="publicationStmt">
     <xs:annotation>
-      <xs:documentation>Pulbications statement.</xs:documentation>
+      <xs:documentation>Publications statement.</xs:documentation>
     </xs:annotation>
     <xs:complexType>
       <xs:sequence>
@@ -102,7 +110,13 @@
       </xs:attribute>
     </xs:complexType>
   </xs:element>
-  <xs:element name="licence" type="xs:anyURI"/>
+  <xs:element name="licence">
+    <xs:simpleType>
+      <xs:restriction base="xs:token">
+        <xs:enumeration value="http://creativecommons.org/licenses/by/4.0/"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
   <xs:element name="sourceDesc">
     <xs:annotation>
       <xs:documentation>Source description.</xs:documentation>

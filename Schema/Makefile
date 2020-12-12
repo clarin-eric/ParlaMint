@@ -7,6 +7,7 @@ trang:
 	$t ParlaMint-teiCorpus.rng ParlaMint-teiCorpus.xsd
 	$t ParlaMint-teiCorpus.ana.rng ParlaMint-teiCorpus.ana.rnc
 	$t ParlaMint-teiCorpus.ana.rng ParlaMint-teiCorpus.ana.xsd
+	cd ..; make val
 xmllint:
 	xmllint --noout --relaxng ParlaMint-teiCorpus.ana.rng --noout \
 	../ParlaMint-XX/ParlaMint-XX.ana/ParlaMint-BG.ana.xml

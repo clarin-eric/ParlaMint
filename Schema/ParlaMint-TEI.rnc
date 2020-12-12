@@ -59,7 +59,10 @@ extent =
   ## Extent of the document.
   element extent {
     element measure {
-      attribute unit { xsd:NCName },
+      attribute unit {
+        # data type="NCName"/
+        "speeches" | "words" | "tokens"
+      },
       attribute quantity { xsd:integer },
       lang.att,
       text
@@ -67,15 +70,18 @@ extent =
   }
 publicationStmt =
   
-  ## Pulbications statement.
+  ## Publications statement.
   element publicationStmt {
     publisher,
     idno,
-    # bg is missing pubPlace but do we even need it?
+    # bg is missing pubPlace but we don't really need it
     element pubPlace { (text, ref)+ }?,
     element availability {
       attribute status { "free" },
-      element licence { xsd:anyURI },
+      element licence {
+        # data type="anyURI"/
+        "http://creativecommons.org/licenses/by/4.0/"
+      },
       paras
     },
     date-simple
