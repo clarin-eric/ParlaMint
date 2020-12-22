@@ -20,14 +20,17 @@ from each other, so they should be copied together. The schemas are the followin
   files it uses the definitions in ParlaMint-teiCorpus.rng
 
 So, for the ParlaMint corpus of country XX using standard ParlaMint names for directories and
-files, a validation run under Unix using jing installed at /usr/local/bin/ would be:
+files, a validation run under Unix using jing installed at /usr/share/java/ would be:
 
 ```
-$ java -jar /usr/local/bin/jing.jar ParlaMint-teiCorpus.rng     ParlaMint-XX/ParlaMint-XX.xml
-$ java -jar /usr/local/bin/jing.jar ParlaMint-TEI.rng           ParlaMint-XX/ParlaMint-XX_*.xml
-$ java -jar /usr/local/bin/jing.jar ParlaMint-teiCorpus.ana.rng ParlaMint-XX.ana/ParlaMint-XX.ana.xml
-$ java -jar /usr/local/bin/jing.jar ParlaMint-TEI.ana.rng       ParlaMint-XX.ana/ParlaMint-XX_*ana.xml
+$ java -jar /usr/share/java/jing.jar ParlaMint-teiCorpus.rng     ParlaMint-XX/ParlaMint-XX.xml
+$ java -jar /usr/share/java/jing.jar ParlaMint-TEI.rng           ParlaMint-XX/ParlaMint-XX_*.xml
+$ java -jar /usr/share/java/jing.jar ParlaMint-teiCorpus.ana.rng ParlaMint-XX.ana/ParlaMint-XX.ana.xml
+$ java -jar /usr/share/java/jing.jar ParlaMint-TEI.ana.rng       ParlaMint-XX.ana/ParlaMint-XX_*ana.xml
 ```
+
+Note that more info about the technical aspects of the validation is available in the
+[Parla-CLARIN Wiki](https://github.com/clarin-eric/parla-clarin/wiki/Validating-your-data).
 
 The schemas have also been converted with `trang` into other XML schema languages, i.e.
 * .rnc (RelaxNG compact syntax)
