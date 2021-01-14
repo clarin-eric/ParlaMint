@@ -208,7 +208,7 @@ u =
     attribute prev { xsd:anyURI }?,
     attribute next { xsd:anyURI }?,
     attribute who { anyURIs },
-    attribute ana { anyURIs },
+    pointing.atts,
     (seg | comment)+
   }
 seg = element seg { global.atts, (text | comment)+ }

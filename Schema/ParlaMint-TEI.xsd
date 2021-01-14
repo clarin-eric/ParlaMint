@@ -353,7 +353,7 @@
       <xs:attribute name="prev" type="xs:anyURI"/>
       <xs:attribute name="next" type="xs:anyURI"/>
       <xs:attribute name="who" use="required" type="ns1:anyURIs"/>
-      <xs:attribute name="ana" use="required" type="ns1:anyURIs"/>
+      <xs:attributeGroup ref="ns1:pointing.atts"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="seg">
