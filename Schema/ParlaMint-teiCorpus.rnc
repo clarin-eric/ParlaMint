@@ -155,9 +155,11 @@ affiliation =
     ref.att?,
     attribute role {
       "MP"
+      | "minister"
+      | "member"
       | 
         ## The following used only by bg:
-        "member"
+        "substituteMP"
       | "academician"
       | "candidate-chairman"
       | "chairman"
@@ -173,8 +175,6 @@ affiliation =
       | "director"
       | "head-of-department"
       | "leader"
-      | "member"
-      | "minister"
       | "ombudsman"
       | "president"
       | "presidentEP"

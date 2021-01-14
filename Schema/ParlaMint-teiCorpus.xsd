@@ -283,7 +283,9 @@
         <xs:simpleType>
           <xs:restriction base="xs:token">
             <xs:enumeration value="MP"/>
-            <xs:enumeration value="member">
+            <xs:enumeration value="minister"/>
+            <xs:enumeration value="member"/>
+            <xs:enumeration value="substituteMP">
               <xs:annotation>
                 <xs:documentation>The following used only by bg:</xs:documentation>
               </xs:annotation>
@@ -303,8 +305,6 @@
             <xs:enumeration value="director"/>
             <xs:enumeration value="head-of-department"/>
             <xs:enumeration value="leader"/>
-            <xs:enumeration value="member"/>
-            <xs:enumeration value="minister"/>
             <xs:enumeration value="ombudsman"/>
             <xs:enumeration value="president"/>
             <xs:enumeration value="presidentEP"/>
