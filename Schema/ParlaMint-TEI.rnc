@@ -207,7 +207,7 @@ u =
     >> a:documentation [ "Attributes to link split utterances." ],
     attribute prev { xsd:anyURI }?,
     attribute next { xsd:anyURI }?,
-    attribute who { anyURIs },
+    who.att,
     pointing.atts,
     (seg | comment)+
   }
@@ -236,6 +236,7 @@ comment =
         | "snapping"
         | "noise"
       }?,
+      who.att?,
       desc
     }
   | element incident {
@@ -248,6 +249,7 @@ comment =
         | "sound"
         | "editorial"
       }?,
+      who.att?,
       desc
     }
   | element vocal {
@@ -263,6 +265,7 @@ comment =
         | "signal"
         | "clarification"
       },
+      who.att?,
       desc
     }
 desc = element desc { lang.att?, text }
@@ -295,6 +298,7 @@ temporal.atts =
   | attribute notBefore { temporal.val }
   | (attribute notBefore { temporal.val },
      attribute notAfter { temporal.val })
+who.att = attribute who { xsd:anyURI }?
 ref.att = attribute ref { xsd:anyURI }?
 global.atts =
   id.att?,

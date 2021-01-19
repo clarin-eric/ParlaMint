@@ -399,9 +399,7 @@
           <data type="anyURI"/>
 	</attribute>
       </optional>
-      <attribute name="who">
-        <ref name="anyURIs"/>
-      </attribute>
+      <ref name="who.att"/>
       <ref name="pointing.atts"/>
       <oneOrMore>
 	<choice>
@@ -464,6 +462,9 @@
 	    </choice>
 	  </attribute>
 	</optional>
+	<optional>
+	  <ref name="who.att"/>
+	</optional>
 	<ref name="desc"/>
       </element>
       <element name="incident">
@@ -479,6 +480,9 @@
               <value>editorial</value>
 	    </choice>
 	  </attribute>
+	</optional>
+	<optional>
+	  <ref name="who.att"/>
 	</optional>
 	<ref name="desc"/>
       </element>
@@ -497,6 +501,9 @@
               <value>clarification</value>
 	    </choice>
 	</attribute>
+	<optional>
+	  <ref name="who.att"/>
+	</optional>
 	<ref name="desc"/>
       </element>
     </choice>
@@ -600,6 +607,14 @@
 	</attribute>
       </group>
     </choice>
+  </define>
+  
+  <define name="who.att">
+    <optional>
+      <attribute name="who">
+	<data type="anyURI"/>
+      </attribute>
+    </optional>
   </define>
   
   <define name="ref.att">

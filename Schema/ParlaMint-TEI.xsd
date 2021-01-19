@@ -352,7 +352,7 @@
       <xs:attributeGroup ref="ns1:global.atts"/>
       <xs:attribute name="prev" type="xs:anyURI"/>
       <xs:attribute name="next" type="xs:anyURI"/>
-      <xs:attribute name="who" use="required" type="ns1:anyURIs"/>
+      <xs:attributeGroup ref="ns1:who.att"/>
       <xs:attributeGroup ref="ns1:pointing.atts"/>
     </xs:complexType>
   </xs:element>
@@ -406,6 +406,7 @@
               </xs:restriction>
             </xs:simpleType>
           </xs:attribute>
+          <xs:attributeGroup ref="ns1:who.att"/>
         </xs:extension>
       </xs:complexContent>
     </xs:complexType>
@@ -427,6 +428,7 @@
               </xs:restriction>
             </xs:simpleType>
           </xs:attribute>
+          <xs:attributeGroup ref="ns1:who.att"/>
         </xs:extension>
       </xs:complexContent>
     </xs:complexType>
@@ -451,6 +453,7 @@
               </xs:restriction>
             </xs:simpleType>
           </xs:attribute>
+          <xs:attributeGroup ref="ns1:who.att"/>
         </xs:extension>
       </xs:complexContent>
     </xs:complexType>
@@ -520,6 +523,9 @@
     <xs:attribute name="to" type="ns1:temporal.val"/>
     <xs:attribute name="notBefore" type="ns1:temporal.val"/>
     <xs:attribute name="notAfter" type="ns1:temporal.val"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="who.att">
+    <xs:attribute name="who" type="xs:anyURI"/>
   </xs:attributeGroup>
   <xs:attributeGroup name="ref.att">
     <xs:attribute name="ref" type="xs:anyURI"/>
