@@ -285,6 +285,11 @@
     <element name="meeting">
       <ref name="global.atts"/>
       <ref name="pointing.atts"/>
+      <optional>
+	<attribute name="corresp">
+	  <ref name="anyURIs"/>
+	</attribute>
+      </optional>
       <text/>
     </element>
   </define>
@@ -375,6 +380,7 @@
 	      <choice>
 		<ref name="note"/>
 		<ref name="comment"/>
+		<ref name="pb"/>
 		<ref name="u"/>
 	      </choice>
 	    </oneOrMore>
@@ -401,10 +407,16 @@
       </optional>
       <ref name="who.att"/>
       <ref name="pointing.atts"/>
+      <optional>
+	<attribute name="source">
+	  <ref name="anyURIs"/>
+	</attribute>
+      </optional>
       <oneOrMore>
 	<choice>
           <ref name="seg"/>
           <ref name="comment"/>
+	  <ref name="pb"/>
 	</choice>
       </oneOrMore>
     </element>
@@ -431,6 +443,18 @@
 	</attribute>
       </optional>
       <text/>
+    </element>
+  </define>
+  
+  <define name="pb">
+    <element name="pb">
+      <ref name="global.atts"/>
+      <optional>
+	<attribute name="source">
+	  <ref name="anyURIs"/>
+	</attribute>
+      </optional>
+      <empty/>
     </element>
   </define>
   
@@ -553,8 +577,8 @@
     <a:documentation>A date with with all possible temporal information.</a:documentation>
     <element name="date">
       <ref name="global.atts"/>
-      <ref name="pointing.atts"/>
       <ref name="temporal.atts"/>
+      <ref name="pointing.atts"/>
       <text/>
     </element>
   </define>
@@ -645,11 +669,12 @@
 	<ref name="anyURIs"/>
       </attribute>
     </optional>
-    <optional>
+    <!-- Removed this, as it is only needed on meeting, and even that is, arguably, unecessary -->
+    <!--optional>
       <attribute name="corresp">
 	<ref name="anyURIs"/>
       </attribute>
-    </optional>
+    </optional-->
   </define>
   
   <define name="anyURIs">

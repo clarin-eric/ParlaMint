@@ -160,7 +160,13 @@ title =
     attribute type { "main" | "sub" }?,
     text
   }
-meeting = element meeting { global.atts, pointing.atts, text }
+meeting =
+  element meeting {
+    global.atts,
+    pointing.atts,
+    attribute corresp { anyURIs }?,
+    text
+  }
 publisher =
   element publisher {
     (element orgName { lang.att, text }+,
@@ -195,7 +201,7 @@ text-body =
         global.atts,
         attribute type { "debateSection" },
         head*,
-        (note | comment | u)+
+        (note | comment | pb | u)+
       }+
     }
   }
@@ -209,7 +215,8 @@ u =
     attribute next { xsd:anyURI }?,
     who.att,
     pointing.atts,
-    (seg | comment)+
+    attribute source { anyURIs }?,
+    (seg | comment | pb)+
   }
 seg = element seg { global.atts, (text | comment)+ }
 note =
@@ -217,6 +224,12 @@ note =
     global.atts,
     attribute type { xsd:NCName }?,
     text
+  }
+pb =
+  element pb {
+    global.atts,
+    attribute source { anyURIs }?,
+    empty
   }
 comment =
   note
@@ -286,7 +299,7 @@ ref =
 date-simple = element date { when.att, text }
 
 ## A date with with all possible temporal information.
-date = element date { global.atts, pointing.atts, temporal.atts, text }
+date = element date { global.atts, temporal.atts, pointing.atts, text }
 annotated-text = mixed { ref* }
 temporal.val = xsd:date | xsd:gYearMonth | xsd:gYear
 when.att = attribute when { temporal.val }
@@ -305,8 +318,13 @@ global.atts =
   lang.att?,
   attribute n { xsd:string }?
 pointing.atts =
-  attribute ana { anyURIs }?,
-  attribute corresp { anyURIs }?
+  (attribute ana { anyURIs }?)
+  # optional>
+  #   <attribute name="corresp">
+  #     <ref name="anyURIs"/>
+  #   </attribute>
+  # </optional
+  
 
 ## A list of URI, including fragment references.
 anyURIs = list { xsd:anyURI+ }

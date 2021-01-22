@@ -27,15 +27,6 @@ vca = $j ParlaMint-TEI.ana.rng		# Corpus component / analysed
 P = parallel --citation --gnu --halt 2
 
 #Count things like org/@role
-what-root = grep '<org ' | perl -pe 's/.+role="//; s/".+//' | sort |  uniq -c
-what-root:
-	cat ../ParlaMint-BG/ParlaMint-BG/ParlaMint-bg.xml | ${what-root}
-	cat ../ParlaMint-HR/ParlaMint-HR/ParlaMint-hr.xml | ${what-root}
-	cat ../ParlaMint-PL/ParlaMint-PL/ParlaMint-pl.xml | ${what-root}
-	cat ../ParlaMint-SI/ParlaMint-SI/ParlaMint-SI.xml | ${what-root}
-what = grep '<org ' | perl -pe 's/.+role="//; s/".+//' | sort |  uniq -c
+what = grep ' corresp=' | grep corresp
 what:
-	cat ../ParlaMint-BG/ParlaMint-bg.ana/ParlaMint-BG_*ana.xml | ${what}
-	cat ../ParlaMint-HR/ParlaMint-hr.ana/ParlaMint-HR_*ana.xml | ${what}
-	cat ../ParlaMint-PL/ParlaMint-pl.ana/ParlaMint-PL_*ana.xml | ${what}
-	cat ../ParlaMint-SI/ParlaMint-SI.ana/ParlaMint-SI_*ana.xml | ${what}
+	cat ../ParlaMint-*/ParlaMint-*.xml | ${what}

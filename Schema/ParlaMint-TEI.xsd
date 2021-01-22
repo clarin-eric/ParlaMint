@@ -253,6 +253,7 @@
     <xs:complexType mixed="true">
       <xs:attributeGroup ref="ns1:global.atts"/>
       <xs:attributeGroup ref="ns1:pointing.atts"/>
+      <xs:attribute name="corresp" type="ns1:anyURIs"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="publisher">
@@ -330,6 +331,7 @@
         <xs:choice maxOccurs="unbounded">
           <xs:element ref="ns1:note"/>
           <xs:element ref="ns1:comment"/>
+          <xs:element ref="ns1:pb"/>
           <xs:element ref="ns1:u"/>
         </xs:choice>
       </xs:sequence>
@@ -348,12 +350,14 @@
       <xs:choice maxOccurs="unbounded">
         <xs:element ref="ns1:seg"/>
         <xs:element ref="ns1:comment"/>
+        <xs:element ref="ns1:pb"/>
       </xs:choice>
       <xs:attributeGroup ref="ns1:global.atts"/>
       <xs:attribute name="prev" type="xs:anyURI"/>
       <xs:attribute name="next" type="xs:anyURI"/>
       <xs:attributeGroup ref="ns1:who.att"/>
       <xs:attributeGroup ref="ns1:pointing.atts"/>
+      <xs:attribute name="source" type="ns1:anyURIs"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="seg">
@@ -368,6 +372,12 @@
     <xs:complexType mixed="true">
       <xs:attributeGroup ref="ns1:global.atts"/>
       <xs:attribute name="type" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="pb">
+    <xs:complexType>
+      <xs:attributeGroup ref="ns1:global.atts"/>
+      <xs:attribute name="source" type="ns1:anyURIs"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="comment" abstract="true"/>
@@ -500,8 +510,8 @@
       <xs:element name="date">
         <xs:complexType mixed="true">
           <xs:attributeGroup ref="ns1:global.atts"/>
-          <xs:attributeGroup ref="ns1:pointing.atts"/>
           <xs:attributeGroup ref="ns1:temporal.atts"/>
+          <xs:attributeGroup ref="ns1:pointing.atts"/>
         </xs:complexType>
       </xs:element>
     </xs:sequence>
@@ -537,7 +547,6 @@
   </xs:attributeGroup>
   <xs:attributeGroup name="pointing.atts">
     <xs:attribute name="ana" type="ns1:anyURIs"/>
-    <xs:attribute name="corresp" type="ns1:anyURIs"/>
   </xs:attributeGroup>
   <xs:simpleType name="anyURIs">
     <xs:annotation>
