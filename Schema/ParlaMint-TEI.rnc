@@ -301,7 +301,7 @@ date-simple = element date { when.att, text }
 ## A date with with all possible temporal information.
 date = element date { global.atts, temporal.atts, pointing.atts, text }
 annotated-text = mixed { ref* }
-temporal.val = xsd:date | xsd:gYearMonth | xsd:gYear
+temporal.val = xsd:dateTime | xsd:date | xsd:gYearMonth | xsd:gYear
 when.att = attribute when { temporal.val }
 temporal.atts =
   when.att

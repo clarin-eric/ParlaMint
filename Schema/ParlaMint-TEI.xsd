@@ -522,7 +522,7 @@
     </xs:sequence>
   </xs:group>
   <xs:simpleType name="temporal.val">
-    <xs:union memberTypes="xs:date xs:gYearMonth xs:gYear"/>
+    <xs:union memberTypes="xs:dateTime xs:date xs:gYearMonth xs:gYear"/>
   </xs:simpleType>
   <xs:attributeGroup name="when.att">
     <xs:attribute name="when" use="required" type="ns1:temporal.val"/>
