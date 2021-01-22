@@ -75,17 +75,40 @@ listOrg =
       global.atts,
       pointing.atts,
       attribute role {
+        # Change to politicalParty:
         "political_party"
+        | "politicalParty"
         | "parliament"
         | 
-          ## The following used only by sl:
+          ## The following used only by SI:
           "government"
-        | "ethnic_communities"
+        | # Change to ethnicCommunities:
+          "ethnic_communities"
         | 
-          ## The following used only by bg:
+          ## The following used only by BG:
           "independet"
         | "coalition"
-        | "ngo"
+        | 
+          ## The following used only by CZ:
+          "ngo"
+        | "interparliamentaryFriendshipGroup"
+        | "committee"
+        | "subcommittee"
+        | "commission"
+        | "politicalGroup"
+        | "delegation"
+        | "senate"
+        | "institution"
+        | "supervisoryBoard"
+        | "workingGroup"
+        | # Change to nationalCouncil:
+          "czechNationalCouncil"
+        | "chamberOfThePeople"
+        | "chamberOfTheNations"
+        | "europeanParliament"
+        | "president"
+        | "internationalOrganizations"
+        | "boardOfDirectors"
       },
       orgName+,
       event*,
@@ -154,17 +177,37 @@ affiliation =
     temporal.atts?,
     ref.att?,
     attribute role {
-      "MP"
-      | "minister"
-      | "member"
-      | 
-        ## The following used only by bg:
-        "substituteMP"
-      | "academician"
-      | "candidate-chairman"
+      "president"
+      | "vicePresident"
       | "chairman"
-      | "chair-of-parliament"
-      | "chairperson"
+      | "viceChairman"
+      | "minister"
+      | "MP"
+      | 
+        ## The following used only by CZ:
+        "substituteMP"
+      | "observer"
+      | "verifier"
+      | "vicePublicDefenderOfRights"
+      | "headOfDelegation"
+      | "presidiumMember"
+      | "publicDefenderOfRights"
+      | "alternateOfDelegation"
+      | # Member of what?:
+        "member"
+      | # Candidate for what?:
+        "candidate"
+      | # Change to substituteMP:
+        
+        ## The following used only by BG:
+        "replacement"
+      | "academician"
+      | # Change to candidateChairman:
+        "candidate-chairman"
+      | # Change to chairman:
+        "chair-of-parliament"
+      | # Change to chairman:
+        "chairperson"
       | "chiefInspector"
       | "commander"
       | "constitutionalJudge"
@@ -173,19 +216,24 @@ affiliation =
       | "deputyPrimeMinister"
       | "deputyPrimeMinster"
       | "director"
-      | "head-of-department"
+      | # Change to headOfDepartment:
+        "head-of-department"
       | "leader"
       | "ombudsman"
-      | "president"
       | "presidentEP"
       | "primeMinister"
-      | "prosecutor-general"
+      | # Change to prosecutorGeneral:
+        "prosecutor-general"
       | "secretary"
       | "secretaryGeneral"
-      | "vice-chairman"
-      | "vice-chair-of-parliament"
-      | "vice-director"
-      | "vice-president"
+      | # Change to viceChairman:
+        "vice-chairman"
+      | # Change to viceChairman?:
+        "vice-chair-of-parliament"
+      | # Change to viceDirector:
+        "vice-director"
+      | # Change to vicePresident:
+        "vice-president"
     },
     text
   }

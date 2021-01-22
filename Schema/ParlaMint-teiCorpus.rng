@@ -162,15 +162,40 @@
 	  <ref name="pointing.atts"/>
 	  <attribute name="role">
 	    <choice>
+              <!-- Change to politicalParty: -->
               <value>political_party</value>
+              <value>politicalParty</value>
               <value>parliament</value>
               <value>government</value>
-	      <a:documentation>The following used only by sl:</a:documentation>
+	      
+	      <a:documentation>The following used only by SI:</a:documentation>
+              <!-- Change to ethnicCommunities: -->
               <value>ethnic_communities</value>
               <value>independet</value>
-	      <a:documentation>The following used only by bg:</a:documentation>
+	      
+	      <a:documentation>The following used only by BG:</a:documentation>
               <value>coalition</value>
               <value>ngo</value>
+	      
+	      <a:documentation>The following used only by CZ:</a:documentation>
+	      <value>interparliamentaryFriendshipGroup</value>
+	      <value>committee</value>
+	      <value>subcommittee</value>
+	      <value>commission</value>
+	      <value>politicalGroup</value>
+	      <value>delegation</value>
+	      <value>senate</value>
+	      <value>institution</value>
+	      <value>supervisoryBoard</value>
+	      <value>workingGroup</value>
+              <!-- Change to nationalCouncil: -->
+	      <value>czechNationalCouncil</value>
+	      <value>chamberOfThePeople</value>
+	      <value>chamberOfTheNations</value>
+	      <value>europeanParliament</value>
+	      <value>president</value>
+	      <value>internationalOrganizations</value>
+	      <value>boardOfDirectors</value>
 	    </choice>
 	  </attribute>
 	  <oneOrMore>
@@ -357,15 +382,36 @@
       </optional>
       <attribute name="role">
 	<choice>
-	  <value>MP</value>
-	  <value>minister</value>
-	  <value>member</value>
-	  <value>substituteMP</value>
-	  <a:documentation>The following used only by bg:</a:documentation>
-	  <value>academician</value>
-	  <value>candidate-chairman</value>
+	  <value>president</value>
+	  <value>vicePresident</value>
 	  <value>chairman</value>
+	  <value>viceChairman</value>
+	  <value>minister</value>
+	  <value>MP</value>
+	  <value>substituteMP</value>
+	  
+	  <a:documentation>The following used only by CZ:</a:documentation>
+	  <value>observer</value>
+	  <value>verifier</value>
+	  <value>vicePublicDefenderOfRights</value>
+	  <value>headOfDelegation</value>
+	  <value>presidiumMember</value>
+	  <value>publicDefenderOfRights</value>
+	  <value>alternateOfDelegation</value>
+	  <!-- Member of what?: -->
+	  <value>member</value>
+	  <!-- Candidate for what?: -->
+	  <value>candidate</value>
+	  <!-- Change to substituteMP: -->
+	  <value>replacement</value>
+	  
+	  <a:documentation>The following used only by BG:</a:documentation>
+	  <value>academician</value>
+	  <!-- Change to candidateChairman: -->
+	  <value>candidate-chairman</value>
+	  <!-- Change to chairman: -->
 	  <value>chair-of-parliament</value>
+	  <!-- Change to chairman: -->
 	  <value>chairperson</value>
 	  <value>chiefInspector</value>
 	  <value>commander</value>
@@ -375,18 +421,23 @@
 	  <value>deputyPrimeMinister</value>
 	  <value>deputyPrimeMinster</value>
 	  <value>director</value>
+	  <!-- Change to headOfDepartment: -->
 	  <value>head-of-department</value>
 	  <value>leader</value>
 	  <value>ombudsman</value>
-	  <value>president</value>
 	  <value>presidentEP</value>
 	  <value>primeMinister</value>
+	  <!-- Change to prosecutorGeneral: -->
 	  <value>prosecutor-general</value>
 	  <value>secretary</value>
 	  <value>secretaryGeneral</value>
+	  <!-- Change to viceChairman: -->
 	  <value>vice-chairman</value>
+	  <!-- Change to viceChairman?: -->
 	  <value>vice-chair-of-parliament</value>
+	  <!-- Change to viceDirector: -->
 	  <value>vice-director</value>
+	  <!-- Change to vicePresident: -->
 	  <value>vice-president</value>
 	</choice>
       </attribute>

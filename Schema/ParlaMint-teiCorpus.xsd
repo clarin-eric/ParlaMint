@@ -146,20 +146,42 @@
         <xs:simpleType>
           <xs:restriction base="xs:token">
             <xs:enumeration value="political_party"/>
+            <xs:enumeration value="politicalParty"/>
             <xs:enumeration value="parliament"/>
             <xs:enumeration value="government">
               <xs:annotation>
-                <xs:documentation>The following used only by sl:</xs:documentation>
+                <xs:documentation>The following used only by SI:</xs:documentation>
               </xs:annotation>
             </xs:enumeration>
             <xs:enumeration value="ethnic_communities"/>
             <xs:enumeration value="independet">
               <xs:annotation>
-                <xs:documentation>The following used only by bg:</xs:documentation>
+                <xs:documentation>The following used only by BG:</xs:documentation>
               </xs:annotation>
             </xs:enumeration>
             <xs:enumeration value="coalition"/>
-            <xs:enumeration value="ngo"/>
+            <xs:enumeration value="ngo">
+              <xs:annotation>
+                <xs:documentation>The following used only by CZ:</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="interparliamentaryFriendshipGroup"/>
+            <xs:enumeration value="committee"/>
+            <xs:enumeration value="subcommittee"/>
+            <xs:enumeration value="commission"/>
+            <xs:enumeration value="politicalGroup"/>
+            <xs:enumeration value="delegation"/>
+            <xs:enumeration value="senate"/>
+            <xs:enumeration value="institution"/>
+            <xs:enumeration value="supervisoryBoard"/>
+            <xs:enumeration value="workingGroup"/>
+            <xs:enumeration value="czechNationalCouncil"/>
+            <xs:enumeration value="chamberOfThePeople"/>
+            <xs:enumeration value="chamberOfTheNations"/>
+            <xs:enumeration value="europeanParliament"/>
+            <xs:enumeration value="president"/>
+            <xs:enumeration value="internationalOrganizations"/>
+            <xs:enumeration value="boardOfDirectors"/>
           </xs:restriction>
         </xs:simpleType>
       </xs:attribute>
@@ -282,17 +304,33 @@
       <xs:attribute name="role" use="required">
         <xs:simpleType>
           <xs:restriction base="xs:token">
-            <xs:enumeration value="MP"/>
+            <xs:enumeration value="president"/>
+            <xs:enumeration value="vicePresident"/>
+            <xs:enumeration value="chairman"/>
+            <xs:enumeration value="viceChairman"/>
             <xs:enumeration value="minister"/>
-            <xs:enumeration value="member"/>
+            <xs:enumeration value="MP"/>
             <xs:enumeration value="substituteMP">
               <xs:annotation>
-                <xs:documentation>The following used only by bg:</xs:documentation>
+                <xs:documentation>The following used only by CZ:</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="observer"/>
+            <xs:enumeration value="verifier"/>
+            <xs:enumeration value="vicePublicDefenderOfRights"/>
+            <xs:enumeration value="headOfDelegation"/>
+            <xs:enumeration value="presidiumMember"/>
+            <xs:enumeration value="publicDefenderOfRights"/>
+            <xs:enumeration value="alternateOfDelegation"/>
+            <xs:enumeration value="member"/>
+            <xs:enumeration value="candidate"/>
+            <xs:enumeration value="replacement">
+              <xs:annotation>
+                <xs:documentation>The following used only by BG:</xs:documentation>
               </xs:annotation>
             </xs:enumeration>
             <xs:enumeration value="academician"/>
             <xs:enumeration value="candidate-chairman"/>
-            <xs:enumeration value="chairman"/>
             <xs:enumeration value="chair-of-parliament"/>
             <xs:enumeration value="chairperson"/>
             <xs:enumeration value="chiefInspector"/>
@@ -306,7 +344,6 @@
             <xs:enumeration value="head-of-department"/>
             <xs:enumeration value="leader"/>
             <xs:enumeration value="ombudsman"/>
-            <xs:enumeration value="president"/>
             <xs:enumeration value="presidentEP"/>
             <xs:enumeration value="primeMinister"/>
             <xs:enumeration value="prosecutor-general"/>
