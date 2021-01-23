@@ -73,7 +73,7 @@ listOrg =
     head*,
     element org {
       global.atts,
-      pointing.atts,
+      ana.att,
       attribute role {
         # Change to politicalParty:
         "political_party"
@@ -131,7 +131,7 @@ listEvent = element listEvent { head*, event+ }
 listRelation =
   element listRelation {
     element relation {
-      pointing.atts,
+      ana.att,
       temporal.atts?,
       attribute name { "coalition" | "renaming" | "successor" },
       (attribute mutual { anyURIs }
@@ -172,7 +172,7 @@ persName =
   }
 affiliation =
   element affiliation {
-    pointing.atts,
+    ana.att,
     temporal.atts?,
     ref.att?,
     attribute role {

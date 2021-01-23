@@ -96,7 +96,17 @@ sourceDesc =
       publisher?,
       idno+,
       date*
-    }+
+    }+,
+    element recordingStmt {
+      element recording {
+        attribute type { "audio" | "video" },
+        attribute dur { xsd:duration }?,
+        media+,
+        respStmt*,
+        time?,
+        element equipment { abs }?
+      }+
+    }?
   }
 encodingDesc =
   
@@ -160,13 +170,7 @@ title =
     attribute type { "main" | "sub" }?,
     text
   }
-meeting =
-  element meeting {
-    global.atts,
-    pointing.atts,
-    attribute corresp { anyURIs }?,
-    text
-  }
+meeting = element meeting { global.atts, ana.att, corresp.att, text }
 publisher =
   element publisher {
     (element orgName { lang.att, text }+,
@@ -191,11 +195,13 @@ name-header =
   }
 # Paragraphs. Appear in the header only.
 paras = element p { global.atts, annotated-text }+
+# Anonymous blocks. Appear in the header only.
+abs = element ab { global.atts, text }+
 # DATA
 text-body =
   element text {
     global.atts,
-    pointing.atts,
+    ana.att,
     element body {
       element div {
         global.atts,
@@ -214,7 +220,7 @@ u =
     attribute prev { xsd:anyURI }?,
     attribute next { xsd:anyURI }?,
     who.att,
-    pointing.atts,
+    ana.att,
     attribute source { anyURIs }?,
     (seg | comment | pb)+
   }
@@ -223,14 +229,21 @@ note =
   element note {
     global.atts,
     attribute type { xsd:NCName }?,
-    text
+    (text | time)
   }
 pb =
-  element pb {
-    global.atts,
-    attribute source { anyURIs }?,
-    empty
-  }
+  element pb { global.atts, corresp.att, source.att, empty }
+  # For original the CZ case, where they have media info right after pb
+  #      (better do it with recordingStmt)
+  # <optional>
+  #   <element name="note">
+  #     <attribute name="type">
+  #       <value type="string">media</value>
+  #     </attribute>
+  #     <ref name="media"/>
+  #   </element>
+  # </optional>
+  
 comment =
   note
   | element gap {
@@ -295,11 +308,23 @@ ref =
     text
   }
 
+## The media element
+media =
+  element media {
+    global.atts,
+    attribute mimeType { xsd:token },
+    source.att,
+    attribute url { anyURIs }
+  }
+
+## The time element
+time = element time { temporal.atts, text }
+
 ## A simple date, just with @when
 date-simple = element date { when.att, text }
 
 ## A date with with all possible temporal information.
-date = element date { global.atts, temporal.atts, pointing.atts, text }
+date = element date { global.atts, temporal.atts, ana.att, text }
 annotated-text = mixed { ref* }
 temporal.val = xsd:dateTime | xsd:date | xsd:gYearMonth | xsd:gYear
 when.att = attribute when { temporal.val }
@@ -317,16 +342,12 @@ global.atts =
   id.att?,
   lang.att?,
   attribute n { xsd:string }?
-pointing.atts =
-  (attribute ana { anyURIs }?)
-  # Removed this, as it is only needed on meeting, and even that is, arguably, unecessary
-  
-  # optional>
-  #   <attribute name="corresp">
-  #     <ref name="anyURIs"/>
-  #   </attribute>
-  # </optional
-  
+ana.att = attribute ana { anyURIs }?
+
+## "corresponds" points to elements that correspond to the current
+##     element in some way.
+corresp.att = attribute corresp { anyURIs }?
+source.att = attribute source { anyURIs }?
 
 ## A list of URI, including fragment references.
 anyURIs = list { xsd:anyURI+ }

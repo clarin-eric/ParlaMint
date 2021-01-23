@@ -141,7 +141,7 @@
         <xs:element minOccurs="0" ref="ns1:listEvent"/>
       </xs:sequence>
       <xs:attributeGroup ref="ns1:global.atts"/>
-      <xs:attributeGroup ref="ns1:pointing.atts"/>
+      <xs:attributeGroup ref="ns1:ana.att"/>
       <xs:attribute name="role" use="required">
         <xs:simpleType>
           <xs:restriction base="xs:token">
@@ -218,7 +218,7 @@
   </xs:element>
   <xs:element name="relation">
     <xs:complexType>
-      <xs:attributeGroup ref="ns1:pointing.atts"/>
+      <xs:attributeGroup ref="ns1:ana.att"/>
       <xs:attributeGroup ref="ns1:temporal.atts"/>
       <xs:attribute name="name" use="required">
         <xs:simpleType>
@@ -298,7 +298,7 @@
   <xs:element name="roleName" type="xs:string"/>
   <xs:element name="affiliation">
     <xs:complexType mixed="true">
-      <xs:attributeGroup ref="ns1:pointing.atts"/>
+      <xs:attributeGroup ref="ns1:ana.att"/>
       <xs:attributeGroup ref="ns1:temporal.atts"/>
       <xs:attributeGroup ref="ns1:ref.att"/>
       <xs:attribute name="role" use="required">

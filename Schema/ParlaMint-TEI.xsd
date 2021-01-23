@@ -124,6 +124,7 @@
     <xs:complexType>
       <xs:sequence>
         <xs:element maxOccurs="unbounded" ref="ns1:bibl"/>
+        <xs:element minOccurs="0" ref="ns1:recordingStmt"/>
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -142,6 +143,33 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  <xs:element name="recordingStmt">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="ns1:recording"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="recording">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="ns1:media"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="ns1:respStmt"/>
+        <xs:element minOccurs="0" ref="ns1:time"/>
+        <xs:element minOccurs="0" ref="ns1:equipment"/>
+      </xs:sequence>
+      <xs:attribute name="type" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="audio"/>
+            <xs:enumeration value="video"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="dur" type="xs:duration"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="equipment" type="ns1:abs"/>
   <xs:element name="revisionDesc">
     <xs:annotation>
       <xs:documentation>Revision description.</xs:documentation>
@@ -252,8 +280,8 @@
   <xs:element name="meeting">
     <xs:complexType mixed="true">
       <xs:attributeGroup ref="ns1:global.atts"/>
-      <xs:attributeGroup ref="ns1:pointing.atts"/>
-      <xs:attribute name="corresp" type="ns1:anyURIs"/>
+      <xs:attributeGroup ref="ns1:ana.att"/>
+      <xs:attributeGroup ref="ns1:corresp.att"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="publisher">
@@ -307,6 +335,17 @@
       <xs:attributeGroup ref="ns1:global.atts"/>
     </xs:complexType>
   </xs:element>
+  <!-- Anonymous blocks. Appear in the header only. -->
+  <xs:complexType name="abs">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" ref="ns1:ab"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ab">
+    <xs:complexType mixed="true">
+      <xs:attributeGroup ref="ns1:global.atts"/>
+    </xs:complexType>
+  </xs:element>
   <!-- DATA -->
   <xs:element name="text">
     <xs:complexType>
@@ -314,7 +353,7 @@
         <xs:element ref="ns1:body"/>
       </xs:sequence>
       <xs:attributeGroup ref="ns1:global.atts"/>
-      <xs:attributeGroup ref="ns1:pointing.atts"/>
+      <xs:attributeGroup ref="ns1:ana.att"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="body">
@@ -356,7 +395,7 @@
       <xs:attribute name="prev" type="xs:anyURI"/>
       <xs:attribute name="next" type="xs:anyURI"/>
       <xs:attributeGroup ref="ns1:who.att"/>
-      <xs:attributeGroup ref="ns1:pointing.atts"/>
+      <xs:attributeGroup ref="ns1:ana.att"/>
       <xs:attribute name="source" type="ns1:anyURIs"/>
     </xs:complexType>
   </xs:element>
@@ -370,6 +409,9 @@
   </xs:element>
   <xs:element name="note" substitutionGroup="ns1:comment">
     <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="ns1:time"/>
+      </xs:sequence>
       <xs:attributeGroup ref="ns1:global.atts"/>
       <xs:attribute name="type" type="xs:NCName"/>
     </xs:complexType>
@@ -377,7 +419,8 @@
   <xs:element name="pb">
     <xs:complexType>
       <xs:attributeGroup ref="ns1:global.atts"/>
-      <xs:attribute name="source" type="ns1:anyURIs"/>
+      <xs:attributeGroup ref="ns1:corresp.att"/>
+      <xs:attributeGroup ref="ns1:source.att"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="comment" abstract="true"/>
@@ -490,6 +533,19 @@
       <xs:attribute name="target" use="required" type="xs:anyURI"/>
     </xs:complexType>
   </xs:element>
+  <xs:element name="media">
+    <xs:complexType>
+      <xs:attributeGroup ref="ns1:global.atts"/>
+      <xs:attribute name="mimeType" use="required" type="xs:token"/>
+      <xs:attributeGroup ref="ns1:source.att"/>
+      <xs:attribute name="url" use="required" type="ns1:anyURIs"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="time">
+    <xs:complexType mixed="true">
+      <xs:attributeGroup ref="ns1:temporal.atts"/>
+    </xs:complexType>
+  </xs:element>
   <xs:group name="date-simple">
     <xs:annotation>
       <xs:documentation>A simple date, just with @when</xs:documentation>
@@ -511,7 +567,7 @@
         <xs:complexType mixed="true">
           <xs:attributeGroup ref="ns1:global.atts"/>
           <xs:attributeGroup ref="ns1:temporal.atts"/>
-          <xs:attributeGroup ref="ns1:pointing.atts"/>
+          <xs:attributeGroup ref="ns1:ana.att"/>
         </xs:complexType>
       </xs:element>
     </xs:sequence>
@@ -545,8 +601,18 @@
     <xs:attributeGroup ref="ns1:lang.att"/>
     <xs:attribute name="n" type="xs:string"/>
   </xs:attributeGroup>
-  <xs:attributeGroup name="pointing.atts">
+  <xs:attributeGroup name="ana.att">
     <xs:attribute name="ana" type="ns1:anyURIs"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="corresp.att">
+    <xs:annotation>
+      <xs:documentation>"corresponds" points to elements that correspond to the current
+    element in some way.</xs:documentation>
+    </xs:annotation>
+    <xs:attribute name="corresp" type="ns1:anyURIs"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="source.att">
+    <xs:attribute name="source" type="ns1:anyURIs"/>
   </xs:attributeGroup>
   <xs:simpleType name="anyURIs">
     <xs:annotation>

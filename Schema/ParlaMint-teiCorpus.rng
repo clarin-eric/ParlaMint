@@ -159,7 +159,7 @@
       <oneOrMore>
 	<element name="org">
 	  <ref name="global.atts"/>
-	  <ref name="pointing.atts"/>
+	  <ref name="ana.att"/>
 	  <attribute name="role">
 	    <choice>
               <!-- Change to politicalParty: -->
@@ -250,7 +250,7 @@
     <element name="listRelation">
       <oneOrMore>
 	<element name="relation">
-	  <ref name="pointing.atts"/>
+	  <ref name="ana.att"/>
 	  <optional>
 	    <ref name="temporal.atts"/>
 	  </optional>
@@ -372,7 +372,7 @@
   
   <define name="affiliation">
     <element name="affiliation">
-      <ref name="pointing.atts"/>
+      <ref name="ana.att"/>
       <optional>
 	<ref name="temporal.atts"/>
       </optional>

@@ -177,6 +177,39 @@
 	  </zeroOrMore>
 	</element>
       </oneOrMore>
+      <optional>
+	<element name="recordingStmt">
+	  <oneOrMore>
+	    <element name="recording">
+	      <attribute name="type">
+		<choice>
+		  <value>audio</value>
+		  <value>video</value>
+		</choice>
+	      </attribute>
+	      <optional>
+		<attribute name="dur">
+		  <data type="duration"/>
+		</attribute>
+	      </optional>
+	      <oneOrMore>
+		<ref name="media"/>
+	      </oneOrMore>
+	      <zeroOrMore>
+		<ref name="respStmt"/>
+	      </zeroOrMore>
+	      <optional>
+		<ref name="time"/>
+	      </optional>
+	      <optional>
+		<element name="equipment">
+		  <ref name="abs"/>
+		</element>
+	      </optional>
+	    </element>
+	  </oneOrMore>
+	</element>
+      </optional>
     </element>
   </define>
   
@@ -284,12 +317,8 @@
   <define name="meeting">
     <element name="meeting">
       <ref name="global.atts"/>
-      <ref name="pointing.atts"/>
-      <optional>
-	<attribute name="corresp">
-	  <ref name="anyURIs"/>
-	</attribute>
-      </optional>
+      <ref name="ana.att"/>
+      <ref name="corresp.att"/>
       <text/>
     </element>
   </define>
@@ -360,12 +389,22 @@
     </oneOrMore>
   </define>
 
+  <!-- Anonymous blocks. Appear in the header only. -->
+  <define name="abs">
+    <oneOrMore>
+      <element name="ab">
+	<ref name="global.atts"/>
+	<text/>
+      </element>
+    </oneOrMore>
+  </define>
+
   <!-- DATA -->
 
   <define name="text-body">
     <element name="text">
       <ref name="global.atts"/>
-      <ref name="pointing.atts"/>
+      <ref name="ana.att"/>
       <element name="body">
 	<oneOrMore>
           <element name="div">
@@ -406,7 +445,7 @@
 	</attribute>
       </optional>
       <ref name="who.att"/>
-      <ref name="pointing.atts"/>
+      <ref name="ana.att"/>
       <optional>
 	<attribute name="source">
 	  <ref name="anyURIs"/>
@@ -442,20 +481,31 @@
 	  <data type="NCName"/>
 	</attribute>
       </optional>
-      <text/>
+      <choice>
+        <text/>
+	<ref name="time"/>
+      </choice>
     </element>
   </define>
   
   <define name="pb">
     <element name="pb">
       <ref name="global.atts"/>
-      <optional>
-	<attribute name="source">
-	  <ref name="anyURIs"/>
-	</attribute>
-      </optional>
+      <ref name="corresp.att"/>
+      <ref name="source.att"/>
       <empty/>
     </element>
+    <!-- For original the CZ case, where they have media info right after pb
+	 (better do it with recordingStmt)
+    <optional>
+      <element name="note">
+	<attribute name="type">
+	  <value type="string">media</value>
+	</attribute>
+	<ref name="media"/>
+      </element>
+    </optional>
+    -->
   </define>
   
   <define name="comment">
@@ -565,6 +615,28 @@
     </element>
   </define>
   
+  <define name="media">
+    <a:documentation>The media element</a:documentation>
+    <element name="media">
+      <ref name="global.atts"/>
+      <attribute name="mimeType">
+        <data type="token"/>
+      </attribute>
+      <ref name="source.att"/>
+      <attribute name="url">
+        <ref name="anyURIs"/>
+      </attribute>
+    </element>
+  </define>
+  
+  <define name="time">
+      <a:documentation>The time element</a:documentation>
+    <element name="time">
+      <ref name="temporal.atts"/>
+      <text/>
+    </element>
+  </define>
+  
   <define name="date-simple">
     <a:documentation>A simple date, just with @when</a:documentation>
     <element name="date">
@@ -578,7 +650,7 @@
     <element name="date">
       <ref name="global.atts"/>
       <ref name="temporal.atts"/>
-      <ref name="pointing.atts"/>
+      <ref name="ana.att"/>
       <text/>
     </element>
   </define>
@@ -664,18 +736,30 @@
     </optional>
   </define>
   
-  <define name="pointing.atts">
+  <define name="ana.att">
     <optional>
       <attribute name="ana">
 	<ref name="anyURIs"/>
       </attribute>
     </optional>
-    <!-- Removed this, as it is only needed on meeting, and even that is, arguably, unecessary -->
-    <!--optional>
+  </define>
+  
+  <define name="corresp.att">
+    <a:documentation>"corresponds" points to elements that correspond to the current
+    element in some way.</a:documentation>
+    <optional>
       <attribute name="corresp">
 	<ref name="anyURIs"/>
       </attribute>
-    </optional-->
+    </optional>
+  </define>
+  
+  <define name="source.att">
+    <optional>
+      <attribute name="source">
+        <ref name="anyURIs"/>
+      </attribute>
+    </optional>
   </define>
   
   <define name="anyURIs">
