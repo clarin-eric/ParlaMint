@@ -602,12 +602,17 @@
     <xs:attribute name="n" type="xs:string"/>
   </xs:attributeGroup>
   <xs:attributeGroup name="ana.att">
+    <xs:annotation>
+      <xs:documentation>"analysis" indicates one or more elements
+    containing interpretations of the element on which the ana
+    attribute appears.</xs:documentation>
+    </xs:annotation>
     <xs:attribute name="ana" type="ns1:anyURIs"/>
   </xs:attributeGroup>
   <xs:attributeGroup name="corresp.att">
     <xs:annotation>
-      <xs:documentation>"corresponds" points to elements that correspond to the current
-    element in some way.</xs:documentation>
+      <xs:documentation>"corresponds" points to elements that correspond
+    to the current element in some way.</xs:documentation>
     </xs:annotation>
     <xs:attribute name="corresp" type="ns1:anyURIs"/>
   </xs:attributeGroup>

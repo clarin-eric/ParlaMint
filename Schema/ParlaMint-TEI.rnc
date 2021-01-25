@@ -342,10 +342,14 @@ global.atts =
   id.att?,
   lang.att?,
   attribute n { xsd:string }?
+
+## "analysis" indicates one or more elements
+##     containing interpretations of the element on which the ana
+##     attribute appears.
 ana.att = attribute ana { anyURIs }?
 
-## "corresponds" points to elements that correspond to the current
-##     element in some way.
+## "corresponds" points to elements that correspond
+##     to the current element in some way.
 corresp.att = attribute corresp { anyURIs }?
 source.att = attribute source { anyURIs }?
 

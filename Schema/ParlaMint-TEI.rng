@@ -737,6 +737,9 @@
   </define>
   
   <define name="ana.att">
+    <a:documentation>"analysis" indicates one or more elements
+    containing interpretations of the element on which the ana
+    attribute appears.</a:documentation>
     <optional>
       <attribute name="ana">
 	<ref name="anyURIs"/>
@@ -745,8 +748,8 @@
   </define>
   
   <define name="corresp.att">
-    <a:documentation>"corresponds" points to elements that correspond to the current
-    element in some way.</a:documentation>
+    <a:documentation>"corresponds" points to elements that correspond
+    to the current element in some way.</a:documentation>
     <optional>
       <attribute name="corresp">
 	<ref name="anyURIs"/>
