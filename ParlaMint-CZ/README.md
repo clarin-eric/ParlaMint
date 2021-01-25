@@ -1,1 +1,2 @@
-# ParlaMint directory for samples of country XX
+# ParlaMint directory for samples of country CZ
+
