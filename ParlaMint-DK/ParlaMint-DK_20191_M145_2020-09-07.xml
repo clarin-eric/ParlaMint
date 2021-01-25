@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="da" xml:id="ParlaMint-DK_20191_M145_2020-09-07" ana="#parla.sitting #reference">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">The Danish Parliamentary Corpus, ParlaMint-DK [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Hansard of the session of the Danish Parliament (Folketinget), 20191, M145 (2020-09-07), preliminary version</title>
+            <meeting ana="#parla.session">20191</meeting>
+            <meeting ana="#parla.sitting">M145</meeting>
+            <respStmt>
+               <persName>Bart Jongejan</persName>
+               <persName>Dorte Haltrup Hansen</persName>
+               <persName>Costanza Navarretta</persName>
+               <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">Department of Nordic Studies and Linguistics (NorS), University of Copenhagen</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>1.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="108" xml:lang="en">108 speeches</measure>
+            <measure unit="words" quantity="10143" xml:lang="en">10143 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URL">https://github.com/clarin-eric/ParlaMint</idno>
+            <pubPlace>
+               <ref target="https://github.com/clarin-eric/ParlaMint">https://github.com/clarin-eric/ParlaMint</ref>
+            </pubPlace>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>. </p>
+            </availability>
+            <date when="2021-01-31">2021-01-31</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="en">Hansards of the Danish Parliament</title>
+               <publisher>The Danish Parliament</publisher>
+               <idno type="URI">https://www.ft.dk/</idno>
+               <date when="2020-09-07">2020-09-07</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="4"/>
+               <tagUsage gi="head" occurs="4"/>
+               <tagUsage gi="note" occurs="4"/>
+               <tagUsage gi="u" occurs="108"/>
+               <tagUsage gi="seg" occurs="108"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Folketinget, Christiansborg</name>
+               <name type="city">1240 Copenhagen K</name>
+               <name type="country" key="DK">Denmark</name>
+               <date ana="#parla.sitting" when="2020-09-07">2020-09-07</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2020-12-18">
+            <name>Dorte Haltrup Hansen</name>Generated corpus in ParlaMint.</change>
+      </revisionDesc>
+   </teiHeader>
+    <text xml:lang="da" ana="#covid">
+        <body>
+            <div type="debateSection">
+            <head>Punkt 0</head>
+            <note type="agendaItem">2020-09-07-0</note>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907100016" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907100016-1">Mødet er åbnet.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>1. behandling af L 211: Om forlængelse af ordningen med midlertidig ret til sygedagpenge for personer i øget risiko ved smitte m</head>
+            <note type="agendaItem">2020-09-07-1</note>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907100026" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907100026-2">Forhandlingen er åbnet, og den første ordfører kommer fra Socialdemokratiet. Velkommen til hr. Leif Lahn Jensen.</seg>
+                </u>
+                <u who="JensenLeifLahn_S" xml:id="ParlaMint-DK_20200907100041" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907100041-3">Mange tak. Man må aldrig være utryg ved at gå på arbejde. Det gælder selvfølgelig til daglig, men især også i denne tid, hvor vi alle er ramt af coronaen. De fleste er heldigvis ikke bekymret for at tage på arbejde og passer bare ekstra på sig selv og på andre, som vi efterhånden har lært, siden det her startede i marts. Men der er altså mennesker, hvor det kan være katastrofalt for dem eller deres pårørende at blive smittet, og hvor de kan blive alvorligt syge. Disse mennesker skal vi passe på og sikre, at de fortsat kan føle sig trygge. Derfor skal arbejdsgiveren sammen med den ansatte forsøge at indrette arbejdspladsen, så smitten kan undgås, og hvis det ikke kan lade sig gøre, skal man finde en anden opgave på arbejdspladsen eller arbejde hjemmefra. Og hvis intet af det kan lade sig gøre – hvilket der også er masser af eksempler på – har man siden den 20. maj kunnet få ret til at blive hjemme på sygedagpenge. Denne ordning udløb den 1. september, og som alle ved, er corona stadig blandt os, og intet har ændret sig for de mennesker med høj risiko for at blive syge, hvis de bliver smittet, selv om landet er ved at åbne op efter krisen. Jeg har sikkert som mange andre herinde snakket med en del bekymrede borgere, som nu faktisk kan ånde lettet op. Vi er fortsat nødt til at passe på hinanden. Derfor foreslår regeringen at lade ordningen fortsætte frem til nytåret. Socialdemokratiet støtter forslaget.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907100216" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907100216-4">Tak til ordføreren. Der er ingen korte bemærkninger til ordføreren. Den næste ordfører i rækken kommer fra Venstre, og det er hr. Hans Andersen.</seg>
+                </u>
+                <u who="AndersenHans_V" xml:id="ParlaMint-DK_20200907100227" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907100227-5">Tak for det. Jeg vil gerne følge op på den tidligere ordfører og måske lige præcisere, at det ikke er regeringen, men en bred kreds af partier, der foreslår, at vi forlænger den her ordning. Tilbage i maj måned besluttede et enigt Folketing, at personer, der ikke var syge, helt ekstraordinært skulle omfattes af sygedagpengesystemet. Det skyldes jo ganske enkelt, at vi med covid-19 befandt os i en helt særlig situation. Samfundet skulle gradvis åbnes op, og vi skulle derfor værne om de mennesker i job, der af helbredsmæssige årsager var i en særlig risikogruppe ved eventuel smitte med covid-19. Hvad vi ikke vidste var, at der her 110 dage senere stadig er et behov for en ekstraordinær hjælp til denne gruppe, men det ved vi nu. Derfor er vi i Venstre også meget tilfredse med, at vi med det her lovforslag forlænger den beskyttelse året ud til en gruppe mennesker, der er særlig sårbare i denne tid, altså at vi fortsætter med at give den hjælpende hånd til de medarbejdere, der ikke har haft mulighed for at møde op på arbejde grundet risikoen for smitte, og hvor hjemmearbejde eller andet arbejde ikke har været muligt. Det er meningsfuldt, det er ansvarligt, og det er rigtigt. Venstre støtter op om dette lovforslag, og Venstre er glade for, at vi i enighed har kunnet stå bag det her lovforslag. Tak for ordet. Og så skal jeg hilse fra Nye Borgerlige og sige, at de støtter lovforslaget, som det foreligger. Tak.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907100412" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907100412-6">Tak til Venstres ordfører. Den næste ordfører kommer fra Dansk Folkeparti, og det er hr. Bent Bøgsted.</seg>
+                </u>
+                <u who="BøgstedBent_DF" xml:id="ParlaMint-DK_20200907100425" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907100425-7">Tak for det, formand. Det her lovforslag er jo et lovforslag, som vi alle kan støtte, fordi folk, der er i risikogruppen og er syge og nemt kan blive udsat for smitte af covid-19, selvfølgelig skal sikres, så de ikke får sygdommen med hjem til nogle, der er særlig udsatte. Derfor er det fint, at ordningen forlænges. Jeg synes bare lige, at der er lidt salt i såret, og det er jo, at ordningen her skulle have været aftalt, inden den tidligere ordning udløb, men jeg tror nok, regeringen er klar over, at det var lidt af en bommert, der kom der, fordi man først gik i gang med at få det her på plads, efter at den gældende ordning var udløbet. Men bedre sent end aldrig, men det burde være forhandlet på plads, inden den eksisterende ordning udløb. Med de ord støtter Dansk Folkeparti ordningen.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907100523" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907100523-8">Tak til ordføreren for Dansk Folkeparti. Den næste ordfører kommer fra Det Radikale Venstre, og det er fru Samira Nawa. Velkommen.</seg>
+                </u>
+                <u who="NawaSamira_RV" xml:id="ParlaMint-DK_20200907100530" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907100530-9">Tak. Corona er stadig iblandt os, og selv om Danmark på mange stræk så småt begynder at ligne sig selv igen, er det for mange mennesker præcis lige så farligt at få corona i dag, som det var, da vi lukkede samfundet ned, og dem skal vi beskytte. Derfor er det på sin plads at forlænge ordningen med ret til midlertidige sygedagpenge for personer i risikogruppen i forhold til covid-19 samt deres pårørende. Radikale Venstre bakker op om lovforslaget.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907100605" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907100605-10">Tak til den radikale ordfører. Den næste ordfører kommer fra Socialistisk Folkeparti, og det er hr. Karsten Hønge. Velkommen.</seg>
+                </u>
+                <u who="HøngeKarsten_SF" xml:id="ParlaMint-DK_20200907100612" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907100612-11">Coronaen har ramt hele samfundet, men den rammer forskelligt. Utrygheden har dog ramt nogle mennesker hårdere end andre, for ligesom sygdommen rammer den nogle mennesker mere præcist. Og usikkerheden og utrygheden er stor i familier, som er særlig sårbare over for corona. Derfor er det godt, at en stor forligskreds er enige om et sikkerhedsnet for risikogrupper og forlænger den tidligere ordning. SF støtter lovforslaget.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907100644" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907100644-12">Tak til SF's ordfører. Den næste ordfører kommer fra Enhedslisten, og det er fru Jette Gottlieb.</seg>
+                </u>
+                <u who="GottliebJette_EL" xml:id="ParlaMint-DK_20200907100650" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907100650-13">Mange tak. Jeg vil gerne følge op på, hvad hr. Hans Andersen sagde i sit indlæg. Jeg vil nemlig også gerne både tage ansvar for og en del af æren for, at der overhovedet er en lov, vi kan forlænge. Vi er selvfølgelig tilfredse med, at sygedagpengene for lønmodtagere, der er i risikogruppen, bliver forlænget. Det er også godt, bør vi huske, at det også gælder for personer, der er pårørende til personer, der har øget risiko. Vi har dog den betænkelighed, at det altså er en ret bureaukratisk måde, det er lavet på. Vi er jo enige i, at der skal være lægelig dokumentation for, at en lønmodtager er i risikogruppen, men vi mener faktisk, at arbejdsgivererklæringen er overflødig, og at den betingelse samt sagsgangen i kommunerne kan være årsag til, at lønmodtagerne ikke har været meget ivrig efter at benytte ordningen. Vi stemmer selvfølgelig for forslaget, da vi er rigtig glade for forlængelsen.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907100749" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907100749-14">Tak til fru Jette Gottlieb fra Enhedslisten. Den næste ordfører kommer fra Det Konservative Folkeparti, og det er hr. Naser Khader.</seg>
+                </u>
+                <u who="KhaderNaser_KF" xml:id="ParlaMint-DK_20200907100759" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907100759-15">Tak for det. For Det Konservative Folkeparti står det helt klart, at man selvfølgelig ikke skal arbejde, hvis man ikke kan gøre det på sundhedsmæssig forsvarlig vis. Dette gælder stadig. Derfor er vi også glade for, at vi med dette lovforslag forlænger retten til sygedagpenge for folk i risikogruppen, der opfylder de øvrige betingelser, der gør sig gældende. Derudover glæder vi os i Det Konservative Folkeparti over, at arbejdsgivere, der betaler løn under fraværet, også fortsat får ret til sygedagpengerefusion fra første dag, for vi så en række virksomheder i starten af denne krise, der er på fornem vis tog hensyn til medarbejdere i risikogruppen. Derfor glæder vi os over, at de fortsat kan få sygedagpengerefusion for disse medarbejdere. Derfor støtter Det Konservative Folkeparti lovforslaget.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907100852" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907100852-16">Tak til den konservative ordfører. Den næste ordfører kommer fra Liberal Alliance, og det er hr. Ole Birk Olesen.</seg>
+                </u>
+                <u who="OlesenOleBirk_LA" xml:id="ParlaMint-DK_20200907100900" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907100900-17">Tak for det. Liberal Alliance kan tilslutte sig de positive ord, der er blevet sagt om lovforslaget. Vi stemmer også for det.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907100909" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907100909-18">Tak til ordføreren fra Liberal Alliance. Således har alle ordførere, der ønskede ordet, fået ordet, og dermed er det blevet beskæftigelsesministerens tur.</seg>
+                </u>
+                <u who="HummelgaardPeter_Beskæftigelsesministeren_S" xml:id="ParlaMint-DK_20200907100923" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907100923-19">Mange tak til alle ordførerne fra Folketingets partier for bemærkningerne. Jeg er glad for, at vi igen er blevet enige om at holde hånden under nogle af de mest sårbare familier på arbejdsmarkedet. Danmark er næsten fuldt genåbnet. De fleste danskere møder igen fysisk på arbejde, men der er stadig personer i samfundet, der af helbredsmæssige årsager er i en situation, som gør dem særlig sårbare for smitte med corona. For de mennesker er det lige så farligt at få corona i dag, som det har været hele tiden. De skal selvfølgelig ikke føle sig presset til at gå på arbejde og risikere at blive alvorligt syge eller sige deres job op i den svære situation, vi står i lige nu og i de næste måneder. På samme måde skal deres nærmeste pårørende heller ikke være utrygge ved risikoen for at bringe smitte med hjem efter at have været på arbejde. Derfor er jeg glad for, at vi nu forlænger den ordning, der giver lønmodtagere med øget risiko ret til sygedagpenge året ud. Lønmodtagere, der er pårørende til personer med øget risiko, får selvfølgelig også forlænget retten til sygedagpenge. Den nuværende ordning forlænges. Det betyder, at den fortsat omfatter personer, der ifølge Sundhedsstyrelsen potentielt har en øget risiko for et alvorligt sygdomsforløb, hvis de bliver smittet. Det er personer, hvis arbejdsopgaver eller arbejdsplads ikke kan indrettes, så de kan udføre arbejdet i overensstemmelse med Sundhedsstyrelsens anbefalinger. De arbejdsgivere, der betaler løn til medarbejdere med øget risiko eller disses pårørende, har selvfølgelig fortsat også ret til sygedagpengerefusion fra første fraværsdag. Med det lovforslag, vi førstebehandler i dag, sikrer vi dermed fortsat forsørgelse til både medarbejderne med øget risiko og deres pårørende, så de trygt kan blive hjemme fra arbejde, imens Danmark genåbnes. Det synes jeg er vigtigt, og jeg glæder mig meget over den meget brede politiske opbakning til forslaget. Tak for ordet.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907101112" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907101112-20">Tak til ministeren for dette. Der er ikke flere, der har bedt om ordet, og derfor er forhandlingen sluttet. Jeg foreslår, at lovforslaget henvises til Beskæftigelsesudvalget, og hvis ingen gør indsigelse, betragter jeg dette som vedtaget. Det er vedtaget.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>1. behandling af L 212: Om adgang til iværksættelse af midlertidig arbejdsfordeling som led i håndteringen af covid-19.</head>
+            <note type="agendaItem">2020-09-07-2</note>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907101127" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907101127-21">Forhandlingen er åbnet. Den første ordfører kommer fra Socialdemokratiet. Det er hr. Leif Lahn Jensen. Velkommen.</seg>
+                </u>
+                <u who="JensenLeifLahn_S" xml:id="ParlaMint-DK_20200907101209" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907101209-22">Ud over at begrænse smitten af corona har en af de vigtigste opgaver for regeringen været at bevare så mange arbejdspladser som overhovedet muligt – at undgå, at virksomhedsejere måtte dreje nøglen om, og at tusinder af lønmodtagere ville blive arbejdsløse. Vi har lavet en del hjælpepakker sammen med et stort flertal her i Folketinget, og man må sige, at meget af det har gjort en kæmpe forskel. Hvis man bare kigger på lønkompensationsordningen, vil man se, at der er flere økonomer og forskere, som påpeger, at det har afværget tusinder af fyringer. Og det er jo godt. Nu drejer det sig om at komme videre og bekæmpe arbejdsløsheden alt det, vi kan. Derfor kan danskerne også til efteråret hæve 60 mia. kr. af deres indefrosne feriepenge, så vi netop kan sætte gang i hjulene og sikre så mange arbejdspladser som overhovedet muligt. Men der vil stadig væk være nogle virksomheder, som her til efteråret vil opleve færre kunder og en tyndere ordrebog. Derfor skal vi også på en klog måde hjælpe dem med at bevare de dygtige medarbejdere, de har, så de er klar, når ordrerne begynder at komme ind igen. Og vi skal sikre, at dem, som oplever en mindre travl hverdag på jobbet, vil beholde det og stadig væk have en anstændig indkomst. Derfor glæder det mig rigtig meget, at arbejdsmarkedsparterne igen har taget et stort ansvar og med regeringen lavet en aftale om arbejdsfordeling – en aftale, hvor medarbejderne kan deles om jobbet; hvor de får en dagpengesats, som er 20 pct. højere end normalt, når de går derhjemme og deres kollegaer arbejder; hvor virksomhederne betaler det meste og medarbejderne deles om jobbet og går lidt ned i løn for netop at undgå at blive fyret og miste deres kollegaer. Og jeg vil sige som formanden for FH, Lizette Risgaard, sagde i pressemeddelelsen: Det kalder jeg solidaritet. Ordningen vil gælde indtil 31. december i år og kan maksimalt gå 4 måneder ind i 2021. Jeg vil igen takke arbejdsmarkedets parter for endnu en gang at tage et stort ansvar. Det er supergodt. Socialdemokratiet støtter forslaget.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907101412" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907101412-23">Tak til ordføreren for Socialdemokratiet. Der er ingen korte bemærkninger til ordføreren. Den næste ordfører kommer fra Venstre, og det er hr. Hans Andersen.</seg>
+                </u>
+                <u who="AndersenHans_V" xml:id="ParlaMint-DK_20200907101423" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907101423-24">Tak for det. Denne nye midlertidige ordning skal give virksomheder, der fortsat er udfordret af coronakrisen, et værktøj til at undgå afskedigelser. Det er noget, der tydeligvis er brug for, da vi fortsat befinder os i en alvorlig økonomisk krise, og derfor støtter Venstre op om denne aftale. Men det havde været klædeligt, om aftalen var kommet i stand noget før, for så kunne den jo have været en kærkommen direkte erstatning for lønkompensationspakken, der udløb 29. august – men bedre sent end aldrig. Jeg er dog lidt forundret i denne tid, hvor beskæftigelsen ud fra, hvad man læser i regeringens økonomiske redegørelse, samlet set ventes at falde med 68.000 personer i år. Det er jo svært at få øje på selv samme regeringens beskæftigelses- og vækstprioriteter i dens finanslovsudspil. Der er ganske enkelt ikke mange tiltag, som bidrager til øget beskæftigelse og vækst i denne tid, og det er det, vi har brug for, hvis det står til Venstre. Regeringen sidder lidt på hænderne, når det kommer til at genskabe de tusindvis af arbejdspladser, som vi har tabt under krisen, og det medfører, at der selv i 2025 vil være flere ledige, end der var i 2019, hvis man følger fremskrivningerne i regeringens økonomiske redegørelse. I Venstre vil vi have en ansvarlig økonomisk politik, der bidrager til vækst og jobskabelse, så vi deler ikke regeringens og Socialdemokratiets prioriteter. Et andet element i det her lovforslag er dog – og det er vi tilfredse med – at ikkeforsikrede selvstændige m.fl., som har været på midlertidige lønkompensationordninger, kan få adgang til at få dagpenge i denne ekstraordinære situation. Og hertil forlænges den eksisterende ordning om, at selvstændige i tvangslukkede brancher kan ophøre midlertidigt og få dagpenge. Det er især noget, vi i Venstre har kæmpet for at få ind i aftalerne, og vi er tilfredse med, at vi nu også udmønter det i et lovforslag. Som sagt støtter Venstre lovforslaget. Og så skal jeg meddele og hilse fra Nye Borgerlige og sige, at de ligeledes støtter lovforslaget.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907101726" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907101726-25">Tak til Venstres ordfører. Der er ønske om en kort bemærkning til ordføreren, og det er fra hr. Ole Birk Olesen, Liberal Alliance. Værsgo.</seg>
+                </u>
+                <u who="OlesenOleBirk_LA" xml:id="ParlaMint-DK_20200907101733" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907101733-26">Jeg forstår godt, at Venstre er skuffet over, at regeringen ikke fremsætter andre lovforslag eller et finanslovsforslag, der øger beskæftigelsen og velstanden i Danmark. Det er vi i Liberal Alliance også meget skuffede over, men Venstre kunne jo lade være med at stemme for regeringens forslag, der mindsker beskæftigelsen i Danmark, som f.eks. det her. Der er jo ingen, der tvinger Venstre til at deltage i den her aftale, der mindsker beskæftigelsen i Danmark og sender en regning videre til skatteyderne. Det gør man alligevel. Kan Venstre forklare, hvorfor Venstre ikke bare lader være med at stemme for skridt, der går i den forkerte retning, i stedet for at stå på talerstolen og besvære sig over, at regeringen ikke gør noget, der går i den rigtige retning?</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907101818" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907101818-27">Ordføreren.</seg>
+                </u>
+                <u who="AndersenHans_V" xml:id="ParlaMint-DK_20200907101819" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907101819-28">Denne aftale er indgået mellem regeringen og arbejdsmarkedets parter, og det har vi stor respekt for. Det, jeg var forundret over, var, at den skulle komme i stand så sent, at mange tusind mennesker faktisk her i august måned har fået en fyreseddel, bl.a. her i København i hotel- og restaurationsbranchen. Så vi havde jo gerne set, at det var indgået på et meget tidligere tidspunkt. Så er det jo rigtigt, at isoleret set bidrager den her aftale ikke til øget jobskabelse, men den bidrager til tryghed for de mange medarbejdere, der i dag er ude på eksportvirksomheder, som lige nu er i en meget usikker situation, og det ønsker Venstre også at støtte op om.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907101906" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907101906-29">Hr. Ole Birk Olesen.</seg>
+                </u>
+                <u who="OlesenOleBirk_LA" xml:id="ParlaMint-DK_20200907101908" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907101908-30">Nu er det jo sådan, at der er en betydelig grad af medfinansiering i det her lovforslag fra staten, og det vil sige, at arbejdsmarkedets parter jo ikke kan indgå aftale om, at staten skal bruge penge. Regeringen har heller ikke nogen penge. Enhver bevilling, der gives, skal gives af Folketinget, og her står Venstre så som et stort medlem af Folketinget og siger: Vi vil gerne være med til at give de her penge. Det er jo en beslutning, som Venstre træffer. Der kan man jo ikke sige, at det er noget med arbejdsmarkedets parter og regeringen, for de kan ikke beslutte at uddele penge til formål, hvis man ikke synes, de formål er gode. Så hvorfor støtter Venstre, at der skal bruges penge på det her? Det er ikke nok at sige arbejdsmarkedets parter.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907101947" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907101947-31">Ordføreren.</seg>
+                </u>
+                <u who="AndersenHans_V" xml:id="ParlaMint-DK_20200907101948" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907101948-32">Arbejdsmarkedets parter og regeringen har indgået den her aftale, men som jeg også sagde, støtter Venstre også op om at skabe tryghed og sikkerhed for tusindvis af medarbejdere, der i øjeblikket er ansat i bl.a. eksportvirksomheder, som står i en meget usikker situation. Og så er der jo ingen tvivl om, at Venstre gerne ser, at der bliver sat initiativer i gang i Danmark, der skaber yderligere jobvækst. Der tror jeg vi er helt på linje med Liberal Alliance om, at de er totalt fraværende i regeringens udspil til en finanslov. Og det er jo der, jeg mener, at vi bør stå sammen og presse regeringen for at sikre, at der faktisk kommer en jobvækst. For det her kan jo ikke stå alene, det er vi helt enige om.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907102035" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907102035-33">Den næste korte bemærkning er til hr. Leif Lahn Jensen, Socialdemokratiet. Værsgo.</seg>
+                </u>
+                <u who="JensenLeifLahn_S" xml:id="ParlaMint-DK_20200907102039" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907102039-34">Tak. Det er faktisk ikke så meget til det her, da der jo er debat om finansloven i morgen. men nu nævnte ordføreren det jo selv. Altså, jeg er fuldstændig snotforvirret, så jeg håber da, at ordføreren kan hjælpe mig. På den ene side er Venstre og oppositionen imod, at regeringen pumper 9 mia. kr. ud til vækst næste år, og på den anden side synes man ikke, det er godt nok. Jeg ved ikke, om alle andre er forvirret, men jeg er forvirret. Så kan ordføreren ikke lige igen fortælle, hvad der er op og ned i hele den her situation?</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907102109" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907102109-35">Ordføreren.</seg>
+                </u>
+                <u who="AndersenHans_V" xml:id="ParlaMint-DK_20200907102110" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907102110-36">Vi finder ikke, at regeringens finanslovsudspil, som det foreligger, bidrager til en ny stor jobvækst i Danmark, og det er jo det, man skal prioritere i en situation, hvor ledigheden er steget kolossalt meget. Der har vi da brug for at tage initiativer, der skaber øget vækst og optimisme. Det er jo rigtigt, at vi støtter op omkring trepartsaftalen. Den skaber tryghed, men så har vi da brug for at tage yderligere skridt, og det, vi har hørt mest om, er sådan set, at regeringen diskuterer om, hvordan man skal finansiere den tidlige pension til Arne med stigende skatter og afgifter i størrelsesordenen 3 mia. kr. Det er da ikke den rigtige vej at gå.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907102157" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907102157-37">Ordføreren.</seg>
+                </u>
+                <u who="JensenLeifLahn_S" xml:id="ParlaMint-DK_20200907102159" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907102159-38">I de efterhånden snart 13 år, jeg har været i Folketinget, har jeg ikke været med til at bruge så mange penge som i det sidste halve år til at hjælpe virksomheder og andre i gang, det vil sige at skabe vækst. Det har jo selvfølgelig været på grund af hele coronadelen, og det har vi også det meste af tiden gjort sammen med Venstre. Jeg ved ikke, om Venstre ikke synes, at det er godt nok, og at vi skulle have brugt mange flere milliarder. Jeg tror, vi er oppe i et par hundrede milliarder – jeg kan ikke det helt præcise tal – men nu siger ordføreren så også, at det ikke er godt nok at bruge 9 mia. kr. næste år på vækst. Så det vil sige, hvor mange penge vil Venstre så bruge? Det er jo ret interessant her at vide: Hvor mange penge vil man bruge på vækst næste år?</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907102236" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907102236-39">Hr. Hans Andersen.</seg>
+                </u>
+                <u who="AndersenHans_V" xml:id="ParlaMint-DK_20200907102237" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907102237-40">Det vil ordføreren komme til at kunne se, når Venstre fremlægger sit finanslovsforslag, og vi ser også frem til debatten i morgen om regeringens finanslovsudspil. Der må man bare konstatere, at en del af det jo også handler om at finansiere den tidlige pension til Arne, og det kommer til at ske ved – hvis det står til regeringen – stigende skatter og afgifter. Der siger vi i Venstre: Det er ikke den vej, vi ønsker at gå. Vi ønsker ikke at sende en kæmpe regning nu til erhvervsvirksomheder, hvorefter den så havner hos boligejerne. Det er jo der, vandene skilles. Tak.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907102315" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907102315-41">Tak til Venstres ordfører. Der er ikke flere korte bemærkninger til ordføreren. Den næste ordfører kommer fra Dansk Folkeparti. Det er hr. Bent Bøgsted.</seg>
+                </u>
+                <u who="BøgstedBent_DF" xml:id="ParlaMint-DK_20200907102324" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907102324-42">Tak for det. Det kan godt være, at det bliver en interessant debat i morgen med finanslovsforhandlingerne, fordi regningen altid ender hos borgeren. Uanset hvad man kalder det, er det altid borgeren, regningen havner hos i den ene eller anden udformning. Men det lader vi finansfolkene tage i morgen. Det her forslag om arbejdsfordeling og lovforslaget om forhøjet dagpengesats kommer jo fra en aftale, som arbejdsmarkedets parter har forhandlet på plads, og som det også er blevet sagt, kommer de nok lidt sent. Man havde ikke fået det på plads, inden de andre ordninger udløb, ligesom det er ved det foregående lovforslag. Men lad det nu ligge: Bedre sent end aldrig. Jeg vil ikke gentage alt, hvad der er blevet sagt, men noget af det, jeg er faldet over ved lovforslaget om arbejdsfordeling – og det er et direkte spørgsmål til ministeren, som ministeren godt må forholde sig til på talerstolen her – er jo, om de virksomheder, der har været i gang med en arbejdsfordeling, som udløber, og hvor der har været et ophold imellem, kan gøre brug af en ny arbejdsfordeling. Og spørgsmål nummer 2 er: Hvis de er i gang med en arbejdsfordeling på nuværende tidspunkt, kan de så bygge oven på den arbejdsfordeling, de måske er i gang med, dvs. forlænge den periode med arbejdsfordeling med de 4 måneder, som måske løber ind i det næste år? Det er nogle spørgsmål, som jeg synes er vigtige. Det kan godt være, at der er en forklaring. Jeg synes bare ikke, at jeg kan gennemskue, om der er den mulighed i lovforslaget, eller om de så ikke kan gøre brug af det. Det kunne være væsentligt at få svar på. Et andet er spørgsmål er: Der står om arbejdsfordeling i overenskomster, men hvad med de virksomheder, der er i samme klemme, der ikke har overenskomst? Kan de gøre brug af arbejdsfordeling og få glæde af den ordning her, eller det er kun forbeholdt dem, der har overenskomst, at bruge ordningen med arbejdsfordeling? Det er også et spørgsmål, jeg gerne vi have ministeren forholder sig til på talerstolen. Der er så lagt op til, at man skal have hævet kompensationsgraden for dagpenge i den 4-månedersperiode, og vi har forståelse for, at det selvfølgelig kan være medvirkende til at sikre, at der ikke er så meget modvilje imod at gå på arbejdsfordeling, og at man skal hjælpe hinanden ude i virksomhederne. Virksomhederne betaler jo også G-dage i den forbindelse som deres tilskud til ordningerne. Så langt hen ad vejen synes jeg, det er rimelige forslag, der er her, som vi godt kan støtte i Dansk Folkeparti. Men noget, som vi selvfølgelig også er interesserede i at vide, er jo, om regeringen har nogen idé eller tanker om, at man, når de her ordninger udløber, så måske allerede skal til at forhandle en ny forlængelse, hvis situationen med covid-19 ikke er blevet forbedret. Vi har set stigende tal, og der er ikke jo det helt vilde, der tyder på, at omverdenen og de lande rundtomkring os, vi har samhandel med, får forbedret forholdene væsentligt. At vi får gang i produktionsvirksomhederne herhjemme, har meget at gøre med, hvordan det ser ud i vores samhandelslande, og der er jo ikke nogen garanti for, at det lige lysner her i løbet af de næste 4 måneder. Så spørgsmålet er, om regeringen allerede nu overvejer, at man måske skal forlænge de her ordninger, når vi kommer hen til december, og om der så skal gang i forhandlinger om nye forlængelser, og hvor lang tid regeringen så regner med, at man kan køre med det her, fordi man vel på et eller andet tidspunkt kommer dertil, hvor riget fattes penge og man ikke har mulighed for at forlænge ordningerne mere. Men det er nogle spørgsmål, som jeg egentlig gerne vil have at ministeren forholder sig lidt til her på talerstolen, men Dansk Folkeparti støtter forslaget, fordi det er til hjælp for lønmodtagere, det er til hjælp for virksomheder til at holde hjulene i gang, og så er det et spørgsmål om, hvordan man kan kombinere det, og hvor lang tid man kan køre med det her.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907102831" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907102831-43">Tak til ordføreren. Ordføreren får ikke lov til at gå fra talerstolen lige med det samme, for der er et ønske om en kort bemærkning fra hr. Ole Birk Olesen, Liberal Alliance. Værsgo.</seg>
+                </u>
+                <u who="OlesenOleBirk_LA" xml:id="ParlaMint-DK_20200907102843" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907102843-44">Jeg vil gerne stille hr. Bent Bøgsted et spørgsmål, fordi hr. Bent Bøgsted jo har stor erfaring som beskæftigelsesordfører. Jeg står bare her som vikar, og derfor har jeg brug for noget konsulentbistand. Jeg kan nemlig læse ud af lovforslaget, at skønt man giver flere mulighed for at komme på dagpenge og for at komme på højere dagpenge, er der ingen økonomiske konsekvenser for nogen som helst i forbindelse med det her, hverken for erhvervslivet eller for det offentlige. Kan hr. Bent Bøgsted forklare, hvordan det kan lade sig gøre?</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907102910" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907102910-45">Ordføreren.</seg>
+                </u>
+                <u who="BøgstedBent_DF" xml:id="ParlaMint-DK_20200907102912" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907102912-46">Nej – det er selvfølgelig lidt svært at forklare, at der ikke er nogen konsekvenser. Men det har i hvert fald konsekvenser for vikarer, som hr. Ole Birk Olesen nævner selv at være, altså at de ikke kan gøre brug af arbejdsfordelingen. Men jeg kan ikke forklare, hvordan regeringen har regnet ud, at det ikke har nogen konsekvenser. Nu er Dansk Folkeparti ikke med i den samlede aftale, men vi kan godt støtte op om de her tiltag, så jeg vil anbefale, at hr. Ole Birk Olesen stiller det samme spørgsmål til beskæftigelsesministeren og sikkert – det håber jeg – får et kvalificeret svar. Men jeg tror det ikke.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907102947" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907102947-47">Der er ikke ønske om anden korte bemærkning, så vi siger tak til ordføreren for Dansk Folkeparti. Den næste ordfører kommer fra Det Radikale Venstre, og det er fru Samira Nawa. Velkommen.</seg>
+                </u>
+                <u who="NawaSamira_RV" xml:id="ParlaMint-DK_20200907102957" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907102957-48">Tak. Den hidtidige lønkompensationsordning udløb den 29. august, og selv om jeg ligesom ordføreren for Venstre godt kunne have tænkt mig en lidt mere glidende overgang, er det korrekt, at man kan sige bedre sent end aldrig – nu bliver der frem mod udgangen af året etableret en mulighed for en ny arbejdsfordeling for alle medarbejdere i op til 4 måneder. Det giver virksomheder mulighed for at fastholde deres medarbejdere, selv om der ikke er arbejde nok til fuldtidsbeskæftigelse. Og det er en god løsning for både virksomheder og medarbejdere. Medarbejderne kan modtage supplerende dagpenge i den tid, hvor de ikke arbejder, og dagpengesatsen i den nye arbejdsfordelingsordning bliver ca. 20 pct. højere, og en god del af finansieringen bidrager arbejdsgiverne til. Dertil kommer bedre muligheder for opkvalificering under ledighed, når man er på supplerende dagpenge, og ikkeforsikrede personer får også adgang til supplerende dagpenge mod at betale til a-kassen. Alle parter må give sig, og det har vi generelt været gode til i hele perioden med corona. Og arbejdsmarkedets parter viser endnu en gang vejen med trepartsaftalen om en ny midlertidig ordning for arbejdsfordeling. Radikale Venstre bakker op om begge lovforslag.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907103123" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907103123-49">Tak til ordføreren. Der er ingen korte bemærkninger til ordføreren. Den næste ordfører kommer fra Socialistisk Folkeparti, og det er hr. Karsten Hønge. Velkommen.</seg>
+                </u>
+                <u who="HøngeKarsten_SF" xml:id="ParlaMint-DK_20200907103131" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907103131-50">Aftaler mellem fagbevægelsen, arbejdsgiverne og staten giver holdbare løsninger. Det er den her trepartsaftale endnu et eksempel på, og det viser værdien af overenskomster og et reguleret arbejdsmarked. Medlemmer af splittelsesorganisationerne som Krifa, Det Faglige Hus, Ase Lønmodtager og Frie Funktionærer får nu igen-igen alle fordelene, men ligger lunt i læ af de organiserede lønmodtagere, som sammen med arbejdsgiverne indgår både overenskomster og i den her situation samarbejder med staten om netop holdbare løsninger. Det er også samfundssind at bakke op om de organisationer, som i det daglige bærer det danske arbejdsmarked og dermed velfærdssamfundet. Som i alle aftaler er der jo dele, som man er mere tiltrukket af end andre, men den samlede aftale, som ligger foran os, er et middel til at undgå flere afskedigelser end allerhøjst nødvendigt. Arbejdsløsheden følger i kølvandet på corona, og arbejdsfordeling kan i nogle virksomheder være med til at afbøde nogle af konsekvenserne af sundhedskrisen. Den forhøjede dagpengesats på 23.000 kr. og de bedre muligheder for opkvalificering ved arbejdsløshed må meget gerne efter SF's mening blive gjort permanente. Jeg håber, at de to bestemmelser inspirerede regeringen og vil sætte sig nogle varige spor. SF kan støtte lovforslagene.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907103315" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907103315-51">Tak til SF's ordfører. Den næste ordfører kommer fra Enhedslisten, og det er fru Jette Gottlieb.</seg>
+                </u>
+                <u who="GottliebJette_EL" xml:id="ParlaMint-DK_20200907103330" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907103330-52">Tusind tak. Det er godt, at der er lavet forslag til en forbedring af arbejdsfordelingsordningerne. Det giver nogle muligheder for at få tingene til at glide. Så er der jo også en slags tilståelsessag i det, nemlig at forslaget forhøjer dagpengesatsen i perioden. Dagpengenes størrelse er ikke mere tilstrækkelig sikkerhed for et forsørgelsesgrundlag, så det er vigtigt, at vi her får en indikation af, at det forholder sig sådan. Det er fornemt, at aftalen også omfatter funktionærerne. Der er ingen tvivl om, at det har været en balanceakt, og på et enkelt punkt er balancen gået lidt i stykker. Det er sådan, at man i funktionærloven har nogle ansættelsessikkerhedsforhold, og der er altså kommet en formulering med i lovforslaget, som ikke er i aftalen, nemlig at de ansatte automatisk skal opfatte sig som fyret, hvis de har sagt nej tak til ordningen. Det berøver jo – om jeg så må sige – den ansatte muligheden for at argumentere for, hvorvidt den pågældende fyring er saglig. En fyring må aldrig nogen sinde blive en automatik, og derfor er det vigtigt, at det udgår, og hvis jeg skal være præcis, er det § 2, stk. 3, sidste linje, for det er at åbne en ladeport i forhold til en underminering af funktionærloven. Det kan vi altså ikke rigtig have. Undskyld, hvis det her bliver lidt rodet, men det er jo altså betingelserne med den måde, som hastelovgivning foregår på. Hvis jeg skal forholde mig til L 213, som jo her sambehandles med L 212, vil jeg sige, at der er et par uklarheder. Men jeg hilser meget velkommen, at det ikke vil være muligt at ansætte nye personer i virksomhedspraktik, løntilskudsjob eller lignende, hvis man har fået etableret sådan en arbejdsfordeling. Så er der nogle ting, der undrer. Med hensyn til forbruget af dagpenge er det jo sådan, at referenceperioden kun løber til den 31. december. Det er jo lidt mærkeligt, når ordningen kan løbe frem til den 1. april, så der er et eller andet der, der halter. Hele perioden, hvor der er mulighed for at forbruge, burde jo gælde frem til den 30. april. Så har jeg en undren over, at ungesatsen ikke har været nævnt. Jeg forstår det sådan, at de unge under 25 år, der bliver en del af en arbejdsfordeling, selvfølgelig også får den forhøjede dagpengesats. Men der er i hvert fald en usikkerhed og uklarhed omkring, hvordan ungesatsen bliver påvirket af det her. Det har jeg tænkt mig at stille spørgsmål om, undskyld til ministeriet, for det skal jo være i dag. Så vil jeg sige, at vi er rigtig optaget af de ekstra muligheder for uddannelse, der er skitseret i aftalen, hvor man kan gå på uddannelse i stedet for at gå hjem på sofaen, mens man er del af en arbejdsfordeling. Jeg ville gerne se, hvad det er for nogle incitamenter, der er i det her forslag til at iværksætte de her uddannelser. Det kræver jo et samspil mellem uddannelsesinstitutionerne, arbejdsgiverne og lønmodtagerne, og jeg kan ikke rigtig se, at der ligesom er taget højde for det incitament, der bør være, for at det kommer til at ske. Jeg vil i hvert fald gerne se en opgørelse over, hvor meget det har været brugt, når ordningen udløber, fordi det også kan give en indikation af, hvor opmærksomme arbejdsgiverne er på uddannelsesmulighederne. Så er det med åbne øjne, at vi går ind i det, at man får mulighed for at få en lille genvej til en a-kasseforsikring. Det er mit håb, at de mennesker, der får den mulighed, bliver opmærksomme på og rigtig klare over, at de altså skal være oppe på dupperne, for det her er en unormal situation, men den kan blive normal, og at det nok en meget god måde at være forsikret på. Til allersidst vil jeg sige, at hele det her system vil blive særdeles bøvlet at administrere for a-kasserne, og at det ikke skal væltes over på a-kassemedlemmerne i øvrigt. Det gælder både det med de ekstraordinære medlemskaber og vurderingen af, i hvor mange omgange arbejdsfordelingen har fungeret. Der er også det med, at arbejdsgiverne laver 4-ugersperioder i deres arbejdsfordeling, men at det er månedsvis, man kigger på det. Alle de ting bliver enormt bøvlede for a-kasserne, og jeg håber virkelig, at de er opmærksomhed på det, og at der kommer en god aftale med AK-Samvirket eller noget andet for at sikre, at det ikke bliver fuldstændig uadministrerbart.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907103816" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907103816-53">Tak til Enhedslistens ordfører. Den næste ordfører kommer fra Det Konservative Folkeparti, og det er hr. Naser Khader. Velkommen.</seg>
+                </u>
+                <u who="KhaderNaser_KF" xml:id="ParlaMint-DK_20200907103827" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907103827-54">Tak. I dag sambehandler vi L 212 og L 213, som begge udmønter en række elementer fra trepartsaftalen om en ny midlertidig arbejdsfordelingsordning på det private arbejdsmarked, som regeringen og arbejdsmarkedets parter har indgået den 31. august 2020. Den danske model har en stolt tradition, som vi skal værne om. Derfor støtter vi den del. Derudover indeholder L 213 en udmøntning af de ændringer, der blev foretaget i aftale om bedre vilkår til særligt hårdt ramte dele af dansk erhvervsliv, idrætsliv og kulturliv, som et bredt flertal i Folketinget er blevet enige om. Det sikrer, at selvstændige får lettere adgang til dagpenge som følge af covid-19. Det er konservativt hjerteblod at tage hånd om det private erhvervsliv, hvorfor vi selvfølgelig også kan støtte den del af aftalen. Det Konservative Folkeparti støtter lovforslaget.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907103930" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907103930-55">Tak til ordføreren. Der er ønske om en kort bemærkning til ordføreren, og den er fra hr. Ole Birk Olesen, Liberal Alliance. Værsgo.</seg>
+                </u>
+                <u who="OlesenOleBirk_LA" xml:id="ParlaMint-DK_20200907103936" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907103936-56">Ja, det er til hr. Naser Khaders tale om, at det ligesom skulle være en del af den danske model, at hvis regeringen, som ikke har ret til at bevilge penge, og arbejdsmarkedets parter, som selvfølgelig heller ikke har ret til at bevilge penge fra statskassen, laver en aftale, så skal vi her i Folketinget, som er det organ, der bevilger pengene, bare sætte stemplet ned og sige: Det er i orden, I har besluttet, at I gerne vil bruge nogle penge, så det gør vi bare, fordi det er den danske model. Er det virkelig Det Konservative Folkepartis opfattelse, at Folketinget på den måde skal agere gummistempel med skatteborgernes penge, når andre uden for Folketinget synes, at de vil have nogle penge?</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907104018" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907104018-57">Ordføreren.</seg>
+                </u>
+                <u who="KhaderNaser_KF" xml:id="ParlaMint-DK_20200907104019" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907104019-58">Nej, men sådan er det jo ikke generelt. Vi står i en unik situation, og så har arbejdsgiverne og regeringen indgået en aftale, en trepartsaftale. Jeg lytter til arbejdsgiverne, og de er meget tilfredse med den aftale. For det vil skabe flere jobs, og det støtter vi selvfølgelig.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907104037" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907104037-59">Hr. Ole Birk Olesen.</seg>
+                </u>
+                <u who="OlesenOleBirk_LA" xml:id="ParlaMint-DK_20200907104039" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907104039-60">Nej, det vil absolut ikke skabe flere jobs at øge dagpengene med 20 pct. Hvis det var tilfældet, kunne vi jo gøre det i alle mulige sammenhænge og få jobs ud af det. Men det er ikke rigtigt. Det koster 330 mio. kr. for det offentlige med den her ordning, som Det Konservative Folkeparti nu siger ja til, og det forstår jeg er, fordi nogle gerne vil have de penge. Fordi nogle af arbejdsmarkedets parter og fordi regeringen, som er en socialdemokratisk regering, der gerne vil dele ud af andre folks penge, vil det, så er det bare, at Folketinget er gummistempel for den uddeling af penge. Og det er De Konservatives syn på, hvad den danske model er.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907104111" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907104111-61">Værsgo.</seg>
+                </u>
+                <u who="KhaderNaser_KF" xml:id="ParlaMint-DK_20200907104112" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907104112-62">Isoleret set er vi ikke tilhængere af, at man øger dagpengebeløbet. Men vi står altså i en unik situation, hvor der er behov for nogle særlige initiativer, og derfor bakker vi op om det.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907104124" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907104124-63">Tak til ordføreren. Der er ikke flere korte bemærkninger til ordføreren. Den næste ordfører er fra Liberal Alliance, og det er hr. Ole Birk Olesen. Velkommen.</seg>
+                </u>
+                <u who="OlesenOleBirk_LA" xml:id="ParlaMint-DK_20200907104141" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907104141-64">Tak. Vi har her med to lovforslag at gøre, som vil øge dagpengenes kompensationsgrad i en særlig arbejdsfordelingsordning i lyset af coronakrisen. Den skal øges med 20 pct., altså 20 pct. højere maksimal dagpengesats i Danmark for folk, der benytter sig af den her ordning. Det er der nogle virksomheder som gerne vil benytte sig af – det er altid rart at få adgang til andre folks penge – og det er der nogle lønmodtagere som gerne vil benytte sig af. Igen, det er altid rart at få adgang til andres folks penge. Så har vi regeringen, der lægger et lovforslag frem, hvori der står – og jeg anerkender, at det har karakter af et hastelovforslag, men alligevel – at ordningen ingen økonomiske konsekvenser har for det offentlige, ingen økonomiske konsekvenser, og samtidig var fru Jette Gottlieb så venlig at række mig et notat, som er udarbejdet af ministeriet, hvor der står, at det koster 330 mio. kr. for det offentlige, at man nu gennemfører det her. Altså, i lovforslaget står der, at det ingenting koster, og i notatet står der, at det koster 330 mio. kr. for det offentlige med den her ordning. Enten er der en eller anden teknisk forklaring på, at begge dele kan være sande på samme tid, og den forklaring kan man måske acceptere, hvis man er tekniker, men for de fleste mennesker må det, at der står i lovforslaget, at det ingen økonomiske konsekvenser har for det offentlige, være usandt, hvis det andet notat, som viser, at det koster 330 mio. kr. for det offentlige, er sandt. Vi kan ikke stemme for de to lovforslag. Vi synes ikke, at Danmark er i en situation, hvor vi har råd til at øge dagpengene. Vi skal tværtimod begynde at tænke på, hvordan vi får flere mennesker i beskæftigelse, hvordan vi, hvis en branche skærer ned, måske over en længere periode, øger motivationen til, at folk så har lyst til at finde ud af, hvordan de kommer over i andre brancher, i stedet for at vi forsinker den der proces med forskellige lønkompensationsordninger og arbejdsfordelingsordninger osv., sådan at der ikke sker en udvikling på arbejdsmarkedet, hvor folk søger derhen, hvor der er behov for dem. Det er jo faktisk det, der får vores samfund til at være et vellykket samfund, og vores økonomi til at være en vellykket økonomi, altså at der er den fleksibilitet, at der, når der er nedgang i nogle brancher, så er en lyst og en motivation til for de lønmodtagere, der er der, at søge hen i andre brancher, hvor man så til gengæld kan nyde gavn af den ekstra arbejdskraft, som kommer til rådighed. Så vi mener, at det her går i den stik modsatte retning, og vi forstår ikke, at vores borgerlige venner i især Venstre og Konservative bakker op om det her. En ting er at klage over, at regeringen ikke gør noget for at skabe vækst og beskæftigelse her i landet – det er vi helt enige i – men ligefrem igen og igen at stemme for regeringens forslag, der går den modsatte vej, som f.eks. det her, er vi helt uforstående over for. Så vi stemmer imod lovforslagene.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907104455" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907104455-65">Tak til ordføreren. Der er ønske om en kort bemærkning, og det er fra hr. Bent Bøgsted, Dansk Folkeparti. Værsgo.</seg>
+                </u>
+                <u who="BøgstedBent_DF" xml:id="ParlaMint-DK_20200907104500" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907104500-66">Tak. Nu er hr. Ole Birk Olesen så venlig at stille spørgsmål til mig om den økonomi der. Jeg skal bare lige høre: Når man ser på lovforslag nr. L 212 om indførelse af arbejdsfordeling, står der, at der ingen økonomiske konsekvenser er, men tager man så lovforslag nr. L 213, hvor man hæver beløbet til 23.000 kr., står der, at der er økonomiske konsekvenser for staten, kommunerne og regionerne i 2020 på 144 mio. kr., og så falder det til 38,4  mio. kr., 9,5 mio. kr. og 10,5 mio. kr. Så der ser man omfanget af de økonomiske konsekvenser for staten og kommunerne der. Så der er det jo er skrevet ind, at der er økonomiske konsekvenser her i L 213, men ikke i L 212, for L 212 er bare om en ret til at indføre jobfordeling. Men det er i L 213, at de økonomiske konsekvenser er skrevet ind, som jeg læser det.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907104612" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907104612-67">Ordføreren.</seg>
+                </u>
+                <u who="OlesenOleBirk_LA" xml:id="ParlaMint-DK_20200907104613" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907104613-68">Ja, og det var også det, jeg læste i første omgang, da jeg kiggede lovforslaget igennem. Så fik jeg adgang til det her notat, der hedder Økonomioversigt over ny midlertidig arbejdsfordeling , og så står der: De offentlige merudgifter i forbindelse med en ny midlertidig arbejdsfordeling opgjort efter skat, tilbageløb og adfærd udgør med betydelig usikkerhed samlet 330 mio. kr. over perioden 2020-2023. Så det er jo bare et mysterium, hvordan lovforslaget kan påstå, at det ikke har nogen økonomiske konsekvenser, og notatet kan sige, at det kommer til at koste 330 mio. kr.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907104651" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907104651-69">Hr. Bent Bøgsted.</seg>
+                </u>
+                <u who="BøgstedBent_DF" xml:id="ParlaMint-DK_20200907104652" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907104652-70">Nå men så har jeg bare et spørgsmål sådan om forståelsen: Matcher det ikke godt nok med, at der så i lovforslag nr. L 213 står, at der  er Det er igen det der med, at der er to søjler der, men det er jo listet op, at der er økonomiske konsekvenser for både kommunerne og fra staten, når man ser på oversigten. Matcher det ikke godt nok med det notat, som hr. Ole Birk Olesen har fået? Det kan godt være, at tallene ikke lige er helt de samme, men det er igen et spørgsmål om, hvordan man lægger de tal, der står i lovforslaget her, sammen. Det er bare for at forstå, om ikke regeringen  har</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907104744" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907104744-71">Hr. Ole Birk Olesen.</seg>
+                </u>
+                <u who="OlesenOleBirk_LA" xml:id="ParlaMint-DK_20200907104745" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907104745-72">Det ser ikke sådan ud, for det første er de tal, som hr. Bent Bøgsted nævner fra L 213, noget lavere end de tal, som står i det her notat, Økonomioversigt for en ny midlertidig arbejdsfordeling. De tal, der er med der, er, at i 2020 er der en omkostning 255 mio. kr., i 2021 55 mio. kr., så 5 mio. kr. og så 15 mio. kr. Når man så går ind og kigger i lovforslag nr. L 212, påstås det, at der slet ikke er nogen økonomiske konsekvenser. Det er jo besynderligt, at man udvider muligheden for at komme på dagpenge til flere mennesker og man forhøjer dagpengene for disse mennesker, og så påstår man samtidig, at ingen skal betale en regning for det. Det ville da være fint. Har man endelig fundet et pengetræet? Står det nede i Beskæftigelsesministeriets gård?</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907104833" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907104833-73">Den næste korte bemærkning er fra hr. Leif Lahn Jensen, Socialdemokratiet. Værsgo.</seg>
+                </u>
+                <u who="JensenLeifLahn_S" xml:id="ParlaMint-DK_20200907104837" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907104837-74">Man skal jo være flink over for hinanden i den her tid, og nu vil jeg gerne være flink over for ordføreren fra Liberal Alliance. Jeg vil prøve at skære det ud i pap: Det her er to lovforslag. I det ene lovforslag står der ikke noget om økonomien i det, men det gør der i det andet forslag. Så når man skal sambehandle, er det en kæmpestor fordel at læse begge lovforslag. Hr. Bent Bøgsted prøvede jo at forklare, at der i det sidste lovforslag, L 213, står om de økonomiske konsekvenser. Nu ryster hr. Ole Birk Olesen på hovedet. Hvis hr. Ole Birk Olesen påstår, at det ikke står der, synes jeg lige, at ordføreren skal sætte sig til at læse det og så indrømme, at det rent faktisk står der. Så kan man være uenig i, at det er det, vi skal gøre, men det står i lovforslag nr. L 213.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907104922" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907104922-75">Ordføreren.</seg>
+                </u>
+                <u who="OlesenOleBirk_LA" xml:id="ParlaMint-DK_20200907104924" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907104924-76">Men sådan fungerer det ikke. Når man laver et lovforslag, L 212, og i det lovforslag og i bemærkningerne til lovforslaget redegør for forskellige ting og sager og der skriver – som man nu gør som standard, altså skriver, hvad de økonomiske konsekvenser af det her er for det offentlige og for erhvervslivet – at der ikke er nogen økonomiske konsekvenser, så er det ikke sådan, at man så kan henvise til, at det står i et andet lovforslag, som tilfældigvis sambehandles med det første lovforslag i Folketingssalen. I øvrigt matcher tallene jo heller ikke fra L 213 til det notat, som står om konsekvenserne for ny arbejdsdeling.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907105000" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907105000-77">Hr. Leif Lahn Jensen.</seg>
+                </u>
+                <u who="JensenLeifLahn_S" xml:id="ParlaMint-DK_20200907105001" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907105001-78">Igen vil jeg sige, at det, der koster her for arbejdsdagene, er G-dagene, og det er forhøjelsen på 20 pct. i dagpenge, og det kan man læse i lovforslag nr. L 213. Jeg må bare med al tydelighed sige, at ordføreren så lige har glemt at læse begge lovforslag, inden man udtaler sig, og det er fair nok, da partiet ikke er stort. Det var egentlig bare for at hjælpe ordføreren, for det står præcis, som det skal.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907105024" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907105024-79">Hr. Ole Birk Olesen.</seg>
+                </u>
+                <u who="OlesenOleBirk_LA" xml:id="ParlaMint-DK_20200907105026" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907105026-80">Det er ikke korrekt, for hvis der er omkostninger for 330 mio. kr. som følge af en ny arbejdsdeling, skal det også stå i lovforslaget om ny arbejdsdeling. Det er klart. Sambehandling af to lovforslag i Folketingssalen gør ikke, at man ikke skal skrive oplysningerne i hvert lovforslag, for det skal man. Det er jo helt forkert at skrive, at L 212 ikke medfører nogen økonomiske konsekvenser, når der  er</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907105054" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907105054-81">Tak til ordføreren. Der er ikke flere korte bemærkninger til ordføreren. Således har alle ordførere, der ønskede ordet, givet deres mening til kende, og hermed er det beskæftigelsesministeren. Velkommen.</seg>
+                </u>
+                <u who="HummelgaardPeter_Beskæftigelsesministeren_S" xml:id="ParlaMint-DK_20200907105112" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907105112-82">Tak for det. Jeg vil gerne starte med at takke for behandlingen og takke de mange partier, der har bakket op om lovforslagene, som vi behandler i dag. Vi er, som I jo alle sammen også har bemærket, igen samlet for at hastebehandle lovforslag, der tager hånd om konsekvenserne af coronakrisen. Igen handler det om at udmønte en vigtig trepartsaftale, hvor arbejdsmarkedets parter har taget medansvar, og det håber jeg at Folketinget vil bakke op. Også den her gang er der meget på spil. Det handler nemlig om at undgå fyringer på de danske arbejdspladser. Lønkompensationsordningen er efter flere forlængelser nu udfaset. Det sker efter en anbefaling fra den økonomiske ekspertgruppe. Lønkompensationsordningen har været en vigtig og nyskabende kriseordning. 275.000 lønmodtagere har været hjemsendt med lønkompensation, og det har reddet rigtig mange arbejdspladser. Heldigvis er langt de fleste tilbage på deres arbejde igen, og det har givet stor tryghed i mange familier det seneste halve år. Ekspertgruppen anbefalede også, at lønkompensationsordningen erstattes af en ny og justeret arbejdsfordelingsordning. Regeringen har lyttet til ekspertgruppen. Vi har forhandlet med arbejdsmarkedets parter, og natten til den 31. august lykkedes det at lande en trepartsaftale, der styrker muligheden for arbejdsfordeling. Den nye midlertidige arbejdsfordelingsordning gør det lettere for virksomheder at etablere en arbejdsfordeling. Til gengæld får medarbejderne højere dagpengesats de dage, hvor de ikke er på arbejde. Det er en hårfin balance mellem fleksibilitet for virksomhederne og tryghed for lønmodtagerne, og den var svær at lande. Jeg synes, det er lykkedes for os at finde en god balance og erstatning for lønkompensationsordningen, der kan mindske antallet af fyringer året ud og ind i 2021. Lovforslagene her udmønter også forslaget om at give ikkeforsikrede selvstændige, som har været på midlertidige kompensationsordninger, lettere adgang til at få dagpenge, og det forlænger den eksisterende ordning om, at selvstændige i tvangslukkede brancher kan ophøre midlertidigt og få ret til dagpenge. Begge ændringer stammer fra aftalen om bedre vilkår til særlig hårdt ramte dele af dansk erhvervs-, idræts- og kulturliv og holder hånden under selvstændige og freelancere, som har været på kompensationsordningerne. Under debatten her er der selvfølgelig også rejst et par spørgsmål. Hr. Bent Bøgsted fra Dansk Folkeparti rejste i forbindelse med sin ordførertale fire spørgsmål. De første to om, hvorvidt man med den her ordning kan gøre brug af den nye arbejdsfordelingsordning, hvis man lige er trådt ud af den gamle, eller man har mulighed for så at sige at forlænge eller træde over i den nye, hvis man er i gang med en nuværende arbejdsfordelingsordning – til begge spørgsmål er svaret ja. Det tredje spørgsmål gik på, at jamen gælder det her kun for virksomheder, som har overenskomstdækning. Det er måske også til dels et svar til hr. Ole Birk Olesen og til hele polemikken før om lovforslag 212 og 213. Det, som lovforslag 212 gør, og der, hvor det også var et, tør jeg roligt sige, kontroversielt element under forhandlingerne, er, at det giver arbejdsgiveren en ensidig lovhjemlet midlertidig ret til at iværksætte arbejdsfordeling, og det er det, som lovforslag 212 går ud på. Som det er i dag, bliver arbejdsfordelingerne aftalt gennem overenskomsterne. Med den her trepartsaftale så tilsidesætter vi i en midlertidig periode overenskomsternes aftale om arbejdsfordelinger og behandler i dag et lovforslag, som giver en lovhjemlet ret for virksomheden til ensidigt at iværksætte en arbejdsfordeling. Jeg tror, at ordførerne fra forskellige partier sikkert kan regne ud, hvorfor det har været et kontroversielt element. Det sidste spørgsmål, som hr. Bent Bøgsted rejser, er, om der allerede nu er lagt op til at forlænge den her midlertidige arbejdsfordelingsordning ind i 2021. Det er der på nuværende tidspunkt ikke taget stilling til, men det er en del af aftalen, at aftaleparterne fra treparten i begyndelsen af november skal træde sammen igen og se på, hvad det er for en situation, vi står i. Bliver det her overhovedet brugt? Er det det rigtige redskab til at forhindre afskedigelser af nøglemedarbejdere m.v. ude på virksomhederne, som måske oplever en ordrenedgang som følge af faldende efterspørgsel fra landene omkring os, der er hårdt ramt af coronakrisen? Det tror jeg var nogle af de spørgsmål, der blev rejst. Der var selvfølgelig også en del debat. Hr. Ole Birk Olesen fra Liberal Alliance rejste spørgsmålet om finansieringen. Hvis man slår op i lovforslaget, altså 213, på side 21, kan man se – det starter faktisk allerede på side 16 og17 – hvad de økonomiske konsekvenser er. Og der er både konsekvenser for det offentlige såvel som for erhvervslivet. Det kan måske være noget af det, der driller i de beløb. For samlet set er der jo en sum af økonomiske konsekvenser for det offentlige. Noget af det bliver så fratrukket, altså det at arbejdsgiverne selv bidrager ind i ordningen ved at betale med G-dage under en iværksat arbejdsfordeling. Alt i alt bidrager arbejdsgiverne i 2020 med 186,5 mio. kr. I 2021 forventes det at være 40,7 mio. kr. Det tror jeg var nogle af de spørgsmål, der i første omgang blev rejst under debatten. Så var der selvfølgelig hr. Hans Andersen fra Venstre og også fru Samira Nawa fra Radikale, der rejste spørgsmålet om, om det måske havde været bedre, hvis det havde været en glidende overgang fra lønkompensationens afslutning den 29. august, altså hvis der allerede da havde ligget noget parat. Det tror jeg alle er enige om. Jeg havde gerne set, at trepartsaftalen var faldet på plads tidligere. Sådan gik det ikke. Derfor er jeg meget glad for, at vi kan hastebehandle lovforslagene her i Folketinget allerede i løbet af den her uge. Men det dækker jo selvfølgelig også over, at det for begge parter har været nogle meget vidtgående og principielle diskussioner, der har været i spil, i forhold til elementerne i den her arbejdsfordeling. Derfor vil jeg selvfølgelig i det lys jo gerne takke Folketingets partier for, at vi kan hastebehandle de her forslag. For virksomhederne tripper efter at komme i gang med at bruge ordningen, så de kan undgå at fyre deres medarbejdere. Jeg ser frem til den videre behandling, og endnu en gang tak til partierne, fordi I igen trækker i arbejdstøjet og tager ansvar og er med til at hastebehandle lovforslag, der udmønter en helt central trepartsaftale. Tak for ordet.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907105754" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907105754-83">Tak til ministeren. Der er ønske om et par korte bemærkninger, og først er det fra hr. Ole Birk Olesen, Liberal Alliance. Værsgo.</seg>
+                </u>
+                <u who="OlesenOleBirk_LA" xml:id="ParlaMint-DK_20200907105759" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907105759-84">Jeg forstår ministerens argumentation sådan, at i det ene lovforslag mener ministeren at man ligesom laver dagpengereformen om. I det andet lovforslag giver man så muligheden for at udnytte disse nye og mere lukrative dagpengeregler, og så påstår man, at det, at man giver den mulighed for at udnytte de mere lukrative dagpengeregler, ikke udgør en omkostning i sig selv. Det har jeg svært ved at se. Det må jeg sige. Men det, jeg egentlig ville spørge ministeren om, og som vi har hørt fra flere, handler om, at der ligesom skulle være en dansk model: Hvis arbejdsmarkedets parter er enige om, at de gerne vil have nogle penge, og så får overtalt regeringen til, at det skal de have, er den danske model, at så kommer bevillingen helt automatisk fra Folketinget – altså der, hvor man faktisk bevilger pengene, nemlig i Folketinget, tager man bare til efterretning, at der er nogen, der gerne vil have nogle penge, og så giver man dem. Det er den danske model. Er ministeren enig i, at det er den danske model?</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907105857" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907105857-85">Ministeren.</seg>
+                </u>
+                <u who="HummelgaardPeter_Beskæftigelsesministeren_S" xml:id="ParlaMint-DK_20200907105858" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907105858-86">Altså, jeg tror ikke, det står noget sted, at Folketinget pr. automatik skal bakke op om de trepartsaftaler, der indgås. Det er der heldigvis en tradition for, bl.a. fordi trepartsaftalerne ofte afspejler, at alle parter har leveret noget til    aftalerne, og det har man jo også i den her midlertidige, kortvarige forbedrede arbejdsfordelingsordning. Det er rigtigt, at staten, som hr. Ole Birk Olesen siger, bidrager med noget økonomi til det, det samme gør arbejdsgiverne, og det, som lønmodtagerne bidrager med, er i virkeligheden at acceptere, at de i modsætning til i dag ikke kan gøre indsigelse i forhold til en iværksat arbejdsfordelingsordning, herunder jo også diskussion om, hvordan det stiller funktionærer med funktionærrettigheder osv. Så alle har faktisk bedraget til at tilvejebringe muligheden for, at man kan sætte medarbejdere ned i tid for på den vis at undgå fyringer.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907105953" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907105953-87">Hr. Ole Birk Olesen.</seg>
+                </u>
+                <u who="OlesenOleBirk_LA" xml:id="ParlaMint-DK_20200907105955" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907105955-88">Jamen det der med, at der ligesom skulle være en accept i Folketinget af resultater af trepartsaftaler, forudsætter jo, at den regering, der forhandler, ligesom har afsøgt forinden eller har regnet ud, at der vil være en opbakning fra Folketinget til regeringens position i de trepartsforhandlinger, og det vil sige fra de partier, der i den her proces ikke ligesom mener, at det, som regeringen forhandler, er deres holdning. Altså, regeringen forhandler ikke på vegne af dem, og hvis der var et flertal i Folketinget, der ikke syntes, at regeringen forhandlede på vegne af dem, så ville dette flertal ikke have nogen pligt til i henhold til en eller anden model, som man benævner dansk, at stemme for det, for regeringen ville jo have forhandlet med skatteydernes penge uden et reelt mandat fra Folketinget. Og derfor synes jeg bare, man skal slå fast, at det ikke er sådan, at partier er forpligtet til at stemme for det, der kommer ud af trepartsforhandlinger. Det er Folketinget, der er over trepartsforhandlingerne. Folketinget er over, og regeringen er under, og det samme er arbejdsmarkedets parter.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907110107" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907110107-89">Ministeren.</seg>
+                </u>
+                <u who="HummelgaardPeter_Beskæftigelsesministeren_S" xml:id="ParlaMint-DK_20200907110108" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907110108-90">Jamen altså, det er jo helt åbenlyst, hvad hr. Ole Birk Olesen siger. Det står ikke grundlovsfæstet noget sted, at alle partier er forpligtet til at bakke op om de trepartsaftaler, der bliver indgået. Det er også derfor, at regeringen ydmygt kommer til Folketinget og beder om opbakning. Men når det er sagt, så synes jeg grundlæggende, at det er et redskab, som er med til at sikre nogle meget, meget gode balancer på det danske arbejdsmarked; det er både set gennem de briller, der er oppositionens, hvor en anden regering af en anden observans, herunder en, som Ole Birk Olesen deltog i, har indgået trepartsaftaler, og som det at være en del af en regering, der har indgået trepartsaftaler. Derfor vil min tilgang som socialdemokrat, såvel i regering som i opposition, i hvert fald ofte være den at se velvilligt på de trepartsaftaler, der bliver indgået, uanset hvem der er aftalepart på regeringens side.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907110203" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907110203-91">Den næste korte bemærkning er fra fru Jette Gottlieb, Enhedslisten. Værsgo.</seg>
+                </u>
+                <u who="GottliebJette_EL" xml:id="ParlaMint-DK_20200907110207" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907110207-92">Jeg vil spørge om det med forlængelsen, altså om svaret til hr. Bent Bøgsted, nemlig om man kunne tænke sig, at ordningen bliver yderligere forlænget, når der havde været den her opsummering i begyndelsen af november. Jeg vil spørge til den bemyndigelse, der ligger i lovforslaget, altså i L 212, for der ligger ikke nogen bemyndigelse i L 213, gudskelov, som er ret vidtgående: Betyder det, at ministeren som følge af nogle forhandlinger med parterne kan beslutte, at vi forlænger ordningen? Skal bemyndigelsen forstås så vidtgående?</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907110243" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907110243-93">Ministeren.</seg>
+                </u>
+                <u who="HummelgaardPeter_Beskæftigelsesministeren_S" xml:id="ParlaMint-DK_20200907110244" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907110244-94">Med fare for, at jeg lige er nødt til at vende tilbage med et skriftligt svar, husker jeg umiddelbart lovforslaget på den måde, at ordningen løber frem til den 31. december, og at der er mulighed for at iværksætte arbejdsfordelinger helt frem til og med den 31. december, og at de kan løbe i 4 måneder. Det vil sige, at man reelt set kan have arbejdsfordelinger, der løber 4 måneder ind i 2021. Men skulle arbejdsmarkedets parter sammen med regeringen på det tidspunkt i begyndelsen af november, hvor vi skal mødes, finde anledning til at aftale med hinanden, at der er behov for en yderligere forlængelse, vil regeringen jo komme tilbage til Folketinget og bede om opbakning til en sådan forlængelse.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907110322" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907110322-95">Fru Jette Gottlieb.</seg>
+                </u>
+                <u who="GottliebJette_EL" xml:id="ParlaMint-DK_20200907110324" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907110324-96">Det forstår jeg så som en afgrænsning af bemyndigelsen, at den altså ikke bare omfatter en mulig forlængelse. Men der er også andre punkter, f.eks. at særlige grupper af lønmodtagere kan friholdes, og at man kan friholde særlige nøglemedarbejdere – og så kender jeg godt til virksomheder, hvor man friholder 17 nøglemedarbejdere og lader 3 gå på arbejdsfordeling, for dem vil man gerne af med. Er det også inden for ministerens bemyndigelsesområde at beslutte at godkende sådanne dispositioner, eller er det henvist til en fagretlig behandling?</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907110355" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907110355-97">Ministeren.</seg>
+                </u>
+                <u who="HummelgaardPeter_Beskæftigelsesministeren_S" xml:id="ParlaMint-DK_20200907110356" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907110356-98">De diskussioner, der måtte opstå i et grænsetilfælde, hvor en medarbejder, som selv mener, at vedkommende af den ene eller den anden årsag har en særlig beskyttet status, uretmæssigt mener at være sat på arbejdsfordeling, vil blive henvist til det fagretlige system. Det er parterne i øvrigt enige om, altså at det fagretlige system skal fungere også i forbindelse med den her midlertidige arbejdsfordelingsordning. Hele den arbejdsfordelingsordning, der er aftalt, afspejler i virkeligheden også det større og større ønske, der var fra især arbejdsgiversiden i slutningen af lønkompensationsordningen, hvor man kunne se, at der var begyndt at være mere at bestille på arbejdspladsen, men hvor lønkompensationsordningen var indrettet til en situation, hvor meget af produktionen og meget af aktiviteten var lukket ned. Derfor giver det her mulighed for en større fleksibilitet, i forhold til hvor meget man bruger den og hvordan man bruger den.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907110457" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907110457-99">Den næste korte bemærkning er til hr. Bent Bøgsted, Dansk Folkeparti. Værsgo.</seg>
+                </u>
+                <u who="BøgstedBent_DF" xml:id="ParlaMint-DK_20200907110500" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907110500-100">Tak. Det er bare, fordi jeg ikke synes, at hr. Ole Birk Olesen skal være helt ked af det, når han går ud af salen her i dag. Jeg vil bare gerne lige have bekræftet, at når parterne laver en trepartsaftale med regeringen, så er det korrekt, at så fremsætter regeringen forslagene i Folketingssalen, og hvis der er et flertal imod dem, kan de ikke blive vedtaget. Det er sådan en hjælp til hr. Ole Birk Olesen, så han kan gå lidt smilende herfra. Han har ret i det, han siger.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907110536" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907110536-101">Ministeren.</seg>
+                </u>
+                <u who="HummelgaardPeter_Beskæftigelsesministeren_S" xml:id="ParlaMint-DK_20200907110537" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907110537-102">Tak for det, hr. Bent Bøgsted. Jeg tror også, det var det, jeg prøvede at sige til hr. Ole Birk Olesen før, men jeg redegjorde selvfølgelig også for, hvad der historisk har været mit partis tilgang til trepartsaftaler, der er blevet lavet. Det er jo ikke alle trepartsaftaler gennem historien, hvor vi syntes, at vores prioriteter var afspejlet på lige præcis den måde, vi gerne så det. Men når både lønmodtagere og arbejdsgivere sammen med en regering forsøger at finde nogle fornuftige balancer og vi i øvrigt kan se os selv i det, så bakker vi i hvert fald gerne op om det. Og det kan jeg jo se der i øvrigt også er en stærk historik for alle partierne imellem. Men det er klart, at der ikke står noget sted, at man skal.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907110619" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907110619-103">Den næste korte bemærkning er til hr. Karsten Hønge, SF. Værsgo.</seg>
+                </u>
+                <u who="HøngeKarsten_SF" xml:id="ParlaMint-DK_20200907110623" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907110623-104">Det er bare et enkelt spørgsmål som opfølgning på det, som fru Jette Gottlieb rejste i sin ordførertale, nemlig om dagpengesatsen på de 23.000 kr. også omfatter de unge, der ellers går på en ungesats.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907110633" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907110633-105">Ministeren.</seg>
+                </u>
+                <u who="HummelgaardPeter_Beskæftigelsesministeren_S" xml:id="ParlaMint-DK_20200907110635" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20200907110635-106">Det tror jeg at jeg er nødt til lige at vende tilbage om på skrift, for det kan jeg simpelt hen ikke huske på stående fod her på talerstolen.</seg>
+                </u>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907110643" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907110643-107">Tak til ministeren. Der er ikke flere, der har bedt om ordet, og dermed er forhandlingen sluttet. Jeg foreslår, at de to lovforslag henvises til Beskæftigelsesudvalget, og hvis ingen gør indsigelse, betragter jeg dette som vedtaget. Det er vedtaget.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Punkt 0</head>
+            <note type="agendaItem">2020-09-07-0</note>
+                <u who="EllemannKaren_Førstenæstformand_V" xml:id="ParlaMint-DK_20200907110659" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200907110659-108">Så er der ikke mere at foretage i dette møde. Folketingets næste møde afholdes i morgen, tirsdag den 8. september 2020, kl. 10.00. Jeg henviser til den dagsorden, der vil fremgå af Folketingets hjemmeside.</seg>
+                </u>
+            </div>
+        </body>
+    </text>
+</TEI>

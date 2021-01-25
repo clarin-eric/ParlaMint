@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="da" xml:id="ParlaMint-DK_20182_M2_2019-06-21" ana="#parla.sitting #reference">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">The Danish Parliamentary Corpus, ParlaMint-DK [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Hansard of the session of the Danish Parliament (Folketinget), 20182, M2 (2019-06-21), preliminary version</title>
+            <meeting ana="#parla.session">20182</meeting>
+            <meeting ana="#parla.sitting">M2</meeting>
+            <respStmt>
+               <persName>Bart Jongejan</persName>
+               <persName>Dorte Haltrup Hansen</persName>
+               <persName>Costanza Navarretta</persName>
+               <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">Department of Nordic Studies and Linguistics (NorS), University of Copenhagen</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>1.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="11" xml:lang="en">11 speeches</measure>
+            <measure unit="words" quantity="2342" xml:lang="en">2342 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URL">https://github.com/clarin-eric/ParlaMint</idno>
+            <pubPlace>
+               <ref target="https://github.com/clarin-eric/ParlaMint">https://github.com/clarin-eric/ParlaMint</ref>
+            </pubPlace>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>. </p>
+            </availability>
+            <date when="2021-01-31">2021-01-31</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="en">Hansards of the Danish Parliament</title>
+               <publisher>The Danish Parliament</publisher>
+               <idno type="URI">https://www.ft.dk/</idno>
+               <date when="2019-06-21">2019-06-21</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="7"/>
+               <tagUsage gi="head" occurs="7"/>
+               <tagUsage gi="note" occurs="7"/>
+               <tagUsage gi="u" occurs="11"/>
+               <tagUsage gi="seg" occurs="11"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Folketinget, Christiansborg</name>
+               <name type="city">1240 Copenhagen K</name>
+               <name type="country" key="DK">Denmark</name>
+               <date ana="#parla.sitting" when="2019-06-21">2019-06-21</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2020-12-18">
+            <name>Dorte Haltrup Hansen</name>Generated corpus in ParlaMint.</change>
+      </revisionDesc>
+   </teiHeader>
+    <text xml:lang="da" ana="#reference">
+        <body>
+            <div type="debateSection">
+            <head>Punkt 0</head>
+            <note type="agendaItem">2019-06-21-0</note>
+                <u who="HaarderBertel_Denmidlertidigeformand_V" xml:id="ParlaMint-DK_20190621130022" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20190621130022-1">Mødet er åbnet, og jeg beder medlemmerne finde deres pladser.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Eneste behandling af B 1: Om betænkning og indstilling om folketingsvalget den 5. juni 2019.</head>
+            <note type="agendaItem">2019-06-21-1</note>
+                <u who="HaarderBertel_Denmidlertidigeformand_V" xml:id="ParlaMint-DK_20190621130058" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20190621130058-2">Jeg vil give ordet til formanden for Udvalget til Prøvelse af Valgene, hr. Benny Engelbrecht. Værsgo.</seg>
+                </u>
+                <u who="EngelbrechtBenny_S" xml:id="ParlaMint-DK_20190621130124" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20190621130124-3">Tak, formand. Som formand for Udvalget til Prøvelse af Valgene kan jeg oplyse følgende om udvalgets arbejde, idet jeg samtidig skal henvise til den offentliggjorte betænkning og indstilling. Arbejdet har som sædvanlig vedrørt tre spørgsmål: For det første har det vedrørt spørgsmålet om gyldighed af valghandlingen, herunder valgets forberedelse, stemmeafgivelsen, optællingen af selve stemmesedlerne, vurderingen af dem samt valgbøgerne og disses førelse m.m. Herunder har udvalget taget stilling til en række klager over forskellige forhold vedrørende valget. For det andet har arbejdet vedrørt spørgsmålet om godkendelse af Økonomi- og Indenrigsministeriets opgørelser og beregninger. For det tredje har det vedrørt spørgsmålet om godkendelse af de kandidater, der har opnået valg. Om gyldigheden af valghandlingen kan jeg sige, at vi i udvalget har gennemgået Økonomi- og Indenrigsministeriets redegørelse, der bl.a. indeholder de bemærkninger, som gennemgangen af stemmesedler og valgbogsudskrifter har givet ministeriet anledning til. Vi har desuden modtaget og behandlet 33 valgklager gennem ministeriet og udtalt os om hver enkelt klage. Med hensyn til valghandlingen har ministeriets redegørelse vist, at der er sket væsentlig færre og mindre alvorlige fejl ved udformningen af stemmesedler ved dette valg end tidligere. Det kan man naturligvis kun glæde sig over. Ved folketingsvalget i 2015 var der en del fejl i stemmesedlerne, som førte til klager og kritiske bemærkninger fra udvalget, så det er godt, at man har fået strammet op på det. Ministeriets redegørelse viser også, at der i en lang række valgbøger fra afstemningsstederne er gjort bemærkninger om problemer med brevstemmer. En del af det handler om sammenblanding af brevstemmemateriale, som følge af at der har været et overlap i perioderne for brevstemmeafgivning til europaparlamentsvalget og folketingsvalget, og at brevstemmematerialet til de to typer af valg er næsten identisk. Det har også affødt forskellige valgklager. Vi må konstatere, at Økonomi- og Indenrigsministeriet har gjort en indsats for at vejlede kommunerne, men det har altså ikke kunnet forhindre al forvirring. Ministeriet har nu oplyst, at man ved senere produktion af brevstemmemateriale vil overveje nærmere, hvordan det skal se ud, for at mindske risikoen for forveksling. Ligesom ved sidste folketingsvalg har der været en del tilfælde, hvor vælgere har været utilfredse med at skulle oplyse deres fødselsdato, inden de kunne få udleveret en stemmeseddel. Det er ikke kun kvinderne! Det er et lovkrav, at man skal gøre det, og det tjener selvfølgelig et sikkerhedsmæssigt formål – men det er altså øjensynligt ikke alle vælgere, der er lige begejstrede for det. Det spørgsmål, der dog mere end nogen andre har optaget udvalget, har været de meget omtalte problemer med indsamling af vælgererklæringer, hvor der i hvert fald er to partier, der har fundet frem til en måde at omgå reglerne på, så de slipper for betænkningstid for deres stillere – og vel at mærke uden at man fra ministeriets side har ment, at man lovligt kunne sanktionere det, f.eks. ved at erklære vælgererklæringerne for ugyldige. Det er udvalget kommet med en kritisk kommentar til i forlængelse af en klage fra en vælger. Udvalget har bl.a. skrevet, at udvalget grundlæggende finder det meget utilfredsstillende, at det har vist sig muligt for partierne at omgå reglerne, uden at det har fået konkrete konsekvenser. Udvalget har samtidig med tilfredshed noteret sig, at der i marts måned i år er indgået en politisk aftale – mellem alle Folketingets partier på det tidspunkt – om at gøre noget ved problemet ved et indføre en ny procedure for indsamling af vælgererklæringer baseret på et offentligt portalsystem. Det ligger i den politiske aftale, at sådan en løsning skal sættes i drift hurtigst muligt, og at de relevante lovændringer skal fremsættes i folketingsåret 2019-20. Men ud over det har der været et udbredt ønske i udvalget om at få set på, om man også kan gøre noget på den kortere bane. Derfor har vi noteret os med tilfredshed, at Økonomi- og Indenrigsministeriet har givet udtryk for at være villige til at arbejde hurtigt for at nå frem til en midlertidig løsning på problemet, også inden en portalløsning kan være oppe at køre, naturligvis under forudsætning af at den kommende regering vil fremme sagen. Udvalget har givet udtryk for, at en sådan midlertidig løsning bør sikre, at vælgererklæringer, som er indsamlet i strid med reglerne, kan erklæres ugyldige. Om det, der i øvrigt har været klaget over ved valget, og om udvalgets bemærkninger til klagerne vil jeg henvise til betænkningen og til indstillingen. Vedrørende spørgsmålet om godkendelse af Økonomi- og Indenrigsministeriets opgørelse og beregninger har udvalget behandlet godkendelsen af disse, og de samlede opgørelser og beregninger har ikke givet anledning til bemærkninger fra udvalget. Hvad angår spørgsmålet om godkendelse af de valgte, har udvalget ikke været bekendt med forhold, som kan tænkes at føre til, at nogen af de valgte ikke er valgbare. Udvalget har herefter følgende indstillinger: Vedrørende valget i Danmark indstiller udvalget i enighed, at Folketinget godkender det den 5. juni 2019 afholdte valg af medlemmer til Folketinget, de af Økonomi- og Indenrigsministeriet den 18. juni 2019 fremsendte beregninger og opgørelse af dette valg og de på den omdelte særskilte fortegnelse opførte 175 kandidater som valgte fra og med den 5. juni 2019, dog således, at udvalget i medfør af forretningsordenens § 1, stk. 3, indstiller, at 1. stedfortræder for Enhedslisten i Østjyllands Storkreds, hr. Søren Egge Rasmussen, godkendes som valgt i stedet for hr. Nikolaj Villumsen, der har tilkendegivet, at han ikke ønsker at modtage mandatet. Vedrørende valget i Grønland indstiller et enigt udvalg, at Folketinget i henhold til forretningsordenens § 1, stk. 6, på grundlag af den af Rigsombudsmanden i Grønland fremsendte foreløbige opgørelse om folketingsvalget i Grønland den 5. juni 2019 godkender fru Aaja Chemnitz Larsen og fru Aki-Mathilda Høegh-Dam som valgte fra og med den 5. juni 2019. Vedrørende valget på Færøerne indstiller et enigt udvalg, at Folketinget godkender det på Færøerne den 5. juni 2019 afholdte valg af medlemmer til Folketinget, den af valgbestyrelsen foretagne opgørelse og beregning over dette valg og hr. Edmund Joensen og hr. Sjúrður Skaale som valgte fra og med den 5. juni 2019. Jeg skal derfor på udvalgets vegne over for Tinget anbefale udvalgets indstillinger. Tak for ordet.</seg>
+                </u>
+                <u who="HaarderBertel_Denmidlertidigeformand_V" xml:id="ParlaMint-DK_20190621130820" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20190621130820-4">Tak til formanden for Udvalget til Prøvelse af Valgene. Der foreligger, som vi har hørt, tre indstillinger – fra henholdsvis Danmark, Grønland og Færøerne – afgivet af et enigt udvalg, og indstillingen går ud på godkendelse af valgene. Derfor er det min hensigt ligesom ved tidligere valg, at afstemningen foregår under et om de tre indstillinger.</seg>
+                </u>
+                <u who="HaarderBertel_Denmidlertidigeformand_V" xml:id="ParlaMint-DK_20190621130837" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20190621130837-5">Der stemmes altså om udvalgets indstilling nr. 1-3 vedrørende valget i henholdsvis Danmark, Grønland og Færøerne, og der kan stemmes. Afstemningen er slut. For stemte 149 (S, V, DF, RV, SF, EL, KF, ALT, NB, LA, IA, SIU og SP), imod stemte 0, hverken for eller imod stemte 0. På grund af en teknisk fejl fik Stén Knuth (V) ikke afgivet sin stemme. Udvalgets indstilling er enstemmigt vedtaget. Herefter er alle mandaterne i det nyvalgte Folketing godkendt. Men inden vi nu går over til næste sag på dagsordenen, skal jeg udsætte mødet, sådan at de medlemmer, der ikke tidligere har været medlem, kan underskrive grundloven. Det skal de ifølge grundlovens § 32, stk. 7 – de skal nemlig afgive en højtidelig forsikring om at ville overholde grundloven. Og det foregår lige her nedenunder i Fællessalen, umiddelbart efter at jeg udsætter mødet. Jeg skal derfor udsætte mødet. Det genoptages kl. 14.00 her i salen.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Valg af formand.</head>
+            <note type="agendaItem">2019-06-21-2</note>
+                <u who="HaarderBertel_Denmidlertidigeformand_V" xml:id="ParlaMint-DK_20190621140018" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20190621140018-6">Mødet er genoptaget. Grundloven er underskrevet, og jeg står her med en indstilling fra samtlige partier, der alle indstiller, at vi vælger Henrik Dam Kristensen til Folketingets nye formand. Applaus Hermed erklærer jeg Henrik Dam Kristensen for valgt og beder ham komme op for at indtage sin velfortjente plads.</seg>
+                </u>
+                <u who="KristensenHenrikDam_Formanden_S" xml:id="ParlaMint-DK_20190621140157" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20190621140157-7">Tak til Tingets medlemmer for at vise mig den tillid, I har vist mig ved at vælge mig som ny formand for Folketinget. Jeg er beæret, og jeg går til opgaven med ydmyghed. Tillid er en skrøbelig størrelse, som man hele tiden skal gøre sig fortjent til gennem sine handlinger. Det er jeg mig meget bevidst om. Jeg vil lægge alle mine kræfter i at være hele Folketingets tillidsrepræsentant, og jeg vil behandle alle lige, fair og retfærdigt uanset partifarve. Det er vigtigt for mig at være en samlende person, der sammen med Præsidiet skaber de bedst mulige rammer om folketingsarbejdet og sikrer gode arbejdsforhold for alle, der har deres daglige gang her i Folketinget. Det gælder naturligvis i første række medlemmerne – men også de mange dygtige medarbejdere i administrationen og i partigrupperne. Jeg har haft den fornøjelse at være medlem af Folketinget i 25 år, men jeg er også meget opmærksom på, at jeg nu indtræder i et embede, der adskiller sig fra mit hidtidige politiske virke. Det danske folkestyre er et fælles ansvar, og jeg vil yde mit bidrag til at videreføre og værne om de værdier, som folketingsarbejdet står på. Endnu en gang tak for valget. Og så går vi videre til arbejdet.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Valg af 4 næstformænd.</head>
+            <note type="agendaItem">2019-06-21-3</note>
+                <u who="KristensenHenrikDam_Formanden_S" xml:id="ParlaMint-DK_20190621140329" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20190621140329-8">Vedrørende valg af næstformand hedder det i Folketingets forretningsordens § 3, stk. 1: »Hver af de i Tinget repræsenterede fire største folketingsgrupper ud over den folketingsgruppe, som formanden måtte tilhøre, udpeger i rækkefølge efter størrelse blandt sine medlemmer henholdsvis første, anden, tredje og fjerde næstformand.« Til første næstformand har Venstre udpeget hr. Kristian Pihl Lorentzen. Anden næstformand og tredje næstformand skal udpeges af Dansk Folkeparti og Det Radikale Venstre; de to partier er jo som bekendt lige store. Der er mellem partierne opnået enighed om, at anden næstformand bliver fru Pia Kjærsgaard, udpeget af Dansk Folkeparti, og at tredje næstformand bliver hr. Jens Rohde, udpeget af Det Radikale Venstre. Fjerde næstformand bliver fru Trine Torp udpeget af Socialistisk Folkeparti.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Valg af 4 tingsekretærer.</head>
+            <note type="agendaItem">2019-06-21-4</note>
+                <u who="KristensenHenrikDam_Formanden_S" xml:id="ParlaMint-DK_20190621140421" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20190621140421-9">Til tingsekretærer er i henhold til de indgåede valgforbund og gruppernes indstilling valgt følgende medlemmer: hr. Benny Engelbrecht (S), hr. Christian Juhl (EL), hr. Erling Bonnesen (V) og hr. Bent Bøgsted (DF). Hermed er Tinget sat.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Nedsættelse af Udvalget til Valgs Prøvelse, Udvalget for Forretningsordenen, Finansudvalget, Europaudvalget og Det Udenrigspolit</head>
+            <note type="agendaItem">2019-06-21-5</note>
+                <u who="KristensenHenrikDam_Formanden_S" xml:id="ParlaMint-DK_20190621140439" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20190621140439-10">Til disse valg er anmeldt følgende valggrupper: en gruppe på 99 medlemmer: Socialdemokratiet, Radikale Venstre, Socialistisk Folkeparti, Enhedslisten, Alternativet, Inuit Ataqatigiit (IA), Siumut (SIU) og Javnaðarflokkurin (JF),  en gruppe på 80 medlemmer: Venstre, Dansk Folkeparti, Det Konservative Folkeparti, Nye Borgerlige, Liberal Alliance og Sambandsflokkurin (SP). Der foreligger indstillinger fra grupperne om disse valg. Navnene på de valgte kan findes på Folketingets hjemmeside og www.folketingstidende.dk (jf. nedenfor). Valgt blev: 1 Benny Engelbrecht (S) 2 Bjarne Laustsen (S) 3 Henrik Dam Kristensen (S) 4 Dan Jørgensen (S) 5 Orla Hav (S) 6 Nick Hækkerup (S) 7 Jens Rohde (RV) 8 Jacob Mark (SF) 9 Kirsten Normann Andersen (SF) 10 Peter Juel-Jensen (V) 11 Kristian Pihl Lorentzen (V) 12 Anni Matthiesen (V)  13 Kristian Jensen (V)  14 Karen Ellemann (V) 15 Bent Bøgsted (DF) 16 Mai Mercado (KF) 17 Mette Thiesen (NB)  Valg af 21 medlemmer til Udvalget for Forretningsordenen. Valgt blev: 1 Henrik Dam Kristensen (S)  2 Kristian Pihl Lorentzen (V)  3 Pia Kjærsgaard (DF)  4 Jens Rohde (RV)  5 Trine Torp (SF)  6 Benny Engelbrecht (S)  7 Dan Jørgensen (S)  8 Bjarne Laustsen (S)  9 Orla Hav (S)  10 Nick Hækkerup (S)  11 Sofie Carsten Nielsen (RV)  12 Jacob Mark (SF)  13 Jakob Sølvhøj (EL) 14 Uffe Elbæk (ALT)  15 Karen Ellemann (V)  16 Torsten Schack Pedersen (V)  17 Britt Bager (V)  18 Peter Skaarup (DF) 19 Mai Mercado (KF)  20 Pernille Vermund (NB) 21 Simon Emil Ammitzbøll-Bille (LA) Formand: Henrik Dam Kristensen (S)  Næstformand: Kristian Pihl Lorentzen (V) Valg af 17 medlemmer til Finansudvalget. Valgt blev: 1 Benny Engelbrecht (S)  2 Jesper Petersen (S)  3 Ane Halsboe-Jørgensen (S) 4 Morten Bødskov (S) 5 Henrik Dam Kristensen (S) 6 Martin Lidegaard (RV) 7 Lisbeth Bech Poulsen (SF) 8 Rune Lund (EL) 9 Rasmus Nordqvist (ALT) 10 Kristian Jensen (V) 11 Jacob Jensen (V) 12 Marcus Knuth (V) 13 Hans Andersen (V) 14 Torsten Schack Pedersen (V) 15 René Christensen (DF) 16 Rasmus Jarlov (KF)  17 Ole Birk Olesen (LA) Formand: Benny Engelbrecht (S) Valg af 29 medlemmer til Europaudvalget. Valgt blev: 1 Peter Hummelgaard Thomsen (S) 2 Lars Aslan Rasmussen (S)  3 Kaare Dybvad (S) 4 Jens Joel (S) 5 Malte Larsen (S) 6 Morten Bødskov (S) 7 Christian Rabjerg Madsen (S) 8 Sofie Carsten Nielsen (RV) 9 Katrine Robsøe (RV) 10 Samira Nawa (RV) 11 Ina Strøjer-Schmidt (SF) 12 Karsten Hønge (SF) 13 Søren Søndergaard (EL)  14 Peder Hvelplund (EL) 15 Victoria Velasquez (EL) 16 Rasmus Nordqvist (ALT) 17 Jan E. Jørgensen (V) 18 Marcus Knuth (V) 19 Erling Bonnesen (V) 20 Britt Bager (V) 21 Mads Fuglede (V) 22 Thomas Danielsen (V) 23 Kristian Jensen (V) 24 Morten Messerschmidt (DF) 25 Lise Bech (DF) 26 Hans Kristian Skibby (DF) 27 Orla Østerby (KF) 28 Katarina Ammitzbøll (KF) 29 Peter Seier Christensen (NB) Valg af 17 medlemmer og 17 stedfortrædere til Det Udenrigspolitiske Nævn. Valgt blev: Til medlemmer: 1 Nick Hækkerup (S) 2 Nicolai Wammen (S) 3 Mette Frederiksen (S) 4 Dan Jørgensen (S) 5 Mogens Jensen (S) 6 Morten Østergaard (RV) 7 Pia Olsen Dyhr (SF) 8 Eva Flyvholm (EL) 9 Rasmus Nordqvist (ALT) 10 Lars Løkke Rasmussen (V) 11 Karen Ellemann (V) 12 Michael Aastrup Jensen (V) 13 Marcus Knuth (V) 14 Søren Espersen (DF) 15 Søren Pape Poulsen (KF) 16 Simon Emil Ammitzbøll-Bille (LA) 17 Edmund Joensen (SP) Til stedfortrædere: 18 Henrik Dam Kristensen (S) 19 Benny Engelbrecht (S) 20 Ane Halsboe-Jørgensen (S) 21 Sjúrður Skaale (JF) 22 Aaja Chemnitz Larsen (IA) 23 Martin Lidegaard (RV) 24 Karsten Hønge (SF) 25 Søren Søndergaard (EL) 26 Uffe Elbæk (ALT) 27 Kristian Thulesen Dahl (DF) 28 Kristian Pihl Lorentzen (V) 29 Mads Fuglede (V) 30 Peter Juel-Jensen (V) 31 Kristian Jensen (V) 32 Peter Skaarup (DF) 33 Peter Seier Christensen (NB) 34 Naser Khader (KF)] </seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Punkt 0</head>
+            <note type="agendaItem">2019-06-21-0</note>
+                <u who="KristensenHenrikDam_Formanden_S" xml:id="ParlaMint-DK_20190621140520" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20190621140520-11">Der er så ikke mere at foretage i dette møde. Folketingets næste møde afholdes tirsdag den 25. juni 2019, kl. 13.00. Jeg henviser til den dagsorden, der vil fremgå af Folketingets hjemmeside, og skal også henvise til ugeplanen, der vil fremgå af Folketingets hjemmeside. Så vil jeg indbyde til reception i Vandrehallen, hvor alle er hjertelig velkomne.</seg>
+                </u>
+            </div>
+        </body>
+    </text>
+</TEI>

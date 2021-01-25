@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="da" xml:id="ParlaMint-DK_20151_M56_2016-02-24" ana="#parla.sitting #reference">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">The Danish Parliamentary Corpus, ParlaMint-DK [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Hansard of the session of the Danish Parliament (Folketinget), 20151, M56 (2016-02-24), final version</title>
+            <meeting ana="#parla.session">20151</meeting>
+            <meeting ana="#parla.sitting">M56</meeting>
+            <respStmt>
+               <persName>Bart Jongejan</persName>
+               <persName>Dorte Haltrup Hansen</persName>
+               <persName>Costanza Navarretta</persName>
+               <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">Department of Nordic Studies and Linguistics (NorS), University of Copenhagen</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>1.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="264" xml:lang="en">264 speeches</measure>
+            <measure unit="words" quantity="18620" xml:lang="en">18620 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URL">https://github.com/clarin-eric/ParlaMint</idno>
+            <pubPlace>
+               <ref target="https://github.com/clarin-eric/ParlaMint">https://github.com/clarin-eric/ParlaMint</ref>
+            </pubPlace>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>. </p>
+            </availability>
+            <date when="2021-01-31">2021-01-31</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="en">Hansards of the Danish Parliament</title>
+               <publisher>The Danish Parliament</publisher>
+               <idno type="URI">https://www.ft.dk/</idno>
+               <date when="2016-02-24">2016-02-24</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="16"/>
+               <tagUsage gi="head" occurs="16"/>
+               <tagUsage gi="note" occurs="16"/>
+               <tagUsage gi="u" occurs="264"/>
+               <tagUsage gi="seg" occurs="264"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Folketinget, Christiansborg</name>
+               <name type="city">1240 Copenhagen K</name>
+               <name type="country" key="DK">Denmark</name>
+               <date ana="#parla.sitting" when="2016-02-24">2016-02-24</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2020-12-18">
+            <name>Dorte Haltrup Hansen</name>Generated corpus in ParlaMint.</change>
+      </revisionDesc>
+   </teiHeader>
+    <text xml:lang="da" ana="#reference">
+        <body>
+            <div type="debateSection">
+            <head>Punkt 0</head>
+            <note type="agendaItem">2016-02-24-0</note>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224130025" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224130025-1">Mødet er åbnet. I dag er der følgende anmeldelser: Skatteministeren (Karsten Lauritzen): Lovforslag nr. L 124 (Forslag til lov om ændring af lov om inddrivelse af gæld til det offentlige, kildeskatteloven, ligningsloven, opkrævningsloven og selskabsskatteloven. Uddannelses- og forskningsministeren (Esben Lunde Larsen): Lovforslag nr. L 125 (Forslag til lov om ændring af universitetsloven, lov om erhvervsakademiuddannelser og professionsbacheloruddannelser, lov om videregående kunstneriske uddannelsesinstitutioner, lov om maritime uddannelser og lov om videregående kunstneriske uddannelsesinstitutioner under Kulturministeriet. Lovforslag nr. L 126 (Forslag til lov om ændring af lov om befordringsrabat til studerende ved videregående uddannelser. Lovforslag nr. L 127 (Forslag til lov om ændring af lov om statens voksenuddannelsesstøtte. Lovforslag nr. L 128 (Forslag til lov om aktiviteter i det ydre rum). Social- og indenrigsministeren (Karen Ellemann): Lovforslag nr. L 129 (Forslag til lov om ændring af lov om retssikkerhed og administration på det sociale område og forskellige andre love. Lovforslag nr. L 130 (Forslag til lov om ændring af lov om valg af danske medlemmer til Europa-Parlamentet og lov om kommunale og regionale valg. Erhvervs- og vækstministeren (Troels Lund Poulsen): Lovforslag nr. L 131 (Forslag til lov om maritim fysisk planlægning). Transport- og bygningsministeren (Hans Christian Schmidt): Lovforslag nr. L 132 (Forslag til lov om ændring af lov om luftfart. Lovforslag nr. L 133 (Forslag til lov om ændring af færdselsloven. Lovforslag nr. L 134 (Forslag til lov om ændring af lov om offentlige veje m.v., jernbaneloven og forskellige andre love). Justitsministeren (Søren Pind): Lovforslag nr. L 135 (Forslag til lov om fremtidsfuldmagter). Pernille Skipper (EL) og Jonas Dahl (SF) m.fl.: Beslutningsforslag nr. B 62 (Forslag til folketingsbeslutning om at lade politikeres pensionsalder følge folkepensionsalderen), Beslutningsforslag nr. B 63 (Forslag til folketingsbeslutning om gennemførelse af Vederlagskommissionens anbefalinger med hensyn til pensionsordninger for politikere), Beslutningsforslag nr. B 64 (Forslag til folketingsbeslutning om at ophæve muligheden for at modtage vederlag og ministerpension samtidig) og Beslutningsforslag nr. B 65 (Forslag til folketingsbeslutning om satsregulering af politikeres vederlag). Kim Christiansen (DF) m.fl.: Beslutningsforslag nr. B 74 (Forslag til folketingsbeslutning om anhænger til motorcykel m.v.). Martin Henriksen (DF) m.fl.: Beslutningsforslag nr. B 75 (Forslag til folketingsbeslutning om udvisningsreglerne). Martin Henriksen (DF) m.fl.: Forespørgsel nr. F 23 (Hvad kan ministeren oplyse om den hastigt stigende andel af befolkningen med indvandrerbaggrund, jf. den seneste demografiske fremskrivning af befolkningssammensætningen fra Danmarks Statistik, der viser, at der i 2050 vil være 1.113.578 indvandrere og efterkommere i Danmark, hvordan vil det påvirke vores identitet og Danmark som en sproglig og kulturel enhed, og finder regeringen det realistisk såvel praktisk som økonomisk at inkludere en så stor befolkningstilvækst i samfundet, hvis den sociale og kulturelle sammenhængskraft skal bevares?). Titlerne på de anmeldte sager vil fremgå af www.folketingstidende.dk (jf. ovenfor).</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Besvarelse af oversendte spørgsmål til ministrene (spørgetid).</head>
+            <note type="agendaItem">2016-02-24-1</note>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224130301" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224130301-2">Det første spørgsmål er til finansministeren af Henning Hyllested, Enhedslisten.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 686: Om at Moderniseringsstyrelsen udsender nyt cirkulære om ansættelsesforholdene for overenskomstansatte i staten.</head>
+            <note type="agendaItem">2016-02-24-1-1</note>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224130318" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224130318-3">Værsgo for oplæsning.</seg>
+                </u>
+                <u who="HyllestedHenning_EL" xml:id="ParlaMint-DK_20160224130323" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224130323-4">Tak for det. Spørgsmålet lyder: Hvad er ministerens holdning til, at Moderniseringsstyrelsen ensidigt udsender nyt cirkulære om ansættelsesforholdene, de såkaldte ansættelsesbreve, for overenskomstansatte i staten uden først at gennemføre en forhandling med de statsansattes organisationer?</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224130336" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224130336-5">Værsgo til ministeren.</seg>
+                </u>
+                <u who="FrederiksenClausHjort_Finansministeren_V" xml:id="ParlaMint-DK_20160224130338" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224130338-6">Det er min holdning, at ikke alle medarbejdere skal kunne flyttes rundt i hele landet. Jeg er således ikke enig i det, der står i det konkrete cirkulære. I forbindelse med flytningen af institutioner som led i »Bedre balance« er det konstateret, at ministerierne har anvendt og udnyttet ansættelsesområderne og omflytningsmulighederne forskelligt. I nogle tilfælde har ansættelsesmyndigheden anvendt et smalt ansættelsesområde, f.eks. den enkelte institution, i andre tilfælde har man i ansættelsesbrevene anvendt det brede ansættelsesområde »ministeriet med tilhørende institutioner«. Nogle ansættelsesmyndigheder har brugt det brede ansættelsesområde til at flytte medarbejderne over hele landet, andre ansættelsesmyndigheder har godt nok i ansættelsesbrevet anvendt det brede ansættelsesområde, men de har ikke udnyttet det i praksis. De har i stedet valgt at varsle flytninger over større afstande som væsentlige stillingsændringer, og det vil sige, at de har afskediget medarbejderne og tilbudt dem genansættelse på det nye arbejdssted. Moderniseringsstyrelsen har oplyst, at disse forskelligheder var baggrunden for overvejelserne om at skabe mere ensartede ansættelsesvilkår for alle statens ansatte. Som bekendt har Moderniseringsstyrelsen nu trukket cirkulæret tilbage for at undersøge juridiske spørgsmål, som er blevet rejst af bl.a. de faglige organisationer. Jeg afventer nu et oplæg fra Moderniseringsstyrelsen om de juridiske aspekter, og om det er hensigtsmæssigt, at der fra centralt hold fastsættes retningslinjer for ansættelsesområder i staten. Jeg kan endvidere oplyse, at cirkulæret ikke på forhånd har været vendt med de faglige organisationer. Set i bakspejlet er det Moderniseringsstyrelsens opfattelse, at det nok ville have været formålstjenligt, hvis cirkulæret havde været drøftet med organisationerne forud for udsendelsen, og det kan jeg ikke være uenig i. Moderniseringsstyrelsen vil nu drøfte sagen med de faglige organisationer.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224130549" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224130549-7">Tak for det, og så er det spørgeren. Værsgo, hr. Henning Hyllested.</seg>
+                </u>
+                <u who="HyllestedHenning_EL" xml:id="ParlaMint-DK_20160224130551" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224130551-8">Ja, det er rigtig klogt, vil jeg også have lov at sige, det lyder rigtig fornuftigt. Men man kan jo spørge sig selv om, hvorfor det kunne komme dertil, at Moderniseringsstyrelsen udsendte et nyt cirkulære med så store ændringer i ansættelsesforholdene, som der jo i virkeligheden var tale om, uden at forhandle med organisationerne på området. Derfor synes jeg, at spørgsmålet er relevant, altså om der er en ændret praksis, en ændret holdning i Finansministeriet, i Moderniseringsstyrelsen til – hvad skal man sige – aftalesystemet på arbejdsmarkedet. Moderniseringsstyrelsen mente jo, at det her ikke var et forhandlingsemne, at det ikke var noget, man behøvede at forhandle om, og at det i stedet for var nok med en orientering til organisationerne. Det blev så omgående modsagt af en række eksperter på området – arbejdsmarkedseksperter, eksperter i erhvervsret – som sagde, at selv om det ikke er en integreret del af en overenskomst eller en nedskrevet del af en overenskomst, har det alligevel så store konsekvenser for ansættelsesforhold, at det selvfølgelig bør forhandles. Derfor kan man også spørge: Var Moderniseringsstyrelsens cirkulære godkendt i Finansministeriet, eller var det et initiativ, styrelsen selv tog? Det er jo rigtigt, som finansministeren siger, at cirkulæret nu er trukket tilbage, men det er netop for at vurdere sådan de juridiske aspekter af det. Det er jo ikke trukket tilbage, sådan som jeg læser det i hvert fald, af hensyn til aftalemodellen; men det kan være, at ministeren kan oplyse os om det.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224130731" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224130731-9">Værsgo til ministeren.</seg>
+                </u>
+                <u who="FrederiksenClausHjort_Finansministeren_V" xml:id="ParlaMint-DK_20160224130732" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224130732-10">Det, der er karakteristisk for det her område, er, at ansættelsesområdet for overenskomsterne i dag ikke er reguleret i de respektive overenskomster. Og det er jo sådan, at Moderniseringsstyrelsen årligt udsender 50-60 cirkulærer. Hverken Finansministeriet eller de faglige organisationer har tidligere stillet krav om at få det her reguleret i de kollektive overenskomster, så det er jo sådan set et område, hvor Moderniseringsstyrelsens udgangspunkt har været, at man ensidigt kunne fastlægge retningslinjerne på det her ikkeoverenskomstdækkede område. Men det er jo rigtigt, som hr. Hyllested gør opmærksom på, at det er der juridisk ekspertise, der har sat spørgsmålstegn ved, og derfor er de her juridiske spørgsmål nu ved at blive undersøgt nærmere.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224130838" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224130838-11">Så er det spørgeren. Værsgo.</seg>
+                </u>
+                <u who="HyllestedHenning_EL" xml:id="ParlaMint-DK_20160224130839" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224130839-12">Man kan jo vurdere, om ikke det netop er derfor, at de faglige organisationer ligesom ikke har gjort det gældende. Man var af den opfattelse, at det her egentlig ikke var noget, som man ensidigt kunne ændre på, og derfor har man jo ikke insisteret på, at det skulle stå i overenskomsten. Men jeg vil spørge: Vurderer ministeren det her som – hvad skal man sige – uprofessionalisme i Moderniseringsstyrelsen, eller er der tale om ændrede holdninger til de statsansattes organisationer i Moderniseringsstyrelsen, siden man pludselig farer ud og ændrer et cirkulære så voldsomt og på så afgørende et område?</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224130918" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224130918-13">Ministeren, 30 sekunder.</seg>
+                </u>
+                <u who="FrederiksenClausHjort_Finansministeren_V" xml:id="ParlaMint-DK_20160224130920" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224130920-14">Tak. Som jeg sagde indledningsvis, er det jo den her udflytning af de statslige arbejdspladser, som ligesom har åbenbaret, at praksis er vidt forskellig. Det var jo sådan set i et forsøg på, tror jeg, at finde fælles fodslag. Men det er klart, at jeg ikke er enig i, at medarbejdere skal kunne tåle forflyttelse. På nogle statslige ansættelsesområder, f.eks. i Forsvaret, og jeg tror også i politiet og andre, indgår der jo en forflyttelsespligt i ansættelsesforholdet. Men altså, nu bliver det undersøgt. Cirkulæret er trukket tilbage, og så tager vi den derfra.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224131005" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224131005-15">Tak for det. Og så har vi en medspørger. Hr. Karsten Hønge, Socialistisk Folkeparti. Værsgo.</seg>
+                </u>
+                <u who="HøngeKarsten_SF" xml:id="ParlaMint-DK_20160224131010" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224131010-16">Jeg synes jo, det lyder, som om ministeren har nogle andre og lidt mere konstruktive og reflekterede signaler end det, som var sendt ud fra Moderniseringsstyrelsen. Men problemet er vel, hvis det er sådan, at vi ender med siden hen kun at skulle tage stilling til, hvorvidt det juridisk er holdbart. For det er jo det, det står og falder med, nemlig at selv om der ikke endnu har været et krav om, at noget skal være overenskomstbelagt, har man jo ikke dermed sagt, at det er okay, at den ene part ensidigt tager et skridt. Og det er netop i en situation, hvor der er et asymmetrisk forhold mellem det at være ansat og det at være arbejdsgiver. Derfor er det interessante vel her, at ministeren får slået fast, at vores statsansatte er gaver, ikke slaver, og at det ikke giver mening at tale om den danske model, som vi godt kan lide at hylde ved alle mulige lejligheder og da især her i perioden, hvor vi har trepartsforhandlinger, hvis man ikke respekterer den i det daglige i et samarbejde med de ansattes organisationer.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224131113" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224131113-17">Tak. Ministeren.</seg>
+                </u>
+                <u who="FrederiksenClausHjort_Finansministeren_V" xml:id="ParlaMint-DK_20160224131115" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224131115-18">Nu er der jo det specielle, som jeg redegjorde for før, at det her ikke er overenskomstdækket i det her spørgsmål. Det er overenskomstdækket, går jeg ud fra, på nogle områder. Jeg vil gætte på, at det f.eks. for Forsvaret fremgår, at der er forflyttelsespligt, og f.eks. også for politiet. Men på ansættelsesområdet i den brede almindelighed er der en varieret praksis. Nu synes jeg, at vi skal se en juridisk vurdering af de her ting, og så skal vi jo også have en vurdering af, om det er hensigtsmæssigt i det hele taget at fastsætte regler om de her ting. Så det vil vi jo vende tilbage til. Men i hvert fald er jeg jo enig i, at det er det rigtige, at det her cirkulære er blevet trukket tilbage – og jeg var ikke enig i det, der stod i der cirkulære. Så nu må vi jo lige afvente, hvad man finder ud af omkring juraen i de her ting. Men generelt set vil jeg sige at man måske godt kunne ønske sig noget ensartethed i de forskellige ansættelsesforhold inden for statens område.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224131225" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224131225-19">Tak. Hr. Karsten Hønge.</seg>
+                </u>
+                <u who="HøngeKarsten_SF" xml:id="ParlaMint-DK_20160224131226" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224131226-20">Igen vil jeg da her hæfte mig ved, at ministeren sender et andet signal end den der, synes jeg, noget formynderiske og kommanderende måde, som Moderniseringsstyrelsen lagde ud med, og det synes jeg der er grund til at være glad for. Men jeg synes, at ministeren godt kunne tage og slå sømmet helt i og på den måde fuldstændig og en gang for alle sige, at hvis det skal give mening at tale om den danske model på arbejdsmarkedet og alle de gode ting, som den afleder, så giver det bare ikke mening, hvis man ikke, om jeg så må sige, bruger den danske model i dagligdagen, hvilket betyder et tillidsfuldt samarbejde mellem arbejdsgivere og de ansattes faglige organisationer.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224131301" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224131301-21">Tak. Ministeren.</seg>
+                </u>
+                <u who="FrederiksenClausHjort_Finansministeren_V" xml:id="ParlaMint-DK_20160224131302" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224131302-22">Men jeg er bare nødt til igen at gentage, at grunden til, at den her sag er dukket op, jo er, at udgangspunktet for Moderniseringsstyrelsen har været, at det, da det ikke er et overenskomstdækket spørgsmål, var sådan, at man så ensidigt kunne fastsætte de her regler. Det har ligesom været det. Nu skal jeg ikke gøre mig til den store fagretlige ekspert, selv om jeg har arbejdet nogle år inden for området, men det er jo givet, at når det ikke er overenskomstdækket, er der en kompetence hos arbejdsgiveren. Men altså, vi skal jo nu have en vurdering af, om det i det hele taget er hensigtsmæssigt, og af, hvad juraen siger på de her områder. Og Moderniseringsstyrelsen skal tale med de faglige organisationer. Så må vi jo se, hvad der kommer ud af det.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224131347" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224131347-23">Tak for det. Og så er det hr. Henning Hyllested med det sidste. Værsgo.</seg>
+                </u>
+                <u who="HyllestedHenning_EL" xml:id="ParlaMint-DK_20160224131350" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224131350-24">Jamen det er jo så også netop deromkring, det står, ikke? Det bestrides jo trods alt meget kraftigt, om Moderniseringsstyrelsen i det her tilfælde har den kompetence, altså om de bare sådan ensidigt kan ændre det. Men jeg er enig i, at vi selvfølgelig må afvente, hvad der sker. Det, som jeg så synes bliver interessant nu, er selvfølgelig: Kan man så forvente, at der fremsættes et nyt cirkulære, der selvfølgelig er ændret i forhold til det, der er trukket tilbage – andet ville være unaturligt – men som trods alt følger de samme retningslinjer?</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224131423" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224131423-25">Ministeren.</seg>
+                </u>
+                <u who="FrederiksenClausHjort_Finansministeren_V" xml:id="ParlaMint-DK_20160224131425" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224131425-26">Det vil jeg ikke udtale mig skråsikkert om. Nu vil jeg se, hvad undersøgelsen bringer for et resultat.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224131431" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224131431-27">Tak. Spørgsmålet er afsluttet. Men der er et nyt spørgsmål til finansministeren af den samme spørger, hr. Henning Hyllested.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 687: Om statsansatte.</head>
+            <note type="agendaItem">2016-02-24-1-2</note>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224131443" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224131443-28">Værsgo.</seg>
+                </u>
+                <u who="HyllestedHenning_EL" xml:id="ParlaMint-DK_20160224131444" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224131444-29">Tak for det. Spørgsmålet lyder: Har ministeren den holdning, at en statsansat principielt har hele landet som arbejdsplads – i det omfang et ministerium eller en styrelse har adresser i hele landet – og at det derfor er en forudsætning for ansættelse i staten, at den ansatte er i stand til at arbejde på alle adresser i hele landet når som helst i ansættelsesforholdet?</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224131505" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224131505-30">Ministeren.</seg>
+                </u>
+                <u who="FrederiksenClausHjort_Finansministeren_V" xml:id="ParlaMint-DK_20160224131506" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224131506-31">Som nævnt er det min holdning, at ikke alle medarbejdere skal kunne flyttes rundt i hele landet. Jeg er således ikke enig i det konkrete cirkulære. Men samtidig er jeg også optaget af, at der er en vis ensartethed i ansættelsesvilkårene hos medarbejderne på tværs af de statslige arbejdspladser. Som jeg nævnte i svaret på det foregående spørgsmål, er det i forbindelse med flytningen af institutioner som led i den her udflytning af statslige arbejdspladser konstateret, at ministerierne har anvendt og udnyttet ansættelsesområderne og omflytningsmulighederne forskelligt. Moderniseringsstyrelsen har oplyst, at disse forskelligheder var baggrunden for overvejelserne om at skabe mere ensartede ansættelsesvilkår for alle statens ansatte. Nu har Moderniseringsstyrelsen jo så som bekendt trukket cirkulæret om de brede ansættelsesområder tilbage. I den forbindelse vil Moderniseringsstyrelsen nu drøfte det her spørgsmål med de faglige organisationer. Når sagen nu er oppe, synes jeg, det er vigtigt, at alle spørgsmål og synspunkter så bliver vendt i den forbindelse. Og jeg afventer et oplæg fra Moderniseringsstyrelsen om de juridiske aspekter og – som jeg sagde før – om det er hensigtsmæssigt, at der fra centralt hold fastsættes retningslinjer om ansættelsesområder i staten.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224131638" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224131638-32">Spørgeren.</seg>
+                </u>
+                <u who="HyllestedHenning_EL" xml:id="ParlaMint-DK_20160224131640" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224131640-33">Ja, når ministeren siger, at han jo heller ikke mener, at det her burde eller skulle gælde for alle ansatte, bliver det selvfølgelig interessant efterfølgende at spørge, hvilke ansatte det så egentlig skulle gælde for. Når nu cirkulæret er trukket tilbage, bliver det selvfølgelig meget interessant med ministerens egen holdning til det her, i og med at han jo trods alt er lederen af Finansministeriet, hvorunder Moderniseringsstyrelsen hører. Det var jo en ganske, ganske voldsom ændring, der var lagt op til i det pågældende cirkulære. Jeg kan citere fra det. Der blev udfærdiget en skabelon, hvor ansættelsesområdet var angivet som »ministeriet med de til enhver tid tilhørende institutioner og uanset geografisk placering«, og hvor det samtidig var præciseret, at den ansatte havde forflyttelsespligt inden for hele ansættelsesområdet. Det var jo en meget, meget voldsom ændring af ansættelsesvilkårene, og der kan man spørge: Er det virkelig rimeligt, at man efter ½ års eller for den sags skyld endnu værre efter 5, 10 eller 15 års ansættelse på en statslig arbejdsplads, hvor man har bosat sig, slået sig ned med sin familie osv., pludselig har en forflyttelsespligt i et eller andet omfang – her er den fuldstændig ubegrænset i cirkulæret, som jo så ganske vist er trukket tilbage – og at det samtidig kan have nogle voldsomme økonomiske konsekvenser, hvis man så siger nej til at lade sig forflytte? For i dag har man jo en beskyttelse, som betyder, at man bliver opsagt med tilbud om genansættelse, og det betyder, at man bevarer sin kompensation for opsigelse osv. osv. Det ville man jo miste i den her situation, så for en almindelig HK'er kunne det komme til at koste 300.000 kr. og karantæne i a-kassen. Det er jo voldsomme ændringer. Derfor er ministerens holdning til det her interessant.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224131835" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224131835-34">Tak, så er det ministeren.</seg>
+                </u>
+                <u who="FrederiksenClausHjort_Finansministeren_V" xml:id="ParlaMint-DK_20160224131837" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224131837-35">Som jeg sagde, er det ikke min indstilling, at alle skal kunne tåle forflyttelse til alle steder i landet. Men jeg vil nu alligevel have den tålmodighed, når nu sagen er rejst, og når nu cirkulæret er trukket tilbage, at vi så lige får belyst juraen i de her ting. Så kan vi bagefter tage stilling til, når vi ved, hvad juraen siger, om vi synes, det er rimeligt. Det er jo også sådan, at det vil være forskelligt på forskellige ministeriers område. Jeg går ud fra, at en forflyttelsespligt på Kirkeministeriets område nok ikke vil betyde så meget, for de har nok ikke så mange institutioner rundtomkring i landet som departement, hvorimod der i Fødevareministeriet eller Erhvervs- og Vækstministeriet vil være en hel del institutioner rundtomkring. Men lad os nu få det undersøgt, og så vil jeg vende tilbage. Men jeg vil gerne understrege igen, at jeg ikke synes, at det cirkulære ramte rigtigt med det, at alle skulle tåle en forpligtelse til at flytte. Jeg vil dog lige for god ordens skyld gøre opmærksom på, at tanken jo ikke var, at det skulle gælde for allerede ansatte. Det skulle fremgå af ansættelsesbrevene for fremtidige ansatte, som jo så vidste, hvad vilkårene var.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224132000" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224132000-36">Tak for det. Værsgo til spørgeren.</seg>
+                </u>
+                <u who="HyllestedHenning_EL" xml:id="ParlaMint-DK_20160224132003" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224132003-37">Ministeren er vel enig med mig i, at det der med at lave fælles regler jo kan blive ganske svært, fordi institutionerne netop er meget forskellige, og derfor kan det også være svært at lave fælles regler for ansættelsesforhold. Man kan sige, at indtil nu har man jo haft det, og jeg vil gerne høre ministerens holdning til, om det stadig væk skal være gældende efter ministerens mening. I dag har man jo taget hensyn til, om der er behov for bopælsskift, og om det medfører en mærkbar ændring af transporttiden, altså den ansattes transportforhold. Ifald det gør det, er det jo så, at man går ind og siger, at så bliver den ansatte opsagt med ret til kompensation for opsigelse osv. Det ville jo være det, der bortfaldt ved det cirkulære, som så er trukket tilbage. Men er det forhold, som ministeren vil være med til at sige i hvert fald skal bevares som – hvad skal man sige – ensartede krav for alle statsansatte?</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224132059" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224132059-38">Tak. Så er det ministeren.</seg>
+                </u>
+                <u who="FrederiksenClausHjort_Finansministeren_V" xml:id="ParlaMint-DK_20160224132101" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224132101-39">Det mener jeg ikke jeg kan stå og improvisere over her. Jeg anerkender jo det, hr. Henning Hyllested siger, nemlig at der jo er forskel på, hvor langt man flytter. Det er jo klart, at der er forskel på, om en arbejdsplads flytter fra København til Roskilde eller fra København til Hjørring. Det er jo noget andet. Så der er jo også regler i dagpengelovgivningen, og der vel også i den fagretlige praksis, voldgiftssager osv., taget stilling til spørgsmålet om, hvor langt man kan forlange at folk skal flytte. Det er så nogle regelsæt, der er ved siden af det, vi taler om her. Men jeg vil bare sige, at jeg vender tilbage til sagen, når den er blevet kortlagt.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224132154" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224132154-40">Tak for det. Så har vi en medspørger, og det er hr. Karsten Hønge, Socialistisk Folkeparti. Værsgo</seg>
+                </u>
+                <u who="HøngeKarsten_SF" xml:id="ParlaMint-DK_20160224132159" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224132159-41">Jeg vil da igen anerkende, at ministeren her har et betydelig mere nuanceret og reflekteret syn på det end det, der i første omgang kom frem ved cirkulæret fra Moderniseringsstyrelsen. Moderniseringsstyrelsen er egentlig et sjovt navn; det er, som om regeringen er ret begejstret for det med at være moderne med sin brug af begreber som moderne kontanthjælpsloft og Moderniseringsstyrelsen. Lige så lidt som der er noget moderne over fattigdom, er der ikke meget moderne over den her personalepolitik, der mere smager af noget, man gjorde for 50 år siden, hvor man bare kunne kommandere rundt med de ansatte uden i øvrigt at samarbejde med de ansattes organisationer. Hvordan forestiller ministeren sig at vi kan få nogle attraktive offentlige arbejdspladser, hvis man behandler ansatte, som om de er sådan nogle hvide kaniner, man kan trække op af hatten, når der er brug for dem, og putte ned i hatten igen og gemme dem væk i perioder, hvor man ikke synes at der er brug for dem? Hvordan harmonerer den her type personalepolitik med at skulle have arbejdspladser, der får let ved at tiltrække kommende ansatte?</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224132253" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224132253-42">Tak. Ministeren.</seg>
+                </u>
+                <u who="FrederiksenClausHjort_Finansministeren_V" xml:id="ParlaMint-DK_20160224132254" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224132254-43">Der er jo på alle områder brug for fleksibilitet og omstillingsparathed. Det er jo ikke sådan, at den offentlige sektor skal støbes i beton, og at de regler, der har været gældende altid, bare skal fortsætte. Men det er da min indstilling, at det skal foregå på en ordentlig måde, og derfor berører denne praksis jo det her spørgsmål, som hr. Henning Hyllested også gjorde opmærksom på, altså om det er en forflyttelse, eller om det i realiteten er en afskedigelse med tilbud om en ny ansættelse. Det gør jo for den enkelte en stor forskel, om det er den ene eller den anden konstruktion. Men jeg vil bare sige, at det ikke er sådan, at jeg ligesom SF synes, at alt, der er i den offentlige sektor i dag, har fundet den fuldstændig rigtige balance, og at tingene ikke kan gøres bedre. Der er jeg lidt mere åben over for at se på, om man ikke kunne modernisere tingene.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224132402" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224132402-44">Tak. Værsgo.</seg>
+                </u>
+                <u who="HøngeKarsten_SF" xml:id="ParlaMint-DK_20160224132402-2" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224132402-2-45">Jo jo, jeg tror, der netop er rigtig mange ting, der kan gøres bedre. Men mener ministeren virkelig, at det er at gøre det bedre at indføre sådan en kommandostruktur, som der åbenbart er lagt op til her, hvor man netop har det, vi kan kalde et asymmetrisk forhold mellem arbejdsgiveren og den ansatte, og hvor man så overlader det til den ene part at kunne udsende sådan nogle kommandoskrivelser? Hvordan i alverden kan man i et ministerium have en styrelse under sig, hvor så gammeldags holdninger kan trives, at man tror, at man kan kommandere sig til løsninger i stedet for at samarbejde med de ansatte?</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224132436" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224132436-46">Tak. Så er det ministeren.</seg>
+                </u>
+                <u who="FrederiksenClausHjort_Finansministeren_V" xml:id="ParlaMint-DK_20160224132437" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224132437-47">Det, vi har gjort, med at udflytte 3.900 arbejdspladser, er jo også en politisk beslutning, som regeringen har truffet som ansvarlig for centraladministrationen, men også i kraft af, at regeringen er arbejdsgiver. Der har man jo retten til at placere virksomheder forskellige steder. Jeg ved ikke, om hr. Karsten Hønge synes, at det er et forfald, at man kan flytte arbejdspladser på den måde, men det er jo derfor, at denne sag er dukket op. Udflytningsplanerne har afsløret den her mangfoldighed af forskellige regler og mangfoldigheden i de måder, hvorpå man har udnyttet det i praksis. Nu ser vi på det, og så vender vi tilbage til sagen.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224132527" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224132527-48">Værsgo til hr. Henning Hyllested.</seg>
+                </u>
+                <u who="HyllestedHenning_EL" xml:id="ParlaMint-DK_20160224132531" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224132531-49">Tak. Jeg tillader mig sådan set bare nu at konkludere, at jeg bestemt synes, at finansministeren har været noget mere imødekommende end det, der lå i udspillet fra Moderniseringsstyrelsen. Og jeg tillader mig også at konkludere, at vi kan forvente – og det må ministeren jo så bekræfte – at et eventuelt nyt cirkulære, et eventuelt nyt udspil vil blive forhandlet med de offentligt ansattes organisationer, at man, som traditionen jo også byder, dér forsøger at nå til enighed, og at et eventuelt nyt cirkulære også bliver voldsomt modereret i forhold til det udspil, vi så.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224132606" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224132606-50">Tak. Og så er det ministeren for den sidste besvarelse.</seg>
+                </u>
+                <u who="FrederiksenClausHjort_Finansministeren_V" xml:id="ParlaMint-DK_20160224132607" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224132607-51">Før jeg udtaler mig kategorisk om noget som helst, vil jeg se den undersøgelse, der er igangsat. Og der vil der jo så være kontakt mellem Moderniseringsstyrelsen og de faglige organisationer, og når vi kender det grundlag, der er, så vender vi tilbage til sagen.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224132627" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224132627-52">Tak for det. Så går vi videre til det tredje spørgsmål. Det er til kulturministeren af hr. Jonas Dahl, Socialistisk Folkeparti.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 642: Om Museet Overtaci.</head>
+            <note type="agendaItem">2016-02-24-1-3</note>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224132635" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224132635-53">Værsgo.</seg>
+                </u>
+                <u who="DahlJonas_SF" xml:id="ParlaMint-DK_20160224132639" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224132639-54">Spørgsmålet lyder i al sin enkelhed: Hvem tænker ministeren skal drive Museet Overtaci i fremtiden? Det er det museum, som har tilknytning til det psykiatriske hospital i Aarhus.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224132649" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224132649-55">Værsgo til ministeren.</seg>
+                </u>
+                <u who="HaarderBertel_Kulturministeren_V" xml:id="ParlaMint-DK_20160224132650" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224132650-56">Det pågældende museum er et museum, der ligger på Aarhus Universitetshospital i Risskov. Det er ikke statsanerkendt og er ikke under museumsloven, men har hidtil været drevet af Region Midtjylland som en del af hospitalet. Og da der ikke er tale om et statsanerkendt museum, har jeg ikke nogen indflydelse på, hvad der videre skal ske med museet og med dets samling. Det vil være op til de lokale kræfter, som har drevet museet hidtil. Jeg vil dog straks lige indskyde, at staten ikke har noget ønske om at overtage museet og gøre det til et statsligt museum. Det har en helt anden karakter end de nuværende statslige museer, og vi har i øvrigt heller ikke nogen økonomisk ramme til at overtage dette museum. Hvis staten skulle have overtaget tilskuddet, skulle amtet have overdraget bevillingen og opgaven i forbindelse med kommunalreformen i 2007, sådan som det skete for en række andre tilsvarende tilskud.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224132759" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224132759-57">Værsgo til spørgeren.</seg>
+                </u>
+                <u who="DahlJonas_SF" xml:id="ParlaMint-DK_20160224132801" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224132801-58">Tak for det, og tak for besvarelsen. Nu er problemstillingen bare den, at det i hvert fald af en række medier er fremgået, at Bent Hansen som regionsrådsformand i Midtjylland har meddelt, at nu kan Region Midtjylland ikke længere drive museet med henvisning til lovgivningen. Det er bl.a. med hensyn til den lovgivning, der ligger på kulturministerens område, siden hen med den lovgivning, som så ligger på indenrigsministerens område. Men det, der jo er udfordringen nu, er, at man fra regeringens side har meddelt, at Museet Overtaci ikke længere kan drives fra regionens side, og nu kan vi så høre kulturministeren konkludere, at man ikke har tænkt sig at overtage det fra statens side. Derfor bliver man jo ærlig talt lidt nysgerrig. For jeg tror, der er en bred anerkendelse af – også selv om det ikke er et statsanerkendt museeum – at her snakker vi faktisk om et museum, som nyder bred anerkendelse, også internationalt, fordi det er noget, der netop fortæller en historie i forhold til de psykiske syge, som havde deres gang på et psykiatrisk hospital også dengang, altså i den tid, hvor man ikke turde snakke om psykisk sygdom. Derfor har det en rigtig stor betydning, både som et arbejdende værksted i tilknytning til det nuværende psykiatriske hospital, men også i forhold til at fortælle en historie om de udfordringer og problemstillinger, der har været i forhold til psykisk sygdom. Derfor ærgrer det mig sådan set. Vi har fået at vide fra regionens side, at de ikke synes, de må drive det her museum længere, og kulturministeren siger meget klart nu, at staten ikke har tænkt sig at overtage det, fordi det ikke er et statsanerkendt museum. Derfor er spørgsmålet, der står tilbage: Hvem må egentlig drive Museet Overtaci?</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224132936" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224132936-59">Værsgo til kulturministeren.</seg>
+                </u>
+                <u who="HaarderBertel_Kulturministeren_V" xml:id="ParlaMint-DK_20160224132936-2" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224132936-2-60">Det spørgsmål skulle regionen jo have tænkt på i forbindelse med kommunalreformen. Hvis staten skulle have overtaget tilskuddet fra regionen – eller rettere sagt fra amtet – skulle amtet jo have overdraget både bevillingen og opgaven i forbindelse med kommunalreformen. Det er jo den måde, hvorpå en række ting blev overført til staten. I forbindelse med overførslen fik man også pengene. Det kan ikke nytte noget, at man nu, efter at man ikke ved den lejlighed foretog en overførsel og derfor ikke afleverede pengene, siger, at staten skal komme og betale det.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224133024" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224133024-61">Tak. Værsgo, spørgeren.</seg>
+                </u>
+                <u who="DahlJonas_SF" xml:id="ParlaMint-DK_20160224133026" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224133026-62">Jeg kan sådan set sagtens følge kulturministerens argumentation. Problemstillingen er bare den, at som regionen oplyser det, er man først nu blevet opmærksom på, at man faktisk ikke i henhold til den styrelseslov, der er i forhold til religionerne, må drive museet, og at det, man gør, så også gøres som et led i spareplanen, må jeg understrege. Nu meddeler regionen så, at de ikke længere må drive det, og kulturministeren holder så fast i, at staten ikke kan overtage det, på grund af at der i sin tid ikke blev ansøgt om det, da man lavede kommunalreformen for 10 år siden. Anerkender kulturministeren ikke også, at der er et problem, hvor det, der kommer i klemme, er et godt museum, som egentlig burde fortsættes i en eller anden forstand?</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224133104" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224133104-63">Tak. Så er det kulturministeren.</seg>
+                </u>
+                <u who="HaarderBertel_Kulturministeren_V" xml:id="ParlaMint-DK_20160224133107" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224133107-64">Jo, det kan jeg da godt se pointen i, og hvis man nu går tilbage til 2007, hvor der hverken skete nogen overførsel af opgaven eller bevillingen, kan man selvfølgelig godt stille spørgsmålet: Vil det stadig kunne nås? Vil man i dag kunne foretage en overførsel af såvel opgaven som bevillingen? Og det vil jeg da godt sammen med social- og indenrigsministeren finde ud af, hvis det er et ønske fra regionens side, men jo kun, hvis det er et ønske fra regionen. Så hvis regionen fremsætter ønske om det, kan jeg undersøge sagen, men det forudsætter altså, at regionen er villig til at afgive bevillingen, og kun hvis jeg får en klar tilkendegivelse fra regionen om det, vil jeg gå ind i sagen.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224133204" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224133204-65">Værsgo til spørgeren.</seg>
+                </u>
+                <u who="DahlJonas_SF" xml:id="ParlaMint-DK_20160224133204-2" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224133204-2-66">Jeg vil faktisk gerne kvittere for det svar. Jeg har interesseret mig for den her sag igennem længere tid, så jeg vil gerne kvittere for, at kulturministeren er indstillet på at se på en overdragelse. Jeg medgiver gerne, at man ikke har lovet, at man vil sikre den. Men det, at man gerne vil se på en overdragelse – sådan hører jeg ministeren klart formulere det nu – såfremt der kommer et ønske om det fra regionen, vil jeg sådan set gerne kvittere for. Det synes jeg er en konstruktiv tilgang til det fra kulturministerens side. Jeg kan godt ærgre mig over, at man ikke tidligere har kunnet finde frem til den dialog, men jeg vil faktisk gerne anerkende, at det er en åbning, som jeg da vil opfordre regionen til at benytte sig af. Så tak for det.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224133238" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224133238-67">Ministeren, værsgo.</seg>
+                </u>
+                <u who="HaarderBertel_Kulturministeren_V" xml:id="ParlaMint-DK_20160224133239" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224133239-68">Jeg forventer så, at spørgeren opfordrer regionen til at rejse spørgsmålet. Og så har jeg jo sagt, at vi gerne vil undersøge det sammen med indenrigs- og socialministeren.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224133252" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224133252-69">Tak for det. Så er der et nyt spørgsmål, og det er til transport- og bygningsministeren, men det er den samme spørger, nemlig hr. Jonas Dahl.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 641: Om Motorvej E45.</head>
+            <note type="agendaItem">2016-02-24-1-4</note>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224133308" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224133308-70">Værsgo.</seg>
+                </u>
+                <u who="DahlJonas_SF" xml:id="ParlaMint-DK_20160224133310" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224133310-71">Tak for det. Spørgsmålet til transportministeren går på, hvornår han forventer at være klar til en politisk beslutningsproces om Motorvej E45 eller mere præcist den udvidelse af E45, som i hvert fald i det østjyske er meget på tale.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224133325" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224133325-72">Værsgo til ministeren.</seg>
+                </u>
+                <u who="SchmidtHansChristian_Transportogbygningsministeren_V" xml:id="ParlaMint-DK_20160224133329" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224133329-73">Tak for det. Regeringen har jo sagt meget klart, at vi ønsker at forbedre fremkommeligheden på den østjyske motorvej, E45, og derfor har vi også i modsætning til tidligere regering prioriteret E45 i regeringsgrundlaget, for trængselsproblemerne på E45 er ikke nye. Problemerne var der jo også dengang, SF havde posten som transportminister, og dengang var det bare, synes jeg, som om fokus var rettet mod letbaner og ikke mod en udbygning af vejnettet. Jeg har netop afholdt et statusmøde med den grønne forligskreds, hvor vi havde lejlighed til at drøfte den aktuelle investeringsudfordring. Som det fremgår af finanslovsaftalen for 2016, er niveauet for de offentlige investeringer væsentlig højere frem mod 2020, end der er råd til. Regeringen vil derfor her i foråret fremlægge konkrete forslag til tilpasninger på investeringsområdet, som skal drøftes af partierne bag aftalen om finansloven for 2016 og i relevante forligskredse. Så har jeg endvidere planer om at indkalde den grønne forligskreds til endnu et statusmøde, hvor vi bl.a. vil kunne drøfte partiernes ønsker til en fremtidig prioritering, herunder E45. I den forbindelse er jeg meget tilfreds med, at der blandt en række af oppositionspartierne synes at være stor opbakning til regeringens forslag om at forbedre fremkommeligheden på E45. Det er en opbakning, der virkelig også synes at være kommet her på det seneste, og det er jeg meget glad for.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224133453" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224133453-74">Tak. Så er det spørgeren.</seg>
+                </u>
+                <u who="DahlJonas_SF" xml:id="ParlaMint-DK_20160224133454" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224133454-75">Jeg tror måske ikke, transportministerens hukommelse er så god. Jeg skal ikke kunne sige hvorfor, men det er jo ikke nogen hemmelighed, at man i den tidligere regering, både dengang der var en SF-transportminister, og dengang der var en socialdemokratisk transportminister, har arbejdet med en udvidelse af dele af E45, særlig det stykke, der går fra Aarhus Nord og ned til Skanderborg. Så der har sådan set været arbejdet på det igennem længere tid. Mig bekendt er de også relativt langt fremme med et konkret forslag i Vejdirektoratet, og det kan så undre lidt, at man nu har haft den her diskussion igennem temmelig lang tid, igennem mange måneder, i forhold til hvad der skal ske. Jeg har hørt flere Venstrefolk give udtryk for, at det skulle ske, og at det var lige på trapperne, men jeg synes, det har været lidt svært at finde indkaldelsen til de konkrete drøftelser fra transportministerens side, og det er jo også derfor, jeg har valgt at rejse spørgsmålet i dag. For det er jo interessant at få at vide, både hvornår det så er, vi kan regne med at komme i gang med den politiske proces, men, hvad der er nok så vigtigt, også hvornår spaden kan stikkes i jorden, og hvornår de trafikanter, som færdes på E45, kan forvente at der er en øget fremkommelighed. Men nu kan jeg forstå på transportministeren, at vi kan regne med, at der i hvert fald er politiske drøftelser i foråret, og det vil jeg da sådan set gerne kvittere for. Kan transportministeren så også løfte sløret for, hvornår man kan forvente en ibrugtagning af en eventuelt udvidet E45?</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224133609" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224133609-76">Så er det ministeren. Værsgo.</seg>
+                </u>
+                <u who="SchmidtHansChristian_Transportogbygningsministeren_V" xml:id="ParlaMint-DK_20160224133610" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224133610-77">Nu er det jo sådan, at man kun kan bruge pengene én gang. Hvis man går tilbage til marts 2014, vil man kunne se, at man da med min forgænger for bordenden jo netop diskuterede, hvilke projekter man ville fremme. Der var ikke nogen projekter, der ikke var klar, og det gjaldt også i marts 2014. Men i marts 2014 besluttede man bare, at man ikke ville anvende pengene på en udvidelse af E45. Det er bare det, jeg siger: Hvis man har taget nogle beslutninger og brugt pengene, og man, da man lavede en prioritering dengang, valgte E45 fra, så synes jeg, man skal stå ved det. Jeg går slet ikke ind og siger, at man ikke må gøre det, jeg synes bare, man skal stå ved det.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224133652" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224133652-78">Tak. Spørgeren.</seg>
+                </u>
+                <u who="DahlJonas_SF" xml:id="ParlaMint-DK_20160224133654" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224133654-79">Jeg har i hvert fald selv kendskab til, at man i efteråret 2013 arbejdede med en konkret udvidelse af E45, og så kan vi gerne blive ved med at mundhugges om, hvornår der i givet fald blev taget hvilke tiltag, og vi kan også tage en lang diskussion om, hvem der har igangsat hvilke VVM-undersøgelser, og hvad det er, der i dag er en belastning på transportministerens budget. Men det, der jo sådan set er interessant, er, at transportministeren nu tilkendegiver, at man også er villig til at prioritere E45, og den diskussion vil vi sådan set gerne deltage i fra SF's side. Men derfor bliver det jo så også interessant, hvis transportministeren kan ulejlige sig med at svare på det spørgsmål, jeg så også stillede, nemlig hvornår vi kan forvente at man f.eks. er færdige med en udvidelse fra Aarhus Nord til Skanderborg.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224133732" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224133732-80">Tak. Ministeren.</seg>
+                </u>
+                <u who="SchmidtHansChristian_Transportogbygningsministeren_V" xml:id="ParlaMint-DK_20160224133734" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224133734-81">Jeg har jo sådan set allerede svaret på det, for jeg har sagt, at de penge, der var der, dengang der var en mulighed for at investere, er brugt. Det, der er problemet nu, er, at vi har en investeringsudfordring over for os, som betyder, at man ikke bare kan gå i gang med nogle projekter, om end man gerne ville, fordi man skal skaffe det råderum. Det har jeg sagt kommer her i foråret, for da lægger vi et forslag til et investeringsråderum frem. Men jeg er stadig væk bare nødt til at sige til hr. Jonas Dahl, at det altså var sådan, at projektet med f.eks. at bruge midterrabatterne, som er en rigtig god idé – for de er ret brede, så de kan bruges – lå der, men det vandt bare ikke gehør blandt forligspartierne. Der er det bare, jeg er nødt til at sige, at når man har brugt pengene én gang, så er de altså væk, og derfor har vi jo fælles gods her.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224133820" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224133820-82">Tak. Spørgeren.</seg>
+                </u>
+                <u who="DahlJonas_SF" xml:id="ParlaMint-DK_20160224133821" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224133821-83">Men det er jo netop derfor, det også er interessant at se på, hvad det så er for nogle penge, der kommer ind i kassen. Og der er der jo bl.a., synes jeg jeg har kunnet læse mig til, et ganske anseligt beløb, som er på vej ind i statskassen – eller til forligskredsen, om man vil – i forhold til en billiggørelse af Silkeborgmotorvejen, og det er jo også derfor, det er interessant at se på, om det så er noget af det, der kan danne baggrund for en finansiering. Men jeg vil gerne kvittere for, at transportministeren nu løfter sløret for, hvad det er for en politisk proces, vi så kan forvente, og at vi altså allerede i løbet af foråret vil blive indkaldt til politiske drøftelser. Vi ser da fra SF's side meget frem til, at man nu endelig får taget en politisk diskussion af det. Så er det klart, at man selvfølgelig også skal sikre sig en finansiering, men der har jeg da også en forventning om at transportministeren er indstillet på at rydde op i de VVM-redegørelser, man lavede, dengang transportministeren sidst var transportminister.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224133905" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224133905-84">Tak. Ministeren.</seg>
+                </u>
+                <u who="SchmidtHansChristian_Transportogbygningsministeren_V" xml:id="ParlaMint-DK_20160224133906" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224133906-85">Jeg tror ikke, jeg afslører noget ved at sige det, jeg siger her, for det har stået i aviserne, og jeg har sendt det over som skriftlige svar – for der er jo mange, der har spurgt om de her ting – og derfor kan jeg bare bekræfte, hvad jeg tidligere har sagt: Ja, man vil blive indkaldt til de her møder.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224133920" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224133920-86">Tak til ministeren, og tak til spørgeren. Så er der en ny spørger til transport- og bygningsministeren, nemlig hr. Kaare Dybvad, Socialdemokratiet.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 668: Om det fulde landevejsprincip for færgerne.</head>
+            <note type="agendaItem">2016-02-24-1-5</note>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224133931" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224133931-87">Værsgo for en begrundelse.</seg>
+                </u>
+                <u who="DybvadKaare_S" xml:id="ParlaMint-DK_20160224133935" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224133935-88">Spørgsmålet lyder: Er ministerens løfte om at indføre det fulde landevejsprincip for færgerne til de danske øer, herunder på de statslige ruter, stadig gældende?</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224133948" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224133948-89">Ministeren.</seg>
+                </u>
+                <u who="SchmidtHansChristian_Transportogbygningsministeren_V" xml:id="ParlaMint-DK_20160224133950" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224133950-90">Tak for spørgsmålet. Jeg vil gerne starte med at råde bod på en misforståelse. Jeg har hverken før eller efter valget givet noget løfte. Jeg har sagt, at jeg synes, det er en god idé. Det er i øvrigt en sag, jeg har arbejdet med i næsten 3½ år, så det er noget, vi har brugt meget tid på. Og jeg er glad for, at jeg i dag kan bekræfte, at ja, jeg er positivt indstillet over for landevejsprincippet – det var jeg sådan set også før valget. Men det er vel heller ingen hemmelighed, at det var meget svært at få den tidligere regering til at se med milde øjne på det her forslag. Når det er sagt, har jeg også hele tiden understreget, at finansieringen skal være på plads. Regeringens aftale med Dansk Folkeparti, Liberal Alliance og Det Konservative Folkeparti om vækst og udvikling i hele Danmark er et stort skridt i den rigtige retning. Vi afsætter 48 millioner i 2016 og 95 millioner årligt fra 2017 og frem til billigere færgetakster for øerne, og dermed er vi på få måneder kommet meget længere, end den tidligere regering kom på næsten 4 år. Nu skal vi så i gang med at se på, hvordan vi får fordelt midlerne, og det er social- og indenrigsministerens bord – jeg ved, der har været forhandlinger i går. Når vi ved, hvor mange penge der er til de statslige færgeruter til Bornholm og Samsø, står jeg for at udmønte billetreduktionerne på de ruter sammen med forligskredsen.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224134109" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224134109-91">Spørgeren.</seg>
+                </u>
+                <u who="DybvadKaare_S" xml:id="ParlaMint-DK_20160224134110" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224134110-92">Tak. Ministeren blev spurgt af TV Syd den 7. maj 2015, om han gik ind for landevejsprincippet, og dertil svarede han – jeg citerer: »Ja, det er jo præcis det, vi har foreslået. Vi har sagt, at det er den model, vi skal have.«  Citat slut. Ministeren er jo velbekendt med, at landevejsprincippet i sin helhed koster 281 millioner. Der er jo afsat 47 millioner og så de 48 millioner, der lå der i forvejen . Derfor kan jeg ikke lade være med at spørge igen – jeg synes ikke, jeg fik et klart svar. Der blev sagt, at man er positivt indstillet, og ministeren konkluderede det åbenlyse, som er, at finansieringen skal være på plads, men går ministeren ind for landevejsprincippet, og vil ministeren indføre det fulde landevejsprincip, som han udtalte før valget på TV Syd den 7. maj 2015, på de 281 millioner?</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224134206" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224134206-93">Tak. Ministeren.</seg>
+                </u>
+                <u who="SchmidtHansChristian_Transportogbygningsministeren_V" xml:id="ParlaMint-DK_20160224134208" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224134208-94">Nu kan jeg have stor forståelse for, at hr. Kaare Dybvad ikke rigtig kan huske alle debatter, vi har haft her i Folketinget, når man ikke har siddet her med det, men derfor modtager jeg det alligevel positivt. Og tro mig, jeg ved godt, hvad der blev bragt i TV Syd, og jeg kan bare bekræfte, at ja, jeg er stor tilhænger af landevejesprincippet, og ja, heldigvis er vi kommet i gang med det. Og vi må jo bare sige til hinanden, at det skete aldrig i den tidligere regerings periode, men nu sker det.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224134236" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224134236-95">Værsgo til spørgeren.</seg>
+                </u>
+                <u who="DybvadKaare_S" xml:id="ParlaMint-DK_20160224134238" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224134238-96">Nu bliver det lidt personligt, det er jo ikke meningen, men jeg kan ikke lade være med at hæfte mig ved, at da den tidligere regering spillede ud med 133 millioner, blev det af ministerens parti betegnet som uambitiøst. Nu har man så givet et mindre beløb, altså 95 millioner. Jeg spørger bare igen for at være helt sikker: Har man fra den her regerings side tænkt sig at indføre det fulde landevejsprincip?</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224134308" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224134308-97">Værsgo til ministeren.</seg>
+                </u>
+                <u who="SchmidtHansChristian_Transportogbygningsministeren_V" xml:id="ParlaMint-DK_20160224134309" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224134309-98">Hr. Kaare Dybvad har helt ret i, at 133 millioner er et stort tal, men nu er vi jo nogle, der kommer fra en egn, hvor vi godt vil se pengene og ikke bare vil se tallet, og her var problemet – tallet kunne vi få øje på, der var bare ingen penge bag ved.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224134326" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224134326-99">Tak. Og så er der en medspørger, som er fru Lea Wermelin, også fra Socialdemokratiet. Værsgo.</seg>
+                </u>
+                <u who="WermelinLea_S" xml:id="ParlaMint-DK_20160224134333" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224134333-100">Tak for det. Det er jo ikke nogen hemmelighed, at det her er en vigtig sag, som vi også førhen har brugt meget tid på sammen med ministeren. Og det har vi jo, fordi det er så vigtigt for øerne. Men det kommer bag på mig, når ministeren så siger, at der ikke var nogen penge bag. For det første fordi ministeren jo nu selv er med til at bruge nogle af de penge, som den forrige regering satte af. Og for det andet, fordi ministeren på finansloven for i år bruger penge på alt muligt andet. Så der er masser penge, spørgsmålet er, hvordan vi bruger dem. Jeg skal bare være sikker på, at jeg forstår det, ministeren siger. For samtlige øer har forstået det på den måde, at ministeren har lovet landevejsprincippet. Det er jo også derfor, at øerne har været så optaget af, at regeringen og ministeren skulle indfri det, der er blevet lovet. Skal vi forstå det sådan, at ministeren nu ikke lover at ville indføre landevejsprincippet?</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224134428" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224134428-101">Ministeren, værsgo.</seg>
+                </u>
+                <u who="SchmidtHansChristian_Transportogbygningsministeren_V" xml:id="ParlaMint-DK_20160224134429" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224134429-102">Jeg vil opfordre spørgeren til at læse det, som borgmesteren på Læsø siger. Det interessante i den her sag er jo, at de tre øer, der var med dengang, hvor vi diskuterede det – og vi startede det i øvrigt på Ærø, da jeg selv var formand for Landdistriktsudvalget – var Læsø, Samsø og Ærø og ingen andre. De kom med modellen til, hvorden landevejsprincippet skulle løses. Og det interessante er jo at læse det, som borgmesteren på Læsø i dag siger. Han siger nemlig, at hvis det var det, vi kunne i den her omgang, så ville han sige tak, og han kunne godt se, at nu var vi startet på landevejsprincippet. Jeg kan næsten ikke engang anklage den tidligere regering for, at den aldrig kom i gang med det, for den kunne overhovedet ikke lide det. Og når vi havde høringer her i Folketinget, hørte vi også kun fra regeringen, at man var imod den. Så jeg kan næsten ikke engang angribe dem for det, for de har aldrig brudt sig om ordningen, og det er vel ikke rimeligt at skælde dem ud for noget, de aldrig har holdt af. Men nu skete det, og det synes jeg man skal være glad for.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224134522" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224134522-103">Værsgo, spørgeren.</seg>
+                </u>
+                <u who="WermelinLea_S" xml:id="ParlaMint-DK_20160224134523" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224134523-104">Det virker nu alligevel, som om ministeren ikke har noget problem med at bruge tiden på at se tilbage og skælde ud og pege fingre ad alle mulige andre i stedet for at forholde sig til det, ministeren selv har sagt, nemlig at det var den model, vi skulle have, og at ministeren derfor har stillet øerne den her landevejsmodel i udsigt. Derfor er det jo også et meget simpelt spørgsmål: Går ministeren stadig ind for at indføre det fulde landevejsprincip? Gælder det løfte stadig – ja eller nej?</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224134555" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224134555-105">Værsgo.</seg>
+                </u>
+                <u who="SchmidtHansChristian_Transportogbygningsministeren_V" xml:id="ParlaMint-DK_20160224134556" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224134556-106">Jeg støtter landevejsprincippet så meget, at jeg i modsætning til den tidligere regering afsætter penge til det – endda rigtige penge – og laver en aftale om det. For selv om spørgeren har sagt det her rigtig mange gange, hvad det jo ikke bliver mere rigtigt af, er jeg nødt til at minde spørgeren om, at der ikke var nogen penge, og der var ingen aftale. Og hvis man har set mange aftaler herinde i Folketinget, kan man kan nemt kende en aftale. Sådan en er nemlig underskrevet, så man ved, hvem man har lavet aftalen med. Og dem var der ingen af.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224134622" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224134622-107">Tak for det. Og så er det sidste omgang til spørgeren. Værsgo, hr. Kaare Dybvad.</seg>
+                </u>
+                <u who="DybvadKaare_S" xml:id="ParlaMint-DK_20160224134625" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224134625-108">Ja. Jeg holder jo også meget af ministerens egn, og en ting, jeg har lært om det sønderjyske område, er jo ikke bare det med pengene, men også, at et ord er et ord, og at når man siger noget, må man også stå ved det. Derfor bekymrer det her mig jo lidt, for vi kommer her i dag og præsenterer ministeren for nogle udtalelser og beder egentlig bare om den i vores hoved helt simple bekræftelse af, at man så også står ved det, som man praktiserer bl.a. på ministerens hjemegn. Så bare for sidste gang: Kan vi få at vide, om regeringen har planer om at indføre det fulde landevejsprincip, ja eller nej?</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224134701" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224134701-109">Ministeren.</seg>
+                </u>
+                <u who="SchmidtHansChristian_Transportogbygningsministeren_V" xml:id="ParlaMint-DK_20160224134703" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224134703-110">Det er jo indlysende, at hvis man gerne vil vide, om regeringen indfører det fulde landevejsprincip, så skal man jo følge med i, hvad der sker i den næste tid, for vi skal jo skaffe råderum til det. Det er det, der gør den store forskel på den her regering og den tidligere. Den her vidste, at den skulle skaffe råderum til det, og det gjorde den, og nu har vi taget den første del. I øvrigt vil jeg sige endnu en gang, som Læsøs borgmester f.eks. kvitterede for, at det er interessant, at dem, der var med, dengang vi startede det, godt ved, hvad det gik ud på, de kan godt kende forskel på det. Jeg er sådan set glad for, at Læsøs borgmester har kvitteret her.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224134737" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224134737-111">Tak for det. Så er der et nyt spørgsmål til transport- og bygningsministeren af hr. Kaare Dybvad, Socialdemokratiet.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 669: Om trafikal ligestilling.</head>
+            <note type="agendaItem">2016-02-24-1-6</note>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224134745" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224134745-112">Værsgo.</seg>
+                </u>
+                <u who="DybvadKaare_S" xml:id="ParlaMint-DK_20160224134746" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224134746-113">Tak. Spørgsmålet lyder, som følger: Mener ministeren fortsat, at man altid finder penge til det, man selv står for, jf. udtalelserne om trafikal ligestilling i Fyns Amts Avis den 15. juni 2014?</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224134803" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224134803-114">Værsgo til ministeren.</seg>
+                </u>
+                <u who="SchmidtHansChristian_Transportogbygningsministeren_V" xml:id="ParlaMint-DK_20160224134804" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224134804-115">Tak for spørgsmålet. Jamen som jeg svarede på det forrige spørgsmål, er jeg er positivt indstillet over for landevejsprincippet. Det var jeg før valget, og det er jeg stadig. Og derfor er jeg stadig utrolig glad for den aftale, som regeringen har indgået med Dansk Folkeparti, Liberal Alliance og Det Konservative Folkeparti om vækst og udvikling i hele Danmark. Her afsætter vi 48 mio. kr. i 2016 og 95 mio. kr. årligt fra 2017 og frem til billigere færgetakster for øerne. Det er et kæmpe skridt fremad, ikke mindst i forhold til hvad den tidligere regering afsatte, hvilket jo var 0 kr. Og vi er på få måneder kommet meget længere, end den tidligere regering kom på næsten 4 år. Når det er sagt, har jeg også hele tiden understreget, at finansieringen skal være på plads, og det er den her.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224134851" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224134851-116">Tak. Spørgeren.</seg>
+                </u>
+                <u who="DybvadKaare_S" xml:id="ParlaMint-DK_20160224134853" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224134853-117">Jeg er lidt ked af al den omtale af den tidligere regering, for det er jo sådan set ikke det, der er spørgsmålet, og det er sådan set heller ikke det, vi diskuterer, altså hvad den tidligere regering har gjort og ikke gjort. Det, vi diskuterer, er det spørgsmål, der er stillet, altså om man mener, man kan finde pengene, hvis man har lyst. Og jeg citerer bare her fra Bornholms Tidende den 11. juni 2013: Så siger nogle, at vi mangler penge, men hør nu, venner, det siger I jo altid. Det med pengene er bare noget, man bruger som undskyldning. Citat slut. Det er altså ministeren, som her udtaler sig til Bornholms Tidende, og Bornholm er jo en af de egne, hvor man for alvor her kan mærke forskel. Men mener ministeren ikke længere, at det er sådan, når man f.eks. afsætter 350 mio. kr. Og der er mange andre ting, der er blevet vedtaget her på finansloven. Men man kunne altså ikke finde penge til landevejsprincippet i den fulde form eller blot landevejsprincippet i den form, som var præsenteret af den tidligere regering, altså de 133 mio. kr. Så når man bliver ved det med, at et ord er et ord, mener ministeren så stadig de ord, han sagde til Bornholms Tidende om, at man altid kan finde pengene, hvis man gerne vil det?</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224135005" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224135005-118">Ministeren, værsgo.</seg>
+                </u>
+                <u who="SchmidtHansChristian_Transportogbygningsministeren_V" xml:id="ParlaMint-DK_20160224135006" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224135006-119">Ja, nu er selve aftalen jo et bevis i sig selv, for her fandt vi netop pengene. Så jeg går ud fra, at spørgeren mener, at så er det dækket af. Så kan jeg jo samtidig sige, at spørgeren forsøger at opbygge en myte om, at jeg lover at finde penge til at indføre et landevejsprincip fuldt og helt. Jeg er ked af at måtte ødelægge den myte, men det er altså ikke tilfældet. Jeg står gerne ved, at jeg støtter landevejsprincippet. Og jeg er derfor også glad for regeringens tiltag, som bringer os et godt stykke ad vejen.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224135035" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224135035-120">Værsgo til spørgeren.</seg>
+                </u>
+                <u who="DybvadKaare_S" xml:id="ParlaMint-DK_20160224135038" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224135038-121">Det er jo ingen hemmelighed, at det, der er afsat, ikke dækker det fulde landevejsprincip. Jeg citerer her fra ministerens partifælle, der er borgmester på Fanø, Erik Nørby, som siger til Ritzau den 9. februar i år: »Ministeriet har under den tidligere regering lavet en rapport, som sagde, at der skulle bruges 281 millioner årligt for at gennemføre trafikal ligestilling fuldt ud. Så den nye aftale ligger noget under det beløb, det vil koste fuldt ud«. Når man tager den bemærkning i betragtning, mener ministeren så stadig, at man finder pengene, hvis man har lyst?</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224135108" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224135108-122">Ministeren, værsgo.</seg>
+                </u>
+                <u who="SchmidtHansChristian_Transportogbygningsministeren_V" xml:id="ParlaMint-DK_20160224135111" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224135111-123">Jeg skal ikke gå ind i en debat med Fanøs borgmester om, hvad han mener eller ikke mener. Jeg ved, at han bare ikke var der, dengang vi startede hele debatten, så jeg tror nok, at man skal prøve at kigge hen mod de borgmestre, som var med dengang, vi startede landevejsprincippet. Fanøs borgmester er jo bare kommet med sådan lige til sidst. Altså, de, der var med fra starten, var Læsø, Samsø og Ærø, og jeg synes, at det er interessant, hvad de mennesker siger. De ved om nogen, hvor meget vi har måttet kæmpe for det her. De kan huske, at vi havde de store høringer nede i Landstingssalen, hvor det jo var svært, om ikke umuligt, at finde et flertal til at gå ind i det her, og da slet ikke med den tidligere regering. Jeg kan godt forstå, at spørgeren ikke bryder sig om, at jeg taler så meget om den tidligere regering, men nu er det jo spørgerens parti, som sad i regering, så jeg kan næsten ikke undgå det, men jeg vil prøve at bestræbe mig på at lade være med at nævne den.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224135157" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224135157-124">Tak for det. Vi har en medspørger, og det er fru Lea Wermelin, Socialdemokratiet. Værsgo.</seg>
+                </u>
+                <u who="WermelinLea_S" xml:id="ParlaMint-DK_20160224135202" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224135202-125">Tak. Det er lidt svært at blive klog på, hvad ministeren egentlig mener her. Citaterne står jo meget klart – det har vi også lige hørt fra hr. Kaare Dybvad. Men spørgsmålet er: Mener ministeren det stadig væk? For vi kunne se, at på den finanslov, som ministerens parti, som jo er det eneste parti i regeringen, har indgået, kan man rask væk finde 570 mio. kr. til grundskyld, 350 mio. kr. til registreringsafgift, 200 mio. kr. til arveafgift, 800 mio. kr. til boligjobordning. Der bliver brugt masser af penge. Spørgsmålet er jo, hvordan man prioriterer pengene. Så bare lige for at forstå ministeren i forhold til det her citat om, at man finder penge til det, man selv står for, skal vi så forstå det sådan, at de ting, jeg lige listede op i finansloven, er vigtigere for ministeren end trafikal ligestilling?</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224135254" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224135254-126">Værsgo, ministeren.</seg>
+                </u>
+                <u who="SchmidtHansChristian_Transportogbygningsministeren_V" xml:id="ParlaMint-DK_20160224135257" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224135257-127">Jeg kan godt forstå, at når der nu er stillet to spørgsmål, skal vi også ligesom få en snak om det her, men jeg har jo svaret på det her flere gange. Jeg gør det gerne igen. Jeg skal bare sige meget tydeligt, at hvis man vil lave forlig her på Christiansborg, skal man gøre det i et flertal, og det er sådan, at flere forskellige partier altid har flere forskellige ønsker for, hvad de må finde. Og vi har altså fundet det, vi lige har lovet, nemlig en start på landevejsprincippet, og det synes jeg faktisk er flot, særlig når jeg tænker på, at det i hvert fald overhovedet ikke var noget, vi overtog, for der lå ikke en aftale og der var ingen penge afsat.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224135331" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224135331-128">Spørgeren.</seg>
+                </u>
+                <u who="WermelinLea_S" xml:id="ParlaMint-DK_20160224135333" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224135333-129">Det sidste, ministeren siger, er jo ikke rigtigt. For det første er de 48 mio. kr. ud af de 95 mio. kr., som ministeren nu rask væk bruger, jo penge, som SR-regeringen afsatte. Så vi fandt altså flere penge, som lå klar i kassen til den nuværende regering. For det andet var der jo et økonomisk råderum, som ministeren så har brugt på alt muligt andet, som vi må forstå er vigtigere. Og det er sådan set bare det, vi spørger til, altså: Er det vigtigere for ministeren at bruge de penge på det frem for på trafikal ligestilling?</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224135402" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224135402-130">Så er det ministeren.</seg>
+                </u>
+                <u who="SchmidtHansChristian_Transportogbygningsministeren_V" xml:id="ParlaMint-DK_20160224135404" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224135404-131">Altså, jeg vil sige til spørgeren, at hun endelig ikke skal opfatte det her som en belæring, for det kan jeg slet ikke lide, men jeg er bare nødt til at sige til spørgeren, at jeg vil opfordre spørgeren til for en anden gangs skyld at sikre, at hvis man bagefter vil stå og fortælle om noget, man har lavet, så skal man huske at få en aftale underskrevet; man skal huske, at nogle mennesker skal have skrevet under på den aftale, så man ikke bare selv går og fortæller det. Jeg har nemlig bedt om at få den aftale at se, og hvis det er sådan, at den findes, vil jeg stadig væk gerne se den. Men indtil nu har jeg ikke kunnet få den at se.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224135434" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224135434-132">Tak for det. Så er det det sidste spørgsmål til spørgeren.</seg>
+                </u>
+                <u who="DybvadKaare_S" xml:id="ParlaMint-DK_20160224135438" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224135438-133">Mange tak. Ministeren belærte mig venligt om, hvilke øer der var med i den her aftale til at starte med, så lad mig så tage en af de øer, som var med. Peter Hansted fra Ærø Kommune, siger: Det er en blanding af glæde og skuffelse. Vi er glade for, at problematikken er anerkendt, men vi er skuffede over mængden af penge, der bliver puttet i puljen. Kan ministeren følge viceborgmesteren på Ærøs skuffelse over så få penge, der er blevet puttet i puljen?</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224135510" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224135510-134">Værsgo til ministeren.</seg>
+                </u>
+                <u who="SchmidtHansChristian_Transportogbygningsministeren_V" xml:id="ParlaMint-DK_20160224135511" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224135511-135">Jeg kan i hvert fald bekræfte, at manden har fuldstændig ret – politik er en blanding af glæde og skuffelse.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224135521" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224135521-136">Tak for det. Tak til spørgeren, og tak til ministeren. Så er der et nyt spørgsmål til transport- og bygningsministeren af hr. Rasmus Prehn, Socialdemokratiet.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 685: Om Aalborg Kommunes nye planer om etablering af en såkaldt BRT-løsning med hurtige busser i egne busbaner.</head>
+            <note type="agendaItem">2016-02-24-1-7</note>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224135531" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224135531-137">Værsgo.</seg>
+                </u>
+                <u who="PrehnRasmus_S" xml:id="ParlaMint-DK_20160224135532" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224135532-138">Jeg vil læse spørgsmålet op: Hvad er ministerens holdning til Aalborg Kommunes nye planer om etablering af en såkaldt BRT-løsning med hurtige busser i egne busbaner nu, hvor Aalborg Letbane blev droppet af regeringen, og forestiller ministeren sig nogle muligheder for, at statslige puljer kan søges af Aalborg Kommune til at medfinansiere anlæg af nye busbaner, perronanlæg, stoppesteder m.v.?</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224135601" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224135601-139">Tak. Ministeren.</seg>
+                </u>
+                <u who="SchmidtHansChristian_Transportogbygningsministeren_V" xml:id="ParlaMint-DK_20160224135602" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224135602-140">Tak for spørgsmålet. Jeg havde i januar et godt møde med borgmesteren og rådmanden i Aalborg Kommune, hvor de kort præsenterede deres plan om en BRT-løsning, og jeg er i udgangspunktet positivt indstillet over for, at man i Aalborg nu arbejder på en trafikal løsning, der trods alt har et lavere prisniveau og en bedre samfundsøkonomi end letbanen. Det har jeg også tilkendegivet over for Aalborg Kommune. Jeg har aftalt med kommunen, at de sender mig noget uddybende materiale om projektet, og det ser jeg frem til at få. Og så forventer jeg, at kommunens materiale kan danne grundlag for videre drøftelser af perspektiverne i projektet. Når det er sagt, vil jeg sige, at vi jo som bekendt befinder os i en situation, hvor den tidligere regering har truffet beslutninger om alt for mange offentlige investeringer, i forhold til hvad der reelt er økonomisk råderum til. Foran regeringen ligger der derfor nu et arbejde med at få tilpasset de offentlige investeringer, så de følger det planlagte og finansierede niveau frem mod 2020. Og jeg vil ikke på nuværende tidspunkt afvise muligheden for, at Aalborg Kommune på et tidspunkt kan søge om statslige midler til en medfinansiering i forbindelse med et BRT-projekt. Men lige nu er regeringen nødt til at få genoprettet en ansvarlig økonomisk politik, og i lyset heraf synes det derfor umiddelbart vanskeligt i den kommende tid at se et statsligt bidrag til finansiering af en BRT-løsning i Aalborg.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224135719" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224135719-141">Værsgo, spørgeren.</seg>
+                </u>
+                <u who="PrehnRasmus_S" xml:id="ParlaMint-DK_20160224135719-2" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224135719-2-142">Det er jo ganske interessant at høre ministerens besvarelse her, når den kommer lige efter det foregående spørgsmål. Der kom det jo frem, at i den tid, hvor vi Socialdemokrater havde regeringsmagten, var den nuværende minister i opposition og slog på tromme for at bruge endnu flere penge. Men nu, hvor ministeren er minister, rynker han sådan lidt brynene og siger, at der bliver brugt for mange penge, og nu må vi rette op. Det er da ret interessant. Men pyt nu med det, for jeg vælger en positiv tilgang til det her. Jeg har også hørt fra Aalborg Kommunes dygtige borgmester, Thomas Kastrup-Larsen, at der har været et rigtig godt møde med ministeren, og jeg glæder mig over, at ministeren kvitterer for, at man fra Aalborg Kommunes side har valgt at sige: Jamen her i Aalborg ser vi mulighederne i problemerne frem for problemerne i mulighederne. Og det gør man, selv om man står i en situation, hvor man ikke, i modsætning til de andre store byer i Danmark, fik statslig medfinansiering til et letbaneprojekt. Derfor prøver man at lave en ny løsning, nemlig en busløsning, som jo sådan set er en slags unplugged letbane, så man undgår køreledninger og undgår så meget gravearbejde, men man kan altså lave en tilsvarende løsning, bare busbaseret. Det bliver selvfølgelig ikke helt det samme, men det kommer til at være et godt alternativ til at have en letbane. Der synes jeg da det er enormt positivt, at ministeren så siger: Hvis man arbejder videre med det her, vil vi gerne fra regeringens side kigge på, hvad der er af muligheder. Jeg hører så også, at det ikke er lige rundt om hjørnet. Men kan ministeren måske løfte sløret for, hvilke forhandlingskredse det kunne være relevant at tage det her op i? Er det i den grønne forligskreds, eller er det inden for aftalen om bedre og billigere kollektiv trafik? Og hvad for en tidshorisont ser ministeren i forhold til at få gang i det her? For Aalborg Kommune føler sig jo på en måde lidt dårligt behandlet ved ikke at få penge til letbanen, og på den måde er man måske lidt utålmodig i forhold til så at få et tilsagn om det med BRT-løsningen. Så kan ministeren løfte sløret lidt for tidshorisonten? For man vil meget gerne arbejde konstruktivt videre med ministeren.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224135930" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224135930-143">Værsgo til ministeren.</seg>
+                </u>
+                <u who="SchmidtHansChristian_Transportogbygningsministeren_V" xml:id="ParlaMint-DK_20160224135932" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224135932-144">Nej, det kan jeg ikke løfte sløret for. Og det andet, jeg vil sige, er, at for mig er det ikke så afgørende, hvilken kreds det bliver i. Jeg er sådan set åben over for, at det kan være i en hvilken som helst kreds. Men det er jo klart, at en af de kredse, som spørgeren nævnte her, er regeringen ikke en del af, så for mig er det mest naturlige nok at starte med at tale om det i den grønne forligskreds. Men jeg kan ikke begynde at give bud på det, før jeg ser den investeringsudfordring, og hvordan vi håndterer det råderum, vi her i foråret prøver på at skaffe.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224140005" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224140005-145">Værsgo, spørgeren.</seg>
+                </u>
+                <u who="PrehnRasmus_S" xml:id="ParlaMint-DK_20160224140006" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224140006-146">Det respekterer jeg. Jeg vil høre: Er ministeren opmærksom på, hvad for et kolossalt trafikmæssigt pres man er under i Aalborg Kommune, altså den trængsel, der er ved at opstå omkring Aalborg Universitet, og den trængsel, der er udsigt til, når man får det nye universitetshospital? Er ministeren klar over, hvilke problemer der kan opstå, hvis man ikke får lavet en løsning, der er prioteret højere, end de almindelige bybusser, der kører i Aalborg Kommune i øjeblikket?</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224140038" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224140038-147">Værsgo, ministeren.</seg>
+                </u>
+                <u who="SchmidtHansChristian_Transportogbygningsministeren_V" xml:id="ParlaMint-DK_20160224140039" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224140039-148">Jo, men jeg er altid interesseret i at der findes nogle gode løsninger. Og jeg vil også gerne sige, at når man laver en udvikling på andre områder, er det også vigtigt at prøve at tænke infrastruktur ind i det. Jeg synes også, det er i orden, at man kæmper meget for sine områder. Det værdsætter jeg, og jeg har heller ikke noget imod, at hr. Rasmus Prehn selvfølgelig forsøger at sige noget om den her sag. Det synes jeg er, som det skal være. Jeg kommer det bare ikke nærmere i dag, for jeg har ikke mere viden om det. Og jeg vil lige skaffe mig et overblik over råderummet, før jeg begynder at begive mig ind i det.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224140109" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224140109-149">Værsgo.</seg>
+                </u>
+                <u who="PrehnRasmus_S" xml:id="ParlaMint-DK_20160224140111" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224140111-150">Det vil jeg jo så som socialdemokratisk transportordfører respektere. Det er sådan, vi arbejder, det er sådan, vi forhandler. Kunne ministeren her til sidst gøre sig nogle overvejelser om, hvilket perspektiv der er i, at Aalborg, nu hvor man har prøvet letbaneprojekter af i de andre storbyer, så også på en måde bliver en pioner, der prøver BRT-løsningen? Hvilke tanker gør man sig i ministeriet om at prøve sådan en helt ny måde at løse problemerne med den kollektive trafik på, og hvad er ministeriets og ministerens egen holdning til, at man nu går pionervejen fra Aalborg Kommunes side og tænker kreativt og nyt og faktisk laver en løsning, der bliver billigere og også har mange af fordelene?</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224140152" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224140152-151">Ministeren, værsgo.</seg>
+                </u>
+                <u who="SchmidtHansChristian_Transportogbygningsministeren_V" xml:id="ParlaMint-DK_20160224140154" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224140154-152">Nu skal man altid både glæde sig over en pionerånd og også være lidt på vagt, fordi det med en pionerånd har det med at munde ud i et spørgsmål, om man så kunne tænke sig at hjælpe lidt til i forbindelse med sådan en pionerånd, og det er jo det, jeg ikke gerne vil ind i. Men jeg vil da gerne kvittere for det og sige, at jeg synes, det er interessant, at man her siger: Skulle vi ikke prøve at kigge på en BRT-model og ligesom få den afprøvet på en måde, så vi også finder ud af, om den i grunden er et godt alternativ. Så jeg vil gerne kvittere for det. Jeg synes, at det er et rigtig godt og spændende projekt, som jeg følger nøje.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224140227" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224140227-153">Tak til ministeren og til spørgeren. Det næste spørgsmål er til erhvervs- og vækstministeren af fru Pernille Schnoor, Socialdemokratiet.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 689: Om at kommunerne kan prioritere 25 pct. almene boliger til almindelige familier i lokalplanerne.</head>
+            <note type="agendaItem">2016-02-24-1-8</note>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224140236" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224140236-154">Værsgo at komme med en begrundelse.</seg>
+                </u>
+                <u who="SchnoorPernille_S" xml:id="ParlaMint-DK_20160224140238" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224140238-155">Jeg læser spørgsmålet op: Ønsker ministeren at fjerne muligheden for, at kommunerne kan prioritere 25 pct. almene boliger til almindelige familier i lokalplanerne, så politibetjente, sygeplejersker og håndværkere får sværere ved at finde en bolig, de kan betale, i storbyerne?</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224140259" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224140259-156">Værsgo til ministeren.</seg>
+                </u>
+                <u who="PoulsenTroelsLund_Erhvervsogvækstministeren_V" xml:id="ParlaMint-DK_20160224140301" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224140301-157">Tak for det, og tak for spørgsmålet. Regeringen mener, at en blandet boligsammensætning i byerne er ønskelig, men vi ønsker også, at det fortrinsvis nås ad frivillighedens vej. Regeringen har med strategien »Vækst og udvikling i hele Danmark«, som vi præsenterede i november måned, foreslået at fjerne muligheden i planloven for, at kommuner kan stille krav om op til 25 pct. almene boliger i forbindelse med lokalplanlægning af nye boligområder. En blandet bolig- og beboersammensætning i byerne vil jeg dog gerne understrege er ønskelig af flere grunde. Jeg finder det bl.a. hensigtsmæssigt, at familier med det, nogle kalder såkaldt almindelige indtægter, som f.eks. en sygeplejerske, en skolelærer eller en politibetjent, har råd til også at bo i de større byer, så de jobs også kan besættes tæt på den bopæl, man måtte have. Det er også vigtigt for bl.a. den integration, der skal være, af vores indvandrere. Det er en særlig udfordring at sikre den blandede beboersammensætning i de store byer, særlig i København, hvor både grund- og boligpriserne er høje. Kommunerne har en række muligheder for at understøtte, at der opføres nyt alment boligbyggeri ud over muligheden i planloven om at stille krav om en andel almene boliger i nye boligområder. Og lad mig nævne dem. For det første kan kommunalbestyrelsen på statens vegne give tilsagn om offentlig støtte til opførelse af nye almene boliger i kommunen. Kommunen betaler her 10 pct. af anskaffelsessummen til opførsel af alment boligbyggeri. Desuden stiller kommunen garanti for lånet, hvilket betyder, at de almene boligselskaber kan optage realkreditlån. Derudover giver staten ydelsesstøtte til tilbagebetaling af lånet. I 2016 forventes den samlede offentlige støtte til alment boligbyggeri således at udgøre ca. 2 mia. kr. For det andet kan de fem store kommuner yde et ekstra grundkøbslån inden for en samlet ramme på 500 mio. kr., hvis de ønsker almene boliger i særlig attraktive boligområder, der er planlagt. Grundkøbslånet gives af kommunerne til de almene boligorganisationer og ydes rente- og afdragsfrit i 50 år. Disse muligheder ønsker regeringen naturligvis at fastholde, således at en blandet boligsammensætning fremadrettet kan sikres ad frivillighedens vej.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224140514" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224140514-158">Værsgo, spørgeren.</seg>
+                </u>
+                <u who="SchnoorPernille_S" xml:id="ParlaMint-DK_20160224140515" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224140515-159">Jamen det glæder mig at høre, at også ministeren og regeringen sætter pris på en blandet boligsammensætning, og at den er ønskelig i byerne. Ministeren nævner, at det så også skal ske ad frivillighedens vej. Jeg kunne godt tænke mig at spørge ministeren om noget. I eksempelvis Københavns Kommune skønner man, at frem mod år 2027 kommer man til at mangle 45.000 boliger. Boligøkonom ved BRFkredit, Mikkel Høegh, har sagt, at når nu man kommer til at mangle alle de her boliger og efterspørgslen bliver så stor, vil presset på at finde boligerne blive større, og priserne vil blive presset i vejret, altså endnu højere op. I København ser vi nu priser på omkring 50.000 kr. pr. kvadratmeter. Er ministeren enig i, at ved den store efterspørgsel og mangel på boliger vil priserne på små boliger blive presset op, hvis loven droppes?</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224140623" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224140623-160">Ministeren, værsgo.</seg>
+                </u>
+                <u who="PoulsenTroelsLund_Erhvervsogvækstministeren_V" xml:id="ParlaMint-DK_20160224140625" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224140625-161">Jeg har ikke haft mulighed for at læse det, som spørgeren nu bringer op i debatten. Jeg svarer gerne på det skriftligt. Jeg har det på den måde, at hvis jeg skal svare på noget fyldestgørende, giver det god mening, at jeg selv har læst det i en sammenhæng. Der bliver jo nogle gange taget ting ud af en sammenhæng. Men lad mig blot igen minde spørgeren om, at de fem store kommuner, og København er jo en af de fem store, f.eks. kan medvirke til at sikre en blandet boligsammensætning i attraktive boligområder ved at yde de særlige grundkøbslån til etablering af almene boliger i allerede planlagte boligområder. Det blev der åbnet op for sidste år. Denne mulighed har kommunerne ikke brugt indtil videre, og derfor vil jeg da også opfordre til, at man bruger den mulighed for at sikre en blandet boligsammensætning.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224140712" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224140712-162">Tak for det. Spørgeren.</seg>
+                </u>
+                <u who="SchnoorPernille_S" xml:id="ParlaMint-DK_20160224140713" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224140713-163">Nu vil ministeren ikke kommentere det, som BRFkredit har sagt. Men så kan jeg da spørge: Anerkender ministeren, at udbud og efterspørgsel har en virkning på prisen på boliger, og at det også har en betydning for, hvad investorerne måske vælger at investere i i en by, når de skal bygge boliger, altså om de vælger at investere i at lave alment boligbyggeri, eller om de vælger at investere i ejerboliger?</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224140747" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224140747-164">Ministeren.</seg>
+                </u>
+                <u who="PoulsenTroelsLund_Erhvervsogvækstministeren_V" xml:id="ParlaMint-DK_20160224140748" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224140748-165">Jamen til det kan jeg sådan set sige, at der jo allerede i dag er almene boliger i hovedstadsområdet og for den sags skyld også i Københavns Kommune. Det, som jeg synes er vigtigt at holde sig for øje, er, at nu har man jo netop, som jeg flere gange har nævnt, givet mulighed for at give de her fem store kommuner en særlig model for også at kunne benytte sig af den her lånemodel. Derudover må jeg så også sige, at det, der er vigtigt for mig, når vi diskuterer en blandet boligsammensætning, jo er, at man kan se det i et lidt større perspektiv. For mig hænger det også sammen med den revision af fingerplanen, som jeg nu sætter gang i som planlægningsminister. Her ser vi på, om man kan give kommunerne nogle større frihedsgrader inden for hovedstadsområdet. Det tror jeg sådan set også vil give mulighed for at lave nye bebyggelser andre steder, end det i dag er muligt.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224140846" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224140846-166">Tak. Så er det spørgeren.</seg>
+                </u>
+                <u who="SchnoorPernille_S" xml:id="ParlaMint-DK_20160224140847" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224140847-167">Så kunne jeg godt tænke mig at høre noget. Ministeren er ligesom jeg interesseret i blandede boliger i forskellige områder, kan jeg forstå. Hvis der ikke er den her lov om 25 pct. almene boliger, anerkender ministeren så, at der er en risiko for, at man får boligområder for de rige og boligområder for de mere udsatte borgere, fordi man bygger de almene boliger dér, hvor jorden er billig, og at man derfor ikke får spredt de almene boliger ud over forskellige arealer i en by?</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224140931" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224140931-168">Værsgo, ministeren.</seg>
+                </u>
+                <u who="PoulsenTroelsLund_Erhvervsogvækstministeren_V" xml:id="ParlaMint-DK_20160224140933" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224140933-169">Jamen det bliver jo en lidt mærkelig rituel stammedans, for jeg har jo flere gange sagt – og jeg vil gerne gøre det igen – at de fem store kommuner jo i dag kan yde et ekstra grundkøbslån inden for den samlede ramme på 500 mio. kr., hvis de ønsker almene boliger i særlig attraktive boligområder, der er planlagt. Og der noterer jeg mig så bare, at vi er i en situation, hvor kommunerne endnu ikke har benyttet sig af den mulighed. Så der er jo allerede i dag mulighed for at tage højde for nogle af de bekymringer, som spørgeren har.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224141004" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224141004-170">Tak for det. Så er det slut. Der er et nyt spørgsmål til erhvervs- og vækstministeren, og det er igen af fru Pernille Schnoor, Socialdemokratiet.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 690: Om at Danmarks storbyer skal udvikle sig til »VIP-byer« med enklaver for mangemillionærer og kvadratmeterpriser</head>
+            <note type="agendaItem">2016-02-24-1-9</note>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224141019" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224141019-171">Værsgo for en begrundelse.</seg>
+                </u>
+                <u who="SchnoorPernille_S" xml:id="ParlaMint-DK_20160224141021" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224141021-172">Jeg læser spørgsmålet op: Er det et mål for ministeren, at Danmarks storbyer skal udvikle sig til VIP-byer med enklaver for mangemillionærer og kvadratmeterpriser på mere end 50.000 kr., når ministeren foreslår, at kommunerne ikke længere skal have lov til at prioritere 25 pct. almene boliger i lokalplanerne, som i dag giver politibetjente, sygeplejersker og håndværkere en mulighed for at få en bolig, de kan betale?</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224141045" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224141045-173">Så er det ministeren.</seg>
+                </u>
+                <u who="PoulsenTroelsLund_Erhvervsogvækstministeren_V" xml:id="ParlaMint-DK_20160224141047" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224141047-174">Det kredser jo lidt om det spørgsmål, der allerede er besvaret, men derfor kan vi jo godt besvare det på en ny måde. Holdningerne vil ikke være anderledes, kan jeg godt afsløre nu i en breaking besked til dem, der måtte sidde og følge med i. Jeg køber ikke det der argument om, at man er ved at udvikle VIP-byer. Nu synes jeg, at man lige skal slå en smule koldt vand i blodet. Det er jo sådan, at der er en blandet boligsammensætning i København, når man ser på Københavns Kommune generelt. Det er jo ikke sådan, at kvadratmeterprisen i alle dele af Københavns Kommune er 50.000 kr. Der vil være områder, hvor man har en – kan man sige – attraktiv placering, hvor man har en høj pris, men vi ved jo også om boligmarkedet, at det går op og ned. Vi ved jo, at der er rigtig mange, der har oplevet en finansiel krise, som betød et meget stort tilbageslag, i forhold til hvad boligerne kostede før den finansielle krise, og hvad de så koster efter. Men når jeg så siger det her, synes jeg jo også, at man skal notere sig det, som jeg allerede svarede sidst, at der jo er de her muligheder for at kunne tage nogle særlige tiltag i de fem store kommuner, og der håber jeg så også, at de fem store kommuner vil benytte sig af det, som jeg nævnte til spørgeren, da jeg besvarede det forrige spørgsmål, og det skal min opfordring også være. Det er netop bl.a. med den hensigt at kunne fremme en mere blandet boligsammensætning, men generelt set synes jeg, at det er at skyde meget over målet at sige, at København potentielt udvikler sig til et VIP-område, hvor alle boliger koster over 50.000 kr. pr. kvadratmeter.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224141222" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224141222-175">Værsgo til spørgeren.</seg>
+                </u>
+                <u who="SchnoorPernille_S" xml:id="ParlaMint-DK_20160224141224" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224141224-176">Jeg kunne godt tænke mig at holde fast i, at ministeren ønsker en blandet boligsammensætning, og så kunne jeg også tænke mig at tage fat i, at ministeren jo nævner, at der allerede nu er nogle muligheder for kommunalbestyrelserne og kommunerne for at lave nogle særlige tiltag. Det sker så ikke, siger ministeren, i særlig høj grad. Så hvad vil ministeren så gøre, når det nu ikke sker? Er det så bedre, at ministeren vil afskaffe en lov, der handler om, at man i hvert fald hjælper med til, at 25 pct. kan blive almene boliger? Hvordan vil ministeren sikre sig blandede boligområder i byerne?</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224141303" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224141303-177">Værsgo, ministeren.</seg>
+                </u>
+                <u who="PoulsenTroelsLund_Erhvervsogvækstministeren_V" xml:id="ParlaMint-DK_20160224141304" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224141304-178">Altså, det er måske det, der er forskellen på spørgerens parti, Socialdemokratiet, og mit eget. Jeg mener ikke, at jeg skal sidde som en eller anden enevældig planlægningsminister og diktere, hvordan planlægningen skal se ud i vores byer. Det er jo noget, man kommunalt skal tage et ansvar for. Så har jeg nævnt, tror jeg, fem gange, og jeg gør det gerne igen, at de fem store kommuner kan yde et ekstra grundkøbslån inden for en samlet ramme på 500 mio. kr., hvis de ønsker almene boliger i de her særligt attraktive boligområder, der er planlagt. Det synes jeg netop er en model, som man så kan vælge at forfølge, og det vil jeg da også opfordre til, altså at spørgeren spreder det glade budskab bl.a. til Københavns Kommune eller til andre af de fem store kommuner. Det tror jeg kun ville være glædeligt.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224141348" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224141348-179">Tak. Spørgeren.</seg>
+                </u>
+                <u who="SchnoorPernille_S" xml:id="ParlaMint-DK_20160224141349" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224141349-180">Det lyder, som om ministeren gerne vil have de her blandede boligområder, men ikke rigtig vil blande sig alligevel, fordi det skal være noget, kommunerne selv ligger og roder med, populært sagt. Det her er noget, der griber ind på andre områder end planloven og boligområdet. Så jeg kunne godt tænke mig at høre, om ministeren anerkender, at det er vigtigt for sammenhængskraften i en by, at vi har blandede bydele, altså bydele med både ejerlejligheder og almene boliger.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224141423" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224141423-181">Så er det ministeren. Værsgo.</seg>
+                </u>
+                <u who="PoulsenTroelsLund_Erhvervsogvækstministeren_V" xml:id="ParlaMint-DK_20160224141426" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224141426-182">Nu tilkommer det jo ikke mig at stå og blande mig i, hvordan man stiller spørgsmål, men vi bevæger os relativt langt uden for det spørgsmål, der er stillet; de spørgsmål vil jeg meget, meget gerne besvare i en skriftlig form. Det, som er spørgsmålet fra spørgeren i den her omgang, er, om det er et mål for ministeren, at Danmarks storbyer skal udvikle sig til VIP-byer med enklaver for mangemillionærer og kvadratmeterpriser på mere end 50.000 kr. Der må jeg bare sige, at det ikke er et billede, jeg ser for mig. Jeg ser ikke, at Københavns Kommune blive omdannet til en VIP-by, hvor det er sådan, at folk med mindre indkomster ikke har mulighed for at få en bolig; snarere tværtimod er der jo en blandet boligsammensætning i dag i København – og det synes jeg er godt. København er jo ikke at sammenligne med f.eks. London – for nu at tage et sted, hvor man i hvert fald kan se, at kvadratmeterprisen er meget, meget høj i dele af byen.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224141514" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224141514-183">Tak. Værsgo til spørgeren.</seg>
+                </u>
+                <u who="SchnoorPernille_S" xml:id="ParlaMint-DK_20160224141516" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224141516-184">Jamen når nu ministeren siger, at ministeren ikke ønsker de her byområder for mangemillionærer osv., så kan jeg ikke se det urimelige i at spørge ministeren, om ministeren så ønsker, at det skal være blandet, så millionærerne bor sammen med dem, der bor i de almene boliger, altså det være sig pædagoger, SOSU-assistenter og hvem det kan være. Anerkender ministeren, at det er vigtigt for sammenhængskraften i en by, at vi ikke får sådan nogle grupperinger, hvor folk bor i forskellige separate områder? Og vil ministeren arbejde for det, eller mener ministeren, at det skal være helt op til markedet at styre det?</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224141603" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224141603-185">Værsgo til ministeren.</seg>
+                </u>
+                <u who="PoulsenTroelsLund_Erhvervsogvækstministeren_V" xml:id="ParlaMint-DK_20160224141604" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224141604-186">Ja, vi prøver for syvende gang. Jeg tror ikke, det nødvendigvis hjælper, men vi prøver igen. Som jeg har nævnt adskillige gange, har de fem store kommuner – og lad mig igen skære ud i pap, at det også er Københavns Kommune – mulighed for at yde ekstra grundkøbslån inden for en samlet ramme på 500 mio. kr., hvis de ønsker almene boliger i de her særligt attraktive boligområder, der er planlagt. Der synes jeg så bare, at vi må slå fast, som jeg har sagt efterhånden et par gange, at denne mulighed har kommunerne indtil videre ikke brugt. Derfor synes jeg, at de skal udnytte de muligheder, der i dag er gældende, og jeg ser ikke for mig, at vi skal have et København i Københavns Kommune, som består af VIP-boliger til over 50.000 kr. pr. kvadratmeter. Jeg mener, at det er en helt teoretisk, forfejlet diskussion at have; jeg mener faktisk, at København  har</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224141656" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224141656-187">Tak for det. Det var slut på dette spørgsmål. Det næste spørgsmål er til udlændinge-, integrations- og boligministeren af hr. Martin Henriksen, Dansk Folkeparti.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 683: Om asylansøgere, der påstår, at de er under 18 år.</head>
+            <note type="agendaItem">2016-02-24-1-10</note>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224141707" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224141707-188">Værsgo for at oplæse spørgsmålet.</seg>
+                </u>
+                <u who="HenriksenMartin_DF" xml:id="ParlaMint-DK_20160224141710" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224141710-189">Tak. Spørgsmålet er: Hvad agter regeringen at gøre for at mindske omfanget af snyd, hvad angår asylansøgere, der påstår, at de er under 18 år, og hvordan vil regeringen arbejde på at reducere antallet af mindreårige asylansøgere?</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224141719" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224141719-190">Værsgo til ministeren.</seg>
+                </u>
+                <u who="StøjbergInger_Udlændingeintegrationsogboligministeren_V" xml:id="ParlaMint-DK_20160224141721" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224141721-191">Tak for spørgsmålet. Når der er tale om uledsagede mindreårige, er udlændingens alder netop helt afgørende for, om udlændingen er omfattet af udlændingelovens særlige regler og procedurer. Det vil sige, at bl.a. alderen er afgørende for, om den udlænding, der kommer hertil, skal opholde sig på et særligt center for børn. Derfor er det helt afgørende, at de uledsagede udlændinge, der oplyser, at de er mindreårige, også reelt er det. En væsentlig del af asylbehandlingen vedrørende uledsagede mindreårige handler om at fastslå udlændingens alder. I praksis foretager Udlændingestyrelsen altid en konkret vurdering af, om der er grundlag for at iværksætte en aldersundersøgelse af en asylansøger, der oplyser at være under 18 år. Der foretages således en aldersundersøgelse, hvis der ikke umiddelbart kan lægges til grund, at ansøgeren er mindreårig. Ved den vurdering lægges der bl.a. vægt på ansøgerens fysiske fremtræden. Så til spørgsmålet om, hvad vi vil gøre for at reducere antallet af mindreårige asylansøgere. Regeringen har jo fra dag et haft fokus på at nedbringe antallet af asylansøgere til Danmark. Det er et fælles fokus, vi har haft, os to partier imellem. Derfor indførte regeringen som noget af det allerførste en ny og lavere integrationsydelse, der med aftalen om finansloven for 2016 blev udbredt til en større målgruppe. Og senest med lovforslag L 87 har regeringen jo strammet yderligere op på vilkårene på asylområdet. Efter regeringens opfattelse skal vi ikke tage så mange flygtninge, at det kommer til at true vores sammenhængskraft. Det tror jeg står klart for enhver. Antallet af nytilkomne flygtninge har nemlig betydning for, om integrationen efterfølgende kan lykkes. Og med regeringens stramninger er det blevet markant mindre attraktivt overhovedet at søge til Danmark. Jeg har selvfølgelig med stor glæde noteret mig, at netop spørgerens parti og også spørgeren i høj grad har støttet op om alle de tiltag, som vi har gennemført, og det vil jeg selvfølgelig gerne benytte lejligheden til igen at kvittere for.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224141939" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224141939-192">Tak. Spørgeren.</seg>
+                </u>
+                <u who="HenriksenMartin_DF" xml:id="ParlaMint-DK_20160224141940" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224141940-193">Tak for svaret. Det er rigtigt nok, at der er gennemført stramninger, også gode og fornuftige stramninger set med Dansk Folkepartis øjne, men vi har jo også det synspunkt i Dansk Folkeparti, at der er behov for mere. Og vi har inden for de seneste par uger diskuteret det faktum, at der været en stigning i antallet af uledsagede mindreårige asylansøgere, som kommer til Danmark. Derfor kunne vi godt fra Dansk Folkepartis side tænke os at høre, om regeringen har nogle planer i forhold til at nedbringe det antal. Det er sådan set det, som det går ud på. Og der kunne jeg ikke ud fra det, ministeren svarede, høre, om der var nogle nye tiltag. Så spørgsmålet er egentlig, om regeringen har planer om at komme med nogle tiltag, som skal tjene det formål at begrænse antallet af mindreårige asylansøgere, der kommer til Danmark.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224142019" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224142019-194">Tak for det. Ministeren.</seg>
+                </u>
+                <u who="StøjbergInger_Udlændingeintegrationsogboligministeren_V" xml:id="ParlaMint-DK_20160224142020" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224142020-195">Jeg ønsker generelt at nedbringe antallet af asylansøgere til Danmark og deriblandt jo også antallet af mindreårige. Det er fuldstændig korrekt, som spørgeren siger her, at der er kommet relativt flere mindreårige asylansøgere til Danmark, og når spørgeren bringer det her op, går jeg ud fra, at det netop også er med det fokus, at det er en meget dyr gruppe. Det er også en vanskelig gruppe. Omvendt må vi sige, at hvis man griber sagen tilstrækkelig godt an, er det faktisk også en gruppe, som det er muligt at få i gang i samfundet, og som kan blive aktive medborgere.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224142059" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224142059-196">Tak. Værsgo til spørgeren.</seg>
+                </u>
+                <u who="HenriksenMartin_DF" xml:id="ParlaMint-DK_20160224142101" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224142101-197">Jeg kunne godt tænke mig at høre, om ministeren kunne blive lidt mere konkret, med hensyn til om regeringen har nogle nye tiltag på vej. Jeg hører det jo lidt sådan, at det har regeringen ikke i forhold til at stramme op på det, og det forstår jeg egentlig ikke, hvis vi har en fælles ambition om at begrænse det antal, der kommer til Danmark. Hvordan ser ministeren på, at man f.eks. udfører flere alderstest? Ministeren har jo oplyst i et skriftligt svar til Folketingets Integrationsudvalg, at når man foretager alderstest, kan man se, at der faktisk er rigtig, rigtig mange – 70-80 pct. måske endda – af dem, som man foretager alderstest på, og som har påstået, at de var mindreårige, altså under 18 år, som alligevel ikke er det. Så hvad siger ministeren til, at man eksempelvis udvider det, så man tester endnu flere? Det kan også være med til at begrænse antallet, hvis folk ved, at kontrollen i Danmark er i orden.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224142143" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224142143-198">Ministeren. Værsgo.</seg>
+                </u>
+                <u who="StøjbergInger_Udlændingeintegrationsogboligministeren_V" xml:id="ParlaMint-DK_20160224142144" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224142144-199">Jeg vil sige det sådan, at i de tilfælde, hvor der overhovedet kan være tvivl, synes jeg at man skal aldersteste. Det nytter jo ikke meget at aldersteste et barn, som man kan se er omkring 10-12 år. Altså, det giver ingen mening, det bliver barnet jo ikke ældre af. Men det er klart, at i de tvivlstilfælde, der er, skal vi aldersteste. Og det er fuldstændig rigtigt, som hr. Martin Henriksen siger her, at der er en række tilfælde – og ikke et uvæsentligt antal tilfælde – hvor man netop har sagt, at man er yngre, end man er, og hvor man jo dermed også forsøger at få de ekstra muligheder, det giver, når man er mindreårig.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224142224" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224142224-200">Tak for det. Spørgeren.</seg>
+                </u>
+                <u who="HenriksenMartin_DF" xml:id="ParlaMint-DK_20160224142225" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224142225-201">Tak. Sidste år kom der lidt over 2.000 uledsagede mindreårige asylansøgere til Danmark, og man alderstestede omkring 350. Og for rigtig mange af dem viste det sig faktisk, at der var en rigtig god grund til, at man lavede en alderstest, fordi de var ældre, end de påstod. Vi ved, at af dem, vi tester, er der faktisk rigtig mange, som har sagt noget, der er forkert. Så kan man diskutere, om det er, fordi de lyver for at få en opholdstilladelse, fordi de så har nemmere ved at få en opholdstilladelse i Danmark, eller det er, fordi de simpelt hen ikke ved, hvor gamle de er. Men når nu tallene er så høje i forhold til antallet, man tester, er det så ikke et argument for, at man tester endnu flere? Det var det ene spørgsmål. Det andet spørgsmål er, om regeringen er parat til at kigge på de regler, der gælder for mindreårige asylansøgere, for de har jo en særlig lempelig adgang til at få en opholdstilladelse i Danmark. Den kunne man jo også godt ændre ved.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224142316" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224142316-202">Ministeren. Værsgo.</seg>
+                </u>
+                <u who="StøjbergInger_Udlændingeintegrationsogboligministeren_V" xml:id="ParlaMint-DK_20160224142317" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224142317-203">Først til det første, om vi skal aldersteste flere. Vi skal aldersteste i de tilfælde, hvor det giver mening at aldersteste. For det skal jo netop ikke være sådan, at man kan påstå, at man er yngre, end man er, og dermed kan opnå de rettigheder og goder, som følger med, hvis man retteligt ikke er mindreårig. Så det er jeg helt enig i. Til det andet om yderligere opstramninger vil jeg sige, at fra regeringens side har vi den holdning, at de opstramninger, som vi just har gennemført – sammen i øvrigt – med L 87, er de opstramninger, som vi mener er på sin plads for nuværende.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224142359" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224142359-204">Tak for det. Så skal jeg meddele, at de af Lea Wermelin under nr. 11 og 12 opførte spørgsmål til social- og indenrigsministeren udgår af dagsordenen efter ønske fra spørgeren. Det næste spørgsmål (spm. nr. S 677) er til beskæftigelsesministeren af hr. Peter Hummelgaard Thomsen, Socialdemokratiet.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 677: Om at statsministeren benytter sig af et flyselskab, der nægter at tegne overenskomst, underbetaler arbejdskraft</head>
+            <note type="agendaItem">2016-02-24-1-13</note>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224142420" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224142420-205">Værsgo for oplæsning af spørgsmålet.</seg>
+                </u>
+                <u who="ThomsenPeterHummelgaard_S" xml:id="ParlaMint-DK_20160224142423" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224142423-206">Mange tak for det. Jeg har stillet et spørgsmål, der lyder: Mener ministeren, det sender et hensigtsmæssigt signal til fagbevægelsen i forbindelse med de igangværende trepartsforhandlinger, når statsministeren benytter sig af et flyselskab, der nægter at tegne overenskomst, underbetaler arbejdskraft og har fået en dom imod sig i arbejdsretten, jf. artiklen »Provokerer fagbevægelsen: Løkke fløj sydpå med Ryanair« i Ekstra Bladet den 18. februar 2016?</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224142449" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224142449-207">Tak for det. Værsgo til ministeren.</seg>
+                </u>
+                <u who="LarsenJørnNeergaard_Beskæftigelsesministeren_V" xml:id="ParlaMint-DK_20160224142452" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224142452-208">Tak for spørgsmålet. Den danske aftalemodel er bl.a. baseret på aftalefrihed, men også retten til at konflikte for at opnå et bestemt resultat. Denne aftalefrihed betyder, at parterne på arbejdsmarkedet kan aftale de løn- og arbejdsvilkår, som de kan blive enige om skal gælde på en arbejdsplads og/eller inden for et fagligt område. Det kan ske via kollektive overenskomster, som langt hovedparten af det danske arbejdsmarked er omfattet af, eller det kan ske via individuelle aftaler mellem arbejdsgivere og deres ansatte. Aftalefriheden betyder også, at der ikke er pligt til at indgå en overenskomst eller en aftale med et bestemt indhold. Jeg vil derfor ikke som beskæftigelsesminister stille mig til dommer over, hvilke virksomheder man som forbruger ønsker at handle hos, ligesom jeg heller ikke stiller mig til dommer over andre politikere, andre folketingsmedlemmer, organisationsfolk osv. Det er op til den enkelte at vælge, om man vil lægge vægt på at købe sine ting hos en virksomhed med en bestemt profil, f.eks. en grøn profil, en bestemt politisk profil, religiøs profil, idealistisk profil eller en virksomhed med eller uden overenskomst. Det er også op til den enkelte, om man blot lægger vægt på at få varen leveret bedst eller billigst, uden at der har været andre bevæggrunde lagt til grund for valget. Jeg mener, at det er at blande tingene sammen godt og grundigt endda, hvis køb af flybilletter hos et udenlandsk lavprisselskab uden ansatte i Danmark, og som lovligt flyver passagerer til og fra Danmark, skal kunne ses som et underløb af den danske fagbevægelse, danske lønmodtagere og den danske model.</seg>
+                </u>
+                <u who="KjærsgaardPia_Formanden_DF" xml:id="ParlaMint-DK_20160224142648" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224142648-209">Tak for det. Spørgeren.</seg>
+                </u>
+                <u who="ThomsenPeterHummelgaard_S" xml:id="ParlaMint-DK_20160224142650" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224142650-210">Tak til ministeren for svaret. Grunden til, at vi er mange, der er optaget af det her, er jo ikke kun hele det sagsforløb, det konfliktforløb, der har været med lige netop Ryanair. Der er i virkeligheden også den grund – det har vi jo set, og det er det, jeg gerne vil bede ministeren om endnu en gang at svare på – at man, få dage inden statsministeren flyver med det her selskab, som der har været så mange konflikter med, beder fagbevægelsen om blandt mange forskellige forslag at åbne overenskomster op, gøre plads til de mange flygtninge, der er kommet til Danmark, på det danske arbejdsmarked. Det er der på sin vis en masse fornuft i, men man beder jo stadig væk om, at lønmodtagerne i særdeleshed skal hjælpe til, samtidig med at man viser, at man ikke er interesseret i at betale det, det koster at flyve de steder, hvor man har en overenskomst; det har COWI jo blandt udregnet: at for kun 37 kr. mere pr. billet kunne man rent faktisk tegne overenskomster. Synes beskæftigelsesministeren ikke, at det sender et noget uheldigt signal til Danmarks lønmodtagere, som man beder om at åbne sine overenskomster og arbejdsmarkedet op for flygtninge og på en eller anden måde hjælpe til med at løse et for Danmark stort problem, samtidig med at man ikke vil understøtte, at der bliver tegnet overenskomster, hvor der er ordentlige løn- og arbejdsvilkår?</seg>
+                </u>
+                <u who="KlintKarenJ_Denfgformand_S" xml:id="ParlaMint-DK_20160224142804" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224142804-211">Ministeren.</seg>
+                </u>
+                <u who="LarsenJørnNeergaard_Beskæftigelsesministeren_V" xml:id="ParlaMint-DK_20160224142805" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224142805-212">Tak. Nej. Jeg synes bare, vi skal man lade være med at blande tingene sammen. Der er ingen tvivl om, at regeringen ønsker den danske model – vi ønsker, at understøtte den danske model. Jeg kender ikke til arbejdsmarkeder, der for kernearbejdskraften er bedre fungerende end den danske model. Den danske model finder jeg strukturelt er velfungerende, og det har den sag, der har været omkring Ryanair, også vist, og vi ønsker fra regeringens side at give rum til det. Men når det er sagt, skal vi lade være med at søge at drage paralleller imellem bestemte dele af den danske model og de private beslutninger, der træffes, præget af valg af køb af ydelser, restaurationsbesøg eller køb af udenlandske flybilletter i forbindelse med udlandsrejser. Jeg finder ikke, at der er nogen sammenhæng her, og der er i al fald ikke nogen forsøg på provokationer her.</seg>
+                </u>
+                <u who="KlintKarenJ_Denfgformand_S" xml:id="ParlaMint-DK_20160224142909" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224142909-213">Spørgeren.</seg>
+                </u>
+                <u who="ThomsenPeterHummelgaard_S" xml:id="ParlaMint-DK_20160224142911" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224142911-214">Igen tak for svaret. Jeg er fuldstændig enig med ministeren i, at den danske arbejdsmarkedsmodel på mange måder er unik, og at den sådan set også har vist sig fuldstændig overlegen i forhold til mange af de øvrige modeller, der findes rundtomkring i verden. Og lige præcis derfor er der også grund til at både lønmodtagere organiseret i fagbevægelse og forbrugere og politikere står sammen, når det er, at man oplever, at lige præcis den arbejdsmarkedsmodel er under pres. Så synes ministeren ikke, at statsministeren, også selv om han rejser privat, også bør tænke over, hvad det er for nogle ydelser, han køber, og om det sender et heldigt signal til de lønmodtagere, som han beder om at hjælpe til med at løse store samfundsproblemer lige nu?</seg>
+                </u>
+                <u who="KlintKarenJ_Denfgformand_S" xml:id="ParlaMint-DK_20160224142953" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224142953-215">Ministeren.</seg>
+                </u>
+                <u who="LarsenJørnNeergaard_Beskæftigelsesministeren_V" xml:id="ParlaMint-DK_20160224142954" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224142954-216">Tak. Som sagt synes jeg, at vi skal lade være med at blande tingene sammen. Den danske model og de aftalereguleringer, der er, er baseret på en omfattende grad af overenskomstdækning, tiltrædelsesoverenskomster, white collar-området med almindelige kontrakter, kan vi sige, og følgeområder. Jeg finder det væsentligt, at vi giver rum til, at den danske model får lejlighed til at udvikle sig, og det er vores intention, men jeg mener ikke, at det bør give anledning til, at vi i Folketinget begynder at gøre os til dommere over, hvordan virksomheder, privatpersoner eller institutioner gør deres specifikke køb præget af de overvejelser om pris og kvalitet eller praktiske hensyn, der ligger bag deres køb.</seg>
+                </u>
+                <u who="KlintKarenJ_Denfgformand_S" xml:id="ParlaMint-DK_20160224143047" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224143047-217">Spørgeren.</seg>
+                </u>
+                <u who="ThomsenPeterHummelgaard_S" xml:id="ParlaMint-DK_20160224143048" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224143048-218">Til allersidst vil jeg bare sige, at det godt kan være, at ministeren ikke mener, at vi skal gøre os til dommere over det, men vi står i en situation, hvor Ryanair sådan set kun er toppen af isbjerget, men alligevel et meget, meget iøjnefaldende isbjerg, af et stadig større problem. Der udtalte selskabets direktør, Michael O'Leary, jo sidste år under et af sine rigtig mange pressemøder: »Vi tror ikke på, at det er muligt for den model at overleve, for i sidste ende vil den blive væltet i EU-domstolen« – og hertil også at – »Minimumslønnen er, hvad end markedet siger den skal være.«  Jeg er jo sådan set med på, at markedet bestemmer, hvad lønningerne er, men det eneste, som lønmodtagerne kan gøre for at styrke deres forhandlingsposition, er jo at stå sammen og forhandle overenskomster. Der kunne jeg godt tænke mig at høre, om det ikke er ministerens endelige holdning, at også landets statsminister, som gerne vil støtte op om den her arbejdsmarkedsmodel, bør understøtte selskaber, hvor man har overenskomster, og hvor det rent faktisk er muligt at understøtte den arbejdsmarkedsmodel, vi har i Danmark.</seg>
+                </u>
+                <u who="KlintKarenJ_Denfgformand_S" xml:id="ParlaMint-DK_20160224143145" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224143145-219">Ministeren.</seg>
+                </u>
+                <u who="LarsenJørnNeergaard_Beskæftigelsesministeren_V" xml:id="ParlaMint-DK_20160224143146" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224143146-220">Som sagt er det sådan i den danske model, at en væsentlig del af arbejdsmarkedet er overenskomstdækket, og at man skal have frirum til overenskomstdækning og til at kunne konflikte i forbindelse med overenskomster. Men der er også andre dele af arbejdsmarkedet, som ikke er overenskomstdækket, og hvor der er en accept af det parterne imellem. Så er der endelig som her tale om en virksomhed, som nu har valgt slet ikke at have base i Danmark, og hvor der derfor ikke er noget aktuelt overenskomstmæssigt problem eller nogen overenskomstmæssige udfordringer. Igen, jeg mener ikke, at vi skal drage paralleller mellem det organisatoriske, strukturelle og så det enkelte menneskes eller den enkelte virksomheds private valg betinget af grønne hensyn, politiske hensyn, religiøse hensyn eller praktiske hensyn. Så længe de valg, der træffes, er lovlige, synes jeg, at vi skal lade det blive ved det.</seg>
+                </u>
+                <u who="KlintKarenJ_Denfgformand_S" xml:id="ParlaMint-DK_20160224143240" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224143240-221">Tak til spørgeren. Vi fortsætter med en ny spørger, men med spørgsmål til samme minister, og det er spørgsmål 14 til beskæftigelsesministeren af hr. Jens Joel, Socialdemokraterne.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 682: Om at det er skadeligt for den danske model, hvis virksomheder ikke tegner overenskomst.</head>
+            <note type="agendaItem">2016-02-24-1-14</note>
+                <u who="KlintKarenJ_Denfgformand_S" xml:id="ParlaMint-DK_20160224143254" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224143254-222">Værsgo til oplæsning.</seg>
+                </u>
+                <u who="JoelJens_S" xml:id="ParlaMint-DK_20160224143256" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224143256-223">Mener ministeren, at det er skadeligt for den danske model, hvis virksomheder ikke tegner overenskomst?</seg>
+                </u>
+                <u who="KlintKarenJ_Denfgformand_S" xml:id="ParlaMint-DK_20160224143304" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224143304-224">Ministeren.</seg>
+                </u>
+                <u who="LarsenJørnNeergaard_Beskæftigelsesministeren_V" xml:id="ParlaMint-DK_20160224143307" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224143307-225">Tak for spørgsmålet. Den danske model går først og fremmest ud på en arbejdsdeling mellem Folketinget, myndigheder og arbejdsmarkedets parter. Folketinget fremlægger rammerne for myndighedernes arbejde, myndighederne kontrollerer, at lovgivningen overholdes, og arbejdsmarkedets parter regulerer og aftaler løn- og arbejdsvilkår i overenskomsterne og sikrer selv, at overenskomsterne bliver overholdt uden indblanding fra myndighedernes side. Den danske model er baseret på en langvarig tradition for at fastlægge løn- og arbejdsvilkår via kollektive aftaler. Kollektive aftaler er derfor i sagens natur et grundlæggende element i aftalemodellen, men det er ikke ensbetydende med, at der skal være en overenskomstdækning på 100 pct. Den danske model er nemlig også baseret på aftalefrihed mellem parterne, og det betyder, at der ikke er en pligt for en virksomhed til at indgå en overenskomst eller en aftale med et bestemt indhold. Hvis der var en sådan pligt, ville det betyde lovgivning om lønforhold, og det ønsker regeringen og et flertal i Folketinget som bekendt ikke. Aftalefriheden betyder også, at parterne på arbejdsmarkedet kan aftale de løn- og arbejdsvilkår, som de kan blive enige om skal gælde på arbejdsmarkedet eller på en arbejdsplads eller inden for et fagligt område. Hvis en arbejdsgiver nægter at indgå overenskomst, har fagbevægelsen via konfliktretten et effektivt middel til at lægge pres på arbejdsgiverne for at opnå en overenskomst. Det er jo blevet anerkendt af Arbejdsretten mange gange, og senest bl.a. i forbindelse med afgørelsen i Ryanairsagen den 2. juli 2015.</seg>
+                </u>
+                <u who="KlintKarenJ_Denfgformand_S" xml:id="ParlaMint-DK_20160224143452" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224143452-226">Spørgeren.</seg>
+                </u>
+                <u who="JoelJens_S" xml:id="ParlaMint-DK_20160224143453" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224143453-227">Tak. Ministeren siger, at det er vigtigt, og at det er et grundlæggende element, at der er overenskomstdækning, men at det ikke behøver at være 100 pct. Jeg ved, at ministeren også i mange år har repræsenteret Dansk Arbejdsgiverforening som direktør der og på den måde jo også tit sagt, at ministeren bakkede op om den danske model. Jeg går også ud fra, at man i Arbejdsgiverforeningen synes, det er vigtigt, at folk er med i en overenskomst, og at en passende stor del er med i en overenskomst. Men nu siger ministeren – og det var måske det tætteste, vi kom på et svar på mit spørgsmål om, hvorvidt det var skadeligt, hvis virksomheder ikke vil tegne overenskomst – at man ikke behøver at have 100 pct. Så vil mit simple spørgsmål til ministeren være: Er det okay, hvis overenskomstdækningen i Danmark går ned i forhold til det nuværende niveau?</seg>
+                </u>
+                <u who="KlintKarenJ_Denfgformand_S" xml:id="ParlaMint-DK_20160224143546" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224143546-228">Ministeren.</seg>
+                </u>
+                <u who="LarsenJørnNeergaard_Beskæftigelsesministeren_V" xml:id="ParlaMint-DK_20160224143547" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224143547-229">Med den model, vi har valgt i Danmark, er det en følgevirkning, at overenskomstdækningen ikke er 100 pct., fordi det er en markeds- eller partsstyret model. Men der er heller ingen tvivl om, at hvis modellen skal have styrke og have de positive effekter på arbejdsmarkedet, som jeg mener den har i dag, skal den være repræsentativ. Så skal det være en høj grad af overenskomstdækning, vi har, således at det er denne overenskomstdækning, der på forskellig vis er styrende for løndannelsen der, hvor der ikke er tale om overenskomstdækning. Derfor ville det være et faresignal, hvis det var sådan, at overenskomstdækningen begyndte at være vigende i Danmark. Vi er i den situation, at overenskomstdækningen er meget høj, og at den på det private arbejdsmarked jo styres af rammeoverenskomsterne, som er knyttet til de store erhvervs- og arbejdsgiverorganisationer, og de har faktisk et stigende medlemstal efter de seneste oplysninger, jeg har. Så jeg mener ikke, der er nogen aktuel risiko for, at overenskomstdækningen er på vej til at gå tilbage på en problematisk måde i Danmark.</seg>
+                </u>
+                <u who="KlintKarenJ_Denfgformand_S" xml:id="ParlaMint-DK_20160224143658" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224143658-230">Spørgeren.</seg>
+                </u>
+                <u who="JoelJens_S" xml:id="ParlaMint-DK_20160224143700" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224143700-231">Tak for det, og tak til ministeren for at understrege, at vi jo har en høj organiseringsgrad i danmark, men jo også tak for, at man politisk siger, at det er et vigtigt element, altså at organisationerne så at sige er repræsentative, og at de tegner billedet. Jeg er sådan set også enig i det, ministeren tidligere sagde til min kollega, hr. Peter Hummelgaard Thomsen, altså at den danske model jo sådan set er overlegen sammenlignet med rigtig mange andre arbejdsmarkeder, hvor man har en model med lavere organiseringsgrad. Så spørgsmålet skal egentlig være: I en situation, hvor virksomheder vælger at gå meget aktivt ud og sige, at de ikke vil tegne overenskomster, synes ministeren så ikke, at de er med til at anspore til en forkert udvikling i det her samfund?</seg>
+                </u>
+                <u who="KlintKarenJ_Denfgformand_S" xml:id="ParlaMint-DK_20160224143745" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224143745-232">Ministeren.</seg>
+                </u>
+                <u who="LarsenJørnNeergaard_Beskæftigelsesministeren_V" xml:id="ParlaMint-DK_20160224143746" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224143746-233">Nej, det mener jeg er virksomhedens valg i forhold til de konsekvenser, det måtte have for virksomheden, hvis de gør det. For så er der jo den risiko, at de bliver mødt med et konfliktvarsel, og hvis konfliktvarslet er lovligt, har det jo en potentiel effekt, hvilket vil sige, at man fra fagbevægelsens side kan gennemføre konflikten. Ofte ser vi i de der situationer, at virksomheder så vælger at melde sig ind i en arbejdsgiverorganisation, eller at de alternativt vælger at tegne overenskomst med fagbevægelsen. Og enkelte gange ser vi, som vi har set for nylig, at virksomheden vælger at forlade Danmark. Så det er altså virksomhedens egne risici, vi taler om her. Jeg mener ikke, at den adfærd er en trussel mod den danske model. Jeg mener, den danske model er alt for stærk til det. Den danske model har reelt meget stor opbakning fra både arbejdsgiverside og fra lønmodtagerside.</seg>
+                </u>
+                <u who="KlintKarenJ_Denfgformand_S" xml:id="ParlaMint-DK_20160224143842" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224143842-234">Spørgeren.</seg>
+                </u>
+                <u who="JoelJens_S" xml:id="ParlaMint-DK_20160224143843" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224143843-235">Den danske model  har  stor opbakning. Men et af de største sværdslag, kan man sige, der har været i meget, meget lang tid, om den danske model, var netop sværdslaget i forhold til Ryan Air, som faktisk prøvede at komme ind på det danske arbejdsmarked og hverken ville gå med i en overenskomst eller lade sig konflikte imod. Man valgte altså simpelt hen at sige, at man slet ikke ville være med, og man valgte ovenikøbet at sige det under stort presseopbud. Man valgte at gøre grin med den danske model, som man sammenlignede med fysiske personer og ikke omtalte som en arbejdsmarkedsmodel, som vi jo har meget stor gavn af. I den situation, hvor en virksomhed som Ryan Air så at sige har gjort sig til bannefører for at tale dårligt om den danske model, synes ministeren så ikke, det ville være en lille smule mærkeligt, hvis vi politikere, der understøtter den danske model, købte ydelser hos en sådan virksomhed og dermed støttede den?</seg>
+                </u>
+                <u who="KlintKarenJ_Denfgformand_S" xml:id="ParlaMint-DK_20160224143933" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224143933-236">Ministeren.</seg>
+                </u>
+                <u who="LarsenJørnNeergaard_Beskæftigelsesministeren_V" xml:id="ParlaMint-DK_20160224143934" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224143934-237">Som nævnt i svaret på det tidligere spørgsmål mener jeg ikke, vi skal blande tingene sammen her. Altså, de valg, vi som privatpersoner, politikere eller organisationsfolk træffer i praktiske situationer, synes jeg man skal lade ligge hos de pågældende personer, så længe de valg, der træffes, er lovlige. Jeg mener, at den sag, vi har talt om her, har illustreret styrken i den danske model. De konfliktskridt, der blev taget fra organisationernes side, var lovlige, de var effektive, og en bestemt virksomhed har altså draget sine egne konsekvenser af det. Det er det, der er gamet på det danske arbejdsmarked med den model, vi har valgt, og det bakker jeg i den grad op.</seg>
+                </u>
+                <u who="KlintKarenJ_Denfgformand_S" xml:id="ParlaMint-DK_20160224144022" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224144022-238">Tak til spørgeren. Undskyld, jeg havde en tudse i halsen. Vi går i gang med det sidste spørgsmål. Det er stadig væk til beskæftigelsesministeren, og det er af fru Anne Paulin, Socialdemokraterne.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 688: Om når kontanthjælpsloftet forventes at påvirke mere end 24.000 mennesker.</head>
+            <note type="agendaItem">2016-02-24-1-15</note>
+                <u who="KlintKarenJ_Denfgformand_S" xml:id="ParlaMint-DK_20160224144051" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224144051-239">Værsgo til oplæsning.</seg>
+                </u>
+                <u who="PaulinAnne_S" xml:id="ParlaMint-DK_20160224144054" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224144054-240">Tak. Mener ministeren, at målet helliger midlet, når kontanthjælpsloftet forventes at påvirke mere end 24.000 mennesker, og at det samtidig kun forventes, at 700 kommer i beskæftigelse som følge heraf?</seg>
+                </u>
+                <u who="KlintKarenJ_Denfgformand_S" xml:id="ParlaMint-DK_20160224144107" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224144107-241">Værsgo til ministeren.</seg>
+                </u>
+                <u who="LarsenJørnNeergaard_Beskæftigelsesministeren_V" xml:id="ParlaMint-DK_20160224144108" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224144108-242">Tak for spørgsmålet. Siden 2011 er antallet af kontant- og uddannelseshjælpsmodtagere steget med 20 pct., og antallet af ægtepar på kontanthjælp er steget med 50 pct. og det på trods af, at vi nu har oplevet mere end 2 år med stigende beskæftigelse. Det er denne udvikling, vi nu vil stoppe. Det handler om, at flere danskere skal i job, og færre skal forsørges af det offentlige. Derfor har regeringen sammen med resten af partierne i blå blok aftalt, at vi nu skal have et kontanthjælpssystem, hvor det kan betale sig at arbejde. Vi har lavet et nyt kontanthjælpsloft, en reel rådighedsregel med krav om 225 timers arbejde og indført en integrationsydelse. Det er tiltag, som tilsammen bidrager til, at vi kan få vendt udviklingen, så flere kommer i job og væk fra offentlig forsørgelse. Vi har sikret, at vi nu har et kontanthjælpssystem, hvor det kan betale sig at arbejde, og det har vi gjort på en måde, hvor vi har fundet en balance mellem på den ene side at sikre, at det altid kan betale sig at arbejde, og på den anden side, at kontanthjælpen skal udgøre et midlertidigt forsørgelsesgrundlag. Med det nye kontanthjælpsloft vil mange kontanthjælpsmodtagere opleve en reduktion i deres ydelse, der naturligvis vil kunne mærkes i et stramt husholdningsbudget. Det vil naturligvis kræve en prioritering at få økonomien til at hænge sammen. Det er der ingen tvivl om. Men det kan lade sig gøre. Et typisk kontanthjælpsægtepar med tre børn vil med det nye loft stadig modtage 406.000 kr. om året i samlede offentlige ydelser før skat. Regeringen vil til enhver tid fastholde, at det er et rimeligt niveau, og vi har fortsat høj velfærd i Danmark, både før og efter kontanthjælpsloftet.</seg>
+                </u>
+                <u who="KlintKarenJ_Denfgformand_S" xml:id="ParlaMint-DK_20160224144304" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224144304-243">Værsgo til spørgeren.</seg>
+                </u>
+                <u who="PaulinAnne_S" xml:id="ParlaMint-DK_20160224144306" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224144306-244">Tak. Selv om ministeren ikke svarer direkte på spørgsmålet, hører jeg det sådan, at ministeren bekræfter min formodning om, at regeringen rent faktisk mener, at målet helliger midlet i den her sag. Jeg må sige, at jeg er dybt forundret over det, for er det ikke en mærkelig praksis, at man på den her måde laver lovgivning, når man kun forventer, at der kommer en positiv effekt ud af lovforslaget for omkring 3 pct., faktisk under 3 pct., af de 24.000, der bliver berørt? Det er jo kun 700 mennesker, man forventer kommer i job. Hvad med de over 23.000, der er tilbage? Det er borgere, som vil opleve en meget stor nedgang i det beløb, som de har til rådighed, og som vil blive meget kraftigere udfordret, end de er i forvejen, i forhold til at få deres hverdag til at fungere bare sådan nogenlunde. Det må jo være, fordi beskæftigelsesministeren mener, at det egentlig er o.k., at det kun er 3 pct., der kan forvente en lykkelig udgang som følge af regeringens politik, men hvad med de resterende 97 pct.? For dem er der vel kun den konsekvens, at de bliver markant fattigere. Derfor kan man ikke undgå at have ministeren mistænkt for, at det her lovforslag i virkeligheden er dybt ideologisk, og at det handler om at få en ressourcesvag gruppe ned med nakken. Jeg kan forstå, at ministeren mener, at lovforslaget kan få 700 mennesker i arbejde, men jeg vil helt konkret høre ministeren: Hvad med de 97 pct. som ikke kommer i arbejde, hvoraf mange faktisk risikerer at skulle gå fra hus og hjem, og hvor der er mange børn, der også vil blive dybt berørt? Derfor: Kan ministeren bekræfte, at det er et mål i sig selv, at de her 97 pct., som er tilbage, skal blive markant fattigere som følge af regeringens politik?</seg>
+                </u>
+                <u who="KlintKarenJ_Denfgformand_S" xml:id="ParlaMint-DK_20160224144457" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224144457-245">Ministeren.</seg>
+                </u>
+                <u who="LarsenJørnNeergaard_Beskæftigelsesministeren_V" xml:id="ParlaMint-DK_20160224144458" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224144458-246">Nej, tværtimod. Vi betragter det lovforslag, vi kommer med, som en nødvendig strukturel korrektion. Der er simpelt hen en forkert dynamik imellem vores overenskomstsystem og de mindstelønninger, der er aftalt der, og ydelsesniveauet i kontanthjælpssystemet i forskellige situationer. Og det, vi vil med det her, er at lægge et fornuftigt bånd ind, således at man altid, hvis man går på arbejde med fuld eller delvis kapacitet, får noget ud af det her og nu. Det er det ene. Det andet er, at det er meget magtpåliggende for os at se kontanthjælpssystemet som det midlertidige forsørgelsessystem, det er skabt til at være. Derfor ønsker vi også, at de mennesker, som der desværre er rigtig mange af, sådan som spørgeren nævner, som ikke kommer i beskæftigelse, bliver løftet videre i de behandlingsforløb eller støtteforløb, som de har krav på. Kontanthjælpssystemet må ikke, som det har udviklet sig i de senere år, være et sted, hvor man opholder sig i mange, mange år.</seg>
+                </u>
+                <u who="KlintKarenJ_Denfgformand_S" xml:id="ParlaMint-DK_20160224144604" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224144604-247">Spørgeren.</seg>
+                </u>
+                <u who="PaulinAnne_S" xml:id="ParlaMint-DK_20160224144605" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224144605-248">Ministeren kunne jo også have valgt at se på nogle af de ting, som måske kunne hæve bunden i stedet for bare at være fokuseret på, at nu skal vi sænke indkomsterne for kontanthjælpsmodtagerne. Jeg er altså nødt til at spørge om noget. Ministeren taler om, at det her er en midlertidig situation, men tror ministeren, det opleves midlertidigt for f.eks. de børn, som måtte gå glip af børnefødselsdage eller ikke har råd til kontingent til fodboldklubben?</seg>
+                </u>
+                <u who="KlintKarenJ_Denfgformand_S" xml:id="ParlaMint-DK_20160224144636" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224144636-249">Ministeren.</seg>
+                </u>
+                <u who="LarsenJørnNeergaard_Beskæftigelsesministeren_V" xml:id="ParlaMint-DK_20160224144637" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224144637-250">Der er ingen tvivl om, at der er mange udfordringer med at være på kontanthjælp, og der er heller ingen tvivl om, at der kommer udfordringer i halen på de beslutninger, som vi lægger op til der træffes. Men jeg vil igen fastholde, at det bedste, der kan ske for børnene, er, at en af deres forældre eller begge har arbejde med den kapacitet, de nu er i stand til at have arbejde med, frem for at være isoleret uden for arbejdsmarkedet. Det ved vi fra undersøgelser, der er foretaget, nemlig at den sociale arv her desværre har et meget stort gennemslag. Hele logikken i beskæftigelsespolitikken i Danmark i de senere år er, at i det omfang der er en arbejdskapacitet hos mennesker, skal vi sørge for at få aktiveret den arbejdskapacitet. Det er her, der er sammenstødsproblemer mellem kontanthjælpssystemet og vores overenskomstsystem, og da arbejdsmarkedets parter definerer, hvad lønningerne er i overenskomstsystemet, er det altså vores pligt at sørge for, at der er et fornuftigt bånd mellem kontanthjælpssystemet og overenskomstsystemet, således at man får noget ud af at arbejde med den kapacitet, man har.</seg>
+                </u>
+                <u who="KlintKarenJ_Denfgformand_S" xml:id="ParlaMint-DK_20160224144746" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224144746-251">Tak. Vi har en medspørger til spørgsmål 15, og det er fru Malou Lunderød, Socialdemokraterne. Værsgo.</seg>
+                </u>
+                <u who="LunderødMalou_S" xml:id="ParlaMint-DK_20160224144754" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224144754-252">Tak. Nu siger ministeren igen og igen, at det skal kunne betale sig at arbejde, og det er jeg jo selvfølgelig fuldstændig enig i. Det er slet ikke til diskussion; det er det, vores velfærdssamfund er bygget op om, altså princippet om ret og pligt, og at man, hvis man kan tage et arbejde, selvfølgelig skal gøre det. Men ministeriet har jo også selv fremlagt et faktaark, som viser, at det for langt de fleste faktisk allerede i dag kan betale sig at tage et arbejde, altså at de får omkring 2.000 kr. mere ved at tage et arbejde. Det er den rent økonomiske gevinst, kan man sige, og så er der selvfølgelig også en række sociale gevinster. Så tror ministeren ikke, at hvis det for størstedelen af danskerne faktisk godt kan betale sig at arbejde, så er det ikke økonomiske incitamenter, der skal til for at få flyttet den her store mængde folk fra kontanthjælp og ud i aktiv beskæftigelse, men at det er noget helt andet, der skal til? Det undrer mig egentlig, at man tager det her tiltag, som meget specifikt går på et økonomisk incitament. Kunne det ikke tænkes, at det er noget andet, der skal til?</seg>
+                </u>
+                <u who="KlintKarenJ_Denfgformand_S" xml:id="ParlaMint-DK_20160224144850" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224144850-253">Ministeren.</seg>
+                </u>
+                <u who="LarsenJørnNeergaard_Beskæftigelsesministeren_V" xml:id="ParlaMint-DK_20160224144851" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224144851-254">Det er et både og. Det er både økonomiske incitamenter og andre foranstaltninger, der skal håndteres. Vi ved, at de økonomiske incitamenter virker på arbejdsmarkedet, hvis mennesker er sunde og raske, og at det har en effekt, at der er et bånd imellem offentlige ydelser eller dagpenge og så den løn, man kan opnå. Det er den ene del af det. Den anden del er, at vi skal have gjort op med, at kontanthjælpssystemet er et system, hvor mennesker bliver parkeret eller får lov til at være i mange år uden at blive hjulpet der, hvor de har behov for hjælp. Så mit mål er, at det her bidrager til, at der bliver flere ressourcer til reelt at støtte de mennesker, der har brug for støtte, og det er derfor, det betyder så meget at have fokus på den arbejdskapacitet, man har, at give mennesker et fodfæste der, og så bruge de offentlige ressourcer på at støtte dem med hensyn til de øvrige støttebehov, de har, i stedet for bare at køre med varige passive ydelser på kontanthjælpsniveau. Det er ikke godt for nogen – heller ikke disse familiers børn.</seg>
+                </u>
+                <u who="KlintKarenJ_Denfgformand_S" xml:id="ParlaMint-DK_20160224144956" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224144956-255">Værsgo til medspørgeren.</seg>
+                </u>
+                <u who="LunderødMalou_S" xml:id="ParlaMint-DK_20160224144958" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224144958-256">Tak. Nu har jeg jo siddet og bidt lidt mærke i, at ministeren flere gange også nævner den her sammenhæng, der skal være, mellem ydelserne og den løn, man får – den overenskomstmæssigt laveste løn, kan man sige. Det gør mig måske egentlig en lille smule bekymret, så derfor vil jeg gerne høre ministeren, om der også implicit i det her ligger, hvad skal man sige, et lønpres på det laveste lønniveau i Danmark. Har man et ønske om samtidig at presse det laveste lønniveau ned i Danmark og dermed skabe en endnu større ulighed end den, man allerede er ved at skabe med det her kontanthjælpsloft?</seg>
+                </u>
+                <u who="KlintKarenJ_Denfgformand_S" xml:id="ParlaMint-DK_20160224145028" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224145028-257">Ministeren.</seg>
+                </u>
+                <u who="LarsenJørnNeergaard_Beskæftigelsesministeren_V" xml:id="ParlaMint-DK_20160224145029" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224145029-258">Jeg er inkarneret tilhænger af den danske model, og det er overenskomstparterne især på det private arbejdsmarked, der definerer, hvad lønbunden, hvis man kan tale om det, altså mindstelønningerne, er på det åbne private arbejdsmarked. På det offentlige arbejdsmarked er der en 100-procentsoverenskomstdækning, så der giver det sig selv. Jeg er fuldstændig overbevist om, at der ingen effekt er af det, der arbejdes med i kontanthjælpsloftsforslaget, på løndannelsen overenskomstparterne imellem. Jeg har som bekendt været en del af det i mange år og ved, hvordan logikken er, og det er helt andre ting, der styrer væksten i mindstelønningerne, end hvad det er for støtteordninger, der er, på kontanthjælpsområdet. Så vi har ikke som mål at gøre lønningerne lavere; vi har ikke som mål at gøre nogen fattigere; men vi har som mål at få et mere velfungerende arbejdsmarked for især dem, der har været uden for arbejdsmarkedet i ganske lang tid.</seg>
+                </u>
+                <u who="KlintKarenJ_Denfgformand_S" xml:id="ParlaMint-DK_20160224145129" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224145129-259">Tak til medspørgeren. Og vi går tilbage til hovedspørgeren. Værsgo.</seg>
+                </u>
+                <u who="PaulinAnne_S" xml:id="ParlaMint-DK_20160224145135" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224145135-260">Tak. De svar, vi har fået fra ministeren i dag, mener jeg viser, at man er vant til at ofre rigtig meget; man har tænkt sig at sende rigtig, rigtig mange mennesker ud i en utrolig dårlig situation for kun at få 700 i beskæftigelse. Ministeren omtaler det nærmest sådan, at det bedste, man kan gøre for børnene, er at gøre deres forældre fattigere. Det tror jeg at der er rigtig mange børn som ville opleve at være uenige med ministeren i. Så tak for svarene på det her spørgsmål.</seg>
+                </u>
+                <u who="KlintKarenJ_Denfgformand_S" xml:id="ParlaMint-DK_20160224145215" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224145215-261">Ministeren for et afsluttende svar.</seg>
+                </u>
+                <u who="LarsenJørnNeergaard_Beskæftigelsesministeren_V" xml:id="ParlaMint-DK_20160224145221" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20160224145221-262">Jeg opfatter det nærmest som en politisk kommentar eller noget drilleri, som jeg i al fald ikke er enig i. Jeg har ikke som mål at gøre nogen fattigere, jeg har som mål at understøtte mennesker, der har en arbejdskapacitet, i, at det også for dem er attraktivt at overvinde det, der skal overvindes, for at man kommer i gang på arbejdsmarkedet igen med den kapacitet, man har. Det er det ene. Det andet er at være respektfuld i forhold til de titusindvis af mennesker, der står op hver dag, går på arbejde om morgenen, passer deres børn – de skal også i dagligdagen have en større købekraft end de mennesker, der bliver forsørget på vort laveste forsørgelsesniveau. Og det er den anden del af det, vi sikrer her.</seg>
+                </u>
+                <u who="KlintKarenJ_Denfgformand_S" xml:id="ParlaMint-DK_20160224145301" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224145301-263">Tak til spørger og minister. Spørgsmålet er sluttet. Hermed er spørgetiden afsluttet.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Punkt 0</head>
+            <note type="agendaItem">2016-02-24-0</note>
+                <u who="KlintKarenJ_Denfgformand_S" xml:id="ParlaMint-DK_20160224145312" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20160224145312-264">Der er ikke mere at foretage i dette møde. Folketingets næste møde afholdes i morgen, torsdag den 25. februar 2016, kl. 10.00. Jeg henviser til den dagsorden, der fremgår af Folketingets hjemmeside.</seg>
+                </u>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="da" xml:id="ParlaMint-DK_20141_M33_2014-12-10" ana="#parla.sitting #reference">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">The Danish Parliamentary Corpus, ParlaMint-DK [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Hansard of the session of the Danish Parliament (Folketinget), 20141, M33 (2014-12-10), final version</title>
+            <meeting ana="#parla.session">20141</meeting>
+            <meeting ana="#parla.sitting">M33</meeting>
+            <respStmt>
+               <persName>Bart Jongejan</persName>
+               <persName>Dorte Haltrup Hansen</persName>
+               <persName>Costanza Navarretta</persName>
+               <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">Department of Nordic Studies and Linguistics (NorS), University of Copenhagen</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>1.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="273" xml:lang="en">273 speeches</measure>
+            <measure unit="words" quantity="21629" xml:lang="en">21629 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URL">https://github.com/clarin-eric/ParlaMint</idno>
+            <pubPlace>
+               <ref target="https://github.com/clarin-eric/ParlaMint">https://github.com/clarin-eric/ParlaMint</ref>
+            </pubPlace>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>. </p>
+            </availability>
+            <date when="2021-01-31">2021-01-31</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="en">Hansards of the Danish Parliament</title>
+               <publisher>The Danish Parliament</publisher>
+               <idno type="URI">https://www.ft.dk/</idno>
+               <date when="2014-12-10">2014-12-10</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="17"/>
+               <tagUsage gi="head" occurs="17"/>
+               <tagUsage gi="note" occurs="17"/>
+               <tagUsage gi="u" occurs="273"/>
+               <tagUsage gi="seg" occurs="273"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Folketinget, Christiansborg</name>
+               <name type="city">1240 Copenhagen K</name>
+               <name type="country" key="DK">Denmark</name>
+               <date ana="#parla.sitting" when="2014-12-10">2014-12-10</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2020-12-18">
+            <name>Dorte Haltrup Hansen</name>Generated corpus in ParlaMint.</change>
+      </revisionDesc>
+   </teiHeader>
+    <text xml:lang="da" ana="#reference">
+        <body>
+            <div type="debateSection">
+            <head>Punkt 0</head>
+            <note type="agendaItem">2014-12-10-0</note>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210130005" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210130005-1">Mødet er åbnet. I dag er der følgende anmeldelser: Ministeren for by, bolig og landdistrikter (Carsten Hansen): Lovforslag nr. L 89 (Forslag til lov om ændring af lov om planlægning og lov om almene boliger m.v. Uddannelses- og forskningsminister (Sofie Carsten Nielsen): Lovforslag L nr. 90 (Forslag til lov om ændring af lov om statens voksenuddannelsesstøtte (SVU), lov om en aktiv beskæftigelsesindsats, ligningsloven og lov om institutioner for almengymnasiale uddannelser og almen voksenuddannelse m.v. Lovforslag nr. L 91 (Forslag til lov om ændring af lov om akkreditering af videregående uddannelsesinstitutioner (Ingen prækvalifikation af nye uddannelser ved sammenlægning af eksisterende uddannelser)). Erhvervs- og vækstministeren (Henrik Sass Larsen): Lovforslag nr. L 92 (Forslag til lov om ændring af varemærkeloven, designloven, patentloven og lov om brugsmodeller (Styrket indsats mod piratkopiering ved etablering af en håndhævelsesenhed m.v.)). Justitsministeren (Mette Frederiksen): Lovforslag L nr. 93 (Forslag til lov om fremtidsfuldmagter). Titler på de anmeldte sager vil fremgå af www.folketingstidende.dk (jf. ovenfor). Medlemmer af Folketinget Esben Lunde Larsen (V), Jens Henrik Thulesen Dahl (DF), Annette Vilhelmsen (SF), Per Stig Møller (KF) og Uffe Elbæk (UFG) har meddelt mig, at de ønsker at tage hasteforespørgslen til uddannelses- og forskningsministeren tilbage. Forespørgslen lyder: »Vil ministeren redegøre for, hvilke konsekvenser regeringens dimensioneringsmodel har for de enkelte uddannelsesinstitutioner, herunder både erhvervsakademierne, professionshøjskolerne og universiteterne?« Hasteforespørgslen (nr. F 13) er hermed bortfaldet, og derfor udgår det første punkt på den udsendte dagsordenen.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Besvarelse af oversendte spørgsmål til ministrene (spørgetid).</head>
+            <note type="agendaItem">2014-12-10-2</note>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210130124" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210130124-2">Da hr. Peter Skaarup har nogle vanskeligheder med at nå frem, starter vi med spørgsmål nr. 2 til justitsministeren af fru Inger Støjberg.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 448: Om regeringens asyllovforslag og ændringerne vedrørende familiesammenføring.</head>
+            <note type="agendaItem">2014-12-10-2-2</note>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210130138" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210130138-3">Værsgo.</seg>
+                </u>
+                <u who="StøjbergInger_V" xml:id="ParlaMint-DK_20141210130140" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210130140-4">Kan ministeren forklare, hvorfor ministeren i spørgetiden den 5. november 2014 om regeringens asyllovforslag og ændringerne vedrørende familiesammenføring udtalte, at – og det er et citat – »det er Justitsministeriets vurdering, at man nok har strammet så meget, som det er muligt inden for konventionen«, mens ministeren i et udvalgssvar til Folketinget samt i et samråd den 3. december 2014 har fastslået, at, citat, »for så vidt angår spørgsmålet om begrænsningen af adgangen til familiesammenføring, har Justitsministeriet ikke lagt sig fast på, om en længere periode end 12 måneder vil være i overensstemmelse med Danmarks internationale forpligtelser«?</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210130227" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210130227-5">Ministeren.</seg>
+                </u>
+                <u who="FrederiksenMette_Justitsministeren_S" xml:id="ParlaMint-DK_20141210130228" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210130228-6">Med regeringens forslag vil der kun være adgang til familiesammenføring i perioden, indtil den herboendes opholdstilladelse efter den foreslåede bestemmelse i udlændingelovens § 7 stk., 3 eventuelt måtte blive forlænget efter 1 år, hvis Danmarks internationale forpligtelser medfører, at der skal gives tilladelse til familiesammenføring. Den udtalelse fra den mundtlige besvarelse af spørgsmål nr. S 208, som spørgeren fremhæver, vedrørte denne periode, altså perioden indtil den midlertidige opholdstilladelse eventuelt måtte være blevet forlænget efter 1 år. Som det også fremgår af mit første svar under besvarelsen af spørgsmål nr. S 208, så har Justitsministeriet ikke lagt sig fast på, om en længere periode end 12 måneder vil være i overensstemmelse med Danmarks internationale forpligtelser. Og for så vidt angår dette, altså hvorvidt man inden for Danmarks internationale forpligtelser kunne forlænge perioden på 1 år til eksempelvis 14 måneder eller 18 måneder, er det på den ene side givet, at hvis perioden på 1 år forlænges, vil der gradvis kunne lægges mindre vægt på opholdets midlertidige karakter og herunder opholdstilladelsens længde. Det er netop denne midlertidige karakter, som Justitsministeriet har lagt betydelig vægt på ved vurdering af den foreslåede ordning. På den anden side kan man ikke – og det var det, vi diskuterede på samrådet for kort tid siden – sige, at der vil være klare konventionsmæssige forhindringer for som udgangspunkt at udskyde adgangen til familiesammenføring til eksempelvis 14 eller 18 måneder. Så for at sige det meget kort: Inden for den 12-månedersperiode gives der kun familiesammenføring, hvis vi er internationalt forpligtet, og det var det, der lå i formuleringen om, at man nok har strammet så meget, som det er muligt inden for konventionen.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210130416" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210130416-7">Fru Inger Støjberg.</seg>
+                </u>
+                <u who="StøjbergInger_V" xml:id="ParlaMint-DK_20141210130417" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210130417-8">Man fristes jo næsten til at sige, at hvis justitsministeren havde været med i et quizprogram, ville man have spurgt, om det her var det endelige svar. For man må godt nok sige, at der har hersket kaotiske tilstande, jo ikke bare når det lige præcis handler om familiesammenføringer og den lille opstramning, som der er lagt op til der, men i det hele taget på Justitsministeriets område her den seneste tid. Vi ser det jo også i de her dage, hvor det er noget helt andet, der er kaotisk, nemlig den rapport, der er til så meget diskussion. Men jeg vil gerne sige, at jeg synes, det er fuldstændig uacceptabelt, at vi ikke har kunnet få svar fra Justitsministeriet – eller rettere sagt, det har vi godt kunnet få, men svaret har været forskelligt, afhængigt af hvilken dag der er blevet spurgt, i forhold til om der nu var strammet, det der kan inden for konventionerne, eller om der ikke var. Og man kan jo ikke engang sige, at det er afhængigt af, hvem det er, man har spurgt. For godt nok har Karen Hækkerup sagt ét, da hun var minister, og statsministeren har sagt noget andet, men den nuværende justitsminister har jo haft ikke mindre end to forklaringer på det her område. På et tidspunkt var forklaringen, at der var strammet det, man forventede – det var det, justitsministeren svarede mig hernede i Folketingssalen på et mundtligt § 20-spørgsmål den 5. november – og da vi så nåede lidt længere hen, var forklaringen, at man ikke havde lagt sig fuldstændig fast på, om der var strammet det, der kunne. Altså, det er bare for at sige, at det jo er fuldstændig uacceptabelt for Folketinget at blive stillet i en situation, hvor man ikke kan få klare svar. For mig viser den her disput alt om, at der hersker fuldstændig kaotiske tilstande i Justitsministeriet. Og igen: Jeg fristes lidt til at spørge, om det her så er det endelige svar. For mig lyder det lidt som en talen udenom og som noget, hvor embedsmændene har prøvet at sidde helt tekstnært og se, om der kunne flyttes lidt rundt på det, og om man på en eller anden måde så kunne have forstået det på en anden måde.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210130629" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210130629-9">Ministeren.</seg>
+                </u>
+                <u who="FrederiksenMette_Justitsministeren_S" xml:id="ParlaMint-DK_20141210130631" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210130631-10">Men det gode ved fru Inger Støjberg er, at ligegyldigt hvilket emne vi diskuterer, og ligegyldigt hvad jeg er minister for, så er der altid kaotiske tilstande og tingene sejler altid. Og nu er det så et nyt område, som spørgeren har kastet sig over. Det skal selvfølgelig være sådan, at Folketinget får klare svar, og det var også derfor, jeg opsummerede mit svar ved at sige, at inden for den 12-månedersperiode, som vi foreslår med L 72, gives der kun familiesammenføring, hvis vi er forpligtet internationalt. Og dermed er der nok strammet så meget, som det er muligt, medmindre man vil opsige de internationale konventioner.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210130707" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210130707-11">Fru Inger Støjberg.</seg>
+                </u>
+                <u who="StøjbergInger_V" xml:id="ParlaMint-DK_20141210130721" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210130721-12">Altså, jeg ved ikke, om ministeren synes, at alting sejler. Jeg har ikke sagt, at alting sejler – det har jeg slet ikke nævnt i dag. Men det må jo så stå for ministerens egen regning. Det eneste, jeg ved, er bare, at da vi sad på samrådet for en uges tid siden, hvor jeg spurgte til det her og foreholdt ministeren, at ministeren havde sagt to forskellige ting, kunne ministeren ikke svare. Men det er jo godt, at man så inden for en uges tid, i hvert fald ved hjælp, kan man sige, af lidt fiksfakserier og lidt tekststudering, på en eller anden måde kan prøve at tale uden om det. Det ændrer bare ikke på, at der hersker fuldstændig kaotiske tilstande. Hvis ministeren ikke kan se det, tror jeg altså godt nok, at ministeren er det eneste menneske i det her kongerige, der ikke kan se, at der p.t. hersker kaotiske tilstande i Justitsministeriet.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210130757" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210130757-13">Justitsministeren.</seg>
+                </u>
+                <u who="FrederiksenMette_Justitsministeren_S" xml:id="ParlaMint-DK_20141210130758" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210130758-14">Åh jo, jeg henviser til tidligere spørgsmål, som jeg har modtaget fra spørgeren, og hvor der er blevet sagt, at tingene sejlede, og hvor der er blevet brugt utrolig mange ord i den stil. Det er jo altid let at svinge sig op til sådanne retoriske højder, og det ligger ikke spørgeren fjernt. Da jeg blev foreholdt en konkret formulering på et samråd, udbad jeg mig mulighed for at se, i hvilken sammenhæng det var blevet sagt. Og det synes jeg egentlig er okay at man gør som minister. Vi kan selvfølgelig godt vælge at gøre det her til en kamp om ord, eller vi kan komme tilbage til det substantielle, nemlig: Hvad er situationen på asylområdet? Og jeg vil anbefale det sidste.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210130834" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210130834-15">Så er det fru Inger Støjberg i sidste omgang.</seg>
+                </u>
+                <u who="StøjbergInger_V" xml:id="ParlaMint-DK_20141210130835" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210130835-16">Joh, men når vi fra Venstres side, og når jeg har spurgt ind til det her, er det jo netop for at få noget substans ind i debatten, men det er bare meget svært at få substans ind i debatten, når man får forskellige svar. Jeg synes jo ikke, at det kan være så svært at svare på, om man har strammet det, man kan, eller om der stadig væk er et rum for stramninger, i forhold til at vi skal overholde de internationale konventioner. Altså, jeg synes sådan set, at hvis ikke det er substans, så ved jeg da ikke, hvad det er. Men ministeren behøver slet ikke at stå og svinge sig op, for ministeren fik udskriften fra Folketingssalen, og det var jo ikke sådan noget med, at ministeren sagde det en gang, for ministeren sagde det hele tre gange den 5. november.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210130917" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210130917-17">Justitsministeren.</seg>
+                </u>
+                <u who="FrederiksenMette_Justitsministeren_S" xml:id="ParlaMint-DK_20141210130918" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210130918-18">Men altså, sagen er jo den – som det er blevet sagt i flere omgange – at når det handler om, at man kun kan opnå adgang til familiesammenføring i løbet af det første år, hvis de internationale forpligtelser tilsiger det, så er det jo svært at se, hvordan man skal kunne stramme mere, medmindre man ønsker at bevæge sig ned ad den vej, at man begynder at opsige internationale konventioner. Det ønsker vi ikke. Så er der spørgsmålet: Kan perioden på de 12 måneder udvides? Der er det, at vi fra regeringens side har sagt, at det ikke er noget, der er blevet undersøgt, men det er omvendt heller ikke sådan, at jeg vil stå og sige til Folketinget, at man ikke kan det. Så det må komme an på en konkret juridisk vurdering.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210130958" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210130958-19">Spørgsmålet er sluttet. Det næste spørgsmål er også til justitsministeren, og det er fra fru Karina Lorentzen Dehnhardt.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 452: Om Udlændingestyrelsens omstridte Eritrearapport.</head>
+            <note type="agendaItem">2014-12-10-2-3</note>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210131006" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210131006-20">Værsgo.</seg>
+                </u>
+                <u who="DehnhardtKarinaLorentzen_SF" xml:id="ParlaMint-DK_20141210131009" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210131009-21">Spørgsmålet lyder: Er det ministerens holdning, at Udlændingestyrelsens omstridte Eritrearapport stadig er sagligt og fagligt velfunderet, når to medarbejdere i Udlændingestyrelsen tilsyneladende har sygemeldt sig i protest over rapportens konklusioner?</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210131026" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210131026-22">Justitsministeren.</seg>
+                </u>
+                <u who="FrederiksenMette_Justitsministeren_S" xml:id="ParlaMint-DK_20141210131029" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210131029-23">Lad os lige tage lidt forhistorie for den diskussion, som også fylder meget i det offentlige rum. Udlændingestyrelsen informerede i august 2014 Justitsministeriet om, at styrelsen ikke fandt de tilgængelige baggrundsoplysninger om Eritrea fuldt ud opdateret. Styrelsen havde derfor besluttet at foretage en fact finding mission. Når udlændingemyndighederne i Danmark behandler asylansøgere, så har de brug for at kende forholdene i det land, hvor ansøgerne kommer fra. Oplysninger om forhold i hjemlandet er derfor noget, som asylmyndighederne følger meget tæt, og sådan bør det selvfølgelig også være. Udlændingestyrelsen har et særligt dokumentationskontor, som har til opgave at indsamle baggrundsoplysninger om forholdene i de relevante lande, bl.a. ved at rejse ud. Landedokumentationskontoret skaffer i stigende grad baggrundsoplysninger gennem missioner, hvor landerådgiverne selv rejser til de pågældende lande. De indsamler informationer gennem møder bl.a. med landets myndigheder, internationale organisationer og ngo'er. Siden 1983 har vi i Danmark haft et asylsystem, hvor asylsager er blevet behandlet uafhængigt af det politiske system. Det er klogt. Som justitsminister vil jeg ikke gå ind i behandlingen af de konkrete asylsager. Her efterlever jeg, som jeg mener man bør gøre, et armslængdeprincip. Det er et rigtigt princip, det er et vigtigt princip, og jeg synes også, at det et princip, man bør værne om, også selv om man måtte være uenig i materialet, ligegyldigt hvilken side af Folketinget man måtte komme fra. Det armslængdeprincip gælder den konkrete asylbehandling, og det gælder også, hvad der måtte blive udarbejdet af forskellige rapporter. Derfor vil det som ved alt andet baggrundsmateriale i sidste ende være Flygtningenævnet, som skal beslutte, om de nye oplysninger om Eritrea skal have betydning i forhold til de konkrete asylsager, og hvilken betydning de skal have. Der har været rejst alvorlig kritik af den her rapport – det kommer ikke bag på nogen, tror jeg – og derfor har jeg bedt Udlændingestyrelsen om at redegøre for forløbet omkring udarbejdelsen af rapporten, og jeg har bedt om, at den redegørelse foreligger hurtigst muligt.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210131244" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210131244-24">Fri Karina Lorentzen Dehnhardt.</seg>
+                </u>
+                <u who="DehnhardtKarinaLorentzen_SF" xml:id="ParlaMint-DK_20141210131245" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210131245-25">Tak for det. Siden jeg oversendte spørgsmålet i fredags er der jo sket en række positive ting – det skulle afleveres inden kl. 12. Ministeren har som sagt bestilt en redegørelse for sagen, og Udlændingestyrelsen har jo også siden trukket en del af konklusionen tilbage, så der alligevel kan gives asyl til militærnægtere og illegalt udrejste fra Eritrea. Men samtidig har vi også set, at der er en erfaren embedsmand – det skriver Berlingske i hvert fald i dag – i styrelsen, der har været så uenig i den oprindelige rapports konklusioner, at han har sygemeldt sig, og i øvrigt ifølge sit eget udsagn har gjort opmærksom på, at der undervejs var problemer med rapporten. Mener ministeren ikke, at det er højst usædvanligt, at en styrelse ignorerer advarsler og leverer en så ringe rapport, som det åbenbart er tilfældet her? Og mener ministeren ikke, at det er nærliggende at tro, at styrelsen direkte eller indirekte kunne have opfanget en slags reelt eller indbildt politisk signal, som har gjort, at man har kastet sig ud i det her projekt på den måde, man har?</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210131357" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210131357-26">Ministeren.</seg>
+                </u>
+                <u who="FrederiksenMette_Justitsministeren_S" xml:id="ParlaMint-DK_20141210131359" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210131359-27">Nu er det jo ikke mig, der spørger Folketinget. Men jeg synes, man fra Folketingets side bliver nødt til at overveje, om vi skal stå og håndtere konkrete personalesager i landets Folketingssal. Jeg synes også, man bliver nødt til at overveje ordlyden i det spørgsmål, man stiller om, om jeg tror, der har været politisk indblanding. Jeg kan for mit eget vedkommende sige, at det har der selvfølgelig ikke. Jeg er landets justitsminister. Jeg sidder ikke og udarbejder landerapporter om Eritrea, Burma, Afghanistan, Irak eller nogen som helst andre lande, og hvorfor i alverden skulle jeg også gøre det? Er man helt sikker på, at man ønsker et asylsystem i Danmark, hvor skiftende ministre og politikere skal gøre sig til overdommere over forholdene i de enkelte lande, hvorfra der kommer asylansøgere? Jeg synes, man bliver nødt til at stoppe op og tænke sig grundigt op, inden man fortsætter ned ad den vej.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210131445" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210131445-28">Fru Karina Lorentzen Dehnhardt.</seg>
+                </u>
+                <u who="DehnhardtKarinaLorentzen_SF" xml:id="ParlaMint-DK_20141210131447" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210131447-29">Jeg tror, at vi alle sammen ønsker os et uafhængigt asylsystem, hvor behandlingen hviler på nogle rapporter, som vi i hvert fald kan fæste lid til. Det har man efter min overbevisning ikke kunnet i den her sag, og det synes jeg også er tydeligt, når Udlændingestyrelsen selv træder tilbage på grund af dele af rapporten. Men ministeren må give mig ret i, at det ikke er hver dag, man ser en embedsmand stå frem på den her måde, og det synes jeg i hvert fald kalder på noget ekstra opmærksomhed. Jeg synes, der er skabt rigtig meget usikkerhed omkring den her rapport, så måske burde man trække den tilbage. Mener minsteren selv, at det virker, som om der også reelt har været den fonødne uafhængighed i Udlændingestyrelsen i den pågældende sag? Eller mener ministeren, at det er muligt, at man her har overreageret på en slags politisk signal eller måske har handlet ud fra en misforstået vurdering af de politiske ønsker, og at det i fremtiden måske skal sikres, at dem, der laver de her rapporter, ikke reagerer på indbildte eller reelle politiske signaler? Jeg tænker på, at regeringen kørte meget, meget stærkt frem med, at det var et problem med den store flygtningestrøm fra Eritrea, og mente, at det her måtte kalde på en undersøgelse, og at sagsbehandlingen skulle stilles i bero. Er det så ikke nærliggende at tro, at der sidder en styrelse, og tænker, at man skal strenge sig lidt an for at få løst den her situation?</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210131610" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210131610-30">Ministeren.</seg>
+                </u>
+                <u who="FrederiksenMette_Justitsministeren_S" xml:id="ParlaMint-DK_20141210131612" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210131612-31">Jeg må sige, at jeg synes, det er svært at svare på, om der skulle være indbildte signaler, og jeg synes også, man bevæger sig meget langt ned ad en sti her. Jeg vil gerne have et asylsystem i Danmark, der er uafhængigt af os politikere. Og det gælder, ligegyldigt hvem der måtte sidde i Folketinget, og ligegyldigt hvem der måtte være minister. Derfor bliver man selvfølgelig også nødt til at overveje, at hvis man i den nuværende situation vil have mig som overdommer på en konkret landerapport om et land på Afrikas Horn, vil man så også om 2, 4 eller 6 år have Søren Pind eller en anden minister til at være overdommer på rapporter om Afghanistan, Irak eller Syrien? Jeg synes, man skal tænke sig rigtig, rigtig godt om. Når det så er sagt, skal det selvfølgelig ikke være sådan, at Udlændingestyrelsen på noget tidspunkt udarbejder rapporter med et resultat eller et indhold, som man tror nogen ønsker sig. Det skal foregå sagligt og fagligt og på det rigtige grundlag. Hvad angår det personalemæssige, synes jeg, man bør håndtere det der, hvor man håndterer personalesager. Og det mener jeg – også af hensyn til de implicerede – ikke er i Folketingssalen. Og så bliver jeg bare nødt til igen at sige, at der jo er en grund til, at jeg har bedt om en redegørelse, og det er selvfølgelig, fordi der bl.a. er rejst kritik af forløbet.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210131721" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210131721-32">Så er det fru Karina Lorentzen Dehnhardt, sidste omgang.</seg>
+                </u>
+                <u who="DehnhardtKarinaLorentzen_SF" xml:id="ParlaMint-DK_20141210131723" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210131723-33">Jeg er glad for, at ministeren siger, at det skal være nogle faglige og saglige rapporter. Jeg tror i hvert fald, man kan sige, at der har været rejst en del kritik af den her rapport. Vi er også enige om, at personalesager ikke er noget, man skal håndtere her i salen. Jeg spørger sådan set til ministerens principielle holdning til hele den her problemstilling. I en af dagens artikler i Berlingske Tidende er der en af de her embedsmænd, som bliver stillet det her spørgsmål: Er det din opfattelse, at Jakob Dam Glynstrup – det er kontorchefen – under Eritrearapporten handlede på ordre oppefra? Ja, siger han. Hvorfor? bliver han spurgt. Han svarer: Jeg har ikke lyst til at gå i detaljer. Mener ministeren ikke, at det indikerer, at der har været en eller anden form for pres i den her sag?</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210131812" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210131812-34">Ministeren.</seg>
+                </u>
+                <u who="FrederiksenMette_Justitsministeren_S" xml:id="ParlaMint-DK_20141210131814" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210131814-35">Nu er sagen jo den, at det er mig, der er landets justitsminister, og jeg kan fuldstændig blankt afvise, at jeg skulle have blandet mig i den rapport. Jeg kunne ikke drømme om at blande mig i den rapport, jeg kunne ikke drømme om at blande mig i uafhængige myndigheders håndtering af asylspørgsmål. Det vil være forkert at gøre, og jeg har ingen forudsætninger for det. Sagt i al stilfærdighed og i al respekt tror jeg ikke, at der er andre af de politikere i Danmark, der indgår i diskussionen omkring rapporten om Eritrea, der har forudsætning for at vurdere forholdene i Eritrea i forhold til dansk asylpraksis. Når der bliver rejst så voldsom en kritik af den her rapport, synes jeg, det er naturligt at bede styrelsen om at redegøre for forløbet i forbindelse med rapporten, og det har jeg bedt om, og nu afventer jeg så den redegørelse.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210131903" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210131903-36">Spørgsmålet er sluttet. Det næste spørgsmål er også til justitsministeren af fru Karina Lorentzen Dehnhardt.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 454: Om kritik af Eritrearapporten fra Udlændingestyrelsen.</head>
+            <note type="agendaItem">2014-12-10-2-4</note>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210131909" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210131909-37">Værsgo.</seg>
+                </u>
+                <u who="DehnhardtKarinaLorentzen_SF" xml:id="ParlaMint-DK_20141210131910" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210131910-38">Det næste spørgsmål lyder: Mener ministeren ikke, at det på baggrund af den megen kritik af Eritrearapporten fra Udlændingestyrelsen er på tide at få lavet en ny rapport med en second opinion og inddragelse af nogle flere kilder, herunder FN?</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210131925" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210131925-39">Justitsministeren.</seg>
+                </u>
+                <u who="FrederiksenMette_Justitsministeren_S" xml:id="ParlaMint-DK_20141210131928" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210131928-40">Det virker en gang imellem, som om det armslængdeprincip, alle principielt hylder, meget hurtigt kommer under pres, når der skal svares i den offentlige debat. Altså, hvis vi vil have uafhængige asylmyndigheder i Danmark – og det går jeg ud fra at et flertal i Folketinget fortsat vil – vil det være min meget, meget kraftige anbefaling, at man ikke begynder med politisk indblanding i asylbehandlingen i Danmark, og det er ligegyldigt, hvem der sidder som justitsminister, og hvem der har det politiske flertal. Hvis det begynder at være op til skiftende politiske flertal at vurdere, hvem der kan få asyl i Danmark, på hvilket grundlag de kan opnå asylmulighederne, og hvordan sagsbehandlingen i øvrigt skal foregå, vil man jo danne grundlag for en helt anden asylpraksis end det, der er tilfældet i dag. Hvad angår de konkrete landerapporter, så er det asylmyndighedernes ansvar, det er asylmyndighedernes opgave at sikre sig, at der er kvalitet i det materiale, man har til rådighed, og selvfølgelig altid at vurdere, om det materiale, man har, er tilstrækkeligt, og hvilket andet materiale man skal inddrage i sin behandling. Og det siger sig selv, at myndighederne også er ansvarlige for at sikre sig så stærkt et vidensgrundlag som overhovedet muligt.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210132040" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210132040-41">Fru Karina Lorentzen Dehnhardt.</seg>
+                </u>
+                <u who="DehnhardtKarinaLorentzen_SF" xml:id="ParlaMint-DK_20141210132042" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210132042-42">Jeg beder jo heller ikke ministeren om at blande sig i asylbehandlingen, men vi står med en rapport, som har været kritiseret fra højre til venstre og i hvert fald også så meget, at ministeren selv har syntes, at det var på tide at bede om en redegørelse. Og det er jo af en vis betydning for de mennesker, som det handler om, nemlig folk fra Eritrea, hvis en rapport er fejlbehæftet på den måde, som det er tilfældet. Nu siger ministeren jo selv, at der selvfølgelig skal være kvalitet i de her rapporter, men når det viser sig, at der ikke er det, må ministeren i hvert fald have gjort sig nogle overvejelser over, hvad vi så gør ved sådan nogle rapporter. Skal det her have nogle konsekvenser?</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210132120" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210132120-43">Ministeren.</seg>
+                </u>
+                <u who="FrederiksenMette_Justitsministeren_S" xml:id="ParlaMint-DK_20141210132124" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210132124-44">Nogle gange kan det være meget godt med et tankeeksperiment – det kan selvfølgelig også være farligt, men lad mig alligevel prøve: Skal man så have landerapporterne, der danner grundlag for dansk asylpraksis, i Folketingssalen? Altså, når der bliver lavet en ny landerapport om Sydsudan, Somaliland, Burma, Afghanistan, Irak, Iran, Tjetjenien eller Rusland, skal vi så have dem i Folketingssalen? Skal vi så læse dem igennem alle sammen? Skal vi stemme om, hvorvidt vi f.eks. synes, at beskrivelsen af Tjetjenien er rigtig eller forkert? Vi skal passe på. Jeg forstår godt, at man har lyst til at reagere på en offentlig diskussion, og jeg vil meget, meget gerne være sikker på, at de danske myndigheder har et rigtigt, korrekt og kvalitetsorienteret vidensgrundlag, men jeg ville virkelig være varsom med, at vi skulle begynde politisk at bestemme indholdet af landerapporter på asylområdet som på andre områder.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210132222" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210132222-45">Fru Karina Lorentzen Dehnhardt.</seg>
+                </u>
+                <u who="DehnhardtKarinaLorentzen_SF" xml:id="ParlaMint-DK_20141210132224" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210132224-46">Jeg synes jo, ministeren må have en holdning til, at man har en rapport, som er ret væsentlig for asylbehandlingen, og som er meget fejlbehæftet. Det synes jeg jo godt man kan have en holdning til som minister, men det kan jeg så forstå man ikke har, for det er der nogle andre, der skal have en holdning til. Så vil jeg bare spørge ministeren, om den aktuelle sag giver anledning til at overveje ændringer i organisationen af, hvordan sådanne rapporter laves, så det undgås, at embedsmænd, som jo er underlagt ministerens instruktionsbeføjelser, og som typisk er meget, meget lydhøre over for politiske signaler, laver rapporter, som er farvet af faktiske eller indbildte politiske præferencer frem for rapporter, som er nøgterne og objektive. Jeg synes i hvert fald, at vi kan se, at det er gået ret galt i den her sag.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210132317" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210132317-47">Ministeren.</seg>
+                </u>
+                <u who="FrederiksenMette_Justitsministeren_S" xml:id="ParlaMint-DK_20141210132320" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210132320-48">Det er rigtigt, at det er min opgave at have holdninger. Det er også min opgave at holde hovedet koldt – måske ikke mindst i en situation, hvor der er en kollektiv risiko for, at det ikke sker. Selvfølgelig har jeg holdninger. Jeg følger det her område mindst lige så tæt, som spørgeren gør, og måske endda tættere. Min opgave er selvfølgelig at være sikker på, at de danske asylmyndigheder fungerer, som loven nu engang er indrettet, og det er altså efter armslængdeprincippet. Når det er sagt, vil jeg sige, at man i Folketinget som minimum må overveje konsekvenserne af det, man er ved at bede mig om. For hvis det bliver sådan, at skiftende justitsministre skal forholde sig indholdsmæssigt til de landerapporter, der kommer, om de lande, hvorfra der er asylansøgere, er spørgeren så helt sikker på, at det er den rigtige fremgangsmåde? Jeg diskuterer den gerne, men er spørgeren sikker på, det er rigtigt, for hvad så næste gang, der kommer en landerapport, som nogle måtte have divergerende holdninger til? Skal vi så have den i Folketingssalen, skal vi stemme om den, hvordan gør vi det så? Vi bliver nødt til at lægge til grund, at de danske myndigheder håndterer det vidensgrundlag, hvorpå de arbejder, korrekt. Når der så bliver rejst alvorlig kritik, beder jeg styrelsen om en redegørelse, men jeg vil virkelig, virkelig advare imod, at man kapper armslængdeprincippet af, også selv om der er en ophedet offentlig debat.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210132443" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210132443-49">Fru Karina Lorentzen Dehnhardt, sidste omgang.</seg>
+                </u>
+                <u who="DehnhardtKarinaLorentzen_SF" xml:id="ParlaMint-DK_20141210132445" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210132445-50">Det, der jo præcis har været problemet med den her rapport, er, at vi ikke har kunnet stole på den. Nu er man trådt tilbage fra nogle af konklusionerne. Jeg beder ikke om, at vi skal have hver eneste rapport i Folketingssalen. Det har vi ikke haft hidtil, og det kommer vi heller ikke til at have fremover, men jeg synes jo, at ministeren skulle interessere sig lidt for, hvordan sådan en rapport er blevet skruet sammen på den her måde, og hvordan pokker man kan nå frem til de konklusioner på trods af så megen anden viden, der ligger om Eritrea. Så har jeg bare et spørgsmål til sidst, for jeg kan godt mærke, at vi ikke kommer videre med det her, og vi har også et samråd på et tidspunkt, og så kan det være, at vi kommer dybere ned i nogle diskussioner om det her. Mener ministeren, at det er forsvarligt at lade resten af rapporten stå? En hel del af den er underkendt nu, men synes ministeren ikke, at det ville være prisværdigt, hvis den blev trukket helt, så vi undgår, at den indgår i nogen som helst form for sagsbehandling, for det vil jeg da have store betænkeligheder ved?</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210132543" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210132543-51">Ministeren.</seg>
+                </u>
+                <u who="FrederiksenMette_Justitsministeren_S" xml:id="ParlaMint-DK_20141210132545" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210132545-52">Sagen er jo bare, at hvis vi skal håndhæve et armslængdeprincip, og hvis vi skal have uafhængige asylmyndigheder, bliver det jo gjort enormt besværligt, hvis jeg fra sag til sag skal vurdere, om jeg ønsker at overholde det princip eller ej. Hvad med de konkrete asylbehandlinger? En konkret asylansøger får et afslag. Hvis jeg er uenig i det som justitsminister, skal vi så have et system, hvor jeg pludselig siger til styrelsen, at jeg ikke er enig i det? Nej, det skal vi ikke. Hvis Udlændingestyrelsen træffer en beslutning om, at en asylansøger ikke kan få asyl, overgår det automatisk til Flygtningenævnet, som er langt væk fra mig som minister. Sådan bør det også være. Hvad enten det er Udlændingestyrelsen eller Flygtningenævnet er myndighederne forpligtet til at oppebære og forholde sig til og have indsigt i så megen viden og så mange oplysninger som overhovedet muligt. Det gælder både Eritrea og andre forhold.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210132638" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210132638-53">Spørgsmålet er sluttet. Så går vi tilbage til det spørgsmål, der var opført som nr. 1 på dagsordenen. Det er til justitsministeren af hr. Peter Skaarup.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 431: Om at øge politistyrken.</head>
+            <note type="agendaItem">2014-12-10-2-1</note>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210132648" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210132648-54">Værsgo.</seg>
+                </u>
+                <u who="SkaarupPeter_DF" xml:id="ParlaMint-DK_20141210132649" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210132649-55">Tak for det. Hvad er ministerens holdning til, at der i dag er 530 færre politifolk i Danmark end for 3 år siden, og at politiopgaver dermed bliver nedprioriteret, og agter regeringen at øge politistyrken, så der er tilstrækkeligt mandskab til at klare opgaverne?</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210132708" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210132708-56">Justitsministeren.</seg>
+                </u>
+                <u who="FrederiksenMette_Justitsministeren_S" xml:id="ParlaMint-DK_20141210132710" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210132710-57">Jeg tror ikke, at spørgeren i sit spørgsmål fik med, at Dansk Folkeparti er med i den flerårsaftale, der ligger til grund for dansk politi og for politiets økonomi, men det tror jeg kan være meget godt for lyttere og seere at vide. For det betyder jo, at den nuværende regering og Dansk Folkeparti er enige om de forhold, der gælder for dansk politi. Og som det dermed også er spørgeren bekendt, overgik man jo med flerårsaftalen her til en mere resultatbaseret styring af politiet, som jeg går ud fra også er bakket op af Dansk Folkeparti. Man er i hvert fald med i forliget. Det betyder, at der ikke længere er fastsat styrkemål for antallet af politifolk, og alt det her har man jo sådan set ønsket, fordi de politiske partier, herunder Dansk Folkeparti, der er med i flerårsaftalen, har besluttet sig for, kan man sige, at have tillid til, at politiet selv prioriterer ressourcerne inden for rammerne af flerårsaftalen. Jeg synes også, det er vigtige at sige, at vi netop har haft et møde i forligskredsen, hvor spørgeren selv deltog, og vi kan jo på en række områder se, at det faktisk går rigtig godt, og det går bedre, hvad angår kriminaliteten i vores samfund. Når alt det er sagt, skal vi selvfølgelig sørge for, at vi har den politistyrke, der er tilstrækkelig for at kunne bekæmpe kriminaliteten i Danmark. Men det går jo sådan set ret godt.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210132838" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210132838-58">Hr. Peter Skaarup.</seg>
+                </u>
+                <u who="SkaarupPeter_DF" xml:id="ParlaMint-DK_20141210132840" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210132840-59">Jamen det er jo fuldstændig rigtigt, som ministeren siger, at der er et forlig på området, men det udelukker jo ikke, at der kan være forskellige holdninger til, om man skal have flere politifolk eller færre politifolk eller det samme antal. Og der har vi altså den holdning i Dansk Folkeparti, at der er brug for flere politifolk. Det har vi jo af den grund, at politifolkene selv siger, at der er et problem, og at der er en udfordring. Jeg fandt lige her til lejligheden frem, hvad formanden for Politiforbundet, Claus Oxfeldt, siger om den her situation, som der i øjeblikket er hos dansk politi. Han siger til Danmarks Radio den 28. november: Konsekvensen er jo, at vi er nødt til at prioritere benhårdt i opgaverne, og der, hvor befolkningen har en klar forventning om, at politiet kommer frem, er der rigtig mange gange, hvor det desværre ikke sker. Det synes jeg jo at justitsministeren skal prøve at høre på i stedet for at sige, at der er et forlig, og at det kan vi ikke gøre noget ved. Jeg forventer lidt, eller jeg forventer meget, at en justitsminister tager bestik af den situation, man har ude blandt borgerne og ikke kun lytter til, hvad ledelsen jo nogle gange kan have interesse i at sige, for der er resultatløn, og der skal alting se godt ud. Det kan man godt have forståelse for, men når de menige betjente siger fra, og når de menige betjente nærmest samstemmende, når man taler med dem, siger, at de har for få ressourcer, så er det noget, regeringen skal kigge på, og så er det noget, justitsministeren skal kigge på. Hvis vi kigger på, hvordan ressourcerne egentlig er, så må jeg nok sige, at der er en anden udvikling i gang i f.eks. de andre nordiske lande. Hvis man kigger på Norge og Sverige, ser man, at der kommer flere politifolk, og hvorfor gør der det? Jamen det gør der jo bl.a., fordi den internationale kriminalitet er steget. Vi har flere, der rejser over landegrænserne og laver kriminalitet, og det bliver sværere at efterforske det, der er foregået, fordi gerningsmanden måske befinder sig i Warszava eller i Vilnius eller i Bukarest eller et andet sted. Så jeg kunne godt tænke mig, at justitsministeren kom lidt igen på det her og fortalte Folketinget og offentligheden, hvad regeringen gør sig af tanker. Er det holdbart, at man har skåret politistyrken ned med 530 mand over de seneste år?</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210133055" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210133055-60">Justitsministeren.</seg>
+                </u>
+                <u who="FrederiksenMette_Justitsministeren_S" xml:id="ParlaMint-DK_20141210133104" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210133104-61">Som justitsminister forholder jeg mig hele tiden til, om vi har den mest effektive kriminalitetsbekæmpelse, for det skal vi have. Det at kunne leve i et trygt samfund med en viden om, at man kan færdes frit, at man kan være i sit eget hjem, at der bliver taget hånd om de problemer, der er, mener jeg er noget helt, helt fundamentalt vigtigt for os alle sammen som borgere i Danmark, ikke mindst når man f.eks. som forældre skal sende sin unge ud på gader og stræder og endda i nattelivet. Jeg er glad for, at jeg ikke selv tidsmæssigt er helt der endnu. Men det ændrer jo ikke på, at Dansk Folkeparti bliver nødt til at tage ansvaret for dansk politi også. Jeg svarer gerne på spørgsmål, men når man er en del af en forligskreds, har man også været med til at træffe beslutningerne om den økonomi, der ligger til grund for dansk politi, og det må man jo stå ved, herunder den styringsform, vi har valgt, nemlig at det er politiet, der skal prioritere ressourcerne.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210133146" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210133146-62">Hr. Peter Skaarup.</seg>
+                </u>
+                <u who="SkaarupPeter_DF" xml:id="ParlaMint-DK_20141210133148" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210133148-63">Jeg synes lidt, ministeren frasiger sig opgaven som justitsminister her. Justitsministeren må jo sørge for, at der er lov og orden i landet, at der er tilstrækkeligt med politifolk til at kunne varetage den opgave, og at vi f.eks. ikke har parallelle bandesamfund, hvor man har nogle andre end politiet til at håndhæve lov og orden. Og det er jo en aktuel problemstilling, som vi ser rundtomkring i landet. Der kunne jeg da godt tænke mig også at spørge justitsministeren, om det slet ikke gør indtryk, at man tiere og tiere hører historier fra borgere, der er utilfredse med, at politiet ikke har mulighed for og tid til at komme, når de ringer. Vi har jo f.eks. set, at der begås rigtig mange indbrud i Danmark, hvor politiet ikke har tid til at komme ud og optage spor og indgyde den tryghed, det ville være for borgeren, at der kommer en stærk politimand eller to ud og ser, hvad der egentlig er foregået, hvad der er blevet stjålet, og om der er nogle spor, de kan finde.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210133240" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210133240-64">Justitsministeren.</seg>
+                </u>
+                <u who="FrederiksenMette_Justitsministeren_S" xml:id="ParlaMint-DK_20141210133241" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210133241-65">Jeg synes, det er vigtigt, at politiet er til stede. Jeg synes, det er vigtigt, at man lader være med at begå kriminalitet. Jeg glæder mig over, at det på en række områder, bl.a. hvad angår antallet af anmeldelser, faktisk går den helt rigtige vej, og det gør det også, hvad angår indbrud. Det er rigtig positivt. Betyder det så, at vi er i mål, at der ikke er noget at diskutere, hvad angår dansk politi? Nej, og sådan bliver det nok i øvrigt aldrig. Jeg vil også gerne have, at vi i den måde, politiet tilrettelægger deres arbejde på, har en balance mellem det meget effektive, også på efterforskningssiden, hvor dansk politi er gode, samtidig med at vi selvfølgelig skal have et politi, der er nærværende. Jeg har også ret meget tillid til, at politiet er gode til at prioritere deres ressourcer, og jeg har hvert fald tænkt mig at stå ved den aftale, der er indgået, bl.a. af spørgeren selv, om, at det er politiet, der inden for de overordnede rammer skal prioritere ressourcerne. Så kan vi i forligskredsen jo diskutere, når vi skal i gang med en ny flerårsaftale, om vi ønsker at ændre på nogle af prioriteringerne.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210133343" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210133343-66">Hr. Peter Skaarup, sidste omgang.</seg>
+                </u>
+                <u who="SkaarupPeter_DF" xml:id="ParlaMint-DK_20141210133345" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210133345-67">Ministeren taler meget om, at nu har vi væsentlig lavere kriminalitet. Hvad siger politifolkene så selv til det, hvad siger Politiforbundet? Jo, formanden, Claus Oxfeldt, siger jo lige præcis om den situation: »Der er en masse mørketal. Der er noget der aldrig nogensinde bliver anmeldt. Vi har parallelsamfund, hvor man ved, det ikke bliver anmeldt til politiet. Vi hører fra både politifolk og private, at der er flere og flere opgaver, som man normalt ville bede politiet om at løse, dem klarer man selv.«  Det er for mig i en nøddeskal, hvad det her handler om. Vil vi se i øjnene, at der er en udvikling i gang, hvor vi får færre og færre politifolk og får nogle kriminelle, der er blevet dygtigere, bl.a. fordi de rejser hjem til Østeuropa, eller hvor de nu kommer fra, og vil vi reagere på det? Og der vil jeg godt gentage mit spørgsmål: Vil ministeren ikke overveje, om der oven i de bevillinger, der ligger nu, skal flere politibetjente til for at løse den opgave, som vi jo gerne vil have at betjentene løser på vegne af os alle sammen?</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210133447" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210133447-68">Justitsministeren.</seg>
+                </u>
+                <u who="FrederiksenMette_Justitsministeren_S" xml:id="ParlaMint-DK_20141210133448" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210133448-69">Jamen der er jo al grund til at tage afstand fra parallelsamfund, al grund, og det er, hvad enten vi taler om det kriminelle, eller vi taler om sociale koder eller andet, der holder folk nede. Jeg vil også gerne sige meget, meget klart, at er man udsat for kriminalitet i Danmark, skal man altid anmelde det. Det vil være min eneste, klare og enkle anbefaling. Man skal aldrig stå tilbage, og man skal ikke finde sig i som borger i Danmark, i vores samfund, hvis der er nogen, der har andre holdninger til det spørgsmål. Man skal anmelde det, hvis der foregår noget kriminelt, og man skal selvfølgelig forvente, at tingene foregår på en ordentlig måde. Der er mørketal på kriminalitetsområdet. Jeg tror nu ikke, det er noget, der er kommet som resultat af den her flerårsaftale. Jeg tror, der altid har været mørketal, og det vil der nok altid være. Noget af det følger jo af, at det netop er kriminalitet. Og vi skal selvfølgelig gøre, hvad vi kan for at finde ind bag det, så vi har den rigtige viden om, hvad der sker på området. Men jeg synes, man skal passe på med at være så pessimistisk, når vi kan se på en række nøgletal, at tingene går i den rigtige retning, herunder – hvad jeg næsten er gladest for – at der er markant lavere kriminalitet blandt vores unge. Det må man godt glæde sig over, samtidig med at man løser de problemer, der så er tilbage.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210133600" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210133600-70">Spørgsmålet er sluttet. Tak til justitsministeren. Så går vi til spørgsmål til beskæftigelsesministeren af hr. Bent Bøgsted.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 441: Om modregning i kontanthjælpen i forbindelse med borgerligt ombud.</head>
+            <note type="agendaItem">2014-12-10-2-5</note>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210133610" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210133610-71">Værsgo.</seg>
+                </u>
+                <u who="BøgstedBent_DF" xml:id="ParlaMint-DK_20141210133616" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210133616-72">Tak, hr. formand. Spørgsmålet lyder: Vil ministeren være indstillet på at lave en ændring af kontanthjælpsreglerne, således at vederlag som domsmand ikke fratrækkes i kontanthjælpen?</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210133633" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210133633-73">Beskæftigelsesministeren.</seg>
+                </u>
+                <u who="KristensenHenrikDam_Beskæftigelsesministeren_S" xml:id="ParlaMint-DK_20141210133634" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210133634-74">Lad mig først slå fast, at jeg mener, at det er vigtigt og også godt, at folk påtager sig opgaven som domsmand, og at det er vigtigt for demokratiet, at vi har domsmænd fra alle samfundslag. Når det er sagt, ændrer det ikke på, at kontanthjælpsdelen er det underste økonomiske sikkerhedsnet, og at princippet er, at man først skal leve af sine egne penge, før der bliver tale om, at kommunen træder til. Derfor skal man også forsørge sig selv med de penge, man bl.a. får for at være domsmand. Der er også andre erhverv som nævning, vidne eller medlem af kommunalbestyrelsen, hvor der også sker modregning af kontanthjælpen. Grundlæggende mener jeg dog, at kontanthjælpsystemet, som vi kender det i dag, netop er karakteriseret ved, at det hjælper personer, der ikke kan forsørge sig selv. Jeg ved også, at spørgeren har været optaget af spørgsmålet om, hvorvidt transportudgifter modregnes i kontanthjælpen. Jeg kan sige, at jeg ikke mener, det er rimeligt, hvis kontanthjælpsmodtagere, der er domsmænd, selv skal afholde deres transportudgifter. Jeg har derfor forhørt mig hos mine embedsmænd om det her, og de oplyser, at Ankestyrelsens umiddelbare opfattelse er, at der ikke skal ske fradrag i kontanthjælpen for transportgodtgørelsen. Hvis der er kontanthjælpsmodtagere, der har fået fradrag i kontanthjælpen for transportudgifter, som de har fået dækket for at være domsmænd, vil jeg faktisk opfordre dem til at klage til Ankestyrelsen.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210133753" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210133753-75">Hr. Bent Bøgsted.</seg>
+                </u>
+                <u who="BøgstedBent_DF" xml:id="ParlaMint-DK_20141210133755" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210133755-76">Tak for det. Det er jo klar tale fra ministeren, og det er også meget godt, men når vi ser på den situation med domsmænd – og jeg er enig med ministeren i, at det gerne skal være sådan, at det er bredt sammensat af alle samfundslag i Danmark, når det er et borgerligt ombud – så er det lidt bemærkelsesværdigt, at en, der deltager som domsmand, bliver modregnet i kontanthjælpen, men hvis man sidder som valgtilforordnet ved kommunalvalg, folketingsvalg, bliver man ikke modregnet i kontanthjælpen for det vederlag. Det er også et borgerligt ombud. Derfor må der være tale om en vis ligestilling. Hvis man ikke skal modregnes for vederlag i forbindelse med borgerligt ombud ved et valg, er det så rimeligt, at man skal modregnes i kontanthjælpen, når man udpeges som domsmand og har udgifter derved? Desuden er det jo sådan i det eksempel, som jeg tidligere har nævnt over for ministeren, at der jo netop er en, der har kørselsudgifter til retten, hvor han skal deltage som domsmand, men ikke får tilskud til kørsel fra kommunen. Det er afvist af kommunen, at han kan få dækket sine udgifter til kørsel, og det vil sige, at når han er færdig som domsmand og har fået det vederlag som domsmand, så har han faktisk et minus på sin konto, fordi de udgifter, han har i forbindelse med at være domsmand, overstiger det, han får i udbetaling for at være domsmand. Når det bliver modregnet i kontanthjælpen, har han udgifter, og det finder jeg sådan set er urimeligt. Han har varetaget det borgerlige ombud, som han er blevet udpeget til, og passer det. Og som ministeren siger, skal man sørge for, at det er alle samfundslag, der er dækket ind her.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210133953" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210133953-77">Ministeren.</seg>
+                </u>
+                <u who="KristensenHenrikDam_Beskæftigelsesministeren_S" xml:id="ParlaMint-DK_20141210133955" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210133955-78">Hr. Bent Bøgsted har jo ret i, at der er steder, hvor vi har undtaget det her. Vi er jo selv, begge partier, en del af kontanthjælpsreformen. Jeg havde ikke aktie i det på daværende tidspunkt, det havde hr. Bent Bøgsted, og derfor kom det her ikke med, men der er eksempler – det medgiver jeg gerne. Jeg tror, at det er af en lidt anden karakter at være domsmand. Jeg tror ikke helt, man kan sammenligne det med at være valgtilforordnet. Det er heldigvis ikke så tit, at man i givet fald er det, som at være domsmand. Jeg synes, at det der princip om, at kontanthjælpen er det underste sikkerhedsnet, vi har, og at det bliver modregnet, hvis man tjener penge ved siden af, er et okay princip. Må jeg så sige helt konkret – og jeg tror, at jeg var meget præcis i mit første svar – at jeg synes som hr. Bent Bøgsted, at man ikke skal have underskud på det, og derfor sagde jeg helt præcis, at jeg mener efter den konsultation, jeg har haft med mine embedsmænd, at når det gælder kørselsfradraget der, så har man en god sag. Jeg vil rent faktisk gå så vidt, at jeg vil opfordre til, at man henvender sig til Ankestyrelsen. Jeg tror på, at man har en god sag her.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210134059" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210134059-79">Hr. Bent Bøgsted.</seg>
+                </u>
+                <u who="BøgstedBent_DF" xml:id="ParlaMint-DK_20141210134100" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210134100-80">Tak. Skal det forstås på den måde, at ministeren vil tage skridt til at sikre, at kommunerne sørger for at udbetale kørselsgodtgørelse til dem, der deltager som domsmænd? For i den her situation har kommunen afvist at dække kørselsudgifterne, og det kan jo godt være store kørselsudgifter. Hvis man bor et sted, hvor der ikke er offentlige transportmidler, og man på en eller anden måde skal af sted og er nødt til at leje en bil eller hyre en taxa, eller hvad det nu er, for at komme hen til retten, så kan det jo godt være store udgifter, og når man så ikke får dem dækket ind, har man et stort minus.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210134138" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210134138-81">Ministeren.</seg>
+                </u>
+                <u who="KristensenHenrikDam_Beskæftigelsesministeren_S" xml:id="ParlaMint-DK_20141210134139" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210134139-82">Nu skal jeg nok passe på, for jeg er ikke fuldstændig ekspert i, hvordan kørselsudbetalingen er, når man er domsmand. Den måde, jeg har forstået det på, er, at man får en kørselsgodtgørelse som domsmand, og hvis kommunen så trækker den fra i kontanthjælpen, er det, jeg synes at der er en urimelighed. Og hvis det forhold er gældende, synes jeg rent faktisk man skal gå til Ankestyrelsen. Men med det forbehold, at jeg ikke er ekspert i det og ikke helt har forberedt mig på at svare på, lige hvordan kørselsudgifterne bliver refunderet, så er mit svar, at hvis det er en refusion, som man får, og den så bliver fradraget i kontanthjælpen, så synes jeg det er uretfærdigt, og så er min konkrete anbefaling, at man går til Ankestyrelsen.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210134222" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210134222-83">Hr. Bent Bøgsted, sidste omgang.</seg>
+                </u>
+                <u who="BøgstedBent_DF" xml:id="ParlaMint-DK_20141210134224" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210134224-84">Tak. Nu skal jeg selvfølgelig ikke gøre mig helt hundrede procent klog på, hvordan det foregår ude i kommunen, men det, jeg har forstået, er, at han ikke får dækket kørselsudgifter. Der er ingen dækning af kørselsudgifter. Han får udbetalt det vederlag, han får for at være domsmand. Så er spørgsmålet til sidst: Hvis det er sådan, at han stadig væk skal have udgifter på at være domsmand, er der så nogle muligheder for, at han kan træde ud af den ordning i det hele taget? For det har jeg forstået på ham at man ikke kan. Når først man er udpeget til domsmand, kan man ikke sige nej, og at man ikke vil være i det system mere. Men vil ministeren undersøge, om der er nogen mulighed for at træde ud af det system i det hele taget?</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210134259" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210134259-85">Beskæftigelsesministeren</seg>
+                </u>
+                <u who="KristensenHenrikDam_Beskæftigelsesministeren_S" xml:id="ParlaMint-DK_20141210134301" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210134301-86">Det vil jeg meget gerne undersøge. Jeg vil nødig svare her i dag, fordi jeg ikke er ekspert i borgerligt ombud. Det er jo en pligt, som vi har som borgere, og hvilke muligheder man har for at sige fra i forhold til det, ville det være urimeligt af mig at begynde at svare på her i dag. Men på et spørgsmål fra hr. Bent Bøgsted vil jeg meget gerne sørge for at der kommer et hurtigt svar.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210134321" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210134321-87">Spørgsmålet er sluttet. Tak til beskæftigelsesministeren. Det næste spørgsmål er til ministeren for by, bolig og landdistrikter af fru Louise Schack Elholm.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 451: Om offentliggørelsen af den seneste ghettoliste.</head>
+            <note type="agendaItem">2014-12-10-2-6</note>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210134334" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210134334-88">Værsgo.</seg>
+                </u>
+                <u who="ElholmLouiseSchack_V" xml:id="ParlaMint-DK_20141210134335" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210134335-89">Tak. Jeg har stillet et spørgsmål til ministeren, fordi ministeren til Berlingske Nyhedsbureau i forbindelse med offentliggørelsen af den seneste ghettoliste har udtalt, at »vi har nogle områder med meget store udfordringer« – jeg kunne ikke være mere enig. Hvis ministeren mener dette, så undrer det mig jo, at ministeren her ved det seneste boligforlig ikke foreslog målrettede ghettotiltag, der kunne tage hånd om disse »meget store udfordringer«?</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210134404" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210134404-90">Ministeren.</seg>
+                </u>
+                <u who="HansenCarsten_Ministerenforbyboligoglanddistrikter_S" xml:id="ParlaMint-DK_20141210134406" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210134406-91">Tak. Nu er det jo et gammelkendt politisk kneb at tage en del af en udtalelse og så ikke komme med hele udtalelsen. Jeg glædede mig faktisk over, at det for første gang gik den rigtige vej, siden man begyndte at offentliggøre de her lister over særligt udsatte boligområder, men det er stadig væk sådan, at vi har særligt udsatte boligområder, som der er store udfordringer i; det synes jeg at borgerne skulle have med. Men jeg indgik jo her den 28. november en meget bred boligaftale med Det Konservative Folkeparti, Dansk Folkeparti, Enhedslisten og SF om anvendelse af Landsbyggefondens midler. Jeg må sige, det er en rigtig god aftale, som sikrer en fortsat stærk indsats i de udsatte boligområder, og at det ikke mindst er en bredt funderet aftale, som alle Folketingets partier minus Venstre og Liberal Alliance er med i og selvfølgelig også har sat deres præg på, og så er det en 4-årig aftale. Jeg mener, det er vigtigt, når vi taler udsatte boligområder, at man kan se, det ligesom kører videre, ved at der er stærk konsensus om, hvad det er, der skal ske i disse områder. Så tidshorisonten og den brede forligskreds sikrer jo et højt prioriteret og en meget stabil indsats, for at de udsatte almene boligområder kan blive attraktive alternativer til bosætninger andre steder på det almene eller det private boligmarked. I boligaftalen har vi også sikret 465 mio. kr. om året i 4 år til boligsociale indsatser i udsatte boligområder, og op til halvdelen af pengene kan gå til huslejenedsættelser. De boligsociale midler er sammen med renoveringer for 18. mia. kr. i perioden 2015-2020 og infrastrukturændringer for 940 mio. kr. med til at styrke de almene boligområders konkurrenceevne. De boligsociale midler og i vid udstrækning også renoveringsmidlerne er målrettet de udsatte boligområder, og puljen med infrastruktur er i første omgang målrettet de særligt udsatte boligområder. Som noget nyt i boligaftalen er også de boligområder, som er på grænsen til at udvikle sig til at blive særligt udsatte, med, og det er ikke udtryk for manglende prioritering, men udtryk for en særlig prioritering i forhold de udsatte boligområder.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210134606" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210134606-92">Fru Louise Schack Elholm.</seg>
+                </u>
+                <u who="ElholmLouiseSchack_V" xml:id="ParlaMint-DK_20141210134608" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210134608-93">Jamen altså, jeg vil da sige, at vi glæder os over, at ministeren vælger at videreføre de initiativer, som  vi Når nu man erkender, at der er meget store udfordringer i de her ghettoområder, så så jeg gerne, at man gik skridtet videre og sagde: Jamen vi vil gerne komme det her mere til livs, og derfor vil vi gå ind og give nogle nye redskaber. Hvorfor har ministeren slet ikke givet nogen nye redskaber til de boligselskaber, der er de steder, som ryger på ghettolisten? Hvorfor har ministeren ikke givet dem nogle nye redskaber, når ministeren lige har tømt hele Landsbyggefonden frem til 2032 og så ikke engang kommer med nogen tiltag, der skulle være en hjælp til at undgå den her ghettoisering?</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210134701" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210134701-94">Ministeren.</seg>
+                </u>
+                <u who="HansenCarsten_Ministerenforbyboligoglanddistrikter_S" xml:id="ParlaMint-DK_20141210134702" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210134702-95">Jeg må jo sige, at jeg synes, det er en underlig diskussion, og den minder mig måske lidt om, at Venstre synes, rønnebærrene er lidt sure. Vi har en ny boligaftale, som Venstre efter flere ugers forhandlinger har valgt at stå uden for. Venstre valgte at tage hængekøjen frem for at tage ansvar. Venstre fastholdt, at de kun ville lave en 1-årig eller maks. 2-årig boligaftale for nogle meget mindre beløb til de udsatte boligområder end dem, vi endte med at blive enige om i forligskredsen. Så jeg mener bestemt ikke, det er et passende svar på de alvorlige problemer, vi står med i de udsatte boligområder, at lave så korte aftaler – uden lang tidshorisont. Fru Louise Schack Elholm ved jo godt, at både de boligsociale indsatser og helheds- og renoveringsplanerne løber over ganske mange år. Så jeg synes, at det klinger lidt hult, når Venstre kritiserer, at de særligt udsatte boligområder ikke prioriteres i boligaftalen. Men nu har vi heldigvis en boligaftale, hvormed der er afsat rigtig mange milliarder kroner til den helhedsorienterede indsats i de udsatte boligområder de næste 4 år.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210134755" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210134755-96">Fru Louise Schack Elholm.</seg>
+                </u>
+                <u who="ElholmLouiseSchack_V" xml:id="ParlaMint-DK_20141210134756" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210134756-97">Jeg må indrømme, at jeg er rigtig skuffet over, at man bruger et så vigtigt politisk emne som de problemer, der er ude i ghettoområderne, til at lave politisk drilleri med. Jeg synes simpelt hen ikke, det er passende. Jeg spørger om, hvordan det kan være, at man ikke er kommet med nogle nye initiativer, nogle nye redskaber, der skal kunne sikre, at man bedre skal kunne komme af ghettolisten, at man holder op med at have problemer, altså de her meget store udfordringer, som ministeren medgiver der er i de her områder. Men ministeren bruger al sin taletid på politisk drilleri. Jeg kunne godt tænke mig et konkret svar. Hvorfor er man ikke kommet med nogen konkrete redskaber til at hjælpe de her boligselskaber?</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210134834" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210134834-98">Ministeren for by, bolig og landdistrikter.</seg>
+                </u>
+                <u who="HansenCarsten_Ministerenforbyboligoglanddistrikter_S" xml:id="ParlaMint-DK_20141210134836" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210134836-99">Jeg er nødt til at sige, at det, uanset hvad fru Louise Schack Elholm siger, ikke er politisk drilleri. Venstre valgte at stå uden for en boligaftale. For maks. 1 eller 2 år ville man sætte stort set og godt og vel 1½ mia. kr. af. Her har vi sat 18 mia. kr. af. Så det er da virkelig et udtryk for manglende ansvarsfølelse, og det er udtryk for, at man selv vil drille og ikke vil være med til at tage ansvar for vores udsatte boligområder. Men lad mig nu sige, at Landsbyggefondens midler jo prioriteres benhårdt til at skabe trygge og almene boligområder, og det er, fordi jeg mener, at tryghed er helt fundamentalt for menneskers livskvalitet, og ingen vil bosætte sig et sted, der er præget af utryghed. Derfor er jeg også glad for, at den her boligaftale prioriterer tryghed i modsætning til den aftale, som Venstre var med i sidste gang på det boligsociale område. I forhold til infrastrukturpuljen og renoveringsrammen og de boligsociale indsatser er tryghed det højst prioriterede område på alle områder. Det ved fru Louise Schack Elholm også godt, for hun har læst aftalen.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210134931" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210134931-100">Så er det fru Jane Heitmann som medspørger.</seg>
+                </u>
+                <u who="HeitmannJane_V" xml:id="ParlaMint-DK_20141210134934" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210134934-101">Tak for det. Det er i virkeligheden en lille smule løjerligt at sidde her og følge debatten, for igen kan man jo konstatere, at det er symptomatisk for den siddende regering at bruge tiden på at kritisere Venstre i stedet for selv at levere de gode svar. Og det er sådan set derfor, jeg er her i dag – det er faktisk for at få de gode svar fra regeringens repræsentant her, ministeren for by, bolig og landdistrikter. Hvis vi tager et udsat boligområde som Vollsmose, synes jeg, det er rigtig glædeligt, at man har besluttet sig for at styrke infrastrukturen – at rive en bygning ned og bygge en vej gennem Vollsmose. Det vil jeg gerne anerkende. Men det løser jo ikke problemet med, at man i Vollsmose i høj grad lever i et parallelsamfund. Hvis man kigger på statistikken fra regeringens ghettoliste, kan man jo se, at 67,1 pct. af indbyggerne har en ikkevestlig baggrund, og at 3,23 pct. af beboerne er dømte. Der er altså i høj grad tale om et parallelsamfund. Og jeg vil gerne spørge ministeren: Hvordan løser vi problemet med parallelsamfund i Vollsmose?</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210135047" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210135047-102">Ministeren.</seg>
+                </u>
+                <u who="HansenCarsten_Ministerenforbyboligoglanddistrikter_S" xml:id="ParlaMint-DK_20141210135049" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210135049-103">Nu gjorde jeg rede for, at tryghed bliver det vigtigste tema, både i forhold til når man renoverer, så man sikrer, at man undgår mørke stier, og man tager kriminalpræventive hensyn, men også i forhold til den boligsociale indsats, hvor man nu også skal lave en handlingsplan for, hvad der sker, hvis der opstår uro. Og samtidig gør vi det også i forhold til infrastrukturproblemet, nemlig sætter trygheden højest. Og må vi så ikke have lov til at glæde os over den indsats, regeringen har gjort over de sidste 3 år, der har betydet – i modsætning til hvad der skete under den tidligere regering – at kriminaliteten er faldet over hele landet, også i de udsatte boligområder. Sidste år faldt kriminaliteten med næsten 13 pct., og i hovedparten af de 34 boligområder, som Rigspolitiet nu måler på, er kriminaliteten lavere eller på niveau med landsgennemsnittet. Det viser, at vi er på rette spor. For første gang i mange år går det den rigtige vej. Og der er faktisk 7 boligområder, der er røget af listen over særligt udsatte boligområder, og som er kommet ned under grænseværdien for antallet af dømte. Så vi gør faktisk rigtig meget. Men jeg tager da stærkt afstand fra parallelsamfund. Vi skal da have rettet op på det, også i forhold til den dårlige indsats, der blev gjort de sidste 10 år, inden vi kom til.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210135159" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210135159-104">Fru Jane Heitmann.</seg>
+                </u>
+                <u who="HeitmannJane_V" xml:id="ParlaMint-DK_20141210135201" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210135201-105">Jamen altså, der er da ingen tvivl om, at jeg deler ministerens ambition om, at der skal være tryghed for alle borgere i Danmark, uanset hvor man bor. Man må bare konstatere, at det jo ikke helt er tilfældet i ghettoområderne. Regeringen har jo ændret kriterierne for, hvornår man skal på en liste. Og man kan jo sige, at hvis man kigger listen igennem, kan man se, at selv med de ændrede kriterier ville der være flere områder, der stadig væk ville være med på listen, hvis man tog de gamle kriterier. Det vil sige, at beboerne i områderne stadig væk i høj grad er efterkommere af ikkevestlige, fra ikkevestlige lande, de har ikke stor tilknytning til arbejdsmarkedet, og områderne har en høj koncentration af kriminelle. Så vil jeg bare gerne spørge ministeren: Mener ministeren, at der er sket reelle fremskridt i de områder, eller er årsagen til, at de er røget af ghettolisten, i virkeligheden bare, at man har fiflet en lille smule med kriterierne?</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210135257" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210135257-106">Ministeren.</seg>
+                </u>
+                <u who="HansenCarsten_Ministerenforbyboligoglanddistrikter_S" xml:id="ParlaMint-DK_20141210135258" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210135258-107">Nu forstår jeg, at vi skal snakke om kriterierne om lidt i det næste spørgsmål, men jeg vil da godt sige, at det går den rigtige vej. Der er faktisk to områder færre i den seneste opgørelse, end der var tidligere, altså 31 mod tidligere 33. Jeg synes, det er positivt, men selvfølgelig kan vi alle sammen ønske os, at det går endnu hurtigere, og det vil jeg gerne medgive at jeg gør. Jeg er også glad for, at vi har indgået en bred boligaftale. Men jeg kan godt høre på Venstres tilgang her, hvorfor de ikke er med. De vil jo ikke lave langsigtede indsatser – maks. 2-årige aftaler med 1,5 mia. kr. i forhold til de 18 mia. kr., vi har sat af. Og der vil jeg sige, at de udfordringer, vi står over for, jo fordrer mere end så korte indsatser med så små beløb. Derfor vil jeg sige, at de kriterier, som listen afspejler, også afspejler de udfordringer, som de udsatte boligområder står over for, i forhold til tryghed, beskæftigelse, integration, indkomst og meget kort uddannelse. Der skal vi selvfølgelig som samfund sætte ind, men når både kriminaliteten og antallet af særligt udsatte boligområder falder, er vi ved at komme på rette spor for første gang, siden man begyndte at lave listen. Det synes jeg også fru Jane Heitmann skulle glæde sig over. Og så skal vi selvfølgelig forstærke den indsats med det, vi ved virker, og derfor har vi også lavet en værktøjskasse på området, samarbejdsaftaler med de seks største kommuner i landet om, hvordan vi målrettet sætter ind over for det her, og der er lavet en politimæssig indsats med SUB-områderne, hvor det nu ser ud som om det også virker i forhold til kriminaliteten. Det skulle man som Venstremedlem faktisk også glæde sig lidt over i stedet for at være så sur over, at man ikke kom med i en boligaftale.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210135425" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210135425-108">Så er det fru Louise Schack Elholm for sidste runde til dette spørgsmål.</seg>
+                </u>
+                <u who="ElholmLouiseSchack_V" xml:id="ParlaMint-DK_20141210135430" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210135430-109">Tak. Jeg må jo sige, at det er dybt skuffende. Ministeren svarer jo ikke konkret på spørgsmålene, men vælger at kaste med mudder i stedet for. Så lad mig bare lige gøre klart, hvorfor Venstre ikke er med i det her boligforlig. Jamen det er Venstre ikke, fordi Venstre ikke synes, at der var noget ambitiøst tiltag i forhold til ghettoerne, der kunne retfærdiggøre en fireårig aftale. Venstre lagde sig op af ministerens oplæg i forhold til økonomien, og derfor er jeg meget forundret over, at ministeren ikke syntes, det var et fornuftigt niveau, man lagde sig på. Det eneste krav, vi stillede, var, at det var en toårig aftale. Jeg vil sige til det med de her redskaber, at jeg stadig væk er rigtig ærgerlig over, at ministeren ikke har nogle nye redskaber til ghettoerne med i den her boligaftale, og det var jo lige præcis det, vi var bekymret for, og det var derfor, vi kritiserede, at det skulle være så lang en aftale, for vi mener, at der skal gøres noget. Men jeg må nok opgive at få et svar, tror jeg, fra ministeren, på, hvorfor det er, ministeren ikke er kommet med nogle nye ghettotiltag. Det må jo enten være, fordi ministeren ikke har været visionær nok, eller også er det, fordi ministeren ikke synes, at der er nogen alvorlige problemer i de her ghettoområder, for ministeren vil i hvert fald ikke svare på det. Ministeren kaster jo kun med mudder, hver gang jeg spørger om, hvorfor man ikke er kommet med nogen nye redskaber til at hjælpe boligforeningerne med at komme af med de her ghettoproblemer.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210135544" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210135544-110">Så er det ministeren.</seg>
+                </u>
+                <u who="HansenCarsten_Ministerenforbyboligoglanddistrikter_S" xml:id="ParlaMint-DK_20141210135546" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210135546-111">Jeg tror faktisk, det er sådan, at alle partier i Folketinget synes, at det er rigtig vigtigt, at vi får brudt de her særligt udsatte boligområder op og får gjort en særlig indsats, som gør, at vi får nedbragt kriminaliteten, og at vi får færre på listen over de her særligt udsatte boligområder. Men det har vi jo diskuteret. Jeg vil godt sige, at jeg synes, at der med den her brede aftale, vi har lavet, er sikret en fortsættelse af den gode indsats, som også blev gjort under den tidligere regering på nogle af områderne, hvor vi nu sætter ekstra ind med tryghed, som bliver det bærende element. Helhedsplanerne bliver gået efter en gang om året. Vi gør det, at vi nu siger, at nu skal vi også bryde den negative sociale arv. Det er nye punkter i forhold til det, der stod i den tidligere boligaftale. Så derfor synes jeg egentlig, at det virker forstemmende på mig, at Venstre forsøger at lancere sig som et meget ansvarligt parti, når man kun vil lave en 2-årig aftale. Den tidligere regering spillede faktisk ud med en 4-årig aftale, som vi så har forbedret sammen med en række partier. Men Venstre ville ikke være med.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210135643" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210135643-112">Spørgsmålet er sluttet. Det næste spørgsmål til ministeren for by, bolig og landdistrikter er også af fru Louise Schack Elholm.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 453: Om artiklen »Derfor blev Løget pillet af ghettolisten«.</head>
+            <note type="agendaItem">2014-12-10-2-7</note>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210135652" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210135652-113">Værsgo.</seg>
+                </u>
+                <u who="ElholmLouiseSchack_V" xml:id="ParlaMint-DK_20141210135653" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210135653-114">Det næste spørgsmål handler, som ministeren også selv var inde på, mere om selve kriterierne for ghettolisten: Mener ministeren, at det, for så vidt angår udarbejdelsen af ghettolisten, er hensigtsmæssigt, at kriteriet om kriminalitet er blevet ændret fra et 4-årigt til et 2-årigt gennemsnit – det var det, ministeren gjorde for ganske kort tid siden – så ghettolisten er blevet mere følsom over for den slags små udsving, som er omtalt i artiklen »Derfor blev Løget pillet af ghettoliste« fra Vejle Amts Folkeblad? I den artikel kan man nemlig læse, at det er, fordi to kriminelle er flyttet ud af kvarteret, at Løget er røget af ghettolisten.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210135730" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210135730-115">Ministeren for by, bolig og landdistrikter.</seg>
+                </u>
+                <u who="HansenCarsten_Ministerenforbyboligoglanddistrikter_S" xml:id="ParlaMint-DK_20141210135732" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210135732-116">Jeg mener helt bestemt, at den nye måde at opgøre de særligt udsatte boligområder på faktisk giver os en bedre mulighed for at identificere de problemer, der er, i de udsatte boligområder. Med den nye opgørelsesmetode har vi suppleret de tre tidligere kriterier med to nye kriterier, nemlig uddannelse og indkomst. Samtidig ændrede vi opgørelsen over beboere uden for arbejdsmarkedet og andelen af dømte fra 4-årige til 2-årige gennemsnit. Formålet med at gå over til 2-årige gennemsnit var at få en hurtigere registrering af ændringerne i området. Derved sætter vi i højere grad fokus på den aktuelle situation i de særligt udsatte boligområder. Det var nemlig sådan med de tidligere kriterier, som fru Louise Schack Elholms parti var med til at lave, altså de 4-årig kriterier, at der byggede listen på tal, der var op til 5 år gamle. Det var efter min opfattelse ikke holdbart. Kriterierne er jo en slags temperaturmålinger af områderne, og det er nu engang sådan, at hvis man vil vide, om patienten har behov for behandling her og nu, så nytter det jo ikke at basere sig på en behandling, der er op til 5 år gammel, og en gammel temperaturmåling, som ikke fungerer. Sådan er det også med både kommuner og boligorganisationer og regeringen og politiet, nemlig at vi jo gør en ekstra indsats for at få flere i arbejde, for at nedbringe kriminaliteten. Og det er det nye, nemlig at vi faktisk kan se, at der er flere i vores udsatte boligområder, der nu også får en tilknytning til arbejdsmarkedet. Så det er vigtigt, at den her indsats kan aflæses i tallene. Når det begynder at gå bedre i et område, bør man også rimelig hurtigt kunne se konsekvenserne af det på områdets placering på listen. Og naturligvis, hvis udviklingen går den anden vej, skal man også kunne se det, og det skal kunne afspejles i tallene. Det var i øvrigt efter ønske fra en lang række boligorganisationer og kommuner, at vi ændrede fra 4-årige til 2-årige kriterier på de her to områder.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210135911" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210135911-117">Fru Louise Schack Elholm.</seg>
+                </u>
+                <u who="ElholmLouiseSchack_V" xml:id="ParlaMint-DK_20141210135913" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210135913-118">Så ministeren mener, at det er godt, hvis nu – jeg ved ikke, hvorfor de to er flyttet ud af området – de to var kommet i fængsel for noget rapseri og kommer tilbage om et år, at så kommer Løget på en gang til. De her fluktuationer, altså små ændringer, der sker, betyder, at et område ryger af og på listen i tide og utide. Det synes ministeren er et gode, fordi så kan man se nogle hurtige forandringer. Men kan det ikke også være en ulempe, fordi man ikke kan lave det lange, seje træk, fordi man er følsom over for nogle små bevægelser? Det kan også være, at de måske er flyttet til genhusning, fordi man er i gang med noget renovering i Løget. Jeg ved det ikke, men under alle omstændigheder må det da være en udfordring, det påpeger man i hvert fald selv fra boligorganisationen, altså at man er følsom over for, at to beboere flytter ud af området.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210140002" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210140002-119">Ministeren.</seg>
+                </u>
+                <u who="HansenCarsten_Ministerenforbyboligoglanddistrikter_S" xml:id="ParlaMint-DK_20141210140003" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210140003-120">Jeg vil sige, at det jo er naturligt, at en liste over særlig udsatte boligområder bliver mere følsom over for udsving i antallet af dømte f.eks., når man går fra et 4-årigt gennemsnit til et 2-årigt, men det byggede på helt op til 5 år gamle tal. Det vil sige, at boligforeningerne sagde, at nu har vi i samarbejde med politiet gjort en kæmpeindsats i forhold til den kriminalpræventive indsats, men vi kan ikke aflæse det af tallene. Det var ikke hensigtsmæssigt, og det var også et ønske fra boligorganisationerne og fra kommunerne, at vi ændrede på det. Men når man bygger på objektive kriterier, kan man ikke undgå, at mindre ændringer i kriterieværdierne, altså grænserne, kan betyde, når man ligger tæt på grænsen, at man ryger ind eller ud af listen, men det var et ønske om at afspejle mere aktualitet og afspejle den gode indsats, man gør rundtomkring.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210140049" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210140049-121">Fru Louise Schack Elholm.</seg>
+                </u>
+                <u who="ElholmLouiseSchack_V" xml:id="ParlaMint-DK_20141210140051" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210140051-122">Den her ændring af ghettokriterierne har også haft en betydning for, hvad det er for nogle områder, der er på ghettolisten. F.eks. er Aldersrogade i København røget af listen, til trods for at 73 pct. af indbyggerne har en anden baggrund end vestlig eller er efterkommere heraf og at de også er over grænsen for antallet af dømte. Det vil sige, at efter de normale regler – nu ved jeg selvfølgelig ikke, hvad det 4-årige gennemsnit er for dømte – fra dengang inden ministeren ændrede det, ville Aldersrogade være røget på ghettolisten, fordi der ville være stor risiko for parallelsamfund, når man har 73 pct. med ikkevestlig baggrund, og man har så stor en andel af kriminelle. I stedet for er et område som Præstebakken, Syrenparken i Esbjerg røget på listen. Her er der 35 pct. beboere, som ikke har en vestlig baggrund. Der kan det godt undre mig, for normalt når jeg tænker på, hvad en ghetto er, er det et spørgsmål om et sted, hvor der er parallelsamfund, og hvor der er utryghed, og jeg ville da være meget mere bekymret i forhold til Aldersrogade, end jeg ville være i forhold til Præstebakken og Syrenparken i Esbjerg sådan lige umiddelbart. Mener ministeren, at det er et dækkende billede, at Aldersrogade med over 70 pct. med ikkevestlige baggrund er kommet af listen, mens et område som Præstebakken i Esbjerg med kun knap en tredjedel er kommet på listen?</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210140217" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210140217-123">Ministeren.</seg>
+                </u>
+                <u who="HansenCarsten_Ministerenforbyboligoglanddistrikter_S" xml:id="ParlaMint-DK_20141210140218" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210140218-124">Tak for det. Nu vil jeg ikke gøre mig til dommer over, hvad fru Louise Schack Elholm synes er værst på den ene eller den anden måde. Jeg vil godt sige, at hvis man har områder med meget, meget lav uddannelsesfrekvens og kun folkeskoleeksamen, så indikerer det jo, at der er nogle kæmpe udfordringer i området, for fru Louise Schack Elholm ved sikkert lige så godt som mig, at skal man klare sig på det danske arbejdsmarked, skal man have en uddannelse. Det går heldigvis den rigtige vej med de unge mennesker. I forhold til indkomst vil jeg sige, at hvis der er meget lave indkomster i området og man lever af overførselsindkomst, danner det også grobund for sort økonomi, bandekriminalitet osv. Så derfor har vi taget det med. Fru Louise Schack Elholm forsøger at definere etnicitet eller antallet af dømte som det eneste afgørende. Det er ikke rigtigt, for der er masser af andre parametre, man er nødt til at inddrage. Vi synes jo, at de kriterier, vi har lavet, hvor Venstre desværre heller ikke ville være med, jo i højere grad afspejler de udfordringer, man står over for i de udsatte boligområder, og der synes jeg at de er rigtigt lavet.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210140313" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210140313-125">Så er det fru Fatma Øktem som medspørger.</seg>
+                </u>
+                <u who="ØktemFatma_V" xml:id="ParlaMint-DK_20141210140318" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210140318-126">Mange tak. Jeg kunne godt tænke mig at spørge ministeren om noget. Jeg har læst ministeren udtale til Danmarks Radio, at med de kriterier, der er, er man ved at knække kurven på ghettoområdet. Jeg kunne godt tænke mig at spørge ministeren: Når man vælger at lave et så skrøbeligt sæt kriterier for definitionen af, hvornår noget er ghetto eller ej, ved at lave en ændring fra et 4-årigt til et 2-årigt gennemsnit, vil ministeren så ikke lige svare på, at to personer eller en enkelt person for den sags skyld, som min kollega var inde på for lidt siden, faktisk kan afgøre, om man er på listen, eller om man ikke er på listen. Er det at knække kurven? Jeg synes, det virker meget useriøst, at man den ene dag kan ryge af listen, hvorefter man 3 måneder senere kan ryge på igen. Vil ministeren ikke svare på, om det er korrekt?</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210140418" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210140418-127">Ministeren.</seg>
+                </u>
+                <u who="HansenCarsten_Ministerenforbyboligoglanddistrikter_S" xml:id="ParlaMint-DK_20141210140419" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210140419-128">Det er faktisk sådan, som jeg også har sagt til fru Louise Schack Elholm, at vi ønskede 2-årige kriterier, fordi man så bedre kan afspejle den indsats, der er gjort, i stedet for at der, som på den tidligere liste, som fru Fatma Øktems parti lavede, kunne gå op til 5 år, før man kunne se, om den indsats, der blev lavet, virkede. Det er faktisk sådan, at 2-årige kriterier og udvidelsen af uddannelse og indkomst giver et langt mere retvisende billede af de her udsatte boligområder. Jeg vil gerne sige, at når jeg sagde, det gik den rigtige vej, var det også, fordi vi kan se det. Både i forhold til antallet af dømte, hvad jeg redegjorde for under sidste spørgsmål – kriminaliteten er faktisk faldet rigtig meget også i vores udsatte boligområder – men også, fordi vi kan se, at der er flere og flere, der får tilknytning til arbejdsmarkedet. Det synes jeg vi skal glæde os over i stedet for at hænge os i en bagatel om nogle grænseværdier. For når man laver grænseværdier, vil det altid være sådan, at nogle vil ligge indenfor eller udenfor. Dog skal vi glæde os over, at den særlige indsats, man kan få, når man er på den her liste over særlig udsatte boligområder, holder, fem år efter man har været på listen. Så det er ikke sådan, at de muligheder, man har haft for en forebyggende indsats, bare forsvinder.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210140520" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210140520-129">Så er det igen fru Fatma Øktem.</seg>
+                </u>
+                <u who="ØktemFatma_V" xml:id="ParlaMint-DK_20141210140523" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210140523-130">Jeg antager, at svaret betyder, at der faktisk godt kan ændres på listen, ved at der er to eller tre, der er flyttet, hvis det er kriteriet om kriminalitet, det handler om. Så man kan godt ryge af listen og komme på den igen ud fra enkelte små ændringer. Noget andet, som ministeren var meget inde på tidligere, og som jeg håber det er i orden jeg tager op her, er, at tryghed er fundamentalt. Det mener vi helt klart også i Venstre, og vi glæder os, hver gang der er nogle, der kommer i arbejde. Det vil jeg også godt lige understrege. For vi mener, at det til enhver tid skal kunne betale sig at arbejde. Så det vil glæde os, hver gang der er nogle, der går fra passiv forsørgelse til beskæftigelse. Når tryghed er det altafgørende, hvilket ministeren sagde flere gange til bl.a. min kollega Jane Heitmann, mener ministeren så, at de her kriterier er med til at skabe en større tryghed? For i Bispehaven ved jeg at der ikke er nogen stor tryghed. Jeg kunne godt tænke mig at spørge, om ministeren har nogle særlige redskaber, der kan være med til at skabe en større tryghed.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210140633" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210140633-131">Ministeren.</seg>
+                </u>
+                <u who="HansenCarsten_Ministerenforbyboligoglanddistrikter_S" xml:id="ParlaMint-DK_20141210140634" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210140634-132">Nu troede jeg, det var kriterierne for udpegelse af særlige boligområder, vi behandlede nu – for der var mulighed for at høre efter før. Fru Fatma Øktem hørte måske ikke, hvad jeg sagde om tryghedsindsatsen. Vi siger jo, at på alle områder, hvor vi sætter ind og giver penge fra Landsbyggefonden i samarbejde og med en bred aftale, hvor jeg jo glæder mig over, at hele Folketinget, begge sider af Folketinget, er repræsenteret på nær Venstre og Liberal Alliance, sætter vi tryghed på dagsordenen. Må jeg ikke om de særlige kriterier her sige, at når faldet i antallet af særligt udsatte boligområder træder så tydeligt frem med den ændrede opgørelsesmetode, så ser det ud til, at vi har fået knækket kurven. Vi kan faktisk se, at det går den rigtige vej mange steder. Det går faktisk bedre i flere af de udsatte boligområder, og det skyldes bl.a. regeringens politik, herunder vores økonomiske politik. Så jeg er da enig med fru Fatma Øktem i, at vi skal glæde os over det – både at der kommer flere i arbejde, og at der er færre, der bliver dømt.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210140725" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210140725-133">Så er det fru Louise Schack Elholm for en afslutning.</seg>
+                </u>
+                <u who="ElholmLouiseSchack_V" xml:id="ParlaMint-DK_20141210140728" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210140728-134">Jeg må jo sige, at det er skuffende – men det kan jo ikke overraske, at jeg mener det – at den her regering på den måde har udvandet ghettolisten, så man godt nok får det resultat, man gerne vil have, nemlig færre ghettoer, men det er jo kun, fordi man har udvandet kriterierne. Derudover har man jo lavet et boligforlig, hvor der ingen tiltag er til at imødegå de ghettoproblemer, der er. Jeg synes, at regeringen undervurderer de problemer, der er ude i ghettoerne, de tryghedsproblemer, der er, og jeg synes, man burde gøre noget for at løse de her problemer i stedet for at udvande sådan noget som ghettokriterierne, hvilket gør, at det ikke har nogen reel betydning, om der er parallelsamfund, eller om der er mange kriminelle i et boligområde. Jeg må indrømme, at det er, om der er utryghed, om der er parallelsamfund, jeg bruger til at definere et ghettoområde, ikke om folk har fået en uddannelse, eller om de er arbejdsløse. Uddannelse kan være et middel til at hjælpe dem videre, og arbejdsløshed er ikke årsagen til, at det er et utrygt område.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210140817" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210140817-135">Ministeren for by, bolig og landdistrikter.</seg>
+                </u>
+                <u who="HansenCarsten_Ministerenforbyboligoglanddistrikter_S" xml:id="ParlaMint-DK_20141210140819" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210140819-136">Må jeg ikke sige, at i forhold til det 2-årige gennemsnit, som vi har lavet nu, var der en betydelig indbygget træghed i 4-årsopgørelsen, som gik hele 5 år tilbage. Jeg har ikke hørt Venstre sige, at de vil have de 4-årige kriterier igen, som i virkeligheden betød, at den faktiske situation i områderne var meget anderledes end det, tallene viste. Sådan er det jo, når man bygger på tal, der er helt op til 5 år gamle. Det er derfor, vi har valgt at gå fra 4-årige til 2-årige kriterier. Må jeg så ikke sige, at jeg i virkeligheden er mere skuffet over, at Venstre som Folketingets største parti vælger ikke at tage ansvar for en så central del af det danske samfund. Det er jeg skuffet over. Jeg er skuffet over, man kun vil lave 2-årige aftaler, men heldigvis var der en bred kreds i Folketinget, et meget bredt flertal, der ville tage et ansvar for at fortsætte den stærke indsats, vi har gjort de sidste 3 år.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210140905" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210140905-137">Spørgsmålet er sluttet. Tak til ministeren for by, bolig og landdistrikter. Det næste spørgsmål er til undervisningsministeren af fru Marie Krarup. Værsgo.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 417: Om samfundsfag på de almene gymnasier.</head>
+            <note type="agendaItem">2014-12-10-2-8</note>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210140916" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210140916-138">Værsgo.</seg>
+                </u>
+                <u who="KrarupMarie_DF" xml:id="ParlaMint-DK_20141210140918" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210140918-139">Spørgsmålet lyder: Hvad er ministerens holdning til, at samfundsfag fylder så meget på de almene gymnasier efter gymnasiereformen i 2005, samtidig med at det har vist sig at være lettere at bestå i dette fag end i andre mere hårde fag som matematik, fysik og tysk?</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210140933" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210140933-140">Undervisningsministeren.</seg>
+                </u>
+                <u who="AntoriniChristine_Undervisningsministeren_S" xml:id="ParlaMint-DK_20141210140935" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210140935-141">Det er rigtigt, at samfundsfag fylder meget efter reformen i 2005. Hvis vi kigger på tallene fra 2014, ser vi, at 27,3 pct. af studenterne havde samfundsfag på A-niveau i studieretningen, og at 27,8 procent af studenterne havde samfundsfag på B-niveau i studieretningen. Men ser vi på faget matematik, ser vi, at det også fylder rigtig meget i gymnasiereformen efter 2005. Og igen, kigger vi på tallene fra i år, ser vi, at der var 27,6 pct., der havde matematik på A-niveau, og der var faktisk 37,1 pct., der havde matematik på B-niveau. Så det er to store fag, der fylder, både samfundsfag og matematik, men det er også korrekt, at der er stor forskel på dumpeprocenterne. Det er noget, vi er optaget af i regeringen, og som vi jo kommer til at drøfte i gymnasieforligskredsen. Bare kort, fordi der er mulighed for flere runder: Vi vil simpelt hen gå fagene igennem, vi vil kigge på bedømmelseskriterierne, vi vil kigge på fagligheden i dem, og vi vil lave en analyse af, om der er en ensartet faglig kvalitet i fagene, for det skal selvfølgelig ikke være sådan, at der er forskel på den måde, som vi kan se på nogle af tallene der er. Så det vil komme til at indgå i drøftelserne om regeringens gymnasieudspil.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210141041" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210141041-142">Fru Marie Krarup.</seg>
+                </u>
+                <u who="KrarupMarie_DF" xml:id="ParlaMint-DK_20141210141042" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210141042-143">Tak. Jeg er glad for, at man vil det, og jeg vil sige, at spørgsmålet her er stillet, før vi fik udspillet, hvor det er nævnt, at man vil gøre mange af de her ting. Lad mig lige med hensyn til tallene tilføje, at der i dag er 61 pct. af gymnasiasterne, der har samfundsfag på A- eller B-niveau, og det er en stigning på 22 procentpoint siden gymnasiereformen. Der er noget, der tyder på, at det er et højt prioriteret eller et stærkt ønsket fag. Og når man ser på dumpeprocenterne og på karaktererne, kan man jo godt forstå det, og man kan virkelig blive bange for, at det er et gøgeungefag, der skubber nogle andre fag væk. Man kan jo se, at tysk er faldet meget voldsomt og fransk er faldet. Matematik A og fysik A er også faldet. Så de der rigtig knaldhamrende hårde fag er faldet, mens et blødere fag som samfundsfag er gået frem. Og når man så ser på dumpeprocenterne og karaktererne, som altså adskiller sig så voldsomt fra de hårde fag, kan man godt forstå, hvorfor de gør det, og man kan frygte, at der er nogle, der gør det som en strategi for at få nogle høje karakterer. Og hvis de så mangler fysik, matematik eller tysk, tager de det på suppleringsfag, som man kan gøre i en sommerferie, og det kommer ikke ind på det samlede eksamensresultat. Det vil sige, at man får adgang til de gode og eftertragtede studier, og man er altså sluppet for at have de svære fag til at veje tungt på eksamensbeviset. Det er meget dyrt for samfundet, men det er selvfølgelig heller ikke godt for Danmark, at de skarpeste hjerner bruger deres hjerne på måske at finde en nem vej til universitetet i stedet for at finde den vej, hvor de faktisk bliver beriget med nogle virkelig hårde og stærke fag. Derfor har jeg valgt at beholde spørgsmålet her i salen, fordi jeg godt vil være helt sikker på, at ministeren får understreget, at det her virkelig er en pointe og noget, vi er nødt til at se meget alvorligt på i de her kommende forhandlinger om gymnasiet.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210141245" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210141245-144">Ministeren.</seg>
+                </u>
+                <u who="AntoriniChristine_Undervisningsministeren_S" xml:id="ParlaMint-DK_20141210141246" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210141246-145">Så vil jeg godt her bekræfte, at vi er optaget af præcis det samme spørgsmål, nemlig at der skal være en ensartet faglig tyngde i de forskellige fag, og vi går i gang med en analyse. Nu skal vi lige blive enige i gymnasieforligskredsen om, hvad vi gør i forhold til de gymnasiale uddannelser. Men det ligger jo også i andre dele, altså omkring det at reducere antallet af studieretninger, sådan at vi er sikre på, at de i studieretningerne som udgangspunkt har to A-niveaufag, dvs. på højniveau, plus et B-niveau eller et C-niveau. Så der sker jo også en faglig opstramning i de enkelte studieretninger i forhold til det, vi har foreslået. Det er i øvrigt også noget, der kommer bl.a. tysk til gavn, men også de andre fremmedsprog, fordi der vil være flere studieretninger, hvor man skal tage fremmedsprogene på fortsætterniveau, og dermed vil også tysk på A-niveau blive styrket af det. Så vi har blik for præcis den samme bekymring, som spørgeren har, og jeg glæder mig til at drøfte det i forligskredsen.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210141336" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210141336-146">Fru Marie Krarup.</seg>
+                </u>
+                <u who="KrarupMarie_DF" xml:id="ParlaMint-DK_20141210141337" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210141337-147">Tak. Der er i hvert fald grund til at binde samfundsfag sammen med nogle svære fag, så man er helt sikker på, at de ikke gør det som en nem genvej. Der må man virkelig overveje, hvordan man vil gøre det. Hvis man fastholder muligheden for, at et niveau kan hæves til et andet, som det er i dag, vil man stadig væk kunne risikere, at de kan bruge det som en genvej, og det vil jeg advare meget imod. Men jeg vil samtidig sige, af de her undersøgelser af dumpeprocenterne også har vist, at et fag som biologi også viser sig at være nemmere at gå til. Det er et fag, som man ønsker at opprioritere i regeringens udspil. Så der tror jeg altså også, at der er grund til, at man er på vagt.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210141422" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210141422-148">Ministeren.</seg>
+                </u>
+                <u who="AntoriniChristine_Undervisningsministeren_S" xml:id="ParlaMint-DK_20141210141424" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210141424-149">Det er også derfor, at det, vi først vil gøre, er at kigge på de fem fag, hvor vi kan se, at der er mest forskel, og så vil vi lave en analyse af fagligheden i forhold til dem, altså med udgangspunkt også i dumpeprocenterne. Men vi vil så i det hele taget på baggrund af det kigge alle fagene igennem, for det skal selvfølgelig ikke være sådan, at der er nogle, der tænker, at der er nogle nemme genveje. Vi kan jo også se, at rigtig mange vælger gymnasialt suppleringskursus, ikke mindst i matematik B og naturvidenskab, og det er jo derfor, at vi i det, der ligger som regeringens udspil, foreslår det i flere studieretninger. Men det skal stadig væk være sådan – og det synes jeg er vigtigt at understrege – at man jo også skal kunne vælge nogle virkelig gode faglige og sproglige pakker. Det vil jo så være med enten tre eller fire fremmedsprog, og for at de overhovedet har tiden til at kunne få den faglige tyngde og fordybelse, vil der ikke være det samme krav til matematik og naturfag. Jeg fornemmer nu også, at der er en enighed om, at der også skal være en mulighed for på virkelig fagligt højt niveau at kunne have nogle sproglige studieretninger.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210141517" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210141517-150">Fru Marie Krarup, sidste runde.</seg>
+                </u>
+                <u who="KrarupMarie_DF" xml:id="ParlaMint-DK_20141210141519" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210141519-151">Vi kan kun være enige om, at det er enormt vigtigt at lave nogle fagpakker, hvor der virkelig er synergi og højt fagligt niveau. Når man taler om, at der skal være et ensartet fagligt niveau i alle fag, kan jeg godt blive lidt bekymret for, at man kan få den idé, at man i stedet for at hæve barren i f.eks. samfundsfag og biologi begynder at sænke barren i matematik og fysik og tysk, hvor man kan se, at man har de meget høje dumpeprocenter. Det er ekstremt vigtigt, at vi fastholder en høj faglig kvalitet i gymnasiet.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210141551" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210141551-152">Undervisningsministeren.</seg>
+                </u>
+                <u who="AntoriniChristine_Undervisningsministeren_S" xml:id="ParlaMint-DK_20141210141553" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210141553-153">Det, vi kigger på i forbindelse med faget biologi, er, at unge, der vælger biologi på A-niveau, får den tanke, at det så giver adgang til at læse biologi på universitetet, hvilket man godt kan forstå, men det har ikke den faglige tyngde til, at de isoleret set med biologi på A-niveau kan det, og derfor kommer vi til at kigge på bl.a. det fag, sådan at det rent faktisk giver adgang til universitetet. Så det er jo en faglig opstramning. Til gengæld kan vi se, at forsøget med bioteknologi, som jo indeholder det faglige niveau, der skal til til en række naturvidenskabelige uddannelser, heldigvis har været godt søgt, og det bliver nu ikke et forsøg, men en permanent mulighed at udbyde i gymnasierne fremover.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210141631" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210141631-154">Spørgsmålet er sluttet. Tak til undervisningsministeren. Det næste spørgsmål er til ministeren for sundhed og forebyggelse af fru Jane Heitmann.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 447: Om overbelagte sygehusafdelinger.</head>
+            <note type="agendaItem">2014-12-10-2-9</note>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210141638" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210141638-155">Værsgo.</seg>
+                </u>
+                <u who="HeitmannJane_V" xml:id="ParlaMint-DK_20141210141643" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210141643-156">Tak for det. Deler ministeren den opfattelse, som Ulla Astman fra Socialdemokratiet, formand for Sundhedsudvalget i Danske Regioner, giver udtryk for i relation til regeringens reservation af 50 mio. kr. til overbelagte sygehusafdelinger i 2015, og jeg citerer: »Tror man, det giver økonomi til flere sengepladser, må jeg melde hus forbi. For sengepladser på et døgnbemandet sygehus kræver både flere sygeplejersker og læger og den fysiske plads til sengene.« Det udtaler Ulla Astman til Ritzau den 11. november 2014. Og mener ministeren, at midlerne er tilstrækkelige til at få bugt med f.eks. overbelægningsprocenter på henholdsvis 175,9 og 131,8, som er fremgået af pressen i relation til Svendborg Sygehus i løbet af 2014?</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210141732" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210141732-157">Ministeren for sundhed og forebyggelse.</seg>
+                </u>
+                <u who="HækkerupNick_Ministerenforsundhedogforebyggelse_S" xml:id="ParlaMint-DK_20141210141736" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210141736-158">Nej.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210141738" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210141738-159">Fru Jane Heitmann.</seg>
+                </u>
+                <u who="HeitmannJane_V" xml:id="ParlaMint-DK_20141210141742" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210141742-160">Tak for det. Det var et klart svar. Før valget i 2011 lovede Socialdemokraterne og SF, at der skulle tilføres 1 mia. kr. årligt til bekæmpelse af overbelægning. S og SF skrev i deres fælles sundhedsudspil, »Tryghed om sundhed«, at man vil bekæmpe overbelægningen med et løft af det medicinske område med 1 mia. kr. til flere sengepladser – det betyder altså, at 1 mia. kr. årligt skulle sørge for, at ingen patienter skulle ligge på gangene. Jeg vil bare gerne have lov at spørge ministeren her – jeg håber, han kan svare lige så præcist og kort: Hvornår tilføres den milliard?</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210141814" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210141814-161">Ministeren.</seg>
+                </u>
+                <u who="HækkerupNick_Ministerenforsundhedogforebyggelse_S" xml:id="ParlaMint-DK_20141210141817" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210141817-162">Der har vi vel fat i noget af kernen af Venstres angrebsmanual, hvor Venstre anfører: »Løfte: Ingen senge på gangene på de medicinske afdelinger. Realitet: Stadig patienter på gangene og ingen initiativer ud over en analyse af behovet for flere senge.«  Det er jo, som så meget andet i angrebsmanualen, det rene sludder. Med finansloven er der sat 750 mio. kr. af; med »Jo før – jo bedre« sættes der 1,5 mia. kr. af; med den nye sygehusstruktur, der også vil hjælpe på problemet, sættes der 41,4 mia. kr. af; og med de seneste 3 års økonomiaftaler er der sat 950 mio. kr. af. Så man må da sige, at vi er rigelig i mål.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210141858" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210141858-163">Fru Jane Heitmann.</seg>
+                </u>
+                <u who="HeitmannJane_V" xml:id="ParlaMint-DK_20141210141859" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210141859-164">Minister, jeg synes, det er så trist og utroligt, og jeg har faktisk lige sagt det til ministeren for by, bolig og landdistrikter, og så symptomatisk for den røde regering, at det eneste, man kan komme med, er et angreb på Venstre. Tænk engang, her forærer man på et sølvfad ministeren mulighed for at fortælle om, hvad regeringen vil, og hvilken vej regeringen vil gå, og så bruger ministeren tiden på at kritisere Venstre. Er det, fordi man reelt ikke har noget at komme med? Jeg spurgte tidligere ministeren om, hvornår den milliard kroner bliver tilført, og så kommer ministeren med en lang remse om, hvordan man måske og til dels kan imødekomme en del af den overbelægning, som vi har set. Men hvornår bliver den milliard kroner, som man ordret har lovet i sit eget sundhedsudspil til at bekæmpe overbelægning ved et løft af det medicinske område til flere sengepladser – det er ministerens eget parti, der har skrevet det – tilført? Jeg prøver at spørge igen.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210142002" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210142002-165">Ministeren.</seg>
+                </u>
+                <u who="HækkerupNick_Ministerenforsundhedogforebyggelse_S" xml:id="ParlaMint-DK_20141210142003" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210142003-166">Jamen så bliver jeg jo nødt til at svare det samme igen, fordi spørgeren tydeligvis ikke har hørt efter, hvad jeg har svaret i første omgang. Nu siger jeg det lidt langsommere, så kan det være, at det siver ind. Med finansloven er der ikke afsat, sådan som det er anført i spørgsmålet, 50 mio. kr. Er der afsat 725 mio. kr. over de kommende år til at styrke indsatsen mod overbelægning – ja eller nej? Ja. Med sundhedsstrategien »Jo før – jo bedre« afsættes der 1,5 mia. kr., som bl.a. skal bruges til at reducere antallet af akutte indlæggelser og genindlæggelser af KOL- og diabetespatienter med over 20 pct. Hjælper det? Ja. Med den nye sygehusstruktur er der sat penge af, sådan at vi kan lave en struktur, som sikrer, at vi får et meget, meget bedre patientflow, og endelig er der med økonomiaftalerne afsat 950 mio. kr. Så når spørgeren eksplicit spørger, om der er sat penge af, bliver hun bare nødt til at gøre sit hjemmearbejde, så hun kan konstatere: Ja, det er der.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210142102" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210142102-167">Tak. Så er det hr. Finn Thranum som medspørger.</seg>
+                </u>
+                <u who="ThranumFinn_V" xml:id="ParlaMint-DK_20141210142109" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210142109-168">Tak for ministerens svar til spørgeren. Jeg forsøgte at høre efter, og så må vi jo se, om jeg har forstået det rigtigt. Jeg ville i hvert fald gerne spørge: Så er det ikke korrekt, når jeg tror, at der kun er afsat 50 mio. kr. i 2015, 100 mio. kr. i 2016 og 150 mio. kr. i 2017 med henblik på at få løst det her problem omkring overkapacitet?</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210142141" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210142141-169">Ministeren.</seg>
+                </u>
+                <u who="HækkerupNick_Ministerenforsundhedogforebyggelse_S" xml:id="ParlaMint-DK_20141210142142" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210142142-170">Nej.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210142145" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210142145-171">Hr. Finn Thranum.</seg>
+                </u>
+                <u who="ThranumFinn_V" xml:id="ParlaMint-DK_20141210142149" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210142149-172">Jeg kan så undre mig over, hvor vi har de tal fra, men det er da kun glædeligt, hvis ministeren mener, at der i den sammenhæng så er afsat væsentlig flere penge. Det vil sige, at ministeren så slet ikke er bekymret for de problemstillinger, der er omkring kraftig overbelægning rundtomkring på vores sygehuse, som jo skaber nogle problemer, og som ikke er løst. Hvornår forestiller ministeren sig de problemer er løst?</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210142210" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210142210-173">Ministeren.</seg>
+                </u>
+                <u who="HækkerupNick_Ministerenforsundhedogforebyggelse_S" xml:id="ParlaMint-DK_20141210142213" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210142213-174">Men det  er Når man kigger på Venstres sundhedsudspil i finansloven, ser man, at der ingenting er. Der er penge til kræftbehandling, javel, og så er der penge til privathospitalerne. Men det almindelige sundhedsvæsen skal betale 460 mio. kr. i besparelser til at finansiere Venstres gaveregn til privathospitalerne i det sundhedsudspil. Tror spørgeren, at det giver flere eller færre overbelægninger?</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210142249" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210142249-175">Så er det fru Jane Heitmann til afslutning.</seg>
+                </u>
+                <u who="HeitmannJane_V" xml:id="ParlaMint-DK_20141210142254" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210142254-176">Jeg vil godt indledningsvis sige, at jeg faktisk synes, at ministeren har en rigtig kedelig attitude. Det undrer mig faktisk, at Folketingets formand ikke rejser sig op og påtaler den måde, som ministeren taler til medlemmer af Folketinget på. Jeg synes, det er beskæmmende, at man skal høre på, om noget siver ind. Det synes jeg faktisk, og det undrer mig, at ministeren taler til andre mennesker på den måde. Når det så er sagt, vil jeg bare have lov at spørge pænt og ordentligt – jeg håber sådan set på et svar i en god tone – at nu er det jo ikke kun Ulla Astman, der har sat spørgsmålstegn ved regeringens prioritering, formanden for regionerne, Bent Hansen, har faktisk givet udtryk for, at de 50 mio. kr., der er sat af til 2015, ikke er nok til at komme problemet til livs. Sundhedsøkonom Bent Møller Hansen har udtalt, og jeg citerer, at det forslår som en skrædder i helvede, og Lægeforeningens formand, Mads Henrik Koch Hansen, har kaldt beløbet for symbolsk, og det kan man jo godt forstå. Nu vil jeg bare sådan i al mindelighed her spørge ministeren, om han kan bekræfte, at de 50 mio. kr., der er reserveret i 2015, kun rækker til 100 sygeplejersker på landsplan.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210142359" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210142359-177">Ministeren for sundhed og forebyggelse.</seg>
+                </u>
+                <u who="HækkerupNick_Ministerenforsundhedogforebyggelse_S" xml:id="ParlaMint-DK_20141210142401" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210142401-178">Jeg synes, at det kedelige her sådan set ikke er, hvordan tingene siges. Jeg synes, at det kedelige er det, der siges, altså at Venstre mod bedre vidende hiver tal frem, som ikke hænger sammen med det, der er regeringens faktiske politik, at vi skal blive ved med at vade rundt i Venstres angrebsmanual med påstande og tal, som er løsrevet fra den virkelighed, der er. Det kan godt være, at spørgeren føler sig stødt over, at tingene bliver sagt lige ud af posen. Jeg føler mig stødt over, at man bliver ved med at komme med tal, som man ved ikke passer. Man står her i Folketingssalen og tillader sig at blive ved med at fremføre tal, som man ved ikke passer. Det synes jeg er beskæmmende.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210142446" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210142446-179">Spørgsmålet er sluttet. Tak til ministeren for sundhed og forebyggelse. Formanden modtager ikke kritik af sin mødeledelse. Det næste spørgsmål er til erhvervs- og vækstministeren af hr. Flemming Damgaard Larsen.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 387: Om stormfloden Bodil.</head>
+            <note type="agendaItem">2014-12-10-2-10</note>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210142503" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210142503-180">Værsgo.</seg>
+                </u>
+                <u who="LarsenFlemmingDamgaard_V" xml:id="ParlaMint-DK_20141210142505" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210142505-181">Tak, hr. formand. Spørgsmålet lyder: I anledning af at det nu er mere end 1 år siden, at stormfloden Bodil ramte Danmark og mange familier blev hjemløse, hvoraf mange stadig bor i containere, skurvogne m.m. og må imødese endnu en vinter under disse primitive boforhold, samt at disse familier og andre endnu ikke har fået afklaring fra forsikringsselskaber og Stormrådet på deres situation, vil ministeren da tilkendegive sin holdning til, om det er en anstændig måde, samfundet behandler borgere på, der uden egen skyld er blevet ofre for en naturkatastrofe?</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210142538" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210142538-182">Erhvervs- og vækstministeren.</seg>
+                </u>
+                <u who="LarsenHenrikSass_Erhvervsogvækstministeren_S" xml:id="ParlaMint-DK_20141210142540" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210142540-183">Det er sådan, at perioden, fra stormfloden ramte i december 2013 og til nu, har været præget af væsentlige ændringer af regelsættet på området. Et bredt flertal i Folketinget har udvidet ordningens dækning væsentligt og indført et loft over selvrisikoen. Dermed har de skadelidte fået mulighed for at få dækket omkostninger til genhusning og få en erstatning, der er væsentlig højere end under de gamle regler. Regelændringen er en entydig fordel for de skaderamte, men har også betydet, at sagsbehandlingen er blevet forlænget, da mange sager har skullet behandles flere gange. Stormen i december 2013 medførte det næsthøjeste antal anmeldte skader i ordningens historie, og der er alene tale om en lille restgruppe, hvor sagen endnu ikke er endeligt afgjort af selskaberne. Det er således kun ca. 6 pct., svarende til 179 af de anmeldte sager, som mangler endelig afgørelse. Knap 2.800 sager er således allerede blevet afgjort. En del af de udestående sager er reelt set afgjort og afventer alene indberetning af variable udgifter, eksempelvis elforbrug. Stormrådets sekretariat vurderer på den baggrund, at det reelt set er under 3 pct. af de anmeldte sager, dvs. ca. 90 sager, hvor der ikke er truffet afgørelse vedrørende erstatningsfastsættelsen. De resterende sager er komplicerede eller omfangsrige, eller der er en anden god forklaring på, hvorfor de endnu ikke er endeligt afgjort. Der kan eksempelvis være tale om sager, hvor der efterfølgende er opdaget skimmelsvamp i huset, og hvor udbedringen og dermed sagsbehandlingen tager længere tid, hvilket alt andet lige er en fordel for den skadelidte. Stormrådets sekretariat er i løbende dialog med forsikringsselskaberne om de uafsluttede sager for på den måde at fremskynde processen. Og Forsikring &amp; Pension har opfordret til, at hvis skadelidte mener, at forsikringsselskabet trækker sagen i langdrag, så kan man kontakte Forsikring &amp; Pension, for at de så kan se på sagen igen. Det er desuden vigtigt at være opmærksom på, at mange steder er udbedringerne af de enkelte boliger i fuld gang, men arbejdet tager lang tid. For de sager er spørgsmålet om erstatningens størrelse afklaret fra forsikringsselskabernes side, og nu er det så kun håndværkerne, der mangler at blive færdige. Så afslutningsvis er det vigtigt lige at sige, at man skal holde sig for øje, at al sagsbehandling er og har altid været afhængig af, at der er to parter, der skal blive enige.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210142807" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210142807-184">Hr. Flemming Damgaard Larsen.</seg>
+                </u>
+                <u who="LarsenFlemmingDamgaard_V" xml:id="ParlaMint-DK_20141210142808" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210142808-185">Det er formentlig én virkelighed, som ministeren her beskriver. Men mange af de stormflodsramte, og det er rigtig mange, oplever en anden virkelighed. Det vil jeg gerne understrege. Vi har igennem det seneste år set, at der er forsikringsselskaber, der anstrenger sig for at hjælpe de stormflodsramte, men der er sandelig også forsikringsselskaber, der ikke gør det. Der er nogle, der har gjort en virkelig hæderlig indsats. Det er f.eks. Tryg og Alka. Og så er der rigtig mange forsikringsselskaber, der ikke har gjort den her indsats. Det er lidt mærkeligt, at under de samme vilkår, den samme lov, den samme lovændring, der er sket, er der altså nogle selskaber, der godt kan finde ud af det, og så er der andre, der smøler med tingene og trækker det i langdrag. Det er meget utilfredsstillende for dem, det går ud over. Mange af de berørte borgere venter jo stadig væk på, at forsikringsselskabet behandler deres sag, så de kan få dækket deres økonomiske omkostninger ved stormfloden. Den økonomiske dækning, som forsikringsselskaberne ikke har hjulpet alle borgere med endnu, skal endda ske for penge, som ikke er forsikringsselskabernes egne penge, men er penge, som er indbetalt af alle brandforsikringstagere i Danmark, ikke til forsikringsselskaberne, men til den her fond, som så skal dække udgifterne. Så det er altså hverken skattekroner, vi taler om, eller forsikringsselskabernes kroner. Det er nogle helt tredje kroner, som er indbetalt af brandforsikringstagerne. Nogle forsikringsselskaber lader altså deres kunder i stikken og fastlåser på den måde de ramte borgere i en fuldstændig uholdbar situation. I dag er der stadig mange forsikringstagere, hvis situation således er uafklaret. Det betyder, at der er mange, der har store personlige eftervirkninger af det her, og det gælder både den enkelte og den enkeltes familie. Der vil jeg godt spørge, om ministeren på baggrund af det, som ministeren har sagt, vil sætte yderligere ind over for Stormrådet og forsikringsselskaberne for at formå dem til at få en hurtig afklaring på de resterende sager. Det er helt uholdbart nu, hvor vi går vinteren i møde, at folk skal bo i skurvogne, containere osv.</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210143024" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210143024-186">Ministeren.</seg>
+                </u>
+                <u who="LarsenHenrikSass_Erhvervsogvækstministeren_S" xml:id="ParlaMint-DK_20141210143025" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210143025-187">Nu prøvede jeg at svare pænt og ordentligt, på baggrund af hvad jeg får ind af oplysninger, forklare, hvor mange sager der er uafsluttet, og forklare, hvor mange der reelt er tilbage. Derfor står jeg ikke her og optræder med en anden virkelighedsopfattelse end alle mulige andre. Jeg optræder med den virkelige virkelighedsopfattelse, og det vil sige, at jeg får at vide, hvad de konkrete tal er på den her baggrund. Og det er, at vi har 90 sager tilbage ud af over 3.000 efter et år, på baggrund af at vi har lavet så mange lovændringer, som vi har lavet, og også hensynet til, at man altså nogle gange skal respektere, at folk kan komme igen og sige: Hov, vi har faktisk konstateret, at der også er kommet skimmelsvamp. Jeg synes ikke, det er alarmerende mange, vi har tilbage. Det er selvfølgelig frygteligt for de mennesker, det går ud over, men det er ikke alarmerende mange. Så jeg synes ikke, det er et udtryk for, at forsikringsselskaberne som sådan ikke har gjort deres arbejde. Det synes jeg faktisk de har gjort i stor udstrækning her.</seg>
+                </u>
+                <u who="LykketoftMogens_Formanden_S" xml:id="ParlaMint-DK_20141210143122" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210143122-188">Hr. Flemming Damgaard Larsen.</seg>
+                </u>
+                <u who="LarsenFlemmingDamgaard_V" xml:id="ParlaMint-DK_20141210143124" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210143124-189">Det kan godt være, det ikke er alarmerende mange. Og vi skal ikke slås om tallet, for det er sådan set underordnet i den her sammenhæng. Det, det handler om, er, at dem, der så rent faktisk resterer, nu har ventet i over et år, og derfor må de have en lige så god behandling som dem, der kunne få klaret deres sag ret hurtigt med smidighed fra forsikringsselskabernes og Stormrådets side. Hvis tallet er 90, kan det godt være, det ikke er alarmerende mange, men det er i hvert fald alarmerende mange for dem, der rent faktisk er tilbage, for de lever i den situation, at de ikke ved, hvor de står. Derfor har de behov for hurtig afklaring. Det går ud over deres psyke, og vi ved fra eksperter, at det her er en stor psykisk belastning. Så endnu en gang: Vil ministeren ikke virkelig tage fat i forsikringsselskaberne og Stormrådet?</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210143211" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210143211-190">Ministeren.</seg>
+                </u>
+                <u who="LarsenHenrikSass_Erhvervsogvækstministeren_S" xml:id="ParlaMint-DK_20141210143212" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210143212-191">Det vil jeg gøre, men jeg håber også, at spørgeren langsomt erkender, at problemet jo ikke er altoverskyggende og altomfattende. Faktisk har man gjort rigtig meget for at komme alle de her sager til livs, og vi har nu de sidste 90 tilbage. Jeg sagde jo i min besvarelse, at Forsikring &amp; Pension har sagt, at er der nogle steder, hvor man oplever, at årsagen til, at man ikke rigtig får behandlet den her sag færdig, er, at forsikringsselskabernes smøler, så skal man kontakte dem. Så vil de personligt, alle lederne derinde, tage fat i det og sørge for, at sagen bliver fremskyndet. Men nogle steder er det bare sådan, at hvis man har nogle håndværkere, der ikke er blevet færdige, eller hvis man lige pludselig har fået konstateret skimmelsvamp sådan efterfølgende, så kan de ikke blive færdig med sagerne så hurtigt. Det er derfor, vi har nogle af de her sidste sager.</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210143302" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210143302-192">Hr. Flemming Damgaard Larsen.</seg>
+                </u>
+                <u who="LarsenFlemmingDamgaard_V" xml:id="ParlaMint-DK_20141210143304" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210143304-193">Jeg er glad for, at ministeren her, i al offentlighed, siger: Bare kom til os, hvis der er nogen, der ikke bliver behandlet ordentligt eller hurtigt nok, for det er utrolig vigtigt, at folk har den mulighed. Det er ikke sikkert, at alle har været klar over det, det ved jeg ikke noget om. Men det undrer mig stadig væk meget – på baggrund af dem, jeg taler med, dem, jeg får mail fra, og dem, jeg bliver kontaktet af – at det kun er 90. Det skal vi ikke slås om. Som jeg sagde: Om det er 90 eller 120, er sådan set underordnet, men det kan vi få afklaret igennem et skriftligt spørgsmål til ministeren. Så kan vi få afklaret, hvor mange der er, hvor de er henne, hvor lang tid der er tilbage, og sådan nogle ting.</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210143353" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210143353-194">Ministeren.</seg>
+                </u>
+                <u who="LarsenHenrikSass_Erhvervsogvækstministeren_S" xml:id="ParlaMint-DK_20141210143354" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210143354-195">Jeg vil meget gerne svare på skriftlige spørgsmål. Til sidst, i forhold til hvor lang tid der er tilbage: Jeg havde møde med forsikringsbranchen for nylig, hvor jeg spurgte: Hvor hurtigt kan I gøre det her? Hvornår regner I med at det er færdigt? Tager det 2 måneder, 3 måneder, et halvt år? Så siger de, at hvis det stod til dem, ville de gøre det lynhurtigt. Problemet er nogle gange, at der ikke er enighed, eksempelvis om erstatningens størrelse, eller at der er mulighed for at gøre indsigelse, hvor der er en tvist om nogle af tingene, at der er opstået nye ting, eller at håndværkerne ikke er blevet færdige med at bygge eller noget andet. Det er derfor, det trækker lidt ud. Så de kan ikke helt give et eller andet svar på det. Men jeg vil opfordre til, at man enten kontakter Forsikring &amp; Pension eller mig, hvis man synes, det går for langsomt, og man gerne vil have det gjort lidt hurtigere – endelig, hvis der er noget, vi kan hjælpe med. Vi vil kun være glade for at hjælpe til, hvis der er nogle borgere, der er i knibe her.</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210143441" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210143441-196">Så er spørgsmål nr. 10 færdigt, og jeg vil sige tak til erhvervs- og vækstministeren. Hr. Flemming Damgaard Larsen bliver her imidlertid et lille øjeblik mere, for han har også spørgsmål til transportministeren, som jeg så byder velkommen til.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 384: Om et forbedret standsningsmønster på stationer.</head>
+            <note type="agendaItem">2014-12-10-2-11</note>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210143452" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210143452-197">Hr. Flemming Damgaard Larsen.</seg>
+                </u>
+                <u who="LarsenFlemmingDamgaard_V" xml:id="ParlaMint-DK_20141210143456" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210143456-198">Tak for det, formand. Spørgsmålet lyder: Hvad er ministerens holdning til, at Hvalsø og Lejre Stationer ikke får et forbedret standsningsmønster, efter at Nordvestbanen er udvidet med dobbeltspor for 1,3 mia. kr. mellem Lejre og Vipperød?</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210143511" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210143511-199">Ministeren.</seg>
+                </u>
+                <u who="HeunickeMagnus_Transportministeren_S" xml:id="ParlaMint-DK_20141210143514" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210143514-200">Tak for spørgsmålet. I forbindelse med den nye køreplan for 2015 vil passagererne fra Lejre og Hvalsø opleve forbedringer. Der vil være tog hver halve time i en længere periode end hidtil, der vil være kortere rejsetid, og der vil også være flere siddepladser. Men helt generelt er det jo sådan, at køreplanlægning altid er en afvejning mellem hurtigere rejsetider og højere frekvens, altså flere afgange. Hvis man vil den kollektive trafik det godt, må man ikke glemme de hurtigere rejsetider i de store rejsestrømme. Det har vi masser af erfaring med. Det seneste er fra etableringen af et regionalt lyntogssystem mellem Herning og Aarhus, og det har ifølge Trafikstyrelsen medført en anslået passagerfremgang på ca. 10 pct. i løbet af 3 år. Altså, toget bliver jo – det siger sig selv – mere attraktivt for flere, når der bliver kortere rejsetid. Transportministeriet har anslået, at det vil indebære et samlet nettotidstab at lade alle tog på Nordvestbanen stoppe ved alle stationer på knap 180.000 timer årligt. Hvis der alene standses i Hvalsø og Lejre, bliver det tab på 31.000 timer årligt. De her gennemkørende passagerer skal der jo også tages hensyn til, og det er det, DSB forsøger at gøre i den kommende køreplan, når DSB indsætter et tog, der ikke standser mellem Roskilde og Holbæk. Som ejer af DSB har jeg en forpligtelse til at lade selskabet se på helheden, når der udarbejdes køreplaner, hvorfor alle ønsker ikke altid kan tilgodeses lige godt. Forudsætningen for køreplanen kan dog ændres, og jeg mener derfor, at det vil være naturligt, at DSB løbende holder fokus på, om køreplanen på Nordvestbanen indeholder den rigtige afvejning mellem gennemgående og standsende tog på tværs af de pendlerbyer, som ligger langs strækningen. Jeg forventer samlet set, at det nye dobbeltspor i kombination med DSB's nye køreplan vil medføre forbedringer for alle passagerer på Nordvestbanen inklusive i Hvalsø og Lejre.</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210143723" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210143723-201">Hr. Flemming Damgaard Larsen.</seg>
+                </u>
+                <u who="LarsenFlemmingDamgaard_V" xml:id="ParlaMint-DK_20141210143724" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210143724-202">Tak for svaret. Nu var det jo således, at udbygningen af Nordvestbanen skete med den hensigt – og jeg citerer – at øge kapaciteten og rejsehastigheden på Vestbanen, så der skabes grundlag for flere togafgange, bedre køreplaner og reduceret rejsetid. Ved vedtagelsen af lovforslaget blev pendlerne altså stillet en forbedring af togdriften i udsigt. Men med den nye køreplan vil Lejre- og Hvalsøpendlerne ikke opleve, at de får den her forbedring. Nu siger ministeren godt nok, at der kommer flere togafgange, men så vil jeg gerne spørge ministeren: Hvor mange er det, hvor mange er det på et døgn, og på hvilket tidspunkt af døgnet er det? For det er jo meget vigtigt, bl.a. især for pendlerne.</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210143810" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210143810-203">Ministeren.</seg>
+                </u>
+                <u who="HeunickeMagnus_Transportministeren_S" xml:id="ParlaMint-DK_20141210143811" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210143811-204">Ja, det er det bestemt. Jeg har kun 30 sekunder her, så jeg gør det kort. Hvalsø og Lejre får udvidet regulær halvtimesdrift. I dag er det til kl. 18, men med den nye køreplan er det til kl. 20. Så der er altså længere tid på dagen, altså fra kl. 18 til kl. 20, hvor man har en regulær halvtimesdrift. Derudover får de altså flere siddepladser, noget, som er virkelig efterspurgt – også af spørgeren selv – fordi der jo altså er flere gennemgående afgange, hvor de ikke skal slås om sæderne. Og til sidst vil jeg sige, at dobbeltsporet også vil give færre forsinkelser, som man også har været plaget af i lang tid, altså med enkeltsporet, fordi der er mere robusthed og stabilitet, når man har et dobbeltspor, så man ikke i samme omfang skal vente på forsinkede tog.</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210143854" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210143854-205">Hr. Flemming Damgaard Larsen.</seg>
+                </u>
+                <u who="LarsenFlemmingDamgaard_V" xml:id="ParlaMint-DK_20141210143856" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210143856-206">Det vil altså sige, at i tidsrummet fra tidlig morgen og frem til kl. 18.00 sker der ingen forbedring, og det er der, hvor især pendlerne har behov for, at der sker en forbedring, og så sker der små forbedringer mellem kl. 18.00 og 20.00 og ellers ikke. Heller ikke senere på aftenen, hvor folk skal hjem fra sociale eller kulturelle arrangementer i København eller Roskilde, eller hvor det nu kan være, sker der altså heller ikke nogen forbedring. Så det er jo næsten ikke en forbedring, der sker. Den forbedring er kun formel og ikke reel. Er ministeren ikke enig i det?</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210143930" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210143930-207">Ministeren.</seg>
+                </u>
+                <u who="HeunickeMagnus_Transportministeren_S" xml:id="ParlaMint-DK_20141210143932" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210143932-208">Det er jeg ikke enig i. Det er en helt reel forbedring. Jeg var selv på banen ved åbningen af dobbeltsporet, som man virkelig har sukket efter. Alene det, at der er kommet flere siddepladser, imødekommer et kæmpestort ønske. Jeg har også besvaret mange spørgsmål fra spørgeren selv om præcis det emne. Det kan der komme nu, for der er mere kapacitet. Det andet om færre forsinkelser har der også være meget stor efterspørgsel efter. Det kan også opfyldes nu. Der vil altså være en udvidelse af det tidsrum på døgnet, hvor der er halvtimesdrift, nemlig i længere tid om aftenen. Jeg er jo selv pendler, og jeg vil bare sige, at det altså nogle gange sker, at man ikke slipper fra arbejde før kl. 18.00, og så kan det være godt at have den ekstra tid.</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210144009" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210144009-209">Hr. Flemming Damgaard Larsen.</seg>
+                </u>
+                <u who="LarsenFlemmingDamgaard_V" xml:id="ParlaMint-DK_20141210144010" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210144010-210">Jeg kan godt forstå, at ministeren ikke vil svare på, hvor mange togafgange der rent faktisk kommer fra Lejre og Hvalsø Stationer, men hele tiden taler om en forbedret halvtimesdrift. Men hvor mange flere afgange kommer der fra tidlig morgen til kl. 18.00? Det kunne jo være meget interessant at få det oplyst, for pendlerne og brugerne, altså passagererne, oplever ikke, at der er kommet flere togafgange. Det er det ene. Det andet er: Hvis et tog bare kører forbi, fordi det er gennemgående, kan det være lige meget, om der er flere siddepladser, for man kan ikke komme med toget. Altså, det her bider sig selv i halen. For dem, der bruger toget, og som gerne vil bruge toget, er det afgørende, at de kan komme med et tog, og at det, når de så kommer med, kan gå hurtigt, og at der også er kort frekvens imellem afgangene. Er ministeren ikke enig i det?</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210144058" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210144058-211">Ministeren.</seg>
+                </u>
+                <u who="HeunickeMagnus_Transportministeren_S" xml:id="ParlaMint-DK_20141210144059" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210144059-212">Det sidste er jeg fuldkommen enig i. Det tror jeg alle togrejsende i Danmark er enig i. Når jeg fremhæver det med flere siddepladser, er det jo, fordi man i dag, når man i Lejre eller Hvalsø går på toget mod København, skal konkurrere om siddepladserne med dem, der er stået på længere ude på strækningen, i Holbæk eller andre steder. Det er jo klart, at når man skal det, er der færre siddepladser. Når der bliver flere afgange på en hel strækning, vil der i sagens natur også være flere siddepladser i de tog, der så stopper der. Så det er pointen med det.</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210144140" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210144140-213">Det var så spørgsmål 11. Så siger vi tak til hr. Flemming Damgaard Larsen, og jeg kan også sige tak til transportministeren, for der er ikke flere spørgsmål til ham i dag, så han må klare sig uden. Skatteministeren kan så til gengæld glæde sig over, at der er et par stykker til ham, og det første er spørgsmål nr. 12 fra hr. Claus Hjort Frederiksen.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 439: Om forskelsbehandling af embedsmænd under advokatundersøgelsen om Skattekommissionens beretning.</head>
+            <note type="agendaItem">2014-12-10-2-12</note>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210144159" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210144159-214">Hr. Claus Hjort Frederiksen.</seg>
+                </u>
+                <u who="FrederiksenClausHjort_V" xml:id="ParlaMint-DK_20141210144203" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210144203-215">Vil ministeren forklare, hvorfor embedsmænd behandles forskelligt i den advokatundersøgelse, som ministeren har iværksat på grundlag af Skattekommissionens beretning om, der er begået tjenstlige forseelser, således at den ene, departementschef Peter Loft, er hjemsendt, og den anden, skattedirektør Erling Andersen, er i arbejde, mens undersøgelsen foregår?</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210144232" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210144232-216">Ministeren.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Skatteministeren_S" xml:id="ParlaMint-DK_20141210144233" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210144233-217">Jeg vil godt indlede med at sige, at jeg synes, det er en uskik – det vil jeg gerne slå fast – hvis vi skal til at behandle konkrete personalespørgsmål i Folketingssalen. Det er en uskik, fordi vi her i salen bør tale om politik; og så giver det faktisk ikke rigtig mening at diskutere personalespørgsmål her i salen, da det er begrænset, hvad man som minister eller som folketingsmedlem kan og bør sige om sådanne sager. I det lys er det lidt svært at få gang i en debat. Men når nu spørgeren har spurgt til de to konkrete personalesager, vil jeg selvfølgelig svare så godt, jeg nu kan. Sagen er den, at Skattesagskommissionen som bekendt har konstateret, at der er afgivet urigtige oplysninger til Folketingets ombudsmand. Det er i sagens natur en alvorlig sag. Men kommissionen har ikke foretaget en vurdering af, om nogen kan søges draget til ansvar for den del af sagen. Jeg har derfor bedt advokat Jørgen Vinding om at foretage en retlig vurdering til belysning af, om nogle skal drages til ansvar for Ombudsmandsdelen. I forhold til den del af sagen, der handler om Ombudsmanden, kan der ikke drages konklusioner, før advokaten har foretaget sin vurdering og den fornødne opfølgning er sket. Jeg har i den forbindelse svært ved at se, at det forhold, at jeg har igangsat en advokatvurdering, skulle være udtryk for forskelsbehandling af de personer, som er involveret i denne del af sagen.</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210144407" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210144407-218">Hr. Claus Hjort Frederiksen.</seg>
+                </u>
+                <u who="FrederiksenClausHjort_V" xml:id="ParlaMint-DK_20141210144408" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210144408-219">Jeg hører selvfølgelig, hvad skatteministeren siger, men helt ærligt, vil jeg sige til ministeren, så er der iværksat en advokatundersøgelse af to embedsmænd, altså af tidligere departementschef Peter Loft og af skattedirektør Erling Andersen, for at se, om de har begået tjenstlige forseelser i forbindelse med korrespondancen mellem myndighederne og Folketingets ombudsmand. Det er altså en undersøgelse af den samme eventuelle tjenstlige forseelse. Al logik, al anstændighed, al retfærdighedssans, hvis noget sådant i det hele taget kan nævnes i sammenhæng med SKAT, tilsiger jo – og ministeren siger det jo – at de involverede behandles ens. Alligevel behandles de to personer forskelligt. Tidligere departementschef Peter Loft er suspenderet fra sit job og må ikke vise sig, mens direktør i SKAT, Erling Andersen, fortsat fungerer i sit job. Hvorfor denne forskelsbehandling, vil jeg spørge ministeren. Der må jo kunne gives en forståelig forklaring på denne forskel i behandlingen af de to. Jeg kan ikke forstå, at to medarbejdere i samme sag ikke skal behandles ens.</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210144519" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210144519-220">Ministeren.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Skatteministeren_S" xml:id="ParlaMint-DK_20141210144520" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210144520-221">Jeg har som sagt svært ved at se, at det forhold, at jeg har igangsat en advokatvurdering, skulle være udtryk for forskelsbehandling af de personer, som er involveret i den del af sagen, der vedrører Ombudsmanden. For så vidt angår de nærmere personalemæssige forhold for de involverede personer, vil jeg som sagt ikke diskutere konkrete personalespørgsmål her i salen.</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210144542" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210144542-222">Hr. Claus Hjort Frederiksen.</seg>
+                </u>
+                <u who="FrederiksenClausHjort_V" xml:id="ParlaMint-DK_20141210144542-2" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210144542-2-223">Jeg synes ærlig talt ikke, der er givet en ordentlig forklaring på, hvorfor tidligere departementschef Peter Loft skal være suspenderet, mens sagen behandles, hvorimod skattedirektør Erling Andersen går på arbejde hver dag. Det er jo meget svært på baggrund af Skattekommissionens beretning at forstå, hvorfor de ikke begge enten skal være i arbejde eller være suspenderet. Har det ingen betydning for skatteministeren, at advokatundersøgelsen på det skarpeste underkendes af Skattekommissionens formand og af advokater på grund af den manglende retssikkerhed, og at forskelsbehandlingen mellem Peter Loft og Erling Andersen bidrager yderligere til billedet af manglende retssikkerhed?</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210144630" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210144630-224">Ministeren.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Skatteministeren_S" xml:id="ParlaMint-DK_20141210144631" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210144631-225">Rent principielt vil jeg ikke gå ind i konkrete personalemæssige situationer og besvare spørgsmål om dem, men jeg noterer mig dog, at det lyder, som om hr. Claus Hjort Frederiksen anvender en forkert titel i forbindelse med den ene af de to personer, han referer til. Jeg går ud fra, at det alene skyldes, at hr. Claus Hjort Frederiksen ikke er opdateret, hvad angår de informationer, som er gået ud fra SKAT's ledelse. Det ændrer så ikke på, at jeg stadig væk helt grundlæggende ikke vil forholde mig til konkrete personalesager.</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210144705" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210144705-226">Hr. Claus Hjort Frederiksen.</seg>
+                </u>
+                <u who="FrederiksenClausHjort_V" xml:id="ParlaMint-DK_20141210144706" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210144706-227">Jeg må jo så konstatere, at ministeren ikke er i stand til at give en plausibel forklaring på, hvorfor der skal være forskel på de to embedsmænd, hvis ageren undersøges i en advokatundersøgelse bestilt af ministeren. Og jeg kan næsten ikke frigøre mig fra andet end at tænke den tanke, som man jo også gør sig i videre kredse, om det har noget med et partifællesskab med den ene af sagens parter at gøre. Bør skatteministeren ikke frigøre sig fra den mistanke og ligestille de to embedsmænd under advokatundersøgelsen og den eventuelt senere tjenestemandssag?</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210144743" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210144743-228">Ministeren.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Skatteministeren_S" xml:id="ParlaMint-DK_20141210144743-2" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210144743-2-229">Jeg er i hvert fald glad for, at spørgeren netop slår fast, at en tjenestemandssag jo netop ikke er en fastslået kendsgerning. Det viser jo også, at hr. Claus Hjort Frederiksen som tidligere minister jo udmærket er klar over de konsekvenser, det kan have, når man foretager en undersøgelse som den, den bemeldte advokat er i gang med i øjeblikket, og at det på alle mulige måder derfor også ville være forkert for mig som minister at forholde mig til den konkrete personalesag, før den afsluttet.</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210144816" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210144816-230">Så er vi færdige med spørgsmål nr. 12. Vi går videre til spørgsmål nr. 13, men det er dog de samme personer, der er involveret. Det er stadig skatteministeren, og det er stadig hr. Claus Hjort Frederiksen.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 444: Om tjenestemandsloven og den igangsatte advokatundersøgelse.</head>
+            <note type="agendaItem">2014-12-10-2-13</note>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210144827" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210144827-231">Værsgo.</seg>
+                </u>
+                <u who="FrederiksenClausHjort_V" xml:id="ParlaMint-DK_20141210144829" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210144829-232">Hvilke retssikkerhedsmæssige overvejelser har ministeren gjort sig i forhold til tjenestemandslovens kapitel 4 i forbindelse med den igangsatte advokatundersøgelse af departementschef Peter Loft og skattedirektør Erling Andersen?</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210144843" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210144843-233">Ministeren.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Skatteministeren_S" xml:id="ParlaMint-DK_20141210144844" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210144844-234">Det er, som jeg også gav udtryk for under min besvarelse af det foregående spørgsmål, S 439, en rigtig dårlig idé at behandle konkrete personalespørgsmål i Folketingssalen. Men som jeg også sagde under besvarelsen af spørgsmål 439, er sagen den, at Skattesagskommissionen har konstateret, at der er afgivet urigtige oplysninger til Folketingets Ombudsmand. Kommissionen har imidlertid ikke foretaget en vurdering af, om nogen kan søges draget til ansvar for den del af sagen, og derfor har jeg bedt advokat Jørgen Vinding om at foretage en retlig vurdering til belysning af, om nogen skal drages til ansvar for ombudsmandslignende. Hvis advokaten finder, at der er begået en tjenesteforseelse, så skal han også vurdere, om der bør gøres et disciplinært ansvar gældende i den anledning, og hvilken sanktion forseelsen i så fald bør udløse. Jeg vil gerne understrege, at der ikke er noget usædvanligt i, at man beder en advokat om at foretage en sådan vurdering. Som jeg også gjorde det klart i min besvarelse af spørgsmål 439, kan der i forhold til den del af sagen, der handler om Ombudsmanden, ikke drages konklusioner, før advokaten har foretaget sine vurderinger og den fornødne opfølgning er sket. I forhold til det spørgsmål, der er stillet, vil jeg gerne understrege, at hvis der i lyset af advokatens vurdering er grundlag for at antage, at en tjenestemand har begået en tjenesteforseelse, vil den fornødne opfølgning naturligvis ske i overensstemmelse med de gældende regler, herunder reglerne i tjenestemandsloven.</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210145023" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210145023-235">Hr. Claus Hjort Frederiksen.</seg>
+                </u>
+                <u who="FrederiksenClausHjort_V" xml:id="ParlaMint-DK_20141210145024" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210145024-236">Jeg kan jo så forstå, at skatteministeren ikke er bekymret over retssikkerheden i forbindelse med den her advokatundersøgelse, som ministeren har bestilt som opfølgning på Skattesagskommissionens undersøgelse af statsministerens skattesag, og det til trods for at Skattesagskommissionens formand, landsdommer Lars E. Andersen, den 4. november 2014 klokkeklart har meddelt Justitsministeriet, at han ikke mener, at vidneforklaringerne kan anvendes under advokatundersøgelsen, da det væsentligt vil stride mod vidnernes retssikkerhed. Nu er Skatteministeriet jo ikke kendt for at tillægge retssikkerheden nævneværdig betydning, men den klare tilkendegivelse fra kommissionens formand om, at disse forklaringer ikke kan indgå i bedømmelsen, må selvfølgelig føre til, at ministeren gør det klart for advokat Jørgen Vinding, at forklaringerne ikke kan være en del af bedømmelsesgrundlaget. Hvis ikke ministeren gør det, underkender han jo Skattesagskommissionens formand, landsdommer Lars E. Andersen.</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210145132" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210145132-237">Ministeren.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Skatteministeren_S" xml:id="ParlaMint-DK_20141210145133" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210145133-238">Den dialog, som jeg har med advokat Jørgen Vinding, har jeg ikke i sinde at redegøre for her i Folketingssalen, da den omfatter en sag, som drejer sig om personalespørgsmål. Men af hensyn til sagens forståelse er det vigtigt for mig at understrege, at mit eget system i Skatteministeriet er inhabilt i forhold til opfølgning på Skattesagskommissionens beretning. Jeg rådfører mig derfor i denne sag i stedet med Moderniseringsstyrelsen og Justitsministeriet, og jeg har fuld tillid til den rådgivning, jeg får.</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210145205" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210145205-239">Hr. Claus Hjort Frederiksen.</seg>
+                </u>
+                <u who="FrederiksenClausHjort_V" xml:id="ParlaMint-DK_20141210145206" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210145206-240">Tjenestemandsloven indeholder i kapitel 4 klare regler om, at såfremt tjenestemanden er under mistanke for at have begået tjenstlige forseelser, skal dette spørgsmål behandles via et tjenstligt forhør med den retssikkerhed, der er knyttet hertil. Der skal udpeges forhørsledere, være bisiddere osv., og det gælder jo ikke i advokatundersøgelsen. Hvis advokat Jørgen Vinding, som forestår undersøgelsen, vurderer, at der er begået tjenstlige forseelser, så har embedsmanden krav på, at dette spørgsmål og den eventuelle sanktionering heraf gennemføres via de retsgarantier, der ligger i et tjenstligt forhør. Hvordan hænger disse ting efter ministerens opfattelse sammen? Hvori består embedsmændenes retssikkerhed?</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210145254" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210145254-241">Ministeren.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Skatteministeren_S" xml:id="ParlaMint-DK_20141210145255" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210145255-242">Jeg tillader mig at gentage min besvarelse fra den indledende besvarelse, hvor jeg netop slår fast og gerne understreger, at  hvis</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210145319" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210145319-243">Hr. Claus Hjort Frederiksen.</seg>
+                </u>
+                <u who="FrederiksenClausHjort_V" xml:id="ParlaMint-DK_20141210145319-2" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210145319-2-244">Det betyder altså, at ministeren er enig i, at hvis advokat Jørgen Vinding vurderer, at der er begået tjenstlige forseelser, så har embedsmændene krav på de retsgarantier, der ligger i et tjenstligt forhør. Men advokat Jørgen Vinding er jo af ministeren anmodet om på grundlag af Skattesagskommissionens beretning at foretage en retlig vurdering til belysning af, om der er begået tjenstlige forseelser i forbindelse med korrespondancen mellem myndighederne og Folketingets ombudsmand i sagen, altså i lodret strid med kommissionsformanden. Det er naturligvis helt uhørt, at skatteministeren forsøger at omgå tjenestemandslovens bestemmelser ved at anmode advokat Jørgen Vinding om at foreslå en sanktion. Jeg ved selvfølgelig godt – og det har jeg gentaget nogle gange – at retssikkerhed ikke er en kernekompetence hos ministeren, men det her må da efter al almindelig opfattelse være en ommer, vil jeg sige til ministeren.</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210145420" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210145420-245">Ministeren.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Skatteministeren_S" xml:id="ParlaMint-DK_20141210145421" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210145421-246">Jeg synes, det er utroligt, at man skal høre en tidligere minister i den grad botanisere i en personalesag, som det jo er ganske klart man som minister under ingen omstændigheder skal gå ind i konkret, og jeg synes sådan set også, at det er fuldstændig uhørt, at et medlem af Folketinget overhovedet begiver sig ind i den. Jeg synes, at vi netop skal lade sagen gå sin gang og så sikre, at advokaten kan foretage sin nærmere undersøgelse. Og i øvrigt rådfører jeg mig i denne sammenhæng jo selvfølgelig både med Moderniseringsstyrelsen og Justitsministeriet; og det er rådføring, jeg er fuldstændig tryg ved.</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210145503" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210145503-247">Vi siger tak til ministeren, og så vi er færdig med spørgsmål nr. 13. Vi er kommet til spørgsmål nr. 14, og det er også til skatteministeren, og spørgsmålet er stillet af hr. Jan E. Jørgensen.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 450: Om en reklameafgift, der medfører tab af arbejdspladser og højere forbrugerpriser.</head>
+            <note type="agendaItem">2014-12-10-2-14</note>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210145516" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210145516-248">Værsgo.</seg>
+                </u>
+                <u who="JørgensenJanE_V" xml:id="ParlaMint-DK_20141210145521" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210145521-249">Tak for det. Spørgsmålet lyder sådan her: Agter regeringen fortsat at indføre en reklameafgift, der medfører tab af arbejdspladser og højere forbrugerpriser, set i lyset af de seneste udmeldinger om reklameafgiften fra Enhedslisten, SF og flere medlemmer af Socialdemokratiet?</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210145536" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210145536-250">Ministeren.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Skatteministeren_S" xml:id="ParlaMint-DK_20141210145537" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210145537-251">Tak for spørgsmålet. Lad mig starte med at sige, at reklameafgiften er en del af finanslovsaftalen for 2012 mellem den nuværende regering, SF og Enhedslisten. Afgiften skal mindske mængden af husstandsomdelte reklamer og bunder altså i et hensyn til miljøet. Provenuet fra reklameafgiften skal finansiere tillægget til den grønne check, som også var en del af finanslovsaftalen. I regeringen står vi naturligvis ved de aftaler, vi indgår. Både SF og Enhedslisten har dog inden for den seneste tid givet udtryk for, at de gerne vil se på alternativer til reklameafgiften. Samtidig kan vi konstatere, at provenuet fra reklameafgiften bliver ca. en tredjedel mindre end det, vi regnede med, da aftalen blev indgået. Det skyldes simpelt hen, at mængden af reklamer, der omdeles til de danske husstande, er faldet kraftigere end ventet, selv om afgiften altså endnu ikke er indført. Disse forhold vil vi drøfte nærmere med aftalepartierne. Regeringen vil derfor indkalde Enhedslisten og SF til et møde i det nye år. Omstændighederne omkring reklameafgiftsloven betyder, at fremsættelsen af ændringsforslaget, som i øjeblikket står på lovprogrammet til januar, udskydes til marts. Jeg skal også understrege, at en eventuel afskaffelse af reklameafgiften kræver, at der findes den nødvendige finansiering.</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210145701" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210145701-252">Hr. Jan E. Jørgensen.</seg>
+                </u>
+                <u who="JørgensenJanE_V" xml:id="ParlaMint-DK_20141210145702" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210145702-253">Jamen det lyder rigtig godt. Det lyder rigtig godt, og jeg kan sige, at når mængden falder, er det jo ikke nogen overraskelse for mig. For jeg har som Venstres ordfører i den her sag fortalt fire skatteministre før den nuværende, at det provenu, man regnede med at få ind, var urealistisk, og regeringen er så nu nået frem til, at den må erkende, at det var det. Jeg skal spørge skatteministeren, om man i det mindskede provenu, som man nu siger kommer, også har indregnet det provenutab, der vil være i Post Danmark. Jeg har fået svar om, at Post Danmark vil miste omsætning svarende til 70 mio. kr. årligt, fordi Post Danmark jo også vil skulle betale afgift og dermed må forventes at få en mindre omsætning. Det var det ene: Er Post Danmarks 70 mio. kr. regnet med i regnestykket? Så kunne jeg egentlig også godt lide at vide noget andet. Nu siger ministeren, at SF og Enhedslisten har henvendt sig, men hvad mener ministeren selv, og hvad mener regeringen? Synes man, at det er en god afgift? Har man lyttet til de kritikpunkter, der er kommet fra fagbevægelsen, hvor man forventer tab af op til 600 arbejdspladser? Jeg deltog selv i en konference arrangeret af bl.a. HK, og bl.a. LO's næstformand var på talerstolen. Jeg så ikke nogen fra Socialdemokratiet i panelet, for Socialdemokraternes deltager, Thomas Jensen, måtte melde afbud med kort varsel. Så det har været lidt svært at finde ud af, hvad Socialdemokraterne egentlig mener. Kan ministeren komme med sin og regeringens holdning til, om reklameafgiften er hensigtsmæssig?</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210145846" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210145846-254">Skatteministeren.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Skatteministeren_S" xml:id="ParlaMint-DK_20141210145847" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210145847-255">Regeringen står ved de aftaler, som vi indgår, og det er klart, at hvis de aftalepartier, som vi indgår aftaler med, ønsker at drøfte en given sag, så drøfter vi også den. Det er det, der er aftalt, og det er det, som jeg agter at gøre, nemlig at indkalde Enhedslisten og SF til en nærmere drøftelse, og jeg har som sagt også understreget, at hvis det er sådan, at man ikke skal gennemføre denne afgift, så skal man jo på anden vis finde et tilsvarende provenu.</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210145917" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210145917-256">Hr. Jan E. Jørgensen.</seg>
+                </u>
+                <u who="JørgensenJanE_V" xml:id="ParlaMint-DK_20141210145918" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210145918-257">Det er jeg med på. Det sagde ministeren jo allerede i indledningen. Nu stillede jeg så to spørgsmål, som jeg havde håbet på at få svar på. Det ene var om de 70 mio. kr. fra Post Danmark. Hvis ministeren ikke kender svaret, er det fair nok. Så må man bare sige det, og så må man undersøge det. For det tal vil jo få provenuet endnu længere ned. Det andet spørgsmål var: Hvad synes regeringen? Har man ændret holdning til det fornuftige i reklameafgiften på baggrund af den debat, der har været, og de henvendelser, der bl.a. har været fra kammeraterne i fagbevægelsen?</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210145950" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210145950-258">Ministeren.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Skatteministeren_S" xml:id="ParlaMint-DK_20141210145951" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210145951-259">Regeringen indgår aftaler om forskellige gennemførelser af forskellig politik, og dem står vi selvfølgelig ved, men det er også klart, at hvis der er ønske om at drøfte det i anden sammenhæng, tager vi selvfølgelig også de drøftelser. Det er selvfølgelig klart. I forhold til hvordan provenuberegningerne er lavet, er jeg ganske sikker på, at der er et af de utrolig mange spørgsmål, som hr. Jan E. Jørgensen har stillet undervejs, som belyser det her, og hvis ikke, kan vi i hvert fald sagtens følge op på det. Så hvis det er sådan, at mængden af det papir, der skal anvendes til at trykke reklametryksager i Danmark, er faldet, så er til gengæld antallet af papirer, som skal benyttes til at besvare spørgsmål i den her givne sag, i hvert fald steget tilsvarende.</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210150041" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210150041-260">Så har jeg noteret fru Inger Støjberg som medspørger, og jeg er kommet til fru Inger Støjberg nu, så jeg giver ordet til hende.</seg>
+                </u>
+                <u who="StøjbergInger_V" xml:id="ParlaMint-DK_20141210150047" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210150047-261">Hvis antallet af papirer, som skal benyttes til at besvare alle de spørgsmål, hr. Jan E. Jørgensen har stillet, opvejer det antal af papirer, der skal trykkes reklamer på, er der åbenbart god grund til det, for det her er jo en alvorlig sag. Det er jo en rigtig alvorlig sag for de mange, mange hundrede mennesker, der står til at miste deres arbejde. Derfor kan jeg jo kun være, jeg tør ikke sige tryg, for det er måske et meget stort ord, når man lige nøjagtig har med den socialdemokratisk ledede regering at gøre, men jeg ser i hvert fald mere fortrøstningsfuldt på fremtiden, i og med at der er blevet indkaldt til forhandlinger i den røde forligskreds. Så jeg vil egentlig også bare prøve at følge op på hr. Jan E. Jørgensens spørgsmål. Hvad har ministeren tænkt sig at bruge de forhandlinger til? Man indkalder jo ikke bare til forhandlinger – det ved jeg jo fra min tid som minister – bare sådan for hyggens skyld, man må jo have et eller andet på hjerte, og hvad går det ud på? Det vil jeg spørge ministeren om.</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210150149" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210150149-262">Ministeren.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Skatteministeren_S" xml:id="ParlaMint-DK_20141210150150" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210150150-263">Det er jo klart at afsøge de synspunkter, som er luftet fra bl.a. SF's og Enhedslistens side. Det er klart, at det da ville være meget underligt, hvis ikke man lyttede til de synspunkter, når det er sådan, at de bliver luftet, også i pressen, og det er klart, at det her er en sag, som af indlysende årsager har meget stor bevågenhed. Der har været meget snak om antallet af arbejdspladser, som det her drejer sig om, og det skøn, der bliver anvendt i branchen, er nok noget overvurderet, i hvert fald i forhold til det, der har ligget til grund som beslutningsgrundlag. Men det ændrer jo ikke på det helt grundlæggende faktum, at hvis det er sådan, at der er et ønske om at drøfte afgiften, og om den eventuelt kan erstattes med noget andet, så skal man da selvfølgelig gøre det. Men det forudsætter jo altså, at man finder frem til det provenu, som ellers skulle have været kommet ind på basis af finanslovsforslaget fra 2012.</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210150244" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210150244-264">Fru Inger Støjberg.</seg>
+                </u>
+                <u who="StøjbergInger_V" xml:id="ParlaMint-DK_20141210150245" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210150245-265">Men man indkalder jo ikke bare til drøftelser. Man må jo have et mål med de drøftelser. Altså, så godt kender jeg trods alt en ministers kalender, også selv om der ikke længere er indsigt i forhold til lobbyister og andet i en ministers kalender eller der ikke skal være det i fremtiden. Men vil det sige, at de ansatte på f.eks. Stibo og Graphic Dipak i Skive og mange andre steder vil kunne ånde lettet op, og at kampen mod reklameafgiften rent faktisk er lykkedes? Er det sådan, det skal forstås? For hvis det skal forstås sådan, vil jeg da bestemt glæde mig over det, men det er måske altid lidt farligt at tage glæderne på forskud, når vi lige præcis har at gøre med en socialdemokratisk ledet regering i spidsen for Danmark lige i øjeblikket.</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210150331" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210150331-266">Ministeren.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Skatteministeren_S" xml:id="ParlaMint-DK_20141210150331-2" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210150331-2-267">Jeg har jo sagt meget klart, at vi har tænkt os at indkalde SF og Enhedslisten til drøftelser om det her i januar, og i forbindelse med det har jeg da også en forventning om at vi så når frem til en konklusion. Igen må jeg understrege, at hvis det er sådan, at man ikke skal gennemføre afgiften, så skal man jo på anden vis finde frem til et tilsvarende provenu.</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210150353" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210150353-268">Så går vi tilbage til den oprindelige spørger, som er hr. Jan E. Jørgensen.</seg>
+                </u>
+                <u who="JørgensenJanE_V" xml:id="ParlaMint-DK_20141210150358" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210150358-269">Det er jo svært at udlede så frygtelig meget af det, som skatteministeren siger, for der bliver ikke sagt så frygtelig meget. Så jeg vil afslutte med at spørge ind til den supplerende grønne check, som reklameafgiften var tiltænkt at skulle finansiere. Nu er reklameafgiften jo gud ske tak og lov ikke indført endnu, og den bliver det forhåbentlig heller aldrig, men den grønne check er jo blevet udbetalt, så regeringen må et eller andet sted havde fundet pengene til den supplerende grønne check uden en reklameafgift. Er ministeren fortrøstningsfuld, i forhold til om det kan lade sig gøre at finde en finansiering af de trods alt forholdsvis små udgifter, vi efterhånden taler om?</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210150439" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210150439-270">Ministeren.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Skatteministeren_S" xml:id="ParlaMint-DK_20141210150440" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20141210150440-271">Om vi i givet fald finder frem til noget sådant, vil jo også afhænge af dialogen med de aftalepartier, der er tale om, altså SF og Enhedslisten. Det er klart, at det jo er drøftelser, som jeg har tænkt mig at holde i fortrolighed med de partier, indtil vi når frem til en konklusion. Det må nødvendigvis være sådan, at når man har en aftale, foregår de politiske drøftelser også i det politiske rum. Der er jeg også tryg ved at vi kan nå frem til en konklusion. Jeg tror sådan set ikke, at det vil gavne at botanisere yderligere i det, men som sagt er meldingen fra min side, at der bliver et møde, der bliver afholdt i begyndelsen af januar.</seg>
+                </u>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210150517" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210150517-272">Det var det sidste svar på spørgsmål 14. Jeg siger tak til hr. Jan E. Jørgensen, og jeg siger også tak til skatteministeren, for han er også færdig. Det er sådan set også sådan, at det her var det sidste spørgsmål i dag, så hermed er spørgetiden afsluttet.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Punkt 0</head>
+            <note type="agendaItem">2014-12-10-0</note>
+                <u who="ClausenPer_Fjerdenæstformand_EL" xml:id="ParlaMint-DK_20141210150532" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20141210150532-273">Der er ikke mere at foretage i dette møde. Folketingets næste møde afholdes i morgen, torsdag den 11. december 2014, kl. 10.00. Jeg henviser til den dagsorden, der fremgår af Folketingets hjemmeside.</seg>
+                </u>
+            </div>
+        </body>
+    </text>
+</TEI>

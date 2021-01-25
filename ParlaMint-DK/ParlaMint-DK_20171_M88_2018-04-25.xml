@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="da" xml:id="ParlaMint-DK_20171_M88_2018-04-25" ana="#parla.sitting #reference">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">The Danish Parliamentary Corpus, ParlaMint-DK [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Hansard of the session of the Danish Parliament (Folketinget), 20171, M88 (2018-04-25), final version</title>
+            <meeting ana="#parla.session">20171</meeting>
+            <meeting ana="#parla.sitting">M88</meeting>
+            <respStmt>
+               <persName>Bart Jongejan</persName>
+               <persName>Dorte Haltrup Hansen</persName>
+               <persName>Costanza Navarretta</persName>
+               <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">Department of Nordic Studies and Linguistics (NorS), University of Copenhagen</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>1.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="105" xml:lang="en">105 speeches</measure>
+            <measure unit="words" quantity="8277" xml:lang="en">8277 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URL">https://github.com/clarin-eric/ParlaMint</idno>
+            <pubPlace>
+               <ref target="https://github.com/clarin-eric/ParlaMint">https://github.com/clarin-eric/ParlaMint</ref>
+            </pubPlace>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>. </p>
+            </availability>
+            <date when="2021-01-31">2021-01-31</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="en">Hansards of the Danish Parliament</title>
+               <publisher>The Danish Parliament</publisher>
+               <idno type="URI">https://www.ft.dk/</idno>
+               <date when="2018-04-25">2018-04-25</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="9"/>
+               <tagUsage gi="head" occurs="9"/>
+               <tagUsage gi="note" occurs="9"/>
+               <tagUsage gi="u" occurs="105"/>
+               <tagUsage gi="seg" occurs="105"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Folketinget, Christiansborg</name>
+               <name type="city">1240 Copenhagen K</name>
+               <name type="country" key="DK">Denmark</name>
+               <date ana="#parla.sitting" when="2018-04-25">2018-04-25</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2020-12-18">
+            <name>Dorte Haltrup Hansen</name>Generated corpus in ParlaMint.</change>
+      </revisionDesc>
+   </teiHeader>
+    <text xml:lang="da" ana="#reference">
+        <body>
+            <div type="debateSection">
+            <head>Punkt 0</head>
+            <note type="agendaItem">2018-04-25-0</note>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425130002" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425130002-1">Mødet er åbnet. I dag er der følgende anmeldelser: Justitsministeren (Søren Pape Poulsen): Lovforslag nr. L 223 (Forslag til lov om ændring af straffeloven. Lovforslag nr. L 224 (Forslag til lov om ændring af lov om offentlighed i forvaltningen. Udlændinge- og integrationsministeren (Inger Støjberg): Lovforslag nr. L 225 (Forslag til lov om ændring af lov om danskuddannelse til voksne udlændinge m.fl. Skatteministeren (Karsten Lauritzen): Lovforslag nr. L 226 (Forslag til lov om ændring af lov om inddrivelse af gæld til det offentlige og forskellige andre love og om ophævelse af lov om forsøg med eftergivelse af gæld til det offentlige for socialt udsatte grupper. og forældelseshåndtering m.v.)) og Lovforslag nr. L 227 (Forslag til lov om ændring af afskrivningsloven og ligningsloven. Miljø- og fødevareministeren (Esben Lunde Larsen): Lovforslag nr. L 228 (Forslag til lov om projektering og anlæg af et vildsvinehegn langs den dansk-tyske landegrænse) og Lovforslag nr. L 229 (Forslag til lov om ændring af lov om hold af dyr, lov om fødevarer og lov om foderstoffer. Kulturministeren (Mette Bock): Lovforslag nr. L 230 (Forslag til lov om ændring af lov om ophavsret. Marcus Knuth (V), Karin Gaardsted (S), Henrik Brodersen (DF), Christian Juhl (EL), Carsten Bach (LA), Roger Courage Matthisen (ALT), Martin Lidegaard (RV), Karsten Hønge (SF), Magni Arge (T), Sjúrður Skaale (JF), Aaja Chemnitz Larsen (IA) og Aleqa Hammond (UFG) m.fl.: Forespørgsel nr. F 33 (Hvad kan statsministeren oplyse om rigsfællesskabets muligheder og udfordringer?). Titlerne på de anmeldte sager vil fremgå af www.folketingstidende.dk (jf. ovenfor). Energi-, forsynings- og klimaministeren (Lars Christian Lilleholt) har meddelt mig, at han ønsker i henhold til forretningsordenens § 19, stk. 4, at give Folketinget en skriftlig Energipolitisk redegørelse 2018 af 25/4 18. R 12). Eksemplarer vil blive omdelt, og redegørelsen vil fremgå af www.folketingstidende.dk. Redegørelsen vil komme til forhandling den 18. maj 2018.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Besvarelse af oversendte spørgsmål til ministrene (spørgetid).</head>
+            <note type="agendaItem">2018-04-25-1</note>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425130215" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425130215-2">Det første spørgsmål er til kulturministeren og er stillet af hr. Jan Erik Messmann fra Dansk Folkeparti.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 726: Om at Slots- og Kulturstyrelsen har krævet, at gennemførte ændringer på Flakfortet skal føres tilbage.</head>
+            <note type="agendaItem">2018-04-25-1-1</note>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425130227" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425130227-3">Jeg giver spørgeren ordet til oplæsning af spørgsmålet. Værsgo.</seg>
+                </u>
+                <u who="MessmannJanErik_DF" xml:id="ParlaMint-DK_20180425130231" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425130231-4">Tak, hr. formand. Spørgsmålet til ministeren lyder: Hvad er ministerens holdning til, at Slots- og Kulturstyrelsen har krævet, at gennemførte ændringer på Flakfortet skal føres tilbage, hvilket vil være en bebyrdende forvaltningsakt for en virksomhed, der har brugt millioner af kroner på at renovere Flakfortet?</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425130250" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425130250-5">Ministeren til besvarelse.</seg>
+                </u>
+                <u who="BockMette_Kulturministeren_LA" xml:id="ParlaMint-DK_20180425130251" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425130251-6">Tak for spørgsmålet. Lad mig først slå fast, at det er en kompliceret sag, og at det også er en sag, hvor Slots- og Kulturstyrelsen har kompetence til at træffe afgørelse, men hvor der er en klagemulighed til Miljø- og Fødevareklagenævnet. Og så er det altså også en sag, hvor der har været en række misforståelser i pressen. En af de historier, som florerer, er f.eks., at Slots- og Kulturstyrelsen har krævet lystbådehavnen lukket. Det er ikke rigtigt. Men det er korrekt, at styrelsen i sin afgørelse af 6. april har krævet, at ejeren af Flakfortet retter op på en række ulovligheder. Det er også vigtigt at vide, synes jeg, at ejeren allerede i købsaftalen blev gjort opmærksom på, at det var et fredet fortidsminde, han købte, hvor en særlig restriktiv lovgivning derfor gælder, og at enhver ændring kræver en dispensation. Det stod udtrykkeligt i købsaftalen. Alligevel har det vist sig, at ejeren har udført en række ændringer uden at ansøge. Slots- og Kulturstyrelsen har givet en lovliggørende tilladelse til en række af de her ændringer, bl.a. toilet, bade, flugtveje, industrikøkken, varme og radiatorer. Slots- og Kulturstyrelsen har også givet tilladelse til en række faciliteter til glæde for lystsejlerne. Det drejer sig om moleanlæg, bolværk, fortøjningsudstyr og eludtag m.v. Hvad angår de forhold, som styrelsen har påbudt reetableret, har jeg fået oplyst, at nogle af dem formentlig vil kunne godkendes i en alternativ udformning eller placering. Det gælder f.eks. borde og bænke og grillplads. Men styrelsen skal i hvert enkelt tilfælde vurdere, om der er tale om store indgreb i det historiske monument. Det ulykkelige i den her sag er, at ejeren jo står med en regning i det omfang, styrelsen vurderer, at de ændringer, ejeren har gennemført, er for indgribende i forhold til det fredede fortidsminde og derfor skal justeres eller reetableres. Det er kedeligt, at ejeren har valgt at tage den risiko. Jeg synes ligesom Slots- og Kulturstyrelsen, at det er vigtigt, at så mange som muligt får mulighed for at besøge et fortidsminde som Flakfortet, så jeg håber selvfølgelig, at der bliver åbnet for lystsejlerne og andre besøgende igen. Jeg har noteret mig, at der er en dialog mellem Slots- og Kulturstyrelsen og ejeren, og jeg håber, at man derigennem kan finde alternative løsninger.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425130513" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425130513-7">Jeg giver ordet til spørgeren, i første omgang til 2 minutters taletid. Værsgo.</seg>
+                </u>
+                <u who="MessmannJanErik_DF" xml:id="ParlaMint-DK_20180425130516" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425130516-8">Tak. Flakfortet har været benyttet af militæret frem til 1968. Derefter lå stedet ubevogtet hen til 1975, hvor det forfaldt, da alt af værdi blev fjernet fra fortet. Selv de store granitsten, der dannede molerne, blev stjålet af stenfiskere og benyttet andre steder. Det gamle maskinrum og andet på øen blev udsat for groft hærværk, og hele øen var under nedbrydning af vejr og bølger. Efter 1975 havde bl.a. Dansk Sejlunion i perioder brugsretten over Flakfortet. I den periode skete der noget vedligehold, men ikke nok til at gøre øen besøgsværdig for sejlere og turister. I 1995 blev Flakfortet så fredet. I 2001 blev Flakfortet solgt af det statslige ejendomsselskab Freja til Malmøkranen, på betingelse af at køberen satte fortet i stand og vedligeholdt Flakfortet med henblik på at åbne det op igen for sejlere, turister, historisk interesserede og gæster generelt. Det er blevet gjort, og de har brugt masser af millioner. Der er ingen tvivl om, at bevaringsværdige bygninger skal bevares, og at restriktioner på fredede bygninger skal respekteres. Men når det er sagt, er det også vigtigt at have blik for, at Flakfortet er et anlæg, der kun kan blive vedligeholdt, hvis der er aktiviteter på fortet, der kan lokke folk derud. Hvis ikke der er aktiviteter på fortet, er der intet indtægtsgrundlag og dermed heller ingen reel mulighed for at vedligeholde fortet. Staten vidste, at aktiviteter på fortet var en forudsætning for, at fortet blev vedligeholdt, og at vedligeholderen ville kræve, at det foregik på en sådan måde, at det tiltrak bl.a. sejlere og turister. Jeg går ud fra, at det også er grunden til, at staten valgte at sælge Flakfortet til en privatejet virksomhed som Malmøkranen og ikke et museum. Flakfortet er som fortidsminde ikke det samme som en gravhøj. På en gravhøj skal der være så få aktiviteter som muligt, for at gravhøjen ikke bliver ødelagt. Mener ministeren ikke, at det er i almenvellets interesse at sikre, at der er aktiviteter på Flakfortet, så det ikke forfalder, som det gjorde, da staten ejede Flakfortet?</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425130727" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425130727-9">Ministeren.</seg>
+                </u>
+                <u who="BockMette_Kulturministeren_LA" xml:id="ParlaMint-DK_20180425130728" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425130728-10">Det er jeg fuldstændig enig i. Men vi må også slå fast, at vi lever i et retssamfund, hvor gældende love og regler skal overholdes, og jeg må igen understrege, at der allerede i købsaftalen blev gjort udtrykkeligt opmærksom på, at det var et fredet fortidsminde, hvor en særlig restriktiv lovgivning gælder, og at enhver ændring kræver en dispensation. Så er arbejdet blevet påbegyndt, og da man bliver opmærksom på det, har man selvfølgelig taget fat i ejeren af Flakfortet. Der er så med tilbagevirkende kraft givet tilladelse til en række faciliteter, som jo gavner lystsejlerne: moleanlæg, bolværk, fortøjningsfartøjer osv. Så er der nogle enkelte ting, som vi bliver nødt til at få rettet op på, og det synes jeg er fair, især i betragtning af at ejeren faktisk har vidst det her på forhånd.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425130813" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425130813-11">Spørgeren.</seg>
+                </u>
+                <u who="MessmannJanErik_DF" xml:id="ParlaMint-DK_20180425130814" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425130814-12">Jeg ved præcis, hvordan det er, for jeg er kommet derude næsten hver uge, fra det startede, og så igennem hele perioden i 1970'erne og 1980'erne. Så jeg ved, hvordan det er, og jeg ved, hvordan det så ud før, og der var ikke nogen mulighed for andet end bare at gå rundt og kigge på vand og sjask og møg og ingenting. Så at der er nogle, der har lagt nogle fliser og har gjort det beboeligt og til at være der, synes jeg ikke er spor forkert. Så jeg synes, man skulle tænke ekstra over det, og jeg håber, at ministeren mener det samme som jeg, så vi kan få en løsning på det her.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425130850" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425130850-13">Så er det ministeren.</seg>
+                </u>
+                <u who="BockMette_Kulturministeren_LA" xml:id="ParlaMint-DK_20180425130851" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425130851-14">Altså, der er jo ingen uenighed om, at det er rigtig dejligt, at mange også har mulighed for at besøge vores fortidsminder, i det her tilfælde Flakfortet, og derfor vil jeg gerne understrege, at der er lavet faciliteter, som det her ikke handler om. Det er altså ikke Slots- og Kulturstyrelsen, som har lukket en lystbådehavn. Det er ikke et spørgsmål om, at alt skal føres tilbage til, som det var, før man havde denne private investor, som har gjort rigtig mange gode ting. Men det er altså et spørgsmål om, at når man har love og regler i dette land, så bliver man nødt til at overholde dem. Det er der en god dialog om, og jeg ved, at Slots- og Kulturstyrelsen vil gøre sit bedste for at finde en ordentlig løsning. Men vi bliver nødt til at holde fast i, at lovgivningen skal overholdes, og det jeg går også ud fra at spørgeren er enig med mig i.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425130931" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425130931-15">Spørgeren til sidste runde.</seg>
+                </u>
+                <u who="MessmannJanErik_DF" xml:id="ParlaMint-DK_20180425130933" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425130933-16">Det er jeg helt enig i. For hvis vi ser på, hvad det er, der trækker folk til, så er det nemlig, at der er hyggeligt og rart, at der er noget at komme efter, at man har det godt, og at det ser pænt ud. Det kan man tydeligt se her i Københavns Havn, hvor der lejes goboats og kajakker ud. De steder, hvor man f.eks. har kajakudlejning, ser det ikke særlig kønt ud. Der er sådan lidt tømmer her og der og lidt forskelligt, og derfor synes jeg, at man skal tænke på, at det ikke altid er det der med, hvordan det ser ud, der lokker folkene til. Jeg håber, at ministeren er enig i det, så vi kan få en løsning på det.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425131007" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425131007-17">Ministeren til afslutning.</seg>
+                </u>
+                <u who="BockMette_Kulturministeren_LA" xml:id="ParlaMint-DK_20180425131008" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425131008-18">Som sagt kan der stadig væk være en masse aktiviteter derude, og det her – det vil jeg gerne understrege endnu en gang – handler jo ikke om, at der er et krav om, at Flakfortet skal føres tilbage til, som det så ud, da spørgeren havde sin gang der under statens ejerskab. Så jeg håber, vi finder en mindelig løsning på det. Men som sagt: Regler og love skal altså overholdes, og så må vi se, om vi kan finde en løsning. Om det lykkes at finde en løsning, som alle parter er tilfredse med, kan jeg selvfølgelig ikke udtale mig om på nuværende tidspunkt.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425131039" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425131039-19">Ministeren har dermed afsluttet spørgsmålet, og vi siger tak til kulturministeren og til spørgeren. Vi går videre til spørgsmål nr. 2, som er til erhvervsministeren, og det er stillet af hr. Bjarne Laustsen, Socialdemokratiet.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 724: Om en forenkling af erhvervsfremmesystemet.</head>
+            <note type="agendaItem">2018-04-25-1-2</note>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425131052" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425131052-20">Værsgo for oplæsning af spørgsmålet.</seg>
+                </u>
+                <u who="LaustsenBjarne_S" xml:id="ParlaMint-DK_20180425131054" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425131054-21">Tak, hr. formand. Spørgsmålet lyder: Hvad er meningen med, at man vil lave en forenkling af erhvervsfremmesystemet, og så ender det op med en centralisering, uden at dem, der har forstand på det, er med?</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425131110" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425131110-22">Ministeren.</seg>
+                </u>
+                <u who="MikkelsenBrian_Erhvervsministeren_KF" xml:id="ParlaMint-DK_20180425131111" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425131111-23">Det kunne jeg også godt tænke mig at vide, for det er jo slet ikke realiteten. Spørgsmålet er da godt nok, men det har bare ikke noget at gøre med den virkelighed, der er derude. Jeg forstår godt spørgsmålet, for jeg har også noteret mig den debat, som har været om den såkaldte centralisering af den kommunale erhvervsservice i forlængelse af forenklingsudvalgets forslag om at etablere nye kommunale erhvervshuse. Først og fremmest skal vi lige holde skæg for sig og snot for sig. Det, vi har diskuteret i det offentlige rum – eller som nogle har diskuteret – har været et forslag fra et forenklingsudvalg, som er kommet med nogle forslag. Regeringen er ikke kommet med noget forslag endnu, men et forenklingsudvalg er kommet med nogle forslag. Forenklingsudvalget lægger ikke op til at tage erhvervsservicen fra kommunerne. Det, der lægges op til, er, at kommunerne samarbejder mere om nogle af de mest specialiserede tilbud til virksomhederne. Så er der nogle, der har gjort gældende, at man er ved at lukke de lokale erhvervskontorer. Der vil jeg godt slå fast, at regeringen ikke har nogen som helst ambitioner eller idé om at ville lukke de kommunale erhvervskontorer og erhvervsråd. Det, der bliver lagt op til, er at oprette kommunale erhvervshuse med udgangspunkt i de nuværende kommunale væksthuse. Det betyder, at det, der i dag er et tilbud om væksthuse til en smal gruppe af vækstvirksomheder, gøres tilgængelige i de kommunale vækst- og erhvervshuse for alle virksomheder. Og det, som udvalget her er kommet med, synes jeg er en god idé. Det vil betyde, at kommunerne fremover vil kunne tilbyde vejledning til alle virksomhederne og forstærke faglige miljøer i de nye kommunale erhvervshuse. Det har alle erhvervsorganisationer, altså virksomhederne, bakket op om. Og det er udgangspunktet for opgaven her: Hvordan får vi bedst mulig erhvervsservice, bedst mulig vejledning ud til vores virksomheder og iværksættere? Vi har ikke kigget på systemerne og strukturerne og de aktører, som lever af det. Nej, vi har kigget på: Hvem er det, vi vil hjælpe? Det er virksomhederne og iværksætterne. Og alle deres organisationer har modtaget det meget positivt.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425131314" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425131314-24">Spørgeren.</seg>
+                </u>
+                <u who="LaustsenBjarne_S" xml:id="ParlaMint-DK_20180425131315" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425131315-25">Tak for det foreløbige svar. Jeg tror, det er en sag, vi slet ikke er færdige med endnu. Det, der jo er interessant, er, hvad det er for en virkelighed, ministeren befinder sig i, for jeg kan sige, at over det ganske land lyder samme melding, nemlig at man er imod den centralisering, som det udvalg, ministeren har nedsat, vil lave ved at fjerne både det lokale og det regionale led. Det er, ligesom om ministeren lader, som om det slet ikke er det, udvalget forholder sig til – det forholder sig virkelig til virkeligheden. Det er dem, der rådgiver de virksomheder, der skal starte op, og de virksomheder, der skal ekspandere osv. Så siger ministeren, at man skam ikke gør noget for at lukke de lokale erhvervskontorer. Nej, men hvis man gennemfører det, der står i det papir, så bliver det opfattet af alle derude, som om det er det, der sker. Hvorfor er der den her centralisering i det? Vi havde et møde den anden dag med samtlige erhvervskontorer og samtlige borgmestre fra forskellige partier. Alle bakkede op om det samme – de kunne simpelt hen ikke forstå, at der findes en regering, der nedsætter et udvalg, der kommer med et forslag, der vil flytte kompetencerne fra dem, der har forstand på det, over til et kontor i København, langt væk. Det eneste decentrale, der er i det her forslag, som de er kommet med, er, at man kan få en landsdækkende bestyrelse med et sekretariat i Silkeborg. Men det her skal jo også gælde i Frederikshavn og i Aalborg og i Rebild, så hvor er den lokale indflydelse, hvis man gennemfører det, der står i forenklingsudvalgets rapport. Det er derfor, jeg gerne vil vide, om ministeren agter at gennemføre det, som hans eget udvalg kommer og foreslår.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425131448" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425131448-26">Ministeren.</seg>
+                </u>
+                <u who="MikkelsenBrian_Erhvervsministeren_KF" xml:id="ParlaMint-DK_20180425131449" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425131449-27">Der blev spurgt om, hvilken verden jeg befinder mig i – jeg befinder mig i den virkelige verden. Og den virkelige verden er sådan, at når man giver erhvervsstøtte, så er det jo erhvervsstøtte til virksomhederne, til iværksætterne, for at de kan få hjælp til at vokse sig større; så er det ikke erhvervsstøtte til nogle konsulenter, så er det erhvervsstøtte til virksomhederne. Så det, der sker og også vil ske bagefter, er, at kommunerne vil få mere indflydelse. Vi går fra tre til to politiske niveauer i erhvervsfremmeindsatsen. Det betyder, at regionerne ikke længere skal bedrive erhvervsfremme, mens kommunerne får en større rolle. Kommunerne og deres erhvervsråd vil varetage de fleste virksomhedsrettede opgaver, som de har i dag, og det, vi ser på, er, om virksomhederne ikke kan få lidt mere ud af, at kommunerne samarbejder mere om den specialiserede vejledning og gør den tilgængelig for alle virksomheder. Så det er udgangspunktet. Udgangspunktet er, og jeg tror egentlig, vi er enige, en decentralisering. Der bliver lavet et godt stykke arbejde i de lokale erhvervsforeninger, og det skal man selvfølgelig fortsætte med – og fokus må være på virksomhederne.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425131555" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425131555-28">Spørgeren.</seg>
+                </u>
+                <u who="LaustsenBjarne_S" xml:id="ParlaMint-DK_20180425131555-2" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425131555-2-29">Tak for svaret. Hvorfor svarer ministeren ikke på mit spørgsmål, det er meget simpelt? Agter ministeren at gennemføre den centralisering, som ligger i forenklingsudvalgets rapport, hvor man vil nedlægge de lokale led. Det er jo det, det hele drejer sig om. Vi er helt enige om, at vi skal have en erhvervsfremmestøtte, der ikke har overlap osv., og hvor man kender alle sine positioner og alt det der. Men det, der er blevet angrebet her – ikke bare fra Nordjylland, men fra alle mulige forskellige steder i landet – er den centralisering, som udvalget lægger op til. Derfor vil jeg gerne høre, om ministeren vil gennemføre det her, om det er en tanke, han støtter, når regeringen ellers bryster sig af at ville decentralisere?</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425131636" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425131636-30">Ministeren.</seg>
+                </u>
+                <u who="MikkelsenBrian_Erhvervsministeren_KF" xml:id="ParlaMint-DK_20180425131637" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425131637-31">Det er jo en lidt underlig diskussion, for det, vi diskuterer, er et udvalgsarbejde, som har til formål at decentralisere, og hvor man er kommet frem med nogle konklusioner, som går på at decentralisere erhvervsfremmeindsatsen. Så spiller vi i regeringen senere ud med vores udspil, og vores udspil vil være fokuseret på, at kommunerne har en vigtig rolle at spille i erhvervsfremmeindsatsen, og at vi har en erhvervsfremmebestyrelse, som ikke er et kontor i København, men som vil være en afdeling i Jylland – og der vil ikke være nogen kontorer i København – og vi skal sørge for, at den erhvervsfremmeindsats er så tæt på virksomhederne som muligt, fordi vi laver erhvervsfremmeindsats i Danmark for virksomhederne og ikke for konsulenterne.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425131722" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425131722-32">Spørgeren.</seg>
+                </u>
+                <u who="LaustsenBjarne_S" xml:id="ParlaMint-DK_20180425131723" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425131723-33">Det kan godt være, at ministeren synes, det er en underlig diskussion, men det underlige består i, at ministeren ikke forstår det, når alle de mennesker derude – samtlige erhvervskontorer og samtlige borgmestre fra primært Venstre og Socialdemokratiet – siger, at det her ikke går. Jeg tror også, der findes en enkelt konservativ, som synes det samme, nemlig at der er for meget centralisering i det her forslag. Det er derfor, jeg bare gerne vil vide: Agter ministeren at gennemføre de ting, der ligger i centraliseringsudvalgets forslag, til punkt og prikke? Det er det, der bliver opfattet som centralisering, og man vil gerne – dem, der har forstand på det – beholde den lokale 1:1-rådgivning ude i det lokale led.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425131800" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425131800-34">Ministeren.</seg>
+                </u>
+                <u who="MikkelsenBrian_Erhvervsministeren_KF" xml:id="ParlaMint-DK_20180425131802" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425131802-35">Det er et forenklingsudvalg, hvis arbejde betyder, at der kommer flere penge ud til virksomhederne og ikke til aktørerne, og at man fjerner et niveau. Jeg har da også noteret mig, at alle erhvervsorganisationer – og det er interessant, for det er jo dem, vi gør det for – synes, at det er en god idé, og at KL er positiv over for den her konstruktion. Så kan det være, de har misforstået det i nogle lokale erhvervsforeninger, og at de er gået til deres borgmester og har sagt: Det her betyder, at vi ikke kan lave vores erhvervsfremmeindsats. Men selvfølgelig kan man det. Den myte vil jeg gerne slå i jorden med det samme. Udgangspunktet vil være, at man selvfølgelig kan lave erhvervsfremmeindsatser i kommunerne – det er vi helt enige om.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425131845" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425131845-36">Spørgsmålet er afsluttet. Vi går videre til spørgsmål 3, som også er til erhvervsministeren, og som også er stillet af hr. Bjarne Laustsen, Socialdemokratiet.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 725: Om at de lokale erhvervskontorer skal nedlægges.</head>
+            <note type="agendaItem">2018-04-25-1-3</note>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425131852" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425131852-37">Jeg giver hr. Bjarne Laustsen ordet til oplæsning af spørgsmålet.</seg>
+                </u>
+                <u who="LaustsenBjarne_S" xml:id="ParlaMint-DK_20180425131855" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425131855-38">Tak. Vi prøver igen: Er det virkelig meningen, at de lokale erhvervskontorer skal nedlægges, og at de små lokale perspektivrige virksomheder skal overlades til en upersonlig digital erhvervsrådgiver og søge deres lykke der?</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425131906" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425131906-39">Ministeren med besvarelse.</seg>
+                </u>
+                <u who="MikkelsenBrian_Erhvervsministeren_KF" xml:id="ParlaMint-DK_20180425131907" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425131907-40">Nej!</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425131912" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425131912-41">Spørgeren.</seg>
+                </u>
+                <u who="LaustsenBjarne_S" xml:id="ParlaMint-DK_20180425131913" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425131913-42">Men det er jo det, der kommer til at ske. Nu har vi diskuteret det her med den her indflydelse, og alle, man har sendt det her ud til, selv fremragende Venstrefolk, som jeg sætter stor pris på i forhold til det lokale engagement, siger det samme, nemlig at det her er en centralisering, og at det vil have den konsekvens, at de faktisk ikke kan få den rådgivning mere, som virksomhederne får i dag, og de 130 mio. kr., som man indtil nu i Nordjylland har fordelt regionalt, skal fremover fordeles nationalt. Kan ministeren ikke godt forstå de her mennesker? Både erhvervslivet, kommunerne, erhvervskontorerne, erhvervscheferne kommer og siger det, da centraliseringen betyder, at magten bliver flyttet fra det lokale led til det nationale led.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425132005" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425132005-43">Ministeren.</seg>
+                </u>
+                <u who="MikkelsenBrian_Erhvervsministeren_KF" xml:id="ParlaMint-DK_20180425132005-2" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425132005-2-44">Der blev i det forrige spørgsmål spurgt om, hvilken virkelighed jeg befinder mig i, og jeg tror, vi befinder os på to forskellige planeter. Jeg vil godt gentage, hvad regeringens position er: Regeringens position er, at vores fokus er virksomhederne og iværksætterne, det er ikke konsulenterne. Vi vil decentralisere og ikke centralisere erhvervsfremmeindsatsen, og derfor fjerner vi et led. Vi vil ikke og har ingen ambition om overhovedet at ville lukke kommunale erhvervskontorer og erhvervsråd. Det er de tre pointer, som spørgeren bliver ved med at spørge om, og det svarer lidt til, at man spørger mig, om jeg er holdt op med at slå min kone. Det er jo et vanskeligt spørgsmål at svare på, for jeg har aldrig slået hende, og derfor er det vanskeligt at sige: Nej, jeg er ikke stoppet med at slå hende. Præmissen i spørgsmålet er her, at vi vil centralisere og lukke nogle lokale erhvervskontorer, og jeg kan så nu for fjerde gang gentage, at det vil vi ikke.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425132059" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425132059-45">Spørgeren.</seg>
+                </u>
+                <u who="LaustsenBjarne_S" xml:id="ParlaMint-DK_20180425132101" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425132101-46">Jeg taler ikke om vold, som ministeren er inde på, jeg taler om det lokale erhvervsliv og demokrati og indflydelse. Det er de henvendelser, som vi som folketingsmedlemmer får, og derfor synes jeg, at ministeren skulle se at komme ud i virkeligheden og lytte til alle de forskellige virksomheder, der er godt tilfredse med den rådgivning, man får på det lokale erhvervskontor. Væksthuset i Nordjylland har også skabt rigtig gode resultater. Så jeg er da spændt på, hvad ministeren vil svare på alle de henvendelser, der kommer fra kommunerne, fra erhvervsrådene – hvad er det, han vil svare? At der ikke er nogen centralisering, og at det bare kan fortsætte som hidtil? Jeg forstår simpelt hen ikke, hvor ministeren har hentet inspiration fra til det her. Er det Banedanmark og DSB, der er så fantastisk, når det hele bliver nationaliseret og drevet af staten?</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425132143" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425132143-47">Ministeren.</seg>
+                </u>
+                <u who="MikkelsenBrian_Erhvervsministeren_KF" xml:id="ParlaMint-DK_20180425132146" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425132146-48">Jeg har meget respekt for spørgeren og spørgerens engagement, men hvis man fra planeten Mars stiller et spørgsmål til en person, der er på planeten Jorden, så er det altså lidt vanskeligt at tale om, hvad der foregår på planeten Mars, når det, vi laver lovgivning om, er på Jorden. Og udgangspunktet for regeringen er tre ting: Vi gør det her i virksomhedernes interesse, det er ikke i rådgivernes interesse; vi vil decentralisere, ikke centralisere; og kommunerne skal selvfølgelig stadig væk have lov til at have deres lokale erhvervskontorer og erhvervsråd. Så kan man nok så meget diskutere alle mulige andre ting, men det er udgangspunktet, og det er det, som regeringen står på mål for, og som jeg er sikker på vi nok skal nå en meget, meget fornuftig aftale om, så vi fordeler de erhvervsfremmemidler til gavn for virksomhederne.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425132233" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425132233-49">Helt jordnært kan jeg konstatere, at det nu er hr. Bjarne Laustsen med afslutning af spørgsmålet. Værsgo.</seg>
+                </u>
+                <u who="LaustsenBjarne_S" xml:id="ParlaMint-DK_20180425132239" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425132239-50">Det var godt. Jeg var lidt interesseret i processen, nemlig hvornår ministeren regner med der bliver truffet en endelig beslutning omkring det her, og så selvfølgelig også, om ministeren kan bekræfte, at han sikkert allerede på nuværende tidspunkt har fået dusinvis af henvendelser, der bygger på det samme tema, som den ærede spørger spørger ministeren om her, nemlig at der er en centralisering i det her, som de virksomheder, som ministeren har så meget omsorg for, ikke har bedt om. Folk på de virksomheder, jeg har været på, siger alle sammen, at de er godt tilfredse med det system, vi har, og de ønsker alle sammen at bevare den lokale og regionale indflydelse. Hvordan kan det så være, at ministeren synes, det er godt for virksomhederne, at det skal nationaliseres?</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425132326" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425132326-51">Ministeren.</seg>
+                </u>
+                <u who="MikkelsenBrian_Erhvervsministeren_KF" xml:id="ParlaMint-DK_20180425132327" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425132327-52">Det er så den første, jeg hører om er godt tilfreds med systemet. Der blev lavet en McKinsey-rapport, som for øvrigt tog udgangspunkt i den tidligere regering, som viste, at der er et overlap af aktiviteter, at der er et spild af ressourcer, i form af at man laver de samme ting, og at der er de samme klynger rundtomkring. Så udgangspunktet for forenklingsudvalgets arbejde var en rapport, som viste, at man brugte pengene forkert og på samme måde. Det tror jeg alle uden undtagelse er enige i – uden undtagelse. Derfor har KL jo også modtaget det her positivt, og derfor har alle interesseorganisationer også modtaget det positivt. Jeg håber på – jeg er også helt sikker på det – at vi kommer til at lave en bred aftale, som tager udgangspunkt i virksomhederne og iværksætterne, og som er decentral, og som betyder, at kommunerne selvfølgelig kan blive ved med at lave erhvervsfremmeindsats. Det er jeg helt sikker på.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425132417" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425132417-53">Spørgsmålet er afsluttet, og vi siger tak til ministeren og til spørgeren. Vi går videre til spørgsmål nr. 4, som er til energi-, forsynings- og klimaministeren, og det er stillet af hr. Carsten Kudsk fra Dansk Folkeparti. Jeg indleder med at give spørgeren mulighed for at oplæse spørgsmålet.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 727: Om beregnet energiforbrug til opvarmning af parcelhuse.</head>
+            <note type="agendaItem">2018-04-25-1-4</note>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425132428" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425132428-54">Værsgo.</seg>
+                </u>
+                <u who="KudskCarsten_DF" xml:id="ParlaMint-DK_20180425132435" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425132435-55">Tak til ministeren. Jeg læser lige spørgsmålet op: Hvad mener ministeren om konklusionen i rapporten fra Statens Byggeforskningsinstitut »Forskellen mellem målt og beregnet energiforbrug til opvarmning af parcelhuse«?</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425132448" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425132448-56">Ministeren.</seg>
+                </u>
+                <u who="LilleholtLarsChristian_Energiforsyningsogklimaministeren_V" xml:id="ParlaMint-DK_20180425132449" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425132449-57">Tak for det, og tak for spørgsmålet. Hr. Carsten Kudsk spørger til min mening om konklusionen i en rapport, som Statens Byggeforskningsinstitut lavede i 2016. Rapporten siger helt grundlæggende, at der kan være stor forskel på bygningers beregnede forbrug og deres faktiske forbrug. Det faktiske energiforbrug afhænger jo meget af, om der bor en enkelt person i bygningen, om der bor et forældrepar med tre teenagere, om de har 20 eller 22 grader i stuen osv. Det er derfor ikke overraskende, hvilket også fremhæves i rapportens konklusion, hvor der står: »Det er ikke overraskende, at der ikke er sammenfald mellem teoretiske og faktiske forbrug.« Men det er vigtigt, at energimærket kan sammenlignes på tværs af bygninger. Derfor beregnes bygningers energibehov ud fra standardforudsætninger. Det vil sige, at alle energimærker for parcelhuse er beregnet ud fra samme antagelse om, hvem der bor i huset, hvor mange de er, og hvilken energiadfærd de har. Det er derfor ikke overraskende, at der er forskel på bygningers beregnede og deres faktiske forbrug. Rapportens konklusion peger også på, at det ikke er nok at fokusere på bygningernes fysiske egenskaber, når vi skal fremme energibesparelser, vi skal også fortsætte arbejdet med at påvirke adfærden inde i bygningerne. Jeg er enig i konklusionen. Det er en forudsætning for energieffektive bygninger, at de er tætte og velisolerede, men vi skal også fokusere på adfærden i bygningerne gennem målrettet information. Endelig kan jeg sige, at der i øjeblikket pågår en revision af energimærket. I den forbindelse er forudsætningerne for beregnet forbrug og kommunikation af det faktiske energiforbrug også et fokuspunkt.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425132638" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425132638-58">Hr. Carsten Kudsk, i første omgang for en 2-minuttersbemærkning.</seg>
+                </u>
+                <u who="KudskCarsten_DF" xml:id="ParlaMint-DK_20180425132641" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425132641-59">Jeg har snakket med rigtig mange grønne eksperter, som har sagt, at vi har haft et problem, der svarer lidt til det med bilerne, hvor folk har købt en bil, der f.eks. skulle kunne køre 30 km på literen, men hvor de har en fornemmelse af, at det reelle forbrug ikke stemmer overens hermed. Og her står vi i en lignende situation, hvor borgerne f.eks. energirenoverer deres huse og får en fornemmelse af, at de får en besparelse, som reelt ikke holder vand. Det, man har gjort i mange, mange år, er, at man simpelt hen bare stille og roligt har skærpet bygningsreglementet. Og i den forbindelse kommer den her rapport jo sådan set frem til, at man siger: Det har været fint nok med en skærpelse, men nu bliver man nødt til at kigge på, hvordan man kan gøre det her på en anden måde. For borgerne kommer ud for, at deres følelse er, at deres forventninger ikke bliver opfyldt. De kan have fået en eller anden energirådgiver ud, som siger: Hvis du låner nogle penge – det kan f.eks. være fra 100.000 til 200.000 kr. Man siger jo aldrig nogen sinde til borgeren: Nu skal du høre; du skal nok forvente, at der kan ske det, at den her energibesparelse ikke holder vand. Altså, det er jo det, der gør, at når borgerne går hen og låner penge i banken, så får de et chok, når det lige pludselig viser sig, at den her energibesparelse reelt ikke kommer. Og det viser jo også bare, at det her er noget, man skal kigge på i forhold til folks forventninger. Det er jo sjovt nok, for når skærpelsen af bygningsreglementet kommer, og folks ejendom bliver placeret i en bedre klasse, så begynder de også at skrue op i forhold til deres udgifter. Så hvis man skal lave den reelle CO 2 Men det er sjovt nok med folks adfærd, for mange gange er det sådan, at jo bedre energirenoveret deres hus er, jo hidsigere bliver deres adfærd i forhold til den energibesparelse, som de sådan set reelt ikke får. Så det er jo også derfor, vi skal til at kigge på det på en helt ny måde. Så det, ministeren skal til at kigge på, er, hvordan vi kan komme i gang med at kigge på det på en ny måde, så borgerne ikke får en forventning, som ikke bliver indfriet. Er det ikke korrekt?</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425132842" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425132842-60">Ministeren.</seg>
+                </u>
+                <u who="LilleholtLarsChristian_Energiforsyningsogklimaministeren_V" xml:id="ParlaMint-DK_20180425132843" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425132843-61">Tak for spørgsmålet. Der er mange gode pointer i det, som spørgeren, hr. Carsten Kudsk, her udtrykker. Jeg er meget, meget opmærksom på, at det nok er nødvendigt at gøre noget mere for at kommunikere om det her, altså om der er forskel på, hvad det beregnede og hvad det faktiske er. Men omvendt er det selvfølgelig også vigtigt, at vi kan bruge energimærket til at sammenligne. Altså, hvis man står i en købssituation og skal sammenligne hus A og hus B, er det også vigtigt, at der er nogle ens faktorer. Hvis der i det ene hus har boet en folkepensionist, der måske har haft et meget, meget lavt energiforbrug, og i det andet har boet en familie med tre børn, så er det klart, at de har haft et højere energiforbrug. Og det kan være samme type bolig. Derfor skal det alligevel kunne lade sig gøre at sammenligne. Men jeg medgiver, at der er en udfordring i forhold til kommunikationen omkring det her, i forhold til hvordan vi i det hele taget indretter det. Og det er også noget af det, vi kommer til at kigge på under den revision af energimærket, som vi har sat i gang.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425132937" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425132937-62">Spørgeren.</seg>
+                </u>
+                <u who="KudskCarsten_DF" xml:id="ParlaMint-DK_20180425132938" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425132938-63">Borgerne har jo den her fornemmelse, hvilket ministeren også påpeger. Og det er sjovt nok, at når den her energirådgiver er ude, så påpeger vedkommende ikke, hvad de faktiske forhold er. Fornemmelsen for borgerne er den samme, som når man køber en bil og får den her fornemmelse af, at den ikke kører det antal kilometer på literen, man havde forventet. Så det kræver jo noget oplysning. Og som jeg fortolker det, ministeren siger, vil man til at begynde med nogle informationskampagner eller prøve at gøre noget for at forklare borgerne, hvad det her reelt betyder. Er det ikke korrekt opfattet?</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425133005" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425133005-64">Ministeren.</seg>
+                </u>
+                <u who="LilleholtLarsChristian_Energiforsyningsogklimaministeren_V" xml:id="ParlaMint-DK_20180425133006" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425133006-65">Det er sådan set et langt stykke ad vejen korrekt opfattet. Altså, det handler jo om, at vi får sikkerhed for at få mest mulig viden. Og den viden skal jo ligge til grund dels for købet, dels for tilrettelæggelsen af økonomien. Men den har også betydning, i forhold til hvilke investeringer det vil kunne være fornuftigt at gennemføre. Og det har hr. Carsten Kudsk jo også været inde på i sit indledende spørgsmål. Derfor er det jo helt afgørende, at man kan have tillid til det her mærke, og at det er operationelt. Det synes jeg også er meget vigtigt. Og det er også noget af det, jeg i de drøftelser, jeg har haft med branchen omkring det her, har lagt stor vægt på.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425133040" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425133040-66">Hr. Carsten Kudsk.</seg>
+                </u>
+                <u who="KudskCarsten_DF" xml:id="ParlaMint-DK_20180425133041" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425133041-67">Det er jo positivt, for det kræver sådan set en meget stor informationskampagne. Man kan tænke på, hvor lang tid det har taget, og hvordan folk reelt har haft en holdning i forhold til bilerne. Nu begynder den almindelige dansker at sætte sig ned og sige, at jeg forventer at købe en bil, der kører 30 km på literen, men nu kører den reelt kun 15 km på literen. Det vil sige, at det vil være positivt, hvis borgerne fik den samme fornemmelse, for så fik vi også noget, som ville være reelt, og det ville jo kræve en massiv og stor kampagne i forhold til borgerne, og det er jo det, som jeg kan høre ministeren gerne vil igangsætte.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425133111" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425133111-68">Ministeren.</seg>
+                </u>
+                <u who="LilleholtLarsChristian_Energiforsyningsogklimaministeren_V" xml:id="ParlaMint-DK_20180425133113" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425133113-69">Tak for spørgsmålet. Jeg vil sige om sammenligningen med til biler, at jeg jo selv har gjort mig den erfaring at købe en bil, som nogle påstod havde et meget lavt energiforbrug, og så viste det sig, at det ikke helt holdt stik. Den kørte altså ikke helt så langt på literen. Det er helt afgørende her, og det gælder jo, hvad enten det er biler eller boliger, at man kan have tillid til det energimærke, der er, og at det er så operationelt som overhovedet muligt.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425133136" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425133136-70">Spørgsmålet er afsluttet. Spørgsmål 5 er også til energi-, forsynings- og klimaministeren. Og det er også stillet af hr. Carsten Kudsk, som jeg nu giver ordet for oplæsning.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 728: Om energimærkning af parcelhuse.</head>
+            <note type="agendaItem">2018-04-25-1-5</note>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425133138" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425133138-71">Værsgo.</seg>
+                </u>
+                <u who="KudskCarsten_DF" xml:id="ParlaMint-DK_20180425133147" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425133147-72">Har ministeren planer om at ændre måden, man energimærker parcelhuse på?</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425133154" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425133154-73">Ministeren for besvarelse.</seg>
+                </u>
+                <u who="LilleholtLarsChristian_Energiforsyningsogklimaministeren_V" xml:id="ParlaMint-DK_20180425133155" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425133155-74">Tak for spørgsmålet. Jeg er meget optaget af, at boligejerne får et energimærke, de har tillid til, og som de kan bruge. Derfor er det min hensigt at lave ændringer i ordningen, og det gælder i høj grad også for parcelhuse. Energimærket berører rigtig mange danskere, og derfor lægger jeg vægt på, at ændringerne sker på et solidt vidensgrundlag og på, at alle parter omkring mærket er med til at løfte opgaven. I januar holdt jeg et meget konstruktivt møde med en lang række aktører om energimærket. På mødet inviterede jeg aktørerne til at hjælpe Energi-, Forsynings- og Klimaministeriet med at lave det nødvendige vidensgrundlag for at ændre på ordningen. Helt konkret afholder ministeriet og Energistyrelsen her i første halvår tre heldagsmøder med organisationer og andre aktører om energimærket. Det gør vi, for at al viden kan komme på bordet, inden jeg skal træffe beslutninger om ændringer af mærket. Formålet er at få et energimærke, der giver købere på boligmarkedet et klart billede af en bygnings energiforbrug. Samtidig skal energimærket i højere grad fremme energibesparelser ude i bygningerne. Jeg er rigtig glad for at se, hvor stor opbakning der er fra organisationerne til arbejdet. Derfor ser jeg også frem til at få forelagt et samlet vidensgrundlag i sensommeren, som vil give mig et fundament for at lave de rigtige ændringer af mærket.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425133314" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425133314-75">Spørgeren.</seg>
+                </u>
+                <u who="KudskCarsten_DF" xml:id="ParlaMint-DK_20180425133315" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425133315-76">Når ministeren kigger på rapporten, kan ministeren jo bl.a. se, at i forhold til energimærket A, er det sådan, at hvis man kigger på det i forhold til det forventede, altså det beregnede forbrug, som man vurderer for boligerne med A, så kan man se, at det ikke stemmer overens med det faktiske. Det sjove er, at når man så kigger på B, C og resten af klasserne, begynder de stille og roligt at stemme overens. Og så er det jo lidt sjovt at sidde og tænke på, at fordi borgerne absolut vil have deres huse i energiklasse A, så skulle de have en meget anderledes forbrugeradfærd, end hvis vi taler om B, C eller D. Der er jo ikke den store forskel. Så der må jo være noget galt, når de energikonsulenter og andre, der kommer ud, siger, at der f.eks. er en beregningsmodel i forhold til en A'er, og at den ikke stemmer overens. Ville det så ikke være klogere måske at kigge på energimærket? Jeg ved, at bl.a. svenskerne kigger meget på målt forbrug, altså at man går ind og siger: Vi gør det, at du får en energiklasse A, det kan en rådgiver komme med, som en midlertidig løsning, og at man siger, at det måske kan være for 1 år eller 2 år. Og så kommer den reelle energimærkning efterfølgende. Det ville jo kræve, at de rådgivere vil skulle stå til ansvar. For problemet i dag er, at du kan få en energirådgiver ud, som kan sige: Dit hus bliver en energiklasse A, for det har jeg beregnet. Og når det ikke holder vand 1 år eller 2 år efter, kan man ikke gøre noget i forhold til de her rådgivere. Det vil jo også gøre, at når de her rådgivere står foran borgeren, vil man kunne sige: Jeg skal lige vide en ting; den her beregnede værdi, du kommer frem til, er det også den, man forventer? Og man har jo ret hurtigt kunnet se i rapporter – altså hvis man siger: I bor to eller tre eller fire mennesker sammen med en hund og en kat og åbner dørene meget – at man kan komme frem til nogle beregningsmodeller. Og så ville vi få nogle reelle energimærker, som stemmer overens med de faktiske forhold. For selv om der er et forbrug, i forhold til om man er pensionist eller en stor familie, så vil energiforbruget selvfølgelig være en lille ændring. Men det er jo egentlig sjovt, at ændringen er så stor i forhold til klasserne. Så undrer ministeren sig ikke over, at der er den store forskel i energiklasse A, men ikke i de andre klasser?</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425133522" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425133522-77">Ministeren.</seg>
+                </u>
+                <u who="LilleholtLarsChristian_Energiforsyningsogklimaministeren_V" xml:id="ParlaMint-DK_20180425133523" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425133523-78">Det er jo også det, der er baggrunden for, at jeg vil ændre på mærket. Og det er også derfor, at vi har indkaldt branchen til en drøftelse af det. Der er udfordringer, uanset hvordan man gør det her, tror jeg. Det er en opgave, der er bundet, vi skal gøre det, men vi skal gøre det på en måde, så dem, der skal bruge energimærket, får mest muligt ud af det, og så det bliver mest muligt anvendeligt. Ikke mindst i forhold til at kunne bruges som grundlag for at foretage investeringer i energibesparende tiltag. Hvis der ikke er den værdi i mærket, er det jo spild af penge, og det må det ikke være.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425133600" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425133600-79">Spørgeren.</seg>
+                </u>
+                <u who="KudskCarsten_DF" xml:id="ParlaMint-DK_20180425133602" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425133602-80">Det, som de også siger i rapporten, er jo, at man har gjort det i forhold til energimærket og for at lave nogle ting i forhold til husene, at man stille og roligt har skruet på bygningsreglementet ad åre, hvor man har gjort det i god tid, og så siger man, at man nu regner med og forventer noget, der hedder et 2020-krav på et eller andet tidspunkt, og så kan man indrette boligen efter det. Og det er den måde, kommunerne har gjort det på. Problemet er bare, at nu er der begyndt at komme et mætningspunkt. Det vil sige, at man skal kigge på det her på en ny måde. Det hjælper ikke. Og det er jo det, der bliver spændende. Men hvad tænker ministeren så om tiltag til at ændre forbrugeradfærd i forhold til boligerne?</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425133632" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425133632-81">Ministeren.</seg>
+                </u>
+                <u who="LilleholtLarsChristian_Energiforsyningsogklimaministeren_V" xml:id="ParlaMint-DK_20180425133634" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425133634-82">Der er jo mange muligheder. Der er selvfølgelig det her mærke, men der er jo også mulighederne for, at man kan bruge forskellige, havde jeg nær sagt, digitale og tekniske løsninger til at reducere energiforbruget. Altså, det vigtigste, tror jeg, er, at en forbruger skal have et så godt udgangspunkt som overhovedet muligt i forhold til at skulle kunne foretage investeringer. Og derfor er det jo helt afgørende, og derfor lægger regeringen meget, meget stor vægt på, at når vi skal have lavet det her energimærke om, skal det i langt højere grad, end det er nu, være operationelt. Jeg har ikke opskriften på det, og det er jo også baggrunden for, at jeg gerne lytter til kloge mennesker som dig, men også til branchen i det hele taget, folk, der har indsigt i det her, som kan komme med gode ideer; spørgeren er selv kommet med et par gode ideer til steder, hvor man også kan kigge hen, bl.a. til Sverige.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425133720" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425133720-83">Spørgeren.</seg>
+                </u>
+                <u who="KudskCarsten_DF" xml:id="ParlaMint-DK_20180425133721" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425133721-84">Det lyder positivt. Og det, jeg godt vil spørge ministeren om, handler om, at vi nu hører om de svenske erfaringer i forhold til målt forbrug. Har ministeren så planer om at tage fat i andre lande, altså Sverige og andre lande, og gå ind og kigge på, hvordan de har energimærket, og hvordan de har lavet de forskellige former? For det kunne jo være, at det var den type, vi måske skulle implementere. Jeg har i hvert fald hørt, at der skulle være meget positive erfaringer med den svenske model. Er det noget, ministeren så også har planer om at tage med i grundlaget til sit kommende arbejde?</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425133751" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425133751-85">Ministeren til en afsluttende kommentar.</seg>
+                </u>
+                <u who="LilleholtLarsChristian_Energiforsyningsogklimaministeren_V" xml:id="ParlaMint-DK_20180425133752" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425133752-86">Tak for spørgsmålet. Jeg synes, det er rigtig, rigtig klogt i sådan en proces her at lade sig inspirere alle steder fra. Og vi har en god dialog med branchen. Jeg tror, der var 20-25 forskellige brancherepræsentanter til stede på det møde, vi havde tilbage først på året. Og jeg har en ambition om, at vi skal gøre det her rigtig, rigtig grundigt og dermed også kigge på, hvad der sker i landene omkring os, så vi får indrettet et energimærke, der fungerer, og som er et ordentligt grundlag for den enkelte familie i forhold til at kunne træffe beslutninger om energibesparende tiltag.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425133824" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425133824-87">Tak til energi-, forsynings- og klimaministeren, og tak til spørgeren, hr. Carsten Kudsk. Spørgsmålet er afsluttet. Vi går til det sidste spørgsmål på dagsordenen, spørgsmål nr. 6 til finansministeren, der er stillet af hr. Jeppe Jakobsen fra Dansk Folkeparti.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 707: Om ældreområdet.</head>
+            <note type="agendaItem">2018-04-25-1-6</note>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425133838" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425133838-88">Hr. Jeppe Jakobsen til oplæsning.</seg>
+                </u>
+                <u who="JakobsenJeppe_DF" xml:id="ParlaMint-DK_20180425133839" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425133839-89">Tak for det. Føler regeringen sig forpligtiget af folketingsvedtagelse V 10 om ældreområdet fra indeværende folketingsår i forbindelse med de kommende økonomiforhandlinger med kommunerne?</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425133850" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425133850-90">Ministeren til besvarelse.</seg>
+                </u>
+                <u who="JensenKristian_Finansministeren_V" xml:id="ParlaMint-DK_20180425133852" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425133852-91">Jeg føler mig forpligtet af alle de aftaler, regeringen indgår, og af alle de vedtagelser, som vi stemmer for. Det betyder, at jeg føler mig forpligtet af V 10. Jeg føler mig dog personligt måske i lige så høj grad forpligtet af den udmærkede finanslovsaftale, som regeringen indgik med Dansk Folkeparti, hvor der var en række tiltag, som både løftede økonomien ude i kommunerne for at sikre, at der var flere varme hænder til stede, men som også gik ind og kiggede på, at vi i højere grad skulle fokusere på, hvad vi fik ud af de midler, vi brugte, så det ikke bare var et spørgsmål om, hvor mange penge der blev brugt, men hvad effekten af de midler, der bliver brugt ude i kommunerne, også er. Så jeg føler mig sådan set ganske forpligtet. Det kunne jeg så få svaret på på 40 sekunder, og da jeg så har 1 minut 20 sekunder tilbage, vil jeg bare sige, at regeringen i den kommende tid skal til at diskutere økonomiaftalen for 2019 med landets kommuner. Der er det klart, at det også bliver et centralt spørgsmål, hvordan de rammer skal være for kommunernes drift fremadrettet. Og det, vi har set i de senere år – og nu har vi ikke tallene for 2017, dem får vi først offentliggjort i morgen – har jo faktisk været, at kommunerne har valgt generelt at gå under det, der er blevet budgetteret med på driften, og så gå over på det, der er blevet budgetteret med på anlæg. Dog er det sådan, at lige præcis på ældreområdet ser det ud til at man har kunnet holde det, man har planlagt at bruge, også når man kigger på regnskaberne, og endda i nogle år også ligge over. Så jeg oplever faktisk ikke, at kommunerne, selv om de samlet set bruger mindre på drift, så vælger at bruge mindre på driften på ældreområdet. Det synes jeg er glædeligt, fordi vi har et stort ansvar for, at vores ældre medborgere får en god tid, også den sidste tid, de har.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425134046" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425134046-92">Hr. Jeppe Jakobsen.</seg>
+                </u>
+                <u who="JakobsenJeppe_DF" xml:id="ParlaMint-DK_20180425134047" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425134047-93">Tak for besvarelsen. Jeg er jo ligesom finansministeren utrolig tilfreds med de resultater, som er opnået igennem finansloven. Grunden til, at jeg stiller spørgsmålet i dag, er, at vi har set, at i hvert fald én kommune, Bornholms Regionskommune, allerede har været ude og tale om at skære på ældreområdet. Det synes vi jo i Dansk Folkeparti er en uheldig udvikling, altså at der er nogle kommuner, der nu mener, at man kan bruge færre penge på de ældre, særlig set i det lys, at der bliver flere ældre. En del af den her vedtagelse, som jo i øvrigt er forfattet af regeringspartierne i fællesskab – det er i det sidste stykke – vil jeg tillade mig at læse op: »Folketinget påtaler over for kommunerne, at ældreplejen er en kerneopgave for kommunerne, og at nedprioritering af ældreplejen vil blive mødt med yderligere øremærkning af de midler, kommunerne har til rådighed ...«. Det er jo særlig interessant, når vi så ser, at i hvert fald én kommune – og givetvis også andre – nu begynder at tale om at fjerne midler fra ældreområdet. Derfor er jeg jo nysgerrig på, om man i en økonomiaftale med kommunerne kunne gå ind og gøre det lidt mere forpligtigede ved at sige, at vi faktisk mener det her med, at ældreområdet bestemt ikke har brug for færre midler. Det er jo et af de redskaber, som regeringen har, at regeringen via økonomiaftalen sammen med kommunerne kan blive enige om, at det her er et vigtigt område. Når vi nu har vedtaget det her sammen i Folketinget, er jeg jo interesseret i at høre, om det er her, man træder i karakter over for kommunerne.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425134234" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425134234-94">Ministeren.</seg>
+                </u>
+                <u who="JensenKristian_Finansministeren_V" xml:id="ParlaMint-DK_20180425134236" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425134236-95">Jeg tror, det rent forhandlingstaktisk er bedst, at jeg forhandler med kommunerne, og ikke via Folketinget som mellemmand. Lad det bare være sagt, at noget af det, vi jo forhandler om, er at sikre, at de politiske beslutninger, der tages i Folketinget, også udleves i virkeligheden ude i kommunerne. Når det er sagt, forhandler jeg jo med Kommunernes Landsforening og dermed kommunerne som helhed og ikke de 98 kommuner enkeltvis. Det sidste kunne være hyggeligt, men ville nok være en smule tidkrævende i forhold til andet, og derfor kigger jeg jo på, hvad det er, der sker i kommunerne som helhed. Der kan vi faktisk se, at de alle har levet op til at bruge flere penge på de ældre over de seneste år.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425134320" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425134320-96">Spørgeren.</seg>
+                </u>
+                <u who="JakobsenJeppe_DF" xml:id="ParlaMint-DK_20180425134321" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425134321-97">Jeg kan jo selvfølgelig godt forstå, at finansministeren foretrækker at forhandle med sine forhandlingspartnere frem for med en ordfører fra Folketinget. Det giver trods alt meget mere mening i en travl hverdag. Men så vil jeg blot opfordre finansministeren til, at det i hvert fald var et redskab, at man kunne gå ind og lave nogle mekanismer i sådan en økonomiaftale, der gjorde, at hvis kommunerne i forbindelse med deres budgetlægning mod forventning skulle fjerne penge fra ældreområdet, så kunne det få konsekvenser for kommunerne, hvis man f.eks. prioriterer anlæg i stedet.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425134355" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425134355-98">Ministeren.</seg>
+                </u>
+                <u who="JensenKristian_Finansministeren_V" xml:id="ParlaMint-DK_20180425134356" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425134356-99">Men nu er det sådan, at jeg faktisk har tallene fra de seneste år, og man kan i hvert fald se, at kommunerne år for år både i budgetterne og de regnskaber, vi har fået ind, har brugt flere penge på ældre. Så der er ikke grundlag for for mig at konstatere, at kommunerne samlet set har skåret ned på ældreområdet. Der er selvfølgelig en udfordring i det. Vi bliver på den ene side sundere og raskere og har mindre brug for hjælp, fordi vi har mindre nedslidende arbejde, men på den anden side bliver der en større gruppe ældre, så der bliver et træk. Der tror jeg at det nok er ret forskelligt fra kommune til kommune, hvordan det der lige vejer ind, og derfor er der også noget at kigge på: Hvad er det, kommunerne så fremadrettet kommer til at gøre? Der er jeg helt enig med spørgeren i, at det skal være et punkt, vi er opmærksomme på.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425134441" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425134441-100">Spørgeren til sidste runde.</seg>
+                </u>
+                <u who="JakobsenJeppe_DF" xml:id="ParlaMint-DK_20180425134442" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425134442-101">Man kan jo sige, at det er rart, at kommunerne har valgt at bruge mere, end de har budgetteret med, men det kan jo også have noget at gøre med, at budgetprocessen ligger sådan, at kommunerne vedtager deres budgetter i september-oktober måned. Når vi så lægger penge oveni i forbindelse med en finanslov, er det klart, at der kommer penge oven i det budget, som kommunerne selv har vedtaget, og der er jo ingen garanti for, at en finanslov for næste år nødvendigvis tilfører kommunerne flere penge. Så det kunne jo være fint, at man forpligtede kommunerne til af egen drift at sikre, at de her penge bliver brugt på ældreområdet.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425134514" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425134514-102">Ministeren.</seg>
+                </u>
+                <u who="JensenKristian_Finansministeren_V" xml:id="ParlaMint-DK_20180425134515" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20180425134515-103">Det er nemlig snedigt; det kunne jo godt være sådan, kommunerne havde gjort, og derfor har jeg også fået regnskabet gjort op før finanslovsbevillinger og efter finanslovsbevillinger, og man kan faktisk, både når man kigger på det før finanslovsbevillinger og efter finanslovsbevillinger, se, at der år for år er et løft i kommunernes forbrug på det, der er registreret på ældreområdet. Nu står vi lidt i en udfordring. For i december 2016 valgte man at skifte opgørelsesmetode, og det betyder, at det fremadrettet bliver lidt svært at sammenligne bagudrettet med regnskabstallene og de nye regnskabstal, der kommer. Men det, vi kan sammenligne med, de tal, vi har inde, baseret på de gamle opgørelser, viser faktisk, at kommunerne samlet set har valgt at prioritere mere. Det betyder ikke, at der ikke i enkelte kommuner kan være udfordringer, og der synes jeg at vi både fra Folketingets side og fra lokalt hold skal være meget opmærksomme.</seg>
+                </u>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425134606" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425134606-104">Dermed er spørgsmålet afsluttet. Vi siger tak til ministeren og tak til spørgeren. Dermed er spørgetiden også afsluttet.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Punkt 0</head>
+            <note type="agendaItem">2018-04-25-0</note>
+                <u who="EngelbrechtBenny_Denfgformand_S" xml:id="ParlaMint-DK_20180425134616" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20180425134616-105">Der er ikke mere at foretage i dette møde. Folketingets næste møde afholdes i morgen, torsdag den 26. april 2018, kl. 10.00. Jeg henviser til den dagsorden, der fremgår af Folketingets hjemmeside.</seg>
+                </u>
+            </div>
+        </body>
+    </text>
+</TEI>
