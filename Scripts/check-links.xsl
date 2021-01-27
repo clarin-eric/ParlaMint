@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Checks if all references in a TEI document have a corresponding @xml:id -->
-<!-- As parameter "meta" you can specify the root file with teiHeader, e.g. in case of corpora -->
-<!-- cf. https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-teidata.pointer.html -->
+<!-- As parameter "meta" you can specify the root file with teiHeader for corpora that 
+     are too large to load as a single XML document
+     The script can be run like this, assuming one is in the root repo directory:
+     $ java -jar /usr/share/java/saxon.jar meta=../ParlaMint-SI/ParlaMint-SI.xml \
+       -xsl:check-links.xsl ../ParlaMint-SI/ParlaMint-SI_2014-08-01_SDZ7-Redna-01.xml
+-->
 <xsl:stylesheet 
     xmlns="http://www.tei-c.org/ns/1.0" 
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
