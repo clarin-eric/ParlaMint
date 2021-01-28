@@ -336,7 +336,7 @@ temporal.atts =
   | attribute notBefore { temporal.val }
   | (attribute notBefore { temporal.val },
      attribute notAfter { temporal.val })
-who.att = attribute who { xsd:anyURI }?
+who.att = attribute who { xsd:anyURI }
 ref.att = attribute ref { xsd:anyURI }?
 global.atts =
   id.att?,

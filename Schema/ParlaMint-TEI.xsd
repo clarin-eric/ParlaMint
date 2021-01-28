@@ -459,7 +459,7 @@
               </xs:restriction>
             </xs:simpleType>
           </xs:attribute>
-          <xs:attributeGroup ref="ns1:who.att"/>
+          <xs:attribute name="who" type="xs:anyURI"/>
         </xs:extension>
       </xs:complexContent>
     </xs:complexType>
@@ -481,7 +481,7 @@
               </xs:restriction>
             </xs:simpleType>
           </xs:attribute>
-          <xs:attributeGroup ref="ns1:who.att"/>
+          <xs:attribute name="who" type="xs:anyURI"/>
         </xs:extension>
       </xs:complexContent>
     </xs:complexType>
@@ -506,7 +506,7 @@
               </xs:restriction>
             </xs:simpleType>
           </xs:attribute>
-          <xs:attributeGroup ref="ns1:who.att"/>
+          <xs:attribute name="who" type="xs:anyURI"/>
         </xs:extension>
       </xs:complexContent>
     </xs:complexType>
@@ -591,7 +591,7 @@
     <xs:attribute name="notAfter" type="ns1:temporal.val"/>
   </xs:attributeGroup>
   <xs:attributeGroup name="who.att">
-    <xs:attribute name="who" type="xs:anyURI"/>
+    <xs:attribute name="who" use="required" type="xs:anyURI"/>
   </xs:attributeGroup>
   <xs:attributeGroup name="ref.att">
     <xs:attribute name="ref" type="xs:anyURI"/>
