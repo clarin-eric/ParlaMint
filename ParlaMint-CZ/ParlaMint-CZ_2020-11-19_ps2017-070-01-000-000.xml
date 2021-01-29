@@ -10,10 +10,10 @@
             <title type="main" xml:lang="en">Czech parliamentary corpus ParlaMint-CZ [ParlaMint]</title>
             <title type="sub" xml:lang="cs">Parlament České republiky, Poslanecká sněmovna</title>
             <title type="sub" xml:lang="en">Parliament of the Czech Republic, Chamber of Deputies</title>
-            <meeting ana="#parla.term" n="ps2017">ps2017</meeting>
-            <meeting ana="#parla.meeting" n="ps2017/070">ps2017/070</meeting>
-            <meeting ana="#parla.sitting" n="ps2017/070/01">ps2017/070/01</meeting>
-            <meeting ana="#parla.agenda" n="ps2017/070/000">ps2017/070/000</meeting>
+            <meeting ana="#parla.term #parla.lower #parliament.PSP8" n="ps2017">ps2017</meeting>
+            <meeting ana="#parla.meeting #parla.lower" n="ps2017/070">ps2017/070</meeting>
+            <meeting ana="#parla.sitting #parla.lower" n="ps2017/070/01">ps2017/070/01</meeting>
+            <meeting ana="#parla.agenda #parla.lower" n="ps2017/070/000">ps2017/070/000</meeting>
             <respStmt>
                <persName ref="https://orcid.org/0000-0001-7953-8783">Matyáš Kopp</persName>
                <resp xml:lang="en">TEI XML corpus encoding</resp>
@@ -103,7 +103,7 @@
          </settingDesc>
       </profileDesc>
    </teiHeader>
-   <text>
+   <text ana="#covid">
       <body>
          <div type="debateSection">
             <pb source="https://www.psp.cz/eknih/2017ps/stenprot/070schuz/s070001.htm"
