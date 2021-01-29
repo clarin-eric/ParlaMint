@@ -26,7 +26,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>1.0</edition>
+            <edition>2.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="124496" xml:lang="hr">124.496 govora</measure>
@@ -45,13 +45,15 @@
             
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
-               <p xml:lang="hr">Ovaj rad je dostupan pod <ref target="http://creativecommons.org/licenses/by/4.0/">međunarodnom licencom Creative Commons Imenovanje 4.0</ref></p>
-               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></p>
+               <p xml:lang="hr">Ovaj rad je dostupan pod <ref target="http://creativecommons.org/licenses/by/4.0/">međunarodnom licencom Creative Commons Imenovanje 4.0</ref>
+               </p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
             </availability>
-            <date when="2020-12-10">2020-12-10</date>
+            <date when="2021-01-28">2021-01-28</date>
          </publicationStmt>
          <sourceDesc>
-            <bibl><title>Multilingual comparable corpora of parliamentary debates ParlaMint 1.0</title><idno type="handle">http://hdl.handle.net/11356/1345</idno></bibl>
+            <bibl><title>Multilingual comparable corpora of parliamentary debates ParlaMint 1.0</title><idno type="handle">http://hdl.handle.net/11356/1388</idno></bibl>
             <bibl>
                <title type="main">Minutes of the National Assembly of the Republic of Croatia</title>
                <idno type="URI">https://parlametar.hr/</idno>
@@ -62,7 +64,8 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="hr"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref></p>
+            <p xml:lang="hr"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
             <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
          <editorialDecl>
@@ -420,7 +423,7 @@
                <p xml:lang="en">Private URIs with this prefix point to feature-structure elements defining the Serbocroatian MULTEXT-East Version 6 MSDs.</p>
             </prefixDef>
             <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
-               <p>Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI header.</p>
+               <p xml:lang="en">Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI header.</p>
             </prefixDef>
          </listPrefixDef>
          <appInfo>
@@ -466,67 +469,67 @@
                      </event>
                   </listEvent>
                </org>
-               <org xml:id="party.BM_365_NZ" role="political_party">
+               <org xml:id="party.BM_365_NZ" role="politicalParty">
                   <orgName full="yes" xml:lang="hr">Klub Stranke rada i solidarnosti i nezavisnih zastupnika</orgName>
                   <orgName full="init">BM 365 i NZ</orgName>
                </org>
-               <org xml:id="party.GLAS" role="political_party">
+               <org xml:id="party.GLAS" role="politicalParty">
                   <orgName full="yes" xml:lang="hr">Klub Građansko-liberalnog saveza</orgName>
                   <orgName full="init">GLAS</orgName>
                </org>
-               <org xml:id="party.HDS_HSLS_HDSSB" role="political_party">
+               <org xml:id="party.HDS_HSLS_HDSSB" role="politicalParty">
                   <orgName full="yes" xml:lang="hr">Klub Hrvatske demokršćanske stranke, Hrvatske socijalno-liberalne stranke i Hrvatskog demokratskog saveza Slavonije i Baranje</orgName>
                   <orgName full="init">HDS, HSLS, HDSSB</orgName>
                </org>
-               <org xml:id="party.HDZ" role="political_party">
+               <org xml:id="party.HDZ" role="politicalParty">
                   <orgName full="yes" xml:lang="hr">Klub Hrvatske demokratske zajednice</orgName>
                   <orgName full="init">HDZ</orgName>
                </org>
-               <org xml:id="party.HNS" role="political_party">
+               <org xml:id="party.HNS" role="politicalParty">
                   <orgName full="yes" xml:lang="hr">Klub Hrvatske narodne stranke - liberalnih demokrata</orgName>
                   <orgName full="init">HNS</orgName>
                </org>
-               <org xml:id="party.HS" role="political_party">
+               <org xml:id="party.HS" role="politicalParty">
                   <orgName full="yes" xml:lang="hr">Klub Hrvatski suverenisti</orgName>
                   <orgName full="init">HS</orgName>
                </org>
-               <org xml:id="party.HSS_Demokrati" role="political_party">
+               <org xml:id="party.HSS_Demokrati" role="politicalParty">
                   <orgName full="yes" xml:lang="hr">Klub Hrvatske seljačke stranke i Demokrata</orgName>
                   <orgName full="init">HSS i Demokrati</orgName>
                </org>
-               <org xml:id="party.HSU_SNAGA_NZ_NP" role="political_party">
+               <org xml:id="party.HSU_SNAGA_NZ_NP" role="politicalParty">
                   <orgName full="yes" xml:lang="hr">Klub zastupnika Hrvatske stranke umirovljenika, SNAGA-e, nezavisnih zastupnika i Nove politike</orgName>
                   <orgName full="init">HSU, SNAGA, NZ i NP</orgName>
                </org>
-               <org xml:id="party.IDS_PGS_RI" role="political_party">
+               <org xml:id="party.IDS_PGS_RI" role="politicalParty">
                   <orgName full="yes" xml:lang="hr">Klub Istarskog demokratskog sabora, Primorsko-goranskog saveza, Liste za Rijeku</orgName>
                   <orgName full="init">IDS, PGS, RI</orgName>
                </org>
-               <org xml:id="party.Most" role="political_party">
+               <org xml:id="party.Most" role="politicalParty">
                   <orgName full="yes" xml:lang="hr">Klub Mosta nezavisnih lista</orgName>
                   <orgName full="init">Most</orgName>
                </org>
-               <org xml:id="party.NLM" role="political_party">
+               <org xml:id="party.NLM" role="politicalParty">
                   <orgName full="yes" xml:lang="hr">Klub Nezavisne liste mladih</orgName>
                   <orgName full="init">NLM</orgName>
                </org>
-               <org xml:id="party.Nezavisni" role="political_party">
+               <org xml:id="party.Nezavisni" role="politicalParty">
                   <orgName full="yes" xml:lang="hr">Klub nezavisnih</orgName>
                   <orgName full="init">Nezavisni</orgName>
                </org>
-               <org xml:id="party.SDP" role="political_party">
+               <org xml:id="party.SDP" role="politicalParty">
                   <orgName full="yes" xml:lang="hr">Klub Socijaldemokratske partije Hrvatske</orgName>
                   <orgName full="init">SDP</orgName>
                </org>
-               <org xml:id="party.SDSS" role="political_party">
+               <org xml:id="party.SDSS" role="politicalParty">
                   <orgName full="yes" xml:lang="hr">Klub Samostalne demokratske srpske stranke</orgName>
                   <orgName full="init">SDSS</orgName>
                </org>
-               <org xml:id="party.Živi_zid_PH" role="political_party">
+               <org xml:id="party.Živi_zid_PH" role="politicalParty">
                   <orgName full="yes" xml:lang="hr">Klub zastupnika Živog zida i Promijenimo Hrvatsku</orgName>
                   <orgName full="init">Živi zid i PH</orgName>
                </org>
-               <org xml:id="party.Živi_zid_SNAGA" role="political_party">
+               <org xml:id="party.Živi_zid_SNAGA" role="politicalParty">
                   <orgName full="yes" xml:lang="hr">Klub Živog zida i SNAGA-e</orgName>
                   <orgName full="init">Živi zid, SNAGA</orgName>
                </org>
@@ -3505,7 +3508,9 @@
          </langUsage>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2020-12-10"><name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2021-01-28"><name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tomaž Erjavec</name>: Small fixes for Version 2.</change>
          <change when="2020-10-07">
             <name>Nikola Ljubešić</name>: Linguistic annotation.</change>
          <change when="2020-10-04">
