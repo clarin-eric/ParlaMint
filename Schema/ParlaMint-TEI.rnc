@@ -231,19 +231,7 @@ note =
     attribute type { xsd:NCName }?,
     (text | time)
   }
-pb =
-  element pb { global.atts, corresp.att, source.att, empty }
-  # For original the CZ case, where they have media info right after pb
-  #      (better do it with recordingStmt)
-  # <optional>
-  #   <element name="note">
-  #     <attribute name="type">
-  #       <value type="string">media</value>
-  #     </attribute>
-  #     <ref name="media"/>
-  #   </element>
-  # </optional>
-  
+pb = element pb { global.atts, corresp.att, source.att, empty }
 comment =
   note
   | element gap {
@@ -336,7 +324,7 @@ temporal.atts =
   | attribute notBefore { temporal.val }
   | (attribute notBefore { temporal.val },
      attribute notAfter { temporal.val })
-who.att = attribute who { xsd:anyURI }?
+who.att = attribute who { xsd:anyURI }
 ref.att = attribute ref { xsd:anyURI }?
 global.atts =
   id.att?,

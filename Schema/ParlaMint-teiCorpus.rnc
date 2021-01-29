@@ -76,39 +76,36 @@ listOrg =
       global.atts,
       ana.att,
       attribute role {
-        # Change to politicalParty:
-        "political_party"
-        | "politicalParty"
+        "government"
         | "parliament"
         | 
-          ## The following used only by SI:
-          "government"
-        | # Change to ethnicCommunities:
-          "ethnic_communities"
-        | 
           ## The following used only by BG:
-          "independet"
+          "politicalParty"
         | "coalition"
         | 
           ## The following used only by CZ:
           "ngo"
-        | "interparliamentaryFriendshipGroup"
+        | "president"
+        | "institution"
+        | "senate"
         | "committee"
         | "subcommittee"
         | "commission"
         | "politicalGroup"
         | "delegation"
-        | "senate"
-        | "institution"
         | "supervisoryBoard"
         | "workingGroup"
+        | "interparliamentaryFriendshipGroup"
         | "nationalCouncil"
         | "chamberOfThePeople"
         | "chamberOfTheNations"
         | "europeanParliament"
-        | "president"
         | "internationalOrganizations"
-        | "boardOfDirectors"
+        | 
+          ## The following used only by SI:
+          "boardOfDirectors"
+        | "ethnicCommunity"
+        | "independet"
       },
       orgName+,
       event*,
@@ -199,38 +196,25 @@ affiliation =
         ## The following used only by BG:
         "candidateMP"
       | "academician"
-      | # Change to candidateChairman:
-        "candidate-chairman"
-      | # Change to chairman:
-        "chair-of-parliament"
-      | # Change to chairman:
-        "chairperson"
+      | "candidateChairman"
+      | "chairperson"
       | "chiefInspector"
       | "commander"
       | "constitutionalJudge"
       | "deputyChief"
       | "deputyMinister"
       | "deputyPrimeMinister"
-      | "deputyPrimeMinster"
       | "director"
-      | # Change to headOfDepartment:
-        "head-of-department"
+      | "headOfDepartment"
       | "leader"
       | "ombudsman"
       | "presidentEP"
       | "primeMinister"
-      | # Change to prosecutorGeneral:
-        "prosecutor-general"
+      | "prosecutorGeneral"
       | "secretary"
       | "secretaryGeneral"
-      | # Change to viceChairman:
-        "vice-chairman"
-      | # Change to viceChairman?:
-        "vice-chair-of-parliament"
-      | # Change to viceDirector:
-        "vice-director"
-      | # Change to vicePresident:
-        "vice-president"
+      | "viceChairman"
+      | "viceDirector"
     },
     text
   }

@@ -20,7 +20,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>1.0</edition>
+            <edition>2.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="58" xml:lang="sl">58 govorov</measure>
@@ -42,10 +42,10 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="sl">To delo je ponujeno pod <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Priznanje avtorstva 4.0 mednarodna licenca</ref>.</p>
             </availability>
-            <date when="2020-12-10">2020-12-10</date>
+            <date when="2021-01-28">2021-01-28</date>
          </publicationStmt>
          <sourceDesc>
-            <bibl><title>Multilingual comparable corpora of parliamentary debates ParlaMint 1.0</title><idno type="handle">http://hdl.handle.net/11356/1345</idno></bibl>
+            <bibl><title>Multilingual comparable corpora of parliamentary debates ParlaMint 1.0</title><idno type="handle">http://hdl.handle.net/11356/1388</idno></bibl>
             <bibl>
                <title type="main" xml:lang="en">Minutes of the National Assembly of the Republic of Slovenia</title>
                <title type="main" xml:lang="sl">Zapisi sej Državnega zbora Republike Slovenije</title>
@@ -58,11 +58,9 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="sl">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            <p xml:lang="sl"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
-            <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
          </projectDesc>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
@@ -90,12 +88,14 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2020-12-10"><name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2021-01-28"><name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tomaž Erjavec</name>: Small fixes for Version 2.</change>
          <change when="2020-10-06">
             <name>Tomaž Erjavec</name>: Small fixes for ParlaMint.</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text ana="#reference">
       <body>
          <div type="debateSection">
             <head>REPUBLIKA SLOVENIJA DRŽAVNI ZBOR</head>
@@ -106,8 +106,12 @@
             <u who="#KotnikPoropatMarjana" xml:id="ParlaMint-SI_2014-08-01_SDZ7-Redna-01.u1" ana="#chair">
                <seg xml:id="ParlaMint-SI_2014-08-01_SDZ7-Redna-01.seg1">Spoštovani, prosim, da zasedete svoja mesta.</seg>
                <seg xml:id="ParlaMint-SI_2014-08-01_SDZ7-Redna-01.seg2">V naši sredini pozdravljam predsednika države, gospoda Boruta Pahorja in predsednika Državnega zbora, gospoda Janka Vebra. Lepo pozdravljena.</seg>
-               <kinesic type="applause"><desc>aplavz</desc></kinesic>
-               <gap reason="editorial"><desc>himna</desc></gap>
+               <kinesic type="applause">
+                  <desc>aplavz</desc>
+               </kinesic>
+               <gap reason="editorial">
+                  <desc>himna</desc>
+               </gap>
                <seg xml:id="ParlaMint-SI_2014-08-01_SDZ7-Redna-01.seg3">Besedo dajem spoštovanemu predsedniku Državnega zbora, gospodu Janku Vebru. Izvolite, prosim.</seg>
             </u>
             <note type="speaker">JANKO VEBER (PS SD):</note>
@@ -117,7 +121,9 @@
                <seg xml:id="ParlaMint-SI_2014-08-01_SDZ7-Redna-01.seg6">Ob tej priložnosti bi se želel še posebej zahvaliti poslankam in poslancem sklica, ki se mu z današnjim dnem izteka mandat, za izjemno sodelovanje. Dosegli smo soglasje tako med opozicijo in koalicijo, zato da smo lahko spremenili v dveh bistvenih točkah tudi Ustavo Republike Slovenije in tudi na mednarodnem področju sprejeli pomembno odločitev, ko smo soglasno ratificirali vstop Republike Hrvaške v Evropsko unijo. Mislim, da smo s tem dejanjem dali en pomemben pečat v zgodovini parlamentarizma v Sloveniji. Po mojem mnenju bo to tudi zaznamovalo v največji meri mandat, ki se nam izteka.</seg>
                <seg xml:id="ParlaMint-SI_2014-08-01_SDZ7-Redna-01.seg7">Za to, da smo lahko, po mojem mnenju, uspešno delovali, je velika zasluga tudi predsednika, tako da se mu tudi zahvaljujem in hkrati se oba zahvaljujeva za vse, kar je bilo sprejeto v Državnem zboru, kajti veliko zahtevnih predlogov je posredoval predsednik republike v sprejem Državnemu zboru in vsi predlogi so bili sprejeti. Tudi to je nekaj, kar bo zagotovo ostalo kot pomemben mejnik ali pa dosežek pri delovanju Državnega zbora.</seg>
                <seg xml:id="ParlaMint-SI_2014-08-01_SDZ7-Redna-01.seg8">Ob zaključku mojega govora mi dovolite, da se zahvalim tudi vsem sodelavcem in sodelavkam v Državnem zboru za pomoč pri delu Državnega zbora, še posebej pa tudi Kabinetu, ki je skrbel za to, da sem tudi sam, upam, da dovolj, primerno opravljal funkcijo Državnega zbora. Še enkrat iskrena hvala za vso pomoč in tudi novemu sklicu veliko uspeha pri delu, v katerega vstopamo z današnjim dnem. Hvala.</seg>
-               <kinesic type="applause"><desc>aplavz</desc></kinesic>
+               <kinesic type="applause">
+                  <desc>aplavz</desc>
+               </kinesic>
             </u>
             <gap reason="editorial"><desc xml:lang="en">SAMPLING</desc></gap>
             <u who="#KotnikPoropatMarjana" xml:id="ParlaMint-SI_2014-08-01_SDZ7-Redna-01.u57" ana="#chair">

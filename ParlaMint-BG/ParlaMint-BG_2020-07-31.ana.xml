@@ -38,7 +38,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>1.0</edition>
+            <edition>2.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure quantity="224" unit="speeches" xml:lang="bg">224 изказвания</measure>
@@ -59,10 +59,10 @@
                <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="bg">Този ресурс е лицензиран под лиценз:<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2020-12-10">2020-12-10</date>
+            <date when="2021-01-28">2021-01-28</date>
          </publicationStmt>
          <sourceDesc>
-            <bibl><title>Multilingual comparable corpora of parliamentary debates ParlaMint 1.0</title><idno type="handle">http://hdl.handle.net/11356/1167</idno></bibl>
+            <bibl><title>Multilingual comparable corpora of parliamentary debates ParlaMint 1.0</title><idno type="handle">http://hdl.handle.net/11356/1388</idno></bibl>
             <bibl>
                <title type="main">Minutes of the National Assembly of the Republic of Bulgaria</title>
                <idno type="URI">https://parliament.bg/bg/plenaryst</idno>
@@ -72,11 +72,9 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="bg">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            <p xml:lang="bg"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
-            <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
          </projectDesc>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
@@ -110,7 +108,9 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2020-12-10"><name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2021-01-28"><name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tomaž Erjavec</name>: Small fixes for Version 2.</change>
          <change when="2020-10-14">
             <name>Nikola Ljubešić</name>: Linguistic annotation.</change>
          <change when="2020-10-14">
@@ -733,7 +733,9 @@
                      </linkGrp>
                   </s>
                </seg>
-               <kinesic type="applause"><desc>Ръкопляскания.</desc></kinesic>
+               <kinesic type="applause">
+                  <desc>Ръкопляскания.</desc>
+               </kinesic>
             </u>
             <gap reason="editorial"><desc xml:lang="en">SAMPLING</desc></gap>
             <u ana="#regular" n="147431" who="#SimeonovEmil" xml:id="ParlaMint-BG_2020-07-31.u223">
@@ -1118,7 +1120,9 @@
                         <w lemma="република" msd="UPosTag=NOUN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Ncfsi" xml:id="ParlaMint-BG_2020-07-31.seg922.2.46">Република</w>
                         <w lemma="българия" msd="UPosTag=PROPN|Definite=Ind|Gender=Fem|Number=Sing|XPosTag=Npfsi" xml:id="ParlaMint-BG_2020-07-31.seg922.2.47">България</w>
                      </name>
-                     <incident type="action"><desc>(присъстващите в залата народни представители стават)</desc></incident>
+                     <incident type="action">
+                        <desc>(присъстващите в залата народни представители стават)</desc>
+                     </incident>
                      <w lemma="да" msd="UPosTag=AUX|XPosTag=Tx" xml:id="ParlaMint-BG_2020-07-31.seg922.2.48">да</w>
                      <w lemma="спазвам" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act|XPosTag=Vpitf-r1s" xml:id="ParlaMint-BG_2020-07-31.seg922.2.49">спазвам</w>
                      <name type="MISC">
@@ -1370,7 +1374,9 @@
                      </linkGrp>
                   </s>
                </seg>
-               <kinesic type="applause"><desc>Ръкопляскания.</desc></kinesic>
+               <kinesic type="applause">
+                  <desc>Ръкопляскания.</desc>
+               </kinesic>
             </u>
             <u ana="#chair" n="147432" who="#SimeonovValeri" xml:id="ParlaMint-BG_2020-07-31.u224">
                <seg xml:id="ParlaMint-BG_2020-07-31.seg925">
@@ -1461,7 +1467,9 @@
                      </linkGrp>
                   </s>
                </seg>
-               <vocal type="noise"><desc>Оживление.</desc></vocal>
+               <vocal type="noise">
+                  <desc>Оживление.</desc>
+               </vocal>
                <seg xml:id="ParlaMint-BG_2020-07-31.seg928">
                   <s xml:id="ParlaMint-BG_2020-07-31.seg928.1">
                      <w lemma="поради" msd="UPosTag=ADP|XPosTag=R" xml:id="ParlaMint-BG_2020-07-31.seg928.1.1">Поради</w>
@@ -1566,7 +1574,9 @@
                      </linkGrp>
                   </s>
                </seg>
-               <kinesic type="ringing"><desc>Звъни.</desc></kinesic>
+               <kinesic type="ringing">
+                  <desc>Звъни.</desc>
+               </kinesic>
             </u>
          </div>
       </body>

@@ -25,7 +25,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>1.0</edition>
+            <edition>2.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="129" xml:lang="sl">129 govorov</measure>
@@ -47,10 +47,10 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="sl">To delo je ponujeno pod <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Priznanje avtorstva 4.0 mednarodna licenca</ref>.</p>
             </availability>
-            <date when="2020-12-10">2020-12-10</date>
+            <date when="2021-01-28">2021-01-28</date>
          </publicationStmt>
          <sourceDesc>
-            <bibl><title>Multilingual comparable corpora of parliamentary debates ParlaMint 1.0</title><idno type="handle">http://hdl.handle.net/11356/1345</idno></bibl>
+            <bibl><title>Multilingual comparable corpora of parliamentary debates ParlaMint 1.0</title><idno type="handle">http://hdl.handle.net/11356/1388</idno></bibl>
             <bibl>
                <title type="main" xml:lang="en">Minutes of the National Assembly of the Republic of Slovenia</title>
                <title type="main" xml:lang="sl">Zapisi sej Državnega zbora Republike Slovenije</title>
@@ -63,11 +63,9 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="sl">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            <p xml:lang="sl"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
-            <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
          </projectDesc>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
@@ -102,14 +100,16 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2020-12-10"><name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2021-01-28"><name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2021-01-28">
+            <name>Tomaž Erjavec</name>: Small fixes for Version 2.</change>
          <change when="2020-10-09">
             <name>Nikola Ljubešić</name>: Linguistic annotation.</change>
          <change when="2020-10-06">
             <name>Tomaž Erjavec</name>: Small fixes for ParlaMint.</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text ana="#covid">
       <body>
          <div type="debateSection">
             <head>REPUBLIKA SLOVENIJA DRŽAVNI ZBOR</head>
@@ -2065,7 +2065,9 @@
                      </linkGrp>
                   </s>
                </seg>
-               <kinesic type="signal"><desc>znak za konec razprave</desc></kinesic>
+               <kinesic type="signal">
+                  <desc>znak za konec razprave</desc>
+               </kinesic>
                <seg xml:id="ParlaMint-SI_2020-07-16_SDZ8-Izredna-43.seg17">
                   <s xml:id="ParlaMint-SI_2020-07-16_SDZ8-Izredna-43.seg17.1">
                      <w ana="mte:Cc" lemma="in" msd="UPosTag=CCONJ" xml:id="ParlaMint-SI_2020-07-16_SDZ8-Izredna-43.seg17.1.1">in</w>
@@ -2206,7 +2208,9 @@
                      </linkGrp>
                   </s>
                </seg>
-               <kinesic type="signal"><desc>znak za konec razprave</desc></kinesic>
+               <kinesic type="signal">
+                  <desc>znak za konec razprave</desc>
+               </kinesic>
                <seg xml:id="ParlaMint-SI_2020-07-16_SDZ8-Izredna-43.seg18">
                   <s xml:id="ParlaMint-SI_2020-07-16_SDZ8-Izredna-43.seg18.1">
                      <w ana="mte:Rgp" lemma="izjemno" msd="UPosTag=ADV|Degree=Pos" xml:id="ParlaMint-SI_2020-07-16_SDZ8-Izredna-43.seg18.1.1">izjemno</w>
@@ -2837,7 +2841,9 @@
                      </linkGrp>
                   </s>
                </seg>
-               <kinesic type="signal"><desc>znak za konec razprave</desc></kinesic>
+               <kinesic type="signal">
+                  <desc>znak za konec razprave</desc>
+               </kinesic>
                <seg xml:id="ParlaMint-SI_2020-07-16_SDZ8-Izredna-43.seg354">
                   <s xml:id="ParlaMint-SI_2020-07-16_SDZ8-Izredna-43.seg354.1">
                      <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="ParlaMint-SI_2020-07-16_SDZ8-Izredna-43.seg354.1.1">,</pc>
@@ -3026,7 +3032,9 @@
                      </linkGrp>
                   </s>
                </seg>
-               <kinesic type="signal"><desc>znak za konec razprave</desc></kinesic>
+               <kinesic type="signal">
+                  <desc>znak za konec razprave</desc>
+               </kinesic>
                <seg xml:id="ParlaMint-SI_2020-07-16_SDZ8-Izredna-43.seg356">
                   <s xml:id="ParlaMint-SI_2020-07-16_SDZ8-Izredna-43.seg356.1">
                      <w ana="mte:Cc" lemma="in" msd="UPosTag=CCONJ" xml:id="ParlaMint-SI_2020-07-16_SDZ8-Izredna-43.seg356.1.1">In</w>
