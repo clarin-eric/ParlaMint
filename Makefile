@@ -5,7 +5,7 @@ vra = $j Schema/ParlaMint-teiCorpus.ana.rng	# Corpus root / analysed
 vca = $j Schema/ParlaMint-TEI.ana.rng		# Corpus component / analysed
 
 # Check links
-LANG = SI
+LANG = CZ
 PREF = /project/corpora/Parla/ParlaMint/ParlaMint
 val-links:
 	ls ParlaMint-${LANG}/ParlaMint-*.xml | grep '_' | grep -v '.ana' | xargs -I % \

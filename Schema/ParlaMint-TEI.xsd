@@ -426,96 +426,87 @@
   <xs:element name="comment" abstract="true"/>
   <xs:element name="gap" substitutionGroup="ns1:comment">
     <xs:complexType>
-      <xs:complexContent>
-        <xs:extension base="ns1:desc">
-          <xs:attribute name="reason" use="required">
-            <xs:simpleType>
-              <xs:restriction base="xs:token">
-                <xs:enumeration value="editorial"/>
-                <xs:enumeration value="inaudible"/>
-              </xs:restriction>
-            </xs:simpleType>
-          </xs:attribute>
-        </xs:extension>
-      </xs:complexContent>
+      <xs:sequence>
+        <xs:element ref="ns1:desc"/>
+      </xs:sequence>
+      <xs:attribute name="reason" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="editorial"/>
+            <xs:enumeration value="inaudible"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
     </xs:complexType>
   </xs:element>
   <xs:element name="kinesic" substitutionGroup="ns1:comment">
     <xs:complexType>
-      <xs:complexContent>
-        <xs:extension base="ns1:desc">
-          <xs:attribute name="type">
-            <xs:simpleType>
-              <xs:restriction base="xs:token">
-                <xs:enumeration value="applause"/>
-                <xs:enumeration value="ringing"/>
-                <xs:enumeration value="signal"/>
-                <xs:enumeration value="kinesic"/>
-                <xs:enumeration value="playback"/>
-                <xs:enumeration value="gesture"/>
-                <xs:enumeration value="laughter"/>
-                <xs:enumeration value="snapping"/>
-                <xs:enumeration value="noise"/>
-              </xs:restriction>
-            </xs:simpleType>
-          </xs:attribute>
-          <xs:attribute name="who" type="xs:anyURI"/>
-        </xs:extension>
-      </xs:complexContent>
+      <xs:sequence>
+        <xs:element ref="ns1:desc"/>
+      </xs:sequence>
+      <xs:attribute name="type">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="applause"/>
+            <xs:enumeration value="ringing"/>
+            <xs:enumeration value="signal"/>
+            <xs:enumeration value="kinesic"/>
+            <xs:enumeration value="playback"/>
+            <xs:enumeration value="gesture"/>
+            <xs:enumeration value="laughter"/>
+            <xs:enumeration value="snapping"/>
+            <xs:enumeration value="noise"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="who" type="xs:anyURI"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="incident" substitutionGroup="ns1:comment">
     <xs:complexType>
-      <xs:complexContent>
-        <xs:extension base="ns1:desc">
-          <xs:attribute name="type">
-            <xs:simpleType>
-              <xs:restriction base="xs:token">
-                <xs:enumeration value="action"/>
-                <xs:enumeration value="incident"/>
-                <xs:enumeration value="leaving"/>
-                <xs:enumeration value="entering"/>
-                <xs:enumeration value="break"/>
-                <xs:enumeration value="sound"/>
-                <xs:enumeration value="editorial"/>
-              </xs:restriction>
-            </xs:simpleType>
-          </xs:attribute>
-          <xs:attribute name="who" type="xs:anyURI"/>
-        </xs:extension>
-      </xs:complexContent>
+      <xs:sequence>
+        <xs:element ref="ns1:desc"/>
+      </xs:sequence>
+      <xs:attribute name="type">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="action"/>
+            <xs:enumeration value="incident"/>
+            <xs:enumeration value="leaving"/>
+            <xs:enumeration value="entering"/>
+            <xs:enumeration value="break"/>
+            <xs:enumeration value="sound"/>
+            <xs:enumeration value="editorial"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="who" type="xs:anyURI"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="vocal" substitutionGroup="ns1:comment">
     <xs:complexType>
-      <xs:complexContent>
-        <xs:extension base="ns1:desc">
-          <xs:attribute name="type" use="required">
-            <xs:simpleType>
-              <xs:restriction base="xs:token">
-                <xs:enumeration value="speaking"/>
-                <xs:enumeration value="interruption"/>
-                <xs:enumeration value="noise"/>
-                <xs:enumeration value="laughter"/>
-                <xs:enumeration value="exclamat"/>
-                <xs:enumeration value="shouting"/>
-                <xs:enumeration value="greeting"/>
-                <xs:enumeration value="question"/>
-                <xs:enumeration value="signal"/>
-                <xs:enumeration value="clarification"/>
-              </xs:restriction>
-            </xs:simpleType>
-          </xs:attribute>
-          <xs:attribute name="who" type="xs:anyURI"/>
-        </xs:extension>
-      </xs:complexContent>
+      <xs:sequence>
+        <xs:element ref="ns1:desc"/>
+      </xs:sequence>
+      <xs:attribute name="type" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="speaking"/>
+            <xs:enumeration value="interruption"/>
+            <xs:enumeration value="noise"/>
+            <xs:enumeration value="laughter"/>
+            <xs:enumeration value="exclamat"/>
+            <xs:enumeration value="shouting"/>
+            <xs:enumeration value="greeting"/>
+            <xs:enumeration value="question"/>
+            <xs:enumeration value="signal"/>
+            <xs:enumeration value="clarification"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="who" type="xs:anyURI"/>
     </xs:complexType>
   </xs:element>
-  <xs:complexType name="desc">
-    <xs:sequence>
-      <xs:element ref="ns1:desc"/>
-    </xs:sequence>
-  </xs:complexType>
   <xs:element name="desc">
     <xs:complexType mixed="true">
       <xs:attributeGroup ref="ns1:lang.att"/>

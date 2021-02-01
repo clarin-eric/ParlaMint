@@ -40,6 +40,13 @@
     </xsl:choose>
   </xsl:variable>
 
+  <xsl:template match="/">
+    <xsl:message>
+    <xsl:text>INFO: Checking in </xsl:text>
+    <xsl:value-of select="replace(base-uri(), '.+/', '')"/>
+    </xsl:message>
+    <xsl:apply-templates/>
+  </xsl:template>
   <xsl:template match="text()"/>
   <xsl:template match="tei:*">
     <xsl:apply-templates select="@*"/>
