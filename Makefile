@@ -1,3 +1,6 @@
+vert-cz:
+	Scripts/parlamint-tei2vert.pl ParlaMint-CZ/ParlaMint-CZ.xml 'ParlaMint-CZ/*_*.xml' Scripts/tmp
+
 j = java -jar /usr/share/java/jing.jar 
 vrt = $j Schema/ParlaMint-teiCorpus.rng 	# Corpus root / text
 vct = $j Schema/ParlaMint-TEI.rng		# Corpus component / text
