@@ -1,16 +1,16 @@
 ## Testing "validating" tei2vert script
-vert-cz:
-	Scripts/parlamint-tei2vert.pl ParlaMint-CZ/ParlaMint-CZ.xml 'ParlaMint-CZ/*_*.xml' Scripts/tmp
-
 j = java -jar /usr/share/java/jing.jar 
 vrt = $j Schema/ParlaMint-teiCorpus.rng 	# Corpus root / text
 vct = $j Schema/ParlaMint-TEI.rng		# Corpus component / text
 vra = $j Schema/ParlaMint-teiCorpus.ana.rng	# Corpus root / analysed
 vca = $j Schema/ParlaMint-TEI.ana.rng		# Corpus component / analysed
 
-# Check links
-LANG = CZ
+# Check links, vert
+LANG = DK
 PREF = /project/corpora/Parla/ParlaMint/ParlaMint
+val-vert:
+	Scripts/parlamint-tei2vert.pl ParlaMint-${LANG}/ParlaMint-${LANG}.xml \
+	'ParlaMint-${LANG}/*_*.xml' Scripts/tmp
 val-links:
 	ls ParlaMint-${LANG}/ParlaMint-*.xml | grep '_' | grep -v '.ana' | xargs -I % \
 	$s meta=${PREF}/ParlaMint-${LANG}/ParlaMint-${LANG}.xml -xsl:Scripts/check-links.xsl %
