@@ -173,9 +173,10 @@ title =
 meeting = element meeting { global.atts, ana.att, corresp.att, text }
 publisher =
   element publisher {
-    (element orgName { lang.att, text }+,
-     ref?)
-    | text
+    lang.att,
+    ((element orgName { lang.att, text }+,
+      ref?)
+     | text)
   }
 funder =
   element funder {
