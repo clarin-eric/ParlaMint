@@ -1,10 +1,6 @@
 <?xml version="1.0"?>
 <!-- ToDo:
 - change "sitting" attribute to "meeting", why is it sitting anyway?
--             <forename>Sigmundur</forename>
-              <forename>Davíð</forename>
-              <surname>Gunnlaugsson</surname>
-but speaker_name="Gunnlaugsson, Sigmundur"
 -->
 <!-- Transform one ParlaMint file to CQP vertical format.
      Note that the output is still in XML, and needs another polish. -->
@@ -97,17 +93,27 @@ but speaker_name="Gunnlaugsson, Sigmundur"
       </xsl:attribute>
       <xsl:attribute name="term">
 	<xsl:call-template name="meeting">
-	  <xsl:with-param name="type">term</xsl:with-param>
+	  <xsl:with-param name="ref">parla.term</xsl:with-param>
 	</xsl:call-template>
       </xsl:attribute>
       <xsl:attribute name="session">
 	<xsl:call-template name="meeting">
-	  <xsl:with-param name="type">session</xsl:with-param>
+	  <xsl:with-param name="ref">parla.session</xsl:with-param>
+	</xsl:call-template>
+      </xsl:attribute>
+      <xsl:attribute name="meeting">
+	<xsl:call-template name="meeting">
+	  <xsl:with-param name="ref">parla.meeting</xsl:with-param>
 	</xsl:call-template>
       </xsl:attribute>
       <xsl:attribute name="sitting">
 	<xsl:call-template name="meeting">
-	  <xsl:with-param name="type">meeting</xsl:with-param>
+	  <xsl:with-param name="ref">parla.sitting</xsl:with-param>
+	</xsl:call-template>
+      </xsl:attribute>
+      <xsl:attribute name="agenda">
+	<xsl:call-template name="meeting">
+	  <xsl:with-param name="ref">parla.agenda</xsl:with-param>
 	</xsl:call-template>
       </xsl:attribute>
       <xsl:attribute name="from" select="$date-from"/>
@@ -238,7 +244,7 @@ but speaker_name="Gunnlaugsson, Sigmundur"
 
   <!-- NAMED TEMPLATES -->
 
-  <!-- Get @n from appropriate meeting, e.g.
+  <!-- Get @n from appropriate meeting type, e.g.
        <meeting n="7" corresp="#DZ" ana="#parla.term #DZ.7">7. mandat</meeting>
        <meeting n="1" corresp="#DZ" ana="#parla.meeting.regular">Redna</meeting>
        or
@@ -246,12 +252,17 @@ but speaker_name="Gunnlaugsson, Sigmundur"
        <meeting n="8-lower" ana="#parla.lower #parla.term">8. kadencja Sejmu</meeting>
        <meeting n="1-lower" ana="#parla.lower #parla.session">1. sesja Sejmu</meeting>
        <meeting n="1-lower" ana="#parla.lower #parla.sitting">1. dzień sesji Sejmu</meeting>
+       or
+       <meeting ana="#parla.term #parla.lower #parliament.PSP8" n="ps2017">ps2017</meeting>
+       <meeting ana="#parla.meeting #parla.lower" n="ps2017/070">ps2017/070</meeting>
+       <meeting ana="#parla.sitting #parla.lower" n="ps2017/070/01">ps2017/070/01</meeting>
+       <meeting ana="#parla.agenda #parla.lower" n="ps2017/070/001">ps2017/070/001</meeting>
+       
   -->
   <xsl:template name="meeting">
-    <xsl:param name="prefix">#parla.</xsl:param>
-    <xsl:param name="type"/>
+    <xsl:param name="ref"/>
     <xsl:variable name="result">
-      <xsl:variable name="idref" select="concat($prefix, $type)"/>
+      <xsl:variable name="idref" select="concat('#', $ref)"/>
       <xsl:for-each select="//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:meeting">
 	<xsl:variable name="n" select="@n"/>
 	<xsl:for-each select="tokenize(@ana, ' ')">
@@ -315,13 +326,17 @@ but speaker_name="Gunnlaugsson, Sigmundur"
     <xsl:variable name="surnames">
       <xsl:for-each select="$persName/tei:surname">
 	<xsl:value-of select="."/>
-	<xsl:if test="following-sibling::tei:surname"> </xsl:if>
+	<xsl:if test="following-sibling::tei:surname">
+	  <xsl:text>&#32;</xsl:text>
+	</xsl:if>
       </xsl:for-each>
     </xsl:variable>
     <xsl:variable name="forenames">
-      <xsl:for-each select="$persName/tei:vorename">
+      <xsl:for-each select="$persName/tei:forename">
 	<xsl:value-of select="."/>
-	<xsl:if test="following-sibling::tei:vorename"> </xsl:if>
+	<xsl:if test="following-sibling::tei:forename">
+	  <xsl:text>&#32;</xsl:text>
+	</xsl:if>
       </xsl:for-each>
     </xsl:variable>
     <xsl:choose>
