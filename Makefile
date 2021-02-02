@@ -1,3 +1,4 @@
+## Testing "validating" tei2vert script
 vert-cz:
 	Scripts/parlamint-tei2vert.pl ParlaMint-CZ/ParlaMint-CZ.xml 'ParlaMint-CZ/*_*.xml' Scripts/tmp
 
