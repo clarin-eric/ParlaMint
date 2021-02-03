@@ -1,7 +1,4 @@
 <?xml version="1.0"?>
-<!-- ToDo:
-- change "sitting" attribute to "meeting", why is it sitting anyway?
--->
 <!-- Transform one ParlaMint file to CQP vertical format.
      Note that the output is still in XML, and needs another polish. -->
 <!-- Needs the file with corpus teiHeader as a parameter -->
@@ -277,7 +274,7 @@
 	<xsl:value-of select="$result"/>
       </xsl:when>
       <xsl:otherwise>
-	<xsl:text>?</xsl:text>
+	<xsl:text>-</xsl:text>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
