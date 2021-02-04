@@ -1,1 +1,1 @@
-# ParlaMint directory for samples of country DK
+# ParlaMint directory for samples of country DK (Denmark)
