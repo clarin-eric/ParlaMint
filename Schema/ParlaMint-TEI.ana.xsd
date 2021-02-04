@@ -50,7 +50,7 @@
   </xs:group>
   <xs:element name="w">
     <xs:annotation>
-      <xs:documentation>cf. https://clarin-eric.github.io/parla-clarin/#sec-ananorm </xs:documentation>
+      <xs:documentation>cf. https://clarin-eric.github.io/parla-clarin/#sec-ananorm</xs:documentation>
     </xs:annotation>
     <xs:complexType mixed="true">
       <xs:choice minOccurs="0">
@@ -64,11 +64,8 @@
         </xs:element>
         <xs:element maxOccurs="unbounded" name="w" type="xs:string"/>
       </xs:choice>
-      <xs:attribute name="lemma" type="xs:string"/>
       <xs:attribute ref="xml:id"/>
-      <xs:attribute name="msd" type="xs:string"/>
-      <xs:attribute name="ana" type="ns1:anyURIs"/>
-      <xs:attribute name="norm" type="xs:string"/>
+      <xs:attributeGroup ref="ns1:lang.att"/>
       <xs:attribute name="join">
         <xs:simpleType>
           <xs:restriction base="xs:token">
@@ -76,6 +73,10 @@
           </xs:restriction>
         </xs:simpleType>
       </xs:attribute>
+      <xs:attribute name="msd" type="xs:string"/>
+      <xs:attribute name="ana" type="ns1:anyURIs"/>
+      <xs:attribute name="norm" type="xs:string"/>
+      <xs:attribute name="lemma" type="xs:string"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="pc">
@@ -112,9 +113,7 @@
   </xs:element>
   <xs:attributeGroup name="token.atts">
     <xs:attributeGroup ref="ns1:id.att"/>
-    <xs:attribute name="msd" use="required" type="xs:string"/>
-    <xs:attribute name="ana" type="ns1:anyURIs"/>
-    <xs:attribute name="norm" type="xs:string"/>
+    <xs:attributeGroup ref="ns1:lang.att"/>
     <xs:attribute name="join">
       <xs:simpleType>
         <xs:restriction base="xs:token">
@@ -122,9 +121,26 @@
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
+    <xs:attribute name="msd" use="required" type="xs:string"/>
+    <xs:attribute name="ana" type="ns1:anyURIs"/>
+    <xs:attribute name="norm" type="xs:string"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="word-optional.atts">
+    <xs:attribute ref="xml:id"/>
+    <xs:attributeGroup ref="ns1:lang.att"/>
+    <xs:attribute name="join">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="right"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="msd" type="xs:string"/>
+    <xs:attribute name="ana" type="ns1:anyURIs"/>
+    <xs:attribute name="lemma" type="xs:string"/>
   </xs:attributeGroup>
   <xs:attributeGroup name="word.atts">
-    <xs:attribute name="lemma" use="required" type="xs:string"/>
     <xs:attributeGroup ref="ns1:token.atts"/>
+    <xs:attribute name="lemma" use="required" type="xs:string"/>
   </xs:attributeGroup>
 </xs:schema>
