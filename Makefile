@@ -6,7 +6,7 @@ vra = $j Schema/ParlaMint-teiCorpus.ana.rng	# Corpus root / analysed
 vca = $j Schema/ParlaMint-TEI.ana.rng		# Corpus component / analysed
 
 # Check links, vert
-LANG = DK
+LANG = BE
 PREF = /project/corpora/Parla/ParlaMint/ParlaMint
 val-vert:
 	Scripts/parlamint-tei2vert.pl ParlaMint-${LANG}/ParlaMint-${LANG}.xml \
