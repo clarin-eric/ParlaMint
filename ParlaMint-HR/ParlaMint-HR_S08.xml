@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="hr" xml:id="ParlaMint-HR_S08" ana="#parla.session #reference">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="hr">Hrvatski parlamentarni korpus ParlaMint-HR, sjednica 8 [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Croatian parliamentary corpus ParlaMint-HR, Session 8 [ParlaMint SAMPLE]</title>
+            <title type="sub" xml:lang="hr">Zapisnici sjednica Hvratskog sabora, mandat IX, sjednica 8 (2018-05-10 - 2018-09-27)</title>
+            <title type="sub" xml:lang="en">Minutes of the National Assembly of the Republic of Croatia, Term 9, Session 8 (2018-05-10 - 2018-09-27)</title>
+            <meeting n="9" corresp="#HS" ana="#parla.term #HS.9">9. mandat</meeting>
+            <meeting n="8" ana="#parla.session">8. sjednica</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="hr">Preuzimanje i čiščenje digitalnog izvora</resp>
+               <resp xml:lang="en">Download and clean-up of the JSON digital source</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-1560-4099">Tomaž Erjavec</persName>
+               <resp xml:lang="hr">Kodiranje Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="hr">Istraživačka infrastrukutra CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="13026" xml:lang="hr">13.026 govora</measure>
+            <measure unit="speeches" quantity="13026" xml:lang="en">13,026 speeches</measure>
+            <measure unit="words" quantity="2185862" xml:lang="hr">2.185.862 riječi</measure>
+            <measure unit="words" quantity="2185862" xml:lang="en">2,185,862 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="hr">Istraživačka infrastrukutra CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URL">https://github.com/clarin-eric/ParlaMint</idno>
+            <pubPlace><ref target="https://github.com/clarin-eric/ParlaMint">https://github.com/clarin-eric/ParlaMint</ref></pubPlace>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="hr">Ovaj rad je dostupan pod <ref target="http://creativecommons.org/licenses/by/4.0/">međunarodnom licencom Creative Commons Imenovanje 4.0</ref>
+               </p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+            </availability>
+            <date when="2021-02-04">2021-02-04</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl><title>Multilingual comparable corpora of parliamentary debates ParlaMint 1.0</title><idno type="handle">http://hdl.handle.net/11356/1388</idno></bibl>
+            <bibl>
+               <title type="main">Minutes of the National Assembly of the Republic of Croatia</title>
+               <idno type="URI">https://parlametar.hr/</idno>
+               <idno type="URI">http://www.sabor.hr/</idno>
+               <date from="2018-05-10" to="2018-09-27">2018-05-10 - 2018-09-27</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="hr"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="u" occurs="13026"/>
+               <tagUsage gi="seg" occurs="59191"/>
+               <tagUsage gi="vocal" occurs="788"/>
+               <tagUsage gi="desc" occurs="2345"/>
+               <tagUsage gi="kinesic" occurs="67"/>
+               <tagUsage gi="gap" occurs="1490"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Trg sv. Marka 6</name>
+               <name type="city">Zagreb</name>
+               <name type="country" key="HR">Croatia</name>
+               <date from="2018-05-10" to="2018-09-27" ana="#parla.session">2018-05-10 - 2018-09-27</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2021-02-04"><name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2021-02-04">
+            <name>Tomaž Erjavec</name>: Small fixes for Version 2.</change>
+         <change when="2020-10-04">
+            <name>Tomaž Erjavec</name>: Small fixes for ParlaMint.</change>
+         <change when="2020-10-04">
+            <name>Tomaž Erjavec</name>: Generated corpus in Parla-CLARIN.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="hr" ana="#reference">
+      <body>
+         <div type="debateSection">
+            <head>8. sjednica</head>
+            <u who="#JandrokovićGordan" ana="#chair" xml:id="ParlaMint-HR_S08.u1" n="381108">
+               <seg xml:id="seg286140">Sada, poštovane gospođe i gospodo zastupnici, počinjemo s postavljanjem pitanja Vladi, odnosno pojedinom članu Vlade, u skladu s odredbama Poslovnika čl. 132. do 139. Aktualno prijepodne održava se na početku svake sjednice prije prijelaza na 1. točku dnevnog reda.</seg>
+               <seg xml:id="seg286141">Prvi na redu za postavljanje pitanja je zastupnik Veljko Kajtazi i on postavlja pitanje predsjedniku Vlade Andreju Plenkoviću.</seg>
+               <seg xml:id="seg286142">Izvolite.</seg>
+            </u>
+            <u who="#KajtaziVeljko" ana="#regular" xml:id="ParlaMint-HR_S08.u2" n="381109">
+               <seg xml:id="seg286144">Zahvaljujem se.</seg>
+               <seg xml:id="seg286145">Poštovani predsjedniče Vlade, gospodine Plenkoviću, vaša je Vlada u kolovozu prošle godine donijela operativni program za nacionalne manjine, a među njima je i posebni operativni program za romsku nacionalnu manjinu. Na dokumentu se radilo gotovo godinu dana i on je temeljni dokument na kojem se temelji moja podrška vašoj Vladi. Operativni programi jasno su definirali aktivnosti, rokove u kojima se te aktivnosti moraju provesti, a za to su određena i nadležna tijela, ministarstva i agencije. Prethodno su sa svim nositeljima aktivnosti određene konstatacije, a Vlada je jednoglasno usvojila i operativne programe.</seg>
+               <seg xml:id="seg286146">Poštovani gospodine Plenkoviću, u operativnom programu za romsku nacionalnu manjinu gotovo su svi rokovi probijeni. Određeni nositelj aktivnosti, kao Ministarstvo kulture se protive provedbi aktivnosti za koje su zaduženi, a isto tako nisu predviđena sredstva za provedbu većine aktivnosti, a za provedbu nekih aktivnosti još uvijek nemamo pravni okvir.</seg>
+               <seg xml:id="seg286147">Imajući u vidu da je za ožujak predviđen prvi izvještaj o provedbi operativnog programa, a da situacija kako navodim, što planirate učiniti da se konačno krene sa punom provedbom dogovorenog u operativnim programima, da ministarstva preuzmu provedbu dogovorenih aktivnosti, te da im se zato osigura zakonski i financijski okvir?</seg>
+            </u>
+            <gap reason="editorial"><desc xml:lang="en">SAMPLING</desc></gap>
+            <u who="#MarasGordan" ana="#regular" xml:id="ParlaMint-HR_S08.u13025" n="389873">
+               <seg xml:id="seg358298">Hvala lijepo gospodine predsjedniče.</seg>
+               <seg xml:id="seg358299">Smatram da ste povrijedili Poslovnik jer poslovnički se stekao uvjet da se odobri stanka s obzirom da je gospodin Beljak tražio stanku vezano uz moguće pravne posljedice Agrokora a kao što smo glasali o pravnim posljedicama osude u kaznenoj evidenciji i rehabilitaciji, moguće da je imao pravo prije toga tražiti stanku, zato molim da mu odobrite stanku.</seg>
+            </u>
+            <u who="#JandrokovićGordan" ana="#regular" xml:id="ParlaMint-HR_S08.u13026" n="389874">
+               <seg xml:id="seg358301">Dobro, neću mu odobriti stanku a vama neću dati opomenu jer smatram da ste vi pokušali objasniti u dobroj vjeri da je postojalo, ali eto, niste me uspjeli uvjeriti.</seg>
+               <seg xml:id="seg358302">Idemo mi dalje.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
