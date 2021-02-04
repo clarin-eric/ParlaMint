@@ -29,7 +29,17 @@ $ java -jar /usr/share/java/jing.jar ParlaMint-teiCorpus.ana.rng ParlaMint-XX.an
 $ java -jar /usr/share/java/jing.jar ParlaMint-TEI.ana.rng       ParlaMint-XX.ana/ParlaMint-XX_*ana.xml
 ```
 
-Note that more info about the technical aspects of the validation is available in the
+Note that - probably depending on the version of Java used - some implementations will
+automatically do XInclude processin on the root files ParlaMint-XX/ParlaMint-XX.xml and
+ParlaMint-XX.ana/ParlaMint-XX.ana.xml, thus defeating the purupose of per-file valiadation
+(the files also won't validate because the ParlaMint-teiCorpus schemas don't include elements
+from the component files). To explicitly disable XInclude validation, use:
+
+```
+java -Dorg.apache.xerces.xni.parser.XMLParserConfiguration=org.apache.xerces.parsers.StandardParserConfiguration -jar /usr/share/java/jing.jar ...
+```
+
+Note also that more info about the technical aspects of the validation is available in the
 [Parla-CLARIN Wiki](https://github.com/clarin-eric/parla-clarin/wiki/Validating-your-data).
 
 The schemas have also been converted with `trang` into other XML schema languages, i.e.
