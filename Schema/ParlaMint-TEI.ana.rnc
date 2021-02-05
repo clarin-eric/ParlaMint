@@ -27,19 +27,21 @@ name =
   }
 word =
   
-  ## cf. https://clarin-eric.github.io/parla-clarin/#sec-ananorm 
+  ## cf. https://clarin-eric.github.io/parla-clarin/#sec-ananorm
   element w {
     
     ## Simple word
     ((word.atts, text)
      >> a:documentation [ "Word with several normalised words" ]
-     | (text,
-        element w { word.atts }+)
+     | (word-optional.atts,
+        text,
+        element w { word.atts, empty }+)
        >> a:documentation [
             "Normalised word with several surface words"
           ]
      | (word.atts,
-        element w { text }+))
+        element w { text }+,
+        empty))
   }
 punct = element pc { token.atts, text }
 syntax =
@@ -54,10 +56,18 @@ syntax =
   }
 token.atts =
   id.att,
+  lang.att,
+  attribute join { "right" }?,
   attribute msd { xsd:string },
   attribute ana { anyURIs }?,
-  attribute norm { xsd:string }?,
-  attribute join { "right" }?
+  attribute norm { xsd:string }?
+word-optional.atts =
+  id.att?,
+  lang.att,
+  attribute join { "right" }?,
+  attribute msd { xsd:string }?,
+  attribute ana { anyURIs }?,
+  attribute lemma { xsd:string }?
 word.atts =
-  attribute lemma { xsd:string },
-  token.atts
+  token.atts,
+  attribute lemma { xsd:string }

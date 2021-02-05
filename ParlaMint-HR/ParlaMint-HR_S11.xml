@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="hr" xml:id="ParlaMint-HR_S11" ana="#parla.session #reference">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="hr">Hrvatski parlamentarni korpus ParlaMint-HR, sjednica 11 [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Croatian parliamentary corpus ParlaMint-HR, Session 11 [ParlaMint SAMPLE]</title>
+            <title type="sub" xml:lang="hr">Zapisnici sjednica Hvratskog sabora, mandat IX, sjednica 11 (2019-01-25 - 2019-05-08)</title>
+            <title type="sub" xml:lang="en">Minutes of the National Assembly of the Republic of Croatia, Term 9, Session 11 (2019-01-25 - 2019-05-08)</title>
+            <meeting n="9" corresp="#HS" ana="#parla.term #HS.9">9. mandat</meeting>
+            <meeting n="11" ana="#parla.session">11. sjednica</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="hr">Preuzimanje i čiščenje digitalnog izvora</resp>
+               <resp xml:lang="en">Download and clean-up of the JSON digital source</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-1560-4099">Tomaž Erjavec</persName>
+               <resp xml:lang="hr">Kodiranje Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="hr">Istraživačka infrastrukutra CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="11176" xml:lang="hr">11.176 govora</measure>
+            <measure unit="speeches" quantity="11176" xml:lang="en">11,176 speeches</measure>
+            <measure unit="words" quantity="1923534" xml:lang="hr">1.923.534 riječi</measure>
+            <measure unit="words" quantity="1923534" xml:lang="en">1,923,534 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="hr">Istraživačka infrastrukutra CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URL">https://github.com/clarin-eric/ParlaMint</idno>
+            <pubPlace><ref target="https://github.com/clarin-eric/ParlaMint">https://github.com/clarin-eric/ParlaMint</ref></pubPlace>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="hr">Ovaj rad je dostupan pod <ref target="http://creativecommons.org/licenses/by/4.0/">međunarodnom licencom Creative Commons Imenovanje 4.0</ref>
+               </p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+            </availability>
+            <date when="2021-02-04">2021-02-04</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl><title>Multilingual comparable corpora of parliamentary debates ParlaMint 1.0</title><idno type="handle">http://hdl.handle.net/11356/1388</idno></bibl>
+            <bibl>
+               <title type="main">Minutes of the National Assembly of the Republic of Croatia</title>
+               <idno type="URI">https://parlametar.hr/</idno>
+               <idno type="URI">http://www.sabor.hr/</idno>
+               <date from="2019-01-25" to="2019-05-08">2019-01-25 - 2019-05-08</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="hr"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="1"/>
+               <tagUsage gi="u" occurs="11176"/>
+               <tagUsage gi="seg" occurs="45312"/>
+               <tagUsage gi="vocal" occurs="1599"/>
+               <tagUsage gi="desc" occurs="3123"/>
+               <tagUsage gi="kinesic" occurs="98"/>
+               <tagUsage gi="gap" occurs="1426"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Trg sv. Marka 6</name>
+               <name type="city">Zagreb</name>
+               <name type="country" key="HR">Croatia</name>
+               <date from="2019-01-25" to="2019-05-08" ana="#parla.session">2019-01-25 - 2019-05-08</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2021-02-04"><name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2021-02-04">
+            <name>Tomaž Erjavec</name>: Small fixes for Version 2.</change>
+         <change when="2020-10-04">
+            <name>Tomaž Erjavec</name>: Small fixes for ParlaMint.</change>
+         <change when="2020-10-04">
+            <name>Tomaž Erjavec</name>: Generated corpus in Parla-CLARIN.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="hr" ana="#reference">
+      <body>
+         <div type="debateSection">
+            <head>11. sjednica</head>
+            <u who="#JandrokovićGordan" ana="#chair" xml:id="ParlaMint-HR_S11.u1" n="402590">
+               <seg xml:id="seg426732">Gospođe i gospodo zastupnici, počinjemo sada s postavljanjem pitanja Vladi, odnosno pojedinom članu vlade u skladu sa odredbama poslovnika, članci 132.-139. Aktualno prijepodne, održava se na početku svake sjednice prije prijelaza na prvu točku dnevnog reda. Pa idemo sada na pitanja zastupnička, prva je na radu zastupnica Dragana Jeckov koja pitanje postavlja potpredsjedniku vlade i ministru poljoprivrede, Tomislavu Tolušiću, izvolite.</seg>
+            </u>
+            <u who="#JeckovDragana" ana="#regular" xml:id="ParlaMint-HR_S11.u2" n="402591">
+               <seg xml:id="seg426734">Zahvaljujem predsjedniče Sabora, uvaženi gospodine ministre. Na sastanku održanog 21.12. u Ministarstvu poljoprivrede, 20-tak načelnika i gradonačelnika s područja Slavonije i Baranje, odbilo je potpisati anekse ugovora kojim bi se produžio dugogodišnji povoljni zakup poljoprivrednog zemljišta, za tzv. zrcalne tvrtke u sustavu koncern Agrokor.</seg>
+               <seg xml:id="seg426735">Kao razloge za to isticali su neredovito plaćanje koncesija, razlika u visini zakupnine, koja je manja i do 4 puta u odnosu na cijenu zakupa koji plaćaju OPG-ovi i neizvršenje gospodarskog plana.</seg>
+               <seg xml:id="seg426736">Moje pitanje je, kako će se opravdati interes države, imajući u vidu navedene razloge. I što će se dogoditi u slučaju nepotpisivanje aneksa ugovora od strane čelnika jedinice lokalne samouprave.</seg>
+            </u>
+            <gap reason="editorial"><desc xml:lang="en">SAMPLING</desc></gap>
+            <u who="#PrpićKatica" ana="#regular" xml:id="ParlaMint-HR_S11.u11175" n="412950">
+               <seg xml:id="seg483201">Amandman se ne prihvaća, isto kao u dobivenim materijalima.</seg>
+            </u>
+            <u who="#BrkićMilijan" ana="#chair" xml:id="ParlaMint-HR_S11.u11176" n="412951">
+               <seg xml:id="seg483203">Dobro, vidim da predlagateljice nema, glasovat ćemo, hvala lijepo.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

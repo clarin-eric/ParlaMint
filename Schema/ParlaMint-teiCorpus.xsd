@@ -378,6 +378,7 @@
     <xs:complexType mixed="true">
       <xs:attributeGroup ref="ns1:lang.att"/>
       <xs:attribute name="ident" use="required" type="ns1:lang.vals"/>
+      <xs:attribute name="usage" type="xs:nonNegativeInteger"/>
     </xs:complexType>
   </xs:element>
   <xs:complexType name="life-event.content" mixed="true">

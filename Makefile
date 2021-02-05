@@ -6,7 +6,7 @@ vra = $j Schema/ParlaMint-teiCorpus.ana.rng	# Corpus root / analysed
 vca = $j Schema/ParlaMint-TEI.ana.rng		# Corpus component / analysed
 
 # Check links, vert
-LANG = CZ
+LANG = BE
 PREF = /project/corpora/Parla/ParlaMint/ParlaMint
 val-vert:
 	Scripts/parlamint-tei2vert.pl ParlaMint-${LANG}/ParlaMint-${LANG}.xml \
@@ -14,8 +14,8 @@ val-vert:
 val-links:
 	ls ParlaMint-${LANG}/ParlaMint-*.xml | grep '_' | grep -v '.ana' | xargs -I % \
 	$s meta=${PREF}/ParlaMint-${LANG}/ParlaMint-${LANG}.xml -xsl:Scripts/check-links.xsl %
-	ls ParlaMint-${LANG}/ParlaMint-*.ana.xml | grep '_' | xargs -I % \
-	$s meta=${PREF}/ParlaMint-${LANG}/ParlaMint-${LANG}.ana.xml -xsl:Scripts/check-links.xsl %
+	#ls ParlaMint-${LANG}/ParlaMint-*.ana.xml | grep '_' | xargs -I % \
+	#$s meta=${PREF}/ParlaMint-${LANG}/ParlaMint-${LANG}.ana.xml -xsl:Scripts/check-links.xsl %
 
 # Validation for all corpora
 val:
