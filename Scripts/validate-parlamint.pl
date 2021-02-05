@@ -36,7 +36,7 @@ foreach my $inDir (glob "$inDirs") {
 	    &run("$Jing $schemaDir/ParlaMint-TEI.rng", $file);
 	}
 	foreach my $file (@compFiles) {
-	    &run("$Saxon meta=$rootFile -xsl:$Links $file", $file);
+	    &run("$Saxon meta=$rootFile -xsl:$Links", $file);
 	}
     }
     else {
@@ -69,7 +69,5 @@ sub run {
     }
     else {die "Weird command!\n"}
     #print STDERR "INFO: Command\n$command $file\n";
-    my $status = system($command);
-    die "Validation utter fail for\n$command $file!\n"
-	if $status;
+    `$command $file 1>&2`;
 }
