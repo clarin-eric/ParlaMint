@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="da" xml:id="ParlaMint-DK_2020-03-12-20191-M71" ana="#parla.sitting #reference">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">The Danish Parliamentary Corpus ParlaMint-DK, Session 20191, Sitting M71 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Hansard of the session of the Danish Parliament (Folketinget), 20191, M71 (2020-03-12), preliminary version</title>
+            <meeting n="20191" ana="#parla.session">20191</meeting>
+            <meeting n="71" ana="#parla.sitting">M71</meeting>
+            <respStmt>
+               <persName>Bart Jongejan</persName>
+               <persName>Dorte Haltrup Hansen</persName>
+               <persName>Costanza Navarretta</persName>
+               <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">Department of Nordic Studies and Linguistics (NorS), University of Copenhagen</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>1.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="3" xml:lang="en">3 speeches</measure>
+            <measure unit="words" quantity="78" xml:lang="en">78 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URL">http://hdl.handle.net/11356/1388</idno>
+            <pubPlace>
+               <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+            </pubPlace>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>. </p>
+            </availability>
+            <date when="2021-01-31">2021-01-31</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="en">Hansards of the Danish Parliament</title>
+               <publisher>The Danish Parliament</publisher>
+               <idno type="URI">https://www.ft.dk/</idno>
+               <date when="2020-03-12">2020-03-12</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="3"/>
+               <tagUsage gi="head" occurs="3"/>
+               <tagUsage gi="note" occurs="3"/>
+               <tagUsage gi="u" occurs="3"/>
+               <tagUsage gi="seg" occurs="3"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Folketinget, Christiansborg</name>
+               <name type="city">1240 Copenhagen K</name>
+               <name type="country" key="DK">Denmark</name>
+               <date ana="#parla.sitting" when="2020-03-12">2020-03-12</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2021-01-29">
+            <name>Dorte Haltrup Hansen</name>: Generated corpus in ParlaMint.</change>
+      </revisionDesc>
+   </teiHeader>
+    <text xml:lang="da" ana="#covid">
+        <body>
+            <div type="debateSection">
+            <head>Punkt 0</head>
+            <note type="agendaItem">2020-03-12-0</note>
+                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20200312100011" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200312100011.seg1">Mødet er åbnet.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Meddelelser fra formanden</head>
+            <note type="agendaItem">2020-03-12-1</note>
+                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20200312100013" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200312100013.seg2">I dag er der følgende anmeldelse: Sundheds- og ældreministeren (Magnus Heunicke): Lovforslag nr. L 133 (Forslag til lov om ændring af lov om foranstaltninger mod smitsomme og andre overførbare sygdomme. Titlen på den anmeldte sag vil fremgå af www.folketingstidende.dk (jf. ovenfor).</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Punkt 0</head>
+            <note type="agendaItem">2020-03-12-0</note>
+                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20200312100034" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20200312100034.seg3">Der er ikke mere at foretage i dette møde. Folketingets næste møde afholdes i dag kl. 11.00 med førstebehandlingen af det netop fremsatte lovforslag. Jeg henviser til den dagsorden, der fremgår af Folketingets hjemmeside.</seg>
+                </u>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="da" xml:id="ParlaMint-DK_2015-04-29-20141-M84" ana="#parla.sitting #reference">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">The Danish Parliamentary Corpus ParlaMint-DK, Session 20141, Sitting M84 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Hansard of the session of the Danish Parliament (Folketinget), 20141, M84 (2015-04-29), final version</title>
+            <meeting n="20141" ana="#parla.session">20141</meeting>
+            <meeting n="84" ana="#parla.sitting">M84</meeting>
+            <respStmt>
+               <persName>Bart Jongejan</persName>
+               <persName>Dorte Haltrup Hansen</persName>
+               <persName>Costanza Navarretta</persName>
+               <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">Department of Nordic Studies and Linguistics (NorS), University of Copenhagen</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>1.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="232" xml:lang="en">232 speeches</measure>
+            <measure unit="words" quantity="19121" xml:lang="en">19121 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URL">http://hdl.handle.net/11356/1388</idno>
+            <pubPlace>
+               <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+            </pubPlace>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>. </p>
+            </availability>
+            <date when="2021-01-31">2021-01-31</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="en">Hansards of the Danish Parliament</title>
+               <publisher>The Danish Parliament</publisher>
+               <idno type="URI">https://www.ft.dk/</idno>
+               <date when="2015-04-29">2015-04-29</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="15"/>
+               <tagUsage gi="head" occurs="15"/>
+               <tagUsage gi="note" occurs="15"/>
+               <tagUsage gi="u" occurs="232"/>
+               <tagUsage gi="seg" occurs="232"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Folketinget, Christiansborg</name>
+               <name type="city">1240 Copenhagen K</name>
+               <name type="country" key="DK">Denmark</name>
+               <date ana="#parla.sitting" when="2015-04-29">2015-04-29</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2021-01-29">
+            <name>Dorte Haltrup Hansen</name>: Generated corpus in ParlaMint.</change>
+      </revisionDesc>
+   </teiHeader>
+    <text xml:lang="da" ana="#reference">
+        <body>
+            <div type="debateSection">
+            <head>Punkt 0</head>
+            <note type="agendaItem">2015-04-29-0</note>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429130002" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429130002.seg1">Mødet er åbnet. I dag er der følgende anmeldelser: Transportministeren (Magnus Heunicke): Lovforslag nr. L 192 (Forslag til lov om ændring af lov om godskørsel, lov om buskørsel og lov om taxikørsel m.v. Justitsministeren (Mette Frederiksen): Lovforslag nr. L 193 (Forslag til lov om ændring af lov om ændring af straffeloven, retsplejeloven, lov om konkurrence- og forbrugerforhold på telemarkedet, våbenloven, udleveringsloven samt lov om udlevering af lovovertrædere til Finland, Island, Norge og Sverige. Lovforslag nr. L 194 (Forslag til lov om ændring af udlændingeloven. Lovforslag nr. L 195 (Forslag til lov om ændring af lov om udlændingeloven. Beskæftigelsesministeren (Henrik Dam Kristensen): Lovforslag nr. L 196 (Forslag til lov om ansættelsesklausuler), Lovforslag nr. L 197 (Forslag til lov om ændring af lov om Ligebehandlingsnævnet. Lovforslag nr. L 198 (Forslag til lov om ændring af integrationsloven, lov om en aktiv beskæftigelsesindsats og forskellige andre love. Lovforslag nr. L 199 (Forslag til lov om ændring af lov om sygedagpenge, lov om en aktiv beskæftigelsesindsats, lov om organisering og understøttelse af beskæftigelsesindsatsen m.v., lov om aktiv socialpolitik og lov om ferie. Finn Sørensen (EL) m.fl.: Beslutningsforslag nr. B 168 (Forslag til folketingsbeslutning om at ophæve tvangen over for kommuner til at inddrage private leverandører i levering af hjemmehjælp). Med samtykke fra forslagsstillerne foreslår jeg, at beslutningsforslag nr. B 168 henvises direkte til Socialudvalget. Hvis ingen gør indsigelse, betragter jeg det som vedtaget. Det er vedtaget. Titler på de anmeldte sager vil fremgå af www.folketingstidende.dk (jf. ovenfor). Medlemmer af Folketinget Lars Barfoed (KF), Michael Aastrup Jensen (V), Liselott Blixt (DF) og Mette Bock (LA) m.fl. har meddelt mig, at de ønsker at tage følgende forslag tilbage: Forslag til folketingsbeslutning om at sikre fortrolighed mellem patient og læge. B 149). Ønsker nogen at optage dette beslutningsforslag? Da det ikke er tilfældet, er forslaget bortfaldet. Klima-, energi- og bygningsministeren (Rasmus Helveg Petersen) har meddelt mig, at han ønsker i henhold til forretningsordenens § 19, stk. 4, at give Folketinget en skriftlig Energipolitisk redegørelse 2015. 17). Eksemplarer vil blive omdelt, og redegørelsen vil fremgå af www.folketingstidende.dk. Redegørelsen vil komme til forhandling fredag den 22. maj 2015. Sundheds- og Forebyggelsesudvalget har afgivet beretning om ændring af retsstilling for udvalgte behandlere. 10). Beretningen vil fremgå af www.folketingstidende.dk.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Besvarelse af oversendte spørgsmål til ministrene (spørgetid).</head>
+            <note type="agendaItem">2015-04-29-1</note>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429130242" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429130242.seg2">Det første spørgsmål er til økonomi- og indenrigsministeren af fru Karin Nødgaard.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 1123: Om sygesikringskort og tilmelding til folkeregisteret til hjemvendte udvekslingsstuderende.</head>
+            <note type="agendaItem">2015-04-29-1-1</note>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429130252" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429130252.seg3">Værsgo.</seg>
+                </u>
+                <u who="#NødgaardKarin" xml:id="ParlaMint-DK_20150429130258" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429130258.seg4">Ministeren bedes forholde sig til, om det skønnes rimeligt, at en dansk udvekslingsstuderende, der efter mere end 6 måneders studier på et udenlandsk universitet, som har en udvekslingsaftale med et dansk universitet, ved hjemkomst ikke straks og problemfrit kan tilmeldes folkeregisteret i Danmark og modtage et sygesikringskort uden at skulle igennem en længerevarende sagsbehandling?</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429130317" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429130317.seg5">Ministeren.</seg>
+                </u>
+                <u who="#ØstergaardMorten" xml:id="ParlaMint-DK_20150429130319" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429130319.seg6">Tak for spørgsmålet. Jeg vil gerne starte med at slå fast, at registrering af indrejse i CPR efter et udlandsophold naturligvis skal ske umiddelbart og uden forsinkelse, når betingelserne for indrejseregistrering er opfyldt. Vi skal ikke som samfund lægge borgerne unødige hindringer i vejen, men skal hjælpe med ordentlige og smidige løsninger og god offentlig service. Men når det er sagt, er jeg nødt til at skuffe spørgeren med, at jeg jo ikke kan forholde mig til rimeligheden i forhold til den konkrete sag, der beskrives i spørgsmålet, af den simple årsag, at jeg ikke kender de nærmere omstændigheder i den konkrete sag. Men jeg kan sige generelt, at når en dansk statsborger genindrejser her til landet efter et udlandsophold på over 6 måneder og derfor på det tidspunkt vil være registreret som udrejst i CPR, så skal vedkommende opfylde indrejsebetingelserne. For danske statsborgere gælder der jo ikke krav om gyldig opholdstilladelse som grundlag for registrering af indrejse, men det betyder, at de øvrige almindelige betingelser for registrering skal være opfyldt. Det vil sige, at opholdet her i landet skal have en varighed på over 3 måneder, og den pågældende skal have en bopæl eller et fast opholdssted. Normalt kan registrering af indrejse i CPR for danske statsborgere derfor ske umiddelbart og uden forsinkelse. I ganske få sager er den konkrete kommune imidlertid nødt til at foretage nærmere undersøgelser for at konstatere, om betingelserne er opfyldt. Det er f.eks. tilfældet, hvis borgeren oplyser, at borgerens bopæl er en c/o-adresse, men hvor beboeren på adressen oplyser, at borgeren ikke skal bo der. Der kan også være tale om, at kommunen har grund til at tvivle på, om opholdet her i landet varer over de her 3 måneder. Til spørgsmålet om muligheden for at få sundhedskort kan jeg uden at gå for langt ind på en anden ministers område blot oplyse, at sundhedskortet efter reglerne i sundhedslovgivningen tildeles, når en person i CPR er registreret med bopæl her i landet.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429130504" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429130504.seg7">Fru Karin Nødgaard.</seg>
+                </u>
+                <u who="#NødgaardKarin" xml:id="ParlaMint-DK_20150429130506" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429130506.seg8">Tak, og tak for besvarelsen. Ministeren snakker selvfølgelig om en konkret sag, men det her er jo egentlig en problemstilling, som kan opstå mange steder, hvor vi har borgerservice, som man henvender sig til som borger, netop når man kommer hjem. Og vi ved, at der er store kommuner, hvor der kan være større bunker, der skal behandles. Så det er jo egentlig et spørgsmål om, at hvis den her problemstilling opstår flere gange – og jeg er så bekendt med, at den er Ministeren har jo ud over så at være kommunernes minister også, kan man sige, siddet med hele området omkring universiteterne og det med, at vi gerne vil have unge til at tage til udlandet og tage dele af deres uddannelse der. Det, der sker, er jo sådan set, at man som lovlydig borger går hen og melder, at man nu skal ud af landet, og spørger, hvad man så nu skal gøre. Så får man at vide, at er det et studieophold på over 6 måneder, er man faktisk fraflyttet landet, og man har dermed heller ikke den almindelige sygesikringsdækning. Det var den ene del af det. Det andet er, at ministeren så siger, at man, umiddelbart efter at man er hjemkommet, skal have tildelt det her sygesikringskort, og man skal kunne registreres på en folkeregisteradresse. Men hvad er »umiddelbart«? For mig vil det være, at borgerservice, lige så snart man faktisk melder sin ankomst i borgerservice, siger, at det er fint, at de har alle oplysninger og kan se, at man har været bosiddende i Danmark, man er født og opvokset her – og det kommer også lidt i det andet spørgsmål. Derfor skulle der jo sådan set ikke kunne opstå nogen problemer. Det, jeg egentlig også er lidt interesseret i at høre, er, om ministeren så egentlig tror, at vidensniveauet i kommunernes borgerservice er tilstrækkeligt i forhold til det her, eller om der egentlig er nogle ting, der skal præciseres, sådan at man aldrig vil være i tvivl om det, når der kommer en udvekslingsstuderende og henvender sig til kommunen om, at vedkommende nu er kommet tilbage, og at man siger, at det bare er en simpel ekspeditionssag.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429130658" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429130658.seg9">Ministeren.</seg>
+                </u>
+                <u who="#ØstergaardMorten" xml:id="ParlaMint-DK_20150429130700" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429130700.seg10">Som nævnt kender jeg jo ikke omstændighederne i den sag, som har givet anledning til spørgsmålet, og derfor er det også lidt vanskeligt at afgøre, om det er rimeligt, hvis indrejseregistreringen ikke er sket straks. Men som nævnt er det altså min opfattelse, at registreringen af indrejse i CPR af danske statsborgere foregår umiddelbart og hurtigt, og jeg har ikke kendskab til, at der skulle være lange ventelister eller ventetider. Men der kan Det var det, jeg nævnte var for at tjekke, om betingelserne er opfyldt, altså om det er et ophold, der kan ventes at vare over 3 måneder, og om der er tale om en fast bopæl eller et fast opholdssted. Så jeg kan jo ikke berige svaret yderligere end at sige, at det kan og det bør foregå fuldstændig smertefrit, medmindre kommunen finder anledning til at undersøge sagen nærmere.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429130751" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429130751.seg11">Fru Karin Nødgaard.</seg>
+                </u>
+                <u who="#NødgaardKarin" xml:id="ParlaMint-DK_20150429130752" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429130752.seg12">Tak, det er fint nok. Jeg vil gerne have, at ministeren også prøver at kommentere det, jeg spørger om, altså om vidensniveauet hos borgerservice måske egentlig er tilstrækkeligt, eller om ministeren som minister på området tænker, at det godt kan være, der er nogle ting, vi skal præcisere her om det her, fordi vi jo netop gerne vil have, at de unge tager ud og kommer tilbage, og så kan de bare fortsætte deres studie, som de nu er i gang med, og skrive de opgaver, som de også skal. Om det der med fast opholdssted er det jo sådan, at man kommer hjem, og hvis man har været ude længe, har man jo nok ikke betalt husleje det samme sted i alle månederne, og så skal man jo sådan set finde sin adresse meget hurtigt. Derfor kan man også hurtigt henvende sig. Men der er jo et stort spørgsmål også i forhold til det der med sygesikringen og dækningen der, når man kommer hjem, og det kunne være, at ministeren også kunne uddybe det lidt.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429130842" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429130842.seg13">Ministeren.</seg>
+                </u>
+                <u who="#ØstergaardMorten" xml:id="ParlaMint-DK_20150429130844" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429130844.seg14">Ja, lige præcis spørgsmålet om sygesikring er jo så sundhedsministerens område. Men ikke desto mindre vil jeg bare sige, at det selvfølgelig er afgørende, at man kan blive indregistreret med det samme, når man opfylder betingelserne. Og det er også min oplevelse, at det er det, man kan. Jeg synes jo i øvrigt, at vi har gjort os store bestræbelser på at digitalisere mest muligt, så tingene kan foregå nemt og bekvemt og uden de store transaktionsomkostninger, hverken for borgerne eller borgerservice, sådan at man kan koncentrere kræfterne der om dem, der har brug for vejledning. Det håber jeg da også at spørgeren er enig i er godt, altså at vi flest mulige steder digitaliserer, sådan at borgerne ikke skal spilde tid på papirarbejde, der bare handler om en simpel registrering.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429130929" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429130929.seg15">Så er det fru Karin Nødgaard, sidste runde.</seg>
+                </u>
+                <u who="#NødgaardKarin" xml:id="ParlaMint-DK_20150429130931" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429130931.seg16">Det kunne så blive en længere debat om digitalisering. Der tror jeg også godt, ministeren er klar over, hvad Dansk Folkepartis holdning er, altså at for nogle er det udmærket, men der er også andre grupper i samfundet, hvor vi synes, det faktisk er et stort problem, men lad det ligge. Men jeg vil så egentlig gerne sige, at netop med den her type af sager vil man ikke bare kunne gå på nettet og udfylde noget, for det kræver faktisk, at man henvender sig på kommunens borgerservice, at man personligt møder frem, og man kan jo trods alt ikke møde frem, før man er landet i Danmark igen. Jeg ved godt, at ministeren ikke er ressortminister med hensyn til sygesikringskort, men alligevel tror jeg godt, at ministeren kender noget til området. Jeg har faktisk også tidligere stillet spørgsmål til det der med, hvordan man er dækket, fra man lander, og indtil man måske efter et par uger, hvis der går det, faktisk bliver registreret i folkeregisteret. Hvis man så går på borgerservice og spørger om det, og de siger, at man er dækket af sin rejseforsikring, og man så som borger må sige, at nej, det er man ikke, for en rejseforsikring dækker altså kun i udlandet, så er der jo et problem. Der kan være et eller andet tidsrum der, hvor man faktisk ikke er dækket af noget, men det kunne være, man kunne tage det op i regeringen – hvis det er, det er sådan, det forholder sig.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429131035" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429131035.seg17">Ministeren.</seg>
+                </u>
+                <u who="#ØstergaardMorten" xml:id="ParlaMint-DK_20150429131036" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429131036.seg18">Som sagt: Hvis opholdet er over 3 måneder og skal være det, er betingelserne opfyldt. Det ligger nok uden for mit ressort lige at afklare forsikringsdækningen i forhold til sundhed. Men det, jeg til gengæld kan sige, er, at min oplevelse er, at kommunernes borgerservice i den her tid er under kraftig forbedring. Jeg har selv for nylig oplevet – og det er jo rart nok også at prøve at være almindelig borger – både at skulle have nyt kørekort og skulle have pas til et af børnene, og jeg vil bare sige, at det foregår utrolig smertefrit. Man kan endda bestille tid, så man er fri for at stå i kø hos borgerservice, i hvert fald i nogle af de store kommuner, som jeg har benyttet mig af. Derfor tror jeg egentlig, man skal passe på med ikke at bære ved til et bål, der handler om, at så snart det foregår i kommunen, er det nødvendigvis langsomt og umoderne. Sådan er den moderne borgerservice heldigvis ikke de fleste steder.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429131130" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429131130.seg19">Spørgsmålet er sluttet. Det næste spørgsmål er også til økonomi- og indenrigsministeren af fru Karin Nødgaard.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 1124: Om hjemvendte udvekslingsstuderendes tilmelding til folkeregisteret.</head>
+            <note type="agendaItem">2015-04-29-1-2</note>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429131135" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429131135.seg20">Værsgo.</seg>
+                </u>
+                <u who="#NødgaardKarin" xml:id="ParlaMint-DK_20150429131137" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429131137.seg21">Finder ministeren det rimeligt, at en dansk udvekslingsstuderende, som er dansk skatteyder, er født og opvokset i Danmark og har dansk pas, efter mere end 6 måneders udveksling på et universitet i udlandet ved hjemkomst til Danmark ikke straks kan tilmelde sig folkeregisteret og få en adresse og dermed f.eks. få et sygesikringskort, ret til at låne bøger på biblioteker til brug for sit videre studie og mulighed for f.eks. at købe og oprette en telefon, og mener ministeren, at disse forhindringer er befordrende for, at unge mennesker ønsker at leve op til regeringens ønsker om, at unge studerende skal tage en del af deres uddannelse i udlandet?</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429131204" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429131204.seg22">Ministeren.</seg>
+                </u>
+                <u who="#ØstergaardMorten" xml:id="ParlaMint-DK_20150429131205" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429131205.seg23">Tak for den nye variant af det samme spørgsmål. Svaret bliver jo også derefter. Det er altså sådan, at vi er optaget af, at der ikke er unødige hindringer, men at der er ordentlige og smidige løsninger i den gode offentlige service, og når en dansk statsborger genindrejser her i landet efter et udlandsophold over 6 måneder, så skal vedkommende opfylde indrejsebetingelserne. Gør man det, så kan indrejseregistrering ske umiddelbart og uden forsinkelse, og det mener jeg sådan set er den måde, det bør være på.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429131236" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429131236.seg24">Fru Karin Nødgaard.</seg>
+                </u>
+                <u who="#NødgaardKarin" xml:id="ParlaMint-DK_20150429131237" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429131237.seg25">Jeg er rigtig glad for at høre, at det er ministerens holdning til det, for det er også min egen, nemlig at det bare skal være så smidigt som overhovedet muligt. Det her er jo det, vi skal bygge vores fremtid på, nemlig at vi også har nogle unge mennesker, der egentlig bredt ønsker at tilegne sig viden osv. Nu siger ministeren godt nok, at det er en ny variation af spørgsmålet. Det er det også, men der er en nuanceforskel, for i det her spørgsmål vil jeg egentlig gerne lidt ind på det med at være studieaktiv, for det er dér, hvor man kan sige, at mulighederne jo kan blive reduceret. Jeg ved godt, det måske lyder skørt, når man lige læser det, hvor der står noget med at købe en telefon, for betyder det så meget? Ja, det gør det, for det er den måde, man faktisk kan kommunikere på, kan være på nettet, kan få skrevet sine opgaver. Når man skal have et sygesikringskort i hånden, så er det, fordi det er det, der gør, at man faktisk så kan gå på statens biblioteker og kan låne bøger osv. for at kunne lave sine opgaver, som man jo er nødt til, da vi også ved, at hvis man står foran nogle prøver eller sådan et eller andet, er det jo urimeligt nødvendigt, for man har jo ikke det hele i hovedet. Man skal også ud og tilegne sig det og låne nogle ting. Så det er egentlig for ligesom at få den nuance med, så ministeren kan forholde sig til det. Jeg er glad for, at ministeren har nogle positive oplevelser med borgerservice, det er jeg sikker på at der er rigtig mange der har, men der er så også nogle, der åbenbart ikke har en lige så positiv oplevelse. Agter ministeren måske at præcisere noget, når man sidder til møder med KL osv., sådan at man nu er sikker på, at der er styr på det her? Det er også lidt a la det, vi talte om før omkring uddannelsesniveauet.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429131411" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429131411.seg26">Ministeren.</seg>
+                </u>
+                <u who="#ØstergaardMorten" xml:id="ParlaMint-DK_20150429131412" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429131412.seg27">Jamen som sagt har jeg med interesse forberedt mig til spørgerunden her i dag, fordi jeg selvfølgelig er optaget af, om det dækker over en eller anden generel problemstilling, men jeg kan fornemme, at der ligger en sag bagved. Hvis spørgeren ønsker det, kigger vi selvfølgelig gerne nærmere på, om der er et særskilt problem i den pågældende kommune. Jeg må bare sige, at det ikke er mit indtryk, og jeg får ellers henvendelser om mangt og meget, at lige præcis det her spørgsmål er et, som forsinker borgerne unødigt i almindelighed, og derfor har jeg heller ikke sådan lige nye initiativer i tasken til at løse problemer, som jeg i hvert fald ikke indtil videre er overbevist om er der.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429131447" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429131447.seg28">Fru Karin Nødgaard.</seg>
+                </u>
+                <u who="#NødgaardKarin" xml:id="ParlaMint-DK_20150429131448" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429131448.seg29">Nej, men det er så fint nok. Nu ved jeg jo faktisk, at ministeren af og til har møder med KL. Det her er jo bare en del af det, der bliver lavet i kommunerne, men vi ved, at der har været udfordringer i forhold til borgerservice og sådan noget, og det ligger i ordet borgerservice, at der derfor også skal følges op på tingene sådan løbende; man skal ikke bare sige: Jamen nu kører det meget godt, vi har hørt det og det, og jeg har selv haft nogle gode personlige oplevelser osv. Er det noget, man har en dialog om, når ministeren mødes med KL? Hvordan fungerer det? Er vi sikre på, at det med uddannelsesniveauet er tilstrækkeligt? Det handler om selve ordet service. Er den i orden?</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429131522" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429131522.seg30">Ministeren.</seg>
+                </u>
+                <u who="#ØstergaardMorten" xml:id="ParlaMint-DK_20150429131523" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429131523.seg31">Som sagt synes jeg, at min oplevelse er, at man arbejder utrolig seriøst med netop borgerservice, altså det, at det skal være let for borgerne at blive ekspederet i de sager, som også kræver et personligt fremmøde, og at man kan få hjælp, hvis man møder op, fordi man ikke kan finde ud af at klare det digitalt. Netop på uddannelsesområdet er der sket rigtig meget. Det er jo folk, der er vant til at håndtere de digitale løsninger. Al SU håndteres ad den vej. Derfor er der jo gode muligheder for at bruge de ting. Vi diskuterer hele tiden med KL, hvordan tingene kan blive bedre. Et af de områder, vi har fokus på, handler om, hvordan man også kan sørge for, at dem, der kommer hertil, og som ikke har dansk pas, men udenlandsk pas, kan få deres papirer på en ordentlig og hurtig måde. Det skal vi have fundet ud af, så de særlige internationale servicecentre, der er, også fortsat kan betjene vores udenlandske besøgende.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429131613" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429131613.seg32">Sidste omgang til fru Karin Nødgaard.</seg>
+                </u>
+                <u who="#NødgaardKarin" xml:id="ParlaMint-DK_20150429131617" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429131617.seg33">Ministeren siger så også noget om det her med det digitale osv., så jeg vil gerne lige gentage det, jeg sagde før: Her er det bare et krav om, at man møder op på borgerservice, så man kan ikke gå ind og gøre det digitalt som sådan. Ministeren siger også, at man straks kan registreres, og så har jeg sådan set et meget simpelt spørgsmål. Vil det så sige, at ministeren mener, at i det øjeblik, man lander i en lufthavn i Danmark, kan man køre direkte på borgerservice og udfylde de der blanketter, der nu er, og sige, hvem man er, for så kan borgerservice se, at man er skatteyder, er født og opvokset i Danmark, altid har haft dansk pas osv., og så får man bare at vide: Det er helt i orden, vi laver et hak ved dig, og så behøver du ikke at ligge nederst i bunken, du går bare ud og fortsætter dit studie og fortsætter med den løbebane, du nu er i gang med?</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429131658" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429131658.seg34">Ministeren.</seg>
+                </u>
+                <u who="#ØstergaardMorten" xml:id="ParlaMint-DK_20150429131659" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429131659.seg35">Jamen altså, jeg sagde indledningsvis, at de betingelser, der er for danske statsborgere, er, at opholdet i landet skal have en varighed på over 3 måneder, og at den pågældende skal have bopæl eller et fast opholdssted. Når de betingelser er opfyldt, kan man blive indrejseregistreret i CPR.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429131718" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429131718.seg36">Spørgsmålet er sluttet. Det næste spørgsmål er også til økonomi- og indenrigsministeren af hr. Jacob Jensen.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 1137: Om serviceforringelser.</head>
+            <note type="agendaItem">2015-04-29-1-3</note>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429131726" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429131726.seg37">Værsgo.</seg>
+                </u>
+                <u who="#JensenJacob" xml:id="ParlaMint-DK_20150429131728" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429131728.seg38">Spørgsmålet lyder: Mener ministeren, at der er sket serviceforringelser som følge af den økonomiske minusvækst, som kommunerne har været udsat for i de seneste 3 år?</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429131739" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429131739.seg39">Ministeren.</seg>
+                </u>
+                <u who="#ØstergaardMorten" xml:id="ParlaMint-DK_20150429131740" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429131740.seg40">Tak for spørgsmålet og for muligheden for at genoptage vores drøftelser fra det samråd, vi gennemførte med samme tema i går. Det er jo ikke helt klart, hvad det er, spørgeren mener med de seneste 3 år. Er det de seneste 3 år, altså 2012-2014, eller er det de 3 år frem til 2013, altså fra 2011, som er nogle af de år, man tidligere fra spørgerens side har interesseret sig for, og for hvilke der i øvrigt foreligger regnskabstal? Men jeg vil gerne tale om begge perioder, altså både de seneste 3 år og de 3 år, vi har regnskabstal for, altså frem til 2013. Hvad angår 2011-2013, ligger de kommunale serviceudgifter på næsten samme niveau i alle 3 år. Der er et fald i de reelle udgifter fra 2011 til 2013 på 0,1 pct., og det må man da vist for alle praktiske formål kalde uændrede udgifter. Der er efter regeringens vurdering på den baggrund ikke sket en forringelse af den kommunale service i denne 3-års-periode. Tager vi 2014 med, er det sådan, at vi endnu ikke har set det kommunale regnskabsresultat, selv om tiden nærmer sig. Men jeg vurderer, at det vil vise sig, at der har været en vis vækst i serviceudgifterne og også en serviceforbedring i kommunerne som helhed. Alene den milliard, som blev udløst af ældrepuljen i den finanslov, vi lavede i fællesskab, løfter servicen. Så alt i alt har der hverken været tale om minusvækst i kommunerne eller en forringelse af den kommunale service.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429131859" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429131859.seg41">Hr. Jacob Jensen.</seg>
+                </u>
+                <u who="#JensenJacob" xml:id="ParlaMint-DK_20150429131900" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429131900.seg42">Vi skal jo ikke slås om 0,1 pct. Det er sådan set heller ikke det, der er mit ærinde. Jeg er egentlig glad for det svar, der blev givet, nemlig at der, hvis man har en nogenlunde uændret økonomiramme, en nogenlunde uændret økonomi til rådighed, nu med regeringens og ministerens egne ord er mulighed for – det er så det, ministeren siger allerede er sket, og det går jeg også ud fra vil gælde fremadrettet – at have en mindst lige så god service, som den vi kender. Man kan måske også have en bedre service. Det kan jeg så spørge om: Er det muligt, som ministeren ser det, at man faktisk med den samme økonomiske ramme også kan have en bedre service end den, man havde året forinden, hvis man simpelt hen tilrettelægger tingene anderledes, lærer af gode erfaringer osv. osv.? Jeg forstår i hvert fald, og jeg er glad for det svar, der er blevet givet, at regeringen nu med to streger under resultatet, om jeg så må sige, slår fast med syvtommersøm, at man med den, med ministerens ord, stort set uændrede – om end den har været faldende, at der altså har været minusvækst, og det kan man så ikke løbe fra, men lad os bare lade være med at diskutere det i dag – økonomiske ramme godt kan have en service, som er mindst lige så god som den, man havde året forinden. Er det sådan, jeg skal forstå svaret?</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429132018" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429132018.seg43">Ministeren.</seg>
+                </u>
+                <u who="#ØstergaardMorten" xml:id="ParlaMint-DK_20150429132020" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429132020.seg44">Jeg kan jo godt høre, hvad det er, spørgeren kredser om, nemlig argumenter for, at man også med den nulvækst, der foreslås af spørgerens parti, i de kommende år vil kunne opretholde den service, vi kender. Men man skal bare huske, at i den periode, vi taler om, har vi jo i gennemsnit brugt 3 mia. kr. ekstra om året på øget velfærd. Det dækker jo bl.a. over, at vi på sundhedsområdet har haft ganske betragtelige merudgifter til vores hospitaler, fordi behandlingerne bliver dyrere og dyrere, apparaturet bliver dyrere og dyrere, og vi har haft brug for flere ansatte. Derfor er det jo, at vi med den prioritering, vi har gjort, har kunnet løfte velfærden i Danmark samlet set, og med det udspil, vi er kommet med på det seneste, har vi også signaleret, at der bl.a. på sundhedsområdet vil være behov for at investere også i de kommende år. Det forstår jeg jo at man i Venstre, i hvert fald et stykke ad vejen, er enig i. Der fanger bordet jo bare, for så vil man være nødt til at hente de penge i landets kommuner, og så vil man ikke kunne opretholde den samme service.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429132119" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429132119.seg45">Hr. Jacob Jensen.</seg>
+                </u>
+                <u who="#JensenJacob" xml:id="ParlaMint-DK_20150429132120" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429132120.seg46">Nu er vi jo ikke nødvendigvis enige i den prioritering, som ministeren her lægger op til. Men jeg vil godt forholde mig til det spørgsmål, som jeg har stillet, nemlig at den økonomiske ramme, som kommunerne har haft – ministeren kalder den for næsten det samme, men jeg kalder det en minusvækst – er en mindre ramme og et mindre forbrug. Ministeren siger nu i dag, at det i den periode, hvor det har været tilfældet, faktisk har betydet, at servicen ikke er blevet forringet. Med andre ord: Hvis man også fremadrettet har den samme økonomiske ramme, vil man også med ministerens ord kunne have den samme eller endda bedre service, hvis man tilrettelægger tingene anderledes, end man gør i dag. Er det sådan, jeg kan forstå det?</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429132201" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429132201.seg47">Ministeren.</seg>
+                </u>
+                <u who="#ØstergaardMorten" xml:id="ParlaMint-DK_20150429132202" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429132202.seg48">Jeg synes ikke, at hr. Jacob Jensen lyttede rigtig godt efter min besvarelse. Jeg sagde jo bl.a., at når vi nu får regnskaberne for endnu et kommunalt budgetår, vil vi jo se, at den ældremilliard, som vi havde aftalt, fordi vi ønsker at løfte den kommunale service over for de ældre, vil vise sig som en udgiftsvækst. Derfor er det jo bare sådan, også i den kommunale og offentlige verden, at hvis man ønsker sig mere, kommer man også til at betale for det. Det har vi gjort med ældremilliarden. Det har vi gjort på finanslove, som Venstre ikke har været med i, når det gælder daginstitutionsområdet, og det er både her senest og på vores første finanslov, så vi nu næsten har 0,75 mia. kr. mere. Det er jo det, vi kan, fordi vi prioriterer ressourcerne til det. Så kan man selvfølgelig også modernisere den offentlige sektor. Det har vi jo også planer for, og vi har også dokumenteret, at vi har resultater, men det ændrer jo ikke på, at hvis man vil prioritere ressourcerne til det, kan man selvfølgelig få mere velfærd, end hvis man ikke vil.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429132258" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429132258.seg49">Så er det hr. Jacob Jensen i sidste omgang.</seg>
+                </u>
+                <u who="#JensenJacob" xml:id="ParlaMint-DK_20150429132301" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429132301.seg50">Vi kan bare forholde os til det, som er sket. Kommunerne, uanset om man kigger på rammen, som regeringen har stillet til rådighed, eller om man kigger på det reelle forbrug, har haft færre penge at arbejde med, har brugt færre penge under den nuværende regerings ledelse. Det er et faktum, det kan man ikke løbe fra, og derfor er det, at jeg forholder mig til det, som ministeren nu siger, og jeg takker egentlig for svaret, nemlig at ministeren siger, at selv med minusvækst har man faktisk i kommunerne oplevet, at man kan levere den samme og oven i købet også i visse tilfælde bedre service. Derfor tager jeg bare til mig, at med en uændret økonomisk ramme vil man selvfølgelig også fremadrettet kunne levere mindst den samme service, og måske oven i købet en bedre service. Det må vel være logikken, at når man med færre penge med regeringens ord kan levere den samme eller bedre service, så vil man også med de samme penge fremadrettet kunne levere den samme eller bedre service.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429132354" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429132354.seg51">Økonomi- og indenrigsministeren.</seg>
+                </u>
+                <u who="#ØstergaardMorten" xml:id="ParlaMint-DK_20150429132357" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429132357.seg52">Det med logikken for Venstre tror jeg jeg overlader til Venstre, fordi jeg forstod, dengang man var i regering og man selv udgav publikationer om den offentlige sektors finanser, at det vistnok fremgik, at man også dengang mente, at nulvækst ville udhule servicen på sigt. Det skyldes jo i hvert fald, at når folk – ikke politikere, men altså folk, der bare er vant til at sidde og regne på den slags – kigger på forskellen mellem det, vi har lagt frem, og den nulvækst, som Venstre foreslår, så drejer det sig jo samlet set om omkring 28.000 offentligt ansatte i 2020. Om de så skal ansættes i kommunerne eller på hospitalerne eller lidt begge steder, må tiden jo vise, men forskellen bliver nok alligevel til at mærke for de fleste.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429132443" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429132443.seg53">Spørgsmålet er sluttet. Det næste spørgsmål er også til økonomi- og indenrigsministeren af hr. Jacob Jensen.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 1138: Om velfærd.</head>
+            <note type="agendaItem">2015-04-29-1-4</note>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429132452" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429132452.seg54">Værsgo.</seg>
+                </u>
+                <u who="#JensenJacob" xml:id="ParlaMint-DK_20150429132454" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429132454.seg55">Spørgsmålet lyder: Er det ministerens opfattelse, at man godt kan få samme eller bedre velfærd inden for en uændret økonomisk ramme?</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429132456" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429132456.seg56">Økonomi- og indenrigsministeren.</seg>
+                </u>
+                <u who="#ØstergaardMorten" xml:id="ParlaMint-DK_20150429132459" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429132459.seg57">Efter regeringens opfattelse kræver en fortsat udvikling af den offentlige og kommunale service og bedre velfærd i det hele taget, at vi har et råderum til at investere i det offentlige forbrug. Ellers er det ikke muligt at give de områder, vi gerne vil opprioritere, ekstra ressourcer uden at skære ned på andre områder. Men selvfølgelig er der effektiviseringsmuligheder, og den slags gevinster vil vi indhøste og lade dem gå til målrettede løft af velfærden. Men det er vores vurdering, at uafhængig af effektiviseringsmulighederne vil der være brug for at skaffe ekstra midler til en vækst i det offentlige forbrug. Det er nødvendigt, hvis borgerne skal opleve, at velfærden lever op til de forventninger, de har. Vores forventninger bl.a. på sundhedsområdet er, at der er behov for mere, og vi har også afsat ganske betragtelige midler til løft på daginstitutionsområdet. Derfor må jeg nok bare også her skuffe hr. Jacob Jensen med, at heller ikke her får man det svar, at det er ligegyldigt, om man vil investere i den offentlige sektor eller ej. Men selvfølgelig kan man da arbejde med at gøre tingene bedre, og det bør man da også, og det har vi også dokumenteret, at vi både kan og vil, men forskellen er bare, at vi bruger pengene på at forbedre velfærden, mens vi forstår, at de i Venstre skal bruges til at dække udgiftshuller andre steder.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429132608" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429132608.seg58">Hr. Jacob Jensen.</seg>
+                </u>
+                <u who="#JensenJacob" xml:id="ParlaMint-DK_20150429132609" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429132609.seg59">Det er jo ikke helt rigtigt, at regeringen bruger dem. Man lægger en plan frem, men det gjorde man jo også inden sidste valg. Dengang lagde man også en plan frem. Jeg husker, at det var noget i retning af, at man sagde, at nu skal der investeres i vores daginstitutioner. Der skulle komme 3.000 ekstra pædagoger. Det sagde man før sidste valg, for nu skulle det være velfærd eller skattelettelser. Jeg tror nok, det var sådan, parolen lød. Hvad er der så sket? Ja, der er ikke kommet 3.000 flere. Der er tværtimod kommet 3.000 færre pædagoger. Derfor kan man jo godt stå nu og igen komme med fine løfter til danskerne, men jeg tror med al respekt, at det vil blive modtaget med nogen skepsis, når vi nu af historien kan se, hvordan det er gået. Jeg nævner bare børneområdet som et eksempel – jeg kunne nævne mange andre områder. Vi bliver selvfølgelig skoset for igen og igen, fordi vi har tænkt os at holde niveauet for en af verdens største offentlige sektorer, at det skulle være udtryk for, at det hele vil ramle sammen. Så noterer jeg mig bare, at der under den nuværende regerings ledelse har været færre penge til kommunerne, der har været færre ansatte i kommunerne, rundt regnet 14.000 fuldtidsstillinger, herunder mit eksempel med 3.000 færre pædagoger, og med ministerens ord har det ikke betydet ringere velfærd i kommunerne. Det synes jeg dog trods alt er en bemærkning, som er værd at skrive sig bag øret, når vi nu formodentlig snart skal ind i en valgkamp.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429132735" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429132735.seg60">Ministeren.</seg>
+                </u>
+                <u who="#ØstergaardMorten" xml:id="ParlaMint-DK_20150429132739" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429132739.seg61">Det er jo lidt særligt at skulle føre den diskussion med hr. Jacob Jensen, al den stund at det, der jo er sket under den her regering, er, at når vi bevilger en ekstra krone til velfærd, bliver der brugt omtrent en ekstra krone til velfærd. Det er i gennemsnit 3 mia. kr. ekstra om året på de forskellige velfærdsområder. Dengang hr. Jacob Jensens parti var i regering, var det en ukontrolleret vækst i den offentlige sektor. Når man bevilgede en ekstra krone, blev der brugt 1½ kr. Der er jo en årsag til, at vi nu har fået bedre balance mellem udgifter og indtægter, og at vi nu med sikkerhed kan sige, at når vi i gennemsnit vil bruge 3 mia. kr. ekstra om året, også frem mod 2020, er det fuldt finansieret, fordi vi har en 2020-plan, der hænger sammen. Man kan selvfølgelig tage et område ud som børneområdet, hvor der har været faldende børnetal og derfor selvfølgelig også færre pædagoger, men samlet set har vi prioriteret 0,75 mia. kr. ekstra til kommunernes økonomi, så der kan være flere voksne sammen med børnene. Man kan godt tage et område ud, men man kan jo ikke løbe fra, at det generelle billede frem mod 2020 er, at alene på grund af demografien og de flere ældre, vil der være et stigende udgiftspres på den offentlige sektor, og det får man problemer med at finansiere, hvis ikke man har råderum til det. Det er derfor, vi synes, at det mest ansvarlige er at sikre, at vi har sådan et.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429132858" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429132858.seg62">Hr. Jacob Jensen.</seg>
+                </u>
+                <u who="#ØstergaardMorten" xml:id="ParlaMint-DK_20150429132900" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429132900.seg63">Jeg kan godt forstå, at ministeren, som jo også er radikal leder, ikke bryder sig om, at jeg minder om det løfte, man gav som radikal leder – den nuværende leders forgænger – om, at der skulle komme 3.000 ekstra pædagoger. Der er så kommet 3.000 færre. Men vi kan så tage et andet område. Jeg kan jo spørge: Er der kommet flere lærere ude i skoleklasserne, end der var dengang, den nuværende regering tog over? Jeg ved ikke, om ministeren kan vurdere det. Min vurdering er, at der er kommet færre lærere ude i klasserne, så jeg kan spørge: Er det udtryk for, at der så er blevet ringere service i folkeskolen nu, hvor der er færre lærere, end der var, dengang regeringen overtog magten?</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429132939" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429132939.seg64">Ministeren.</seg>
+                </u>
+                <u who="#ØstergaardMorten" xml:id="ParlaMint-DK_20150429132940" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429132940.seg65">Igen vil jeg sige, at man er nødt til at forholde sig til, at det, der presser de offentlige udgifter i de kommende år, hverken er det stigende børnetal i daginstitutioner eller skoler, men det er jo det stigende antal ældre, og det betyder altså bare, at når vi i gennemsnit budgetterer med 0,6 pct. i offentlig vækst, så kan to tredjedele af det alene relateres til, at der vil være et øget udgiftspres, som følge af at vi har en aldrende befolkning. Det, vi har gjort for at leve op til de løfter, vi har givet, er, at vi har prioriteret ekstra ressourcer til at løfte niveauet på daginstitutionerne. Det er jo det, det enkelte barn oplever, også selv om der samlet set er færre børn i de danske daginstitutioner. Derfor er det en underlig måde at stille det op på. Det dækker jo over, at man på den ene side gerne vil sige, at man ønsker massive skattelettelser til danskerne finansieret af et fravær af udvikling af velfærden, men på den anden side vil man ikke stå ved, at det selvfølgelig har konsekvenser for velfærden. Det er sådan set bare det, der er vores beskedne pointe her: Vi har investeret i gennemsnit 3 mia. kr. ekstra om året i ekstra velfærd i de seneste år. Det ønsker vi at blive ved med. Venstre vil noget andet. Så stå dog ved, at det har de konsekvenser, at der selvfølgelig bliver mindre og dårligere velfærd for borgerne. Sådan må det nødvendigvis være. Det er bare en politisk forskel.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429133056" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429133056.seg66">Så er det hr. Jacob Jensen i den sidste runde.</seg>
+                </u>
+                <u who="#JensenJacob" xml:id="ParlaMint-DK_20150429133058" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429133058.seg67">Jamen hvorfor skulle der blive mindre velfærd? Ministeren sagde lige før, at man godt kunne have samme velfærd og måske oven i købet bedre velfærd, hvis man havde en uændret økonomisk ramme. Så nu skal ministeren lige vælge, hvad det er, han egentlig mener. Vi har været rundt om børneområdet. Der er blevet skåret ned med 3.000 pædagoger. Nu kommer man så med en lappeløsning på det. Vi har været rundt om skoleområdet. Der er færre lærere. Det siger man så også har været en investering. Nu nævner ministeren ældreområdet. Jeg kan spørge: Er der kommet flere eller færre SOSU-assistenter? Jeg kan næsten give svaret på forhånd, men ministeren kan måske bekræfte det, nemlig at der er kommet færre SOSU-assistenter under den nuværende regerings ledelse. Så det, at man siger, at man investerer i velfærd, gælder åbenbart ikke børneområdet. Det gælder åbenbart heller ikke folkeskoleområdet. Det gælder åbenbart heller ikke de områder, som SOSU-assistenterne arbejder på, nemlig inden for de kernevelfærdsydelser, som kommunerne leverer. Kommunerne har under den nuværende regering oplevet at have færre penge, en mindre ramme, færre ansatte. Og regeringen siger nu med ministerens ord, at det godt kan betyde, at man også fremadrettet kan have en uændret velfærd og måske en bedre velfærd inden for den samme økonomiske ramme. Jeg takker for svaret.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429133204" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429133204.seg68">Ministeren.</seg>
+                </u>
+                <u who="#ØstergaardMorten" xml:id="ParlaMint-DK_20150429133205" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429133205.seg69">Jamen hr. Jacob Jensen kan tale herfra og til juleaften, men det ændrer jo ikke på det faktum, at vi har brugt 3 mia. kr. ekstra på velfærd i gennemsnit hvert af årene. Der er 7.000 ekstra ansatte i de danske regioner til at tage sig af de syge, og sådan kan vi jo stå og skyde tallene frem og tilbage. Men hvorfor er det, man ønsker at udviske de politiske forskelle? Det er jo en klar prioritering, at i stedet for at udvikle vores fælles velfærd, så vi kan gøre noget mere for de syge, så vi kan gøre noget mere for de udsatte, så vi kan give børnene en bedre start på livet, har man andre prioriteter i Venstre. Og det er da en ærlig sag. Det, jeg siger, er bare – og det er ikke et politisk synspunkt, det er bare helt almindelige embedsfolk, der har regnet på forskellene mellem det, Venstre ønsker, nemlig nulvækst, og det, regeringen foretrækker, nemlig 0,6 pct. i offentlig vækst i gennemsnit frem til 2020 – at der er forskellen altså i udgangspunktet 28.000 færre offentligt ansatte. Og det kan være, at hr. Jacob Jensen mener, at han kan drive den offentlige sektor, så ingen opdager det, men jeg tror nu, at de 28.000 mennesker vil kunne gøre en forskel for de udsatte, for de syge og for de børn, der har fået en svær start på livet.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429133309" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429133309.seg70">Spørgsmålet er sluttet. Tak til økonomi- og indenrigsministeren. Det næste spørgsmål er til justitsministeren af hr. Karsten Lauritzen.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 1117: Om studenterkørsel i veteranlastbiler.</head>
+            <note type="agendaItem">2015-04-29-1-5</note>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429133319" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429133319.seg71">Værsgo.</seg>
+                </u>
+                <u who="#LauritzenKarsten" xml:id="ParlaMint-DK_20150429133324" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429133324.seg72">Tak. Spørgsmålet lyder: Hvad er ministerens holdning til, at Rigspolitiet har ændret praksis, så det ikke længere er tilladt at køre studenterkørsel i veteranlastbiler, og agter ministeren at foretage sig noget i den henseende?</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429133340" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429133340.seg73">Justitsministeren.</seg>
+                </u>
+                <u who="#FrederiksenMette" xml:id="ParlaMint-DK_20150429133342" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429133342.seg74">Man skal beskæftige sig med meget som landets justitsminister, og jeg vil sige, at jeg i allerhøjeste grad bifalder, at unge tager en uddannelse og de efterfølgende kører i hestevogn eller veteranbil, eller hvad de nu gør, og fejrer, at de har fået huen på. Derfor er det selvfølgelig vigtigt, at fremtidens studenter også i år får den mulighed, og jeg er glad for, at Rigspolitiet har fundet en løsning, så det også kan lade sig gøre.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429133402" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429133402.seg75">Hr. Karsten Lauritzen.</seg>
+                </u>
+                <u who="#LauritzenKarsten" xml:id="ParlaMint-DK_20150429133404" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429133404.seg76">Tak. Jeg vil sige, at vi jo stiller det her spørgsmål hernede i Folketingssalen, fordi det ikke har været muligt at finde en løsning, inden spørgsmålet blev stillet. Der har været en bred debat, og jeg tror også, der har været meget dialog på tværs af politikredse med gymnasier og studenterforeninger og alle mulige andre, hvor man ikke har fundet en løsning. Så er det da herligt, at man for 2015 har fundet en løsning, efter at det her spørgsmål er stillet. Det er jeg da rigtig, rigtig glad for, og det vil jeg også gerne kvittere for. Men jeg må bare sige til ministeren, at når der bliver stillet et spørgsmål hernede i Folketingssalen, er det typisk udtryk for, at der er en politisk diskussion. Men det kan også være – og det er det, der er tilfældet her – at der er nogle borgere, der er i klemme på grund af nogle, undskyld udtrykket, rigide regler, og på grund af at der også i hvert fald efter min opfattelse er nogle, der tolker EU-reglerne ganske rigidt og også for rigidt, i forhold til hvad der er muligt. Så jeg har valgt at stille spørgsmålet, fordi vi i Venstre er optaget af, at man i år og også næste år kan fortsætte med at køre studenterkørsel, som man har gjort de foregående år, uden at der i øvrigt har været sager om, at køre-hvile-tids-bestemmelserne har været overtrådt, eller at studenternes sikkerhed har været på spil. Hvis der har været problemer med sikkerheden, tror jeg, at det har haft noget at gøre med indtagelsen af alkohol for de pågældende personer. Her taler jeg ikke om chaufføren, men dem, der har siddet med som passagerer. Så jeg vil da gerne kvittere for, at man nu har fundet en løsning for 2015, som kom frem i går. Men som jeg forstår kravet – og jeg kan selvfølgelig have misforstået det – og som jeg læser den meddelelse, der er kommet fra Rigspolitiet, så vil man fra august 2015 håndhæve de her nye krav om, at hvis veteranlastbiler kører studenterkørsel, som de har gjort i mange år, skal de altså have installeret den her fartskive, så der er sikkerhed for, at køre-hvile-tids-bestemmelserne er overholdt. Der vil jeg bare spørge ministeren, om ministeren ikke vil undersøge, om man kan bruge den mulighed, som f.eks. har været brugt af Nordsjællands Politi, nemlig at de gav tilladelse til studenterkørsel, på betingelse af det foregik med en maksimal hastighed på 40 km/t. Så kan man nemlig blive fritaget for det her krav om at installere fysiske ting på en veteranlastbil for at overholde køre-hvile-tids-bestemmelserne. Vil ministeren ikke overveje sådan en model eller få Rigspolitiet til at overveje sådan en model, så studenter også i 2016 og 2017 kan blive kørt i veteranlastbiler?</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429133610" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429133610.seg77">Justitsministeren.</seg>
+                </u>
+                <u who="#FrederiksenMette" xml:id="ParlaMint-DK_20150429133612" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429133612.seg78">Man kan beskylde mig for mangt og meget, men ikke at jeg sidder og regulerer, hvordan man kører studenterkørsel. Det har jeg simpelt hen ikke beskæftiget mig med. Jeg har til gengæld gjort noget andet. Da jeg blev gjort opmærksom på, at der var et problem for fremtidens studenter, bad jeg Justitsministeriet om at finde en løsning, og den er så fundet. Det ændrer jo selvfølgelig ikke på, at man skal leve op til de EU-regler, der er, ligegyldigt hvilken holdning man måtte have til dem. Jeg er sådan set glad for, at det nu er lykkedes politiet at anvise en analog vej for bl.a. veteranbiler, som er billig at installere, og at man også har meldt, at man ikke vil udstede bøder i år, så studenterne kan komme ud og køre. Det må sådan set være det vigtigste.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429133651" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429133651.seg79">Hr. Karsten Lauritzen.</seg>
+                </u>
+                <u who="#LauritzenKarsten" xml:id="ParlaMint-DK_20150429133652" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429133652.seg80">Det er der jo grund til at rose regeringen for. Men det er jo – nu vil jeg ikke være alt for polemisk – måske lidt sigende for den her regering, at man vælger sådan nogle midlertidige løsninger. Man løser problemet, som sammen med andre ting presser sig på, i år, men næste år er det så reglerne, der gælder. Det undrer mig meget, at man vælger sådan en model med at installere en analog køreskive i de her veteranlastbiler, og at man ikke bruger de muligheder, der er, for at finde en alternativ model, som de f.eks. tidligere har haft ved Nordsjællands Politi. Det er jo ikke, fordi jeg ønsker, at justitsministeren skal sidde og detailregulere, men jeg synes sådan set godt, at der kunne være behov for at se på de regler, som man nu har gjort lidt lempeligere for 2015, så vi kan få en løsning, der er mere langsigtet, og som også gælder for de følgende år.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429133739" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429133739.seg81">Justitsministeren.</seg>
+                </u>
+                <u who="#FrederiksenMette" xml:id="ParlaMint-DK_20150429133741" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429133741.seg82">Hvis jeg har forstået Justitsministeriet korrekt, kan man ikke generelt dispensere fra de regler, der er omkring køre-hvile-tid, for de gælder også for de her køretøjer. Derfor har jeg sådan set punkt 1 været optaget af, hvordan man kan sikre, at de, der synes, det er meget dyrt at installere det store apparat, får nogle andre muligheder. Det gør de med den analoge løsning. Punkt 2 er 3. g'erne jo lige nu på vej til deres eksamener, og mange har været bekymrede for, om de kunne få lov til at køre den tur, som er meget, meget festlig, og som er en rigtig fin dansk tradition, og den synes jeg ikke at der er nogen der skal berøves. Derfor har jeg været optaget af at finde en løsning, så årets studenter kan få lov til at fejre sig selv og deres klasse på behørig vis. Og så er der altså fundet en analog løsning, der også peger fremad. Jeg kan jo ikke bestemme, at man må dispensere fra EU-reglerne, hvis man ikke kan dispensere fra dem, og så må jeg jo prøve ad nogle smutveje at finde nogle andre løsninger. Og det er det, der her er lykkedes.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429133834" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429133834.seg83">Så er der en medspørger, og det er hr. Michael Aastrup Jensen som medspørger.</seg>
+                </u>
+                <u who="#JensenMichaelAastrup" xml:id="ParlaMint-DK_20150429133835" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429133835.seg84">Tak for det. Jeg synes ikke, ministeren svarer på hr. Karsten Lauritzens spørgsmål i forbindelse med det konkrete eksempel med, at man i Nordsjællands Politi har givet tilladelse til studenterkørsel. Det er ikke en undtagelse, ikke en dispensation, men der er givet tilladelse til studenterkørsel, på betingelse af at det kun foregik med maks. 40 km/t. Det er jo til det, mange fra branchen siger: Jamen så lad os da få sådan en national regel. Det kan være måden, hvorpå man kan sikre en løsning, så man ikke skal gå ud at bruge penge på at lave de her forskellige registreringer enten digitalt eller analogt. Det har man åbenbart syntes var forsvarligt nok i Nordsjællands Politi, og derfor er der selvfølgelig mange, der med rette spørger sig selv, at hvis det er forsvarligt ét sted i landet, er det så ikke forsvarligt i hele landet? Det kan da godt være, ministeren synes, det her er nede i en eller anden bestemt afdeling af mindre ting, men jeg kan love ministeren, at det altså faktisk er noget, som betyder rigtig, rigtig meget for en stor gruppe mennesker, nemlig også dem, der skal være studenter næste år og de efterfølgende år, for de står lige nu med et problem, nemlig at de ikke ved, hvordan og hvorledes studenterkørslen skal foregå.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429133943" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429133943.seg85">Justitsminsteren.</seg>
+                </u>
+                <u who="#FrederiksenMette" xml:id="ParlaMint-DK_20150429133945" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429133945.seg86">Man kunne jo også bare glæde sig over, at der er fundet en løsning, for med al respekt for, at mange spørgsmål skal rejses i Folketinget, har vi jo her at gøre med en problemstilling, som er blevet løst. For selvfølgelig skal studenterne da ud at køre studenterkørsel. Nu skal jeg være varsom med, hvilke ord jeg bruger i Folketingssalen, men det er jo – jeg ved ikke, hvad der er tilladt at sige – uproportionalt, det er i hvert fald et pænt ord, at vi overhovedet skal beskæftige os med det her som politikere, for selvfølgelig skal fremtidens studenter ud at køre studenterkørsel, og der er</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429134016" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429134016.seg87">Hr. Michael Aastrup Jensen.</seg>
+                </u>
+                <u who="#JensenMichaelAastrup" xml:id="ParlaMint-DK_20150429134019" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429134019.seg88">Ministeren bliver ved med at sige, at der er fundet en løsning. Der er fundet en løsning her i år med, at der ikke er nogen, der får en bøde. Det er da rigtigt, hvis ministeren mener, at løsningen er, at alle dem, der lige nu tilbyder studenterkørsel, skal ud og bruge penge, kroner og øre, på at købe alle mulige forskellige instrumenter, analog osv., for at de kan gå ind og vise, at de overholder køre-hvile-tids-bestemmelserne. Der er der så bare nogle, der siger: Er det sund fornuft, at de her private vognmænd skal ud og bruge mange penge på at købe de her forskellige ting, hvis man nu kunne finde en anden løsning, som måske var mere sund fornuft, nemlig at sige, at nu har man en maks.-grænse på 40 km, sådan som man har kunnet i Nordsjælland?</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429134057" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429134057.seg89">Justitsministeren.</seg>
+                </u>
+                <u who="#FrederiksenMette" xml:id="ParlaMint-DK_20150429134058" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429134058.seg90">Jeg undersøger gerne forholdene i Nordsjælland, men jeg har svært ved at se, at en kilometergrænse har at gøre med køre-hvile-tids-bestemmelserne, fordi det jo er det, vi også taler om her. Der er selvfølgelig et behov for, at alle chauffører, der fragter passagerer, er udhvilet. Det er derfor, at der er køre-hvile-tids-bestemmelser. Under alle omstændigheder er det EU-regler, vi har at gøre med her, og når jeg bliver oplyst om, at jeg ikke kan dispensere fra dem, kan jeg jo ikke dispensere fra dem. Jeg undersøger gerne det nordsjællandske eksempel, men afslutningsvis vil jeg da i hvert fald, hvis ikke Venstre vil det, glæde mig over, at studenterne lige om lidt kan få lov til at køre gader og stræder tynde og glæde sig over, at deres studentereksamen forhåbentlig er kommet i hus, og at de kan fejre det sammen med deres klassekammerater.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429134138" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429134138.seg91">Så er det hr. Karsten Lauritzen for sidste omgang.</seg>
+                </u>
+                <u who="#LauritzenKarsten" xml:id="ParlaMint-DK_20150429134142" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429134142.seg92">Tak. Der er skam grund til at give ros for den midlertidige løsning, der er fundet, og det gør vi gerne, men vi havde hellere set en permanent løsning. Og når man spørger Kommissionen om EU-reglerne – og det er der jo en af vores parlamentariske kollegaer i Europa-Parlamentet der har gjort – får man det svar, og det er det svar, som Kommissionen har givet det pågældende europaparlamentsmedlem, at Kommissionen ikke umiddelbart mener, at de her regler om køre-hvile-tids-bestemmelser skal gælde for veteranbiler, der kører med studenter. Det er bare det, man undrer sig lidt over: Man får ét svar, når man spørger Rigspolitiet – de siger: Sådan er EU-reglerne, vi kan intet gøre – og når man så spørger nede i Kommissionen, får man et andet svar. Derfor vil min anbefaling her til sidst blot være, at jeg synes, at justitsministeren skulle undersøge, om det nu virkelig er sådan, at EU-reglerne lægger os i denne spændetrøje, når det handler om noget så simpelt og traditionsbundet som studenterkørsel, hvor man ikke umiddelbart vil kunne sige at der har været problemer med køre-hvile-tids-bestemmelserne.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429134236" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429134236.seg93">Justitsministeren.</seg>
+                </u>
+                <u who="#FrederiksenMette" xml:id="ParlaMint-DK_20150429134237" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429134237.seg94">Hvis Kommissionen har givet et svar, der er anderledes end det, jeg er blevet oplyst om, så lad mig endelig se det svar, så der eventuelt kan korrigeres, hvis det er rigtigt.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429134246" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429134246.seg95">Spørgsmålet er sluttet. Det næste spørgsmål stillet til justitsministeren er af hr. Michael Aastrup Jensen.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 1118: Om anmeldelse af butikstyverier.</head>
+            <note type="agendaItem">2015-04-29-1-6</note>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429134255" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429134255.seg96">Værsgo.</seg>
+                </u>
+                <u who="#JensenMichaelAastrup" xml:id="ParlaMint-DK_20150429134257" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429134257.seg97">Tak. Spørgsmålet lyder: Deler ministeren flere århusianske butiksejeres følelse af, at det er krænkende for retsbevidstheden, når politiet ikke kommer ud ved anmeldelse af butikstyverier, og at de blot får besked fra politiet på selv at få tyven til at underskrive anmeldelsen, og agter ministeren at gøre noget i den henseende?</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429134315" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429134315.seg98">Justitsministeren.</seg>
+                </u>
+                <u who="#FrederiksenMette" xml:id="ParlaMint-DK_20150429134316" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429134316.seg99">Jeg kan forstå fra omtalen i medierne, at der skulle være nogle butikker i Aarhus, hvor de har oplevet butikstyveri, og at politiet så ikke er kommet efterfølgende, når man har pågrebet tyven. I medierne er det gengivet sådan, at politiet skulle have bedt butiksejerne om at få butikstyven til at underskrive og dermed erkende skylden. Jeg har ikke ud over den mediemæssige viderebringen kendskab til de konkrete sager, og derfor kan jeg ikke kommentere de konkrete forhold, for det vil kræve, at jeg får oplysninger fra Rigspolitiet, og det ligger uden for besvarelsen af spørgsmålet. Men jeg vil gerne sige helt generelt, hvad angår butikstyveri, at politiet selvfølgelig skal komme, når der er brug for det. Det gælder sådan set ved alle kriminalitetsformer.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429134409" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429134409.seg100">Hr. Michael Aastrup Jensen.</seg>
+                </u>
+                <u who="#JensenMichaelAastrup" xml:id="ParlaMint-DK_20150429134411" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429134411.seg101">Jamen det er vi jo enige i, og det er derfor, jeg er glad, hvis det så også betyder en håndsrækning fra ministerens side, og at man vil følge op på sagen og få kigget lidt på, hvad det er, der har ligget til grund for, at Østjyllands Politi ikke har rykket ud. Der er et citat fra Østjyllands Politi, hvor en politiinspektør Jørn Kjer udtaler, at det jo kommer an på ressourcefordelingen. Og når de simpelt hen ikke har ressourcerne til at rykke ud, kan de jo ikke rykke ud. Og jeg bliver jo straks nervøs over det her problem, som opfattes som meget alvorligt i Aarhus. Altså, vi skal jo ikke glemme, at her er der en lang række butiksindehavere, som siger, at de måske står med en truende butikstyv, og så skal de få butikstyven til at skrive under på, at vedkommende er en tyv osv. Og de føler, at de lige pludselig er kommet ud i en eller anden politimæssig opgave, og det kan de slet ikke lide. De er meget nervøse over det og synes – hvilket jeg også synes er rigtigt – at det må være en politimæssig opgave. Men det, jeg er nervøs for, er jo, hvis ressourcefordelingen f.eks. i forhold til de 200 mio. kr. til fotovogne eller noget andet gør, at politiet så ikke har ressourcerne til at rykke ud, når butiksindehaverne har store problemer med butikstyveri. For så er det, jeg synes, det er en politisk beslutning, og det er også en politisk beslutning, som er forkert. Og så er det ikke noget, som er Østjyllands Politis problem, så er det et nationalt problem, som jeg synes man skal have en politisk diskussion af. Derfor må spørgsmålet jo også være mere relevant for ministeren end det, ministeren giver udtryk for her i dag i sin besvarelse til mig. Kan man ikke godt se, at der må være et eller andet galt med ressourcefordelingen? For jeg går ikke ud fra, at Østjyllands Politi ikke kan finde ud af at læse et regneark. Jeg går ud fra, at Østjyllands Politi godt kan se, hvad det er, de har betjente til, hvad det er, de har ressourcer til. Her kan de altså se, at de ikke har betjentene til det, fordi de bliver stillet over for forskellige krav, bl.a. det med fotovogne. Så er ministeren ikke enig i, at det her er en politisk diskussion, og at der også er politisk behov for, at man går ind og kigger på den her ressourcefordeling?</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429134605" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429134605.seg102">Justitsministeren.</seg>
+                </u>
+                <u who="#FrederiksenMette" xml:id="ParlaMint-DK_20150429134607" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429134607.seg103">Jamen alt, hvad angår politiet, er jo for så vidt en politisk diskussion, og hvis Venstre er meget optaget af at prioritere butikstyveri, er det jo noget, man skal tage med sig til forhandlingerne om en ny flerårig aftale for dansk politi, som vi snart påbegynder forhandlingerne om. Derudover er der altså også en politifaglig ledelsesopgave her, for selvfølgelig vil der være indbrudstyper, hvor det ikke er nødvendigt at tilkalde politiet. Hvis du har at gøre med en tyv, der ikke er truende, men som vedkender sig skyld og ansvar med det samme, er det ikke sikkert, det er en rigtig måde at disponere sine politiressourcer på at skulle køre ud til det. Omvendt kan der jo være mange andre eksempler, hvor tyveriet eller endnu værre røveriet har en sådan karakter, at politiet selvfølgelig skal være til stede. Men det er altså en politifaglig vurdering.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429134650" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429134650.seg104">Hr. Michael Aastrup Jensen.</seg>
+                </u>
+                <u who="#JensenMichaelAastrup" xml:id="ParlaMint-DK_20150429134652" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429134652.seg105">Altså, jeg synes, det er lidt nemt at sige, at det er en politimæssigt faglig vurdering, for politiet svarer jo, at det her er et spørgsmål om ressourcer. Politiet bliver stillet over for forskellige krav om, hvordan og hvorledes de anvender deres ressourcer, og derfor er det jo ikke bare politiet, der bestemmer, hvor de vælger at anvende de ressourcer. Det er jo en politisk beslutning, og der har regeringen bl.a. besluttet, at man skal bruge over 200 mio. kr. på fotovogne. Og derfor forstår jeg ikke, at man bare hele tiden prøver at holde det fra sig. Jeg forstår godt, at det er lidt nemt, men en gang imellem skal man ikke bare gøre det, der er nemt, man skal også gøre det, der betyder noget. Og i forhold til Aarhus, hvor det her er et kæmpeproblem for en lang række butiksindehavere, forventer vi altså andet end bare lidt løs politikersnak.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429134731" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429134731.seg106">Justitsministeren.</seg>
+                </u>
+                <u who="#FrederiksenMette" xml:id="ParlaMint-DK_20150429134733" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429134733.seg107">Jeg forsøger sådan set aldrig at gøre noget nemt. Jeg vedkender mig, at der selvfølgelig er en prioritering i forhold til dansk politi, og det skal der også være, for der er mig bekendt ikke nogen her i Folketinget, der har uanede ressourcer, heller ikke til dansk politi. Så selvfølgelig er der en prioritering, og det må vi vedstå os. Venstre har selv været med til at skabe rammerne for den økonomi, der omgiver dansk politi, og derfor vil jeg gerne gentage, at hvis butikstyveri i Venstres øjne er en særlig prioritet, må man jo tage det med til forhandlingsbordet. Og det ændrer ikke på, at indtil da er det en politimæssig opgave at sørge for at være til stede, når der bliver begået kriminalitet i Danmark. Det vedrører også butikstyveri, men – igen – det ændrer ikke på, at der kan være eksempler, hvor det ikke er relevant eller nødvendigt, at politiet er til stede. Det er en politifaglig vurdering.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429134816" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429134816.seg108">Så er det hr. Karsten Lauritzen som medspørger.</seg>
+                </u>
+                <u who="#LauritzenKarsten" xml:id="ParlaMint-DK_20150429134819" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429134819.seg109">Tak. Jamen vi kommer gerne til møde i politiforligskredsen, når ministeren inviterer, og hvis ministeren vil invitere til forhandlinger omkring flerårsaftalen, kan vi for vores skyld gerne starte allerede nu. Der er problemer i dansk politi. Jeg kommer lige oppe fra Nordsjælland fra et møde med 150 medlemmer af Politiforbundet, og de kan komme med, undskyld mig udtrykket, en lidt anden udlægning af virkeligheden end den, justitsministeren kommer med her. Men det skal vi ikke diskutere videre. Jeg er sådan set ligesom min kollega hr. Michael Aastrup Jensen optaget af at finde ud af det. Vi har nok et problem, det er i hvert fald den erkendelse, vi er nået til i Venstre, i forhold til at politiet ikke rykker ud til de her simple tyverisager. Man har selvfølgelig en servicedeklaration, men der er altså et problem. Den erkendelse er vi kommet til. Vi vil gerne være med til at løse den opgave, og så må vi i fællesskab finde ud af hvordan. Jeg hører dog ikke det, ministeren siger, som en egentlig erkendelse af, at man har et problem på det her område. Ministeren siger bare, at politiet selvfølgelig skal komme, når man ringer. Men det ville være rart, hvis ministeren ville erkende her, at vi nok har et problem på det her område, og sige ja til, at vi så må se på det. I stedet siger ministeren, at hvis det her er et problem, må Venstre komme og påpege det i forhandlingerne. Jo, jo, det skal vi nok gøre. Men det ville være rart, hvis ministeren her i salen i dag sagde, at det er ministeren enig i, og at vi finder en løsning på det i fællesskab.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429134932" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429134932.seg110">Ministeren.</seg>
+                </u>
+                <u who="#FrederiksenMette" xml:id="ParlaMint-DK_20150429134933" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429134933.seg111">Men omvendt kan det jo ikke nytte noget, at jeg står hernede i salen, og det er vel nærmest hver dag, når Folketinget har møde, og lover flere penge til den ene og den anden og den tredje opgave hos politiet, for vi bliver selvfølgelig nødt til at se politiets opgaveportefølje under et. Derfor er min holdning den, jeg har givet udtryk for, nemlig at politiet i princippet skal være til stede, når der bliver begået kriminalitet i Danmark, hvis det anmeldes, og hvis der bliver ringet efter politiet. Men det ændrer selvfølgelig ikke på, at der er en prioritering, for der kan være tilspidsede situationer, hvor man ikke kan være til stede, der kan være sammenhænge, hvor vi prioriterer politiets opgaver anderledes, og der er også eksempler på tyveri, hvor det vil være forkert af mig at påstå, at politiet skal være til stede. Hvis du eksempelvis har at gøre med en butikstyv, der med det samme vedkender sig sin skyld og underskriver, så er jeg ikke sikker på, at det er den rigtige måde at bruge vores meget, meget dygtige politifolk på, hvis man forlanger, at de skal være til stede der. Der kan være mange andre situationer, hvad angår butikstyveri, hvor politiet skal være til stede, og så er det en ledelsesmæssig opgave at sørge for, at ressourcerne prioriteres.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429135034" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429135034.seg112">Hr. Karsten Lauritzen.</seg>
+                </u>
+                <u who="#LauritzenKarsten" xml:id="ParlaMint-DK_20150429135035" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429135035.seg113">Jamen det har ministeren for så vidt ret i, men jeg synes måske, justitsministeren skylder at fortælle i hvert fald tilhørerne – jeg tror nok, hr. Michael Aastrup Jensen og jeg er klar over det – at regeringen jo har valgt at prioritere nogle andre ting. Og at politiet prioriterer, som de gør, er jo en følge af den politiske prioritering, vi har haft. Og der har – ikke den nuværende justitsminister og heller ikke den foregående, men den foregående igen – den første, hr. Morten Bødskov, prioriteret 225 mio. kr. til mere fartkontrol. Det er penge, man kunne have bevilget til at løse det her problem med butikstyve. Der har regeringen valgt fartkontrollen som det vigtigste, ikke butikstyvene. Det er jo et fair valg, men det er vi uenige i i Venstre, og det synes jeg sådan set bare at regeringen skulle være ved i stedet for at sige, at det her udelukkende handler om prioritering. Der bliver prioriteret, og et af problemerne er, at regeringen har prioriteret lidt forkert.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429135127" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429135127.seg114">Justitsministeren.</seg>
+                </u>
+                <u who="#FrederiksenMette" xml:id="ParlaMint-DK_20150429135128" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429135128.seg115">Men er det en korrekt gengivelse, at det, der har været den her regerings primære prioritet på politiområdet, er færdselskontrol? Nej, det er ikke en korrekt gengivelse. Vi har eksempelvis prioriteret den organiserede kriminalitet, rocker-bande-problemstillingen. Der har vi en kraftig tilstedeværelse af dansk politi. Skal det nedprioriteres? Ikke hvis du spørger mig – sagde jeg i overført betydning, for jeg må hverken sige du eller jeg, så det var en talemåde. Vi har prioriteret indsatsen imod terror. Selvfølgelig har vi det efter et terroranslag i København. Skal det nedprioriteres? Det mener jeg ikke. Vi har prioriteret indsatsen for at få udsendt flere udlændinge, der begår kriminalitet her, af Danmark. Skal det nedprioriteres? Ikke hvis du spørger mig. Sådan kunne jeg fortsætte. Derfor vil jeg virkelig appellere og sige, at når vi taler om politiets ressourcer, giver det ikke mening at tage et enkelt element ud, som vi kan diskutere for sig. Vi bliver nødt til at se det i en sammenhæng, for dansk politi står over for rigtig mange forskellige opgaver, kriminaliteten flytter sig. Mange af vores kriminelle bliver stadig dygtigere, og derfor skal vi kunne det samme. Det betyder ikke, at butikstyveri ikke er vigtigt eller væsentligt og ikke kan være krænkende for den enkelte butiksejer og for medarbejderen, for selvfølgelig kan det det. Men at stå og love, at politiet altid skal komme til et butikstyveri, vil være en forkert måde at prioritere politiets ressourcer på, og lur mig, om ikke partiet Venstre i virkeligheden også mener det.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429135242" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429135242.seg116">Så er det hr. Michael Aastrup Jensen i sidste omgang.</seg>
+                </u>
+                <u who="#JensenMichaelAastrup" xml:id="ParlaMint-DK_20150429135245" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429135245.seg117">Vi kommer det nok desværre ikke meget nærmere, fordi det, ministeren jo glemmer i den lange talestrøm, er igen og igen den ekstra fartkontrol – 225 mio. kr.! Vi har 100 fotovogne, som er rundtom i landet. De 100 fotovogne og de 225 mio. kr. kunne gøre en kæmpe forskel i forhold til f.eks. butikstyveribekæmpelse. Det ville betyde, at de århusianske butiksindehavere ikke behøvede at være politibetjente og selv skulle sørge for at få de her underskrifter ud af butikstyvene. Så man kan altså godt lave en politisk prioritet, hvis man altså vil det.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429135319" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429135319.seg118">Justitsministeren.</seg>
+                </u>
+                <u who="#FrederiksenMette" xml:id="ParlaMint-DK_20150429135320" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429135320.seg119">Vi foretager hele tiden en politisk prioritet, og den står jeg fuldt ud ved. Jeg vil dog appellere til, at færdselskontrollen og indsatsen på vejene for at undgå de dødsulykker, som i øvrigt dominerer ikke mindst de jyske landeveje, også tages med i betragtning, når Venstre tilrettelægger sin holdning og sin politik vedrørende dansk politi, fordi det at sikre, at flere overlever på vores veje, mener jeg sådan set også er en væsentlig opgave, både for dansk politi, men også for det danske Folketing.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429135348" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429135348.seg120">Spørgsmålet et sluttet. Det næste spørgsmål er til justitsministeren af fru Eva Kjer Hansen.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 1134: Om manglende besvarelse af Europaudvalgets spørgsmål 4, alm. del.</head>
+            <note type="agendaItem">2015-04-29-1-7</note>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429135359" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429135359.seg121">Værsgo.</seg>
+                </u>
+                <u who="#HansenEvaKjer" xml:id="ParlaMint-DK_20150429135401" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429135401.seg122">Tak. Jeg vil gerne spørge justitsministeren, om det efter ministerens opfattelse er god regeringsførelse først at udsætte besvarelsen af Europaudvalgets spørgsmål 4, alm. del, som er stillet den 13. oktober 2014, med 4-6 uger for derefter mere end et halvt år senere, som det jo er nu, slet ikke at have svaret på spørgsmålet og ej heller har meldt tilbage, når der rykkes for, hvornår ministeren forventer at svare.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429135425" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429135425.seg123">Justitsministeren.</seg>
+                </u>
+                <u who="#FrederiksenMette" xml:id="ParlaMint-DK_20150429135426" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429135426.seg124">Svaret bliver noget nuanceret fra min side, for normalt vil jeg selvfølgelig altid sige, at nej, det er ikke god regeringsførelse, at der er så lang en svarfrist. Og jeg har sådan set brugt mange kræfter, ikke mindst som justitsminister, på at få de mange overskridelser af tidsfrister fra Justitsministeriet bragt ned, og det er også lykkedes, vi er i rigtig, rigtig god gænge, hvilket ikke mindst Retsudvalget også er glade for. Alt andet er jo heller ikke rimeligt. Den her sag er jo en lille smule mere tricky, synes jeg, for det, der bliver spurgt til – i øvrigt lige efter jeg tiltrådte som minister – er, at jeg skal redegøre for samtlige 28 EU-landes vilkår for asylansøgere og asylansøgere med opholdstilladelse, både i forhold til sociale ydelser, boligstøtte, adgang til skole og adgang til sundhed. Det er et kæmpestort spørgsmål. Vi har ikke den viden i Danmark, det kræver, at der indhentes oplysninger fra hvert enkelt land, samtidig med at man selvfølgelig skal overveje, om det er sammenligneligt informationsmateriale, man har. Derfor redegør jeg for spørgeren i starten af november måned, at det her er komplekst, spørgsmålet har et meget, meget stort omfang, og at vi ikke kan love et sammenligneligt resultat, som spørgeren i øvrigt kan bruge til noget. Så aftaler vi derefter med spørgeren, at vi kan få antallet af lande ned – jeg vil gerne takke for sådan et samarbejde, det synes jeg er godt; så skal der være høringer i de enkelte lande, det er Udenrigsministeriet, der bistår os der; så er der noget national koordination med andre ministerier, fordi der også bliver spurgt til eksempelvis sundhed; og så har det vist sig, at det har været nødvendigt med en supplerende høring, som har taget tid. Den supplerende høring er netop afsluttet, og derfor kan vi snart besvare spørgsmålet. Så mit svar er, samlet set, at vi skal skynde os alt, hvad vi kan. Det er godt nok et svært spørgsmål, der er stillet, og derfor har det altså taget ekstra lang tid.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429135620" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429135620.seg125">Fru Eva Kjer Hansen.</seg>
+                </u>
+                <u who="#HansenEvaKjer" xml:id="ParlaMint-DK_20150429135621" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429135621.seg126">Jeg takker for ministerens svar om, at nu kommer det snart, og det vil jeg selvfølgelig gerne spørge uddybende til. Hvad betyder »snart«? Det spørger jeg også om, fordi jeg den 31. oktober, altså godt 14 dage efter at jeg havde stillet spørgsmålet, faktisk fik et skriftligt svar fra ministeren om, at jeg ville få svar inden for 4-6 uger. Jeg har fuld forståelse for, at det er mange oplysninger, der skal indhentes, og det er jo også derfor, vi har snakket om at begrænse antallet af lande. Men det, der jo er meget generende i arbejdet, er ikke at kunne få en tidsramme og ikke at kunne få en melding, selv når Folketinget rykker for, hvornår der bliver svaret på, hvornår det rent faktisk sker. Så hvad betyder »snart«?</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429135702" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429135702.seg127">Ministeren.</seg>
+                </u>
+                <u who="#FrederiksenMette" xml:id="ParlaMint-DK_20150429135702-2" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429135702-2.seg128">Det betyder snart. Jeg har ikke en dato med, men det skulle være inden for allerallernærmeste fremtid. Men jeg vil i øvrigt gerne sige, at selvfølgelig skal det være sådan, at hvis vi ikke kan besvare inden for fristerne, er det kun rimeligt, at Folketinget får oplyst, hvornår vi forventer at kunne gøre det, og hvis det også overskrides, skal Folketinget have besked, og hvis det ikke er sket i det her tilfælde, er det en fejl.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429135723" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429135723.seg129">Fru Eva Kjer Hansen.</seg>
+                </u>
+                <u who="#HansenEvaKjer" xml:id="ParlaMint-DK_20150429135724" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429135724.seg130">Jeg kan så bare oplyse ministeren om, at det ikke er sket til trods for et utal af henvendelser. Og det ville have været dejligt at få det svar eller også at få det delvist oplyst, når man havde et vist antal lande, for overhovedet at kunne komme videre i processen. Jeg vil i virkeligheden ikke forhale sessionen, men kvittere for, at ministeren siger, at jeg snart får svar, og så vil jeg gå ud fra, at med snart taler vi i virkeligheden om, at det bliver inden for nogle dage.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429135752" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429135752.seg131">Ministeren.</seg>
+                </u>
+                <u who="#FrederiksenMette" xml:id="ParlaMint-DK_20150429135753" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429135753.seg132">Jeg har fået vide, at det skulle være i den allernærmeste fremtid, men må jeg ikke foreslå, at vi, når jeg kommer tilbage til ministeriet, lige får sendt en mail til spørgeren om, hvornår allernærmeste fremtid så er.</seg>
+                </u>
+                <u who="#HansenEvaKjer" xml:id="ParlaMint-DK_20150429135806" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429135806.seg133">Det vil jeg gerne kvittere for og dermed overflødiggøres også mit andet spørgsmål, fordi ministeren jo dermed allerede har håndteret det ved at sige, at det bliver besvaret inden for en tidsramme, der hedder snart.</seg>
+                </u>
+                <u who="#FrederiksenMette" xml:id="ParlaMint-DK_20150429135817" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429135817.seg134">Okay.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429135819" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429135819.seg135">Det vil sige, at spørgsmål nr. 8 hermed bortfalder. Tak til spørgeren, og tak til justitsministeren, som dermed også er frigjort til andet arbejde. Det næste spørgsmål er til uddannelses- og forskningsministeren af Annette Vilhelmsen, men jeg ser ikke fru Annette Vilhelmsen. Så går vi videre til næste spørgsmål, som er til beskæftigelsesministeren, som vi lige giver en lille chance, fordi vi sprang et spørgsmål over, men hvis uddannelses- og forskningsministeren lige vil afvente, at vi tager det næste spørgsmål, så prøver vi at redde det på den måde. Hr. Steen Gade har stillet spørgsmål til beskæftigelsesministeren.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 1132: Om ATP's samfundsansvar.</head>
+            <note type="agendaItem">2015-04-29-1-10</note>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429135902" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429135902.seg136">Værsgo.</seg>
+                </u>
+                <u who="#GadeSteen" xml:id="ParlaMint-DK_20150429135904" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429135904.seg137">Tak. I lyset af, at Cheminova har generalforsamling i morgen, vil jeg gerne stille ministeren, der har ansvaret for ATP, følgende spørgsmål: Er ministeren enig i, at ATP foruden hensyn til økonomisk afkast også har et bredere samfundsansvar, som mindst er på linje med øvrige virksomheders?</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429135929" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429135929.seg138">Beskæftigelsesministeren.</seg>
+                </u>
+                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20150429135931" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429135931.seg139">Jeg vil gerne starte med at slå fast, at Arbejdsmarkedets Tillægspension, som vi jo i daglig tale kalder ATP, jo ledes af en direktør, en bestyrelse og et repræsentantskab, hvis medlemmer for de flestes vedkommende er udpeget efter indstilling fra arbejdsmarkedets parter. Jeg tror også, at det er bekendt, at jeg som beskæftigelsesminister ikke har instruktionsbeføjelser i relation til ledelsen af ATP. Formålet med ATP er at sikre lønmodtagerne de bedst mulige pensioner. Det fremgår faktisk meget klart af loven. Det er derfor omdrejningspunktet for ATP's investeringsvirksomhed, at ATP ikke må bruge medlemmernes pensionspenge til andre formål. Det ville ganske enkelt være i strid med loven. ATP har oplyst over for mig, at ATP samtidig har forpligtet sig til at praktisere aktivt og socialt ansvarligt ejerskab i forhold til deres investeringer. ATP's bestyrelse har således fastlagt en overordnet ramme for, hvordan samfundsansvaret integreres i ATP's investeringsbeslutninger. Konkret betyder det bl.a., at de virksomheder, som ATP køber aktier i, skal respektere lov og ret i de lande, hvor de opererer. Derudover skal virksomhederne respektere de regler, normer og standarder, der følger af konventioner og andre internationale aftaler, som Danmark har tiltrådt i regi af f.eks. EU og FN. Det gælder, uanset om de lande, som selskabet opererer i, har tiltrådt disse konventioner. Jeg vil til slut tilføje, at det for mig selvfølgelig er vigtigt, at ATP forvalter sine investeringer til bedst mulig gavn for sine medlemmer, og at de sikrer et så godt grundlag for deres pensioner som overhovedet muligt.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429140103" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429140103.seg140">Hr. Steen Gade.</seg>
+                </u>
+                <u who="#GadeSteen" xml:id="ParlaMint-DK_20150429140105" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429140105.seg141">Tak for svaret. Jeg ved klart, at beskæftigelsesministeren ingen instruktionsbeføjelser har, men det er heller ikke det, jeg har spurgt om. Jeg har spurgt, om det er beskæftigelsesministerens synspunkt, at ATP også skal vise samfundsansvar. Det har jeg forstået at ATP også mener, og så regnede jeg med, at det betød, at det mener ministeren også. Okay. Jeg har også læst, at ATP har fået en pris for deres samfundsansvar, en pris, som handlede om, at nydanske kvinder blev hjulpet ind på arbejdsmarkedet, og stor ros til ATP for det, men, hr. beskæftigelsesminister, har det ikke kostet penge for ATP? Og kunne ATP i deres CSR-politik, som det hedder med et fint ord, så ikke også godt have besluttet, at de gav penge til oprydningen efter et giftdepot, som de har været med til at tjene penge på via den produktion, der har været med til at lave det?</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429140205" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429140205.seg142">Ministeren.</seg>
+                </u>
+                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20150429140206" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429140206.seg143">Det er meget forståeligt, at vi sådan nu her også bevæger os lidt ind på det næste spørgsmål. Det, jeg redegjorde for, var det der samfundsansvar, som ATP har, som handler om at følge internationale konventioner osv., og så gjorde jeg også meget klart, hvad lovgrundlaget er for det her, og det er faktisk ikke noget nyt. Det er faktisk helt tilbage til, da ATP blev etableret i 1963, hvor man også diskuterede det her, hvor daværende arbejdsminister Erling Dinesen tilkendegav, at man ikke må placere pengene, så der drives aktiv erhvervspolitik. Så der er nogle meget klare lovgrundlag for, hvordan ATP kan investere sine penge, som handler om, at der skal være det bedste afkast og forrentning af den pension, som borgerne har brug for, og det er det, der er lovgrundlaget. Uanset hvad jeg måtte have lyst til, og hvad jeg måtte have af ønsker osv., så er der et klart lovgrundlag på det her område.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429140302" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429140302.seg144">Hr. Steen Gade.</seg>
+                </u>
+                <u who="#GadeSteen" xml:id="ParlaMint-DK_20150429140303" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429140303.seg145">Ja, der er et klart lovgrundlag, og jeg står også med det her. Det har betydet, at Cheminova mener, at de skal have en politik for samfundsansvar, og det er jeg fuldstændig enig i at enhver hæderlig virksomhed skal have, og det koster penge. Og hvis man har det, er logikken jo altså også, at man så selv må bestemme – inden for lovens rammer – hvad man bruger det til. Og når man må bruge det til at få nydanskere i arbejde – hvad der efter min mening er et fuldstændig hæderligt formål – så mener jeg jo heller ikke, at det kan være i modstrid med loven, at man bruger det på andre formål. Jeg ved ikke, om ministeren har en kommentar til det.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429140348" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429140348.seg146">Ministeren.</seg>
+                </u>
+                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20150429140350" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429140350.seg147">Jeg har den kommentar, som også vil fremgå af mit svar på det næste spørgsmål, at der er faldet en dom i den her sag, og jeg har ikke instruktionsbeføjelse i forhold til ATP og dets bestyrelse, og hvordan den forvalter det. Jeg har et lovgrundlag, som jeg har refereret for hr. Steen Gade nu her, og jeg vil gerne sige, at det lovgrundlag er forholdsvis firkantet. Det handler om, at ATP skal forvalte sine penge, så det er til størst mulig gavn for pensionen for kommende pensionister, og det er jo selvfølgelig også et ædelt og godt formål.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429140424" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429140424.seg148">Så er det hr. Steen Gade for at afslutte.</seg>
+                </u>
+                <u who="#GadeSteen" xml:id="ParlaMint-DK_20150429140425" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429140425.seg149">Jeg vil bare slutte af med at læse det op, som jeg i hvert fald har fundet i loven, og det er, at man skal bruge sin kapital på en hensigtsmæssig og for medlemmerne tjenlig måde, således at der er betryggende sikkerhed for, at Arbejdsmarkedets Tillægspension til enhver tid kan opfylde sine forpligtelser. Ved midlernes anbringelse skal der tilstræbes en opretholdelse af midlernes realværdi. Det lader vi lige stå og blinke, indtil jeg går til det næste spørgsmål.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429140454" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429140454.seg150">Ministeren.</seg>
+                </u>
+                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20150429140455" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429140455.seg151">Jeg vil bare sige til hr. Steen Gade, at jeg i den her situation ikke bevæger mig ud i nogen juridisk fortolkning, det er jeg ganske enkelt ikke klædt på til, og derfor er det selvfølgelig korrekt, at det er det rigtige, hr. Steen Gade har læst op. Det er også korrekt, hvad jeg har sagt om, at loven er forholdsvis klar på det her område, med hensyn til hvad bevægelsesmulighederne er for ATP.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429140516" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429140516.seg152">Spørgsmålet er sluttet. Vi tager også spørgsmål 11, fordi det hænger direkte sammen med det her – det er også til beskæftigelsesministeren af hr. Steen Gade – og derefter går vi tilbage til spørgsmål 9.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 1133: Om ATP.</head>
+            <note type="agendaItem">2015-04-29-1-11</note>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429140525" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429140525.seg153">Værsgo.</seg>
+                </u>
+                <u who="#GadeSteen" xml:id="ParlaMint-DK_20150429140533" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429140533.seg154">Det spørgsmål lyder så i forlængelse af det sidste spørgsmål: Kan ministeren bekræfte, og mener ministeren i givet fald, at det er tilfredsstillende, at ATP som aktionær ikke kan stemme for et forslag om at bruge en del af afkastet fra salget af Cheminova til at fjerne giftdepotet ved Høfde 42, og at forslaget derfor risikerer at falde, fordi der ikke er et kvalificeret flertal?</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429140551" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429140551.seg155">Beskæftigelsesministeren.</seg>
+                </u>
+                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20150429140552" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429140552.seg156">Jeg er ikke sikker på, at hr. Steen Gade bliver så glad for mit svar nu her, men jeg må jo læse det svar op, som er det juridisk korrekte svar, og det er som følger: Det følger ganske enkelt af loven, at medlemmernes pensionspenge ikke må bruges til andet end det, der fremgår af dette formål. Det vil være i strid med loven, hvis ATP giver sig til at forfølge andre formål. ATP har aktier i Auriga, tror jeg det hedder, som ejes af Cheminova. En dom fra Vestre Landsret fastslår, at Auriga ikke er forpligtet til at betale til oprydningen på Harboøre Tange, og det vil være i strid med ATP's formål og i strid med loven at støtte en oprydning, der vil få negativ økonomisk betydning for ATP's medlemmer. Forskningsfonden ved Aarhus Universitet har stillet forslag om, at aktionærerne i Auriga skal give et større beløb til en fond, som skal finansiere oprydningen på Harboøre Tange. ATP har over for mig oplyst, at ATP vil følge Aurigas bestyrelses indstilling om ikke at stemme for forskningsfondens forslag på generalforsamlingen. Det er sådan set det svar, som jeg kan give, hvor man også kan ihukomme det, jeg sagde indledningsvis om instruktionsbeføjelser og det klare lovgrundlag, og så kan vi alle sammen have følelser i forhold til Harboøre Tange og Høfde 42. Jeg tror, hr. Steen Gade og jeg har været med i så mange år, at det har fulgt os i hele vores politiske arbejde, men det er så en helt anden historie.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429140709" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429140709.seg157">Steen Gade.</seg>
+                </u>
+                <u who="#GadeSteen" xml:id="ParlaMint-DK_20150429140709-2" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429140709-2.seg158">Beskæftigelsesministeren har fuldstændig ret i, at jeg ikke blev særlig glad for svaret. Jeg synes også, det var unødig formalistisk. Det er jo, fordi jeg sådan set har stillet et spørgsmål om ministerens holdning, men den forstår jeg så er gemt et andet sted. Det er jo interessant, når vores miljøminister har givet udtryk for, at hun synes, at virksomheden har et moralsk ansvar, og hvis virksomheden har et moralsk ansvar, er det jo også ATP. Jeg ved ikke, hvordan ministeren egentlig har det med den oplevelse af, at den største kapitalist i den her sammenhæng – altså Aarhus Universitet – godt vil være med til at betale for noget oprydning, mens forvalterne af lønmodtagernes kapital siger nej, på trods af at vi lige blive enige om, at de også føler et samfundsansvar og har en politik for samfundsansvar.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429140813" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429140813.seg159">Ministeren.</seg>
+                </u>
+                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20150429140814" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429140814.seg160">Det at være minister er på alle måder spændende og udfordrende, og man har nogle gange rig mulighed for at komme med meget klare politiske tilkendegivelser, mens man andre gange bliver nødt til at stå på en anden grund, fordi man også er forvalter af loven og står til ansvar over for Folketinget. Det er sådan set den sidste opgave, jeg har påtaget mig i spørgerunden her. Jeg tror, at jeg har forsøgt at beskrive meget præcist, hvad formålet er med loven, hvad der er det lovlige i det her, og det er negative svar i forhold til den indgangsvinkel, som hr. Steen Gade har til det. Jeg refererede helt tilbage til lovens grundlæggelse i 1963, og jeg kan jo ikke andet som minister, som har ansvaret på det her område, end at referere det lovgrundlag, der er, og den juridiske vurdering af den her sag, som kommer op til mig. Sådan er det jo også en gang imellem.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429140909" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429140909.seg161">Hr. Steen Gade for en afslutning.</seg>
+                </u>
+                <u who="#GadeSteen" xml:id="ParlaMint-DK_20150429140916" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429140916.seg162">Jamen lovgrundlaget kan ministeren jo ikke gøre noget ved, men min kritik går på den stramme fortolkning af, hvad det betyder, og her kommer vi tilbage til den diskussion, vi havde før, om, at alle virksomheder i dag, der er hæderlige, har en politik for social corporate responsibility, på dansk samfundsansvar. Det har Cheminova også, og derfor er det min påstand, at man lever fuldt ud op til sit formål som ejer ved også at være med til at rydde op her. Og det er jo altså 7 mio. kr. ud af en aktiepost på 494 mio. kr., tror jeg det her handler om. Så det er vel et beløb, der svarer til det, man måske har brugt på en anden samfundsansvarsopgave, man har påtaget sig, nemlig at uddanne nydanskere. Jeg føler bare, at ministeren har en unødig snæver fortolkning her, for selve det, at en virksomhed har en politik om samfundsansvar, betyder jo, at man på nogle områder fraviger princippet om størst muligt afkast.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429141026" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429141026.seg163">Ministeren.</seg>
+                </u>
+                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20150429141030" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429141030.seg164">Jamen jeg vil gerne forsikre hr. Steen Gade om, at jeg ikke er specielt formalistisk her. Jeg vil også sige til hr. Steen Gade, at nogle af § 20-spørgsmålene bruger man noget tid på at forberede, og andre behøver man ikke så meget forberedelse til. Jeg har brugt tid på det her, fordi jeg gerne vil være helt sikker på, hvad mit svar er, og mit svar er, at med den forhistorie, der er her, og den måde, loven er skruet sammen på, ville det ikke være lovligt. Beklager, men det er den fortolkning, der er. Og jeg skal så ikke ind i en diskussion med hr. Steen Gade og lave en juridisk fortolkning, for det er jeg ikke klædt på til. Men det er det svar, som jeg kan bringe på baggrund af den her sag.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429141107" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429141107.seg165">Der er en kort bemærkning til fra hr. Steen Gade.</seg>
+                </u>
+                <u who="#GadeSteen" xml:id="ParlaMint-DK_20150429141114" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429141114.seg166">Jeg anfægter, som ministeren kan høre, fortolkningen. Jeg tror, den er for stram. Det kan vi ikke færdiggøre her i dag, men hvis ministeren mener, at vi er derhenne, hvor det ikke kan lade sig gøre, kunne det jo være interessant at følge op på det, måske ikke i dag, men så en anden dag, ved at sige: Har vi så ikke en tosset lovgivning, som gør, at det bliver lønmodtagernes kapital, som ikke kan opføre sig anstændigt? Det er min afslutningsreplik.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429141145" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429141145.seg167">Beskæftigelsesministeren.</seg>
+                </u>
+                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20150429141146" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429141146.seg168">Lovgivningen kan man altid revidere, men jeg tror bare også, det er vigtigt, når det gælder forvaltningen af skatteydernes opsparing, at de først og fremmest sikres en god pension. Det er et ædelt og godt formål at have. Men loven er som sagt tilbage fra 1963, og jeg ved ikke, hvor mange gange den er blevet revideret undervejs – det er jeg ikke klædt på til at svare på – men jeg fortolker den lov, som den er i dag. Hvis der kommer en anden lovgivning på et andet tidspunkt, må vi se på det, men jeg har fortolket det ud fra, hvordan loven er i dag.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429141219" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429141219.seg169">Spørgsmålet er sluttet. Så vender vi tilbage til spørgsmål 9 til uddannelses- og forskningsministeren, som har måttet vente på spørgsmålet fra fru Annette Vilhelmsen.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 1097: Om oprettelsen af en cand.pæd.psych-uddannelse.</head>
+            <note type="agendaItem">2015-04-29-1-9</note>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429141232" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429141232.seg170">Værsgo.</seg>
+                </u>
+                <u who="#VilhelmsenAnnette" xml:id="ParlaMint-DK_20150429141233" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429141233.seg171">Tak for, at det er muligt at få stillet spørgsmålet her til uddannelsesministeren. Mit spørgsmål lyder: Hvad er status på oprettelsen af en cand.pæd.psych.-uddannelse, og vil ministeren anerkende, at der er behov for genoprettelse af uddannelsen? Jeg har hr. Bertel Haarder med som medspørger.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429141253" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429141253.seg172">Uddannelses- og forskningsministeren.</seg>
+                </u>
+                <u who="#NielsenSofieCarsten" xml:id="ParlaMint-DK_20150429141255" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429141255.seg173">Jeg er bestemt, ligesom begge spørgere, og det tror jeg også er spørgerne bekendt, rigtig meget opmærksom på den her sag. Den har kørt over en lang årrække, og det er utilfredsstillende for alle involverede parter. Jeg er optaget af, at vi overvejer alle muligheder for at løse det rekrutteringsproblem, som Kommunernes Landsforening vurderer der er i forhold til medarbejdere med både en psykologfaglighed og en særlig forståelse for undervisningssituationen i skolerne. Jeg er jo imidlertid også som minister nødt til at forholde mig til, at det efter meget grundige overvejelser har været Aarhus Universitets faglige vurdering, at der ikke kan opnås psykologautorisation på 3½ år. Og hvis Aarhus Universitet ikke ser det som fagligt forsvarligt, kan jeg ikke omgøre den beslutning. Udbudsretten ligger hos universiteterne, og det er fastsat i universitetsloven. Det, jeg til gengæld kan gøre, og som jeg og også mine forgængere har gjort og har gjort med stor ihærdighed er at opfordre parterne, dvs. først og fremmest KL og Aarhus Universitet til at indgå i dialog med hinanden for at finde nye løsninger. Det er de parter, ikke ministeriet, men arbejdsgiverparten, KL, og uddannelsessektoren, der kan finde løsninger. Mit ministerium gør imidlertid også, da jeg er endda særdeles opmærksom på sagen, en meget aktiv indsats for netop at bringe parterne sammen og har netop endnu en gang indledt en fornyet og nu meget konstruktiv og tæt dialog med KL og Aarhus Universitet om, hvordan uddannelsesbehovet i PPR-regi kan imødekommes. Den dialog tager udgangspunkt i at afsøge mulighederne for konkret udvikling af et nyt uddannelsesudbud, der kan imødekomme kommunernes behov. Og jeg vil selvfølgelig sørge for, at spørgerne bliver orienteret om udfaldet af den dialog, lige så snart vi er lidt længere i processen.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429141509" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429141509.seg174">Fru Annette Vilhelmsen.</seg>
+                </u>
+                <u who="#VilhelmsenAnnette" xml:id="ParlaMint-DK_20150429141511" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429141511.seg175">Jeg hilser det velkommen, at der faktisk er en proces i gang, om end den har varet meget længe. Og det, der sådan set er vigtigere for mig, end hvorvidt Aarhus Universitet kan finde ud af, om de kan anerkende det eller ej, er, at der er rigtig mange børn og unge og flere andre end dem, som har brug for, at der er veluddannede psykologer. Jeg synes ikke, de skal vente, fordi vi har nogle strukturelle barrierer for, at de kan få den hjælp, som de har brug for. Så det, jeg egentlig ønsker, er ministerens anerkendelse her. Vi står lige nu med en revision af læreruddannelsen, og Aarhus Universitets bekymring om, hvorvidt de kan godkende en psykologuddannelse på 3 år, ser jeg meget i sammenhæng med det, vi jo egentlig kendte fra cand.pæd.psych.-uddannelsen, nemlig at man dér havde uddannede lærere med en pædagogisk faglighed, som havde været i praksis, altså kendte til de her børn og unge, som de jo så blev mødt af. Og oven på det bygger man så en psykologisk faglighed ved at tage en kandidatgrad eller ved at tage en master, hvis ikke man kan opnå enighed om kandidatgraden. Kunne ministeren være en lille smule mere præcis i forhold til at svare på, om der virkelig ikke findes andre muligheder end Aarhus Universitet? Altså, vi har jo ikke holdt os tilbage fra at pålægge universiteterne opgaver eller tage opgaver fra dem her den sidste tid. Så hvis Aarhus Universitet ikke føler sig rustet til opgaven, kunne man vel eventuelt prøve at tale med andre universiteter, som f.eks. har tradition for at samarbejde med andre professionsfagligheder, som vi jo kender det fra professionsuddannelserne, f.eks. kan en lærer, som har erhvervserfaring fra skolerne, bygge en akademisk uddannelse oven på. Hvordan synes ministeren det lyder?</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429141712" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429141712.seg176">Ministeren.</seg>
+                </u>
+                <u who="#NielsenSofieCarsten" xml:id="ParlaMint-DK_20150429141713" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429141713.seg177">Jamen helt grundlæggende er det jo en del af det faglige selvstyre funderet i universitetsloven, at universiteterne selv beslutter, hvilke uddannelser de vil udbyde, og det gælder, uanset hvilket universitet vi taler om. Så er der andre styringsmekanismer i forhold til antallet af pladser – det er ikke det, det handler om her. Udbud af nye uddannelser er det universiteterne selv der beslutter. Så er der en akkrediteringsproces. Det følger universitetsloven, og det mener jeg ikke vi skal lave om på, og det er sådan set helt fundamentalt. Så er det rigtigt, at der jo er et behov, og derfor har jeg også opfordret både Aarhus Universitet og KL i den anden ende til at gå i dialog med uddannelsessektoren om, hvordan det med de skolepsykologiske kompetencer mest hensigtsmæssigt kan løses. Den dialog er jeg enig i har varet for længe, og der har heller ikke været dialog hele tiden, og det er sådan set det, som jeg sætter rigtig meget fokus på nu – også så meget, at jeg også er meget opmærksom på, hvor meget mit embedsværk sætter fokus på det. Og det gør de i meget høj grad, sådan at vi forhåbentlig kommer derhen, som jeg nævnte før, hvor der nu kan udvikles et nyt uddannelsesudbud, så begge parter imødekommer den, synes jeg, legitime efterspørgsel – det er helt legitimt. Vi vil gerne have de muligheder ud til børnene. Det er også muligt at bygge oven på med en cand.pæd. i dag. Det har der været nogen modstand mod, men omvendt må vi også respektere den faglige vurdering af, at man altså ikke kan tildele en autorisation på 3½ år. Nu ser det ud, som om – det håber jeg – at der kan landes et nyt uddannelsesudbud, som jo så vil være med til at løse problemet.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429141900" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429141900.seg178">Så er det fru Annette Vilhelmsen.</seg>
+                </u>
+                <u who="#VilhelmsenAnnette" xml:id="ParlaMint-DK_20150429141902" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429141902.seg179">Men der er selvfølgelig flere veje at gå i den her drøftelse, og der er lige præcis den faglige vurdering. Vil ministeren så være med til også, når nu vi drøfter læreruddannelsen, at have blik for, at vi nu ikke laver en revision af læreruddannelsen, som, når den så bliver besluttet om et halvt år, kommer til at spænde ben for, at det kan lade sig gøre at genetablere en cand.pæd.psych., fordi læreruddannelsen nu ikke længere indeholder det, der skal til, for at man efterfølgende på en kandidatuddannelse kan få den akkreditering for sin uddannelse? Hvad siger ministeren til det?</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429141943" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429141943.seg180">Ministeren.</seg>
+                </u>
+                <u who="#NielsenSofieCarsten" xml:id="ParlaMint-DK_20150429141944" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429141944.seg181">Vi skal selvfølgelig være fuldstændig opmærksomme på, hvordan vi hele tiden udvikler læreruddannelsen på en måde, så det ikke spænder ben for andre udviklingsmuligheder, som vi gerne ser fremmet. Det er helt åbenlyst. Nu sidder vi jo ikke og reviderer læreruddannelsen. Det gjorde vi helt grundlæggende i 2013 med en reform, og lige nu sidder vi og ser på bekendtgørelsesændringerne som følge af folkeskolereformen. Jeg synes, hvad skal man sige, at størrelsesforholdet er lidt forskelligt. Men selvfølgelig skal vi være opmærksomme på det, spørgeren henviser til.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429142020" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429142020.seg182">Så er det hr. Bertel Haarder som medspørger.</seg>
+                </u>
+                <u who="#HaarderBertel" xml:id="ParlaMint-DK_20150429142026" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429142026.seg183">Det er måske lidt usædvanligt, at en Venstremand og en SF'er går sammen om et spørgsmål til en minister, men det skyldtes jo sagens helt særlige karakter, og det vidner også om, at der nok er et flertal i Folketinget, som mener, at ministeren skulle agere på dette felt. Aarhus Universitet havde tidligere, for 4 år siden, en skuffeplan, som løste det problem, vi taler om her, men så er man altså, måske påvirket af Psykologforeningen, hvem ved, bakket ud af det. Det synes vi er ærgerligt. Jeg vil godt føje til alt det rigtige, som fru Annette Vilhelmsen har sagt, at jeg ser en god del universitetssnobberi i den modvilje, som der er i Psykologforeningen og derefter fra Aarhus Universitet. Jeg synes, det er beklageligt, at det skal gå ud over skolerne og ud over børnene, for der er en efterspørgsel efter det, vi taler om her. Og snobberiet består jo i, at man tilsyneladende overhovedet ikke anerkender, at en læreruddannelse på 4 år tæller noget som helst. Jeg kan huske, at jeg som nybagt student sad i fakultetsrådet på Aarhus Universitet, og de der professorer ville ikke optage en færdiguddannet lærer, fordi han ikke var student. Det var måske oldtidskundskab, han manglede. Det forargede mig dybt, og jeg synes altså, at vi her står over for noget, der minder om det universitetssnobberi, som jeg mødte dengang, og som burde være fortid.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429142216" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429142216.seg184">Ministeren.</seg>
+                </u>
+                <u who="#NielsenSofieCarsten" xml:id="ParlaMint-DK_20150429142218" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429142218.seg185">Jeg tror, der er ting, hr. Bertel Haarder og jeg har mødt med mange års mellemrum, som kan minde om hinanden. Det kan man jo fundere over. Jeg ser det, at en Venstremand og en SF-kvinde stiller op her sammen som et udtryk for den meget store omsorg, som de som medlemmer af Folketinget nærer for det her område, og det sætter jeg meget, meget stor pris på. Derfor er jeg også bl.a. som følge af spørgernes meget store opmærksomhed på det område virkelig optaget af, hvordan vi kommer videre. Det er rigtigt, at det har taget alt for lang tid, og der er årsager til det på begge sider. KL har fra starten stået fast på, at læreruddannelsen på kortere tid skulle give adgang til, at man kan opnå den samme autorisation som psykologer, der har gennemført en 5-årig psykologuddannelse, og ministeriet har i flere omgange også siden afviklingen af den gamle uddannelse forsøgt at skabe den her fælles forståelse. Det er også rigtigt, som spørgeren henviser til, at der var en periode i 2011, hvor vi troede, at nu var det løst, og at nu ville Aarhus Universitet oprette en sådan 3½-årig uddannelse. Men man må jo erkende, at de efter de grundige overvejelser så i foråret 2013 meddelte, at det ikke var fagligt muligt. Så jeg anerkender fuldt ud synspunkterne fra KL og også fra Danmarks Lærerforening. Jeg er også – uagtet Bertel Haarders oplevelser – nødt til at forholde mig til, at det er et universitet, der skal stå for at give læreruddannede det nødvendige faglige niveau til en universitetsoverbygning, og det er Aarhus Universitet, der har den faglige vurdering i forhold til en sådan beslutning. Men til gengæld er jeg nu fortrøstningsfuld, i forhold til at vi faktisk når frem til at finde en løsning.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429142419" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429142419.seg186">Hr. Bertel Haarder.</seg>
+                </u>
+                <u who="#HaarderBertel" xml:id="ParlaMint-DK_20150429142420" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429142420.seg187">Jeg vil gerne takke ministeren for, at hun holdningsmæssigt er på linje med os, der spørger. Så er der lige det med handlingen, som ministeren jo er ansvarlig for. Jeg synes ikke, at fru Annette Vilhelmsen fik et klart svar på spørgsmålet: Hvad med at give opgaven til et andet universitet, hvis det nu er så besværligt på Aarhus Universitet?</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429142447" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429142447.seg188">Ministeren.</seg>
+                </u>
+                <u who="#NielsenSofieCarsten" xml:id="ParlaMint-DK_20150429142449" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429142449.seg189">Jamen der er ikke noget i universitetsloven, der hindrer universiteter i at ville udbyde en ny uddannelse. Der er op til universiteterne selv. Så er der akkrediteringsprocessen og alt, hvad der derefter følger. Men der ligger ikke noget forbud eller nogen eksklusivret i forhold til at udbyde nye uddannelser.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429142510" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429142510.seg190">Så er det fru Annette Vilhelmsen for sidste omgang.</seg>
+                </u>
+                <u who="#VilhelmsenAnnette" xml:id="ParlaMint-DK_20150429142515" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429142515.seg191">Tak for det, og tak for, at vi i hvert fald nu har en dialog. Og som ministeren jo også forstår på hr. Bertel Haarder, er vi sådan set enige i en måske lidt usædvanlig alliance, men det handler altså om de her børn og unge, som i den grad har behov for at få en faglig hjælp og vurdering i deres situation. KL ved det. Nu skal vi have hjulpet Aarhus Universitet med det. Så måske ministeren, hvis ikke i dag, så snarest, kan give en status på cand.pæd.psych.-uddannelsen, og så ønsker jeg egentlig også en status på, hvem der er med. Jeg savner børnenes og de unges stemme i det her. Det er fint, at kommunerne bliver spurgt, at man spørger universiteterne, og at man spørger Danmarks Lærerforening, men grunden til, at vi vil sætte alt det her i værk, er jo, at der er nogle børn og unge, som i dag må vente på at få en faglig vurdering og den faglige hjælp, som veluddannede lærere med en overbygning i psykologi så glimrende kunne give dem, hvis de ellers fik lov.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429142618" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429142618.seg192">Uddannelses- og forskningsministeren.</seg>
+                </u>
+                <u who="#NielsenSofieCarsten" xml:id="ParlaMint-DK_20150429142621" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429142621.seg193">I forhold til status tror jeg også, jeg indledte mit første svar med, at jeg selvfølgelig vil oversende en status for den her dialog og det indblik, vi har i den, så snart jeg overhovedet har yderligere til spørgerne. Jeg er enig i, at det her handler om, at lærerne skal kunne løfte inklusionsopgaven ude på skolerne. De skal hjælpe alle de børn, der har behov for hjælp, og derfor er det, når KL mener, at der er et rekrutteringsbehov, meget nødvendigt, at den opgave også bliver løftet. Men jeg må igen henvise til, at det ikke er ministeriet, der er arbejdsgiver her, men at det netop skal løses i relationen mellem Kommunernes Landsforening og uddannelserne. Som det er spørgeren bekendt, er vi meget aktive med hensyn til at formidle den dialog.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429142717" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429142717.seg194">Spørgsmålet er sluttet. Tak til uddannelses- og forskningsministeren også for at have været tålmodig med, at spørgeren nåede frem. Det næste spørgsmål er til fødevareministeren af hr. Jakob Engel-Schmidt.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 1131: Om kostråd.</head>
+            <note type="agendaItem">2015-04-29-1-12</note>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429142728" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429142728.seg195">Værsgo.</seg>
+                </u>
+                <u who="#EngelSchmidtJakob" xml:id="ParlaMint-DK_20150429142734" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429142734.seg196">Jeg vil gerne spørge fødevareministeren, hvorvidt fødevareministeren mener, det er rimeligt, at man har brugt 940.000 kr. af skatteborgernes penge på at få tre meget simple kostråd.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429142745" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429142745.seg197">Fødevareministeren.</seg>
+                </u>
+                <u who="#JørgensenDan" xml:id="ParlaMint-DK_20150429142747" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429142747.seg198">Lad mig starte med at sige, at jeg ikke skal forholde mig til, om de råd er simple – det kan være, at hr. Jakob Engel-Schmidt mener, at han har kompetence til det og er klogere end de professorer og eksperter, direktører og andre, der har siddet i den tænketank – men bare slå fast, at det simpelt hen er faktuelt forkert, at der er blevet brugt 940.000 kr. på at udvikle dem. Der er blevet brugt det beløb på at understøtte en lang række aktiviteter med mange forskellige slags output fra den måltidstænketank, der har været nedsat. Vi har haft folkehøringer, hvor 600 mennesker er blevet involveret. Der har været debatter på de sociale medier og debatter i lokale medier. Og det dokument, som hr. Jakob Engel-Schmidt nok ikke kender, men som han nemt havde kunnet finde frem – hvis han kender det, har han direkte løjet, for så ville han kende svaret – er et 27 sider langt dokument, som er fyldt med gode råd og analyser og andet, der kommer til at danne udgangspunkt for en konkret politik fra regeringens side, som skal sikre bedre mad til de ældre og børnene i Danmark og i det hele taget prøve at afhjælpe nogle af de kæmpestore problemer, som vi desværre har med kosten i Danmark, og som jo betyder, at tusindvis af mennesker dør, at ældre er underernærede, at børn udvikler type 2-diabetes osv. osv.</seg>
+                </u>
+                <u who="#LykketoftMogens" xml:id="ParlaMint-DK_20150429142900" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429142900.seg199">Hr. Jakob Engel-Schmidt.</seg>
+                </u>
+                <u who="#EngelSchmidtJakob" xml:id="ParlaMint-DK_20150429142902" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429142902.seg200">Tak til ministeren. Jeg synes jo, det er dejligt, at ministeren kan fortælle, at vi for den nette sum af 940.000 kr. også får et lidt andet indhold end blot de her tre kostråd. Det har jo heller ikke undgået min opmærksomhed, at måltidstænketanken har brugt 6 måneder på det her arbejde. Jeg bilder mig ikke ind, at jeg er mere kvalificeret end ministeren, når det kommer til fødevarer. Jeg tror, at der er mennesker derude med ekspertuddannelser og erfaringer, som er dygtigere end både ministeren og mig. Men jeg hæfter mig ved nogle af de udtalelser, der har været i forbindelse med de her tre kostråd. Bl.a. siger Per Brændgaard, som også er ekspert, at det er en gentagelse af det, madeliten bliver ved med at sige igen og igen, og at der ikke er nogen nytænkning i det, hvilket jo ellers kunne have været formålet med at have sådan en tænketank. »Lær at lave mad, nyd den, spis den eventuelt sammen med andre og brug nye råvarer« er der intet nyt i. Kan ministeren, hvis nu selvindsigten mobiliseres til nye højder, ikke godt se, at de her tre kostråd ikke er nyskabende på noget som helst niveau? Jeg husker faktisk, at da Mette Borgaard, min klasselærer i 5. klasse, tog os med ned i skolekøkkenet til hjemkundskab, var det nogle af de samme ting, vi fik at vide. Det er jo næppe overraskende kostråd, og det er jo også derfor, at jeg bliver en lille smule nysgerrig. Når vi nu bruger så mange penge på det her, kunne det så ikke have været fordelagtigt, hvis man var kommet med noget lidt mere spidsfindigt og nyskabende og nogle lidt mere overraskende kostråd? Som en af de andre eksperter siger: Man kunne have spurgt en hvilken som helst 6.-klasse i Danmark og fundet frem til de samme kostråd. Det havde måske bare ikke stået skatteborgerne i næsten 1 mio. kr.</seg>
+                </u>
+                <u who="#ClausenPer" xml:id="ParlaMint-DK_20150429143033" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429143033.seg201">Ministeren.</seg>
+                </u>
+                <u who="#JørgensenDan" xml:id="ParlaMint-DK_20150429143034" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429143034.seg202">Så banale er de jo nok ikke. De har i hvert fald ikke fundet vej til Venstres partiprogram, for jeres politik på fødevareområdet afspejler jo overhovedet ikke de her grundværdier. Det er da muligt, at hr. Jakob Engel-Schmidt kender 6.-klasseselever, der er lige så kloge som de professorer, direktøren for Ældre Sagen, formanden for Kost og Ernæringsforbundet og alle de andre gode kræfter, som har deltaget i det her arbejde, men jeg tror nu, at det har været rigtig godt. Vi vil i hvert fald bruge det i regeringen som et afsæt til en konkret politik. Vi kommer inden for et par uger med et forslag til at forbedre ældremaden i Danmark. Det er noget som Venstre jo har været meget tavse omkring, og som de jo i hvert fald i de år, hvor de havde magten, intet har gjort for at forbedre. Vi mener, at den skal forbedres. Den kommer til at bygge på de tre kostråd, men endnu vigtigere på det meget vigtige og grundige arbejde, som tænketanken har lavet. Hvis hr. Jakob Engel-Schmidt faktisk ved, at tænketanken har lavet meget mere, hvorfor bliver hr. Jakob Engel-Schmidt så ved med at fremture i medierne med, at det er de tre råd, der har kostet 940.000 kr.? Og hvorfor gentager han det her i dag, hvis han ved, at det er løgn?</seg>
+                </u>
+                <u who="#ClausenPer" xml:id="ParlaMint-DK_20150429143133" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429143133.seg203">Jakob Engel-Schmidt.</seg>
+                </u>
+                <u who="#EngelSchmidtJakob" xml:id="ParlaMint-DK_20150429143134" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429143134.seg204">Det skyldes måske det faktum, at ministeren er regeringens fremmeste repræsentant inden for særlige områder, hvor man fremhæver rådene som værende de vises sten. Det er jo ikke lang tid siden, ministeren brugte en hel del skatteborgerpenge og en god del tid på landets medieplatforme på at fortælle, at stegt flæsk med persillesovs er Danmarks nationalret. Der er sikkert mange, der er glade for stegt flæsk med persillesovs – det er jeg også personligt – men jeg mener sådan set, at ministeren skylder befolkningen en undskyldning. Det at bruge 1 mio. kr. på tre så banale råd er en skandale, og det fremmer kun det synspunkt, at vi herinde bruger tiden og pengene på noget forkert.</seg>
+                </u>
+                <u who="#ClausenPer" xml:id="ParlaMint-DK_20150429143212" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429143212.seg205">Ministeren.</seg>
+                </u>
+                <u who="#JørgensenDan" xml:id="ParlaMint-DK_20150429143213" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429143213.seg206">Jamen det er jo et standpunkt at have. Så vil jeg henlede hr. Jakob Engel-Schmidts opmærksomhed på en af hans egne partifællers dygtige kommunikative arbejde, nemlig Henrik Høeghs. Da han var fødevareminister, brugte han næsten 1 mio. kr. på en kampagne, som handlede om Agent Mums. Agent Mums havde solbriller på og skulle rundt i Danmark og finde ud af, hvad danskerne godt kunne lide af fastfood eller hurtigmad, som han kaldte det. Danskerne skulle så sms'e til ministeriet, og hvad fik man ud af det? 400 sms'er med gode råd til ministeriet fik man for de her 750.000 kr. Jeg har ikke kompetence til at vurdere den kampagne. Jeg synes umiddelbart, at den virker pjattet og lidt tåbelig. Kunne hr. Jakob Engel-Schmidt ikke fortælle, hvordan den kampagne er meget bedre end en kampagne, hvor titusindvis af danskere har stemt om at kåre en nationaleret? Det var ikke mig, der kårede den; det var danskerne.</seg>
+                </u>
+                <u who="#ClausenPer" xml:id="ParlaMint-DK_20150429143306" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429143306.seg207">Hr. Jakob Engel-Schmidt.</seg>
+                </u>
+                <u who="#EngelSchmidtJakob" xml:id="ParlaMint-DK_20150429143308" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429143308.seg208">Jeg synes da, det er fremragende, at vi har fået skabt debat. Men lad mig citere John Kofod, som i øvrigt er en relativt anerkendt kok: Jeg havde forventet mig mere af de her 25 mennesker, der er så højtuddannede og så meningsdannende, end de tre simple råd, som jeg kunne have fået af en 6.-klasse gennem en halv times dialog. Det er da imponerende, at ministeren i spidsen for sin tænketank med 25 højt profilerede mennesker ikke kan støve bedre råd op end: Lær at lave mad, brug råvarer og spis sammen med andre. Det svarer til, at jeg tager 1 mio. kr. for at lave en kampagne for sikker trafik, der hedder: Tag et kørekort, spænd sikkerhedsselen og overhold hastighedsgrænsen. Hvis transportministeren – jeg kan se, at transportministeren sidder ved siden af – er villig til at betale 1 mio. kr. til mig for det konsulentarbejde, har vi en aftale.</seg>
+                </u>
+                <u who="#ClausenPer" xml:id="ParlaMint-DK_20150429143355" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429143355.seg209">Ministeren.</seg>
+                </u>
+                <u who="#JørgensenDan" xml:id="ParlaMint-DK_20150429143357" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429143357.seg210">Det er da godt, at hr. Jakob Engel-Schmidt har humoren i behold, på trods af at det her jo er noget, der påvirker rigtig mange mennesker. Tusindvis af mennesker i Danmark dør af forkert kost om året. Der er børn, der vokser op i familier, hvor de ikke får ordentlig mad. Der er ældre, der er ensomme og underernærede. Men hr. Jakob Engel-Schmidt synes, at det her er rigtig sjovt. Da Henrik Høegh var fødevareminister, må jeg bare lige sige, hvis det er, at man skal se på, hvad der bliver brugt penge på – jeg kan sagtens stå inde for det, madtænketanken her har leveret – brugte man næsten 1 mio. kr. på at lave nogle film til internettet om Agent Mums, som med slips og solbriller på tog ud til Bjarnes Pølser i Ballerup for at konstatere, at der ikke var nogen, der ville tale med ham. Kan hr. Jakob Engel-Schmidt ikke fortælle, hvordan det, at sådan en dilettantskuespillers tur ud til en pølsevogn er mere kvalificeret end det, som den her måltidstænketank med professorer, fagforeningsformænd, direktører og alle mulige andre har lavet?</seg>
+                </u>
+                <u who="#EngelSchmidtJakob" xml:id="ParlaMint-DK_20150429143451" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429143451.seg211">Jeg kan jo konstatere, at fødevareministeren har deltaget på det samme retorikkursus som statsministeren, når det kommer til at besvare spørgsmål ...</seg>
+                </u>
+                <u who="#ClausenPer" xml:id="ParlaMint-DK_20150429143458" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429143458.seg212">Jeg er nødt til at sige, at det selvfølgelig ikke er pænt af ministeren at slutte af med et spørgsmål, når hr. Jakob Engel-Schmidt slet ikke har ordet mere. Det er ikke desto mindre sådan, det er. Det er at beklage.</seg>
+                </u>
+                <u who="#EngelSchmidtJakob" xml:id="ParlaMint-DK_20150429143508" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429143508.seg213">Det skyldes måske bare at entusiasmen greb mig i øjeblikket ...</seg>
+                </u>
+                <u who="#ClausenPer" xml:id="ParlaMint-DK_20150429143513" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429143513.seg214">Det her er sådan set ingen kritik af hr. Jakob Engel-Schmidt. Det er bare udtryk for, at formanden var for langsom til at rejse sig. Det er ren selvkritik. Og vi respekterer formanden). Det er godt, og jeg siger tak. Det her meget spændende og indimellem også underholdende spørgsmål, spørgsmål nr. 12, er hermed færdigbehandlet. Nu er der jo store forventninger til spørgsmål nr. 13 – ikke mindst fordi jeg kan se på transportministeren, at han er i et veludviklet humør i dag, så det bliver spændende. Men det er ikke desto mindre hr. Peter Juel Jensen, der skal stille spørgsmålet.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Spm. nr. S 1136: Om, at Kastrup Lufthavn er vital for bornholmske patienter.</head>
+            <note type="agendaItem">2015-04-29-1-13</note>
+                <u who="#ClausenPer" xml:id="ParlaMint-DK_20150429143544" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429143544.seg215">Værsgo.</seg>
+                </u>
+                <u who="#JensenPeterJuel" xml:id="ParlaMint-DK_20150429143546" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429143546.seg216">Tak, formand. Ministeren og jeg er jo glade for at kunne være rosinen i pølseenden, og vi vil prøve at leve op til de forventninger, som ikke mindst formanden har til os. Jeg starter med at læse mit spørgsmål op: Vil ministeren gribe ind over for Københavns Lufthavn og sikre indenrigspassagererne rimelige forhold både med hensyn til ventetid i security og tilgængelighed?</seg>
+                </u>
+                <u who="#ClausenPer" xml:id="ParlaMint-DK_20150429143610" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429143610.seg217">Så er det ministeren.</seg>
+                </u>
+                <u who="#HeunickeMagnus" xml:id="ParlaMint-DK_20150429143612" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429143612.seg218">Det er sådan, at København Lufthavne A/S jo som bekendt er et privat aktieselskab. Det er ikke en del af Transportministeriet, og i en retsstat som den danske kan jeg ikke som minister gribe ind over for private virksomheder, medmindre jeg har en konkret hjemmel til dette. Ellers ville vi jo forlade retsstaten og gå over i bananrepublikken, og det tror jeg ikke der er noget ønske om, heller ikke fra spørgerens side. Så for så vidt angår kravene til tilgængelighed, følger det af EU-regler, at der i lufthavnen skal være en såkaldt PRM-ordning – en ordning for personer med reduceret mobilitet – og lufthavnen har således pligt til at sikre, at alle personer, der ønsker hjælp til at komme igennem lufthavnen eller ind og ud af flyet, kan få hjælp ved at benytte den ordning gratis. Det fremgår af begrundelsen for spørgsmålet, at det er affødt af en bekymring hos bornholmske patienter, der enten er på vej til behandling eller er færdigbehandlede og på vej hjem igen, og det fremhæves i den forbindelse, at trappen til flyet ved gate A 7 ikke er særlig venlig over for patienter på krykker. Men det er sådan, at den her ordning, PRM-ordningen, altså også gælder personer med krykker, som skal ned ad trappen til flyet ved gate A 7. Så den ordning gælder altså for de her mennesker. Hvad angår ventetiden ved sikkerhedskontrollen i lufthavnen, kan jeg oplyse, at Trafikstyrelsen i medfør af luftfartsloven fører tilsyn med kapaciteten i lufthavnen for at sikre, at lufthavnen til enhver tid kan tilbyde den nødvendige kapacitet med hensyn til at afvikle trafik, således at lufthavnen opfylder Danmarks behov for indenrigs- og udenrigstrafikforbindelser. Hvis der er problemer med kapaciteten i lufthavnen eller med lufthavnens forpligtelser over for syge og handicappedes tilgængelighed, når de rejser med fly, så er det Trafikstyrelsens opgave at rette henvendelse til lufthavnen for at sikre, at der bliver rettet op på manglerne.</seg>
+                </u>
+                <u who="#ClausenPer" xml:id="ParlaMint-DK_20150429143811" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429143811.seg219">Hr. Peter Juel Jensen.</seg>
+                </u>
+                <u who="#JensenPeterJuel" xml:id="ParlaMint-DK_20150429143813" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429143813.seg220">Tak. Jeg er jo lidt ærgerlig over, at ministeren svarer, som jeg havde forventet. Men jeg går ud fra, at ministeren har en eller anden form for indsigelsesmulighed eller indsigelsesret. Det må man have, især når man kan sende Trafikstyrelsen ud at se, hvor lang tid folk skal stå og vente i security. Det gør man vel ikke, medmindre der er et formål med at tage derud og kigge. Jeg går også ud fra, at staten stadig væk har nogle aktier, og det vil sige, at vi har en mulighed for at påvirke en bestyrelse ad den vej. Men grunden til, at jeg stiller spørgsmålet, er faktisk, at jeg har fået flere henvendelser fra bornholmere, som kan fortælle mig, at de har ventet helt op til 48 minutter i security, og det er jo meget mere end det, som man har været vant til før, dengang der var en decideret indenrigsterminal. Der har været læserbreve i Bornholms Tidende, der har været henvendelser til Bornholms Passagerforening fra en, der driver virksomhed på Bornholm, som ikke mener, at det her er cost effective, når man nu skal indregne så meget længere rejsetid. Så er der selvfølgelig også de pendlere, som rejser fra Bornholm om morgenen og tager hjem om eftermiddagen/aftenen, og som siger, at nu skal de altså til at bruge for meget af deres fritid/arbejdstid på at stå i kø i security. Det her er simpelt hen ikke indrettet til pendlere. Derudover kan vi også konstatere, at samtidig med at servicen er blevet væsentlig ringere, har Københavns Lufthavn faktisk også benyttet chancen til at hæve prisen for de fly, som lander i og letter fra Kastrup. Så som forbruger oplever man højere priser med en dårligere service. Sidst, men ikke mindst, havde jeg selv en oplevelse, hvor jeg så en ældre dame, som gik med to krykker, og som skulle ned ad en meget glat og en våd jerntrappe uden nogen form for hjælp. Vi skal være opmærksom på, at bornholmerne, som hører til hovedstadsregionen, skal tage på Rigshospitalet, hvis de skal have foretaget et større indgreb, så mange syge bornholmere skal den vej. Så jeg mener faktisk, at ministeren skal gøre brug af sin indsigelsesret eller gøre brug af, at man kan påvirke et aktieselskab på igennem sin aktiekapital. Er ministeren ikke enig i det?</seg>
+                </u>
+                <u who="#ClausenPer" xml:id="ParlaMint-DK_20150429144026" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429144026.seg221">Ministeren.</seg>
+                </u>
+                <u who="#HeunickeMagnus" xml:id="ParlaMint-DK_20150429144028" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429144028.seg222">Nu er det jo som bekendt flere år siden, at staten solgte aktiemajoriteten i Københavns Lufthavn, og jeg kender da Venstres politik så godt, at jeg ved, at det har man også ønske om at gøre for alle mulige andre selskabers vedkommende. Når man sælger ud af den bestemmende aktiemajoritet, kan man jo ikke længere gå ind og overtrumfe. Man kan have masser af politiske holdninger om, at der er noget, der gøres forkert, men man kan ikke regne med, at man kan have indflydelse på det. Det, jeg kan have indflydelse på som transportminister, er at sikre, at man overholder f.eks. bestemmelserne om tilgængelighed for handicappede, gangbesværede, folk med krykker og andet, som spørgeren her spørger til. Der er en bestemmelse om, at der skal der ydes bistand. Så hvis man oplever det, som spørgeren oplevede den anden gang, så kan man simpelt hen bare sige til lufthavnen, at det her altså skal klares, og så vil de rekvirere assistance. Jeg tror, at det er Falck, de har en aftale med, og det er ganske gratis for passagererne. Så vil jeg også sige, at jeg vil bede Trafikstyrelsen om at udføre deres tilsyn således, at de også har fokus på ventetiden i security.</seg>
+                </u>
+                <u who="#ClausenPer" xml:id="ParlaMint-DK_20150429144131" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429144131.seg223">Hr. Peter Juel Jensen.</seg>
+                </u>
+                <u who="#JensenPeterJuel" xml:id="ParlaMint-DK_20150429144132" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429144132.seg224">Tak for den lille åbning. Jeg synes, jeg hørte ministeren sige det således, at man ikke havde den bestemmende aktiemajoritet i Københavns Lufthavn længere. Det har man heller ikke, men man har stadig væk en vis stabel aktier. Det vil sige, at man stadig væk må have noget indflydelse, og jeg går ud fra, at ministeren også har udpeget nogle folk til at sidde i bestyrelsen på baggrund af den aktiepost, man har. Så synes jeg også, jeg skal sige, at skal man igennem security, og er man f.eks. gangbesværet og har brug for støtte, er der en fin knap, man kan trykke på, og så står der på et skilt, at man skal vente op til 45 minutter på at få den assistance. Det er jo svært at indregne i den tid, som man skal komme i lufthavnen før afgang, for skal man bruge 48 minutter til at stå i kø i security, og 45 minutter på at få noget assistance, hvis man ikke lige bliver fulgt helt ud til gaten af Falck, er det altså en meget, meget lang transporttid at byde mennesker, som har en udfordring med sundheden, fordi man er en del af en hovedstadsregion. Det her er min sidste chance for at stille et spørgsmål til ministeren, og det kan jeg lige nå på de sidste 10 sekunder. Jeg forstod på ministeren, at han vil undersøge det her nærmere. Jeg vil gerne foreslå ministeren – og ministeren plejer jo at lytte til gode råd – at man tager de kommuner i ed, som har en lufthavn, så vi får belyst problemstillingen over hele Danmark, og så vi får en kommunal mening ind om, hvad det er for nogle forhold. For indenrigstrafikken i lufthavne skal være med til at binde vores kongerige tættere sammen. Vil ministeren overveje det?</seg>
+                </u>
+                <u who="#ClausenPer" xml:id="ParlaMint-DK_20150429144303" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429144303.seg225">Jeg skal bare for god ordens skyld sige, at hr. Peter Juel Jensen har et spørgsmål mere. Men nu svarer ministeren, og så får hr. Peter Juel Jensen en chance mere.</seg>
+                </u>
+                <u who="#HeunickeMagnus" xml:id="ParlaMint-DK_20150429144310" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429144310.seg226">Aha, godt nok. Der kan være opfølgende spørgsmål. Det skal man lige vide, når man svarer her. Men jeg må desværre skuffe, og det tror jeg måske også spørgeren er klar over. Trafikstyrelsen har nogle opgaver med at kontrollere bl.a. lufthavnen og overvåge flysikkerheden og andet, og de opgaver udfører de. Det gør man ikke i dialog med kommuner. Det gør man ud fra nogle regelsæt. Men det, jeg har sagt i dag – og det er det, som man kan tage med videre – er, at jeg vil bede Trafikstyrelsen om i deres arbejde fremadrettet at holde særlig øje med ventetiden. Det er jo ikke over hele døgnet, for de tal er ikke så slemme, men det er i myldretidsperioderne, hvor der er historier om, at det kan være blevet slemt. Det vil jeg bede dem om at være særlig opmærksomme på. Der går nogle uger, før de er klar med de oplysninger. Men det vil jeg så bede dem om.</seg>
+                </u>
+                <u who="#ClausenPer" xml:id="ParlaMint-DK_20150429144357" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429144357.seg227">Hr. Peter Juel Jensen – og så er det sidste spørgsmål.</seg>
+                </u>
+                <u who="#JensenPeterJuel" xml:id="ParlaMint-DK_20150429144359" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429144359.seg228">Jamen jeg vil jo meget gerne takke ministeren for den åbning, som ministeren har lavet her. Jeg synes bare, minister, det er vigtigt, at når man går ud og prikker Københavns Lufthavn på skulderen, skulle man gerne have fakta i orden. Og jeg går ud fra, at Københavns Lufthavn lytter meget til vores transportminister. Det gør alle vi andre. Det bør man også. Derfor skal fakta være i orden. Jeg vil foreslå ministeren at sende sådan et hyrdebrev ud til de kommuner, som har indenrigstrafik ind til København, for at høre, om de lige vil spørge en kreds blandt dem, der nu bruger flyveren meget, så vi får alle fakta på bordet, og så det, vi går videre med til Københavns Lufthavn, holder stik, og så vi får ændret forholdene, således at både pendlere og andre indenrigsrejsende oplever den indenrigstrafik, som vi engang havde.</seg>
+                </u>
+                <u who="#ClausenPer" xml:id="ParlaMint-DK_20150429144444" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429144444.seg229">Ministeren.</seg>
+                </u>
+                <u who="#HeunickeMagnus" xml:id="ParlaMint-DK_20150429144446" ana="#regular">
+                    <seg xml:id="ParlaMint-DK_20150429144446.seg230">Der er det sådan, at Trafikstyrelsen jo går meget, meget grundigt til værks, og når de undersøger den her sag, er det simpelt hen i form af stikprøver på stedet, hvor man undersøger det både i myldretiden og uden for, altså hvor lang ventetid der er, og hvor mange procent der kommer igennem inden for et kvarter. Det er sådan nogle fuldstændig standardiserede undersøgelser, som man lægger for dagen. Og der vil jeg nu bede dem om at have ekstraordinært fokus på det her spørgsmål, bl.a. fordi det er rejst af spørgeren her. Vi har sådan set også fulgt med i det. Det er jo ikke kun på Bornholm, men også andre steder i Danmark, at det her har været rejst. Det er ikke sådan – det kan jeg måske oplyse som sådan en servicemeddelelse – at transportministeren udpeger folk til bestyrelsen. Københavns Lufthavn er jo solgt, men aktieejerskabet står Finansministeriet for.</seg>
+                </u>
+                <u who="#ClausenPer" xml:id="ParlaMint-DK_20150429144528" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429144528.seg231">Tak til transportministeren. Jeg kan bekræfte transportministerens oplysninger om, at det er en debat, der også foregår i andre dele af landet. Det skal ikke være nogen hemmelighed. Men jeg siger tak til transportministeren og tak til hr. Peter Juel Jensen. Og med dette spørgsmål kan vi sige, at spørgetiden er afsluttet.</seg>
+                </u>
+            </div>
+            <div type="debateSection">
+            <head>Punkt 0</head>
+            <note type="agendaItem">2015-04-29-0</note>
+                <u who="#ClausenPer" xml:id="ParlaMint-DK_20150429144548" ana="#chair">
+                    <seg xml:id="ParlaMint-DK_20150429144548.seg232">Der er ikke mere at foretage i dette møde. Folketingets næste møde afholdes i morgen, torsdag den 30. april 2015, kl. 10.00. Jeg henviser til den dagsorden, der fremgår af Folketingets hjemmeside.</seg>
+                </u>
+            </div>
+        </body>
+    </text>
+</TEI>
