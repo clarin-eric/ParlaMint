@@ -5,18 +5,15 @@ vct = $j Schema/ParlaMint-TEI.rng		# Corpus component / text
 vra = $j Schema/ParlaMint-teiCorpus.ana.rng	# Corpus root / analysed
 vca = $j Schema/ParlaMint-TEI.ana.rng		# Corpus component / analysed
 
-# Check links, vert
-LANG = BE
+# Check links for 1 language
+LANG = RO
 PREF = /project/corpora/Parla/ParlaMint/ParlaMint
-val-vert:
+all:	val-lang vert-lang
+vert-lang:
 	Scripts/parlamint-tei2vert.pl ParlaMint-${LANG}/ParlaMint-${LANG}.xml \
-	'ParlaMint-${LANG}/*_*.xml' ParlaMint-${LANG} #Scripts/tmp
-val-links:
-	ls ParlaMint-${LANG}/ParlaMint-*.xml | grep '_' | grep -v '.ana' | xargs -I % \
-	$s meta=${PREF}/ParlaMint-${LANG}/ParlaMint-${LANG}.xml -xsl:Scripts/check-links.xsl %
-val-links-ana:
-	ls ParlaMint-${LANG}/ParlaMint-*.ana.xml | grep '_' | xargs -I % \
-	$s meta=${PREF}/ParlaMint-${LANG}/ParlaMint-${LANG}.ana.xml -xsl:Scripts/check-links.xsl %
+	'ParlaMint-${LANG}/*_*.xml' ParlaMint-${LANG}
+val-lang:
+	Scripts/validate-parlamint.pl Schema 'ParlaMint-${LANG}'
 
 # Validation for all corpora
 val:
