@@ -14,8 +14,9 @@ val-vert:
 val-links:
 	ls ParlaMint-${LANG}/ParlaMint-*.xml | grep '_' | grep -v '.ana' | xargs -I % \
 	$s meta=${PREF}/ParlaMint-${LANG}/ParlaMint-${LANG}.xml -xsl:Scripts/check-links.xsl %
-	#ls ParlaMint-${LANG}/ParlaMint-*.ana.xml | grep '_' | xargs -I % \
-	#$s meta=${PREF}/ParlaMint-${LANG}/ParlaMint-${LANG}.ana.xml -xsl:Scripts/check-links.xsl %
+val-links-ana:
+	ls ParlaMint-${LANG}/ParlaMint-*.ana.xml | grep '_' | xargs -I % \
+	$s meta=${PREF}/ParlaMint-${LANG}/ParlaMint-${LANG}.ana.xml -xsl:Scripts/check-links.xsl %
 
 # Validation for all corpora
 val:
