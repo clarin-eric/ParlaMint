@@ -32,9 +32,11 @@
           <xs:choice maxOccurs="unbounded">
             <xs:element ref="ns1:w"/>
             <xs:element ref="ns1:pc"/>
+            <xs:group ref="ns1:name"/>
           </xs:choice>
           <xs:attributeGroup ref="ns1:global.atts"/>
-          <xs:attribute name="type" use="required">
+          <xs:attribute name="ana" type="ns1:anyURIs"/>
+          <xs:attribute name="type">
             <xs:simpleType>
               <xs:restriction base="xs:token">
                 <xs:enumeration value="PER"/>
@@ -44,6 +46,7 @@
               </xs:restriction>
             </xs:simpleType>
           </xs:attribute>
+          <xs:attribute name="subtype" type="xs:token"/>
         </xs:complexType>
       </xs:element>
     </xs:sequence>
