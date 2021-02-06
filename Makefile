@@ -1,5 +1,6 @@
 ## Testing "validating" tei2vert script
 j = java -jar /usr/share/java/jing.jar 
+pc = -I % $s -xi -xsl:Scripts/copy.xsl % | $j Schema/parla-clarin.rng
 vrt = $j Schema/ParlaMint-teiCorpus.rng 	# Corpus root / text
 vct = $j Schema/ParlaMint-TEI.rng		# Corpus component / text
 vra = $j Schema/ParlaMint-teiCorpus.ana.rng	# Corpus root / analysed
@@ -16,6 +17,11 @@ val-lang:
 	Scripts/validate-parlamint.pl Schema 'ParlaMint-${LANG}'
 
 # Validation for all corpora
+# Parla-CLARIN validation
+val-pc:
+	ls ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs ${pc}
+	ls ParlaMint-*/ParlaMint-*.xml | grep    '.ana.' | grep -v '_' | xargs ${pc}
+# ParlaMint validation
 val:
 	ls ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs ${vrt}
 	ls ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep    '_' | xargs ${vct}
