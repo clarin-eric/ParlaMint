@@ -220,7 +220,7 @@ u =
     >> a:documentation [ "Attributes to link split utterances." ],
     attribute prev { xsd:anyURI }?,
     attribute next { xsd:anyURI }?,
-    who.att,
+    who.att?,
     ana.att,
     attribute source { anyURIs }?,
     (seg | comment | pb)+

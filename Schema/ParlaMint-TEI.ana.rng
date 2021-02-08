@@ -66,7 +66,7 @@
   
   <define name="word">
     <element name="w">
-      <a:documentation>cf. https://clarin-eric.github.io/parla-clarin/#sec-ananorm </a:documentation>
+      <a:documentation>cf. https://clarin-eric.github.io/parla-clarin/#sec-ananorm</a:documentation>
       <choice>
 	<a:documentation>Simple word</a:documentation>
 	<group>
@@ -75,10 +75,12 @@
 	</group>
 	<a:documentation>Word with several normalised words</a:documentation>
 	<group>
+	  <ref name="word-optional.atts"/>
 	  <text/>
 	  <oneOrMore>
 	    <element name="w">
 	      <ref name="word.atts"/>
+	      <empty/>
 	    </element>
 	  </oneOrMore>
 	</group>
@@ -90,6 +92,7 @@
 	      <text/>
 	    </element>
 	  </oneOrMore>
+	  <empty/>
 	</group>
       </choice>
     </element>
@@ -126,6 +129,12 @@
   
   <define name="token.atts">
     <ref name="id.att"/>
+    <ref name="lang.att"/>
+    <optional>
+      <attribute name="join">
+	<value>right</value>
+      </attribute>
+    </optional>
     <attribute name="msd">
       <data type="string"/>
     </attribute>
@@ -139,18 +148,40 @@
 	<data type="string"/>
       </attribute>
     </optional>
+  </define>
+  
+  <define name="word-optional.atts">
+    <optional>
+      <ref name="id.att"/>
+    </optional>
+    <ref name="lang.att"/>
     <optional>
       <attribute name="join">
 	<value>right</value>
       </attribute>
     </optional>
+    <optional>
+      <attribute name="msd">
+	<data type="string"/>
+      </attribute>
+    </optional>
+    <optional>
+      <attribute name="ana">
+	<ref name="anyURIs"/>
+      </attribute>
+    </optional>
+    <optional>
+      <attribute name="lemma">
+	<data type="string"/>
+      </attribute>
+    </optional>
   </define>
-
+  
   <define name="word.atts">
+    <ref name="token.atts"/>
     <attribute name="lemma">
       <data type="string"/>
     </attribute>
-    <ref name="token.atts"/>
   </define>
 
 </grammar>

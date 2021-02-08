@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:id="ParlaMint-BG_2015-11-24" xml:lang="bg">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="bg">Български парламентарен корпус ParlaMint-BG (2015-11-24) [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Bulgarian Parliamentary Corpus ParlaMint-BG (2015-11-24) [ParlaMint SAMPLE]</title>
+            <title type="sub" xml:lang="bg">Стенограмa от 12 пленарнo заседаниe на 4 сесия на 43 Народно събрание на Република България (2015-11-24)</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Bulgarian National Assembly, Term 43, Session 4, Meeting 12 (2015-11-24)</title>
+            <meeting ana="#parla.meeting.extraordinary" corresp="#NS" n="12">12 извънредно пленарно заседание</meeting>
+            <meeting ana="#parla.session" corresp="#NS" n="4">4 парламентарна сесия</meeting>
+            <meeting ana="#parla.term" corresp="#NS" n="43">Четиридесет и трето народно събрание</meeting>
+            <respStmt>
+               <persName xml:lang="bg">Владислава Григорова</persName>
+               <persName xml:lang="en">Vladislava Grigorova</persName>
+               <resp xml:lang="bg">Сваляне, почистване и конвертиране до XML</resp>
+               <resp xml:lang="en">Download, clean-up converting of the data to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-4484-5027" xml:lang="bg">Петя Осенова</persName>
+               <persName ref="https://orcid.org/0000-0002-4484-5027" xml:lang="en">Petya Osenova</persName>
+               <resp xml:lang="bg">Кодиране в Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3555-0179" xml:lang="bg">Кирил Симов</persName>
+               <persName ref="https://orcid.org/0000-0003-3555-0179" xml:lang="en">Kiril Simov</persName>
+               <resp xml:lang="bg">Валидиране на корпуса Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Parla-CLARIN TEI XML corpus validation</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="bg">Изследователска инфраструктура CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure quantity="307" unit="speeches" xml:lang="bg">307 изказвания</measure>
+            <measure quantity="307" unit="speeches" xml:lang="en">307 speeches</measure>
+            <measure quantity="35251" unit="words" xml:lang="bg">35 251 думи</measure>
+            <measure quantity="35251" unit="words" xml:lang="en">35,251 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="bg">Изследователска инфраструктура CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URL">https://github.com/clarin-eric/ParlaMint</idno>
+            <pubPlace><ref target="https://github.com/clarin-eric/ParlaMint">https://github.com/clarin-eric/ParlaMint</ref></pubPlace>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+               <p xml:lang="bg">Този ресурс е лицензиран под лиценз:<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-04">2021-02-04</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl><title>Multilingual comparable corpora of parliamentary debates ParlaMint 1.0</title><idno type="handle">http://hdl.handle.net/11356/1388</idno></bibl>
+            <bibl>
+               <title type="main">Minutes of the National Assembly of the Republic of Bulgaria</title>
+               <idno type="URI">https://parliament.bg/bg/plenaryst</idno>
+               <date when="2015-11-24">2015-11-24</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="bg"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="29"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="6"/>
+               <tagUsage gi="seg" occurs="1883"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="307"/>
+               <tagUsage gi="vocal" occurs="22"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">2 Narodno Sabranie Sq.</name>
+               <name type="city">Sofia</name>
+               <name key="BG" type="country">Bulgaria</name>
+               <date when="2015-11-24">2015-11-24</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-04"><name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2021-02-04">
+            <name>Tomaž Erjavec</name>: Small fixes for Version 2.</change>
+         <change when="2020-10-14">
+            <name>Tomaž Erjavec</name>: Small fixes for ParlaMint.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="bg">
+      <body>
+         <div type="debateSection">
+            <u ana="#chair" n="36550" who="#TsachevaTsetska" xml:id="ParlaMint-BG_2015-11-24.u1">
+               <seg xml:id="ParlaMint-BG_2015-11-24.seg1">Колеги, добър ден!</seg>
+               <seg xml:id="ParlaMint-BG_2015-11-24.seg2">Моля да се регистрираме.</seg>
+               <seg xml:id="ParlaMint-BG_2015-11-24.seg3">Налице е кворум.</seg>
+               <kinesic type="ringing">
+                  <desc>Звъни.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-BG_2015-11-24.seg4">Откривам пленарното заседание, което е извънредно, съгласно приетото наше Решение от миналата седмица.</seg>
+               <seg xml:id="ParlaMint-BG_2015-11-24.seg5">Припомням точките на извънредното пленарно заседание:</seg>
+               <seg xml:id="ParlaMint-BG_2015-11-24.seg6">1. Проекти за решения за попълване съставите на постоянни и временни комисии.</seg>
+               <seg xml:id="ParlaMint-BG_2015-11-24.seg7">2. Второ гласуване на Законопроекта за изменение и допълнение на Закона за регистрация и контрол на земеделската и горската техника – продължение от петъчния ден.</seg>
+               <seg xml:id="ParlaMint-BG_2015-11-24.seg8">Стигнахме до Преходните и заключителни разпоредби в петък.</seg>
+               <seg xml:id="ParlaMint-BG_2015-11-24.seg9">3. Второ гласуване на Законопроекта за изпълнение на Конвенцията за касетъчните боеприпаси и Конвенцията за забраната на използването, складирането, производството и трансфера на противопехотни мини и за тяхното унищожаване.</seg>
+               <seg xml:id="ParlaMint-BG_2015-11-24.seg10">4. Първо гласуване на Законопроекта за изменение на Закона за автомобилните превози.</seg>
+               <seg xml:id="ParlaMint-BG_2015-11-24.seg11">5. Второ гласуване на Законопроекта за счетоводството.</seg>
+               <seg xml:id="ParlaMint-BG_2015-11-24.seg12">6. Законопроект за ратифициране на Споразумението между правителството на Република България и правителството на Република Полша относно осигуряване на логистична подкрепа за самолетите МиГ-29.</seg>
+               <seg xml:id="ParlaMint-BG_2015-11-24.seg13">7. Проект на решение за приемане на Програма за развитие на отбранителните способности на Въоръжените сили на Република България 2020 и за определяне числеността на въоръжените сили.</seg>
+               <seg xml:id="ParlaMint-BG_2015-11-24.seg14">Няколко съобщения:</seg>
+               <seg xml:id="ParlaMint-BG_2015-11-24.seg15">С писмо № 554-00-703 от 20 ноември 2015 г. народният представител Настимир Ананиев ме уведомява, че на основание чл. 82 от Правилника за организацията и дейността на Народното събрание оттегля подписа си на вносител от Законопроект за изменение на Закона за автомобилните превози, № 554-01-178, внесен на 19 ноември 2015 г.</seg>
+               <seg xml:id="ParlaMint-BG_2015-11-24.seg16">Процедура – заповядайте, господин Славов.</seg>
+            </u>
+            <u ana="#regular" n="36551" who="#SlavovPeter" xml:id="ParlaMint-BG_2015-11-24.u2">
+               <seg xml:id="ParlaMint-BG_2015-11-24.seg17">Уважаема госпожо Председател, уважаеми колеги, бих искал да предложа да изтеглим точка шеста и седма по-напред – двете точки, които касаят въоръжените сили и договорът, който беше подписан с полската държава за ремонт и поддръжка на двигатели на самолетите МиГ.</seg>
+               <seg xml:id="ParlaMint-BG_2015-11-24.seg18">Предложението ни с колегите от Парламентарната група на Реформаторския блок е те да станат точки трета и четвърта, тоест веднага след точка втора – Законопроекта за изменение и допълнение на Закона за регистрация и контрол на земеделската и горската техника, да разгледаме точки шест и седем. Благодаря.</seg>
+            </u>
+            <gap reason="editorial"><desc xml:lang="en">SAMPLING</desc></gap>
+            <u ana="#regular" n="36855" who="#StoyanovaMenda" xml:id="ParlaMint-BG_2015-11-24.u306">
+               <seg xml:id="ParlaMint-BG_2015-11-24.seg1881">Благодаря, колеги, за търпението и гласуването.</seg>
+               <kinesic type="applause">
+                  <desc>Ръкопляскания от ГЕРБ.</desc>
+               </kinesic>
+            </u>
+            <u ana="#chair" n="36856" who="#TsachevaTsetska" xml:id="ParlaMint-BG_2015-11-24.u307">
+               <seg xml:id="ParlaMint-BG_2015-11-24.seg1882">Утре – редовно пленарно заседание, начален час 9,00 ч.</seg>
+               <seg xml:id="ParlaMint-BG_2015-11-24.seg1883">Закривам извънредното заседание.</seg>
+               <kinesic type="ringing">
+                  <desc>Звъни.</desc>
+               </kinesic>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

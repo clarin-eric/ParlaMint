@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="hr" xml:id="ParlaMint-HR_S08.ana" ana="#parla.session #reference">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="hr">Hrvatski parlamentarni korpus ParlaMint-HR, sjednica 8 [ParlaMint.ana SAMPLE]</title>
+            <title type="main" xml:lang="en">Croatian parliamentary corpus ParlaMint-HR, Session 8 [ParlaMint.ana SAMPLE]</title>
+            <title type="sub" xml:lang="hr">Zapisnici sjednica Hvratskog sabora, mandat IX, sjednica 8 (2018-05-10 - 2018-09-27)</title>
+            <title type="sub" xml:lang="en">Minutes of the National Assembly of the Republic of Croatia, Term 9, Session 8 (2018-05-10 - 2018-09-27)</title>
+            <meeting n="9" corresp="#HS" ana="#parla.term #HS.9">9. mandat</meeting>
+            <meeting n="8" ana="#parla.session">8. sjednica</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="hr">Preuzimanje i čiščenje digitalnog izvora</resp>
+               <resp xml:lang="en">Download and clean-up of the JSON digital source</resp>
+               <resp xml:lang="hr">Jezikoslovno označivanje</resp>
+               <resp xml:lang="en">Linguistic annotation</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-1560-4099">Tomaž Erjavec</persName>
+               <resp xml:lang="hr">Kodiranje Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="hr">Istraživačka infrastrukutra CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="13026" xml:lang="hr">13.026 govora</measure>
+            <measure unit="speeches" quantity="13026" xml:lang="en">13,026 speeches</measure>
+            <measure unit="words" quantity="2185862" xml:lang="hr">2.185.862 riječi</measure>
+            <measure unit="words" quantity="2185862" xml:lang="en">2,185,862 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="hr">Istraživačka infrastrukutra CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URL">https://github.com/clarin-eric/ParlaMint</idno>
+            <pubPlace><ref target="https://github.com/clarin-eric/ParlaMint">https://github.com/clarin-eric/ParlaMint</ref></pubPlace>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="hr">Ovaj rad je dostupan pod <ref target="http://creativecommons.org/licenses/by/4.0/">međunarodnom licencom Creative Commons Imenovanje 4.0</ref>
+               </p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+            </availability>
+            <date when="2021-02-04">2021-02-04</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl><title>Multilingual comparable corpora of parliamentary debates ParlaMint 1.0</title><idno type="handle">http://hdl.handle.net/11356/1388</idno></bibl>
+            <bibl>
+               <title type="main">Minutes of the National Assembly of the Republic of Croatia</title>
+               <idno type="URI">https://parlametar.hr/</idno>
+               <idno type="URI">http://www.sabor.hr/</idno>
+               <date from="2018-05-10" to="2018-09-27">2018-05-10 - 2018-09-27</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="hr"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="u" occurs="13026"/>
+               <tagUsage gi="seg" occurs="59191"/>
+               <tagUsage gi="vocal" occurs="788"/>
+               <tagUsage gi="desc" occurs="2345"/>
+               <tagUsage gi="kinesic" occurs="67"/>
+               <tagUsage gi="gap" occurs="1490"/>
+               <tagUsage gi="s" occurs="100774"/>
+               <tagUsage gi="name" occurs="70814"/>
+               <tagUsage gi="w" occurs="2185862"/>
+               <tagUsage gi="pc" occurs="250682"/>
+               <tagUsage gi="linkGrp" occurs="100774"/>
+               <tagUsage gi="link" occurs="2436544"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Trg sv. Marka 6</name>
+               <name type="city">Zagreb</name>
+               <name type="country" key="HR">Croatia</name>
+               <date from="2018-05-10" to="2018-09-27" ana="#parla.session">2018-05-10 - 2018-09-27</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2021-02-04"><name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2021-02-04">
+            <name>Tomaž Erjavec</name>: Small fixes for Version 2.</change>
+         <change when="2020-10-07">
+            <name>Nikola Ljubešić</name>: Linguistic annotation.</change>
+         <change when="2020-10-04">
+            <name>Tomaž Erjavec</name>: Small fixes for ParlaMint.</change>
+         <change when="2020-10-04">
+            <name>Tomaž Erjavec</name>: Generated corpus in Parla-CLARIN.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="hr">
+      <body>
+         <div type="debateSection">
+            <head>8. sjednica</head>
+            <u ana="#chair" n="381108" who="#JandrokovićGordan" xml:id="ParlaMint-HR_S08.u1">
+               <seg xml:id="seg286140">
+                  <s xml:id="seg286140.1">
+                     <w ana="mte:Rgp" join="right" lemma="sada" msd="UPosTag=ADV|Degree=Pos|PronType=Dem" xml:id="seg286140.1.1">Sada</w>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg286140.1.2">,</pc>
+                     <w ana="mte:Appfpny" lemma="poštovati" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass" xml:id="seg286140.1.3">poštovane</w>
+                     <w ana="mte:Ncfpn" lemma="gospođa" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Plur" xml:id="seg286140.1.4">gospođe</w>
+                     <w ana="mte:Cc" lemma="i" msd="UPosTag=CCONJ" xml:id="seg286140.1.5">i</w>
+                     <w ana="mte:Agpmpny" lemma="gospodo" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur" xml:id="seg286140.1.6">gospodo</w>
+                     <w ana="mte:Ncmpn" join="right" lemma="zastupnik" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Plur" xml:id="seg286140.1.7">zastupnici</w>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg286140.1.8">,</pc>
+                     <w ana="mte:Vmr1p" lemma="počinjati" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" xml:id="seg286140.1.9">počinjemo</w>
+                     <w ana="mte:Si" lemma="sa" msd="UPosTag=ADP|Case=Ins" xml:id="seg286140.1.10">s</w>
+                     <w ana="mte:Ncnsi" lemma="postavljanje" msd="UPosTag=NOUN|Case=Ins|Gender=Neut|Number=Sing" xml:id="seg286140.1.11">postavljanjem</w>
+                     <w ana="mte:Ncnsg" lemma="pitanje" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Plur" xml:id="seg286140.1.12">pitanja</w>
+                     <name type="ORG">
+                        <w ana="mte:Npfsd" join="right" lemma="Vlada" msd="UPosTag=PROPN|Case=Dat|Gender=Fem|Number=Sing" xml:id="seg286140.1.13">Vladi</w>
+                     </name>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg286140.1.14">,</pc>
+                     <w ana="mte:Rgp" lemma="odnosno" msd="UPosTag=ADV|Degree=Pos" xml:id="seg286140.1.15">odnosno</w>
+                     <w ana="mte:Agpmsdy" lemma="pojedini" msd="UPosTag=ADJ|Case=Dat|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" xml:id="seg286140.1.16">pojedinom</w>
+                     <w ana="mte:Ncmsd" lemma="član" msd="UPosTag=NOUN|Case=Dat|Gender=Masc|Number=Sing" xml:id="seg286140.1.17">članu</w>
+                     <name type="ORG">
+                        <w ana="mte:Npfsg" join="right" lemma="Vlada" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" xml:id="seg286140.1.18">Vlade</w>
+                     </name>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg286140.1.19">,</pc>
+                     <w ana="mte:Sl" lemma="u" msd="UPosTag=ADP|Case=Loc" xml:id="seg286140.1.20">u</w>
+                     <w ana="mte:Ncmsl" lemma="sklad" msd="UPosTag=NOUN|Case=Loc|Gender=Masc|Number=Sing" xml:id="seg286140.1.21">skladu</w>
+                     <w ana="mte:Si" lemma="sa" msd="UPosTag=ADP|Case=Ins" xml:id="seg286140.1.22">s</w>
+                     <w ana="mte:Ncfpi" lemma="odredba" msd="UPosTag=NOUN|Case=Ins|Gender=Fem|Number=Plur" xml:id="seg286140.1.23">odredbama</w>
+                     <w ana="mte:Ncmsg" lemma="poslovnik" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" xml:id="seg286140.1.24">Poslovnika</w>
+                     <w ana="mte:Y" lemma="čl." msd="UPosTag=NOUN" xml:id="seg286140.1.25">čl.</w>
+                     <w ana="mte:Mdo" lemma="132." msd="UPosTag=ADJ|NumType=Ord" xml:id="seg286140.1.26">132.</w>
+                     <w ana="mte:Sg" lemma="do" msd="UPosTag=ADP|Case=Gen" xml:id="seg286140.1.27">do</w>
+                     <w ana="mte:Mdo" lemma="139." msd="UPosTag=ADJ|NumType=Ord" xml:id="seg286140.1.28">139.</w>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:advmod" target="#seg286140.1.9 #seg286140.1.1"/>
+                        <link ana="ud-syn:punct" target="#seg286140.1.3 #seg286140.1.2"/>
+                        <link ana="ud-syn:acl" target="#seg286140.1.1 #seg286140.1.3"/>
+                        <link ana="ud-syn:nsubj_pass" target="#seg286140.1.3 #seg286140.1.4"/>
+                        <link ana="ud-syn:cc" target="#seg286140.1.7 #seg286140.1.5"/>
+                        <link ana="ud-syn:amod" target="#seg286140.1.7 #seg286140.1.6"/>
+                        <link ana="ud-syn:conj" target="#seg286140.1.4 #seg286140.1.7"/>
+                        <link ana="ud-syn:punct" target="#seg286140.1.3 #seg286140.1.8"/>
+                        <link ana="ud-syn:root" target="#seg286140.1 #seg286140.1.9"/>
+                        <link ana="ud-syn:case" target="#seg286140.1.11 #seg286140.1.10"/>
+                        <link ana="ud-syn:obl" target="#seg286140.1.9 #seg286140.1.11"/>
+                        <link ana="ud-syn:nmod" target="#seg286140.1.11 #seg286140.1.12"/>
+                        <link ana="ud-syn:nmod" target="#seg286140.1.12 #seg286140.1.13"/>
+                        <link ana="ud-syn:punct" target="#seg286140.1.17 #seg286140.1.14"/>
+                        <link ana="ud-syn:advmod" target="#seg286140.1.17 #seg286140.1.15"/>
+                        <link ana="ud-syn:amod" target="#seg286140.1.17 #seg286140.1.16"/>
+                        <link ana="ud-syn:conj" target="#seg286140.1.11 #seg286140.1.17"/>
+                        <link ana="ud-syn:nmod" target="#seg286140.1.17 #seg286140.1.18"/>
+                        <link ana="ud-syn:punct" target="#seg286140.1.23 #seg286140.1.19"/>
+                        <link ana="ud-syn:case" target="#seg286140.1.23 #seg286140.1.20"/>
+                        <link ana="ud-syn:fixed" target="#seg286140.1.20 #seg286140.1.21"/>
+                        <link ana="ud-syn:fixed" target="#seg286140.1.20 #seg286140.1.22"/>
+                        <link ana="ud-syn:obl" target="#seg286140.1.9 #seg286140.1.23"/>
+                        <link ana="ud-syn:nmod" target="#seg286140.1.23 #seg286140.1.24"/>
+                        <link ana="ud-syn:nmod" target="#seg286140.1.24 #seg286140.1.25"/>
+                        <link ana="ud-syn:amod" target="#seg286140.1.25 #seg286140.1.26"/>
+                        <link ana="ud-syn:case" target="#seg286140.1.28 #seg286140.1.27"/>
+                        <link ana="ud-syn:conj" target="#seg286140.1.26 #seg286140.1.28"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="seg286140.2">
+                     <w ana="mte:Agpnsny" lemma="aktualan" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing" xml:id="seg286140.2.1">Aktualno</w>
+                     <w ana="mte:Ncnsn" lemma="prijepodne" msd="UPosTag=NOUN|Case=Nom|Gender=Neut|Number=Sing" xml:id="seg286140.2.2">prijepodne</w>
+                     <w ana="mte:Vmr3s" lemma="održavati" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="seg286140.2.3">održava</w>
+                     <w ana="mte:Px--sa" lemma="sebe" msd="UPosTag=PRON|Case=Acc|PronType=Prs|Reflex=Yes" xml:id="seg286140.2.4">se</w>
+                     <w ana="mte:Sl" lemma="na" msd="UPosTag=ADP|Case=Loc" xml:id="seg286140.2.5">na</w>
+                     <w ana="mte:Ncmsl" lemma="početak" msd="UPosTag=NOUN|Case=Loc|Gender=Masc|Number=Sing" xml:id="seg286140.2.6">početku</w>
+                     <w ana="mte:Pi-fsg" lemma="svaki" msd="UPosTag=DET|Case=Gen|Gender=Fem|Number=Sing|PronType=Tot" xml:id="seg286140.2.7">svake</w>
+                     <w ana="mte:Ncfsg" lemma="sjednica" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" xml:id="seg286140.2.8">sjednice</w>
+                     <w ana="mte:Sg" lemma="prije" msd="UPosTag=ADP|Case=Gen" xml:id="seg286140.2.9">prije</w>
+                     <w ana="mte:Ncmsg" lemma="prijelaz" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" xml:id="seg286140.2.10">prijelaza</w>
+                     <w ana="mte:Sa" lemma="na" msd="UPosTag=ADP|Case=Acc" xml:id="seg286140.2.11">na</w>
+                     <w ana="mte:Mdo" lemma="1." msd="UPosTag=ADJ|NumType=Ord" xml:id="seg286140.2.12">1.</w>
+                     <w ana="mte:Ncfsa" lemma="točka" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" xml:id="seg286140.2.13">točku</w>
+                     <w ana="mte:Agpmsgy" lemma="dnevni" msd="UPosTag=ADJ|Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" xml:id="seg286140.2.14">dnevnog</w>
+                     <w ana="mte:Ncmsg" join="right" lemma="red" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" xml:id="seg286140.2.15">reda</w>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg286140.2.16">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:amod" target="#seg286140.2.2 #seg286140.2.1"/>
+                        <link ana="ud-syn:nsubj" target="#seg286140.2.3 #seg286140.2.2"/>
+                        <link ana="ud-syn:root" target="#seg286140.2 #seg286140.2.3"/>
+                        <link ana="ud-syn:expl_pv" target="#seg286140.2.3 #seg286140.2.4"/>
+                        <link ana="ud-syn:case" target="#seg286140.2.6 #seg286140.2.5"/>
+                        <link ana="ud-syn:obl" target="#seg286140.2.3 #seg286140.2.6"/>
+                        <link ana="ud-syn:det" target="#seg286140.2.8 #seg286140.2.7"/>
+                        <link ana="ud-syn:nmod" target="#seg286140.2.6 #seg286140.2.8"/>
+                        <link ana="ud-syn:case" target="#seg286140.2.10 #seg286140.2.9"/>
+                        <link ana="ud-syn:obl" target="#seg286140.2.3 #seg286140.2.10"/>
+                        <link ana="ud-syn:case" target="#seg286140.2.13 #seg286140.2.11"/>
+                        <link ana="ud-syn:amod" target="#seg286140.2.13 #seg286140.2.12"/>
+                        <link ana="ud-syn:nmod" target="#seg286140.2.10 #seg286140.2.13"/>
+                        <link ana="ud-syn:amod" target="#seg286140.2.15 #seg286140.2.14"/>
+                        <link ana="ud-syn:nmod" target="#seg286140.2.13 #seg286140.2.15"/>
+                        <link ana="ud-syn:punct" target="#seg286140.2.3 #seg286140.2.16"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="seg286141">
+                  <s xml:id="seg286141.1">
+                     <w ana="mte:Mlomsn" lemma="prvi" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing" xml:id="seg286141.1.1">Prvi</w>
+                     <w ana="mte:Sl" lemma="na" msd="UPosTag=ADP|Case=Loc" xml:id="seg286141.1.2">na</w>
+                     <w ana="mte:Ncmsl" lemma="red" msd="UPosTag=NOUN|Case=Loc|Gender=Masc|Number=Sing" xml:id="seg286141.1.3">redu</w>
+                     <w ana="mte:Sa" lemma="za" msd="UPosTag=ADP|Case=Acc" xml:id="seg286141.1.4">za</w>
+                     <w ana="mte:Ncnsa" lemma="postavljanje" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" xml:id="seg286141.1.5">postavljanje</w>
+                     <w ana="mte:Ncnsg" lemma="pitanje" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" xml:id="seg286141.1.6">pitanja</w>
+                     <w ana="mte:Var3s" lemma="biti" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="seg286141.1.7">je</w>
+                     <w ana="mte:Ncmsn" lemma="zastupnik" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" xml:id="seg286141.1.8">zastupnik</w>
+                     <name type="PER">
+                        <w ana="mte:Npmsn" lemma="Veljko" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="seg286141.1.9">Veljko</w>
+                        <w ana="mte:Npmsn" lemma="Kajtazi" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="seg286141.1.10">Kajtazi</w>
+                     </name>
+                     <w ana="mte:Cc" lemma="i" msd="UPosTag=CCONJ" xml:id="seg286141.1.11">i</w>
+                     <w ana="mte:Pp3msn" lemma="on" msd="UPosTag=PRON|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs" xml:id="seg286141.1.12">on</w>
+                     <w ana="mte:Vmr3s" lemma="postavljati" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="seg286141.1.13">postavlja</w>
+                     <w ana="mte:Ncnsa" lemma="pitanje" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" xml:id="seg286141.1.14">pitanje</w>
+                     <w ana="mte:Ncmsd" lemma="predsjednik" msd="UPosTag=NOUN|Case=Dat|Gender=Masc|Number=Sing" xml:id="seg286141.1.15">predsjedniku</w>
+                     <name type="ORG">
+                        <w ana="mte:Npfsg" lemma="Vlada" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" xml:id="seg286141.1.16">Vlade</w>
+                     </name>
+                     <name type="PER">
+                        <w ana="mte:Npmsd" lemma="Andrej" msd="UPosTag=PROPN|Case=Dat|Gender=Masc|Number=Sing" xml:id="seg286141.1.17">Andreju</w>
+                        <w ana="mte:Npmsd" join="right" lemma="Plenković" msd="UPosTag=PROPN|Case=Dat|Gender=Masc|Number=Sing" xml:id="seg286141.1.18">Plenkoviću</w>
+                     </name>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg286141.1.19">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root" target="#seg286141.1 #seg286141.1.1"/>
+                        <link ana="ud-syn:case" target="#seg286141.1.3 #seg286141.1.2"/>
+                        <link ana="ud-syn:obl" target="#seg286141.1.1 #seg286141.1.3"/>
+                        <link ana="ud-syn:case" target="#seg286141.1.5 #seg286141.1.4"/>
+                        <link ana="ud-syn:nmod" target="#seg286141.1.3 #seg286141.1.5"/>
+                        <link ana="ud-syn:nmod" target="#seg286141.1.5 #seg286141.1.6"/>
+                        <link ana="ud-syn:cop" target="#seg286141.1.1 #seg286141.1.7"/>
+                        <link ana="ud-syn:nsubj" target="#seg286141.1.1 #seg286141.1.8"/>
+                        <link ana="ud-syn:appos" target="#seg286141.1.8 #seg286141.1.9"/>
+                        <link ana="ud-syn:flat" target="#seg286141.1.9 #seg286141.1.10"/>
+                        <link ana="ud-syn:cc" target="#seg286141.1.13 #seg286141.1.11"/>
+                        <link ana="ud-syn:nsubj" target="#seg286141.1.13 #seg286141.1.12"/>
+                        <link ana="ud-syn:conj" target="#seg286141.1.1 #seg286141.1.13"/>
+                        <link ana="ud-syn:obj" target="#seg286141.1.13 #seg286141.1.14"/>
+                        <link ana="ud-syn:nmod" target="#seg286141.1.14 #seg286141.1.15"/>
+                        <link ana="ud-syn:nmod" target="#seg286141.1.15 #seg286141.1.16"/>
+                        <link ana="ud-syn:appos" target="#seg286141.1.15 #seg286141.1.17"/>
+                        <link ana="ud-syn:flat" target="#seg286141.1.17 #seg286141.1.18"/>
+                        <link ana="ud-syn:punct" target="#seg286141.1.1 #seg286141.1.19"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="seg286142">
+                  <s xml:id="seg286142.1">
+                     <w ana="mte:Vmm2p" join="right" lemma="izvoljeti" msd="UPosTag=VERB|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin" xml:id="seg286142.1.1">Izvolite</w>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg286142.1.2">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root" target="#seg286142.1 #seg286142.1.1"/>
+                        <link ana="ud-syn:punct" target="#seg286142.1.1 #seg286142.1.2"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <u ana="#regular" n="381109" who="#KajtaziVeljko" xml:id="ParlaMint-HR_S08.u2">
+               <seg xml:id="seg286144">
+                  <s xml:id="seg286144.1">
+                     <w ana="mte:Vmr1s" lemma="zahvaljivati" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" xml:id="seg286144.1.1">Zahvaljujem</w>
+                     <w ana="mte:Px--sa" join="right" lemma="sebe" msd="UPosTag=PRON|Case=Acc|PronType=Prs|Reflex=Yes" xml:id="seg286144.1.2">se</w>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg286144.1.3">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root" target="#seg286144.1 #seg286144.1.1"/>
+                        <link ana="ud-syn:obj" target="#seg286144.1.1 #seg286144.1.2"/>
+                        <link ana="ud-syn:punct" target="#seg286144.1.1 #seg286144.1.3"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="seg286145">
+                  <s xml:id="seg286145.1">
+                     <w ana="mte:Appmpvy" lemma="poštovati" msd="UPosTag=ADJ|Case=Voc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass" xml:id="seg286145.1.1">Poštovani</w>
+                     <w ana="mte:Ncmsv" lemma="predsjednik" msd="UPosTag=NOUN|Case=Voc|Gender=Masc|Number=Sing" xml:id="seg286145.1.2">predsjedniče</w>
+                     <name type="ORG">
+                        <w ana="mte:Npfsg" join="right" lemma="Vlada" msd="UPosTag=PROPN|Case=Voc|Gender=Fem|Number=Sing" xml:id="seg286145.1.3">Vlade</w>
+                     </name>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg286145.1.4">,</pc>
+                     <w ana="mte:Ncmsv" lemma="gospodin" msd="UPosTag=NOUN|Case=Voc|Gender=Masc|Number=Sing" xml:id="seg286145.1.5">gospodine</w>
+                     <name type="PER">
+                        <w ana="mte:Npmsv" join="right" lemma="Plenković" msd="UPosTag=PROPN|Case=Dat|Gender=Masc|Number=Sing" xml:id="seg286145.1.6">Plenkoviću</w>
+                     </name>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg286145.1.7">,</pc>
+                     <w ana="mte:Ps2fsn" lemma="vaš" msd="UPosTag=DET|Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs" xml:id="seg286145.1.8">vaša</w>
+                     <w ana="mte:Var3s" lemma="biti" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="seg286145.1.9">je</w>
+                     <name type="ORG">
+                        <w ana="mte:Npfsn" lemma="Vlada" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="seg286145.1.10">Vlada</w>
+                     </name>
+                     <w ana="mte:Sl" lemma="u" msd="UPosTag=ADP|Case=Loc" xml:id="seg286145.1.11">u</w>
+                     <w ana="mte:Ncmsl" lemma="kolovoz" msd="UPosTag=NOUN|Case=Loc|Gender=Masc|Number=Sing" xml:id="seg286145.1.12">kolovozu</w>
+                     <w ana="mte:Agpfsgy" lemma="prošli" msd="UPosTag=ADJ|Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" xml:id="seg286145.1.13">prošle</w>
+                     <w ana="mte:Ncfsg" lemma="godina" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" xml:id="seg286145.1.14">godine</w>
+                     <w ana="mte:Vmp-sf" lemma="donijeti" msd="UPosTag=VERB|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act" xml:id="seg286145.1.15">donijela</w>
+                     <w ana="mte:Agpmsayn" lemma="operativan" msd="UPosTag=ADJ|Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" xml:id="seg286145.1.16">operativni</w>
+                     <w ana="mte:Ncmsan" lemma="program" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing" xml:id="seg286145.1.17">program</w>
+                     <w ana="mte:Sa" lemma="za" msd="UPosTag=ADP|Case=Acc" xml:id="seg286145.1.18">za</w>
+                     <w ana="mte:Agpfpay" lemma="nacionalan" msd="UPosTag=ADJ|Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur" xml:id="seg286145.1.19">nacionalne</w>
+                     <w ana="mte:Ncfpa" join="right" lemma="manjina" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Plur" xml:id="seg286145.1.20">manjine</w>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg286145.1.21">,</pc>
+                     <w ana="mte:Cc" lemma="a" msd="UPosTag=CCONJ" xml:id="seg286145.1.22">a</w>
+                     <w ana="mte:Si" lemma="među" msd="UPosTag=ADP|Case=Ins" xml:id="seg286145.1.23">među</w>
+                     <w ana="mte:Pp3-pi" lemma="oni" msd="UPosTag=PRON|Case=Ins|Number=Plur|Person=3|PronType=Prs" xml:id="seg286145.1.24">njima</w>
+                     <w ana="mte:Var3s" lemma="biti" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="seg286145.1.25">je</w>
+                     <w ana="mte:Qo" lemma="i" msd="UPosTag=PART" xml:id="seg286145.1.26">i</w>
+                     <w ana="mte:Agpmsny" lemma="poseban" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" xml:id="seg286145.1.27">posebni</w>
+                     <w ana="mte:Agpmsny" lemma="operativan" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" xml:id="seg286145.1.28">operativni</w>
+                     <w ana="mte:Ncmsn" lemma="program" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" xml:id="seg286145.1.29">program</w>
+                     <w ana="mte:Sa" lemma="za" msd="UPosTag=ADP|Case=Acc" xml:id="seg286145.1.30">za</w>
+                     <w ana="mte:Agpfsay" lemma="romski" msd="UPosTag=ADJ|Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" xml:id="seg286145.1.31">romsku</w>
+                     <w ana="mte:Agpfsay" lemma="nacionalan" msd="UPosTag=ADJ|Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" xml:id="seg286145.1.32">nacionalnu</w>
+                     <w ana="mte:Ncfsa" join="right" lemma="manjina" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" xml:id="seg286145.1.33">manjinu</w>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg286145.1.34">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:amod" target="#seg286145.1.2 #seg286145.1.1"/>
+                        <link ana="ud-syn:iobj" target="#seg286145.1.15 #seg286145.1.2"/>
+                        <link ana="ud-syn:nmod" target="#seg286145.1.2 #seg286145.1.3"/>
+                        <link ana="ud-syn:punct" target="#seg286145.1.5 #seg286145.1.4"/>
+                        <link ana="ud-syn:appos" target="#seg286145.1.2 #seg286145.1.5"/>
+                        <link ana="ud-syn:flat" target="#seg286145.1.5 #seg286145.1.6"/>
+                        <link ana="ud-syn:punct" target="#seg286145.1.5 #seg286145.1.7"/>
+                        <link ana="ud-syn:det" target="#seg286145.1.10 #seg286145.1.8"/>
+                        <link ana="ud-syn:aux" target="#seg286145.1.15 #seg286145.1.9"/>
+                        <link ana="ud-syn:nsubj" target="#seg286145.1.15 #seg286145.1.10"/>
+                        <link ana="ud-syn:case" target="#seg286145.1.12 #seg286145.1.11"/>
+                        <link ana="ud-syn:obl" target="#seg286145.1.15 #seg286145.1.12"/>
+                        <link ana="ud-syn:amod" target="#seg286145.1.14 #seg286145.1.13"/>
+                        <link ana="ud-syn:nmod" target="#seg286145.1.12 #seg286145.1.14"/>
+                        <link ana="ud-syn:root" target="#seg286145.1 #seg286145.1.15"/>
+                        <link ana="ud-syn:amod" target="#seg286145.1.17 #seg286145.1.16"/>
+                        <link ana="ud-syn:obj" target="#seg286145.1.15 #seg286145.1.17"/>
+                        <link ana="ud-syn:case" target="#seg286145.1.20 #seg286145.1.18"/>
+                        <link ana="ud-syn:amod" target="#seg286145.1.20 #seg286145.1.19"/>
+                        <link ana="ud-syn:nmod" target="#seg286145.1.17 #seg286145.1.20"/>
+                        <link ana="ud-syn:punct" target="#seg286145.1.24 #seg286145.1.21"/>
+                        <link ana="ud-syn:cc" target="#seg286145.1.24 #seg286145.1.22"/>
+                        <link ana="ud-syn:case" target="#seg286145.1.24 #seg286145.1.23"/>
+                        <link ana="ud-syn:conj" target="#seg286145.1.15 #seg286145.1.24"/>
+                        <link ana="ud-syn:cop" target="#seg286145.1.24 #seg286145.1.25"/>
+                        <link ana="ud-syn:discourse" target="#seg286145.1.29 #seg286145.1.26"/>
+                        <link ana="ud-syn:amod" target="#seg286145.1.29 #seg286145.1.27"/>
+                        <link ana="ud-syn:amod" target="#seg286145.1.29 #seg286145.1.28"/>
+                        <link ana="ud-syn:nsubj" target="#seg286145.1.24 #seg286145.1.29"/>
+                        <link ana="ud-syn:case" target="#seg286145.1.33 #seg286145.1.30"/>
+                        <link ana="ud-syn:amod" target="#seg286145.1.33 #seg286145.1.31"/>
+                        <link ana="ud-syn:amod" target="#seg286145.1.33 #seg286145.1.32"/>
+                        <link ana="ud-syn:nmod" target="#seg286145.1.29 #seg286145.1.33"/>
+                        <link ana="ud-syn:punct" target="#seg286145.1.15 #seg286145.1.34"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="seg286145.2">
+                     <w ana="mte:Sl" lemma="na" msd="UPosTag=ADP|Case=Loc" xml:id="seg286145.2.1">Na</w>
+                     <w ana="mte:Ncmsl" lemma="dokument" msd="UPosTag=NOUN|Case=Loc|Gender=Masc|Number=Sing" xml:id="seg286145.2.2">dokumentu</w>
+                     <w ana="mte:Px--sa" lemma="sebe" msd="UPosTag=PRON|Case=Acc|PronType=Prs|Reflex=Yes" xml:id="seg286145.2.3">se</w>
+                     <w ana="mte:Vmp-sn" lemma="raditi" msd="UPosTag=VERB|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act" xml:id="seg286145.2.4">radilo</w>
+                     <w ana="mte:Rgp" lemma="gotovo" msd="UPosTag=ADV|Degree=Pos" xml:id="seg286145.2.5">gotovo</w>
+                     <w ana="mte:Ncfsa" lemma="godina" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" xml:id="seg286145.2.6">godinu</w>
+                     <w ana="mte:Ncmpg" lemma="dan" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur" xml:id="seg286145.2.7">dana</w>
+                     <w ana="mte:Cc" lemma="i" msd="UPosTag=CCONJ" xml:id="seg286145.2.8">i</w>
+                     <w ana="mte:Pp3msn" lemma="on" msd="UPosTag=PRON|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs" xml:id="seg286145.2.9">on</w>
+                     <w ana="mte:Var3s" lemma="biti" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="seg286145.2.10">je</w>
+                     <w ana="mte:Agpmsny" lemma="temeljan" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" xml:id="seg286145.2.11">temeljni</w>
+                     <w ana="mte:Ncmsn" lemma="dokument" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" xml:id="seg286145.2.12">dokument</w>
+                     <w ana="mte:Sl" lemma="na" msd="UPosTag=ADP|Case=Loc" xml:id="seg286145.2.13">na</w>
+                     <w ana="mte:Pi-msl" lemma="koji" msd="UPosTag=DET|Case=Loc|Gender=Masc|Number=Sing|PronType=Int,Rel" xml:id="seg286145.2.14">kojem</w>
+                     <w ana="mte:Px--sa" lemma="sebe" msd="UPosTag=PRON|Case=Acc|PronType=Prs|Reflex=Yes" xml:id="seg286145.2.15">se</w>
+                     <w ana="mte:Vmr3s" lemma="temeljiti" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="seg286145.2.16">temelji</w>
+                     <w ana="mte:Ps1fsn" lemma="moj" msd="UPosTag=DET|Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs" xml:id="seg286145.2.17">moja</w>
+                     <w ana="mte:Ncfsn" lemma="podrška" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" xml:id="seg286145.2.18">podrška</w>
+                     <w ana="mte:Ps2fsd" lemma="vaš" msd="UPosTag=DET|Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs" xml:id="seg286145.2.19">vašoj</w>
+                     <name type="ORG">
+                        <w ana="mte:Npfsd" join="right" lemma="Vlada" msd="UPosTag=PROPN|Case=Dat|Gender=Fem|Number=Sing" xml:id="seg286145.2.20">Vladi</w>
+                     </name>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg286145.2.21">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:case" target="#seg286145.2.2 #seg286145.2.1"/>
+                        <link ana="ud-syn:obl" target="#seg286145.2.4 #seg286145.2.2"/>
+                        <link ana="ud-syn:expl_pv" target="#seg286145.2.4 #seg286145.2.3"/>
+                        <link ana="ud-syn:root" target="#seg286145.2 #seg286145.2.4"/>
+                        <link ana="ud-syn:advmod" target="#seg286145.2.6 #seg286145.2.5"/>
+                        <link ana="ud-syn:obl" target="#seg286145.2.4 #seg286145.2.6"/>
+                        <link ana="ud-syn:nmod" target="#seg286145.2.6 #seg286145.2.7"/>
+                        <link ana="ud-syn:cc" target="#seg286145.2.12 #seg286145.2.8"/>
+                        <link ana="ud-syn:nsubj" target="#seg286145.2.12 #seg286145.2.9"/>
+                        <link ana="ud-syn:cop" target="#seg286145.2.12 #seg286145.2.10"/>
+                        <link ana="ud-syn:amod" target="#seg286145.2.12 #seg286145.2.11"/>
+                        <link ana="ud-syn:conj" target="#seg286145.2.4 #seg286145.2.12"/>
+                        <link ana="ud-syn:case" target="#seg286145.2.14 #seg286145.2.13"/>
+                        <link ana="ud-syn:obl" target="#seg286145.2.16 #seg286145.2.14"/>
+                        <link ana="ud-syn:expl_pv" target="#seg286145.2.16 #seg286145.2.15"/>
+                        <link ana="ud-syn:acl" target="#seg286145.2.12 #seg286145.2.16"/>
+                        <link ana="ud-syn:det" target="#seg286145.2.18 #seg286145.2.17"/>
+                        <link ana="ud-syn:nsubj" target="#seg286145.2.16 #seg286145.2.18"/>
+                        <link ana="ud-syn:det" target="#seg286145.2.20 #seg286145.2.19"/>
+                        <link ana="ud-syn:nmod" target="#seg286145.2.18 #seg286145.2.20"/>
+                        <link ana="ud-syn:punct" target="#seg286145.2.4 #seg286145.2.21"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="seg286145.3">
+                     <w ana="mte:Agpmpny" lemma="operativan" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur" xml:id="seg286145.3.1">Operativni</w>
+                     <w ana="mte:Ncmpn" lemma="program" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Plur" xml:id="seg286145.3.2">programi</w>
+                     <w ana="mte:Rgp" lemma="jasno" msd="UPosTag=ADV|Degree=Pos" xml:id="seg286145.3.3">jasno</w>
+                     <w ana="mte:Var3p" lemma="biti" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" xml:id="seg286145.3.4">su</w>
+                     <w ana="mte:Vmp-pm" lemma="definirati" msd="UPosTag=VERB|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act" xml:id="seg286145.3.5">definirali</w>
+                     <w ana="mte:Ncfpa" join="right" lemma="aktivnost" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Plur" xml:id="seg286145.3.6">aktivnosti</w>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg286145.3.7">,</pc>
+                     <w ana="mte:Ncmpa" lemma="rok" msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Plur" xml:id="seg286145.3.8">rokove</w>
+                     <w ana="mte:Sl" lemma="u" msd="UPosTag=ADP|Case=Loc" xml:id="seg286145.3.9">u</w>
+                     <w ana="mte:Pi-fpl" lemma="koji" msd="UPosTag=DET|Case=Loc|Gender=Fem|Number=Plur|PronType=Int,Rel" xml:id="seg286145.3.10">kojima</w>
+                     <w ana="mte:Px--sa" lemma="sebe" msd="UPosTag=PRON|Case=Acc|PronType=Prs|Reflex=Yes" xml:id="seg286145.3.11">se</w>
+                     <w ana="mte:Pd-fpn" lemma="taj" msd="UPosTag=DET|Case=Nom|Gender=Fem|Number=Plur|PronType=Dem" xml:id="seg286145.3.12">te</w>
+                     <w ana="mte:Ncfpn" lemma="aktivnost" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Plur" xml:id="seg286145.3.13">aktivnosti</w>
+                     <w ana="mte:Vmr3p" lemma="morati" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" xml:id="seg286145.3.14">moraju</w>
+                     <w ana="mte:Vmn" join="right" lemma="provesti" msd="UPosTag=VERB|VerbForm=Inf" xml:id="seg286145.3.15">provesti</w>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg286145.3.16">,</pc>
+                     <w ana="mte:Cc" lemma="a" msd="UPosTag=CCONJ" xml:id="seg286145.3.17">a</w>
+                     <w ana="mte:Sa" lemma="za" msd="UPosTag=ADP|Case=Acc" xml:id="seg286145.3.18">za</w>
+                     <w ana="mte:Pd-nsa" lemma="taj" msd="UPosTag=DET|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem" xml:id="seg286145.3.19">to</w>
+                     <w ana="mte:Var3p" lemma="biti" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" xml:id="seg286145.3.20">su</w>
+                     <w ana="mte:Agpnpny" lemma="određen" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Plur" xml:id="seg286145.3.21">određena</w>
+                     <w ana="mte:Cc" lemma="i" msd="UPosTag=CCONJ" xml:id="seg286145.3.22">i</w>
+                     <w ana="mte:Agpnpny" lemma="nadležan" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Plur" xml:id="seg286145.3.23">nadležna</w>
+                     <w ana="mte:Ncnpn" join="right" lemma="tijelo" msd="UPosTag=NOUN|Case=Nom|Gender=Neut|Number=Plur" xml:id="seg286145.3.24">tijela</w>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg286145.3.25">,</pc>
+                     <w ana="mte:Ncnpn" lemma="ministarstvo" msd="UPosTag=NOUN|Case=Nom|Gender=Neut|Number=Plur" xml:id="seg286145.3.26">ministarstva</w>
+                     <w ana="mte:Cc" lemma="i" msd="UPosTag=CCONJ" xml:id="seg286145.3.27">i</w>
+                     <w ana="mte:Ncfpn" join="right" lemma="agencija" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Plur" xml:id="seg286145.3.28">agencije</w>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg286145.3.29">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:amod" target="#seg286145.3.2 #seg286145.3.1"/>
+                        <link ana="ud-syn:nsubj" target="#seg286145.3.5 #seg286145.3.2"/>
+                        <link ana="ud-syn:advmod" target="#seg286145.3.5 #seg286145.3.3"/>
+                        <link ana="ud-syn:aux" target="#seg286145.3.5 #seg286145.3.4"/>
+                        <link ana="ud-syn:root" target="#seg286145.3 #seg286145.3.5"/>
+                        <link ana="ud-syn:obj" target="#seg286145.3.5 #seg286145.3.6"/>
+                        <link ana="ud-syn:punct" target="#seg286145.3.8 #seg286145.3.7"/>
+                        <link ana="ud-syn:conj" target="#seg286145.3.6 #seg286145.3.8"/>
+                        <link ana="ud-syn:case" target="#seg286145.3.10 #seg286145.3.9"/>
+                        <link ana="ud-syn:obl" target="#seg286145.3.14 #seg286145.3.10"/>
+                        <link ana="ud-syn:expl_pv" target="#seg286145.3.14 #seg286145.3.11"/>
+                        <link ana="ud-syn:det" target="#seg286145.3.13 #seg286145.3.12"/>
+                        <link ana="ud-syn:nsubj" target="#seg286145.3.14 #seg286145.3.13"/>
+                        <link ana="ud-syn:acl" target="#seg286145.3.8 #seg286145.3.14"/>
+                        <link ana="ud-syn:xcomp" target="#seg286145.3.14 #seg286145.3.15"/>
+                        <link ana="ud-syn:punct" target="#seg286145.3.21 #seg286145.3.16"/>
+                        <link ana="ud-syn:cc" target="#seg286145.3.21 #seg286145.3.17"/>
+                        <link ana="ud-syn:case" target="#seg286145.3.19 #seg286145.3.18"/>
+                        <link ana="ud-syn:obl" target="#seg286145.3.21 #seg286145.3.19"/>
+                        <link ana="ud-syn:cop" target="#seg286145.3.21 #seg286145.3.20"/>
+                        <link ana="ud-syn:conj" target="#seg286145.3.5 #seg286145.3.21"/>
+                        <link ana="ud-syn:cc" target="#seg286145.3.23 #seg286145.3.22"/>
+                        <link ana="ud-syn:amod" target="#seg286145.3.24 #seg286145.3.23"/>
+                        <link ana="ud-syn:nsubj" target="#seg286145.3.21 #seg286145.3.24"/>
+                        <link ana="ud-syn:punct" target="#seg286145.3.26 #seg286145.3.25"/>
+                        <link ana="ud-syn:conj" target="#seg286145.3.24 #seg286145.3.26"/>
+                        <link ana="ud-syn:cc" target="#seg286145.3.28 #seg286145.3.27"/>
+                        <link ana="ud-syn:conj" target="#seg286145.3.24 #seg286145.3.28"/>
+                        <link ana="ud-syn:punct" target="#seg286145.3.5 #seg286145.3.29"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="seg286145.4">
+                     <w ana="mte:Rgp" lemma="prethodno" msd="UPosTag=ADV|Degree=Pos" xml:id="seg286145.4.1">Prethodno</w>
+                     <w ana="mte:Var3p" lemma="biti" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" xml:id="seg286145.4.2">su</w>
+                     <w ana="mte:Si" lemma="sa" msd="UPosTag=ADP|Case=Ins" xml:id="seg286145.4.3">sa</w>
+                     <w ana="mte:Agpmpiy" lemma="sav" msd="UPosTag=ADJ|Case=Ins|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur" xml:id="seg286145.4.4">svim</w>
+                     <w ana="mte:Ncmpi" lemma="nositelj" msd="UPosTag=NOUN|Case=Ins|Gender=Masc|Number=Plur" xml:id="seg286145.4.5">nositeljima</w>
+                     <w ana="mte:Ncfsg" lemma="aktivnost" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" xml:id="seg286145.4.6">aktivnosti</w>
+                     <w ana="mte:Agpfsgy" lemma="određen" msd="UPosTag=ADJ|Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" xml:id="seg286145.4.7">određene</w>
+                     <w ana="mte:Ncfsg" join="right" lemma="konstatacija" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" xml:id="seg286145.4.8">konstatacije</w>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg286145.4.9">,</pc>
+                     <w ana="mte:Cc" lemma="a" msd="UPosTag=CCONJ" xml:id="seg286145.4.10">a</w>
+                     <name type="ORG">
+                        <w ana="mte:Npfsn" lemma="Vlada" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="seg286145.4.11">Vlada</w>
+                     </name>
+                     <w ana="mte:Var3s" lemma="biti" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="seg286145.4.12">je</w>
+                     <w ana="mte:Rgp" lemma="jednoglasno" msd="UPosTag=ADV|Degree=Pos" xml:id="seg286145.4.13">jednoglasno</w>
+                     <w ana="mte:Vmp-sf" lemma="usvojiti" msd="UPosTag=VERB|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act" xml:id="seg286145.4.14">usvojila</w>
+                     <w ana="mte:Qo" lemma="i" msd="UPosTag=PART" xml:id="seg286145.4.15">i</w>
+                     <w ana="mte:Agpmpay" lemma="operativan" msd="UPosTag=ADJ|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur" xml:id="seg286145.4.16">operativne</w>
+                     <w ana="mte:Ncmpa" join="right" lemma="program" msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Plur" xml:id="seg286145.4.17">programe</w>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg286145.4.18">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root" target="#seg286145.4 #seg286145.4.1"/>
+                        <link ana="ud-syn:cop" target="#seg286145.4.1 #seg286145.4.2"/>
+                        <link ana="ud-syn:case" target="#seg286145.4.5 #seg286145.4.3"/>
+                        <link ana="ud-syn:amod" target="#seg286145.4.5 #seg286145.4.4"/>
+                        <link ana="ud-syn:obl" target="#seg286145.4.1 #seg286145.4.5"/>
+                        <link ana="ud-syn:nmod" target="#seg286145.4.5 #seg286145.4.6"/>
+                        <link ana="ud-syn:amod" target="#seg286145.4.8 #seg286145.4.7"/>
+                        <link ana="ud-syn:nmod" target="#seg286145.4.6 #seg286145.4.8"/>
+                        <link ana="ud-syn:punct" target="#seg286145.4.14 #seg286145.4.9"/>
+                        <link ana="ud-syn:cc" target="#seg286145.4.14 #seg286145.4.10"/>
+                        <link ana="ud-syn:nsubj" target="#seg286145.4.14 #seg286145.4.11"/>
+                        <link ana="ud-syn:aux" target="#seg286145.4.14 #seg286145.4.12"/>
+                        <link ana="ud-syn:advmod" target="#seg286145.4.14 #seg286145.4.13"/>
+                        <link ana="ud-syn:conj" target="#seg286145.4.1 #seg286145.4.14"/>
+                        <link ana="ud-syn:discourse" target="#seg286145.4.17 #seg286145.4.15"/>
+                        <link ana="ud-syn:amod" target="#seg286145.4.17 #seg286145.4.16"/>
+                        <link ana="ud-syn:obj" target="#seg286145.4.14 #seg286145.4.17"/>
+                        <link ana="ud-syn:punct" target="#seg286145.4.1 #seg286145.4.18"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="seg286146">
+                  <s xml:id="seg286146.1">
+                     <w ana="mte:Appmpvy" lemma="poštovati" msd="UPosTag=ADJ|Case=Voc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass" xml:id="seg286146.1.1">Poštovani</w>
+                     <w ana="mte:Ncmsv" lemma="gospodin" msd="UPosTag=NOUN|Case=Voc|Gender=Masc|Number=Sing" xml:id="seg286146.1.2">gospodine</w>
+                     <name type="PER">
+                        <w ana="mte:Npmsd" join="right" lemma="Plenković" msd="UPosTag=PROPN|Case=Dat|Gender=Masc|Number=Sing" xml:id="seg286146.1.3">Plenkoviću</w>
+                     </name>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg286146.1.4">,</pc>
+                     <w ana="mte:Sl" lemma="u" msd="UPosTag=ADP|Case=Loc" xml:id="seg286146.1.5">u</w>
+                     <w ana="mte:Agpmsly" lemma="operativan" msd="UPosTag=ADJ|Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" xml:id="seg286146.1.6">operativnom</w>
+                     <w ana="mte:Ncmsl" lemma="program" msd="UPosTag=NOUN|Case=Loc|Gender=Masc|Number=Sing" xml:id="seg286146.1.7">programu</w>
+                     <w ana="mte:Sa" lemma="za" msd="UPosTag=ADP|Case=Acc" xml:id="seg286146.1.8">za</w>
+                     <w ana="mte:Agpfsay" lemma="romski" msd="UPosTag=ADJ|Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" xml:id="seg286146.1.9">romsku</w>
+                     <w ana="mte:Agpfsay" lemma="nacionalan" msd="UPosTag=ADJ|Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" xml:id="seg286146.1.10">nacionalnu</w>
+                     <w ana="mte:Ncfsa" lemma="manjina" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" xml:id="seg286146.1.11">manjinu</w>
+                     <w ana="mte:Rgp" lemma="gotovo" msd="UPosTag=ADV|Degree=Pos" xml:id="seg286146.1.12">gotovo</w>
+                     <w ana="mte:Var3p" lemma="biti" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" xml:id="seg286146.1.13">su</w>
+                     <w ana="mte:Agpmpny" lemma="sav" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur" xml:id="seg286146.1.14">svi</w>
+                     <w ana="mte:Ncmpn" lemma="rok" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Plur" xml:id="seg286146.1.15">rokovi</w>
+                     <w ana="mte:Appmpny" join="right" lemma="probiti" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass" xml:id="seg286146.1.16">probijeni</w>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg286146.1.17">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:amod" target="#seg286146.1.2 #seg286146.1.1"/>
+                        <link ana="ud-syn:obj" target="#seg286146.1.16 #seg286146.1.2"/>
+                        <link ana="ud-syn:nmod" target="#seg286146.1.2 #seg286146.1.3"/>
+                        <link ana="ud-syn:punct" target="#seg286146.1.2 #seg286146.1.4"/>
+                        <link ana="ud-syn:case" target="#seg286146.1.7 #seg286146.1.5"/>
+                        <link ana="ud-syn:amod" target="#seg286146.1.7 #seg286146.1.6"/>
+                        <link ana="ud-syn:obl" target="#seg286146.1.16 #seg286146.1.7"/>
+                        <link ana="ud-syn:case" target="#seg286146.1.11 #seg286146.1.8"/>
+                        <link ana="ud-syn:amod" target="#seg286146.1.11 #seg286146.1.9"/>
+                        <link ana="ud-syn:amod" target="#seg286146.1.11 #seg286146.1.10"/>
+                        <link ana="ud-syn:nmod" target="#seg286146.1.7 #seg286146.1.11"/>
+                        <link ana="ud-syn:advmod" target="#seg286146.1.15 #seg286146.1.12"/>
+                        <link ana="ud-syn:aux_pass" target="#seg286146.1.16 #seg286146.1.13"/>
+                        <link ana="ud-syn:amod" target="#seg286146.1.15 #seg286146.1.14"/>
+                        <link ana="ud-syn:nsubj_pass" target="#seg286146.1.16 #seg286146.1.15"/>
+                        <link ana="ud-syn:root" target="#seg286146.1 #seg286146.1.16"/>
+                        <link ana="ud-syn:punct" target="#seg286146.1.16 #seg286146.1.17"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="seg286146.2">
+                     <w ana="mte:Agpmsny" lemma="određen" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" xml:id="seg286146.2.1">Određeni</w>
+                     <w ana="mte:Ncmsn" lemma="nositelj" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" xml:id="seg286146.2.2">nositelj</w>
+                     <w ana="mte:Ncfsg" join="right" lemma="aktivnost" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" xml:id="seg286146.2.3">aktivnosti</w>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg286146.2.4">,</pc>
+                     <w ana="mte:Cs" lemma="kao" msd="UPosTag=SCONJ" xml:id="seg286146.2.5">kao</w>
+                     <name type="ORG">
+                        <w ana="mte:Ncnsn" lemma="ministarstvo" msd="UPosTag=NOUN|Case=Nom|Gender=Neut|Number=Sing" xml:id="seg286146.2.6">Ministarstvo</w>
+                        <w ana="mte:Ncfsg" lemma="kultura" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" xml:id="seg286146.2.7">kulture</w>
+                     </name>
+                     <w ana="mte:Px--sa" lemma="sebe" msd="UPosTag=PRON|Case=Acc|PronType=Prs|Reflex=Yes" xml:id="seg286146.2.8">se</w>
+                     <w ana="mte:Vmr3p" lemma="protiviti" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" xml:id="seg286146.2.9">protive</w>
+                     <w ana="mte:Ncfsd" lemma="provedba" msd="UPosTag=NOUN|Case=Dat|Gender=Fem|Number=Sing" xml:id="seg286146.2.10">provedbi</w>
+                     <w ana="mte:Ncfpg" lemma="aktivnost" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Plur" xml:id="seg286146.2.11">aktivnosti</w>
+                     <w ana="mte:Sa" lemma="za" msd="UPosTag=ADP|Case=Acc" xml:id="seg286146.2.12">za</w>
+                     <w ana="mte:Pi-fpa" lemma="koji" msd="UPosTag=DET|Case=Acc|Gender=Fem|Number=Plur|PronType=Int,Rel" xml:id="seg286146.2.13">koje</w>
+                     <w ana="mte:Var3p" lemma="biti" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" xml:id="seg286146.2.14">su</w>
+                     <w ana="mte:Appmpny" join="right" lemma="zadužiti" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass" xml:id="seg286146.2.15">zaduženi</w>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg286146.2.16">,</pc>
+                     <w ana="mte:Cc" lemma="a" msd="UPosTag=CCONJ" xml:id="seg286146.2.17">a</w>
+                     <w ana="mte:Rgp" lemma="isto" msd="UPosTag=ADV|Degree=Pos" xml:id="seg286146.2.18">isto</w>
+                     <w ana="mte:Rgp" lemma="tako" msd="UPosTag=ADV|Degree=Pos|PronType=Dem" xml:id="seg286146.2.19">tako</w>
+                     <w ana="mte:Var3p" lemma="biti" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin" xml:id="seg286146.2.20">nisu</w>
+                     <w ana="mte:Appnpny" lemma="predvidjeti" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Plur|VerbForm=Part|Voice=Pass" xml:id="seg286146.2.21">predviđena</w>
+                     <w ana="mte:Ncnpn" lemma="sredstvo" msd="UPosTag=NOUN|Case=Nom|Gender=Neut|Number=Plur" xml:id="seg286146.2.22">sredstva</w>
+                     <w ana="mte:Sa" lemma="za" msd="UPosTag=ADP|Case=Acc" xml:id="seg286146.2.23">za</w>
+                     <w ana="mte:Ncfsa" lemma="provedba" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" xml:id="seg286146.2.24">provedbu</w>
+                     <w ana="mte:Ncfsg" lemma="većina" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" xml:id="seg286146.2.25">većine</w>
+                     <w ana="mte:Ncfpg" join="right" lemma="aktivnost" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Plur" xml:id="seg286146.2.26">aktivnosti</w>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg286146.2.27">,</pc>
+                     <w ana="mte:Cc" lemma="a" msd="UPosTag=CCONJ" xml:id="seg286146.2.28">a</w>
+                     <w ana="mte:Sa" lemma="za" msd="UPosTag=ADP|Case=Acc" xml:id="seg286146.2.29">za</w>
+                     <w ana="mte:Ncfsa" lemma="provedba" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" xml:id="seg286146.2.30">provedbu</w>
+                     <w ana="mte:Pi-fpg" lemma="neki" msd="UPosTag=DET|Case=Gen|Gender=Fem|Number=Plur|PronType=Ind" xml:id="seg286146.2.31">nekih</w>
+                     <w ana="mte:Ncfpg" lemma="aktivnost" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Plur" xml:id="seg286146.2.32">aktivnosti</w>
+                     <w ana="mte:Rgp" lemma="još" msd="UPosTag=ADV|Degree=Pos" xml:id="seg286146.2.33">još</w>
+                     <w ana="mte:Rgp" lemma="uvijek" msd="UPosTag=ADV|Degree=Pos|PronType=Tot" xml:id="seg286146.2.34">uvijek</w>
+                     <w ana="mte:Vmr1p" lemma="nemati" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" xml:id="seg286146.2.35">nemamo</w>
+                     <w ana="mte:Agpmsayn" lemma="pravni" msd="UPosTag=ADJ|Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" xml:id="seg286146.2.36">pravni</w>
+                     <w ana="mte:Ncmsan" join="right" lemma="okvir" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing" xml:id="seg286146.2.37">okvir</w>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg286146.2.38">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:amod" target="#seg286146.2.2 #seg286146.2.1"/>
+                        <link ana="ud-syn:nsubj" target="#seg286146.2.9 #seg286146.2.2"/>
+                        <link ana="ud-syn:nmod" target="#seg286146.2.2 #seg286146.2.3"/>
+                        <link ana="ud-syn:punct" target="#seg286146.2.6 #seg286146.2.4"/>
+                        <link ana="ud-syn:case" target="#seg286146.2.6 #seg286146.2.5"/>
+                        <link ana="ud-syn:obl" target="#seg286146.2.9 #seg286146.2.6"/>
+                        <link ana="ud-syn:nmod" target="#seg286146.2.6 #seg286146.2.7"/>
+                        <link ana="ud-syn:expl_pv" target="#seg286146.2.9 #seg286146.2.8"/>
+                        <link ana="ud-syn:root" target="#seg286146.2 #seg286146.2.9"/>
+                        <link ana="ud-syn:obj" target="#seg286146.2.9 #seg286146.2.10"/>
+                        <link ana="ud-syn:nmod" target="#seg286146.2.10 #seg286146.2.11"/>
+                        <link ana="ud-syn:case" target="#seg286146.2.13 #seg286146.2.12"/>
+                        <link ana="ud-syn:obj" target="#seg286146.2.15 #seg286146.2.13"/>
+                        <link ana="ud-syn:cop" target="#seg286146.2.15 #seg286146.2.14"/>
+                        <link ana="ud-syn:acl" target="#seg286146.2.11 #seg286146.2.15"/>
+                        <link ana="ud-syn:punct" target="#seg286146.2.21 #seg286146.2.16"/>
+                        <link ana="ud-syn:cc" target="#seg286146.2.21 #seg286146.2.17"/>
+                        <link ana="ud-syn:advmod" target="#seg286146.2.19 #seg286146.2.18"/>
+                        <link ana="ud-syn:advmod" target="#seg286146.2.21 #seg286146.2.19"/>
+                        <link ana="ud-syn:cop" target="#seg286146.2.21 #seg286146.2.20"/>
+                        <link ana="ud-syn:conj" target="#seg286146.2.9 #seg286146.2.21"/>
+                        <link ana="ud-syn:nsubj" target="#seg286146.2.21 #seg286146.2.22"/>
+                        <link ana="ud-syn:case" target="#seg286146.2.24 #seg286146.2.23"/>
+                        <link ana="ud-syn:nmod" target="#seg286146.2.22 #seg286146.2.24"/>
+                        <link ana="ud-syn:nmod" target="#seg286146.2.24 #seg286146.2.25"/>
+                        <link ana="ud-syn:nmod" target="#seg286146.2.25 #seg286146.2.26"/>
+                        <link ana="ud-syn:punct" target="#seg286146.2.35 #seg286146.2.27"/>
+                        <link ana="ud-syn:cc" target="#seg286146.2.35 #seg286146.2.28"/>
+                        <link ana="ud-syn:case" target="#seg286146.2.30 #seg286146.2.29"/>
+                        <link ana="ud-syn:obl" target="#seg286146.2.35 #seg286146.2.30"/>
+                        <link ana="ud-syn:det" target="#seg286146.2.32 #seg286146.2.31"/>
+                        <link ana="ud-syn:nmod" target="#seg286146.2.30 #seg286146.2.32"/>
+                        <link ana="ud-syn:advmod" target="#seg286146.2.34 #seg286146.2.33"/>
+                        <link ana="ud-syn:advmod" target="#seg286146.2.35 #seg286146.2.34"/>
+                        <link ana="ud-syn:conj" target="#seg286146.2.21 #seg286146.2.35"/>
+                        <link ana="ud-syn:amod" target="#seg286146.2.37 #seg286146.2.36"/>
+                        <link ana="ud-syn:obj" target="#seg286146.2.35 #seg286146.2.37"/>
+                        <link ana="ud-syn:punct" target="#seg286146.2.9 #seg286146.2.38"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="seg286147">
+                  <s xml:id="seg286147.1">
+                     <w ana="mte:Rr" lemma="imati" msd="UPosTag=ADV|Tense=Pres|VerbForm=Conv" xml:id="seg286147.1.1">Imajući</w>
+                     <w ana="mte:Sl" lemma="u" msd="UPosTag=ADP|Case=Loc" xml:id="seg286147.1.2">u</w>
+                     <w ana="mte:Ncmsl" lemma="vid" msd="UPosTag=NOUN|Case=Loc|Gender=Masc|Number=Sing" xml:id="seg286147.1.3">vidu</w>
+                     <w ana="mte:Cs" lemma="da" msd="UPosTag=SCONJ" xml:id="seg286147.1.4">da</w>
+                     <w ana="mte:Var3s" lemma="biti" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="seg286147.1.5">je</w>
+                     <w ana="mte:Sa" lemma="za" msd="UPosTag=ADP|Case=Acc" xml:id="seg286147.1.6">za</w>
+                     <w ana="mte:Ncmsan" lemma="ožujak" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing" xml:id="seg286147.1.7">ožujak</w>
+                     <w ana="mte:Appmsnn" lemma="predvidjeti" msd="UPosTag=ADJ|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass" xml:id="seg286147.1.8">predviđen</w>
+                     <w ana="mte:Mlomsn" lemma="prvi" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing" xml:id="seg286147.1.9">prvi</w>
+                     <w ana="mte:Ncmsn" lemma="izvještaj" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" xml:id="seg286147.1.10">izvještaj</w>
+                     <w ana="mte:Sl" lemma="o" msd="UPosTag=ADP|Case=Loc" xml:id="seg286147.1.11">o</w>
+                     <w ana="mte:Ncfsl" lemma="provedba" msd="UPosTag=NOUN|Case=Loc|Gender=Fem|Number=Sing" xml:id="seg286147.1.12">provedbi</w>
+                     <w ana="mte:Agpmsgy" lemma="operativan" msd="UPosTag=ADJ|Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" xml:id="seg286147.1.13">operativnog</w>
+                     <w ana="mte:Ncmsg" join="right" lemma="program" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" xml:id="seg286147.1.14">programa</w>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg286147.1.15">,</pc>
+                     <w ana="mte:Cc" lemma="a" msd="UPosTag=CCONJ" xml:id="seg286147.1.16">a</w>
+                     <w ana="mte:Cs" lemma="da" msd="UPosTag=SCONJ" xml:id="seg286147.1.17">da</w>
+                     <w ana="mte:Ncfsn" lemma="situacija" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" xml:id="seg286147.1.18">situacija</w>
+                     <w ana="mte:Cs" lemma="kako" msd="UPosTag=SCONJ" xml:id="seg286147.1.19">kako</w>
+                     <w ana="mte:Vmr1s" join="right" lemma="navoditi" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" xml:id="seg286147.1.20">navodim</w>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg286147.1.21">,</pc>
+                     <w ana="mte:Pi3n-a" lemma="što" msd="UPosTag=PRON|Case=Acc|Gender=Neut|PronType=Int,Rel" xml:id="seg286147.1.22">što</w>
+                     <w ana="mte:Vmr2p" lemma="planirati" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin" xml:id="seg286147.1.23">planirate</w>
+                     <w ana="mte:Vmn" lemma="učiniti" msd="UPosTag=VERB|VerbForm=Inf" xml:id="seg286147.1.24">učiniti</w>
+                     <w ana="mte:Cs" lemma="da" msd="UPosTag=SCONJ" xml:id="seg286147.1.25">da</w>
+                     <w ana="mte:Px--sa" lemma="sebe" msd="UPosTag=PRON|Case=Acc|PronType=Prs|Reflex=Yes" xml:id="seg286147.1.26">se</w>
+                     <w ana="mte:Rgp" lemma="konačno" msd="UPosTag=ADV|Degree=Pos" xml:id="seg286147.1.27">konačno</w>
+                     <w ana="mte:Vmr3s" lemma="krenuti" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="seg286147.1.28">krene</w>
+                     <w ana="mte:Si" lemma="sa" msd="UPosTag=ADP|Case=Ins" xml:id="seg286147.1.29">sa</w>
+                     <w ana="mte:Agpfsiy" lemma="pun" msd="UPosTag=ADJ|Case=Ins|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" xml:id="seg286147.1.30">punom</w>
+                     <w ana="mte:Ncfsi" lemma="provedba" msd="UPosTag=NOUN|Case=Ins|Gender=Fem|Number=Sing" xml:id="seg286147.1.31">provedbom</w>
+                     <w ana="mte:Appnsgy" lemma="dogovoriti" msd="UPosTag=ADJ|Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass" xml:id="seg286147.1.32">dogovorenog</w>
+                     <w ana="mte:Sl" lemma="u" msd="UPosTag=ADP|Case=Loc" xml:id="seg286147.1.33">u</w>
+                     <w ana="mte:Agpmply" lemma="operativan" msd="UPosTag=ADJ|Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur" xml:id="seg286147.1.34">operativnim</w>
+                     <w ana="mte:Ncmpl" join="right" lemma="program" msd="UPosTag=NOUN|Case=Loc|Gender=Masc|Number=Plur" xml:id="seg286147.1.35">programima</w>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg286147.1.36">,</pc>
+                     <w ana="mte:Cs" lemma="da" msd="UPosTag=SCONJ" xml:id="seg286147.1.37">da</w>
+                     <w ana="mte:Ncnpn" lemma="ministarstvo" msd="UPosTag=NOUN|Case=Nom|Gender=Neut|Number=Plur" xml:id="seg286147.1.38">ministarstva</w>
+                     <w ana="mte:Vmr3p" lemma="preuzeti" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" xml:id="seg286147.1.39">preuzmu</w>
+                     <w ana="mte:Ncfsa" lemma="provedba" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" xml:id="seg286147.1.40">provedbu</w>
+                     <w ana="mte:Agpfpgy" lemma="dogovoriti" msd="UPosTag=ADJ|Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur|Voice=Pass" xml:id="seg286147.1.41">dogovorenih</w>
+                     <w ana="mte:Ncfpg" join="right" lemma="aktivnost" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Plur" xml:id="seg286147.1.42">aktivnosti</w>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg286147.1.43">,</pc>
+                     <w ana="mte:Cc" lemma="te" msd="UPosTag=CCONJ" xml:id="seg286147.1.44">te</w>
+                     <w ana="mte:Cs" lemma="da" msd="UPosTag=SCONJ" xml:id="seg286147.1.45">da</w>
+                     <w ana="mte:Pp3-pd" lemma="oni" msd="UPosTag=PRON|Case=Dat|Number=Plur|Person=3|PronType=Prs" xml:id="seg286147.1.46">im</w>
+                     <w ana="mte:Px--sa" lemma="sebe" msd="UPosTag=PRON|Case=Acc|PronType=Prs|Reflex=Yes" xml:id="seg286147.1.47">se</w>
+                     <w ana="mte:Rgp" lemma="zato" msd="UPosTag=ADV|Degree=Pos|PronType=Dem" xml:id="seg286147.1.48">zato</w>
+                     <w ana="mte:Vmr3s" lemma="osigurati" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="seg286147.1.49">osigura</w>
+                     <w ana="mte:Agpmsny" lemma="zakonski" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" xml:id="seg286147.1.50">zakonski</w>
+                     <w ana="mte:Cc" lemma="i" msd="UPosTag=CCONJ" xml:id="seg286147.1.51">i</w>
+                     <w ana="mte:Agpmsny" lemma="financijski" msd="UPosTag=ADJ|Animacy=Inan|Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" xml:id="seg286147.1.52">financijski</w>
+                     <w ana="mte:Ncmsan" join="right" lemma="okvir" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing" xml:id="seg286147.1.53">okvir</w>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg286147.1.54">?</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root" target="#seg286147.1 #seg286147.1.1"/>
+                        <link ana="ud-syn:case" target="#seg286147.1.3 #seg286147.1.2"/>
+                        <link ana="ud-syn:obl" target="#seg286147.1.1 #seg286147.1.3"/>
+                        <link ana="ud-syn:mark" target="#seg286147.1.8 #seg286147.1.4"/>
+                        <link ana="ud-syn:aux_pass" target="#seg286147.1.8 #seg286147.1.5"/>
+                        <link ana="ud-syn:case" target="#seg286147.1.7 #seg286147.1.6"/>
+                        <link ana="ud-syn:obl" target="#seg286147.1.8 #seg286147.1.7"/>
+                        <link ana="ud-syn:acl" target="#seg286147.1.3 #seg286147.1.8"/>
+                        <link ana="ud-syn:amod" target="#seg286147.1.10 #seg286147.1.9"/>
+                        <link ana="ud-syn:nsubj_pass" target="#seg286147.1.8 #seg286147.1.10"/>
+                        <link ana="ud-syn:case" target="#seg286147.1.12 #seg286147.1.11"/>
+                        <link ana="ud-syn:nmod" target="#seg286147.1.10 #seg286147.1.12"/>
+                        <link ana="ud-syn:amod" target="#seg286147.1.14 #seg286147.1.13"/>
+                        <link ana="ud-syn:nmod" target="#seg286147.1.12 #seg286147.1.14"/>
+                        <link ana="ud-syn:punct" target="#seg286147.1.23 #seg286147.1.15"/>
+                        <link ana="ud-syn:cc" target="#seg286147.1.23 #seg286147.1.16"/>
+                        <link ana="ud-syn:mark" target="#seg286147.1.20 #seg286147.1.17"/>
+                        <link ana="ud-syn:nsubj" target="#seg286147.1.20 #seg286147.1.18"/>
+                        <link ana="ud-syn:mark" target="#seg286147.1.20 #seg286147.1.19"/>
+                        <link ana="ud-syn:advcl" target="#seg286147.1.23 #seg286147.1.20"/>
+                        <link ana="ud-syn:punct" target="#seg286147.1.20 #seg286147.1.21"/>
+                        <link ana="ud-syn:obj" target="#seg286147.1.23 #seg286147.1.22"/>
+                        <link ana="ud-syn:advcl" target="#seg286147.1.8 #seg286147.1.23"/>
+                        <link ana="ud-syn:xcomp" target="#seg286147.1.23 #seg286147.1.24"/>
+                        <link ana="ud-syn:mark" target="#seg286147.1.28 #seg286147.1.25"/>
+                        <link ana="ud-syn:expl_pv" target="#seg286147.1.28 #seg286147.1.26"/>
+                        <link ana="ud-syn:advmod" target="#seg286147.1.28 #seg286147.1.27"/>
+                        <link ana="ud-syn:ccomp" target="#seg286147.1.24 #seg286147.1.28"/>
+                        <link ana="ud-syn:case" target="#seg286147.1.31 #seg286147.1.29"/>
+                        <link ana="ud-syn:amod" target="#seg286147.1.31 #seg286147.1.30"/>
+                        <link ana="ud-syn:obl" target="#seg286147.1.28 #seg286147.1.31"/>
+                        <link ana="ud-syn:acl" target="#seg286147.1.31 #seg286147.1.32"/>
+                        <link ana="ud-syn:case" target="#seg286147.1.35 #seg286147.1.33"/>
+                        <link ana="ud-syn:amod" target="#seg286147.1.35 #seg286147.1.34"/>
+                        <link ana="ud-syn:obl" target="#seg286147.1.32 #seg286147.1.35"/>
+                        <link ana="ud-syn:punct" target="#seg286147.1.39 #seg286147.1.36"/>
+                        <link ana="ud-syn:mark" target="#seg286147.1.39 #seg286147.1.37"/>
+                        <link ana="ud-syn:nsubj" target="#seg286147.1.39 #seg286147.1.38"/>
+                        <link ana="ud-syn:advcl" target="#seg286147.1.28 #seg286147.1.39"/>
+                        <link ana="ud-syn:obj" target="#seg286147.1.39 #seg286147.1.40"/>
+                        <link ana="ud-syn:amod" target="#seg286147.1.42 #seg286147.1.41"/>
+                        <link ana="ud-syn:nmod" target="#seg286147.1.40 #seg286147.1.42"/>
+                        <link ana="ud-syn:punct" target="#seg286147.1.49 #seg286147.1.43"/>
+                        <link ana="ud-syn:cc" target="#seg286147.1.49 #seg286147.1.44"/>
+                        <link ana="ud-syn:mark" target="#seg286147.1.49 #seg286147.1.45"/>
+                        <link ana="ud-syn:obj" target="#seg286147.1.49 #seg286147.1.46"/>
+                        <link ana="ud-syn:expl_pv" target="#seg286147.1.49 #seg286147.1.47"/>
+                        <link ana="ud-syn:advmod" target="#seg286147.1.49 #seg286147.1.48"/>
+                        <link ana="ud-syn:conj" target="#seg286147.1.39 #seg286147.1.49"/>
+                        <link ana="ud-syn:amod" target="#seg286147.1.53 #seg286147.1.50"/>
+                        <link ana="ud-syn:cc" target="#seg286147.1.52 #seg286147.1.51"/>
+                        <link ana="ud-syn:conj" target="#seg286147.1.50 #seg286147.1.52"/>
+                        <link ana="ud-syn:nsubj" target="#seg286147.1.49 #seg286147.1.53"/>
+                        <link ana="ud-syn:punct" target="#seg286147.1.39 #seg286147.1.54"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <gap reason="editorial"><desc xml:lang="en">SAMPLING</desc></gap>
+            <u ana="#regular" n="389873" who="#MarasGordan" xml:id="ParlaMint-HR_S08.u13025">
+               <seg xml:id="seg358298">
+                  <s xml:id="seg358298.1">
+                     <w ana="mte:Ncfsn" lemma="hvala" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" xml:id="seg358298.1.1">Hvala</w>
+                     <w ana="mte:Rgp" lemma="lijepo" msd="UPosTag=ADV|Degree=Pos" xml:id="seg358298.1.2">lijepo</w>
+                     <w ana="mte:Ncmsv" lemma="gospodin" msd="UPosTag=NOUN|Case=Voc|Gender=Masc|Number=Sing" xml:id="seg358298.1.3">gospodine</w>
+                     <w ana="mte:Ncmsv" join="right" lemma="predsjednik" msd="UPosTag=NOUN|Case=Voc|Gender=Masc|Number=Sing" xml:id="seg358298.1.4">predsjedniče</w>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg358298.1.5">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root" target="#seg358298.1 #seg358298.1.1"/>
+                        <link ana="ud-syn:advmod" target="#seg358298.1.1 #seg358298.1.2"/>
+                        <link ana="ud-syn:nmod" target="#seg358298.1.1 #seg358298.1.3"/>
+                        <link ana="ud-syn:nmod" target="#seg358298.1.3 #seg358298.1.4"/>
+                        <link ana="ud-syn:punct" target="#seg358298.1.1 #seg358298.1.5"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="seg358299">
+                  <s xml:id="seg358299.1">
+                     <w ana="mte:Vmr1s" lemma="smatrati" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" xml:id="seg358299.1.1">Smatram</w>
+                     <w ana="mte:Cs" lemma="da" msd="UPosTag=SCONJ" xml:id="seg358299.1.2">da</w>
+                     <w ana="mte:Var2p" lemma="biti" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin" xml:id="seg358299.1.3">ste</w>
+                     <w ana="mte:Vmp-pm" lemma="povrijediti" msd="UPosTag=VERB|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act" xml:id="seg358299.1.4">povrijedili</w>
+                     <w ana="mte:Ncmsan" lemma="poslovnik" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing" xml:id="seg358299.1.5">Poslovnik</w>
+                     <w ana="mte:Cs" lemma="jer" msd="UPosTag=SCONJ" xml:id="seg358299.1.6">jer</w>
+                     <w ana="mte:Agpmsny" lemma="poslovnički" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" xml:id="seg358299.1.7">poslovnički</w>
+                     <w ana="mte:Px--sa" lemma="sebe" msd="UPosTag=PRON|Case=Acc|PronType=Prs|Reflex=Yes" xml:id="seg358299.1.8">se</w>
+                     <w ana="mte:Vmp-sm" lemma="steći" msd="UPosTag=VERB|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act" xml:id="seg358299.1.9">stekao</w>
+                     <w ana="mte:Ncmsan" lemma="uvjet" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" xml:id="seg358299.1.10">uvjet</w>
+                     <w ana="mte:Cs" lemma="da" msd="UPosTag=SCONJ" xml:id="seg358299.1.11">da</w>
+                     <w ana="mte:Px--sa" lemma="sebe" msd="UPosTag=PRON|Case=Acc|PronType=Prs|Reflex=Yes" xml:id="seg358299.1.12">se</w>
+                     <w ana="mte:Vmr3s" lemma="odobriti" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="seg358299.1.13">odobri</w>
+                     <w ana="mte:Ncfsn" lemma="stanka" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" xml:id="seg358299.1.14">stanka</w>
+                     <w ana="mte:Si" lemma="sa" msd="UPosTag=ADP|Case=Ins" xml:id="seg358299.1.15">s</w>
+                     <w ana="mte:Ncmsi" lemma="obzir" msd="UPosTag=NOUN|Case=Ins|Gender=Masc|Number=Sing" xml:id="seg358299.1.16">obzirom</w>
+                     <w ana="mte:Cs" lemma="da" msd="UPosTag=SCONJ" xml:id="seg358299.1.17">da</w>
+                     <w ana="mte:Var3s" lemma="biti" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="seg358299.1.18">je</w>
+                     <w ana="mte:Ncmsn" lemma="gospodin" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" xml:id="seg358299.1.19">gospodin</w>
+                     <name type="PER">
+                        <w ana="mte:Npmsn" lemma="Beljak" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="seg358299.1.20">Beljak</w>
+                     </name>
+                     <w ana="mte:Vmp-sm" lemma="tražiti" msd="UPosTag=VERB|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act" xml:id="seg358299.1.21">tražio</w>
+                     <w ana="mte:Ncfsa" lemma="stanka" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" xml:id="seg358299.1.22">stanku</w>
+                     <w ana="mte:Rgp" lemma="vezano" msd="UPosTag=ADV|Degree=Pos" xml:id="seg358299.1.23">vezano</w>
+                     <w ana="mte:Sa" lemma="uz" msd="UPosTag=ADP|Case=Acc" xml:id="seg358299.1.24">uz</w>
+                     <w ana="mte:Agpfpay" lemma="moguć" msd="UPosTag=ADJ|Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur" xml:id="seg358299.1.25">moguće</w>
+                     <w ana="mte:Agpfpay" lemma="pravni" msd="UPosTag=ADJ|Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur" xml:id="seg358299.1.26">pravne</w>
+                     <w ana="mte:Ncfpa" lemma="posljedica" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Plur" xml:id="seg358299.1.27">posljedice</w>
+                     <name type="ORG">
+                        <w ana="mte:Npmsg" lemma="Agrokor" msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Sing" xml:id="seg358299.1.28">Agrokora</w>
+                     </name>
+                     <w ana="mte:Cc" lemma="a" msd="UPosTag=CCONJ" xml:id="seg358299.1.29">a</w>
+                     <w ana="mte:Cs" lemma="kao" msd="UPosTag=SCONJ" xml:id="seg358299.1.30">kao</w>
+                     <w ana="mte:Cs" lemma="što" msd="UPosTag=SCONJ" xml:id="seg358299.1.31">što</w>
+                     <w ana="mte:Var1p" lemma="biti" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" xml:id="seg358299.1.32">smo</w>
+                     <w ana="mte:Vmp-pm" lemma="glasati" msd="UPosTag=VERB|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act" xml:id="seg358299.1.33">glasali</w>
+                     <w ana="mte:Sl" lemma="o" msd="UPosTag=ADP|Case=Loc" xml:id="seg358299.1.34">o</w>
+                     <w ana="mte:Agpfply" lemma="pravni" msd="UPosTag=ADJ|Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur" xml:id="seg358299.1.35">pravnim</w>
+                     <w ana="mte:Ncfpl" lemma="posljedica" msd="UPosTag=NOUN|Case=Loc|Gender=Fem|Number=Plur" xml:id="seg358299.1.36">posljedicama</w>
+                     <w ana="mte:Ncfsg" lemma="osuda" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" xml:id="seg358299.1.37">osude</w>
+                     <w ana="mte:Sl" lemma="u" msd="UPosTag=ADP|Case=Loc" xml:id="seg358299.1.38">u</w>
+                     <w ana="mte:Agpfsly" lemma="kazneni" msd="UPosTag=ADJ|Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" xml:id="seg358299.1.39">kaznenoj</w>
+                     <w ana="mte:Ncfsl" lemma="evidencija" msd="UPosTag=NOUN|Case=Loc|Gender=Fem|Number=Sing" xml:id="seg358299.1.40">evidenciji</w>
+                     <w ana="mte:Cc" lemma="i" msd="UPosTag=CCONJ" xml:id="seg358299.1.41">i</w>
+                     <w ana="mte:Ncfsl" join="right" lemma="rehabilitacija" msd="UPosTag=NOUN|Case=Loc|Gender=Fem|Number=Sing" xml:id="seg358299.1.42">rehabilitaciji</w>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg358299.1.43">,</pc>
+                     <w ana="mte:Agpnsny" lemma="moguć" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing" xml:id="seg358299.1.44">moguće</w>
+                     <w ana="mte:Cs" lemma="da" msd="UPosTag=SCONJ" xml:id="seg358299.1.45">da</w>
+                     <w ana="mte:Var3s" lemma="biti" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="seg358299.1.46">je</w>
+                     <w ana="mte:Vmp-sm" lemma="imati" msd="UPosTag=VERB|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act" xml:id="seg358299.1.47">imao</w>
+                     <w ana="mte:Ncnsa" lemma="pravo" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" xml:id="seg358299.1.48">pravo</w>
+                     <w ana="mte:Sg" lemma="prije" msd="UPosTag=ADP|Case=Gen" xml:id="seg358299.1.49">prije</w>
+                     <w ana="mte:Pd-nsg" lemma="taj" msd="UPosTag=DET|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem" xml:id="seg358299.1.50">toga</w>
+                     <w ana="mte:Vmn" lemma="tražiti" msd="UPosTag=VERB|VerbForm=Inf" xml:id="seg358299.1.51">tražiti</w>
+                     <w ana="mte:Ncfsa" join="right" lemma="stanka" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" xml:id="seg358299.1.52">stanku</w>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg358299.1.53">,</pc>
+                     <w ana="mte:Rgp" lemma="zato" msd="UPosTag=ADV|Degree=Pos|PronType=Dem" xml:id="seg358299.1.54">zato</w>
+                     <w ana="mte:Vmr1s" lemma="moliti" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" xml:id="seg358299.1.55">molim</w>
+                     <w ana="mte:Cs" lemma="da" msd="UPosTag=SCONJ" xml:id="seg358299.1.56">da</w>
+                     <w ana="mte:Pp3msd" lemma="on" msd="UPosTag=PRON|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs" xml:id="seg358299.1.57">mu</w>
+                     <w ana="mte:Vmr2p" lemma="odobriti" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin" xml:id="seg358299.1.58">odobrite</w>
+                     <w ana="mte:Ncfsa" join="right" lemma="stanka" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" xml:id="seg358299.1.59">stanku</w>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg358299.1.60">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root" target="#seg358299.1 #seg358299.1.1"/>
+                        <link ana="ud-syn:mark" target="#seg358299.1.4 #seg358299.1.2"/>
+                        <link ana="ud-syn:aux" target="#seg358299.1.4 #seg358299.1.3"/>
+                        <link ana="ud-syn:ccomp" target="#seg358299.1.1 #seg358299.1.4"/>
+                        <link ana="ud-syn:obj" target="#seg358299.1.4 #seg358299.1.5"/>
+                        <link ana="ud-syn:mark" target="#seg358299.1.9 #seg358299.1.6"/>
+                        <link ana="ud-syn:nsubj" target="#seg358299.1.9 #seg358299.1.7"/>
+                        <link ana="ud-syn:expl_pv" target="#seg358299.1.9 #seg358299.1.8"/>
+                        <link ana="ud-syn:advcl" target="#seg358299.1.1 #seg358299.1.9"/>
+                        <link ana="ud-syn:nsubj" target="#seg358299.1.9 #seg358299.1.10"/>
+                        <link ana="ud-syn:mark" target="#seg358299.1.13 #seg358299.1.11"/>
+                        <link ana="ud-syn:expl_pv" target="#seg358299.1.13 #seg358299.1.12"/>
+                        <link ana="ud-syn:acl" target="#seg358299.1.10 #seg358299.1.13"/>
+                        <link ana="ud-syn:nsubj" target="#seg358299.1.13 #seg358299.1.14"/>
+                        <link ana="ud-syn:mark" target="#seg358299.1.21 #seg358299.1.15"/>
+                        <link ana="ud-syn:fixed" target="#seg358299.1.15 #seg358299.1.16"/>
+                        <link ana="ud-syn:fixed" target="#seg358299.1.15 #seg358299.1.17"/>
+                        <link ana="ud-syn:aux" target="#seg358299.1.21 #seg358299.1.18"/>
+                        <link ana="ud-syn:nsubj" target="#seg358299.1.21 #seg358299.1.19"/>
+                        <link ana="ud-syn:appos" target="#seg358299.1.19 #seg358299.1.20"/>
+                        <link ana="ud-syn:advcl" target="#seg358299.1.13 #seg358299.1.21"/>
+                        <link ana="ud-syn:obj" target="#seg358299.1.21 #seg358299.1.22"/>
+                        <link ana="ud-syn:acl" target="#seg358299.1.22 #seg358299.1.23"/>
+                        <link ana="ud-syn:case" target="#seg358299.1.27 #seg358299.1.24"/>
+                        <link ana="ud-syn:amod" target="#seg358299.1.27 #seg358299.1.25"/>
+                        <link ana="ud-syn:amod" target="#seg358299.1.27 #seg358299.1.26"/>
+                        <link ana="ud-syn:obl" target="#seg358299.1.23 #seg358299.1.27"/>
+                        <link ana="ud-syn:nmod" target="#seg358299.1.27 #seg358299.1.28"/>
+                        <link ana="ud-syn:cc" target="#seg358299.1.33 #seg358299.1.29"/>
+                        <link ana="ud-syn:mark" target="#seg358299.1.33 #seg358299.1.30"/>
+                        <link ana="ud-syn:fixed" target="#seg358299.1.30 #seg358299.1.31"/>
+                        <link ana="ud-syn:aux" target="#seg358299.1.33 #seg358299.1.32"/>
+                        <link ana="ud-syn:advcl" target="#seg358299.1.44 #seg358299.1.33"/>
+                        <link ana="ud-syn:case" target="#seg358299.1.36 #seg358299.1.34"/>
+                        <link ana="ud-syn:amod" target="#seg358299.1.36 #seg358299.1.35"/>
+                        <link ana="ud-syn:obl" target="#seg358299.1.33 #seg358299.1.36"/>
+                        <link ana="ud-syn:nmod" target="#seg358299.1.36 #seg358299.1.37"/>
+                        <link ana="ud-syn:case" target="#seg358299.1.40 #seg358299.1.38"/>
+                        <link ana="ud-syn:amod" target="#seg358299.1.40 #seg358299.1.39"/>
+                        <link ana="ud-syn:nmod" target="#seg358299.1.37 #seg358299.1.40"/>
+                        <link ana="ud-syn:cc" target="#seg358299.1.42 #seg358299.1.41"/>
+                        <link ana="ud-syn:conj" target="#seg358299.1.40 #seg358299.1.42"/>
+                        <link ana="ud-syn:punct" target="#seg358299.1.33 #seg358299.1.43"/>
+                        <link ana="ud-syn:conj" target="#seg358299.1.1 #seg358299.1.44"/>
+                        <link ana="ud-syn:mark" target="#seg358299.1.47 #seg358299.1.45"/>
+                        <link ana="ud-syn:aux" target="#seg358299.1.47 #seg358299.1.46"/>
+                        <link ana="ud-syn:ccomp" target="#seg358299.1.44 #seg358299.1.47"/>
+                        <link ana="ud-syn:obj" target="#seg358299.1.47 #seg358299.1.48"/>
+                        <link ana="ud-syn:case" target="#seg358299.1.50 #seg358299.1.49"/>
+                        <link ana="ud-syn:obl" target="#seg358299.1.51 #seg358299.1.50"/>
+                        <link ana="ud-syn:xcomp" target="#seg358299.1.47 #seg358299.1.51"/>
+                        <link ana="ud-syn:obj" target="#seg358299.1.51 #seg358299.1.52"/>
+                        <link ana="ud-syn:punct" target="#seg358299.1.55 #seg358299.1.53"/>
+                        <link ana="ud-syn:advmod" target="#seg358299.1.55 #seg358299.1.54"/>
+                        <link ana="ud-syn:conj" target="#seg358299.1.47 #seg358299.1.55"/>
+                        <link ana="ud-syn:mark" target="#seg358299.1.58 #seg358299.1.56"/>
+                        <link ana="ud-syn:iobj" target="#seg358299.1.58 #seg358299.1.57"/>
+                        <link ana="ud-syn:ccomp" target="#seg358299.1.55 #seg358299.1.58"/>
+                        <link ana="ud-syn:obj" target="#seg358299.1.58 #seg358299.1.59"/>
+                        <link ana="ud-syn:punct" target="#seg358299.1.1 #seg358299.1.60"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <u ana="#regular" n="389874" who="#JandrokovićGordan" xml:id="ParlaMint-HR_S08.u13026">
+               <seg xml:id="seg358301">
+                  <s xml:id="seg358301.1">
+                     <w ana="mte:Rgp" join="right" lemma="dobro" msd="UPosTag=ADV|Degree=Pos" xml:id="seg358301.1.1">Dobro</w>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg358301.1.2">,</pc>
+                     <w ana="mte:Var1s" lemma="htjeti" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin" xml:id="seg358301.1.3">neću</w>
+                     <w ana="mte:Pp3msd" lemma="on" msd="UPosTag=PRON|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs" xml:id="seg358301.1.4">mu</w>
+                     <w ana="mte:Vmn" lemma="odobriti" msd="UPosTag=VERB|VerbForm=Inf" xml:id="seg358301.1.5">odobriti</w>
+                     <w ana="mte:Ncfsa" lemma="stanka" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" xml:id="seg358301.1.6">stanku</w>
+                     <w ana="mte:Cc" lemma="a" msd="UPosTag=CCONJ" xml:id="seg358301.1.7">a</w>
+                     <w ana="mte:Pp2-pd" lemma="vi" msd="UPosTag=PRON|Case=Dat|Number=Plur|Person=2|PronType=Prs" xml:id="seg358301.1.8">vama</w>
+                     <w ana="mte:Var1s" lemma="htjeti" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin" xml:id="seg358301.1.9">neću</w>
+                     <w ana="mte:Vmn" lemma="dati" msd="UPosTag=VERB|VerbForm=Inf" xml:id="seg358301.1.10">dati</w>
+                     <w ana="mte:Ncfsa" lemma="opomena" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" xml:id="seg358301.1.11">opomenu</w>
+                     <w ana="mte:Cs" lemma="jer" msd="UPosTag=SCONJ" xml:id="seg358301.1.12">jer</w>
+                     <w ana="mte:Vmr1s" lemma="smatrati" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" xml:id="seg358301.1.13">smatram</w>
+                     <w ana="mte:Cs" lemma="da" msd="UPosTag=SCONJ" xml:id="seg358301.1.14">da</w>
+                     <w ana="mte:Var2p" lemma="biti" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin" xml:id="seg358301.1.15">ste</w>
+                     <w ana="mte:Pp2-pn" lemma="vi" msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=2|PronType=Prs" xml:id="seg358301.1.16">vi</w>
+                     <w ana="mte:Vmp-pm" lemma="pokušati" msd="UPosTag=VERB|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act" xml:id="seg358301.1.17">pokušali</w>
+                     <w ana="mte:Vmn" lemma="objasniti" msd="UPosTag=VERB|VerbForm=Inf" xml:id="seg358301.1.18">objasniti</w>
+                     <w ana="mte:Sl" lemma="u" msd="UPosTag=ADP|Case=Loc" xml:id="seg358301.1.19">u</w>
+                     <w ana="mte:Agpfsly" lemma="dobar" msd="UPosTag=ADJ|Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing" xml:id="seg358301.1.20">dobroj</w>
+                     <w ana="mte:Ncfsl" lemma="vjera" msd="UPosTag=NOUN|Case=Loc|Gender=Fem|Number=Sing" xml:id="seg358301.1.21">vjeri</w>
+                     <w ana="mte:Cs" lemma="da" msd="UPosTag=SCONJ" xml:id="seg358301.1.22">da</w>
+                     <w ana="mte:Var3s" lemma="biti" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="seg358301.1.23">je</w>
+                     <w ana="mte:Vmp-sn" join="right" lemma="postojati" msd="UPosTag=VERB|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act" xml:id="seg358301.1.24">postojalo</w>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg358301.1.25">,</pc>
+                     <w ana="mte:Cc" lemma="ali" msd="UPosTag=CCONJ" xml:id="seg358301.1.26">ali</w>
+                     <w ana="mte:Qo" join="right" lemma="eto" msd="UPosTag=PART" xml:id="seg358301.1.27">eto</w>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg358301.1.28">,</pc>
+                     <w ana="mte:Var2p" lemma="biti" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin" xml:id="seg358301.1.29">niste</w>
+                     <w ana="mte:Pp1-sa" lemma="ja" msd="UPosTag=PRON|Case=Acc|Number=Sing|Person=1|PronType=Prs" xml:id="seg358301.1.30">me</w>
+                     <w ana="mte:Vmp-pm" lemma="uspjeti" msd="UPosTag=VERB|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act" xml:id="seg358301.1.31">uspjeli</w>
+                     <w ana="mte:Vmn" join="right" lemma="uvjeriti" msd="UPosTag=VERB|VerbForm=Inf" xml:id="seg358301.1.32">uvjeriti</w>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg358301.1.33">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:discourse" target="#seg358301.1.3 #seg358301.1.1"/>
+                        <link ana="ud-syn:punct" target="#seg358301.1.1 #seg358301.1.2"/>
+                        <link ana="ud-syn:root" target="#seg358301.1 #seg358301.1.3"/>
+                        <link ana="ud-syn:iobj" target="#seg358301.1.5 #seg358301.1.4"/>
+                        <link ana="ud-syn:xcomp" target="#seg358301.1.3 #seg358301.1.5"/>
+                        <link ana="ud-syn:obj" target="#seg358301.1.5 #seg358301.1.6"/>
+                        <link ana="ud-syn:cc" target="#seg358301.1.10 #seg358301.1.7"/>
+                        <link ana="ud-syn:iobj" target="#seg358301.1.10 #seg358301.1.8"/>
+                        <link ana="ud-syn:aux" target="#seg358301.1.10 #seg358301.1.9"/>
+                        <link ana="ud-syn:conj" target="#seg358301.1.5 #seg358301.1.10"/>
+                        <link ana="ud-syn:obj" target="#seg358301.1.10 #seg358301.1.11"/>
+                        <link ana="ud-syn:mark" target="#seg358301.1.13 #seg358301.1.12"/>
+                        <link ana="ud-syn:advcl" target="#seg358301.1.10 #seg358301.1.13"/>
+                        <link ana="ud-syn:mark" target="#seg358301.1.17 #seg358301.1.14"/>
+                        <link ana="ud-syn:aux" target="#seg358301.1.17 #seg358301.1.15"/>
+                        <link ana="ud-syn:nsubj" target="#seg358301.1.17 #seg358301.1.16"/>
+                        <link ana="ud-syn:ccomp" target="#seg358301.1.13 #seg358301.1.17"/>
+                        <link ana="ud-syn:xcomp" target="#seg358301.1.17 #seg358301.1.18"/>
+                        <link ana="ud-syn:case" target="#seg358301.1.21 #seg358301.1.19"/>
+                        <link ana="ud-syn:amod" target="#seg358301.1.21 #seg358301.1.20"/>
+                        <link ana="ud-syn:obl" target="#seg358301.1.18 #seg358301.1.21"/>
+                        <link ana="ud-syn:mark" target="#seg358301.1.24 #seg358301.1.22"/>
+                        <link ana="ud-syn:aux" target="#seg358301.1.24 #seg358301.1.23"/>
+                        <link ana="ud-syn:acl" target="#seg358301.1.21 #seg358301.1.24"/>
+                        <link ana="ud-syn:punct" target="#seg358301.1.31 #seg358301.1.25"/>
+                        <link ana="ud-syn:cc" target="#seg358301.1.31 #seg358301.1.26"/>
+                        <link ana="ud-syn:discourse" target="#seg358301.1.31 #seg358301.1.27"/>
+                        <link ana="ud-syn:punct" target="#seg358301.1.27 #seg358301.1.28"/>
+                        <link ana="ud-syn:aux" target="#seg358301.1.31 #seg358301.1.29"/>
+                        <link ana="ud-syn:obj" target="#seg358301.1.31 #seg358301.1.30"/>
+                        <link ana="ud-syn:conj" target="#seg358301.1.17 #seg358301.1.31"/>
+                        <link ana="ud-syn:xcomp" target="#seg358301.1.31 #seg358301.1.32"/>
+                        <link ana="ud-syn:punct" target="#seg358301.1.3 #seg358301.1.33"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="seg358302">
+                  <s xml:id="seg358302.1">
+                     <w ana="mte:Vmr1p" lemma="ići" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" xml:id="seg358302.1.1">Idemo</w>
+                     <w ana="mte:Pp1-sd" lemma="ja" msd="UPosTag=PRON|Case=Dat|Number=Sing|Person=1|PronType=Prs" xml:id="seg358302.1.2">mi</w>
+                     <w ana="mte:Rgc" join="right" lemma="daleko" msd="UPosTag=ADV|Degree=Cmp" xml:id="seg358302.1.3">dalje</w>
+                     <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="seg358302.1.4">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root" target="#seg358302.1 #seg358302.1.1"/>
+                        <link ana="ud-syn:obj" target="#seg358302.1.1 #seg358302.1.2"/>
+                        <link ana="ud-syn:advmod" target="#seg358302.1.1 #seg358302.1.3"/>
+                        <link ana="ud-syn:punct" target="#seg358302.1.1 #seg358302.1.4"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -226,6 +226,7 @@ langUsage =
     element language {
       lang.att,
       attribute ident { lang.vals },
+      attribute usage { xsd:nonNegativeInteger }?,
       text
     }+
   }

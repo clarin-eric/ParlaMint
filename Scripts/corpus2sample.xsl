@@ -12,6 +12,10 @@
 
   <!-- Output directory for samples -->
   <xsl:param name="outDir"/>
+  
+  <!-- How many TEI files to take -->
+  <xsl:param name="Files">5</xsl:param>
+
   <!-- How many utterances to select from start and end of component files -->
   <xsl:param name="Range">2</xsl:param>
 
@@ -23,10 +27,14 @@
   <!-- Select first and last XInclude components -->
   <xsl:variable name="components">
     <xsl:variable name="n" select="count(/tei:teiCorpus/xi:include)"/>
-    <xsl:text>&#10;   </xsl:text>
-    <xsl:copy-of select="//xi:include[1]"/>
-    <xsl:text>&#10;   </xsl:text>
-    <xsl:copy-of select="//xi:include[last()]"/>
+    <xsl:message select="concat('INFO: from ', $n , ' files  selecting ~', $Files, ' files:')"/>
+    <xsl:for-each select="//xi:include">
+      <xsl:if test="(position()-1) mod floor($n div $Files) = 1">
+	<xsl:message select="concat('INFO: selecting file ', @href)"/>
+	<xsl:text>&#10;   </xsl:text>
+	<xsl:copy-of select="."/>
+      </xsl:if>
+    </xsl:for-each>
     <xsl:text>&#10;</xsl:text>
   </xsl:variable>
 

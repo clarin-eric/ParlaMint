@@ -1,7 +1,4 @@
 <?xml version="1.0"?>
-<!-- ToDo:
-- change "sitting" attribute to "meeting", why is it sitting anyway?
--->
 <!-- Transform one ParlaMint file to CQP vertical format.
      Note that the output is still in XML, and needs another polish. -->
 <!-- Needs the file with corpus teiHeader as a parameter -->
@@ -126,15 +123,23 @@
     <xsl:text>&#10;</xsl:text>
   </xsl:template>
 
-  <xsl:template match="tei:u[not(@who and @who != '#')]">
-    <xsl:message>
-      <xsl:text>ERROR: u </xsl:text>
-      <xsl:value-of select="@xml:id"/>
-      <xsl:text> without @who, skipping!</xsl:text>
-    </xsl:message>
+  <xsl:template match="tei:u[not(@who)]">
+    <xsl:message select="concat('WARN: u ', @xml:id, ' without @who')"/>
+    <speech id="{@xml:id}">
+      <xsl:attribute name="speaker_id">?</xsl:attribute>
+      <xsl:attribute name="speaker_name">?</xsl:attribute>
+      <xsl:attribute name="speaker_role">?</xsl:attribute>
+      <xsl:attribute name="speaker_type">?</xsl:attribute>
+      <xsl:attribute name="speaker_party">?</xsl:attribute>
+      <xsl:attribute name="speaker_party_name">?</xsl:attribute>
+      <xsl:attribute name="speaker_gender">?</xsl:attribute>
+      <xsl:attribute name="speaker_birth">?</xsl:attribute>
+      <xsl:text>&#10;</xsl:text>
+      <xsl:apply-templates/>
+    </speech>
   </xsl:template>
   
-  <xsl:template match="tei:u">
+  <xsl:template match="tei:u[@who]">
     <speech id="{@xml:id}">
       <xsl:variable name="speaker" select="key('idr', @who, $teiHeader)"/>
       <xsl:choose>
@@ -277,7 +282,7 @@
 	<xsl:value-of select="$result"/>
       </xsl:when>
       <xsl:otherwise>
-	<xsl:text>?</xsl:text>
+	<xsl:text>-</xsl:text>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>

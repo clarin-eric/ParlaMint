@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="is" xml:id="ParlaMint-IS_2020-09-04-139" ana="#covid #parla.meeting">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="is" type="main">Íslenska þingræðumálheildin ParlaMint-IS, hefðbundinn fundur 150-139 [ParlaMint SAMPLE]</title>
+        <title xml:lang="en" type="main">Icelandic parliamentary corpus ParlaMint-IS, regular meeting 150-139 [ParlaMint SAMPLE]</title>
+        <title xml:lang="is" type="sub">Ræður frá Alþingi Íslendinga, 23. kjörtímabil, hefðbundinn fundur 150-139, 04.09.2020.</title>
+        <title xml:lang="en" type="sub">Speeches in the national parliament of Iceland, 23. term, regular meeting 150-139, 04.09.2020.</title>
+        <meeting n="139" corresp="#LV" ana="#parla.meeting.regular">Hefðbundinn</meeting>
+        <meeting n="150" corresp="#LV" ana="#parla.session">150. löggjafarþing</meeting>
+        <meeting n="23" corresp="#LV" ana="#parla.term #LV.23">23. kjörtímabil</meeting>
+        <respStmt>
+          <persName>Starkaður Barkarson</persName>
+          <resp xml:lang="is">Söfnun og úrvinnsla texta. TEI-kóðun.</resp>
+          <resp xml:lang="en">Collection and processing of texts. TEI encoding.</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="is">Rannsóknainnviðanet CLARIN</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>1.0</edition>
+      </editionStmt>
+      <extent><!--These numbers do not reflect the size of the sample!-->
+        <measure xml:lang="en" unit="words" quantity="11245">11245 words</measure>
+        <measure xml:lang="en" unit="speeches" quantity="70">70 speeches</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="is">Rannsóknainnviðanet CLARIN</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="URL">https://github.com/clarin-eric/ParlaMint</idno>
+            <pubPlace><ref target="https://github.com/clarin-eric/ParlaMint">https://github.com/clarin-eric/ParlaMint</ref></pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="is">Þessi texti er gefinn út með <ref target="http://creativecommons.org/licenses/by/4.0/"> Creative Commons Attribution 4.0 International License</ref>.</p>
+          <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/"> Creative Commons Attribution 4.0 International License</ref>.</p>
+        </availability>
+        <date when="2021-02-03">2021-02-03</date>
+      </publicationStmt>
+      <sourceDesc>
+            <bibl><title>Multilingual comparable corpora of parliamentary debates ParlaMint 1.0</title><idno type="handle">http://hdl.handle.net/11356/1345</idno></bibl>
+        <bibl>
+          <title xml:lang="is">Þingræður haldnar á Alþingi Íslendinga</title>
+          <title xml:lang="en">Parliament speeches in the national parliament of Iceland </title>
+          <idno type="URI">www.athingi.is</idno>
+          <date when="2020-09-04">2020-09-04</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the<ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref>and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+      </projectDesc>
+      <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage occurs="1" gi="text"/>
+          <tagUsage occurs="1" gi="body"/>
+          <tagUsage occurs="1" gi="div"/>
+          <tagUsage occurs="70" gi="u"/>
+          <tagUsage occurs="104" gi="seg"/>
+          <tagUsage occurs="38" gi="kinesic"/>
+          <tagUsage occurs="46" gi="desc"/>
+          <tagUsage occurs="8" gi="vocal"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Kirkjustræti</name>
+          <name type="city">Reykjavik</name>
+          <name key="IS" type="country">Iceland</name>
+          <date when="2020-09-04">2020-09-04</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text ana="#covid">
+    <body>
+      <div type="debateSection">
+        <u who="#SteingrimurSigfusson" xml:id="ParlaMint-IS_2020-09-04.u1" ana="#chair" source="http://www.althingi.is/altext/raeda/150/rad20200904T103155.html">
+          <seg xml:id="ParlaMint-IS_2020-09-04.seg1">Til svara eru: Fjármála- og efnahagsráðherra, samgöngu- og sveitarstjórnarráðherra, sjávarútvegs- og landbúnaðarráðherra og dómsmálaráðherra.</seg>
+        </u>
+        <u who="#SigmundurGunnlaugsson" xml:id="ParlaMint-IS_2020-09-04.u2" ana="#regular" source="http://www.althingi.is/altext/raeda/150/rad20200904T103211.html">
+          <seg xml:id="ParlaMint-IS_2020-09-04.seg2">Forseti. Ríkisstjórnin lét hafa sig í að undirrita svokallaðan samgöngusáttmála höfuðborgarsvæðisins, sem við ræddum talsvert hér fyrr í sumar. Það virðist hafa verið gert fyrst og fremst til að greiða nokkurs konar lausnargjald í formi ótrúlega hás styrks frá ríkinu til framkvæmda vegna borgarlínu. Lausnargjald, segi ég vegna þess að með þessu átti að losna um aðrar framkvæmdir sem margar hverjar hafa beðið allt of lengi, sumar jafnvel áratugum saman. En ekki var ríkisstjórnin fyrr búin að láta plata sig til að undirrita þennan sáttmála og koma honum í gegnum þingið en að borgarstjórnarmeirihlutinn í Reykjavík ullar einfaldlega á ríkisstjórnina og útskýrir að ekki standi til að standa við þann hluta samkomulagsins, sem var þó mjög jákvæður, þ.e. hluti á borð við Sundabraut. Formaður skipulagsráðs Reykjavíkur gengur meira að segja svo langt að segja að skynsamlegra væri að nota peningana sem áttu að fara í Sundabraut í það að fjarlægja flugvöllinn úr Vatnsmýri.</seg>
+          <seg xml:id="ParlaMint-IS_2020-09-04.seg3">Því spyr ég hæstv. fjármálaráðherra: Hvernig ætlar ráðherrann, sem fer með fjárhirslur ríkisins, að bregðast við þessu? Nú hefði maður haldið að það væri svo sem hvort eð er orðið ljóst að ekki er lengur svigrúm í ríkisrekstrinum fyrir verkefni á borð við borgarlínu, það þurfi að nýta það fjármagn sem til er í arðbær verkefni, í verkefni sem eru hagkvæm en ekki í óhagkvæm eilífðarvandamál á borð við borgarlínu. En hvernig hyggst hæstv. fjármálaráðherra bregðast við þessum tilburðum borgarinnar, sem sýnir það eina ferðina enn að hún fer einfaldlega sínu fram? Þó að ríkið láti stöku sinnum plata sig til að gera einhvers konar samkomulag, hvort sem það er um flugvöllinn eða annað, þá fer borgin sínu fram. Er ekki tímabært að bregðast við, hæstv. fjármálaráðherra?</seg>
+        </u>
+            <gap reason="editorial"><desc xml:lang="en">SAMPLING</desc></gap>
+            <u who="#GudmundurKristinsson" xml:id="ParlaMint-IS_2020-09-04.u69" ana="#regular #topic.150_972_M" source="http://www.althingi.is/altext/raeda/150/rad20200904T141701.html">
+          <seg xml:id="ParlaMint-IS_2020-09-04.seg103">Virðulegur forseti. Þetta er sæmilegt mál, sæmilegt frumvarp sem fer hér í gegn. Það hefði getað orðið frábært, alveg meiri háttar, ef það tæki til allra sem á þurfa að halda. En því miður er verið að skilja eftir fólk; listamenn, foreldra langveikra barna og fleiri. Það er skelfilegt að segja við þetta fólk: Þið eigið að vera launalaus áfram, sem eruð búin að vera launalaus lengi og fáið að vera það áfram. Ég er með það á hreinu að enginn í þessum sal vill að sagt sé við hann: Nú átt þú að vera launalaus í nokkra mánuði. Við eigum ekki að bjóða neinum upp á það. Ég mun styðja málið fyrir þá sem það virkar vel fyrir. En það er ömurlegt til þess að vita að það sé hópur skilinn eftir.</seg>
+        </u>
+        <u who="#LogiEinarsson" xml:id="ParlaMint-IS_2020-09-04.u70" ana="#regular #topic.150_972_M" source="http://www.althingi.is/altext/raeda/150/rad20200904T141757.html">
+          <seg xml:id="ParlaMint-IS_2020-09-04.seg104">Herra forseti. Í gegnum allar þessar hremmingar hafa sjálfsagt fá orð verið notuð jafn oft í þessum þingsal og óvissa og fyrirsjáanleiki. Stjórnarliðar hafa notað þau til að lýsa mikilvægi þess að veita fyrirtækjum fyrirsjáanleika, sem er nauðsynlegt. En óvissuorðið hafa þeir notað þegar kemur að áhyggjum af pyngju ríkissjóðs og hvernig faraldurinn þróast. Það sem við þurfum hins vegar að gera er að tryggja heimilum líka fyrirsjáanleika og eyða óvissu heimila. Við getum seinna átt prinsippumræðu um á hvaða stigi hlutir geta unnið hver gegn öðrum þegar kemur að krónum greiddum út til atvinnuleysisbóta. En í augnablikinu<kinesic type="ringing"><desc>Forseti hringir.</desc></kinesic>verðum við að tryggja fólki sem nú þarf að lifa á lægstu laununum, lægstu bótunum, einhvern fyrirsjáanleika. Og það er ömurlegt, herra forseti,<kinesic type="ringing"><desc>Forseti hringir.</desc></kinesic>að ekki eigi að samþykkja tillögu um hækkun grunnatvinnuleysisbóta næstu tólf mánuði.</seg>
+        </u>
+      </div>
+    </body>
+  </text>
+</TEI>
