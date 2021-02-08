@@ -434,6 +434,10 @@
                   <catDesc xml:lang="en">
                      <term>acl</term>: Clausal modifier of noun (adjectival clause)</catDesc>
                </category>
+               <category xml:id="acl_relcl">
+                  <catDesc xml:lang="en">
+                     <term>acl:relcl</term>: Relative clause modifier</catDesc>
+               </category>
                <category xml:id="advcl">
                   <catDesc xml:lang="en">
                      <term>advcl</term>: Adverbial clause modifier</catDesc>
@@ -441,6 +445,10 @@
                <category xml:id="advmod">
                   <catDesc xml:lang="en">
                      <term>advmod</term>: Adverbial modifier</catDesc>
+               </category>
+               <category xml:id="advmod_emph">
+                  <catDesc xml:lang="en">
+                     <term>advmod:emph</term>: Emphasizing word, intensifier</catDesc>
                </category>
                <category xml:id="amod">
                   <catDesc xml:lang="en">
@@ -453,6 +461,10 @@
                <category xml:id="aux">
                   <catDesc xml:lang="en">
                      <term>aux</term>: Auxiliary</catDesc>
+               </category>
+               <category xml:id="aux_pass">
+                  <catDesc xml:lang="en">
+                     <term>aux:pass</term>: Passive auxiliary</catDesc>
                </category>
                <category xml:id="case">
                   <catDesc xml:lang="en">
@@ -470,6 +482,10 @@
                   <catDesc xml:lang="en">
                      <term>cc:preconj</term>: Preconjunct</catDesc>
                </category>
+               <category xml:id="compound">
+                  <catDesc xml:lang="en">
+                     <term>compound</term>: Compound</catDesc>
+               </category>
                <category xml:id="conj">
                   <catDesc xml:lang="en">
                      <term>conj</term>: Conjunct</catDesc>
@@ -482,6 +498,10 @@
                   <catDesc xml:lang="en">
                      <term>csubj</term>: Clausal subject</catDesc>
                </category>
+               <category xml:id="csubj_pass">
+                  <catDesc xml:lang="en">
+                     <term>csubj:pass</term>: Clausal passive subject</catDesc>
+               </category>
                <category xml:id="dep">
                   <catDesc xml:lang="en">
                      <term>dep</term>: Unspecified dependency</catDesc>
@@ -490,6 +510,14 @@
                   <catDesc xml:lang="en">
                      <term>det</term>: Determiner</catDesc>
                </category>
+               <category xml:id="det_numgov">
+                  <catDesc xml:lang="en">
+                     <term>det:numgov</term>: Pronominal quantifier governing the case of the noun</catDesc>
+               </category>
+               <category xml:id="det_nummod">
+                  <catDesc xml:lang="en">
+                     <term>det:nummod</term>: Pronominal quantifier agreeing in case with the noun</catDesc>
+               </category>
                <category xml:id="discourse">
                   <catDesc xml:lang="en">
                      <term>discourse</term>: Discourse element</catDesc>
@@ -497,6 +525,14 @@
                <category xml:id="expl">
                   <catDesc xml:lang="en">
                      <term>expl</term>: Expletive</catDesc>
+               </category>
+               <category xml:id="expl_pass">
+                  <catDesc xml:lang="en">
+                     <term>expl:pass</term>: Reflexive pronoun used in reflexive passive</catDesc>
+               </category>
+               <category xml:id="expl_pv">
+                  <catDesc xml:lang="en">
+                     <term>expl:pv</term>: Reflexive clitic with an inherently reflexive verb</catDesc>
                </category>
                <category xml:id="fixed">
                   <catDesc xml:lang="en">
@@ -530,9 +566,17 @@
                   <catDesc xml:lang="en">
                      <term>nsubj</term>: Nominal subject</catDesc>
                </category>
+               <category xml:id="nsubj_pass">
+                  <catDesc xml:lang="en">
+                     <term>nsubj:pass</term>: Passive nominal subject</catDesc>
+               </category>
                <category xml:id="nummod">
                   <catDesc xml:lang="en">
                      <term>nummod</term>: Numeric modifier</catDesc>
+               </category>
+               <category xml:id="nummod_gov">
+                  <catDesc xml:lang="en">
+                     <term>nummod:gov</term>: Numeric modifier governing the case of the noun</catDesc>
                </category>
                <category xml:id="obj">
                   <catDesc xml:lang="en">
@@ -541,6 +585,14 @@
                <category xml:id="obl">
                   <catDesc xml:lang="en">
                      <term>obl</term>: Oblique nominal</catDesc>
+               </category>
+               <category xml:id="obl_arg">
+                  <catDesc xml:lang="en">
+                     <term>obl:arg</term>: Oblique argument</catDesc>
+               </category>
+               <category xml:id="orphan">
+                  <catDesc xml:lang="en">
+                     <term>orphan</term>: Orphan</catDesc>
                </category>
                <category xml:id="parataxis">
                   <catDesc xml:lang="en">
@@ -557,6 +609,10 @@
                <category xml:id="root">
                   <catDesc xml:lang="en">
                      <term>root</term>: Root</catDesc>
+               </category>
+               <category xml:id="vocative">
+                  <catDesc xml:lang="en">
+                     <term>vocative</term>: Vocative</catDesc>
                </category>
                <category xml:id="xcomp">
                   <catDesc xml:lang="en">
@@ -900,11 +956,6 @@
             <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
                <p>Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI header.</p>
             </prefixDef>
-            <prefixDef ident="pdt"
-                       matchPattern="(.+)"
-                       replacementPattern="../pdt-fslib.xml#xpath(//fvLib/fs[./f/symbol/@value = '$1'])">
-               <p>Feature-structure elements definition of the Czech Positional Tags</p>
-            </prefixDef>
             <prefixDef ident="ne" matchPattern="(.+)" replacementPattern="#NER.cnec2.0.$1">
                <p>Taxonomy for named entities (cnec2.0)</p>
             </prefixDef>
@@ -926,7 +977,7 @@
                <name type="org">Parlament České republiky - Poslanecká sněmovna</name>
                <name type="address">Sněmovní 176/4</name>
                <name type="city">Praha</name>
-               <name key="CZ" type="country">Czech Republic</name>
+               <name type="country" key="CZ">Czech Republic</name>
                <date from="2014-09-10" to="2020-11-19">10.09.2014 - 19.11.2020</date>
             </setting>
          </settingDesc>
@@ -1921,7 +1972,7 @@
                </org>
                <org xml:id="government" role="government">
                   <orgName full="yes" xml:lang="cs">Vláda České republiky</orgName>
-                  <orgName full="yes" xml:lang="en">Government of Czech Republic</orgName>
+                  <orgName full="yes" xml:lang="en">Government of the Czech Republic</orgName>
                   <listEvent>
                      <event xml:id="government.VladaCR.849" from="2007-01-09" to="2009-05-08">
                         <label xml:lang="cs">Vláda České republiky (2007-01-09 - 2009-05-08)</label>
