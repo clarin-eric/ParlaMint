@@ -897,9 +897,7 @@
             </taxonomy>
          </classDecl>
          <listPrefixDef>
-            <prefixDef ident="ud-syn"
-                       matchPattern="(.+)"
-                       replacementPattern="#xpath(//*[@xml:id = replace('$1',':','_')])">
+            <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
                <p>Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI header.</p>
             </prefixDef>
             <prefixDef ident="pdt"
@@ -1923,6 +1921,7 @@
                </org>
                <org xml:id="government" role="government">
                   <orgName full="yes" xml:lang="cs">Vláda České republiky</orgName>
+                  <orgName full="yes" xml:lang="en">Government of Czech Republic</orgName>
                   <listEvent>
                      <event xml:id="government.VladaCR.849" from="2007-01-09" to="2009-05-08">
                         <label xml:lang="cs">Vláda České republiky (2007-01-09 - 2009-05-08)</label>
