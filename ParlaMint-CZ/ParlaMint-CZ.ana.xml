@@ -6,8 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" xml:lang="cs">Český parlamentní korpus ParlaMint-CZ, [ParlaMint]</title>
-            <title type="main" xml:lang="en">Czech parliamentary corpus ParlaMint-CZ, [ParlaMint]</title>
+            <title type="main" xml:lang="cs">Český parlamentní korpus ParlaMint-CZ, [ParlaMint.ana]</title>
+            <title type="main" xml:lang="en">Czech parliamentary corpus ParlaMint-CZ, [ParlaMint.ana]</title>
             <title type="sub" xml:lang="cs">Parlament České republiky, Poslanecká sněmovna</title>
             <title type="sub" xml:lang="en">Parliament of the Czech Republic, Chamber of Deputies</title>
             <meeting ana="#parla.term #parla.lower #parliament.PSP7" n="ps2013">ps2013</meeting>
@@ -563,6 +563,43 @@
                      <term>xcomp</term>: Open clausal complement</catDesc>
                </category>
             </taxonomy>
+            <taxonomy xml:id="NER">
+               <desc xml:lang="en">
+                  <term>Named entities</term>
+               </desc>
+               <category xml:id="PER">
+                  <catDesc xml:lang="cs">
+                     <term>osoba</term>
+                  </catDesc>
+                  <catDesc xml:lang="en">
+                     <term>person</term>
+                  </catDesc>
+               </category>
+               <category xml:id="LOC">
+                  <catDesc xml:lang="cs">
+                     <term>místo</term>
+                  </catDesc>
+                  <catDesc xml:lang="en">
+                     <term>location</term>
+                  </catDesc>
+               </category>
+               <category xml:id="ORG">
+                  <catDesc xml:lang="cs">
+                     <term>organizace</term>
+                  </catDesc>
+                  <catDesc xml:lang="en">
+                     <term>organization</term>
+                  </catDesc>
+               </category>
+               <category xml:id="MISC">
+                  <catDesc xml:lang="cs">
+                     <term>různé</term>
+                  </catDesc>
+                  <catDesc xml:lang="en">
+                     <term>miscellaneous</term>
+                  </catDesc>
+               </category>
+            </taxonomy>
             <taxonomy xml:id="NER.cnec2.0">
                <desc xml:lang="en">
                   <term>CNEC 2.0 Named Entities</term>
@@ -891,7 +928,7 @@
                <name type="org">Parlament České republiky - Poslanecká sněmovna</name>
                <name type="address">Sněmovní 176/4</name>
                <name type="city">Praha</name>
-               <name type="country" key="CZ">Czech Republic</name>
+               <name key="CZ" type="country">Czech Republic</name>
                <date from="2014-09-10" to="2020-11-19">10.09.2014 - 19.11.2020</date>
             </setting>
          </settingDesc>
@@ -4567,6 +4604,13 @@
                      <label xml:lang="en">existence</label>
                   </event>
                </org>
+               <org xml:id="subcommittee.PRT.1530" role="subcommittee">
+                  <orgName full="yes" xml:lang="cs">Podvýbor pro regiony v transformaci</orgName>
+                  <orgName full="init">PRT</orgName>
+                  <event from="2020-12-10">
+                     <label xml:lang="en">existence</label>
+                  </event>
+               </org>
                <org xml:id="subcommittee.PRV.1246" role="subcommittee">
                   <orgName full="yes" xml:lang="cs">Podvýbor pro rozvoj venkova</orgName>
                   <orgName full="yes" xml:lang="en">Subcommittee on Rural Development</orgName>
@@ -5062,8 +5106,8 @@
                   <affiliation ref="#government.VladaCR.1494"
                                role="member"
                                from="2018-06-06T12:00:00"/>
-                  <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/andrej-babis-162063/</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/andrej-babis-115388/</idno>
+                  <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/andrej-babis-162063/</idno>
                </person>
                <person xml:id="AulickaJirovcova6149">
                   <persName>
@@ -5193,6 +5237,9 @@
                   <affiliation ref="#interparliamentaryFriendshipGroup.PK.1470"
                                role="member"
                                from="2018-06-14T00:00:00"/>
+                  <affiliation ref="#subcommittee.PRT.1530"
+                               role="member"
+                               from="2021-02-04T00:00:00"/>
                </person>
                <person xml:id="BohuslavSvoboda6007">
                   <persName>
@@ -5631,6 +5678,9 @@
                   <affiliation ref="#interparliamentaryFriendshipGroup.JM.1468"
                                role="member"
                                from="2018-06-12T00:00:00"/>
+                  <affiliation ref="#subcommittee.PRT.1530"
+                               role="member"
+                               from="2021-02-04T00:00:00"/>
                </person>
                <person xml:id="JakubMichalek6477">
                   <persName>
@@ -6660,6 +6710,9 @@
                   <affiliation ref="#interparliamentaryFriendshipGroup.QA.1509"
                                role="member"
                                from="2019-05-09T00:00:00"/>
+                  <affiliation ref="#subcommittee.PRT.1530"
+                               role="member"
+                               from="2021-02-04T00:00:00"/>
                </person>
                <person xml:id="LeoLuzar6279">
                   <persName>
@@ -6821,6 +6874,9 @@
                   <affiliation ref="#interparliamentaryFriendshipGroup.CN.1453"
                                role="member"
                                from="2018-04-11T00:00:00"/>
+                  <affiliation ref="#subcommittee.PRT.1530"
+                               role="member"
+                               from="2021-02-04T00:00:00"/>
                </person>
                <person xml:id="LubomirZaoralek252">
                   <persName>
