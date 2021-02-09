@@ -85,11 +85,16 @@
                <tagUsage gi="text" occurs="1"/>
                <tagUsage gi="body" occurs="1"/>
                <tagUsage gi="div" occurs="1"/>
-               <tagUsage gi="note" occurs="20"/>
+               <tagUsage gi="note" occurs="16"/>
                <tagUsage gi="pb" occurs="2"/>
                <tagUsage gi="media" occurs="2"/>
                <tagUsage gi="u" occurs="15"/>
                <tagUsage gi="seg" occurs="30"/>
+               <tagUsage gi="kinesic" occurs="4"/>
+               <tagUsage gi="vocal" occurs="0"/>
+               <tagUsage gi="incident" occurs="0"/>
+               <tagUsage gi="gap" occurs="0"/>
+               <tagUsage gi="desc" occurs="4"/>
                <tagUsage gi="s" occurs="108"/>
                <tagUsage gi="name" occurs="98"/>
                <tagUsage gi="w" occurs="1200"/>
@@ -2729,7 +2734,9 @@
                               target="#ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p4.s2.w6 #ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p4.s2.w11"/>
                      </linkGrp>
                   </s>
-                  <note type="comment">(Šum v sále.)</note>
+                  <kinesic type="noise">
+                     <desc>(Šum v sále.)</desc>
+                  </kinesic>
                   <s xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p4.s3"><!-- Pardon, mám tady žádost o odhlášení. -->
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p4.s3.w1"
                         lemma="pardon"
@@ -2929,7 +2936,9 @@
                   </s>
                </seg>
             </u>
-            <note type="comment">(Hlásí se o slovo.)</note>
+            <kinesic type="gesture">
+               <desc>(Hlásí se o slovo.)</desc>
+            </kinesic>
             <note type="speaker">Poslanec Roman Sklenák</note>
             <u who="#RomanSklenak5965"
                ana="#regular"
@@ -3337,7 +3346,9 @@
                               target="#ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u7.p1.s3.w7 #ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u7.p1.s3.w13"/>
                      </linkGrp>
                   </s>
-                  <note type="comment">(Šum v sále.)</note>
+                  <kinesic type="noise">
+                     <desc>(Šum v sále.)</desc>
+                  </kinesic>
                   <s xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u7.p1.s4"><!-- Prosím pan předseda Stanjura. -->
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u7.p1.s4.w1"
                         lemma="prosit"
@@ -6014,7 +6025,9 @@
                   </s>
                </seg>
             </u>
-            <note type="comment">(Potlesk zprava.)</note>
+            <kinesic type="applause">
+               <desc>(Potlesk zprava.)</desc>
+            </kinesic>
             <note type="speaker">Místopředseda PSP Petr Gazdík</note>
             <u who="#PetrGazdik5914"
                ana="#chair"
