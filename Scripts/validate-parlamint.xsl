@@ -37,11 +37,35 @@
 	<xsl:with-param name="msg">Root ID does not match filename</xsl:with-param>
       </xsl:call-template>
     </xsl:if>
-    <xsl:if test="not(contains(@ana, '#reference') or contains(@ana, '#covid'))">
+    <xsl:variable name="subcorpus-TEI">
+      <xsl:choose>
+	<xsl:when test="contains(@ana, '#reference')">reference</xsl:when>
+	<xsl:when test="contains(@ana, '#covid')">covid</xsl:when>
+      </xsl:choose>
+    </xsl:variable>
+    <xsl:variable name="subcorpus-text">
+      <xsl:choose>
+	<xsl:when test="contains(tei:text/@ana, '#reference')">reference</xsl:when>
+	<xsl:when test="contains(tei:text/@ana, '#covid')">covid</xsl:when>
+      </xsl:choose>
+    </xsl:variable>
+    <xsl:if test="not(normalize-space($subcorpus-text))">
       <xsl:call-template name="error">
 	<xsl:with-param name="msg">Root element should have #reference or #covid in @ana</xsl:with-param>
       </xsl:call-template>
     </xsl:if>
+    <xsl:choose>
+      <xsl:when test="not(normalize-space($subcorpus-text))">
+	<xsl:call-template name="error">
+	  <xsl:with-param name="msg">text element should have #reference or #covid in @ana</xsl:with-param>
+	</xsl:call-template>
+      </xsl:when>
+      <xsl:when test="$subcorpus-TEI != $subcorpus-text">
+	<xsl:call-template name="error">
+	  <xsl:with-param name="msg">subcorpus values in TEI/@ana and text/@ana do not match</xsl:with-param>
+	</xsl:call-template>
+      </xsl:when>
+    </xsl:choose>
   </xsl:template>
     
   <xsl:template match="tei:teiCorpus/tei:teiHeader//tei:title[@type = 'main'][@xml:lang='en']">
@@ -229,11 +253,6 @@
   </xsl:template>
 
   <xsl:template match="tei:text">
-    <xsl:if test="not(contains(@ana, '#reference') or contains(@ana, '#covid'))">
-      <xsl:call-template name="error">
-	<xsl:with-param name="msg">text element should have #reference or #covid in @ana</xsl:with-param>
-      </xsl:call-template>
-    </xsl:if>
   </xsl:template>
   
   <xsl:template match="tei:u[@who]">
