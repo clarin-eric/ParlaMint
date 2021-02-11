@@ -15,7 +15,7 @@ vca = $j Schema/ParlaMint-TEI.ana.rng		# Corpus component / analysed
 # Check links for 1 language
 LANG = RO
 PREF = /project/corpora/Parla/ParlaMint/ParlaMint
-all:	val-lang vert-lang
+all:	val-lang vert-lang chars-lang
 chars-lang:
 	nice find ParlaMint-${LANG}/ -name '*.xml' | \
 	$P --jobs 20 Scripts/chars.pl {} >> ParlaMint-${LANG}/chars-files-${LANG}.tbl
