@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     ana="#reference"
+     xml:lang="nl"
+     xml:id="ParlaMint-NL_2016-01-19-tweedekamer-6">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2016-01-19 [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2016-01-19 [ParlaMint SAMPLE]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 43, Session 6 (2016-01-19)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 43, Session 6 (2016-01-19)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="43">Meeting 43</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="6">Session 6</meeting>
+            <meeting ana="#parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" xml:lang="nl" quantity="31">31 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="31">31 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="844">844 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="844">844 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-10">2021-02-10</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2016-01-19">2016-01-19</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="34"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="31"/>
+               <tagUsage gi="note" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2016-01-19">2016-01-19</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Regeling van werkzaamheden (stemmingen)</note>
+            <u who="#KhadijaArib"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2016-01-19-tweedekamer-6.u1">
+               <seg xml:id="ParlaMint-NL_2016-01-19-tweedekamer-6.seg1">Het woord is aan mevrouw Gesthuizen van de SP-fractie.</seg>
+            </u>
+            <u who="#SharonGesthuizen"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2016-01-19-tweedekamer-6.u2">
+               <seg xml:id="ParlaMint-NL_2016-01-19-tweedekamer-6.seg2">Voorzitter. Omdat het amendement-Gesthuizen/Agnes Mulder nog gewijzigd is en mevrouw Vos een amendement bij dit wetsvoorstel heeft ingediend, verzoek ik om de stemmingen onder punt 5 van de stemmingslijst, de stemmingen in verband met de Wijziging van de Wet op het Centraal Bureau voor de Statistiek in verband met de herpositionering van zelfstandige bestuursorganen (34248) met een week uit te stellen.</seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u who="#SelçukÖztürk"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2016-01-19-tweedekamer-6.u30">
+               <seg xml:id="ParlaMint-NL_2016-01-19-tweedekamer-6.seg32">Voorzitter. Bij punt 16 van de stemmingslijst, de Indische kwestie (backpay) (20454), willen we de moties op de stukken nrs. 120 en 121 aanhouden. Hiermee winnen we tijd. Dan willen we bij het wetsvoorstel onder punt 10, het eenzijdig opzeggen van het socialezekerheidsverdrag met Marokko (34052), een hoofdelijke stemming, zodat de burger kan zien wie voor en wie tegen is.</seg>
+            </u>
+            <u who="#KhadijaArib"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2016-01-19-tweedekamer-6.u31">
+               <seg xml:id="ParlaMint-NL_2016-01-19-tweedekamer-6.seg33">Op verzoek van de heer Öztürk stel ik voor, zijn moties (20454, nrs. 120 en 121) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2016-01-19-tweedekamer-6.seg34">Daartoe wordt besloten.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
