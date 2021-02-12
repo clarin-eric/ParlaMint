@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     ana="#reference"
+     xml:lang="nl"
+     xml:id="ParlaMint-NL_2019-06-12-tweedekamer-8">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Lower House 2019-06-12 [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2019-06-12 [ParlaMint SAMPLE]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 92, Session 8 (2019-06-12)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 92, Session 8 (2019-06-12)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#TK" n="92">Meeting 92</meeting>
+            <meeting ana="#parla.session" corresp="#TK" n="8">Session 8</meeting>
+            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" xml:lang="nl" quantity="34">34 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="34">34 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="2500">2500 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="2500">2500 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-10">2021-02-10</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2019-06-12">2019-06-12</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="40"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="34"/>
+               <tagUsage gi="note" occurs="13"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2019-06-12">2019-06-12</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Streekomroepen</note>
+            <u who="#KhadijaArib"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2019-06-12-tweedekamer-8.u1">
+               <seg xml:id="ParlaMint-NL_2019-06-12-tweedekamer-8.seg1">Aan de orde is het VAO Streekomroepen. Een hartelijk woord van welkom aan de minister van OCW. Fijn dat u weer bij ons bent. We hebben vijf sprekers van de zijde van de Kamer. De eerste is de heer Kwint van de fractie van de SP. Het woord is aan hem.</seg>
+            </u>
+            <u who="#PeterKwint"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2019-06-12-tweedekamer-8.u2">
+               <seg xml:id="ParlaMint-NL_2019-06-12-tweedekamer-8.seg2">Dank, voorzitter. Het is chaos bij de streekomroepen. Dat ligt niet aan de streekomroepen zelf, maar aan het afwachtende gedrag van Den Haag. Iedereen doet allemaal mooie, maar vage beloften. Handelingen blijven tot nu toe uit. Ondertussen dreigen de streekomroepen failliet te gaan en dreigen mensen hun baan te verliezen. Daar is onze lokale democratie wat de SP betreft te belangrijk voor. Deze omroepen en hun medewerkers verdienen duidelijkheid en zekerheid. Daarom de volgende motie.</seg>
+               <note>Motie</note>
+               <note>De Kamer,</note>
+               <note>gehoord de beraadslaging,</note>
+               <note>overwegende dat streekomroepen van groot belang zijn voor een sterke lokale democratie;</note>
+               <note>constaterende dat enkele streekomroepen failliet dreigen te gaan nog voor de minister zijn mediaplannen — inclusief aanvullende maatregelen voor streekomroepen — presenteert;</note>
+               <note>verzoekt het kabinet te voorkomen dat streekomroepen failliet gaan in aanloop naar de presentatie van de eerder aangekondigde extra maatregelen voor streekomroepen,</note>
+               <note>en gaat over tot de orde van de dag.</note>
+               <note>Deze motie is voorgesteld door de leden Kwint, Westerveld en Van den Hul. Naar mij blijkt, wordt de indiening ervan voldoende ondersteund.</note>
+               <note>Zij krijgt nr. kst-32827-152</note>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u who="#KhadijaArib"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2019-06-12-tweedekamer-8.u33">
+               <seg xml:id="ParlaMint-NL_2019-06-12-tweedekamer-8.seg39">Dat hebben we nodig.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#KhadijaArib"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2019-06-12-tweedekamer-8.u34">
+               <seg xml:id="ParlaMint-NL_2019-06-12-tweedekamer-8.seg40">Ik dank de minister voor zijn aanwezigheid. Wij stemmen dinsdag over de motie.</seg>
+            </u>
+            <note>De vergadering wordt van 14.08 uur tot 14.50 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

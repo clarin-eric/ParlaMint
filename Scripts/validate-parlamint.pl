@@ -13,6 +13,7 @@ binmode(STDERR, 'utf8');
 $Jing  = 'java -jar /usr/share/java/jing.jar';
 $Saxon = 'java -jar /usr/share/java/saxon.jar';
 $Links = "$Bin/check-links.xsl";
+$Val   = "$Bin/validate-parlamint.xsl";
 
 foreach my $inDir (glob "$inDirs") {
     next unless -d $inDir;
@@ -34,9 +35,8 @@ foreach my $inDir (glob "$inDirs") {
 	&run("$Jing $schemaDir/ParlaMint-teiCorpus.rng", $rootFile);
 	foreach my $file (@compFiles) {
 	    &run("$Jing $schemaDir/ParlaMint-TEI.rng", $file);
-	}
-	foreach my $file (@compFiles) {
-	    &run("$Saxon meta=$rootFile -xsl:$Links $file", $file);
+	    &run("$Saxon -xsl:$Val", $file);
+	    &run("$Saxon meta=$rootFile -xsl:$Links", $file);
 	}
     }
     else {
@@ -45,10 +45,9 @@ foreach my $inDir (glob "$inDirs") {
     if ($rootAnaFile) {
 	&run("$Jing $schemaDir/ParlaMint-teiCorpus.ana.rng", $rootAnaFile);
 	foreach my $file (@compAnaFiles) {
-	    &run("$Saxon meta=$rootAnaFile -xsl:$Links $file", $file);
-	}
-	foreach my $file (@compAnaFiles) {
 	    &run("$Jing $schemaDir/ParlaMint-TEI.ana.rng", $file);
+	    &run("$Saxon -xsl:$Val", $file);
+	    &run("$Saxon meta=$rootAnaFile -xsl:$Links", $file);
 	}
     }
     else {
@@ -62,14 +61,14 @@ sub run {
     my ($fName) = $file =~ m|([^/]+)$|
 	or die "Bad file '$file'\n";
     if ($command =~ /$Jing/) {
-	print STDERR "INFO: Validating $fName\n"
+	print STDERR "INFO: XML validation for $fName\n"
+    }
+    elsif ($command =~ /$Val/) {
+	print STDERR "INFO: Content validaton for $fName\n"
     }
     elsif ($command =~ /$Links/) {
-	print STDERR "INFO: Link checking $fName\n"
+	print STDERR "INFO: Link checking for $fName\n"
     }
     else {die "Weird command!\n"}
-    #print STDERR "INFO: Command\n$command $file\n";
-    my $status = system($command);
-    die "Validation utter fail for\n$command $file!\n"
-	if $status;
+    `$command $file 1>&2`;
 }

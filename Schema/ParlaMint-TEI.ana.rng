@@ -47,18 +47,31 @@
   <define name="name">
     <element name="name">
       <ref name="global.atts"/>
-      <attribute name="type">
-	<choice>
-	  <value>PER</value>
-	  <value>LOC</value>
-	  <value>ORG</value>
-	  <value>MISC</value>
-	</choice>
-      </attribute>
+      <optional>
+	<attribute name="ana">
+	  <ref name="anyURIs"/>
+	</attribute>
+      </optional>
+      <optional>
+	<attribute name="type">
+	  <choice>
+	    <value>PER</value>
+	    <value>LOC</value>
+	    <value>ORG</value>
+	    <value>MISC</value>
+	  </choice>
+	</attribute>
+      </optional>
+      <optional>
+	<attribute name="subtype">
+	  <data type="token"/>
+	</attribute>
+      </optional>
       <oneOrMore>
 	<choice>
           <ref name="word"/>
           <ref name="punct"/>
+          <ref name="name"/>
 	</choice>
       </oneOrMore>
     </element>
@@ -135,6 +148,11 @@
 	<value>right</value>
       </attribute>
     </optional>
+    <optional>
+      <attribute name="norm">
+	<data type="string"/>
+      </attribute>
+    </optional>
     <attribute name="msd">
       <data type="string"/>
     </attribute>
@@ -144,7 +162,7 @@
       </attribute>
     </optional>
     <optional>
-      <attribute name="norm">
+      <attribute name="pos">
 	<data type="string"/>
       </attribute>
     </optional>

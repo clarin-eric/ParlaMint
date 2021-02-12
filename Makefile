@@ -1,24 +1,44 @@
+test-val:
+	$s -xsl:Scripts/validate-parlamint.xsl ParlaMint-SI/ParlaMint-SI.xml
+	$s -xsl:Scripts/validate-parlamint.xsl ParlaMint-SI/ParlaMint-SI.ana.xml
+	$s -xsl:Scripts/validate-parlamint.xsl ParlaMint-SI/ParlaMint-SI_2014-08-25_SDZ7-Izredna-01.xml
+	$s -xsl:Scripts/validate-parlamint.xsl ParlaMint-SI/ParlaMint-SI_2014-08-25_SDZ7-Izredna-01.ana.xml
+
 ## Testing "validating" tei2vert script
 j = java -jar /usr/share/java/jing.jar 
+pc = -I % $s -xi -xsl:Scripts/copy.xsl % | $j Schema/parla-clarin.rng
 vrt = $j Schema/ParlaMint-teiCorpus.rng 	# Corpus root / text
 vct = $j Schema/ParlaMint-TEI.rng		# Corpus component / text
 vra = $j Schema/ParlaMint-teiCorpus.ana.rng	# Corpus root / analysed
 vca = $j Schema/ParlaMint-TEI.ana.rng		# Corpus component / analysed
 
-# Check links, vert
-LANG = BE
+# Check links for 1 language
+LANG = RO
 PREF = /project/corpora/Parla/ParlaMint/ParlaMint
-val-vert:
+all:	val-lang vert-lang chars-lang
+chars-lang:
+	nice find ParlaMint-${LANG}/ -name '*.xml' | \
+	$P --jobs 20 Scripts/chars.pl {} >> ParlaMint-${LANG}/chars-files-${LANG}.tbl
+	Scripts/chars-summ.pl < ParlaMint-${LANG}/chars-files-${LANG}.tbl \
+	> ParlaMint-${LANG}/chars-${LANG}.tbl
+
+vert-lang:
 	Scripts/parlamint-tei2vert.pl ParlaMint-${LANG}/ParlaMint-${LANG}.xml \
-	'ParlaMint-${LANG}/*_*.xml' ParlaMint-${LANG} #Scripts/tmp
-val-links:
-	ls ParlaMint-${LANG}/ParlaMint-*.xml | grep '_' | grep -v '.ana' | xargs -I % \
-	$s meta=${PREF}/ParlaMint-${LANG}/ParlaMint-${LANG}.xml -xsl:Scripts/check-links.xsl %
-	#ls ParlaMint-${LANG}/ParlaMint-*.ana.xml | grep '_' | xargs -I % \
-	#$s meta=${PREF}/ParlaMint-${LANG}/ParlaMint-${LANG}.ana.xml -xsl:Scripts/check-links.xsl %
+	'ParlaMint-${LANG}/*_*.xml' ParlaMint-${LANG}
+val-lang:
+	Scripts/validate-parlamint.pl Schema 'ParlaMint-${LANG}'
 
 # Validation for all corpora
-val:
+# Parla-CLARIN validation
+val-pc:
+	ls ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs ${pc}
+	ls ParlaMint-*/ParlaMint-*.xml | grep    '.ana.' | grep -v '_' | xargs ${pc}
+# ParlaMint validation
+val-all:
+	Scripts/validate-parlamint.pl Schema 'ParlaMint-*'
+
+# ParlaMint validation with Jing only
+val-jing:
 	ls ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs ${vrt}
 	ls ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep    '_' | xargs ${vct}
 	ls ParlaMint-*/ParlaMint-*.xml | grep    '.ana.' | grep -v '_' | xargs ${vra}

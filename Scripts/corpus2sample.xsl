@@ -31,20 +31,17 @@
     <xsl:for-each select="//xi:include">
       <xsl:if test="(position()-1) mod floor($n div $Files) = 1">
 	<xsl:message select="concat('INFO: selecting file ', @href)"/>
-	<xsl:text>&#10;   </xsl:text>
 	<xsl:copy-of select="."/>
       </xsl:if>
     </xsl:for-each>
-    <xsl:text>&#10;</xsl:text>
   </xsl:variable>
 
-  <xsl:output method="xml" indent="no"/>
+  <xsl:output method="xml" indent="yes"/>
   
   <xsl:template match="/">
     <!-- Output root file -->
     <xsl:variable name="inFile" select="replace(document-uri(/), '.+/([^/]+$)', '$1')"/>
     <xsl:result-document href="{$outDir}/{$inFile}" method="xml">
-      <xsl:text>&#10;</xsl:text>
       <xsl:apply-templates/>
     </xsl:result-document>
     <!-- Output component file samples -->
@@ -57,27 +54,14 @@
   </xsl:template>
   
   <xsl:template mode="component" match="/">
-    <xsl:text>&#10;</xsl:text>
     <xsl:apply-templates/>
   </xsl:template>
 
   <xsl:template match="tei:teiCorpus">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
-      <!-- Fix error from V1: ID != file name for .ana. files -->
-      <xsl:attribute name="xml:id" select="replace(document-uri(/), '.+/([^/]+)\.xml', '$1')"/>
-      <xsl:text>&#10;   </xsl:text>
       <xsl:apply-templates select="tei:teiHeader"/>
       <xsl:copy-of select="$components"/>
-    </xsl:copy>
-  </xsl:template>
-    
-  <xsl:template match="tei:TEI">
-    <xsl:copy>
-      <xsl:apply-templates select="@*"/>
-      <!-- Fix error from V1: ID != file name for .ana. files -->
-      <xsl:attribute name="xml:id" select="replace(document-uri(/), '.+/([^/]+)\.xml', '$1')"/>
-      <xsl:apply-templates/>
     </xsl:copy>
   </xsl:template>
     
@@ -88,19 +72,6 @@
     </xsl:copy>
   </xsl:template>
     
-  <xsl:template match="tei:publicationStmt/tei:pubPlace"/>
-  <xsl:template match="tei:publicationStmt/tei:idno[@type='handle']">
-    <idno type="URL">
-      <xsl:value-of select="$GitHub-project"/>
-    </idno>
-    <xsl:text>&#10;            </xsl:text>
-    <pubPlace>
-      <ref target="{$GitHub-project}">
-	<xsl:value-of select="$GitHub-project"/>
-      </ref>
-    </pubPlace>
-  </xsl:template>
-    
   <xsl:template match="tei:publicationStmt/tei:date">
     <xsl:copy>
       <xsl:attribute name="when" select="$today"/>
@@ -108,10 +79,22 @@
     </xsl:copy>
   </xsl:template>
     
+  <!-- This make a "proper" sample, but is confusing for those that
+       take the samples as a model of how to prepare their corpora 
+  <xsl:template match="tei:publicationStmt/tei:pubPlace"/>
+  <xsl:template match="tei:publicationStmt/tei:idno[@type='handle']">
+    <idno type="URL">
+      <xsl:value-of select="$GitHub-project"/>
+    </idno>
+    <pubPlace>
+      <ref target="{$GitHub-project}">
+	<xsl:value-of select="$GitHub-project"/>
+      </ref>
+    </pubPlace>
+  </xsl:template>
   <xsl:template match="tei:sourceDesc">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
-      <xsl:text>&#10;            </xsl:text>
       <bibl>
 	<title>Multilingual comparable corpora of parliamentary debates ParlaMint 1.0</title>
 	<xsl:copy-of select="ancestor::tei:teiHeader//tei:publicationStmt/tei:idno[@type='handle']"/>
@@ -119,7 +102,8 @@
       <xsl:apply-templates/>
     </xsl:copy>
   </xsl:template>
-    
+  -->
+  
   <xsl:template match="tei:extent | tei:tagsDecl">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
@@ -131,7 +115,6 @@
   <xsl:template match="tei:revisionDesc">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
-      <xsl:text>&#10;         </xsl:text>
       <change when="{$today}"><name>Tomaž Erjavec</name>: Made sample.</change>
       <xsl:apply-templates/>
     </xsl:copy>
@@ -139,29 +122,64 @@
     
   <!-- Here we pick the first and last $Range utterances and all
        immediatelly preceding and intervening other elements -->
-  <xsl:template match="tei:div[@type='debateSection']">
+  <xsl:template match="tei:body">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
+      <xsl:variable name="to">
+	<xsl:value-of select="(.//tei:u)[position() = $Range]/@xml:id"/>
+      </xsl:variable>
+      <xsl:variable name="from">
+	<xsl:variable name="all" select="count(//tei:u)"/>
+	<xsl:choose>
+	  <!-- If there is too few <u>s in the document -->
+	  <xsl:when test="$all &lt; 2 * $Range">0</xsl:when>
+	  <xsl:otherwise>
+	    <xsl:value-of select="(.//tei:u)[position() = $all - ($Range - 1)]/@xml:id"/>
+	  </xsl:otherwise>
+	</xsl:choose>
+      </xsl:variable>
       <xsl:apply-templates>
-	<xsl:with-param name="to" select="tei:u[position() = $Range]/@xml:id"/>
-      </xsl:apply-templates>
-      <xsl:text>&#10;            </xsl:text>
-      <gap reason="editorial"><desc xml:lang="en">SAMPLING</desc></gap>
-      <xsl:text>&#10;            </xsl:text>
-      <xsl:apply-templates>
-	<xsl:with-param name="from">
-	  <xsl:variable name="all" select="count(tei:u)"/>
-	  <xsl:value-of select="tei:u[position() = $all - ($Range - 1)]/@xml:id"/>
-	</xsl:with-param>
+	<xsl:with-param name="from" select="$from"/>
+	<xsl:with-param name="to" select="$to"/>
       </xsl:apply-templates>
     </xsl:copy>
+  </xsl:template>
+  
+  <xsl:template match="tei:div[@type='debateSection']">
+    <xsl:param name="from">0</xsl:param>
+    <xsl:param name="to">0</xsl:param>
+    <!--xsl:message select="concat('SELECTING ', 
+	/tei:TEI/@xml:id, ': ', $to, ' AND ', $from)"/-->
+    <xsl:variable name="div">
+      <xsl:copy>
+	<xsl:apply-templates select="@*"/>
+	<xsl:variable name="incipit">
+	  <xsl:apply-templates>
+	    <xsl:with-param name="to" select="$to"/>
+	  </xsl:apply-templates>
+	</xsl:variable>
+	<xsl:variable name="explicit">
+	  <xsl:apply-templates>
+	    <xsl:with-param name="from" select="$from"/>
+	  </xsl:apply-templates>
+	</xsl:variable>
+	<xsl:if test="$incipit/tei:*">
+	  <xsl:copy-of select="$incipit"/>
+	  <gap reason="editorial"><desc xml:lang="en">SAMPLING</desc></gap>
+	</xsl:if>
+	<xsl:copy-of select="$explicit"/>
+      </xsl:copy>
+    </xsl:variable>
+    <xsl:if test="$div//tei:u">
+      <xsl:copy-of select="$div"/>
+    </xsl:if>
   </xsl:template>
   
   <xsl:template match="tei:div[@type='debateSection']/node()">
     <xsl:param name="from">0</xsl:param>
     <xsl:param name="to">0</xsl:param>
-    <xsl:if test="($from = '0' and (self::tei:* | following-sibling::tei:*)[@xml:id = $to]) or 
-		  ($to   = '0' and (self::tei:* | preceding-sibling::tei:*)[@xml:id = $from])">
+    <xsl:if test="($from = '0' and (self::tei:* | following::tei:*)[@xml:id = $to]) or 
+		  ($to   = '0' and (self::tei:* | preceding::tei:*)[@xml:id = $from])">
       <xsl:choose>
 	<xsl:when test="self::tei:*">
 	  <xsl:copy>
@@ -176,15 +194,6 @@
     </xsl:if>
   </xsl:template>
 
-  <!-- Fix error from V1: missing @full -->
-  <xsl:template match="tei:org/tei:orgName[not(@full)]">
-    <xsl:copy>
-      <xsl:apply-templates select="@*"/>
-      <xsl:attribute name="full">yes</xsl:attribute>
-      <xsl:apply-templates/>
-    </xsl:copy>
-  </xsl:template>
-  
   <xsl:template match="tei:*">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>

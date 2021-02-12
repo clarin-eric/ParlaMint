@@ -22,8 +22,10 @@ sentence =
 name =
   element name {
     global.atts,
-    attribute type { "PER" | "LOC" | "ORG" | "MISC" },
-    (word | punct)+
+    attribute ana { anyURIs }?,
+    attribute type { "PER" | "LOC" | "ORG" | "MISC" }?,
+    attribute subtype { xsd:token }?,
+    (word | punct | name)+
   }
 word =
   
@@ -58,9 +60,10 @@ token.atts =
   id.att,
   lang.att,
   attribute join { "right" }?,
+  attribute norm { xsd:string }?,
   attribute msd { xsd:string },
   attribute ana { anyURIs }?,
-  attribute norm { xsd:string }?
+  attribute pos { xsd:string }?
 word-optional.atts =
   id.att?,
   lang.att,

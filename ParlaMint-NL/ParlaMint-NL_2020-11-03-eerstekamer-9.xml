@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     ana="#covid"
+     xml:lang="nl"
+     xml:id="ParlaMint-NL_2020-11-03-eerstekamer-9">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch Parliamentary Corpus ParlaMint-NL, Upper House 2020-11-03 [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Eerste Kamer 2020-11-03 [ParlaMint SAMPLE]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Upper House, Meeting 8, Session 9 (2020-11-03)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Eerste Kamer, Meeting 8, Session 9 (2020-11-03)</title>
+            <meeting ana="#parla.meeting.regular" corresp="#EK" n="8">Meeting 8</meeting>
+            <meeting ana="#parla.session" corresp="#EK" n="9">Session 9</meeting>
+            <meeting ana="#parla.term #EK.36" corresp="#EK" n="36-upper">Meeting of the 36th Eerste Kamer</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" xml:lang="nl" quantity="187">187 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="187">187 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="19414">19414 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="19414">19414 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-10">2021-02-10</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Eerste Kamer of The Netherlands</title>
+               <idno type="URI">https://www.eerstekamer.nl/</idno>
+               <date when="2020-11-03">2020-11-03</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="seg" occurs="307"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="187"/>
+               <tagUsage gi="note" occurs="72"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2020-11-03">2020-11-03</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <note>Algemene Europese Beschouwingen</note>
+            <u who="#JanAnthonieBruijn"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2020-11-03-eerstekamer-9.u1">
+               <seg xml:id="ParlaMint-NL_2020-11-03-eerstekamer-9.seg1">Aan de orde is de voortzetting van de Algemene Europese Beschouwingen, en wel het antwoord van de regering in eerste termijn.</seg>
+            </u>
+            <note>De beraadslaging wordt hervat.</note>
+            <u who="#JanAnthonieBruijn"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2020-11-03-eerstekamer-9.u2">
+               <seg xml:id="ParlaMint-NL_2020-11-03-eerstekamer-9.seg2">Het woord is aan de minister van Buitenlandse Zaken.</seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u who="#JanAnthonieBruijn"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2020-11-03-eerstekamer-9.u186">
+               <seg xml:id="ParlaMint-NL_2020-11-03-eerstekamer-9.seg305">Dank u wel, minister.</seg>
+            </u>
+            <note>De beraadslaging wordt gesloten.</note>
+            <u who="#JanAnthonieBruijn"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2020-11-03-eerstekamer-9.u187">
+               <seg xml:id="ParlaMint-NL_2020-11-03-eerstekamer-9.seg306">Ik stel voor om tijdens de volgende vergadering te stemmen over de ingediende moties.</seg>
+               <seg xml:id="ParlaMint-NL_2020-11-03-eerstekamer-9.seg307">Wij zijn nu gekomen aan het einde van de vergadering. Ik dank alle leden en medewerkers die deze vergadering mogelijk hebben gemaakt en wens u allen wel thuis.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

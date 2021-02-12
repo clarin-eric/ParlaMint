@@ -132,7 +132,9 @@ listRelation =
     element relation {
       ana.att,
       temporal.atts?,
-      attribute name { "coalition" | "renaming" | "successor" },
+      attribute name {
+        "coalition" | "opposition" | "renaming" | "successor"
+      },
       (attribute mutual { anyURIs }
        | (attribute active { xsd:anyURI },
           attribute passive { anyURIs }))
