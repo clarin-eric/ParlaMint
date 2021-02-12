@@ -13,15 +13,15 @@ vra = $j Schema/ParlaMint-teiCorpus.ana.rng	# Corpus root / analysed
 vca = $j Schema/ParlaMint-TEI.ana.rng		# Corpus component / analysed
 
 # Check links for 1 language
-LANG = RO
+LANG = BG
 PREF = /project/corpora/Parla/ParlaMint/ParlaMint
-all:	val-lang vert-lang chars-lang
+all-lang:	val-lang chars-lang
+xall-lang:	val-lang vert-lang chars-lang
 chars-lang:
 	nice find ParlaMint-${LANG}/ -name '*.xml' | \
 	$P --jobs 20 Scripts/chars.pl {} >> ParlaMint-${LANG}/chars-files-${LANG}.tbl
 	Scripts/chars-summ.pl < ParlaMint-${LANG}/chars-files-${LANG}.tbl \
 	> ParlaMint-${LANG}/chars-${LANG}.tbl
-
 vert-lang:
 	Scripts/parlamint-tei2vert.pl ParlaMint-${LANG}/ParlaMint-${LANG}.xml \
 	'ParlaMint-${LANG}/*_*.xml' ParlaMint-${LANG}

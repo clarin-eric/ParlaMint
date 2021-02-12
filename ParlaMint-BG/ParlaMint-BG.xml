@@ -47,17 +47,15 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URL">https://github.com/clarin-eric/ParlaMint</idno>
-            <pubPlace><ref target="https://github.com/clarin-eric/ParlaMint">https://github.com/clarin-eric/ParlaMint</ref></pubPlace>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="bg">Корпусът е достъпен чрез международния лиценз <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2021-02-04">2021-02-04</date>
+            <date when="2021-02-12">2021-02-12</date>
          </publicationStmt>
          <sourceDesc>
-            <bibl><title>Multilingual comparable corpora of parliamentary debates ParlaMint 1.0</title><idno type="handle">http://hdl.handle.net/11356/1388</idno></bibl>
             <bibl>
                <title xml:lang="en">Transcripts of plenary sittings of the Parliament of the Republic of Bulgaria</title>
                <idno type="URI">https://parlametar.bg/</idno>
@@ -69,7 +67,8 @@
       <encodingDesc>
          <projectDesc>
             <p xml:lang="bg">ParlaMint</p>
-            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref>and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref>and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
          <editorialDecl>
             <correction>
@@ -103,121 +102,223 @@
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="parla.legislature">
-               <desc xml:lang="en"><term>Legislature</term></desc>
-               <desc xml:lang="bg"><term>Законодателство</term></desc>
+               <desc xml:lang="en">
+                  <term>Legislature</term>
+               </desc>
+               <desc xml:lang="bg">
+                  <term>Законодателство</term>
+               </desc>
                <category xml:id="parla.organization">
-                  <catDesc xml:lang="en"><term>Organization</term></catDesc>
-                  <catDesc xml:lang="bg"><term>Организация</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>Organization</term>
+                  </catDesc>
+                  <catDesc xml:lang="bg">
+                     <term>Организация</term>
+                  </catDesc>
                   <category xml:id="parla.chambers">
-                     <catDesc xml:lang="en"><term>Chambers</term></catDesc>
-                     <catDesc xml:lang="bg"><term>Парламент</term></catDesc>
+                     <catDesc xml:lang="en">
+                        <term>Chambers</term>
+                     </catDesc>
+                     <catDesc xml:lang="bg">
+                        <term>Парламент</term>
+                     </catDesc>
                      <category xml:id="par.uni">
-                        <catDesc xml:lang="en"><term>Unicameralism</term></catDesc>
-                        <catDesc xml:lang="bg"><term>Еднокамарен</term></catDesc>
+                        <catDesc xml:lang="en">
+                           <term>Unicameralism</term>
+                        </catDesc>
+                        <catDesc xml:lang="bg">
+                           <term>Еднокамарен</term>
+                        </catDesc>
                      </category>
                   </category>
                   <category xml:id="parla.committee">
-                     <catDesc xml:lang="en"><term>Committee</term></catDesc>
-                     <catDesc xml:lang="bg"><term>Комисия</term></catDesc>
+                     <catDesc xml:lang="en">
+                        <term>Committee</term>
+                     </catDesc>
+                     <catDesc xml:lang="bg">
+                        <term>Комисия</term>
+                     </catDesc>
                      <category xml:id="parla.committee.standing">
-                        <catDesc xml:lang="en"><term>Standing committee</term></catDesc>
-                        <catDesc xml:lang="bg"><term>Постоянна комисия</term></catDesc>
+                        <catDesc xml:lang="en">
+                           <term>Standing committee</term>
+                        </catDesc>
+                        <catDesc xml:lang="bg">
+                           <term>Постоянна комисия</term>
+                        </catDesc>
                      </category>
                      <category xml:id="parla.committee.special">
-                        <catDesc xml:lang="en"><term>Special committee</term></catDesc>
-                        <catDesc xml:lang="bg"><term>Временна комисия</term></catDesc>
+                        <catDesc xml:lang="en">
+                           <term>Special committee</term>
+                        </catDesc>
+                        <catDesc xml:lang="bg">
+                           <term>Временна комисия</term>
+                        </catDesc>
                      </category>
                      <category xml:id="parla.committee.inquiry">
-                        <catDesc xml:lang="en"><term>Committee of inquiry</term></catDesc>
-                        <catDesc xml:lang="bg"><term>Анкетна комисия</term></catDesc>
+                        <catDesc xml:lang="en">
+                           <term>Committee of inquiry</term>
+                        </catDesc>
+                        <catDesc xml:lang="bg">
+                           <term>Анкетна комисия</term>
+                        </catDesc>
                      </category>
                   </category>
                </category>
                <category xml:id="parla.term">
-                  <catDesc xml:lang="en"><term>Legislative period</term>: term of the parliament between general elections.</catDesc>
-                  <catDesc xml:lang="bg"><term>Законодателен период</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>Legislative period</term>: term of the parliament between general elections.</catDesc>
+                  <catDesc xml:lang="bg">
+                     <term>Законодателен период</term>
+                  </catDesc>
                   <category xml:id="parla.session">
-                     <catDesc xml:lang="en"><term>Legislative session</term>: the period of time in which a legislature is convened for purpose of lawmaking, usually being one of two or more smaller divisions of the entire time between two elections. A session is a meeting or series of connected meetings devoted to a single order of business, program, agenda, or announced purpose.</catDesc>
-                     <catDesc xml:lang="bg"><term>Законодателна сесия</term></catDesc>
+                     <catDesc xml:lang="en">
+                        <term>Legislative session</term>: the period of time in which a legislature is convened for purpose of lawmaking, usually being one of two or more smaller divisions of the entire time between two elections. A session is a meeting or series of connected meetings devoted to a single order of business, program, agenda, or announced purpose.</catDesc>
+                     <catDesc xml:lang="bg">
+                        <term>Законодателна сесия</term>
+                     </catDesc>
                      <category xml:id="parla.meeting">
-                        <catDesc xml:lang="en"><term>Meeting</term>: Each meeting may be a separate session or part of a group of meetings constituting a session. The session/meeting may take one or more days.</catDesc>
-                        <catDesc xml:lang="bg"><term>Заседание</term></catDesc>
+                        <catDesc xml:lang="en">
+                           <term>Meeting</term>: Each meeting may be a separate session or part of a group of meetings constituting a session. The session/meeting may take one or more days.</catDesc>
+                        <catDesc xml:lang="bg">
+                           <term>Заседание</term>
+                        </catDesc>
                         <category xml:id="parla.meeting-types">
-                           <catDesc xml:lang="en"><term>Types of meetings</term></catDesc>
+                           <catDesc xml:lang="en">
+                              <term>Types of meetings</term>
+                           </catDesc>
                            <category xml:id="parla.meeting.regular">
-                              <catDesc xml:lang="en"><term>Regular meeting</term></catDesc>
-                              <catDesc xml:lang="bg"><term>Редовно заседание</term></catDesc>
+                              <catDesc xml:lang="en">
+                                 <term>Regular meeting</term>
+                              </catDesc>
+                              <catDesc xml:lang="bg">
+                                 <term>Редовно заседание</term>
+                              </catDesc>
                            </category>
                            <category xml:id="parla.meeting.special">
-                              <catDesc xml:lang="en"><term>Special meeting</term></catDesc>
-                              <catDesc xml:lang="bg"><term>Специална заседание</term></catDesc>
+                              <catDesc xml:lang="en">
+                                 <term>Special meeting</term>
+                              </catDesc>
+                              <catDesc xml:lang="bg">
+                                 <term>Специална заседание</term>
+                              </catDesc>
                               <category xml:id="parla.meeting.extraordinary">
-                                 <catDesc xml:lang="en"><term>Extraordinary meeting</term></catDesc>
-                                 <catDesc xml:lang="bg"><term>Извънредно заседание</term></catDesc>
+                                 <catDesc xml:lang="en">
+                                    <term>Extraordinary meeting</term>
+                                 </catDesc>
+                                 <catDesc xml:lang="bg">
+                                    <term>Извънредно заседание</term>
+                                 </catDesc>
                               </category>
                               <category xml:id="parla.meeting.urgent">
-                                 <catDesc xml:lang="en"><term>Urgent meeting</term></catDesc>
-                                 <catDesc xml:lang="bg"><term>Спешнo заседание</term></catDesc>
+                                 <catDesc xml:lang="en">
+                                    <term>Urgent meeting</term>
+                                 </catDesc>
+                                 <catDesc xml:lang="bg">
+                                    <term>Спешнo заседание</term>
+                                 </catDesc>
                               </category>
                               <category xml:id="parla.meeting.ceremonial">
-                                 <catDesc xml:lang="en"><term>Ceremonial meeting</term></catDesc>
-                                 <catDesc xml:lang="bg"><term>Официално заседание</term></catDesc>
+                                 <catDesc xml:lang="en">
+                                    <term>Ceremonial meeting</term>
+                                 </catDesc>
+                                 <catDesc xml:lang="bg">
+                                    <term>Официално заседание</term>
+                                 </catDesc>
                               </category>
                               <category xml:id="parla.meeting.commemorative">
-                                 <catDesc xml:lang="en"><term>Commemorative meeting</term></catDesc>
-                                 <catDesc xml:lang="bg"><term>Възпоменателно заседание</term></catDesc>
+                                 <catDesc xml:lang="en">
+                                    <term>Commemorative meeting</term>
+                                 </catDesc>
+                                 <catDesc xml:lang="bg">
+                                    <term>Възпоменателно заседание</term>
+                                 </catDesc>
                               </category>
                               <category xml:id="parla.meeting.opinions">
-                                 <catDesc xml:lang="en"><term>Public presentation of opinions</term></catDesc>
-                                 <catDesc xml:lang="bg"><term>Публично представяне на мнения</term></catDesc>
+                                 <catDesc xml:lang="en">
+                                    <term>Public presentation of opinions</term>
+                                 </catDesc>
+                                 <catDesc xml:lang="bg">
+                                    <term>Публично представяне на мнения</term>
+                                 </catDesc>
                               </category>
                            </category>
                            <category xml:id="parla.meeting.continued">
-                              <catDesc xml:lang="en"><term>Continued meeting</term></catDesc>
+                              <catDesc xml:lang="en">
+                                 <term>Continued meeting</term>
+                              </catDesc>
                            </category>
                            <category xml:id="parla.meeting.public">
-                              <catDesc xml:lang="en"><term>Public meeting</term></catDesc>
-                              <catDesc xml:lang="bg"><term>Публично заседание</term></catDesc>
+                              <catDesc xml:lang="en">
+                                 <term>Public meeting</term>
+                              </catDesc>
+                              <catDesc xml:lang="bg">
+                                 <term>Публично заседание</term>
+                              </catDesc>
                            </category>
                            <category xml:id="parla.meeting.executive">
-                              <catDesc xml:lang="en"><term>Executive meeting</term></catDesc>
-                              <catDesc xml:lang="bg"><term>Закрито заседание</term></catDesc>
+                              <catDesc xml:lang="en">
+                                 <term>Executive meeting</term>
+                              </catDesc>
+                              <catDesc xml:lang="bg">
+                                 <term>Закрито заседание</term>
+                              </catDesc>
                            </category>
                         </category>
                         <category xml:id="parla.sitting">
-                           <catDesc xml:lang="en"><term>Sitting</term>: sitting day</catDesc>
-                           <catDesc xml:lang="bg"><term>заседател ден</term></catDesc>
+                           <catDesc xml:lang="en">
+                              <term>Sitting</term>: sitting day</catDesc>
+                           <catDesc xml:lang="bg">
+                              <term>заседател ден</term>
+                           </catDesc>
                         </category>
                      </category>
                   </category>
                </category>
             </taxonomy>
             <taxonomy xml:id="speaker_types">
-               <desc xml:lang="en"><term>Types of speakers</term></desc>
-               <desc xml:lang="bg"><term>Видове изказващи се</term></desc>
+               <desc xml:lang="en">
+                  <term>Types of speakers</term>
+               </desc>
+               <desc xml:lang="bg">
+                  <term>Видове изказващи се</term>
+               </desc>
                <category xml:id="chair">
-                  <catDesc xml:lang="bg"><term>Председател</term>: председател на заседание</catDesc>
-                  <catDesc xml:lang="en"><term>Chairperson</term>: chairman of a meeting</catDesc>
+                  <catDesc xml:lang="bg">
+                     <term>Председател</term>: председател на заседание</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>Chairperson</term>: chairman of a meeting</catDesc>
                </category>
                <category xml:id="regular">
-                  <catDesc xml:lang="bg"><term>Говорещ</term>: обикновен изказващ се на заседание</catDesc>
-                  <catDesc xml:lang="en"><term>Regular</term>: a regular speaker at a meeting</catDesc>
+                  <catDesc xml:lang="bg">
+                     <term>Говорещ</term>: обикновен изказващ се на заседание</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>Regular</term>: a regular speaker at a meeting</catDesc>
                </category>
                <category xml:id="guest">
-                  <catDesc xml:lang="bg"><term>Гост</term>: гост на заседание</catDesc>
-                  <catDesc xml:lang="en"><term>Guest</term>: a guest speaker at a meeting</catDesc>
+                  <catDesc xml:lang="bg">
+                     <term>Гост</term>: гост на заседание</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>Guest</term>: a guest speaker at a meeting</catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="subcorpus">
-               <desc xml:lang="en"><term>Subcorpora</term></desc>
-               <desc xml:lang="bg"><term>Подкорпус</term></desc>
+               <desc xml:lang="en">
+                  <term>Subcorpora</term>
+               </desc>
+               <desc xml:lang="bg">
+                  <term>Подкорпус</term>
+               </desc>
                <category xml:id="reference">
-                  <catDesc xml:lang="en"><term>Reference</term>: reference subcorpus, until 2019-10-31</catDesc>
-                  <catDesc xml:lang="bg"><term>Референтен</term>: референтен подкорпус, до 2019-10-31</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>Reference</term>: reference subcorpus, until 2019-10-31</catDesc>
+                  <catDesc xml:lang="bg">
+                     <term>Референтен</term>: референтен подкорпус, до 2019-10-31</catDesc>
                </category>
                <category xml:id="covid">
-                  <catDesc xml:lang="en"><term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
-                  <catDesc xml:lang="bg"><term>COVID</term>: COVID подкорпус, от 2019-11-01 нататък</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
+                  <catDesc xml:lang="bg">
+                     <term>COVID</term>: COVID подкорпус, от 2019-11-01 нататък</catDesc>
                </category>
             </taxonomy>
          </classDecl>
@@ -7973,7 +8074,9 @@
                   <education>Юридическото образование получава в Икономическия университет във Варна</education>
                   <occupation>юрист</occupation>
                   <occupation>политик</occupation>
-                  <affiliation from="2014" ref="https://www.europarl.europa.eu/portal/en" role="MP">Евродепутат</affiliation>
+                  <affiliation from="2014"
+                               ref="https://www.europarl.europa.eu/portal/en"
+                               role="MP">Евродепутат</affiliation>
                   <idno type="wikimedia" xml:lang="bg">https://bg.wikipedia.org/wiki/Емил_Радев</idno>
                   <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Emil_Radev</idno>
                </person>
@@ -8997,8 +9100,14 @@
                   </death>
                   <education>Машинен инженер от Техническия университет в София (1968)</education>
                   <occupation>Академик</occupation>
-                  <affiliation from="1969" ref="https://ims.bas.bg/" role="academician" to="2020">академик</affiliation>
-                  <affiliation from="2012-12-03" ref="http://www.bas.bg/en/" role="president" to="2016">Председател на БАН</affiliation>
+                  <affiliation from="1969"
+                               ref="https://ims.bas.bg/"
+                               role="academician"
+                               to="2020">академик</affiliation>
+                  <affiliation from="2012-12-03"
+                               ref="http://www.bas.bg/en/"
+                               role="president"
+                               to="2016">Председател на БАН</affiliation>
                   <idno type="wikimedia" xml:lang="bg">https://bg.wikipedia.org/wiki/Стефан_Воденичаров</idno>
                   <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Stefan_Vodenicharov</idno>
                </person>
@@ -9201,8 +9310,9 @@
          </langUsage>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2021-02-04"><name>Tomaž Erjavec</name>: Made sample.</change>
-         <change when="2021-02-04">
+         <change when="2021-02-12">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2021-02-12">
             <name>Tomaž Erjavec</name>: Small fixes for Version 2.</change>
          <change when="2020-10-14">
             <name>Tomaž Erjavec</name>: Small fixes for ParlaMint.</change>
@@ -9210,10 +9320,16 @@
             <name>Petya Osenova</name>: Generated corpus in Parla-CLARIN.</change>
       </revisionDesc>
    </teiHeader>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-BG_2014-10-29.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-BG_2015-11-24.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-BG_2017-01-11.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-BG_2018-04-27.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-BG_2019-05-30.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-BG_2020-07-31.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-BG_2014-10-29.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-BG_2015-11-24.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-BG_2017-01-11.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-BG_2018-04-27.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-BG_2019-05-30.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-BG_2020-07-31.xml"/>
 </teiCorpus>
