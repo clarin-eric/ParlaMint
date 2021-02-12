@@ -96,7 +96,7 @@
                <tagUsage gi="gap" occurs="0"/>
                <tagUsage gi="desc" occurs="4"/>
                <tagUsage gi="s" occurs="108"/>
-               <tagUsage gi="name" occurs="98"/>
+               <tagUsage gi="name" occurs="55"/>
                <tagUsage gi="w" occurs="1200"/>
                <tagUsage gi="pc" occurs="274"/>
                <tagUsage gi="linkGrp" occurs="108"/>
@@ -110,7 +110,7 @@
                <name type="org">Parlament České republiky - Poslanecká sněmovna</name>
                <name type="address">Sněmovní 176/4</name>
                <name type="city">Praha</name>
-               <name key="CZ" type="country">Czech Republic</name>
+               <name type="country" key="CZ">Czech Republic</name>
                <date when="2014-09-10" ana="#parla.sitting">2014-09-10</date>
             </setting>
          </settingDesc>
@@ -129,12 +129,14 @@
                xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1">
                <seg xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p1">
                   <s xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p1.s1"><!-- 2. -->
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne1" type="MISC"><!--ana="ne:ni"-->
+<!--BEGIN num-->
+                     <name ana="ne:ni" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne1">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p1.s1.w1"
                            lemma="2"
                            msd="UposTag=NUM|NumForm=Digit|NumType=Card"
                            join="right">2</w>
                      </name>
+                     <!--END num-->
                      <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p1.s1.w2"
                          msd="UposTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
@@ -163,7 +165,9 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p1.s2.w6"
                         lemma="měnit"
                         msd="UposTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act">mění</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne2" type="MISC"><!--ana="ne:or"-->
+                     <name ana="ne:or"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne2"
+                           type="MISC">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p1.s2.w7"
                            lemma="zákon"
                            msd="UposTag=NOUN|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos">zákon</w>
@@ -173,29 +177,33 @@
                            join="right">č</w>
                         <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p1.s2.w9"
                             msd="UposTag=PUNCT">.</pc>
-                        <!--name ana="ne:n_"-->
-                        <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p1.s2.w10"
-                           lemma="353"
-                           msd="UposTag=NUM|NumForm=Digit|NumType=Card"
-                           join="right">353</w>
-                        <!--name-->
+                        <!--BEGIN num-->
+                        <name ana="ne:n_" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne3">
+                           <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p1.s2.w10"
+                              lemma="353"
+                              msd="UposTag=NUM|NumForm=Digit|NumType=Card"
+                              join="right">353</w>
+                        </name>
+                        <!--END num-->
                         <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p1.s2.w11"
                             msd="UposTag=PUNCT"
                             join="right">/</pc>
-                        <!--name ana="ne:ty"-->
-                        <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p1.s2.w12"
-                           lemma="2003"
-                           msd="UposTag=NUM|NumForm=Digit|NumType=Card">2003</w>
-                        <!--name-->
-                        <!--name ana="ne:or"-->
-                        <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p1.s2.w13"
-                           lemma="Sb"
-                           msd="UposTag=NOUN|Abbr=Yes|Gender=Fem|Polarity=Pos"
-                           join="right">Sb</w>
-                        <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p1.s2.w14"
-                            msd="UposTag=PUNCT"
-                            join="right">.</pc>
-                        <!--name-->
+                        <!--BEGIN date-->
+                        <name ana="ne:ty" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne4">
+                           <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p1.s2.w12"
+                              lemma="2003"
+                              msd="UposTag=NUM|NumForm=Digit|NumType=Card">2003</w>
+                        </name>
+                        <!--END date-->
+                        <name ana="ne:or" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne5">
+                           <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p1.s2.w13"
+                              lemma="Sb"
+                              msd="UposTag=NOUN|Abbr=Yes|Gender=Fem|Polarity=Pos"
+                              join="right">Sb</w>
+                           <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p1.s2.w14"
+                               msd="UposTag=PUNCT"
+                               join="right">.</pc>
+                        </name>
                         <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p1.s2.w15"
                             msd="UposTag=PUNCT">,</pc>
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p1.s2.w16"
@@ -232,21 +240,25 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p1.s2.w26"
                         lemma="tisk"
                         msd="UposTag=NOUN|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos">tisk</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne6" type="MISC"><!--ana="ne:nb"-->
+                     <!--BEGIN num-->
+                     <name ana="ne:nb" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne6">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p1.s2.w27"
                            lemma="215"
                            msd="UposTag=NUM|NumForm=Digit|NumType=Card"
                            join="right">215</w>
                      </name>
+                     <!--END num-->
                      <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p1.s2.w28"
                          msd="UposTag=PUNCT"
                          join="right">/</pc>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne7" type="MISC"><!--ana="ne:nb"-->
+                     <!--BEGIN num-->
+                     <name ana="ne:nb" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne7">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p1.s2.w29"
                            lemma="3"
                            msd="UposTag=NUM|NumForm=Digit|NumType=Card"
                            join="right">3</w>
                      </name>
+                     <!--END num-->
                      <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p1.s2.w30"
                          msd="UposTag=PUNCT">/</pc>
                      <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p1.s2.w31"
@@ -254,7 +266,9 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p1.s2.w32"
                         lemma="zamítnutý"
                         msd="UposTag=ADJ|Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos">zamítnutý</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne8" type="ORG"><!--ana="ne:io"-->
+                     <name ana="ne:io"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne8"
+                           type="ORG">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p1.s2.w33"
                            lemma="senát"
                            msd="UposTag=NOUN|Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos">Senátem</w>
@@ -416,7 +430,9 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p3.s1.w3"
                         lemma="jenž"
                         msd="UposTag=PRON|Case=Ins|Gender=Masc,Neut|Number=Sing|PrepCase=Npr|PronType=Rel">jímž</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne9" type="ORG"><!--ana="ne:io"-->
+                     <name ana="ne:io"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne9"
+                           type="ORG">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p3.s1.w4"
                            lemma="senát"
                            msd="UposTag=NOUN|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos">Senát</w>
@@ -451,21 +467,25 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p3.s1.w14"
                         lemma="tisk"
                         msd="UposTag=NOUN|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos">tisk</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne10" type="MISC"><!--ana="ne:nb"-->
+                     <!--BEGIN num-->
+                     <name ana="ne:nb" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne10">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p3.s1.w15"
                            lemma="215"
                            msd="UposTag=NUM|NumForm=Digit|NumType=Card"
                            join="right">215</w>
                      </name>
+                     <!--END num-->
                      <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p3.s1.w16"
                          msd="UposTag=PUNCT"
                          join="right">/</pc>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne11" type="MISC"><!--ana="ne:nb"-->
+                     <!--BEGIN num-->
+                     <name ana="ne:nb" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne11">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p3.s1.w17"
                            lemma="4"
                            msd="UposTag=NUM|NumForm=Digit|NumType=Card"
                            join="right">4</w>
                      </name>
+                     <!--END num-->
                      <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p3.s1.w18"
                          msd="UposTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
@@ -523,17 +543,20 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p3.s2.w5"
                         lemma="senátor"
                         msd="UposTag=NOUN|Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos">senátora</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne12" type="PER"><!--ana="ne:p"--><!--name ana="ne:pf"-->
-                        <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p3.s2.w6"
-                           lemma="Karel"
-                           msd="UposTag=PROPN|Animacy=Anim|Case=Gen|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos">Karla</w>
-                        <!--name-->
-                        <!--name ana="ne:ps"-->
-                        <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p3.s2.w7"
-                           lemma="Korytář"
-                           msd="UposTag=PROPN|Animacy=Anim|Case=Gen|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos"
-                           join="right">Korytáře</w>
-                        <!--name-->
+                     <name ana="ne:p"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne12"
+                           type="PER">
+                        <name ana="ne:pf" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne13">
+                           <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p3.s2.w6"
+                              lemma="Karel"
+                              msd="UposTag=PROPN|Animacy=Anim|Case=Gen|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos">Karla</w>
+                        </name>
+                        <name ana="ne:ps" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne14">
+                           <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p3.s2.w7"
+                              lemma="Korytář"
+                              msd="UposTag=PROPN|Animacy=Anim|Case=Gen|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos"
+                              join="right">Korytáře</w>
+                        </name>
                      </name>
                      <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p3.s2.w8"
                          msd="UposTag=PUNCT">.</pc>
@@ -587,7 +610,9 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p3.s3.w10"
                         lemma="usnesení"
                         msd="UposTag=NOUN|Case=Dat|Gender=Neut|Number=Sing|Polarity=Pos">usnesení</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne15" type="ORG"><!--ana="ne:io"-->
+                     <name ana="ne:io"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne15"
+                           type="ORG">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p3.s3.w11"
                            lemma="senát"
                            msd="UposTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos">Senátu</w>
@@ -625,17 +650,20 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p3.s3.w22"
                         lemma="finance"
                         msd="UposTag=NOUN|Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos">financí</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne16" type="PER"><!--ana="ne:p"--><!--name ana="ne:pf"-->
-                        <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p3.s3.w23"
-                           lemma="Andrej"
-                           msd="UposTag=PROPN|Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos">Andrej</w>
-                        <!--name-->
-                        <!--name ana="ne:ps"-->
-                        <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p3.s3.w24"
-                           lemma="Babiš"
-                           msd="UposTag=PROPN|Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos"
-                           join="right">Babiš</w>
-                        <!--name-->
+                     <name ana="ne:p"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne16"
+                           type="PER">
+                        <name ana="ne:pf" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne17">
+                           <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p3.s3.w23"
+                              lemma="Andrej"
+                              msd="UposTag=PROPN|Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos">Andrej</w>
+                        </name>
+                        <name ana="ne:ps" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne18">
+                           <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p3.s3.w24"
+                              lemma="Babiš"
+                              msd="UposTag=PROPN|Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos"
+                              join="right">Babiš</w>
+                        </name>
                      </name>
                      <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u1.p3.s3.w25"
                          msd="UposTag=PUNCT">.</pc>
@@ -824,21 +852,27 @@
                         join="right">č</w>
                      <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u2.p1.s1.w27"
                          msd="UposTag=PUNCT">.</pc>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne19" type="MISC"><!--ana="ne:n_"-->
+                     <!--BEGIN num-->
+                     <name ana="ne:n_" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne19">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u2.p1.s1.w28"
                            lemma="353"
                            msd="UposTag=NUM|NumForm=Digit|NumType=Card"
                            join="right">353</w>
                      </name>
+                     <!--END num-->
                      <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u2.p1.s1.w29"
                          msd="UposTag=PUNCT"
                          join="right">/</pc>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne20" type="MISC"><!--ana="ne:ty"-->
+                     <!--BEGIN date-->
+                     <name ana="ne:ty" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne20">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u2.p1.s1.w30"
                            lemma="2003"
                            msd="UposTag=NUM|NumForm=Digit|NumType=Card">2003</w>
                      </name>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne21" type="MISC"><!--ana="ne:or"-->
+                     <!--END date-->
+                     <name ana="ne:or"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne21"
+                           type="MISC">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u2.p1.s1.w31"
                            lemma="Sb"
                            msd="UposTag=NOUN|Abbr=Yes|Gender=Fem|Polarity=Pos"
@@ -1023,7 +1057,9 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u2.p2.s1.w3"
                         lemma="být"
                         msd="UposTag=AUX|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act">byl</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne22" type="ORG"><!--ana="ne:io"-->
+                     <name ana="ne:io"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne22"
+                           type="ORG">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u2.p2.s1.w4"
                            lemma="poslanecký"
                            msd="UposTag=ADJ|Case=Dat|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos">Poslanecké</w>
@@ -1034,7 +1070,9 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u2.p2.s1.w6"
                         lemma="vrácený"
                         msd="UposTag=ADJ|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass">vrácen</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne23" type="ORG"><!--ana="ne:io"-->
+                     <name ana="ne:io"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne23"
+                           type="ORG">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u2.p2.s1.w7"
                            lemma="senát"
                            msd="UposTag=NOUN|Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos">Senátem</w>
@@ -1085,7 +1123,9 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u2.p2.s2.w1"
                         lemma="usnesení"
                         msd="UposTag=NOUN|Case=Ins|Gender=Neut|Number=Sing|Polarity=Pos">Usnesením</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne24" type="ORG"><!--ana="ne:io"-->
+                     <name ana="ne:io"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne24"
+                           type="ORG">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u2.p2.s2.w2"
                            lemma="senát"
                            msd="UposTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos">Senátu</w>
@@ -1096,11 +1136,13 @@
                         join="right">č</w>
                      <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u2.p2.s2.w4"
                          msd="UposTag=PUNCT">.</pc>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne25" type="MISC"><!--ana="ne:nb"-->
+                     <!--BEGIN num-->
+                     <name ana="ne:nb" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne25">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u2.p2.s2.w5"
                            lemma="587"
                            msd="UposTag=NUM|NumForm=Digit|NumType=Card">587</w>
                      </name>
+                     <!--END num-->
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u2.p2.s2.w6"
                         lemma="však"
                         msd="UposTag=CCONJ">však</w>
@@ -1194,7 +1236,9 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u2.p2.s2.w36"
                         lemma="předložený"
                         msd="UposTag=ADJ|Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos">předložené</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne26" type="MISC"><!--ana="ne:or"-->
+                     <name ana="ne:or"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne26"
+                           type="MISC">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u2.p2.s2.w37"
                            lemma="sněmovna"
                            msd="UposTag=NOUN|Case=Dat|Gender=Fem|Number=Sing|Polarity=Pos">Sněmovně</w>
@@ -1205,21 +1249,25 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u2.p2.s2.w39"
                         lemma="tisk"
                         msd="UposTag=NOUN|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos">tisk</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne27" type="MISC"><!--ana="ne:nb"-->
+                     <!--BEGIN num-->
+                     <name ana="ne:nb" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne27">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u2.p2.s2.w40"
                            lemma="208"
                            msd="UposTag=NUM|NumForm=Digit|NumType=Card"
                            join="right">208</w>
                      </name>
+                     <!--END num-->
                      <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u2.p2.s2.w41"
                          msd="UposTag=PUNCT"
                          join="right">/</pc>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne28" type="MISC"><!--ana="ne:nb"-->
+                     <!--BEGIN num-->
+                     <name ana="ne:nb" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne28">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u2.p2.s2.w42"
                            lemma="4"
                            msd="UposTag=NUM|NumForm=Digit|NumType=Card"
                            join="right">4</w>
                      </name>
+                     <!--END num-->
                      <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u2.p2.s2.w43"
                          msd="UposTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
@@ -1370,21 +1418,25 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u2.p2.s3.w20"
                         lemma="tisk"
                         msd="UposTag=NOUN|Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos">tisku</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne29" type="MISC"><!--ana="ne:nb"-->
+                     <!--BEGIN num-->
+                     <name ana="ne:nb" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne29">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u2.p2.s3.w21"
                            lemma="208"
                            msd="UposTag=NUM|NumForm=Digit|NumType=Card"
                            join="right">208</w>
                      </name>
+                     <!--END num-->
                      <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u2.p2.s3.w22"
                          msd="UposTag=PUNCT"
                          join="right">/</pc>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne30" type="MISC"><!--ana="ne:nb"-->
+                     <!--BEGIN num-->
+                     <name ana="ne:nb" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne30">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u2.p2.s3.w23"
                            lemma="4"
                            msd="UposTag=NUM|NumForm=Digit|NumType=Card"
                            join="right">4</w>
                      </name>
+                     <!--END num-->
                      <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u2.p2.s3.w24"
                          msd="UposTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u2.p2.s3.w25"
@@ -1399,7 +1451,9 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u2.p2.s3.w28"
                         lemma="návrh"
                         msd="UposTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos">návrh</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne31" type="ORG"><!--ana="ne:io"-->
+                     <name ana="ne:io"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne31"
+                           type="ORG">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u2.p2.s3.w29"
                            lemma="senát"
                            msd="UposTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos">Senátu</w>
@@ -1416,21 +1470,25 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u2.p2.s3.w33"
                         lemma="tisk"
                         msd="UposTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos">tisku</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne32" type="MISC"><!--ana="ne:n_"-->
+                     <!--BEGIN num-->
+                     <name ana="ne:n_" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne32">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u2.p2.s3.w34"
                            lemma="215"
                            msd="UposTag=NUM|NumForm=Digit|NumType=Card"
                            join="right">215</w>
                      </name>
+                     <!--END num-->
                      <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u2.p2.s3.w35"
                          msd="UposTag=PUNCT"
                          join="right">/</pc>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne33" type="MISC"><!--ana="ne:nb"-->
+                     <!--BEGIN num-->
+                     <name ana="ne:nb" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne33">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u2.p2.s3.w36"
                            lemma="3"
                            msd="UposTag=NUM|NumForm=Digit|NumType=Card"
                            join="right">3</w>
                      </name>
+                     <!--END num-->
                      <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u2.p2.s3.w37"
                          msd="UposTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
@@ -1601,7 +1659,9 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u3.p1.s2.w8"
                         lemma="usnesení"
                         msd="UposTag=NOUN|Case=Dat|Gender=Neut|Number=Sing|Polarity=Pos">usnesení</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne34" type="ORG"><!--ana="ne:io"-->
+                     <name ana="ne:io"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne34"
+                           type="ORG">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u3.p1.s2.w9"
                            lemma="senát"
                            msd="UposTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos">Senátu</w>
@@ -1624,17 +1684,20 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u3.p1.s2.w15"
                         lemma="poslanec"
                         msd="UposTag=NOUN|Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos">poslanec</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne35" type="PER"><!--ana="ne:p"--><!--name ana="ne:pf"-->
-                        <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u3.p1.s2.w16"
-                           lemma="Václav"
-                           msd="UposTag=PROPN|Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos">Václav</w>
-                        <!--name-->
-                        <!--name ana="ne:ps"-->
-                        <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u3.p1.s2.w17"
-                           lemma="Votava"
-                           msd="UposTag=PROPN|Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos"
-                           join="right">Votava</w>
-                        <!--name-->
+                     <name ana="ne:p"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne35"
+                           type="PER">
+                        <name ana="ne:pf" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne36">
+                           <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u3.p1.s2.w16"
+                              lemma="Václav"
+                              msd="UposTag=PROPN|Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos">Václav</w>
+                        </name>
+                        <name ana="ne:ps" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne37">
+                           <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u3.p1.s2.w17"
+                              lemma="Votava"
+                              msd="UposTag=PROPN|Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos"
+                              join="right">Votava</w>
+                        </name>
                      </name>
                      <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u3.p1.s2.w18"
                          msd="UposTag=PUNCT">.</pc>
@@ -1980,7 +2043,9 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u4.p1.s2.w33"
                         lemma="předložit"
                         msd="UposTag=VERB|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act">předložil</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne38" type="ORG"><!--ana="ne:io"-->
+                     <name ana="ne:io"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne38"
+                           type="ORG">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u4.p1.s2.w34"
                            lemma="senát"
                            msd="UposTag=NOUN|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos"
@@ -2252,22 +2317,26 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p2.s1.w5"
                         lemma="§"
                         msd="UposTag=NOUN|Animacy=Inan|Gender=Masc|Polarity=Pos">§</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne39" type="MISC"><!--ana="ne:nb"-->
+                     <!--BEGIN num-->
+                     <name ana="ne:nb" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne39">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p2.s1.w6"
                            lemma="97"
                            msd="UposTag=NUM|NumForm=Digit|NumType=Card">97</w>
                      </name>
+                     <!--END num-->
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p2.s1.w7"
                         lemma="odstavec"
                         msd="UposTag=NOUN|Abbr=Yes|Animacy=Inan|Gender=Masc|Polarity=Pos"
                         join="right">odst</w>
                      <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p2.s1.w8"
                          msd="UposTag=PUNCT">.</pc>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne40" type="MISC"><!--ana="ne:nb"-->
+                     <!--BEGIN num-->
+                     <name ana="ne:nb" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne40">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p2.s1.w9"
                            lemma="3"
                            msd="UposTag=NUM|NumForm=Digit|NumType=Card">3</w>
                      </name>
+                     <!--END num-->
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p2.s1.w10"
                         lemma="zákon"
                         msd="UposTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos">zákona</w>
@@ -2280,7 +2349,9 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p2.s1.w13"
                         lemma="řád"
                         msd="UposTag=NOUN|Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos">řádu</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne41" type="ORG"><!--ana="ne:io"-->
+                     <name ana="ne:io"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne41"
+                           type="ORG">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p2.s1.w14"
                            lemma="poslanecký"
                            msd="UposTag=ADJ|Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos">Poslanecké</w>
@@ -2369,11 +2440,13 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p2.s2.w14"
                         lemma="souhlas"
                         msd="UposTag=NOUN|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos">souhlas</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne42" type="MISC"><!--ana="ne:nc"-->
+                     <!--BEGIN measure-->
+                     <name ana="ne:nc" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne42">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p2.s2.w15"
                            lemma="101"
                            msd="UposTag=NUM|NumForm=Digit|NumType=Card">101</w>
                      </name>
+                     <!--END measure-->
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p2.s2.w16"
                         lemma="poslanec"
                         msd="UposTag=NOUN|Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos"
@@ -2435,7 +2508,9 @@
                      <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p3.s1.w5"
                          msd="UposTag=PUNCT"
                          join="right">"</pc>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne43" type="ORG"><!--ana="ne:io"-->
+                     <name ana="ne:io"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne43"
+                           type="ORG">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p3.s1.w6"
                            lemma="poslanecký"
                            msd="UposTag=ADJ|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos">Poslanecká</w>
@@ -2464,7 +2539,9 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p3.s1.w14"
                         lemma="měnit"
                         msd="UposTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act">mění</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne44" type="MISC"><!--ana="ne:or"-->
+                     <name ana="ne:or"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne44"
+                           type="MISC">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p3.s1.w15"
                            lemma="zákon"
                            msd="UposTag=NOUN|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos">zákon</w>
@@ -2474,29 +2551,33 @@
                            join="right">č</w>
                         <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p3.s1.w17"
                             msd="UposTag=PUNCT">.</pc>
-                        <!--name ana="ne:n_"-->
-                        <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p3.s1.w18"
-                           lemma="353"
-                           msd="UposTag=NUM|NumForm=Digit|NumType=Card"
-                           join="right">353</w>
-                        <!--name-->
+                        <!--BEGIN num-->
+                        <name ana="ne:n_" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne45">
+                           <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p3.s1.w18"
+                              lemma="353"
+                              msd="UposTag=NUM|NumForm=Digit|NumType=Card"
+                              join="right">353</w>
+                        </name>
+                        <!--END num-->
                         <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p3.s1.w19"
                             msd="UposTag=PUNCT"
                             join="right">/</pc>
-                        <!--name ana="ne:ty"-->
-                        <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p3.s1.w20"
-                           lemma="2003"
-                           msd="UposTag=NUM|NumForm=Digit|NumType=Card">2003</w>
-                        <!--name-->
-                        <!--name ana="ne:or"-->
-                        <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p3.s1.w21"
-                           lemma="Sb"
-                           msd="UposTag=NOUN|Abbr=Yes|Gender=Fem|Polarity=Pos"
-                           join="right">Sb</w>
-                        <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p3.s1.w22"
-                            msd="UposTag=PUNCT"
-                            join="right">.</pc>
-                        <!--name-->
+                        <!--BEGIN date-->
+                        <name ana="ne:ty" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne46">
+                           <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p3.s1.w20"
+                              lemma="2003"
+                              msd="UposTag=NUM|NumForm=Digit|NumType=Card">2003</w>
+                        </name>
+                        <!--END date-->
+                        <name ana="ne:or" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne47">
+                           <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p3.s1.w21"
+                              lemma="Sb"
+                              msd="UposTag=NOUN|Abbr=Yes|Gender=Fem|Polarity=Pos"
+                              join="right">Sb</w>
+                           <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p3.s1.w22"
+                               msd="UposTag=PUNCT"
+                               join="right">.</pc>
+                        </name>
                         <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p3.s1.w23"
                             msd="UposTag=PUNCT">,</pc>
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p3.s1.w24"
@@ -2536,21 +2617,25 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p3.s1.w35"
                         lemma="tisk"
                         msd="UposTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos">tisku</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne48" type="MISC"><!--ana="ne:nb"-->
+                     <!--BEGIN num-->
+                     <name ana="ne:nb" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne48">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p3.s1.w36"
                            lemma="215"
                            msd="UposTag=NUM|NumForm=Digit|NumType=Card"
                            join="right">215</w>
                      </name>
+                     <!--END num-->
                      <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p3.s1.w37"
                          msd="UposTag=PUNCT"
                          join="right">/</pc>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne49" type="MISC"><!--ana="ne:nb"-->
+                     <!--BEGIN num-->
+                     <name ana="ne:nb" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne49">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p3.s1.w38"
                            lemma="3"
                            msd="UposTag=NUM|NumForm=Digit|NumType=Card"
                            join="right">3</w>
                      </name>
+                     <!--END num-->
                      <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p3.s1.w39"
                          msd="UposTag=PUNCT"
                          join="right">.</pc>
@@ -2913,7 +2998,9 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p5.s3.w3"
                         lemma="předseda"
                         msd="UposTag=NOUN|Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos">předsedu</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne50" type="PER"><!--ana="ne:ps"-->
+                     <name ana="ne:ps"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne50"
+                           type="PER">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u5.p5.s3.w4"
                            lemma="Sklenák"
                            msd="UposTag=PROPN|Animacy=Anim|Case=Acc|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos"
@@ -3177,7 +3264,9 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u7.p1.s2.w3"
                         lemma="chtít"
                         msd="UposTag=VERB|Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act">chtěli</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne51" type="ORG"><!--ana="ne:io"-->
+                     <name ana="ne:io"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne51"
+                           type="ORG">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u7.p1.s2.w4"
                            lemma="senát"
                            msd="UposTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos">Senát</w>
@@ -3277,7 +3366,9 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u7.p1.s3.w1"
                         lemma="pokud"
                         msd="UposTag=SCONJ">Pokud</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne52" type="ORG"><!--ana="ne:io"-->
+                     <name ana="ne:io"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne52"
+                           type="ORG">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u7.p1.s3.w2"
                            lemma="senát"
                            msd="UposTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos">Senát</w>
@@ -3309,7 +3400,9 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u7.p1.s3.w11"
                         lemma="zamítnutí"
                         msd="UposTag=NOUN|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos">zamítnutí</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne53" type="ORG"><!--ana="ne:io"-->
+                     <name ana="ne:io"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne53"
+                           type="ORG">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u7.p1.s3.w12"
                            lemma="senát"
                            msd="UposTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos"
@@ -3359,7 +3452,9 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u7.p1.s4.w3"
                         lemma="předseda"
                         msd="UposTag=NOUN|Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos">předseda</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne54" type="ORG"><!--ana="ne:ic"-->
+                     <name ana="ne:ic"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne54"
+                           type="ORG">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u7.p1.s4.w4"
                            lemma="Stanjur"
                            msd="UposTag=PROPN|Animacy=Anim|Case=Gen|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos"
@@ -3605,7 +3700,9 @@
                         join="right">přijali</w>
                      <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u8.p1.s5.w5"
                          msd="UposTag=PUNCT">,</pc>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne55" type="PER"><!--ana="ne:ps"-->
+                     <name ana="ne:ps"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne55"
+                           type="PER">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u8.p1.s5.w6"
                            lemma="senát"
                            msd="UposTag=NOUN|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos">Senát</w>
@@ -3653,7 +3750,9 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u8.p1.s6.w4"
                         lemma="přehlasovat"
                         msd="UposTag=VERB|Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act">přehlasovali</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne56" type="ORG"><!--ana="ne:io"-->
+                     <name ana="ne:io"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne56"
+                           type="ORG">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u8.p1.s6.w5"
                            lemma="senát"
                            msd="UposTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos"
@@ -3667,12 +3766,14 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u8.p1.s6.w8"
                         lemma="kvorum"
                         msd="UposTag=NOUN|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos">kvorum</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne57" type="MISC"><!--ana="ne:n_"-->
+                     <!--BEGIN num-->
+                     <name ana="ne:n_" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne57">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u8.p1.s6.w9"
                            lemma="101"
                            msd="UposTag=NUM|NumForm=Digit|NumType=Card"
                            join="right">101</w>
                      </name>
+                     <!--END num-->
                      <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u8.p1.s6.w10"
                          msd="UposTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
@@ -4117,7 +4218,9 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u8.p2.s4.w18"
                         lemma="v"
                         msd="UposTag=ADP|AdpType=Voc|Case=Loc">ve</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne58" type="ORG"><!--ana="ne:io"-->
+                     <name ana="ne:io"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne58"
+                           type="ORG">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u8.p2.s4.w19"
                            lemma="sněmovna"
                            msd="UposTag=NOUN|Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos"
@@ -4410,7 +4513,9 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u9.p1.s2.w9"
                         lemma="předseda"
                         msd="UposTag=NOUN|Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos">předseda</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne59" type="PER"><!--ana="ne:ps"-->
+                     <name ana="ne:ps"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne59"
+                           type="PER">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u9.p1.s2.w10"
                            lemma="Kalousek"
                            msd="UposTag=PROPN|Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos"
@@ -4950,7 +5055,9 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u10.p2.s2.w2"
                         lemma="poslanec"
                         msd="UposTag=NOUN|Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos">poslanec</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne60" type="PER"><!--ana="ne:ps"-->
+                     <name ana="ne:ps"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne60"
+                           type="PER">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u10.p2.s2.w3"
                            lemma="Sklenák"
                            msd="UposTag=PROPN|Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos">Sklenák</w>
@@ -5819,7 +5926,9 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u10.p2.s9.w8"
                         lemma="kdo"
                         msd="UposTag=PRON|Animacy=Anim|Case=Dat|Gender=Masc|PronType=Int,Rel">Komu</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne61" type="ORG"><!--ana="ne:io"-->
+                     <name ana="ne:io"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne61"
+                           type="ORG">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u10.p2.s9.w9"
                            lemma="senát"
                            msd="UposTag=NOUN|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos">Senát</w>
@@ -6044,7 +6153,9 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s1.w3"
                         lemma="předseda"
                         msd="UposTag=NOUN|Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos">předsedovi</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne62" type="PER"><!--ana="ne:ps"-->
+                     <name ana="ne:ps"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne62"
+                           type="PER">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s1.w4"
                            lemma="Kalousek"
                            msd="UposTag=PROPN|Animacy=Anim|Case=Dat|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos"
@@ -6143,7 +6254,9 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s3.w6"
                         lemma="jenž"
                         msd="UposTag=PRON|Case=Ins|Gender=Masc,Neut|Number=Sing|PrepCase=Npr|PronType=Rel">jímž</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne63" type="ORG"><!--ana="ne:io"-->
+                     <name ana="ne:io"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne63"
+                           type="ORG">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s3.w7"
                            lemma="senát"
                            msd="UposTag=NOUN|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos">Senát</w>
@@ -6206,21 +6319,25 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s4.w5"
                         lemma="tisk"
                         msd="UposTag=NOUN|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos">tisk</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne64" type="MISC"><!--ana="ne:n_"-->
+                     <!--BEGIN num-->
+                     <name ana="ne:n_" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne64">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s4.w6"
                            lemma="215"
                            msd="UposTag=NUM|NumForm=Digit|NumType=Card"
                            join="right">215</w>
                      </name>
+                     <!--END num-->
                      <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s4.w7"
                          msd="UposTag=PUNCT"
                          join="right">/</pc>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne65" type="MISC"><!--ana="ne:n_"-->
+                     <!--BEGIN num-->
+                     <name ana="ne:n_" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne65">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s4.w8"
                            lemma="4"
                            msd="UposTag=NUM|NumForm=Digit|NumType=Card"
                            join="right">4</w>
                      </name>
+                     <!--END num-->
                      <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s4.w9"
                          msd="UposTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
@@ -6251,7 +6368,9 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s5.w2"
                         lemma="chtít"
                         msd="UposTag=VERB|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act">chceme</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne66" type="ORG"><!--ana="ne:io"-->
+                     <name ana="ne:io"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne66"
+                           type="ORG">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s5.w3"
                            lemma="senát"
                            msd="UposTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos">Senát</w>
@@ -6277,27 +6396,33 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s5.w10"
                         lemma="tisk"
                         msd="UposTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos">tisk</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne67" type="MISC"><!--ana="ne:nb"-->
+                     <!--BEGIN num-->
+                     <name ana="ne:nb" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne67">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s5.w11"
                            lemma="215"
                            msd="UposTag=NUM|NumForm=Digit|NumType=Card"
                            join="right">215</w>
                      </name>
+                     <!--END num-->
                      <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s5.w12"
                          msd="UposTag=PUNCT"
                          join="right">/</pc>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne68" type="MISC"><!--ana="ne:nb"-->
+                     <!--BEGIN num-->
+                     <name ana="ne:nb" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne68">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s5.w13"
                            lemma="3"
                            msd="UposTag=NUM|NumForm=Digit|NumType=Card"
                            join="right">3</w>
                      </name>
+                     <!--END num-->
                      <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s5.w14"
                          msd="UposTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s5.w15"
                         lemma="který"
                         msd="UposTag=DET|Case=Ins|Gender=Masc,Neut|Number=Sing|PronType=Int,Rel">kterým</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne69" type="ORG"><!--ana="ne:io"-->
+                     <name ana="ne:io"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne69"
+                           type="ORG">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s5.w16"
                            lemma="sněmovna"
                            msd="UposTag=NOUN|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos">Sněmovna</w>
@@ -6364,7 +6489,9 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s6.w2"
                         lemma="chtít"
                         msd="UposTag=VERB|Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act">nechceme</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne70" type="ORG"><!--ana="ne:io"-->
+                     <name ana="ne:io"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne70"
+                           type="ORG">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s6.w3"
                            lemma="senát"
                            msd="UposTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos">Senát</w>
@@ -6532,7 +6659,9 @@
                      <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s8.w13"
                          msd="UposTag=PUNCT"
                          join="right">"</pc>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne71" type="ORG"><!--ana="ne:io"-->
+                     <name ana="ne:io"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne71"
+                           type="ORG">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s8.w14"
                            lemma="poslanecký"
                            msd="UposTag=ADJ|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos">Poslanecká</w>
@@ -6561,7 +6690,9 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s8.w22"
                         lemma="měnit"
                         msd="UposTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act">mění</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne72" type="MISC"><!--ana="ne:or"-->
+                     <name ana="ne:or"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne72"
+                           type="MISC">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s8.w23"
                            lemma="zákon"
                            msd="UposTag=NOUN|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos">zákon</w>
@@ -6571,29 +6702,33 @@
                            join="right">č</w>
                         <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s8.w25"
                             msd="UposTag=PUNCT">.</pc>
-                        <!--name ana="ne:n_"-->
-                        <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s8.w26"
-                           lemma="353"
-                           msd="UposTag=NUM|NumForm=Digit|NumType=Card"
-                           join="right">353</w>
-                        <!--name-->
+                        <!--BEGIN num-->
+                        <name ana="ne:n_" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne73">
+                           <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s8.w26"
+                              lemma="353"
+                              msd="UposTag=NUM|NumForm=Digit|NumType=Card"
+                              join="right">353</w>
+                        </name>
+                        <!--END num-->
                         <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s8.w27"
                             msd="UposTag=PUNCT"
                             join="right">/</pc>
-                        <!--name ana="ne:ty"-->
-                        <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s8.w28"
-                           lemma="2003"
-                           msd="UposTag=NUM|NumForm=Digit|NumType=Card">2003</w>
-                        <!--name-->
-                        <!--name ana="ne:or"-->
-                        <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s8.w29"
-                           lemma="Sb"
-                           msd="UposTag=NOUN|Abbr=Yes|Gender=Fem|Polarity=Pos"
-                           join="right">Sb</w>
-                        <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s8.w30"
-                            msd="UposTag=PUNCT"
-                            join="right">.</pc>
-                        <!--name-->
+                        <!--BEGIN date-->
+                        <name ana="ne:ty" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne74">
+                           <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s8.w28"
+                              lemma="2003"
+                              msd="UposTag=NUM|NumForm=Digit|NumType=Card">2003</w>
+                        </name>
+                        <!--END date-->
+                        <name ana="ne:or" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne75">
+                           <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s8.w29"
+                              lemma="Sb"
+                              msd="UposTag=NOUN|Abbr=Yes|Gender=Fem|Polarity=Pos"
+                              join="right">Sb</w>
+                           <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s8.w30"
+                               msd="UposTag=PUNCT"
+                               join="right">.</pc>
+                        </name>
                         <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s8.w31"
                             msd="UposTag=PUNCT">,</pc>
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s8.w32"
@@ -6633,21 +6768,25 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s8.w43"
                         lemma="tisk"
                         msd="UposTag=NOUN|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos">tisku</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne76" type="MISC"><!--ana="ne:nb"-->
+                     <!--BEGIN num-->
+                     <name ana="ne:nb" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne76">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s8.w44"
                            lemma="215"
                            msd="UposTag=NUM|NumForm=Digit|NumType=Card"
                            join="right">215</w>
                      </name>
+                     <!--END num-->
                      <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s8.w45"
                          msd="UposTag=PUNCT"
                          join="right">/</pc>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne77" type="MISC"><!--ana="ne:nb"-->
+                     <!--BEGIN num-->
+                     <name ana="ne:nb" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne77">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s8.w46"
                            lemma="3"
                            msd="UposTag=NUM|NumForm=Digit|NumType=Card"
                            join="right">3</w>
                      </name>
+                     <!--END num-->
                      <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p1.s8.w47"
                          msd="UposTag=PUNCT"
                          join="right">.</pc>
@@ -6830,7 +6969,9 @@
                            msd="UposTag=AUX|Mood=Cnd|Person=3|VerbForm=Fin"
                            norm="by"/>
                      </w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne78" type="ORG"><!--ana="ne:io"-->
+                     <name ana="ne:io"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne78"
+                           type="ORG">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p2.s2.w8"
                            lemma="sněmovna"
                            msd="UposTag=NOUN|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos">Sněmovna</w>
@@ -6971,22 +7112,26 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p3.s1.w4"
                         lemma="číslo"
                         msd="UposTag=NOUN|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos">číslo</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne79" type="MISC"><!--ana="ne:n_"-->
+                     <!--BEGIN num-->
+                     <name ana="ne:n_" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne79">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p3.s1.w5"
                            lemma="6"
                            msd="UposTag=NUM|NumForm=Digit|NumType=Card"
                            join="right">6</w>
                      </name>
+                     <!--END num-->
                      <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p3.s1.w6"
                          msd="UposTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p3.s1.w7"
                         lemma="přihlášený"
                         msd="UposTag=ADJ|Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass">přihlášeno</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne80" type="MISC"><!--ana="ne:nc"-->
+                     <!--BEGIN measure-->
+                     <name ana="ne:nc" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne80">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p3.s1.w8"
                            lemma="148"
                            msd="UposTag=NUM|NumForm=Digit|NumType=Card">148</w>
                      </name>
+                     <!--END measure-->
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p3.s1.w9"
                         lemma="poslankyně"
                         msd="UposTag=NOUN|Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos">poslankyň</w>
@@ -7002,23 +7147,27 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p3.s1.w13"
                         lemma="pro"
                         msd="UposTag=ADP|AdpType=Prep|Case=Acc">pro</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne81" type="MISC"><!--ana="ne:nc"-->
+                     <!--BEGIN measure-->
+                     <name ana="ne:nc" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne81">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p3.s1.w14"
                            lemma="13"
                            msd="UposTag=NUM|NumForm=Digit|NumType=Card"
                            join="right">13</w>
                      </name>
+                     <!--END measure-->
                      <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p3.s1.w15"
                          msd="UposTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p3.s1.w16"
                         lemma="proti"
                         msd="UposTag=ADP|AdpType=Prep|Case=Dat">proti</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne82" type="MISC"><!--ana="ne:nc"-->
+                     <!--BEGIN measure-->
+                     <name ana="ne:nc" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne82">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p3.s1.w17"
                            lemma="99"
                            msd="UposTag=NUM|NumForm=Digit|NumType=Card"
                            join="right">99</w>
                      </name>
+                     <!--END measure-->
                      <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p3.s1.w18"
                          msd="UposTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
@@ -7149,12 +7298,14 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p3.s4.w5"
                         lemma="číslo"
                         msd="UposTag=NOUN|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos">číslo</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne83" type="MISC"><!--ana="ne:n_"-->
+                     <!--BEGIN num-->
+                     <name ana="ne:n_" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne83">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p3.s4.w6"
                            lemma="2"
                            msd="UposTag=NUM|NumForm=Digit|NumType=Card"
                            join="right">2</w>
                      </name>
+                     <!--END num-->
                      <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u11.p3.s4.w7"
                          msd="UposTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
@@ -7934,7 +8085,8 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u15.p4.s1.w7"
                         lemma="bod"
                         msd="UposTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos">body</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne84" type="MISC"><!--ana="ne:no"-->
+                     <!--BEGIN num-->
+                     <name ana="ne:no" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne84">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u15.p4.s1.w8"
                            lemma="16"
                            msd="UposTag=NUM|NumForm=Digit|NumType=Card"
@@ -7942,10 +8094,13 @@
                         <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u15.p4.s1.w9"
                             msd="UposTag=PUNCT">.</pc>
                      </name>
+                     <!--END num-->
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u15.p4.s1.w10"
                         lemma="schůze"
                         msd="UposTag=NOUN|Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos">schůze</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne85" type="ORG"><!--ana="ne:io"-->
+                     <name ana="ne:io"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne85"
+                           type="ORG">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u15.p4.s1.w11"
                            lemma="poslanecký"
                            msd="UposTag=ADJ|Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos">Poslanecké</w>
@@ -8023,7 +8178,8 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u15.p5.s1.w2"
                         lemma="tedy"
                         msd="UposTag=ADV">tedy</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne86" type="MISC"><!--ana="ne:no"-->
+                     <!--BEGIN num-->
+                     <name ana="ne:no" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne86">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u15.p5.s1.w3"
                            lemma="16"
                            msd="UposTag=NUM|NumForm=Digit|NumType=Card"
@@ -8031,10 +8187,13 @@
                         <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u15.p5.s1.w4"
                             msd="UposTag=PUNCT">.</pc>
                      </name>
+                     <!--END num-->
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u15.p5.s1.w5"
                         lemma="schůze"
                         msd="UposTag=NOUN|Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos">schůzi</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne87" type="ORG"><!--ana="ne:io"-->
+                     <name ana="ne:io"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne87"
+                           type="ORG">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u15.p5.s1.w6"
                            lemma="poslanecký"
                            msd="UposTag=ADJ|Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos">Poslanecké</w>
@@ -8068,7 +8227,8 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u15.p5.s2.w1"
                         lemma="po"
                         msd="UposTag=ADP|AdpType=Prep|Case=Loc">Po</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne88" type="MISC"><!--ana="ne:no"-->
+                     <!--BEGIN num-->
+                     <name ana="ne:no" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne88">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u15.p5.s2.w2"
                            lemma="16"
                            msd="UposTag=NUM|NumForm=Digit|NumType=Card"
@@ -8076,10 +8236,13 @@
                         <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u15.p5.s2.w3"
                             msd="UposTag=PUNCT">.</pc>
                      </name>
+                     <!--END num-->
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u15.p5.s2.w4"
                         lemma="schůze"
                         msd="UposTag=NOUN|Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos">schůzi</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne89" type="ORG"><!--ana="ne:io"-->
+                     <name ana="ne:io"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne89"
+                           type="ORG">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u15.p5.s2.w5"
                            lemma="poslanecký"
                            msd="UposTag=ADJ|Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos">Poslanecké</w>
@@ -8093,7 +8256,8 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u15.p5.s2.w8"
                         lemma="následovat"
                         msd="UposTag=VERB|Aspect=Imp|Polarity=Pos|VerbForm=Inf">následovat</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne90" type="MISC"><!--ana="ne:no"-->
+                     <!--BEGIN num-->
+                     <name ana="ne:no" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne90">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u15.p5.s2.w9"
                            lemma="15"
                            msd="UposTag=NUM|NumForm=Digit|NumType=Card"
@@ -8101,10 +8265,13 @@
                         <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u15.p5.s2.w10"
                             msd="UposTag=PUNCT">.</pc>
                      </name>
+                     <!--END num-->
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u15.p5.s2.w11"
                         lemma="schůze"
                         msd="UposTag=NOUN|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos">schůze</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne91" type="ORG"><!--ana="ne:io"-->
+                     <name ana="ne:io"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne91"
+                           type="ORG">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u15.p5.s2.w12"
                            lemma="poslanecký"
                            msd="UposTag=ADJ|Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos">Poslanecké</w>
@@ -8151,18 +8318,21 @@
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u15.p5.s2.w26"
                         lemma="v"
                         msd="UposTag=ADP|AdpType=Voc|Case=Acc">ve</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne92" type="MISC"><!--ana="ne:th"-->
+                     <!--BEGIN time-->
+                     <name ana="ne:th" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne92">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u15.p5.s2.w27"
                            lemma="14.55"
                            msd="UposTag=NUM|NumForm=Digit|NumType=Card">14.55</w>
                      </name>
+                     <!--END time-->
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u15.p5.s2.w28"
                         lemma="hodina"
                         msd="UposTag=NOUN|Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos">hodin</w>
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u15.p5.s2.w29"
                         lemma="k"
                         msd="UposTag=ADP|AdpType=Prep|Case=Dat">k</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne93" type="MISC"><!--ana="ne:no"-->
+                     <!--BEGIN num-->
+                     <name ana="ne:no" xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne93">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u15.p5.s2.w30"
                            lemma="15"
                            msd="UposTag=NUM|NumForm=Digit|NumType=Card"
@@ -8170,10 +8340,13 @@
                         <pc xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u15.p5.s2.w31"
                             msd="UposTag=PUNCT">.</pc>
                      </name>
+                     <!--END num-->
                      <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u15.p5.s2.w32"
                         lemma="schůze"
                         msd="UposTag=NOUN|Case=Dat|Gender=Fem|Number=Sing|Polarity=Pos">schůzi</w>
-                     <name xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne94" type="ORG"><!--ana="ne:io"-->
+                     <name ana="ne:io"
+                           xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.ne94"
+                           type="ORG">
                         <w xml:id="ParlaMint-CZ_2014-09-10_ps2013-016-01-002-002.u15.p5.s2.w33"
                            lemma="poslanecký"
                            msd="UposTag=ADJ|Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos">Poslanecké</w>
