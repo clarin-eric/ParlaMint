@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:id="ParlaMint-BG_2014-10-29" xml:lang="bg">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     ana="#reference"
+     xml:id="ParlaMint-BG_2014-10-29"
+     xml:lang="bg">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -48,17 +51,15 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URL">https://github.com/clarin-eric/ParlaMint</idno>
-            <pubPlace><ref target="https://github.com/clarin-eric/ParlaMint">https://github.com/clarin-eric/ParlaMint</ref></pubPlace>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="bg">Този ресурс е лицензиран под лиценз:<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2021-02-04">2021-02-04</date>
+            <date when="2021-02-12">2021-02-12</date>
          </publicationStmt>
          <sourceDesc>
-            <bibl><title>Multilingual comparable corpora of parliamentary debates ParlaMint 1.0</title><idno type="handle">http://hdl.handle.net/11356/1388</idno></bibl>
             <bibl>
                <title type="main">Minutes of the National Assembly of the Republic of Bulgaria</title>
                <idno type="URI">https://parliament.bg/bg/plenaryst</idno>
@@ -68,9 +69,11 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="bg"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            <p xml:lang="bg">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
-            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
          </projectDesc>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
@@ -98,8 +101,9 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-02-04"><name>Tomaž Erjavec</name>: Made sample.</change>
-         <change when="2021-02-04">
+         <change when="2021-02-12">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2021-02-12">
             <name>Tomaž Erjavec</name>: Small fixes for Version 2.</change>
          <change when="2020-10-14">
             <name>Tomaž Erjavec</name>: Small fixes for ParlaMint.</change>
@@ -108,7 +112,10 @@
    <text ana="#reference" xml:lang="bg">
       <body>
          <div type="debateSection">
-            <u ana="#chair" n="93" who="#TsachevaTsetska" xml:id="ParlaMint-BG_2014-10-29.u1">
+            <u ana="#chair"
+               n="93"
+               who="#TsachevaTsetska"
+               xml:id="ParlaMint-BG_2014-10-29.u1">
                <seg xml:id="ParlaMint-BG_2014-10-29.seg1">Налице е кворум, откривам пленарното заседание.</seg>
                <kinesic type="ringing">
                   <desc>Звъни.</desc>
@@ -143,19 +150,30 @@
                <seg xml:id="ParlaMint-BG_2014-10-29.seg29">Решението да се обнародва в „Държавен вестник”.”</seg>
                <seg xml:id="ParlaMint-BG_2014-10-29.seg30">Моля да станем за полагане на клетва.</seg>
             </u>
-            <u ana="#regular" n="94" who="#DanevDobrin" xml:id="ParlaMint-BG_2014-10-29.u2">
+            <u ana="#regular"
+               n="94"
+               who="#DanevDobrin"
+               xml:id="ParlaMint-BG_2014-10-29.u2">
                <seg xml:id="ParlaMint-BG_2014-10-29.seg31">„Заклевам се в името на Република България да спазвам Конституцията и законите на страната и във всичките си действия да се ръководя от интересите на народа. Заклех се.”</seg>
                <kinesic type="applause">
                   <desc>Ръкопляскания.</desc>
                </kinesic>
             </u>
-            <gap reason="editorial"><desc xml:lang="en">SAMPLING</desc></gap>
-            <u ana="#regular" n="267" who="#NenkovMiroslav" xml:id="ParlaMint-BG_2014-10-29.u175">
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u ana="#regular"
+               n="267"
+               who="#NenkovMiroslav"
+               xml:id="ParlaMint-BG_2014-10-29.u175">
                <seg xml:id="ParlaMint-BG_2014-10-29.seg668">Много благодаря, ще бъда съвсем кратък.</seg>
                <seg xml:id="ParlaMint-BG_2014-10-29.seg669">Петвалентната ваксина – цената е около 43 лева, шествалентната ваксина на единия производител е 124 лева, а на другия – 73 лева. През 2012 г., когато изцяло е поета ваксинацията от Министерството на здравеопазването, са реализирани 180 хиляди дози на стойност около 8 млн. лв.</seg>
                <seg xml:id="ParlaMint-BG_2014-10-29.seg670">Ако, казвам „ако”, защото не е ясно, през 2015 г. бъдат ваксинирани нашите деца с шествалентна ваксина, Министерството на здравеопазването ще похарчи приблизително 11 млн. лв. Благодаря много.</seg>
             </u>
-            <u ana="#chair" n="268" who="#TsachevaTsetska" xml:id="ParlaMint-BG_2014-10-29.u176">
+            <u ana="#chair"
+               n="268"
+               who="#TsachevaTsetska"
+               xml:id="ParlaMint-BG_2014-10-29.u176">
                <seg xml:id="ParlaMint-BG_2014-10-29.seg671">Благодаря Ви, господин министър.</seg>
                <seg xml:id="ParlaMint-BG_2014-10-29.seg672">С това за днес изчерпваме дневния ред.</seg>
                <seg xml:id="ParlaMint-BG_2014-10-29.seg673">Утре, редовно пленарно заседание – в 9,00 ч.</seg>
