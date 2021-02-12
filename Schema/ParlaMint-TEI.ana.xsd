@@ -76,9 +76,10 @@
           </xs:restriction>
         </xs:simpleType>
       </xs:attribute>
+      <xs:attribute name="norm" type="xs:string"/>
       <xs:attribute name="msd" type="xs:string"/>
       <xs:attribute name="ana" type="ns1:anyURIs"/>
-      <xs:attribute name="norm" type="xs:string"/>
+      <xs:attribute name="pos" type="xs:string"/>
       <xs:attribute name="lemma" type="xs:string"/>
     </xs:complexType>
   </xs:element>
@@ -124,9 +125,10 @@
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
+    <xs:attribute name="norm" type="xs:string"/>
     <xs:attribute name="msd" use="required" type="xs:string"/>
     <xs:attribute name="ana" type="ns1:anyURIs"/>
-    <xs:attribute name="norm" type="xs:string"/>
+    <xs:attribute name="pos" type="xs:string"/>
   </xs:attributeGroup>
   <xs:attributeGroup name="word-optional.atts">
     <xs:attribute ref="xml:id"/>

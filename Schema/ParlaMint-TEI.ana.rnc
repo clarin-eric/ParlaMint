@@ -60,9 +60,10 @@ token.atts =
   id.att,
   lang.att,
   attribute join { "right" }?,
+  attribute norm { xsd:string }?,
   attribute msd { xsd:string },
   attribute ana { anyURIs }?,
-  attribute norm { xsd:string }?
+  attribute pos { xsd:string }?
 word-optional.atts =
   id.att?,
   lang.att,
