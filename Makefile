@@ -13,7 +13,7 @@ vra = $j Schema/ParlaMint-teiCorpus.ana.rng	# Corpus root / analysed
 vca = $j Schema/ParlaMint-TEI.ana.rng		# Corpus component / analysed
 
 # Check links for 1 language
-LANG = BG
+LANG = DK
 PREF = /project/corpora/Parla/ParlaMint/ParlaMint
 all-lang:	val-lang chars-lang
 xall-lang:	val-lang vert-lang chars-lang
@@ -33,6 +33,10 @@ val-lang:
 val-pc:
 	ls ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs ${pc}
 	ls ParlaMint-*/ParlaMint-*.xml | grep    '.ana.' | grep -v '_' | xargs ${pc}
+
+nohup:
+	nohup time make all > nohup.val &
+all:	val-all
 # ParlaMint validation
 val-all:
 	Scripts/validate-parlamint.pl Schema 'ParlaMint-*'
