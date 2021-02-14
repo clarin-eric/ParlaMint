@@ -18,7 +18,40 @@ include "ParlaMint-TEI.rnc" {
   seg = element seg { global.atts, (sentence | comment)+ }
 }
 sentence =
-  element s { global.atts, (comment | name | word | punct)+, syntax }
+  element s { global.atts, (comment | ner | word | punct)+, syntax }
+
+## NER-like elements, used by CZ
+ner =
+  
+  ## Standard name element
+  (name
+   | element date {
+       attribute ana { xsd:anyURI },
+       temporal.atts?,
+       tokens
+     }
+   | element time {
+       attribute ana { xsd:anyURI },
+       temporal.atts?,
+       tokens
+     }
+   | element num {
+       attribute ana { xsd:anyURI },
+       tokens
+     }
+   | element unit {
+       attribute ana { xsd:anyURI },
+       tokens
+     }
+   | element email {
+       attribute ana { xsd:anyURI },
+       tokens
+     }
+   | element ref {
+       attribute target { xsd:anyURI },
+       attribute ana { xsd:anyURI }?,
+       tokens
+     })
 name =
   element name {
     global.atts,
@@ -27,6 +60,7 @@ name =
     attribute subtype { xsd:token }?,
     (word | punct | name)+
   }
+tokens = (word | punct)+
 word =
   
   ## cf. https://clarin-eric.github.io/parla-clarin/#sec-ananorm

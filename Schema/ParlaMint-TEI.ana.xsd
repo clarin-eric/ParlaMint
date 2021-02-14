@@ -16,13 +16,84 @@
       <xs:sequence>
         <xs:choice maxOccurs="unbounded">
           <xs:element ref="ns1:comment"/>
-          <xs:group ref="ns1:name"/>
+          <xs:group ref="ns1:ner"/>
           <xs:element ref="ns1:w"/>
           <xs:element ref="ns1:pc"/>
         </xs:choice>
         <xs:element ref="ns1:linkGrp"/>
       </xs:sequence>
       <xs:attributeGroup ref="ns1:global.atts"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:group name="ner">
+    <xs:annotation>
+      <xs:documentation>NER-like elements, used by CZ</xs:documentation>
+    </xs:annotation>
+    <xs:choice>
+      <xs:annotation>
+        <xs:documentation>Standard name element</xs:documentation>
+      </xs:annotation>
+      <xs:group ref="ns1:name"/>
+      <xs:element name="date">
+        <xs:complexType>
+          <xs:complexContent>
+            <xs:extension base="ns1:tokens">
+              <xs:attribute name="ana" use="required" type="xs:anyURI"/>
+              <xs:attributeGroup ref="ns1:temporal.atts"/>
+            </xs:extension>
+          </xs:complexContent>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="time">
+        <xs:complexType>
+          <xs:complexContent>
+            <xs:extension base="ns1:tokens">
+              <xs:attribute name="ana" use="required" type="xs:anyURI"/>
+              <xs:attributeGroup ref="ns1:temporal.atts"/>
+            </xs:extension>
+          </xs:complexContent>
+        </xs:complexType>
+      </xs:element>
+      <xs:element ref="ns1:num"/>
+      <xs:element ref="ns1:unit"/>
+      <xs:element ref="ns1:email"/>
+      <xs:element name="ref">
+        <xs:complexType>
+          <xs:complexContent>
+            <xs:extension base="ns1:tokens">
+              <xs:attribute name="target" use="required" type="xs:anyURI"/>
+              <xs:attribute name="ana" type="xs:anyURI"/>
+            </xs:extension>
+          </xs:complexContent>
+        </xs:complexType>
+      </xs:element>
+    </xs:choice>
+  </xs:group>
+  <xs:element name="num">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="ns1:tokens">
+          <xs:attribute name="ana" use="required" type="xs:anyURI"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="unit">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="ns1:tokens">
+          <xs:attribute name="ana" use="required" type="xs:anyURI"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="email">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="ns1:tokens">
+          <xs:attribute name="ana" use="required" type="xs:anyURI"/>
+        </xs:extension>
+      </xs:complexContent>
     </xs:complexType>
   </xs:element>
   <xs:group name="name">
@@ -51,6 +122,12 @@
       </xs:element>
     </xs:sequence>
   </xs:group>
+  <xs:complexType name="tokens">
+    <xs:choice maxOccurs="unbounded">
+      <xs:element ref="ns1:w"/>
+      <xs:element ref="ns1:pc"/>
+    </xs:choice>
+  </xs:complexType>
   <xs:element name="w">
     <xs:annotation>
       <xs:documentation>cf. https://clarin-eric.github.io/parla-clarin/#sec-ananorm</xs:documentation>

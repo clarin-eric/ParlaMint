@@ -35,13 +35,69 @@
       <oneOrMore>
 	<choice>
           <ref name="comment"/>
-          <ref name="name"/>
+          <ref name="ner"/>
           <ref name="word"/>
           <ref name="punct"/>
 	</choice>
       </oneOrMore>
       <ref name="syntax"/>
     </element>
+  </define>
+
+  
+  <define name="ner">
+    <a:documentation>NER-like elements, used by CZ</a:documentation>
+    <choice>
+      <a:documentation>Standard name element</a:documentation>
+      <ref name="name"/>
+      <element name="date">
+	<attribute name="ana">
+	  <data type="anyURI"/>
+	</attribute>	
+	<optional>
+	  <ref name="temporal.atts"/>
+	</optional>
+        <ref name="tokens"/>
+      </element>
+      <element name="time">
+	<attribute name="ana">
+	  <data type="anyURI"/>
+	</attribute>
+	<optional>
+	  <ref name="temporal.atts"/>
+	</optional>
+        <ref name="tokens"/>
+      </element>
+      <element name="num">
+	<attribute name="ana">
+	  <data type="anyURI"/>
+	</attribute>
+        <ref name="tokens"/>
+      </element>
+      <element name="unit">
+	<attribute name="ana">
+	  <data type="anyURI"/>
+	</attribute>
+        <ref name="tokens"/>
+      </element>
+      <element name="email">
+	<attribute name="ana">
+	  <data type="anyURI"/>
+	</attribute>
+        <ref name="tokens"/>
+      </element>
+      <element name="ref">
+	<attribute name="target">
+	  <data type="anyURI"/>
+	</attribute>
+	<optional>
+	  <attribute name="ana">
+	    <data type="anyURI"/>
+	  </attribute>
+	</optional>
+        <ref name="tokens"/>
+      </element>
+    </choice>
   </define>
   
   <define name="name">
@@ -69,12 +125,21 @@
       </optional>
       <oneOrMore>
 	<choice>
-          <ref name="word"/>
-          <ref name="punct"/>
+	  <ref name="word"/>
+	  <ref name="punct"/>
           <ref name="name"/>
 	</choice>
       </oneOrMore>
     </element>
+  </define>
+  
+  <define name="tokens">
+    <oneOrMore>
+      <choice>
+	<ref name="word"/>
+	<ref name="punct"/>
+      </choice>
+    </oneOrMore>
   </define>
   
   <define name="word">
