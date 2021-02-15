@@ -27,14 +27,14 @@
   <xsl:template match="tei:teiCorpus">
     <xsl:if test="base-uri() = concat($id, '.xml')">
       <xsl:call-template name="error">
-	<xsl:with-param name="msg">Root ID does not match filename</xsl:with-param>
+	<xsl:with-param name="msg">teiCorpus/@xml:id does not match filename</xsl:with-param>
       </xsl:call-template>
     </xsl:if>
   </xsl:template>
   <xsl:template match="tei:TEI">
     <xsl:if test="base-uri() = concat($id, '.xml')">
       <xsl:call-template name="error">
-	<xsl:with-param name="msg">Root ID does not match filename</xsl:with-param>
+	<xsl:with-param name="msg">TEI/@xml:id does not match filename</xsl:with-param>
       </xsl:call-template>
     </xsl:if>
     <xsl:variable name="subcorpus-TEI">
@@ -49,9 +49,9 @@
 	<xsl:when test="contains(tei:text/@ana, '#covid')">covid</xsl:when>
       </xsl:choose>
     </xsl:variable>
-    <xsl:if test="not(normalize-space($subcorpus-text))">
+    <xsl:if test="not(normalize-space($subcorpus-TEI))">
       <xsl:call-template name="error">
-	<xsl:with-param name="msg">Root element should have #reference or #covid in @ana</xsl:with-param>
+	<xsl:with-param name="msg">TEI element should have #reference or #covid in @ana</xsl:with-param>
       </xsl:call-template>
     </xsl:if>
     <xsl:choose>
