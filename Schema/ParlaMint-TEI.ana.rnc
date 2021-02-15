@@ -4,7 +4,7 @@ namespace a = "http://relaxng.org/ns/compatibility/annotations/1.0"
 a:documentation [
   "Schema for ParlaMint linguistically annotatated TEI\x{a}" ~
   "  XML documents (components of the corpus).  It currently covers\x{a}" ~
-  "  sentences, tokens, lemmas, morphosyntactic tags, morphological feautures, \x{a}" ~
+  "  sentences, tokens, lemmas, morphosyntactic tags, morphological feautures,\x{a}" ~
   "  UD dependency relations, and named entities."
 ]
 
@@ -26,31 +26,37 @@ ner =
   ## Standard name element
   (name
    | element date {
+       global.atts,
        attribute ana { xsd:anyURI },
        temporal.atts?,
-       tokens
+       ner_tokens
      }
    | element time {
+       global.atts,
        attribute ana { xsd:anyURI },
        temporal.atts?,
-       tokens
+       ner_tokens
      }
    | element num {
+       global.atts,
        attribute ana { xsd:anyURI },
-       tokens
+       ner_tokens
      }
    | element unit {
+       global.atts,
        attribute ana { xsd:anyURI },
-       tokens
+       ner_tokens
      }
    | element email {
+       global.atts,
        attribute ana { xsd:anyURI },
-       tokens
+       ner_tokens
      }
    | element ref {
+       global.atts,
        attribute target { xsd:anyURI },
        attribute ana { xsd:anyURI }?,
-       tokens
+       ner_tokens
      })
 name =
   element name {
@@ -58,8 +64,9 @@ name =
     attribute ana { anyURIs }?,
     attribute type { "PER" | "LOC" | "ORG" | "MISC" }?,
     attribute subtype { xsd:token }?,
-    (word | punct | name)+
+    (word | punct | ner)+
   }
+ner_tokens = (word | punct | ner)+
 tokens = (word | punct)+
 word =
   
