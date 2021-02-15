@@ -47,7 +47,9 @@
     <!-- Output component file samples -->
     <xsl:variable name="inDir" select="replace(document-uri(/), '/[^/]+$', '')"/>
     <xsl:for-each select="$components/xi:include">
-      <xsl:result-document href="{$outDir}/{@href}" method="xml">
+      <!-- Get rid of subdirectories if in original -->
+      <xsl:variable name="href" select="replace(@href, '.+/', '')"/>
+      <xsl:result-document href="{$outDir}/{$href}" method="xml">
 	<xsl:apply-templates mode="component" select="document(concat($inDir, '/', @href))"/>
       </xsl:result-document>
     </xsl:for-each>
@@ -61,7 +63,9 @@
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
       <xsl:apply-templates select="tei:teiHeader"/>
-      <xsl:copy-of select="$components"/>
+      <xsl:for-each select="$components/xi:include">
+	<xi:include href="{replace(@href, '.+/', '')}"/>
+      </xsl:for-each>
     </xsl:copy>
   </xsl:template>
     
