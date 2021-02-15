@@ -23,36 +23,50 @@ foreach my $inDir (glob "$inDirs") {
     my @compFiles = ();
     my @compAnaFiles = ();
     foreach $inFile (glob "$inDir/*.xml") {
-	my ($fName) = $inFile =~ m|([^/]+)$|
-	    or die "Bad file '$inFile'!\n";
-	if    ($fName =~ m|ParlaMint-..\.xml|) {$rootFile = $inFile}
-	elsif ($fName =~ m|ParlaMint-..\.ana\.xml|) {$rootAnaFile = $inFile}
-	elsif ($fName =~ m|ParlaMint-.._.+\.ana\.xml|) {push(@compAnaFiles, $inFile)}
-	elsif ($fName =~ m|ParlaMint-.._.+\.xml|) {push(@compFiles, $inFile)}
-	else {die "Bad file '$fName' in '$inFile'!\n"}
+	if    ($inFile =~ m|ParlaMint-..\.xml|) {$rootFile = $inFile}
+	elsif ($inFile =~ m|ParlaMint-..\.ana\.xml|) {$rootAnaFile = $inFile}
     }
+    $/ = '>';
     if ($rootFile) {
 	&run("$Jing $schemaDir/ParlaMint-teiCorpus.rng", $rootFile);
-	foreach my $file (@compFiles) {
-	    &run("$Jing $schemaDir/ParlaMint-TEI.rng", $file);
-	    &run("$Saxon -xsl:$Val", $file);
-	    &run("$Saxon meta=$rootFile -xsl:$Links", $file);
+	&run("$Saxon -xsl:$Val", $rootFile);
+	&run("$Saxon -xsl:$Links", $rootFile);
+	open(IN, '<:utf8', $rootFile);
+	while (<IN>) {
+	    if (m|<xi:include |) {
+		m| href="(.+?)"|;
+		$file = "$inDir/$1";
+		if (-e $file) {
+		    &run("$Jing $schemaDir/ParlaMint-TEI.rng", $file);
+		    &run("$Saxon -xsl:$Val", $file);
+		    &run("$Saxon meta=$rootFile -xsl:$Links", $file);
+		}
+		else {print STDERR "ERROR: $rootFile XIncluded file $file does not exist!\n"}
+	    }
 	}
+	close IN;
     }
-    else {
-	print STDERR "WARN: Couldn't find root file in $inDir/*.xml\n"
-    }
+    else {print STDERR "WARN: No root file found in $inDir\n"}
     if ($rootAnaFile) {
 	&run("$Jing $schemaDir/ParlaMint-teiCorpus.ana.rng", $rootAnaFile);
-	foreach my $file (@compAnaFiles) {
-	    &run("$Jing $schemaDir/ParlaMint-TEI.ana.rng", $file);
-	    &run("$Saxon -xsl:$Val", $file);
-	    &run("$Saxon meta=$rootAnaFile -xsl:$Links", $file);
+	&run("$Saxon -xsl:$Val", $rootAnaFile);
+	&run("$Saxon -xsl:$Links", $rootAnaFile);
+	open(IN, '<:utf8', $rootAnaFile);
+	while (<IN>) {
+	    if (m|<xi:include |) {
+		m| href="(.+?)"|;
+		$file = "$inDir/$1";
+		if (-e $file) {
+		    &run("$Jing $schemaDir/ParlaMint-TEI.ana.rng", $file);
+		    &run("$Saxon -xsl:$Val", $file);
+		    &run("$Saxon meta=$rootAnaFile -xsl:$Links", $file);
+		}
+		else {print STDERR "ERROR: $rootFile XIncluded file $file does not exist!\n"}
+	    }
 	}
+	close IN;
     }
-    else {
-	print STDERR "WARN: Couldn't find ana root file in $inDir/*.xml\n"
-    }
+    else {print STDERR "WARN: No root .ana. file found in $inDir\n"}
 }
 
 sub run {
