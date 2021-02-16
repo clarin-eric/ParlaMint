@@ -44,101 +44,71 @@
     </element>
   </define>
 
-
   <define name="ner">
     <a:documentation>NER-like elements, used by CZ</a:documentation>
     <choice>
       <a:documentation>Standard name element</a:documentation>
-      <ref name="name"/>
+      <element name="name">
+	<ref name="global.atts"/>
+	<optional>
+	  <attribute name="ana">
+	    <data type="anyURI"/>
+	  </attribute>
+	</optional>
+	<optional>
+	  <attribute name="type">
+	    <choice>
+	      <value>PER</value>
+	      <value>LOC</value>
+	      <value>ORG</value>
+	      <value>MISC</value>
+	    </choice>
+	  </attribute>
+	</optional>
+	<optional>
+	  <attribute name="subtype">
+	    <data type="token"/>
+	  </attribute>
+	</optional>
+	<ref name="ner_tokens"/>
+      </element>
       <element name="date">
-        <ref name="global.atts"/>
-	<attribute name="ana">
-	  <data type="anyURI"/>
-	</attribute>
+	<ref name="ner.atts"/>
 	<optional>
 	  <ref name="temporal.atts"/>
 	</optional>
         <ref name="ner_tokens"/>
       </element>
       <element name="time">
-        <ref name="global.atts"/>
-	<attribute name="ana">
-	  <data type="anyURI"/>
-	</attribute>
-	<optional>
-	  <ref name="temporal.atts"/>
-	</optional>
+	<ref name="ner.atts"/>
         <ref name="ner_tokens"/>
       </element>
       <element name="num">
-        <ref name="global.atts"/>
-	<attribute name="ana">
-	  <data type="anyURI"/>
-	</attribute>
+	<ref name="ner.atts"/>
         <ref name="ner_tokens"/>
       </element>
       <element name="unit">
-        <ref name="global.atts"/>
-	<attribute name="ana">
-	  <data type="anyURI"/>
-	</attribute>
+	<ref name="ner.atts"/>
         <ref name="ner_tokens"/>
       </element>
       <element name="email">
-        <ref name="global.atts"/>
-	<attribute name="ana">
-	  <data type="anyURI"/>
-	</attribute>
+	<ref name="ner.atts"/>
         <ref name="ner_tokens"/>
       </element>
       <element name="ref">
-        <ref name="global.atts"/>
-	<attribute name="target">
-	  <data type="anyURI"/>
-	</attribute>
-	<optional>
-	  <attribute name="ana">
-	    <data type="anyURI"/>
-	  </attribute>
-	</optional>
+	<ref name="ner.atts"/>
         <ref name="ner_tokens"/>
       </element>
     </choice>
   </define>
 
-  <define name="name">
-    <element name="name">
-      <ref name="global.atts"/>
-      <optional>
-	<attribute name="ana">
-	  <ref name="anyURIs"/>
-	</attribute>
-      </optional>
-      <optional>
-	<attribute name="type">
-	  <choice>
-	    <value>PER</value>
-	    <value>LOC</value>
-	    <value>ORG</value>
-	    <value>MISC</value>
-	  </choice>
-	</attribute>
-      </optional>
-      <optional>
-	<attribute name="subtype">
-	  <data type="token"/>
-	</attribute>
-      </optional>
-      <oneOrMore>
-	<choice>
-	  <ref name="word"/>
-	  <ref name="punct"/>
-          <ref name="ner"/>
-	</choice>
-      </oneOrMore>
-    </element>
+  <define name="ner.atts">
+    <ref name="global.atts"/>
+    <attribute name="ana">
+      <data type="anyURI"/>
+    </attribute>
   </define>
-
+  
   <define name="ner_tokens">
     <oneOrMore>
       <choice>

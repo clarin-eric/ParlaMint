@@ -24,48 +24,22 @@ sentence =
 ner =
   
   ## Standard name element
-  (name
-   | element date {
-       global.atts,
-       attribute ana { xsd:anyURI },
-       temporal.atts?,
-       ner_tokens
-     }
-   | element time {
-       global.atts,
-       attribute ana { xsd:anyURI },
-       temporal.atts?,
-       ner_tokens
-     }
-   | element num {
-       global.atts,
-       attribute ana { xsd:anyURI },
-       ner_tokens
-     }
-   | element unit {
-       global.atts,
-       attribute ana { xsd:anyURI },
-       ner_tokens
-     }
-   | element email {
-       global.atts,
-       attribute ana { xsd:anyURI },
-       ner_tokens
-     }
-   | element ref {
-       global.atts,
-       attribute target { xsd:anyURI },
-       attribute ana { xsd:anyURI }?,
-       ner_tokens
-     })
-name =
-  element name {
-    global.atts,
-    attribute ana { anyURIs }?,
-    attribute type { "PER" | "LOC" | "ORG" | "MISC" }?,
-    attribute subtype { xsd:token }?,
-    (word | punct | ner)+
-  }
+  (element name {
+     global.atts,
+     attribute ana { xsd:anyURI }?,
+     attribute type { "PER" | "LOC" | "ORG" | "MISC" }?,
+     attribute subtype { xsd:token }?,
+     ner_tokens
+   }
+   | element date { ner.atts, temporal.atts?, ner_tokens }
+   | element time { ner.atts, ner_tokens }
+   | element num { ner.atts, ner_tokens }
+   | element unit { ner.atts, ner_tokens }
+   | element email { ner.atts, ner_tokens }
+   | element ref { ner.atts, ner_tokens })
+ner.atts =
+  global.atts,
+  attribute ana { xsd:anyURI }
 ner_tokens = (word | punct | ner)+
 tokens = (word | punct)+
 word =
