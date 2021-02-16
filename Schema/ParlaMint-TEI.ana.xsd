@@ -37,7 +37,8 @@
       <xs:element name="date">
         <xs:complexType>
           <xs:complexContent>
-            <xs:extension base="ns1:tokens">
+            <xs:extension base="ns1:ner_tokens">
+              <xs:attributeGroup ref="ns1:global.atts"/>
               <xs:attribute name="ana" use="required" type="xs:anyURI"/>
               <xs:attributeGroup ref="ns1:temporal.atts"/>
             </xs:extension>
@@ -47,7 +48,8 @@
       <xs:element name="time">
         <xs:complexType>
           <xs:complexContent>
-            <xs:extension base="ns1:tokens">
+            <xs:extension base="ns1:ner_tokens">
+              <xs:attributeGroup ref="ns1:global.atts"/>
               <xs:attribute name="ana" use="required" type="xs:anyURI"/>
               <xs:attributeGroup ref="ns1:temporal.atts"/>
             </xs:extension>
@@ -60,7 +62,8 @@
       <xs:element name="ref">
         <xs:complexType>
           <xs:complexContent>
-            <xs:extension base="ns1:tokens">
+            <xs:extension base="ns1:ner_tokens">
+              <xs:attributeGroup ref="ns1:global.atts"/>
               <xs:attribute name="target" use="required" type="xs:anyURI"/>
               <xs:attribute name="ana" type="xs:anyURI"/>
             </xs:extension>
@@ -72,7 +75,8 @@
   <xs:element name="num">
     <xs:complexType>
       <xs:complexContent>
-        <xs:extension base="ns1:tokens">
+        <xs:extension base="ns1:ner_tokens">
+          <xs:attributeGroup ref="ns1:global.atts"/>
           <xs:attribute name="ana" use="required" type="xs:anyURI"/>
         </xs:extension>
       </xs:complexContent>
@@ -81,7 +85,8 @@
   <xs:element name="unit">
     <xs:complexType>
       <xs:complexContent>
-        <xs:extension base="ns1:tokens">
+        <xs:extension base="ns1:ner_tokens">
+          <xs:attributeGroup ref="ns1:global.atts"/>
           <xs:attribute name="ana" use="required" type="xs:anyURI"/>
         </xs:extension>
       </xs:complexContent>
@@ -90,7 +95,8 @@
   <xs:element name="email">
     <xs:complexType>
       <xs:complexContent>
-        <xs:extension base="ns1:tokens">
+        <xs:extension base="ns1:ner_tokens">
+          <xs:attributeGroup ref="ns1:global.atts"/>
           <xs:attribute name="ana" use="required" type="xs:anyURI"/>
         </xs:extension>
       </xs:complexContent>
@@ -103,7 +109,7 @@
           <xs:choice maxOccurs="unbounded">
             <xs:element ref="ns1:w"/>
             <xs:element ref="ns1:pc"/>
-            <xs:group ref="ns1:name"/>
+            <xs:group ref="ns1:ner"/>
           </xs:choice>
           <xs:attributeGroup ref="ns1:global.atts"/>
           <xs:attribute name="ana" type="ns1:anyURIs"/>
@@ -122,12 +128,21 @@
       </xs:element>
     </xs:sequence>
   </xs:group>
-  <xs:complexType name="tokens">
+  <xs:complexType name="ner_tokens">
     <xs:choice maxOccurs="unbounded">
       <xs:element ref="ns1:w"/>
       <xs:element ref="ns1:pc"/>
+      <xs:group ref="ns1:ner"/>
     </xs:choice>
   </xs:complexType>
+  <xs:group name="tokens">
+    <xs:sequence>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element ref="ns1:w"/>
+        <xs:element ref="ns1:pc"/>
+      </xs:choice>
+    </xs:sequence>
+  </xs:group>
   <xs:element name="w">
     <xs:annotation>
       <xs:documentation>cf. https://clarin-eric.github.io/parla-clarin/#sec-ananorm</xs:documentation>
