@@ -13,10 +13,10 @@ vra = $j Schema/ParlaMint-teiCorpus.ana.rng	# Corpus root / analysed
 vca = $j Schema/ParlaMint-TEI.ana.rng		# Corpus component / analysed
 
 # Check links for 1 language
-LANG = BE
+LANG = CZ
 PREF = /project/corpora/Parla/ParlaMint/ParlaMint
-all-lang:	val-lang chars-lang
-xall-lang:	val-lang vert-lang chars-lang
+all-lang:	val-pc-lang val-lang chars-lang
+xall-lang:	val-pc-lang val-lang vert-lang chars-lang
 chars-lang:
 	nice find ParlaMint-${LANG}/ -name '*.xml' | \
 	$P --jobs 20 Scripts/chars.pl {} >> ParlaMint-${LANG}/chars-files-${LANG}.tbl
@@ -27,6 +27,9 @@ vert-lang:
 	'ParlaMint-${LANG}/*_*.xml' ParlaMint-${LANG}
 val-lang:
 	Scripts/validate-parlamint.pl Schema 'ParlaMint-${LANG}'
+val-pc-lang:
+	ls ParlaMint-${LANG}/ParlaMint-${LANG}.xml | xargs ${pc} 
+	ls ParlaMint-${LANG}/ParlaMint-${LANG}.ana.xml | xargs ${pc}
 
 # Validation for all corpora
 # Parla-CLARIN validation

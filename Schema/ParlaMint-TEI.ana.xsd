@@ -16,7 +16,7 @@
       <xs:sequence>
         <xs:choice maxOccurs="unbounded">
           <xs:element ref="ns1:comment"/>
-          <xs:group ref="ns1:name"/>
+          <xs:group ref="ns1:ner"/>
           <xs:element ref="ns1:w"/>
           <xs:element ref="ns1:pc"/>
         </xs:choice>
@@ -25,30 +25,112 @@
       <xs:attributeGroup ref="ns1:global.atts"/>
     </xs:complexType>
   </xs:element>
-  <xs:group name="name">
-    <xs:sequence>
+  <xs:group name="ner">
+    <xs:annotation>
+      <xs:documentation>NER-like elements, used by CZ</xs:documentation>
+    </xs:annotation>
+    <xs:choice>
+      <xs:annotation>
+        <xs:documentation>Standard name element</xs:documentation>
+      </xs:annotation>
       <xs:element name="name">
         <xs:complexType>
-          <xs:choice maxOccurs="unbounded">
-            <xs:element ref="ns1:w"/>
-            <xs:element ref="ns1:pc"/>
-            <xs:group ref="ns1:name"/>
-          </xs:choice>
-          <xs:attributeGroup ref="ns1:global.atts"/>
-          <xs:attribute name="ana" type="ns1:anyURIs"/>
-          <xs:attribute name="type">
-            <xs:simpleType>
-              <xs:restriction base="xs:token">
-                <xs:enumeration value="PER"/>
-                <xs:enumeration value="LOC"/>
-                <xs:enumeration value="ORG"/>
-                <xs:enumeration value="MISC"/>
-              </xs:restriction>
-            </xs:simpleType>
-          </xs:attribute>
-          <xs:attribute name="subtype" type="xs:token"/>
+          <xs:complexContent>
+            <xs:extension base="ns1:ner_tokens">
+              <xs:attributeGroup ref="ns1:global.atts"/>
+              <xs:attribute name="ana" type="xs:anyURI"/>
+              <xs:attribute name="type">
+                <xs:simpleType>
+                  <xs:restriction base="xs:token">
+                    <xs:enumeration value="PER"/>
+                    <xs:enumeration value="LOC"/>
+                    <xs:enumeration value="ORG"/>
+                    <xs:enumeration value="MISC"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:attribute>
+              <xs:attribute name="subtype" type="xs:token"/>
+            </xs:extension>
+          </xs:complexContent>
         </xs:complexType>
       </xs:element>
+      <xs:element name="date">
+        <xs:complexType>
+          <xs:complexContent>
+            <xs:extension base="ns1:ner_tokens">
+              <xs:attributeGroup ref="ns1:ner.atts"/>
+              <xs:attributeGroup ref="ns1:temporal.atts"/>
+            </xs:extension>
+          </xs:complexContent>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="time">
+        <xs:complexType>
+          <xs:complexContent>
+            <xs:extension base="ns1:ner_tokens">
+              <xs:attributeGroup ref="ns1:ner.atts"/>
+            </xs:extension>
+          </xs:complexContent>
+        </xs:complexType>
+      </xs:element>
+      <xs:element ref="ns1:num"/>
+      <xs:element ref="ns1:unit"/>
+      <xs:element ref="ns1:email"/>
+      <xs:element name="ref">
+        <xs:complexType>
+          <xs:complexContent>
+            <xs:extension base="ns1:ner_tokens">
+              <xs:attributeGroup ref="ns1:ner.atts"/>
+            </xs:extension>
+          </xs:complexContent>
+        </xs:complexType>
+      </xs:element>
+    </xs:choice>
+  </xs:group>
+  <xs:element name="num">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="ns1:ner_tokens">
+          <xs:attributeGroup ref="ns1:ner.atts"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="unit">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="ns1:ner_tokens">
+          <xs:attributeGroup ref="ns1:ner.atts"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="email">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="ns1:ner_tokens">
+          <xs:attributeGroup ref="ns1:ner.atts"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="ner.atts">
+    <xs:attributeGroup ref="ns1:global.atts"/>
+    <xs:attribute name="ana" use="required" type="xs:anyURI"/>
+  </xs:attributeGroup>
+  <xs:complexType name="ner_tokens">
+    <xs:choice maxOccurs="unbounded">
+      <xs:element ref="ns1:w"/>
+      <xs:element ref="ns1:pc"/>
+      <xs:group ref="ns1:ner"/>
+    </xs:choice>
+  </xs:complexType>
+  <xs:group name="tokens">
+    <xs:sequence>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element ref="ns1:w"/>
+        <xs:element ref="ns1:pc"/>
+      </xs:choice>
     </xs:sequence>
   </xs:group>
   <xs:element name="w">

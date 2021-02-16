@@ -4,12 +4,12 @@
 	 xmlns="http://relaxng.org/ns/structure/1.0"
 	 xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
 	 datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
-  
+
   <a:documentation>Schema for ParlaMint linguistically annotatated TEI
   XML documents (components of the corpus).  It currently covers
-  sentences, tokens, lemmas, morphosyntactic tags, morphological feautures, 
+  sentences, tokens, lemmas, morphosyntactic tags, morphological feautures,
   UD dependency relations, and named entities.</a:documentation>
-  
+
   <include href="ParlaMint-TEI.rng">
     <a:documentation>Most definitions taken from the schema of the
     unannotated corpus.</a:documentation>
@@ -28,14 +28,14 @@
       </element>
     </define>
   </include>
-  
+
   <define name="sentence">
     <element name="s">
       <ref name="global.atts"/>
       <oneOrMore>
 	<choice>
           <ref name="comment"/>
-          <ref name="name"/>
+          <ref name="ner"/>
           <ref name="word"/>
           <ref name="punct"/>
 	</choice>
@@ -43,40 +43,91 @@
       <ref name="syntax"/>
     </element>
   </define>
-  
-  <define name="name">
-    <element name="name">
-      <ref name="global.atts"/>
-      <optional>
-	<attribute name="ana">
-	  <ref name="anyURIs"/>
-	</attribute>
-      </optional>
-      <optional>
-	<attribute name="type">
-	  <choice>
-	    <value>PER</value>
-	    <value>LOC</value>
-	    <value>ORG</value>
-	    <value>MISC</value>
-	  </choice>
-	</attribute>
-      </optional>
-      <optional>
-	<attribute name="subtype">
-	  <data type="token"/>
-	</attribute>
-      </optional>
-      <oneOrMore>
-	<choice>
-          <ref name="word"/>
-          <ref name="punct"/>
-          <ref name="name"/>
-	</choice>
-      </oneOrMore>
-    </element>
+
+  <define name="ner">
+    <a:documentation>NER-like elements, used by CZ</a:documentation>
+    <choice>
+      <a:documentation>Standard name element</a:documentation>
+      <element name="name">
+	<ref name="global.atts"/>
+	<optional>
+	  <attribute name="ana">
+	    <data type="anyURI"/>
+	  </attribute>
+	</optional>
+	<optional>
+	  <attribute name="type">
+	    <choice>
+	      <value>PER</value>
+	      <value>LOC</value>
+	      <value>ORG</value>
+	      <value>MISC</value>
+	    </choice>
+	  </attribute>
+	</optional>
+	<optional>
+	  <attribute name="subtype">
+	    <data type="token"/>
+	  </attribute>
+	</optional>
+	<ref name="ner_tokens"/>
+      </element>
+      <element name="date">
+	<ref name="ner.atts"/>
+	<optional>
+	  <ref name="temporal.atts"/>
+	</optional>
+        <ref name="ner_tokens"/>
+      </element>
+      <element name="time">
+	<ref name="ner.atts"/>
+        <ref name="ner_tokens"/>
+      </element>
+      <element name="num">
+	<ref name="ner.atts"/>
+        <ref name="ner_tokens"/>
+      </element>
+      <element name="unit">
+	<ref name="ner.atts"/>
+        <ref name="ner_tokens"/>
+      </element>
+      <element name="email">
+	<ref name="ner.atts"/>
+        <ref name="ner_tokens"/>
+      </element>
+      <element name="ref">
+	<ref name="ner.atts"/>
+        <ref name="ner_tokens"/>
+      </element>
+    </choice>
+  </define>
+
+  <define name="ner.atts">
+    <ref name="global.atts"/>
+    <attribute name="ana">
+      <data type="anyURI"/>
+    </attribute>
   </define>
   
+  <define name="ner_tokens">
+    <oneOrMore>
+      <choice>
+        <ref name="word"/>
+        <ref name="punct"/>
+        <ref name="ner"/>
+      </choice>
+    </oneOrMore>
+  </define>
+
+  <define name="tokens">
+    <oneOrMore>
+      <choice>
+	<ref name="word"/>
+	<ref name="punct"/>
+      </choice>
+    </oneOrMore>
+  </define>
+
   <define name="word">
     <element name="w">
       <a:documentation>cf. https://clarin-eric.github.io/parla-clarin/#sec-ananorm</a:documentation>
@@ -110,14 +161,14 @@
       </choice>
     </element>
   </define>
-  
+
   <define name="punct">
     <element name="pc">
       <ref name="token.atts"/>
       <text/>
     </element>
   </define>
-  
+
   <define name="syntax">
     <element name="linkGrp">
       <attribute name="targFunc">
@@ -139,7 +190,7 @@
       </oneOrMore>
     </element>
   </define>
-  
+
   <define name="token.atts">
     <ref name="id.att"/>
     <ref name="lang.att"/>
@@ -167,7 +218,7 @@
       </attribute>
     </optional>
   </define>
-  
+
   <define name="word-optional.atts">
     <optional>
       <ref name="id.att"/>
@@ -194,7 +245,7 @@
       </attribute>
     </optional>
   </define>
-  
+
   <define name="word.atts">
     <ref name="token.atts"/>
     <attribute name="lemma">
