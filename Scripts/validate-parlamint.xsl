@@ -73,11 +73,11 @@
   <xsl:template match="tei:teiCorpus/tei:teiHeader//tei:title[@type = 'main'][@xml:lang='en']">
     <xsl:choose>
       <xsl:when test="$type = 'txt'">
-	<xsl:message>HAH</xsl:message>
 	<xsl:if test="not(matches(., 
-		      '[^ ]+ parliamentary corpus ParlaMint-.. \[ParlaMint( SAMPLE)?\]$'))">
+		      '[^ ]+ parliamentary corpus ParlaMint-.. \[ParlaMint( SAMPLE)?\]$', 
+		      'i'))">
 	  <xsl:call-template name="error">
-	    <xsl:with-param name="msg">Bad main corpus title</xsl:with-param>
+	    <xsl:with-param name="msg" select="concat('Bad main corpus title ', .)"/>
 	  </xsl:call-template>
 	</xsl:if>
       </xsl:when>
@@ -85,7 +85,7 @@
 	<xsl:if test="not(matches(. , 
 		      '[^ ]+ parliamentary corpus ParlaMint-.. \[ParlaMint\.ana( SAMPLE)?\]$'))">
 	  <xsl:call-template name="error">
-	    <xsl:with-param name="msg">Bad main corpus title</xsl:with-param>
+	    <xsl:with-param name="msg" select="concat('Bad main corpus title ', .)"/>
 	  </xsl:call-template>
 	</xsl:if>
       </xsl:when>
@@ -97,7 +97,7 @@
 	<xsl:if test="not(matches(., 
 		      '[^ ]+ parliamentary corpus ParlaMint-.., .+ \[ParlaMint( SAMPLE)?\]$'))">
 	  <xsl:call-template name="error">
-	    <xsl:with-param name="msg">Bad component corpus title</xsl:with-param>
+	    <xsl:with-param name="msg" select="concat('Bad component corpus title ', .)"/>
 	  </xsl:call-template>
 	</xsl:if>
       </xsl:when>
@@ -105,7 +105,7 @@
 	<xsl:if test="not(matches(., 
 		      '[^ ]+ parliamentary corpus ParlaMint-.., .+ \[ParlaMint\.ana( SAMPLE)?]$'))">
 	  <xsl:call-template name="error">
-	    <xsl:with-param name="msg">Bad component corpus title</xsl:with-param>
+	    <xsl:with-param name="msg" select="concat('Bad component corpus title ', .)"/>
 	  </xsl:call-template>
 	</xsl:if>
       </xsl:when>
@@ -242,7 +242,7 @@
     <xsl:call-template name="error">
       <xsl:with-param name="severity">WARN</xsl:with-param>
       <xsl:with-param name="msg">
-	<xsl:text>u without or with bad @who </xsl:text>
+	<xsl:text>Element u without or with bad @who </xsl:text>
 	<xsl:value-of select="@xml:id"/>
       </xsl:with-param>
     </xsl:call-template>
@@ -265,7 +265,7 @@
     <xsl:if test="not(matches(@who, '#[^ ]'))">
       <xsl:call-template name="error">
 	<xsl:with-param name="msg">
-	  <xsl:text>bad value for u/@who </xsl:text>
+	  <xsl:text>Bad value for u/@who </xsl:text>
 	  <xsl:value-of select="@who"/>
 	  <xsl:text> for </xsl:text>
 	  <xsl:value-of select="@xml:id"/>

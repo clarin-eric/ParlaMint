@@ -71,12 +71,12 @@
   <xsl:template match="@active | @adj | @adjFrom | @adjTo | @ana | @calendar | @change |
 		       @children | @class | @code | @copyOf | @corresp | @datcat | @datingMethod |
 		       @datingPoint | @decls | @domains | @edRef | @end | @exclude | @fVal |
-		       @facs | @feats | @filter | @follow | @from | @fromUnit | @given | @hand |
+		       @facs | @feats | @filter | @follow | @fromUnit | @given | @hand |
 		       @inst | @lemmaRef | @location | @mergedIn | @mutual | @new | @next | @nymRef |
 		       @origin | @parent | @parts | @passive | @perf | @period | @prev | @ref |
 		       @rendition | @require | @resp | @sameAs | @scheme | @scriptRef | @select |
-		       @since | @source | @spanTo | @start | @synch | @target | @targetEnd | @to |
-		       @toUnit | @toWhom | @unitRef | @uri | @url | @value | @valueDatcat | @where |
+		       @since | @source | @spanTo | @start | @synch | @target | @targetEnd | 
+		       @toUnit | @toWhom | @unitRef | @uri | @url | @valueDatcat | @where |
 		       @who | @wit">
     <xsl:variable name="message">
       <xsl:text>ERROR: Can't find local id for </xsl:text>
@@ -94,6 +94,7 @@
 	    <xsl:value-of select="concat('Info: link ', ., ' local ',$local-id)"/>
 	</xsl:message-->
 	<xsl:choose>
+	  <xsl:when test="not(normalize-space($local-id))"/>
 	  <xsl:when test="key('id', $local-id, $primary)"/>
 	  <xsl:when test="$teiHeader and key('id', $local-id, $teiHeader)"/>
 	  <xsl:otherwise>
@@ -107,33 +108,53 @@
   <xsl:function name="et:ref2id">
     <xsl:param name="ptr"/>
     <xsl:param name="listPrefix"/>
-    <xsl:variable name="prefix">
-      <xsl:variable name="p" select="substring-before($ptr, ':')"/>
-      <xsl:if test="not(matches($p, 'https?') or matches($p, 'mailto') or matches($p, 'ftps?'))">
-	<xsl:value-of select="$p"/>
-      </xsl:if>
-    </xsl:variable>
-    <xsl:variable name="prefixDef" select="$listPrefix//tei:prefixDef[@ident=$prefix]"/>
     <xsl:choose>
-      <xsl:when test="not(normalize-space($ptr) or $ptr = '#')">ThisIsNotOK!</xsl:when>
+      <!-- Empty pointer -->
+      <xsl:when test="not(normalize-space($ptr))">
+	<xsl:message>
+	  <xsl:text>ERROR: empty pointer</xsl:text>
+	</xsl:message>
+      </xsl:when>
+      <!-- Local pointer -->
       <xsl:when test="matches($ptr, '^#.+')">
 	<xsl:value-of select="substring-after($ptr, '#')"/>
       </xsl:when>
-      <xsl:when test="normalize-space($prefix) and not($prefixDef)">
+      <!-- URL, return nothing -->
+      <xsl:when test="matches($ptr, '^https?:') or matches($ptr, '^mailto:') 
+		      or matches($ptr, '^ftps?:')">
+      </xsl:when>
+      <!-- Extended TEI pointer -->
+      <xsl:when test="contains($ptr, ':')">
+	<xsl:variable name="prefix" select="substring-before($ptr, ':')"/>
+	<xsl:variable name="prefixDef" select="$listPrefix//tei:prefixDef[@ident=$prefix]"/>
+	<xsl:choose>
+	  <xsl:when test="not($prefixDef)">
+	    <xsl:message>
+	      <xsl:text>ERROR: extended pointer </xsl:text>
+	      <xsl:value-of select="$ptr"/>
+	      <xsl:text> but no prefixDef for prefix </xsl:text>
+	      <xsl:value-of select="$prefix"/>
+	      <xsl:text> found!</xsl:text>
+	    </xsl:message>
+	  </xsl:when>
+	  <xsl:otherwise>
+	    <xsl:variable name="id" select="substring-after($ptr, ':')"/>
+	    <xsl:variable name="xml-ptr"
+			  select="replace($id, $prefixDef/@matchPattern, $prefixDef/@replacementPattern)"/>
+	    <xsl:value-of select="et:ref2id($xml-ptr, $listPrefix)"/>
+	  </xsl:otherwise>
+	</xsl:choose>
+      </xsl:when>
+      <!-- Local filename with extension -->
+      <xsl:when test="matches($ptr, '\.....?$')"/>
+      <!-- Probably forgotten hash -->
+      <xsl:otherwise>
 	<xsl:message>
-	  <xsl:text>ERROR: extended pointer </xsl:text>
+	  <xsl:text>ERROR: strange pointer '</xsl:text>
 	  <xsl:value-of select="$ptr"/>
-	  <xsl:text> but no prefixDef for prefix </xsl:text>
-	  <xsl:value-of select="$prefix"/>
-	  <xsl:text> found!</xsl:text>
+	  <xsl:text>'</xsl:text>
 	</xsl:message>
-      </xsl:when>
-      <xsl:when test="normalize-space($prefix)">
-	<xsl:variable name="id" select="substring-after($ptr, ':')"/>
-	<xsl:variable name="xml-ptr"
-		      select="replace($id, $prefixDef/@matchPattern, $prefixDef/@replacementPattern)"/>
-	<xsl:value-of select="et:ref2id($xml-ptr, $listPrefix)"/>
-      </xsl:when>
+      </xsl:otherwise>
     </xsl:choose>
   </xsl:function>
 
