@@ -30,6 +30,7 @@
 	<xsl:with-param name="msg">teiCorpus/@xml:id does not match filename</xsl:with-param>
       </xsl:call-template>
     </xsl:if>
+    <xsl:apply-templates/>
   </xsl:template>
   <xsl:template match="tei:TEI">
     <xsl:if test="base-uri() = concat($id, '.xml')">
@@ -66,21 +67,23 @@
 	</xsl:call-template>
       </xsl:when>
     </xsl:choose>
+    <xsl:apply-templates/>
   </xsl:template>
     
   <xsl:template match="tei:teiCorpus/tei:teiHeader//tei:title[@type = 'main'][@xml:lang='en']">
     <xsl:choose>
-      <xsl:when test="$type = txt">
+      <xsl:when test="$type = 'txt'">
+	<xsl:message>HAH</xsl:message>
 	<xsl:if test="not(matches(., 
-		      '[^ ]+ parliamentary corpus ParlaMint-.. \[ParlaMint( SAMPLE)?]$'))">
+		      '[^ ]+ parliamentary corpus ParlaMint-.. \[ParlaMint( SAMPLE)?\]$'))">
 	  <xsl:call-template name="error">
 	    <xsl:with-param name="msg">Bad main corpus title</xsl:with-param>
 	  </xsl:call-template>
 	</xsl:if>
       </xsl:when>
-      <xsl:when test="$type = ana">
+      <xsl:when test="$type = 'ana'">
 	<xsl:if test="not(matches(. , 
-		      '[^ ]+ parliamentary corpus ParlaMint-.. \[ParlaMint\.ana( SAMPLE)?]$'))">
+		      '[^ ]+ parliamentary corpus ParlaMint-.. \[ParlaMint\.ana( SAMPLE)?\]$'))">
 	  <xsl:call-template name="error">
 	    <xsl:with-param name="msg">Bad main corpus title</xsl:with-param>
 	  </xsl:call-template>
@@ -90,15 +93,15 @@
   </xsl:template>
   <xsl:template match="tei:TEI/tei:teiHeader//tei:title[@type = 'main'][@xml:lang='en']">
     <xsl:choose>
-      <xsl:when test="$type = txt">
+      <xsl:when test="$type = 'txt'">
 	<xsl:if test="not(matches(., 
-		      '[^ ]+ parliamentary corpus ParlaMint-.., .+ \[ParlaMint( SAMPLE)?]$'))">
+		      '[^ ]+ parliamentary corpus ParlaMint-.., .+ \[ParlaMint( SAMPLE)?\]$'))">
 	  <xsl:call-template name="error">
 	    <xsl:with-param name="msg">Bad component corpus title</xsl:with-param>
 	  </xsl:call-template>
 	</xsl:if>
       </xsl:when>
-      <xsl:when test="$type = ana">
+      <xsl:when test="$type = 'ana'">
 	<xsl:if test="not(matches(., 
 		      '[^ ]+ parliamentary corpus ParlaMint-.., .+ \[ParlaMint\.ana( SAMPLE)?]$'))">
 	  <xsl:call-template name="error">
@@ -115,6 +118,7 @@
 	<xsl:with-param name="msg">No meeting elements in titleStmt</xsl:with-param>
       </xsl:call-template>
     </xsl:if>
+    <xsl:apply-templates/>
   </xsl:template>
   
   <xsl:template match="tei:extent">
@@ -191,6 +195,7 @@
 	</xsl:call-template>
       </xsl:if>
     </xsl:if>
+    <xsl:apply-templates/>
   </xsl:template>
   
   <xsl:template match="tei:listPrefixDef">
@@ -253,6 +258,7 @@
   </xsl:template>
 
   <xsl:template match="tei:text">
+    <xsl:apply-templates/>
   </xsl:template>
   
   <xsl:template match="tei:u[@who]">
