@@ -95,7 +95,7 @@
     <xsl:choose>
       <xsl:when test="$type = 'txt'">
 	<xsl:if test="not(matches(., 
-		      '[^ ]+ parliamentary corpus ParlaMint-.., .+ \[ParlaMint( SAMPLE)?\]$'))">
+		      '[^ ]+ parliamentary corpus ParlaMint-..,? .+ \[ParlaMint( SAMPLE)?\]$'))">
 	  <xsl:call-template name="error">
 	    <xsl:with-param name="msg" select="concat('Bad component corpus title ', .)"/>
 	  </xsl:call-template>
@@ -103,7 +103,7 @@
       </xsl:when>
       <xsl:when test="$type = 'ana'">
 	<xsl:if test="not(matches(., 
-		      '[^ ]+ parliamentary corpus ParlaMint-.., .+ \[ParlaMint\.ana( SAMPLE)?]$'))">
+		      '[^ ]+ parliamentary corpus ParlaMint-..,? .+ \[ParlaMint\.ana( SAMPLE)?]$'))">
 	  <xsl:call-template name="error">
 	    <xsl:with-param name="msg" select="concat('Bad component corpus title ', .)"/>
 	  </xsl:call-template>
@@ -278,12 +278,12 @@
     <xsl:if test="normalize-space(.)">
       <xsl:if test="not(preceding-sibling::tei:*) and matches(., '^ ')">
 	<xsl:call-template name="error">
-	  <xsl:with-param name="msg" select="concat('Leading space in ', .)"/>
+	  <xsl:with-param name="msg" select="concat('Leading space in ', ../name(), ': ', .)"/>
 	</xsl:call-template>
       </xsl:if>
       <xsl:if test="not(following-sibling::tei:*) and matches(., ' $')">
 	<xsl:call-template name="error">
-	  <xsl:with-param name="msg" select="concat('Trailing space in ', .)"/>
+	  <xsl:with-param name="msg" select="concat('Trailing space in ', ../name(), ': ', .)"/>
 	</xsl:call-template>
       </xsl:if>
     </xsl:if>
