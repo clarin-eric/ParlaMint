@@ -12,10 +12,10 @@
   
   <xsl:variable name="type">
     <xsl:choose>
-      <xsl:when test="matches(base-uri(), 'ParlaMint-..\.xml$')">txt</xsl:when>
-      <xsl:when test="matches(base-uri(), 'ParlaMint-.._.+\.xml$')">txt</xsl:when>
       <xsl:when test="matches(base-uri(), 'ParlaMint-..\.ana\.xml$')">ana</xsl:when>
       <xsl:when test="matches(base-uri(), 'ParlaMint-.._.+\.ana\.xml$')">ana</xsl:when>
+      <xsl:when test="matches(base-uri(), 'ParlaMint-..\.xml$')">txt</xsl:when>
+      <xsl:when test="matches(base-uri(), 'ParlaMint-.._.+\.xml$')">txt</xsl:when>
       <xsl:otherwise>
 	<xsl:call-template name="error">
 	  <xsl:with-param name="msg">Bad filename</xsl:with-param>
@@ -97,15 +97,15 @@
 	<xsl:if test="not(matches(., 
 		      '[^ ]+ parliamentary corpus ParlaMint-..,? .+ \[ParlaMint( SAMPLE)?\]$'))">
 	  <xsl:call-template name="error">
-	    <xsl:with-param name="msg" select="concat('Bad component corpus title ', .)"/>
+	    <xsl:with-param name="msg" select="concat('Bad txt component corpus title ', .)"/>
 	  </xsl:call-template>
 	</xsl:if>
       </xsl:when>
       <xsl:when test="$type = 'ana'">
 	<xsl:if test="not(matches(., 
-		      '[^ ]+ parliamentary corpus ParlaMint-..,? .+ \[ParlaMint\.ana( SAMPLE)?]$'))">
+		      '[^ ]+ parliamentary corpus ParlaMint-..,? .+ \[ParlaMint\.ana( SAMPLE)?\]$'))">
 	  <xsl:call-template name="error">
-	    <xsl:with-param name="msg" select="concat('Bad component corpus title ', .)"/>
+	    <xsl:with-param name="msg" select="concat('Bad ana component corpus title ', .)"/>
 	  </xsl:call-template>
 	</xsl:if>
       </xsl:when>
