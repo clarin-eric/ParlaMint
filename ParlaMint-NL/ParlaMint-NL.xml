@@ -40,10 +40,10 @@
             </pubPlace>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
-               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-02-10">2021-02-10</date>
+            <date when="2021-02-22">2021-02-22</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -93,7 +93,7 @@
                <tagUsage gi="seg" occurs="714859"/>
                <tagUsage gi="text" occurs="5197"/>
                <tagUsage gi="u" occurs="474964"/>
-               <tagUsage gi="note" occurs="192169"/>
+               <tagUsage gi="note" occurs="191113"/>
             </namespace>
          </tagsDecl>
          <classDecl>
@@ -101,6 +101,31 @@
                <desc xml:lang="en">
                   <term>Legislature</term>
                </desc>
+               <category xml:id="parla.geo-political">
+                  <catDesc xml:lang="en">
+                     <term>Geo-political or administrative units</term>
+                  </catDesc>
+                  <category xml:id="parla.supranational">
+                     <catDesc xml:lang="en">
+                        <term>Supranational legislature</term>
+                     </catDesc>
+                  </category>
+                  <category xml:id="parla.national">
+                     <catDesc xml:lang="en">
+                        <term>National legislature</term>
+                     </catDesc>
+                  </category>
+                  <category xml:id="parla.regional">
+                     <catDesc xml:lang="en">
+                        <term>Regional legislature</term>
+                     </catDesc>
+                  </category>
+                  <category xml:id="parla.local">
+                     <catDesc xml:lang="en">
+                        <term>Local legislature</term>
+                     </catDesc>
+                  </category>
+               </category>
                <category xml:id="parla.organization">
                   <catDesc xml:lang="en">
                      <term>Organization</term>
@@ -408,33 +433,43 @@
                </org>
                <org role="politicalParty" xml:id="party.GroepKuzu-Öztürk">
                   <orgName full="yes">Groep Kuzu/Öztürk</orgName>
+                  <orgName full="init">GKÖ</orgName>
                </org>
                <org role="politicalParty" xml:id="party.VanVliet">
-                  <orgName full="yes">Van Vliet</orgName>
+                  <orgName full="yes">Fractie Van Vliet</orgName>
+                  <orgName full="init">Van Vliet</orgName>
                </org>
                <org role="politicalParty" xml:id="party.GroepBontes-VanKlaveren">
-                  <orgName full="yes">Groep Bontes/Van Klaveren </orgName>
+                  <orgName full="yes">Groep Bontes/Van Klaveren</orgName>
+                  <orgName full="init">Bontes/Van Klaveren</orgName>
                </org>
                <org role="politicalParty" xml:id="party.Houwers">
-                  <orgName full="yes">Houwers</orgName>
+                  <orgName full="yes">Fractie Houwers</orgName>
+                  <orgName full="init">Houwers</orgName>
                </org>
                <org role="politicalParty" xml:id="party.DeLange">
-                  <orgName full="yes">De Lange</orgName>
+                  <orgName full="yes">Fractie De Lange</orgName>
+                  <orgName full="init">De Lange</orgName>
                </org>
                <org role="politicalParty" xml:id="party.Monasch">
-                  <orgName full="yes">Monasch</orgName>
+                  <orgName full="yes">Fractie Monasch</orgName>
+                  <orgName full="init">Monasch</orgName>
                </org>
                <org role="politicalParty" xml:id="party.Klein">
-                  <orgName full="yes">Klein</orgName>
+                  <orgName full="yes">Fractie Klein</orgName>
+                  <orgName full="init">Klein</orgName>
                </org>
                <org role="politicalParty" xml:id="party.Bontes">
-                  <orgName full="yes">Bontes</orgName>
+                  <orgName full="yes">Fractie Bontes</orgName>
+                  <orgName full="init">Bontes</orgName>
                </org>
                <org role="politicalParty" xml:id="party.DENK">
                   <orgName full="yes">DENK</orgName>
+                  <orgName full="init">DENK</orgName>
                </org>
                <org role="politicalParty" xml:id="party.VanHaga">
-                  <orgName full="yes">Van Haga</orgName>
+                  <orgName full="yes">Fractie Van Haga</orgName>
+                  <orgName full="init">Van Haga</orgName>
                </org>
                <org role="politicalParty" xml:id="party.FvD">
                   <orgName full="yes">Forum voor Democratie</orgName>
@@ -453,10 +488,16 @@
                   <orgName full="init">GKVK</orgName>
                </org>
                <org role="politicalParty" xml:id="party.VanKooten-Arissen">
-                  <orgName full="yes">Van Kooten-Arissen</orgName>
+                  <orgName full="yes">Fractie Van Kooten-Arissen</orgName>
+                  <orgName full="init">Van Kooten-Arissen</orgName>
                </org>
                <org role="politicalParty" xml:id="party.Krol">
-                  <orgName full="yes">Krol</orgName>
+                  <orgName full="yes">Fractie Krol</orgName>
+                  <orgName full="init">Krol</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.NieuweWegen">
+                  <orgName full="yes">Partij Nieuwe Wegen</orgName>
+                  <orgName full="init">Nieuwe Wegen</orgName>
                </org>
                <listRelation>
                   <relation name="coalition"
@@ -465,12 +506,12 @@
                             to="2017-03-14"
                             ana="#GOV.28"/>
                   <relation name="opposition"
-                            mutual="#party.PVV #party.SP #party.CDA #party.D66 #party.CU #party.GroenLinks #party.SGP #party.PvdD #party.50PLUS"
+                            mutual="#party.PVV #party.SP #party.CDA #party.D66 #party.ChristenUnie #party.GroenLinks #party.SGP #party.PvdD #party.50PLUS"
                             from="2012-11-05"
                             to="2017-03-14"
                             ana="#GOV.28"/>
                   <relation name="coalition"
-                            mutual="#party.CDA #party.VVD #party.CU #party.D66"
+                            mutual="#party.CDA #party.VVD #party.ChristenUnie #party.D66"
                             from="2017-10-26"
                             to="2021-01-15"
                             ana="#GOV.29"/>
@@ -1603,7 +1644,7 @@
                   <sex value="M">man</sex>
                   <affiliation role="member" ref="#party.DENK" from="2015-02-09"/>
                   <affiliation role="member"
-                               ref="#party.Groep Kuzu-Öztürk"
+                               ref="#party.GroepKuzu-Öztürk"
                                from="2014-11-14"
                                to="2017-03-23"/>
                   <affiliation role="MP"/>
@@ -1697,7 +1738,7 @@
                      <forename>Roland</forename>
                   </persName>
                   <sex value="M">man</sex>
-                  <affiliation role="member" ref="#party.Van Vliet"/>
+                  <affiliation role="member" ref="#party.VanVliet"/>
                   <affiliation role="MP"/>
                </person>
                <person n="131" xml:id="EstherOuwehand">
@@ -1715,7 +1756,7 @@
                      <forename>Joram</forename>
                   </persName>
                   <sex value="M">man</sex>
-                  <affiliation role="member" ref="#party.Groep Bontes/Van Klaveren"/>
+                  <affiliation role="member" ref="#party.GroepBontes-VanKlaveren"/>
                   <affiliation role="MP"/>
                </person>
                <person n="133" xml:id="JesseKlaver">
@@ -1924,7 +1965,7 @@
                   <sex value="M">man</sex>
                   <affiliation role="member" ref="#party.DENK" from="2015-02-09"/>
                   <affiliation role="member"
-                               ref="#party.Groep Kuzu-Öztürk"
+                               ref="#party.GroepKuzu-Öztürk"
                                from="2014-11-14"
                                to="2017-03-23"/>
                   <affiliation role="MP"/>
@@ -2230,7 +2271,7 @@
                      <forename>Louis</forename>
                   </persName>
                   <sex value="M">man</sex>
-                  <affiliation role="member" ref="#party.Groep Bontes/Van Klaveren"/>
+                  <affiliation role="member" ref="#party.GroepBontes-VanKlaveren"/>
                   <affiliation role="MP"/>
                </person>
                <person n="187" xml:id="HarryvanBommel">
@@ -2536,8 +2577,6 @@
                      <forename>Jacqueline</forename>
                   </persName>
                   <sex value="F">vrouw</sex>
-                  <affiliation role="member" ref="#party.Griffier"/>
-                  <affiliation role="MP"/>
                </person>
                <person n="219" xml:id="AngelienEijsink">
                   <persName>
@@ -3063,7 +3102,7 @@
                      <forename>Hans</forename>
                   </persName>
                   <sex value="M">man</sex>
-                  <affiliation role="member" ref="#party.EP/VVD" from="1999-09-28"/>
+                  <affiliation role="member" ref="#party.VVD" from="1999-09-28"/>
                   <affiliation role="MP"/>
                </person>
                <person n="274" xml:id="PaulTang">
@@ -3072,7 +3111,7 @@
                      <forename>Paul</forename>
                   </persName>
                   <sex value="M">man</sex>
-                  <affiliation role="member" ref="#party.EP/PvdA"/>
+                  <affiliation role="member" ref="#party.PvdA"/>
                   <affiliation role="MP"/>
                </person>
                <person n="275" xml:id="DennisdeJong">
@@ -3081,7 +3120,7 @@
                      <forename>Dennis</forename>
                   </persName>
                   <sex value="M">man</sex>
-                  <affiliation role="member" ref="#party.EP/SP"/>
+                  <affiliation role="member" ref="#party.SP"/>
                   <affiliation role="MP"/>
                </person>
                <person n="276" xml:id="JeroenLenaers">
@@ -3090,7 +3129,7 @@
                      <forename>Jeroen</forename>
                   </persName>
                   <sex value="M">man</sex>
-                  <affiliation role="member" ref="#party.EP/CDA"/>
+                  <affiliation role="member" ref="#party.CDA"/>
                   <affiliation role="MP"/>
                </person>
                <person n="277" xml:id="SophieintVeld">
@@ -3099,7 +3138,7 @@
                      <forename>Sophie</forename>
                   </persName>
                   <sex value="F">vrouw</sex>
-                  <affiliation role="member" ref="#party.EP/D66"/>
+                  <affiliation role="member" ref="#party.D66"/>
                   <affiliation role="MP"/>
                </person>
                <person n="278" xml:id="BasEickhout">
@@ -3108,7 +3147,7 @@
                      <forename>Bas</forename>
                   </persName>
                   <sex value="M">man</sex>
-                  <affiliation role="member" ref="#party.EP/GroenLinks"/>
+                  <affiliation role="member" ref="#party.GroenLinks"/>
                   <affiliation role="MP"/>
                </person>
                <person n="279" xml:id="PetervanDalen">
@@ -3117,7 +3156,7 @@
                      <forename>Peter</forename>
                   </persName>
                   <sex value="M">man</sex>
-                  <affiliation role="member" ref="#party.EP/CU/SGP"/>
+                  <affiliation role="member" ref="#party.ChristenUnie"/>
                   <affiliation role="MP"/>
                </person>
                <person n="280" xml:id="AnjaHazekamp">
@@ -3126,7 +3165,7 @@
                      <forename>Anja</forename>
                   </persName>
                   <sex value="F">vrouw</sex>
-                  <affiliation role="member" ref="#party.EP/PvdD"/>
+                  <affiliation role="member" ref="#party.PvdD"/>
                   <affiliation role="MP"/>
                </person>
                <person n="281" xml:id="Gerben-JanGerbrandy">
@@ -3135,7 +3174,7 @@
                      <forename>Gerben-Jan</forename>
                   </persName>
                   <sex value="M">man</sex>
-                  <affiliation role="member" ref="#party.EP/D66"/>
+                  <affiliation role="member" ref="#party.D66"/>
                   <affiliation role="MP"/>
                </person>
                <person n="282" xml:id="RonaldVuijk">
@@ -3934,7 +3973,7 @@
                      <forename>Esther</forename>
                   </persName>
                   <sex value="F">vrouw</sex>
-                  <affiliation role="member" ref="#party.EP/CDA"/>
+                  <affiliation role="member" ref="#party.CDA"/>
                   <affiliation role="MP"/>
                </person>
                <person n="372" xml:id="VickyMaeijer">
@@ -4405,7 +4444,7 @@
                                from="1982-01-01"
                                to="2019-10-01"/>
                   <affiliation role="member"
-                               ref="#party.Van Haga"
+                               ref="#party.VanHaga"
                                from="2019-09-24"
                                to="2020-12-01"/>
                   <affiliation role="MP"/>
@@ -4488,8 +4527,6 @@
                      <forename>Remco</forename>
                   </persName>
                   <sex value="M">man</sex>
-                  <affiliation role="member" ref="#party.Griffier"/>
-                  <affiliation role="MP"/>
                </person>
                <person n="432" xml:id="FerdCrone">
                   <persName>
@@ -4821,14 +4858,14 @@
                                from="2003-01-01"
                                to="2019-07-16"/>
                   <affiliation role="member"
-                               ref="#party.vKa"
+                               ref="#party.vKA"
                                from="2019-07-16"
                                to="2020-05-06"/>
                   <affiliation role="member"
                                ref="#party.GKVK"
                                from="2019-07-16"
                                to="2020-08-08"/>
-                  <affiliation role="member" ref="#party.Van Kooten-Arissen" from="2020-08-08"/>
+                  <affiliation role="member" ref="#party.VanKooten-Arissen" from="2020-08-08"/>
                   <affiliation role="MP"/>
                </person>
                <person n="470" xml:id="EvavanEsch">
