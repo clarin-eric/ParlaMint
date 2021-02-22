@@ -40,7 +40,7 @@ ner =
 ner.atts =
   global.atts,
   attribute ana { xsd:anyURI }
-ner_tokens = (word | punct | ner)+
+ner_tokens = (word | punct | ner | comment)+
 tokens = (word | punct)+
 word =
   
