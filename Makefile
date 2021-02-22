@@ -13,7 +13,7 @@ vra = $j Schema/ParlaMint-teiCorpus.ana.rng	# Corpus root / analysed
 vca = $j Schema/ParlaMint-TEI.ana.rng		# Corpus component / analysed
 
 # Check links for 1 language
-LANG = CZ
+LANG = SI
 PREF = /project/corpora/Parla/ParlaMint/ParlaMint
 all-lang:	val-pc-lang val-lang chars-lang
 xall-lang:	val-pc-lang val-lang vert-lang chars-lang
