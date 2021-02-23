@@ -2,10 +2,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main" xml:lang="nl">Belgian parliamentary corpus ParlaMint-BE [ParlaMint]</title>
-                <title type="main" xml:lang="en">Belgisch parlementair corpus ParlaMint-BE [ParlaMint]</title>
-                <title type="sub" xml:lang="nl">Belgisch Federaal Parlement: Plenaire zittingen en commissievergaderingen (2015-2020)</title>
+                <title type="main" xml:lang="en">Belgian parliamentary corpus ParlaMint-BE [ParlaMint]</title>
+                <title type="main" xml:lang="nl">Belgisch parlementair corpus ParlaMint-BE [ParlaMint]</title>
                 <title type="sub" xml:lang="en">Belgian Federal Parliament: Plenary sessions and committee meetings (2015-2020)</title>
+                <title type="sub" xml:lang="nl">Belgisch Federaal Parlement: Plenaire zittingen en commissievergaderingen (2015-2020)</title>
                 <meeting n="54" ana="#parla.lower #parla.term">54-ste zittingsperiode</meeting>
                 <meeting n="55" ana="#parla.lower #parla.term">55-ste zittingsperiode</meeting>
                 <respStmt>
@@ -13,6 +13,11 @@
                     <persName>Griet Depoorter</persName>
                     <resp xml:lang="nl">Datavergaring en conversie naar TEI</resp>
                     <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Jesse de Does</persName>
+                    <resp xml:lang="nl">Taalkundige verrijking</resp>
+                    <resp xml:lang="en">Linguistic annotation</resp>
                 </respStmt>
                 <funder>
                     <orgName xml:lang="nl">De CLARIN-onderzoeksinfrastructuur</orgName>
@@ -31,10 +36,10 @@
                 <edition>1.0</edition>
             </editionStmt>
             <extent>
-                <measure unit="speeches" quantity="844" xml:lang="en">844 speeches</measure>
-                <measure unit="speeches" quantity="844" xml:lang="nl">844 spreekbeurten</measure>
-                <measure unit="words" quantity="174034" xml:lang="en">174034 words</measure>
-                <measure unit="words" quantity="174034" xml:lang="nl">174034 woorden</measure>
+                <measure unit="speeches" quantity="639" xml:lang="en">639 speeches</measure>
+                <measure unit="speeches" quantity="639" xml:lang="nl">639 spreekbeurten</measure>
+                <measure unit="words" quantity="118704" xml:lang="en">118704 words</measure>
+                <measure unit="words" quantity="118704" xml:lang="nl">118704 woorden</measure>
             </extent>
             <publicationStmt>
                 <publisher>
@@ -65,21 +70,21 @@
                     <title type="main" xml:lang="en">Belgian Federal Parliament: Plenary sessions</title>
                     <publisher>Kamer van volksvertegenwoordigers</publisher>
                     <idno type="URI">https://www.dekamer.be/kvvcr/showpage.cfm?section=/cricra&amp;language=nl&amp;cfm=dcricra.cfm?type=plen&amp;cricra=cri&amp;count=all</idno>
-                    <date from="2015-11-12" to="2020-08-14">Nog in te vullen!</date>
+                    <date from="2015-11-12" to="2020-08-14">2015-11-12 - 2020-08-18</date>
                 </bibl>
                 <bibl>
                     <title type="main" xml:lang="nl">Federaal Parlement van België: Commissievergaderingen</title>
                     <title type="main" xml:lang="en">Belgian Federal Parliament: committee meetings</title>
                     <publisher>Kamer van volksvertegenwoordigers</publisher>
                     <idno type="URI">https://www.dekamer.be/kvvcr/showpage.cfm?section=/cricra&amp;language=nl&amp;cfm=dcricra.cfm?type=comm&amp;cricra=cri&amp;count=all</idno>
-                    <date from="2015-11-12" to="2020-08-18">Nog in te vullen!</date>
+                    <date from="2015-11-12" to="2020-08-18">2015-11-12 - 2020-08-18</date>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
             <projectDesc>
                 <p xml:lang="nl">
-                    <ref target="https://www.clarin.eu/content/parlamint">Parlamint</ref>
+                    <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
                     is een project dat tot doel heeft
       (1) een meertalige reeks vergelijkbare corpora van parlementaire handelingen te creëren die uniform zijn gecodeerd volgens de
                     <ref target="https://github. com/clarin-eric/parla-clarin">Parla-CLARIN aanbevelingen</ref>
@@ -119,19 +124,20 @@
             </editorialDecl>
             <tagsDecl>
                 <namespace name="http://www.tei-c.org/ns/1.0">
-                    <tagUsage gi="s" occurs="10280"/>
+                    <tagUsage gi="s" occurs="6627"/>
+                    <tagUsage gi="desc" occurs="1"/>
                     <tagUsage gi="body" occurs="10"/>
-                    <tagUsage gi="name" occurs="6073"/>
-                    <tagUsage gi="head" occurs="10"/>
-                    <tagUsage gi="u" occurs="844"/>
-                    <tagUsage gi="seg" occurs="4608"/>
+                    <tagUsage gi="name" occurs="3503"/>
+                    <tagUsage gi="u" occurs="639"/>
+                    <tagUsage gi="seg" occurs="2578"/>
                     <tagUsage gi="div" occurs="10"/>
                     <tagUsage gi="text" occurs="10"/>
-                    <tagUsage gi="linkGrp" occurs="10280"/>
-                    <tagUsage gi="note" occurs="665"/>
-                    <tagUsage gi="link" occurs="194069"/>
-                    <tagUsage gi="pc" occurs="20035"/>
-                    <tagUsage gi="w" occurs="174034"/>
+                    <tagUsage gi="linkGrp" occurs="6627"/>
+                    <tagUsage gi="gap" occurs="1"/>
+                    <tagUsage gi="note" occurs="633"/>
+                    <tagUsage gi="link" occurs="131157"/>
+                    <tagUsage gi="pc" occurs="12453"/>
+                    <tagUsage gi="w" occurs="118704"/>
                 </namespace>
             </tagsDecl>
             <classDecl>
@@ -404,7 +410,7 @@
                     <!-- onderscheid het referentiecorpus en het covid-corpus -->
                     <desc xml:lang="nl">
                         <term>Subcorpora</term>
-                        : referenParlaMint-BE_2014-10-15_54-plenair-ip010x.ana.xmltiecorpus en COVID-corpus
+                        : reference en COVID-corpus
                     </desc>
                     <desc xml:lang="en">
                         <term>Subcorpora</term>
@@ -428,6 +434,748 @@
                         <catDesc xml:lang="en">
                             <term>COVID</term>
                             : COVID subcorpus, from 2019-11-01 onwards
+                        </catDesc>
+                    </category>
+                </taxonomy>
+                <taxonomy xml:id="NER">
+                    <desc xml:lang="en">
+                        <term>Named entities</term>
+                    </desc>
+                    <category xml:id="PER">
+                        <catDesc xml:lang="sl">
+                            <term>oseba</term>
+                        </catDesc>
+                        <catDesc xml:lang="en">
+                            <term>person</term>
+                        </catDesc>
+                    </category>
+                    <category xml:id="LOC">
+                        <catDesc xml:lang="sl">
+                            <term>lokacija</term>
+                        </catDesc>
+                        <catDesc xml:lang="en">
+                            <term>location</term>
+                        </catDesc>
+                    </category>
+                    <category xml:id="ORG">
+                        <catDesc xml:lang="sl">
+                            <term>organizacija</term>
+                        </catDesc>
+                        <catDesc xml:lang="en">
+                            <term>organization</term>
+                        </catDesc>
+                    </category>
+                    <category xml:id="MISC">
+                        <catDesc xml:lang="sl">
+                            <term>drugo</term>
+                        </catDesc>
+                        <catDesc xml:lang="en">
+                            <term>miscellaneous</term>
+                        </catDesc>
+                    </category>
+                </taxonomy>
+                <taxonomy xml:id="UD-SYN">
+                    <desc xml:lang="en">
+                        <term>UD syntactic relations</term>
+                    </desc>
+                    <category xml:id="acl">
+                        <catDesc xml:lang="en">
+                            <term>acl</term>
+                            : Clausal modifier of noun (adjectival clause)
+                        </catDesc>
+                    </category>
+                    <category xml:id="advcl">
+                        <catDesc xml:lang="en">
+                            <term>advcl</term>
+                            : Adverbial clause modifier
+                        </catDesc>
+                    </category>
+                    <category xml:id="advmod">
+                        <catDesc xml:lang="en">
+                            <term>advmod</term>
+                            : Adverbial modifier
+                        </catDesc>
+                    </category>
+                    <category xml:id="amod">
+                        <catDesc xml:lang="en">
+                            <term>amod</term>
+                            : Adjectival modifier
+                        </catDesc>
+                    </category>
+                    <category xml:id="appos">
+                        <catDesc xml:lang="en">
+                            <term>appos</term>
+                            : Appositional modifier
+                        </catDesc>
+                    </category>
+                    <category xml:id="aux">
+                        <catDesc xml:lang="en">
+                            <term>aux</term>
+                            : Auxiliary
+                        </catDesc>
+                    </category>
+                    <category xml:id="case">
+                        <catDesc xml:lang="en">
+                            <term>case</term>
+                            : Case marking
+                        </catDesc>
+                    </category>
+                    <category xml:id="cc">
+                        <catDesc xml:lang="en">
+                            <term>cc</term>
+                            : Coordinating conjunction
+                        </catDesc>
+                    </category>
+                    <category xml:id="ccomp">
+                        <catDesc xml:lang="en">
+                            <term>ccomp</term>
+                            : Clausal complement
+                        </catDesc>
+                    </category>
+                    <category xml:id="cc_preconj">
+                        <catDesc xml:lang="en">
+                            <term>cc:preconj</term>
+                            : Preconjunct
+                        </catDesc>
+                    </category>
+                    <category xml:id="conj">
+                        <catDesc xml:lang="en">
+                            <term>conj</term>
+                            : Conjunct
+                        </catDesc>
+                    </category>
+                    <category xml:id="cop">
+                        <catDesc xml:lang="en">
+                            <term>cop</term>
+                            : Copula
+                        </catDesc>
+                    </category>
+                    <category xml:id="csubj">
+                        <catDesc xml:lang="en">
+                            <term>csubj</term>
+                            : Clausal subject
+                        </catDesc>
+                    </category>
+                    <category xml:id="dep">
+                        <catDesc xml:lang="en">
+                            <term>dep</term>
+                            : Unspecified dependency
+                        </catDesc>
+                    </category>
+                    <category xml:id="det">
+                        <catDesc xml:lang="en">
+                            <term>det</term>
+                            : Determiner
+                        </catDesc>
+                    </category>
+                    <category xml:id="discourse">
+                        <catDesc xml:lang="en">
+                            <term>discourse</term>
+                            : Discourse element
+                        </catDesc>
+                    </category>
+                    <category xml:id="expl">
+                        <catDesc xml:lang="en">
+                            <term>expl</term>
+                            : Expletive
+                        </catDesc>
+                    </category>
+                    <category xml:id="fixed">
+                        <catDesc xml:lang="en">
+                            <term>fixed</term>
+                            : Fixed multiword expression
+                        </catDesc>
+                    </category>
+                    <category xml:id="flat">
+                        <catDesc xml:lang="en">
+                            <term>flat</term>
+                            : Flat multiword expression
+                        </catDesc>
+                    </category>
+                    <category xml:id="flat_foreign">
+                        <catDesc xml:lang="en">
+                            <term>flat:foreign</term>
+                            : Flat multiword expression: foreign
+                        </catDesc>
+                    </category>
+                    <category xml:id="flat_name">
+                        <catDesc xml:lang="en">
+                            <term>flat:name</term>
+                            : Flat name
+                        </catDesc>
+                    </category>
+                    <category xml:id="iobj">
+                        <catDesc xml:lang="en">
+                            <term>iobj</term>
+                            : Indirect object
+                        </catDesc>
+                    </category>
+                    <category xml:id="mark">
+                        <catDesc xml:lang="en">
+                            <term>mark</term>
+                            : Marker
+                        </catDesc>
+                    </category>
+                    <category xml:id="nmod">
+                        <catDesc xml:lang="en">
+                            <term>nmod</term>
+                            : Nominal modifier
+                        </catDesc>
+                    </category>
+                    <category xml:id="nsubj">
+                        <catDesc xml:lang="en">
+                            <term>nsubj</term>
+                            : Nominal subject
+                        </catDesc>
+                    </category>
+                    <category xml:id="nummod">
+                        <catDesc xml:lang="en">
+                            <term>nummod</term>
+                            : Numeric modifier
+                        </catDesc>
+                    </category>
+                    <category xml:id="obj">
+                        <catDesc xml:lang="en">
+                            <term>obj</term>
+                            : Object
+                        </catDesc>
+                    </category>
+                    <category xml:id="obl">
+                        <catDesc xml:lang="en">
+                            <term>obl</term>
+                            : Oblique nominal
+                        </catDesc>
+                    </category>
+                    <category xml:id="parataxis">
+                        <catDesc xml:lang="en">
+                            <term>parataxis</term>
+                            : Parataxis
+                        </catDesc>
+                    </category>
+                    <category xml:id="punct">
+                        <catDesc xml:lang="en">
+                            <term>punct</term>
+                            : Punctuation
+                        </catDesc>
+                    </category>
+                    <category xml:id="reparandum">
+                        <catDesc xml:lang="en">
+                            <term>reparandum</term>
+                            : Overridden disfluency (here used for program mistakes!)
+                        </catDesc>
+                    </category>
+                    <category xml:id="root">
+                        <catDesc xml:lang="en">
+                            <term>root</term>
+                            : Root
+                        </catDesc>
+                    </category>
+                    <category xml:id="xcomp">
+                        <catDesc xml:lang="en">
+                            <term>xcomp</term>
+                            : Open clausal complement
+                        </catDesc>
+                    </category>
+                </taxonomy>
+                <taxonomy xml:id="chn">
+                    <desc xml:lang="en">
+                        <term>CHN Pos Tags</term>
+                    </desc>
+                    <category xml:id="case.acc_dat">
+                        <catDesc xml:lang="en">
+                            <term>case.acc_dat</term>
+                            :
+                            the morphosyntactic property of having case=acc|dat
+                        </catDesc>
+                    </category>
+                    <category xml:id="case.acc_nom">
+                        <catDesc xml:lang="en">
+                            <term>case.acc_nom</term>
+                            :
+                            the morphosyntactic property of having case=acc|nom
+                        </catDesc>
+                    </category>
+                    <category xml:id="case.dat">
+                        <catDesc xml:lang="en">
+                            <term>case.dat</term>
+                            :
+                            the morphosyntactic property of having case=dat
+                        </catDesc>
+                    </category>
+                    <category xml:id="case.dat_gen">
+                        <catDesc xml:lang="en">
+                            <term>case.dat_gen</term>
+                            :
+                            the morphosyntactic property of having case=dat|gen
+                        </catDesc>
+                    </category>
+                    <category xml:id="case.gen">
+                        <catDesc xml:lang="en">
+                            <term>case.gen</term>
+                            :
+                            the morphosyntactic property of having case=gen
+                        </catDesc>
+                    </category>
+                    <category xml:id="case.nom">
+                        <catDesc xml:lang="en">
+                            <term>case.nom</term>
+                            :
+                            the morphosyntactic property of having case=nom
+                        </catDesc>
+                    </category>
+                    <category xml:id="degree.comp">
+                        <catDesc xml:lang="en">
+                            <term>degree.comp</term>
+                            :
+                            the morphosyntactic property of having degree=comp
+                        </catDesc>
+                    </category>
+                    <category xml:id="degree.pos">
+                        <catDesc xml:lang="en">
+                            <term>degree.pos</term>
+                            :
+                            the morphosyntactic property of having degree=pos
+                        </catDesc>
+                    </category>
+                    <category xml:id="degree.sup">
+                        <catDesc xml:lang="en">
+                            <term>degree.sup</term>
+                            :
+                            the morphosyntactic property of having degree=sup
+                        </catDesc>
+                    </category>
+                    <category xml:id="finiteness.fin">
+                        <catDesc xml:lang="en">
+                            <term>finiteness.fin</term>
+                            :
+                            the morphosyntactic property of having finiteness=fin
+                        </catDesc>
+                    </category>
+                    <category xml:id="finiteness.ger_inf">
+                        <catDesc xml:lang="en">
+                            <term>finiteness.ger_inf</term>
+                            :
+                            the morphosyntactic property of having finiteness=ger|inf
+                        </catDesc>
+                    </category>
+                    <category xml:id="finiteness.part">
+                        <catDesc xml:lang="en">
+                            <term>finiteness.part</term>
+                            :
+                            the morphosyntactic property of having finiteness=part
+                        </catDesc>
+                    </category>
+                    <category xml:id="formal.infl-e">
+                        <catDesc xml:lang="en">
+                            <term>formal.infl-e</term>
+                            :
+                            the morphosyntactic property of having formal=infl-e
+                        </catDesc>
+                    </category>
+                    <category xml:id="formal.infl-s">
+                        <catDesc xml:lang="en">
+                            <term>formal.infl-s</term>
+                            :
+                            the morphosyntactic property of having formal=infl-s
+                        </catDesc>
+                    </category>
+                    <category xml:id="formal.infl-t">
+                        <catDesc xml:lang="en">
+                            <term>formal.infl-t</term>
+                            :
+                            the morphosyntactic property of having formal=infl-t
+                        </catDesc>
+                    </category>
+                    <category xml:id="gender.f">
+                        <catDesc xml:lang="en">
+                            <term>gender.f</term>
+                            :
+                            the morphosyntactic property of having gender=f
+                        </catDesc>
+                    </category>
+                    <category xml:id="gender.f_m">
+                        <catDesc xml:lang="en">
+                            <term>gender.f_m</term>
+                            :
+                            the morphosyntactic property of having gender=f|m
+                        </catDesc>
+                    </category>
+                    <category xml:id="gender.f_m_n">
+                        <catDesc xml:lang="en">
+                            <term>gender.f_m_n</term>
+                            :
+                            the morphosyntactic property of having gender=f|m|n
+                        </catDesc>
+                    </category>
+                    <category xml:id="gender.m">
+                        <catDesc xml:lang="en">
+                            <term>gender.m</term>
+                            :
+                            the morphosyntactic property of having gender=m
+                        </catDesc>
+                    </category>
+                    <category xml:id="gender.n">
+                        <catDesc xml:lang="en">
+                            <term>gender.n</term>
+                            :
+                            the morphosyntactic property of having gender=n
+                        </catDesc>
+                    </category>
+                    <category xml:id="mood.conj">
+                        <catDesc xml:lang="en">
+                            <term>mood.conj</term>
+                            :
+                            the morphosyntactic property of having mood=conj
+                        </catDesc>
+                    </category>
+                    <category xml:id="mood.imp_ind">
+                        <catDesc xml:lang="en">
+                            <term>mood.imp_ind</term>
+                            :
+                            the morphosyntactic property of having mood=imp|ind
+                        </catDesc>
+                    </category>
+                    <category xml:id="mood.ind">
+                        <catDesc xml:lang="en">
+                            <term>mood.ind</term>
+                            :
+                            the morphosyntactic property of having mood=ind
+                        </catDesc>
+                    </category>
+                    <category xml:id="number.pl">
+                        <catDesc xml:lang="en">
+                            <term>number.pl</term>
+                            :
+                            the morphosyntactic property of having number=pl
+                        </catDesc>
+                    </category>
+                    <category xml:id="number.pl_sg">
+                        <catDesc xml:lang="en">
+                            <term>number.pl_sg</term>
+                            :
+                            the morphosyntactic property of having number=pl|sg
+                        </catDesc>
+                    </category>
+                    <category xml:id="number.sg">
+                        <catDesc xml:lang="en">
+                            <term>number.sg</term>
+                            :
+                            the morphosyntactic property of having number=sg
+                        </catDesc>
+                    </category>
+                    <category xml:id="part-of-multiword.true">
+                        <catDesc xml:lang="en">
+                            <term>part-of-multiword.true</term>
+                            :
+                            the morphosyntactic property of having part-of-multiword=true
+                        </catDesc>
+                    </category>
+                    <category xml:id="person.1">
+                        <catDesc xml:lang="en">
+                            <term>person.1</term>
+                            :
+                            the morphosyntactic property of having person=1
+                        </catDesc>
+                    </category>
+                    <category xml:id="person.2">
+                        <catDesc xml:lang="en">
+                            <term>person.2</term>
+                            :
+                            the morphosyntactic property of having person=2
+                        </catDesc>
+                    </category>
+                    <category xml:id="person.2_3">
+                        <catDesc xml:lang="en">
+                            <term>person.2_3</term>
+                            :
+                            the morphosyntactic property of having person=2|3
+                        </catDesc>
+                    </category>
+                    <category xml:id="person.3">
+                        <catDesc xml:lang="en">
+                            <term>person.3</term>
+                            :
+                            the morphosyntactic property of having person=3
+                        </catDesc>
+                    </category>
+                    <category xml:id="pos.AA">
+                        <catDesc xml:lang="en">
+                            <term>pos.AA</term>
+                            :
+                            the morphosyntactic property of having pos=AA
+                        </catDesc>
+                    </category>
+                    <category xml:id="pos.ADP">
+                        <catDesc xml:lang="en">
+                            <term>pos.ADP</term>
+                            :
+                            the morphosyntactic property of having pos=ADP
+                        </catDesc>
+                    </category>
+                    <category xml:id="pos.ADV">
+                        <catDesc xml:lang="en">
+                            <term>pos.ADV</term>
+                            :
+                            the morphosyntactic property of having pos=ADV
+                        </catDesc>
+                    </category>
+                    <category xml:id="pos.CONJ">
+                        <catDesc xml:lang="en">
+                            <term>pos.CONJ</term>
+                            :
+                            the morphosyntactic property of having pos=CONJ
+                        </catDesc>
+                    </category>
+                    <category xml:id="pos.INT">
+                        <catDesc xml:lang="en">
+                            <term>pos.INT</term>
+                            :
+                            the morphosyntactic property of having pos=INT
+                        </catDesc>
+                    </category>
+                    <category xml:id="pos.NOU-C">
+                        <catDesc xml:lang="en">
+                            <term>pos.NOU-C</term>
+                            :
+                            the morphosyntactic property of having pos=NOU-C
+                        </catDesc>
+                    </category>
+                    <category xml:id="pos.NOU-P">
+                        <catDesc xml:lang="en">
+                            <term>pos.NOU-P</term>
+                            :
+                            the morphosyntactic property of having pos=NOU-P
+                        </catDesc>
+                    </category>
+                    <category xml:id="pos.NUM">
+                        <catDesc xml:lang="en">
+                            <term>pos.NUM</term>
+                            :
+                            the morphosyntactic property of having pos=NUM
+                        </catDesc>
+                    </category>
+                    <category xml:id="pos.PD">
+                        <catDesc xml:lang="en">
+                            <term>pos.PD</term>
+                            :
+                            the morphosyntactic property of having pos=PD
+                        </catDesc>
+                    </category>
+                    <category xml:id="pos.RES">
+                        <catDesc xml:lang="en">
+                            <term>pos.RES</term>
+                            :
+                            the morphosyntactic property of having pos=RES
+                        </catDesc>
+                    </category>
+                    <category xml:id="pos.VRB">
+                        <catDesc xml:lang="en">
+                            <term>pos.VRB</term>
+                            :
+                            the morphosyntactic property of having pos=VRB
+                        </catDesc>
+                    </category>
+                    <category xml:id="position.adv_pred">
+                        <catDesc xml:lang="en">
+                            <term>position.adv_pred</term>
+                            :
+                            the morphosyntactic property of having position=adv|pred
+                        </catDesc>
+                    </category>
+                    <category xml:id="position.oth_pred">
+                        <catDesc xml:lang="en">
+                            <term>position.oth_pred</term>
+                            :
+                            the morphosyntactic property of having position=oth|pred
+                        </catDesc>
+                    </category>
+                    <category xml:id="position.postnom">
+                        <catDesc xml:lang="en">
+                            <term>position.postnom</term>
+                            :
+                            the morphosyntactic property of having position=postnom
+                        </catDesc>
+                    </category>
+                    <category xml:id="position.prenom">
+                        <catDesc xml:lang="en">
+                            <term>position.prenom</term>
+                            :
+                            the morphosyntactic property of having position=prenom
+                        </catDesc>
+                    </category>
+                    <category xml:id="position.pron">
+                        <catDesc xml:lang="en">
+                            <term>position.pron</term>
+                            :
+                            the morphosyntactic property of having position=pron
+                        </catDesc>
+                    </category>
+                    <category xml:id="subtype.art-def">
+                        <catDesc xml:lang="en">
+                            <term>subtype.art-def</term>
+                            :
+                            the morphosyntactic property of having subtype=art-def
+                        </catDesc>
+                    </category>
+                    <category xml:id="subtype.art-indef">
+                        <catDesc xml:lang="en">
+                            <term>subtype.art-indef</term>
+                            :
+                            the morphosyntactic property of having subtype=art-indef
+                        </catDesc>
+                    </category>
+                    <category xml:id="tense.past">
+                        <catDesc xml:lang="en">
+                            <term>tense.past</term>
+                            :
+                            the morphosyntactic property of having tense=past
+                        </catDesc>
+                    </category>
+                    <category xml:id="tense.past_pres">
+                        <catDesc xml:lang="en">
+                            <term>tense.past_pres</term>
+                            :
+                            the morphosyntactic property of having tense=past|pres
+                        </catDesc>
+                    </category>
+                    <category xml:id="tense.pres">
+                        <catDesc xml:lang="en">
+                            <term>tense.pres</term>
+                            :
+                            the morphosyntactic property of having tense=pres
+                        </catDesc>
+                    </category>
+                    <category xml:id="type.abbr">
+                        <catDesc xml:lang="en">
+                            <term>type.abbr</term>
+                            :
+                            the morphosyntactic property of having type=abbr
+                        </catDesc>
+                    </category>
+                    <category xml:id="type.card">
+                        <catDesc xml:lang="en">
+                            <term>type.card</term>
+                            :
+                            the morphosyntactic property of having type=card
+                        </catDesc>
+                    </category>
+                    <category xml:id="type.coor">
+                        <catDesc xml:lang="en">
+                            <term>type.coor</term>
+                            :
+                            the morphosyntactic property of having type=coor
+                        </catDesc>
+                    </category>
+                    <category xml:id="type.d-p">
+                        <catDesc xml:lang="en">
+                            <term>type.d-p</term>
+                            :
+                            the morphosyntactic property of having type=d-p
+                        </catDesc>
+                    </category>
+                    <category xml:id="type.dem">
+                        <catDesc xml:lang="en">
+                            <term>type.dem</term>
+                            :
+                            the morphosyntactic property of having type=dem
+                        </catDesc>
+                    </category>
+                    <category xml:id="type.for">
+                        <catDesc xml:lang="en">
+                            <term>type.for</term>
+                            :
+                            the morphosyntactic property of having type=for
+                        </catDesc>
+                    </category>
+                    <category xml:id="type.indef">
+                        <catDesc xml:lang="en">
+                            <term>type.indef</term>
+                            :
+                            the morphosyntactic property of having type=indef
+                        </catDesc>
+                    </category>
+                    <category xml:id="type.ord">
+                        <catDesc xml:lang="en">
+                            <term>type.ord</term>
+                            :
+                            the morphosyntactic property of having type=ord
+                        </catDesc>
+                    </category>
+                    <category xml:id="type.pers">
+                        <catDesc xml:lang="en">
+                            <term>type.pers</term>
+                            :
+                            the morphosyntactic property of having type=pers
+                        </catDesc>
+                    </category>
+                    <category xml:id="type.pers_refl">
+                        <catDesc xml:lang="en">
+                            <term>type.pers_refl</term>
+                            :
+                            the morphosyntactic property of having type=pers|refl
+                        </catDesc>
+                    </category>
+                    <category xml:id="type.poss">
+                        <catDesc xml:lang="en">
+                            <term>type.poss</term>
+                            :
+                            the morphosyntactic property of having type=poss
+                        </catDesc>
+                    </category>
+                    <category xml:id="type.post">
+                        <catDesc xml:lang="en">
+                            <term>type.post</term>
+                            :
+                            the morphosyntactic property of having type=post
+                        </catDesc>
+                    </category>
+                    <category xml:id="type.pre">
+                        <catDesc xml:lang="en">
+                            <term>type.pre</term>
+                            :
+                            the morphosyntactic property of having type=pre
+                        </catDesc>
+                    </category>
+                    <category xml:id="type.recip">
+                        <catDesc xml:lang="en">
+                            <term>type.recip</term>
+                            :
+                            the morphosyntactic property of having type=recip
+                        </catDesc>
+                    </category>
+                    <category xml:id="type.refl">
+                        <catDesc xml:lang="en">
+                            <term>type.refl</term>
+                            :
+                            the morphosyntactic property of having type=refl
+                        </catDesc>
+                    </category>
+                    <category xml:id="type.rel">
+                        <catDesc xml:lang="en">
+                            <term>type.rel</term>
+                            :
+                            the morphosyntactic property of having type=rel
+                        </catDesc>
+                    </category>
+                    <category xml:id="type.sub">
+                        <catDesc xml:lang="en">
+                            <term>type.sub</term>
+                            :
+                            the morphosyntactic property of having type=sub
+                        </catDesc>
+                    </category>
+                    <category xml:id="type.sym">
+                        <catDesc xml:lang="en">
+                            <term>type.sym</term>
+                            :
+                            the morphosyntactic property of having type=sym
+                        </catDesc>
+                    </category>
+                    <category xml:id="type.w-p">
+                        <catDesc xml:lang="en">
+                            <term>type.w-p</term>
+                            :
+                            the morphosyntactic property of having type=w-p
                         </catDesc>
                     </category>
                 </taxonomy>
@@ -978,8 +1726,8 @@
                         <birth when="1963-12-10">
                             <placeName>Kortrijk</placeName>
                         </birth>
-                        <affiliation from="2004-07-30" to="2007-05-02" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2004-07-30" to="2007-05-02" ref="#cdH" role="member"/>
+                        <affiliation from="2004-07-30" to="2005-04-19" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2004-07-30" to="2005-04-19" ref="#cdH" role="member"/>
                     </person>
                     <person xml:id="Musin_Linda">
                         <persName>
@@ -1004,8 +1752,8 @@
                         <birth when="1975-01-15">
                             <placeName>Elsene</placeName>
                         </birth>
-                        <affiliation from="2015-09-22" to="2019-05-23" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2015-09-22" to="2019-05-23" ref="#MR" role="member"/>
+                        <affiliation from="2014-10-14" to="2015-09-22" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2014-10-14" to="2015-09-22" ref="#MR" role="member"/>
                         <affiliation from="2019-06-20" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2019-06-20" ref="#MR" role="member"/>
                     </person>
@@ -1126,12 +1874,8 @@
                         <birth when="1981-11-16">
                             <placeName>Izegem</placeName>
                         </birth>
-                        <affiliation ref="#be_federal_parliament" role="MP"/>
-                        <affiliation ref="#N-VA" role="member"/>
-                        <affiliation from="2010-07-06" to="2012-11-08" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2010-07-06" to="2012-11-08" ref="#N-VA" role="member"/>
-                        <affiliation from="2012-11-08" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2012-11-08" to="2014-04-28" ref="#N-VA" role="member"/>
+                        <affiliation from="2010-07-06" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2010-07-06" to="2014-04-28" ref="#N-VA" role="member"/>
                     </person>
                     <person xml:id="Dupont_Christian">
                         <persName>
@@ -1142,10 +1886,8 @@
                         <birth when="1947-05-03">
                             <placeName>Gosselies</placeName>
                         </birth>
-                        <affiliation from="2007-06-28" to="2007-12-31" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2007-06-28" to="2007-12-31" ref="#PS" role="member"/>
-                        <affiliation from="2009-07-23" to="2010-05-07" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2009-07-23" to="2010-05-07" ref="#PS" role="member"/>
+                        <affiliation from="2007-06-10" to="2009-06-23" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2007-06-10" to="2009-06-23" ref="#PS" role="member"/>
                     </person>
                     <person xml:id="Pirlot_Sébastian">
                         <persName>
@@ -1306,10 +2048,10 @@
                         </birth>
                         <affiliation from="2003-06-05" to="2007-05-02" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2003-06-05" to="2007-05-02" ref="#MR" role="member"/>
-                        <affiliation from="2007-06-28" to="2010-05-07" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2007-06-28" to="2010-05-07" ref="#MR" role="member"/>
-                        <affiliation from="2010-07-06" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2010-07-06" to="2014-04-28" ref="#MR" role="member"/>
+                        <affiliation from="2007-06-28" to="2008-03-20" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2007-06-28" to="2008-03-20" ref="#MR" role="member"/>
+                        <affiliation from="2010-07-06" to="2011-12-07" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2010-07-06" to="2011-12-07" ref="#MR" role="member"/>
                         <affiliation from="2014-06-19" to="2019-05-23" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2014-06-19" to="2019-05-23" ref="#MR" role="member"/>
                     </person>
@@ -1400,8 +2142,8 @@
                         <affiliation from="2003-06-05" to="2005-10-11" ref="#PS" role="member"/>
                         <affiliation from="2007-06-28" to="2009-06-23" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2007-06-28" to="2009-06-23" ref="#PS" role="member"/>
-                        <affiliation from="2010-07-06" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2010-07-06" to="2014-04-28" ref="#PS" role="member"/>
+                        <affiliation from="2010-07-06" to="2011-12-07" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2010-07-06" to="2011-12-07" ref="#PS" role="member"/>
                         <affiliation from="2014-06-19" to="2019-05-23" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2014-06-19" to="2019-05-23" ref="#PS" role="member"/>
                         <affiliation from="2019-06-20" ref="#be_federal_parliament" role="MP"/>
@@ -1484,10 +2226,8 @@
                         <birth when="1970-01-07">
                             <placeName>Moeskroen</placeName>
                         </birth>
-                        <affiliation from="2003-06-05" to="2003-06-26" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2003-06-05" to="2003-06-26" ref="#Ecolo" role="member"/>
-                        <affiliation from="2004-07-19" to="2007-05-02" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2004-07-19" to="2007-05-02" ref="#Ecolo" role="member"/>
+                        <affiliation from="2003-06-05" to="2007-05-02" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2003-06-05" to="2007-05-02" ref="#Ecolo" role="member"/>
                         <affiliation from="2007-06-28" to="2009-07-16" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2007-06-28" to="2009-07-16" ref="#Ecolo" role="member"/>
                         <affiliation from="2014-06-19" to="2019-05-23" ref="#be_federal_parliament" role="MP"/>
@@ -1520,10 +2260,10 @@
                         <birth when="1967-11-22">
                             <placeName>Ninove</placeName>
                         </birth>
-                        <affiliation from="2003-06-26" to="2007-05-02" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2003-06-26" to="2007-05-02" ref="#OpenVld" role="member"/>
-                        <affiliation from="2010-07-06" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2010-07-06" to="2014-04-28" ref="#OpenVld" role="member"/>
+                        <affiliation from="2003-06-26" to="2007-06-10" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2003-06-26" to="2007-06-10" ref="#OpenVld" role="member"/>
+                        <affiliation from="2010-06-13" to="2011-12-07" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2010-06-13" to="2011-12-07" ref="#OpenVld" role="member"/>
                         <affiliation from="2014-05-25" to="2014-07-25" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2014-05-25" to="2014-07-25" ref="#OpenVld" role="member"/>
                         <affiliation from="2016-04-29" to="2018-05-01" ref="#be_federal_parliament" role="MP"/>
@@ -1794,10 +2534,8 @@
                         <birth when="1975-12-21">
                             <placeName>Namen</placeName>
                         </birth>
-                        <affiliation from="2003-05-18" to="2003-06-26" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2003-05-18" to="2003-06-26" ref="#MR" role="member"/>
-                        <affiliation from="2004-07-19" to="2007-05-02" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2004-07-19" to="2007-05-02" ref="#MR" role="member"/>
+                        <affiliation from="2003-05-18" to="2007-05-02" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2003-05-18" to="2007-05-02" ref="#MR" role="member"/>
                         <affiliation from="2007-06-28" to="2007-12-21" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2007-06-28" to="2007-12-21" ref="#MR" role="member"/>
                         <affiliation from="2010-07-06" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
@@ -1894,8 +2632,8 @@
                         <birth when="1967-03-13">
                             <placeName>Aarlen</placeName>
                         </birth>
-                        <affiliation from="2014-06-19" to="2019-05-23" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2014-06-19" to="2019-05-23" ref="#cdH" role="member"/>
+                        <affiliation from="2014-05-25" to="2018-09-13" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2014-05-25" to="2018-09-13" ref="#cdH" role="member"/>
                     </person>
                     <person xml:id="Daerden_Michel">
                         <persName>
@@ -1956,8 +2694,8 @@
                         <birth when="1958-06-10">
                             <placeName>Brussel</placeName>
                         </birth>
-                        <affiliation from="2010-07-06" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2010-07-06" to="2014-04-28" ref="#OpenVld" role="member"/>
+                        <affiliation from="2010-07-06" to="2011-12-22" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2010-07-06" to="2011-12-22" ref="#OpenVld" role="member"/>
                     </person>
                     <person xml:id="Warzée-Caverenne_Valérie">
                         <persName>
@@ -2010,8 +2748,8 @@
                         <affiliation from="2007-06-28" to="2010-05-07" ref="#OpenVld" role="member"/>
                         <affiliation from="2011-12-07" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2011-12-07" to="2014-04-28" ref="#OpenVld" role="member"/>
-                        <affiliation from="2014-06-19" to="2019-05-23" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2014-06-19" to="2019-05-23" ref="#OpenVld" role="member"/>
+                        <affiliation from="2014-05-25" to="2019-05-23" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2014-05-25" to="2019-05-23" ref="#OpenVld" role="member"/>
                     </person>
                     <person xml:id="Yüksel_Veli">
                         <persName>
@@ -2176,12 +2914,12 @@
                         <birth when="1971-06-13">
                             <placeName>Willebroek</placeName>
                         </birth>
-                        <affiliation from="2007-06-28" to="2010-07-06" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2007-06-28" to="2010-07-06" ref="#OpenVld" role="member"/>
                         <affiliation from="2008-12-31" to="2009-07-17" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2008-12-31" to="2009-07-17" ref="#OpenVld" role="member"/>
-                        <affiliation from="2009-09-16" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2009-09-16" to="2014-04-28" ref="#OpenVld" role="member"/>
+                        <affiliation from="2009-09-16" to="2010-05-07" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2009-09-16" to="2010-05-07" ref="#OpenVld" role="member"/>
+                        <affiliation from="2010-07-06" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2010-07-06" to="2014-04-28" ref="#OpenVld" role="member"/>
                         <affiliation from="2014-06-19" to="2019-05-23" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2014-06-19" to="2019-05-23" ref="#OpenVld" role="member"/>
                     </person>
@@ -2250,10 +2988,8 @@
                         </birth>
                         <affiliation from="2003-06-05" to="2007-05-02" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2003-06-05" to="2007-05-02" ref="#CD_en_V" role="member"/>
-                        <affiliation from="2007-12-21" to="2008-01-17" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2007-12-21" to="2008-01-17" ref="#CD_en_V" role="member"/>
-                        <affiliation from="2008-01-17" to="2010-05-07" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2008-01-17" to="2010-05-07" ref="#CD_en_V" role="member"/>
+                        <affiliation from="2007-12-21" to="2010-05-07" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2007-12-21" to="2010-05-07" ref="#CD_en_V" role="member"/>
                     </person>
                     <person xml:id="Valkeniers_Bruno">
                         <persName>
@@ -2334,10 +3070,10 @@
                         <birth when="1952-06-13">
                             <placeName>Nieuwpoort</placeName>
                         </birth>
-                        <affiliation from="2007-06-28" to="2010-05-07" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2007-06-28" to="2010-05-07" ref="#N-VA" role="member"/>
+                        <affiliation from="2007-06-10" to="2010-05-07" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2007-06-10" to="2010-05-07" ref="#LDD" role="member"/>
                         <affiliation from="2010-07-06" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2010-07-06" to="2014-04-28" ref="#N-VA" role="member"/>
+                        <affiliation from="2010-07-06" to="2014-04-28" ref="#LDD" role="member"/>
                         <affiliation from="2019-06-20" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2019-06-20" ref="#N-VA" role="member"/>
                     </person>
@@ -2482,10 +3218,10 @@
                         <birth when="1964-01-02">
                             <placeName>Binche</placeName>
                         </birth>
-                        <affiliation from="2005-04-21" to="2007-01-11" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2005-04-21" to="2007-01-11" ref="#cdH" role="member"/>
-                        <affiliation from="2007-06-28" to="2010-05-07" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2007-06-28" to="2010-05-07" ref="#cdH" role="member"/>
+                        <affiliation from="2005-04-21" to="2007-06-10" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2005-04-21" to="2007-06-10" ref="#cdH" role="member"/>
+                        <affiliation from="2007-07-05" to="2010-05-07" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2007-07-05" to="2010-05-07" ref="#cdH" role="member"/>
                     </person>
                     <person xml:id="Barzin_Anne">
                         <persName>
@@ -2788,12 +3524,8 @@
                         <birth when="1971-03-30">
                             <placeName>La Hestre</placeName>
                         </birth>
-                        <affiliation ref="#be_federal_parliament" role="MP"/>
-                        <affiliation ref="#PS" role="member"/>
-                        <affiliation from="2013-01-10" to="2013-09-17" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2013-01-10" to="2013-09-17" ref="#PS" role="member"/>
-                        <affiliation from="2013-09-17" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2013-09-17" to="2014-04-28" ref="#PS" role="member"/>
+                        <affiliation from="2013-01-10" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2013-01-10" to="2014-04-28" ref="#PS" role="member"/>
                     </person>
                     <person xml:id="Lutgen_Benoît">
                         <persName>
@@ -2804,8 +3536,8 @@
                         <birth when="1970-03-10">
                             <placeName>Bastenaken</placeName>
                         </birth>
-                        <affiliation from="2011-12-16" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2011-12-16" to="2014-04-28" ref="#cdH" role="member"/>
+                        <affiliation from="2010-06-13" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2010-06-13" to="2014-04-28" ref="#cdH" role="member"/>
                         <affiliation from="2014-06-19" to="2019-05-23" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2014-06-19" to="2019-05-23" ref="#cdH" role="member"/>
                     </person>
@@ -2914,8 +3646,8 @@
                         <birth when="1960-02-03">
                             <placeName>Leuven</placeName>
                         </birth>
-                        <affiliation from="2007-06-28" to="2009-06-23" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2007-06-28" to="2009-06-23" ref="#cdH" role="member"/>
+                        <affiliation from="2007-06-10" to="2009-06-23" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2007-06-10" to="2009-06-23" ref="#cdH" role="member"/>
                     </person>
                     <person xml:id="Sneppe_Dominiek">
                         <persName>
@@ -2970,10 +3702,8 @@
                         <birth when="1966-08-27">
                             <placeName>Tanger (Marokko)</placeName>
                         </birth>
-                        <affiliation from="2003-05-18" to="2003-07-14" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2003-05-18" to="2003-07-14" ref="#sp.a" role="member"/>
-                        <affiliation from="2003-09-25" to="2004-07-06" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2003-09-25" to="2004-07-06" ref="#sp.a" role="member"/>
+                        <affiliation from="2003-05-18" to="2004-07-06" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2003-05-18" to="2004-07-06" ref="#sp.a" role="member"/>
                     </person>
                     <person xml:id="Hennuy_Laurence">
                         <persName>
@@ -3168,8 +3898,8 @@
                         <birth when="1954-08-04">
                             <placeName>Sint-Agatha-Berchem</placeName>
                         </birth>
-                        <affiliation from="2014-06-19" to="2019-05-23" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2014-06-19" to="2019-05-23" ref="#MR" role="member"/>
+                        <affiliation from="2014-05-25" to="2019-05-23" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2014-05-25" to="2019-05-23" ref="#MR" role="member"/>
                         <affiliation from="2019-12-05" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2019-12-05" ref="#MR" role="member"/>
                     </person>
@@ -3234,8 +3964,8 @@
                         <birth when="1958-01-22">
                             <placeName>Brasschaat</placeName>
                         </birth>
-                        <affiliation from="2014-06-19" to="2019-05-23" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2014-06-19" to="2019-05-23" ref="#CD_en_V" role="member"/>
+                        <affiliation from="2014-05-25" to="2014-10-14" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2014-05-25" to="2014-10-14" ref="#CD_en_V" role="member"/>
                         <affiliation from="2019-06-20" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2019-06-20" ref="#CD_en_V" role="member"/>
                     </person>
@@ -3370,12 +4100,14 @@
                         </birth>
                         <affiliation from="2003-06-05" to="2007-05-02" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2003-06-05" to="2007-05-02" ref="#CD_en_V" role="member"/>
-                        <affiliation from="2007-06-28" to="2010-05-07" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2007-06-28" to="2010-05-07" ref="#CD_en_V" role="member"/>
-                        <affiliation from="2010-07-06" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2010-07-06" to="2014-04-28" ref="#CD_en_V" role="member"/>
+                        <affiliation from="2007-06-28" to="2007-12-21" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2007-06-28" to="2007-12-21" ref="#CD_en_V" role="member"/>
+                        <affiliation from="2010-07-06" to="2011-12-07" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2010-07-06" to="2011-12-07" ref="#CD_en_V" role="member"/>
                         <affiliation from="2014-06-19" to="2014-10-14" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2014-06-19" to="2014-10-14" ref="#CD_en_V" role="member"/>
+                        <affiliation from="2019-06-20" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2019-06-20" ref="#CD_en_V" role="member"/>
                     </person>
                     <person xml:id="Bracke_Siegfried">
                         <persName>
@@ -3581,7 +4313,7 @@
                             <placeName>Gent</placeName>
                         </birth>
                         <affiliation from="2004-07-21" to="2007-05-02" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2004-07-21" to="2007-05-02" ref="#OpenVld" role="member"/>
+                        <affiliation from="2004-07-21" to="2007-05-02" ref="#VLD" role="member"/>
                         <affiliation from="2007-06-28" to="2008-03-20" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2007-06-28" to="2008-03-20" ref="#OpenVld" role="member"/>
                         <affiliation from="2010-07-06" to="2011-12-07" ref="#be_federal_parliament" role="MP"/>
@@ -3618,12 +4350,10 @@
                         <birth when="1968-09-22">
                             <placeName>Ciney</placeName>
                         </birth>
-                        <affiliation ref="#be_federal_parliament" role="MP"/>
-                        <affiliation ref="#cdH" role="member"/>
                         <affiliation from="2003-06-05" to="2004-06-30" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2003-06-05" to="2004-06-30" ref="#cdH" role="member"/>
-                        <affiliation from="2009-07-16" to="2010-05-07" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2009-07-16" to="2010-05-07" ref="#cdH" role="member"/>
+                        <affiliation from="2007-06-28" to="2010-05-07" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2007-06-28" to="2010-05-07" ref="#cdH" role="member"/>
                         <affiliation from="2010-07-06" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2010-07-06" to="2014-04-28" ref="#cdH" role="member"/>
                         <affiliation from="2014-06-19" to="2019-05-23" ref="#be_federal_parliament" role="MP"/>
@@ -3686,8 +4416,8 @@
                         <birth when="1957-01-08">
                             <placeName>Bergen</placeName>
                         </birth>
-                        <affiliation from="2003-06-05" to="2004-06-30" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2003-06-05" to="2004-06-30" ref="#MR" role="member"/>
+                        <affiliation from="2003-06-26" to="2004-06-30" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2003-06-26" to="2004-06-30" ref="#MR" role="member"/>
                         <affiliation from="2009-07-02" to="2010-05-07" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2009-07-02" to="2010-05-07" ref="#MR" role="member"/>
                     </person>
@@ -3972,10 +4702,8 @@
                         <birth when="1975-10-14">
                             <placeName>Kortrijk</placeName>
                         </birth>
-                        <affiliation from="2008-03-20" to="2009-07-02" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2008-03-20" to="2009-07-02" ref="#OpenVld" role="member"/>
-                        <affiliation from="2009-07-02" to="2010-05-07" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2009-07-02" to="2010-05-07" ref="#OpenVld" role="member"/>
+                        <affiliation from="2008-03-20" to="2010-05-07" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2008-03-20" to="2010-05-07" ref="#OpenVld" role="member"/>
                     </person>
                     <person xml:id="Carcaci_Aldo">
                         <persName>
@@ -4148,8 +4876,10 @@
                         <birth when="1962-01-22">
                             <placeName>Ronse</placeName>
                         </birth>
+                        <affiliation from="2014-05-25" to="2016-09-21" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2014-05-25" to="2016-09-21" ref="#N-VA" role="member"/>
                         <affiliation from="2016-09-21" to="2019-05-23" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2016-09-21" to="2019-05-23" ref="#N-VA" role="member"/>
+                        <affiliation from="2016-09-21" to="2019-05-23" ref="#onafhankelijk" role="member"/>
                     </person>
                     <person xml:id="Hanus_Mélissa">
                         <persName>
@@ -4260,8 +4990,8 @@
                         <birth when="1961-06-18">
                             <placeName>Etterbeek</placeName>
                         </birth>
-                        <affiliation from="2007-06-28" to="2010-05-07" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2007-06-28" to="2010-05-07" ref="#cdH" role="member"/>
+                        <affiliation from="2007-06-10" to="2009-06-23" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2007-06-10" to="2009-06-23" ref="#cdH" role="member"/>
                     </person>
                     <person xml:id="Zanchetta_Laurence">
                         <persName>
@@ -4454,8 +5184,8 @@
                         <affiliation from="2010-07-06" to="2014-04-28" ref="#N-VA" role="member"/>
                         <affiliation from="2014-06-19" to="2016-09-21" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2014-06-19" to="2016-09-21" ref="#N-VA" role="member"/>
-                        <affiliation from="2016-09-21" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2016-09-21" ref="#onafhankelijk" role="member"/>
+                        <affiliation from="2016-09-21" to="2019-05-23" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2016-09-21" to="2019-05-23" ref="#onafhankelijk" role="member"/>
                     </person>
                     <person xml:id="DeMeyer_Magda">
                         <persName>
@@ -4844,12 +5574,10 @@
                         <birth when="1965-06-02">
                             <placeName>Hoei</placeName>
                         </birth>
-                        <affiliation ref="#be_federal_parliament" role="MP"/>
-                        <affiliation ref="#MR" role="member"/>
-                        <affiliation from="2003-06-05" to="2007-05-02" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2003-06-05" to="2007-05-02" ref="#MR" role="member"/>
-                        <affiliation from="2007-06-28" to="2010-05-07" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2007-06-28" to="2010-05-07" ref="#MR" role="member"/>
+                        <affiliation from="2003-06-05" to="2003-07-14" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2003-06-05" to="2003-07-14" ref="#MR" role="member"/>
+                        <affiliation from="2007-06-28" to="2007-12-21" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2007-06-28" to="2007-12-21" ref="#MR" role="member"/>
                         <affiliation from="2010-07-06" to="2011-12-07" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2010-07-06" to="2011-12-07" ref="#MR" role="member"/>
                     </person>
@@ -4932,10 +5660,10 @@
                         </birth>
                         <affiliation from="2003-06-05" to="2007-05-02" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2003-06-05" to="2007-05-02" ref="#cdH" role="member"/>
-                        <affiliation from="2007-06-28" to="2010-05-07" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2007-06-28" to="2010-05-07" ref="#cdH" role="member"/>
-                        <affiliation from="2010-07-06" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2010-07-06" to="2014-04-28" ref="#cdH" role="member"/>
+                        <affiliation from="2007-06-28" to="2008-03-20" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2007-06-28" to="2008-03-20" ref="#cdH" role="member"/>
+                        <affiliation from="2010-07-06" to="2011-12-05" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2010-07-06" to="2011-12-05" ref="#cdH" role="member"/>
                     </person>
                     <person xml:id="Matheï_Steven">
                         <persName>
@@ -4982,8 +5710,8 @@
                         <birth when="1978-04-09">
                             <placeName>Bergen</placeName>
                         </birth>
-                        <affiliation from="2007-06-28" to="2010-05-07" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2007-06-28" to="2010-05-07" ref="#cdH" role="member"/>
+                        <affiliation from="2007-06-28" to="2009-06-23" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2007-06-28" to="2009-06-23" ref="#cdH" role="member"/>
                         <affiliation from="2019-06-20" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2019-06-20" ref="#cdH" role="member"/>
                     </person>
@@ -5060,10 +5788,10 @@
                         <birth when="1978-02-07">
                             <placeName>Lubbeek</placeName>
                         </birth>
-                        <affiliation from="2010-07-06" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2010-07-06" to="2014-04-28" ref="#N-VA" role="member"/>
-                        <affiliation from="2014-06-19" to="2014-10-11" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2014-06-19" to="2014-10-11" ref="#N-VA" role="member"/>
+                        <affiliation from="2010-06-13" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2010-06-13" to="2014-04-28" ref="#N-VA" role="member"/>
+                        <affiliation from="2014-05-25" to="2014-10-11" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2014-05-25" to="2014-10-11" ref="#N-VA" role="member"/>
                         <affiliation from="2018-12-09" to="2019-06-20" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2018-12-09" to="2019-06-20" ref="#N-VA" role="member"/>
                         <affiliation from="2019-06-20" ref="#be_federal_parliament" role="MP"/>
@@ -5531,7 +6259,7 @@
                             <placeName>Opbrakel (Brakel)</placeName>
                         </birth>
                         <affiliation from="2003-06-05" to="2007-05-02" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2003-06-05" to="2007-05-02" ref="#OpenVld" role="member"/>
+                        <affiliation from="2003-06-05" to="2007-05-02" ref="#VLD" role="member"/>
                         <affiliation from="2007-06-28" to="2010-05-07" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2007-06-28" to="2010-05-07" ref="#OpenVld" role="member"/>
                         <affiliation from="2010-07-06" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
@@ -5558,8 +6286,8 @@
                         <birth when="1976-01-15">
                             <placeName>Sint-Joost-ten-Node</placeName>
                         </birth>
-                        <affiliation from="2014-06-19" to="2019-05-23" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2014-06-19" to="2019-05-23" ref="#Ecolo" role="member"/>
+                        <affiliation from="2014-05-25" to="2015-05-25" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2014-05-25" to="2015-05-25" ref="#Ecolo" role="member"/>
                         <affiliation from="2019-06-20" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2019-06-20" ref="#Ecolo" role="member"/>
                     </person>
@@ -5597,7 +6325,7 @@
                             <placeName>Lier</placeName>
                         </birth>
                         <affiliation from="2003-06-05" to="2007-05-02" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2003-06-05" to="2007-05-02" ref="#OpenVld" role="member"/>
+                        <affiliation from="2003-06-05" to="2007-05-02" ref="#VLD" role="member"/>
                         <affiliation from="2007-06-28" to="2010-05-07" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2007-06-28" to="2010-05-07" ref="#OpenVld" role="member"/>
                         <affiliation from="2010-07-06" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
@@ -5808,8 +6536,8 @@
                         <birth when="1957-07-03">
                             <placeName>Leuven</placeName>
                         </birth>
-                        <affiliation from="2011-12-23" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2011-12-23" to="2014-04-28" ref="#OpenVld" role="member"/>
+                        <affiliation from="2011-12-22" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2011-12-22" to="2014-04-28" ref="#OpenVld" role="member"/>
                     </person>
                     <person xml:id="VanWeert_Els">
                         <persName>
@@ -5926,8 +6654,8 @@
                         <birth when="1942-12-31">
                             <placeName>Charleroi</placeName>
                         </birth>
-                        <affiliation from="2004-07-18" to="2007-05-02" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2004-07-18" to="2007-05-02" ref="#MR" role="member"/>
+                        <affiliation from="2003-05-18" to="2007-05-02" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2003-05-18" to="2007-05-02" ref="#MR" role="member"/>
                     </person>
                     <person xml:id="BenHamou_Nawal">
                         <persName>
@@ -6068,8 +6796,8 @@
                         <birth when="1952-09-21">
                             <placeName>Dendermonde</placeName>
                         </birth>
-                        <affiliation from="2003-06-05" to="2007-05-02" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2003-06-05" to="2007-05-02" ref="#VLD" role="member"/>
+                        <affiliation from="2003-05-18" to="2007-07-14" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2003-05-18" to="2007-07-14" ref="#VLD" role="member"/>
                     </person>
                     <person xml:id="Vermeersch_Wouter">
                         <persName>
@@ -6094,8 +6822,8 @@
                         </birth>
                         <affiliation from="2003-05-18" to="2003-06-14" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2003-05-18" to="2003-06-14" ref="#sp.a" role="member"/>
-                        <affiliation from="2007-06-28" to="2010-05-07" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2007-06-28" to="2010-05-07" ref="#sp.a" role="member"/>
+                        <affiliation from="2007-06-28" to="2009-06-30" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2007-06-28" to="2009-06-30" ref="#sp.a" role="member"/>
                         <affiliation from="2010-07-06" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2010-07-06" to="2014-04-28" ref="#sp.a" role="member"/>
                         <affiliation from="2014-06-19" to="2019-05-23" ref="#be_federal_parliament" role="MP"/>
@@ -6176,8 +6904,8 @@
                         <birth when="1955-04-11">
                             <placeName>Luik</placeName>
                         </birth>
-                        <affiliation from="2014-06-19" to="2019-05-23" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2014-06-19" to="2019-05-23" ref="#cdH" role="member"/>
+                        <affiliation from="2015-04-23" to="2019-05-23" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2015-04-23" to="2019-05-23" ref="#cdH" role="member"/>
                     </person>
                     <person xml:id="Pehlivan_Fatma">
                         <persName>
@@ -6338,10 +7066,8 @@
                         <birth when="1970-05-29">
                             <placeName>Antwerpen</placeName>
                         </birth>
-                        <affiliation from="2003-07-14" to="2003-09-25" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2003-07-14" to="2003-09-25" ref="#spirit" role="member"/>
-                        <affiliation from="2004-07-08" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2004-07-08" ref="#spirit" role="member"/>
+                        <affiliation from="2003-07-14" to="2007-05-02" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2003-07-14" to="2007-05-02" ref="#spirit" role="member"/>
                     </person>
                     <person xml:id="Pieters_Trees">
                         <persName>
@@ -6364,8 +7090,6 @@
                         <birth when="1951-04-11">
                             <placeName>Namen</placeName>
                         </birth>
-                        <affiliation ref="#be_federal_parliament" role="MP"/>
-                        <affiliation ref="#PS" role="member"/>
                         <affiliation from="2009-07-16" to="2010-05-07" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2009-07-16" to="2010-05-07" ref="#PS" role="member"/>
                     </person>
@@ -6452,8 +7176,8 @@
                         <birth when="1968-09-14">
                             <placeName>Charleroi</placeName>
                         </birth>
-                        <affiliation from="2003-06-05" to="2007-05-02" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2003-06-05" to="2007-05-02" ref="#PS" role="member"/>
+                        <affiliation from="2003-06-26" to="2007-05-02" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2003-06-26" to="2007-05-02" ref="#PS" role="member"/>
                     </person>
                     <person xml:id="Bihet_Mathieu">
                         <persName>
@@ -6708,8 +7432,8 @@
                         <birth when="1984-05-26">
                             <placeName>Lommel</placeName>
                         </birth>
-                        <affiliation from="2014-10-14" to="2019-05-23" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2014-10-14" to="2019-05-23" ref="#N-VA" role="member"/>
+                        <affiliation from="2014-10-14" to="2018-12-09" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2014-10-14" to="2018-12-09" ref="#N-VA" role="member"/>
                     </person>
                     <person xml:id="Bogaert_Hendrik">
                         <persName>
@@ -6756,8 +7480,8 @@
                         <birth when="1951-11-20">
                             <placeName>Lüdenscheid (BRD)</placeName>
                         </birth>
-                        <affiliation from="2014-06-19" to="2019-05-23" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2014-06-19" to="2019-05-23" ref="#FDF" role="member"/>
+                        <affiliation from="2016-09-21" to="2019-05-23" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2016-09-21" to="2019-05-23" ref="#FDF" role="member"/>
                     </person>
                     <person xml:id="Stevenheydens_Bruno">
                         <persName>
@@ -6780,14 +7504,14 @@
                         <birth when="1955-08-18">
                             <placeName>Walhain</placeName>
                         </birth>
-                        <affiliation from="2003-06-05" to="2007-05-02" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2003-06-05" to="2007-05-02" ref="#PS" role="member"/>
+                        <affiliation from="2003-06-05" to="2003-07-14" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2003-06-05" to="2003-07-14" ref="#PS" role="member"/>
                         <affiliation from="2007-06-28" to="2010-05-07" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2007-06-28" to="2010-05-07" ref="#PS" role="member"/>
                         <affiliation from="2010-07-06" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2010-07-06" to="2014-04-28" ref="#PS" role="member"/>
-                        <affiliation from="2014-06-19" to="2019-05-23" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2014-06-19" to="2019-05-23" ref="#PS" role="member"/>
+                        <affiliation from="2014-06-19" to="2014-07-30" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2014-06-19" to="2014-07-30" ref="#PS" role="member"/>
                         <affiliation from="2019-06-20" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2019-06-20" ref="#PS" role="member"/>
                     </person>
@@ -6813,7 +7537,7 @@
                             <placeName>Merchtem</placeName>
                         </birth>
                         <affiliation from="2003-06-05" to="2007-05-02" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2003-06-05" to="2007-05-02" ref="#OpenVld" role="member"/>
+                        <affiliation from="2003-06-05" to="2007-05-02" ref="#VLD" role="member"/>
                         <affiliation from="2007-06-28" to="2010-05-07" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2007-06-28" to="2010-05-07" ref="#OpenVld" role="member"/>
                         <affiliation from="2010-07-06" to="2011-12-07" ref="#be_federal_parliament" role="MP"/>
@@ -6904,10 +7628,8 @@
                         </birth>
                         <affiliation from="2009-07-02" to="2010-06-13" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2009-07-02" to="2010-06-13" ref="#CD_en_V" role="member"/>
-                        <affiliation from="2011-12-07" to="2013-01-10" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2011-12-07" to="2013-01-10" ref="#CD_en_V" role="member"/>
-                        <affiliation from="2013-01-10" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2013-01-10" to="2014-04-28" ref="#CD_en_V" role="member"/>
+                        <affiliation from="2011-12-07" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2011-12-07" to="2014-04-28" ref="#CD_en_V" role="member"/>
                     </person>
                     <person xml:id="DeWit_Sophie">
                         <persName>
@@ -6988,10 +7710,8 @@
                         <birth when="1954-11-21">
                             <placeName>Hoei</placeName>
                         </birth>
-                        <affiliation from="2007-07-05" to="2009-06-23" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2007-07-05" to="2009-06-23" ref="#cdH" role="member"/>
-                        <affiliation from="2009-06-25" to="2010-06-13" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2009-06-25" to="2010-06-13" ref="#cdH" role="member"/>
+                        <affiliation from="2007-07-05" to="2010-06-13" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2007-07-05" to="2010-06-13" ref="#cdH" role="member"/>
                         <affiliation from="2010-07-06" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2010-07-06" to="2014-04-28" ref="#cdH" role="member"/>
                     </person>
@@ -7128,8 +7848,8 @@
                         <birth when="1968-11-21">
                             <placeName>Wevelgem</placeName>
                         </birth>
-                        <affiliation from="2014-06-19" to="2019-05-23" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2014-06-19" to="2019-05-23" ref="#sp.a" role="member"/>
+                        <affiliation from="2017-12-13" to="2019-05-23" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2017-12-13" to="2019-05-23" ref="#sp.a" role="member"/>
                     </person>
                     <person xml:id="VanHoof_Els">
                         <persName>
@@ -7290,8 +8010,8 @@
                         <birth when="1969-08-22">
                             <placeName>Leuven</placeName>
                         </birth>
-                        <affiliation from="2007-06-28" to="2010-05-07" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2007-06-28" to="2010-05-07" ref="#sp.a" role="member"/>
+                        <affiliation from="2007-06-10" to="2010-05-07" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2007-06-10" to="2010-05-07" ref="#sp.a" role="member"/>
                         <affiliation from="2010-07-06" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2010-07-06" to="2014-04-28" ref="#sp.a" role="member"/>
                     </person>
@@ -7364,8 +8084,8 @@
                         <birth when="1982-04-15">
                             <placeName>Charleroi</placeName>
                         </birth>
-                        <affiliation from="2003-06-05" to="2007-05-02" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2003-06-05" to="2007-05-02" ref="#PS" role="member"/>
+                        <affiliation from="2003-06-26" to="2007-05-02" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2003-06-26" to="2007-05-02" ref="#PS" role="member"/>
                     </person>
                     <person xml:id="Roppe_Annemie">
                         <persName>
@@ -7403,11 +8123,11 @@
                             <placeName>Brussel</placeName>
                         </birth>
                         <affiliation from="2003-06-05" to="2007-05-02" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2003-06-05" to="2007-05-02" ref="#DéFi" role="member"/>
+                        <affiliation from="2003-06-05" to="2007-05-02" ref="#FDF" role="member"/>
                         <affiliation from="2007-06-28" to="2010-05-07" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2007-06-28" to="2010-05-07" ref="#DéFi" role="member"/>
+                        <affiliation from="2007-06-28" to="2010-05-07" ref="#FDF" role="member"/>
                         <affiliation from="2010-07-06" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2010-07-06" to="2014-04-28" ref="#DéFi" role="member"/>
+                        <affiliation from="2010-07-06" to="2014-04-28" ref="#FDF" role="member"/>
                         <affiliation from="2014-06-19" to="2019-05-23" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2014-06-19" to="2019-05-23" ref="#DéFi" role="member"/>
                     </person>
@@ -7480,12 +8200,12 @@
                         <birth when="1953-04-18">
                             <placeName>Aat</placeName>
                         </birth>
-                        <affiliation from="2003-06-26" to="2007-05-02" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2003-06-26" to="2007-05-02" ref="#PS" role="member"/>
+                        <affiliation from="2003-06-26" to="2007-06-10" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2003-06-26" to="2007-06-10" ref="#PS" role="member"/>
                         <affiliation from="2007-06-28" to="2010-05-07" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2007-06-28" to="2010-05-07" ref="#PS" role="member"/>
-                        <affiliation from="2010-07-06" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2010-07-06" to="2014-04-28" ref="#PS" role="member"/>
+                        <affiliation from="2011-12-07" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2011-12-07" to="2014-04-28" ref="#PS" role="member"/>
                     </person>
                     <person xml:id="Wiaux_Brigitte">
                         <persName>
@@ -7636,8 +8356,8 @@
                         <birth when="1965-04-25">
                             <placeName>Turnhout</placeName>
                         </birth>
-                        <affiliation from="2011-12-07" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2011-12-07" to="2014-04-28" ref="#OpenVld" role="member"/>
+                        <affiliation from="2011-12-07" to="2014-05-25" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2011-12-07" to="2014-05-25" ref="#OpenVld" role="member"/>
                         <affiliation from="2014-07-30" to="2016-04-29" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2014-07-30" to="2016-04-29" ref="#OpenVld" role="member"/>
                         <affiliation from="2018-05-03" to="2019-05-23" ref="#be_federal_parliament" role="MP"/>
@@ -8067,7 +8787,7 @@
                             <placeName>Mechelen</placeName>
                         </birth>
                         <affiliation from="2003-05-18" to="2004-07-06" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2003-05-18" to="2004-07-06" ref="#OpenVld" role="member"/>
+                        <affiliation from="2003-05-18" to="2004-07-06" ref="#VLD" role="member"/>
                         <affiliation from="2007-06-10" to="2010-05-07" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2007-06-10" to="2010-05-07" ref="#OpenVld" role="member"/>
                         <affiliation from="2010-07-06" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
@@ -8160,10 +8880,10 @@
                         </birth>
                         <affiliation from="2003-06-05" to="2007-05-02" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2003-06-05" to="2007-05-02" ref="#cdH" role="member"/>
-                        <affiliation from="2007-06-28" to="2010-05-07" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2007-06-28" to="2010-05-07" ref="#cdH" role="member"/>
-                        <affiliation from="2010-07-06" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2010-07-06" to="2014-04-28" ref="#cdH" role="member"/>
+                        <affiliation from="2007-06-28" to="2008-03-20" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2007-06-28" to="2008-03-20" ref="#cdH" role="member"/>
+                        <affiliation from="2010-07-06" to="2011-12-07" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2010-07-06" to="2011-12-07" ref="#cdH" role="member"/>
                         <affiliation from="2014-06-19" to="2015-04-20" ref="#be_federal_parliament" role="MP"/>
                         <affiliation from="2014-06-19" to="2015-04-20" ref="#cdH" role="member"/>
                     </person>
@@ -8202,10 +8922,8 @@
                         <birth when="1976-05-13">
                             <placeName>Poperinge</placeName>
                         </birth>
-                        <affiliation from="2011-12-15" to="2013-10-08" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2011-12-15" to="2013-10-08" ref="#CD_en_V" role="member"/>
-                        <affiliation from="2013-10-08" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
-                        <affiliation from="2013-10-08" to="2014-04-28" ref="#CD_en_V" role="member"/>
+                        <affiliation from="2011-12-15" to="2014-04-28" ref="#be_federal_parliament" role="MP"/>
+                        <affiliation from="2011-12-15" to="2014-04-28" ref="#CD_en_V" role="member"/>
                     </person>
                     <person xml:id="Cornil_Jean">
                         <persName>
@@ -9664,25 +10382,21 @@
                 </listPerson>
             </particDesc>
             <langUsage>
-                <language xml:lang="en" ident="nl" usage="49">Dutch</language>
-                <language xml:lang="nl" ident="nl" usage="49">Nederlands</language>
-                <language xml:lang="en" ident="en" usage="0">English</language>
-                <language xml:lang="nl" ident="en" usage="0">Engels</language>
-                <language xml:lang="en" ident="de" usage="0">German</language>
-                <language xml:lang="nl" ident="de" usage="0">Duits</language>
-                <language xml:lang="en" ident="fr" usage="51">French</language>
-                <language xml:lang="nl" ident="fr" usage="51">Frans</language>
+                <language xml:lang="en" ident="fr" usage="39">French</language>
+                <language xml:lang="nl" ident="fr" usage="39">Frans</language>
+                <language xml:lang="en" ident="nl" usage="61">Dutch</language>
+                <language xml:lang="nl" ident="nl" usage="61">Nederlands</language>
             </langUsage>
         </profileDesc>
     </teiHeader>
-    <xi:include href="ParlaMint-BE_2015-06-09_54-commissie-ic186x.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-    <xi:include href="ParlaMint-BE_2015-01-21_54-commissie-ic061x.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-    <!--xi:include href="ParlaMint-BE_2015-03-31_54-commissie-ic132x.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/-->
-    <xi:include href="ParlaMint-BE_2017-05-18_54-plenair-ip169x.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-    <xi:include href="ParlaMint-BE_2017-10-18_54-commissie-ic753x.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-    <xi:include href="ParlaMint-BE_2017-07-04_54-commissie-ic702x.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-    <xi:include href="ParlaMint-BE_2015-07-09_54-plenair-ip062x.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-    <xi:include href="ParlaMint-BE_2016-07-19_54-plenair-ip122x.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-    <xi:include href="ParlaMint-BE_2020-03-12_55-plenair-ip027x.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-    <xi:include href="ParlaMint-BE_2014-12-11_54-plenair-ip020x.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-BE_2014-12-16_54-commissie-ic040x.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-BE_2014-11-12_54-commissie-ic017x.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-BE_2015-01-14_54-commissie-ic054x.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-BE_2014-11-12_54-commissie-ic015x.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-BE_2014-09-18_54-commissie-ic006x.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-BE_2015-01-21_54-commissie-ic060x.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-BE_2014-12-10_54-commissie-ic036x.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-BE_2014-12-02_54-commissie-ic031x.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-BE_2015-01-27_54-commissie-ic067x.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ParlaMint-BE_2015-02-03_54-commissie-ic078x.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 </teiCorpus>
