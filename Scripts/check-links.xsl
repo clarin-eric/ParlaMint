@@ -15,9 +15,13 @@
     exclude-result-prefixes="tei et" 
     version="2.0">
 
+  <xsl:param name="meta"/>
+  
   <xsl:output encoding="utf-8" method="text"/>
   <xsl:key name="id" match="tei:*" use="@xml:id"/>
-  <xsl:param name="meta"/>
+  
+  <xsl:variable name="id" select="/tei:*/@xml:id"/>
+  
   <xsl:variable name="teiHeader">
     <xsl:if test="normalize-space($meta) and not(doc-available($meta))">
       <xsl:message terminate="yes">
@@ -41,10 +45,11 @@
   </xsl:variable>
 
   <xsl:template match="/">
-    <xsl:message>
-    <xsl:text>INFO: Checking in </xsl:text>
-    <xsl:value-of select="replace(base-uri(), '.+/', '')"/>
-    </xsl:message>
+    <xsl:call-template name="error">
+      <xsl:with-param name="severity">INFO</xsl:with-param>
+      <xsl:with-param name="msg" select="concat('Checking links in ', 
+					 replace(base-uri(), '.+/', ''))"/>
+    </xsl:call-template>
     <xsl:apply-templates/>
   </xsl:template>
   <xsl:template match="text()"/>
@@ -58,15 +63,13 @@
     <xsl:if test="(//tei:teiHeader and not(//tei:teiHeader//tei:language[@ident = $lang]))
 		  and
 		  not($teiHeader//tei:language[@ident = $lang])">
-      <xsl:message>
-	<xsl:text>ERROR: Can't find language definition for </xsl:text>
-	<xsl:value-of select="parent::tei:*/name()"/>
-	<xsl:text>/@xml:lang = </xsl:text>
-	<xsl:value-of select="$lang"/>
-      </xsl:message>
+      <xsl:call-template name="error">
+	<xsl:with-param name="msg" select="concat('No language definition for ', 
+					   parent::tei:*/name(), '/@xml:lang = ', $lang)"/>
+      </xsl:call-template>
     </xsl:if>
   </xsl:template>
-
+  
   <xsl:template match="@*"/>
   <xsl:template match="@active | @adj | @adjFrom | @adjTo | @ana | @calendar | @change |
 		       @children | @class | @code | @copyOf | @corresp | @datcat | @datingMethod |
@@ -98,7 +101,9 @@
 	  <xsl:when test="key('id', $local-id, $primary)"/>
 	  <xsl:when test="$teiHeader and key('id', $local-id, $teiHeader)"/>
 	  <xsl:otherwise>
-	    <xsl:message select="$message"/>
+	    <xsl:call-template name="error">
+	      <xsl:with-param name="msg" select="$message"/>
+	    </xsl:call-template>
 	  </xsl:otherwise>
 	</xsl:choose>
       </xsl:if>
@@ -111,9 +116,9 @@
     <xsl:choose>
       <!-- Empty pointer -->
       <xsl:when test="not(normalize-space($ptr))">
-	<xsl:message>
-	  <xsl:text>ERROR: empty pointer</xsl:text>
-	</xsl:message>
+	<xsl:call-template name="error">
+	  <xsl:with-param name="msg">Empty pointer!</xsl:with-param>
+	</xsl:call-template>
       </xsl:when>
       <!-- Local pointer -->
       <xsl:when test="matches($ptr, '^#.+')">
@@ -129,13 +134,15 @@
 	<xsl:variable name="prefixDef" select="$listPrefix//tei:prefixDef[@ident=$prefix]"/>
 	<xsl:choose>
 	  <xsl:when test="not($prefixDef)">
-	    <xsl:message>
-	      <xsl:text>ERROR: extended pointer </xsl:text>
-	      <xsl:value-of select="$ptr"/>
-	      <xsl:text> but no prefixDef for prefix </xsl:text>
-	      <xsl:value-of select="$prefix"/>
-	      <xsl:text> found!</xsl:text>
-	    </xsl:message>
+	    <xsl:call-template name="error">
+	      <xsl:with-param name="msg">
+		<xsl:text>Extended pointer </xsl:text>
+		<xsl:value-of select="$ptr"/>
+		<xsl:text> but no prefixDef for prefix </xsl:text>
+		<xsl:value-of select="$prefix"/>
+		<xsl:text> found!</xsl:text>
+	      </xsl:with-param>
+	    </xsl:call-template>
 	  </xsl:when>
 	  <xsl:otherwise>
 	    <xsl:variable name="id" select="substring-after($ptr, ':')"/>
@@ -149,13 +156,27 @@
       <xsl:when test="matches($ptr, '\.....?$')"/>
       <!-- Probably forgotten hash -->
       <xsl:otherwise>
-	<xsl:message>
-	  <xsl:text>ERROR: strange pointer '</xsl:text>
+	<xsl:call-template name="error">
+	  <xsl:with-param name="msg">
+	  <xsl:text>Strange pointer '</xsl:text>
 	  <xsl:value-of select="$ptr"/>
 	  <xsl:text>'</xsl:text>
-	</xsl:message>
+	  </xsl:with-param>
+	</xsl:call-template>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:function>
+
+  <xsl:template name="error">
+    <xsl:param name="msg">???</xsl:param>
+    <xsl:param name="severity">ERROR</xsl:param>
+    <xsl:message>
+      <xsl:value-of select="$severity"/>
+      <xsl:text>&#32;</xsl:text>
+      <xsl:value-of select="$id"/>
+      <xsl:text>: </xsl:text>
+      <xsl:value-of select="$msg"/>
+    </xsl:message>
+  </xsl:template>
 
 </xsl:stylesheet>

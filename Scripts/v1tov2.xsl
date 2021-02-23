@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- Fix bugs from ParlaMint V1 for V2 -->
+<!-- Fix bugs and "bugs" from ParlaMint V1 BG,HR,PL,SI for V2 -->
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:tei="http://www.tei-c.org/ns/1.0"
   xmlns="http://www.tei-c.org/ns/1.0"
@@ -11,6 +11,7 @@
 
   <xsl:param name="version">2.0</xsl:param>
   <xsl:param name="handle">http://hdl.handle.net/11356/1388</xsl:param>
+  <xsl:param name="handle-ana">http://hdl.handle.net/11356/XXXX</xsl:param>
   <xsl:param name="change">
     <change when="{$today-iso}"><name>Tomaž Erjavec</name>: Small fixes for Version 2.</change>
   </xsl:param>
