@@ -7,18 +7,19 @@
   exclude-result-prefixes="tei xi">
 
   <xsl:output method="text"/>
-  
+
+  <xsl:variable name="fileName" select="replace(base-uri(), '^.*?([^/]+\.xml)$', '$1')"/>
   <xsl:variable name="id" select="/tei:*/@xml:id"/>
   
   <xsl:variable name="type">
     <xsl:choose>
-      <xsl:when test="matches(base-uri(), 'ParlaMint-..\.ana\.xml$')">ana</xsl:when>
-      <xsl:when test="matches(base-uri(), 'ParlaMint-.._.+\.ana\.xml$')">ana</xsl:when>
-      <xsl:when test="matches(base-uri(), 'ParlaMint-..\.xml$')">txt</xsl:when>
-      <xsl:when test="matches(base-uri(), 'ParlaMint-.._.+\.xml$')">txt</xsl:when>
+      <xsl:when test="matches($fileName, 'ParlaMint-..\.ana\.xml$')">ana</xsl:when>
+      <xsl:when test="matches($fileName, 'ParlaMint-.._.+\.ana\.xml$')">ana</xsl:when>
+      <xsl:when test="matches($fileName, 'ParlaMint-..\.xml$')">txt</xsl:when>
+      <xsl:when test="matches($fileName, 'ParlaMint-.._.+\.xml$')">txt</xsl:when>
       <xsl:otherwise>
 	<xsl:call-template name="error">
-	  <xsl:with-param name="msg" select="concat('Bad filename ', base-uri())"/>
+	  <xsl:with-param name="msg" select="concat('Bad filename ', $fileName)"/>
 	</xsl:call-template>
       </xsl:otherwise>
     </xsl:choose>
@@ -26,38 +27,38 @@
   
   <xsl:variable name="level">
     <xsl:choose>
-      <xsl:when test="matches(base-uri(), 'ParlaMint-.._')">component</xsl:when>
-      <xsl:when test="matches(base-uri(), 'ParlaMint-..(\.ana)?\.xml$')">root</xsl:when>
+      <xsl:when test="matches($fileName, 'ParlaMint-.._')">component</xsl:when>
+      <xsl:when test="matches($fileName, 'ParlaMint-..(\.ana)?\.xml$')">root</xsl:when>
       <xsl:otherwise>
 	<xsl:call-template name="error">
-	  <xsl:with-param name="msg" select="concat('Bad filename ', base-uri())"/>
+	  <xsl:with-param name="msg" select="concat('Bad filename ', $fileName)"/>
 	</xsl:call-template>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:variable>
   
   <xsl:template match="tei:teiCorpus">
-    <xsl:if test="base-uri() = concat($id, '.xml')">
+    <xsl:if test="not($fileName = concat($id, '.xml'))">
       <xsl:call-template name="error">
 	<xsl:with-param name="msg">teiCorpus/@xml:id does not match filename</xsl:with-param>
       </xsl:call-template>
     </xsl:if>
     <xsl:if test="$level != 'root'">
       <xsl:call-template name="error">
-	<xsl:with-param name="msg">Wrong filename for teiCorpus root</xsl:with-param>
+	<xsl:with-param name="msg">Wrong ID of teiCorpus</xsl:with-param>
       </xsl:call-template>
     </xsl:if>
-    <xsl:if test="$type = 'txt' and not(matches(base-uri(), 'ParlaMint-..'))">
+    <xsl:if test="$type = 'txt' and not(matches($id, 'ParlaMint-..'))">
       <xsl:call-template name="error">
 	<xsl:with-param name="msg">
-	  <xsl:text>Root filename should be ParlaMint-XX.xml</xsl:text>
+	  <xsl:text>teiCorpus ID should be ParlaMint-XX</xsl:text>
 	</xsl:with-param>
       </xsl:call-template>
     </xsl:if>
-    <xsl:if test="$type = 'ana' and not(matches(base-uri(), 'ParlaMint-..\.ana'))">
+    <xsl:if test="$type = 'ana' and not(matches($id, 'ParlaMint-..\.ana'))">
       <xsl:call-template name="error">
 	<xsl:with-param name="msg">
-	  <xsl:text>Root filename should be ParlaMint-XX.ana.xml</xsl:text>
+	  <xsl:text>teiCorpus ID should be ParlaMint-XX.ana</xsl:text>
 	</xsl:with-param>
       </xsl:call-template>
     </xsl:if>
@@ -65,28 +66,29 @@
   </xsl:template>
   
   <xsl:template match="tei:TEI">
-    <xsl:if test="base-uri() = concat($id, '.xml')">
+    <xsl:if test="not($fileName = concat($id, '.xml'))">
       <xsl:call-template name="error">
 	<xsl:with-param name="msg">TEI/@xml:id does not match filename</xsl:with-param>
       </xsl:call-template>
     </xsl:if>
     <xsl:if test="$level != 'component'">
       <xsl:call-template name="error">
-	<xsl:with-param name="msg">Wrong filename for TEI component</xsl:with-param>
+	<xsl:with-param name="msg">Wrong TEI ID</xsl:with-param>
       </xsl:call-template>
     </xsl:if>
     <xsl:choose>
-      <xsl:when test="not(matches(base-uri(), 'ParlaMint-.._'))">
+      <xsl:when test="not(matches($id, 'ParlaMint-.._'))">
 	<xsl:call-template name="error">
 	  <xsl:with-param name="msg">
-	    <xsl:text>Component filenames should be ParlaMint-XX_...</xsl:text>
+	    <xsl:text>TEI ID should be ParlaMint-XX_...</xsl:text>
 	  </xsl:with-param>
 	</xsl:call-template>
       </xsl:when>
-      <xsl:when test="matches(base-uri(), '_.+_')">
+      <xsl:when test="matches($id, '_.+_')">
 	<xsl:call-template name="error">
+	  <xsl:with-param name="severity">WARN</xsl:with-param>
 	  <xsl:with-param name="msg">
-	    <xsl:text>Component filenames should have only one underscore</xsl:text>
+	    <xsl:text>TEI ID should have only one underscore</xsl:text>
 	  </xsl:with-param>
 	</xsl:call-template>
       </xsl:when>
@@ -213,7 +215,7 @@
   </xsl:template>
   
   <xsl:template match="tei:date">
-    <xsl:if test="not(@when or @from or @to)">
+    <xsl:if test="not(parent::tei:s) and not(@when or @from or @to)">
       <xsl:call-template name="error">
 	<xsl:with-param name="msg">Missing any temporal attribute on date</xsl:with-param>
       </xsl:call-template>
@@ -262,15 +264,27 @@
   <xsl:template match="tei:person">
     <xsl:variable name="id">
       <xsl:variable name="names">
-	<xsl:for-each select="tei:persName/tei:surname">
+	<xsl:variable name="persName">
+	  <xsl:choose>
+	    <!-- For the BG case, where they have the names also in Cyrillic -->
+	    <xsl:when test="tei:persName[@xml:lang = 'en']">
+	      <xsl:copy-of select="tei:persName[@xml:lang = 'en']"/>
+	    </xsl:when>
+	  <xsl:otherwise>
+	    <xsl:copy-of select="tei:persName[1]"/>
+	  </xsl:otherwise>
+	  </xsl:choose>
+	</xsl:variable>
+	<xsl:for-each select="$persName//tei:surname">
 	  <xsl:value-of select="."/>
 	</xsl:for-each>
-	<!--xsl:for-each select="tei:persName/tei:forename">
+	<!--xsl:for-each select="$persName//tei:forename">
 	  <xsl:value-of select="."/>
-	</xsl:for-each-->
-	<xsl:value-of select="tei:persName/tei:forename[1]"/>
+	  </xsl:for-each-->
+	<!-- Take just the first forename -->
+	<xsl:value-of select="$persName/tei:forename[1]"/>
       </xsl:variable>
-      <xsl:value-of select="replace($names, '[ -]', '')"/>
+      <xsl:value-of select="replace($names, '[\p{P}\p{S}\p{Z}]', '')"/>
     </xsl:variable>
     <xsl:variable name="id2" select="concat($id, replace(tei:birth/@when, '-.+', ''))"/>
     <xsl:if test="@xml:id != $id and @xml:id != $id2">
@@ -279,7 +293,7 @@
 	<xsl:with-param name="msg">
 	  <xsl:text>Person ID </xsl:text>
 	  <xsl:value-of select="@xml:id"/>
-	  <xsl:text> should be </xsl:text>
+	  <xsl:text> could be </xsl:text>
 	  <xsl:value-of select="$id"/>
 	  <xsl:if test="$id != $id2">
 	    <xsl:text> (or, if ambiguous, </xsl:text>
@@ -323,40 +337,47 @@
     </xsl:call-template>
   </xsl:template>
   
-  <xsl:template match="tei:u[not(@who and normalize-space(@who) and @who != '#')]">
-    <xsl:call-template name="error">
-      <xsl:with-param name="severity">WARN</xsl:with-param>
-      <xsl:with-param name="msg">
-	<xsl:text>Element u without or with bad @who </xsl:text>
-	<xsl:value-of select="@xml:id"/>
-      </xsl:with-param>
-    </xsl:call-template>
-  </xsl:template>
-
-  <xsl:template match="tei:u/text()[normalize-space(.)]">
-    <xsl:call-template name="error">
-      <xsl:with-param name="msg">
-	<xsl:text>Orphan text in u </xsl:text>
-	<xsl:value-of select="@xml:id"/>
-      </xsl:with-param>
-    </xsl:call-template>
-  </xsl:template>
-
-  <xsl:template match="tei:text">
-    <xsl:apply-templates/>
-  </xsl:template>
-  
-  <xsl:template match="tei:u[@who]">
-    <xsl:if test="not(matches(@who, '#[^ ]'))">
+  <xsl:template match="tei:u">
+    <xsl:choose>
+      <xsl:when test="not(@who)">
+	<xsl:call-template name="error">
+	  <xsl:with-param name="severity">WARN</xsl:with-param>
+	  <xsl:with-param name="msg">
+	    <xsl:text>Element u without @who </xsl:text>
+	    <xsl:value-of select="@xml:id"/>
+	  </xsl:with-param>
+	</xsl:call-template>
+      </xsl:when>
+      <xsl:when test="not(normalize-space(@who))">
+	<xsl:call-template name="error">
+	  <xsl:with-param name="msg">
+	    <xsl:text>Element u with empty @who </xsl:text>
+	    <xsl:value-of select="@xml:id"/>
+	  </xsl:with-param>
+	</xsl:call-template>
+      </xsl:when>
+      <xsl:when test="not(starts-with(@who, '#')) or contains(@who, ' ')">
+	<xsl:call-template name="error">
+	  <xsl:with-param name="msg">
+	    <xsl:text>Element u with ill-formed @who </xsl:text>
+	    <xsl:value-of select="@xml:id"/>
+	  </xsl:with-param>
+	</xsl:call-template>
+      </xsl:when>
+    </xsl:choose>
+    <xsl:if test="text()[normalize-space(.)]">
       <xsl:call-template name="error">
 	<xsl:with-param name="msg">
-	  <xsl:text>Bad value for u/@who </xsl:text>
-	  <xsl:value-of select="@who"/>
-	  <xsl:text> for </xsl:text>
+	  <xsl:text>Orphan text in u </xsl:text>
 	  <xsl:value-of select="@xml:id"/>
 	</xsl:with-param>
       </xsl:call-template>
     </xsl:if>
+    <xsl:apply-templates/>
+  </xsl:template>
+  
+  <xsl:template match="tei:text">
+    <xsl:apply-templates/>
   </xsl:template>
   
   <xsl:template match="text()">
