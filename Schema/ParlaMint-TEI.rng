@@ -358,8 +358,17 @@
     <element name="idno">
       <ref name="lang.att"/>
       <attribute name="type">
-	<data type="Name"/>
+	<choice>
+	  <value>URI</value>
+	  <value>VIAF</value>
+	  <data type="Name"/>
+	</choice>
       </attribute>
+      <optional>
+	<attribute name="subtype">
+	  <data type="Name"/>
+	</attribute>
+      </optional>
       <data type="anyURI"/>
     </element>
   </define>

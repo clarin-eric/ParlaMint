@@ -256,6 +256,7 @@
           <xs:element ref="ns1:occupation"/>
           <xs:element ref="ns1:education"/>
           <xs:element ref="ns1:idno"/>
+          <xs:element ref="ns1:figure"/>
         </xs:choice>
       </xs:sequence>
       <xs:attributeGroup ref="ns1:global.atts"/>
@@ -366,6 +367,31 @@
     <xs:complexType mixed="true">
       <xs:attributeGroup ref="ns1:global.atts"/>
       <xs:attributeGroup ref="ns1:temporal.atts"/>
+    </xs:complexType>
+  </xs:element>
+  <!-- Meant as a container of person photo -->
+  <xs:element name="figure">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="head" type="xs:string"/>
+        <xs:element ref="ns1:graphic"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="graphic">
+    <xs:complexType>
+      <xs:attribute name="url" use="required" type="xs:anyURI"/>
+      <xs:attribute name="scale">
+        <xs:simpleType>
+          <xs:union memberTypes="xs:double xs:decimal">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:pattern value='(\-?[\d]+/\-?[\d]+)"/&gt;'/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:union>
+        </xs:simpleType>
+      </xs:attribute>
     </xs:complexType>
   </xs:element>
   <xs:element name="langUsage">

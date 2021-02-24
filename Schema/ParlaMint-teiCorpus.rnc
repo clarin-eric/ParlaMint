@@ -157,7 +157,8 @@ person =
      & affiliation*
      & occupation*
      & education*
-     & idno*)
+     & idno*
+     & figure*)
   }
 persName =
   element persName {
@@ -223,6 +224,19 @@ affiliation =
   }
 occupation = element occupation { global.atts, temporal.atts?, text }
 education = element education { global.atts, temporal.atts?, text }
+# Meant as a container of person photo
+figure =
+  element figure {
+    element head { text }?,
+    element graphic {
+      attribute url { xsd:anyURI },
+      attribute scale {
+        xsd:double
+        | xsd:token { pattern = '(\-?[\d]+/\-?[\d]+)"/>' }
+        | xsd:decimal
+      }?
+    }
+  }
 langUsage =
   element langUsage {
     element language {

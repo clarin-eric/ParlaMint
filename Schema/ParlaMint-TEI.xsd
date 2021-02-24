@@ -313,7 +313,23 @@
       <xs:simpleContent>
         <xs:extension base="xs:anyURI">
           <xs:attributeGroup ref="ns1:lang.att"/>
-          <xs:attribute name="type" use="required" type="xs:Name"/>
+          <xs:attribute name="type" use="required">
+            <xs:simpleType>
+              <xs:union memberTypes="xs:Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:token">
+                    <xs:enumeration value="URI"/>
+                  </xs:restriction>
+                </xs:simpleType>
+                <xs:simpleType>
+                  <xs:restriction base="xs:token">
+                    <xs:enumeration value="VIAF"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:union>
+            </xs:simpleType>
+          </xs:attribute>
+          <xs:attribute name="subtype" type="xs:Name"/>
         </xs:extension>
       </xs:simpleContent>
     </xs:complexType>

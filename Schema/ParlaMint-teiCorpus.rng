@@ -332,6 +332,9 @@
 	<zeroOrMore>
 	  <ref name="idno"/>
 	</zeroOrMore>
+	<zeroOrMore>
+	  <ref name="figure"/>
+	</zeroOrMore>
       </interleave>
     </element>
   </define>
@@ -447,6 +450,33 @@
     </element>
   </define>
 
+  <!-- Meant as a container of person photo -->
+  <define name="figure">
+    <element name="figure">
+      <optional>
+	<element name="head">
+	  <text/>
+	</element>
+      </optional>
+      <element name="graphic">
+	<attribute name="url">
+	  <data type="anyURI"/>
+	</attribute>
+	<optional>
+	  <attribute name="scale">
+	    <choice>
+	      <data type="double"/>
+	      <data type="token">
+		<param name="pattern">(\-?[\d]+/\-?[\d]+)"/></param>
+	      </data>
+	      <data type="decimal"/>
+	    </choice>
+	  </attribute>
+	</optional>
+      </element>
+    </element>
+  </define>
+  
   <define name="langUsage">
     <element name="langUsage">
       <oneOrMore>
