@@ -1,3 +1,6 @@
+root:
+	$s -xsl:Scripts/parlamint2root.xsl Scripts/ParlaMint-template.xml > ParlaMint.xml
+
 #Make HTML
 H = /project/corpora/Parla/ParlaMint/ParlaMint/
 htm:	val-all
