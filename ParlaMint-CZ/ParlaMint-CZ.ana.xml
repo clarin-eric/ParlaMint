@@ -6,8 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" xml:lang="cs">Český parlamentní korpus ParlaMint-CZ, [ParlaMint.ana]</title>
-            <title type="main" xml:lang="en">Czech parliamentary corpus ParlaMint-CZ, [ParlaMint.ana]</title>
+            <title type="main" xml:lang="cs">Český parlamentní korpus ParlaMint-CZ [ParlaMint.ana]</title>
+            <title type="main" xml:lang="en">Czech parliamentary corpus ParlaMint-CZ [ParlaMint.ana]</title>
             <title type="sub" xml:lang="cs">Parlament České republiky, Poslanecká sněmovna</title>
             <title type="sub" xml:lang="en">Parliament of the Czech Republic, Chamber of Deputies</title>
             <meeting ana="#parla.term #parla.lower #parliament.PSP7" n="ps2013">ps2013</meeting>
@@ -89,7 +89,6 @@
                <tagUsage gi="div" occurs="5"/>
                <tagUsage gi="note" occurs="366"/>
                <tagUsage gi="pb" occurs="70"/>
-               <tagUsage gi="media" occurs="70"/>
                <tagUsage gi="u" occurs="274"/>
                <tagUsage gi="seg" occurs="989"/>
                <tagUsage gi="kinesic" occurs="12"/>
@@ -98,7 +97,13 @@
                <tagUsage gi="gap" occurs="7"/>
                <tagUsage gi="desc" occurs="29"/>
                <tagUsage gi="s" occurs="3968"/>
-               <tagUsage gi="name" occurs="1464"/>
+               <tagUsage gi="name" occurs="1444"/>
+               <tagUsage gi="time" occurs="102"/>
+               <tagUsage gi="date" occurs="436"/>
+               <tagUsage gi="unit" occurs="7"/>
+               <tagUsage gi="num" occurs="533"/>
+               <tagUsage gi="email" occurs="1"/>
+               <tagUsage gi="ref" occurs="62"/>
                <tagUsage gi="w" occurs="67968"/>
                <tagUsage gi="pc" occurs="12527"/>
                <tagUsage gi="linkGrp" occurs="3968"/>
@@ -947,11 +952,11 @@
          <appInfo>
             <application ident="UDPipe" version="2">
                <label>UDPipe 2 (czech-pdt-ud-2.6-200830 model)</label>
-               <desc>POS tagging, lemmatization and dependency parsing done with UDPipe 2<ref target="http://ufal.mff.cuni.cz/udpipe/2">http://ufal.mff.cuni.cz/udpipe/2</ref>with czech-pdt-ud-2.6-200830 model</desc>
+               <desc>POS tagging, lemmatization and dependency parsing done with UDPipe 2 <ref target="http://ufal.mff.cuni.cz/udpipe/2">http://ufal.mff.cuni.cz/udpipe/2</ref>with czech-pdt-ud-2.6-200830 model</desc>
             </application>
             <application ident="NameTag" version="2">
                <label>NameTag 2 (czech-cnec2.0-200831 model)</label>
-               <desc>Name entity recognition done with NameTag 2<ref target="http://ufal.mff.cuni.cz/nametag/2">http://ufal.mff.cuni.cz/nametag/2</ref>with czech-cnec2.0-200831 model<ref target="http://hdl.handle.net/11234/1-3443">http://hdl.handle.net/11234/1-3443</ref>). Posprocessing: nested named entities has been merged to four categories (PER, LOC, ORG, MISC).</desc>
+               <desc>Name entity recognition done with NameTag 2 <ref target="http://ufal.mff.cuni.cz/nametag/2">http://ufal.mff.cuni.cz/nametag/2</ref>with czech-cnec2.0-200831 model <ref target="http://hdl.handle.net/11234/1-3443">http://hdl.handle.net/11234/1-3443</ref>). Posprocessing: nested named entities has been merged to four categories (PER, LOC, ORG, MISC).</desc>
             </application>
          </appInfo>
       </encodingDesc>
@@ -2753,7 +2758,7 @@
                </org>
                <org xml:id="government" role="government">
                   <orgName full="yes" xml:lang="cs">Vláda České republiky</orgName>
-                  <orgName full="yes" xml:lang="en">Government of Czech Republic</orgName>
+                  <orgName full="yes" xml:lang="en">Government of the Czech Republic</orgName>
                   <listEvent>
                      <event xml:id="government.VladaCR.149" from="1998-01-02" to="2002-07-14">
                         <label xml:lang="cs">Vláda České republiky (1998-01-02 - 2002-07-14)</label>
@@ -9145,8 +9150,8 @@
                   </persName>
                   <sex value="M">mužské</sex>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6150</idno>
-                  <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/andrej-babis-115388/</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/andrej-babis-162063/</idno>
+                  <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/andrej-babis-115388/</idno>
                   <affiliation ref="#government.VladaCR.1494"
                                role="chairman"
                                from="2018-06-27T09:00:00"/>
@@ -11645,6 +11650,9 @@
                   </persName>
                   <sex value="F">ženské</sex>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6457</idno>
+                  <affiliation ref="#subcommittee.PTOZP.1366"
+                               role="chairman"
+                               from="2021-02-17T00:00:00"/>
                   <affiliation ref="#committee.VSP.1313" role="member" from="2020-03-11T00:00:00"/>
                   <affiliation ref="#interparliamentaryFriendshipGroup.GBR.1457"
                                role="member"
