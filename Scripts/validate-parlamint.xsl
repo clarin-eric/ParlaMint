@@ -214,10 +214,10 @@
     </xsl:if>
   </xsl:template>
   
-  <xsl:template match="tei:date">
-    <xsl:if test="not(parent::tei:s) and not(@when or @from or @to)">
+  <xsl:template match="tei:date | tei:time">
+    <xsl:if test="not(@when or @from or @to or @ana)">
       <xsl:call-template name="error">
-	<xsl:with-param name="msg">Missing any temporal attribute on date</xsl:with-param>
+	<xsl:with-param name="msg">Missing temporal or pointing attribute on date</xsl:with-param>
       </xsl:call-template>
     </xsl:if>
   </xsl:template>
