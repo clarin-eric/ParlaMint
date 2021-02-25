@@ -261,12 +261,11 @@
     </xsl:if>
   </xsl:template>
   
-  <xsl:template match="tei:person">
+  <!--xsl:template match="tei:person">
     <xsl:variable name="id">
       <xsl:variable name="names">
 	<xsl:variable name="persName">
 	  <xsl:choose>
-	    <!-- For the BG case, where they have the names also in Cyrillic -->
 	    <xsl:when test="tei:persName[@xml:lang = 'en']">
 	      <xsl:copy-of select="tei:persName[@xml:lang = 'en']"/>
 	    </xsl:when>
@@ -278,10 +277,6 @@
 	<xsl:for-each select="$persName//tei:surname">
 	  <xsl:value-of select="."/>
 	</xsl:for-each>
-	<!--xsl:for-each select="$persName//tei:forename">
-	  <xsl:value-of select="."/>
-	  </xsl:for-each-->
-	<!-- Take just the first forename -->
 	<xsl:value-of select="$persName//tei:forename[1]"/>
       </xsl:variable>
       <xsl:value-of select="replace($names, '[\p{P}\p{S}\p{Z}]', '')"/>
@@ -303,7 +298,7 @@
 	</xsl:with-param>
       </xsl:call-template>
     </xsl:if>
-  </xsl:template>
+  </xsl:template-->
   
   <xsl:template match="tei:person/tei:affiliation
 		       [@role='member'][not(@from or @to)]">
