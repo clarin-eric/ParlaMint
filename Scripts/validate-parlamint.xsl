@@ -282,7 +282,7 @@
 	  <xsl:value-of select="."/>
 	  </xsl:for-each-->
 	<!-- Take just the first forename -->
-	<xsl:value-of select="$persName/tei:forename[1]"/>
+	<xsl:value-of select="$persName//tei:forename[1]"/>
       </xsl:variable>
       <xsl:value-of select="replace($names, '[\p{P}\p{S}\p{Z}]', '')"/>
     </xsl:variable>
