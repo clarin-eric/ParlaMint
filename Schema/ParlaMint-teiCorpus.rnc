@@ -61,7 +61,7 @@ taxonomy =
 category =
   element category {
     id.att,
-    ana.att,
+    ana.att?,
     element catDesc { lang.att, term-text }+,
     category*
   }
@@ -74,7 +74,7 @@ listOrg =
     head*,
     element org {
       global.atts,
-      ana.att,
+      ana.att?,
       attribute role {
         "government"
         | "parliament"
@@ -130,7 +130,7 @@ listEvent = element listEvent { head*, event+ }
 listRelation =
   element listRelation {
     element relation {
-      ana.att,
+      ana.att?,
       temporal.atts?,
       attribute name {
         "coalition" | "opposition" | "renaming" | "successor"
@@ -174,7 +174,7 @@ persName =
   }
 affiliation =
   element affiliation {
-    ana.att,
+    ana.att?,
     temporal.atts?,
     ref.att?,
     attribute role {

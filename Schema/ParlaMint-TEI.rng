@@ -457,6 +457,7 @@
       <optional>
 	<ref name="who.att"/>
       </optional>
+      <a:documentation>Utterance has obligatory @ana, for the role of the speaker.</a:documentation>
       <ref name="ana.att"/>
       <optional>
 	<attribute name="source">
@@ -651,7 +652,9 @@
     <element name="date">
       <ref name="global.atts"/>
       <ref name="temporal.atts"/>
-      <ref name="ana.att"/>
+      <optional>
+	<ref name="ana.att"/>
+      </optional>
       <text/>
     </element>
   </define>
@@ -739,11 +742,9 @@
     <a:documentation>"analysis" indicates one or more elements
     containing interpretations of the element on which the ana
     attribute appears.</a:documentation>
-    <optional>
-      <attribute name="ana">
-	<ref name="anyURIs"/>
-      </attribute>
-    </optional>
+    <attribute name="ana">
+      <ref name="anyURIs"/>
+    </attribute>
   </define>
   
   <define name="corresp.att">

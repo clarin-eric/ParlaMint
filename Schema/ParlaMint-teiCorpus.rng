@@ -126,7 +126,9 @@
   <define name="category">
     <element name="category">
       <ref name="id.att"/>
-      <ref name="ana.att"/>
+      <optional>
+	<ref name="ana.att"/>
+      </optional>
       <oneOrMore>
 	<element name="catDesc">
 	  <ref name="lang.att"/>
@@ -160,7 +162,9 @@
       <oneOrMore>
 	<element name="org">
 	  <ref name="global.atts"/>
-	  <ref name="ana.att"/>
+	  <optional>
+	    <ref name="ana.att"/>
+	  </optional>
 	  <attribute name="role">
 	    <choice>
               <value>government</value>
@@ -248,7 +252,9 @@
     <element name="listRelation">
       <oneOrMore>
 	<element name="relation">
-	  <ref name="ana.att"/>
+	  <optional>
+	    <ref name="ana.att"/>
+	  </optional>
 	  <optional>
 	    <ref name="temporal.atts"/>
 	  </optional>
@@ -374,7 +380,9 @@
   
   <define name="affiliation">
     <element name="affiliation">
-      <ref name="ana.att"/>
+      <optional>
+	<ref name="ana.att"/>
+      </optional>
       <optional>
 	<ref name="temporal.atts"/>
       </optional>
