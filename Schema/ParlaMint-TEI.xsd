@@ -313,7 +313,23 @@
       <xs:simpleContent>
         <xs:extension base="xs:anyURI">
           <xs:attributeGroup ref="ns1:lang.att"/>
-          <xs:attribute name="type" use="required" type="xs:Name"/>
+          <xs:attribute name="type" use="required">
+            <xs:simpleType>
+              <xs:union memberTypes="xs:Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:token">
+                    <xs:enumeration value="URI"/>
+                  </xs:restriction>
+                </xs:simpleType>
+                <xs:simpleType>
+                  <xs:restriction base="xs:token">
+                    <xs:enumeration value="VIAF"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:union>
+            </xs:simpleType>
+          </xs:attribute>
+          <xs:attribute name="subtype" type="xs:Name"/>
         </xs:extension>
       </xs:simpleContent>
     </xs:complexType>
@@ -559,7 +575,7 @@
         <xs:complexType mixed="true">
           <xs:attributeGroup ref="ns1:global.atts"/>
           <xs:attributeGroup ref="ns1:temporal.atts"/>
-          <xs:attributeGroup ref="ns1:ana.att"/>
+          <xs:attribute name="ana" type="ns1:anyURIs"/>
         </xs:complexType>
       </xs:element>
     </xs:sequence>
@@ -599,7 +615,7 @@
     containing interpretations of the element on which the ana
     attribute appears.</xs:documentation>
     </xs:annotation>
-    <xs:attribute name="ana" type="ns1:anyURIs"/>
+    <xs:attribute name="ana" use="required" type="ns1:anyURIs"/>
   </xs:attributeGroup>
   <xs:attributeGroup name="corresp.att">
     <xs:annotation>

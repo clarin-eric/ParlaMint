@@ -126,7 +126,9 @@
   <define name="category">
     <element name="category">
       <ref name="id.att"/>
-      <ref name="ana.att"/>
+      <optional>
+	<ref name="ana.att"/>
+      </optional>
       <oneOrMore>
 	<element name="catDesc">
 	  <ref name="lang.att"/>
@@ -160,7 +162,9 @@
       <oneOrMore>
 	<element name="org">
 	  <ref name="global.atts"/>
-	  <ref name="ana.att"/>
+	  <optional>
+	    <ref name="ana.att"/>
+	  </optional>
 	  <attribute name="role">
 	    <choice>
               <value>government</value>
@@ -248,7 +252,9 @@
     <element name="listRelation">
       <oneOrMore>
 	<element name="relation">
-	  <ref name="ana.att"/>
+	  <optional>
+	    <ref name="ana.att"/>
+	  </optional>
 	  <optional>
 	    <ref name="temporal.atts"/>
 	  </optional>
@@ -332,6 +338,9 @@
 	<zeroOrMore>
 	  <ref name="idno"/>
 	</zeroOrMore>
+	<zeroOrMore>
+	  <ref name="figure"/>
+	</zeroOrMore>
       </interleave>
     </element>
   </define>
@@ -371,7 +380,9 @@
   
   <define name="affiliation">
     <element name="affiliation">
-      <ref name="ana.att"/>
+      <optional>
+	<ref name="ana.att"/>
+      </optional>
       <optional>
 	<ref name="temporal.atts"/>
       </optional>
@@ -447,6 +458,33 @@
     </element>
   </define>
 
+  <!-- Meant as a container of person photo -->
+  <define name="figure">
+    <element name="figure">
+      <optional>
+	<element name="head">
+	  <text/>
+	</element>
+      </optional>
+      <element name="graphic">
+	<attribute name="url">
+	  <data type="anyURI"/>
+	</attribute>
+	<optional>
+	  <attribute name="scale">
+	    <choice>
+	      <data type="double"/>
+	      <data type="token">
+		<param name="pattern">(\-?[\d]+/\-?[\d]+)"/></param>
+	      </data>
+	      <data type="decimal"/>
+	    </choice>
+	  </attribute>
+	</optional>
+      </element>
+    </element>
+  </define>
+  
   <define name="langUsage">
     <element name="langUsage">
       <oneOrMore>

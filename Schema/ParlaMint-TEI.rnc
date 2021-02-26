@@ -185,7 +185,8 @@ funder =
 idno =
   element idno {
     lang.att,
-    attribute type { xsd:Name },
+    attribute type { "URI" | "VIAF" | xsd:Name },
+    attribute subtype { xsd:Name }?,
     xsd:anyURI
   }
 name-header =
@@ -220,7 +221,10 @@ u =
     >> a:documentation [ "Attributes to link split utterances." ],
     attribute prev { xsd:anyURI }?,
     attribute next { xsd:anyURI }?,
-    who.att?,
+    (who.att?)
+    >> a:documentation [
+         "Utterance has obligatory @ana, for the role of the speaker."
+       ],
     ana.att,
     attribute source { anyURIs }?,
     (seg | comment | pb)+
@@ -313,7 +317,7 @@ time = element time { temporal.atts, text }
 date-simple = element date { when.att, text }
 
 ## A date with with all possible temporal information.
-date = element date { global.atts, temporal.atts, ana.att, text }
+date = element date { global.atts, temporal.atts, ana.att?, text }
 annotated-text = mixed { ref* }
 temporal.val = xsd:dateTime | xsd:date | xsd:gYearMonth | xsd:gYear
 when.att = attribute when { temporal.val }
@@ -335,7 +339,7 @@ global.atts =
 ## "analysis" indicates one or more elements
 ##     containing interpretations of the element on which the ana
 ##     attribute appears.
-ana.att = attribute ana { anyURIs }?
+ana.att = attribute ana { anyURIs }
 
 ## "corresponds" points to elements that correspond
 ##     to the current element in some way.
