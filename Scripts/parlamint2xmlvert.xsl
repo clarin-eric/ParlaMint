@@ -115,8 +115,18 @@
       </xsl:attribute>
       <xsl:attribute name="from" select="$date-from"/>
       <xsl:attribute name="to" select="$date-to"/>
-      <xsl:attribute name="title" select="tei:teiHeader/tei:fileDesc/tei:titleStmt/
-					  tei:title[@xml:lang='en' and @type='sub']"/>
+      <xsl:attribute name="title">
+	<xsl:variable name="titles" select="tei:teiHeader/tei:fileDesc/
+					    tei:titleStmt/tei:title[@xml:lang='en']"/>
+	<xsl:choose>
+	  <xsl:when test="$titles[@type='sub']">
+	    <xsl:value-of select="$titles[@type='sub'][1]"/>
+	  </xsl:when>
+	  <xsl:otherwise>
+	    <xsl:value-of select="$titles[1]"/>
+	  </xsl:otherwise>
+	</xsl:choose>
+      </xsl:attribute>
       <xsl:text>&#10;</xsl:text>
       <xsl:apply-templates select="tei:text/tei:body//tei:u"/>
     </text>
@@ -552,7 +562,7 @@
   
   <xsl:function name="et:output-annotations">
     <xsl:param name="token"/>
-    <xsl:variable name="n" select="replace($token/@xml:id, '.+\.(\d+)$', 'tok$1')"/>
+    <xsl:variable name="n" select="replace($token/@xml:id, '.+\.([^.]+)$', '$1')"/>
     <xsl:variable name="lemma">
       <xsl:choose>
 	<xsl:when test="$token/@lemma">
