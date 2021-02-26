@@ -1,3 +1,11 @@
+root:
+	$s -xsl:Scripts/parlamint2root.xsl Scripts/ParlaMint-template.xml > ParlaMint.xml
+
+#Make HTML
+H = /project/corpora/Parla/ParlaMint/ParlaMint/
+htm:	val-all
+	Scripts/Stylesheets/bin/teitohtml --profiledir=$H --profile=profile \
+	docs/ParlaMint-summary.xml docs/index.html
 test-val:
 	$s -xsl:Scripts/validate-parlamint.xsl ParlaMint-SI/ParlaMint-SI.xml
 	$s -xsl:Scripts/validate-parlamint.xsl ParlaMint-SI/ParlaMint-SI.ana.xml

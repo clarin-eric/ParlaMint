@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:lang="mul" xml:id="ParlaMint">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+           <title type="main">Multilingual comparable parliamentary corpus ParlaMint</title>
+           <respStmt>
+             <persName>Maciej Ogrodniczuk</persName>
+             <persName>Petya Osenova</persName>
+             <resp>ParlaMint project coordination</resp>
+           </respStmt>
+           <respStmt>
+             <persName>Tomaž Erjavec</persName>
+             <resp xml:lang="en">ParlaMint corpus encoding verification</resp>
+           </respStmt>
+           <funder>
+             <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+           </funder>
+         </titleStmt>
+         <editionStmt>
+           <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+           <measure unit="speeches" quantity="0" xml:lang="en">0 speeches</measure>
+           <measure unit="words" quantity="0" xml:lang="en">0 words</measure>
+         </extent>
+         <publicationStmt>
+           <publisher>
+             <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+             <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+           </publisher>
+           <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+           <availability status="free">
+             <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+             <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+           </availability>
+           <date when="0000">0000</date>
+         </publicationStmt>
+         <sourceDesc>
+           <bibl>---</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+           <p>
+           <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <editorialDecl>
+           <correction>
+             <p xml:lang="en">No correction of source texts was performed.</p>
+           </correction>
+           <normalization>
+             <p xml:lang="en">Text has not been normalised, except for spacing.</p>
+           </normalization>
+           <hyphenation>
+             <p xml:lang="en">No end-of-line hyphens were present in the source.</p>
+           </hyphenation>
+           <quotation>
+             <p xml:lang="en">Quotation marks have been left in the text and are not explicitly marked up.</p>
+           </quotation>
+           <segmentation>
+             <p xml:lang="en">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+           </segmentation>
+         </editorialDecl>
+         <tagsDecl>
+           <namespace name="http://www.tei-c.org/ns/1.0">
+             <tagUsage gi="X" occurs="0"/>
+           </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <revisionDesc>
+        <change when="0000">
+        <name>Tomaž Erjavec</name>: First try</change>
+      </revisionDesc>
+   </teiHeader>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-BE/ParlaMint-BE.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-BG/ParlaMint-BG.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ/ParlaMint-CZ.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK/ParlaMint-DK.xml"/>
+   <!--xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-FR/ParlaMint-FR.xml"/-->
+   <!--xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-GB/ParlaMint-GB.xml"/-->
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-HR/ParlaMint-HR.xml"/>
+   <!--xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-HU/ParlaMint-HU.xml"/-->
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS/ParlaMint-IS.xml"/>
+   <!--xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IT/ParlaMint-IT.xml"/-->
+   <!--xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-LT/ParlaMint-LT.xml"/-->
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-NL/ParlaMint-NL.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-PL/ParlaMint-PL.xml"/>
+   <!--xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-RO/ParlaMint-RO.xml"/-->
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-SI/ParlaMint-SI.xml"/>
+   <!--xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-TR/ParlaMint-TR.xml"/-->
+</teiCorpus>
