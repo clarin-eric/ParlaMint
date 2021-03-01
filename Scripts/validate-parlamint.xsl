@@ -207,9 +207,10 @@
   </xsl:template>
   
   <xsl:template match="tei:idno">
-    <xsl:if test="matches(., 'hdl.handle.net') and not(@type='handle')">
+    <xsl:if test="matches(., 'hdl.handle.net') and 
+		  not(@type='handle' or @subtype='handle')">
       <xsl:call-template name="error">
-	<xsl:with-param name="msg">handle URLs should be idno[@type='handle']</xsl:with-param>
+	<xsl:with-param name="msg">handle URLs should be idno[@(sub)type='handle']</xsl:with-param>
       </xsl:call-template>
     </xsl:if>
   </xsl:template>
