@@ -46,7 +46,7 @@ foreach my $inDir (glob "$inDirs") {
 	}
 	close IN;
     }
-    else {print STDERR "WARN: No root file found in $inDir\n"}
+    else {print STDERR "WARN: No text root file found in $inDir\n"}
     if ($rootAnaFile) {
 	&run("$Jing $schemaDir/ParlaMint-teiCorpus.ana.rng", $rootAnaFile);
 	&run("$Saxon -xsl:$Val", $rootAnaFile);
