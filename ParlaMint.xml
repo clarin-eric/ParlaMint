@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Multilingual comparable parliamentary corpus ParlaMint</title>
+            <respStmt>
+               <persName>Maciej Ogrodniczuk</persName>
+               <persName>Petya Osenova</persName>
+               <resp>ParlaMint project coordination</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tomaž Erjavec</persName>
+               <resp xml:lang="en">ParlaMint corpus encoding verification</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Henk van der Pol</persName>
+               <persName>Griet Depoorter</persName>
+               <resp>ParlaMint-BE: Data retrieval and conversion to TEI</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Jesse de Does</persName>
+               <resp>ParlaMint-BE: Linguistic annotation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Петя Осенова</persName>
+               <persName>Petya Osenova</persName>
+               <resp>ParlaMint-BG: Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Кирил Симов</persName>
+               <persName>Kiril Simov</persName>
+               <resp>ParlaMint-BG: Parla-CLARIN TEI XML corpus validation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Владислава Григорова</persName>
+               <persName>Vladislava Grigorova</persName>
+               <resp>ParlaMint-BG: Download, clean-up converting of the data to XML</resp>
+            </respStmt>
+            <respStmt xmlns:xi="http://www.w3.org/2001/XInclude">
+               <persName>Matyáš Kopp</persName>
+               <resp>ParlaMint-CZ: TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Bart Jongejan</persName>
+               <persName>Dorte Haltrup Hansen</persName>
+               <persName>Costanza Navarretta</persName>
+               <resp>ParlaMint-DK: Data retrieval and conversion to TEI</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Nikola Ljubešić</persName>
+               <resp>ParlaMint-HR: Download and clean-up of the JSON digital source</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tomaž Erjavec</persName>
+               <resp>ParlaMint-HR: Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Starkaður Barkarson</persName>
+               <resp>ParlaMint-IS: Collection and processing of texts. TEI encoding.</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp>ParlaMint-NL: Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Maciej Ogrodniczuk</persName>
+               <persName>Michał Lenart</persName>
+               <persName>Daniel Janus</persName>
+               <persName>Bartłomiej Nitoń</persName>
+               <persName>Michał Rudolf</persName>
+               <resp>ParlaMint-PL: Data retrieval and conversion to TEI</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Andrej Pančur</persName>
+               <resp>ParlaMint-SI: Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <funder>
+               <orgName>The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="corpora" quantity="9">9</measure>
+            <measure unit="texts" quantity="55">55 texts</measure>
+            <measure unit="speeches" quantity="1516589">1,516,589 speeches</measure>
+            <measure unit="words" quantity="193531618">193,531,618 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName>CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-02-26">February 26, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>ParlaMint-BE</head>
+               <bibl>
+                  <title type="main">Belgian Federal Parliament: Plenary sessions</title>
+                  <publisher>Kamer van volksvertegenwoordigers</publisher>
+                  <idno type="URI">https://www.dekamer.be/kvvcr/showpage.cfm?section=/cricra&amp;language=nl&amp;cfm=dcricra.cfm?type=plen&amp;cricra=cri&amp;count=all</idno>
+                  <date from="2015-11-12" to="2020-08-14">2015-11-12 - 2020-08-18</date>
+               </bibl>
+               <bibl>
+                  <title type="main">Belgian Federal Parliament: committee meetings</title>
+                  <publisher>Kamer van volksvertegenwoordigers</publisher>
+                  <idno type="URI">https://www.dekamer.be/kvvcr/showpage.cfm?section=/cricra&amp;language=nl&amp;cfm=dcricra.cfm?type=comm&amp;cricra=cri&amp;count=all</idno>
+                  <date from="2015-11-12" to="2020-08-18">2015-11-12 - 2020-08-18</date>
+               </bibl>
+            </listBibl>
+            <listBibl>
+               <head>ParlaMint-BG</head>
+               <bibl>
+                  <title>Transcripts of plenary sittings of the Parliament of the Republic of Bulgaria</title>
+                  <idno type="URI">https://parlametar.bg/</idno>
+                  <idno type="URI">https://parliament.bg/bg</idno>
+                  <date from="2014-10-27" to="2020-07-31">2014-10-27 - 2020-07-31</date>
+               </bibl>
+            </listBibl>
+            <listBibl>
+               <head>ParlaMint-CZ</head>
+               <bibl>
+                  <title xmlns:xi="http://www.w3.org/2001/XInclude" type="main">Parliament of the Czech Republic, Chamber of Deputies</title>
+                  <idno xmlns:xi="http://www.w3.org/2001/XInclude" type="URI">https://www.psp.cz/eknih/</idno>
+                  <date xmlns:xi="http://www.w3.org/2001/XInclude"
+                        from="2014-09-10"
+                        to="2020-11-19">10.09.2014 - 19.11.2020</date>
+               </bibl>
+            </listBibl>
+            <listBibl>
+               <head>ParlaMint-DK</head>
+               <bibl>
+                  <title type="main">Hansards of the Danish Parliament</title>
+                  <publisher>The Danish Parliament</publisher>
+                  <idno type="URI">https://www.ft.dk/</idno>
+                  <date from="2014-10-07" to="2020-09-29">7.10.2014 - 29.9.2020</date>
+               </bibl>
+            </listBibl>
+            <listBibl>
+               <head>ParlaMint-HR</head>
+               <bibl>
+                  <title type="main">Minutes of the National Assembly of the Republic of Croatia</title>
+                  <idno type="URI">https://parlametar.hr/</idno>
+                  <idno type="URI">http://www.sabor.hr/</idno>
+                  <date from="2016-11-15" to="2020-05-18">2016-11-15 - 2020-05-18</date>
+               </bibl>
+            </listBibl>
+            <listBibl>
+               <head>ParlaMint-IS</head>
+               <bibl>
+                  <title>Parliament speeches in the national parliament of Iceland </title>
+                  <idno type="URI">www.athingi.is</idno>
+                  <date from="2015-01-01" to="2020-09-30">2015-01-01 - 2020-09-30</date>
+               </bibl>
+            </listBibl>
+            <listBibl>
+               <head>ParlaMint-NL</head>
+               <bibl>
+                  <title type="main">Minutes of the Eerste Kamer of The Netherlands</title>
+                  <idno type="URI">https://www.eerstekamer.nl/</idno>
+                  <date when="2021-02-01">2021-02-01</date>
+               </bibl>
+               <bibl>
+                  <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+                  <idno type="URI">https://www.tweedekamer.nl/</idno>
+                  <date when="2021-02-01">2021-02-01</date>
+               </bibl>
+            </listBibl>
+            <listBibl>
+               <head>ParlaMint-PL</head>
+               <bibl>
+                  <title type="main">Minutes of the Sejm of the Republic of Poland</title>
+                  <publisher>Kancelaria Sejmu Rzeczypospolitej Polskiej</publisher>
+                  <idno type="URI">http://www.sejm.gov.pl/Sejm9.nsf/page.xsp/archiwum</idno>
+                  <date from="2015-11-12" to="2020-08-14">12.11.2015 - 14.08.2020</date>
+               </bibl>
+               <bibl>
+                  <title type="main">Minutes of the Senat of the Republic of Poland</title>
+                  <publisher>Kancelaria Senatu Rzeczypospolitej Polskiej</publisher>
+                  <idno type="URI">https://www.senat.gov.pl/poprzednie-kadencje/</idno>
+                  <date from="2015-11-12" to="2020-08-18">12.11.2015 - 14.08.2020</date>
+               </bibl>
+            </listBibl>
+            <listBibl>
+               <head>ParlaMint-SI</head>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>No correction of source texts was performed.</p>
+            </correction>
+            <normalization>
+               <p>Text has not been normalised, except for spacing.</p>
+            </normalization>
+            <hyphenation>
+               <p>No end-of-line hyphens were present in the source.</p>
+            </hyphenation>
+            <quotation>
+               <p>Quotation marks have been left in the text and are not explicitly marked up.</p>
+            </quotation>
+            <segmentation>
+               <p>The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+            </segmentation>
+         </editorialDecl>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="8272"/>
+               <tagUsage gi="desc" occurs="222788"/>
+               <tagUsage gi="div" occurs="18128"/>
+               <tagUsage gi="gap" occurs="20718"/>
+               <tagUsage gi="head" occurs="11902"/>
+               <tagUsage gi="incident" occurs="1155"/>
+               <tagUsage gi="kinesic" occurs="117086"/>
+               <tagUsage gi="link" occurs="131157"/>
+               <tagUsage gi="linkGrp" occurs="6627"/>
+               <tagUsage gi="media" occurs="70"/>
+               <tagUsage gi="name" occurs="3503"/>
+               <tagUsage gi="note" occurs="297742"/>
+               <tagUsage gi="pb" occurs="70"/>
+               <tagUsage gi="pc" occurs="12453"/>
+               <tagUsage gi="s" occurs="6627"/>
+               <tagUsage gi="seg" occurs="3736545"/>
+               <tagUsage gi="text" occurs="8272"/>
+               <tagUsage gi="u" occurs="1516589"/>
+               <tagUsage gi="vocal" occurs="81240"/>
+               <tagUsage gi="w" occurs="118704"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2021-02-26">
+            <name>Tomaž Erjavec</name>: First try.</change>
+      </revisionDesc>
+   </teiHeader>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-BE/ParlaMint-BE.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-BG/ParlaMint-BG.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-CZ/ParlaMint-CZ.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-DK/ParlaMint-DK.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-HR/ParlaMint-HR.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-IS/ParlaMint-IS.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-NL/ParlaMint-NL.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-PL/ParlaMint-PL.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-SI/ParlaMint-SI.xml"/>
+</teiCorpus>

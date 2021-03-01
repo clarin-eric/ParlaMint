@@ -371,8 +371,13 @@
     <xsl:apply-templates/>
   </xsl:template>
   
-  <xsl:template match="tei:text">
-    <xsl:apply-templates/>
+  <xsl:template match="tei:w | tei:pc">
+    <xsl:if test="@msd and not(starts-with(@msd, 'UPosTag='))">
+      <xsl:call-template name="error">
+	<xsl:with-param name="msg" select="concat('Token @msd value should start with UPosTag= in ', 
+					   @xml:id)"/>
+      </xsl:call-template>
+    </xsl:if>
   </xsl:template>
   
   <xsl:template match="text()">
