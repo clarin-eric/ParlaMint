@@ -55,8 +55,8 @@
   <xsl:template match="tei:extent">
     <xsl:copy>
       <xsl:variable name="corpora" select="count($docs/tei:item)"/>
-      <measure unit="corpora" quantity="{$corpora}">
-	<xsl:value-of select="$corpora"/>
+      <measure unit="corpora" quantity="{format-number($corpora, '#')}">
+	<xsl:value-of select="concat(format-number($corpora, '###,###,###'), ' corpora')"/>
       </measure>
       <xsl:variable name="quant">
 	<xsl:variable name="quants">
