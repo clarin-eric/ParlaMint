@@ -170,7 +170,8 @@ persName =
      | (element surname { text }+
         & element forename { text }+
         & element addName { text }*
-        & element roleName { text }*))
+        & element roleName { text }*
+        & element nameLink { text }*))
   }
 affiliation =
   element affiliation {

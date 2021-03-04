@@ -290,6 +290,7 @@
           <xs:element ref="ns1:forename"/>
           <xs:element ref="ns1:addName"/>
           <xs:element ref="ns1:roleName"/>
+          <xs:element ref="ns1:nameLink"/>
         </xs:choice>
       </xs:choice>
       <xs:attributeGroup ref="ns1:lang.att"/>
@@ -299,6 +300,7 @@
   <xs:element name="forename" type="xs:string"/>
   <xs:element name="addName" type="xs:string"/>
   <xs:element name="roleName" type="xs:string"/>
+  <xs:element name="nameLink" type="xs:string"/>
   <xs:element name="affiliation">
     <xs:complexType mixed="true">
       <xs:attribute name="ana" type="ns1:anyURIs"/>
