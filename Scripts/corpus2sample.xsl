@@ -14,7 +14,7 @@
   <xsl:param name="outDir"/>
   
   <!-- How many TEI files to take -->
-  <xsl:param name="Files">5</xsl:param>
+  <xsl:param name="Files">3</xsl:param>
 
   <!-- How many utterances to select from start and end of component files -->
   <xsl:param name="Range">2</xsl:param>
