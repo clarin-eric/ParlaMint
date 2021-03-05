@@ -229,7 +229,7 @@ u =
     attribute source { anyURIs }?,
     (seg | comment | pb)+
   }
-seg = element seg { global.atts, (text | comment)+ }
+seg = element seg { global.atts, (comment | pb | text)+ }
 note =
   element note {
     global.atts,
@@ -293,7 +293,7 @@ head =
   element head {
     attribute type { xsd:token }?,
     global.atts,
-    text
+    (note | pb | text)+
   }
 ref =
   element ref {

@@ -418,9 +418,10 @@
   </xs:element>
   <xs:element name="seg">
     <xs:complexType mixed="true">
-      <xs:sequence>
-        <xs:element minOccurs="0" maxOccurs="unbounded" ref="ns1:comment"/>
-      </xs:sequence>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="ns1:comment"/>
+        <xs:element ref="ns1:pb"/>
+      </xs:choice>
       <xs:attributeGroup ref="ns1:global.atts"/>
     </xs:complexType>
   </xs:element>
@@ -532,6 +533,10 @@
   <!-- GENERALLY USEFUL DEFINITIONS -->
   <xs:element name="head">
     <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="ns1:note"/>
+        <xs:element ref="ns1:pb"/>
+      </xs:choice>
       <xs:attribute name="type" type="xs:token"/>
       <xs:attributeGroup ref="ns1:global.atts"/>
     </xs:complexType>
