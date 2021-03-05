@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:lang="hr" xml:id="ParlaMint-HR.ana">
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0"
+           xml:lang="hr"
+           xml:id="ParlaMint-HR.ana">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -40,8 +42,7 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URL">https://github.com/clarin-eric/ParlaMint</idno>
-            <pubPlace><ref target="https://github.com/clarin-eric/ParlaMint">https://github.com/clarin-eric/ParlaMint</ref></pubPlace>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1405</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="hr">Ovaj rad je dostupan pod <ref target="http://creativecommons.org/licenses/by/4.0/">međunarodnom licencom Creative Commons Imenovanje 4.0</ref>
@@ -49,10 +50,9 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-02-04">2021-02-04</date>
+            <date when="2021-03-04">2021-03-04</date>
          </publicationStmt>
          <sourceDesc>
-            <bibl><title>Multilingual comparable corpora of parliamentary debates ParlaMint 1.0</title><idno type="handle">http://hdl.handle.net/11356/1388</idno></bibl>
             <bibl>
                <title type="main">Minutes of the National Assembly of the Republic of Croatia</title>
                <idno type="URI">https://parlametar.hr/</idno>
@@ -63,9 +63,11 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="hr"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            <p xml:lang="hr">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
-            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
          <editorialDecl>
             <correction>
@@ -107,318 +109,533 @@
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="parla.legislature">
-               <desc xml:lang="hr"><term>Zakonodavstvo</term></desc>
-               <desc xml:lang="en"><term>Legislature</term></desc>
+               <desc xml:lang="hr">
+                  <term>Zakonodavstvo</term>
+               </desc>
+               <desc xml:lang="en">
+                  <term>Legislature</term>
+               </desc>
                <category xml:id="parla.geo-political">
-                  <catDesc xml:lang="hr"><term>Geopolitičke ili upravne jedinice</term></catDesc>
-                  <catDesc xml:lang="en"><term>Geo-political or administrative units</term></catDesc>
+                  <catDesc xml:lang="hr">
+                     <term>Geopolitičke ili upravne jedinice</term>
+                  </catDesc>
+                  <catDesc xml:lang="en">
+                     <term>Geo-political or administrative units</term>
+                  </catDesc>
                   <category xml:id="parla.supranational">
-                     <catDesc xml:lang="hr"><term>Transnacionalno zakonodavstvo</term></catDesc>
-                     <catDesc xml:lang="en"><term>Supranational legislature</term></catDesc>
+                     <catDesc xml:lang="hr">
+                        <term>Transnacionalno zakonodavstvo</term>
+                     </catDesc>
+                     <catDesc xml:lang="en">
+                        <term>Supranational legislature</term>
+                     </catDesc>
                   </category>
                   <category xml:id="parla.national">
-                     <catDesc xml:lang="hr"><term>Nacionalno zakonodavstvo</term></catDesc>
-                     <catDesc xml:lang="en"><term>National legislature</term></catDesc>
+                     <catDesc xml:lang="hr">
+                        <term>Nacionalno zakonodavstvo</term>
+                     </catDesc>
+                     <catDesc xml:lang="en">
+                        <term>National legislature</term>
+                     </catDesc>
                   </category>
                   <category xml:id="parla.regional">
-                     <catDesc xml:lang="hr"><term>Regionalno zakonodavstvo</term></catDesc>
-                     <catDesc xml:lang="en"><term>Regional legislature</term></catDesc>
+                     <catDesc xml:lang="hr">
+                        <term>Regionalno zakonodavstvo</term>
+                     </catDesc>
+                     <catDesc xml:lang="en">
+                        <term>Regional legislature</term>
+                     </catDesc>
                   </category>
                   <category xml:id="parla.local">
-                     <catDesc xml:lang="hr"><term>Lokalno zakonodavstvo</term></catDesc>
-                     <catDesc xml:lang="en"><term>Local legislature</term></catDesc>
+                     <catDesc xml:lang="hr">
+                        <term>Lokalno zakonodavstvo</term>
+                     </catDesc>
+                     <catDesc xml:lang="en">
+                        <term>Local legislature</term>
+                     </catDesc>
                   </category>
                </category>
                <category xml:id="parla.organization">
-                  <catDesc xml:lang="hr"><term>Organizacija</term></catDesc>
-                  <catDesc xml:lang="en"><term>Organization</term></catDesc>
+                  <catDesc xml:lang="hr">
+                     <term>Organizacija</term>
+                  </catDesc>
+                  <catDesc xml:lang="en">
+                     <term>Organization</term>
+                  </catDesc>
                   <category xml:id="parla.chambers">
-                     <catDesc xml:lang="hr"><term>Komore</term></catDesc>
-                     <catDesc xml:lang="en"><term>Chambers</term></catDesc>
+                     <catDesc xml:lang="hr">
+                        <term>Komore</term>
+                     </catDesc>
+                     <catDesc xml:lang="en">
+                        <term>Chambers</term>
+                     </catDesc>
                      <category xml:id="parla.uni">
-                        <catDesc xml:lang="hr"><term>Jednodoman</term></catDesc>
-                        <catDesc xml:lang="en"><term>Unicameralism</term></catDesc>
+                        <catDesc xml:lang="hr">
+                           <term>Jednodoman</term>
+                        </catDesc>
+                        <catDesc xml:lang="en">
+                           <term>Unicameralism</term>
+                        </catDesc>
                      </category>
                      <category xml:id="parla.bi">
-                        <catDesc xml:lang="hr"><term>Dvodoman</term></catDesc>
-                        <catDesc xml:lang="en"><term>Bicameralism</term></catDesc>
+                        <catDesc xml:lang="hr">
+                           <term>Dvodoman</term>
+                        </catDesc>
+                        <catDesc xml:lang="en">
+                           <term>Bicameralism</term>
+                        </catDesc>
                         <category xml:id="parla.upper">
-                           <catDesc xml:lang="hr"><term>Gornji dom</term></catDesc>
-                           <catDesc xml:lang="en"><term>Upper house</term></catDesc>
+                           <catDesc xml:lang="hr">
+                              <term>Gornji dom</term>
+                           </catDesc>
+                           <catDesc xml:lang="en">
+                              <term>Upper house</term>
+                           </catDesc>
                         </category>
                         <category xml:id="parla.lower">
-                           <catDesc xml:lang="hr"><term>Donji dom</term></catDesc>
-                           <catDesc xml:lang="en"><term>Lower house</term></catDesc>
+                           <catDesc xml:lang="hr">
+                              <term>Donji dom</term>
+                           </catDesc>
+                           <catDesc xml:lang="en">
+                              <term>Lower house</term>
+                           </catDesc>
                         </category>
                      </category>
                      <category xml:id="parla.multi">
-                        <catDesc xml:lang="hr"><term>Višedoman</term></catDesc>
-                        <catDesc xml:lang="en"><term>Multicameralism</term></catDesc>
+                        <catDesc xml:lang="hr">
+                           <term>Višedoman</term>
+                        </catDesc>
+                        <catDesc xml:lang="en">
+                           <term>Multicameralism</term>
+                        </catDesc>
                         <category xml:id="parla.chamber">
-                           <catDesc xml:lang="hr"><term>Komora</term></catDesc>
-                           <catDesc xml:lang="en"><term>Chamber</term></catDesc>
+                           <catDesc xml:lang="hr">
+                              <term>Komora</term>
+                           </catDesc>
+                           <catDesc xml:lang="en">
+                              <term>Chamber</term>
+                           </catDesc>
                         </category>
                      </category>
                   </category>
                   <category xml:id="parla.committee">
-                     <catDesc xml:lang="hr"><term>Radno tijelo</term></catDesc>
-                     <catDesc xml:lang="en"><term>Committee</term></catDesc>
+                     <catDesc xml:lang="hr">
+                        <term>Radno tijelo</term>
+                     </catDesc>
+                     <catDesc xml:lang="en">
+                        <term>Committee</term>
+                     </catDesc>
                      <category xml:id="parla.committee.standing">
-                        <catDesc xml:lang="hr"><term>Stalno radno tijelo</term></catDesc>
-                        <catDesc xml:lang="en"><term>Standing committee</term></catDesc>
+                        <catDesc xml:lang="hr">
+                           <term>Stalno radno tijelo</term>
+                        </catDesc>
+                        <catDesc xml:lang="en">
+                           <term>Standing committee</term>
+                        </catDesc>
                      </category>
                      <category xml:id="parla.committee.special">
-                        <catDesc xml:lang="hr"><term>Privremeno radno tijelo</term></catDesc>
-                        <catDesc xml:lang="en"><term>Special committee</term></catDesc>
+                        <catDesc xml:lang="hr">
+                           <term>Privremeno radno tijelo</term>
+                        </catDesc>
+                        <catDesc xml:lang="en">
+                           <term>Special committee</term>
+                        </catDesc>
                      </category>
                      <category xml:id="parla.committee.inquiry">
-                        <catDesc xml:lang="hr"><term>Istražno tijelo</term></catDesc>
-                        <catDesc xml:lang="en"><term>Committee of inquiry </term></catDesc>
+                        <catDesc xml:lang="hr">
+                           <term>Istražno tijelo</term>
+                        </catDesc>
+                        <catDesc xml:lang="en">
+                           <term>Committee of inquiry</term>
+                        </catDesc>
                      </category>
                   </category>
                </category>
                <category xml:id="parla.term">
-                  <catDesc xml:lang="hr"><term>Zakonodavno razdoblje</term></catDesc>
-                  <catDesc xml:lang="en"><term>Legislative period</term>: term of the parliament between general elections.</catDesc>
+                  <catDesc xml:lang="hr">
+                     <term>Zakonodavno razdoblje</term>
+                  </catDesc>
+                  <catDesc xml:lang="en">
+                     <term>Legislative period</term>: term of the parliament between general elections.</catDesc>
                   <category xml:id="parla.session">
-                     <catDesc xml:lang="hr"><term>Zakonodavna sjednica</term></catDesc>
-                     <catDesc xml:lang="en"><term>Legislative session</term>: the period of time in which a legislature is convened for purpose of lawmaking, usually being one of two or more smaller divisions of the entire time between two elections. A session is a meeting or series of connected meetings devoted to a single order of business, program, agenda, or announced purpose.</catDesc>
+                     <catDesc xml:lang="hr">
+                        <term>Zakonodavna sjednica</term>
+                     </catDesc>
+                     <catDesc xml:lang="en">
+                        <term>Legislative session</term>: the period of time in which a legislature is convened for purpose of lawmaking, usually being one of two or more smaller divisions of the entire time between two elections. A session is a meeting or series of connected meetings devoted to a single order of business, program, agenda, or announced purpose.</catDesc>
                      <category xml:id="parla.meeting">
-                        <catDesc xml:lang="hr"><term>Zasjedanje</term></catDesc>
-                        <catDesc xml:lang="en"><term>Meeting</term>: Each meeting may be a separate session or part of a group of meetings constituting a session. The session/meeting may take one or more days.</catDesc>
+                        <catDesc xml:lang="hr">
+                           <term>Zasjedanje</term>
+                        </catDesc>
+                        <catDesc xml:lang="en">
+                           <term>Meeting</term>: Each meeting may be a separate session or part of a group of meetings constituting a session. The session/meeting may take one or more days.</catDesc>
                         <category xml:id="parla.meeting-types">
-                           <catDesc xml:lang="hr"><term>Vrste zasjedanja</term></catDesc>
-                           <catDesc xml:lang="en"><term>Types of meetings</term></catDesc>
+                           <catDesc xml:lang="hr">
+                              <term>Vrste zasjedanja</term>
+                           </catDesc>
+                           <catDesc xml:lang="en">
+                              <term>Types of meetings</term>
+                           </catDesc>
                            <category xml:id="parla.meeting.regular">
-                              <catDesc xml:lang="hr"><term>Redovno zasjedanje</term></catDesc>
-                              <catDesc xml:lang="en"><term>Regular meeting</term></catDesc>
+                              <catDesc xml:lang="hr">
+                                 <term>Redovno zasjedanje</term>
+                              </catDesc>
+                              <catDesc xml:lang="en">
+                                 <term>Regular meeting</term>
+                              </catDesc>
                            </category>
                            <category xml:id="parla.meeting.special">
-                              <catDesc xml:lang="hr"><term>Posebno zasjedanje</term></catDesc>
-                              <catDesc xml:lang="en"><term>Special meeting</term></catDesc>
+                              <catDesc xml:lang="hr">
+                                 <term>Posebno zasjedanje</term>
+                              </catDesc>
+                              <catDesc xml:lang="en">
+                                 <term>Special meeting</term>
+                              </catDesc>
                               <category xml:id="parla.meeting.extraordinary">
-                                 <catDesc xml:lang="hr"><term>Izvanredno zasjedanje</term></catDesc>
-                                 <catDesc xml:lang="en"><term>Extraordinary meeting</term></catDesc>
+                                 <catDesc xml:lang="hr">
+                                    <term>Izvanredno zasjedanje</term>
+                                 </catDesc>
+                                 <catDesc xml:lang="en">
+                                    <term>Extraordinary meeting</term>
+                                 </catDesc>
                               </category>
                               <category xml:id="parla.meeting.urgent">
-                                 <catDesc xml:lang="hr"><term>Hitno zasjedanje</term></catDesc>
-                                 <catDesc xml:lang="en"><term>Urgent meeting</term></catDesc>
+                                 <catDesc xml:lang="hr">
+                                    <term>Hitno zasjedanje</term>
+                                 </catDesc>
+                                 <catDesc xml:lang="en">
+                                    <term>Urgent meeting</term>
+                                 </catDesc>
                               </category>
                               <category xml:id="parla.meeting.ceremonial">
-                                 <catDesc xml:lang="hr"><term>Svečano zasjedanje</term></catDesc>
-                                 <catDesc xml:lang="en"><term>Ceremonial meeting</term></catDesc>
+                                 <catDesc xml:lang="hr">
+                                    <term>Svečano zasjedanje</term>
+                                 </catDesc>
+                                 <catDesc xml:lang="en">
+                                    <term>Ceremonial meeting</term>
+                                 </catDesc>
                               </category>
                               <category xml:id="parla.meeting.commemorative">
-                                 <catDesc xml:lang="hr"><term>Komemorativno zasjedanje</term></catDesc>
-                                 <catDesc xml:lang="en"><term>Commemorative meeting</term></catDesc>
+                                 <catDesc xml:lang="hr">
+                                    <term>Komemorativno zasjedanje</term>
+                                 </catDesc>
+                                 <catDesc xml:lang="en">
+                                    <term>Commemorative meeting</term>
+                                 </catDesc>
                               </category>
                               <category xml:id="parla.meeting.opinions">
-                                 <catDesc xml:lang="hr"><term>Javno predstavljanje mišljenja</term></catDesc>
-                                 <catDesc xml:lang="en"><term>Public presentation of opinions</term></catDesc>
+                                 <catDesc xml:lang="hr">
+                                    <term>Javno predstavljanje mišljenja</term>
+                                 </catDesc>
+                                 <catDesc xml:lang="en">
+                                    <term>Public presentation of opinions</term>
+                                 </catDesc>
                               </category>
                            </category>
                            <category xml:id="parla.meeting.continued">
-                              <catDesc xml:lang="hr"><term>Nastavljena sjednica</term></catDesc>
-                              <catDesc xml:lang="en"><term>Continued meeting</term></catDesc>
+                              <catDesc xml:lang="hr">
+                                 <term>Nastavljena sjednica</term>
+                              </catDesc>
+                              <catDesc xml:lang="en">
+                                 <term>Continued meeting</term>
+                              </catDesc>
                            </category>
                            <category xml:id="parla.meeting.public">
-                              <catDesc xml:lang="hr"><term>Javna sjednica</term></catDesc>
-                              <catDesc xml:lang="en"><term>Public meeting</term></catDesc>
+                              <catDesc xml:lang="hr">
+                                 <term>Javna sjednica</term>
+                              </catDesc>
+                              <catDesc xml:lang="en">
+                                 <term>Public meeting</term>
+                              </catDesc>
                            </category>
                            <category xml:id="parla.meeting.executive">
-                              <catDesc xml:lang="hr"><term>Zatvorena sjednica</term></catDesc>
-                              <catDesc xml:lang="en"><term>Executive meeting</term></catDesc>
+                              <catDesc xml:lang="hr">
+                                 <term>Zatvorena sjednica</term>
+                              </catDesc>
+                              <catDesc xml:lang="en">
+                                 <term>Executive meeting</term>
+                              </catDesc>
                            </category>
                         </category>
                         <category xml:id="parla.sitting">
-                           <catDesc xml:lang="hr"><term>Dan zasjedanja</term></catDesc>
-                           <catDesc xml:lang="en"><term>Sitting</term>: sitting day</catDesc>
+                           <catDesc xml:lang="hr">
+                              <term>Dan zasjedanja</term>
+                           </catDesc>
+                           <catDesc xml:lang="en">
+                              <term>Sitting</term>: sitting day</catDesc>
                         </category>
                      </category>
                   </category>
                </category>
             </taxonomy>
             <taxonomy xml:id="speaker_types">
-               <desc xml:lang="hr"><term>Vrste govornika</term></desc>
-               <desc xml:lang="en"><term>Types of speakers</term></desc>
+               <desc xml:lang="hr">
+                  <term>Vrste govornika</term>
+               </desc>
+               <desc xml:lang="en">
+                  <term>Types of speakers</term>
+               </desc>
                <category xml:id="chair">
-                  <catDesc xml:lang="hr"><term>Predsjedavajući</term>: predsjedavajući zasjedanja</catDesc>
-                  <catDesc xml:lang="en"><term>Chairperson</term>: chairman of a meeting</catDesc>
+                  <catDesc xml:lang="hr">
+                     <term>Predsjedavajući</term>: predsjedavajući zasjedanja</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>Chairperson</term>: chairman of a meeting</catDesc>
                </category>
                <category xml:id="regular">
-                  <catDesc xml:lang="hr"><term>Redovni</term>: redovni govornik na zasjedanju</catDesc>
-                  <catDesc xml:lang="en"><term>Regular</term>: a regular speaker at a meeting</catDesc>
+                  <catDesc xml:lang="hr">
+                     <term>Redovni</term>: redovni govornik na zasjedanju</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>Regular</term>: a regular speaker at a meeting</catDesc>
                </category>
                <category xml:id="guest">
-                  <catDesc xml:lang="hr"><term>Gost</term>: gostujući govornik na zasjedanju</catDesc>
-                  <catDesc xml:lang="en"><term>Guest</term>: a guest speaker at a meeting</catDesc>
+                  <catDesc xml:lang="hr">
+                     <term>Gost</term>: gostujući govornik na zasjedanju</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>Guest</term>: a guest speaker at a meeting</catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="subcorpus">
-               <desc xml:lang="hr"><term>Podkorpusi</term></desc>
-               <desc xml:lang="en"><term>Subcorpora</term></desc>
+               <desc xml:lang="hr">
+                  <term>Podkorpusi</term>
+               </desc>
+               <desc xml:lang="en">
+                  <term>Subcorpora</term>
+               </desc>
                <category xml:id="reference">
-                  <catDesc xml:lang="hr"><term>Referenca</term>: referenčni podkorpus, do 2019-10-31</catDesc>
-                  <catDesc xml:lang="en"><term>Reference</term>: reference subcorpus, until 2019-10-31</catDesc>
+                  <catDesc xml:lang="hr">
+                     <term>Referenca</term>: referenčni podkorpus, do 2019-10-31</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>Reference</term>: reference subcorpus, until 2019-10-31</catDesc>
                </category>
                <category xml:id="covid">
-                  <catDesc xml:lang="hr"><term>COVID</term>: COVID podkorpus, od 2019-11-01 dalje</catDesc>
-                  <catDesc xml:lang="en"><term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
+                  <catDesc xml:lang="hr">
+                     <term>COVID</term>: COVID podkorpus, od 2019-11-01 dalje</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="NER">
-               <desc xml:lang="en"><term>Named entities</term></desc>
+               <desc xml:lang="en">
+                  <term>Named entities</term>
+               </desc>
                <category xml:id="PER">
-                  <catDesc xml:lang="en"><term>person</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>person</term>
+                  </catDesc>
                </category>
                <category xml:id="LOC">
-                  <catDesc xml:lang="en"><term>location</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>location</term>
+                  </catDesc>
                </category>
                <category xml:id="ORG">
-                  <catDesc xml:lang="en"><term>organization</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>organization</term>
+                  </catDesc>
                </category>
                <category xml:id="MISC">
-                  <catDesc xml:lang="en"><term>miscellaneous</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>miscellaneous</term>
+                  </catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="UD-SYN">
-               <desc xml:lang="en"><term>UD syntactic relations</term></desc>
+               <desc xml:lang="en">
+                  <term>UD syntactic relations</term>
+               </desc>
                <category xml:id="acl">
-                  <catDesc xml:lang="en"><term>acl</term>: Clausal modifier of noun (adjectival clause)</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>acl</term>: Clausal modifier of noun (adjectival clause)</catDesc>
                </category>
                <category xml:id="advcl">
-                  <catDesc xml:lang="en"><term>advcl</term>: Adverbial clause modifier</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>advcl</term>: Adverbial clause modifier</catDesc>
                </category>
                <category xml:id="advmod">
-                  <catDesc xml:lang="en"><term>advmod</term>: Adverbial modifier</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>advmod</term>: Adverbial modifier</catDesc>
                </category>
                <category xml:id="amod">
-                  <catDesc xml:lang="en"><term>amod</term>: Adjectival modifier</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>amod</term>: Adjectival modifier</catDesc>
                </category>
                <category xml:id="appos">
-                  <catDesc xml:lang="en"><term>appos</term>: Appositional modifier</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>appos</term>: Appositional modifier</catDesc>
                </category>
                <category xml:id="aux">
-                  <catDesc xml:lang="en"><term>aux</term>: Auxiliary</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>aux</term>: Auxiliary</catDesc>
                </category>
                <category xml:id="case">
-                  <catDesc xml:lang="en"><term>case</term>: Case marking</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>case</term>: Case marking</catDesc>
                </category>
                <category xml:id="cc">
-                  <catDesc xml:lang="en"><term>cc</term>: Coordinating conjunction</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>cc</term>: Coordinating conjunction</catDesc>
                </category>
                <category xml:id="ccomp">
-                  <catDesc xml:lang="en"><term>ccomp</term>: Clausal complement</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>ccomp</term>: Clausal complement</catDesc>
                </category>
                <category xml:id="cc_preconj">
-                  <catDesc xml:lang="en"><term>cc:preconj</term>: Preconjunct</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>cc:preconj</term>: Preconjunct</catDesc>
                </category>
                <category xml:id="conj">
-                  <catDesc xml:lang="en"><term>conj</term>: Conjunct</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>conj</term>: Conjunct</catDesc>
                </category>
                <category xml:id="cop">
-                  <catDesc xml:lang="en"><term>cop</term>: Copula</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>cop</term>: Copula</catDesc>
                </category>
                <category xml:id="csubj">
-                  <catDesc xml:lang="en"><term>csubj</term>: Clausal subject</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>csubj</term>: Clausal subject</catDesc>
                </category>
                <category xml:id="dep">
-                  <catDesc xml:lang="en"><term>dep</term>: Unspecified dependency</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>dep</term>: Unspecified dependency</catDesc>
                </category>
                <category xml:id="det">
-                  <catDesc xml:lang="en"><term>det</term>: Determiner</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>det</term>: Determiner</catDesc>
                </category>
                <category xml:id="discourse">
-                  <catDesc xml:lang="en"><term>discourse</term>: Discourse element</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>discourse</term>: Discourse element</catDesc>
                </category>
                <category xml:id="expl">
-                  <catDesc xml:lang="en"><term>expl</term>: Expletive</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>expl</term>: Expletive</catDesc>
                </category>
                <category xml:id="fixed">
-                  <catDesc xml:lang="en"><term>fixed</term>: Fixed multiword expression</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>fixed</term>: Fixed multiword expression</catDesc>
                </category>
                <category xml:id="flat">
-                  <catDesc xml:lang="en"><term>flat</term>: Flat multiword expression</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>flat</term>: Flat multiword expression</catDesc>
                </category>
                <category xml:id="flat_foreign">
-                  <catDesc xml:lang="en"><term>flat:foreign</term>: Flat multiword expression: foreign</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>flat:foreign</term>: Flat multiword expression: foreign</catDesc>
                </category>
                <category xml:id="flat_name">
-                  <catDesc xml:lang="en"><term>flat:name</term>: Flat name</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>flat:name</term>: Flat name</catDesc>
                </category>
                <category xml:id="iobj">
-                  <catDesc xml:lang="en"><term>iobj</term>: Indirect object</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>iobj</term>: Indirect object</catDesc>
                </category>
                <category xml:id="mark">
-                  <catDesc xml:lang="en"><term>mark</term>: Marker</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>mark</term>: Marker</catDesc>
                </category>
                <category xml:id="nmod">
-                  <catDesc xml:lang="en"><term>nmod</term>: Nominal modifier</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>nmod</term>: Nominal modifier</catDesc>
                </category>
                <category xml:id="nsubj">
-                  <catDesc xml:lang="en"><term>nsubj</term>: Nominal subject</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>nsubj</term>: Nominal subject</catDesc>
                </category>
                <category xml:id="nummod">
-                  <catDesc xml:lang="en"><term>nummod</term>: Numeric modifier</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>nummod</term>: Numeric modifier</catDesc>
                </category>
                <category xml:id="obj">
-                  <catDesc xml:lang="en"><term>obj</term>: Object</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>obj</term>: Object</catDesc>
                </category>
                <category xml:id="obl">
-                  <catDesc xml:lang="en"><term>obl</term>: Oblique nominal</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>obl</term>: Oblique nominal</catDesc>
                </category>
                <category xml:id="parataxis">
-                  <catDesc xml:lang="en"><term>parataxis</term>: Parataxis</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>parataxis</term>: Parataxis</catDesc>
                </category>
                <category xml:id="punct">
-                  <catDesc xml:lang="en"><term>punct</term>: Punctuation</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>punct</term>: Punctuation</catDesc>
                </category>
                <category xml:id="reparandum">
-                  <catDesc xml:lang="en"><term>reparandum</term>: Overridden disfluency (here used for program mistakes!)</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>reparandum</term>: Overridden disfluency (here used for program mistakes!)</catDesc>
                </category>
                <category xml:id="root">
-                  <catDesc xml:lang="en"><term>root</term>: Root</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>root</term>: Root</catDesc>
                </category>
                <category xml:id="xcomp">
-                  <catDesc xml:lang="en"><term>xcomp</term>: Open clausal complement</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>xcomp</term>: Open clausal complement</catDesc>
                </category>
                <category xml:id="advmod_emph">
-                  <catDesc xml:lang="en"><term>advmod:emph</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>advmod:emph</term>
+                  </catDesc>
                </category>
                <category xml:id="aux_pass">
-                  <catDesc xml:lang="en"><term>aux:pass</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>aux:pass</term>
+                  </catDesc>
                </category>
                <category xml:id="compound">
-                  <catDesc xml:lang="en"><term>compound</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>compound</term>
+                  </catDesc>
                </category>
                <category xml:id="csubj_pass">
-                  <catDesc xml:lang="en"><term>csubj:pass</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>csubj:pass</term>
+                  </catDesc>
                </category>
                <category xml:id="dislocated">
-                  <catDesc xml:lang="en"><term>dislocated</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>dislocated</term>
+                  </catDesc>
                </category>
                <category xml:id="expl_pv">
-                  <catDesc xml:lang="en"><term>expl:pv</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>expl:pv</term>
+                  </catDesc>
                </category>
                <category xml:id="goeswith">
-                  <catDesc xml:lang="en"><term>goeswith</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>goeswith</term>
+                  </catDesc>
                </category>
                <category xml:id="list">
-                  <catDesc xml:lang="en"><term>list</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>list</term>
+                  </catDesc>
                </category>
                <category xml:id="nsubj_pass">
-                  <catDesc xml:lang="en"><term>nsubj:pass</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>nsubj:pass</term>
+                  </catDesc>
                </category>
                <category xml:id="orphan">
-                  <catDesc xml:lang="en"><term>orphan</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>orphan</term>
+                  </catDesc>
                </category>
                <category xml:id="vocative">
-                  <catDesc xml:lang="en"><term>vocative</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>vocative</term>
+                  </catDesc>
                </category>
             </taxonomy>
          </classDecl>
          <listPrefixDef>
-            <prefixDef ident="mte" matchPattern="(.+)" replacementPattern="http://nl.ijs.si/ME/V6/msd/tables/msd-fslib-hbs.xml#$1">
+            <prefixDef ident="mte"
+                       matchPattern="(.+)"
+                       replacementPattern="http://nl.ijs.si/ME/V6/msd/tables/msd-fslib-hbs.xml#$1">
                <p xml:lang="en">Private URIs with this prefix point to feature-structure elements defining the Serbocroatian MULTEXT-East Version 6 MSDs.</p>
             </prefixDef>
             <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
@@ -435,7 +652,7 @@
                <desc xml:lang="en">MSD tagging and lemmatisation with CLASSLA-StanfordNLP trained for Slovene, available from <ref target="https://github.com/clarinsi/classla-stanfordnlp">https://github.com/clarinsi/classla-stanfordnlp</ref>.</desc>
             </application>
             <application version="1.0" ident="janes-ner">
-               <label>NER system for South Slavic languages </label>
+               <label>NER system for South Slavic languages</label>
                <desc xml:lang="en">Named entity recognition done with the Janes NER program, trained for Slovene and available at <ref target="https://github.com/clarinsi/janes-ner">https://github.com/clarinsi/janes-ner</ref>.</desc>
             </application>
          </appInfo>
@@ -457,8 +674,8 @@
                   <event from="1990-05-30">
                      <label xml:lang="en">existence</label>
                   </event>
-                  <idno type="wikimedia" xml:lang="hr">https://hr.wikipedia.org/wiki/Hrvatski_sabor</idno>
-                  <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Croatian_Parliament</idno>
+                  <idno type="URI" xml:lang="hr" subtype="wikimedia">https://hr.wikipedia.org/wiki/Hrvatski_sabor</idno>
+                  <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Croatian_Parliament</idno>
                   <listEvent>
                      <head xml:lang="hr">Mandatno obdoblje</head>
                      <head xml:lang="en">Legislative period</head>
@@ -3507,9 +3724,10 @@
          </langUsage>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2021-02-04"><name>Tomaž Erjavec</name>: Made sample.</change>
-         <change when="2021-02-04">
-            <name>Tomaž Erjavec</name>: Small fixes for Version 2.</change>
+         <change when="2021-03-04">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2021-03-04">
+            <name>Tomaž Erjavec</name>: Fixes for Version 2.</change>
          <change when="2020-10-07">
             <name>Nikola Ljubešić</name>: Linguistic annotation.</change>
          <change when="2020-10-04">
@@ -3519,8 +3737,6 @@
       </revisionDesc>
    </teiHeader>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-HR_S02.ana.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-HR_S05.ana.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-HR_S08.ana.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-HR_S11.ana.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-HR_S14.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-HR_S07.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-HR_S12.ana.xml"/>
 </teiCorpus>

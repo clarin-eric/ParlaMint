@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="hr" xml:id="ParlaMint-HR_S02" ana="#parla.session #reference">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="hr"
+     xml:id="ParlaMint-HR_S02"
+     ana="#parla.session #reference">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -39,8 +42,7 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URL">https://github.com/clarin-eric/ParlaMint</idno>
-            <pubPlace><ref target="https://github.com/clarin-eric/ParlaMint">https://github.com/clarin-eric/ParlaMint</ref></pubPlace>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="hr">Ovaj rad je dostupan pod <ref target="http://creativecommons.org/licenses/by/4.0/">međunarodnom licencom Creative Commons Imenovanje 4.0</ref>
@@ -48,10 +50,9 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-02-04">2021-02-04</date>
+            <date when="2021-03-04">2021-03-04</date>
          </publicationStmt>
          <sourceDesc>
-            <bibl><title>Multilingual comparable corpora of parliamentary debates ParlaMint 1.0</title><idno type="handle">http://hdl.handle.net/11356/1388</idno></bibl>
             <bibl>
                <title type="main">Minutes of the National Assembly of the Republic of Croatia</title>
                <idno type="URI">https://parlametar.hr/</idno>
@@ -62,9 +63,11 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="hr"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            <p xml:lang="hr">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
-            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
          </projectDesc>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
@@ -94,9 +97,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2021-02-04"><name>Tomaž Erjavec</name>: Made sample.</change>
-         <change when="2021-02-04">
-            <name>Tomaž Erjavec</name>: Small fixes for Version 2.</change>
+         <change when="2021-03-04">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2021-03-04">
+            <name>Tomaž Erjavec</name>: Fixes for Version 2.</change>
          <change when="2020-10-04">
             <name>Tomaž Erjavec</name>: Small fixes for ParlaMint.</change>
          <change when="2020-10-04">
@@ -107,12 +111,18 @@
       <body>
          <div type="debateSection">
             <head>2. sjednica</head>
-            <u who="#PetrovBožo" ana="#chair" xml:id="ParlaMint-HR_S02.u1" n="325729">
+            <u who="#PetrovBožo"
+               ana="#chair"
+               xml:id="ParlaMint-HR_S02.u1"
+               n="325729">
                <seg xml:id="seg21209">Gospođe i gospodo zastupnici počinjemo s postavljanjem pitanja Vladi odnosno pojedinom članu Vlade u skladu s odredbama Poslovnika članka 132. do 139. Aktualno prijepodne održava se na početku svake sjednice prije prijelaza na prvu točku dnevnoga reda.</seg>
                <seg xml:id="seg21210">Prvi na redu za postavljanja pitanja je zastupnik Milorad Pupovac.</seg>
                <seg xml:id="seg21211">Izvolite.</seg>
             </u>
-            <u who="#PupovacMilorad" ana="#regular" xml:id="ParlaMint-HR_S02.u2" n="325730">
+            <u who="#PupovacMilorad"
+               ana="#regular"
+               xml:id="ParlaMint-HR_S02.u2"
+               n="325730">
                <seg xml:id="seg21213">Zahvaljujem gospodine predsjedniče.</seg>
                <seg xml:id="seg21214">Poštovane kolegice i kolege.</seg>
                <seg xml:id="seg21215">Poštovani gospodine predsjedniče Vlade.</seg>
@@ -120,12 +130,20 @@
                <seg xml:id="seg21217">Zadnja sredstva koja su uložena bila su u Vladi iz 2011. godine, od tada nažalost niti HEP niti ministarstva koja su se time bavila i u međuvremenu prebacivala odgovornost s jednih na druge, nisu omogućila da se u 83 sela i zaseoka na području 25 općina i 6 županija taj posao završi u selima koja su mahom povratnička srpska sela.</seg>
                <seg xml:id="seg21218">Iz tog razloga, gospodine predsjedniče Vlade, vjerujemo da ćete vi zajedno sa svojom Vladom iznaći rješenje da se ovaj već pomalo sramotan, sramotno stanje promijeni i da ljudi koji po zakonu imaju pravo na struju, koji po zakonu obnove imaju pravo da im se struja priključi 30 dana nakon završetka obnove ne čekaju tolike godine da bi mogli imati ono što većina ljudi dobije po osnovi zakona ili po osnovi nužne potrebe.</seg>
             </u>
-            <gap reason="editorial"><desc xml:lang="en">SAMPLING</desc></gap>
-            <u who="#PetrovBožo" ana="#chair" xml:id="ParlaMint-HR_S02.u3940" n="325429">
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u who="#PetrovBožo"
+               ana="#chair"
+               xml:id="ParlaMint-HR_S02.u3940"
+               n="325429">
                <seg xml:id="seg42678">Zahvaljujem zastupniku Lovrinoviću.</seg>
                <seg xml:id="seg42679">U ime kluba MOST-a Nezavisnih lista zastupnik Tomislav Panenić.</seg>
             </u>
-            <u who="#PanenićTomislav" ana="#regular" xml:id="ParlaMint-HR_S02.u3941" n="325430">
+            <u who="#PanenićTomislav"
+               ana="#regular"
+               xml:id="ParlaMint-HR_S02.u3941"
+               n="325430">
                <seg xml:id="seg42681">Hvala.</seg>
                <seg xml:id="seg42682">Poštovani predsjedniče Sabora, cijenjeni članovi Vlade RH, kolegice i kolege tema INA-e vjerojatno je nepresušna a pogotovo kad pogledamo u dnevnom tisku da mađarski MOL promovira svoje financijske rezultate, hvali se kako pozitivno posluju i s time stvaraju jednu negativnu klimu ovdje, stvaraju klimu da oni najbolje znaju upravljati, da hrvatska država kao jedan od suvlasnika u upravljanju INA-om ona ne zna a zapravo vratimo se na ono što je, to je paralelan sustav upravljanja u INA-i, LODO sustav koji je prenesen iz mađarskog MOL-a. Izvršni direktori gdje se krenulo u promjene oni još uvijek upravljaju INA-om, još uvijek ljudi Joze Petrovića ne samo da upravljaju i na nižim razinama nego isto tako i mobiraju ljude i vrše selekciju ljudi i na kraju još se usudi netko u hrvatskom tisku plaćati oglase u kojima veliča uspjehe MOL-a.</seg>
                <seg xml:id="seg42683">Mislim da je to situacija koja je neprihvatljiva i da makar jedan dio kulture mora biti i isto tako i odgovornost MOL-a da prihvate da upravljanje INA-om je njih krimen, da njihove investicije nisu provedene u vremenu kada su trebale. Da od 2003. sve što su obećali ništa nisu izvršili. I danas ne bi pričali niti o proizvodnji u Sisku, niti proizvodnji u Rijeci, niti o obnovi samo da je ugovor koji je bio potpisan 2003. kao takav i izvršen.</seg>
