@@ -227,12 +227,26 @@
   </xsl:template>
 
   <xsl:template match="tei:name">
-    <xsl:copy>
-      <xsl:copy-of select="@type"/>
-      <xsl:text>&#10;</xsl:text>
-      <xsl:apply-templates/>
-    </xsl:copy>
-    <xsl:text>&#10;</xsl:text>
+    <xsl:choose>
+      <xsl:when test="ancestor::tei:name">
+	<xsl:apply-templates/>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:copy>
+	  <xsl:copy-of select="@type"/>
+	  <xsl:text>&#10;</xsl:text>
+	  <xsl:apply-templates/>
+	</xsl:copy>
+	<xsl:text>&#10;</xsl:text>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
+  <!-- Used by CZ, currently ignored -->
+  <xsl:template match="tei:date | tei:time | 
+		       tei:num | tei:unit | 
+		       tei:email | tei:ref">
+    <xsl:apply-templates/>
   </xsl:template>
   
   <xsl:template match="tei:s">
@@ -243,6 +257,32 @@
     </xsl:copy>
     <xsl:text>&#10;</xsl:text>
   </xsl:template>
+
+<!-- We now have the Czech case:
+
+<w xml:id="u1.p1.s1.w18">abych
+  <w xml:id="u1.p1.s1.w19" lemma="aby" msd="UPosTag=SCONJ" norm="aby"/>
+  <w xml:id="u1.p1.s1.w20" lemma="být" msd="UPosTag=AUX|Mood=Cnd" norm="bych"/>
+</w>
+
+<link ana="ud-syn:punct" target="#u1.p1.s1.w21 #u1.p1.s1.w17"/>
+<link ana="ud-syn:mark"  target="#u1.p1.s1.w21 #u1.p1.s1.w19"/>
+<link ana="ud-syn:aux"   target="#u1.p1.s1.w21 #u1.p1.s1.w20"/>
+
+Figure out what to do with this!
+
+Simplest:
+- introduce normalised column (multi valued)
+- make all attributes multivalued 
+  (however, feats is already multivalued!)
+
+And, there is, in theory, also:
+<w norm="najlepši" lemma="lep">
+ <w>nar</w>
+ <w>lepši</w>
+</w>
+
+-->
 
   <!-- TOKENS -->
   <xsl:template match="tei:pc | tei:w">
