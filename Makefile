@@ -1,3 +1,16 @@
+texts:
+	ls ParlaMint-BG/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ParlaMint-BG/{/.}.txt'
+	ls ParlaMint-CZ/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ParlaMint-CZ/{/.}.txt'
+	ls ParlaMint-HR/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ParlaMint-HR/{/.}.txt'
+	ls ParlaMint-IS/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ParlaMint-IS/{/.}.txt'
+	ls ParlaMint-PL/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ParlaMint-PL/{/.}.txt'
+	ls ParlaMint-SI/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ParlaMint-SI/{/.}.txt'
 verts:
 	Scripts/parlamint-tei2vert.pl ParlaMint-BG/ParlaMint-BG.ana.xml \
 	'ParlaMint-BG/*_*.ana.xml' ParlaMint-BG

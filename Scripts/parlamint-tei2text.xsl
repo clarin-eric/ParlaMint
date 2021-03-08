@@ -10,6 +10,7 @@
   <xsl:output method="text"/>
   
   <xsl:template match="/">
+    <xsl:message select="concat('INFO: convertin ', tei:TEI/@xml:id, ' to text')"/>
     <xsl:apply-templates select="//tei:u"/>
   </xsl:template>
   
@@ -23,9 +24,9 @@
 
   <xsl:template match="tei:note | tei:gap | tei:vocal | tei:kinesic | tei:incident">
     <xsl:variable name="text">
-      <xsl:apply-templates/>
+      <xsl:value-of select="normalize-space(.)"/>
     </xsl:variable>
-    <xsl:value-of select="concat('[', normalize-space($text), ']')"/>
+    <xsl:value-of select="concat('[[', normalize-space($text), ']]')"/>
   </xsl:template>
 
 </xsl:stylesheet>
