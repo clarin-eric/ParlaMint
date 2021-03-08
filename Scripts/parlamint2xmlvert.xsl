@@ -287,7 +287,7 @@ And, there is, in theory, also:
   <!-- TOKENS -->
   <xsl:template match="tei:pc | tei:w">
     <!-- Output token -->
-    <xsl:value-of select="concat(.,'&#9;')"/>
+    <xsl:value-of select="concat(normalize-space(.),'&#9;')"/>
     <xsl:choose>
       <!-- For normalized words e.g.
  	<w xml:id="u1.p1.s1.w18">abych
@@ -295,7 +295,7 @@ And, there is, in theory, also:
 	 <w xml:id="u1.p1.s1.w20" lemma="být" msd="UPosTag=AUX|Mood=Cnd" norm="bych"/>
 	</w>
       -->
-      <xsl:when test="normalize-space(text()) and (tei:w or tei:pc)">
+      <xsl:when test="normalize-space(text()[1]) and (tei:w or tei:pc)">
 	<xsl:variable name="norms">
 	  <xsl:for-each select="tei:w | tei:pc">
 	    <xsl:value-of select="@norm"/>
@@ -659,16 +659,21 @@ And, there is, in theory, also:
       <!-- Counter through items -->
       <xsl:for-each select="$toks/tei:list[1]/tei:item">
 	<xsl:variable name="i" select="position()"/>
-	<xsl:for-each select="$toks/tei:list/tei:item[position() = $i]">
-	  <xsl:value-of select="."/>
-	  <xsl:text>|</xsl:text>
-	</xsl:for-each>
+	<xsl:variable name="feat">
+	  <xsl:for-each select="$toks/tei:list/tei:item[position() = $i]">
+	    <xsl:value-of select="."/>
+	    <xsl:text>|</xsl:text>
+	  </xsl:for-each>
+	</xsl:variable>
+	<!-- Snip off last | and remove duplicates (works only for 2 norm words) -->
+	<xsl:value-of select="replace(
+			      replace($feat, '\|$', ''),
+			      '^(.+?)\|\1$', '$1')
+			      "/>
 	<xsl:text>&#9;</xsl:text>
       </xsl:for-each>
     </xsl:variable>
-    <xsl:value-of select="replace(
-			  replace($result, '\|&#9;', '&#9;'),
-			  '&#9;$', '')"/>
+    <xsl:value-of select="replace($result, '&#9;$', '')"/>
   </xsl:function>
     
   <xsl:function name="et:output-annotations">
