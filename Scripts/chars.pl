@@ -1,7 +1,6 @@
 #!/usr/bin/perl -w
 #Give a list of all characters for input files
 use utf8;
-#Ignore XML tags? (if they are in one line)
 $XML = 1;
 
 my @INFILES = glob(shift);
@@ -13,19 +12,19 @@ foreach $file (@INFILES) {
     #($fName)=$file=~m|([^/]+)\.txt|;
     $fName=$file;
     open(TBL,$file);
+    undef $/;
     binmode(TBL,'utf8');
+    $txt = <TBL>;
     undef %c;
-    while (<TBL>) {
-	if ($XML) {
-	    s|<[^>]+>||gso;
-	    s|&lt;|<|g;
-	    s|&gt;|>|g;
-	    s|&apos;|'|g;
-	    s|&quot;|"|g;
-	    s|&amp;|&|g;
-	}
-	for $c (split(//)) {
-	    #$code = sprintf("%04X", ord($c));
+    if ($XML) {
+	$txt =~ s| +||g; #most spaces are fake spaces
+	$txt =~ s|<[^>]+>||g;
+	$txt =~ s|&lt;|<|g;
+	$txt =~ s|&gt;|>|g;
+	$txt =~ s|&apos;|'|g;
+	$txt =~ s|&quot;|"|g;
+	$txt =~ s|&amp;|&|g;
+    	for $c (split(//, $txt)) {
 	    if    (ord($c) < 33) {$c="&#".ord($c).';'}
 	    elsif ($c eq "&")  {$c = '&#38;'}
 	    elsif ($c eq ":")  {$c = '&#58;'}
