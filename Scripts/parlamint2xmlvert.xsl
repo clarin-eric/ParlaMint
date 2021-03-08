@@ -666,7 +666,9 @@ And, there is, in theory, also:
 	<xsl:text>&#9;</xsl:text>
       </xsl:for-each>
     </xsl:variable>
-    <xsl:value-of select="normalize-space(replace($result, '\|&#9;', '&#9;'))"/>
+    <xsl:value-of select="replace(
+			  replace($result, '\|&#9;', '&#9;'),
+			  '&#9;$', '')"/>
   </xsl:function>
     
   <xsl:function name="et:output-annotations">
