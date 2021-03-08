@@ -14,7 +14,7 @@
   <xsl:param name="outDir"/>
   
   <!-- How many TEI files to take -->
-  <xsl:param name="Files">5</xsl:param>
+  <xsl:param name="Files">3</xsl:param>
 
   <!-- How many utterances to select from start and end of component files -->
   <xsl:param name="Range">2</xsl:param>
@@ -127,13 +127,21 @@
   <!-- Here we pick the first and last $Range utterances and all
        immediatelly preceding and intervening other elements -->
   <xsl:template match="tei:body">
+    <xsl:variable name="all" select="count(//tei:u)"/>
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
       <xsl:variable name="to">
-	<xsl:value-of select="(.//tei:u)[position() = $Range]/@xml:id"/>
+	<xsl:choose>
+	  <!-- If there is too few <u>s in the document -->
+	  <xsl:when test="$all &lt; $Range">
+	    <xsl:value-of select="(.//tei:u)[last()]/@xml:id"/>
+	  </xsl:when>
+	  <xsl:otherwise>
+	    <xsl:value-of select="(.//tei:u)[position() = $Range]/@xml:id"/>
+	  </xsl:otherwise>
+	</xsl:choose>
       </xsl:variable>
       <xsl:variable name="from">
-	<xsl:variable name="all" select="count(//tei:u)"/>
 	<xsl:choose>
 	  <!-- If there is too few <u>s in the document -->
 	  <xsl:when test="$all &lt; 2 * $Range">0</xsl:when>
@@ -152,8 +160,7 @@
   <xsl:template match="tei:div[@type='debateSection']">
     <xsl:param name="from">0</xsl:param>
     <xsl:param name="to">0</xsl:param>
-    <!--xsl:message select="concat('SELECTING ', 
-	/tei:TEI/@xml:id, ': ', $to, ' AND ', $from)"/-->
+    <!--xsl:message select="concat('SELECTING ', /tei:TEI/@xml:id, ': ', $to, ' AND ', $from)"/-->
     <xsl:variable name="div">
       <xsl:copy>
 	<xsl:apply-templates select="@*"/>

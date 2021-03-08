@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-PL.ana" xml:lang="pl">
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0"
+           xml:id="ParlaMint-PL.ana"
+           xml:lang="pl">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main" xml:lang="pl">Korpus Dyskursu Parlamentarnego ParlaMint-PL [ParlaMint.ana SAMPLE]</title>
-            <title type="main" xml:lang="en">Polish Parliamentary Corpus ParlaMint-PL [ParlaMint.ana SAMPLE]</title>
+            <title type="main" xml:lang="en">Polish parliamentary corpus ParlaMint-PL [ParlaMint.ana SAMPLE]</title>
             <title type="sub" xml:lang="pl">Sprawozdania stenograficzne Sejmu i Senatu RP (2015-2020)</title>
             <title type="sub" xml:lang="en">Minutes of the Sejm and Senat of the Republic of Poland (2015-2020)</title>
             <meeting n="8-lower" ana="#parla.lower #parla.term">8. kadencja Sejmu</meeting>
@@ -52,8 +54,7 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URL">https://github.com/clarin-eric/ParlaMint</idno>
-            <pubPlace><ref target="https://github.com/clarin-eric/ParlaMint">https://github.com/clarin-eric/ParlaMint</ref></pubPlace>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1405</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="pl">Ten utwór jest dostępny na <ref target="http://creativecommons.org/licenses/by/4.0/">międzynarodowej licencji Creative Commons Attribution 4.0</ref>
@@ -61,10 +62,9 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-02-04">2021-02-04</date>
+            <date when="2021-03-05">2021-03-05</date>
          </publicationStmt>
          <sourceDesc>
-            <bibl><title>Multilingual comparable corpora of parliamentary debates ParlaMint 1.0</title><idno type="handle">http://hdl.handle.net/11356/1388</idno></bibl>
             <bibl>
                <title type="main" xml:lang="pl">Sprawozdanie stenograficzne z obrad Sejmu RP</title>
                <title type="main" xml:lang="en">Minutes of the Sejm of the Republic of Poland</title>
@@ -83,9 +83,11 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="pl"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            <p xml:lang="pl">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
-            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
          <editorialDecl>
             <correction>
@@ -127,370 +129,653 @@
          </tagsDecl>
          <classDecl>
             <taxonomy xml:id="parla.legislature">
-               <desc xml:lang="pl"><term>Władza ustawodawcza</term></desc>
-               <desc xml:lang="en"><term>Legislature</term></desc>
+               <desc xml:lang="pl">
+                  <term>Władza ustawodawcza</term>
+               </desc>
+               <desc xml:lang="en">
+                  <term>Legislature</term>
+               </desc>
                <category xml:id="parla.organization">
-                  <catDesc xml:lang="pl"><term>Organizacja</term></catDesc>
-                  <catDesc xml:lang="en"><term>Organization</term></catDesc>
+                  <catDesc xml:lang="pl">
+                     <term>Organizacja</term>
+                  </catDesc>
+                  <catDesc xml:lang="en">
+                     <term>Organization</term>
+                  </catDesc>
                   <category xml:id="parla.chambers">
-                     <catDesc xml:lang="pl"><term>Izby</term></catDesc>
-                     <catDesc xml:lang="en"><term>Chambers</term></catDesc>
+                     <catDesc xml:lang="pl">
+                        <term>Izby</term>
+                     </catDesc>
+                     <catDesc xml:lang="en">
+                        <term>Chambers</term>
+                     </catDesc>
                      <category xml:id="parla.uni">
-                        <catDesc xml:lang="pl"><term>Unikameralizm</term></catDesc>
-                        <catDesc xml:lang="en"><term>Unicameralism</term></catDesc>
+                        <catDesc xml:lang="pl">
+                           <term>Unikameralizm</term>
+                        </catDesc>
+                        <catDesc xml:lang="en">
+                           <term>Unicameralism</term>
+                        </catDesc>
                      </category>
                      <category xml:id="parla.bi">
-                        <catDesc xml:lang="pl"><term>Bikameralizm</term></catDesc>
-                        <catDesc xml:lang="en"><term>Bicameralism</term></catDesc>
+                        <catDesc xml:lang="pl">
+                           <term>Bikameralizm</term>
+                        </catDesc>
+                        <catDesc xml:lang="en">
+                           <term>Bicameralism</term>
+                        </catDesc>
                         <category xml:id="parla.upper">
-                           <catDesc xml:lang="pl"><term>Senat</term></catDesc>
-                           <catDesc xml:lang="en"><term>Upper house</term></catDesc>
+                           <catDesc xml:lang="pl">
+                              <term>Senat</term>
+                           </catDesc>
+                           <catDesc xml:lang="en">
+                              <term>Upper house</term>
+                           </catDesc>
                         </category>
                         <category xml:id="parla.lower">
-                           <catDesc xml:lang="pl"><term>Sejm</term></catDesc>
-                           <catDesc xml:lang="en"><term>Lower house</term></catDesc>
+                           <catDesc xml:lang="pl">
+                              <term>Sejm</term>
+                           </catDesc>
+                           <catDesc xml:lang="en">
+                              <term>Lower house</term>
+                           </catDesc>
                         </category>
                      </category>
                      <category xml:id="parla.multi">
-                        <catDesc xml:lang="pl"><term>Multikameralizm</term></catDesc>
-                        <catDesc xml:lang="en"><term>Multicameralism</term></catDesc>
+                        <catDesc xml:lang="pl">
+                           <term>Multikameralizm</term>
+                        </catDesc>
+                        <catDesc xml:lang="en">
+                           <term>Multicameralism</term>
+                        </catDesc>
                         <category xml:id="parla.chamber">
-                           <catDesc xml:lang="pl"><term>Izba</term></catDesc>
-                           <catDesc xml:lang="en"><term>Chamber</term></catDesc>
+                           <catDesc xml:lang="pl">
+                              <term>Izba</term>
+                           </catDesc>
+                           <catDesc xml:lang="en">
+                              <term>Chamber</term>
+                           </catDesc>
                         </category>
                      </category>
                   </category>
                   <category xml:id="parla.committee">
-                     <catDesc xml:lang="pl"><term>Komisja</term></catDesc>
-                     <catDesc xml:lang="en"><term>Committee</term></catDesc>
+                     <catDesc xml:lang="pl">
+                        <term>Komisja</term>
+                     </catDesc>
+                     <catDesc xml:lang="en">
+                        <term>Committee</term>
+                     </catDesc>
                      <category xml:id="parla.committee.standing">
-                        <catDesc xml:lang="pl"><term>Komisja stała</term></catDesc>
-                        <catDesc xml:lang="en"><term>Standing committee</term></catDesc>
+                        <catDesc xml:lang="pl">
+                           <term>Komisja stała</term>
+                        </catDesc>
+                        <catDesc xml:lang="en">
+                           <term>Standing committee</term>
+                        </catDesc>
                      </category>
                      <category xml:id="parla.committee.special">
-                        <catDesc xml:lang="pl"><term>Komisja specjalna</term></catDesc>
-                        <catDesc xml:lang="en"><term>Special committee</term></catDesc>
+                        <catDesc xml:lang="pl">
+                           <term>Komisja specjalna</term>
+                        </catDesc>
+                        <catDesc xml:lang="en">
+                           <term>Special committee</term>
+                        </catDesc>
                      </category>
                      <category xml:id="parla.committee.inquiry">
-                        <catDesc xml:lang="pl"><term>Komisja śledcza</term></catDesc>
-                        <catDesc xml:lang="en"><term>Committee of inquiry</term></catDesc>
+                        <catDesc xml:lang="pl">
+                           <term>Komisja śledcza</term>
+                        </catDesc>
+                        <catDesc xml:lang="en">
+                           <term>Committee of inquiry</term>
+                        </catDesc>
                      </category>
                   </category>
                </category>
                <category xml:id="parla.term">
-                  <catDesc xml:lang="pl"><term>Kadencja</term>: okres pomiędzy wyborami powszechnymi</catDesc>
-                  <catDesc xml:lang="en"><term>Legislative period</term>: term of the parliament between general elections.</catDesc>
+                  <catDesc xml:lang="pl">
+                     <term>Kadencja</term>: okres pomiędzy wyborami powszechnymi</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>Legislative period</term>: term of the parliament between general elections.</catDesc>
                   <category xml:id="parla.session">
-                     <catDesc xml:lang="pl"><term>Posiedzenie</term></catDesc>
-                     <catDesc xml:lang="en"><term>Legislative session</term>: the period of time in which a legislature is convened for purpose of lawmaking, usually being one of two or more smaller divisions of the entire time between two elections. A session is a meeting or series of connected meetings devoted to a single order of business, program, agenda, or announced purpose.</catDesc>
+                     <catDesc xml:lang="pl">
+                        <term>Posiedzenie</term>
+                     </catDesc>
+                     <catDesc xml:lang="en">
+                        <term>Legislative session</term>: the period of time in which a legislature is convened for purpose of lawmaking, usually being one of two or more smaller divisions of the entire time between two elections. A session is a meeting or series of connected meetings devoted to a single order of business, program, agenda, or announced purpose.</catDesc>
                      <category xml:id="parla.meeting">
-                        <catDesc xml:lang="pl"><term>Dzień</term></catDesc>
-                        <catDesc xml:lang="en"><term>Meeting</term>: Each meeting may be a separate session or part of a group of meetings constituting a session. The session/meeting may take one or more days.</catDesc>
+                        <catDesc xml:lang="pl">
+                           <term>Dzień</term>
+                        </catDesc>
+                        <catDesc xml:lang="en">
+                           <term>Meeting</term>: Each meeting may be a separate session or part of a group of meetings constituting a session. The session/meeting may take one or more days.</catDesc>
                         <category xml:id="parla.meeting-types">
-                           <catDesc xml:lang="pl"><term>Typy posiedzeń</term></catDesc>
-                           <catDesc xml:lang="en"><term>Types of meetings</term></catDesc>
+                           <catDesc xml:lang="pl">
+                              <term>Typy posiedzeń</term>
+                           </catDesc>
+                           <catDesc xml:lang="en">
+                              <term>Types of meetings</term>
+                           </catDesc>
                            <category xml:id="parla.meeting.regular">
-                              <catDesc xml:lang="pl"><term>Posiedzenie plenarne</term></catDesc>
-                              <catDesc xml:lang="en"><term>Regular meeting</term></catDesc>
+                              <catDesc xml:lang="pl">
+                                 <term>Posiedzenie plenarne</term>
+                              </catDesc>
+                              <catDesc xml:lang="en">
+                                 <term>Regular meeting</term>
+                              </catDesc>
                            </category>
                            <category xml:id="parla.meeting.special">
-                              <catDesc xml:lang="pl"><term>Posiedzenie specjalne</term></catDesc>
-                              <catDesc xml:lang="en"><term>Special meeting</term></catDesc>
+                              <catDesc xml:lang="pl">
+                                 <term>Posiedzenie specjalne</term>
+                              </catDesc>
+                              <catDesc xml:lang="en">
+                                 <term>Special meeting</term>
+                              </catDesc>
                               <category xml:id="parla.meeting.extraordinary">
-                                 <catDesc xml:lang="pl"><term>Posiedzenie nadzwyczajne</term></catDesc>
-                                 <catDesc xml:lang="en"><term>Extraordinary meeting</term></catDesc>
+                                 <catDesc xml:lang="pl">
+                                    <term>Posiedzenie nadzwyczajne</term>
+                                 </catDesc>
+                                 <catDesc xml:lang="en">
+                                    <term>Extraordinary meeting</term>
+                                 </catDesc>
                               </category>
                               <category xml:id="parla.meeting.urgent">
-                                 <catDesc xml:lang="pl"><term>Posiedzenie pilne</term></catDesc>
-                                 <catDesc xml:lang="en"><term>Urgent meeting</term></catDesc>
+                                 <catDesc xml:lang="pl">
+                                    <term>Posiedzenie pilne</term>
+                                 </catDesc>
+                                 <catDesc xml:lang="en">
+                                    <term>Urgent meeting</term>
+                                 </catDesc>
                               </category>
                               <category xml:id="parla.meeting.ceremonial">
-                                 <catDesc xml:lang="pl"><term>Posiedzenie uroczyste</term></catDesc>
-                                 <catDesc xml:lang="en"><term>Ceremonial meeting</term></catDesc>
+                                 <catDesc xml:lang="pl">
+                                    <term>Posiedzenie uroczyste</term>
+                                 </catDesc>
+                                 <catDesc xml:lang="en">
+                                    <term>Ceremonial meeting</term>
+                                 </catDesc>
                               </category>
                               <category xml:id="parla.meeting.commemorative">
-                                 <catDesc xml:lang="pl"><term>Posiedzenie okolicznościowe</term></catDesc>
-                                 <catDesc xml:lang="en"><term>Commemorative meeting</term></catDesc>
+                                 <catDesc xml:lang="pl">
+                                    <term>Posiedzenie okolicznościowe</term>
+                                 </catDesc>
+                                 <catDesc xml:lang="en">
+                                    <term>Commemorative meeting</term>
+                                 </catDesc>
                               </category>
                               <category xml:id="parla.meeting.opinions">
-                                 <catDesc xml:lang="pl"><term>Publiczna prezentacja opinii</term></catDesc>
-                                 <catDesc xml:lang="en"><term>Public presentation of opinions</term></catDesc>
+                                 <catDesc xml:lang="pl">
+                                    <term>Publiczna prezentacja opinii</term>
+                                 </catDesc>
+                                 <catDesc xml:lang="en">
+                                    <term>Public presentation of opinions</term>
+                                 </catDesc>
                               </category>
                            </category>
                            <category xml:id="parla.meeting.continued">
-                              <catDesc xml:lang="pl"><term>Kontynuacja posiedzenia</term></catDesc>
-                              <catDesc xml:lang="en"><term>Continued meeting</term></catDesc>
+                              <catDesc xml:lang="pl">
+                                 <term>Kontynuacja posiedzenia</term>
+                              </catDesc>
+                              <catDesc xml:lang="en">
+                                 <term>Continued meeting</term>
+                              </catDesc>
                            </category>
                            <category xml:id="parla.meeting.public">
-                              <catDesc xml:lang="pl"><term>Posiedzenie publiczne</term></catDesc>
-                              <catDesc xml:lang="en"><term>Public meeting</term></catDesc>
+                              <catDesc xml:lang="pl">
+                                 <term>Posiedzenie publiczne</term>
+                              </catDesc>
+                              <catDesc xml:lang="en">
+                                 <term>Public meeting</term>
+                              </catDesc>
                            </category>
                            <category xml:id="parla.meeting.executive">
-                              <catDesc xml:lang="pl"><term>Posiedzenie wykonawcze</term></catDesc>
-                              <catDesc xml:lang="en"><term>Executive meeting</term></catDesc>
+                              <catDesc xml:lang="pl">
+                                 <term>Posiedzenie wykonawcze</term>
+                              </catDesc>
+                              <catDesc xml:lang="en">
+                                 <term>Executive meeting</term>
+                              </catDesc>
                            </category>
                         </category>
                         <category xml:id="parla.sitting">
-                           <catDesc xml:lang="pl"><term>Dzień posiedzenia</term></catDesc>
-                           <catDesc xml:lang="en"><term>Sitting</term>: sitting day</catDesc>
+                           <catDesc xml:lang="pl">
+                              <term>Dzień posiedzenia</term>
+                           </catDesc>
+                           <catDesc xml:lang="en">
+                              <term>Sitting</term>: sitting day</catDesc>
                         </category>
                      </category>
                   </category>
                </category>
             </taxonomy>
             <taxonomy xml:id="speaker_types">
-               <desc xml:lang="pl"><term>Typy mówców</term></desc>
-               <desc xml:lang="en"><term>Types of speakers</term></desc>
+               <desc xml:lang="pl">
+                  <term>Typy mówców</term>
+               </desc>
+               <desc xml:lang="en">
+                  <term>Types of speakers</term>
+               </desc>
                <category xml:id="chair">
-                  <catDesc xml:lang="pl"><term>Przewodniczący</term>: przewodniczący posiedzenia</catDesc>
-                  <catDesc xml:lang="en"><term>Chairperson</term>: chairman of a meeting</catDesc>
+                  <catDesc xml:lang="pl">
+                     <term>Przewodniczący</term>: przewodniczący posiedzenia</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>Chairperson</term>: chairman of a meeting</catDesc>
                </category>
                <category xml:id="regular">
-                  <catDesc xml:lang="pl"><term>Parlamentarzysta</term>: zwykły uczestnik posiedzenia</catDesc>
-                  <catDesc xml:lang="en"><term>Regular</term>: a regular speaker at a meeting</catDesc>
+                  <catDesc xml:lang="pl">
+                     <term>Parlamentarzysta</term>: zwykły uczestnik posiedzenia</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>Regular</term>: a regular speaker at a meeting</catDesc>
                </category>
                <category xml:id="guest">
-                  <catDesc xml:lang="pl"><term>Gość</term>: zewnętrzny uczestnik posiedzenia</catDesc>
-                  <catDesc xml:lang="en"><term>Guest</term>: a guest speaker at a meeting</catDesc>
+                  <catDesc xml:lang="pl">
+                     <term>Gość</term>: zewnętrzny uczestnik posiedzenia</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>Guest</term>: a guest speaker at a meeting</catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="subcorpus">
-               <desc xml:lang="pl"><term>Podkorpusy</term></desc>
-               <desc xml:lang="en"><term>Subcorpora</term></desc>
+               <desc xml:lang="pl">
+                  <term>Podkorpusy</term>
+               </desc>
+               <desc xml:lang="en">
+                  <term>Subcorpora</term>
+               </desc>
                <category xml:id="reference">
-                  <catDesc xml:lang="pl"><term>Referencyjny</term>: podkorpus referencyjny, do 2019-10-31</catDesc>
-                  <catDesc xml:lang="en"><term>Reference</term>: reference subcorpus, until 2019-10-31</catDesc>
+                  <catDesc xml:lang="pl">
+                     <term>Referencyjny</term>: podkorpus referencyjny, do 2019-10-31</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>Reference</term>: reference subcorpus, until 2019-10-31</catDesc>
                </category>
                <category xml:id="covid">
-                  <catDesc xml:lang="pl"><term>COVID</term>: podkorpus COVID, od 2019-11-01</catDesc>
-                  <catDesc xml:lang="en"><term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
+                  <catDesc xml:lang="pl">
+                     <term>COVID</term>: podkorpus COVID, od 2019-11-01</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="UD-SYN">
-               <desc xml:lang="en"><term>UD syntactic relations</term></desc>
+               <desc xml:lang="en">
+                  <term>UD syntactic relations</term>
+               </desc>
                <category xml:id="acl">
-                  <catDesc xml:lang="en"><term>acl</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>acl</term>
+                  </catDesc>
                </category>
                <category xml:id="acl_relcl">
-                  <catDesc xml:lang="en"><term>acl:relcl</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>acl:relcl</term>
+                  </catDesc>
                </category>
                <category xml:id="advcl">
-                  <catDesc xml:lang="en"><term>advcl</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>advcl</term>
+                  </catDesc>
                </category>
                <category xml:id="advcl_relcl">
-                  <catDesc xml:lang="en"><term>advcl:relcl</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>advcl:relcl</term>
+                  </catDesc>
                </category>
                <category xml:id="advmod">
-                  <catDesc xml:lang="en"><term>advmod</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>advmod</term>
+                  </catDesc>
                </category>
                <category xml:id="advmod_arg">
-                  <catDesc xml:lang="en"><term>advmod:arg</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>advmod:arg</term>
+                  </catDesc>
                </category>
                <category xml:id="advmod_emph">
-                  <catDesc xml:lang="en"><term>advmod:emph</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>advmod:emph</term>
+                  </catDesc>
                </category>
                <category xml:id="advmod_neg">
-                  <catDesc xml:lang="en"><term>advmod:neg</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>advmod:neg</term>
+                  </catDesc>
                </category>
                <category xml:id="amod">
-                  <catDesc xml:lang="en"><term>amod</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>amod</term>
+                  </catDesc>
                </category>
                <category xml:id="amod_flat">
-                  <catDesc xml:lang="en"><term>amod:flat</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>amod:flat</term>
+                  </catDesc>
                </category>
                <category xml:id="appos">
-                  <catDesc xml:lang="en"><term>appos</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>appos</term>
+                  </catDesc>
                </category>
                <category xml:id="aux">
-                  <catDesc xml:lang="en"><term>aux</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>aux</term>
+                  </catDesc>
                </category>
                <category xml:id="aux_clitic">
-                  <catDesc xml:lang="en"><term>aux:clitic</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>aux:clitic</term>
+                  </catDesc>
                </category>
                <category xml:id="aux_cnd">
-                  <catDesc xml:lang="en"><term>aux:cnd</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>aux:cnd</term>
+                  </catDesc>
                </category>
                <category xml:id="aux_imp">
-                  <catDesc xml:lang="en"><term>aux:imp</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>aux:imp</term>
+                  </catDesc>
                </category>
                <category xml:id="aux_pass">
-                  <catDesc xml:lang="en"><term>aux:pass</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>aux:pass</term>
+                  </catDesc>
                </category>
                <category xml:id="case">
-                  <catDesc xml:lang="en"><term>case</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>case</term>
+                  </catDesc>
                </category>
                <category xml:id="cc">
-                  <catDesc xml:lang="en"><term>cc</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>cc</term>
+                  </catDesc>
                </category>
                <category xml:id="cc_preconj">
-                  <catDesc xml:lang="en"><term>cc:preconj</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>cc:preconj</term>
+                  </catDesc>
                </category>
                <category xml:id="ccomp">
-                  <catDesc xml:lang="en"><term>ccomp</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>ccomp</term>
+                  </catDesc>
                </category>
                <category xml:id="ccomp_obj">
-                  <catDesc xml:lang="en"><term>ccomp:obj</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>ccomp:obj</term>
+                  </catDesc>
                </category>
                <category xml:id="compound">
-                  <catDesc xml:lang="en"><term>compound</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>compound</term>
+                  </catDesc>
                </category>
                <category xml:id="conj">
-                  <catDesc xml:lang="en"><term>conj</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>conj</term>
+                  </catDesc>
                </category>
                <category xml:id="cop">
-                  <catDesc xml:lang="en"><term>cop</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>cop</term>
+                  </catDesc>
                </category>
                <category xml:id="csubj">
-                  <catDesc xml:lang="en"><term>csubj</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>csubj</term>
+                  </catDesc>
                </category>
                <category xml:id="csubj_pass">
-                  <catDesc xml:lang="en"><term>csubj:pass</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>csubj:pass</term>
+                  </catDesc>
                </category>
                <category xml:id="dep">
-                  <catDesc xml:lang="en"><term>dep</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>dep</term>
+                  </catDesc>
                </category>
                <category xml:id="det">
-                  <catDesc xml:lang="en"><term>det</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>det</term>
+                  </catDesc>
                </category>
                <category xml:id="det_numgov">
-                  <catDesc xml:lang="en"><term>det:numgov</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>det:numgov</term>
+                  </catDesc>
                </category>
                <category xml:id="det_nummod">
-                  <catDesc xml:lang="en"><term>det:nummod</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>det:nummod</term>
+                  </catDesc>
                </category>
                <category xml:id="det_poss">
-                  <catDesc xml:lang="en"><term>det:poss</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>det:poss</term>
+                  </catDesc>
                </category>
                <category xml:id="discourse">
-                  <catDesc xml:lang="en"><term>discourse</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>discourse</term>
+                  </catDesc>
                </category>
                <category xml:id="discourse_intj">
-                  <catDesc xml:lang="en"><term>discourse:intj</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>discourse:intj</term>
+                  </catDesc>
                </category>
                <category xml:id="dislocated">
-                  <catDesc xml:lang="en"><term>dislocated</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>dislocated</term>
+                  </catDesc>
                </category>
                <category xml:id="expl">
-                  <catDesc xml:lang="en"><term>expl</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>expl</term>
+                  </catDesc>
                </category>
                <category xml:id="expl_pv">
-                  <catDesc xml:lang="en"><term>expl:pv</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>expl:pv</term>
+                  </catDesc>
                </category>
                <category xml:id="fixed">
-                  <catDesc xml:lang="en"><term>fixed</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>fixed</term>
+                  </catDesc>
                </category>
                <category xml:id="flat">
-                  <catDesc xml:lang="en"><term>flat</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>flat</term>
+                  </catDesc>
                </category>
                <category xml:id="flat_foreign">
-                  <catDesc xml:lang="en"><term>flat:foreign</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>flat:foreign</term>
+                  </catDesc>
                </category>
                <category xml:id="flat_name">
-                  <catDesc xml:lang="en"><term>flat:name</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>flat:name</term>
+                  </catDesc>
                </category>
                <category xml:id="goeswith">
-                  <catDesc xml:lang="en"><term>goeswith</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>goeswith</term>
+                  </catDesc>
                </category>
                <category xml:id="iobj">
-                  <catDesc xml:lang="en"><term>iobj</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>iobj</term>
+                  </catDesc>
                </category>
                <category xml:id="list">
-                  <catDesc xml:lang="en"><term>list</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>list</term>
+                  </catDesc>
                </category>
                <category xml:id="mark">
-                  <catDesc xml:lang="en"><term>mark</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>mark</term>
+                  </catDesc>
                </category>
                <category xml:id="nmod">
-                  <catDesc xml:lang="en"><term>nmod</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>nmod</term>
+                  </catDesc>
                </category>
                <category xml:id="nmod_arg">
-                  <catDesc xml:lang="en"><term>nmod:arg</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>nmod:arg</term>
+                  </catDesc>
                </category>
                <category xml:id="nmod_flat">
-                  <catDesc xml:lang="en"><term>nmod:flat</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>nmod:flat</term>
+                  </catDesc>
                </category>
                <category xml:id="nmod_pred">
-                  <catDesc xml:lang="en"><term>nmod:pred</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>nmod:pred</term>
+                  </catDesc>
                </category>
                <category xml:id="nsubj">
-                  <catDesc xml:lang="en"><term>nsubj</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>nsubj</term>
+                  </catDesc>
                </category>
                <category xml:id="nsubj_pass">
-                  <catDesc xml:lang="en"><term>nsubj:pass</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>nsubj:pass</term>
+                  </catDesc>
                </category>
                <category xml:id="nummod">
-                  <catDesc xml:lang="en"><term>nummod</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>nummod</term>
+                  </catDesc>
                </category>
                <category xml:id="nummod_gov">
-                  <catDesc xml:lang="en"><term>nummod:gov</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>nummod:gov</term>
+                  </catDesc>
                </category>
                <category xml:id="obj">
-                  <catDesc xml:lang="en"><term>obj</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>obj</term>
+                  </catDesc>
                </category>
                <category xml:id="obl">
-                  <catDesc xml:lang="en"><term>obl</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>obl</term>
+                  </catDesc>
                </category>
                <category xml:id="obl_agent">
-                  <catDesc xml:lang="en"><term>obl:agent</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>obl:agent</term>
+                  </catDesc>
                </category>
                <category xml:id="obl_arg">
-                  <catDesc xml:lang="en"><term>obl:arg</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>obl:arg</term>
+                  </catDesc>
                </category>
                <category xml:id="obl_cmpr">
-                  <catDesc xml:lang="en"><term>obl:cmpr</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>obl:cmpr</term>
+                  </catDesc>
                </category>
                <category xml:id="orphan">
-                  <catDesc xml:lang="en"><term>orphan</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>orphan</term>
+                  </catDesc>
                </category>
                <category xml:id="parataxis">
-                  <catDesc xml:lang="en"><term>parataxis</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>parataxis</term>
+                  </catDesc>
                </category>
                <category xml:id="parataxis_insert">
-                  <catDesc xml:lang="en"><term>parataxis:insert</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>parataxis:insert</term>
+                  </catDesc>
                </category>
                <category xml:id="parataxis_obj">
-                  <catDesc xml:lang="en"><term>parataxis:obj</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>parataxis:obj</term>
+                  </catDesc>
                </category>
                <category xml:id="punct">
-                  <catDesc xml:lang="en"><term>punct</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>punct</term>
+                  </catDesc>
                </category>
                <category xml:id="reparandum">
-                  <catDesc xml:lang="en"><term>reparandum</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>reparandum</term>
+                  </catDesc>
                </category>
                <category xml:id="root">
-                  <catDesc xml:lang="en"><term>root</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>root</term>
+                  </catDesc>
                </category>
                <category xml:id="vocative">
-                  <catDesc xml:lang="en"><term>vocative</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>vocative</term>
+                  </catDesc>
                </category>
                <category xml:id="xcomp">
-                  <catDesc xml:lang="en"><term>xcomp</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>xcomp</term>
+                  </catDesc>
                </category>
                <category xml:id="xcomp_pred">
-                  <catDesc xml:lang="en"><term>xcomp:pred</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>xcomp:pred</term>
+                  </catDesc>
                </category>
                <category xml:id="xcomp_subj">
-                  <catDesc xml:lang="en"><term>xcomp:subj</term></catDesc>
+                  <catDesc xml:lang="en">
+                     <term>xcomp:subj</term>
+                  </catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="NER">
-               <desc xml:lang="pl"><term>Nazwy własne</term></desc>
-               <desc xml:lang="en"><term>Named entities</term></desc>
+               <desc xml:lang="pl">
+                  <term>Nazwy własne</term>
+               </desc>
+               <desc xml:lang="en">
+                  <term>Named entities</term>
+               </desc>
                <category xml:id="PER">
-                  <catDesc xml:lang="pl"><term>osoba</term></catDesc>
-                  <catDesc xml:lang="en"><term>person</term></catDesc>
+                  <catDesc xml:lang="pl">
+                     <term>osoba</term>
+                  </catDesc>
+                  <catDesc xml:lang="en">
+                     <term>person</term>
+                  </catDesc>
                </category>
                <category xml:id="LOC">
-                  <catDesc xml:lang="pl"><term>miejsce</term></catDesc>
-                  <catDesc xml:lang="en"><term>location</term></catDesc>
+                  <catDesc xml:lang="pl">
+                     <term>miejsce</term>
+                  </catDesc>
+                  <catDesc xml:lang="en">
+                     <term>location</term>
+                  </catDesc>
                </category>
                <category xml:id="ORG">
-                  <catDesc xml:lang="pl"><term>organizacja</term></catDesc>
-                  <catDesc xml:lang="en"><term>organization</term></catDesc>
+                  <catDesc xml:lang="pl">
+                     <term>organizacja</term>
+                  </catDesc>
+                  <catDesc xml:lang="en">
+                     <term>organization</term>
+                  </catDesc>
                </category>
                <category xml:id="MISC">
-                  <catDesc xml:lang="pl"><term>inne</term></catDesc>
-                  <catDesc xml:lang="en"><term>miscellaneous</term></catDesc>
+                  <catDesc xml:lang="pl">
+                     <term>inne</term>
+                  </catDesc>
+                  <catDesc xml:lang="en">
+                     <term>miscellaneous</term>
+                  </catDesc>
                </category>
             </taxonomy>
          </classDecl>
@@ -7418,7 +7703,9 @@
                   <occupation>Główny Inspektor Sanitarny</occupation>
                </person>
                <person xml:id="Posłowie">
-                  <persName><term>Posłowie</term></persName>
+                  <persName>
+                     <term>Posłowie</term>
+                  </persName>
                </person>
                <person xml:id="PotocznyMichał">
                   <persName>
@@ -11010,16 +11297,18 @@
          </langUsage>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2021-02-04"><name>Tomaž Erjavec</name>: Made sample.</change>
-         <change when="2021-02-04">
-            <name>Tomaž Erjavec</name>: Small fixes for Version 2.</change>
+         <change when="2021-03-05">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2021-03-04">
+            <name>Tomaž Erjavec</name>: Fixes for Version 2.</change>
          <change when="2020-10-06">
-            <name>Michał Rudolf</name>: Generated corpus in Parla-CLARIN. </change>
+            <name>Michał Rudolf</name>: Generated corpus in Parla-CLARIN.</change>
       </revisionDesc>
    </teiHeader>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-PL_2015-11-12-senat-01-1.ana.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-PL_2016-07-07-senat-22-2.ana.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-PL_2017-06-07-sejm-43-1.ana.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-PL_2018-05-08-sejm-62-1.ana.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-PL_2019-06-13-sejm-82-2.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-PL_2015-11-12-senat-01-1.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-PL_2017-02-21-senat-35-1.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-PL_2018-09-27-senat-65-2.ana.xml"/>
 </teiCorpus>

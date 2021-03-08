@@ -479,8 +479,9 @@
       <ref name="global.atts"/>
       <oneOrMore>
 	<choice>
-          <text/>
           <ref name="comment"/>
+	  <ref name="pb"/>
+          <text/>
 	</choice>
       </oneOrMore>
     </element>
@@ -604,7 +605,13 @@
 	</attribute>
       </optional>
       <ref name="global.atts"/>
-      <text/>
+      <oneOrMore>
+	<choice>
+	  <ref name="note"/>
+	  <ref name="pb"/>
+          <text/>
+	</choice>
+      </oneOrMore>
     </element>
   </define>
   

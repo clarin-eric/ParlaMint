@@ -20,7 +20,7 @@
 
   <!-- Separator for string multi-valued attributes
        doesn't work in Saxon!? Need to use a literal 
-  <xsl:param name="multi-separator">;</xsl:param-->
+  <xsl:param name="multi-separator">|</xsl:param-->
 
   <!-- Output labels for MPs and guests -->
   <xsl:param name="mp-label">MP</xsl:param>
@@ -210,7 +210,7 @@
       <!--xsl:attribute name="desc" select="tei:desc"/-->
       <xsl:text>&#10;</xsl:text>
       <xsl:value-of select="concat($note-open, tei:desc, $note-close)"/>
-      <xsl:text>&#9;_&#9;_&#9;_&#9;_&#9;_&#9;_&#9;_&#9;_&#9;_&#10;</xsl:text>
+      <xsl:text>&#9;_&#9;_&#9;_&#9;_&#9;_&#9;_&#9;_&#9;_&#9;_&#9;_&#10;</xsl:text>
     </note>
     <xsl:text>&#10;</xsl:text>
   </xsl:template>
@@ -227,12 +227,26 @@
   </xsl:template>
 
   <xsl:template match="tei:name">
-    <xsl:copy>
-      <xsl:copy-of select="@type"/>
-      <xsl:text>&#10;</xsl:text>
-      <xsl:apply-templates/>
-    </xsl:copy>
-    <xsl:text>&#10;</xsl:text>
+    <xsl:choose>
+      <xsl:when test="ancestor::tei:name">
+	<xsl:apply-templates/>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:copy>
+	  <xsl:copy-of select="@type"/>
+	  <xsl:text>&#10;</xsl:text>
+	  <xsl:apply-templates/>
+	</xsl:copy>
+	<xsl:text>&#10;</xsl:text>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
+  <!-- Used by CZ, currently ignored -->
+  <xsl:template match="tei:date | tei:time | 
+		       tei:num | tei:unit | 
+		       tei:email | tei:ref">
+    <xsl:apply-templates/>
   </xsl:template>
   
   <xsl:template match="tei:s">
@@ -244,10 +258,87 @@
     <xsl:text>&#10;</xsl:text>
   </xsl:template>
 
+<!-- We now have the Czech case:
+
+<w xml:id="u1.p1.s1.w18">abych
+  <w xml:id="u1.p1.s1.w19" lemma="aby" msd="UPosTag=SCONJ" norm="aby"/>
+  <w xml:id="u1.p1.s1.w20" lemma="být" msd="UPosTag=AUX|Mood=Cnd" norm="bych"/>
+</w>
+
+<link ana="ud-syn:punct" target="#u1.p1.s1.w21 #u1.p1.s1.w17"/>
+<link ana="ud-syn:mark"  target="#u1.p1.s1.w21 #u1.p1.s1.w19"/>
+<link ana="ud-syn:aux"   target="#u1.p1.s1.w21 #u1.p1.s1.w20"/>
+
+Figure out what to do with this!
+
+Simplest:
+- introduce normalised column (multi valued)
+- make all attributes multivalued 
+  (however, feats is already multivalued!)
+
+And, there is, in theory, also:
+<w norm="najlepši" lemma="lep">
+ <w>nar</w>
+ <w>lepši</w>
+</w>
+
+-->
+
   <!-- TOKENS -->
   <xsl:template match="tei:pc | tei:w">
-    <xsl:value-of select="concat(.,'&#9;',et:output-annotations(.))"/>
-    <xsl:call-template name="deps"/>
+    <!-- Output token -->
+    <xsl:value-of select="concat(normalize-space(.),'&#9;')"/>
+    <xsl:choose>
+      <!-- For normalized words e.g.
+ 	<w xml:id="u1.p1.s1.w18">abych
+	 <w xml:id="u1.p1.s1.w19" lemma="aby" msd="UPosTag=SCONJ" norm="aby"/>
+	 <w xml:id="u1.p1.s1.w20" lemma="být" msd="UPosTag=AUX|Mood=Cnd" norm="bych"/>
+	</w>
+      -->
+      <xsl:when test="normalize-space(text()[1]) and (tei:w or tei:pc)">
+	<xsl:variable name="norms">
+	  <xsl:for-each select="tei:w | tei:pc">
+	    <xsl:value-of select="@norm"/>
+	    <xsl:text>|</xsl:text>
+	  </xsl:for-each>
+	</xsl:variable>
+	<xsl:value-of select="concat(replace($norms, '\|$', ''),'&#9;')"/>
+	<xsl:variable name="toks">
+	  <xsl:for-each select="tei:w | tei:pc">
+	    <list>
+	      <xsl:for-each select="tokenize(et:output-annotations(.), '&#9;')">
+		<item>
+		  <xsl:value-of select="."/>
+		</item>
+	      </xsl:for-each>
+	    </list>
+	  </xsl:for-each>
+	</xsl:variable>
+	<xsl:value-of select="et:join-annotations($toks)"/>
+	<xsl:variable name="deps">
+	  <xsl:for-each select="tei:w | tei:pc">
+	    <list>
+	      <xsl:variable name="annots">
+		<xsl:call-template name="deps">
+		  <xsl:with-param name="id" select="@xml:id"/>
+		</xsl:call-template>
+	      </xsl:variable>
+	      <xsl:for-each select="tokenize($annots, '&#9;')">
+		<item>
+		  <xsl:value-of select="."/>
+		</item>
+	      </xsl:for-each>
+	    </list>
+	  </xsl:for-each>
+	</xsl:variable>
+	<xsl:text>&#9;</xsl:text>
+	<xsl:value-of select="et:join-annotations($deps)"/>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:value-of select="concat(., '&#9;', et:output-annotations(.), '&#9;')"/>
+	<xsl:call-template name="deps"/>
+      </xsl:otherwise>
+    </xsl:choose>
     <xsl:text>&#10;</xsl:text>
     <xsl:if test="@join = 'right' or @join='both' or
 		  following::tei:*[self::tei:w or self::tei:pc][1]/@join = 'left' or
@@ -299,20 +390,20 @@
     
   <xsl:template name="deps">
     <xsl:param name="type">UD-SYN</xsl:param>
-    <xsl:variable name="id" select="@xml:id"/>
+    <xsl:param name="id" select="@xml:id"/>
     <xsl:variable name="s" select="ancestor::tei:s"/>
     <xsl:choose>
       <xsl:when test="$s/tei:linkGrp[@type=$type]">
 	<xsl:variable name="link"
 		      select="$s/tei:linkGrp[@type=$type]/tei:link
-			      [ends-with(@target, concat(' #',$id))]"/>
+			      [ends-with(@target, concat(' #', $id))]"/>
 	<xsl:if test="not(normalize-space($link/@ana))">
 	  <xsl:message>
 	    <xsl:text>ERROR: no syntactic link for token </xsl:text>
 	    <xsl:value-of select="concat(ancestor::tei:TEI/@xml:id, ':', @xml:id)"/>
 	  </xsl:message>
 	</xsl:if>
-	<xsl:value-of select="concat('&#9;', substring-after($link/@ana,'syn:'))"/>
+	<xsl:value-of select="substring-after($link/@ana,'syn:')"/>
 	<xsl:variable name="target" select="key('id', replace($link/@target,'#(.+?) #.*','$1'))"/>
 	<xsl:choose>
 	  <xsl:when test="$target/self::tei:s">
@@ -560,6 +651,31 @@
     </xsl:choose>
   </xsl:function>
   
+  <!-- Output $toks as multivalued columns -->
+  <xsl:function name="et:join-annotations">
+    <xsl:param name="toks"/>
+    <xsl:variable name="last" select="count($toks/tei:list)"/>
+    <xsl:variable name="result">
+      <!-- Counter through items -->
+      <xsl:for-each select="$toks/tei:list[1]/tei:item">
+	<xsl:variable name="i" select="position()"/>
+	<xsl:variable name="feat">
+	  <xsl:for-each select="$toks/tei:list/tei:item[position() = $i]">
+	    <xsl:value-of select="."/>
+	    <xsl:text>|</xsl:text>
+	  </xsl:for-each>
+	</xsl:variable>
+	<!-- Snip off last | and remove duplicates (works only for 2 norm words) -->
+	<xsl:value-of select="replace(
+			      replace($feat, '\|$', ''),
+			      '^(.+?)\|\1$', '$1')
+			      "/>
+	<xsl:text>&#9;</xsl:text>
+      </xsl:for-each>
+    </xsl:variable>
+    <xsl:value-of select="replace($result, '&#9;$', '')"/>
+  </xsl:function>
+    
   <xsl:function name="et:output-annotations">
     <xsl:param name="token"/>
     <xsl:variable name="n" select="replace($token/@xml:id, '.+\.([^.]+)$', '$1')"/>

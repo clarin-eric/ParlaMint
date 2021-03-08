@@ -55,22 +55,23 @@
   <xsl:template match="tei:extent">
     <xsl:copy>
       <xsl:variable name="corpora" select="count($docs/tei:item)"/>
-      <measure unit="corpora" quantity="{$corpora}">
-	<xsl:value-of select="$corpora"/>
+      <measure unit="corpora" quantity="{format-number($corpora, '#')}">
+	<xsl:value-of select="concat(format-number($corpora, '###,###,###'), ' corpora')"/>
       </measure>
-      <xsl:variable name="quant">
-	<xsl:variable name="quants">
+      <!-- This number is the real number, but all else are fake!
+      <xsl:variable name="text">
+	<xsl:variable name="texts">
 	  <xsl:for-each select="$docs/tei:item/document(.)/tei:teiCorpus">
 	    <item>
 	      <xsl:value-of select="count(xi:include)"/>
 	    </item>
 	  </xsl:for-each>
 	</xsl:variable>
-	<xsl:value-of select="sum($quants/tei:item)"/>
+	<xsl:value-of select="sum($texts/tei:item)"/>
       </xsl:variable>
-      <measure unit="texts" quantity="{format-number($quant, '#')}">
-	<xsl:value-of select="concat(format-number($quant, '###,###,###'), ' texts')"/>
-      </measure>
+      <measure unit="texts" quantity="{format-number($text, '#')}">
+	<xsl:value-of select="concat(format-number($text, '###,###,###'), ' texts')"/>
+      </measure-->
       <xsl:apply-templates/>
     </xsl:copy>
   </xsl:template>

@@ -32,7 +32,7 @@ include "ParlaMint-TEI.rnc" {
   encodingDesc =
     element encodingDesc {
       global.atts,
-      element projectDesc { paras },
+      element projectDesc { paras }+,
       editorialDecl,
       tagsDecl,
       element classDecl { taxonomy+ }
@@ -170,7 +170,8 @@ persName =
      | (element surname { text }+
         & element forename { text }+
         & element addName { text }*
-        & element roleName { text }*))
+        & element roleName { text }*
+        & element nameLink { text }*))
   }
 affiliation =
   element affiliation {

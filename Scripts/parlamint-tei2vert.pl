@@ -12,8 +12,6 @@ binmode(STDERR, 'utf8');
 
 `mkdir $outDir` unless -e "$outDir";
 
-#Fix noske beta!
-#$Saxon = 'java -jar /home/tomaz/bin/saxon.jar';
 $Saxon = 'java -jar /usr/share/java/saxon.jar';
 $TEI2VERT  = "$Bin/parlamint2xmlvert.xsl";
 $POLISH = "$Bin/parlamint-xml2vert.pl";
