@@ -32,7 +32,7 @@ include "ParlaMint-TEI.rnc" {
   encodingDesc =
     element encodingDesc {
       global.atts,
-      element projectDesc { paras },
+      element projectDesc { paras }+,
       editorialDecl,
       tagsDecl,
       element classDecl { taxonomy+ }

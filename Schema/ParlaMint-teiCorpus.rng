@@ -64,9 +64,11 @@
       <a:documentation>Encoding description.</a:documentation>
       <element name="encodingDesc">
 	<ref name="global.atts"/>
-	<element name="projectDesc">
-	  <ref name="paras"/>
-	</element>
+	<oneOrMore>
+	  <element name="projectDesc">
+	    <ref name="paras"/>
+	  </element>
+	</oneOrMore>
 	<ref name="editorialDecl"/>
 	<ref name="tagsDecl"/>
 	<element name="classDecl">
