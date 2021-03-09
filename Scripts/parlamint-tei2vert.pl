@@ -5,8 +5,9 @@ use FindBin qw($Bin);
 use File::Spec;
 
 $rootFile = File::Spec->rel2abs(shift);
-$inFiles = shift;
 $outDir = shift;
+
+($rootDir) = $rootFile =~ m|(.+)/|;
 
 binmode(STDERR, 'utf8');
 
@@ -22,7 +23,16 @@ binmode(STDERR,'utf8');
 die "Can't find root TEI file with teiHeader: $rootFile\n"
     unless -e $rootFile;
 
-foreach $inFile (glob $inFiles) {
+open(IN, '<:utf8', $rootFile);
+while (<IN>) {
+    if (m|<xi:include |) {
+	($href) = m|href="(.+?)"| or
+	    die "Can't find href in xi:include!\n";
+	push(@inFiles, "$rootDir/$href");
+    }
+}
+close IN;
+foreach $inFile (@inFiles) {
     if (($fName) = $inFile =~ m|(ParlaMint-.._[^/]+)\.ana\.xml|) {
 	print STDERR "INFO: Converting $fName\n";
     }
