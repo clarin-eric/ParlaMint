@@ -1,5 +1,5 @@
 #Now that we have plain text, would be better to compute char counts from those!
-chars:
+chars-xml:
 	rm -f ParlaMint-BG/chars-files-BG.tbl
 	ls ParlaMint-BG/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
 	'Scripts/chars.pl {} >> ParlaMint-BG/chars-files-BG.tbl'
@@ -73,7 +73,7 @@ test-val:
 	$s -xsl:Scripts/validate-parlamint.xsl ParlaMint-SI/ParlaMint-SI_2014-08-25_SDZ7-Izredna-01.ana.xml
 
 # Validate and produce char counts for 1 language
-LANG = HR
+LANG = BE
 PREF = /project/corpora/Parla/ParlaMint/ParlaMint
 all-lang:	val-pc-lang val-lang vertana-lang text-lang chars-lang
 xall-lang:	val-pc-lang val-lang vert-lang vertana-lang text-lang chars-lang
