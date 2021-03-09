@@ -1,3 +1,4 @@
+#Now that we have plain text, would be better to compute char counts from those!
 chars:
 	rm -f ParlaMint-BG/chars-files-BG.tbl
 	ls ParlaMint-BG/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
@@ -72,15 +73,26 @@ test-val:
 	$s -xsl:Scripts/validate-parlamint.xsl ParlaMint-SI/ParlaMint-SI_2014-08-25_SDZ7-Izredna-01.ana.xml
 
 # Validate and produce char counts for 1 language
-LANG = CZ
+LANG = HR
 PREF = /project/corpora/Parla/ParlaMint/ParlaMint
-all-lang:	val-pc-lang val-lang chars-lang
-xall-lang:	val-pc-lang val-lang vert-lang chars-lang
+all-lang:	val-pc-lang val-lang vertana-lang text-lang chars-lang
+xall-lang:	val-pc-lang val-lang vert-lang vertana-lang text-lang chars-lang
 chars-lang:
-	nice find ParlaMint-${LANG}/ -name '*.xml' | \
-	$P --jobs 20 Scripts/chars.pl {} >> ParlaMint-${LANG}/chars-files-${LANG}.tbl
+	rm -f ParlaMint-${LANG}/chars-files-${LANG}.txt
+	rm -f ParlaMint-${LANG}/*.tmp
+	nice find ParlaMint-${LANG}/ -name '*.txt' | \
+	$P --jobs 20 'cut -f2 {} > {.}.tmp'
+	nice find ParlaMint-${LANG}/ -name '*.tmp' | \
+	$P --jobs 20 'Scripts/chars.pl {} >> ParlaMint-${LANG}/chars-files-${LANG}.tbl'
 	Scripts/chars-summ.pl < ParlaMint-${LANG}/chars-files-${LANG}.tbl \
 	> ParlaMint-${LANG}/chars-${LANG}.tbl
+	rm -f ParlaMint-${LANG}/*.tmp
+text-lang:
+	ls ParlaMint-${LANG}/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ParlaMint-${LANG}/{/.}.txt'
+vertana-lang:
+	Scripts/parlamint-tei2vert.pl ParlaMint-${LANG}/ParlaMint-${LANG}.ana.xml \
+	'ParlaMint-${LANG}/*_*.ana.xml' ParlaMint-${LANG}
 vert-lang:
 	Scripts/parlamint-tei2vert.pl ParlaMint-${LANG}/ParlaMint-${LANG}.xml \
 	'ParlaMint-${LANG}/*_*.xml' ParlaMint-${LANG}
