@@ -1,0 +1,700 @@
+<TEI xml:lang="nl" xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x" ana="#parla.sitting #reference" xmlns:ns="http://www.namescape.nl/" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="nl" type="main">Belgisch parlementair corpus ParlaMint-BE, commissievergadering van 21-06-2017 [ParlaMint]</title>
+                <title xml:lang="en" type="main">Belgian parliamentary corpus ParlaMint-BE, committee meeting of 21-06-2017 [ParlaMint]</title>
+                <meeting ana="#parla.meeting.committee" corresp="#be_federal_parliament" n="ic694">Commissievergadering 694 van 21-06-2017</meeting>
+                <meeting ana="#parla.term #period_54" corresp="#be_federal_parliament" n="54">Zittingperiode 54</meeting>
+                <respStmt>
+                    <persName>Henk van der Pol</persName>
+                    <persName>Griet Depoorter</persName>
+                    <resp xml:lang="nl">Datavergaring en conversie naar TEI</resp>
+                    <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Jesse de Does</persName>
+                    <resp xml:lang="nl">Taalkundige verrijking</resp>
+                    <resp xml:lang="en">Linguistic annotation</resp>
+                </respStmt>
+                <funder>
+                    <orgName xml:lang="nl">De CLARIN-onderzoeksinfrastructuur</orgName>
+                    <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+                </funder>
+                <funder>
+                    <orgName xml:lang="nl">De Europese Commissie</orgName>
+                    <orgName xml:lang="en">The European Commission</orgName>
+                </funder>
+                <funder>
+                    <orgName xml:lang="nl">Taalunie</orgName>
+                    <orgName xml:lang="en">Dutch Language Union</orgName>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>0.9</edition>
+            </editionStmt>
+            <extent>
+                <measure unit="speeches" quantity="68" xml:lang="en">68 speeches</measure>
+                <measure unit="speeches" quantity="68" xml:lang="nl">68 spreekbeurten</measure>
+                <measure unit="words" quantity="11874" xml:lang="en">11874 words</measure>
+                <measure unit="words" quantity="11874" xml:lang="nl">11874 woorden</measure>
+            </extent>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="nl">Instituut voor de Nederlandse Taal</orgName>
+                    <orgName xml:lang="en">Dutch Language Institute</orgName>
+                    <orgName xml:lang="nl">De CLARIN-onderzoeksinfrastructuur</orgName>
+                    <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+                    <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+                </publisher>
+                <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+                <pubPlace>
+                    <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+                </pubPlace>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+                    <p xml:lang="nl">
+                        Deze bestanden zijn beschikbaar volgens de
+                        <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+                    </p>
+                    <p xml:lang="en">
+                        This work is licensed under the
+                        <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+                    </p>
+                </availability>
+                <date when="2021-02-15">2021-02-15</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title xml:lang="fr" type="main">Commissie voor de Binnenlandse Zaken, de Algemene Zaken en het Openbaar Ambt van Woensdag 21 juni 2017 Namiddag </title>
+                    <title xml:lang="nl" type="main">Commission de l'Intérieur, des Affaires générales et de la Fonction publique du Mercredi 21 juin 2017 Après-midi </title>
+                    <idno type="URI">https://www.dekamer.be/doc/CCRI/html/54/ic694x.html</idno>
+                    <date when="2017-06-21">2017-06-21</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p xml:lang="nl">
+                    <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+                    is een project dat tot doel heeft
+      (1) een meertalige reeks vergelijkbare corpora van parlementaire handelingen te creëren die uniform zijn gecodeerd volgens de
+                    <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN aanbevelingen</ref>
+                    en die zowel de COVID-19 pandemie vanaf november 2019 als de eerdere periode vanaf 2015 bestrijkt om als referentiecorpus te dienen;
+      (2) de corpora taalkundig te verrijken met syntactische structuren volgens de Universal Dependenciesrichtlijnen, en annotatie van named entities toe te voegen;
+      (3) de corpora beschikbaar te maken via concordancers en Parlameter; en
+      (4) use cases in politieke wetenschappen en digitale geesteswetenschappen te bouwen op basis van de corpusgegevens.
+                </p>
+                <p xml:lang="en">
+                    <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+                    is a project that aims to
+      (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the
+                    <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref>
+                    and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus;
+      (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation;
+      (3) make the corpora available through concordancers and Parlameter; and
+      (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.
+                </p>
+            </projectDesc>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="desc" occurs="1"/>
+                    <tagUsage gi="body" occurs="1"/>
+                    <tagUsage gi="u" occurs="68"/>
+                    <tagUsage gi="seg" occurs="220"/>
+                    <tagUsage gi="div" occurs="1"/>
+                    <tagUsage gi="text" occurs="1"/>
+                    <tagUsage gi="note" occurs="67"/>
+                    <tagUsage gi="kinesic" occurs="1"/>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <name type="city">Brussel</name>
+                    <name type="country" key="BE">België</name>
+                    <date ana="#parla.sitting" when="2017-06-21">2017-06-21</date>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-02-15">
+                <name>Henk van der Pol</name>
+                : initial version.
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text ana="#reference">
+        <body>
+            <div type="debateSection">
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u1" who="#DelannoisPaulOlivier" ana="#regular">
+                    <note xml:lang="fr">01.01 Paul-Olivier Delannois (PS):</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg1" xml:lang="fr">Monsieur le ministre, le 19 avril dernier, je vous interrogeais à cette même commission concernant votre annonce de rationaliser les casernes de la Protection civile du Royaume. Cette réforme va engendrer la suppression de la caserne de Ghlin, située en Hainaut. La conséquence est que la zone de secours de Wallonie picarde va devoir assumer complètement plus d'interventions et notamment des accidents spécifiques graves pour lesquels la Protection civile apportait autrefois son aide, sans garantie pour le moment de bénéficier de financements complémentaires et de disposer du matériel spécifique adéquat.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg2" xml:lang="fr">Monsieur le ministre, le Hainaut est la province wallonne qui compte le plus de sites SEVESO. En tant que service de première ligne, la zone de secours de Wallonie picarde va devoir se former et s'équiper en matériel pour gérer des accidents spécifiques. Aucune indication n'a été soulevée à ce jour sur un transfert du budget du fédéral vers les zones de secours afin qu'elles puissent s'équiper en matériel pour accomplir les tâches de la Protection civile qui lui seraient confiées. Je tiens à souligner que sans ce budget du fédéral, les communes risquent de devoir financer davantage les zones de secours, avec des conséquences pour les citoyens.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg3" xml:lang="fr">Le matériel disponible actuellement dans les casernes de la Protection civile qui fermeront sera-t-il affecté aux zones de secours? Si oui, concernant le Hainaut, la zone de Wallonie picarde bénéficiera-t-elle de matériel? Je vous remercie d'avance pour vos réponses.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u2" who="#JambonJan" ana="#minister">
+                    <note xml:lang="de">01.02 Jan Jambon, ministre:</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg4" xml:lang="fr">Monsieur Delannois, le transfert de certains matériels est prévu pour certaines zones vu qu'elles devront à l'avenir assurer certaines tâches fédérales. Il s'agit de la zone Hainaut-centre, spécifiquement pour les obligations internationales en matière de lutte contre l'incendie au SHAPE. Pour la zone West-Vlaanderen 1, le matériel destiné à traiter la pollution maritime en mer du Nord sera mis à disposition par le SPF Santé-Environnement. Pour les autres zones, le rôle primordial de première ligne dans la chaîne de la sécurité civile ne change pas étant donné la réforme des services d'incendie qui a déjà été lancée par le gouvernement précédent, ainsi que la répartition des missions prévues depuis l'arrêté royal du 10 juin 2014.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg5" xml:lang="fr">Le fait que la Protection civile n'interviendra plus en renfort de certaines zones géographiquement proches pour ses missions de première ligne libérera probablement du matériel qui n'est pas nécessaire pour les missions spécialisées. Quand l'inventaire en sera fait, nous verrons comment le transférer aux zones et auxquelles d'entre elles.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg6" xml:lang="fr">Pour être très clair, on met pour l'instant de l'ordre dans la répartition des tâches. On n'ajoute aucune tâche vers les zones de secours, mais il est clair qu'auparavant, la Protection civile assumait des tâches qui étaient attribuées aux zones de secours. Donc on met de l'ordre. Après cette nouvelle répartition des tâches, du matériel au sein des agences de Protection civile ne sera plus utile et pourra être transféré vers les zones de secours. Mais l'inventaire, les négociations avec les zones de secours doivent encore être faits. Il faudra deux ans pour réaliser le transfert de tâches et de matériel.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u3" who="#DelannoisPaulOlivier" ana="#regular">
+                    <note xml:lang="fr">01.03 Paul-Olivier Delannois (PS):</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg7" xml:lang="fr">Monsieur le ministre, vous avez répondu à ma question avant que je ne vous la pose. J'allais en effet vous demander si vous aviez un timing afin de savoir où ce matériel pouvait aller.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg8" xml:lang="fr">Je partage votre avis suivant lequel le rôle de première ligne ne change pas. Il n'empêche qu'en cas d'accident réel – ce qui nécessite l'intervention de la Protection civile –, l'absence de Ghlin à nos côtés va allonger le temps d'attente. Cela affectera donc directement les zones de secours de la Wallonie picarde.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg9" xml:lang="fr">En tout cas, j'ai pris acte de votre intention de préparer un inventaire, de sorte que nous en saurons plus dans deux ans. Enfin, si du matériel spécifique était disponible, je vous prie déjà de ne pas oublier la zone de la Wallonie picarde.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u4" who="#VandenputTim" ana="#regular">
+                    <note xml:lang="nl">02.01 Tim Vandenput (Open Vld):</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg10" xml:lang="nl">Mijnheer de voorzitter, mijnheer de minister, eigenlijk gaat het om één vraag. Ik vermoed dat op administratief vlak iets is verkeerd gegaan naar aanleiding van een actualisatie. Ik zal dus, indien u ermee akkoord gaat, de laatste en bijgevolg meest actuele vraag stellen.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg11" xml:lang="nl">Mijnheer de minister, ANPR-camera’s op het terrein zijn niet alleen nuttig om de nummerplaten op te zoeken van wagens die voorbijrijden. De camera’s kunnen, mits gebruik van bijkomende software, onder meer ook worden aangewend voor kleurherkenning van vrachtwagens. Dat maakt dat behalve opzoekingen op nummerplaat ook opzoekingen op kleur of merk kunnen worden gedaan. Deze herkenningssystemen hebben echter een heel grote foutenmarge. Wit is niet altijd wit. Dat kan ’s morgens of ’s avonds wijzigen. Een camera kan kleurschakeringen niet registreren zoals het menselijk oog dat kan. Hetzelfde geldt voor voertuigherkenning en merkherkenning.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg12" xml:lang="nl">Veel van die gegevens zijn nochtans beschikbaar en gekend door de overheid. De databank van de DIV bevat gegevens van elk voertuig dat in België is ingeschreven. Het gaat om gegevens zoals het merk, de kleur en de motorisatie in combinatie met de toegekende nummerplaat. Het is op dit moment al mogelijk om op basis van vaststellingen via ANPR-camera’s opzoekingen in de DIV-databank te doen. Deze opzoekingen moeten echter grotendeels manueel gebeuren door de operator in de politiezone, die ook de ANPR-query’s zal runnen.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg13" xml:lang="nl">Over het voorbeeld zal ik niet uitweiden. Ik ben er echter van overtuigd dat wij in elke politiezone aan efficiëntie kunnen winnen, mochten de databases automatisch worden gekoppeld. Daartoe zijn er echter twee belangrijke voorwaarden. Enerzijds moet de databank van de DIV accuraat en up-to-date zijn, wat niet altijd het geval is. Anderzijds zou in die databank ook een plug-in moeten worden geïnstalleerd, zodat de software van het ANPR-cameranetwerk rechtstreeks zoekopdrachten in de DIV-databank kan uitvoeren. Daardoor is het bijvoorbeeld mogelijk een tonnagebeperking eenvoudig en zonder dure sensoren voor vrachtwagensluizen te controleren.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg14" xml:lang="nl">Vele politiezones hebben de voorbije jaren zwaar in de uitbouw van een ANPR-cameranetwerk geïnvesteerd. Dat zult u met de federale overheid ook doen. Het lijkt dan ook wenselijk de mogelijkheden die een dergelijk netwerk biedt, zo maximaal mogelijk aan te wenden.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg15" xml:lang="nl">Ik heb daarover twee vragen.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg16" xml:lang="nl">Ten eerste, ziet u mogelijkheden om de functionaliteit van de ANPR-cameranetwerken van lokale politiezones te optimaliseren? Is een automatische koppeling aan de authentieke databank van de DIV een optie die u in overweging kan nemen?</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg17" xml:lang="nl">Ten tweede, zijn er technische of juridische hinderpalen voor een dergelijke koppeling? Zo ja, welke?</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u5" who="#JambonJan" ana="#minister">
+                    <note xml:lang="de">02.02 Minister Jan Jambon:</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg18" xml:lang="nl">Mijnheer de voorzitter, ik merk dat zelfs in een fonkelnieuw gebouw als dit, het Forumgebouw van de Kamer van volksvertegenwoordigers, de hedendaagse technologie nog niet helemaal is doorgedrongen, althans niet stabiel is en dat vind ik jammer, zeker alvorens een vraag over technologie te moeten beantwoorden.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg19" xml:lang="nl">Met uw vraag, mijnheer Vandenput, geeft u duidelijk aan welke mogelijkheden er bestaan op het vlak van technologie, maar zoals u ook terecht aangeeft, zijn die systemen niet onfeilbaar, net als deze van de Kamer overigens.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg20" xml:lang="nl">Herkenningssystemen vertonen inderdaad foutenmarges, maar ook de DIV-databank is zeker niet volledig. In ongeveer één op drie gevallen is bijvoorbeeld de kleur van het voertuig onbekend. De kleur van een voertuig kan ook wijzigen. De kleur die opgenomen is in de DIV-databank is de kleur die de wagen heeft bij het verlaten van de fabriek. Sommige wagens worden nog wel eens overspoten.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg21" xml:lang="nl">Voor het ANPR-project is er in het lastenboek in een koppeling voorzien met de DIV om bepaalde handelingen te automatiseren, zodat er efficiënter kan worden gewerkt. Men mag er echter niet van uitgaan dat de politie zonder meer de vrije hand heeft om losweg alle denkbare controles te doen. De politie moet steeds werken binnen een legistiek kader dat voldoet aan de vereisten van proportionaliteit, rekening houdend met de finaliteit en met de regelgeving inzake privacy.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg22" xml:lang="nl">Op dit moment maakt de regering werk van een nieuw legistiek kader met betrekking tot het gebruik van camera’s. Dit kader is nog in ontwikkeling en zal rekening houden met regels inzake privacy en de Europese general data privacy regulation, de nieuwe Europese richtlijn inzake gegevensbescherming. Ik kan u vertellen dat de camerawetgeving al voor een eerste lezing langs de regering is gepasseerd. Daarna zijn er een aantal nieuwe elementen opgedoken, waaronder de nieuwe Europese richtlijn. De tekst wordt momenteel aangepast aan deze nieuwe elementen.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg23" xml:lang="nl">Daarnaast is het gebruik van de DIV-databank eveneens gebonden aan welomlijnde spelregels. Deze worden bewaakt door het Sectoraal comité voor de Federale Overheid.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg24" xml:lang="nl">Het nationaal ANPR-netwerk zal dus hoe dan ook een koppeling bevatten met de DIV-databank, wat een meerwaarde is ten opzichte van de lokale cameranetwerken.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg25" xml:lang="nl">Op dit moment is in een koppeling voorzien met de DIV-databank voor de zogenaamde politionele hits. Dat zijn voertuigen die reeds geseind zijn in de politiedatabank. Deze politionele hits vloeien voort uit de camerabewaking. Op die manier kan de politie extra informatie vanuit de DIV-databank verkrijgen.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u6" who="#VandenputTim" ana="#regular">
+                    <note xml:lang="nl">02.03 Tim Vandenput (Open Vld):</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg26" xml:lang="nl">Mijnheer de minister, u doelde daarnet wellicht op een probleem met de wifi- of gsm-connectie. Ik heb hier inderdaad soms ook geen ontvangst. Tegenwoordig kan men wel een wagentje op Mars laten rijden, maar dit probleem kan men niet oplossen.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg27" xml:lang="nl">Ik dank u voor uw duidelijk antwoord. Ik ben blij te horen dat de regering met de zaak bezig is, dat er in een koppeling is voorzien in het raamcontract en dat de politie meer mogelijkheden zal hebben.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg28" xml:lang="nl">Ik ben het met u eens dat de men aandacht moet hebben voor de privacy.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg29" xml:lang="nl">Als we de database van de DIV gaan gebruiken, moet deze voor honderd procent accuraat zijn, zodat men zich niet op halve informatie moet baseren.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg30" xml:lang="nl">Bedankt voor het werk dat ter zake wordt geleverd. Hopelijk kan de politie binnenkort beschikken over deze koppeling, zodat zij efficiënter kan werken.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u7" who="#VermeulenBrecht" ana="#chair">
+                    <note xml:lang="nl">De voorzitter:</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg31" xml:lang="nl">Vraag nr. 18966 van mevrouw Hufkens wordt omgezet in een schriftelijke vraag.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u8" who="#LahayeBattheuSabien" ana="#regular">
+                    <note xml:lang="de">03.01 Sabien Lahaye-Battheu (Open Vld):</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg32" xml:lang="nl">Mijnheer de minister, in de omzendbrief van december 2006 staat dat het politioneel onderzoek in burgerlijke zaken geen kerntaak van de politie is. Bij een dergelijk onderzoek gaat de politieambtenaar ter plaatse om te kijken hoe de woning eruitziet. Hij gaat ook na of die mensen door de politiediensten gekend zijn en of zij een strafregister hebben.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg33" xml:lang="nl">In bepaalde regio’s wordt de politie hiervoor heel vaak ingezet, dit omwille van opportuniteitsredenen. Men besluit de opdracht aan de politie te geven omdat die korter op de bal kan spelen dan de justitiehuizen, die vaak met wachttijden te kampen hebben.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg34" xml:lang="nl">De opdrachten komen van de rechtbanken, de vroegere jeugdrechtbanken, nu de familierecht­banken, die in burgerlijke zaken onder andere het verblijf van de kinderen moeten regelen bij de beide ouders.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg35" xml:lang="nl">Ik heb bij u cijfers opgevraagd. Ik kreeg vorige maand het antwoord dat in 2015 2 986 onderzoeken werden verricht. Het jaar daarvoor was dat een honderdtal minder. Die cijfers zijn vergelijkbaar met het verleden, toen het cijfer elk jaar rond de drieduizend lag.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg36" xml:lang="nl">In een eerdere vraag vernam ik dat de omzendbrief tweejaarlijks wordt geëvalueerd door de FOD Binnenlandse Zaken, in samenwerking met de Federale Politieraad.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg37" xml:lang="nl">Mijnheer de minister, kunt u meedelen waar de politie vooral voor dergelijke onderzoeken wordt ingezet? Kwam het aspect van het politioneel onderzoek in burgerlijke zaken de afgelopen jaren aan bod in de evaluaties van de omzendbrief? Zo ja, wat waren de conclusies? Kwam dit aspect aan bod in het kerntakendebat? Overweegt u initiatieven ter zake?</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u9" who="#JambonJan" ana="#minister">
+                    <note xml:lang="de">03.02 Minister Jan Jambon:</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg38" xml:lang="nl">Op centraal niveau zijn er geen gegevens beschikbaar over welke politiezones hoeveel politiecapaciteit wijden aan politioneel onderzoek in burgerlijke zaken. Aangezien de omzendbrief van 1 december 2006 voldoende duidelijk beschrijft wat er wordt verwacht van de politie in burgerlijke zaken, viel dat buiten de scope van de laatste kerntakenoefening en het goedgekeurde kerntakenplan van 2015.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg39" xml:lang="nl">Ook de wet op het politieambt stelt expliciet welke administratieve taak tot het takenpakket van de politie behoort. Het behoort tot de bevoegdheid van de lokale verantwoordelijken en/of van andere instanties om daaraan invulling te geven. Ik ben er geen voorstander van om uitzonderingen voor bevoegdheden die elders liggen, wegens opportuniteits- of efficiëntieredenen, bijvoorbeeld wachttijden, al dan niet tijdelijk te overwegen. Dat lijkt me niet aangewezen. Gelet op de toegenomen vraag naar politiecapaciteit zullen die marginaal in aantal en werkbelasting zijn.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg40" xml:lang="nl">Wat de evaluatie van de omzendbrief betreft, is het duidelijk dat zowel recent als in het verleden die oefening vooral werd ingebed in het ruimere kerntakendebat. Enkel in 2008 werd individueel per taak getoetst in welke mate de richtlijnen werden geïmplementeerd door de politiezones. Het aspect moraliteitsonderzoek werd echter nooit als dusdanig onderzocht, aangezien het niet in de omzendbrief werd opgenomen.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u10" who="#VermeulenBrecht" ana="#chair">
+                    <note xml:lang="nl">De voorzitter:</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg41" xml:lang="nl">Vraag nr. 19120 van mevrouw Dierick wordt omgezet in een schriftelijke vraag.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u11" who="#VermeulenBrecht" ana="#chair">
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg42" xml:lang="nl">Mevrouw Jadin heeft zich laten verontschuldigen.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u12" who="#TerwingenRaf" ana="#regular">
+                    <note xml:lang="de">04.01 Raf Terwingen (CD&amp;V):</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg43" xml:lang="nl">Mijnheer de minister, wij delen beiden de waardering voor en de overtuiging van het nut van de LIVC’s. Dus ik hoef niet te omschrijven waarvoor ze dienen en wat ze allemaal kunnen.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg44" xml:lang="nl">Ik kom tot heel concrete vragen. Hoeveel LIVC’s werden intussen opgericht? Kunt u dat – dit is een communautaire invalshoek – aangeven per regio?</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg45" xml:lang="nl">Hoever staat het met de samenwerkingsverbanden? Ik kan mij voorstellen dat een aantal gemeentes die binnen een bepaalde politiezone samenwerken, misschien te klein zijn om een LIVC op te richten en dat misschien liever zouden doen binnen de politiezone. Bestaat er in de omzendbrief die u hebt uitgevaardigd, voldoende rechtsgrond om dat ook op dat niveau te kunnen doen?</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u13" who="#JambonJan" ana="#minister">
+                    <note xml:lang="de">04.02 Minister Jan Jambon:</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg46" xml:lang="nl">Mijnheer Terwingen, op 1 mei 2017 hebben 284 gemeentes een LIVC. Honderdzeventig gemeentes hebben geen LIVC, maar er kunnen er in die gemeentes in oprichting zijn. Van 135 gemeentes hebben wij nog geen informatie ontvangen.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg47" xml:lang="nl">Wat de opdeling per regio betreft, zal ik ingaan op uw communautaire invalshoek. Het gaat om 284 LIVC’s voor België. Voor Vlaanderen zijn het er 213 op een totaal van meer dan 300; voor Wallonië zijn het er 56 en voor het Brussels Gewest zijn er vijftien op een totaal van negentien. Zowel voor het Brussels Gewest als voor Vlaanderen is dat geen slechte score.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg48" xml:lang="nl">De cijfers werden gegenereerd door het samenbrengen van verschillende bronnen. Zo werd in juni 2016 vanuit Binnenlandse Zaken een bevraging inzake de oprichting van LIVC’s uitgestuurd naar alle burgemeesters in België. Daarnaast werken wij samen met verschillende partnerorganisaties zoals het OCAD en de provincies om alle informatie rond de oprichting van LIVC’s samen te brengen. In april 2017 werden ook alle DirCo’s aangeschreven met dezelfde vraag. Er wordt continu werk gemaakt van de actualisatie van de cijfergegevens omtrent de LIVC’s.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg49" xml:lang="nl">De omzendbrief Foreign Terrorist Fighters, die collega Geens en ikzelf op 21 augustus 2015 hebben rondgestuurd, noemt voor de eerste keer de oprichting van die LIVC’s in het kader van de uitwisseling van informatie, als we het over radicalisering hebben.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg50" xml:lang="nl">Op dit moment bestaat er nog geen verplichting om LIVC’s te organiseren op gemeentelijk niveau.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg51" xml:lang="nl">We stellen toch vast, samen met u, dat heel wat gemeenten een LIVC hebben opgericht.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg52" xml:lang="nl">Het is nog een beetje vroeg om al over te gaan tot een evaluatie van de LIVC’s in België, maar we kunnen wel al zeggen dat er in de feiten voldoende voorbeelden zijn waaruit blijkt dat die op een goede manier functioneren.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg53" xml:lang="nl">Ondanks de afwezigheid van de verplichting om dergelijke cellen op te richten, antwoorden wij vanuit de FOD Binnenlandse Zaken toch op de vragen van steden en gemeenten dat het wenselijk is om een LIVC op te richten.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg54" xml:lang="nl">In het begin was de oprichting van een LIVC vooral bedoeld voor gemeenten met FTF’ers op hun grondgebied. Dat is vandaag uiteraard geëvolueerd, omdat het terrorisme evolueert. Wij zouden eigenlijk graag zien dat alle gemeenten, hetzij op gemeentelijk vlak, hetzij op inter­gemeentelijk vlak, iets dergelijks oprichten.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg55" xml:lang="nl">Op basis van de informatie die wij hebben verkregen, stellen we vast dat heel wat gemeenten de krachten bundelen in een zonale of supralokale interne veiligheidscel.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg56" xml:lang="nl">De motivatie om over te gaan tot een supralokale LIVC, die vaak samenvalt met het grondgebied van een politiezone, is uiteenlopend. De voornaamste beweegreden voor een gemeente om supralokaal te werken, is het geringe aantal FTF’ers of andere verontrustende situaties van radicalisering binnen de gemeente. Vaak is het voor de gemeente ook efficiënter om een dergelijk overleg op supralokaal niveau te laten plaatsvinden, om praktische redenen en om het aantal vergaderingen te beperken.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg57" xml:lang="nl">De omzendbrief Foreign Terrorist Fighters laat zich niet uit over de mogelijkheid om een LIVC bovenlokaal op te richten, maar in de KB’s betreffende de eenmalige impuls die aan vijftien steden werd gegeven in het kader van de strijd tegen radicalisering, wordt hierop wel gewezen. Een van de voorwaarden van die impuls was om lokaal of bovenlokaal best practices uit te bouwen in het kader van LIVC’s.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg58" xml:lang="nl">Veeleer dan de verplichting op te leggen aan elke gemeente om een LIVC afzonderlijk op te richten, lijkt het mij nuttiger om modulair te werken en te bepalen dat elke gemeente moet beschikken over of deel uitmaken van een LIVC, en dat naargelang van de ernst van het fenomeen waarmee de gemeente wordt geconfronteerd.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg59" xml:lang="nl">Ik wil daarbij wel onderstrepen dat het gebruik van het woord “zonaal” met betrekking tot de LIVC’s niet tot verwarring mag leiden en niet de indruk mag geven dat de LIVC een politioneel instrument is, maar wel een door de bestuurlijke overheid ingesteld platform waarbij de lokale politie aanwezig is.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg60" xml:lang="nl">Op basis van de cijfergegevens kan ik u het onderscheid geven tussen supralokale en zonale LIVC’s. Op Belgisch niveau zijn er 156 gemeentelijke en 128 supralokale LIVC’s, volgens politiezone; in Vlaanderen zijn er 105 gemeentelijke en 108 supralokale LIVC’s; in Wallonië zijn er 36 gemeentelijke en 20 supralokale LIVC’s, in Brussel zijn alle 15 LIVC’s gemeentelijk.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u14" who="#TerwingenRaf" ana="#regular">
+                    <note xml:lang="de">04.03 Raf Terwingen (CD&amp;V):</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg61" xml:lang="nl">Mijnheer de minister, mijn vragen zijn integraal en gedetailleerd beantwoord.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u15" who="#VermeulenBrecht" ana="#chair">
+                    <note xml:lang="nl">De voorzitter:</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg62" xml:lang="nl">De vragen van de heer Pivin nrs 19293, 19295, 19298 en 19299 worden uitgesteld.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg63" xml:lang="nl">Vraag nr. 19294 van de heer Pivin over cybercriminaliteit wordt beantwoord door de eerste minister op een volgende vergadering.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u16" who="#TopAlain" ana="#regular">
+                    <note xml:lang="nl">05.01 Alain Top (sp.a):</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg64" xml:lang="nl">Mijnheer de voorzitter, mijnheer de minister, West-Vlaams gouverneur Carl Decaluwé klaagt over een gebrekkige controle in de Schengenhavens Oostende, Zeebrugge, Nieuwpoort en Blankenberge. In de praktijk zouden deze niet gecontroleerd worden zoals dat zou moeten, doordat de Scheepvaartpolitie zwaar onderbemand is en te weinig middelen heeft.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg65" xml:lang="nl">Onze Belgische havens zijn nochtans erg kwetsbaar, niet alleen in het kader van mensensmokkel. België staat nog steeds bekend als draaischijf voor drugstrafiek. Zo onder­schepten de politiediensten in april nog meer dan een halve ton cocaïne bij een lading in de Antwerpse haven. Dat is zeker geen alleenstaand verhaal. Onlangs spoelden ook drugs aan via onze stranden.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg66" xml:lang="nl">Gouverneur Carl Decaluwé vraagt extra boten en personeel voor de Scheepvaartpolitie. Een aanbesteding in verband met het materiaal zou reeds lopen.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg67" xml:lang="nl">Graag kreeg ik daarom een antwoord op de volgende vragen.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg68" xml:lang="nl">Wat is de stand van zaken van de uitvoering van het Nationaal Veiligheidsplan? In het Nationaal Veiligheidsplan zijn tien veiligheidsfenomenen vastgelegd waaraan de politiediensten en alle andere betrokken instanties bijzondere aandacht moeten besteden. De aanpak van import en export van drugs, en mensensmokkel en mensenhandel zijn twee van die veiligheids­fenomenen.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg69" xml:lang="nl">In welke aanbesteding werd voorzien voor de aanschaf van dat materiaal voor de Scheepvaart­politie?</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg70" xml:lang="nl">Welke andere mogelijkheden zijn er voor het inzetten van extra personeel?</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u17" who="#JambonJan" ana="#minister">
+                    <note xml:lang="de">05.02 Minister Jan Jambon:</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg71" xml:lang="nl">Mijnheer de voorzitter, mijnheer Top, het Nationaal Veiligheidsplan is momenteel in uitvoering. Een eerste opvolgings­rapport werd dinsdag 20 juni voorgesteld aan de Federale Politieraad. Voor de uitvoering van het Nationaal Veiligheidsplan werden voor de tien veiligheidsfenomenen programmamanagers en actieverantwoordelijken aangeduid om de onder­scheiden fenomenen integraal en geïntegreerd aan te pakken over het hele Belgische grondgebied.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg72" xml:lang="nl">Voor de twee door u aangehaalde fenomenen zijn dit twee vertegenwoordigers uit de gerechtelijke zuil. Alle partners in de aanpak van de verschillende thema’s zijn geïdentificeerd. Het spreekt voor zich dat de Scheepvaartpolitie hiervan deel uitmaakt, naast diensten als de douane, de Sociale Inspectie, de transportsector enzovoort.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg73" xml:lang="nl">In de strijd tegen drugs is er al heel wat voorzien door de Scheepvaartpolitie. Zo patrouilleert de Scheepvaartpolitie op permanente basis op de Noordzee. De dienst TST, het technische steunteam van de Scheepvaartpolitie, beschikt over drugs- en explosievendetectietoestellen, mobile trace en MMTD, toestellen voor videoscopie, spiegels, thermische camera’s en nachtkijkers. Zowel de diensten van de Scheepvaartpolitie als andere diensten van de federale politie en de lokale politie doen regelmatig een beroep op de dienst TST. In de nabije toekomst zal deze dienst trouwens ook overgaan tot het gebruik van een cargoscanner.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg74" xml:lang="nl">Het Maritiem Informatiekruispunt, dat een samenwerkingsverband is in het kader van de kustwacht tussen de marine, de douane en de Scheepvaartpolitie, speelt eveneens een belangrijke rol in de strijd tegen drugs. Niet alleen wordt in het MIK informatie uitgewisseld tussen de op de Noordzee opererende diensten. Het MIK zal ook targets opvolgen. Het MIK heeft daarenboven toegang tot diverse databanken van andere overheidsdiensten en staat in contact met buitenlandse MIK-operatoren. Het MIK staat tevens in voor het onderzoeken van drift- en zoekpatronen op de Noordzee, wat belangrijk is in de zoektocht naar drugs. Het MIK is 24 uur op 24 uur en zeven dagen op zeven bemand.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg75" xml:lang="nl">Om het veiligheidsgevoel binnen de jachthavens te verhogen en de sociale samenhang te bewerkstelligen, werd een buurtinformatienetwerk Jachthavens Belgische Kust opgericht. In dat BIN werken bestuurlijke en politionele partners samen met afgevaardigden van de vijftien jachtclubs uit Blankenberge, Brugge, Nieuwpoort en Oostende.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg76" xml:lang="nl">In het kader van het verhogen van de samenwerking tussen het MIK en het Maritiem Reddings- en Coördinatiecentrum werd recent een studie uitgevoerd. In het kader van die studie wordt onder meer voorgesteld dat het MIK toegang zou krijgen tot de camera’s waarover het MRC beschikt. De studie wordt momenteel door mijn diensten onderzocht. De camerabeelden in kwestie kunnen worden gebruikt in het kader van de bestrijding van de drugsproblematiek.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg77" xml:lang="nl">In de strijd tegen mensensmokkel is het vooral de haven van Zeebrugge die wordt geconfronteerd met de problematiek van de transmigranten, die via die haven proberen Groot-Brittannië te bereiken. Ook op het vlak van de strijd tegen transmigratie doet de Scheepvaartpolitie aanzienlijke inspanningen. De Scheepvaartpolitie van Zeebrugge heeft bijvoorbeeld in 2016 een totaal van 3 195 transmigranten bestuurlijk aangehouden.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg78" xml:lang="nl">De United Kingdom Border Force (UKBF) ondersteunt quasi dagelijks de Scheepvaartpolitie bij het zoeken naar transmigranten in de haven van Zeebrugge. Ook de dienst Hondensteun van de federale politie levert daarbij steun. Het TST neemt met zijn bijzondere apparatuur dagelijks deel aan het opsporen van transmigranten in de haven van Zeebrugge. Zoals reeds gesteld, zal binnenkort het TST ook over een specifieke cargoscanner beschikken die ook transmigranten kan opsporen.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg79" xml:lang="nl">In antwoord op uw tweede vraag deel ik u mede dat de Scheepvaartpolitie momenteel beschikt over twee patrouillevoertuigen, vier patrouille­voertuigen voor de binnenwateren, drie rigid hulled inflatable boats of RHIB’s voor de binnenwateren, één RHIB voor de Noordzee en twee RHIB’s van kleine afmetingen. Drie nieuwe RHIB’s werden ter vervanging van de oude besteld. De leveringen zijn gepland voor de komende maanden.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg80" xml:lang="nl">De Ministerraad heeft zich op 18 mei 2017 akkoord verklaard met het opstarten van een overheidsopdracht met betrekking tot een meerjarige raamovereenkomst van leveringen voor de aankoop en het onderhoud van patrouillevoertuigen ten voordele van de Scheepvaartpolitie. Er is in minimum drie patrouillevoertuigen voorzien, om de vloot van de Scheepvaartpolitie te moderniseren en aan te vullen. De eerste leveringen worden niet vóór midden 2019 verwacht.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg81" xml:lang="nl">Ten derde, de jongste jaren werden op het vlak van personeel maatregelen genomen om het bestaande deficit te verkleinen. Zo werden in 2016 voor de Scheepvaartpolitie Kust 25 functies vacant verklaard. Al deze functies zijn ingevuld sinds oktober 2016. Globaal gezien kent de SPN Kust, de scheepvaartpolitie, trouwens een lager deficit ten opzichte van andere diensten. In Antwerpen bedraagt dat 25 %, in Gent 20 %, in het Zuiden van het land 31 %, aan de kust 12 %.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg82" xml:lang="nl">Met het oog op de mobiliteitscyclus 2017 wordt er blijvend geïnvesteerd in de SPN Kust. Er werden vijf plaatsen vacant verklaard. Voor iedere categorie zijn er voldoende personeelsleden die voor de openstaande functies hebben gepostuleerd om over te gaan tot het selecteren van geschikte kandidaten. Er bestaat tevens een akkoord om in de toekomst 23 bijkomende personeelsleden aan te werven bij de Scheepvaartpolitie, in het raam van de aanpassing van artikel 8.2 van de SBC inzake de uitbreiding van de controle naar Europese onderdanen. Van deze 23 personen zijn er 14 bedoeld voor de SPN Kust.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u18" who="#TopAlain" ana="#regular">
+                    <note xml:lang="fr">05.03 Alain Top (sp.a):</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg83" xml:lang="nl">Mijnheer de minister, dank u voor uw heel omstandige uitleg. Ik heb daar niet zoveel aan toe te voegen. Ik heb wel een hele hoop genoteerd. Ik zal ook het verslag nalezen.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg84" xml:lang="nl">Ik heb wel nog enkele korte opmerkingen, of eigenlijk vragen.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg85" xml:lang="nl">U hebt daarnet in de inleiding van uw antwoord gezegd dat op dinsdag 20 juni een eerste keer gerapporteerd is aan de Nationale Veiligheidsraad over de uitvoering van het Nationaal Veiligheidsplan.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg86" xml:lang="nl">Ten eerste, kunnen wij beschikken over dat rapport? U hebt geantwoord op mijn specifieke vragen over twee fenomenen. Bestaat de mogelijkheid deze in de commissie te bespreken?</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg87" xml:lang="nl">Ten tweede, uw antwoordde over de samenwerking van het BIN met de jachtclubs uit de verschillende jachthavens. U zei dat de studie inzake de camerabeelden nog loopt. Hebt u enig idee wanneer ze zal worden overgemaakt, zodat er actie kan worden ondernomen?</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg88" xml:lang="nl">Ten derde en ten slotte, ik ben blij dat u een antwoord hebt gegeven over het invullen van de vacante plaatsen en dat u de vergelijking gemaakt hebt met andere plaatsen, waar in verhouding met de SPN Kust minder personeel aanwezig is. Ik verzoek u om erop toe te zien dat op die verschillende plaatsen, en vooral dan aan de kust, zoveel mogelijk vacante plaatsen worden ingevuld, en snel, want dit is heel belangrijk.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u19" who="#JambonJan" ana="#minister">
+                    <note xml:lang="de">05.04 Minister Jan Jambon:</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg89" xml:lang="nl">Er werden twee bijkomende vragen gesteld.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg90" xml:lang="nl">Ik kan u zeggen dat het Nationaal Veiligheidsplan in deze commissie werd voorgesteld. Het lijkt mij dan ook logisch dat tussentijdse evaluaties van dit plan ook hier plaatsvinden. Ik heb daar geen enkel bezwaar tegen.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg91" xml:lang="nl">Uw tweede vraag ontsnapt mij.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u20" who="#TopAlain" ana="#regular">
+                    <note xml:lang="fr">05.05 Alain Top (sp.a):</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg92" xml:lang="nl">Die vraag ging over de studie over de camerabeelden.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u21" who="#JambonJan" ana="#minister">
+                    <note xml:lang="de">05.06 Minister Jan Jambon:</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg93" xml:lang="nl">Deze studie zal tegen het einde van het jaar klaar zijn.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u22" who="#TopAlain" ana="#regular">
+                    <note xml:lang="nl">05.07 Alain Top (sp.a):</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg94" xml:lang="nl">Dank u wel.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u23" who="#VermeulenBrecht" ana="#chair">
+                    <note xml:lang="nl">De voorzitter:</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg95" xml:lang="nl">Vraag nr. 19320 van mevrouw Lambrecht wordt ingetrokken. Vraag nr. 19410 van de heer Delannois wordt behandeld in de commissie voor de Financiën en de Begroting. Vraag nr. 19440 van mevrouw Jadin wordt omgezet in een schriftelijke vraag en dat geldt eveneens voor de vragen nrs 19450, 19451, 19457 en 19471 van de heer Flahaux. Vraag nr. 19480 van mevrouw de Coster-Bauchau wordt uitgesteld.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u24" who="#KirEmir" ana="#regular">
+                    <note xml:lang="de">06.01 Emir Kir (PS):</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg96" xml:lang="fr">Monsieur le ministre, selon un article du 17 mai dernier, 1 755 cartes d'identité et passeports falsifiés ont été découverts l'an dernier en Belgique et ce, malgré toutes les mesures de sécurité. En effet, plus de 1 200 faux papiers ont été découverts lors de contrôles sur le territoire belge. D'après la police fédérale: &quot;Les fausses cartes d'identité que nous interceptons sont surtout belges et les faux passeports sont surtout étrangers. Nous trouvons autant de documents 100 % faux que de véritables cartes et passeports trafiqués. Nous trouvons aussi des documents authentiques et utilisés de manière frauduleuse, par exemple, grâce à la ressemblance entre le titulaire et le malfrat.&quot;</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg97" xml:lang="fr">En 2016, lors de contrôles aux frontières dans les aéroports, les ports et les gares, 735 faux documents ont été interceptés, dont la majeure partie à l'aéroport de Zaventem. Néanmoins, le nombre de documents interceptés est en baisse alors qu'il est resté stable pour les contrôles effectués sur le territoire belge. Ainsi, selon la police fédérale: &quot;Il faut dire que la qualité des faux papiers augmente car il est aujourd'hui plus facile de se procurer des appareils de reproduction.&quot;</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg98" xml:lang="fr">Un expert, par exemple le policier aux frontières, détectera plus facilement des faux papiers. Mais tout le monde n'est pas expert. Si la qualité s'améliore, il sera plus difficile de les découvrir. Et nous constatons une augmentation du nombre de vraies cartes d'identité obtenues suite à des déclarations frauduleuses ou dont le titulaire est une personne qui ressemble au malfrat.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg99" xml:lang="fr">Quelles sont les mesures concrètes prises ou prévues pour faire face aux tentatives de falsification de documents belges? Quels sont les budgets et les moyens que vous y consacrez? Existe-t-il une campagne de sensibilisation pour informer les citoyens des risques liés à la falsification de papiers? Si non, envisagez-vous d'en lancer une? Pourriez-vous ventiler, de 2014 à aujourd'hui, le nombre de procès-verbaux dressés par vos services de police, relatifs aux papiers d'identité falsifiés? Pourriez-vous fournir la répartition en fonction des Régions? Combien de personnes ont-elles fait l'objet de poursuites judiciaires?</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u25" who="#JambonJan" ana="#minister">
+                    <note xml:lang="de">06.02 Jan Jambon, ministre:</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg100" xml:lang="fr">Monsieur Kir, j'ai décidé d'agir de manière renforcée, au niveau préventif, en menant différentes actions concrètes à destination des communes, qui sont à la source de la chaîne identitaire, et qui, par conséquent, occupent une position clé dans la détection des fraudes à l'identité.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg101" xml:lang="fr">Par circulaire ministérielle du 27 mai 2016, cosignée par mes collègues le ministre des Affaires étrangères et le secrétaire d'État à l'Asile et à la Migration, une approche coordonnée de la prévention de la lutte contre la fraude à l'identité au niveau fédéral et local a été développée et transmise aux communes, à la police locale et aux postes consulaires belges à l'étranger.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg102" xml:lang="fr">Cette circulaire sert de fil conducteur pour le SPOC communal (Single point of contact), le fonctionnaire de référence pour la lutte contre la fraude à l'identité. Ceux-ci sont désignés dans chaque commune, pour les cas où une fraude serait suspectée concernant une carte identité électronique d'un belge, une Kids-ID, un titre de séjour belge pour l'étranger, un passeport, un titre de voyage ou un document d'état civil.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg103" xml:lang="fr">Plusieurs améliorations concrètes permettant une meilleure détection des faux documents pour les agents communaux et/ou les consulaires y sont notamment reprises. Ensuite, mes services veilleront à poursuivre et à atteindre certains objectifs de la note-cadre de sécurité intégrale et du Plan national de sécurité 2016-2019, concernant la thématique relative à la détermination d’identité et à l’usurpation d’identité et les treize mesures qui y sont décrites.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg104" xml:lang="fr">Différents objectifs seront poursuivis dont l’amélioration et la sécurisation, compte tenu de la sécurité physique des documents d’identité et de voyage ainsi que des procédures de délivrance, la sensibilisation de différents publics cibles et l’amélioration du flux d’informations opérationnelles entre les acteurs concernés par la lutte contre la fraude à l’identité. Un rapport de synthèse pour l’année 2016 sera établi dans le cadre du monitoring de la note-cadre de sécurité intégrale 2016-2019, par le SPF Justice.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg105" xml:lang="fr">En ce qui concerne votre deuxième question, tous les SPOC communaux désignés, dont le rôle est décrit dans la circulaire ministérielle précitée, ont été invités à la conférence &quot;Fraude à l’identité&quot; qui s’est tenue les 19 et 20 septembre 2016 au Palais d’Egmont à Bruxelles et pendant laquelle la circulaire a pu être expliquée et évaluée. Lors de ces sessions d’information, ils ont assisté aux présentations des partenaires fédéraux de la task force Fraude à l’identité qui réunit les départements de l'Intérieur, des Affaires étrangères et la police fédérale.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg106" xml:lang="fr">La police fédérale a dépeint l’évolution de la fraude à l’identité au moyen de différents exemples pratiques et a donné quelques conseils permettant de détecter cette forme de fraude. L’Intérieur et les Affaires étrangères ont commenté en détail la circulaire de mai 2016 qui décrit l’approche coordonnée de la fraude à l’identité aux niveaux local et fédéral. Les SPOC présents ont eu l’opportunité de poser leurs questions. Avec quelque 700 participants répartis sur les deux jours, l’organisation de cette session d’information a été un réel succès.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg107" xml:lang="fr">Par circulaire du 30 septembre 2016, les communes ont également été invitées à participer à des formations provinciales relatives à la lutte contre la fraude à l’identité. Ces formations provinciales interactives en petits groupes ont été organisées de septembre 2016 à mars 2017. Différents cas pratiques de fraude à l’identité fréquents ont notamment été examinés en détail. Ces formations ont rencontré un succès et un intérêt certains. Trente-six séances de trois heures ont été dispensées à travers le pays par quatre instances formatrices sur quinze sites de formation. Une évaluation de la circulaire ministérielle et du programme de formation s’y rapportant sera effectuée par la task force fédérale pour fin 2017.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg108" xml:lang="fr">En ce concerne les services de police, il existe une catégorie de spécialistes et une catégorie de non spécialistes. Les spécialistes suivent des formations spécifiques, en Belgique ou à l'étranger, données par des pairs. Pour ce qui concerne les non-spécialistes, ils ont la possibilité de suivre des formations générales, voire de suivre des sessions de formation dans le domaine. Cela se fait à travers le budget et les moyens généraux de la formation.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg109" xml:lang="fr">Mes services poursuivront le développement et la promotion du système de contrôle de la validité des documents (le check-doc) en vue d'accentuer son utilisation par les autorités publiques et le secteur privé. L'objectif est de prévenir les fraudes à l'identité lors de toute transaction au cours de laquelle un document d'identité est utilisé par les parties pour établir l'identité et, par conséquent, pour protéger le citoyen. La task force fédérale entamera une réflexion quant à une campagne de sensibilisation des citoyens sur les risques liés à la falsification des documents d'identité et de voyage et des bons réflexes à avoir pour les éviter autant que possible.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg110" xml:lang="fr">En ce qui concerne les chiffres, pour les années allant de 2014 à 2016, pour la Région de Bruxelles-Capitale, c'est 536, 1 217 et 389. Pour la Région flamande, 2 325, 2 559 et 2550. Pour la Région wallonne, c'est 402, 730 et 528.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u26" who="#KirEmir" ana="#regular">
+                    <note xml:lang="de">06.03 Emir Kir (PS):</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg111" xml:lang="fr">Je remercie le ministre pour sa réponse complète tant au niveau des mesures prises dans la circulaire et de toutes les formations dispensées vers les fonctionnaires communaux et les policiers.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u27" who="#KirEmir" ana="#regular">
+                    <note xml:lang="de">07.01 Emir Kir (PS):</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg112" xml:lang="fr">Monsieur le président, monsieur le ministre, un article de la DH.be du 13 juin dernier évoquait le fait que le nombre d'infractions constatées par la police fédérale et locale pour conduite sous influence de la drogue avait augmenté de 16 % en 2016 par rapport à l'année précédente et ce, d'après des statistiques de la circulation de la police fédérale.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg113" xml:lang="fr">D'une manière générale, le nombre d'infractions a augmenté de 2,37 % par rapport à 2015. Les polices locales et la police fédérale ont enregistré plus de 4,7 millions d'infractions en 2016, soit une augmentation de 2,37 % par rapport à 2015.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg114" xml:lang="fr">La plupart des accidents sont dus à trois types de comportement: la vitesse, la conduite sous influence et le non-port de la ceinture. La vitesse excessive constitue la majorité des infractions (69,26 % du total). La police fédérale se réjouit toutefois que &quot;les excès de vitesse très, voire extrêmement élevés, enregistrent une tendance à la baisse&quot;. Par contre, la conduite sous influence a connu la plus forte hausse en 2016, notamment les infractions constatées pour conduite sous influence de la drogue qui ont augmenté de 16 % (6 812).</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg115" xml:lang="fr">Quelle est votre analyse de ces statistiques de la police fédérale? Quelles conclusions en tirez-vous? Quelles sont les mesures spécifiques prises ces dernières années pour lutter contre la conduite sous influence? Quels ont été les budgets prévus? Pourriez-vous ventiler de 2014 à aujourd'hui, le nombre de procès-verbaux dressés relatifs à la conduite sous influence de la drogue? Si possible, merci de nous préciser la répartition en fonction de l'âge, du sexe et des régions.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg116" xml:lang="fr">Sur une base annuelle, quel est le nombre d'accidents de la route provoqués par une conduite sous l'influence de la drogue? Combien de ces accidents ont-ils entraîné de blessés et de personnes décédées? Je vous remercie de me fournir une répartition en fonction de l'âge, du sexe et des régions pour la période de 2014 à aujourd'hui.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u28" who="#JambonJan" ana="#minister">
+                    <note xml:lang="de">07.02 Jan Jambon, ministre:</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg117" xml:lang="fr">Monsieur Kir, comme démontré par l'augmentation des constatations, la conduite sous influence de l'alcool et des drogues reste une thématique prioritaire dans le Plan national de sécurité. C'est également un thème prioritaire dans les plans zonaux de sécurité.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg118" xml:lang="fr">Au cours des campagnes BOB annuelles, la police accorde une attention particulière à la conduite sous l'influence de la drogue. À chaque contrôle routier, les conducteurs sont rapidement dépistés sur base de signes extérieurs de consommation de stupéfiants. S'il y a des indices, la check-list obligatoire est d'abord passée en revue. Ce n'est qu'à partir d'au moins trois signes clairement positifs que l'on procède au test salivaire. Celui-ci ne donne qu'une indication pour un produit déterminé. Si le test est positif, on procède à un prélèvement sanguin. Des initiatives ont également été prises au sein du cabinet de mon collègue, M. Geens, comme le renforcement des mesures en cas de récidive, la récidive croisée (pour alcool et pour drogue) pouvant être sévèrement sanctionnée, et un budget supplémentaire pour faire passer le nombre de tests salivaires de 18 000 à 36 000 par an.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg119" xml:lang="fr">Je vous rappelle que les chiffres que vous demandez doivent, en principe, faire l'objet de questions écrites. Ils ont toutefois été récoltés et joints en annexe. Je vous les remets. Il s'agit d'un aperçu du nombre de constatations par an, ventilé par âge, sexe et région. Les chiffres pour 2017 ne sont pas encore disponibles.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg120" xml:lang="fr">Il s'agit d'un aperçu du nombre d'accidents avec la circonstance aggravante de l'usage de drogues. Les chiffres concernant l'âge et le sexe portent bien sûr sur toutes les personnes impliquées dans l'accident où la drogue a joué comme circonstance aggravante. Pour 2017, les chiffres vont jusqu'au 31 mai. Il y a des statistiques par âge, par sexe et par région, mais je ne vais pas les lire tous.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u29" who="#KirEmir" ana="#regular">
+                    <note xml:lang="de">07.03 Emir Kir (PS):</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg121" xml:lang="fr">Monsieur le ministre, je vous remercie pour vos réponses J'ai une petite question additionnelle. Avez-vous le sentiment que cette augmentation est due à une multiplication des faits ou à un renforcement des contrôles?</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u30" who="#JambonJan" ana="#minister">
+                    <note xml:lang="de">07.04 Jan Jambon, ministre:</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg122" xml:lang="fr">Il est clair que l'augmentation du nombre de contrôles et leur type provoquent une hausse des chiffres. Je pense que c'est cela la raison, plutôt qu'une réelle augmentation de la conduite sous l'influence de drogues. Les contrôles sont plus stricts.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u31" who="#KirEmir" ana="#regular">
+                    <note xml:lang="de">07.05 Emir Kir (PS):</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg123" xml:lang="fr">Parfait. Je pense que c'est une priorité, et tant mieux.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u32" who="#KirEmir" ana="#regular">
+                    <note xml:lang="de">08.01 Emir Kir (PS):</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg124" xml:lang="fr">Monsieur le président, monsieur le ministre, ma question concerne non pas la canicule, mais en tous cas la température élevée actuelle. Au moment où je posais la question, le 29 mai, le thermomètre dépassait les 30°C, ce qui sera encore le cas aujourd'hui et demain. Avec de telles températures, ouvriers et employés peuvent être empêchés d'accomplir leurs tâches dans des conditions acceptables. En effet, en cas de température trop élevée, la loi belge oblige l'employeur à prendre certaines mesures destinées à réduire les inconvénients liés à l'excès de chaleur sur le lieu de travail.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg125" xml:lang="fr">À ce sujet, j'ai interpellé le ministre de la Défense, chargé de la Fonction publique, M. Steven Vandeput, lequel avait répondu: &quot;Des dispositions particulières en fonction des situations et des possibilités existent déjà au sein des différents SPF. Il est de leur responsabilité de prendre des mesures en tenant compte de la charge de travail.&quot; Il est vrai que la police n'est pas l'administration telle qu'elle est dans d'autres ministères.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg126" xml:lang="fr">Monsieur le ministre, quelles sont les mesures prises au sein de votre administration afin de mettre en œuvre les obligations prévues par la loi? Quelles sont les initiatives prises pour réduire les inconvénients de la chaleur en veillant à ce que les fonctionnaires fédéraux occupent des locaux suffisamment aérés, s'hydratent régulièrement et prennent des pauses pour se rafraîchir? Estimez-vous opportun d'installer des fontaines d'eau dans vos différents services et/ou administrations afin de permettre aux fonctionnaires fédéraux de se désaltérer gratuitement? Si non, pourquoi pas?</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u33" who="#JambonJan" ana="#minister">
+                    <note xml:lang="de">08.02 Jan Jambon, ministre:</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg127" xml:lang="fr">Monsieur le président, monsieur Kir, la plupart des bâtiments à Bruxelles dans lesquels mes services sont logés sont intégralement ou partiellement équipés de climatisation. Ces bâtiments posent donc peu de problèmes en ce qui concerne la chaleur. Étant donné les températures de ces derniers jours, l'intervention de la société de maintenance HVAC s'impose de temps à autres afin de maintenir le refroidissement. C'était justement le cas ce matin, dans mon bureau!</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg128" xml:lang="fr">Pour les unités opérationnelles de la Protection civile, il existe une note de service explicative &quot;Ambiance thermique&quot; prévoyant des mesures de prévention spécifiques à partir de certaines températures comme, par exemple, l'autorisation de dérogation au protocole vestimentaire pour le personnel opérationnel de l'unité à partir de 28°C.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg129" xml:lang="fr">La note de service a récemment été rappelée aux chefs d'unité de toutes les unités opérationnelles de la Protection civile. Dans les centres fermés de l'Office des Étrangers, une aération supplémentaire des locaux est assurée et des ventilateurs sont installés. De l'eau est aussi mise gratuitement à la disposition du personnel. En outre, est offerte, aux collaborateurs de service logés dans des bâtiments partiellement équipés de climatisation, la possibilité de s'installer provisoirement dans les parties des bâtiments (bureaux vides, salles de réunion, etc.) équipées de climatisation.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg130" xml:lang="fr">En outre, les services logistiques mettent également des ventilateurs à la disposition du personnel. Dans la plupart des bâtiments du SPF Intérieur, des fontaines d'eau sont installées. Les membres du personnel et les visiteurs peuvent s'y rafraîchir gratuitement. L'obtention de boissons fraîches constitue l'une des mesures préventives reprises dans la note de service &quot;Ambiance thermique&quot; destinée aux unités opérationnelles de la Protection civile.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u34" who="#KirEmir" ana="#regular">
+                    <note xml:lang="de">08.03 Emir Kir (PS):</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg131" xml:lang="fr">Monsieur le ministre, je vous remercie de votre réponse.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u35" who="#KirEmir" ana="#regular">
+                    <note xml:lang="de">09.01 Emir Kir (PS):</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg132" xml:lang="fr">Monsieur le ministre, selon un article paru dans La Libre Belgique, votre homologue en charge des Télécoms, Alexander De Croo, et vous, avez lancé à Waterloo, une campagne de sensibilisation à destination du grand public, à BE-Alert, un système permettant aux autorités de diffuser rapidement un message à la population en cas de situation d'urgence. Concrètement, BE-Alert permet d'alerter la population par de nouveaux canaux. Un bourgmestre, un gouverneur ou le ministre de l'Intérieur peuvent désormais décider de prévenir les citoyens d'un danger par appel vocal, par sms ou par e-mail.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg133" xml:lang="fr">Je vous cite: &quot;L'objectif, c'est vraiment d'alerter la population le plus rapidement et le plus efficacement possible. La sécurité est devenue un thème réellement important; tout le monde en est aujourd'hui convaincu. Dans ce cadre, en permettant d'atteindre les bons groupes cibles dans les meilleurs délais et en leur permettant de savoir ce qu'ils doivent faire au plus vite, BE-Alert est un outil performant répondant aux nécessités du terrain et aux dernières avancées technologiques.&quot;</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg134" xml:lang="fr">Pour rappel, BE-Alert a vu le jour en 2014, en tant que projet pilote du Centre de Crise fédéral. Il a été testé pendant deux ans par 33 communes avant d'être généralisé. À l'heure actuelle, quelque 200 villes et villages ont adhéré au système et signé une convention qui leur donne par ailleurs accès, depuis le 13 juin, à la plate-forme Alert-SMS, une technologie permettant d'envoyer un sms d'alerte aux citoyens sur base de leur localisation. L'Alert-SMS permet en effet de localiser les cartes SIM de toutes les personnes se trouvant dans un rayon déterminé autour du lieu d'un accident et de leur envoyer un sms, même si elles ne sont pas inscrites à BE-Alert.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg135" xml:lang="fr">Monsieur le ministre, de manière concrète, comment fonctionne ce système? Combien de personnes y sont-elles inscrites depuis son lancement officiel à ce jour? Quel bilan en tirez-vous à ce stade? Nous sommes évidemment encore au stade de l'expérimentation. Des failles éventuelles ont-elles pu être identifiées? Quelles améliorations éventuelles souhaitez-vous y apporter? Quelles suites seront-elles données à cette campagne pour continuer à sensibiliser davantage la population?</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u36" who="#JambonJan" ana="#minister">
+                    <note xml:lang="de">09.02 Jan Jambon, ministre:</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg136" xml:lang="fr">Monsieur Kir, développée par le Centre de Crise, la plate-forme BE-Alert est accessible à toutes les autorités belges en charge de l'alerte et de l'information de la population en cas de situation d'urgence, à savoir les bourgmestres, les gouverneurs de province et moi-même en ma qualité de ministre de l'Intérieur et de la Sécurité. Il s'agit d'une plate-forme de communication dite web-based et multi-canaux.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg137" xml:lang="fr">Web-basedsignifie que ce n'est ni une machine, ni un logiciel, mais un site internet très sécurisé auquel ont accès les autorités qui désirent y adhérer afin d'alerter et d'informer leur population en cas de situation d'urgence.Multi-canaux signifie qu'il est possible d'envoyer une alerte simultanément par message vocal, message texte, e-mail ou fax à toute personne qui s'est préalablement inscrite sur BE-Alert.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg138" xml:lang="fr">Un autre canal de communication, inédit en Europe, est la technologie Alert-SMS, qui permet d'envoyer un message texte sur tous les téléphones mobiles présents dans une zone minimale déterminée, qu'ils soient inscrits ou non sur BE-Alert. Pour la plate-forme BE-Alert, il est nécessaire de s'inscrire. Pour Alert-SMS, on utilise l'antenne concernée dans une zone et toutes les cartes SIM qui sont liées à cette antenne reçoivent immédiatement le sms. Cette technologie complémentaire peut être utilisée lorsqu'il est urgent d'avertir la population, y compris les touristes et les gens de passage dans la zone. Elle a été développée en collaboration avec les trois plus grands opérateurs belges de téléphonie mobile.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg139" xml:lang="fr">Pour être précis, il convient de parler de plate-forme BE-Alert et, en son sein, de la technologie Alert-SMS. Actuellement, nous comptons plus de 110 000 personnes inscrites sur cette plate-forme, dont 42 639 nouveaux inscrits depuis le lancement, le 13 juin. Avant le lancement, il y avait des communes pilotes dans lesquelles les habitants pouvaient d'inscrire. Nous poursuivons nos efforts, notamment via la campagne d'information et de sensibilisation de la population prévue pour cet été. Nous serons présents à chaque grand événement et grand festival.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg140" xml:lang="fr">Le projet pilote qui s'est déroulé de 2013 à 2015 a permis de tirer des enseignements qui ont été utiles à la rédaction du cahier des charges pour le développement de la plate-forme actuelle. Des éléments essentiels ont été soulignés, comme la nécessaire ergonomie de l'interface pour les utilisateurs, la possibilité de recourir à un help-desk pour toute question technique, mais aussi à un alert-desk permettant d'aider à activer une alerte.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg141" xml:lang="fr">La possibilité d'activer une alerte via différents canaux en même temps fut aussi retenue comme essentielle pour un tel outil. En outre, nous avons constaté l'importance de l'encadrement et de l'accompagnement des utilisateurs pour l'appréhension de l'interface. Cela correspond parfaitement aux missions du Centre de Crise, qui consiste notamment à soutenir les autorités locales.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg142" xml:lang="fr">En ce qui concerne les citoyens, pendant le projet pilote, nous avons porté une grande attention au respect du droit à la vie privée, en consultant à deux reprises la Commission pour la Protection de la vie privée. À ce jour, aucune faille n'a été constatée. Ce point fait l'objet de l'attention constante des techniciens et des développeurs pour parer à toute anomalie éventuelle.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg143" xml:lang="fr">À l'avenir, il est prévu que la plate-forme soit améliorée en intégrant le réseau de sirènes comme canal supplémentaire ainsi qu'en</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg144" xml:lang="fr">permettant des interactions avec ICMS (Incident &amp; Crisis Management System), la plate-forme de gestion de crise développée également par le Centre de Crise et mise à disposition des autorités locales depuis le début de l'année 2017.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg145" xml:lang="fr">En outre, depuis juin 2016, le Centre de Crise a lancé une vaste campagne de sensibilisation pour informer la population sur les risques et crises. Cette sensibilisation à grande échelle est implémentée pour une durée de trois ans sous la coupole Info-risques.be pour mener différentes actions tant au niveau national que local, avec des actions ciblées sur les risques liés aux sites Seveso et nucléaires, mais également sur le système d'alerte de la population, BE-Alert.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg146" xml:lang="fr">Les actions de communication menées dans le cadre de BE-Alert seront activement menées jusqu'en septembre 2017. Cependant, d'ici 2019, différentes thématiques feront l'objet d'actions spécifiques auprès des citoyens: par exemple le risque nucléaire, la sensibilisation des collectivités ou l'information sur des comportements spécifiques à adopter pour sa sécurité, pour lesquels la notion d'alerte tiendra une place particulière.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u37" who="#KirEmir" ana="#regular">
+                    <note xml:lang="de">09.03 Emir Kir (PS):</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg147" xml:lang="fr">Monsieur le ministre, je reviendrai sur les alertes par sms. Vous avez dit que le Centre de Crise peut effectivement informer les gens, même s'ils ne sont pas inscrits dans le réseau. C'est évidemment quelque chose d'exceptionnel, puisque vous avez parlé d'une première en Europe. Dans quel périmètre peut-on agir?</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg148" xml:lang="fr">Ensuite, lors de l'attentat survenu hier soir, ce système a-t-il fonctionné?</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u38" who="#JambonJan" ana="#minister">
+                    <note xml:lang="de">09.04 Jan Jambon, ministre:</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg149" xml:lang="fr">Pour ce qui concerne votre première question, c'est l'autorité en charge qui décide. Le bourgmestre, le gouverneur ou moi-même, nous décidons de définir un périmètre.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg150" xml:lang="fr">Les antennes de ce périmètre sont, à ce moment-là, activées. C'est assez facile à faire.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg151" xml:lang="fr">Hier, le Centre de Crise n'a pas activé BE-Alert car il s'agissait d'un cas très spécifique pour lequel, après quelques minutes, la situation était sous contrôle.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u39" who="#KirEmir" ana="#regular">
+                    <note xml:lang="de">10.01 Emir Kir (PS):</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg152" xml:lang="fr">Monsieur le président, selon le rapport 2016 du SPF Affaires intérieures paru récemment, le nombre de fausses alertes et d'appels mal dirigés au 112 a diminué l’année passée de 2,4 %, tandis que le nombre d’appels d’urgence a par contre, lui, augmenté de 4 %.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg153" xml:lang="fr">En effet, l’an dernier, le 112 a enregistré 2,7 millions d’appels, parmi lesquels 1,1 million étaient de réels appels d’urgence. Selon le directeur-général de la DG Sécurité civile, Jérôme Glorie, la baisse du nombre d’appels inappropriés est, entre autres, due à une meilleure utilisation des smartphones. À titre d’information, le 112 serait également accessible via une application qui devrait permettre de localiser immédiatement l’origine de l’appel.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg154" xml:lang="fr">Mes questions sont les suivantes. Où en est-on dans la présentation de l'application 112? À partir de quand sera-t-elle accessible à tous les citoyens? Quels sont les coûts liés aux frais opérationnels et d’investissements? Quels sont les systèmes d'exploitation qui pourront y recourir? Quelle sera la procédure d’utilisation de l'application sur un smartphone?</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u40" who="#JambonJan" ana="#minister">
+                    <note xml:lang="de">10.02 Jan Jambon, ministre:</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg155" xml:lang="fr">Monsieur Kir, l'application 112 sera lancée cette semaine, vendredi prochain pour être très précis. Pour votre information, l'application sera disponible dès demain, jeudi, mais officiellement elle sera lancée vendredi. Elle sera ensuite disponible pour tous les citoyens. Tous les propriétaires d'un smartphone sous IOS, Iphone ou Androïd, peuvent télécharger l'application via l'Apple store ou le Google store.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg156" xml:lang="fr">Lors du téléchargement, les utilisateurs peuvent transmettre des informations complémentaires susceptibles d'être utiles pour les services de secours, comme par exemple les personnes de contact, les informations médicales personnelles. Une fois l'application téléchargée, l'utilisateur peut appeler via des icônes claires, et le choix est proposé entre pompiers, ambulance, police et centre d'appels urgents. Des informations préenregistrées et des informations de localisation seront alors transmises. Par la localisation du smartphone, le service de secours sait immédiatement situer la personne en question. L'opérateur du centre d'appels urgents peut lancer directement la fonction chat lorsque l'appelant a indiqué être sourd. Cette fonction peut naturellement aussi être activée lorsqu'il s'avère que l'appel téléphonique est impossible, par exemple s'il y a trop de bruits de fond, ou si l'on se trouve dans une situation de prise d'otages.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg157" xml:lang="fr">Le coût de développement de l'application 112 s'élève à un montant arrondi de 850 000 euros. Attention, ce coût n'inclut pas uniquement le coût de développement pur, mais également le coût permettant à l'application de fonctionner avec les plates-formes de dispatching Intergraph et CityGuide, utilisées par les centres d'appels urgents 112, 100 et 101.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg158" xml:lang="fr">Il comprend aussi le coût de lancement permettant de rendre cette application évolutive, en prévoyant d'ores et déjà une extension possible pour l'envoi de photos et de vidéos.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u41" who="#NolletJeanMarc" ana="#regular">
+                    <note xml:lang="nl">11.01 Jean-Marc Nollet (Ecolo-Groen):</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg159" xml:lang="fr">Monsieur le ministre, début 2016, trois citoyens wallons ont spontanément interrogé le SPF Intérieur au sujet de la détermination des circonscriptions électorales pour l'élection du parlement wallon suite à l'arrêt 169/2015 du 26 novembre 2015 de la Cour constitutionnelle.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg160" xml:lang="fr">Attentif, comme il se doit, à toute demande citoyenne, le SPF a délivré le 23 décembre une réponse très circonstanciée qui rappelle que si une modification de la structure cantonale est nécessaire, cela passe par une modification législative fédérale qui doit être promulguée plus d'un an avant l'échéance électorale.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg161" xml:lang="fr">Ma première question vise à savoir si vous avez été contacté formellement ou informellement par l'un ou l'autre responsable politique wallon sur ce sujet. Si oui, quels ont été les termes de votre échange, à la fois en demande de leur part mais aussi en réponse de votre part?</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg162" xml:lang="fr">Ma seconde question vise à connaître votre disponibilité éventuelle pour avancer en ce sens si une demande devait vous être transmise.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg163" xml:lang="fr">Ma troisième question concerne le calendrier. À quel moment estimez-vous devoir être au plus tard saisi officiellement d'une demande, vu ce qui a été rappelé par le SPF Intérieur et vu la double échéance à venir, européenne mais aussi provinciale (potentiellement également concernée par un redécoupage des cantons)?</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg164" xml:lang="fr">Ma dernière question concerne le contenu. Allez-vous relayer la demande telle quelle pour autant qu'elle tienne la route juridiquement ou bien allez-vous intervenir sur le contenu du redécoupage qui sera éventuellement proposé?</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u42" who="#JambonJan" ana="#minister">
+                    <note xml:lang="de">11.02 Jan Jambon, ministre:</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg165" xml:lang="fr">Monsieur le président, monsieur Nollet, c'est avec grand plaisir que je répondrai à une question non nucléaire de votre part!</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg166" xml:lang="fr">Le Parlement wallon, bien que compétent pour déterminer les circonscriptions électorales le concernant, n'est cependant pas compétent pour modifier la composition des cantons électoraux ni les chefs-lieux de ces derniers déterminés par un tableau annexé au Code électoral.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg167" xml:lang="fr">Dès lors, si la modification des circonscriptions électorales pour l'élection du Parlement wallon a un impact sur la répartition cantonale, l'annexe du Code électoral devra être modifiée en conséquence pour permettre la bonne organisation des élections. En la matière, le pouvoir fédéral s'inscrit entièrement dans une optique de collaboration. Le schéma de travail est dès lors le suivant: au niveau wallon, adoption d'un décret spécial déterminant les circonscriptions électorales, les chefs-lieux de celles-ci et la subdivision cantonale sans précision de la composition de ces cantons.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg168" xml:lang="fr">Ce décret spécial abrogera l'article 5, alinéa 1er, de la loi ordinaire du 17 juillet 1993 et son annexe. Au niveau fédéral, c'est une modification législative de la structure cantonale (composition et chef-lieu) visée dans le tableau annexe au Code électoral en vue d'adopter le schéma cantonal idéal concerté au niveau wallon. Ce schéma cantonal sera également utilisé pour les élections fédérales et européennes dans un but d'une bonne organisation du scrutin.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg169" xml:lang="fr">Je tiens à mentionner un autre point important: le processus en cours de fusion de communes en Région flamande nécessitera également une modification des cantons électoraux. La modification de l'annexe au Code électoral des Régions wallonne et flamande interviendra en même temps.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg170" xml:lang="fr">D'un point de vue temporel, vu l'article 39 ter de la Constitution, les modifications au Code électoral doivent être promulguées plus d'un an avant l'échéance électorale simultanée, c'est-à-dire les parlements européen, fédéral, des Régions et des Communautés, au plus tard début mai-juin 2019 soit au plus tard début mai 2018. Mon administration prépare un avant-projet de loi global en matière électorale auquel pourront être intégrées les modifications à l'annexe du Code électoral.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg171" xml:lang="fr">Dans cette optique, afin de respecter ce timing, il est important que les modifications wallonnes nous soient communiquées dans les meilleurs délais, afin que je présente cet avant-projet de loi au Conseil des ministres, en septembre de cette année, avant que le projet de loi ne soit déposé dans les plus brefs délais au Parlement fédéral, afin que le travail législatif puisse se réaliser sans urgence et dans la sérénité.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg172" xml:lang="fr">En ce qui concerne les élections provinciales en Région wallonne, qui utilise toujours l'annexe du Code électoral pour les répartitions cantonales, un tel timing, aboutissant à une promulgation au plus tard début mai 2018, semble acceptable, l'élection provinciale se tenant le 14 octobre 2018. Finalement, pour autant que le redécoupage des circonscriptions pour le Parlement wallon soit conforme à la législation, le Parlement wallon est pleinement compétent en la matière.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u43" who="#NolletJeanMarc" ana="#regular">
+                    <note xml:lang="nl">11.03 Jean-Marc Nollet (Ecolo-Groen):</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg173" xml:lang="fr">Monsieur le ministre, premièrement, vous considérez que votre rôle, au niveau fédéral, est &quot;technique&quot;, à partir du moment où, d'un côté, il y a la Flandre avec ses propositions, d'un autre côté, se trouve la Wallonie. Et même s'il n'y en avait qu'un des deux qui aboutissait, vous relayez leur demande d'un point de vue technique, telle quelle. Vous ne négociez pas le redécoupage et vous relayez.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg174" xml:lang="fr">Deuxièmement, je note que c'est en septembre que vous devez être saisi officiellement. Et vous me dites que c'est encore jouable en septembre, y compris pour les provinces?</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u44" who="#JambonJan" ana="#minister">
+                    <note xml:lang="de">11.04 Jan Jambon, ministre:</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg175" xml:lang="fr">Les provinces et les communes, c'est le même…</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u45" who="#NolletJeanMarc" ana="#regular">
+                    <note xml:lang="nl">11.05 Jean-Marc Nollet (Ecolo-Groen):</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg176" xml:lang="fr">Oui, oui, bien sûr, mais les élections tombent en octobre 2018. Si nous prenons en considération la nécessité d'être un an avant, en octobre 2017, il faut aller très vite en septembre.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u46" who="#JambonJan" ana="#minister">
+                    <note xml:lang="de">11.06 Jan Jambon, ministre:</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg177" xml:lang="fr">Oui, oui, c'est cela.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u47" who="#NolletJeanMarc" ana="#regular">
+                    <note xml:lang="fr">11.07 Jean-Marc Nollet (Ecolo-Groen):</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg178" xml:lang="fr">Ok, je vous remercie votre réponse. Effectivement, il n'y avait pas de bombe nucléaire dans la réponse.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u48" who="#NolletJeanMarc" ana="#regular">
+                    <note xml:lang="nl">12.01 Jean-Marc Nollet (Ecolo-Groen):</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg179" xml:lang="fr">Synatom s'est historiquement orientée dans le choix du retraitement d'une partie du combustible nucléaire usé. Plus de 600 tonnes ont ainsi été acheminées pour ce faire à La Hague en France avant que le Parlement belge ne décide de suspendre tout retraitement de combustible usé. Les dangereux déchets nucléaires issus du retraitement font maintenant le chemin du retour. Les catégories CSD-V et CSD-C ont déjà été rapatriés. Mais les effluents de rinçage des boues (CSD-B) doivent encore l'être et le seront d'ici peu. Quel est le volume et le poids des déchets qui doivent encore nous revenir? Ma deuxième question vise à connaître le calendrier précis de ce rapatriement. On sait qu'il aura lieu cette année encore mais quand précisément auront lieu les transferts? On sait par ailleurs que l'ONDRAF est responsable du transport dès que ces déchets arrivent sur le territoire belge, sous le contrôle permanent de l'AFCN.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg180" xml:lang="fr">Est-ce pour autant l'ONDRAF qui va organiser concrètement ces transferts ou cette opération est-elle sous-traitée? Si oui, à qui et dans quel cadre? C'est par voie ferroviaire que le transport sera effectué depuis Valognes jusqu'en gare de Mol. Combien de convois seront nécessaires? Combien de wagons devront être mobilisés? Quelles sont les mesures de protection qui sont prises pour de tels transports? À quelle vitesse circule le train qui transporte ces dangereux déchets? S'arrête-t-il dans certaines gares? Lesquelles? Quelles informations reçoivent les autorités communales dont le territoire est traversé par ces convois? À leur arrivée en gare de Mol, les dangereux déchets sont alors transportés par route jusqu'au site de Dessel et au bâtiment 136, distant d'environ cinq kilomètres. Comment est organisée cette dernière partie du transfert? Quelles sont les mesures de protection qui sont prises pour de tels transports?</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u49" who="#JambonJan" ana="#minister">
+                    <note xml:lang="de">12.02 Jan Jambon, ministre:</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg181" xml:lang="fr">Monsieur Nollet, cette année, le rapatriement des déchets CSD-B – soit trente-cinq canisters – sera scindé en deux parties. L'AFCN ne dispose d'aucune donnée sur leur volume et leur poids, vu que ces informations ne sont pas pertinentes pour sa mission. L'Agence inspecte et contrôle les pratiques impliquant des matières radioactives - dans le cas présent, le transport de marchandises dangereuses de la classe 7 -, indépendamment du volume ou du poids des produits transportés. L'ONDRAF dispose évidemment, en tant qu'organisme responsable de la gestion des déchets en Belgique, de toutes ces informations.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg182" xml:lang="fr">Pour des raisons de sécurité d'ordre public, le détail des itinéraires empruntés – date et heure de ce type de convoi – n'est jamais communiqué préalablement, comme l'AFCN l'a toujours fait par le passé en ce qui concerne le rapatriement d'autres déchets issus du retraitement du combustible usé. C'est seulement le lendemain que l'AFCN transmettra des informations sur le déroulement du transport.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg183" xml:lang="fr">Selon l'article 179 de la loi du 8 août 1980, l'ONDRAF est notamment responsable du transport des déchets sur le territoire belge. À cet effet, il surveille la bonne préparation et l'exécution des acheminements, sous le contrôle permanent de l'AFCN, qui est chargée de l'application de la réglementation relative à la sûreté du transport de matières radioactives. Cependant, l'ONDRAF a autorisé Synatom à organiser le convoi de déchets issus d'un retraitement de combustibles nucléaires en provenance du site d'Areva-La Hague vers le site de Belgoprocess. Synatom confie, en accord avec l'ONDRAF, la préparation du transport à Areva TN. Le trajet ferroviaire sur notre territoire jusqu'à la gare de Mol et, ensuite, le parcours routier entre cette dernière et Belgoprocess à Dessel sont respectivement exécutés par une entreprise ferroviaire et un transporteur routier. Les deux firmes en charge de cette mission doivent demander une autorisation de transport délivrée par l'AFCN. À ce jour, elles n'ont pas encore introduit leur dossier. Par conséquent, l'AFCN ne peut pas encore confirmer qui seront les transporteurs.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg184" xml:lang="fr">Deux transports, chacun de colis TN28VT chargés du CSD-B, sont prévus en 2017 pour le rapatriement des 35 canisters. Ce transport dédié est composé de plusieurs wagons et locomotives, dont un seul wagon transporte le colis TN28VT. La composition exacte du convoi est déterminée par l'organisateur en fonction des aspects logistiques liés aux modalités de transport. L'AFCN contrôle le colis, indépendamment de la composition du train.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg185" xml:lang="fr">La vitesse du convoi sur le réseau ferroviaire est de la responsabilité du gestionnaire de l'infrastructure, Infrabel, et du transporteur ferroviaire. Les arrêts sur le territoire belge sont limités aux arrêts nécessaires pour l'organisation logistique du transport ou pour des raisons de sûreté.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg186" xml:lang="fr">La direction générale Centre de Crise du SPF Intérieur fait parvenir l'itinéraire et l'horaire de ces transports au gouverneur en leur demandant d'informer les bourgmestres concernés.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg187" xml:lang="fr">La dernière partie du transport, entre la gare de Mol et le site de Belgoprocess à Dessel, est un convoi routier exceptionnel qui a lieu à vitesse réduite étant donné la masse du colis.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg188" xml:lang="fr">En ce qui concerne des mesures particulières au niveau radiologique, il n'y en a aucune. En effet, quel que soit le mode de transport, en chemin de fer ou par la route, la sûreté du transport de matières radioactives repose sur le colis, c'est-à-dire l'emballage et son contenu. Les colis utilisés pour le transport de déchets nucléaires sont conçus pour assurer la protection des personnes et de l'environnement en toutes circonstances, tant dans des conditions normales que dans des conditions accidentelles de transport, quel que soit le mode de transport utilisé.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg189" xml:lang="fr">Les colis concernés, de type B, satisfont aux critères stricts de sûreté fixés par l'Agence internationale de l'énergie atomique et repris dans les différentes réglementations mondiales. Ce type de colis est soumis à l'approbation des autorités compétentes des pays concernés, notamment l'AFCN si les colis sont utilisés sur le territoire belge.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u50" who="#NolletJeanMarc" ana="#regular">
+                    <note xml:lang="nl">12.03 Jean-Marc Nollet (Ecolo-Groen):</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg190" xml:lang="fr">Monsieur le ministre, je vous remercie pour votre réponse et d'avoir eu la volonté d'aller jusqu'au bout, malgré l'insistance du président pour essayer de vous couper. J'ai juste une petite question complémentaire: quand vous dites que &quot;les gens sont prévenus le lendemain&quot;, je suppose que les communes ne sont pas prévenues le lendemain?</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u51" who="#JambonJan" ana="#minister">
+                    <note xml:lang="de">12.04 Jan Jambon, ministre:</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg191" xml:lang="fr">Non, non, comme je l'ai dit, le Centre de Crise,…</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u52" who="#NolletJeanMarc" ana="#regular">
+                    <note xml:lang="fr">12.05 Jean-Marc Nollet (Ecolo-Groen):</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg192" xml:lang="fr">Le gouverneur?</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u53" who="#JambonJan" ana="#minister">
+                    <note xml:lang="de">12.06 Jan Jambon, ministre:</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg193" xml:lang="fr">Oui, le gouverneur…</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u54" who="#NolletJeanMarc" ana="#regular">
+                    <note xml:lang="nl">12.07 Jean-Marc Nollet (Ecolo-Groen):</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg194" xml:lang="fr">Mais cela, c'est avant?</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u55" who="#JambonJan" ana="#minister">
+                    <note xml:lang="de">12.08 Jan Jambon, ministre:</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg195" xml:lang="fr">C'est avant.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u56" who="#NolletJeanMarc" ana="#regular">
+                    <note xml:lang="fr">12.09 Jean-Marc Nollet (Ecolo-Groen):</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg196" xml:lang="fr">Longtemps avant ou bien…?</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u57" who="#JambonJan" ana="#minister">
+                    <note xml:lang="de">12.10 Jan Jambon, ministre:</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg197" xml:lang="fr">Dès que le Centre de Crise est au courant.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u58" who="#NolletJeanMarc" ana="#regular">
+                    <note xml:lang="nl">12.11 Jean-Marc Nollet (Ecolo-Groen):</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg198" xml:lang="fr">Ah oui, d'accord.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u59" who="#JambonJan" ana="#minister">
+                    <note xml:lang="de">12.12 Jan Jambon, ministre:</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg199" xml:lang="fr">Quand je dis &quot;le lendemain&quot;, c'est le grand public qui est prévenu par le site web de l'AFCN.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u60" who="#NolletJeanMarc" ana="#regular">
+                    <note xml:lang="fr">12.13 Jean-Marc Nollet (Ecolo-Groen):</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg200" xml:lang="fr">Oui, parce que je suppose que les communes doivent mettre en place un tout petit dispositif en lien avec cette information de la traversée d'un convoi sur leur territoire?</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u61" who="#JambonJan" ana="#minister">
+                    <note xml:lang="de">12.14 Jan Jambon, ministre:</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg201" xml:lang="fr">Oui.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u62" who="#NolletJeanMarc" ana="#regular">
+                    <note xml:lang="nl">12.15 Jean-Marc Nollet (Ecolo-Groen):</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg202" xml:lang="fr">Quand je dis &quot;tout petit&quot;, ce dispositif peut être parfois plus grand…</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u63" who="#NolletJeanMarc" ana="#regular">
+                    <note xml:lang="nl">13.01 Jean-Marc Nollet (Ecolo-Groen):</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg203" xml:lang="fr">Monsieur le président, monsieur le ministre, c'est bien de terminer par ce point, parce que je souhaite approfondir l'échange que nous avions eu, sans revenir sur l'intérêt qu'on avait convenu d'avoir la sous-commission. C'est vraiment pour avoir les informations au maximum autour de ce qu'on avait déjà échangé le 14 juin et sans refaire tout le débat de la fois passée.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg204" xml:lang="fr">Monsieur le ministre, pouvez-vous me confirmer que, compte tenu des indications ayant récemment dépassé le seuil de notation, ce sont désormais 13 625 défauts qui sont répertoriés sur Doel 3? Quelle est la taille de la plus grande fissure répertoriée sur Doel 3? Même si on sait que l'analyse sur Tihange 2 ne sera complète qu'en septembre – c'est ce que vous m'avez dit la fois passée –, pouvez-vous me dire quelle est la taille de la plus grande fissure actuellement répertoriée sur Tihange 2?</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg205" xml:lang="fr">Dans votre réponse, vous parliez de la distribution de la taille des fissures sur la courbe de Gauss. Pouvez-vous me donner copie des graphiques de distribution (en fonction de la taille des fissures) 2014 et 2016 pour Doel 3, de telle sorte qu'on puisse comparer? De même, pouvez-vous me donner copie des graphiques de distribution (en fonction de la taille des fissures) 2014 et 2017 pour les 619 fissures déjà analysées sur Tihange 2? La semaine dernière, vous m'avez informé que l'ensemble des fissures n'avait pas été analysé mais que seules 619 l'avaient été.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg206" xml:lang="fr">Dans votre réponse du 14 juin 2017, vous faites souvent référence au &quot;seuil de notation&quot;. Pouvez-vous me donner la valeur chiffrée de ce seuil de notation pour Doel 3 ainsi que pour Tihange 2? Je comprends la notion mais je n'ai pas les chiffres. Donc, pour bien mesurer l'ampleur des écarts, j'ai besoin de connaître le chiffre du seuil de notation.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg207" xml:lang="fr">Je vous remercie, monsieur le ministre, pour vos réponses qui, je n'en doute pas, eu égard à l'importance de l'enjeu, seront ici aussi précises et exhaustives.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u64" who="#JambonJan" ana="#minister">
+                    <note xml:lang="de">13.02 Jan Jambon, ministre:</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg208" xml:lang="fr">Monsieur Nollet, j'espère que vous avez gardé des questions pour la sous-commission Sécurité nucléaire!</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u65" who="#NolletJeanMarc" ana="#regular">
+                    <note xml:lang="fr">13.03 Jean-Marc Nollet (Ecolo-Groen):</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg209" xml:lang="fr">Rassurez-vous, j'en ai d'autres, mais plutôt sur la méthodologie. Rappelez-vous, il était prévu de traiter l'aspect méthodologique en sous-commission.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u66" who="#JambonJan" ana="#minister">
+                    <note xml:lang="de">13.04 Jan Jambon, ministre:</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg210" xml:lang="fr">Pour répondre à votre première question de manière précise et scientifique, ce sont 1 529 indications de défaut dans la virole haute et 12 117 dans la virole basse qui doivent être considérées comme des défauts dans les calculs visant à démontrer la résistance de la cuve de Doel 3 à tout type d'événement pouvant y survenir. L'Agence fédérale de contrôle nucléaire (AFCN) a publié l'entièreté de ces résultats sur son site internet.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg211" xml:lang="fr">
+                        En
+                        ce
+                        qui
+                        concerne
+                        vos
+                        deuxième
+                        et
+                        troisième
+                        questions
+                        ,
+                        tant
+                        à
+                        Doel
+                        3
+                        qu'
+                        à
+                        Tihange
+                        2
+                        ,
+                        les
+                        indications
+                        ayant
+                        nouvellement
+                        dépassé
+                        le
+                        seuil
+                        de
+                        notation
+                        sont
+                        de
+                        petite
+                        dimension
+                        .
+                        Il
+                        n'
+                        y
+                        a
+                        donc
+                        pas
+                        d'
+                        influence
+                        sur
+                        les
+                        extrema
+                        de
+                        la
+                        population
+                        d'
+                        indications
+                        de
+                        défauts
+                        .
+                        Le
+                        groupe
+                        de
+                        défauts
+                        le
+                        plus
+                        grand
+                        considéré
+                        comme
+                        une
+                        seule
+                        indication
+                        des
+                        défauts
+                        pour
+                        l'
+                        analyse
+                        d'
+                        intégrité
+                        structurelle
+                        a
+                        donc
+                        comme
+                        dimension
+                        …
+                        <kinesic type="gesture">
+                            <desc>(le ministre montre un tableau)</desc>
+                        </kinesic>
+                        .
+                        Dans
+                        ce
+                        tableau
+                        ,
+                        on
+                        a
+                        la
+                        taille
+                        maximale
+                        des
+                        indications
+                        de
+                        défauts
+                        pour
+                        Doel
+                        3
+                        ,
+                        virole
+                        supérieure
+                        ;
+                        pour
+                        Doel
+                        3
+                        ,
+                        virole
+                        inférieure
+                        ;
+                        et
+                        la
+                        même
+                        chose
+                        pour
+                        Tihange
+                        2.
+                        Il
+                        y
+                        a
+                        aussi
+                        l'
+                        axial
+                        et
+                        l'
+                        azimutal
+                        .
+                        Vous
+                        trouverez
+                        tous
+                        les
+                        chiffres
+                        dans
+                        ce
+                        tableau
+                        ,
+                        que
+                        je
+                        fournirai
+                        aussi
+                        pour
+                        le
+                        rapport
+                        .
+                    </seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg212" xml:lang="fr">En ce qui concerne vos quatrième et cinquième questions, il y a là une incompréhension. Le paramètre intéressant n'est pas la distribution des tailles des micro-bulles d'hydrogène, que ce soit lors de l'inspection de 2014 ou de 2017, mais la distribution de variation de tailles entre ces deux inspections. Cette distribution, purement symétrique, montre que lors des inspections de 2017, le même nombre de défauts voient leur dimension autant augmenter que diminuer. Il y a donc plusieurs milliers de défauts légèrement plus petits qu'il y a trois ans et quelques milliers de mesures légèrement plus grandes. L'AFCN a publié l'entièreté de ces résultats sur son site internet. Le lien se trouve sur le document que nous vous fournirons.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg213" xml:lang="fr">En ce qui concerne vos sixième et septième questions, rappelons tout d'abord une base importante du dossier des indications de défauts dans les cuves de Doel 3 et Tihange 2. Dans le cadre de ce dossier, l'autorité de sûreté a exigé que la procédure utilisée par l'exploitant soit qualifiée pour la détection, le positionnement et le dimensionnement des défauts de type &quot;défauts dus à l'hydrogène&quot;.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg214" xml:lang="fr">Dans ce contexte, la procédure qualifiée au début de l’automne 2015 est valable pour tous les réacteurs belges, ce qui signifie que tous les paramètres appliqués par les mesures sont identiques pour chaque inspection par ultrasons. Les seuils de notation sont donc absolument les mêmes pour Doel 3 et Tihange 2.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg215" xml:lang="fr">Par contre, il faut bien comprendre qu’il n’existe pas un seuil de notation pour la machine utilisée mais un seuil de détection pour chacun des différents capteurs. Des seuils de notation ont été fixés à des valeurs différentes selon l’utilisation, la portée, les caractéristiques, etc., de chacun de ces capteurs. Les seuils de notation pour le dimensionnement de défaut sont donc compris entre - 24dB et - 30dB selon le capteur.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u67" who="#NolletJeanMarc" ana="#regular">
+                    <note xml:lang="nl">13.05 Jean-Marc Nollet (Ecolo-Groen):</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg216" xml:lang="fr">Monsieur le ministre, je vous remercie pour votre réponse. Je veux juste être certain d’avoir bien noté au vol les chiffres que vous avez donnés au début de votre réponse: 1 529 et 12 117, ce qui fait un total de 13 646. J’ai rapidement fait le total, ce qui veut dire qu’on est en augmentation du nombre total par rapport à ce qui avait été recensé antérieurement.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg217" xml:lang="fr">Vous me dites que certains ont disparu, qu’ils sont passés en dessous mais non, puisque, au total, on est plus élevé qu’avant. C’est là que je ne comprends pas très bien. Comment pouvez-vous dire – je vais analyser les graphiques – que c’est stable du point de vue de la distribution alors qu’on voit que le nombre total d’indications qui sont au-dessus du seuil de notation que vous m’avez référencé est plus important qu’il y a deux ans pour ce qui concerne Doel 3?</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg218" xml:lang="fr">Vous m'indiquez par ailleurs qu’il y a des variations à la hausse et des variations à la baisse. C’est bien ce qui me pose problème sur la méthodologie et sa fiabilité, mais je réserve cette discussion-là pour la sous-commission puisqu'on a dit qu'elle allait y être traitée. C’est bien parce qu’il y a ces variations que vous en tirez comme conclusion que comme certaines sont à la hausse et d’autres à la baisse, cela ne pose pas de problème. Pour moi, cela pose à tout le moins le problème de la fiabilité mais on aura le débat en sous-commission. On ne va pas refaire le débat de la fois passée. Voilà pourquoi je me permettais, la semaine dernière, de déjà pointer cette question, cet enjeu de la fiabilité.</seg>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg219" xml:lang="fr">Pour le reste, je prendrai le temps d'analyser s'il est préférable, ou non, que je vous repose une question avant la prochaine sous-commission, lors de laquelle nous traiterons du sujet.</seg>
+                </u>
+                <u xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.u68" who="#VermeulenBrecht" ana="#chair">
+                    <note xml:lang="nl">De voorzitter:</note>
+                    <seg xml:id="ParlaMint-BE_2017-06-21-54-commissie-ic694x.seg220" xml:lang="nl">Vraag nr. 19458 van de heer Maingain wordt omgezet naar een schriftelijke vraag.</seg>
+                </u>
+            </div>
+        </body>
+    </text>
+</TEI>
