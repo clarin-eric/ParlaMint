@@ -1,3 +1,33 @@
+chars:
+	rm -f ParlaMint-BG/chars-files-BG.tbl
+	ls ParlaMint-BG/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'Scripts/chars.pl {} >> ParlaMint-BG/chars-files-BG.tbl'
+	Scripts/chars-summ.pl < ParlaMint-BG/chars-files-BG.tbl > ParlaMint-BG/chars-BG.tbl
+
+	rm -f ParlaMint-CZ/chars-files-CZ.tbl
+	ls ParlaMint-CZ/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'Scripts/chars.pl {} >> ParlaMint-CZ/chars-files-CZ.tbl'
+	Scripts/chars-summ.pl < ParlaMint-CZ/chars-files-CZ.tbl > ParlaMint-CZ/chars-CZ.tbl
+
+	rm -f ParlaMint-HR/chars-files-HR.tbl
+	ls ParlaMint-HR/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'Scripts/chars.pl {} >> ParlaMint-HR/chars-files-HR.tbl'
+	Scripts/chars-summ.pl < ParlaMint-HR/chars-files-HR.tbl > ParlaMint-HR/chars-HR.tbl
+
+	rm -f ParlaMint-IS/chars-files-IS.tbl
+	ls ParlaMint-IS/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'Scripts/chars.pl {} >> ParlaMint-IS/chars-files-IS.tbl'
+	Scripts/chars-summ.pl < ParlaMint-IS/chars-files-IS.tbl > ParlaMint-IS/chars-IS.tbl
+
+	rm -f ParlaMint-PL/chars-files-PL.tbl
+	ls ParlaMint-PL/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'Scripts/chars.pl {} >> ParlaMint-PL/chars-files-PL.tbl'
+	Scripts/chars-summ.pl < ParlaMint-PL/chars-files-PL.tbl > ParlaMint-PL/chars-PL.tbl
+
+	rm -f ParlaMint-SI/chars-files-SI.tbl
+	ls ParlaMint-SI/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'Scripts/chars.pl {} >> ParlaMint-SI/chars-files-SI.tbl'
+	Scripts/chars-summ.pl < ParlaMint-SI/chars-files-SI.tbl > ParlaMint-SI/chars-SI.tbl
 texts:
 	ls ParlaMint-BG/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
 	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ParlaMint-BG/{/.}.txt'
