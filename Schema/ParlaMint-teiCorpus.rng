@@ -357,21 +357,25 @@
 	<interleave>
 	  <oneOrMore>
 	    <element name="surname">
+	      <ref name="personal.att"/>
 	      <text/>
 	    </element>
 	  </oneOrMore>
 	  <oneOrMore>
 	    <element name="forename">
+	      <ref name="personal.att"/>
 	      <text/>
 	    </element>
 	  </oneOrMore>
 	  <zeroOrMore>
 	    <element name="addName">
+	      <ref name="personal.att"/>
 	      <text/>
 	    </element>
 	  </zeroOrMore>
 	  <zeroOrMore>
 	    <element name="roleName">
+	      <ref name="personal.att"/>
 	      <text/>
 	    </element>
 	  </zeroOrMore>
@@ -557,6 +561,20 @@
     taxonomies.</a:documentation>
     <ref name="term"/>
     <ref name="annotated-text"/>
+  </define>
+  
+  <define name="personal.att">
+    <a:documentation>Attribute for person name elements,
+    cf. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.personal.html</a:documentation>
+    <optional>
+      <attribute name="full">
+	<choice>
+	  <value>yes</value>
+	  <value>abb</value>
+	  <value>init</value>
+	</choice>
+      </attribute>
+    </optional>
   </define>
   
 </grammar>

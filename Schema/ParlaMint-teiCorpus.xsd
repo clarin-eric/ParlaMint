@@ -296,10 +296,26 @@
       <xs:attributeGroup ref="ns1:lang.att"/>
     </xs:complexType>
   </xs:element>
-  <xs:element name="surname" type="xs:string"/>
-  <xs:element name="forename" type="xs:string"/>
-  <xs:element name="addName" type="xs:string"/>
-  <xs:element name="roleName" type="xs:string"/>
+  <xs:element name="surname">
+    <xs:complexType mixed="true">
+      <xs:attributeGroup ref="ns1:personal.att"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="forename">
+    <xs:complexType mixed="true">
+      <xs:attributeGroup ref="ns1:personal.att"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="addName">
+    <xs:complexType mixed="true">
+      <xs:attributeGroup ref="ns1:personal.att"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="roleName">
+    <xs:complexType mixed="true">
+      <xs:attributeGroup ref="ns1:personal.att"/>
+    </xs:complexType>
+  </xs:element>
   <xs:element name="nameLink" type="xs:string"/>
   <xs:element name="affiliation">
     <xs:complexType mixed="true">
@@ -455,4 +471,19 @@
       <xs:group ref="ns1:annotated-text"/>
     </xs:sequence>
   </xs:complexType>
+  <xs:attributeGroup name="personal.att">
+    <xs:annotation>
+      <xs:documentation>Attribute for person name elements,
+    cf. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.personal.html</xs:documentation>
+    </xs:annotation>
+    <xs:attribute name="full">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="yes"/>
+          <xs:enumeration value="abb"/>
+          <xs:enumeration value="init"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
 </xs:schema>

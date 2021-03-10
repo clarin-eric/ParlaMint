@@ -167,10 +167,10 @@ persName =
     ## Special persons (like 'anonymous', 'group' etc.) have their name in
     ##	term.
     (term
-     | (element surname { text }+
-        & element forename { text }+
-        & element addName { text }*
-        & element roleName { text }*
+     | (element surname { personal.att, text }+
+        & element forename { personal.att, text }+
+        & element addName { personal.att, text }*
+        & element roleName { personal.att, text }*
         & element nameLink { text }*))
   }
 affiliation =
@@ -268,3 +268,7 @@ term = element term { text }
 ## Text preceded by term, for use in
 ##     taxonomies.
 term-text = term, annotated-text
+
+## Attribute for person name elements,
+##     cf. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.personal.html
+personal.att = attribute full { "yes" | "abb" | "init" }?
