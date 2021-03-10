@@ -24,6 +24,7 @@ die "Can't find root TEI file with teiHeader: $rootFile\n"
     unless -e $rootFile;
 
 open(IN, '<:utf8', $rootFile);
+$/ = ">";
 while (<IN>) {
     if (m|<xi:include |) {
 	($href) = m|href="(.+?)"| or
