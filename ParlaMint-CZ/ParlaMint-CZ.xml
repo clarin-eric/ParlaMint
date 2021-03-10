@@ -36,7 +36,7 @@
                <orgName xml:lang="cs">Výzkumná infrastruktura CLARIN</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
             <pubPlace>
                <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
             </pubPlace>
@@ -45,7 +45,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="cs">Toto dílo je licencováno <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Uveďte původ 4.0 Mezinárodní Veřejná licence</ref>.</p>
             </availability>
-            <date when="2021-03-06">2021-03-06</date>
+            <date when="2021-03-09">2021-03-09</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -96,6 +96,7 @@
                <tagUsage gi="gap" occurs="797"/>
                <tagUsage gi="desc" occurs="25222"/>
                <tagUsage gi="time" occurs="20386"/>
+               <tagUsage gi="ref" occurs="33396"/>
             </namespace>
          </tagsDecl>
          <classDecl>
@@ -2371,6 +2372,13 @@
                   <orgName full="yes" xml:lang="en">The Supreme Audit Office of the Czech Republic</orgName>
                   <orgName full="init">NKÚ</orgName>
                   <event from="1993-07-01">
+                     <label xml:lang="en">existence</label>
+                  </event>
+               </org>
+               <org xml:id="institution.PFNM.434" role="institution">
+                  <orgName full="yes" xml:lang="cs">Prezídium Fondu národního majetku České republiky</orgName>
+                  <orgName full="init">PFNM</orgName>
+                  <event from="1993-01-01" to="2006-01-01">
                      <label xml:lang="en">existence</label>
                   </event>
                </org>
@@ -5650,13 +5658,6 @@
                      <label xml:lang="en">existence</label>
                   </event>
                </org>
-               <org xml:id="institution.PFNM.434" role="institution">
-                  <orgName full="yes" xml:lang="cs">Prezídium Fondu národního majetku České republiky</orgName>
-                  <orgName full="init">PFNM</orgName>
-                  <event from="1993-01-01" to="2006-01-01">
-                     <label xml:lang="en">existence</label>
-                  </event>
-               </org>
                <org xml:id="senate" role="senate" ana="#parla.national #parla.upper">
                   <orgName full="yes" xml:lang="cs">Senát</orgName>
                   <orgName full="yes" xml:lang="en">Senate</orgName>
@@ -8068,6 +8069,7 @@
                      <forename>Adam</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1979-10-06"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6497</idno>
                   <affiliation ref="#subcommittee.PD.1340"
                                role="member"
@@ -8142,6 +8144,7 @@
                      <forename>Adam</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1986-09-03"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5960</idno>
                   <affiliation ref="#subcommittee.PBP.1230"
                                role="viceChairman"
@@ -8258,6 +8261,7 @@
                      <forename>Adam</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1986-10-02"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6491</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/adam-vojtech-167014/</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/adam-vojtech-162061/</idno>
@@ -8309,6 +8313,7 @@
                      <forename>Adolf</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1961-12-25"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6181</idno>
                   <affiliation ref="#institution.NKU.422" role="member" from="2017-01-11T00:00:00"/>
                   <affiliation ref="#institution.NKU.422" role="member" from="2017-01-11T00:00:00"/>
@@ -8430,6 +8435,7 @@
                      <forename>Alena</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1954-04-15"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5703</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.BH.1514"
                                role="member"
@@ -8513,6 +8519,7 @@
                      <forename>Alena</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1960-04-07"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6223</idno>
                   <affiliation ref="#subcommittee.PNDS.1235"
                                role="viceChairman"
@@ -8581,6 +8588,7 @@
                      <forename>Alena</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1964-03-01"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6545</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/alena-schillerova-167019/</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/alena-schillerova-162051/</idno>
@@ -8628,6 +8636,7 @@
                      <forename>Aleš</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1976-04-18"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6463</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.KW.1464"
                                role="member"
@@ -8672,6 +8681,7 @@
                      <forename>Alexander</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1953-05-21"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5307</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.IQ.1511"
                                role="member"
@@ -8941,6 +8951,7 @@
                      <forename>Andrea</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1972-04-17"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6428</idno>
                   <affiliation ref="#subcommittee.PV.1395"
                                role="member"
@@ -8994,6 +9005,7 @@
                      <forename>Andrea</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1971-06-09"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6434</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.KW.1464"
                                role="member"
@@ -9053,9 +9065,10 @@
                      <forename>Andrej</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1954-09-02"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6150</idno>
-                  <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/andrej-babis-162063/</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/andrej-babis-115388/</idno>
+                  <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/andrej-babis-162063/</idno>
                   <affiliation ref="#government.VladaCR.1494"
                                role="chairman"
                                from="2018-06-27T09:00:00"/>
@@ -9137,6 +9150,7 @@
                      <forename>Anna</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1960-07-24"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5957</idno>
                   <affiliation ref="#politicalGroup.TOP09-S.1112"
                                role="viceChairman"
@@ -9233,6 +9247,7 @@
                      <forename>Anna</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1951-06-23"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5207</idno>
                   <affiliation ref="#institution.UVOP.423"
                                role="publicDefenderOfRights"
@@ -9257,6 +9272,7 @@
                      <forename>Antonín</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1962-12-14"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6248</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/antonin-prachar-115396/</idno>
                   <affiliation ref="#government.VladaCR.1164"
@@ -9274,6 +9290,7 @@
                      <forename>Antonín</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1960-12-12"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5310</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.KR.1169"
                                role="member"
@@ -9749,6 +9766,7 @@
                      <forename>Antonín</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1966-03-02"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6516</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/antonin-stanek-167016/</idno>
                   <affiliation ref="#subcommittee.PVV.1369"
@@ -9878,6 +9896,7 @@
                      <forename>Augustin Karel</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1946-10-25"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6148</idno>
                   <affiliation ref="#subcommittee.PH.1150"
                                role="chairman"
@@ -10010,6 +10029,7 @@
                      <forename>Barbora</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1972-08-14"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6425</idno>
                   <affiliation ref="#committee.RV.1118"
                                role="member"
@@ -10038,6 +10058,7 @@
                      <forename>Barbora</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1984-09-27"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6464</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.CN.1453"
                                role="member"
@@ -10092,6 +10113,7 @@
                      <forename>Bohuslav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1960-06-15"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6199</idno>
                   <affiliation ref="#commission.VKUOOZ.1282"
                                role="member"
@@ -10216,6 +10238,7 @@
                      <forename>Bohuslav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1971-10-23"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=237</idno>
                   <idno type="URI">http://www.vlada.cz/cz/vlada/premier/</idno>
                   <affiliation ref="#committee.VZP.1317"
@@ -10526,6 +10549,7 @@
                      <forename>Bohuslav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1944-02-08"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6007</idno>
                   <affiliation ref="#committee.VVVKM.1314"
                                role="member"
@@ -10608,6 +10632,7 @@
                      <forename>Bronislav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1966-10-07"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6236</idno>
                   <affiliation ref="#commission.VKD47.1258"
                                role="member"
@@ -10696,6 +10721,7 @@
                      <forename>Dalibor</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1962-09-01"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6130</idno>
                   <affiliation ref="#government.VladaCR.1103"
                                role="minister"
@@ -10712,6 +10738,7 @@
                      <forename>Dan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1959-03-04"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6291</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/dan-tok-125109/</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/dan-tok-167015/</idno>
@@ -10757,6 +10784,7 @@
                      <forename>Dana</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1960-09-22"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6429</idno>
                   <affiliation ref="#subcommittee.PUR.1397"
                                role="member"
@@ -10823,6 +10851,7 @@
                      <forename>Dana</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1966-05-28"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5979</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.BD.1288"
                                role="member"
@@ -11065,6 +11094,7 @@
                      <forename>Daniel</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1963-04-28"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6142</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/daniel-herman-115402/</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.GB.1195"
@@ -11134,6 +11164,7 @@
                      <forename>Daniel</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1953-02-26"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5939</idno>
                   <affiliation ref="#commission.VKUOOZ.1282"
                                role="member"
@@ -11270,6 +11301,7 @@
                      <forename>Daniel</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1975-10-01"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6485</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.AFG.1517"
                                role="member"
@@ -11345,6 +11377,7 @@
                      <forename>David</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1976-10-12"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5933</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.EE.1255"
                                role="member"
@@ -11453,6 +11486,7 @@
                      <forename>David</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1969-01-01"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6209</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.QA.1509"
                                role="member"
@@ -11550,6 +11584,7 @@
                      <forename>David</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1979-09-13"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6527</idno>
                   <affiliation ref="#subcommittee.PVH.1378"
                                role="viceChairman"
@@ -11585,6 +11620,7 @@
                      <forename>David</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1983-03-03"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6484</idno>
                   <affiliation ref="#committee.VEZ.1308" role="member" from="2021-01-22T00:00:00"/>
                   <affiliation ref="#subcommittee.PCR.1391"
@@ -11609,6 +11645,7 @@
                      <forename>Dominik</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1996-07-11"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6449</idno>
                   <affiliation ref="#committee.ORGV.1304"
                                role="verifier"
@@ -11698,6 +11735,7 @@
                      <forename>Eva</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1982-02-13"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6457</idno>
                   <affiliation ref="#subcommittee.PTOZP.1366"
                                role="chairman"
@@ -11755,6 +11793,7 @@
                      <forename>Eva</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1959-07-15"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6540</idno>
                   <affiliation ref="#committee.VSP.1313" role="member" from="2019-07-10T12:00:00"/>
                   <affiliation ref="#interparliamentaryFriendshipGroup.CN.1453"
@@ -11825,6 +11864,7 @@
                      <forename>František</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1955-02-28"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=467</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.BD.1288"
                                role="chairman"
@@ -11969,6 +12009,7 @@
                      <forename>František</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1951-01-13"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5383</idno>
                   <affiliation ref="#senate.SE09"
                                role="member"
@@ -12069,6 +12110,7 @@
                      <forename>František</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1978-10-19"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6446</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.JM.1468"
                                role="chairman"
@@ -12122,6 +12164,7 @@
                      <forename>František</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1995-11-30"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6499</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.GBR.1457"
                                role="member"
@@ -12192,6 +12235,7 @@
                      <forename>František</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1960-03-13"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5476</idno>
                   <affiliation ref="#committee.ORGV.1120"
                                role="member"
@@ -12372,6 +12416,7 @@
                      <forename>František</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1977-10-30"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6133</idno>
                   <affiliation ref="#government.VladaCR.1103"
                                role="minister"
@@ -12388,6 +12433,7 @@
                      <forename>František</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1992-09-15"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6624</idno>
                   <affiliation ref="#subcommittee.PDJESB.1383"
                                role="chairman"
@@ -12457,6 +12503,7 @@
                      <forename>František</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1959-03-09"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6409</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.KW.1464"
                                role="member"
@@ -12512,6 +12559,7 @@
                      <forename>František</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1966-09-11"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6137</idno>
                   <affiliation ref="#subcommittee.PVVS.1359"
                                role="member"
@@ -12595,6 +12643,7 @@
                      <forename>Gabriela</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1975-01-28"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5920</idno>
                   <affiliation ref="#subcommittee.PCR.1231"
                                role="member"
@@ -12715,6 +12764,7 @@
                      <forename>Gabriela</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1957-01-19"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5955</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.CL.1208"
                                role="member"
@@ -12871,6 +12921,7 @@
                      <forename>Hana</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1981-04-07"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6149</idno>
                   <affiliation ref="#subcommittee.PRT.1530"
                                role="viceChairman"
@@ -13015,6 +13066,7 @@
                      <forename>Helena</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1963-10-14"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5943</idno>
                   <affiliation ref="#commission.SKHH.1520"
                                role="member"
@@ -13203,6 +13255,7 @@
                      <forename>Helena</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1951-01-07"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6168</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/helena-valkova-115394/</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.PT.1455"
@@ -13335,6 +13388,7 @@
                      <forename>Herbert</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1958-01-04"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6227</idno>
                   <affiliation ref="#senate.SE12" role="member" from="2018-10-13T14:00:00"/>
                   <affiliation ref="#senate.SE13" role="member" from="2018-10-13T14:00:00"/>
@@ -13393,6 +13447,7 @@
                      <forename>Igor</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1967-05-12"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6113</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.GE.1188"
                                role="chairman"
@@ -13505,6 +13560,7 @@
                      <forename>Igor</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1963-09-11"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6174</idno>
                   <affiliation ref="#subcommittee.POZPVP.1161"
                                role="member"
@@ -13549,6 +13605,7 @@
                      <forename>Ilja</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1952-02-14"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6550</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/ilja-smid-162057/</idno>
                   <affiliation ref="#government.VladaCR.1338"
@@ -13566,6 +13623,7 @@
                      <forename>Ilona</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1959-12-29"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6470</idno>
                   <affiliation ref="#subcommittee.PV.1350"
                                role="member"
@@ -13597,6 +13655,7 @@
                      <forename>Irena</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1969-05-06"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6661</idno>
                   <affiliation ref="#subcommittee.POPK.1365"
                                role="member"
@@ -13628,6 +13687,7 @@
                      <forename>Iva</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1962-11-17"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6619</idno>
                   <affiliation ref="#committee.RV.1305" role="member" from="2019-04-26T00:00:00"/>
                   <affiliation ref="#committee.KV.1306" role="member" from="2019-04-26T00:00:00"/>
@@ -13645,6 +13705,7 @@
                      <forename>Ivan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1960-03-21"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5700</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.MK.1513"
                                role="member"
@@ -13749,6 +13810,7 @@
                      <forename>Ivan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1980-03-20"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6433</idno>
                   <affiliation ref="#subcommittee.PRT.1530"
                                role="member"
@@ -13791,6 +13853,7 @@
                      <forename>Ivan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1951-01-15"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6193</idno>
                   <affiliation ref="#subcommittee.PMAP.1272"
                                role="member"
@@ -13855,6 +13918,7 @@
                      <forename>Ivan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1956-04-29"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6458</idno>
                   <affiliation ref="#committee.VEZ.1308" role="member" from="2017-12-15T09:00:00"/>
                   <affiliation ref="#commission.SKPKPS.1320"
@@ -13877,6 +13941,7 @@
                      <forename>Ivan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1944-07-06"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6231</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/ivan-pilny-156618/</idno>
                   <affiliation ref="#government.VladaCR.1164"
@@ -13934,6 +13999,7 @@
                      <forename>Ivana</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1960-07-12"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6189</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.CU.1170"
                                role="member"
@@ -14084,6 +14150,7 @@
                      <forename>Ivana</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1977-07-29"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6478</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.CH.1444"
                                role="member"
@@ -14158,6 +14225,7 @@
                      <forename>Ivo</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1961-05-21"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6233</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.PT.1455"
                                role="member"
@@ -14279,6 +14347,7 @@
                      <forename>Ivo</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1959-04-15"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6492</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.KR.1422"
                                role="member"
@@ -14303,6 +14372,7 @@
                      <forename>Jakub</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1978-04-27"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6459</idno>
                   <affiliation ref="#subcommittee.PRT.1530"
                                role="viceChairman"
@@ -14346,6 +14416,7 @@
                      <forename>Jakub</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1989-02-06"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6477</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.EE.1429"
                                role="chairman"
@@ -14404,6 +14475,7 @@
                      <forename>Jan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1971-11-10"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6178</idno>
                   <affiliation ref="#commission.SKHH.1520"
                                role="member"
@@ -14535,6 +14607,7 @@
                      <forename>Jan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1969-04-27"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5379</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.BR.1502"
                                role="member"
@@ -14731,6 +14804,7 @@
                      <forename>Jan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1969-06-01"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6182</idno>
                   <affiliation ref="#committee.VB.1311"
                                role="viceChairman"
@@ -14806,6 +14880,7 @@
                      <forename>Jan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1970-03-24"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6683</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/jan-blatny-184561/</idno>
                   <affiliation ref="#government.VladaCR.1494"
@@ -14821,6 +14896,7 @@
                      <forename>Jan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1980-12-17"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5926</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/jan-chvojka-151262/</idno>
                   <affiliation ref="#subcommittee.POPK.1365"
@@ -15099,6 +15175,7 @@
                      <forename>Jan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1978-04-22"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6443</idno>
                   <affiliation ref="#commission.VK.1301" role="member" from="2019-09-25T00:00:00"/>
                   <affiliation ref="#subcommittee.PNPUSV.1353"
@@ -15158,6 +15235,7 @@
                      <forename>Jan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1979-07-11"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5909</idno>
                   <affiliation ref="#commission.SKHH.1520"
                                role="member"
@@ -15317,6 +15395,7 @@
                      <forename>Jan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1951-01-02"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5549</idno>
                   <affiliation ref="#government.VladaCR.1103"
                                role="viceChairman"
@@ -15385,6 +15464,7 @@
                      <forename>Jan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1978-11-04"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5462</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/jan-hamacek-167024/</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.MK.1513"
@@ -15674,6 +15754,7 @@
                      <forename>Jan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1977-05-01"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6455</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.AM.1425"
                                role="member"
@@ -15725,6 +15806,7 @@
                      <forename>Jan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1982-12-02"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6687</idno>
                   <affiliation ref="#committee.MIV.1302"
                                role="verifier"
@@ -15746,6 +15828,7 @@
                      <forename>Jan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1982-11-29"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5934</idno>
                   <affiliation ref="#subcommittee.PVSEG.1232"
                                role="member"
@@ -15915,6 +15998,7 @@
                      <forename>Jan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1978-10-29"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6511</idno>
                   <affiliation ref="#supervisoryBoard.DRSFRB.481"
                                role="member"
@@ -15982,6 +16066,7 @@
                      <forename>Jan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1985-07-02"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6537</idno>
                   <affiliation ref="#commission.SKHH.1520"
                                role="member"
@@ -16077,6 +16162,7 @@
                      <forename>Jan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1960-06-01"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5269</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/jan-mladek-115393/</idno>
                   <affiliation ref="#committee.HV.1123"
@@ -16188,6 +16274,7 @@
                      <forename>Jan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1985-05-16"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6528</idno>
                   <affiliation ref="#subcommittee.PP.1379"
                                role="member"
@@ -16247,6 +16334,7 @@
                      <forename>Jan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1974-10-27"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6519</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.AL.1510"
                                role="member"
@@ -16319,6 +16407,7 @@
                      <forename>Jan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1967-11-28"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6500</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.LT.1427"
                                role="chairman"
@@ -16400,6 +16489,7 @@
                      <forename>Jan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1972-04-06"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6517</idno>
                   <affiliation ref="#subcommittee.PBP.1388"
                                role="member"
@@ -16451,6 +16541,7 @@
                      <forename>Jan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1979-06-08"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6226</idno>
                   <affiliation ref="#commission.VKD47.1258"
                                role="member"
@@ -16491,6 +16582,7 @@
                      <forename>Jan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1980-10-21"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6418</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.MK.1513"
                                role="member"
@@ -16557,6 +16649,7 @@
                      <forename>Jan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1978-04-09"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6245</idno>
                   <affiliation ref="#parliament.PSP7"
                                role="MP"
@@ -16577,6 +16670,7 @@
                      <forename>Jan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1959-06-15"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6166</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.ISR.1447"
                                role="member"
@@ -16700,6 +16794,7 @@
                      <forename>Jan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1949-03-23"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5844</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.GBR.1457"
                                role="member"
@@ -16839,6 +16934,7 @@
                      <forename>Jana</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1973-10-26"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5903</idno>
                   <affiliation ref="#delegation.SDPSRE.1334"
                                role="member"
@@ -17062,6 +17158,7 @@
                      <forename>Jana</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1955-08-20"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5990</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.SN.1281"
                                role="member"
@@ -17294,6 +17391,7 @@
                      <forename>Jana</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1963-12-06"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6195</idno>
                   <affiliation ref="#politicalGroup.Nezaraz.1165"
                                role="member"
@@ -17446,6 +17544,7 @@
                      <forename>Jana</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1962-06-21"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6466</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.NL.1503"
                                role="member"
@@ -17494,6 +17593,7 @@
                      <forename>Jana</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1977-06-17"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6502</idno>
                   <affiliation ref="#committee.VEZ.1308"
                                role="member"
@@ -17570,6 +17670,7 @@
                      <forename>Jana</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1940-04-02"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6219</idno>
                   <affiliation ref="#committee.VSR.1130"
                                role="member"
@@ -17622,6 +17723,7 @@
                      <forename>Jana</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1981-06-24"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6586</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/jana-malacova-167812/</idno>
                   <affiliation ref="#government.VladaCR.1494"
@@ -17637,6 +17739,7 @@
                      <forename>Jana</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1973-05-08"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6471</idno>
                   <affiliation ref="#subcommittee.PRT.1530"
                                role="chairman"
@@ -17669,6 +17772,7 @@
                      <forename>Jana</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1965-07-21"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6225</idno>
                   <affiliation ref="#committee.VSP.1313"
                                role="chairman"
@@ -17901,6 +18005,7 @@
                      <forename>Jaroslav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1952-10-18"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6183</idno>
                   <affiliation ref="#subcommittee.FP.1259"
                                role="member"
@@ -17949,6 +18054,7 @@
                      <forename>Jaroslav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1983-11-30"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6441</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.PE.1516"
                                role="chairman"
@@ -18031,6 +18137,7 @@
                      <forename>Jaroslav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1957-11-04"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6445</idno>
                   <affiliation ref="#committee.VO.1312" role="member" from="2020-09-16T13:00:00"/>
                   <affiliation ref="#subcommittee.PE.1347"
@@ -18067,6 +18174,7 @@
                      <forename>Jaroslav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1962-04-28"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6190</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.AL.1510"
                                role="member"
@@ -18140,6 +18248,7 @@
                      <forename>Jaroslav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1960-06-26"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5911</idno>
                   <affiliation ref="#committee.VEZ.1308" role="member" from="2020-07-08T00:00:00"/>
                   <affiliation ref="#committee.KV.1306"
@@ -18324,6 +18433,7 @@
                      <forename>Jaroslav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1953-06-29"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6198</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.AZE.1462"
                                role="member"
@@ -18478,6 +18588,7 @@
                      <forename>Jaroslav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1962-06-28"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6210</idno>
                   <affiliation ref="#supervisoryBoard.DZVZP.439"
                                role="member"
@@ -18568,6 +18679,7 @@
                      <forename>Jaroslav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1955-10-25"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5279</idno>
                   <affiliation ref="#boardOfDirectors.SRVZP.438"
                                role="replacement"
@@ -18786,6 +18898,7 @@
                      <forename>Jaroslav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1963-03-24"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6512</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.KW.1464"
                                role="member"
@@ -18833,6 +18946,7 @@
                      <forename>Jaroslav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1942-08-16"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=392</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.BD.1288"
                                role="member"
@@ -19081,6 +19195,7 @@
                      <forename>Jaroslav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1959-04-18"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5945</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.AZE.1462"
                                role="member"
@@ -19157,6 +19272,7 @@
                      <forename>Jaroslav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1955-03-13"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6666</idno>
                   <affiliation ref="#subcommittee.PD.1340"
                                role="member"
@@ -19175,6 +19291,7 @@
                      <forename>Jaroslav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1944-04-12"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6157</idno>
                   <affiliation ref="#committee.VSP.1127"
                                role="chairman"
@@ -19229,6 +19346,7 @@
                      <forename>Jaroslava</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1971-04-27"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6547</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/jaroslava-nemcova-162045/</idno>
                   <affiliation ref="#government.VladaCR.1338"
@@ -19246,6 +19364,7 @@
                      <forename>Jaroslava</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1970-08-17"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6202</idno>
                   <affiliation ref="#politicalGroup.ANO.1292"
                                role="member"
@@ -19381,6 +19500,7 @@
                      <forename>Jaroslava</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1957-12-20"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6686</idno>
                   <affiliation ref="#subcommittee.PRT.1530"
                                role="member"
@@ -19400,6 +19520,7 @@
                      <forename>Jeroným</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1977-08-23"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5513</idno>
                   <affiliation ref="#committee.HV.1123"
                                role="member"
@@ -19576,6 +19697,7 @@
                      <forename>Jiří</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1952-05-13"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6002</idno>
                   <affiliation ref="#commission.DKCOVID.1518"
                                role="member"
@@ -19672,6 +19794,8 @@
                      <forename>Jiří</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1941-04-26"/>
+                  <death when="2018-10-03"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5782</idno>
                   <affiliation ref="#senate.SE07"
                                role="member"
@@ -19692,6 +19816,7 @@
                      <forename>Jiří</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1961-08-26"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6439</idno>
                   <affiliation ref="#subcommittee.PP.1379"
                                role="member"
@@ -19724,6 +19849,7 @@
                      <forename>Jiří</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1959-02-04"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5449</idno>
                   <affiliation ref="#senate.SE12"
                                role="member"
@@ -19818,6 +19944,7 @@
                      <forename>Jiří</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1950-03-10"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6128</idno>
                   <affiliation ref="#senate.SE12" role="member" from="2016-10-15T14:00:00"/>
                   <affiliation ref="#senate.SE13" role="member" from="2016-10-15T14:00:00"/>
@@ -19837,6 +19964,7 @@
                      <forename>Jiří</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1959-02-22"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5557</idno>
                   <affiliation ref="#senate.SE12" role="member" from="2018-10-06T14:00:00"/>
                   <affiliation ref="#senate.SE13" role="member" from="2018-10-06T14:00:00"/>
@@ -19895,6 +20023,7 @@
                      <forename>Jiří</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1969-05-27"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=1016</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/jiri-dienstbier-115403/</idno>
                   <affiliation ref="#senate.SE10"
@@ -19956,6 +20085,7 @@
                      <forename>Jiří</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1961-01-24"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5261</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.CY.1499"
                                role="member"
@@ -20198,6 +20328,7 @@
                      <forename>Jiří</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1976-05-16"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6422</idno>
                   <affiliation ref="#government.VladaCR.1164"
                                role="minister"
@@ -20214,6 +20345,7 @@
                      <forename>Jiří</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1948-07-29"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6303</idno>
                   <affiliation ref="#politicalGroup.ANO.1292"
                                role="member"
@@ -20241,6 +20373,7 @@
                      <forename>Jiří</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1972-04-26"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6196</idno>
                   <affiliation ref="#subcommittee.PDCL.1147"
                                role="member"
@@ -20293,6 +20426,7 @@
                      <forename>Jiří</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1973-11-25"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6204</idno>
                   <affiliation ref="#institution.RUSTR.1113"
                                role="member"
@@ -20375,6 +20509,7 @@
                      <forename>Jiří</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1955-12-27"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6503</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.GR.1438"
                                role="member"
@@ -20441,6 +20576,7 @@
                      <forename>Jiří</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1964-11-26"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6504</idno>
                   <affiliation ref="#subcommittee.PRT.1530"
                                role="member"
@@ -20488,6 +20624,7 @@
                      <forename>Jiří</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1955-12-14"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5433</idno>
                   <affiliation ref="#boardOfDirectors.SRVZP.438"
                                role="member"
@@ -20556,6 +20693,7 @@
                      <forename>Jiří</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1976-05-28"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6213</idno>
                   <affiliation ref="#subcommittee.PVSEG.1232"
                                role="member"
@@ -20604,6 +20742,7 @@
                      <forename>Jiří</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1958-07-16"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6534</idno>
                   <affiliation ref="#commission.DKCOVID.1518"
                                role="viceChairman"
@@ -20681,6 +20820,7 @@
                      <forename>Jiří</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1972-06-01"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6222</idno>
                   <affiliation ref="#subcommittee.PS.1358"
                                role="member"
@@ -20861,6 +21001,7 @@
                      <forename>Jiří</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1963-07-03"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6548</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/jiri-milek-162043/</idno>
                   <affiliation ref="#government.VladaCR.1338"
@@ -20917,6 +21058,7 @@
                      <forename>Jiří</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1956-08-17"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5487</idno>
                   <affiliation ref="#supervisoryBoard.DRVF.580"
                                role="member"
@@ -21024,6 +21166,7 @@
                      <forename>Jiří</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1975-11-24"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5273</idno>
                   <affiliation ref="#europeanParliament.EP.1512"
                                role="member"
@@ -21179,6 +21322,7 @@
                      <forename>Jiří</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1960-10-16"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=4737</idno>
                   <affiliation ref="#institution.BRCNB.836"
                                role="member"
@@ -21268,6 +21412,7 @@
                      <forename>Jiří</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1954-08-03"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5964</idno>
                   <affiliation ref="#boardOfDirectors.SRVZP.438"
                                role="replacement"
@@ -21398,6 +21543,7 @@
                      <forename>Jiří</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1941-08-09"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5975</idno>
                   <affiliation ref="#commission.VKZS.1287"
                                role="member"
@@ -21522,6 +21668,7 @@
                      <forename>Jiří</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1959-04-05"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6515</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.MN.1498"
                                role="member"
@@ -21584,6 +21731,7 @@
                      <forename>Jiří</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1965-12-28"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6169</idno>
                   <affiliation ref="#commission.DKCOVID.1518"
                                role="verifier"
@@ -21696,6 +21844,7 @@
                      <forename>Jiří</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1950-02-02"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6493</idno>
                   <affiliation ref="#committee.VZP.1317" role="member" from="2021-01-22T00:00:00"/>
                   <affiliation ref="#interparliamentaryFriendshipGroup.GBR.1457"
@@ -21765,6 +21914,7 @@
                      <forename>Jiří</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1965-01-03"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5987</idno>
                   <affiliation ref="#subcommittee.PLVH.1244"
                                role="member"
@@ -21873,6 +22023,7 @@
                      <forename>Jiří</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1971-03-28"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6155</idno>
                   <affiliation ref="#committee.VSR.1130"
                                role="viceChairman"
@@ -21905,6 +22056,7 @@
                      <forename>Jiří</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1957-09-15"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5718</idno>
                   <affiliation ref="#subcommittee.PV.1154"
                                role="member"
@@ -21973,6 +22125,7 @@
                      <forename>Jitka</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1957-03-23"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5922</idno>
                   <affiliation ref="#senate.SE12" role="member" from="2018-10-13T14:00:00"/>
                   <affiliation ref="#senate.SE13" role="member" from="2018-10-13T14:00:00"/>
@@ -22160,6 +22313,7 @@
                      <forename>Josef</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1978-07-16"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6437</idno>
                   <affiliation ref="#delegation.SDNATO.1332"
                                role="replacement"
@@ -22190,6 +22344,7 @@
                      <forename>Josef</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1956-07-03"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6139</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.GBR.1457"
                                role="member"
@@ -22337,6 +22492,7 @@
                      <forename>Josef</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1970-11-15"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6246</idno>
                   <affiliation ref="#committee.KV.1306" role="member" from="2020-11-10T17:00:00"/>
                   <affiliation ref="#supervisoryBoard.DRSZIF.480"
@@ -22520,6 +22676,7 @@
                      <forename>Josef</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1953-05-28"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5948</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.IRN.1285"
                                role="member"
@@ -22668,6 +22825,7 @@
                      <forename>Josef</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1952-12-14"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5991</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.SC.1262"
                                role="member"
@@ -22732,6 +22890,7 @@
                      <forename>Josef</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1961-11-13"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5282</idno>
                   <affiliation ref="#subcommittee.PM.1153"
                                role="member"
@@ -22988,6 +23147,7 @@
                      <forename>Josef</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1963-02-27"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6170</idno>
                   <affiliation ref="#supervisoryBoard.DRVF.580"
                                role="member"
@@ -23060,6 +23220,8 @@
                      <forename>Josef</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1950-07-25"/>
+                  <death when="2020-12-29"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6164</idno>
                   <affiliation ref="#subcommittee.PBPFT.1146"
                                role="verifier"
@@ -23168,6 +23330,7 @@
                      <forename>Josef</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1945-01-22"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6163</idno>
                   <affiliation ref="#supervisoryBoard.DRVF.580"
                                role="member"
@@ -23224,6 +23387,7 @@
                      <forename>Josef</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1957-03-18"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6159</idno>
                   <affiliation ref="#commission.VKZS.1287"
                                role="member"
@@ -23308,6 +23472,7 @@
                      <forename>Julius</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1952-06-10"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6505</idno>
                   <affiliation ref="#subcommittee.PNLP.1349"
                                role="viceChairman"
@@ -23349,6 +23514,7 @@
                      <forename>Kamal</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1969-01-29"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6447</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.CN.1453"
                                role="member"
@@ -23393,6 +23559,7 @@
                      <forename>Karel</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1965-01-12"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=354</idno>
                   <affiliation ref="#institution.RUSTR.1113"
                                role="member"
@@ -23663,6 +23830,7 @@
                      <forename>Karel</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1961-12-31"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6191</idno>
                   <affiliation ref="#subcommittee.PDCL.1147"
                                role="viceChairman"
@@ -23755,6 +23923,7 @@
                      <forename>Karel</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1969-08-16"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6621</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/karel-havlicek-173244/</idno>
                   <affiliation ref="#government.VladaCR.1494"
@@ -23808,6 +23977,7 @@
                      <forename>Karel</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1958-04-27"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5385</idno>
                   <affiliation ref="#senate.SE12"
                                role="member"
@@ -23952,6 +24122,7 @@
                      <forename>Karel</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1968-02-12"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6510</idno>
                   <affiliation ref="#subcommittee.PRT.1530"
                                role="member"
@@ -24005,6 +24176,7 @@
                      <forename>Karel</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1945-01-11"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6234</idno>
                   <affiliation ref="#politicalGroup.Nezaraz.1165"
                                role="member"
@@ -24053,6 +24225,7 @@
                      <forename>Karel</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1949-10-14"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6158</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.MD.1515"
                                role="member"
@@ -24181,6 +24354,7 @@
                      <forename>Karel</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1937-12-10"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5558</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.MD.1515"
                                role="member"
@@ -24282,6 +24456,7 @@
                      <forename>Karel</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1957-11-01"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5506</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.BY.1261"
                                role="member"
@@ -24490,6 +24665,7 @@
                      <forename>Karel</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1971-02-01"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6240</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.KW.1464"
                                role="member"
@@ -24574,6 +24750,7 @@
                      <forename>Karla</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1981-03-19"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6469</idno>
                   <affiliation ref="#subcommittee.PRT.1530"
                                role="member"
@@ -24662,6 +24839,7 @@
                      <forename>Karla</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1977-05-22"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6287</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/karla-slechtova-123323/</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/karla-slechtova-162055/</idno>
@@ -24712,6 +24890,7 @@
                      <forename>Kateřina</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1981-01-20"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5321</idno>
                   <affiliation ref="#europeanParliament.EP.1512"
                                role="member"
@@ -25235,6 +25414,7 @@
                      <forename>Kateřina</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1976-09-15"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6337</idno>
                   <idno type="URI">http://vlada.cz/cz/vlada/</idno>
                   <affiliation ref="#subcommittee.PRT.1530"
@@ -25347,6 +25527,7 @@
                      <forename>Klára</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1971-03-13"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6430</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/klara-dostalova-162037/</idno>
                   <affiliation ref="#government.VladaCR.1494"
@@ -25394,6 +25575,7 @@
                      <forename>Kristýna</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1974-08-06"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6156</idno>
                   <affiliation ref="#politicalGroup.TOP09-S.1112"
                                role="member"
@@ -25514,7 +25696,11 @@
                      <forename>Květa</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1984-06-04"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5938</idno>
+                  <affiliation ref="#interparliamentaryFriendshipGroup.AZE.1462"
+                               role="member"
+                               from="2021-02-26T00:00:00"/>
                   <affiliation ref="#committee.KV.1306" role="verifier" from="2019-01-10T00:00:00"/>
                   <affiliation ref="#committee.KV.1306" role="member" from="2018-12-07T09:00:00"/>
                   <affiliation ref="#interparliamentaryFriendshipGroup.IR.1466"
@@ -25683,6 +25869,7 @@
                      <forename>Ladislav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1961-03-10"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6172</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.CL.1454"
                                role="member"
@@ -25757,6 +25944,7 @@
                      <forename>Ladislav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1965-09-20"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5507</idno>
                   <affiliation ref="#institution.RRTV.426"
                                role="member"
@@ -26240,6 +26428,7 @@
                      <forename>Ladislav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1957-04-11"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5866</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.PH.1275"
                                role="member"
@@ -26440,6 +26629,7 @@
                      <forename>Lenka</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1963-09-13"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6431</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.PT.1455"
                                role="member"
@@ -26490,6 +26680,7 @@
                      <forename>Lenka</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1960-10-27"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6465</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.PT.1455"
                                role="member"
@@ -26549,6 +26740,7 @@
                      <forename>Leo</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1964-12-06"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6279</idno>
                   <affiliation ref="#subcommittee.PRT.1530"
                                role="member"
@@ -26712,6 +26904,7 @@
                      <forename>Leopold</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1954-05-01"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6106</idno>
                   <affiliation ref="#senate.SE12" role="member" from="2018-10-13T14:00:00"/>
                   <affiliation ref="#senate.SE13" role="member" from="2018-10-13T14:00:00"/>
@@ -26734,6 +26927,7 @@
                      <forename>Leoš</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1948-02-11"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5917</idno>
                   <affiliation ref="#subcommittee.POZPVP.1161"
                                role="member"
@@ -26814,9 +27008,10 @@
                      <forename>Lubomír</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1967-10-06"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6544</idno>
-                  <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/lubomir-metnar-167028/</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/lubomir-metnar-162041/</idno>
+                  <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/lubomir-metnar-167028/</idno>
                   <affiliation ref="#government.VladaCR.1494"
                                role="minister"
                                from="2018-06-27T09:00:00"/>
@@ -26838,6 +27033,7 @@
                      <forename>Lubomír</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1955-10-01"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6514</idno>
                   <affiliation ref="#committee.RV.1305" role="member" from="2019-04-17T00:00:00"/>
                   <affiliation ref="#committee.VOV.1307"
@@ -26863,6 +27059,7 @@
                      <forename>Lubomír</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1954-03-26"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6239</idno>
                   <affiliation ref="#subcommittee.PMAP.1272"
                                role="viceChairman"
@@ -26915,6 +27112,7 @@
                      <forename>Lubomír</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1973-07-03"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6481</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.CH.1444"
                                role="member"
@@ -27003,6 +27201,7 @@
                      <forename>Lubomír</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1956-09-06"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=252</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/lubomir-zaoralek-115390/</idno>
                   <affiliation ref="#government.VladaCR.1494"
@@ -27213,6 +27412,7 @@
                      <forename>Lucie</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1987-05-21"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6479</idno>
                   <affiliation ref="#commission.DKCOVID.1518"
                                role="member"
@@ -27262,6 +27462,7 @@
                      <forename>Ludvík</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1963-06-13"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5314</idno>
                   <affiliation ref="#supervisoryBoard.DZVZP.439"
                                role="replacement"
@@ -27460,6 +27661,7 @@
                      <forename>Lukáš</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1981-01-30"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6432</idno>
                   <affiliation ref="#subcommittee.PRS.1360"
                                role="chairman"
@@ -27520,6 +27722,7 @@
                      <forename>Lukáš</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1984-11-19"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6442</idno>
                   <affiliation ref="#subcommittee.PEFPS.1414"
                                role="member"
@@ -27602,6 +27805,7 @@
                      <forename>Lukáš</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1984-03-05"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6507</idno>
                   <affiliation ref="#commission.SKBIS.1326"
                                role="member"
@@ -27690,6 +27894,7 @@
                      <forename>Lukáš</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1974-10-18"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6232</idno>
                   <affiliation ref="#commission.VKZS.1287"
                                role="member"
@@ -27868,6 +28073,7 @@
                      <forename>Marcela</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1971-01-24"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6476</idno>
                   <affiliation ref="#subcommittee.PS.1358"
                                role="member"
@@ -27918,6 +28124,7 @@
                      <forename>Marek</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1968-11-10"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=4</idno>
                   <affiliation ref="#committee.ORGV.1304"
                                role="verifier"
@@ -28418,6 +28625,7 @@
                      <forename>Marek</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1969-08-11"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6186</idno>
                   <affiliation ref="#committee.ORGV.1120"
                                role="member"
@@ -28588,6 +28796,7 @@
                      <forename>Marek</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1976-08-02"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6533</idno>
                   <affiliation ref="#subcommittee.PV.1395"
                                role="member"
@@ -28665,6 +28874,7 @@
                      <forename>Marek</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1976-07-10"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6513</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.AM.1425"
                                role="member"
@@ -28735,6 +28945,7 @@
                      <forename>Marek</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1978-11-26"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6154</idno>
                   <affiliation ref="#boardOfDirectors.SRVZP.438"
                                role="member"
@@ -28853,6 +29064,7 @@
                      <forename>Margita</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1967-09-16"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6177</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.CL.1454"
                                role="chairman"
@@ -28984,6 +29196,7 @@
                      <forename>Marian</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1962-12-25"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6440</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.CH.1444"
                                role="member"
@@ -29080,6 +29293,7 @@
                      <forename>Marian</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1981-03-15"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6205</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/marian-jurecka-115397/</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.UA.1433"
@@ -29145,6 +29359,7 @@
                      <forename>Marie</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1948-04-17"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6136</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/marie-benesova-173279/</idno>
                   <affiliation ref="#government.VladaCR.1494"
@@ -29204,6 +29419,7 @@
                      <forename>Marie</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1979-12-31"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6228</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.MD.1515"
                                role="member"
@@ -29351,6 +29567,7 @@
                      <forename>Markéta</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1984-10-02"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6147</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.NL.1503"
                                role="member"
@@ -29442,6 +29659,7 @@
                      <forename>Markéta</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1983-08-02"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6160</idno>
                   <affiliation ref="#subcommittee.PCR.1231"
                                role="member"
@@ -29510,6 +29728,7 @@
                      <forename>Marta</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1954-11-04"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6581</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/marta-novakova--167025/</idno>
                   <affiliation ref="#government.VladaCR.1494"
@@ -29527,6 +29746,7 @@
                      <forename>Marta</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1960-03-01"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5962</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.MX.1263"
                                role="member"
@@ -29711,6 +29931,7 @@
                      <forename>Martin</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1975-09-16"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6435</idno>
                   <affiliation ref="#subcommittee.PHZS.1394"
                                role="viceChairman"
@@ -29794,6 +30015,7 @@
                      <forename>Martin</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1954-04-23"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6129</idno>
                   <affiliation ref="#government.VladaCR.1103"
                                role="minister"
@@ -29810,6 +30032,7 @@
                      <forename>Martin</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1978-04-10"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6462</idno>
                   <affiliation ref="#subcommittee.PCR.1391"
                                role="member"
@@ -29868,6 +30091,7 @@
                      <forename>Martin</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1975-04-11"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6211</idno>
                   <affiliation ref="#supervisoryBoard.DRSFDI.476"
                                role="member"
@@ -29973,6 +30197,7 @@
                      <forename>Martin</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1961-02-13"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6140</idno>
                   <affiliation ref="#subcommittee.FP.1259"
                                role="member"
@@ -30029,6 +30254,7 @@
                      <forename>Martin</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1975-10-28"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6538</idno>
                   <affiliation ref="#subcommittee.PVEG.1389"
                                role="member"
@@ -30062,6 +30288,7 @@
                      <forename>Martin</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1976-08-10"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6218</idno>
                   <affiliation ref="#commission.VKUOOZ.1282"
                                role="member"
@@ -30136,6 +30363,7 @@
                      <forename>Martin</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1972-01-21"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6175</idno>
                   <affiliation ref="#delegation.SDNATO.1141"
                                role="member"
@@ -30204,6 +30432,7 @@
                      <forename>Martin</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1968-07-09"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5552</idno>
                   <affiliation ref="#government.VladaCR.1103"
                                role="viceChairman"
@@ -30272,6 +30501,7 @@
                      <forename>Martin</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1974-11-11"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6280</idno>
                   <affiliation ref="#commission.VKZS.1287"
                                role="chairman"
@@ -30338,6 +30568,7 @@
                      <forename>Martin</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1971-09-13"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6417</idno>
                   <affiliation ref="#politicalGroup.STAN.1296"
                                role="member"
@@ -30357,6 +30588,7 @@
                      <forename>Martin</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1972-12-21"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6153</idno>
                   <affiliation ref="#commission.VKD47.1258"
                                role="member"
@@ -30441,6 +30673,7 @@
                      <forename>Martin</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1956-12-19"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=443</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/martin-stropnicky-115391/</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/martin-stropnicky-162053/</idno>
@@ -30522,6 +30755,7 @@
                      <forename>Martin</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1954-07-03"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5514</idno>
                   <affiliation ref="#senate.SE08"
                                role="member"
@@ -30598,6 +30832,7 @@
                      <forename>Martina</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1971-04-29"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6180</idno>
                   <affiliation ref="#subcommittee.PCR.1231"
                                role="chairman"
@@ -30686,6 +30921,7 @@
                      <forename>Matěj</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1984-06-02"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6192</idno>
                   <affiliation ref="#committee.ZAV.1132"
                                role="member"
@@ -30781,6 +31017,7 @@
                      <forename>Michaela</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1969-03-20"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6247</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/michaela-marksova-tominova-115395/</idno>
                   <affiliation ref="#institution.RCTK.428"
@@ -30802,6 +31039,7 @@
                      <forename>Michal</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1976-04-17"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5297</idno>
                   <affiliation ref="#subcommittee.PD.1223"
                                role="member"
@@ -31066,6 +31304,7 @@
                      <forename>Michal</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1968-10-04"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6216</idno>
                   <affiliation ref="#politicalGroup.TOP09-S.1112"
                                role="chairman"
@@ -31134,6 +31373,7 @@
                      <forename>Michal</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1981-12-06"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6523</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.AFG.1517"
                                role="member"
@@ -31223,6 +31463,7 @@
                      <forename>Mikuláš</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1987-03-19"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6450</idno>
                   <affiliation ref="#commission.DKCOVID.1518"
                                role="viceChairman"
@@ -31302,6 +31543,7 @@
                      <forename>Mikuláš</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1986-06-18"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6488</idno>
                   <affiliation ref="#europeanParliament.EP.1512"
                                role="member"
@@ -31416,6 +31658,7 @@
                      <forename>Milada</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1944-11-04"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=211</idno>
                   <affiliation ref="#senate.SE09"
                                role="member"
@@ -31632,6 +31875,7 @@
                      <forename>Milada</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1950-01-06"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5461</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.XJVE.1199"
                                role="chairman"
@@ -31840,6 +32084,7 @@
                      <forename>Milan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1962-11-05"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6185</idno>
                   <affiliation ref="#committee.ORGV.1304" role="member" from="2019-07-10T12:00:00"/>
                   <affiliation ref="#interparliamentaryFriendshipGroup.USA.1445"
@@ -31983,6 +32228,7 @@
                      <forename>Milan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1970-01-31"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6200</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/milan-chovanec-115392/</idno>
                   <affiliation ref="#subcommittee.PPCR.1393"
@@ -32041,6 +32287,7 @@
                      <forename>Milan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1964-01-18"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6448</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.BH.1514"
                                role="member"
@@ -32077,6 +32324,7 @@
                      <forename>Milan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1973-06-25"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6453</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.SK.1443"
                                role="member"
@@ -32125,6 +32373,7 @@
                      <forename>Milan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1965-06-06"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6539</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.MN.1498"
                                role="member"
@@ -32160,6 +32409,7 @@
                      <forename>Milan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1955-12-05"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6145</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.BD.1288"
                                role="member"
@@ -32380,6 +32630,7 @@
                      <forename>Milan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1958-10-15"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=422</idno>
                   <affiliation ref="#subcommittee.PE.1224"
                                role="chairman"
@@ -32604,6 +32855,7 @@
                      <forename>Miloš</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1960-05-12"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6151</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.CH.1203"
                                role="member"
@@ -32690,6 +32942,7 @@
                      <forename>Miloš</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1958-03-14"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6229</idno>
                   <affiliation ref="#subcommittee.PLVH.1244"
                                role="member"
@@ -32738,6 +32991,7 @@
                      <forename>Miloš</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1960-08-10"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=4775</idno>
                   <affiliation ref="#senate.SE11" role="member" from="2016-10-15T00:00:00"/>
                   <affiliation ref="#senate.SE12" role="member" from="2016-10-15T00:00:00"/>
@@ -32769,6 +33023,7 @@
                      <forename>Miloš</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1944-09-28"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=253</idno>
                   <affiliation ref="#president.PR" role="president" from="2013-03-08T10:00:00"/>
                   <affiliation ref="#president.PR" role="member" from="2013-03-08T10:00:00"/>
@@ -32851,6 +33106,7 @@
                      <forename>Miloslav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1952-10-28"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6152</idno>
                   <affiliation ref="#politicalGroup.ANO.1108"
                                role="member"
@@ -32871,6 +33127,7 @@
                      <forename>Miloslav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1962-09-21"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6201</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.SK.1443"
                                role="member"
@@ -32993,6 +33250,7 @@
                      <forename>Miloslav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1963-10-05"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6408</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/miloslav-ludvik-151300/</idno>
                   <affiliation ref="#government.VladaCR.1164"
@@ -33010,6 +33268,7 @@
                      <forename>Miloslav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1977-03-29"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6522</idno>
                   <affiliation ref="#commission.SKNBU.1327"
                                role="chairman"
@@ -33031,6 +33290,7 @@
                      <forename>Miloslava</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1947-11-10"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6379</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.AL.1510"
                                role="member"
@@ -33109,6 +33369,7 @@
                      <forename>Miloslava</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1965-05-26"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5268</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.MA.1507"
                                role="member"
@@ -33357,6 +33618,7 @@
                      <forename>Miroslav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1955-02-21"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5793</idno>
                   <affiliation ref="#senate.SE12"
                                role="member"
@@ -33399,6 +33661,7 @@
                      <forename>Miroslav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1947-03-21"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=305</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.PT.1455"
                                role="member"
@@ -33690,6 +33953,7 @@
                      <forename>Miroslav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1960-12-17"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=377</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.NL.1503"
                                role="member"
@@ -33925,6 +34189,7 @@
                      <forename>Miroslav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1952-10-09"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5322</idno>
                   <affiliation ref="#boardOfDirectors.SRVZP.438"
                                role="replacement"
@@ -34163,6 +34428,7 @@
                      <forename>Miroslav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1966-06-12"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6688</idno>
                   <affiliation ref="#parliament.PSP8" role="MP" from="2021-01-26T14:00:00"/>
                   <affiliation ref="#politicalGroup.ANO.1292"
@@ -34184,6 +34450,7 @@
                      <forename>Miroslav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1960-02-06"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6131</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/miroslav-toman-167023/</idno>
                   <affiliation ref="#government.VladaCR.1494"
@@ -34207,6 +34474,7 @@
                      <forename>Miroslava</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1952-11-17"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=401</idno>
                   <affiliation ref="#delegation.SDPSRE.1334"
                                role="headOfDelegation"
@@ -34555,6 +34823,7 @@
                      <forename>Miroslava</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1954-11-20"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5999</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.IL.1189"
                                role="member"
@@ -34707,6 +34976,7 @@
                      <forename>Monika</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1967-02-09"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6580</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.LB.1508"
                                role="member"
@@ -34751,6 +35021,7 @@
                      <forename>Monika</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1970-12-30"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6460</idno>
                   <affiliation ref="#committee.VSP.1313" role="member" from="2020-09-16T13:00:00"/>
                   <affiliation ref="#subcommittee.POP.1373"
@@ -34796,6 +35067,7 @@
                      <forename>Monika</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1989-04-02"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6475</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.AL.1510"
                                role="member"
@@ -34875,6 +35147,7 @@
                      <forename>Nina</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1954-03-14"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6176</idno>
                   <affiliation ref="#subcommittee.PLP.1222"
                                role="member"
@@ -34967,6 +35240,7 @@
                      <forename>Olga</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1953-07-25"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6141</idno>
                   <affiliation ref="#commission.VKD47.1258"
                                role="member"
@@ -35063,6 +35337,7 @@
                      <forename>Olga</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1985-01-21"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6473</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.DE.1418"
                                role="member"
@@ -35105,6 +35380,7 @@
                      <forename>Ondřej</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1994-02-22"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6623</idno>
                   <affiliation ref="#committee.VSR.1315" role="member" from="2020-03-11T00:00:00"/>
                   <affiliation ref="#commission.SKPKPS.1320"
@@ -35155,6 +35431,7 @@
                      <forename>Ondřej</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1976-06-27"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6179</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.HRV.1459"
                                role="member"
@@ -35283,6 +35560,7 @@
                      <forename>Ondřej</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1984-01-22"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6529</idno>
                   <affiliation ref="#subcommittee.PE.1341"
                                role="member"
@@ -35357,6 +35635,7 @@
                      <forename>Ondřej</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1988-05-02"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6526</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.NPL.1456"
                                role="member"
@@ -35421,6 +35700,7 @@
                      <forename>Ondřej</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1976-05-03"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6494</idno>
                   <affiliation ref="#commission.SKHH.1520"
                                role="member"
@@ -35500,6 +35780,7 @@
                      <forename>Patrik</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1974-10-17"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6487</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.SK.1443"
                                role="member"
@@ -35573,6 +35854,7 @@
                      <forename>Pavel</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1962-06-05"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5891</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.XJA.1182"
                                role="member"
@@ -35717,6 +35999,7 @@
                      <forename>Pavel</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1976-12-25"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6138</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/pavel-belobradek-115389/</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.BH.1514"
@@ -35808,6 +36091,7 @@
                      <forename>Pavel</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1969-04-08"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6079</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.AFG.1517"
                                role="member"
@@ -35913,6 +36197,7 @@
                      <forename>Pavel</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1960-01-22"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6187</idno>
                   <affiliation ref="#committee.VEZ.1122"
                                role="member"
@@ -36013,6 +36298,7 @@
                      <forename>Pavel</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1955-02-21"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6194</idno>
                   <affiliation ref="#subcommittee.PVSEG.1232"
                                role="member"
@@ -36057,6 +36343,7 @@
                      <forename>Pavel</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1957-05-23"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5918</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.XSBSA.1215"
                                role="member"
@@ -36209,6 +36496,7 @@
                      <forename>Pavel</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1962-10-31"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6461</idno>
                   <affiliation ref="#committee.VVVKM.1314"
                                role="viceChairman"
@@ -36292,6 +36580,7 @@
                      <forename>Pavel</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1956-10-29"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6496</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.BR.1502"
                                role="chairman"
@@ -36333,6 +36622,7 @@
                      <forename>Pavel</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1955-07-02"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=309</idno>
                   <affiliation ref="#supervisoryBoard.DRSZIF.480"
                                role="chairman"
@@ -36783,6 +37073,7 @@
                      <forename>Pavel</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1964-06-15"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5490</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.AM.1149"
                                role="member"
@@ -36919,6 +37210,7 @@
                      <forename>Pavel</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1960-08-18"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6171</idno>
                   <affiliation ref="#subcommittee.PMAP.1415"
                                role="viceChairman"
@@ -37062,6 +37354,7 @@
                      <forename>Pavel</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1972-01-17"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6525</idno>
                   <affiliation ref="#subcommittee.PTOZP.1366"
                                role="member"
@@ -37135,6 +37428,7 @@
                      <forename>Pavel</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1970-04-03"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6520</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.IQ.1511"
                                role="member"
@@ -37195,12 +37489,27 @@
                                role="candidateMP"
                                from="2017-10-21"/>
                </person>
+               <person xml:id="PavelSindelar.1980">
+                  <persName>
+                     <surname>Šindelář</surname>
+                     <forename>Pavel</forename>
+                  </persName>
+                  <sex value="M">mužské</sex>
+                  <birth when="1980-12-14"/>
+                  <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6691</idno>
+                  <affiliation ref="#parliament.PSP8" role="MP" from="2021-03-01T00:00:00"/>
+                  <affiliation ref="#politicalGroup.ODS.1295"
+                               role="member"
+                               from="2021-03-01T00:00:00"/>
+                  <affiliation ref="#politicalParty.ODS.155" role="candidateMP" from="2017-10-21"/>
+               </person>
                <person xml:id="PavelSramek.1965">
                   <persName>
                      <surname>Šrámek</surname>
                      <forename>Pavel</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1965-03-25"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6144</idno>
                   <affiliation ref="#subcommittee.PPV.1245"
                                role="viceChairman"
@@ -37273,6 +37582,7 @@
                      <forename>Pavel</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1967-01-20"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6501</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.NS.1436"
                                role="member"
@@ -37340,6 +37650,7 @@
                      <forename>Pavel</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1950-09-07"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6167</idno>
                   <affiliation ref="#subcommittee.POZPVP.1161"
                                role="member"
@@ -37380,7 +37691,11 @@
                      <forename>Pavel</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1969-05-18"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5226</idno>
+                  <affiliation ref="#subcommittee.PNPUSV.1353"
+                               role="member"
+                               from="2021-01-20T00:00:00"/>
                   <affiliation ref="#commission.SKHH.1520"
                                role="member"
                                from="2020-07-08T00:00:00"/>
@@ -37469,6 +37784,7 @@
                      <forename>Pavla</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1964-05-18"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6292</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.USA.1445"
                                role="member"
@@ -37579,6 +37895,7 @@
                      <forename>Pavlína</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1968-03-06"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6173</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.H.1197"
                                role="member"
@@ -37771,6 +38088,7 @@
                      <forename>Petr</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1982-08-12"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6146</idno>
                   <affiliation ref="#politicalGroup.Nezaraz.1165"
                                role="member"
@@ -37839,6 +38157,7 @@
                      <forename>Petr</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1966-12-05"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6436</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.MK.1513"
                                role="chairman"
@@ -37878,6 +38197,7 @@
                      <forename>Petr</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1966-01-24"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=346</idno>
                   <affiliation ref="#committee.VOV.1307" role="member" from="2020-11-10T17:00:00"/>
                   <affiliation ref="#interparliamentaryFriendshipGroup.BH.1514"
@@ -38109,6 +38429,7 @@
                      <forename>Petr</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1955-04-08"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5256</idno>
                   <affiliation ref="#senate.SE08"
                                role="member"
@@ -38361,6 +38682,7 @@
                      <forename>Petr</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1981-03-27"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6444</idno>
                   <affiliation ref="#subcommittee.PRT.1530"
                                role="member"
@@ -38441,6 +38763,7 @@
                      <forename>Petr</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1964-09-01"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6074</idno>
                   <affiliation ref="#committee.ORGV.1304"
                                role="viceChairman"
@@ -38525,6 +38848,7 @@
                      <forename>Petr</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1974-06-26"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5914</idno>
                   <affiliation ref="#politicalGroup.STAN.1296"
                                role="viceChairman"
@@ -38658,6 +38982,7 @@
                      <forename>Petr</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1957-05-21"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6095</idno>
                   <affiliation ref="#senate.SE11" role="member" from="2016-10-15T00:00:00"/>
                   <affiliation ref="#senate.SE12" role="member" from="2016-10-15T00:00:00"/>
@@ -38717,6 +39042,7 @@
                      <forename>Petr</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1966-08-23"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6212</idno>
                   <affiliation ref="#commission.SKPKPS.1274"
                                role="chairman"
@@ -38813,6 +39139,7 @@
                      <forename>Petr</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1964-08-20"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6582</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/petr-krcal--167022/</idno>
                   <affiliation ref="#government.VladaCR.1494"
@@ -38830,6 +39157,7 @@
                      <forename>Petr</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1969-03-10"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6217</idno>
                   <affiliation ref="#commission.VKZS.1287"
                                role="member"
@@ -38925,6 +39253,7 @@
                      <forename>Petr</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1963-05-13"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6541</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.NL.1503"
                                role="member"
@@ -38980,6 +39309,7 @@
                      <forename>Petr</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1969-06-26"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6518</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.AFG.1517"
                                role="member"
@@ -39067,6 +39397,7 @@
                      <forename>Petr</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1983-01-04"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6483</idno>
                   <affiliation ref="#subcommittee.PRT.1530"
                                role="member"
@@ -39138,6 +39469,7 @@
                      <forename>Petr</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1986-07-25"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6587</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.ISR.1447"
                                role="member"
@@ -39210,6 +39542,7 @@
                      <forename>Petr</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1975-01-04"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6490</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.SVN.1458"
                                role="member"
@@ -39257,6 +39590,7 @@
                      <forename>Přemysl</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1980-01-28"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6536</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.PE.1516"
                                role="member"
@@ -39289,6 +39623,7 @@
                      <forename>Radek</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1985-07-31"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6454</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.AO.1501"
                                role="member"
@@ -39358,6 +39693,7 @@
                      <forename>Radek</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1965-03-18"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6508</idno>
                   <affiliation ref="#commission.SKKPO.1324"
                                role="member"
@@ -39376,6 +39712,7 @@
                      <forename>Radek</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1967-06-28"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6521</idno>
                   <affiliation ref="#committee.KV.1306"
                                role="viceChairman"
@@ -39414,6 +39751,7 @@
                      <forename>Radek</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1973-12-30"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6165</idno>
                   <affiliation ref="#committee.ORGV.1304"
                                role="chairman"
@@ -39530,6 +39868,7 @@
                      <forename>Radek</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1983-07-11"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6480</idno>
                   <affiliation ref="#committee.VSR.1315" role="member" from="2021-01-22T00:00:00"/>
                   <affiliation ref="#interparliamentaryFriendshipGroup.ISR.1447"
@@ -39600,6 +39939,7 @@
                      <forename>Radim</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1969-07-24"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5459</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.BR.1502"
                                role="member"
@@ -39753,6 +40093,7 @@
                      <forename>Radim</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1976-06-21"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6197</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.PH.1275"
                                role="member"
@@ -39833,6 +40174,7 @@
                      <forename>Radka</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1968-12-02"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6221</idno>
                   <affiliation ref="#europeanParliament.EP.1512"
                                role="member"
@@ -40055,6 +40397,7 @@
                      <forename>Radko</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1956-06-06"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=396</idno>
                   <affiliation ref="#senate.SE09"
                                role="member"
@@ -40255,6 +40598,7 @@
                      <forename>Radovan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1964-12-25"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6495</idno>
                   <affiliation ref="#subcommittee.PAMO.1367"
                                role="viceChairman"
@@ -40296,6 +40640,7 @@
                      <forename>René</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1974-12-10"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6188</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.IRN.1285"
                                role="member"
@@ -40404,9 +40749,10 @@
                      <forename>Richard</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1966-07-05"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6184</idno>
-                  <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/richard-brabec-115401/</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/richard-brabec-167027/</idno>
+                  <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/richard-brabec-115401/</idno>
                   <affiliation ref="#government.VladaCR.1494"
                                role="minister"
                                from="2018-06-27T09:00:00"/>
@@ -40471,6 +40817,7 @@
                      <forename>Richard</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1970-08-13"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5456</idno>
                   <affiliation ref="#commission.VKUOOZ.1282"
                                role="member"
@@ -40615,6 +40962,7 @@
                      <forename>Robert</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1977-02-11"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6509</idno>
                   <affiliation ref="#commission.SKHH.1520"
                                role="chairman"
@@ -40705,6 +41053,7 @@
                      <forename>Robert</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1979-10-18"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6318</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/robert-pelikan-127618/</idno>
                   <affiliation ref="#government.VladaCR.1338"
@@ -40741,9 +41090,10 @@
                      <forename>Robert</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1978-07-21"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6549</idno>
-                  <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/robert-plaga-162049/</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/robert-plaga-167020/</idno>
+                  <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/robert-plaga-162049/</idno>
                   <affiliation ref="#government.VladaCR.1494"
                                role="minister"
                                from="2018-06-27T09:00:00"/>
@@ -40765,6 +41115,7 @@
                      <forename>Robin</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1976-11-23"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5342</idno>
                   <affiliation ref="#subcommittee.PVV.1248"
                                role="member"
@@ -40989,6 +41340,7 @@
                      <forename>Rom</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1949-03-13"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5940</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.SC.1262"
                                role="member"
@@ -41157,6 +41509,7 @@
                      <forename>Roman</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1963-05-06"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6215</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.PE.1516"
                                role="member"
@@ -41283,6 +41636,7 @@
                      <forename>Roman</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1965-11-11"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6532</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.QA.1509"
                                role="member"
@@ -41342,6 +41696,7 @@
                      <forename>Roman</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1968-11-23"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6235</idno>
                   <affiliation ref="#institution.NKU.422" role="member" from="2018-01-17T00:00:00"/>
                   <affiliation ref="#institution.NKU.422" role="member" from="2018-01-17T00:00:00"/>
@@ -41428,6 +41783,7 @@
                      <forename>Roman</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1964-02-04"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6662</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/roman-prymula-183696/</idno>
                   <affiliation ref="#government.VladaCR.1494"
@@ -41445,6 +41801,7 @@
                      <forename>Roman</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1970-07-23"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5965</idno>
                   <affiliation ref="#committee.KV.1306"
                                role="viceChairman"
@@ -41575,6 +41932,7 @@
                      <forename>Roman</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1966-11-01"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5980</idno>
                   <affiliation ref="#supervisoryBoard.DZVZP.439"
                                role="replacement"
@@ -41769,6 +42127,7 @@
                      <forename>Rostislav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1952-12-03"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6161</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.NL.1503"
                                role="member"
@@ -41862,6 +42221,7 @@
                      <forename>Simeon</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1963-12-19"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6208</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.BG.1175"
                                role="member"
@@ -41978,6 +42338,7 @@
                      <forename>Soňa</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1963-02-25"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5290</idno>
                   <affiliation ref="#boardOfDirectors.SRVZP.438"
                                role="member"
@@ -42264,6 +42625,7 @@
                      <forename>Stanislav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1956-05-31"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6143</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.AFG.1517"
                                role="member"
@@ -42427,6 +42789,7 @@
                      <forename>Stanislav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1969-12-13"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6438</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.XJA.1460"
                                role="member"
@@ -42478,6 +42841,7 @@
                      <forename>Stanislav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1956-12-25"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6451</idno>
                   <affiliation ref="#committee.VVVKM.1314"
                                role="viceChairman"
@@ -42511,6 +42875,7 @@
                      <forename>Stanislav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1964-07-25"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=4778</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.IQ.1511"
                                role="chairman"
@@ -42850,6 +43215,7 @@
                      <forename>Stanislav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1955-07-30"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5921</idno>
                   <affiliation ref="#subcommittee.PPCR.1201"
                                role="viceChairman"
@@ -42942,6 +43308,7 @@
                      <forename>Stanislav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1956-01-24"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5847</idno>
                   <affiliation ref="#commission.DKCOVID.1518"
                                role="member"
@@ -42998,6 +43365,7 @@
                      <forename>Stanislav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1967-03-11"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6220</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.BY.1261"
                                role="member"
@@ -43066,6 +43434,7 @@
                      <forename>Stanislav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1958-05-14"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6230</idno>
                   <affiliation ref="#committee.HV.1123"
                                role="viceChairman"
@@ -43130,6 +43499,7 @@
                      <forename>Stanislav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1980-02-21"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5956</idno>
                   <affiliation ref="#europeanParliament.EP.1512"
                                role="member"
@@ -43249,6 +43619,7 @@
                      <forename>Stanislav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1954-08-23"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6423</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/stanislav-stech-157642/</idno>
                   <affiliation ref="#government.VladaCR.1164"
@@ -43266,6 +43637,7 @@
                      <forename>Štěpán</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1976-03-09"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6238</idno>
                   <affiliation ref="#committee.UPV.1124"
                                role="member"
@@ -43334,6 +43706,7 @@
                      <forename>Svatopluk</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1972-02-23"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6249</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/svatopluk-nemecek-115398/</idno>
                   <affiliation ref="#government.VladaCR.1164"
@@ -43351,6 +43724,7 @@
                      <forename>Taťána</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1981-10-01"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6468</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/tatana-mala-167021/</idno>
                   <affiliation ref="#commission.SKGIBS.1323"
@@ -43454,6 +43828,7 @@
                      <forename>Tereza</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1995-02-23"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6456</idno>
                   <affiliation ref="#politicalGroup.Nezaraz.1500"
                                role="member"
@@ -43547,6 +43922,7 @@
                      <forename>Tomáš</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1975-12-10"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6452</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.PE.1516"
                                role="member"
@@ -43638,6 +44014,7 @@
                      <forename>Tomáš</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1959-06-26"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6546</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/tomas-huner-162039/</idno>
                   <affiliation ref="#government.VladaCR.1338"
@@ -43655,6 +44032,7 @@
                      <forename>Tomáš Jan</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1969-11-21"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6134</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.AM.1149"
                                role="member"
@@ -43703,6 +44081,7 @@
                      <forename>Tomáš</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1983-03-16"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6506</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.BH.1514"
                                role="member"
@@ -43769,6 +44148,7 @@
                      <forename>Tomáš</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1986-01-23"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6535</idno>
                   <affiliation ref="#subcommittee.PDCL.1354"
                                role="member"
@@ -43848,6 +44228,7 @@
                      <forename>Tomáš</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1981-09-27"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6590</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/tomas-petricek-167018/</idno>
                   <affiliation ref="#government.VladaCR.1494"
@@ -43863,6 +44244,7 @@
                      <forename>Tomáš</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1990-05-11"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6489</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.AFG.1517"
                                role="member"
@@ -43920,6 +44302,7 @@
                      <forename>Tomio</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1972-07-04"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6105</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.AFG.1517"
                                role="chairman"
@@ -44029,6 +44412,7 @@
                      <forename>Václav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1955-01-06"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5764</idno>
                   <affiliation ref="#senate.SE09"
                                role="member"
@@ -44061,6 +44445,7 @@
                      <forename>Václav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1956-08-17"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5919</idno>
                   <affiliation ref="#politicalGroup.TOP09-S.1112"
                                role="viceChairman"
@@ -44181,6 +44566,7 @@
                      <forename>Václav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1969-09-10"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6498</idno>
                   <affiliation ref="#politicalGroup.Nezaraz.1500"
                                role="member"
@@ -44233,6 +44619,7 @@
                      <forename>Václav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1953-07-20"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=68</idno>
                   <affiliation ref="#commission.VKD47.1258"
                                role="member"
@@ -44642,6 +45029,7 @@
                      <forename>Václav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1951-08-20"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5502</idno>
                   <affiliation ref="#subcommittee.PILK.1226"
                                role="viceChairman"
@@ -44798,6 +45186,7 @@
                      <forename>Václav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1959-06-25"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6424</idno>
                   <affiliation ref="#committee.VOV.1121"
                                role="member"
@@ -44826,6 +45215,7 @@
                      <forename>Václav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1956-06-18"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5272</idno>
                   <affiliation ref="#committee.VSR.1315" role="member" from="2019-11-27T00:00:00"/>
                   <affiliation ref="#committee.RV.1305" role="member" from="2019-04-17T00:00:00"/>
@@ -45137,6 +45527,7 @@
                      <forename>Václav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1974-04-13"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5989</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.ROMD.1260"
                                role="member"
@@ -45409,6 +45800,7 @@
                      <forename>Věra</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1954-10-19"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6254</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.ISR.1447"
                                role="member"
@@ -45482,6 +45874,7 @@
                      <forename>Věra</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1964-08-18"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6203</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/vera-jourova-115400/</idno>
                   <idno type="URI">http://ec.europa.eu/commission/2014-2019/jourova_cs</idno>
@@ -45516,6 +45909,7 @@
                      <forename>Věra</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1964-01-20"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6214</idno>
                   <affiliation ref="#commission.DKCOVID.1518"
                                role="verifier"
@@ -45645,6 +46039,7 @@
                      <forename>Věra</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1954-04-03"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6472</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.AFG.1517"
                                role="member"
@@ -45719,6 +46114,7 @@
                      <forename>Veronika</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1965-09-08"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6052</idno>
                   <affiliation ref="#europeanParliament.EP.1512"
                                role="member"
@@ -45807,6 +46203,7 @@
                      <forename>Vít</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1970-02-05"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6207</idno>
                   <affiliation ref="#subcommittee.PNLP.1349"
                                role="member"
@@ -45864,6 +46261,7 @@
                      <forename>Vít</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1978-06-16"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6524</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.BH.1514"
                                role="member"
@@ -45913,6 +46311,7 @@
                      <forename>Vítězslav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1947-08-03"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5402</idno>
                   <affiliation ref="#institution.RCR.425" role="member" from="2017-06-07T00:00:00"/>
                   <affiliation ref="#interparliamentaryFriendshipGroup.HR.1194"
@@ -46074,6 +46473,7 @@
                      <forename>Vladimír</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1964-02-23"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5313</idno>
                   <affiliation ref="#institution.NKU.422" role="member" from="2018-11-14T00:00:00"/>
                   <affiliation ref="#institution.NKU.422" role="member" from="2018-11-14T00:00:00"/>
@@ -46413,6 +46813,7 @@
                      <forename>Vladimír</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1972-12-09"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6622</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/vladimir-kremlik-173245/</idno>
                   <affiliation ref="#government.VladaCR.1494"
@@ -46430,6 +46831,7 @@
                      <forename>Vladimír</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1965-05-29"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5209</idno>
                   <affiliation ref="#senate.SE09"
                                role="member"
@@ -46482,6 +46884,7 @@
                      <forename>Vladislav</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1963-07-05"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5520</idno>
                   <affiliation ref="#senate.SE12" role="member" from="2018-10-13T14:00:00"/>
                   <affiliation ref="#senate.SE13" role="member" from="2018-10-13T14:00:00"/>
@@ -46608,6 +47011,7 @@
                      <forename>Vlasta</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1957-09-18"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5447</idno>
                   <affiliation ref="#committee.VOV.1121"
                                role="member"
@@ -46804,6 +47208,7 @@
                      <forename>Vlastimil</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1978-04-26"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6268</idno>
                   <affiliation ref="#subcommittee.PLVH.1244"
                                role="member"
@@ -46840,6 +47245,7 @@
                      <forename>Vlastimil</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1956-10-25"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6117</idno>
                   <idno type="URI">https://www.vlada.cz/cz/clenove-vlady/ing--vlastimil-picek-104468/</idno>
                   <affiliation ref="#government.VladaCR.1103"
@@ -46865,6 +47271,7 @@
                      <forename>Vlastimil</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1960-05-17"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6482</idno>
                   <affiliation ref="#politicalGroup.TOP09.1299"
                                role="chairman"
@@ -46939,6 +47346,7 @@
                      <forename>Vlastimil</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1954-03-20"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6162</idno>
                   <affiliation ref="#subcommittee.PE.1224"
                                role="viceChairman"
@@ -46983,6 +47391,7 @@
                      <forename>Vojtěch</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1950-09-12"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5768</idno>
                   <affiliation ref="#subcommittee.POZPVP.1161"
                                role="member"
@@ -47079,6 +47488,7 @@
                      <forename>Vojtěch</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1955-01-13"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=303</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.MD.1515"
                                role="chairman"
@@ -47715,6 +48125,7 @@
                      <forename>Vojtěch</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1976-12-19"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6486</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.PE.1516"
                                role="member"
@@ -47769,6 +48180,7 @@
                      <forename>Vojtěch</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1987-02-19"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6531</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.MD.1515"
                                role="member"
@@ -47843,6 +48255,7 @@
                      <forename>Zbyněk</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1964-02-15"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5969</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.MA.1507"
                                role="member"
@@ -48005,6 +48418,7 @@
                      <forename>Zdeněk</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1971-12-01"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=5897</idno>
                   <affiliation ref="#commission.SKFAU.1279"
                                role="viceChairman"
@@ -48228,6 +48642,7 @@
                      <forename>Zdeněk</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1969-07-28"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6224</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.MD.1515"
                                role="member"
@@ -48373,6 +48788,7 @@
                      <forename>Zdeněk</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1953-04-12"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6530</idno>
                   <affiliation ref="#committee.ZEV.1319"
                                role="viceChairman"
@@ -48464,6 +48880,7 @@
                      <forename>Zdeněk</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1952-12-06"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6237</idno>
                   <affiliation ref="#committee.VEZ.1122"
                                role="member"
@@ -48528,6 +48945,7 @@
                      <forename>Zdeněk</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1956-05-07"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6284</idno>
                   <affiliation ref="#commission.SKFAU.1279"
                                role="member"
@@ -48572,6 +48990,7 @@
                      <forename>Zdeněk</forename>
                   </persName>
                   <sex value="M">mužské</sex>
+                  <birth when="1968-07-02"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6132</idno>
                   <affiliation ref="#government.VladaCR.1103"
                                role="minister"
@@ -48588,6 +49007,7 @@
                      <forename>Zuzana</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1974-07-21"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6206</idno>
                   <affiliation ref="#commission.VK.1116"
                                role="member"
@@ -48708,6 +49128,7 @@
                      <forename>Zuzana</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1972-06-28"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6467</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.QA.1509"
                                role="member"
@@ -48792,6 +49213,7 @@
                      <forename>Zuzana</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1970-09-25"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6474</idno>
                   <affiliation ref="#subcommittee.PRT.1530"
                                role="member"
@@ -48839,6 +49261,7 @@
                      <forename>Zuzana</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1959-05-24"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6288</idno>
                   <affiliation ref="#committee.PV.1117"
                                role="member"
@@ -48875,6 +49298,7 @@
                      <forename>Zuzka</forename>
                   </persName>
                   <sex value="F">ženské</sex>
+                  <birth when="1951-01-13"/>
                   <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=312</idno>
                   <affiliation ref="#interparliamentaryFriendshipGroup.CU.1170"
                                role="member"

@@ -1,5 +1,5 @@
 <text id="ParlaMint-CZ_2013-11-25-ps2013-001-01-001-001.ana" subcorpus="Reference" term="ps2013" session="-" meeting="ps2013/001" sitting="ps2013/001/01" agenda="ps2013/001/001" from="2013-11-25" to="2013-11-25" title="Parliament of the Czech Republic, Chamber of Deputies">
-<speech id="ParlaMint-CZ_2013-11-25-ps2013-001-01-001-001.u1" speaker_id="MiroslavaNemcova.1952" speaker_name="Němcová, Miroslava" speaker_role="chair" speaker_type="MP" speaker_party="ODS" speaker_party_name="Občanská demokratická strana" speaker_gender="F" speaker_birth="?">
+<speech id="ParlaMint-CZ_2013-11-25-ps2013-001-01-001-001.u1" speaker_id="MiroslavaNemcova.1952" speaker_name="Němcová, Miroslava" speaker_role="chair" speaker_type="MP" speaker_party="ODS" speaker_party_name="Občanská demokratická strana" speaker_gender="F" speaker_birth="1952">
 <p id="ParlaMint-CZ_2013-11-25-ps2013-001-01-001-001.u1.p1">
 <s id="ParlaMint-CZ_2013-11-25-ps2013-001-01-001-001.u1.p1.s1">
 1	1	1	NUM	NumForm=Digit NumType=Card	w1	root	-	-	-	-
