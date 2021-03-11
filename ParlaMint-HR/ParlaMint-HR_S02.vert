@@ -1,5 +1,5 @@
 <text id="ParlaMint-HR_S02.ana" subcorpus="Reference" term="9" session="2" meeting="-" sitting="-" agenda="-" from="2016-11-29" to="2017-05-04" title="Minutes of the National Assembly of the Republic of Croatia, Term 9, Session 2 (2016-11-29 - 2017-05-04)">
-<speech id="ParlaMint-HR_S02.u1" speaker_id="PetrovBožo" speaker_name="Petrov, Božo" speaker_role="chair" speaker_type="MP" speaker_party="Most" speaker_party_name="Klub Mosta nezavisnih lista" speaker_gender="M" speaker_birth="1979">
+<speech id="ParlaMint-HR_S02.u1" speaker_id="PetrovBožo" speaker_name="Petrov, Božo" speaker_role="Chairperson" speaker_type="MP" speaker_party="Most" speaker_party_name="Klub Mosta nezavisnih lista" speaker_gender="M" speaker_birth="1979">
 <p id="seg21209">
 <s id="seg21209.1">
 Gospođe	Gospođe	gospođa	NOUN	Case=Nom Gender=Fem Number=Plur	1	nsubj	počinjati	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	5
@@ -77,7 +77,7 @@ Izvolite	Izvolite	izvoljeti	VERB	Mood=Imp Number=Plur Person=2 VerbForm=Fin	1	ro
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-HR_S02.u2" speaker_id="PupovacMilorad" speaker_name="Pupovac, Milorad" speaker_role="regular" speaker_type="MP" speaker_party="SDSS" speaker_party_name="Klub Samostalne demokratske srpske stranke" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-HR_S02.u2" speaker_id="PupovacMilorad" speaker_name="Pupovac, Milorad" speaker_role="Regular" speaker_type="MP" speaker_party="SDSS" speaker_party_name="Klub Samostalne demokratske srpske stranke" speaker_gender="M" speaker_birth="1955">
 <p id="seg21213">
 <s id="seg21213.1">
 Zahvaljujem	Zahvaljujem	zahvaljivati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
@@ -345,7 +345,7 @@ potrebe	potrebe	potreba	NOUN	Case=Gen Gender=Fem Number=Sing	76	nmod	osnova	NOUN
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-HR_S02.u3940" speaker_id="PetrovBožo" speaker_name="Petrov, Božo" speaker_role="chair" speaker_type="MP" speaker_party="Most" speaker_party_name="Klub Mosta nezavisnih lista" speaker_gender="M" speaker_birth="1979">
+<speech id="ParlaMint-HR_S02.u3940" speaker_id="PetrovBožo" speaker_name="Petrov, Božo" speaker_role="Chairperson" speaker_type="MP" speaker_party="Most" speaker_party_name="Klub Mosta nezavisnih lista" speaker_gender="M" speaker_birth="1979">
 <p id="seg42678">
 <s id="seg42678.1">
 Zahvaljujem	Zahvaljujem	zahvaljivati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
@@ -377,7 +377,7 @@ Panenić	Panenić	Panenić	PROPN	Case=Nom Gender=Masc Number=Sing	9	flat	Tomisla
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-HR_S02.u3941" speaker_id="PanenićTomislav" speaker_name="Panenić, Tomislav" speaker_role="regular" speaker_type="MP" speaker_party="NLM" speaker_party_name="Klub Nezavisne liste mladih" speaker_gender="M" speaker_birth="1973">
+<speech id="ParlaMint-HR_S02.u3941" speaker_id="PanenićTomislav" speaker_name="Panenić, Tomislav" speaker_role="Regular" speaker_type="MP" speaker_party="NLM" speaker_party_name="Klub Nezavisne liste mladih" speaker_gender="M" speaker_birth="1973">
 <p id="seg42681">
 <s id="seg42681.1">
 Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-

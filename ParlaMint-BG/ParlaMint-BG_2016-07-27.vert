@@ -1,5 +1,5 @@
 <text id="ParlaMint-BG_2016-07-27.ana" subcorpus="Reference" term="43" session="6" meeting="224" sitting="-" agenda="-" from="2016-07-27" to="2016-07-27" title="Report of the meeting of the Bulgarian National Assembly, Term 43, Session 6, Meeting 224 (2016-07-27)">
-<speech id="ParlaMint-BG_2016-07-27.u1" speaker_id="TsachevaTsetska" speaker_name="Цачева, Цецка" speaker_role="chair" speaker_type="notMP" speaker_party="_" speaker_party_name="_" speaker_gender="F" speaker_birth="1958">
+<speech id="ParlaMint-BG_2016-07-27.u1" speaker_id="TsachevaTsetska" speaker_name="Цачева, Цецка" speaker_role="Chairperson" speaker_type="notMP" speaker_party="_" speaker_party_name="_" speaker_gender="F" speaker_birth="1958">
 <p id="ParlaMint-BG_2016-07-27.seg1">
 <s id="ParlaMint-BG_2016-07-27.seg1.1">
 Налице	Налице	налице	ADV	Degree=Pos	1	root	-	-	-	-
@@ -1748,7 +1748,7 @@
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-BG_2016-07-27.u2" speaker_id="StoyanovaMenda" speaker_name="Кирилова Стоянова, Менда" speaker_role="regular" speaker_type="MP" speaker_party="ГЕРБ" speaker_party_name="Граждани за европейско развитие на България" speaker_gender="F" speaker_birth="1956">
+<speech id="ParlaMint-BG_2016-07-27.u2" speaker_id="StoyanovaMenda" speaker_name="Кирилова Стоянова, Менда" speaker_role="Regular" speaker_type="MP" speaker_party="ГЕРБ" speaker_party_name="Граждани за европейско развитие на България" speaker_gender="F" speaker_birth="1956">
 <p id="ParlaMint-BG_2016-07-27.seg39">
 <s id="ParlaMint-BG_2016-07-27.seg39.1">
 Благодаря	Благодаря	благодаря	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
@@ -3627,7 +3627,7 @@
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-BG_2016-07-27.u304" speaker_id="KirilovDanail" speaker_name="Димитров Кирилов, Данаил" speaker_role="regular" speaker_type="notMP" speaker_party="ГЕРБ" speaker_party_name="Граждани за европейско развитие на България" speaker_gender="M" speaker_birth="1970">
+<speech id="ParlaMint-BG_2016-07-27.u304" speaker_id="KirilovDanail" speaker_name="Димитров Кирилов, Данаил" speaker_role="Regular" speaker_type="notMP" speaker_party="ГЕРБ" speaker_party_name="Граждани за европейско развитие на България" speaker_gender="M" speaker_birth="1970">
 <p id="ParlaMint-BG_2016-07-27.seg1853">
 <s id="ParlaMint-BG_2016-07-27.seg1853.1">
 Да	Да	да	INTJ	_	1	discourse	подкрепя	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	4
@@ -3668,7 +3668,7 @@
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-BG_2016-07-27.u305" speaker_id="TsachevaTsetska" speaker_name="Цачева, Цецка" speaker_role="chair" speaker_type="notMP" speaker_party="_" speaker_party_name="_" speaker_gender="F" speaker_birth="1958">
+<speech id="ParlaMint-BG_2016-07-27.u305" speaker_id="TsachevaTsetska" speaker_name="Цачева, Цецка" speaker_role="Chairperson" speaker_type="notMP" speaker_party="_" speaker_party_name="_" speaker_gender="F" speaker_birth="1958">
 <p id="ParlaMint-BG_2016-07-27.seg1855">
 <s id="ParlaMint-BG_2016-07-27.seg1855.1">
 Точно	Точно	точно	ADV	Degree=Pos	1	advmod	така	ADV	PronType=Dem	2

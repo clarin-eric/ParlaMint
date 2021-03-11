@@ -1,5 +1,5 @@
 <text id="ParlaMint-SI_2018-04-13-SDZ7-Izredna-59.ana" subcorpus="Reference" term="7" session="-" meeting="59" sitting="-" agenda="-" from="2018-04-13" to="2018-04-13" title="Minutes of the National Assembly of the Republic of Slovenia, Term 7, Extraordinary Session 59, 13.4.2018">
-<speech id="ParlaMint-SI_2018-04-13-SDZ7-Izredna-59.u1" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_role="chair" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka modernega centra" speaker_gender="M" speaker_birth="1967">
+<speech id="ParlaMint-SI_2018-04-13-SDZ7-Izredna-59.u1" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_role="Chairperson" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka modernega centra" speaker_gender="M" speaker_birth="1967">
 <p id="ParlaMint-SI_2018-04-13-SDZ7-Izredna-59.seg1">
 <s id="ParlaMint-SI_2018-04-13-SDZ7-Izredna-59.seg1.1">
 Spoštovani	Spoštovani	spoštovan	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Plur VerbForm=Part	1	amod	kolegica	NOUN	Case=Nom Gender=Fem Number=Plur	2
@@ -523,7 +523,7 @@ minut	minut	minuta	NOUN	Case=Gen Gender=Fem Number=Plur	18	conj	ura	NOUN	Case=Lo
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-SI_2018-04-13-SDZ7-Izredna-59.u2" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_role="chair" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka modernega centra" speaker_gender="M" speaker_birth="1967">
+<speech id="ParlaMint-SI_2018-04-13-SDZ7-Izredna-59.u2" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_role="Chairperson" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka modernega centra" speaker_gender="M" speaker_birth="1967">
 <p id="ParlaMint-SI_2018-04-13-SDZ7-Izredna-59.seg9">
 <s id="ParlaMint-SI_2018-04-13-SDZ7-Izredna-59.seg9.1">
 Spoštovani	Spoštovani	spoštovan	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Plur VerbForm=Part	1	amod	kolegica	NOUN	Case=Nom Gender=Fem Number=Plur	2

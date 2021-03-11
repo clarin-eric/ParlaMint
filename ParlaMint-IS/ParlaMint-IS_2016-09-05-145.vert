@@ -1,5 +1,5 @@
 <text id="ParlaMint-IS_2016-09-05-145.ana" subcorpus="Reference" term="21" session="145" meeting="145" sitting="-" agenda="-" from="2016-09-05" to="2016-09-05" title="Speeches in the national parliament of Iceland, 21. term, regular meeting 145-145, 05.09.2016.">
-<speech id="ParlaMint-IS_2016-09-05-145.u1" speaker_id="EinarGudfinnsson1955" speaker_name="Guðfinnsson, Einar K." speaker_role="chair" speaker_type="MP" speaker_party="S" speaker_party_name="Sjálfstæðisflokkur" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-IS_2016-09-05-145.u1" speaker_id="EinarGudfinnsson1955" speaker_name="Guðfinnsson, Einar K." speaker_role="Chairperson" speaker_type="MP" speaker_party="S" speaker_party_name="Sjálfstæðisflokkur" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-IS_2016-09-05-145.seg1">
 <s id="ParlaMint-IS_2016-09-05-145.seg1.1">
 Á	Á	á	ADP	_	1	case	þingfundur	NOUN	Case=Dat Definite=Ind Gender=Masc Number=Sing	2
@@ -55,7 +55,7 @@ leiðrétt	leiðrétt	leiðrétta	NOUN	Case=Nom Definite=Ind Gender=Fem Number=S
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-IS_2016-09-05-145.u2" speaker_id="EinarGudfinnsson1955" speaker_name="Guðfinnsson, Einar K." speaker_role="chair" speaker_type="MP" speaker_party="S" speaker_party_name="Sjálfstæðisflokkur" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-IS_2016-09-05-145.u2" speaker_id="EinarGudfinnsson1955" speaker_name="Guðfinnsson, Einar K." speaker_role="Chairperson" speaker_type="MP" speaker_party="S" speaker_party_name="Sjálfstæðisflokkur" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-IS_2016-09-05-145.seg2">
 <s id="ParlaMint-IS_2016-09-05-145.seg2.1">
 Til	Til	til	ADP	_	1	case	svar	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
@@ -96,7 +96,7 @@ húsnæðismálaráðherra	húsnæðismálaráðherra	húsnæðismálaráðherra
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-IS_2016-09-05-145.u55" speaker_id="HelgiGunnarsson" speaker_name="Gunnarsson, Helgi Hrafn" speaker_role="regular topic.145_828_M" speaker_type="MP" speaker_party="P" speaker_party_name="Píratar" speaker_gender="M" speaker_birth="1980">
+<speech id="ParlaMint-IS_2016-09-05-145.u55" speaker_id="HelgiGunnarsson" speaker_name="Gunnarsson, Helgi Hrafn" speaker_role="Regular" speaker_type="MP" speaker_party="P" speaker_party_name="Píratar" speaker_gender="M" speaker_birth="1980">
 <p id="ParlaMint-IS_2016-09-05-145.seg149">
 <s id="ParlaMint-IS_2016-09-05-145.seg149.1">
 Virðulegi	Virðulegi	virðulegur	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing	1	amod	forseti	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	2
@@ -490,7 +490,7 @@ er	er	vera	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-IS_2016-09-05-145.u56" speaker_id="OlofNordal" speaker_name="Nordal, Ólöf" speaker_role="regular topic.145_828_M" speaker_type="notMP" speaker_party="_" speaker_party_name="_" speaker_gender="F" speaker_birth="1966">
+<speech id="ParlaMint-IS_2016-09-05-145.u56" speaker_id="OlofNordal" speaker_name="Nordal, Ólöf" speaker_role="Regular" speaker_type="notMP" speaker_party="_" speaker_party_name="_" speaker_gender="F" speaker_birth="1966">
 <p id="ParlaMint-IS_2016-09-05-145.seg152">
 <s id="ParlaMint-IS_2016-09-05-145.seg152.1">
 Hæstv.	Hæstv.	Hæstv.	ADJ	_	1	amod	forseti	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	2

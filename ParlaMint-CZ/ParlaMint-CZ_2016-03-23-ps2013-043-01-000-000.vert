@@ -1,5 +1,5 @@
 <text id="ParlaMint-CZ_2016-03-23-ps2013-043-01-000-000.ana" subcorpus="Reference" term="ps2013" session="-" meeting="ps2013/043" sitting="ps2013/043/01" agenda="ps2013/043/000" from="2016-03-23" to="2016-03-23" title="Parliament of the Czech Republic, Chamber of Deputies">
-<speech id="ParlaMint-CZ_2016-03-23-ps2013-043-01-000-000.u1" speaker_id="JaroslavaPokornaJermanova.1970" speaker_name="Pokorná Jermanová, Jaroslava" speaker_role="chair" speaker_type="MP" speaker_party="ANO2011" speaker_party_name="ANO2011" speaker_gender="F" speaker_birth="1970">
+<speech id="ParlaMint-CZ_2016-03-23-ps2013-043-01-000-000.u1" speaker_id="JaroslavaPokornaJermanova.1970" speaker_name="Pokorná Jermanová, Jaroslava" speaker_role="Chairperson" speaker_type="MP" speaker_party="ANO2011" speaker_party_name="ANO2011" speaker_gender="F" speaker_birth="1970">
 <p id="ParlaMint-CZ_2016-03-23-ps2013-043-01-000-000.u1.p1">
 <s id="ParlaMint-CZ_2016-03-23-ps2013-043-01-000-000.u1.p1.s1">
 Vážené	Vážené	vážený	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur Polarity=Pos	w1	amod	paní	NOUN	Case=Nom Gender=Fem Number=Plur Polarity=Pos	w2
@@ -587,7 +587,7 @@ slovo	slovo	slovo	NOUN	Case=Acc Gender=Neut Number=Sing Polarity=Pos	w4	obj	mít
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-CZ_2016-03-23-ps2013-043-01-000-000.u2" speaker_id="ZbynekStanjura.1964" speaker_name="Stanjura, Zbyněk" speaker_role="regular" speaker_type="MP" speaker_party="ODS" speaker_party_name="Občanská demokratická strana" speaker_gender="M" speaker_birth="1964">
+<speech id="ParlaMint-CZ_2016-03-23-ps2013-043-01-000-000.u2" speaker_id="ZbynekStanjura.1964" speaker_name="Stanjura, Zbyněk" speaker_role="Regular" speaker_type="MP" speaker_party="ODS" speaker_party_name="Občanská demokratická strana" speaker_gender="M" speaker_birth="1964">
 <p id="ParlaMint-CZ_2016-03-23-ps2013-043-01-000-000.u2.p1">
 <s id="ParlaMint-CZ_2016-03-23-ps2013-043-01-000-000.u2.p1.s1">
 Nevadí	Nevadí	vadit	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-
@@ -935,7 +935,7 @@ schůze	schůze	schůze	NOUN	Case=Gen Gender=Fem Number=Sing Polarity=Pos	w31	nm
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-CZ_2016-03-23-ps2013-043-01-000-000.u40" speaker_id="MarekCernoch.1969" speaker_name="Černoch, Marek" speaker_role="regular" speaker_type="MP" speaker_party="Usvit" speaker_party_name="Úsvit přímé demokracie Tomia Okamury" speaker_gender="M" speaker_birth="1969">
+<speech id="ParlaMint-CZ_2016-03-23-ps2013-043-01-000-000.u40" speaker_id="MarekCernoch.1969" speaker_name="Černoch, Marek" speaker_role="Regular" speaker_type="MP" speaker_party="Usvit" speaker_party_name="Úsvit přímé demokracie Tomia Okamury" speaker_gender="M" speaker_birth="1969">
 <p id="ParlaMint-CZ_2016-03-23-ps2013-043-01-000-000.u40.p1">
 <s id="ParlaMint-CZ_2016-03-23-ps2013-043-01-000-000.u40.p1.s1">
 Hezký	Hezký	hezký	ADJ	Animacy=Inan Case=Nom Degree=Pos Gender=Masc Number=Sing Polarity=Pos	w1	amod	podvečer	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing Polarity=Pos	w2
@@ -2767,7 +2767,7 @@ Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-CZ_2016-03-23-ps2013-043-01-000-000.u41" speaker_id="PetrGazdik.1974" speaker_name="Gazdík, Petr" speaker_role="chair" speaker_type="MP" speaker_party="TOP09" speaker_party_name="TOP 09" speaker_gender="M" speaker_birth="1974">
+<speech id="ParlaMint-CZ_2016-03-23-ps2013-043-01-000-000.u41" speaker_id="PetrGazdik.1974" speaker_name="Gazdík, Petr" speaker_role="Chairperson" speaker_type="MP" speaker_party="TOP09" speaker_party_name="TOP 09" speaker_gender="M" speaker_birth="1974">
 <p id="ParlaMint-CZ_2016-03-23-ps2013-043-01-000-000.u41.p1">
 <s id="ParlaMint-CZ_2016-03-23-ps2013-043-01-000-000.u41.p1.s1">
 Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-

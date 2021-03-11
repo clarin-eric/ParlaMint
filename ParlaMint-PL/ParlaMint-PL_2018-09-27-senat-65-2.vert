@@ -1,5 +1,5 @@
 <text id="ParlaMint-PL_2018-09-27-senat-65-2.ana" subcorpus="Reference" term="9-upper" session="65-upper" meeting="-" sitting="2-upper" agenda="-" from="2018-09-27" to="2018-09-27" title="Report of the session of the Senat of the Republic of Poland, Term 9, Session 65, Day 2 (2018-09-27)">
-<speech id="ParlaMint-PL_2018-09-27-senat-65-2.u1" speaker_id="KuchcińskiMarek" speaker_name="Kuchciński, Marek" speaker_role="chair" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-PL_2018-09-27-senat-65-2.u1" speaker_id="KuchcińskiMarek" speaker_name="Kuchciński, Marek" speaker_role="Chairperson" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" speaker_gender="M" speaker_birth="1955">
 <p id="seg747084">
 <s id="seg747084.1">
 Wznawiam	Wznawiam	wznawiać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
@@ -395,7 +395,7 @@ Senatorze	Senatorze	senator	PROPN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	5
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-PL_2018-09-27-senat-65-2.u2" speaker_id="ŻarynJan" speaker_name="Żaryn, Jan" speaker_role="regular" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" speaker_gender="M" speaker_birth="1958">
+<speech id="ParlaMint-PL_2018-09-27-senat-65-2.u2" speaker_id="ŻarynJan" speaker_name="Żaryn, Jan" speaker_role="Regular" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" speaker_gender="M" speaker_birth="1958">
 <p id="seg747099">
 <s id="seg747099.1">
 Panie	Panie	pan	NOUN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	1	vocative	-	-	-	-
@@ -564,7 +564,7 @@ poklaskać	poklaskać	poklaskać	VERB	Aspect=Imp VerbForm=Inf Voice=Act	4	xcomp	
 /Oklaski/	_	_	_	_	_	_	_	_	_	_
 </note>
 </speech>
-<speech id="ParlaMint-PL_2018-09-27-senat-65-2.u356" speaker_id="RadziwiłłKonstanty" speaker_name="Radziwiłł, Konstanty" speaker_role="regular" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" speaker_gender="M" speaker_birth="1958">
+<speech id="ParlaMint-PL_2018-09-27-senat-65-2.u356" speaker_id="RadziwiłłKonstanty" speaker_name="Radziwiłł, Konstanty" speaker_role="Regular" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" speaker_gender="M" speaker_birth="1958">
 <p id="seg747831">
 <s id="seg747831.1">
 (	(	(	PUNCT	PunctSide=Ini PunctType=Brck	1	punct	mieć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	3
@@ -580,7 +580,7 @@ rządu	rządu	rząd	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	5	nmod_ar
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-PL_2018-09-27-senat-65-2.u357" speaker_id="BielanAdam" speaker_name="Bielan, Adam" speaker_role="chair" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" speaker_gender="M" speaker_birth="1974">
+<speech id="ParlaMint-PL_2018-09-27-senat-65-2.u357" speaker_id="BielanAdam" speaker_name="Bielan, Adam" speaker_role="Chairperson" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" speaker_gender="M" speaker_birth="1974">
 <p id="seg747832">
 <s id="seg747832.1">
 Otwieram	Otwieram	otwierać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-

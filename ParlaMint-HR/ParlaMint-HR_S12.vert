@@ -1,5 +1,5 @@
 <text id="ParlaMint-HR_S12.ana" subcorpus="Reference" term="9" session="12" meeting="-" sitting="-" agenda="-" from="2019-05-09" to="2019-07-18" title="Minutes of the National Assembly of the Republic of Croatia, Term 9, Session 12 (2019-05-09 - 2019-07-18)">
-<speech id="ParlaMint-HR_S12.u1" speaker_id="JandrokovićGordan" speaker_name="Jandroković, Gordan" speaker_role="chair" speaker_type="MP" speaker_party="HDZ" speaker_party_name="Klub Hrvatske demokratske zajednice" speaker_gender="M" speaker_birth="1967">
+<speech id="ParlaMint-HR_S12.u1" speaker_id="JandrokovićGordan" speaker_name="Jandroković, Gordan" speaker_role="Chairperson" speaker_type="MP" speaker_party="HDZ" speaker_party_name="Klub Hrvatske demokratske zajednice" speaker_gender="M" speaker_birth="1967">
 <p id="seg483205">
 <s id="seg483205.1">
 g.	g.	g.	NOUN	_	1	obl	misliti	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	12
@@ -81,7 +81,7 @@ Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-HR_S12.u2" speaker_id="JandrokovićGordan" speaker_name="Jandroković, Gordan" speaker_role="chair" speaker_type="MP" speaker_party="HDZ" speaker_party_name="Klub Hrvatske demokratske zajednice" speaker_gender="M" speaker_birth="1967">
+<speech id="ParlaMint-HR_S12.u2" speaker_id="JandrokovićGordan" speaker_name="Jandroković, Gordan" speaker_role="Chairperson" speaker_type="MP" speaker_party="HDZ" speaker_party_name="Klub Hrvatske demokratske zajednice" speaker_gender="M" speaker_birth="1967">
 <p id="seg483207">
 <s id="seg483207.1">
 Kolega	Kolega	kolega	NOUN	Case=Nom Gender=Masc Number=Sing	1	root	-	-	-	-
@@ -267,7 +267,7 @@ izvolite	izvolite	izvoljeti	VERB	Mood=Imp Number=Plur Person=2 VerbForm=Fin	16	c
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-HR_S12.u8641" speaker_id="BaukArsen" speaker_name="Bauk, Arsen" speaker_role="regular" speaker_type="MP" speaker_party="SDP" speaker_party_name="Klub Socijaldemokratske partije Hrvatske" speaker_gender="M" speaker_birth="1973">
+<speech id="ParlaMint-HR_S12.u8641" speaker_id="BaukArsen" speaker_name="Bauk, Arsen" speaker_role="Regular" speaker_type="MP" speaker_party="SDP" speaker_party_name="Klub Socijaldemokratske partije Hrvatske" speaker_gender="M" speaker_birth="1973">
 <p id="seg526077">
 <s id="seg526077.1">
 Gospodine	Gospodine	gospodin	NOUN	Case=Voc Gender=Masc Number=Sing	1	obj	čekanje	NOUN	Case=Loc Gender=Neut Number=Sing	11
@@ -342,7 +342,7 @@ Zahvaljujem	Zahvaljujem	zahvaljivati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pr
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-HR_S12.u8642" speaker_id="BrkićMilijan" speaker_name="Brkić, Milijan" speaker_role="chair" speaker_type="MP" speaker_party="HDZ" speaker_party_name="Klub Hrvatske demokratske zajednice" speaker_gender="M" speaker_birth="1970">
+<speech id="ParlaMint-HR_S12.u8642" speaker_id="BrkićMilijan" speaker_name="Brkić, Milijan" speaker_role="Chairperson" speaker_type="MP" speaker_party="HDZ" speaker_party_name="Klub Hrvatske demokratske zajednice" speaker_gender="M" speaker_birth="1970">
 <p id="seg526080">
 <s id="seg526080.1">
 Zahvaljujem	Zahvaljujem	zahvaljivati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	parataxis	moći	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part Voice=Act	3

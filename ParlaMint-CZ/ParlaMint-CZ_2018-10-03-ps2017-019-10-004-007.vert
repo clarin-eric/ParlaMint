@@ -1,5 +1,5 @@
 <text id="ParlaMint-CZ_2018-10-03-ps2017-019-10-004-007.ana" subcorpus="Reference" term="ps2017" session="-" meeting="ps2017/019" sitting="ps2017/019/10" agenda="ps2017/019/007" from="2018-10-03" to="2018-10-03" title="Parliament of the Czech Republic, Chamber of Deputies">
-<speech id="ParlaMint-CZ_2018-10-03-ps2017-019-10-004-007.u1" speaker_id="VojtechFilip.1955" speaker_name="Filip, Vojtěch" speaker_role="chair" speaker_type="MP" speaker_party="KSCM" speaker_party_name="Komunistická strana Čech a Moravy" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-CZ_2018-10-03-ps2017-019-10-004-007.u1" speaker_id="VojtechFilip.1955" speaker_name="Filip, Vojtěch" speaker_role="Chairperson" speaker_type="MP" speaker_party="KSCM" speaker_party_name="Komunistická strana Čech a Moravy" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-CZ_2018-10-03-ps2017-019-10-004-007.u1.p1">
 <s id="ParlaMint-CZ_2018-10-03-ps2017-019-10-004-007.u1.p1.s1">
 7	7	7	NUM	NumForm=Digit NumType=Card	w1	root	-	-	-	-
@@ -253,7 +253,7 @@ slovo	slovo	slovo	NOUN	Case=Acc Gender=Neut Number=Sing Polarity=Pos	w5	obj	mít
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-CZ_2018-10-03-ps2017-019-10-004-007.u2" speaker_id="KaterinaValachova.1976" speaker_name="Valachová, Kateřina" speaker_role="regular" speaker_type="MP" speaker_party="CSSD" speaker_party_name="Česká strana sociálně demokratická" speaker_gender="F" speaker_birth="1976">
+<speech id="ParlaMint-CZ_2018-10-03-ps2017-019-10-004-007.u2" speaker_id="KaterinaValachova.1976" speaker_name="Valachová, Kateřina" speaker_role="Regular" speaker_type="MP" speaker_party="CSSD" speaker_party_name="Česká strana sociálně demokratická" speaker_gender="F" speaker_birth="1976">
 <p id="ParlaMint-CZ_2018-10-03-ps2017-019-10-004-007.u2.p1">
 <s id="ParlaMint-CZ_2018-10-03-ps2017-019-10-004-007.u2.p1.s1">
 Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-
@@ -1113,7 +1113,7 @@ Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-CZ_2018-10-03-ps2017-019-10-004-007.u51" speaker_id="JiriBlaha.1961" speaker_name="Bláha, Jiří" speaker_role="regular" speaker_type="MP" speaker_party="ANO2011" speaker_party_name="ANO2011" speaker_gender="M" speaker_birth="1961">
+<speech id="ParlaMint-CZ_2018-10-03-ps2017-019-10-004-007.u51" speaker_id="JiriBlaha.1961" speaker_name="Bláha, Jiří" speaker_role="Regular" speaker_type="MP" speaker_party="ANO2011" speaker_party_name="ANO2011" speaker_gender="M" speaker_birth="1961">
 <p id="ParlaMint-CZ_2018-10-03-ps2017-019-10-004-007.u51.p1">
 <s id="ParlaMint-CZ_2018-10-03-ps2017-019-10-004-007.u51.p1.s1">
 Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-
@@ -1295,7 +1295,7 @@ Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-CZ_2018-10-03-ps2017-019-10-004-007.u52" speaker_id="PetrFiala.1964" speaker_name="Fiala, Petr" speaker_role="chair" speaker_type="MP" speaker_party="ODS" speaker_party_name="Občanská demokratická strana" speaker_gender="M" speaker_birth="1964">
+<speech id="ParlaMint-CZ_2018-10-03-ps2017-019-10-004-007.u52" speaker_id="PetrFiala.1964" speaker_name="Fiala, Petr" speaker_role="Chairperson" speaker_type="MP" speaker_party="ODS" speaker_party_name="Občanská demokratická strana" speaker_gender="M" speaker_birth="1964">
 <p id="ParlaMint-CZ_2018-10-03-ps2017-019-10-004-007.u52.p1">
 <s id="ParlaMint-CZ_2018-10-03-ps2017-019-10-004-007.u52.p1.s1">
 Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-

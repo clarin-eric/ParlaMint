@@ -1,5 +1,5 @@
 <text id="ParlaMint-BG_2018-09-26.ana" subcorpus="Reference" term="44" session="5" meeting="177" sitting="-" agenda="-" from="2018-09-26" to="2018-09-26" title="Report of the meeting of the Bulgarian National Assembly, Term 44, Session 5, Meeting 177 (2018-09-26)">
-<speech id="ParlaMint-BG_2018-09-26.u1" speaker_id="KarayanchevaTsveta" speaker_name="Вълчева Караянчева, Цвета" speaker_role="chair" speaker_type="MP" speaker_party="ГЕРБ" speaker_party_name="Граждани за европейско развитие на България" speaker_gender="F" speaker_birth="1968">
+<speech id="ParlaMint-BG_2018-09-26.u1" speaker_id="KarayanchevaTsveta" speaker_name="Вълчева Караянчева, Цвета" speaker_role="Chairperson" speaker_type="MP" speaker_party="ГЕРБ" speaker_party_name="Граждани за европейско развитие на България" speaker_gender="F" speaker_birth="1968">
 <note type="kinesic:ringing">
 /звъни/	_	_	_	_	_	_	_	_	_	_
 </note>
@@ -1173,7 +1173,7 @@ BlackSea4Fish	BlackSea4Fish	blacksea4fish	PROPN	Definite=Ind Gender=Masc Number=
 /Всички стават./	_	_	_	_	_	_	_	_	_	_
 </note>
 </speech>
-<speech id="ParlaMint-BG_2018-09-26.u2" speaker_id="IvanovStanislav" speaker_name="Стоянов Иванов, Станислав" speaker_role="regular" speaker_type="MP" speaker_party="ГЕРБ" speaker_party_name="Граждани за европейско развитие на България" speaker_gender="M" speaker_birth="1973">
+<speech id="ParlaMint-BG_2018-09-26.u2" speaker_id="IvanovStanislav" speaker_name="Стоянов Иванов, Станислав" speaker_role="Regular" speaker_type="MP" speaker_party="ГЕРБ" speaker_party_name="Граждани за европейско развитие на България" speaker_gender="M" speaker_birth="1973">
 <p id="ParlaMint-BG_2018-09-26.seg30">
 <s id="ParlaMint-BG_2018-09-26.seg30.1">
 „	„	„	PUNCT	_	1	punct	заклевам-(се)	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
@@ -1224,7 +1224,7 @@ BlackSea4Fish	BlackSea4Fish	blacksea4fish	PROPN	Definite=Ind Gender=Masc Number=
 /Ръкопляскания./	_	_	_	_	_	_	_	_	_	_
 </note>
 </speech>
-<speech id="ParlaMint-BG_2018-09-26.u189" speaker_id="DamyanovaMilena" speaker_name="Цветанова Дамянова, Милена" speaker_role="regular" speaker_type="MP" speaker_party="ГЕРБ" speaker_party_name="Граждани за европейско развитие на България" speaker_gender="F" speaker_birth="1976">
+<speech id="ParlaMint-BG_2018-09-26.u189" speaker_id="DamyanovaMilena" speaker_name="Цветанова Дамянова, Милена" speaker_role="Regular" speaker_type="MP" speaker_party="ГЕРБ" speaker_party_name="Граждани за европейско развитие на България" speaker_gender="F" speaker_birth="1976">
 <p id="ParlaMint-BG_2018-09-26.seg939">
 <s id="ParlaMint-BG_2018-09-26.seg939.1">
 Благодаря	Благодаря	благодаря	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
@@ -3568,7 +3568,7 @@ III	III	трети	ADJ	Definite=Ind Degree=Pos Gender=Masc NumType=Ord Number=Si
 /Ръкопляскания от ГЕРБ и ОП./	_	_	_	_	_	_	_	_	_	_
 </note>
 </speech>
-<speech id="ParlaMint-BG_2018-09-26.u190" speaker_id="HristovEmil" speaker_name="Маринов Христов, Емил" speaker_role="chair" speaker_type="MP" speaker_party="ГЕРБ" speaker_party_name="Граждани за европейско развитие на България" speaker_gender="M" speaker_birth="1957">
+<speech id="ParlaMint-BG_2018-09-26.u190" speaker_id="HristovEmil" speaker_name="Маринов Христов, Емил" speaker_role="Chairperson" speaker_type="MP" speaker_party="ГЕРБ" speaker_party_name="Граждани за европейско развитие на България" speaker_gender="M" speaker_birth="1957">
 <p id="ParlaMint-BG_2018-09-26.seg969">
 <s id="ParlaMint-BG_2018-09-26.seg969.1">
 Благодаря	Благодаря	благодаря	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-

@@ -1,5 +1,5 @@
 <text id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.ana" subcorpus="Reference" term="7" session="-" meeting="1" sitting="-" agenda="-" from="2014-08-25" to="2014-08-25" title="Minutes of the National Assembly of the Republic of Slovenia, Term 7, Extraordinary Session 1, 25.8.2014">
-<speech id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.u1" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_role="chair" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka Mira Cerarja" speaker_gender="M" speaker_birth="1967">
+<speech id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.u1" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_role="Chairperson" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka Mira Cerarja" speaker_gender="M" speaker_birth="1967">
 <p id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.seg1">
 <s id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.seg1.1">
 Spoštovane	Spoštovane	spoštovan	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur VerbForm=Part	1	amod	kolegica	NOUN	Case=Nom Gender=Fem Number=Plur	2
@@ -868,7 +868,7 @@ Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.u2" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_role="chair" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka Mira Cerarja" speaker_gender="M" speaker_birth="1967">
+<speech id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.u2" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_role="Chairperson" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka Mira Cerarja" speaker_gender="M" speaker_birth="1967">
 <p id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.seg6">
 <s id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.seg6.1">
 Prehajamo	Prehajamo	prehajati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
@@ -1156,7 +1156,7 @@ Dejanu	Dejanu	Dejan	PROPN	Case=Dat Gender=Masc Number=Sing	12	nmod	predstavnik	N
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.u169" speaker_id="ToninMatej" speaker_name="Tonin, Matej" speaker_role="regular" speaker_type="MP" speaker_party="NSi" speaker_party_name="Nova Slovenija – Krščanski demokrati" speaker_gender="M" speaker_birth="1983">
+<speech id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.u169" speaker_id="ToninMatej" speaker_name="Tonin, Matej" speaker_role="Regular" speaker_type="MP" speaker_party="NSi" speaker_party_name="Nova Slovenija – Krščanski demokrati" speaker_gender="M" speaker_birth="1983">
 <p id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.seg579">
 <s id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.seg579.1">
 Jaz	Jaz	jaz	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	1	nsubj	imeti	VERB	Aspect=Imp Gender=Masc Number=Sing VerbForm=Part	3
@@ -1262,7 +1262,7 @@ zavlačujemo	zavlačujemo	zavlačevati	VERB	Aspect=Imp Mood=Ind Number=Plur Pers
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.u170" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_role="chair" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka Mira Cerarja" speaker_gender="M" speaker_birth="1967">
+<speech id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.u170" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_role="Chairperson" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka Mira Cerarja" speaker_gender="M" speaker_birth="1967">
 <p id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.seg580">
 <s id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.seg580.1">
 Želi	Želi	želeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1	root	-	-	-	-

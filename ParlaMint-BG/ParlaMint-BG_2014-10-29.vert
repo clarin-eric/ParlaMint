@@ -1,5 +1,5 @@
 <text id="ParlaMint-BG_2014-10-29.ana" subcorpus="Reference" term="43" session="1" meeting="2" sitting="-" agenda="-" from="2014-10-29" to="2014-10-29" title="Report of the meeting of the Bulgarian National Assembly, Term 43, Session 1, Meeting 2 (2014-10-29)">
-<speech id="ParlaMint-BG_2014-10-29.u1" speaker_id="TsachevaTsetska" speaker_name="Цачева, Цецка" speaker_role="chair" speaker_type="notMP" speaker_party="_" speaker_party_name="_" speaker_gender="F" speaker_birth="1958">
+<speech id="ParlaMint-BG_2014-10-29.u1" speaker_id="TsachevaTsetska" speaker_name="Цачева, Цецка" speaker_role="Chairperson" speaker_type="notMP" speaker_party="_" speaker_party_name="_" speaker_gender="F" speaker_birth="1958">
 <p id="ParlaMint-BG_2014-10-29.seg1">
 <s id="ParlaMint-BG_2014-10-29.seg1.1">
 Налице	Налице	налице	ADV	Degree=Pos	1	root	-	-	-	-
@@ -1218,7 +1218,7 @@
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-BG_2014-10-29.u2" speaker_id="DanevDobrin" speaker_name="Ненов Данев, Добрин" speaker_role="regular" speaker_type="MP" speaker_party="_" speaker_party_name="_" speaker_gender="M" speaker_birth="1962">
+<speech id="ParlaMint-BG_2014-10-29.u2" speaker_id="DanevDobrin" speaker_name="Ненов Данев, Добрин" speaker_role="Regular" speaker_type="MP" speaker_party="_" speaker_party_name="_" speaker_gender="M" speaker_birth="1962">
 <p id="ParlaMint-BG_2014-10-29.seg31">
 <s id="ParlaMint-BG_2014-10-29.seg31.1">
 „	„	„	PUNCT	_	1	punct	заклевам-(се)	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
@@ -1269,7 +1269,7 @@
 /Ръкопляскания./	_	_	_	_	_	_	_	_	_	_
 </note>
 </speech>
-<speech id="ParlaMint-BG_2014-10-29.u175" speaker_id="NenkovMiroslav" speaker_name="Ненков Ненков, Мирослав" speaker_role="regular" speaker_type="notMP" speaker_party="_" speaker_party_name="_" speaker_gender="M" speaker_birth="1969">
+<speech id="ParlaMint-BG_2014-10-29.u175" speaker_id="NenkovMiroslav" speaker_name="Ненков Ненков, Мирослав" speaker_role="Regular" speaker_type="notMP" speaker_party="_" speaker_party_name="_" speaker_gender="M" speaker_birth="1969">
 <p id="ParlaMint-BG_2014-10-29.seg668">
 <s id="ParlaMint-BG_2014-10-29.seg668.1">
 Много	Много	много	ADV	Definite=Ind Degree=Pos NumType=Card Number=Plur	1	advmod	благодаря	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
@@ -1406,7 +1406,7 @@
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-BG_2014-10-29.u176" speaker_id="TsachevaTsetska" speaker_name="Цачева, Цецка" speaker_role="chair" speaker_type="notMP" speaker_party="_" speaker_party_name="_" speaker_gender="F" speaker_birth="1958">
+<speech id="ParlaMint-BG_2014-10-29.u176" speaker_id="TsachevaTsetska" speaker_name="Цачева, Цецка" speaker_role="Chairperson" speaker_type="notMP" speaker_party="_" speaker_party_name="_" speaker_gender="F" speaker_birth="1958">
 <p id="ParlaMint-BG_2014-10-29.seg671">
 <s id="ParlaMint-BG_2014-10-29.seg671.1">
 Благодаря	Благодаря	благодаря	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
