@@ -156,7 +156,7 @@
 	<xsl:when test="normalize-space($speaker)">
 	  <xsl:attribute name="speaker_id" select="$speaker/@xml:id"/>
 	  <xsl:attribute name="speaker_name" select="et:format-name($speaker//tei:persName[1])"/>
-	  <xsl:attribute name="speaker_role" select="replace(@ana, '#', '')"/>
+	  <xsl:attribute name="speaker_role" select="et:u-role(@ana)"/>
 	  <xsl:attribute name="speaker_type" select="et:speaker-type($speaker)"/>
 	  <xsl:attribute name="speaker_party" select="et:speaker-party($speaker, 'init')"/>
 	  <xsl:attribute name="speaker_party_name" select="et:speaker-party($speaker, 'yes')"/>
@@ -470,6 +470,18 @@ And, there is, in theory, also:
     </xsl:choose>
   </xsl:function>
   
+  <!-- Output the role of the speaker from the taxonomy -->
+  <!-- e.g. "#regular #topic.144_403_M" -->
+  <xsl:function name="et:u-role" as="xs:string">
+    <xsl:param name="ana"/>
+    <xsl:for-each select="tokenize($ana, ' ')">
+      <xsl:if test="key('idr', ., $teiHeader)/
+		    ancestor::tei:taxonomy/tei:desc/tei:term = 'Types of speakers'">
+	<xsl:value-of select="key('idr', ., $teiHeader)//tei:catDesc[@xml:lang='en']/tei:term"/>
+      </xsl:if>
+    </xsl:for-each>
+  </xsl:function>
+
   <!-- Output if the speaker is an MP or merely a 'visitor'
        when speaking (= check global $date-from and $date-to) -->
   <xsl:function name="et:speaker-type" as="xs:string">
