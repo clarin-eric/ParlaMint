@@ -43,18 +43,12 @@ texts:
 	ls ParlaMint-SI/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
 	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ParlaMint-SI/{/.}.txt'
 verts:
-	Scripts/parlamint-tei2vert.pl ParlaMint-BG/ParlaMint-BG.ana.xml \
-	'ParlaMint-BG/*_*.ana.xml' ParlaMint-BG
-	Scripts/parlamint-tei2vert.pl ParlaMint-CZ/ParlaMint-CZ.ana.xml \
-	'ParlaMint-CZ/*_*.ana.xml' ParlaMint-CZ
-	Scripts/parlamint-tei2vert.pl ParlaMint-HR/ParlaMint-HR.ana.xml \
-	'ParlaMint-HR/*_*.ana.xml' ParlaMint-HR
-	Scripts/parlamint-tei2vert.pl ParlaMint-IS/ParlaMint-IS.ana.xml \
-	'ParlaMint-IS/*_*.ana.xml' ParlaMint-IS
-	Scripts/parlamint-tei2vert.pl ParlaMint-PL/ParlaMint-PL.ana.xml \
-	'ParlaMint-PL/*_*.ana.xml' ParlaMint-PL
-	Scripts/parlamint-tei2vert.pl ParlaMint-SI/ParlaMint-SI.ana.xml \
-	'ParlaMint-SI/*_*.ana.xml' ParlaMint-SI
+	Scripts/parlamint-tei2vert.pl ParlaMint-BG/ParlaMint-BG.ana.xml ParlaMint-BG
+	Scripts/parlamint-tei2vert.pl ParlaMint-CZ/ParlaMint-CZ.ana.xml ParlaMint-CZ
+	Scripts/parlamint-tei2vert.pl ParlaMint-HR/ParlaMint-HR.ana.xml ParlaMint-HR
+	Scripts/parlamint-tei2vert.pl ParlaMint-IS/ParlaMint-IS.ana.xml ParlaMint-IS
+	Scripts/parlamint-tei2vert.pl ParlaMint-PL/ParlaMint-PL.ana.xml ParlaMint-PL
+	Scripts/parlamint-tei2vert.pl ParlaMint-SI/ParlaMint-SI.ana.xml ParlaMint-SI
 
 #Make ParlaMint corpus root
 root:
@@ -73,7 +67,7 @@ test-val:
 	$s -xsl:Scripts/validate-parlamint.xsl ParlaMint-SI/ParlaMint-SI_2014-08-25_SDZ7-Izredna-01.ana.xml
 
 # Validate and produce char counts for 1 language
-LANG = BE
+LANG = IS
 PREF = /project/corpora/Parla/ParlaMint/ParlaMint
 all-lang:	val-pc-lang val-lang vertana-lang text-lang chars-lang
 xall-lang:	val-pc-lang val-lang vert-lang vertana-lang text-lang chars-lang
