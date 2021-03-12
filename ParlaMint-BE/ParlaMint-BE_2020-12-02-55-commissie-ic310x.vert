@@ -1,6 +1,6 @@
 <text id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.ana" subcorpus="COVID" term="55" session="-" meeting="ic310" sitting="-" agenda="-" from="2020-12-02" to="2020-12-02" title="Belgisch parlementair corpus ParlaMint-BE, commissievergadering van 02-12-2020 [ParlaMint.ana SAMPLE]">
 <speech id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.u1" speaker_id="FranckenTheo" speaker_name="Francken, Theo" speaker_role="Regular" speaker_type="MP" speaker_party="N-VA" speaker_party_name="Nieuw-Vlaamse Alliantie" speaker_gender="M" speaker_birth="1978">
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg1">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg1" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s8">
 Mijnheer	Mijnheer	mijnheer	NOUN	Gender=Com Number=Sing	w111	parataxis	geleden	ADV	_	w117
 de	de	de	DET	Definite=Def	w112	det	staatssecretaris	NOUN	Gender=Com Number=Sing	w113
@@ -101,7 +101,7 @@ vergadering	vergadering	vergadering	NOUN	Gender=Com Number=Sing	w183	obl	ondervr
 .	.	.	PUNCT	_	pc33	punct	ondervragen	VERB	VerbForm=Part	w177
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg2">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg2" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s10">
 Vroeger	Vroeger	Vroeger	ADJ	Degree=Pos	w184	advmod	zijn	VERB	Number=Plur Tense=Past VerbForm=Fin	w185
 waren	waren	zijn	VERB	Number=Plur Tense=Past VerbForm=Fin	w185	root	.	PUNCT	_	pc34
@@ -313,7 +313,7 @@ voordoen	voordoen	voordoen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w333	conj	zi
 .	.	.	PUNCT	_	pc50	punct	begrijpen	VERB	VerbForm=Part	w321
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg3">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg3" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s21">
 Er	Er	er	ADV	_	w334	advmod	zijn	VERB	Number=Plur Tense=Pres VerbForm=Fin	w335
 zijn	zijn	zijn	VERB	Number=Plur Tense=Pres VerbForm=Fin	w335	root	.	PUNCT	_	pc51
@@ -427,7 +427,7 @@ doen	doen	doen	VERB	VerbForm=Inf	w405	root	?	PUNCT	_	pc59
 ?	?	?	PUNCT	_	pc59	punct	doen	VERB	VerbForm=Inf	w405
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg4">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg4" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s29">
 U	U	u	PRON	Case=Nom Person=2 PronType=Prs	w406	nsubj	zeggen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w407
 zegt	zegt	zeggen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w407	root	.	PUNCT	_	pc60
@@ -511,7 +511,7 @@ stopgezet	stopgezet	stopzetten	VERB	VerbForm=Part	w463	root	.	PUNCT	_	pc65
 .	.	.	PUNCT	_	pc65	punct	stopzetten	VERB	VerbForm=Part	w463
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg5">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg5" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s33">
 Bijna	Bijna	bijna	ADV	_	w464	amod	jaar	NOUN	Gender=Neut Number=Sing	w466
 twaalf	twaalf	twaalf	NUM	_	w465	nummod	jaar	NOUN	Gender=Neut Number=Sing	w466
@@ -622,7 +622,7 @@ afgesloten	afgesloten	afsluiten	VERB	VerbForm=Part	w540	root	.	PUNCT	_	pc73
 .	.	.	PUNCT	_	pc73	punct	afsluiten	VERB	VerbForm=Part	w540
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg6">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg6" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s39">
 Wat	Wat	wat	PRON	Person=3 PronType=Int	w541	obj	doen	VERB	VerbForm=Part	w545
 hebt	hebt	hebben	AUX	Number=Sing Tense=Pres VerbForm=Fin	w542	aux	doen	VERB	VerbForm=Part	w545
@@ -642,7 +642,7 @@ over	over	over	ADP	_	w550	case	daar	ADV	_	w548
 ?	?	?	PUNCT	_	pc75	punct	hebben	VERB	Number=Sing Tense=Pres VerbForm=Fin	w546
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg7">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg7" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s41">
 Wat	Wat	wat	PRON	Person=3 PronType=Int	w551	root	?	PUNCT	_	pc76
 is	is	zijn	AUX	Number=Sing Tense=Pres VerbForm=Fin	w552	cop	wat	PRON	Person=3 PronType=Int	w551
@@ -673,7 +673,7 @@ aan	aan	aan	ADP	_	w569	compound_prt	pakken	VERB	Number=Plur Tense=Pres VerbForm=
 </p>
 </speech>
 <speech id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.u2" speaker_id="MahdiSammy" speaker_name="Mahdi, Sammy" speaker_role="Secretary Of State" speaker_type="notMP" speaker_party="_" speaker_party_name="_" speaker_gender="?" speaker_birth="?">
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg8">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg8" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s44">
 Mijnheer	Mijnheer	mijnheer	NOUN	Gender=Com Number=Sing	w574	parataxis	bedanken	VERB	Number=Sing Tense=Pres VerbForm=Fin	w576
 <name type="PER">
@@ -706,7 +706,7 @@ stelt	stelt	stellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w592	ccomp	blij	ADJ
 .	.	.	PUNCT	_	pc81	punct	blij	ADJ	Degree=Pos	w582
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg9">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg9" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s46">
 Ik	Ik	ik	PRON	Case=Nom Person=1 PronType=Prs	w593	nsubj	krijgen	VERB	VerbForm=Part	w600
 heb	heb	hebben	AUX	Number=Sing Tense=Pres VerbForm=Fin	w594	aux	krijgen	VERB	VerbForm=Part	w600
@@ -841,7 +841,7 @@ bespreken	bespreken	bespreken	VERB	VerbForm=Inf	w695	acl_relcl	onderhoud	NOUN	Ge
 .	.	.	PUNCT	_	pc88	punct	meedelen	VERB	VerbForm=Inf	w684
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg10">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg10" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s52">
 Tijdens	Tijdens	tijdens	ADP	_	w696	case	vergadering	NOUN	Gender=Com Number=Sing	w699
 de	de	de	DET	Definite=Def	w697	det	vergadering	NOUN	Gender=Com Number=Sing	w699
@@ -972,7 +972,7 @@ consul-generaal	consul-generaal	consul-generaal	NOUN	Gender=Com Number=Sing	w790
 .	.	.	PUNCT	_	pc95	punct	hebben	VERB	Number=Sing Tense=Pres VerbForm=Fin	w773
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg11">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg11" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s56">
 Deze	Deze	deze	DET	_	w791	det	week	NOUN	Gender=Com Number=Sing	w792
 week	week	week	NOUN	Gender=Com Number=Sing	w792	obl	zien	VERB	VerbForm=Part	w804
@@ -1091,7 +1091,7 @@ gebeurt	gebeurt	gebeuren	VERB	Number=Sing Tense=Pres VerbForm=Fin	w877	ccomp	imp
 .	.	.	PUNCT	_	pc104	punct	belang	NOUN	Gender=Neut Number=Sing	w851
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg12">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg12" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s59">
 Wat	Wat	wat	PRON	Person=3 PronType=Int	w878	nsubj	betreffen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w880
 <name type="LOC">
@@ -1287,7 +1287,7 @@ naleeft	naleeft	naleven	VERB	Number=Sing Tense=Pres VerbForm=Fin	w1019	ccomp	ver
 .	.	.	PUNCT	_	pc114	punct	constructief	ADJ	Degree=Pos	w986
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg13">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg13" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s64">
 Ik	Ik	ik	PRON	Case=Nom Person=1 PronType=Prs	w1020	nsubj	zeggen	VERB	VerbForm=Part	w1026
 heb	heb	hebben	AUX	Number=Sing Tense=Pres VerbForm=Fin	w1021	aux	zeggen	VERB	VerbForm=Part	w1026
@@ -1377,7 +1377,7 @@ Spanje	Spanje	Spanje	PROPN	Gender=Neut Number=Sing	w1079	conj	België	PROPN	Gend
 .	.	.	PUNCT	_	pc120	punct	hebben	VERB	Number=Sing Tense=Pres VerbForm=Fin	w1070
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg14">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg14" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s68">
 Daarnaast	Daarnaast	daarnaast	ADV	_	w1080	advmod	werken	VERB	VerbForm=Inf	w1088
 moeten	moeten	moeten	AUX	Number=Plur Tense=Pres VerbForm=Fin	w1081	aux	werken	VERB	VerbForm=Inf	w1088
@@ -1537,7 +1537,7 @@ Europa	Europa	Europa	PROPN	Gender=Neut Number=Sing	w1203	obl	zijn	VERB	Number=Si
 .	.	.	PUNCT	_	pc133	punct	nemen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w1181
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg15">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg15" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s71">
 Wij	Wij	wij	PRON	Case=Nom Person=1 PronType=Prs	w1204	nsubj	werken	VERB	VerbForm=Inf	w1207
 moeten	moeten	moeten	AUX	Number=Plur Tense=Pres VerbForm=Fin	w1205	aux	werken	VERB	VerbForm=Inf	w1207
@@ -1620,7 +1620,7 @@ teruggestuurd	teruggestuurd	terugsturen	VERB	VerbForm=Part	w1268	conj	identifice
 .	.	.	PUNCT	_	pc136	punct	identificeren	VERB	VerbForm=Part	w1255
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg16">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg16" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s74">
 Ik	Ik	ik	PRON	Case=Nom Person=1 PronType=Prs	w1269	nsubj	denken	VERB	Number=Sing Tense=Pres VerbForm=Fin	w1270
 denk	denk	denken	VERB	Number=Sing Tense=Pres VerbForm=Fin	w1270	root	.	PUNCT	_	pc138
@@ -1732,7 +1732,7 @@ doen	doen	doen	VERB	VerbForm=Inf	w1350	advcl	rekenen	VERB	Number=Plur Tense=Pres
 </p>
 </speech>
 <speech id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.u3" speaker_id="FranckenTheo" speaker_name="Francken, Theo" speaker_role="Regular" speaker_type="MP" speaker_party="N-VA" speaker_party_name="Nieuw-Vlaamse Alliantie" speaker_gender="M" speaker_birth="1978">
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg17">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg17" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s78">
 Mijnheer	Mijnheer	mijnheer	NOUN	Gender=Com Number=Sing	w1355	parataxis	bedanken	VERB	Number=Sing Tense=Pres VerbForm=Fin	w1358
 de	de	de	DET	Definite=Def	w1356	det	staatssecretaris	NOUN	Gender=Com Number=Sing	w1357
@@ -1837,7 +1837,7 @@ uitgeraakt	uitgeraakt	uitraken	VERB	Number=Sing Tense=Pres VerbForm=Fin	w1427	ac
 .	.	.	PUNCT	_	pc156	punct	geloven	VERB	Number=Sing Tense=Pres VerbForm=Fin	w1409
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg18">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg18" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s83">
 Op	Op	op	ADP	_	w1428	case	doorbraak	NOUN	Gender=Com Number=Sing	w1429
 <name type="MISC">
@@ -1985,7 +1985,7 @@ praktijkervaring	praktijkervaring	praktijkervaring	NOUN	Gender=Com Number=Sing	w
 .	.	.	PUNCT	_	pc166	punct	hopen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w1521
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg19">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg19" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s90">
 Alleszins	Alleszins	alleszins	ADV	_	w1536	parataxis	blijven	VERB	Number=Sing Tense=Pres VerbForm=Fin	w1541
 <g/>
@@ -2181,7 +2181,7 @@ verontrust	verontrust	verontrusten	VERB	Number=Sing Tense=Pres VerbForm=Fin	w167
 .	.	.	PUNCT	_	pc182	punct	vernemen	VERB	VerbForm=Inf	w1663
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg20">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg20" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s97">
 Daarnaast	Daarnaast	daarnaast	ADV	_	w1680	advmod	goed	ADJ	Degree=Pos	w1684
 is	is	zijn	AUX	Number=Sing Tense=Pres VerbForm=Fin	w1681	cop	goed	ADJ	Degree=Pos	w1684
@@ -2252,7 +2252,7 @@ wordt	wordt	worden	AUX	Number=Sing Tense=Pres VerbForm=Fin	w1722	aux_pass	droogl
 .	.	.	PUNCT	_	pc188	punct	speler	NOUN	Number=Plur	w1708
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg21">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg21" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s100">
 Die	Die	die	DET	_	w1723	det	aanzetten	NOUN	Number=Plur	w1724
 aanzetten	aanzetten	aanzetten	NOUN	Number=Plur	w1724	obj	zien	VERB	Number=Sing Tense=Pres VerbForm=Fin	w1725
@@ -2349,7 +2349,7 @@ onmogelijk	onmogelijk	onmogelijk	ADJ	Degree=Pos	w1791	root	.	PUNCT	_	pc195
 .	.	.	PUNCT	_	pc195	punct	onmogelijk	ADJ	Degree=Pos	w1791
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg22">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg22" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s104">
 Ik	Ik	ik	PRON	Case=Nom Person=1 PronType=Prs	w1792	nsubj	meegeven	VERB	VerbForm=Inf	w1796
 moet	moet	moeten	AUX	Number=Sing Tense=Pres VerbForm=Fin	w1793	aux	meegeven	VERB	VerbForm=Inf	w1796
@@ -2468,7 +2468,7 @@ gevoelig	gevoelig	gevoelig	ADJ	Degree=Pos	w1872	xcomp	blijven	VERB	Number=Sing T
 .	.	.	PUNCT	_	pc205	punct	blijven	VERB	Number=Sing Tense=Pres VerbForm=Fin	w1870
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg23">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg23" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s110">
 Mijnheer	Mijnheer	mijnheer	NOUN	Gender=Com Number=Sing	w1873	parataxis	hebben	VERB	Number=Sing Tense=Pres VerbForm=Fin	w1877
 de	de	de	DET	Definite=Def	w1874	det	voorzitter	NOUN	Gender=Com Number=Sing	w1875
@@ -2492,7 +2492,7 @@ indienen	indienen	indienen	VERB	VerbForm=Inf	w1886	acl_relcl	motie	NOUN	Gender=C
 </p>
 </speech>
 <speech id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.u4" speaker_id="DepoortereOrtwin" speaker_name="Depoortere, Ortwin" speaker_role="Chairperson" speaker_type="MP" speaker_party="VB" speaker_party_name="Vlaams Belang" speaker_gender="M" speaker_birth="1970">
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg24">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg24" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s114">
 Tot	Tot	tot	ADP	_	w1891	case	bespreking	NOUN	Gender=Com Number=Sing	w1895
 besluit	besluit	besluit	NOUN	Gender=Neut Number=Sing	w1892	fixed	tot	ADP	_	w1891
@@ -2507,7 +2507,7 @@ ingediend	ingediend	indienen	VERB	VerbForm=Part	w1899	root	.	PUNCT	_	pc209
 .	.	.	PUNCT	_	pc209	punct	indienen	VERB	VerbForm=Part	w1899
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg25">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg25" lang="French">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s115">
 En	En	en	ADP	_	w1900	case	conclusion	NOUN	Gender=Fem Number=Sing	w1901
 conclusion	conclusion	conclusion	NOUN	Gender=Fem Number=Sing	w1901	obl_mod	déposer	VERB	Gender=Fem Number=Plur Tense=Past VerbForm=Part	w1910
@@ -2524,7 +2524,7 @@ déposées	déposées	déposer	VERB	Gender=Fem Number=Plur Tense=Past VerbForm=P
 .	.	.	PUNCT	_	pc210	punct	déposer	VERB	Gender=Fem Number=Plur Tense=Past VerbForm=Part	w1910
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg26">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg26" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s116">
 Een	Een	een	DET	Definite=Ind	w1911	det	motie	NOUN	Gender=Com Number=Sing	w1912
 motie	motie	motie	NOUN	Gender=Com Number=Sing	w1912	nsubj_pass	indienen	VERB	VerbForm=Part	w1916
@@ -2547,7 +2547,7 @@ volgt	volgt	volgen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w1925	advcl	luiden	V
 :	:	:	PUNCT	_	pc211	punct	indienen	VERB	VerbForm=Part	w1916
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg27">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg27" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s117">
 "	"	"	PUNCT	_	pc212	punct	de	DET	Definite=Def	w1926
 <g/>
@@ -2559,7 +2559,7 @@ Kamer	Kamer	kamer	PROPN	_	w1927	flat	de	DET	Definite=Def	w1926
 ,	,	,	PUNCT	_	pc213	punct	de	DET	Definite=Def	w1926
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg28">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg28" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s118">
 gehoord	gehoord	horen	VERB	VerbForm=Part	w1928	root	francken	PROPN	_	w1935
 de	de	de	DET	Definite=Def	w1929	det	interpellatie	NOUN	Gender=Com Number=Sing	w1930
@@ -2573,7 +2573,7 @@ Theo	Theo	theo	PROPN	_	w1934	appos	heer	NOUN	Gender=Com Number=Sing	w1933
 Francken	Francken	francken	PROPN	_	w1935	flat	theo	PROPN	_	w1934
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg29">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg29" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s119">
 en	en	en	CCONJ	_	w1936	mark	antwoord	NOUN	Gender=Neut Number=Sing	w1938
 het	het	het	DET	Definite=Def	w1937	det	antwoord	NOUN	Gender=Neut Number=Sing	w1938
@@ -2622,7 +2622,7 @@ Vernieuwing	Vernieuwing	vernieuwing	NOUN	Gender=Com Number=Sing	w1962	flat	democ
 ,	,	,	PUNCT	_	pc217	punct	antwoord	NOUN	Gender=Neut Number=Sing	w1938
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg30">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg30" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s120">
 -	-	-	PUNCT	_	pc218	punct	letten	VERB	VerbForm=Part	w1964
 gelet	gelet	letten	VERB	VerbForm=Part	w1964	root	;	PUNCT	_	pc219
@@ -2662,7 +2662,7 @@ Canaria	Canaria	canaria	PROPN	_	w1988	flat	gran	PROPN	_	w1987
 ;	;	;	PUNCT	_	pc219	punct	letten	VERB	VerbForm=Part	w1964
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg31">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg31" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s121">
 -	-	-	PUNCT	_	pc220	punct	letten	VERB	VerbForm=Part	w1990
 gelet	gelet	letten	VERB	VerbForm=Part	w1990	root	;	PUNCT	_	pc222
@@ -2699,7 +2699,7 @@ persoon	persoon	persoon	NOUN	Gender=Com Number=Sing	w2013	conj	euro	NOUN	Gender=
 ;	;	;	PUNCT	_	pc222	punct	letten	VERB	VerbForm=Part	w1990
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg32">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg32" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s122">
 -	-	-	PUNCT	_	pc223	punct	letten	VERB	VerbForm=Part	w2015
 gelet	gelet	letten	VERB	VerbForm=Part	w2015	root	,	PUNCT	_	pc224
@@ -2722,7 +2722,7 @@ bootjes	bootjes	bootje	NOUN	Number=Plur	w2030	nmod	overtocht	NOUN	Gender=Com Num
 ,	,	,	PUNCT	_	pc224	punct	letten	VERB	VerbForm=Part	w2015
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg33">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg33" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s123">
 -	-	-	PUNCT	_	pc225	punct	overwegende	ADV	_	w2032
 overwegende	overwegende	overwegende	ADV	_	w2032	root	;	PUNCT	_	pc226
@@ -2744,7 +2744,7 @@ Europa	Europa	Europa	PROPN	Gender=Neut Number=Sing	w2044	nmod	migratie	NOUN	Gend
 ;	;	;	PUNCT	_	pc226	punct	overwegende	ADV	_	w2032
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg34">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg34" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s124">
 -	-	-	PUNCT	_	pc227	punct	overwegende	ADV	_	w2046
 overwegende	overwegende	overwegende	ADV	_	w2046	root	;	PUNCT	_	pc228
@@ -2765,7 +2765,7 @@ bestrijden	bestrijden	bestrijden	VERB	VerbForm=Inf	w2059	acl	beleid	NOUN	Gender=
 ;	;	;	PUNCT	_	pc228	punct	overwegende	ADV	_	w2046
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg35">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg35" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s125">
 -	-	-	PUNCT	_	pc229	punct	overwegend	ADV	_	w2061
 overwegende	overwegende	overwegend	ADV	_	w2061	mark	vallen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w2073
@@ -2793,14 +2793,14 @@ aanzuigeffect	aanzuigeffect	aanzuigeffect	NOUN	Gender=Neut Number=Sing	w2079	obl
 ,	,	,	PUNCT	_	pc230	punct	overwegend	ADV	_	w2061
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg36">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg36" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s126">
 vraagt	vraagt	vragen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w2080	root	regering	NOUN	Gender=Com Number=Sing	w2082
 de	de	de	DET	Definite=Def	w2081	det	regering	NOUN	Gender=Com Number=Sing	w2082
 regering	regering	regering	NOUN	Gender=Com Number=Sing	w2082	nsubj	vragen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w2080
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg37">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg37" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s127">
 -	-	-	PUNCT	_	pc231	punct	starten	VERB	VerbForm=Inf	w2088
 onmiddellijk	onmiddellijk	onmiddellijk	ADJ	Degree=Pos	w2084	advmod	starten	VERB	VerbForm=Inf	w2088
@@ -2929,7 +2929,7 @@ niet-vluchtelingen	niet-vluchtelingen	niet-vluchteling	NOUN	Number=Plur	w2177	nm
 ;	;	;	PUNCT	_	pc239	punct	starten	VERB	VerbForm=Inf	w2088
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg38">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg38" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s128">
 -	-	-	PUNCT	_	pc240	punct	starten	VERB	VerbForm=Inf	w2183
 onmiddellijk	onmiddellijk	onmiddellijk	ADJ	Degree=Pos	w2179	advmod	starten	VERB	VerbForm=Inf	w2183
@@ -2997,7 +2997,7 @@ worden	worden	worden	AUX	VerbForm=Inf	w2225	aux_pass	aanpakken	VERB	VerbForm=Par
 .”	.”	.	PUNCT	_	pc243	punct	starten	VERB	VerbForm=Inf	w2183
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg39">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg39" lang="French">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s129">
 Une	Une	un	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	w2226	det	motion	NOUN	Gender=Fem Number=Sing	w2227
 motion	motion	motion	NOUN	Gender=Fem Number=Sing	w2227	nsubj_pass	déposer	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w2232
@@ -3021,7 +3021,7 @@ suit	suit	suivre	ADV	_	w2241	obl_mod	libeller	VERB	Gender=Fem Number=Sing Tense=
 :	:	:	PUNCT	_	pc245	punct	déposer	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w2232
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg40">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg40" lang="French">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s130">
 "	"	"	PUNCT	_	pc246	punct	chambre	NOUN	Gender=Fem Number=Sing	w2243
 <g/>
@@ -3033,7 +3033,7 @@ Chambre	Chambre	chambre	NOUN	Gender=Fem Number=Sing	w2243	root	,	PUNCT	_	pc247
 ,	,	,	PUNCT	_	pc247	punct	chambre	NOUN	Gender=Fem Number=Sing	w2243
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg41">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg41" lang="French">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s131">
 ayant	ayant	avoir	AUX	Tense=Pres VerbForm=Part	w2244	aux_tense	entendre	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w2245
 entendu	entendu	entendre	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w2245	root	Francken	PROPN	_	w2250
@@ -3048,7 +3048,7 @@ Theo	Theo	Theo	PROPN	_	w2249	flat_name	monsieur	NOUN	Gender=Masc Number=Sing	w22
 Francken	Francken	Francken	PROPN	_	w2250	flat_name	monsieur	NOUN	Gender=Masc Number=Sing	w2248
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg42">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg42" lang="French">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s132">
 et	et	et	CCONJ	_	w2251	cc	réponse	NOUN	Gender=Fem Number=Sing	w2253
 la	la	le	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w2252	det	réponse	NOUN	Gender=Fem Number=Sing	w2253
@@ -3105,7 +3105,7 @@ démocratique	démocratique	démocratique	ADJ	Gender=Masc Number=Sing	w2279	amod
 ,	,	,	PUNCT	_	pc256	punct	réponse	NOUN	Gender=Fem Number=Sing	w2253
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg43">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg43" lang="French">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s133">
 -	-	-	PUNCT	_	pc257	punct	problème	NOUN	Gender=Masc Number=Sing	w2283
 vu	vu	vu	ADP	_	w2281	case	problème	NOUN	Gender=Masc Number=Sing	w2283
@@ -3147,7 +3147,7 @@ Canaria	Canaria	Canaria	PROPN	_	w2305	flat_name	Gran	PROPN	_	w2304
 ,	,	,	PUNCT	_	pc259	punct	problème	NOUN	Gender=Masc Number=Sing	w2283
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg44">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg44" lang="French">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s134">
 -	-	-	PUNCT	_	pc260	punct	subsidier	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w2321
 vu	vu	vu	ADP	_	w2307	case	prise	NOUN	Gender=Fem Number=Sing	w2309
@@ -3187,7 +3187,7 @@ personne	personne	personne	NOUN	Gender=Fem Number=Sing	w2335	conj	jour	NOUN	Gend
 ,	,	,	PUNCT	_	pc262	punct	subsidier	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w2321
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg45">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg45" lang="French">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s135">
 -	-	-	PUNCT	_	pc263	punct	risque	NOUN	Gender=Masc Number=Plur	w2339
 vu	vu	vu	ADP	_	w2337	case	risque	NOUN	Gender=Masc Number=Plur	w2339
@@ -3212,7 +3212,7 @@ vétustes	vétustes	vétuste	ADJ	Gender=Fem Number=Plur	w2352	amod	embarcation	N
 ,	,	,	PUNCT	_	pc265	punct	risque	NOUN	Gender=Masc Number=Plur	w2339
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg46">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg46" lang="French">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s136">
 -	-	-	PUNCT	_	pc266	punct	considérer	VERB	Tense=Pres VerbForm=Part	w2354
 considérant	considérant	considérer	VERB	Tense=Pres VerbForm=Part	w2354	root	,	PUNCT	_	pc267
@@ -3238,7 +3238,7 @@ Europe	Europe	Europe	PROPN	_	pc268	nmod	migration	NOUN	Gender=Fem Number=Sing	w2
 ,	,	,	PUNCT	_	pc267	punct	considérer	VERB	Tense=Pres VerbForm=Part	w2354
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg47">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg47" lang="French">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s137">
 -	-	-	PUNCT	_	pc269	punct	considérer	VERB	Tense=Pres VerbForm=Part	w2370
 considérant	considérant	considérer	VERB	Tense=Pres VerbForm=Part	w2370	root	priorité	NOUN	Gender=Fem Number=Plur	w2389
@@ -3263,7 +3263,7 @@ ses	ses	son	DET	Gender=Fem Number=Plur Poss=Yes PronType=Prs	w2388	det	priorité
 priorités	priorités	priorité	NOUN	Gender=Fem Number=Plur	w2389	nmod	rang	NOUN	Gender=Masc Number=Sing	w2386
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg48">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg48" lang="French">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s138">
 -	-	-	PUNCT	_	pc270	punct	considérer	VERB	Tense=Pres VerbForm=Part	w2391
 considérant	considérant	considérer	VERB	Tense=Pres VerbForm=Part	w2391	root	;	PUNCT	_	pc273
@@ -3299,7 +3299,7 @@ air	air	air	NOUN	Gender=Masc Number=Sing	pc274	nmod	appel	NOUN	Gender=Masc Numbe
 ;	;	;	PUNCT	_	pc273	punct	considérer	VERB	Tense=Pres VerbForm=Part	w2391
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg49">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg49" lang="French">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s139">
 demande	demande	demander	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w2412	root	gouvernement	NOUN	Gender=Masc Number=Sing	w2415
 que	que	que	SCONJ	_	w2413	mark	demander	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w2412
@@ -3307,7 +3307,7 @@ le	le	le	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w2414	det	gouvern
 gouvernement	gouvernement	gouvernement	NOUN	Gender=Masc Number=Sing	w2415	nsubj	demander	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w2412
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg50">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg50" lang="French">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s140">
 -	-	-	PUNCT	_	pc275	punct	entamer	VERB	VerbForm=Inf	pc276
 d'	d'	de	ADP	_	w2417	mark	entamer	VERB	VerbForm=Inf	pc276
@@ -3470,7 +3470,7 @@ réfugié	réfugié	réfugié	NOUN	Gender=Masc Number=Sing	w2524	nmod	statut	NOU
 ,	,	,	PUNCT	_	pc293	punct	entamer	VERB	VerbForm=Inf	pc276
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg51">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg51" lang="French">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s141">
 -	-	-	PUNCT	_	pc294	punct	entamer	VERB	VerbForm=Inf	pc295
 d'	d'	de	ADP	_	w2526	mark	entamer	VERB	VerbForm=Inf	pc295
@@ -3558,7 +3558,7 @@ humanitaire	humanitaire	humanitaire	ADJ	Gender=Masc Number=Sing	w2578	amod	point
 ."	."	.	PUNCT	_	pc305	punct	entamer	VERB	VerbForm=Inf	pc295
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg52">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg52" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s142">
 Een	Een	een	DET	Definite=Ind	w2579	det	motie	NOUN	Gender=Com Number=Sing	w2581
 eenvoudige	eenvoudige	eenvoudig	ADJ	Degree=Pos	w2580	amod	motie	NOUN	Gender=Com Number=Sing	w2581
@@ -3576,7 +3576,7 @@ Demon	Demon	demon	PROPN	_	w2588	flat	franky	PROPN	_	w2587
 .	.	.	PUNCT	_	pc306	punct	indienen	VERB	VerbForm=Part	w2583
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg53">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg53" lang="French">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s143">
 Une	Une	un	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	w2589	det	motion	NOUN	Gender=Fem Number=Sing	w2590
 motion	motion	motion	NOUN	Gender=Fem Number=Sing	w2590	nsubj_pass	déposer	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w2596
@@ -3596,7 +3596,7 @@ Demon	Demon	Demon	PROPN	_	w2600	flat_name	monsieur	NOUN	Gender=Masc Number=Sing	
 .	.	.	PUNCT	_	pc308	punct	déposer	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w2596
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg54">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg54" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s144">
 Over	Over	over	ADP	_	w2601	case	motie	NOUN	Number=Plur	w2603
 de	de	de	DET	Definite=Def	w2602	det	motie	NOUN	Number=Plur	w2603
@@ -3617,7 +3617,7 @@ gesloten	gesloten	sluiten	VERB	VerbForm=Part	w2611	root	.	PUNCT	_	pc310
 .	.	.	PUNCT	_	pc310	punct	sluiten	VERB	VerbForm=Part	w2611
 </s>
 </p>
-<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg55">
+<p id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.seg55" lang="French">
 <s id="ParlaMint-BE_2020-12-02-55-commissie-ic310x.s146">
 Le	Le	le	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w2612	det	vote	NOUN	Gender=Masc Number=Sing	w2613
 vote	vote	vote	NOUN	Gender=Masc Number=Sing	w2613	nsubj	avoir	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	w2617

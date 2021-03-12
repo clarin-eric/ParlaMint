@@ -1,6 +1,6 @@
 <text id="ParlaMint-IS_2018-11-26-38.ana" subcorpus="Reference" term="23" session="149" meeting="38" sitting="-" agenda="-" from="2018-11-26" to="2018-11-26" title="Speeches in the national parliament of Iceland, 23. term, regular meeting 149-38, 26.11.2018.">
 <speech id="ParlaMint-IS_2018-11-26-38.u1" speaker_id="JonValdimarsson" speaker_name="Valdimarsson, Jón Steindór" speaker_role="Regular" speaker_type="MP" speaker_party="V" speaker_party_name="Viðreisn" speaker_gender="M" speaker_birth="1958">
-<p id="ParlaMint-IS_2018-11-26-38.seg1">
+<p id="ParlaMint-IS_2018-11-26-38.seg1" lang="">
 <s id="ParlaMint-IS_2018-11-26-38.seg1.1">
 Herra	Herra	herra	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	1	root	-	-	-	-
 forseti	forseti	forseti	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	2	conj	herra	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	1
@@ -60,7 +60,7 @@ ríkisstjórn	ríkisstjórn	ríkisstjórn	NOUN	Case=Dat Definite=Ind Gender=Fem 
 .	.	.	PUNCT	_	15	punct	ríkisstjórn	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Sing	14
 </s>
 </p>
-<p id="ParlaMint-IS_2018-11-26-38.seg2">
+<p id="ParlaMint-IS_2018-11-26-38.seg2" lang="">
 <s id="ParlaMint-IS_2018-11-26-38.seg2.1">
 En	En	en	CCONJ	_	1	cc	langa	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	3
 mig	mig	ég	PRON	Case=Acc Number=Sing Person=1 PronType=Prs	2	nsubj	langa	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	3
@@ -108,7 +108,7 @@ forseta	forseta	forseti	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Sing	10	nm
 :	:	:	PUNCT	_	11	punct	forseti	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Sing	10
 </s>
 </p>
-<p id="ParlaMint-IS_2018-11-26-38.seg3">
+<p id="ParlaMint-IS_2018-11-26-38.seg3" lang="">
 <s id="ParlaMint-IS_2018-11-26-38.seg3.1">
 „	„	„	PUNCT	_	1	punct	fela	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Mid	3
 <g/>
@@ -208,7 +208,7 @@ verður	verður	verða	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin
 <note type="kinesic:ringing">
 /Forseti hringir./	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="ParlaMint-IS_2018-11-26-38.seg4">
+<p id="ParlaMint-IS_2018-11-26-38.seg4" lang="">
 <s id="ParlaMint-IS_2018-11-26-38.seg4.1">
 Mér	Mér	ég	PRON	Case=Dat Number=Sing Person=1 PronType=Prs	1	nsubj	finna	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Mid	2
 finnst	finnst	finna	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Mid	2	root	-	-	-	-
@@ -267,7 +267,7 @@ en	en	en	ADP	_	7	case	ég	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	8
 </p>
 </speech>
 <speech id="ParlaMint-IS_2018-11-26-38.u2" speaker_id="OddnyHardardottir" speaker_name="Harðardóttir, Oddný G." speaker_role="Regular" speaker_type="MP" speaker_party="Sf" speaker_party_name="Samfylking" speaker_gender="F" speaker_birth="1957">
-<p id="ParlaMint-IS_2018-11-26-38.seg5">
+<p id="ParlaMint-IS_2018-11-26-38.seg5" lang="">
 <s id="ParlaMint-IS_2018-11-26-38.seg5.1">
 Herra	Herra	herra	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	1	root	-	-	-	-
 forseti	forseti	forseti	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	2	conj	herra	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	1
@@ -387,7 +387,7 @@ samkomulag	samkomulag	samkomulag	NOUN	Case=Nom Definite=Ind Gender=Neut Number=S
 .	.	.	PUNCT	_	8	punct	samkomulag	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	7
 </s>
 </p>
-<p id="ParlaMint-IS_2018-11-26-38.seg6">
+<p id="ParlaMint-IS_2018-11-26-38.seg6" lang="">
 <s id="ParlaMint-IS_2018-11-26-38.seg6.1">
 En	En	en	CCONJ	_	1	cc	heyra	VERB	VerbForm=Sup Voice=Act	5
 ég	ég	ég	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	2	nsubj	heyra	VERB	VerbForm=Sup Voice=Act	5
@@ -432,7 +432,7 @@ lotu	lotu	lota	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Sing	21	obl	búinn	V
 </p>
 </speech>
 <speech id="ParlaMint-IS_2018-11-26-38.u259" speaker_id="JonValdimarsson" speaker_name="Valdimarsson, Jón Steindór" speaker_role="Regular" speaker_type="MP" speaker_party="V" speaker_party_name="Viðreisn" speaker_gender="M" speaker_birth="1958">
-<p id="ParlaMint-IS_2018-11-26-38.seg795">
+<p id="ParlaMint-IS_2018-11-26-38.seg795" lang="">
 <s id="ParlaMint-IS_2018-11-26-38.seg795.1">
 Virðulegur	Virðulegur	virðulegur	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing	1	amod	forseti	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	2
 forseti	forseti	forseti	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	2	root	-	-	-	-
@@ -573,7 +573,7 @@ sammála	sammála	sammála	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	7	amod
 .	.	.	PUNCT	_	10	punct	útfærsla	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Sing	9
 </s>
 </p>
-<p id="ParlaMint-IS_2018-11-26-38.seg796">
+<p id="ParlaMint-IS_2018-11-26-38.seg796" lang="">
 <s id="ParlaMint-IS_2018-11-26-38.seg796.1">
 Mig	Mig	ég	PRON	Case=Acc Number=Sing Person=1 PronType=Prs	1	nsubj	langa	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 langar	langar	langa	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
@@ -618,7 +618,7 @@ stefnuna	stefnuna	stefna	NOUN	Case=Acc Definite=Def Gender=Fem Number=Sing	21	ob
 ?	?	?	PUNCT	_	24	punct	þessi	DET	Case=Dat Gender=Neut Number=Sing PronType=Dem	23
 </s>
 </p>
-<p id="ParlaMint-IS_2018-11-26-38.seg797">
+<p id="ParlaMint-IS_2018-11-26-38.seg797" lang="">
 <s id="ParlaMint-IS_2018-11-26-38.seg797.1">
 Svo	Svo	svo	ADV	_	1	advmod	langa	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 langar	langar	langa	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
@@ -671,7 +671,7 @@ forseta	forseta	forseti	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Sing	11	nm
 :	:	:	PUNCT	_	12	punct	forseti	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Sing	11
 </s>
 </p>
-<p id="ParlaMint-IS_2018-11-26-38.seg798">
+<p id="ParlaMint-IS_2018-11-26-38.seg798" lang="">
 <s id="ParlaMint-IS_2018-11-26-38.seg798.1">
 „	„	„	PUNCT	_	1	punct	afleggja	VERB	Case=Nom Gender=Fem Number=Sing VerbForm=Part Voice=Act	10
 <g/>
@@ -708,7 +708,7 @@ atvinnu	atvinnu	atvinna	NOUN	Case=Acc Definite=Ind Gender=Fem Number=Sing	25	con
 “	“	“	PUNCT	_	27	punct	.	PUNCT	_	26
 </s>
 </p>
-<p id="ParlaMint-IS_2018-11-26-38.seg799">
+<p id="ParlaMint-IS_2018-11-26-38.seg799" lang="">
 <s id="ParlaMint-IS_2018-11-26-38.seg799.1">
 Telur	Telur	telja	VERB	Case=Nom Definite=Ind Gender=Masc Number=Sing	1	root	-	-	-	-
 hv.	hv.	hv.	ADV	_	2	advmod	telja	VERB	Case=Nom Definite=Ind Gender=Masc Number=Sing	1
@@ -752,7 +752,7 @@ til	til	til	ADP	_	27	compound_prt	leggja	VERB	VerbForm=Inf Voice=Act	26
 </p>
 </speech>
 <speech id="ParlaMint-IS_2018-11-26-38.u260" speaker_id="OddnyHardardottir" speaker_name="Harðardóttir, Oddný G." speaker_role="Regular" speaker_type="MP" speaker_party="Sf" speaker_party_name="Samfylking" speaker_gender="F" speaker_birth="1957">
-<p id="ParlaMint-IS_2018-11-26-38.seg800">
+<p id="ParlaMint-IS_2018-11-26-38.seg800" lang="">
 <s id="ParlaMint-IS_2018-11-26-38.seg800.1">
 Herra	Herra	herra	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	1	root	-	-	-	-
 forseti	forseti	forseti	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	2	conj	herra	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	1
@@ -871,7 +871,7 @@ flöt	flöt	flöt	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Plur	9	obj	finna
 .	.	.	PUNCT	_	12	punct	það	PRON	Case=Dat Gender=Neut Number=Sing PronType=Prs	11
 </s>
 </p>
-<p id="ParlaMint-IS_2018-11-26-38.seg801">
+<p id="ParlaMint-IS_2018-11-26-38.seg801" lang="">
 <s id="ParlaMint-IS_2018-11-26-38.seg801.1">
 En	En	en	CCONJ	_	1	cc	ráða	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	4
 af	af	af	ADP	_	2	case	hver	PRON	Case=Dat Gender=Neut Number=Sing PronType=Int	3
@@ -974,7 +974,7 @@ sjónir	sjónir	sjón	NOUN	Case=Acc Definite=Ind Gender=Fem Number=Plur	8	obl	ko
 .	.	.	PUNCT	_	9	punct	sjón	NOUN	Case=Acc Definite=Ind Gender=Fem Number=Plur	8
 </s>
 </p>
-<p id="ParlaMint-IS_2018-11-26-38.seg802">
+<p id="ParlaMint-IS_2018-11-26-38.seg802" lang="">
 <s id="ParlaMint-IS_2018-11-26-38.seg802.1">
 En	En	en	CCONJ	_	1	cc	mega	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	3
 það	það	það	PRON	Case=Nom Gender=Neut Number=Sing PronType=Prs	2	expl	mega	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	3

@@ -1,6 +1,6 @@
 <text id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.ana" subcorpus="Reference" term="54" session="-" meeting="ic640" sitting="-" agenda="-" from="2017-04-19" to="2017-04-19" title="Belgisch parlementair corpus ParlaMint-BE, commissievergadering van 19-04-2017 [ParlaMint.ana SAMPLE]">
 <speech id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.u1" speaker_id="GerkensMuriel" speaker_name="Gerkens, Muriel" speaker_role="Regular" speaker_type="MP" speaker_party="Ecolo" speaker_party_name="Ecologistes Confédérés pour l'Organisation de Luttes Originales" speaker_gender="F" speaker_birth="1957">
-<p id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.seg1">
+<p id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.seg1" lang="French">
 <s id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.s6">
 Monsieur	Monsieur	monsieur	PROPN	_	w90	advmod	demander	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	w100
 le	le	le	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w91	det	ministre	NOUN	Gender=Masc Number=Sing	w92
@@ -133,7 +133,7 @@ formation	formation	formation	NOUN	Gender=Fem Number=Sing	w176	obl_mod	exposer	V
 .	.	.	PUNCT	_	pc37	punct	prendre	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w161
 </s>
 </p>
-<p id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.seg2">
+<p id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.seg2" lang="French">
 <s id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.s10">
 Quelles	Quelles	quel	DET	Gender=Fem Number=Plur	w177	det	disposition	NOUN	Gender=Fem Number=Plur	w178
 dispositions	dispositions	disposition	NOUN	Gender=Fem Number=Plur	w178	obj	prendre	VERB	VerbForm=Inf	w180
@@ -258,7 +258,7 @@ organisé	organisé	organiser	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=P
 </p>
 </speech>
 <speech id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.u2" speaker_id="BorsusWilly" speaker_name="Borsus, Willy" speaker_role="Minister" speaker_type="notMP" speaker_party="_" speaker_party_name="_" speaker_gender="?" speaker_birth="?">
-<p id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.seg3">
+<p id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.seg3" lang="French">
 <s id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.s16">
 Je	Je	il	PRON	Number=Sing Person=1 PronType=Prs	w262	nsubj	tenir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w263
 tiens	tiens	tenir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w263	root	.	PUNCT	_	pc57
@@ -340,7 +340,7 @@ agricole	agricole	agricole	ADJ	Gender=Masc Number=Sing	w317	amod	usage	NOUN	Gend
 .	.	.	PUNCT	_	pc64	punct	suivre	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w308
 </s>
 </p>
-<p id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.seg4">
+<p id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.seg4" lang="French">
 <s id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.s18">
 Le	Le	le	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w318	det	règlement	NOUN	Gender=Masc Number=Sing	w319
 règlement	règlement	règlement	NOUN	Gender=Masc Number=Sing	w319	nsubj	entrer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w334
@@ -459,7 +459,7 @@ février	février	février	NOUN	Gender=Masc Number=Sing	w405	nmod	22	NUM	_	w404
 .	.	.	PUNCT	_	pc75	punct	choisir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w354
 </s>
 </p>
-<p id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.seg5">
+<p id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.seg5" lang="French">
 <s id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.s20">
 Il	Il	il	PRON	Gender=Masc Number=Sing Person=3 PronType=Prs	w407	nsubj_pass	mettre	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w411
 a	a	avoir	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w408	aux_tense	mettre	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w411
@@ -564,7 +564,7 @@ décidée	décidée	décider	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Par
 .	.	.	PUNCT	_	pc87	punct	important	ADJ	Gender=Masc Number=Sing	w452
 </s>
 </p>
-<p id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.seg6">
+<p id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.seg6" lang="French">
 <s id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.s24">
 Pour	Pour	pour	ADP	_	w478	case	mise	NOUN	Gender=Fem Number=Sing	w480
 la	la	le	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w479	det	mise	NOUN	Gender=Fem Number=Sing	w480
@@ -757,7 +757,7 @@ co-formulant	co-formulant	co-formulant	NOUN	Gender=Masc Number=Sing	w610	nmod	us
 .	.	.	PUNCT	_	pc112	punct	juger	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w524
 </s>
 </p>
-<p id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.seg7">
+<p id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.seg7" lang="French">
 <s id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.s26">
 Notons	Notons	noter	VERB	Mood=Imp Number=Plur Person=1 Tense=Pres VerbForm=Fin	w611	root	.	PUNCT	_	pc115
 que	que	que	SCONJ	_	w612	mark	identifier	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w620
@@ -822,7 +822,7 @@ co-formulant	co-formulant	co-formulant	NOUN	Gender=Masc Number=Sing	w655	obl_arg
 .	.	.	PUNCT	_	pc118	punct	faire	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w642
 </s>
 </p>
-<p id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.seg8">
+<p id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.seg8" lang="French">
 <s id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.s28">
 Le	Le	le	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w656	det	retrait	NOUN	Gender=Masc Number=Sing	w657
 retrait	retrait	retrait	NOUN	Gender=Masc Number=Sing	w657	nsubj_pass	motiver	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w662
@@ -1030,7 +1030,7 @@ potentiels	potentiels	potentiel	ADJ	Gender=Masc Number=Plur	w787	amod	acheteur	N
 </p>
 </speech>
 <speech id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.u53" speaker_id="GerkensMuriel" speaker_name="Gerkens, Muriel" speaker_role="Regular" speaker_type="MP" speaker_party="Ecolo" speaker_party_name="Ecologistes Confédérés pour l'Organisation de Luttes Originales" speaker_gender="F" speaker_birth="1957">
-<p id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.seg240">
+<p id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.seg240" lang="French">
 <s id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.s808">
 <name type="PER">
 Monsieur	Monsieur	monsieur	PROPN	_	w15282	dislocated	entendre	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	pc2208
@@ -1102,7 +1102,7 @@ crédibles	crédibles	crédible	ADJ	Gender=Masc Number=Plur	w15327	xcomp	devenir
 .	.	.	PUNCT	_	pc2215	punct	chose	NOUN	Gender=Fem Number=Sing	w15308
 </s>
 </p>
-<p id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.seg241">
+<p id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.seg241" lang="French">
 <s id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.s810">
 Deux	Deux	Deux	NUM	_	w15328	nummod	point	NOUN	Gender=Masc Number=Plur	w15329
 points	points	point	NOUN	Gender=Masc Number=Plur	w15329	nsubj	perturber	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w15332
@@ -1219,7 +1219,7 @@ cause	cause	cause	NOUN	Gender=Fem Number=Sing	w15404	obl	mettre	VERB	Gender=Fem 
 .	.	.	PUNCT	_	pc2229	punct	mettre	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w15402
 </s>
 </p>
-<p id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.seg242">
+<p id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.seg242" lang="French">
 <s id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.s814">
 Les	Les	le	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	w15405	det	rapport	NOUN	Gender=Masc Number=Plur	w15406
 rapports	rapports	rapport	NOUN	Gender=Masc Number=Plur	w15406	nsubj	porter	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w15418
@@ -1426,7 +1426,7 @@ grande	grande	grand	ADJ	Gender=Fem Number=Sing	w15554	amod	échelle	NOUN	Gender=
 </p>
 </speech>
 <speech id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.u54" speaker_id="GerkensMuriel" speaker_name="Gerkens, Muriel" speaker_role="Chairperson" speaker_type="MP" speaker_party="Ecolo" speaker_party_name="Ecologistes Confédérés pour l'Organisation de Luttes Originales" speaker_gender="F" speaker_birth="1957">
-<p id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.seg243">
+<p id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.seg243" lang="French">
 <s id="ParlaMint-BE_2017-04-19-54-commissie-ic640x.s822">
 La	La	le	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w15565	det	question	NOUN	Gender=Fem Number=Sing	w15566
 question	question	question	NOUN	Gender=Fem Number=Sing	w15566	nsubj_pass	transformer	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w15574

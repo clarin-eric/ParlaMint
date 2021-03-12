@@ -1,6 +1,6 @@
 <text id="ParlaMint-BE_2016-09-20-54-commissie-ic488x.ana" subcorpus="Reference" term="54" session="-" meeting="ic488" sitting="-" agenda="-" from="2016-09-20" to="2016-09-20" title="Belgisch parlementair corpus ParlaMint-BE, commissievergadering van 20-09-2016 [ParlaMint.ana SAMPLE]">
 <speech id="ParlaMint-BE_2016-09-20-54-commissie-ic488x.u1" speaker_id="DelizéeJeanMarc" speaker_name="Delizée, Jean-Marc" speaker_role="Chairperson" speaker_type="MP" speaker_party="PS" speaker_party_name="Parti Socialiste" speaker_gender="M" speaker_birth="1959">
-<p id="ParlaMint-BE_2016-09-20-54-commissie-ic488x.seg1">
+<p id="ParlaMint-BE_2016-09-20-54-commissie-ic488x.seg1" lang="French">
 <s id="ParlaMint-BE_2016-09-20-54-commissie-ic488x.s24">
 Mme	Mme	madame	NOUN	Gender=Fem Number=Sing	w544	nsubj	souhaiter	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w547
 la	la	le	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w545	det	ministre	NOUN	Gender=Masc Number=Sing	w546
@@ -17,7 +17,7 @@ questions	questions	question	NOUN	Gender=Fem Number=Plur	w552	obl	intervenir	VER
 </p>
 </speech>
 <speech id="ParlaMint-BE_2016-09-20-54-commissie-ic488x.u2" speaker_id="MarghemMarieChristine" speaker_name="Marghem, Marie-Christine" speaker_role="Minister" speaker_type="notMP" speaker_party="_" speaker_party_name="_" speaker_gender="F" speaker_birth="1963">
-<p id="ParlaMint-BE_2016-09-20-54-commissie-ic488x.seg2">
+<p id="ParlaMint-BE_2016-09-20-54-commissie-ic488x.seg2" lang="French">
 <s id="ParlaMint-BE_2016-09-20-54-commissie-ic488x.s26">
 Monsieur	Monsieur	monsieur	INTJ	_	w557	parataxis	saluer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w566
 le	le	le	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w558	det	président	NOUN	Gender=Masc Number=Sing	w559
@@ -64,7 +64,7 @@ travaux	travaux	travail	NOUN	Gender=Masc Number=Plur	w583	obj	reprendre	VERB	Gen
 .	.	.	PUNCT	_	pc173	punct	saluer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w566
 </s>
 </p>
-<p id="ParlaMint-BE_2016-09-20-54-commissie-ic488x.seg3">
+<p id="ParlaMint-BE_2016-09-20-54-commissie-ic488x.seg3" lang="French">
 <s id="ParlaMint-BE_2016-09-20-54-commissie-ic488x.s27">
 Vu	Vu	vu	ADP	_	w584	case	nombre	NOUN	Gender=Masc Number=Sing	w586
 le	le	le	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w585	det	nombre	NOUN	Gender=Masc Number=Sing	w586
@@ -150,7 +150,7 @@ aujourd'hui	aujourd'hui	aujourd'hui	ADV	_	w643	advmod	traiter	VERB	Gender=Fem Nu
 </p>
 </speech>
 <speech id="ParlaMint-BE_2016-09-20-54-commissie-ic488x.u101" speaker_id="MarghemMarieChristine" speaker_name="Marghem, Marie-Christine" speaker_role="Minister" speaker_type="notMP" speaker_party="_" speaker_party_name="_" speaker_gender="F" speaker_birth="1963">
-<p id="ParlaMint-BE_2016-09-20-54-commissie-ic488x.seg347">
+<p id="ParlaMint-BE_2016-09-20-54-commissie-ic488x.seg347" lang="French">
 <s id="ParlaMint-BE_2016-09-20-54-commissie-ic488x.s1337">
 <name type="PER">
 Monsieur	Monsieur	monsieur	PROPN	_	w21082	vocative	aller	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w21086
@@ -178,7 +178,7 @@ par	par	par	ADP	_	w21094	case	écrire	NOUN	Gender=Masc Number=Sing	w21095
 </p>
 </speech>
 <speech id="ParlaMint-BE_2016-09-20-54-commissie-ic488x.u102" speaker_id="DelizéeJeanMarc" speaker_name="Delizée, Jean-Marc" speaker_role="Chairperson" speaker_type="MP" speaker_party="PS" speaker_party_name="Parti Socialiste" speaker_gender="M" speaker_birth="1959">
-<p id="ParlaMint-BE_2016-09-20-54-commissie-ic488x.seg348">
+<p id="ParlaMint-BE_2016-09-20-54-commissie-ic488x.seg348" lang="French">
 <s id="ParlaMint-BE_2016-09-20-54-commissie-ic488x.s1339">
 Parfait	Parfait	parfait	ADJ	_	w21098	root	.	PUNCT	_	pc3709
 <g/>

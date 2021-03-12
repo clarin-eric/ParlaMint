@@ -1,6 +1,6 @@
 <text id="ParlaMint-HR_S07.ana" subcorpus="Reference" term="9" session="7" meeting="-" sitting="-" agenda="-" from="2018-03-23" to="2018-05-09" title="Minutes of the National Assembly of the Republic of Croatia, Term 9, Session 7 (2018-03-23 - 2018-05-09)">
 <speech id="ParlaMint-HR_S07.u1" speaker_id="JandrokovićGordan" speaker_name="Jandroković, Gordan" speaker_role="Chairperson" speaker_type="MP" speaker_party="HDZ" speaker_party_name="Klub Hrvatske demokratske zajednice" speaker_gender="M" speaker_birth="1967">
-<p id="seg229262">
+<p id="seg229262" lang="Croatian">
 <s id="seg229262.1">
 Gospođe	Gospođe	gospođa	NOUN	Case=Nom Gender=Fem Number=Plur	1	nsubj	počinjati	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	7
 i	i	i	CCONJ	_	2	cc	zastupnik	NOUN	Case=Nom Gender=Masc Number=Plur	4
@@ -35,7 +35,7 @@ do	do	do	ADP	Case=Gen	24	case	139.	ADJ	NumType=Ord	25
 139.	139.	139.	ADJ	NumType=Ord	25	amod	članak	NOUN	Case=Nom Gender=Masc Number=Plur	22
 </s>
 </p>
-<p id="seg229263">
+<p id="seg229263" lang="Croatian">
 <s id="seg229263.1">
 Aktualno	Aktualno	aktualan	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Neut Number=Sing	1	amod	prijepodne	NOUN	Case=Nom Gender=Neut Number=Sing	2
 prijepodne	prijepodne	prijepodne	NOUN	Case=Nom Gender=Neut Number=Sing	2	nsubj	održavati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
@@ -56,7 +56,7 @@ reda	reda	red	NOUN	Case=Gen Gender=Masc Number=Sing	15	nmod	točka	NOUN	Case=Acc
 .	.	.	PUNCT	_	16	punct	održavati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 </s>
 </p>
-<p id="seg229264">
+<p id="seg229264" lang="Croatian">
 <s id="seg229264.1">
 Prvi	Prvi	prvi	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Sing	1	root	-	-	-	-
 na	na	na	ADP	Case=Loc	2	case	red	NOUN	Case=Loc Gender=Masc Number=Sing	3
@@ -85,7 +85,7 @@ Divjak	Divjak	Divjak	PROPN	Case=Dat Gender=Fem Number=Sing	19	flat	Blaženka	PRO
 .	.	.	PUNCT	_	20	punct	prvi	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Sing	1
 </s>
 </p>
-<p id="seg229265">
+<p id="seg229265" lang="Croatian">
 <s id="seg229265.1">
 Izvolite	Izvolite	izvoljeti	VERB	Mood=Imp Number=Plur Person=2 VerbForm=Fin	1	root	-	-	-	-
 <g/>
@@ -94,7 +94,7 @@ Izvolite	Izvolite	izvoljeti	VERB	Mood=Imp Number=Plur Person=2 VerbForm=Fin	1	ro
 </p>
 </speech>
 <speech id="ParlaMint-HR_S07.u2" speaker_id="RadinFurio" speaker_name="Radin, Furio" speaker_role="Regular" speaker_type="MP" speaker_party="IDS, PGS, RI" speaker_party_name="Klub Istarskog demokratskog sabora, Primorsko-goranskog saveza, Liste za Rijeku" speaker_gender="M" speaker_birth="1950">
-<p id="seg229267">
+<p id="seg229267" lang="Croatian">
 <s id="seg229267.1">
 Cijenjena	Cijenjena	cijeniti	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Fem Number=Sing VerbForm=Part Voice=Pass	1	amod	ministrica	NOUN	Case=Nom Gender=Fem Number=Sing	2
 ministrice	ministrice	ministrica	NOUN	Case=Nom Gender=Fem Number=Sing	2	nsubj	biti	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	11
@@ -138,7 +138,7 @@ im	im	oni	PRON	Case=Dat Number=Plur Person=3 PronType=Prs	32	iobj	ogorčavati	VE
 .	.	.	PUNCT	_	34	punct	ogorčavati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	31
 </s>
 </p>
-<p id="seg229268">
+<p id="seg229268" lang="Croatian">
 <s id="seg229268.1">
 Zapravo	Zapravo	zapravo	ADV	Degree=Pos	1	advmod	bitan	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Plur	4
 jedino	jedino	jedino	ADV	Degree=Pos	2	advmod	bitan	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Plur	4
@@ -165,7 +165,7 @@ osobe	osobe	osoba	NOUN	Case=Nom Gender=Fem Number=Plur	21	nsubj	činiti	VERB	Moo
 .	.	.	PUNCT	_	22	punct	bitan	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Plur	4
 </s>
 </p>
-<p id="seg229269">
+<p id="seg229269" lang="Croatian">
 <s id="seg229269.1">
 Uzet	Uzet	uzeti	VERB	VerbForm=Inf	1	root	-	-	-	-
 ću	ću	htjeti	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	2	aux	uzeti	VERB	VerbForm=Inf	1
@@ -235,7 +235,7 @@ presudan	presudan	presudan	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Numb
 .	.	.	PUNCT	_	24	punct	irelevantan	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing	9
 </s>
 </p>
-<p id="seg229270">
+<p id="seg229270" lang="Croatian">
 <s id="seg229270.1">
 Zašto	Zašto	zašto	ADV	Degree=Pos PronType=Int,Rel	1	advmod	uzeti	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	3
 sam	sam	biti	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	2	aux	uzeti	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	3
@@ -328,7 +328,7 @@ džepa	džepa	džep	NOUN	Case=Gen Gender=Masc Number=Sing	33	obl	plaćati	VERB	M
 .	.	.	PUNCT	_	34	punct	nositi	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
 </s>
 </p>
-<p id="seg229271">
+<p id="seg229271" lang="Croatian">
 <s id="seg229271.1">
 Oni	Oni	oni	PRON	Case=Nom Gender=Masc Number=Plur Person=3 PronType=Prs	1	nsubj	vraćati	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	3
 se	se	sebe	PRON	Case=Acc PronType=Prs Reflex=Yes	2	expl_pv	vraćati	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	3
@@ -416,7 +416,7 @@ zapošljavanje	zapošljavanje	zapošljavanje	NOUN	Case=Acc Gender=Neut Number=Si
 .	.	.	PUNCT	_	15	punct	moći	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	3
 </s>
 </p>
-<p id="seg229272">
+<p id="seg229272" lang="Croatian">
 <s id="seg229272.1">
 Neki	Neki	neki	DET	Case=Nom Gender=Masc Number=Plur PronType=Ind	1	amod	profesor	NOUN	Case=Nom Gender=Masc Number=Plur	3
 su	su	biti	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	2	aux	izgubiti	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part Voice=Act	8
@@ -441,7 +441,7 @@ profesori	profesori	profesor	NOUN	Case=Nom Gender=Masc Number=Plur	13	conj	izgub
 <note type="vocal:interruption">
 /Upadica predsjednik: Kolega Radin, vrijeme je isteklo, molim vas pitanje./	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg229273">
+<p id="seg229273" lang="Croatian">
 <s id="seg229273.1">
 Nastavit	Nastavit	nastaviti	VERB	VerbForm=Inf	1	root	-	-	-	-
 ću	ću	htjeti	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	2	aux	nastaviti	VERB	VerbForm=Inf	1
@@ -452,7 +452,7 @@ poslije	poslije	poslije	ADV	Degree=Pos	3	advmod	nastaviti	VERB	VerbForm=Inf	1
 </p>
 </speech>
 <speech id="ParlaMint-HR_S07.u9941" speaker_id="LovrinovićIvan" speaker_name="Lovrinović, Ivan" speaker_role="Regular" speaker_type="MP" speaker_party="Živi zid i PH" speaker_party_name="Klub zastupnika Živog zida i Promijenimo Hrvatsku" speaker_gender="M" speaker_birth="1960">
-<p id="seg286135">
+<p id="seg286135" lang="Croatian">
 <s id="seg286135.1">
 Žao	Žao	žao	ADV	Degree=Pos	1	root	-	-	-	-
 mi	mi	ja	PRON	Case=Dat Number=Sing Person=1 PronType=Prs	2	obj	žao	ADV	Degree=Pos	1
@@ -475,7 +475,7 @@ je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	14	cop	žao
 </p>
 </speech>
 <speech id="ParlaMint-HR_S07.u9942" speaker_id="JandrokovićGordan" speaker_name="Jandroković, Gordan" speaker_role="Chairperson" speaker_type="MP" speaker_party="HDZ" speaker_party_name="Klub Hrvatske demokratske zajednice" speaker_gender="M" speaker_birth="1967">
-<p id="seg286137">
+<p id="seg286137" lang="Croatian">
 <s id="seg286137.1">
 Dobro	Dobro	dobro	ADV	Degree=Pos	1	discourse	žao	ADV	Degree=Pos	3
 <g/>
@@ -494,7 +494,7 @@ nema	nema	nemati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	11	c
 .	.	.	PUNCT	_	12	punct	žao	ADV	Degree=Pos	3
 </s>
 </p>
-<p id="seg286138">
+<p id="seg286138" lang="Croatian">
 <s id="seg286138.1">
 Idemo	Idemo	ići	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 na	na	na	ADP	Case=Acc	2	case	glasovanje	NOUN	Case=Acc Gender=Neut Number=Sing	3

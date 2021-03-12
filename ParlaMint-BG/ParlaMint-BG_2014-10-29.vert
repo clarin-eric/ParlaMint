@@ -1,6 +1,6 @@
 <text id="ParlaMint-BG_2014-10-29.ana" subcorpus="Reference" term="43" session="1" meeting="2" sitting="-" agenda="-" from="2014-10-29" to="2014-10-29" title="Report of the meeting of the Bulgarian National Assembly, Term 43, Session 1, Meeting 2 (2014-10-29)">
 <speech id="ParlaMint-BG_2014-10-29.u1" speaker_id="TsachevaTsetska" speaker_name="Цачева, Цецка" speaker_role="Chairperson" speaker_type="notMP" speaker_party="_" speaker_party_name="_" speaker_gender="F" speaker_birth="1958">
-<p id="ParlaMint-BG_2014-10-29.seg1">
+<p id="ParlaMint-BG_2014-10-29.seg1" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg1.1">
 Налице	Налице	налице	ADV	Degree=Pos	1	root	-	-	-	-
 е	е	съм	AUX	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	cop	налице	ADV	Degree=Pos	1
@@ -17,7 +17,7 @@
 <note type="kinesic:ringing">
 /Звъни./	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="ParlaMint-BG_2014-10-29.seg2">
+<p id="ParlaMint-BG_2014-10-29.seg2" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg2.1">
 След	След	след	ADP	_	1	case	заседание	NOUN	Definite=Def Gender=Neut Number=Sing	2
 заседанието	заседанието	заседание	NOUN	Definite=Def Gender=Neut Number=Sing	2	obl	предлагам	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	6
@@ -52,7 +52,7 @@
 г.	г.	година	NOUN	Definite=Ind Gender=Fem Number=Sing	27	nmod	октомври	NOUN	Definite=Ind Gender=Masc Number=Sing	25
 </s>
 </p>
-<p id="ParlaMint-BG_2014-10-29.seg3">
+<p id="ParlaMint-BG_2014-10-29.seg3" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg3.1">
 В	В	в	ADP	_	1	case	начало	NOUN	Definite=Def Gender=Neut Number=Sing	2
 началото	началото	начало	NOUN	Definite=Def Gender=Neut Number=Sing	2	obl	положа	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	8
@@ -90,7 +90,7 @@
 .	.	.	PUNCT	_	5	punct	район	NOUN	Definite=Ind Gender=Masc Number=Sing	2
 </s>
 </p>
-<p id="ParlaMint-BG_2014-10-29.seg4">
+<p id="ParlaMint-BG_2014-10-29.seg4" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg4.1">
 „	„	„	PROPN	Definite=Ind Gender=Masc Number=Sing	1	nsubj	проект	NOUN	Definite=Ind Gender=Masc Number=Sing	3
 <g/>
@@ -129,7 +129,7 @@
 г.	г.	година	NOUN	Definite=Ind Gender=Fem Number=Sing	13	nmod	октомври	NOUN	Definite=Ind Gender=Masc Number=Sing	11
 </s>
 </p>
-<p id="ParlaMint-BG_2014-10-29.seg5">
+<p id="ParlaMint-BG_2014-10-29.seg5" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg5.1">
 2.	2.	двадесети	ADJ	Definite=Ind Degree=Pos Gender=Masc NumType=Ord Number=Sing	1	amod	проект	NOUN	Definite=Ind Gender=Masc Number=Sing	2
 Проект	Проект	проект	NOUN	Definite=Ind Gender=Masc Number=Sing	2	root	-	-	-	-
@@ -167,7 +167,7 @@
 г.	г.	година	NOUN	Definite=Ind Gender=Fem Number=Sing	13	nmod	октомври	NOUN	Definite=Ind Gender=Masc Number=Sing	11
 </s>
 </p>
-<p id="ParlaMint-BG_2014-10-29.seg6">
+<p id="ParlaMint-BG_2014-10-29.seg6" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg6.1">
 3.	3.	тридесети	ADJ	Definite=Ind Degree=Pos Gender=Neut NumType=Ord Number=Sing	1	amod	изслушване	NOUN	Definite=Ind Gender=Neut Number=Sing	2
 Изслушване	Изслушване	изслушване	NOUN	Definite=Ind Gender=Neut Number=Sing	2	root	-	-	-	-
@@ -292,7 +292,7 @@
 г.	г.	година	NOUN	Definite=Ind Gender=Fem Number=Sing	9	nmod	октомври	NOUN	Definite=Ind Gender=Masc Number=Sing	7
 </s>
 </p>
-<p id="ParlaMint-BG_2014-10-29.seg7">
+<p id="ParlaMint-BG_2014-10-29.seg7" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg7.1">
 4.	4.	ч.	ADJ	Definite=Ind Degree=Pos Gender=Neut Number=Sing	1	amod	изслушване	NOUN	Definite=Ind Gender=Neut Number=Sing	2
 Изслушване	Изслушване	изслушване	NOUN	Definite=Ind Gender=Neut Number=Sing	2	root	-	-	-	-
@@ -334,7 +334,7 @@
 .	.	.	PUNCT	_	6	punct	вносител	NOUN	Definite=Ind Gender=Masc Number=Sing	1
 </s>
 </p>
-<p id="ParlaMint-BG_2014-10-29.seg8">
+<p id="ParlaMint-BG_2014-10-29.seg8" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg8.1">
 Точка	Точка	точка	NOUN	Definite=Ind Gender=Fem Number=Sing	1	nsubj	съм	AUX	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	17
 5	5	5	ADJ	Definite=Ind Degree=Pos Gender=Fem NumType=Ord Number=Sing	2	amod	точка	NOUN	Definite=Ind Gender=Fem Number=Sing	1
@@ -359,7 +359,7 @@
 :	:	:	PUNCT	_	18	punct	съм	AUX	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	17
 </s>
 </p>
-<p id="ParlaMint-BG_2014-10-29.seg9">
+<p id="ParlaMint-BG_2014-10-29.seg9" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg9.1">
 „	„	първи	ADJ	Definite=Ind Degree=Pos Gender=Neut Number=Sing	1	amod	изслушване	NOUN	Definite=Ind Gender=Neut Number=Sing	2
 <g/>
@@ -418,7 +418,7 @@
 .	.	.	PUNCT	_	10	punct	вносител	NOUN	Definite=Ind Gender=Masc Number=Plur	1
 </s>
 </p>
-<p id="ParlaMint-BG_2014-10-29.seg10">
+<p id="ParlaMint-BG_2014-10-29.seg10" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg10.1">
 Тук	Тук	там	ADV	PronType=Dem	1	advmod	искам	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 искам	искам	искам	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
@@ -475,7 +475,7 @@
 .	.	.	PUNCT	_	48	punct	искам	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 </s>
 </p>
-<p id="ParlaMint-BG_2014-10-29.seg11">
+<p id="ParlaMint-BG_2014-10-29.seg11" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg11.1">
 „	„	„	NOUN	Definite=Ind Gender=Masc Number=Sing	1	root	-	-	-	-
 <g/>
@@ -564,7 +564,7 @@
 ”	”	”	PUNCT	_	10	punct	вносител	NOUN	Definite=Ind Gender=Masc Number=Sing	1
 </s>
 </p>
-<p id="ParlaMint-BG_2014-10-29.seg12">
+<p id="ParlaMint-BG_2014-10-29.seg12" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg12.1">
 Предлагаме	Предлагаме	предлагам	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 това	това	този	PRON	Case=Nom Gender=Neut Number=Sing PronType=Dem	2	obj	предлагам	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
@@ -580,7 +580,7 @@
 .	.	.	PUNCT	_	11	punct	предлагам	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<p id="ParlaMint-BG_2014-10-29.seg13">
+<p id="ParlaMint-BG_2014-10-29.seg13" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg13.1">
 И	И	и	CCONJ	_	1	cc	точка	NOUN	Definite=Ind Gender=Fem Number=Sing	2
 т.	т.	точка	NOUN	Definite=Ind Gender=Fem Number=Sing	2	root	-	-	-	-
@@ -602,7 +602,7 @@
 :	:	:	PUNCT	_	16	punct	точка	NOUN	Definite=Ind Gender=Fem Number=Sing	2
 </s>
 </p>
-<p id="ParlaMint-BG_2014-10-29.seg14">
+<p id="ParlaMint-BG_2014-10-29.seg14" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg14.1">
 „	„	пети	ADJ	Definite=Def Degree=Pos Gender=Neut Number=Sing	1	amod	изслушване	NOUN	Definite=Ind Gender=Neut Number=Sing	2
 <g/>
@@ -696,7 +696,7 @@
 ”	”	”	PUNCT	_	7	punct	вносител	NOUN	Definite=Ind Gender=Masc Number=Sing	1
 </s>
 </p>
-<p id="ParlaMint-BG_2014-10-29.seg15">
+<p id="ParlaMint-BG_2014-10-29.seg15" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg15.1">
 Точка	Точка	точка	NOUN	Definite=Ind Gender=Fem Number=Sing	1	nsubj	съм	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	35
 8	8	четвърти	ADJ	Definite=Ind Degree=Pos Gender=Fem NumType=Ord Number=Sing	2	amod	точка	NOUN	Definite=Ind Gender=Fem Number=Sing	1
@@ -743,7 +743,7 @@
 :	:	:	PUNCT	_	36	punct	съм	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	35
 </s>
 </p>
-<p id="ParlaMint-BG_2014-10-29.seg16">
+<p id="ParlaMint-BG_2014-10-29.seg16" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg16.1">
 „	„	пети	ADJ	Definite=Ind Degree=Pos Gender=Masc Number=Sing	1	amod	доклад	NOUN	Definite=Ind Gender=Masc Number=Sing	2
 <g/>
@@ -805,7 +805,7 @@
 .	.	.	PUNCT	_	38	punct	доклад	NOUN	Definite=Ind Gender=Masc Number=Sing	2
 </s>
 </p>
-<p id="ParlaMint-BG_2014-10-29.seg17">
+<p id="ParlaMint-BG_2014-10-29.seg17" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg17.1">
 И	И	и	CCONJ	_	1	cc	контрол	NOUN	Definite=Ind Gender=Masc Number=Sing	4
 обичайният	обичайният	обичаен	ADJ	Definite=Def Degree=Pos Gender=Masc Number=Sing	2	amod	контрол	NOUN	Definite=Ind Gender=Masc Number=Sing	4
@@ -842,7 +842,7 @@
 .	.	.	PUNCT	_	27	punct	контрол	NOUN	Definite=Ind Gender=Masc Number=Sing	4
 </s>
 </p>
-<p id="ParlaMint-BG_2014-10-29.seg18">
+<p id="ParlaMint-BG_2014-10-29.seg18" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg18.1">
 Моля	Моля	моля-(се)	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 да	да	да	AUX	_	2	aux	гласувам	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	3
@@ -856,7 +856,7 @@
 .	.	.	PUNCT	_	9	punct	моля-(се)	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<p id="ParlaMint-BG_2014-10-29.seg19">
+<p id="ParlaMint-BG_2014-10-29.seg19" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg19.1">
 Гласували	Гласували	гласувам	VERB	Aspect=Imp Definite=Ind Number=Plur Tense=Past VerbForm=Part Voice=Act	1	root	-	-	-	-
 212	212	212	NUM	Definite=Ind NumType=Card Number=Plur	2	nummod	представител	NOUN	Definite=Ind Gender=Masc Number=Plur	4
@@ -877,7 +877,7 @@
 1.	1.	1.	NUM	Definite=Ind NumType=Card Number=Plur	14	nsubj	въздържам-(се)	VERB	Aspect=Imp Definite=Ind Gender=Masc Number=Sing Tense=Past VerbForm=Part Voice=Act	12
 </s>
 </p>
-<p id="ParlaMint-BG_2014-10-29.seg20">
+<p id="ParlaMint-BG_2014-10-29.seg20" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg20.1">
 Предложението	Предложението	предложение	NOUN	Definite=Def Gender=Neut Number=Sing	1	nsubj_pass	приема	VERB	Aspect=Perf Definite=Ind Gender=Neut Number=Sing VerbForm=Part Voice=Pass	3
 е	е	съм	AUX	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	aux_pass	приема	VERB	Aspect=Perf Definite=Ind Gender=Neut Number=Sing VerbForm=Part Voice=Pass	3
@@ -886,7 +886,7 @@
 .	.	.	PUNCT	_	4	punct	приема	VERB	Aspect=Perf Definite=Ind Gender=Neut Number=Sing VerbForm=Part Voice=Pass	3
 </s>
 </p>
-<p id="ParlaMint-BG_2014-10-29.seg21">
+<p id="ParlaMint-BG_2014-10-29.seg21" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg21.1">
 Преминаваме	Преминаваме	преминавам	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 към	към	към	ADP	_	2	iobj	преминавам	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
@@ -894,7 +894,7 @@
 :	:	:	PUNCT	_	3	punct	преминавам	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<p id="ParlaMint-BG_2014-10-29.seg22">
+<p id="ParlaMint-BG_2014-10-29.seg22" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg22.1">
 ПОЛАГАНЕ	ПОЛАГАНЕ	полагане	NOUN	Definite=Ind Gender=Neut Number=Sing	1	root	-	-	-	-
 НА	НА	на	ADP	_	2	case	клетва	PROPN	Definite=Ind Gender=Fem Number=Sing	3
@@ -908,7 +908,7 @@
 .	.	.	PUNCT	_	7	punct	полагане	NOUN	Definite=Ind Gender=Neut Number=Sing	1
 </s>
 </p>
-<p id="ParlaMint-BG_2014-10-29.seg23">
+<p id="ParlaMint-BG_2014-10-29.seg23" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg23.1">
 Моля	Моля	моля-(се)	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	advcl	поканя	VERB	Aspect=Perf Mood=Imp Number=Plur Person=2 VerbForm=Fin	5
 <g/>
@@ -929,7 +929,7 @@
 .	.	.	PUNCT	_	12	punct	поканя	VERB	Aspect=Perf Mood=Imp Number=Plur Person=2 VerbForm=Fin	5
 </s>
 </p>
-<p id="ParlaMint-BG_2014-10-29.seg24">
+<p id="ParlaMint-BG_2014-10-29.seg24" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg24.1">
 С	С	с	ADP	_	1	case	решение	NOUN	Definite=Ind Gender=Neut Number=Sing	2
 Решение	Решение	решение	NOUN	Definite=Ind Gender=Neut Number=Sing	2	root	-	-	-	-
@@ -975,7 +975,7 @@
 :	:	:	PUNCT	_	13	punct	уведомявам	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	10
 </s>
 </p>
-<p id="ParlaMint-BG_2014-10-29.seg25">
+<p id="ParlaMint-BG_2014-10-29.seg25" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg25.1">
 С	С	с	ADP	_	1	case	писмо	NOUN	Definite=Ind Gender=Neut Number=Sing	2
 писмо	писмо	писмо	NOUN	Definite=Ind Gender=Neut Number=Sing	2	obl	получа	VERB	Aspect=Perf Definite=Ind Gender=Neut Number=Sing VerbForm=Part Voice=Pass	15
@@ -1088,7 +1088,7 @@
 .	.	.	PUNCT	_	20	punct	“	PUNCT	_	13
 </s>
 </p>
-<p id="ParlaMint-BG_2014-10-29.seg26">
+<p id="ParlaMint-BG_2014-10-29.seg26" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg26.1">
 „	„	„	NOUN	Definite=Ind Gender=Masc Number=Sing	1	root	-	-	-	-
 <g/>
@@ -1119,14 +1119,14 @@
 </name>
 </s>
 </p>
-<p id="ParlaMint-BG_2014-10-29.seg27">
+<p id="ParlaMint-BG_2014-10-29.seg27" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg27.1">
 РЕШИ	РЕШИ	реша	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
 :	:	:	PUNCT	_	2	punct	реша	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<p id="ParlaMint-BG_2014-10-29.seg28">
+<p id="ParlaMint-BG_2014-10-29.seg28" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg28.1">
 Обявява	Обявява	обявявам-(се)	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 за	за	за	ADP	_	2	case	избера	ADJ	Aspect=Perf Definite=Ind Gender=Masc Number=Sing VerbForm=Part Voice=Pass	3
@@ -1185,7 +1185,7 @@
 .	.	.	PUNCT	_	27	punct	“	PUNCT	_	20
 </s>
 </p>
-<p id="ParlaMint-BG_2014-10-29.seg29">
+<p id="ParlaMint-BG_2014-10-29.seg29" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg29.1">
 Решението	Решението	решение	NOUN	Definite=Def Gender=Neut Number=Sing	1	root	-	-	-	-
 да	да	да	AUX	_	2	aux	обнародвам	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	4
@@ -1204,7 +1204,7 @@
 ”	”	”	PUNCT	_	11	punct	обнародвам	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	4
 </s>
 </p>
-<p id="ParlaMint-BG_2014-10-29.seg30">
+<p id="ParlaMint-BG_2014-10-29.seg30" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg30.1">
 Моля	Моля	моля-(се)	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 да	да	да	AUX	_	2	aux	стана	VERB	Aspect=Perf Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	3
@@ -1219,7 +1219,7 @@
 </p>
 </speech>
 <speech id="ParlaMint-BG_2014-10-29.u2" speaker_id="DanevDobrin" speaker_name="Ненов Данев, Добрин" speaker_role="Regular" speaker_type="MP" speaker_party="_" speaker_party_name="_" speaker_gender="M" speaker_birth="1962">
-<p id="ParlaMint-BG_2014-10-29.seg31">
+<p id="ParlaMint-BG_2014-10-29.seg31" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg31.1">
 „	„	„	PUNCT	_	1	punct	заклевам-(се)	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 <g/>
@@ -1270,7 +1270,7 @@
 </note>
 </speech>
 <speech id="ParlaMint-BG_2014-10-29.u175" speaker_id="NenkovMiroslav" speaker_name="Ненков Ненков, Мирослав" speaker_role="Regular" speaker_type="notMP" speaker_party="_" speaker_party_name="_" speaker_gender="M" speaker_birth="1969">
-<p id="ParlaMint-BG_2014-10-29.seg668">
+<p id="ParlaMint-BG_2014-10-29.seg668" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg668.1">
 Много	Много	много	ADV	Definite=Ind Degree=Pos NumType=Card Number=Plur	1	advmod	благодаря	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 благодаря	благодаря	благодаря	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2	advcl	кратък	ADJ	Definite=Ind Degree=Pos Gender=Masc Number=Sing	7
@@ -1284,7 +1284,7 @@
 .	.	.	PUNCT	_	8	punct	благодаря	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 </s>
 </p>
-<p id="ParlaMint-BG_2014-10-29.seg669">
+<p id="ParlaMint-BG_2014-10-29.seg669" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg669.1">
 Петвалентната	Петвалентната	петвалентен	ADJ	Definite=Def Degree=Pos Gender=Fem Number=Sing	1	amod	ваксина	NOUN	Definite=Ind Gender=Fem Number=Sing	2
 ваксина	ваксина	ваксина	NOUN	Definite=Ind Gender=Fem Number=Sing	2	nsubj	лев	NOUN	Gender=Masc Number=Count	8
@@ -1351,7 +1351,7 @@
 .	.	.	PUNCT	_	27	punct	реализирам-(се)	VERB	Aspect=Perf Definite=Ind Number=Plur VerbForm=Part Voice=Pass	16
 </s>
 </p>
-<p id="ParlaMint-BG_2014-10-29.seg670">
+<p id="ParlaMint-BG_2014-10-29.seg670" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg670.1">
 Ако	Ако	ако	SCONJ	_	1	mark	казвам-(се)	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	3
 <g/>
@@ -1407,7 +1407,7 @@
 </p>
 </speech>
 <speech id="ParlaMint-BG_2014-10-29.u176" speaker_id="TsachevaTsetska" speaker_name="Цачева, Цецка" speaker_role="Chairperson" speaker_type="notMP" speaker_party="_" speaker_party_name="_" speaker_gender="F" speaker_birth="1958">
-<p id="ParlaMint-BG_2014-10-29.seg671">
+<p id="ParlaMint-BG_2014-10-29.seg671" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg671.1">
 Благодаря	Благодаря	благодаря	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 Ви	Ви	аз	PRON	Case=Dat Number=Sing Person=2 PronType=Prs	2	iobj	благодаря	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
@@ -1419,7 +1419,7 @@
 .	.	.	PUNCT	_	6	punct	благодаря	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<p id="ParlaMint-BG_2014-10-29.seg672">
+<p id="ParlaMint-BG_2014-10-29.seg672" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg672.1">
 С	С	с	ADP	_	1	case	този	PRON	Case=Nom Gender=Neut Number=Sing PronType=Dem	2
 това	това	този	PRON	Case=Nom Gender=Neut Number=Sing PronType=Dem	2	obl	изчерпвам-(се)	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	5
@@ -1432,7 +1432,7 @@
 .	.	.	PUNCT	_	8	punct	изчерпвам-(се)	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	5
 </s>
 </p>
-<p id="ParlaMint-BG_2014-10-29.seg673">
+<p id="ParlaMint-BG_2014-10-29.seg673" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg673.1">
 Утре	Утре	утре	ADV	Degree=Pos	1	advmod	заседание	NOUN	Definite=Ind Gender=Neut Number=Sing	5
 <g/>
@@ -1446,7 +1446,7 @@
 ч.	ч.	час	NOUN	Definite=Def Gender=Masc Number=Sing	9	conj	заседание	NOUN	Definite=Ind Gender=Neut Number=Sing	5
 </s>
 </p>
-<p id="ParlaMint-BG_2014-10-29.seg674">
+<p id="ParlaMint-BG_2014-10-29.seg674" lang="Bulgarian">
 <s id="ParlaMint-BG_2014-10-29.seg674.1">
 Закривам	Закривам	закривам	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 пленарното	пленарното	пленарен	ADJ	Definite=Def Degree=Pos Gender=Neut Number=Sing	2	amod	заседание	NOUN	Definite=Ind Gender=Neut Number=Sing	3

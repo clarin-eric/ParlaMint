@@ -1,6 +1,6 @@
 <text id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.ana" subcorpus="Reference" term="55" session="-" meeting="ip008" sitting="-" agenda="-" from="2019-10-08" to="2019-10-08" title="Belgisch parlementair corpus ParlaMint-BE, plenaire zitting van 08-10-2019 [ParlaMint.ana SAMPLE]">
 <speech id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.u1" speaker_id="DewaelPatrick" speaker_name="Dewael, Patrick" speaker_role="Chairperson" speaker_type="MP" speaker_party="Open Vld" speaker_party_name="Open Vlaamse Liberalen en Democraten" speaker_gender="M" speaker_birth="1955">
-<p id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg1">
+<p id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg1" lang="French">
 <s id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s4">
 La	La	le	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w34	det	séance	NOUN	Gender=Fem Number=Sing	w35
 séance	séance	séance	NOUN	Gender=Fem Number=Sing	w35	nsubj_pass	ouvrir	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w37
@@ -10,7 +10,7 @@ ouverte	ouverte	ouvrir	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w37	
 .	.	.	PUNCT	_	pc7	punct	ouvrir	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w37
 </s>
 </p>
-<p id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg2">
+<p id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg2" lang="Dutch">
 <s id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s5">
 De	De	de	DET	Definite=Def	w38	det	vergadering	NOUN	Gender=Com Number=Sing	w39
 vergadering	vergadering	vergadering	NOUN	Gender=Com Number=Sing	w39	nsubj_pass	openen	VERB	VerbForm=Part	w41
@@ -22,7 +22,7 @@ geopend	geopend	openen	VERB	VerbForm=Part	w41	root	.	PUNCT	_	pc8
 </p>
 </speech>
 <speech id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.u2" speaker_id="DewaelPatrick" speaker_name="Dewael, Patrick" speaker_role="Chairperson" speaker_type="MP" speaker_party="Open Vld" speaker_party_name="Open Vlaamse Liberalen en Democraten" speaker_gender="M" speaker_birth="1955">
-<p id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg3">
+<p id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg3" lang="French">
 <s id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s24">
 Mesdames	Mesdames	mesdame	NOUN	Gender=Fem Number=Plur	w192	obl_mod	réunir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w199
 <g/>
@@ -62,7 +62,7 @@ Constitution	Constitution	constitution	NOUN	Gender=Fem Number=Sing	w211	nmod	art
 .	.	.	PUNCT	_	pc33	punct	réunir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w199
 </s>
 </p>
-<p id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg4">
+<p id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg4" lang="Dutch">
 <s id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s25">
 Dames	Dames	dame	NOUN	Number=Plur	w212	parataxis	komen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w219
 en	en	en	CCONJ	_	w213	cc	heer	NOUN	Number=Plur	w214
@@ -96,7 +96,7 @@ Grondwet	Grondwet	grondwet	NOUN	Gender=Com Number=Sing	w231	nmod	artikel	NOUN	Ge
 .	.	.	PUNCT	_	pc36	punct	komen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w219
 </s>
 </p>
-<p id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg5">
+<p id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg5" lang="French">
 <s id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s26">
 Je	Je	il	PRON	Number=Sing Person=1 PronType=Prs	w232	nsubj	déclarer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w233
 déclare	déclare	déclarer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w233	root	.	PUNCT	_	pc37
@@ -109,7 +109,7 @@ législative	législative	législatif	ADJ	Gender=Fem Number=Sing	w237	amod	sessi
 .	.	.	PUNCT	_	pc37	punct	déclarer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w233
 </s>
 </p>
-<p id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg6">
+<p id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg6" lang="Dutch">
 <s id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s27">
 Ik	Ik	ik	PRON	Case=Nom Person=1 PronType=Prs	w239	nsubj	verklaren	VERB	Number=Sing Tense=Pres VerbForm=Fin	w240
 verklaar	verklaar	verklaren	VERB	Number=Sing Tense=Pres VerbForm=Fin	w240	root	.	PUNCT	_	pc38
@@ -125,7 +125,7 @@ geopend	geopend	openen	VERB	VerbForm=Part	w246	xcomp	verklaren	VERB	Number=Sing 
 </p>
 </speech>
 <speech id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.u92" speaker_id="DewaelPatrick" speaker_name="Dewael, Patrick" speaker_role="Chairperson" speaker_type="MP" speaker_party="Open Vld" speaker_party_name="Open Vlaamse Liberalen en Democraten" speaker_gender="M" speaker_birth="1955">
-<p id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg363">
+<p id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg363" lang="Dutch">
 <s id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s1098">
 Einde	Einde	einde	NOUN	Gender=Com Number=Sing	w16744	root	.	PUNCT	_	pc2663
 van	van	van	ADP	_	w16745	case	vraag	NOUN	Number=Plur	w16748
@@ -138,7 +138,7 @@ vragen	vragen	vraag	NOUN	Number=Plur	w16748	nmod	einde	NOUN	Gender=Com Number=Si
 </p>
 </speech>
 <speech id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.u93" speaker_id="DewaelPatrick" speaker_name="Dewael, Patrick" speaker_role="Chairperson" speaker_type="MP" speaker_party="Open Vld" speaker_party_name="Open Vlaamse Liberalen en Democraten" speaker_gender="M" speaker_birth="1955">
-<p id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg364">
+<p id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg364" lang="French">
 <s id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s1101">
 Vous	Vous	il	PRON	Number=Plur Person=2 PronType=Prs	w16759	nsubj	prendre	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w16761
 avez	avez	avoir	AUX	Mood=Ind Number=Plur Person=2 Tense=Pres VerbForm=Fin	w16760	aux_tense	prendre	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w16761
@@ -171,7 +171,7 @@ demandée	demandée	demander	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Par
 .	.	.	PUNCT	_	pc2664	punct	prendre	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w16761
 </s>
 </p>
-<p id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg365">
+<p id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg365" lang="Dutch">
 <s id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s1102">
 In	In	in	ADP	_	w16786	case	agenda	NOUN	Gender=Com Number=Sing	w16790
 de	de	de	DET	Definite=Def	w16787	det	agenda	NOUN	Gender=Com Number=Sing	w16790
@@ -193,7 +193,7 @@ gevraagd	gevraagd	vragen	VERB	VerbForm=Part	w16801	acl_relcl	voorstel	NOUN	Numbe
 .	.	.	PUNCT	_	pc2665	punct	komen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w16791
 </s>
 </p>
-<p id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg366">
+<p id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg366" lang="French">
 <s id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s1103">
 S'	S'	si	SCONJ	_	w16802	mark	avoir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w16804
 <g/>
@@ -239,7 +239,7 @@ Règlement	Règlement	Règlement	PROPN	_	w16827	obl_arg	conformément	ADV	_	w168
 .	.	.	PUNCT	_	pc2671	punct	renvoyer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w16819
 </s>
 </p>
-<p id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg367">
+<p id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg367" lang="Dutch">
 <s id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s1105">
 Indien	Indien	indien	SCONJ	_	w16828	mark	zijn	VERB	Number=Sing Tense=Pres VerbForm=Fin	w16832
 er	er	er	ADV	_	w16829	advmod	zijn	VERB	Number=Sing Tense=Pres VerbForm=Fin	w16832
@@ -274,7 +274,7 @@ verzonden	verzonden	verzenden	VERB	VerbForm=Part	w16848	root	.	PUNCT	_	pc2674
 .	.	.	PUNCT	_	pc2674	punct	verzenden	VERB	VerbForm=Part	w16848
 </s>
 </p>
-<p id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg368">
+<p id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg368" lang="French">
 <s id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s1107">
 Pas	Pas	pas	ADV	Polarity=Neg	w16849	advmod	observation	NOUN	Gender=Fem Number=Sing	pc2676
 d'	d'	de	ADP	_	w16850	case	observation	NOUN	Gender=Fem Number=Sing	pc2676
@@ -284,7 +284,7 @@ observation	observation	observation	NOUN	Gender=Fem Number=Sing	pc2676	root	?	PU
 ?	?	?	PUNCT	_	pc2675	punct	observation	NOUN	Gender=Fem Number=Sing	pc2676
 </s>
 </p>
-<p id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg369">
+<p id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg369" lang="French">
 <s id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s1109">
 Il	Il	il	PRON	Gender=Masc Number=Sing Person=3 PronType=Prs	w16852	nsubj	être	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	w16854
 en	en	en	PRON	Person=3	w16853	expl_comp	être	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	w16854
@@ -294,7 +294,7 @@ ainsi	ainsi	ainsi	ADV	_	w16855	advmod	être	VERB	Mood=Ind Number=Sing Person=3 T
 .	.	.	PUNCT	_	pc2679	punct	être	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	w16854
 </s>
 </p>
-<p id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg370">
+<p id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg370" lang="Dutch">
 <s id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s1110">
 Geen	Geen	geen	DET	_	w16856	det	bezwaar	NOUN	Gender=Neut Number=Sing	w16857
 bezwaar	bezwaar	bezwaar	NOUN	Gender=Neut Number=Sing	w16857	root	?	PUNCT	_	pc2680
@@ -302,7 +302,7 @@ bezwaar	bezwaar	bezwaar	NOUN	Gender=Neut Number=Sing	w16857	root	?	PUNCT	_	pc268
 ?	?	?	PUNCT	_	pc2680	punct	bezwaar	NOUN	Gender=Neut Number=Sing	w16857
 </s>
 </p>
-<p id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg371">
+<p id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg371" lang="Dutch">
 <s id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s1112">
 Aldus	Aldus	aldus	ADV	_	w16859	advmod	besluiten	VERB	VerbForm=Part	w16861
 wordt	wordt	worden	AUX	Number=Sing Tense=Pres VerbForm=Fin	w16860	aux_pass	besluiten	VERB	VerbForm=Part	w16861
@@ -311,7 +311,7 @@ besloten	besloten	besluiten	VERB	VerbForm=Part	w16861	root	.	PUNCT	_	pc2683
 .	.	.	PUNCT	_	pc2683	punct	besluiten	VERB	VerbForm=Part	w16861
 </s>
 </p>
-<p id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg372">
+<p id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg372" lang="French">
 <s id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s1113">
 La	La	le	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w16862	det	séance	NOUN	Gender=Fem Number=Sing	w16863
 séance	séance	séance	NOUN	Gender=Fem Number=Sing	w16863	nsubj_pass	lever	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w16865
@@ -336,7 +336,7 @@ h	h	heure	NOUN	Gender=Fem Number=Sing	w16875	nmod	jeudi	NOUN	Gender=Masc Number=
 .	.	.	PUNCT	_	pc2685	punct	séance	NOUN	Gender=Fem Number=Sing	w16867
 </s>
 </p>
-<p id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg373">
+<p id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg373" lang="Dutch">
 <s id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s1115">
 De	De	de	DET	Definite=Def	w16877	det	vergadering	NOUN	Gender=Com Number=Sing	w16878
 vergadering	vergadering	vergadering	NOUN	Gender=Com Number=Sing	w16878	nsubj_pass	sluiten	VERB	VerbForm=Part	w16880

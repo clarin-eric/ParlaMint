@@ -1,6 +1,6 @@
 <text id="ParlaMint-PL_2015-11-12-senat-01-1.ana" subcorpus="Reference" term="9-upper" session="1-upper" meeting="-" sitting="1-upper" agenda="-" from="2015-11-12" to="2015-11-12" title="Report of the session of the Senat of the Republic of Poland, Term 9, Session 1, Day 1 (2015-11-12)">
 <speech id="ParlaMint-PL_2015-11-12-senat-01-1.u1" speaker_id="DudaAndrzej" speaker_name="Duda, Andrzej" speaker_role="Guest" speaker_type="notMP" speaker_party="_" speaker_party_name="_" speaker_gender="M" speaker_birth="?">
-<p id="seg543983">
+<p id="seg543983" lang="Polish">
 <s id="seg543983.1">
 Szanowni	Szanowni	szanowny	ADJ	Animacy=Hum Case=Nom Degree=Pos Gender=Masc Number=Sing	1	amod	państwo	PROPN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	2
 Państwo	Państwo	państwo	PROPN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	2	vocative	-	-	-	-
@@ -35,7 +35,7 @@ Prezesie	Prezesie	prezes	NOUN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	2	app
 !	!	!	PUNCT	PunctType=Excl	3	punct	pan	NOUN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	1
 </s>
 </p>
-<p id="seg543984">
+<p id="seg543984" lang="Polish">
 <s id="seg543984.1">
 Szanowni	Szanowni	szanowny	ADJ	Case=Voc Degree=Pos Gender=Neut Number=Sing	1	amod	państwo	PROPN	Case=Voc Gender=Neut Number=Sing	2
 Państwo	Państwo	państwo	PROPN	Case=Voc Gender=Neut Number=Sing	2	vocative	otwierać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	4
@@ -55,7 +55,7 @@ kadencji	kadencji	kadencja	NOUN	Case=Gen Gender=Fem Number=Sing	11	nmod	senat	NO
 .	.	.	PUNCT	PunctType=Peri	12	punct	otwierać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	4
 </s>
 </p>
-<p id="seg543985">
+<p id="seg543985" lang="Polish">
 <s id="seg543985.1">
 Przede	Przede	przed	ADP	AdpType=Prep Variant=Long	1	parataxis_insert	-	-	-	-
 wszystkim	wszystkim	wszystko	PRON	Case=Ins Gender=Neut Number=Sing PronType=Tot	2	fixed	przed	ADP	AdpType=Prep Variant=Long	1
@@ -66,7 +66,7 @@ wszystkim	wszystkim	wszystko	PRON	Case=Ins Gender=Neut Number=Sing PronType=Tot	
 <note type="kinesic:applause">
 /Oklaski/	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg543986">
+<p id="seg543986" lang="Polish">
 <s id="seg543986.1">
 To	To	to	VERB	Mood=Ind Tense=Pres VerbForm=Fin VerbType=Quasi	1	root	-	-	-	-
 brawa	brawa	brawo	NOUN	Case=Nom Gender=Neut Number=Plur	2	nsubj	to	VERB	Mood=Ind Tense=Pres VerbForm=Fin VerbType=Quasi	1
@@ -76,7 +76,7 @@ państwa	państwa	państwo	NOUN	Case=Gen Gender=Neut Number=Sing	4	nmod	brawo	NO
 .	.	.	PUNCT	PunctType=Peri	5	punct	to	VERB	Mood=Ind Tense=Pres VerbForm=Fin VerbType=Quasi	1
 </s>
 </p>
-<p id="seg543987">
+<p id="seg543987" lang="Polish">
 <s id="seg543987.1">
 Przede	Przede	przed	ADP	AdpType=Prep Variant=Long	1	parataxis_insert	chcieć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	3
 wszystkim	wszystkim	wszystko	PRON	Case=Ins Gender=Neut Number=Sing PronType=Tot	2	fixed	przed	ADP	AdpType=Prep Variant=Long	1
@@ -251,7 +251,7 @@ prawdziwa	prawdziwa	prawdziwy	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	17	
 <note type="kinesic:applause">
 /Oklaski/	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg543988">
+<p id="seg543988" lang="Polish">
 <s id="seg543988.1">
 Ja	Ja	ja	PRON	Animacy=Hum Case=Nom Gender=Masc Number=Sing Person=1 PronType=Prs	1	nsubj	myśleć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 myślę	myślę	myśleć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
@@ -582,7 +582,7 @@ Polski	Polski	Polska	PROPN	Case=Gen Gender=Fem Number=Sing	12	nmod_arg	symbol	NO
 <note type="kinesic:applause">
 /Oklaski/	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg543989">
+<p id="seg543989" lang="Polish">
 <s id="seg543989.1">
 I	I	i	CCONJ	_	1	cc	uwaga	NOUN	Case=Nom Gender=Fem Number=Sing	4
 jeszcze	jeszcze	jeszcze	PART	_	2	advmod	jeden	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	3
@@ -1405,7 +1405,7 @@ współdziałali	współdziałali	współdziałać	VERB	Animacy=Hum Aspect=Imp G
 .	.	.	PUNCT	PunctType=Peri	12	punct	chcieć	VERB	Animacy=Hum Aspect=Imp Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<p id="seg543990">
+<p id="seg543990" lang="Polish">
 <s id="seg543990.1">
 Chciał	Chciał	chcieć	VERB	Animacy=Hum Aspect=Imp Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
@@ -1478,7 +1478,7 @@ zintensyfikowało	zintensyfikowało	zintensyfikować	VERB	Aspect=Perf Gender=Neu
 <note type="kinesic:applause">
 /Oklaski/	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg543991">
+<p id="seg543991" lang="Polish">
 <s id="seg543991.1">
 Ja	Ja	ja	PRON	Animacy=Hum Case=Nom Gender=Masc Number=Sing Person=1 PronType=Prs	1	nsubj	-	-	-	-
 w	w	w	ADP	AdpType=Prep Variant=Short	2	case	wystąpienie	NOUN	Case=Gen Gender=Neut Number=Sing	5
@@ -1591,7 +1591,7 @@ ministrem	ministrem	minister	NOUN	Animacy=Hum Case=Ins Gender=Masc Number=Sing	8
 .	.	.	PUNCT	PunctType=Peri	9	punct	prosić	VERB	Animacy=Hum Aspect=Imp Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<p id="seg543992">
+<p id="seg543992" lang="Polish">
 <s id="seg543992.1">
 Prosił	Prosił	prosić	VERB	Animacy=Hum Aspect=Imp Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
@@ -1786,7 +1786,7 @@ drzwi	drzwi	drzwi	NOUN	Case=Nom Gender=Neut Number=Ptan	5	nsubj	chcieć	VERB	Asp
 <note type="kinesic:applause">
 /Oklaski/	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg543993">
+<p id="seg543993" lang="Polish">
 <s id="seg543993.1">
 Chcę	Chcę	chcieć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
@@ -1846,7 +1846,7 @@ potrzeba	potrzeba	potrzeba	NOUN	Case=Nom Gender=Fem Number=Sing	44	ccomp	uznać	
 .	.	.	PUNCT	PunctType=Peri	45	punct	chcieć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<p id="seg543994">
+<p id="seg543994" lang="Polish">
 <s id="seg543994.1">
 Oczywiście	Oczywiście	oczywiście	ADV	Degree=Pos	1	parataxis_insert	wiedzieć	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	3
 wszyscy	wszyscy	wszyscy	PRON	Animacy=Hum Case=Nom Gender=Masc Number=Ptan PronType=Tot	2	nsubj	wiedzieć	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	3
@@ -2012,7 +2012,7 @@ było	było	być	VERB	Aspect=Imp Gender=Neut Mood=Ind Number=Sing Tense=Past Ver
 .	.	.	PUNCT	PunctType=Peri	24	punct	to	VERB	Mood=Ind Tense=Pres VerbForm=Fin VerbType=Quasi	1
 </s>
 </p>
-<p id="seg543995">
+<p id="seg543995" lang="Polish">
 <s id="seg543995.1">
 Proszę	Proszę	prosić	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	parataxis_insert	gratulować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	9
 państwa	państwa	państwo	NOUN	Animacy=Hum Case=Acc Gender=Neut Number=Ptan	2	obj	prosić	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
@@ -2050,7 +2050,7 @@ dlatego	dlatego	dlatego	ADV	PronType=Dem	2	root	-	-	-	-
 <note type="kinesic:applause">
 /Oklaski/	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg543996">
+<p id="seg543996" lang="Polish">
 <s id="seg543996.1">
 Wiem	Wiem	wiedzieć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 to	to	to	PRON	Case=Acc Gender=Neut Number=Sing PronType=Dem	2	iobj	wiedzieć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
@@ -2072,7 +2072,7 @@ jednomandatowym	jednomandatowym	jednomandatowy	ADJ	Animacy=Inan Case=Loc Degree=
 <note type="kinesic:applause">
 /Oklaski/	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg543997">
+<p id="seg543997" lang="Polish">
 <s id="seg543997.1">
 I	I	i	CCONJ	_	1	cc	składać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	3
 dlatego	dlatego	dlatego	ADV	PronType=Dem	2	advmod	składać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	3
@@ -2085,7 +2085,7 @@ gratulacje	gratulacje	gratulacje	NOUN	Case=Acc Gender=Fem Number=Plur	7	obj	skł
 .	.	.	PUNCT	PunctType=Peri	8	punct	składać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	3
 </s>
 </p>
-<p id="seg543998">
+<p id="seg543998" lang="Polish">
 <s id="seg543998.1">
 Jeszcze	Jeszcze	jeszcze	PART	_	1	advmod	raz	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	2
 raz	raz	raz	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	2	obl	dziękować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	3
@@ -2156,7 +2156,7 @@ spotkać	spotkać	spotkać	VERB	Aspect=Perf VerbForm=Inf Voice=Act	14	xcomp	móc
 .	.	.	PUNCT	PunctType=Peri	15	punct	cieszyć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	5
 </s>
 </p>
-<p id="seg543999">
+<p id="seg543999" lang="Polish">
 <s id="seg543999.1">
 Nie	Nie	nie	PART	Polarity=Neg	1	advmod_neg	przedłużać	VERB	Animacy=Hum Aspect=Perf Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	3
 będę	będę	być	AUX	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin	2	aux	przedłużać	VERB	Animacy=Hum Aspect=Perf Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	3
@@ -2202,7 +2202,7 @@ marszałka	marszałka	marszałek	NOUN	Animacy=Hum Case=Gen Gender=Masc Number=Si
 .	.	.	PUNCT	PunctType=Peri	14	punct	być	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin	1
 </s>
 </p>
-<p id="seg544000">
+<p id="seg544000" lang="Polish">
 <s id="seg544000.1">
 A	A	a	CCONJ	_	1	cc	powoływać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	5
 w	w	w	ADP	AdpType=Prep Variant=Short	2	case	chwila	NOUN	Case=Loc Gender=Fem Number=Sing	4
@@ -2224,7 +2224,7 @@ Seweryńskiego	Seweryńskiego	Seweryński	PROPN	Animacy=Hum Case=Acc Gender=Masc
 .	.	.	PUNCT	PunctType=Peri	6	punct	pan	NOUN	Animacy=Hum Case=Acc Gender=Masc Number=Sing	2
 </s>
 </p>
-<p id="seg544001">
+<p id="seg544001" lang="Polish">
 <s id="seg544001.1">
 I	I	i	CCONJ	_	1	cc	prosić	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 proszę	proszę	prosić	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
@@ -2250,7 +2250,7 @@ bardzo	bardzo	bardzo	ADV	Degree=Pos	2	advmod	dziękować	VERB	Aspect=Imp Mood=In
 </note>
 </speech>
 <speech id="ParlaMint-PL_2015-11-12-senat-01-1.u2" speaker_id="KuchcińskiMarek" speaker_name="Kuchciński, Marek" speaker_role="Chairperson" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" speaker_gender="M" speaker_birth="1955">
-<p id="seg544002">
+<p id="seg544002" lang="Polish">
 <s id="seg544002.1">
 Dziękuję	Dziękuję	dziękować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 panu	panu	pan	NOUN	Animacy=Hum Case=Dat Gender=Masc Number=Sing	2	iobj	dziękować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
@@ -2281,7 +2281,7 @@ seniora	seniora	senior	NOUN	Animacy=Hum Case=Gen Gender=Masc Number=Sing	20	nmod
 <note type="vocal:speaking">
 /Proszę podejść bliżej mikrofonu, będzie lepiej słychać./	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg544003">
+<p id="seg544003" lang="Polish">
 <s id="seg544003.1">
 Przepraszam	Przepraszam	przepraszać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
@@ -2293,7 +2293,7 @@ wprawy	wprawy	wprawa	NOUN	Case=Gen Gender=Fem Number=Sing	5	nmod_arg	brak	NOUN	A
 …	…	…	PUNCT	PunctType=Dash	6	punct	przepraszać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<p id="seg544004">
+<p id="seg544004" lang="Polish">
 <s id="seg544004.1">
 Powtórzę	Powtórzę	powtórzyć	VERB	Aspect=Perf Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin Voice=Act	1	root	-	-	-	-
 zatem	zatem	zatem	SCONJ	_	2	mark	powtórzyć	VERB	Aspect=Perf Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin Voice=Act	1
@@ -2326,7 +2326,7 @@ seniora	seniora	senior	NOUN	Animacy=Hum Case=Gen Gender=Masc Number=Sing	24	nmod
 .	.	.	PUNCT	PunctType=Peri	25	punct	powtórzyć	VERB	Aspect=Perf Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<p id="seg544005">
+<p id="seg544005" lang="Polish">
 <s id="seg544005.1">
 Obejmując	Obejmując	obejmować	VERB	Aspect=Imp Tense=Pres VerbForm=Conv Voice=Act	1	advcl	pragnąć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	5
 prowadzenie	prowadzenie	prowadzenie	NOUN	Aspect=Imp Case=Acc Gender=Neut Number=Sing Polarity=Pos VerbForm=Vnoun	2	obj	obejmować	VERB	Aspect=Imp Tense=Pres VerbForm=Conv Voice=Act	1
@@ -2364,7 +2364,7 @@ kadencji	kadencji	kadencja	NOUN	Case=Gen Gender=Fem Number=Sing	22	nmod	sejm	NOU
 <note type="kinesic:applause">
 /oklaski/	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg544006">
+<p id="seg544006" lang="Polish">
 <s id="seg544006.1">
 …	…	…	PUNCT	PunctType=Dash	1	punct	pani	NOUN	Case=Acc Gender=Fem Number=Sing	2
 <g/>
@@ -2388,7 +2388,7 @@ kadencji	kadencji	kadencja	NOUN	Case=Gen Gender=Fem Number=Sing	9	nmod_arg	senat
 <note type="kinesic:applause">
 /oklaski/	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg544007">
+<p id="seg544007" lang="Polish">
 <s id="seg544007.1">
 …	…	…	PUNCT	PunctType=Dash	1	punct	pan	NOUN	Animacy=Hum Case=Gen Gender=Masc Number=Sing	2
 <g/>
@@ -2412,7 +2412,7 @@ kadencji	kadencji	kadencja	NOUN	Case=Gen Gender=Fem Number=Sing	9	nmod_arg	senat
 <note type="kinesic:applause">
 /Oklaski/	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg544008">
+<p id="seg544008" lang="Polish">
 <s id="seg544008.1">
 Witam	Witam	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 także	także	także	PART	_	2	advmod	obecny	ADJ	Animacy=Hum Case=Acc Degree=Pos Gender=Masc Number=Sing	3
@@ -2445,7 +2445,7 @@ kadencji	kadencji	kadencja	NOUN	Case=Gen Gender=Fem Number=Sing	18	nmod_arg	sena
 <note type="kinesic:applause">
 /Oklaski/	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg544009">
+<p id="seg544009" lang="Polish">
 <s id="seg544009.1">
 Witam	Witam	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 pana	pana	pan	NOUN	Animacy=Hum Case=Acc Gender=Masc Number=Sing	2	obj	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
@@ -2469,7 +2469,7 @@ kadencji	kadencji	kadencja	NOUN	Case=Gen Gender=Fem Number=Sing	10	nmod_arg	sejm
 <note type="kinesic:applause">
 /Oklaski/	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg544010">
+<p id="seg544010" lang="Polish">
 <s id="seg544010.1">
 Witam	Witam	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 serdecznie	serdecznie	serdecznie	ADV	Degree=Pos	2	advmod	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
@@ -2507,7 +2507,7 @@ Polsce	Polsce	Polska	PROPN	Case=Loc Gender=Fem Number=Sing	19	nmod	korpus	NOUN	A
 <note type="kinesic:applause">
 /Oklaski/	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg544011">
+<p id="seg544011" lang="Polish">
 <s id="seg544011.1">
 Witam	Witam	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 przedstawicieli	przedstawicieli	przedstawiciel	NOUN	Animacy=Hum Case=Acc Gender=Masc Number=Plur	2	obj	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
@@ -2534,7 +2534,7 @@ Konstytucyjnego	Konstytucyjnego	konstytucyjny	ADJ	Animacy=Inan Case=Gen Degree=P
 <note type="kinesic:applause">
 /oklaski/	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg544012">
+<p id="seg544012" lang="Polish">
 <s id="seg544012.1">
 …	…	…	PUNCT	PunctType=Dash	1	punct	pani	NOUN	Case=Acc Gender=Fem Number=Sing	2
 <g/>
@@ -2558,7 +2558,7 @@ Najwyższego	Najwyższego	wysoki	ADJ	Animacy=Inan Case=Gen Degree=Sup Gender=Mas
 <note type="kinesic:applause">
 /oklaski/	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg544013">
+<p id="seg544013" lang="Polish">
 <s id="seg544013.1">
 …	…	…	PUNCT	PunctType=Dash	1	punct	pan	NOUN	Animacy=Hum Case=Gen Gender=Masc Number=Sing	2
 <g/>
@@ -2582,7 +2582,7 @@ Administracyjnego	Administracyjnego	administracyjny	ADJ	Animacy=Inan Case=Gen De
 <note type="kinesic:applause">
 /oklaski/	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg544014">
+<p id="seg544014" lang="Polish">
 <s id="seg544014.1">
 …	…	…	PUNCT	PunctType=Dash	1	punct	pan	NOUN	Animacy=Hum Case=Acc Gender=Masc Number=Sing	2
 <g/>
@@ -2602,7 +2602,7 @@ generalnego	generalnego	generalny	ADJ	Animacy=Hum Case=Gen Degree=Pos Gender=Mas
 <note type="kinesic:applause">
 /oklaski/	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg544015">
+<p id="seg544015" lang="Polish">
 <s id="seg544015.1">
 …	…	…	PUNCT	PunctType=Dash	1	punct	pan	NOUN	Animacy=Hum Case=Gen Gender=Masc Number=Sing	2
 <g/>
@@ -2626,7 +2626,7 @@ Sądownictwa	Sądownictwa	sądownictwo	NOUN	Case=Gen Gender=Neut Number=Sing	9	n
 <note type="kinesic:applause">
 /Oklaski/	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg544016">
+<p id="seg544016" lang="Polish">
 <s id="seg544016.1">
 Witam	Witam	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 serdecznie	serdecznie	serdecznie	ADV	Degree=Pos	2	advmod	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
@@ -2651,7 +2651,7 @@ Wyborczej	Wyborczej	wyborczy	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Sing	11	a
 <note type="kinesic:applause">
 /Oklaski/	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg544017">
+<p id="seg544017" lang="Polish">
 <s id="seg544017.1">
 Witam	Witam	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 pana	pana	pan	NOUN	Animacy=Hum Case=Acc Gender=Masc Number=Sing	2	obj	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
@@ -2674,7 +2674,7 @@ Kontroli	Kontroli	kontrola	NOUN	Case=Gen Gender=Fem Number=Sing	9	nmod_flat	izba
 <note type="kinesic:applause">
 /oklaski/	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg544018">
+<p id="seg544018" lang="Polish">
 <s id="seg544018.1">
 …	…	…	PUNCT	PunctType=Dash	1	punct	pan	NOUN	Animacy=Hum Case=Acc Gender=Masc Number=Sing	2
 <g/>
@@ -2695,7 +2695,7 @@ obywatelskich	obywatelskich	obywatelski	ADJ	Case=Gen Degree=Pos Gender=Neut Numb
 <note type="kinesic:applause">
 /oklaski/	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg544019">
+<p id="seg544019" lang="Polish">
 <s id="seg544019.1">
 …	…	…	PUNCT	PunctType=Dash	1	punct	pan	NOUN	Animacy=Hum Case=Acc Gender=Masc Number=Sing	2
 <g/>
@@ -2716,7 +2716,7 @@ dziecka	dziecka	dziecko	NOUN	Case=Gen Gender=Neut NumType=Sets Number=Sing	8	nmo
 <note type="kinesic:applause">
 /oklaski/	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg544020">
+<p id="seg544020" lang="Polish">
 <s id="seg544020.1">
 …	…	…	PUNCT	PunctType=Dash	1	punct	pan	NOUN	Animacy=Hum Case=Acc Gender=Masc Number=Sing	2
 <g/>
@@ -2742,7 +2742,7 @@ Telewizji	Telewizji	telewizja	NOUN	Case=Gen Gender=Fem Number=Sing	11	conj	radio
 <note type="kinesic:applause">
 /oklaski/	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg544021">
+<p id="seg544021" lang="Polish">
 <s id="seg544021.1">
 …	…	…	PUNCT	PunctType=Dash	1	punct	pan	NOUN	Animacy=Hum Case=Acc Gender=Masc Number=Sing	2
 <g/>
@@ -2775,7 +2775,7 @@ Polskiemu	Polskiemu	polski	ADJ	Animacy=Inan Case=Dat Degree=Pos Gender=Masc Numb
 <note type="kinesic:applause">
 /oklaski/	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg544022">
+<p id="seg544022" lang="Polish">
 <s id="seg544022.1">
 …	…	…	PUNCT	PunctType=Dash	1	punct	pani	NOUN	Case=Acc Gender=Fem Number=Sing	2
 <g/>
@@ -2798,7 +2798,7 @@ osobowych	osobowych	osobowy	ADJ	Case=Gen Degree=Pos Gender=Neut Number=Plur	10	a
 <note type="kinesic:applause">
 /Oklaski/	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg544023">
+<p id="seg544023" lang="Polish">
 <s id="seg544023.1">
 Witam	Witam	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 serdecznie	serdecznie	serdecznie	ADV	Degree=Pos	2	advmod	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
@@ -2821,7 +2821,7 @@ Prezydenta	Prezydenta	prezydent	PROPN	Animacy=Hum Case=Gen Gender=Masc Number=Si
 <note type="kinesic:applause">
 /oklaski/	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg544024">
+<p id="seg544024" lang="Polish">
 <s id="seg544024.1">
 …	…	…	PUNCT	PunctType=Dash	1	punct	pan	NOUN	Animacy=Hum Case=Acc Gender=Masc Number=Sing	2
 <g/>
@@ -2844,7 +2844,7 @@ Prezydenta	Prezydenta	prezydent	PROPN	Animacy=Hum Case=Gen Gender=Masc Number=Si
 <note type="kinesic:applause">
 /oklaski/	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg544025">
+<p id="seg544025" lang="Polish">
 <s id="seg544025.1">
 …	…	…	PUNCT	PunctType=Dash	1	punct	pan	NOUN	Animacy=Hum Case=Acc Gender=Masc Number=Sing	2
 <g/>
@@ -2868,7 +2868,7 @@ Narodowego	Narodowego	narodowy	ADJ	Case=Gen Degree=Pos Gender=Neut Number=Sing	9
 <note type="kinesic:applause">
 /oklaski/	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg544026">
+<p id="seg544026" lang="Polish">
 <s id="seg544026.1">
 …	…	…	PUNCT	PunctType=Dash	1	punct	pan	NOUN	Animacy=Hum Case=Gen Gender=Masc Number=Sing	2
 <g/>
@@ -2893,7 +2893,7 @@ Prezydenta	Prezydenta	prezydent	PROPN	Animacy=Hum Case=Gen Gender=Masc Number=Si
 <note type="kinesic:applause">
 /oklaski/	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg544027">
+<p id="seg544027" lang="Polish">
 <s id="seg544027.1">
 …	…	…	PUNCT	PunctType=Dash	1	punct	pani	NOUN	Case=Acc Gender=Fem Number=Sing	2
 <g/>
@@ -2922,7 +2922,7 @@ Prezydenta	Prezydenta	prezydent	PROPN	Animacy=Hum Case=Gen Gender=Masc Number=Si
 <note type="kinesic:applause">
 /Oklaski/	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg544028">
+<p id="seg544028" lang="Polish">
 <s id="seg544028.1">
 Witam	Witam	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 wszystkich	wszystkich	wszystek	DET	Animacy=Hum Case=Acc Gender=Masc Number=Plur PronType=Tot	2	det	gość	NOUN	Animacy=Hum Case=Acc Gender=Masc Number=Plur	4
@@ -2939,7 +2939,7 @@ uroczystość	uroczystość	uroczystość	NOUN	Case=Acc Gender=Fem Number=Sing	8
 <note type="kinesic:applause">
 /Oklaski/	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg544029">
+<p id="seg544029" lang="Polish">
 <s id="seg544029.1">
 Panie	Panie	pan	NOUN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	1	vocative	-	-	-	-
 Prezydencie	Prezydencie	prezydent	NOUN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	2	appos	pan	NOUN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	1
@@ -2965,7 +2965,7 @@ Goście	Goście	gość	PROPN	Animacy=Hum Case=Nom Gender=Masc Number=Plur	2	appo
 !	!	!	PUNCT	PunctType=Excl	3	punct	dostojny	NOUN	Animacy=Hum Case=Nom Gender=Masc Number=Plur	1
 </s>
 </p>
-<p id="seg544030">
+<p id="seg544030" lang="Polish">
 <s id="seg544030.1">
 Wybrany	Wybrany	wybrać	ADJ	Animacy=Inan Aspect=Perf Case=Nom Gender=Masc Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	1	nsubj	rozpoczynać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	8
 z	z	z	ADP	AdpType=Prep Variant=Short	2	case	wola	NOUN	Case=Gen Gender=Fem Number=Sing	3
@@ -2999,7 +2999,7 @@ parlamentaryzmu	parlamentaryzmu	parlamentaryzm	NOUN	Animacy=Inan Case=Gen Gender
 .	.	.	PUNCT	PunctType=Peri	24	punct	rozpoczynać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	8
 </s>
 </p>
-<p id="seg544031">
+<p id="seg544031" lang="Polish">
 <s id="seg544031.1">
 Według	Według	według	ADP	AdpType=Prep	1	case	konstytucja	NOUN	Case=Gen Gender=Fem Number=Sing	2
 konstytucji	konstytucji	konstytucja	NOUN	Case=Gen Gender=Fem Number=Sing	2	parataxis_insert	jeden	ADJ	Case=Ins Degree=Pos Gender=Fem Number=Sing	5
@@ -3127,7 +3127,7 @@ obywateli	obywateli	obywatel	NOUN	Animacy=Hum Case=Acc Gender=Masc Number=Plur	4
 .	.	.	PUNCT	PunctType=Peri	50	punct	mieć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 </s>
 </p>
-<p id="seg544032">
+<p id="seg544032" lang="Polish">
 <s id="seg544032.1">
 <name type="ORG">
 Senat	Senat	senat	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing	1	root	-	-	-	-
@@ -3198,7 +3198,7 @@ Człowieka	Człowieka	człowiek	NOUN	Animacy=Hum Case=Gen Gender=Masc Number=Sin
 .	.	.	PUNCT	PunctType=Peri	20	punct	ważny	ADJ	Case=Nom Degree=Pos Gender=Neut Number=Sing	1
 </s>
 </p>
-<p id="seg544033">
+<p id="seg544033" lang="Polish">
 <s id="seg544033.1">
 Do	Do	do	ADP	AdpType=Prep	1	case	zadanie	NOUN	Case=Gen Gender=Neut Number=Plur	3
 tradycyjnych	tradycyjnych	tradycyjny	ADJ	Case=Gen Degree=Pos Gender=Neut Number=Plur	2	amod	zadanie	NOUN	Case=Gen Gender=Neut Number=Plur	3
@@ -3315,7 +3315,7 @@ państwa	państwa	państwo	NOUN	Case=Gen Gender=Neut Number=Sing	38	nmod	polityk
 <note type="kinesic:applause">
 /Oklaski/	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg544034">
+<p id="seg544034" lang="Polish">
 <s id="seg544034.1">
 Przedstawiony	Przedstawiony	przedstawić	ADJ	Animacy=Inan Aspect=Perf Case=Nom Gender=Masc Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	1	acl	zarys	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing	3
 tu	tu	tu	ADV	PronType=Dem	2	advmod	przedstawić	ADJ	Animacy=Inan Aspect=Perf Case=Nom Gender=Masc Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	1
@@ -3426,7 +3426,7 @@ zmierzyć	zmierzyć	zmierzyć	VERB	Aspect=Perf VerbForm=Inf Voice=Act	19	xcomp	g
 .	.	.	PUNCT	PunctType=Peri	20	punct	wyzwanie	NOUN	Case=Ins Gender=Neut Number=Sing	7
 </s>
 </p>
-<p id="seg544035">
+<p id="seg544035" lang="Polish">
 <s id="seg544035.1">
 Panie	Panie	pani	NOUN	Animacy=Hum Case=Voc Gender=Masc Number=Plur	1	vocative	rozpoczynać	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	6
 i	i	i	CCONJ	_	2	cc	pan	PROPN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	3
@@ -3623,7 +3623,7 @@ lex	lex	lex	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing	33	nmod	suprema	N
 <note type="kinesic:applause">
 /Oklaski/	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg544036">
+<p id="seg544036" lang="Polish">
 <s id="seg544036.1">
 Szanowni	Szanowni	szanowny	ADJ	Case=Voc Degree=Pos Gender=Neut Number=Sing	1	amod	państwo	NOUN	Case=Voc Gender=Neut Number=Sing	2
 Państwo	Państwo	państwo	NOUN	Case=Voc Gender=Neut Number=Sing	2	vocative	mieć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	14
@@ -3653,7 +3653,7 @@ senatorskie	senatorskie	senatorski	ADJ	Case=Acc Degree=Pos Gender=Neut Number=Si
 .	.	.	PUNCT	PunctType=Peri	20	punct	mieć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	14
 </s>
 </p>
-<p id="seg544037">
+<p id="seg544037" lang="Polish">
 <s id="seg544037.1">
 Proszę	Proszę	prosić	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 wszystkich	wszystkich	wszystek	DET	Case=Acc Gender=Neut Number=Plur PronType=Tot	2	det	państwo	NOUN	Case=Acc Gender=Neut Number=Plur	3
@@ -3669,7 +3669,7 @@ miejsc	miejsc	miejsce	NOUN	Case=Gen Gender=Neut Number=Plur	7	nmod	powstać	NOUN
 <note type="incident:action">
 /Wszyscy wstają/	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg544038">
+<p id="seg544038" lang="Polish">
 <s id="seg544038.1">
 „	„	„	PUNCT	PunctSide=Ini PunctType=Quot	1	punct	ślubować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	3
 <g/>
@@ -3726,7 +3726,7 @@ Bóg	Bóg	bóg	PROPN	Animacy=Hum Case=Nom Gender=Masc Number=Sing	4	nsubj	dopom�
 .	.	.	PUNCT	PunctType=Peri	6	punct	dopomóc	VERB	Aspect=Perf Mood=Imp Number=Sing Person=2 VerbForm=Fin Voice=Act	3
 </s>
 </p>
-<p id="seg544039">
+<p id="seg544039" lang="Polish">
 <s id="seg544039.1">
 Dziękuję	Dziękuję	dziękować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
@@ -3739,7 +3739,7 @@ usiąść	usiąść	usiąść	VERB	Aspect=Perf VerbForm=Inf Voice=Act	2	xcomp	pr
 .	.	.	PUNCT	PunctType=Peri	3	punct	prosić	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<p id="seg544040">
+<p id="seg544040" lang="Polish">
 <s id="seg544040.1">
 Na	Na	na	ADP	AdpType=Prep	1	case	podstawa	NOUN	Case=Loc Gender=Fem Number=Sing	2
 podstawie	podstawie	podstawa	NOUN	Case=Loc Gender=Fem Number=Sing	2	obl	powoływać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	11
@@ -3808,7 +3808,7 @@ prezydialnym	prezydialnym	prezydialny	ADJ	Animacy=Inan Case=Loc Degree=Pos Gende
 <note type="vocal:noise">
 /Rozmowy na sali/	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg544041">
+<p id="seg544041" lang="Polish">
 <s id="seg544041.1">
 Szanowni	Szanowni	szanowny	ADJ	Animacy=Hum Case=Nom Degree=Pos Gender=Neut Number=Sing	1	amod	państwo	NOUN	Case=Nom Gender=Neut Number=Sing	2
 Państwo	Państwo	państwo	NOUN	Case=Nom Gender=Neut Number=Sing	2	vocative	złożyć	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin Voice=Act	15
@@ -3874,7 +3874,7 @@ senatorskich	senatorskich	senatorski	ADJ	Case=Loc Degree=Pos Gender=Fem Number=P
 .	.	.	PUNCT	PunctType=Peri	12	punct	mieć	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	3
 </s>
 </p>
-<p id="seg544042">
+<p id="seg544042" lang="Polish">
 <s id="seg544042.1">
 Informuję	Informuję	informować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
@@ -3949,7 +3949,7 @@ Bóg	Bóg	bóg	PROPN	Animacy=Hum Case=Nom Gender=Masc Number=Sing	12	vocative	do
 .	.	.	PUNCT	PunctType=Peri	14	punct	móc	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 </s>
 </p>
-<p id="seg544043">
+<p id="seg544043" lang="Polish">
 <s id="seg544043.1">
 Zgodnie	Zgodnie	zgodnie	ADV	Degree=Pos	1	advmod	oznaczać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	15
 z	z	z	ADP	AdpType=Prep Variant=Short	2	case	artykuł	X	Abbr=Yes Pun=Yes	3
@@ -3977,7 +3977,7 @@ mandatu	mandatu	mandat	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	18	nsu
 .	.	.	PUNCT	PunctType=Peri	19	punct	oznaczać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	15
 </s>
 </p>
-<p id="seg544044">
+<p id="seg544044" lang="Polish">
 <s id="seg544044.1">
 Proszę	Proszę	prosić	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 wszystkich	wszystkich	wszyscy	PRON	Animacy=Hum Case=Acc Gender=Masc Number=Plur PronType=Tot	2	obj	prosić	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
@@ -3990,7 +3990,7 @@ powstanie	powstanie	powstanie	NOUN	Case=Acc Gender=Neut Number=Sing	4	obl_arg	pr
 <note type="incident:action">
 /Wszyscy wstają/	_	_	_	_	_	_	_	_	_	_
 </note>
-<p id="seg544045">
+<p id="seg544045" lang="Polish">
 <s id="seg544045.1">
 Odczytam	Odczytam	odczytać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 rotę	rotę	rota	NOUN	Case=Acc Gender=Fem Number=Sing	2	obj	odczytać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
@@ -3999,7 +3999,7 @@ rotę	rotę	rota	NOUN	Case=Acc Gender=Fem Number=Sing	2	obj	odczytać	VERB	Aspec
 .	.	.	PUNCT	PunctType=Peri	4	punct	odczytać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<p id="seg544046">
+<p id="seg544046" lang="Polish">
 <s id="seg544046.1">
 „	„	„	PUNCT	PunctSide=Ini PunctType=Quot	1	punct	ślubować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	3
 <g/>
@@ -4046,7 +4046,7 @@ Polskiej	Polskiej	polski	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Sing	33	flat	
 .	.	.	PUNCT	PunctType=Peri	35	punct	ślubować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	3
 </s>
 </p>
-<p id="seg544047">
+<p id="seg544047" lang="Polish">
 <s id="seg544047.1">
 Dziękuję	Dziękuję	dziękować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
@@ -4057,7 +4057,7 @@ usiąść	usiąść	usiąść	VERB	Aspect=Perf VerbForm=Inf Voice=Act	4	xcomp	pr
 .	.	.	PUNCT	PunctType=Peri	5	punct	dziękować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<p id="seg544048">
+<p id="seg544048" lang="Polish">
 <s id="seg544048.1">
 Teraz	Teraz	teraz	ADV	_	1	advmod	poprosić	VERB	Aspect=Perf Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin Voice=Act	2
 poproszę	poproszę	poprosić	VERB	Aspect=Perf Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin Voice=Act	2	root	-	-	-	-
@@ -4106,7 +4106,7 @@ sposób	sposób	sposób	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	35	nm
 </p>
 </speech>
 <speech id="ParlaMint-PL_2015-11-12-senat-01-1.u50" speaker_id="SzwedAleksander" speaker_name="Szwed, Aleksander" speaker_role="Regular" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" speaker_gender="M" speaker_birth="1982">
-<p id="seg544801">
+<p id="seg544801" lang="Polish">
 <s id="seg544801.1">
 Panie	Panie	pan	NOUN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	1	vocative	-	-	-	-
 Marszałku	Marszałku	marszałek	PROPN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	2	appos	pan	NOUN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	1
@@ -4120,7 +4120,7 @@ Państwo	Państwo	państwo	PROPN	Case=Nom Gender=Neut Number=Sing	2	root	-	-	-	-
 !	!	!	PUNCT	PunctType=Excl	3	punct	państwo	PROPN	Case=Nom Gender=Neut Number=Sing	2
 </s>
 </p>
-<p id="seg544802">
+<p id="seg544802" lang="Polish">
 <s id="seg544802.1">
 Pierwszy	Pierwszy	pierwszy	ADJ	Animacy=Inan Case=Nom Degree=Pos Gender=Masc Number=Sing	1	amod	komunikat	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing	2
 komunikat	komunikat	komunikat	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing	2	root	-	-	-	-
@@ -4180,7 +4180,7 @@ sfotografować	sfotografować	sfotografować	VERB	Aspect=Perf VerbForm=Inf Voice
 .	.	.	PUNCT	PunctType=Peri	12	punct	zapraszać	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<p id="seg544803">
+<p id="seg544803" lang="Polish">
 <s id="seg544803.1">
 I	I	i	CCONJ	_	1	cc	komunikat	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing	3
 drugi	drugi	drugi	ADJ	Animacy=Inan Case=Nom Degree=Pos Gender=Masc Number=Sing	2	amod	komunikat	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing	3
@@ -4255,7 +4255,7 @@ Dziękuję	Dziękuję	dziękować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 
 </p>
 </speech>
 <speech id="ParlaMint-PL_2015-11-12-senat-01-1.u51" speaker_id="KuchcińskiMarek" speaker_name="Kuchciński, Marek" speaker_role="Chairperson" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" speaker_gender="M" speaker_birth="1955">
-<p id="seg544804">
+<p id="seg544804" lang="Polish">
 <s id="seg544804.1">
 Ogłaszam	Ogłaszam	ogłaszać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 przerwę	przerwę	przerwa	NOUN	Case=Acc Gender=Fem Number=Sing	2	obj	ogłaszać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1

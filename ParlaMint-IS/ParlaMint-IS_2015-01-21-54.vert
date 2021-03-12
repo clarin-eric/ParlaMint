@@ -1,6 +1,6 @@
 <text id="ParlaMint-IS_2015-01-21-54.ana" subcorpus="Reference" term="21" session="144" meeting="54" sitting="-" agenda="-" from="2015-01-21" to="2015-01-21" title="Speeches in the national parliament of Iceland, 21. term, regular meeting 144-54, 21.01.2015.">
 <speech id="ParlaMint-IS_2015-01-21-54.u1" speaker_id="EinarGudfinnsson1955" speaker_name="Guðfinnsson, Einar K." speaker_role="Chairperson" speaker_type="MP" speaker_party="S" speaker_party_name="Sjálfstæðisflokkur" speaker_gender="M" speaker_birth="1955">
-<p id="ParlaMint-IS_2015-01-21-54.seg1">
+<p id="ParlaMint-IS_2015-01-21-54.seg1" lang="">
 <s id="ParlaMint-IS_2015-01-21-54.seg1.1">
 <name type="PER">
 Borist	Borist	bera	VERB	VerbForm=Sup Voice=Mid	1	root	-	-	-	-
@@ -68,7 +68,7 @@ Hafliðason	Hafliðason	Hafliðason	PROPN	Case=Nom Definite=Ind Gender=Masc Numb
 .	.	.	PUNCT	_	17	punct	Hafliðason	PROPN	Case=Nom Definite=Ind Gender=Masc Number=Sing	16
 </s>
 </p>
-<p id="ParlaMint-IS_2015-01-21-54.seg2">
+<p id="ParlaMint-IS_2015-01-21-54.seg2" lang="">
 <s id="ParlaMint-IS_2015-01-21-54.seg2.1">
 <name type="PER">
 Hjálmar	Hjálmar	Hjálmar	PROPN	Case=Nom Definite=Ind Gender=Masc Number=Plur	1	nsubj	taka	VERB	VerbForm=Sup Voice=Act	6
@@ -97,7 +97,7 @@ nýju	nýju	nýr	ADJ	Case=Dat Definite=Ind Degree=Pos Gender=Neut Number=Sing	17
 </p>
 </speech>
 <speech id="ParlaMint-IS_2015-01-21-54.u2" speaker_id="EinarGudfinnsson1955" speaker_name="Guðfinnsson, Einar K." speaker_role="Chairperson" speaker_type="MP" speaker_party="S" speaker_party_name="Sjálfstæðisflokkur" speaker_gender="M" speaker_birth="1955">
-<p id="ParlaMint-IS_2015-01-21-54.seg3">
+<p id="ParlaMint-IS_2015-01-21-54.seg3" lang="">
 <s id="ParlaMint-IS_2015-01-21-54.seg3.1">
 Forseta	Forseta	forseta	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Plur	1	nsubj	bera	VERB	VerbForm=Sup Voice=Mid	3
 hefur	hefur	hafa	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	aux	bera	VERB	VerbForm=Sup Voice=Mid	3
@@ -122,7 +122,7 @@ gr.	gr.	gr.	NOUN	_	15	conj	bera	VERB	VerbForm=Sup Voice=Mid	3
 :	:	:	PUNCT	_	17	punct	þingskapi	NOUN	Case=Gen Definite=Ind Gender=Neut Number=Plur	16
 </s>
 </p>
-<p id="ParlaMint-IS_2015-01-21-54.seg4">
+<p id="ParlaMint-IS_2015-01-21-54.seg4" lang="">
 <s id="ParlaMint-IS_2015-01-21-54.seg4.1">
 <name type="PER">
 Haraldur	Haraldur	Haraldur	PROPN	Case=Nom Definite=Ind Gender=Masc Number=Sing	1	nsubj	taka	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	3
@@ -142,7 +142,7 @@ eftirlitsnefnd	eftirlitsnefnd	eftirlitsnefnd	ADJ	Case=Nom Definite=Ind Degree=Po
 .	.	.	PUNCT	_	12	punct	eftirlitsnefnd	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Fem Number=Sing	11
 </s>
 </p>
-<p id="ParlaMint-IS_2015-01-21-54.seg5">
+<p id="ParlaMint-IS_2015-01-21-54.seg5" lang="">
 <s id="ParlaMint-IS_2015-01-21-54.seg5.1">
 Þessi	Þessi	þessi	DET	Case=Nom Gender=Fem Number=Sing PronType=Dem	1	det	breyting	NOUN	Case=Nom Definite=Ind Gender=Fem Number=Sing	2
 breyting	breyting	breyting	NOUN	Case=Nom Definite=Ind Gender=Fem Number=Sing	2	nsubj	samþykktur	VERB	VerbForm=Sup Voice=Act	4
@@ -160,7 +160,7 @@ andmælum	andmælum	andmæli	NOUN	Case=Dat Definite=Ind Gender=Neut Number=Plur	
 </p>
 </speech>
 <speech id="ParlaMint-IS_2015-01-21-54.u91" speaker_id="ValgerdurBjarnadottir" speaker_name="Bjarnadóttir, Valgerður" speaker_role="Regular" speaker_type="MP" speaker_party="Sf" speaker_party_name="Samfylking" speaker_gender="F" speaker_birth="1950">
-<p id="ParlaMint-IS_2015-01-21-54.seg332">
+<p id="ParlaMint-IS_2015-01-21-54.seg332" lang="">
 <s id="ParlaMint-IS_2015-01-21-54.seg332.1">
 Virðulegi	Virðulegi	virðulegur	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing	1	amod	forseti	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	2
 forseti	forseti	forseti	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	2	root	-	-	-	-
@@ -336,7 +336,7 @@ leiðrétt	leiðrétt	leiðrétta	VERB	VerbForm=Sup Voice=Act	4	root	-	-	-	-
 </p>
 </speech>
 <speech id="ParlaMint-IS_2015-01-21-54.u92" speaker_id="IllugiGunnarsson" speaker_name="Gunnarsson, Illugi" speaker_role="Regular" speaker_type="notMP" speaker_party="S" speaker_party_name="Sjálfstæðisflokkur" speaker_gender="M" speaker_birth="1967">
-<p id="ParlaMint-IS_2015-01-21-54.seg333">
+<p id="ParlaMint-IS_2015-01-21-54.seg333" lang="">
 <s id="ParlaMint-IS_2015-01-21-54.seg333.1">
 Virðulegi	Virðulegi	virðulegur	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing	1	amod	forseti	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	2
 forseti	forseti	forseti	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	2	root	-	-	-	-
@@ -399,7 +399,7 @@ dynur	dynur	dynja	NOUN	Case=Acc Definite=Ind Gender=Fem Number=Plur	28	obj	ég	P
 .	.	.	PUNCT	_	29	punct	dynja	NOUN	Case=Acc Definite=Ind Gender=Fem Number=Plur	28
 </s>
 </p>
-<p id="ParlaMint-IS_2015-01-21-54.seg334">
+<p id="ParlaMint-IS_2015-01-21-54.seg334" lang="">
 <s id="ParlaMint-IS_2015-01-21-54.seg334.1">
 Það	Það	sá	PRON	Case=Nom Gender=Neut Number=Sing PronType=Dem	1	nsubj	gefa	VERB	Case=Nom Gender=Neut Number=Sing VerbForm=Part Voice=Act	19
 sem	sem	sem	SCONJ	_	2	mark	eiga	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	4
@@ -565,7 +565,7 @@ slíks	slíks	slíkur	PRON	Case=Gen Gender=Masc Number=Sing PronType=Dem	22	obl	
 .	.	.	PUNCT	_	23	punct	slíkur	PRON	Case=Gen Gender=Masc Number=Sing PronType=Dem	22
 </s>
 </p>
-<p id="ParlaMint-IS_2015-01-21-54.seg335">
+<p id="ParlaMint-IS_2015-01-21-54.seg335" lang="">
 <s id="ParlaMint-IS_2015-01-21-54.seg335.1">
 Samkvæmt	Samkvæmt	samkvæmt	ADP	_	1	case	frumvarp	NOUN	Case=Dat Definite=Def Gender=Neut Number=Sing	2
 frumvarpinu	frumvarpinu	frumvarp	NOUN	Case=Dat Definite=Def Gender=Neut Number=Sing	2	obl	verða	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	3

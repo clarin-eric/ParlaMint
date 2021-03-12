@@ -1,6 +1,6 @@
 <text id="ParlaMint-IS_2016-09-05-145.ana" subcorpus="Reference" term="21" session="145" meeting="145" sitting="-" agenda="-" from="2016-09-05" to="2016-09-05" title="Speeches in the national parliament of Iceland, 21. term, regular meeting 145-145, 05.09.2016.">
 <speech id="ParlaMint-IS_2016-09-05-145.u1" speaker_id="EinarGudfinnsson1955" speaker_name="Guðfinnsson, Einar K." speaker_role="Chairperson" speaker_type="MP" speaker_party="S" speaker_party_name="Sjálfstæðisflokkur" speaker_gender="M" speaker_birth="1955">
-<p id="ParlaMint-IS_2016-09-05-145.seg1">
+<p id="ParlaMint-IS_2016-09-05-145.seg1" lang="">
 <s id="ParlaMint-IS_2016-09-05-145.seg1.1">
 Á	Á	á	ADP	_	1	case	þingfundur	NOUN	Case=Dat Definite=Ind Gender=Masc Number=Sing	2
 þingfundi	þingfundi	þingfundur	NOUN	Case=Dat Definite=Ind Gender=Masc Number=Sing	2	obl	þingsályktunartillaga	ADJ	Case=Acc Definite=Def Degree=Pos Gender=Neut Number=Plur	9
@@ -56,7 +56,7 @@ leiðrétt	leiðrétt	leiðrétta	NOUN	Case=Nom Definite=Ind Gender=Fem Number=S
 </p>
 </speech>
 <speech id="ParlaMint-IS_2016-09-05-145.u2" speaker_id="EinarGudfinnsson1955" speaker_name="Guðfinnsson, Einar K." speaker_role="Chairperson" speaker_type="MP" speaker_party="S" speaker_party_name="Sjálfstæðisflokkur" speaker_gender="M" speaker_birth="1955">
-<p id="ParlaMint-IS_2016-09-05-145.seg2">
+<p id="ParlaMint-IS_2016-09-05-145.seg2" lang="">
 <s id="ParlaMint-IS_2016-09-05-145.seg2.1">
 Til	Til	til	ADP	_	1	case	svar	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 svara	svara	svar	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
@@ -97,7 +97,7 @@ húsnæðismálaráðherra	húsnæðismálaráðherra	húsnæðismálaráðherra
 </p>
 </speech>
 <speech id="ParlaMint-IS_2016-09-05-145.u55" speaker_id="HelgiGunnarsson" speaker_name="Gunnarsson, Helgi Hrafn" speaker_role="Regular" speaker_type="MP" speaker_party="P" speaker_party_name="Píratar" speaker_gender="M" speaker_birth="1980">
-<p id="ParlaMint-IS_2016-09-05-145.seg149">
+<p id="ParlaMint-IS_2016-09-05-145.seg149" lang="">
 <s id="ParlaMint-IS_2016-09-05-145.seg149.1">
 Virðulegi	Virðulegi	virðulegur	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing	1	amod	forseti	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	2
 forseti	forseti	forseti	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	2	root	-	-	-	-
@@ -223,7 +223,7 @@ hreinu	hreinu	hreinn	ADJ	Case=Dat Definite=Ind Degree=Pos Gender=Neut Number=Sin
 .	.	.	PUNCT	_	12	punct	hreinn	ADJ	Case=Dat Definite=Ind Degree=Pos Gender=Neut Number=Sing	11
 </s>
 </p>
-<p id="ParlaMint-IS_2016-09-05-145.seg150">
+<p id="ParlaMint-IS_2016-09-05-145.seg150" lang="">
 <s id="ParlaMint-IS_2016-09-05-145.seg150.1">
 Hvað	Hvað	hver	PRON	Case=Acc Gender=Neut Number=Sing PronType=Int	1	obj	varða	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 varðar	varðar	varða	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
@@ -388,7 +388,7 @@ saman	saman	saman	ADV	_	13	advmod	halda	VERB	VerbForm=Inf Voice=Act	6
 .	.	.	PUNCT	_	14	punct	saman	ADV	_	13
 </s>
 </p>
-<p id="ParlaMint-IS_2016-09-05-145.seg151">
+<p id="ParlaMint-IS_2016-09-05-145.seg151" lang="">
 <s id="ParlaMint-IS_2016-09-05-145.seg151.1">
 Ég	Ég	ég	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	1	nsubj	verða	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 verð	verð	verða	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
@@ -491,7 +491,7 @@ er	er	vera	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 </p>
 </speech>
 <speech id="ParlaMint-IS_2016-09-05-145.u56" speaker_id="OlofNordal" speaker_name="Nordal, Ólöf" speaker_role="Regular" speaker_type="notMP" speaker_party="_" speaker_party_name="_" speaker_gender="F" speaker_birth="1966">
-<p id="ParlaMint-IS_2016-09-05-145.seg152">
+<p id="ParlaMint-IS_2016-09-05-145.seg152" lang="">
 <s id="ParlaMint-IS_2016-09-05-145.seg152.1">
 Hæstv.	Hæstv.	Hæstv.	ADJ	_	1	amod	forseti	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	2
 forseti	forseti	forseti	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	2	root	-	-	-	-
@@ -551,7 +551,7 @@ innanríkisráðuneytinu	innanríkisráðuneytinu	innanríkisráðuneyti	NOUN	Ca
 .	.	.	PUNCT	_	29	punct	innanríkisráðuneyti	NOUN	Case=Dat Definite=Def Gender=Neut Number=Sing	28
 </s>
 </p>
-<p id="ParlaMint-IS_2016-09-05-145.seg153">
+<p id="ParlaMint-IS_2016-09-05-145.seg153" lang="">
 <s id="ParlaMint-IS_2016-09-05-145.seg153.1">
 Ég	Ég	ég	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	1	nsubj	taka	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 tek	tek	taka	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-

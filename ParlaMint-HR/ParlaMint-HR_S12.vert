@@ -1,6 +1,6 @@
 <text id="ParlaMint-HR_S12.ana" subcorpus="Reference" term="9" session="12" meeting="-" sitting="-" agenda="-" from="2019-05-09" to="2019-07-18" title="Minutes of the National Assembly of the Republic of Croatia, Term 9, Session 12 (2019-05-09 - 2019-07-18)">
 <speech id="ParlaMint-HR_S12.u1" speaker_id="JandrokovićGordan" speaker_name="Jandroković, Gordan" speaker_role="Chairperson" speaker_type="MP" speaker_party="HDZ" speaker_party_name="Klub Hrvatske demokratske zajednice" speaker_gender="M" speaker_birth="1967">
-<p id="seg483205">
+<p id="seg483205" lang="Croatian">
 <s id="seg483205.1">
 g.	g.	g.	NOUN	_	1	obl	misliti	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	12
 Predsjedniče	Predsjedniče	predsjednik	NOUN	Case=Voc Gender=Masc Number=Sing	2	nmod	g.	NOUN	_	1
@@ -82,7 +82,7 @@ Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 </p>
 </speech>
 <speech id="ParlaMint-HR_S12.u2" speaker_id="JandrokovićGordan" speaker_name="Jandroković, Gordan" speaker_role="Chairperson" speaker_type="MP" speaker_party="HDZ" speaker_party_name="Klub Hrvatske demokratske zajednice" speaker_gender="M" speaker_birth="1967">
-<p id="seg483207">
+<p id="seg483207" lang="Croatian">
 <s id="seg483207.1">
 Kolega	Kolega	kolega	NOUN	Case=Nom Gender=Masc Number=Sing	1	root	-	-	-	-
 <name type="PER">
@@ -100,7 +100,7 @@ to	to	taj	DET	Case=Acc Gender=Neut Number=Sing PronType=Dem	9	obl	podsjetiti	VER
 .	.	.	PUNCT	_	10	punct	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	4
 </s>
 </p>
-<p id="seg483208">
+<p id="seg483208" lang="Croatian">
 <s id="seg483208.1">
 Evo	Evo	evo	PART	_	1	discourse	izvijestiti	VERB	VerbForm=Inf	7
 <g/>
@@ -131,7 +131,7 @@ pitanja	pitanja	pitanje	NOUN	Case=Gen Gender=Neut Number=Plur	23	obl	biti	AUX	Mo
 .	.	.	PUNCT	_	24	punct	izvijestiti	VERB	VerbForm=Inf	7
 </s>
 </p>
-<p id="seg483209">
+<p id="seg483209" lang="Croatian">
 <s id="seg483209.1">
 2016.	2016.	2016.	ADJ	NumType=Ord	1	amod	biti	AUX	Gender=Neut Number=Sing Tense=Past VerbForm=Part Voice=Act	2
 bilo	bilo	biti	AUX	Gender=Neut Number=Sing Tense=Past VerbForm=Part Voice=Act	2	root	-	-	-	-
@@ -159,7 +159,7 @@ pitanja	pitanja	pitanje	NOUN	Case=Gen Gender=Neut Number=Plur	19	conj	pitanje	NO
 .	.	.	PUNCT	_	20	punct	biti	AUX	Gender=Neut Number=Sing Tense=Past VerbForm=Part Voice=Act	2
 </s>
 </p>
-<p id="seg483210">
+<p id="seg483210" lang="Croatian">
 <s id="seg483210.1">
 Vlada	Vlada	Vlada	PROPN	Case=Nom Gender=Fem Number=Sing	1	nsubj	odgovoriti	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part Voice=Act	3
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	aux	odgovoriti	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part Voice=Act	3
@@ -240,7 +240,7 @@ vrijeme	vrijeme	vrijeme	NOUN	Case=Acc Gender=Neut Number=Sing	67	nmod	odgovor	NO
 .	.	.	PUNCT	_	68	punct	odgovoriti	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part Voice=Act	3
 </s>
 </p>
-<p id="seg483211">
+<p id="seg483211" lang="Croatian">
 <s id="seg483211.1">
 Sada	Sada	sada	ADV	Degree=Pos PronType=Dem	1	advmod	prelaziti	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	2
 prelazimo	prelazimo	prelaziti	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	2	root	-	-	-	-
@@ -268,7 +268,7 @@ izvolite	izvolite	izvoljeti	VERB	Mood=Imp Number=Plur Person=2 VerbForm=Fin	16	c
 </p>
 </speech>
 <speech id="ParlaMint-HR_S12.u8641" speaker_id="BaukArsen" speaker_name="Bauk, Arsen" speaker_role="Regular" speaker_type="MP" speaker_party="SDP" speaker_party_name="Klub Socijaldemokratske partije Hrvatske" speaker_gender="M" speaker_birth="1973">
-<p id="seg526077">
+<p id="seg526077" lang="Croatian">
 <s id="seg526077.1">
 Gospodine	Gospodine	gospodin	NOUN	Case=Voc Gender=Masc Number=Sing	1	obj	čekanje	NOUN	Case=Loc Gender=Neut Number=Sing	11
 potpredsjedniče	potpredsjedniče	potpredsjednik	NOUN	Case=Voc Gender=Masc Number=Sing	2	nmod	gospodin	NOUN	Case=Voc Gender=Masc Number=Sing	1
@@ -334,7 +334,7 @@ glasanja	glasanja	glasanje	NOUN	Case=Gen Gender=Neut Number=Sing	55	nmod	dio	NOU
 .	.	.	PUNCT	_	56	punct	moliti	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	33
 </s>
 </p>
-<p id="seg526078">
+<p id="seg526078" lang="Croatian">
 <s id="seg526078.1">
 Zahvaljujem	Zahvaljujem	zahvaljivati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 <g/>
@@ -343,7 +343,7 @@ Zahvaljujem	Zahvaljujem	zahvaljivati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pr
 </p>
 </speech>
 <speech id="ParlaMint-HR_S12.u8642" speaker_id="BrkićMilijan" speaker_name="Brkić, Milijan" speaker_role="Chairperson" speaker_type="MP" speaker_party="HDZ" speaker_party_name="Klub Hrvatske demokratske zajednice" speaker_gender="M" speaker_birth="1970">
-<p id="seg526080">
+<p id="seg526080" lang="Croatian">
 <s id="seg526080.1">
 Zahvaljujem	Zahvaljujem	zahvaljivati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	parataxis	moći	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part Voice=Act	3
 kolega	kolega	kolega	NOUN	Case=Nom Gender=Masc Number=Sing	2	nsubj	zahvaljivati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
