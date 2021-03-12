@@ -1,0 +1,1575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.ana"
+     xml:lang="nl"
+     ana="#parla.sitting #reference">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="nl" type="main">Belgisch parlementair corpus ParlaMint-BE, plenaire zitting van 08-10-2019 [ParlaMint.ana SAMPLE]</title>
+            <title xml:lang="en" type="main">Belgian parliamentary corpus ParlaMint-BE, plenary session of 08-10-2019 [ParlaMint.ana SAMPLE]</title>
+            <meeting ana="#parla.meeting.regular"
+                     corresp="#be_federal_parliament"
+                     n="ip008">Plenaire zitting 008 van 08-10-2019</meeting>
+            <meeting ana="#parla.term #period_55"
+                     corresp="#be_federal_parliament"
+                     n="55">Zittingperiode 55</meeting>
+            <respStmt>
+               <persName>Henk van der Pol</persName>
+               <persName>Griet Depoorter</persName>
+               <resp xml:lang="nl">Datavergaring en conversie naar TEI</resp>
+               <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Jesse de Does</persName>
+               <resp xml:lang="nl">Taalkundige verrijking</resp>
+               <resp xml:lang="en">Linguistic annotation</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="nl">De CLARIN-onderzoeksinfrastructuur</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="nl">De Europese Commissie</orgName>
+               <orgName xml:lang="en">The European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="nl">Taalunie</orgName>
+               <orgName xml:lang="en">Dutch Language Union</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>0.9</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="93" xml:lang="en">93 speeches</measure>
+            <measure unit="speeches" quantity="93" xml:lang="nl">93 spreekbeurten</measure>
+            <measure unit="words" quantity="15949" xml:lang="en">15949 words</measure>
+            <measure unit="words" quantity="15949" xml:lang="nl">15949 woorden</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="nl">Instituut voor de Nederlandse Taal</orgName>
+               <orgName xml:lang="en">Dutch Language Institute</orgName>
+               <orgName xml:lang="nl">De CLARIN-onderzoeksinfrastructuur</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1405</idno>
+            <pubPlace>
+               <ref target="http://hdl.handle.net/11356/1405">http://hdl.handle.net/11356/1405</ref>
+            </pubPlace>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="nl">Deze bestanden zijn beschikbaar volgens de <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+            </availability>
+            <date when="2021-03-12">2021-03-12</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title xml:lang="fr" type="main">Séance plénière du Mardi 8 octobre 2019 Après-midi</title>
+               <title xml:lang="nl" type="main">Plenumvergadering van Dinsdag 8 oktober 2019 Namiddag</title>
+               <idno type="URI">https://www.dekamer.be/doc/PCRI/html/55/ip008x.html</idno>
+               <date when="2019-10-08">2019-10-08</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="nl">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is een project dat tot doel heeft
+      (1) een meertalige reeks vergelijkbare corpora van parlementaire handelingen te creëren die uniform zijn gecodeerd volgens de <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN aanbevelingen</ref> en die zowel de COVID-19 pandemie vanaf november 2019 als de eerdere periode vanaf 2015 bestrijkt om als referentiecorpus te dienen;
+      (2) de corpora taalkundig te verrijken met syntactische structuren volgens de Universal Dependenciesrichtlijnen, en annotatie van named entities toe te voegen;
+      (3) de corpora beschikbaar te maken via concordancers en Parlameter; en
+      (4) use cases in politieke wetenschappen en digitale geesteswetenschappen te bouwen op basis van de corpusgegevens.</p>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to
+      (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus;
+      (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation;
+      (3) make the corpora available through concordancers and Parlameter; and
+      (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="s" occurs="911"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="name" occurs="635"/>
+               <tagUsage gi="u" occurs="93"/>
+               <tagUsage gi="seg" occurs="373"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="linkGrp" occurs="911"/>
+               <tagUsage gi="note" occurs="90"/>
+               <tagUsage gi="link" occurs="17493"/>
+               <tagUsage gi="pc" occurs="1763"/>
+               <tagUsage gi="w" occurs="15949"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city">Brussel</name>
+               <name type="country" key="BE">België</name>
+               <date ana="#parla.sitting" when="2019-10-08">2019-10-08</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-03-12">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2021-02-15">
+            <name>Henk van der Pol</name>: initial version.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div type="debateSection">
+            <u xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.u1"
+               who="#DewaelPatrick"
+               ana="#chair"
+               xml:lang="nl">
+               <note xml:lang="fr">Le président:</note>
+               <seg xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg1" xml:lang="fr">
+                  <s xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s4" xml:lang="fr">
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w34"
+                        msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+                        lemma="le">La</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w35"
+                        msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
+                        lemma="séance">séance</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w36"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="être">est</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w37"
+                        join="right"
+                        msd="UPosTag=VERB|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part"
+                        lemma="ouvrir">ouverte</w>
+                     <pc xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc7"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp type="UD-SYN" targFunc="head argument">
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w35 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w34"
+                              ana="ud-syn:det"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w37 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w35"
+                              ana="ud-syn:nsubj_pass"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w37 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w36"
+                              ana="ud-syn:aux_pass"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc7 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w37"
+                              ana="ud-syn:root"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w37 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc7"
+                              ana="ud-syn:punct"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg2" xml:lang="nl">
+                  <s xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s5" xml:lang="nl">
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w38"
+                        ana="#pos.PD #type.d-p #subtype.art-def"
+                        msd="UPosTag=DET|Definite=Def"
+                        lemma="de">De</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w39"
+                        ana="#pos.NOU-C #gender.f_m #number.sg"
+                        msd="UPosTag=NOUN|Gender=Com|Number=Sing"
+                        lemma="vergadering">vergadering</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w40"
+                        ana="#pos.VRB #finiteness.fin #mood.imp_ind #tense.pres #number.sg"
+                        msd="UPosTag=AUX|Number=Sing|Tense=Pres|VerbForm=Fin"
+                        lemma="zijn">is</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w41"
+                        join="right"
+                        ana="#pos.VRB #finiteness.part #tense.past"
+                        msd="UPosTag=VERB|VerbForm=Part"
+                        lemma="openen">geopend</w>
+                     <pc xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc8"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp type="UD-SYN" targFunc="head argument">
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w39 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w38"
+                              ana="ud-syn:det"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w41 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w39"
+                              ana="ud-syn:nsubj_pass"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w41 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w40"
+                              ana="ud-syn:aux_pass"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc8 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w41"
+                              ana="ud-syn:root"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w41 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc8"
+                              ana="ud-syn:punct"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <u xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.u2"
+               who="#DewaelPatrick"
+               ana="#chair"
+               xml:lang="nl">
+               <seg xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg3" xml:lang="fr">
+                  <s xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s24" xml:lang="fr">
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w192"
+                        join="right"
+                        msd="UPosTag=NOUN|Gender=Fem|Number=Plur"
+                        lemma="mesdame">Mesdames</w>
+                     <pc xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc28"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w193"
+                        join="right"
+                        msd="UPosTag=NOUN|Gender=Masc|Number=Plur"
+                        lemma="messieur">messieurs</w>
+                     <pc xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc29"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w194"
+                        msd="UPosTag=ADJ|Gender=Masc|Number=Plur"
+                        lemma="cher">chers</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w195"
+                        join="right"
+                        msd="UPosTag=NOUN|Gender=Masc|Number=Plur"
+                        lemma="collègue">collègues</w>
+                     <pc xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc30"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w196"
+                        msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+                        lemma="le">la</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w197"
+                           msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
+                           lemma="chambre">Chambre</w>
+                     </name>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w198"
+                        msd="UPosTag=PRON|Person=3|PronType=Prs"
+                        lemma="se">se</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w199"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="réunir">réunit</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w200"
+                        msd="UPosTag=ADV"
+                        lemma="aujourd'hui">aujourd'hui</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w201"
+                        msd="UPosTag=ADP"
+                        lemma="de">de</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w202"
+                        msd="UPosTag=ADJ|Gender=Masc|Number=Sing"
+                        lemma="plein">plein</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w203"
+                        join="right"
+                        msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
+                        lemma="droit">droit</w>
+                     <pc xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc31"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w204"
+                        msd="UPosTag=ADP"
+                        lemma="en">en</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w205"
+                        msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
+                        lemma="vertu">vertu</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w206"
+                        msd="UPosTag=ADP"
+                        lemma="de">de</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w207"
+                        join="right"
+                        msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+                        lemma="le">l'</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc32"
+                        msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
+                        lemma="article">article</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w208"
+                        msd="UPosTag=NUM"
+                        lemma="44">44</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w209"
+                        msd="UPosTag=ADP"
+                        lemma="de">de</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w210"
+                        msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+                        lemma="le">la</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w211"
+                           join="right"
+                           msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
+                           lemma="constitution">Constitution</w>
+                     </name>
+                     <pc xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc33"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp type="UD-SYN" targFunc="head argument">
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w199 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w192"
+                              ana="ud-syn:obl_mod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w192 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w193"
+                              ana="ud-syn:conj"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w195 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w194"
+                              ana="ud-syn:amod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w192 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w195"
+                              ana="ud-syn:conj"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w197 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w196"
+                              ana="ud-syn:det"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w199 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w197"
+                              ana="ud-syn:nsubj"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w199 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w198"
+                              ana="ud-syn:obj"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc33 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w199"
+                              ana="ud-syn:root"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w199 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w200"
+                              ana="ud-syn:advmod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w203 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w201"
+                              ana="ud-syn:case"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w203 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w202"
+                              ana="ud-syn:amod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w199 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w203"
+                              ana="ud-syn:obl_mod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w205 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w204"
+                              ana="ud-syn:case"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w199 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w205"
+                              ana="ud-syn:obl"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc32 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w206"
+                              ana="ud-syn:case"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc32 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w207"
+                              ana="ud-syn:det"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w205 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc32"
+                              ana="ud-syn:nmod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc32 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w208"
+                              ana="ud-syn:nmod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w211 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w209"
+                              ana="ud-syn:case"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w211 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w210"
+                              ana="ud-syn:det"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc32 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w211"
+                              ana="ud-syn:nmod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w193 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc28"
+                              ana="ud-syn:punct"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w195 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc29"
+                              ana="ud-syn:punct"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w192 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc30"
+                              ana="ud-syn:punct"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w205 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc31"
+                              ana="ud-syn:punct"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w199 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc33"
+                              ana="ud-syn:punct"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg4" xml:lang="nl">
+                  <s xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s25" xml:lang="nl">
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w212"
+                        ana="#pos.NOU-C #number.pl"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="dame">Dames</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w213"
+                        ana="#pos.CONJ #type.coor"
+                        msd="UPosTag=CCONJ"
+                        lemma="en">en</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w214"
+                        join="right"
+                        ana="#pos.NOU-C #number.pl"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="heer">heren</w>
+                     <pc xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc34"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w215"
+                        ana="#pos.NOU-C #gender.f_m #number.sg"
+                        msd="UPosTag=NOUN|Gender=Com|Number=Sing"
+                        lemma="waarde">waarde</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w216"
+                        join="right"
+                        ana="#pos.NOU-C #number.pl"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="collega">collega's</w>
+                     <pc xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc35"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w217"
+                        ana="#pos.PD #type.d-p #subtype.art-def"
+                        msd="UPosTag=DET|Definite=Def"
+                        lemma="de">de</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w218"
+                           ana="#pos.NOU-C #gender.f_m #number.sg"
+                           msd="UPosTag=NOUN|Gender=Com|Number=Sing"
+                           lemma="kamer">Kamer</w>
+                     </name>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w219"
+                        ana="#pos.VRB #finiteness.fin #mood.ind #tense.pres #number.sg #person.2_3 #formal.infl-t"
+                        msd="UPosTag=VERB|Number=Sing|Tense=Pres|VerbForm=Fin"
+                        lemma="komen">komt</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w220"
+                        ana="#pos.ADV"
+                        msd="UPosTag=ADV"
+                        lemma="heden">heden</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w221"
+                        ana="#pos.ADP #type.pre"
+                        msd="UPosTag=ADP"
+                        lemma="van">van</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w222"
+                        ana="#pos.ADV"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="rechtswege">rechtswege</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w223"
+                        ana="#pos.ADV"
+                        msd="UPosTag=ADV"
+                        lemma="bijeen">bijeen</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w224"
+                        ana="#pos.ADP #type.pre"
+                        msd="UPosTag=ADP"
+                        lemma="op">op</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w225"
+                        ana="#pos.NOU-C #gender.f_m #number.sg"
+                        msd="UPosTag=NOUN|Gender=Com|Number=Sing"
+                        lemma="grond">grond</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w226"
+                        ana="#pos.ADP #type.pre"
+                        msd="UPosTag=ADP"
+                        lemma="van">van</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w227"
+                        ana="#pos.NOU-C #gender.n #number.sg"
+                        msd="UPosTag=NOUN|Gender=Neut|Number=Sing"
+                        lemma="artikel">artikel</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w228"
+                        ana="#pos.NUM #type.card #position.oth_pred"
+                        msd="UPosTag=NUM"
+                        lemma="44">44</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w229"
+                        ana="#pos.ADP #type.pre"
+                        msd="UPosTag=ADP"
+                        lemma="van">van</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w230"
+                        ana="#pos.PD #type.d-p #subtype.art-def"
+                        msd="UPosTag=DET|Definite=Def"
+                        lemma="de">de</w>
+                     <name type="MISC">
+                        <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w231"
+                           join="right"
+                           ana="#pos.NOU-C #gender.f_m #number.sg"
+                           msd="UPosTag=NOUN|Gender=Com|Number=Sing"
+                           lemma="grondwet">Grondwet</w>
+                     </name>
+                     <pc xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc36"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp type="UD-SYN" targFunc="head argument">
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w219 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w212"
+                              ana="ud-syn:parataxis"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w214 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w213"
+                              ana="ud-syn:cc"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w212 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w214"
+                              ana="ud-syn:conj"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w216 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w215"
+                              ana="ud-syn:parataxis"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w219 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w216"
+                              ana="ud-syn:parataxis"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w218 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w217"
+                              ana="ud-syn:det"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w219 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w218"
+                              ana="ud-syn:nsubj"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc36 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w219"
+                              ana="ud-syn:root"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w219 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w220"
+                              ana="ud-syn:advmod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w219 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w221"
+                              ana="ud-syn:obl"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w221 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w222"
+                              ana="ud-syn:fixed"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w219 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w223"
+                              ana="ud-syn:compound_prt"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w227 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w224"
+                              ana="ud-syn:case"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w224 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w225"
+                              ana="ud-syn:fixed"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w224 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w226"
+                              ana="ud-syn:fixed"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w219 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w227"
+                              ana="ud-syn:obl"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w227 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w228"
+                              ana="ud-syn:appos"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w231 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w229"
+                              ana="ud-syn:case"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w231 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w230"
+                              ana="ud-syn:det"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w227 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w231"
+                              ana="ud-syn:nmod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w216 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc34"
+                              ana="ud-syn:punct"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w216 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc35"
+                              ana="ud-syn:punct"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w219 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc36"
+                              ana="ud-syn:punct"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg5" xml:lang="fr">
+                  <s xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s26" xml:lang="fr">
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w232"
+                        msd="UPosTag=PRON|Number=Sing|Person=1|PronType=Prs"
+                        lemma="il">Je</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w233"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="déclarer">déclare</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w234"
+                        msd="UPosTag=ADJ|Gender=Fem|Number=Sing"
+                        lemma="ouvert">ouverte</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w235"
+                        msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+                        lemma="le">la</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w236"
+                        msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
+                        lemma="session">session</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w237"
+                        msd="UPosTag=ADJ|Gender=Fem|Number=Sing"
+                        lemma="législatif">législative</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w238"
+                        join="right"
+                        msd="UPosTag=NUM"
+                        lemma="2019-2020">2019-2020</w>
+                     <pc xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc37"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp type="UD-SYN" targFunc="head argument">
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w233 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w232"
+                              ana="ud-syn:nsubj"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc37 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w233"
+                              ana="ud-syn:root"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w233 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w234"
+                              ana="ud-syn:xcomp"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w236 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w235"
+                              ana="ud-syn:det"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w233 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w236"
+                              ana="ud-syn:obj"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w236 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w237"
+                              ana="ud-syn:amod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w236 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w238"
+                              ana="ud-syn:nmod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w233 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc37"
+                              ana="ud-syn:punct"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg6" xml:lang="nl">
+                  <s xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s27" xml:lang="nl">
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w239"
+                        ana="#pos.PD #type.pers #person.1 #number.sg #position.pron #case.nom"
+                        msd="UPosTag=PRON|Case=Nom|Person=1|PronType=Prs"
+                        lemma="ik">Ik</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w240"
+                        ana="#pos.VRB #finiteness.fin #mood.imp_ind #tense.pres #number.sg"
+                        msd="UPosTag=VERB|Number=Sing|Tense=Pres|VerbForm=Fin"
+                        lemma="verklaren">verklaar</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w241"
+                        ana="#pos.PD #type.d-p #subtype.art-def"
+                        msd="UPosTag=DET|Definite=Def"
+                        lemma="de">de</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w242"
+                        ana="#pos.AA #degree.pos #position.prenom #formal.infl-e"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="wetgevend">wetgevende</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w243"
+                        ana="#pos.NOU-C #gender.f_m #number.sg"
+                        msd="UPosTag=NOUN|Gender=Com|Number=Sing"
+                        lemma="zitting">zitting</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w244"
+                        ana="#pos.RES #type.sym"
+                        msd="UPosTag=NUM"
+                        lemma="2019-2020">2019-2020</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w245"
+                        ana="#pos.ADP #type.pre"
+                        msd="UPosTag=ADP"
+                        lemma="voor">voor</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w246"
+                        join="right"
+                        ana="#pos.VRB #finiteness.part #tense.past"
+                        msd="UPosTag=VERB|VerbForm=Part"
+                        lemma="openen">geopend</w>
+                     <pc xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc38"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp type="UD-SYN" targFunc="head argument">
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w240 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w239"
+                              ana="ud-syn:nsubj"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc38 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w240"
+                              ana="ud-syn:root"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w243 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w241"
+                              ana="ud-syn:det"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w243 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w242"
+                              ana="ud-syn:amod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w240 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w243"
+                              ana="ud-syn:obj"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w243 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w244"
+                              ana="ud-syn:appos"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w246 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w245"
+                              ana="ud-syn:compound_prt"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w240 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w246"
+                              ana="ud-syn:xcomp"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w240 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc38"
+                              ana="ud-syn:punct"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.u92"
+               who="#DewaelPatrick"
+               ana="#chair"
+               xml:lang="nl">
+               <note xml:lang="nl">De voorzitter:</note>
+               <seg xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg363" xml:lang="nl">
+                  <s xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s1098" xml:lang="nl">
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16744"
+                        ana="#pos.NOU-C #gender.n #number.sg"
+                        msd="UPosTag=NOUN|Gender=Com|Number=Sing"
+                        lemma="einde">Einde</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16745"
+                        ana="#pos.ADP #type.pre"
+                        msd="UPosTag=ADP"
+                        lemma="van">van</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16746"
+                        ana="#pos.PD #type.d-p #subtype.art-def"
+                        msd="UPosTag=DET|Definite=Def"
+                        lemma="de">de</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16747"
+                        ana="#pos.AA #degree.pos #position.prenom #formal.infl-e"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="mondeling">mondelinge</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16748"
+                        join="right"
+                        ana="#pos.NOU-C #number.pl"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="vraag">vragen</w>
+                     <pc xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2663"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp type="UD-SYN" targFunc="head argument">
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2663 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16744"
+                              ana="ud-syn:root"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16748 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16745"
+                              ana="ud-syn:case"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16748 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16746"
+                              ana="ud-syn:det"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16748 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16747"
+                              ana="ud-syn:amod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16744 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16748"
+                              ana="ud-syn:nmod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16744 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2663"
+                              ana="ud-syn:punct"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <u xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.u93"
+               who="#DewaelPatrick"
+               ana="#chair"
+               xml:lang="fr">
+               <seg xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg364" xml:lang="fr">
+                  <s xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s1101" xml:lang="fr">
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16759"
+                        msd="UPosTag=PRON|Number=Plur|Person=2|PronType=Prs"
+                        lemma="il">Vous</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16760"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+                        lemma="avoir">avez</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16761"
+                        msd="UPosTag=VERB|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+                        lemma="prendre">pris</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16762"
+                        msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
+                        lemma="connaissance">connaissance</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16763"
+                        msd="UPosTag=ADP"
+                        lemma="dans">dans</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16764"
+                        msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+                        lemma="le">le</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16765"
+                        msd="UPosTag=ADJ|Gender=Masc|Number=Sing"
+                        lemma="dernier">dernier</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16766"
+                        msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
+                        lemma="ordre">ordre</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16767">du<w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16767a"
+                           norm="de"
+                           msd="UPosTag=ADP"
+                           lemma="de"/>
+                        <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16767b"
+                           norm="le"
+                           msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+                           lemma="le"/>
+                     </w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16768"
+                        msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
+                        lemma="jour">jour</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16769"
+                        msd="UPosTag=PRON|PronType=Rel"
+                        lemma="qui">qui</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16770"
+                        msd="UPosTag=PRON|Number=Plur|Person=2|PronType=Prs"
+                        lemma="il">vous</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16771"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="avoir">a</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16772"
+                        msd="UPosTag=AUX|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+                        lemma="être">été</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16773"
+                        msd="UPosTag=VERB|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+                        lemma="distribuer">distribué</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16774"
+                        msd="UPosTag=ADP"
+                        lemma="de">de</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16775"
+                        msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+                        lemma="le">la</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16776"
+                        msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
+                        lemma="liste">liste</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16777">des<w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16777a"
+                           norm="de"
+                           msd="UPosTag=ADP"
+                           lemma="de"/>
+                        <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16777b"
+                           norm="les"
+                           msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Plur|PronType=Art"
+                           lemma="le"/>
+                     </w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16778"
+                        msd="UPosTag=NOUN|Gender=Fem|Number=Plur"
+                        lemma="proposition">propositions</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16779"
+                        msd="UPosTag=PRON|PronType=Rel"
+                        lemma="dont">dont</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16780"
+                        msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+                        lemma="le">la</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16781"
+                        msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
+                        lemma="prise">prise</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16782"
+                        msd="UPosTag=ADP"
+                        lemma="en">en</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16783"
+                        msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
+                        lemma="considération">considération</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16784"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="être">est</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16785"
+                        join="right"
+                        msd="UPosTag=VERB|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part"
+                        lemma="demander">demandée</w>
+                     <pc xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2664"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp type="UD-SYN" targFunc="head argument">
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16761 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16759"
+                              ana="ud-syn:nsubj"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16761 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16760"
+                              ana="ud-syn:aux_tense"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2664 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16761"
+                              ana="ud-syn:root"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16761 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16762"
+                              ana="ud-syn:obj"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16766 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16763"
+                              ana="ud-syn:case"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16766 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16764"
+                              ana="ud-syn:det"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16766 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16765"
+                              ana="ud-syn:amod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16761 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16766"
+                              ana="ud-syn:obl_mod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16767b #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16767a"
+                              ana="ud-syn:case"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16768 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16767b"
+                              ana="ud-syn:det"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16766 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16768"
+                              ana="ud-syn:nmod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16773 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16769"
+                              ana="ud-syn:nsubj_pass"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16773 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16770"
+                              ana="ud-syn:iobj"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16773 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16771"
+                              ana="ud-syn:aux_tense"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16773 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16772"
+                              ana="ud-syn:aux_pass"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16766 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16773"
+                              ana="ud-syn:acl_relcl"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16776 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16774"
+                              ana="ud-syn:case"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16776 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16775"
+                              ana="ud-syn:det"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16773 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16776"
+                              ana="ud-syn:obl_arg"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16777b #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16777a"
+                              ana="ud-syn:case"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16778 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16777b"
+                              ana="ud-syn:det"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16776 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16778"
+                              ana="ud-syn:nmod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16781 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16779"
+                              ana="ud-syn:nmod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16781 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16780"
+                              ana="ud-syn:det"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16785 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16781"
+                              ana="ud-syn:nsubj_pass"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16783 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16782"
+                              ana="ud-syn:case"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16781 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16783"
+                              ana="ud-syn:nmod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16785 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16784"
+                              ana="ud-syn:aux_pass"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16778 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16785"
+                              ana="ud-syn:acl_relcl"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16761 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2664"
+                              ana="ud-syn:punct"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg365" xml:lang="nl">
+                  <s xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s1102" xml:lang="nl">
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16786"
+                        ana="#pos.ADP #type.pre"
+                        msd="UPosTag=ADP"
+                        lemma="in">In</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16787"
+                        ana="#pos.PD #type.d-p #subtype.art-def"
+                        msd="UPosTag=DET|Definite=Def"
+                        lemma="de">de</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16788"
+                        ana="#pos.AA #degree.sup #position.adv_pred"
+                        msd="UPosTag=ADJ|Degree=Sup"
+                        lemma="laatst">laatst</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16789"
+                        ana="#pos.AA #position.prenom #formal.infl-e #degree.pos"
+                        msd="UPosTag=VERB|VerbForm=Part"
+                        lemma="rondgedeeld">rondgedeelde</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16790"
+                        ana="#pos.NOU-C #gender.f_m #number.sg"
+                        msd="UPosTag=NOUN|Gender=Com|Number=Sing"
+                        lemma="agenda">agenda</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16791"
+                        ana="#pos.VRB #finiteness.fin #mood.ind #tense.pres #number.sg #person.2_3 #formal.infl-t"
+                        msd="UPosTag=VERB|Number=Sing|Tense=Pres|VerbForm=Fin"
+                        lemma="komen">komt</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16792"
+                        ana="#pos.PD #type.indef #subtype.art-indef"
+                        msd="UPosTag=DET|Definite=Ind"
+                        lemma="een">een</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16793"
+                        ana="#pos.NOU-C #gender.f_m #number.sg"
+                        msd="UPosTag=NOUN|Gender=Com|Number=Sing"
+                        lemma="lijst">lijst</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16794"
+                        ana="#pos.ADP #type.pre"
+                        msd="UPosTag=ADP"
+                        lemma="van">van</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16795"
+                        ana="#pos.NOU-C #number.pl"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="voorstel">voorstellen</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16796"
+                        ana="#pos.ADP #type.post"
+                        msd="UPosTag=ADP"
+                        lemma="voor">voor</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16797"
+                        ana="#pos.ADV"
+                        msd="UPosTag=ADV"
+                        lemma="waarvan">waarvan</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16798"
+                        ana="#pos.PD #type.d-p #subtype.art-def"
+                        msd="UPosTag=DET|Definite=Def"
+                        lemma="de">de</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16799"
+                        ana="#pos.NOU-C #gender.f_m #number.sg"
+                        msd="UPosTag=NOUN|Gender=Com|Number=Sing"
+                        lemma="inoverwegingneming">inoverwegingneming</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16800"
+                        ana="#pos.VRB #finiteness.fin #mood.imp_ind #tense.pres #number.sg"
+                        msd="UPosTag=AUX|Number=Sing|Tense=Pres|VerbForm=Fin"
+                        lemma="zijn">is</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16801"
+                        join="right"
+                        ana="#pos.VRB #finiteness.part #tense.past"
+                        msd="UPosTag=VERB|VerbForm=Part"
+                        lemma="vragen">gevraagd</w>
+                     <pc xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2665"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp type="UD-SYN" targFunc="head argument">
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16790 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16786"
+                              ana="ud-syn:case"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16790 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16787"
+                              ana="ud-syn:det"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16789 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16788"
+                              ana="ud-syn:advmod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16790 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16789"
+                              ana="ud-syn:acl"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16791 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16790"
+                              ana="ud-syn:obl"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2665 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16791"
+                              ana="ud-syn:root"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16793 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16792"
+                              ana="ud-syn:det"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16791 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16793"
+                              ana="ud-syn:nsubj"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16795 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16794"
+                              ana="ud-syn:case"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16793 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16795"
+                              ana="ud-syn:nmod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16791 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16796"
+                              ana="ud-syn:compound_prt"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16801 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16797"
+                              ana="ud-syn:advmod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16799 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16798"
+                              ana="ud-syn:det"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16801 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16799"
+                              ana="ud-syn:nsubj_pass"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16801 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16800"
+                              ana="ud-syn:aux_pass"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16795 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16801"
+                              ana="ud-syn:acl_relcl"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16791 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2665"
+                              ana="ud-syn:punct"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg366" xml:lang="fr">
+                  <s xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s1103" xml:lang="fr">
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16802"
+                        join="right"
+                        msd="UPosTag=SCONJ"
+                        lemma="si">S'</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2666"
+                        msd="UPosTag=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Prs"
+                        lemma="il">il</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16803"
+                        join="right"
+                        msd="UPosTag=ADV|Polarity=Neg"
+                        lemma="ne">n'</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2667"
+                        msd="UPosTag=PRON"
+                        lemma="y">y</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16804"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="avoir">a</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16805"
+                        msd="UPosTag=ADV|Polarity=Neg"
+                        lemma="pas">pas</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16806"
+                        join="right"
+                        msd="UPosTag=DET|Definite=Ind|Gender=Fem|Number=Plur|PronType=Art"
+                        lemma="un">d'</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2668"
+                        msd="UPosTag=NOUN|Gender=Fem|Number=Plur"
+                        lemma="observation">observations</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16807"
+                        msd="UPosTag=ADP"
+                        lemma="à">à</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16808"
+                        msd="UPosTag=DET|Gender=Masc|Number=Sing|PronType=Dem"
+                        lemma="ce">ce</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16809"
+                        join="right"
+                        msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
+                        lemma="sujet">sujet</w>
+                     <pc xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2669"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16810"
+                        msd="UPosTag=PRON|Number=Sing|Person=1|PronType=Prs"
+                        lemma="il">je</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16811"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin"
+                        lemma="considérer">considérerai</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16812"
+                        msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+                        lemma="le">la</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16813"
+                        msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
+                        lemma="prise">prise</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16814"
+                        msd="UPosTag=ADP"
+                        lemma="en">en</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16815"
+                        msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
+                        lemma="considération">considération</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16816"
+                        msd="UPosTag=SCONJ"
+                        lemma="comme">comme</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16817"
+                        join="right"
+                        msd="UPosTag=ADJ|Gender=Fem|Number=Sing"
+                        lemma="acquis">acquise</w>
+                     <pc xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2670"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp type="UD-SYN" targFunc="head argument">
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16804 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16802"
+                              ana="ud-syn:mark"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16804 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2666"
+                              ana="ud-syn:expl_subj"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16804 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16803"
+                              ana="ud-syn:advmod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16804 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2667"
+                              ana="ud-syn:expl_comp"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16811 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16804"
+                              ana="ud-syn:advcl"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16804 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16805"
+                              ana="ud-syn:advmod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2668 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16806"
+                              ana="ud-syn:det"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16804 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2668"
+                              ana="ud-syn:obj"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16809 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16807"
+                              ana="ud-syn:case"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16809 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16808"
+                              ana="ud-syn:det"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2668 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16809"
+                              ana="ud-syn:nmod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16811 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16810"
+                              ana="ud-syn:nsubj"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2670 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16811"
+                              ana="ud-syn:root"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16813 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16812"
+                              ana="ud-syn:det"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16811 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16813"
+                              ana="ud-syn:obj"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16815 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16814"
+                              ana="ud-syn:case"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16813 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16815"
+                              ana="ud-syn:nmod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16817 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16816"
+                              ana="ud-syn:mark"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16811 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16817"
+                              ana="ud-syn:xcomp"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16804 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2669"
+                              ana="ud-syn:punct"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16811 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2670"
+                              ana="ud-syn:punct"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s1104" xml:lang="fr">
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16818"
+                        msd="UPosTag=PRON|Number=Sing|Person=1|PronType=Prs"
+                        lemma="il">Je</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16819"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="renvoyer">renvoie</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16820"
+                        msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Plur|PronType=Art"
+                        lemma="le">les</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16821"
+                        msd="UPosTag=NOUN|Gender=Fem|Number=Plur"
+                        lemma="proposition">propositions</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16822">aux<w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16822a"
+                           norm="à"
+                           msd="UPosTag=ADP"
+                           lemma="à"/>
+                        <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16822b"
+                           norm="les"
+                           msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Plur|PronType=Art"
+                           lemma="le"/>
+                     </w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16823"
+                        msd="UPosTag=NOUN|Gender=Fem|Number=Plur"
+                        lemma="commission">commissions</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16824"
+                        msd="UPosTag=ADJ|Gender=Fem|Number=Plur"
+                        lemma="compétent">compétentes</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16825"
+                        msd="UPosTag=ADV"
+                        lemma="conformément">conformément</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16826">au<w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16826a"
+                           norm="à"
+                           msd="UPosTag=ADP"
+                           lemma="à"/>
+                        <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16826b"
+                           norm="le"
+                           msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+                           lemma="le"/>
+                     </w>
+                     <name type="MISC">
+                        <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16827"
+                           join="right"
+                           msd="UPosTag=PROPN"
+                           lemma="Règlement">Règlement</w>
+                     </name>
+                     <pc xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2671"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp type="UD-SYN" targFunc="head argument">
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16819 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16818"
+                              ana="ud-syn:nsubj"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2671 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16819"
+                              ana="ud-syn:root"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16821 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16820"
+                              ana="ud-syn:det"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16819 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16821"
+                              ana="ud-syn:obj"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16822b #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16822a"
+                              ana="ud-syn:case"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16823 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16822b"
+                              ana="ud-syn:det"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16819 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16823"
+                              ana="ud-syn:obl_arg"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16823 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16824"
+                              ana="ud-syn:amod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16819 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16825"
+                              ana="ud-syn:advmod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16826b #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16826a"
+                              ana="ud-syn:case"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16827 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16826b"
+                              ana="ud-syn:det"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16825 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16827"
+                              ana="ud-syn:obl_arg"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16819 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2671"
+                              ana="ud-syn:punct"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg367" xml:lang="nl">
+                  <s xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s1105" xml:lang="nl">
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16828"
+                        ana="#pos.CONJ #type.sub"
+                        msd="UPosTag=SCONJ"
+                        lemma="indien">Indien</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16829"
+                        ana="#pos.PD #type.pers #person.3 #number.pl_sg #position.pron"
+                        msd="UPosTag=ADV"
+                        lemma="er">er</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16830"
+                        ana="#pos.PD #type.indef #position.prenom"
+                        msd="UPosTag=DET"
+                        lemma="geen">geen</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16831"
+                        ana="#pos.NOU-C #gender.n #number.sg"
+                        msd="UPosTag=NOUN|Gender=Neut|Number=Sing"
+                        lemma="bezwaar">bezwaar</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16832"
+                        join="right"
+                        ana="#pos.VRB #finiteness.fin #mood.imp_ind #tense.pres #number.sg"
+                        msd="UPosTag=VERB|Number=Sing|Tense=Pres|VerbForm=Fin"
+                        lemma="zijn">is</w>
+                     <pc xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2672"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16833"
+                        ana="#pos.VRB #finiteness.fin #mood.imp_ind #tense.pres #number.sg"
+                        msd="UPosTag=VERB|Number=Sing|Tense=Pres|VerbForm=Fin"
+                        lemma="beschouwen">beschouw</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16834"
+                        ana="#pos.PD #type.pers #person.1 #number.sg #position.pron #case.nom"
+                        msd="UPosTag=PRON|Case=Nom|Person=1|PronType=Prs"
+                        lemma="ik">ik</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16835"
+                        ana="#pos.PD #type.dem #position.prenom"
+                        msd="UPosTag=PRON|PronType=Dem"
+                        lemma="deze">deze</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16836"
+                        ana="#pos.ADP #type.pre"
+                        msd="UPosTag=SCONJ"
+                        lemma="als">als</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16837"
+                        join="right"
+                        ana="#pos.VRB #finiteness.part #tense.past"
+                        msd="UPosTag=VERB|VerbForm=Part"
+                        lemma="aannemen">aangenomen</w>
+                     <pc xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2673"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp type="UD-SYN" targFunc="head argument">
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16832 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16828"
+                              ana="ud-syn:mark"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16832 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16829"
+                              ana="ud-syn:advmod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16831 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16830"
+                              ana="ud-syn:det"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16832 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16831"
+                              ana="ud-syn:nsubj"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16833 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16832"
+                              ana="ud-syn:advcl"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2673 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16833"
+                              ana="ud-syn:root"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16833 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16834"
+                              ana="ud-syn:nsubj"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16833 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16835"
+                              ana="ud-syn:obj"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16837 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16836"
+                              ana="ud-syn:mark"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16833 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16837"
+                              ana="ud-syn:xcomp"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16832 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2672"
+                              ana="ud-syn:punct"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16833 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2673"
+                              ana="ud-syn:punct"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s1106" xml:lang="nl">
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16838"
+                        ana="#pos.AA #degree.pos #position.adv_pred"
+                        msd="UPosTag=ADP"
+                        lemma="overeenkomstig">Overeenkomstig</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16839"
+                        ana="#pos.PD #type.d-p #subtype.art-def"
+                        msd="UPosTag=DET|Definite=Def"
+                        lemma="het">het</w>
+                     <name type="MISC">
+                        <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16840"
+                           ana="#pos.NOU-C #gender.n #number.sg"
+                           msd="UPosTag=NOUN|Gender=Neut|Number=Sing"
+                           lemma="reglement">Reglement</w>
+                     </name>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16841"
+                        ana="#pos.VRB #finiteness.ger_inf"
+                        msd="UPosTag=AUX|Number=Plur|Tense=Pres|VerbForm=Fin"
+                        lemma="worden">worden</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16842"
+                        ana="#pos.PD #type.rel #position.pron"
+                        msd="UPosTag=DET"
+                        lemma="die">die</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16843"
+                        ana="#pos.VRB #finiteness.fin #mood.ind #tense.pres #number.pl"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="voorstellen">voorstellen</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16844"
+                        ana="#pos.ADP #type.pre"
+                        msd="UPosTag=ADP"
+                        lemma="naar">naar</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16845"
+                        ana="#pos.PD #type.d-p #subtype.art-def"
+                        msd="UPosTag=DET|Definite=Def"
+                        lemma="de">de</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16846"
+                        ana="#pos.AA #degree.pos #position.prenom #formal.infl-e"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="bevoegd">bevoegde</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16847"
+                        ana="#pos.NOU-C #number.pl"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="commissie">commissies</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16848"
+                        join="right"
+                        ana="#pos.VRB #finiteness.part #tense.past"
+                        msd="UPosTag=VERB|VerbForm=Part"
+                        lemma="verzenden">verzonden</w>
+                     <pc xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2674"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp type="UD-SYN" targFunc="head argument">
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16840 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16838"
+                              ana="ud-syn:case"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16840 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16839"
+                              ana="ud-syn:det"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16848 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16840"
+                              ana="ud-syn:obl"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16848 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16841"
+                              ana="ud-syn:aux_pass"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16843 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16842"
+                              ana="ud-syn:det"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16848 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16843"
+                              ana="ud-syn:nsubj_pass"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16847 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16844"
+                              ana="ud-syn:case"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16847 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16845"
+                              ana="ud-syn:det"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16847 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16846"
+                              ana="ud-syn:amod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16848 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16847"
+                              ana="ud-syn:obl"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2674 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16848"
+                              ana="ud-syn:root"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16848 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2674"
+                              ana="ud-syn:punct"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg368" xml:lang="fr">
+                  <s xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s1107" xml:lang="fr">
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16849"
+                        msd="UPosTag=ADV|Polarity=Neg"
+                        lemma="pas">Pas</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16850"
+                        join="right"
+                        msd="UPosTag=ADP"
+                        lemma="de">d'</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2676"
+                        join="right"
+                        msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
+                        lemma="observation">observation</w>
+                     <pc xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2675"
+                         msd="UPosTag=PUNCT">?</pc>
+                     <linkGrp type="UD-SYN" targFunc="head argument">
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2676 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16849"
+                              ana="ud-syn:advmod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2676 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16850"
+                              ana="ud-syn:case"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2675 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2676"
+                              ana="ud-syn:root"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2676 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2675"
+                              ana="ud-syn:punct"/>
+                     </linkGrp>
+                  </s>
+                  <note type="answer">(Non)</note>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg369" xml:lang="fr">
+                  <s xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s1109" xml:lang="fr">
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16852"
+                        msd="UPosTag=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Prs"
+                        lemma="il">Il</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16853"
+                        msd="UPosTag=PRON|Person=3"
+                        lemma="en">en</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16854"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin"
+                        lemma="être">sera</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16855"
+                        join="right"
+                        msd="UPosTag=ADV"
+                        lemma="ainsi">ainsi</w>
+                     <pc xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2679"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp type="UD-SYN" targFunc="head argument">
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16854 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16852"
+                              ana="ud-syn:nsubj"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16854 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16853"
+                              ana="ud-syn:expl_comp"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2679 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16854"
+                              ana="ud-syn:root"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16854 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16855"
+                              ana="ud-syn:advmod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16854 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2679"
+                              ana="ud-syn:punct"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg370" xml:lang="nl">
+                  <s xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s1110" xml:lang="nl">
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16856"
+                        ana="#pos.PD #type.indef #position.prenom"
+                        msd="UPosTag=DET"
+                        lemma="geen">Geen</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16857"
+                        join="right"
+                        ana="#pos.NOU-C #gender.n #number.sg"
+                        msd="UPosTag=NOUN|Gender=Neut|Number=Sing"
+                        lemma="bezwaar">bezwaar</w>
+                     <pc xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2680"
+                         msd="UPosTag=PUNCT">?</pc>
+                     <linkGrp type="UD-SYN" targFunc="head argument">
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16857 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16856"
+                              ana="ud-syn:det"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2680 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16857"
+                              ana="ud-syn:root"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16857 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2680"
+                              ana="ud-syn:punct"/>
+                     </linkGrp>
+                  </s>
+                  <note xml:lang="nl" type="answer">(Nee)</note>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg371" xml:lang="nl">
+                  <s xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s1112" xml:lang="nl">
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16859"
+                        ana="#pos.ADV"
+                        msd="UPosTag=ADV"
+                        lemma="aldus">Aldus</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16860"
+                        ana="#pos.VRB #finiteness.fin #mood.ind #tense.pres #number.sg #person.2_3 #formal.infl-t"
+                        msd="UPosTag=AUX|Number=Sing|Tense=Pres|VerbForm=Fin"
+                        lemma="worden">wordt</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16861"
+                        join="right"
+                        ana="#pos.VRB #finiteness.part #tense.past"
+                        msd="UPosTag=VERB|VerbForm=Part"
+                        lemma="besluiten">besloten</w>
+                     <pc xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2683"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp type="UD-SYN" targFunc="head argument">
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16861 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16859"
+                              ana="ud-syn:advmod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16861 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16860"
+                              ana="ud-syn:aux_pass"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2683 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16861"
+                              ana="ud-syn:root"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16861 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2683"
+                              ana="ud-syn:punct"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg372" xml:lang="fr">
+                  <s xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s1113" xml:lang="fr">
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16862"
+                        msd="UPosTag=DET|Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+                        lemma="le">La</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16863"
+                        msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
+                        lemma="séance">séance</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16864"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="être">est</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16865"
+                        join="right"
+                        msd="UPosTag=VERB|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part"
+                        lemma="lever">levée</w>
+                     <pc xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2684"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp type="UD-SYN" targFunc="head argument">
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16863 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16862"
+                              ana="ud-syn:det"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16865 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16863"
+                              ana="ud-syn:nsubj_pass"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16865 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16864"
+                              ana="ud-syn:aux_pass"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2684 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16865"
+                              ana="ud-syn:root"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16865 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2684"
+                              ana="ud-syn:punct"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s1114" xml:lang="fr">
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16866"
+                        msd="UPosTag=ADJ|Gender=Fem|Number=Sing"
+                        lemma="prochain">Prochaine</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16867"
+                        msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
+                        lemma="séance">séance</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16868"
+                        msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+                        lemma="le">le</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16869"
+                        msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
+                        lemma="jeudi">jeudi</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16870"
+                        msd="UPosTag=NUM"
+                        lemma="17">17</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16871"
+                        msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
+                        lemma="octobre">octobre</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16872"
+                        msd="UPosTag=NUM"
+                        lemma="2019">2019</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16873"
+                        msd="UPosTag=ADP"
+                        lemma="à">à</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16874"
+                        msd="UPosTag=NUM"
+                        lemma="14">14</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16875"
+                        msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
+                        lemma="heure">h</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16876"
+                        join="right"
+                        msd="UPosTag=NUM"
+                        lemma="15">15</w>
+                     <pc xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2685"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp type="UD-SYN" targFunc="head argument">
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16867 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16866"
+                              ana="ud-syn:amod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2685 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16867"
+                              ana="ud-syn:root"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16869 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16868"
+                              ana="ud-syn:det"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16867 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16869"
+                              ana="ud-syn:nmod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16869 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16870"
+                              ana="ud-syn:nmod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16870 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16871"
+                              ana="ud-syn:nmod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16871 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16872"
+                              ana="ud-syn:nmod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16875 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16873"
+                              ana="ud-syn:case"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16875 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16874"
+                              ana="ud-syn:nummod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16869 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16875"
+                              ana="ud-syn:nmod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16875 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16876"
+                              ana="ud-syn:nummod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16867 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2685"
+                              ana="ud-syn:punct"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.seg373" xml:lang="nl">
+                  <s xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s1115" xml:lang="nl">
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16877"
+                        ana="#pos.PD #type.d-p #subtype.art-def"
+                        msd="UPosTag=DET|Definite=Def"
+                        lemma="de">De</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16878"
+                        ana="#pos.NOU-C #gender.f_m #number.sg"
+                        msd="UPosTag=NOUN|Gender=Com|Number=Sing"
+                        lemma="vergadering">vergadering</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16879"
+                        ana="#pos.VRB #finiteness.fin #mood.ind #tense.pres #number.sg #person.2_3 #formal.infl-t"
+                        msd="UPosTag=AUX|Number=Sing|Tense=Pres|VerbForm=Fin"
+                        lemma="worden">wordt</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16880"
+                        join="right"
+                        ana="#pos.VRB #finiteness.part #tense.past"
+                        msd="UPosTag=VERB|VerbForm=Part"
+                        lemma="sluiten">gesloten</w>
+                     <pc xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2686"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp type="UD-SYN" targFunc="head argument">
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16878 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16877"
+                              ana="ud-syn:det"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16880 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16878"
+                              ana="ud-syn:nsubj_pass"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16880 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16879"
+                              ana="ud-syn:aux_pass"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2686 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16880"
+                              ana="ud-syn:root"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16880 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2686"
+                              ana="ud-syn:punct"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.s1116" xml:lang="nl">
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16881"
+                        ana="#pos.AA #degree.pos #position.prenom #formal.infl-e"
+                        msd="UPosTag=VERB|VerbForm=Part"
+                        lemma="volgend">Volgende</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16882"
+                        ana="#pos.NOU-C #gender.f_m #number.sg"
+                        msd="UPosTag=NOUN|Gender=Com|Number=Sing"
+                        lemma="vergadering">vergadering</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16883"
+                        ana="#pos.NOU-P #number.sg"
+                        msd="UPosTag=PROPN|Gender=Com|Number=Sing"
+                        lemma="donderdag">donderdag</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16884"
+                        ana="#pos.NUM #type.card #position.oth_pred"
+                        msd="UPosTag=NUM"
+                        lemma="17">17</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16885"
+                        ana="#pos.NOU-P #number.sg"
+                        msd="UPosTag=PROPN|Gender=Com|Number=Sing"
+                        lemma="oktober">oktober</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16886"
+                        ana="#pos.NUM #type.card #position.oth_pred"
+                        msd="UPosTag=NUM"
+                        lemma="2019">2019</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16887"
+                        ana="#pos.ADP #type.pre"
+                        msd="UPosTag=ADP"
+                        lemma="om">om</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16888"
+                        ana="#pos.RES #type.sym"
+                        msd="UPosTag=NUM"
+                        lemma="14.15">14.15</w>
+                     <w xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16889"
+                        join="right"
+                        ana="#pos.NOU-C #gender.n #number.sg"
+                        msd="UPosTag=NOUN|Gender=Neut|Number=Sing"
+                        lemma="uur">uur</w>
+                     <pc xml:id="ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2687"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp type="UD-SYN" targFunc="head argument">
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16882 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16881"
+                              ana="ud-syn:amod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2687 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16882"
+                              ana="ud-syn:root"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16882 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16883"
+                              ana="ud-syn:nmod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16883 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16884"
+                              ana="ud-syn:nmod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16884 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16885"
+                              ana="ud-syn:flat"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16884 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16886"
+                              ana="ud-syn:flat"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16888 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16887"
+                              ana="ud-syn:case"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16883 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16888"
+                              ana="ud-syn:nmod"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16888 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16889"
+                              ana="ud-syn:fixed"/>
+                        <link target="#ParlaMint-BE_2019-10-08-55-plenair-ip008x.w16882 #ParlaMint-BE_2019-10-08-55-plenair-ip008x.pc2687"
+                              ana="ud-syn:punct"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
