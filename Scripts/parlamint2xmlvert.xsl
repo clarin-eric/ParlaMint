@@ -222,6 +222,10 @@
     <!-- Output only if it has some sentences -->
     <xsl:if test="tei:s">
       <p id="{@xml:id}">
+	<!-- We add language attribute (needed for for BE, which has fr+nl) -->
+	<xsl:variable name="lang-code" select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
+	<xsl:attribute name="lang" select="$teiHeader//tei:langUsage/tei:language
+					   [@ident=$lang-code][@xml:lang='en']"/>
 	<xsl:text>&#10;</xsl:text>
 	<xsl:apply-templates/>
       </p>

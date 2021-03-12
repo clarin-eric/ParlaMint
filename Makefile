@@ -43,6 +43,7 @@ texts:
 	ls ParlaMint-SI/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
 	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ParlaMint-SI/{/.}.txt'
 verts:
+	Scripts/parlamint-tei2vert.pl ParlaMint-BE/ParlaMint-BE.ana.xml ParlaMint-BE
 	Scripts/parlamint-tei2vert.pl ParlaMint-BG/ParlaMint-BG.ana.xml ParlaMint-BG
 	Scripts/parlamint-tei2vert.pl ParlaMint-CZ/ParlaMint-CZ.ana.xml ParlaMint-CZ
 	Scripts/parlamint-tei2vert.pl ParlaMint-HR/ParlaMint-HR.ana.xml ParlaMint-HR
