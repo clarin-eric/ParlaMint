@@ -117,8 +117,11 @@
       <xsl:attribute name="to" select="$date-to"/>
       <xsl:attribute name="title">
 	<xsl:variable name="titles" select="tei:teiHeader/tei:fileDesc/
-					    tei:titleStmt/tei:title[@xml:lang='en']"/>
+					    tei:titleStmt/tei:title"/>
 	<xsl:choose>
+	  <xsl:when test="$titles[@type='sub'][@xml:lang='en']">
+	    <xsl:value-of select="$titles[@type='sub'][@xml:lang='en'][1]"/>
+	  </xsl:when>
 	  <xsl:when test="$titles[@type='sub']">
 	    <xsl:value-of select="$titles[@type='sub'][1]"/>
 	  </xsl:when>
