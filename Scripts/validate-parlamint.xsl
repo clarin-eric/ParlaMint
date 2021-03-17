@@ -126,42 +126,24 @@
   </xsl:template>
     
   <xsl:template match="tei:titleStmt">
-    <xsl:variable name="title" select="tei:title[@type = 'main'][@xml:lang='en']"/>
-    <xsl:choose>
-      <xsl:when test="/tei:teiCorpus and $type = 'txt'">
-	<xsl:if test="not(matches($title, 
-		      '[^ ]+ parliamentary corpus ParlaMint-.. \[ParlaMint( SAMPLE)?\]$', 
-		      'i'))">
-	  <xsl:call-template name="error">
-	    <xsl:with-param name="msg" select="concat('Bad main corpus title ', $title)"/>
-	  </xsl:call-template>
-	</xsl:if>
-      </xsl:when>
-      <xsl:when test="/tei:teiCorpus and $type = 'ana'">
-	<xsl:if test="not(matches($title, 
-		      '[^ ]+ parliamentary corpus ParlaMint-.. \[ParlaMint\.ana( SAMPLE)?\]$'))">
-	  <xsl:call-template name="error">
-	    <xsl:with-param name="msg" select="concat('Bad main corpus title ', $title)"/>
-	  </xsl:call-template>
-	</xsl:if>
-      </xsl:when>
-      <xsl:when test="/tei:TEI and $type = 'txt'">
-	<xsl:if test="not(matches($title, 
-		      '[^ ]+ parliamentary corpus ParlaMint-..,? .+ \[ParlaMint( SAMPLE)?\]$'))">
-	  <xsl:call-template name="error">
-	    <xsl:with-param name="msg" select="concat('Bad txt component corpus title ', $title)"/>
-	  </xsl:call-template>
-	</xsl:if>
-      </xsl:when>
-      <xsl:when test="/tei:TEI and $type = 'ana'">
-	<xsl:if test="not(matches($title, 
-		      '[^ ]+ parliamentary corpus ParlaMint-..,? .+ \[ParlaMint\.ana( SAMPLE)?\]$'))">
-	  <xsl:call-template name="error">
-	    <xsl:with-param name="msg" select="concat('Bad ana component corpus title ', $title)"/>
-	  </xsl:call-template>
-	</xsl:if>
-      </xsl:when>
-    </xsl:choose>
+    <xsl:variable name="title" select="tei:title[@type = 'main']
+				       [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'en']"/>
+    <xsl:variable name="title-prefix">[^ ]+( [^ ]+)? parliamentary corpus ParlaMint-..</xsl:variable>
+    <xsl:variable name="title-suffix">
+      <xsl:choose>
+	<xsl:when test="/tei:teiCorpus and $type = 'txt'"> \[ParlaMint( SAMPLE)?\]$</xsl:when>
+	<xsl:when test="/tei:teiCorpus and $type = 'ana'"> \[ParlaMint\.ana( SAMPLE)?\]$</xsl:when>
+	<xsl:when test="/tei:TEI and $type = 'txt'">,? .+ \[ParlaMint( SAMPLE)?\]$</xsl:when>
+	<xsl:when test="/tei:TEI and $type = 'ana'">,? .+ \[ParlaMint\.ana( SAMPLE)?\]$</xsl:when>
+      </xsl:choose>
+    </xsl:variable>
+    <xsl:variable name="title-pattern" select="concat($title-prefix, $title-suffix)"/>
+    <xsl:if test="not(matches($title, $title-pattern))">
+      <xsl:call-template name="error">
+	<xsl:with-param name="msg" select="concat('Bad main title ', $title, 
+					   ' (should match ', $title-pattern, ')')"/>
+      </xsl:call-template>
+    </xsl:if>
     <xsl:if test="not(tei:meeting)">
       <xsl:call-template name="error">
 	<xsl:with-param name="msg">Missing meeting elements in titleStmt</xsl:with-param>
