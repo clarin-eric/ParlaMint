@@ -1,0 +1,2413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ParlaMint-GB_2021-02-11-commons.ana"
+     xml:lang="en"
+     ana="#parla.sitting #covid">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Great Britain parliamentary corpus ParlaMint-GB, Commons, 2021-02-11 [ParlaMint.ana SAMPLE]</title>
+            <meeting corresp="#PoGB" ana="#parla.meeting.regular"/>
+            <meeting n="58" corresp="#PoGB" ana="#parla.term #PoGB.58"/>
+            <respStmt>
+               <persName>Matthew Coole</persName>
+               <resp>TEI corpus encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>1.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="15">15 speeches</measure>
+            <measure unit="words" quantity="869">869 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName>CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <pubPlace>
+               <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+            </pubPlace>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+               <p>This work is also licensed under the <ref target="https://www.parliament.uk/site-information/copyright-parliament/open-parliament-licence/">Open Parliament Licence v3.0</ref>.</p>
+            </availability>
+            <date when="2021-03-17">2021-03-17</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>UK Parliamentary Corpus. Volume 689. Thursday 11th February 2021.</title>
+               <idno type="URI">https://hansard-api.parliament.uk/debates/debate/020fdbbe-5ec0-4be5-bc97-1c9f98cb1092.xml</idno>
+               <date when="2021-02-11"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="5"/>
+               <tagUsage gi="head" occurs="5"/>
+               <tagUsage gi="note" occurs="6"/>
+               <tagUsage gi="u" occurs="15"/>
+               <tagUsage gi="seg" occurs="18"/>
+               <tagUsage gi="s" occurs="36"/>
+               <tagUsage gi="name" occurs="59"/>
+               <tagUsage gi="w" occurs="869"/>
+               <tagUsage gi="pc" occurs="68"/>
+               <tagUsage gi="linkGrp" occurs="36"/>
+               <tagUsage gi="link" occurs="937"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city">London</name>
+               <name type="place">Westminster</name>
+               <name type="place">Commons Chamber</name>
+               <date when="2021-02-11"/>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid">
+      <body>
+         <div type="debateSection">
+            <head>Office for Veterans’ Affairs: Government Support</head>
+            <u who="#JamesDaly"
+               xml:id="ParlaMint-GB_2021-02-11-commons.u1"
+               ana="#regular">
+               <seg xml:id="ParlaMint-GB_2021-02-11-commons.seg1">
+                  <s xml:id="ParlaMint-GB_2021-02-11-commons.seg1.1">
+                     <w lemma="what"
+                        msd="UPosTag=DET|PronType=Int"
+                        pos="WDT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg1.1.1">What</w>
+                     <w lemma="step"
+                        msd="UPosTag=VERB|Tense=Pres|VerbForm=Fin|Mood=Ind|Number=Sing|Person=3"
+                        pos="VBZ"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg1.1.2">steps</w>
+                     <w lemma="the"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        pos="DT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg1.1.3">the</w>
+                     <w lemma="government"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg1.1.4">Government</w>
+                     <w lemma="be"
+                        msd="UPosTag=VERB|Tense=Pres|VerbForm=Fin|Mood=Ind"
+                        pos="VBP"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg1.1.5">are</w>
+                     <w lemma="take"
+                        msd="UPosTag=VERB|Tense=Pres|VerbForm=Part"
+                        pos="VBG"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg1.1.6">taking</w>
+                     <w lemma="to"
+                        msd="UPosTag=PART"
+                        pos="TO"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg1.1.7">to</w>
+                     <w lemma="support"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        pos="VB"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg1.1.8">support</w>
+                     <w lemma="the"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        pos="DT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg1.1.9">the</w>
+                     <w lemma="Office"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        pos="NNP"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg1.1.10">Office</w>
+                     <w lemma="for"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg1.1.11">for</w>
+                     <w join="right"
+                        lemma="Veterans"
+                        msd="UPosTag=PROPN|Number=Plur"
+                        pos="NNPS"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg1.1.12">Veterans</w>
+                     <w lemma="’"
+                        msd="UPosTag=PART"
+                        pos="POS"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg1.1.13">’</w>
+                     <w join="right"
+                        lemma="Affairs"
+                        msd="UPosTag=PROPN|Number=Plur"
+                        pos="NNPS"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg1.1.14">Affairs</w>
+                     <pc msd="UPosTag=PUNCT"
+                         pos="."
+                         xml:id="ParlaMint-GB_2021-02-11-commons.seg1.1.15">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg1.1.2 #ParlaMint-GB_2021-02-11-commons.seg1.1.1"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg1.1 #ParlaMint-GB_2021-02-11-commons.seg1.1.2"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg1.1.4 #ParlaMint-GB_2021-02-11-commons.seg1.1.3"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg1.1.2 #ParlaMint-GB_2021-02-11-commons.seg1.1.4"/>
+                        <link ana="ud-syn:aux"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg1.1.6 #ParlaMint-GB_2021-02-11-commons.seg1.1.5"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg1.1.2 #ParlaMint-GB_2021-02-11-commons.seg1.1.6"/>
+                        <link ana="ud-syn:mark"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg1.1.8 #ParlaMint-GB_2021-02-11-commons.seg1.1.7"/>
+                        <link ana="ud-syn:xcomp"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg1.1.6 #ParlaMint-GB_2021-02-11-commons.seg1.1.8"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg1.1.10 #ParlaMint-GB_2021-02-11-commons.seg1.1.9"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg1.1.8 #ParlaMint-GB_2021-02-11-commons.seg1.1.10"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg1.1.14 #ParlaMint-GB_2021-02-11-commons.seg1.1.11"/>
+                        <link ana="ud-syn:nmod_poss"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg1.1.14 #ParlaMint-GB_2021-02-11-commons.seg1.1.12"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg1.1.12 #ParlaMint-GB_2021-02-11-commons.seg1.1.13"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg1.1.10 #ParlaMint-GB_2021-02-11-commons.seg1.1.14"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg1.1.2 #ParlaMint-GB_2021-02-11-commons.seg1.1.15"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <u who="#JohnMercer"
+               xml:id="ParlaMint-GB_2021-02-11-commons.u2"
+               ana="#regular">
+               <seg xml:id="ParlaMint-GB_2021-02-11-commons.seg2">
+                  <s xml:id="ParlaMint-GB_2021-02-11-commons.seg2.1">
+                     <w lemma="the"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        pos="DT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.1.1">The</w>
+                     <name type="MISC">
+                        <w lemma="Prime"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           pos="NNP"
+                           xml:id="ParlaMint-GB_2021-02-11-commons.seg2.1.2">Prime</w>
+                        <w lemma="Minister"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           pos="NNP"
+                           xml:id="ParlaMint-GB_2021-02-11-commons.seg2.1.3">Minister</w>
+                     </name>
+                     <w lemma="set"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Fin|Mood=Ind"
+                        pos="VBD"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.1.4">set</w>
+                     <w lemma="up"
+                        msd="UPosTag=ADP"
+                        pos="RP"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.1.5">up</w>
+                     <w lemma="the"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        pos="DT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.1.6">the</w>
+                     <name type="MISC">
+                        <w lemma="Office"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           pos="NNP"
+                           xml:id="ParlaMint-GB_2021-02-11-commons.seg2.1.7">Office</w>
+                        <w lemma="for"
+                           msd="UPosTag=ADP"
+                           pos="IN"
+                           xml:id="ParlaMint-GB_2021-02-11-commons.seg2.1.8">for</w>
+                        <w join="right"
+                           lemma="Veterans"
+                           msd="UPosTag=PROPN|Number=Plur"
+                           pos="NNPS"
+                           xml:id="ParlaMint-GB_2021-02-11-commons.seg2.1.9">Veterans</w>
+                        <w lemma="’"
+                           msd="UPosTag=PART"
+                           pos="POS"
+                           xml:id="ParlaMint-GB_2021-02-11-commons.seg2.1.10">’</w>
+                     </name>
+                     <w lemma="Affairs"
+                        msd="UPosTag=PROPN|Number=Plur"
+                        pos="NNPS"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.1.11">Affairs</w>
+                     <w lemma="because"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.1.12">because</w>
+                     <w join="right"
+                        lemma="he"
+                        msd="UPosTag=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Case=Nom"
+                        pos="PRP"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.1.13">he</w>
+                     <pc msd="UPosTag=PUNCT"
+                         pos=","
+                         xml:id="ParlaMint-GB_2021-02-11-commons.seg2.1.14">,</pc>
+                     <w lemma="like"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.1.15">like</w>
+                     <w join="right"
+                        lemma="I"
+                        msd="UPosTag=PRON|Number=Sing|Person=1|PronType=Prs|Case=Acc"
+                        pos="PRP"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.1.16">me</w>
+                     <pc msd="UPosTag=PUNCT"
+                         pos=","
+                         xml:id="ParlaMint-GB_2021-02-11-commons.seg2.1.17">,</pc>
+                     <w lemma="be"
+                        msd="UPosTag=VERB|Tense=Pres|VerbForm=Fin|Mood=Ind|Number=Sing|Person=3"
+                        pos="VBZ"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.1.18">is</w>
+                     <w lemma="determine"
+                        msd="UPosTag=VERB|Tense=Past|Voice=Pass|VerbForm=Part"
+                        pos="VBN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.1.19">determined</w>
+                     <w lemma="to"
+                        msd="UPosTag=PART"
+                        pos="TO"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.1.20">to</w>
+                     <w lemma="ensure"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        pos="VB"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.1.21">ensure</w>
+                     <w lemma="that"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.1.22">that</w>
+                     <w lemma="this"
+                        msd="UPosTag=DET|Number=Sing|PronType=Dem"
+                        pos="DT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.1.23">this</w>
+                     <w lemma="country"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.1.24">country</w>
+                     <w lemma="become"
+                        msd="UPosTag=VERB|Tense=Pres|VerbForm=Fin|Mood=Ind|Number=Sing|Person=3"
+                        pos="VBZ"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.1.25">becomes</w>
+                     <w lemma="the"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        pos="DT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.1.26">the</w>
+                     <w lemma="best"
+                        msd="UPosTag=ADJ|Degree=Sup"
+                        pos="JJS"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.1.27">best</w>
+                     <w lemma="place"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.1.28">place</w>
+                     <w lemma="in"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.1.29">in</w>
+                     <w lemma="the"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        pos="DT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.1.30">the</w>
+                     <w lemma="world"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.1.31">world</w>
+                     <w lemma="to"
+                        msd="UPosTag=PART"
+                        pos="TO"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.1.32">to</w>
+                     <w lemma="be"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        pos="VB"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.1.33">be</w>
+                     <w lemma="a"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        pos="DT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.1.34">a</w>
+                     <w join="right"
+                        lemma="veteran"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.1.35">veteran</w>
+                     <pc msd="UPosTag=PUNCT"
+                         pos="."
+                         xml:id="ParlaMint-GB_2021-02-11-commons.seg2.1.36">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.1.3 #ParlaMint-GB_2021-02-11-commons.seg2.1.1"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.1.3 #ParlaMint-GB_2021-02-11-commons.seg2.1.2"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.1.4 #ParlaMint-GB_2021-02-11-commons.seg2.1.3"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.1 #ParlaMint-GB_2021-02-11-commons.seg2.1.4"/>
+                        <link ana="ud-syn:compound_prt"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.1.4 #ParlaMint-GB_2021-02-11-commons.seg2.1.5"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.1.7 #ParlaMint-GB_2021-02-11-commons.seg2.1.6"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.1.4 #ParlaMint-GB_2021-02-11-commons.seg2.1.7"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.1.11 #ParlaMint-GB_2021-02-11-commons.seg2.1.8"/>
+                        <link ana="ud-syn:nmod_poss"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.1.11 #ParlaMint-GB_2021-02-11-commons.seg2.1.9"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.1.9 #ParlaMint-GB_2021-02-11-commons.seg2.1.10"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.1.7 #ParlaMint-GB_2021-02-11-commons.seg2.1.11"/>
+                        <link ana="ud-syn:mark"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.1.19 #ParlaMint-GB_2021-02-11-commons.seg2.1.12"/>
+                        <link ana="ud-syn:nsubj_pass"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.1.19 #ParlaMint-GB_2021-02-11-commons.seg2.1.13"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.1.19 #ParlaMint-GB_2021-02-11-commons.seg2.1.14"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.1.16 #ParlaMint-GB_2021-02-11-commons.seg2.1.15"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.1.19 #ParlaMint-GB_2021-02-11-commons.seg2.1.16"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.1.19 #ParlaMint-GB_2021-02-11-commons.seg2.1.17"/>
+                        <link ana="ud-syn:aux_pass"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.1.19 #ParlaMint-GB_2021-02-11-commons.seg2.1.18"/>
+                        <link ana="ud-syn:advcl"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.1.4 #ParlaMint-GB_2021-02-11-commons.seg2.1.19"/>
+                        <link ana="ud-syn:mark"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.1.21 #ParlaMint-GB_2021-02-11-commons.seg2.1.20"/>
+                        <link ana="ud-syn:xcomp"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.1.19 #ParlaMint-GB_2021-02-11-commons.seg2.1.21"/>
+                        <link ana="ud-syn:mark"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.1.25 #ParlaMint-GB_2021-02-11-commons.seg2.1.22"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.1.24 #ParlaMint-GB_2021-02-11-commons.seg2.1.23"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.1.25 #ParlaMint-GB_2021-02-11-commons.seg2.1.24"/>
+                        <link ana="ud-syn:ccomp"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.1.21 #ParlaMint-GB_2021-02-11-commons.seg2.1.25"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.1.28 #ParlaMint-GB_2021-02-11-commons.seg2.1.26"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.1.28 #ParlaMint-GB_2021-02-11-commons.seg2.1.27"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.1.25 #ParlaMint-GB_2021-02-11-commons.seg2.1.28"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.1.31 #ParlaMint-GB_2021-02-11-commons.seg2.1.29"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.1.31 #ParlaMint-GB_2021-02-11-commons.seg2.1.30"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.1.28 #ParlaMint-GB_2021-02-11-commons.seg2.1.31"/>
+                        <link ana="ud-syn:mark"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.1.35 #ParlaMint-GB_2021-02-11-commons.seg2.1.32"/>
+                        <link ana="ud-syn:cop"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.1.35 #ParlaMint-GB_2021-02-11-commons.seg2.1.33"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.1.35 #ParlaMint-GB_2021-02-11-commons.seg2.1.34"/>
+                        <link ana="ud-syn:xcomp"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.1.25 #ParlaMint-GB_2021-02-11-commons.seg2.1.35"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.1.4 #ParlaMint-GB_2021-02-11-commons.seg2.1.36"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-GB_2021-02-11-commons.seg2.2">
+                     <w lemma="in"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.2.1">In</w>
+                     <w lemma="addition"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.2.2">addition</w>
+                     <w lemma="to"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.2.3">to</w>
+                     <w lemma="excellent"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        pos="JJ"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.2.4">excellent</w>
+                     <w join="right"
+                        lemma="official"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        pos="NNS"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.2.5">officials</w>
+                     <pc msd="UPosTag=PUNCT"
+                         pos=","
+                         xml:id="ParlaMint-GB_2021-02-11-commons.seg2.2.6">,</pc>
+                     <w lemma="the"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        pos="DT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.2.7">the</w>
+                     <w lemma="OVA"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        pos="NNP"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.2.8">OVA</w>
+                     <w lemma="benefit"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        pos="NNS"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.2.9">benefits</w>
+                     <w lemma="from"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.2.10">from</w>
+                     <w lemma="expert"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.2.11">expert</w>
+                     <w lemma="advice"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.2.12">advice</w>
+                     <w lemma="from"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.2.13">from</w>
+                     <w lemma="the"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        pos="DT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.2.14">the</w>
+                     <w join="right"
+                        lemma="Government"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        pos="NNP"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.2.15">Government</w>
+                     <w lemma="’s"
+                        msd="UPosTag=PART"
+                        pos="POS"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.2.16">’s</w>
+                     <name type="ORG">
+                        <w lemma="Veterans"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           pos="NNP"
+                           xml:id="ParlaMint-GB_2021-02-11-commons.seg2.2.17">Veterans</w>
+                        <w lemma="Advisory"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           pos="NNP"
+                           xml:id="ParlaMint-GB_2021-02-11-commons.seg2.2.18">Advisory</w>
+                        <w lemma="Board"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           pos="NNP"
+                           xml:id="ParlaMint-GB_2021-02-11-commons.seg2.2.19">Board</w>
+                     </name>
+                     <w lemma="and"
+                        msd="UPosTag=CCONJ"
+                        pos="CC"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.2.20">and</w>
+                     <w lemma="the"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        pos="DT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.2.21">the</w>
+                     <w lemma="newly"
+                        msd="UPosTag=ADV"
+                        pos="RB"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.2.22">newly</w>
+                     <w lemma="appoint"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part"
+                        pos="VBN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.2.23">appointed</w>
+                     <w lemma="veteran"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        pos="NNS"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.2.24">veterans</w>
+                     <w join="right"
+                        lemma="adviser"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg2.2.25">adviser</w>
+                     <pc msd="UPosTag=PUNCT"
+                         pos="."
+                         xml:id="ParlaMint-GB_2021-02-11-commons.seg2.2.26">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.2.5 #ParlaMint-GB_2021-02-11-commons.seg2.2.1"/>
+                        <link ana="ud-syn:fixed"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.2.1 #ParlaMint-GB_2021-02-11-commons.seg2.2.2"/>
+                        <link ana="ud-syn:fixed"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.2.1 #ParlaMint-GB_2021-02-11-commons.seg2.2.3"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.2.5 #ParlaMint-GB_2021-02-11-commons.seg2.2.4"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.2 #ParlaMint-GB_2021-02-11-commons.seg2.2.5"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.2.5 #ParlaMint-GB_2021-02-11-commons.seg2.2.6"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.2.9 #ParlaMint-GB_2021-02-11-commons.seg2.2.7"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.2.9 #ParlaMint-GB_2021-02-11-commons.seg2.2.8"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.2.6 #ParlaMint-GB_2021-02-11-commons.seg2.2.9"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.2.12 #ParlaMint-GB_2021-02-11-commons.seg2.2.10"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.2.12 #ParlaMint-GB_2021-02-11-commons.seg2.2.11"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.2.9 #ParlaMint-GB_2021-02-11-commons.seg2.2.12"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.2.19 #ParlaMint-GB_2021-02-11-commons.seg2.2.13"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.2.15 #ParlaMint-GB_2021-02-11-commons.seg2.2.14"/>
+                        <link ana="ud-syn:nmod_poss"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.2.19 #ParlaMint-GB_2021-02-11-commons.seg2.2.15"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.2.15 #ParlaMint-GB_2021-02-11-commons.seg2.2.16"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.2.19 #ParlaMint-GB_2021-02-11-commons.seg2.2.17"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.2.19 #ParlaMint-GB_2021-02-11-commons.seg2.2.18"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.2.12 #ParlaMint-GB_2021-02-11-commons.seg2.2.19"/>
+                        <link ana="ud-syn:cc"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.2.25 #ParlaMint-GB_2021-02-11-commons.seg2.2.20"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.2.25 #ParlaMint-GB_2021-02-11-commons.seg2.2.21"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.2.23 #ParlaMint-GB_2021-02-11-commons.seg2.2.22"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.2.25 #ParlaMint-GB_2021-02-11-commons.seg2.2.23"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.2.25 #ParlaMint-GB_2021-02-11-commons.seg2.2.24"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.2.12 #ParlaMint-GB_2021-02-11-commons.seg2.2.25"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg2.2.9 #ParlaMint-GB_2021-02-11-commons.seg2.2.26"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+         </div>
+         <div type="debateSection">
+            <u who="#CatherineSmith"
+               xml:id="ParlaMint-GB_2021-02-11-commons.u14"
+               ana="#regular">
+               <seg xml:id="ParlaMint-GB_2021-02-11-commons.seg14">
+                  <s xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1">
+                     <w lemma="the"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        pos="DT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.1">The</w>
+                     <w lemma="advice"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.2">advice</w>
+                     <w lemma="that"
+                        msd="UPosTag=DET|PronType=Rel"
+                        pos="WDT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.3">that</w>
+                     <w lemma="come"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Fin|Mood=Ind"
+                        pos="VBD"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.4">came</w>
+                     <w lemma="from"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.5">from</w>
+                     <w lemma="the"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        pos="DT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.6">the</w>
+                     <w lemma="government"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.7">Government</w>
+                     <name type="MISC">
+                        <w lemma="this"
+                           msd="UPosTag=DET|Number=Sing|PronType=Dem"
+                           pos="DT"
+                           xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.8">this</w>
+                        <w lemma="week"
+                           msd="UPosTag=NOUN|Number=Sing"
+                           pos="NN"
+                           xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.9">week</w>
+                     </name>
+                     <w lemma="on"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.10">on</w>
+                     <w lemma="local"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        pos="JJ"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.11">local</w>
+                     <w lemma="election"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        pos="NNS"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.12">elections</w>
+                     <w lemma="be"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Fin|Mood=Ind|Number=Sing|Person=3"
+                        pos="VBD"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.13">was</w>
+                     <w join="right"
+                        lemma="welcome"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        pos="JJ"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.14">welcome</w>
+                     <w lemma=";"
+                        msd="UPosTag=PUNCT"
+                        pos=":"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.15">;</w>
+                     <w join="right"
+                        lemma="however"
+                        msd="UPosTag=ADV"
+                        pos="RB"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.16">however</w>
+                     <pc msd="UPosTag=PUNCT"
+                         pos=","
+                         xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.17">,</pc>
+                     <w lemma="the"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        pos="DT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.18">the</w>
+                     <w lemma="most"
+                        msd="UPosTag=ADV"
+                        pos="RBS"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.19">most</w>
+                     <w lemma="innovative"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        pos="JJ"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.20">innovative</w>
+                     <w lemma="idea"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.21">idea</w>
+                     <w lemma="appear"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Fin|Mood=Ind"
+                        pos="VBD"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.22">appeared</w>
+                     <w lemma="to"
+                        msd="UPosTag=PART"
+                        pos="TO"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.23">to</w>
+                     <w lemma="be"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        pos="VB"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.24">be</w>
+                     <w lemma="to"
+                        msd="UPosTag=PART"
+                        pos="TO"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.25">to</w>
+                     <w lemma="bring"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        pos="VB"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.26">bring</w>
+                     <w lemma="you"
+                        msd="UPosTag=DET|Poss=Yes|Person=2|PronType=Prs"
+                        pos="PRP$"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.27">your</w>
+                     <w lemma="own"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        pos="JJ"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.28">own</w>
+                     <w lemma="pencil"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.29">pencil</w>
+                     <w lemma="to"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.30">to</w>
+                     <w lemma="the"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        pos="DT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.31">the</w>
+                     <w join="right"
+                        lemma="poll"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        pos="NNS"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.32">polls</w>
+                     <pc msd="UPosTag=PUNCT"
+                         pos=","
+                         xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.33">,</pc>
+                     <w lemma="so"
+                        msd="UPosTag=ADV"
+                        pos="RB"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.34">so</w>
+                     <w lemma="I"
+                        msd="UPosTag=PRON|Number=Sing|Person=1|PronType=Prs|Case=Nom"
+                        pos="PRP"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.35">I</w>
+                     <w lemma="would"
+                        msd="UPosTag=VERB|VerbForm=Fin"
+                        pos="MD"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.36">would</w>
+                     <w lemma="like"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        pos="VB"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.37">like</w>
+                     <w lemma="to"
+                        msd="UPosTag=PART"
+                        pos="TO"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.38">to</w>
+                     <w lemma="ask"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        pos="VB"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.39">ask</w>
+                     <w lemma="the"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        pos="DT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.40">the</w>
+                     <name type="MISC">
+                        <w lemma="Chancellor"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           pos="NNP"
+                           xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.41">Chancellor</w>
+                     </name>
+                     <w lemma="of"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.42">of</w>
+                     <w lemma="the"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        pos="DT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.43">the</w>
+                     <w lemma="Duchy"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        pos="NNP"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.44">Duchy</w>
+                     <w lemma="of"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.45">of</w>
+                     <w lemma="Lancaster"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        pos="NNP"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.46">Lancaster</w>
+                     <name type="MISC">
+                        <w lemma="two"
+                           msd="UPosTag=NUM|NumType=Card"
+                           pos="CD"
+                           xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.47">two</w>
+                     </name>
+                     <w lemma="specific"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        pos="JJ"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.48">specific</w>
+                     <w join="right"
+                        lemma="question"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        pos="NNS"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg14.1.49">questions</w>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.2 #ParlaMint-GB_2021-02-11-commons.seg14.1.1"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.4 #ParlaMint-GB_2021-02-11-commons.seg14.1.2"/>
+                        <link ana="ud-syn:ref"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.2 #ParlaMint-GB_2021-02-11-commons.seg14.1.3"/>
+                        <link ana="ud-syn:acl_relcl"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.2 #ParlaMint-GB_2021-02-11-commons.seg14.1.4"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.7 #ParlaMint-GB_2021-02-11-commons.seg14.1.5"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.7 #ParlaMint-GB_2021-02-11-commons.seg14.1.6"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.4 #ParlaMint-GB_2021-02-11-commons.seg14.1.7"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.9 #ParlaMint-GB_2021-02-11-commons.seg14.1.8"/>
+                        <link ana="ud-syn:obl_tmod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.4 #ParlaMint-GB_2021-02-11-commons.seg14.1.9"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.12 #ParlaMint-GB_2021-02-11-commons.seg14.1.10"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.12 #ParlaMint-GB_2021-02-11-commons.seg14.1.11"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.4 #ParlaMint-GB_2021-02-11-commons.seg14.1.12"/>
+                        <link ana="ud-syn:cop"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.14 #ParlaMint-GB_2021-02-11-commons.seg14.1.13"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1 #ParlaMint-GB_2021-02-11-commons.seg14.1.14"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.14 #ParlaMint-GB_2021-02-11-commons.seg14.1.15"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.22 #ParlaMint-GB_2021-02-11-commons.seg14.1.16"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.22 #ParlaMint-GB_2021-02-11-commons.seg14.1.17"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.21 #ParlaMint-GB_2021-02-11-commons.seg14.1.18"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.20 #ParlaMint-GB_2021-02-11-commons.seg14.1.19"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.21 #ParlaMint-GB_2021-02-11-commons.seg14.1.20"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.22 #ParlaMint-GB_2021-02-11-commons.seg14.1.21"/>
+                        <link ana="ud-syn:parataxis"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.14 #ParlaMint-GB_2021-02-11-commons.seg14.1.22"/>
+                        <link ana="ud-syn:mark"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.26 #ParlaMint-GB_2021-02-11-commons.seg14.1.23"/>
+                        <link ana="ud-syn:aux"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.26 #ParlaMint-GB_2021-02-11-commons.seg14.1.24"/>
+                        <link ana="ud-syn:mark"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.26 #ParlaMint-GB_2021-02-11-commons.seg14.1.25"/>
+                        <link ana="ud-syn:xcomp"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.22 #ParlaMint-GB_2021-02-11-commons.seg14.1.26"/>
+                        <link ana="ud-syn:nmod_poss"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.29 #ParlaMint-GB_2021-02-11-commons.seg14.1.27"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.29 #ParlaMint-GB_2021-02-11-commons.seg14.1.28"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.26 #ParlaMint-GB_2021-02-11-commons.seg14.1.29"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.32 #ParlaMint-GB_2021-02-11-commons.seg14.1.30"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.32 #ParlaMint-GB_2021-02-11-commons.seg14.1.31"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.26 #ParlaMint-GB_2021-02-11-commons.seg14.1.32"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.22 #ParlaMint-GB_2021-02-11-commons.seg14.1.33"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.37 #ParlaMint-GB_2021-02-11-commons.seg14.1.34"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.37 #ParlaMint-GB_2021-02-11-commons.seg14.1.35"/>
+                        <link ana="ud-syn:aux"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.37 #ParlaMint-GB_2021-02-11-commons.seg14.1.36"/>
+                        <link ana="ud-syn:parataxis"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.22 #ParlaMint-GB_2021-02-11-commons.seg14.1.37"/>
+                        <link ana="ud-syn:mark"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.39 #ParlaMint-GB_2021-02-11-commons.seg14.1.38"/>
+                        <link ana="ud-syn:xcomp"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.37 #ParlaMint-GB_2021-02-11-commons.seg14.1.39"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.41 #ParlaMint-GB_2021-02-11-commons.seg14.1.40"/>
+                        <link ana="ud-syn:iobj"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.39 #ParlaMint-GB_2021-02-11-commons.seg14.1.41"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.44 #ParlaMint-GB_2021-02-11-commons.seg14.1.42"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.44 #ParlaMint-GB_2021-02-11-commons.seg14.1.43"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.41 #ParlaMint-GB_2021-02-11-commons.seg14.1.44"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.46 #ParlaMint-GB_2021-02-11-commons.seg14.1.45"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.44 #ParlaMint-GB_2021-02-11-commons.seg14.1.46"/>
+                        <link ana="ud-syn:nummod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.49 #ParlaMint-GB_2021-02-11-commons.seg14.1.47"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.49 #ParlaMint-GB_2021-02-11-commons.seg14.1.48"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg14.1.39 #ParlaMint-GB_2021-02-11-commons.seg14.1.49"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-GB_2021-02-11-commons.seg15">
+                  <s xml:id="ParlaMint-GB_2021-02-11-commons.seg15.1">
+                     <w lemma="the"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        pos="DT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.1.1">The</w>
+                     <name type="MISC">
+                        <w lemma="first"
+                           msd="UPosTag=ADJ|Degree=Pos|NumType=Ord"
+                           pos="JJ"
+                           xml:id="ParlaMint-GB_2021-02-11-commons.seg15.1.2">first</w>
+                     </name>
+                     <w lemma="be"
+                        msd="UPosTag=VERB|Tense=Pres|VerbForm=Fin|Mood=Ind|Number=Sing|Person=3"
+                        pos="VBZ"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.1.3">is</w>
+                     <w lemma="on"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.1.4">on</w>
+                     <w lemma="the"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        pos="DT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.1.5">the</w>
+                     <w lemma="use"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.1.6">use</w>
+                     <w lemma="of"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.1.7">of</w>
+                     <w lemma="school"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        pos="NNS"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.1.8">schools</w>
+                     <w lemma="as"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.1.9">as</w>
+                     <w lemma="polling"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.1.10">polling</w>
+                     <w join="right"
+                        lemma="station"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        pos="NNS"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.1.11">stations</w>
+                     <pc msd="UPosTag=PUNCT"
+                         pos="."
+                         xml:id="ParlaMint-GB_2021-02-11-commons.seg15.1.12">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.1.2 #ParlaMint-GB_2021-02-11-commons.seg15.1.1"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.1.6 #ParlaMint-GB_2021-02-11-commons.seg15.1.2"/>
+                        <link ana="ud-syn:cop"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.1.6 #ParlaMint-GB_2021-02-11-commons.seg15.1.3"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.1.6 #ParlaMint-GB_2021-02-11-commons.seg15.1.4"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.1.6 #ParlaMint-GB_2021-02-11-commons.seg15.1.5"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.1 #ParlaMint-GB_2021-02-11-commons.seg15.1.6"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.1.8 #ParlaMint-GB_2021-02-11-commons.seg15.1.7"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.1.6 #ParlaMint-GB_2021-02-11-commons.seg15.1.8"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.1.11 #ParlaMint-GB_2021-02-11-commons.seg15.1.9"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.1.11 #ParlaMint-GB_2021-02-11-commons.seg15.1.10"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.1.8 #ParlaMint-GB_2021-02-11-commons.seg15.1.11"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.1.6 #ParlaMint-GB_2021-02-11-commons.seg15.1.12"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-GB_2021-02-11-commons.seg15.2">
+                     <w lemma="many"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        pos="JJ"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.2.1">Many</w>
+                     <w lemma="school"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        pos="NNS"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.2.2">schools</w>
+                     <w lemma="be"
+                        msd="UPosTag=VERB|Tense=Pres|VerbForm=Fin|Mood=Ind"
+                        pos="VBP"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.2.3">are</w>
+                     <w lemma="have"
+                        msd="UPosTag=VERB|Tense=Pres|VerbForm=Part"
+                        pos="VBG"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.2.4">having</w>
+                     <w lemma="to"
+                        msd="UPosTag=PART"
+                        pos="TO"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.2.5">to</w>
+                     <w lemma="use"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        pos="VB"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.2.6">use</w>
+                     <w lemma="school"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.2.7">school</w>
+                     <w lemma="hall"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        pos="NNS"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.2.8">halls</w>
+                     <w lemma="for"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.2.9">for</w>
+                     <w join="right"
+                        lemma="teaching"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.2.10">teaching</w>
+                     <pc msd="UPosTag=PUNCT"
+                         pos=","
+                         xml:id="ParlaMint-GB_2021-02-11-commons.seg15.2.11">,</pc>
+                     <w lemma="which"
+                        msd="UPosTag=DET|PronType=Int"
+                        pos="WDT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.2.12">which</w>
+                     <w lemma="would"
+                        msd="UPosTag=VERB|VerbForm=Fin"
+                        pos="MD"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.2.13">would</w>
+                     <w lemma="not"
+                        msd="UPosTag=ADV"
+                        pos="RB"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.2.14">not</w>
+                     <w lemma="normally"
+                        msd="UPosTag=ADV"
+                        pos="RB"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.2.15">normally</w>
+                     <w lemma="have"
+                        msd="UPosTag=VERB|Tense=Pres|VerbForm=Fin|Mood=Ind"
+                        pos="VBP"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.2.16">have</w>
+                     <w lemma="to"
+                        msd="UPosTag=PART"
+                        pos="TO"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.2.17">to</w>
+                     <w join="right"
+                        lemma="happen"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        pos="VB"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.2.18">happen</w>
+                     <pc msd="UPosTag=PUNCT"
+                         pos="."
+                         xml:id="ParlaMint-GB_2021-02-11-commons.seg15.2.19">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.2.2 #ParlaMint-GB_2021-02-11-commons.seg15.2.1"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.2.4 #ParlaMint-GB_2021-02-11-commons.seg15.2.2"/>
+                        <link ana="ud-syn:aux"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.2.4 #ParlaMint-GB_2021-02-11-commons.seg15.2.3"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.2 #ParlaMint-GB_2021-02-11-commons.seg15.2.4"/>
+                        <link ana="ud-syn:mark"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.2.6 #ParlaMint-GB_2021-02-11-commons.seg15.2.5"/>
+                        <link ana="ud-syn:ccomp"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.2.4 #ParlaMint-GB_2021-02-11-commons.seg15.2.6"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.2.8 #ParlaMint-GB_2021-02-11-commons.seg15.2.7"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.2.6 #ParlaMint-GB_2021-02-11-commons.seg15.2.8"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.2.10 #ParlaMint-GB_2021-02-11-commons.seg15.2.9"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.2.6 #ParlaMint-GB_2021-02-11-commons.seg15.2.10"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.2.6 #ParlaMint-GB_2021-02-11-commons.seg15.2.11"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.2.18 #ParlaMint-GB_2021-02-11-commons.seg15.2.12"/>
+                        <link ana="ud-syn:aux"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.2.18 #ParlaMint-GB_2021-02-11-commons.seg15.2.13"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.2.18 #ParlaMint-GB_2021-02-11-commons.seg15.2.14"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.2.18 #ParlaMint-GB_2021-02-11-commons.seg15.2.15"/>
+                        <link ana="ud-syn:aux"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.2.18 #ParlaMint-GB_2021-02-11-commons.seg15.2.16"/>
+                        <link ana="ud-syn:mark"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.2.18 #ParlaMint-GB_2021-02-11-commons.seg15.2.17"/>
+                        <link ana="ud-syn:ccomp"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.2.6 #ParlaMint-GB_2021-02-11-commons.seg15.2.18"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.2.4 #ParlaMint-GB_2021-02-11-commons.seg15.2.19"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-GB_2021-02-11-commons.seg15.3">
+                     <w lemma="what"
+                        msd="UPosTag=DET|PronType=Int"
+                        pos="WDT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.3.1">What</w>
+                     <w lemma="support"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.3.2">support</w>
+                     <w lemma="will"
+                        msd="UPosTag=VERB|VerbForm=Fin"
+                        pos="MD"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.3.3">will</w>
+                     <w lemma="the"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        pos="DT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.3.4">the</w>
+                     <w lemma="Government"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        pos="NNP"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.3.5">Government</w>
+                     <w lemma="give"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        pos="VB"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.3.6">give</w>
+                     <w lemma="local"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        pos="JJ"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.3.7">local</w>
+                     <w lemma="registration"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.3.8">registration</w>
+                     <w lemma="officer"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        pos="NNS"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.3.9">officers</w>
+                     <w lemma="to"
+                        msd="UPosTag=PART"
+                        pos="TO"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.3.10">to</w>
+                     <w lemma="find"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        pos="VB"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.3.11">find</w>
+                     <w lemma="appropriate"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        pos="JJ"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.3.12">appropriate</w>
+                     <w lemma="venue"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        pos="NNS"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.3.13">venues</w>
+                     <w lemma="with"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.3.14">with</w>
+                     <w lemma="appropriate"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        pos="JJ"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.3.15">appropriate</w>
+                     <w join="right"
+                        lemma="ventilation"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg15.3.16">ventilation</w>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.3.2 #ParlaMint-GB_2021-02-11-commons.seg15.3.1"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.3.6 #ParlaMint-GB_2021-02-11-commons.seg15.3.2"/>
+                        <link ana="ud-syn:aux"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.3.6 #ParlaMint-GB_2021-02-11-commons.seg15.3.3"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.3.5 #ParlaMint-GB_2021-02-11-commons.seg15.3.4"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.3.6 #ParlaMint-GB_2021-02-11-commons.seg15.3.5"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.3 #ParlaMint-GB_2021-02-11-commons.seg15.3.6"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.3.9 #ParlaMint-GB_2021-02-11-commons.seg15.3.7"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.3.9 #ParlaMint-GB_2021-02-11-commons.seg15.3.8"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.3.6 #ParlaMint-GB_2021-02-11-commons.seg15.3.9"/>
+                        <link ana="ud-syn:mark"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.3.11 #ParlaMint-GB_2021-02-11-commons.seg15.3.10"/>
+                        <link ana="ud-syn:xcomp"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.3.6 #ParlaMint-GB_2021-02-11-commons.seg15.3.11"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.3.13 #ParlaMint-GB_2021-02-11-commons.seg15.3.12"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.3.11 #ParlaMint-GB_2021-02-11-commons.seg15.3.13"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.3.16 #ParlaMint-GB_2021-02-11-commons.seg15.3.14"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.3.16 #ParlaMint-GB_2021-02-11-commons.seg15.3.15"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg15.3.13 #ParlaMint-GB_2021-02-11-commons.seg15.3.16"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-GB_2021-02-11-commons.seg16">
+                  <s xml:id="ParlaMint-GB_2021-02-11-commons.seg16.1">
+                     <w lemma="the"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        pos="DT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.1.1">The</w>
+                     <name type="MISC">
+                        <w lemma="second"
+                           msd="UPosTag=ADJ|Degree=Pos|NumType=Ord"
+                           pos="JJ"
+                           xml:id="ParlaMint-GB_2021-02-11-commons.seg16.1.2">second</w>
+                     </name>
+                     <w lemma="question"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.1.3">question</w>
+                     <w lemma="be"
+                        msd="UPosTag=VERB|Tense=Pres|VerbForm=Fin|Mood=Ind|Number=Sing|Person=3"
+                        pos="VBZ"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.1.4">is</w>
+                     <w lemma="on"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.1.5">on</w>
+                     <w lemma="the"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        pos="DT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.1.6">the</w>
+                     <w lemma="issue"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.1.7">issue</w>
+                     <w lemma="of"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.1.8">of</w>
+                     <w lemma="election"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        pos="NNS"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.1.9">elections</w>
+                     <w lemma="fall"
+                        msd="UPosTag=VERB|VerbForm=Ger"
+                        pos="VBG"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.1.10">falling</w>
+                     <w lemma="into"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.1.11">into</w>
+                     <w lemma="different"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        pos="JJ"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.1.12">different</w>
+                     <w lemma="area"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        pos="NNS"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.1.13">areas</w>
+                     <w lemma="of"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.1.14">of</w>
+                     <w lemma="the"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        pos="DT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.1.15">the</w>
+                     <w lemma="tier"
+                        msd="UPosTag=VERB|VerbForm=Ger"
+                        pos="VBG"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.1.16">tiering</w>
+                     <w join="right"
+                        lemma="system"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.1.17">system</w>
+                     <pc msd="UPosTag=PUNCT"
+                         pos=","
+                         xml:id="ParlaMint-GB_2021-02-11-commons.seg16.1.18">,</pc>
+                     <w lemma="which"
+                        msd="UPosTag=DET|PronType=Rel"
+                        pos="WDT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.1.19">which</w>
+                     <w lemma="may"
+                        msd="UPosTag=VERB|VerbForm=Fin"
+                        pos="MD"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.1.20">may</w>
+                     <w lemma="well"
+                        msd="UPosTag=ADV|Degree=Pos"
+                        pos="RB"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.1.21">well</w>
+                     <w lemma="be"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        pos="VB"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.1.22">be</w>
+                     <w lemma="in"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.1.23">in</w>
+                     <w lemma="place"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.1.24">place</w>
+                     <w lemma="by"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.1.25">by</w>
+                     <name type="MISC">
+                        <w join="right"
+                           lemma="May"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           pos="NNP"
+                           xml:id="ParlaMint-GB_2021-02-11-commons.seg16.1.26">May</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT"
+                         pos="."
+                         xml:id="ParlaMint-GB_2021-02-11-commons.seg16.1.27">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.1.3 #ParlaMint-GB_2021-02-11-commons.seg16.1.1"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.1.3 #ParlaMint-GB_2021-02-11-commons.seg16.1.2"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.1.7 #ParlaMint-GB_2021-02-11-commons.seg16.1.3"/>
+                        <link ana="ud-syn:cop"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.1.7 #ParlaMint-GB_2021-02-11-commons.seg16.1.4"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.1.7 #ParlaMint-GB_2021-02-11-commons.seg16.1.5"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.1.7 #ParlaMint-GB_2021-02-11-commons.seg16.1.6"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.1 #ParlaMint-GB_2021-02-11-commons.seg16.1.7"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.1.9 #ParlaMint-GB_2021-02-11-commons.seg16.1.8"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.1.7 #ParlaMint-GB_2021-02-11-commons.seg16.1.9"/>
+                        <link ana="ud-syn:acl"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.1.9 #ParlaMint-GB_2021-02-11-commons.seg16.1.10"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.1.13 #ParlaMint-GB_2021-02-11-commons.seg16.1.11"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.1.13 #ParlaMint-GB_2021-02-11-commons.seg16.1.12"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.1.10 #ParlaMint-GB_2021-02-11-commons.seg16.1.13"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.1.17 #ParlaMint-GB_2021-02-11-commons.seg16.1.14"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.1.17 #ParlaMint-GB_2021-02-11-commons.seg16.1.15"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.1.17 #ParlaMint-GB_2021-02-11-commons.seg16.1.16"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.1.13 #ParlaMint-GB_2021-02-11-commons.seg16.1.17"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.1.7 #ParlaMint-GB_2021-02-11-commons.seg16.1.18"/>
+                        <link ana="ud-syn:ref"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.1.7 #ParlaMint-GB_2021-02-11-commons.seg16.1.19"/>
+                        <link ana="ud-syn:aux"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.1.24 #ParlaMint-GB_2021-02-11-commons.seg16.1.20"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.1.24 #ParlaMint-GB_2021-02-11-commons.seg16.1.21"/>
+                        <link ana="ud-syn:cop"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.1.24 #ParlaMint-GB_2021-02-11-commons.seg16.1.22"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.1.24 #ParlaMint-GB_2021-02-11-commons.seg16.1.23"/>
+                        <link ana="ud-syn:acl_relcl"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.1.7 #ParlaMint-GB_2021-02-11-commons.seg16.1.24"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.1.26 #ParlaMint-GB_2021-02-11-commons.seg16.1.25"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.1.24 #ParlaMint-GB_2021-02-11-commons.seg16.1.26"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.1.7 #ParlaMint-GB_2021-02-11-commons.seg16.1.27"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-GB_2021-02-11-commons.seg16.2">
+                     <w lemma="might"
+                        msd="UPosTag=VERB|VerbForm=Fin"
+                        pos="MD"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.2.1">Might</w>
+                     <w lemma="there"
+                        msd="UPosTag=PRON"
+                        pos="EX"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.2.2">there</w>
+                     <w lemma="be"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        pos="VB"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.2.3">be</w>
+                     <w lemma="a"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        pos="DT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.2.4">an</w>
+                     <w lemma="unfair"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        pos="JJ"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.2.5">unfair</w>
+                     <w lemma="political"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        pos="JJ"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.2.6">political</w>
+                     <w lemma="advantage"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.2.7">advantage</w>
+                     <w lemma="to"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.2.8">to</w>
+                     <name type="MISC">
+                        <w lemma="one"
+                           msd="UPosTag=NUM|NumType=Card"
+                           pos="CD"
+                           xml:id="ParlaMint-GB_2021-02-11-commons.seg16.2.9">one</w>
+                     </name>
+                     <name type="MISC">
+                        <w lemma="candidate"
+                           msd="UPosTag=NOUN|Number=Sing"
+                           pos="NN"
+                           xml:id="ParlaMint-GB_2021-02-11-commons.seg16.2.10">candidate</w>
+                     </name>
+                     <w lemma="if"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.2.11">if</w>
+                     <w lemma="the"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        pos="DT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.2.12">the</w>
+                     <w lemma="restriction"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        pos="NNS"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.2.13">restrictions</w>
+                     <w lemma="be"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Fin|Mood=Ind"
+                        pos="VBD"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.2.14">were</w>
+                     <w lemma="lesser"
+                        msd="UPosTag=ADJ|Degree=Cmp"
+                        pos="JJR"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.2.15">lesser</w>
+                     <w lemma="in"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.2.16">in</w>
+                     <name type="MISC">
+                        <w lemma="one"
+                           msd="UPosTag=NUM|NumType=Card"
+                           pos="CD"
+                           xml:id="ParlaMint-GB_2021-02-11-commons.seg16.2.17">one</w>
+                     </name>
+                     <w lemma="area"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.2.18">area</w>
+                     <w lemma="than"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.2.19">than</w>
+                     <w join="right"
+                        lemma="another"
+                        msd="UPosTag=DET"
+                        pos="DT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.2.20">another</w>
+                     <w join="right"
+                        lemma="?"
+                        msd="UPosTag=PUNCT"
+                        pos="."
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg16.2.21">?</w>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:aux"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.2.3 #ParlaMint-GB_2021-02-11-commons.seg16.2.1"/>
+                        <link ana="ud-syn:expl"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.2.3 #ParlaMint-GB_2021-02-11-commons.seg16.2.2"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.2 #ParlaMint-GB_2021-02-11-commons.seg16.2.3"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.2.7 #ParlaMint-GB_2021-02-11-commons.seg16.2.4"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.2.7 #ParlaMint-GB_2021-02-11-commons.seg16.2.5"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.2.7 #ParlaMint-GB_2021-02-11-commons.seg16.2.6"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.2.3 #ParlaMint-GB_2021-02-11-commons.seg16.2.7"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.2.10 #ParlaMint-GB_2021-02-11-commons.seg16.2.8"/>
+                        <link ana="ud-syn:nummod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.2.10 #ParlaMint-GB_2021-02-11-commons.seg16.2.9"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.2.7 #ParlaMint-GB_2021-02-11-commons.seg16.2.10"/>
+                        <link ana="ud-syn:mark"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.2.15 #ParlaMint-GB_2021-02-11-commons.seg16.2.11"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.2.13 #ParlaMint-GB_2021-02-11-commons.seg16.2.12"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.2.15 #ParlaMint-GB_2021-02-11-commons.seg16.2.13"/>
+                        <link ana="ud-syn:cop"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.2.15 #ParlaMint-GB_2021-02-11-commons.seg16.2.14"/>
+                        <link ana="ud-syn:advcl"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.2.3 #ParlaMint-GB_2021-02-11-commons.seg16.2.15"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.2.18 #ParlaMint-GB_2021-02-11-commons.seg16.2.16"/>
+                        <link ana="ud-syn:nummod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.2.18 #ParlaMint-GB_2021-02-11-commons.seg16.2.17"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.2.15 #ParlaMint-GB_2021-02-11-commons.seg16.2.18"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.2.20 #ParlaMint-GB_2021-02-11-commons.seg16.2.19"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.2.15 #ParlaMint-GB_2021-02-11-commons.seg16.2.20"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg16.2.3 #ParlaMint-GB_2021-02-11-commons.seg16.2.21"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <u who="#MichaelGove"
+               xml:id="ParlaMint-GB_2021-02-11-commons.u15"
+               ana="#regular">
+               <seg xml:id="ParlaMint-GB_2021-02-11-commons.seg17">
+                  <s xml:id="ParlaMint-GB_2021-02-11-commons.seg17.1">
+                     <w lemma="the"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        pos="DT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.1.1">The</w>
+                     <w lemma="hon."
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.1.2">hon.</w>
+                     <w lemma="lady"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.1.3">Lady</w>
+                     <w lemma="raise"
+                        msd="UPosTag=VERB|Tense=Pres|VerbForm=Fin|Mood=Ind|Number=Sing|Person=3"
+                        pos="VBZ"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.1.4">raises</w>
+                     <name type="MISC">
+                        <w lemma="two"
+                           msd="UPosTag=NUM|NumType=Card"
+                           pos="CD"
+                           xml:id="ParlaMint-GB_2021-02-11-commons.seg17.1.5">two</w>
+                     </name>
+                     <w lemma="important"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        pos="JJ"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.1.6">important</w>
+                     <w join="right"
+                        lemma="question"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        pos="NNS"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.1.7">questions</w>
+                     <pc msd="UPosTag=PUNCT"
+                         pos="."
+                         xml:id="ParlaMint-GB_2021-02-11-commons.seg17.1.8">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.1.3 #ParlaMint-GB_2021-02-11-commons.seg17.1.1"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.1.3 #ParlaMint-GB_2021-02-11-commons.seg17.1.2"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.1.4 #ParlaMint-GB_2021-02-11-commons.seg17.1.3"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.1 #ParlaMint-GB_2021-02-11-commons.seg17.1.4"/>
+                        <link ana="ud-syn:nummod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.1.7 #ParlaMint-GB_2021-02-11-commons.seg17.1.5"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.1.7 #ParlaMint-GB_2021-02-11-commons.seg17.1.6"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.1.4 #ParlaMint-GB_2021-02-11-commons.seg17.1.7"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.1.4 #ParlaMint-GB_2021-02-11-commons.seg17.1.8"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-GB_2021-02-11-commons.seg17.2">
+                     <w lemma="the"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        pos="DT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.2.1">The</w>
+                     <name type="MISC">
+                        <w lemma="first"
+                           msd="UPosTag=ADJ|Degree=Pos|NumType=Ord"
+                           pos="JJ"
+                           xml:id="ParlaMint-GB_2021-02-11-commons.seg17.2.2">first</w>
+                     </name>
+                     <w lemma="be"
+                        msd="UPosTag=VERB|Tense=Pres|VerbForm=Fin|Mood=Ind|Number=Sing|Person=3"
+                        pos="VBZ"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.2.3">is</w>
+                     <w lemma="with"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.2.4">with</w>
+                     <w lemma="respect"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.2.5">respect</w>
+                     <w lemma="to"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.2.6">to</w>
+                     <w join="right"
+                        lemma="school"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        pos="NNS"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.2.7">schools</w>
+                     <pc msd="UPosTag=PUNCT"
+                         pos="."
+                         xml:id="ParlaMint-GB_2021-02-11-commons.seg17.2.8">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.2.2 #ParlaMint-GB_2021-02-11-commons.seg17.2.1"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.2.7 #ParlaMint-GB_2021-02-11-commons.seg17.2.2"/>
+                        <link ana="ud-syn:cop"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.2.7 #ParlaMint-GB_2021-02-11-commons.seg17.2.3"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.2.7 #ParlaMint-GB_2021-02-11-commons.seg17.2.4"/>
+                        <link ana="ud-syn:fixed"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.2.4 #ParlaMint-GB_2021-02-11-commons.seg17.2.5"/>
+                        <link ana="ud-syn:fixed"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.2.4 #ParlaMint-GB_2021-02-11-commons.seg17.2.6"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.2 #ParlaMint-GB_2021-02-11-commons.seg17.2.7"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.2.7 #ParlaMint-GB_2021-02-11-commons.seg17.2.8"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3">
+                     <w lemma="the"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        pos="DT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.1">The</w>
+                     <name type="MISC">
+                        <w lemma="Minister"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           pos="NNP"
+                           xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.2">Minister</w>
+                     </name>
+                     <w lemma="for"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.3">for</w>
+                     <w lemma="School"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        pos="NNP"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.4">School</w>
+                     <w join="right"
+                        lemma="Standards"
+                        msd="UPosTag=PROPN|Number=Plur"
+                        pos="NNPS"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.5">Standards</w>
+                     <pc msd="UPosTag=PUNCT"
+                         pos=","
+                         xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.6">,</pc>
+                     <w lemma="my"
+                        msd="UPosTag=DET|Poss=Yes|Number=Sing|Person=1|PronType=Prs"
+                        pos="PRP$"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.7">my</w>
+                     <w lemma="right"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        pos="JJ"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.8">right</w>
+                     <w lemma="hon."
+                        msd="UPosTag=PROPN|Number=Sing"
+                        pos="NNP"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.9">hon.</w>
+                     <w lemma="Friend"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        pos="NNP"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.10">Friend</w>
+                     <w lemma="the"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        pos="DT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.11">the</w>
+                     <w lemma="Member"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        pos="NNP"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.12">Member</w>
+                     <w lemma="for"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.13">for</w>
+                     <name type="ORG">
+                        <w lemma="Bognor"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           pos="NNP"
+                           xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.14">Bognor</w>
+                        <w lemma="Regis"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           pos="NNP"
+                           xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.15">Regis</w>
+                     </name>
+                     <w lemma="and"
+                        msd="UPosTag=CCONJ"
+                        pos="CC"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.16">and</w>
+                     <name type="LOC">
+                        <w lemma="Littlehampton"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           pos="NNP"
+                           xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.17">Littlehampton</w>
+                     </name>
+                     <w join="right"
+                        lemma="("
+                        msd="UPosTag=PUNCT"
+                        pos="-LRB-"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.18">(</w>
+                     <name type="PER">
+                        <w lemma="Nick"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           pos="NNP"
+                           xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.19">Nick</w>
+                        <w join="right"
+                           lemma="Gibb"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           pos="NNP"
+                           xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.20">Gibb</w>
+                     </name>
+                     <w join="right"
+                        lemma=")"
+                        msd="UPosTag=PUNCT"
+                        pos="-RRB-"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.21">)</w>
+                     <pc msd="UPosTag=PUNCT"
+                         pos=","
+                         xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.22">,</pc>
+                     <w lemma="will"
+                        msd="UPosTag=VERB|VerbForm=Fin"
+                        pos="MD"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.23">will</w>
+                     <w lemma="be"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        pos="VB"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.24">be</w>
+                     <w lemma="write"
+                        msd="UPosTag=VERB|Tense=Pres|VerbForm=Part"
+                        pos="VBG"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.25">writing</w>
+                     <w lemma="to"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.26">to</w>
+                     <w lemma="local"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        pos="JJ"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.27">local</w>
+                     <w lemma="authority"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        pos="NNS"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.28">authorities</w>
+                     <w lemma="and"
+                        msd="UPosTag=CCONJ"
+                        pos="CC"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.29">and</w>
+                     <w lemma="school"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        pos="NNS"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.30">schools</w>
+                     <name type="MISC">
+                        <w join="right"
+                           lemma="today"
+                           msd="UPosTag=NOUN|Number=Sing"
+                           pos="NN"
+                           xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.31">today</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT"
+                         pos=","
+                         xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.32">,</pc>
+                     <w lemma="alongside"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.33">alongside</w>
+                     <w lemma="Ministers"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        pos="NNP"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.34">Ministers</w>
+                     <w lemma="in"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.35">in</w>
+                     <w lemma="the"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        pos="DT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.36">the</w>
+                     <name type="ORG">
+                        <w lemma="Ministry"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           pos="NNP"
+                           xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.37">Ministry</w>
+                        <w lemma="of"
+                           msd="UPosTag=ADP"
+                           pos="IN"
+                           xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.38">of</w>
+                        <w join="right"
+                           lemma="Housing"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           pos="NNP"
+                           xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.39">Housing</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT"
+                         pos=","
+                         xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.40">,</pc>
+                     <w lemma="Communities"
+                        msd="UPosTag=PROPN|Number=Plur"
+                        pos="NNPS"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.41">Communities</w>
+                     <w lemma="and"
+                        msd="UPosTag=CCONJ"
+                        pos="CC"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.42">and</w>
+                     <w lemma="local"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        pos="JJ"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.43">Local</w>
+                     <w join="right"
+                        lemma="government"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.44">Government</w>
+                     <pc msd="UPosTag=PUNCT"
+                         pos=","
+                         xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.45">,</pc>
+                     <w lemma="to"
+                        msd="UPosTag=PART"
+                        pos="TO"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.46">to</w>
+                     <w lemma="outline"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        pos="VB"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.47">outline</w>
+                     <w lemma="how"
+                        msd="UPosTag=ADV|PronType=Int"
+                        pos="WRB"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.48">how</w>
+                     <w lemma="school"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        pos="NNS"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.49">schools</w>
+                     <w lemma="can"
+                        msd="UPosTag=VERB|VerbForm=Fin"
+                        pos="MD"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.50">can</w>
+                     <w lemma="be"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        pos="VB"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.51">be</w>
+                     <w lemma="use"
+                        msd="UPosTag=VERB|Tense=Past|Voice=Pass|VerbForm=Part"
+                        pos="VBN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.52">used</w>
+                     <w lemma="in"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.53">in</w>
+                     <w lemma="a"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        pos="DT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.54">a</w>
+                     <w lemma="safe"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        pos="JJ"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.55">safe</w>
+                     <w lemma="and"
+                        msd="UPosTag=CCONJ"
+                        pos="CC"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.56">and</w>
+                     <w lemma="appropriate"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        pos="JJ"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.57">appropriate</w>
+                     <w join="right"
+                        lemma="way"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.58">way</w>
+                     <pc msd="UPosTag=PUNCT"
+                         pos=","
+                         xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.59">,</pc>
+                     <w lemma="but"
+                        msd="UPosTag=CCONJ"
+                        pos="CC"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.60">but</w>
+                     <w lemma="we"
+                        msd="UPosTag=PRON|Number=Plur|Person=1|PronType=Prs|Case=Nom"
+                        pos="PRP"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.61">we</w>
+                     <w lemma="be"
+                        msd="UPosTag=VERB|Tense=Pres|VerbForm=Fin|Mood=Ind"
+                        pos="VBP"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.62">are</w>
+                     <w lemma="also"
+                        msd="UPosTag=ADV"
+                        pos="RB"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.63">also</w>
+                     <w lemma="make"
+                        msd="UPosTag=VERB|Tense=Pres|VerbForm=Part"
+                        pos="VBG"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.64">making</w>
+                     <w lemma="funding"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.65">funding</w>
+                     <w lemma="available"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        pos="JJ"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.66">available</w>
+                     <w lemma="to"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.67">to</w>
+                     <w lemma="local"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        pos="JJ"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.68">local</w>
+                     <w lemma="authority"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        pos="NNS"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.69">authorities</w>
+                     <w lemma="so"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.70">so</w>
+                     <w lemma="that"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.71">that</w>
+                     <w lemma="alternative"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        pos="JJ"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.72">alternative</w>
+                     <w lemma="venue"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        pos="NNS"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.73">venues</w>
+                     <w lemma="other"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        pos="JJ"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.74">other</w>
+                     <w lemma="than"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.75">than</w>
+                     <w lemma="school"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        pos="NNS"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.76">schools</w>
+                     <w lemma="can"
+                        msd="UPosTag=VERB|VerbForm=Fin"
+                        pos="MD"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.77">can</w>
+                     <w lemma="be"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        pos="VB"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.78">be</w>
+                     <w lemma="use"
+                        msd="UPosTag=VERB|Tense=Past|Voice=Pass|VerbForm=Part"
+                        pos="VBN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.79">used</w>
+                     <w lemma="where"
+                        msd="UPosTag=ADV|PronType=Int"
+                        pos="WRB"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.80">where</w>
+                     <w join="right"
+                        lemma="appropriate"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        pos="JJ"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg17.3.81">appropriate</w>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.2 #ParlaMint-GB_2021-02-11-commons.seg17.3.1"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.25 #ParlaMint-GB_2021-02-11-commons.seg17.3.2"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.5 #ParlaMint-GB_2021-02-11-commons.seg17.3.3"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.5 #ParlaMint-GB_2021-02-11-commons.seg17.3.4"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.2 #ParlaMint-GB_2021-02-11-commons.seg17.3.5"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.25 #ParlaMint-GB_2021-02-11-commons.seg17.3.6"/>
+                        <link ana="ud-syn:nmod_poss"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.10 #ParlaMint-GB_2021-02-11-commons.seg17.3.7"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.10 #ParlaMint-GB_2021-02-11-commons.seg17.3.8"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.10 #ParlaMint-GB_2021-02-11-commons.seg17.3.9"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.25 #ParlaMint-GB_2021-02-11-commons.seg17.3.10"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.12 #ParlaMint-GB_2021-02-11-commons.seg17.3.11"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.10 #ParlaMint-GB_2021-02-11-commons.seg17.3.12"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.15 #ParlaMint-GB_2021-02-11-commons.seg17.3.13"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.15 #ParlaMint-GB_2021-02-11-commons.seg17.3.14"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.12 #ParlaMint-GB_2021-02-11-commons.seg17.3.15"/>
+                        <link ana="ud-syn:cc"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.17 #ParlaMint-GB_2021-02-11-commons.seg17.3.16"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.12 #ParlaMint-GB_2021-02-11-commons.seg17.3.17"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.10 #ParlaMint-GB_2021-02-11-commons.seg17.3.18"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.20 #ParlaMint-GB_2021-02-11-commons.seg17.3.19"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.10 #ParlaMint-GB_2021-02-11-commons.seg17.3.20"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.10 #ParlaMint-GB_2021-02-11-commons.seg17.3.21"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.25 #ParlaMint-GB_2021-02-11-commons.seg17.3.22"/>
+                        <link ana="ud-syn:aux"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.25 #ParlaMint-GB_2021-02-11-commons.seg17.3.23"/>
+                        <link ana="ud-syn:aux"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.25 #ParlaMint-GB_2021-02-11-commons.seg17.3.24"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3 #ParlaMint-GB_2021-02-11-commons.seg17.3.25"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.28 #ParlaMint-GB_2021-02-11-commons.seg17.3.26"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.28 #ParlaMint-GB_2021-02-11-commons.seg17.3.27"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.25 #ParlaMint-GB_2021-02-11-commons.seg17.3.28"/>
+                        <link ana="ud-syn:cc"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.30 #ParlaMint-GB_2021-02-11-commons.seg17.3.29"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.25 #ParlaMint-GB_2021-02-11-commons.seg17.3.30"/>
+                        <link ana="ud-syn:obl_tmod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.25 #ParlaMint-GB_2021-02-11-commons.seg17.3.31"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.25 #ParlaMint-GB_2021-02-11-commons.seg17.3.32"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.34 #ParlaMint-GB_2021-02-11-commons.seg17.3.33"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.25 #ParlaMint-GB_2021-02-11-commons.seg17.3.34"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.37 #ParlaMint-GB_2021-02-11-commons.seg17.3.35"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.37 #ParlaMint-GB_2021-02-11-commons.seg17.3.36"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.34 #ParlaMint-GB_2021-02-11-commons.seg17.3.37"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.39 #ParlaMint-GB_2021-02-11-commons.seg17.3.38"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.37 #ParlaMint-GB_2021-02-11-commons.seg17.3.39"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.39 #ParlaMint-GB_2021-02-11-commons.seg17.3.40"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.37 #ParlaMint-GB_2021-02-11-commons.seg17.3.41"/>
+                        <link ana="ud-syn:cc"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.43 #ParlaMint-GB_2021-02-11-commons.seg17.3.42"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.37 #ParlaMint-GB_2021-02-11-commons.seg17.3.43"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.34 #ParlaMint-GB_2021-02-11-commons.seg17.3.44"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.25 #ParlaMint-GB_2021-02-11-commons.seg17.3.45"/>
+                        <link ana="ud-syn:mark"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.47 #ParlaMint-GB_2021-02-11-commons.seg17.3.46"/>
+                        <link ana="ud-syn:advcl"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.25 #ParlaMint-GB_2021-02-11-commons.seg17.3.47"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.52 #ParlaMint-GB_2021-02-11-commons.seg17.3.48"/>
+                        <link ana="ud-syn:nsubj_pass"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.52 #ParlaMint-GB_2021-02-11-commons.seg17.3.49"/>
+                        <link ana="ud-syn:aux"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.52 #ParlaMint-GB_2021-02-11-commons.seg17.3.50"/>
+                        <link ana="ud-syn:aux_pass"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.52 #ParlaMint-GB_2021-02-11-commons.seg17.3.51"/>
+                        <link ana="ud-syn:ccomp"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.47 #ParlaMint-GB_2021-02-11-commons.seg17.3.52"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.58 #ParlaMint-GB_2021-02-11-commons.seg17.3.53"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.58 #ParlaMint-GB_2021-02-11-commons.seg17.3.54"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.58 #ParlaMint-GB_2021-02-11-commons.seg17.3.55"/>
+                        <link ana="ud-syn:cc"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.57 #ParlaMint-GB_2021-02-11-commons.seg17.3.56"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.55 #ParlaMint-GB_2021-02-11-commons.seg17.3.57"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.52 #ParlaMint-GB_2021-02-11-commons.seg17.3.58"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.25 #ParlaMint-GB_2021-02-11-commons.seg17.3.59"/>
+                        <link ana="ud-syn:cc"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.64 #ParlaMint-GB_2021-02-11-commons.seg17.3.60"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.64 #ParlaMint-GB_2021-02-11-commons.seg17.3.61"/>
+                        <link ana="ud-syn:aux"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.64 #ParlaMint-GB_2021-02-11-commons.seg17.3.62"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.64 #ParlaMint-GB_2021-02-11-commons.seg17.3.63"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.25 #ParlaMint-GB_2021-02-11-commons.seg17.3.64"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.66 #ParlaMint-GB_2021-02-11-commons.seg17.3.65"/>
+                        <link ana="ud-syn:xcomp"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.64 #ParlaMint-GB_2021-02-11-commons.seg17.3.66"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.69 #ParlaMint-GB_2021-02-11-commons.seg17.3.67"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.69 #ParlaMint-GB_2021-02-11-commons.seg17.3.68"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.66 #ParlaMint-GB_2021-02-11-commons.seg17.3.69"/>
+                        <link ana="ud-syn:mark"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.79 #ParlaMint-GB_2021-02-11-commons.seg17.3.70"/>
+                        <link ana="ud-syn:fixed"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.70 #ParlaMint-GB_2021-02-11-commons.seg17.3.71"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.73 #ParlaMint-GB_2021-02-11-commons.seg17.3.72"/>
+                        <link ana="ud-syn:nsubj_pass"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.79 #ParlaMint-GB_2021-02-11-commons.seg17.3.73"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.73 #ParlaMint-GB_2021-02-11-commons.seg17.3.74"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.76 #ParlaMint-GB_2021-02-11-commons.seg17.3.75"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.74 #ParlaMint-GB_2021-02-11-commons.seg17.3.76"/>
+                        <link ana="ud-syn:aux"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.79 #ParlaMint-GB_2021-02-11-commons.seg17.3.77"/>
+                        <link ana="ud-syn:aux_pass"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.79 #ParlaMint-GB_2021-02-11-commons.seg17.3.78"/>
+                        <link ana="ud-syn:advcl"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.64 #ParlaMint-GB_2021-02-11-commons.seg17.3.79"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.81 #ParlaMint-GB_2021-02-11-commons.seg17.3.80"/>
+                        <link ana="ud-syn:advcl"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg17.3.79 #ParlaMint-GB_2021-02-11-commons.seg17.3.81"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-GB_2021-02-11-commons.seg18">
+                  <s xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1">
+                     <w lemma="the"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        pos="DT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.1">The</w>
+                     <w lemma="hon."
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.2">hon.</w>
+                     <w join="right"
+                        lemma="Lady"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        pos="NNP"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.3">Lady</w>
+                     <w lemma="’s"
+                        msd="UPosTag=PART"
+                        pos="POS"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.4">’s</w>
+                     <name type="MISC">
+                        <w lemma="second"
+                           msd="UPosTag=ADJ|Degree=Pos|NumType=Ord"
+                           pos="JJ"
+                           xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.5">second</w>
+                     </name>
+                     <w join="right"
+                        lemma="point"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.6">point</w>
+                     <pc msd="UPosTag=PUNCT"
+                         pos=","
+                         xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.7">,</pc>
+                     <w lemma="relate"
+                        msd="UPosTag=VERB|VerbForm=Ger"
+                        pos="VBG"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.8">relating</w>
+                     <w lemma="to"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.9">to</w>
+                     <w lemma="unfairness"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.10">unfairness</w>
+                     <w lemma="as"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.11">as</w>
+                     <w lemma="a"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        pos="DT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.12">a</w>
+                     <w lemma="result"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.13">result</w>
+                     <w lemma="of"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.14">of</w>
+                     <w lemma="different"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        pos="JJ"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.15">different</w>
+                     <w lemma="restriction"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        pos="NNS"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.16">restrictions</w>
+                     <w lemma="perhaps"
+                        msd="UPosTag=ADV"
+                        pos="RB"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.17">perhaps</w>
+                     <w lemma="occur"
+                        msd="UPosTag=VERB|VerbForm=Ger"
+                        pos="VBG"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.18">occurring</w>
+                     <w lemma="in"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.19">in</w>
+                     <w lemma="different"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        pos="JJ"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.20">different</w>
+                     <w lemma="local"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        pos="JJ"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.21">local</w>
+                     <w lemma="government"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.22">government</w>
+                     <w join="right"
+                        lemma="area"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        pos="NNS"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.23">areas</w>
+                     <pc msd="UPosTag=PUNCT"
+                         pos=","
+                         xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.24">,</pc>
+                     <w lemma="be"
+                        msd="UPosTag=VERB|Tense=Pres|VerbForm=Fin|Mood=Ind|Number=Sing|Person=3"
+                        pos="VBZ"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.25">is</w>
+                     <w lemma="a"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        pos="DT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.26">an</w>
+                     <w lemma="important"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        pos="JJ"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.27">important</w>
+                     <name type="MISC">
+                        <w join="right"
+                           lemma="one"
+                           msd="UPosTag=NUM|NumType=Card"
+                           pos="CD"
+                           xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.28">one</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT"
+                         pos=","
+                         xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.29">,</pc>
+                     <name type="MISC">
+                        <w lemma="and"
+                           msd="UPosTag=CCONJ"
+                           pos="CC"
+                           xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.30">and</w>
+                        <w lemma="one"
+                           msd="UPosTag=NUM|NumType=Card"
+                           pos="CD"
+                           xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.31">one</w>
+                     </name>
+                     <w lemma="that"
+                        msd="UPosTag=DET|PronType=Rel"
+                        pos="WDT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.32">that</w>
+                     <w lemma="we"
+                        msd="UPosTag=PRON|Number=Plur|Person=1|PronType=Prs|Case=Nom"
+                        pos="PRP"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.33">we</w>
+                     <w lemma="be"
+                        msd="UPosTag=VERB|Tense=Pres|VerbForm=Fin|Mood=Ind"
+                        pos="VBP"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.34">are</w>
+                     <w lemma="take"
+                        msd="UPosTag=VERB|Tense=Pres|VerbForm=Part"
+                        pos="VBG"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.35">taking</w>
+                     <w lemma="into"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.36">into</w>
+                     <w lemma="account"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        pos="NN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.37">account</w>
+                     <w lemma="as"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.38">as</w>
+                     <w lemma="we"
+                        msd="UPosTag=PRON|Number=Plur|Person=1|PronType=Prs|Case=Nom"
+                        pos="PRP"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.39">we</w>
+                     <w lemma="plan"
+                        msd="UPosTag=VERB|Tense=Pres|VerbForm=Fin|Mood=Ind"
+                        pos="VBP"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.40">plan</w>
+                     <w lemma="for"
+                        msd="UPosTag=ADP"
+                        pos="IN"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.41">for</w>
+                     <w lemma="these"
+                        msd="UPosTag=DET|Number=Plur|PronType=Dem"
+                        pos="DT"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.42">these</w>
+                     <w lemma="local"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        pos="JJ"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.43">local</w>
+                     <w join="right"
+                        lemma="election"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        pos="NNS"
+                        xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.44">elections</w>
+                     <pc msd="UPosTag=PUNCT"
+                         pos="."
+                         xml:id="ParlaMint-GB_2021-02-11-commons.seg18.1.45">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.3 #ParlaMint-GB_2021-02-11-commons.seg18.1.1"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.3 #ParlaMint-GB_2021-02-11-commons.seg18.1.2"/>
+                        <link ana="ud-syn:nmod_poss"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.6 #ParlaMint-GB_2021-02-11-commons.seg18.1.3"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.3 #ParlaMint-GB_2021-02-11-commons.seg18.1.4"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.6 #ParlaMint-GB_2021-02-11-commons.seg18.1.5"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.28 #ParlaMint-GB_2021-02-11-commons.seg18.1.6"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.6 #ParlaMint-GB_2021-02-11-commons.seg18.1.7"/>
+                        <link ana="ud-syn:acl"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.6 #ParlaMint-GB_2021-02-11-commons.seg18.1.8"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.10 #ParlaMint-GB_2021-02-11-commons.seg18.1.9"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.8 #ParlaMint-GB_2021-02-11-commons.seg18.1.10"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.13 #ParlaMint-GB_2021-02-11-commons.seg18.1.11"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.13 #ParlaMint-GB_2021-02-11-commons.seg18.1.12"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.8 #ParlaMint-GB_2021-02-11-commons.seg18.1.13"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.16 #ParlaMint-GB_2021-02-11-commons.seg18.1.14"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.16 #ParlaMint-GB_2021-02-11-commons.seg18.1.15"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.13 #ParlaMint-GB_2021-02-11-commons.seg18.1.16"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.18 #ParlaMint-GB_2021-02-11-commons.seg18.1.17"/>
+                        <link ana="ud-syn:acl"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.16 #ParlaMint-GB_2021-02-11-commons.seg18.1.18"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.23 #ParlaMint-GB_2021-02-11-commons.seg18.1.19"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.23 #ParlaMint-GB_2021-02-11-commons.seg18.1.20"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.23 #ParlaMint-GB_2021-02-11-commons.seg18.1.21"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.23 #ParlaMint-GB_2021-02-11-commons.seg18.1.22"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.18 #ParlaMint-GB_2021-02-11-commons.seg18.1.23"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.28 #ParlaMint-GB_2021-02-11-commons.seg18.1.24"/>
+                        <link ana="ud-syn:cop"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.28 #ParlaMint-GB_2021-02-11-commons.seg18.1.25"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.28 #ParlaMint-GB_2021-02-11-commons.seg18.1.26"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.28 #ParlaMint-GB_2021-02-11-commons.seg18.1.27"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1 #ParlaMint-GB_2021-02-11-commons.seg18.1.28"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.28 #ParlaMint-GB_2021-02-11-commons.seg18.1.29"/>
+                        <link ana="ud-syn:cc"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.31 #ParlaMint-GB_2021-02-11-commons.seg18.1.30"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.28 #ParlaMint-GB_2021-02-11-commons.seg18.1.31"/>
+                        <link ana="ud-syn:ref"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.31 #ParlaMint-GB_2021-02-11-commons.seg18.1.32"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.35 #ParlaMint-GB_2021-02-11-commons.seg18.1.33"/>
+                        <link ana="ud-syn:aux"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.35 #ParlaMint-GB_2021-02-11-commons.seg18.1.34"/>
+                        <link ana="ud-syn:acl_relcl"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.31 #ParlaMint-GB_2021-02-11-commons.seg18.1.35"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.37 #ParlaMint-GB_2021-02-11-commons.seg18.1.36"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.35 #ParlaMint-GB_2021-02-11-commons.seg18.1.37"/>
+                        <link ana="ud-syn:mark"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.40 #ParlaMint-GB_2021-02-11-commons.seg18.1.38"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.40 #ParlaMint-GB_2021-02-11-commons.seg18.1.39"/>
+                        <link ana="ud-syn:advcl"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.35 #ParlaMint-GB_2021-02-11-commons.seg18.1.40"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.44 #ParlaMint-GB_2021-02-11-commons.seg18.1.41"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.44 #ParlaMint-GB_2021-02-11-commons.seg18.1.42"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.44 #ParlaMint-GB_2021-02-11-commons.seg18.1.43"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.40 #ParlaMint-GB_2021-02-11-commons.seg18.1.44"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-GB_2021-02-11-commons.seg18.1.28 #ParlaMint-GB_2021-02-11-commons.seg18.1.45"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
