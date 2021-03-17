@@ -581,11 +581,19 @@ And, there is, in theory, also:
 	<xsl:variable name="party" select="key('idr', ., $teiHeader)"/>
 	<xsl:if test="$party/@role='politicalParty'">
 	  <xsl:choose>
-	    <!-- Choose non-English name -->
+	    <!-- Try non-English name first -->
 	    <xsl:when test="$party/tei:orgName[@full=$full]
 			    [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang != 'en']">
 	      <xsl:value-of select="$party/tei:orgName[@full=$full]
 				    [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang != 'en']"/>
+	      <!--xsl:value-of select="$multi-separator"/-->
+	      <xsl:text>;</xsl:text>
+	    </xsl:when>
+	    <!-- Or English name first -->
+	    <xsl:when test="$party/tei:orgName[@full=$full]
+			    [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'en']">
+	      <xsl:value-of select="$party/tei:orgName[@full=$full]
+				    [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'en']"/>
 	      <!--xsl:value-of select="$multi-separator"/-->
 	      <xsl:text>;</xsl:text>
 	    </xsl:when>
