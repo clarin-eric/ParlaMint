@@ -24,16 +24,28 @@
   
   <xsl:variable name="today" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
 
-  <!-- Select first and last XInclude components -->
+  <!-- Select $Files XInclude components -->
   <xsl:variable name="components">
     <xsl:variable name="n" select="count(/tei:teiCorpus/xi:include)"/>
-    <xsl:message select="concat('INFO: from ', $n , ' files  selecting ~', $Files, ' files:')"/>
-    <xsl:for-each select="//xi:include">
-      <xsl:if test="(position()-1) mod floor($n div $Files) = 1">
-	<xsl:message select="concat('INFO: selecting file ', @href)"/>
-	<xsl:copy-of select="."/>
-      </xsl:if>
-    </xsl:for-each>
+    <xsl:choose>
+      <!-- When too few files -->
+      <xsl:when test="$n &lt;= $Files + 1">
+	<xsl:message select="concat('INFO: from ', $n , ' files  selecting all of them: ')"/>
+	<xsl:for-each select="//xi:include">
+	  <xsl:message select="concat('INFO: selecting file ', @href)"/>
+	  <xsl:copy-of select="."/>
+	</xsl:for-each>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:message select="concat('INFO: from ', $n , ' files  selecting ~', $Files, ' files:')"/>
+      <xsl:for-each select="//xi:include">
+	<xsl:if test="(position()-1) mod floor($n div $Files) = 1">
+	  <xsl:message select="concat('INFO: selecting file ', @href)"/>
+	  <xsl:copy-of select="."/>
+	</xsl:if>
+      </xsl:for-each>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:variable>
 
   <xsl:output method="xml" indent="yes"/>
