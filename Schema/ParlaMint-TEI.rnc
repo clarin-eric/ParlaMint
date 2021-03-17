@@ -251,8 +251,10 @@ comment =
         | "kinesic"
         | "playback"
         | "gesture"
-        | "laughter"
-        | "snapping"
+        | # This shouldn't be here:
+          
+          # value>laughter</value
+          "snapping"
         | "noise"
       }?,
       who.att?,
