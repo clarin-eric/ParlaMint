@@ -331,7 +331,7 @@
     <xsl:choose>
       <xsl:when test="not(@who)">
 	<xsl:call-template name="error">
-	  <xsl:with-param name="severity">WARN</xsl:with-param>
+	  <xsl:with-param name="severity">INFO</xsl:with-param>
 	  <xsl:with-param name="msg">
 	    <xsl:text>Element u without @who </xsl:text>
 	    <xsl:value-of select="@xml:id"/>
