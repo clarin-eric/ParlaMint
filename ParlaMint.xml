@@ -13,12 +13,12 @@
                <persName>Tomaž Erjavec</persName>
                <resp xml:lang="en">ParlaMint corpus encoding verification</resp>
             </respStmt>
-            <respStmt>
+            <respStmt xmlns:xi="http://www.w3.org/2001/XInclude">
                <persName>Henk van der Pol</persName>
                <persName>Griet Depoorter</persName>
                <resp>ParlaMint-BE: Data retrieval and conversion to TEI</resp>
             </respStmt>
-            <respStmt>
+            <respStmt xmlns:xi="http://www.w3.org/2001/XInclude">
                <persName>Jesse de Does</persName>
                <resp>ParlaMint-BE: Linguistic annotation</resp>
             </respStmt>
@@ -60,6 +60,10 @@
                <resp>ParlaMint-IS: Collection and processing of texts. TEI encoding.</resp>
             </respStmt>
             <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp>ParlaMint-IT: Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
                <persName>Ruben van Heusden</persName>
                <resp>ParlaMint-NL: Downloading and converting the corpus to TEI format</resp>
             </respStmt>
@@ -83,9 +87,9 @@
             <edition>2.0</edition>
          </editionStmt>
          <extent>
-            <measure unit="corpora" quantity="9">9 corpora</measure>
-            <measure unit="speeches" quantity="1660624">1,660,624 speeches</measure>
-            <measure unit="words" quantity="214072357">214,072,357 words</measure>
+            <measure unit="corpora" quantity="10">10 corpora</measure>
+            <measure unit="speeches" quantity="1808817">1,808,817 speeches</measure>
+            <measure unit="words" quantity="246575890">246,575,890 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -97,22 +101,26 @@
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2021-03-08">March 8, 2021</date>
+            <date when="2021-03-17">March 17, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <listBibl>
                <head>ParlaMint-BE</head>
                <bibl>
-                  <title type="main">Belgian Federal Parliament: Plenary sessions</title>
-                  <publisher>Kamer van volksvertegenwoordigers</publisher>
-                  <idno type="URI">https://www.dekamer.be/kvvcr/showpage.cfm?section=/cricra&amp;language=nl&amp;cfm=dcricra.cfm?type=plen&amp;cricra=cri&amp;count=all</idno>
-                  <date from="2015-11-12" to="2020-08-14">2015-11-12 - 2020-08-18</date>
+                  <title xmlns:xi="http://www.w3.org/2001/XInclude" type="main">Belgian Federal Parliament: Plenary sessions</title>
+                  <publisher xmlns:xi="http://www.w3.org/2001/XInclude">Kamer van volksvertegenwoordigers</publisher>
+                  <idno xmlns:xi="http://www.w3.org/2001/XInclude" type="URI">https://www.dekamer.be/kvvcr/showpage.cfm?section=/cricra&amp;language=nl&amp;cfm=dcricra.cfm?type=plen&amp;cricra=cri&amp;count=all</idno>
+                  <date xmlns:xi="http://www.w3.org/2001/XInclude"
+                        to="2020-08-14"
+                        from="2015-11-12">2015-11-12 - 2020-08-18</date>
                </bibl>
                <bibl>
-                  <title type="main">Belgian Federal Parliament: committee meetings</title>
-                  <publisher>Kamer van volksvertegenwoordigers</publisher>
-                  <idno type="URI">https://www.dekamer.be/kvvcr/showpage.cfm?section=/cricra&amp;language=nl&amp;cfm=dcricra.cfm?type=comm&amp;cricra=cri&amp;count=all</idno>
-                  <date from="2015-11-12" to="2020-08-18">2015-11-12 - 2020-08-18</date>
+                  <title xmlns:xi="http://www.w3.org/2001/XInclude" type="main">Belgian Federal Parliament: committee meetings</title>
+                  <publisher xmlns:xi="http://www.w3.org/2001/XInclude">Kamer van volksvertegenwoordigers</publisher>
+                  <idno xmlns:xi="http://www.w3.org/2001/XInclude" type="URI">https://www.dekamer.be/kvvcr/showpage.cfm?section=/cricra&amp;language=nl&amp;cfm=dcricra.cfm?type=comm&amp;cricra=cri&amp;count=all</idno>
+                  <date xmlns:xi="http://www.w3.org/2001/XInclude"
+                        to="2020-08-18"
+                        from="2015-11-12">2015-11-12 - 2020-08-18</date>
                </bibl>
             </listBibl>
             <listBibl>
@@ -158,6 +166,14 @@
                   <title>Parliament speeches in the national parliament of Iceland </title>
                   <idno type="URI">www.athingi.is</idno>
                   <date from="2015-01-01" to="2020-09-30">2015-01-01 - 2020-09-30</date>
+               </bibl>
+            </listBibl>
+            <listBibl>
+               <head>ParlaMint-IT</head>
+               <bibl>
+                  <title type="main">Minutes of the Senate of the Republic of Italy</title>
+                  <idno type="URI">https://www.senato.it</idno>
+                  <date from="2013-03-15" to="2020-11-18">15.3.2013 - 18.11.2020</date>
                </bibl>
             </listBibl>
             <listBibl>
@@ -222,31 +238,26 @@
          </editorialDecl>
          <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="body" occurs="13577"/>
-               <tagUsage gi="desc" occurs="248638"/>
-               <tagUsage gi="div" occurs="23433"/>
-               <tagUsage gi="gap" occurs="21508"/>
-               <tagUsage gi="head" occurs="11902"/>
-               <tagUsage gi="incident" occurs="1284"/>
-               <tagUsage gi="kinesic" occurs="126815"/>
-               <tagUsage gi="link" occurs="131157"/>
-               <tagUsage gi="linkGrp" occurs="6627"/>
-               <tagUsage gi="name" occurs="3503"/>
-               <tagUsage gi="note" occurs="474428"/>
+               <tagUsage gi="body" occurs="15262"/>
+               <tagUsage gi="desc" occurs="249673"/>
+               <tagUsage gi="div" occurs="25156"/>
+               <tagUsage gi="gap" occurs="21518"/>
+               <tagUsage gi="head" occurs="11939"/>
+               <tagUsage gi="incident" occurs="1320"/>
+               <tagUsage gi="kinesic" occurs="127301"/>
+               <tagUsage gi="note" occurs="614539"/>
                <tagUsage gi="pb" occurs="24933"/>
-               <tagUsage gi="pc" occurs="12453"/>
-               <tagUsage gi="s" occurs="6627"/>
-               <tagUsage gi="seg" occurs="4088912"/>
-               <tagUsage gi="text" occurs="13577"/>
+               <tagUsage gi="ref" occurs="33396"/>
+               <tagUsage gi="seg" occurs="4797710"/>
+               <tagUsage gi="text" occurs="15258"/>
                <tagUsage gi="time" occurs="20386"/>
-               <tagUsage gi="u" occurs="1660624"/>
-               <tagUsage gi="vocal" occurs="96442"/>
-               <tagUsage gi="w" occurs="118704"/>
+               <tagUsage gi="u" occurs="1808523"/>
+               <tagUsage gi="vocal" occurs="96945"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
       <revisionDesc>
-         <change when="2021-03-08">
+         <change when="2021-03-17">
             <name>Tomaž Erjavec</name>: First try.</change>
       </revisionDesc>
    </teiHeader>
@@ -262,6 +273,8 @@
                href="ParlaMint-HR/ParlaMint-HR.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-IS/ParlaMint-IS.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-IT/ParlaMint-IT.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-NL/ParlaMint-NL.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
