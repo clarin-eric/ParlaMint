@@ -1,3 +1,28 @@
+#Testing generation of CoNLL-U files
+#If you want to use, first do:
+#$ cd Scripts; git clone git@github.com:UniversalDependencies/tools.git
+
+SI = ParlaMint-SI_2018-04-13-SDZ7-Izredna-59
+conllu-si:
+	$s meta=../ParlaMint-SI/ParlaMint-SI.ana.xml -xsl:Scripts/parlamint2conllu.xsl \
+	ParlaMint-SI/${SI}.ana.xml > ParlaMint-SI/${SI}.conllu
+	python3 Scripts/tools/validate.py --lang sl --level 1 ParlaMint-SI/${SI}.conllu
+	python3 Scripts/tools/validate.py --lang sl --level 2 ParlaMint-SI/${SI}.conllu
+
+BE = ParlaMint-BE_2015-06-10-54-commissie-ic189x
+conllu-be:	conllu-be-nl conllu-be-fr
+conllu-be-nl:
+	$s lang=nl meta=../ParlaMint-BE/ParlaMint-BE.ana.xml -xsl:Scripts/parlamint2conllu.xsl \
+	ParlaMint-BE/${BE}.ana.xml > ParlaMint-BE/${BE}.conllu
+	python3 Scripts/tools/validate.py --lang nl --level 1 ParlaMint-BE/${BE}.conllu
+	python3 Scripts/tools/validate.py --lang nl --level 2 ParlaMint-BE/${BE}.conllu
+conllu-be-fr:
+	$s lang=fr meta=../ParlaMint-BE/ParlaMint-BE.ana.xml -xsl:Scripts/parlamint2conllu.xsl \
+	ParlaMint-BE/${BE}.ana.xml > ParlaMint-BE/${BE}.conllu
+	python3 Scripts/tools/validate.py --lang fr --level 1 ParlaMint-BE/${BE}.conllu
+	python3 Scripts/tools/validate.py --lang fr --level 2 ParlaMint-BE/${BE}.conllu
+
+
 #Now that we have plain text, would be better to compute char counts from those!
 chars-xml:
 	rm -f ParlaMint-BG/chars-files-BG.tbl

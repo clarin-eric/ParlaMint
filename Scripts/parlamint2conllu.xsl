@@ -1,11 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- Convert ParlaMint TEI format with UD morphology and syntax to CoNLL-U -->
+<!-- Convert ParlaMint.ana to CoNLL-U:
+     - document (u), paragraph (seg) and sentence (s) IDs
+     - syntactic words (w/w)
+     - XPoS (w/@ana)
+     - UPoS and UD mophological features (w/@msd) and dependencies (s/linkGrp)
+     - SpaceAfter (w/@join)
+     - NER (name/@type)
+ -->
 <xsl:stylesheet version='2.0' 
   xmlns:xsl = "http://www.w3.org/1999/XSL/Transform"
-  xmlns:fn="http://www.w3.org/2005/xpath-functions"
   xmlns:tei="http://www.tei-c.org/ns/1.0"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns:et="http://nl.ijs.si/et"
-  exclude-result-prefixes="fn tei et">
+  exclude-result-prefixes="#all">
 
   <xsl:output encoding="utf-8" method="text"/>
   <xsl:key name="id" match="tei:*" use="concat('#',@xml:id)"/>
@@ -13,6 +20,11 @@
 
   <!-- Name of file with meta-data, i.e. the corpus teiHeader: -->
   <xsl:param name="meta"/>
+  
+  <!-- We can choose the language of the segments that we want to output -->
+  <xsl:param name="seg-lang"/>
+  
+  <!-- Save root teiHeader to $teiHeader -->
   <xsl:variable name="teiHeader">
     <xsl:if test="normalize-space($meta) and not(doc-available($meta))">
       <xsl:message terminate="yes">
@@ -24,6 +36,7 @@
     <xsl:copy-of select="document($meta)//tei:teiHeader"/>
   </xsl:variable>
   
+  <!-- Save listPrefixes to $listPrefix -->
   <xsl:variable name="listPrefix">
     <xsl:choose>
       <xsl:when test="//tei:teiHeader//tei:listPrefixDef">
@@ -37,21 +50,22 @@
 
   <xsl:template match="text()"/>
 
-  <!--xsl:template match="tei:TEI">
-    <xsl:value-of select="concat('# newdoc id = ', @xml:id, '&#10;')"/>
-    <xsl:apply-templates/>
-  </xsl:template-->
-  
+  <!-- A speech corresponds to a document -->
   <xsl:template match="tei:u">
     <xsl:value-of select="concat('# newdoc id = ', @xml:id, '&#10;')"/>
     <xsl:apply-templates/>
   </xsl:template>
   
+  <!-- A segment corresponds to a paragraph -->
   <xsl:template match="tei:seg">
-    <xsl:value-of select="concat('# newpar id = ', @xml:id, '&#10;')"/>
-    <xsl:apply-templates/>
+    <xsl:if test="not(normalize-space($seg-lang)) or 
+		  ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = $seg-lang">
+      <xsl:value-of select="concat('# newpar id = ', @xml:id, '&#10;')"/>
+      <xsl:apply-templates/>
+    </xsl:if>
   </xsl:template>
   
+  <!-- And a sentence is a sentence -->
   <xsl:template match="tei:s">
     <xsl:value-of select="concat('# sent_id = ', @xml:id, '&#10;')"/>
     <xsl:variable name="text">
@@ -62,42 +76,74 @@
     <xsl:text>&#10;</xsl:text>
   </xsl:template>
   
+  <!-- Output the plain text of a sentence -->
   <xsl:template mode="plain" match="text()"/>
   <xsl:template mode="plain" match="tei:*">
     <xsl:apply-templates mode="plain"/>
   </xsl:template>
-  <xsl:template mode="plain" match="tei:c">
-    <xsl:text>&#32;</xsl:text>
-  </xsl:template>
   <xsl:template mode="plain" match="tei:w | tei:pc">
-    <xsl:value-of select="."/>
-    <xsl:if test="not(@join = 'right' or @join='both' or
-		  following::tei:*[self::tei:w or self::tei:pc][1]/@join = 'left' or
-		  following::tei:*[self::tei:w or self::tei:pc][1]/@join = 'both')">
-      <xsl:text>&#32;</xsl:text>
-    </xsl:if>
+    <xsl:value-of select="normalize-space(.)"/>
+    <xsl:call-template name="SpaceAfter">
+      <xsl:with-param name="yes" select="'&#32;'"/>
+    </xsl:call-template>
   </xsl:template>
 
-  <xsl:template match="tei:note | tei:gap | tei:vocal | tei:kinesic | tei:incident">
-    <!-- We just skip these, is there anything else we could do? -->
+  <xsl:template match="tei:note | tei:desc">
+    <!-- We just ignore these (and parents of desc), is there anything else we could do? -->
   </xsl:template>
   
+  <!-- Names will be stored in local column as IOB -->
   <xsl:template match="tei:name">
+    <xsl:apply-templates/>
+  </xsl:template>
+  
+  <!-- Word with embedded syntactic words -->
+  <xsl:template match="tei:w[tei:w]">
+    <!-- 1/ID -->
+    <xsl:apply-templates mode="number" select="tei:w[1]"/>
+    <xsl:text>-</xsl:text>
+    <xsl:apply-templates mode="number" select="tei:w[last()]"/>
+    <xsl:text>&#9;</xsl:text>
+    <!-- 2/FORM -->
+    <xsl:value-of select="normalize-space(.)"/>
+    <xsl:text>&#9;</xsl:text>
+    <!-- 3/LEMMA -->
+    <xsl:text>_&#9;</xsl:text>
+    <!-- 4/CPOSTAG -->
+    <xsl:text>_&#9;</xsl:text>
+    <!-- 5/XPOS -->
+    <xsl:text>_&#9;</xsl:text>
+    <!-- 6/FEATS -->
+    <xsl:text>_&#9;</xsl:text>
+    <!-- 7/HEAD -->
+    <xsl:text>_&#9;</xsl:text>
+    <!-- 8/DEPREL -->
+    <xsl:text>_&#9;</xsl:text>
+    <!-- 9/DEPS -->
+    <xsl:text>_&#9;</xsl:text>
+    <!-- 10/MISC -->
+    <xsl:call-template name="NER"/>
+    <xsl:call-template name="SpaceAfter">
+      <xsl:with-param name="no">|SpaceAfter=No</xsl:with-param>
+    </xsl:call-template>
+    <xsl:text>&#10;</xsl:text>
     <xsl:apply-templates/>
   </xsl:template>
   
   <xsl:template match="tei:w | tei:pc">
     <!-- 1/ID -->
-    <xsl:text></xsl:text>
     <xsl:apply-templates mode="number" select="."/>
     <xsl:text>&#9;</xsl:text>
     <!-- 2/FORM -->
-    <xsl:if test="contains(text(),' ')">
-      <xsl:message>
-	<xsl:value-of select="concat('ERROR: tokens contains space: ', text())"/>
-      </xsl:message>
-    </xsl:if>
-    <xsl:value-of select="text()"/>
+    <xsl:choose>
+      <!-- If syntactic word -->
+      <xsl:when test="parent::tei:w">
+	<xsl:value-of select="@norm"/>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:value-of select="text()"/>
+      </xsl:otherwise>
+    </xsl:choose>
     <xsl:text>&#9;</xsl:text>
     <!-- 3/LEMMA -->
     <xsl:choose>
@@ -136,18 +182,23 @@
     <xsl:text>&#9;</xsl:text>
     <!-- 5/XPOS -->
     <xsl:choose>
+      <!-- XPOS is in the @ana attribute and are pointers to their definitions -->
+      <!-- Here we just take the value of the IDREF(s) -->
+      <!-- For MULTEXT-East we have the tag, i.e. MSD: ana="mte:Appmpn" -->
+      <!-- For BE we have a list of AV pairs: ana="#pos.PD #type.d-p" -->
       <xsl:when test="@ana">
-	<xsl:choose>
-	  <xsl:when test="contains(@ana, ':')">
-	    <xsl:value-of select="substring-after(@ana, ':')"/>
-	  </xsl:when>
-	  <xsl:when test="starts-with(@ana, '#')">
-	    <xsl:value-of select="substring-after(@ana, '#')"/>
-	  </xsl:when>
-	  <xsl:otherwise>
-	    <xsl:value-of select="@ana"/>
-	  </xsl:otherwise>
-	</xsl:choose>
+	<xsl:variable name="xpos">
+	  <xsl:for-each select="tokenize(@ana, '\s+')">
+	    <!-- Get rid of "#" reference to @xml:id or of TEI extended pointer prefix ".+?:" -->
+	    <xsl:value-of select="replace(
+				  replace(., 
+				  '.+?:', ''),
+				  '^#', '')
+				  "/>
+	    <xsl:text>|</xsl:text>
+	  </xsl:for-each>
+	</xsl:variable>
+	<xsl:value-of select="replace($xpos, '\|$', '')"/>
       </xsl:when>
       <xsl:when test="contains(@msd, 'XPosTag=')">
 	<xsl:value-of select="replace(@msd, '.*XPosTag=([^|]+).*', '$1')"/>
@@ -156,13 +207,15 @@
     </xsl:choose>
     <xsl:text>&#9;</xsl:text>
     <!-- 6/FEATS -->
+    <!-- First, get rid of UPosTag and possible XPosTag in UD features -->
     <xsl:variable name="feats" select="replace(
 				       replace(@msd, 'UPosTag=[^|]+\|?', ''),
 				       '\|?XPosTag=[^|]+', '')"/>
     <xsl:choose>
       <xsl:when test="normalize-space($feats)">
-	<!-- In TEI : was changed to _ so it doesn't clash with value prefixes -->
-	<xsl:value-of select="replace($feats, '_', ':')"/>
+	<!-- ?In TEI : was changed to _ so it doesn't clash with extended pointer prefixes -->
+	<!-- Is this relevant here!?! -->
+	<xsl:value-of select="et:sort_feats(replace($feats, '_', ':'))"/>
       </xsl:when>
       <xsl:otherwise>_</xsl:otherwise>
     </xsl:choose>
@@ -197,10 +250,79 @@
     <xsl:text>_</xsl:text>
     <xsl:text>&#9;</xsl:text>
     <!-- 10/MISC -->
+    <xsl:choose>
+      <!-- Do not put MISC features on sytactic words -->
+      <xsl:when test="parent::tei:w">
+	<xsl:text>_</xsl:text>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:call-template name="NER"/>
+	<xsl:call-template name="SpaceAfter">
+	  <xsl:with-param name="no">|SpaceAfter=No</xsl:with-param>
+	</xsl:call-template>
+      </xsl:otherwise>
+    </xsl:choose>
+    <xsl:text>&#10;</xsl:text>
+  </xsl:template>
+
+  <!-- Return the number of the head token -->
+  <xsl:template name="head">
+    <xsl:param name="links"/>
+    <xsl:param name="id" select="@xml:id"/>
+    <xsl:variable name="link" select="$links//tei:link[matches(@target,concat(' #',$id,'$'))]"/>
+    <xsl:variable name="head_id" select="substring-before($link/@target,' ')"/>
+    <xsl:choose>
+      <xsl:when test="key('id', $head_id)/name()= 's'">0</xsl:when>
+      <xsl:when test="key('id', $head_id)[name()='pc' or name()='w']">
+	<xsl:apply-templates mode="number" select="key('id', $head_id)"/>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:message terminate="yes">
+	  <xsl:value-of select="concat('ERROR: in link cant find head ', $head_id, ' for id ', $id)"/>
+	</xsl:message>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
+  <!-- Return the number of the token in sentence -->
+  <xsl:template mode="number" match="tei:w | tei:pc">
+    <xsl:variable name="all">
+      <xsl:number count="tei:w | tei:pc" level="any" from="tei:s"/>
+    </xsl:variable>
+    <xsl:variable name="ignore">
+      <xsl:number count="tei:w[tei:w]" level="any" from="tei:s"/>
+    </xsl:variable>
+    <xsl:choose>
+      <xsl:when test="normalize-space($ignore)">
+	<xsl:value-of select="($all - $ignore)"/>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:value-of select="$all"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
+  <!-- Return the name of the syntactic relation -->
+  <xsl:template name="rel">
+    <xsl:param name="links"/>
+    <xsl:param name="id" select="@xml:id"/>
+    <xsl:variable name="link" select="$links//tei:link
+				      [matches(@target, concat(' #', $id, '$'))]"/>
+    <!-- In TEI : was changed to _ so it doesn't clash with extended pointer prefixes -->
+    <xsl:value-of select="replace(
+			  substring-after($link/@ana, ':'),
+			  '_', ':')"/>
+    <!-- This is the proper way to do it, but we simplify as above
+	 <xsl:variable name="ana" select="et:prefix-replace($link/@ana, $prefixes)"/>
+	 <xsl:value-of select="substring-after($link/$ana,'#')"/-->
+  </xsl:template>
+
+  <!-- Output NER feature (for MISC column) -->
+  <xsl:template name="NER">
     <xsl:text>NER=</xsl:text>
     <xsl:choose>
-      <xsl:when test="parent::tei:name">
-	<xsl:variable name="type" select="parent::tei:name/@type"/>
+      <xsl:when test="ancestor::tei:name">
+	<xsl:variable name="type" select="ancestor::tei:name/@type"/>
 	<xsl:choose>
 	  <xsl:when test="preceding-sibling::tei:*">
 	    <xsl:value-of select="concat('I-', $type)"/>
@@ -212,59 +334,38 @@
       </xsl:when>
       <xsl:otherwise>O</xsl:otherwise>
     </xsl:choose>
-    <xsl:if test="@join = 'right' or @join='both' or
-		  following::tei:*[self::tei:w or self::tei:pc][1]/@join = 'left' or
-		  following::tei:*[self::tei:w or self::tei:pc][1]/@join = 'both'">
-	<xsl:text>|SpaceAfter=No</xsl:text>
-    </xsl:if>
-    <xsl:text>&#10;</xsl:text>
   </xsl:template>
-
-  <!-- Return the number of the head token -->
-  <xsl:template name="head">
-    <xsl:param name="links"/>
-    <xsl:param name="id" select="@xml:id"/>
-    <xsl:variable name="link" select="$links//tei:link[fn:matches(@target,concat(' #',$id,'$'))]"/>
-    <xsl:variable name="head_id" select="substring-before($link/@target,' ')"/>
+  
+  <!-- Output $no if token is @join-ed to next token, $yes otherwise -->
+  <xsl:template name="SpaceAfter">
+    <xsl:param name="yes"/>
+    <xsl:param name="no"/>
     <xsl:choose>
-      <xsl:when test="key('id',$head_id)/name()= 's'">0</xsl:when>
-      <xsl:when test="key('id',$head_id)[name()='pc' or name()='w']">
-	<xsl:apply-templates mode="number" select="key('id',$head_id)"/>
+      <xsl:when test="@join = 'right' or @join='both' or
+		      following::tei:*[self::tei:w or self::tei:pc][1]
+		      [@join = 'left' or @join = 'both']">
+	<xsl:value-of select="$no"/>
       </xsl:when>
       <xsl:otherwise>
-	<xsl:message terminate="yes">
-	  <xsl:value-of select="concat('ERROR: in link cant find head ', $head_id, ' for id ', $id)"/>
-	</xsl:message>
+	<xsl:value-of select="$yes"/>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
+
+  <xsl:function name="et:sort_feats">
+    <xsl:param name="feats"/>
+    <xsl:variable name="sorted">
+      <xsl:for-each select="tokenize($feats, '\|')">
+	<xsl:sort select="lower-case(.)" order="ascending"/>
+	<xsl:value-of select="."/>
+	<xsl:text>|</xsl:text>
+      </xsl:for-each>
+    </xsl:variable>
+    <xsl:value-of select="replace($sorted, '\|$', '')"/>
+  </xsl:function>
   
-  <xsl:template mode="number" match="tei:*">
-    <xsl:if test="not(self::tei:pc or self::tei:w)">
-      <xsl:message terminate="yes">
-	<xsl:value-of select="concat('ERROR: sequence number for non-token: ', text())"/>
-      </xsl:message>
-    </xsl:if>
-    <xsl:number count="tei:w | tei:pc" level="any" from="tei:s"/>
-  </xsl:template>
-
-  <!-- Return the name of the syntactic relation -->
-  <xsl:template name="rel">
-    <xsl:param name="links"/>
-    <xsl:param name="id" select="@xml:id"/>
-    <xsl:variable name="link" select="$links//tei:link[fn:matches(@target,concat(' #',$id,'$'))]"/>
-    <!-- In TEI : was changed to _ so it doesn't clash with value prefixes -->
-    <xsl:value-of select="replace(
-			  substring-after($link/@ana, ':'),
-			  '_', ':')"/>
-    <!-- This is the proper was to do it, but we simplify for as above
-    <xsl:variable name="ana" select="et:prefix-replace($link/@ana, $prefixes)"/>
-    <xsl:value-of select="substring-after($link/$ana,'#')"/-->
-  </xsl:template>
-
   <xsl:function name="et:prefix-replace">
     <xsl:param name="val"/>
-    <xsl:param name="prefixes"/>
     <xsl:choose>
       <xsl:when test="contains($val, ':')">
 	<xsl:variable name="prefix" select="substring-before($val, ':')"/>
@@ -280,7 +381,7 @@
 	    </xsl:message>
 	  </xsl:when>
 	  <xsl:otherwise>
-	    <xsl:value-of select="fn:replace($val-in, $match, $replace)"/>
+	    <xsl:value-of select="replace($val-in, $match, $replace)"/>
 	  </xsl:otherwise>
 	</xsl:choose>
       </xsl:when>
