@@ -1,19 +1,34 @@
 #!/usr/bin/perl
+# Validate ParlaMint files
+# Tomaž Erjavec <tomaz.erjavec@ijs.si>
+# License: GNU GPL
+
 use warnings;
 use utf8;
+use open ':utf8';
+binmode(STDIN, ':utf8');
+binmode(STDOUT, ':utf8');
+binmode(STDERR, ':utf8');
+
+sub usage
+{
+    print STDERR ("Usage: validate-parlamint.pl <SchemaDirectory> '<InputDirectories>'\n");
+    print STDERR ("       Produces a validation report on ParlaMint XML files in the <InputDirectories>:\n");
+    print STDERR ("       * validation against ParlaMint RNG schemas in <SchemaDirectory> (with jing)\n");
+    print STDERR ("       * link (IDREF) checking (with saxon, check-links.xsl)\n");
+    print STDERR ("       * content checking (with saxon, validate-parlamint.xsl)\n");
+}
+use Getopt::Long;
 use FindBin qw($Bin);
 use File::Spec;
 
 $schemaDir = File::Spec->rel2abs(shift);
 $inDirs = File::Spec->rel2abs(shift);
 
-binmode(STDOUT, 'utf8');
-binmode(STDERR, 'utf8');
-
 $Jing  = 'java -jar /usr/share/java/jing.jar';
 $Saxon = 'java -jar /usr/share/java/saxon.jar';
 $Links = "$Bin/check-links.xsl";
-$Val   = "$Bin/validate-parlamint.xsl";
+$Valid = "$Bin/validate-parlamint.xsl";
 
 foreach my $inDir (glob "$inDirs") {
     next unless -d $inDir;
@@ -29,7 +44,7 @@ foreach my $inDir (glob "$inDirs") {
     $/ = '>';
     if ($rootFile) {
 	&run("$Jing $schemaDir/ParlaMint-teiCorpus.rng", $rootFile);
-	&run("$Saxon -xsl:$Val", $rootFile);
+	&run("$Saxon -xsl:$Valid", $rootFile);
 	&run("$Saxon -xsl:$Links", $rootFile);
 	open(IN, '<:utf8', $rootFile);
 	while (<IN>) {
@@ -38,7 +53,7 @@ foreach my $inDir (glob "$inDirs") {
 		$file = "$inDir/$1";
 		if (-e $file) {
 		    &run("$Jing $schemaDir/ParlaMint-TEI.rng", $file);
-		    &run("$Saxon -xsl:$Val", $file);
+		    &run("$Saxon -xsl:$Valid", $file);
 		    &run("$Saxon meta=$rootFile -xsl:$Links", $file);
 		}
 		else {print STDERR "ERROR: $rootFile XIncluded file $file does not exist!\n"}
@@ -49,7 +64,7 @@ foreach my $inDir (glob "$inDirs") {
     else {print STDERR "WARN: No text root file found in $inDir\n"}
     if ($rootAnaFile) {
 	&run("$Jing $schemaDir/ParlaMint-teiCorpus.ana.rng", $rootAnaFile);
-	&run("$Saxon -xsl:$Val", $rootAnaFile);
+	&run("$Saxon -xsl:$Valid", $rootAnaFile);
 	&run("$Saxon -xsl:$Links", $rootAnaFile);
 	open(IN, '<:utf8', $rootAnaFile);
 	while (<IN>) {
@@ -58,7 +73,7 @@ foreach my $inDir (glob "$inDirs") {
 		$file = "$inDir/$1";
 		if (-e $file) {
 		    &run("$Jing $schemaDir/ParlaMint-TEI.ana.rng", $file);
-		    &run("$Saxon -xsl:$Val", $file);
+		    &run("$Saxon -xsl:$Valid", $file);
 		    &run("$Saxon meta=$rootAnaFile -xsl:$Links", $file);
 		}
 		else {print STDERR "ERROR: $rootFile XIncluded file $file does not exist!\n"}
@@ -77,7 +92,7 @@ sub run {
     if ($command =~ /$Jing/) {
 	print STDERR "INFO: XML validation for $fName\n"
     }
-    elsif ($command =~ /$Val/) {
+    elsif ($command =~ /$Valid/) {
 	print STDERR "INFO: Content validaton for $fName\n"
     }
     elsif ($command =~ /$Links/) {
