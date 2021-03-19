@@ -188,9 +188,9 @@
     <xsl:text>&#9;</xsl:text>
     <!-- 5/XPOS -->
     <xsl:choose>
-      <!-- XPOS is in the @ana attribute and are pointers to their definitions -->
+      <!-- If in @ana attribute, they are pointers to their definitions -->
       <!-- Here we just take the value of the IDREF(s) -->
-      <!-- For MULTEXT-East we have the tag, i.e. MSD: ana="mte:Appmpn" -->
+      <!-- For MULTEXT-East (HR, SI) we have the tag, i.e. MSD: ana="mte:Appmpn" -->
       <!-- For BE we have a list of AV pairs: ana="#pos.PD #type.d-p" -->
       <xsl:when test="@ana">
 	<xsl:variable name="xpos">
@@ -205,6 +205,10 @@
 	  </xsl:for-each>
 	</xsl:variable>
 	<xsl:value-of select="replace($xpos, '\|$', '')"/>
+      </xsl:when>
+      <!-- Can also be a simple value of the @pos attribute (BG) -->
+      <xsl:when test="@pos">
+	<xsl:value-of select="@pos"/>
       </xsl:when>
       <xsl:when test="contains(@msd, 'XPosTag=')">
 	<xsl:value-of select="replace(@msd, '.*XPosTag=([^|]+).*', '$1')"/>
