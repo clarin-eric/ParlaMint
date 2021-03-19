@@ -8,19 +8,28 @@ conllu-si:
 	ParlaMint-SI/${SI}.ana.xml > ParlaMint-SI/${SI}.conllu
 	python3 Scripts/tools/validate.py --lang sl --level 1 ParlaMint-SI/${SI}.conllu
 	python3 Scripts/tools/validate.py --lang sl --level 2 ParlaMint-SI/${SI}.conllu
+	python3 Scripts/tools/validate.py --lang sl --level 3 ParlaMint-SI/${SI}.conllu
+
+CZ = ParlaMint-CZ_2013-11-25-ps2013-001-01-001-001
+conllu-cz:
+	$s meta=../ParlaMint-CZ/ParlaMint-CZ.ana.xml -xsl:Scripts/parlamint2conllu.xsl \
+	ParlaMint-CZ/${CZ}.ana.xml > ParlaMint-CZ/${CZ}.conllu
+	python3 Scripts/tools/validate.py --lang cs --level 1 ParlaMint-CZ/${CZ}.conllu
+	python3 Scripts/tools/validate.py --lang cs --level 2 ParlaMint-CZ/${CZ}.conllu
+	python3 Scripts/tools/validate.py --lang cs --level 3 ParlaMint-CZ/${CZ}.conllu
 
 BE = ParlaMint-BE_2015-06-10-54-commissie-ic189x
 conllu-be:	conllu-be-nl conllu-be-fr
 conllu-be-nl:
-	$s lang=nl meta=../ParlaMint-BE/ParlaMint-BE.ana.xml -xsl:Scripts/parlamint2conllu.xsl \
-	ParlaMint-BE/${BE}.ana.xml > ParlaMint-BE/${BE}.conllu
-	python3 Scripts/tools/validate.py --lang nl --level 1 ParlaMint-BE/${BE}.conllu
-	python3 Scripts/tools/validate.py --lang nl --level 2 ParlaMint-BE/${BE}.conllu
+	$s seg-lang=nl meta=../ParlaMint-BE/ParlaMint-BE.ana.xml -xsl:Scripts/parlamint2conllu.xsl \
+	ParlaMint-BE/${BE}.ana.xml > ParlaMint-BE/${BE}-nl.conllu
+	python3 Scripts/tools/validate.py --lang nl --level 1 ParlaMint-BE/${BE}-nl.conllu
+	-python3 Scripts/tools/validate.py --lang nl --level 2 ParlaMint-BE/${BE}-nl.conllu
 conllu-be-fr:
-	$s lang=fr meta=../ParlaMint-BE/ParlaMint-BE.ana.xml -xsl:Scripts/parlamint2conllu.xsl \
-	ParlaMint-BE/${BE}.ana.xml > ParlaMint-BE/${BE}.conllu
-	python3 Scripts/tools/validate.py --lang fr --level 1 ParlaMint-BE/${BE}.conllu
-	python3 Scripts/tools/validate.py --lang fr --level 2 ParlaMint-BE/${BE}.conllu
+	$s seg-lang=fr meta=../ParlaMint-BE/ParlaMint-BE.ana.xml -xsl:Scripts/parlamint2conllu.xsl \
+	ParlaMint-BE/${BE}.ana.xml > ParlaMint-BE/${BE}-fr.conllu
+	python3 Scripts/tools/validate.py --lang fr --level 1 ParlaMint-BE/${BE}-fr.conllu
+	-python3 Scripts/tools/validate.py --lang fr --level 2 ParlaMint-BE/${BE}-fr.conllu
 
 
 #Now that we have plain text, would be better to compute char counts from those!

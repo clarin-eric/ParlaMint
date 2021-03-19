@@ -52,8 +52,14 @@
 
   <!-- A speech corresponds to a document -->
   <xsl:template match="tei:u">
-    <xsl:value-of select="concat('# newdoc id = ', @xml:id, '&#10;')"/>
-    <xsl:apply-templates/>
+    <xsl:variable name="segs">
+      <xsl:apply-templates/>
+    </xsl:variable>
+    <!-- Output only if non-empty -->
+    <xsl:if test="normalize-space($segs)">
+      <xsl:value-of select="concat('# newdoc id = ', @xml:id, '&#10;')"/>
+      <xsl:value-of select="$segs"/>
+    </xsl:if>
   </xsl:template>
   
   <!-- A segment corresponds to a paragraph -->
