@@ -1,9 +1,35 @@
-#Testing generation of CoNLL-U files
+#Generation and validation of CoNLL-U files
 #If you want to use, first do:
 #$ cd Scripts; git clone git@github.com:UniversalDependencies/tools.git
+conllu:
+	Scripts/parlamint2conllu.pl ParlaMint-BE ParlaMint-BE
+	Scripts/parlamint2conllu.pl ParlaMint-BG ParlaMint-BG
+	Scripts/parlamint2conllu.pl ParlaMint-CZ ParlaMint-CZ
+	Scripts/parlamint2conllu.pl ParlaMint-DK ParlaMint-DK
+	#Scripts/parlamint2conllu.pl ParlaMint-FR ParlaMint-FR
+	#Scripts/parlamint2conllu.pl ParlaMint-GB ParlaMint-GB
+	Scripts/parlamint2conllu.pl ParlaMint-HR ParlaMint-HR
+	#Scripts/parlamint2conllu.pl ParlaMint-HU ParlaMint-HU
+	Scripts/parlamint2conllu.pl ParlaMint-IS ParlaMint-IS
+	#Scripts/parlamint2conllu.pl ParlaMint-IT ParlaMint-IT
+	#Scripts/parlamint2conllu.pl ParlaMint-LT ParlaMint-LT
+	#Scripts/parlamint2conllu.pl ParlaMint-NL ParlaMint-NL
+	Scripts/parlamint2conllu.pl ParlaMint-PL ParlaMint-PL
+	#Scripts/parlamint2conllu.pl ParlaMint-RO ParlaMint-RO
+	Scripts/parlamint2conllu.pl ParlaMint-SI ParlaMint-SI
+	#Scripts/parlamint2conllu.pl ParlaMint-TR ParlaMint-TR
+
+conllu-six:
+	rm -f ParlaMint-SI/*.conllu
+	ls ParlaMint-SI/*_*.ana.xml | $P --jobs 10 \
+	'$s meta=../ParlaMint-SI/ParlaMint-SI.ana.xml -xsl:Scripts/parlamint2conllu.xsl {} > {.}.conllu'
+	rename 's/\.ana\.conllu/.conllu/' ParlaMint-SI/*.ana.conllu
+	python3 Scripts/tools/validate.py --lang sl --level 1 ParlaMint-SI/*.conllu
+	python3 Scripts/tools/validate.py --lang sl --level 2 ParlaMint-SI/*.conllu
+	python3 Scripts/tools/validate.py --lang sl --level 3 ParlaMint-SI/*.conllu
 
 SI = ParlaMint-SI_2018-04-13-SDZ7-Izredna-59
-conllu-si:
+test-conllu-si:
 	$s meta=../ParlaMint-SI/ParlaMint-SI.ana.xml -xsl:Scripts/parlamint2conllu.xsl \
 	ParlaMint-SI/${SI}.ana.xml > ParlaMint-SI/${SI}.conllu
 	python3 Scripts/tools/validate.py --lang sl --level 1 ParlaMint-SI/${SI}.conllu
@@ -11,26 +37,33 @@ conllu-si:
 	python3 Scripts/tools/validate.py --lang sl --level 3 ParlaMint-SI/${SI}.conllu
 
 CZ = ParlaMint-CZ_2013-11-25-ps2013-001-01-001-001
-conllu-cz:
+test-conllu-cz:
 	$s meta=../ParlaMint-CZ/ParlaMint-CZ.ana.xml -xsl:Scripts/parlamint2conllu.xsl \
 	ParlaMint-CZ/${CZ}.ana.xml > ParlaMint-CZ/${CZ}.conllu
 	python3 Scripts/tools/validate.py --lang cs --level 1 ParlaMint-CZ/${CZ}.conllu
 	python3 Scripts/tools/validate.py --lang cs --level 2 ParlaMint-CZ/${CZ}.conllu
 	python3 Scripts/tools/validate.py --lang cs --level 3 ParlaMint-CZ/${CZ}.conllu
 
+DK = ParlaMint-DK_2014-10-21-20141-M5
+test-conllu-dk:
+	$s meta=../ParlaMint-DK/ParlaMint-DK.ana.xml -xsl:Scripts/parlamint2conllu.xsl \
+	ParlaMint-DK/${DK}.ana.xml > ParlaMint-DK/${DK}.conllu
+	python3 Scripts/tools/validate.py --lang dk --level 1 ParlaMint-DK/${DK}.conllu
+	python3 Scripts/tools/validate.py --lang dk --level 2 ParlaMint-DK/${DK}.conllu
+	python3 Scripts/tools/validate.py --lang dk --level 3 ParlaMint-DK/${DK}.conllu
+
 BE = ParlaMint-BE_2015-06-10-54-commissie-ic189x
-conllu-be:	conllu-be-nl conllu-be-fr
-conllu-be-nl:
+test-conllu-be:	test-conllu-be-nl test-conllu-be-fr
+test-conllu-be-nl:
 	$s seg-lang=nl meta=../ParlaMint-BE/ParlaMint-BE.ana.xml -xsl:Scripts/parlamint2conllu.xsl \
 	ParlaMint-BE/${BE}.ana.xml > ParlaMint-BE/${BE}-nl.conllu
 	python3 Scripts/tools/validate.py --lang nl --level 1 ParlaMint-BE/${BE}-nl.conllu
 	-python3 Scripts/tools/validate.py --lang nl --level 2 ParlaMint-BE/${BE}-nl.conllu
-conllu-be-fr:
+test-conllu-be-fr:
 	$s seg-lang=fr meta=../ParlaMint-BE/ParlaMint-BE.ana.xml -xsl:Scripts/parlamint2conllu.xsl \
 	ParlaMint-BE/${BE}.ana.xml > ParlaMint-BE/${BE}-fr.conllu
 	python3 Scripts/tools/validate.py --lang fr --level 1 ParlaMint-BE/${BE}-fr.conllu
 	-python3 Scripts/tools/validate.py --lang fr --level 2 ParlaMint-BE/${BE}-fr.conllu
-
 
 #Now that we have plain text, would be better to compute char counts from those!
 chars-xml:
