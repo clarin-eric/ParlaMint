@@ -1,7 +1,3 @@
-test:
-	$s -xi -xsl:../Scripts/copy.xsl ParlaMint-XX.xml | $j parla-clarin.rng
-	${vrt} ParlaMint-XX.xml
-	${vct} ParlaMint-XX_1.xml
 nohup:
 	nohup time make all > nohup.all &
 all:	val trang
