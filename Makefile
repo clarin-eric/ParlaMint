@@ -1,6 +1,8 @@
 #Generation and validation of CoNLL-U files
 #If you want to use, first do:
 #$ cd Scripts; git clone git@github.com:UniversalDependencies/tools.git
+nohup-conllu:
+	nohup time make conllu > ParlaMint-XX.conllu.log &
 conllu:
 	Scripts/parlamint2conllu.pl ParlaMint-BE ParlaMint-BE
 	Scripts/parlamint2conllu.pl ParlaMint-BG ParlaMint-BG
