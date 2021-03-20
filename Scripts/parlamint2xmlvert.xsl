@@ -193,11 +193,8 @@
     <xsl:text>&#10;</xsl:text>
   </xsl:template>
 
-  <!-- Ignore notes! -->
-  <xsl:template match="tei:note"/>
-
-  <!-- Conflate gap and all "incidents" into <note> -->
-  <xsl:template match="tei:gap | tei:vocal | tei:incident | tei:kinesic">
+  <!-- Conflate note, gap and all "incidents" into <note> -->
+  <xsl:template match="tei:note | tei:gap | tei:vocal | tei:incident | tei:kinesic">
     <note>
       <xsl:attribute name="type">
 	<xsl:value-of select="name()"/>
@@ -210,9 +207,8 @@
 	  </xsl:when>
 	</xsl:choose>
       </xsl:attribute>
-      <!--xsl:attribute name="desc" select="tei:desc"/-->
       <xsl:text>&#10;</xsl:text>
-      <xsl:value-of select="concat($note-open, tei:desc, $note-close)"/>
+      <xsl:value-of select="concat($note-open, normalize-space(.), $note-close)"/>
       <xsl:text>&#9;_&#9;_&#9;_&#9;_&#9;_&#9;_&#9;_&#9;_&#9;_&#9;_&#10;</xsl:text>
     </note>
     <xsl:text>&#10;</xsl:text>
@@ -276,12 +272,9 @@
 <link ana="ud-syn:mark"  target="#u1.p1.s1.w21 #u1.p1.s1.w19"/>
 <link ana="ud-syn:aux"   target="#u1.p1.s1.w21 #u1.p1.s1.w20"/>
 
-Figure out what to do with this!
-
 Simplest:
 - introduce normalised column (multi valued)
 - make all attributes multivalued 
-  (however, feats is already multivalued!)
 
 And, there is, in theory, also:
 <w norm="najlepši" lemma="lep">
