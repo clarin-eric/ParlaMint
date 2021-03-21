@@ -15,7 +15,7 @@ conllu:
 	Scripts/parlamint2conllu.pl ParlaMint-IS ParlaMint-IS
 	#Scripts/parlamint2conllu.pl ParlaMint-IT ParlaMint-IT
 	#Scripts/parlamint2conllu.pl ParlaMint-LT ParlaMint-LT
-	#Scripts/parlamint2conllu.pl ParlaMint-NL ParlaMint-NL
+	Scripts/parlamint2conllu.pl ParlaMint-NL ParlaMint-NL
 	Scripts/parlamint2conllu.pl ParlaMint-PL ParlaMint-PL
 	#Scripts/parlamint2conllu.pl ParlaMint-RO ParlaMint-RO
 	Scripts/parlamint2conllu.pl ParlaMint-SI ParlaMint-SI
@@ -46,7 +46,7 @@ test-conllu-cz:
 	python3 Scripts/tools/validate.py --lang cs --level 2 ParlaMint-CZ/${CZ}.conllu
 	python3 Scripts/tools/validate.py --lang cs --level 3 ParlaMint-CZ/${CZ}.conllu
 
-DK = ParlaMint-DK_2014-10-21-20141-M5
+DK = ParlaMint-DK_2018-11-22-20181-M24
 test-conllu-dk:
 	$s meta=../ParlaMint-DK/ParlaMint-DK.ana.xml -xsl:Scripts/parlamint2conllu.xsl \
 	ParlaMint-DK/${DK}.ana.xml > ParlaMint-DK/${DK}.conllu
