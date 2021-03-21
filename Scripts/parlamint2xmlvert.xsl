@@ -131,8 +131,39 @@
 	</xsl:choose>
       </xsl:attribute>
       <xsl:text>&#10;</xsl:text>
-      <xsl:apply-templates select="tei:text/tei:body//tei:u"/>
+      <xsl:apply-templates select="tei:text/tei:body"/>
     </text>
+    <xsl:text>&#10;</xsl:text>
+  </xsl:template>
+
+  <xsl:template match="tei:body">
+    <!-- Few corpora use more than one <div> (e.g. DK), ignore for now -->
+    <xsl:apply-templates select="tei:div/tei:*"/>
+  </xsl:template>
+
+  <!-- Conflate head, note, gap and all "incidents" into <note> -->
+  <xsl:template match="tei:head | tei:note | tei:gap | tei:vocal | tei:incident | tei:kinesic">
+    <note>
+      <xsl:attribute name="type">
+	<xsl:choose>
+	  <xsl:when test="self::tei:head">head</xsl:when>
+	  <xsl:when test="self::tei:note">
+	    <xsl:value-of select="@type"/>
+	  </xsl:when>
+	  <xsl:when test="@type">
+	    <xsl:value-of select="concat(name(), ':', @type)"/>
+	  </xsl:when>
+	  <xsl:when test="@reason">
+	    <xsl:value-of select="concat(name(), '::', @reason)"/>
+	  </xsl:when>
+	</xsl:choose>
+      </xsl:attribute>
+      <xsl:text>&#10;</xsl:text>
+      <xsl:value-of select="concat($note-open, normalize-space(.), $note-close)"/>
+      <!-- Introduce $COLUMNS & call-template! -->
+      <xsl:text>&#9;_&#9;_&#9;_&#9;_&#9;_&#9;_&#9;_&#9;_&#9;_&#9;_&#10;</xsl:text>
+
+    </note>
     <xsl:text>&#10;</xsl:text>
   </xsl:template>
 
@@ -190,27 +221,6 @@
       <xsl:text>&#10;</xsl:text>
       <xsl:apply-templates/>
     </speech>
-    <xsl:text>&#10;</xsl:text>
-  </xsl:template>
-
-  <!-- Conflate note, gap and all "incidents" into <note> -->
-  <xsl:template match="tei:note | tei:gap | tei:vocal | tei:incident | tei:kinesic">
-    <note>
-      <xsl:attribute name="type">
-	<xsl:value-of select="name()"/>
-	<xsl:choose>
-	  <xsl:when test="@reason">
-	    <xsl:value-of select="concat(':', @reason)"/>
-	  </xsl:when>
-	  <xsl:when test="@type">
-	    <xsl:value-of select="concat(':', @type)"/>
-	  </xsl:when>
-	</xsl:choose>
-      </xsl:attribute>
-      <xsl:text>&#10;</xsl:text>
-      <xsl:value-of select="concat($note-open, normalize-space(.), $note-close)"/>
-      <xsl:text>&#9;_&#9;_&#9;_&#9;_&#9;_&#9;_&#9;_&#9;_&#9;_&#9;_&#10;</xsl:text>
-    </note>
     <xsl:text>&#10;</xsl:text>
   </xsl:template>
 
