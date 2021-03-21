@@ -431,6 +431,9 @@ lotu	lotu	lota	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Sing	21	obl	búinn	V
 </s>
 </p>
 </speech>
+<note type="gap::editorial">
+/SAMPLING/	_	_	_	_	_	_	_	_	_	_
+</note>
 <speech id="ParlaMint-IS_2018-11-26-38.u259" speaker_id="JonValdimarsson" speaker_name="Valdimarsson, Jón Steindór" speaker_role="Regular" speaker_type="MP" speaker_party="V" speaker_party_name="Viðreisn" speaker_gender="M" speaker_birth="1958">
 <p id="ParlaMint-IS_2018-11-26-38.seg795" lang="">
 <s id="ParlaMint-IS_2018-11-26-38.seg795.1">

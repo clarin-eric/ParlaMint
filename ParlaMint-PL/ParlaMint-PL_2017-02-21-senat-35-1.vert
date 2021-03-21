@@ -1,4 +1,13 @@
 <text id="ParlaMint-PL_2017-02-21-senat-35-1.ana" subcorpus="Reference" term="9-upper" session="35-upper" meeting="-" sitting="1-upper" agenda="-" from="2017-02-21" to="2017-02-21" title="Report of the session of the Senat of the Republic of Poland, Term 9, Session 35, Day 1 (2017-02-21)">
+<note type="head">
+/35. posiedzenie Senatu RP 9. kadencji, dzień 1/	_	_	_	_	_	_	_	_	_	_
+</note>
+<note type="time">
+/Początek posiedzenia o godzinie 11 minut 00/	_	_	_	_	_	_	_	_	_	_
+</note>
+<note type="debate">
+/Posiedzeniu przewodniczą marszałek Stanisław Karczewski oraz wicemarszałkowie Maria Koc, Grzegorz Czelej i Adam Bielan/	_	_	_	_	_	_	_	_	_	_
+</note>
 <speech id="ParlaMint-PL_2017-02-21-senat-35-1.u1" speaker_id="KuchcińskiMarek" speaker_name="Kuchciński, Marek" speaker_role="Chairperson" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" speaker_gender="M" speaker_birth="1955">
 <p id="seg635541" lang="Polish">
 <s id="seg635541.1">
@@ -11,7 +20,7 @@ Senatu	Senatu	senat	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	5	nmod	po
 Rzeczypospolitej	Rzeczypospolitej	rzeczpospolita	NOUN	Case=Gen Gender=Fem Number=Sing	6	flat	senat	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	5
 Polskiej	Polskiej	polski	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Sing	7	flat	rzeczpospolita	NOUN	Case=Gen Gender=Fem Number=Sing	6
 </name>
-IX	IX	IX	ADJ	Case=Gen Degree=Pos Gender=Fem NumForm=Roman NumType=Ord Number=Sing	8	amod	kadencja	NOUN	Case=Gen Gender=Fem Number=Sing	9
+IX	IX	IX	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Sing NumForm=Roman NumType=Ord	8	amod	kadencja	NOUN	Case=Gen Gender=Fem Number=Sing	9
 kadencji	kadencji	kadencja	NOUN	Case=Gen Gender=Fem Number=Sing	9	nmod	senat	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	5
 <g/>
 .	.	.	PUNCT	PunctType=Peri	10	punct	otwierać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
@@ -186,8 +195,8 @@ piątym	piątym	piąty	ADJ	Case=Loc Degree=Pos Gender=Neut Number=Sing	7	amod	po
 posiedzeniu	posiedzeniu	posiedzenie	NOUN	Case=Loc Gender=Neut Number=Sing	8	obl	przyjąć	VERB	Animacy=Inan Aspect=Perf Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	16
 w	w	w	ADP	AdpType=Prep Variant=Short	9	case	dzień	NOUN	Animacy=Inan Case=Loc Gender=Masc Number=Sing	10
 dniu	dniu	dzień	NOUN	Animacy=Inan Case=Loc Gender=Masc Number=Sing	10	nmod	posiedzenie	NOUN	Case=Loc Gender=Neut Number=Sing	8
-9	9	9	ADJ	Animacy=Inan Case=Loc Degree=Pos Gender=Masc NumForm=Digit NumType=Ord Number=Sing	11	amod	dzień	NOUN	Animacy=Inan Case=Loc Gender=Masc Number=Sing	10
-lutego	lutego	luty	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	12	nmod_flat	9	ADJ	Animacy=Inan Case=Loc Degree=Pos Gender=Masc NumForm=Digit NumType=Ord Number=Sing	11
+9	9	9	ADJ	Animacy=Inan Case=Loc Degree=Pos Gender=Masc Number=Sing NumForm=Digit NumType=Ord	11	amod	dzień	NOUN	Animacy=Inan Case=Loc Gender=Masc Number=Sing	10
+lutego	lutego	luty	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	12	nmod_flat	9	ADJ	Animacy=Inan Case=Loc Degree=Pos Gender=Masc Number=Sing NumForm=Digit NumType=Ord	11
 2017	2017	2017	X	NumForm=Digit	13	nmod_flat	rok	X	Abbr=Yes Pun=Yes	14
 r	r	rok	X	Abbr=Yes Pun=Yes	14	nmod_flat	luty	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	12
 <g/>
@@ -439,7 +448,7 @@ o	o	o	ADP	AdpType=Prep	9	case	punkt	NOUN	Animacy=Inan Case=Acc Gender=Masc Numbe
 następujące	następujące	następujący	ADJ	Animacy=Inan Case=Acc Degree=Pos Gender=Masc Number=Plur	10	amod	punkt	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Plur	11
 punkty	punkty	punkt	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Plur	11	obl_arg	porządek	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	7
 <g/>
-:	:	:		UPosTag= PUNCT PunctType=Colo	12	punct	punkt	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Plur	11
+:	:	:	PUNCT	PunctType=Colo	12	punct	punkt	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Plur	11
 ustawa	ustawa	ustawa	NOUN	Case=Nom Gender=Fem Number=Sing	13	nmod	punkt	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Plur	11
 o	o	o	ADP	AdpType=Prep	14	case	ośrodek	NOUN	Animacy=Inan Case=Loc Gender=Masc Number=Sing	16
 <name type="ORG">
@@ -623,7 +632,7 @@ proponuję	proponuję	proponować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 
 rozpatrzenie	rozpatrzenie	rozpatrzenie	NOUN	Aspect=Perf Case=Acc Gender=Neut Number=Sing Polarity=Pos VerbForm=Vnoun	4	obj	proponować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 punktu	punktu	punkt	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	5	obj	rozpatrzenie	NOUN	Aspect=Perf Case=Acc Gender=Neut Number=Sing Polarity=Pos VerbForm=Vnoun	4
 <g/>
-:	:	:		UPosTag= PUNCT PunctType=Colo	6	punct	ustawa	NOUN	Case=Nom Gender=Fem Number=Sing	7
+:	:	:	PUNCT	PunctType=Colo	6	punct	ustawa	NOUN	Case=Nom Gender=Fem Number=Sing	7
 ustawa	ustawa	ustawa	NOUN	Case=Nom Gender=Fem Number=Sing	7	nmod	rozpatrzenie	NOUN	Aspect=Perf Case=Acc Gender=Neut Number=Sing Polarity=Pos VerbForm=Vnoun	4
 o	o	o	ADP	AdpType=Prep	8	case	ośrodek	NOUN	Animacy=Inan Case=Loc Gender=Masc Number=Sing	10
 <name type="ORG">
@@ -637,7 +646,7 @@ Rolnictwa	Rolnictwa	rolnictwo	NOUN	Case=Gen Gender=Neut Number=Sing	12	nmod_flat
 oraz	oraz	oraz	CCONJ	_	14	cc	punkt	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	15
 punktu	punktu	punkt	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	15	conj	ustawa	NOUN	Case=Nom Gender=Fem Number=Sing	7
 <g/>
-:	:	:		UPosTag= PUNCT PunctType=Colo	16	punct	punkt	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	15
+:	:	:	PUNCT	PunctType=Colo	16	punct	punkt	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	15
 ustawa	ustawa	ustawa	NOUN	Case=Nom Gender=Fem Number=Sing	17	nmod	punkt	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	15
 –	–	–	PUNCT	PunctType=Dash	18	punct	przepis	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Plur	19
 Przepisy	Przepisy	przepis	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Plur	19	conj	ustawa	NOUN	Case=Nom Gender=Fem Number=Sing	17
@@ -748,7 +757,7 @@ Senatu	Senatu	senat	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	11	nmod_a
 Rzeczypospolitej	Rzeczypospolitej	rzeczpospolita	NOUN	Case=Gen Gender=Fem Number=Sing	12	flat	senat	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	11
 Polskiej	Polskiej	polski	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Sing	13	flat	rzeczpospolita	NOUN	Case=Gen Gender=Fem Number=Sing	12
 </name>
-IX	IX	IX	ADJ	Case=Gen Degree=Pos Gender=Fem NumForm=Roman NumType=Ord Number=Sing	14	amod	kadencja	NOUN	Case=Gen Gender=Fem Number=Sing	15
+IX	IX	IX	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Sing NumForm=Roman NumType=Ord	14	amod	kadencja	NOUN	Case=Gen Gender=Fem Number=Sing	15
 kadencji	kadencji	kadencja	NOUN	Case=Gen Gender=Fem Number=Sing	15	nmod	senat	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	11
 <g/>
 .	.	.	PUNCT	PunctType=Peri	16	punct	stwierdzać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
@@ -795,7 +804,7 @@ przystąpimy	przystąpimy	przystąpić	VERB	Aspect=Perf Mood=Ind Number=Plur Per
 dziś	dziś	dziś	ADV	_	30	advmod	przystąpić	VERB	Aspect=Perf Mood=Ind Number=Plur Person=1 Tense=Fut VerbForm=Fin Voice=Act	29
 po	po	po	ADP	AdpType=Prep	31	case	godzina	NOUN	Case=Loc Gender=Fem Number=Sing	32
 godzinie	godzinie	godzina	NOUN	Case=Loc Gender=Fem Number=Sing	32	obl	przystąpić	VERB	Aspect=Perf Mood=Ind Number=Plur Person=1 Tense=Fut VerbForm=Fin Voice=Act	29
-15.00	15.00	15.00	ADJ	Case=Loc Degree=Pos Gender=Fem NumForm=Digit NumType=Ord Number=Sing	33	amod	godzina	NOUN	Case=Loc Gender=Fem Number=Sing	32
+15.00	15.00	15.00	ADJ	Case=Loc Degree=Pos Gender=Fem Number=Sing NumForm=Digit NumType=Ord	33	amod	godzina	NOUN	Case=Loc Gender=Fem Number=Sing	32
 <g/>
 .	.	.	PUNCT	PunctType=Peri	34	punct	informować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	4
 </s>
@@ -807,7 +816,7 @@ jutro	jutro	jutro	ADV	_	3	advmod	-	-	-	-
 ,	,	,	PUNCT	PunctType=Comm	4	punct	godzina	NOUN	Case=Loc Gender=Fem Number=Plur	6
 w	w	w	ADP	AdpType=Prep Variant=Short	5	case	godzina	NOUN	Case=Loc Gender=Fem Number=Plur	6
 godzinach	godzinach	godzina	NOUN	Case=Loc Gender=Fem Number=Plur	6	conj	jutro	ADV	_	3
-9	9	9	ADJ	Case=Loc Degree=Pos Gender=Fem NumForm=Digit NumType=Ord Number=Plur	7	amod	godzina	NOUN	Case=Loc Gender=Fem Number=Plur	6
+9	9	9	ADJ	Case=Loc Degree=Pos Gender=Fem Number=Plur NumForm=Digit NumType=Ord	7	amod	godzina	NOUN	Case=Loc Gender=Fem Number=Plur	6
 <g/>
 .	.	.	PUNCT	PunctType=Peri	8	punct	jutro	ADV	_	3
 </s>
@@ -827,7 +836,7 @@ godzinach	godzinach	godzina	NOUN	Case=Loc Gender=Fem Number=Plur	6	conj	jutro	AD
 rozpatrzymy	rozpatrzymy	rozpatrzyć	VERB	Aspect=Perf Mood=Ind Number=Plur Person=1 Tense=Fut VerbForm=Fin Voice=Act	3	root	-	-	-	-
 punkt	punkt	punkt	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	4	obj	rozpatrzyć	VERB	Aspect=Perf Mood=Ind Number=Plur Person=1 Tense=Fut VerbForm=Fin Voice=Act	3
 <g/>
-:	:	:		UPosTag= PUNCT PunctType=Colo	5	punct	punkt	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	4
+:	:	:	PUNCT	PunctType=Colo	5	punct	punkt	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	4
 informacja	informacja	informacja	NOUN	Case=Nom Gender=Fem Number=Sing	6	nmod	punkt	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	4
 dla	dla	dla	ADP	AdpType=Prep	7	case	senat	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	8
 <name type="ORG">
@@ -966,6 +975,9 @@ kiedy	kiedy	kiedy	ADV	PronType=Int	4	root	-	-	-	-
 </s>
 </p>
 </speech>
+<note type="gap::editorial">
+/SAMPLING/	_	_	_	_	_	_	_	_	_	_
+</note>
 <speech id="ParlaMint-PL_2017-02-21-senat-35-1.u210" speaker_id="StanisławekAndrzej" speaker_name="Stanisławek, Andrzej" speaker_role="Regular" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" speaker_gender="M" speaker_birth="1954">
 <p id="seg636080" lang="Polish">
 <s id="seg636080.1">
@@ -1278,7 +1290,7 @@ pielęgniarka	pielęgniarka	pielęgniarka	NOUN	Case=Nom Gender=Fem Number=Sing	1
 mówi	mówi	mówić	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	15	conj	musieć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	4
 krótko	krótko	krótko	ADV	Degree=Pos	16	advmod	mówić	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	15
 <g/>
-:	:	:		UPosTag= PUNCT PunctType=Colo	17	punct	mówić	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	15
+:	:	:	PUNCT	PunctType=Colo	17	punct	mówić	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	15
 karta	karta	karta	NOUN	Case=Nom Gender=Fem Number=Sing	18	parataxis_obj	mówić	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	15
 DiLO	DiLO	DiLO	PROPN	Case=Gen Gender=Neut Number=Sing	19	nmod	karta	NOUN	Case=Nom Gender=Fem Number=Sing	18
 <g/>
@@ -1294,7 +1306,7 @@ Ministrze	Ministrze	minister	PROPN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	
 to	to	to	DET	Case=Nom Gender=Neut Number=Sing PronType=Dem	4	det	wydłużyć	NOUN	Case=Nom Gender=Neut Number=Sing	5
 wydłużenie	wydłużenie	wydłużyć	NOUN	Case=Nom Gender=Neut Number=Sing	5	nsubj	mieścić	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	17
 do	do	do	ADP	AdpType=Prep	6	case	tydzień	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Plur	8
-10	10	10	NUM	Animacy=Inan Case=Gen Gender=Masc NumForm=Digit NumType=Card Number=Plur	7	nummod	tydzień	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Plur	8
+10	10	10	NUM	Animacy=Inan Case=Gen Gender=Masc Number=Plur NumForm=Digit NumType=Card	7	nummod	tydzień	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Plur	8
 tygodni	tygodni	tydzień	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Plur	8	nmod	wydłużyć	NOUN	Case=Nom Gender=Neut Number=Sing	5
 od	od	od	ADP	AdpType=Prep Variant=Short	9	case	moment	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	10
 momentu	momentu	moment	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	10	nmod	tydzień	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Plur	8
@@ -1325,14 +1337,14 @@ do	do	do	ADP	AdpType=Prep	7	case	zakończyć	NOUN	Aspect=Perf Case=Gen Gender=Ne
 zakończenia	zakończenia	zakończyć	NOUN	Aspect=Perf Case=Gen Gender=Neut Number=Sing Polarity=Pos VerbForm=Vnoun	8	obl_arg	przyjść	NOUN	Aspect=Perf Case=Gen Gender=Neut Number=Sing Polarity=Pos VerbForm=Vnoun	5
 diagnostyki	diagnostyki	diagnostyka	NOUN	Case=Gen Gender=Fem Number=Sing	9	obj	zakończyć	NOUN	Aspect=Perf Case=Gen Gender=Neut Number=Sing Polarity=Pos VerbForm=Vnoun	8
 jest	jest	być	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	10	root	-	-	-	-
-21	21	21	NUM	Animacy=Inan Case=Nom Gender=Masc NumForm=Digit NumType=Card Number=Plur	11	nummod_gov	dzień	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Plur	12
+21	21	21	NUM	Animacy=Inan Case=Nom Gender=Masc Number=Plur NumForm=Digit NumType=Card	11	nummod_gov	dzień	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Plur	12
 dni	dni	dzień	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Plur	12	nsubj	być	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	10
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	13	punct	być	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	15
 potem	potem	potem	ADV	_	14	advmod	być	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	15
 są	są	być	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	15	conj	być	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	10
 tylko	tylko	tylko	PART	_	16	advmod	tydzień	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Plur	18
-2	2	2	NUM	Animacy=Inan Case=Nom Gender=Masc NumForm=Digit NumType=Card Number=Plur	17	nummod	tydzień	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Plur	18
+2	2	2	NUM	Animacy=Inan Case=Nom Gender=Masc Number=Plur NumForm=Digit NumType=Card	17	nummod	tydzień	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Plur	18
 tygodnie	tygodnie	tydzień	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Plur	18	nsubj	być	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	15
 od	od	od	ADP	AdpType=Prep Variant=Short	19	case	konsylium	NOUN	Case=Gen Gender=Neut Number=Sing	20
 konsylium	konsylium	konsylium	NOUN	Case=Gen Gender=Neut Number=Sing	20	obl_arg	być	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	15
@@ -1358,7 +1370,7 @@ przestrzega	przestrzega	przestrzegać	VERB	Aspect=Imp Mood=Ind Number=Sing Perso
 to	to	to	SCONJ	_	36	mark	to	VERB	Mood=Ind Tense=Pres VerbForm=Fin VerbType=Quasi	38
 jest	jest	być	AUX	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	37	aux	to	VERB	Mood=Ind Tense=Pres VerbForm=Fin VerbType=Quasi	38
 to	to	to	VERB	Mood=Ind Tense=Pres VerbForm=Fin VerbType=Quasi	38	conj	być	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	10
-5	5	5	NUM	Animacy=Inan Case=Nom Gender=Masc NumForm=Digit NumType=Card Number=Plur	39	nummod_gov	tydzień	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Plur	40
+5	5	5	NUM	Animacy=Inan Case=Nom Gender=Masc Number=Plur NumForm=Digit NumType=Card	39	nummod_gov	tydzień	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Plur	40
 tygodni	tygodni	tydzień	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Plur	40	nsubj	to	VERB	Mood=Ind Tense=Pres VerbForm=Fin VerbType=Quasi	38
 <g/>
 .	.	.	PUNCT	PunctType=Peri	41	punct	być	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	10
@@ -1445,9 +1457,9 @@ Ale	Ale	ale	CCONJ	_	1	cc	zmienić	ADJ	Aspect=Perf Case=Nom Gender=Neut Number=Si
 to	to	to	PRON	Case=Nom Gender=Neut Number=Sing PronType=Dem	2	nsubj_pass	zmienić	ADJ	Aspect=Perf Case=Nom Gender=Neut Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	4
 zostanie	zostanie	zostać	AUX	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin Voice=Act	3	aux_pass	zmienić	ADJ	Aspect=Perf Case=Nom Gender=Neut Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	4
 zmienione	zmienione	zmienić	ADJ	Aspect=Perf Case=Nom Gender=Neut Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	4	root	-	-	-	-
-od	od	od	ADP	AdpType=Prep Variant=Short	5	case	1	ADJ	Animacy=Inan Case=Gen Degree=Pos Gender=Masc NumForm=Digit NumType=Ord Number=Sing	6
-1	1	1	ADJ	Animacy=Inan Case=Gen Degree=Pos Gender=Masc NumForm=Digit NumType=Ord Number=Sing	6	obl	zmienić	ADJ	Aspect=Perf Case=Nom Gender=Neut Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	4
-lipca	lipca	lipiec	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	7	flat	1	ADJ	Animacy=Inan Case=Gen Degree=Pos Gender=Masc NumForm=Digit NumType=Ord Number=Sing	6
+od	od	od	ADP	AdpType=Prep Variant=Short	5	case	1	ADJ	Animacy=Inan Case=Gen Degree=Pos Gender=Masc Number=Sing NumForm=Digit NumType=Ord	6
+1	1	1	ADJ	Animacy=Inan Case=Gen Degree=Pos Gender=Masc Number=Sing NumForm=Digit NumType=Ord	6	obl	zmienić	ADJ	Aspect=Perf Case=Nom Gender=Neut Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	4
+lipca	lipca	lipiec	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	7	flat	1	ADJ	Animacy=Inan Case=Gen Degree=Pos Gender=Masc Number=Sing NumForm=Digit NumType=Ord	6
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	8	punct	poprawka	NOUN	Case=Ins Gender=Fem Number=Sing	11
 zgodnie	zgodnie	zgodnie	ADV	Degree=Pos	9	case	poprawka	NOUN	Case=Ins Gender=Fem Number=Sing	11
@@ -1678,7 +1690,7 @@ czasu	czasu	czas	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	6	iobj	mieć
 zawsze	zawsze	zawsze	ADV	PronType=Tot	8	advmod	mieć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	9
 ma	ma	mieć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	9	conj	mieć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	5
 za	za	za	ADP	AdpType=Prep	10	case	praca	NOUN	Case=Gen Gender=Fem Number=Sing	12
-dużo	dużo	dużo	DET	Case=Acc Gender=Fem NumType=Card Number=Plur PronType=Ind	11	det_numgov	praca	NOUN	Case=Gen Gender=Fem Number=Sing	12
+dużo	dużo	dużo	DET	Case=Acc Gender=Fem Number=Plur NumType=Card PronType=Ind	11	det_numgov	praca	NOUN	Case=Gen Gender=Fem Number=Sing	12
 pracy	pracy	praca	NOUN	Case=Gen Gender=Fem Number=Sing	12	iobj	mieć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	9
 papierkowej	papierkowej	papierkowy	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Sing	13	amod	praca	NOUN	Case=Gen Gender=Fem Number=Sing	12
 <g/>
@@ -1705,14 +1717,14 @@ Polsce	Polsce	Polska	PROPN	Case=Loc Gender=Fem Number=Sing	13	obl	udzielać	ADJ	
 </name>
 udzielanych	udzielanych	udzielać	ADJ	Animacy=Inan Aspect=Imp Case=Loc Gender=Masc Number=Plur Polarity=Pos VerbForm=Part Voice=Pass	14	ccomp	przypomnieć	VERB	Aspect=Perf Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin Voice=Act	9
 jest	jest	być	AUX	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	15	aux_pass	udzielać	ADJ	Animacy=Inan Aspect=Imp Case=Loc Gender=Masc Number=Plur Polarity=Pos VerbForm=Part Voice=Pass	14
-1	1	1	NUM	Animacy=Inan Case=Nom Gender=Masc NumForm=Digit NumType=Card Number=Sing	16	amod	porada	NOUN	Case=Gen Gender=Fem Number=Plur	18
-milion	milion	milion	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing	17	flat	1	NUM	Animacy=Inan Case=Nom Gender=Masc NumForm=Digit NumType=Card Number=Sing	16
+1	1	1	NUM	Animacy=Inan Case=Nom Gender=Masc Number=Sing NumForm=Digit NumType=Card	16	amod	porada	NOUN	Case=Gen Gender=Fem Number=Plur	18
+milion	milion	milion	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing	17	flat	1	NUM	Animacy=Inan Case=Nom Gender=Masc Number=Sing NumForm=Digit NumType=Card	16
 porad	porad	porada	NOUN	Case=Gen Gender=Fem Number=Plur	18	nsubj_pass	udzielać	ADJ	Animacy=Inan Aspect=Imp Case=Loc Gender=Masc Number=Plur Polarity=Pos VerbForm=Part Voice=Pass	14
 dziennie	dziennie	dziennie	ADV	Degree=Pos	19	advmod	udzielać	ADJ	Animacy=Inan Aspect=Imp Case=Loc Gender=Masc Number=Plur Polarity=Pos VerbForm=Part Voice=Pass	14
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	20	punct	porada	NOUN	Case=Gen Gender=Fem Number=Plur	23
-1	1	1	NUM	Animacy=Inan Case=Nom Gender=Masc NumForm=Digit NumType=Card Number=Plur	21	nummod	porada	NOUN	Case=Gen Gender=Fem Number=Plur	23
-milion	milion	milion	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing	22	flat	1	NUM	Animacy=Inan Case=Nom Gender=Masc NumForm=Digit NumType=Card Number=Sing	16
+1	1	1	NUM	Animacy=Inan Case=Nom Gender=Masc Number=Plur NumForm=Digit NumType=Card	21	nummod	porada	NOUN	Case=Gen Gender=Fem Number=Plur	23
+milion	milion	milion	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing	22	flat	1	NUM	Animacy=Inan Case=Nom Gender=Masc Number=Sing NumForm=Digit NumType=Card	16
 porad	porad	porada	NOUN	Case=Gen Gender=Fem Number=Plur	23	nmod	porada	NOUN	Case=Gen Gender=Fem Number=Plur	18
 dziennie	dziennie	dziennie	ADV	Degree=Pos	24	advmod	liczba	NOUN	Case=Loc Gender=Fem Number=Sing	28
 przy	przy	przy	ADP	AdpType=Prep	25	case	liczba	NOUN	Case=Loc Gender=Fem Number=Sing	28
@@ -1736,7 +1748,7 @@ w	w	w	ADP	AdpType=Prep Variant=Short	3	case	Polska	PROPN	Case=Loc Gender=Fem Num
 Polsce	Polsce	Polska	PROPN	Case=Loc Gender=Fem Number=Sing	4	nmod	lekarz	NOUN	Animacy=Hum Case=Nom Gender=Masc Number=Sing	2
 </name>
 jest	jest	być	AUX	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	5	aux_pass	obciążyć	ADJ	Animacy=Hum Aspect=Perf Case=Nom Gender=Masc Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	9
-dwa	dwa	dwa	NUM	Animacy=Inan Case=Acc Gender=Masc NumForm=Word Number=Plur	6	nummod	raz	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Plur	7
+dwa	dwa	dwa	NUM	Animacy=Inan Case=Acc Gender=Masc Number=Plur NumForm=Word	6	nummod	raz	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Plur	7
 razy	razy	raz	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Plur	7	obl	bardzo	ADV	Degree=Cmp	8
 bardziej	bardziej	bardzo	ADV	Degree=Cmp	8	advmod	obciążyć	ADJ	Animacy=Hum Aspect=Perf Case=Nom Gender=Masc Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	9
 obciążony	obciążony	obciążyć	ADJ	Animacy=Hum Aspect=Perf Case=Nom Gender=Masc Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	9	root	-	-	-	-
@@ -1914,7 +1926,7 @@ zgadzam	zgadzam	zgadzać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pre
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	8	punct	lekarz	NOUN	Animacy=Hum Case=Gen Gender=Masc Number=Plur	11
 ponieważ	ponieważ	ponieważ	SCONJ	_	9	mark	lekarz	NOUN	Animacy=Hum Case=Gen Gender=Masc Number=Plur	11
-4	4	4	NUM	Animacy=Hum Case=Nom Gender=Masc NumForm=Digit NumType=Card Number=Plur	10	nummod_gov	lekarz	NOUN	Animacy=Hum Case=Gen Gender=Masc Number=Plur	11
+4	4	4	NUM	Animacy=Hum Case=Nom Gender=Masc Number=Plur NumForm=Digit NumType=Card	10	nummod_gov	lekarz	NOUN	Animacy=Hum Case=Gen Gender=Masc Number=Plur	11
 lekarzy	lekarzy	lekarz	NOUN	Animacy=Hum Case=Gen Gender=Masc Number=Plur	11	nsubj	zgadzać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	7
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	12	punct	mieć	ADJ	Animacy=Hum Aspect=Imp Case=Gen Gender=Masc Number=Plur Polarity=Pos VerbForm=Part Voice=Act	13
@@ -1949,7 +1961,7 @@ nowe	nowe	nowy	ADJ	Animacy=Inan Case=Nom Degree=Pos Gender=Masc Number=Plur	11	a
 leki	leki	lek	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Plur	12	nsubj	wchodzić	VERB	Animacy=Inan Aspect=Imp Gender=Masc Mood=Ind Number=Plur Tense=Past VerbForm=Fin Voice=Act	13
 wchodziły	wchodziły	wchodzić	VERB	Animacy=Inan Aspect=Imp Gender=Masc Mood=Ind Number=Plur Tense=Past VerbForm=Fin Voice=Act	13	acl_relcl	kiedyś	ADV	PronType=Ind	8
 co	co	co	ADP	AdpType=Prep	14	case	rok	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Plur	16
-parę	parę	parę	DET	Animacy=Inan Case=Acc Gender=Masc NumType=Card Number=Plur PronType=Ind	15	det_numgov	rok	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Plur	16
+parę	parę	parę	DET	Animacy=Inan Case=Acc Gender=Masc Number=Plur NumType=Card PronType=Ind	15	det_numgov	rok	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Plur	16
 lat	lat	rok	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Plur	16	obl	wchodzić	VERB	Animacy=Inan Aspect=Imp Gender=Masc Mood=Ind Number=Plur Tense=Past VerbForm=Fin Voice=Act	13
 <g/>
 .	.	.	PUNCT	PunctType=Peri	17	punct	to	VERB	Mood=Ind Tense=Pres VerbForm=Fin VerbType=Quasi	1
@@ -1960,7 +1972,7 @@ nowe	nowe	nowy	ADJ	Animacy=Inan Case=Nom Degree=Pos Gender=Masc Number=Plur	2	am
 leki	leki	lek	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Plur	3	nsubj	wchodzić	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	4
 wchodzą	wchodzą	wchodzić	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	4	root	-	-	-	-
 co	co	co	ADP	AdpType=Prep	5	case	rok	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	7
-pół	pół	pół	NUM	Animacy=Inan Case=Acc Gender=Masc NumForm=Word Number=Sing	6	nummod_gov	rok	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	7
+pół	pół	pół	NUM	Animacy=Inan Case=Acc Gender=Masc Number=Sing NumForm=Word	6	nummod_gov	rok	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	7
 roku	roku	rok	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	7	obl	wchodzić	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	4
 <g/>
 .	.	.	PUNCT	PunctType=Peri	8	punct	wchodzić	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	4
@@ -1991,7 +2003,7 @@ rozumieją	rozumieją	rozumieć	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Te
 ,	,	,	PUNCT	PunctType=Comm	11	punct	mieć	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	16
 my	my	my	PRON	Animacy=Hum Case=Nom Gender=Masc Number=Plur Person=1 PronType=Prs	12	nsubj	mieć	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	16
 co	co	co	ADP	AdpType=Prep	13	case	rok	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	15
-pół	pół	pół	NUM	Animacy=Inan Case=Acc Gender=Masc NumForm=Word Number=Sing	14	nummod_gov	rok	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	15
+pół	pół	pół	NUM	Animacy=Inan Case=Acc Gender=Masc Number=Sing NumForm=Word	14	nummod_gov	rok	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	15
 roku	roku	rok	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	15	obl	mieć	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	16
 mamy	mamy	mieć	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	16	conj	rozumieć	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	10
 duże	duże	duży	ADJ	Animacy=Inan Case=Acc Degree=Pos Gender=Masc Number=Plur	17	amod	zjazd	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Plur	18
@@ -2345,7 +2357,7 @@ karty	karty	karta	NOUN	Case=Gen Gender=Fem Number=Sing	6	nmod	motyw	NOUN	Animacy
 DiLO	DiLO	DiLO	PROPN	Case=Gen Gender=Neut Number=Sing	7	nmod	karta	NOUN	Case=Gen Gender=Fem Number=Sing	6
 <g/>
 </name>
-:	:	:		UPosTag= PUNCT PunctType=Colo	8	punct	motyw	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing	5
+:	:	:	PUNCT	PunctType=Colo	8	punct	motyw	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing	5
 skrócić	skrócić	skrócić	VERB	Aspect=Perf VerbForm=Inf Voice=Act	9	parataxis_obj	motyw	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing	5
 diagnostykę	diagnostykę	diagnostyka	NOUN	Case=Acc Gender=Fem Number=Sing	10	obj	skrócić	VERB	Aspect=Perf VerbForm=Inf Voice=Act	9
 <g/>
@@ -2448,7 +2460,7 @@ w	w	w	ADP	AdpType=Prep Variant=Short	3	case	Polska	PROPN	Case=Loc Gender=Fem Num
 Polsce	Polsce	Polska	PROPN	Case=Loc Gender=Fem Number=Sing	4	obl	być	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	5
 </name>
 jest	jest	być	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	5	advcl	mówić	VERB	Animacy=Hum Aspect=Imp Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	17
-55	55	55	NUM	Animacy=Inan Case=Nom Gender=Masc NumForm=Digit NumType=Card Number=Plur	6	nsubj	być	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	5
+55	55	55	NUM	Animacy=Inan Case=Nom Gender=Masc Number=Plur NumForm=Digit NumType=Card	6	nsubj	być	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	5
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	7	punct	być	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	11
 a	a	a	CCONJ	_	8	cc	być	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	11
@@ -2457,7 +2469,7 @@ w	w	w	ADP	AdpType=Prep Variant=Short	9	case	Szwajcaria	PROPN	Case=Loc Gender=Fem
 Szwajcarii	Szwajcarii	Szwajcaria	PROPN	Case=Loc Gender=Fem Number=Sing	10	obl	być	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	11
 </name>
 jest	jest	być	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	11	conj	być	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	5
-57	57	57	NUM	Animacy=Hum Case=Nom Gender=Masc NumForm=Digit NumType=Card Number=Plur	12	nsubj	być	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	11
+57	57	57	NUM	Animacy=Hum Case=Nom Gender=Masc Number=Plur NumForm=Digit NumType=Card	12	nsubj	być	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	11
 –	–	–	PUNCT	PunctType=Dash	13	punct	mówić	VERB	Animacy=Hum Aspect=Imp Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	17
 już	już	już	PART	_	14	advmod	mówić	VERB	Animacy=Hum Aspect=Imp Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	17
 nie	nie	nie	PART	Polarity=Neg	15	advmod_neg	mówić	VERB	Animacy=Hum Aspect=Imp Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	17
@@ -2478,7 +2490,7 @@ Dobrze	Dobrze	dobrze	ADV	Degree=Pos	1	root	-	-	-	-
 ,	,	,	PUNCT	PunctType=Comm	2	punct	to	VERB	Mood=Ind Tense=Pres VerbForm=Fin VerbType=Quasi	3
 to	to	to	VERB	Mood=Ind Tense=Pres VerbForm=Fin VerbType=Quasi	3	conj	dobrze	ADV	Degree=Pos	1
 jest	jest	być	AUX	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	4	aux	to	VERB	Mood=Ind Tense=Pres VerbForm=Fin VerbType=Quasi	3
-3	3	3	NUM	Animacy=Inan Case=Nom Gender=Masc NumForm=Digit NumType=Card Number=Plur	5	nummod	procent	X	Abbr=Yes Pun=Yes	6
+3	3	3	NUM	Animacy=Inan Case=Nom Gender=Masc Number=Plur NumForm=Digit NumType=Card	5	nummod	procent	X	Abbr=Yes Pun=Yes	6
 <g/>
 %	%	procent	X	Abbr=Yes Pun=Yes	6	nsubj	to	VERB	Mood=Ind Tense=Pres VerbForm=Fin VerbType=Quasi	3
 <g/>
@@ -2496,12 +2508,12 @@ Pani	Pani	pani	NOUN	Case=Nom Gender=Fem Number=Sing	13	vocative	to	VERB	Mood=Ind
 Minister	Minister	minister	PROPN	Case=Nom Gender=Fem Number=Sing	14	appos	pani	NOUN	Case=Nom Gender=Fem Number=Sing	13
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	15	punct	kosztować	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	19
-ile	ile	ile	DET	Animacy=Inan Case=Nom Gender=Masc NumType=Card Number=Plur PronType=Int	16	det_numgov	pieniądz	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Plur	17
+ile	ile	ile	DET	Animacy=Inan Case=Nom Gender=Masc Number=Plur NumType=Card PronType=Int	16	det_numgov	pieniądz	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Plur	17
 pieniędzy	pieniędzy	pieniądz	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Plur	17	nsubj	kosztować	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	19
 czasami	czasami	czas	NOUN	Animacy=Inan Case=Ins Gender=Masc Number=Plur	18	obl	kosztować	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	19
 kosztują	kosztują	kosztować	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	19	ccomp	to	VERB	Mood=Ind Tense=Pres VerbForm=Fin VerbType=Quasi	3
 te	te	ten	DET	Animacy=Inan Case=Acc Gender=Masc Number=Plur PronType=Dem	20	det	procent	SYM	_	22
-3	3	3	NUM	Animacy=Inan Case=Acc Gender=Masc NumForm=Digit NumType=Card Number=Plur	21	nummod_gov	procent	SYM	_	22
+3	3	3	NUM	Animacy=Inan Case=Acc Gender=Masc Number=Plur NumForm=Digit NumType=Card	21	nummod_gov	procent	SYM	_	22
 <g/>
 %	%	procent	SYM	_	22	obj	kosztować	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	19
 </s>
@@ -2693,7 +2705,7 @@ jutra	jutra	jutro	NOUN	Case=Gen Gender=Neut Number=Sing	4	nmod	przerwa	NOUN	Case
 ,	,	,	PUNCT	PunctType=Comm	5	punct	godzina	NOUN	Case=Gen Gender=Fem Number=Sing	7
 do	do	do	ADP	AdpType=Prep	6	case	godzina	NOUN	Case=Gen Gender=Fem Number=Sing	7
 godziny	godziny	godzina	NOUN	Case=Gen Gender=Fem Number=Sing	7	obl	ogłaszać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
-9.00	9.00	9.00	ADJ	Case=Gen Degree=Pos Gender=Fem NumForm=Digit NumType=Ord Number=Sing	8	amod	godzina	NOUN	Case=Gen Gender=Fem Number=Sing	7
+9.00	9.00	9.00	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Sing NumForm=Digit NumType=Ord	8	amod	godzina	NOUN	Case=Gen Gender=Fem Number=Sing	7
 <g/>
 .	.	.	PUNCT	PunctType=Peri	9	punct	ogłaszać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
@@ -2709,7 +2721,7 @@ rozpatrzenia	rozpatrzenia	rozpatrzyć	NOUN	Aspect=Perf Case=Gen Gender=Neut Numb
 punktu	punktu	punkt	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	7	obj	rozpatrzyć	NOUN	Aspect=Perf Case=Gen Gender=Neut Number=Sing Polarity=Pos VerbForm=Vnoun	6
 dziewiątego	dziewiątego	dziewiąty	ADJ	Animacy=Inan Case=Gen Degree=Pos Gender=Masc Number=Sing	8	amod	punkt	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	7
 <g/>
-:	:	:		UPosTag= PUNCT PunctType=Colo	9	punct	informacja	NOUN	Case=Nom Gender=Fem Number=Sing	10
+:	:	:	PUNCT	PunctType=Colo	9	punct	informacja	NOUN	Case=Nom Gender=Fem Number=Sing	10
 informacja	informacja	informacja	NOUN	Case=Nom Gender=Fem Number=Sing	10	nmod	punkt	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	7
 dla	dla	dla	ADP	AdpType=Prep	11	case	sejm	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	12
 <name type="ORG">
@@ -2745,5 +2757,8 @@ r	r	rok	X	Abbr=Yes Pun=Yes	4	nmod_flat	grudzień	NOUN	Case=Nom Gender=Masc Numbe
 .	.	.	PUNCT	PunctType=Peri	5	punct	grudzień	NOUN	Case=Nom Gender=Masc Number=Sing	2
 </s>
 </p>
+<note type="time">
+/Przerwa w posiedzeniu o godzinie 16 minut 45/	_	_	_	_	_	_	_	_	_	_
+</note>
 </speech>
 </text>

@@ -1,4 +1,19 @@
 <text id="ParlaMint-SI_2018-04-13-SDZ7-Izredna-59.ana" subcorpus="Reference" term="7" session="-" meeting="59" sitting="-" agenda="-" from="2018-04-13" to="2018-04-13" title="Minutes of the National Assembly of the Republic of Slovenia, Term 7, Extraordinary Session 59, 13.4.2018">
+<note type="head">
+/REPUBLIKA SLOVENIJA DRŽAVNI ZBOR/	_	_	_	_	_	_	_	_	_	_
+</note>
+<note type="head">
+/nadaljevanje 59. izredne seje/	_	_	_	_	_	_	_	_	_	_
+</note>
+<note type="head">
+/Sejo je vodil predsednik Državnega zbora dr. Milan Brglez./	_	_	_	_	_	_	_	_	_	_
+</note>
+<note type="time">
+/Seja se je začela ob 12.02./	_	_	_	_	_	_	_	_	_	_
+</note>
+<note type="speaker">
+/PREDSEDNIK DR. MILAN BRGLEZ:/	_	_	_	_	_	_	_	_	_	_
+</note>
 <speech id="ParlaMint-SI_2018-04-13-SDZ7-Izredna-59.u1" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_role="Chairperson" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka modernega centra" speaker_gender="M" speaker_birth="1967">
 <p id="ParlaMint-SI_2018-04-13-SDZ7-Izredna-59.seg1" lang="Slovenian">
 <s id="ParlaMint-SI_2018-04-13-SDZ7-Izredna-59.seg1.1">
@@ -268,7 +283,7 @@ Logar	Logar	Logar	PROPN	Case=Nom Gender=Masc Number=Sing	143	flat_name	Anže	PRO
 </name>
 </s>
 </p>
-<note type="gap:inaudible">
+<note type="gap::inaudible">
 /…/	_	_	_	_	_	_	_	_	_	_
 </note>
 <note type="vocal:interruption">
@@ -361,7 +376,7 @@ predsednika	predsednika	predsednik	NOUN	Case=Gen Gender=Masc Number=Sing	19	nmod
 vlade	vlade	vlada	NOUN	Case=Gen Gender=Fem Number=Sing	20	nmod	predsednik	NOUN	Case=Gen Gender=Masc Number=Sing	19
 na	na	na	ADP	Case=Loc	21	case	podlaga	NOUN	Case=Loc Gender=Fem Number=Sing	22
 podlagi	podlagi	podlaga	NOUN	Case=Loc Gender=Fem Number=Sing	22	obl	biti	VERB	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	12
-četrtega	četrtega	četrti	ADJ	Case=Gen Gender=Masc NumType=Ord Number=Sing	23	amod	odstavek	NOUN	Case=Gen Gender=Masc Number=Sing	24
+četrtega	četrtega	četrti	ADJ	Case=Gen Gender=Masc Number=Sing NumType=Ord	23	amod	odstavek	NOUN	Case=Gen Gender=Masc Number=Sing	24
 odstavka	odstavka	odstavek	NOUN	Case=Gen Gender=Masc Number=Sing	24	nmod	podlaga	NOUN	Case=Loc Gender=Fem Number=Sing	22
 111.	111.	111.	NUM	NumForm=Digit NumType=Ord	25	nummod	člen	NOUN	Case=Gen Gender=Masc Number=Sing	26
 člena	člena	člen	NOUN	Case=Gen Gender=Masc Number=Sing	26	nmod	odstavek	NOUN	Case=Gen Gender=Masc Number=Sing	24
@@ -371,7 +386,7 @@ Republike	Republike	republika	NOUN	Case=Gen Gender=Fem Number=Sing	28	nmod	ustav
 Slovenije	Slovenije	Slovenija	PROPN	Case=Gen Gender=Fem Number=Sing	29	nmod	republika	NOUN	Case=Gen Gender=Fem Number=Sing	28
 </name>
 in	in	in	CCONJ	_	30	cc	odstavek	NOUN	Case=Gen Gender=Masc Number=Sing	32
-prvega	prvega	prvi	ADJ	Case=Gen Gender=Masc NumType=Ord Number=Sing	31	amod	odstavek	NOUN	Case=Gen Gender=Masc Number=Sing	32
+prvega	prvega	prvi	ADJ	Case=Gen Gender=Masc Number=Sing NumType=Ord	31	amod	odstavek	NOUN	Case=Gen Gender=Masc Number=Sing	32
 odstavka	odstavka	odstavek	NOUN	Case=Gen Gender=Masc Number=Sing	32	conj	republika	NOUN	Case=Gen Gender=Fem Number=Sing	28
 228.	228.	228.	NUM	NumForm=Digit NumType=Ord	33	nummod	člen	NOUN	Case=Gen Gender=Masc Number=Sing	34
 člena	člena	člen	NOUN	Case=Gen Gender=Masc Number=Sing	34	nmod	odstavek	NOUN	Case=Gen Gender=Masc Number=Sing	32
@@ -523,6 +538,12 @@ minut	minut	minuta	NOUN	Case=Gen Gender=Fem Number=Plur	18	conj	ura	NOUN	Case=Lo
 </s>
 </p>
 </speech>
+<note type="time">
+/Seja je bila prekinjena ob 12.04 in se je nadaljevala ob 16.06./	_	_	_	_	_	_	_	_	_	_
+</note>
+<note type="speaker">
+/PREDSEDNIK DR. MILAN BRGLEZ:/	_	_	_	_	_	_	_	_	_	_
+</note>
 <speech id="ParlaMint-SI_2018-04-13-SDZ7-Izredna-59.u2" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_role="Chairperson" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka modernega centra" speaker_gender="M" speaker_birth="1967">
 <p id="ParlaMint-SI_2018-04-13-SDZ7-Izredna-59.seg9" lang="Slovenian">
 <s id="ParlaMint-SI_2018-04-13-SDZ7-Izredna-59.seg9.1">
@@ -566,7 +587,7 @@ predsednika	predsednika	predsednik	NOUN	Case=Gen Gender=Masc Number=Sing	19	nmod
 vlade	vlade	vlada	NOUN	Case=Gen Gender=Fem Number=Sing	20	nmod	predsednik	NOUN	Case=Gen Gender=Masc Number=Sing	19
 na	na	na	ADP	Case=Loc	21	case	podlaga	NOUN	Case=Loc Gender=Fem Number=Sing	22
 podlagi	podlagi	podlaga	NOUN	Case=Loc Gender=Fem Number=Sing	22	obl	biti	VERB	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	12
-četrtega	četrtega	četrti	ADJ	Case=Gen Gender=Masc NumType=Ord Number=Sing	23	amod	odstavek	NOUN	Case=Gen Gender=Masc Number=Sing	24
+četrtega	četrtega	četrti	ADJ	Case=Gen Gender=Masc Number=Sing NumType=Ord	23	amod	odstavek	NOUN	Case=Gen Gender=Masc Number=Sing	24
 odstavka	odstavka	odstavek	NOUN	Case=Gen Gender=Masc Number=Sing	24	nmod	podlaga	NOUN	Case=Loc Gender=Fem Number=Sing	22
 111.	111.	111.	NUM	NumForm=Digit NumType=Ord	25	nummod	člen	NOUN	Case=Nom Gender=Masc Number=Sing	26
 člen	člen	člen	NOUN	Case=Nom Gender=Masc Number=Sing	26	nmod	odstavek	NOUN	Case=Gen Gender=Masc Number=Sing	24
@@ -576,7 +597,7 @@ Republike	Republike	republika	NOUN	Case=Gen Gender=Fem Number=Sing	28	nmod	ustav
 Slovenije	Slovenije	Slovenija	PROPN	Case=Gen Gender=Fem Number=Sing	29	nmod	republika	NOUN	Case=Gen Gender=Fem Number=Sing	28
 </name>
 in	in	in	CCONJ	_	30	cc	odstavek	NOUN	Case=Gen Gender=Masc Number=Sing	32
-prvega	prvega	prvi	ADJ	Case=Gen Gender=Masc NumType=Ord Number=Sing	31	amod	odstavek	NOUN	Case=Gen Gender=Masc Number=Sing	32
+prvega	prvega	prvi	ADJ	Case=Gen Gender=Masc Number=Sing NumType=Ord	31	amod	odstavek	NOUN	Case=Gen Gender=Masc Number=Sing	32
 odstavka	odstavka	odstavek	NOUN	Case=Gen Gender=Masc Number=Sing	32	conj	republika	NOUN	Case=Gen Gender=Fem Number=Sing	28
 228.	228.	228.	NUM	NumForm=Digit NumType=Ord	33	nummod	člen	NOUN	Case=Gen Gender=Masc Number=Sing	34
 člena	člena	člen	NOUN	Case=Gen Gender=Masc Number=Sing	34	nmod	odstavek	NOUN	Case=Gen Gender=Masc Number=Sing	32
@@ -597,7 +618,7 @@ zbor	zbor	zbor	NOUN	Case=Nom Gender=Masc Number=Sing	3	nsubj	skleniti	VERB	Aspec
 v	v	v	ADP	Case=Loc	4	case	rok	NOUN	Case=Loc Gender=Masc Number=Sing	5
 roku	roku	rok	NOUN	Case=Loc Gender=Masc Number=Sing	5	obl	skleniti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	15
 iz	iz	iz	ADP	Case=Gen	6	case	odstavek	NOUN	Case=Gen Gender=Masc Number=Sing	8
-četrtega	četrtega	četrti	ADJ	Case=Gen Gender=Masc NumType=Ord Number=Sing	7	amod	odstavek	NOUN	Case=Gen Gender=Masc Number=Sing	8
+četrtega	četrtega	četrti	ADJ	Case=Gen Gender=Masc Number=Sing NumType=Ord	7	amod	odstavek	NOUN	Case=Gen Gender=Masc Number=Sing	8
 odstavka	odstavka	odstavek	NOUN	Case=Gen Gender=Masc Number=Sing	8	nmod	rok	NOUN	Case=Loc Gender=Masc Number=Sing	5
 111.	111.	111.	NUM	NumForm=Digit NumType=Ord	9	nummod	člen	NOUN	Case=Gen Gender=Masc Number=Sing	10
 člena	člena	člen	NOUN	Case=Gen Gender=Masc Number=Sing	10	nmod	odstavek	NOUN	Case=Gen Gender=Masc Number=Sing	8
@@ -662,4 +683,7 @@ zbora	zbora	zbor	NOUN	Case=Gen Gender=Masc Number=Sing	12	nmod	seja	NOUN	Case=Ac
 </s>
 </p>
 </speech>
+<note type="gap::editorial">
+/SAMPLING/	_	_	_	_	_	_	_	_	_	_
+</note>
 </text>

@@ -159,6 +159,9 @@ andmælum	andmælum	andmæli	NOUN	Case=Dat Definite=Ind Gender=Neut Number=Plur	
 </s>
 </p>
 </speech>
+<note type="gap::editorial">
+/SAMPLING/	_	_	_	_	_	_	_	_	_	_
+</note>
 <speech id="ParlaMint-IS_2015-01-21-54.u91" speaker_id="ValgerdurBjarnadottir" speaker_name="Bjarnadóttir, Valgerður" speaker_role="Regular" speaker_type="MP" speaker_party="Sf" speaker_party_name="Samfylking" speaker_gender="F" speaker_birth="1950">
 <p id="ParlaMint-IS_2015-01-21-54.seg332" lang="">
 <s id="ParlaMint-IS_2015-01-21-54.seg332.1">

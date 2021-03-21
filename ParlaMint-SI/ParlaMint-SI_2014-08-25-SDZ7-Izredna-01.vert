@@ -1,4 +1,19 @@
 <text id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.ana" subcorpus="Reference" term="7" session="-" meeting="1" sitting="-" agenda="-" from="2014-08-25" to="2014-08-25" title="Minutes of the National Assembly of the Republic of Slovenia, Term 7, Extraordinary Session 1, 25.8.2014">
+<note type="head">
+/REPUBLIKA SLOVENIJA DRŽAVNI ZBOR/	_	_	_	_	_	_	_	_	_	_
+</note>
+<note type="head">
+/1. izredna seja/	_	_	_	_	_	_	_	_	_	_
+</note>
+<note type="head">
+/Sejo sta vodila predsednik Državnega zbora dr. Milan Brglez in podpredsednik Janko Veber./	_	_	_	_	_	_	_	_	_	_
+</note>
+<note type="time">
+/Seja se je začela ob 10. uri./	_	_	_	_	_	_	_	_	_	_
+</note>
+<note type="speaker">
+/PREDSEDNIK DR. MILAN BRGLEZ:/	_	_	_	_	_	_	_	_	_	_
+</note>
 <speech id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.u1" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_role="Chairperson" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka Mira Cerarja" speaker_gender="M" speaker_birth="1967">
 <p id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.seg1" lang="Slovenian">
 <s id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.seg1.1">
@@ -868,6 +883,9 @@ Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 </s>
 </p>
 </speech>
+<note type="speaker">
+/PREDSEDNIK DR. MILAN BRGLEZ:/	_	_	_	_	_	_	_	_	_	_
+</note>
 <speech id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.u2" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_role="Chairperson" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka Mira Cerarja" speaker_gender="M" speaker_birth="1967">
 <p id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.seg6" lang="Slovenian">
 <s id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.seg6.1">
@@ -919,7 +937,7 @@ odločali	odločali	odločati	VERB	Aspect=Imp Gender=Masc Number=Plur VerbForm=P
 v	v	v	ADP	Case=Loc	7	case	sklad	NOUN	Case=Loc Gender=Masc Number=Sing	8
 skladu	skladu	sklad	NOUN	Case=Loc Gender=Masc Number=Sing	8	obl	odločati	VERB	Aspect=Imp Gender=Masc Number=Plur VerbForm=Part	6
 s	s	z	ADP	Case=Ins	9	case	odstavek	NOUN	Case=Ins Gender=Masc Number=Sing	11
-prvim	prvim	prvi	ADJ	Case=Ins Gender=Masc NumType=Ord Number=Sing	10	amod	odstavek	NOUN	Case=Ins Gender=Masc Number=Sing	11
+prvim	prvim	prvi	ADJ	Case=Ins Gender=Masc Number=Sing NumType=Ord	10	amod	odstavek	NOUN	Case=Ins Gender=Masc Number=Sing	11
 odstavkom	odstavkom	odstavek	NOUN	Case=Ins Gender=Masc Number=Sing	11	nmod	sklad	NOUN	Case=Loc Gender=Masc Number=Sing	8
 64.	64.	64.	NUM	NumForm=Digit NumType=Ord	12	nummod	člen	NOUN	Case=Gen Gender=Masc Number=Sing	13
 člena	člena	člen	NOUN	Case=Gen Gender=Masc Number=Sing	13	nmod	odstavek	NOUN	Case=Ins Gender=Masc Number=Sing	11
@@ -1015,6 +1033,12 @@ proti	proti	proti	ADP	Case=Dat	13	case	2.	NUM	NumForm=Digit NumType=Ord	14
 2.	2.	2.	NUM	NumForm=Digit NumType=Ord	14	conj	84	NUM	NumForm=Digit NumType=Card	11
 </s>
 </p>
+<note type="vote-ayes">
+/Za je glasovalo 84./	_	_	_	_	_	_	_	_	_	_
+</note>
+<note type="vote-noes">
+/Proti 2./	_	_	_	_	_	_	_	_	_	_
+</note>
 <p id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.seg11" lang="Slovenian">
 <s id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.seg11.1">
 Ugotavljam	Ugotavljam	ugotavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
@@ -1156,6 +1180,9 @@ Dejanu	Dejanu	Dejan	PROPN	Case=Dat Gender=Masc Number=Sing	12	nmod	predstavnik	N
 </s>
 </p>
 </speech>
+<note type="gap::editorial">
+/SAMPLING/	_	_	_	_	_	_	_	_	_	_
+</note>
 <speech id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.u169" speaker_id="ToninMatej" speaker_name="Tonin, Matej" speaker_role="Regular" speaker_type="MP" speaker_party="NSi" speaker_party_name="Nova Slovenija – Krščanski demokrati" speaker_gender="M" speaker_birth="1983">
 <p id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.seg579" lang="Slovenian">
 <s id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.seg579.1">
@@ -1167,7 +1194,7 @@ imenu	imenu	ime	NOUN	Case=Loc Gender=Neut Number=Sing	5	obl	imeti	VERB	Aspect=Im
 poslanske	poslanske	poslanski	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Sing	6	amod	skupina	NOUN	Case=Gen Gender=Fem Number=Sing	7
 skupine	skupine	skupina	NOUN	Case=Gen Gender=Fem Number=Sing	7	nmod	ime	NOUN	Case=Loc Gender=Neut Number=Sing	5
 še	še	še	PART	_	8	advmod	imeti	VERB	Aspect=Imp Gender=Masc Number=Sing VerbForm=Part	3
-en	en	en	NUM	Case=Acc Gender=Masc NumForm=Word NumType=Card Number=Sing	9	nummod	predlog	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	11
+en	en	en	NUM	Case=Acc Gender=Masc Number=Sing NumForm=Word NumType=Card	9	nummod	predlog	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	11
 proceduralni	proceduralni	proceduralen	ADJ	Case=Acc Definite=Def Degree=Pos Gender=Masc Number=Sing	10	amod	predlog	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	11
 predlog	predlog	predlog	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	11	obj	imeti	VERB	Aspect=Imp Gender=Masc Number=Sing VerbForm=Part	3
 <g/>
@@ -1262,6 +1289,9 @@ zavlačujemo	zavlačujemo	zavlačevati	VERB	Aspect=Imp Mood=Ind Number=Plur Pers
 </s>
 </p>
 </speech>
+<note type="speaker">
+/PREDSEDNIK DR. MILAN BRGLEZ:/	_	_	_	_	_	_	_	_	_	_
+</note>
 <speech id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.u170" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_role="Chairperson" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka Mira Cerarja" speaker_gender="M" speaker_birth="1967">
 <p id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.seg580" lang="Slovenian">
 <s id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.seg580.1">
@@ -1282,6 +1312,9 @@ točke	točke	točka	NOUN	Case=Gen Gender=Fem Number=Sing	11	nmod	preložitev	NO
 ?	?	?	PUNCT	_	12	punct	želeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1
 </s>
 </p>
+<note type="answer">
+/Ne želi./	_	_	_	_	_	_	_	_	_	_
+</note>
 <p id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.seg581" lang="Slovenian">
 <s id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.seg581.1">
 Prehajamo	Prehajamo	prehajati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
@@ -1319,11 +1352,11 @@ obveščevalnih	obveščevalnih	obveščevalen	ADJ	Case=Gen Degree=Pos Gender=Fe
 in	in	in	CCONJ	_	23	cc	varnosten	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Plur	24
 varnostnih	varnostnih	varnosten	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Plur	24	conj	obveščevalen	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Plur	22
 služb	služb	služba	NOUN	Case=Gen Gender=Fem Number=Plur	25	nmod	nadzor	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	21
-na	na	na	ADP	Case=Acc	26	case	en	NUM	Case=Acc Gender=Fem NumForm=Word NumType=Card Number=Sing	27
-eno	eno	en	NUM	Case=Acc Gender=Fem NumForm=Word NumType=Card Number=Sing	27	nummod	služba	NOUN	Case=Gen Gender=Fem Number=Plur	25
+na	na	na	ADP	Case=Acc	26	case	en	NUM	Case=Acc Gender=Fem Number=Sing NumForm=Word NumType=Card	27
+eno	eno	en	NUM	Case=Acc Gender=Fem Number=Sing NumForm=Word NumType=Card	27	nummod	služba	NOUN	Case=Gen Gender=Fem Number=Plur	25
 od	od	od	ADP	Case=Gen	28	case	seja	NOUN	Case=Gen Gender=Fem Number=Plur	30
 naslednjih	naslednjih	naslednji	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Plur	29	amod	seja	NOUN	Case=Gen Gender=Fem Number=Plur	30
-sej	sej	seja	NOUN	Case=Gen Gender=Fem Number=Plur	30	nmod	en	NUM	Case=Acc Gender=Fem NumForm=Word NumType=Card Number=Sing	27
+sej	sej	seja	NOUN	Case=Gen Gender=Fem Number=Plur	30	nmod	en	NUM	Case=Acc Gender=Fem Number=Sing NumForm=Word NumType=Card	27
 zbora	zbora	zbor	NOUN	Case=Gen Gender=Masc Number=Sing	31	nmod	seja	NOUN	Case=Gen Gender=Fem Number=Plur	30
 <g/>
 .	.	.	PUNCT	_	32	punct	odločati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
@@ -1354,6 +1387,12 @@ proti	proti	proti	ADP	Case=Dat	13	case	28.	NUM	NumForm=Digit NumType=Ord	14
 28.	28.	28.	NUM	NumForm=Digit NumType=Ord	14	advmod	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
 </s>
 </p>
+<note type="vote-ayes">
+/Za je glasovalo 55./	_	_	_	_	_	_	_	_	_	_
+</note>
+<note type="vote-noes">
+/Proti 28./	_	_	_	_	_	_	_	_	_	_
+</note>
 <p id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.seg584" lang="Slovenian">
 <s id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.seg584.1">
 Ugotavljam	Ugotavljam	ugotavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
@@ -1382,11 +1421,11 @@ o	o	o	ADP	Case=Loc	8	case	predlog	NOUN	Case=Loc Gender=Masc Number=Sing	9
 predlogu	predlogu	predlog	NOUN	Case=Loc Gender=Masc Number=Sing	9	nmod	odločanje	NOUN	Case=Acc Gender=Neut Number=Sing	7
 sklepa	sklepa	sklep	NOUN	Case=Gen Gender=Masc Number=Sing	10	nmod	predlog	NOUN	Case=Loc Gender=Masc Number=Sing	9
 opravil	opravil	opraviti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	11	root	-	-	-	-
-na	na	na	ADP	Case=Loc	12	case	en	NUM	Case=Loc Gender=Fem NumForm=Word NumType=Card Number=Sing	13
-eni	eni	en	NUM	Case=Loc Gender=Fem NumForm=Word NumType=Card Number=Sing	13	obl	opraviti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	11
+na	na	na	ADP	Case=Loc	12	case	en	NUM	Case=Loc Gender=Fem Number=Sing NumForm=Word NumType=Card	13
+eni	eni	en	NUM	Case=Loc Gender=Fem Number=Sing NumForm=Word NumType=Card	13	obl	opraviti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	11
 od	od	od	ADP	Case=Gen	14	case	seja	NOUN	Case=Gen Gender=Fem Number=Plur	16
 naslednjih	naslednjih	naslednji	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Plur	15	amod	seja	NOUN	Case=Gen Gender=Fem Number=Plur	16
-sej	sej	seja	NOUN	Case=Gen Gender=Fem Number=Plur	16	nmod	en	NUM	Case=Loc Gender=Fem NumForm=Word NumType=Card Number=Sing	13
+sej	sej	seja	NOUN	Case=Gen Gender=Fem Number=Plur	16	nmod	en	NUM	Case=Loc Gender=Fem Number=Sing NumForm=Word NumType=Card	13
 zbora	zbora	zbor	NOUN	Case=Gen Gender=Masc Number=Sing	17	nmod	seja	NOUN	Case=Gen Gender=Fem Number=Plur	16
 <g/>
 .	.	.	PUNCT	_	18	punct	opraviti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	11
@@ -1417,4 +1456,7 @@ zbora	zbora	zbor	NOUN	Case=Gen Gender=Masc Number=Sing	7	nmod	seja	NOUN	Case=Acc
 </s>
 </p>
 </speech>
+<note type="time">
+/Seja se je končala 25. avgusta 2014 ob 19.10./	_	_	_	_	_	_	_	_	_	_
+</note>
 </text>

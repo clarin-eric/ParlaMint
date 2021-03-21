@@ -1,4 +1,7 @@
 <text id="ParlaMint-HR_S07.ana" subcorpus="Reference" term="9" session="7" meeting="-" sitting="-" agenda="-" from="2018-03-23" to="2018-05-09" title="Minutes of the National Assembly of the Republic of Croatia, Term 9, Session 7 (2018-03-23 - 2018-05-09)">
+<note type="head">
+/7. sjednica/	_	_	_	_	_	_	_	_	_	_
+</note>
 <speech id="ParlaMint-HR_S07.u1" speaker_id="JandrokovićGordan" speaker_name="Jandroković, Gordan" speaker_role="Chairperson" speaker_type="MP" speaker_party="HDZ" speaker_party_name="Klub Hrvatske demokratske zajednice" speaker_gender="M" speaker_birth="1967">
 <p id="seg229262" lang="Croatian">
 <s id="seg229262.1">
@@ -273,7 +276,7 @@ Guiseppe	Guiseppe	Guiseppe	PROPN	Case=Nom Gender=Masc Number=Sing	16	nsubj	kompo
 Tartini	Tartini	Tartini	PROPN	Case=Nom Gender=Masc Number=Sing	17	flat	Guiseppe	PROPN	Case=Nom Gender=Masc Number=Sing	16
 </name>
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	18	cop	kompozitor	NOUN	Case=Gen Gender=Masc Number=Plur	23
-jedan	jedan	jedan	NUM	Case=Nom Gender=Masc NumType=Card Number=Sing	19	nummod	kompozitor	NOUN	Case=Gen Gender=Masc Number=Plur	23
+jedan	jedan	jedan	NUM	Case=Nom Gender=Masc Number=Sing NumType=Card	19	nummod	kompozitor	NOUN	Case=Gen Gender=Masc Number=Plur	23
 od	od	od	ADP	Case=Gen	20	case	kompozitor	NOUN	Case=Gen Gender=Masc Number=Plur	23
 najvećih	najvećih	velik	ADJ	Case=Gen Definite=Def Degree=Sup Gender=Masc Number=Plur	21	amod	kompozitor	NOUN	Case=Gen Gender=Masc Number=Plur	23
 svjetskih	svjetskih	svjetski	ADJ	Case=Gen Definite=Def Degree=Pos Gender=Masc Number=Plur	22	amod	kompozitor	NOUN	Case=Gen Gender=Masc Number=Plur	23
@@ -451,6 +454,9 @@ poslije	poslije	poslije	ADV	Degree=Pos	3	advmod	nastaviti	VERB	VerbForm=Inf	1
 </s>
 </p>
 </speech>
+<note type="gap::editorial">
+/SAMPLING/	_	_	_	_	_	_	_	_	_	_
+</note>
 <speech id="ParlaMint-HR_S07.u9941" speaker_id="LovrinovićIvan" speaker_name="Lovrinović, Ivan" speaker_role="Regular" speaker_type="MP" speaker_party="Živi zid i PH" speaker_party_name="Klub zastupnika Živog zida i Promijenimo Hrvatsku" speaker_gender="M" speaker_birth="1960">
 <p id="seg286135" lang="Croatian">
 <s id="seg286135.1">

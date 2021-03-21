@@ -1,4 +1,13 @@
 <text id="ParlaMint-PL_2018-09-27-senat-65-2.ana" subcorpus="Reference" term="9-upper" session="65-upper" meeting="-" sitting="2-upper" agenda="-" from="2018-09-27" to="2018-09-27" title="Report of the session of the Senat of the Republic of Poland, Term 9, Session 65, Day 2 (2018-09-27)">
+<note type="head">
+/65. posiedzenie Senatu RP 9. kadencji, dzień 2/	_	_	_	_	_	_	_	_	_	_
+</note>
+<note type="time">
+/Wznowienie posiedzenia o godzinie 11 minut 00/	_	_	_	_	_	_	_	_	_	_
+</note>
+<note type="debate">
+/Posiedzeniu przewodniczą marszałek Stanisław Karczewski oraz wicemarszałkowie Michał Seweryński, Maria Koc i Adam Bielan/	_	_	_	_	_	_	_	_	_	_
+</note>
 <speech id="ParlaMint-PL_2018-09-27-senat-65-2.u1" speaker_id="KuchcińskiMarek" speaker_name="Kuchciński, Marek" speaker_role="Chairperson" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" speaker_gender="M" speaker_birth="1955">
 <p id="seg747084" lang="Polish">
 <s id="seg747084.1">
@@ -35,15 +44,15 @@ trzynastego	trzynastego	trzynasty	ADJ	Animacy=Inan Case=Gen Degree=Pos Gender=Ma
 porządku	porządku	porządek	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	6	nmod	punkt	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	4
 obrad	obrad	obrady	NOUN	Case=Gen Gender=Neut Number=Ptan	7	nmod_arg	porządek	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	6
 <g/>
-:	:	:		UPosTag= PUNCT PunctType=Colo	8	punct	czytać	NOUN	Aspect=Imp Case=Nom Gender=Neut Number=Sing Polarity=Pos VerbForm=Vnoun	10
+:	:	:	PUNCT	PunctType=Colo	8	punct	czytać	NOUN	Aspect=Imp Case=Nom Gender=Neut Number=Sing Polarity=Pos VerbForm=Vnoun	10
 drugie	drugie	drugi	ADJ	Case=Nom Degree=Pos Gender=Neut Number=Sing	9	amod	czytać	NOUN	Aspect=Imp Case=Nom Gender=Neut Number=Sing Polarity=Pos VerbForm=Vnoun	10
 czytanie	czytanie	czytać	NOUN	Aspect=Imp Case=Nom Gender=Neut Number=Sing Polarity=Pos VerbForm=Vnoun	10	conj	przystępować	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 projektu	projektu	projekt	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	11	obj	czytać	NOUN	Aspect=Imp Case=Nom Gender=Neut Number=Sing Polarity=Pos VerbForm=Vnoun	10
 uchwały	uchwały	uchwała	NOUN	Case=Gen Gender=Fem Number=Sing	12	nmod_arg	projekt	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	11
 w	w	w	ADP	AdpType=Prep Variant=Short	13	case	rocznica	NOUN	Case=Acc Gender=Fem Number=Sing	16
-100	100	100	ADJ	Case=Loc Degree=Pos Gender=Fem NumForm=Digit NumType=Ord Number=Sing	14	amod	rocznica	NOUN	Case=Acc Gender=Fem Number=Sing	16
+100	100	100	ADJ	Case=Loc Degree=Pos Gender=Fem Number=Sing NumForm=Digit NumType=Ord	14	amod	rocznica	NOUN	Case=Acc Gender=Fem Number=Sing	16
 <g/>
-.	.	.	PUNCT	PunctType=Peri	15	punct	100	ADJ	Case=Loc Degree=Pos Gender=Fem NumForm=Digit NumType=Ord Number=Sing	14
+.	.	.	PUNCT	PunctType=Peri	15	punct	100	ADJ	Case=Loc Degree=Pos Gender=Fem Number=Sing NumForm=Digit NumType=Ord	14
 rocznicę	rocznicę	rocznica	NOUN	Case=Acc Gender=Fem Number=Sing	16	nmod	czytać	NOUN	Aspect=Imp Case=Nom Gender=Neut Number=Sing Polarity=Pos VerbForm=Vnoun	10
 urodzin	urodzin	urodziny	NOUN	Case=Gen Gender=Neut Number=Ptan	17	nmod_arg	rocznica	NOUN	Case=Acc Gender=Fem Number=Sing	16
 księdza	księdza	ksiądz	NOUN	Animacy=Hum Case=Gen Gender=Masc Number=Sing	18	nmod	urodziny	NOUN	Case=Gen Gender=Neut Number=Ptan	17
@@ -236,7 +245,7 @@ dyrektor	dyrektor	dyrektor	NOUN	Animacy=Hum Case=Nom Gender=Masc Number=Sing	6	a
 Szkoły	Szkoły	szkoła	NOUN	Case=Gen Gender=Fem Number=Sing	7	nmod	dyrektor	NOUN	Animacy=Hum Case=Nom Gender=Masc Number=Sing	6
 Podstawowej	Podstawowej	podstawowy	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Sing	8	flat	szkoła	NOUN	Case=Gen Gender=Fem Number=Sing	7
 nr	nr	numer	X	Abbr=Yes Pun=No	9	nmod	szkoła	NOUN	Case=Gen Gender=Fem Number=Sing	7
-4	4	4	NUM	Animacy=Inan Gender=Masc NumForm=Digit NumType=Card Number=Plur	10	nummod	imienia	X	Abbr=Yes Pun=Yes	11
+4	4	4	NUM	Animacy=Inan Gender=Masc Number=Plur NumForm=Digit NumType=Card	10	nummod	imienia	X	Abbr=Yes Pun=Yes	11
 im	im	imienia	X	Abbr=Yes Pun=Yes	11	nmod	numer	X	Abbr=Yes Pun=No	9
 <g/>
 .	.	.	PUNCT	PunctType=Peri	12	punct	imienia	X	Abbr=Yes Pun=Yes	11
@@ -346,7 +355,7 @@ komisji	komisji	komisja	NOUN	Case=Gen Gender=Fem Number=Sing	21	nmod	sprawozdani
 w	w	w	ADP	AdpType=Prep Variant=Short	2	case	druk	NOUN	Animacy=Inan Case=Loc Gender=Masc Number=Sing	3
 druku	druku	druk	NOUN	Animacy=Inan Case=Loc Gender=Masc Number=Sing	3	root	-	-	-	-
 nr	nr	numer	X	Abbr=Yes Pun=No	4	nmod	druk	NOUN	Animacy=Inan Case=Loc Gender=Masc Number=Sing	3
-941	941	941	X	Animacy=Inan Case=Nom Gender=Masc NumForm=Digit NumType=Card Number=Plur	5	nummod_gov	S	X	Abbr=Yes Pun=Yes	6
+941	941	941	X	Animacy=Inan Case=Nom Gender=Masc Number=Plur NumForm=Digit NumType=Card	5	nummod_gov	S	X	Abbr=Yes Pun=Yes	6
 S	S	S	X	Abbr=Yes Pun=Yes	6	nmod	numer	X	Abbr=Yes Pun=No	4
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	druk	NOUN	Animacy=Inan Case=Loc Gender=Masc Number=Sing	3
@@ -445,11 +454,11 @@ mną	mną	ja	PRON	Animacy=Hum Case=Ins Gender=Masc Number=Sing Person=1 PronType
 ,	,	,	PUNCT	PunctType=Comm	17	punct	zatytułować	ADJ	Animacy=Inan Aspect=Perf Case=Nom Gender=Masc Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	18
 zatytułowany	zatytułowany	zatytułować	ADJ	Animacy=Inan Aspect=Perf Case=Nom Gender=Masc Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	18	acl_relcl	projekt	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	9
 <g/>
-:	:	:		UPosTag= PUNCT PunctType=Colo	19	punct	zatytułować	ADJ	Animacy=Inan Aspect=Perf Case=Nom Gender=Masc Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	18
+:	:	:	PUNCT	PunctType=Colo	19	punct	zatytułować	ADJ	Animacy=Inan Aspect=Perf Case=Nom Gender=Masc Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	18
 w	w	w	ADP	AdpType=Prep Variant=Short	20	case	rocznica	NOUN	Case=Acc Gender=Fem Number=Sing	23
-100	100	100	ADJ	Case=Loc Degree=Pos Gender=Fem NumForm=Digit NumType=Ord Number=Sing	21	amod	rocznica	NOUN	Case=Acc Gender=Fem Number=Sing	23
+100	100	100	ADJ	Case=Loc Degree=Pos Gender=Fem Number=Sing NumForm=Digit NumType=Ord	21	amod	rocznica	NOUN	Case=Acc Gender=Fem Number=Sing	23
 <g/>
-.	.	.	PUNCT	PunctType=Peri	22	punct	100	ADJ	Case=Loc Degree=Pos Gender=Fem NumForm=Digit NumType=Ord Number=Sing	21
+.	.	.	PUNCT	PunctType=Peri	22	punct	100	ADJ	Case=Loc Degree=Pos Gender=Fem Number=Sing NumForm=Digit NumType=Ord	21
 rocznicę	rocznicę	rocznica	NOUN	Case=Acc Gender=Fem Number=Sing	23	obl	zatytułować	ADJ	Animacy=Inan Aspect=Perf Case=Nom Gender=Masc Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	18
 urodzin	urodzin	urodziny	NOUN	Case=Gen Gender=Neut Number=Ptan	24	nmod_arg	rocznica	NOUN	Case=Acc Gender=Fem Number=Sing	23
 księdza	księdza	ksiądz	NOUN	Animacy=Hum Case=Gen Gender=Masc Number=Sing	25	nmod	urodziny	NOUN	Case=Gen Gender=Neut Number=Ptan	24
@@ -481,7 +490,7 @@ chciał	chciał	chcieć	VERB	Animacy=Hum Aspect=Imp Gender=Masc Mood=Ind Number=
 by	by	by	AUX	_	15	aux_cnd	chcieć	VERB	Animacy=Hum Aspect=Imp Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	14
 <g/>
 m	m	być	AUX	Aspect=Imp Clitic=Yes Number=Sing Person=1 Variant=Short	16	aux_clitic	chcieć	VERB	Animacy=Hum Aspect=Imp Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	14
-parę	parę	parę	DET	Case=Acc Gender=Neut NumType=Card Number=Plur PronType=Ind	17	det_numgov	słowo	NOUN	Case=Gen Gender=Neut Number=Plur	18
+parę	parę	parę	DET	Case=Acc Gender=Neut Number=Plur NumType=Card PronType=Ind	17	det_numgov	słowo	NOUN	Case=Gen Gender=Neut Number=Plur	18
 słów	słów	słowo	NOUN	Case=Gen Gender=Neut Number=Plur	18	obj	powiedzieć	VERB	Aspect=Perf VerbForm=Inf Voice=Act	19
 powiedzieć	powiedzieć	powiedzieć	VERB	Aspect=Perf VerbForm=Inf Voice=Act	19	xcomp	chcieć	VERB	Animacy=Hum Aspect=Imp Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	14
 <g/>
@@ -564,6 +573,9 @@ poklaskać	poklaskać	poklaskać	VERB	Aspect=Imp VerbForm=Inf Voice=Act	4	xcomp	
 /Oklaski/	_	_	_	_	_	_	_	_	_	_
 </note>
 </speech>
+<note type="gap::editorial">
+/SAMPLING/	_	_	_	_	_	_	_	_	_	_
+</note>
 <speech id="ParlaMint-PL_2018-09-27-senat-65-2.u356" speaker_id="RadziwiłłKonstanty" speaker_name="Radziwiłł, Konstanty" speaker_role="Regular" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" speaker_gender="M" speaker_birth="1958">
 <p id="seg747831" lang="Polish">
 <s id="seg747831.1">
@@ -647,7 +659,7 @@ do	do	do	ADP	AdpType=Prep	3	case	jutro	NOUN	Case=Gen Gender=Neut Number=Sing	4
 jutra	jutra	jutro	NOUN	Case=Gen Gender=Neut Number=Sing	4	obl	ogłaszać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 do	do	do	ADP	AdpType=Prep	5	case	godzina	NOUN	Case=Gen Gender=Fem Number=Sing	6
 godziny	godziny	godzina	NOUN	Case=Gen Gender=Fem Number=Sing	6	obl	ogłaszać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
-9.00	9.00	9.00	ADJ	Case=Gen Degree=Pos Gender=Fem NumForm=Digit NumType=Ord Number=Sing	7	amod	godzina	NOUN	Case=Gen Gender=Fem Number=Sing	6
+9.00	9.00	9.00	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Sing NumForm=Digit NumType=Ord	7	amod	godzina	NOUN	Case=Gen Gender=Fem Number=Sing	6
 <g/>
 .	.	.	PUNCT	PunctType=Peri	8	punct	ogłaszać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
@@ -659,13 +671,13 @@ rozpoczniemy	rozpoczniemy	rozpocząć	VERB	Aspect=Perf Mood=Ind Number=Plur Pers
 obrady	obrady	obrady	NOUN	Case=Acc Gender=Neut Number=Ptan	3	obj	rozpocząć	VERB	Aspect=Perf Mood=Ind Number=Plur Person=1 Tense=Fut VerbForm=Fin Voice=Act	2
 o	o	o	ADP	AdpType=Prep	4	case	godzina	NOUN	Case=Loc Gender=Fem Number=Sing	5
 godzinie	godzinie	godzina	NOUN	Case=Loc Gender=Fem Number=Sing	5	nmod	obrady	NOUN	Case=Acc Gender=Neut Number=Ptan	3
-9.00	9.00	9.00	ADJ	Case=Loc Degree=Pos Gender=Fem NumForm=Digit NumType=Ord Number=Sing	6	amod	godzina	NOUN	Case=Loc Gender=Fem Number=Sing	5
+9.00	9.00	9.00	ADJ	Case=Loc Degree=Pos Gender=Fem Number=Sing NumForm=Digit NumType=Ord	6	amod	godzina	NOUN	Case=Loc Gender=Fem Number=Sing	5
 od	od	od	ADP	AdpType=Prep Variant=Short	7	case	rozpatrzyć	NOUN	Aspect=Perf Case=Gen Gender=Neut Number=Sing Polarity=Pos VerbForm=Vnoun	8
 rozpatrzenia	rozpatrzenia	rozpatrzyć	NOUN	Aspect=Perf Case=Gen Gender=Neut Number=Sing Polarity=Pos VerbForm=Vnoun	8	obl	rozpocząć	VERB	Aspect=Perf Mood=Ind Number=Plur Person=1 Tense=Fut VerbForm=Fin Voice=Act	2
 punktu	punktu	punkt	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	9	obj	rozpatrzyć	NOUN	Aspect=Perf Case=Gen Gender=Neut Number=Sing Polarity=Pos VerbForm=Vnoun	8
 czternastego	czternastego	czternasty	ADJ	Animacy=Inan Case=Gen Degree=Pos Gender=Masc Number=Sing	10	amod	punkt	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	9
 <g/>
-:	:	:		UPosTag= PUNCT PunctType=Colo	11	punct	czytać	NOUN	Aspect=Imp Case=Nom Gender=Neut Number=Sing Polarity=Pos VerbForm=Vnoun	13
+:	:	:	PUNCT	PunctType=Colo	11	punct	czytać	NOUN	Aspect=Imp Case=Nom Gender=Neut Number=Sing Polarity=Pos VerbForm=Vnoun	13
 drugie	drugie	drugi	ADJ	Case=Nom Degree=Pos Gender=Neut Number=Sing	12	amod	czytać	NOUN	Aspect=Imp Case=Nom Gender=Neut Number=Sing Polarity=Pos VerbForm=Vnoun	13
 czytanie	czytanie	czytać	NOUN	Aspect=Imp Case=Nom Gender=Neut Number=Sing Polarity=Pos VerbForm=Vnoun	13	nsubj	rozpocząć	VERB	Aspect=Perf Mood=Ind Number=Plur Person=1 Tense=Fut VerbForm=Fin Voice=Act	2
 projektu	projektu	projekt	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	14	obj	czytać	NOUN	Aspect=Imp Case=Nom Gender=Neut Number=Sing Polarity=Pos VerbForm=Vnoun	13
@@ -685,7 +697,7 @@ Wojtyły	Wojtyły	Wojtyła	PROPN	Case=Gen Gender=Fem Number=Sing	22	flat	Karol	P
 <name type="PER">
 Jana	Jana	Jan	PROPN	Animacy=Hum Case=Acc Gender=Masc Number=Sing	2	root	-	-	-	-
 Pawła	Pawła	Paweł	PROPN	Animacy=Hum Case=Gen Gender=Masc Number=Sing	3	flat	Jan	PROPN	Animacy=Hum Case=Acc Gender=Masc Number=Sing	2
-II	II	II	ADJ	Animacy=Hum Case=Gen Degree=Pos Gender=Masc NumForm=Roman NumType=Ord Number=Sing	4	flat	Paweł	PROPN	Animacy=Hum Case=Gen Gender=Masc Number=Sing	3
+II	II	II	ADJ	Animacy=Hum Case=Gen Degree=Pos Gender=Masc Number=Sing NumForm=Roman NumType=Ord	4	flat	Paweł	PROPN	Animacy=Hum Case=Gen Gender=Masc Number=Sing	3
 </name>
 na	na	na	ADP	AdpType=Prep	5	case	stolica	NOUN	Case=Acc Gender=Fem Number=Sing	6
 Stolicę	Stolicę	stolica	NOUN	Case=Acc Gender=Fem Number=Sing	6	obl	Jan	PROPN	Animacy=Hum Case=Acc Gender=Masc Number=Sing	2
@@ -715,5 +727,8 @@ rozpatrzeniu	rozpatrzeniu	rozpatrzyć	NOUN	Aspect=Perf Case=Loc Gender=Neut Numb
 .	.	.	PUNCT	PunctType=Peri	18	punct	odbyć	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin Voice=Act	12
 </s>
 </p>
+<note type="time">
+/Przerwa w posiedzeniu o godzinie 17 minut 25/	_	_	_	_	_	_	_	_	_	_
+</note>
 </speech>
 </text>

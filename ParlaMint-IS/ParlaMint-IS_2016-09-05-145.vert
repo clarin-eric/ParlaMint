@@ -96,6 +96,9 @@ húsnæðismálaráðherra	húsnæðismálaráðherra	húsnæðismálaráðherra
 </s>
 </p>
 </speech>
+<note type="gap::editorial">
+/SAMPLING/	_	_	_	_	_	_	_	_	_	_
+</note>
 <speech id="ParlaMint-IS_2016-09-05-145.u55" speaker_id="HelgiGunnarsson" speaker_name="Gunnarsson, Helgi Hrafn" speaker_role="Regular" speaker_type="MP" speaker_party="P" speaker_party_name="Píratar" speaker_gender="M" speaker_birth="1980">
 <p id="ParlaMint-IS_2016-09-05-145.seg149" lang="">
 <s id="ParlaMint-IS_2016-09-05-145.seg149.1">

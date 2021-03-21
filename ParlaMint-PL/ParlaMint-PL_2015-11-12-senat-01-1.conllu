@@ -308,7 +308,7 @@
 9	z	z	ADP	_	AdpType=Prep|Variant=Short	11	case	_	NER=O
 10	całą	cały	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	NER=O
 11	mocą	moc	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	8	obl:arg	_	NER=O|SpaceAfter=No
-12	:	:		_	PUNCT|PunctType=Colo|UPosTag=	11	punct	_	NER=O
+12	:	:	PUNCT	_	PunctType=Colo	11	punct	_	NER=O
 13	Szanowni	szanowny	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	NER=O
 14	Państwo	państwo	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	20	vocative	_	NER=O|SpaceAfter=No
 15	,	,	PUNCT	_	PunctType=Comm	14	punct	_	NER=O
@@ -913,7 +913,7 @@
 7	główne	główny	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	NER=O
 8	zadanie	zadanie	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	NER=O
 9	Senatu	senat	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	NER=B-ORG|SpaceAfter=No
-10	:	:		_	PUNCT|PunctType=Colo|UPosTag=	8	punct	_	NER=O
+10	:	:	PUNCT	_	PunctType=Colo	8	punct	_	NER=O
 11	poprawić	poprawić	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	parataxis:obj	_	NER=O
 12	to	to	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	11	obj	_	NER=O|SpaceAfter=No
 13	,	,	PUNCT	_	PunctType=Comm	16	punct	_	NER=O
@@ -1162,7 +1162,7 @@
 108	trakcie	trakt	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	107	fixed	_	NER=O
 109	kampanii	kampania	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	106	obl	_	NER=O
 110	wyborczej	wyborczy	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	109	amod	_	NER=O|SpaceAfter=No
-111	:	:		_	PUNCT|PunctType=Colo|UPosTag=	106	punct	_	NER=O
+111	:	:	PUNCT	_	PunctType=Colo	106	punct	_	NER=O
 112	o	o	ADP	_	AdpType=Prep	114	case	_	NER=O
 113	dobrej	dobry	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	114	amod	_	NER=O
 114	zmianie	zmiana	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	109	nmod	_	NER=O
@@ -1592,7 +1592,7 @@
 6	państwo	państwo	NOUN	_	Case=Nom|Gender=Neut|Number=Ptan	7	nsubj	_	NER=O
 7	wiedzieli	wiedzieć	VERB	_	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	NER=O
 8	jedno	jeden	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	iobj	_	NER=O|SpaceAfter=No
-9	:	:		_	PUNCT|PunctType=Colo|UPosTag=	7	punct	_	NER=O
+9	:	:	PUNCT	_	PunctType=Colo	7	punct	_	NER=O
 10	ja	ja	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	NER=O
 11	rozumiem	rozumieć	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	NER=O|SpaceAfter=No
 12	,	,	PUNCT	_	PunctType=Comm	16	punct	_	NER=O
@@ -1991,7 +1991,7 @@
 11	uroczystość	uroczystość	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	7	obl:arg	_	NER=O
 12	naszych	nasz	DET	_	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	13	det:poss	_	NER=O
 13	gości	gość	NOUN	_	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	7	obj	_	NER=O|SpaceAfter=No
-14	:	:		_	PUNCT|PunctType=Colo|UPosTag=	13	punct	_	NER=O
+14	:	:	PUNCT	_	PunctType=Colo	13	punct	_	NER=O
 15	pana	pan	NOUN	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing	13	appos	_	NER=O
 16	Marka	Marek	PROPN	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing	15	appos	_	NER=B-PER
 17	Kuchcińskiego	Kuchciński	PROPN	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing	16	flat	_	NER=I-PER|SpaceAfter=No
@@ -2099,7 +2099,7 @@
 2	przedstawicieli	przedstawiciel	NOUN	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur	1	obj	_	NER=O
 3	wymiaru	wymiar	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	NER=O
 4	sprawiedliwości	sprawiedliwość	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	NER=O|SpaceAfter=No
-5	:	:		_	PUNCT|PunctType=Colo|UPosTag=	2	punct	_	NER=O
+5	:	:	PUNCT	_	PunctType=Colo	2	punct	_	NER=O
 6	pana	pan	NOUN	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing	2	appos	_	NER=O
 7	Stanisława	Stanisław	PROPN	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing	6	appos	_	NER=B-PER
 8	Biernata	Biernat	PROPN	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing	7	flat	_	NER=I-PER|SpaceAfter=No
@@ -2941,7 +2941,7 @@
 25	ze	z	ADP	_	AdpType=Prep|Variant=Long	27	case	_	NER=O
 26	starożytną	starożytny	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	NER=O
 27	maksymą	maksyma	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	24	obl:arg	_	NER=O|SpaceAfter=No
-28	:	:		_	PUNCT|PunctType=Colo|UPosTag=	27	punct	_	NER=O
+28	:	:	PUNCT	_	PunctType=Colo	27	punct	_	NER=O
 29	salus	Salus	INTJ	_	_	30	nmod	_	NER=O
 30	rei	reja	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	27	nmod	_	NER=O
 31	publicae	publicae	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	30	nmod	_	NER=O
@@ -3066,7 +3066,7 @@
 17	najmłodszych	najmłodsi	ADJ	_	Animacy=Inan|Case=Gen|Degree=Sup|Gender=Masc|Number=Plur	18	amod	_	NER=O
 18	wiekiem	wiek	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	nmod	_	NER=O
 19	senatorów	senator	NOUN	_	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	NER=O|SpaceAfter=No
-20	:	:		_	PUNCT|PunctType=Colo|UPosTag=	19	punct	_	NER=O
+20	:	:	PUNCT	_	PunctType=Colo	19	punct	_	NER=O
 21	senatora	senator	NOUN	_	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	19	appos	_	NER=O
 22	Rafała	Rafał	PROPN	_	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	21	appos	_	NER=B-PER
 23	Michała	Michał	PROPN	_	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	22	flat	_	NER=B-PER
@@ -3444,7 +3444,7 @@
 # text = Porządek obrad: pierwsze czytanie projektu uchwały Senatu w sprawie zmiany Regulaminu Senatu; druk nr 7.
 1	Porządek	porządek	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	NER=O
 2	obrad	obrady	NOUN	_	Case=Gen|Gender=Neut|Number=Ptan	1	nmod:arg	_	NER=O|SpaceAfter=No
-3	:	:		_	PUNCT|PunctType=Colo|UPosTag=	1	punct	_	NER=O
+3	:	:	PUNCT	_	PunctType=Colo	1	punct	_	NER=O
 4	pierwsze	pierwszy	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	NER=O
 5	czytanie	czytanie	NOUN	_	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	1	nmod	_	NER=O
 6	projektu	projekt	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obj	_	NER=O

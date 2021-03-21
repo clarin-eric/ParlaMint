@@ -1,4 +1,7 @@
 <text id="ParlaMint-HR_S12.ana" subcorpus="Reference" term="9" session="12" meeting="-" sitting="-" agenda="-" from="2019-05-09" to="2019-07-18" title="Minutes of the National Assembly of the Republic of Croatia, Term 9, Session 12 (2019-05-09 - 2019-07-18)">
+<note type="head">
+/12. sjednica/	_	_	_	_	_	_	_	_	_	_
+</note>
 <speech id="ParlaMint-HR_S12.u1" speaker_id="JandrokovićGordan" speaker_name="Jandroković, Gordan" speaker_role="Chairperson" speaker_type="MP" speaker_party="HDZ" speaker_party_name="Klub Hrvatske demokratske zajednice" speaker_gender="M" speaker_birth="1967">
 <p id="seg483205" lang="Croatian">
 <s id="seg483205.1">
@@ -267,6 +270,9 @@ izvolite	izvolite	izvoljeti	VERB	Mood=Imp Number=Plur Person=2 VerbForm=Fin	16	c
 </s>
 </p>
 </speech>
+<note type="gap::editorial">
+/SAMPLING/	_	_	_	_	_	_	_	_	_	_
+</note>
 <speech id="ParlaMint-HR_S12.u8641" speaker_id="BaukArsen" speaker_name="Bauk, Arsen" speaker_role="Regular" speaker_type="MP" speaker_party="SDP" speaker_party_name="Klub Socijaldemokratske partije Hrvatske" speaker_gender="M" speaker_birth="1973">
 <p id="seg526077" lang="Croatian">
 <s id="seg526077.1">

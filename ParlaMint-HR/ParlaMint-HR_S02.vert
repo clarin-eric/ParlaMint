@@ -1,4 +1,7 @@
 <text id="ParlaMint-HR_S02.ana" subcorpus="Reference" term="9" session="2" meeting="-" sitting="-" agenda="-" from="2016-11-29" to="2017-05-04" title="Minutes of the National Assembly of the Republic of Croatia, Term 9, Session 2 (2016-11-29 - 2017-05-04)">
+<note type="head">
+/2. sjednica/	_	_	_	_	_	_	_	_	_	_
+</note>
 <speech id="ParlaMint-HR_S02.u1" speaker_id="PetrovBožo" speaker_name="Petrov, Božo" speaker_role="Chairperson" speaker_type="MP" speaker_party="Most" speaker_party_name="Klub Mosta nezavisnih lista" speaker_gender="M" speaker_birth="1979">
 <p id="seg21209" lang="Croatian">
 <s id="seg21209.1">
@@ -345,6 +348,9 @@ potrebe	potrebe	potreba	NOUN	Case=Gen Gender=Fem Number=Sing	76	nmod	osnova	NOUN
 </s>
 </p>
 </speech>
+<note type="gap::editorial">
+/SAMPLING/	_	_	_	_	_	_	_	_	_	_
+</note>
 <speech id="ParlaMint-HR_S02.u3940" speaker_id="PetrovBožo" speaker_name="Petrov, Božo" speaker_role="Chairperson" speaker_type="MP" speaker_party="Most" speaker_party_name="Klub Mosta nezavisnih lista" speaker_gender="M" speaker_birth="1979">
 <p id="seg42678" lang="Croatian">
 <s id="seg42678.1">
@@ -439,7 +445,7 @@ i	i	i	CCONJ	_	38	cc	stvarati	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbF
 s	s	sa	ADP	Case=Ins	39	case	taj	DET	Case=Ins Gender=Neut Number=Sing PronType=Dem	40
 time	time	taj	DET	Case=Ins Gender=Neut Number=Sing PronType=Dem	40	obl	stvarati	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	41
 stvaraju	stvaraju	stvarati	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	41	conj	poslovati	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	37
-jednu	jednu	jedan	NUM	Case=Acc Gender=Fem NumType=Card Number=Sing	42	nummod	klima	NOUN	Case=Acc Gender=Fem Number=Sing	44
+jednu	jednu	jedan	NUM	Case=Acc Gender=Fem Number=Sing NumType=Card	42	nummod	klima	NOUN	Case=Acc Gender=Fem Number=Sing	44
 negativnu	negativnu	negativan	ADJ	Case=Acc Definite=Def Degree=Pos Gender=Fem Number=Sing	43	amod	klima	NOUN	Case=Acc Gender=Fem Number=Sing	44
 klimu	klimu	klima	NOUN	Case=Acc Gender=Fem Number=Sing	44	obj	stvarati	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	41
 ovdje	ovdje	ovdje	ADV	Degree=Pos PronType=Dem	45	advmod	stvarati	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	41
@@ -458,7 +464,7 @@ da	da	da	SCONJ	_	55	mark	znati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres Ver
 hrvatska	hrvatska	hrvatski	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Fem Number=Sing	56	amod	država	NOUN	Case=Nom Gender=Fem Number=Sing	57
 država	država	država	NOUN	Case=Nom Gender=Fem Number=Sing	57	nsubj	znati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	67
 kao	kao	kao	SCONJ	_	58	case	suvlasnik	NOUN	Case=Gen Gender=Masc Number=Plur	61
-jedan	jedan	jedan	NUM	Case=Nom Gender=Masc NumType=Card Number=Sing	59	nummod	suvlasnik	NOUN	Case=Gen Gender=Masc Number=Plur	61
+jedan	jedan	jedan	NUM	Case=Nom Gender=Masc Number=Sing NumType=Card	59	nummod	suvlasnik	NOUN	Case=Gen Gender=Masc Number=Plur	61
 od	od	od	ADP	Case=Gen	60	case	suvlasnik	NOUN	Case=Gen Gender=Masc Number=Plur	61
 suvlasnika	suvlasnika	suvlasnik	NOUN	Case=Gen Gender=Masc Number=Plur	61	nmod	država	NOUN	Case=Nom Gender=Fem Number=Sing	57
 u	u	u	ADP	Case=Loc	62	case	upravljanje	NOUN	Case=Loc Gender=Neut Number=Sing	63
@@ -583,7 +589,7 @@ neprihvatljiva	neprihvatljiva	neprihvatljiv	ADJ	Case=Nom Definite=Def Degree=Pos
 i	i	i	CCONJ	_	9	cc	morati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	15
 da	da	da	SCONJ	_	10	mark	morati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	15
 makar	makar	makar	SCONJ	_	11	mark	morati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	15
-jedan	jedan	jedan	NUM	Case=Nom Gender=Masc NumType=Card Number=Sing	12	nummod	dio	NOUN	Case=Nom Gender=Masc Number=Sing	13
+jedan	jedan	jedan	NUM	Case=Nom Gender=Masc Number=Sing NumType=Card	12	nummod	dio	NOUN	Case=Nom Gender=Masc Number=Sing	13
 dio	dio	dio	NOUN	Case=Nom Gender=Masc Number=Sing	13	nsubj	morati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	15
 kulture	kulture	kultura	NOUN	Case=Gen Gender=Fem Number=Sing	14	nmod	dio	NOUN	Case=Nom Gender=Masc Number=Sing	13
 mora	mora	morati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	15	conj	neprihvatljiv	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Fem Number=Sing	8
@@ -891,8 +897,8 @@ prije	prije	prije	ADV	Degree=Pos	10	conj	jučer	ADV	Degree=Pos	5
 radi	radi	raditi	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	12	conj	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin	3
 se	se	sebe	PRON	Case=Acc PronType=Prs Reflex=Yes	13	expl_pv	raditi	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	12
 o	o	o	ADP	Case=Loc	14	case	kompanija	NOUN	Case=Loc Gender=Fem Number=Sing	17
-samo	samo	samo	ADV	Degree=Pos	15	advmod	jedan	NUM	Case=Loc Gender=Fem NumType=Card Number=Sing	16
-jednoj	jednoj	jedan	NUM	Case=Loc Gender=Fem NumType=Card Number=Sing	16	nummod	kompanija	NOUN	Case=Loc Gender=Fem Number=Sing	17
+samo	samo	samo	ADV	Degree=Pos	15	advmod	jedan	NUM	Case=Loc Gender=Fem Number=Sing NumType=Card	16
+jednoj	jednoj	jedan	NUM	Case=Loc Gender=Fem Number=Sing NumType=Card	16	nummod	kompanija	NOUN	Case=Loc Gender=Fem Number=Sing	17
 kompaniji	kompaniji	kompanija	NOUN	Case=Loc Gender=Fem Number=Sing	17	obl	raditi	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	12
 <g/>
 .	.	.	PUNCT	_	18	punct	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin	3
@@ -904,10 +910,10 @@ Prema	Prema	prema	ADP	Case=Loc	1	case	taj	DET	Case=Loc Gender=Neut Number=Sing P
 tome	tome	taj	DET	Case=Loc Gender=Neut Number=Sing PronType=Dem	2	discourse	moći	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	34
 <g/>
 ,	,	,	PUNCT	_	3	punct	taj	DET	Case=Loc Gender=Neut Number=Sing PronType=Dem	2
-jedan	jedan	jedan	NUM	Case=Nom Gender=Masc NumType=Card Number=Sing	4	nummod	zakon	NOUN	Case=Nom Gender=Masc Number=Sing	5
+jedan	jedan	jedan	NUM	Case=Nom Gender=Masc Number=Sing NumType=Card	4	nummod	zakon	NOUN	Case=Nom Gender=Masc Number=Sing	5
 zakon	zakon	zakon	NOUN	Case=Nom Gender=Masc Number=Sing	5	nsubj	moći	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	34
 o	o	o	ADP	Case=Loc	6	case	kompanija	NOUN	Case=Loc Gender=Fem Number=Sing	8
-jednoj	jednoj	jedan	NUM	Case=Loc Gender=Fem NumType=Card Number=Sing	7	nummod	kompanija	NOUN	Case=Loc Gender=Fem Number=Sing	8
+jednoj	jednoj	jedan	NUM	Case=Loc Gender=Fem Number=Sing NumType=Card	7	nummod	kompanija	NOUN	Case=Loc Gender=Fem Number=Sing	8
 kompaniji	kompaniji	kompanija	NOUN	Case=Loc Gender=Fem Number=Sing	8	nmod	zakon	NOUN	Case=Nom Gender=Masc Number=Sing	5
 gdje	gdje	gdje	ADV	Degree=Pos PronType=Int,Rel	9	advmod	ući	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part Voice=Act	12
 najveći	najveći	velik	ADJ	Case=Nom Definite=Def Degree=Sup Gender=Masc Number=Plur	10	amod	dioničar	NOUN	Case=Nom Gender=Masc Number=Plur	11
