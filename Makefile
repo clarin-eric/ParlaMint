@@ -137,9 +137,10 @@ test-val:
 	$s -xsl:Scripts/validate-parlamint.xsl ParlaMint-SI/ParlaMint-SI_2014-08-25_SDZ7-Izredna-01.ana.xml
 
 # Validate and derived format for 1 language
-LANG = IS
+LANG = HU
 PREF = /project/corpora/Parla/ParlaMint/ParlaMint
-all-lang:	val-pc-lang val-lang text-lang chars-lang vert-lang vertana-lang conllu-lang
+all-lang-tei:	val-pc-lang val-lang text-lang chars-lang
+all-lang-ana:	vert-lang vertana-lang conllu-lang
 xall-lang:	val-pc-lang val-lang text-lang chars-lang vert-lang vertana-lang conllu-lang
 chars-lang:
 	rm -f ParlaMint-${LANG}/chars-files-${LANG}.txt
