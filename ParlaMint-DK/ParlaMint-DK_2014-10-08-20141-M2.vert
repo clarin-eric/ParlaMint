@@ -1,4 +1,10 @@
 <text id="ParlaMint-DK_2014-10-08-20141-M2.ana" subcorpus="Reference" term="-" session="20141" meeting="-" sitting="2" agenda="-" from="2014-10-08" to="2014-10-08" title="Hansard of the session of the Danish Parliament (Folketinget), 20141, M2 (2014-10-08), final version">
+<note type="head">
+/Punkt 0/	_	_	_	_	_	_	_	_	_	_
+</note>
+<note type="agendaItem">
+/2014-10-08-0/	_	_	_	_	_	_	_	_	_	_
+</note>
 <speech id="ParlaMint-DK_20141008130000" speaker_id="LykketoftMogens" speaker_name="Lykketoft, Mogens" speaker_role="Chairperson" speaker_type="MP" speaker_party="S" speaker_party_name="Socialdemokratiet" speaker_gender="M" speaker_birth="1946">
 <p id="ParlaMint-DK_20141008130000.seg1" lang="Danish">
 <s id="ParlaMint-DK_20141008130000.seg1.1">
@@ -960,10 +966,10 @@ for	for	for	ADP	AdpType=Prep	21	case	værdipolitik	NOUN	Definite=Ind Gender=Com 
 regeringens	regeringens	regering	NOUN	Case=Gen Definite=Def Gender=Com Number=Sing	22	nmod_poss	værdipolitik	NOUN	Definite=Ind Gender=Com Number=Sing	23
 værdipolitik	værdipolitik	værdipolitik	NOUN	Definite=Ind Gender=Com Number=Sing	23	obl	redegøre	VERB	VerbForm=Inf Voice=Act	20
 med	med	med	ADP	AdpType=Prep	24	case	fokus	NOUN	Definite=Ind Number=Sing	25
-fokus	fokus	fokus	NOUN	Definite=Ind Number=Sing	25	nmod	værdipolitik	NOUN	Definite=Ind Gender=Com Number=Sing	23
+fokus	fokus	fokus	NOUN	Definite=Ind Number=Sing	25	obl	redegøre	VERB	VerbForm=Inf Voice=Act	20
 på	på	på	ADP	AdpType=Prep	26	case	udfordring	NOUN	Definite=Ind Gender=Com Number=Plur	28
 de	de	de	DET	Number=Plur PronType=Dem	27	det	udfordring	NOUN	Definite=Ind Gender=Com Number=Plur	28
-udfordringer	udfordringer	udfordring	NOUN	Definite=Ind Gender=Com Number=Plur	28	nmod	værdipolitik	NOUN	Definite=Ind Gender=Com Number=Sing	23
+udfordringer	udfordringer	udfordring	NOUN	Definite=Ind Gender=Com Number=Plur	28	nmod	fokus	NOUN	Definite=Ind Number=Sing	25
 <g/>
 ,	,	,	PUNCT	_	29	punct	udfordring	NOUN	Definite=Ind Gender=Com Number=Plur	28
 der	der	der	PRON	PartType=Inf	30	nsubj	følge	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	31
@@ -972,37 +978,33 @@ af	af	af	ADP	AdpType=Prep	32	case	indvandring	NOUN	Definite=Def Gender=Com Numbe
 indvandringen	indvandringen	indvandring	NOUN	Definite=Def Gender=Com Number=Sing	33	obl	følge	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	31
 <g/>
 ,	,	,	PUNCT	_	34	punct	følge	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	31
-og	og	og	CCONJ	_	35	cc	presser	NOUN	Definite=Ind Gender=Com Number=Plur	37
-som	som	som	ADP	PartType=Inf	36	case	presser	NOUN	Definite=Ind Gender=Com Number=Plur	37
-presser	presser	presser	NOUN	Definite=Ind Gender=Com Number=Plur	37	conj	værdipolitik	NOUN	Definite=Ind Gender=Com Number=Sing	23
+og	og	og	CCONJ	_	35	cc	presser/tvinger	NOUN	Definite=Ind Gender=Com Number=Plur	37
+som	som	som	ADP	PartType=Inf	36	case	presser/tvinger	NOUN	Definite=Ind Gender=Com Number=Plur	37
+presser/tvinger	presser/tvinger	presser/tvinger	NOUN	Definite=Ind Gender=Com Number=Plur	37	conj	fokus	NOUN	Definite=Ind Number=Sing	25
+danskerne	danskerne	dansker	NOUN	Definite=Def Gender=Com Number=Plur	38	nmod	presser/tvinger	NOUN	Definite=Ind Gender=Com Number=Plur	37
+til	til	til	ADP	AdpType=Prep	39	mark	ændre	VERB	VerbForm=Inf Voice=Act	41
+at	at	at	PART	PartType=Inf	40	mark	ændre	VERB	VerbForm=Inf Voice=Act	41
+ændre	ændre	ændre	VERB	VerbForm=Inf Voice=Act	41	advcl	dansker	NOUN	Definite=Def Gender=Com Number=Plur	38
+levevis	levevis	levevis	ADJ	Definite=Ind Degree=Pos Gender=Com Number=Sing	42	amod	ændre	VERB	VerbForm=Inf Voice=Act	41
+og	og	og	CCONJ	_	43	cc	adfærd	ADJ	Definite=Ind Degree=Pos Gender=Com Number=Sing	44
+adfærd	adfærd	adfærd	ADJ	Definite=Ind Degree=Pos Gender=Com Number=Sing	44	conj	levevis	ADJ	Definite=Ind Degree=Pos Gender=Com Number=Sing	42
+og	og	og	CCONJ	_	45	cc	rette	VERB	VerbForm=Inf Voice=Act	47
+»	»	»	PUNCT	_	46	punct	rette	VERB	VerbForm=Inf Voice=Act	47
 <g/>
-/	/	/	PUNCT	_	38	punct	presser	NOUN	Definite=Ind Gender=Com Number=Plur	37
+rette	rette	rette	VERB	VerbForm=Inf Voice=Act	47	conj	ændre	VERB	VerbForm=Inf Voice=Act	41
+ind	ind	ind	ADV	_	48	compound_prt	rette	VERB	VerbForm=Inf Voice=Act	47
 <g/>
-tvinger	tvinger	tvinge	NOUN	Definite=Ind Gender=Com Number=Plur	39	nmod	presser	NOUN	Definite=Ind Gender=Com Number=Plur	37
-danskerne	danskerne	dansker	NOUN	Definite=Def Gender=Com Number=Plur	40	nmod	presser	NOUN	Definite=Ind Gender=Com Number=Plur	37
-til	til	til	ADP	AdpType=Prep	41	mark	ændre	VERB	VerbForm=Inf Voice=Act	43
-at	at	at	PART	PartType=Inf	42	mark	ændre	VERB	VerbForm=Inf Voice=Act	43
-ændre	ændre	ændre	VERB	VerbForm=Inf Voice=Act	43	advcl	dansker	NOUN	Definite=Def Gender=Com Number=Plur	40
-levevis	levevis	levevis	ADJ	Definite=Ind Degree=Pos Gender=Com Number=Sing	44	amod	ændre	VERB	VerbForm=Inf Voice=Act	43
-og	og	og	CCONJ	_	45	cc	adfærd	ADJ	Definite=Ind Degree=Pos Gender=Com Number=Sing	46
-adfærd	adfærd	adfærd	ADJ	Definite=Ind Degree=Pos Gender=Com Number=Sing	46	conj	levevis	ADJ	Definite=Ind Degree=Pos Gender=Com Number=Sing	44
-og	og	og	CCONJ	_	47	cc	rette	VERB	VerbForm=Inf Voice=Act	49
-»	»	»	PUNCT	_	48	punct	rette	VERB	VerbForm=Inf Voice=Act	49
+«	«	«	PUNCT	_	49	punct	ind	ADV	_	48
+af	af	af	ADP	AdpType=Prep	50	case	hensyn	NOUN	Definite=Ind Gender=Neut Number=Sing	51
+hensyn	hensyn	hensyn	NOUN	Definite=Ind Gender=Neut Number=Sing	51	nmod	«	PUNCT	_	49
+til	til	til	ADP	AdpType=Prep	52	case	indvandrer	NOUN	Definite=Ind Gender=Com Number=Plur	53
+indvandrere	indvandrere	indvandrer	NOUN	Definite=Ind Gender=Com Number=Plur	53	nmod	hensyn	NOUN	Definite=Ind Gender=Neut Number=Sing	51
 <g/>
-rette	rette	rette	VERB	VerbForm=Inf Voice=Act	49	conj	ændre	VERB	VerbForm=Inf Voice=Act	43
-ind	ind	ind	ADV	_	50	compound_prt	rette	VERB	VerbForm=Inf Voice=Act	49
+?	?	?	PUNCT	_	54	punct	hensyn	NOUN	Definite=Ind Gender=Neut Number=Sing	51
 <g/>
-«	«	«	PUNCT	_	51	punct	ind	ADV	_	50
-af	af	af	ADP	AdpType=Prep	52	case	hensyn	NOUN	Definite=Ind Gender=Neut Number=Sing	53
-hensyn	hensyn	hensyn	NOUN	Definite=Ind Gender=Neut Number=Sing	53	nmod	«	PUNCT	_	51
-til	til	til	ADP	AdpType=Prep	54	case	indvandrer	NOUN	Definite=Ind Gender=Com Number=Plur	55
-indvandrere	indvandrere	indvandrer	NOUN	Definite=Ind Gender=Com Number=Plur	55	nmod	hensyn	NOUN	Definite=Ind Gender=Neut Number=Sing	53
+)	)	)	PUNCT	_	55	punct	hensyn	NOUN	Definite=Ind Gender=Neut Number=Sing	51
 <g/>
-?	?	?	PUNCT	_	56	punct	hensyn	NOUN	Definite=Ind Gender=Neut Number=Sing	53
-<g/>
-)	)	)	PUNCT	_	57	punct	hensyn	NOUN	Definite=Ind Gender=Neut Number=Sing	53
-<g/>
-.	.	.	PUNCT	_	58	punct	redegøre	VERB	VerbForm=Inf Voice=Act	20
+.	.	.	PUNCT	_	56	punct	redegøre	VERB	VerbForm=Inf Voice=Act	20
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.33">
 <name type="PER">
@@ -1412,6 +1414,15 @@ www.folketingstidende.dk.	www.folketingstidende.dk.	www.folketingstidende.dk.	NO
 </s>
 </p>
 </speech>
+<note type="gap::editorial">
+/SAMPLING/	_	_	_	_	_	_	_	_	_	_
+</note>
+<note type="head">
+/Valg af stående udvalg m.v./	_	_	_	_	_	_	_	_	_	_
+</note>
+<note type="agendaItem">
+/2014-10-08-1/	_	_	_	_	_	_	_	_	_	_
+</note>
 <speech id="ParlaMint-DK_20141008130437" speaker_id="LykketoftMogens" speaker_name="Lykketoft, Mogens" speaker_role="Chairperson" speaker_type="MP" speaker_party="S" speaker_party_name="Socialdemokratiet" speaker_gender="M" speaker_birth="1946">
 <p id="ParlaMint-DK_20141008130437.seg2" lang="Danish">
 <s id="ParlaMint-DK_20141008130437.seg2.1">
@@ -14358,4 +14369,7 @@ V	V	V	PROPN	_	6569	flat	S	PROPN	_	6562
 </s>
 </p>
 </speech>
+<note type="gap::editorial">
+/SAMPLING/	_	_	_	_	_	_	_	_	_	_
+</note>
 </text>
