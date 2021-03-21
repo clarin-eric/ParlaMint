@@ -137,9 +137,9 @@ test-val:
 	$s -xsl:Scripts/validate-parlamint.xsl ParlaMint-SI/ParlaMint-SI_2014-08-25_SDZ7-Izredna-01.ana.xml
 
 # Validate and produce char counts for 1 language
-LANG = SI
+LANG = IT
 PREF = /project/corpora/Parla/ParlaMint/ParlaMint
-all-lang:	val-pc-lang val-lang vertana-lang text-lang chars-lang
+all-lang:	val-pc-lang val-lang text-lang chars-lang
 xall-lang:	val-pc-lang val-lang vert-lang vertana-lang text-lang chars-lang
 chars-lang:
 	rm -f ParlaMint-${LANG}/chars-files-${LANG}.txt

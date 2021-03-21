@@ -23,10 +23,10 @@
             <edition>1.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
-            <measure quantity="407" unit="speeches" xml:lang="it">407 discorsi</measure>
-            <measure quantity="407" unit="speeches" xml:lang="en">407 speeches</measure>
-            <measure quantity="58680" unit="words" xml:lang="it">58680 parole</measure>
-            <measure quantity="58680" unit="words" xml:lang="en">58680 words</measure>
+            <measure quantity="214348" unit="speeches" xml:lang="it">214348 discorsi</measure>
+            <measure quantity="214348" unit="speeches" xml:lang="en">214348 speeches</measure>
+            <measure quantity="26359320" unit="words" xml:lang="it">26359320 parole</measure>
+            <measure quantity="26359320" unit="words" xml:lang="en">26359320 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -43,12 +43,12 @@
                <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2021-03-17">2021-03-17</date>
+            <date when="2021-03-20">2021-03-20</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
                <title>Multilingual comparable corpora of parliamentary debates ParlaMint 2.0</title>
-               <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+               <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1388</idno>
             </bibl>
             <bibl>
                <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche d'aula del Senato della Repubblica italiana</title>
@@ -85,16 +85,16 @@
          </editorialDecl>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="div" occurs="42"/>
-               <tagUsage gi="head" occurs="37"/>
-               <tagUsage gi="note" occurs="232"/>
-               <tagUsage gi="seg" occurs="407"/>
-               <tagUsage gi="u" occurs="113"/>
-               <tagUsage gi="vocal" occurs="12"/>
-               <tagUsage gi="body" occurs="4"/>
-               <tagUsage gi="incident" occurs="3"/>
-               <tagUsage gi="kinesic" occurs="145"/>
-               <tagUsage gi="desc" occurs="160"/>
+               <tagUsage gi="div" occurs="15065"/>
+               <tagUsage gi="head" occurs="11590"/>
+               <tagUsage gi="note" occurs="192949"/>
+               <tagUsage gi="seg" occurs="214348"/>
+               <tagUsage gi="u" occurs="79409"/>
+               <tagUsage gi="vocal" occurs="8636"/>
+               <tagUsage gi="body" occurs="1200"/>
+               <tagUsage gi="kinesic" occurs="51570"/>
+               <tagUsage gi="incident" occurs="1401"/>
+               <tagUsage gi="desc" occurs="61607"/>
             </namespace>
          </tagsDecl>
          <classDecl>
@@ -1153,7 +1153,7 @@
                                from="2013-03-19"
                                ref="#party.M5S.1"
                                role="member"
-                               to="2015-04-22"/>
+                               to="2015-04-21"/>
                   <affiliation ana="#LEG.17"
                                from="2015-04-22"
                                ref="#party.M5S.1"
@@ -1496,7 +1496,7 @@
                                ref="#party.M5S.2"
                                role="member"/>
                   <affiliation ana="#LEG.17"
-                               from="2017-06-27"
+                               from="2017-12-21"
                                ref="#party.M5S.1"
                                role="vicePresident"
                                to="2018-03-22"/>
@@ -3776,7 +3776,7 @@
                                from="2015-01-16"
                                ref="#party.M5S.1"
                                role="vicePresident"
-                               to="2015-04-22"/>
+                               to="2015-04-21"/>
                   <affiliation ana="#LEG.17"
                                from="2015-04-22"
                                ref="#party.M5S.1"
@@ -4031,11 +4031,6 @@
                                ref="#LEG"
                                role="MP"
                                to="2018-03-22"/>
-                  <affiliation ana="#LEG.17"
-                               from="2013-03-15"
-                               ref="#LEG"
-                               role="MP"
-                               to="2018-03-22"/>
                   <affiliation from="2016-01-29"
                                ref="#GOV.RENZI.1"
                                role="deputyMinister"
@@ -4049,7 +4044,6 @@
                                role="minister"
                                to="2021-02-12"/>
                   <idno type="senato.it" xml:lang="it">http://www.senato.it/leg/17/BGT/Schede/Attsen/00029257.htm</idno>
-                  <idno type="senato.it" xml:lang="it">http://www.senato.it/leg/18/BGT/Schede/Attsen/00029257.htm</idno>
                </person>
                <person xml:id="CalendaCarlo">
                   <persName>
@@ -4369,7 +4363,7 @@
                                from="2018-03-27"
                                ref="#party.M5S.2"
                                role="member"
-                               to="2018-07-03"/>
+                               to="2018-07-02"/>
                   <affiliation ana="#LEG.18"
                                from="2018-07-03"
                                ref="#party.M5S.2"
@@ -5232,7 +5226,7 @@
                                from="2018-03-27"
                                ref="#party.M5S.2"
                                role="member"
-                               to="2018-07-03"/>
+                               to="2018-07-02"/>
                   <idno type="senato.it" xml:lang="it">http://www.senato.it/leg/18/BGT/Schede/Attsen/00032649.htm</idno>
                </person>
                <person xml:id="LAbbatePatty">
@@ -6823,11 +6817,6 @@
                                ref="#party.SCpI"
                                role="member"
                                to="2013-12-11"/>
-                  <affiliation ana="#LEG.17"
-                               from="2013-12-12"
-                               ref="#party.PI"
-                               role="vicePresident"
-                               to="2014-11-17"/>
                   <affiliation ana="#LEG.17"
                                from="2014-11-18"
                                ref="#party.GAL"
@@ -9682,7 +9671,7 @@
                                from="2016-09-13"
                                ref="#party.M5S.1"
                                role="member"
-                               to="2018-03-22"/>
+                               to="2016-12-19"/>
                   <affiliation ana="#LEG.18"
                                from="2018-07-03"
                                ref="#party.M5S.2"
@@ -9706,7 +9695,7 @@
                                from="2015-07-24"
                                ref="#party.M5S.1"
                                role="president"
-                               to="2015-11-02"/>
+                               to="2015-11-01"/>
                   <affiliation ana="#LEG.17"
                                from="2015-11-02"
                                ref="#party.M5S.1"
@@ -9722,6 +9711,11 @@
                                ref="#party.M5S.1"
                                role="secretary"
                                to="2017-06-26"/>
+                  <affiliation ana="#LEG.17"
+                               from="2017-06-27"
+                               ref="#party.M5S.1"
+                               role="member"
+                               to="2018-03-22"/>
                   <affiliation from="2019-09-13"
                                ref="#GOV.CONTE.2"
                                role="deputyMinister"
@@ -10785,7 +10779,7 @@
                                from="2015-11-02"
                                ref="#party.M5S.1"
                                role="member"
-                               to="2016-02-02"/>
+                               to="2016-02-01"/>
                   <affiliation ana="#LEG.17"
                                from="2016-02-02"
                                ref="#party.M5S.1"
@@ -11401,7 +11395,7 @@
                                from="2018-03-27"
                                ref="#party.M5S.2"
                                role="secretary"
-                               to="2018-07-03"/>
+                               to="2018-07-02"/>
                   <affiliation ana="#LEG.17"
                                from="2017-10-05"
                                ref="#party.M5S.1"
@@ -12796,7 +12790,7 @@
                                from="2014-04-14"
                                ref="#party.M5S.1"
                                role="member"
-                               to="2015-04-22"/>
+                               to="2015-04-21"/>
                   <affiliation ana="#LEG.18"
                                from="2018-03-27"
                                ref="#party.M5S.2"
@@ -13053,7 +13047,7 @@
                                from="2015-11-02"
                                ref="#party.M5S.1"
                                role="secretary"
-                               to="2016-02-02"/>
+                               to="2016-02-01"/>
                   <idno type="senato.it" xml:lang="it">http://www.senato.it/leg/17/BGT/Schede/Attsen/00029050.htm</idno>
                </person>
                <person xml:id="RossiMaurizio">
@@ -14159,11 +14153,6 @@
                                ref="#LEG"
                                role="MP"
                                to="2018-03-22"/>
-                  <affiliation ana="#LEG.17"
-                               from="2013-03-15"
-                               ref="#LEG"
-                               role="MP"
-                               to="2018-03-22"/>
                   <affiliation from="2013-05-03"
                                ref="#GOV.LETTA.1"
                                role="deputyMinister"
@@ -14181,7 +14170,6 @@
                                role="deputyMinister"
                                to="2021-02-12"/>
                   <idno type="senato.it" xml:lang="it">http://www.senato.it/leg/17/BGT/Schede/Attsen/00025563.htm</idno>
-                  <idno type="senato.it" xml:lang="it">http://www.senato.it/leg/18/BGT/Schede/Attsen/00025563.htm</idno>
                </person>
                <person xml:id="PolilloGianfranco">
                   <persName>
@@ -14788,11 +14776,6 @@
                                from="2013-03-19"
                                ref="#party.LN-Aut"
                                role="president"
-                               to="2018-03-22"/>
-                  <affiliation ana="#LEG.17"
-                               from="2013-03-19"
-                               ref="#party.LN-Aut"
-                               role="president"
                                to="2014-07-02"/>
                   <affiliation from="2018-06-13"
                                ref="#GOV.CONTE.1"
@@ -15151,7 +15134,7 @@
                                from="2019-09-18"
                                ref="#party.IV-PSI"
                                role="member"
-                               to="2019-09-25"/>
+                               to="2019-09-24"/>
                   <idno type="senato.it" xml:lang="it">http://www.senato.it/leg/18/BGT/Schede/Attsen/00025402.htm</idno>
                </person>
                <person xml:id="DeCamillisSabrina">
@@ -15857,7 +15840,7 @@
                                from="2018-03-27"
                                ref="#party.FdI"
                                role="member"
-                               to="2018-07-18"/>
+                               to="2018-07-17"/>
                   <idno type="senato.it" xml:lang="it">http://www.senato.it/leg/18/BGT/Schede/Attsen/00032603.htm</idno>
                </person>
                <person xml:id="ColtortiMauro">
@@ -17853,11 +17836,6 @@
                                ref="#party.PD"
                                role="vicePresident"
                                to="2015-11-02"/>
-                  <affiliation ana="#LEG.17"
-                               from="2014-10-16"
-                               ref="#party.PD"
-                               role="secretary"
-                               to="2015-10-21"/>
                   <idno type="senato.it" xml:lang="it">http://www.senato.it/leg/17/BGT/Schede/Attsen/00017651.htm</idno>
                </person>
                <person xml:id="MolesGiuseppe">
@@ -18403,7 +18381,7 @@
                                from="2019-09-18"
                                ref="#party.IV-PSI"
                                role="member"
-                               to="2019-09-25"/>
+                               to="2019-09-24"/>
                   <idno type="senato.it" xml:lang="it">http://www.senato.it/leg/18/BGT/Schede/Attsen/00025498.htm</idno>
                </person>
                <person xml:id="VillarosaAlessioMattia">
@@ -18788,21 +18766,13 @@
             <language ident="en" xml:lang="en">English</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-03-17">
-            <name>Tomaž Erjavec</name>: Made sample.</change>
-         <change when="2021-01-28">
-            <name>Tommaso Agnoloni</name>:Made sample.</change>
-         <change when="2021-02-19">
-            <name>Tommaso Agnoloni</name>: Completed corpus, fixing</change>
-      </revisionDesc>
    </teiHeader>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-IT_2013-03-15-LEG17-Sed-1.xml"/>
+               href="ParlaMint-IT_2013-10-16-LEG17-Sed-126.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-IT_2020-11-18-LEG18-Sed-276.xml"/>
+               href="ParlaMint-IT_2015-08-03-LEG17-Sed-496.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-IT_2020-06-17-LEG18-Sed-230.xml"/>
+               href="ParlaMint-IT_2019-12-11-LEG18-Sed-172.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-IT_2017-10-18-LEG17-Sed-902.xml"/>
+               href="ParlaMint-IT_2016-11-16-LEG17-Sed-724.xml"/>
 </teiCorpus>
