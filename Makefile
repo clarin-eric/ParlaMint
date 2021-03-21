@@ -136,11 +136,11 @@ test-val:
 	$s -xsl:Scripts/validate-parlamint.xsl ParlaMint-SI/ParlaMint-SI_2014-08-25_SDZ7-Izredna-01.xml
 	$s -xsl:Scripts/validate-parlamint.xsl ParlaMint-SI/ParlaMint-SI_2014-08-25_SDZ7-Izredna-01.ana.xml
 
-# Validate and produce char counts for 1 language
-LANG = IT
+# Validate and derived format for 1 language
+LANG = NL
 PREF = /project/corpora/Parla/ParlaMint/ParlaMint
-all-lang:	val-pc-lang val-lang text-lang chars-lang
-xall-lang:	val-pc-lang val-lang vert-lang vertana-lang text-lang chars-lang
+all-lang:	val-pc-lang val-lang text-lang chars-lang vert-lang vertana-lang conllu-lang
+xall-lang:	val-pc-lang val-lang text-lang chars-lang vert-lang vertana-lang conllu-lang
 chars-lang:
 	rm -f ParlaMint-${LANG}/chars-files-${LANG}.txt
 	rm -f ParlaMint-${LANG}/*.tmp
@@ -154,6 +154,9 @@ chars-lang:
 text-lang:
 	ls ParlaMint-${LANG}/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
 	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ParlaMint-${LANG}/{/.}.txt'
+conllu-lang:
+	Scripts/parlamint2conllu.pl ParlaMint-${LANG} ParlaMint-${LANG}
+
 vertana-lang:
 	Scripts/parlamint-tei2vert.pl ParlaMint-${LANG}/ParlaMint-${LANG}.ana.xml ParlaMint-${LANG}
 vert-lang:

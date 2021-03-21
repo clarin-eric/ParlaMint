@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-NL" xml:lang="nl">
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0"
+           xml:id="ParlaMint-NL.ana"
+           xml:lang="nl">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL [ParlaMint SAMPLE]</title>
-            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL [ParlaMint.ana SAMPLE]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL [ParlaMint.ana SAMPLE]</title>
             <title type="sub" xml:lang="en">Minutes of the Eerste Kamer and Tweede Kamer of The Netherlands (2015-2020)</title>
             <title type="sub" xml:lang="nl">Minuten van de Eerste en Tweede Kamer van Nederland (2015-2020)</title>
             <meeting n="28-lower" ana="#parla.lower #parla.term">28ste Tweede Kamer</meeting>
@@ -13,8 +15,12 @@
             <meeting n="35-upper" ana="#parla.upper #parla.term">35ste Eerste Kamer</meeting>
             <meeting n="36-upper" ana="#parla.upper #parla.term">36ste Eerste Kamer</meeting>
             <respStmt>
-               <persName xml:lang="nl">Ruben van Heusden</persName>
-               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+               <persName xml:lang="nl">Jesse de Does</persName>
+               <resp xml:lang="en">Running the Linguistic Processing Pipeline and adding the annotations to the corpus</resp>
+            </respStmt>
+            <respStmt>
+               <persName xml:lang="nl">Katrien Depuydt</persName>
+               <resp xml:lang="en">Running the Linguistic Processing Pipeline and adding the annotations to the corpus</resp>
             </respStmt>
             <funder>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
@@ -24,10 +30,10 @@
             <edition>2.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
-            <measure unit="speeches" xml:lang="nl" quantity="474964">474964 toespraken</measure>
-            <measure unit="speeches" xml:lang="en" quantity="474964">474964 speeches</measure>
-            <measure unit="words" xml:lang="nl" quantity="51619675">51619675 woorden</measure>
-            <measure unit="words" xml:lang="en" quantity="51619675">51619675 words</measure>
+            <measure unit="speeches" xml:lang="nl" quantity="474944">474944 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="474944">474944 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="51454636">51454636 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="51454636">51454636 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -48,7 +54,7 @@
          <sourceDesc>
             <bibl>
                <title>Multilingual comparable corpora of parliamentary debates ParlaMint 1.0</title>
-               <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
+               <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1405</idno>
             </bibl>
             <bibl>
                <title type="main">Minutes of the Eerste Kamer of The Netherlands</title>
@@ -73,7 +79,8 @@
                <p xml:lang="en">No correction of source texts was performed.</p>
             </correction>
             <normalization>
-               <p xml:lang="en">Through the dat collection process several Unicode hair space charactars were present in the text, these have been removed.</p>
+               <p xml:lang="en">Through the dat collection process several Unicode hair space charactars were present in the text,
+			   these have been removed.</p>
             </normalization>
             <hyphenation>
                <p xml:lang="en">No end-of-line hyphens were present in the source.</p>
@@ -87,12 +94,20 @@
          </editorialDecl>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="body" occurs="5197"/>
-               <tagUsage gi="div" occurs="5197"/>
-               <tagUsage gi="seg" occurs="714859"/>
-               <tagUsage gi="text" occurs="5197"/>
-               <tagUsage gi="u" occurs="474964"/>
-               <tagUsage gi="note" occurs="191113"/>
+               <tagUsage occurs="3378290" gi="s"/>
+               <tagUsage occurs="129" gi="desc"/>
+               <tagUsage occurs="5197" gi="body"/>
+               <tagUsage occurs="1471178" gi="name"/>
+               <tagUsage occurs="474944" gi="u"/>
+               <tagUsage occurs="714764" gi="seg"/>
+               <tagUsage occurs="5197" gi="div"/>
+               <tagUsage occurs="5197" gi="text"/>
+               <tagUsage occurs="3378290" gi="linkGrp"/>
+               <tagUsage occurs="129" gi="gap"/>
+               <tagUsage occurs="190907" gi="note"/>
+               <tagUsage occurs="57052916" gi="link"/>
+               <tagUsage occurs="5598280" gi="pc"/>
+               <tagUsage occurs="51454636" gi="w"/>
             </namespace>
          </tagsDecl>
          <classDecl>
@@ -306,7 +321,635 @@
                      <term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
                </category>
             </taxonomy>
+            <taxonomy xml:id="NER">
+               <desc xml:lang="en">
+                  <term>Named entities</term>
+               </desc>
+               <category xml:id="PER">
+                  <catDesc xml:lang="nl">
+                     <term>persoon</term>
+                  </catDesc>
+                  <catDesc xml:lang="en">
+                     <term>person</term>
+                  </catDesc>
+               </category>
+               <category xml:id="LOC">
+                  <catDesc xml:lang="nl">
+                     <term>locatie</term>
+                  </catDesc>
+                  <catDesc xml:lang="en">
+                     <term>location</term>
+                  </catDesc>
+               </category>
+               <category xml:id="ORG">
+                  <catDesc xml:lang="nl">
+                     <term>organisatie</term>
+                  </catDesc>
+                  <catDesc xml:lang="en">
+                     <term>organization</term>
+                  </catDesc>
+               </category>
+               <category xml:id="MISC">
+                  <catDesc xml:lang="nl">
+                     <term>overig</term>
+                  </catDesc>
+                  <catDesc xml:lang="en">
+                     <term>miscellaneous</term>
+                  </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="UD-SYN">
+               <desc xml:lang="en">
+                  <term>UD syntactic relations</term>
+               </desc>
+               <category xml:id="acl">
+                  <catDesc xml:lang="en">
+                     <term>acl</term>: Clausal modifier of noun (adjectival clause)</catDesc>
+               </category>
+               <category xml:id="advcl">
+                  <catDesc xml:lang="en">
+                     <term>advcl</term>: Adverbial clause modifier</catDesc>
+               </category>
+               <category xml:id="advmod">
+                  <catDesc xml:lang="en">
+                     <term>advmod</term>: Adverbial modifier</catDesc>
+               </category>
+               <category xml:id="amod">
+                  <catDesc xml:lang="en">
+                     <term>amod</term>: Adjectival modifier</catDesc>
+               </category>
+               <category xml:id="appos">
+                  <catDesc xml:lang="en">
+                     <term>appos</term>: Appositional modifier</catDesc>
+               </category>
+               <category xml:id="aux">
+                  <catDesc xml:lang="en">
+                     <term>aux</term>: Auxiliary</catDesc>
+               </category>
+               <category xml:id="case">
+                  <catDesc xml:lang="en">
+                     <term>case</term>: Case marking</catDesc>
+               </category>
+               <category xml:id="cc">
+                  <catDesc xml:lang="en">
+                     <term>cc</term>: Coordinating conjunction</catDesc>
+               </category>
+               <category xml:id="ccomp">
+                  <catDesc xml:lang="en">
+                     <term>ccomp</term>: Clausal complement</catDesc>
+               </category>
+               <category xml:id="cc_preconj">
+                  <catDesc xml:lang="en">
+                     <term>cc:preconj</term>: Preconjunct</catDesc>
+               </category>
+               <category xml:id="conj">
+                  <catDesc xml:lang="en">
+                     <term>conj</term>: Conjunct</catDesc>
+               </category>
+               <category xml:id="cop">
+                  <catDesc xml:lang="en">
+                     <term>cop</term>: Copula</catDesc>
+               </category>
+               <category xml:id="csubj">
+                  <catDesc xml:lang="en">
+                     <term>csubj</term>: Clausal subject</catDesc>
+               </category>
+               <category xml:id="dep">
+                  <catDesc xml:lang="en">
+                     <term>dep</term>: Unspecified dependency</catDesc>
+               </category>
+               <category xml:id="det">
+                  <catDesc xml:lang="en">
+                     <term>det</term>: Determiner</catDesc>
+               </category>
+               <category xml:id="discourse">
+                  <catDesc xml:lang="en">
+                     <term>discourse</term>: Discourse element</catDesc>
+               </category>
+               <category xml:id="expl">
+                  <catDesc xml:lang="en">
+                     <term>expl</term>: Expletive</catDesc>
+               </category>
+               <category xml:id="fixed">
+                  <catDesc xml:lang="en">
+                     <term>fixed</term>: Fixed multiword expression</catDesc>
+               </category>
+               <category xml:id="flat">
+                  <catDesc xml:lang="en">
+                     <term>flat</term>: Flat multiword expression</catDesc>
+               </category>
+               <category xml:id="flat_foreign">
+                  <catDesc xml:lang="en">
+                     <term>flat:foreign</term>: Flat multiword expression: foreign</catDesc>
+               </category>
+               <category xml:id="flat_name">
+                  <catDesc xml:lang="en">
+                     <term>flat:name</term>: Flat name</catDesc>
+               </category>
+               <category xml:id="iobj">
+                  <catDesc xml:lang="en">
+                     <term>iobj</term>: Indirect object</catDesc>
+               </category>
+               <category xml:id="mark">
+                  <catDesc xml:lang="en">
+                     <term>mark</term>: Marker</catDesc>
+               </category>
+               <category xml:id="nmod">
+                  <catDesc xml:lang="en">
+                     <term>nmod</term>: Nominal modifier</catDesc>
+               </category>
+               <category xml:id="nsubj">
+                  <catDesc xml:lang="en">
+                     <term>nsubj</term>: Nominal subject</catDesc>
+               </category>
+               <category xml:id="nummod">
+                  <catDesc xml:lang="en">
+                     <term>nummod</term>: Numeric modifier</catDesc>
+               </category>
+               <category xml:id="obj">
+                  <catDesc xml:lang="en">
+                     <term>obj</term>: Object</catDesc>
+               </category>
+               <category xml:id="obl">
+                  <catDesc xml:lang="en">
+                     <term>obl</term>: Oblique nominal</catDesc>
+               </category>
+               <category xml:id="parataxis">
+                  <catDesc xml:lang="en">
+                     <term>parataxis</term>: Parataxis</catDesc>
+               </category>
+               <category xml:id="punct">
+                  <catDesc xml:lang="en">
+                     <term>punct</term>: Punctuation</catDesc>
+               </category>
+               <category xml:id="reparandum">
+                  <catDesc xml:lang="en">
+                     <term>reparandum</term>: Overridden disfluency (here used for program mistakes!)</catDesc>
+               </category>
+               <category xml:id="root">
+                  <catDesc xml:lang="en">
+                     <term>root</term>: Root</catDesc>
+               </category>
+               <category xml:id="xcomp">
+                  <catDesc xml:lang="en">
+                     <term>xcomp</term>: Open clausal complement</catDesc>
+               </category>
+               <category xml:id="nsubj_caus">
+                  <catDesc xml:lang="en">
+                     <term>nsubj_caus</term>
+                  </catDesc>
+               </category>
+               <category xml:id="expl_comp">
+                  <catDesc xml:lang="en">
+                     <term>expl_comp</term>
+                  </catDesc>
+               </category>
+               <category xml:id="acl_relcl">
+                  <catDesc xml:lang="en">
+                     <term>acl_relcl</term>
+                  </catDesc>
+               </category>
+               <category xml:id="goeswith">
+                  <catDesc xml:lang="en">
+                     <term>goeswith</term>
+                  </catDesc>
+               </category>
+               <category xml:id="nsubj_pass">
+                  <catDesc xml:lang="en">
+                     <term>nsubj_pass</term>
+                  </catDesc>
+               </category>
+               <category xml:id="obl_arg">
+                  <catDesc xml:lang="en">
+                     <term>obl_arg</term>
+                  </catDesc>
+               </category>
+               <category xml:id="obj_agent">
+                  <catDesc xml:lang="en">
+                     <term>obj_agent</term>
+                  </catDesc>
+               </category>
+               <category xml:id="obj_lvc">
+                  <catDesc xml:lang="en">
+                     <term>obj_lvc</term>
+                  </catDesc>
+               </category>
+               <category xml:id="expl_subj">
+                  <catDesc xml:lang="en">
+                     <term>expl_subj</term>
+                  </catDesc>
+               </category>
+               <category xml:id="obl_agent">
+                  <catDesc xml:lang="en">
+                     <term>obl_agent</term>
+                  </catDesc>
+               </category>
+               <category xml:id="orphan">
+                  <catDesc xml:lang="en">
+                     <term>orphan</term>
+                  </catDesc>
+               </category>
+               <category xml:id="nmod_poss">
+                  <catDesc xml:lang="en">
+                     <term>nmod_poss</term>
+                  </catDesc>
+               </category>
+               <category xml:id="iobj_agent">
+                  <catDesc xml:lang="en">
+                     <term>iobj_agent</term>
+                  </catDesc>
+               </category>
+               <category xml:id="advcl_cleft">
+                  <catDesc xml:lang="en">
+                     <term>advcl_cleft</term>
+                  </catDesc>
+               </category>
+               <category xml:id="expl_pass">
+                  <catDesc xml:lang="en">
+                     <term>expl_pass</term>
+                  </catDesc>
+               </category>
+               <category xml:id="compound_prt">
+                  <catDesc xml:lang="en">
+                     <term>compound_prt</term>
+                  </catDesc>
+               </category>
+               <category xml:id="vocative">
+                  <catDesc xml:lang="en">
+                     <term>vocative</term>
+                  </catDesc>
+               </category>
+               <category xml:id="expl_pv">
+                  <catDesc xml:lang="en">
+                     <term>expl_pv</term>
+                  </catDesc>
+               </category>
+               <category xml:id="obl_mod">
+                  <catDesc xml:lang="en">
+                     <term>obl_mod</term>
+                  </catDesc>
+               </category>
+               <category xml:id="aux_caus">
+                  <catDesc xml:lang="en">
+                     <term>aux_caus</term>
+                  </catDesc>
+               </category>
+               <category xml:id="dislocated">
+                  <catDesc xml:lang="en">
+                     <term>dislocated</term>
+                  </catDesc>
+               </category>
+               <category xml:id="aux_pass">
+                  <catDesc xml:lang="en">
+                     <term>aux_pass</term>
+                  </catDesc>
+               </category>
+               <category xml:id="aux_tense">
+                  <catDesc xml:lang="en">
+                     <term>aux_tense</term>
+                  </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="chn">
+               <desc xml:lang="en">
+                  <term>CHN Pos Tags</term>
+               </desc>
+               <category xml:id="case.acc_dat">
+                  <catDesc xml:lang="en">
+                     <term>case.acc_dat</term>: the morphosyntactic property of having case=acc|dat</catDesc>
+               </category>
+               <category xml:id="case.acc_nom">
+                  <catDesc xml:lang="en">
+                     <term>case.acc_nom</term>: the morphosyntactic property of having case=acc|nom</catDesc>
+               </category>
+               <category xml:id="case.dat">
+                  <catDesc xml:lang="en">
+                     <term>case.dat</term>: the morphosyntactic property of having case=dat</catDesc>
+               </category>
+               <category xml:id="case.dat_gen">
+                  <catDesc xml:lang="en">
+                     <term>case.dat_gen</term>: the morphosyntactic property of having case=dat|gen</catDesc>
+               </category>
+               <category xml:id="case.gen">
+                  <catDesc xml:lang="en">
+                     <term>case.gen</term>: the morphosyntactic property of having case=gen</catDesc>
+               </category>
+               <category xml:id="case.nom">
+                  <catDesc xml:lang="en">
+                     <term>case.nom</term>: the morphosyntactic property of having case=nom</catDesc>
+               </category>
+               <category xml:id="degree.comp">
+                  <catDesc xml:lang="en">
+                     <term>degree.comp</term>: the morphosyntactic property of having degree=comp</catDesc>
+               </category>
+               <category xml:id="degree.pos">
+                  <catDesc xml:lang="en">
+                     <term>degree.pos</term>: the morphosyntactic property of having degree=pos</catDesc>
+               </category>
+               <category xml:id="degree.sup">
+                  <catDesc xml:lang="en">
+                     <term>degree.sup</term>: the morphosyntactic property of having degree=sup</catDesc>
+               </category>
+               <category xml:id="finiteness.fin">
+                  <catDesc xml:lang="en">
+                     <term>finiteness.fin</term>: the morphosyntactic property of having finiteness=fin</catDesc>
+               </category>
+               <category xml:id="finiteness.ger_inf">
+                  <catDesc xml:lang="en">
+                     <term>finiteness.ger_inf</term>: the morphosyntactic property of having finiteness=ger|inf</catDesc>
+               </category>
+               <category xml:id="finiteness.part">
+                  <catDesc xml:lang="en">
+                     <term>finiteness.part</term>: the morphosyntactic property of having finiteness=part</catDesc>
+               </category>
+               <category xml:id="formal.infl-e">
+                  <catDesc xml:lang="en">
+                     <term>formal.infl-e</term>: the morphosyntactic property of having formal=infl-e</catDesc>
+               </category>
+               <category xml:id="formal.infl-s">
+                  <catDesc xml:lang="en">
+                     <term>formal.infl-s</term>: the morphosyntactic property of having formal=infl-s</catDesc>
+               </category>
+               <category xml:id="formal.infl-t">
+                  <catDesc xml:lang="en">
+                     <term>formal.infl-t</term>: the morphosyntactic property of having formal=infl-t</catDesc>
+               </category>
+               <category xml:id="gender.f">
+                  <catDesc xml:lang="en">
+                     <term>gender.f</term>: the morphosyntactic property of having gender=f</catDesc>
+               </category>
+               <category xml:id="gender.f_m">
+                  <catDesc xml:lang="en">
+                     <term>gender.f_m</term>: the morphosyntactic property of having gender=f|m</catDesc>
+               </category>
+               <category xml:id="gender.f_m_n">
+                  <catDesc xml:lang="en">
+                     <term>gender.f_m_n</term>: the morphosyntactic property of having gender=f|m|n</catDesc>
+               </category>
+               <category xml:id="gender.m">
+                  <catDesc xml:lang="en">
+                     <term>gender.m</term>: the morphosyntactic property of having gender=m</catDesc>
+               </category>
+               <category xml:id="gender.n">
+                  <catDesc xml:lang="en">
+                     <term>gender.n</term>: the morphosyntactic property of having gender=n</catDesc>
+               </category>
+               <category xml:id="mood.conj">
+                  <catDesc xml:lang="en">
+                     <term>mood.conj</term>: the morphosyntactic property of having mood=conj</catDesc>
+               </category>
+               <category xml:id="mood.imp_ind">
+                  <catDesc xml:lang="en">
+                     <term>mood.imp_ind</term>: the morphosyntactic property of having mood=imp|ind</catDesc>
+               </category>
+               <category xml:id="mood.ind">
+                  <catDesc xml:lang="en">
+                     <term>mood.ind</term>: the morphosyntactic property of having mood=ind</catDesc>
+               </category>
+               <category xml:id="number.pl">
+                  <catDesc xml:lang="en">
+                     <term>number.pl</term>: the morphosyntactic property of having number=pl</catDesc>
+               </category>
+               <category xml:id="number.pl_sg">
+                  <catDesc xml:lang="en">
+                     <term>number.pl_sg</term>: the morphosyntactic property of having number=pl|sg</catDesc>
+               </category>
+               <category xml:id="number.sg">
+                  <catDesc xml:lang="en">
+                     <term>number.sg</term>: the morphosyntactic property of having number=sg</catDesc>
+               </category>
+               <category xml:id="part-of-multiword.true">
+                  <catDesc xml:lang="en">
+                     <term>part-of-multiword.true</term>: the morphosyntactic property of having part-of-multiword=true</catDesc>
+               </category>
+               <category xml:id="person.1">
+                  <catDesc xml:lang="en">
+                     <term>person.1</term>: the morphosyntactic property of having person=1</catDesc>
+               </category>
+               <category xml:id="person.2">
+                  <catDesc xml:lang="en">
+                     <term>person.2</term>: the morphosyntactic property of having person=2</catDesc>
+               </category>
+               <category xml:id="person.2_3">
+                  <catDesc xml:lang="en">
+                     <term>person.2_3</term>: the morphosyntactic property of having person=2|3</catDesc>
+               </category>
+               <category xml:id="person.3">
+                  <catDesc xml:lang="en">
+                     <term>person.3</term>: the morphosyntactic property of having person=3</catDesc>
+               </category>
+               <category xml:id="pos.AA">
+                  <catDesc xml:lang="en">
+                     <term>pos.AA</term>: the morphosyntactic property of having pos=AA</catDesc>
+               </category>
+               <category xml:id="pos.ADP">
+                  <catDesc xml:lang="en">
+                     <term>pos.ADP</term>: the morphosyntactic property of having pos=ADP</catDesc>
+               </category>
+               <category xml:id="pos.ADV">
+                  <catDesc xml:lang="en">
+                     <term>pos.ADV</term>: the morphosyntactic property of having pos=ADV</catDesc>
+               </category>
+               <category xml:id="pos.CONJ">
+                  <catDesc xml:lang="en">
+                     <term>pos.CONJ</term>: the morphosyntactic property of having pos=CONJ</catDesc>
+               </category>
+               <category xml:id="pos.INT">
+                  <catDesc xml:lang="en">
+                     <term>pos.INT</term>: the morphosyntactic property of having pos=INT</catDesc>
+               </category>
+               <category xml:id="pos.NOU-C">
+                  <catDesc xml:lang="en">
+                     <term>pos.NOU-C</term>: the morphosyntactic property of having pos=NOU-C</catDesc>
+               </category>
+               <category xml:id="pos.NOU-P">
+                  <catDesc xml:lang="en">
+                     <term>pos.NOU-P</term>: the morphosyntactic property of having pos=NOU-P</catDesc>
+               </category>
+               <category xml:id="pos.NUM">
+                  <catDesc xml:lang="en">
+                     <term>pos.NUM</term>: the morphosyntactic property of having pos=NUM</catDesc>
+               </category>
+               <category xml:id="pos.PD">
+                  <catDesc xml:lang="en">
+                     <term>pos.PD</term>: the morphosyntactic property of having pos=PD</catDesc>
+               </category>
+               <category xml:id="pos.PUNCT">
+                  <catDesc xml:lang="en">
+                     <term>pos.PUNCT</term>: the morphosyntactic property of having pos=PUNCT</catDesc>
+               </category>
+               <category xml:id="pos.RES">
+                  <catDesc xml:lang="en">
+                     <term>pos.RES</term>: the morphosyntactic property of having pos=RES</catDesc>
+               </category>
+               <category xml:id="pos.VRB">
+                  <catDesc xml:lang="en">
+                     <term>pos.VRB</term>: the morphosyntactic property of having pos=VRB</catDesc>
+               </category>
+               <category xml:id="position.adv_pred">
+                  <catDesc xml:lang="en">
+                     <term>position.adv_pred</term>: the morphosyntactic property of having position=adv|pred</catDesc>
+               </category>
+               <category xml:id="position.oth_pred">
+                  <catDesc xml:lang="en">
+                     <term>position.oth_pred</term>: the morphosyntactic property of having position=oth|pred</catDesc>
+               </category>
+               <category xml:id="position.postnom">
+                  <catDesc xml:lang="en">
+                     <term>position.postnom</term>: the morphosyntactic property of having position=postnom</catDesc>
+               </category>
+               <category xml:id="position.pred">
+                  <catDesc xml:lang="en">
+                     <term>position.pred</term>: the morphosyntactic property of having position=pred</catDesc>
+               </category>
+               <category xml:id="position.prenom">
+                  <catDesc xml:lang="en">
+                     <term>position.prenom</term>: the morphosyntactic property of having position=prenom</catDesc>
+               </category>
+               <category xml:id="position.pron">
+                  <catDesc xml:lang="en">
+                     <term>position.pron</term>: the morphosyntactic property of having position=pron</catDesc>
+               </category>
+               <category xml:id="subtype.art-def">
+                  <catDesc xml:lang="en">
+                     <term>subtype.art-def</term>: the morphosyntactic property of having subtype=art-def</catDesc>
+               </category>
+               <category xml:id="subtype.art-indef">
+                  <catDesc xml:lang="en">
+                     <term>subtype.art-indef</term>: the morphosyntactic property of having subtype=art-indef</catDesc>
+               </category>
+               <category xml:id="tense.past">
+                  <catDesc xml:lang="en">
+                     <term>tense.past</term>: the morphosyntactic property of having tense=past</catDesc>
+               </category>
+               <category xml:id="tense.past_pres">
+                  <catDesc xml:lang="en">
+                     <term>tense.past_pres</term>: the morphosyntactic property of having tense=past|pres</catDesc>
+               </category>
+               <category xml:id="tense.pres">
+                  <catDesc xml:lang="en">
+                     <term>tense.pres</term>: the morphosyntactic property of having tense=pres</catDesc>
+               </category>
+               <category xml:id="type.abbr">
+                  <catDesc xml:lang="en">
+                     <term>type.abbr</term>: the morphosyntactic property of having type=abbr</catDesc>
+               </category>
+               <category xml:id="type.card">
+                  <catDesc xml:lang="en">
+                     <term>type.card</term>: the morphosyntactic property of having type=card</catDesc>
+               </category>
+               <category xml:id="type.coor">
+                  <catDesc xml:lang="en">
+                     <term>type.coor</term>: the morphosyntactic property of having type=coor</catDesc>
+               </category>
+               <category xml:id="type.d-p">
+                  <catDesc xml:lang="en">
+                     <term>type.d-p</term>: the morphosyntactic property of having type=d-p</catDesc>
+               </category>
+               <category xml:id="type.dem">
+                  <catDesc xml:lang="en">
+                     <term>type.dem</term>: the morphosyntactic property of having type=dem</catDesc>
+               </category>
+               <category xml:id="type.for">
+                  <catDesc xml:lang="en">
+                     <term>type.for</term>: the morphosyntactic property of having type=for</catDesc>
+               </category>
+               <category xml:id="type.indef">
+                  <catDesc xml:lang="en">
+                     <term>type.indef</term>: the morphosyntactic property of having type=indef</catDesc>
+               </category>
+               <category xml:id="type.ord">
+                  <catDesc xml:lang="en">
+                     <term>type.ord</term>: the morphosyntactic property of having type=ord</catDesc>
+               </category>
+               <category xml:id="type.pers">
+                  <catDesc xml:lang="en">
+                     <term>type.pers</term>: the morphosyntactic property of having type=pers</catDesc>
+               </category>
+               <category xml:id="type.pers_refl">
+                  <catDesc xml:lang="en">
+                     <term>type.pers_refl</term>: the morphosyntactic property of having type=pers|refl</catDesc>
+               </category>
+               <category xml:id="type.poss">
+                  <catDesc xml:lang="en">
+                     <term>type.poss</term>: the morphosyntactic property of having type=poss</catDesc>
+               </category>
+               <category xml:id="type.post">
+                  <catDesc xml:lang="en">
+                     <term>type.post</term>: the morphosyntactic property of having type=post</catDesc>
+               </category>
+               <category xml:id="type.pre">
+                  <catDesc xml:lang="en">
+                     <term>type.pre</term>: the morphosyntactic property of having type=pre</catDesc>
+               </category>
+               <category xml:id="type.recip">
+                  <catDesc xml:lang="en">
+                     <term>type.recip</term>: the morphosyntactic property of having type=recip</catDesc>
+               </category>
+               <category xml:id="type.refl">
+                  <catDesc xml:lang="en">
+                     <term>type.refl</term>: the morphosyntactic property of having type=refl</catDesc>
+               </category>
+               <category xml:id="type.rel">
+                  <catDesc xml:lang="en">
+                     <term>type.rel</term>: the morphosyntactic property of having type=rel</catDesc>
+               </category>
+               <category xml:id="type.sub">
+                  <catDesc xml:lang="en">
+                     <term>type.sub</term>: the morphosyntactic property of having type=sub</catDesc>
+               </category>
+               <category xml:id="type.sym">
+                  <catDesc xml:lang="en">
+                     <term>type.sym</term>: the morphosyntactic property of having type=sym</catDesc>
+               </category>
+               <category xml:id="type.trunc">
+                  <catDesc xml:lang="en">
+                     <term>type.trunc</term>: the morphosyntactic property of having type=trunc</catDesc>
+               </category>
+               <category xml:id="type.unkn">
+                  <catDesc xml:lang="en">
+                     <term>type.unkn</term>: the morphosyntactic property of having type=unkn</catDesc>
+               </category>
+               <category xml:id="type.w-p">
+                  <catDesc xml:lang="en">
+                     <term>type.w-p</term>: the morphosyntactic property of having type=w-p</catDesc>
+               </category>
+            </taxonomy>
          </classDecl>
+         <listPrefixDef>
+            <prefixDef replacementPattern="#$1" matchPattern="(.+)" ident="chn">
+               <p xml:lang="en">This refers to the tagset used at INT for tagging the Corpus of Contemporary Dutch.</p>
+            </prefixDef>
+            <prefixDef replacementPattern="#$1" matchPattern="(.+)" ident="ud-syn">
+               <p>Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI header.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <appInfo>
+            <application ident="int-tagger" version="1.0">
+               <label>INT Tagger, lemmatizer and Tokenizer</label>
+               <desc xml:lang="en">INT Tagger, lemmatizer and Tokenizer for modern Dutch, based on old-school machine learning (SVM). It provides the legacy PoS tags (encoded in w/@ana) and the lemmata for Dutch. Not publicly available.</desc>
+            </application>
+            <application ident="udify" version="1.0">
+               <label>Udify</label>
+               <desc xml:lang="en">UDify is a single model that parses Universal Dependencies (UPOS, UFeats, Lemmas, Deps) jointly, accepting any of 75 supported languages as input.
+    				Available from <ref target="https://github.com/Hyperparticle/udify">https://github.com/Hyperparticle/udify</ref>
+               </desc>
+            </application>
+            <application ident="flair-ner" version="1.0">
+               <label>Flair NLP NER tagging for French and Dutch</label>
+               <desc xml:lang="en">A powerful NLP library. Flair allows you to apply our state-of-the-art natural language processing (NLP) models to your text,
+    				such as named entity recognition (NER), part-of-speech tagging (PoS), sense disambiguation and classification, with support for a rapidly growing number of languages.
+    				Available from <ref target="https://github.com/flairNLP/flair">https://github.com/flairNLP/flair</ref>
+               </desc>
+            </application>
+            <application ident="trankit" version="1.0">
+               <label>Trankit: A Light-Weight Transformer-based Python Toolkit for Multilingual Natural Language Processing</label>
+               <desc xml:lang="en">Trankit is a light-weight Transformer-based Python Toolkit for multilingual Natural Language Processing (NLP).
+    				It provides a trainable pipeline for fundamental NLP tasks over 100 languages, and 90 downloadable pretrained pipelines for 56 languages.
+    				Available from <ref target="https://github.com/nlp-uoregon/trankit">https://github.com/nlp-uoregon/trankit</ref>
+               </desc>
+            </application>
+         </appInfo>
       </encodingDesc>
       <profileDesc>
          <settingDesc>
@@ -5104,9 +5747,9 @@
       </profileDesc>
    </teiHeader>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-NL_2014-04-16-tweedekamer-3.xml"/>
+               href="ParlaMint-NL_2014-04-16-tweedekamer-3.ana.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-NL_2016-10-12-tweedekamer-5.xml"/>
+               href="ParlaMint-NL_2016-10-12-tweedekamer-5.ana.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-NL_2018-10-30-eerstekamer-4.xml"/>
+               href="ParlaMint-NL_2018-10-30-eerstekamer-4.ana.xml"/>
 </teiCorpus>
