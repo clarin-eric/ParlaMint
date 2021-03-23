@@ -273,16 +273,17 @@ comment =
     }
   | element vocal {
       attribute type {
-        "speaking"
-        | "interruption"
-        | "noise"
-        | "laughter"
-        | "exclamat"
-        | "shouting"
-        | "greeting"
+        "greeting"
         | "question"
-        | "signal"
         | "clarification"
+        | "speaking"
+        | "interruption"
+        | "exclamat"
+        | "laughter"
+        | "shouting"
+        | "murmuring"
+        | "noise"
+        | "signal"
       },
       who.att?,
       desc

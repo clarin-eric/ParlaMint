@@ -509,16 +509,17 @@
       <xs:attribute name="type" use="required">
         <xs:simpleType>
           <xs:restriction base="xs:token">
-            <xs:enumeration value="speaking"/>
-            <xs:enumeration value="interruption"/>
-            <xs:enumeration value="noise"/>
-            <xs:enumeration value="laughter"/>
-            <xs:enumeration value="exclamat"/>
-            <xs:enumeration value="shouting"/>
             <xs:enumeration value="greeting"/>
             <xs:enumeration value="question"/>
-            <xs:enumeration value="signal"/>
             <xs:enumeration value="clarification"/>
+            <xs:enumeration value="speaking"/>
+            <xs:enumeration value="interruption"/>
+            <xs:enumeration value="exclamat"/>
+            <xs:enumeration value="laughter"/>
+            <xs:enumeration value="shouting"/>
+            <xs:enumeration value="murmuring"/>
+            <xs:enumeration value="noise"/>
+            <xs:enumeration value="signal"/>
           </xs:restriction>
         </xs:simpleType>
       </xs:attribute>
