@@ -434,7 +434,7 @@
       <xsl:variable name="upos" select="replace($msd, '.*(UPosTag=[^|]+).*', '$1')"/>
       <xsl:variable name="xpos">
 	<xsl:if test="contains($msd, 'XPosTag')">
-	  <xsl:value-of select="replace($msd, '.*(XPosTag=[^|]+).*', '$1')"/>
+	  <xsl:value-of select="replace($msd, '.*XPosTag=([^|]+).*', '$1')"/>
 	</xsl:if>
       </xsl:variable>
       <xsl:variable name="ufeats" select="replace(
