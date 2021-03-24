@@ -4,7 +4,7 @@
 nohup-conllu:
 	nohup time make conllu > ParlaMint-XX.conllu.log &
 conllu:
-	Scripts/parlamint2conllu.pl ParlaMint-BE ParlaMint-BE
+	Scripts/parlamint2conllu.pl ParlaMint-BE ParlaMint-BE 2> ParlaMint-BE.conllu.log
 	Scripts/parlamint2conllu.pl ParlaMint-BG ParlaMint-BG
 	Scripts/parlamint2conllu.pl ParlaMint-CZ ParlaMint-CZ
 	Scripts/parlamint2conllu.pl ParlaMint-DK ParlaMint-DK

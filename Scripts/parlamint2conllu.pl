@@ -51,7 +51,9 @@ $country2lang{'TR'} = 'tr';
 print STDERR "INFO: Converting directory $inDir\n";
 my $rootAnaFile = '';
 my @compAnaFiles = ();
-foreach $inFile (glob "$inDir/*.xml") {
+$inDir =~ s|[^/]+\.xml$||; # If specific (hopefully root) filename give, get rid of it
+$corpusFiles = "$inDir/*.ana.xml";
+foreach $inFile (glob $corpusFiles) {
     if ($inFile =~ m|ParlaMint-..\.ana\.xml|) {$rootAnaFile = $inFile}
     elsif ($inFile =~ m|ParlaMint-.._.+\.ana\.xml|) {push(@compAnaFiles, $inFile)}
 }
@@ -60,6 +62,7 @@ foreach $inFile (@compAnaFiles) {
     my ($fName) = $inFile =~ m|([^/]+)\.ana\.xml|;
     my ($country) = $inFile =~ /ParlaMint-(..)/ or die;
     my ($langs) = $country2lang{$country};
+    #One corpus, one language
     if ($langs !~ /,/) {
 	my $outFile = "$outDir/$fName.conllu";
 	&run("$Saxon meta=$rootAnaFile -xsl:$Convert $inFile > $outFile", $fName);
@@ -67,6 +70,7 @@ foreach $inFile (@compAnaFiles) {
 	&run("python3 $Valid --lang $langs --level 2 $outFile", "level 2: $fName");
 	#&run("python3 $Valid --lang $langs --level 3 $outFile", "level 3: $fName");
     }
+    #One corpus, several languages, several files (BE = nl, fr)
     else {
 	foreach $lang (split(/,\s*/, $langs)) {
 	    my $outFile = "$outDir/$fName-$lang.conllu";
