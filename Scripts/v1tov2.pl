@@ -22,7 +22,5 @@ foreach $inFile (glob $inFiles) {
     print STDERR "INFO: Converting $fName\n";
     $command = "$Saxon -xsl:$CNV $inFile | $POLISH > $outFile";
     #print STDERR "\$ $command\n";
-    my $status = system($command);
-    die "ERROR: Conversion for $inFile failed!\n"
-	if $status;
+    `$command`;
 }

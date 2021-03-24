@@ -41,6 +41,7 @@ $country2lang{'HU'} = 'hu';
 $country2lang{'IS'} = 'is';
 $country2lang{'IT'} = 'it';
 $country2lang{'LT'} = 'lt';
+$country2lang{'LV'} = 'lv';
 $country2lang{'NL'} = 'nl';
 $country2lang{'PL'} = 'pl';
 $country2lang{'RO'} = 'ro';
