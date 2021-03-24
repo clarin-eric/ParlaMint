@@ -147,9 +147,10 @@
       <xsl:attribute name="type">
 	<xsl:choose>
 	  <xsl:when test="self::tei:head">head</xsl:when>
-	  <xsl:when test="self::tei:note">
+	  <xsl:when test="self::tei:note[@type]">
 	    <xsl:value-of select="@type"/>
 	  </xsl:when>
+	  <xsl:when test="self::tei:note">-</xsl:when>
 	  <xsl:when test="@type">
 	    <xsl:value-of select="concat(name(), ':', @type)"/>
 	  </xsl:when>
