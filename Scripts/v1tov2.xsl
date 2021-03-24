@@ -440,7 +440,7 @@
       <xsl:variable name="ufeats" select="replace(
 					  replace($msd, 
 					  'UPosTag=[^|]+\|?', ''),
-					  '\|XPosTag=[^|]+', '')
+					  '\|?XPosTag=[^|]+', '')
 					  "/>
       <xsl:apply-templates select="@*"/>
       <xsl:attribute name="msd">
