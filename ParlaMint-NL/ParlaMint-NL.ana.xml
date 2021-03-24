@@ -15,11 +15,12 @@
             <meeting n="35-upper" ana="#parla.upper #parla.term">35ste Eerste Kamer</meeting>
             <meeting n="36-upper" ana="#parla.upper #parla.term">36ste Eerste Kamer</meeting>
             <respStmt>
-               <persName xml:lang="nl">Jesse de Does</persName>
-               <resp xml:lang="en">Running the Linguistic Processing Pipeline and adding the annotations to the corpus</resp>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
             </respStmt>
             <respStmt>
-               <persName xml:lang="nl">Katrien Depuydt</persName>
+               <persName>Jesse de Does</persName>
+               <persName>Katrien Depuydt</persName>
                <resp xml:lang="en">Running the Linguistic Processing Pipeline and adding the annotations to the corpus</resp>
             </respStmt>
             <funder>
@@ -49,7 +50,7 @@
                <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-03-20">2021-03-20</date>
+            <date when="2021-03-24">2021-03-24</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -80,7 +81,7 @@
             </correction>
             <normalization>
                <p xml:lang="en">Through the dat collection process several Unicode hair space charactars were present in the text,
-			   these have been removed.</p>
+	  these have been removed.</p>
             </normalization>
             <hyphenation>
                <p xml:lang="en">No end-of-line hyphens were present in the source.</p>
@@ -932,21 +933,21 @@
             <application ident="udify" version="1.0">
                <label>Udify</label>
                <desc xml:lang="en">UDify is a single model that parses Universal Dependencies (UPOS, UFeats, Lemmas, Deps) jointly, accepting any of 75 supported languages as input.
-    				Available from <ref target="https://github.com/Hyperparticle/udify">https://github.com/Hyperparticle/udify</ref>
+    	  Available from <ref target="https://github.com/Hyperparticle/udify">https://github.com/Hyperparticle/udify</ref>
                </desc>
             </application>
             <application ident="flair-ner" version="1.0">
                <label>Flair NLP NER tagging for French and Dutch</label>
                <desc xml:lang="en">A powerful NLP library. Flair allows you to apply our state-of-the-art natural language processing (NLP) models to your text,
-    				such as named entity recognition (NER), part-of-speech tagging (PoS), sense disambiguation and classification, with support for a rapidly growing number of languages.
-    				Available from <ref target="https://github.com/flairNLP/flair">https://github.com/flairNLP/flair</ref>
+    	  such as named entity recognition (NER), part-of-speech tagging (PoS), sense disambiguation and classification, with support for a rapidly growing number of languages.
+    	  Available from <ref target="https://github.com/flairNLP/flair">https://github.com/flairNLP/flair</ref>
                </desc>
             </application>
             <application ident="trankit" version="1.0">
                <label>Trankit: A Light-Weight Transformer-based Python Toolkit for Multilingual Natural Language Processing</label>
                <desc xml:lang="en">Trankit is a light-weight Transformer-based Python Toolkit for multilingual Natural Language Processing (NLP).
-    				It provides a trainable pipeline for fundamental NLP tasks over 100 languages, and 90 downloadable pretrained pipelines for 56 languages.
-    				Available from <ref target="https://github.com/nlp-uoregon/trankit">https://github.com/nlp-uoregon/trankit</ref>
+    	  It provides a trainable pipeline for fundamental NLP tasks over 100 languages, and 90 downloadable pretrained pipelines for 56 languages.
+    	  Available from <ref target="https://github.com/nlp-uoregon/trankit">https://github.com/nlp-uoregon/trankit</ref>
                </desc>
             </application>
          </appInfo>
@@ -1420,6 +1421,7 @@
                   </persName>
                   <sex value="M">man</sex>
                   <affiliation role="MP"/>
+                  <affiliation role="member" ref="#party.PvdA"/>
                   <affiliation role="minister" from="2012-11-05" to="2016-06-29"/>
                </person>
                <person n="28" xml:id="MarjavanBijsterveldt">
@@ -5742,6 +5744,8 @@
          </particDesc>
          <langUsage>
             <language ident="nl" xml:lang="nl">Nederlands</language>
+            <language ident="nl" xml:lang="en">Dutch</language>
+            <language ident="en" xml:lang="nl">Engels</language>
             <language ident="en" xml:lang="en">English</language>
          </langUsage>
       </profileDesc>

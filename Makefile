@@ -9,7 +9,7 @@ conllu:
 	Scripts/parlamint2conllu.pl ParlaMint-CZ ParlaMint-CZ
 	Scripts/parlamint2conllu.pl ParlaMint-DK ParlaMint-DK
 	#Scripts/parlamint2conllu.pl ParlaMint-FR ParlaMint-FR
-	#Scripts/parlamint2conllu.pl ParlaMint-GB ParlaMint-GB
+	Scripts/parlamint2conllu.pl ParlaMint-GB ParlaMint-GB
 	Scripts/parlamint2conllu.pl ParlaMint-HR ParlaMint-HR
 	#Scripts/parlamint2conllu.pl ParlaMint-HU ParlaMint-HU
 	Scripts/parlamint2conllu.pl ParlaMint-IS ParlaMint-IS
@@ -133,8 +133,8 @@ htm:	val-all
 test-val:
 	$s -xsl:Scripts/validate-parlamint.xsl ParlaMint-BE/ParlaMint-BE.ana.xml
 	$s -xsl:Scripts/validate-parlamint.xsl ParlaMint-BE/ParlaMint-BE_2015-06-10-54-commissie-ic189x.ana.xml
-# Validate and derived format for 1 language
-LANG = BG
+# Validate and derive formats for 1 language
+LANG = NL
 PREF = /project/corpora/Parla/ParlaMint/ParlaMint
 all-lang:	all-lang-tei all-lang-ana
 all-lang-tei:	val-pc-lang val-lang text-lang chars-lang

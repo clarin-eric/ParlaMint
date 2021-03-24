@@ -1,17 +1,17 @@
 <text id="ParlaMint-NL_2016-10-12-tweedekamer-5.ana" subcorpus="Reference" term="28-lower" session="5" meeting="11" sitting="-" agenda="-" from="2016-10-12" to="2016-10-12" title="Report of the meeting of the Dutch Lower House, Meeting 11, Session 5 (2016-10-12)">
-<note type="">
+<note type="-">
 /Regeling van werkzaamheden/	_	_	_	_	_	_	_	_	_	_
 </note>
-<speech id="ParlaMint-NL.ana_2016-10-12-tweedekamer-5.u1" speaker_id="KhadijaArib" speaker_name="Arib, Khadija" speaker_role="Chairperson" speaker_type="MP" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" speaker_gender="F" speaker_birth="?">
-<p id="ParlaMint-NL.ana_2016-10-12-tweedekamer-5.seg1" lang="">
-<s id="ParlaMint-NL.ana_2016-10-12-tweedekamer-5.s1">
+<speech id="ParlaMint-NL_2016-10-12-tweedekamer-5.u1" speaker_id="KhadijaArib" speaker_name="Arib, Khadija" speaker_role="Chairperson" speaker_type="MP" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" speaker_gender="F" speaker_birth="?">
+<p id="ParlaMint-NL_2016-10-12-tweedekamer-5.seg1" lang="Dutch">
+<s id="ParlaMint-NL_2016-10-12-tweedekamer-5.s1">
 Op	Op	op	ADP	_	w3	case	aantal	NOUN	Gender=Neut Number=Sing	w7
 verzoek	verzoek	verzoek	NOUN	Gender=Neut Number=Sing	w4	fixed	op	ADP	_	w3
 van	van	van	ADP	_	w5	fixed	op	ADP	_	w3
 een	een	een	DET	Definite=Ind	w6	det	aantal	NOUN	Gender=Neut Number=Sing	w7
 aantal	aantal	aantal	NOUN	Gender=Neut Number=Sing	w7	obl	stellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w9
 leden	leden	lid	NOUN	Number=Plur	w8	nmod	aantal	NOUN	Gender=Neut Number=Sing	w7
-stel	stel	stellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w9	root	.	PUNCT	_	pc11
+stel	stel	stellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w9	root	-	-	-	-
 ik	ik	ik	PRON	Case=Nom Person=1 PronType=Prs	w10	nsubj	stellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w9
 voor	voor	voor	ADP	_	w11	compound_prt	stellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w9
 <g/>
@@ -57,10 +57,10 @@ houden	houden	houden	VERB	VerbForm=Inf	w21	ccomp	stellen	VERB	Number=Sing Tense=
 .	.	.	PUNCT	_	pc11	punct	stellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w9
 </s>
 </p>
-<p id="ParlaMint-NL.ana_2016-10-12-tweedekamer-5.seg3" lang="">
-<s id="ParlaMint-NL.ana_2016-10-12-tweedekamer-5.s3">
+<p id="ParlaMint-NL_2016-10-12-tweedekamer-5.seg3" lang="Dutch">
+<s id="ParlaMint-NL_2016-10-12-tweedekamer-5.s3">
 Ik	Ik	ik	PRON	Case=Nom Person=1 PronType=Prs	w332	nsubj	stellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w333
-stel	stel	stellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w333	root	:	PUNCT	_	pc302
+stel	stel	stellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w333	root	-	-	-	-
 voor	voor	voor	ADP	_	w334	compound_prt	stellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w333
 <g/>
 ,	,	,	PUNCT	_	pc301	punct	voegen	VERB	VerbForm=Inf	w337
@@ -74,11 +74,11 @@ agenda	agenda	agenda	NOUN	Gender=Com Number=Sing	w340	obl	voegen	VERB	VerbForm=I
 :	:	:	PUNCT	_	pc302	punct	stellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w333
 </s>
 </p>
-<p id="ParlaMint-NL.ana_2016-10-12-tweedekamer-5.seg4" lang="">
-<s id="ParlaMint-NL.ana_2016-10-12-tweedekamer-5.s4">
+<p id="ParlaMint-NL_2016-10-12-tweedekamer-5.seg4" lang="Dutch">
+<s id="ParlaMint-NL_2016-10-12-tweedekamer-5.s4">
 het	het	het	DET	Definite=Def	w341	det	VAO	PROPN	Gender=Neut Number=Sing	w342
 <name type="ORG">
-VAO	VAO	VAO	PROPN	Gender=Neut Number=Sing	w342	root	.	PUNCT	_	pc304
+VAO	VAO	VAO	PROPN	Gender=Neut Number=Sing	w342	root	-	-	-	-
 Visserij	Visserij	visserij	PROPN	_	w343	flat	VAO	PROPN	Gender=Neut Number=Sing	w342
 <g/>
 </name>
@@ -102,14 +102,14 @@ ChristenUnie	ChristenUnie	ChristenUnie	PROPN	Gender=Com Number=Sing	w353	nmod	li
 </s>
 </p>
 </speech>
-<note type="">
+<note type="-">
 /Overeenkomstig de voorstellen van de voorzitter wordt besloten./	_	_	_	_	_	_	_	_	_	_
 </note>
-<speech id="ParlaMint-NL.ana_2016-10-12-tweedekamer-5.u2" speaker_id="KhadijaArib" speaker_name="Arib, Khadija" speaker_role="Chairperson" speaker_type="MP" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" speaker_gender="F" speaker_birth="?">
-<p id="ParlaMint-NL.ana_2016-10-12-tweedekamer-5.seg5" lang="">
-<s id="ParlaMint-NL.ana_2016-10-12-tweedekamer-5.s6">
+<speech id="ParlaMint-NL_2016-10-12-tweedekamer-5.u2" speaker_id="KhadijaArib" speaker_name="Arib, Khadija" speaker_role="Chairperson" speaker_type="MP" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" speaker_gender="F" speaker_birth="?">
+<p id="ParlaMint-NL_2016-10-12-tweedekamer-5.seg5" lang="Dutch">
+<s id="ParlaMint-NL_2016-10-12-tweedekamer-5.s6">
 Ik	Ik	ik	PRON	Case=Nom Person=1 PronType=Prs	w362	nsubj	geven	VERB	Number=Sing Tense=Pres VerbForm=Fin	w363
-geef	geef	geven	VERB	Number=Sing Tense=Pres VerbForm=Fin	w363	root	.	PUNCT	_	pc306
+geef	geef	geven	VERB	Number=Sing Tense=Pres VerbForm=Fin	w363	root	-	-	-	-
 het	het	het	DET	Definite=Def	w364	det	woord	NOUN	Gender=Neut Number=Sing	w365
 woord	woord	woord	NOUN	Gender=Neut Number=Sing	w365	obj	geven	VERB	Number=Sing Tense=Pres VerbForm=Fin	w363
 aan	aan	aan	ADP	_	w366	case	heer	NOUN	Gender=Com Number=Sing	w368
@@ -131,13 +131,13 @@ CDA	CDA	CDA	PROPN	Gender=Neut Number=Sing	w372	obl	geven	VERB	Number=Sing Tense=
 <note type="gap::editorial">
 /SAMPLING/	_	_	_	_	_	_	_	_	_	_
 </note>
-<speech id="ParlaMint-NL.ana_2016-10-12-tweedekamer-5.u37" speaker_id="RikGrashoff" speaker_name="Grashoff, Rik" speaker_role="Regular" speaker_type="MP" speaker_party="GL" speaker_party_name="GroenLinks" speaker_gender="M" speaker_birth="?">
-<p id="ParlaMint-NL.ana_2016-10-12-tweedekamer-5.seg43" lang="">
-<s id="ParlaMint-NL.ana_2016-10-12-tweedekamer-5.s114">
+<speech id="ParlaMint-NL_2016-10-12-tweedekamer-5.u37" speaker_id="RikGrashoff" speaker_name="Grashoff, Rik" speaker_role="Regular" speaker_type="MP" speaker_party="GL" speaker_party_name="GroenLinks" speaker_gender="M" speaker_birth="?">
+<p id="ParlaMint-NL_2016-10-12-tweedekamer-5.seg43" lang="Dutch">
+<s id="ParlaMint-NL_2016-10-12-tweedekamer-5.s114">
 …	…	…	PUNCT	_	pc479	punct	bewindspersoon	NOUN	Number=Plur	w1950
 tegenover	tegenover	tegenover	ADP	_	w1948	case	bewindspersoon	NOUN	Number=Plur	w1950
 twee	twee	twee	NUM	_	w1949	nummod	bewindspersoon	NOUN	Number=Plur	w1950
-bewindspersonen	bewindspersonen	bewindspersoon	NOUN	Number=Plur	w1950	root	.	PUNCT	_	pc480
+bewindspersonen	bewindspersonen	bewindspersoon	NOUN	Number=Plur	w1950	root	-	-	-	-
 die	die	die	PRON	PronType=Rel	w1951	nsubj	komen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w1959
 niet	niet	niet	ADV	_	w1952	advmod	komen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w1959
 in	in	in	ADP	_	w1953	case	WGO	PROPN	Gender=Neut Number=Sing	w1955
@@ -152,8 +152,8 @@ komen	komen	komen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w1959	acl_relcl	bewin
 <g/>
 .	.	.	PUNCT	_	pc480	punct	bewindspersoon	NOUN	Number=Plur	w1950
 </s>
-<s id="ParlaMint-NL.ana_2016-10-12-tweedekamer-5.s115">
-Vandaar	Vandaar	vandaar	ADV	_	w1960	root	.	PUNCT	_	pc481
+<s id="ParlaMint-NL_2016-10-12-tweedekamer-5.s115">
+Vandaar	Vandaar	vandaar	ADV	_	w1960	root	-	-	-	-
 dat	dat	dat	SCONJ	_	w1961	mark	willen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w1968
 ik	ik	ik	PRON	Case=Nom Person=1 PronType=Prs	w1962	nsubj	willen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w1968
 dit	dit	dit	PRON	Person=3 PronType=Dem	w1963	obj	betrekken	VERB	VerbForm=Inf	w1969
@@ -168,19 +168,19 @@ betrekken	betrekken	betrekken	VERB	VerbForm=Inf	w1969	xcomp	willen	VERB	Number=S
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-NL.ana_2016-10-12-tweedekamer-5.u38" speaker_id="KhadijaArib" speaker_name="Arib, Khadija" speaker_role="Chairperson" speaker_type="MP" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" speaker_gender="F" speaker_birth="?">
-<p id="ParlaMint-NL.ana_2016-10-12-tweedekamer-5.seg44" lang="">
-<s id="ParlaMint-NL.ana_2016-10-12-tweedekamer-5.s116">
+<speech id="ParlaMint-NL_2016-10-12-tweedekamer-5.u38" speaker_id="KhadijaArib" speaker_name="Arib, Khadija" speaker_role="Chairperson" speaker_type="MP" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" speaker_gender="F" speaker_birth="?">
+<p id="ParlaMint-NL_2016-10-12-tweedekamer-5.seg44" lang="Dutch">
+<s id="ParlaMint-NL_2016-10-12-tweedekamer-5.s116">
 U	U	u	PRON	Case=Nom Person=2 PronType=Prs	w1970	nsubj	hebben	VERB	Number=Sing Tense=Pres VerbForm=Fin	w1971
-hebt	hebt	hebben	VERB	Number=Sing Tense=Pres VerbForm=Fin	w1971	root	.	PUNCT	_	pc482
+hebt	hebt	hebben	VERB	Number=Sing Tense=Pres VerbForm=Fin	w1971	root	-	-	-	-
 geen	geen	geen	DET	_	w1972	det	meerderheid	NOUN	Gender=Com Number=Sing	w1973
 meerderheid	meerderheid	meerderheid	NOUN	Gender=Com Number=Sing	w1973	obj	hebben	VERB	Number=Sing Tense=Pres VerbForm=Fin	w1971
 <g/>
 .	.	.	PUNCT	_	pc482	punct	hebben	VERB	Number=Sing Tense=Pres VerbForm=Fin	w1971
 </s>
-<s id="ParlaMint-NL.ana_2016-10-12-tweedekamer-5.s117">
+<s id="ParlaMint-NL_2016-10-12-tweedekamer-5.s117">
 Het	Het	het	PRON	Person=3 PronType=Prs	w1974	expl	kloppen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w1975
-klopt	klopt	kloppen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w1975	root	.	PUNCT	_	pc483
+klopt	klopt	kloppen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w1975	root	-	-	-	-
 dat	dat	dat	SCONJ	_	w1976	mark	staan	VERB	Number=Sing Tense=Pres VerbForm=Fin	w1986
 het	het	het	DET	Definite=Def	w1977	det	debat	NOUN	Gender=Neut Number=Sing	w1979
 genoemde	genoemde	genoemd	VERB	VerbForm=Part	w1978	amod	debat	NOUN	Gender=Neut Number=Sing	w1979
@@ -195,11 +195,11 @@ staat	staat	staan	VERB	Number=Sing Tense=Pres VerbForm=Fin	w1986	csubj	kloppen	V
 <g/>
 .	.	.	PUNCT	_	pc483	punct	kloppen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w1975
 </s>
-<s id="ParlaMint-NL.ana_2016-10-12-tweedekamer-5.s118">
+<s id="ParlaMint-NL_2016-10-12-tweedekamer-5.s118">
 Het	Het	het	PRON	Person=3 PronType=Prs	w1987	nsubj_pass	inplannen	VERB	VerbForm=Part	w1990
 is	is	zijn	AUX	Number=Sing Tense=Pres VerbForm=Fin	w1988	aux_pass	inplannen	VERB	VerbForm=Part	w1990
 niet	niet	niet	ADV	_	w1989	advmod	inplannen	VERB	VerbForm=Part	w1990
-ingepland	ingepland	inplannen	VERB	VerbForm=Part	w1990	root	.	PUNCT	_	pc486
+ingepland	ingepland	inplannen	VERB	VerbForm=Part	w1990	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	_	pc484	punct	begrijpen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w1992
 zo	zo	zo	ADV	_	w1991	ccomp	begrijpen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w1992
@@ -216,7 +216,7 @@ ontbreken	ontbreken	ontbreken	VERB	Number=Plur Tense=Pres VerbForm=Fin	w1999	adv
 <g/>
 .	.	.	PUNCT	_	pc486	punct	inplannen	VERB	VerbForm=Part	w1990
 </s>
-<s id="ParlaMint-NL.ana_2016-10-12-tweedekamer-5.s119">
+<s id="ParlaMint-NL_2016-10-12-tweedekamer-5.s119">
 Verder	Verder	Verder	ADJ	Degree=Pos	w2000	advmod	vragen	VERB	VerbForm=Part	w2007
 zijn	zijn	zijn	AUX	Number=Plur Tense=Pres VerbForm=Fin	w2001	aux_pass	vragen	VERB	VerbForm=Part	w2007
 voor	voor	voor	ADP	_	w2002	case	debat	NOUN	Gender=Neut Number=Sing	w2004
@@ -224,7 +224,7 @@ dat	dat	dat	DET	_	w2003	det	debat	NOUN	Gender=Neut Number=Sing	w2004
 debat	debat	debat	NOUN	Gender=Neut Number=Sing	w2004	obl	vragen	VERB	VerbForm=Part	w2007
 drie	drie	drie	NUM	_	w2005	nummod	bewindspersoon	NOUN	Number=Plur	w2006
 bewindspersonen	bewindspersonen	bewindspersoon	NOUN	Number=Plur	w2006	nsubj_pass	vragen	VERB	VerbForm=Part	w2007
-gevraagd	gevraagd	vragen	VERB	VerbForm=Part	w2007	root	.	PUNCT	_	pc489
+gevraagd	gevraagd	vragen	VERB	VerbForm=Part	w2007	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	_	pc487	punct	vragen	VERB	VerbForm=Part	w2014
 en	en	en	CCONJ	_	w2008	cc	vragen	VERB	VerbForm=Part	w2014
@@ -251,11 +251,11 @@ kan	kan	kunnen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w2026	acl_relcl	datum	NO
 <g/>
 .	.	.	PUNCT	_	pc489	punct	vragen	VERB	VerbForm=Part	w2007
 </s>
-<s id="ParlaMint-NL.ana_2016-10-12-tweedekamer-5.s120">
+<s id="ParlaMint-NL_2016-10-12-tweedekamer-5.s120">
 Het	Het	het	DET	Definite=Def	w2027	det	resultaat	NOUN	Gender=Neut Number=Sing	w2028
 resultaat	resultaat	resultaat	NOUN	Gender=Neut Number=Sing	w2028	nsubj	hetzelfde	ADJ	Degree=Pos	w2030
 is	is	zijn	AUX	Number=Sing Tense=Pres VerbForm=Fin	w2029	cop	hetzelfde	ADJ	Degree=Pos	w2030
-hetzelfde	hetzelfde	hetzelfde	ADJ	Degree=Pos	w2030	root	.	PUNCT	_	pc491
+hetzelfde	hetzelfde	hetzelfde	ADJ	Degree=Pos	w2030	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	_	pc490	punct	mijnheer	NOUN	Gender=Com Number=Sing	w2031
 mijnheer	mijnheer	mijnheer	NOUN	Gender=Com Number=Sing	w2031	parataxis	hetzelfde	ADJ	Degree=Pos	w2030
@@ -265,24 +265,24 @@ Grashoff	Grashoff	Grashoff	PROPN	Gender=Com Number=Sing	w2032	appos	mijnheer	NOU
 </name>
 .	.	.	PUNCT	_	pc491	punct	hetzelfde	ADJ	Degree=Pos	w2030
 </s>
-<s id="ParlaMint-NL.ana_2016-10-12-tweedekamer-5.s121">
+<s id="ParlaMint-NL_2016-10-12-tweedekamer-5.s121">
 U	U	u	PRON	Case=Nom Person=2 PronType=Prs	w2033	nsubj	hebben	VERB	Number=Sing Tense=Pres VerbForm=Fin	w2034
-hebt	hebt	hebben	VERB	Number=Sing Tense=Pres VerbForm=Fin	w2034	root	.	PUNCT	_	pc492
+hebt	hebt	hebben	VERB	Number=Sing Tense=Pres VerbForm=Fin	w2034	root	-	-	-	-
 geen	geen	geen	DET	_	w2035	det	meerderheid	NOUN	Gender=Com Number=Sing	w2036
 meerderheid	meerderheid	meerderheid	NOUN	Gender=Com Number=Sing	w2036	obj	hebben	VERB	Number=Sing Tense=Pres VerbForm=Fin	w2034
 <g/>
 .	.	.	PUNCT	_	pc492	punct	hebben	VERB	Number=Sing Tense=Pres VerbForm=Fin	w2034
 </s>
 </p>
-<p id="ParlaMint-NL.ana_2016-10-12-tweedekamer-5.seg45" lang="">
-<s id="ParlaMint-NL.ana_2016-10-12-tweedekamer-5.s122">
+<p id="ParlaMint-NL_2016-10-12-tweedekamer-5.seg45" lang="Dutch">
+<s id="ParlaMint-NL_2016-10-12-tweedekamer-5.s122">
 Hiermee	Hiermee	hiermee	ADV	_	w2037	advmod	komen	VERB	VerbForm=Part	w2043
 zijn	zijn	zijn	AUX	Number=Plur Tense=Pres VerbForm=Fin	w2038	aux	komen	VERB	VerbForm=Part	w2043
 wij	wij	wij	PRON	Case=Nom Person=1 PronType=Prs	w2039	nsubj	komen	VERB	VerbForm=Part	w2043
 aan	aan	aan	ADP	_	w2040	case	einde	NOUN	Gender=Neut Number=Sing	w2042
 het	het	het	DET	Definite=Def	w2041	det	einde	NOUN	Gender=Neut Number=Sing	w2042
 einde	einde	einde	NOUN	Gender=Neut Number=Sing	w2042	obl	komen	VERB	VerbForm=Part	w2043
-gekomen	gekomen	komen	VERB	VerbForm=Part	w2043	root	.	PUNCT	_	pc493
+gekomen	gekomen	komen	VERB	VerbForm=Part	w2043	root	-	-	-	-
 van	van	van	ADP	_	w2044	case	regeling	NOUN	Gender=Com Number=Sing	w2046
 de	de	de	DET	Definite=Def	w2045	det	regeling	NOUN	Gender=Com Number=Sing	w2046
 regeling	regeling	regeling	NOUN	Gender=Com Number=Sing	w2046	nmod	einde	NOUN	Gender=Neut Number=Sing	w2042
@@ -293,7 +293,7 @@ werkzaamheden	werkzaamheden	werkzaamheid	NOUN	Number=Plur	w2048	nmod	regeling	NO
 </s>
 </p>
 </speech>
-<note type="">
+<note type="-">
 /De vergadering wordt van 14.27 uur tot 14.32 uur geschorst./	_	_	_	_	_	_	_	_	_	_
 </note>
 </text>
