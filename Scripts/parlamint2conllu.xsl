@@ -161,12 +161,12 @@
 	  <xsl:value-of select="concat('ERROR: no lemma for token: ', text())"/>
 	</xsl:message>
       </xsl:when>
-      <xsl:when test="contains(@lemma,' ')">
-	<xsl:message terminate="yes">
-	  <xsl:value-of select="concat('ERROR: lemma contains space: ', @lemma)"/>
-	</xsl:message>
-      </xsl:when>
       <xsl:otherwise>
+	<xsl:if test="contains(@lemma,' ')">
+	  <xsl:message>
+	    <xsl:value-of select="concat('WARN: lemma for ', @xml:id, ' contains space: ', @lemma)"/>
+	  </xsl:message>
+	</xsl:if>
 	<xsl:value-of select="@lemma"/>
       </xsl:otherwise>
     </xsl:choose>

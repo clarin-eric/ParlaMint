@@ -57,7 +57,7 @@ foreach $inFile (glob "$inDir/*.xml") {
 }
 `rm -f $inDir/*.conllu`;
 foreach $inFile (@compAnaFiles) {
-    my ($fName) = $inFile =~ m|([^/]+)\.ana|;
+    my ($fName) = $inFile =~ m|([^/]+)\.ana\.xml|;
     my ($country) = $inFile =~ /ParlaMint-(..)/ or die;
     my ($langs) = $country2lang{$country};
     if ($langs !~ /,/) {
