@@ -542,12 +542,11 @@ And, there is, in theory, also:
     <xsl:param name="speaker" as="element(tei:person)"/>
     <!-- Output full ('yes') or abbreviated ('init') name of the party -->
     <xsl:param name="full" as="xs:string"/>
-    <!-- Should be just one ref for a given date, but sometimes isn't  -->
+    <!-- Collect all affiliation references where the speaker is a member and are in 
+	 the correct time-frame for the speech -->
     <xsl:variable name="refs">
       <xsl:variable name="tmp">
-	<!-- This was V1, now CZ has candidateMP! -->
-	<!--xsl:for-each select="$speaker/tei:affiliation[@role='member']"-->
-	<xsl:for-each select="$speaker/tei:affiliation">
+	<xsl:for-each select="$speaker/tei:affiliation[@role='member' or @role='candidateMP']">
 	  <xsl:choose>
 	    <xsl:when test="@from and @to">
 	      <xsl:if test="et:between-dates($date-from, @from, @to) and
@@ -580,58 +579,66 @@ And, there is, in theory, also:
       </xsl:if-->
       <xsl:value-of select="normalize-space($tmp)"/>
     </xsl:variable>
-    <xsl:variable name="parties">
+    <xsl:variable name="politicalParties">
       <xsl:for-each select="tokenize($refs, ' ')">
-	<xsl:variable name="party" select="key('idr', ., $teiHeader)"/>
-	<xsl:if test="$party/@role='politicalParty'">
-	  <xsl:choose>
-	    <!-- Try non-English name first -->
-	    <xsl:when test="$party/tei:orgName[@full=$full]
-			    [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang != 'en']">
-	      <xsl:value-of select="$party/tei:orgName[@full=$full]
-				    [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang != 'en']"/>
-	      <!--xsl:value-of select="$multi-separator"/-->
-	      <xsl:text>;</xsl:text>
-	    </xsl:when>
-	    <!-- Or English name first -->
-	    <xsl:when test="$party/tei:orgName[@full=$full]
-			    [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'en']">
-	      <xsl:value-of select="$party/tei:orgName[@full=$full]
-				    [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'en']"/>
-	      <!--xsl:value-of select="$multi-separator"/-->
-	      <xsl:text>;</xsl:text>
-	    </xsl:when>
-	    <!-- Fall back on ID -->
-	    <xsl:when test="$full = 'init' and $party/@xml:id">
-	      <xsl:message>
-		<xsl:text>WARN: party without short name </xsl:text>
-		<xsl:value-of select="$party/@xml:id"/>
-	      </xsl:message>
-	      <!-- Shorten if possible -->
-	      <xsl:value-of select="replace($party/@xml:id, '.+?\.' , '')"/>
-	      <!--xsl:value-of select="$multi-separator"/-->
-	      <xsl:text>;</xsl:text>
-	    </xsl:when>
-	    <xsl:otherwise>
-	      <!--xsl:message>
-		  <xsl:text>WARN: no party for </xsl:text>
-		  <xsl:value-of select="$speaker/@xml:id"/>
-		  <xsl:text> on </xsl:text>
-		  <xsl:value-of select="concat($date-from, ' - ', $date-to)"/>
-		  </xsl:message-->
-	    </xsl:otherwise>
-	  </xsl:choose>
-	</xsl:if>
+	<xsl:variable name="party" select="key('idr', ., $teiHeader)[@role='politicalParty']"/>
+	<xsl:call-template name="party-name">
+	  <xsl:with-param name="party" select="$party"/>
+	  <xsl:with-param name="full" select="$full"/>
+	</xsl:call-template>
+      </xsl:for-each>
+    </xsl:variable>
+    <xsl:variable name="politicalGroups">
+      <xsl:for-each select="tokenize($refs, ' ')">
+	<xsl:variable name="party" select="key('idr', ., $teiHeader)[@role='politicalGroup']"/>
+	<xsl:call-template name="party-name">
+	  <xsl:with-param name="party" select="$party"/>
+	  <xsl:with-param name="full" select="$full"/>
+	</xsl:call-template>
       </xsl:for-each>
     </xsl:variable>
     <xsl:choose>
-      <xsl:when test="normalize-space($parties)">
-	<!-- Doesn't work! xsl:value-of select="replace($parties, concat($multi-separator, '$'), '')"/-->
-	<xsl:value-of select="replace($parties, ';$', '')"/>
+      <xsl:when test="normalize-space($politicalGroups)">
+	<xsl:value-of select="replace($politicalGroups, ';$', '')"/>
+      </xsl:when>
+      <xsl:when test="normalize-space($politicalParties)">
+	<xsl:value-of select="replace($politicalParties, ';$', '')"/>
       </xsl:when>
       <xsl:otherwise>_</xsl:otherwise>
     </xsl:choose>
   </xsl:function>
+  
+  <!-- Return the name of the party -->
+  <xsl:template name="party-name">
+    <xsl:param name="party"/>
+    <xsl:param name="full"/>
+    <xsl:choose>
+      <!-- Non-English name first -->
+      <xsl:when test="$party/tei:orgName[@full=$full]
+		      [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang != 'en']">
+	<xsl:value-of select="$party/tei:orgName[@full=$full]
+			      [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang != 'en']"/>
+	<xsl:text>;</xsl:text>
+      </xsl:when>
+      <!-- then English name -->
+      <xsl:when test="$party/tei:orgName[@full=$full]
+		      [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'en']">
+	<xsl:value-of select="$party/tei:orgName[@full=$full]
+			      [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'en']"/>
+	<xsl:text>;</xsl:text>
+      </xsl:when>
+      <!-- fall back on ID -->
+      <xsl:when test="$full = 'init' and $party/@xml:id">
+	<xsl:message>
+	  <xsl:text>WARN: party without short name </xsl:text>
+	  <xsl:value-of select="$party/@xml:id"/>
+	</xsl:message>
+	<!-- Shorten if possible -->
+	<xsl:value-of select="replace($party/@xml:id, '.+?\.' , '')"/>
+	<xsl:text>;</xsl:text>
+      </xsl:when>
+    </xsl:choose>
+  </xsl:template>
   
   <!-- Is the first date between the following two? -->
   <xsl:function name="et:between-dates" as="xs:boolean">
