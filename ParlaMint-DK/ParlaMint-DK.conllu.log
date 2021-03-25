@@ -1,0 +1,35 @@
+INFO: Converting directory /home/project/corpora/Parla/ParlaMint/ParlaMint/ParlaMint-DK
+INFO: Converting ParlaMint-DK_2014-10-08-20141-M2
+INFO: Validating level 1: ParlaMint-DK_2014-10-08-20141-M2
+*** PASSED ***
+INFO: Validating level 2: ParlaMint-DK_2014-10-08-20141-M2
+[Line 8029 Sent ParlaMint-DK_20141008130437.seg2.7]: [L0 Format some-test] Exception caught!
+Traceback (most recent call last):
+  File "/home/project/corpora/Parla/ParlaMint/ParlaMint/Scripts/tools/validate.py", line 2112, in <module>
+    validate(inp,out,args,tagsets,known_sent_ids)
+  File "/home/project/corpora/Parla/ParlaMint/ParlaMint/Scripts/tools/validate.py", line 1830, in validate
+    tree = build_tree(sentence) # level 2 test: tree is single-rooted, connected, cycle-free
+  File "/home/project/corpora/Parla/ParlaMint/ParlaMint/Scripts/tools/validate.py", line 1053, in build_tree
+    get_projection(0, tree, projection)
+  File "/home/project/corpora/Parla/ParlaMint/ParlaMint/Scripts/tools/validate.py", line 1071, in get_projection
+    get_projection(child, tree, projection)
+  File "/home/project/corpora/Parla/ParlaMint/ParlaMint/Scripts/tools/validate.py", line 1071, in get_projection
+    get_projection(child, tree, projection)
+  File "/home/project/corpora/Parla/ParlaMint/ParlaMint/Scripts/tools/validate.py", line 1071, in get_projection
+    get_projection(child, tree, projection)
+  [Previous line repeated 993 more times]
+  File "/home/project/corpora/Parla/ParlaMint/ParlaMint/Scripts/tools/validate.py", line 1070, in get_projection
+    projection.add(child)
+RecursionError: maximum recursion depth exceeded while calling a Python object
+Format errors: 1
+*** FAILED *** with 1 errors
+INFO: Converting ParlaMint-DK_2016-11-11-20161-M15
+INFO: Validating level 1: ParlaMint-DK_2016-11-11-20161-M15
+*** PASSED ***
+INFO: Validating level 2: ParlaMint-DK_2016-11-11-20161-M15
+*** PASSED ***
+INFO: Converting ParlaMint-DK_2018-11-22-20181-M24
+INFO: Validating level 1: ParlaMint-DK_2018-11-22-20181-M24
+*** PASSED ***
+INFO: Validating level 2: ParlaMint-DK_2018-11-22-20181-M24
+*** PASSED ***

@@ -2,24 +2,24 @@
 #If you want to use, first do:
 #$ cd Scripts; git clone git@github.com:UniversalDependencies/tools.git
 nohup-conllu:
-	nohup time make conllu > ParlaMint-XX.conllu.log &
+	nohup time make conllu &
 conllu:
-	Scripts/parlamint2conllu.pl ParlaMint-BE ParlaMint-BE 2> ParlaMint-BE.conllu.log
-	Scripts/parlamint2conllu.pl ParlaMint-BG ParlaMint-BG
-	Scripts/parlamint2conllu.pl ParlaMint-CZ ParlaMint-CZ
-	Scripts/parlamint2conllu.pl ParlaMint-DK ParlaMint-DK
-	#Scripts/parlamint2conllu.pl ParlaMint-FR ParlaMint-FR
-	Scripts/parlamint2conllu.pl ParlaMint-GB ParlaMint-GB
-	Scripts/parlamint2conllu.pl ParlaMint-HR ParlaMint-HR
-	#Scripts/parlamint2conllu.pl ParlaMint-HU ParlaMint-HU
-	Scripts/parlamint2conllu.pl ParlaMint-IS ParlaMint-IS
-	#Scripts/parlamint2conllu.pl ParlaMint-IT ParlaMint-IT
-	#Scripts/parlamint2conllu.pl ParlaMint-LT ParlaMint-LT
-	Scripts/parlamint2conllu.pl ParlaMint-NL ParlaMint-NL
-	Scripts/parlamint2conllu.pl ParlaMint-PL ParlaMint-PL
-	#Scripts/parlamint2conllu.pl ParlaMint-RO ParlaMint-RO
-	Scripts/parlamint2conllu.pl ParlaMint-SI ParlaMint-SI
-	#Scripts/parlamint2conllu.pl ParlaMint-TR ParlaMint-TR
+	Scripts/parlamint2conllu.pl ParlaMint-BE ParlaMint-BE 2> ParlaMint-BE/ParlaMint-BE.conllu.log
+	Scripts/parlamint2conllu.pl ParlaMint-BG ParlaMint-BG 2> ParlaMint-BG/ParlaMint-BG.conllu.log
+	Scripts/parlamint2conllu.pl ParlaMint-CZ ParlaMint-CZ 2> ParlaMint-CZ/ParlaMint-CZ.conllu.log
+	Scripts/parlamint2conllu.pl ParlaMint-DK ParlaMint-DK 2> ParlaMint-DK/ParlaMint-DK.conllu.log
+	#Scripts/parlamint2conllu.pl ParlaMint-FR ParlaMint-FR 2> ParlaMint-FR/ParlaMint-FR.conllu.log
+	Scripts/parlamint2conllu.pl ParlaMint-GB ParlaMint-GB 2> ParlaMint-GB/ParlaMint-GB.conllu.log
+	Scripts/parlamint2conllu.pl ParlaMint-HR ParlaMint-HR 2> ParlaMint-HR/ParlaMint-HR.conllu.log
+	#Scripts/parlamint2conllu.pl ParlaMint-HU ParlaMint-HU 2> ParlaMint-HU/ParlaMint-HU.conllu.log
+	Scripts/parlamint2conllu.pl ParlaMint-IS ParlaMint-IS 2> ParlaMint-IS/ParlaMint-IS.conllu.log
+	#Scripts/parlamint2conllu.pl ParlaMint-IT ParlaMint-IT 2> ParlaMint-IT/ParlaMint-IT.conllu.log
+	#Scripts/parlamint2conllu.pl ParlaMint-LT ParlaMint-LT 2> ParlaMint-LT/ParlaMint-LT.conllu.log
+	Scripts/parlamint2conllu.pl ParlaMint-NL ParlaMint-NL 2> ParlaMint-NL/ParlaMint-NL.conllu.log
+	Scripts/parlamint2conllu.pl ParlaMint-PL ParlaMint-PL 2> ParlaMint-PL/ParlaMint-PL.conllu.log
+	#Scripts/parlamint2conllu.pl ParlaMint-RO ParlaMint-RO 2> ParlaMint-RO/ParlaMint-RO.conllu.log
+	Scripts/parlamint2conllu.pl ParlaMint-SI ParlaMint-SI 2> ParlaMint-SI/ParlaMint-SI.conllu.log
+	#Scripts/parlamint2conllu.pl ParlaMint-TR ParlaMint-TR 2> ParlaMint-TR/ParlaMint-TR.conllu.log
 
 conllu-six:
 	rm -f ParlaMint-SI/*.conllu
