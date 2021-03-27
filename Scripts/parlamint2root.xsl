@@ -160,15 +160,13 @@
   
   <xsl:template match="tei:appInfo">
     <xsl:for-each select="document($docs//tei:item)/tei:teiCorpus">
-      <xsl:copy>
-	<xsl:variable name="corpus" select="@xml:id"/>
-	<xsl:for-each select="tei:teiHeader/tei:encodingDesc/tei:appInfo">
-	  <xsl:copy>
-	    <xsl:attribute name="n" select="$corpus"/>
-	    <xsl:apply-templates/>
-	  </xsl:copy>
-	</xsl:for-each>
-      </xsl:copy>
+      <xsl:variable name="corpus" select="@xml:id"/>
+      <xsl:for-each select="tei:teiHeader/tei:encodingDesc/tei:appInfo">
+	<xsl:copy>
+	  <xsl:attribute name="n" select="$corpus"/>
+	  <xsl:apply-templates/>
+	</xsl:copy>
+      </xsl:for-each>
     </xsl:for-each>
   </xsl:template>
   

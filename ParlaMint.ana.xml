@@ -350,215 +350,194 @@
                <tagUsage gi="w" occurs="229241546"/>
             </namespace>
          </tagsDecl>
-         <teiCorpus xmlns:xi="http://www.w3.org/2001/XInclude">
-            <appInfo n="ParlaMint-BE.ana">
-               <application ident="int-tagger" version="1.0">
-                  <label>INT Tagger, lemmatizer and Tokenizer</label>
-                  <desc>INT Tagger, lemmatizer and Tokenizer for modern Dutch, based on old-school machine learning (SVM). It provides the legacy PoS tags (encoded in w/@ana) and the lemmata for Dutch. Not publicly available.</desc>
-               </application>
-               <application ident="udify" version="1.0">
-                  <label>Udify</label>
-                  <desc>UDify is a single model that parses Universal Dependencies (UPOS, UFeats, Lemmas, Deps) jointly, accepting any of 75 supported languages as input.
+         <appInfo xmlns:xi="http://www.w3.org/2001/XInclude" n="ParlaMint-BE.ana">
+            <application ident="int-tagger" version="1.0">
+               <label>INT Tagger, lemmatizer and Tokenizer</label>
+               <desc>INT Tagger, lemmatizer and Tokenizer for modern Dutch, based on old-school machine learning (SVM). It provides the legacy PoS tags (encoded in w/@ana) and the lemmata for Dutch. Not publicly available.</desc>
+            </application>
+            <application ident="udify" version="1.0">
+               <label>Udify</label>
+               <desc>UDify is a single model that parses Universal Dependencies (UPOS, UFeats, Lemmas, Deps) jointly, accepting any of 75 supported languages as input.
         Available from <ref target="https://github.com/Hyperparticle/udify">https://github.com/Hyperparticle/udify</ref>
-                  </desc>
-               </application>
-               <application ident="flair-ner" version="1.0">
-                  <label>Flair NLP NER tagging for French and Dutch</label>
-                  <desc>A powerful NLP library. Flair allows you to apply our state-of-the-art natural language processing (NLP) models to your text,
+               </desc>
+            </application>
+            <application ident="flair-ner" version="1.0">
+               <label>Flair NLP NER tagging for French and Dutch</label>
+               <desc>A powerful NLP library. Flair allows you to apply our state-of-the-art natural language processing (NLP) models to your text,
           such as named entity recognition (NER), part-of-speech tagging (PoS), sense disambiguation and classification, with support for a rapidly growing number of languages.
           Available from <ref target="https://github.com/flairNLP/flair">https://github.com/flairNLP/flair</ref>
-                  </desc>
-               </application>
-               <application ident="trankit" version="1.0">
-                  <label>Trankit: A Light-Weight Transformer-based Python Toolkit for Multilingual Natural Language Processing</label>
-                  <desc>Trankit is a light-weight Transformer-based Python Toolkit for multilingual Natural Language Processing (NLP).
+               </desc>
+            </application>
+            <application ident="trankit" version="1.0">
+               <label>Trankit: A Light-Weight Transformer-based Python Toolkit for Multilingual Natural Language Processing</label>
+               <desc>Trankit is a light-weight Transformer-based Python Toolkit for multilingual Natural Language Processing (NLP).
           It provides a trainable pipeline for fundamental NLP tasks over 100 languages, and 90 downloadable pretrained pipelines for 56 languages.
           Available from <ref target="https://github.com/nlp-uoregon/trankit">https://github.com/nlp-uoregon/trankit</ref>
-                  </desc>
-               </application>
-            </appInfo>
-         </teiCorpus>
-         <teiCorpus>
-            <appInfo n="ParlaMint-BG.ana">
-               <application version="1.0" ident="reldi-tokeniser">
-                  <label>ReLDI tokeniser</label>
-                  <desc>Tokenisation and sentence segmentation with ReLDI tokeniser, available from <ref target="https://github.com/clarinsi/reldi-tokeniser">https://github.com/clarinsi/reldi-tokeniser</ref>.</desc>
-               </application>
-               <application version="1.0" ident="classla-stanfordnlp">
-                  <label>CLASSLA-StanfordNLP</label>
-                  <desc>MSD tagging and lemmatisation with CLASSLA-StanfordNLP trained for Slovene, available from <ref target="https://github.com/clarinsi/classla-stanfordnlp">https://github.com/clarinsi/classla-stanfordnlp</ref>.</desc>
-               </application>
-               <application version="1.0" ident="janes-ner">
-                  <label>NER system for South Slavic languages</label>
-                  <desc>Named entity recognition done with the Janes NER program, trained for Slovene and available at <ref target="https://github.com/clarinsi/janes-ner">https://github.com/clarinsi/janes-ner</ref>.</desc>
-               </application>
-            </appInfo>
-         </teiCorpus>
-         <teiCorpus xmlns:xi="http://www.w3.org/2001/XInclude">
-            <appInfo n="ParlaMint-CZ.ana">
-               <application ident="UDPipe" version="2">
-                  <label>UDPipe 2 (czech-pdt-ud-2.6-200830 model)</label>
-                  <desc>POS tagging, lemmatization and dependency parsing done with UDPipe 2 <ref target="http://ufal.mff.cuni.cz/udpipe/2">http://ufal.mff.cuni.cz/udpipe/2</ref>with czech-pdt-ud-2.6-200830 model</desc>
-               </application>
-               <application ident="NameTag" version="2">
-                  <label>NameTag 2 (czech-cnec2.0-200831 model)</label>
-                  <desc>Name entity recognition done with NameTag 2 <ref target="http://ufal.mff.cuni.cz/nametag/2">http://ufal.mff.cuni.cz/nametag/2</ref>with czech-cnec2.0-200831 model <ref target="http://hdl.handle.net/11234/1-3443">http://hdl.handle.net/11234/1-3443</ref>. Posprocessing: nested named entities has been merged to four categories (PER, LOC, ORG, MISC).</desc>
-               </application>
-            </appInfo>
-         </teiCorpus>
-         <teiCorpus>
-            <appInfo n="ParlaMint-DK.ana">
-               <application version="1.0" ident="cstlemma">
-                  <label>CSTlemma lemmatizer for Danish</label>
-                  <desc>Lemmatiser that uses affix rules (affix: prefix, infix, suffix, circumfix). Rules are obtained by supervised learning. <ref target="https://www.aclweb.org/anthology/P09-1017.pdf">Bart Jongejan and Hercules Dalianis (2009)</ref>. Available from <ref target="https://github.com/kuhumcst/cstlemma">GitHub</ref>.</desc>
-               </application>
-               <application version="1.0" ident="texton">
-                  <label>Text Tonsorium</label>
-                  <desc>Web application that automatically composes and enacts workflows consisting of NLP and format transforming tools. <ref target="https://clarin.dk/clarindk/tools-texton.jsp">clarin.dk</ref>. <ref target="https://office.clarin.eu/v/CE-2020-1738-CLARIN2020_ConferenceProceedings.pdf">Bart Jongejan (2020)</ref>. Available from <ref target="https://github.com/kuhumcst/texton">GitHub</ref>.</desc>
-               </application>
-               <application version="1.0" ident="dapipe">
-                  <label>UDPipe tools for Danish</label>
-                  <desc>MSD tagging and dependency parsing with UDPipe <ref target="http://ufal.mff.cuni.cz/udpipe">http://ufal.mff.cuni.cz/udpipe</ref> trained for Danish, available from<ref target="https://github.com/ITUnlp/dapipe">https://github.com/ITUnlp/dapipe</ref>.</desc>
-               </application>
-               <application version="1.0" ident="CST-NER">
-                  <label>CST Named Entity Recogniser</label>
-                  <desc>CST's named entity recogniser classifies names as person, organization, location or miscellaneous. Available as part of<ref target="https://github.com/kuhumcst/texton-linguistic-resources/tree/master/da/navnegenkenderCSTNER">https://github.com/kuhumcst/texton-linguistic-resources</ref>.</desc>
-               </application>
-            </appInfo>
-         </teiCorpus>
-         <teiCorpus xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions">
-            <appInfo n="ParlaMint-GB.ana">
-               <application version="4.0" ident="stanford-corenlp">
-                  <label>Stanford CoreNLP</label>
-                  <desc>Tokenisation, POS tagging, NER and dependency parsed using Stanford CoreNLP <ref target="https://stanfordnlp.github.io/CoreNLP/">https://stanfordnlp.github.io/CoreNLP/</ref>.</desc>
-               </application>
-            </appInfo>
-         </teiCorpus>
-         <teiCorpus>
-            <appInfo n="ParlaMint-HR.ana">
-               <application version="1.0" ident="reldi-tokeniser">
-                  <label>ReLDI tokeniser</label>
-                  <desc>Tokenisation and sentence segmentation with ReLDI tokeniser, available from <ref target="https://github.com/clarinsi/reldi-tokeniser">https://github.com/clarinsi/reldi-tokeniser</ref>.</desc>
-               </application>
-               <application version="1.0" ident="classla-stanfordnlp">
-                  <label>CLASSLA-StanfordNLP</label>
-                  <desc>MSD tagging and lemmatisation with CLASSLA-StanfordNLP trained for Slovene, available from <ref target="https://github.com/clarinsi/classla-stanfordnlp">https://github.com/clarinsi/classla-stanfordnlp</ref>.</desc>
-               </application>
-               <application version="1.0" ident="janes-ner">
-                  <label>NER system for South Slavic languages</label>
-                  <desc>Named entity recognition done with the Janes NER program, trained for Slovene and available at <ref target="https://github.com/clarinsi/janes-ner">https://github.com/clarinsi/janes-ner</ref>.</desc>
-               </application>
-            </appInfo>
-         </teiCorpus>
-         <teiCorpus>
-            <appInfo n="ParlaMint-IS.ana">
-               <application ident="tokenizer" version="2.4.0">
-                  <label>Tokenizer</label>
-                  <desc>Tokenisation and sentence segmentation with Tokeniser from Miðeind, available from <ref target="https://github.com/mideind/Tokenizer">https://github.com/mideind/Tokenizer</ref>.</desc>
-               </application>
-               <application ident="abltagger-pos" version="2.0.3">
-                  <label>ABLTagger (PoS)</label>
-                  <desc>Part-of-speech tagging with ABLTagger (PoS), avaiable from <ref target="http://hdl.handle.net/20.500.12537/98">http://hdl.handle.net/20.500.12537/98</ref>.</desc>
-               </application>
-               <application ident="nefnir" version="1.0">
-                  <label>Nefnir</label>
-                  <desc>Lemmatisation with Nefnir avaiable at <ref target="https://github.com/jonfd/nefnir">https://github.com/jonfd/nefnir</ref>
-                  </desc>
-               </application>
-               <application ident="ner" version="1.0">
-                  <label>NER</label>
-                  <desc>Named entity recognition done with the NER program, trained for Icelandic and available at <ref target="https://github.com/bennigeir/NER">https://github.com/bennigeir/NER</ref>.</desc>
-               </application>
-               <application ident="ufal-udpipe" version="1.2.0.3">
-                  <label>Ufal.udpipe</label>
-                  <desc>MSD tagging done with the ufal.udpipe avaiable at <ref target="https://pypi.org/project/ufal.udpipe/">https://pypi.org/project/ufal.udpipe/</ref>.</desc>
-               </application>
-            </appInfo>
-         </teiCorpus>
-         <teiCorpus>
-            <appInfo n="ParlaMint-LV.ana">
-               <application version="1.0" ident="LV-NLP-PIPE">
-                  <label>NLP-PIPE: Latvian NLP Tool Pipeline</label>
-                  <desc>Latvian natural language processing pipleine, available from <ref target="http://nlp.ailab.lv/">http://nlp.ailab.lv/</ref>.</desc>
-               </application>
-            </appInfo>
-         </teiCorpus>
-         <teiCorpus>
-            <appInfo n="ParlaMint-NL.ana">
-               <application ident="int-tagger" version="1.0">
-                  <label>INT Tagger, lemmatizer and Tokenizer</label>
-                  <desc>INT Tagger, lemmatizer and Tokenizer for modern Dutch, based on old-school machine learning (SVM). It provides the legacy PoS tags (encoded in w/@ana) and the lemmata for Dutch. Not publicly available.</desc>
-               </application>
-               <application ident="udify" version="1.0">
-                  <label>Udify</label>
-                  <desc>UDify is a single model that parses Universal Dependencies (UPOS, UFeats, Lemmas, Deps) jointly, accepting any of 75 supported languages as input.
+               </desc>
+            </application>
+         </appInfo>
+         <appInfo n="ParlaMint-BG.ana">
+            <application version="1.0" ident="reldi-tokeniser">
+               <label>ReLDI tokeniser</label>
+               <desc>Tokenisation and sentence segmentation with ReLDI tokeniser, available from <ref target="https://github.com/clarinsi/reldi-tokeniser">https://github.com/clarinsi/reldi-tokeniser</ref>.</desc>
+            </application>
+            <application version="1.0" ident="classla-stanfordnlp">
+               <label>CLASSLA-StanfordNLP</label>
+               <desc>MSD tagging and lemmatisation with CLASSLA-StanfordNLP trained for Slovene, available from <ref target="https://github.com/clarinsi/classla-stanfordnlp">https://github.com/clarinsi/classla-stanfordnlp</ref>.</desc>
+            </application>
+            <application version="1.0" ident="janes-ner">
+               <label>NER system for South Slavic languages</label>
+               <desc>Named entity recognition done with the Janes NER program, trained for Slovene and available at <ref target="https://github.com/clarinsi/janes-ner">https://github.com/clarinsi/janes-ner</ref>.</desc>
+            </application>
+         </appInfo>
+         <appInfo xmlns:xi="http://www.w3.org/2001/XInclude" n="ParlaMint-CZ.ana">
+            <application ident="UDPipe" version="2">
+               <label>UDPipe 2 (czech-pdt-ud-2.6-200830 model)</label>
+               <desc>POS tagging, lemmatization and dependency parsing done with UDPipe 2 <ref target="http://ufal.mff.cuni.cz/udpipe/2">http://ufal.mff.cuni.cz/udpipe/2</ref>with czech-pdt-ud-2.6-200830 model</desc>
+            </application>
+            <application ident="NameTag" version="2">
+               <label>NameTag 2 (czech-cnec2.0-200831 model)</label>
+               <desc>Name entity recognition done with NameTag 2 <ref target="http://ufal.mff.cuni.cz/nametag/2">http://ufal.mff.cuni.cz/nametag/2</ref>with czech-cnec2.0-200831 model <ref target="http://hdl.handle.net/11234/1-3443">http://hdl.handle.net/11234/1-3443</ref>. Posprocessing: nested named entities has been merged to four categories (PER, LOC, ORG, MISC).</desc>
+            </application>
+         </appInfo>
+         <appInfo n="ParlaMint-DK.ana">
+            <application version="1.0" ident="cstlemma">
+               <label>CSTlemma lemmatizer for Danish</label>
+               <desc>Lemmatiser that uses affix rules (affix: prefix, infix, suffix, circumfix). Rules are obtained by supervised learning. <ref target="https://www.aclweb.org/anthology/P09-1017.pdf">Bart Jongejan and Hercules Dalianis (2009)</ref>. Available from <ref target="https://github.com/kuhumcst/cstlemma">GitHub</ref>.</desc>
+            </application>
+            <application version="1.0" ident="texton">
+               <label>Text Tonsorium</label>
+               <desc>Web application that automatically composes and enacts workflows consisting of NLP and format transforming tools. <ref target="https://clarin.dk/clarindk/tools-texton.jsp">clarin.dk</ref>. <ref target="https://office.clarin.eu/v/CE-2020-1738-CLARIN2020_ConferenceProceedings.pdf">Bart Jongejan (2020)</ref>. Available from <ref target="https://github.com/kuhumcst/texton">GitHub</ref>.</desc>
+            </application>
+            <application version="1.0" ident="dapipe">
+               <label>UDPipe tools for Danish</label>
+               <desc>MSD tagging and dependency parsing with UDPipe <ref target="http://ufal.mff.cuni.cz/udpipe">http://ufal.mff.cuni.cz/udpipe</ref> trained for Danish, available from<ref target="https://github.com/ITUnlp/dapipe">https://github.com/ITUnlp/dapipe</ref>.</desc>
+            </application>
+            <application version="1.0" ident="CST-NER">
+               <label>CST Named Entity Recogniser</label>
+               <desc>CST's named entity recogniser classifies names as person, organization, location or miscellaneous. Available as part of<ref target="https://github.com/kuhumcst/texton-linguistic-resources/tree/master/da/navnegenkenderCSTNER">https://github.com/kuhumcst/texton-linguistic-resources</ref>.</desc>
+            </application>
+         </appInfo>
+         <appInfo xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                  n="ParlaMint-GB.ana">
+            <application version="4.0" ident="stanford-corenlp">
+               <label>Stanford CoreNLP</label>
+               <desc>Tokenisation, POS tagging, NER and dependency parsed using Stanford CoreNLP <ref target="https://stanfordnlp.github.io/CoreNLP/">https://stanfordnlp.github.io/CoreNLP/</ref>.</desc>
+            </application>
+         </appInfo>
+         <appInfo n="ParlaMint-HR.ana">
+            <application version="1.0" ident="reldi-tokeniser">
+               <label>ReLDI tokeniser</label>
+               <desc>Tokenisation and sentence segmentation with ReLDI tokeniser, available from <ref target="https://github.com/clarinsi/reldi-tokeniser">https://github.com/clarinsi/reldi-tokeniser</ref>.</desc>
+            </application>
+            <application version="1.0" ident="classla-stanfordnlp">
+               <label>CLASSLA-StanfordNLP</label>
+               <desc>MSD tagging and lemmatisation with CLASSLA-StanfordNLP trained for Slovene, available from <ref target="https://github.com/clarinsi/classla-stanfordnlp">https://github.com/clarinsi/classla-stanfordnlp</ref>.</desc>
+            </application>
+            <application version="1.0" ident="janes-ner">
+               <label>NER system for South Slavic languages</label>
+               <desc>Named entity recognition done with the Janes NER program, trained for Slovene and available at <ref target="https://github.com/clarinsi/janes-ner">https://github.com/clarinsi/janes-ner</ref>.</desc>
+            </application>
+         </appInfo>
+         <appInfo n="ParlaMint-IS.ana">
+            <application ident="tokenizer" version="2.4.0">
+               <label>Tokenizer</label>
+               <desc>Tokenisation and sentence segmentation with Tokeniser from Miðeind, available from <ref target="https://github.com/mideind/Tokenizer">https://github.com/mideind/Tokenizer</ref>.</desc>
+            </application>
+            <application ident="abltagger-pos" version="2.0.3">
+               <label>ABLTagger (PoS)</label>
+               <desc>Part-of-speech tagging with ABLTagger (PoS), avaiable from <ref target="http://hdl.handle.net/20.500.12537/98">http://hdl.handle.net/20.500.12537/98</ref>.</desc>
+            </application>
+            <application ident="nefnir" version="1.0">
+               <label>Nefnir</label>
+               <desc>Lemmatisation with Nefnir avaiable at <ref target="https://github.com/jonfd/nefnir">https://github.com/jonfd/nefnir</ref>
+               </desc>
+            </application>
+            <application ident="ner" version="1.0">
+               <label>NER</label>
+               <desc>Named entity recognition done with the NER program, trained for Icelandic and available at <ref target="https://github.com/bennigeir/NER">https://github.com/bennigeir/NER</ref>.</desc>
+            </application>
+            <application ident="ufal-udpipe" version="1.2.0.3">
+               <label>Ufal.udpipe</label>
+               <desc>MSD tagging done with the ufal.udpipe avaiable at <ref target="https://pypi.org/project/ufal.udpipe/">https://pypi.org/project/ufal.udpipe/</ref>.</desc>
+            </application>
+         </appInfo>
+         <appInfo n="ParlaMint-LV.ana">
+            <application version="1.0" ident="LV-NLP-PIPE">
+               <label>NLP-PIPE: Latvian NLP Tool Pipeline</label>
+               <desc>Latvian natural language processing pipleine, available from <ref target="http://nlp.ailab.lv/">http://nlp.ailab.lv/</ref>.</desc>
+            </application>
+         </appInfo>
+         <appInfo n="ParlaMint-NL.ana">
+            <application ident="int-tagger" version="1.0">
+               <label>INT Tagger, lemmatizer and Tokenizer</label>
+               <desc>INT Tagger, lemmatizer and Tokenizer for modern Dutch, based on old-school machine learning (SVM). It provides the legacy PoS tags (encoded in w/@ana) and the lemmata for Dutch. Not publicly available.</desc>
+            </application>
+            <application ident="udify" version="1.0">
+               <label>Udify</label>
+               <desc>UDify is a single model that parses Universal Dependencies (UPOS, UFeats, Lemmas, Deps) jointly, accepting any of 75 supported languages as input.
     	  Available from <ref target="https://github.com/Hyperparticle/udify">https://github.com/Hyperparticle/udify</ref>
-                  </desc>
-               </application>
-               <application ident="flair-ner" version="1.0">
-                  <label>Flair NLP NER tagging for French and Dutch</label>
-                  <desc>A powerful NLP library. Flair allows you to apply our state-of-the-art natural language processing (NLP) models to your text,
+               </desc>
+            </application>
+            <application ident="flair-ner" version="1.0">
+               <label>Flair NLP NER tagging for French and Dutch</label>
+               <desc>A powerful NLP library. Flair allows you to apply our state-of-the-art natural language processing (NLP) models to your text,
     	  such as named entity recognition (NER), part-of-speech tagging (PoS), sense disambiguation and classification, with support for a rapidly growing number of languages.
     	  Available from <ref target="https://github.com/flairNLP/flair">https://github.com/flairNLP/flair</ref>
-                  </desc>
-               </application>
-               <application ident="trankit" version="1.0">
-                  <label>Trankit: A Light-Weight Transformer-based Python Toolkit for Multilingual Natural Language Processing</label>
-                  <desc>Trankit is a light-weight Transformer-based Python Toolkit for multilingual Natural Language Processing (NLP).
+               </desc>
+            </application>
+            <application ident="trankit" version="1.0">
+               <label>Trankit: A Light-Weight Transformer-based Python Toolkit for Multilingual Natural Language Processing</label>
+               <desc>Trankit is a light-weight Transformer-based Python Toolkit for multilingual Natural Language Processing (NLP).
     	  It provides a trainable pipeline for fundamental NLP tasks over 100 languages, and 90 downloadable pretrained pipelines for 56 languages.
     	  Available from <ref target="https://github.com/nlp-uoregon/trankit">https://github.com/nlp-uoregon/trankit</ref>
-                  </desc>
-               </application>
-            </appInfo>
-         </teiCorpus>
-         <teiCorpus>
-            <appInfo n="ParlaMint-PL.ana">
-               <application version="2.0" ident="app-morfeusz">
-                  <label>Morfeusz</label>
-                  <desc>
-                     <ref target="http://morfeusz.sgjp.pl">Morfeusz</ref>: analizator i generator fleksyjny.</desc>
-                  <desc>
-                     <ref target="http://morfeusz.sgjp.pl/en">Morfeusz</ref>: inflectional analyser and generator.</desc>
-               </application>
-               <application version="2.0" ident="app-concraft">
-                  <label>Concraft</label>
-                  <desc>
-                     <ref target="https://github.com/kawu/concraft-pl">Concraft</ref>: tagger morfosyntaktyczny dla języka polskiego oparty na warunkowych polach losowych.</desc>
-                  <desc>
-                     <ref target="https://github.com/kawu/concraft-pl">Concraft</ref>: morphosyntactic tagger for the Polish language based on conditional random fields.</desc>
-               </application>
-               <application version="2.0" ident="app-liner">
-                  <label>Liner</label>
-                  <desc>
-                     <ref target="https://github.com/CLARIN-PL/Liner2">Liner</ref>: narzędzie do rozpoznawania nazw, w tym nazw własnych i wyrażeń czasowych.</desc>
-                  <desc>
-                     <ref target="https://github.com/CLARIN-PL/Liner2">Liner</ref>: a framework for sequence labeling, including: named entities, temporal expressions.</desc>
-               </application>
-               <application version="1.0" ident="app-combo">
-                  <label>COMBO</label>
-                  <desc>
-                     <ref target="https://github.com/360er0/COMBO">Liner</ref>: tagger neuronowy, lematyzator i parser zależności zaimplementowany w Pythonie 3 przy użyciu biblioteki Keras.</desc>
-                  <desc>
-                     <ref target="https://github.com/360er0/COMBO">Liner</ref>: jointly trained neural tagger, lemmatizer and dependency parser implemented in python 3 using Keras framework.</desc>
-               </application>
-            </appInfo>
-         </teiCorpus>
-         <teiCorpus>
-            <appInfo n="ParlaMint-SI.ana">
-               <application version="1.0" ident="reldi-tokeniser">
-                  <label>ReLDI tokeniser</label>
-                  <desc>Tokenisation and sentence segmentation with ReLDI tokeniser, available from <ref target="https://github.com/clarinsi/reldi-tokeniser">https://github.com/clarinsi/reldi-tokeniser</ref>.</desc>
-               </application>
-               <application version="1.0" ident="classla-stanfordnlp">
-                  <label>CLASSLA-StanfordNLP</label>
-                  <desc>MSD tagging and lemmatisation with CLASSLA-StanfordNLP trained for Slovene, available from <ref target="https://github.com/clarinsi/classla-stanfordnlp">https://github.com/clarinsi/classla-stanfordnlp</ref>.</desc>
-               </application>
-               <application version="1.0" ident="janes-ner">
-                  <label>NER system for South Slavic languages</label>
-                  <desc>Named entity recognition done with the Janes NER program, trained for Slovene and available at <ref target="https://github.com/clarinsi/janes-ner">https://github.com/clarinsi/janes-ner</ref>.</desc>
-               </application>
-            </appInfo>
-         </teiCorpus>
+               </desc>
+            </application>
+         </appInfo>
+         <appInfo n="ParlaMint-PL.ana">
+            <application version="2.0" ident="app-morfeusz">
+               <label>Morfeusz</label>
+               <desc>
+                  <ref target="http://morfeusz.sgjp.pl">Morfeusz</ref>: analizator i generator fleksyjny.</desc>
+               <desc>
+                  <ref target="http://morfeusz.sgjp.pl/en">Morfeusz</ref>: inflectional analyser and generator.</desc>
+            </application>
+            <application version="2.0" ident="app-concraft">
+               <label>Concraft</label>
+               <desc>
+                  <ref target="https://github.com/kawu/concraft-pl">Concraft</ref>: tagger morfosyntaktyczny dla języka polskiego oparty na warunkowych polach losowych.</desc>
+               <desc>
+                  <ref target="https://github.com/kawu/concraft-pl">Concraft</ref>: morphosyntactic tagger for the Polish language based on conditional random fields.</desc>
+            </application>
+            <application version="2.0" ident="app-liner">
+               <label>Liner</label>
+               <desc>
+                  <ref target="https://github.com/CLARIN-PL/Liner2">Liner</ref>: narzędzie do rozpoznawania nazw, w tym nazw własnych i wyrażeń czasowych.</desc>
+               <desc>
+                  <ref target="https://github.com/CLARIN-PL/Liner2">Liner</ref>: a framework for sequence labeling, including: named entities, temporal expressions.</desc>
+            </application>
+            <application version="1.0" ident="app-combo">
+               <label>COMBO</label>
+               <desc>
+                  <ref target="https://github.com/360er0/COMBO">Liner</ref>: tagger neuronowy, lematyzator i parser zależności zaimplementowany w Pythonie 3 przy użyciu biblioteki Keras.</desc>
+               <desc>
+                  <ref target="https://github.com/360er0/COMBO">Liner</ref>: jointly trained neural tagger, lemmatizer and dependency parser implemented in python 3 using Keras framework.</desc>
+            </application>
+         </appInfo>
+         <appInfo n="ParlaMint-SI.ana">
+            <application version="1.0" ident="reldi-tokeniser">
+               <label>ReLDI tokeniser</label>
+               <desc>Tokenisation and sentence segmentation with ReLDI tokeniser, available from <ref target="https://github.com/clarinsi/reldi-tokeniser">https://github.com/clarinsi/reldi-tokeniser</ref>.</desc>
+            </application>
+            <application version="1.0" ident="classla-stanfordnlp">
+               <label>CLASSLA-StanfordNLP</label>
+               <desc>MSD tagging and lemmatisation with CLASSLA-StanfordNLP trained for Slovene, available from <ref target="https://github.com/clarinsi/classla-stanfordnlp">https://github.com/clarinsi/classla-stanfordnlp</ref>.</desc>
+            </application>
+            <application version="1.0" ident="janes-ner">
+               <label>NER system for South Slavic languages</label>
+               <desc>Named entity recognition done with the Janes NER program, trained for Slovene and available at <ref target="https://github.com/clarinsi/janes-ner">https://github.com/clarinsi/janes-ner</ref>.</desc>
+            </application>
+         </appInfo>
       </encodingDesc>
       <revisionDesc>
          <change when="2021-03-27">
