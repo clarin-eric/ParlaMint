@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Multilingual comparable parliamentary corpus ParlaMint [ParlaMint.ana]</title>
+            <respStmt>
+               <persName>Maciej Ogrodniczuk</persName>
+               <persName>Petya Osenova</persName>
+               <resp>ParlaMint project coordination</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tomaž Erjavec</persName>
+               <resp>ParlaMint corpus encoding verification</resp>
+            </respStmt>
+            <respStmt xmlns:xi="http://www.w3.org/2001/XInclude">
+               <persName>Henk van der Pol</persName>
+               <persName>Griet Depoorter</persName>
+               <resp>ParlaMint-BE.ana: Data retrieval and conversion to TEI</resp>
+            </respStmt>
+            <respStmt xmlns:xi="http://www.w3.org/2001/XInclude">
+               <persName>Jesse de Does</persName>
+               <resp>ParlaMint-BE.ana: Linguistic annotation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Петя Осенова</persName>
+               <persName>Petya Osenova</persName>
+               <resp>ParlaMint-BG.ana: Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Кирил Симов</persName>
+               <persName>Kiril Simov</persName>
+               <resp>ParlaMint-BG.ana: Parla-CLARIN TEI XML corpus validation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Владислава Григорова</persName>
+               <persName>Vladislava Grigorova</persName>
+               <resp>ParlaMint-BG.ana: Download, clean-up converting of the data to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Nikola Ljubešić</persName>
+               <resp>ParlaMint-BG.ana: Linguistic annotation</resp>
+            </respStmt>
+            <respStmt xmlns:xi="http://www.w3.org/2001/XInclude">
+               <persName>Matyáš Kopp</persName>
+               <resp>ParlaMint-CZ.ana: TEI XML corpus encoding</resp>
+               <resp>ParlaMint-CZ.ana: Linguistic annotation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Bart Jongejan</persName>
+               <persName>Dorte Haltrup Hansen</persName>
+               <persName>Costanza Navarretta</persName>
+               <resp>ParlaMint-DK.ana: Data retrieval and conversion to TEI</resp>
+               <resp>ParlaMint-DK.ana: Linguistic annotation</resp>
+            </respStmt>
+            <respStmt xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions">
+               <persName>Matthew Coole</persName>
+            </respStmt>
+            <respStmt>
+               <persName>Nikola Ljubešić</persName>
+               <resp>ParlaMint-HR.ana: Download and clean-up of the JSON digital source</resp>
+               <resp>ParlaMint-HR.ana: Linguistic annotation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tomaž Erjavec</persName>
+               <resp>ParlaMint-HR.ana: Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Starkaður Barkarson</persName>
+               <resp>ParlaMint-IS.ana: Collection and processing of texts. TEI encoding.</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Starkaður Barkarson</persName>
+               <resp>ParlaMint-IS.ana: Linguistic annotation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Roberts Darģis</persName>
+               <resp>ParlaMint-LV.ana: Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp>ParlaMint-NL.ana: Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Jesse de Does</persName>
+               <persName>Katrien Depuydt</persName>
+               <resp>ParlaMint-NL.ana: Running the Linguistic Processing Pipeline and adding the annotations to the corpus</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Maciej Ogrodniczuk</persName>
+               <persName>Michał Lenart</persName>
+               <persName>Daniel Janus</persName>
+               <persName>Bartłomiej Nitoń</persName>
+               <persName>Michał Rudolf</persName>
+               <resp>ParlaMint-PL.ana: Data retrieval and conversion to TEI</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Andrej Pančur</persName>
+               <persName>Tomaž Erjavec</persName>
+               <resp>ParlaMint-SI.ana: ParlaMint TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Nikola Ljubešić</persName>
+               <resp>ParlaMint-SI.ana: Linguistic annotation</resp>
+            </respStmt>
+            <funder>
+               <orgName>The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="corpora" quantity="11">11 corpora</measure>
+            <measure unit="speeches" quantity="1930522">1,930,522 speeches</measure>
+            <measure unit="words" quantity="252826361">252,826,361 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName>CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021-03-27">March 27, 2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>ParlaMint-BE.ana</head>
+               <bibl>
+                  <title xmlns:xi="http://www.w3.org/2001/XInclude" type="main">Belgian Federal Parliament: Plenary sessions</title>
+                  <publisher xmlns:xi="http://www.w3.org/2001/XInclude">Kamer van volksvertegenwoordigers</publisher>
+                  <idno xmlns:xi="http://www.w3.org/2001/XInclude" type="URI">https://www.dekamer.be/kvvcr/showpage.cfm?section=/cricra&amp;language=nl&amp;cfm=dcricra.cfm?type=plen&amp;cricra=cri&amp;count=all</idno>
+                  <date xmlns:xi="http://www.w3.org/2001/XInclude"
+                        to="2020-08-14"
+                        from="2015-11-12">2015-11-12 - 2020-08-18</date>
+               </bibl>
+               <bibl>
+                  <title xmlns:xi="http://www.w3.org/2001/XInclude" type="main">Belgian Federal Parliament: committee meetings</title>
+                  <publisher xmlns:xi="http://www.w3.org/2001/XInclude">Kamer van volksvertegenwoordigers</publisher>
+                  <idno xmlns:xi="http://www.w3.org/2001/XInclude" type="URI">https://www.dekamer.be/kvvcr/showpage.cfm?section=/cricra&amp;language=nl&amp;cfm=dcricra.cfm?type=comm&amp;cricra=cri&amp;count=all</idno>
+                  <date xmlns:xi="http://www.w3.org/2001/XInclude"
+                        to="2020-08-18"
+                        from="2015-11-12">2015-11-12 - 2020-08-18</date>
+               </bibl>
+            </listBibl>
+            <listBibl>
+               <head>ParlaMint-BG.ana</head>
+               <bibl>
+                  <title>Transcripts of plenary sittings of the Parliament of the Republic of Bulgaria</title>
+                  <idno type="URI">https://parlametar.bg/</idno>
+                  <idno type="URI">https://parliament.bg/bg</idno>
+                  <date from="2014-10-27" to="2020-07-31">2014-10-27 - 2020-07-31</date>
+               </bibl>
+            </listBibl>
+            <listBibl>
+               <head>ParlaMint-CZ.ana</head>
+               <bibl>
+                  <title xmlns:xi="http://www.w3.org/2001/XInclude" type="main">Parliament of the Czech Republic, Chamber of Deputies</title>
+                  <idno xmlns:xi="http://www.w3.org/2001/XInclude" type="URI">https://www.psp.cz/eknih/</idno>
+                  <date xmlns:xi="http://www.w3.org/2001/XInclude"
+                        from="2013-11-25"
+                        to="2021-02-19">25.11.2013 - 19.02.2021</date>
+               </bibl>
+            </listBibl>
+            <listBibl>
+               <head>ParlaMint-DK.ana</head>
+               <bibl>
+                  <title type="main">Hansards of the Danish Parliament</title>
+                  <publisher>The Danish Parliament</publisher>
+                  <idno type="URI">https://www.ft.dk/</idno>
+                  <date from="2014-10-07" to="2020-09-29">7.10.2014 - 29.9.2020</date>
+               </bibl>
+            </listBibl>
+            <listBibl>
+               <head>ParlaMint-GB.ana</head>
+               <bibl>
+                  <title xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions">Transcripts of Parliament of Great Britain.</title>
+                  <idno xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                        type="handle">https://hansard-api.parliament.uk/</idno>
+               </bibl>
+            </listBibl>
+            <listBibl>
+               <head>ParlaMint-HR.ana</head>
+               <bibl>
+                  <title type="main">Minutes of the National Assembly of the Republic of Croatia</title>
+                  <idno type="URI">https://parlametar.hr/</idno>
+                  <idno type="URI">http://www.sabor.hr/</idno>
+                  <date from="2016-11-15" to="2020-05-18">2016-11-15 - 2020-05-18</date>
+               </bibl>
+            </listBibl>
+            <listBibl>
+               <head>ParlaMint-IS.ana</head>
+               <bibl>
+                  <title>Parliament speeches in the national parliament of Iceland </title>
+                  <idno type="URI">www.athingi.is</idno>
+                  <date from="2015-01-01" to="2020-09-30">2015-01-01 - 2020-09-30</date>
+               </bibl>
+            </listBibl>
+            <listBibl>
+               <head>ParlaMint-LV.ana</head>
+            </listBibl>
+            <listBibl>
+               <head>ParlaMint-NL.ana</head>
+               <bibl>
+                  <title type="main">Minutes of the Eerste Kamer of The Netherlands</title>
+                  <idno type="URI">https://www.eerstekamer.nl/</idno>
+                  <date when="2021-02-01">2021-02-01</date>
+               </bibl>
+               <bibl>
+                  <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+                  <idno type="URI">https://www.tweedekamer.nl/</idno>
+                  <date when="2021-02-01">2021-02-01</date>
+               </bibl>
+            </listBibl>
+            <listBibl>
+               <head>ParlaMint-PL.ana</head>
+               <bibl>
+                  <title type="main">Minutes of the Sejm of the Republic of Poland</title>
+                  <publisher>Kancelaria Sejmu Rzeczypospolitej Polskiej</publisher>
+                  <idno type="URI">http://www.sejm.gov.pl/Sejm9.nsf/page.xsp/archiwum</idno>
+                  <date from="2015-11-12" to="2020-08-14">12.11.2015 - 14.08.2020</date>
+               </bibl>
+               <bibl>
+                  <title type="main">Minutes of the Senat of the Republic of Poland</title>
+                  <publisher>Kancelaria Senatu Rzeczypospolitej Polskiej</publisher>
+                  <idno type="URI">https://www.senat.gov.pl/poprzednie-kadencje/</idno>
+                  <date from="2015-11-12" to="2020-08-18">12.11.2015 - 14.08.2020</date>
+               </bibl>
+            </listBibl>
+            <listBibl>
+               <head>ParlaMint-SI.ana</head>
+               <bibl>
+                  <title type="main">Minutes of the National Assembly of the Republic of Slovenia</title>
+                  <idno type="URI">https://www.dz-rs.si</idno>
+                  <date from="2014-08-01" to="2020-07-16">1.8.2014 - 16.7.2020</date>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p xmlns:xi="http://www.w3.org/2001/XInclude">ParlaMint-BE.ana: No correction of source texts was performed.</p>
+               <p>ParlaMint-BG.ana: No correction of source texts was performed.</p>
+               <p xmlns:xi="http://www.w3.org/2001/XInclude">ParlaMint-CZ.ana: No correction of source texts was performed.</p>
+               <p>ParlaMint-DK.ana: No correction of source texts was performed.</p>
+               <p xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions">ParlaMint-GB.ana: </p>
+               <p>ParlaMint-HR.ana: No correction of source texts was performed.</p>
+               <p>ParlaMint-IS.ana: No correction of source texts was performed.</p>
+               <p>ParlaMint-LV.ana: No correction of source texts was performed.</p>
+               <p>ParlaMint-NL.ana: No correction of source texts was performed.</p>
+               <p>ParlaMint-PL.ana: No correction of source texts was performed.</p>
+               <p>ParlaMint-SI.ana: No correction of source texts was performed.</p>
+            </correction>
+            <normalization>
+               <p xmlns:xi="http://www.w3.org/2001/XInclude">ParlaMint-BE.ana: Text has not been normalised, except for spacing.</p>
+               <p>ParlaMint-BG.ana: Normalisation was performed only on the meta-data, e.g. person names.</p>
+               <p xmlns:xi="http://www.w3.org/2001/XInclude">ParlaMint-CZ.ana: Text has not been normalised, except for spacing.</p>
+               <p>ParlaMint-DK.ana: Text has not been normalised.</p>
+               <p xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions">ParlaMint-GB.ana: </p>
+               <p>ParlaMint-HR.ana: Text has not been normalised, except for spacing.</p>
+               <p>ParlaMint-IS.ana: No end-of-line hyphens were present in the source.</p>
+               <p>ParlaMint-LV.ana: Text has not been normalised, except for spacing.</p>
+               <p>ParlaMint-NL.ana: Through the dat collection process several Unicode hair space charactars were present in the text,
+	  these have been removed.</p>
+               <p>ParlaMint-PL.ana: Text has not been normalised, except for spacing.</p>
+               <p>ParlaMint-SI.ana: Text has not been normalised, except for spacing.</p>
+            </normalization>
+            <hyphenation>
+               <p xmlns:xi="http://www.w3.org/2001/XInclude">ParlaMint-BE.ana: Hyphenation has not been altered with respect to the source files.</p>
+               <p>ParlaMint-BG.ana: No end-of-line hyphens were present in the source.</p>
+               <p xmlns:xi="http://www.w3.org/2001/XInclude">ParlaMint-CZ.ana: No end-of-line hyphens were present in the source.</p>
+               <p>ParlaMint-DK.ana: No end-of-line hyphens were present in the source.</p>
+               <p xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions">ParlaMint-GB.ana: </p>
+               <p>ParlaMint-HR.ana: No end-of-line hyphens were present in the source.</p>
+               <p>ParlaMint-IS.ana: Text has not been normalised, except for spacing</p>
+               <p>ParlaMint-LV.ana: No end-of-line hyphens were present in the source.</p>
+               <p>ParlaMint-NL.ana: No end-of-line hyphens were present in the source.</p>
+               <p>ParlaMint-PL.ana: No end-of-line hyphens were present in the source.</p>
+               <p>ParlaMint-SI.ana: No end-of-line hyphens were present in the source.</p>
+            </hyphenation>
+            <quotation>
+               <p xmlns:xi="http://www.w3.org/2001/XInclude">ParlaMint-BE.ana: Quotation marks have been left in the text and are not explicitly marked up.</p>
+               <p>ParlaMint-BG.ana: Quotation marks have been left in the text and are not explicitly marked up.</p>
+               <p xmlns:xi="http://www.w3.org/2001/XInclude">ParlaMint-CZ.ana: Quotation marks have been left in the text and are not explicitly marked up.</p>
+               <p>ParlaMint-DK.ana: Quotation marks have been left in the text and are not explicitly marked up.</p>
+               <p xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions">ParlaMint-GB.ana: </p>
+               <p>ParlaMint-HR.ana: Quotation marks have been left in the text and are not explicitly marked up.</p>
+               <p>ParlaMint-IS.ana: Quotation marks have been left in the text and are not explicitly marked up.</p>
+               <p>ParlaMint-LV.ana: Quotation marks have been left in the text and are not explicitly marked up.</p>
+               <p>ParlaMint-NL.ana: Quotation marks have been left in the text and are not explicitly marked up.</p>
+               <p>ParlaMint-PL.ana: Quotation marks have been left in the text and are not explicitly marked up.</p>
+               <p>ParlaMint-SI.ana: Quotation marks have been left in the text and are not explicitly marked up.</p>
+            </quotation>
+            <segmentation>
+               <p xmlns:xi="http://www.w3.org/2001/XInclude">ParlaMint-BE.ana: The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+               <p xmlns:xi="http://www.w3.org/2001/XInclude">ParlaMint-BE.ana: Non-speaker text (voting results, ...) has been left out</p>
+               <p>ParlaMint-BG.ana: The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+               <p xmlns:xi="http://www.w3.org/2001/XInclude">ParlaMint-CZ.ana: The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+               <p>ParlaMint-DK.ana: The texts are segmented into utterances (speeches) and segments (corresponding to one utterance).</p>
+               <p xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions">ParlaMint-GB.ana: </p>
+               <p>ParlaMint-HR.ana: The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+               <p>ParlaMint-IS.ana: The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+               <p>ParlaMint-LV.ana: The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+               <p>ParlaMint-NL.ana: The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+               <p>ParlaMint-PL.ana: The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+               <p>ParlaMint-SI.ana: The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+            </segmentation>
+         </editorialDecl>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="15679"/>
+               <tagUsage gi="date" occurs="136137"/>
+               <tagUsage gi="desc" occurs="253353"/>
+               <tagUsage gi="div" occurs="25544"/>
+               <tagUsage gi="email" occurs="73"/>
+               <tagUsage gi="gap" occurs="25368"/>
+               <tagUsage gi="head" occurs="13167"/>
+               <tagUsage gi="incident" occurs="1317"/>
+               <tagUsage gi="kinesic" occurs="127137"/>
+               <tagUsage gi="link" occurs="262142129"/>
+               <tagUsage gi="linkGrp" occurs="14031274"/>
+               <tagUsage gi="name" occurs="6398091"/>
+               <tagUsage gi="note" occurs="735841"/>
+               <tagUsage gi="num" occurs="265655"/>
+               <tagUsage gi="pb" occurs="24933"/>
+               <tagUsage gi="pc" occurs="33622300"/>
+               <tagUsage gi="ref" occurs="33468"/>
+               <tagUsage gi="s" occurs="14031274"/>
+               <tagUsage gi="seg" occurs="5065549"/>
+               <tagUsage gi="text" occurs="15679"/>
+               <tagUsage gi="time" occurs="40511"/>
+               <tagUsage gi="u" occurs="1930541"/>
+               <tagUsage gi="unit" occurs="3220"/>
+               <tagUsage gi="vocal" occurs="96932"/>
+               <tagUsage gi="w" occurs="229241546"/>
+            </namespace>
+         </tagsDecl>
+         <teiCorpus xmlns:xi="http://www.w3.org/2001/XInclude">
+            <appInfo n="ParlaMint-BE.ana">
+               <application ident="int-tagger" version="1.0">
+                  <label>INT Tagger, lemmatizer and Tokenizer</label>
+                  <desc>INT Tagger, lemmatizer and Tokenizer for modern Dutch, based on old-school machine learning (SVM). It provides the legacy PoS tags (encoded in w/@ana) and the lemmata for Dutch. Not publicly available.</desc>
+               </application>
+               <application ident="udify" version="1.0">
+                  <label>Udify</label>
+                  <desc>UDify is a single model that parses Universal Dependencies (UPOS, UFeats, Lemmas, Deps) jointly, accepting any of 75 supported languages as input.
+        Available from <ref target="https://github.com/Hyperparticle/udify">https://github.com/Hyperparticle/udify</ref>
+                  </desc>
+               </application>
+               <application ident="flair-ner" version="1.0">
+                  <label>Flair NLP NER tagging for French and Dutch</label>
+                  <desc>A powerful NLP library. Flair allows you to apply our state-of-the-art natural language processing (NLP) models to your text,
+          such as named entity recognition (NER), part-of-speech tagging (PoS), sense disambiguation and classification, with support for a rapidly growing number of languages.
+          Available from <ref target="https://github.com/flairNLP/flair">https://github.com/flairNLP/flair</ref>
+                  </desc>
+               </application>
+               <application ident="trankit" version="1.0">
+                  <label>Trankit: A Light-Weight Transformer-based Python Toolkit for Multilingual Natural Language Processing</label>
+                  <desc>Trankit is a light-weight Transformer-based Python Toolkit for multilingual Natural Language Processing (NLP).
+          It provides a trainable pipeline for fundamental NLP tasks over 100 languages, and 90 downloadable pretrained pipelines for 56 languages.
+          Available from <ref target="https://github.com/nlp-uoregon/trankit">https://github.com/nlp-uoregon/trankit</ref>
+                  </desc>
+               </application>
+            </appInfo>
+         </teiCorpus>
+         <teiCorpus>
+            <appInfo n="ParlaMint-BG.ana">
+               <application version="1.0" ident="reldi-tokeniser">
+                  <label>ReLDI tokeniser</label>
+                  <desc>Tokenisation and sentence segmentation with ReLDI tokeniser, available from <ref target="https://github.com/clarinsi/reldi-tokeniser">https://github.com/clarinsi/reldi-tokeniser</ref>.</desc>
+               </application>
+               <application version="1.0" ident="classla-stanfordnlp">
+                  <label>CLASSLA-StanfordNLP</label>
+                  <desc>MSD tagging and lemmatisation with CLASSLA-StanfordNLP trained for Slovene, available from <ref target="https://github.com/clarinsi/classla-stanfordnlp">https://github.com/clarinsi/classla-stanfordnlp</ref>.</desc>
+               </application>
+               <application version="1.0" ident="janes-ner">
+                  <label>NER system for South Slavic languages</label>
+                  <desc>Named entity recognition done with the Janes NER program, trained for Slovene and available at <ref target="https://github.com/clarinsi/janes-ner">https://github.com/clarinsi/janes-ner</ref>.</desc>
+               </application>
+            </appInfo>
+         </teiCorpus>
+         <teiCorpus xmlns:xi="http://www.w3.org/2001/XInclude">
+            <appInfo n="ParlaMint-CZ.ana">
+               <application ident="UDPipe" version="2">
+                  <label>UDPipe 2 (czech-pdt-ud-2.6-200830 model)</label>
+                  <desc>POS tagging, lemmatization and dependency parsing done with UDPipe 2 <ref target="http://ufal.mff.cuni.cz/udpipe/2">http://ufal.mff.cuni.cz/udpipe/2</ref>with czech-pdt-ud-2.6-200830 model</desc>
+               </application>
+               <application ident="NameTag" version="2">
+                  <label>NameTag 2 (czech-cnec2.0-200831 model)</label>
+                  <desc>Name entity recognition done with NameTag 2 <ref target="http://ufal.mff.cuni.cz/nametag/2">http://ufal.mff.cuni.cz/nametag/2</ref>with czech-cnec2.0-200831 model <ref target="http://hdl.handle.net/11234/1-3443">http://hdl.handle.net/11234/1-3443</ref>. Posprocessing: nested named entities has been merged to four categories (PER, LOC, ORG, MISC).</desc>
+               </application>
+            </appInfo>
+         </teiCorpus>
+         <teiCorpus>
+            <appInfo n="ParlaMint-DK.ana">
+               <application version="1.0" ident="cstlemma">
+                  <label>CSTlemma lemmatizer for Danish</label>
+                  <desc>Lemmatiser that uses affix rules (affix: prefix, infix, suffix, circumfix). Rules are obtained by supervised learning. <ref target="https://www.aclweb.org/anthology/P09-1017.pdf">Bart Jongejan and Hercules Dalianis (2009)</ref>. Available from <ref target="https://github.com/kuhumcst/cstlemma">GitHub</ref>.</desc>
+               </application>
+               <application version="1.0" ident="texton">
+                  <label>Text Tonsorium</label>
+                  <desc>Web application that automatically composes and enacts workflows consisting of NLP and format transforming tools. <ref target="https://clarin.dk/clarindk/tools-texton.jsp">clarin.dk</ref>. <ref target="https://office.clarin.eu/v/CE-2020-1738-CLARIN2020_ConferenceProceedings.pdf">Bart Jongejan (2020)</ref>. Available from <ref target="https://github.com/kuhumcst/texton">GitHub</ref>.</desc>
+               </application>
+               <application version="1.0" ident="dapipe">
+                  <label>UDPipe tools for Danish</label>
+                  <desc>MSD tagging and dependency parsing with UDPipe <ref target="http://ufal.mff.cuni.cz/udpipe">http://ufal.mff.cuni.cz/udpipe</ref> trained for Danish, available from<ref target="https://github.com/ITUnlp/dapipe">https://github.com/ITUnlp/dapipe</ref>.</desc>
+               </application>
+               <application version="1.0" ident="CST-NER">
+                  <label>CST Named Entity Recogniser</label>
+                  <desc>CST's named entity recogniser classifies names as person, organization, location or miscellaneous. Available as part of<ref target="https://github.com/kuhumcst/texton-linguistic-resources/tree/master/da/navnegenkenderCSTNER">https://github.com/kuhumcst/texton-linguistic-resources</ref>.</desc>
+               </application>
+            </appInfo>
+         </teiCorpus>
+         <teiCorpus xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions">
+            <appInfo n="ParlaMint-GB.ana">
+               <application version="4.0" ident="stanford-corenlp">
+                  <label>Stanford CoreNLP</label>
+                  <desc>Tokenisation, POS tagging, NER and dependency parsed using Stanford CoreNLP <ref target="https://stanfordnlp.github.io/CoreNLP/">https://stanfordnlp.github.io/CoreNLP/</ref>.</desc>
+               </application>
+            </appInfo>
+         </teiCorpus>
+         <teiCorpus>
+            <appInfo n="ParlaMint-HR.ana">
+               <application version="1.0" ident="reldi-tokeniser">
+                  <label>ReLDI tokeniser</label>
+                  <desc>Tokenisation and sentence segmentation with ReLDI tokeniser, available from <ref target="https://github.com/clarinsi/reldi-tokeniser">https://github.com/clarinsi/reldi-tokeniser</ref>.</desc>
+               </application>
+               <application version="1.0" ident="classla-stanfordnlp">
+                  <label>CLASSLA-StanfordNLP</label>
+                  <desc>MSD tagging and lemmatisation with CLASSLA-StanfordNLP trained for Slovene, available from <ref target="https://github.com/clarinsi/classla-stanfordnlp">https://github.com/clarinsi/classla-stanfordnlp</ref>.</desc>
+               </application>
+               <application version="1.0" ident="janes-ner">
+                  <label>NER system for South Slavic languages</label>
+                  <desc>Named entity recognition done with the Janes NER program, trained for Slovene and available at <ref target="https://github.com/clarinsi/janes-ner">https://github.com/clarinsi/janes-ner</ref>.</desc>
+               </application>
+            </appInfo>
+         </teiCorpus>
+         <teiCorpus>
+            <appInfo n="ParlaMint-IS.ana">
+               <application ident="tokenizer" version="2.4.0">
+                  <label>Tokenizer</label>
+                  <desc>Tokenisation and sentence segmentation with Tokeniser from Miðeind, available from <ref target="https://github.com/mideind/Tokenizer">https://github.com/mideind/Tokenizer</ref>.</desc>
+               </application>
+               <application ident="abltagger-pos" version="2.0.3">
+                  <label>ABLTagger (PoS)</label>
+                  <desc>Part-of-speech tagging with ABLTagger (PoS), avaiable from <ref target="http://hdl.handle.net/20.500.12537/98">http://hdl.handle.net/20.500.12537/98</ref>.</desc>
+               </application>
+               <application ident="nefnir" version="1.0">
+                  <label>Nefnir</label>
+                  <desc>Lemmatisation with Nefnir avaiable at <ref target="https://github.com/jonfd/nefnir">https://github.com/jonfd/nefnir</ref>
+                  </desc>
+               </application>
+               <application ident="ner" version="1.0">
+                  <label>NER</label>
+                  <desc>Named entity recognition done with the NER program, trained for Icelandic and available at <ref target="https://github.com/bennigeir/NER">https://github.com/bennigeir/NER</ref>.</desc>
+               </application>
+               <application ident="ufal-udpipe" version="1.2.0.3">
+                  <label>Ufal.udpipe</label>
+                  <desc>MSD tagging done with the ufal.udpipe avaiable at <ref target="https://pypi.org/project/ufal.udpipe/">https://pypi.org/project/ufal.udpipe/</ref>.</desc>
+               </application>
+            </appInfo>
+         </teiCorpus>
+         <teiCorpus>
+            <appInfo n="ParlaMint-LV.ana">
+               <application version="1.0" ident="LV-NLP-PIPE">
+                  <label>NLP-PIPE: Latvian NLP Tool Pipeline</label>
+                  <desc>Latvian natural language processing pipleine, available from <ref target="http://nlp.ailab.lv/">http://nlp.ailab.lv/</ref>.</desc>
+               </application>
+            </appInfo>
+         </teiCorpus>
+         <teiCorpus>
+            <appInfo n="ParlaMint-NL.ana">
+               <application ident="int-tagger" version="1.0">
+                  <label>INT Tagger, lemmatizer and Tokenizer</label>
+                  <desc>INT Tagger, lemmatizer and Tokenizer for modern Dutch, based on old-school machine learning (SVM). It provides the legacy PoS tags (encoded in w/@ana) and the lemmata for Dutch. Not publicly available.</desc>
+               </application>
+               <application ident="udify" version="1.0">
+                  <label>Udify</label>
+                  <desc>UDify is a single model that parses Universal Dependencies (UPOS, UFeats, Lemmas, Deps) jointly, accepting any of 75 supported languages as input.
+    	  Available from <ref target="https://github.com/Hyperparticle/udify">https://github.com/Hyperparticle/udify</ref>
+                  </desc>
+               </application>
+               <application ident="flair-ner" version="1.0">
+                  <label>Flair NLP NER tagging for French and Dutch</label>
+                  <desc>A powerful NLP library. Flair allows you to apply our state-of-the-art natural language processing (NLP) models to your text,
+    	  such as named entity recognition (NER), part-of-speech tagging (PoS), sense disambiguation and classification, with support for a rapidly growing number of languages.
+    	  Available from <ref target="https://github.com/flairNLP/flair">https://github.com/flairNLP/flair</ref>
+                  </desc>
+               </application>
+               <application ident="trankit" version="1.0">
+                  <label>Trankit: A Light-Weight Transformer-based Python Toolkit for Multilingual Natural Language Processing</label>
+                  <desc>Trankit is a light-weight Transformer-based Python Toolkit for multilingual Natural Language Processing (NLP).
+    	  It provides a trainable pipeline for fundamental NLP tasks over 100 languages, and 90 downloadable pretrained pipelines for 56 languages.
+    	  Available from <ref target="https://github.com/nlp-uoregon/trankit">https://github.com/nlp-uoregon/trankit</ref>
+                  </desc>
+               </application>
+            </appInfo>
+         </teiCorpus>
+         <teiCorpus>
+            <appInfo n="ParlaMint-PL.ana">
+               <application version="2.0" ident="app-morfeusz">
+                  <label>Morfeusz</label>
+                  <desc>
+                     <ref target="http://morfeusz.sgjp.pl">Morfeusz</ref>: analizator i generator fleksyjny.</desc>
+                  <desc>
+                     <ref target="http://morfeusz.sgjp.pl/en">Morfeusz</ref>: inflectional analyser and generator.</desc>
+               </application>
+               <application version="2.0" ident="app-concraft">
+                  <label>Concraft</label>
+                  <desc>
+                     <ref target="https://github.com/kawu/concraft-pl">Concraft</ref>: tagger morfosyntaktyczny dla języka polskiego oparty na warunkowych polach losowych.</desc>
+                  <desc>
+                     <ref target="https://github.com/kawu/concraft-pl">Concraft</ref>: morphosyntactic tagger for the Polish language based on conditional random fields.</desc>
+               </application>
+               <application version="2.0" ident="app-liner">
+                  <label>Liner</label>
+                  <desc>
+                     <ref target="https://github.com/CLARIN-PL/Liner2">Liner</ref>: narzędzie do rozpoznawania nazw, w tym nazw własnych i wyrażeń czasowych.</desc>
+                  <desc>
+                     <ref target="https://github.com/CLARIN-PL/Liner2">Liner</ref>: a framework for sequence labeling, including: named entities, temporal expressions.</desc>
+               </application>
+               <application version="1.0" ident="app-combo">
+                  <label>COMBO</label>
+                  <desc>
+                     <ref target="https://github.com/360er0/COMBO">Liner</ref>: tagger neuronowy, lematyzator i parser zależności zaimplementowany w Pythonie 3 przy użyciu biblioteki Keras.</desc>
+                  <desc>
+                     <ref target="https://github.com/360er0/COMBO">Liner</ref>: jointly trained neural tagger, lemmatizer and dependency parser implemented in python 3 using Keras framework.</desc>
+               </application>
+            </appInfo>
+         </teiCorpus>
+         <teiCorpus>
+            <appInfo n="ParlaMint-SI.ana">
+               <application version="1.0" ident="reldi-tokeniser">
+                  <label>ReLDI tokeniser</label>
+                  <desc>Tokenisation and sentence segmentation with ReLDI tokeniser, available from <ref target="https://github.com/clarinsi/reldi-tokeniser">https://github.com/clarinsi/reldi-tokeniser</ref>.</desc>
+               </application>
+               <application version="1.0" ident="classla-stanfordnlp">
+                  <label>CLASSLA-StanfordNLP</label>
+                  <desc>MSD tagging and lemmatisation with CLASSLA-StanfordNLP trained for Slovene, available from <ref target="https://github.com/clarinsi/classla-stanfordnlp">https://github.com/clarinsi/classla-stanfordnlp</ref>.</desc>
+               </application>
+               <application version="1.0" ident="janes-ner">
+                  <label>NER system for South Slavic languages</label>
+                  <desc>Named entity recognition done with the Janes NER program, trained for Slovene and available at <ref target="https://github.com/clarinsi/janes-ner">https://github.com/clarinsi/janes-ner</ref>.</desc>
+               </application>
+            </appInfo>
+         </teiCorpus>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2021-03-27">
+            <name>Tomaž Erjavec</name>: First try.</change>
+      </revisionDesc>
+   </teiHeader>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-BE/ParlaMint-BE.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-BG/ParlaMint-BG.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-CZ/ParlaMint-CZ.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-DK/ParlaMint-DK.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-GB/ParlaMint-GB.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-HR/ParlaMint-HR.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-IS/ParlaMint-IS.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-LV/ParlaMint-LV.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-NL/ParlaMint-NL.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-PL/ParlaMint-PL.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-SI/ParlaMint-SI.ana.xml"/>
+</teiCorpus>

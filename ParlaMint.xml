@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Multilingual comparable parliamentary corpus ParlaMint</title>
+            <title type="main">Multilingual comparable parliamentary corpus ParlaMint [ParlaMint]</title>
             <respStmt>
                <persName>Maciej Ogrodniczuk</persName>
                <persName>Petya Osenova</persName>
@@ -67,6 +67,11 @@
                <resp>ParlaMint-HR: Parla-CLARIN TEI XML corpus encoding</resp>
             </respStmt>
             <respStmt>
+               <persName>Miklós Sebők</persName>
+               <persName>Orsolya Ring</persName>
+               <resp>ParlaMint-HU: Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
                <persName>Starkaður Barkarson</persName>
                <resp>ParlaMint-IS: Collection and processing of texts. TEI encoding.</resp>
             </respStmt>
@@ -103,9 +108,9 @@
             <edition>2.0</edition>
          </editionStmt>
          <extent>
-            <measure unit="corpora" quantity="13">13 corpora</measure>
-            <measure unit="speeches" quantity="2194813">2,194,813 speeches</measure>
-            <measure unit="words" quantity="279359009">279,359,009 words</measure>
+            <measure unit="corpora" quantity="14">14 corpora</measure>
+            <measure unit="speeches" quantity="2197899">2,197,899 speeches</measure>
+            <measure unit="words" quantity="280473504">280,473,504 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -193,6 +198,14 @@
                </bibl>
             </listBibl>
             <listBibl>
+               <head>ParlaMint-HU</head>
+               <bibl>
+                  <title type="main">Minutes of the National Assembly of Hungary</title>
+                  <idno type="URI">https://https://www.parlament.hu/ </idno>
+                  <date from="2018-02-19" to="2020-12-14">2018. 02. 19. - 2020. 12. 14.</date>
+               </bibl>
+            </listBibl>
+            <listBibl>
                <head>ParlaMint-IS</head>
                <bibl>
                   <title>Parliament speeches in the national parliament of Iceland </title>
@@ -263,6 +276,7 @@
                <p>ParlaMint-ES: No correction of source texts was performed.</p>
                <p xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions">ParlaMint-GB: </p>
                <p>ParlaMint-HR: No correction of source texts was performed.</p>
+               <p>ParlaMint-HU: No correction of source texts was performed.</p>
                <p>ParlaMint-IS: No correction of source texts was performed.</p>
                <p>ParlaMint-IT: No correction of source texts was performed.</p>
                <p>ParlaMint-LV: No correction of source texts was performed.</p>
@@ -278,6 +292,7 @@
                <p>ParlaMint-ES: Text has not been normalised, except for spacing.</p>
                <p xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions">ParlaMint-GB: </p>
                <p>ParlaMint-HR: Text has not been normalised, except for spacing.</p>
+               <p>ParlaMint-HU: Normalisation was performed only on the meta-data, e.g. person names.</p>
                <p>ParlaMint-IS: No end-of-line hyphens were present in the source.</p>
                <p>ParlaMint-IT: Text has not been normalised, except for spacing.</p>
                <p>ParlaMint-LV: Text has not been normalised, except for spacing.</p>
@@ -294,6 +309,7 @@
                <p>ParlaMint-ES: No end-of-line hyphens were present in the source.</p>
                <p xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions">ParlaMint-GB: </p>
                <p>ParlaMint-HR: No end-of-line hyphens were present in the source.</p>
+               <p>ParlaMint-HU: No end-of-line hyphens were present in the source.</p>
                <p>ParlaMint-IS: Text has not been normalised, except for spacing</p>
                <p>ParlaMint-IT: No end-of-line hyphens were present in the source.</p>
                <p>ParlaMint-LV: No end-of-line hyphens were present in the source.</p>
@@ -309,6 +325,7 @@
                <p>ParlaMint-ES: Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions">ParlaMint-GB: </p>
                <p>ParlaMint-HR: Quotation marks have been left in the text and are not explicitly marked up.</p>
+               <p>ParlaMint-HU: Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p>ParlaMint-IS: Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p>ParlaMint-IT: Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p>ParlaMint-LV: Quotation marks have been left in the text and are not explicitly marked up.</p>
@@ -325,6 +342,7 @@
                <p>ParlaMint-ES: The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
                <p xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions">ParlaMint-GB: </p>
                <p>ParlaMint-HR: The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+               <p>ParlaMint-HU: The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
                <p>ParlaMint-IS: The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
                <p>ParlaMint-IT: The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
                <p>ParlaMint-LV: The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
@@ -335,20 +353,20 @@
          </editorialDecl>
          <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="body" occurs="17187"/>
+               <tagUsage gi="body" occurs="17380"/>
                <tagUsage gi="desc" occurs="311126"/>
-               <tagUsage gi="div" occurs="42394"/>
+               <tagUsage gi="div" occurs="42587"/>
                <tagUsage gi="gap" occurs="21518"/>
                <tagUsage gi="head" occurs="26071"/>
                <tagUsage gi="incident" occurs="2718"/>
-               <tagUsage gi="kinesic" occurs="178726"/>
+               <tagUsage gi="kinesic" occurs="182478"/>
                <tagUsage gi="note" occurs="976386"/>
                <tagUsage gi="pb" occurs="41953"/>
                <tagUsage gi="ref" occurs="33396"/>
-               <tagUsage gi="seg" occurs="5427319"/>
-               <tagUsage gi="text" occurs="15679"/>
+               <tagUsage gi="seg" occurs="5441435"/>
+               <tagUsage gi="text" occurs="15872"/>
                <tagUsage gi="time" occurs="20386"/>
-               <tagUsage gi="u" occurs="2059915"/>
+               <tagUsage gi="u" occurs="2063001"/>
                <tagUsage gi="vocal" occurs="105569"/>
             </namespace>
          </tagsDecl>
@@ -372,6 +390,8 @@
                href="ParlaMint-GB/ParlaMint-GB.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-HR/ParlaMint-HR.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-HU/ParlaMint-HU.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-IS/ParlaMint-IS.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"

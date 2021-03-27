@@ -123,6 +123,7 @@ verts:
 #Make ParlaMint corpus root
 root:
 	$s -xsl:Scripts/parlamint2root.xsl Scripts/ParlaMint-template.xml > ParlaMint.xml
+	$s -xsl:Scripts/parlamint2root.xsl Scripts/ParlaMint.ana-template.xml > ParlaMint.ana.xml
 
 #Make HTML, not yet operative
 H = /project/corpora/Parla/ParlaMint/ParlaMint/

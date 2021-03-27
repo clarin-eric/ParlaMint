@@ -28,6 +28,7 @@
 	<xsl:variable name="corpus" select="@xml:id"/>
 	<xsl:for-each select="tei:teiHeader//tei:titleStmt/tei:respStmt">
 	  <xsl:copy>
+	    <xsl:attribute name="n" select="$corpus"/>
 	    <xsl:for-each select="tei:persName[not(contains(@xml:lang, 'Cyr'))]">
 	      <xsl:copy>
 		<xsl:value-of select="."/>
@@ -35,7 +36,8 @@
 	    </xsl:for-each>
 	    <xsl:for-each select="tei:resp[@xml:lang='en']">
 	      <xsl:copy>
-		<xsl:value-of select="concat($corpus, ': ', .)"/>
+		<!--xsl:value-of select="concat($corpus, ': ', .)"/-->
+		<xsl:value-of select="."/>
 	      </xsl:copy>
 	    </xsl:for-each>
 	  </xsl:copy>
@@ -151,6 +153,20 @@
 	</xsl:for-each>
       </xsl:for-each>
     </xsl:copy>
+  </xsl:template>
+  
+  <xsl:template match="tei:appInfo">
+    <xsl:for-each select="document($docs//tei:item)/tei:teiCorpus">
+      <xsl:copy>
+	<xsl:variable name="corpus" select="@xml:id"/>
+	<xsl:for-each select="tei:teiHeader/tei:encodingDesc/tei:appInfo">
+	  <xsl:copy>
+	    <xsl:attribute name="n" select="$corpus"/>
+	    <xsl:apply-templates/>
+	  </xsl:copy>
+	</xsl:for-each>
+      </xsl:copy>
+    </xsl:for-each>
   </xsl:template>
   
   <xsl:template match="tei:revisionDesc">
