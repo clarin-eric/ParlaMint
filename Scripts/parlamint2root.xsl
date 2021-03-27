@@ -125,6 +125,7 @@
     <xsl:for-each select="$docs/tei:item/document(.)/tei:teiCorpus">
       <xsl:sort select="@xml:id"/>
       <listBibl>
+	<xsl:attribute name="n" select="@xml:id"/>
 	<head>
 	  <xsl:value-of select="@xml:id"/>
 	</head>
@@ -148,7 +149,9 @@
 	<xsl:for-each select="tei:teiHeader/tei:encodingDesc/
 			      tei:editorialDecl/tei:*[name() = $name]/tei:p">
 	  <xsl:copy>
-	    <xsl:value-of select="concat($corpus, ': ', .)"/>
+	    <xsl:attribute name="n" select="$corpus"/>
+	    <!--xsl:value-of select="concat($corpus, ': ', .)"/-->
+	    <xsl:value-of select="."/>
 	  </xsl:copy>
 	</xsl:for-each>
       </xsl:for-each>
