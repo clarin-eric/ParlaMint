@@ -21,6 +21,13 @@
     </xsl:for-each>
   </xsl:variable>
 
+  <xsl:template match="tei:teiCorpus | tei:teiHeader">
+    <xsl:copy>
+      <xsl:copy-of select="@*"/>
+      <xsl:apply-templates/>
+    </xsl:copy>
+  </xsl:template>
+  
   <xsl:template match="tei:titleStmt/tei:respStmt[last()]">
     <xsl:copy-of select="."/>
     <xsl:for-each select="$docs//tei:item">
@@ -179,12 +186,14 @@
     
   <xsl:template match="*">
     <xsl:copy>
-      <xsl:apply-templates select="@*[not(name() = 'xml:lang')]"/>
+      <xsl:apply-templates select="@*"/>
       <xsl:apply-templates/>
     </xsl:copy>
   </xsl:template>
   <xsl:template match="@*">
-    <xsl:copy/>
+    <xsl:if test="name() != 'xml:lang' and . != 'en'">
+      <xsl:copy/>
+    </xsl:if>
   </xsl:template>
 
 </xsl:stylesheet>
