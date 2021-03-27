@@ -138,6 +138,21 @@
     </xsl:for-each>
   </xsl:template>
     
+  <xsl:template match="tei:editorialDecl/tei:*">
+    <xsl:variable name="name" select="name()"/>
+    <xsl:copy>
+      <xsl:for-each select="document($docs//tei:item)/tei:teiCorpus">
+	<xsl:variable name="corpus" select="@xml:id"/>
+	<xsl:for-each select="tei:teiHeader/tei:encodingDesc/
+			      tei:editorialDecl/tei:*[name() = $name]/tei:p">
+	  <xsl:copy>
+	    <xsl:value-of select="concat($corpus, ': ', .)"/>
+	  </xsl:copy>
+	</xsl:for-each>
+      </xsl:for-each>
+    </xsl:copy>
+  </xsl:template>
+  
   <xsl:template match="tei:revisionDesc">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>

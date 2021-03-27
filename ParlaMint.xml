@@ -11,7 +11,7 @@
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
-               <resp xml:lang="en">ParlaMint corpus encoding verification</resp>
+               <resp>ParlaMint corpus encoding verification</resp>
             </respStmt>
             <respStmt xmlns:xi="http://www.w3.org/2001/XInclude">
                <persName>Henk van der Pol</persName>
@@ -75,6 +75,10 @@
                <resp>ParlaMint-IT: Parla-CLARIN TEI XML corpus encoding</resp>
             </respStmt>
             <respStmt>
+               <persName>Roberts Darģis</persName>
+               <resp>ParlaMint-LV: Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
                <persName>Ruben van Heusden</persName>
                <resp>ParlaMint-NL: Downloading and converting the corpus to TEI format</resp>
             </respStmt>
@@ -99,9 +103,9 @@
             <edition>2.0</edition>
          </editionStmt>
          <extent>
-            <measure unit="corpora" quantity="12">12 corpora</measure>
-            <measure unit="speeches" quantity="2072677">2,072,677 speeches</measure>
-            <measure unit="words" quantity="272876530">272,876,530 words</measure>
+            <measure unit="corpora" quantity="13">13 corpora</measure>
+            <measure unit="speeches" quantity="2194813">2,194,813 speeches</measure>
+            <measure unit="words" quantity="279359009">279,359,009 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -113,7 +117,7 @@
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2021-03-23">March 23, 2021</date>
+            <date when="2021-03-27">March 27, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <listBibl>
@@ -205,6 +209,9 @@
                </bibl>
             </listBibl>
             <listBibl>
+               <head>ParlaMint-LV</head>
+            </listBibl>
+            <listBibl>
                <head>ParlaMint-NL</head>
                <bibl>
                   <title type="main">Minutes of the Eerste Kamer of The Netherlands</title>
@@ -249,43 +256,105 @@
          </projectDesc>
          <editorialDecl>
             <correction>
-               <p>No correction of source texts was performed.</p>
+               <p xmlns:xi="http://www.w3.org/2001/XInclude">ParlaMint-BE: No correction of source texts was performed.</p>
+               <p>ParlaMint-BG: No correction of source texts was performed.</p>
+               <p xmlns:xi="http://www.w3.org/2001/XInclude">ParlaMint-CZ: No correction of source texts was performed.</p>
+               <p>ParlaMint-DK: No correction of source texts was performed.</p>
+               <p>ParlaMint-ES: No correction of source texts was performed.</p>
+               <p xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions">ParlaMint-GB: </p>
+               <p>ParlaMint-HR: No correction of source texts was performed.</p>
+               <p>ParlaMint-IS: No correction of source texts was performed.</p>
+               <p>ParlaMint-IT: No correction of source texts was performed.</p>
+               <p>ParlaMint-LV: No correction of source texts was performed.</p>
+               <p>ParlaMint-NL: No correction of source texts was performed.</p>
+               <p>ParlaMint-PL: No correction of source texts was performed.</p>
+               <p>ParlaMint-SI: No correction of source texts was performed.</p>
             </correction>
             <normalization>
-               <p>Text has not been normalised, except for spacing.</p>
+               <p xmlns:xi="http://www.w3.org/2001/XInclude">ParlaMint-BE: Text has not been normalised, except for spacing.</p>
+               <p>ParlaMint-BG: Normalisation was performed only on the meta-data, e.g. person names.</p>
+               <p xmlns:xi="http://www.w3.org/2001/XInclude">ParlaMint-CZ: Text has not been normalised, except for spacing.</p>
+               <p>ParlaMint-DK: Text has not been normalised.</p>
+               <p>ParlaMint-ES: Text has not been normalised, except for spacing.</p>
+               <p xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions">ParlaMint-GB: </p>
+               <p>ParlaMint-HR: Text has not been normalised, except for spacing.</p>
+               <p>ParlaMint-IS: No end-of-line hyphens were present in the source.</p>
+               <p>ParlaMint-IT: Text has not been normalised, except for spacing.</p>
+               <p>ParlaMint-LV: Text has not been normalised, except for spacing.</p>
+               <p>ParlaMint-NL: Through the dat collection process several Unicode hair space charactars were present in the text,
+	  these have been removed.</p>
+               <p>ParlaMint-PL: Text has not been normalised, except for spacing.</p>
+               <p>ParlaMint-SI: Text has not been normalised, except for spacing.</p>
             </normalization>
             <hyphenation>
-               <p>No end-of-line hyphens were present in the source.</p>
+               <p xmlns:xi="http://www.w3.org/2001/XInclude">ParlaMint-BE: Hyphenation has not been altered with respect to the source files.</p>
+               <p>ParlaMint-BG: No end-of-line hyphens were present in the source.</p>
+               <p xmlns:xi="http://www.w3.org/2001/XInclude">ParlaMint-CZ: No end-of-line hyphens were present in the source.</p>
+               <p>ParlaMint-DK: No end-of-line hyphens were present in the source.</p>
+               <p>ParlaMint-ES: No end-of-line hyphens were present in the source.</p>
+               <p xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions">ParlaMint-GB: </p>
+               <p>ParlaMint-HR: No end-of-line hyphens were present in the source.</p>
+               <p>ParlaMint-IS: Text has not been normalised, except for spacing</p>
+               <p>ParlaMint-IT: No end-of-line hyphens were present in the source.</p>
+               <p>ParlaMint-LV: No end-of-line hyphens were present in the source.</p>
+               <p>ParlaMint-NL: No end-of-line hyphens were present in the source.</p>
+               <p>ParlaMint-PL: No end-of-line hyphens were present in the source.</p>
+               <p>ParlaMint-SI: No end-of-line hyphens were present in the source.</p>
             </hyphenation>
             <quotation>
-               <p>Quotation marks have been left in the text and are not explicitly marked up.</p>
+               <p xmlns:xi="http://www.w3.org/2001/XInclude">ParlaMint-BE: Quotation marks have been left in the text and are not explicitly marked up.</p>
+               <p>ParlaMint-BG: Quotation marks have been left in the text and are not explicitly marked up.</p>
+               <p xmlns:xi="http://www.w3.org/2001/XInclude">ParlaMint-CZ: Quotation marks have been left in the text and are not explicitly marked up.</p>
+               <p>ParlaMint-DK: Quotation marks have been left in the text and are not explicitly marked up.</p>
+               <p>ParlaMint-ES: Quotation marks have been left in the text and are not explicitly marked up.</p>
+               <p xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions">ParlaMint-GB: </p>
+               <p>ParlaMint-HR: Quotation marks have been left in the text and are not explicitly marked up.</p>
+               <p>ParlaMint-IS: Quotation marks have been left in the text and are not explicitly marked up.</p>
+               <p>ParlaMint-IT: Quotation marks have been left in the text and are not explicitly marked up.</p>
+               <p>ParlaMint-LV: Quotation marks have been left in the text and are not explicitly marked up.</p>
+               <p>ParlaMint-NL: Quotation marks have been left in the text and are not explicitly marked up.</p>
+               <p>ParlaMint-PL: Quotation marks have been left in the text and are not explicitly marked up.</p>
+               <p>ParlaMint-SI: Quotation marks have been left in the text and are not explicitly marked up.</p>
             </quotation>
             <segmentation>
-               <p>The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+               <p xmlns:xi="http://www.w3.org/2001/XInclude">ParlaMint-BE: The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+               <p xmlns:xi="http://www.w3.org/2001/XInclude">ParlaMint-BE: Non-speaker text (voting results, ...) has been left out</p>
+               <p>ParlaMint-BG: The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+               <p xmlns:xi="http://www.w3.org/2001/XInclude">ParlaMint-CZ: The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+               <p>ParlaMint-DK: The texts are segmented into utterances (speeches) and segments (corresponding to one utterance).</p>
+               <p>ParlaMint-ES: The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+               <p xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions">ParlaMint-GB: </p>
+               <p>ParlaMint-HR: The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+               <p>ParlaMint-IS: The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+               <p>ParlaMint-IT: The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+               <p>ParlaMint-LV: The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+               <p>ParlaMint-NL: The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+               <p>ParlaMint-PL: The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+               <p>ParlaMint-SI: The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
             </segmentation>
          </editorialDecl>
          <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="body" occurs="16768"/>
+               <tagUsage gi="body" occurs="17187"/>
                <tagUsage gi="desc" occurs="311126"/>
-               <tagUsage gi="div" occurs="41975"/>
+               <tagUsage gi="div" occurs="42394"/>
                <tagUsage gi="gap" occurs="21518"/>
-               <tagUsage gi="head" occurs="25233"/>
+               <tagUsage gi="head" occurs="26071"/>
                <tagUsage gi="incident" occurs="2718"/>
                <tagUsage gi="kinesic" occurs="178726"/>
-               <tagUsage gi="note" occurs="854250"/>
+               <tagUsage gi="note" occurs="976386"/>
                <tagUsage gi="pb" occurs="41953"/>
                <tagUsage gi="ref" occurs="33396"/>
-               <tagUsage gi="seg" occurs="5158979"/>
-               <tagUsage gi="text" occurs="15260"/>
+               <tagUsage gi="seg" occurs="5427319"/>
+               <tagUsage gi="text" occurs="15679"/>
                <tagUsage gi="time" occurs="20386"/>
-               <tagUsage gi="u" occurs="1937779"/>
+               <tagUsage gi="u" occurs="2059915"/>
                <tagUsage gi="vocal" occurs="105569"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
       <revisionDesc>
-         <change when="2021-03-23">
+         <change when="2021-03-27">
             <name>Tomaž Erjavec</name>: First try.</change>
       </revisionDesc>
    </teiHeader>
@@ -307,6 +376,8 @@
                href="ParlaMint-IS/ParlaMint-IS.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-IT/ParlaMint-IT.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-LV/ParlaMint-LV.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-NL/ParlaMint-NL.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
