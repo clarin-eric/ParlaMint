@@ -169,7 +169,7 @@
   </xsl:template>
 
   <xsl:template match="tei:u[not(@who)]">
-    <xsl:message select="concat('WARN: u ', @xml:id, ' without @who')"/>
+    <!--xsl:message select="concat('WARN: u ', @xml:id, ' without @who')"/-->
     <speech id="{@xml:id}">
       <xsl:attribute name="speaker_id">?</xsl:attribute>
       <xsl:attribute name="speaker_name">?</xsl:attribute>
@@ -226,18 +226,15 @@
   </xsl:template>
 
   <xsl:template match="tei:seg">
-    <!-- Output only if it has some sentences -->
-    <xsl:if test="tei:s">
-      <p id="{@xml:id}">
-	<!-- We add language attribute (needed for for BE, which has fr+nl) -->
-	<xsl:variable name="lang-code" select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
-	<xsl:attribute name="lang" select="$teiHeader//tei:langUsage/tei:language
-					   [@ident=$lang-code][@xml:lang='en']"/>
-	<xsl:text>&#10;</xsl:text>
-	<xsl:apply-templates/>
-      </p>
+    <p id="{@xml:id}">
+      <!-- We add language attribute (needed for for BE, which has fr+nl) -->
+      <xsl:variable name="lang-code" select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
+      <xsl:attribute name="lang" select="$teiHeader//tei:langUsage/tei:language
+					 [@ident=$lang-code][@xml:lang='en']"/>
       <xsl:text>&#10;</xsl:text>
-    </xsl:if>
+      <xsl:apply-templates/>
+    </p>
+    <xsl:text>&#10;</xsl:text>
   </xsl:template>
 
   <xsl:template match="tei:name">
