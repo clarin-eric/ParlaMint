@@ -36,7 +36,7 @@
 	<xsl:for-each select="tei:teiHeader//tei:titleStmt/tei:respStmt">
 	  <xsl:copy>
 	    <xsl:attribute name="n" select="$corpus"/>
-	    <xsl:for-each select="tei:persName[@xml:lang != 'bg']">
+	    <xsl:for-each select="tei:persName[not(@xml:lang) or @xml:lang != 'bg']">
 	      <xsl:copy>
 		<xsl:value-of select="."/>
 	      </xsl:copy>
