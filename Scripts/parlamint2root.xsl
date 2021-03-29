@@ -165,6 +165,29 @@
     </xsl:copy>
   </xsl:template>
   
+  <xsl:template match="tei:taxonomy[@xml:id='UD-SYN']">
+    <xsl:variable name="id" select="@xml:id"/>
+    <xsl:copy>
+      <xsl:attribute name="xml:id" select="$id"/>
+      <xsl:variable name="taxonomies">
+	<xsl:for-each-group select="$docs/tei:item/document(.)/
+				    tei:teiCorpus/tei:teiHeader//tei:classDecl/
+				    tei:taxonomy[@xml:id = $id]/tei:category"
+			    group-by="@xml:id">
+	  <category xml:id="{current-grouping-key()}">
+	    <xsl:for-each select="current-group()/tei:*">
+	      <xsl:copy>
+		<xsl:attribute name="corresp" select="ancestor::tei:teiCorpus/@xml:id"/>
+		<xsl:apply-templates/>
+	      </xsl:copy>
+	    </xsl:for-each>
+	  </category>
+	</xsl:for-each-group>
+      </xsl:variable>
+      <xsl:copy-of select="$taxonomies"/>
+    </xsl:copy>
+  </xsl:template>
+  
   <xsl:template match="tei:appInfo">
     <xsl:for-each select="document($docs//tei:item)/tei:teiCorpus">
       <xsl:variable name="corpus" select="@xml:id"/>

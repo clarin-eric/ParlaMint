@@ -122,7 +122,7 @@
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2021-03-28">March 28, 2021</date>
+            <date when="2021-03-29">March 29, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <listBibl n="ParlaMint-BE.ana">
@@ -346,6 +346,1394 @@
                <tagUsage gi="w" occurs="229241546"/>
             </namespace>
          </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="parla.legislature"/>
+            <taxonomy xml:id="speaker_types"/>
+            <taxonomy xml:id="subcorpus"/>
+            <taxonomy xml:id="NER"/>
+            <taxonomy xml:id="UD-SYN">
+               <category xml:id="acl">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>acl</term>: Clausal modifier of noun (adjectival clause)</catDesc>
+                  <catDesc corresp="ParlaMint-BG.ana">
+                     <term>acl</term>: Clausal modifier of noun (adjectival clause)</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>acl</term>: Clausal modifier of noun (adjectival clause)</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>acl</term>: Clausal modifier of noun (adjectival clause)</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>acl</term>: Clausal modifier of noun (adjectival clause)</catDesc>
+                  <catDesc corresp="ParlaMint-IS.ana">
+                     <term>acl</term>Clausal modifier of noun (adjectival clause)</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>acl</term>: Clausal modifier of noun (adjectival clause)</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>acl</term>: Clausal modifier of noun (adjectival clause)</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>acl</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-SI.ana">
+                     <term>acl</term>: Clausal modifier of noun (adjectival clause)</catDesc>
+               </category>
+               <category xml:id="advcl">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>advcl</term>: Adverbial clause modifier</catDesc>
+                  <catDesc corresp="ParlaMint-BG.ana">
+                     <term>advcl</term>: Adverbial clause modifier</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>advcl</term>: Adverbial clause modifier</catDesc>
+                  <catDesc corresp="ParlaMint-DK.ana">
+                     <term>advcl</term>: Adverbial clause modifier</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>advcl</term>: Adverbial clause modifier</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>advcl</term>: Adverbial clause modifier</catDesc>
+                  <catDesc corresp="ParlaMint-IS.ana">
+                     <term>advcl</term>Adverbial clause modifier</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>advcl</term>: Adverbial clause modifier</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>advcl</term>: Adverbial clause modifier</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>advcl</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-SI.ana">
+                     <term>advcl</term>: Adverbial clause modifier</catDesc>
+               </category>
+               <category xml:id="advmod">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>advmod</term>: Adverbial modifier</catDesc>
+                  <catDesc corresp="ParlaMint-BG.ana">
+                     <term>advmod</term>: Adverbial modifier</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>advmod</term>: Adverbial modifier</catDesc>
+                  <catDesc corresp="ParlaMint-DK.ana">
+                     <term>advmod</term>: Adverbial modifier</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>advmod</term>: Adverbial modifier</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>advmod</term>: Adverbial modifier</catDesc>
+                  <catDesc corresp="ParlaMint-IS.ana">
+                     <term>advmod</term>Adverbial modifier</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>advmod</term>: Adverbial modifier</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>advmod</term>: Adverbial modifier</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>advmod</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-SI.ana">
+                     <term>advmod</term>: Adverbial modifier</catDesc>
+               </category>
+               <category xml:id="amod">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>amod</term>: Adjectival modifier</catDesc>
+                  <catDesc corresp="ParlaMint-BG.ana">
+                     <term>amod</term>: Adjectival modifier</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>amod</term>: Adjectival modifier</catDesc>
+                  <catDesc corresp="ParlaMint-DK.ana">
+                     <term>amod</term>: Adjectival modifier</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>amod</term>: Adjectival modifier</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>amod</term>: Adjectival modifier</catDesc>
+                  <catDesc corresp="ParlaMint-IS.ana">
+                     <term>amod</term>Adjectival modifier</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>amod</term>: Adjectival modifier</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>amod</term>: Adjectival modifier</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>amod</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-SI.ana">
+                     <term>amod</term>: Adjectival modifier</catDesc>
+               </category>
+               <category xml:id="appos">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>appos</term>: Appositional modifier</catDesc>
+                  <catDesc corresp="ParlaMint-BG.ana">
+                     <term>appos</term>: Appositional modifier</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>appos</term>: Appositional modifier</catDesc>
+                  <catDesc corresp="ParlaMint-DK.ana">
+                     <term>appos</term>: Appositional modifier</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>appos</term>: Appositional modifier</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>appos</term>: Appositional modifier</catDesc>
+                  <catDesc corresp="ParlaMint-IS.ana">
+                     <term>appos</term>Appositional modifier</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>appos</term>: Appositional modifier</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>appos</term>: Appositional modifier</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>appos</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-SI.ana">
+                     <term>appos</term>: Appositional modifier</catDesc>
+               </category>
+               <category xml:id="aux">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>aux</term>: Auxiliary</catDesc>
+                  <catDesc corresp="ParlaMint-BG.ana">
+                     <term>aux</term>: Auxiliary</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>aux</term>: Auxiliary</catDesc>
+                  <catDesc corresp="ParlaMint-DK.ana">
+                     <term>aux</term>: Auxiliary</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>aux</term>: Auxiliary</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>aux</term>: Auxiliary</catDesc>
+                  <catDesc corresp="ParlaMint-IS.ana">
+                     <term>aux</term>Auxiliary</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>aux</term>: Auxiliary</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>aux</term>: Auxiliary</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>aux</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-SI.ana">
+                     <term>aux</term>: Auxiliary</catDesc>
+               </category>
+               <category xml:id="case">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>case</term>: Case marking</catDesc>
+                  <catDesc corresp="ParlaMint-BG.ana">
+                     <term>case</term>: Case marking</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>case</term>: Case marking</catDesc>
+                  <catDesc corresp="ParlaMint-DK.ana">
+                     <term>case</term>: Case marking</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>case</term>: Case marking</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>case</term>: Case marking</catDesc>
+                  <catDesc corresp="ParlaMint-IS.ana">
+                     <term>case</term>Case marking</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>case</term>: Case marking</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>case</term>: Case marking</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>case</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-SI.ana">
+                     <term>case</term>: Case marking</catDesc>
+               </category>
+               <category xml:id="cc">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>cc</term>: Coordinating conjunction</catDesc>
+                  <catDesc corresp="ParlaMint-BG.ana">
+                     <term>cc</term>: Coordinating conjunction</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>cc</term>: Coordinating conjunction</catDesc>
+                  <catDesc corresp="ParlaMint-DK.ana">
+                     <term>cc</term>: Coordinating conjunction</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>cc</term>: Coordinating conjunction</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>cc</term>: Coordinating conjunction</catDesc>
+                  <catDesc corresp="ParlaMint-IS.ana">
+                     <term>cc</term>Coordinating conjunction</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>cc</term>: Coordinating conjunction</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>cc</term>: Coordinating conjunction</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>cc</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-SI.ana">
+                     <term>cc</term>: Coordinating conjunction</catDesc>
+               </category>
+               <category xml:id="ccomp">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>ccomp</term>: Clausal complement</catDesc>
+                  <catDesc corresp="ParlaMint-BG.ana">
+                     <term>ccomp</term>: Clausal complement</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>ccomp</term>: Clausal complement</catDesc>
+                  <catDesc corresp="ParlaMint-DK.ana">
+                     <term>ccomp</term>: Clausal complement</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>ccomp</term>: Clausal complement</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>ccomp</term>: Clausal complement</catDesc>
+                  <catDesc corresp="ParlaMint-IS.ana">
+                     <term>ccomp</term>Clausal complement</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>ccomp</term>: Clausal complement</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>ccomp</term>: Clausal complement</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>ccomp</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-SI.ana">
+                     <term>ccomp</term>: Clausal complement</catDesc>
+               </category>
+               <category xml:id="cc_preconj">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>cc:preconj</term>: Preconjunct</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>cc:preconj</term>: Preconjunct</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>cc:preconj</term>: Preconjunct</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>cc:preconj</term>: Preconjunct</catDesc>
+                  <catDesc corresp="ParlaMint-IS.ana">
+                     <term>cc:preconj</term>Preconjunct</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>cc:preconj</term>: Preconjunct</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>cc:preconj</term>: Preconjunct</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>cc:preconj</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-SI.ana">
+                     <term>cc:preconj</term>: Preconjunct</catDesc>
+               </category>
+               <category xml:id="conj">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>conj</term>: Conjunct</catDesc>
+                  <catDesc corresp="ParlaMint-BG.ana">
+                     <term>conj</term>: Conjunct</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>conj</term>: Conjunct</catDesc>
+                  <catDesc corresp="ParlaMint-DK.ana">
+                     <term>conj</term>: Conjunct</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>conj</term>: Conjunct</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>conj</term>: Conjunct</catDesc>
+                  <catDesc corresp="ParlaMint-IS.ana">
+                     <term>conj</term>Conjunct</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>conj</term>: Conjunct</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>conj</term>: Conjunct</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>conj</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-SI.ana">
+                     <term>conj</term>: Conjunct</catDesc>
+               </category>
+               <category xml:id="cop">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>cop</term>: Copula</catDesc>
+                  <catDesc corresp="ParlaMint-BG.ana">
+                     <term>cop</term>: Copula</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>cop</term>: Copula</catDesc>
+                  <catDesc corresp="ParlaMint-DK.ana">
+                     <term>cop</term>: Copula</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>cop</term>: Copula</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>cop</term>: Copula</catDesc>
+                  <catDesc corresp="ParlaMint-IS.ana">
+                     <term>cop</term>Copula</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>cop</term>: Copula</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>cop</term>: Copula</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>cop</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-SI.ana">
+                     <term>cop</term>: Copula</catDesc>
+               </category>
+               <category xml:id="csubj">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>csubj</term>: Clausal subject</catDesc>
+                  <catDesc corresp="ParlaMint-BG.ana">
+                     <term>csubj</term>: Clausal subject</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>csubj</term>: Clausal subject</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>csubj</term>: Clausal subject</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>csubj</term>: Clausal subject</catDesc>
+                  <catDesc corresp="ParlaMint-IS.ana">
+                     <term>csubj</term>Clausal subject</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>csubj</term>: Clausal subject</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>csubj</term>: Clausal subject</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>csubj</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-SI.ana">
+                     <term>csubj</term>: Clausal subject</catDesc>
+               </category>
+               <category xml:id="dep">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>dep</term>: Unspecified dependency</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>dep</term>: Unspecified dependency</catDesc>
+                  <catDesc corresp="ParlaMint-DK.ana">
+                     <term>dep</term>: Unspecified dependency</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>dep</term>: Unspecified dependency</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>dep</term>: Unspecified dependency</catDesc>
+                  <catDesc corresp="ParlaMint-IS.ana">
+                     <term>dep</term>Unspecified dependency</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>dep</term>: Unspecified dependency</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>dep</term>: Unspecified dependency</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>dep</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-SI.ana">
+                     <term>dep</term>: Unspecified dependency</catDesc>
+               </category>
+               <category xml:id="det">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>det</term>: Determiner</catDesc>
+                  <catDesc corresp="ParlaMint-BG.ana">
+                     <term>det</term>: Determiner</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>det</term>: Determiner</catDesc>
+                  <catDesc corresp="ParlaMint-DK.ana">
+                     <term>det</term>: Determiner</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>det</term>: Determiner</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>det</term>: Determiner</catDesc>
+                  <catDesc corresp="ParlaMint-IS.ana">
+                     <term>det</term>Determiner</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>det</term>: Determiner</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>det</term>: Determiner</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>det</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-SI.ana">
+                     <term>det</term>: Determiner</catDesc>
+               </category>
+               <category xml:id="discourse">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>discourse</term>: Discourse element</catDesc>
+                  <catDesc corresp="ParlaMint-BG.ana">
+                     <term>discourse</term>: Discourse element</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>discourse</term>: Discourse element</catDesc>
+                  <catDesc corresp="ParlaMint-DK.ana">
+                     <term>discourse</term>: Discourse element</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>discourse</term>: Discourse element</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>discourse</term>: Discourse element</catDesc>
+                  <catDesc corresp="ParlaMint-IS.ana">
+                     <term>discourse</term>Discourse element</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>discourse</term>: Discourse element</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>discourse</term>: Discourse element</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>discourse</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-SI.ana">
+                     <term>discourse</term>: Discourse element</catDesc>
+               </category>
+               <category xml:id="expl">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>expl</term>: Expletive</catDesc>
+                  <catDesc corresp="ParlaMint-BG.ana">
+                     <term>expl</term>: Expletive</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>expl</term>: Expletive</catDesc>
+                  <catDesc corresp="ParlaMint-DK.ana">
+                     <term>expl</term>: Expletive</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>expl</term>: Expletive</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>expl</term>: Expletive</catDesc>
+                  <catDesc corresp="ParlaMint-IS.ana">
+                     <term>expl</term>Expletive</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>expl</term>: Expletive</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>expl</term>: Expletive</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>expl</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-SI.ana">
+                     <term>expl</term>: Expletive</catDesc>
+               </category>
+               <category xml:id="fixed">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>fixed</term>: Fixed multiword expression</catDesc>
+                  <catDesc corresp="ParlaMint-BG.ana">
+                     <term>fixed</term>: Fixed multiword expression</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>fixed</term>: Fixed multiword expression</catDesc>
+                  <catDesc corresp="ParlaMint-DK.ana">
+                     <term>fixed</term>: Fixed multiword expression</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>fixed</term>: Fixed multiword expression</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>fixed</term>: Fixed multiword expression</catDesc>
+                  <catDesc corresp="ParlaMint-IS.ana">
+                     <term>fixed</term>Fixed multiword expression</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>fixed</term>: Fixed multiword expression</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>fixed</term>: Fixed multiword expression</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>fixed</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-SI.ana">
+                     <term>fixed</term>: Fixed multiword expression</catDesc>
+               </category>
+               <category xml:id="flat">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>flat</term>: Flat multiword expression</catDesc>
+                  <catDesc corresp="ParlaMint-BG.ana">
+                     <term>flat</term>: Flat multiword expression</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>flat</term>: Flat multiword expression</catDesc>
+                  <catDesc corresp="ParlaMint-DK.ana">
+                     <term>flat</term>: Flat multiword expression</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>flat</term>: Flat multiword expression</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>flat</term>: Flat multiword expression</catDesc>
+                  <catDesc corresp="ParlaMint-IS.ana">
+                     <term>flat</term>Flat multiword expression</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>flat</term>: Flat multiword expression</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>flat</term>: Flat multiword expression</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>flat</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-SI.ana">
+                     <term>flat</term>: Flat multiword expression</catDesc>
+               </category>
+               <category xml:id="flat_foreign">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>flat:foreign</term>: Flat multiword expression: foreign</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>flat:foreign</term>: Flat multiword expression: foreign</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>flat:foreign</term>: Flat multiword expression: foreign</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>flat:foreign</term>: Flat multiword expression: foreign</catDesc>
+                  <catDesc corresp="ParlaMint-IS.ana">
+                     <term>flat:foreign</term>Flat multiword expression: foreign</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>flat:foreign</term>: Flat multiword expression: foreign</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>flat:foreign</term>: Flat multiword expression: foreign</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>flat:foreign</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-SI.ana">
+                     <term>flat:foreign</term>: Flat multiword expression: foreign</catDesc>
+               </category>
+               <category xml:id="flat_name">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>flat:name</term>: Flat name</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>flat:name</term>: Flat name</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>flat:name</term>: Flat name</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>flat:name</term>: Flat name</catDesc>
+                  <catDesc corresp="ParlaMint-IS.ana">
+                     <term>flat:name</term>Flat name</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>flat:name</term>: Flat name</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>flat:name</term>: Flat name</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>flat:name</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-SI.ana">
+                     <term>flat:name</term>: Flat name</catDesc>
+               </category>
+               <category xml:id="iobj">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>iobj</term>: Indirect object</catDesc>
+                  <catDesc corresp="ParlaMint-BG.ana">
+                     <term>iobj</term>: Indirect object</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>iobj</term>: Indirect object</catDesc>
+                  <catDesc corresp="ParlaMint-DK.ana">
+                     <term>iobj</term>: Indirect object</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>iobj</term>: Indirect object</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>iobj</term>: Indirect object</catDesc>
+                  <catDesc corresp="ParlaMint-IS.ana">
+                     <term>iobj</term>Indirect object</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>iobj</term>: Indirect object</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>iobj</term>: Indirect object</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>iobj</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-SI.ana">
+                     <term>iobj</term>: Indirect object</catDesc>
+               </category>
+               <category xml:id="mark">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>mark</term>: Marker</catDesc>
+                  <catDesc corresp="ParlaMint-BG.ana">
+                     <term>mark</term>: Marker</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>mark</term>: Marker</catDesc>
+                  <catDesc corresp="ParlaMint-DK.ana">
+                     <term>mark</term>: Marker</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>mark</term>: Marker</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>mark</term>: Marker</catDesc>
+                  <catDesc corresp="ParlaMint-IS.ana">
+                     <term>mark</term>Marker</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>mark</term>: Marker</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>mark</term>: Marker</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>mark</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-SI.ana">
+                     <term>mark</term>: Marker</catDesc>
+               </category>
+               <category xml:id="nmod">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>nmod</term>: Nominal modifier</catDesc>
+                  <catDesc corresp="ParlaMint-BG.ana">
+                     <term>nmod</term>: Nominal modifier</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>nmod</term>: Nominal modifier</catDesc>
+                  <catDesc corresp="ParlaMint-DK.ana">
+                     <term>nmod</term>: Nominal modifier</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>nmod</term>: Nominal modifier</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>nmod</term>: Nominal modifier</catDesc>
+                  <catDesc corresp="ParlaMint-IS.ana">
+                     <term>nmod</term>Nominal modifier</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>nmod</term>: Nominal modifier</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>nmod</term>: Nominal modifier</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>nmod</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-SI.ana">
+                     <term>nmod</term>: Nominal modifier</catDesc>
+               </category>
+               <category xml:id="nsubj">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>nsubj</term>: Nominal subject</catDesc>
+                  <catDesc corresp="ParlaMint-BG.ana">
+                     <term>nsubj</term>: Nominal subject</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>nsubj</term>: Nominal subject</catDesc>
+                  <catDesc corresp="ParlaMint-DK.ana">
+                     <term>nsubj</term>: Nominal subject</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>nsubj</term>: Nominal subject</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>nsubj</term>: Nominal subject</catDesc>
+                  <catDesc corresp="ParlaMint-IS.ana">
+                     <term>nsubj</term>Nominal subject</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>nsubj</term>: Nominal subject</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>nsubj</term>: Nominal subject</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>nsubj</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-SI.ana">
+                     <term>nsubj</term>: Nominal subject</catDesc>
+               </category>
+               <category xml:id="nummod">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>nummod</term>: Numeric modifier</catDesc>
+                  <catDesc corresp="ParlaMint-BG.ana">
+                     <term>nummod</term>: Numeric modifier</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>nummod</term>: Numeric modifier</catDesc>
+                  <catDesc corresp="ParlaMint-DK.ana">
+                     <term>nummod</term>: Numeric modifier</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>nummod</term>: Numeric modifier</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>nummod</term>: Numeric modifier</catDesc>
+                  <catDesc corresp="ParlaMint-IS.ana">
+                     <term>nummod</term>Numeric modifier</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>nummod</term>: Numeric modifier</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>nummod</term>: Numeric modifier</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>nummod</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-SI.ana">
+                     <term>nummod</term>: Numeric modifier</catDesc>
+               </category>
+               <category xml:id="obj">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>obj</term>: Object</catDesc>
+                  <catDesc corresp="ParlaMint-BG.ana">
+                     <term>obj</term>: Object</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>obj</term>: Object</catDesc>
+                  <catDesc corresp="ParlaMint-DK.ana">
+                     <term>obj</term>: Object</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>obj</term>: Object</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>obj</term>: Object</catDesc>
+                  <catDesc corresp="ParlaMint-IS.ana">
+                     <term>obj</term>Object</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>obj</term>: Object</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>obj</term>: Object</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>obj</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-SI.ana">
+                     <term>obj</term>: Object</catDesc>
+               </category>
+               <category xml:id="obl">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>obl</term>: Oblique nominal</catDesc>
+                  <catDesc corresp="ParlaMint-BG.ana">
+                     <term>obl</term>: Oblique nominal</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>obl</term>: Oblique nominal</catDesc>
+                  <catDesc corresp="ParlaMint-DK.ana">
+                     <term>obl</term>: Oblique nominal</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>obl</term>: Oblique nominal</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>obl</term>: Oblique nominal</catDesc>
+                  <catDesc corresp="ParlaMint-IS.ana">
+                     <term>obl</term>Oblique nominal</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>obl</term>: Oblique nominal</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>obl</term>: Oblique nominal</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>obl</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-SI.ana">
+                     <term>obl</term>: Oblique nominal</catDesc>
+               </category>
+               <category xml:id="parataxis">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>parataxis</term>: Parataxis</catDesc>
+                  <catDesc corresp="ParlaMint-BG.ana">
+                     <term>parataxis</term>: Parataxis</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>parataxis</term>: Parataxis</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>parataxis</term>: Parataxis</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>parataxis</term>: Parataxis</catDesc>
+                  <catDesc corresp="ParlaMint-IS.ana">
+                     <term>parataxis</term>Parataxis</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>parataxis</term>: Parataxis</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>parataxis</term>: Parataxis</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>parataxis</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-SI.ana">
+                     <term>parataxis</term>: Parataxis</catDesc>
+               </category>
+               <category xml:id="punct">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>punct</term>: Punctuation</catDesc>
+                  <catDesc corresp="ParlaMint-BG.ana">
+                     <term>punct</term>: Punctuation</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>punct</term>: Punctuation</catDesc>
+                  <catDesc corresp="ParlaMint-DK.ana">
+                     <term>punct</term>: Punctuation</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>punct</term>: Punctuation</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>punct</term>: Punctuation</catDesc>
+                  <catDesc corresp="ParlaMint-IS.ana">
+                     <term>punct</term>Punctuation</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>punct</term>: Punctuation</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>punct</term>: Punctuation</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>punct</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-SI.ana">
+                     <term>punct</term>: Punctuation</catDesc>
+               </category>
+               <category xml:id="reparandum">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>reparandum</term>: Overridden disfluency (here used for program mistakes!)</catDesc>
+                  <catDesc corresp="ParlaMint-BG.ana">
+                     <term>reparandum</term>: Overridden disfluency (here used for program mistakes!)</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>reparandum</term>: Overridden disfluency (here used for program mistakes!)</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>reparandum</term>: Overridden disfluency (here used for program mistakes!)</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>reparandum</term>: Overridden disfluency (here used for program mistakes!)</catDesc>
+                  <catDesc corresp="ParlaMint-IS.ana">
+                     <term>reparandum</term>Overridden disfluency (here used for program mistakes!)</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>reparandum</term>: Overridden disfluency (here used for program mistakes!)</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>reparandum</term>: Overridden disfluency (here used for program mistakes!)</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>reparandum</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-SI.ana">
+                     <term>reparandum</term>: Overridden disfluency (here used for program mistakes!)</catDesc>
+               </category>
+               <category xml:id="root">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>root</term>: Root</catDesc>
+                  <catDesc corresp="ParlaMint-BG.ana">
+                     <term>root</term>: Root</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>root</term>: Root</catDesc>
+                  <catDesc corresp="ParlaMint-DK.ana">
+                     <term>root</term>: Root</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>root</term>: Root</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>root</term>: Root</catDesc>
+                  <catDesc corresp="ParlaMint-IS.ana">
+                     <term>root</term>Root</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>root</term>: Root</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>root</term>: Root</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>root</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-SI.ana">
+                     <term>root</term>: Root</catDesc>
+               </category>
+               <category xml:id="xcomp">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>xcomp</term>: Open clausal complement</catDesc>
+                  <catDesc corresp="ParlaMint-BG.ana">
+                     <term>xcomp</term>: Open clausal complement</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>xcomp</term>: Open clausal complement</catDesc>
+                  <catDesc corresp="ParlaMint-DK.ana">
+                     <term>xcomp</term>: Open clausal complement</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>xcomp</term>: Open clausal complement</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>xcomp</term>: Open clausal complement</catDesc>
+                  <catDesc corresp="ParlaMint-IS.ana">
+                     <term>xcomp</term>Open clausal complement</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>xcomp</term>: Open clausal complement</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>xcomp</term>: Open clausal complement</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>xcomp</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-SI.ana">
+                     <term>xcomp</term>: Open clausal complement</catDesc>
+               </category>
+               <category xml:id="nsubj_caus">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>nsubj_caus</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>nsubj_caus</term>
+                  </catDesc>
+               </category>
+               <category xml:id="expl_comp">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>expl_comp</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>expl_comp</term>
+                  </catDesc>
+               </category>
+               <category xml:id="acl_relcl">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>acl_relcl</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-BG.ana">
+                     <term>acl:relcl</term>
+                  </catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>acl:relcl</term>: Relative clause modifier</catDesc>
+                  <catDesc corresp="ParlaMint-DK.ana">
+                     <term>acl:relcl</term>: A relative clause modifier of an noun</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>acl:relcl</term>: relative clause modifier</catDesc>
+                  <catDesc corresp="ParlaMint-IS.ana">
+                     <term>acl_relcl</term>Relative clause modifier</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>acl:relcl</term>: Relative clause modifier</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>acl_relcl</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>acl:relcl</term>
+                  </catDesc>
+               </category>
+               <category xml:id="goeswith">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>goeswith</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-BG.ana">
+                     <term>goeswith</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>goeswith</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>goeswith</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>goeswith</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>goeswith</term>
+                  </catDesc>
+               </category>
+               <category xml:id="nsubj_pass">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>nsubj_pass</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-BG.ana">
+                     <term>nsubj:pass</term>
+                  </catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>nsubj:pass</term>: Passive nominal subject</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>nsubj:pass</term>: passive nominal subject</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>nsubj:pass</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>nsubj:pass</term>: Passive nominal subject</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>nsubj_pass</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>nsubj:pass</term>
+                  </catDesc>
+               </category>
+               <category xml:id="obl_arg">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>obl_arg</term>
+                  </catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>obl:arg</term>: Oblique argument</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>obl:arg</term>: Oblique argument</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>obl_arg</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>obl:arg</term>
+                  </catDesc>
+               </category>
+               <category xml:id="obj_agent">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>obj_agent</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>obj_agent</term>
+                  </catDesc>
+               </category>
+               <category xml:id="obj_lvc">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>obj_lvc</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>obj_lvc</term>
+                  </catDesc>
+               </category>
+               <category xml:id="expl_subj">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>expl_subj</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>expl_subj</term>
+                  </catDesc>
+               </category>
+               <category xml:id="obl_agent">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>obl_agent</term>
+                  </catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>obl:agent</term>: agent modifier</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>obl_agent</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>obl:agent</term>
+                  </catDesc>
+               </category>
+               <category xml:id="orphan">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>orphan</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-BG.ana">
+                     <term>orphan</term>
+                  </catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>orphan</term>: Orphan</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>orphan</term>: orphan-to-orphan relation in gapping</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>orphan</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>orphan</term>: Orphan</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>orphan</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>orphan</term>
+                  </catDesc>
+               </category>
+               <category xml:id="nmod_poss">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>nmod_poss</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-DK.ana">
+                     <term>nmod:poss</term>: Nominal modifier which occurs before its head in the specifier position used for ‘s possessives</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>nmod:poss</term>: possessive nominal modifier</catDesc>
+                  <catDesc corresp="ParlaMint-IS.ana">
+                     <term>nmod_poss</term>Possisive nominal modifier</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>nmod_poss</term>
+                  </catDesc>
+               </category>
+               <category xml:id="iobj_agent">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>iobj_agent</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>iobj_agent</term>
+                  </catDesc>
+               </category>
+               <category xml:id="advcl_cleft">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>advcl_cleft</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>advcl_cleft</term>
+                  </catDesc>
+               </category>
+               <category xml:id="expl_pass">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>expl_pass</term>
+                  </catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>expl:pass</term>: Reflexive pronoun used in reflexive passive</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>expl:pass</term>: Reflexive pronoun used in reflexive passive</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>expl_pass</term>
+                  </catDesc>
+               </category>
+               <category xml:id="compound_prt">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>compound_prt</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-DK.ana">
+                     <term>compound:prt</term>: Phrasal verb particle relation</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>compound:prt</term>: phrasal verb particle</catDesc>
+                  <catDesc corresp="ParlaMint-IS.ana">
+                     <term>compound_prt</term>Compound (particle verb)</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>compound_prt</term>
+                  </catDesc>
+               </category>
+               <category xml:id="vocative">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>vocative</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-BG.ana">
+                     <term>vocative</term>
+                  </catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>vocative</term>: Vocative</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>vocative</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-IS.ana">
+                     <term>vocative</term>Vocative</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>vocative</term>: Vocative</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>vocative</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>vocative</term>
+                  </catDesc>
+               </category>
+               <category xml:id="expl_pv">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>expl_pv</term>
+                  </catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>expl:pv</term>: Reflexive clitic with an inherently reflexive verb</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>expl:pv</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>expl:pv</term>: Reflexive clitic with an inherently reflexive verb</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>expl_pv</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>expl:pv</term>
+                  </catDesc>
+               </category>
+               <category xml:id="obl_mod">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>obl_mod</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>obl_mod</term>
+                  </catDesc>
+               </category>
+               <category xml:id="aux_caus">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>aux_caus</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>aux_caus</term>
+                  </catDesc>
+               </category>
+               <category xml:id="dislocated">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>dislocated</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>dislocated</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>dislocated</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>dislocated</term>
+                  </catDesc>
+               </category>
+               <category xml:id="aux_pass">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>aux_pass</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-BG.ana">
+                     <term>aux:pass</term>
+                  </catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>aux:pass</term>: Passive auxiliary</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>aux:pass</term>: passive auxiliary</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>aux:pass</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>aux:pass</term>: Passive auxiliary</catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>aux_pass</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>aux:pass</term>
+                  </catDesc>
+               </category>
+               <category xml:id="aux_tense">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
+                     <term>aux_tense</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-NL.ana">
+                     <term>aux_tense</term>
+                  </catDesc>
+               </category>
+               <category xml:id="compound">
+                  <catDesc corresp="ParlaMint-BG.ana">
+                     <term>compound</term>
+                  </catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>compound</term>: Compound</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>compound</term>: compound</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>compound</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>compound</term>: Compound</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>compound</term>
+                  </catDesc>
+               </category>
+               <category xml:id="csubj_pass">
+                  <catDesc corresp="ParlaMint-BG.ana">
+                     <term>csubj:pass</term>
+                  </catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>csubj:pass</term>: Clausal passive subject</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>csubj:pass</term>: Clausal passive subject</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>csubj:pass</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>csubj:pass</term>: Clausal passive subject</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>csubj:pass</term>
+                  </catDesc>
+               </category>
+               <category xml:id="advmod_emph">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>advmod:emph</term>: Emphasizing word, intensifier</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>advmod:emph</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>advmod:emph</term>: Emphasizing word, intensifier</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>advmod:emph</term>
+                  </catDesc>
+               </category>
+               <category xml:id="det_numgov">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>det:numgov</term>: Pronominal quantifier governing the case of the noun</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>det:numgov</term>: Pronominal quantifier governing the case of the noun</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>det:numgov</term>
+                  </catDesc>
+               </category>
+               <category xml:id="det_nummod">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>det:nummod</term>: Pronominal quantifier agreeing in case with the noun</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>det:nummod</term>: Pronominal quantifier agreeing in case with the noun</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>det:nummod</term>
+                  </catDesc>
+               </category>
+               <category xml:id="nummod_gov">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
+                     <term>nummod:gov</term>: Numeric modifier governing the case of the noun</catDesc>
+                  <catDesc corresp="ParlaMint-LV.ana">
+                     <term>nummod:gov</term>: Numeric modifier governing the case of the noun</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>nummod:gov</term>
+                  </catDesc>
+               </category>
+               <category xml:id="list">
+                  <catDesc corresp="ParlaMint-DK.ana">
+                     <term>list</term>: Chains of comparable items</catDesc>
+                  <catDesc corresp="ParlaMint-HR.ana">
+                     <term>list</term>
+                  </catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>list</term>
+                  </catDesc>
+               </category>
+               <category xml:id="obl_loc">
+                  <catDesc corresp="ParlaMint-DK.ana">
+                     <term>obl:loc</term>: Locative oblique nominal</catDesc>
+               </category>
+               <category xml:id="obl_tmod">
+                  <catDesc corresp="ParlaMint-DK.ana">
+                     <term>obl:tmod</term>: A temporal modifier</catDesc>
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>obl:tmod</term>: temporal modifier</catDesc>
+               </category>
+               <category xml:id="det_predet">
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>det:predet</term>: predeterminer</catDesc>
+               </category>
+               <category xml:id="det_qmod">
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>det:qmod</term>: special relation quantificational modifier</catDesc>
+               </category>
+               <category xml:id="nsubj_xsubj">
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>nsubj:xsubj</term>: controlling subject (enhanced dependency)</catDesc>
+               </category>
+               <category xml:id="nsubj_pass_xsubj">
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>nsubj:pass:xsubj</term>: controlling passive subject (enhanced dependency)</catDesc>
+               </category>
+               <category xml:id="obl_npmod">
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>obl</term>: oblique nominal noun phrase modifier</catDesc>
+               </category>
+               <category xml:id="ref">
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>ref</term>: relative clause (enhanced dependency)</catDesc>
+               </category>
+               <category xml:id="udpe">
+                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                           corresp="ParlaMint-GB.ana">
+                     <term>?</term>: UD parser error</catDesc>
+               </category>
+               <category xml:id="advcl_relcl">
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>advcl:relcl</term>
+                  </catDesc>
+               </category>
+               <category xml:id="advmod_arg">
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>advmod:arg</term>
+                  </catDesc>
+               </category>
+               <category xml:id="advmod_neg">
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>advmod:neg</term>
+                  </catDesc>
+               </category>
+               <category xml:id="amod_flat">
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>amod:flat</term>
+                  </catDesc>
+               </category>
+               <category xml:id="aux_clitic">
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>aux:clitic</term>
+                  </catDesc>
+               </category>
+               <category xml:id="aux_cnd">
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>aux:cnd</term>
+                  </catDesc>
+               </category>
+               <category xml:id="aux_imp">
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>aux:imp</term>
+                  </catDesc>
+               </category>
+               <category xml:id="ccomp_obj">
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>ccomp:obj</term>
+                  </catDesc>
+               </category>
+               <category xml:id="det_poss">
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>det:poss</term>
+                  </catDesc>
+               </category>
+               <category xml:id="discourse_intj">
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>discourse:intj</term>
+                  </catDesc>
+               </category>
+               <category xml:id="nmod_arg">
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>nmod:arg</term>
+                  </catDesc>
+               </category>
+               <category xml:id="nmod_flat">
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>nmod:flat</term>
+                  </catDesc>
+               </category>
+               <category xml:id="nmod_pred">
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>nmod:pred</term>
+                  </catDesc>
+               </category>
+               <category xml:id="obl_cmpr">
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>obl:cmpr</term>
+                  </catDesc>
+               </category>
+               <category xml:id="parataxis_insert">
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>parataxis:insert</term>
+                  </catDesc>
+               </category>
+               <category xml:id="parataxis_obj">
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>parataxis:obj</term>
+                  </catDesc>
+               </category>
+               <category xml:id="xcomp_pred">
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>xcomp:pred</term>
+                  </catDesc>
+               </category>
+               <category xml:id="xcomp_subj">
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>xcomp:subj</term>
+                  </catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
          <appInfo xmlns:xi="http://www.w3.org/2001/XInclude" n="ParlaMint-BE.ana">
             <application ident="int-tagger" version="1.0">
                <label>INT Tagger, lemmatizer and Tokenizer</label>
@@ -536,7 +1924,7 @@
          </appInfo>
       </encodingDesc>
       <revisionDesc>
-         <change when="2021-03-28">
+         <change when="2021-03-29">
             <name>Tomaž Erjavec</name>: First try.</change>
       </revisionDesc>
    </teiHeader>
