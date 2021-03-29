@@ -17,6 +17,7 @@ sub usage
     print STDERR ("       * validation against ParlaMint RNG schemas in <SchemaDirectory> (with jing)\n");
     print STDERR ("       * link (IDREF) checking (with saxon, check-links.xsl)\n");
     print STDERR ("       * content checking (with saxon, validate-parlamint.xsl)\n");
+    print STDERR ("       - still separately, Dan's UD validation of CoNLL-U files (cf. Makefile)\n");
 }
 use Getopt::Long;
 use FindBin qw($Bin);
