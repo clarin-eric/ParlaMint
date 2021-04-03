@@ -319,12 +319,10 @@
     <xsl:variable name="link" select="$links//tei:link
 				      [matches(@target, concat(' #', $id, '$'))]"/>
     <!-- In TEI : was changed to _ so it doesn't clash with extended pointer prefixes -->
+    <!-- This is a shorthand way of doing it, should follow the link to the category/term -->
     <xsl:value-of select="replace(
 			  substring-after($link/@ana, ':'),
 			  '_', ':')"/>
-    <!-- This is the proper way to do it, but we simplify as above
-	 <xsl:variable name="ana" select="et:prefix-replace($link/@ana, $prefixes)"/>
-	 <xsl:value-of select="substring-after($link/$ana,'#')"/-->
   </xsl:template>
 
   <!-- Output NER feature (for MISC column) -->

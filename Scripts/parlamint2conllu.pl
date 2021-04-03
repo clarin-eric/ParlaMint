@@ -52,8 +52,8 @@ print STDERR "INFO: Converting directory $inDir\n";
 my $rootAnaFile = '';
 my @compAnaFiles = ();
 $inDir =~ s|[^/]+\.xml$||; # If specific (hopefully root) filename give, get rid of it
-$corpusFiles = "$inDir/*.ana.xml";
-foreach $inFile (glob $corpusFiles) {
+$corpusFiles = "$inDir/*.ana.xml $inDir/*/*.ana.xml";
+foreach $inFile (glob($corpusFiles)) {
     if ($inFile =~ m|ParlaMint-..\.ana\.xml|) {$rootAnaFile = $inFile}
     elsif ($inFile =~ m|ParlaMint-.._.+\.ana\.xml|) {push(@compAnaFiles, $inFile)}
 }
