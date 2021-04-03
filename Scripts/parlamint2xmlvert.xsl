@@ -84,7 +84,9 @@
 	<xsl:for-each select="tokenize(@ana, ' ')">
 	  <xsl:if test="key('idr', ., $teiHeader)/
 			ancestor::tei:taxonomy/tei:desc/tei:term = 'Subcorpora'">
-	    <xsl:value-of select="key('idr', ., $teiHeader)//tei:catDesc[@xml:lang='en']/tei:term"/>
+	    <xsl:value-of select="key('idr', ., $teiHeader)//tei:catDesc
+				  [ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']]
+				  /tei:term"/>
 	  </xsl:if>
 	</xsl:for-each>
       </xsl:attribute>
@@ -119,8 +121,11 @@
 	<xsl:variable name="titles" select="tei:teiHeader/tei:fileDesc/
 					    tei:titleStmt/tei:title"/>
 	<xsl:choose>
-	  <xsl:when test="$titles[@type='sub'][@xml:lang='en']">
-	    <xsl:value-of select="$titles[@type='sub'][@xml:lang='en'][1]"/>
+	  <xsl:when test="$titles[@type='sub']
+			  [ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']]">
+	    <xsl:value-of select="$titles[@type='sub']
+				  [ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']]
+				  [1]"/>
 	  </xsl:when>
 	  <xsl:when test="$titles[@type='sub']">
 	    <xsl:value-of select="$titles[@type='sub'][1]"/>
@@ -230,7 +235,8 @@
       <!-- We add language attribute (needed for for BE, which has fr+nl) -->
       <xsl:variable name="lang-code" select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
       <xsl:attribute name="lang" select="$teiHeader//tei:langUsage/tei:language
-					 [@ident=$lang-code][@xml:lang='en']"/>
+					 [@ident=$lang-code]
+					 [ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']]"/>
       <xsl:text>&#10;</xsl:text>
       <xsl:apply-templates/>
     </p>
@@ -411,7 +417,10 @@ And, there is, in theory, also:
 	    <xsl:value-of select="concat(ancestor::tei:TEI/@xml:id, ':', @xml:id)"/>
 	  </xsl:message>
 	</xsl:if>
-	<xsl:value-of select="substring-after($link/@ana,'syn:')"/>
+	<!-- Syntactic relation is the English term in the UD-SYN taxonomy -->
+	<xsl:variable name="relation" select="substring-after($link/@ana,':')"/>
+	<xsl:value-of select="key('id', $relation, $teiHeader)//tei:term
+			      [ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']]"/>
 	<xsl:variable name="target" select="key('id', replace($link/@target,'#(.+?) #.*','$1'))"/>
 	<xsl:choose>
 	  <xsl:when test="$target/self::tei:s">
@@ -485,7 +494,9 @@ And, there is, in theory, also:
     <xsl:for-each select="tokenize($ana, ' ')">
       <xsl:if test="key('idr', ., $teiHeader)/
 		    ancestor::tei:taxonomy/tei:desc/tei:term = 'Types of speakers'">
-	<xsl:value-of select="key('idr', ., $teiHeader)//tei:catDesc[@xml:lang='en']/tei:term"/>
+	<xsl:value-of select="key('idr', ., $teiHeader)//tei:catDesc
+			      [ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']]
+			      /tei:term"/>
       </xsl:if>
     </xsl:for-each>
   </xsl:function>
