@@ -41,7 +41,7 @@
 		<xsl:value-of select="."/>
 	      </xsl:copy>
 	    </xsl:for-each>
-	    <xsl:for-each select="tei:resp[@xml:lang='en']">
+	    <xsl:for-each select="tei:resp[ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']]">
 	      <xsl:copy>
 		<!--xsl:value-of select="concat($corpus, ': ', .)"/-->
 		<xsl:value-of select="."/>
@@ -90,7 +90,8 @@
     <xsl:variable name="quant">
       <xsl:variable name="quants">
 	<xsl:for-each select="$docs/tei:item/document(.)/tei:teiCorpus/tei:teiHeader//
-			      tei:extent/tei:measure[@xml:lang='en'][@unit = $unit]">
+			      tei:extent/tei:measure
+			      [ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']][@unit = $unit]">
 	  <item>
 	    <xsl:value-of select="@quantity"/>
 	  </item>
@@ -140,7 +141,7 @@
 	  <!-- We just want the original sources, not ParlaMint ones -->
 	  <xsl:if test="not(contains(., 'ParlaMint'))">
 	    <bibl>
-	      <xsl:apply-templates select="tei:*[not(@xml:lang) or @xml:lang = 'en']"/>
+	      <xsl:apply-templates select="tei:*[ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']]"/>
 	    </bibl>
 	  </xsl:if>
 	</xsl:for-each>
