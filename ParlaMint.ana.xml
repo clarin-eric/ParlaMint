@@ -52,6 +52,7 @@
             <respStmt xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
                       n="ParlaMint-GB.ana">
                <persName>Matthew Coole</persName>
+               <resp>Parla-CLARIN TEI XML corpus encoding</resp>
             </respStmt>
             <respStmt n="ParlaMint-HR.ana">
                <persName>Nikola Ljubešić</persName>
@@ -100,6 +101,10 @@
                <persName>Nikola Ljubešić</persName>
                <resp>Linguistic annotation</resp>
             </respStmt>
+            <respStmt xmlns:xi="http://www.w3.org/2001/XInclude" n="ParlaMint-TR.ana">
+               <persName>Çağrı Çöltekin</persName>
+               <resp>Data retrieval and conversion to TEI</resp>
+            </respStmt>
             <funder>
                <orgName>The CLARIN research infrastructure</orgName>
             </funder>
@@ -108,9 +113,9 @@
             <edition>2.0</edition>
          </editionStmt>
          <extent>
-            <measure unit="corpora" quantity="11">11 corpora</measure>
-            <measure unit="speeches" quantity="1930522">1,930,522 speeches</measure>
-            <measure unit="words" quantity="252826361">252,826,361 words</measure>
+            <measure unit="corpora" quantity="12">12 corpora</measure>
+            <measure unit="speeches" quantity="2222826">2,222,826 speeches</measure>
+            <measure unit="words" quantity="301688248">301,688,248 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -122,45 +127,28 @@
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2021-03-29">March 29, 2021</date>
+            <date when="2021-04-04">April 4, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <listBibl n="ParlaMint-BE.ana">
                <head>ParlaMint-BE.ana</head>
                <bibl>
                   <title xmlns:xi="http://www.w3.org/2001/XInclude" type="main">Belgian Federal Parliament: Plenary sessions</title>
-                  <publisher xmlns:xi="http://www.w3.org/2001/XInclude">Kamer van volksvertegenwoordigers</publisher>
-                  <idno xmlns:xi="http://www.w3.org/2001/XInclude" type="URI">https://www.dekamer.be/kvvcr/showpage.cfm?section=/cricra&amp;language=nl&amp;cfm=dcricra.cfm?type=plen&amp;cricra=cri&amp;count=all</idno>
-                  <date xmlns:xi="http://www.w3.org/2001/XInclude"
-                        to="2020-08-14"
-                        from="2015-11-12">2015-11-12 - 2020-08-18</date>
                </bibl>
                <bibl>
                   <title xmlns:xi="http://www.w3.org/2001/XInclude" type="main">Belgian Federal Parliament: committee meetings</title>
-                  <publisher xmlns:xi="http://www.w3.org/2001/XInclude">Kamer van volksvertegenwoordigers</publisher>
-                  <idno xmlns:xi="http://www.w3.org/2001/XInclude" type="URI">https://www.dekamer.be/kvvcr/showpage.cfm?section=/cricra&amp;language=nl&amp;cfm=dcricra.cfm?type=comm&amp;cricra=cri&amp;count=all</idno>
-                  <date xmlns:xi="http://www.w3.org/2001/XInclude"
-                        to="2020-08-18"
-                        from="2015-11-12">2015-11-12 - 2020-08-18</date>
                </bibl>
             </listBibl>
             <listBibl n="ParlaMint-BG.ana">
                <head>ParlaMint-BG.ana</head>
                <bibl>
                   <title>Transcripts of plenary sittings of the Parliament of the Republic of Bulgaria</title>
-                  <idno type="URI">https://parlametar.bg/</idno>
-                  <idno type="URI">https://parliament.bg/bg</idno>
-                  <date from="2014-10-27" to="2020-07-31">2014-10-27 - 2020-07-31</date>
                </bibl>
             </listBibl>
             <listBibl n="ParlaMint-CZ.ana">
                <head>ParlaMint-CZ.ana</head>
                <bibl>
                   <title xmlns:xi="http://www.w3.org/2001/XInclude" type="main">Parliament of the Czech Republic, Chamber of Deputies</title>
-                  <idno xmlns:xi="http://www.w3.org/2001/XInclude" type="URI">https://www.psp.cz/eknih/</idno>
-                  <date xmlns:xi="http://www.w3.org/2001/XInclude"
-                        from="2013-11-25"
-                        to="2021-02-19">25.11.2013 - 19.02.2021</date>
                </bibl>
             </listBibl>
             <listBibl n="ParlaMint-DK.ana">
@@ -168,8 +156,6 @@
                <bibl>
                   <title type="main">Hansards of the Danish Parliament</title>
                   <publisher>The Danish Parliament</publisher>
-                  <idno type="URI">https://www.ft.dk/</idno>
-                  <date from="2014-10-07" to="2020-09-29">7.10.2014 - 29.9.2020</date>
                </bibl>
             </listBibl>
             <listBibl n="ParlaMint-GB.ana">
@@ -182,19 +168,12 @@
             </listBibl>
             <listBibl n="ParlaMint-HR.ana">
                <head>ParlaMint-HR.ana</head>
-               <bibl>
-                  <title type="main">Minutes of the National Assembly of the Republic of Croatia</title>
-                  <idno type="URI">https://parlametar.hr/</idno>
-                  <idno type="URI">http://www.sabor.hr/</idno>
-                  <date from="2016-11-15" to="2020-05-18">2016-11-15 - 2020-05-18</date>
-               </bibl>
+               <bibl/>
             </listBibl>
             <listBibl n="ParlaMint-IS.ana">
                <head>ParlaMint-IS.ana</head>
                <bibl>
                   <title>Parliament speeches in the national parliament of Iceland </title>
-                  <idno type="URI">www.athingi.is</idno>
-                  <date from="2015-01-01" to="2020-09-30">2015-01-01 - 2020-09-30</date>
                </bibl>
             </listBibl>
             <listBibl n="ParlaMint-LV.ana">
@@ -202,39 +181,27 @@
             </listBibl>
             <listBibl n="ParlaMint-NL.ana">
                <head>ParlaMint-NL.ana</head>
-               <bibl>
-                  <title type="main">Minutes of the Eerste Kamer of The Netherlands</title>
-                  <idno type="URI">https://www.eerstekamer.nl/</idno>
-                  <date when="2021-02-01">2021-02-01</date>
-               </bibl>
-               <bibl>
-                  <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
-                  <idno type="URI">https://www.tweedekamer.nl/</idno>
-                  <date when="2021-02-01">2021-02-01</date>
-               </bibl>
+               <bibl/>
+               <bibl/>
             </listBibl>
             <listBibl n="ParlaMint-PL.ana">
                <head>ParlaMint-PL.ana</head>
                <bibl>
                   <title type="main">Minutes of the Sejm of the Republic of Poland</title>
-                  <publisher>Kancelaria Sejmu Rzeczypospolitej Polskiej</publisher>
-                  <idno type="URI">http://www.sejm.gov.pl/Sejm9.nsf/page.xsp/archiwum</idno>
-                  <date from="2015-11-12" to="2020-08-14">12.11.2015 - 14.08.2020</date>
                </bibl>
                <bibl>
                   <title type="main">Minutes of the Senat of the Republic of Poland</title>
-                  <publisher>Kancelaria Senatu Rzeczypospolitej Polskiej</publisher>
-                  <idno type="URI">https://www.senat.gov.pl/poprzednie-kadencje/</idno>
-                  <date from="2015-11-12" to="2020-08-18">12.11.2015 - 14.08.2020</date>
                </bibl>
             </listBibl>
             <listBibl n="ParlaMint-SI.ana">
                <head>ParlaMint-SI.ana</head>
                <bibl>
                   <title type="main">Minutes of the National Assembly of the Republic of Slovenia</title>
-                  <idno type="URI">https://www.dz-rs.si</idno>
-                  <date from="2014-08-01" to="2020-07-16">1.8.2014 - 16.7.2020</date>
                </bibl>
+            </listBibl>
+            <listBibl n="ParlaMint-TR.ana">
+               <head>ParlaMint-TR.ana</head>
+               <bibl/>
             </listBibl>
          </sourceDesc>
       </fileDesc>
@@ -257,6 +224,7 @@
                <p n="ParlaMint-NL.ana">No correction of source texts was performed.</p>
                <p n="ParlaMint-PL.ana">No correction of source texts was performed.</p>
                <p n="ParlaMint-SI.ana">No correction of source texts was performed.</p>
+               <p xmlns:xi="http://www.w3.org/2001/XInclude" n="ParlaMint-TR.ana">No correction of source texts was performed. </p>
             </correction>
             <normalization>
                <p xmlns:xi="http://www.w3.org/2001/XInclude" n="ParlaMint-BE.ana">Text has not been normalised, except for spacing.</p>
@@ -272,6 +240,7 @@
 	  these have been removed.</p>
                <p n="ParlaMint-PL.ana">Text has not been normalised, except for spacing.</p>
                <p n="ParlaMint-SI.ana">Text has not been normalised, except for spacing.</p>
+               <p xmlns:xi="http://www.w3.org/2001/XInclude" n="ParlaMint-TR.ana">Text has not been normalised.</p>
             </normalization>
             <hyphenation>
                <p xmlns:xi="http://www.w3.org/2001/XInclude" n="ParlaMint-BE.ana">Hyphenation has not been altered with respect to the source files.</p>
@@ -286,6 +255,7 @@
                <p n="ParlaMint-NL.ana">No end-of-line hyphens were present in the source.</p>
                <p n="ParlaMint-PL.ana">No end-of-line hyphens were present in the source.</p>
                <p n="ParlaMint-SI.ana">No end-of-line hyphens were present in the source.</p>
+               <p xmlns:xi="http://www.w3.org/2001/XInclude" n="ParlaMint-TR.ana">No end-of-line hyphens were present in the source.</p>
             </hyphenation>
             <quotation>
                <p xmlns:xi="http://www.w3.org/2001/XInclude" n="ParlaMint-BE.ana">Quotation marks have been left in the text and are not explicitly marked up.</p>
@@ -300,6 +270,7 @@
                <p n="ParlaMint-NL.ana">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p n="ParlaMint-PL.ana">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p n="ParlaMint-SI.ana">Quotation marks have been left in the text and are not explicitly marked up.</p>
+               <p xmlns:xi="http://www.w3.org/2001/XInclude" n="ParlaMint-TR.ana">Quotation marks have been left in the text and are not explicitly marked up.</p>
             </quotation>
             <segmentation>
                <p xmlns:xi="http://www.w3.org/2001/XInclude" n="ParlaMint-BE.ana">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
@@ -315,35 +286,36 @@
                <p n="ParlaMint-NL.ana">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
                <p n="ParlaMint-PL.ana">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
                <p n="ParlaMint-SI.ana">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+               <p xmlns:xi="http://www.w3.org/2001/XInclude" n="ParlaMint-TR.ana">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
             </segmentation>
          </editorialDecl>
          <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="body" occurs="15679"/>
+               <tagUsage gi="body" occurs="16819"/>
                <tagUsage gi="date" occurs="136137"/>
                <tagUsage gi="desc" occurs="253353"/>
-               <tagUsage gi="div" occurs="25544"/>
+               <tagUsage gi="div" occurs="31176"/>
                <tagUsage gi="email" occurs="73"/>
                <tagUsage gi="gap" occurs="25368"/>
                <tagUsage gi="head" occurs="13167"/>
                <tagUsage gi="incident" occurs="1317"/>
                <tagUsage gi="kinesic" occurs="127137"/>
-               <tagUsage gi="link" occurs="262142129"/>
-               <tagUsage gi="linkGrp" occurs="14031274"/>
-               <tagUsage gi="name" occurs="6398091"/>
-               <tagUsage gi="note" occurs="735841"/>
+               <tagUsage gi="link" occurs="312693770"/>
+               <tagUsage gi="linkGrp" occurs="17251113"/>
+               <tagUsage gi="name" occurs="9553725"/>
+               <tagUsage gi="note" occurs="875591"/>
                <tagUsage gi="num" occurs="265655"/>
                <tagUsage gi="pb" occurs="24933"/>
-               <tagUsage gi="pc" occurs="33622300"/>
+               <tagUsage gi="pc" occurs="41513469"/>
                <tagUsage gi="ref" occurs="33468"/>
-               <tagUsage gi="s" occurs="14031274"/>
-               <tagUsage gi="seg" occurs="5065549"/>
-               <tagUsage gi="text" occurs="15679"/>
+               <tagUsage gi="s" occurs="17251113"/>
+               <tagUsage gi="seg" occurs="6745439"/>
+               <tagUsage gi="text" occurs="16819"/>
                <tagUsage gi="time" occurs="40511"/>
-               <tagUsage gi="u" occurs="1930541"/>
+               <tagUsage gi="u" occurs="3610431"/>
                <tagUsage gi="unit" occurs="3220"/>
                <tagUsage gi="vocal" occurs="96932"/>
-               <tagUsage gi="w" occurs="229241546"/>
+               <tagUsage gi="w" occurs="271902018"/>
             </namespace>
          </tagsDecl>
          <classDecl>
@@ -375,6 +347,8 @@
                   </catDesc>
                   <catDesc corresp="ParlaMint-SI.ana">
                      <term>acl</term>: Clausal modifier of noun (adjectival clause)</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
+                     <term>acl</term>: Clausal modifier of noun (adjectival clause)</catDesc>
                </category>
                <category xml:id="advcl">
                   <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
@@ -400,6 +374,8 @@
                      <term>advcl</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-SI.ana">
+                     <term>advcl</term>: Adverbial clause modifier</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
                      <term>advcl</term>: Adverbial clause modifier</catDesc>
                </category>
                <category xml:id="advmod">
@@ -427,6 +403,8 @@
                   </catDesc>
                   <catDesc corresp="ParlaMint-SI.ana">
                      <term>advmod</term>: Adverbial modifier</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
+                     <term>advmod</term>: Adverbial modifier</catDesc>
                </category>
                <category xml:id="amod">
                   <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
@@ -452,6 +430,8 @@
                      <term>amod</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-SI.ana">
+                     <term>amod</term>: Adjectival modifier</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
                      <term>amod</term>: Adjectival modifier</catDesc>
                </category>
                <category xml:id="appos">
@@ -479,6 +459,8 @@
                   </catDesc>
                   <catDesc corresp="ParlaMint-SI.ana">
                      <term>appos</term>: Appositional modifier</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
+                     <term>appos</term>: Appositional modifier</catDesc>
                </category>
                <category xml:id="aux">
                   <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
@@ -504,6 +486,8 @@
                      <term>aux</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-SI.ana">
+                     <term>aux</term>: Auxiliary</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
                      <term>aux</term>: Auxiliary</catDesc>
                </category>
                <category xml:id="case">
@@ -531,6 +515,8 @@
                   </catDesc>
                   <catDesc corresp="ParlaMint-SI.ana">
                      <term>case</term>: Case marking</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
+                     <term>case</term>: Case marking</catDesc>
                </category>
                <category xml:id="cc">
                   <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
@@ -556,6 +542,8 @@
                      <term>cc</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-SI.ana">
+                     <term>cc</term>: Coordinating conjunction</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
                      <term>cc</term>: Coordinating conjunction</catDesc>
                </category>
                <category xml:id="ccomp">
@@ -583,6 +571,8 @@
                   </catDesc>
                   <catDesc corresp="ParlaMint-SI.ana">
                      <term>ccomp</term>: Clausal complement</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
+                     <term>ccomp</term>: Clausal complement</catDesc>
                </category>
                <category xml:id="cc_preconj">
                   <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
@@ -604,6 +594,8 @@
                      <term>cc:preconj</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-SI.ana">
+                     <term>cc:preconj</term>: Preconjunct</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
                      <term>cc:preconj</term>: Preconjunct</catDesc>
                </category>
                <category xml:id="conj">
@@ -631,6 +623,8 @@
                   </catDesc>
                   <catDesc corresp="ParlaMint-SI.ana">
                      <term>conj</term>: Conjunct</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
+                     <term>conj</term>: Conjunct</catDesc>
                </category>
                <category xml:id="cop">
                   <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
@@ -657,6 +651,8 @@
                   </catDesc>
                   <catDesc corresp="ParlaMint-SI.ana">
                      <term>cop</term>: Copula</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
+                     <term>cop</term>: Copula</catDesc>
                </category>
                <category xml:id="csubj">
                   <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
@@ -681,6 +677,8 @@
                   </catDesc>
                   <catDesc corresp="ParlaMint-SI.ana">
                      <term>csubj</term>: Clausal subject</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
+                     <term>csubj</term>: Clausal subject</catDesc>
                </category>
                <category xml:id="dep">
                   <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
@@ -704,6 +702,8 @@
                      <term>dep</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-SI.ana">
+                     <term>dep</term>: Unspecified dependency</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
                      <term>dep</term>: Unspecified dependency</catDesc>
                </category>
                <category xml:id="det">
@@ -731,6 +731,8 @@
                   </catDesc>
                   <catDesc corresp="ParlaMint-SI.ana">
                      <term>det</term>: Determiner</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
+                     <term>det</term>: Determiner</catDesc>
                </category>
                <category xml:id="discourse">
                   <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
@@ -756,6 +758,8 @@
                      <term>discourse</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-SI.ana">
+                     <term>discourse</term>: Discourse element</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
                      <term>discourse</term>: Discourse element</catDesc>
                </category>
                <category xml:id="expl">
@@ -783,6 +787,8 @@
                   </catDesc>
                   <catDesc corresp="ParlaMint-SI.ana">
                      <term>expl</term>: Expletive</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
+                     <term>expl</term>: Expletive</catDesc>
                </category>
                <category xml:id="fixed">
                   <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
@@ -808,6 +814,8 @@
                      <term>fixed</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-SI.ana">
+                     <term>fixed</term>: Fixed multiword expression</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
                      <term>fixed</term>: Fixed multiword expression</catDesc>
                </category>
                <category xml:id="flat">
@@ -835,6 +843,8 @@
                   </catDesc>
                   <catDesc corresp="ParlaMint-SI.ana">
                      <term>flat</term>: Flat multiword expression</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
+                     <term>flat</term>: Flat multiword expression</catDesc>
                </category>
                <category xml:id="flat_foreign">
                   <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
@@ -857,6 +867,8 @@
                   </catDesc>
                   <catDesc corresp="ParlaMint-SI.ana">
                      <term>flat:foreign</term>: Flat multiword expression: foreign</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
+                     <term>flat:foreign</term>: Flat multiword expression: foreign</catDesc>
                </category>
                <category xml:id="flat_name">
                   <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
@@ -878,6 +890,8 @@
                      <term>flat:name</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-SI.ana">
+                     <term>flat:name</term>: Flat name</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
                      <term>flat:name</term>: Flat name</catDesc>
                </category>
                <category xml:id="iobj">
@@ -905,6 +919,8 @@
                   </catDesc>
                   <catDesc corresp="ParlaMint-SI.ana">
                      <term>iobj</term>: Indirect object</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
+                     <term>iobj</term>: Indirect object</catDesc>
                </category>
                <category xml:id="mark">
                   <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
@@ -930,6 +946,8 @@
                      <term>mark</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-SI.ana">
+                     <term>mark</term>: Marker</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
                      <term>mark</term>: Marker</catDesc>
                </category>
                <category xml:id="nmod">
@@ -957,6 +975,8 @@
                   </catDesc>
                   <catDesc corresp="ParlaMint-SI.ana">
                      <term>nmod</term>: Nominal modifier</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
+                     <term>nmod</term>: Nominal modifier</catDesc>
                </category>
                <category xml:id="nsubj">
                   <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
@@ -982,6 +1002,8 @@
                      <term>nsubj</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-SI.ana">
+                     <term>nsubj</term>: Nominal subject</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
                      <term>nsubj</term>: Nominal subject</catDesc>
                </category>
                <category xml:id="nummod">
@@ -1009,6 +1031,8 @@
                   </catDesc>
                   <catDesc corresp="ParlaMint-SI.ana">
                      <term>nummod</term>: Numeric modifier</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
+                     <term>nummod</term>: Numeric modifier</catDesc>
                </category>
                <category xml:id="obj">
                   <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
@@ -1034,6 +1058,8 @@
                      <term>obj</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-SI.ana">
+                     <term>obj</term>: Object</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
                      <term>obj</term>: Object</catDesc>
                </category>
                <category xml:id="obl">
@@ -1061,6 +1087,8 @@
                   </catDesc>
                   <catDesc corresp="ParlaMint-SI.ana">
                      <term>obl</term>: Oblique nominal</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
+                     <term>obl</term>: Oblique nominal</catDesc>
                </category>
                <category xml:id="parataxis">
                   <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
@@ -1084,6 +1112,8 @@
                      <term>parataxis</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-SI.ana">
+                     <term>parataxis</term>: Parataxis</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
                      <term>parataxis</term>: Parataxis</catDesc>
                </category>
                <category xml:id="punct">
@@ -1111,6 +1141,8 @@
                   </catDesc>
                   <catDesc corresp="ParlaMint-SI.ana">
                      <term>punct</term>: Punctuation</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
+                     <term>punct</term>: Punctuation</catDesc>
                </category>
                <category xml:id="reparandum">
                   <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
@@ -1134,6 +1166,8 @@
                      <term>reparandum</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-SI.ana">
+                     <term>reparandum</term>: Overridden disfluency (here used for program mistakes!)</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
                      <term>reparandum</term>: Overridden disfluency (here used for program mistakes!)</catDesc>
                </category>
                <category xml:id="root">
@@ -1161,6 +1195,8 @@
                   </catDesc>
                   <catDesc corresp="ParlaMint-SI.ana">
                      <term>root</term>: Root</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
+                     <term>root</term>: Root</catDesc>
                </category>
                <category xml:id="xcomp">
                   <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
@@ -1186,6 +1222,8 @@
                      <term>xcomp</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-SI.ana">
+                     <term>xcomp</term>: Open clausal complement</catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
                      <term>xcomp</term>: Open clausal complement</catDesc>
                </category>
                <category xml:id="nsubj_caus">
@@ -1364,6 +1402,8 @@
                   <catDesc corresp="ParlaMint-NL.ana">
                      <term>nmod_poss</term>
                   </catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
+                     <term>nmod:poss</term>: Possessive nominal modifier</catDesc>
                </category>
                <category xml:id="iobj_agent">
                   <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-BE.ana">
@@ -1528,6 +1568,8 @@
                   <catDesc corresp="ParlaMint-PL.ana">
                      <term>compound</term>
                   </catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
+                     <term>compound</term>: compound</catDesc>
                </category>
                <category xml:id="csubj_pass">
                   <catDesc corresp="ParlaMint-BG.ana">
@@ -1558,6 +1600,8 @@
                   <catDesc corresp="ParlaMint-PL.ana">
                      <term>advmod:emph</term>
                   </catDesc>
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
+                     <term>advmod:emph</term>: Emphasising Adverbial modifier</catDesc>
                </category>
                <category xml:id="det_numgov">
                   <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-CZ.ana">
@@ -1731,6 +1775,18 @@
                   <catDesc corresp="ParlaMint-PL.ana">
                      <term>xcomp:subj</term>
                   </catDesc>
+               </category>
+               <category xml:id="compound_lvc">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
+                     <term>compound:lvc</term>: Light verb construction</catDesc>
+               </category>
+               <category xml:id="compound_redup">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
+                     <term>compound:redup</term>: Reduplicated compounds</catDesc>
+               </category>
+               <category xml:id="aux_q">
+                  <catDesc xmlns:xi="http://www.w3.org/2001/XInclude" corresp="ParlaMint-TR.ana">
+                     <term>aux:q</term>: Question particle</catDesc>
                </category>
             </taxonomy>
          </classDecl>
@@ -1922,9 +1978,25 @@
                <desc>Named entity recognition done with the Janes NER program, trained for Slovene and available at <ref target="https://github.com/clarinsi/janes-ner">https://github.com/clarinsi/janes-ner</ref>.</desc>
             </application>
          </appInfo>
+         <appInfo xmlns:xi="http://www.w3.org/2001/XInclude" n="ParlaMint-TR.ana">
+            <application version="2.0" ident="TRmorph">
+               <label>TRmoroph morphological analyzer</label>
+               <desc>Tokenisation, sentence segmentation, lemmatization, POS tagging,
+               morphological features with TRmorph.
+               Available from <ref target="https://github.com/coltekin/trmorph">https://github.com/coltekin/trmorph</ref>.</desc>
+            </application>
+            <application ident="UDPipe" version="2">
+               <label>UDPipe 2 (turkish-imst-ud-2.6-200830 model)</label>
+               <desc>Dependency parsing done with UDPipe 2 <ref target="http://ufal.mff.cuni.cz/udpipe/2">http://ufal.mff.cuni.cz/udpipe/2</ref>with czech-pdt-ud-2.6-200830 model</desc>
+            </application>
+            <application ident="TurkishNER" version="2">
+               <label/>
+               <desc>An LSTM tagger published on GitHub <ref target="https://github.com/snnclsr/ner">https://github.com/snnclsr/ner</ref>.</desc>
+            </application>
+         </appInfo>
       </encodingDesc>
       <revisionDesc>
-         <change when="2021-03-29">
+         <change when="2021-04-04">
             <name>Tomaž Erjavec</name>: First try.</change>
       </revisionDesc>
    </teiHeader>
@@ -1950,4 +2022,6 @@
                href="ParlaMint-PL/ParlaMint-PL.ana.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-SI/ParlaMint-SI.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-TR/ParlaMint-TR.ana.xml"/>
 </teiCorpus>

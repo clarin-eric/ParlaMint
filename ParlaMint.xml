@@ -55,6 +55,7 @@
             <respStmt xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
                       n="ParlaMint-GB">
                <persName>Matthew Coole</persName>
+               <resp>Parla-CLARIN TEI XML corpus encoding</resp>
             </respStmt>
             <respStmt n="ParlaMint-HR">
                <persName>Nikola Ljubešić</persName>
@@ -98,6 +99,10 @@
                <persName>Tomaž Erjavec</persName>
                <resp>ParlaMint TEI XML corpus encoding</resp>
             </respStmt>
+            <respStmt xmlns:xi="http://www.w3.org/2001/XInclude" n="ParlaMint-TR">
+               <persName>Çağrı Çöltekin</persName>
+               <resp>Data retrieval and conversion to TEI</resp>
+            </respStmt>
             <funder>
                <orgName>The CLARIN research infrastructure</orgName>
             </funder>
@@ -106,9 +111,9 @@
             <edition>2.0</edition>
          </editionStmt>
          <extent>
-            <measure unit="corpora" quantity="14">14 corpora</measure>
-            <measure unit="speeches" quantity="2197899">2,197,899 speeches</measure>
-            <measure unit="words" quantity="280473504">280,473,504 words</measure>
+            <measure unit="corpora" quantity="15">15 corpora</measure>
+            <measure unit="speeches" quantity="2490203">2,490,203 speeches</measure>
+            <measure unit="words" quantity="329335391">329,335,391 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -120,45 +125,28 @@
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2021-03-29">March 29, 2021</date>
+            <date when="2021-04-04">April 4, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <listBibl n="ParlaMint-BE">
                <head>ParlaMint-BE</head>
                <bibl>
                   <title xmlns:xi="http://www.w3.org/2001/XInclude" type="main">Belgian Federal Parliament: Plenary sessions</title>
-                  <publisher xmlns:xi="http://www.w3.org/2001/XInclude">Kamer van volksvertegenwoordigers</publisher>
-                  <idno xmlns:xi="http://www.w3.org/2001/XInclude" type="URI">https://www.dekamer.be/kvvcr/showpage.cfm?section=/cricra&amp;language=nl&amp;cfm=dcricra.cfm?type=plen&amp;cricra=cri&amp;count=all</idno>
-                  <date xmlns:xi="http://www.w3.org/2001/XInclude"
-                        to="2020-08-14"
-                        from="2015-11-12">2015-11-12 - 2020-08-18</date>
                </bibl>
                <bibl>
                   <title xmlns:xi="http://www.w3.org/2001/XInclude" type="main">Belgian Federal Parliament: committee meetings</title>
-                  <publisher xmlns:xi="http://www.w3.org/2001/XInclude">Kamer van volksvertegenwoordigers</publisher>
-                  <idno xmlns:xi="http://www.w3.org/2001/XInclude" type="URI">https://www.dekamer.be/kvvcr/showpage.cfm?section=/cricra&amp;language=nl&amp;cfm=dcricra.cfm?type=comm&amp;cricra=cri&amp;count=all</idno>
-                  <date xmlns:xi="http://www.w3.org/2001/XInclude"
-                        to="2020-08-18"
-                        from="2015-11-12">2015-11-12 - 2020-08-18</date>
                </bibl>
             </listBibl>
             <listBibl n="ParlaMint-BG">
                <head>ParlaMint-BG</head>
                <bibl>
                   <title>Transcripts of plenary sittings of the Parliament of the Republic of Bulgaria</title>
-                  <idno type="URI">https://parlametar.bg/</idno>
-                  <idno type="URI">https://parliament.bg/bg</idno>
-                  <date from="2014-10-27" to="2020-07-31">2014-10-27 - 2020-07-31</date>
                </bibl>
             </listBibl>
             <listBibl n="ParlaMint-CZ">
                <head>ParlaMint-CZ</head>
                <bibl>
                   <title xmlns:xi="http://www.w3.org/2001/XInclude" type="main">Parliament of the Czech Republic, Chamber of Deputies</title>
-                  <idno xmlns:xi="http://www.w3.org/2001/XInclude" type="URI">https://www.psp.cz/eknih/</idno>
-                  <date xmlns:xi="http://www.w3.org/2001/XInclude"
-                        from="2013-11-25"
-                        to="2021-02-19">25.11.2013 - 19.02.2021</date>
                </bibl>
             </listBibl>
             <listBibl n="ParlaMint-DK">
@@ -166,16 +154,12 @@
                <bibl>
                   <title type="main">Hansards of the Danish Parliament</title>
                   <publisher>The Danish Parliament</publisher>
-                  <idno type="URI">https://www.ft.dk/</idno>
-                  <date from="2014-10-07" to="2020-09-29">7.10.2014 - 29.9.2020</date>
                </bibl>
             </listBibl>
             <listBibl n="ParlaMint-ES">
                <head>ParlaMint-ES</head>
                <bibl>
                   <title type="main">National assembly of Spain daily sessions</title>
-                  <idno type="URI">http://www.congreso.es</idno>
-                  <date from="2015-01-20" to="2020-12-15">20.1.2015 - 15.12.2020</date>
                </bibl>
             </listBibl>
             <listBibl n="ParlaMint-GB">
@@ -188,35 +172,24 @@
             </listBibl>
             <listBibl n="ParlaMint-HR">
                <head>ParlaMint-HR</head>
-               <bibl>
-                  <title type="main">Minutes of the National Assembly of the Republic of Croatia</title>
-                  <idno type="URI">https://parlametar.hr/</idno>
-                  <idno type="URI">http://www.sabor.hr/</idno>
-                  <date from="2016-11-15" to="2020-05-18">2016-11-15 - 2020-05-18</date>
-               </bibl>
+               <bibl/>
             </listBibl>
             <listBibl n="ParlaMint-HU">
                <head>ParlaMint-HU</head>
                <bibl>
                   <title type="main">Minutes of the National Assembly of Hungary</title>
-                  <idno type="URI">https://https://www.parlament.hu/ </idno>
-                  <date from="2018-02-19" to="2020-12-14">2018. 02. 19. - 2020. 12. 14.</date>
                </bibl>
             </listBibl>
             <listBibl n="ParlaMint-IS">
                <head>ParlaMint-IS</head>
                <bibl>
                   <title>Parliament speeches in the national parliament of Iceland </title>
-                  <idno type="URI">www.athingi.is</idno>
-                  <date from="2015-01-01" to="2020-09-30">2015-01-01 - 2020-09-30</date>
                </bibl>
             </listBibl>
             <listBibl n="ParlaMint-IT">
                <head>ParlaMint-IT</head>
                <bibl>
                   <title type="main">Minutes of the Senate of the Republic of Italy</title>
-                  <idno type="URI">https://www.senato.it</idno>
-                  <date from="2013-03-15" to="2020-11-18">15.3.2013 - 18.11.2020</date>
                </bibl>
             </listBibl>
             <listBibl n="ParlaMint-LV">
@@ -224,39 +197,27 @@
             </listBibl>
             <listBibl n="ParlaMint-NL">
                <head>ParlaMint-NL</head>
-               <bibl>
-                  <title type="main">Minutes of the Eerste Kamer of The Netherlands</title>
-                  <idno type="URI">https://www.eerstekamer.nl/</idno>
-                  <date when="2021-02-01">2021-02-01</date>
-               </bibl>
-               <bibl>
-                  <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
-                  <idno type="URI">https://www.tweedekamer.nl/</idno>
-                  <date when="2021-02-01">2021-02-01</date>
-               </bibl>
+               <bibl/>
+               <bibl/>
             </listBibl>
             <listBibl n="ParlaMint-PL">
                <head>ParlaMint-PL</head>
                <bibl>
                   <title type="main">Minutes of the Sejm of the Republic of Poland</title>
-                  <publisher>Kancelaria Sejmu Rzeczypospolitej Polskiej</publisher>
-                  <idno type="URI">http://www.sejm.gov.pl/Sejm9.nsf/page.xsp/archiwum</idno>
-                  <date from="2015-11-12" to="2020-08-14">12.11.2015 - 14.08.2020</date>
                </bibl>
                <bibl>
                   <title type="main">Minutes of the Senat of the Republic of Poland</title>
-                  <publisher>Kancelaria Senatu Rzeczypospolitej Polskiej</publisher>
-                  <idno type="URI">https://www.senat.gov.pl/poprzednie-kadencje/</idno>
-                  <date from="2015-11-12" to="2020-08-18">12.11.2015 - 14.08.2020</date>
                </bibl>
             </listBibl>
             <listBibl n="ParlaMint-SI">
                <head>ParlaMint-SI</head>
                <bibl>
                   <title type="main">Minutes of the National Assembly of the Republic of Slovenia</title>
-                  <idno type="URI">https://www.dz-rs.si</idno>
-                  <date from="2014-08-01" to="2020-07-16">1.8.2014 - 16.7.2020</date>
                </bibl>
+            </listBibl>
+            <listBibl n="ParlaMint-TR">
+               <head>ParlaMint-TR</head>
+               <bibl/>
             </listBibl>
          </sourceDesc>
       </fileDesc>
@@ -282,6 +243,7 @@
                <p n="ParlaMint-NL">No correction of source texts was performed.</p>
                <p n="ParlaMint-PL">No correction of source texts was performed.</p>
                <p n="ParlaMint-SI">No correction of source texts was performed.</p>
+               <p xmlns:xi="http://www.w3.org/2001/XInclude" n="ParlaMint-TR">No correction of source texts was performed. </p>
             </correction>
             <normalization>
                <p xmlns:xi="http://www.w3.org/2001/XInclude" n="ParlaMint-BE">Text has not been normalised, except for spacing.</p>
@@ -300,6 +262,7 @@
 	  these have been removed.</p>
                <p n="ParlaMint-PL">Text has not been normalised, except for spacing.</p>
                <p n="ParlaMint-SI">Text has not been normalised, except for spacing.</p>
+               <p xmlns:xi="http://www.w3.org/2001/XInclude" n="ParlaMint-TR">Text has not been normalised.</p>
             </normalization>
             <hyphenation>
                <p xmlns:xi="http://www.w3.org/2001/XInclude" n="ParlaMint-BE">Hyphenation has not been altered with respect to the source files.</p>
@@ -317,6 +280,7 @@
                <p n="ParlaMint-NL">No end-of-line hyphens were present in the source.</p>
                <p n="ParlaMint-PL">No end-of-line hyphens were present in the source.</p>
                <p n="ParlaMint-SI">No end-of-line hyphens were present in the source.</p>
+               <p xmlns:xi="http://www.w3.org/2001/XInclude" n="ParlaMint-TR">No end-of-line hyphens were present in the source.</p>
             </hyphenation>
             <quotation>
                <p xmlns:xi="http://www.w3.org/2001/XInclude" n="ParlaMint-BE">Quotation marks have been left in the text and are not explicitly marked up.</p>
@@ -334,6 +298,7 @@
                <p n="ParlaMint-NL">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p n="ParlaMint-PL">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p n="ParlaMint-SI">Quotation marks have been left in the text and are not explicitly marked up.</p>
+               <p xmlns:xi="http://www.w3.org/2001/XInclude" n="ParlaMint-TR">Quotation marks have been left in the text and are not explicitly marked up.</p>
             </quotation>
             <segmentation>
                <p xmlns:xi="http://www.w3.org/2001/XInclude" n="ParlaMint-BE">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
@@ -352,30 +317,31 @@
                <p n="ParlaMint-NL">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
                <p n="ParlaMint-PL">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
                <p n="ParlaMint-SI">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+               <p xmlns:xi="http://www.w3.org/2001/XInclude" n="ParlaMint-TR">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
             </segmentation>
          </editorialDecl>
          <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="body" occurs="17380"/>
+               <tagUsage gi="body" occurs="18520"/>
                <tagUsage gi="desc" occurs="311126"/>
-               <tagUsage gi="div" occurs="42587"/>
+               <tagUsage gi="div" occurs="48219"/>
                <tagUsage gi="gap" occurs="21518"/>
                <tagUsage gi="head" occurs="26071"/>
                <tagUsage gi="incident" occurs="2718"/>
                <tagUsage gi="kinesic" occurs="182478"/>
-               <tagUsage gi="note" occurs="976386"/>
+               <tagUsage gi="note" occurs="1116136"/>
                <tagUsage gi="pb" occurs="41953"/>
                <tagUsage gi="ref" occurs="33396"/>
-               <tagUsage gi="seg" occurs="5441435"/>
-               <tagUsage gi="text" occurs="15872"/>
+               <tagUsage gi="seg" occurs="7121325"/>
+               <tagUsage gi="text" occurs="17012"/>
                <tagUsage gi="time" occurs="20386"/>
-               <tagUsage gi="u" occurs="2063001"/>
+               <tagUsage gi="u" occurs="3742891"/>
                <tagUsage gi="vocal" occurs="105569"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
       <revisionDesc>
-         <change when="2021-03-29">
+         <change when="2021-04-04">
             <name>Tomaž Erjavec</name>: First try.</change>
       </revisionDesc>
    </teiHeader>
@@ -407,4 +373,6 @@
                href="ParlaMint-PL/ParlaMint-PL.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-SI/ParlaMint-SI.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-TR/ParlaMint-TR.xml"/>
 </teiCorpus>
