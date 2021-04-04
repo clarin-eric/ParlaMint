@@ -1,9 +1,3 @@
-meta:
-	$s hdr=../ParlaMint-SI/ParlaMint-SI.xml -xsl:Scripts/parlamint2meta.xsl \
-	ParlaMint-SI/${SI}.xml > test-SI-meta.tsv
-	$s hdr=../ParlaMint-CZ/ParlaMint-CZ.xml -xsl:Scripts/parlamint2meta.xsl \
-	ParlaMint-CZ/${CZ}.xml > test-CZ-meta.tsv
-
 #Generation and validation of CoNLL-U files
 #If you want to use, first do:
 #$ cd Scripts; git clone git@github.com:UniversalDependencies/tools.git
@@ -35,6 +29,90 @@ conllu-six:
 	python3 Scripts/tools/validate.py --lang sl --level 1 ParlaMint-SI/*.conllu
 	python3 Scripts/tools/validate.py --lang sl --level 2 ParlaMint-SI/*.conllu
 	python3 Scripts/tools/validate.py --lang sl --level 3 ParlaMint-SI/*.conllu
+
+#Generation of metadata files
+nohup-meta:
+	nohup time make meta &
+meta:
+	rm -f ParlaMint-BE/*-meta.tsv
+	ls ParlaMint-BE/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s hdr=../ParlaMint-BE/ParlaMint-BE.xml -xsl:Scripts/parlamint2meta.xsl \
+	{} > ParlaMint-BE/{/.}-meta.tsv'
+
+	rm -f ParlaMint-BG/*-meta.tsv
+	ls ParlaMint-BG/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s hdr=../ParlaMint-BG/ParlaMint-BG.xml -xsl:Scripts/parlamint2meta.xsl \
+	{} > ParlaMint-BG/{/.}-meta.tsv'
+
+	rm -f ParlaMint-CZ/*-meta.tsv
+	ls ParlaMint-CZ/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s hdr=../ParlaMint-CZ/ParlaMint-CZ.xml -xsl:Scripts/parlamint2meta.xsl \
+	{} > ParlaMint-CZ/{/.}-meta.tsv'
+
+	rm -f ParlaMint-DK/*-meta.tsv
+	ls ParlaMint-DK/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s hdr=../ParlaMint-DK/ParlaMint-DK.xml -xsl:Scripts/parlamint2meta.xsl \
+	{} > ParlaMint-DK/{/.}-meta.tsv'
+
+	rm -f ParlaMint-FR/*-meta.tsv
+	ls ParlaMint-FR/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s hdr=../ParlaMint-FR/ParlaMint-FR.xml -xsl:Scripts/parlamint2meta.xsl \
+	{} > ParlaMint-FR/{/.}-meta.tsv'
+
+	rm -f ParlaMint-GB/*-meta.tsv
+	ls ParlaMint-GB/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s hdr=../ParlaMint-GB/ParlaMint-GB.xml -xsl:Scripts/parlamint2meta.xsl \
+	{} > ParlaMint-GB/{/.}-meta.tsv'
+
+	rm -f ParlaMint-HR/*-meta.tsv
+	ls ParlaMint-HR/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s hdr=../ParlaMint-HR/ParlaMint-HR.xml -xsl:Scripts/parlamint2meta.xsl \
+	{} > ParlaMint-HR/{/.}-meta.tsv'
+
+	rm -f ParlaMint-HU/*-meta.tsv
+	ls ParlaMint-HU/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s hdr=../ParlaMint-HU/ParlaMint-HU.xml -xsl:Scripts/parlamint2meta.xsl \
+	{} > ParlaMint-HU/{/.}-meta.tsv'
+
+	rm -f ParlaMint-IS/*-meta.tsv
+	ls ParlaMint-IS/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s hdr=../ParlaMint-IS/ParlaMint-IS.xml -xsl:Scripts/parlamint2meta.xsl \
+	{} > ParlaMint-IS/{/.}-meta.tsv'
+
+	rm -f ParlaMint-IT/*-meta.tsv
+	ls ParlaMint-IT/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s hdr=../ParlaMint-IT/ParlaMint-IT.xml -xsl:Scripts/parlamint2meta.xsl \
+	{} > ParlaMint-IT/{/.}-meta.tsv'
+
+	rm -f ParlaMint-LT/*-meta.tsv
+	ls ParlaMint-LT/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s hdr=../ParlaMint-LT/ParlaMint-LT.xml -xsl:Scripts/parlamint2meta.xsl \
+	{} > ParlaMint-LT/{/.}-meta.tsv'
+
+	rm -f ParlaMint-NL/*-meta.tsv
+	ls ParlaMint-NL/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s hdr=../ParlaMint-NL/ParlaMint-NL.xml -xsl:Scripts/parlamint2meta.xsl \
+	{} > ParlaMint-NL/{/.}-meta.tsv'
+
+	rm -f ParlaMint-PL/*-meta.tsv
+	ls ParlaMint-PL/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s hdr=../ParlaMint-PL/ParlaMint-PL.xml -xsl:Scripts/parlamint2meta.xsl \
+	{} > ParlaMint-PL/{/.}-meta.tsv'
+
+	# rm -f ParlaMint-RO/*-meta.tsv
+	# ls ParlaMint-RO/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	# '$s hdr=../ParlaMint-RO/ParlaMint-RO.xml -xsl:Scripts/parlamint2meta.xsl \
+	# {} > ParlaMint-RO/{/.}-meta.tsv'
+
+	rm -f ParlaMint-SI/*-meta.tsv
+	ls ParlaMint-SI/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s hdr=../ParlaMint-SI/ParlaMint-SI.xml -xsl:Scripts/parlamint2meta.xsl \
+	{} > ParlaMint-SI/{/.}-meta.tsv'
+
+	rm -f ParlaMint-TR/*-meta.tsv
+	ls ParlaMint-TR/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s hdr=../ParlaMint-TR/ParlaMint-TR.xml -xsl:Scripts/parlamint2meta.xsl \
+	{} > ParlaMint-TR/{/.}-meta.tsv'
 
 SI = ParlaMint-SI_2018-04-13-SDZ7-Izredna-59
 test-conllu-si:
@@ -141,7 +219,7 @@ test-val:
 	$s -xsl:Scripts/validate-parlamint.xsl ParlaMint-BE/ParlaMint-BE.ana.xml
 	$s -xsl:Scripts/validate-parlamint.xsl ParlaMint-BE/ParlaMint-BE_2015-06-10-54-commissie-ic189x.ana.xml
 # Validate and derive formats for 1 language
-LANG = NL
+LANG = TR
 PREF = /project/corpora/Parla/ParlaMint/ParlaMint
 all-lang:	all-lang-tei all-lang-ana
 all-lang-tei:	val-pc-lang val-lang text-lang meta-lang chars-lang
@@ -163,7 +241,6 @@ meta-lang:
 	ls ParlaMint-${LANG}/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
 	'$s hdr=../ParlaMint-${LANG}/ParlaMint-${LANG}.xml -xsl:Scripts/parlamint2meta.xsl \
 	{} > ParlaMint-${LANG}/{/.}-meta.tsv'
-
 conllu-lang:
 	Scripts/parlamint2conllu.pl ParlaMint-${LANG} ParlaMint-${LANG}
 
