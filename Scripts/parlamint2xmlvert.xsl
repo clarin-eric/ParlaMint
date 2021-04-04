@@ -176,9 +176,9 @@
   <xsl:template match="tei:u[not(@who)]">
     <!--xsl:message select="concat('WARN: u ', @xml:id, ' without @who')"/-->
     <speech id="{@xml:id}">
+      <xsl:attribute name="speaker_role" select="et:u-role(@ana)"/>
       <xsl:attribute name="speaker_id">?</xsl:attribute>
       <xsl:attribute name="speaker_name">?</xsl:attribute>
-      <xsl:attribute name="speaker_role">?</xsl:attribute>
       <xsl:attribute name="speaker_type">?</xsl:attribute>
       <xsl:attribute name="speaker_party">?</xsl:attribute>
       <xsl:attribute name="speaker_party_name">?</xsl:attribute>
@@ -187,6 +187,7 @@
       <xsl:text>&#10;</xsl:text>
       <xsl:apply-templates/>
     </speech>
+    <xsl:text>&#10;</xsl:text>
   </xsl:template>
   
   <xsl:template match="tei:u[@who]">
@@ -194,9 +195,9 @@
       <xsl:variable name="speaker" select="key('idr', @who, $teiHeader)"/>
       <xsl:choose>
 	<xsl:when test="normalize-space($speaker)">
+	  <xsl:attribute name="speaker_role" select="et:u-role(@ana)"/>
 	  <xsl:attribute name="speaker_id" select="$speaker/@xml:id"/>
 	  <xsl:attribute name="speaker_name" select="et:format-name($speaker//tei:persName[1])"/>
-	  <xsl:attribute name="speaker_role" select="et:u-role(@ana)"/>
 	  <xsl:attribute name="speaker_type" select="et:speaker-type($speaker)"/>
 	  <xsl:attribute name="speaker_party" select="et:speaker-party($speaker, 'init')"/>
 	  <xsl:attribute name="speaker_party_name" select="et:speaker-party($speaker, 'yes')"/>
