@@ -1,3 +1,9 @@
+meta:
+	$s hdr=../ParlaMint-SI/ParlaMint-SI.xml -xsl:Scripts/parlamint2meta.xsl \
+	ParlaMint-SI/${SI}.xml > test-SI-meta.tsv
+	$s hdr=../ParlaMint-CZ/ParlaMint-CZ.xml -xsl:Scripts/parlamint2meta.xsl \
+	ParlaMint-CZ/${CZ}.xml > test-CZ-meta.tsv
+
 #Generation and validation of CoNLL-U files
 #If you want to use, first do:
 #$ cd Scripts; git clone git@github.com:UniversalDependencies/tools.git
@@ -11,7 +17,7 @@ conllu:
 	#Scripts/parlamint2conllu.pl ParlaMint-FR ParlaMint-FR 2> ParlaMint-FR/ParlaMint-FR.conllu.log
 	Scripts/parlamint2conllu.pl ParlaMint-GB ParlaMint-GB 2> ParlaMint-GB/ParlaMint-GB.conllu.log
 	Scripts/parlamint2conllu.pl ParlaMint-HR ParlaMint-HR 2> ParlaMint-HR/ParlaMint-HR.conllu.log
-	#Scripts/parlamint2conllu.pl ParlaMint-HU ParlaMint-HU 2> ParlaMint-HU/ParlaMint-HU.conllu.log
+	Scripts/parlamint2conllu.pl ParlaMint-HU ParlaMint-HU 2> ParlaMint-HU/ParlaMint-HU.conllu.log
 	Scripts/parlamint2conllu.pl ParlaMint-IS ParlaMint-IS 2> ParlaMint-IS/ParlaMint-IS.conllu.log
 	#Scripts/parlamint2conllu.pl ParlaMint-IT ParlaMint-IT 2> ParlaMint-IT/ParlaMint-IT.conllu.log
 	#Scripts/parlamint2conllu.pl ParlaMint-LT ParlaMint-LT 2> ParlaMint-LT/ParlaMint-LT.conllu.log
@@ -19,7 +25,7 @@ conllu:
 	Scripts/parlamint2conllu.pl ParlaMint-PL ParlaMint-PL 2> ParlaMint-PL/ParlaMint-PL.conllu.log
 	#Scripts/parlamint2conllu.pl ParlaMint-RO ParlaMint-RO 2> ParlaMint-RO/ParlaMint-RO.conllu.log
 	Scripts/parlamint2conllu.pl ParlaMint-SI ParlaMint-SI 2> ParlaMint-SI/ParlaMint-SI.conllu.log
-	#Scripts/parlamint2conllu.pl ParlaMint-TR ParlaMint-TR 2> ParlaMint-TR/ParlaMint-TR.conllu.log
+	Scripts/parlamint2conllu.pl ParlaMint-TR ParlaMint-TR 2> ParlaMint-TR/ParlaMint-TR.conllu.log
 
 conllu-six:
 	rm -f ParlaMint-SI/*.conllu
@@ -138,8 +144,8 @@ test-val:
 LANG = NL
 PREF = /project/corpora/Parla/ParlaMint/ParlaMint
 all-lang:	all-lang-tei all-lang-ana
-all-lang-tei:	val-pc-lang val-lang text-lang chars-lang
-all-lang-ana:	vert-lang vertana-lang conllu-lang
+all-lang-tei:	val-pc-lang val-lang text-lang meta-lang chars-lang
+all-lang-ana:	vertana-lang conllu-lang
 chars-lang:
 	rm -f ParlaMint-${LANG}/chars-files-${LANG}.txt
 	rm -f ParlaMint-${LANG}/*.tmp
@@ -153,13 +159,16 @@ chars-lang:
 text-lang:
 	ls ParlaMint-${LANG}/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
 	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ParlaMint-${LANG}/{/.}.txt'
+meta-lang:
+	ls ParlaMint-${LANG}/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s hdr=../ParlaMint-${LANG}/ParlaMint-${LANG}.xml -xsl:Scripts/parlamint2meta.xsl \
+	{} > ParlaMint-${LANG}/{/.}-meta.tsv'
+
 conllu-lang:
 	Scripts/parlamint2conllu.pl ParlaMint-${LANG} ParlaMint-${LANG}
 
 vertana-lang:
 	Scripts/parlamint-tei2vert.pl ParlaMint-${LANG}/ParlaMint-${LANG}.ana.xml ParlaMint-${LANG}
-vert-lang:
-	Scripts/parlamint-tei2vert.pl ParlaMint-${LANG}/ParlaMint-${LANG}.xml ParlaMint-${LANG}
 val-lang:
 	Scripts/validate-parlamint.pl Schema 'ParlaMint-${LANG}'
 val-pc-lang:
