@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="ParlaMint-TR_T26-tbmm-2017-10-25.ana"
+     xml:lang="tr"
+     ana="#parla.session #reference">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">The Turkish parliamentary corpus ParlaMint-TR, Session 13 [ParlaMint.ana SAMPLE]</title>
+            <meeting n="26" corresp="#TBMM" ana="#parla.term #TBMM.26">Term 26</meeting>
+            <meeting n="13" ana="#parla.session">13</meeting>
+            <respStmt>
+               <persName>Çağrı Çöltekin</persName>
+               <resp xml:lang="en">Data retrieval, linguistic annotation, and conversion to TEI</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>1.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="300" xml:lang="en">300 speeches</measure>
+            <measure unit="words" quantity="45423" xml:lang="en">45,423 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1405</idno>
+            <pubPlace>
+               <ref target="http://hdl.handle.net/11356/1405">http://hdl.handle.net/11356/1405</ref>
+            </pubPlace>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>. </p>
+            </availability>
+            <date when="2021-04-04">2021-04-04</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="en">Hansards of the Turkish Parliament</title>
+               <publisher xml:lang="en">The Turkish Parliament</publisher>
+               <idno type="URI">https://www.tbmm.gov.tr/</idno>
+               <date when="2017-10-25">2017-10-25</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="5"/>
+               <tagUsage gi="note" occurs="115"/>
+               <tagUsage gi="u" occurs="1324"/>
+               <tagUsage gi="seg" occurs="1324"/>
+               <tagUsage gi="s" occurs="2943"/>
+               <tagUsage gi="name" occurs="2678"/>
+               <tagUsage gi="w" occurs="39758"/>
+               <tagUsage gi="pc" occurs="7314"/>
+               <tagUsage gi="link" occurs="47072"/>
+               <tagUsage gi="linkGrp" occurs="2943"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city">Ankara</name>
+               <name type="country" key="TR">Turkey</name>
+               <date when="2017-10-25" ana="#parla.session">25.10.2017</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="tr">
+      <body>
+         <div type="debateSection">
+            <note type="time">14.01</note>
+            <note type="chair">Pervin Buldan</note>
+            <u ana="#regular" who="#Pervin.Buldan" xml:id="tbmm-2017-10-25s01p001">
+               <seg xml:id="tbmm-2017-10-25s01p001.seg0">
+                  <s xml:id="tbmm-2017-10-25s01p001-000010">
+                     <w msd="UPosTag=ADJ"
+                        lemma="sayın"
+                        xml:id="tbmm-2017-10-25s01p001-000010.t1">Sayın</w>
+                     <w msd="UPosTag=NOUN|Case=Nom|Number=Plur"
+                        lemma="milletvekili"
+                        xml:id="tbmm-2017-10-25s01p001-000010.t2"
+                        join="right">milletvekilleri</w>
+                     <pc msd="UPosTag=PUNCT" xml:id="tbmm-2017-10-25s01p001-000010.t3">,</pc>
+                     <name type="ORG">
+                        <w msd="UPosTag=PROPN|Case=Nom|Number=Sing"
+                           lemma="Türkiye"
+                           xml:id="tbmm-2017-10-25s01p001-000010.t4">Türkiye</w>
+                        <w msd="UPosTag=ADJ"
+                           lemma="büyük"
+                           xml:id="tbmm-2017-10-25s01p001-000010.t5">Büyük</w>
+                        <w msd="UPosTag=NOUN|Case=Nom|Number=Sing"
+                           lemma="millet"
+                           xml:id="tbmm-2017-10-25s01p001-000010.t6">Millet</w>
+                        <w msd="UPosTag=NOUN|Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=2"
+                           lemma="meclis"
+                           xml:id="tbmm-2017-10-25s01p001-000010.t7">Meclisinin</w>
+                     </name>
+                     <w msd="UPosTag=X"
+                        lemma="13’üncü"
+                        xml:id="tbmm-2017-10-25s01p001-000010.t8">13’üncü</w>
+                     <w msd="UPosTag=NOUN|Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=2"
+                        lemma="birleşim"
+                        xml:id="tbmm-2017-10-25s01p001-000010.t9">Birleşimini</w>
+                     <w msd="UPosTag=VERB|Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Tense=Pres"
+                        lemma="aç"
+                        xml:id="tbmm-2017-10-25s01p001-000010.t10"
+                        join="right">açıyorum</w>
+                     <pc msd="UPosTag=PUNCT" xml:id="tbmm-2017-10-25s01p001-000010.t11">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:amod"
+                              target="#tbmm-2017-10-25s01p001-000010.t2 #tbmm-2017-10-25s01p001-000010.t1"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#tbmm-2017-10-25s01p001-000010.t10 #tbmm-2017-10-25s01p001-000010.t2"/>
+                        <link ana="ud-syn:punct"
+                              target="#tbmm-2017-10-25s01p001-000010.t10 #tbmm-2017-10-25s01p001-000010.t3"/>
+                        <link ana="ud-syn:nmod"
+                              target="#tbmm-2017-10-25s01p001-000010.t7 #tbmm-2017-10-25s01p001-000010.t4"/>
+                        <link ana="ud-syn:amod"
+                              target="#tbmm-2017-10-25s01p001-000010.t6 #tbmm-2017-10-25s01p001-000010.t5"/>
+                        <link ana="ud-syn:nmod"
+                              target="#tbmm-2017-10-25s01p001-000010.t7 #tbmm-2017-10-25s01p001-000010.t6"/>
+                        <link ana="ud-syn:obl"
+                              target="#tbmm-2017-10-25s01p001-000010.t10 #tbmm-2017-10-25s01p001-000010.t7"/>
+                        <link ana="ud-syn:det"
+                              target="#tbmm-2017-10-25s01p001-000010.t9 #tbmm-2017-10-25s01p001-000010.t8"/>
+                        <link ana="ud-syn:obl"
+                              target="#tbmm-2017-10-25s01p001-000010.t10 #tbmm-2017-10-25s01p001-000010.t9"/>
+                        <link ana="ud-syn:root"
+                              target="#tbmm-2017-10-25s01p001-000010 #tbmm-2017-10-25s01p001-000010.t10"/>
+                        <link ana="ud-syn:punct"
+                              target="#tbmm-2017-10-25s01p001-000010.t10 #tbmm-2017-10-25s01p001-000010.t11"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <u ana="#regular" who="#Pervin.Buldan" xml:id="tbmm-2017-10-25s01p002">
+               <seg xml:id="tbmm-2017-10-25s01p002.seg0">
+                  <s xml:id="tbmm-2017-10-25s01p002-000010">
+                     <w msd="UPosTag=NOUN|Case=Nom|Number=Sing"
+                        lemma="toplantı"
+                        xml:id="tbmm-2017-10-25s01p002-000010.t1">Toplantı</w>
+                     <w msd="UPosTag=VERB|Aspect=Hab|Evident=Fh|Mood=Gen|Number=Sing|Person=3|Tense=Pres"
+                        lemma="yet"
+                        xml:id="tbmm-2017-10-25s01p002-000010.t2">yeter</w>
+                     <w msd="UPosTag=NOUN|Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3"
+                        lemma="sayı"
+                        xml:id="tbmm-2017-10-25s01p002-000010.t3">sayısı</w>
+                     <w msd="UPosTag=NOUN|Case=Nom|Number=Sing"
+                        lemma="var"
+                        xml:id="tbmm-2017-10-25s01p002-000010.t4"
+                        join="right">var</w>
+                     <w msd="UPosTag=AUX|Mood=Gen|Number=Sing|Person=3"
+                        lemma="i"
+                        xml:id="tbmm-2017-10-25s01p002-000010.t5"
+                        join="right">dır</w>
+                     <pc msd="UPosTag=PUNCT" xml:id="tbmm-2017-10-25s01p002-000010.t6">,</pc>
+                     <w msd="UPosTag=VERB|Case=Dat|Number=Plur|VerbForm=Vnoun"
+                        lemma="görüş"
+                        xml:id="tbmm-2017-10-25s01p002-000010.t7">görüşmelere</w>
+                     <w msd="UPosTag=VERB|Aspect=Prog|Evident=Fh|Mood=Ind|Number=Plur|Person=1|Tense=Pres"
+                        lemma="başlı"
+                        xml:id="tbmm-2017-10-25s01p002-000010.t8"
+                        join="right">başlıyoruz</w>
+                     <pc msd="UPosTag=PUNCT" xml:id="tbmm-2017-10-25s01p002-000010.t9">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:obj"
+                              target="#tbmm-2017-10-25s01p002-000010.t2 #tbmm-2017-10-25s01p002-000010.t1"/>
+                        <link ana="ud-syn:acl"
+                              target="#tbmm-2017-10-25s01p002-000010.t3 #tbmm-2017-10-25s01p002-000010.t2"/>
+                        <link ana="ud-syn:obl"
+                              target="#tbmm-2017-10-25s01p002-000010.t8 #tbmm-2017-10-25s01p002-000010.t3"/>
+                        <link ana="ud-syn:obl"
+                              target="#tbmm-2017-10-25s01p002-000010.t8 #tbmm-2017-10-25s01p002-000010.t4"/>
+                        <link ana="ud-syn:cop"
+                              target="#tbmm-2017-10-25s01p002-000010.t4 #tbmm-2017-10-25s01p002-000010.t5"/>
+                        <link ana="ud-syn:punct"
+                              target="#tbmm-2017-10-25s01p002-000010.t8 #tbmm-2017-10-25s01p002-000010.t6"/>
+                        <link ana="ud-syn:obj"
+                              target="#tbmm-2017-10-25s01p002-000010.t8 #tbmm-2017-10-25s01p002-000010.t7"/>
+                        <link ana="ud-syn:root"
+                              target="#tbmm-2017-10-25s01p002-000010 #tbmm-2017-10-25s01p002-000010.t8"/>
+                        <link ana="ud-syn:punct"
+                              target="#tbmm-2017-10-25s01p002-000010.t8 #tbmm-2017-10-25s01p002-000010.t9"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+         </div>
+         <div type="debateSection">
+            <u ana="#regular" who="#Pervin.Buldan" xml:id="tbmm-2017-10-25s05p482">
+               <seg xml:id="tbmm-2017-10-25s05p482.seg0">
+                  <s xml:id="tbmm-2017-10-25s05p482-000010">
+                     <w msd="UPosTag=VERB|Aspect=Perf|Evident=Nfh|Mood=Gen|Number=Sing|Person=3|Tense=Past|Voice=Pass"
+                        lemma="ertele"
+                        xml:id="tbmm-2017-10-25s05p482-000010.t1"
+                        join="right">Ertelenmiştir</w>
+                     <pc msd="UPosTag=PUNCT" xml:id="tbmm-2017-10-25s05p482-000010.t2">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#tbmm-2017-10-25s05p482-000010 #tbmm-2017-10-25s05p482-000010.t1"/>
+                        <link ana="ud-syn:punct"
+                              target="#tbmm-2017-10-25s05p482-000010.t1 #tbmm-2017-10-25s05p482-000010.t2"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <u ana="#regular" who="#Pervin.Buldan" xml:id="tbmm-2017-10-25s05p483">
+               <seg xml:id="tbmm-2017-10-25s05p483.seg0">
+                  <s xml:id="tbmm-2017-10-25s05p483-000010">
+                     <w msd="UPosTag=PRON|Case=Abl|Number=Sing"
+                        lemma="bu"
+                        xml:id="tbmm-2017-10-25s05p483-000010.t1">Bundan</w>
+                     <w msd="UPosTag=ADP"
+                        lemma="sonra"
+                        xml:id="tbmm-2017-10-25s05p483-000010.t2">sonra</w>
+                     <w msd="UPosTag=CCONJ"
+                        lemma="de"
+                        xml:id="tbmm-2017-10-25s05p483-000010.t3">da</w>
+                     <w msd="UPosTag=VERB|Aspect=Hab|Case=Gen|Evident=Fh|Mood=Gen|Number=Sing|Tense=Pres"
+                        lemma="komisyonla"
+                        xml:id="tbmm-2017-10-25s05p483-000010.t4">komisyonların</w>
+                     <w msd="UPosTag=VERB|Case=Acc|Mood=Pot|Number=Sing|Polarity=Neg|Tense=Fut|VerbForm=Part|Voice=Pass"
+                        lemma="bul"
+                        xml:id="tbmm-2017-10-25s05p483-000010.t5">bulunamayacağı</w>
+                     <w msd="UPosTag=VERB|Case=Abl|Number=Sing|Number[psor]=Sing|Person[psor]=2|Tense=Past|VerbForm=Part|Voice=Pass"
+                        lemma="anla"
+                        xml:id="tbmm-2017-10-25s05p483-000010.t6">anlaşıldığından</w>
+                     <w msd="UPosTag=NOUN|Case=Nom|Number=Sing"
+                        lemma="kanun"
+                        xml:id="tbmm-2017-10-25s05p483-000010.t7">kanun</w>
+                     <w msd="UPosTag=NOUN|Case=Nom|Number=Sing"
+                        lemma="tasarı"
+                        xml:id="tbmm-2017-10-25s05p483-000010.t8">tasarı</w>
+                     <w msd="UPosTag=CCONJ"
+                        lemma="ve"
+                        xml:id="tbmm-2017-10-25s05p483-000010.t9">ve</w>
+                     <w msd="UPosTag=NOUN|Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3"
+                        lemma="teklif"
+                        xml:id="tbmm-2017-10-25s05p483-000010.t10">teklifleri</w>
+                     <w msd="UPosTag=CCONJ"
+                        lemma="ile"
+                        xml:id="tbmm-2017-10-25s05p483-000010.t11">ile</w>
+                     <w msd="UPosTag=VERB|Aspect=Hab|Case=Abl|Evident=Fh|Mood=Gen|Number=Sing|Tense=Pres"
+                        lemma="komisyonla"
+                        xml:id="tbmm-2017-10-25s05p483-000010.t12">komisyonlardan</w>
+                     <w msd="UPosTag=VERB|Tense=Pres|VerbForm=Part"
+                        lemma="gel"
+                        xml:id="tbmm-2017-10-25s05p483-000010.t13">gelen</w>
+                     <w msd="UPosTag=DET|Definite=Def"
+                        lemma="diğer"
+                        xml:id="tbmm-2017-10-25s05p483-000010.t14">diğer</w>
+                     <w msd="UPosTag=NOUN|Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3"
+                        lemma="iş"
+                        xml:id="tbmm-2017-10-25s05p483-000010.t15">işleri</w>
+                     <w msd="UPosTag=NOUN|Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3"
+                        lemma="sıra"
+                        xml:id="tbmm-2017-10-25s05p483-000010.t16">sırasıyla</w>
+                     <w msd="UPosTag=VERB|Case=Nom|Number=Sing|VerbForm=Vnoun"
+                        lemma="görüş"
+                        xml:id="tbmm-2017-10-25s05p483-000010.t17">görüşmek</w>
+                     <w msd="UPosTag=ADP"
+                        lemma="için"
+                        xml:id="tbmm-2017-10-25s05p483-000010.t18">için</w>
+                     <name type="ORG">
+                        <w msd="UPosTag=NUM|Case=Nom|Number=Sing"
+                           lemma="26"
+                           xml:id="tbmm-2017-10-25s05p483-000010.t19">26</w>
+                        <w msd="UPosTag=NOUN|Case=Nom|Number=Sing"
+                           lemma="ekim"
+                           xml:id="tbmm-2017-10-25s05p483-000010.t20">Ekim</w>
+                        <w msd="UPosTag=NUM|Case=Nom|Number=Sing"
+                           lemma="2017"
+                           xml:id="tbmm-2017-10-25s05p483-000010.t21">2017</w>
+                        <w msd="UPosTag=NOUN|Case=Nom|Number=Sing"
+                           lemma="perşembe"
+                           xml:id="tbmm-2017-10-25s05p483-000010.t22">Perşembe</w>
+                        <w msd="UPosTag=NOUN|Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3"
+                           lemma="gün"
+                           xml:id="tbmm-2017-10-25s05p483-000010.t23">günü</w>
+                        <w msd="UPosTag=NOUN|Case=Nom|Number=Sing"
+                           lemma="saat"
+                           xml:id="tbmm-2017-10-25s05p483-000010.t24">saat</w>
+                        <w msd="UPosTag=NUM|NumType=Dist"
+                           lemma="14"
+                           xml:id="tbmm-2017-10-25s05p483-000010.t25">14.</w>
+                     </name>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:obl"
+                              target="#tbmm-2017-10-25s05p483-000010.t5 #tbmm-2017-10-25s05p483-000010.t1"/>
+                        <link ana="ud-syn:case"
+                              target="#tbmm-2017-10-25s05p483-000010.t1 #tbmm-2017-10-25s05p483-000010.t2"/>
+                        <link ana="ud-syn:advmod_emph"
+                              target="#tbmm-2017-10-25s05p483-000010.t1 #tbmm-2017-10-25s05p483-000010.t3"/>
+                        <link ana="ud-syn:obj"
+                              target="#tbmm-2017-10-25s05p483-000010.t5 #tbmm-2017-10-25s05p483-000010.t4"/>
+                        <link ana="ud-syn:acl"
+                              target="#tbmm-2017-10-25s05p483-000010.t24 #tbmm-2017-10-25s05p483-000010.t5"/>
+                        <link ana="ud-syn:acl"
+                              target="#tbmm-2017-10-25s05p483-000010.t24 #tbmm-2017-10-25s05p483-000010.t6"/>
+                        <link ana="ud-syn:nmod"
+                              target="#tbmm-2017-10-25s05p483-000010.t24 #tbmm-2017-10-25s05p483-000010.t7"/>
+                        <link ana="ud-syn:obl"
+                              target="#tbmm-2017-10-25s05p483-000010.t12 #tbmm-2017-10-25s05p483-000010.t8"/>
+                        <link ana="ud-syn:cc"
+                              target="#tbmm-2017-10-25s05p483-000010.t10 #tbmm-2017-10-25s05p483-000010.t9"/>
+                        <link ana="ud-syn:conj"
+                              target="#tbmm-2017-10-25s05p483-000010.t8 #tbmm-2017-10-25s05p483-000010.t10"/>
+                        <link ana="ud-syn:nmod"
+                              target="#tbmm-2017-10-25s05p483-000010.t12 #tbmm-2017-10-25s05p483-000010.t11"/>
+                        <link ana="ud-syn:acl"
+                              target="#tbmm-2017-10-25s05p483-000010.t24 #tbmm-2017-10-25s05p483-000010.t12"/>
+                        <link ana="ud-syn:acl"
+                              target="#tbmm-2017-10-25s05p483-000010.t23 #tbmm-2017-10-25s05p483-000010.t13"/>
+                        <link ana="ud-syn:det"
+                              target="#tbmm-2017-10-25s05p483-000010.t17 #tbmm-2017-10-25s05p483-000010.t14"/>
+                        <link ana="ud-syn:obl"
+                              target="#tbmm-2017-10-25s05p483-000010.t17 #tbmm-2017-10-25s05p483-000010.t15"/>
+                        <link ana="ud-syn:obl"
+                              target="#tbmm-2017-10-25s05p483-000010.t17 #tbmm-2017-10-25s05p483-000010.t16"/>
+                        <link ana="ud-syn:nmod"
+                              target="#tbmm-2017-10-25s05p483-000010.t23 #tbmm-2017-10-25s05p483-000010.t17"/>
+                        <link ana="ud-syn:case"
+                              target="#tbmm-2017-10-25s05p483-000010.t17 #tbmm-2017-10-25s05p483-000010.t18"/>
+                        <link ana="ud-syn:nummod"
+                              target="#tbmm-2017-10-25s05p483-000010.t23 #tbmm-2017-10-25s05p483-000010.t19"/>
+                        <link ana="ud-syn:nmod"
+                              target="#tbmm-2017-10-25s05p483-000010.t23 #tbmm-2017-10-25s05p483-000010.t20"/>
+                        <link ana="ud-syn:nummod"
+                              target="#tbmm-2017-10-25s05p483-000010.t22 #tbmm-2017-10-25s05p483-000010.t21"/>
+                        <link ana="ud-syn:nmod"
+                              target="#tbmm-2017-10-25s05p483-000010.t23 #tbmm-2017-10-25s05p483-000010.t22"/>
+                        <link ana="ud-syn:nmod"
+                              target="#tbmm-2017-10-25s05p483-000010.t24 #tbmm-2017-10-25s05p483-000010.t23"/>
+                        <link ana="ud-syn:obl"
+                              target="#tbmm-2017-10-25s05p483-000010.t25 #tbmm-2017-10-25s05p483-000010.t24"/>
+                        <link ana="ud-syn:root"
+                              target="#tbmm-2017-10-25s05p483-000010 #tbmm-2017-10-25s05p483-000010.t25"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="tbmm-2017-10-25s05p483-000020">
+                     <name type="LOC">
+                        <w msd="UPosTag=X"
+                           lemma="00’te"
+                           xml:id="tbmm-2017-10-25s05p483-000020.t1">00’te</w>
+                     </name>
+                     <w msd="UPosTag=VERB|Case=Nom|Number=Sing|VerbForm=Vnoun|Voice=Pass"
+                        lemma="topla"
+                        xml:id="tbmm-2017-10-25s05p483-000020.t2">toplanmak</w>
+                     <w msd="UPosTag=ADP"
+                        lemma="üzere"
+                        xml:id="tbmm-2017-10-25s05p483-000020.t3">üzere</w>
+                     <w msd="UPosTag=NOUN|Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3"
+                        lemma="birleşim"
+                        xml:id="tbmm-2017-10-25s05p483-000020.t4">birleşimi</w>
+                     <w msd="UPosTag=VERB|Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Cau"
+                        lemma="kapa"
+                        xml:id="tbmm-2017-10-25s05p483-000020.t5"
+                        join="right">kapatıyorum</w>
+                     <pc msd="UPosTag=PUNCT" xml:id="tbmm-2017-10-25s05p483-000020.t6">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:obj"
+                              target="#tbmm-2017-10-25s05p483-000020.t2 #tbmm-2017-10-25s05p483-000020.t1"/>
+                        <link ana="ud-syn:nmod"
+                              target="#tbmm-2017-10-25s05p483-000020.t5 #tbmm-2017-10-25s05p483-000020.t2"/>
+                        <link ana="ud-syn:case"
+                              target="#tbmm-2017-10-25s05p483-000020.t2 #tbmm-2017-10-25s05p483-000020.t3"/>
+                        <link ana="ud-syn:obj"
+                              target="#tbmm-2017-10-25s05p483-000020.t5 #tbmm-2017-10-25s05p483-000020.t4"/>
+                        <link ana="ud-syn:root"
+                              target="#tbmm-2017-10-25s05p483-000020 #tbmm-2017-10-25s05p483-000020.t5"/>
+                        <link ana="ud-syn:punct"
+                              target="#tbmm-2017-10-25s05p483-000020.t5 #tbmm-2017-10-25s05p483-000020.t6"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

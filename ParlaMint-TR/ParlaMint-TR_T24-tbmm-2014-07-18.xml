@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="ParlaMint-TR_T24-tbmm-2014-07-18"
+     xml:lang="tr"
+     ana="#parla.session #reference">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">The Turkish parliamentary corpus ParlaMint-TR, Session 119 [ParlaMint SAMPLE]</title>
+            <meeting n="24" corresp="#TBMM" ana="#parla.term #TBMM.24">Term 24</meeting>
+            <meeting n="119" ana="#parla.session">119</meeting>
+            <respStmt>
+               <persName>Çağrı Çöltekin</persName>
+               <resp xml:lang="en">Data retrieval, linguistic annotation, and conversion to TEI</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>1.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="192" xml:lang="en">192 speeches</measure>
+            <measure unit="words" quantity="36656" xml:lang="en">36,656 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1405</idno>
+            <pubPlace>
+               <ref target="http://hdl.handle.net/11356/1405">http://hdl.handle.net/11356/1405</ref>
+            </pubPlace>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>. </p>
+            </availability>
+            <date when="2021-04-03">2021-04-03</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="en">Hansards of the Turkish Parliament</title>
+               <publisher xml:lang="en">The Turkish Parliament</publisher>
+               <idno type="URI">https://www.tbmm.gov.tr/</idno>
+               <date when="2014-07-18">2014-07-18</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="7"/>
+               <tagUsage gi="note" occurs="82"/>
+               <tagUsage gi="u" occurs="1164"/>
+               <tagUsage gi="seg" occurs="1164"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city">Ankara</name>
+               <name type="country" key="TR">Turkey</name>
+               <date when="2014-07-18" ana="#parla.session">18.07.2014</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="tr">
+      <body>
+         <div type="debateSection">
+            <note type="time">14.03</note>
+            <note type="chair">Sadık Yakut</note>
+            <u ana="#regular" who="#Sadık.Yakut" xml:id="tbmm-2014-07-18s01p001">
+               <seg xml:id="tbmm-2014-07-18s01p001.seg0">Türkiye Büyük Millet Meclisinin 119’uncu Birleşimini açıyorum.</seg>
+            </u>
+            <u ana="#regular" who="#Sadık.Yakut" xml:id="tbmm-2014-07-18s01p002">
+               <seg xml:id="tbmm-2014-07-18s01p002.seg0">Toplantı yeter sayısı vardır, görüşmelere geçiyoruz.</seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+         </div>
+         <div type="debateSection">
+            <u ana="#regular" who="#Sadık.Yakut" xml:id="tbmm-2014-07-18s07p004">
+               <seg xml:id="tbmm-2014-07-18s07p004.seg0">On dakika süre veriyorum.</seg>
+            </u>
+            <note>Elektronik cihazla yoklama yapıldı</note>
+            <u ana="#regular" who="#Sadık.Yakut" xml:id="tbmm-2014-07-18s07p006">
+               <seg xml:id="tbmm-2014-07-18s07p006.seg0">Evet, sayın milletvekilleri, yapılan ikinci yoklamada da toplantı yeter sayısı olmadığından, alınan karar gereğince kanun tasarı ve teklifleri ile komisyonlardan gelen diğer işleri sırasıyla görüşmek için 19 Temmuz 2014 Cumartesi günü saat 14.00’te toplanmak üzere birleşimi kapatıyorum.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

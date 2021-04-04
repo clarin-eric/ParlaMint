@@ -1,0 +1,99 @@
+# newdoc id = tbmm-2011-07-05s01p001
+# newpar id = tbmm-2011-07-05s01p001.seg0
+# sent_id = tbmm-2011-07-05s01p001-000010
+# text = Değerli milletvekilleri, Türkiye Büyük Millet Meclisinin 3’üncü Birleşimini açıyorum.
+1	Değer	Değer	PROPN	_	Number=Sing	3	compound	_	NER=O|SpaceAfter=No
+2	li	li	ADJ	_	_	3	amod	_	NER=O
+3	milletvekilleri	milletvekili	NOUN	_	Case=Nom|Number=Plur	11	nsubj	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	_	_	11	punct	_	NER=O
+5	Türkiye	Türkiye	PROPN	_	Case=Nom|Number=Sing	8	nmod	_	NER=B-ORG
+6	Büyük	büyük	ADJ	_	_	7	amod	_	NER=I-ORG
+7	Millet	millet	NOUN	_	Case=Nom|Number=Sing	8	nmod	_	NER=I-ORG
+8	Meclisinin	meclis	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=2	11	obl	_	NER=I-ORG
+9	3’üncü	3’üncü	X	_	_	10	det	_	NER=O
+10	Birleşimini	birleşim	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=2	11	obl	_	NER=O
+11	açıyorum	aç	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	NER=O|SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	NER=O
+
+# newdoc id = tbmm-2011-07-05s01p002
+# newpar id = tbmm-2011-07-05s01p002.seg0
+# sent_id = tbmm-2011-07-05s01p002-000010
+# text = Toplantı yeter sayısı vardır.
+1	Toplantı	toplantı	NOUN	_	Case=Nom|Number=Sing	2	obj	_	NER=O
+2	yeter	yet	VERB	_	Aspect=Hab|Evident=Fh|Mood=Gen|Number=Sing|Person=3|Tense=Pres	3	acl	_	NER=O
+3	sayısı	sayı	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	NER=O
+4	var	var	NOUN	_	Case=Nom|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+5	dır	i	AUX	_	Mood=Gen|Number=Sing|Person=3	4	cop	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	NER=O
+
+# newdoc id = tbmm-2011-07-05s01p201
+# newpar id = tbmm-2011-07-05s01p201.seg0
+# sent_id = tbmm-2011-07-05s01p201-000010
+# text = Değerli milletvekilleri, bilginize sunduğumuz tezkereyi oylarınıza sunuyorum: Kabul edenler...
+1	Değer	Değer	PROPN	_	Number=Sing	3	compound	_	NER=O|SpaceAfter=No
+2	li	li	ADJ	_	_	3	amod	_	NER=O
+3	milletvekilleri	milletvekili	NOUN	_	Case=Nom|Number=Plur	9	nsubj	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	_	_	9	punct	_	NER=O
+5	bilginize	bilgi	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Plur|Person[psor]=2	6	obj	_	NER=O
+6	sunduğumuz	sun	VERB	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1|Tense=Past|VerbForm=Part	8	nmod	_	NER=O
+7	tezkereyi	tezkere	NOUN	_	Case=Acc|Number=Sing	8	obl	_	NER=O
+8	oylarınıza	oyla	VERB	_	Aspect=Hab|Case=Dat|Evident=Fh|Mood=Gen|Number=Sing|Number[psor]=Plur|Person[psor]=2|Tense=Pres	9	obj	_	NER=O
+9	sunuyorum	sun	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	NER=O|SpaceAfter=No
+10	:	:	PUNCT	_	_	9	punct	_	NER=O
+11	Kabul	kabul	NOUN	_	Case=Nom|Number=Sing	12	obj	_	NER=O
+12	edenler	et	VERB	_	Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part	9	conj	_	NER=O|SpaceAfter=No
+13	...	...	PUNCT	_	_	12	punct	_	NER=O
+
+# sent_id = tbmm-2011-07-05s01p201-000020
+# text = Kabul etmeyenler...
+1	Kabul	kabul	NOUN	_	Case=Nom|Number=Sing	2	obj	_	NER=O
+2	etmeyenler	et	VERB	_	Case=Nom|Number=Plur|Polarity=Neg|Tense=Pres|VerbForm=Part	0	root	_	NER=O|SpaceAfter=No
+3	...	...	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = tbmm-2011-07-05s01p201-000030
+# text = Tezkere kabul edilmiştir.
+1	Tezkere	tezkere	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	NER=B-ORG
+2	kabul	kabul	NOUN	_	Case=Nom|Number=Sing	0	root	_	NER=O
+3	edilmiştir	et	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Gen|Number=Sing|Person=3|Tense=Past|Voice=Pass	2	compound:lvc	_	NER=O|SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = tbmm-2011-07-05s01p201-000040
+# text = Hayırlı ve uğurlu olsun.
+1	Hayırlı	hayırlı	ADJ	_	_	4	amod	_	NER=O
+2	ve	ve	CCONJ	_	_	3	cc	_	NER=O
+3	uğur	uğur	NOUN	_	Number=Sing	1	conj	_	NER=B-PER|SpaceAfter=No
+4	lu	li	ADJ	_	_	0	root	_	NER=O
+5	olsun	ol	AUX	_	Mood=Imp|Number=Sing|Person=3	4	cop	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	NER=O
+
+# newdoc id = tbmm-2011-07-05s01p202
+# newpar id = tbmm-2011-07-05s01p202.seg0
+# sent_id = tbmm-2011-07-05s01p202-000010
+# text = Değerli milletvekilleri, gündemimizdeki konuları görüşmek üzere, 6 Temmuz 2011 Çarşamba günü saat 15.
+1	Değer	Değer	PROPN	_	Number=Sing	3	compound	_	NER=O|SpaceAfter=No
+2	li	li	ADJ	_	_	3	amod	_	NER=O
+3	milletvekilleri	milletvekili	NOUN	_	Case=Nom|Number=Plur	17	nsubj	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	_	_	16	punct	_	NER=O
+5	gündemimizde	gündem	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Plur|Person[psor]=1	8	obl	_	NER=O|SpaceAfter=No
+6	ki	ki	ADJ	_	_	7	amod	_	NER=O
+7	konuları	konu	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	8	obl	_	NER=O
+8	görüşmek	görüş	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	16	acl	_	NER=O
+9	üzere	üzere	ADP	_	_	8	case	_	NER=O|SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	NER=O
+11	6	6	NUM	_	Case=Nom|Number=Sing	12	nummod	_	NER=O
+12	Temmuz	temmuz	NOUN	_	Case=Nom|Number=Sing	15	nmod	_	NER=B-ORG
+13	2011	2011	NUM	_	Case=Nom|Number=Sing	14	nummod	_	NER=I-ORG
+14	Çarşamba	çarşamba	NOUN	_	Case=Nom|Number=Sing	15	nmod	_	NER=I-ORG
+15	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	16	nmod	_	NER=I-ORG
+16	saat	saat	NOUN	_	Case=Nom|Number=Sing	3	conj	_	NER=I-ORG
+17	15.	15	NUM	_	NumType=Dist	0	root	_	NER=I-ORG
+
+# sent_id = tbmm-2011-07-05s01p202-000020
+# text = 00’te toplanmak üzere birleşimi kapatıyorum.
+1	00’te	00’te	X	_	_	2	obj	_	NER=B-LOC
+2	toplanmak	topla	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun|Voice=Pass	5	nmod	_	NER=O
+3	üzere	üzere	ADP	_	_	2	case	_	NER=O
+4	birleşimi	birleşim	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obj	_	NER=O
+5	kapatıyorum	kapa	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Cau	0	root	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	NER=O
+

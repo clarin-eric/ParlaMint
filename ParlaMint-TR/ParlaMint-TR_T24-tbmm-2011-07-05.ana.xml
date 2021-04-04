@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="ParlaMint-TR_T24-tbmm-2011-07-05.ana"
+     xml:lang="tr"
+     ana="#parla.session #reference">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">The Turkish parliamentary corpus ParlaMint-TR, Session 3 [ParlaMint.ana SAMPLE]</title>
+            <meeting n="24" corresp="#TBMM" ana="#parla.term #TBMM.24">Term 24</meeting>
+            <meeting n="3" ana="#parla.session">3</meeting>
+            <respStmt>
+               <persName>Çağrı Çöltekin</persName>
+               <resp xml:lang="en">Data retrieval, linguistic annotation, and conversion to TEI</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>1.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="68" xml:lang="en">68 speeches</measure>
+            <measure unit="words" quantity="10260" xml:lang="en">10,260 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1405</idno>
+            <pubPlace>
+               <ref target="http://hdl.handle.net/11356/1405">http://hdl.handle.net/11356/1405</ref>
+            </pubPlace>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>. </p>
+            </availability>
+            <date when="2021-04-04">2021-04-04</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="en">Hansards of the Turkish Parliament</title>
+               <publisher xml:lang="en">The Turkish Parliament</publisher>
+               <idno type="URI">https://www.tbmm.gov.tr/</idno>
+               <date when="2011-07-05">2011-07-05</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="note" occurs="13"/>
+               <tagUsage gi="u" occurs="202"/>
+               <tagUsage gi="seg" occurs="202"/>
+               <tagUsage gi="s" occurs="483"/>
+               <tagUsage gi="name" occurs="760"/>
+               <tagUsage gi="w" occurs="9648"/>
+               <tagUsage gi="pc" occurs="1208"/>
+               <tagUsage gi="link" occurs="10856"/>
+               <tagUsage gi="linkGrp" occurs="483"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city">Ankara</name>
+               <name type="country" key="TR">Turkey</name>
+               <date when="2011-07-05" ana="#parla.session">05.07.2011</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="tr">
+      <body>
+         <div type="debateSection">
+            <note type="time">15.03</note>
+            <note type="chair">Cemil Çiçek</note>
+            <u ana="#regular" who="#Cemil.Çiçek" xml:id="tbmm-2011-07-05s01p001">
+               <seg xml:id="tbmm-2011-07-05s01p001.seg0">
+                  <s xml:id="tbmm-2011-07-05s01p001-000010">
+                     <w msd="UPosTag=PROPN|Number=Sing"
+                        lemma="Değer"
+                        xml:id="tbmm-2011-07-05s01p001-000010.t1"
+                        join="right">Değer</w>
+                     <w msd="UPosTag=ADJ"
+                        lemma="li"
+                        xml:id="tbmm-2011-07-05s01p001-000010.t2">li</w>
+                     <w msd="UPosTag=NOUN|Case=Nom|Number=Plur"
+                        lemma="milletvekili"
+                        xml:id="tbmm-2011-07-05s01p001-000010.t3"
+                        join="right">milletvekilleri</w>
+                     <pc msd="UPosTag=PUNCT" xml:id="tbmm-2011-07-05s01p001-000010.t4">,</pc>
+                     <name type="ORG">
+                        <w msd="UPosTag=PROPN|Case=Nom|Number=Sing"
+                           lemma="Türkiye"
+                           xml:id="tbmm-2011-07-05s01p001-000010.t5">Türkiye</w>
+                        <w msd="UPosTag=ADJ"
+                           lemma="büyük"
+                           xml:id="tbmm-2011-07-05s01p001-000010.t6">Büyük</w>
+                        <w msd="UPosTag=NOUN|Case=Nom|Number=Sing"
+                           lemma="millet"
+                           xml:id="tbmm-2011-07-05s01p001-000010.t7">Millet</w>
+                        <w msd="UPosTag=NOUN|Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=2"
+                           lemma="meclis"
+                           xml:id="tbmm-2011-07-05s01p001-000010.t8">Meclisinin</w>
+                     </name>
+                     <w msd="UPosTag=X"
+                        lemma="3’üncü"
+                        xml:id="tbmm-2011-07-05s01p001-000010.t9">3’üncü</w>
+                     <w msd="UPosTag=NOUN|Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=2"
+                        lemma="birleşim"
+                        xml:id="tbmm-2011-07-05s01p001-000010.t10">Birleşimini</w>
+                     <w msd="UPosTag=VERB|Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Tense=Pres"
+                        lemma="aç"
+                        xml:id="tbmm-2011-07-05s01p001-000010.t11"
+                        join="right">açıyorum</w>
+                     <pc msd="UPosTag=PUNCT" xml:id="tbmm-2011-07-05s01p001-000010.t12">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:compound"
+                              target="#tbmm-2011-07-05s01p001-000010.t3 #tbmm-2011-07-05s01p001-000010.t1"/>
+                        <link ana="ud-syn:amod"
+                              target="#tbmm-2011-07-05s01p001-000010.t3 #tbmm-2011-07-05s01p001-000010.t2"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#tbmm-2011-07-05s01p001-000010.t11 #tbmm-2011-07-05s01p001-000010.t3"/>
+                        <link ana="ud-syn:punct"
+                              target="#tbmm-2011-07-05s01p001-000010.t11 #tbmm-2011-07-05s01p001-000010.t4"/>
+                        <link ana="ud-syn:nmod"
+                              target="#tbmm-2011-07-05s01p001-000010.t8 #tbmm-2011-07-05s01p001-000010.t5"/>
+                        <link ana="ud-syn:amod"
+                              target="#tbmm-2011-07-05s01p001-000010.t7 #tbmm-2011-07-05s01p001-000010.t6"/>
+                        <link ana="ud-syn:nmod"
+                              target="#tbmm-2011-07-05s01p001-000010.t8 #tbmm-2011-07-05s01p001-000010.t7"/>
+                        <link ana="ud-syn:obl"
+                              target="#tbmm-2011-07-05s01p001-000010.t11 #tbmm-2011-07-05s01p001-000010.t8"/>
+                        <link ana="ud-syn:det"
+                              target="#tbmm-2011-07-05s01p001-000010.t10 #tbmm-2011-07-05s01p001-000010.t9"/>
+                        <link ana="ud-syn:obl"
+                              target="#tbmm-2011-07-05s01p001-000010.t11 #tbmm-2011-07-05s01p001-000010.t10"/>
+                        <link ana="ud-syn:root"
+                              target="#tbmm-2011-07-05s01p001-000010 #tbmm-2011-07-05s01p001-000010.t11"/>
+                        <link ana="ud-syn:punct"
+                              target="#tbmm-2011-07-05s01p001-000010.t11 #tbmm-2011-07-05s01p001-000010.t12"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <u ana="#regular" who="#Cemil.Çiçek" xml:id="tbmm-2011-07-05s01p002">
+               <seg xml:id="tbmm-2011-07-05s01p002.seg0">
+                  <s xml:id="tbmm-2011-07-05s01p002-000010">
+                     <w msd="UPosTag=NOUN|Case=Nom|Number=Sing"
+                        lemma="toplantı"
+                        xml:id="tbmm-2011-07-05s01p002-000010.t1">Toplantı</w>
+                     <w msd="UPosTag=VERB|Aspect=Hab|Evident=Fh|Mood=Gen|Number=Sing|Person=3|Tense=Pres"
+                        lemma="yet"
+                        xml:id="tbmm-2011-07-05s01p002-000010.t2">yeter</w>
+                     <w msd="UPosTag=NOUN|Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3"
+                        lemma="sayı"
+                        xml:id="tbmm-2011-07-05s01p002-000010.t3">sayısı</w>
+                     <w msd="UPosTag=NOUN|Case=Nom|Number=Sing"
+                        lemma="var"
+                        xml:id="tbmm-2011-07-05s01p002-000010.t4"
+                        join="right">var</w>
+                     <w msd="UPosTag=AUX|Mood=Gen|Number=Sing|Person=3"
+                        lemma="i"
+                        xml:id="tbmm-2011-07-05s01p002-000010.t5"
+                        join="right">dır</w>
+                     <pc msd="UPosTag=PUNCT" xml:id="tbmm-2011-07-05s01p002-000010.t6">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:obj"
+                              target="#tbmm-2011-07-05s01p002-000010.t2 #tbmm-2011-07-05s01p002-000010.t1"/>
+                        <link ana="ud-syn:acl"
+                              target="#tbmm-2011-07-05s01p002-000010.t3 #tbmm-2011-07-05s01p002-000010.t2"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#tbmm-2011-07-05s01p002-000010.t4 #tbmm-2011-07-05s01p002-000010.t3"/>
+                        <link ana="ud-syn:root"
+                              target="#tbmm-2011-07-05s01p002-000010 #tbmm-2011-07-05s01p002-000010.t4"/>
+                        <link ana="ud-syn:cop"
+                              target="#tbmm-2011-07-05s01p002-000010.t4 #tbmm-2011-07-05s01p002-000010.t5"/>
+                        <link ana="ud-syn:punct"
+                              target="#tbmm-2011-07-05s01p002-000010.t4 #tbmm-2011-07-05s01p002-000010.t6"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u ana="#regular" who="#Cemil.Çiçek" xml:id="tbmm-2011-07-05s01p201">
+               <seg xml:id="tbmm-2011-07-05s01p201.seg0">
+                  <s xml:id="tbmm-2011-07-05s01p201-000010">
+                     <w msd="UPosTag=PROPN|Number=Sing"
+                        lemma="Değer"
+                        xml:id="tbmm-2011-07-05s01p201-000010.t1"
+                        join="right">Değer</w>
+                     <w msd="UPosTag=ADJ"
+                        lemma="li"
+                        xml:id="tbmm-2011-07-05s01p201-000010.t2">li</w>
+                     <w msd="UPosTag=NOUN|Case=Nom|Number=Plur"
+                        lemma="milletvekili"
+                        xml:id="tbmm-2011-07-05s01p201-000010.t3"
+                        join="right">milletvekilleri</w>
+                     <pc msd="UPosTag=PUNCT" xml:id="tbmm-2011-07-05s01p201-000010.t4">,</pc>
+                     <w msd="UPosTag=NOUN|Case=Dat|Number=Sing|Number[psor]=Plur|Person[psor]=2"
+                        lemma="bilgi"
+                        xml:id="tbmm-2011-07-05s01p201-000010.t5">bilginize</w>
+                     <w msd="UPosTag=VERB|Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1|Tense=Past|VerbForm=Part"
+                        lemma="sun"
+                        xml:id="tbmm-2011-07-05s01p201-000010.t6">sunduğumuz</w>
+                     <w msd="UPosTag=NOUN|Case=Acc|Number=Sing"
+                        lemma="tezkere"
+                        xml:id="tbmm-2011-07-05s01p201-000010.t7">tezkereyi</w>
+                     <w msd="UPosTag=VERB|Aspect=Hab|Case=Dat|Evident=Fh|Mood=Gen|Number=Sing|Number[psor]=Plur|Person[psor]=2|Tense=Pres"
+                        lemma="oyla"
+                        xml:id="tbmm-2011-07-05s01p201-000010.t8">oylarınıza</w>
+                     <w msd="UPosTag=VERB|Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Tense=Pres"
+                        lemma="sun"
+                        xml:id="tbmm-2011-07-05s01p201-000010.t9"
+                        join="right">sunuyorum</w>
+                     <pc msd="UPosTag=PUNCT" xml:id="tbmm-2011-07-05s01p201-000010.t10">:</pc>
+                     <w msd="UPosTag=NOUN|Case=Nom|Number=Sing"
+                        lemma="kabul"
+                        xml:id="tbmm-2011-07-05s01p201-000010.t11">Kabul</w>
+                     <w msd="UPosTag=VERB|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part"
+                        lemma="et"
+                        xml:id="tbmm-2011-07-05s01p201-000010.t12"
+                        join="right">edenler</w>
+                     <pc msd="UPosTag=PUNCT" xml:id="tbmm-2011-07-05s01p201-000010.t13">...</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:compound"
+                              target="#tbmm-2011-07-05s01p201-000010.t3 #tbmm-2011-07-05s01p201-000010.t1"/>
+                        <link ana="ud-syn:amod"
+                              target="#tbmm-2011-07-05s01p201-000010.t3 #tbmm-2011-07-05s01p201-000010.t2"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#tbmm-2011-07-05s01p201-000010.t9 #tbmm-2011-07-05s01p201-000010.t3"/>
+                        <link ana="ud-syn:punct"
+                              target="#tbmm-2011-07-05s01p201-000010.t9 #tbmm-2011-07-05s01p201-000010.t4"/>
+                        <link ana="ud-syn:obj"
+                              target="#tbmm-2011-07-05s01p201-000010.t6 #tbmm-2011-07-05s01p201-000010.t5"/>
+                        <link ana="ud-syn:nmod"
+                              target="#tbmm-2011-07-05s01p201-000010.t8 #tbmm-2011-07-05s01p201-000010.t6"/>
+                        <link ana="ud-syn:obl"
+                              target="#tbmm-2011-07-05s01p201-000010.t8 #tbmm-2011-07-05s01p201-000010.t7"/>
+                        <link ana="ud-syn:obj"
+                              target="#tbmm-2011-07-05s01p201-000010.t9 #tbmm-2011-07-05s01p201-000010.t8"/>
+                        <link ana="ud-syn:root"
+                              target="#tbmm-2011-07-05s01p201-000010 #tbmm-2011-07-05s01p201-000010.t9"/>
+                        <link ana="ud-syn:punct"
+                              target="#tbmm-2011-07-05s01p201-000010.t9 #tbmm-2011-07-05s01p201-000010.t10"/>
+                        <link ana="ud-syn:obj"
+                              target="#tbmm-2011-07-05s01p201-000010.t12 #tbmm-2011-07-05s01p201-000010.t11"/>
+                        <link ana="ud-syn:conj"
+                              target="#tbmm-2011-07-05s01p201-000010.t9 #tbmm-2011-07-05s01p201-000010.t12"/>
+                        <link ana="ud-syn:punct"
+                              target="#tbmm-2011-07-05s01p201-000010.t12 #tbmm-2011-07-05s01p201-000010.t13"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="tbmm-2011-07-05s01p201-000020">
+                     <w msd="UPosTag=NOUN|Case=Nom|Number=Sing"
+                        lemma="kabul"
+                        xml:id="tbmm-2011-07-05s01p201-000020.t1">Kabul</w>
+                     <w msd="UPosTag=VERB|Case=Nom|Number=Plur|Polarity=Neg|Tense=Pres|VerbForm=Part"
+                        lemma="et"
+                        xml:id="tbmm-2011-07-05s01p201-000020.t2"
+                        join="right">etmeyenler</w>
+                     <pc msd="UPosTag=PUNCT" xml:id="tbmm-2011-07-05s01p201-000020.t3">...</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:obj"
+                              target="#tbmm-2011-07-05s01p201-000020.t2 #tbmm-2011-07-05s01p201-000020.t1"/>
+                        <link ana="ud-syn:root"
+                              target="#tbmm-2011-07-05s01p201-000020 #tbmm-2011-07-05s01p201-000020.t2"/>
+                        <link ana="ud-syn:punct"
+                              target="#tbmm-2011-07-05s01p201-000020.t2 #tbmm-2011-07-05s01p201-000020.t3"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="tbmm-2011-07-05s01p201-000030">
+                     <name type="ORG">
+                        <w msd="UPosTag=NOUN|Case=Nom|Number=Sing"
+                           lemma="tezkere"
+                           xml:id="tbmm-2011-07-05s01p201-000030.t1">Tezkere</w>
+                     </name>
+                     <w msd="UPosTag=NOUN|Case=Nom|Number=Sing"
+                        lemma="kabul"
+                        xml:id="tbmm-2011-07-05s01p201-000030.t2">kabul</w>
+                     <w msd="UPosTag=VERB|Aspect=Perf|Evident=Nfh|Mood=Gen|Number=Sing|Person=3|Tense=Past|Voice=Pass"
+                        lemma="et"
+                        xml:id="tbmm-2011-07-05s01p201-000030.t3"
+                        join="right">edilmiştir</w>
+                     <pc msd="UPosTag=PUNCT" xml:id="tbmm-2011-07-05s01p201-000030.t4">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:nmod"
+                              target="#tbmm-2011-07-05s01p201-000030.t2 #tbmm-2011-07-05s01p201-000030.t1"/>
+                        <link ana="ud-syn:root"
+                              target="#tbmm-2011-07-05s01p201-000030 #tbmm-2011-07-05s01p201-000030.t2"/>
+                        <link ana="ud-syn:compound_lvc"
+                              target="#tbmm-2011-07-05s01p201-000030.t2 #tbmm-2011-07-05s01p201-000030.t3"/>
+                        <link ana="ud-syn:punct"
+                              target="#tbmm-2011-07-05s01p201-000030.t2 #tbmm-2011-07-05s01p201-000030.t4"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="tbmm-2011-07-05s01p201-000040">
+                     <w msd="UPosTag=ADJ"
+                        lemma="hayırlı"
+                        xml:id="tbmm-2011-07-05s01p201-000040.t1">Hayırlı</w>
+                     <w msd="UPosTag=CCONJ"
+                        lemma="ve"
+                        xml:id="tbmm-2011-07-05s01p201-000040.t2">ve</w>
+                     <name type="PER">
+                        <w msd="UPosTag=NOUN|Number=Sing"
+                           lemma="uğur"
+                           xml:id="tbmm-2011-07-05s01p201-000040.t3"
+                           join="right">uğur</w>
+                     </name>
+                     <w msd="UPosTag=ADJ"
+                        lemma="li"
+                        xml:id="tbmm-2011-07-05s01p201-000040.t4">lu</w>
+                     <w msd="UPosTag=AUX|Mood=Imp|Number=Sing|Person=3"
+                        lemma="ol"
+                        xml:id="tbmm-2011-07-05s01p201-000040.t5"
+                        join="right">olsun</w>
+                     <pc msd="UPosTag=PUNCT" xml:id="tbmm-2011-07-05s01p201-000040.t6">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:amod"
+                              target="#tbmm-2011-07-05s01p201-000040.t4 #tbmm-2011-07-05s01p201-000040.t1"/>
+                        <link ana="ud-syn:cc"
+                              target="#tbmm-2011-07-05s01p201-000040.t3 #tbmm-2011-07-05s01p201-000040.t2"/>
+                        <link ana="ud-syn:conj"
+                              target="#tbmm-2011-07-05s01p201-000040.t1 #tbmm-2011-07-05s01p201-000040.t3"/>
+                        <link ana="ud-syn:root"
+                              target="#tbmm-2011-07-05s01p201-000040 #tbmm-2011-07-05s01p201-000040.t4"/>
+                        <link ana="ud-syn:cop"
+                              target="#tbmm-2011-07-05s01p201-000040.t4 #tbmm-2011-07-05s01p201-000040.t5"/>
+                        <link ana="ud-syn:punct"
+                              target="#tbmm-2011-07-05s01p201-000040.t4 #tbmm-2011-07-05s01p201-000040.t6"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <u ana="#regular" who="#Cemil.Çiçek" xml:id="tbmm-2011-07-05s01p202">
+               <seg xml:id="tbmm-2011-07-05s01p202.seg0">
+                  <s xml:id="tbmm-2011-07-05s01p202-000010">
+                     <w msd="UPosTag=PROPN|Number=Sing"
+                        lemma="Değer"
+                        xml:id="tbmm-2011-07-05s01p202-000010.t1"
+                        join="right">Değer</w>
+                     <w msd="UPosTag=ADJ"
+                        lemma="li"
+                        xml:id="tbmm-2011-07-05s01p202-000010.t2">li</w>
+                     <w msd="UPosTag=NOUN|Case=Nom|Number=Plur"
+                        lemma="milletvekili"
+                        xml:id="tbmm-2011-07-05s01p202-000010.t3"
+                        join="right">milletvekilleri</w>
+                     <pc msd="UPosTag=PUNCT" xml:id="tbmm-2011-07-05s01p202-000010.t4">,</pc>
+                     <w msd="UPosTag=NOUN|Case=Loc|Number=Sing|Number[psor]=Plur|Person[psor]=1"
+                        lemma="gündem"
+                        xml:id="tbmm-2011-07-05s01p202-000010.t5"
+                        join="right">gündemimizde</w>
+                     <w msd="UPosTag=ADJ"
+                        lemma="ki"
+                        xml:id="tbmm-2011-07-05s01p202-000010.t6">ki</w>
+                     <w msd="UPosTag=NOUN|Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3"
+                        lemma="konu"
+                        xml:id="tbmm-2011-07-05s01p202-000010.t7">konuları</w>
+                     <w msd="UPosTag=VERB|Case=Nom|Number=Sing|VerbForm=Vnoun"
+                        lemma="görüş"
+                        xml:id="tbmm-2011-07-05s01p202-000010.t8">görüşmek</w>
+                     <w msd="UPosTag=ADP"
+                        lemma="üzere"
+                        xml:id="tbmm-2011-07-05s01p202-000010.t9"
+                        join="right">üzere</w>
+                     <pc msd="UPosTag=PUNCT" xml:id="tbmm-2011-07-05s01p202-000010.t10">,</pc>
+                     <w msd="UPosTag=NUM|Case=Nom|Number=Sing"
+                        lemma="6"
+                        xml:id="tbmm-2011-07-05s01p202-000010.t11">6</w>
+                     <name type="ORG">
+                        <w msd="UPosTag=NOUN|Case=Nom|Number=Sing"
+                           lemma="temmuz"
+                           xml:id="tbmm-2011-07-05s01p202-000010.t12">Temmuz</w>
+                        <w msd="UPosTag=NUM|Case=Nom|Number=Sing"
+                           lemma="2011"
+                           xml:id="tbmm-2011-07-05s01p202-000010.t13">2011</w>
+                        <w msd="UPosTag=NOUN|Case=Nom|Number=Sing"
+                           lemma="çarşamba"
+                           xml:id="tbmm-2011-07-05s01p202-000010.t14">Çarşamba</w>
+                        <w msd="UPosTag=NOUN|Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3"
+                           lemma="gün"
+                           xml:id="tbmm-2011-07-05s01p202-000010.t15">günü</w>
+                        <w msd="UPosTag=NOUN|Case=Nom|Number=Sing"
+                           lemma="saat"
+                           xml:id="tbmm-2011-07-05s01p202-000010.t16">saat</w>
+                        <w msd="UPosTag=NUM|NumType=Dist"
+                           lemma="15"
+                           xml:id="tbmm-2011-07-05s01p202-000010.t17">15.</w>
+                     </name>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:compound"
+                              target="#tbmm-2011-07-05s01p202-000010.t3 #tbmm-2011-07-05s01p202-000010.t1"/>
+                        <link ana="ud-syn:amod"
+                              target="#tbmm-2011-07-05s01p202-000010.t3 #tbmm-2011-07-05s01p202-000010.t2"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#tbmm-2011-07-05s01p202-000010.t17 #tbmm-2011-07-05s01p202-000010.t3"/>
+                        <link ana="ud-syn:punct"
+                              target="#tbmm-2011-07-05s01p202-000010.t16 #tbmm-2011-07-05s01p202-000010.t4"/>
+                        <link ana="ud-syn:obl"
+                              target="#tbmm-2011-07-05s01p202-000010.t8 #tbmm-2011-07-05s01p202-000010.t5"/>
+                        <link ana="ud-syn:amod"
+                              target="#tbmm-2011-07-05s01p202-000010.t7 #tbmm-2011-07-05s01p202-000010.t6"/>
+                        <link ana="ud-syn:obl"
+                              target="#tbmm-2011-07-05s01p202-000010.t8 #tbmm-2011-07-05s01p202-000010.t7"/>
+                        <link ana="ud-syn:acl"
+                              target="#tbmm-2011-07-05s01p202-000010.t16 #tbmm-2011-07-05s01p202-000010.t8"/>
+                        <link ana="ud-syn:case"
+                              target="#tbmm-2011-07-05s01p202-000010.t8 #tbmm-2011-07-05s01p202-000010.t9"/>
+                        <link ana="ud-syn:punct"
+                              target="#tbmm-2011-07-05s01p202-000010.t8 #tbmm-2011-07-05s01p202-000010.t10"/>
+                        <link ana="ud-syn:nummod"
+                              target="#tbmm-2011-07-05s01p202-000010.t12 #tbmm-2011-07-05s01p202-000010.t11"/>
+                        <link ana="ud-syn:nmod"
+                              target="#tbmm-2011-07-05s01p202-000010.t15 #tbmm-2011-07-05s01p202-000010.t12"/>
+                        <link ana="ud-syn:nummod"
+                              target="#tbmm-2011-07-05s01p202-000010.t14 #tbmm-2011-07-05s01p202-000010.t13"/>
+                        <link ana="ud-syn:nmod"
+                              target="#tbmm-2011-07-05s01p202-000010.t15 #tbmm-2011-07-05s01p202-000010.t14"/>
+                        <link ana="ud-syn:nmod"
+                              target="#tbmm-2011-07-05s01p202-000010.t16 #tbmm-2011-07-05s01p202-000010.t15"/>
+                        <link ana="ud-syn:conj"
+                              target="#tbmm-2011-07-05s01p202-000010.t3 #tbmm-2011-07-05s01p202-000010.t16"/>
+                        <link ana="ud-syn:root"
+                              target="#tbmm-2011-07-05s01p202-000010 #tbmm-2011-07-05s01p202-000010.t17"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="tbmm-2011-07-05s01p202-000020">
+                     <name type="LOC">
+                        <w msd="UPosTag=X"
+                           lemma="00’te"
+                           xml:id="tbmm-2011-07-05s01p202-000020.t1">00’te</w>
+                     </name>
+                     <w msd="UPosTag=VERB|Case=Nom|Number=Sing|VerbForm=Vnoun|Voice=Pass"
+                        lemma="topla"
+                        xml:id="tbmm-2011-07-05s01p202-000020.t2">toplanmak</w>
+                     <w msd="UPosTag=ADP"
+                        lemma="üzere"
+                        xml:id="tbmm-2011-07-05s01p202-000020.t3">üzere</w>
+                     <w msd="UPosTag=NOUN|Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3"
+                        lemma="birleşim"
+                        xml:id="tbmm-2011-07-05s01p202-000020.t4">birleşimi</w>
+                     <w msd="UPosTag=VERB|Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Cau"
+                        lemma="kapa"
+                        xml:id="tbmm-2011-07-05s01p202-000020.t5"
+                        join="right">kapatıyorum</w>
+                     <pc msd="UPosTag=PUNCT" xml:id="tbmm-2011-07-05s01p202-000020.t6">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:obj"
+                              target="#tbmm-2011-07-05s01p202-000020.t2 #tbmm-2011-07-05s01p202-000020.t1"/>
+                        <link ana="ud-syn:nmod"
+                              target="#tbmm-2011-07-05s01p202-000020.t5 #tbmm-2011-07-05s01p202-000020.t2"/>
+                        <link ana="ud-syn:case"
+                              target="#tbmm-2011-07-05s01p202-000020.t2 #tbmm-2011-07-05s01p202-000020.t3"/>
+                        <link ana="ud-syn:obj"
+                              target="#tbmm-2011-07-05s01p202-000020.t5 #tbmm-2011-07-05s01p202-000020.t4"/>
+                        <link ana="ud-syn:root"
+                              target="#tbmm-2011-07-05s01p202-000020 #tbmm-2011-07-05s01p202-000020.t5"/>
+                        <link ana="ud-syn:punct"
+                              target="#tbmm-2011-07-05s01p202-000020.t5 #tbmm-2011-07-05s01p202-000020.t6"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
