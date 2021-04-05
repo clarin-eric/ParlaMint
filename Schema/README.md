@@ -2,7 +2,7 @@
 
 The Parlamint XML schemas are currently written directly in RelaxNG.
 They specialise the very general
-(Parla-CLARIN)[https://github.com/clarin-eric/ParlaMint] TEI schemas
+[Parla-CLARIN](https://github.com/clarin-eric/ParlaMint) TEI schemas
 for Parliamentary corpora so that they become much more interoperable.
 
 Each ParlaMint corpus is assumed to be marked by the country code and consist of the
@@ -24,7 +24,7 @@ This gives four schemas for validation, however, note that the schemas
 import definitions from each other, so they should be copied
 together. The schemas are the following:
 
-* ParlaMint-TEI.rng: validation of "plain text" corpus component files
+* [ParlaMint-TEI.rng](ParlaMint-TEI.rng): validation of "plain text" corpus component files
 * ParlaMint-teiCorpus.rng: "plain text" root files; imports ParlaMint-TEI.rng
 * ParlaMint-TEI.ana.rng: linguistically annotated component
   files; imports ParlaMint-TEI.rng
