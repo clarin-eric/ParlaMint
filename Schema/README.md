@@ -25,14 +25,14 @@ import definitions from each other, so they should be copied
 together. The schemas are the following:
 
 * [ParlaMint-TEI.rng](ParlaMint-TEI.rng): validation of "plain text" corpus component files
-* ParlaMint-teiCorpus.rng: "plain text" root files; imports ParlaMint-TEI.rng
-* ParlaMint-TEI.ana.rng: linguistically annotated component
+* [ParlaMint-teiCorpus.rng](ParlaMint-teiCorpus.rng): "plain text" root files; imports ParlaMint-TEI.rng
+* [ParlaMint-TEI.ana.rng](ParlaMint-TEI.ana.rng): linguistically annotated component
   files; imports ParlaMint-TEI.rng
-* ParlaMint-teiCorpus.ana.rng: annotated root
+* [ParlaMint-teiCorpus.ana.rng](ParlaMint-teiCorpus.ana.rng): annotated root
   files; imports ParlaMint-teiCorpus.rng
 
 So, for the ParlaMint corpus of country XX using standard ParlaMint names for directories and
-files, validation using jing installed at /usr/share/java/ would be:
+files, validation using `jing` installed at `/usr/share/java/` would be:
 
 ```
 $ java -jar /usr/share/java/jing.jar ParlaMint-teiCorpus.rng     ParlaMint-XX/ParlaMint-XX.xml
@@ -59,9 +59,10 @@ The schemas have also been converted with `trang` into other XML schema language
 * .xsd, i.e. W3C schema language (but note that not all restrictions of the original
   RelaxNG schema can be modelled in XSD)
 
-#Validation with XSLT
+## Validation with XSLT
 
-RelaxNG schemas constrain the XML structure of the corpus, but they do not check the ID references
-or more content harmonisation, e.g. that each root should have the main title in English as e.g.
-"Belgian parliamentary corpus ParlaMint-BE [ParlaMint]", or that it isn't allowed to have leading or trailing
-whitespace, esp. in the metadata. Some of these are checked by XSLT scripts in the ../Scripts directory.
+RelaxNG schemas constrain the XML structure of the corpus, but they do not check the ID
+references or more content harmonisation, e.g. that each root should have the main title
+in English as e.g.  "Belgian parliamentary corpus ParlaMint-BE [ParlaMint]", or that it
+isn't allowed to have leading or trailing whitespace, esp. in the metadata. Some of
+these are checked by XSLT scripts in the [Scripts](../Scripts) directory.
