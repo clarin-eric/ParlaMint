@@ -12,9 +12,9 @@ script. Examples of usage are also given in the repository
   runs all the validation scripts below
 * [validate-parlamint.xsl](validate-parlamint.xsl): checks for common
   encoding or metadata mistakes
-* [check-links.xsl](check-links.xsl):checks that all IDs that are
-* referred to actually exist
-  
+* [check-links.xsl](check-links.xsl):checks that all IDs that are referred to actually exist
+* [parlamint2root.xsl](parlamint2root.xsl): not strictly validation (altough the result can be used for such), makes the ParlaMint corpus root files [ParlaMint.xml](../ParlaMint.xml) and [ParlaMint.ana.xml](../ParlaMint.ana.xml) on the basis of the individual corpora roots.
+
 ## Conversion
 
 * [parlamint-tei2text.xsl](parlamint-tei2text.xsl): transforms a ParlaMint corpus component file to plain text
