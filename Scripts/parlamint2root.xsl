@@ -201,11 +201,8 @@
     </xsl:for-each>
   </xsl:template>
   
-  <xsl:template match="tei:revisionDesc">
-    <xsl:copy>
-      <xsl:apply-templates select="@*"/>
-      <change when="{$today}"><name>Tomaž Erjavec</name>: First try.</change>
-    </xsl:copy>
+  <xsl:template match="tei:change/@when">
+    <xsl:attribute name="when" select="$today"/>
   </xsl:template>
     
   <xsl:template match="*">
