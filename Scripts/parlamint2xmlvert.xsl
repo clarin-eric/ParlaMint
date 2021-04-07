@@ -167,7 +167,7 @@
       <xsl:text>&#10;</xsl:text>
       <xsl:value-of select="concat($note-open, normalize-space(.), $note-close)"/>
       <!-- Introduce $COLUMNS & call-template! -->
-      <xsl:text>&#9;_&#9;_&#9;_&#9;_&#9;_&#9;_&#9;_&#9;_&#9;_&#9;_&#10;</xsl:text>
+      <xsl:text>&#9;-&#9;-&#9;-&#9;-&#9;-&#9;-&#9;-&#9;-&#9;-&#9;-&#10;</xsl:text>
 
     </note>
     <xsl:text>&#10;</xsl:text>
@@ -613,7 +613,7 @@ And, there is, in theory, also:
       <xsl:when test="normalize-space($politicalParties)">
 	<xsl:value-of select="replace($politicalParties, ';$', '')"/>
       </xsl:when>
-      <xsl:otherwise>_</xsl:otherwise>
+      <xsl:otherwise>-</xsl:otherwise>
     </xsl:choose>
   </xsl:function>
   
@@ -744,7 +744,7 @@ And, there is, in theory, also:
 	  <xsl:value-of select="replace($fs, '\|', ' ')"/>
 	</xsl:when>
 	<xsl:otherwise>
-	  <xsl:text>_</xsl:text>
+	  <xsl:text>-</xsl:text>
 	</xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
