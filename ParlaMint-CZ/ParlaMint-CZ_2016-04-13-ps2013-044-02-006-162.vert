@@ -2,7 +2,7 @@
 <note type="speaker">
 /Místopředseda PSP Vojtěch Filip/	_	_	_	_	_	_	_	_	_	_
 </note>
-<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u1" speaker_role="Chairperson" speaker_id="VojtechFilip.1955" speaker_name="Filip, Vojtěch" speaker_type="MP" speaker_party="KSČM" speaker_party_name="Poslanecký klub Komunistické strany Čech a Moravy" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u1" speaker_id="VojtechFilip.1955" speaker_name="Filip, Vojtěch" speaker_role="Chairperson" speaker_type="MP" speaker_party="KSČM" speaker_party_name="Poslanecký klub Komunistické strany Čech a Moravy" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u1.p1" lang="Czech">
 <s id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u1.p1.s1">
 162	162	162	NUM	NumForm=Digit NumType=Card	w1	root	-	-	-	-
@@ -113,8 +113,8 @@ tisku	tisku	tisk	NOUN	Animacy=Inan Case=Loc Gender=Masc Number=Sing Polarity=Pos
 2	2	2	NUM	NumForm=Digit NumType=Card	w13	compound	627	NUM	NumForm=Digit NumType=Card	w11
 <g/>
 ,	,	,	PUNCT	_	w14	punct	doručený	ADJ	Aspect=Perf Gender=Masc Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w17
-který	který	který	DET	Case=Nom Gender=Masc Number=Sing PronType=Int,Rel	w15	nsubj:pass	doručený	ADJ	Aspect=Perf Gender=Masc Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w17
-byl	byl	být	AUX	Gender=Masc Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w16	aux:pass	doručený	ADJ	Aspect=Perf Gender=Masc Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w17
+který	který	který	DET	Case=Nom Gender=Masc Number=Sing PronType=Int,Rel	w15	nsubj_pass	doručený	ADJ	Aspect=Perf Gender=Masc Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w17
+byl	byl	být	AUX	Gender=Masc Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w16	aux_pass	doručený	ADJ	Aspect=Perf Gender=Masc Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w17
 doručen	doručen	doručený	ADJ	Aspect=Perf Gender=Masc Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w17	amod	tisk	NOUN	Animacy=Inan Case=Loc Gender=Masc Number=Sing Polarity=Pos	w10
 dne	dne	den	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing Polarity=Pos	w18	obl	doručený	ADJ	Aspect=Perf Gender=Masc Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w17
 2	2	2	NUM	NumForm=Digit NumType=Card	w19	nummod	březen	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing Polarity=Pos	w21
@@ -125,10 +125,10 @@ března	března	březen	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing Polar
 <g/>
 ,	,	,	PUNCT	_	w23	punct	doručený	ADJ	Aspect=Perf Gender=Neut Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w29
 a	a	a	CCONJ	_	w24	cc	doručený	ADJ	Aspect=Perf Gender=Neut Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w29
-usnesení	usnesení	usnesení	NOUN	Case=Nom Gender=Neut Number=Sing Polarity=Pos	w25	nsubj:pass	doručený	ADJ	Aspect=Perf Gender=Neut Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w29
+usnesení	usnesení	usnesení	NOUN	Case=Nom Gender=Neut Number=Sing Polarity=Pos	w25	nsubj_pass	doručený	ADJ	Aspect=Perf Gender=Neut Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w29
 garančního	garančního	garanční	ADJ	Animacy=Inan Case=Gen Degree=Pos Gender=Masc Number=Sing Polarity=Pos	w26	amod	výbor	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing Polarity=Pos	w27
 výboru	výboru	výbor	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing Polarity=Pos	w27	nmod	usnesení	NOUN	Case=Nom Gender=Neut Number=Sing Polarity=Pos	w25
-bylo	bylo	být	AUX	Gender=Neut Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w28	aux:pass	doručený	ADJ	Aspect=Perf Gender=Neut Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w29
+bylo	bylo	být	AUX	Gender=Neut Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w28	aux_pass	doručený	ADJ	Aspect=Perf Gender=Neut Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w29
 doručeno	doručeno	doručený	ADJ	Aspect=Perf Gender=Neut Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w29	conj	uvedený	ADJ	Animacy=Inan Gender=Fem,Masc Number=Plur Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w7
 jako	jako	jako	SCONJ	_	w30	mark	tisk	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing Polarity=Pos	w32
 sněmovní	sněmovní	sněmovní	ADJ	Animacy=Inan Case=Nom Degree=Pos Gender=Masc Number=Sing Polarity=Pos	w31	amod	tisk	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing Polarity=Pos	w32
@@ -176,7 +176,7 @@ slovo	slovo	slovo	NOUN	Case=Acc Gender=Neut Number=Sing Polarity=Pos	w7	obj	mít
 <note type="speaker">
 /Ministr vnitra ČR Milan Chovanec/	_	_	_	_	_	_	_	_	_	_
 </note>
-<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u2" speaker_role="Regular" speaker_id="MilanChovanec.1970" speaker_name="Chovanec, Milan" speaker_type="MP" speaker_party="ČSSD" speaker_party_name="Poslanecký klub České strany sociálně demokratické" speaker_gender="M" speaker_birth="1970">
+<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u2" speaker_id="MilanChovanec.1970" speaker_name="Chovanec, Milan" speaker_role="Regular" speaker_type="MP" speaker_party="ČSSD" speaker_party_name="Poslanecký klub České strany sociálně demokratické" speaker_gender="M" speaker_birth="1970">
 <p id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u2.p1" lang="Czech">
 <s id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u2.p1.s1">
 Vážený	Vážený	vážený	ADJ	Animacy=Anim Case=Voc Degree=Pos Gender=Masc Number=Sing Polarity=Pos	w1	amod	poslankyně	NOUN	Case=Acc Gender=Fem Number=Plur Polarity=Pos	w6
@@ -216,7 +216,7 @@ navazuje	navazuje	navazovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polari
 na	na	na	ADP	AdpType=Prep Case=Acc	w3	case	předpis	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing Polarity=Pos	w6
 přímo	přímo	přímo	ADV	Degree=Pos Polarity=Pos	w4	advmod	použitelný	ADJ	Animacy=Inan Case=Acc Degree=Pos Gender=Masc Number=Sing Polarity=Pos	w5
 použitelný	použitelný	použitelný	ADJ	Animacy=Inan Case=Acc Degree=Pos Gender=Masc Number=Sing Polarity=Pos	w5	amod	předpis	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing Polarity=Pos	w6
-předpis	předpis	předpis	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing Polarity=Pos	w6	obl:arg	navazovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w2
+předpis	předpis	předpis	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing Polarity=Pos	w6	obl_arg	navazovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w2
 <name type="ORG">
 EU	EU	EU	PROPN	Abbr=Yes Gender=Fem NameType=Com Polarity=Pos	w7	nmod	předpis	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing Polarity=Pos	w6
 <g/>
@@ -241,7 +241,7 @@ hranice	hranice	hranice	NOUN	Case=Acc Gender=Fem Number=Plur Polarity=Pos	w6	obj
 před	před	před	ADP	AdpType=Prep Case=Ins	w7	case	překračování	NOUN	Case=Ins Gender=Neut Number=Sing Polarity=Pos	w10
 jejich	jejich	jeho	DET	Number[psor]=Plur Person=3 Poss=Yes PronType=Prs	w8	det	překračování	NOUN	Case=Ins Gender=Neut Number=Sing Polarity=Pos	w10
 nedovoleným	nedovoleným	dovolený	ADJ	Case=Ins Degree=Pos Gender=Neut Number=Sing Polarity=Neg	w9	amod	překračování	NOUN	Case=Ins Gender=Neut Number=Sing Polarity=Pos	w10
-překračováním	překračováním	překračování	NOUN	Case=Ins Gender=Neut Number=Sing Polarity=Pos	w10	obl:arg	chránit	VERB	Aspect=Imp Polarity=Pos VerbForm=Inf	w4
+překračováním	překračováním	překračování	NOUN	Case=Ins Gender=Neut Number=Sing Polarity=Pos	w10	obl_arg	chránit	VERB	Aspect=Imp Polarity=Pos VerbForm=Inf	w4
 <g/>
 .	.	.	PUNCT	_	w11	punct	cíl	NOUN	Animacy=Inan Case=Ins Gender=Masc Number=Sing Polarity=Pos	w1
 </s>
@@ -261,7 +261,7 @@ případ	případ	případ	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing Po
 <g/>
 ,	,	,	PUNCT	_	w13	punct	nastat	VERB	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w15
 kdy	kdy	kdy	ADV	PronType=Int,Rel	w14	advmod	nastat	VERB	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w15
-nastane	nastane	nastat	VERB	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w15	acl:relcl	případ	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing Polarity=Pos	w12
+nastane	nastane	nastat	VERB	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w15	acl_relcl	případ	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing Polarity=Pos	w12
 závažná	závažná	závažný	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing Polarity=Pos	w16	amod	hrozba	NOUN	Case=Nom Gender=Fem Number=Sing Polarity=Pos	w17
 hrozba	hrozba	hrozba	NOUN	Case=Nom Gender=Fem Number=Sing Polarity=Pos	w17	nsubj	nastat	VERB	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w15
 pro	pro	pro	ADP	AdpType=Prep Case=Acc	w18	case	pořádek	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing Polarity=Pos	w20
@@ -278,7 +278,7 @@ bezpečnost	bezpečnost	bezpečnost	NOUN	Case=Acc Gender=Fem Number=Sing Polarit
 .	.	.	PUNCT	_	w26	punct	stanovit	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w3
 </s>
 <s id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u2.p1.s5">
-Ochrana	Ochrana	ochrana	NOUN	Case=Nom Gender=Fem Number=Sing Polarity=Pos	w1	nsubj:pass	provádět	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin Voice=Act	w20
+Ochrana	Ochrana	ochrana	NOUN	Case=Nom Gender=Fem Number=Sing Polarity=Pos	w1	nsubj_pass	provádět	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin Voice=Act	w20
 vnitřních	vnitřních	vnitřní	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Plur Polarity=Pos	w2	amod	hranice	NOUN	Case=Gen Gender=Fem Number=Plur Polarity=Pos	w3
 hranic	hranic	hranice	NOUN	Case=Gen Gender=Fem Number=Plur Polarity=Pos	w3	nmod	ochrana	NOUN	Case=Nom Gender=Fem Number=Sing Polarity=Pos	w1
 <g/>
@@ -298,7 +298,7 @@ hranice	hranice	hranice	NOUN	Case=Nom Gender=Fem Number=Sing Polarity=Pos	w15	co
 <name type="LOC">
 ČR	ČR	ČR	PROPN	Abbr=Yes Gender=Fem NameType=Geo Polarity=Pos	w16	nmod	hranice	NOUN	Case=Nom Gender=Fem Number=Sing Polarity=Pos	w15
 </name>
-se	se	se	PRON	Case=Acc PronType=Prs Reflex=Yes Variant=Short	w17	expl:pass	provádět	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin Voice=Act	w20
+se	se	se	PRON	Case=Acc PronType=Prs Reflex=Yes Variant=Short	w17	expl_pass	provádět	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin Voice=Act	w20
 totiž	totiž	totiž	ADV	_	w18	advmod	provádět	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin Voice=Act	w20
 standardně	standardně	standardně	ADV	Degree=Pos Polarity=Pos	w19	advmod	provádět	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin Voice=Act	w20
 neprovádí	neprovádí	provádět	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin Voice=Act	w20	root	-	-	-	-
@@ -311,7 +311,7 @@ neprovádí	neprovádí	provádět	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3
 Pokud	Pokud	pokud	SCONJ	_	w1	mark	jít	VERB	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w2
 jde	jde	jít	VERB	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w2	advcl	ztotožňovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w12
 o	o	o	ADP	AdpType=Prep Case=Acc	w3	case	stanovisko	NOUN	Case=Acc Gender=Neut Number=Sing Polarity=Pos	w4
-stanovisko	stanovisko	stanovisko	NOUN	Case=Acc Gender=Neut Number=Sing Polarity=Pos	w4	obl:arg	jít	VERB	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w2
+stanovisko	stanovisko	stanovisko	NOUN	Case=Acc Gender=Neut Number=Sing Polarity=Pos	w4	obl_arg	jít	VERB	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w2
 <name type="ORG">
 Ministerstva	Ministerstva	ministerstvo	NOUN	Case=Gen Gender=Neut Number=Sing Polarity=Pos	w5	nmod	stanovisko	NOUN	Case=Acc Gender=Neut Number=Sing Polarity=Pos	w4
 vnitra	vnitra	vnitro	NOUN	Case=Gen Gender=Neut Number=Sing Polarity=Pos	w6	nmod	ministerstvo	NOUN	Case=Gen Gender=Neut Number=Sing Polarity=Pos	w5
@@ -323,9 +323,9 @@ návrhům	návrhům	návrh	NOUN	Animacy=Inan Case=Dat Gender=Masc Number=Plur Po
 <g/>
 ,	,	,	PUNCT	_	w11	punct	jít	VERB	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w2
 ztotožňuji	ztotožňuji	ztotožňovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w12	root	-	-	-	-
-se	se	se	PRON	Case=Acc PronType=Prs Reflex=Yes Variant=Short	w13	expl:pv	ztotožňovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w12
+se	se	se	PRON	Case=Acc PronType=Prs Reflex=Yes Variant=Short	w13	expl_pv	ztotožňovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w12
 se	se	s	ADP	AdpType=Voc Case=Ins	w14	case	stanovisko	NOUN	Case=Ins Gender=Neut Number=Plur Polarity=Pos	w15
-stanovisky	stanovisky	stanovisko	NOUN	Case=Ins Gender=Neut Number=Plur Polarity=Pos	w15	obl:arg	ztotožňovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w12
+stanovisky	stanovisky	stanovisko	NOUN	Case=Ins Gender=Neut Number=Plur Polarity=Pos	w15	obl_arg	ztotožňovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w12
 <g/>
 ,	,	,	PUNCT	_	w16	punct	zaujmout	VERB	Gender=Masc Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w22
 která	která	který	DET	Case=Acc Gender=Neut Number=Plur PronType=Int,Rel	w17	obj	zaujmout	VERB	Gender=Masc Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w22
@@ -333,7 +333,7 @@ k	k	k	ADP	AdpType=Prep Case=Dat	w18	case	návrh	NOUN	Animacy=Inan Case=Dat Gende
 těmto	těmto	tento	DET	Case=Dat Number=Plur PronType=Dem	w19	det	návrh	NOUN	Animacy=Inan Case=Dat Gender=Masc Number=Plur Polarity=Pos	w21
 pozměňovacím	pozměňovacím	pozměňovací	ADJ	Animacy=Inan Case=Dat Degree=Pos Gender=Masc Number=Plur Polarity=Pos	w20	amod	návrh	NOUN	Animacy=Inan Case=Dat Gender=Masc Number=Plur Polarity=Pos	w21
 návrhům	návrhům	návrh	NOUN	Animacy=Inan Case=Dat Gender=Masc Number=Plur Polarity=Pos	w21	obl	zaujmout	VERB	Gender=Masc Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w22
-zaujal	zaujal	zaujmout	VERB	Gender=Masc Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w22	acl:relcl	stanovisko	NOUN	Case=Ins Gender=Neut Number=Plur Polarity=Pos	w15
+zaujal	zaujal	zaujmout	VERB	Gender=Masc Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w22	acl_relcl	stanovisko	NOUN	Case=Ins Gender=Neut Number=Plur Polarity=Pos	w15
 výbor	výbor	výbor	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing Polarity=Pos	w23	nsubj	zaujmout	VERB	Gender=Masc Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w22
 pro	pro	pro	ADP	AdpType=Prep Case=Acc	w24	case	bezpečnost	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	w25
 bezpečnost	bezpečnost	bezpečnost	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	w25	nmod	výbor	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing Polarity=Pos	w23
@@ -345,7 +345,7 @@ Nesouhlasím	Nesouhlasím	souhlasit	VERB	Aspect=Imp Mood=Ind Number=Sing Person=
 však	však	však	CCONJ	_	w2	cc	souhlasit	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Neg Tense=Pres VerbForm=Fin Voice=Act	w1
 s	s	s	ADP	AdpType=Prep Case=Ins	w3	case	návrh	NOUN	Animacy=Inan Case=Ins Gender=Masc Number=Plur Polarity=Pos	w5
 pozměňovacími	pozměňovacími	pozměňovací	ADJ	Animacy=Inan Case=Ins Degree=Pos Gender=Masc Number=Plur Polarity=Pos	w4	amod	návrh	NOUN	Animacy=Inan Case=Ins Gender=Masc Number=Plur Polarity=Pos	w5
-návrhy	návrhy	návrh	NOUN	Animacy=Inan Case=Ins Gender=Masc Number=Plur Polarity=Pos	w5	obl:arg	souhlasit	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Neg Tense=Pres VerbForm=Fin Voice=Act	w1
+návrhy	návrhy	návrh	NOUN	Animacy=Inan Case=Ins Gender=Masc Number=Plur Polarity=Pos	w5	obl_arg	souhlasit	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Neg Tense=Pres VerbForm=Fin Voice=Act	w1
 pana	pana	pan	NOUN	Animacy=Anim Case=Gen Gender=Masc Number=Sing Polarity=Pos	w6	nmod	návrh	NOUN	Animacy=Inan Case=Ins Gender=Masc Number=Plur Polarity=Pos	w5
 poslance	poslance	poslanec	NOUN	Animacy=Anim Case=Gen Gender=Masc Number=Sing Polarity=Pos	w7	nmod	pan	NOUN	Animacy=Anim Case=Gen Gender=Masc Number=Sing Polarity=Pos	w6
 <name type="LOC">
@@ -381,7 +381,7 @@ EU	EU	EU	PROPN	Abbr=Yes Gender=Fem NameType=Com Polarity=Pos	w15	nmod	právo	NOU
 <s id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u2.p3.s1">
 Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-
 za	za	za	ADP	AdpType=Prep Case=Acc	w2	case	pozornost	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	w3
-pozornost	pozornost	pozornost	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	w3	obl:arg	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
+pozornost	pozornost	pozornost	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	w3	obl_arg	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
 <g/>
 .	.	.	PUNCT	_	w4	punct	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
 </s>
@@ -390,7 +390,7 @@ pozornost	pozornost	pozornost	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	
 <note type="gap::editorial">
 /SAMPLING/	_	_	_	_	_	_	_	_	_	_
 </note>
-<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u14" speaker_role="Regular" speaker_id="MiloslavJanulik.1962" speaker_name="Janulík, Miloslav" speaker_type="MP" speaker_party="ANO" speaker_party_name="Poslanecký klub ANO 2011" speaker_gender="M" speaker_birth="1962">
+<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u14" speaker_id="MiloslavJanulik.1962" speaker_name="Janulík, Miloslav" speaker_role="Regular" speaker_type="MP" speaker_party="ANO" speaker_party_name="Poslanecký klub ANO 2011" speaker_gender="M" speaker_birth="1962">
 <p id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u14.p1" lang="Czech">
 <s id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u14.p1.s1">
 Třetí	Třetí	třetí	ADJ	Case=Nom Gender=Neut Number=Sing NumType=Ord	w1	amod	hlasování	NOUN	Case=Nom Gender=Neut Number=Sing Polarity=Pos	w2
@@ -421,7 +421,7 @@ dokument	dokument	dokument	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing Po
 který	který	který	DET	Case=Nom Gender=Masc Number=Sing PronType=Int,Rel	w14	nsubj	dlouhý	ADJ	Animacy=Inan Case=Nom Degree=Pos Gender=Masc Number=Sing Polarity=Pos	w17
 je	je	být	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w15	cop	dlouhý	ADJ	Animacy=Inan Case=Nom Degree=Pos Gender=Masc Number=Sing Polarity=Pos	w17
 velmi	velmi	velmi	ADV	_	w16	advmod	dlouhý	ADJ	Animacy=Inan Case=Nom Degree=Pos Gender=Masc Number=Sing Polarity=Pos	w17
-dlouhý	dlouhý	dlouhý	ADJ	Animacy=Inan Case=Nom Degree=Pos Gender=Masc Number=Sing Polarity=Pos	w17	acl:relcl	dokument	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing Polarity=Pos	w11
+dlouhý	dlouhý	dlouhý	ADJ	Animacy=Inan Case=Nom Degree=Pos Gender=Masc Number=Sing Polarity=Pos	w17	acl_relcl	dokument	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing Polarity=Pos	w11
 <g/>
 ,	,	,	PUNCT	_	w18	punct	dlouhý	ADJ	Animacy=Inan Case=Nom Degree=Pos Gender=Masc Number=Sing Polarity=Pos	w17
 číst	číst	číst	VERB	Polarity=Pos VerbForm=Inf	w19	root	-	-	-	-
@@ -444,7 +444,7 @@ nedoporučuje	nedoporučuje	doporučovat	VERB	Aspect=Imp Mood=Ind Number=Sing Pe
 <note type="speaker">
 /Místopředseda PSP Vojtěch Filip/	_	_	_	_	_	_	_	_	_	_
 </note>
-<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u15" speaker_role="Chairperson" speaker_id="VojtechFilip.1955" speaker_name="Filip, Vojtěch" speaker_type="MP" speaker_party="KSČM" speaker_party_name="Poslanecký klub Komunistické strany Čech a Moravy" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u15" speaker_id="VojtechFilip.1955" speaker_name="Filip, Vojtěch" speaker_role="Chairperson" speaker_type="MP" speaker_party="KSČM" speaker_party_name="Poslanecký klub Komunistické strany Čech a Moravy" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u15.p1" lang="Czech">
 <s id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u15.p1.s1">
 Pan	Pan	pan	NOUN	Animacy=Anim Case=Nom Gender=Masc Number=Sing Polarity=Pos	w1	nmod	ministr	NOUN	Animacy=Anim Case=Nom Gender=Masc Number=Sing Polarity=Pos	w2
@@ -469,7 +469,7 @@ pořadové	pořadové	pořadový	ADJ	Case=Acc Degree=Pos Gender=Neut Number=Sing
 </s>
 <s id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u15.p2.s2">
 Ptám	Ptám	ptát	VERB	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-
-se	se	se	PRON	Case=Acc PronType=Prs Reflex=Yes Variant=Short	w2	expl:pv	ptát	VERB	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
+se	se	se	PRON	Case=Acc PronType=Prs Reflex=Yes Variant=Short	w2	expl_pv	ptát	VERB	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
 <g/>
 ,	,	,	PUNCT	_	w3	punct	být	VERB	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w5
 kdo	kdo	kdo	PRON	Animacy=Anim Case=Nom Gender=Masc PronType=Int,Rel	w4	nsubj	být	VERB	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w5
@@ -487,7 +487,7 @@ proti	proti	proti	ADP	AdpType=Prep Case=Dat	w3	obl	být	VERB	Mood=Ind Number=Sin
 </s>
 <s id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u15.p2.s4">
 Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-
-vám	vám	ty	PRON	Case=Dat Number=Plur Person=2 PronType=Prs	w2	obl:arg	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
+vám	vám	ty	PRON	Case=Dat Number=Plur Person=2 PronType=Prs	w2	obl_arg	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
 <g/>
 .	.	.	PUNCT	_	w3	punct	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
 </s>
@@ -515,8 +515,8 @@ proti	proti	proti	ADP	AdpType=Prep Case=Dat	w7	case	122	NUM	NumForm=Digit NumTyp
 .	.	.	PUNCT	_	w9	punct	přítomný	ADJ	Animacy=Anim Case=Gen Degree=Pos Gender=Masc Number=Plur Polarity=Pos	w2
 </s>
 <s id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u15.p3.s3">
-Návrh	Návrh	návrh	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing Polarity=Pos	w1	nsubj:pass	přijatý	ADJ	Gender=Masc Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w3
-nebyl	nebyl	být	AUX	Gender=Masc Number=Sing Polarity=Neg Tense=Past VerbForm=Part Voice=Act	w2	aux:pass	přijatý	ADJ	Gender=Masc Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w3
+Návrh	Návrh	návrh	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing Polarity=Pos	w1	nsubj_pass	přijatý	ADJ	Gender=Masc Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w3
+nebyl	nebyl	být	AUX	Gender=Masc Number=Sing Polarity=Neg Tense=Past VerbForm=Part Voice=Act	w2	aux_pass	přijatý	ADJ	Gender=Masc Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w3
 přijat	přijat	přijatý	ADJ	Gender=Masc Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w3	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	_	w4	punct	přijatý	ADJ	Gender=Masc Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w3
@@ -524,11 +524,11 @@ přijat	přijat	přijatý	ADJ	Gender=Masc Number=Sing Polarity=Pos Variant=Short
 </p>
 <p id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u15.p4" lang="Czech">
 <s id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u15.p4.s1">
-Byly	Byly	být	AUX	Animacy=Inan Gender=Fem,Masc Number=Plur Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w1	aux:pass	vyčerpaný	ADJ	Animacy=Inan Aspect=Perf Gender=Fem,Masc Number=Plur Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w2
+Byly	Byly	být	AUX	Animacy=Inan Gender=Fem,Masc Number=Plur Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w1	aux_pass	vyčerpaný	ADJ	Animacy=Inan Aspect=Perf Gender=Fem,Masc Number=Plur Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w2
 vyčerpány	vyčerpány	vyčerpaný	ADJ	Animacy=Inan Aspect=Perf Gender=Fem,Masc Number=Plur Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w2	root	-	-	-	-
 všechny	všechny	všechen	DET	Animacy=Inan Case=Nom Gender=Masc Number=Plur PronType=Tot	w3	det	návrh	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Plur Polarity=Pos	w5
 pozměňovací	pozměňovací	pozměňovací	ADJ	Animacy=Inan Case=Nom Degree=Pos Gender=Masc Number=Plur Polarity=Pos	w4	amod	návrh	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Plur Polarity=Pos	w5
-návrhy	návrhy	návrh	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Plur Polarity=Pos	w5	nsubj:pass	vyčerpaný	ADJ	Animacy=Inan Aspect=Perf Gender=Fem,Masc Number=Plur Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w2
+návrhy	návrhy	návrh	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Plur Polarity=Pos	w5	nsubj_pass	vyčerpaný	ADJ	Animacy=Inan Aspect=Perf Gender=Fem,Masc Number=Plur Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w2
 <g/>
 .	.	.	PUNCT	_	w6	punct	vyčerpaný	ADJ	Animacy=Inan Aspect=Perf Gender=Fem,Masc Number=Plur Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w2
 </s>
@@ -579,7 +579,7 @@ znění	znění	znění	NOUN	Case=Loc Gender=Neut Number=Sing Polarity=Pos	w31	o
 schváleném	schváleném	schválený	ADJ	Case=Loc Degree=Pos Gender=Neut Number=Sing Polarity=Pos	w32	amod	znění	NOUN	Case=Loc Gender=Neut Number=Sing Polarity=Pos	w31
 <name type="ORG">
 Poslaneckou	Poslaneckou	poslanecký	ADJ	Case=Ins Degree=Pos Gender=Fem Number=Sing Polarity=Pos	w33	amod	sněmovna	NOUN	Case=Ins Gender=Fem Number=Sing Polarity=Pos	w34
-sněmovnou	sněmovnou	sněmovna	NOUN	Case=Ins Gender=Fem Number=Sing Polarity=Pos	w34	obl:arg	schválený	ADJ	Case=Loc Degree=Pos Gender=Neut Number=Sing Polarity=Pos	w32
+sněmovnou	sněmovnou	sněmovna	NOUN	Case=Ins Gender=Fem Number=Sing Polarity=Pos	w34	obl_arg	schválený	ADJ	Case=Loc Degree=Pos Gender=Neut Number=Sing Polarity=Pos	w32
 <g/>
 </name>
 .	.	.	PUNCT	_	w35	punct	přednést	VERB	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
@@ -597,7 +597,7 @@ pořadové	pořadové	pořadový	ADJ	Case=Acc Degree=Pos Gender=Neut Number=Sing
 92	92	92	NUM	NumForm=Digit NumType=Card	w6	nummod	číslo	NOUN	Case=Nom Gender=Neut Number=Sing Polarity=Pos	w5
 a	a	a	CCONJ	_	w7	cc	ptát	VERB	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w8
 ptám	ptám	ptát	VERB	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w8	conj	zahájit	VERB	Aspect=Perf Gender=Masc Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w1
-se	se	se	PRON	Case=Acc PronType=Prs Reflex=Yes Variant=Short	w9	expl:pv	ptát	VERB	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w8
+se	se	se	PRON	Case=Acc PronType=Prs Reflex=Yes Variant=Short	w9	expl_pv	ptát	VERB	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w8
 <g/>
 ,	,	,	PUNCT	_	w10	punct	být	VERB	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w12
 kdo	kdo	kdo	PRON	Animacy=Anim Case=Nom Gender=Masc PronType=Int,Rel	w11	nsubj	být	VERB	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w12
@@ -615,7 +615,7 @@ proti	proti	proti	ADP	AdpType=Prep Case=Dat	w3	obl	být	VERB	Mood=Ind Number=Sin
 </s>
 <s id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u15.p6.s3">
 Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-
-vám	vám	ty	PRON	Case=Dat Number=Plur Person=2 PronType=Prs	w2	obl:arg	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
+vám	vám	ty	PRON	Case=Dat Number=Plur Person=2 PronType=Prs	w2	obl_arg	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
 <g/>
 .	.	.	PUNCT	_	w3	punct	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
 </s>
@@ -643,8 +643,8 @@ nikdo	nikdo	nikdo	PRON	Animacy=Anim Case=Nom Gender=Masc PronType=Neg	w8	orphan	
 .	.	.	PUNCT	_	w9	punct	přítomný	ADJ	Animacy=Anim Case=Gen Degree=Pos Gender=Masc Number=Plur Polarity=Pos	w2
 </s>
 <s id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u15.p7.s3">
-Návrh	Návrh	návrh	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing Polarity=Pos	w1	nsubj:pass	přijatý	ADJ	Gender=Masc Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w3
-byl	byl	být	AUX	Gender=Masc Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w2	aux:pass	přijatý	ADJ	Gender=Masc Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w3
+Návrh	Návrh	návrh	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing Polarity=Pos	w1	nsubj_pass	přijatý	ADJ	Gender=Masc Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w3
+byl	byl	být	AUX	Gender=Masc Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w2	aux_pass	přijatý	ADJ	Gender=Masc Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w3
 přijat	přijat	přijatý	ADJ	Gender=Masc Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w3	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	_	w4	punct	přijatý	ADJ	Gender=Masc Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w3
@@ -657,25 +657,25 @@ Konstatuji	Konstatuji	konstatovat	VERB	Mood=Ind Number=Sing Person=1 Polarity=Po
 ,	,	,	PUNCT	_	w2	punct	vyslovený	ADJ	Aspect=Perf Gender=Masc Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w8
 že	že	že	SCONJ	_	w3	mark	vyslovený	ADJ	Aspect=Perf Gender=Masc Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w8
 s	s	s	ADP	AdpType=Prep Case=Ins	w4	case	návrh	NOUN	Animacy=Inan Case=Ins Gender=Masc Number=Sing Polarity=Pos	w5
-návrhem	návrhem	návrh	NOUN	Animacy=Inan Case=Ins Gender=Masc Number=Sing Polarity=Pos	w5	obl:arg	vyslovený	ADJ	Aspect=Perf Gender=Masc Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w8
+návrhem	návrhem	návrh	NOUN	Animacy=Inan Case=Ins Gender=Masc Number=Sing Polarity=Pos	w5	obl_arg	vyslovený	ADJ	Aspect=Perf Gender=Masc Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w8
 zákona	zákona	zákon	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing Polarity=Pos	w6	nmod	návrh	NOUN	Animacy=Inan Case=Ins Gender=Masc Number=Sing Polarity=Pos	w5
-byl	byl	být	AUX	Gender=Masc Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w7	aux:pass	vyslovený	ADJ	Aspect=Perf Gender=Masc Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w8
+byl	byl	být	AUX	Gender=Masc Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w7	aux_pass	vyslovený	ADJ	Aspect=Perf Gender=Masc Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w8
 vysloven	vysloven	vyslovený	ADJ	Aspect=Perf Gender=Masc Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w8	obj	konstatovat	VERB	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
-souhlas	souhlas	souhlas	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing Polarity=Pos	w9	nsubj:pass	vyslovený	ADJ	Aspect=Perf Gender=Masc Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w8
+souhlas	souhlas	souhlas	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing Polarity=Pos	w9	nsubj_pass	vyslovený	ADJ	Aspect=Perf Gender=Masc Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w8
 <g/>
 .	.	.	PUNCT	_	w10	punct	konstatovat	VERB	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
 </s>
 <s id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u15.p8.s2">
 Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-
-panu	panu	pan	NOUN	Animacy=Anim Case=Dat Gender=Masc Number=Sing Polarity=Pos	w2	obl:arg	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
-zpravodaji	zpravodaji	zpravodaj	NOUN	Animacy=Anim Case=Dat Gender=Masc Number=Sing Polarity=Pos	w3	obl:arg	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
+panu	panu	pan	NOUN	Animacy=Anim Case=Dat Gender=Masc Number=Sing Polarity=Pos	w2	obl_arg	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
+zpravodaji	zpravodaji	zpravodaj	NOUN	Animacy=Anim Case=Dat Gender=Masc Number=Sing Polarity=Pos	w3	obl_arg	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
 <g/>
 .	.	.	PUNCT	_	w4	punct	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
 </s>
 <s id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u15.p8.s3">
 Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-
-panu	panu	pan	NOUN	Animacy=Anim Case=Dat Gender=Masc Number=Sing Polarity=Pos	w2	obl:arg	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
-ministrovi	ministrovi	ministr	NOUN	Animacy=Anim Case=Dat Gender=Masc Number=Sing Polarity=Pos	w3	obl:arg	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
+panu	panu	pan	NOUN	Animacy=Anim Case=Dat Gender=Masc Number=Sing Polarity=Pos	w2	obl_arg	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
+ministrovi	ministrovi	ministr	NOUN	Animacy=Anim Case=Dat Gender=Masc Number=Sing Polarity=Pos	w3	obl_arg	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
 a	a	a	CCONJ	_	w4	cc	končit	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w5
 končím	končím	končit	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w5	conj	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
 bod	bod	bod	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing Polarity=Pos	w6	obj	končit	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w5
