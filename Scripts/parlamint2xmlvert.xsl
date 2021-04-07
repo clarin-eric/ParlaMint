@@ -588,18 +588,18 @@ And, there is, in theory, also:
       </xsl:if-->
       <xsl:value-of select="normalize-space($tmp)"/>
     </xsl:variable>
-    <xsl:variable name="politicalParties">
+    <xsl:variable name="politicalGroups">
       <xsl:for-each select="tokenize($refs, ' ')">
-	<xsl:variable name="party" select="key('idr', ., $teiHeader)[@role='politicalParty']"/>
+	<xsl:variable name="party" select="key('idr', ., $teiHeader)[@role='politicalGroup']"/>
 	<xsl:call-template name="party-name">
 	  <xsl:with-param name="party" select="$party"/>
 	  <xsl:with-param name="full" select="$full"/>
 	</xsl:call-template>
       </xsl:for-each>
     </xsl:variable>
-    <xsl:variable name="politicalGroups">
+    <xsl:variable name="politicalParties">
       <xsl:for-each select="tokenize($refs, ' ')">
-	<xsl:variable name="party" select="key('idr', ., $teiHeader)[@role='politicalGroup']"/>
+	<xsl:variable name="party" select="key('idr', ., $teiHeader)[@role='politicalParty']"/>
 	<xsl:call-template name="party-name">
 	  <xsl:with-param name="party" select="$party"/>
 	  <xsl:with-param name="full" select="$full"/>
@@ -636,13 +636,12 @@ And, there is, in theory, also:
 			      [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'en']"/>
 	<xsl:text>;</xsl:text>
       </xsl:when>
-      <!-- fall back on ID -->
-      <xsl:when test="$full = 'init' and $party/@xml:id">
+      <xsl:when test="normalize-space($party)">
 	<xsl:message>
-	  <xsl:text>WARN: party without short name </xsl:text>
+	  <xsl:text>WARN: party without proper name </xsl:text>
 	  <xsl:value-of select="$party/@xml:id"/>
 	</xsl:message>
-	<!-- Shorten if possible -->
+	<!-- Shorten the ID if possible -->
 	<xsl:value-of select="replace($party/@xml:id, '.+?\.' , '')"/>
 	<xsl:text>;</xsl:text>
       </xsl:when>
