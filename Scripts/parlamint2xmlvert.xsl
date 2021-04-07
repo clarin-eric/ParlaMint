@@ -589,7 +589,7 @@ And, there is, in theory, also:
       <xsl:value-of select="normalize-space($tmp)"/>
     </xsl:variable>
     <xsl:variable name="politicalGroups">
-      <xsl:for-each select="tokenize($refs, ' ')">
+      <xsl:for-each select="distinct-values(tokenize($refs, ' '))">
 	<xsl:variable name="party" select="key('idr', ., $teiHeader)[@role='politicalGroup']"/>
 	<xsl:call-template name="party-name">
 	  <xsl:with-param name="party" select="$party"/>
@@ -598,7 +598,7 @@ And, there is, in theory, also:
       </xsl:for-each>
     </xsl:variable>
     <xsl:variable name="politicalParties">
-      <xsl:for-each select="tokenize($refs, ' ')">
+      <xsl:for-each select="distinct-values(tokenize($refs, ' '))">
 	<xsl:variable name="party" select="key('idr', ., $teiHeader)[@role='politicalParty']"/>
 	<xsl:call-template name="party-name">
 	  <xsl:with-param name="party" select="$party"/>
