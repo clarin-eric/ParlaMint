@@ -4,10 +4,12 @@
 nohup-conllu:
 	nohup time make conllu &
 conllu:
+	rm -f ParlaMint-??/*.conllu
 	Scripts/parlamint2conllu.pl ParlaMint-BE ParlaMint-BE 2> ParlaMint-BE/ParlaMint-BE.conllu.log
 	Scripts/parlamint2conllu.pl ParlaMint-BG ParlaMint-BG 2> ParlaMint-BG/ParlaMint-BG.conllu.log
 	Scripts/parlamint2conllu.pl ParlaMint-CZ ParlaMint-CZ 2> ParlaMint-CZ/ParlaMint-CZ.conllu.log
 	Scripts/parlamint2conllu.pl ParlaMint-DK ParlaMint-DK 2> ParlaMint-DK/ParlaMint-DK.conllu.log
+	#Scripts/parlamint2conllu.pl ParlaMint-ES ParlaMint-ES 2> ParlaMint-ES/ParlaMint-ES.conllu.log
 	#Scripts/parlamint2conllu.pl ParlaMint-FR ParlaMint-FR 2> ParlaMint-FR/ParlaMint-FR.conllu.log
 	Scripts/parlamint2conllu.pl ParlaMint-GB ParlaMint-GB 2> ParlaMint-GB/ParlaMint-GB.conllu.log
 	Scripts/parlamint2conllu.pl ParlaMint-HR ParlaMint-HR 2> ParlaMint-HR/ParlaMint-HR.conllu.log
@@ -15,6 +17,7 @@ conllu:
 	Scripts/parlamint2conllu.pl ParlaMint-IS ParlaMint-IS 2> ParlaMint-IS/ParlaMint-IS.conllu.log
 	#Scripts/parlamint2conllu.pl ParlaMint-IT ParlaMint-IT 2> ParlaMint-IT/ParlaMint-IT.conllu.log
 	#Scripts/parlamint2conllu.pl ParlaMint-LT ParlaMint-LT 2> ParlaMint-LT/ParlaMint-LT.conllu.log
+	#Scripts/parlamint2conllu.pl ParlaMint-LV ParlaMint-LV 2> ParlaMint-LV/ParlaMint-LV.conllu.log
 	Scripts/parlamint2conllu.pl ParlaMint-NL ParlaMint-NL 2> ParlaMint-NL/ParlaMint-NL.conllu.log
 	Scripts/parlamint2conllu.pl ParlaMint-PL ParlaMint-PL 2> ParlaMint-PL/ParlaMint-PL.conllu.log
 	#Scripts/parlamint2conllu.pl ParlaMint-RO ParlaMint-RO 2> ParlaMint-RO/ParlaMint-RO.conllu.log
@@ -29,90 +32,6 @@ conllu-six:
 	python3 Scripts/tools/validate.py --lang sl --level 1 ParlaMint-SI/*.conllu
 	python3 Scripts/tools/validate.py --lang sl --level 2 ParlaMint-SI/*.conllu
 	python3 Scripts/tools/validate.py --lang sl --level 3 ParlaMint-SI/*.conllu
-
-#Generation of metadata files
-nohup-meta:
-	nohup time make meta &
-meta:
-	rm -f ParlaMint-BE/*-meta.tsv
-	ls ParlaMint-BE/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../ParlaMint-BE/ParlaMint-BE.xml -xsl:Scripts/parlamint2meta.xsl \
-	{} > ParlaMint-BE/{/.}-meta.tsv'
-
-	rm -f ParlaMint-BG/*-meta.tsv
-	ls ParlaMint-BG/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../ParlaMint-BG/ParlaMint-BG.xml -xsl:Scripts/parlamint2meta.xsl \
-	{} > ParlaMint-BG/{/.}-meta.tsv'
-
-	rm -f ParlaMint-CZ/*-meta.tsv
-	ls ParlaMint-CZ/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../ParlaMint-CZ/ParlaMint-CZ.xml -xsl:Scripts/parlamint2meta.xsl \
-	{} > ParlaMint-CZ/{/.}-meta.tsv'
-
-	rm -f ParlaMint-DK/*-meta.tsv
-	ls ParlaMint-DK/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../ParlaMint-DK/ParlaMint-DK.xml -xsl:Scripts/parlamint2meta.xsl \
-	{} > ParlaMint-DK/{/.}-meta.tsv'
-
-	rm -f ParlaMint-FR/*-meta.tsv
-	ls ParlaMint-FR/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../ParlaMint-FR/ParlaMint-FR.xml -xsl:Scripts/parlamint2meta.xsl \
-	{} > ParlaMint-FR/{/.}-meta.tsv'
-
-	rm -f ParlaMint-GB/*-meta.tsv
-	ls ParlaMint-GB/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../ParlaMint-GB/ParlaMint-GB.xml -xsl:Scripts/parlamint2meta.xsl \
-	{} > ParlaMint-GB/{/.}-meta.tsv'
-
-	rm -f ParlaMint-HR/*-meta.tsv
-	ls ParlaMint-HR/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../ParlaMint-HR/ParlaMint-HR.xml -xsl:Scripts/parlamint2meta.xsl \
-	{} > ParlaMint-HR/{/.}-meta.tsv'
-
-	rm -f ParlaMint-HU/*-meta.tsv
-	ls ParlaMint-HU/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../ParlaMint-HU/ParlaMint-HU.xml -xsl:Scripts/parlamint2meta.xsl \
-	{} > ParlaMint-HU/{/.}-meta.tsv'
-
-	rm -f ParlaMint-IS/*-meta.tsv
-	ls ParlaMint-IS/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../ParlaMint-IS/ParlaMint-IS.xml -xsl:Scripts/parlamint2meta.xsl \
-	{} > ParlaMint-IS/{/.}-meta.tsv'
-
-	rm -f ParlaMint-IT/*-meta.tsv
-	ls ParlaMint-IT/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../ParlaMint-IT/ParlaMint-IT.xml -xsl:Scripts/parlamint2meta.xsl \
-	{} > ParlaMint-IT/{/.}-meta.tsv'
-
-	rm -f ParlaMint-LT/*-meta.tsv
-	ls ParlaMint-LT/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../ParlaMint-LT/ParlaMint-LT.xml -xsl:Scripts/parlamint2meta.xsl \
-	{} > ParlaMint-LT/{/.}-meta.tsv'
-
-	rm -f ParlaMint-NL/*-meta.tsv
-	ls ParlaMint-NL/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../ParlaMint-NL/ParlaMint-NL.xml -xsl:Scripts/parlamint2meta.xsl \
-	{} > ParlaMint-NL/{/.}-meta.tsv'
-
-	rm -f ParlaMint-PL/*-meta.tsv
-	ls ParlaMint-PL/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../ParlaMint-PL/ParlaMint-PL.xml -xsl:Scripts/parlamint2meta.xsl \
-	{} > ParlaMint-PL/{/.}-meta.tsv'
-
-	# rm -f ParlaMint-RO/*-meta.tsv
-	# ls ParlaMint-RO/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	# '$s hdr=../ParlaMint-RO/ParlaMint-RO.xml -xsl:Scripts/parlamint2meta.xsl \
-	# {} > ParlaMint-RO/{/.}-meta.tsv'
-
-	rm -f ParlaMint-SI/*-meta.tsv
-	ls ParlaMint-SI/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../ParlaMint-SI/ParlaMint-SI.xml -xsl:Scripts/parlamint2meta.xsl \
-	{} > ParlaMint-SI/{/.}-meta.tsv'
-
-	rm -f ParlaMint-TR/*-meta.tsv
-	ls ParlaMint-TR/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../ParlaMint-TR/ParlaMint-TR.xml -xsl:Scripts/parlamint2meta.xsl \
-	{} > ParlaMint-TR/{/.}-meta.tsv'
 
 SI = ParlaMint-SI_2018-04-13-SDZ7-Izredna-59
 test-conllu-si:
@@ -151,38 +70,112 @@ test-conllu-be-fr:
 	python3 Scripts/tools/validate.py --lang fr --level 1 ParlaMint-BE/${BE}-fr.conllu
 	-python3 Scripts/tools/validate.py --lang fr --level 2 ParlaMint-BE/${BE}-fr.conllu
 
+meta:
+	rm -f ParlaMint-??/*-meta.tsv
+
+	ls ParlaMint-BE/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s hdr=../ParlaMint-BE/ParlaMint-BE.xml -xsl:Scripts/parlamint2meta.xsl \
+	{} > ParlaMint-BE/{/.}-meta.tsv'
+
+	ls ParlaMint-BG/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s hdr=../ParlaMint-BG/ParlaMint-BG.xml -xsl:Scripts/parlamint2meta.xsl \
+	{} > ParlaMint-BG/{/.}-meta.tsv'
+
+	ls ParlaMint-CZ/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s hdr=../ParlaMint-CZ/ParlaMint-CZ.xml -xsl:Scripts/parlamint2meta.xsl \
+	{} > ParlaMint-CZ/{/.}-meta.tsv'
+
+	ls ParlaMint-DK/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s hdr=../ParlaMint-DK/ParlaMint-DK.xml -xsl:Scripts/parlamint2meta.xsl \
+	{} > ParlaMint-DK/{/.}-meta.tsv'
+
+	ls ParlaMint-ES/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s hdr=../ParlaMint-ES/ParlaMint-ES.xml -xsl:Scripts/parlamint2meta.xsl \
+	{} > ParlaMint-ES/{/.}-meta.tsv'
+
+	ls ParlaMint-FR/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s hdr=../ParlaMint-FR/ParlaMint-FR.xml -xsl:Scripts/parlamint2meta.xsl \
+	{} > ParlaMint-FR/{/.}-meta.tsv'
+
+	ls ParlaMint-GB/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s hdr=../ParlaMint-GB/ParlaMint-GB.xml -xsl:Scripts/parlamint2meta.xsl \
+	{} > ParlaMint-GB/{/.}-meta.tsv'
+
+	ls ParlaMint-HR/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s hdr=../ParlaMint-HR/ParlaMint-HR.xml -xsl:Scripts/parlamint2meta.xsl \
+	{} > ParlaMint-HR/{/.}-meta.tsv'
+
+	ls ParlaMint-HU/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s hdr=../ParlaMint-HU/ParlaMint-HU.xml -xsl:Scripts/parlamint2meta.xsl \
+	{} > ParlaMint-HU/{/.}-meta.tsv'
+
+	ls ParlaMint-IS/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s hdr=../ParlaMint-IS/ParlaMint-IS.xml -xsl:Scripts/parlamint2meta.xsl \
+	{} > ParlaMint-IS/{/.}-meta.tsv'
+
+	ls ParlaMint-IT/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s hdr=../ParlaMint-IT/ParlaMint-IT.xml -xsl:Scripts/parlamint2meta.xsl \
+	{} > ParlaMint-IT/{/.}-meta.tsv'
+
+	ls ParlaMint-LT/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s hdr=../ParlaMint-LT/ParlaMint-LT.xml -xsl:Scripts/parlamint2meta.xsl \
+	{} > ParlaMint-LT/{/.}-meta.tsv'
+
+	ls ParlaMint-LV/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s hdr=../ParlaMint-LV/ParlaMint-LV.xml -xsl:Scripts/parlamint2meta.xsl \
+	{} > ParlaMint-LV/{/.}-meta.tsv'
+
+	ls ParlaMint-NL/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s hdr=../ParlaMint-NL/ParlaMint-NL.xml -xsl:Scripts/parlamint2meta.xsl \
+	{} > ParlaMint-NL/{/.}-meta.tsv'
+
+	ls ParlaMint-PL/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s hdr=../ParlaMint-PL/ParlaMint-PL.xml -xsl:Scripts/parlamint2meta.xsl \
+	{} > ParlaMint-PL/{/.}-meta.tsv'
+
+	# ls ParlaMint-RO/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	# '$s hdr=../ParlaMint-RO/ParlaMint-RO.xml -xsl:Scripts/parlamint2meta.xsl \
+	# {} > ParlaMint-RO/{/.}-meta.tsv'
+
+	ls ParlaMint-SI/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s hdr=../ParlaMint-SI/ParlaMint-SI.xml -xsl:Scripts/parlamint2meta.xsl \
+	{} > ParlaMint-SI/{/.}-meta.tsv'
+
+	ls ParlaMint-TR/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s hdr=../ParlaMint-TR/ParlaMint-TR.xml -xsl:Scripts/parlamint2meta.xsl \
+	{} > ParlaMint-TR/{/.}-meta.tsv'
+
 #Now that we have plain text, would be better to compute char counts from those!
 chars-xml:
-	rm -f ParlaMint-BG/chars-files-BG.tbl
+	rm -f ParlaMint-??/chars-*.tbl
+
 	ls ParlaMint-BG/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
 	'Scripts/chars.pl {} >> ParlaMint-BG/chars-files-BG.tbl'
 	Scripts/chars-summ.pl < ParlaMint-BG/chars-files-BG.tbl > ParlaMint-BG/chars-BG.tbl
 
-	rm -f ParlaMint-CZ/chars-files-CZ.tbl
 	ls ParlaMint-CZ/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
 	'Scripts/chars.pl {} >> ParlaMint-CZ/chars-files-CZ.tbl'
 	Scripts/chars-summ.pl < ParlaMint-CZ/chars-files-CZ.tbl > ParlaMint-CZ/chars-CZ.tbl
 
-	rm -f ParlaMint-HR/chars-files-HR.tbl
 	ls ParlaMint-HR/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
 	'Scripts/chars.pl {} >> ParlaMint-HR/chars-files-HR.tbl'
 	Scripts/chars-summ.pl < ParlaMint-HR/chars-files-HR.tbl > ParlaMint-HR/chars-HR.tbl
 
-	rm -f ParlaMint-IS/chars-files-IS.tbl
 	ls ParlaMint-IS/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
 	'Scripts/chars.pl {} >> ParlaMint-IS/chars-files-IS.tbl'
 	Scripts/chars-summ.pl < ParlaMint-IS/chars-files-IS.tbl > ParlaMint-IS/chars-IS.tbl
 
-	rm -f ParlaMint-PL/chars-files-PL.tbl
 	ls ParlaMint-PL/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
 	'Scripts/chars.pl {} >> ParlaMint-PL/chars-files-PL.tbl'
 	Scripts/chars-summ.pl < ParlaMint-PL/chars-files-PL.tbl > ParlaMint-PL/chars-PL.tbl
 
-	rm -f ParlaMint-SI/chars-files-SI.tbl
 	ls ParlaMint-SI/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
 	'Scripts/chars.pl {} >> ParlaMint-SI/chars-files-SI.tbl'
 	Scripts/chars-summ.pl < ParlaMint-SI/chars-files-SI.tbl > ParlaMint-SI/chars-SI.tbl
+
 texts:
+	rm -f ParlaMint-??/*.txt
+
 	ls ParlaMint-BG/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
 	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ParlaMint-BG/{/.}.txt'
 	ls ParlaMint-CZ/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
@@ -195,14 +188,27 @@ texts:
 	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ParlaMint-PL/{/.}.txt'
 	ls ParlaMint-SI/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
 	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ParlaMint-SI/{/.}.txt'
+
 verts:
+	rm -f ParlaMint-??/*.vert
 	Scripts/parlamint-tei2vert.pl ParlaMint-BE/ParlaMint-BE.ana.xml ParlaMint-BE
 	Scripts/parlamint-tei2vert.pl ParlaMint-BG/ParlaMint-BG.ana.xml ParlaMint-BG
 	Scripts/parlamint-tei2vert.pl ParlaMint-CZ/ParlaMint-CZ.ana.xml ParlaMint-CZ
+	Scripts/parlamint-tei2vert.pl ParlaMint-DK/ParlaMint-DK.ana.xml ParlaMint-DK
+	#Scripts/parlamint-tei2vert.pl ParlaMint-ES/ParlaMint-ES.ana.xml ParlaMint-ES
+	#Scripts/parlamint-tei2vert.pl ParlaMint-FR/ParlaMint-FR.ana.xml ParlaMint-FR
+	Scripts/parlamint-tei2vert.pl ParlaMint-GB/ParlaMint-GB.ana.xml ParlaMint-GB
 	Scripts/parlamint-tei2vert.pl ParlaMint-HR/ParlaMint-HR.ana.xml ParlaMint-HR
+	#Scripts/parlamint-tei2vert.pl ParlaMint-HU/ParlaMint-HU.ana.xml ParlaMint-HU
 	Scripts/parlamint-tei2vert.pl ParlaMint-IS/ParlaMint-IS.ana.xml ParlaMint-IS
+	#Scripts/parlamint-tei2vert.pl ParlaMint-IT/ParlaMint-IT.ana.xml ParlaMint-IT
+	#Scripts/parlamint-tei2vert.pl ParlaMint-LT/ParlaMint-LT.ana.xml ParlaMint-LT
+	#Scripts/parlamint-tei2vert.pl ParlaMint-LV/ParlaMint-LV.ana.xml ParlaMint-LV
+	Scripts/parlamint-tei2vert.pl ParlaMint-NL/ParlaMint-NL.ana.xml ParlaMint-NL
 	Scripts/parlamint-tei2vert.pl ParlaMint-PL/ParlaMint-PL.ana.xml ParlaMint-PL
+	#Scripts/parlamint-tei2vert.pl ParlaMint-RO/ParlaMint-RO.ana.xml ParlaMint-RO
 	Scripts/parlamint-tei2vert.pl ParlaMint-SI/ParlaMint-SI.ana.xml ParlaMint-SI
+	#Scripts/parlamint-tei2vert.pl ParlaMint-TR/ParlaMint-TR.ana.xml ParlaMint-TR
 
 #Make ParlaMint corpus root
 root:

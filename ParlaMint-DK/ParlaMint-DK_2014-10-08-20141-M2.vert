@@ -1,18 +1,18 @@
 <text id="ParlaMint-DK_2014-10-08-20141-M2.ana" subcorpus="Reference" term="-" session="20141" meeting="-" sitting="2" agenda="-" from="2014-10-08" to="2014-10-08" title="Hansard of the session of the Danish Parliament (Folketinget), 20141, M2 (2014-10-08), final version">
 <note type="head">
-/Punkt 0/	_	_	_	_	_	_	_	_	_	_
+/Punkt 0/	-	-	-	-	-	-	-	-	-	-
 </note>
 <note type="agendaItem">
-/2014-10-08-0/	_	_	_	_	_	_	_	_	_	_
+/2014-10-08-0/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-DK_20141008130000" speaker_id="LykketoftMogens" speaker_name="Lykketoft, Mogens" speaker_role="Chairperson" speaker_type="MP" speaker_party="S" speaker_party_name="Socialdemokratiet" speaker_gender="M" speaker_birth="1946">
+<speech id="ParlaMint-DK_20141008130000" speaker_role="Chairperson" speaker_id="LykketoftMogens" speaker_name="Lykketoft, Mogens" speaker_type="MP" speaker_party="S" speaker_party_name="Socialdemokratiet" speaker_gender="M" speaker_birth="1946">
 <p id="ParlaMint-DK_20141008130000.seg1" lang="Danish">
 <s id="ParlaMint-DK_20141008130000.seg1.1">
 Mødet	Mødet	møde	NOUN	Definite=Def Gender=Neut Number=Sing	1	nsubj	åbne	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
 er	er	være	AUX	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	2	aux	åbne	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
 åbnet	åbnet	åbne	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3	root	-	-	-	-
 <g/>
-.	.	.	PUNCT	_	4	punct	åbne	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
+.	.	.	PUNCT	-	4	punct	åbne	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.2">
 I	I	i	ADP	AdpType=Prep	1	advmod	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	3
@@ -22,399 +22,399 @@ der	der	der	ADV	PartType=Inf	4	expl	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin 
 følgende	følgende	følge	VERB	Tense=Pres VerbForm=Part	5	amod	anmeldelse	NOUN	Definite=Ind Gender=Com Number=Plur	6
 anmeldelser	anmeldelser	anmeldelse	NOUN	Definite=Ind Gender=Com Number=Plur	6	obj	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	3
 <g/>
-:	:	:	PUNCT	_	7	punct	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	3
+:	:	:	PUNCT	-	7	punct	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	3
 Skatteministeren	Skatteministeren	skatteminister	NOUN	Definite=Def Gender=Com Number=Sing	8	nsubj	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	3
-(	(	(	PUNCT	_	9	punct	Benny	PROPN	_	10
+(	(	(	PUNCT	-	9	punct	Benny	PROPN	-	10
 <g/>
 <name type="PER">
-Benny	Benny	Benny	PROPN	_	10	appos	skatteminister	NOUN	Definite=Def Gender=Com Number=Sing	8
-Engelbrecht	Engelbrecht	Engelbrecht	PROPN	_	11	flat	Benny	PROPN	_	10
+Benny	Benny	Benny	PROPN	-	10	appos	skatteminister	NOUN	Definite=Def Gender=Com Number=Sing	8
+Engelbrecht	Engelbrecht	Engelbrecht	PROPN	-	11	flat	Benny	PROPN	-	10
 <g/>
 </name>
-)	)	)	PUNCT	_	12	punct	Benny	PROPN	_	10
+)	)	)	PUNCT	-	12	punct	Benny	PROPN	-	10
 <g/>
-:	:	:	PUNCT	_	13	punct	skatteminister	NOUN	Definite=Def Gender=Com Number=Sing	8
-Lovforslag	Lovforslag	lovforslage	VERB	Mood=Imp	14	acl_relcl	skatteminister	NOUN	Definite=Def Gender=Com Number=Sing	8
+:	:	:	PUNCT	-	13	punct	skatteminister	NOUN	Definite=Def Gender=Com Number=Sing	8
+Lovforslag	Lovforslag	lovforslage	VERB	Mood=Imp	14	acl:relcl	skatteminister	NOUN	Definite=Def Gender=Com Number=Sing	8
 nr.	nr.	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	15	obj	lovforslage	VERB	Mood=Imp	14
 L	L	l	NOUN	Definite=Ind Gender=Neut Number=Sing	16	nmod	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	15
 4	4	4	NUM	NumType=Card	17	nmod	l	NOUN	Definite=Ind Gender=Neut Number=Sing	16
-(	(	(	PUNCT	_	18	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	19
+(	(	(	PUNCT	-	18	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	19
 <g/>
 Forslag	Forslag	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	19	obl	lovforslage	VERB	Mood=Imp	14
-til	til	til	ADP	AdpType=Prep	20	case	lov	NOUN	_	21
-lov	lov	lov	NOUN	_	21	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	19
+til	til	til	ADP	AdpType=Prep	20	case	lov	NOUN	-	21
+lov	lov	lov	NOUN	-	21	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	19
 om	om	om	ADP	AdpType=Prep	22	case	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	23
 ændring	ændring	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	23	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	19
-af	af	af	ADP	AdpType=Prep	24	case	lov	NOUN	_	25
-lov	lov	lov	NOUN	_	25	nmod	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	23
+af	af	af	ADP	AdpType=Prep	24	case	lov	NOUN	-	25
+lov	lov	lov	NOUN	-	25	nmod	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	23
 om	om	om	ADP	AdpType=Prep	26	case	afgift	NOUN	Definite=Ind Gender=Com Number=Sing	27
-afgift	afgift	afgift	NOUN	Definite=Ind Gender=Com Number=Sing	27	nmod	lov	NOUN	_	25
+afgift	afgift	afgift	NOUN	Definite=Ind Gender=Com Number=Sing	27	nmod	lov	NOUN	-	25
 af	af	af	ADP	AdpType=Prep	28	case	elektricitet	NOUN	Definite=Def Gender=Neut Number=Sing	29
 elektricitet	elektricitet	elektricitet	NOUN	Definite=Def Gender=Neut Number=Sing	29	nmod	afgift	NOUN	Definite=Ind Gender=Com Number=Sing	27
 <g/>
-,	,	,	PUNCT	_	30	punct	lovforslage	VERB	Mood=Imp	14
+,	,	,	PUNCT	-	30	punct	lovforslage	VERB	Mood=Imp	14
 lov	lov	lov	NOUN	Definite=Ind Gender=Com Number=Sing	31	obj	lovforslage	VERB	Mood=Imp	14
 om	om	om	ADP	AdpType=Prep	32	case	afgift	NOUN	Definite=Ind Gender=Com Number=Sing	33
 afgift	afgift	afgift	NOUN	Definite=Ind Gender=Com Number=Sing	33	nmod	lov	NOUN	Definite=Ind Gender=Com Number=Sing	31
 af	af	af	ADP	AdpType=Prep	34	case	stenkul	NOUN	Definite=Ind Gender=Neut Number=Plur	35
 stenkul	stenkul	stenkul	NOUN	Definite=Ind Gender=Neut Number=Plur	35	nmod	lov	NOUN	Definite=Ind Gender=Com Number=Sing	31
 <g/>
-,	,	,	PUNCT	_	36	punct	stenkul	NOUN	Definite=Ind Gender=Neut Number=Plur	35
+,	,	,	PUNCT	-	36	punct	stenkul	NOUN	Definite=Ind Gender=Neut Number=Plur	35
 brunkul	brunkul	brunkul	NOUN	Definite=Ind Gender=Com Number=Sing	37	conj	stenkul	NOUN	Definite=Ind Gender=Neut Number=Plur	35
-og	og	og	CCONJ	_	38	cc	kok	NOUN	Definite=Ind Gender=Com Number=Sing	39
+og	og	og	CCONJ	-	38	cc	kok	NOUN	Definite=Ind Gender=Com Number=Sing	39
 koks	koks	kok	NOUN	Definite=Ind Gender=Com Number=Sing	39	conj	stenkul	NOUN	Definite=Ind Gender=Neut Number=Plur	35
-m.v.	m.v.	m.v.	ADV	_	40	advmod	lovforslage	VERB	Mood=Imp	14
-,	,	,	PUNCT	_	41	punct	m.v.	ADV	_	40
-personskatteloven	personskatteloven	personskattelov	NOUN	Definite=Def Gender=Com Number=Sing	42	conj	m.v.	ADV	_	40
-og	og	og	CCONJ	_	43	cc	lov	NOUN	Definite=Ind Gender=Neut Number=Plur	46
+m.v.	m.v.	m.v.	ADV	-	40	advmod	lovforslage	VERB	Mood=Imp	14
+,	,	,	PUNCT	-	41	punct	m.v.	ADV	-	40
+personskatteloven	personskatteloven	personskattelov	NOUN	Definite=Def Gender=Com Number=Sing	42	conj	m.v.	ADV	-	40
+og	og	og	CCONJ	-	43	cc	lov	NOUN	Definite=Ind Gender=Neut Number=Plur	46
 forskellige	forskellige	forskellig	ADJ	Degree=Pos Number=Plur	44	amod	lov	NOUN	Definite=Ind Gender=Neut Number=Plur	46
 andre	andre	anden	DET	Number=Plur PronType=Ind	45	det	lov	NOUN	Definite=Ind Gender=Neut Number=Plur	46
-love	love	lov	NOUN	Definite=Ind Gender=Neut Number=Plur	46	conj	m.v.	ADV	_	40
+love	love	lov	NOUN	Definite=Ind Gender=Neut Number=Plur	46	conj	m.v.	ADV	-	40
 <g/>
-.	.	.	PUNCT	_	47	punct	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	3
+.	.	.	PUNCT	-	47	punct	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	3
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.3">
 Lovforslag	Lovforslag	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	1	root	-	-	-	-
 nr.	nr.	nr.	ADP	AdpType=Prep	2	case	l	NOUN	Definite=Ind Gender=Neut Number=Sing	3
 L	L	l	NOUN	Definite=Ind Gender=Neut Number=Sing	3	nmod	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	1
 5	5	5	NUM	NumType=Card	4	nmod	l	NOUN	Definite=Ind Gender=Neut Number=Sing	3
-(	(	(	PUNCT	_	5	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
+(	(	(	PUNCT	-	5	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 <g/>
 Forslag	Forslag	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6	nmod	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	24
-til	til	til	ADP	AdpType=Prep	7	case	lov	NOUN	_	8
-lov	lov	lov	NOUN	_	8	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
+til	til	til	ADP	AdpType=Prep	7	case	lov	NOUN	-	8
+lov	lov	lov	NOUN	-	8	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 om	om	om	ADP	AdpType=Prep	9	case	indgåelse	NOUN	Definite=Ind Gender=Com Number=Sing	10
-indgåelse	indgåelse	indgåelse	NOUN	Definite=Ind Gender=Com Number=Sing	10	nmod	lov	NOUN	_	8
+indgåelse	indgåelse	indgåelse	NOUN	Definite=Ind Gender=Com Number=Sing	10	nmod	lov	NOUN	-	8
 af	af	af	ADP	AdpType=Prep	11	case	protokol	NOUN	Definite=Ind Gender=Neut Number=Plur	12
 protokol	protokol	protokol	NOUN	Definite=Ind Gender=Neut Number=Plur	12	nmod	indgåelse	NOUN	Definite=Ind Gender=Com Number=Sing	10
 om	om	om	ADP	AdpType=Prep	13	case	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	14
 ændring	ændring	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	14	nmod	protokol	NOUN	Definite=Ind Gender=Neut Number=Plur	12
 af	af	af	ADP	AdpType=Prep	15	case	dobbeltbeskatningsoverenskomst	NOUN	Definite=Def Gender=Com Number=Sing	16
 dobbeltbeskatningsoverenskomsten	dobbeltbeskatningsoverenskomsten	dobbeltbeskatningsoverenskomst	NOUN	Definite=Def Gender=Com Number=Sing	16	nmod	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	14
-mellem	mellem	mellem	ADP	AdpType=Prep	17	case	Danmark	PROPN	_	18
+mellem	mellem	mellem	ADP	AdpType=Prep	17	case	Danmark	PROPN	-	18
 <name type="LOC">
-Danmark	Danmark	Danmark	PROPN	_	18	nmod	dobbeltbeskatningsoverenskomst	NOUN	Definite=Def Gender=Com Number=Sing	16
+Danmark	Danmark	Danmark	PROPN	-	18	nmod	dobbeltbeskatningsoverenskomst	NOUN	Definite=Def Gender=Com Number=Sing	16
 </name>
-og	og	og	CCONJ	_	19	cc	Irland	PROPN	_	20
+og	og	og	CCONJ	-	19	cc	Irland	PROPN	-	20
 <name type="LOC">
-Irland	Irland	Irland	PROPN	_	20	conj	Danmark	PROPN	_	18
+Irland	Irland	Irland	PROPN	-	20	conj	Danmark	PROPN	-	18
 <g/>
 </name>
-)	)	)	PUNCT	_	21	punct	Danmark	PROPN	_	18
+)	)	)	PUNCT	-	21	punct	Danmark	PROPN	-	18
 <g/>
-,	,	,	PUNCT	_	22	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
+,	,	,	PUNCT	-	22	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 Lovforslag	Lovforslag	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	23	conj	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 nr.	nr.	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	24	nmod	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	1
 L	L	l	NOUN	Definite=Ind Gender=Com Number=Sing	25	nmod	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	24
 6	6	6	NUM	NumType=Card	26	nmod	l	NOUN	Definite=Ind Gender=Com Number=Sing	25
-(	(	(	PUNCT	_	27	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	28
+(	(	(	PUNCT	-	27	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	28
 <g/>
 Forslag	Forslag	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	28	appos	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	24
-til	til	til	ADP	AdpType=Prep	29	case	lov	NOUN	_	30
-lov	lov	lov	NOUN	_	30	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	28
+til	til	til	ADP	AdpType=Prep	29	case	lov	NOUN	-	30
+lov	lov	lov	NOUN	-	30	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	28
 om	om	om	ADP	AdpType=Prep	31	case	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	32
-ændring	ændring	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	32	nmod	lov	NOUN	_	30
-af	af	af	ADP	AdpType=Prep	33	case	lov	NOUN	_	34
-lov	lov	lov	NOUN	_	34	nmod	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	32
+ændring	ændring	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	32	nmod	lov	NOUN	-	30
+af	af	af	ADP	AdpType=Prep	33	case	lov	NOUN	-	34
+lov	lov	lov	NOUN	-	34	nmod	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	32
 om	om	om	ADP	AdpType=Prep	35	case	indgåelse	NOUN	Definite=Ind Gender=Com Number=Sing	36
-indgåelse	indgåelse	indgåelse	NOUN	Definite=Ind Gender=Com Number=Sing	36	nmod	lov	NOUN	_	34
+indgåelse	indgåelse	indgåelse	NOUN	Definite=Ind Gender=Com Number=Sing	36	nmod	lov	NOUN	-	34
 af	af	af	ADP	AdpType=Prep	37	case	protokol	NOUN	Definite=Ind Gender=Neut Number=Plur	38
 protokoller	protokoller	protokol	NOUN	Definite=Ind Gender=Neut Number=Plur	38	nmod	indgåelse	NOUN	Definite=Ind Gender=Com Number=Sing	36
 om	om	om	ADP	AdpType=Prep	39	case	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	40
 ændring	ændring	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	40	nmod	protokol	NOUN	Definite=Ind Gender=Neut Number=Plur	38
 af	af	af	ADP	AdpType=Prep	41	case	dobbeltbeskatningsoverenskomst	NOUN	Definite=Ind Gender=Com Number=Plur	42
 dobbeltbeskatningsoverenskomster	dobbeltbeskatningsoverenskomster	dobbeltbeskatningsoverenskomst	NOUN	Definite=Ind Gender=Com Number=Plur	42	nmod	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	40
-mellem	mellem	mellem	ADP	AdpType=Prep	43	case	Danmark	PROPN	_	44
+mellem	mellem	mellem	ADP	AdpType=Prep	43	case	Danmark	PROPN	-	44
 <name type="LOC">
-Danmark	Danmark	Danmark	PROPN	_	44	nmod	dobbeltbeskatningsoverenskomst	NOUN	Definite=Ind Gender=Com Number=Plur	42
+Danmark	Danmark	Danmark	PROPN	-	44	nmod	dobbeltbeskatningsoverenskomst	NOUN	Definite=Ind Gender=Com Number=Plur	42
 </name>
-og	og	og	CCONJ	_	45	dep	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	28
-henholdsvis	henholdsvis	henholdsvis	ADV	_	46	advmod	Belgien	PROPN	_	47
+og	og	og	CCONJ	-	45	dep	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	28
+henholdsvis	henholdsvis	henholdsvis	ADV	-	46	advmod	Belgien	PROPN	-	47
 <name type="LOC">
-Belgien	Belgien	Belgien	PROPN	_	47	conj	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	28
+Belgien	Belgien	Belgien	PROPN	-	47	conj	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	28
 <g/>
 </name>
-,	,	,	PUNCT	_	48	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	28
+,	,	,	PUNCT	-	48	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	28
 <name type="LOC">
-Luxembourg	Luxembourg	Luxembourg	PROPN	_	49	conj	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	28
+Luxembourg	Luxembourg	Luxembourg	PROPN	-	49	conj	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	28
 <g/>
 </name>
-,	,	,	PUNCT	_	50	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	28
+,	,	,	PUNCT	-	50	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	28
 <name type="LOC">
-Singapore	Singapore	Singapore	PROPN	_	51	conj	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	28
+Singapore	Singapore	Singapore	PROPN	-	51	conj	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	28
 </name>
-og	og	og	CCONJ	_	52	cc	Østrig	PROPN	_	53
+og	og	og	CCONJ	-	52	cc	Østrig	PROPN	-	53
 <name type="LOC">
-Østrig	Østrig	Østrig	PROPN	_	53	conj	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	28
+Østrig	Østrig	Østrig	PROPN	-	53	conj	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	28
 <g/>
 </name>
-.	.	.	PUNCT	_	54	punct	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	1
+.	.	.	PUNCT	-	54	punct	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	1
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.4">
 Lovforslag	Lovforslag	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	1	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 nr.	nr.	nr.	ADP	AdpType=Prep	2	case	l	NOUN	Definite=Ind Gender=Com Number=Sing	3
 L	L	l	NOUN	Definite=Ind Gender=Com Number=Sing	3	nmod	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	1
 7	7	7	NUM	NumType=Card	4	nmod	l	NOUN	Definite=Ind Gender=Com Number=Sing	3
-(	(	(	PUNCT	_	5	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
+(	(	(	PUNCT	-	5	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 <g/>
 Forslag	Forslag	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6	root	-	-	-	-
-til	til	til	ADP	AdpType=Prep	7	case	lov	NOUN	_	8
-lov	lov	lov	NOUN	_	8	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
+til	til	til	ADP	AdpType=Prep	7	case	lov	NOUN	-	8
+lov	lov	lov	NOUN	-	8	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 om	om	om	ADP	AdpType=Prep	9	case	indgåelse	NOUN	Definite=Ind Gender=Com Number=Sing	10
-indgåelse	indgåelse	indgåelse	NOUN	Definite=Ind Gender=Com Number=Sing	10	nmod	lov	NOUN	_	8
+indgåelse	indgåelse	indgåelse	NOUN	Definite=Ind Gender=Com Number=Sing	10	nmod	lov	NOUN	-	8
 af	af	af	ADP	AdpType=Prep	11	case	protokol	NOUN	Definite=Ind Gender=Neut Number=Plur	12
 protokol	protokol	protokol	NOUN	Definite=Ind Gender=Neut Number=Plur	12	nmod	indgåelse	NOUN	Definite=Ind Gender=Com Number=Sing	10
 om	om	om	ADP	AdpType=Prep	13	case	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	14
 ændring	ændring	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	14	nmod	protokol	NOUN	Definite=Ind Gender=Neut Number=Plur	12
 af	af	af	ADP	AdpType=Prep	15	case	dobbeltbeskatningsoverenskomst	NOUN	Definite=Def Gender=Com Number=Sing	16
 dobbeltbeskatningsoverenskomsten	dobbeltbeskatningsoverenskomsten	dobbeltbeskatningsoverenskomst	NOUN	Definite=Def Gender=Com Number=Sing	16	nmod	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	14
-mellem	mellem	mellem	ADP	AdpType=Prep	17	case	Danmark	PROPN	_	18
+mellem	mellem	mellem	ADP	AdpType=Prep	17	case	Danmark	PROPN	-	18
 <name type="LOC">
-Danmark	Danmark	Danmark	PROPN	_	18	nmod	dobbeltbeskatningsoverenskomst	NOUN	Definite=Def Gender=Com Number=Sing	16
+Danmark	Danmark	Danmark	PROPN	-	18	nmod	dobbeltbeskatningsoverenskomst	NOUN	Definite=Def Gender=Com Number=Sing	16
 </name>
-og	og	og	CCONJ	_	19	cc	Indien	PROPN	_	20
+og	og	og	CCONJ	-	19	cc	Indien	PROPN	-	20
 <name type="LOC">
-Indien	Indien	Indien	PROPN	_	20	conj	Danmark	PROPN	_	18
+Indien	Indien	Indien	PROPN	-	20	conj	Danmark	PROPN	-	18
 <g/>
 </name>
-)	)	)	PUNCT	_	21	punct	Danmark	PROPN	_	18
+)	)	)	PUNCT	-	21	punct	Danmark	PROPN	-	18
 <g/>
-,	,	,	PUNCT	_	22	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
+,	,	,	PUNCT	-	22	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 Lovforslag	Lovforslag	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	23	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	28
 nr.	nr.	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	24	nmod	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	23
 L	L	l	NOUN	Definite=Ind Gender=Com Number=Sing	25	nmod	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	24
 8	8	8	NUM	NumType=Card	26	nmod	l	NOUN	Definite=Ind Gender=Com Number=Sing	25
-(	(	(	PUNCT	_	27	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	28
+(	(	(	PUNCT	-	27	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	28
 <g/>
 Forslag	Forslag	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	28	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
-til	til	til	ADP	AdpType=Prep	29	case	lov	NOUN	_	30
-lov	lov	lov	NOUN	_	30	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	28
+til	til	til	ADP	AdpType=Prep	29	case	lov	NOUN	-	30
+lov	lov	lov	NOUN	-	30	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	28
 om	om	om	ADP	AdpType=Prep	31	case	indgåelse	NOUN	Definite=Ind Gender=Com Number=Sing	32
-indgåelse	indgåelse	indgåelse	NOUN	Definite=Ind Gender=Com Number=Sing	32	nmod	lov	NOUN	_	30
+indgåelse	indgåelse	indgåelse	NOUN	Definite=Ind Gender=Com Number=Sing	32	nmod	lov	NOUN	-	30
 af	af	af	ADP	AdpType=Prep	33	case	dobbeltbeskatningsoverenskomst	NOUN	Definite=Ind Gender=Com Number=Sing	34
 dobbeltbeskatningsoverenskomst	dobbeltbeskatningsoverenskomst	dobbeltbeskatningsoverenskomst	NOUN	Definite=Ind Gender=Com Number=Sing	34	nmod	indgåelse	NOUN	Definite=Ind Gender=Com Number=Sing	32
-mellem	mellem	mellem	ADP	AdpType=Prep	35	case	Danmark	PROPN	_	36
+mellem	mellem	mellem	ADP	AdpType=Prep	35	case	Danmark	PROPN	-	36
 <name type="LOC">
-Danmark	Danmark	Danmark	PROPN	_	36	nmod	dobbeltbeskatningsoverenskomst	NOUN	Definite=Ind Gender=Com Number=Sing	34
+Danmark	Danmark	Danmark	PROPN	-	36	nmod	dobbeltbeskatningsoverenskomst	NOUN	Definite=Ind Gender=Com Number=Sing	34
 </name>
-og	og	og	CCONJ	_	37	cc	Ghana	PROPN	_	38
+og	og	og	CCONJ	-	37	cc	Ghana	PROPN	-	38
 <name type="LOC">
-Ghana	Ghana	Ghana	PROPN	_	38	conj	Danmark	PROPN	_	36
+Ghana	Ghana	Ghana	PROPN	-	38	conj	Danmark	PROPN	-	36
 <g/>
 </name>
-)	)	)	PUNCT	_	39	punct	Danmark	PROPN	_	36
+)	)	)	PUNCT	-	39	punct	Danmark	PROPN	-	36
 <g/>
-,	,	,	PUNCT	_	40	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	28
+,	,	,	PUNCT	-	40	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	28
 Lovforslag	Lovforslag	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	41	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	46
 nr.	nr.	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	42	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	46
 L	L	l	NOUN	Definite=Ind Gender=Com Number=Sing	43	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	46
 9	9	9	NUM	NumType=Card	44	nummod	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	46
-(	(	(	PUNCT	_	45	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	46
+(	(	(	PUNCT	-	45	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	46
 <g/>
 Forslag	Forslag	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	46	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	28
-til	til	til	ADP	AdpType=Prep	47	case	lov	NOUN	_	48
-lov	lov	lov	NOUN	_	48	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	46
+til	til	til	ADP	AdpType=Prep	47	case	lov	NOUN	-	48
+lov	lov	lov	NOUN	-	48	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	46
 om	om	om	ADP	AdpType=Prep	49	case	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	50
-ændring	ændring	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	50	nmod	lov	NOUN	_	48
+ændring	ændring	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	50	nmod	lov	NOUN	-	48
 af	af	af	ADP	AdpType=Prep	51	case	momslov	NOUN	Definite=Def Gender=Com Number=Sing	52
 momsloven	momsloven	momslov	NOUN	Definite=Def Gender=Com Number=Sing	52	nmod	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	50
 <g/>
-,	,	,	PUNCT	_	53	punct	lov	NOUN	_	48
-skattekontrolloven	skattekontrolloven	skattekontrollov	NOUN	Definite=Def Gender=Com Number=Sing	54	conj	lov	NOUN	_	48
-og	og	og	CCONJ	_	55	cc	ligningslov	NOUN	Definite=Def Gender=Com Number=Sing	56
-ligningsloven	ligningsloven	ligningslov	NOUN	Definite=Def Gender=Com Number=Sing	56	conj	lov	NOUN	_	48
+,	,	,	PUNCT	-	53	punct	lov	NOUN	-	48
+skattekontrolloven	skattekontrolloven	skattekontrollov	NOUN	Definite=Def Gender=Com Number=Sing	54	conj	lov	NOUN	-	48
+og	og	og	CCONJ	-	55	cc	ligningslov	NOUN	Definite=Def Gender=Com Number=Sing	56
+ligningsloven	ligningsloven	ligningslov	NOUN	Definite=Def Gender=Com Number=Sing	56	conj	lov	NOUN	-	48
 <g/>
-.	.	.	PUNCT	_	57	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	46
+.	.	.	PUNCT	-	57	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	46
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.5">
 Lovforslag	Lovforslag	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	1	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 nr.	nr.	nr.	ADP	AdpType=Prep	2	case	l	NOUN	Definite=Ind Gender=Neut Number=Sing	3
 L	L	l	NOUN	Definite=Ind Gender=Neut Number=Sing	3	nmod	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	1
 10	10	10	NUM	NumType=Card	4	nmod	l	NOUN	Definite=Ind Gender=Neut Number=Sing	3
-(	(	(	PUNCT	_	5	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
+(	(	(	PUNCT	-	5	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 <g/>
 Forslag	Forslag	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6	root	-	-	-	-
-til	til	til	ADP	AdpType=Prep	7	case	lov	NOUN	_	8
-lov	lov	lov	NOUN	_	8	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
+til	til	til	ADP	AdpType=Prep	7	case	lov	NOUN	-	8
+lov	lov	lov	NOUN	-	8	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 om	om	om	ADP	AdpType=Prep	9	case	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	10
-ændring	ændring	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	10	nmod	lov	NOUN	_	8
+ændring	ændring	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	10	nmod	lov	NOUN	-	8
 af	af	af	ADP	AdpType=Prep	11	case	aktieavancebeskatningslov	NOUN	Definite=Def Gender=Com Number=Sing	12
 aktieavancebeskatningsloven	aktieavancebeskatningsloven	aktieavancebeskatningslov	NOUN	Definite=Def Gender=Com Number=Sing	12	nmod	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	10
 <g/>
-,	,	,	PUNCT	_	13	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
+,	,	,	PUNCT	-	13	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 ligningsloven	ligningsloven	ligningslov	NOUN	Definite=Def Gender=Com Number=Sing	14	conj	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 <g/>
-,	,	,	PUNCT	_	15	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
+,	,	,	PUNCT	-	15	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 selskabsskatteloven	selskabsskatteloven	selskabsskattelov	NOUN	Definite=Def Gender=Com Number=Sing	16	conj	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
-og	og	og	CCONJ	_	17	cc	lov	NOUN	Definite=Ind Gender=Neut Number=Plur	20
+og	og	og	CCONJ	-	17	cc	lov	NOUN	Definite=Ind Gender=Neut Number=Plur	20
 forskellige	forskellige	forskellig	ADJ	Degree=Pos Number=Plur	18	amod	lov	NOUN	Definite=Ind Gender=Neut Number=Plur	20
 andre	andre	anden	DET	Number=Plur PronType=Ind	19	det	lov	NOUN	Definite=Ind Gender=Neut Number=Plur	20
 love	love	lov	NOUN	Definite=Ind Gender=Neut Number=Plur	20	conj	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 <g/>
-.	.	.	PUNCT	_	21	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
+.	.	.	PUNCT	-	21	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.6">
-Økonomi-	Økonomi-	økonomi-	X	_	1	root	-	-	-	-
-og	og	og	CCONJ	_	2	cc	indenrigsminister	NOUN	Definite=Def Gender=Com Number=Sing	3
-indenrigsministeren	indenrigsministeren	indenrigsminister	NOUN	Definite=Def Gender=Com Number=Sing	3	conj	økonomi-	X	_	1
-(	(	(	PUNCT	_	4	punct	Morten	PROPN	_	5
+Økonomi-	Økonomi-	økonomi-	X	-	1	root	-	-	-	-
+og	og	og	CCONJ	-	2	cc	indenrigsminister	NOUN	Definite=Def Gender=Com Number=Sing	3
+indenrigsministeren	indenrigsministeren	indenrigsminister	NOUN	Definite=Def Gender=Com Number=Sing	3	conj	økonomi-	X	-	1
+(	(	(	PUNCT	-	4	punct	Morten	PROPN	-	5
 <g/>
 <name type="PER">
-Morten	Morten	Morten	PROPN	_	5	list	økonomi-	X	_	1
-Østergaard	Østergaard	Østergaard	PROPN	_	6	flat	Morten	PROPN	_	5
+Morten	Morten	Morten	PROPN	-	5	list	økonomi-	X	-	1
+Østergaard	Østergaard	Østergaard	PROPN	-	6	flat	Morten	PROPN	-	5
 <g/>
 </name>
-)	)	)	PUNCT	_	7	punct	Morten	PROPN	_	5
+)	)	)	PUNCT	-	7	punct	Morten	PROPN	-	5
 <g/>
-:	:	:	PUNCT	_	8	punct	økonomi-	X	_	1
+:	:	:	PUNCT	-	8	punct	økonomi-	X	-	1
 Lovforslag	Lovforslag	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	9	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	14
 nr.	nr.	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	10	nmod	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	9
 L	L	l	NOUN	Definite=Ind Gender=Com Number=Sing	11	nmod	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	10
 12	12	12	NUM	NumType=Card	12	nmod	l	NOUN	Definite=Ind Gender=Com Number=Sing	11
-(	(	(	PUNCT	_	13	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	14
+(	(	(	PUNCT	-	13	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	14
 <g/>
-Forslag	Forslag	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	14	list	økonomi-	X	_	1
-til	til	til	ADP	AdpType=Prep	15	case	lov	NOUN	_	16
-lov	lov	lov	NOUN	_	16	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	14
+Forslag	Forslag	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	14	list	økonomi-	X	-	1
+til	til	til	ADP	AdpType=Prep	15	case	lov	NOUN	-	16
+lov	lov	lov	NOUN	-	16	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	14
 om	om	om	ADP	AdpType=Prep	17	case	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	18
-ændring	ændring	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	18	nmod	lov	NOUN	_	16
-af	af	af	ADP	AdpType=Prep	19	case	lov	NOUN	_	20
-lov	lov	lov	NOUN	_	20	nmod	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	18
+ændring	ændring	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	18	nmod	lov	NOUN	-	16
+af	af	af	ADP	AdpType=Prep	19	case	lov	NOUN	-	20
+lov	lov	lov	NOUN	-	20	nmod	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	18
 om	om	om	ADP	AdpType=Prep	21	case	frikommune	NOUN	Definite=Ind Gender=Com Number=Plur	22
-frikommuner	frikommuner	frikommune	NOUN	Definite=Ind Gender=Com Number=Plur	22	nmod	lov	NOUN	_	20
-m.v.	m.v.	m.v.	ADV	_	23	advmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	14
+frikommuner	frikommuner	frikommune	NOUN	Definite=Ind Gender=Com Number=Plur	22	nmod	lov	NOUN	-	20
+m.v.	m.v.	m.v.	ADV	-	23	advmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	14
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.7">
 Beskæftigelsesministeren	Beskæftigelsesministeren	beskæftigelsesminister	NOUN	Definite=Def Gender=Com Number=Sing	1	root	-	-	-	-
-(	(	(	PUNCT	_	2	punct	Mette	PROPN	_	3
+(	(	(	PUNCT	-	2	punct	Mette	PROPN	-	3
 <g/>
 <name type="PER">
-Mette	Mette	Mette	PROPN	_	3	appos	beskæftigelsesminister	NOUN	Definite=Def Gender=Com Number=Sing	1
-Frederiksen	Frederiksen	Frederiksen	PROPN	_	4	flat	Mette	PROPN	_	3
+Mette	Mette	Mette	PROPN	-	3	appos	beskæftigelsesminister	NOUN	Definite=Def Gender=Com Number=Sing	1
+Frederiksen	Frederiksen	Frederiksen	PROPN	-	4	flat	Mette	PROPN	-	3
 <g/>
 </name>
-)	)	)	PUNCT	_	5	punct	Mette	PROPN	_	3
+)	)	)	PUNCT	-	5	punct	Mette	PROPN	-	3
 <g/>
-:	:	:	PUNCT	_	6	punct	beskæftigelsesminister	NOUN	Definite=Def Gender=Com Number=Sing	1
+:	:	:	PUNCT	-	6	punct	beskæftigelsesminister	NOUN	Definite=Def Gender=Com Number=Sing	1
 Lovforslag	Lovforslag	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	7	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	12
 nr.	nr.	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	8	nmod	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	7
 L	L	l	NOUN	Definite=Ind Gender=Com Number=Sing	9	nmod	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	8
 13	13	13	NUM	NumType=Card	10	nmod	l	NOUN	Definite=Ind Gender=Com Number=Sing	9
-(	(	(	PUNCT	_	11	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	12
+(	(	(	PUNCT	-	11	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	12
 <g/>
 Forslag	Forslag	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	12	list	beskæftigelsesminister	NOUN	Definite=Def Gender=Com Number=Sing	1
-til	til	til	ADP	AdpType=Prep	13	case	lov	NOUN	_	14
-lov	lov	lov	NOUN	_	14	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	12
+til	til	til	ADP	AdpType=Prep	13	case	lov	NOUN	-	14
+lov	lov	lov	NOUN	-	14	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	12
 om	om	om	ADP	AdpType=Prep	15	case	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	16
-ændring	ændring	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	16	nmod	lov	NOUN	_	14
-af	af	af	ADP	AdpType=Prep	17	case	lov	NOUN	_	18
-lov	lov	lov	NOUN	_	18	nmod	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	16
+ændring	ændring	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	16	nmod	lov	NOUN	-	14
+af	af	af	ADP	AdpType=Prep	17	case	lov	NOUN	-	18
+lov	lov	lov	NOUN	-	18	nmod	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	16
 om	om	om	ADP	AdpType=Prep	19	case	socialpolitik	NOUN	Definite=Ind Gender=Com Number=Sing	21
 aktiv	aktiv	aktiv	ADJ	Definite=Ind Degree=Pos Gender=Com Number=Sing	20	amod	socialpolitik	NOUN	Definite=Ind Gender=Com Number=Sing	21
-socialpolitik	socialpolitik	socialpolitik	NOUN	Definite=Ind Gender=Com Number=Sing	21	nmod	lov	NOUN	_	18
+socialpolitik	socialpolitik	socialpolitik	NOUN	Definite=Ind Gender=Com Number=Sing	21	nmod	lov	NOUN	-	18
 <g/>
-.	.	.	PUNCT	_	22	punct	beskæftigelsesminister	NOUN	Definite=Def Gender=Com Number=Sing	1
+.	.	.	PUNCT	-	22	punct	beskæftigelsesminister	NOUN	Definite=Def Gender=Com Number=Sing	1
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.8">
 Lovforslag	Lovforslag	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	1	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 nr.	nr.	nr.	ADP	AdpType=Prep	2	case	l	NOUN	Definite=Ind Gender=Com Number=Sing	3
 L	L	l	NOUN	Definite=Ind Gender=Com Number=Sing	3	nmod	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	1
 14	14	14	NUM	NumType=Card	4	nmod	l	NOUN	Definite=Ind Gender=Com Number=Sing	3
-(	(	(	PUNCT	_	5	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
+(	(	(	PUNCT	-	5	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 <g/>
 Forslag	Forslag	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6	root	-	-	-	-
-til	til	til	ADP	AdpType=Prep	7	case	lov	NOUN	_	8
-lov	lov	lov	NOUN	_	8	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
+til	til	til	ADP	AdpType=Prep	7	case	lov	NOUN	-	8
+lov	lov	lov	NOUN	-	8	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 om	om	om	ADP	AdpType=Prep	9	case	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	10
-ændring	ændring	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	10	nmod	lov	NOUN	_	8
-af	af	af	ADP	AdpType=Prep	11	case	lov	NOUN	_	12
-lov	lov	lov	NOUN	_	12	nmod	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	10
+ændring	ændring	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	10	nmod	lov	NOUN	-	8
+af	af	af	ADP	AdpType=Prep	11	case	lov	NOUN	-	12
+lov	lov	lov	NOUN	-	12	nmod	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	10
 om	om	om	ADP	AdpType=Prep	13	case	ferie	NOUN	Definite=Ind Gender=Com Number=Sing	14
-ferie	ferie	ferie	NOUN	Definite=Ind Gender=Com Number=Sing	14	nmod	lov	NOUN	_	12
+ferie	ferie	ferie	NOUN	Definite=Ind Gender=Com Number=Sing	14	nmod	lov	NOUN	-	12
 <g/>
-.	.	.	PUNCT	_	15	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
+.	.	.	PUNCT	-	15	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.9">
-Erhvervs-	Erhvervs-	erhvervs-	X	_	1	root	-	-	-	-
-og	og	og	CCONJ	_	2	cc	vækstminister	NOUN	Definite=Def Gender=Com Number=Sing	3
-vækstministeren	vækstministeren	vækstminister	NOUN	Definite=Def Gender=Com Number=Sing	3	conj	erhvervs-	X	_	1
-(	(	(	PUNCT	_	4	punct	Henrik	PROPN	_	5
+Erhvervs-	Erhvervs-	erhvervs-	X	-	1	root	-	-	-	-
+og	og	og	CCONJ	-	2	cc	vækstminister	NOUN	Definite=Def Gender=Com Number=Sing	3
+vækstministeren	vækstministeren	vækstminister	NOUN	Definite=Def Gender=Com Number=Sing	3	conj	erhvervs-	X	-	1
+(	(	(	PUNCT	-	4	punct	Henrik	PROPN	-	5
 <g/>
 <name type="PER">
-Henrik	Henrik	Henrik	PROPN	_	5	appos	erhvervs-	X	_	1
-Sass	Sass	Sass	PROPN	_	6	flat	Henrik	PROPN	_	5
-Larsen	Larsen	Larsen	PROPN	_	7	flat	Henrik	PROPN	_	5
+Henrik	Henrik	Henrik	PROPN	-	5	appos	erhvervs-	X	-	1
+Sass	Sass	Sass	PROPN	-	6	flat	Henrik	PROPN	-	5
+Larsen	Larsen	Larsen	PROPN	-	7	flat	Henrik	PROPN	-	5
 <g/>
 </name>
-)	)	)	PUNCT	_	8	punct	Henrik	PROPN	_	5
+)	)	)	PUNCT	-	8	punct	Henrik	PROPN	-	5
 <g/>
-:	:	:	PUNCT	_	9	punct	erhvervs-	X	_	1
+:	:	:	PUNCT	-	9	punct	erhvervs-	X	-	1
 Lovforslag	Lovforslag	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	10	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	15
 nr.	nr.	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	11	nmod	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	10
 L	L	l	NOUN	Definite=Ind Gender=Com Number=Sing	12	nmod	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	11
 16	16	16	NUM	NumType=Card	13	nmod	l	NOUN	Definite=Ind Gender=Com Number=Sing	12
-(	(	(	PUNCT	_	14	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	15
+(	(	(	PUNCT	-	14	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	15
 <g/>
-Forslag	Forslag	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	15	list	erhvervs-	X	_	1
-til	til	til	ADP	AdpType=Prep	16	case	lov	NOUN	_	17
-lov	lov	lov	NOUN	_	17	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	15
+Forslag	Forslag	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	15	list	erhvervs-	X	-	1
+til	til	til	ADP	AdpType=Prep	16	case	lov	NOUN	-	17
+lov	lov	lov	NOUN	-	17	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	15
 om	om	om	ADP	AdpType=Prep	18	case	medarbejderinvesteringsselskab	NOUN	Definite=Ind Gender=Neut Number=Plur	19
-medarbejderinvesteringsselskaber	medarbejderinvesteringsselskaber	medarbejderinvesteringsselskab	NOUN	Definite=Ind Gender=Neut Number=Plur	19	nmod	lov	NOUN	_	17
+medarbejderinvesteringsselskaber	medarbejderinvesteringsselskaber	medarbejderinvesteringsselskab	NOUN	Definite=Ind Gender=Neut Number=Plur	19	nmod	lov	NOUN	-	17
 <g/>
-.	.	.	PUNCT	_	20	punct	erhvervs-	X	_	1
+.	.	.	PUNCT	-	20	punct	erhvervs-	X	-	1
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.10">
 Lovforslag	Lovforslag	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	1	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 nr.	nr.	nr.	ADP	AdpType=Prep	2	case	l	NOUN	Definite=Ind Gender=Com Number=Sing	3
 L	L	l	NOUN	Definite=Ind Gender=Com Number=Sing	3	nmod	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	1
 17	17	17	NUM	NumType=Card	4	nmod	l	NOUN	Definite=Ind Gender=Com Number=Sing	3
-(	(	(	PUNCT	_	5	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
+(	(	(	PUNCT	-	5	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 <g/>
 Forslag	Forslag	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6	root	-	-	-	-
-til	til	til	ADP	AdpType=Prep	7	case	lov	NOUN	_	8
-lov	lov	lov	NOUN	_	8	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
+til	til	til	ADP	AdpType=Prep	7	case	lov	NOUN	-	8
+lov	lov	lov	NOUN	-	8	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 om	om	om	ADP	AdpType=Prep	9	case	ophævelse	NOUN	Definite=Ind Gender=Com Number=Sing	10
-ophævelse	ophævelse	ophævelse	NOUN	Definite=Ind Gender=Com Number=Sing	10	nmod	lov	NOUN	_	8
-af	af	af	ADP	AdpType=Prep	11	case	lov	NOUN	_	12
-lov	lov	lov	NOUN	_	12	nmod	lov	NOUN	_	8
+ophævelse	ophævelse	ophævelse	NOUN	Definite=Ind Gender=Com Number=Sing	10	nmod	lov	NOUN	-	8
+af	af	af	ADP	AdpType=Prep	11	case	lov	NOUN	-	12
+lov	lov	lov	NOUN	-	12	nmod	lov	NOUN	-	8
 om	om	om	ADP	AdpType=Prep	13	case	næringsbrev	NOUN	Definite=Ind Gender=Neut Number=Sing	14
-næringsbrev	næringsbrev	næringsbrev	NOUN	Definite=Ind Gender=Neut Number=Sing	14	nmod	lov	NOUN	_	8
+næringsbrev	næringsbrev	næringsbrev	NOUN	Definite=Ind Gender=Neut Number=Sing	14	nmod	lov	NOUN	-	8
 til	til	til	ADP	AdpType=Prep	15	case	vis	ADJ	Degree=Pos Number=Plur	16
 visse	visse	vis	ADJ	Degree=Pos Number=Plur	16	amod	næringsbrev	NOUN	Definite=Ind Gender=Neut Number=Sing	14
 fødevarevirksomheder	fødevarevirksomheder	fødevarevirksomhed	NOUN	Definite=Ind Gender=Com Number=Plur	17	nmod	næringsbrev	NOUN	Definite=Ind Gender=Neut Number=Sing	14
-og	og	og	CCONJ	_	18	cc	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	20
+og	og	og	CCONJ	-	18	cc	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	20
 om	om	om	ADP	AdpType=Prep	19	case	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	20
 ændring	ændring	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	20	conj	fødevarevirksomhed	NOUN	Definite=Ind Gender=Com Number=Plur	17
-af	af	af	ADP	AdpType=Prep	21	case	lov	NOUN	_	22
-lov	lov	lov	NOUN	_	22	nmod	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	20
+af	af	af	ADP	AdpType=Prep	21	case	lov	NOUN	-	22
+lov	lov	lov	NOUN	-	22	nmod	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	20
 om	om	om	ADP	AdpType=Prep	23	case	restaurationsvirksomhed	NOUN	Definite=Ind Gender=Com Number=Sing	24
-restaurationsvirksomhed	restaurationsvirksomhed	restaurationsvirksomhed	NOUN	Definite=Ind Gender=Com Number=Sing	24	nmod	lov	NOUN	_	22
-og	og	og	CCONJ	_	25	cc	alkoholbevilling	NOUN	Definite=Ind Gender=Com Number=Sing	26
-alkoholbevilling	alkoholbevilling	alkoholbevilling	NOUN	Definite=Ind Gender=Com Number=Sing	26	conj	lov	NOUN	_	22
-m.v.	m.v.	m.v.	ADV	_	27	advmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
+restaurationsvirksomhed	restaurationsvirksomhed	restaurationsvirksomhed	NOUN	Definite=Ind Gender=Com Number=Sing	24	nmod	lov	NOUN	-	22
+og	og	og	CCONJ	-	25	cc	alkoholbevilling	NOUN	Definite=Ind Gender=Com Number=Sing	26
+alkoholbevilling	alkoholbevilling	alkoholbevilling	NOUN	Definite=Ind Gender=Com Number=Sing	26	conj	lov	NOUN	-	22
+m.v.	m.v.	m.v.	ADV	-	27	advmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.11">
 Lovforslag	Lovforslag	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	1	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	5
 nr.	nr.	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	2	nmod	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	1
 18	18	18	NUM	NumType=Card	3	nmod	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	2
-(	(	(	PUNCT	_	4	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	5
+(	(	(	PUNCT	-	4	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	5
 <g/>
 Forslag	Forslag	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	5	root	-	-	-	-
-til	til	til	ADP	AdpType=Prep	6	case	lov	NOUN	_	7
-lov	lov	lov	NOUN	_	7	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	5
+til	til	til	ADP	AdpType=Prep	6	case	lov	NOUN	-	7
+lov	lov	lov	NOUN	-	7	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	5
 om	om	om	ADP	AdpType=Prep	8	case	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	9
-ændring	ændring	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	9	nmod	lov	NOUN	_	7
+ændring	ændring	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	9	nmod	lov	NOUN	-	7
 af	af	af	ADP	AdpType=Prep	10	case	konkurrencelov	NOUN	Definite=Def Gender=Com Number=Sing	11
 konkurrenceloven	konkurrenceloven	konkurrencelov	NOUN	Definite=Def Gender=Com Number=Sing	11	nmod	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	9
 <g/>
-.	.	.	PUNCT	_	12	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	5
+.	.	.	PUNCT	-	12	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	5
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.12">
 Lovforslag	Lovforslag	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	1	root	-	-	-	-
 nr.	nr.	nr.	ADP	AdpType=Prep	2	case	l	NOUN	Definite=Ind Gender=Com Number=Sing	3
 L	L	l	NOUN	Definite=Ind Gender=Com Number=Sing	3	nmod	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	1
 19	19	19	NUM	NumType=Card	4	nmod	l	NOUN	Definite=Ind Gender=Com Number=Sing	3
-(	(	(	PUNCT	_	5	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	6
+(	(	(	PUNCT	-	5	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	6
 <g/>
 Forslag	Forslag	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	6	nmod	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	1
 til	til	til	ADP	AdpType=Prep	7	case	lov	NOUN	Definite=Ind Gender=Com Number=Sing	8
@@ -423,331 +423,331 @@ om	om	om	ADP	AdpType=Prep	9	case	turisme	NOUN	Definite=Ind Gender=Com Number=Sin
 dansk	dansk	dansk	ADJ	Definite=Ind Degree=Pos Number=Sing	10	amod	turisme	NOUN	Definite=Ind Gender=Com Number=Sing	11
 turisme	turisme	turisme	NOUN	Definite=Ind Gender=Com Number=Sing	11	nmod	lov	NOUN	Definite=Ind Gender=Com Number=Sing	8
 <g/>
-)	)	)	PUNCT	_	12	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	6
+)	)	)	PUNCT	-	12	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	6
 <g/>
-.	.	.	PUNCT	_	13	punct	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	1
+.	.	.	PUNCT	-	13	punct	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	1
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.13">
 Transportministeren	Transportministeren	transportminister	NOUN	Definite=Def Gender=Com Number=Sing	1	root	-	-	-	-
-(	(	(	PUNCT	_	2	punct	Magnus	PROPN	_	3
+(	(	(	PUNCT	-	2	punct	Magnus	PROPN	-	3
 <g/>
 <name type="PER">
-Magnus	Magnus	Magnus	PROPN	_	3	appos	transportminister	NOUN	Definite=Def Gender=Com Number=Sing	1
-Heunicke	Heunicke	Heunicke	PROPN	_	4	flat	Magnus	PROPN	_	3
+Magnus	Magnus	Magnus	PROPN	-	3	appos	transportminister	NOUN	Definite=Def Gender=Com Number=Sing	1
+Heunicke	Heunicke	Heunicke	PROPN	-	4	flat	Magnus	PROPN	-	3
 <g/>
 </name>
-)	)	)	PUNCT	_	5	punct	Magnus	PROPN	_	3
+)	)	)	PUNCT	-	5	punct	Magnus	PROPN	-	3
 <g/>
-:	:	:	PUNCT	_	6	punct	transportminister	NOUN	Definite=Def Gender=Com Number=Sing	1
+:	:	:	PUNCT	-	6	punct	transportminister	NOUN	Definite=Def Gender=Com Number=Sing	1
 Lovforslag	Lovforslag	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	7	list	transportminister	NOUN	Definite=Def Gender=Com Number=Sing	1
 nr.	nr.	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	8	nmod	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	7
 L	L	l	NOUN	Definite=Ind Gender=Com Number=Sing	9	nmod	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	7
 20	20	20	NUM	NumType=Card	10	nmod	l	NOUN	Definite=Ind Gender=Com Number=Sing	9
-(	(	(	PUNCT	_	11	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	12
+(	(	(	PUNCT	-	11	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	12
 <g/>
 Forslag	Forslag	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	12	nmod	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	7
-til	til	til	ADP	AdpType=Prep	13	case	lov	NOUN	_	14
-lov	lov	lov	NOUN	_	14	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	12
+til	til	til	ADP	AdpType=Prep	13	case	lov	NOUN	-	14
+lov	lov	lov	NOUN	-	14	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	12
 om	om	om	ADP	AdpType=Prep	15	case	vej	NOUN	Definite=Ind Gender=Com Number=Plur	17
 offentlige	offentlige	offentlig	ADJ	Degree=Pos Number=Plur	16	amod	vej	NOUN	Definite=Ind Gender=Com Number=Plur	17
-veje	veje	vej	NOUN	Definite=Ind Gender=Com Number=Plur	17	nmod	lov	NOUN	_	14
-m.v.	m.v.	m.v.	ADV	_	18	advmod	vej	NOUN	Definite=Ind Gender=Com Number=Plur	17
-)	)	)	PUNCT	_	19	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	12
-og	og	og	CCONJ	_	20	cc	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	21
+veje	veje	vej	NOUN	Definite=Ind Gender=Com Number=Plur	17	nmod	lov	NOUN	-	14
+m.v.	m.v.	m.v.	ADV	-	18	advmod	vej	NOUN	Definite=Ind Gender=Com Number=Plur	17
+)	)	)	PUNCT	-	19	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	12
+og	og	og	CCONJ	-	20	cc	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	21
 Lovforslag	Lovforslag	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	21	conj	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	7
 nr.	nr.	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	22	nmod	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	21
 L	L	l	NOUN	Definite=Ind Gender=Com Number=Sing	23	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	26
 21	21	21	NUM	NumType=Card	24	nmod	l	NOUN	Definite=Ind Gender=Com Number=Sing	23
-(	(	(	PUNCT	_	25	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	26
+(	(	(	PUNCT	-	25	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	26
 <g/>
 Forslag	Forslag	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	26	nmod	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	21
-til	til	til	ADP	AdpType=Prep	27	case	lov	NOUN	_	28
-lov	lov	lov	NOUN	_	28	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	26
+til	til	til	ADP	AdpType=Prep	27	case	lov	NOUN	-	28
+lov	lov	lov	NOUN	-	28	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	26
 om	om	om	ADP	AdpType=Prep	29	case	fjordforbindelse	NOUN	Definite=Ind Gender=Com Number=Sing	32
 en	en	en	DET	Gender=Com Number=Sing PronType=Ind	30	det	fjordforbindelse	NOUN	Definite=Ind Gender=Com Number=Sing	32
 ny	ny	ny	ADJ	Definite=Ind Degree=Pos Gender=Com Number=Sing	31	amod	fjordforbindelse	NOUN	Definite=Ind Gender=Com Number=Sing	32
-fjordforbindelse	fjordforbindelse	fjordforbindelse	NOUN	Definite=Ind Gender=Com Number=Sing	32	nmod	lov	NOUN	_	28
-ved	ved	ved	ADP	AdpType=Prep	33	case	Frederikssund	PROPN	_	34
+fjordforbindelse	fjordforbindelse	fjordforbindelse	NOUN	Definite=Ind Gender=Com Number=Sing	32	nmod	lov	NOUN	-	28
+ved	ved	ved	ADP	AdpType=Prep	33	case	Frederikssund	PROPN	-	34
 <name type="LOC">
-Frederikssund	Frederikssund	Frederikssund	PROPN	_	34	nmod	lov	NOUN	_	28
+Frederikssund	Frederikssund	Frederikssund	PROPN	-	34	nmod	lov	NOUN	-	28
 <g/>
 </name>
-)	)	)	PUNCT	_	35	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	26
+)	)	)	PUNCT	-	35	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	26
 <g/>
-.	.	.	PUNCT	_	36	punct	transportminister	NOUN	Definite=Def Gender=Com Number=Sing	1
+.	.	.	PUNCT	-	36	punct	transportminister	NOUN	Definite=Def Gender=Com Number=Sing	1
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.14">
 Kulturministeren	Kulturministeren	kulturminister	NOUN	Definite=Def Gender=Com Number=Sing	1	root	-	-	-	-
-(	(	(	PUNCT	_	2	punct	Marianne	PROPN	_	3
+(	(	(	PUNCT	-	2	punct	Marianne	PROPN	-	3
 <g/>
 <name type="PER">
-Marianne	Marianne	Marianne	PROPN	_	3	appos	kulturminister	NOUN	Definite=Def Gender=Com Number=Sing	1
-Jelved	Jelved	Jelved	PROPN	_	4	flat	Marianne	PROPN	_	3
+Marianne	Marianne	Marianne	PROPN	-	3	appos	kulturminister	NOUN	Definite=Def Gender=Com Number=Sing	1
+Jelved	Jelved	Jelved	PROPN	-	4	flat	Marianne	PROPN	-	3
 <g/>
 </name>
-)	)	)	PUNCT	_	5	punct	Marianne	PROPN	_	3
+)	)	)	PUNCT	-	5	punct	Marianne	PROPN	-	3
 <g/>
-:	:	:	PUNCT	_	6	punct	kulturminister	NOUN	Definite=Def Gender=Com Number=Sing	1
+:	:	:	PUNCT	-	6	punct	kulturminister	NOUN	Definite=Def Gender=Com Number=Sing	1
 Lovforslag	Lovforslag	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	7	obj	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	12
 nr.	nr.	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	8	nmod	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	7
 L	L	l	NOUN	Definite=Ind Gender=Com Number=Sing	9	nmod	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	7
 22	22	22	NUM	NumType=Card	10	nmod	l	NOUN	Definite=Ind Gender=Com Number=Sing	9
-(	(	(	PUNCT	_	11	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	12
+(	(	(	PUNCT	-	11	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	12
 <g/>
 Forslag	Forslag	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	12	list	kulturminister	NOUN	Definite=Def Gender=Com Number=Sing	1
-til	til	til	ADP	AdpType=Prep	13	case	lov	NOUN	_	14
-lov	lov	lov	NOUN	_	14	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	12
+til	til	til	ADP	AdpType=Prep	13	case	lov	NOUN	-	14
+lov	lov	lov	NOUN	-	14	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	12
 om	om	om	ADP	AdpType=Prep	15	case	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	16
-ændring	ændring	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	16	nmod	lov	NOUN	_	14
-af	af	af	ADP	AdpType=Prep	17	case	lov	NOUN	_	18
-lov	lov	lov	NOUN	_	18	nmod	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	16
+ændring	ændring	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	16	nmod	lov	NOUN	-	14
+af	af	af	ADP	AdpType=Prep	17	case	lov	NOUN	-	18
+lov	lov	lov	NOUN	-	18	nmod	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	16
 om	om	om	ADP	AdpType=Prep	19	case	radio-	NOUN	Definite=Ind Gender=Neut Number=Sing	20
-radio-	radio-	radio-	NOUN	Definite=Ind Gender=Neut Number=Sing	20	nmod	lov	NOUN	_	18
-og	og	og	CCONJ	_	21	cc	fjernsynsvirksomhed	NOUN	Definite=Ind Gender=Com Number=Sing	22
-fjernsynsvirksomhed	fjernsynsvirksomhed	fjernsynsvirksomhed	NOUN	Definite=Ind Gender=Com Number=Sing	22	conj	lov	NOUN	_	18
+radio-	radio-	radio-	NOUN	Definite=Ind Gender=Neut Number=Sing	20	nmod	lov	NOUN	-	18
+og	og	og	CCONJ	-	21	cc	fjernsynsvirksomhed	NOUN	Definite=Ind Gender=Com Number=Sing	22
+fjernsynsvirksomhed	fjernsynsvirksomhed	fjernsynsvirksomhed	NOUN	Definite=Ind Gender=Com Number=Sing	22	conj	lov	NOUN	-	18
 <g/>
-.	.	.	PUNCT	_	23	punct	kulturminister	NOUN	Definite=Def Gender=Com Number=Sing	1
+.	.	.	PUNCT	-	23	punct	kulturminister	NOUN	Definite=Def Gender=Com Number=Sing	1
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.15">
 Lovforslag	Lovforslag	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	1	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 nr.	nr.	nr.	ADP	AdpType=Prep	2	case	l	NOUN	Definite=Ind Gender=Com Number=Sing	3
 L	L	l	NOUN	Definite=Ind Gender=Com Number=Sing	3	nmod	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	1
 23	23	23	NUM	NumType=Card	4	nmod	l	NOUN	Definite=Ind Gender=Com Number=Sing	3
-(	(	(	PUNCT	_	5	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
+(	(	(	PUNCT	-	5	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 <g/>
 Forslag	Forslag	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6	root	-	-	-	-
-til	til	til	ADP	AdpType=Prep	7	case	lov	NOUN	_	8
-lov	lov	lov	NOUN	_	8	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
+til	til	til	ADP	AdpType=Prep	7	case	lov	NOUN	-	8
+lov	lov	lov	NOUN	-	8	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 om	om	om	ADP	AdpType=Prep	9	case	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	10
-ændring	ændring	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	10	nmod	lov	NOUN	_	8
-af	af	af	ADP	AdpType=Prep	11	case	lov	NOUN	_	12
-lov	lov	lov	NOUN	_	12	nmod	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	10
+ændring	ændring	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	10	nmod	lov	NOUN	-	8
+af	af	af	ADP	AdpType=Prep	11	case	lov	NOUN	-	12
+lov	lov	lov	NOUN	-	12	nmod	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	10
 om	om	om	ADP	AdpType=Prep	13	case	udlodning	NOUN	Definite=Ind Gender=Com Number=Sing	14
-udlodning	udlodning	udlodning	NOUN	Definite=Ind Gender=Com Number=Sing	14	nmod	lov	NOUN	_	12
+udlodning	udlodning	udlodning	NOUN	Definite=Ind Gender=Com Number=Sing	14	nmod	lov	NOUN	-	12
 af	af	af	ADP	AdpType=Prep	15	case	overskud	NOUN	Definite=Ind Gender=Neut Number=Sing	16
-overskud	overskud	overskud	NOUN	Definite=Ind Gender=Neut Number=Sing	16	nmod	lov	NOUN	_	12
+overskud	overskud	overskud	NOUN	Definite=Ind Gender=Neut Number=Sing	16	nmod	lov	NOUN	-	12
 fra	fra	fra	ADP	AdpType=Prep	17	case	lotteri	NOUN	Definite=Ind Gender=Neut Number=Sing	18
-lotteri	lotteri	lotteri	NOUN	Definite=Ind Gender=Neut Number=Sing	18	nmod	lov	NOUN	_	12
-samt	samt	samt	CCONJ	_	19	cc	heste-	X	_	20
-heste-	heste-	heste-	X	_	20	conj	lotteri	NOUN	Definite=Ind Gender=Neut Number=Sing	18
-og	og	og	CCONJ	_	21	cc	hundevæddemål	NOUN	Definite=Ind Gender=Neut Number=Plur	22
-hundevæddemål	hundevæddemål	hundevæddemål	NOUN	Definite=Ind Gender=Neut Number=Plur	22	conj	heste-	X	_	20
-og	og	og	CCONJ	_	23	cc	lov	NOUN	_	24
-lov	lov	lov	NOUN	_	24	conj	lotteri	NOUN	Definite=Ind Gender=Neut Number=Sing	18
-om	om	om	ADP	AdpType=Prep	25	case	fremme	NOUN	_	26
-fremme	fremme	fremme	NOUN	_	26	nmod	lov	NOUN	_	24
+lotteri	lotteri	lotteri	NOUN	Definite=Ind Gender=Neut Number=Sing	18	nmod	lov	NOUN	-	12
+samt	samt	samt	CCONJ	-	19	cc	heste-	X	-	20
+heste-	heste-	heste-	X	-	20	conj	lotteri	NOUN	Definite=Ind Gender=Neut Number=Sing	18
+og	og	og	CCONJ	-	21	cc	hundevæddemål	NOUN	Definite=Ind Gender=Neut Number=Plur	22
+hundevæddemål	hundevæddemål	hundevæddemål	NOUN	Definite=Ind Gender=Neut Number=Plur	22	conj	heste-	X	-	20
+og	og	og	CCONJ	-	23	cc	lov	NOUN	-	24
+lov	lov	lov	NOUN	-	24	conj	lotteri	NOUN	Definite=Ind Gender=Neut Number=Sing	18
+om	om	om	ADP	AdpType=Prep	25	case	fremme	NOUN	-	26
+fremme	fremme	fremme	NOUN	-	26	nmod	lov	NOUN	-	24
 af	af	af	ADP	AdpType=Prep	27	case	idræt	NOUN	Definite=Ind Gender=Neut Number=Plur	29
 dopingfri	dopingfri	dopingfri	ADJ	Degree=Pos Number=Plur	28	amod	idræt	NOUN	Definite=Ind Gender=Neut Number=Plur	29
-idræt	idræt	idræt	NOUN	Definite=Ind Gender=Neut Number=Plur	29	nmod	fremme	NOUN	_	26
+idræt	idræt	idræt	NOUN	Definite=Ind Gender=Neut Number=Plur	29	nmod	fremme	NOUN	-	26
 <g/>
-.	.	.	PUNCT	_	30	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
+.	.	.	PUNCT	-	30	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.16">
 Lovforslag	Lovforslag	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	1	root	-	-	-	-
 nr.	nr.	nr.	ADP	AdpType=Prep	2	case	l	NOUN	Definite=Ind Gender=Com Number=Sing	3
 L	L	l	NOUN	Definite=Ind Gender=Com Number=Sing	3	nmod	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	1
 24	24	24	NUM	NumType=Card	4	nmod	l	NOUN	Definite=Ind Gender=Com Number=Sing	3
-(	(	(	PUNCT	_	5	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
+(	(	(	PUNCT	-	5	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 <g/>
 Forslag	Forslag	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6	nmod	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	1
-til	til	til	ADP	AdpType=Prep	7	case	lov	NOUN	_	8
-lov	lov	lov	NOUN	_	8	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
+til	til	til	ADP	AdpType=Prep	7	case	lov	NOUN	-	8
+lov	lov	lov	NOUN	-	8	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 om	om	om	ADP	AdpType=Prep	9	case	uddannelsesinstitution	NOUN	Definite=Ind Gender=Com Number=Plur	12
 videregående	videregående	videregående	ADJ	Degree=Pos	10	amod	uddannelsesinstitution	NOUN	Definite=Ind Gender=Com Number=Plur	12
 kunstneriske	kunstneriske	kunstnerisk	ADJ	Degree=Pos Number=Plur	11	amod	uddannelsesinstitution	NOUN	Definite=Ind Gender=Com Number=Plur	12
-uddannelsesinstitutioner	uddannelsesinstitutioner	uddannelsesinstitution	NOUN	Definite=Ind Gender=Com Number=Plur	12	nmod	lov	NOUN	_	8
+uddannelsesinstitutioner	uddannelsesinstitutioner	uddannelsesinstitution	NOUN	Definite=Ind Gender=Com Number=Plur	12	nmod	lov	NOUN	-	8
 under	under	under	ADP	AdpType=Prep	13	case	Kulturministerium	NOUN	Definite=Def Gender=Neut Number=Sing	14
 <name type="ORG">
 Kulturministeriet	Kulturministeriet	Kulturministerium	NOUN	Definite=Def Gender=Neut Number=Sing	14	nmod	uddannelsesinstitution	NOUN	Definite=Ind Gender=Com Number=Plur	12
 <g/>
 </name>
-)	)	)	PUNCT	_	15	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
+)	)	)	PUNCT	-	15	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 <g/>
-.	.	.	PUNCT	_	16	punct	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	1
+.	.	.	PUNCT	-	16	punct	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	1
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.17">
 Ministeren	Ministeren	minister	NOUN	Definite=Def Gender=Com Number=Sing	1	root	-	-	-	-
 for	for	for	ADP	AdpType=Prep	2	case	barn	NOUN	Definite=Ind Gender=Neut Number=Plur	3
 børn	børn	barn	NOUN	Definite=Ind Gender=Neut Number=Plur	3	nmod	minister	NOUN	Definite=Def Gender=Com Number=Sing	1
 <g/>
-,	,	,	PUNCT	_	4	punct	minister	NOUN	Definite=Def Gender=Com Number=Sing	1
+,	,	,	PUNCT	-	4	punct	minister	NOUN	Definite=Def Gender=Com Number=Sing	1
 ligestilling	ligestilling	ligestilling	NOUN	Definite=Ind Gender=Com Number=Sing	5	conj	minister	NOUN	Definite=Def Gender=Com Number=Sing	1
 <g/>
-,	,	,	PUNCT	_	6	punct	ligestilling	NOUN	Definite=Ind Gender=Com Number=Sing	5
+,	,	,	PUNCT	-	6	punct	ligestilling	NOUN	Definite=Ind Gender=Com Number=Sing	5
 integration	integration	integration	NOUN	Definite=Ind Gender=Com Number=Sing	7	conj	ligestilling	NOUN	Definite=Ind Gender=Com Number=Sing	5
-og	og	og	CCONJ	_	8	cc	forhold	NOUN	Definite=Ind Gender=Neut Number=Plur	10
+og	og	og	CCONJ	-	8	cc	forhold	NOUN	Definite=Ind Gender=Neut Number=Plur	10
 sociale	sociale	social	ADJ	Degree=Pos Number=Plur	9	amod	forhold	NOUN	Definite=Ind Gender=Neut Number=Plur	10
 forhold	forhold	forhold	NOUN	Definite=Ind Gender=Neut Number=Plur	10	conj	minister	NOUN	Definite=Def Gender=Com Number=Sing	1
-(	(	(	PUNCT	_	11	punct	Manuen	PROPN	_	12
+(	(	(	PUNCT	-	11	punct	Manuen	PROPN	-	12
 <g/>
 <name type="PER">
-Manu	Manu	Manuen	PROPN	_	12	appos	forhold	NOUN	Definite=Ind Gender=Neut Number=Plur	10
-Sareen	Sareen	Sareen	PROPN	_	13	flat	Manuen	PROPN	_	12
+Manu	Manu	Manuen	PROPN	-	12	appos	forhold	NOUN	Definite=Ind Gender=Neut Number=Plur	10
+Sareen	Sareen	Sareen	PROPN	-	13	flat	Manuen	PROPN	-	12
 <g/>
 </name>
-)	)	)	PUNCT	_	14	punct	Manuen	PROPN	_	12
+)	)	)	PUNCT	-	14	punct	Manuen	PROPN	-	12
 <g/>
-:	:	:	PUNCT	_	15	punct	minister	NOUN	Definite=Def Gender=Com Number=Sing	1
+:	:	:	PUNCT	-	15	punct	minister	NOUN	Definite=Def Gender=Com Number=Sing	1
 Lovforslag	Lovforslag	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	16	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	21
 nr.	nr.	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	17	nmod	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	16
 L	L	l	NOUN	Definite=Ind Gender=Com Number=Sing	18	nmod	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	17
 25	25	25	NUM	NumType=Card	19	nmod	l	NOUN	Definite=Ind Gender=Com Number=Sing	18
-(	(	(	PUNCT	_	20	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	21
+(	(	(	PUNCT	-	20	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	21
 <g/>
 Forslag	Forslag	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	21	nmod	minister	NOUN	Definite=Def Gender=Com Number=Sing	1
-til	til	til	ADP	AdpType=Prep	22	case	lov	NOUN	_	23
-lov	lov	lov	NOUN	_	23	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	21
+til	til	til	ADP	AdpType=Prep	22	case	lov	NOUN	-	23
+lov	lov	lov	NOUN	-	23	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	21
 om	om	om	ADP	AdpType=Prep	24	case	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	25
-ændring	ændring	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	25	nmod	lov	NOUN	_	23
-af	af	af	ADP	AdpType=Prep	26	case	lov	NOUN	_	27
-lov	lov	lov	NOUN	_	27	nmod	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	25
+ændring	ændring	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	25	nmod	lov	NOUN	-	23
+af	af	af	ADP	AdpType=Prep	26	case	lov	NOUN	-	27
+lov	lov	lov	NOUN	-	27	nmod	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	25
 om	om	om	ADP	AdpType=Prep	28	case	service	NOUN	Definite=Ind Gender=Com Number=Sing	30
 social	social	social	ADJ	Definite=Ind Degree=Pos Gender=Com Number=Sing	29	amod	service	NOUN	Definite=Ind Gender=Com Number=Sing	30
-service	service	service	NOUN	Definite=Ind Gender=Com Number=Sing	30	nmod	lov	NOUN	_	27
+service	service	service	NOUN	Definite=Ind Gender=Com Number=Sing	30	nmod	lov	NOUN	-	27
 <g/>
-.	.	.	PUNCT	_	31	punct	minister	NOUN	Definite=Def Gender=Com Number=Sing	1
+.	.	.	PUNCT	-	31	punct	minister	NOUN	Definite=Def Gender=Com Number=Sing	1
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.18">
 Lovforslag	Lovforslag	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	1	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 nr.	nr.	nr.	ADP	AdpType=Prep	2	case	l	NOUN	Definite=Ind Gender=Com Number=Sing	3
 L	L	l	NOUN	Definite=Ind Gender=Com Number=Sing	3	nmod	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	1
 26	26	26	NUM	NumType=Card	4	nmod	l	NOUN	Definite=Ind Gender=Com Number=Sing	3
-(	(	(	PUNCT	_	5	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
+(	(	(	PUNCT	-	5	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 <g/>
 Forslag	Forslag	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6	root	-	-	-	-
-til	til	til	ADP	AdpType=Prep	7	case	lov	NOUN	_	8
-lov	lov	lov	NOUN	_	8	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
+til	til	til	ADP	AdpType=Prep	7	case	lov	NOUN	-	8
+lov	lov	lov	NOUN	-	8	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 om	om	om	ADP	AdpType=Prep	9	case	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	10
-ændring	ændring	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	10	nmod	lov	NOUN	_	8
+ændring	ændring	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	10	nmod	lov	NOUN	-	8
 af	af	af	ADP	AdpType=Prep	11	case	adoptionslov	NOUN	Definite=Def Gender=Com Number=Sing	12
 adoptionsloven	adoptionsloven	adoptionslov	NOUN	Definite=Def Gender=Com Number=Sing	12	nmod	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	10
 <g/>
-.	.	.	PUNCT	_	13	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
+.	.	.	PUNCT	-	13	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.19">
 Lovforslag	Lovforslag	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	1	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 nr.	nr.	nr.	ADP	AdpType=Prep	2	case	l	NOUN	Definite=Ind Gender=Com Number=Sing	3
 L	L	l	NOUN	Definite=Ind Gender=Com Number=Sing	3	nmod	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	1
 27	27	27	NUM	NumType=Card	4	nmod	l	NOUN	Definite=Ind Gender=Com Number=Sing	3
-(	(	(	PUNCT	_	5	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
+(	(	(	PUNCT	-	5	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 <g/>
 Forslag	Forslag	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6	root	-	-	-	-
-til	til	til	ADP	AdpType=Prep	7	case	lov	NOUN	_	8
-lov	lov	lov	NOUN	_	8	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
+til	til	til	ADP	AdpType=Prep	7	case	lov	NOUN	-	8
+lov	lov	lov	NOUN	-	8	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 om	om	om	ADP	AdpType=Prep	9	case	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	10
-ændring	ændring	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	10	nmod	lov	NOUN	_	8
-af	af	af	ADP	AdpType=Prep	11	case	lov	NOUN	_	12
-lov	lov	lov	NOUN	_	12	nmod	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	10
+ændring	ændring	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	10	nmod	lov	NOUN	-	8
+af	af	af	ADP	AdpType=Prep	11	case	lov	NOUN	-	12
+lov	lov	lov	NOUN	-	12	nmod	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	10
 om	om	om	ADP	AdpType=Prep	13	case	service	NOUN	Definite=Ind Gender=Com Number=Sing	15
 social	social	social	ADJ	Definite=Ind Degree=Pos Gender=Com Number=Sing	14	amod	service	NOUN	Definite=Ind Gender=Com Number=Sing	15
-service	service	service	NOUN	Definite=Ind Gender=Com Number=Sing	15	nmod	lov	NOUN	_	12
+service	service	service	NOUN	Definite=Ind Gender=Com Number=Sing	15	nmod	lov	NOUN	-	12
 <g/>
-.	.	.	PUNCT	_	16	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
+.	.	.	PUNCT	-	16	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.20">
 Justitsministeren	Justitsministeren	justitsminister	NOUN	Definite=Def Gender=Com Number=Sing	1	root	-	-	-	-
-(	(	(	PUNCT	_	2	punct	Karen	PROPN	_	3
+(	(	(	PUNCT	-	2	punct	Karen	PROPN	-	3
 <g/>
 <name type="PER">
-Karen	Karen	Karen	PROPN	_	3	appos	justitsminister	NOUN	Definite=Def Gender=Com Number=Sing	1
-Hækkerup	Hækkerup	Hækkerup	PROPN	_	4	flat	Karen	PROPN	_	3
+Karen	Karen	Karen	PROPN	-	3	appos	justitsminister	NOUN	Definite=Def Gender=Com Number=Sing	1
+Hækkerup	Hækkerup	Hækkerup	PROPN	-	4	flat	Karen	PROPN	-	3
 <g/>
 </name>
-)	)	)	PUNCT	_	5	punct	Karen	PROPN	_	3
+)	)	)	PUNCT	-	5	punct	Karen	PROPN	-	3
 <g/>
-:	:	:	PUNCT	_	6	punct	justitsminister	NOUN	Definite=Def Gender=Com Number=Sing	1
+:	:	:	PUNCT	-	6	punct	justitsminister	NOUN	Definite=Def Gender=Com Number=Sing	1
 Lovforslag	Lovforslag	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	7	list	justitsminister	NOUN	Definite=Def Gender=Com Number=Sing	1
 nr.	nr.	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	8	nmod	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	7
 L	L	l	NOUN	Definite=Ind Gender=Com Number=Sing	9	nmod	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	7
 28	28	28	NUM	NumType=Card	10	nmod	l	NOUN	Definite=Ind Gender=Com Number=Sing	9
-(	(	(	PUNCT	_	11	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	12
+(	(	(	PUNCT	-	11	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	12
 <g/>
 Forslag	Forslag	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	12	appos	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	7
-til	til	til	ADP	AdpType=Prep	13	case	lov	NOUN	_	14
-lov	lov	lov	NOUN	_	14	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	12
+til	til	til	ADP	AdpType=Prep	13	case	lov	NOUN	-	14
+lov	lov	lov	NOUN	-	14	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	12
 om	om	om	ADP	AdpType=Prep	15	case	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	16
-ændring	ændring	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	16	nmod	lov	NOUN	_	14
-af	af	af	ADP	AdpType=Prep	17	case	lov	NOUN	_	18
-lov	lov	lov	NOUN	_	18	nmod	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	16
+ændring	ændring	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	16	nmod	lov	NOUN	-	14
+af	af	af	ADP	AdpType=Prep	17	case	lov	NOUN	-	18
+lov	lov	lov	NOUN	-	18	nmod	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	16
 for	for	for	ADP	AdpType=Prep	19	case	Færø	NOUN	Definite=Def Gender=Com Number=Plur	20
 <name type="LOC">
-Færøerne	Færøerne	Færø	NOUN	Definite=Def Gender=Com Number=Plur	20	nmod	lov	NOUN	_	18
+Færøerne	Færøerne	Færø	NOUN	Definite=Def Gender=Com Number=Plur	20	nmod	lov	NOUN	-	18
 </name>
 om	om	om	ADP	AdpType=Prep	21	case	pleje	NOUN	Definite=Ind Gender=Com Number=Sing	23
-rettens	rettens	ret	NOUN	Case=Gen Definite=Def Gender=Com Number=Sing	22	nmod_poss	pleje	NOUN	Definite=Ind Gender=Com Number=Sing	23
+rettens	rettens	ret	NOUN	Case=Gen Definite=Def Gender=Com Number=Sing	22	nmod:poss	pleje	NOUN	Definite=Ind Gender=Com Number=Sing	23
 pleje	pleje	pleje	NOUN	Definite=Ind Gender=Com Number=Sing	23	nmod	Færø	NOUN	Definite=Def Gender=Com Number=Plur	20
-og	og	og	CCONJ	_	24	cc	lov	NOUN	_	25
-lov	lov	lov	NOUN	_	25	conj	lov	NOUN	_	18
+og	og	og	CCONJ	-	24	cc	lov	NOUN	-	25
+lov	lov	lov	NOUN	-	25	conj	lov	NOUN	-	18
 om	om	om	ADP	AdpType=Prep	26	case	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	27
-ændring	ændring	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	27	nmod	lov	NOUN	_	25
+ændring	ændring	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	27	nmod	lov	NOUN	-	25
 af	af	af	ADP	AdpType=Prep	28	case	tinglysningslov	NOUN	Definite=Def Gender=Com Number=Sing	29
 tinglysningsloven	tinglysningsloven	tinglysningslov	NOUN	Definite=Def Gender=Com Number=Sing	29	nmod	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	27
 <g/>
-,	,	,	PUNCT	_	30	punct	lov	NOUN	_	18
-konkursloven	konkursloven	konkurslov	NOUN	Definite=Def Gender=Com Number=Sing	31	conj	lov	NOUN	_	18
-og	og	og	CCONJ	_	32	cc	lov	NOUN	Definite=Ind Gender=Neut Number=Plur	34
+,	,	,	PUNCT	-	30	punct	lov	NOUN	-	18
+konkursloven	konkursloven	konkurslov	NOUN	Definite=Def Gender=Com Number=Sing	31	conj	lov	NOUN	-	18
+og	og	og	CCONJ	-	32	cc	lov	NOUN	Definite=Ind Gender=Neut Number=Plur	34
 andre	andre	anden	DET	Number=Plur PronType=Ind	33	det	lov	NOUN	Definite=Ind Gender=Neut Number=Plur	34
-love	love	lov	NOUN	Definite=Ind Gender=Neut Number=Plur	34	conj	lov	NOUN	_	18
+love	love	lov	NOUN	Definite=Ind Gender=Neut Number=Plur	34	conj	lov	NOUN	-	18
 <g/>
-.	.	.	PUNCT	_	35	punct	justitsminister	NOUN	Definite=Def Gender=Com Number=Sing	1
+.	.	.	PUNCT	-	35	punct	justitsminister	NOUN	Definite=Def Gender=Com Number=Sing	1
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.21">
 Lovforslag	Lovforslag	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	1	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 nr.	nr.	nr.	ADP	AdpType=Prep	2	case	l	NOUN	Definite=Ind Gender=Com Number=Sing	3
 L	L	l	NOUN	Definite=Ind Gender=Com Number=Sing	3	nmod	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	1
 29	29	29	NUM	NumType=Card	4	nmod	l	NOUN	Definite=Ind Gender=Com Number=Sing	3
-(	(	(	PUNCT	_	5	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
+(	(	(	PUNCT	-	5	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 <g/>
 Forslag	Forslag	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6	root	-	-	-	-
-til	til	til	ADP	AdpType=Prep	7	case	lov	NOUN	_	8
-lov	lov	lov	NOUN	_	8	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
+til	til	til	ADP	AdpType=Prep	7	case	lov	NOUN	-	8
+lov	lov	lov	NOUN	-	8	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 om	om	om	ADP	AdpType=Prep	9	case	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	10
-ændring	ændring	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	10	nmod	lov	NOUN	_	8
-af	af	af	ADP	AdpType=Prep	11	case	lov	NOUN	_	12
-lov	lov	lov	NOUN	_	12	nmod	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	10
+ændring	ændring	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	10	nmod	lov	NOUN	-	8
+af	af	af	ADP	AdpType=Prep	11	case	lov	NOUN	-	12
+lov	lov	lov	NOUN	-	12	nmod	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	10
 om	om	om	ADP	AdpType=Prep	13	case	erstatningsansvar	NOUN	Definite=Ind Gender=Neut Number=Sing	14
-erstatningsansvar	erstatningsansvar	erstatningsansvar	NOUN	Definite=Ind Gender=Neut Number=Sing	14	nmod	lov	NOUN	_	12
+erstatningsansvar	erstatningsansvar	erstatningsansvar	NOUN	Definite=Ind Gender=Neut Number=Sing	14	nmod	lov	NOUN	-	12
 <g/>
-.	.	.	PUNCT	_	15	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
+.	.	.	PUNCT	-	15	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.22">
 Lovforslag	Lovforslag	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	1	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 nr.	nr.	nr.	ADP	AdpType=Prep	2	case	l	NOUN	Definite=Ind Gender=Com Number=Sing	3
 L	L	l	NOUN	Definite=Ind Gender=Com Number=Sing	3	nmod	lovforslag	NOUN	Definite=Ind Gender=Neut Number=Sing	1
 30	30	30	NUM	NumType=Card	4	nmod	l	NOUN	Definite=Ind Gender=Com Number=Sing	3
-(	(	(	PUNCT	_	5	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
+(	(	(	PUNCT	-	5	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 <g/>
 Forslag	Forslag	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6	root	-	-	-	-
-til	til	til	ADP	AdpType=Prep	7	case	lov	NOUN	_	8
-lov	lov	lov	NOUN	_	8	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
+til	til	til	ADP	AdpType=Prep	7	case	lov	NOUN	-	8
+lov	lov	lov	NOUN	-	8	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 om	om	om	ADP	AdpType=Prep	9	case	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	10
-ændring	ændring	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	10	nmod	lov	NOUN	_	8
+ændring	ændring	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	10	nmod	lov	NOUN	-	8
 af	af	af	ADP	AdpType=Prep	11	case	færdselslov	NOUN	Definite=Def Gender=Com Number=Sing	12
 færdselsloven	færdselsloven	færdselslov	NOUN	Definite=Def Gender=Com Number=Sing	12	nmod	ændring	NOUN	Definite=Ind Gender=Com Number=Sing	10
 <g/>
-.	.	.	PUNCT	_	13	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
+.	.	.	PUNCT	-	13	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Sing	6
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.23">
 <name type="PER">
 Pernille	Pernille	Pernille	ADJ	Degree=Pos	1	amod	Skipper	NOUN	Definite=Ind Gender=Com Number=Sing	2
 Skipper	Skipper	Skipper	NOUN	Definite=Ind Gender=Com Number=Sing	2	root	-	-	-	-
 </name>
-(	(	(	PUNCT	_	3	punct	EL	PROPN	_	4
+(	(	(	PUNCT	-	3	punct	EL	PROPN	-	4
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	4	appos	Skipper	NOUN	Definite=Ind Gender=Com Number=Sing	2
+EL	EL	EL	PROPN	-	4	appos	Skipper	NOUN	Definite=Ind Gender=Com Number=Sing	2
 <g/>
 </name>
-)	)	)	PUNCT	_	5	punct	EL	PROPN	_	4
-m.fl.	m.fl.	m.fl.	ADV	_	6	advmod	Skipper	NOUN	Definite=Ind Gender=Com Number=Sing	2
-:	:	:	PUNCT	_	7	punct	Skipper	NOUN	Definite=Ind Gender=Com Number=Sing	2
+)	)	)	PUNCT	-	5	punct	EL	PROPN	-	4
+m.fl.	m.fl.	m.fl.	ADV	-	6	advmod	Skipper	NOUN	Definite=Ind Gender=Com Number=Sing	2
+:	:	:	PUNCT	-	7	punct	Skipper	NOUN	Definite=Ind Gender=Com Number=Sing	2
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.24">
 Beslutningsforslag	Beslutningsforslag	beslutningsforslage	VERB	Mood=Imp	1	root	-	-	-	-
 nr.	nr.	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	2	obj	beslutningsforslage	VERB	Mood=Imp	1
 B	B	b	NOUN	Definite=Ind Gender=Neut Number=Sing	3	nmod	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	2
 1	1	1	NUM	NumType=Card	4	nmod	b	NOUN	Definite=Ind Gender=Neut Number=Sing	3
-(	(	(	PUNCT	_	5	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	6
+(	(	(	PUNCT	-	5	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	6
 <g/>
 Forslag	Forslag	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	6	obl	beslutningsforslage	VERB	Mood=Imp	1
 til	til	til	ADP	AdpType=Prep	7	case	folketingsbeslutning	NOUN	Definite=Ind Gender=Com Number=Sing	8
@@ -759,42 +759,42 @@ tapning	tapning	tapning	NOUN	Definite=Ind Gender=Com Number=Sing	12	nmod	forbud	
 af	af	af	ADP	AdpType=Prep	13	case	fiberkabel	NOUN	Definite=Ind Gender=Neut Number=Plur	14
 fiberkabler	fiberkabler	fiberkabel	NOUN	Definite=Ind Gender=Neut Number=Plur	14	nmod	tapning	NOUN	Definite=Ind Gender=Com Number=Sing	12
 <g/>
-)	)	)	PUNCT	_	15	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	6
+)	)	)	PUNCT	-	15	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	6
 <g/>
-.	.	.	PUNCT	_	16	punct	beslutningsforslage	VERB	Mood=Imp	1
+.	.	.	PUNCT	-	16	punct	beslutningsforslage	VERB	Mood=Imp	1
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.25">
 <name type="PER">
-Lisbeth	Lisbeth	Lisbeth	PROPN	_	1	root	-	-	-	-
-Bech	Bech	Bech	PROPN	_	2	flat	Lisbeth	PROPN	_	1
-Poulsen	Poulsen	Poulsen	PROPN	_	3	flat	Lisbeth	PROPN	_	1
+Lisbeth	Lisbeth	Lisbeth	PROPN	-	1	root	-	-	-	-
+Bech	Bech	Bech	PROPN	-	2	flat	Lisbeth	PROPN	-	1
+Poulsen	Poulsen	Poulsen	PROPN	-	3	flat	Lisbeth	PROPN	-	1
 </name>
-(	(	(	PUNCT	_	4	punct	SF	PROPN	_	5
+(	(	(	PUNCT	-	4	punct	SF	PROPN	-	5
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	5	list	Lisbeth	PROPN	_	1
+SF	SF	SF	PROPN	-	5	list	Lisbeth	PROPN	-	1
 <g/>
 </name>
-)	)	)	PUNCT	_	6	punct	SF	PROPN	_	5
-og	og	og	CCONJ	_	7	cc	Trine	PROPN	_	8
+)	)	)	PUNCT	-	6	punct	SF	PROPN	-	5
+og	og	og	CCONJ	-	7	cc	Trine	PROPN	-	8
 <name type="PER">
-Trine	Trine	Trine	PROPN	_	8	conj	Lisbeth	PROPN	_	1
-Mach	Mach	Machen	PROPN	_	9	flat	Trine	PROPN	_	8
+Trine	Trine	Trine	PROPN	-	8	conj	Lisbeth	PROPN	-	1
+Mach	Mach	Machen	PROPN	-	9	flat	Trine	PROPN	-	8
 </name>
-(	(	(	PUNCT	_	10	punct	SF	PROPN	_	11
+(	(	(	PUNCT	-	10	punct	SF	PROPN	-	11
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	11	flat	Trine	PROPN	_	8
+SF	SF	SF	PROPN	-	11	flat	Trine	PROPN	-	8
 <g/>
 </name>
-)	)	)	PUNCT	_	12	punct	SF	PROPN	_	11
+)	)	)	PUNCT	-	12	punct	SF	PROPN	-	11
 <g/>
-:	:	:	PUNCT	_	13	punct	Lisbeth	PROPN	_	1
-Beslutningsforslag	Beslutningsforslag	beslutningsforslage	VERB	Mood=Imp	14	list	Lisbeth	PROPN	_	1
+:	:	:	PUNCT	-	13	punct	Lisbeth	PROPN	-	1
+Beslutningsforslag	Beslutningsforslag	beslutningsforslage	VERB	Mood=Imp	14	list	Lisbeth	PROPN	-	1
 nr.	nr.	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	15	obj	beslutningsforslage	VERB	Mood=Imp	14
 B	B	b	NOUN	Definite=Ind Gender=Neut Number=Sing	16	nmod	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	15
 2	2	2	NUM	NumType=Card	17	nmod	b	NOUN	Definite=Ind Gender=Neut Number=Sing	16
-(	(	(	PUNCT	_	18	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	19
+(	(	(	PUNCT	-	18	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	19
 <g/>
 Forslag	Forslag	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	19	obl	beslutningsforslage	VERB	Mood=Imp	14
 til	til	til	ADP	AdpType=Prep	20	case	folketingsbeslutning	NOUN	Definite=Ind Gender=Com Number=Sing	21
@@ -810,31 +810,31 @@ typer	typer	type	NOUN	Definite=Ind Gender=Com Number=Plur	29	nmod	forslag	NOUN	D
 af	af	af	ADP	AdpType=Prep	30	case	tatovering	NOUN	Definite=Ind Gender=Com Number=Plur	31
 tatoveringer	tatoveringer	tatovering	NOUN	Definite=Ind Gender=Com Number=Plur	31	nmod	type	NOUN	Definite=Ind Gender=Com Number=Plur	29
 <g/>
-)	)	)	PUNCT	_	32	punct	beslutningsforslage	VERB	Mood=Imp	14
+)	)	)	PUNCT	-	32	punct	beslutningsforslage	VERB	Mood=Imp	14
 <g/>
-.	.	.	PUNCT	_	33	punct	Lisbeth	PROPN	_	1
+.	.	.	PUNCT	-	33	punct	Lisbeth	PROPN	-	1
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.26">
 <name type="PER">
-Christian	Christian	Christian	PROPN	_	1	root	-	-	-	-
-Juhl	Juhl	Juhl	PROPN	_	2	flat	Christian	PROPN	_	1
+Christian	Christian	Christian	PROPN	-	1	root	-	-	-	-
+Juhl	Juhl	Juhl	PROPN	-	2	flat	Christian	PROPN	-	1
 </name>
-(	(	(	PUNCT	_	3	punct	EL	PROPN	_	4
+(	(	(	PUNCT	-	3	punct	EL	PROPN	-	4
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	4	flat	Christian	PROPN	_	1
+EL	EL	EL	PROPN	-	4	flat	Christian	PROPN	-	1
 <g/>
 </name>
-)	)	)	PUNCT	_	5	punct	EL	PROPN	_	4
-m.fl.	m.fl.	m.fl.	ADV	_	6	list	Christian	PROPN	_	1
-:	:	:	PUNCT	_	7	punct	m.fl.	ADV	_	6
+)	)	)	PUNCT	-	5	punct	EL	PROPN	-	4
+m.fl.	m.fl.	m.fl.	ADV	-	6	list	Christian	PROPN	-	1
+:	:	:	PUNCT	-	7	punct	m.fl.	ADV	-	6
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.27">
 Beslutningsforslag	Beslutningsforslag	beslutningsforslage	VERB	Mood=Imp	1	root	-	-	-	-
 nr.	nr.	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	2	obj	beslutningsforslage	VERB	Mood=Imp	1
 B	B	b	NOUN	Definite=Ind Gender=Neut Number=Sing	3	nmod	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	2
 3	3	3	NUM	NumType=Card	4	nmod	b	NOUN	Definite=Ind Gender=Neut Number=Sing	3
-(	(	(	PUNCT	_	5	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	6
+(	(	(	PUNCT	-	5	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	6
 <g/>
 Forslag	Forslag	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	6	obl	beslutningsforslage	VERB	Mood=Imp	1
 til	til	til	ADP	AdpType=Prep	7	case	folketingsbeslutning	NOUN	Definite=Ind Gender=Com Number=Sing	8
@@ -846,31 +846,31 @@ genoptjeningsperioden	genoptjeningsperioden	genoptjeningsperiode	NOUN	Definite=D
 for	for	for	ADP	AdpType=Prep	13	case	arbejdsløshedsdagpenge	NOUN	Definite=Ind Gender=Com Number=Plur	14
 arbejdsløshedsdagpenge	arbejdsløshedsdagpenge	arbejdsløshedsdagpenge	NOUN	Definite=Ind Gender=Com Number=Plur	14	nmod	genoptjeningsperiode	NOUN	Definite=Def Gender=Com Number=Sing	12
 <g/>
-)	)	)	PUNCT	_	15	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	6
+)	)	)	PUNCT	-	15	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	6
 <g/>
-.	.	.	PUNCT	_	16	punct	beslutningsforslage	VERB	Mood=Imp	1
+.	.	.	PUNCT	-	16	punct	beslutningsforslage	VERB	Mood=Imp	1
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.28">
 <name type="PER">
-Alex	Alex	Alex	PROPN	_	1	root	-	-	-	-
-Ahrendtsen	Ahrendtsen	Ahrendtsen	PROPN	_	2	flat	Alex	PROPN	_	1
+Alex	Alex	Alex	PROPN	-	1	root	-	-	-	-
+Ahrendtsen	Ahrendtsen	Ahrendtsen	PROPN	-	2	flat	Alex	PROPN	-	1
 </name>
-(	(	(	PUNCT	_	3	punct	DF	PROPN	_	4
+(	(	(	PUNCT	-	3	punct	DF	PROPN	-	4
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	4	flat	Alex	PROPN	_	1
+DF	DF	DF	PROPN	-	4	flat	Alex	PROPN	-	1
 <g/>
 </name>
-)	)	)	PUNCT	_	5	punct	DF	PROPN	_	4
-m.fl.	m.fl.	m.fl.	ADV	_	6	list	Alex	PROPN	_	1
-:	:	:	PUNCT	_	7	punct	m.fl.	ADV	_	6
+)	)	)	PUNCT	-	5	punct	DF	PROPN	-	4
+m.fl.	m.fl.	m.fl.	ADV	-	6	list	Alex	PROPN	-	1
+:	:	:	PUNCT	-	7	punct	m.fl.	ADV	-	6
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.29">
 Beslutningsforslag	Beslutningsforslag	beslutningsforslage	VERB	Mood=Imp	1	root	-	-	-	-
 nr.	nr.	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	2	obj	beslutningsforslage	VERB	Mood=Imp	1
 B	B	b	NOUN	Definite=Ind Gender=Neut Number=Sing	3	nmod	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	2
 4	4	4	NUM	NumType=Card	4	nmod	b	NOUN	Definite=Ind Gender=Neut Number=Sing	3
-(	(	(	PUNCT	_	5	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	6
+(	(	(	PUNCT	-	5	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	6
 <g/>
 Forslag	Forslag	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	6	obl	beslutningsforslage	VERB	Mood=Imp	1
 til	til	til	ADP	AdpType=Prep	7	case	folketingsbeslutning	NOUN	Definite=Ind Gender=Com Number=Sing	8
@@ -886,32 +886,32 @@ de	de	de	DET	Number=Plur PronType=Dem	16	det	runesten	NOUN	Definite=Ind Gender=C
 danske	danske	dansk	ADJ	Degree=Pos Number=Plur	17	amod	runesten	NOUN	Definite=Ind Gender=Com Number=Plur	18
 runesten	runesten	runesten	NOUN	Definite=Ind Gender=Com Number=Plur	18	nmod	bevaring	NOUN	Definite=Ind Gender=Com Number=Sing	14
 <g/>
-)	)	)	PUNCT	_	19	punct	runesten	NOUN	Definite=Ind Gender=Com Number=Plur	18
+)	)	)	PUNCT	-	19	punct	runesten	NOUN	Definite=Ind Gender=Com Number=Plur	18
 <g/>
-.	.	.	PUNCT	_	20	punct	beslutningsforslage	VERB	Mood=Imp	1
+.	.	.	PUNCT	-	20	punct	beslutningsforslage	VERB	Mood=Imp	1
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.30">
 <name type="PER">
-Karina	Karina	Karina	PROPN	_	1	root	-	-	-	-
-Lorentzen	Lorentzen	Lorentzen	PROPN	_	2	flat	Karina	PROPN	_	1
-Dehnhardt	Dehnhardt	Dehnhardt	PROPN	_	3	flat	Karina	PROPN	_	1
+Karina	Karina	Karina	PROPN	-	1	root	-	-	-	-
+Lorentzen	Lorentzen	Lorentzen	PROPN	-	2	flat	Karina	PROPN	-	1
+Dehnhardt	Dehnhardt	Dehnhardt	PROPN	-	3	flat	Karina	PROPN	-	1
 </name>
-(	(	(	PUNCT	_	4	punct	SF	PROPN	_	5
+(	(	(	PUNCT	-	4	punct	SF	PROPN	-	5
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	5	list	Karina	PROPN	_	1
+SF	SF	SF	PROPN	-	5	list	Karina	PROPN	-	1
 <g/>
 </name>
-)	)	)	PUNCT	_	6	punct	SF	PROPN	_	5
-m.fl.	m.fl.	m.fl.	ADV	_	7	list	Karina	PROPN	_	1
-:	:	:	PUNCT	_	8	punct	m.fl.	ADV	_	7
+)	)	)	PUNCT	-	6	punct	SF	PROPN	-	5
+m.fl.	m.fl.	m.fl.	ADV	-	7	list	Karina	PROPN	-	1
+:	:	:	PUNCT	-	8	punct	m.fl.	ADV	-	7
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.31">
 Beslutningsforslag	Beslutningsforslag	beslutningsforslage	VERB	Mood=Imp	1	root	-	-	-	-
 nr.	nr.	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	2	obj	beslutningsforslage	VERB	Mood=Imp	1
 B	B	b	NOUN	Definite=Ind Gender=Neut Number=Sing	3	nmod	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	2
 5	5	5	NUM	NumType=Card	4	nmod	b	NOUN	Definite=Ind Gender=Neut Number=Sing	3
-(	(	(	PUNCT	_	5	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	6
+(	(	(	PUNCT	-	5	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	6
 <g/>
 Forslag	Forslag	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	6	obl	beslutningsforslage	VERB	Mood=Imp	1
 til	til	til	ADP	AdpType=Prep	7	case	folketingsbeslutning	NOUN	Definite=Ind Gender=Com Number=Sing	8
@@ -923,47 +923,47 @@ regler	regler	regel	NOUN	Definite=Ind Gender=Com Number=Plur	12	nmod	ændring	NO
 om	om	om	ADP	AdpType=Prep	13	case	straffeattest	NOUN	Definite=Ind Gender=Com Number=Plur	14
 straffeattester	straffeattester	straffeattest	NOUN	Definite=Ind Gender=Com Number=Plur	14	nmod	regel	NOUN	Definite=Ind Gender=Com Number=Plur	12
 <g/>
-)	)	)	PUNCT	_	15	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	6
+)	)	)	PUNCT	-	15	punct	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	6
 <g/>
-.	.	.	PUNCT	_	16	punct	beslutningsforslage	VERB	Mood=Imp	1
+.	.	.	PUNCT	-	16	punct	beslutningsforslage	VERB	Mood=Imp	1
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.32">
 <name type="PER">
-Pia	Pia	Pia	PROPN	_	1	root	-	-	-	-
-Kjærsgaard	Kjærsgaard	Kjærsgaard	PROPN	_	2	flat	Pia	PROPN	_	1
+Pia	Pia	Pia	PROPN	-	1	root	-	-	-	-
+Kjærsgaard	Kjærsgaard	Kjærsgaard	PROPN	-	2	flat	Pia	PROPN	-	1
 </name>
-(	(	(	PUNCT	_	3	punct	DF	PROPN	_	4
+(	(	(	PUNCT	-	3	punct	DF	PROPN	-	4
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	4	flat	Pia	PROPN	_	1
+DF	DF	DF	PROPN	-	4	flat	Pia	PROPN	-	1
 <g/>
 </name>
-)	)	)	PUNCT	_	5	punct	Pia	PROPN	_	1
-og	og	og	CCONJ	_	6	cc	Peter	PROPN	_	7
+)	)	)	PUNCT	-	5	punct	Pia	PROPN	-	1
+og	og	og	CCONJ	-	6	cc	Peter	PROPN	-	7
 <name type="PER">
-Peter	Peter	Peter	PROPN	_	7	conj	Pia	PROPN	_	1
-Skaarup	Skaarup	Skaarup	PROPN	_	8	flat	Peter	PROPN	_	7
+Peter	Peter	Peter	PROPN	-	7	conj	Pia	PROPN	-	1
+Skaarup	Skaarup	Skaarup	PROPN	-	8	flat	Peter	PROPN	-	7
 </name>
-(	(	(	PUNCT	_	9	punct	DF	PROPN	_	10
+(	(	(	PUNCT	-	9	punct	DF	PROPN	-	10
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	10	flat	Peter	PROPN	_	7
+DF	DF	DF	PROPN	-	10	flat	Peter	PROPN	-	7
 <g/>
 </name>
-)	)	)	PUNCT	_	11	punct	DF	PROPN	_	10
+)	)	)	PUNCT	-	11	punct	DF	PROPN	-	10
 <g/>
-:	:	:	PUNCT	_	12	punct	Pia	PROPN	_	1
+:	:	:	PUNCT	-	12	punct	Pia	PROPN	-	1
 Forespørgsel	Forespørgsel	forespørgsel	ADJ	Definite=Ind Degree=Pos Gender=Com Number=Sing	13	amod	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	14
 nr.	nr.	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	14	nsubj	redegøre	VERB	VerbForm=Inf Voice=Act	20
 F	F	f	ADP	AdpType=Prep	15	case	1	NUM	NumType=Card	16
 1	1	1	NUM	NumType=Card	16	nummod	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	14
-(	(	(	PUNCT	_	17	punct	redegøre	VERB	VerbForm=Inf Voice=Act	20
+(	(	(	PUNCT	-	17	punct	redegøre	VERB	VerbForm=Inf Voice=Act	20
 <g/>
 Vil	Vil	ville	AUX	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	18	aux	redegøre	VERB	VerbForm=Inf Voice=Act	20
 statsministeren	statsministeren	statsminister	NOUN	Definite=Def Gender=Com Number=Sing	19	nsubj	redegøre	VERB	VerbForm=Inf Voice=Act	20
-redegøre	redegøre	redegøre	VERB	VerbForm=Inf Voice=Act	20	list	Pia	PROPN	_	1
+redegøre	redegøre	redegøre	VERB	VerbForm=Inf Voice=Act	20	list	Pia	PROPN	-	1
 for	for	for	ADP	AdpType=Prep	21	case	værdipolitik	NOUN	Definite=Ind Gender=Com Number=Sing	23
-regeringens	regeringens	regering	NOUN	Case=Gen Definite=Def Gender=Com Number=Sing	22	nmod_poss	værdipolitik	NOUN	Definite=Ind Gender=Com Number=Sing	23
+regeringens	regeringens	regering	NOUN	Case=Gen Definite=Def Gender=Com Number=Sing	22	nmod:poss	værdipolitik	NOUN	Definite=Ind Gender=Com Number=Sing	23
 værdipolitik	værdipolitik	værdipolitik	NOUN	Definite=Ind Gender=Com Number=Sing	23	obl	redegøre	VERB	VerbForm=Inf Voice=Act	20
 med	med	med	ADP	AdpType=Prep	24	case	fokus	NOUN	Definite=Ind Number=Sing	25
 fokus	fokus	fokus	NOUN	Definite=Ind Number=Sing	25	obl	redegøre	VERB	VerbForm=Inf Voice=Act	20
@@ -971,14 +971,14 @@ på	på	på	ADP	AdpType=Prep	26	case	udfordring	NOUN	Definite=Ind Gender=Com Num
 de	de	de	DET	Number=Plur PronType=Dem	27	det	udfordring	NOUN	Definite=Ind Gender=Com Number=Plur	28
 udfordringer	udfordringer	udfordring	NOUN	Definite=Ind Gender=Com Number=Plur	28	nmod	fokus	NOUN	Definite=Ind Number=Sing	25
 <g/>
-,	,	,	PUNCT	_	29	punct	udfordring	NOUN	Definite=Ind Gender=Com Number=Plur	28
+,	,	,	PUNCT	-	29	punct	udfordring	NOUN	Definite=Ind Gender=Com Number=Plur	28
 der	der	der	PRON	PartType=Inf	30	nsubj	følge	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	31
-følger	følger	følge	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	31	acl_relcl	udfordring	NOUN	Definite=Ind Gender=Com Number=Plur	28
+følger	følger	følge	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	31	acl:relcl	udfordring	NOUN	Definite=Ind Gender=Com Number=Plur	28
 af	af	af	ADP	AdpType=Prep	32	case	indvandring	NOUN	Definite=Def Gender=Com Number=Sing	33
 indvandringen	indvandringen	indvandring	NOUN	Definite=Def Gender=Com Number=Sing	33	obl	følge	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	31
 <g/>
-,	,	,	PUNCT	_	34	punct	følge	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	31
-og	og	og	CCONJ	_	35	cc	presser/tvinger	NOUN	Definite=Ind Gender=Com Number=Plur	37
+,	,	,	PUNCT	-	34	punct	følge	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	31
+og	og	og	CCONJ	-	35	cc	presser/tvinger	NOUN	Definite=Ind Gender=Com Number=Plur	37
 som	som	som	ADP	PartType=Inf	36	case	presser/tvinger	NOUN	Definite=Ind Gender=Com Number=Plur	37
 presser/tvinger	presser/tvinger	presser/tvinger	NOUN	Definite=Ind Gender=Com Number=Plur	37	conj	fokus	NOUN	Definite=Ind Number=Sing	25
 danskerne	danskerne	dansker	NOUN	Definite=Def Gender=Com Number=Plur	38	nmod	presser/tvinger	NOUN	Definite=Ind Gender=Com Number=Plur	37
@@ -986,71 +986,71 @@ til	til	til	ADP	AdpType=Prep	39	mark	ændre	VERB	VerbForm=Inf Voice=Act	41
 at	at	at	PART	PartType=Inf	40	mark	ændre	VERB	VerbForm=Inf Voice=Act	41
 ændre	ændre	ændre	VERB	VerbForm=Inf Voice=Act	41	advcl	dansker	NOUN	Definite=Def Gender=Com Number=Plur	38
 levevis	levevis	levevis	ADJ	Definite=Ind Degree=Pos Gender=Com Number=Sing	42	amod	ændre	VERB	VerbForm=Inf Voice=Act	41
-og	og	og	CCONJ	_	43	cc	adfærd	ADJ	Definite=Ind Degree=Pos Gender=Com Number=Sing	44
+og	og	og	CCONJ	-	43	cc	adfærd	ADJ	Definite=Ind Degree=Pos Gender=Com Number=Sing	44
 adfærd	adfærd	adfærd	ADJ	Definite=Ind Degree=Pos Gender=Com Number=Sing	44	conj	levevis	ADJ	Definite=Ind Degree=Pos Gender=Com Number=Sing	42
-og	og	og	CCONJ	_	45	cc	rette	VERB	VerbForm=Inf Voice=Act	47
-»	»	»	PUNCT	_	46	punct	rette	VERB	VerbForm=Inf Voice=Act	47
+og	og	og	CCONJ	-	45	cc	rette	VERB	VerbForm=Inf Voice=Act	47
+»	»	»	PUNCT	-	46	punct	rette	VERB	VerbForm=Inf Voice=Act	47
 <g/>
 rette	rette	rette	VERB	VerbForm=Inf Voice=Act	47	conj	ændre	VERB	VerbForm=Inf Voice=Act	41
-ind	ind	ind	ADV	_	48	compound_prt	rette	VERB	VerbForm=Inf Voice=Act	47
+ind	ind	ind	ADV	-	48	compound:prt	rette	VERB	VerbForm=Inf Voice=Act	47
 <g/>
-«	«	«	PUNCT	_	49	punct	ind	ADV	_	48
+«	«	«	PUNCT	-	49	punct	ind	ADV	-	48
 af	af	af	ADP	AdpType=Prep	50	case	hensyn	NOUN	Definite=Ind Gender=Neut Number=Sing	51
-hensyn	hensyn	hensyn	NOUN	Definite=Ind Gender=Neut Number=Sing	51	nmod	«	PUNCT	_	49
+hensyn	hensyn	hensyn	NOUN	Definite=Ind Gender=Neut Number=Sing	51	nmod	«	PUNCT	-	49
 til	til	til	ADP	AdpType=Prep	52	case	indvandrer	NOUN	Definite=Ind Gender=Com Number=Plur	53
 indvandrere	indvandrere	indvandrer	NOUN	Definite=Ind Gender=Com Number=Plur	53	nmod	hensyn	NOUN	Definite=Ind Gender=Neut Number=Sing	51
 <g/>
-?	?	?	PUNCT	_	54	punct	hensyn	NOUN	Definite=Ind Gender=Neut Number=Sing	51
+?	?	?	PUNCT	-	54	punct	hensyn	NOUN	Definite=Ind Gender=Neut Number=Sing	51
 <g/>
-)	)	)	PUNCT	_	55	punct	hensyn	NOUN	Definite=Ind Gender=Neut Number=Sing	51
+)	)	)	PUNCT	-	55	punct	hensyn	NOUN	Definite=Ind Gender=Neut Number=Sing	51
 <g/>
-.	.	.	PUNCT	_	56	punct	redegøre	VERB	VerbForm=Inf Voice=Act	20
+.	.	.	PUNCT	-	56	punct	redegøre	VERB	VerbForm=Inf Voice=Act	20
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.33">
 <name type="PER">
-Pia	Pia	Pia	PROPN	_	1	nsubj	oplyse	VERB	VerbForm=Inf Voice=Act	21
-Kjærsgaard	Kjærsgaard	Kjærsgaard	PROPN	_	2	flat	Pia	PROPN	_	1
+Pia	Pia	Pia	PROPN	-	1	nsubj	oplyse	VERB	VerbForm=Inf Voice=Act	21
+Kjærsgaard	Kjærsgaard	Kjærsgaard	PROPN	-	2	flat	Pia	PROPN	-	1
 </name>
-(	(	(	PUNCT	_	3	punct	DF	PROPN	_	4
+(	(	(	PUNCT	-	3	punct	DF	PROPN	-	4
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	4	flat	Pia	PROPN	_	1
+DF	DF	DF	PROPN	-	4	flat	Pia	PROPN	-	1
 <g/>
 </name>
-)	)	)	PUNCT	_	5	punct	Pia	PROPN	_	1
-og	og	og	CCONJ	_	6	cc	Karin	PROPN	_	7
+)	)	)	PUNCT	-	5	punct	Pia	PROPN	-	1
+og	og	og	CCONJ	-	6	cc	Karin	PROPN	-	7
 <name type="PER">
-Karin	Karin	Karin	PROPN	_	7	conj	Pia	PROPN	_	1
-Nødgaard	Nødgaard	Nødgaard	PROPN	_	8	flat	Karin	PROPN	_	7
+Karin	Karin	Karin	PROPN	-	7	conj	Pia	PROPN	-	1
+Nødgaard	Nødgaard	Nødgaard	PROPN	-	8	flat	Karin	PROPN	-	7
 </name>
-(	(	(	PUNCT	_	9	punct	DF	PROPN	_	10
+(	(	(	PUNCT	-	9	punct	DF	PROPN	-	10
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	10	flat	Karin	PROPN	_	7
+DF	DF	DF	PROPN	-	10	flat	Karin	PROPN	-	7
 <g/>
 </name>
-)	)	)	PUNCT	_	11	punct	DF	PROPN	_	10
+)	)	)	PUNCT	-	11	punct	DF	PROPN	-	10
 <g/>
-:	:	:	PUNCT	_	12	punct	Pia	PROPN	_	1
+:	:	:	PUNCT	-	12	punct	Pia	PROPN	-	1
 Forespørgsel	Forespørgsel	forespørgsel	ADJ	Definite=Ind Degree=Pos Gender=Com Number=Sing	13	amod	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	14
 nr.	nr.	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	14	obl	oplyse	VERB	VerbForm=Inf Voice=Act	21
 F	F	f	ADP	AdpType=Prep	15	case	2	NUM	NumType=Card	16
 2	2	2	NUM	NumType=Card	16	nmod	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	14
-(	(	(	PUNCT	_	17	punct	oplyse	VERB	VerbForm=Inf Voice=Act	21
+(	(	(	PUNCT	-	17	punct	oplyse	VERB	VerbForm=Inf Voice=Act	21
 <g/>
 Hvad	Hvad	hvad	PRON	Number=Sing PronType=Int,Rel	18	mark	oplyse	VERB	VerbForm=Inf Voice=Act	21
 kan	kan	kunne	AUX	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	19	aux	oplyse	VERB	VerbForm=Inf Voice=Act	21
 ministeren	ministeren	minister	NOUN	Definite=Def Gender=Com Number=Sing	20	nsubj	oplyse	VERB	VerbForm=Inf Voice=Act	21
 oplyse	oplyse	oplyse	VERB	VerbForm=Inf Voice=Act	21	root	-	-	-	-
 om	om	om	ADP	AdpType=Prep	22	case	digitaliseringspolitik	NOUN	Definite=Ind Gender=Com Number=Sing	24
-regeringens	regeringens	regering	NOUN	Case=Gen Definite=Def Gender=Com Number=Sing	23	nmod_poss	digitaliseringspolitik	NOUN	Definite=Ind Gender=Com Number=Sing	24
+regeringens	regeringens	regering	NOUN	Case=Gen Definite=Def Gender=Com Number=Sing	23	nmod:poss	digitaliseringspolitik	NOUN	Definite=Ind Gender=Com Number=Sing	24
 digitaliseringspolitik	digitaliseringspolitik	digitaliseringspolitik	NOUN	Definite=Ind Gender=Com Number=Sing	24	obl	oplyse	VERB	VerbForm=Inf Voice=Act	21
-og	og	og	CCONJ	_	25	cc	krav	NOUN	Definite=Def Gender=Neut Number=Sing	26
+og	og	og	CCONJ	-	25	cc	krav	NOUN	Definite=Def Gender=Neut Number=Sing	26
 kravet	kravet	krav	NOUN	Definite=Def Gender=Neut Number=Sing	26	conj	oplyse	VERB	VerbForm=Inf Voice=Act	21
 om	om	om	ADP	AdpType=Prep	27	mark	have	VERB	VerbForm=Inf Voice=Act	38
 <g/>
-,	,	,	PUNCT	_	28	punct	om	ADP	AdpType=Prep	27
-at	at	at	SCONJ	_	29	mark	have	VERB	VerbForm=Inf Voice=Act	38
+,	,	,	PUNCT	-	28	punct	om	ADP	AdpType=Prep	27
+at	at	at	SCONJ	-	29	mark	have	VERB	VerbForm=Inf Voice=Act	38
 alle	alle	al	ADJ	Degree=Pos Number=Plur	30	amod	borger	NOUN	Definite=Ind Gender=Com Number=Plur	31
 borgere	borgere	borger	NOUN	Definite=Ind Gender=Com Number=Plur	31	nsubj	have	VERB	VerbForm=Inf Voice=Act	38
 fra	fra	fra	ADP	AdpType=Prep	32	case	november	NOUN	Definite=Ind Gender=Com Number=Sing	35
@@ -1070,84 +1070,84 @@ fra	fra	fra	ADP	AdpType=Prep	45	case	offentlig	ADJ	Definite=Def Degree=Pos Numbe
 det	det	den	DET	Gender=Neut Number=Sing PronType=Dem	46	det	offentlig	ADJ	Definite=Def Degree=Pos Number=Sing	47
 offentlige	offentlige	offentlig	ADJ	Definite=Def Degree=Pos Number=Sing	47	nmod	post	NOUN	Definite=Ind Gender=Com Number=Sing	44
 <g/>
-,	,	,	PUNCT	_	48	punct	have	VERB	VerbForm=Inf Voice=Act	38
-og	og	og	CCONJ	_	49	cc	gøre	VERB	VerbForm=Inf Voice=Act	52
+,	,	,	PUNCT	-	48	punct	have	VERB	VerbForm=Inf Voice=Act	38
+og	og	og	CCONJ	-	49	cc	gøre	VERB	VerbForm=Inf Voice=Act	52
 vil	vil	ville	AUX	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	50	aux	gøre	VERB	VerbForm=Inf Voice=Act	52
 ministeren	ministeren	minister	NOUN	Definite=Def Gender=Com Number=Sing	51	nsubj	gøre	VERB	VerbForm=Inf Voice=Act	52
 gøre	gøre	gøre	VERB	VerbForm=Inf Voice=Act	52	conj	have	VERB	VerbForm=Inf Voice=Act	38
 det	det	den	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	53	obj	gøre	VERB	VerbForm=Inf Voice=Act	52
 frivilligt	frivilligt	frivilligt	ADV	Degree=Pos	54	advmod	at	PART	PartType=Inf	55
 at	at	at	PART	PartType=Inf	55	mark	tilslutte	VERB	VerbForm=Inf Voice=Act	56
-tilslutte	tilslutte	tilslutte	VERB	VerbForm=Inf Voice=Act	56	acl_relcl	den	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	53
+tilslutte	tilslutte	tilslutte	VERB	VerbForm=Inf Voice=Act	56	acl:relcl	den	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	53
 sig	sig	sig	PRON	Case=Acc Person=3 PronType=Prs Reflex=Yes	57	obj	tilslutte	VERB	VerbForm=Inf Voice=Act	56
 digitaliseringen	digitaliseringen	digitalisering	NOUN	Definite=Def Gender=Com Number=Sing	58	obl	tilslutte	VERB	VerbForm=Inf Voice=Act	56
-og	og	og	CCONJ	_	59	cc	e-boks	NOUN	Definite=Ind Gender=Com Number=Sing	60
+og	og	og	CCONJ	-	59	cc	e-boks	NOUN	Definite=Ind Gender=Com Number=Sing	60
 e-Boks	e-Boks	e-boks	NOUN	Definite=Ind Gender=Com Number=Sing	60	conj	digitalisering	NOUN	Definite=Def Gender=Com Number=Sing	58
-?	?	?	PUNCT	_	61	punct	digitalisering	NOUN	Definite=Def Gender=Com Number=Sing	58
+?	?	?	PUNCT	-	61	punct	digitalisering	NOUN	Definite=Def Gender=Com Number=Sing	58
 <g/>
-)	)	)	PUNCT	_	62	punct	digitalisering	NOUN	Definite=Def Gender=Com Number=Sing	58
+)	)	)	PUNCT	-	62	punct	digitalisering	NOUN	Definite=Def Gender=Com Number=Sing	58
 <g/>
-.	.	.	PUNCT	_	63	punct	oplyse	VERB	VerbForm=Inf Voice=Act	21
+.	.	.	PUNCT	-	63	punct	oplyse	VERB	VerbForm=Inf Voice=Act	21
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.34">
 <name type="PER">
-Søren	Søren	Søren	PROPN	_	1	root	-	-	-	-
-Espersen	Espersen	Espersen	PROPN	_	2	flat	Søren	PROPN	_	1
+Søren	Søren	Søren	PROPN	-	1	root	-	-	-	-
+Espersen	Espersen	Espersen	PROPN	-	2	flat	Søren	PROPN	-	1
 </name>
-(	(	(	PUNCT	_	3	punct	DF	PROPN	_	4
+(	(	(	PUNCT	-	3	punct	DF	PROPN	-	4
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	4	flat	Søren	PROPN	_	1
+DF	DF	DF	PROPN	-	4	flat	Søren	PROPN	-	1
 <g/>
 </name>
-)	)	)	PUNCT	_	5	punct	DF	PROPN	_	4
+)	)	)	PUNCT	-	5	punct	DF	PROPN	-	4
 <g/>
-,	,	,	PUNCT	_	6	punct	Søren	PROPN	_	1
+,	,	,	PUNCT	-	6	punct	Søren	PROPN	-	1
 <name type="PER">
-Claus	Claus	Claus	PROPN	_	7	conj	Søren	PROPN	_	1
-Hjort	Hjort	Hjort	PROPN	_	8	flat	Claus	PROPN	_	7
-Frederiksen	Frederiksen	Frederiksen	PROPN	_	9	flat	Claus	PROPN	_	7
+Claus	Claus	Claus	PROPN	-	7	conj	Søren	PROPN	-	1
+Hjort	Hjort	Hjort	PROPN	-	8	flat	Claus	PROPN	-	7
+Frederiksen	Frederiksen	Frederiksen	PROPN	-	9	flat	Claus	PROPN	-	7
 </name>
-(	(	(	PUNCT	_	10	punct	V	PROPN	_	11
+(	(	(	PUNCT	-	10	punct	V	PROPN	-	11
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	11	flat	Claus	PROPN	_	7
+V	V	V	PROPN	-	11	flat	Claus	PROPN	-	7
 <g/>
 </name>
-)	)	)	PUNCT	_	12	punct	V	PROPN	_	11
+)	)	)	PUNCT	-	12	punct	V	PROPN	-	11
 <g/>
-,	,	,	PUNCT	_	13	punct	Søren	PROPN	_	1
+,	,	,	PUNCT	-	13	punct	Søren	PROPN	-	1
 <name type="PER">
-Villum	Villum	Villum	PROPN	_	14	conj	Søren	PROPN	_	1
-Christensen	Christensen	Christensen	PROPN	_	15	flat	Villum	PROPN	_	14
+Villum	Villum	Villum	PROPN	-	14	conj	Søren	PROPN	-	1
+Christensen	Christensen	Christensen	PROPN	-	15	flat	Villum	PROPN	-	14
 </name>
-(	(	(	PUNCT	_	16	punct	LA	PROPN	_	17
+(	(	(	PUNCT	-	16	punct	LA	PROPN	-	17
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	17	flat	Villum	PROPN	_	14
+LA	LA	LA	PROPN	-	17	flat	Villum	PROPN	-	14
 <g/>
 </name>
-)	)	)	PUNCT	_	18	punct	LA	PROPN	_	17
-og	og	og	CCONJ	_	19	cc	Per	PROPN	_	20
+)	)	)	PUNCT	-	18	punct	LA	PROPN	-	17
+og	og	og	CCONJ	-	19	cc	Per	PROPN	-	20
 <name type="PER">
-Per	Per	Per	PROPN	_	20	conj	Søren	PROPN	_	1
-Stig	Stig	Stig	PROPN	_	21	flat	Per	PROPN	_	20
-Møller	Møller	Møller	PROPN	_	22	flat	Per	PROPN	_	20
+Per	Per	Per	PROPN	-	20	conj	Søren	PROPN	-	1
+Stig	Stig	Stig	PROPN	-	21	flat	Per	PROPN	-	20
+Møller	Møller	Møller	PROPN	-	22	flat	Per	PROPN	-	20
 </name>
-(	(	(	PUNCT	_	23	punct	KF	PROPN	_	24
+(	(	(	PUNCT	-	23	punct	KF	PROPN	-	24
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	24	flat	Per	PROPN	_	20
+KF	KF	KF	PROPN	-	24	flat	Per	PROPN	-	20
 <g/>
 </name>
-)	)	)	PUNCT	_	25	punct	KF	PROPN	_	24
+)	)	)	PUNCT	-	25	punct	KF	PROPN	-	24
 <g/>
-:	:	:	PUNCT	_	26	punct	Søren	PROPN	_	1
+:	:	:	PUNCT	-	26	punct	Søren	PROPN	-	1
 Forespørgsel	Forespørgsel	forespørgsel	ADJ	Definite=Ind Degree=Pos Gender=Com Number=Sing	27	amod	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	28
-nr.	nr.	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	28	list	Søren	PROPN	_	1
+nr.	nr.	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	28	list	Søren	PROPN	-	1
 F	F	f	ADP	AdpType=Prep	29	case	3	NUM	NumType=Card	30
 3	3	3	NUM	NumType=Card	30	nummod	oplyse	VERB	VerbForm=Inf Voice=Act	35
-(	(	(	PUNCT	_	31	punct	oplyse	VERB	VerbForm=Inf Voice=Act	35
+(	(	(	PUNCT	-	31	punct	oplyse	VERB	VerbForm=Inf Voice=Act	35
 <g/>
 Hvad	Hvad	hvad	PRON	Number=Sing PronType=Int,Rel	32	mark	oplyse	VERB	VerbForm=Inf Voice=Act	35
 kan	kan	kunne	AUX	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	33	aux	oplyse	VERB	VerbForm=Inf Voice=Act	35
@@ -1157,62 +1157,62 @@ om	om	om	ADP	AdpType=Prep	36	case	situation	NOUN	Definite=Ind Gender=Com Number=
 den	den	den	DET	Gender=Com Number=Sing PronType=Dem	37	det	situation	NOUN	Definite=Ind Gender=Com Number=Sing	39
 generelle	generelle	generel	ADJ	Definite=Def Degree=Pos Number=Sing	38	amod	situation	NOUN	Definite=Ind Gender=Com Number=Sing	39
 situation	situation	situation	NOUN	Definite=Ind Gender=Com Number=Sing	39	obl	oplyse	VERB	VerbForm=Inf Voice=Act	35
-i	i	i	ADP	AdpType=Prep	40	case	Grønland	PROPN	_	41
+i	i	i	ADP	AdpType=Prep	40	case	Grønland	PROPN	-	41
 <name type="LOC">
-Grønland	Grønland	Grønland	PROPN	_	41	nmod	situation	NOUN	Definite=Ind Gender=Com Number=Sing	39
+Grønland	Grønland	Grønland	PROPN	-	41	nmod	situation	NOUN	Definite=Ind Gender=Com Number=Sing	39
 <g/>
 </name>
-,	,	,	PUNCT	_	42	punct	oplyse	VERB	VerbForm=Inf Voice=Act	35
-herunder	herunder	herunder	ADV	_	43	advmod	underskud	NOUN	Definite=Ind Gender=Neut Number=Sing	47
-om	om	om	ADP	AdpType=Prep	44	fixed	herunder	ADV	_	43
+,	,	,	PUNCT	-	42	punct	oplyse	VERB	VerbForm=Inf Voice=Act	35
+herunder	herunder	herunder	ADV	-	43	advmod	underskud	NOUN	Definite=Ind Gender=Neut Number=Sing	47
+om	om	om	ADP	AdpType=Prep	44	fixed	herunder	ADV	-	43
 det	det	den	DET	Gender=Neut Number=Sing PronType=Dem	45	det	underskud	NOUN	Definite=Ind Gender=Neut Number=Sing	47
 dramatiske	dramatiske	dramatisk	ADJ	Definite=Def Degree=Pos Number=Sing	46	amod	underskud	NOUN	Definite=Ind Gender=Neut Number=Sing	47
 underskud	underskud	underskud	NOUN	Definite=Ind Gender=Neut Number=Sing	47	obl	oplyse	VERB	VerbForm=Inf Voice=Act	35
 på	på	på	ADP	AdpType=Prep	48	case	budget	NOUN	Definite=Def Gender=Neut Number=Sing	49
 budgettet	budgettet	budget	NOUN	Definite=Def Gender=Neut Number=Sing	49	nmod	underskud	NOUN	Definite=Ind Gender=Neut Number=Sing	47
 <g/>
-,	,	,	PUNCT	_	50	punct	underskud	NOUN	Definite=Ind Gender=Neut Number=Sing	47
-om	om	om	SCONJ	_	51	mark	perspektiv	NOUN	Definite=Ind Gender=Neut Number=Plur	57
+,	,	,	PUNCT	-	50	punct	underskud	NOUN	Definite=Ind Gender=Neut Number=Sing	47
+om	om	om	SCONJ	-	51	mark	perspektiv	NOUN	Definite=Ind Gender=Neut Number=Plur	57
 de	de	de	PRON	Case=Nom Number=Plur Person=3 PronType=Prs	52	nsubj	perspektiv	NOUN	Definite=Ind Gender=Neut Number=Plur	57
-nu	nu	nu	ADV	_	53	advmod	perspektiv	NOUN	Definite=Ind Gender=Neut Number=Plur	57
+nu	nu	nu	ADV	-	53	advmod	perspektiv	NOUN	Definite=Ind Gender=Neut Number=Plur	57
 meget	meget	meget	ADV	Degree=Pos	54	advmod	perspektiv	NOUN	Definite=Ind Gender=Neut Number=Plur	57
 dystre	dystre	dyster	ADJ	Degree=Pos Number=Plur	55	amod	perspektiv	NOUN	Definite=Ind Gender=Neut Number=Plur	57
 økonomiske	økonomiske	økonomisk	ADJ	Degree=Pos Number=Plur	56	amod	perspektiv	NOUN	Definite=Ind Gender=Neut Number=Plur	57
 perspektiver	perspektiver	perspektiv	NOUN	Definite=Ind Gender=Neut Number=Plur	57	nmod	underskud	NOUN	Definite=Ind Gender=Neut Number=Sing	47
 <g/>
-,	,	,	PUNCT	_	58	punct	perspektiv	NOUN	Definite=Ind Gender=Neut Number=Plur	57
-om	om	om	SCONJ	_	59	mark	den	PRON	Case=Acc Gender=Com Number=Sing Person=3 PronType=Prs	60
+,	,	,	PUNCT	-	58	punct	perspektiv	NOUN	Definite=Ind Gender=Neut Number=Plur	57
+om	om	om	SCONJ	-	59	mark	den	PRON	Case=Acc Gender=Com Number=Sing Person=3 PronType=Prs	60
 den	den	den	PRON	Case=Acc Gender=Com Number=Sing Person=3 PronType=Prs	60	nmod	perspektiv	NOUN	Definite=Ind Gender=Neut Number=Plur	57
 dramatisk	dramatisk	dramatisk	ADV	Degree=Pos	61	advmod	vokse	VERB	Tense=Pres VerbForm=Part	62
 voksende	voksende	vokse	VERB	Tense=Pres VerbForm=Part	62	amod	arbejdsløshed	NOUN	Definite=Ind Gender=Com Number=Sing	63
 arbejdsløshed	arbejdsløshed	arbejdsløshed	NOUN	Definite=Ind Gender=Com Number=Sing	63	nmod	den	PRON	Case=Acc Gender=Com Number=Sing Person=3 PronType=Prs	60
 <g/>
-,	,	,	PUNCT	_	64	punct	arbejdsløshed	NOUN	Definite=Ind Gender=Com Number=Sing	63
-om	om	om	SCONJ	_	65	mark	mangel	NOUN	Definite=Def Gender=Com Number=Sing	66
+,	,	,	PUNCT	-	64	punct	arbejdsløshed	NOUN	Definite=Ind Gender=Com Number=Sing	63
+om	om	om	SCONJ	-	65	mark	mangel	NOUN	Definite=Def Gender=Com Number=Sing	66
 manglen	manglen	mangel	NOUN	Definite=Def Gender=Com Number=Sing	66	nmod	arbejdsløshed	NOUN	Definite=Ind Gender=Com Number=Sing	63
 på	på	på	ADP	AdpType=Prep	67	case	investering	NOUN	Definite=Ind Gender=Com Number=Plur	68
 investeringer	investeringer	investering	NOUN	Definite=Ind Gender=Com Number=Plur	68	nmod	mangel	NOUN	Definite=Def Gender=Com Number=Sing	66
 <g/>
-,	,	,	PUNCT	_	69	punct	mangel	NOUN	Definite=Def Gender=Com Number=Sing	66
+,	,	,	PUNCT	-	69	punct	mangel	NOUN	Definite=Def Gender=Com Number=Sing	66
 om	om	om	ADP	AdpType=Prep	70	case	fattigdom	NOUN	Definite=Ind Gender=Com Number=Sing	73
 den	den	den	DET	Gender=Com Number=Sing PronType=Dem	71	det	fattigdom	NOUN	Definite=Ind Gender=Com Number=Sing	73
 stigende	stigende	stige	VERB	Tense=Pres VerbForm=Part	72	amod	fattigdom	NOUN	Definite=Ind Gender=Com Number=Sing	73
 fattigdom	fattigdom	fattigdom	NOUN	Definite=Ind Gender=Com Number=Sing	73	nmod	mangel	NOUN	Definite=Def Gender=Com Number=Sing	66
 <g/>
-,	,	,	PUNCT	_	74	punct	fattigdom	NOUN	Definite=Ind Gender=Com Number=Sing	73
-om	om	om	SCONJ	_	75	case	problem	NOUN	Definite=Ind Gender=Neut Number=Plur	77
+,	,	,	PUNCT	-	74	punct	fattigdom	NOUN	Definite=Ind Gender=Com Number=Sing	73
+om	om	om	SCONJ	-	75	case	problem	NOUN	Definite=Ind Gender=Neut Number=Plur	77
 de	de	de	DET	Number=Plur PronType=Dem	76	det	problem	NOUN	Definite=Ind Gender=Neut Number=Plur	77
 problemer	problemer	problem	NOUN	Definite=Ind Gender=Neut Number=Plur	77	nmod	fattigdom	NOUN	Definite=Ind Gender=Com Number=Sing	73
 <g/>
-,	,	,	PUNCT	_	78	punct	problem	NOUN	Definite=Ind Gender=Neut Number=Plur	77
+,	,	,	PUNCT	-	78	punct	problem	NOUN	Definite=Ind Gender=Neut Number=Plur	77
 udvandringen	udvandringen	udvandring	NOUN	Definite=Def Gender=Com Number=Sing	79	nsubj	give	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	80
-giver	giver	give	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	80	acl_relcl	problem	NOUN	Definite=Ind Gender=Neut Number=Plur	77
+giver	giver	give	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	80	acl:relcl	problem	NOUN	Definite=Ind Gender=Neut Number=Plur	77
 <g/>
-,	,	,	PUNCT	_	81	punct	give	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	80
-samt	samt	samt	CCONJ	_	82	dep	problem	NOUN	Definite=Ind Gender=Neut Number=Plur	77
+,	,	,	PUNCT	-	81	punct	give	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	80
+samt	samt	samt	CCONJ	-	82	dep	problem	NOUN	Definite=Ind Gender=Neut Number=Plur	77
 om	om	om	ADP	AdpType=Prep	83	mark	have	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	88
 <g/>
-,	,	,	PUNCT	_	84	punct	om	ADP	AdpType=Prep	83
+,	,	,	PUNCT	-	84	punct	om	ADP	AdpType=Prep	83
 hvilke	hvilke	hvilken	PRON	Number=Plur PronType=Int,Rel	85	mark	have	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	88
 planer	planer	plan	NOUN	Definite=Ind Gender=Com Number=Plur	86	nsubj	have	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	88
 regeringen	regeringen	regering	NOUN	Definite=Def Gender=Com Number=Sing	87	nmod	plan	NOUN	Definite=Ind Gender=Com Number=Plur	86
@@ -1223,68 +1223,68 @@ at	at	at	PART	PartType=Inf	91	mark	bistå	VERB	VerbForm=Inf Voice=Act	93
 kunne	kunne	kunne	AUX	VerbForm=Inf Voice=Act	92	aux	bistå	VERB	VerbForm=Inf Voice=Act	93
 bistå	bistå	bistå	VERB	VerbForm=Inf Voice=Act	93	obj	have	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	88
 <name type="LOC">
-Grønland	Grønland	Grønland	PROPN	_	94	obj	bistå	VERB	VerbForm=Inf Voice=Act	93
+Grønland	Grønland	Grønland	PROPN	-	94	obj	bistå	VERB	VerbForm=Inf Voice=Act	93
 </name>
 i	i	i	ADP	AdpType=Prep	95	case	krise	NOUN	Definite=Ind Gender=Com Number=Sing	99
-landets	landets	land	NOUN	Case=Gen Definite=Def Gender=Neut Number=Sing	96	nmod_poss	krise	NOUN	Definite=Ind Gender=Com Number=Sing	99
+landets	landets	land	NOUN	Case=Gen Definite=Def Gender=Neut Number=Sing	96	nmod:poss	krise	NOUN	Definite=Ind Gender=Com Number=Sing	99
 dybt	dybt	dybt	ADV	Degree=Pos	97	advmod	alvorlig	ADJ	Definite=Def Degree=Pos Number=Sing	98
 alvorlige	alvorlige	alvorlig	ADJ	Definite=Def Degree=Pos Number=Sing	98	amod	krise	NOUN	Definite=Ind Gender=Com Number=Sing	99
 krise	krise	krise	NOUN	Definite=Ind Gender=Com Number=Sing	99	obl	bistå	VERB	VerbForm=Inf Voice=Act	93
 <g/>
-?	?	?	PUNCT	_	100	punct	krise	NOUN	Definite=Ind Gender=Com Number=Sing	99
+?	?	?	PUNCT	-	100	punct	krise	NOUN	Definite=Ind Gender=Com Number=Sing	99
 <g/>
-)	)	)	PUNCT	_	101	punct	krise	NOUN	Definite=Ind Gender=Com Number=Sing	99
+)	)	)	PUNCT	-	101	punct	krise	NOUN	Definite=Ind Gender=Com Number=Sing	99
 <g/>
-.	.	.	PUNCT	_	102	punct	mangel	NOUN	Definite=Def Gender=Com Number=Sing	66
+.	.	.	PUNCT	-	102	punct	mangel	NOUN	Definite=Def Gender=Com Number=Sing	66
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.35">
 <name type="PER">
-Jørgen	Jørgen	Jørgen	PROPN	_	1	root	-	-	-	-
-Arbo-Bæhr	Arbo-Bæhr	Arbo-Bæhr	PROPN	_	2	flat	Jørgen	PROPN	_	1
+Jørgen	Jørgen	Jørgen	PROPN	-	1	root	-	-	-	-
+Arbo-Bæhr	Arbo-Bæhr	Arbo-Bæhr	PROPN	-	2	flat	Jørgen	PROPN	-	1
 </name>
-(	(	(	PUNCT	_	3	punct	EL	PROPN	_	4
+(	(	(	PUNCT	-	3	punct	EL	PROPN	-	4
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	4	flat	Jørgen	PROPN	_	1
+EL	EL	EL	PROPN	-	4	flat	Jørgen	PROPN	-	1
 <g/>
 </name>
-)	)	)	PUNCT	_	5	punct	EL	PROPN	_	4
-og	og	og	CCONJ	_	6	cc	Christian	PROPN	_	7
+)	)	)	PUNCT	-	5	punct	EL	PROPN	-	4
+og	og	og	CCONJ	-	6	cc	Christian	PROPN	-	7
 <name type="PER">
-Christian	Christian	Christian	PROPN	_	7	conj	Jørgen	PROPN	_	1
-Juhl	Juhl	Juhl	PROPN	_	8	flat	Christian	PROPN	_	7
+Christian	Christian	Christian	PROPN	-	7	conj	Jørgen	PROPN	-	1
+Juhl	Juhl	Juhl	PROPN	-	8	flat	Christian	PROPN	-	7
 </name>
-(	(	(	PUNCT	_	9	punct	EL	PROPN	_	10
+(	(	(	PUNCT	-	9	punct	EL	PROPN	-	10
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	10	flat	Christian	PROPN	_	7
+EL	EL	EL	PROPN	-	10	flat	Christian	PROPN	-	7
 <g/>
 </name>
-)	)	)	PUNCT	_	11	punct	EL	PROPN	_	10
+)	)	)	PUNCT	-	11	punct	EL	PROPN	-	10
 <g/>
-:	:	:	PUNCT	_	12	punct	Jørgen	PROPN	_	1
+:	:	:	PUNCT	-	12	punct	Jørgen	PROPN	-	1
 Forespørgsel	Forespørgsel	forespørgsel	ADJ	Definite=Ind Degree=Pos Gender=Com Number=Sing	13	amod	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	14
 nr.	nr.	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	14	obj	redegøre	VERB	VerbForm=Inf Voice=Act	20
 F	F	f	ADP	AdpType=Prep	15	case	4	NUM	NumType=Card	16
 4	4	4	NUM	NumType=Card	16	nummod	nr.	NOUN	Definite=Ind Gender=Neut Number=Sing	14
-(	(	(	PUNCT	_	17	punct	redegøre	VERB	VerbForm=Inf Voice=Act	20
+(	(	(	PUNCT	-	17	punct	redegøre	VERB	VerbForm=Inf Voice=Act	20
 <g/>
 Vil	Vil	ville	AUX	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	18	aux	redegøre	VERB	VerbForm=Inf Voice=Act	20
 ministeren	ministeren	minister	NOUN	Definite=Def Gender=Com Number=Sing	19	nsubj	redegøre	VERB	VerbForm=Inf Voice=Act	20
-redegøre	redegøre	redegøre	VERB	VerbForm=Inf Voice=Act	20	list	Jørgen	PROPN	_	1
+redegøre	redegøre	redegøre	VERB	VerbForm=Inf Voice=Act	20	list	Jørgen	PROPN	-	1
 for	for	for	ADP	AdpType=Prep	21	mark	opfylde	VERB	VerbForm=Inf Voice=Act	26
 <g/>
-,	,	,	PUNCT	_	22	punct	for	ADP	AdpType=Prep	21
-hvordan	hvordan	hvordan	ADV	_	23	mark	opfylde	VERB	VerbForm=Inf Voice=Act	26
+,	,	,	PUNCT	-	22	punct	for	ADP	AdpType=Prep	21
+hvordan	hvordan	hvordan	ADV	-	23	mark	opfylde	VERB	VerbForm=Inf Voice=Act	26
 regeringen	regeringen	regering	NOUN	Definite=Def Gender=Com Number=Sing	24	nsubj	opfylde	VERB	VerbForm=Inf Voice=Act	26
 skal	skal	skulle	AUX	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	25	aux	opfylde	VERB	VerbForm=Inf Voice=Act	26
 opfylde	opfylde	opfylde	VERB	VerbForm=Inf Voice=Act	26	advcl	redegøre	VERB	VerbForm=Inf Voice=Act	20
 målsætningen	målsætningen	målsætning	NOUN	Definite=Def Gender=Com Number=Sing	27	obj	opfylde	VERB	VerbForm=Inf Voice=Act	26
 for	for	for	ADP	AdpType=Prep	28	case	arbejdsmiljøindsats	NOUN	Definite=Def Gender=Com Number=Sing	29
 arbejdsmiljøindsatsen	arbejdsmiljøindsatsen	arbejdsmiljøindsats	NOUN	Definite=Def Gender=Com Number=Sing	29	obl	opfylde	VERB	VerbForm=Inf Voice=Act	26
-frem	frem	frem	ADV	_	30	obl_loc	opfylde	VERB	VerbForm=Inf Voice=Act	26
+frem	frem	frem	ADV	-	30	obl:loc	opfylde	VERB	VerbForm=Inf Voice=Act	26
 til	til	til	ADP	AdpType=Prep	31	case	2020	NUM	NumType=Card	32
-2020	2020	2020	NUM	NumType=Card	32	nummod	frem	ADV	_	30
+2020	2020	2020	NUM	NumType=Card	32	nummod	frem	ADV	-	30
 med	med	med	ADP	AdpType=Prep	33	case	mål	NOUN	Definite=Def Gender=Neut Number=Sing	34
 målet	målet	mål	NOUN	Definite=Def Gender=Neut Number=Sing	34	obl	opfylde	VERB	VerbForm=Inf Voice=Act	26
 om	om	om	ADP	AdpType=Prep	35	case	pct.	NOUN	Definite=Ind Gender=Com Number=Plur	37
@@ -1294,13 +1294,13 @@ færre	færre	få	ADJ	Degree=Cmp Number=Plur	38	amod	arbejdsulykke	NOUN	Definite
 alvorlige	alvorlige	alvorlig	ADJ	Degree=Pos Number=Plur	39	amod	arbejdsulykke	NOUN	Definite=Ind Gender=Neut Number=Plur	40
 arbejdsulykker	arbejdsulykker	arbejdsulykke	NOUN	Definite=Ind Gender=Neut Number=Plur	40	appos	mål	NOUN	Definite=Def Gender=Neut Number=Sing	34
 <g/>
-,	,	,	PUNCT	_	41	punct	mål	NOUN	Definite=Def Gender=Neut Number=Sing	34
+,	,	,	PUNCT	-	41	punct	mål	NOUN	Definite=Def Gender=Neut Number=Sing	34
 20	20	20	NUM	NumType=Card	42	nummod	pct.	NOUN	Definite=Ind Gender=Com Number=Plur	43
 pct.	pct.	pct.	NOUN	Definite=Ind Gender=Com Number=Plur	43	obl	få	ADJ	Degree=Cmp Number=Plur	44
 færre	færre	få	ADJ	Degree=Cmp Number=Plur	44	amod	overbelastede	NOUN	Definite=Ind Gender=Neut Number=Sing	46
 psykisk	psykisk	psykisk	ADJ	Definite=Ind Degree=Pos Number=Sing	45	amod	overbelastede	NOUN	Definite=Ind Gender=Neut Number=Sing	46
 overbelastede	overbelastede	overbelastede	NOUN	Definite=Ind Gender=Neut Number=Sing	46	conj	mål	NOUN	Definite=Def Gender=Neut Number=Sing	34
-og	og	og	CCONJ	_	47	cc	få	ADJ	Degree=Cmp Number=Plur	50
+og	og	og	CCONJ	-	47	cc	få	ADJ	Degree=Cmp Number=Plur	50
 20	20	20	NUM	NumType=Card	48	nummod	pct.	NOUN	Definite=Ind Gender=Com Number=Plur	49
 pct.	pct.	pct.	NOUN	Definite=Ind Gender=Com Number=Plur	49	obl	få	ADJ	Degree=Cmp Number=Plur	50
 færre	færre	få	ADJ	Degree=Cmp Number=Plur	50	conj	mål	NOUN	Definite=Def Gender=Neut Number=Sing	34
@@ -1308,18 +1308,18 @@ med	med	med	ADP	AdpType=Prep	51	case	overbelastning	NOUN	Definite=Ind Gender=Com
 overbelastninger	overbelastninger	overbelastning	NOUN	Definite=Ind Gender=Com Number=Plur	52	obl	få	ADJ	Degree=Cmp Number=Plur	50
 af	af	af	ADP	AdpType=Prep	53	case	muskel	NOUN	Definite=Ind Gender=Com Number=Sing	54
 muskel	muskel	muskel	NOUN	Definite=Ind Gender=Com Number=Sing	54	nmod	overbelastning	NOUN	Definite=Ind Gender=Com Number=Plur	52
-og	og	og	CCONJ	_	55	cc	skelet	NOUN	Definite=Def Gender=Neut Number=Sing	56
+og	og	og	CCONJ	-	55	cc	skelet	NOUN	Definite=Def Gender=Neut Number=Sing	56
 skelet	skelet	skelet	NOUN	Definite=Def Gender=Neut Number=Sing	56	conj	muskel	NOUN	Definite=Ind Gender=Com Number=Sing	54
-–	–	–	PUNCT	_	57	punct	overbelastning	NOUN	Definite=Ind Gender=Com Number=Plur	52
-f.eks.	f.eks.	f.eks.	ADV	_	58	advmod	ryg	NOUN	Definite=Def Gender=Com Number=Sing	60
-af	af	af	ADP	AdpType=Prep	59	case	f.eks.	ADV	_	58
+–	–	–	PUNCT	-	57	punct	overbelastning	NOUN	Definite=Ind Gender=Com Number=Plur	52
+f.eks.	f.eks.	f.eks.	ADV	-	58	advmod	ryg	NOUN	Definite=Def Gender=Com Number=Sing	60
+af	af	af	ADP	AdpType=Prep	59	case	f.eks.	ADV	-	58
 ryggen	ryggen	ryg	NOUN	Definite=Def Gender=Com Number=Sing	60	nmod	overbelastning	NOUN	Definite=Ind Gender=Com Number=Plur	52
 <g/>
-?	?	?	PUNCT	_	61	punct	ryg	NOUN	Definite=Def Gender=Com Number=Sing	60
+?	?	?	PUNCT	-	61	punct	ryg	NOUN	Definite=Def Gender=Com Number=Sing	60
 <g/>
-)	)	)	PUNCT	_	62	punct	ryg	NOUN	Definite=Def Gender=Com Number=Sing	60
+)	)	)	PUNCT	-	62	punct	ryg	NOUN	Definite=Def Gender=Com Number=Sing	60
 <g/>
-.	.	.	PUNCT	_	63	punct	Jørgen	PROPN	_	1
+.	.	.	PUNCT	-	63	punct	Jørgen	PROPN	-	1
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.36">
 Titler	Titler	titel	NOUN	Definite=Ind Gender=Com Number=Plur	1	nsubj	fremgå	VERB	VerbForm=Inf Voice=Act	7
@@ -1331,14 +1331,14 @@ vil	vil	ville	AUX	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	6	aux	fremgå	VERB	
 fremgå	fremgå	fremgå	VERB	VerbForm=Inf Voice=Act	7	root	-	-	-	-
 af	af	af	ADP	AdpType=Prep	8	case	www.folketingstidende.dk	NOUN	Definite=Ind Gender=Com Number=Sing	9
 www.folketingstidende.dk	www.folketingstidende.dk	www.folketingstidende.dk	NOUN	Definite=Ind Gender=Com Number=Sing	9	obl	fremgå	VERB	VerbForm=Inf Voice=Act	7
-(	(	(	PUNCT	_	10	punct	jf.	VERB	Mood=Imp	11
+(	(	(	PUNCT	-	10	punct	jf.	VERB	Mood=Imp	11
 <g/>
 jf.	jf.	jf.	VERB	Mood=Imp	11	xcomp	fremgå	VERB	VerbForm=Inf Voice=Act	7
-ovenfor	ovenfor	ovenfor	ADV	_	12	advmod	jf.	VERB	Mood=Imp	11
+ovenfor	ovenfor	ovenfor	ADV	-	12	advmod	jf.	VERB	Mood=Imp	11
 <g/>
-)	)	)	PUNCT	_	13	punct	jf.	VERB	Mood=Imp	11
+)	)	)	PUNCT	-	13	punct	jf.	VERB	Mood=Imp	11
 <g/>
-.	.	.	PUNCT	_	14	punct	fremgå	VERB	VerbForm=Inf Voice=Act	7
+.	.	.	PUNCT	-	14	punct	fremgå	VERB	VerbForm=Inf Voice=Act	7
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.37">
 Udvalget	Udvalget	udvalge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	1	xcomp	afgive	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	9
@@ -1351,14 +1351,14 @@ oktober	oktober	oktober	NOUN	Definite=Ind Gender=Com Number=Sing	7	nsubj	afgive	
 2014	2014	2014	NUM	NumType=Card	8	nmod	oktober	NOUN	Definite=Ind Gender=Com Number=Sing	7
 afgivet	afgivet	afgive	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	9	root	-	-	-	-
 <g/>
-:	:	:	PUNCT	_	10	punct	afgive	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	9
+:	:	:	PUNCT	-	10	punct	afgive	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	9
 Beretning	Beretning	beretning	NOUN	Definite=Ind Gender=Com Number=Sing	11	obl	afgive	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	9
 om	om	om	ADP	AdpType=Prep	12	case	sikring	NOUN	Definite=Ind Gender=Com Number=Sing	13
 sikring	sikring	sikring	NOUN	Definite=Ind Gender=Com Number=Sing	13	nmod	beretning	NOUN	Definite=Ind Gender=Com Number=Sing	11
 af	af	af	ADP	AdpType=Prep	14	case	mulighed	NOUN	Definite=Ind Gender=Com Number=Sing	18
 de	de	de	DET	Number=Plur PronType=Dem	15	det	folketingsmedlem	NOUN	Case=Gen Definite=Ind Gender=Com Number=Plur	17
 nordatlantiske	nordatlantiske	nordatlantisk	ADJ	Degree=Pos Number=Plur	16	amod	folketingsmedlem	NOUN	Case=Gen Definite=Ind Gender=Com Number=Plur	17
-folketingsmedlemmers	folketingsmedlemmers	folketingsmedlem	NOUN	Case=Gen Definite=Ind Gender=Com Number=Plur	17	nmod_poss	mulighed	NOUN	Definite=Ind Gender=Com Number=Sing	18
+folketingsmedlemmers	folketingsmedlemmers	folketingsmedlem	NOUN	Case=Gen Definite=Ind Gender=Com Number=Plur	17	nmod:poss	mulighed	NOUN	Definite=Ind Gender=Com Number=Sing	18
 mulighed	mulighed	mulighed	NOUN	Definite=Ind Gender=Com Number=Sing	18	nmod	sikring	NOUN	Definite=Ind Gender=Com Number=Sing	13
 for	for	for	ADP	AdpType=Prep	19	mark	deltage	VERB	VerbForm=Inf Voice=Act	21
 at	at	at	PART	PartType=Inf	20	mark	deltage	VERB	VerbForm=Inf Voice=Act	21
@@ -1368,14 +1368,14 @@ spørgetimen	spørgetimen	spørgetime	NOUN	Definite=Def Gender=Com Number=Sing	2
 med	med	med	ADP	AdpType=Prep	24	case	statsminister	NOUN	Definite=Def Gender=Com Number=Sing	25
 statsministeren	statsministeren	statsminister	NOUN	Definite=Def Gender=Com Number=Sing	25	obl	deltage	VERB	VerbForm=Inf Voice=Act	21
 <g/>
-.	.	.	PUNCT	_	26	punct	afgive	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	9
+.	.	.	PUNCT	-	26	punct	afgive	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	9
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.38">
 6	6	6	NUM	NumType=Card	1	root	-	-	-	-
 <g/>
-)	)	)	PUNCT	_	2	punct	6	NUM	NumType=Card	1
+)	)	)	PUNCT	-	2	punct	6	NUM	NumType=Card	1
 <g/>
-.	.	.	PUNCT	_	3	punct	6	NUM	NumType=Card	1
+.	.	.	PUNCT	-	3	punct	6	NUM	NumType=Card	1
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.39">
 Beretningen	Beretningen	beretning	NOUN	Definite=Def Gender=Com Number=Sing	1	nsubj	fremgå	VERB	VerbForm=Inf Voice=Act	3
@@ -1387,27 +1387,27 @@ september	september	september	NOUN	Definite=Ind Gender=Com Number=Sing	6	obl	fre
 2014	2014	2014	NUM	NumType=Card	7	nummod	afgiv	NOUN	Definite=Def Gender=Neut Number=Sing	8
 afgivet	afgivet	afgiv	NOUN	Definite=Def Gender=Neut Number=Sing	8	nmod	september	NOUN	Definite=Ind Gender=Com Number=Sing	6
 <g/>
-:	:	:	PUNCT	_	9	punct	fremgå	VERB	VerbForm=Inf Voice=Act	3
+:	:	:	PUNCT	-	9	punct	fremgå	VERB	VerbForm=Inf Voice=Act	3
 Beretning	Beretning	beretning	NOUN	Definite=Ind Gender=Com Number=Sing	10	obl	fremgå	VERB	VerbForm=Inf Voice=Act	3
 om	om	om	ADP	AdpType=Prep	11	case	virksomhed	NOUN	Definite=Ind Gender=Com Number=Sing	13
-tilsynets	tilsynets	tilsyn	NOUN	Case=Gen Definite=Def Gender=Neut Number=Sing	12	nmod_poss	virksomhed	NOUN	Definite=Ind Gender=Com Number=Sing	13
+tilsynets	tilsynets	tilsyn	NOUN	Case=Gen Definite=Def Gender=Neut Number=Sing	12	nmod:poss	virksomhed	NOUN	Definite=Ind Gender=Com Number=Sing	13
 virksomhed	virksomhed	virksomhed	NOUN	Definite=Ind Gender=Com Number=Sing	13	nmod	beretning	NOUN	Definite=Ind Gender=Com Number=Sing	10
 i	i	i	ADP	AdpType=Prep	14	case	folketingsår	NOUN	Definite=Def Gender=Neut Number=Sing	15
 folketingsåret	folketingsåret	folketingsår	NOUN	Definite=Def Gender=Neut Number=Sing	15	nmod	beretning	NOUN	Definite=Ind Gender=Com Number=Sing	10
 2013-14	2013-14	2013-14	NUM	NumType=Card	16	nmod	folketingsår	NOUN	Definite=Def Gender=Neut Number=Sing	15
-.	.	.	PUNCT	_	17	punct	fremgå	VERB	VerbForm=Inf Voice=Act	3
+.	.	.	PUNCT	-	17	punct	fremgå	VERB	VerbForm=Inf Voice=Act	3
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.40">
 5	5	5	NUM	NumType=Card	1	root	-	-	-	-
 <g/>
-)	)	)	PUNCT	_	2	punct	5	NUM	NumType=Card	1
+)	)	)	PUNCT	-	2	punct	5	NUM	NumType=Card	1
 <g/>
-.	.	.	PUNCT	_	3	punct	5	NUM	NumType=Card	1
+.	.	.	PUNCT	-	3	punct	5	NUM	NumType=Card	1
 </s>
 <s id="ParlaMint-DK_20141008130000.seg1.41">
 Beretningen	Beretningen	beretning	NOUN	Definite=Def Gender=Com Number=Sing	1	nsubj	fremgå	VERB	VerbForm=Inf Voice=Act	4
 vil	vil	ville	AUX	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	2	aux	fremgå	VERB	VerbForm=Inf Voice=Act	4
-ligeledes	ligeledes	ligeledes	ADV	_	3	advmod	fremgå	VERB	VerbForm=Inf Voice=Act	4
+ligeledes	ligeledes	ligeledes	ADV	-	3	advmod	fremgå	VERB	VerbForm=Inf Voice=Act	4
 fremgå	fremgå	fremgå	VERB	VerbForm=Inf Voice=Act	4	root	-	-	-	-
 af	af	af	ADP	AdpType=Prep	5	case	www.folketingstidende.dk.	NOUN	Definite=Ind Gender=Com Number=Sing	6
 www.folketingstidende.dk.	www.folketingstidende.dk.	www.folketingstidende.dk.	NOUN	Definite=Ind Gender=Com Number=Sing	6	obl	fremgå	VERB	VerbForm=Inf Voice=Act	4
@@ -1415,15 +1415,15 @@ www.folketingstidende.dk.	www.folketingstidende.dk.	www.folketingstidende.dk.	NO
 </p>
 </speech>
 <note type="gap::editorial">
-/SAMPLING/	_	_	_	_	_	_	_	_	_	_
+/SAMPLING/	-	-	-	-	-	-	-	-	-	-
 </note>
 <note type="head">
-/Valg af stående udvalg m.v./	_	_	_	_	_	_	_	_	_	_
+/Valg af stående udvalg m.v./	-	-	-	-	-	-	-	-	-	-
 </note>
 <note type="agendaItem">
-/2014-10-08-1/	_	_	_	_	_	_	_	_	_	_
+/2014-10-08-1/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-DK_20141008130437" speaker_id="LykketoftMogens" speaker_name="Lykketoft, Mogens" speaker_role="Chairperson" speaker_type="MP" speaker_party="S" speaker_party_name="Socialdemokratiet" speaker_gender="M" speaker_birth="1946">
+<speech id="ParlaMint-DK_20141008130437" speaker_role="Chairperson" speaker_id="LykketoftMogens" speaker_name="Lykketoft, Mogens" speaker_type="MP" speaker_party="S" speaker_party_name="Socialdemokratiet" speaker_gender="M" speaker_birth="1946">
 <p id="ParlaMint-DK_20141008130437.seg2" lang="Danish">
 <s id="ParlaMint-DK_20141008130437.seg2.1">
 Til	Til	til	ADP	AdpType=Prep	1	case	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	3
@@ -1434,127 +1434,127 @@ anmeldt	anmeldt	anmelde	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	5
 følgende	følgende	følge	VERB	Tense=Pres VerbForm=Part	6	amod	valggruppe	NOUN	Definite=Ind Gender=Com Number=Plur	7
 valggrupper	valggrupper	valggruppe	NOUN	Definite=Ind Gender=Com Number=Plur	7	nsubj	anmelde	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	5
 <g/>
-:	:	:	PUNCT	_	8	punct	anmelde	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	5
+:	:	:	PUNCT	-	8	punct	anmelde	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	5
 en	en	en	DET	Gender=Com Number=Sing PronType=Ind	9	det	gruppe	NOUN	Definite=Ind Gender=Com Number=Sing	10
 gruppe	gruppe	gruppe	NOUN	Definite=Ind Gender=Com Number=Sing	10	obj	anmelde	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	5
 på	på	på	ADP	AdpType=Prep	11	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	13
 92	92	92	NUM	NumType=Card	12	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	13
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	13	nmod	gruppe	NOUN	Definite=Ind Gender=Com Number=Sing	10
 <g/>
-:	:	:	PUNCT	_	14	punct	gruppe	NOUN	Definite=Ind Gender=Com Number=Sing	10
+:	:	:	PUNCT	-	14	punct	gruppe	NOUN	Definite=Ind Gender=Com Number=Sing	10
 <name type="ORG">
 Socialdemokratiet	Socialdemokratiet	Socialdemokrati	NOUN	Definite=Def Gender=Neut Number=Sing	15	nmod	gruppe	NOUN	Definite=Ind Gender=Com Number=Sing	10
 <g/>
 </name>
-,	,	,	PUNCT	_	16	punct	Socialdemokrati	NOUN	Definite=Def Gender=Neut Number=Sing	15
+,	,	,	PUNCT	-	16	punct	Socialdemokrati	NOUN	Definite=Def Gender=Neut Number=Sing	15
 <name type="ORG">
 Radikale	Radikale	Radikal	ADJ	Definite=Def Degree=Pos Number=Sing	17	amod	Venstre	NOUN	Definite=Ind Gender=Neut Number=Sing	18
 Venstre	Venstre	Venstre	NOUN	Definite=Ind Gender=Neut Number=Sing	18	appos	Socialdemokrati	NOUN	Definite=Def Gender=Neut Number=Sing	15
 <g/>
 </name>
-,	,	,	PUNCT	_	19	punct	Venstre	NOUN	Definite=Ind Gender=Neut Number=Sing	18
+,	,	,	PUNCT	-	19	punct	Venstre	NOUN	Definite=Ind Gender=Neut Number=Sing	18
 <name type="ORG">
 Socialistisk	Socialistisk	Socialistisk	ADJ	Definite=Ind Degree=Pos Number=Sing	20	amod	gruppe	NOUN	Definite=Ind Gender=Com Number=Sing	10
 Folkeparti	Folkeparti	Folkeparti	NOUN	Definite=Ind Gender=Neut Number=Sing	21	nmod	gruppe	NOUN	Definite=Ind Gender=Com Number=Sing	10
 <g/>
 </name>
-,	,	,	PUNCT	_	22	punct	gruppe	NOUN	Definite=Ind Gender=Com Number=Sing	10
+,	,	,	PUNCT	-	22	punct	gruppe	NOUN	Definite=Ind Gender=Com Number=Sing	10
 <name type="ORG">
-Enhedslisten	Enhedslisten	Enhedslisten	PROPN	_	23	conj	gruppe	NOUN	Definite=Ind Gender=Com Number=Sing	10
+Enhedslisten	Enhedslisten	Enhedslisten	PROPN	-	23	conj	gruppe	NOUN	Definite=Ind Gender=Com Number=Sing	10
 <g/>
 </name>
-,	,	,	PUNCT	_	24	punct	gruppe	NOUN	Definite=Ind Gender=Com Number=Sing	10
+,	,	,	PUNCT	-	24	punct	gruppe	NOUN	Definite=Ind Gender=Com Number=Sing	10
 <name type="ORG">
-Javnadarflokkurin	Javnadarflokkurin	Javnadarflokkurin	PROPN	_	25	conj	gruppe	NOUN	Definite=Ind Gender=Com Number=Sing	10
+Javnadarflokkurin	Javnadarflokkurin	Javnadarflokkurin	PROPN	-	25	conj	gruppe	NOUN	Definite=Ind Gender=Com Number=Sing	10
 </name>
-(	(	(	PUNCT	_	26	punct	JF	PROPN	_	27
+(	(	(	PUNCT	-	26	punct	JF	PROPN	-	27
 <g/>
 <name type="ORG">
-JF	JF	JF	PROPN	_	27	flat	Javnadarflokkurin	PROPN	_	25
+JF	JF	JF	PROPN	-	27	flat	Javnadarflokkurin	PROPN	-	25
 <g/>
 </name>
-)	)	)	PUNCT	_	28	punct	JF	PROPN	_	27
+)	)	)	PUNCT	-	28	punct	JF	PROPN	-	27
 <g/>
-,	,	,	PUNCT	_	29	punct	gruppe	NOUN	Definite=Ind Gender=Com Number=Sing	10
+,	,	,	PUNCT	-	29	punct	gruppe	NOUN	Definite=Ind Gender=Com Number=Sing	10
 <name type="ORG">
 Inuit	Inuit	Inuin	DET	Gender=Neut Number=Sing Number[psor]=Sing Person=1 Poss=Yes PronType=Prs	30	det	ataqatigiit	NOUN	Definite=Ind Gender=Neut Number=Sing	31
 </name>
 Ataqatigiit	Ataqatigiit	ataqatigiit	NOUN	Definite=Ind Gender=Neut Number=Sing	31	conj	gruppe	NOUN	Definite=Ind Gender=Com Number=Sing	10
-(	(	(	PUNCT	_	32	punct	IA	PROPN	_	33
+(	(	(	PUNCT	-	32	punct	IA	PROPN	-	33
 <g/>
 <name type="ORG">
-IA	IA	IA	PROPN	_	33	appos	ataqatigiit	NOUN	Definite=Ind Gender=Neut Number=Sing	31
+IA	IA	IA	PROPN	-	33	appos	ataqatigiit	NOUN	Definite=Ind Gender=Neut Number=Sing	31
 <g/>
 </name>
-)	)	)	PUNCT	_	34	punct	IA	PROPN	_	33
+)	)	)	PUNCT	-	34	punct	IA	PROPN	-	33
 <g/>
-,	,	,	PUNCT	_	35	punct	ataqatigiit	NOUN	Definite=Ind Gender=Neut Number=Sing	31
+,	,	,	PUNCT	-	35	punct	ataqatigiit	NOUN	Definite=Ind Gender=Neut Number=Sing	31
 <name type="ORG">
-Siumut	Siumut	Siumut	PROPN	_	36	conj	ataqatigiit	NOUN	Definite=Ind Gender=Neut Number=Sing	31
+Siumut	Siumut	Siumut	PROPN	-	36	conj	ataqatigiit	NOUN	Definite=Ind Gender=Neut Number=Sing	31
 </name>
-(	(	(	PUNCT	_	37	punct	SIU	PROPN	_	38
+(	(	(	PUNCT	-	37	punct	SIU	PROPN	-	38
 <g/>
 <name type="PER">
-SIU	SIU	SIU	PROPN	_	38	flat	Siumut	PROPN	_	36
+SIU	SIU	SIU	PROPN	-	38	flat	Siumut	PROPN	-	36
 <g/>
 </name>
-)	)	)	PUNCT	_	39	punct	SIU	PROPN	_	38
-og	og	og	CCONJ	_	40	cc	Uffe	PROPN	_	41
+)	)	)	PUNCT	-	39	punct	SIU	PROPN	-	38
+og	og	og	CCONJ	-	40	cc	Uffe	PROPN	-	41
 <name type="PER">
-Uffe	Uffe	Uffe	PROPN	_	41	conj	ataqatigiit	NOUN	Definite=Ind Gender=Neut Number=Sing	31
-Elbæk	Elbæk	Elbæk	PROPN	_	42	flat	Uffe	PROPN	_	41
+Uffe	Uffe	Uffe	PROPN	-	41	conj	ataqatigiit	NOUN	Definite=Ind Gender=Neut Number=Sing	31
+Elbæk	Elbæk	Elbæk	PROPN	-	42	flat	Uffe	PROPN	-	41
 </name>
-(	(	(	PUNCT	_	43	punct	UFG	PROPN	_	44
+(	(	(	PUNCT	-	43	punct	UFG	PROPN	-	44
 <g/>
 <name type="ORG">
-UFG	UFG	UFG	PROPN	_	44	flat	Uffe	PROPN	_	41
+UFG	UFG	UFG	PROPN	-	44	flat	Uffe	PROPN	-	41
 <g/>
 </name>
-)	)	)	PUNCT	_	45	punct	UFG	PROPN	_	44
+)	)	)	PUNCT	-	45	punct	UFG	PROPN	-	44
 <g/>
-;	;	;	PUNCT	_	46	punct	gruppe	NOUN	Definite=Ind Gender=Com Number=Sing	10
+;	;	;	PUNCT	-	46	punct	gruppe	NOUN	Definite=Ind Gender=Com Number=Sing	10
 en	en	en	DET	Gender=Com Number=Sing PronType=Ind	47	det	gruppe	NOUN	Definite=Ind Gender=Com Number=Sing	48
 gruppe	gruppe	gruppe	NOUN	Definite=Ind Gender=Com Number=Sing	48	nmod	gruppe	NOUN	Definite=Ind Gender=Com Number=Sing	10
 på	på	på	ADP	AdpType=Prep	49	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	51
 87	87	87	NUM	NumType=Card	50	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	51
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	51	nmod	gruppe	NOUN	Definite=Ind Gender=Com Number=Sing	48
 <g/>
-:	:	:	PUNCT	_	52	punct	gruppe	NOUN	Definite=Ind Gender=Com Number=Sing	10
+:	:	:	PUNCT	-	52	punct	gruppe	NOUN	Definite=Ind Gender=Com Number=Sing	10
 <name type="ORG">
 Venstre	Venstre	Venstre	NOUN	Definite=Ind Gender=Neut Number=Sing	53	nmod	gruppe	NOUN	Definite=Ind Gender=Com Number=Sing	10
 <g/>
 </name>
-,	,	,	PUNCT	_	54	punct	Venstre	NOUN	Definite=Ind Gender=Neut Number=Sing	53
+,	,	,	PUNCT	-	54	punct	Venstre	NOUN	Definite=Ind Gender=Neut Number=Sing	53
 <name type="ORG">
 Dansk	Dansk	Dansk	ADJ	Definite=Ind Degree=Pos Number=Sing	55	amod	Folkeparti	NOUN	Definite=Ind Gender=Neut Number=Sing	56
 Folkeparti	Folkeparti	Folkeparti	NOUN	Definite=Ind Gender=Neut Number=Sing	56	conj	Venstre	NOUN	Definite=Ind Gender=Neut Number=Sing	53
 <g/>
 </name>
-,	,	,	PUNCT	_	57	punct	Venstre	NOUN	Definite=Ind Gender=Neut Number=Sing	53
+,	,	,	PUNCT	-	57	punct	Venstre	NOUN	Definite=Ind Gender=Neut Number=Sing	53
 <name type="ORG">
-Liberal	Liberal	Liberal	PROPN	_	58	conj	Venstre	NOUN	Definite=Ind Gender=Neut Number=Sing	53
-Alliance	Alliance	Alliance	PROPN	_	59	flat	Liberal	PROPN	_	58
+Liberal	Liberal	Liberal	PROPN	-	58	conj	Venstre	NOUN	Definite=Ind Gender=Neut Number=Sing	53
+Alliance	Alliance	Alliance	PROPN	-	59	flat	Liberal	PROPN	-	58
 <g/>
 </name>
-,	,	,	PUNCT	_	60	punct	Venstre	NOUN	Definite=Ind Gender=Neut Number=Sing	53
+,	,	,	PUNCT	-	60	punct	Venstre	NOUN	Definite=Ind Gender=Neut Number=Sing	53
 <name type="ORG">
 Det	Det	Den	DET	Gender=Neut Number=Sing PronType=Dem	61	det	Folkeparti	NOUN	Definite=Ind Gender=Neut Number=Sing	63
 Konservative	Konservative	Konservativ	ADJ	Definite=Def Degree=Pos Number=Sing	62	amod	Folkeparti	NOUN	Definite=Ind Gender=Neut Number=Sing	63
 Folkeparti	Folkeparti	Folkeparti	NOUN	Definite=Ind Gender=Neut Number=Sing	63	nmod	gruppe	NOUN	Definite=Ind Gender=Com Number=Sing	10
 </name>
-og	og	og	CCONJ	_	64	dep	Folkeparti	NOUN	Definite=Ind Gender=Neut Number=Sing	63
+og	og	og	CCONJ	-	64	dep	Folkeparti	NOUN	Definite=Ind Gender=Neut Number=Sing	63
 <name type="ORG">
 Sambandsflokkurin	Sambandsflokkurin	Sambandsflokkurin	NOUN	Definite=Ind Gender=Com Number=Sing	65	conj	Folkeparti	NOUN	Definite=Ind Gender=Neut Number=Sing	63
 </name>
-(	(	(	PUNCT	_	66	punct	SP	PROPN	_	67
+(	(	(	PUNCT	-	66	punct	SP	PROPN	-	67
 <g/>
 <name type="ORG">
-SP	SP	SP	PROPN	_	67	appos	Sambandsflokkurin	NOUN	Definite=Ind Gender=Com Number=Sing	65
+SP	SP	SP	PROPN	-	67	appos	Sambandsflokkurin	NOUN	Definite=Ind Gender=Com Number=Sing	65
 <g/>
 </name>
-)	)	)	PUNCT	_	68	punct	SP	PROPN	_	67
+)	)	)	PUNCT	-	68	punct	SP	PROPN	-	67
 <g/>
-.	.	.	PUNCT	_	69	punct	anmelde	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	5
+.	.	.	PUNCT	-	69	punct	anmelde	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	5
 </s>
 <s id="ParlaMint-DK_20141008130437.seg2.2">
 Der	Der	der	ADV	PartType=Inf	1	expl	foreligge	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	2
@@ -1566,7 +1566,7 @@ om	om	om	ADP	AdpType=Prep	6	case	navn	NOUN	Definite=Ind Gender=Neut Number=Plur	
 disse	disse	denne	DET	Number=Plur PronType=Dem	7	det	navn	NOUN	Definite=Ind Gender=Neut Number=Plur	8
 navne	navne	navn	NOUN	Definite=Ind Gender=Neut Number=Plur	8	nmod	gruppe	NOUN	Definite=Def Gender=Com Number=Plur	5
 <g/>
-.	.	.	PUNCT	_	9	punct	foreligge	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	2
+.	.	.	PUNCT	-	9	punct	foreligge	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	2
 </s>
 <s id="ParlaMint-DK_20141008130437.seg2.3">
 Navnene	Navnene	navn	NOUN	Definite=Def Gender=Neut Number=Plur	1	nsubj	finde	VERB	VerbForm=Inf Voice=Act	6
@@ -1577,17 +1577,17 @@ kan	kan	kunne	AUX	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	5	aux	finde	VERB	Ve
 findes	findes	finde	VERB	VerbForm=Inf Voice=Act	6	root	-	-	-	-
 på	på	på	ADP	AdpType=Prep	7	case	hjemmeside	NOUN	Definite=Ind Gender=Com Number=Sing	9
 <name type="ORG">
-Folketingets	Folketingets	Folketing	NOUN	Case=Gen Definite=Def Gender=Neut Number=Sing	8	nmod_poss	hjemmeside	NOUN	Definite=Ind Gender=Com Number=Sing	9
+Folketingets	Folketingets	Folketing	NOUN	Case=Gen Definite=Def Gender=Neut Number=Sing	8	nmod:poss	hjemmeside	NOUN	Definite=Ind Gender=Com Number=Sing	9
 </name>
 hjemmeside	hjemmeside	hjemmeside	NOUN	Definite=Ind Gender=Com Number=Sing	9	obl	finde	VERB	VerbForm=Inf Voice=Act	6
-og	og	og	CCONJ	_	10	cc	folketingstidende	NOUN	Definite=Ind Gender=Com Number=Sing	12
+og	og	og	CCONJ	-	10	cc	folketingstidende	NOUN	Definite=Ind Gender=Com Number=Sing	12
 i	i	i	ADP	AdpType=Prep	11	case	folketingstidende	NOUN	Definite=Ind Gender=Com Number=Sing	12
 Folketingstidende	Folketingstidende	folketingstidende	NOUN	Definite=Ind Gender=Com Number=Sing	12	conj	hjemmeside	NOUN	Definite=Ind Gender=Com Number=Sing	9
 <g/>
-.	.	.	PUNCT	_	13	punct	finde	VERB	VerbForm=Inf Voice=Act	6
+.	.	.	PUNCT	-	13	punct	finde	VERB	VerbForm=Inf Voice=Act	6
 </s>
 <s id="ParlaMint-DK_20141008130437.seg2.4">
-Samtidig	Samtidig	samtidig	ADV	_	1	advmod	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	2
+Samtidig	Samtidig	samtidig	ADV	-	1	advmod	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	2
 er	er	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
 der	der	der	ADV	PartType=Inf	3	expl	fremkomme	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	6
 fra	fra	fra	ADP	AdpType=Prep	4	case	gruppe	NOUN	Definite=Def Gender=Com Number=Plur	5
@@ -1598,15 +1598,15 @@ om	om	om	ADP	AdpType=Prep	8	case	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	
 valg	valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	9	nmod	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	7
 af	af	af	ADP	AdpType=Prep	10	case	formand	NOUN	Definite=Ind Gender=Com Number=Sing	11
 formand	formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	11	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	9
-og	og	og	CCONJ	_	12	cc	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	13
+og	og	og	CCONJ	-	12	cc	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	13
 næstformand	næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	13	conj	formand	NOUN	Definite=Ind Gender=Com Number=Sing	11
 <g/>
-.	.	.	PUNCT	_	14	punct	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	2
+.	.	.	PUNCT	-	14	punct	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	2
 </s>
 <s id="ParlaMint-DK_20141008130437.seg2.5">
 Der	Der	der	ADV	PartType=Inf	1	expl	bringe	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	4
 er	er	være	AUX	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	2	aux	bringe	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	4
-kun	kun	kun	ADV	_	3	advmod	bringe	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	4
+kun	kun	kun	ADV	-	3	advmod	bringe	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	4
 bragt	bragt	bringe	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	4	root	-	-	-	-
 én	én	en	PRON	Gender=Com Number=Sing PronType=Ind	5	obj	bringe	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	4
 i	i	i	ADP	AdpType=Prep	6	case	forslag	NOUN	Definite=Ind Gender=Neut Number=Plur	7
@@ -1617,22 +1617,22 @@ af	af	af	ADP	AdpType=Prep	10	case	post	NOUN	Definite=Ind Gender=Com Number=Plur	
 disse	disse	denne	DET	Number=Plur PronType=Dem	11	det	post	NOUN	Definite=Ind Gender=Com Number=Plur	12
 poster	poster	post	NOUN	Definite=Ind Gender=Com Number=Plur	12	nmod	hver	PRON	Gender=Com Number=Sing PronType=Ind	9
 <g/>
-,	,	,	PUNCT	_	13	punct	bringe	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	4
-og	og	og	CCONJ	_	14	cc	optaget	ADJ	Definite=Ind Degree=Pos Number=Sing	18
+,	,	,	PUNCT	-	13	punct	bringe	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	4
+og	og	og	CCONJ	-	14	cc	optaget	ADJ	Definite=Ind Degree=Pos Number=Sing	18
 navnene	navnene	navn	NOUN	Definite=Def Gender=Neut Number=Plur	15	nsubj	optaget	ADJ	Definite=Ind Degree=Pos Number=Sing	18
 er	er	være	AUX	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	16	cop	optaget	ADJ	Definite=Ind Degree=Pos Number=Sing	18
-ligeledes	ligeledes	ligeledes	ADV	_	17	advmod	optaget	ADJ	Definite=Ind Degree=Pos Number=Sing	18
+ligeledes	ligeledes	ligeledes	ADV	-	17	advmod	optaget	ADJ	Definite=Ind Degree=Pos Number=Sing	18
 optaget	optaget	optaget	ADJ	Definite=Ind Degree=Pos Number=Sing	18	conj	bringe	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	4
 i	i	i	ADP	AdpType=Prep	19	case	folketingstidende	NOUN	Gender=Com Number=Plur	20
 Folketingstidende	Folketingstidende	folketingstidende	NOUN	Gender=Com Number=Plur	20	obl	optaget	ADJ	Definite=Ind Degree=Pos Number=Sing	18
-(	(	(	PUNCT	_	21	punct	jf.	VERB	Mood=Imp	22
+(	(	(	PUNCT	-	21	punct	jf.	VERB	Mood=Imp	22
 <g/>
-jf.	jf.	jf.	VERB	Mood=Imp	22	acl_relcl	optaget	ADJ	Definite=Ind Degree=Pos Number=Sing	18
-nedenfor	nedenfor	nedenfor	ADV	_	23	advmod	jf.	VERB	Mood=Imp	22
+jf.	jf.	jf.	VERB	Mood=Imp	22	acl:relcl	optaget	ADJ	Definite=Ind Degree=Pos Number=Sing	18
+nedenfor	nedenfor	nedenfor	ADV	-	23	advmod	jf.	VERB	Mood=Imp	22
 <g/>
-)	)	)	PUNCT	_	24	punct	jf.	VERB	Mood=Imp	22
+)	)	)	PUNCT	-	24	punct	jf.	VERB	Mood=Imp	22
 <g/>
-.	.	.	PUNCT	_	25	punct	bringe	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	4
+.	.	.	PUNCT	-	25	punct	bringe	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	4
 </s>
 <s id="ParlaMint-DK_20141008130437.seg2.6">
 Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	1	root	-	-	-	-
@@ -1644,2158 +1644,2158 @@ Udvalget	Udvalget	udvalg	NOUN	Definite=Def Gender=Neut Number=Sing	6	nmod	valg	N
 for	for	for	ADP	AdpType=Prep	7	case	forretningsorden	NOUN	Definite=Def Gender=Com Number=Sing	8
 Forretningsordenen	Forretningsordenen	forretningsorden	NOUN	Definite=Def Gender=Com Number=Sing	8	nmod	udvalg	NOUN	Definite=Def Gender=Neut Number=Sing	6
 <g/>
-:	:	:	PUNCT	_	9	punct	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	1
-Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	10	acl_relcl	S	PROPN	_	17
-blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	11	cop	S	PROPN	_	17
+:	:	:	PUNCT	-	9	punct	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	1
+Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	10	acl:relcl	S	PROPN	-	17
+blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	11	cop	S	PROPN	-	17
 <g/>
-:	:	:	PUNCT	_	12	punct	S	PROPN	_	17
-1	1	1	NUM	NumType=Card	13	nummod	S	PROPN	_	17
+:	:	:	PUNCT	-	12	punct	S	PROPN	-	17
+1	1	1	NUM	NumType=Card	13	nummod	S	PROPN	-	17
 <name type="PER">
-Mogens	Mogens	Mogens	PROPN	Case=Gen	14	nmod_poss	S	PROPN	_	17
-Lykketoft	Lykketoft	Lykketoft	PROPN	_	15	flat	Mogens	PROPN	Case=Gen	14
+Mogens	Mogens	Mogens	PROPN	Case=Gen	14	nmod:poss	S	PROPN	-	17
+Lykketoft	Lykketoft	Lykketoft	PROPN	-	15	flat	Mogens	PROPN	Case=Gen	14
 </name>
-(	(	(	PUNCT	_	16	punct	S	PROPN	_	17
+(	(	(	PUNCT	-	16	punct	S	PROPN	-	17
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	17	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	1
+S	S	S	PROPN	-	17	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	1
 <g/>
 </name>
-)	)	)	PUNCT	_	18	punct	S	PROPN	_	17
-2	2	2	NUM	NumType=Card	19	nummod	Bertel	PROPN	_	20
+)	)	)	PUNCT	-	18	punct	S	PROPN	-	17
+2	2	2	NUM	NumType=Card	19	nummod	Bertel	PROPN	-	20
 <name type="PER">
-Bertel	Bertel	Bertel	PROPN	_	20	list	S	PROPN	_	17
-Haarder	Haarder	Haarder	PROPN	_	21	flat	Bertel	PROPN	_	20
+Bertel	Bertel	Bertel	PROPN	-	20	list	S	PROPN	-	17
+Haarder	Haarder	Haarder	PROPN	-	21	flat	Bertel	PROPN	-	20
 </name>
-(	(	(	PUNCT	_	22	punct	V	PROPN	_	23
+(	(	(	PUNCT	-	22	punct	V	PROPN	-	23
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	23	flat	Bertel	PROPN	_	20
+V	V	V	PROPN	-	23	flat	Bertel	PROPN	-	20
 <g/>
 </name>
-)	)	)	PUNCT	_	24	punct	V	PROPN	_	23
-3	3	3	NUM	NumType=Card	25	nummod	Pia	PROPN	_	26
+)	)	)	PUNCT	-	24	punct	V	PROPN	-	23
+3	3	3	NUM	NumType=Card	25	nummod	Pia	PROPN	-	26
 <name type="PER">
-Pia	Pia	Pia	PROPN	_	26	list	Bertel	PROPN	_	20
-Kjærsgaard	Kjærsgaard	Kjærsgaard	PROPN	_	27	flat	Pia	PROPN	_	26
+Pia	Pia	Pia	PROPN	-	26	list	Bertel	PROPN	-	20
+Kjærsgaard	Kjærsgaard	Kjærsgaard	PROPN	-	27	flat	Pia	PROPN	-	26
 </name>
-(	(	(	PUNCT	_	28	punct	DF	PROPN	_	29
+(	(	(	PUNCT	-	28	punct	DF	PROPN	-	29
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	29	flat	Pia	PROPN	_	26
+DF	DF	DF	PROPN	-	29	flat	Pia	PROPN	-	26
 <g/>
 </name>
-)	)	)	PUNCT	_	30	punct	DF	PROPN	_	29
-4	4	4	NUM	NumType=Card	31	nummod	Lone	PROPN	_	32
+)	)	)	PUNCT	-	30	punct	DF	PROPN	-	29
+4	4	4	NUM	NumType=Card	31	nummod	Lone	PROPN	-	32
 <name type="PER">
-Lone	Lone	Lone	PROPN	_	32	list	Pia	PROPN	_	26
-Loklindt	Loklindt	Loklindt	PROPN	_	33	flat	Lone	PROPN	_	32
+Lone	Lone	Lone	PROPN	-	32	list	Pia	PROPN	-	26
+Loklindt	Loklindt	Loklindt	PROPN	-	33	flat	Lone	PROPN	-	32
 </name>
-(	(	(	PUNCT	_	34	punct	RV	PROPN	_	35
+(	(	(	PUNCT	-	34	punct	RV	PROPN	-	35
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	35	flat	Lone	PROPN	_	32
+RV	RV	RV	PROPN	-	35	flat	Lone	PROPN	-	32
 <g/>
 </name>
-)	)	)	PUNCT	_	36	punct	RV	PROPN	_	35
-5	5	5	NUM	NumType=Card	37	nummod	Per	PROPN	_	38
+)	)	)	PUNCT	-	36	punct	RV	PROPN	-	35
+5	5	5	NUM	NumType=Card	37	nummod	Per	PROPN	-	38
 <name type="PER">
-Per	Per	Per	PROPN	_	38	list	Lone	PROPN	_	32
-Clausen	Clausen	Clausen	PROPN	_	39	flat	Per	PROPN	_	38
+Per	Per	Per	PROPN	-	38	list	Lone	PROPN	-	32
+Clausen	Clausen	Clausen	PROPN	-	39	flat	Per	PROPN	-	38
 </name>
-(	(	(	PUNCT	_	40	punct	EL	PROPN	_	41
+(	(	(	PUNCT	-	40	punct	EL	PROPN	-	41
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	41	flat	Per	PROPN	_	38
+EL	EL	EL	PROPN	-	41	flat	Per	PROPN	-	38
 <g/>
 </name>
-)	)	)	PUNCT	_	42	punct	EL	PROPN	_	41
-6	6	6	NUM	NumType=Card	43	nummod	John	PROPN	_	44
+)	)	)	PUNCT	-	42	punct	EL	PROPN	-	41
+6	6	6	NUM	NumType=Card	43	nummod	John	PROPN	-	44
 <name type="PER">
-John	John	John	PROPN	_	44	list	Per	PROPN	_	38
-Dyrby	Dyrby	Dyrby	PROPN	_	45	flat	John	PROPN	_	44
-Paulsen	Paulsen	Paulsen	PROPN	_	46	flat	John	PROPN	_	44
+John	John	John	PROPN	-	44	list	Per	PROPN	-	38
+Dyrby	Dyrby	Dyrby	PROPN	-	45	flat	John	PROPN	-	44
+Paulsen	Paulsen	Paulsen	PROPN	-	46	flat	John	PROPN	-	44
 </name>
-(	(	(	PUNCT	_	47	punct	S	PROPN	_	48
+(	(	(	PUNCT	-	47	punct	S	PROPN	-	48
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	48	flat	John	PROPN	_	44
+S	S	S	PROPN	-	48	flat	John	PROPN	-	44
 <g/>
 </name>
-)	)	)	PUNCT	_	49	punct	S	PROPN	_	48
-7	7	7	NUM	NumType=Card	50	nummod	Karen	PROPN	_	51
+)	)	)	PUNCT	-	49	punct	S	PROPN	-	48
+7	7	7	NUM	NumType=Card	50	nummod	Karen	PROPN	-	51
 <name type="PER">
-Karen	Karen	Karen	PROPN	_	51	list	S	PROPN	_	48
-J.	J.	J.	PROPN	_	52	flat	Karen	PROPN	_	51
-Klint	Klint	Klint	PROPN	_	53	flat	Karen	PROPN	_	51
+Karen	Karen	Karen	PROPN	-	51	list	S	PROPN	-	48
+J.	J.	J.	PROPN	-	52	flat	Karen	PROPN	-	51
+Klint	Klint	Klint	PROPN	-	53	flat	Karen	PROPN	-	51
 </name>
-(	(	(	PUNCT	_	54	punct	S	PROPN	_	55
+(	(	(	PUNCT	-	54	punct	S	PROPN	-	55
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	55	flat	Karen	PROPN	_	51
+S	S	S	PROPN	-	55	flat	Karen	PROPN	-	51
 <g/>
 </name>
-)	)	)	PUNCT	_	56	punct	S	PROPN	_	55
-8	8	8	NUM	NumType=Card	57	nummod	Ole	PROPN	_	58
+)	)	)	PUNCT	-	56	punct	S	PROPN	-	55
+8	8	8	NUM	NumType=Card	57	nummod	Ole	PROPN	-	58
 <name type="PER">
-Ole	Ole	Ole	PROPN	_	58	list	Karen	PROPN	_	51
-Hækkerup	Hækkerup	Hækkerup	PROPN	_	59	flat	Ole	PROPN	_	58
+Ole	Ole	Ole	PROPN	-	58	list	Karen	PROPN	-	51
+Hækkerup	Hækkerup	Hækkerup	PROPN	-	59	flat	Ole	PROPN	-	58
 </name>
-(	(	(	PUNCT	_	60	punct	S	PROPN	_	61
+(	(	(	PUNCT	-	60	punct	S	PROPN	-	61
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	61	flat	Ole	PROPN	_	58
+S	S	S	PROPN	-	61	flat	Ole	PROPN	-	58
 <g/>
 </name>
-)	)	)	PUNCT	_	62	punct	S	PROPN	_	61
-9	9	9	NUM	NumType=Card	63	nummod	Henrik	PROPN	_	64
+)	)	)	PUNCT	-	62	punct	S	PROPN	-	61
+9	9	9	NUM	NumType=Card	63	nummod	Henrik	PROPN	-	64
 <name type="PER">
-Henrik	Henrik	Henrik	PROPN	_	64	list	S	PROPN	_	61
-Dam	Dam	Dam	PROPN	_	65	flat	Henrik	PROPN	_	64
-Kristensen	Kristensen	Kristensen	PROPN	_	66	flat	Henrik	PROPN	_	64
+Henrik	Henrik	Henrik	PROPN	-	64	list	S	PROPN	-	61
+Dam	Dam	Dam	PROPN	-	65	flat	Henrik	PROPN	-	64
+Kristensen	Kristensen	Kristensen	PROPN	-	66	flat	Henrik	PROPN	-	64
 </name>
-(	(	(	PUNCT	_	67	punct	S	PROPN	_	68
+(	(	(	PUNCT	-	67	punct	S	PROPN	-	68
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	68	flat	Henrik	PROPN	_	64
+S	S	S	PROPN	-	68	flat	Henrik	PROPN	-	64
 <g/>
 </name>
-)	)	)	PUNCT	_	69	punct	S	PROPN	_	68
-10	10	10	NUM	NumType=Card	70	nummod	Torben	PROPN	_	71
+)	)	)	PUNCT	-	69	punct	S	PROPN	-	68
+10	10	10	NUM	NumType=Card	70	nummod	Torben	PROPN	-	71
 <name type="PER">
-Torben	Torben	Torben	PROPN	_	71	flat	S	PROPN	_	68
-Hansen	Hansen	Hansen	PROPN	_	72	flat	S	PROPN	_	68
+Torben	Torben	Torben	PROPN	-	71	flat	S	PROPN	-	68
+Hansen	Hansen	Hansen	PROPN	-	72	flat	S	PROPN	-	68
 </name>
-(	(	(	PUNCT	_	73	punct	S	PROPN	_	74
+(	(	(	PUNCT	-	73	punct	S	PROPN	-	74
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	74	flat	S	PROPN	_	68
+S	S	S	PROPN	-	74	flat	S	PROPN	-	68
 <g/>
 </name>
-)	)	)	PUNCT	_	75	punct	S	PROPN	_	74
-11	11	11	NUM	NumType=Card	76	nummod	Camilla	PROPN	_	77
+)	)	)	PUNCT	-	75	punct	S	PROPN	-	74
+11	11	11	NUM	NumType=Card	76	nummod	Camilla	PROPN	-	77
 <name type="PER">
-Camilla	Camilla	Camilla	PROPN	_	77	flat	S	PROPN	_	68
-Hersom	Hersom	Hersom	PROPN	_	78	flat	S	PROPN	_	68
+Camilla	Camilla	Camilla	PROPN	-	77	flat	S	PROPN	-	68
+Hersom	Hersom	Hersom	PROPN	-	78	flat	S	PROPN	-	68
 </name>
-(	(	(	PUNCT	_	79	punct	S	PROPN	_	68
+(	(	(	PUNCT	-	79	punct	S	PROPN	-	68
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	80	flat	S	PROPN	_	68
+RV	RV	RV	PROPN	-	80	flat	S	PROPN	-	68
 <g/>
 </name>
-)	)	)	PUNCT	_	81	punct	S	PROPN	_	68
-12	12	12	NUM	NumType=Card	82	nummod	Jonas	PROPN	_	83
+)	)	)	PUNCT	-	81	punct	S	PROPN	-	68
+12	12	12	NUM	NumType=Card	82	nummod	Jonas	PROPN	-	83
 <name type="PER">
-Jonas	Jonas	Jonas	PROPN	_	83	list	Henrik	PROPN	_	64
-Dahl	Dahl	Dahl	PROPN	_	84	flat	Jonas	PROPN	_	83
+Jonas	Jonas	Jonas	PROPN	-	83	list	Henrik	PROPN	-	64
+Dahl	Dahl	Dahl	PROPN	-	84	flat	Jonas	PROPN	-	83
 </name>
-(	(	(	PUNCT	_	85	punct	SF	PROPN	_	86
+(	(	(	PUNCT	-	85	punct	SF	PROPN	-	86
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	86	flat	Jonas	PROPN	_	83
+SF	SF	SF	PROPN	-	86	flat	Jonas	PROPN	-	83
 <g/>
 </name>
-)	)	)	PUNCT	_	87	punct	SF	PROPN	_	86
-13	13	13	NUM	NumType=Card	88	nummod	Stine	PROPN	_	89
+)	)	)	PUNCT	-	87	punct	SF	PROPN	-	86
+13	13	13	NUM	NumType=Card	88	nummod	Stine	PROPN	-	89
 <name type="PER">
-Stine	Stine	Stine	PROPN	_	89	list	SF	PROPN	_	86
-Brix	Brix	Brix	PROPN	_	90	flat	Stine	PROPN	_	89
+Stine	Stine	Stine	PROPN	-	89	list	SF	PROPN	-	86
+Brix	Brix	Brix	PROPN	-	90	flat	Stine	PROPN	-	89
 </name>
-(	(	(	PUNCT	_	91	punct	EL	PROPN	_	92
+(	(	(	PUNCT	-	91	punct	EL	PROPN	-	92
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	92	flat	Stine	PROPN	_	89
+EL	EL	EL	PROPN	-	92	flat	Stine	PROPN	-	89
 <g/>
 </name>
-)	)	)	PUNCT	_	93	punct	EL	PROPN	_	92
-14	14	14	NUM	NumType=Card	94	nummod	Birthe	PROPN	_	95
+)	)	)	PUNCT	-	93	punct	EL	PROPN	-	92
+14	14	14	NUM	NumType=Card	94	nummod	Birthe	PROPN	-	95
 <name type="PER">
-Birthe	Birthe	Birthe	PROPN	_	95	list	Stine	PROPN	_	89
-Rønn	Rønn	Rønn	PROPN	_	96	flat	Birthe	PROPN	_	95
-Hornbech	Hornbech	Hornbech	PROPN	_	97	flat	Birthe	PROPN	_	95
+Birthe	Birthe	Birthe	PROPN	-	95	list	Stine	PROPN	-	89
+Rønn	Rønn	Rønn	PROPN	-	96	flat	Birthe	PROPN	-	95
+Hornbech	Hornbech	Hornbech	PROPN	-	97	flat	Birthe	PROPN	-	95
 </name>
-(	(	(	PUNCT	_	98	punct	V	PROPN	_	99
+(	(	(	PUNCT	-	98	punct	V	PROPN	-	99
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	99	flat	Birthe	PROPN	_	95
+V	V	V	PROPN	-	99	flat	Birthe	PROPN	-	95
 <g/>
 </name>
-)	)	)	PUNCT	_	100	punct	V	PROPN	_	99
-15	15	15	NUM	NumType=Card	101	nummod	Kristian	PROPN	_	102
+)	)	)	PUNCT	-	100	punct	V	PROPN	-	99
+15	15	15	NUM	NumType=Card	101	nummod	Kristian	PROPN	-	102
 <name type="PER">
-Kristian	Kristian	Kristian	PROPN	_	102	list	Birthe	PROPN	_	95
-Jensen	Jensen	Jensen	PROPN	_	103	flat	Kristian	PROPN	_	102
+Kristian	Kristian	Kristian	PROPN	-	102	list	Birthe	PROPN	-	95
+Jensen	Jensen	Jensen	PROPN	-	103	flat	Kristian	PROPN	-	102
 </name>
-(	(	(	PUNCT	_	104	punct	V	PROPN	_	105
+(	(	(	PUNCT	-	104	punct	V	PROPN	-	105
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	105	flat	Kristian	PROPN	_	102
+V	V	V	PROPN	-	105	flat	Kristian	PROPN	-	102
 <g/>
 </name>
-)	)	)	PUNCT	_	106	punct	V	PROPN	_	105
-16	16	16	NUM	NumType=Card	107	nummod	Flemming	PROPN	_	108
+)	)	)	PUNCT	-	106	punct	V	PROPN	-	105
+16	16	16	NUM	NumType=Card	107	nummod	Flemming	PROPN	-	108
 <name type="PER">
-Flemming	Flemming	Flemming	PROPN	_	108	list	Kristian	PROPN	_	102
-Damgaard	Damgaard	Damgaard	PROPN	_	109	flat	Flemming	PROPN	_	108
-Larsen	Larsen	Larsen	PROPN	_	110	flat	Flemming	PROPN	_	108
+Flemming	Flemming	Flemming	PROPN	-	108	list	Kristian	PROPN	-	102
+Damgaard	Damgaard	Damgaard	PROPN	-	109	flat	Flemming	PROPN	-	108
+Larsen	Larsen	Larsen	PROPN	-	110	flat	Flemming	PROPN	-	108
 </name>
-(	(	(	PUNCT	_	111	punct	V	PROPN	_	112
+(	(	(	PUNCT	-	111	punct	V	PROPN	-	112
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	112	flat	Flemming	PROPN	_	108
+V	V	V	PROPN	-	112	flat	Flemming	PROPN	-	108
 <g/>
 </name>
-)	)	)	PUNCT	_	113	punct	V	PROPN	_	112
-17	17	17	NUM	NumType=Card	114	nummod	Hans	PROPN	_	115
+)	)	)	PUNCT	-	113	punct	V	PROPN	-	112
+17	17	17	NUM	NumType=Card	114	nummod	Hans	PROPN	-	115
 <name type="PER">
-Hans	Hans	Hans	PROPN	_	115	list	Flemming	PROPN	_	108
-Christian	Christian	Christian	PROPN	_	116	flat	Hans	PROPN	_	115
-Schmidt	Schmidt	Schmidt	X	_	117	list	Hans	PROPN	_	115
+Hans	Hans	Hans	PROPN	-	115	list	Flemming	PROPN	-	108
+Christian	Christian	Christian	PROPN	-	116	flat	Hans	PROPN	-	115
+Schmidt	Schmidt	Schmidt	X	-	117	list	Hans	PROPN	-	115
 </name>
-(	(	(	PUNCT	_	118	punct	V	PROPN	_	119
+(	(	(	PUNCT	-	118	punct	V	PROPN	-	119
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	119	list	Schmidt	X	_	117
+V	V	V	PROPN	-	119	list	Schmidt	X	-	117
 <g/>
 </name>
-)	)	)	PUNCT	_	120	punct	V	PROPN	_	119
-18	18	18	NUM	NumType=Card	121	nummod	Søren	PROPN	_	122
+)	)	)	PUNCT	-	120	punct	V	PROPN	-	119
+18	18	18	NUM	NumType=Card	121	nummod	Søren	PROPN	-	122
 <name type="PER">
-Søren	Søren	Søren	PROPN	_	122	list	V	PROPN	_	119
-Espersen	Espersen	Espersen	PROPN	_	123	flat	Søren	PROPN	_	122
+Søren	Søren	Søren	PROPN	-	122	list	V	PROPN	-	119
+Espersen	Espersen	Espersen	PROPN	-	123	flat	Søren	PROPN	-	122
 </name>
-(	(	(	PUNCT	_	124	punct	DF	PROPN	_	125
+(	(	(	PUNCT	-	124	punct	DF	PROPN	-	125
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	125	flat	Søren	PROPN	_	122
+DF	DF	DF	PROPN	-	125	flat	Søren	PROPN	-	122
 <g/>
 </name>
-)	)	)	PUNCT	_	126	punct	DF	PROPN	_	125
-19	19	19	NUM	NumType=Card	127	nummod	Peter	PROPN	_	128
+)	)	)	PUNCT	-	126	punct	DF	PROPN	-	125
+19	19	19	NUM	NumType=Card	127	nummod	Peter	PROPN	-	128
 <name type="PER">
-Peter	Peter	Peter	PROPN	_	128	list	Søren	PROPN	_	122
-Skaarup	Skaarup	Skaarup	PROPN	_	129	flat	Peter	PROPN	_	128
+Peter	Peter	Peter	PROPN	-	128	list	Søren	PROPN	-	122
+Skaarup	Skaarup	Skaarup	PROPN	-	129	flat	Peter	PROPN	-	128
 </name>
-(	(	(	PUNCT	_	130	punct	DF	PROPN	_	131
+(	(	(	PUNCT	-	130	punct	DF	PROPN	-	131
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	131	flat	Peter	PROPN	_	128
+DF	DF	DF	PROPN	-	131	flat	Peter	PROPN	-	128
 <g/>
 </name>
-)	)	)	PUNCT	_	132	punct	DF	PROPN	_	131
-20	20	20	NUM	NumType=Card	133	nummod	Simon	PROPN	_	134
+)	)	)	PUNCT	-	132	punct	DF	PROPN	-	131
+20	20	20	NUM	NumType=Card	133	nummod	Simon	PROPN	-	134
 <name type="PER">
-Simon	Simon	Simon	PROPN	_	134	list	Peter	PROPN	_	128
-Emil	Emil	Emil	PROPN	_	135	flat	Simon	PROPN	_	134
-Ammitzbøll	Ammitzbøll	Ammitzbøll	PROPN	_	136	flat	Simon	PROPN	_	134
+Simon	Simon	Simon	PROPN	-	134	list	Peter	PROPN	-	128
+Emil	Emil	Emil	PROPN	-	135	flat	Simon	PROPN	-	134
+Ammitzbøll	Ammitzbøll	Ammitzbøll	PROPN	-	136	flat	Simon	PROPN	-	134
 </name>
-(	(	(	PUNCT	_	137	punct	LA	PROPN	_	138
+(	(	(	PUNCT	-	137	punct	LA	PROPN	-	138
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	138	flat	Simon	PROPN	_	134
+LA	LA	LA	PROPN	-	138	flat	Simon	PROPN	-	134
 <g/>
 </name>
-)	)	)	PUNCT	_	139	punct	LA	PROPN	_	138
-21	21	21	NUM	NumType=Card	140	nummod	Brian	PROPN	_	141
+)	)	)	PUNCT	-	139	punct	LA	PROPN	-	138
+21	21	21	NUM	NumType=Card	140	nummod	Brian	PROPN	-	141
 <name type="PER">
-Brian	Brian	Brian	PROPN	_	141	nsubj	vælge	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	151
-Mikkelsen	Mikkelsen	Mikkelsen	PROPN	_	142	flat	Brian	PROPN	_	141
+Brian	Brian	Brian	PROPN	-	141	nsubj	vælge	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	151
+Mikkelsen	Mikkelsen	Mikkelsen	PROPN	-	142	flat	Brian	PROPN	-	141
 </name>
-(	(	(	PUNCT	_	143	punct	KF	PROPN	_	144
+(	(	(	PUNCT	-	143	punct	KF	PROPN	-	144
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	144	flat	Brian	PROPN	_	141
+KF	KF	KF	PROPN	-	144	flat	Brian	PROPN	-	141
 <g/>
 </name>
-)	)	)	PUNCT	_	145	punct	KF	PROPN	_	144
-1-5	1-5	1-5	NUM	NumType=Card	146	nummod	KF	PROPN	_	144
-)	)	)	PUNCT	_	147	punct	1-5	NUM	NumType=Card	146
-tillige	tillige	tillige	ADV	_	148	advmod	vælge	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	151
+)	)	)	PUNCT	-	145	punct	KF	PROPN	-	144
+1-5	1-5	1-5	NUM	NumType=Card	146	nummod	KF	PROPN	-	144
+)	)	)	PUNCT	-	147	punct	1-5	NUM	NumType=Card	146
+tillige	tillige	tillige	ADV	-	148	advmod	vælge	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	151
 med	med	med	ADP	AdpType=Prep	149	case	16	NUM	NumType=Card	150
-16	16	16	NUM	NumType=Card	150	nummod	tillige	ADV	_	148
-valgte	valgte	vælge	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	151	acl_relcl	Simon	PROPN	_	134
+16	16	16	NUM	NumType=Card	150	nummod	tillige	ADV	-	148
+valgte	valgte	vælge	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	151	acl:relcl	Simon	PROPN	-	134
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	152	obj	vælge	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	151
 <g/>
-)	)	)	PUNCT	_	153	punct	vælge	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	151
+)	)	)	PUNCT	-	153	punct	vælge	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	151
 <g/>
-.	.	.	PUNCT	_	154	punct	S	PROPN	_	17
+.	.	.	PUNCT	-	154	punct	S	PROPN	-	17
 </s>
 <s id="ParlaMint-DK_20141008130437.seg2.7">
 Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1	root	-	-	-	-
 <g/>
-:	:	:	PUNCT	_	2	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1
+:	:	:	PUNCT	-	2	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1
 <name type="PER">
-Mogens	Mogens	Mogens	PROPN	_	3	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1
-Lykketoft	Lykketoft	Lykketoft	PROPN	_	4	flat	Mogens	PROPN	_	3
+Mogens	Mogens	Mogens	PROPN	-	3	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1
+Lykketoft	Lykketoft	Lykketoft	PROPN	-	4	flat	Mogens	PROPN	-	3
 </name>
-(	(	(	PUNCT	_	5	punct	S	PROPN	_	6
+(	(	(	PUNCT	-	5	punct	S	PROPN	-	6
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	6	flat	Mogens	PROPN	_	3
+S	S	S	PROPN	-	6	flat	Mogens	PROPN	-	3
 <g/>
 </name>
-)	)	)	PUNCT	_	7	punct	S	PROPN	_	6
-Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	8	flat	S	PROPN	_	6
+)	)	)	PUNCT	-	7	punct	S	PROPN	-	6
+Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	8	flat	S	PROPN	-	6
 <g/>
-:	:	:	PUNCT	_	9	punct	S	PROPN	_	6
+:	:	:	PUNCT	-	9	punct	S	PROPN	-	6
 <name type="PER">
-Bertel	Bertel	Bertel	PROPN	_	10	flat	S	PROPN	_	6
-Haarder	Haarder	Haarder	PROPN	_	11	flat	Bertel	PROPN	_	10
+Bertel	Bertel	Bertel	PROPN	-	10	flat	S	PROPN	-	6
+Haarder	Haarder	Haarder	PROPN	-	11	flat	Bertel	PROPN	-	10
 </name>
-(	(	(	PUNCT	_	12	punct	S	PROPN	_	6
+(	(	(	PUNCT	-	12	punct	S	PROPN	-	6
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	13	flat	S	PROPN	_	6
+V	V	V	PROPN	-	13	flat	S	PROPN	-	6
 <g/>
 </name>
-)	)	)	PUNCT	_	14	punct	S	PROPN	_	6
-Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	15	flat	Mogens	PROPN	_	3
+)	)	)	PUNCT	-	14	punct	S	PROPN	-	6
+Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	15	flat	Mogens	PROPN	-	3
 af	af	af	ADP	AdpType=Prep	16	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	18
 17	17	17	NUM	NumType=Card	17	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	18
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	18	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	15
 til	til	til	ADP	AdpType=Prep	19	case	udvalg	NOUN	Definite=Def Gender=Neut Number=Sing	20
 Udvalget	Udvalget	udvalg	NOUN	Definite=Def Gender=Neut Number=Sing	20	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	15
 til	til	til	ADP	AdpType=Prep	21	case	prøvelse	NOUN	Definite=Ind Gender=Com Number=Sing	23
-Valgs	Valgs	valg	NOUN	Case=Gen Definite=Ind Gender=Neut Number=Sing	22	nmod_poss	prøvelse	NOUN	Definite=Ind Gender=Com Number=Sing	23
+Valgs	Valgs	valg	NOUN	Case=Gen Definite=Ind Gender=Neut Number=Sing	22	nmod:poss	prøvelse	NOUN	Definite=Ind Gender=Com Number=Sing	23
 Prøvelse	Prøvelse	prøvelse	NOUN	Definite=Ind Gender=Com Number=Sing	23	nmod	udvalg	NOUN	Definite=Def Gender=Neut Number=Sing	20
 <g/>
-:	:	:	PUNCT	_	24	punct	Mogens	PROPN	_	3
-Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	25	list	Mogens	PROPN	_	3
-blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	26	cop	Julie	PROPN	_	29
+:	:	:	PUNCT	-	24	punct	Mogens	PROPN	-	3
+Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	25	list	Mogens	PROPN	-	3
+blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	26	cop	Julie	PROPN	-	29
 <g/>
-:	:	:	PUNCT	_	27	punct	Julie	PROPN	_	29
-1	1	1	NUM	NumType=Card	28	nummod	Julie	PROPN	_	29
+:	:	:	PUNCT	-	27	punct	Julie	PROPN	-	29
+1	1	1	NUM	NumType=Card	28	nummod	Julie	PROPN	-	29
 <name type="PER">
-Julie	Julie	Julie	PROPN	_	29	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	25
-Skovsby	Skovsby	Skovsby	PROPN	_	30	flat	Julie	PROPN	_	29
+Julie	Julie	Julie	PROPN	-	29	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	25
+Skovsby	Skovsby	Skovsby	PROPN	-	30	flat	Julie	PROPN	-	29
 </name>
-(	(	(	PUNCT	_	31	punct	S	PROPN	_	32
+(	(	(	PUNCT	-	31	punct	S	PROPN	-	32
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	32	flat	Julie	PROPN	_	29
+S	S	S	PROPN	-	32	flat	Julie	PROPN	-	29
 <g/>
 </name>
-)	)	)	PUNCT	_	33	punct	S	PROPN	_	32
-2	2	2	NUM	NumType=Card	34	nummod	Karen	PROPN	_	35
+)	)	)	PUNCT	-	33	punct	S	PROPN	-	32
+2	2	2	NUM	NumType=Card	34	nummod	Karen	PROPN	-	35
 <name type="PER">
-Karen	Karen	Karen	PROPN	_	35	list	Julie	PROPN	_	29
-J.	J.	J.	PROPN	_	36	flat	Karen	PROPN	_	35
-Klint	Klint	Klint	PROPN	_	37	flat	Karen	PROPN	_	35
+Karen	Karen	Karen	PROPN	-	35	list	Julie	PROPN	-	29
+J.	J.	J.	PROPN	-	36	flat	Karen	PROPN	-	35
+Klint	Klint	Klint	PROPN	-	37	flat	Karen	PROPN	-	35
 </name>
-(	(	(	PUNCT	_	38	punct	S	PROPN	_	39
+(	(	(	PUNCT	-	38	punct	S	PROPN	-	39
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	39	list	Karen	PROPN	_	35
+S	S	S	PROPN	-	39	list	Karen	PROPN	-	35
 <g/>
 </name>
-)	)	)	PUNCT	_	40	punct	S	PROPN	_	39
-3	3	3	NUM	NumType=Card	41	nummod	Ane	PROPN	_	42
+)	)	)	PUNCT	-	40	punct	S	PROPN	-	39
+3	3	3	NUM	NumType=Card	41	nummod	Ane	PROPN	-	42
 <name type="PER">
-Ane	Ane	Ane	PROPN	_	42	flat	S	PROPN	_	39
-Halsboe-Jørgensen	Halsboe-Jørgensen	Halsboe-Jørgensen	PROPN	_	43	flat	S	PROPN	_	39
+Ane	Ane	Ane	PROPN	-	42	flat	S	PROPN	-	39
+Halsboe-Jørgensen	Halsboe-Jørgensen	Halsboe-Jørgensen	PROPN	-	43	flat	S	PROPN	-	39
 </name>
-(	(	(	PUNCT	_	44	punct	S	PROPN	_	45
+(	(	(	PUNCT	-	44	punct	S	PROPN	-	45
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	45	flat	S	PROPN	_	39
+S	S	S	PROPN	-	45	flat	S	PROPN	-	39
 <g/>
 </name>
-)	)	)	PUNCT	_	46	punct	S	PROPN	_	45
-4	4	4	NUM	NumType=Card	47	nummod	Mette	PROPN	_	48
+)	)	)	PUNCT	-	46	punct	S	PROPN	-	45
+4	4	4	NUM	NumType=Card	47	nummod	Mette	PROPN	-	48
 <name type="PER">
-Mette	Mette	Mette	PROPN	_	48	flat	S	PROPN	_	39
-Gjerskov	Gjerskov	Gjerskov	PROPN	_	49	flat	S	PROPN	_	39
+Mette	Mette	Mette	PROPN	-	48	flat	S	PROPN	-	39
+Gjerskov	Gjerskov	Gjerskov	PROPN	-	49	flat	S	PROPN	-	39
 </name>
-(	(	(	PUNCT	_	50	punct	S	PROPN	_	51
+(	(	(	PUNCT	-	50	punct	S	PROPN	-	51
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	51	flat	S	PROPN	_	39
+S	S	S	PROPN	-	51	flat	S	PROPN	-	39
 <g/>
 </name>
-)	)	)	PUNCT	_	52	punct	S	PROPN	_	51
-5	5	5	NUM	NumType=Card	53	nummod	Thomas	PROPN	_	54
+)	)	)	PUNCT	-	52	punct	S	PROPN	-	51
+5	5	5	NUM	NumType=Card	53	nummod	Thomas	PROPN	-	54
 <name type="PER">
-Thomas	Thomas	Thomas	PROPN	_	54	list	S	PROPN	_	39
-Jensen	Jensen	Jensen	PROPN	_	55	flat	Thomas	PROPN	_	54
+Thomas	Thomas	Thomas	PROPN	-	54	list	S	PROPN	-	39
+Jensen	Jensen	Jensen	PROPN	-	55	flat	Thomas	PROPN	-	54
 </name>
-(	(	(	PUNCT	_	56	punct	S	PROPN	_	57
+(	(	(	PUNCT	-	56	punct	S	PROPN	-	57
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	57	flat	Thomas	PROPN	_	54
+S	S	S	PROPN	-	57	flat	Thomas	PROPN	-	54
 <g/>
 </name>
-)	)	)	PUNCT	_	58	punct	S	PROPN	_	57
-6	6	6	NUM	NumType=Card	59	nummod	Camilla	PROPN	_	60
+)	)	)	PUNCT	-	58	punct	S	PROPN	-	57
+6	6	6	NUM	NumType=Card	59	nummod	Camilla	PROPN	-	60
 <name type="PER">
-Camilla	Camilla	Camilla	PROPN	_	60	list	Thomas	PROPN	_	54
-Hersom	Hersom	Hersom	PROPN	_	61	flat	Camilla	PROPN	_	60
+Camilla	Camilla	Camilla	PROPN	-	60	list	Thomas	PROPN	-	54
+Hersom	Hersom	Hersom	PROPN	-	61	flat	Camilla	PROPN	-	60
 </name>
-(	(	(	PUNCT	_	62	punct	RV	PROPN	_	63
+(	(	(	PUNCT	-	62	punct	RV	PROPN	-	63
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	63	flat	Camilla	PROPN	_	60
+RV	RV	RV	PROPN	-	63	flat	Camilla	PROPN	-	60
 <g/>
 </name>
-)	)	)	PUNCT	_	64	punct	RV	PROPN	_	63
-7	7	7	NUM	NumType=Card	65	nummod	Karina	PROPN	_	66
+)	)	)	PUNCT	-	64	punct	RV	PROPN	-	63
+7	7	7	NUM	NumType=Card	65	nummod	Karina	PROPN	-	66
 <name type="PER">
-Karina	Karina	Karina	PROPN	_	66	list	Camilla	PROPN	_	60
-Lorentzen	Lorentzen	Lorentzen	PROPN	_	67	flat	Karina	PROPN	_	66
-Dehnhardt	Dehnhardt	Dehnhardt	PROPN	_	68	flat	Karina	PROPN	_	66
+Karina	Karina	Karina	PROPN	-	66	list	Camilla	PROPN	-	60
+Lorentzen	Lorentzen	Lorentzen	PROPN	-	67	flat	Karina	PROPN	-	66
+Dehnhardt	Dehnhardt	Dehnhardt	PROPN	-	68	flat	Karina	PROPN	-	66
 </name>
-(	(	(	PUNCT	_	69	punct	SF	PROPN	_	70
+(	(	(	PUNCT	-	69	punct	SF	PROPN	-	70
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	70	list	Karina	PROPN	_	66
+SF	SF	SF	PROPN	-	70	list	Karina	PROPN	-	66
 <g/>
 </name>
-)	)	)	PUNCT	_	71	punct	SF	PROPN	_	70
-8	8	8	NUM	NumType=Card	72	nummod	Frank	PROPN	_	73
+)	)	)	PUNCT	-	71	punct	SF	PROPN	-	70
+8	8	8	NUM	NumType=Card	72	nummod	Frank	PROPN	-	73
 <name type="PER">
-Frank	Frank	Frank	PROPN	_	73	list	SF	PROPN	_	70
-Aaen	Aaen	Aaen	PROPN	_	74	flat	Frank	PROPN	_	73
+Frank	Frank	Frank	PROPN	-	73	list	SF	PROPN	-	70
+Aaen	Aaen	Aaen	PROPN	-	74	flat	Frank	PROPN	-	73
 </name>
-(	(	(	PUNCT	_	75	punct	EL	PROPN	_	76
+(	(	(	PUNCT	-	75	punct	EL	PROPN	-	76
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	76	flat	Frank	PROPN	_	73
+EL	EL	EL	PROPN	-	76	flat	Frank	PROPN	-	73
 <g/>
 </name>
-)	)	)	PUNCT	_	77	punct	EL	PROPN	_	76
-9	9	9	NUM	NumType=Card	78	nummod	Pernille	PROPN	_	79
+)	)	)	PUNCT	-	77	punct	EL	PROPN	-	76
+9	9	9	NUM	NumType=Card	78	nummod	Pernille	PROPN	-	79
 <name type="PER">
-Pernille	Pernille	Pernille	PROPN	_	79	list	Frank	PROPN	_	73
-Skipper	Skipper	Skipper	PROPN	_	80	flat	Pernille	PROPN	_	79
+Pernille	Pernille	Pernille	PROPN	-	79	list	Frank	PROPN	-	73
+Skipper	Skipper	Skipper	PROPN	-	80	flat	Pernille	PROPN	-	79
 </name>
-(	(	(	PUNCT	_	81	punct	EL	PROPN	_	82
+(	(	(	PUNCT	-	81	punct	EL	PROPN	-	82
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	82	flat	Pernille	PROPN	_	79
+EL	EL	EL	PROPN	-	82	flat	Pernille	PROPN	-	79
 <g/>
 </name>
-)	)	)	PUNCT	_	83	punct	EL	PROPN	_	82
-10	10	10	NUM	NumType=Card	84	nummod	Peter	PROPN	_	85
+)	)	)	PUNCT	-	83	punct	EL	PROPN	-	82
+10	10	10	NUM	NumType=Card	84	nummod	Peter	PROPN	-	85
 <name type="PER">
-Peter	Peter	Peter	PROPN	_	85	list	Pernille	PROPN	_	79
-Christensen	Christensen	Christensen	PROPN	_	86	flat	Peter	PROPN	_	85
+Peter	Peter	Peter	PROPN	-	85	list	Pernille	PROPN	-	79
+Christensen	Christensen	Christensen	PROPN	-	86	flat	Peter	PROPN	-	85
 </name>
-(	(	(	PUNCT	_	87	punct	V	PROPN	_	88
+(	(	(	PUNCT	-	87	punct	V	PROPN	-	88
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	88	flat	Peter	PROPN	_	85
+V	V	V	PROPN	-	88	flat	Peter	PROPN	-	85
 <g/>
 </name>
-)	)	)	PUNCT	_	89	punct	V	PROPN	_	88
-11	11	11	NUM	NumType=Card	90	nummod	Peter	PROPN	_	91
+)	)	)	PUNCT	-	89	punct	V	PROPN	-	88
+11	11	11	NUM	NumType=Card	90	nummod	Peter	PROPN	-	91
 <name type="PER">
-Peter	Peter	Peter	PROPN	_	91	list	Peter	PROPN	_	85
-Juel	Juel	Juel	PROPN	_	92	flat	Peter	PROPN	_	91
-Jensen	Jensen	Jensen	PROPN	_	93	flat	Peter	PROPN	_	91
+Peter	Peter	Peter	PROPN	-	91	list	Peter	PROPN	-	85
+Juel	Juel	Juel	PROPN	-	92	flat	Peter	PROPN	-	91
+Jensen	Jensen	Jensen	PROPN	-	93	flat	Peter	PROPN	-	91
 </name>
-(	(	(	PUNCT	_	94	punct	V	PROPN	_	95
+(	(	(	PUNCT	-	94	punct	V	PROPN	-	95
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	95	flat	Peter	PROPN	_	91
+V	V	V	PROPN	-	95	flat	Peter	PROPN	-	91
 <g/>
 </name>
-)	)	)	PUNCT	_	96	punct	V	PROPN	_	95
-12	12	12	NUM	NumType=Card	97	nummod	Torsten	PROPN	_	98
+)	)	)	PUNCT	-	96	punct	V	PROPN	-	95
+12	12	12	NUM	NumType=Card	97	nummod	Torsten	PROPN	-	98
 <name type="PER">
-Torsten	Torsten	Torsten	PROPN	_	98	list	Peter	PROPN	_	91
-Schack	Schack	Schack	PROPN	_	99	flat	Torsten	PROPN	_	98
-Pedersen	Pedersen	Pedersen	PROPN	_	100	flat	Torsten	PROPN	_	98
+Torsten	Torsten	Torsten	PROPN	-	98	list	Peter	PROPN	-	91
+Schack	Schack	Schack	PROPN	-	99	flat	Torsten	PROPN	-	98
+Pedersen	Pedersen	Pedersen	PROPN	-	100	flat	Torsten	PROPN	-	98
 </name>
-(	(	(	PUNCT	_	101	punct	V	PROPN	_	102
+(	(	(	PUNCT	-	101	punct	V	PROPN	-	102
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	102	flat	Torsten	PROPN	_	98
+V	V	V	PROPN	-	102	flat	Torsten	PROPN	-	98
 <g/>
 </name>
-)	)	)	PUNCT	_	103	punct	V	PROPN	_	102
-13	13	13	NUM	NumType=Card	104	nummod	Hans	PROPN	_	105
+)	)	)	PUNCT	-	103	punct	V	PROPN	-	102
+13	13	13	NUM	NumType=Card	104	nummod	Hans	PROPN	-	105
 <name type="PER">
-Hans	Hans	Hans	PROPN	_	105	list	Torsten	PROPN	_	98
-Christian	Christian	Christian	PROPN	_	106	flat	Hans	PROPN	_	105
-Thoning	Thoning	Thoning	PROPN	_	107	flat	Hans	PROPN	_	105
+Hans	Hans	Hans	PROPN	-	105	list	Torsten	PROPN	-	98
+Christian	Christian	Christian	PROPN	-	106	flat	Hans	PROPN	-	105
+Thoning	Thoning	Thoning	PROPN	-	107	flat	Hans	PROPN	-	105
 </name>
-(	(	(	PUNCT	_	108	punct	V	PROPN	_	109
+(	(	(	PUNCT	-	108	punct	V	PROPN	-	109
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	109	flat	Hans	PROPN	_	105
+V	V	V	PROPN	-	109	flat	Hans	PROPN	-	105
 <g/>
 </name>
-)	)	)	PUNCT	_	110	punct	V	PROPN	_	109
-14	14	14	NUM	NumType=Card	111	nummod	Bent	PROPN	_	112
+)	)	)	PUNCT	-	110	punct	V	PROPN	-	109
+14	14	14	NUM	NumType=Card	111	nummod	Bent	PROPN	-	112
 <name type="PER">
-Bent	Bent	Bent	PROPN	_	112	list	Hans	PROPN	_	105
-Bøgsted	Bøgsted	Bøgsted	PROPN	_	113	flat	Bent	PROPN	_	112
+Bent	Bent	Bent	PROPN	-	112	list	Hans	PROPN	-	105
+Bøgsted	Bøgsted	Bøgsted	PROPN	-	113	flat	Bent	PROPN	-	112
 </name>
-(	(	(	PUNCT	_	114	punct	DF	PROPN	_	115
+(	(	(	PUNCT	-	114	punct	DF	PROPN	-	115
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	115	flat	Bent	PROPN	_	112
+DF	DF	DF	PROPN	-	115	flat	Bent	PROPN	-	112
 <g/>
 </name>
-)	)	)	PUNCT	_	116	punct	DF	PROPN	_	115
-15	15	15	NUM	NumType=Card	117	nummod	Hans	PROPN	_	118
+)	)	)	PUNCT	-	116	punct	DF	PROPN	-	115
+15	15	15	NUM	NumType=Card	117	nummod	Hans	PROPN	-	118
 <name type="PER">
-Hans	Hans	Hans	PROPN	_	118	list	Bent	PROPN	_	112
-Kristian	Kristian	Kristian	PROPN	_	119	flat	Hans	PROPN	_	118
-Skibby	Skibby	Skibby	PROPN	_	120	flat	Hans	PROPN	_	118
+Hans	Hans	Hans	PROPN	-	118	list	Bent	PROPN	-	112
+Kristian	Kristian	Kristian	PROPN	-	119	flat	Hans	PROPN	-	118
+Skibby	Skibby	Skibby	PROPN	-	120	flat	Hans	PROPN	-	118
 </name>
-(	(	(	PUNCT	_	121	punct	DF	PROPN	_	122
+(	(	(	PUNCT	-	121	punct	DF	PROPN	-	122
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	122	flat	Hans	PROPN	_	118
+DF	DF	DF	PROPN	-	122	flat	Hans	PROPN	-	118
 <g/>
 </name>
-)	)	)	PUNCT	_	123	punct	DF	PROPN	_	122
-16	16	16	NUM	NumType=Card	124	nummod	Leif	PROPN	_	125
+)	)	)	PUNCT	-	123	punct	DF	PROPN	-	122
+16	16	16	NUM	NumType=Card	124	nummod	Leif	PROPN	-	125
 <name type="PER">
-Leif	Leif	Leif	PROPN	_	125	list	Hans	PROPN	_	118
-Mikkelsen	Mikkelsen	Mikkelsen	PROPN	_	126	flat	Leif	PROPN	_	125
+Leif	Leif	Leif	PROPN	-	125	list	Hans	PROPN	-	118
+Mikkelsen	Mikkelsen	Mikkelsen	PROPN	-	126	flat	Leif	PROPN	-	125
 </name>
-(	(	(	PUNCT	_	127	punct	LA	PROPN	_	128
+(	(	(	PUNCT	-	127	punct	LA	PROPN	-	128
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	128	flat	Leif	PROPN	_	125
+LA	LA	LA	PROPN	-	128	flat	Leif	PROPN	-	125
 <g/>
 </name>
-)	)	)	PUNCT	_	129	punct	LA	PROPN	_	128
-17	17	17	NUM	NumType=Card	130	nummod	Mike	PROPN	_	131
+)	)	)	PUNCT	-	129	punct	LA	PROPN	-	128
+17	17	17	NUM	NumType=Card	130	nummod	Mike	PROPN	-	131
 <name type="PER">
-Mike	Mike	Mike	PROPN	_	131	list	Leif	PROPN	_	125
-Legarth	Legarth	Legarth	PROPN	_	132	flat	Mike	PROPN	_	131
+Mike	Mike	Mike	PROPN	-	131	list	Leif	PROPN	-	125
+Legarth	Legarth	Legarth	PROPN	-	132	flat	Mike	PROPN	-	131
 </name>
-(	(	(	PUNCT	_	133	punct	KF	PROPN	_	134
+(	(	(	PUNCT	-	133	punct	KF	PROPN	-	134
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	134	flat	Mike	PROPN	_	131
+KF	KF	KF	PROPN	-	134	flat	Mike	PROPN	-	131
 <g/>
 </name>
-)	)	)	PUNCT	_	135	punct	KF	PROPN	_	134
-Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	136	list	Mike	PROPN	_	131
+)	)	)	PUNCT	-	135	punct	KF	PROPN	-	134
+Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	136	list	Mike	PROPN	-	131
 <g/>
-:	:	:	PUNCT	_	137	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	136
+:	:	:	PUNCT	-	137	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	136
 <name type="PER">
-Peter	Peter	Peter	PROPN	_	138	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	136
-Juel	Juel	Juel	PROPN	_	139	flat	Peter	PROPN	_	138
-Jensen	Jensen	Jensen	PROPN	_	140	flat	Peter	PROPN	_	138
+Peter	Peter	Peter	PROPN	-	138	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	136
+Juel	Juel	Juel	PROPN	-	139	flat	Peter	PROPN	-	138
+Jensen	Jensen	Jensen	PROPN	-	140	flat	Peter	PROPN	-	138
 </name>
-(	(	(	PUNCT	_	141	punct	V	PROPN	_	142
+(	(	(	PUNCT	-	141	punct	V	PROPN	-	142
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	142	flat	Peter	PROPN	_	138
+V	V	V	PROPN	-	142	flat	Peter	PROPN	-	138
 <g/>
 </name>
-)	)	)	PUNCT	_	143	punct	V	PROPN	_	142
-Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	144	list	Peter	PROPN	_	138
+)	)	)	PUNCT	-	143	punct	V	PROPN	-	142
+Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	144	list	Peter	PROPN	-	138
 <g/>
-:	:	:	PUNCT	_	145	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	144
+:	:	:	PUNCT	-	145	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	144
 <name type="PER">
-Julie	Julie	Julie	PROPN	_	146	appos	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	144
-Skovsby	Skovsby	Skovsby	PROPN	_	147	flat	Julie	PROPN	_	146
+Julie	Julie	Julie	PROPN	-	146	appos	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	144
+Skovsby	Skovsby	Skovsby	PROPN	-	147	flat	Julie	PROPN	-	146
 </name>
-(	(	(	PUNCT	_	148	punct	S	PROPN	_	149
+(	(	(	PUNCT	-	148	punct	S	PROPN	-	149
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	149	flat	Julie	PROPN	_	146
+S	S	S	PROPN	-	149	flat	Julie	PROPN	-	146
 <g/>
 </name>
-)	)	)	PUNCT	_	150	punct	S	PROPN	_	149
-Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	151	flat	Julie	PROPN	_	146
+)	)	)	PUNCT	-	150	punct	S	PROPN	-	149
+Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	151	flat	Julie	PROPN	-	146
 af	af	af	ADP	AdpType=Prep	152	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	154
 29	29	29	NUM	NumType=Card	153	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	154
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	154	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	151
 til	til	til	ADP	AdpType=Prep	155	case	beskæftigelsesudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	156
 Beskæftigelsesudvalget	Beskæftigelsesudvalget	beskæftigelsesudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	156	nmod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	154
 <g/>
-:	:	:	PUNCT	_	157	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	144
+:	:	:	PUNCT	-	157	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	144
 Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	158	list	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	144
-blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	159	cop	Ane	PROPN	_	162
+blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	159	cop	Ane	PROPN	-	162
 <g/>
-:	:	:	PUNCT	_	160	punct	Ane	PROPN	_	162
-1	1	1	NUM	NumType=Card	161	nummod	Ane	PROPN	_	162
+:	:	:	PUNCT	-	160	punct	Ane	PROPN	-	162
+1	1	1	NUM	NumType=Card	161	nummod	Ane	PROPN	-	162
 <name type="PER">
-Ane	Ane	Ane	PROPN	_	162	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	158
-Halsboe-Jørgensen	Halsboe-Jørgensen	Halsboe-Jørgensen	PROPN	_	163	flat	Ane	PROPN	_	162
+Ane	Ane	Ane	PROPN	-	162	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	158
+Halsboe-Jørgensen	Halsboe-Jørgensen	Halsboe-Jørgensen	PROPN	-	163	flat	Ane	PROPN	-	162
 </name>
-(	(	(	PUNCT	_	164	punct	S	PROPN	_	165
+(	(	(	PUNCT	-	164	punct	S	PROPN	-	165
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	165	flat	Ane	PROPN	_	162
+S	S	S	PROPN	-	165	flat	Ane	PROPN	-	162
 <g/>
 </name>
-)	)	)	PUNCT	_	166	punct	S	PROPN	_	165
-2	2	2	NUM	NumType=Card	167	nummod	Bjarne	PROPN	_	168
+)	)	)	PUNCT	-	166	punct	S	PROPN	-	165
+2	2	2	NUM	NumType=Card	167	nummod	Bjarne	PROPN	-	168
 <name type="PER">
-Bjarne	Bjarne	Bjarne	PROPN	_	168	list	Ane	PROPN	_	162
-Laustsen	Laustsen	Laustsen	PROPN	_	169	flat	Bjarne	PROPN	_	168
+Bjarne	Bjarne	Bjarne	PROPN	-	168	list	Ane	PROPN	-	162
+Laustsen	Laustsen	Laustsen	PROPN	-	169	flat	Bjarne	PROPN	-	168
 </name>
-(	(	(	PUNCT	_	170	punct	S	PROPN	_	171
+(	(	(	PUNCT	-	170	punct	S	PROPN	-	171
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	171	flat	Bjarne	PROPN	_	168
+S	S	S	PROPN	-	171	flat	Bjarne	PROPN	-	168
 <g/>
 </name>
-)	)	)	PUNCT	_	172	punct	S	PROPN	_	171
-3	3	3	ADJ	NumType=Ord	173	amod	Jens	PROPN	_	174
+)	)	)	PUNCT	-	172	punct	S	PROPN	-	171
+3	3	3	ADJ	NumType=Ord	173	amod	Jens	PROPN	-	174
 <name type="PER">
-Jens	Jens	Jens	PROPN	_	174	list	Bjarne	PROPN	_	168
-Joel	Joel	Joel	PROPN	_	175	flat	Jens	PROPN	_	174
+Jens	Jens	Jens	PROPN	-	174	list	Bjarne	PROPN	-	168
+Joel	Joel	Joel	PROPN	-	175	flat	Jens	PROPN	-	174
 </name>
-(	(	(	PUNCT	_	176	punct	S	PROPN	_	177
+(	(	(	PUNCT	-	176	punct	S	PROPN	-	177
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	177	flat	Jens	PROPN	_	174
+S	S	S	PROPN	-	177	flat	Jens	PROPN	-	174
 <g/>
 </name>
-)	)	)	PUNCT	_	178	punct	S	PROPN	_	177
-4	4	4	NUM	NumType=Card	179	nummod	Jan	PROPN	_	180
+)	)	)	PUNCT	-	178	punct	S	PROPN	-	177
+4	4	4	NUM	NumType=Card	179	nummod	Jan	PROPN	-	180
 <name type="PER">
-Jan	Jan	Jan	PROPN	_	180	list	Jens	PROPN	_	174
-Johansen	Johansen	Johansen	PROPN	_	181	flat	Jan	PROPN	_	180
+Jan	Jan	Jan	PROPN	-	180	list	Jens	PROPN	-	174
+Johansen	Johansen	Johansen	PROPN	-	181	flat	Jan	PROPN	-	180
 </name>
-(	(	(	PUNCT	_	182	punct	S	PROPN	_	183
+(	(	(	PUNCT	-	182	punct	S	PROPN	-	183
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	183	flat	Jan	PROPN	_	180
+S	S	S	PROPN	-	183	flat	Jan	PROPN	-	180
 <g/>
 </name>
-)	)	)	PUNCT	_	184	punct	S	PROPN	_	183
-5	5	5	NUM	NumType=Card	185	nummod	Leif	PROPN	_	186
+)	)	)	PUNCT	-	184	punct	S	PROPN	-	183
+5	5	5	NUM	NumType=Card	185	nummod	Leif	PROPN	-	186
 <name type="PER">
-Leif	Leif	Leif	PROPN	_	186	list	Jan	PROPN	_	180
-Lahn	Lahn	Lahn	PROPN	_	187	flat	Leif	PROPN	_	186
-Jensen	Jensen	Jensen	PROPN	_	188	flat	Leif	PROPN	_	186
+Leif	Leif	Leif	PROPN	-	186	list	Jan	PROPN	-	180
+Lahn	Lahn	Lahn	PROPN	-	187	flat	Leif	PROPN	-	186
+Jensen	Jensen	Jensen	PROPN	-	188	flat	Leif	PROPN	-	186
 </name>
-(	(	(	PUNCT	_	189	punct	S	PROPN	_	190
+(	(	(	PUNCT	-	189	punct	S	PROPN	-	190
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	190	flat	Leif	PROPN	_	186
+S	S	S	PROPN	-	190	flat	Leif	PROPN	-	186
 <g/>
 </name>
-)	)	)	PUNCT	_	191	punct	S	PROPN	_	190
-6	6	6	NUM	NumType=Card	192	nummod	Lennart	PROPN	_	193
+)	)	)	PUNCT	-	191	punct	S	PROPN	-	190
+6	6	6	NUM	NumType=Card	192	nummod	Lennart	PROPN	-	193
 <name type="PER">
-Lennart	Lennart	Lennart	PROPN	_	193	list	S	PROPN	_	190
-Damsbo-Andersen	Damsbo-Andersen	Damsbo-Andersen	PROPN	_	194	flat	Lennart	PROPN	_	193
+Lennart	Lennart	Lennart	PROPN	-	193	list	S	PROPN	-	190
+Damsbo-Andersen	Damsbo-Andersen	Damsbo-Andersen	PROPN	-	194	flat	Lennart	PROPN	-	193
 </name>
-(	(	(	PUNCT	_	195	punct	S	PROPN	_	196
+(	(	(	PUNCT	-	195	punct	S	PROPN	-	196
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	196	flat	Lennart	PROPN	_	193
+S	S	S	PROPN	-	196	flat	Lennart	PROPN	-	193
 <g/>
 </name>
-)	)	)	PUNCT	_	197	punct	S	PROPN	_	196
-7	7	7	NUM	NumType=Card	198	nummod	Pernille	PROPN	_	199
+)	)	)	PUNCT	-	197	punct	S	PROPN	-	196
+7	7	7	NUM	NumType=Card	198	nummod	Pernille	PROPN	-	199
 <name type="PER">
-Pernille	Pernille	Pernille	PROPN	_	199	list	Lennart	PROPN	_	193
-Rosenkrantz-Theil	Rosenkrantz-Theil	Rosenkrantz-Theil	PROPN	_	200	flat	Pernille	PROPN	_	199
+Pernille	Pernille	Pernille	PROPN	-	199	list	Lennart	PROPN	-	193
+Rosenkrantz-Theil	Rosenkrantz-Theil	Rosenkrantz-Theil	PROPN	-	200	flat	Pernille	PROPN	-	199
 </name>
-(	(	(	PUNCT	_	201	punct	S	PROPN	_	202
+(	(	(	PUNCT	-	201	punct	S	PROPN	-	202
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	202	list	Pernille	PROPN	_	199
+S	S	S	PROPN	-	202	list	Pernille	PROPN	-	199
 <g/>
 </name>
-)	)	)	PUNCT	_	203	punct	S	PROPN	_	202
-8	8	8	NUM	NumType=Card	204	nummod	Nadeem	PROPN	_	205
+)	)	)	PUNCT	-	203	punct	S	PROPN	-	202
+8	8	8	NUM	NumType=Card	204	nummod	Nadeem	PROPN	-	205
 <name type="PER">
-Nadeem	Nadeem	Nadeem	PROPN	_	205	list	S	PROPN	_	202
-Farooq	Farooq	Farooq	NOUN	Definite=Ind Gender=Com Number=Sing	206	flat	Nadeem	PROPN	_	205
+Nadeem	Nadeem	Nadeem	PROPN	-	205	list	S	PROPN	-	202
+Farooq	Farooq	Farooq	NOUN	Definite=Ind Gender=Com Number=Sing	206	flat	Nadeem	PROPN	-	205
 </name>
-(	(	(	PUNCT	_	207	punct	RV	PROPN	_	208
+(	(	(	PUNCT	-	207	punct	RV	PROPN	-	208
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	208	flat	Nadeem	PROPN	_	205
+RV	RV	RV	PROPN	-	208	flat	Nadeem	PROPN	-	205
 <g/>
 </name>
-)	)	)	PUNCT	_	209	punct	RV	PROPN	_	208
-9	9	9	NUM	NumType=Card	210	nummod	Andreas	PROPN	_	211
+)	)	)	PUNCT	-	209	punct	RV	PROPN	-	208
+9	9	9	NUM	NumType=Card	210	nummod	Andreas	PROPN	-	211
 <name type="PER">
-Andreas	Andreas	Andreas	PROPN	_	211	list	Nadeem	PROPN	_	205
-Steenberg	Steenberg	Steenberg	PROPN	_	212	flat	Andreas	PROPN	_	211
+Andreas	Andreas	Andreas	PROPN	-	211	list	Nadeem	PROPN	-	205
+Steenberg	Steenberg	Steenberg	PROPN	-	212	flat	Andreas	PROPN	-	211
 </name>
-(	(	(	PUNCT	_	213	punct	RV	PROPN	_	214
+(	(	(	PUNCT	-	213	punct	RV	PROPN	-	214
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	214	flat	Andreas	PROPN	_	211
+RV	RV	RV	PROPN	-	214	flat	Andreas	PROPN	-	211
 <g/>
 </name>
-)	)	)	PUNCT	_	215	punct	RV	PROPN	_	214
-10	10	10	NUM	NumType=Card	216	nummod	Eigil	PROPN	_	217
+)	)	)	PUNCT	-	215	punct	RV	PROPN	-	214
+10	10	10	NUM	NumType=Card	216	nummod	Eigil	PROPN	-	217
 <name type="PER">
-Eigil	Eigil	Eigil	PROPN	_	217	list	Andreas	PROPN	_	211
-Andersen	Andersen	Andersen	PROPN	_	218	flat	Eigil	PROPN	_	217
+Eigil	Eigil	Eigil	PROPN	-	217	list	Andreas	PROPN	-	211
+Andersen	Andersen	Andersen	PROPN	-	218	flat	Eigil	PROPN	-	217
 </name>
-(	(	(	PUNCT	_	219	punct	SF	PROPN	_	220
+(	(	(	PUNCT	-	219	punct	SF	PROPN	-	220
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	220	list	Eigil	PROPN	_	217
+SF	SF	SF	PROPN	-	220	list	Eigil	PROPN	-	217
 <g/>
 </name>
-)	)	)	PUNCT	_	221	punct	SF	PROPN	_	220
-11	11	11	NUM	NumType=Card	222	nummod	Özlem	PROPN	_	223
+)	)	)	PUNCT	-	221	punct	SF	PROPN	-	220
+11	11	11	NUM	NumType=Card	222	nummod	Özlem	PROPN	-	223
 <name type="PER">
-Özlem	Özlem	Özlem	PROPN	_	223	list	SF	PROPN	_	220
-Sara	Sara	Sara	PROPN	_	224	flat	Özlem	PROPN	_	223
-Cekic	Cekic	Cekic	PROPN	_	225	flat	Özlem	PROPN	_	223
+Özlem	Özlem	Özlem	PROPN	-	223	list	SF	PROPN	-	220
+Sara	Sara	Sara	PROPN	-	224	flat	Özlem	PROPN	-	223
+Cekic	Cekic	Cekic	PROPN	-	225	flat	Özlem	PROPN	-	223
 </name>
-(	(	(	PUNCT	_	226	punct	SF	PROPN	_	227
+(	(	(	PUNCT	-	226	punct	SF	PROPN	-	227
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	227	list	Özlem	PROPN	_	223
+SF	SF	SF	PROPN	-	227	list	Özlem	PROPN	-	223
 <g/>
 </name>
-)	)	)	PUNCT	_	228	punct	SF	PROPN	_	227
-12	12	12	NUM	NumType=Card	229	nummod	Trine	PROPN	_	230
+)	)	)	PUNCT	-	228	punct	SF	PROPN	-	227
+12	12	12	NUM	NumType=Card	229	nummod	Trine	PROPN	-	230
 <name type="PER">
-Trine	Trine	Trine	PROPN	_	230	list	SF	PROPN	_	227
-Mach	Mach	Machen	PROPN	_	231	flat	Trine	PROPN	_	230
+Trine	Trine	Trine	PROPN	-	230	list	SF	PROPN	-	227
+Mach	Mach	Machen	PROPN	-	231	flat	Trine	PROPN	-	230
 </name>
-(	(	(	PUNCT	_	232	punct	SF	PROPN	_	233
+(	(	(	PUNCT	-	232	punct	SF	PROPN	-	233
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	233	list	Trine	PROPN	_	230
+SF	SF	SF	PROPN	-	233	list	Trine	PROPN	-	230
 <g/>
 </name>
-)	)	)	PUNCT	_	234	punct	SF	PROPN	_	233
-13	13	13	NUM	NumType=Card	235	nummod	Finn	PROPN	_	236
+)	)	)	PUNCT	-	234	punct	SF	PROPN	-	233
+13	13	13	NUM	NumType=Card	235	nummod	Finn	PROPN	-	236
 <name type="PER">
-Finn	Finn	Finn	PROPN	_	236	list	SF	PROPN	_	233
-Sørensen	Sørensen	Sørensen	PROPN	_	237	flat	Finn	PROPN	_	236
+Finn	Finn	Finn	PROPN	-	236	list	SF	PROPN	-	233
+Sørensen	Sørensen	Sørensen	PROPN	-	237	flat	Finn	PROPN	-	236
 </name>
-(	(	(	PUNCT	_	238	punct	EL	PROPN	_	239
+(	(	(	PUNCT	-	238	punct	EL	PROPN	-	239
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	239	flat	Finn	PROPN	_	236
+EL	EL	EL	PROPN	-	239	flat	Finn	PROPN	-	236
 <g/>
 </name>
-)	)	)	PUNCT	_	240	punct	EL	PROPN	_	239
-14	14	14	NUM	NumType=Card	241	nummod	Christian	PROPN	_	242
+)	)	)	PUNCT	-	240	punct	EL	PROPN	-	239
+14	14	14	NUM	NumType=Card	241	nummod	Christian	PROPN	-	242
 <name type="PER">
-Christian	Christian	Christian	PROPN	_	242	list	Finn	PROPN	_	236
-Juhl	Juhl	Juhl	PROPN	_	243	flat	Christian	PROPN	_	242
+Christian	Christian	Christian	PROPN	-	242	list	Finn	PROPN	-	236
+Juhl	Juhl	Juhl	PROPN	-	243	flat	Christian	PROPN	-	242
 </name>
-(	(	(	PUNCT	_	244	punct	EL	PROPN	_	245
+(	(	(	PUNCT	-	244	punct	EL	PROPN	-	245
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	245	flat	Christian	PROPN	_	242
+EL	EL	EL	PROPN	-	245	flat	Christian	PROPN	-	242
 <g/>
 </name>
-)	)	)	PUNCT	_	246	punct	EL	PROPN	_	245
-15	15	15	NUM	NumType=Card	247	nummod	Jørgen	PROPN	_	248
+)	)	)	PUNCT	-	246	punct	EL	PROPN	-	245
+15	15	15	NUM	NumType=Card	247	nummod	Jørgen	PROPN	-	248
 <name type="PER">
-Jørgen	Jørgen	Jørgen	PROPN	_	248	list	Christian	PROPN	_	242
-Arbo-Bæhr	Arbo-Bæhr	Arbo-Bæhr	PROPN	_	249	flat	Jørgen	PROPN	_	248
+Jørgen	Jørgen	Jørgen	PROPN	-	248	list	Christian	PROPN	-	242
+Arbo-Bæhr	Arbo-Bæhr	Arbo-Bæhr	PROPN	-	249	flat	Jørgen	PROPN	-	248
 </name>
-(	(	(	PUNCT	_	250	punct	EL	PROPN	_	251
+(	(	(	PUNCT	-	250	punct	EL	PROPN	-	251
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	251	flat	Jørgen	PROPN	_	248
+EL	EL	EL	PROPN	-	251	flat	Jørgen	PROPN	-	248
 <g/>
 </name>
-)	)	)	PUNCT	_	252	punct	EL	PROPN	_	251
-16	16	16	NUM	NumType=Card	253	nummod	Hans	PROPN	_	254
+)	)	)	PUNCT	-	252	punct	EL	PROPN	-	251
+16	16	16	NUM	NumType=Card	253	nummod	Hans	PROPN	-	254
 <name type="PER">
-Hans	Hans	Hans	PROPN	_	254	list	Jørgen	PROPN	_	248
-Andersen	Andersen	Andersen	PROPN	_	255	flat	Hans	PROPN	_	254
+Hans	Hans	Hans	PROPN	-	254	list	Jørgen	PROPN	-	248
+Andersen	Andersen	Andersen	PROPN	-	255	flat	Hans	PROPN	-	254
 </name>
-(	(	(	PUNCT	_	256	punct	V	PROPN	_	257
+(	(	(	PUNCT	-	256	punct	V	PROPN	-	257
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	257	flat	Hans	PROPN	_	254
+V	V	V	PROPN	-	257	flat	Hans	PROPN	-	254
 <g/>
 </name>
-)	)	)	PUNCT	_	258	punct	V	PROPN	_	257
-17	17	17	NUM	NumType=Card	259	nummod	Louise	PROPN	_	260
+)	)	)	PUNCT	-	258	punct	V	PROPN	-	257
+17	17	17	NUM	NumType=Card	259	nummod	Louise	PROPN	-	260
 <name type="PER">
-Louise	Louise	Louise	PROPN	_	260	list	V	PROPN	_	257
-Schack	Schack	Schack	PROPN	_	261	flat	Louise	PROPN	_	260
-Elholm	Elholm	Elholm	PROPN	_	262	flat	Louise	PROPN	_	260
+Louise	Louise	Louise	PROPN	-	260	list	V	PROPN	-	257
+Schack	Schack	Schack	PROPN	-	261	flat	Louise	PROPN	-	260
+Elholm	Elholm	Elholm	PROPN	-	262	flat	Louise	PROPN	-	260
 </name>
-(	(	(	PUNCT	_	263	punct	V	PROPN	_	264
+(	(	(	PUNCT	-	263	punct	V	PROPN	-	264
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	264	list	Louise	PROPN	_	260
+V	V	V	PROPN	-	264	list	Louise	PROPN	-	260
 <g/>
 </name>
-)	)	)	PUNCT	_	265	punct	V	PROPN	_	264
-18	18	18	NUM	NumType=Card	266	nummod	Claus	PROPN	_	267
+)	)	)	PUNCT	-	265	punct	V	PROPN	-	264
+18	18	18	NUM	NumType=Card	266	nummod	Claus	PROPN	-	267
 <name type="PER">
-Claus	Claus	Claus	PROPN	_	267	list	V	PROPN	_	264
-Hjort	Hjort	Hjort	PROPN	_	268	flat	Claus	PROPN	_	267
-Frederiksen	Frederiksen	Frederiksen	PROPN	_	269	flat	Claus	PROPN	_	267
+Claus	Claus	Claus	PROPN	-	267	list	V	PROPN	-	264
+Hjort	Hjort	Hjort	PROPN	-	268	flat	Claus	PROPN	-	267
+Frederiksen	Frederiksen	Frederiksen	PROPN	-	269	flat	Claus	PROPN	-	267
 </name>
-(	(	(	PUNCT	_	270	punct	V	PROPN	_	271
+(	(	(	PUNCT	-	270	punct	V	PROPN	-	271
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	271	flat	Claus	PROPN	_	267
+V	V	V	PROPN	-	271	flat	Claus	PROPN	-	267
 <g/>
 </name>
-)	)	)	PUNCT	_	272	punct	V	PROPN	_	271
-19	19	19	NUM	NumType=Card	273	nummod	Jakob	PROPN	_	274
+)	)	)	PUNCT	-	272	punct	V	PROPN	-	271
+19	19	19	NUM	NumType=Card	273	nummod	Jakob	PROPN	-	274
 <name type="PER">
-Jakob	Jakob	Jakob	PROPN	_	274	list	Claus	PROPN	_	267
-Engel-Schmidt	Engel-Schmidt	Engel-Schmidt	X	_	275	flat	Jakob	PROPN	_	274
+Jakob	Jakob	Jakob	PROPN	-	274	list	Claus	PROPN	-	267
+Engel-Schmidt	Engel-Schmidt	Engel-Schmidt	X	-	275	flat	Jakob	PROPN	-	274
 </name>
-(	(	(	PUNCT	_	276	punct	V	PROPN	_	277
+(	(	(	PUNCT	-	276	punct	V	PROPN	-	277
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	277	flat	Jakob	PROPN	_	274
+V	V	V	PROPN	-	277	flat	Jakob	PROPN	-	274
 <g/>
 </name>
-)	)	)	PUNCT	_	278	punct	V	PROPN	_	277
-20	20	20	NUM	NumType=Card	279	nummod	Peter	PROPN	_	280
+)	)	)	PUNCT	-	278	punct	V	PROPN	-	277
+20	20	20	NUM	NumType=Card	279	nummod	Peter	PROPN	-	280
 <name type="PER">
-Peter	Peter	Peter	PROPN	_	280	list	Jakob	PROPN	_	274
-Juel	Juel	Juel	PROPN	_	281	flat	Peter	PROPN	_	280
-Jensen	Jensen	Jensen	PROPN	_	282	flat	Peter	PROPN	_	280
+Peter	Peter	Peter	PROPN	-	280	list	Jakob	PROPN	-	274
+Juel	Juel	Juel	PROPN	-	281	flat	Peter	PROPN	-	280
+Jensen	Jensen	Jensen	PROPN	-	282	flat	Peter	PROPN	-	280
 </name>
-(	(	(	PUNCT	_	283	punct	V	PROPN	_	284
+(	(	(	PUNCT	-	283	punct	V	PROPN	-	284
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	284	flat	Peter	PROPN	_	280
+V	V	V	PROPN	-	284	flat	Peter	PROPN	-	280
 <g/>
 </name>
-)	)	)	PUNCT	_	285	punct	V	PROPN	_	284
-21	21	21	NUM	NumType=Card	286	nummod	Peter	PROPN	_	287
+)	)	)	PUNCT	-	285	punct	V	PROPN	-	284
+21	21	21	NUM	NumType=Card	286	nummod	Peter	PROPN	-	287
 <name type="PER">
-Peter	Peter	Peter	PROPN	_	287	list	Peter	PROPN	_	280
-Christensen	Christensen	Christensen	PROPN	_	288	flat	Peter	PROPN	_	287
+Peter	Peter	Peter	PROPN	-	287	list	Peter	PROPN	-	280
+Christensen	Christensen	Christensen	PROPN	-	288	flat	Peter	PROPN	-	287
 </name>
-(	(	(	PUNCT	_	289	punct	V	PROPN	_	290
+(	(	(	PUNCT	-	289	punct	V	PROPN	-	290
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	290	flat	Peter	PROPN	_	287
+V	V	V	PROPN	-	290	flat	Peter	PROPN	-	287
 <g/>
 </name>
-)	)	)	PUNCT	_	291	punct	V	PROPN	_	290
-22	22	22	NUM	NumType=Card	292	nummod	Jens	PROPN	_	293
+)	)	)	PUNCT	-	291	punct	V	PROPN	-	290
+22	22	22	NUM	NumType=Card	292	nummod	Jens	PROPN	-	293
 <name type="PER">
-Jens	Jens	Jens	PROPN	_	293	list	Peter	PROPN	_	287
-Ejner	Ejner	Ejner	PROPN	_	294	flat	Jens	PROPN	_	293
-Christensen	Christensen	Christensen	PROPN	_	295	flat	Jens	PROPN	_	293
+Jens	Jens	Jens	PROPN	-	293	list	Peter	PROPN	-	287
+Ejner	Ejner	Ejner	PROPN	-	294	flat	Jens	PROPN	-	293
+Christensen	Christensen	Christensen	PROPN	-	295	flat	Jens	PROPN	-	293
 </name>
-(	(	(	PUNCT	_	296	punct	V	PROPN	_	297
+(	(	(	PUNCT	-	296	punct	V	PROPN	-	297
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	297	flat	Jens	PROPN	_	293
+V	V	V	PROPN	-	297	flat	Jens	PROPN	-	293
 <g/>
 </name>
-)	)	)	PUNCT	_	298	punct	V	PROPN	_	297
-23	23	23	NUM	NumType=Card	299	nummod	Fatma	PROPN	_	300
+)	)	)	PUNCT	-	298	punct	V	PROPN	-	297
+23	23	23	NUM	NumType=Card	299	nummod	Fatma	PROPN	-	300
 <name type="PER">
-Fatma	Fatma	Fatma	PROPN	_	300	list	Jens	PROPN	_	293
-Øktem	Øktem	Øktem	PROPN	_	301	flat	Fatma	PROPN	_	300
+Fatma	Fatma	Fatma	PROPN	-	300	list	Jens	PROPN	-	293
+Øktem	Øktem	Øktem	PROPN	-	301	flat	Fatma	PROPN	-	300
 </name>
-(	(	(	PUNCT	_	302	punct	V	PROPN	_	303
+(	(	(	PUNCT	-	302	punct	V	PROPN	-	303
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	303	flat	Fatma	PROPN	_	300
+V	V	V	PROPN	-	303	flat	Fatma	PROPN	-	300
 <g/>
 </name>
-)	)	)	PUNCT	_	304	punct	V	PROPN	_	303
-24	24	24	NUM	NumType=Card	305	nummod	Bent	PROPN	_	306
+)	)	)	PUNCT	-	304	punct	V	PROPN	-	303
+24	24	24	NUM	NumType=Card	305	nummod	Bent	PROPN	-	306
 <name type="PER">
-Bent	Bent	Bent	PROPN	_	306	list	Fatma	PROPN	_	300
-Bøgsted	Bøgsted	Bøgsted	PROPN	_	307	flat	Bent	PROPN	_	306
+Bent	Bent	Bent	PROPN	-	306	list	Fatma	PROPN	-	300
+Bøgsted	Bøgsted	Bøgsted	PROPN	-	307	flat	Bent	PROPN	-	306
 </name>
-(	(	(	PUNCT	_	308	punct	DF	PROPN	_	309
+(	(	(	PUNCT	-	308	punct	DF	PROPN	-	309
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	309	flat	Bent	PROPN	_	306
+DF	DF	DF	PROPN	-	309	flat	Bent	PROPN	-	306
 <g/>
 </name>
-)	)	)	PUNCT	_	310	punct	DF	PROPN	_	309
-25	25	25	NUM	NumType=Card	311	nummod	Jens	PROPN	_	312
+)	)	)	PUNCT	-	310	punct	DF	PROPN	-	309
+25	25	25	NUM	NumType=Card	311	nummod	Jens	PROPN	-	312
 <name type="PER">
-Jens	Jens	Jens	PROPN	_	312	list	Bent	PROPN	_	306
-Henrik	Henrik	Henrik	PROPN	_	313	flat	Jens	PROPN	_	312
-Thulesen	Thulesen	Thulesen	PROPN	_	314	flat	Jens	PROPN	_	312
-Dahl	Dahl	Dahl	PROPN	_	315	flat	Jens	PROPN	_	312
+Jens	Jens	Jens	PROPN	-	312	list	Bent	PROPN	-	306
+Henrik	Henrik	Henrik	PROPN	-	313	flat	Jens	PROPN	-	312
+Thulesen	Thulesen	Thulesen	PROPN	-	314	flat	Jens	PROPN	-	312
+Dahl	Dahl	Dahl	PROPN	-	315	flat	Jens	PROPN	-	312
 </name>
-(	(	(	PUNCT	_	316	punct	DF	PROPN	_	317
+(	(	(	PUNCT	-	316	punct	DF	PROPN	-	317
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	317	flat	Jens	PROPN	_	312
+DF	DF	DF	PROPN	-	317	flat	Jens	PROPN	-	312
 <g/>
 </name>
-)	)	)	PUNCT	_	318	punct	DF	PROPN	_	317
-26	26	26	NUM	NumType=Card	319	nummod	René	PROPN	_	320
+)	)	)	PUNCT	-	318	punct	DF	PROPN	-	317
+26	26	26	NUM	NumType=Card	319	nummod	René	PROPN	-	320
 <name type="PER">
-René	René	René	PROPN	_	320	list	Jens	PROPN	_	312
-Christensen	Christensen	Christensen	PROPN	_	321	flat	René	PROPN	_	320
+René	René	René	PROPN	-	320	list	Jens	PROPN	-	312
+Christensen	Christensen	Christensen	PROPN	-	321	flat	René	PROPN	-	320
 </name>
-(	(	(	PUNCT	_	322	punct	DF	PROPN	_	323
+(	(	(	PUNCT	-	322	punct	DF	PROPN	-	323
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	323	flat	René	PROPN	_	320
+DF	DF	DF	PROPN	-	323	flat	René	PROPN	-	320
 <g/>
 </name>
-)	)	)	PUNCT	_	324	punct	DF	PROPN	_	323
-27	27	27	NUM	NumType=Card	325	nummod	Pia	PROPN	_	326
+)	)	)	PUNCT	-	324	punct	DF	PROPN	-	323
+27	27	27	NUM	NumType=Card	325	nummod	Pia	PROPN	-	326
 <name type="PER">
-Pia	Pia	Pia	PROPN	_	326	list	René	PROPN	_	320
-Adelsteen	Adelsteen	Adelsteen	PROPN	_	327	flat	Pia	PROPN	_	326
+Pia	Pia	Pia	PROPN	-	326	list	René	PROPN	-	320
+Adelsteen	Adelsteen	Adelsteen	PROPN	-	327	flat	Pia	PROPN	-	326
 </name>
-(	(	(	PUNCT	_	328	punct	DF	PROPN	_	329
+(	(	(	PUNCT	-	328	punct	DF	PROPN	-	329
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	329	flat	Pia	PROPN	_	326
+DF	DF	DF	PROPN	-	329	flat	Pia	PROPN	-	326
 <g/>
 </name>
-)	)	)	PUNCT	_	330	punct	DF	PROPN	_	329
-28	28	28	NUM	NumType=Card	331	nummod	Joachim	PROPN	_	332
+)	)	)	PUNCT	-	330	punct	DF	PROPN	-	329
+28	28	28	NUM	NumType=Card	331	nummod	Joachim	PROPN	-	332
 <name type="PER">
-Joachim	Joachim	Joachim	PROPN	_	332	list	Pia	PROPN	_	326
-B.	B.	B.	PROPN	_	333	flat	Pia	PROPN	_	326
-Olsen	Olsen	Olsen	PROPN	_	334	flat	B.	PROPN	_	333
+Joachim	Joachim	Joachim	PROPN	-	332	list	Pia	PROPN	-	326
+B.	B.	B.	PROPN	-	333	flat	Pia	PROPN	-	326
+Olsen	Olsen	Olsen	PROPN	-	334	flat	B.	PROPN	-	333
 </name>
-(	(	(	PUNCT	_	335	punct	LA	PROPN	_	336
+(	(	(	PUNCT	-	335	punct	LA	PROPN	-	336
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	336	flat	Pia	PROPN	_	326
+LA	LA	LA	PROPN	-	336	flat	Pia	PROPN	-	326
 <g/>
 </name>
-)	)	)	PUNCT	_	337	punct	LA	PROPN	_	336
-29	29	29	NUM	NumType=Card	338	nummod	Mai	PROPN	_	339
+)	)	)	PUNCT	-	337	punct	LA	PROPN	-	336
+29	29	29	NUM	NumType=Card	338	nummod	Mai	PROPN	-	339
 <name type="PER">
-Mai	Mai	Mai	PROPN	_	339	list	Pia	PROPN	_	326
-Mercado	Mercado	Mercado	PROPN	_	340	flat	Mai	PROPN	_	339
+Mai	Mai	Mai	PROPN	-	339	list	Pia	PROPN	-	326
+Mercado	Mercado	Mercado	PROPN	-	340	flat	Mai	PROPN	-	339
 </name>
-(	(	(	PUNCT	_	341	punct	KF	PROPN	_	342
+(	(	(	PUNCT	-	341	punct	KF	PROPN	-	342
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	342	flat	Mai	PROPN	_	339
+KF	KF	KF	PROPN	-	342	flat	Mai	PROPN	-	339
 <g/>
 </name>
-)	)	)	PUNCT	_	343	punct	KF	PROPN	_	342
-Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	344	list	Mai	PROPN	_	339
+)	)	)	PUNCT	-	343	punct	KF	PROPN	-	342
+Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	344	list	Mai	PROPN	-	339
 <g/>
-:	:	:	PUNCT	_	345	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	344
+:	:	:	PUNCT	-	345	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	344
 <name type="PER">
-Pernille	Pernille	Pernille	PROPN	_	346	appos	formand	NOUN	Definite=Ind Gender=Com Number=Sing	344
-Rosenkrantz-Theil	Rosenkrantz-Theil	Rosenkrantz-Theil	PROPN	_	347	flat	Pernille	PROPN	_	346
+Pernille	Pernille	Pernille	PROPN	-	346	appos	formand	NOUN	Definite=Ind Gender=Com Number=Sing	344
+Rosenkrantz-Theil	Rosenkrantz-Theil	Rosenkrantz-Theil	PROPN	-	347	flat	Pernille	PROPN	-	346
 </name>
-(	(	(	PUNCT	_	348	punct	S	PROPN	_	349
+(	(	(	PUNCT	-	348	punct	S	PROPN	-	349
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	349	flat	Pernille	PROPN	_	346
+S	S	S	PROPN	-	349	flat	Pernille	PROPN	-	346
 <g/>
 </name>
-)	)	)	PUNCT	_	350	punct	S	PROPN	_	349
-Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	351	flat	S	PROPN	_	349
+)	)	)	PUNCT	-	350	punct	S	PROPN	-	349
+Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	351	flat	S	PROPN	-	349
 <g/>
-:	:	:	PUNCT	_	352	punct	S	PROPN	_	349
+:	:	:	PUNCT	-	352	punct	S	PROPN	-	349
 <name type="PER">
-Bent	Bent	Bent	PROPN	_	353	flat	S	PROPN	_	349
-Bøgsted	Bøgsted	Bøgsted	PROPN	_	354	flat	Bent	PROPN	_	353
+Bent	Bent	Bent	PROPN	-	353	flat	S	PROPN	-	349
+Bøgsted	Bøgsted	Bøgsted	PROPN	-	354	flat	Bent	PROPN	-	353
 </name>
-(	(	(	PUNCT	_	355	punct	S	PROPN	_	349
+(	(	(	PUNCT	-	355	punct	S	PROPN	-	349
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	356	flat	S	PROPN	_	349
+DF	DF	DF	PROPN	-	356	flat	S	PROPN	-	349
 <g/>
 </name>
-)	)	)	PUNCT	_	357	punct	S	PROPN	_	349
-Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	358	flat	Pernille	PROPN	_	346
+)	)	)	PUNCT	-	357	punct	S	PROPN	-	349
+Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	358	flat	Pernille	PROPN	-	346
 af	af	af	ADP	AdpType=Prep	359	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	361
 29	29	29	NUM	NumType=Card	360	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	361
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	361	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	358
-til	til	til	ADP	AdpType=Prep	362	case	by-	X	_	363
-By-	By-	by-	X	_	363	nmod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	361
-og	og	og	CCONJ	_	364	cc	boligudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	365
-Boligudvalget	Boligudvalget	boligudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	365	conj	by-	X	_	363
+til	til	til	ADP	AdpType=Prep	362	case	by-	X	-	363
+By-	By-	by-	X	-	363	nmod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	361
+og	og	og	CCONJ	-	364	cc	boligudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	365
+Boligudvalget	Boligudvalget	boligudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	365	conj	by-	X	-	363
 <g/>
-:	:	:	PUNCT	_	366	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	344
+:	:	:	PUNCT	-	366	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	344
 Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	367	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	344
-blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	368	cop	Bjarne	PROPN	_	371
+blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	368	cop	Bjarne	PROPN	-	371
 <g/>
-:	:	:	PUNCT	_	369	punct	Bjarne	PROPN	_	371
-1	1	1	NUM	NumType=Card	370	nummod	Bjarne	PROPN	_	371
+:	:	:	PUNCT	-	369	punct	Bjarne	PROPN	-	371
+1	1	1	NUM	NumType=Card	370	nummod	Bjarne	PROPN	-	371
 <name type="PER">
-Bjarne	Bjarne	Bjarne	PROPN	_	371	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	367
-Laustsen	Laustsen	Laustsen	PROPN	_	372	flat	Bjarne	PROPN	_	371
+Bjarne	Bjarne	Bjarne	PROPN	-	371	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	367
+Laustsen	Laustsen	Laustsen	PROPN	-	372	flat	Bjarne	PROPN	-	371
 </name>
-(	(	(	PUNCT	_	373	punct	S	PROPN	_	374
+(	(	(	PUNCT	-	373	punct	S	PROPN	-	374
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	374	flat	Bjarne	PROPN	_	371
+S	S	S	PROPN	-	374	flat	Bjarne	PROPN	-	371
 <g/>
 </name>
-)	)	)	PUNCT	_	375	punct	S	PROPN	_	374
-2	2	2	NUM	NumType=Card	376	nummod	Jan	PROPN	_	377
+)	)	)	PUNCT	-	375	punct	S	PROPN	-	374
+2	2	2	NUM	NumType=Card	376	nummod	Jan	PROPN	-	377
 <name type="PER">
-Jan	Jan	Jan	PROPN	_	377	list	Bjarne	PROPN	_	371
-Johansen	Johansen	Johansen	PROPN	_	378	flat	Jan	PROPN	_	377
+Jan	Jan	Jan	PROPN	-	377	list	Bjarne	PROPN	-	371
+Johansen	Johansen	Johansen	PROPN	-	378	flat	Jan	PROPN	-	377
 </name>
-(	(	(	PUNCT	_	379	punct	S	PROPN	_	380
+(	(	(	PUNCT	-	379	punct	S	PROPN	-	380
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	380	flat	Jan	PROPN	_	377
+S	S	S	PROPN	-	380	flat	Jan	PROPN	-	377
 <g/>
 </name>
-)	)	)	PUNCT	_	381	punct	S	PROPN	_	380
-3	3	3	ADJ	NumType=Ord	382	amod	Jens	PROPN	_	383
+)	)	)	PUNCT	-	381	punct	S	PROPN	-	380
+3	3	3	ADJ	NumType=Ord	382	amod	Jens	PROPN	-	383
 <name type="PER">
-Jens	Jens	Jens	PROPN	_	383	list	Jan	PROPN	_	377
-Joel	Joel	Joel	PROPN	_	384	flat	Jens	PROPN	_	383
+Jens	Jens	Jens	PROPN	-	383	list	Jan	PROPN	-	377
+Joel	Joel	Joel	PROPN	-	384	flat	Jens	PROPN	-	383
 </name>
-(	(	(	PUNCT	_	385	punct	S	PROPN	_	386
+(	(	(	PUNCT	-	385	punct	S	PROPN	-	386
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	386	flat	Jens	PROPN	_	383
+S	S	S	PROPN	-	386	flat	Jens	PROPN	-	383
 <g/>
 </name>
-)	)	)	PUNCT	_	387	punct	S	PROPN	_	386
-4	4	4	NUM	NumType=Card	388	nummod	Mette	PROPN	_	389
+)	)	)	PUNCT	-	387	punct	S	PROPN	-	386
+4	4	4	NUM	NumType=Card	388	nummod	Mette	PROPN	-	389
 <name type="PER">
-Mette	Mette	Mette	PROPN	_	389	list	Jens	PROPN	_	383
-Reissmann	Reissmann	Reissmann	PROPN	_	390	flat	Mette	PROPN	_	389
+Mette	Mette	Mette	PROPN	-	389	list	Jens	PROPN	-	383
+Reissmann	Reissmann	Reissmann	PROPN	-	390	flat	Mette	PROPN	-	389
 </name>
-(	(	(	PUNCT	_	391	punct	S	PROPN	_	392
+(	(	(	PUNCT	-	391	punct	S	PROPN	-	392
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	392	flat	Mette	PROPN	_	389
+S	S	S	PROPN	-	392	flat	Mette	PROPN	-	389
 <g/>
 </name>
-)	)	)	PUNCT	_	393	punct	S	PROPN	_	392
-5	5	5	NUM	NumType=Card	394	nummod	Simon	PROPN	_	395
+)	)	)	PUNCT	-	393	punct	S	PROPN	-	392
+5	5	5	NUM	NumType=Card	394	nummod	Simon	PROPN	-	395
 <name type="PER">
-Simon	Simon	Simon	PROPN	_	395	list	Mette	PROPN	_	389
-Kollerup	Kollerup	Kollerup	PROPN	_	396	flat	Simon	PROPN	_	395
+Simon	Simon	Simon	PROPN	-	395	list	Mette	PROPN	-	389
+Kollerup	Kollerup	Kollerup	PROPN	-	396	flat	Simon	PROPN	-	395
 </name>
-(	(	(	PUNCT	_	397	punct	S	PROPN	_	398
+(	(	(	PUNCT	-	397	punct	S	PROPN	-	398
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	398	flat	Simon	PROPN	_	395
+S	S	S	PROPN	-	398	flat	Simon	PROPN	-	395
 <g/>
 </name>
-)	)	)	PUNCT	_	399	punct	S	PROPN	_	398
-6	6	6	NUM	NumType=Card	400	nummod	Orla	PROPN	_	401
+)	)	)	PUNCT	-	399	punct	S	PROPN	-	398
+6	6	6	NUM	NumType=Card	400	nummod	Orla	PROPN	-	401
 <name type="PER">
-Orla	Orla	Orla	PROPN	_	401	list	Simon	PROPN	_	395
-Hav	Hav	Hav	PROPN	_	402	flat	Orla	PROPN	_	401
+Orla	Orla	Orla	PROPN	-	401	list	Simon	PROPN	-	395
+Hav	Hav	Hav	PROPN	-	402	flat	Orla	PROPN	-	401
 </name>
-(	(	(	PUNCT	_	403	punct	S	PROPN	_	404
+(	(	(	PUNCT	-	403	punct	S	PROPN	-	404
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	404	list	Orla	PROPN	_	401
+S	S	S	PROPN	-	404	list	Orla	PROPN	-	401
 <g/>
 </name>
-)	)	)	PUNCT	_	405	punct	S	PROPN	_	404
-7	7	7	NUM	NumType=Card	406	nummod	Thomas	PROPN	_	407
+)	)	)	PUNCT	-	405	punct	S	PROPN	-	404
+7	7	7	NUM	NumType=Card	406	nummod	Thomas	PROPN	-	407
 <name type="PER">
-Thomas	Thomas	Thomas	PROPN	_	407	list	S	PROPN	_	404
-Jensen	Jensen	Jensen	PROPN	_	408	flat	Thomas	PROPN	_	407
+Thomas	Thomas	Thomas	PROPN	-	407	list	S	PROPN	-	404
+Jensen	Jensen	Jensen	PROPN	-	408	flat	Thomas	PROPN	-	407
 </name>
-(	(	(	PUNCT	_	409	punct	S	PROPN	_	410
+(	(	(	PUNCT	-	409	punct	S	PROPN	-	410
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	410	flat	Thomas	PROPN	_	407
+S	S	S	PROPN	-	410	flat	Thomas	PROPN	-	407
 <g/>
 </name>
-)	)	)	PUNCT	_	411	punct	S	PROPN	_	410
-8	8	8	NUM	NumType=Card	412	nummod	Liv	PROPN	_	413
-Liv	Liv	Liv	PROPN	_	413	list	Thomas	PROPN	_	407
+)	)	)	PUNCT	-	411	punct	S	PROPN	-	410
+8	8	8	NUM	NumType=Card	412	nummod	Liv	PROPN	-	413
+Liv	Liv	Liv	PROPN	-	413	list	Thomas	PROPN	-	407
 <name type="PER">
-Holm	Holm	Holm	PROPN	_	414	flat	Liv	PROPN	_	413
-Andersen	Andersen	Andersen	PROPN	_	415	flat	Liv	PROPN	_	413
+Holm	Holm	Holm	PROPN	-	414	flat	Liv	PROPN	-	413
+Andersen	Andersen	Andersen	PROPN	-	415	flat	Liv	PROPN	-	413
 </name>
-(	(	(	PUNCT	_	416	punct	RV	PROPN	_	417
+(	(	(	PUNCT	-	416	punct	RV	PROPN	-	417
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	417	flat	Liv	PROPN	_	413
+RV	RV	RV	PROPN	-	417	flat	Liv	PROPN	-	413
 <g/>
 </name>
-)	)	)	PUNCT	_	418	punct	RV	PROPN	_	417
-9	9	9	NUM	NumType=Card	419	nummod	Lone	PROPN	_	420
+)	)	)	PUNCT	-	418	punct	RV	PROPN	-	417
+9	9	9	NUM	NumType=Card	419	nummod	Lone	PROPN	-	420
 <name type="PER">
-Lone	Lone	Lone	PROPN	_	420	list	Thomas	PROPN	_	407
-Loklindt	Loklindt	Loklindt	PROPN	_	421	flat	Lone	PROPN	_	420
+Lone	Lone	Lone	PROPN	-	420	list	Thomas	PROPN	-	407
+Loklindt	Loklindt	Loklindt	PROPN	-	421	flat	Lone	PROPN	-	420
 </name>
-(	(	(	PUNCT	_	422	punct	RV	PROPN	_	423
+(	(	(	PUNCT	-	422	punct	RV	PROPN	-	423
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	423	flat	Lone	PROPN	_	420
+RV	RV	RV	PROPN	-	423	flat	Lone	PROPN	-	420
 <g/>
 </name>
-)	)	)	PUNCT	_	424	punct	RV	PROPN	_	423
-10	10	10	NUM	NumType=Card	425	nummod	Ida	PROPN	_	426
+)	)	)	PUNCT	-	424	punct	RV	PROPN	-	423
+10	10	10	NUM	NumType=Card	425	nummod	Ida	PROPN	-	426
 <name type="PER">
-Ida	Ida	Ida	PROPN	_	426	list	Lone	PROPN	_	420
-Auken	Auken	Auken	PROPN	_	427	flat	Ida	PROPN	_	426
+Ida	Ida	Ida	PROPN	-	426	list	Lone	PROPN	-	420
+Auken	Auken	Auken	PROPN	-	427	flat	Ida	PROPN	-	426
 </name>
-(	(	(	PUNCT	_	428	punct	RV	PROPN	_	429
+(	(	(	PUNCT	-	428	punct	RV	PROPN	-	429
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	429	flat	Ida	PROPN	_	426
+RV	RV	RV	PROPN	-	429	flat	Ida	PROPN	-	426
 <g/>
 </name>
-)	)	)	PUNCT	_	430	punct	RV	PROPN	_	429
-11	11	11	NUM	NumType=Card	431	nummod	Eigil	PROPN	_	432
+)	)	)	PUNCT	-	430	punct	RV	PROPN	-	429
+11	11	11	NUM	NumType=Card	431	nummod	Eigil	PROPN	-	432
 <name type="PER">
-Eigil	Eigil	Eigil	PROPN	_	432	list	Ida	PROPN	_	426
-Andersen	Andersen	Andersen	PROPN	_	433	flat	Eigil	PROPN	_	432
+Eigil	Eigil	Eigil	PROPN	-	432	list	Ida	PROPN	-	426
+Andersen	Andersen	Andersen	PROPN	-	433	flat	Eigil	PROPN	-	432
 </name>
-(	(	(	PUNCT	_	434	punct	SF	PROPN	_	435
+(	(	(	PUNCT	-	434	punct	SF	PROPN	-	435
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	435	list	Eigil	PROPN	_	432
+SF	SF	SF	PROPN	-	435	list	Eigil	PROPN	-	432
 <g/>
 </name>
-)	)	)	PUNCT	_	436	punct	SF	PROPN	_	435
-12	12	12	NUM	NumType=Card	437	nummod	Lisbeth	PROPN	_	438
+)	)	)	PUNCT	-	436	punct	SF	PROPN	-	435
+12	12	12	NUM	NumType=Card	437	nummod	Lisbeth	PROPN	-	438
 <name type="PER">
-Lisbeth	Lisbeth	Lisbeth	PROPN	_	438	list	SF	PROPN	_	435
-Bech	Bech	Bech	PROPN	_	439	flat	Lisbeth	PROPN	_	438
-Poulsen	Poulsen	Poulsen	PROPN	_	440	flat	Lisbeth	PROPN	_	438
+Lisbeth	Lisbeth	Lisbeth	PROPN	-	438	list	SF	PROPN	-	435
+Bech	Bech	Bech	PROPN	-	439	flat	Lisbeth	PROPN	-	438
+Poulsen	Poulsen	Poulsen	PROPN	-	440	flat	Lisbeth	PROPN	-	438
 </name>
-(	(	(	PUNCT	_	441	punct	SF	PROPN	_	442
+(	(	(	PUNCT	-	441	punct	SF	PROPN	-	442
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	442	list	Lisbeth	PROPN	_	438
+SF	SF	SF	PROPN	-	442	list	Lisbeth	PROPN	-	438
 <g/>
 </name>
-)	)	)	PUNCT	_	443	punct	SF	PROPN	_	442
-13	13	13	NUM	NumType=Card	444	nummod	Özlem	PROPN	_	445
+)	)	)	PUNCT	-	443	punct	SF	PROPN	-	442
+13	13	13	NUM	NumType=Card	444	nummod	Özlem	PROPN	-	445
 <name type="PER">
-Özlem	Özlem	Özlem	PROPN	_	445	list	SF	PROPN	_	442
-Sara	Sara	Sara	PROPN	_	446	flat	Özlem	PROPN	_	445
-Cekic	Cekic	Cekic	PROPN	_	447	flat	Özlem	PROPN	_	445
+Özlem	Özlem	Özlem	PROPN	-	445	list	SF	PROPN	-	442
+Sara	Sara	Sara	PROPN	-	446	flat	Özlem	PROPN	-	445
+Cekic	Cekic	Cekic	PROPN	-	447	flat	Özlem	PROPN	-	445
 </name>
-(	(	(	PUNCT	_	448	punct	SF	PROPN	_	449
+(	(	(	PUNCT	-	448	punct	SF	PROPN	-	449
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	449	list	Özlem	PROPN	_	445
+SF	SF	SF	PROPN	-	449	list	Özlem	PROPN	-	445
 <g/>
 </name>
-)	)	)	PUNCT	_	450	punct	SF	PROPN	_	449
-14	14	14	NUM	NumType=Card	451	nummod	Lars	PROPN	_	452
+)	)	)	PUNCT	-	450	punct	SF	PROPN	-	449
+14	14	14	NUM	NumType=Card	451	nummod	Lars	PROPN	-	452
 <name type="PER">
-Lars	Lars	Lars	PROPN	_	452	list	SF	PROPN	_	449
-Dohn	Dohn	Dohn	PROPN	_	453	flat	Lars	PROPN	_	452
+Lars	Lars	Lars	PROPN	-	452	list	SF	PROPN	-	449
+Dohn	Dohn	Dohn	PROPN	-	453	flat	Lars	PROPN	-	452
 </name>
-(	(	(	PUNCT	_	454	punct	EL	PROPN	_	455
+(	(	(	PUNCT	-	454	punct	EL	PROPN	-	455
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	455	flat	Lars	PROPN	_	452
+EL	EL	EL	PROPN	-	455	flat	Lars	PROPN	-	452
 <g/>
 </name>
-)	)	)	PUNCT	_	456	punct	EL	PROPN	_	455
-15	15	15	NUM	NumType=Card	457	nummod	Rosa	PROPN	_	458
+)	)	)	PUNCT	-	456	punct	EL	PROPN	-	455
+15	15	15	NUM	NumType=Card	457	nummod	Rosa	PROPN	-	458
 <name type="PER">
-Rosa	Rosa	Rosa	PROPN	_	458	list	Lars	PROPN	_	452
-Lund	Lund	Lund	PROPN	_	459	flat	Rosa	PROPN	_	458
+Rosa	Rosa	Rosa	PROPN	-	458	list	Lars	PROPN	-	452
+Lund	Lund	Lund	PROPN	-	459	flat	Rosa	PROPN	-	458
 </name>
-(	(	(	PUNCT	_	460	punct	EL	PROPN	_	461
+(	(	(	PUNCT	-	460	punct	EL	PROPN	-	461
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	461	flat	Rosa	PROPN	_	458
+EL	EL	EL	PROPN	-	461	flat	Rosa	PROPN	-	458
 <g/>
 </name>
-)	)	)	PUNCT	_	462	punct	EL	PROPN	_	461
-16	16	16	NUM	NumType=Card	463	nummod	Louise	PROPN	_	464
+)	)	)	PUNCT	-	462	punct	EL	PROPN	-	461
+16	16	16	NUM	NumType=Card	463	nummod	Louise	PROPN	-	464
 <name type="PER">
-Louise	Louise	Louise	PROPN	_	464	list	EL	PROPN	_	461
-Schack	Schack	Schack	PROPN	_	465	flat	Louise	PROPN	_	464
-Elholm	Elholm	Elholm	PROPN	_	466	flat	Louise	PROPN	_	464
+Louise	Louise	Louise	PROPN	-	464	list	EL	PROPN	-	461
+Schack	Schack	Schack	PROPN	-	465	flat	Louise	PROPN	-	464
+Elholm	Elholm	Elholm	PROPN	-	466	flat	Louise	PROPN	-	464
 </name>
-(	(	(	PUNCT	_	467	punct	V	PROPN	_	468
+(	(	(	PUNCT	-	467	punct	V	PROPN	-	468
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	468	flat	Louise	PROPN	_	464
+V	V	V	PROPN	-	468	flat	Louise	PROPN	-	464
 <g/>
 </name>
-)	)	)	PUNCT	_	469	punct	V	PROPN	_	468
-17	17	17	NUM	NumType=Card	470	nummod	Martin	PROPN	_	471
+)	)	)	PUNCT	-	469	punct	V	PROPN	-	468
+17	17	17	NUM	NumType=Card	470	nummod	Martin	PROPN	-	471
 <name type="PER">
-Martin	Martin	Martin	PROPN	_	471	list	Louise	PROPN	_	464
-Geertsen	Geertsen	Geertsen	PROPN	_	472	flat	Martin	PROPN	_	471
+Martin	Martin	Martin	PROPN	-	471	list	Louise	PROPN	-	464
+Geertsen	Geertsen	Geertsen	PROPN	-	472	flat	Martin	PROPN	-	471
 </name>
-(	(	(	PUNCT	_	473	punct	V	PROPN	_	474
+(	(	(	PUNCT	-	473	punct	V	PROPN	-	474
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	474	flat	Martin	PROPN	_	471
+V	V	V	PROPN	-	474	flat	Martin	PROPN	-	471
 <g/>
 </name>
-)	)	)	PUNCT	_	475	punct	V	PROPN	_	474
-18	18	18	NUM	NumType=Card	476	nummod	Jane	PROPN	_	477
+)	)	)	PUNCT	-	475	punct	V	PROPN	-	474
+18	18	18	NUM	NumType=Card	476	nummod	Jane	PROPN	-	477
 <name type="PER">
-Jane	Jane	Jane	PROPN	_	477	list	Martin	PROPN	_	471
-Heitmann	Heitmann	Heitmann	PROPN	_	478	flat	Jane	PROPN	_	477
+Jane	Jane	Jane	PROPN	-	477	list	Martin	PROPN	-	471
+Heitmann	Heitmann	Heitmann	PROPN	-	478	flat	Jane	PROPN	-	477
 </name>
-(	(	(	PUNCT	_	479	punct	V	PROPN	_	480
+(	(	(	PUNCT	-	479	punct	V	PROPN	-	480
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	480	flat	Jane	PROPN	_	477
+V	V	V	PROPN	-	480	flat	Jane	PROPN	-	477
 <g/>
 </name>
-)	)	)	PUNCT	_	481	punct	V	PROPN	_	480
-19	19	19	NUM	NumType=Card	482	nummod	Preben	PROPN	_	483
+)	)	)	PUNCT	-	481	punct	V	PROPN	-	480
+19	19	19	NUM	NumType=Card	482	nummod	Preben	PROPN	-	483
 <name type="PER">
-Preben	Preben	Preben	PROPN	_	483	list	Jane	PROPN	_	477
-Bang	Bang	Bang	PROPN	_	484	flat	Preben	PROPN	_	483
-Henriksen	Henriksen	Henriksen	PROPN	_	485	flat	Preben	PROPN	_	483
+Preben	Preben	Preben	PROPN	-	483	list	Jane	PROPN	-	477
+Bang	Bang	Bang	PROPN	-	484	flat	Preben	PROPN	-	483
+Henriksen	Henriksen	Henriksen	PROPN	-	485	flat	Preben	PROPN	-	483
 </name>
-(	(	(	PUNCT	_	486	punct	V	PROPN	_	487
+(	(	(	PUNCT	-	486	punct	V	PROPN	-	487
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	487	flat	Preben	PROPN	_	483
+V	V	V	PROPN	-	487	flat	Preben	PROPN	-	483
 <g/>
 </name>
-)	)	)	PUNCT	_	488	punct	V	PROPN	_	487
-20	20	20	NUM	NumType=Card	489	nummod	Michael	PROPN	_	490
+)	)	)	PUNCT	-	488	punct	V	PROPN	-	487
+20	20	20	NUM	NumType=Card	489	nummod	Michael	PROPN	-	490
 <name type="PER">
-Michael	Michael	Michael	PROPN	_	490	list	Preben	PROPN	_	483
-Aastrup	Aastrup	Aastrup	PROPN	_	491	flat	Michael	PROPN	_	490
-Jensen	Jensen	Jensen	PROPN	_	492	flat	Michael	PROPN	_	490
+Michael	Michael	Michael	PROPN	-	490	list	Preben	PROPN	-	483
+Aastrup	Aastrup	Aastrup	PROPN	-	491	flat	Michael	PROPN	-	490
+Jensen	Jensen	Jensen	PROPN	-	492	flat	Michael	PROPN	-	490
 </name>
-(	(	(	PUNCT	_	493	punct	V	PROPN	_	494
+(	(	(	PUNCT	-	493	punct	V	PROPN	-	494
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	494	flat	Michael	PROPN	_	490
+V	V	V	PROPN	-	494	flat	Michael	PROPN	-	490
 <g/>
 </name>
-)	)	)	PUNCT	_	495	punct	V	PROPN	_	494
-21	21	21	NUM	NumType=Card	496	nummod	Karen	PROPN	_	497
+)	)	)	PUNCT	-	495	punct	V	PROPN	-	494
+21	21	21	NUM	NumType=Card	496	nummod	Karen	PROPN	-	497
 <name type="PER">
-Karen	Karen	Karen	PROPN	_	497	list	Michael	PROPN	_	490
-Jespersen	Jespersen	Jespersen	PROPN	_	498	flat	Karen	PROPN	_	497
+Karen	Karen	Karen	PROPN	-	497	list	Michael	PROPN	-	490
+Jespersen	Jespersen	Jespersen	PROPN	-	498	flat	Karen	PROPN	-	497
 </name>
-(	(	(	PUNCT	_	499	punct	V	PROPN	_	500
+(	(	(	PUNCT	-	499	punct	V	PROPN	-	500
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	500	flat	Karen	PROPN	_	497
+V	V	V	PROPN	-	500	flat	Karen	PROPN	-	497
 <g/>
 </name>
-)	)	)	PUNCT	_	501	punct	V	PROPN	_	500
-22	22	22	NUM	NumType=Card	502	nummod	Karsten	PROPN	_	503
+)	)	)	PUNCT	-	501	punct	V	PROPN	-	500
+22	22	22	NUM	NumType=Card	502	nummod	Karsten	PROPN	-	503
 <name type="PER">
-Karsten	Karsten	Karsten	PROPN	_	503	list	Karen	PROPN	_	497
-Lauritzen	Lauritzen	Lauritzen	PROPN	_	504	flat	Karsten	PROPN	_	503
+Karsten	Karsten	Karsten	PROPN	-	503	list	Karen	PROPN	-	497
+Lauritzen	Lauritzen	Lauritzen	PROPN	-	504	flat	Karsten	PROPN	-	503
 </name>
-(	(	(	PUNCT	_	505	punct	V	PROPN	_	506
+(	(	(	PUNCT	-	505	punct	V	PROPN	-	506
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	506	flat	Karsten	PROPN	_	503
+V	V	V	PROPN	-	506	flat	Karsten	PROPN	-	503
 <g/>
 </name>
-)	)	)	PUNCT	_	507	punct	V	PROPN	_	506
-23	23	23	NUM	NumType=Card	508	nummod	Fatma	PROPN	_	509
+)	)	)	PUNCT	-	507	punct	V	PROPN	-	506
+23	23	23	NUM	NumType=Card	508	nummod	Fatma	PROPN	-	509
 <name type="PER">
-Fatma	Fatma	Fatma	PROPN	_	509	list	Karsten	PROPN	_	503
-Øktem	Øktem	Øktem	PROPN	_	510	flat	Fatma	PROPN	_	509
+Fatma	Fatma	Fatma	PROPN	-	509	list	Karsten	PROPN	-	503
+Øktem	Øktem	Øktem	PROPN	-	510	flat	Fatma	PROPN	-	509
 </name>
-(	(	(	PUNCT	_	511	punct	V	PROPN	_	512
+(	(	(	PUNCT	-	511	punct	V	PROPN	-	512
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	512	flat	Fatma	PROPN	_	509
+V	V	V	PROPN	-	512	flat	Fatma	PROPN	-	509
 <g/>
 </name>
-)	)	)	PUNCT	_	513	punct	V	PROPN	_	512
-24	24	24	NUM	NumType=Card	514	nummod	Karina	PROPN	_	515
+)	)	)	PUNCT	-	513	punct	V	PROPN	-	512
+24	24	24	NUM	NumType=Card	514	nummod	Karina	PROPN	-	515
 <name type="PER">
-Karina	Karina	Karina	PROPN	_	515	list	Fatma	PROPN	_	509
-Adsbøl	Adsbøl	Adsbøl	PROPN	_	516	flat	Karina	PROPN	_	515
+Karina	Karina	Karina	PROPN	-	515	list	Fatma	PROPN	-	509
+Adsbøl	Adsbøl	Adsbøl	PROPN	-	516	flat	Karina	PROPN	-	515
 </name>
-(	(	(	PUNCT	_	517	punct	DF	PROPN	_	518
+(	(	(	PUNCT	-	517	punct	DF	PROPN	-	518
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	518	flat	Karina	PROPN	_	515
+DF	DF	DF	PROPN	-	518	flat	Karina	PROPN	-	515
 <g/>
 </name>
-)	)	)	PUNCT	_	519	punct	DF	PROPN	_	518
-25	25	25	NUM	NumType=Card	520	nummod	Alex	PROPN	_	521
+)	)	)	PUNCT	-	519	punct	DF	PROPN	-	518
+25	25	25	NUM	NumType=Card	520	nummod	Alex	PROPN	-	521
 <name type="PER">
-Alex	Alex	Alex	PROPN	_	521	list	Karina	PROPN	_	515
-Ahrendtsen	Ahrendtsen	Ahrendtsen	PROPN	_	522	flat	Alex	PROPN	_	521
+Alex	Alex	Alex	PROPN	-	521	list	Karina	PROPN	-	515
+Ahrendtsen	Ahrendtsen	Ahrendtsen	PROPN	-	522	flat	Alex	PROPN	-	521
 </name>
-(	(	(	PUNCT	_	523	punct	DF	PROPN	_	524
+(	(	(	PUNCT	-	523	punct	DF	PROPN	-	524
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	524	flat	Alex	PROPN	_	521
+DF	DF	DF	PROPN	-	524	flat	Alex	PROPN	-	521
 <g/>
 </name>
-)	)	)	PUNCT	_	525	punct	DF	PROPN	_	524
-26	26	26	NUM	NumType=Card	526	nummod	Morten	PROPN	_	527
+)	)	)	PUNCT	-	525	punct	DF	PROPN	-	524
+26	26	26	NUM	NumType=Card	526	nummod	Morten	PROPN	-	527
 <name type="PER">
-Morten	Morten	Morten	PROPN	_	527	list	Alex	PROPN	_	521
-Marinus	Marinus	Marinus	PROPN	_	528	flat	Morten	PROPN	_	527
+Morten	Morten	Morten	PROPN	-	527	list	Alex	PROPN	-	521
+Marinus	Marinus	Marinus	PROPN	-	528	flat	Morten	PROPN	-	527
 </name>
-(	(	(	PUNCT	_	529	punct	DF	PROPN	_	530
+(	(	(	PUNCT	-	529	punct	DF	PROPN	-	530
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	530	flat	Morten	PROPN	_	527
+DF	DF	DF	PROPN	-	530	flat	Morten	PROPN	-	527
 <g/>
 </name>
-)	)	)	PUNCT	_	531	punct	DF	PROPN	_	530
-27	27	27	NUM	NumType=Card	532	nummod	Anita	PROPN	_	533
+)	)	)	PUNCT	-	531	punct	DF	PROPN	-	530
+27	27	27	NUM	NumType=Card	532	nummod	Anita	PROPN	-	533
 <name type="PER">
-Anita	Anita	Anita	PROPN	_	533	list	Morten	PROPN	_	527
-Christensen	Christensen	Christensen	PROPN	_	534	flat	Anita	PROPN	_	533
+Anita	Anita	Anita	PROPN	-	533	list	Morten	PROPN	-	527
+Christensen	Christensen	Christensen	PROPN	-	534	flat	Anita	PROPN	-	533
 </name>
-(	(	(	PUNCT	_	535	punct	DF	PROPN	_	536
+(	(	(	PUNCT	-	535	punct	DF	PROPN	-	536
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	536	flat	Anita	PROPN	_	533
+DF	DF	DF	PROPN	-	536	flat	Anita	PROPN	-	533
 <g/>
 </name>
-)	)	)	PUNCT	_	537	punct	DF	PROPN	_	536
-28	28	28	NUM	NumType=Card	538	nummod	Ole	PROPN	_	539
+)	)	)	PUNCT	-	537	punct	DF	PROPN	-	536
+28	28	28	NUM	NumType=Card	538	nummod	Ole	PROPN	-	539
 <name type="PER">
-Ole	Ole	Ole	PROPN	_	539	list	Anita	PROPN	_	533
-Birk	Birk	Birk	PROPN	_	540	flat	Ole	PROPN	_	539
-Olesen	Olesen	Olesen	PROPN	_	541	flat	Ole	PROPN	_	539
+Ole	Ole	Ole	PROPN	-	539	list	Anita	PROPN	-	533
+Birk	Birk	Birk	PROPN	-	540	flat	Ole	PROPN	-	539
+Olesen	Olesen	Olesen	PROPN	-	541	flat	Ole	PROPN	-	539
 </name>
-(	(	(	PUNCT	_	542	punct	LA	PROPN	_	543
+(	(	(	PUNCT	-	542	punct	LA	PROPN	-	543
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	543	list	Ole	PROPN	_	539
+LA	LA	LA	PROPN	-	543	list	Ole	PROPN	-	539
 <g/>
 </name>
-)	)	)	PUNCT	_	544	punct	LA	PROPN	_	543
-29	29	29	NUM	NumType=Card	545	nummod	Charlotte	PROPN	_	546
+)	)	)	PUNCT	-	544	punct	LA	PROPN	-	543
+29	29	29	NUM	NumType=Card	545	nummod	Charlotte	PROPN	-	546
 <name type="PER">
-Charlotte	Charlotte	Charlotte	PROPN	_	546	list	Morten	PROPN	_	527
-Dyremose	Dyremose	Dyremose	PROPN	_	547	flat	Charlotte	PROPN	_	546
+Charlotte	Charlotte	Charlotte	PROPN	-	546	list	Morten	PROPN	-	527
+Dyremose	Dyremose	Dyremose	PROPN	-	547	flat	Charlotte	PROPN	-	546
 </name>
-(	(	(	PUNCT	_	548	punct	KF	PROPN	_	549
+(	(	(	PUNCT	-	548	punct	KF	PROPN	-	549
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	549	flat	Charlotte	PROPN	_	546
+KF	KF	KF	PROPN	-	549	flat	Charlotte	PROPN	-	546
 <g/>
 </name>
-)	)	)	PUNCT	_	550	punct	KF	PROPN	_	549
-Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	551	list	Charlotte	PROPN	_	546
+)	)	)	PUNCT	-	550	punct	KF	PROPN	-	549
+Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	551	list	Charlotte	PROPN	-	546
 <g/>
-:	:	:	PUNCT	_	552	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	551
+:	:	:	PUNCT	-	552	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	551
 <name type="PER">
-Mette	Mette	Mette	PROPN	_	553	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	551
-Reissmann	Reissmann	Reissmann	PROPN	_	554	flat	Mette	PROPN	_	553
+Mette	Mette	Mette	PROPN	-	553	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	551
+Reissmann	Reissmann	Reissmann	PROPN	-	554	flat	Mette	PROPN	-	553
 </name>
-(	(	(	PUNCT	_	555	punct	S	PROPN	_	556
+(	(	(	PUNCT	-	555	punct	S	PROPN	-	556
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	556	flat	Mette	PROPN	_	553
+S	S	S	PROPN	-	556	flat	Mette	PROPN	-	553
 <g/>
 </name>
-)	)	)	PUNCT	_	557	punct	S	PROPN	_	556
-Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	558	list	Mette	PROPN	_	553
+)	)	)	PUNCT	-	557	punct	S	PROPN	-	556
+Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	558	list	Mette	PROPN	-	553
 <g/>
-:	:	:	PUNCT	_	559	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	558
+:	:	:	PUNCT	-	559	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	558
 <name type="PER">
-Karen	Karen	Karen	PROPN	_	560	appos	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	558
-Jespersen	Jespersen	Jespersen	PROPN	_	561	flat	Karen	PROPN	_	560
+Karen	Karen	Karen	PROPN	-	560	appos	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	558
+Jespersen	Jespersen	Jespersen	PROPN	-	561	flat	Karen	PROPN	-	560
 </name>
-(	(	(	PUNCT	_	562	punct	V	PROPN	_	563
+(	(	(	PUNCT	-	562	punct	V	PROPN	-	563
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	563	flat	Karen	PROPN	_	560
+V	V	V	PROPN	-	563	flat	Karen	PROPN	-	560
 <g/>
 </name>
-)	)	)	PUNCT	_	564	punct	V	PROPN	_	563
-Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	565	flat	Karen	PROPN	_	560
+)	)	)	PUNCT	-	564	punct	V	PROPN	-	563
+Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	565	flat	Karen	PROPN	-	560
 af	af	af	ADP	AdpType=Prep	566	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	568
 29	29	29	NUM	NumType=Card	567	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	568
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	568	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	565
-til	til	til	ADP	AdpType=Prep	569	case	børne-	X	_	570
-Børne-	Børne-	børne-	X	_	570	nmod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	568
-og	og	og	CCONJ	_	571	cc	undervisningsudvalget	X	Foreign=Yes	572
-Undervisningsudvalget	Undervisningsudvalget	undervisningsudvalget	X	Foreign=Yes	572	conj	børne-	X	_	570
+til	til	til	ADP	AdpType=Prep	569	case	børne-	X	-	570
+Børne-	Børne-	børne-	X	-	570	nmod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	568
+og	og	og	CCONJ	-	571	cc	undervisningsudvalget	X	Foreign=Yes	572
+Undervisningsudvalget	Undervisningsudvalget	undervisningsudvalget	X	Foreign=Yes	572	conj	børne-	X	-	570
 <g/>
-:	:	:	PUNCT	_	573	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	558
+:	:	:	PUNCT	-	573	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	558
 Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	574	list	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	558
-blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	575	cop	Ane	PROPN	_	578
+blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	575	cop	Ane	PROPN	-	578
 <g/>
-:	:	:	PUNCT	_	576	punct	Ane	PROPN	_	578
-1	1	1	NUM	NumType=Card	577	nummod	Ane	PROPN	_	578
+:	:	:	PUNCT	-	576	punct	Ane	PROPN	-	578
+1	1	1	NUM	NumType=Card	577	nummod	Ane	PROPN	-	578
 <name type="PER">
-Ane	Ane	Ane	PROPN	_	578	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	574
-Halsboe-Jørgensen	Halsboe-Jørgensen	Halsboe-Jørgensen	PROPN	_	579	flat	Ane	PROPN	_	578
+Ane	Ane	Ane	PROPN	-	578	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	574
+Halsboe-Jørgensen	Halsboe-Jørgensen	Halsboe-Jørgensen	PROPN	-	579	flat	Ane	PROPN	-	578
 </name>
-(	(	(	PUNCT	_	580	punct	S	PROPN	_	581
+(	(	(	PUNCT	-	580	punct	S	PROPN	-	581
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	581	flat	Ane	PROPN	_	578
+S	S	S	PROPN	-	581	flat	Ane	PROPN	-	578
 <g/>
 </name>
-)	)	)	PUNCT	_	582	punct	S	PROPN	_	581
-2	2	2	NUM	NumType=Card	583	nummod	Julie	PROPN	_	584
+)	)	)	PUNCT	-	582	punct	S	PROPN	-	581
+2	2	2	NUM	NumType=Card	583	nummod	Julie	PROPN	-	584
 <name type="PER">
-Julie	Julie	Julie	PROPN	_	584	list	Ane	PROPN	_	578
-Skovsby	Skovsby	Skovsby	PROPN	_	585	flat	Julie	PROPN	_	584
+Julie	Julie	Julie	PROPN	-	584	list	Ane	PROPN	-	578
+Skovsby	Skovsby	Skovsby	PROPN	-	585	flat	Julie	PROPN	-	584
 </name>
-(	(	(	PUNCT	_	586	punct	S	PROPN	_	587
+(	(	(	PUNCT	-	586	punct	S	PROPN	-	587
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	587	flat	Julie	PROPN	_	584
+S	S	S	PROPN	-	587	flat	Julie	PROPN	-	584
 <g/>
 </name>
-)	)	)	PUNCT	_	588	punct	S	PROPN	_	587
-3	3	3	NUM	NumType=Card	589	nummod	Karin	PROPN	_	590
+)	)	)	PUNCT	-	588	punct	S	PROPN	-	587
+3	3	3	NUM	NumType=Card	589	nummod	Karin	PROPN	-	590
 <name type="PER">
-Karin	Karin	Karin	PROPN	_	590	list	Julie	PROPN	_	584
-Gaardsted	Gaardsted	Gaardsted	PROPN	_	591	flat	Karin	PROPN	_	590
+Karin	Karin	Karin	PROPN	-	590	list	Julie	PROPN	-	584
+Gaardsted	Gaardsted	Gaardsted	PROPN	-	591	flat	Karin	PROPN	-	590
 </name>
-(	(	(	PUNCT	_	592	punct	S	PROPN	_	593
+(	(	(	PUNCT	-	592	punct	S	PROPN	-	593
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	593	flat	Karin	PROPN	_	590
+S	S	S	PROPN	-	593	flat	Karin	PROPN	-	590
 <g/>
 </name>
-)	)	)	PUNCT	_	594	punct	S	PROPN	_	593
-4	4	4	NUM	NumType=Card	595	nummod	Annette	PROPN	_	596
+)	)	)	PUNCT	-	594	punct	S	PROPN	-	593
+4	4	4	NUM	NumType=Card	595	nummod	Annette	PROPN	-	596
 <name type="PER">
-Annette	Annette	Annette	PROPN	_	596	list	Karin	PROPN	_	590
-Lind	Lind	Lind	PROPN	_	597	flat	Annette	PROPN	_	596
+Annette	Annette	Annette	PROPN	-	596	list	Karin	PROPN	-	590
+Lind	Lind	Lind	PROPN	-	597	flat	Annette	PROPN	-	596
 </name>
-(	(	(	PUNCT	_	598	punct	S	PROPN	_	599
+(	(	(	PUNCT	-	598	punct	S	PROPN	-	599
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	599	flat	Annette	PROPN	_	596
+S	S	S	PROPN	-	599	flat	Annette	PROPN	-	596
 <g/>
 </name>
-)	)	)	PUNCT	_	600	punct	S	PROPN	_	599
-5	5	5	NUM	NumType=Card	601	nummod	Orla	PROPN	_	602
+)	)	)	PUNCT	-	600	punct	S	PROPN	-	599
+5	5	5	NUM	NumType=Card	601	nummod	Orla	PROPN	-	602
 <name type="PER">
-Orla	Orla	Orla	PROPN	_	602	list	Annette	PROPN	_	596
-Hav	Hav	Hav	PROPN	_	603	flat	Orla	PROPN	_	602
+Orla	Orla	Orla	PROPN	-	602	list	Annette	PROPN	-	596
+Hav	Hav	Hav	PROPN	-	603	flat	Orla	PROPN	-	602
 </name>
-(	(	(	PUNCT	_	604	punct	S	PROPN	_	605
+(	(	(	PUNCT	-	604	punct	S	PROPN	-	605
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	605	list	Orla	PROPN	_	602
+S	S	S	PROPN	-	605	list	Orla	PROPN	-	602
 <g/>
 </name>
-)	)	)	PUNCT	_	606	punct	S	PROPN	_	605
-6	6	6	NUM	NumType=Card	607	nummod	Rasmus	PROPN	_	608
+)	)	)	PUNCT	-	606	punct	S	PROPN	-	605
+6	6	6	NUM	NumType=Card	607	nummod	Rasmus	PROPN	-	608
 <name type="PER">
-Rasmus	Rasmus	Rasmus	PROPN	_	608	list	S	PROPN	_	605
-Horn	Horn	Horn	PROPN	_	609	flat	Rasmus	PROPN	_	608
-Langhoff	Langhoff	Langhoff	PROPN	_	610	flat	Rasmus	PROPN	_	608
+Rasmus	Rasmus	Rasmus	PROPN	-	608	list	S	PROPN	-	605
+Horn	Horn	Horn	PROPN	-	609	flat	Rasmus	PROPN	-	608
+Langhoff	Langhoff	Langhoff	PROPN	-	610	flat	Rasmus	PROPN	-	608
 </name>
-(	(	(	PUNCT	_	611	punct	S	PROPN	_	612
+(	(	(	PUNCT	-	611	punct	S	PROPN	-	612
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	612	list	Rasmus	PROPN	_	608
+S	S	S	PROPN	-	612	list	Rasmus	PROPN	-	608
 <g/>
 </name>
-)	)	)	PUNCT	_	613	punct	S	PROPN	_	612
-7	7	7	NUM	NumType=Card	614	nummod	Troels	PROPN	_	615
+)	)	)	PUNCT	-	613	punct	S	PROPN	-	612
+7	7	7	NUM	NumType=Card	614	nummod	Troels	PROPN	-	615
 <name type="PER">
-Troels	Troels	Troels	PROPN	_	615	list	S	PROPN	_	612
-Ravn	Ravn	Ravn	PROPN	_	616	flat	Troels	PROPN	_	615
+Troels	Troels	Troels	PROPN	-	615	list	S	PROPN	-	612
+Ravn	Ravn	Ravn	PROPN	-	616	flat	Troels	PROPN	-	615
 </name>
-(	(	(	PUNCT	_	617	punct	S	PROPN	_	618
+(	(	(	PUNCT	-	617	punct	S	PROPN	-	618
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	618	list	Troels	PROPN	_	615
+S	S	S	PROPN	-	618	list	Troels	PROPN	-	615
 <g/>
 </name>
-)	)	)	PUNCT	_	619	punct	S	PROPN	_	618
-8	8	8	NUM	NumType=Card	620	nummod	Lotte	PROPN	_	621
+)	)	)	PUNCT	-	619	punct	S	PROPN	-	618
+8	8	8	NUM	NumType=Card	620	nummod	Lotte	PROPN	-	621
 <name type="PER">
-Lotte	Lotte	Lotte	PROPN	_	621	list	S	PROPN	_	618
-Rod	Rod	Rod	PROPN	_	622	flat	Lotte	PROPN	_	621
+Lotte	Lotte	Lotte	PROPN	-	621	list	S	PROPN	-	618
+Rod	Rod	Rod	PROPN	-	622	flat	Lotte	PROPN	-	621
 </name>
-(	(	(	PUNCT	_	623	punct	RV	PROPN	_	624
+(	(	(	PUNCT	-	623	punct	RV	PROPN	-	624
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	624	flat	Lotte	PROPN	_	621
+RV	RV	RV	PROPN	-	624	flat	Lotte	PROPN	-	621
 <g/>
 </name>
-)	)	)	PUNCT	_	625	punct	RV	PROPN	_	624
+)	)	)	PUNCT	-	625	punct	RV	PROPN	-	624
 9	9	9	NUM	NumType=Card	626	nummod	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	627
 <name type="PER">
-Jeppe	Jeppe	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	627	list	Lotte	PROPN	_	621
-Mikkelsen	Mikkelsen	Mikkelsen	PROPN	_	628	nmod	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	627
+Jeppe	Jeppe	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	627	list	Lotte	PROPN	-	621
+Mikkelsen	Mikkelsen	Mikkelsen	PROPN	-	628	nmod	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	627
 </name>
-(	(	(	PUNCT	_	629	punct	RV	PROPN	_	630
+(	(	(	PUNCT	-	629	punct	RV	PROPN	-	630
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	630	list	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	627
+RV	RV	RV	PROPN	-	630	list	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	627
 <g/>
 </name>
-)	)	)	PUNCT	_	631	punct	RV	PROPN	_	630
+)	)	)	PUNCT	-	631	punct	RV	PROPN	-	630
 10	10	10	NUM	NumType=Card	632	nummod	Marl	NOUN	Definite=Def Gender=Com Number=Plur	633
 <name type="PER">
-Marlene	Marlene	Marl	NOUN	Definite=Def Gender=Com Number=Plur	633	list	RV	PROPN	_	630
-Borst	Borst	Borst	NOUN	Definite=Ind Gender=Com Number=Sing	634	flat	RV	PROPN	_	630
-Hansen	Hansen	Hansen	PROPN	_	635	flat	RV	PROPN	_	630
+Marlene	Marlene	Marl	NOUN	Definite=Def Gender=Com Number=Plur	633	list	RV	PROPN	-	630
+Borst	Borst	Borst	NOUN	Definite=Ind Gender=Com Number=Sing	634	flat	RV	PROPN	-	630
+Hansen	Hansen	Hansen	PROPN	-	635	flat	RV	PROPN	-	630
 </name>
-(	(	(	PUNCT	_	636	punct	RV	PROPN	_	630
+(	(	(	PUNCT	-	636	punct	RV	PROPN	-	630
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	637	flat	RV	PROPN	_	630
+RV	RV	RV	PROPN	-	637	flat	RV	PROPN	-	630
 <g/>
 </name>
-)	)	)	PUNCT	_	638	punct	RV	PROPN	_	630
-11	11	11	NUM	NumType=Card	639	nummod	Annette	PROPN	_	640
+)	)	)	PUNCT	-	638	punct	RV	PROPN	-	630
+11	11	11	NUM	NumType=Card	639	nummod	Annette	PROPN	-	640
 <name type="PER">
-Annette	Annette	Annette	PROPN	_	640	list	RV	PROPN	_	630
-Vilhelmsen	Vilhelmsen	Vilhelmsen	PROPN	_	641	flat	Annette	PROPN	_	640
+Annette	Annette	Annette	PROPN	-	640	list	RV	PROPN	-	630
+Vilhelmsen	Vilhelmsen	Vilhelmsen	PROPN	-	641	flat	Annette	PROPN	-	640
 </name>
-(	(	(	PUNCT	_	642	punct	SF	PROPN	_	643
+(	(	(	PUNCT	-	642	punct	SF	PROPN	-	643
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	643	list	Annette	PROPN	_	640
+SF	SF	SF	PROPN	-	643	list	Annette	PROPN	-	640
 <g/>
 </name>
-)	)	)	PUNCT	_	644	punct	SF	PROPN	_	643
-12	12	12	NUM	NumType=Card	645	nummod	Trine	PROPN	_	646
+)	)	)	PUNCT	-	644	punct	SF	PROPN	-	643
+12	12	12	NUM	NumType=Card	645	nummod	Trine	PROPN	-	646
 <name type="PER">
-Trine	Trine	Trine	PROPN	_	646	list	SF	PROPN	_	643
-Mach	Mach	Machen	PROPN	_	647	flat	Trine	PROPN	_	646
+Trine	Trine	Trine	PROPN	-	646	list	SF	PROPN	-	643
+Mach	Mach	Machen	PROPN	-	647	flat	Trine	PROPN	-	646
 </name>
-(	(	(	PUNCT	_	648	punct	SF	PROPN	_	649
+(	(	(	PUNCT	-	648	punct	SF	PROPN	-	649
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	649	list	Trine	PROPN	_	646
+SF	SF	SF	PROPN	-	649	list	Trine	PROPN	-	646
 <g/>
 </name>
-)	)	)	PUNCT	_	650	punct	SF	PROPN	_	649
-13	13	13	NUM	NumType=Card	651	nummod	Rosa	PROPN	_	652
+)	)	)	PUNCT	-	650	punct	SF	PROPN	-	649
+13	13	13	NUM	NumType=Card	651	nummod	Rosa	PROPN	-	652
 <name type="PER">
-Rosa	Rosa	Rosa	PROPN	_	652	list	SF	PROPN	_	649
-Lund	Lund	Lund	PROPN	_	653	flat	Rosa	PROPN	_	652
+Rosa	Rosa	Rosa	PROPN	-	652	list	SF	PROPN	-	649
+Lund	Lund	Lund	PROPN	-	653	flat	Rosa	PROPN	-	652
 </name>
-(	(	(	PUNCT	_	654	punct	EL	PROPN	_	655
+(	(	(	PUNCT	-	654	punct	EL	PROPN	-	655
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	655	flat	Rosa	PROPN	_	652
+EL	EL	EL	PROPN	-	655	flat	Rosa	PROPN	-	652
 <g/>
 </name>
-)	)	)	PUNCT	_	656	punct	EL	PROPN	_	655
-14	14	14	NUM	NumType=Card	657	nummod	Lars	PROPN	_	658
+)	)	)	PUNCT	-	656	punct	EL	PROPN	-	655
+14	14	14	NUM	NumType=Card	657	nummod	Lars	PROPN	-	658
 <name type="PER">
-Lars	Lars	Lars	PROPN	_	658	list	Rosa	PROPN	_	652
-Dohn	Dohn	Dohn	PROPN	_	659	flat	Lars	PROPN	_	658
+Lars	Lars	Lars	PROPN	-	658	list	Rosa	PROPN	-	652
+Dohn	Dohn	Dohn	PROPN	-	659	flat	Lars	PROPN	-	658
 </name>
-(	(	(	PUNCT	_	660	punct	EL	PROPN	_	661
+(	(	(	PUNCT	-	660	punct	EL	PROPN	-	661
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	661	flat	Lars	PROPN	_	658
+EL	EL	EL	PROPN	-	661	flat	Lars	PROPN	-	658
 <g/>
 </name>
-)	)	)	PUNCT	_	662	punct	EL	PROPN	_	661
-15	15	15	NUM	NumType=Card	663	nummod	Henning	PROPN	_	664
+)	)	)	PUNCT	-	662	punct	EL	PROPN	-	661
+15	15	15	NUM	NumType=Card	663	nummod	Henning	PROPN	-	664
 <name type="PER">
-Henning	Henning	Henning	PROPN	_	664	list	Lars	PROPN	_	658
-Hyllested	Hyllested	Hyllested	PROPN	_	665	flat	Henning	PROPN	_	664
+Henning	Henning	Henning	PROPN	-	664	list	Lars	PROPN	-	658
+Hyllested	Hyllested	Hyllested	PROPN	-	665	flat	Henning	PROPN	-	664
 </name>
-(	(	(	PUNCT	_	666	punct	EL	PROPN	_	667
+(	(	(	PUNCT	-	666	punct	EL	PROPN	-	667
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	667	flat	Henning	PROPN	_	664
+EL	EL	EL	PROPN	-	667	flat	Henning	PROPN	-	664
 <g/>
 </name>
-)	)	)	PUNCT	_	668	punct	EL	PROPN	_	667
-16	16	16	NUM	NumType=Card	669	nummod	Karen	PROPN	_	670
+)	)	)	PUNCT	-	668	punct	EL	PROPN	-	667
+16	16	16	NUM	NumType=Card	669	nummod	Karen	PROPN	-	670
 <name type="PER">
-Karen	Karen	Karen	PROPN	_	670	list	Henning	PROPN	_	664
-Ellemann	Ellemann	Ellemann	PROPN	_	671	flat	Karen	PROPN	_	670
+Karen	Karen	Karen	PROPN	-	670	list	Henning	PROPN	-	664
+Ellemann	Ellemann	Ellemann	PROPN	-	671	flat	Karen	PROPN	-	670
 </name>
-(	(	(	PUNCT	_	672	punct	V	PROPN	_	673
+(	(	(	PUNCT	-	672	punct	V	PROPN	-	673
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	673	flat	Karen	PROPN	_	670
+V	V	V	PROPN	-	673	flat	Karen	PROPN	-	670
 <g/>
 </name>
-)	)	)	PUNCT	_	674	punct	V	PROPN	_	673
-17	17	17	NUM	NumType=Card	675	nummod	Peter	PROPN	_	676
+)	)	)	PUNCT	-	674	punct	V	PROPN	-	673
+17	17	17	NUM	NumType=Card	675	nummod	Peter	PROPN	-	676
 <name type="PER">
-Peter	Peter	Peter	PROPN	_	676	list	Karen	PROPN	_	670
-Juel	Juel	Juel	PROPN	_	677	flat	Peter	PROPN	_	676
-Jensen	Jensen	Jensen	PROPN	_	678	flat	Peter	PROPN	_	676
+Peter	Peter	Peter	PROPN	-	676	list	Karen	PROPN	-	670
+Juel	Juel	Juel	PROPN	-	677	flat	Peter	PROPN	-	676
+Jensen	Jensen	Jensen	PROPN	-	678	flat	Peter	PROPN	-	676
 </name>
-(	(	(	PUNCT	_	679	punct	V	PROPN	_	680
+(	(	(	PUNCT	-	679	punct	V	PROPN	-	680
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	680	flat	Peter	PROPN	_	676
+V	V	V	PROPN	-	680	flat	Peter	PROPN	-	676
 <g/>
 </name>
-)	)	)	PUNCT	_	681	punct	V	PROPN	_	680
-18	18	18	NUM	NumType=Card	682	nummod	Finn	PROPN	_	683
+)	)	)	PUNCT	-	681	punct	V	PROPN	-	680
+18	18	18	NUM	NumType=Card	682	nummod	Finn	PROPN	-	683
 <name type="PER">
-Finn	Finn	Finn	PROPN	_	683	list	Peter	PROPN	_	676
-Thranum	Thranum	Thranum	PROPN	_	684	flat	Finn	PROPN	_	683
+Finn	Finn	Finn	PROPN	-	683	list	Peter	PROPN	-	676
+Thranum	Thranum	Thranum	PROPN	-	684	flat	Finn	PROPN	-	683
 </name>
-(	(	(	PUNCT	_	685	punct	V	PROPN	_	686
+(	(	(	PUNCT	-	685	punct	V	PROPN	-	686
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	686	flat	Finn	PROPN	_	683
+V	V	V	PROPN	-	686	flat	Finn	PROPN	-	683
 <g/>
 </name>
-)	)	)	PUNCT	_	687	punct	V	PROPN	_	686
-19	19	19	NUM	NumType=Card	688	nummod	Louise	PROPN	_	689
+)	)	)	PUNCT	-	687	punct	V	PROPN	-	686
+19	19	19	NUM	NumType=Card	688	nummod	Louise	PROPN	-	689
 <name type="PER">
-Louise	Louise	Louise	PROPN	_	689	list	Finn	PROPN	_	683
-Schack	Schack	Schack	PROPN	_	690	flat	Louise	PROPN	_	689
-Elholm	Elholm	Elholm	PROPN	_	691	flat	Louise	PROPN	_	689
+Louise	Louise	Louise	PROPN	-	689	list	Finn	PROPN	-	683
+Schack	Schack	Schack	PROPN	-	690	flat	Louise	PROPN	-	689
+Elholm	Elholm	Elholm	PROPN	-	691	flat	Louise	PROPN	-	689
 </name>
-(	(	(	PUNCT	_	692	punct	V	PROPN	_	693
+(	(	(	PUNCT	-	692	punct	V	PROPN	-	693
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	693	flat	Louise	PROPN	_	689
+V	V	V	PROPN	-	693	flat	Louise	PROPN	-	689
 <g/>
 </name>
-)	)	)	PUNCT	_	694	punct	V	PROPN	_	693
-20	20	20	NUM	NumType=Card	695	nummod	Anni	PROPN	_	696
+)	)	)	PUNCT	-	694	punct	V	PROPN	-	693
+20	20	20	NUM	NumType=Card	695	nummod	Anni	PROPN	-	696
 <name type="PER">
-Anni	Anni	Anni	PROPN	_	696	list	Louise	PROPN	_	689
-Matthiesen	Matthiesen	Matthiesen	PROPN	_	697	flat	Anni	PROPN	_	696
+Anni	Anni	Anni	PROPN	-	696	list	Louise	PROPN	-	689
+Matthiesen	Matthiesen	Matthiesen	PROPN	-	697	flat	Anni	PROPN	-	696
 </name>
-(	(	(	PUNCT	_	698	punct	V	PROPN	_	699
+(	(	(	PUNCT	-	698	punct	V	PROPN	-	699
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	699	flat	Anni	PROPN	_	696
+V	V	V	PROPN	-	699	flat	Anni	PROPN	-	696
 <g/>
 </name>
-)	)	)	PUNCT	_	700	punct	V	PROPN	_	699
-21	21	21	NUM	NumType=Card	701	nummod	Tina	PROPN	_	702
+)	)	)	PUNCT	-	700	punct	V	PROPN	-	699
+21	21	21	NUM	NumType=Card	701	nummod	Tina	PROPN	-	702
 <name type="PER">
-Tina	Tina	Tina	PROPN	_	702	list	Anni	PROPN	_	696
-Nedergaard	Nedergaard	Nedergaard	PROPN	_	703	flat	Tina	PROPN	_	702
+Tina	Tina	Tina	PROPN	-	702	list	Anni	PROPN	-	696
+Nedergaard	Nedergaard	Nedergaard	PROPN	-	703	flat	Tina	PROPN	-	702
 </name>
-(	(	(	PUNCT	_	704	punct	V	PROPN	_	705
+(	(	(	PUNCT	-	704	punct	V	PROPN	-	705
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	705	flat	Tina	PROPN	_	702
+V	V	V	PROPN	-	705	flat	Tina	PROPN	-	702
 <g/>
 </name>
-)	)	)	PUNCT	_	706	punct	V	PROPN	_	705
-22	22	22	NUM	NumType=Card	707	nummod	Jens	PROPN	_	708
+)	)	)	PUNCT	-	706	punct	V	PROPN	-	705
+22	22	22	NUM	NumType=Card	707	nummod	Jens	PROPN	-	708
 <name type="PER">
-Jens	Jens	Jens	PROPN	_	708	list	Tina	PROPN	_	702
-Ejner	Ejner	Ejner	PROPN	_	709	flat	Jens	PROPN	_	708
-Christensen	Christensen	Christensen	PROPN	_	710	flat	Jens	PROPN	_	708
+Jens	Jens	Jens	PROPN	-	708	list	Tina	PROPN	-	702
+Ejner	Ejner	Ejner	PROPN	-	709	flat	Jens	PROPN	-	708
+Christensen	Christensen	Christensen	PROPN	-	710	flat	Jens	PROPN	-	708
 </name>
-(	(	(	PUNCT	_	711	punct	V	PROPN	_	712
+(	(	(	PUNCT	-	711	punct	V	PROPN	-	712
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	712	flat	Jens	PROPN	_	708
+V	V	V	PROPN	-	712	flat	Jens	PROPN	-	708
 <g/>
 </name>
-)	)	)	PUNCT	_	713	punct	V	PROPN	_	712
-23	23	23	NUM	NumType=Card	714	nummod	Alex	PROPN	_	715
+)	)	)	PUNCT	-	713	punct	V	PROPN	-	712
+23	23	23	NUM	NumType=Card	714	nummod	Alex	PROPN	-	715
 <name type="PER">
-Alex	Alex	Alex	PROPN	_	715	list	Jens	PROPN	_	708
-Ahrendtsen	Ahrendtsen	Ahrendtsen	PROPN	_	716	flat	Alex	PROPN	_	715
+Alex	Alex	Alex	PROPN	-	715	list	Jens	PROPN	-	708
+Ahrendtsen	Ahrendtsen	Ahrendtsen	PROPN	-	716	flat	Alex	PROPN	-	715
 </name>
-(	(	(	PUNCT	_	717	punct	DF	PROPN	_	718
+(	(	(	PUNCT	-	717	punct	DF	PROPN	-	718
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	718	flat	Alex	PROPN	_	715
+DF	DF	DF	PROPN	-	718	flat	Alex	PROPN	-	715
 <g/>
 </name>
-)	)	)	PUNCT	_	719	punct	DF	PROPN	_	718
-24	24	24	NUM	NumType=Card	720	nummod	Bent	PROPN	_	721
+)	)	)	PUNCT	-	719	punct	DF	PROPN	-	718
+24	24	24	NUM	NumType=Card	720	nummod	Bent	PROPN	-	721
 <name type="PER">
-Bent	Bent	Bent	PROPN	_	721	list	Alex	PROPN	_	715
-Bøgsted	Bøgsted	Bøgsted	PROPN	_	722	flat	Bent	PROPN	_	721
+Bent	Bent	Bent	PROPN	-	721	list	Alex	PROPN	-	715
+Bøgsted	Bøgsted	Bøgsted	PROPN	-	722	flat	Bent	PROPN	-	721
 </name>
-(	(	(	PUNCT	_	723	punct	DF	PROPN	_	724
+(	(	(	PUNCT	-	723	punct	DF	PROPN	-	724
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	724	flat	Bent	PROPN	_	721
+DF	DF	DF	PROPN	-	724	flat	Bent	PROPN	-	721
 <g/>
 </name>
-)	)	)	PUNCT	_	725	punct	DF	PROPN	_	724
-25	25	25	NUM	NumType=Card	726	nummod	Marie	PROPN	_	727
+)	)	)	PUNCT	-	725	punct	DF	PROPN	-	724
+25	25	25	NUM	NumType=Card	726	nummod	Marie	PROPN	-	727
 <name type="PER">
-Marie	Marie	Marie	PROPN	_	727	list	Bent	PROPN	_	721
-Krarup	Krarup	Krarup	PROPN	_	728	flat	Marie	PROPN	_	727
+Marie	Marie	Marie	PROPN	-	727	list	Bent	PROPN	-	721
+Krarup	Krarup	Krarup	PROPN	-	728	flat	Marie	PROPN	-	727
 </name>
-(	(	(	PUNCT	_	729	punct	DF	PROPN	_	730
+(	(	(	PUNCT	-	729	punct	DF	PROPN	-	730
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	730	flat	Marie	PROPN	_	727
+DF	DF	DF	PROPN	-	730	flat	Marie	PROPN	-	727
 <g/>
 </name>
-)	)	)	PUNCT	_	731	punct	DF	PROPN	_	730
-26	26	26	NUM	NumType=Card	732	nummod	Martin	PROPN	_	733
+)	)	)	PUNCT	-	731	punct	DF	PROPN	-	730
+26	26	26	NUM	NumType=Card	732	nummod	Martin	PROPN	-	733
 <name type="PER">
-Martin	Martin	Martin	PROPN	_	733	list	Marie	PROPN	_	727
-Henriksen	Henriksen	Henriksen	PROPN	_	734	flat	Martin	PROPN	_	733
+Martin	Martin	Martin	PROPN	-	733	list	Marie	PROPN	-	727
+Henriksen	Henriksen	Henriksen	PROPN	-	734	flat	Martin	PROPN	-	733
 </name>
-(	(	(	PUNCT	_	735	punct	DF	PROPN	_	736
+(	(	(	PUNCT	-	735	punct	DF	PROPN	-	736
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	736	flat	Martin	PROPN	_	733
+DF	DF	DF	PROPN	-	736	flat	Martin	PROPN	-	733
 <g/>
 </name>
-)	)	)	PUNCT	_	737	punct	DF	PROPN	_	736
-27	27	27	NUM	NumType=Card	738	nummod	Merete	PROPN	_	739
+)	)	)	PUNCT	-	737	punct	DF	PROPN	-	736
+27	27	27	NUM	NumType=Card	738	nummod	Merete	PROPN	-	739
 <name type="PER">
-Merete	Merete	Merete	PROPN	_	739	list	Martin	PROPN	_	733
-Riisager	Riisager	Riisager	PROPN	_	740	flat	Merete	PROPN	_	739
+Merete	Merete	Merete	PROPN	-	739	list	Martin	PROPN	-	733
+Riisager	Riisager	Riisager	PROPN	-	740	flat	Merete	PROPN	-	739
 </name>
-(	(	(	PUNCT	_	741	punct	LA	PROPN	_	742
+(	(	(	PUNCT	-	741	punct	LA	PROPN	-	742
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	742	flat	Merete	PROPN	_	739
+LA	LA	LA	PROPN	-	742	flat	Merete	PROPN	-	739
 <g/>
 </name>
-)	)	)	PUNCT	_	743	punct	LA	PROPN	_	742
-28	28	28	NUM	NumType=Card	744	nummod	Thyra	PROPN	_	745
+)	)	)	PUNCT	-	743	punct	LA	PROPN	-	742
+28	28	28	NUM	NumType=Card	744	nummod	Thyra	PROPN	-	745
 <name type="PER">
-Thyra	Thyra	Thyra	PROPN	_	745	list	Merete	PROPN	_	739
-Frank	Frank	Frank	PROPN	_	746	flat	Thyra	PROPN	_	745
+Thyra	Thyra	Thyra	PROPN	-	745	list	Merete	PROPN	-	739
+Frank	Frank	Frank	PROPN	-	746	flat	Thyra	PROPN	-	745
 </name>
-(	(	(	PUNCT	_	747	punct	LA	PROPN	_	748
+(	(	(	PUNCT	-	747	punct	LA	PROPN	-	748
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	748	flat	Thyra	PROPN	_	745
+LA	LA	LA	PROPN	-	748	flat	Thyra	PROPN	-	745
 <g/>
 </name>
-)	)	)	PUNCT	_	749	punct	LA	PROPN	_	748
-29	29	29	NUM	NumType=Card	750	nummod	Lene	PROPN	_	751
+)	)	)	PUNCT	-	749	punct	LA	PROPN	-	748
+29	29	29	NUM	NumType=Card	750	nummod	Lene	PROPN	-	751
 <name type="PER">
-Lene	Lene	Lene	PROPN	_	751	list	Thyra	PROPN	_	745
-Espersen	Espersen	Espersen	PROPN	_	752	flat	Lene	PROPN	_	751
+Lene	Lene	Lene	PROPN	-	751	list	Thyra	PROPN	-	745
+Espersen	Espersen	Espersen	PROPN	-	752	flat	Lene	PROPN	-	751
 </name>
-(	(	(	PUNCT	_	753	punct	KF	PROPN	_	754
+(	(	(	PUNCT	-	753	punct	KF	PROPN	-	754
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	754	flat	Lene	PROPN	_	751
+KF	KF	KF	PROPN	-	754	flat	Lene	PROPN	-	751
 <g/>
 </name>
-)	)	)	PUNCT	_	755	punct	KF	PROPN	_	754
-Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	756	list	Lene	PROPN	_	751
+)	)	)	PUNCT	-	755	punct	KF	PROPN	-	754
+Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	756	list	Lene	PROPN	-	751
 <g/>
-:	:	:	PUNCT	_	757	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	756
+:	:	:	PUNCT	-	757	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	756
 <name type="PER">
-Orla	Orla	Orla	PROPN	_	758	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	756
-Hav	Hav	Hav	PROPN	_	759	flat	Orla	PROPN	_	758
+Orla	Orla	Orla	PROPN	-	758	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	756
+Hav	Hav	Hav	PROPN	-	759	flat	Orla	PROPN	-	758
 </name>
-(	(	(	PUNCT	_	760	punct	S	PROPN	_	761
+(	(	(	PUNCT	-	760	punct	S	PROPN	-	761
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	761	flat	Orla	PROPN	_	758
+S	S	S	PROPN	-	761	flat	Orla	PROPN	-	758
 <g/>
 </name>
-)	)	)	PUNCT	_	762	punct	S	PROPN	_	761
-Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	763	list	Orla	PROPN	_	758
+)	)	)	PUNCT	-	762	punct	S	PROPN	-	761
+Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	763	list	Orla	PROPN	-	758
 <g/>
-:	:	:	PUNCT	_	764	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	763
+:	:	:	PUNCT	-	764	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	763
 <name type="PER">
-Lotte	Lotte	Lotte	PROPN	_	765	appos	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	763
-Rod	Rod	Rod	PROPN	_	766	flat	Lotte	PROPN	_	765
+Lotte	Lotte	Lotte	PROPN	-	765	appos	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	763
+Rod	Rod	Rod	PROPN	-	766	flat	Lotte	PROPN	-	765
 </name>
-(	(	(	PUNCT	_	767	punct	RV	PROPN	_	768
+(	(	(	PUNCT	-	767	punct	RV	PROPN	-	768
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	768	flat	Lotte	PROPN	_	765
+RV	RV	RV	PROPN	-	768	flat	Lotte	PROPN	-	765
 <g/>
 </name>
-)	)	)	PUNCT	_	769	punct	RV	PROPN	_	768
-Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	770	flat	Lotte	PROPN	_	765
+)	)	)	PUNCT	-	769	punct	RV	PROPN	-	768
+Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	770	flat	Lotte	PROPN	-	765
 af	af	af	ADP	AdpType=Prep	771	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	773
 29	29	29	NUM	NumType=Card	772	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	773
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	773	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	770
-til	til	til	ADP	AdpType=Prep	774	case	erhvervs-	X	_	775
-Erhvervs-	Erhvervs-	erhvervs-	X	_	775	nmod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	773
-,	,	,	PUNCT	_	776	punct	erhvervs-	X	_	775
-Vækst-	Vækst-	vækst-	X	_	777	conj	erhvervs-	X	_	775
-og	og	og	CCONJ	_	778	cc	eksportudvalget	X	Foreign=Yes	779
-Eksportudvalget	Eksportudvalget	eksportudvalget	X	Foreign=Yes	779	conj	erhvervs-	X	_	775
+til	til	til	ADP	AdpType=Prep	774	case	erhvervs-	X	-	775
+Erhvervs-	Erhvervs-	erhvervs-	X	-	775	nmod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	773
+,	,	,	PUNCT	-	776	punct	erhvervs-	X	-	775
+Vækst-	Vækst-	vækst-	X	-	777	conj	erhvervs-	X	-	775
+og	og	og	CCONJ	-	778	cc	eksportudvalget	X	Foreign=Yes	779
+Eksportudvalget	Eksportudvalget	eksportudvalget	X	Foreign=Yes	779	conj	erhvervs-	X	-	775
 <g/>
-:	:	:	PUNCT	_	780	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	763
+:	:	:	PUNCT	-	780	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	763
 Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	781	list	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	763
-blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	782	cop	Trine	PROPN	_	785
+blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	782	cop	Trine	PROPN	-	785
 <g/>
-:	:	:	PUNCT	_	783	punct	Trine	PROPN	_	785
-1	1	1	NUM	NumType=Card	784	nummod	Trine	PROPN	_	785
+:	:	:	PUNCT	-	783	punct	Trine	PROPN	-	785
+1	1	1	NUM	NumType=Card	784	nummod	Trine	PROPN	-	785
 <name type="PER">
-Trine	Trine	Trine	PROPN	_	785	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	781
-Bramsen	Bramsen	Bramsen	PROPN	_	786	flat	Trine	PROPN	_	785
+Trine	Trine	Trine	PROPN	-	785	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	781
+Bramsen	Bramsen	Bramsen	PROPN	-	786	flat	Trine	PROPN	-	785
 </name>
-(	(	(	PUNCT	_	787	punct	S	PROPN	_	788
+(	(	(	PUNCT	-	787	punct	S	PROPN	-	788
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	788	flat	Trine	PROPN	_	785
+S	S	S	PROPN	-	788	flat	Trine	PROPN	-	785
 <g/>
 </name>
-)	)	)	PUNCT	_	789	punct	S	PROPN	_	788
-2	2	2	NUM	NumType=Card	790	nummod	Julie	PROPN	_	791
+)	)	)	PUNCT	-	789	punct	S	PROPN	-	788
+2	2	2	NUM	NumType=Card	790	nummod	Julie	PROPN	-	791
 <name type="PER">
-Julie	Julie	Julie	PROPN	_	791	list	Trine	PROPN	_	785
-Skovsby	Skovsby	Skovsby	PROPN	_	792	flat	Julie	PROPN	_	791
+Julie	Julie	Julie	PROPN	-	791	list	Trine	PROPN	-	785
+Skovsby	Skovsby	Skovsby	PROPN	-	792	flat	Julie	PROPN	-	791
 </name>
-(	(	(	PUNCT	_	793	punct	S	PROPN	_	794
+(	(	(	PUNCT	-	793	punct	S	PROPN	-	794
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	794	flat	Julie	PROPN	_	791
+S	S	S	PROPN	-	794	flat	Julie	PROPN	-	791
 <g/>
 </name>
-)	)	)	PUNCT	_	795	punct	S	PROPN	_	794
-3	3	3	NUM	NumType=Card	796	nummod	Anne	PROPN	_	797
+)	)	)	PUNCT	-	795	punct	S	PROPN	-	794
+3	3	3	NUM	NumType=Card	796	nummod	Anne	PROPN	-	797
 <name type="PER">
-Anne	Anne	Anne	PROPN	_	797	list	Julie	PROPN	_	791
-Sina	Sina	Sina	PROPN	_	798	flat	Anne	PROPN	_	797
+Anne	Anne	Anne	PROPN	-	797	list	Julie	PROPN	-	791
+Sina	Sina	Sina	PROPN	-	798	flat	Anne	PROPN	-	797
 </name>
-(	(	(	PUNCT	_	799	punct	S	PROPN	_	800
+(	(	(	PUNCT	-	799	punct	S	PROPN	-	800
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	800	list	Anne	PROPN	_	797
+S	S	S	PROPN	-	800	list	Anne	PROPN	-	797
 <g/>
 </name>
-)	)	)	PUNCT	_	801	punct	S	PROPN	_	800
-4	4	4	NUM	NumType=Card	802	nummod	Mette	PROPN	_	803
+)	)	)	PUNCT	-	801	punct	S	PROPN	-	800
+4	4	4	NUM	NumType=Card	802	nummod	Mette	PROPN	-	803
 <name type="PER">
-Mette	Mette	Mette	PROPN	_	803	list	S	PROPN	_	800
-Reissmann	Reissmann	Reissmann	PROPN	_	804	flat	Mette	PROPN	_	803
+Mette	Mette	Mette	PROPN	-	803	list	S	PROPN	-	800
+Reissmann	Reissmann	Reissmann	PROPN	-	804	flat	Mette	PROPN	-	803
 </name>
-(	(	(	PUNCT	_	805	punct	S	PROPN	_	806
+(	(	(	PUNCT	-	805	punct	S	PROPN	-	806
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	806	flat	Mette	PROPN	_	803
+S	S	S	PROPN	-	806	flat	Mette	PROPN	-	803
 <g/>
 </name>
-)	)	)	PUNCT	_	807	punct	S	PROPN	_	806
-5	5	5	NUM	NumType=Card	808	nummod	Karin	PROPN	_	809
+)	)	)	PUNCT	-	807	punct	S	PROPN	-	806
+5	5	5	NUM	NumType=Card	808	nummod	Karin	PROPN	-	809
 <name type="PER">
-Karin	Karin	Karin	PROPN	_	809	list	Mette	PROPN	_	803
-Gaardsted	Gaardsted	Gaardsted	PROPN	_	810	flat	Karin	PROPN	_	809
+Karin	Karin	Karin	PROPN	-	809	list	Mette	PROPN	-	803
+Gaardsted	Gaardsted	Gaardsted	PROPN	-	810	flat	Karin	PROPN	-	809
 </name>
-(	(	(	PUNCT	_	811	punct	S	PROPN	_	812
+(	(	(	PUNCT	-	811	punct	S	PROPN	-	812
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	812	list	Karin	PROPN	_	809
+S	S	S	PROPN	-	812	list	Karin	PROPN	-	809
 <g/>
 </name>
-)	)	)	PUNCT	_	813	punct	S	PROPN	_	812
-6	6	6	NUM	NumType=Card	814	nummod	Thomas	PROPN	_	815
+)	)	)	PUNCT	-	813	punct	S	PROPN	-	812
+6	6	6	NUM	NumType=Card	814	nummod	Thomas	PROPN	-	815
 <name type="PER">
-Thomas	Thomas	Thomas	PROPN	_	815	list	S	PROPN	_	812
-Jensen	Jensen	Jensen	PROPN	_	816	flat	Thomas	PROPN	_	815
+Thomas	Thomas	Thomas	PROPN	-	815	list	S	PROPN	-	812
+Jensen	Jensen	Jensen	PROPN	-	816	flat	Thomas	PROPN	-	815
 </name>
-(	(	(	PUNCT	_	817	punct	S	PROPN	_	818
+(	(	(	PUNCT	-	817	punct	S	PROPN	-	818
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	818	flat	Thomas	PROPN	_	815
+S	S	S	PROPN	-	818	flat	Thomas	PROPN	-	815
 <g/>
 </name>
-)	)	)	PUNCT	_	819	punct	S	PROPN	_	818
-7	7	7	NUM	NumType=Card	820	nummod	Ole	PROPN	_	821
+)	)	)	PUNCT	-	819	punct	S	PROPN	-	818
+7	7	7	NUM	NumType=Card	820	nummod	Ole	PROPN	-	821
 <name type="PER">
-Ole	Ole	Ole	PROPN	_	821	list	Thomas	PROPN	_	815
-Sohn	Sohn	Sohn	PROPN	_	822	flat	Ole	PROPN	_	821
+Ole	Ole	Ole	PROPN	-	821	list	Thomas	PROPN	-	815
+Sohn	Sohn	Sohn	PROPN	-	822	flat	Ole	PROPN	-	821
 </name>
-(	(	(	PUNCT	_	823	punct	S	PROPN	_	824
+(	(	(	PUNCT	-	823	punct	S	PROPN	-	824
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	824	flat	Ole	PROPN	_	821
+S	S	S	PROPN	-	824	flat	Ole	PROPN	-	821
 <g/>
 </name>
-)	)	)	PUNCT	_	825	punct	S	PROPN	_	824
-8	8	8	NUM	NumType=Card	826	nummod	Ida	PROPN	_	827
+)	)	)	PUNCT	-	825	punct	S	PROPN	-	824
+8	8	8	NUM	NumType=Card	826	nummod	Ida	PROPN	-	827
 <name type="PER">
-Ida	Ida	Ida	PROPN	_	827	list	S	PROPN	_	824
-Auken	Auken	Auken	PROPN	_	828	flat	Ida	PROPN	_	827
+Ida	Ida	Ida	PROPN	-	827	list	S	PROPN	-	824
+Auken	Auken	Auken	PROPN	-	828	flat	Ida	PROPN	-	827
 </name>
-(	(	(	PUNCT	_	829	punct	RV	PROPN	_	830
+(	(	(	PUNCT	-	829	punct	RV	PROPN	-	830
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	830	flat	Ida	PROPN	_	827
+RV	RV	RV	PROPN	-	830	flat	Ida	PROPN	-	827
 <g/>
 </name>
-)	)	)	PUNCT	_	831	punct	RV	PROPN	_	830
-9	9	9	NUM	NumType=Card	832	nummod	Nadeem	PROPN	_	833
+)	)	)	PUNCT	-	831	punct	RV	PROPN	-	830
+9	9	9	NUM	NumType=Card	832	nummod	Nadeem	PROPN	-	833
 <name type="PER">
-Nadeem	Nadeem	Nadeem	PROPN	_	833	list	Ida	PROPN	_	827
-Farooq	Farooq	Farooq	NOUN	Definite=Ind Gender=Com Number=Sing	834	flat	Nadeem	PROPN	_	833
+Nadeem	Nadeem	Nadeem	PROPN	-	833	list	Ida	PROPN	-	827
+Farooq	Farooq	Farooq	NOUN	Definite=Ind Gender=Com Number=Sing	834	flat	Nadeem	PROPN	-	833
 </name>
-(	(	(	PUNCT	_	835	punct	RV	PROPN	_	836
+(	(	(	PUNCT	-	835	punct	RV	PROPN	-	836
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	836	flat	Nadeem	PROPN	_	833
+RV	RV	RV	PROPN	-	836	flat	Nadeem	PROPN	-	833
 <g/>
 </name>
-)	)	)	PUNCT	_	837	punct	RV	PROPN	_	836
+)	)	)	PUNCT	-	837	punct	RV	PROPN	-	836
 10	10	10	NUM	NumType=Card	838	nummod	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	839
 <name type="PER">
-Jeppe	Jeppe	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	839	list	Nadeem	PROPN	_	833
-Mikkelsen	Mikkelsen	Mikkelsen	PROPN	_	840	nmod	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	839
+Jeppe	Jeppe	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	839	list	Nadeem	PROPN	-	833
+Mikkelsen	Mikkelsen	Mikkelsen	PROPN	-	840	nmod	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	839
 </name>
-(	(	(	PUNCT	_	841	punct	RV	PROPN	_	842
+(	(	(	PUNCT	-	841	punct	RV	PROPN	-	842
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	842	list	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	839
+RV	RV	RV	PROPN	-	842	list	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	839
 <g/>
 </name>
-)	)	)	PUNCT	_	843	punct	RV	PROPN	_	842
-11	11	11	NUM	NumType=Card	844	nummod	Steen	PROPN	_	845
+)	)	)	PUNCT	-	843	punct	RV	PROPN	-	842
+11	11	11	NUM	NumType=Card	844	nummod	Steen	PROPN	-	845
 <name type="PER">
-Steen	Steen	Steen	PROPN	_	845	list	RV	PROPN	_	842
-Gade	Gade	Gade	PROPN	_	846	flat	Steen	PROPN	_	845
+Steen	Steen	Steen	PROPN	-	845	list	RV	PROPN	-	842
+Gade	Gade	Gade	PROPN	-	846	flat	Steen	PROPN	-	845
 </name>
-(	(	(	PUNCT	_	847	punct	SF	PROPN	_	848
+(	(	(	PUNCT	-	847	punct	SF	PROPN	-	848
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	848	list	Steen	PROPN	_	845
+SF	SF	SF	PROPN	-	848	list	Steen	PROPN	-	845
 <g/>
 </name>
-)	)	)	PUNCT	_	849	punct	SF	PROPN	_	848
-12	12	12	NUM	NumType=Card	850	nummod	Lisbeth	PROPN	_	851
+)	)	)	PUNCT	-	849	punct	SF	PROPN	-	848
+12	12	12	NUM	NumType=Card	850	nummod	Lisbeth	PROPN	-	851
 <name type="PER">
-Lisbeth	Lisbeth	Lisbeth	PROPN	_	851	list	SF	PROPN	_	848
-Bech	Bech	Bech	PROPN	_	852	flat	Lisbeth	PROPN	_	851
-Poulsen	Poulsen	Poulsen	PROPN	_	853	flat	Lisbeth	PROPN	_	851
+Lisbeth	Lisbeth	Lisbeth	PROPN	-	851	list	SF	PROPN	-	848
+Bech	Bech	Bech	PROPN	-	852	flat	Lisbeth	PROPN	-	851
+Poulsen	Poulsen	Poulsen	PROPN	-	853	flat	Lisbeth	PROPN	-	851
 </name>
-(	(	(	PUNCT	_	854	punct	SF	PROPN	_	855
+(	(	(	PUNCT	-	854	punct	SF	PROPN	-	855
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	855	list	Lisbeth	PROPN	_	851
+SF	SF	SF	PROPN	-	855	list	Lisbeth	PROPN	-	851
 <g/>
 </name>
-)	)	)	PUNCT	_	856	punct	SF	PROPN	_	855
-13	13	13	NUM	NumType=Card	857	nummod	Frank	PROPN	_	858
+)	)	)	PUNCT	-	856	punct	SF	PROPN	-	855
+13	13	13	NUM	NumType=Card	857	nummod	Frank	PROPN	-	858
 <name type="PER">
-Frank	Frank	Frank	PROPN	_	858	list	SF	PROPN	_	855
-Aaen	Aaen	Aaen	PROPN	_	859	flat	Frank	PROPN	_	858
+Frank	Frank	Frank	PROPN	-	858	list	SF	PROPN	-	855
+Aaen	Aaen	Aaen	PROPN	-	859	flat	Frank	PROPN	-	858
 </name>
-(	(	(	PUNCT	_	860	punct	EL	PROPN	_	861
+(	(	(	PUNCT	-	860	punct	EL	PROPN	-	861
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	861	flat	Frank	PROPN	_	858
+EL	EL	EL	PROPN	-	861	flat	Frank	PROPN	-	858
 <g/>
 </name>
-)	)	)	PUNCT	_	862	punct	EL	PROPN	_	861
-14	14	14	NUM	NumType=Card	863	nummod	Stine	PROPN	_	864
+)	)	)	PUNCT	-	862	punct	EL	PROPN	-	861
+14	14	14	NUM	NumType=Card	863	nummod	Stine	PROPN	-	864
 <name type="PER">
-Stine	Stine	Stine	PROPN	_	864	list	Frank	PROPN	_	858
-Brix	Brix	Brix	PROPN	_	865	flat	Stine	PROPN	_	864
+Stine	Stine	Stine	PROPN	-	864	list	Frank	PROPN	-	858
+Brix	Brix	Brix	PROPN	-	865	flat	Stine	PROPN	-	864
 </name>
-(	(	(	PUNCT	_	866	punct	EL	PROPN	_	867
+(	(	(	PUNCT	-	866	punct	EL	PROPN	-	867
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	867	flat	Stine	PROPN	_	864
+EL	EL	EL	PROPN	-	867	flat	Stine	PROPN	-	864
 <g/>
 </name>
-)	)	)	PUNCT	_	868	punct	EL	PROPN	_	867
-15	15	15	NUM	NumType=Card	869	nummod	Uffe	PROPN	_	870
+)	)	)	PUNCT	-	868	punct	EL	PROPN	-	867
+15	15	15	NUM	NumType=Card	869	nummod	Uffe	PROPN	-	870
 <name type="PER">
-Uffe	Uffe	Uffe	PROPN	_	870	list	Stine	PROPN	_	864
-Elbæk	Elbæk	Elbæk	PROPN	_	871	flat	Uffe	PROPN	_	870
+Uffe	Uffe	Uffe	PROPN	-	870	list	Stine	PROPN	-	864
+Elbæk	Elbæk	Elbæk	PROPN	-	871	flat	Uffe	PROPN	-	870
 </name>
-(	(	(	PUNCT	_	872	punct	UFG	PROPN	_	873
+(	(	(	PUNCT	-	872	punct	UFG	PROPN	-	873
 <g/>
 <name type="ORG">
-UFG	UFG	UFG	PROPN	_	873	flat	Uffe	PROPN	_	870
+UFG	UFG	UFG	PROPN	-	873	flat	Uffe	PROPN	-	870
 <g/>
 </name>
-)	)	)	PUNCT	_	874	punct	UFG	PROPN	_	873
-16	16	16	NUM	NumType=Card	875	nummod	Kim	PROPN	_	876
+)	)	)	PUNCT	-	874	punct	UFG	PROPN	-	873
+16	16	16	NUM	NumType=Card	875	nummod	Kim	PROPN	-	876
 <name type="PER">
-Kim	Kim	Kim	PROPN	_	876	list	Uffe	PROPN	_	870
-Andersen	Andersen	Andersen	PROPN	_	877	flat	Kim	PROPN	_	876
+Kim	Kim	Kim	PROPN	-	876	list	Uffe	PROPN	-	870
+Andersen	Andersen	Andersen	PROPN	-	877	flat	Kim	PROPN	-	876
 </name>
-(	(	(	PUNCT	_	878	punct	V	PROPN	_	879
+(	(	(	PUNCT	-	878	punct	V	PROPN	-	879
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	879	flat	Kim	PROPN	_	876
+V	V	V	PROPN	-	879	flat	Kim	PROPN	-	876
 <g/>
 </name>
-)	)	)	PUNCT	_	880	punct	V	PROPN	_	879
-17	17	17	NUM	NumType=Card	881	nummod	Michael	PROPN	_	882
+)	)	)	PUNCT	-	880	punct	V	PROPN	-	879
+17	17	17	NUM	NumType=Card	881	nummod	Michael	PROPN	-	882
 <name type="PER">
-Michael	Michael	Michael	PROPN	_	882	list	Kim	PROPN	_	876
-Aastrup	Aastrup	Aastrup	PROPN	_	883	flat	Michael	PROPN	_	882
-Jensen	Jensen	Jensen	PROPN	_	884	flat	Michael	PROPN	_	882
+Michael	Michael	Michael	PROPN	-	882	list	Kim	PROPN	-	876
+Aastrup	Aastrup	Aastrup	PROPN	-	883	flat	Michael	PROPN	-	882
+Jensen	Jensen	Jensen	PROPN	-	884	flat	Michael	PROPN	-	882
 </name>
-(	(	(	PUNCT	_	885	punct	V	PROPN	_	886
+(	(	(	PUNCT	-	885	punct	V	PROPN	-	886
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	886	flat	Michael	PROPN	_	882
+V	V	V	PROPN	-	886	flat	Michael	PROPN	-	882
 <g/>
 </name>
-)	)	)	PUNCT	_	887	punct	V	PROPN	_	886
-18	18	18	NUM	NumType=Card	888	nummod	Anne-Mette	PROPN	_	889
+)	)	)	PUNCT	-	887	punct	V	PROPN	-	886
+18	18	18	NUM	NumType=Card	888	nummod	Anne-Mette	PROPN	-	889
 <name type="PER">
-Anne-Mette	Anne-Mette	Anne-Mette	PROPN	_	889	list	Michael	PROPN	_	882
-Winther	Winther	Winther	PROPN	_	890	flat	Anne-Mette	PROPN	_	889
-Christiansen	Christiansen	Christiansen	PROPN	_	891	flat	Anne-Mette	PROPN	_	889
+Anne-Mette	Anne-Mette	Anne-Mette	PROPN	-	889	list	Michael	PROPN	-	882
+Winther	Winther	Winther	PROPN	-	890	flat	Anne-Mette	PROPN	-	889
+Christiansen	Christiansen	Christiansen	PROPN	-	891	flat	Anne-Mette	PROPN	-	889
 </name>
-(	(	(	PUNCT	_	892	punct	V	PROPN	_	893
+(	(	(	PUNCT	-	892	punct	V	PROPN	-	893
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	893	flat	Anne-Mette	PROPN	_	889
+V	V	V	PROPN	-	893	flat	Anne-Mette	PROPN	-	889
 <g/>
 </name>
-)	)	)	PUNCT	_	894	punct	V	PROPN	_	893
-19	19	19	NUM	NumType=Card	895	nummod	Preben	PROPN	_	896
+)	)	)	PUNCT	-	894	punct	V	PROPN	-	893
+19	19	19	NUM	NumType=Card	895	nummod	Preben	PROPN	-	896
 <name type="PER">
-Preben	Preben	Preben	PROPN	_	896	list	Anne-Mette	PROPN	_	889
-Bang	Bang	Bang	PROPN	_	897	flat	Preben	PROPN	_	896
-Henriksen	Henriksen	Henriksen	PROPN	_	898	flat	Preben	PROPN	_	896
+Preben	Preben	Preben	PROPN	-	896	list	Anne-Mette	PROPN	-	889
+Bang	Bang	Bang	PROPN	-	897	flat	Preben	PROPN	-	896
+Henriksen	Henriksen	Henriksen	PROPN	-	898	flat	Preben	PROPN	-	896
 </name>
-(	(	(	PUNCT	_	899	punct	V	PROPN	_	900
+(	(	(	PUNCT	-	899	punct	V	PROPN	-	900
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	900	flat	Preben	PROPN	_	896
+V	V	V	PROPN	-	900	flat	Preben	PROPN	-	896
 <g/>
 </name>
-)	)	)	PUNCT	_	901	punct	V	PROPN	_	900
-20	20	20	NUM	NumType=Card	902	nummod	Torsten	PROPN	_	903
+)	)	)	PUNCT	-	901	punct	V	PROPN	-	900
+20	20	20	NUM	NumType=Card	902	nummod	Torsten	PROPN	-	903
 <name type="PER">
-Torsten	Torsten	Torsten	PROPN	_	903	list	Preben	PROPN	_	896
-Schack	Schack	Schack	PROPN	_	904	flat	Torsten	PROPN	_	903
-Pedersen	Pedersen	Pedersen	PROPN	_	905	flat	Torsten	PROPN	_	903
+Torsten	Torsten	Torsten	PROPN	-	903	list	Preben	PROPN	-	896
+Schack	Schack	Schack	PROPN	-	904	flat	Torsten	PROPN	-	903
+Pedersen	Pedersen	Pedersen	PROPN	-	905	flat	Torsten	PROPN	-	903
 </name>
-(	(	(	PUNCT	_	906	punct	V	PROPN	_	907
+(	(	(	PUNCT	-	906	punct	V	PROPN	-	907
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	907	flat	Torsten	PROPN	_	903
+V	V	V	PROPN	-	907	flat	Torsten	PROPN	-	903
 <g/>
 </name>
-)	)	)	PUNCT	_	908	punct	V	PROPN	_	907
-21	21	21	NUM	NumType=Card	909	nummod	Jakob	PROPN	_	910
+)	)	)	PUNCT	-	908	punct	V	PROPN	-	907
+21	21	21	NUM	NumType=Card	909	nummod	Jakob	PROPN	-	910
 <name type="PER">
-Jakob	Jakob	Jakob	PROPN	_	910	list	Torsten	PROPN	_	903
-Engel-Schmidt	Engel-Schmidt	Engel-Schmidt	X	_	911	flat	Jakob	PROPN	_	910
+Jakob	Jakob	Jakob	PROPN	-	910	list	Torsten	PROPN	-	903
+Engel-Schmidt	Engel-Schmidt	Engel-Schmidt	X	-	911	flat	Jakob	PROPN	-	910
 </name>
-(	(	(	PUNCT	_	912	punct	V	PROPN	_	913
+(	(	(	PUNCT	-	912	punct	V	PROPN	-	913
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	913	flat	Jakob	PROPN	_	910
+V	V	V	PROPN	-	913	flat	Jakob	PROPN	-	910
 <g/>
 </name>
-)	)	)	PUNCT	_	914	punct	V	PROPN	_	913
-22	22	22	NUM	NumType=Card	915	nummod	Hans	PROPN	_	916
+)	)	)	PUNCT	-	914	punct	V	PROPN	-	913
+22	22	22	NUM	NumType=Card	915	nummod	Hans	PROPN	-	916
 <name type="PER">
-Hans	Hans	Hans	PROPN	_	916	list	Jakob	PROPN	_	910
-Christian	Christian	Christian	PROPN	_	917	flat	Hans	PROPN	_	916
-Schmidt	Schmidt	Schmidt	X	_	918	flat	Hans	PROPN	_	916
+Hans	Hans	Hans	PROPN	-	916	list	Jakob	PROPN	-	910
+Christian	Christian	Christian	PROPN	-	917	flat	Hans	PROPN	-	916
+Schmidt	Schmidt	Schmidt	X	-	918	flat	Hans	PROPN	-	916
 </name>
-(	(	(	PUNCT	_	919	punct	V	PROPN	_	920
+(	(	(	PUNCT	-	919	punct	V	PROPN	-	920
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	920	flat	Hans	PROPN	_	916
+V	V	V	PROPN	-	920	flat	Hans	PROPN	-	916
 <g/>
 </name>
-)	)	)	PUNCT	_	921	punct	V	PROPN	_	920
-23	23	23	NUM	NumType=Card	922	nummod	Hans	PROPN	_	923
+)	)	)	PUNCT	-	921	punct	V	PROPN	-	920
+23	23	23	NUM	NumType=Card	922	nummod	Hans	PROPN	-	923
 <name type="PER">
-Hans	Hans	Hans	PROPN	_	923	list	Hans	PROPN	_	916
-Christian	Christian	Christian	PROPN	_	924	flat	Hans	PROPN	_	923
-Thoning	Thoning	Thoning	PROPN	_	925	flat	Hans	PROPN	_	923
+Hans	Hans	Hans	PROPN	-	923	list	Hans	PROPN	-	916
+Christian	Christian	Christian	PROPN	-	924	flat	Hans	PROPN	-	923
+Thoning	Thoning	Thoning	PROPN	-	925	flat	Hans	PROPN	-	923
 </name>
-(	(	(	PUNCT	_	926	punct	V	PROPN	_	927
+(	(	(	PUNCT	-	926	punct	V	PROPN	-	927
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	927	flat	Hans	PROPN	_	923
+V	V	V	PROPN	-	927	flat	Hans	PROPN	-	923
 <g/>
 </name>
-)	)	)	PUNCT	_	928	punct	V	PROPN	_	927
-24	24	24	NUM	NumType=Card	929	nummod	Hans	PROPN	_	930
+)	)	)	PUNCT	-	928	punct	V	PROPN	-	927
+24	24	24	NUM	NumType=Card	929	nummod	Hans	PROPN	-	930
 <name type="PER">
-Hans	Hans	Hans	PROPN	_	930	list	Hans	PROPN	_	923
-Kristian	Kristian	Kristian	PROPN	_	931	flat	Hans	PROPN	_	930
-Skibby	Skibby	Skibby	PROPN	_	932	flat	Hans	PROPN	_	930
+Hans	Hans	Hans	PROPN	-	930	list	Hans	PROPN	-	923
+Kristian	Kristian	Kristian	PROPN	-	931	flat	Hans	PROPN	-	930
+Skibby	Skibby	Skibby	PROPN	-	932	flat	Hans	PROPN	-	930
 </name>
-(	(	(	PUNCT	_	933	punct	DF	PROPN	_	934
+(	(	(	PUNCT	-	933	punct	DF	PROPN	-	934
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	934	flat	Hans	PROPN	_	930
+DF	DF	DF	PROPN	-	934	flat	Hans	PROPN	-	930
 <g/>
 </name>
-)	)	)	PUNCT	_	935	punct	DF	PROPN	_	934
-25	25	25	NUM	NumType=Card	936	nummod	Dennis	PROPN	_	937
+)	)	)	PUNCT	-	935	punct	DF	PROPN	-	934
+25	25	25	NUM	NumType=Card	936	nummod	Dennis	PROPN	-	937
 <name type="PER">
-Dennis	Dennis	Dennis	PROPN	_	937	list	Hans	PROPN	_	930
-Flydtkjær	Flydtkjær	Flydtkjær	PROPN	_	938	flat	Dennis	PROPN	_	937
+Dennis	Dennis	Dennis	PROPN	-	937	list	Hans	PROPN	-	930
+Flydtkjær	Flydtkjær	Flydtkjær	PROPN	-	938	flat	Dennis	PROPN	-	937
 </name>
-(	(	(	PUNCT	_	939	punct	DF	PROPN	_	940
+(	(	(	PUNCT	-	939	punct	DF	PROPN	-	940
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	940	flat	Dennis	PROPN	_	937
+DF	DF	DF	PROPN	-	940	flat	Dennis	PROPN	-	937
 <g/>
 </name>
-)	)	)	PUNCT	_	941	punct	DF	PROPN	_	940
-26	26	26	NUM	NumType=Card	942	nummod	Mette	PROPN	_	943
+)	)	)	PUNCT	-	941	punct	DF	PROPN	-	940
+26	26	26	NUM	NumType=Card	942	nummod	Mette	PROPN	-	943
 <name type="PER">
-Mette	Mette	Mette	PROPN	_	943	list	Dennis	PROPN	_	937
-Hjermind	Hjermind	Hjermind	PROPN	_	944	flat	Mette	PROPN	_	943
-Dencker	Dencker	Dencker	PROPN	_	945	flat	Mette	PROPN	_	943
+Mette	Mette	Mette	PROPN	-	943	list	Dennis	PROPN	-	937
+Hjermind	Hjermind	Hjermind	PROPN	-	944	flat	Mette	PROPN	-	943
+Dencker	Dencker	Dencker	PROPN	-	945	flat	Mette	PROPN	-	943
 </name>
-(	(	(	PUNCT	_	946	punct	DF	PROPN	_	947
+(	(	(	PUNCT	-	946	punct	DF	PROPN	-	947
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	947	flat	Mette	PROPN	_	943
+DF	DF	DF	PROPN	-	947	flat	Mette	PROPN	-	943
 <g/>
 </name>
-)	)	)	PUNCT	_	948	punct	DF	PROPN	_	947
-27	27	27	NUM	NumType=Card	949	nummod	Kim	PROPN	_	950
+)	)	)	PUNCT	-	948	punct	DF	PROPN	-	947
+27	27	27	NUM	NumType=Card	949	nummod	Kim	PROPN	-	950
 <name type="PER">
-Kim	Kim	Kim	PROPN	_	950	list	Mette	PROPN	_	943
-Christiansen	Christiansen	Christiansen	PROPN	_	951	flat	Kim	PROPN	_	950
+Kim	Kim	Kim	PROPN	-	950	list	Mette	PROPN	-	943
+Christiansen	Christiansen	Christiansen	PROPN	-	951	flat	Kim	PROPN	-	950
 </name>
-(	(	(	PUNCT	_	952	punct	DF	PROPN	_	953
+(	(	(	PUNCT	-	952	punct	DF	PROPN	-	953
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	953	flat	Kim	PROPN	_	950
+DF	DF	DF	PROPN	-	953	flat	Kim	PROPN	-	950
 <g/>
 </name>
-)	)	)	PUNCT	_	954	punct	DF	PROPN	_	953
-28	28	28	NUM	NumType=Card	955	nummod	Joachim	PROPN	_	956
+)	)	)	PUNCT	-	954	punct	DF	PROPN	-	953
+28	28	28	NUM	NumType=Card	955	nummod	Joachim	PROPN	-	956
 <name type="PER">
-Joachim	Joachim	Joachim	PROPN	_	956	list	Kim	PROPN	_	950
-B.	B.	B.	PROPN	_	957	flat	Joachim	PROPN	_	956
-Olsen	Olsen	Olsen	PROPN	_	958	flat	Joachim	PROPN	_	956
+Joachim	Joachim	Joachim	PROPN	-	956	list	Kim	PROPN	-	950
+B.	B.	B.	PROPN	-	957	flat	Joachim	PROPN	-	956
+Olsen	Olsen	Olsen	PROPN	-	958	flat	Joachim	PROPN	-	956
 </name>
-(	(	(	PUNCT	_	959	punct	LA	PROPN	_	960
+(	(	(	PUNCT	-	959	punct	LA	PROPN	-	960
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	960	list	Joachim	PROPN	_	956
+LA	LA	LA	PROPN	-	960	list	Joachim	PROPN	-	956
 <g/>
 </name>
-)	)	)	PUNCT	_	961	punct	LA	PROPN	_	960
-29	29	29	NUM	NumType=Card	962	nummod	Brian	PROPN	_	963
+)	)	)	PUNCT	-	961	punct	LA	PROPN	-	960
+29	29	29	NUM	NumType=Card	962	nummod	Brian	PROPN	-	963
 <name type="PER">
-Brian	Brian	Brian	PROPN	_	963	list	LA	PROPN	_	960
-Mikkelsen	Mikkelsen	Mikkelsen	PROPN	_	964	flat	Brian	PROPN	_	963
+Brian	Brian	Brian	PROPN	-	963	list	LA	PROPN	-	960
+Mikkelsen	Mikkelsen	Mikkelsen	PROPN	-	964	flat	Brian	PROPN	-	963
 </name>
-(	(	(	PUNCT	_	965	punct	KF	PROPN	_	966
+(	(	(	PUNCT	-	965	punct	KF	PROPN	-	966
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	966	flat	Brian	PROPN	_	963
+KF	KF	KF	PROPN	-	966	flat	Brian	PROPN	-	963
 <g/>
 </name>
-)	)	)	PUNCT	_	967	punct	KF	PROPN	_	966
-Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	968	list	Brian	PROPN	_	963
+)	)	)	PUNCT	-	967	punct	KF	PROPN	-	966
+Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	968	list	Brian	PROPN	-	963
 <g/>
-:	:	:	PUNCT	_	969	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	968
+:	:	:	PUNCT	-	969	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	968
 <name type="PER">
-Karin	Karin	Karin	PROPN	_	970	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	968
-Gaardsted	Gaardsted	Gaardsted	PROPN	_	971	flat	Karin	PROPN	_	970
+Karin	Karin	Karin	PROPN	-	970	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	968
+Gaardsted	Gaardsted	Gaardsted	PROPN	-	971	flat	Karin	PROPN	-	970
 </name>
-(	(	(	PUNCT	_	972	punct	S	PROPN	_	973
+(	(	(	PUNCT	-	972	punct	S	PROPN	-	973
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	973	flat	Karin	PROPN	_	970
+S	S	S	PROPN	-	973	flat	Karin	PROPN	-	970
 <g/>
 </name>
-)	)	)	PUNCT	_	974	punct	S	PROPN	_	973
-Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	975	list	Karin	PROPN	_	970
+)	)	)	PUNCT	-	974	punct	S	PROPN	-	973
+Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	975	list	Karin	PROPN	-	970
 <g/>
-:	:	:	PUNCT	_	976	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	975
+:	:	:	PUNCT	-	976	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	975
 <name type="PER">
-Anne-Mette	Anne-Mette	Anne-Mette	PROPN	_	977	appos	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	975
-Winther	Winther	Winther	PROPN	_	978	flat	Anne-Mette	PROPN	_	977
-Christiansen	Christiansen	Christiansen	PROPN	_	979	flat	Anne-Mette	PROPN	_	977
+Anne-Mette	Anne-Mette	Anne-Mette	PROPN	-	977	appos	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	975
+Winther	Winther	Winther	PROPN	-	978	flat	Anne-Mette	PROPN	-	977
+Christiansen	Christiansen	Christiansen	PROPN	-	979	flat	Anne-Mette	PROPN	-	977
 </name>
-(	(	(	PUNCT	_	980	punct	V	PROPN	_	981
+(	(	(	PUNCT	-	980	punct	V	PROPN	-	981
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	981	flat	Anne-Mette	PROPN	_	977
+V	V	V	PROPN	-	981	flat	Anne-Mette	PROPN	-	977
 <g/>
 </name>
-)	)	)	PUNCT	_	982	punct	V	PROPN	_	981
-Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	983	flat	Anne-Mette	PROPN	_	977
+)	)	)	PUNCT	-	982	punct	V	PROPN	-	981
+Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	983	flat	Anne-Mette	PROPN	-	977
 af	af	af	ADP	AdpType=Prep	984	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	986
 29	29	29	NUM	NumType=Card	985	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	986
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	986	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	983
@@ -3804,643 +3804,643 @@ af	af	af	ADP	AdpType=Prep	987	case	Europaudvalg	NOUN	Definite=Def Gender=Neut Nu
 Europaudvalget	Europaudvalget	Europaudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	988	nmod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	986
 <g/>
 </name>
-:	:	:	PUNCT	_	989	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	975
+:	:	:	PUNCT	-	989	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	975
 Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	990	list	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	975
-blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	991	cop	Thomas	PROPN	_	994
+blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	991	cop	Thomas	PROPN	-	994
 <g/>
-:	:	:	PUNCT	_	992	punct	Thomas	PROPN	_	994
-1	1	1	NUM	NumType=Card	993	nummod	Thomas	PROPN	_	994
+:	:	:	PUNCT	-	992	punct	Thomas	PROPN	-	994
+1	1	1	NUM	NumType=Card	993	nummod	Thomas	PROPN	-	994
 <name type="PER">
-Thomas	Thomas	Thomas	PROPN	_	994	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	990
-Jensen	Jensen	Jensen	PROPN	_	995	flat	Thomas	PROPN	_	994
+Thomas	Thomas	Thomas	PROPN	-	994	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	990
+Jensen	Jensen	Jensen	PROPN	-	995	flat	Thomas	PROPN	-	994
 </name>
-(	(	(	PUNCT	_	996	punct	S	PROPN	_	997
+(	(	(	PUNCT	-	996	punct	S	PROPN	-	997
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	997	flat	Thomas	PROPN	_	994
+S	S	S	PROPN	-	997	flat	Thomas	PROPN	-	994
 <g/>
 </name>
-)	)	)	PUNCT	_	998	punct	S	PROPN	_	997
-2	2	2	NUM	NumType=Card	999	nummod	Bjarne	PROPN	_	1000
+)	)	)	PUNCT	-	998	punct	S	PROPN	-	997
+2	2	2	NUM	NumType=Card	999	nummod	Bjarne	PROPN	-	1000
 <name type="PER">
-Bjarne	Bjarne	Bjarne	PROPN	_	1000	list	Thomas	PROPN	_	994
-Laustsen	Laustsen	Laustsen	PROPN	_	1001	flat	Bjarne	PROPN	_	1000
+Bjarne	Bjarne	Bjarne	PROPN	-	1000	list	Thomas	PROPN	-	994
+Laustsen	Laustsen	Laustsen	PROPN	-	1001	flat	Bjarne	PROPN	-	1000
 </name>
-(	(	(	PUNCT	_	1002	punct	S	PROPN	_	1003
+(	(	(	PUNCT	-	1002	punct	S	PROPN	-	1003
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1003	flat	Bjarne	PROPN	_	1000
+S	S	S	PROPN	-	1003	flat	Bjarne	PROPN	-	1000
 <g/>
 </name>
-)	)	)	PUNCT	_	1004	punct	S	PROPN	_	1003
+)	)	)	PUNCT	-	1004	punct	S	PROPN	-	1003
 3	3	3	NUM	NumType=Card	1005	nummod	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	1006
 <name type="PER">
-Jeppe	Jeppe	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	1006	list	Thomas	PROPN	_	994
-Bruus	Bruus	Bruus	PROPN	_	1007	nmod	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	1006
+Jeppe	Jeppe	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	1006	list	Thomas	PROPN	-	994
+Bruus	Bruus	Bruus	PROPN	-	1007	nmod	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	1006
 </name>
-(	(	(	PUNCT	_	1008	punct	S	PROPN	_	1009
+(	(	(	PUNCT	-	1008	punct	S	PROPN	-	1009
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1009	list	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	1006
+S	S	S	PROPN	-	1009	list	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	1006
 <g/>
 </name>
-)	)	)	PUNCT	_	1010	punct	S	PROPN	_	1009
-4	4	4	NUM	NumType=Card	1011	nummod	Jens	PROPN	_	1012
+)	)	)	PUNCT	-	1010	punct	S	PROPN	-	1009
+4	4	4	NUM	NumType=Card	1011	nummod	Jens	PROPN	-	1012
 <name type="PER">
-Jens	Jens	Jens	PROPN	_	1012	list	S	PROPN	_	1009
-Joel	Joel	Joel	PROPN	_	1013	flat	Jens	PROPN	_	1012
+Jens	Jens	Jens	PROPN	-	1012	list	S	PROPN	-	1009
+Joel	Joel	Joel	PROPN	-	1013	flat	Jens	PROPN	-	1012
 </name>
-(	(	(	PUNCT	_	1014	punct	S	PROPN	_	1015
+(	(	(	PUNCT	-	1014	punct	S	PROPN	-	1015
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1015	flat	Jens	PROPN	_	1012
+S	S	S	PROPN	-	1015	flat	Jens	PROPN	-	1012
 <g/>
 </name>
-)	)	)	PUNCT	_	1016	punct	S	PROPN	_	1015
-5	5	5	NUM	NumType=Card	1017	nummod	Morten	PROPN	_	1018
+)	)	)	PUNCT	-	1016	punct	S	PROPN	-	1015
+5	5	5	NUM	NumType=Card	1017	nummod	Morten	PROPN	-	1018
 <name type="PER">
-Morten	Morten	Morten	PROPN	_	1018	list	Jens	PROPN	_	1012
-Bødskov	Bødskov	Bødskov	PROPN	_	1019	flat	Morten	PROPN	_	1018
+Morten	Morten	Morten	PROPN	-	1018	list	Jens	PROPN	-	1012
+Bødskov	Bødskov	Bødskov	PROPN	-	1019	flat	Morten	PROPN	-	1018
 </name>
-(	(	(	PUNCT	_	1020	punct	S	PROPN	_	1021
+(	(	(	PUNCT	-	1020	punct	S	PROPN	-	1021
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1021	flat	Morten	PROPN	_	1018
+S	S	S	PROPN	-	1021	flat	Morten	PROPN	-	1018
 <g/>
 </name>
-)	)	)	PUNCT	_	1022	punct	S	PROPN	_	1021
-6	6	6	NUM	NumType=Card	1023	nummod	Trine	PROPN	_	1024
+)	)	)	PUNCT	-	1022	punct	S	PROPN	-	1021
+6	6	6	NUM	NumType=Card	1023	nummod	Trine	PROPN	-	1024
 <name type="PER">
-Trine	Trine	Trine	PROPN	_	1024	list	Morten	PROPN	_	1018
-Bramsen	Bramsen	Bramsen	PROPN	_	1025	flat	Trine	PROPN	_	1024
+Trine	Trine	Trine	PROPN	-	1024	list	Morten	PROPN	-	1018
+Bramsen	Bramsen	Bramsen	PROPN	-	1025	flat	Trine	PROPN	-	1024
 </name>
-(	(	(	PUNCT	_	1026	punct	S	PROPN	_	1027
+(	(	(	PUNCT	-	1026	punct	S	PROPN	-	1027
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1027	flat	Trine	PROPN	_	1024
+S	S	S	PROPN	-	1027	flat	Trine	PROPN	-	1024
 <g/>
 </name>
-)	)	)	PUNCT	_	1028	punct	S	PROPN	_	1027
-7	7	7	NUM	NumType=Card	1029	nummod	Jacob	PROPN	_	1030
+)	)	)	PUNCT	-	1028	punct	S	PROPN	-	1027
+7	7	7	NUM	NumType=Card	1029	nummod	Jacob	PROPN	-	1030
 <name type="PER">
-Jacob	Jacob	Jacob	PROPN	_	1030	list	Trine	PROPN	_	1024
-Lund	Lund	Lund	PROPN	_	1031	flat	Jacob	PROPN	_	1030
+Jacob	Jacob	Jacob	PROPN	-	1030	list	Trine	PROPN	-	1024
+Lund	Lund	Lund	PROPN	-	1031	flat	Jacob	PROPN	-	1030
 </name>
-(	(	(	PUNCT	_	1032	punct	S	PROPN	_	1033
+(	(	(	PUNCT	-	1032	punct	S	PROPN	-	1033
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1033	flat	Jacob	PROPN	_	1030
+S	S	S	PROPN	-	1033	flat	Jacob	PROPN	-	1030
 <g/>
 </name>
-)	)	)	PUNCT	_	1034	punct	S	PROPN	_	1033
-8	8	8	NUM	NumType=Card	1035	nummod	Ida	PROPN	_	1036
+)	)	)	PUNCT	-	1034	punct	S	PROPN	-	1033
+8	8	8	NUM	NumType=Card	1035	nummod	Ida	PROPN	-	1036
 <name type="PER">
-Ida	Ida	Ida	PROPN	_	1036	list	S	PROPN	_	1033
-Auken	Auken	Auken	PROPN	_	1037	flat	Ida	PROPN	_	1036
+Ida	Ida	Ida	PROPN	-	1036	list	S	PROPN	-	1033
+Auken	Auken	Auken	PROPN	-	1037	flat	Ida	PROPN	-	1036
 </name>
-(	(	(	PUNCT	_	1038	punct	RV	PROPN	_	1039
+(	(	(	PUNCT	-	1038	punct	RV	PROPN	-	1039
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	1039	flat	Ida	PROPN	_	1036
+RV	RV	RV	PROPN	-	1039	flat	Ida	PROPN	-	1036
 <g/>
 </name>
-)	)	)	PUNCT	_	1040	punct	RV	PROPN	_	1039
-9	9	9	NUM	NumType=Card	1041	nummod	Nadeem	PROPN	_	1042
+)	)	)	PUNCT	-	1040	punct	RV	PROPN	-	1039
+9	9	9	NUM	NumType=Card	1041	nummod	Nadeem	PROPN	-	1042
 <name type="PER">
-Nadeem	Nadeem	Nadeem	PROPN	_	1042	list	Ida	PROPN	_	1036
-Farooq	Farooq	Farooq	NOUN	Definite=Ind Gender=Com Number=Sing	1043	flat	Nadeem	PROPN	_	1042
+Nadeem	Nadeem	Nadeem	PROPN	-	1042	list	Ida	PROPN	-	1036
+Farooq	Farooq	Farooq	NOUN	Definite=Ind Gender=Com Number=Sing	1043	flat	Nadeem	PROPN	-	1042
 </name>
-(	(	(	PUNCT	_	1044	punct	RV	PROPN	_	1045
+(	(	(	PUNCT	-	1044	punct	RV	PROPN	-	1045
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	1045	flat	Nadeem	PROPN	_	1042
+RV	RV	RV	PROPN	-	1045	flat	Nadeem	PROPN	-	1042
 <g/>
 </name>
-)	)	)	PUNCT	_	1046	punct	RV	PROPN	_	1045
-10	10	10	NUM	NumType=Card	1047	nummod	Zenia	PROPN	_	1048
+)	)	)	PUNCT	-	1046	punct	RV	PROPN	-	1045
+10	10	10	NUM	NumType=Card	1047	nummod	Zenia	PROPN	-	1048
 <name type="PER">
-Zenia	Zenia	Zenia	PROPN	_	1048	list	Nadeem	PROPN	_	1042
-Stampe	Stampe	Stampe	NOUN	Definite=Ind Gender=Com Number=Sing	1049	flat	Zenia	PROPN	_	1048
+Zenia	Zenia	Zenia	PROPN	-	1048	list	Nadeem	PROPN	-	1042
+Stampe	Stampe	Stampe	NOUN	Definite=Ind Gender=Com Number=Sing	1049	flat	Zenia	PROPN	-	1048
 </name>
-(	(	(	PUNCT	_	1050	punct	RV	PROPN	_	1051
+(	(	(	PUNCT	-	1050	punct	RV	PROPN	-	1051
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	1051	flat	Zenia	PROPN	_	1048
+RV	RV	RV	PROPN	-	1051	flat	Zenia	PROPN	-	1048
 <g/>
 </name>
-)	)	)	PUNCT	_	1052	punct	RV	PROPN	_	1051
-11	11	11	NUM	NumType=Card	1053	nummod	Holger	PROPN	_	1054
+)	)	)	PUNCT	-	1052	punct	RV	PROPN	-	1051
+11	11	11	NUM	NumType=Card	1053	nummod	Holger	PROPN	-	1054
 <name type="PER">
-Holger	Holger	Holger	PROPN	_	1054	list	Zenia	PROPN	_	1048
-K.	K.	K.	PROPN	_	1055	flat	Holger	PROPN	_	1054
-Nielsen	Nielsen	Nielsen	PROPN	_	1056	flat	Holger	PROPN	_	1054
+Holger	Holger	Holger	PROPN	-	1054	list	Zenia	PROPN	-	1048
+K.	K.	K.	PROPN	-	1055	flat	Holger	PROPN	-	1054
+Nielsen	Nielsen	Nielsen	PROPN	-	1056	flat	Holger	PROPN	-	1054
 </name>
-(	(	(	PUNCT	_	1057	punct	SF	PROPN	_	1058
+(	(	(	PUNCT	-	1057	punct	SF	PROPN	-	1058
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	1058	list	Holger	PROPN	_	1054
+SF	SF	SF	PROPN	-	1058	list	Holger	PROPN	-	1054
 <g/>
 </name>
-)	)	)	PUNCT	_	1059	punct	SF	PROPN	_	1058
-12	12	12	NUM	NumType=Card	1060	nummod	Lisbeth	PROPN	_	1061
+)	)	)	PUNCT	-	1059	punct	SF	PROPN	-	1058
+12	12	12	NUM	NumType=Card	1060	nummod	Lisbeth	PROPN	-	1061
 <name type="PER">
-Lisbeth	Lisbeth	Lisbeth	PROPN	_	1061	list	SF	PROPN	_	1058
-Bech	Bech	Bech	PROPN	_	1062	flat	Lisbeth	PROPN	_	1061
-Poulsen	Poulsen	Poulsen	PROPN	_	1063	flat	Lisbeth	PROPN	_	1061
+Lisbeth	Lisbeth	Lisbeth	PROPN	-	1061	list	SF	PROPN	-	1058
+Bech	Bech	Bech	PROPN	-	1062	flat	Lisbeth	PROPN	-	1061
+Poulsen	Poulsen	Poulsen	PROPN	-	1063	flat	Lisbeth	PROPN	-	1061
 </name>
-(	(	(	PUNCT	_	1064	punct	SF	PROPN	_	1065
+(	(	(	PUNCT	-	1064	punct	SF	PROPN	-	1065
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	1065	list	Lisbeth	PROPN	_	1061
+SF	SF	SF	PROPN	-	1065	list	Lisbeth	PROPN	-	1061
 <g/>
 </name>
-)	)	)	PUNCT	_	1066	punct	SF	PROPN	_	1065
-13	13	13	NUM	NumType=Card	1067	nummod	Nikolaj	PROPN	_	1068
+)	)	)	PUNCT	-	1066	punct	SF	PROPN	-	1065
+13	13	13	NUM	NumType=Card	1067	nummod	Nikolaj	PROPN	-	1068
 <name type="PER">
-Nikolaj	Nikolaj	Nikolaj	PROPN	_	1068	list	SF	PROPN	_	1065
-Villumsen	Villumsen	Villumsen	PROPN	_	1069	flat	Nikolaj	PROPN	_	1068
+Nikolaj	Nikolaj	Nikolaj	PROPN	-	1068	list	SF	PROPN	-	1065
+Villumsen	Villumsen	Villumsen	PROPN	-	1069	flat	Nikolaj	PROPN	-	1068
 </name>
-(	(	(	PUNCT	_	1070	punct	EL	PROPN	_	1071
+(	(	(	PUNCT	-	1070	punct	EL	PROPN	-	1071
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	1071	flat	Nikolaj	PROPN	_	1068
+EL	EL	EL	PROPN	-	1071	flat	Nikolaj	PROPN	-	1068
 <g/>
 </name>
-)	)	)	PUNCT	_	1072	punct	EL	PROPN	_	1071
-14	14	14	NUM	NumType=Card	1073	nummod	Finn	PROPN	_	1074
+)	)	)	PUNCT	-	1072	punct	EL	PROPN	-	1071
+14	14	14	NUM	NumType=Card	1073	nummod	Finn	PROPN	-	1074
 <name type="PER">
-Finn	Finn	Finn	PROPN	_	1074	list	Nikolaj	PROPN	_	1068
-Sørensen	Sørensen	Sørensen	PROPN	_	1075	flat	Finn	PROPN	_	1074
+Finn	Finn	Finn	PROPN	-	1074	list	Nikolaj	PROPN	-	1068
+Sørensen	Sørensen	Sørensen	PROPN	-	1075	flat	Finn	PROPN	-	1074
 </name>
-(	(	(	PUNCT	_	1076	punct	EL	PROPN	_	1077
+(	(	(	PUNCT	-	1076	punct	EL	PROPN	-	1077
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	1077	flat	Finn	PROPN	_	1074
+EL	EL	EL	PROPN	-	1077	flat	Finn	PROPN	-	1074
 <g/>
 </name>
-)	)	)	PUNCT	_	1078	punct	EL	PROPN	_	1077
-15	15	15	NUM	NumType=Card	1079	nummod	Per	PROPN	_	1080
+)	)	)	PUNCT	-	1078	punct	EL	PROPN	-	1077
+15	15	15	NUM	NumType=Card	1079	nummod	Per	PROPN	-	1080
 <name type="PER">
-Per	Per	Per	PROPN	_	1080	list	Finn	PROPN	_	1074
-Clausen	Clausen	Clausen	PROPN	_	1081	flat	Per	PROPN	_	1080
+Per	Per	Per	PROPN	-	1080	list	Finn	PROPN	-	1074
+Clausen	Clausen	Clausen	PROPN	-	1081	flat	Per	PROPN	-	1080
 </name>
-(	(	(	PUNCT	_	1082	punct	EL	PROPN	_	1083
+(	(	(	PUNCT	-	1082	punct	EL	PROPN	-	1083
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	1083	flat	Per	PROPN	_	1080
+EL	EL	EL	PROPN	-	1083	flat	Per	PROPN	-	1080
 <g/>
 </name>
-)	)	)	PUNCT	_	1084	punct	EL	PROPN	_	1083
-16	16	16	NUM	NumType=Card	1085	nummod	Erling	PROPN	_	1086
+)	)	)	PUNCT	-	1084	punct	EL	PROPN	-	1083
+16	16	16	NUM	NumType=Card	1085	nummod	Erling	PROPN	-	1086
 <name type="PER">
-Erling	Erling	Erling	PROPN	_	1086	list	Per	PROPN	_	1080
-Bonnesen	Bonnesen	Bonnesen	PROPN	_	1087	flat	Erling	PROPN	_	1086
+Erling	Erling	Erling	PROPN	-	1086	list	Per	PROPN	-	1080
+Bonnesen	Bonnesen	Bonnesen	PROPN	-	1087	flat	Erling	PROPN	-	1086
 </name>
-(	(	(	PUNCT	_	1088	punct	V	PROPN	_	1089
+(	(	(	PUNCT	-	1088	punct	V	PROPN	-	1089
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	1089	flat	Erling	PROPN	_	1086
+V	V	V	PROPN	-	1089	flat	Erling	PROPN	-	1086
 <g/>
 </name>
-)	)	)	PUNCT	_	1090	punct	V	PROPN	_	1089
-17	17	17	NUM	NumType=Card	1091	nummod	Claus	PROPN	_	1092
+)	)	)	PUNCT	-	1090	punct	V	PROPN	-	1089
+17	17	17	NUM	NumType=Card	1091	nummod	Claus	PROPN	-	1092
 <name type="PER">
-Claus	Claus	Claus	PROPN	_	1092	list	Erling	PROPN	_	1086
-Hjort	Hjort	Hjort	PROPN	_	1093	flat	Claus	PROPN	_	1092
-Frederiksen	Frederiksen	Frederiksen	PROPN	_	1094	flat	Claus	PROPN	_	1092
+Claus	Claus	Claus	PROPN	-	1092	list	Erling	PROPN	-	1086
+Hjort	Hjort	Hjort	PROPN	-	1093	flat	Claus	PROPN	-	1092
+Frederiksen	Frederiksen	Frederiksen	PROPN	-	1094	flat	Claus	PROPN	-	1092
 </name>
-(	(	(	PUNCT	_	1095	punct	V	PROPN	_	1096
+(	(	(	PUNCT	-	1095	punct	V	PROPN	-	1096
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	1096	flat	Claus	PROPN	_	1092
+V	V	V	PROPN	-	1096	flat	Claus	PROPN	-	1092
 <g/>
 </name>
-)	)	)	PUNCT	_	1097	punct	V	PROPN	_	1096
-18	18	18	NUM	NumType=Card	1098	nummod	Esben	PROPN	_	1099
+)	)	)	PUNCT	-	1097	punct	V	PROPN	-	1096
+18	18	18	NUM	NumType=Card	1098	nummod	Esben	PROPN	-	1099
 <name type="PER">
-Esben	Esben	Esben	PROPN	_	1099	list	Claus	PROPN	_	1092
-Lunde	Lunde	Lunde	PROPN	_	1100	flat	Esben	PROPN	_	1099
-Larsen	Larsen	Larsen	PROPN	_	1101	flat	Esben	PROPN	_	1099
+Esben	Esben	Esben	PROPN	-	1099	list	Claus	PROPN	-	1092
+Lunde	Lunde	Lunde	PROPN	-	1100	flat	Esben	PROPN	-	1099
+Larsen	Larsen	Larsen	PROPN	-	1101	flat	Esben	PROPN	-	1099
 </name>
-(	(	(	PUNCT	_	1102	punct	V	PROPN	_	1103
+(	(	(	PUNCT	-	1102	punct	V	PROPN	-	1103
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	1103	flat	Esben	PROPN	_	1099
+V	V	V	PROPN	-	1103	flat	Esben	PROPN	-	1099
 <g/>
 </name>
-)	)	)	PUNCT	_	1104	punct	V	PROPN	_	1103
-19	19	19	NUM	NumType=Card	1105	nummod	Eva	PROPN	_	1106
+)	)	)	PUNCT	-	1104	punct	V	PROPN	-	1103
+19	19	19	NUM	NumType=Card	1105	nummod	Eva	PROPN	-	1106
 <name type="PER">
-Eva	Eva	Eva	PROPN	_	1106	list	Esben	PROPN	_	1099
-Kjer	Kjer	Kjer	PROPN	_	1107	flat	Eva	PROPN	_	1106
-Hansen	Hansen	Hansen	PROPN	_	1108	flat	Eva	PROPN	_	1106
+Eva	Eva	Eva	PROPN	-	1106	list	Esben	PROPN	-	1099
+Kjer	Kjer	Kjer	PROPN	-	1107	flat	Eva	PROPN	-	1106
+Hansen	Hansen	Hansen	PROPN	-	1108	flat	Eva	PROPN	-	1106
 </name>
-(	(	(	PUNCT	_	1109	punct	V	PROPN	_	1110
+(	(	(	PUNCT	-	1109	punct	V	PROPN	-	1110
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	1110	flat	Eva	PROPN	_	1106
+V	V	V	PROPN	-	1110	flat	Eva	PROPN	-	1106
 <g/>
 </name>
-)	)	)	PUNCT	_	1111	punct	V	PROPN	_	1110
-20	20	20	NUM	NumType=Card	1112	nummod	Jan	PROPN	_	1113
+)	)	)	PUNCT	-	1111	punct	V	PROPN	-	1110
+20	20	20	NUM	NumType=Card	1112	nummod	Jan	PROPN	-	1113
 <name type="PER">
-Jan	Jan	Jan	PROPN	_	1113	list	Eva	PROPN	_	1106
-E.	E.	E.	PROPN	_	1114	flat	Jan	PROPN	_	1113
-Jørgensen	Jørgensen	Jørgensen	PROPN	_	1115	flat	Jan	PROPN	_	1113
+Jan	Jan	Jan	PROPN	-	1113	list	Eva	PROPN	-	1106
+E.	E.	E.	PROPN	-	1114	flat	Jan	PROPN	-	1113
+Jørgensen	Jørgensen	Jørgensen	PROPN	-	1115	flat	Jan	PROPN	-	1113
 </name>
-(	(	(	PUNCT	_	1116	punct	V	PROPN	_	1117
+(	(	(	PUNCT	-	1116	punct	V	PROPN	-	1117
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	1117	flat	Jan	PROPN	_	1113
+V	V	V	PROPN	-	1117	flat	Jan	PROPN	-	1113
 <g/>
 </name>
-)	)	)	PUNCT	_	1118	punct	V	PROPN	_	1117
-21	21	21	NUM	NumType=Card	1119	nummod	Jakob	PROPN	_	1120
+)	)	)	PUNCT	-	1118	punct	V	PROPN	-	1117
+21	21	21	NUM	NumType=Card	1119	nummod	Jakob	PROPN	-	1120
 <name type="PER">
-Jakob	Jakob	Jakob	PROPN	_	1120	list	Jan	PROPN	_	1113
-Ellemann-Jensen	Ellemann-Jensen	Ellemann-Jensen	PROPN	_	1121	flat	Jakob	PROPN	_	1120
+Jakob	Jakob	Jakob	PROPN	-	1120	list	Jan	PROPN	-	1113
+Ellemann-Jensen	Ellemann-Jensen	Ellemann-Jensen	PROPN	-	1121	flat	Jakob	PROPN	-	1120
 </name>
-(	(	(	PUNCT	_	1122	punct	V	PROPN	_	1123
+(	(	(	PUNCT	-	1122	punct	V	PROPN	-	1123
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	1123	flat	Jakob	PROPN	_	1120
+V	V	V	PROPN	-	1123	flat	Jakob	PROPN	-	1120
 <g/>
 </name>
-)	)	)	PUNCT	_	1124	punct	V	PROPN	_	1123
-22	22	22	NUM	NumType=Card	1125	nummod	Sophie	PROPN	_	1126
+)	)	)	PUNCT	-	1124	punct	V	PROPN	-	1123
+22	22	22	NUM	NumType=Card	1125	nummod	Sophie	PROPN	-	1126
 <name type="PER">
-Sophie	Sophie	Sophie	PROPN	_	1126	list	Jakob	PROPN	_	1120
-Løhde	Løhde	Løhde	NOUN	Definite=Ind Gender=Com Number=Sing	1127	flat	Sophie	PROPN	_	1126
+Sophie	Sophie	Sophie	PROPN	-	1126	list	Jakob	PROPN	-	1120
+Løhde	Løhde	Løhde	NOUN	Definite=Ind Gender=Com Number=Sing	1127	flat	Sophie	PROPN	-	1126
 </name>
-(	(	(	PUNCT	_	1128	punct	V	PROPN	_	1129
+(	(	(	PUNCT	-	1128	punct	V	PROPN	-	1129
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	1129	flat	Sophie	PROPN	_	1126
+V	V	V	PROPN	-	1129	flat	Sophie	PROPN	-	1126
 <g/>
 </name>
-)	)	)	PUNCT	_	1130	punct	V	PROPN	_	1129
-23	23	23	NUM	NumType=Card	1131	nummod	Pia	PROPN	_	1132
+)	)	)	PUNCT	-	1130	punct	V	PROPN	-	1129
+23	23	23	NUM	NumType=Card	1131	nummod	Pia	PROPN	-	1132
 <name type="PER">
-Pia	Pia	Pia	PROPN	_	1132	list	Sophie	PROPN	_	1126
-Adelsteen	Adelsteen	Adelsteen	PROPN	_	1133	flat	Pia	PROPN	_	1132
+Pia	Pia	Pia	PROPN	-	1132	list	Sophie	PROPN	-	1126
+Adelsteen	Adelsteen	Adelsteen	PROPN	-	1133	flat	Pia	PROPN	-	1132
 </name>
-(	(	(	PUNCT	_	1134	punct	DF	PROPN	_	1135
+(	(	(	PUNCT	-	1134	punct	DF	PROPN	-	1135
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	1135	flat	Pia	PROPN	_	1132
+DF	DF	DF	PROPN	-	1135	flat	Pia	PROPN	-	1132
 <g/>
 </name>
-)	)	)	PUNCT	_	1136	punct	DF	PROPN	_	1135
-24	24	24	NUM	NumType=Card	1137	nummod	Mikkel	PROPN	_	1138
+)	)	)	PUNCT	-	1136	punct	DF	PROPN	-	1135
+24	24	24	NUM	NumType=Card	1137	nummod	Mikkel	PROPN	-	1138
 <name type="PER">
-Mikkel	Mikkel	Mikkel	PROPN	_	1138	list	Pia	PROPN	_	1132
-Dencker	Dencker	Dencker	PROPN	_	1139	flat	Mikkel	PROPN	_	1138
+Mikkel	Mikkel	Mikkel	PROPN	-	1138	list	Pia	PROPN	-	1132
+Dencker	Dencker	Dencker	PROPN	-	1139	flat	Mikkel	PROPN	-	1138
 </name>
-(	(	(	PUNCT	_	1140	punct	DF	PROPN	_	1141
+(	(	(	PUNCT	-	1140	punct	DF	PROPN	-	1141
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	1141	flat	Mikkel	PROPN	_	1138
+DF	DF	DF	PROPN	-	1141	flat	Mikkel	PROPN	-	1138
 <g/>
 </name>
-)	)	)	PUNCT	_	1142	punct	DF	PROPN	_	1141
-25	25	25	NUM	NumType=Card	1143	nummod	René	PROPN	_	1144
+)	)	)	PUNCT	-	1142	punct	DF	PROPN	-	1141
+25	25	25	NUM	NumType=Card	1143	nummod	René	PROPN	-	1144
 <name type="PER">
-René	René	René	PROPN	_	1144	list	Mikkel	PROPN	_	1138
-Christensen	Christensen	Christensen	PROPN	_	1145	flat	René	PROPN	_	1144
+René	René	René	PROPN	-	1144	list	Mikkel	PROPN	-	1138
+Christensen	Christensen	Christensen	PROPN	-	1145	flat	René	PROPN	-	1144
 </name>
-(	(	(	PUNCT	_	1146	punct	DF	PROPN	_	1147
+(	(	(	PUNCT	-	1146	punct	DF	PROPN	-	1147
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	1147	flat	René	PROPN	_	1144
+DF	DF	DF	PROPN	-	1147	flat	René	PROPN	-	1144
 <g/>
 </name>
-)	)	)	PUNCT	_	1148	punct	DF	PROPN	_	1147
-26	26	26	NUM	NumType=Card	1149	nummod	Christian	PROPN	_	1150
+)	)	)	PUNCT	-	1148	punct	DF	PROPN	-	1147
+26	26	26	NUM	NumType=Card	1149	nummod	Christian	PROPN	-	1150
 <name type="PER">
-Christian	Christian	Christian	PROPN	_	1150	list	René	PROPN	_	1144
-Langballe	Langballe	Langballe	PROPN	_	1151	flat	Christian	PROPN	_	1150
+Christian	Christian	Christian	PROPN	-	1150	list	René	PROPN	-	1144
+Langballe	Langballe	Langballe	PROPN	-	1151	flat	Christian	PROPN	-	1150
 </name>
-(	(	(	PUNCT	_	1152	punct	DF	PROPN	_	1153
+(	(	(	PUNCT	-	1152	punct	DF	PROPN	-	1153
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	1153	flat	Christian	PROPN	_	1150
+DF	DF	DF	PROPN	-	1153	flat	Christian	PROPN	-	1150
 <g/>
 </name>
-)	)	)	PUNCT	_	1154	punct	DF	PROPN	_	1153
-27	27	27	NUM	NumType=Card	1155	nummod	Mette	PROPN	_	1156
+)	)	)	PUNCT	-	1154	punct	DF	PROPN	-	1153
+27	27	27	NUM	NumType=Card	1155	nummod	Mette	PROPN	-	1156
 <name type="PER">
-Mette	Mette	Mette	PROPN	_	1156	list	Christian	PROPN	_	1150
-Bock	Bock	Bock	PROPN	_	1157	flat	Mette	PROPN	_	1156
+Mette	Mette	Mette	PROPN	-	1156	list	Christian	PROPN	-	1150
+Bock	Bock	Bock	PROPN	-	1157	flat	Mette	PROPN	-	1156
 </name>
-(	(	(	PUNCT	_	1158	punct	LA	PROPN	_	1159
+(	(	(	PUNCT	-	1158	punct	LA	PROPN	-	1159
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	1159	flat	Mette	PROPN	_	1156
+LA	LA	LA	PROPN	-	1159	flat	Mette	PROPN	-	1156
 <g/>
 </name>
-)	)	)	PUNCT	_	1160	punct	LA	PROPN	_	1159
-28	28	28	NUM	NumType=Card	1161	nummod	Per	PROPN	_	1162
+)	)	)	PUNCT	-	1160	punct	LA	PROPN	-	1159
+28	28	28	NUM	NumType=Card	1161	nummod	Per	PROPN	-	1162
 <name type="PER">
-Per	Per	Per	PROPN	_	1162	nsubj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	1196
-Stig	Stig	Stig	PROPN	_	1163	flat	Per	PROPN	_	1162
-Møller	Møller	Møller	PROPN	_	1164	flat	Per	PROPN	_	1162
+Per	Per	Per	PROPN	-	1162	nsubj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	1196
+Stig	Stig	Stig	PROPN	-	1163	flat	Per	PROPN	-	1162
+Møller	Møller	Møller	PROPN	-	1164	flat	Per	PROPN	-	1162
 </name>
-(	(	(	PUNCT	_	1165	punct	KF	PROPN	_	1166
+(	(	(	PUNCT	-	1165	punct	KF	PROPN	-	1166
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	1166	flat	Per	PROPN	_	1162
+KF	KF	KF	PROPN	-	1166	flat	Per	PROPN	-	1162
 <g/>
 </name>
-)	)	)	PUNCT	_	1167	punct	KF	PROPN	_	1166
+)	)	)	PUNCT	-	1167	punct	KF	PROPN	-	1166
 29	29	29	NUM	NumType=Card	1168	nummod	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1174
 <name type="PER">
-Lars	Lars	Lars	PROPN	_	1169	nmod	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1174
-Barfoed	Barfoed	Barfoed	PROPN	_	1170	flat	Lars	PROPN	_	1169
+Lars	Lars	Lars	PROPN	-	1169	nmod	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1174
+Barfoed	Barfoed	Barfoed	PROPN	-	1170	flat	Lars	PROPN	-	1169
 </name>
-(	(	(	PUNCT	_	1171	punct	KF	PROPN	_	1172
+(	(	(	PUNCT	-	1171	punct	KF	PROPN	-	1172
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	1172	flat	Lars	PROPN	_	1169
+KF	KF	KF	PROPN	-	1172	flat	Lars	PROPN	-	1169
 <g/>
 </name>
-)	)	)	PUNCT	_	1173	punct	KF	PROPN	_	1172
+)	)	)	PUNCT	-	1173	punct	KF	PROPN	-	1172
 Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1174	nsubj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	1196
 <g/>
-:	:	:	PUNCT	_	1175	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1174
+:	:	:	PUNCT	-	1175	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1174
 <name type="PER">
-Eva	Eva	Eva	PROPN	_	1176	nmod	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1174
-Kjer	Kjer	Kjer	PROPN	_	1177	flat	Eva	PROPN	_	1176
-Hansen	Hansen	Hansen	PROPN	_	1178	flat	Eva	PROPN	_	1176
+Eva	Eva	Eva	PROPN	-	1176	nmod	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1174
+Kjer	Kjer	Kjer	PROPN	-	1177	flat	Eva	PROPN	-	1176
+Hansen	Hansen	Hansen	PROPN	-	1178	flat	Eva	PROPN	-	1176
 </name>
-(	(	(	PUNCT	_	1179	punct	V	PROPN	_	1180
+(	(	(	PUNCT	-	1179	punct	V	PROPN	-	1180
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	1180	appos	Eva	PROPN	_	1176
+V	V	V	PROPN	-	1180	appos	Eva	PROPN	-	1176
 <g/>
 </name>
-)	)	)	PUNCT	_	1181	punct	V	PROPN	_	1180
-Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	1182	flat	V	PROPN	_	1180
+)	)	)	PUNCT	-	1181	punct	V	PROPN	-	1180
+Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	1182	flat	V	PROPN	-	1180
 <g/>
-:	:	:	PUNCT	_	1183	punct	V	PROPN	_	1180
+:	:	:	PUNCT	-	1183	punct	V	PROPN	-	1180
 <name type="PER">
-Morten	Morten	Morten	PROPN	_	1184	flat	V	PROPN	_	1180
-Bødskov	Bødskov	Bødskov	PROPN	_	1185	flat	Morten	PROPN	_	1184
+Morten	Morten	Morten	PROPN	-	1184	flat	V	PROPN	-	1180
+Bødskov	Bødskov	Bødskov	PROPN	-	1185	flat	Morten	PROPN	-	1184
 </name>
-(	(	(	PUNCT	_	1186	punct	V	PROPN	_	1180
+(	(	(	PUNCT	-	1186	punct	V	PROPN	-	1180
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1187	flat	V	PROPN	_	1180
+S	S	S	PROPN	-	1187	flat	V	PROPN	-	1180
 <g/>
 </name>
-)	)	)	PUNCT	_	1188	punct	V	PROPN	_	1180
-Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	1189	flat	Eva	PROPN	_	1176
+)	)	)	PUNCT	-	1188	punct	V	PROPN	-	1180
+Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	1189	flat	Eva	PROPN	-	1176
 af	af	af	ADP	AdpType=Prep	1190	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	1192
 17	17	17	NUM	NumType=Card	1191	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	1192
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	1192	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	1189
 til	til	til	ADP	AdpType=Prep	1193	case	finansudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	1194
 Finansudvalget	Finansudvalget	finansudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	1194	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	1189
 <g/>
-:	:	:	PUNCT	_	1195	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1174
-Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	1196	acl_relcl	Mette	PROPN	_	1156
+:	:	:	PUNCT	-	1195	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1174
+Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	1196	acl:relcl	Mette	PROPN	-	1156
 blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	1197	aux	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	1196
 <g/>
-:	:	:	PUNCT	_	1198	punct	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	1197
-1	1	1	NUM	NumType=Card	1199	nummod	Jesper	PROPN	_	1200
+:	:	:	PUNCT	-	1198	punct	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	1197
+1	1	1	NUM	NumType=Card	1199	nummod	Jesper	PROPN	-	1200
 <name type="PER">
-Jesper	Jesper	Jesper	PROPN	_	1200	list	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	1197
-Petersen	Petersen	Petersen	PROPN	_	1201	flat	Jesper	PROPN	_	1200
+Jesper	Jesper	Jesper	PROPN	-	1200	list	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	1197
+Petersen	Petersen	Petersen	PROPN	-	1201	flat	Jesper	PROPN	-	1200
 </name>
-(	(	(	PUNCT	_	1202	punct	S	PROPN	_	1203
+(	(	(	PUNCT	-	1202	punct	S	PROPN	-	1203
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1203	flat	Jesper	PROPN	_	1200
+S	S	S	PROPN	-	1203	flat	Jesper	PROPN	-	1200
 <g/>
 </name>
-)	)	)	PUNCT	_	1204	punct	S	PROPN	_	1203
-2	2	2	NUM	NumType=Card	1205	nummod	Ane	PROPN	_	1206
+)	)	)	PUNCT	-	1204	punct	S	PROPN	-	1203
+2	2	2	NUM	NumType=Card	1205	nummod	Ane	PROPN	-	1206
 <name type="PER">
-Ane	Ane	Ane	PROPN	_	1206	list	Jesper	PROPN	_	1200
-Halsboe-Jørgensen	Halsboe-Jørgensen	Halsboe-Jørgensen	PROPN	_	1207	flat	Ane	PROPN	_	1206
+Ane	Ane	Ane	PROPN	-	1206	list	Jesper	PROPN	-	1200
+Halsboe-Jørgensen	Halsboe-Jørgensen	Halsboe-Jørgensen	PROPN	-	1207	flat	Ane	PROPN	-	1206
 </name>
-(	(	(	PUNCT	_	1208	punct	S	PROPN	_	1209
+(	(	(	PUNCT	-	1208	punct	S	PROPN	-	1209
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1209	flat	Ane	PROPN	_	1206
+S	S	S	PROPN	-	1209	flat	Ane	PROPN	-	1206
 <g/>
 </name>
-)	)	)	PUNCT	_	1210	punct	S	PROPN	_	1209
-3	3	3	ADJ	NumType=Ord	1211	amod	Rasmus	PROPN	_	1212
+)	)	)	PUNCT	-	1210	punct	S	PROPN	-	1209
+3	3	3	ADJ	NumType=Ord	1211	amod	Rasmus	PROPN	-	1212
 <name type="PER">
-Rasmus	Rasmus	Rasmus	PROPN	_	1212	list	Ane	PROPN	_	1206
-Prehn	Prehn	Prehn	PROPN	_	1213	flat	Rasmus	PROPN	_	1212
+Rasmus	Rasmus	Rasmus	PROPN	-	1212	list	Ane	PROPN	-	1206
+Prehn	Prehn	Prehn	PROPN	-	1213	flat	Rasmus	PROPN	-	1212
 </name>
-(	(	(	PUNCT	_	1214	punct	S	PROPN	_	1215
+(	(	(	PUNCT	-	1214	punct	S	PROPN	-	1215
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1215	flat	Rasmus	PROPN	_	1212
+S	S	S	PROPN	-	1215	flat	Rasmus	PROPN	-	1212
 <g/>
 </name>
-)	)	)	PUNCT	_	1216	punct	S	PROPN	_	1215
-4	4	4	NUM	NumType=Card	1217	nummod	Simon	PROPN	_	1218
+)	)	)	PUNCT	-	1216	punct	S	PROPN	-	1215
+4	4	4	NUM	NumType=Card	1217	nummod	Simon	PROPN	-	1218
 <name type="PER">
-Simon	Simon	Simon	PROPN	_	1218	list	Rasmus	PROPN	_	1212
-Kollerup	Kollerup	Kollerup	PROPN	_	1219	flat	Simon	PROPN	_	1218
+Simon	Simon	Simon	PROPN	-	1218	list	Rasmus	PROPN	-	1212
+Kollerup	Kollerup	Kollerup	PROPN	-	1219	flat	Simon	PROPN	-	1218
 </name>
-(	(	(	PUNCT	_	1220	punct	S	PROPN	_	1221
+(	(	(	PUNCT	-	1220	punct	S	PROPN	-	1221
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1221	list	Simon	PROPN	_	1218
+S	S	S	PROPN	-	1221	list	Simon	PROPN	-	1218
 <g/>
 </name>
-)	)	)	PUNCT	_	1222	punct	S	PROPN	_	1221
-5	5	5	NUM	NumType=Card	1223	nummod	Thomas	PROPN	_	1224
+)	)	)	PUNCT	-	1222	punct	S	PROPN	-	1221
+5	5	5	NUM	NumType=Card	1223	nummod	Thomas	PROPN	-	1224
 <name type="PER">
-Thomas	Thomas	Thomas	PROPN	_	1224	list	S	PROPN	_	1221
-Jensen	Jensen	Jensen	PROPN	_	1225	flat	Thomas	PROPN	_	1224
+Thomas	Thomas	Thomas	PROPN	-	1224	list	S	PROPN	-	1221
+Jensen	Jensen	Jensen	PROPN	-	1225	flat	Thomas	PROPN	-	1224
 </name>
-(	(	(	PUNCT	_	1226	punct	S	PROPN	_	1227
+(	(	(	PUNCT	-	1226	punct	S	PROPN	-	1227
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1227	flat	Thomas	PROPN	_	1224
+S	S	S	PROPN	-	1227	flat	Thomas	PROPN	-	1224
 <g/>
 </name>
-)	)	)	PUNCT	_	1228	punct	S	PROPN	_	1227
-6	6	6	NUM	NumType=Card	1229	nummod	Camilla	PROPN	_	1230
+)	)	)	PUNCT	-	1228	punct	S	PROPN	-	1227
+6	6	6	NUM	NumType=Card	1229	nummod	Camilla	PROPN	-	1230
 <name type="PER">
-Camilla	Camilla	Camilla	PROPN	_	1230	list	Thomas	PROPN	_	1224
-Hersom	Hersom	Hersom	PROPN	_	1231	flat	Camilla	PROPN	_	1230
+Camilla	Camilla	Camilla	PROPN	-	1230	list	Thomas	PROPN	-	1224
+Hersom	Hersom	Hersom	PROPN	-	1231	flat	Camilla	PROPN	-	1230
 </name>
-(	(	(	PUNCT	_	1232	punct	RV	PROPN	_	1233
+(	(	(	PUNCT	-	1232	punct	RV	PROPN	-	1233
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	1233	flat	Camilla	PROPN	_	1230
+RV	RV	RV	PROPN	-	1233	flat	Camilla	PROPN	-	1230
 <g/>
 </name>
-)	)	)	PUNCT	_	1234	punct	RV	PROPN	_	1233
-7	7	7	NUM	NumType=Card	1235	nummod	Jonas	PROPN	_	1236
+)	)	)	PUNCT	-	1234	punct	RV	PROPN	-	1233
+7	7	7	NUM	NumType=Card	1235	nummod	Jonas	PROPN	-	1236
 <name type="PER">
-Jonas	Jonas	Jonas	PROPN	_	1236	list	Camilla	PROPN	_	1230
-Dahl	Dahl	Dahl	PROPN	_	1237	flat	Jonas	PROPN	_	1236
+Jonas	Jonas	Jonas	PROPN	-	1236	list	Camilla	PROPN	-	1230
+Dahl	Dahl	Dahl	PROPN	-	1237	flat	Jonas	PROPN	-	1236
 </name>
-(	(	(	PUNCT	_	1238	punct	SF	PROPN	_	1239
+(	(	(	PUNCT	-	1238	punct	SF	PROPN	-	1239
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	1239	list	Jonas	PROPN	_	1236
+SF	SF	SF	PROPN	-	1239	list	Jonas	PROPN	-	1236
 <g/>
 </name>
-)	)	)	PUNCT	_	1240	punct	SF	PROPN	_	1239
-8	8	8	NUM	NumType=Card	1241	nummod	Frank	PROPN	_	1242
+)	)	)	PUNCT	-	1240	punct	SF	PROPN	-	1239
+8	8	8	NUM	NumType=Card	1241	nummod	Frank	PROPN	-	1242
 <name type="PER">
-Frank	Frank	Frank	PROPN	_	1242	list	SF	PROPN	_	1239
-Aaen	Aaen	Aaen	PROPN	_	1243	flat	Frank	PROPN	_	1242
+Frank	Frank	Frank	PROPN	-	1242	list	SF	PROPN	-	1239
+Aaen	Aaen	Aaen	PROPN	-	1243	flat	Frank	PROPN	-	1242
 </name>
-(	(	(	PUNCT	_	1244	punct	EL	PROPN	_	1245
+(	(	(	PUNCT	-	1244	punct	EL	PROPN	-	1245
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	1245	flat	Frank	PROPN	_	1242
+EL	EL	EL	PROPN	-	1245	flat	Frank	PROPN	-	1242
 <g/>
 </name>
-)	)	)	PUNCT	_	1246	punct	EL	PROPN	_	1245
-9	9	9	NUM	NumType=Card	1247	nummod	Finn	PROPN	_	1248
+)	)	)	PUNCT	-	1246	punct	EL	PROPN	-	1245
+9	9	9	NUM	NumType=Card	1247	nummod	Finn	PROPN	-	1248
 <name type="PER">
-Finn	Finn	Finn	PROPN	_	1248	list	SF	PROPN	_	1239
-Sørensen	Sørensen	Sørensen	PROPN	_	1249	flat	Finn	PROPN	_	1248
+Finn	Finn	Finn	PROPN	-	1248	list	SF	PROPN	-	1239
+Sørensen	Sørensen	Sørensen	PROPN	-	1249	flat	Finn	PROPN	-	1248
 </name>
-(	(	(	PUNCT	_	1250	punct	EL	PROPN	_	1251
+(	(	(	PUNCT	-	1250	punct	EL	PROPN	-	1251
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	1251	flat	Finn	PROPN	_	1248
+EL	EL	EL	PROPN	-	1251	flat	Finn	PROPN	-	1248
 <g/>
 </name>
-)	)	)	PUNCT	_	1252	punct	EL	PROPN	_	1251
-10	10	10	NUM	NumType=Card	1253	nummod	Peter	PROPN	_	1254
+)	)	)	PUNCT	-	1252	punct	EL	PROPN	-	1251
+10	10	10	NUM	NumType=Card	1253	nummod	Peter	PROPN	-	1254
 <name type="PER">
-Peter	Peter	Peter	PROPN	_	1254	list	Finn	PROPN	_	1248
-Christensen	Christensen	Christensen	PROPN	_	1255	flat	Peter	PROPN	_	1254
+Peter	Peter	Peter	PROPN	-	1254	list	Finn	PROPN	-	1248
+Christensen	Christensen	Christensen	PROPN	-	1255	flat	Peter	PROPN	-	1254
 </name>
-(	(	(	PUNCT	_	1256	punct	V	PROPN	_	1257
+(	(	(	PUNCT	-	1256	punct	V	PROPN	-	1257
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	1257	flat	Peter	PROPN	_	1254
+V	V	V	PROPN	-	1257	flat	Peter	PROPN	-	1254
 <g/>
 </name>
-)	)	)	PUNCT	_	1258	punct	V	PROPN	_	1257
-11	11	11	NUM	NumType=Card	1259	nummod	Claus	PROPN	_	1260
+)	)	)	PUNCT	-	1258	punct	V	PROPN	-	1257
+11	11	11	NUM	NumType=Card	1259	nummod	Claus	PROPN	-	1260
 <name type="PER">
-Claus	Claus	Claus	PROPN	_	1260	list	Peter	PROPN	_	1254
-Hjort	Hjort	Hjort	PROPN	_	1261	flat	Claus	PROPN	_	1260
-Frederiksen	Frederiksen	Frederiksen	PROPN	_	1262	flat	Claus	PROPN	_	1260
+Claus	Claus	Claus	PROPN	-	1260	list	Peter	PROPN	-	1254
+Hjort	Hjort	Hjort	PROPN	-	1261	flat	Claus	PROPN	-	1260
+Frederiksen	Frederiksen	Frederiksen	PROPN	-	1262	flat	Claus	PROPN	-	1260
 </name>
-(	(	(	PUNCT	_	1263	punct	V	PROPN	_	1264
+(	(	(	PUNCT	-	1263	punct	V	PROPN	-	1264
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	1264	flat	Claus	PROPN	_	1260
+V	V	V	PROPN	-	1264	flat	Claus	PROPN	-	1260
 <g/>
 </name>
-)	)	)	PUNCT	_	1265	punct	V	PROPN	_	1264
-12	12	12	NUM	NumType=Card	1266	nummod	Jacob	PROPN	_	1267
+)	)	)	PUNCT	-	1265	punct	V	PROPN	-	1264
+12	12	12	NUM	NumType=Card	1266	nummod	Jacob	PROPN	-	1267
 <name type="PER">
-Jacob	Jacob	Jacob	PROPN	_	1267	list	Claus	PROPN	_	1260
-Jensen	Jensen	Jensen	PROPN	_	1268	flat	Jacob	PROPN	_	1267
+Jacob	Jacob	Jacob	PROPN	-	1267	list	Claus	PROPN	-	1260
+Jensen	Jensen	Jensen	PROPN	-	1268	flat	Jacob	PROPN	-	1267
 </name>
-(	(	(	PUNCT	_	1269	punct	V	PROPN	_	1270
+(	(	(	PUNCT	-	1269	punct	V	PROPN	-	1270
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	1270	flat	Jacob	PROPN	_	1267
+V	V	V	PROPN	-	1270	flat	Jacob	PROPN	-	1267
 <g/>
 </name>
-)	)	)	PUNCT	_	1271	punct	V	PROPN	_	1270
-13	13	13	NUM	NumType=Card	1272	nummod	Kristian	PROPN	_	1273
+)	)	)	PUNCT	-	1271	punct	V	PROPN	-	1270
+13	13	13	NUM	NumType=Card	1272	nummod	Kristian	PROPN	-	1273
 <name type="PER">
-Kristian	Kristian	Kristian	PROPN	_	1273	list	Jacob	PROPN	_	1267
-Jensen	Jensen	Jensen	PROPN	_	1274	flat	Kristian	PROPN	_	1273
+Kristian	Kristian	Kristian	PROPN	-	1273	list	Jacob	PROPN	-	1267
+Jensen	Jensen	Jensen	PROPN	-	1274	flat	Kristian	PROPN	-	1273
 </name>
-(	(	(	PUNCT	_	1275	punct	V	PROPN	_	1276
+(	(	(	PUNCT	-	1275	punct	V	PROPN	-	1276
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	1276	flat	Kristian	PROPN	_	1273
+V	V	V	PROPN	-	1276	flat	Kristian	PROPN	-	1273
 <g/>
 </name>
-)	)	)	PUNCT	_	1277	punct	V	PROPN	_	1276
-14	14	14	NUM	NumType=Card	1278	nummod	Kristian	PROPN	_	1279
+)	)	)	PUNCT	-	1277	punct	V	PROPN	-	1276
+14	14	14	NUM	NumType=Card	1278	nummod	Kristian	PROPN	-	1279
 <name type="PER">
-Kristian	Kristian	Kristian	PROPN	_	1279	list	Kristian	PROPN	_	1273
-Thulesen	Thulesen	Thulesen	PROPN	_	1280	flat	Kristian	PROPN	_	1279
-Dahl	Dahl	Dahl	PROPN	_	1281	flat	Kristian	PROPN	_	1279
+Kristian	Kristian	Kristian	PROPN	-	1279	list	Kristian	PROPN	-	1273
+Thulesen	Thulesen	Thulesen	PROPN	-	1280	flat	Kristian	PROPN	-	1279
+Dahl	Dahl	Dahl	PROPN	-	1281	flat	Kristian	PROPN	-	1279
 </name>
-(	(	(	PUNCT	_	1282	punct	DF	PROPN	_	1283
+(	(	(	PUNCT	-	1282	punct	DF	PROPN	-	1283
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	1283	flat	Kristian	PROPN	_	1279
+DF	DF	DF	PROPN	-	1283	flat	Kristian	PROPN	-	1279
 <g/>
 </name>
-)	)	)	PUNCT	_	1284	punct	DF	PROPN	_	1283
-15	15	15	NUM	NumType=Card	1285	nummod	René	PROPN	_	1286
+)	)	)	PUNCT	-	1284	punct	DF	PROPN	-	1283
+15	15	15	NUM	NumType=Card	1285	nummod	René	PROPN	-	1286
 <name type="PER">
-René	René	René	PROPN	_	1286	list	Kristian	PROPN	_	1279
-Christensen	Christensen	Christensen	PROPN	_	1287	flat	René	PROPN	_	1286
+René	René	René	PROPN	-	1286	list	Kristian	PROPN	-	1279
+Christensen	Christensen	Christensen	PROPN	-	1287	flat	René	PROPN	-	1286
 </name>
-(	(	(	PUNCT	_	1288	punct	DF	PROPN	_	1289
+(	(	(	PUNCT	-	1288	punct	DF	PROPN	-	1289
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	1289	flat	René	PROPN	_	1286
+DF	DF	DF	PROPN	-	1289	flat	René	PROPN	-	1286
 <g/>
 </name>
-)	)	)	PUNCT	_	1290	punct	DF	PROPN	_	1289
-16	16	16	NUM	NumType=Card	1291	nummod	Ole	PROPN	_	1292
+)	)	)	PUNCT	-	1290	punct	DF	PROPN	-	1289
+16	16	16	NUM	NumType=Card	1291	nummod	Ole	PROPN	-	1292
 <name type="PER">
-Ole	Ole	Ole	PROPN	_	1292	list	René	PROPN	_	1286
-Birk	Birk	Birk	PROPN	_	1293	flat	Ole	PROPN	_	1292
-Olesen	Olesen	Olesen	PROPN	_	1294	flat	Ole	PROPN	_	1292
+Ole	Ole	Ole	PROPN	-	1292	list	René	PROPN	-	1286
+Birk	Birk	Birk	PROPN	-	1293	flat	Ole	PROPN	-	1292
+Olesen	Olesen	Olesen	PROPN	-	1294	flat	Ole	PROPN	-	1292
 </name>
-(	(	(	PUNCT	_	1295	punct	LA	PROPN	_	1296
+(	(	(	PUNCT	-	1295	punct	LA	PROPN	-	1296
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	1296	flat	Ole	PROPN	_	1292
+LA	LA	LA	PROPN	-	1296	flat	Ole	PROPN	-	1292
 <g/>
 </name>
-)	)	)	PUNCT	_	1297	punct	LA	PROPN	_	1296
-17	17	17	NUM	NumType=Card	1298	nummod	Mike	PROPN	_	1299
+)	)	)	PUNCT	-	1297	punct	LA	PROPN	-	1296
+17	17	17	NUM	NumType=Card	1298	nummod	Mike	PROPN	-	1299
 <name type="PER">
-Mike	Mike	Mike	PROPN	_	1299	list	Ole	PROPN	_	1292
-Legarth	Legarth	Legarth	PROPN	_	1300	flat	Mike	PROPN	_	1299
+Mike	Mike	Mike	PROPN	-	1299	list	Ole	PROPN	-	1292
+Legarth	Legarth	Legarth	PROPN	-	1300	flat	Mike	PROPN	-	1299
 </name>
-(	(	(	PUNCT	_	1301	punct	KF	PROPN	_	1302
+(	(	(	PUNCT	-	1301	punct	KF	PROPN	-	1302
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	1302	flat	Mike	PROPN	_	1299
+KF	KF	KF	PROPN	-	1302	flat	Mike	PROPN	-	1299
 <g/>
 </name>
-)	)	)	PUNCT	_	1303	punct	KF	PROPN	_	1302
-Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1304	list	Mike	PROPN	_	1299
+)	)	)	PUNCT	-	1303	punct	KF	PROPN	-	1302
+Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1304	list	Mike	PROPN	-	1299
 <g/>
-:	:	:	PUNCT	_	1305	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1304
+:	:	:	PUNCT	-	1305	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1304
 <name type="PER">
-Camilla	Camilla	Camilla	PROPN	_	1306	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1304
-Hersom	Hersom	Hersom	PROPN	_	1307	flat	Camilla	PROPN	_	1306
+Camilla	Camilla	Camilla	PROPN	-	1306	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1304
+Hersom	Hersom	Hersom	PROPN	-	1307	flat	Camilla	PROPN	-	1306
 </name>
-(	(	(	PUNCT	_	1308	punct	RV	PROPN	_	1309
+(	(	(	PUNCT	-	1308	punct	RV	PROPN	-	1309
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	1309	flat	Camilla	PROPN	_	1306
+RV	RV	RV	PROPN	-	1309	flat	Camilla	PROPN	-	1306
 <g/>
 </name>
-)	)	)	PUNCT	_	1310	punct	RV	PROPN	_	1309
-Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	1311	list	Camilla	PROPN	_	1306
+)	)	)	PUNCT	-	1310	punct	RV	PROPN	-	1309
+Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	1311	list	Camilla	PROPN	-	1306
 <g/>
-:	:	:	PUNCT	_	1312	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	1311
+:	:	:	PUNCT	-	1312	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	1311
 <name type="PER">
-Kristian	Kristian	Kristian	PROPN	_	1313	nsubj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	1326
-Thulesen	Thulesen	Thulesen	PROPN	_	1314	flat	Kristian	PROPN	_	1313
-Dahl	Dahl	Dahl	PROPN	_	1315	flat	Kristian	PROPN	_	1313
+Kristian	Kristian	Kristian	PROPN	-	1313	nsubj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	1326
+Thulesen	Thulesen	Thulesen	PROPN	-	1314	flat	Kristian	PROPN	-	1313
+Dahl	Dahl	Dahl	PROPN	-	1315	flat	Kristian	PROPN	-	1313
 </name>
-(	(	(	PUNCT	_	1316	punct	DF	PROPN	_	1317
+(	(	(	PUNCT	-	1316	punct	DF	PROPN	-	1317
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	1317	list	Kristian	PROPN	_	1313
+DF	DF	DF	PROPN	-	1317	list	Kristian	PROPN	-	1313
 <g/>
 </name>
-)	)	)	PUNCT	_	1318	punct	DF	PROPN	_	1317
+)	)	)	PUNCT	-	1318	punct	DF	PROPN	-	1317
 Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	1319	nsubj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	1326
 af	af	af	ADP	AdpType=Prep	1320	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	1322
 29	29	29	NUM	NumType=Card	1321	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	1322
@@ -4448,5814 +4448,5814 @@ medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	1322	nmod	v
 til	til	til	ADP	AdpType=Prep	1323	case	forsvarsudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	1324
 Forsvarsudvalget	Forsvarsudvalget	forsvarsudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	1324	nmod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	1322
 <g/>
-:	:	:	PUNCT	_	1325	punct	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	1319
-Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	1326	acl_relcl	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	1311
+:	:	:	PUNCT	-	1325	punct	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	1319
+Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	1326	acl:relcl	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	1311
 blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	1327	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	1326
 <g/>
-:	:	:	PUNCT	_	1328	punct	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	1327
-1	1	1	NUM	NumType=Card	1329	nummod	Annette	PROPN	_	1330
+:	:	:	PUNCT	-	1328	punct	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	1327
+1	1	1	NUM	NumType=Card	1329	nummod	Annette	PROPN	-	1330
 <name type="PER">
-Annette	Annette	Annette	PROPN	_	1330	list	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	1327
-Lind	Lind	Lind	PROPN	_	1331	flat	Annette	PROPN	_	1330
+Annette	Annette	Annette	PROPN	-	1330	list	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	1327
+Lind	Lind	Lind	PROPN	-	1331	flat	Annette	PROPN	-	1330
 </name>
-(	(	(	PUNCT	_	1332	punct	S	PROPN	_	1333
+(	(	(	PUNCT	-	1332	punct	S	PROPN	-	1333
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1333	flat	Annette	PROPN	_	1330
+S	S	S	PROPN	-	1333	flat	Annette	PROPN	-	1330
 <g/>
 </name>
-)	)	)	PUNCT	_	1334	punct	S	PROPN	_	1333
-2	2	2	NUM	NumType=Card	1335	nummod	Bjarne	PROPN	_	1336
+)	)	)	PUNCT	-	1334	punct	S	PROPN	-	1333
+2	2	2	NUM	NumType=Card	1335	nummod	Bjarne	PROPN	-	1336
 <name type="PER">
-Bjarne	Bjarne	Bjarne	PROPN	_	1336	list	Annette	PROPN	_	1330
-Laustsen	Laustsen	Laustsen	PROPN	_	1337	flat	Bjarne	PROPN	_	1336
+Bjarne	Bjarne	Bjarne	PROPN	-	1336	list	Annette	PROPN	-	1330
+Laustsen	Laustsen	Laustsen	PROPN	-	1337	flat	Bjarne	PROPN	-	1336
 </name>
-(	(	(	PUNCT	_	1338	punct	S	PROPN	_	1339
+(	(	(	PUNCT	-	1338	punct	S	PROPN	-	1339
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1339	flat	Bjarne	PROPN	_	1336
+S	S	S	PROPN	-	1339	flat	Bjarne	PROPN	-	1336
 <g/>
 </name>
-)	)	)	PUNCT	_	1340	punct	S	PROPN	_	1339
-3	3	3	NUM	NumType=Card	1341	nummod	Jacob	PROPN	_	1342
+)	)	)	PUNCT	-	1340	punct	S	PROPN	-	1339
+3	3	3	NUM	NumType=Card	1341	nummod	Jacob	PROPN	-	1342
 <name type="PER">
-Jacob	Jacob	Jacob	PROPN	_	1342	list	Bjarne	PROPN	_	1336
-Lund	Lund	Lund	PROPN	_	1343	flat	Jacob	PROPN	_	1342
+Jacob	Jacob	Jacob	PROPN	-	1342	list	Bjarne	PROPN	-	1336
+Lund	Lund	Lund	PROPN	-	1343	flat	Jacob	PROPN	-	1342
 </name>
-(	(	(	PUNCT	_	1344	punct	S	PROPN	_	1345
+(	(	(	PUNCT	-	1344	punct	S	PROPN	-	1345
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1345	flat	Jacob	PROPN	_	1342
+S	S	S	PROPN	-	1345	flat	Jacob	PROPN	-	1342
 <g/>
 </name>
-)	)	)	PUNCT	_	1346	punct	S	PROPN	_	1345
-4	4	4	NUM	NumType=Card	1347	nummod	John	PROPN	_	1348
+)	)	)	PUNCT	-	1346	punct	S	PROPN	-	1345
+4	4	4	NUM	NumType=Card	1347	nummod	John	PROPN	-	1348
 <name type="PER">
-John	John	John	PROPN	_	1348	list	Jacob	PROPN	_	1342
-Dyrby	Dyrby	Dyrby	PROPN	_	1349	flat	John	PROPN	_	1348
-Paulsen	Paulsen	Paulsen	PROPN	_	1350	flat	John	PROPN	_	1348
+John	John	John	PROPN	-	1348	list	Jacob	PROPN	-	1342
+Dyrby	Dyrby	Dyrby	PROPN	-	1349	flat	John	PROPN	-	1348
+Paulsen	Paulsen	Paulsen	PROPN	-	1350	flat	John	PROPN	-	1348
 </name>
-(	(	(	PUNCT	_	1351	punct	S	PROPN	_	1352
+(	(	(	PUNCT	-	1351	punct	S	PROPN	-	1352
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1352	list	John	PROPN	_	1348
+S	S	S	PROPN	-	1352	list	John	PROPN	-	1348
 <g/>
 </name>
-)	)	)	PUNCT	_	1353	punct	S	PROPN	_	1352
-5	5	5	NUM	NumType=Card	1354	nummod	Ole	PROPN	_	1355
+)	)	)	PUNCT	-	1353	punct	S	PROPN	-	1352
+5	5	5	NUM	NumType=Card	1354	nummod	Ole	PROPN	-	1355
 <name type="PER">
-Ole	Ole	Ole	PROPN	_	1355	list	S	PROPN	_	1352
-Hækkerup	Hækkerup	Hækkerup	PROPN	_	1356	flat	Ole	PROPN	_	1355
+Ole	Ole	Ole	PROPN	-	1355	list	S	PROPN	-	1352
+Hækkerup	Hækkerup	Hækkerup	PROPN	-	1356	flat	Ole	PROPN	-	1355
 </name>
-(	(	(	PUNCT	_	1357	punct	S	PROPN	_	1358
+(	(	(	PUNCT	-	1357	punct	S	PROPN	-	1358
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1358	flat	Ole	PROPN	_	1355
+S	S	S	PROPN	-	1358	flat	Ole	PROPN	-	1355
 <g/>
 </name>
-)	)	)	PUNCT	_	1359	punct	S	PROPN	_	1358
-6	6	6	NUM	NumType=Card	1360	nummod	Trine	PROPN	_	1361
+)	)	)	PUNCT	-	1359	punct	S	PROPN	-	1358
+6	6	6	NUM	NumType=Card	1360	nummod	Trine	PROPN	-	1361
 <name type="PER">
-Trine	Trine	Trine	PROPN	_	1361	flat	S	PROPN	_	1352
-Bramsen	Bramsen	Bramsen	PROPN	_	1362	flat	S	PROPN	_	1352
+Trine	Trine	Trine	PROPN	-	1361	flat	S	PROPN	-	1352
+Bramsen	Bramsen	Bramsen	PROPN	-	1362	flat	S	PROPN	-	1352
 </name>
-(	(	(	PUNCT	_	1363	punct	S	PROPN	_	1364
+(	(	(	PUNCT	-	1363	punct	S	PROPN	-	1364
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1364	flat	S	PROPN	_	1352
+S	S	S	PROPN	-	1364	flat	S	PROPN	-	1352
 <g/>
 </name>
-)	)	)	PUNCT	_	1365	punct	S	PROPN	_	1364
-7	7	7	NUM	NumType=Card	1366	nummod	Zenia	PROPN	_	1367
+)	)	)	PUNCT	-	1365	punct	S	PROPN	-	1364
+7	7	7	NUM	NumType=Card	1366	nummod	Zenia	PROPN	-	1367
 <name type="PER">
-Zenia	Zenia	Zenia	PROPN	_	1367	flat	S	PROPN	_	1352
-Stampe	Stampe	Stampe	NOUN	Definite=Ind Gender=Com Number=Sing	1368	flat	S	PROPN	_	1352
+Zenia	Zenia	Zenia	PROPN	-	1367	flat	S	PROPN	-	1352
+Stampe	Stampe	Stampe	NOUN	Definite=Ind Gender=Com Number=Sing	1368	flat	S	PROPN	-	1352
 </name>
-(	(	(	PUNCT	_	1369	punct	RV	PROPN	_	1370
+(	(	(	PUNCT	-	1369	punct	RV	PROPN	-	1370
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	1370	flat	S	PROPN	_	1352
+RV	RV	RV	PROPN	-	1370	flat	S	PROPN	-	1352
 <g/>
 </name>
-)	)	)	PUNCT	_	1371	punct	RV	PROPN	_	1370
-8	8	8	NUM	NumType=Card	1372	nummod	Nadeem	PROPN	_	1373
+)	)	)	PUNCT	-	1371	punct	RV	PROPN	-	1370
+8	8	8	NUM	NumType=Card	1372	nummod	Nadeem	PROPN	-	1373
 <name type="PER">
-Nadeem	Nadeem	Nadeem	PROPN	_	1373	flat	S	PROPN	_	1352
-Farooq	Farooq	Farooq	NOUN	Definite=Ind Gender=Com Number=Sing	1374	flat	S	PROPN	_	1352
+Nadeem	Nadeem	Nadeem	PROPN	-	1373	flat	S	PROPN	-	1352
+Farooq	Farooq	Farooq	NOUN	Definite=Ind Gender=Com Number=Sing	1374	flat	S	PROPN	-	1352
 </name>
-(	(	(	PUNCT	_	1375	punct	RV	PROPN	_	1376
+(	(	(	PUNCT	-	1375	punct	RV	PROPN	-	1376
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	1376	flat	S	PROPN	_	1352
+RV	RV	RV	PROPN	-	1376	flat	S	PROPN	-	1352
 <g/>
 </name>
-)	)	)	PUNCT	_	1377	punct	RV	PROPN	_	1376
-9	9	9	NUM	NumType=Card	1378	nummod	Lone	PROPN	_	1379
+)	)	)	PUNCT	-	1377	punct	RV	PROPN	-	1376
+9	9	9	NUM	NumType=Card	1378	nummod	Lone	PROPN	-	1379
 <name type="PER">
-Lone	Lone	Lone	PROPN	_	1379	list	S	PROPN	_	1352
-Loklindt	Loklindt	Loklindt	PROPN	_	1380	flat	Lone	PROPN	_	1379
+Lone	Lone	Lone	PROPN	-	1379	list	S	PROPN	-	1352
+Loklindt	Loklindt	Loklindt	PROPN	-	1380	flat	Lone	PROPN	-	1379
 </name>
-(	(	(	PUNCT	_	1381	punct	RV	PROPN	_	1382
+(	(	(	PUNCT	-	1381	punct	RV	PROPN	-	1382
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	1382	flat	Lone	PROPN	_	1379
+RV	RV	RV	PROPN	-	1382	flat	Lone	PROPN	-	1379
 <g/>
 </name>
-)	)	)	PUNCT	_	1383	punct	RV	PROPN	_	1382
-10	10	10	NUM	NumType=Card	1384	nummod	Holger	PROPN	_	1385
+)	)	)	PUNCT	-	1383	punct	RV	PROPN	-	1382
+10	10	10	NUM	NumType=Card	1384	nummod	Holger	PROPN	-	1385
 <name type="PER">
-Holger	Holger	Holger	PROPN	_	1385	list	Lone	PROPN	_	1379
-K.	K.	K.	PROPN	_	1386	flat	Holger	PROPN	_	1385
-Nielsen	Nielsen	Nielsen	PROPN	_	1387	flat	Holger	PROPN	_	1385
+Holger	Holger	Holger	PROPN	-	1385	list	Lone	PROPN	-	1379
+K.	K.	K.	PROPN	-	1386	flat	Holger	PROPN	-	1385
+Nielsen	Nielsen	Nielsen	PROPN	-	1387	flat	Holger	PROPN	-	1385
 </name>
-(	(	(	PUNCT	_	1388	punct	SF	PROPN	_	1389
+(	(	(	PUNCT	-	1388	punct	SF	PROPN	-	1389
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	1389	flat	Holger	PROPN	_	1385
+SF	SF	SF	PROPN	-	1389	flat	Holger	PROPN	-	1385
 <g/>
 </name>
-)	)	)	PUNCT	_	1390	punct	SF	PROPN	_	1389
-11	11	11	NUM	NumType=Card	1391	nummod	Trine	PROPN	_	1392
+)	)	)	PUNCT	-	1390	punct	SF	PROPN	-	1389
+11	11	11	NUM	NumType=Card	1391	nummod	Trine	PROPN	-	1392
 <name type="PER">
-Trine	Trine	Trine	PROPN	_	1392	list	Holger	PROPN	_	1385
-Mach	Mach	Machen	PROPN	_	1393	flat	Trine	PROPN	_	1392
+Trine	Trine	Trine	PROPN	-	1392	list	Holger	PROPN	-	1385
+Mach	Mach	Machen	PROPN	-	1393	flat	Trine	PROPN	-	1392
 </name>
-(	(	(	PUNCT	_	1394	punct	SF	PROPN	_	1395
+(	(	(	PUNCT	-	1394	punct	SF	PROPN	-	1395
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	1395	flat	Trine	PROPN	_	1392
+SF	SF	SF	PROPN	-	1395	flat	Trine	PROPN	-	1392
 <g/>
 </name>
-)	)	)	PUNCT	_	1396	punct	SF	PROPN	_	1395
-12	12	12	NUM	NumType=Card	1397	nummod	Nikolaj	PROPN	_	1398
+)	)	)	PUNCT	-	1396	punct	SF	PROPN	-	1395
+12	12	12	NUM	NumType=Card	1397	nummod	Nikolaj	PROPN	-	1398
 <name type="PER">
-Nikolaj	Nikolaj	Nikolaj	PROPN	_	1398	list	Trine	PROPN	_	1392
-Villumsen	Villumsen	Villumsen	PROPN	_	1399	flat	Nikolaj	PROPN	_	1398
+Nikolaj	Nikolaj	Nikolaj	PROPN	-	1398	list	Trine	PROPN	-	1392
+Villumsen	Villumsen	Villumsen	PROPN	-	1399	flat	Nikolaj	PROPN	-	1398
 </name>
-(	(	(	PUNCT	_	1400	punct	EL	PROPN	_	1401
+(	(	(	PUNCT	-	1400	punct	EL	PROPN	-	1401
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	1401	flat	Nikolaj	PROPN	_	1398
+EL	EL	EL	PROPN	-	1401	flat	Nikolaj	PROPN	-	1398
 <g/>
 </name>
-)	)	)	PUNCT	_	1402	punct	EL	PROPN	_	1401
-13	13	13	NUM	NumType=Card	1403	nummod	Jørgen	PROPN	_	1404
+)	)	)	PUNCT	-	1402	punct	EL	PROPN	-	1401
+13	13	13	NUM	NumType=Card	1403	nummod	Jørgen	PROPN	-	1404
 <name type="PER">
-Jørgen	Jørgen	Jørgen	PROPN	_	1404	list	Nikolaj	PROPN	_	1398
-Arbo-Bæhr	Arbo-Bæhr	Arbo-Bæhr	PROPN	_	1405	flat	Jørgen	PROPN	_	1404
+Jørgen	Jørgen	Jørgen	PROPN	-	1404	list	Nikolaj	PROPN	-	1398
+Arbo-Bæhr	Arbo-Bæhr	Arbo-Bæhr	PROPN	-	1405	flat	Jørgen	PROPN	-	1404
 </name>
-(	(	(	PUNCT	_	1406	punct	EL	PROPN	_	1407
+(	(	(	PUNCT	-	1406	punct	EL	PROPN	-	1407
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	1407	flat	Jørgen	PROPN	_	1404
+EL	EL	EL	PROPN	-	1407	flat	Jørgen	PROPN	-	1404
 <g/>
 </name>
-)	)	)	PUNCT	_	1408	punct	EL	PROPN	_	1407
-14	14	14	NUM	NumType=Card	1409	nummod	Johan	PROPN	_	1410
+)	)	)	PUNCT	-	1408	punct	EL	PROPN	-	1407
+14	14	14	NUM	NumType=Card	1409	nummod	Johan	PROPN	-	1410
 <name type="PER">
-Johan	Johan	Johan	PROPN	_	1410	list	Jørgen	PROPN	_	1404
-Lund	Lund	Lund	PROPN	_	1411	flat	Johan	PROPN	_	1410
-Olsen	Olsen	Olsen	PROPN	_	1412	flat	Johan	PROPN	_	1410
+Johan	Johan	Johan	PROPN	-	1410	list	Jørgen	PROPN	-	1404
+Lund	Lund	Lund	PROPN	-	1411	flat	Johan	PROPN	-	1410
+Olsen	Olsen	Olsen	PROPN	-	1412	flat	Johan	PROPN	-	1410
 </name>
-(	(	(	PUNCT	_	1413	punct	IA	PROPN	_	1414
+(	(	(	PUNCT	-	1413	punct	IA	PROPN	-	1414
 <g/>
 <name type="ORG">
-IA	IA	IA	PROPN	_	1414	flat	Johan	PROPN	_	1410
+IA	IA	IA	PROPN	-	1414	flat	Johan	PROPN	-	1410
 <g/>
 </name>
-)	)	)	PUNCT	_	1415	punct	IA	PROPN	_	1414
-15	15	15	NUM	NumType=Card	1416	nummod	Doris	PROPN	_	1417
+)	)	)	PUNCT	-	1415	punct	IA	PROPN	-	1414
+15	15	15	NUM	NumType=Card	1416	nummod	Doris	PROPN	-	1417
 <name type="PER">
-Doris	Doris	Doris	PROPN	_	1417	list	Johan	PROPN	_	1410
-Jakobsen	Jakobsen	Jakobsen	PROPN	_	1418	flat	Doris	PROPN	_	1417
+Doris	Doris	Doris	PROPN	-	1417	list	Johan	PROPN	-	1410
+Jakobsen	Jakobsen	Jakobsen	PROPN	-	1418	flat	Doris	PROPN	-	1417
 </name>
-(	(	(	PUNCT	_	1419	punct	SIU	PROPN	_	1420
+(	(	(	PUNCT	-	1419	punct	SIU	PROPN	-	1420
 <g/>
 <name type="PER">
-SIU	SIU	SIU	PROPN	_	1420	flat	Doris	PROPN	_	1417
+SIU	SIU	SIU	PROPN	-	1420	flat	Doris	PROPN	-	1417
 <g/>
 </name>
-)	)	)	PUNCT	_	1421	punct	SIU	PROPN	_	1420
-16	16	16	NUM	NumType=Card	1422	nummod	Jakob	PROPN	_	1423
+)	)	)	PUNCT	-	1421	punct	SIU	PROPN	-	1420
+16	16	16	NUM	NumType=Card	1422	nummod	Jakob	PROPN	-	1423
 <name type="PER">
-Jakob	Jakob	Jakob	PROPN	_	1423	list	Doris	PROPN	_	1417
-Engel-Schmidt	Engel-Schmidt	Engel-Schmidt	X	_	1424	flat	Jakob	PROPN	_	1423
+Jakob	Jakob	Jakob	PROPN	-	1423	list	Doris	PROPN	-	1417
+Engel-Schmidt	Engel-Schmidt	Engel-Schmidt	X	-	1424	flat	Jakob	PROPN	-	1423
 </name>
-(	(	(	PUNCT	_	1425	punct	V	PROPN	_	1426
+(	(	(	PUNCT	-	1425	punct	V	PROPN	-	1426
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	1426	flat	Jakob	PROPN	_	1423
+V	V	V	PROPN	-	1426	flat	Jakob	PROPN	-	1423
 <g/>
 </name>
-)	)	)	PUNCT	_	1427	punct	V	PROPN	_	1426
-17	17	17	NUM	NumType=Card	1428	nummod	Jakob	PROPN	_	1429
+)	)	)	PUNCT	-	1427	punct	V	PROPN	-	1426
+17	17	17	NUM	NumType=Card	1428	nummod	Jakob	PROPN	-	1429
 <name type="PER">
-Jakob	Jakob	Jakob	PROPN	_	1429	list	V	PROPN	_	1426
-Ellemann-Jensen	Ellemann-Jensen	Ellemann-Jensen	PROPN	_	1430	flat	Jakob	PROPN	_	1429
+Jakob	Jakob	Jakob	PROPN	-	1429	list	V	PROPN	-	1426
+Ellemann-Jensen	Ellemann-Jensen	Ellemann-Jensen	PROPN	-	1430	flat	Jakob	PROPN	-	1429
 </name>
-(	(	(	PUNCT	_	1431	punct	V	PROPN	_	1432
+(	(	(	PUNCT	-	1431	punct	V	PROPN	-	1432
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	1432	list	Jakob	PROPN	_	1429
+V	V	V	PROPN	-	1432	list	Jakob	PROPN	-	1429
 <g/>
 </name>
-)	)	)	PUNCT	_	1433	punct	V	PROPN	_	1432
-18	18	18	NUM	NumType=Card	1434	nummod	Peter	PROPN	_	1435
+)	)	)	PUNCT	-	1433	punct	V	PROPN	-	1432
+18	18	18	NUM	NumType=Card	1434	nummod	Peter	PROPN	-	1435
 <name type="PER">
-Peter	Peter	Peter	PROPN	_	1435	list	V	PROPN	_	1432
-Juel	Juel	Juel	PROPN	_	1436	flat	Peter	PROPN	_	1435
-Jensen	Jensen	Jensen	PROPN	_	1437	flat	Peter	PROPN	_	1435
+Peter	Peter	Peter	PROPN	-	1435	list	V	PROPN	-	1432
+Juel	Juel	Juel	PROPN	-	1436	flat	Peter	PROPN	-	1435
+Jensen	Jensen	Jensen	PROPN	-	1437	flat	Peter	PROPN	-	1435
 </name>
-(	(	(	PUNCT	_	1438	punct	V	PROPN	_	1439
+(	(	(	PUNCT	-	1438	punct	V	PROPN	-	1439
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	1439	flat	Peter	PROPN	_	1435
+V	V	V	PROPN	-	1439	flat	Peter	PROPN	-	1435
 <g/>
 </name>
-)	)	)	PUNCT	_	1440	punct	V	PROPN	_	1439
-19	19	19	NUM	NumType=Card	1441	nummod	Karsten	PROPN	_	1442
+)	)	)	PUNCT	-	1440	punct	V	PROPN	-	1439
+19	19	19	NUM	NumType=Card	1441	nummod	Karsten	PROPN	-	1442
 <name type="PER">
-Karsten	Karsten	Karsten	PROPN	_	1442	list	Peter	PROPN	_	1435
-Lauritzen	Lauritzen	Lauritzen	PROPN	_	1443	flat	Karsten	PROPN	_	1442
+Karsten	Karsten	Karsten	PROPN	-	1442	list	Peter	PROPN	-	1435
+Lauritzen	Lauritzen	Lauritzen	PROPN	-	1443	flat	Karsten	PROPN	-	1442
 </name>
-(	(	(	PUNCT	_	1444	punct	V	PROPN	_	1445
+(	(	(	PUNCT	-	1444	punct	V	PROPN	-	1445
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	1445	flat	Karsten	PROPN	_	1442
+V	V	V	PROPN	-	1445	flat	Karsten	PROPN	-	1442
 <g/>
 </name>
-)	)	)	PUNCT	_	1446	punct	V	PROPN	_	1445
-20	20	20	NUM	NumType=Card	1447	nummod	Kristian	PROPN	_	1448
+)	)	)	PUNCT	-	1446	punct	V	PROPN	-	1445
+20	20	20	NUM	NumType=Card	1447	nummod	Kristian	PROPN	-	1448
 <name type="PER">
-Kristian	Kristian	Kristian	PROPN	_	1448	list	Karsten	PROPN	_	1442
-Pihl	Pihl	Pihl	PROPN	_	1449	flat	Kristian	PROPN	_	1448
-Lorentzen	Lorentzen	Lorentzen	PROPN	_	1450	flat	Kristian	PROPN	_	1448
+Kristian	Kristian	Kristian	PROPN	-	1448	list	Karsten	PROPN	-	1442
+Pihl	Pihl	Pihl	PROPN	-	1449	flat	Kristian	PROPN	-	1448
+Lorentzen	Lorentzen	Lorentzen	PROPN	-	1450	flat	Kristian	PROPN	-	1448
 </name>
-(	(	(	PUNCT	_	1451	punct	V	PROPN	_	1452
+(	(	(	PUNCT	-	1451	punct	V	PROPN	-	1452
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	1452	flat	Kristian	PROPN	_	1448
+V	V	V	PROPN	-	1452	flat	Kristian	PROPN	-	1448
 <g/>
 </name>
-)	)	)	PUNCT	_	1453	punct	V	PROPN	_	1452
-21	21	21	NUM	NumType=Card	1454	nummod	Karsten	PROPN	_	1455
+)	)	)	PUNCT	-	1453	punct	V	PROPN	-	1452
+21	21	21	NUM	NumType=Card	1454	nummod	Karsten	PROPN	-	1455
 <name type="PER">
-Karsten	Karsten	Karsten	PROPN	_	1455	list	Kristian	PROPN	_	1448
-Nonbo	Nonbo	Nonbo	PROPN	_	1456	flat	Karsten	PROPN	_	1455
+Karsten	Karsten	Karsten	PROPN	-	1455	list	Kristian	PROPN	-	1448
+Nonbo	Nonbo	Nonbo	PROPN	-	1456	flat	Karsten	PROPN	-	1455
 </name>
-(	(	(	PUNCT	_	1457	punct	V	PROPN	_	1458
+(	(	(	PUNCT	-	1457	punct	V	PROPN	-	1458
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	1458	flat	Karsten	PROPN	_	1455
+V	V	V	PROPN	-	1458	flat	Karsten	PROPN	-	1455
 <g/>
 </name>
-)	)	)	PUNCT	_	1459	punct	V	PROPN	_	1458
-22	22	22	NUM	NumType=Card	1460	nummod	Troels	PROPN	_	1461
+)	)	)	PUNCT	-	1459	punct	V	PROPN	-	1458
+22	22	22	NUM	NumType=Card	1460	nummod	Troels	PROPN	-	1461
 <name type="PER">
-Troels	Troels	Troels	PROPN	_	1461	list	Karsten	PROPN	_	1455
-Lund	Lund	Lund	PROPN	_	1462	flat	Troels	PROPN	_	1461
-Poulsen	Poulsen	Poulsen	PROPN	_	1463	flat	Troels	PROPN	_	1461
+Troels	Troels	Troels	PROPN	-	1461	list	Karsten	PROPN	-	1455
+Lund	Lund	Lund	PROPN	-	1462	flat	Troels	PROPN	-	1461
+Poulsen	Poulsen	Poulsen	PROPN	-	1463	flat	Troels	PROPN	-	1461
 </name>
-(	(	(	PUNCT	_	1464	punct	V	PROPN	_	1465
+(	(	(	PUNCT	-	1464	punct	V	PROPN	-	1465
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	1465	flat	Troels	PROPN	_	1461
+V	V	V	PROPN	-	1465	flat	Troels	PROPN	-	1461
 <g/>
 </name>
-)	)	)	PUNCT	_	1466	punct	V	PROPN	_	1465
-23	23	23	NUM	NumType=Card	1467	nummod	Hans	PROPN	_	1468
+)	)	)	PUNCT	-	1466	punct	V	PROPN	-	1465
+23	23	23	NUM	NumType=Card	1467	nummod	Hans	PROPN	-	1468
 <name type="PER">
-Hans	Hans	Hans	PROPN	_	1468	list	Troels	PROPN	_	1461
-Christian	Christian	Christian	PROPN	_	1469	flat	Hans	PROPN	_	1468
-Thoning	Thoning	Thoning	PROPN	_	1470	flat	Hans	PROPN	_	1468
+Hans	Hans	Hans	PROPN	-	1468	list	Troels	PROPN	-	1461
+Christian	Christian	Christian	PROPN	-	1469	flat	Hans	PROPN	-	1468
+Thoning	Thoning	Thoning	PROPN	-	1470	flat	Hans	PROPN	-	1468
 </name>
-(	(	(	PUNCT	_	1471	punct	V	PROPN	_	1472
+(	(	(	PUNCT	-	1471	punct	V	PROPN	-	1472
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	1472	flat	Hans	PROPN	_	1468
+V	V	V	PROPN	-	1472	flat	Hans	PROPN	-	1468
 <g/>
 </name>
-)	)	)	PUNCT	_	1473	punct	V	PROPN	_	1472
-24	24	24	NUM	NumType=Card	1474	nummod	Marie	PROPN	_	1475
+)	)	)	PUNCT	-	1473	punct	V	PROPN	-	1472
+24	24	24	NUM	NumType=Card	1474	nummod	Marie	PROPN	-	1475
 <name type="PER">
-Marie	Marie	Marie	PROPN	_	1475	list	Hans	PROPN	_	1468
-Krarup	Krarup	Krarup	PROPN	_	1476	flat	Marie	PROPN	_	1475
+Marie	Marie	Marie	PROPN	-	1475	list	Hans	PROPN	-	1468
+Krarup	Krarup	Krarup	PROPN	-	1476	flat	Marie	PROPN	-	1475
 </name>
-(	(	(	PUNCT	_	1477	punct	DF	PROPN	_	1478
+(	(	(	PUNCT	-	1477	punct	DF	PROPN	-	1478
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	1478	flat	Marie	PROPN	_	1475
+DF	DF	DF	PROPN	-	1478	flat	Marie	PROPN	-	1475
 <g/>
 </name>
-)	)	)	PUNCT	_	1479	punct	DF	PROPN	_	1478
-25	25	25	NUM	NumType=Card	1480	nummod	Martin	PROPN	_	1481
+)	)	)	PUNCT	-	1479	punct	DF	PROPN	-	1478
+25	25	25	NUM	NumType=Card	1480	nummod	Martin	PROPN	-	1481
 <name type="PER">
-Martin	Martin	Martin	PROPN	_	1481	list	Marie	PROPN	_	1475
-Henriksen	Henriksen	Henriksen	PROPN	_	1482	flat	Martin	PROPN	_	1481
+Martin	Martin	Martin	PROPN	-	1481	list	Marie	PROPN	-	1475
+Henriksen	Henriksen	Henriksen	PROPN	-	1482	flat	Martin	PROPN	-	1481
 </name>
-(	(	(	PUNCT	_	1483	punct	DF	PROPN	_	1484
+(	(	(	PUNCT	-	1483	punct	DF	PROPN	-	1484
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	1484	flat	Martin	PROPN	_	1481
+DF	DF	DF	PROPN	-	1484	flat	Martin	PROPN	-	1481
 <g/>
 </name>
-)	)	)	PUNCT	_	1485	punct	DF	PROPN	_	1484
-26	26	26	NUM	NumType=Card	1486	nummod	Søren	PROPN	_	1487
+)	)	)	PUNCT	-	1485	punct	DF	PROPN	-	1484
+26	26	26	NUM	NumType=Card	1486	nummod	Søren	PROPN	-	1487
 <name type="PER">
-Søren	Søren	Søren	PROPN	_	1487	list	Martin	PROPN	_	1481
-Espersen	Espersen	Espersen	PROPN	_	1488	flat	Søren	PROPN	_	1487
+Søren	Søren	Søren	PROPN	-	1487	list	Martin	PROPN	-	1481
+Espersen	Espersen	Espersen	PROPN	-	1488	flat	Søren	PROPN	-	1487
 </name>
-(	(	(	PUNCT	_	1489	punct	DF	PROPN	_	1490
+(	(	(	PUNCT	-	1489	punct	DF	PROPN	-	1490
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	1490	flat	Søren	PROPN	_	1487
+DF	DF	DF	PROPN	-	1490	flat	Søren	PROPN	-	1487
 <g/>
 </name>
-)	)	)	PUNCT	_	1491	punct	DF	PROPN	_	1490
-27	27	27	NUM	NumType=Card	1492	nummod	Hans	PROPN	_	1493
+)	)	)	PUNCT	-	1491	punct	DF	PROPN	-	1490
+27	27	27	NUM	NumType=Card	1492	nummod	Hans	PROPN	-	1493
 <name type="PER">
-Hans	Hans	Hans	PROPN	_	1493	list	Søren	PROPN	_	1487
-Kristian	Kristian	Kristian	PROPN	_	1494	flat	Hans	PROPN	_	1493
-Skibby	Skibby	Skibby	PROPN	_	1495	flat	Hans	PROPN	_	1493
+Hans	Hans	Hans	PROPN	-	1493	list	Søren	PROPN	-	1487
+Kristian	Kristian	Kristian	PROPN	-	1494	flat	Hans	PROPN	-	1493
+Skibby	Skibby	Skibby	PROPN	-	1495	flat	Hans	PROPN	-	1493
 </name>
-(	(	(	PUNCT	_	1496	punct	DF	PROPN	_	1497
+(	(	(	PUNCT	-	1496	punct	DF	PROPN	-	1497
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	1497	flat	Hans	PROPN	_	1493
+DF	DF	DF	PROPN	-	1497	flat	Hans	PROPN	-	1493
 <g/>
 </name>
-)	)	)	PUNCT	_	1498	punct	DF	PROPN	_	1497
-28	28	28	NUM	NumType=Card	1499	nummod	Leif	PROPN	_	1500
+)	)	)	PUNCT	-	1498	punct	DF	PROPN	-	1497
+28	28	28	NUM	NumType=Card	1499	nummod	Leif	PROPN	-	1500
 <name type="PER">
-Leif	Leif	Leif	PROPN	_	1500	list	Hans	PROPN	_	1493
-Mikkelsen	Mikkelsen	Mikkelsen	PROPN	_	1501	flat	Leif	PROPN	_	1500
+Leif	Leif	Leif	PROPN	-	1500	list	Hans	PROPN	-	1493
+Mikkelsen	Mikkelsen	Mikkelsen	PROPN	-	1501	flat	Leif	PROPN	-	1500
 </name>
-(	(	(	PUNCT	_	1502	punct	LA	PROPN	_	1503
+(	(	(	PUNCT	-	1502	punct	LA	PROPN	-	1503
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	1503	flat	Leif	PROPN	_	1500
+LA	LA	LA	PROPN	-	1503	flat	Leif	PROPN	-	1500
 <g/>
 </name>
-)	)	)	PUNCT	_	1504	punct	LA	PROPN	_	1503
-29	29	29	NUM	NumType=Card	1505	nummod	Tom	PROPN	_	1506
+)	)	)	PUNCT	-	1504	punct	LA	PROPN	-	1503
+29	29	29	NUM	NumType=Card	1505	nummod	Tom	PROPN	-	1506
 <name type="PER">
-Tom	Tom	Tom	PROPN	_	1506	list	Leif	PROPN	_	1500
-Behnke	Behnke	Behnke	PROPN	_	1507	flat	Tom	PROPN	_	1506
+Tom	Tom	Tom	PROPN	-	1506	list	Leif	PROPN	-	1500
+Behnke	Behnke	Behnke	PROPN	-	1507	flat	Tom	PROPN	-	1506
 </name>
-(	(	(	PUNCT	_	1508	punct	KF	PROPN	_	1509
+(	(	(	PUNCT	-	1508	punct	KF	PROPN	-	1509
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	1509	flat	Tom	PROPN	_	1506
+KF	KF	KF	PROPN	-	1509	flat	Tom	PROPN	-	1506
 <g/>
 </name>
-)	)	)	PUNCT	_	1510	punct	KF	PROPN	_	1509
-Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1511	list	Tom	PROPN	_	1506
+)	)	)	PUNCT	-	1510	punct	KF	PROPN	-	1509
+Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1511	list	Tom	PROPN	-	1506
 <g/>
-:	:	:	PUNCT	_	1512	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1511
+:	:	:	PUNCT	-	1512	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1511
 <name type="PER">
-Karsten	Karsten	Karsten	PROPN	_	1513	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1511
-Nonbo	Nonbo	Nonbo	PROPN	_	1514	flat	Karsten	PROPN	_	1513
+Karsten	Karsten	Karsten	PROPN	-	1513	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1511
+Nonbo	Nonbo	Nonbo	PROPN	-	1514	flat	Karsten	PROPN	-	1513
 </name>
-(	(	(	PUNCT	_	1515	punct	V	PROPN	_	1516
+(	(	(	PUNCT	-	1515	punct	V	PROPN	-	1516
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	1516	flat	Karsten	PROPN	_	1513
+V	V	V	PROPN	-	1516	flat	Karsten	PROPN	-	1513
 <g/>
 </name>
-)	)	)	PUNCT	_	1517	punct	V	PROPN	_	1516
-Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	1518	list	Karsten	PROPN	_	1513
+)	)	)	PUNCT	-	1517	punct	V	PROPN	-	1516
+Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	1518	list	Karsten	PROPN	-	1513
 <g/>
-:	:	:	PUNCT	_	1519	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	1518
+:	:	:	PUNCT	-	1519	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	1518
 <name type="PER">
-Annette	Annette	Annette	PROPN	_	1520	appos	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	1518
-Lind	Lind	Lind	PROPN	_	1521	flat	Annette	PROPN	_	1520
+Annette	Annette	Annette	PROPN	-	1520	appos	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	1518
+Lind	Lind	Lind	PROPN	-	1521	flat	Annette	PROPN	-	1520
 </name>
-(	(	(	PUNCT	_	1522	punct	S	PROPN	_	1523
+(	(	(	PUNCT	-	1522	punct	S	PROPN	-	1523
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1523	flat	Annette	PROPN	_	1520
+S	S	S	PROPN	-	1523	flat	Annette	PROPN	-	1520
 <g/>
 </name>
-)	)	)	PUNCT	_	1524	punct	S	PROPN	_	1523
-Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	1525	flat	Annette	PROPN	_	1520
+)	)	)	PUNCT	-	1524	punct	S	PROPN	-	1523
+Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	1525	flat	Annette	PROPN	-	1520
 af	af	af	ADP	AdpType=Prep	1526	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	1528
 17	17	17	NUM	NumType=Card	1527	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	1528
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	1528	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	1525
 til	til	til	ADP	AdpType=Prep	1529	case	indfødsretsudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	1530
 Indfødsretsudvalget	Indfødsretsudvalget	indfødsretsudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	1530	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	1525
 <g/>
-:	:	:	PUNCT	_	1531	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	1518
+:	:	:	PUNCT	-	1531	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	1518
 Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	1532	list	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	1518
-blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	1533	cop	Lennart	PROPN	_	1536
+blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	1533	cop	Lennart	PROPN	-	1536
 <g/>
-:	:	:	PUNCT	_	1534	punct	Lennart	PROPN	_	1536
-1	1	1	NUM	NumType=Card	1535	nummod	Lennart	PROPN	_	1536
+:	:	:	PUNCT	-	1534	punct	Lennart	PROPN	-	1536
+1	1	1	NUM	NumType=Card	1535	nummod	Lennart	PROPN	-	1536
 <name type="PER">
-Lennart	Lennart	Lennart	PROPN	_	1536	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	1532
-Damsbo-Andersen	Damsbo-Andersen	Damsbo-Andersen	PROPN	_	1537	flat	Lennart	PROPN	_	1536
+Lennart	Lennart	Lennart	PROPN	-	1536	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	1532
+Damsbo-Andersen	Damsbo-Andersen	Damsbo-Andersen	PROPN	-	1537	flat	Lennart	PROPN	-	1536
 </name>
-(	(	(	PUNCT	_	1538	punct	S	PROPN	_	1539
+(	(	(	PUNCT	-	1538	punct	S	PROPN	-	1539
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1539	flat	Lennart	PROPN	_	1536
+S	S	S	PROPN	-	1539	flat	Lennart	PROPN	-	1536
 <g/>
 </name>
-)	)	)	PUNCT	_	1540	punct	S	PROPN	_	1539
-2	2	2	NUM	NumType=Card	1541	nummod	Jens	PROPN	_	1542
+)	)	)	PUNCT	-	1540	punct	S	PROPN	-	1539
+2	2	2	NUM	NumType=Card	1541	nummod	Jens	PROPN	-	1542
 <name type="PER">
-Jens	Jens	Jens	PROPN	_	1542	list	Lennart	PROPN	_	1536
-Joel	Joel	Joel	PROPN	_	1543	flat	Jens	PROPN	_	1542
+Jens	Jens	Jens	PROPN	-	1542	list	Lennart	PROPN	-	1536
+Joel	Joel	Joel	PROPN	-	1543	flat	Jens	PROPN	-	1542
 </name>
-(	(	(	PUNCT	_	1544	punct	S	PROPN	_	1545
+(	(	(	PUNCT	-	1544	punct	S	PROPN	-	1545
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1545	flat	Jens	PROPN	_	1542
+S	S	S	PROPN	-	1545	flat	Jens	PROPN	-	1542
 <g/>
 </name>
-)	)	)	PUNCT	_	1546	punct	S	PROPN	_	1545
-3	3	3	ADJ	NumType=Ord	1547	amod	Karen	PROPN	_	1548
+)	)	)	PUNCT	-	1546	punct	S	PROPN	-	1545
+3	3	3	ADJ	NumType=Ord	1547	amod	Karen	PROPN	-	1548
 <name type="PER">
-Karen	Karen	Karen	PROPN	_	1548	list	Jens	PROPN	_	1542
-J.	J.	J.	PROPN	_	1549	flat	Karen	PROPN	_	1548
-Klint	Klint	Klint	PROPN	_	1550	flat	Karen	PROPN	_	1548
+Karen	Karen	Karen	PROPN	-	1548	list	Jens	PROPN	-	1542
+J.	J.	J.	PROPN	-	1549	flat	Karen	PROPN	-	1548
+Klint	Klint	Klint	PROPN	-	1550	flat	Karen	PROPN	-	1548
 </name>
-(	(	(	PUNCT	_	1551	punct	S	PROPN	_	1552
+(	(	(	PUNCT	-	1551	punct	S	PROPN	-	1552
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1552	flat	Karen	PROPN	_	1548
+S	S	S	PROPN	-	1552	flat	Karen	PROPN	-	1548
 <g/>
 </name>
-)	)	)	PUNCT	_	1553	punct	S	PROPN	_	1552
+)	)	)	PUNCT	-	1553	punct	S	PROPN	-	1552
 4	4	4	NUM	NumType=Card	1554	nummod	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	1555
 <name type="PER">
-Jeppe	Jeppe	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	1555	list	Karen	PROPN	_	1548
-Bruus	Bruus	Bruus	PROPN	_	1556	nmod	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	1555
+Jeppe	Jeppe	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	1555	list	Karen	PROPN	-	1548
+Bruus	Bruus	Bruus	PROPN	-	1556	nmod	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	1555
 </name>
-(	(	(	PUNCT	_	1557	punct	S	PROPN	_	1558
+(	(	(	PUNCT	-	1557	punct	S	PROPN	-	1558
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1558	list	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	1555
+S	S	S	PROPN	-	1558	list	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	1555
 <g/>
 </name>
-)	)	)	PUNCT	_	1559	punct	S	PROPN	_	1558
-5	5	5	NUM	NumType=Card	1560	nummod	Trine	PROPN	_	1561
+)	)	)	PUNCT	-	1559	punct	S	PROPN	-	1558
+5	5	5	NUM	NumType=Card	1560	nummod	Trine	PROPN	-	1561
 <name type="PER">
-Trine	Trine	Trine	PROPN	_	1561	flat	S	PROPN	_	1558
-Bramsen	Bramsen	Bramsen	PROPN	_	1562	flat	S	PROPN	_	1558
+Trine	Trine	Trine	PROPN	-	1561	flat	S	PROPN	-	1558
+Bramsen	Bramsen	Bramsen	PROPN	-	1562	flat	S	PROPN	-	1558
 </name>
-(	(	(	PUNCT	_	1563	punct	S	PROPN	_	1564
+(	(	(	PUNCT	-	1563	punct	S	PROPN	-	1564
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1564	flat	S	PROPN	_	1558
+S	S	S	PROPN	-	1564	flat	S	PROPN	-	1558
 <g/>
 </name>
-)	)	)	PUNCT	_	1565	punct	S	PROPN	_	1564
-6	6	6	NUM	NumType=Card	1566	nummod	Lotte	PROPN	_	1567
+)	)	)	PUNCT	-	1565	punct	S	PROPN	-	1564
+6	6	6	NUM	NumType=Card	1566	nummod	Lotte	PROPN	-	1567
 <name type="PER">
-Lotte	Lotte	Lotte	PROPN	_	1567	list	S	PROPN	_	1558
-Rod	Rod	Rod	PROPN	_	1568	flat	Lotte	PROPN	_	1567
+Lotte	Lotte	Lotte	PROPN	-	1567	list	S	PROPN	-	1558
+Rod	Rod	Rod	PROPN	-	1568	flat	Lotte	PROPN	-	1567
 </name>
-(	(	(	PUNCT	_	1569	punct	RV	PROPN	_	1570
+(	(	(	PUNCT	-	1569	punct	RV	PROPN	-	1570
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	1570	flat	Lotte	PROPN	_	1567
+RV	RV	RV	PROPN	-	1570	flat	Lotte	PROPN	-	1567
 <g/>
 </name>
-)	)	)	PUNCT	_	1571	punct	RV	PROPN	_	1570
-7	7	7	NUM	NumType=Card	1572	nummod	Liv	PROPN	_	1573
-Liv	Liv	Liv	PROPN	_	1573	list	Lotte	PROPN	_	1567
+)	)	)	PUNCT	-	1571	punct	RV	PROPN	-	1570
+7	7	7	NUM	NumType=Card	1572	nummod	Liv	PROPN	-	1573
+Liv	Liv	Liv	PROPN	-	1573	list	Lotte	PROPN	-	1567
 <name type="PER">
-Holm	Holm	Holm	PROPN	_	1574	flat	Liv	PROPN	_	1573
-Andersen	Andersen	Andersen	PROPN	_	1575	flat	Liv	PROPN	_	1573
+Holm	Holm	Holm	PROPN	-	1574	flat	Liv	PROPN	-	1573
+Andersen	Andersen	Andersen	PROPN	-	1575	flat	Liv	PROPN	-	1573
 </name>
-(	(	(	PUNCT	_	1576	punct	RV	PROPN	_	1577
+(	(	(	PUNCT	-	1576	punct	RV	PROPN	-	1577
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	1577	flat	Liv	PROPN	_	1573
+RV	RV	RV	PROPN	-	1577	flat	Liv	PROPN	-	1573
 <g/>
 </name>
-)	)	)	PUNCT	_	1578	punct	RV	PROPN	_	1577
-8	8	8	NUM	NumType=Card	1579	nummod	Karina	PROPN	_	1580
+)	)	)	PUNCT	-	1578	punct	RV	PROPN	-	1577
+8	8	8	NUM	NumType=Card	1579	nummod	Karina	PROPN	-	1580
 <name type="PER">
-Karina	Karina	Karina	PROPN	_	1580	list	RV	PROPN	_	1577
-Lorentzen	Lorentzen	Lorentzen	PROPN	_	1581	flat	Karina	PROPN	_	1580
-Dehnhardt	Dehnhardt	Dehnhardt	PROPN	_	1582	flat	Karina	PROPN	_	1580
+Karina	Karina	Karina	PROPN	-	1580	list	RV	PROPN	-	1577
+Lorentzen	Lorentzen	Lorentzen	PROPN	-	1581	flat	Karina	PROPN	-	1580
+Dehnhardt	Dehnhardt	Dehnhardt	PROPN	-	1582	flat	Karina	PROPN	-	1580
 </name>
-(	(	(	PUNCT	_	1583	punct	SF	PROPN	_	1584
+(	(	(	PUNCT	-	1583	punct	SF	PROPN	-	1584
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	1584	list	Karina	PROPN	_	1580
+SF	SF	SF	PROPN	-	1584	list	Karina	PROPN	-	1580
 <g/>
 </name>
-)	)	)	PUNCT	_	1585	punct	SF	PROPN	_	1584
-9	9	9	NUM	NumType=Card	1586	nummod	Johanne	PROPN	_	1587
+)	)	)	PUNCT	-	1585	punct	SF	PROPN	-	1584
+9	9	9	NUM	NumType=Card	1586	nummod	Johanne	PROPN	-	1587
 <name type="PER">
-Johanne	Johanne	Johanne	PROPN	_	1587	list	SF	PROPN	_	1584
-Schmidt-Nielsen	Schmidt-Nielsen	Schmidt-Nielsen	PROPN	_	1588	flat	Johanne	PROPN	_	1587
+Johanne	Johanne	Johanne	PROPN	-	1587	list	SF	PROPN	-	1584
+Schmidt-Nielsen	Schmidt-Nielsen	Schmidt-Nielsen	PROPN	-	1588	flat	Johanne	PROPN	-	1587
 </name>
-(	(	(	PUNCT	_	1589	punct	EL	PROPN	_	1590
+(	(	(	PUNCT	-	1589	punct	EL	PROPN	-	1590
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	1590	flat	Johanne	PROPN	_	1587
+EL	EL	EL	PROPN	-	1590	flat	Johanne	PROPN	-	1587
 <g/>
 </name>
-)	)	)	PUNCT	_	1591	punct	EL	PROPN	_	1590
-10	10	10	NUM	NumType=Card	1592	nummod	Preben	PROPN	_	1593
+)	)	)	PUNCT	-	1591	punct	EL	PROPN	-	1590
+10	10	10	NUM	NumType=Card	1592	nummod	Preben	PROPN	-	1593
 <name type="PER">
-Preben	Preben	Preben	PROPN	_	1593	list	EL	PROPN	_	1590
-Bang	Bang	Bang	PROPN	_	1594	flat	Preben	PROPN	_	1593
-Henriksen	Henriksen	Henriksen	PROPN	_	1595	flat	Preben	PROPN	_	1593
+Preben	Preben	Preben	PROPN	-	1593	list	EL	PROPN	-	1590
+Bang	Bang	Bang	PROPN	-	1594	flat	Preben	PROPN	-	1593
+Henriksen	Henriksen	Henriksen	PROPN	-	1595	flat	Preben	PROPN	-	1593
 </name>
-(	(	(	PUNCT	_	1596	punct	V	PROPN	_	1597
+(	(	(	PUNCT	-	1596	punct	V	PROPN	-	1597
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	1597	flat	Preben	PROPN	_	1593
+V	V	V	PROPN	-	1597	flat	Preben	PROPN	-	1593
 <g/>
 </name>
-)	)	)	PUNCT	_	1598	punct	V	PROPN	_	1597
-11	11	11	NUM	NumType=Card	1599	nummod	Michael	PROPN	_	1600
+)	)	)	PUNCT	-	1598	punct	V	PROPN	-	1597
+11	11	11	NUM	NumType=Card	1599	nummod	Michael	PROPN	-	1600
 <name type="PER">
-Michael	Michael	Michael	PROPN	_	1600	list	Preben	PROPN	_	1593
-Aastrup	Aastrup	Aastrup	PROPN	_	1601	flat	Michael	PROPN	_	1600
-Jensen	Jensen	Jensen	PROPN	_	1602	flat	Michael	PROPN	_	1600
+Michael	Michael	Michael	PROPN	-	1600	list	Preben	PROPN	-	1593
+Aastrup	Aastrup	Aastrup	PROPN	-	1601	flat	Michael	PROPN	-	1600
+Jensen	Jensen	Jensen	PROPN	-	1602	flat	Michael	PROPN	-	1600
 </name>
-(	(	(	PUNCT	_	1603	punct	V	PROPN	_	1604
+(	(	(	PUNCT	-	1603	punct	V	PROPN	-	1604
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	1604	flat	Michael	PROPN	_	1600
+V	V	V	PROPN	-	1604	flat	Michael	PROPN	-	1600
 <g/>
 </name>
-)	)	)	PUNCT	_	1605	punct	V	PROPN	_	1604
-12	12	12	NUM	NumType=Card	1606	nummod	Jan	PROPN	_	1607
+)	)	)	PUNCT	-	1605	punct	V	PROPN	-	1604
+12	12	12	NUM	NumType=Card	1606	nummod	Jan	PROPN	-	1607
 <name type="PER">
-Jan	Jan	Jan	PROPN	_	1607	list	Michael	PROPN	_	1600
-E.	E.	E.	PROPN	_	1608	flat	Jan	PROPN	_	1607
-Jørgensen	Jørgensen	Jørgensen	PROPN	_	1609	flat	Jan	PROPN	_	1607
+Jan	Jan	Jan	PROPN	-	1607	list	Michael	PROPN	-	1600
+E.	E.	E.	PROPN	-	1608	flat	Jan	PROPN	-	1607
+Jørgensen	Jørgensen	Jørgensen	PROPN	-	1609	flat	Jan	PROPN	-	1607
 </name>
-(	(	(	PUNCT	_	1610	punct	V	PROPN	_	1611
+(	(	(	PUNCT	-	1610	punct	V	PROPN	-	1611
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	1611	flat	Jan	PROPN	_	1607
+V	V	V	PROPN	-	1611	flat	Jan	PROPN	-	1607
 <g/>
 </name>
-)	)	)	PUNCT	_	1612	punct	V	PROPN	_	1611
-13	13	13	NUM	NumType=Card	1613	nummod	Karsten	PROPN	_	1614
+)	)	)	PUNCT	-	1612	punct	V	PROPN	-	1611
+13	13	13	NUM	NumType=Card	1613	nummod	Karsten	PROPN	-	1614
 <name type="PER">
-Karsten	Karsten	Karsten	PROPN	_	1614	list	Jan	PROPN	_	1607
-Nonbo	Nonbo	Nonbo	PROPN	_	1615	flat	Karsten	PROPN	_	1614
+Karsten	Karsten	Karsten	PROPN	-	1614	list	Jan	PROPN	-	1607
+Nonbo	Nonbo	Nonbo	PROPN	-	1615	flat	Karsten	PROPN	-	1614
 </name>
-(	(	(	PUNCT	_	1616	punct	V	PROPN	_	1617
+(	(	(	PUNCT	-	1616	punct	V	PROPN	-	1617
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	1617	flat	Karsten	PROPN	_	1614
+V	V	V	PROPN	-	1617	flat	Karsten	PROPN	-	1614
 <g/>
 </name>
-)	)	)	PUNCT	_	1618	punct	V	PROPN	_	1617
-14	14	14	NUM	NumType=Card	1619	nummod	Christian	PROPN	_	1620
+)	)	)	PUNCT	-	1618	punct	V	PROPN	-	1617
+14	14	14	NUM	NumType=Card	1619	nummod	Christian	PROPN	-	1620
 <name type="PER">
-Christian	Christian	Christian	PROPN	_	1620	list	Karsten	PROPN	_	1614
-Langballe	Langballe	Langballe	PROPN	_	1621	flat	Christian	PROPN	_	1620
+Christian	Christian	Christian	PROPN	-	1620	list	Karsten	PROPN	-	1614
+Langballe	Langballe	Langballe	PROPN	-	1621	flat	Christian	PROPN	-	1620
 </name>
-(	(	(	PUNCT	_	1622	punct	DF	PROPN	_	1623
+(	(	(	PUNCT	-	1622	punct	DF	PROPN	-	1623
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	1623	flat	Christian	PROPN	_	1620
+DF	DF	DF	PROPN	-	1623	flat	Christian	PROPN	-	1620
 <g/>
 </name>
-)	)	)	PUNCT	_	1624	punct	DF	PROPN	_	1623
-15	15	15	NUM	NumType=Card	1625	nummod	Marie	PROPN	_	1626
+)	)	)	PUNCT	-	1624	punct	DF	PROPN	-	1623
+15	15	15	NUM	NumType=Card	1625	nummod	Marie	PROPN	-	1626
 <name type="PER">
-Marie	Marie	Marie	PROPN	_	1626	list	Christian	PROPN	_	1620
-Krarup	Krarup	Krarup	PROPN	_	1627	flat	Marie	PROPN	_	1626
+Marie	Marie	Marie	PROPN	-	1626	list	Christian	PROPN	-	1620
+Krarup	Krarup	Krarup	PROPN	-	1627	flat	Marie	PROPN	-	1626
 </name>
-(	(	(	PUNCT	_	1628	punct	DF	PROPN	_	1629
+(	(	(	PUNCT	-	1628	punct	DF	PROPN	-	1629
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	1629	flat	Marie	PROPN	_	1626
+DF	DF	DF	PROPN	-	1629	flat	Marie	PROPN	-	1626
 <g/>
 </name>
-)	)	)	PUNCT	_	1630	punct	DF	PROPN	_	1629
-16	16	16	NUM	NumType=Card	1631	nummod	Leif	PROPN	_	1632
+)	)	)	PUNCT	-	1630	punct	DF	PROPN	-	1629
+16	16	16	NUM	NumType=Card	1631	nummod	Leif	PROPN	-	1632
 <name type="PER">
-Leif	Leif	Leif	PROPN	_	1632	list	Marie	PROPN	_	1626
-Mikkelsen	Mikkelsen	Mikkelsen	PROPN	_	1633	flat	Leif	PROPN	_	1632
+Leif	Leif	Leif	PROPN	-	1632	list	Marie	PROPN	-	1626
+Mikkelsen	Mikkelsen	Mikkelsen	PROPN	-	1633	flat	Leif	PROPN	-	1632
 </name>
-(	(	(	PUNCT	_	1634	punct	LA	PROPN	_	1635
+(	(	(	PUNCT	-	1634	punct	LA	PROPN	-	1635
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	1635	flat	Leif	PROPN	_	1632
+LA	LA	LA	PROPN	-	1635	flat	Leif	PROPN	-	1632
 <g/>
 </name>
-)	)	)	PUNCT	_	1636	punct	LA	PROPN	_	1635
-17	17	17	NUM	NumType=Card	1637	nummod	Tom	PROPN	_	1638
+)	)	)	PUNCT	-	1636	punct	LA	PROPN	-	1635
+17	17	17	NUM	NumType=Card	1637	nummod	Tom	PROPN	-	1638
 <name type="PER">
-Tom	Tom	Tom	PROPN	_	1638	list	Leif	PROPN	_	1632
-Behnke	Behnke	Behnke	PROPN	_	1639	flat	Tom	PROPN	_	1638
+Tom	Tom	Tom	PROPN	-	1638	list	Leif	PROPN	-	1632
+Behnke	Behnke	Behnke	PROPN	-	1639	flat	Tom	PROPN	-	1638
 </name>
-(	(	(	PUNCT	_	1640	punct	KF	PROPN	_	1641
+(	(	(	PUNCT	-	1640	punct	KF	PROPN	-	1641
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	1641	flat	Tom	PROPN	_	1638
+KF	KF	KF	PROPN	-	1641	flat	Tom	PROPN	-	1638
 <g/>
 </name>
-)	)	)	PUNCT	_	1642	punct	KF	PROPN	_	1641
-Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1643	list	Tom	PROPN	_	1638
+)	)	)	PUNCT	-	1642	punct	KF	PROPN	-	1641
+Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1643	list	Tom	PROPN	-	1638
 <g/>
-:	:	:	PUNCT	_	1644	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1643
+:	:	:	PUNCT	-	1644	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1643
 <name type="PER">
-Christian	Christian	Christian	PROPN	_	1645	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1643
-Langballe	Langballe	Langballe	PROPN	_	1646	flat	Christian	PROPN	_	1645
+Christian	Christian	Christian	PROPN	-	1645	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1643
+Langballe	Langballe	Langballe	PROPN	-	1646	flat	Christian	PROPN	-	1645
 </name>
-(	(	(	PUNCT	_	1647	punct	DF	PROPN	_	1648
+(	(	(	PUNCT	-	1647	punct	DF	PROPN	-	1648
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	1648	flat	Christian	PROPN	_	1645
+DF	DF	DF	PROPN	-	1648	flat	Christian	PROPN	-	1645
 <g/>
 </name>
-)	)	)	PUNCT	_	1649	punct	DF	PROPN	_	1648
-Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	1650	list	Christian	PROPN	_	1645
+)	)	)	PUNCT	-	1649	punct	DF	PROPN	-	1648
+Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	1650	list	Christian	PROPN	-	1645
 <g/>
-:	:	:	PUNCT	_	1651	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	1650
+:	:	:	PUNCT	-	1651	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	1650
 <name type="PER">
-Lotte	Lotte	Lotte	PROPN	_	1652	appos	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	1650
-Rod	Rod	Rod	PROPN	_	1653	flat	Lotte	PROPN	_	1652
+Lotte	Lotte	Lotte	PROPN	-	1652	appos	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	1650
+Rod	Rod	Rod	PROPN	-	1653	flat	Lotte	PROPN	-	1652
 </name>
-(	(	(	PUNCT	_	1654	punct	RV	PROPN	_	1655
+(	(	(	PUNCT	-	1654	punct	RV	PROPN	-	1655
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	1655	flat	Lotte	PROPN	_	1652
+RV	RV	RV	PROPN	-	1655	flat	Lotte	PROPN	-	1652
 <g/>
 </name>
-)	)	)	PUNCT	_	1656	punct	RV	PROPN	_	1655
-Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	1657	flat	Lotte	PROPN	_	1652
+)	)	)	PUNCT	-	1656	punct	RV	PROPN	-	1655
+Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	1657	flat	Lotte	PROPN	-	1652
 af	af	af	ADP	AdpType=Prep	1658	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	1660
 29	29	29	NUM	NumType=Card	1659	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	1660
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	1660	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	1657
 til	til	til	ADP	AdpType=Prep	1661	case	kirkeudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	1662
 Kirkeudvalget	Kirkeudvalget	kirkeudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	1662	nmod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	1660
 <g/>
-:	:	:	PUNCT	_	1663	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	1650
+:	:	:	PUNCT	-	1663	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	1650
 Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	1664	list	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	1650
-blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	1665	cop	Karen	PROPN	_	1668
+blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	1665	cop	Karen	PROPN	-	1668
 <g/>
-:	:	:	PUNCT	_	1666	punct	Karen	PROPN	_	1668
-1	1	1	NUM	NumType=Card	1667	nummod	Karen	PROPN	_	1668
+:	:	:	PUNCT	-	1666	punct	Karen	PROPN	-	1668
+1	1	1	NUM	NumType=Card	1667	nummod	Karen	PROPN	-	1668
 <name type="PER">
-Karen	Karen	Karen	PROPN	_	1668	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	1664
-J.	J.	J.	PROPN	_	1669	flat	Karen	PROPN	_	1668
-Klint	Klint	Klint	PROPN	_	1670	flat	Karen	PROPN	_	1668
+Karen	Karen	Karen	PROPN	-	1668	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	1664
+J.	J.	J.	PROPN	-	1669	flat	Karen	PROPN	-	1668
+Klint	Klint	Klint	PROPN	-	1670	flat	Karen	PROPN	-	1668
 </name>
-(	(	(	PUNCT	_	1671	punct	S	PROPN	_	1672
+(	(	(	PUNCT	-	1671	punct	S	PROPN	-	1672
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1672	flat	Karen	PROPN	_	1668
+S	S	S	PROPN	-	1672	flat	Karen	PROPN	-	1668
 <g/>
 </name>
-)	)	)	PUNCT	_	1673	punct	S	PROPN	_	1672
-2	2	2	NUM	NumType=Card	1674	nummod	Flemming	PROPN	_	1675
+)	)	)	PUNCT	-	1673	punct	S	PROPN	-	1672
+2	2	2	NUM	NumType=Card	1674	nummod	Flemming	PROPN	-	1675
 <name type="PER">
-Flemming	Flemming	Flemming	PROPN	_	1675	list	Karen	PROPN	_	1668
-Møller	Møller	Møller	PROPN	_	1676	flat	Flemming	PROPN	_	1675
-Mortensen	Mortensen	Mortensen	PROPN	_	1677	flat	Flemming	PROPN	_	1675
+Flemming	Flemming	Flemming	PROPN	-	1675	list	Karen	PROPN	-	1668
+Møller	Møller	Møller	PROPN	-	1676	flat	Flemming	PROPN	-	1675
+Mortensen	Mortensen	Mortensen	PROPN	-	1677	flat	Flemming	PROPN	-	1675
 </name>
-(	(	(	PUNCT	_	1678	punct	S	PROPN	_	1679
+(	(	(	PUNCT	-	1678	punct	S	PROPN	-	1679
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1679	flat	Flemming	PROPN	_	1675
+S	S	S	PROPN	-	1679	flat	Flemming	PROPN	-	1675
 <g/>
 </name>
-)	)	)	PUNCT	_	1680	punct	S	PROPN	_	1679
-3	3	3	NUM	NumType=Card	1681	nummod	Julie	PROPN	_	1682
+)	)	)	PUNCT	-	1680	punct	S	PROPN	-	1679
+3	3	3	NUM	NumType=Card	1681	nummod	Julie	PROPN	-	1682
 <name type="PER">
-Julie	Julie	Julie	PROPN	_	1682	list	Flemming	PROPN	_	1675
-Skovsby	Skovsby	Skovsby	PROPN	_	1683	flat	Julie	PROPN	_	1682
+Julie	Julie	Julie	PROPN	-	1682	list	Flemming	PROPN	-	1675
+Skovsby	Skovsby	Skovsby	PROPN	-	1683	flat	Julie	PROPN	-	1682
 </name>
-(	(	(	PUNCT	_	1684	punct	S	PROPN	_	1685
+(	(	(	PUNCT	-	1684	punct	S	PROPN	-	1685
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1685	list	Julie	PROPN	_	1682
+S	S	S	PROPN	-	1685	list	Julie	PROPN	-	1682
 <g/>
 </name>
-)	)	)	PUNCT	_	1686	punct	S	PROPN	_	1685
-4	4	4	NUM	NumType=Card	1687	nummod	Leif	PROPN	_	1688
+)	)	)	PUNCT	-	1686	punct	S	PROPN	-	1685
+4	4	4	NUM	NumType=Card	1687	nummod	Leif	PROPN	-	1688
 <name type="PER">
-Leif	Leif	Leif	PROPN	_	1688	list	S	PROPN	_	1685
-Lahn	Lahn	Lahn	PROPN	_	1689	flat	Leif	PROPN	_	1688
-Jensen	Jensen	Jensen	PROPN	_	1690	flat	Leif	PROPN	_	1688
+Leif	Leif	Leif	PROPN	-	1688	list	S	PROPN	-	1685
+Lahn	Lahn	Lahn	PROPN	-	1689	flat	Leif	PROPN	-	1688
+Jensen	Jensen	Jensen	PROPN	-	1690	flat	Leif	PROPN	-	1688
 </name>
-(	(	(	PUNCT	_	1691	punct	S	PROPN	_	1692
+(	(	(	PUNCT	-	1691	punct	S	PROPN	-	1692
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1692	flat	Leif	PROPN	_	1688
+S	S	S	PROPN	-	1692	flat	Leif	PROPN	-	1688
 <g/>
 </name>
-)	)	)	PUNCT	_	1693	punct	S	PROPN	_	1692
-5	5	5	NUM	NumType=Card	1694	nummod	Ole	PROPN	_	1695
+)	)	)	PUNCT	-	1693	punct	S	PROPN	-	1692
+5	5	5	NUM	NumType=Card	1694	nummod	Ole	PROPN	-	1695
 <name type="PER">
-Ole	Ole	Ole	PROPN	_	1695	list	Leif	PROPN	_	1688
-Hækkerup	Hækkerup	Hækkerup	PROPN	_	1696	flat	Ole	PROPN	_	1695
+Ole	Ole	Ole	PROPN	-	1695	list	Leif	PROPN	-	1688
+Hækkerup	Hækkerup	Hækkerup	PROPN	-	1696	flat	Ole	PROPN	-	1695
 </name>
-(	(	(	PUNCT	_	1697	punct	S	PROPN	_	1698
+(	(	(	PUNCT	-	1697	punct	S	PROPN	-	1698
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1698	flat	Ole	PROPN	_	1695
+S	S	S	PROPN	-	1698	flat	Ole	PROPN	-	1695
 <g/>
 </name>
-)	)	)	PUNCT	_	1699	punct	S	PROPN	_	1698
-6	6	6	NUM	NumType=Card	1700	nummod	Orla	PROPN	_	1701
+)	)	)	PUNCT	-	1699	punct	S	PROPN	-	1698
+6	6	6	NUM	NumType=Card	1700	nummod	Orla	PROPN	-	1701
 <name type="PER">
-Orla	Orla	Orla	PROPN	_	1701	list	Ole	PROPN	_	1695
-Hav	Hav	Hav	PROPN	_	1702	flat	Orla	PROPN	_	1701
+Orla	Orla	Orla	PROPN	-	1701	list	Ole	PROPN	-	1695
+Hav	Hav	Hav	PROPN	-	1702	flat	Orla	PROPN	-	1701
 </name>
-(	(	(	PUNCT	_	1703	punct	S	PROPN	_	1704
+(	(	(	PUNCT	-	1703	punct	S	PROPN	-	1704
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1704	list	Orla	PROPN	_	1701
+S	S	S	PROPN	-	1704	list	Orla	PROPN	-	1701
 <g/>
 </name>
-)	)	)	PUNCT	_	1705	punct	S	PROPN	_	1704
-7	7	7	NUM	NumType=Card	1706	nummod	Rasmus	PROPN	_	1707
+)	)	)	PUNCT	-	1705	punct	S	PROPN	-	1704
+7	7	7	NUM	NumType=Card	1706	nummod	Rasmus	PROPN	-	1707
 <name type="PER">
-Rasmus	Rasmus	Rasmus	PROPN	_	1707	list	S	PROPN	_	1704
-Horn	Horn	Horn	PROPN	_	1708	flat	Rasmus	PROPN	_	1707
-Langhoff	Langhoff	Langhoff	PROPN	_	1709	flat	Rasmus	PROPN	_	1707
+Rasmus	Rasmus	Rasmus	PROPN	-	1707	list	S	PROPN	-	1704
+Horn	Horn	Horn	PROPN	-	1708	flat	Rasmus	PROPN	-	1707
+Langhoff	Langhoff	Langhoff	PROPN	-	1709	flat	Rasmus	PROPN	-	1707
 </name>
-(	(	(	PUNCT	_	1710	punct	S	PROPN	_	1711
+(	(	(	PUNCT	-	1710	punct	S	PROPN	-	1711
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1711	list	Rasmus	PROPN	_	1707
+S	S	S	PROPN	-	1711	list	Rasmus	PROPN	-	1707
 <g/>
 </name>
-)	)	)	PUNCT	_	1712	punct	S	PROPN	_	1711
+)	)	)	PUNCT	-	1712	punct	S	PROPN	-	1711
 8	8	8	NUM	NumType=Card	1713	nummod	Marl	NOUN	Definite=Def Gender=Com Number=Plur	1714
 <name type="PER">
-Marlene	Marlene	Marl	NOUN	Definite=Def Gender=Com Number=Plur	1714	list	S	PROPN	_	1711
-Borst	Borst	Borst	NOUN	Definite=Ind Gender=Com Number=Sing	1715	flat	S	PROPN	_	1711
-Hansen	Hansen	Hansen	PROPN	_	1716	flat	S	PROPN	_	1711
+Marlene	Marlene	Marl	NOUN	Definite=Def Gender=Com Number=Plur	1714	list	S	PROPN	-	1711
+Borst	Borst	Borst	NOUN	Definite=Ind Gender=Com Number=Sing	1715	flat	S	PROPN	-	1711
+Hansen	Hansen	Hansen	PROPN	-	1716	flat	S	PROPN	-	1711
 </name>
-(	(	(	PUNCT	_	1717	punct	RV	PROPN	_	1718
+(	(	(	PUNCT	-	1717	punct	RV	PROPN	-	1718
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	1718	flat	S	PROPN	_	1711
+RV	RV	RV	PROPN	-	1718	flat	S	PROPN	-	1711
 <g/>
 </name>
-)	)	)	PUNCT	_	1719	punct	RV	PROPN	_	1718
-9	9	9	NUM	NumType=Card	1720	nummod	Helle	PROPN	_	1721
+)	)	)	PUNCT	-	1719	punct	RV	PROPN	-	1718
+9	9	9	NUM	NumType=Card	1720	nummod	Helle	PROPN	-	1721
 <name type="PER">
-Helle	Helle	Helle	PROPN	_	1721	list	S	PROPN	_	1711
-Løvgreen	Løvgreen	Løvgreen	PROPN	_	1722	flat	Helle	PROPN	_	1721
-Mølvig	Mølvig	Mølvigen	PROPN	_	1723	flat	Helle	PROPN	_	1721
+Helle	Helle	Helle	PROPN	-	1721	list	S	PROPN	-	1711
+Løvgreen	Løvgreen	Løvgreen	PROPN	-	1722	flat	Helle	PROPN	-	1721
+Mølvig	Mølvig	Mølvigen	PROPN	-	1723	flat	Helle	PROPN	-	1721
 </name>
-(	(	(	PUNCT	_	1724	punct	RV	PROPN	_	1725
+(	(	(	PUNCT	-	1724	punct	RV	PROPN	-	1725
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	1725	list	Helle	PROPN	_	1721
+RV	RV	RV	PROPN	-	1725	list	Helle	PROPN	-	1721
 <g/>
 </name>
-)	)	)	PUNCT	_	1726	punct	RV	PROPN	_	1725
+)	)	)	PUNCT	-	1726	punct	RV	PROPN	-	1725
 10	10	10	NUM	NumType=Card	1727	nummod	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	1728
 <name type="PER">
-Jeppe	Jeppe	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	1728	list	RV	PROPN	_	1725
-Mikkelsen	Mikkelsen	Mikkelsen	PROPN	_	1729	nmod	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	1728
+Jeppe	Jeppe	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	1728	list	RV	PROPN	-	1725
+Mikkelsen	Mikkelsen	Mikkelsen	PROPN	-	1729	nmod	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	1728
 </name>
-(	(	(	PUNCT	_	1730	punct	RV	PROPN	_	1731
+(	(	(	PUNCT	-	1730	punct	RV	PROPN	-	1731
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	1731	list	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	1728
+RV	RV	RV	PROPN	-	1731	list	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	1728
 <g/>
 </name>
-)	)	)	PUNCT	_	1732	punct	RV	PROPN	_	1731
-11	11	11	NUM	NumType=Card	1733	nummod	Pernille	PROPN	_	1734
+)	)	)	PUNCT	-	1732	punct	RV	PROPN	-	1731
+11	11	11	NUM	NumType=Card	1733	nummod	Pernille	PROPN	-	1734
 <name type="PER">
-Pernille	Pernille	Pernille	PROPN	_	1734	list	RV	PROPN	_	1731
-Vigsø	Vigsø	Vigsø	PROPN	_	1735	flat	Pernille	PROPN	_	1734
-Bagge	Bagge	Bagge	PROPN	_	1736	flat	Pernille	PROPN	_	1734
+Pernille	Pernille	Pernille	PROPN	-	1734	list	RV	PROPN	-	1731
+Vigsø	Vigsø	Vigsø	PROPN	-	1735	flat	Pernille	PROPN	-	1734
+Bagge	Bagge	Bagge	PROPN	-	1736	flat	Pernille	PROPN	-	1734
 </name>
-(	(	(	PUNCT	_	1737	punct	SF	PROPN	_	1738
+(	(	(	PUNCT	-	1737	punct	SF	PROPN	-	1738
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	1738	list	Pernille	PROPN	_	1734
+SF	SF	SF	PROPN	-	1738	list	Pernille	PROPN	-	1734
 <g/>
 </name>
-)	)	)	PUNCT	_	1739	punct	SF	PROPN	_	1738
-12	12	12	NUM	NumType=Card	1740	nummod	Eigil	PROPN	_	1741
+)	)	)	PUNCT	-	1739	punct	SF	PROPN	-	1738
+12	12	12	NUM	NumType=Card	1740	nummod	Eigil	PROPN	-	1741
 <name type="PER">
-Eigil	Eigil	Eigil	PROPN	_	1741	list	SF	PROPN	_	1738
-Andersen	Andersen	Andersen	PROPN	_	1742	flat	Eigil	PROPN	_	1741
+Eigil	Eigil	Eigil	PROPN	-	1741	list	SF	PROPN	-	1738
+Andersen	Andersen	Andersen	PROPN	-	1742	flat	Eigil	PROPN	-	1741
 </name>
-(	(	(	PUNCT	_	1743	punct	SF	PROPN	_	1744
+(	(	(	PUNCT	-	1743	punct	SF	PROPN	-	1744
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	1744	list	Eigil	PROPN	_	1741
+SF	SF	SF	PROPN	-	1744	list	Eigil	PROPN	-	1741
 <g/>
 </name>
-)	)	)	PUNCT	_	1745	punct	SF	PROPN	_	1744
-13	13	13	NUM	NumType=Card	1746	nummod	Jørgen	PROPN	_	1747
+)	)	)	PUNCT	-	1745	punct	SF	PROPN	-	1744
+13	13	13	NUM	NumType=Card	1746	nummod	Jørgen	PROPN	-	1747
 <name type="PER">
-Jørgen	Jørgen	Jørgen	PROPN	_	1747	list	SF	PROPN	_	1744
-Arbo-Bæhr	Arbo-Bæhr	Arbo-Bæhr	PROPN	_	1748	flat	Jørgen	PROPN	_	1747
+Jørgen	Jørgen	Jørgen	PROPN	-	1747	list	SF	PROPN	-	1744
+Arbo-Bæhr	Arbo-Bæhr	Arbo-Bæhr	PROPN	-	1748	flat	Jørgen	PROPN	-	1747
 </name>
-(	(	(	PUNCT	_	1749	punct	EL	PROPN	_	1750
+(	(	(	PUNCT	-	1749	punct	EL	PROPN	-	1750
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	1750	flat	Jørgen	PROPN	_	1747
+EL	EL	EL	PROPN	-	1750	flat	Jørgen	PROPN	-	1747
 <g/>
 </name>
-)	)	)	PUNCT	_	1751	punct	EL	PROPN	_	1750
-14	14	14	NUM	NumType=Card	1752	nummod	Rosa	PROPN	_	1753
+)	)	)	PUNCT	-	1751	punct	EL	PROPN	-	1750
+14	14	14	NUM	NumType=Card	1752	nummod	Rosa	PROPN	-	1753
 <name type="PER">
-Rosa	Rosa	Rosa	PROPN	_	1753	list	Jørgen	PROPN	_	1747
-Lund	Lund	Lund	PROPN	_	1754	flat	Rosa	PROPN	_	1753
+Rosa	Rosa	Rosa	PROPN	-	1753	list	Jørgen	PROPN	-	1747
+Lund	Lund	Lund	PROPN	-	1754	flat	Rosa	PROPN	-	1753
 </name>
-(	(	(	PUNCT	_	1755	punct	EL	PROPN	_	1756
+(	(	(	PUNCT	-	1755	punct	EL	PROPN	-	1756
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	1756	flat	Rosa	PROPN	_	1753
+EL	EL	EL	PROPN	-	1756	flat	Rosa	PROPN	-	1753
 <g/>
 </name>
-)	)	)	PUNCT	_	1757	punct	EL	PROPN	_	1756
-15	15	15	NUM	NumType=Card	1758	nummod	Per	PROPN	_	1759
+)	)	)	PUNCT	-	1757	punct	EL	PROPN	-	1756
+15	15	15	NUM	NumType=Card	1758	nummod	Per	PROPN	-	1759
 <name type="PER">
-Per	Per	Per	PROPN	_	1759	list	Jørgen	PROPN	_	1747
-Clausen	Clausen	Clausen	PROPN	_	1760	flat	Per	PROPN	_	1759
+Per	Per	Per	PROPN	-	1759	list	Jørgen	PROPN	-	1747
+Clausen	Clausen	Clausen	PROPN	-	1760	flat	Per	PROPN	-	1759
 </name>
-(	(	(	PUNCT	_	1761	punct	EL	PROPN	_	1762
+(	(	(	PUNCT	-	1761	punct	EL	PROPN	-	1762
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	1762	flat	Per	PROPN	_	1759
+EL	EL	EL	PROPN	-	1762	flat	Per	PROPN	-	1759
 <g/>
 </name>
-)	)	)	PUNCT	_	1763	punct	EL	PROPN	_	1762
-16	16	16	NUM	NumType=Card	1764	nummod	Erling	PROPN	_	1765
+)	)	)	PUNCT	-	1763	punct	EL	PROPN	-	1762
+16	16	16	NUM	NumType=Card	1764	nummod	Erling	PROPN	-	1765
 <name type="PER">
-Erling	Erling	Erling	PROPN	_	1765	list	Per	PROPN	_	1759
-Bonnesen	Bonnesen	Bonnesen	PROPN	_	1766	flat	Erling	PROPN	_	1765
+Erling	Erling	Erling	PROPN	-	1765	list	Per	PROPN	-	1759
+Bonnesen	Bonnesen	Bonnesen	PROPN	-	1766	flat	Erling	PROPN	-	1765
 </name>
-(	(	(	PUNCT	_	1767	punct	V	PROPN	_	1768
+(	(	(	PUNCT	-	1767	punct	V	PROPN	-	1768
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	1768	flat	Erling	PROPN	_	1765
+V	V	V	PROPN	-	1768	flat	Erling	PROPN	-	1765
 <g/>
 </name>
-)	)	)	PUNCT	_	1769	punct	V	PROPN	_	1768
-17	17	17	NUM	NumType=Card	1770	nummod	Birthe	PROPN	_	1771
+)	)	)	PUNCT	-	1769	punct	V	PROPN	-	1768
+17	17	17	NUM	NumType=Card	1770	nummod	Birthe	PROPN	-	1771
 <name type="PER">
-Birthe	Birthe	Birthe	PROPN	_	1771	list	Erling	PROPN	_	1765
-Rønn	Rønn	Rønn	PROPN	_	1772	flat	Birthe	PROPN	_	1771
-Hornbech	Hornbech	Hornbech	PROPN	_	1773	flat	Birthe	PROPN	_	1771
+Birthe	Birthe	Birthe	PROPN	-	1771	list	Erling	PROPN	-	1765
+Rønn	Rønn	Rønn	PROPN	-	1772	flat	Birthe	PROPN	-	1771
+Hornbech	Hornbech	Hornbech	PROPN	-	1773	flat	Birthe	PROPN	-	1771
 </name>
-(	(	(	PUNCT	_	1774	punct	V	PROPN	_	1775
+(	(	(	PUNCT	-	1774	punct	V	PROPN	-	1775
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	1775	flat	Birthe	PROPN	_	1771
+V	V	V	PROPN	-	1775	flat	Birthe	PROPN	-	1771
 <g/>
 </name>
-)	)	)	PUNCT	_	1776	punct	V	PROPN	_	1775
-18	18	18	NUM	NumType=Card	1777	nummod	Bertel	PROPN	_	1778
+)	)	)	PUNCT	-	1776	punct	V	PROPN	-	1775
+18	18	18	NUM	NumType=Card	1777	nummod	Bertel	PROPN	-	1778
 <name type="PER">
-Bertel	Bertel	Bertel	PROPN	_	1778	list	Birthe	PROPN	_	1771
-Haarder	Haarder	Haarder	PROPN	_	1779	flat	Bertel	PROPN	_	1778
+Bertel	Bertel	Bertel	PROPN	-	1778	list	Birthe	PROPN	-	1771
+Haarder	Haarder	Haarder	PROPN	-	1779	flat	Bertel	PROPN	-	1778
 </name>
-(	(	(	PUNCT	_	1780	punct	V	PROPN	_	1781
+(	(	(	PUNCT	-	1780	punct	V	PROPN	-	1781
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	1781	list	Bertel	PROPN	_	1778
+V	V	V	PROPN	-	1781	list	Bertel	PROPN	-	1778
 <g/>
 </name>
-)	)	)	PUNCT	_	1782	punct	V	PROPN	_	1781
-19	19	19	NUM	NumType=Card	1783	nummod	Birgitte	PROPN	_	1784
+)	)	)	PUNCT	-	1782	punct	V	PROPN	-	1781
+19	19	19	NUM	NumType=Card	1783	nummod	Birgitte	PROPN	-	1784
 <name type="PER">
-Birgitte	Birgitte	Birgitte	PROPN	_	1784	list	V	PROPN	_	1781
-Josefsen	Josefsen	Josefsen	PROPN	_	1785	flat	Birgitte	PROPN	_	1784
+Birgitte	Birgitte	Birgitte	PROPN	-	1784	list	V	PROPN	-	1781
+Josefsen	Josefsen	Josefsen	PROPN	-	1785	flat	Birgitte	PROPN	-	1784
 </name>
-(	(	(	PUNCT	_	1786	punct	V	PROPN	_	1787
+(	(	(	PUNCT	-	1786	punct	V	PROPN	-	1787
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	1787	flat	Birgitte	PROPN	_	1784
+V	V	V	PROPN	-	1787	flat	Birgitte	PROPN	-	1784
 <g/>
 </name>
-)	)	)	PUNCT	_	1788	punct	V	PROPN	_	1787
-20	20	20	NUM	NumType=Card	1789	nummod	Flemming	PROPN	_	1790
+)	)	)	PUNCT	-	1788	punct	V	PROPN	-	1787
+20	20	20	NUM	NumType=Card	1789	nummod	Flemming	PROPN	-	1790
 <name type="PER">
-Flemming	Flemming	Flemming	PROPN	_	1790	list	Birgitte	PROPN	_	1784
-Damgaard	Damgaard	Damgaard	PROPN	_	1791	flat	Flemming	PROPN	_	1790
-Larsen	Larsen	Larsen	PROPN	_	1792	flat	Flemming	PROPN	_	1790
+Flemming	Flemming	Flemming	PROPN	-	1790	list	Birgitte	PROPN	-	1784
+Damgaard	Damgaard	Damgaard	PROPN	-	1791	flat	Flemming	PROPN	-	1790
+Larsen	Larsen	Larsen	PROPN	-	1792	flat	Flemming	PROPN	-	1790
 </name>
-(	(	(	PUNCT	_	1793	punct	V	PROPN	_	1794
+(	(	(	PUNCT	-	1793	punct	V	PROPN	-	1794
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	1794	flat	Flemming	PROPN	_	1790
+V	V	V	PROPN	-	1794	flat	Flemming	PROPN	-	1790
 <g/>
 </name>
-)	)	)	PUNCT	_	1795	punct	V	PROPN	_	1794
-21	21	21	NUM	NumType=Card	1796	nummod	Kristian	PROPN	_	1797
+)	)	)	PUNCT	-	1795	punct	V	PROPN	-	1794
+21	21	21	NUM	NumType=Card	1796	nummod	Kristian	PROPN	-	1797
 <name type="PER">
-Kristian	Kristian	Kristian	PROPN	_	1797	list	Flemming	PROPN	_	1790
-Pihl	Pihl	Pihl	PROPN	_	1798	flat	Kristian	PROPN	_	1797
-Lorentzen	Lorentzen	Lorentzen	PROPN	_	1799	flat	Kristian	PROPN	_	1797
+Kristian	Kristian	Kristian	PROPN	-	1797	list	Flemming	PROPN	-	1790
+Pihl	Pihl	Pihl	PROPN	-	1798	flat	Kristian	PROPN	-	1797
+Lorentzen	Lorentzen	Lorentzen	PROPN	-	1799	flat	Kristian	PROPN	-	1797
 </name>
-(	(	(	PUNCT	_	1800	punct	V	PROPN	_	1801
+(	(	(	PUNCT	-	1800	punct	V	PROPN	-	1801
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	1801	flat	Kristian	PROPN	_	1797
+V	V	V	PROPN	-	1801	flat	Kristian	PROPN	-	1797
 <g/>
 </name>
-)	)	)	PUNCT	_	1802	punct	V	PROPN	_	1801
-22	22	22	NUM	NumType=Card	1803	nummod	Søren	PROPN	_	1804
+)	)	)	PUNCT	-	1802	punct	V	PROPN	-	1801
+22	22	22	NUM	NumType=Card	1803	nummod	Søren	PROPN	-	1804
 <name type="PER">
-Søren	Søren	Søren	PROPN	_	1804	list	Kristian	PROPN	_	1797
-Pind	Pind	Pind	PROPN	_	1805	flat	Søren	PROPN	_	1804
+Søren	Søren	Søren	PROPN	-	1804	list	Kristian	PROPN	-	1797
+Pind	Pind	Pind	PROPN	-	1805	flat	Søren	PROPN	-	1804
 </name>
-(	(	(	PUNCT	_	1806	punct	V	PROPN	_	1807
+(	(	(	PUNCT	-	1806	punct	V	PROPN	-	1807
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	1807	flat	Søren	PROPN	_	1804
+V	V	V	PROPN	-	1807	flat	Søren	PROPN	-	1804
 <g/>
 </name>
-)	)	)	PUNCT	_	1808	punct	V	PROPN	_	1807
-23	23	23	NUM	NumType=Card	1809	nummod	Hans	PROPN	_	1810
+)	)	)	PUNCT	-	1808	punct	V	PROPN	-	1807
+23	23	23	NUM	NumType=Card	1809	nummod	Hans	PROPN	-	1810
 <name type="PER">
-Hans	Hans	Hans	PROPN	_	1810	list	Søren	PROPN	_	1804
-Christian	Christian	Christian	PROPN	_	1811	flat	Hans	PROPN	_	1810
-Schmidt	Schmidt	Schmidt	X	_	1812	flat	Hans	PROPN	_	1810
+Hans	Hans	Hans	PROPN	-	1810	list	Søren	PROPN	-	1804
+Christian	Christian	Christian	PROPN	-	1811	flat	Hans	PROPN	-	1810
+Schmidt	Schmidt	Schmidt	X	-	1812	flat	Hans	PROPN	-	1810
 </name>
-(	(	(	PUNCT	_	1813	punct	V	PROPN	_	1814
+(	(	(	PUNCT	-	1813	punct	V	PROPN	-	1814
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	1814	flat	Hans	PROPN	_	1810
+V	V	V	PROPN	-	1814	flat	Hans	PROPN	-	1810
 <g/>
 </name>
-)	)	)	PUNCT	_	1815	punct	V	PROPN	_	1814
-24	24	24	NUM	NumType=Card	1816	nummod	Christian	PROPN	_	1817
+)	)	)	PUNCT	-	1815	punct	V	PROPN	-	1814
+24	24	24	NUM	NumType=Card	1816	nummod	Christian	PROPN	-	1817
 <name type="PER">
-Christian	Christian	Christian	PROPN	_	1817	list	Hans	PROPN	_	1810
-Langballe	Langballe	Langballe	PROPN	_	1818	flat	Christian	PROPN	_	1817
+Christian	Christian	Christian	PROPN	-	1817	list	Hans	PROPN	-	1810
+Langballe	Langballe	Langballe	PROPN	-	1818	flat	Christian	PROPN	-	1817
 </name>
-(	(	(	PUNCT	_	1819	punct	DF	PROPN	_	1820
+(	(	(	PUNCT	-	1819	punct	DF	PROPN	-	1820
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	1820	flat	Christian	PROPN	_	1817
+DF	DF	DF	PROPN	-	1820	flat	Christian	PROPN	-	1817
 <g/>
 </name>
-)	)	)	PUNCT	_	1821	punct	DF	PROPN	_	1820
-25	25	25	NUM	NumType=Card	1822	nummod	Morten	PROPN	_	1823
+)	)	)	PUNCT	-	1821	punct	DF	PROPN	-	1820
+25	25	25	NUM	NumType=Card	1822	nummod	Morten	PROPN	-	1823
 <name type="PER">
-Morten	Morten	Morten	PROPN	_	1823	list	Christian	PROPN	_	1817
-Marinus	Marinus	Marinus	PROPN	_	1824	flat	Morten	PROPN	_	1823
+Morten	Morten	Morten	PROPN	-	1823	list	Christian	PROPN	-	1817
+Marinus	Marinus	Marinus	PROPN	-	1824	flat	Morten	PROPN	-	1823
 </name>
-(	(	(	PUNCT	_	1825	punct	DF	PROPN	_	1826
+(	(	(	PUNCT	-	1825	punct	DF	PROPN	-	1826
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	1826	flat	Morten	PROPN	_	1823
+DF	DF	DF	PROPN	-	1826	flat	Morten	PROPN	-	1823
 <g/>
 </name>
-)	)	)	PUNCT	_	1827	punct	DF	PROPN	_	1826
-26	26	26	NUM	NumType=Card	1828	nummod	Marie	PROPN	_	1829
+)	)	)	PUNCT	-	1827	punct	DF	PROPN	-	1826
+26	26	26	NUM	NumType=Card	1828	nummod	Marie	PROPN	-	1829
 <name type="PER">
-Marie	Marie	Marie	PROPN	_	1829	list	Morten	PROPN	_	1823
-Krarup	Krarup	Krarup	PROPN	_	1830	flat	Marie	PROPN	_	1829
+Marie	Marie	Marie	PROPN	-	1829	list	Morten	PROPN	-	1823
+Krarup	Krarup	Krarup	PROPN	-	1830	flat	Marie	PROPN	-	1829
 </name>
-(	(	(	PUNCT	_	1831	punct	DF	PROPN	_	1832
+(	(	(	PUNCT	-	1831	punct	DF	PROPN	-	1832
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	1832	flat	Marie	PROPN	_	1829
+DF	DF	DF	PROPN	-	1832	flat	Marie	PROPN	-	1829
 <g/>
 </name>
-)	)	)	PUNCT	_	1833	punct	DF	PROPN	_	1832
-27	27	27	NUM	NumType=Card	1834	nummod	Søren	PROPN	_	1835
+)	)	)	PUNCT	-	1833	punct	DF	PROPN	-	1832
+27	27	27	NUM	NumType=Card	1834	nummod	Søren	PROPN	-	1835
 <name type="PER">
-Søren	Søren	Søren	PROPN	_	1835	list	Marie	PROPN	_	1829
-Espersen	Espersen	Espersen	PROPN	_	1836	flat	Søren	PROPN	_	1835
+Søren	Søren	Søren	PROPN	-	1835	list	Marie	PROPN	-	1829
+Espersen	Espersen	Espersen	PROPN	-	1836	flat	Søren	PROPN	-	1835
 </name>
-(	(	(	PUNCT	_	1837	punct	DF	PROPN	_	1838
+(	(	(	PUNCT	-	1837	punct	DF	PROPN	-	1838
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	1838	flat	Søren	PROPN	_	1835
+DF	DF	DF	PROPN	-	1838	flat	Søren	PROPN	-	1835
 <g/>
 </name>
-)	)	)	PUNCT	_	1839	punct	DF	PROPN	_	1838
-28	28	28	NUM	NumType=Card	1840	nummod	Mette	PROPN	_	1841
+)	)	)	PUNCT	-	1839	punct	DF	PROPN	-	1838
+28	28	28	NUM	NumType=Card	1840	nummod	Mette	PROPN	-	1841
 <name type="PER">
-Mette	Mette	Mette	PROPN	_	1841	list	Søren	PROPN	_	1835
-Bock	Bock	Bock	PROPN	_	1842	flat	Mette	PROPN	_	1841
+Mette	Mette	Mette	PROPN	-	1841	list	Søren	PROPN	-	1835
+Bock	Bock	Bock	PROPN	-	1842	flat	Mette	PROPN	-	1841
 </name>
-(	(	(	PUNCT	_	1843	punct	LA	PROPN	_	1844
+(	(	(	PUNCT	-	1843	punct	LA	PROPN	-	1844
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	1844	flat	Mette	PROPN	_	1841
+LA	LA	LA	PROPN	-	1844	flat	Mette	PROPN	-	1841
 <g/>
 </name>
-)	)	)	PUNCT	_	1845	punct	LA	PROPN	_	1844
-29	29	29	NUM	NumType=Card	1846	nummod	Charlotte	PROPN	_	1847
+)	)	)	PUNCT	-	1845	punct	LA	PROPN	-	1844
+29	29	29	NUM	NumType=Card	1846	nummod	Charlotte	PROPN	-	1847
 <name type="PER">
-Charlotte	Charlotte	Charlotte	PROPN	_	1847	list	Mette	PROPN	_	1841
-Dyremose	Dyremose	Dyremose	PROPN	_	1848	flat	Charlotte	PROPN	_	1847
+Charlotte	Charlotte	Charlotte	PROPN	-	1847	list	Mette	PROPN	-	1841
+Dyremose	Dyremose	Dyremose	PROPN	-	1848	flat	Charlotte	PROPN	-	1847
 </name>
-(	(	(	PUNCT	_	1849	punct	KF	PROPN	_	1850
+(	(	(	PUNCT	-	1849	punct	KF	PROPN	-	1850
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	1850	flat	Charlotte	PROPN	_	1847
+KF	KF	KF	PROPN	-	1850	flat	Charlotte	PROPN	-	1847
 <g/>
 </name>
-)	)	)	PUNCT	_	1851	punct	KF	PROPN	_	1850
-Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1852	list	Charlotte	PROPN	_	1847
+)	)	)	PUNCT	-	1851	punct	KF	PROPN	-	1850
+Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1852	list	Charlotte	PROPN	-	1847
 <g/>
-:	:	:	PUNCT	_	1853	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1852
+:	:	:	PUNCT	-	1853	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1852
 <name type="PER">
-Karen	Karen	Karen	PROPN	_	1854	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1852
-J.	J.	J.	PROPN	_	1855	flat	Karen	PROPN	_	1854
-Klint	Klint	Klint	PROPN	_	1856	flat	Karen	PROPN	_	1854
+Karen	Karen	Karen	PROPN	-	1854	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	1852
+J.	J.	J.	PROPN	-	1855	flat	Karen	PROPN	-	1854
+Klint	Klint	Klint	PROPN	-	1856	flat	Karen	PROPN	-	1854
 </name>
-(	(	(	PUNCT	_	1857	punct	S	PROPN	_	1858
+(	(	(	PUNCT	-	1857	punct	S	PROPN	-	1858
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1858	flat	Karen	PROPN	_	1854
+S	S	S	PROPN	-	1858	flat	Karen	PROPN	-	1854
 <g/>
 </name>
-)	)	)	PUNCT	_	1859	punct	S	PROPN	_	1858
-Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	1860	list	Karen	PROPN	_	1854
+)	)	)	PUNCT	-	1859	punct	S	PROPN	-	1858
+Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	1860	list	Karen	PROPN	-	1854
 <g/>
-:	:	:	PUNCT	_	1861	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	1860
+:	:	:	PUNCT	-	1861	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	1860
 <name type="PER">
-Mette	Mette	Mette	PROPN	_	1862	appos	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	1860
-Bock	Bock	Bock	PROPN	_	1863	flat	Mette	PROPN	_	1862
+Mette	Mette	Mette	PROPN	-	1862	appos	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	1860
+Bock	Bock	Bock	PROPN	-	1863	flat	Mette	PROPN	-	1862
 </name>
-(	(	(	PUNCT	_	1864	punct	LA	PROPN	_	1865
+(	(	(	PUNCT	-	1864	punct	LA	PROPN	-	1865
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	1865	flat	Mette	PROPN	_	1862
+LA	LA	LA	PROPN	-	1865	flat	Mette	PROPN	-	1862
 <g/>
 </name>
-)	)	)	PUNCT	_	1866	punct	LA	PROPN	_	1865
-Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	1867	flat	Mette	PROPN	_	1862
+)	)	)	PUNCT	-	1866	punct	LA	PROPN	-	1865
+Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	1867	flat	Mette	PROPN	-	1862
 af	af	af	ADP	AdpType=Prep	1868	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	1870
 29	29	29	NUM	NumType=Card	1869	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	1870
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	1870	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	1867
-til	til	til	ADP	AdpType=Prep	1871	case	klima-	X	_	1872
-Klima-	Klima-	klima-	X	_	1872	nmod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	1870
-,	,	,	PUNCT	_	1873	punct	klima-	X	_	1872
-Energi-	Energi-	energi-	X	_	1874	conj	klima-	X	_	1872
-og	og	og	CCONJ	_	1875	cc	bygningsudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	1876
-Bygningsudvalget	Bygningsudvalget	bygningsudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	1876	conj	klima-	X	_	1872
+til	til	til	ADP	AdpType=Prep	1871	case	klima-	X	-	1872
+Klima-	Klima-	klima-	X	-	1872	nmod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	1870
+,	,	,	PUNCT	-	1873	punct	klima-	X	-	1872
+Energi-	Energi-	energi-	X	-	1874	conj	klima-	X	-	1872
+og	og	og	CCONJ	-	1875	cc	bygningsudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	1876
+Bygningsudvalget	Bygningsudvalget	bygningsudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	1876	conj	klima-	X	-	1872
 <g/>
-:	:	:	PUNCT	_	1877	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	1860
+:	:	:	PUNCT	-	1877	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	1860
 Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	1878	list	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	1860
-blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	1879	cop	Julie	PROPN	_	1882
+blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	1879	cop	Julie	PROPN	-	1882
 <g/>
-:	:	:	PUNCT	_	1880	punct	Julie	PROPN	_	1882
-1	1	1	NUM	NumType=Card	1881	nummod	Julie	PROPN	_	1882
+:	:	:	PUNCT	-	1880	punct	Julie	PROPN	-	1882
+1	1	1	NUM	NumType=Card	1881	nummod	Julie	PROPN	-	1882
 <name type="PER">
-Julie	Julie	Julie	PROPN	_	1882	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	1878
-Skovsby	Skovsby	Skovsby	PROPN	_	1883	flat	Julie	PROPN	_	1882
+Julie	Julie	Julie	PROPN	-	1882	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	1878
+Skovsby	Skovsby	Skovsby	PROPN	-	1883	flat	Julie	PROPN	-	1882
 </name>
-(	(	(	PUNCT	_	1884	punct	S	PROPN	_	1885
+(	(	(	PUNCT	-	1884	punct	S	PROPN	-	1885
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1885	flat	Julie	PROPN	_	1882
+S	S	S	PROPN	-	1885	flat	Julie	PROPN	-	1882
 <g/>
 </name>
-)	)	)	PUNCT	_	1886	punct	S	PROPN	_	1885
-2	2	2	NUM	NumType=Card	1887	nummod	Jens	PROPN	_	1888
+)	)	)	PUNCT	-	1886	punct	S	PROPN	-	1885
+2	2	2	NUM	NumType=Card	1887	nummod	Jens	PROPN	-	1888
 <name type="PER">
-Jens	Jens	Jens	PROPN	_	1888	list	Julie	PROPN	_	1882
-Joel	Joel	Joel	PROPN	_	1889	flat	Jens	PROPN	_	1888
+Jens	Jens	Jens	PROPN	-	1888	list	Julie	PROPN	-	1882
+Joel	Joel	Joel	PROPN	-	1889	flat	Jens	PROPN	-	1888
 </name>
-(	(	(	PUNCT	_	1890	punct	S	PROPN	_	1891
+(	(	(	PUNCT	-	1890	punct	S	PROPN	-	1891
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1891	flat	Jens	PROPN	_	1888
+S	S	S	PROPN	-	1891	flat	Jens	PROPN	-	1888
 <g/>
 </name>
-)	)	)	PUNCT	_	1892	punct	S	PROPN	_	1891
-3	3	3	NUM	NumType=Card	1893	nummod	Karin	PROPN	_	1894
+)	)	)	PUNCT	-	1892	punct	S	PROPN	-	1891
+3	3	3	NUM	NumType=Card	1893	nummod	Karin	PROPN	-	1894
 <name type="PER">
-Karin	Karin	Karin	PROPN	_	1894	list	Jens	PROPN	_	1888
-Gaardsted	Gaardsted	Gaardsted	PROPN	_	1895	flat	Karin	PROPN	_	1894
+Karin	Karin	Karin	PROPN	-	1894	list	Jens	PROPN	-	1888
+Gaardsted	Gaardsted	Gaardsted	PROPN	-	1895	flat	Karin	PROPN	-	1894
 </name>
-(	(	(	PUNCT	_	1896	punct	S	PROPN	_	1897
+(	(	(	PUNCT	-	1896	punct	S	PROPN	-	1897
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1897	flat	Karin	PROPN	_	1894
+S	S	S	PROPN	-	1897	flat	Karin	PROPN	-	1894
 <g/>
 </name>
-)	)	)	PUNCT	_	1898	punct	S	PROPN	_	1897
-4	4	4	NUM	NumType=Card	1899	nummod	Jesper	PROPN	_	1900
+)	)	)	PUNCT	-	1898	punct	S	PROPN	-	1897
+4	4	4	NUM	NumType=Card	1899	nummod	Jesper	PROPN	-	1900
 <name type="PER">
-Jesper	Jesper	Jesper	PROPN	_	1900	list	Karin	PROPN	_	1894
-Petersen	Petersen	Petersen	PROPN	_	1901	flat	Jesper	PROPN	_	1900
+Jesper	Jesper	Jesper	PROPN	-	1900	list	Karin	PROPN	-	1894
+Petersen	Petersen	Petersen	PROPN	-	1901	flat	Jesper	PROPN	-	1900
 </name>
-(	(	(	PUNCT	_	1902	punct	S	PROPN	_	1903
+(	(	(	PUNCT	-	1902	punct	S	PROPN	-	1903
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1903	flat	Jesper	PROPN	_	1900
+S	S	S	PROPN	-	1903	flat	Jesper	PROPN	-	1900
 <g/>
 </name>
-)	)	)	PUNCT	_	1904	punct	S	PROPN	_	1903
-5	5	5	NUM	NumType=Card	1905	nummod	Pernille	PROPN	_	1906
+)	)	)	PUNCT	-	1904	punct	S	PROPN	-	1903
+5	5	5	NUM	NumType=Card	1905	nummod	Pernille	PROPN	-	1906
 <name type="PER">
-Pernille	Pernille	Pernille	PROPN	_	1906	list	Jesper	PROPN	_	1900
-Rosenkrantz-Theil	Rosenkrantz-Theil	Rosenkrantz-Theil	PROPN	_	1907	flat	Pernille	PROPN	_	1906
+Pernille	Pernille	Pernille	PROPN	-	1906	list	Jesper	PROPN	-	1900
+Rosenkrantz-Theil	Rosenkrantz-Theil	Rosenkrantz-Theil	PROPN	-	1907	flat	Pernille	PROPN	-	1906
 </name>
-(	(	(	PUNCT	_	1908	punct	S	PROPN	_	1909
+(	(	(	PUNCT	-	1908	punct	S	PROPN	-	1909
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1909	flat	Pernille	PROPN	_	1906
+S	S	S	PROPN	-	1909	flat	Pernille	PROPN	-	1906
 <g/>
 </name>
-)	)	)	PUNCT	_	1910	punct	S	PROPN	_	1909
-6	6	6	NUM	NumType=Card	1911	nummod	Jacob	PROPN	_	1912
+)	)	)	PUNCT	-	1910	punct	S	PROPN	-	1909
+6	6	6	NUM	NumType=Card	1911	nummod	Jacob	PROPN	-	1912
 <name type="PER">
-Jacob	Jacob	Jacob	PROPN	_	1912	list	Pernille	PROPN	_	1906
-Lund	Lund	Lund	PROPN	_	1913	flat	Jacob	PROPN	_	1912
+Jacob	Jacob	Jacob	PROPN	-	1912	list	Pernille	PROPN	-	1906
+Lund	Lund	Lund	PROPN	-	1913	flat	Jacob	PROPN	-	1912
 </name>
-(	(	(	PUNCT	_	1914	punct	S	PROPN	_	1915
+(	(	(	PUNCT	-	1914	punct	S	PROPN	-	1915
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1915	list	Jacob	PROPN	_	1912
+S	S	S	PROPN	-	1915	list	Jacob	PROPN	-	1912
 <g/>
 </name>
-)	)	)	PUNCT	_	1916	punct	S	PROPN	_	1915
-7	7	7	NUM	NumType=Card	1917	nummod	Flemming	PROPN	_	1918
+)	)	)	PUNCT	-	1916	punct	S	PROPN	-	1915
+7	7	7	NUM	NumType=Card	1917	nummod	Flemming	PROPN	-	1918
 <name type="PER">
-Flemming	Flemming	Flemming	PROPN	_	1918	list	S	PROPN	_	1915
-Møller	Møller	Møller	PROPN	_	1919	flat	Flemming	PROPN	_	1918
-Mortensen	Mortensen	Mortensen	PROPN	_	1920	flat	Flemming	PROPN	_	1918
+Flemming	Flemming	Flemming	PROPN	-	1918	list	S	PROPN	-	1915
+Møller	Møller	Møller	PROPN	-	1919	flat	Flemming	PROPN	-	1918
+Mortensen	Mortensen	Mortensen	PROPN	-	1920	flat	Flemming	PROPN	-	1918
 </name>
-(	(	(	PUNCT	_	1921	punct	S	PROPN	_	1922
+(	(	(	PUNCT	-	1921	punct	S	PROPN	-	1922
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	1922	list	Flemming	PROPN	_	1918
+S	S	S	PROPN	-	1922	list	Flemming	PROPN	-	1918
 <g/>
 </name>
-)	)	)	PUNCT	_	1923	punct	S	PROPN	_	1922
-8	8	8	NUM	NumType=Card	1924	nummod	Andreas	PROPN	_	1925
+)	)	)	PUNCT	-	1923	punct	S	PROPN	-	1922
+8	8	8	NUM	NumType=Card	1924	nummod	Andreas	PROPN	-	1925
 <name type="PER">
-Andreas	Andreas	Andreas	PROPN	_	1925	list	S	PROPN	_	1922
-Steenberg	Steenberg	Steenberg	PROPN	_	1926	flat	Andreas	PROPN	_	1925
+Andreas	Andreas	Andreas	PROPN	-	1925	list	S	PROPN	-	1922
+Steenberg	Steenberg	Steenberg	PROPN	-	1926	flat	Andreas	PROPN	-	1925
 </name>
-(	(	(	PUNCT	_	1927	punct	RV	PROPN	_	1928
+(	(	(	PUNCT	-	1927	punct	RV	PROPN	-	1928
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	1928	flat	Andreas	PROPN	_	1925
+RV	RV	RV	PROPN	-	1928	flat	Andreas	PROPN	-	1925
 <g/>
 </name>
-)	)	)	PUNCT	_	1929	punct	RV	PROPN	_	1928
-9	9	9	NUM	NumType=Card	1930	nummod	Lone	PROPN	_	1931
+)	)	)	PUNCT	-	1929	punct	RV	PROPN	-	1928
+9	9	9	NUM	NumType=Card	1930	nummod	Lone	PROPN	-	1931
 <name type="PER">
-Lone	Lone	Lone	PROPN	_	1931	list	Andreas	PROPN	_	1925
-Loklindt	Loklindt	Loklindt	PROPN	_	1932	flat	Lone	PROPN	_	1931
+Lone	Lone	Lone	PROPN	-	1931	list	Andreas	PROPN	-	1925
+Loklindt	Loklindt	Loklindt	PROPN	-	1932	flat	Lone	PROPN	-	1931
 </name>
-(	(	(	PUNCT	_	1933	punct	RV	PROPN	_	1934
+(	(	(	PUNCT	-	1933	punct	RV	PROPN	-	1934
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	1934	list	Lone	PROPN	_	1931
+RV	RV	RV	PROPN	-	1934	list	Lone	PROPN	-	1931
 <g/>
 </name>
-)	)	)	PUNCT	_	1935	punct	RV	PROPN	_	1934
-10	10	10	NUM	NumType=Card	1936	nummod	Lotte	PROPN	_	1937
+)	)	)	PUNCT	-	1935	punct	RV	PROPN	-	1934
+10	10	10	NUM	NumType=Card	1936	nummod	Lotte	PROPN	-	1937
 <name type="PER">
-Lotte	Lotte	Lotte	PROPN	_	1937	list	RV	PROPN	_	1934
-Rod	Rod	Rod	PROPN	_	1938	flat	Lotte	PROPN	_	1937
+Lotte	Lotte	Lotte	PROPN	-	1937	list	RV	PROPN	-	1934
+Rod	Rod	Rod	PROPN	-	1938	flat	Lotte	PROPN	-	1937
 </name>
-(	(	(	PUNCT	_	1939	punct	RV	PROPN	_	1940
+(	(	(	PUNCT	-	1939	punct	RV	PROPN	-	1940
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	1940	flat	Lotte	PROPN	_	1937
+RV	RV	RV	PROPN	-	1940	flat	Lotte	PROPN	-	1937
 <g/>
 </name>
-)	)	)	PUNCT	_	1941	punct	RV	PROPN	_	1940
-11	11	11	NUM	NumType=Card	1942	nummod	Steen	PROPN	_	1943
+)	)	)	PUNCT	-	1941	punct	RV	PROPN	-	1940
+11	11	11	NUM	NumType=Card	1942	nummod	Steen	PROPN	-	1943
 <name type="PER">
-Steen	Steen	Steen	PROPN	_	1943	list	Lotte	PROPN	_	1937
-Gade	Gade	Gade	PROPN	_	1944	flat	Steen	PROPN	_	1943
+Steen	Steen	Steen	PROPN	-	1943	list	Lotte	PROPN	-	1937
+Gade	Gade	Gade	PROPN	-	1944	flat	Steen	PROPN	-	1943
 </name>
-(	(	(	PUNCT	_	1945	punct	SF	PROPN	_	1946
+(	(	(	PUNCT	-	1945	punct	SF	PROPN	-	1946
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	1946	flat	Steen	PROPN	_	1943
+SF	SF	SF	PROPN	-	1946	flat	Steen	PROPN	-	1943
 <g/>
 </name>
-)	)	)	PUNCT	_	1947	punct	SF	PROPN	_	1946
-12	12	12	NUM	NumType=Card	1948	nummod	Jonas	PROPN	_	1949
+)	)	)	PUNCT	-	1947	punct	SF	PROPN	-	1946
+12	12	12	NUM	NumType=Card	1948	nummod	Jonas	PROPN	-	1949
 <name type="PER">
-Jonas	Jonas	Jonas	PROPN	_	1949	list	Steen	PROPN	_	1943
-Dahl	Dahl	Dahl	PROPN	_	1950	flat	Jonas	PROPN	_	1949
+Jonas	Jonas	Jonas	PROPN	-	1949	list	Steen	PROPN	-	1943
+Dahl	Dahl	Dahl	PROPN	-	1950	flat	Jonas	PROPN	-	1949
 </name>
-(	(	(	PUNCT	_	1951	punct	SF	PROPN	_	1952
+(	(	(	PUNCT	-	1951	punct	SF	PROPN	-	1952
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	1952	flat	Jonas	PROPN	_	1949
+SF	SF	SF	PROPN	-	1952	flat	Jonas	PROPN	-	1949
 <g/>
 </name>
-)	)	)	PUNCT	_	1953	punct	SF	PROPN	_	1952
-13	13	13	NUM	NumType=Card	1954	nummod	Per	PROPN	_	1955
+)	)	)	PUNCT	-	1953	punct	SF	PROPN	-	1952
+13	13	13	NUM	NumType=Card	1954	nummod	Per	PROPN	-	1955
 <name type="PER">
-Per	Per	Per	PROPN	_	1955	list	Jonas	PROPN	_	1949
-Clausen	Clausen	Clausen	PROPN	_	1956	flat	Per	PROPN	_	1955
+Per	Per	Per	PROPN	-	1955	list	Jonas	PROPN	-	1949
+Clausen	Clausen	Clausen	PROPN	-	1956	flat	Per	PROPN	-	1955
 </name>
-(	(	(	PUNCT	_	1957	punct	EL	PROPN	_	1958
+(	(	(	PUNCT	-	1957	punct	EL	PROPN	-	1958
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	1958	flat	Per	PROPN	_	1955
+EL	EL	EL	PROPN	-	1958	flat	Per	PROPN	-	1955
 <g/>
 </name>
-)	)	)	PUNCT	_	1959	punct	EL	PROPN	_	1958
-14	14	14	NUM	NumType=Card	1960	nummod	Frank	PROPN	_	1961
+)	)	)	PUNCT	-	1959	punct	EL	PROPN	-	1958
+14	14	14	NUM	NumType=Card	1960	nummod	Frank	PROPN	-	1961
 <name type="PER">
-Frank	Frank	Frank	PROPN	_	1961	list	Per	PROPN	_	1955
-Aaen	Aaen	Aaen	PROPN	_	1962	flat	Frank	PROPN	_	1961
+Frank	Frank	Frank	PROPN	-	1961	list	Per	PROPN	-	1955
+Aaen	Aaen	Aaen	PROPN	-	1962	flat	Frank	PROPN	-	1961
 </name>
-(	(	(	PUNCT	_	1963	punct	EL	PROPN	_	1964
+(	(	(	PUNCT	-	1963	punct	EL	PROPN	-	1964
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	1964	flat	Frank	PROPN	_	1961
+EL	EL	EL	PROPN	-	1964	flat	Frank	PROPN	-	1961
 <g/>
 </name>
-)	)	)	PUNCT	_	1965	punct	EL	PROPN	_	1964
-15	15	15	NUM	NumType=Card	1966	nummod	Lars	PROPN	_	1967
+)	)	)	PUNCT	-	1965	punct	EL	PROPN	-	1964
+15	15	15	NUM	NumType=Card	1966	nummod	Lars	PROPN	-	1967
 <name type="PER">
-Lars	Lars	Lars	PROPN	_	1967	list	Frank	PROPN	_	1961
-Dohn	Dohn	Dohn	PROPN	_	1968	flat	Lars	PROPN	_	1967
+Lars	Lars	Lars	PROPN	-	1967	list	Frank	PROPN	-	1961
+Dohn	Dohn	Dohn	PROPN	-	1968	flat	Lars	PROPN	-	1967
 </name>
-(	(	(	PUNCT	_	1969	punct	EL	PROPN	_	1970
+(	(	(	PUNCT	-	1969	punct	EL	PROPN	-	1970
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	1970	flat	Lars	PROPN	_	1967
+EL	EL	EL	PROPN	-	1970	flat	Lars	PROPN	-	1967
 <g/>
 </name>
-)	)	)	PUNCT	_	1971	punct	EL	PROPN	_	1970
-16	16	16	NUM	NumType=Card	1972	nummod	Thomas	PROPN	_	1973
+)	)	)	PUNCT	-	1971	punct	EL	PROPN	-	1970
+16	16	16	NUM	NumType=Card	1972	nummod	Thomas	PROPN	-	1973
 <name type="PER">
-Thomas	Thomas	Thomas	PROPN	_	1973	list	Lars	PROPN	_	1967
-Danielsen	Danielsen	Danielsen	PROPN	_	1974	flat	Thomas	PROPN	_	1973
+Thomas	Thomas	Thomas	PROPN	-	1973	list	Lars	PROPN	-	1967
+Danielsen	Danielsen	Danielsen	PROPN	-	1974	flat	Thomas	PROPN	-	1973
 </name>
-(	(	(	PUNCT	_	1975	punct	V	PROPN	_	1976
+(	(	(	PUNCT	-	1975	punct	V	PROPN	-	1976
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	1976	flat	Thomas	PROPN	_	1973
+V	V	V	PROPN	-	1976	flat	Thomas	PROPN	-	1973
 <g/>
 </name>
-)	)	)	PUNCT	_	1977	punct	V	PROPN	_	1976
-17	17	17	NUM	NumType=Card	1978	nummod	Kristian	PROPN	_	1979
+)	)	)	PUNCT	-	1977	punct	V	PROPN	-	1976
+17	17	17	NUM	NumType=Card	1978	nummod	Kristian	PROPN	-	1979
 <name type="PER">
-Kristian	Kristian	Kristian	PROPN	_	1979	list	Thomas	PROPN	_	1973
-Pihl	Pihl	Pihl	PROPN	_	1980	flat	Kristian	PROPN	_	1979
-Lorentzen	Lorentzen	Lorentzen	PROPN	_	1981	flat	Kristian	PROPN	_	1979
+Kristian	Kristian	Kristian	PROPN	-	1979	list	Thomas	PROPN	-	1973
+Pihl	Pihl	Pihl	PROPN	-	1980	flat	Kristian	PROPN	-	1979
+Lorentzen	Lorentzen	Lorentzen	PROPN	-	1981	flat	Kristian	PROPN	-	1979
 </name>
-(	(	(	PUNCT	_	1982	punct	V	PROPN	_	1983
+(	(	(	PUNCT	-	1982	punct	V	PROPN	-	1983
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	1983	flat	Kristian	PROPN	_	1979
+V	V	V	PROPN	-	1983	flat	Kristian	PROPN	-	1979
 <g/>
 </name>
-)	)	)	PUNCT	_	1984	punct	V	PROPN	_	1983
-18	18	18	NUM	NumType=Card	1985	nummod	Jacob	PROPN	_	1986
+)	)	)	PUNCT	-	1984	punct	V	PROPN	-	1983
+18	18	18	NUM	NumType=Card	1985	nummod	Jacob	PROPN	-	1986
 <name type="PER">
-Jacob	Jacob	Jacob	PROPN	_	1986	list	Kristian	PROPN	_	1979
-Jensen	Jensen	Jensen	PROPN	_	1987	flat	Jacob	PROPN	_	1986
+Jacob	Jacob	Jacob	PROPN	-	1986	list	Kristian	PROPN	-	1979
+Jensen	Jensen	Jensen	PROPN	-	1987	flat	Jacob	PROPN	-	1986
 </name>
-(	(	(	PUNCT	_	1988	punct	V	PROPN	_	1989
+(	(	(	PUNCT	-	1988	punct	V	PROPN	-	1989
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	1989	flat	Jacob	PROPN	_	1986
+V	V	V	PROPN	-	1989	flat	Jacob	PROPN	-	1986
 <g/>
 </name>
-)	)	)	PUNCT	_	1990	punct	V	PROPN	_	1989
-19	19	19	NUM	NumType=Card	1991	nummod	Lars	PROPN	_	1992
+)	)	)	PUNCT	-	1990	punct	V	PROPN	-	1989
+19	19	19	NUM	NumType=Card	1991	nummod	Lars	PROPN	-	1992
 <name type="PER">
-Lars	Lars	Lars	PROPN	_	1992	list	Jacob	PROPN	_	1986
-Christian	Christian	Christian	PROPN	_	1993	flat	Lars	PROPN	_	1992
-Lilleholt	Lilleholt	Lilleholt	PROPN	_	1994	flat	Lars	PROPN	_	1992
+Lars	Lars	Lars	PROPN	-	1992	list	Jacob	PROPN	-	1986
+Christian	Christian	Christian	PROPN	-	1993	flat	Lars	PROPN	-	1992
+Lilleholt	Lilleholt	Lilleholt	PROPN	-	1994	flat	Lars	PROPN	-	1992
 </name>
-(	(	(	PUNCT	_	1995	punct	V	PROPN	_	1996
+(	(	(	PUNCT	-	1995	punct	V	PROPN	-	1996
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	1996	flat	Lars	PROPN	_	1992
+V	V	V	PROPN	-	1996	flat	Lars	PROPN	-	1992
 <g/>
 </name>
-)	)	)	PUNCT	_	1997	punct	V	PROPN	_	1996
-20	20	20	NUM	NumType=Card	1998	nummod	Ellen	PROPN	_	1999
+)	)	)	PUNCT	-	1997	punct	V	PROPN	-	1996
+20	20	20	NUM	NumType=Card	1998	nummod	Ellen	PROPN	-	1999
 <name type="PER">
-Ellen	Ellen	Ellen	PROPN	_	1999	list	Lars	PROPN	_	1992
-Trane	Trane	Trane	PROPN	_	2000	flat	Ellen	PROPN	_	1999
-Nørby	Nørby	Nørby	PROPN	_	2001	flat	Ellen	PROPN	_	1999
+Ellen	Ellen	Ellen	PROPN	-	1999	list	Lars	PROPN	-	1992
+Trane	Trane	Trane	PROPN	-	2000	flat	Ellen	PROPN	-	1999
+Nørby	Nørby	Nørby	PROPN	-	2001	flat	Ellen	PROPN	-	1999
 </name>
-(	(	(	PUNCT	_	2002	punct	V	PROPN	_	2003
+(	(	(	PUNCT	-	2002	punct	V	PROPN	-	2003
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	2003	flat	Ellen	PROPN	_	1999
+V	V	V	PROPN	-	2003	flat	Ellen	PROPN	-	1999
 <g/>
 </name>
-)	)	)	PUNCT	_	2004	punct	V	PROPN	_	2003
-21	21	21	NUM	NumType=Card	2005	nummod	Jens	PROPN	_	2006
+)	)	)	PUNCT	-	2004	punct	V	PROPN	-	2003
+21	21	21	NUM	NumType=Card	2005	nummod	Jens	PROPN	-	2006
 <name type="PER">
-Jens	Jens	Jens	PROPN	_	2006	list	Lars	PROPN	_	1992
-Ejner	Ejner	Ejner	PROPN	_	2007	flat	Jens	PROPN	_	2006
-Christensen	Christensen	Christensen	PROPN	_	2008	flat	Jens	PROPN	_	2006
+Jens	Jens	Jens	PROPN	-	2006	list	Lars	PROPN	-	1992
+Ejner	Ejner	Ejner	PROPN	-	2007	flat	Jens	PROPN	-	2006
+Christensen	Christensen	Christensen	PROPN	-	2008	flat	Jens	PROPN	-	2006
 </name>
-(	(	(	PUNCT	_	2009	punct	V	PROPN	_	2010
+(	(	(	PUNCT	-	2009	punct	V	PROPN	-	2010
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	2010	flat	Jens	PROPN	_	2006
+V	V	V	PROPN	-	2010	flat	Jens	PROPN	-	2006
 <g/>
 </name>
-)	)	)	PUNCT	_	2011	punct	V	PROPN	_	2010
-22	22	22	NUM	NumType=Card	2012	nummod	Eyvind	PROPN	_	2013
+)	)	)	PUNCT	-	2011	punct	V	PROPN	-	2010
+22	22	22	NUM	NumType=Card	2012	nummod	Eyvind	PROPN	-	2013
 <name type="PER">
-Eyvind	Eyvind	Eyvind	PROPN	_	2013	list	Jens	PROPN	_	2006
-Vesselbo	Vesselbo	Vesselbo	PROPN	_	2014	flat	Eyvind	PROPN	_	2013
+Eyvind	Eyvind	Eyvind	PROPN	-	2013	list	Jens	PROPN	-	2006
+Vesselbo	Vesselbo	Vesselbo	PROPN	-	2014	flat	Eyvind	PROPN	-	2013
 </name>
-(	(	(	PUNCT	_	2015	punct	V	PROPN	_	2016
+(	(	(	PUNCT	-	2015	punct	V	PROPN	-	2016
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	2016	flat	Eyvind	PROPN	_	2013
+V	V	V	PROPN	-	2016	flat	Eyvind	PROPN	-	2013
 <g/>
 </name>
-)	)	)	PUNCT	_	2017	punct	V	PROPN	_	2016
-23	23	23	NUM	NumType=Card	2018	nummod	Mikkel	PROPN	_	2019
+)	)	)	PUNCT	-	2017	punct	V	PROPN	-	2016
+23	23	23	NUM	NumType=Card	2018	nummod	Mikkel	PROPN	-	2019
 <name type="PER">
-Mikkel	Mikkel	Mikkel	PROPN	_	2019	list	Eyvind	PROPN	_	2013
-Dencker	Dencker	Dencker	PROPN	_	2020	flat	Mikkel	PROPN	_	2019
+Mikkel	Mikkel	Mikkel	PROPN	-	2019	list	Eyvind	PROPN	-	2013
+Dencker	Dencker	Dencker	PROPN	-	2020	flat	Mikkel	PROPN	-	2019
 </name>
-(	(	(	PUNCT	_	2021	punct	DF	PROPN	_	2022
+(	(	(	PUNCT	-	2021	punct	DF	PROPN	-	2022
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	2022	flat	Mikkel	PROPN	_	2019
+DF	DF	DF	PROPN	-	2022	flat	Mikkel	PROPN	-	2019
 <g/>
 </name>
-)	)	)	PUNCT	_	2023	punct	DF	PROPN	_	2022
-24	24	24	NUM	NumType=Card	2024	nummod	Liselott	PROPN	_	2025
+)	)	)	PUNCT	-	2023	punct	DF	PROPN	-	2022
+24	24	24	NUM	NumType=Card	2024	nummod	Liselott	PROPN	-	2025
 <name type="PER">
-Liselott	Liselott	Liselott	PROPN	_	2025	list	Mikkel	PROPN	_	2019
-Blixt	Blixt	Blixt	PROPN	_	2026	flat	Liselott	PROPN	_	2025
+Liselott	Liselott	Liselott	PROPN	-	2025	list	Mikkel	PROPN	-	2019
+Blixt	Blixt	Blixt	PROPN	-	2026	flat	Liselott	PROPN	-	2025
 </name>
-(	(	(	PUNCT	_	2027	punct	DF	PROPN	_	2028
+(	(	(	PUNCT	-	2027	punct	DF	PROPN	-	2028
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	2028	flat	Liselott	PROPN	_	2025
+DF	DF	DF	PROPN	-	2028	flat	Liselott	PROPN	-	2025
 <g/>
 </name>
-)	)	)	PUNCT	_	2029	punct	DF	PROPN	_	2028
-25	25	25	NUM	NumType=Card	2030	nummod	René	PROPN	_	2031
+)	)	)	PUNCT	-	2029	punct	DF	PROPN	-	2028
+25	25	25	NUM	NumType=Card	2030	nummod	René	PROPN	-	2031
 <name type="PER">
-René	René	René	PROPN	_	2031	list	Liselott	PROPN	_	2025
-Christensen	Christensen	Christensen	PROPN	_	2032	flat	René	PROPN	_	2031
+René	René	René	PROPN	-	2031	list	Liselott	PROPN	-	2025
+Christensen	Christensen	Christensen	PROPN	-	2032	flat	René	PROPN	-	2031
 </name>
-(	(	(	PUNCT	_	2033	punct	DF	PROPN	_	2034
+(	(	(	PUNCT	-	2033	punct	DF	PROPN	-	2034
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	2034	flat	René	PROPN	_	2031
+DF	DF	DF	PROPN	-	2034	flat	René	PROPN	-	2031
 <g/>
 </name>
-)	)	)	PUNCT	_	2035	punct	DF	PROPN	_	2034
-26	26	26	NUM	NumType=Card	2036	nummod	Kim	PROPN	_	2037
+)	)	)	PUNCT	-	2035	punct	DF	PROPN	-	2034
+26	26	26	NUM	NumType=Card	2036	nummod	Kim	PROPN	-	2037
 <name type="PER">
-Kim	Kim	Kim	PROPN	_	2037	list	René	PROPN	_	2031
-Christiansen	Christiansen	Christiansen	PROPN	_	2038	flat	Kim	PROPN	_	2037
+Kim	Kim	Kim	PROPN	-	2037	list	René	PROPN	-	2031
+Christiansen	Christiansen	Christiansen	PROPN	-	2038	flat	Kim	PROPN	-	2037
 </name>
-(	(	(	PUNCT	_	2039	punct	DF	PROPN	_	2040
+(	(	(	PUNCT	-	2039	punct	DF	PROPN	-	2040
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	2040	flat	Kim	PROPN	_	2037
+DF	DF	DF	PROPN	-	2040	flat	Kim	PROPN	-	2037
 <g/>
 </name>
-)	)	)	PUNCT	_	2041	punct	DF	PROPN	_	2040
-27	27	27	NUM	NumType=Card	2042	nummod	Villum	PROPN	_	2043
+)	)	)	PUNCT	-	2041	punct	DF	PROPN	-	2040
+27	27	27	NUM	NumType=Card	2042	nummod	Villum	PROPN	-	2043
 <name type="PER">
-Villum	Villum	Villum	PROPN	_	2043	list	Kim	PROPN	_	2037
-Christensen	Christensen	Christensen	PROPN	_	2044	flat	Villum	PROPN	_	2043
+Villum	Villum	Villum	PROPN	-	2043	list	Kim	PROPN	-	2037
+Christensen	Christensen	Christensen	PROPN	-	2044	flat	Villum	PROPN	-	2043
 </name>
-(	(	(	PUNCT	_	2045	punct	LA	PROPN	_	2046
+(	(	(	PUNCT	-	2045	punct	LA	PROPN	-	2046
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	2046	flat	Villum	PROPN	_	2043
+LA	LA	LA	PROPN	-	2046	flat	Villum	PROPN	-	2043
 <g/>
 </name>
-)	)	)	PUNCT	_	2047	punct	LA	PROPN	_	2046
-28	28	28	NUM	NumType=Card	2048	nummod	Mike	PROPN	_	2049
+)	)	)	PUNCT	-	2047	punct	LA	PROPN	-	2046
+28	28	28	NUM	NumType=Card	2048	nummod	Mike	PROPN	-	2049
 <name type="PER">
-Mike	Mike	Mike	PROPN	_	2049	list	Villum	PROPN	_	2043
-Legarth	Legarth	Legarth	PROPN	_	2050	flat	Mike	PROPN	_	2049
+Mike	Mike	Mike	PROPN	-	2049	list	Villum	PROPN	-	2043
+Legarth	Legarth	Legarth	PROPN	-	2050	flat	Mike	PROPN	-	2049
 </name>
-(	(	(	PUNCT	_	2051	punct	KF	PROPN	_	2052
+(	(	(	PUNCT	-	2051	punct	KF	PROPN	-	2052
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	2052	flat	Mike	PROPN	_	2049
+KF	KF	KF	PROPN	-	2052	flat	Mike	PROPN	-	2049
 <g/>
 </name>
-)	)	)	PUNCT	_	2053	punct	KF	PROPN	_	2052
-29	29	29	NUM	NumType=Card	2054	nummod	Charlotte	PROPN	_	2055
+)	)	)	PUNCT	-	2053	punct	KF	PROPN	-	2052
+29	29	29	NUM	NumType=Card	2054	nummod	Charlotte	PROPN	-	2055
 <name type="PER">
-Charlotte	Charlotte	Charlotte	PROPN	_	2055	list	Mike	PROPN	_	2049
-Dyremose	Dyremose	Dyremose	PROPN	_	2056	flat	Charlotte	PROPN	_	2055
+Charlotte	Charlotte	Charlotte	PROPN	-	2055	list	Mike	PROPN	-	2049
+Dyremose	Dyremose	Dyremose	PROPN	-	2056	flat	Charlotte	PROPN	-	2055
 </name>
-(	(	(	PUNCT	_	2057	punct	KF	PROPN	_	2058
+(	(	(	PUNCT	-	2057	punct	KF	PROPN	-	2058
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	2058	flat	Charlotte	PROPN	_	2055
+KF	KF	KF	PROPN	-	2058	flat	Charlotte	PROPN	-	2055
 <g/>
 </name>
-)	)	)	PUNCT	_	2059	punct	KF	PROPN	_	2058
-Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	2060	list	Charlotte	PROPN	_	2055
+)	)	)	PUNCT	-	2059	punct	KF	PROPN	-	2058
+Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	2060	list	Charlotte	PROPN	-	2055
 <g/>
-:	:	:	PUNCT	_	2061	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	2060
+:	:	:	PUNCT	-	2061	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	2060
 <name type="PER">
-Steen	Steen	Steen	PROPN	_	2062	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	2060
-Gade	Gade	Gade	PROPN	_	2063	flat	Steen	PROPN	_	2062
+Steen	Steen	Steen	PROPN	-	2062	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	2060
+Gade	Gade	Gade	PROPN	-	2063	flat	Steen	PROPN	-	2062
 </name>
-(	(	(	PUNCT	_	2064	punct	SF	PROPN	_	2065
+(	(	(	PUNCT	-	2064	punct	SF	PROPN	-	2065
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	2065	flat	Steen	PROPN	_	2062
+SF	SF	SF	PROPN	-	2065	flat	Steen	PROPN	-	2062
 <g/>
 </name>
-)	)	)	PUNCT	_	2066	punct	SF	PROPN	_	2065
-Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	2067	list	Steen	PROPN	_	2062
+)	)	)	PUNCT	-	2066	punct	SF	PROPN	-	2065
+Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	2067	list	Steen	PROPN	-	2062
 <g/>
-:	:	:	PUNCT	_	2068	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	2067
+:	:	:	PUNCT	-	2068	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	2067
 <name type="PER">
-Thomas	Thomas	Thomas	PROPN	_	2069	appos	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	2067
-Danielsen	Danielsen	Danielsen	PROPN	_	2070	flat	Thomas	PROPN	_	2069
+Thomas	Thomas	Thomas	PROPN	-	2069	appos	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	2067
+Danielsen	Danielsen	Danielsen	PROPN	-	2070	flat	Thomas	PROPN	-	2069
 </name>
-(	(	(	PUNCT	_	2071	punct	V	PROPN	_	2072
+(	(	(	PUNCT	-	2071	punct	V	PROPN	-	2072
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	2072	flat	Thomas	PROPN	_	2069
+V	V	V	PROPN	-	2072	flat	Thomas	PROPN	-	2069
 <g/>
 </name>
-)	)	)	PUNCT	_	2073	punct	V	PROPN	_	2072
-Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	2074	flat	Thomas	PROPN	_	2069
+)	)	)	PUNCT	-	2073	punct	V	PROPN	-	2072
+Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	2074	flat	Thomas	PROPN	-	2069
 af	af	af	ADP	AdpType=Prep	2075	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	2077
 29	29	29	NUM	NumType=Card	2076	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	2077
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	2077	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	2074
 til	til	til	ADP	AdpType=Prep	2078	case	kommunaludvalg	NOUN	Definite=Def Gender=Neut Number=Sing	2079
 Kommunaludvalget	Kommunaludvalget	kommunaludvalg	NOUN	Definite=Def Gender=Neut Number=Sing	2079	nmod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	2077
 <g/>
-:	:	:	PUNCT	_	2080	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	2067
+:	:	:	PUNCT	-	2080	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	2067
 Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	2081	list	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	2067
-blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	2082	cop	Simon	PROPN	_	2085
+blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	2082	cop	Simon	PROPN	-	2085
 <g/>
-:	:	:	PUNCT	_	2083	punct	Simon	PROPN	_	2085
-1	1	1	NUM	NumType=Card	2084	nummod	Simon	PROPN	_	2085
+:	:	:	PUNCT	-	2083	punct	Simon	PROPN	-	2085
+1	1	1	NUM	NumType=Card	2084	nummod	Simon	PROPN	-	2085
 <name type="PER">
-Simon	Simon	Simon	PROPN	_	2085	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	2081
-Kollerup	Kollerup	Kollerup	PROPN	_	2086	flat	Simon	PROPN	_	2085
+Simon	Simon	Simon	PROPN	-	2085	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	2081
+Kollerup	Kollerup	Kollerup	PROPN	-	2086	flat	Simon	PROPN	-	2085
 </name>
-(	(	(	PUNCT	_	2087	punct	S	PROPN	_	2088
+(	(	(	PUNCT	-	2087	punct	S	PROPN	-	2088
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	2088	flat	Simon	PROPN	_	2085
+S	S	S	PROPN	-	2088	flat	Simon	PROPN	-	2085
 <g/>
 </name>
-)	)	)	PUNCT	_	2089	punct	S	PROPN	_	2088
-2	2	2	NUM	NumType=Card	2090	nummod	Annette	PROPN	_	2091
+)	)	)	PUNCT	-	2089	punct	S	PROPN	-	2088
+2	2	2	NUM	NumType=Card	2090	nummod	Annette	PROPN	-	2091
 <name type="PER">
-Annette	Annette	Annette	PROPN	_	2091	list	Simon	PROPN	_	2085
-Lind	Lind	Lind	PROPN	_	2092	flat	Annette	PROPN	_	2091
+Annette	Annette	Annette	PROPN	-	2091	list	Simon	PROPN	-	2085
+Lind	Lind	Lind	PROPN	-	2092	flat	Annette	PROPN	-	2091
 </name>
-(	(	(	PUNCT	_	2093	punct	S	PROPN	_	2094
+(	(	(	PUNCT	-	2093	punct	S	PROPN	-	2094
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	2094	flat	Annette	PROPN	_	2091
+S	S	S	PROPN	-	2094	flat	Annette	PROPN	-	2091
 <g/>
 </name>
-)	)	)	PUNCT	_	2095	punct	S	PROPN	_	2094
-3	3	3	ADJ	NumType=Ord	2096	amod	Jan	PROPN	_	2097
+)	)	)	PUNCT	-	2095	punct	S	PROPN	-	2094
+3	3	3	ADJ	NumType=Ord	2096	amod	Jan	PROPN	-	2097
 <name type="PER">
-Jan	Jan	Jan	PROPN	_	2097	list	Annette	PROPN	_	2091
-Johansen	Johansen	Johansen	PROPN	_	2098	flat	Jan	PROPN	_	2097
+Jan	Jan	Jan	PROPN	-	2097	list	Annette	PROPN	-	2091
+Johansen	Johansen	Johansen	PROPN	-	2098	flat	Jan	PROPN	-	2097
 </name>
-(	(	(	PUNCT	_	2099	punct	S	PROPN	_	2100
+(	(	(	PUNCT	-	2099	punct	S	PROPN	-	2100
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	2100	flat	Jan	PROPN	_	2097
+S	S	S	PROPN	-	2100	flat	Jan	PROPN	-	2097
 <g/>
 </name>
-)	)	)	PUNCT	_	2101	punct	S	PROPN	_	2100
-4	4	4	NUM	NumType=Card	2102	nummod	Thomas	PROPN	_	2103
+)	)	)	PUNCT	-	2101	punct	S	PROPN	-	2100
+4	4	4	NUM	NumType=Card	2102	nummod	Thomas	PROPN	-	2103
 <name type="PER">
-Thomas	Thomas	Thomas	PROPN	_	2103	list	Jan	PROPN	_	2097
-Jensen	Jensen	Jensen	PROPN	_	2104	flat	Thomas	PROPN	_	2103
+Thomas	Thomas	Thomas	PROPN	-	2103	list	Jan	PROPN	-	2097
+Jensen	Jensen	Jensen	PROPN	-	2104	flat	Thomas	PROPN	-	2103
 </name>
-(	(	(	PUNCT	_	2105	punct	S	PROPN	_	2106
+(	(	(	PUNCT	-	2105	punct	S	PROPN	-	2106
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	2106	flat	Thomas	PROPN	_	2103
+S	S	S	PROPN	-	2106	flat	Thomas	PROPN	-	2103
 <g/>
 </name>
-)	)	)	PUNCT	_	2107	punct	S	PROPN	_	2106
-5	5	5	NUM	NumType=Card	2108	nummod	Anne	PROPN	_	2109
+)	)	)	PUNCT	-	2107	punct	S	PROPN	-	2106
+5	5	5	NUM	NumType=Card	2108	nummod	Anne	PROPN	-	2109
 <name type="PER">
-Anne	Anne	Anne	PROPN	_	2109	list	Thomas	PROPN	_	2103
-Sina	Sina	Sina	PROPN	_	2110	flat	Anne	PROPN	_	2109
+Anne	Anne	Anne	PROPN	-	2109	list	Thomas	PROPN	-	2103
+Sina	Sina	Sina	PROPN	-	2110	flat	Anne	PROPN	-	2109
 </name>
-(	(	(	PUNCT	_	2111	punct	S	PROPN	_	2112
+(	(	(	PUNCT	-	2111	punct	S	PROPN	-	2112
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	2112	list	Anne	PROPN	_	2109
+S	S	S	PROPN	-	2112	list	Anne	PROPN	-	2109
 <g/>
 </name>
-)	)	)	PUNCT	_	2113	punct	S	PROPN	_	2112
-6	6	6	NUM	NumType=Card	2114	nummod	Torben	PROPN	_	2115
+)	)	)	PUNCT	-	2113	punct	S	PROPN	-	2112
+6	6	6	NUM	NumType=Card	2114	nummod	Torben	PROPN	-	2115
 <name type="PER">
-Torben	Torben	Torben	PROPN	_	2115	flat	S	PROPN	_	2112
-Hansen	Hansen	Hansen	PROPN	_	2116	flat	S	PROPN	_	2112
+Torben	Torben	Torben	PROPN	-	2115	flat	S	PROPN	-	2112
+Hansen	Hansen	Hansen	PROPN	-	2116	flat	S	PROPN	-	2112
 </name>
-(	(	(	PUNCT	_	2117	punct	S	PROPN	_	2118
+(	(	(	PUNCT	-	2117	punct	S	PROPN	-	2118
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	2118	flat	S	PROPN	_	2112
+S	S	S	PROPN	-	2118	flat	S	PROPN	-	2112
 <g/>
 </name>
-)	)	)	PUNCT	_	2119	punct	S	PROPN	_	2118
-7	7	7	NUM	NumType=Card	2120	nummod	Rasmus	PROPN	_	2121
+)	)	)	PUNCT	-	2119	punct	S	PROPN	-	2118
+7	7	7	NUM	NumType=Card	2120	nummod	Rasmus	PROPN	-	2121
 <name type="PER">
-Rasmus	Rasmus	Rasmus	PROPN	_	2121	flat	S	PROPN	_	2112
-Prehn	Prehn	Prehn	PROPN	_	2122	flat	S	PROPN	_	2112
+Rasmus	Rasmus	Rasmus	PROPN	-	2121	flat	S	PROPN	-	2112
+Prehn	Prehn	Prehn	PROPN	-	2122	flat	S	PROPN	-	2112
 </name>
-(	(	(	PUNCT	_	2123	punct	S	PROPN	_	2124
+(	(	(	PUNCT	-	2123	punct	S	PROPN	-	2124
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	2124	flat	S	PROPN	_	2112
+S	S	S	PROPN	-	2124	flat	S	PROPN	-	2112
 <g/>
 </name>
-)	)	)	PUNCT	_	2125	punct	S	PROPN	_	2124
-8	8	8	NUM	NumType=Card	2126	nummod	Liv	PROPN	_	2127
-Liv	Liv	Liv	PROPN	_	2127	flat	S	PROPN	_	2112
+)	)	)	PUNCT	-	2125	punct	S	PROPN	-	2124
+8	8	8	NUM	NumType=Card	2126	nummod	Liv	PROPN	-	2127
+Liv	Liv	Liv	PROPN	-	2127	flat	S	PROPN	-	2112
 <name type="PER">
-Holm	Holm	Holm	PROPN	_	2128	flat	S	PROPN	_	2112
-Andersen	Andersen	Andersen	PROPN	_	2129	flat	S	PROPN	_	2112
+Holm	Holm	Holm	PROPN	-	2128	flat	S	PROPN	-	2112
+Andersen	Andersen	Andersen	PROPN	-	2129	flat	S	PROPN	-	2112
 </name>
-(	(	(	PUNCT	_	2130	punct	RV	PROPN	_	2131
+(	(	(	PUNCT	-	2130	punct	RV	PROPN	-	2131
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	2131	flat	S	PROPN	_	2112
+RV	RV	RV	PROPN	-	2131	flat	S	PROPN	-	2112
 <g/>
 </name>
-)	)	)	PUNCT	_	2132	punct	RV	PROPN	_	2131
-9	9	9	NUM	NumType=Card	2133	nummod	Helle	PROPN	_	2134
+)	)	)	PUNCT	-	2132	punct	RV	PROPN	-	2131
+9	9	9	NUM	NumType=Card	2133	nummod	Helle	PROPN	-	2134
 <name type="PER">
-Helle	Helle	Helle	PROPN	_	2134	list	S	PROPN	_	2112
-Løvgreen	Løvgreen	Løvgreen	PROPN	_	2135	flat	Helle	PROPN	_	2134
-Mølvig	Mølvig	Mølvigen	PROPN	_	2136	flat	Helle	PROPN	_	2134
+Helle	Helle	Helle	PROPN	-	2134	list	S	PROPN	-	2112
+Løvgreen	Løvgreen	Løvgreen	PROPN	-	2135	flat	Helle	PROPN	-	2134
+Mølvig	Mølvig	Mølvigen	PROPN	-	2136	flat	Helle	PROPN	-	2134
 </name>
-(	(	(	PUNCT	_	2137	punct	RV	PROPN	_	2138
+(	(	(	PUNCT	-	2137	punct	RV	PROPN	-	2138
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	2138	list	Helle	PROPN	_	2134
+RV	RV	RV	PROPN	-	2138	list	Helle	PROPN	-	2134
 <g/>
 </name>
-)	)	)	PUNCT	_	2139	punct	RV	PROPN	_	2138
-10	10	10	NUM	NumType=Card	2140	nummod	Nadeem	PROPN	_	2141
+)	)	)	PUNCT	-	2139	punct	RV	PROPN	-	2138
+10	10	10	NUM	NumType=Card	2140	nummod	Nadeem	PROPN	-	2141
 <name type="PER">
-Nadeem	Nadeem	Nadeem	PROPN	_	2141	flat	RV	PROPN	_	2138
-Farooq	Farooq	Farooq	NOUN	Definite=Ind Gender=Com Number=Sing	2142	flat	RV	PROPN	_	2138
+Nadeem	Nadeem	Nadeem	PROPN	-	2141	flat	RV	PROPN	-	2138
+Farooq	Farooq	Farooq	NOUN	Definite=Ind Gender=Com Number=Sing	2142	flat	RV	PROPN	-	2138
 </name>
-(	(	(	PUNCT	_	2143	punct	RV	PROPN	_	2144
+(	(	(	PUNCT	-	2143	punct	RV	PROPN	-	2144
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	2144	flat	RV	PROPN	_	2138
+RV	RV	RV	PROPN	-	2144	flat	RV	PROPN	-	2138
 <g/>
 </name>
-)	)	)	PUNCT	_	2145	punct	RV	PROPN	_	2144
-11	11	11	NUM	NumType=Card	2146	nummod	Pernille	PROPN	_	2147
+)	)	)	PUNCT	-	2145	punct	RV	PROPN	-	2144
+11	11	11	NUM	NumType=Card	2146	nummod	Pernille	PROPN	-	2147
 <name type="PER">
-Pernille	Pernille	Pernille	PROPN	_	2147	list	RV	PROPN	_	2138
-Vigsø	Vigsø	Vigsø	PROPN	_	2148	flat	Pernille	PROPN	_	2147
-Bagge	Bagge	Bagge	PROPN	_	2149	flat	Pernille	PROPN	_	2147
+Pernille	Pernille	Pernille	PROPN	-	2147	list	RV	PROPN	-	2138
+Vigsø	Vigsø	Vigsø	PROPN	-	2148	flat	Pernille	PROPN	-	2147
+Bagge	Bagge	Bagge	PROPN	-	2149	flat	Pernille	PROPN	-	2147
 </name>
-(	(	(	PUNCT	_	2150	punct	SF	PROPN	_	2151
+(	(	(	PUNCT	-	2150	punct	SF	PROPN	-	2151
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	2151	list	Pernille	PROPN	_	2147
+SF	SF	SF	PROPN	-	2151	list	Pernille	PROPN	-	2147
 <g/>
 </name>
-)	)	)	PUNCT	_	2152	punct	SF	PROPN	_	2151
-12	12	12	NUM	NumType=Card	2153	nummod	Lisbeth	PROPN	_	2154
+)	)	)	PUNCT	-	2152	punct	SF	PROPN	-	2151
+12	12	12	NUM	NumType=Card	2153	nummod	Lisbeth	PROPN	-	2154
 <name type="PER">
-Lisbeth	Lisbeth	Lisbeth	PROPN	_	2154	list	SF	PROPN	_	2151
-Bech	Bech	Bech	PROPN	_	2155	flat	Lisbeth	PROPN	_	2154
-Poulsen	Poulsen	Poulsen	PROPN	_	2156	flat	Lisbeth	PROPN	_	2154
+Lisbeth	Lisbeth	Lisbeth	PROPN	-	2154	list	SF	PROPN	-	2151
+Bech	Bech	Bech	PROPN	-	2155	flat	Lisbeth	PROPN	-	2154
+Poulsen	Poulsen	Poulsen	PROPN	-	2156	flat	Lisbeth	PROPN	-	2154
 </name>
-(	(	(	PUNCT	_	2157	punct	SF	PROPN	_	2158
+(	(	(	PUNCT	-	2157	punct	SF	PROPN	-	2158
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	2158	list	Lisbeth	PROPN	_	2154
+SF	SF	SF	PROPN	-	2158	list	Lisbeth	PROPN	-	2154
 <g/>
 </name>
-)	)	)	PUNCT	_	2159	punct	SF	PROPN	_	2158
-13	13	13	NUM	NumType=Card	2160	nummod	Lars	PROPN	_	2161
+)	)	)	PUNCT	-	2159	punct	SF	PROPN	-	2158
+13	13	13	NUM	NumType=Card	2160	nummod	Lars	PROPN	-	2161
 <name type="PER">
-Lars	Lars	Lars	PROPN	_	2161	list	SF	PROPN	_	2151
-Dohn	Dohn	Dohn	PROPN	_	2162	flat	Lars	PROPN	_	2161
+Lars	Lars	Lars	PROPN	-	2161	list	SF	PROPN	-	2151
+Dohn	Dohn	Dohn	PROPN	-	2162	flat	Lars	PROPN	-	2161
 </name>
-(	(	(	PUNCT	_	2163	punct	EL	PROPN	_	2164
+(	(	(	PUNCT	-	2163	punct	EL	PROPN	-	2164
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	2164	flat	Lars	PROPN	_	2161
+EL	EL	EL	PROPN	-	2164	flat	Lars	PROPN	-	2161
 <g/>
 </name>
-)	)	)	PUNCT	_	2165	punct	EL	PROPN	_	2164
-14	14	14	NUM	NumType=Card	2166	nummod	Rosa	PROPN	_	2167
+)	)	)	PUNCT	-	2165	punct	EL	PROPN	-	2164
+14	14	14	NUM	NumType=Card	2166	nummod	Rosa	PROPN	-	2167
 <name type="PER">
-Rosa	Rosa	Rosa	PROPN	_	2167	list	Lars	PROPN	_	2161
-Lund	Lund	Lund	PROPN	_	2168	flat	Rosa	PROPN	_	2167
+Rosa	Rosa	Rosa	PROPN	-	2167	list	Lars	PROPN	-	2161
+Lund	Lund	Lund	PROPN	-	2168	flat	Rosa	PROPN	-	2167
 </name>
-(	(	(	PUNCT	_	2169	punct	EL	PROPN	_	2170
+(	(	(	PUNCT	-	2169	punct	EL	PROPN	-	2170
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	2170	flat	Rosa	PROPN	_	2167
+EL	EL	EL	PROPN	-	2170	flat	Rosa	PROPN	-	2167
 <g/>
 </name>
-)	)	)	PUNCT	_	2171	punct	EL	PROPN	_	2170
-15	15	15	NUM	NumType=Card	2172	nummod	Finn	PROPN	_	2173
+)	)	)	PUNCT	-	2171	punct	EL	PROPN	-	2170
+15	15	15	NUM	NumType=Card	2172	nummod	Finn	PROPN	-	2173
 <name type="PER">
-Finn	Finn	Finn	PROPN	_	2173	list	Lars	PROPN	_	2161
-Sørensen	Sørensen	Sørensen	PROPN	_	2174	flat	Finn	PROPN	_	2173
+Finn	Finn	Finn	PROPN	-	2173	list	Lars	PROPN	-	2161
+Sørensen	Sørensen	Sørensen	PROPN	-	2174	flat	Finn	PROPN	-	2173
 </name>
-(	(	(	PUNCT	_	2175	punct	EL	PROPN	_	2176
+(	(	(	PUNCT	-	2175	punct	EL	PROPN	-	2176
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	2176	flat	Finn	PROPN	_	2173
+EL	EL	EL	PROPN	-	2176	flat	Finn	PROPN	-	2173
 <g/>
 </name>
-)	)	)	PUNCT	_	2177	punct	EL	PROPN	_	2176
-16	16	16	NUM	NumType=Card	2178	nummod	Erling	PROPN	_	2179
+)	)	)	PUNCT	-	2177	punct	EL	PROPN	-	2176
+16	16	16	NUM	NumType=Card	2178	nummod	Erling	PROPN	-	2179
 <name type="PER">
-Erling	Erling	Erling	PROPN	_	2179	list	Finn	PROPN	_	2173
-Bonnesen	Bonnesen	Bonnesen	PROPN	_	2180	flat	Erling	PROPN	_	2179
+Erling	Erling	Erling	PROPN	-	2179	list	Finn	PROPN	-	2173
+Bonnesen	Bonnesen	Bonnesen	PROPN	-	2180	flat	Erling	PROPN	-	2179
 </name>
-(	(	(	PUNCT	_	2181	punct	V	PROPN	_	2182
+(	(	(	PUNCT	-	2181	punct	V	PROPN	-	2182
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	2182	flat	Erling	PROPN	_	2179
+V	V	V	PROPN	-	2182	flat	Erling	PROPN	-	2179
 <g/>
 </name>
-)	)	)	PUNCT	_	2183	punct	V	PROPN	_	2182
-17	17	17	NUM	NumType=Card	2184	nummod	Michael	PROPN	_	2185
+)	)	)	PUNCT	-	2183	punct	V	PROPN	-	2182
+17	17	17	NUM	NumType=Card	2184	nummod	Michael	PROPN	-	2185
 <name type="PER">
-Michael	Michael	Michael	PROPN	_	2185	list	Erling	PROPN	_	2179
-Aastrup	Aastrup	Aastrup	PROPN	_	2186	flat	Michael	PROPN	_	2185
-Jensen	Jensen	Jensen	PROPN	_	2187	flat	Michael	PROPN	_	2185
+Michael	Michael	Michael	PROPN	-	2185	list	Erling	PROPN	-	2179
+Aastrup	Aastrup	Aastrup	PROPN	-	2186	flat	Michael	PROPN	-	2185
+Jensen	Jensen	Jensen	PROPN	-	2187	flat	Michael	PROPN	-	2185
 </name>
-(	(	(	PUNCT	_	2188	punct	V	PROPN	_	2189
+(	(	(	PUNCT	-	2188	punct	V	PROPN	-	2189
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	2189	flat	Michael	PROPN	_	2185
+V	V	V	PROPN	-	2189	flat	Michael	PROPN	-	2185
 <g/>
 </name>
-)	)	)	PUNCT	_	2190	punct	V	PROPN	_	2189
-18	18	18	NUM	NumType=Card	2191	nummod	Martin	PROPN	_	2192
+)	)	)	PUNCT	-	2190	punct	V	PROPN	-	2189
+18	18	18	NUM	NumType=Card	2191	nummod	Martin	PROPN	-	2192
 <name type="PER">
-Martin	Martin	Martin	PROPN	_	2192	list	Michael	PROPN	_	2185
-Geertsen	Geertsen	Geertsen	PROPN	_	2193	flat	Martin	PROPN	_	2192
+Martin	Martin	Martin	PROPN	-	2192	list	Michael	PROPN	-	2185
+Geertsen	Geertsen	Geertsen	PROPN	-	2193	flat	Martin	PROPN	-	2192
 </name>
-(	(	(	PUNCT	_	2194	punct	V	PROPN	_	2195
+(	(	(	PUNCT	-	2194	punct	V	PROPN	-	2195
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	2195	flat	Martin	PROPN	_	2192
+V	V	V	PROPN	-	2195	flat	Martin	PROPN	-	2192
 <g/>
 </name>
-)	)	)	PUNCT	_	2196	punct	V	PROPN	_	2195
-19	19	19	NUM	NumType=Card	2197	nummod	Jacob	PROPN	_	2198
+)	)	)	PUNCT	-	2196	punct	V	PROPN	-	2195
+19	19	19	NUM	NumType=Card	2197	nummod	Jacob	PROPN	-	2198
 <name type="PER">
-Jacob	Jacob	Jacob	PROPN	_	2198	list	Martin	PROPN	_	2192
-Jensen	Jensen	Jensen	PROPN	_	2199	flat	Jacob	PROPN	_	2198
+Jacob	Jacob	Jacob	PROPN	-	2198	list	Martin	PROPN	-	2192
+Jensen	Jensen	Jensen	PROPN	-	2199	flat	Jacob	PROPN	-	2198
 </name>
-(	(	(	PUNCT	_	2200	punct	V	PROPN	_	2201
+(	(	(	PUNCT	-	2200	punct	V	PROPN	-	2201
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	2201	flat	Jacob	PROPN	_	2198
+V	V	V	PROPN	-	2201	flat	Jacob	PROPN	-	2198
 <g/>
 </name>
-)	)	)	PUNCT	_	2202	punct	V	PROPN	_	2201
-20	20	20	NUM	NumType=Card	2203	nummod	Jan	PROPN	_	2204
+)	)	)	PUNCT	-	2202	punct	V	PROPN	-	2201
+20	20	20	NUM	NumType=Card	2203	nummod	Jan	PROPN	-	2204
 <name type="PER">
-Jan	Jan	Jan	PROPN	_	2204	list	Michael	PROPN	_	2185
-E.	E.	E.	PROPN	_	2205	flat	Jan	PROPN	_	2204
-Jørgensen	Jørgensen	Jørgensen	PROPN	_	2206	flat	Jan	PROPN	_	2204
+Jan	Jan	Jan	PROPN	-	2204	list	Michael	PROPN	-	2185
+E.	E.	E.	PROPN	-	2205	flat	Jan	PROPN	-	2204
+Jørgensen	Jørgensen	Jørgensen	PROPN	-	2206	flat	Jan	PROPN	-	2204
 </name>
-(	(	(	PUNCT	_	2207	punct	V	PROPN	_	2208
+(	(	(	PUNCT	-	2207	punct	V	PROPN	-	2208
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	2208	flat	Jan	PROPN	_	2204
+V	V	V	PROPN	-	2208	flat	Jan	PROPN	-	2204
 <g/>
 </name>
-)	)	)	PUNCT	_	2209	punct	V	PROPN	_	2208
-21	21	21	NUM	NumType=Card	2210	nummod	Sophie	PROPN	_	2211
+)	)	)	PUNCT	-	2209	punct	V	PROPN	-	2208
+21	21	21	NUM	NumType=Card	2210	nummod	Sophie	PROPN	-	2211
 <name type="PER">
-Sophie	Sophie	Sophie	PROPN	_	2211	list	Jan	PROPN	_	2204
-Løhde	Løhde	Løhde	NOUN	Definite=Ind Gender=Com Number=Sing	2212	flat	Sophie	PROPN	_	2211
+Sophie	Sophie	Sophie	PROPN	-	2211	list	Jan	PROPN	-	2204
+Løhde	Løhde	Løhde	NOUN	Definite=Ind Gender=Com Number=Sing	2212	flat	Sophie	PROPN	-	2211
 </name>
-(	(	(	PUNCT	_	2213	punct	V	PROPN	_	2214
+(	(	(	PUNCT	-	2213	punct	V	PROPN	-	2214
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	2214	flat	Sophie	PROPN	_	2211
+V	V	V	PROPN	-	2214	flat	Sophie	PROPN	-	2211
 <g/>
 </name>
-)	)	)	PUNCT	_	2215	punct	V	PROPN	_	2214
-22	22	22	NUM	NumType=Card	2216	nummod	Finn	PROPN	_	2217
+)	)	)	PUNCT	-	2215	punct	V	PROPN	-	2214
+22	22	22	NUM	NumType=Card	2216	nummod	Finn	PROPN	-	2217
 <name type="PER">
-Finn	Finn	Finn	PROPN	_	2217	list	Sophie	PROPN	_	2211
-Thranum	Thranum	Thranum	PROPN	_	2218	flat	Finn	PROPN	_	2217
+Finn	Finn	Finn	PROPN	-	2217	list	Sophie	PROPN	-	2211
+Thranum	Thranum	Thranum	PROPN	-	2218	flat	Finn	PROPN	-	2217
 </name>
-(	(	(	PUNCT	_	2219	punct	V	PROPN	_	2220
+(	(	(	PUNCT	-	2219	punct	V	PROPN	-	2220
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	2220	flat	Finn	PROPN	_	2217
+V	V	V	PROPN	-	2220	flat	Finn	PROPN	-	2217
 <g/>
 </name>
-)	)	)	PUNCT	_	2221	punct	V	PROPN	_	2220
-23	23	23	NUM	NumType=Card	2222	nummod	Hans	PROPN	_	2223
+)	)	)	PUNCT	-	2221	punct	V	PROPN	-	2220
+23	23	23	NUM	NumType=Card	2222	nummod	Hans	PROPN	-	2223
 <name type="PER">
-Hans	Hans	Hans	PROPN	_	2223	list	Finn	PROPN	_	2217
-Christian	Christian	Christian	PROPN	_	2224	flat	Hans	PROPN	_	2223
-Thoning	Thoning	Thoning	PROPN	_	2225	flat	Hans	PROPN	_	2223
+Hans	Hans	Hans	PROPN	-	2223	list	Finn	PROPN	-	2217
+Christian	Christian	Christian	PROPN	-	2224	flat	Hans	PROPN	-	2223
+Thoning	Thoning	Thoning	PROPN	-	2225	flat	Hans	PROPN	-	2223
 </name>
-(	(	(	PUNCT	_	2226	punct	V	PROPN	_	2227
+(	(	(	PUNCT	-	2226	punct	V	PROPN	-	2227
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	2227	flat	Hans	PROPN	_	2223
+V	V	V	PROPN	-	2227	flat	Hans	PROPN	-	2223
 <g/>
 </name>
-)	)	)	PUNCT	_	2228	punct	V	PROPN	_	2227
-24	24	24	NUM	NumType=Card	2229	nummod	Morten	PROPN	_	2230
+)	)	)	PUNCT	-	2228	punct	V	PROPN	-	2227
+24	24	24	NUM	NumType=Card	2229	nummod	Morten	PROPN	-	2230
 <name type="PER">
-Morten	Morten	Morten	PROPN	_	2230	list	Hans	PROPN	_	2223
-Marinus	Marinus	Marinus	PROPN	_	2231	flat	Morten	PROPN	_	2230
+Morten	Morten	Morten	PROPN	-	2230	list	Hans	PROPN	-	2223
+Marinus	Marinus	Marinus	PROPN	-	2231	flat	Morten	PROPN	-	2230
 </name>
-(	(	(	PUNCT	_	2232	punct	DF	PROPN	_	2233
+(	(	(	PUNCT	-	2232	punct	DF	PROPN	-	2233
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	2233	flat	Morten	PROPN	_	2230
+DF	DF	DF	PROPN	-	2233	flat	Morten	PROPN	-	2230
 <g/>
 </name>
-)	)	)	PUNCT	_	2234	punct	DF	PROPN	_	2233
-25	25	25	NUM	NumType=Card	2235	nummod	Mikkel	PROPN	_	2236
+)	)	)	PUNCT	-	2234	punct	DF	PROPN	-	2233
+25	25	25	NUM	NumType=Card	2235	nummod	Mikkel	PROPN	-	2236
 <name type="PER">
-Mikkel	Mikkel	Mikkel	PROPN	_	2236	list	Morten	PROPN	_	2230
-Dencker	Dencker	Dencker	PROPN	_	2237	flat	Mikkel	PROPN	_	2236
+Mikkel	Mikkel	Mikkel	PROPN	-	2236	list	Morten	PROPN	-	2230
+Dencker	Dencker	Dencker	PROPN	-	2237	flat	Mikkel	PROPN	-	2236
 </name>
-(	(	(	PUNCT	_	2238	punct	DF	PROPN	_	2239
+(	(	(	PUNCT	-	2238	punct	DF	PROPN	-	2239
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	2239	flat	Mikkel	PROPN	_	2236
+DF	DF	DF	PROPN	-	2239	flat	Mikkel	PROPN	-	2236
 <g/>
 </name>
-)	)	)	PUNCT	_	2240	punct	DF	PROPN	_	2239
-26	26	26	NUM	NumType=Card	2241	nummod	Dennis	PROPN	_	2242
+)	)	)	PUNCT	-	2240	punct	DF	PROPN	-	2239
+26	26	26	NUM	NumType=Card	2241	nummod	Dennis	PROPN	-	2242
 <name type="PER">
-Dennis	Dennis	Dennis	PROPN	_	2242	list	Mikkel	PROPN	_	2236
-Flydtkjær	Flydtkjær	Flydtkjær	PROPN	_	2243	flat	Dennis	PROPN	_	2242
+Dennis	Dennis	Dennis	PROPN	-	2242	list	Mikkel	PROPN	-	2236
+Flydtkjær	Flydtkjær	Flydtkjær	PROPN	-	2243	flat	Dennis	PROPN	-	2242
 </name>
-(	(	(	PUNCT	_	2244	punct	DF	PROPN	_	2245
+(	(	(	PUNCT	-	2244	punct	DF	PROPN	-	2245
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	2245	flat	Dennis	PROPN	_	2242
+DF	DF	DF	PROPN	-	2245	flat	Dennis	PROPN	-	2242
 <g/>
 </name>
-)	)	)	PUNCT	_	2246	punct	DF	PROPN	_	2245
-27	27	27	NUM	NumType=Card	2247	nummod	Mette	PROPN	_	2248
+)	)	)	PUNCT	-	2246	punct	DF	PROPN	-	2245
+27	27	27	NUM	NumType=Card	2247	nummod	Mette	PROPN	-	2248
 <name type="PER">
-Mette	Mette	Mette	PROPN	_	2248	list	Dennis	PROPN	_	2242
-Hjermind	Hjermind	Hjermind	PROPN	_	2249	flat	Mette	PROPN	_	2248
-Dencker	Dencker	Dencker	PROPN	_	2250	flat	Mette	PROPN	_	2248
+Mette	Mette	Mette	PROPN	-	2248	list	Dennis	PROPN	-	2242
+Hjermind	Hjermind	Hjermind	PROPN	-	2249	flat	Mette	PROPN	-	2248
+Dencker	Dencker	Dencker	PROPN	-	2250	flat	Mette	PROPN	-	2248
 </name>
-(	(	(	PUNCT	_	2251	punct	DF	PROPN	_	2252
+(	(	(	PUNCT	-	2251	punct	DF	PROPN	-	2252
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	2252	list	Mette	PROPN	_	2248
+DF	DF	DF	PROPN	-	2252	list	Mette	PROPN	-	2248
 <g/>
 </name>
-)	)	)	PUNCT	_	2253	punct	DF	PROPN	_	2252
-28	28	28	NUM	NumType=Card	2254	nummod	Ole	PROPN	_	2255
+)	)	)	PUNCT	-	2253	punct	DF	PROPN	-	2252
+28	28	28	NUM	NumType=Card	2254	nummod	Ole	PROPN	-	2255
 <name type="PER">
-Ole	Ole	Ole	PROPN	_	2255	list	Morten	PROPN	_	2230
-Birk	Birk	Birk	PROPN	_	2256	flat	Ole	PROPN	_	2255
-Olesen	Olesen	Olesen	PROPN	_	2257	flat	Ole	PROPN	_	2255
+Ole	Ole	Ole	PROPN	-	2255	list	Morten	PROPN	-	2230
+Birk	Birk	Birk	PROPN	-	2256	flat	Ole	PROPN	-	2255
+Olesen	Olesen	Olesen	PROPN	-	2257	flat	Ole	PROPN	-	2255
 </name>
-(	(	(	PUNCT	_	2258	punct	LA	PROPN	_	2259
+(	(	(	PUNCT	-	2258	punct	LA	PROPN	-	2259
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	2259	list	Ole	PROPN	_	2255
+LA	LA	LA	PROPN	-	2259	list	Ole	PROPN	-	2255
 <g/>
 </name>
-)	)	)	PUNCT	_	2260	punct	LA	PROPN	_	2259
-29	29	29	NUM	NumType=Card	2261	nummod	Mike	PROPN	_	2262
+)	)	)	PUNCT	-	2260	punct	LA	PROPN	-	2259
+29	29	29	NUM	NumType=Card	2261	nummod	Mike	PROPN	-	2262
 <name type="PER">
-Mike	Mike	Mike	PROPN	_	2262	list	Morten	PROPN	_	2230
-Legarth	Legarth	Legarth	PROPN	_	2263	flat	Mike	PROPN	_	2262
+Mike	Mike	Mike	PROPN	-	2262	list	Morten	PROPN	-	2230
+Legarth	Legarth	Legarth	PROPN	-	2263	flat	Mike	PROPN	-	2262
 </name>
-(	(	(	PUNCT	_	2264	punct	KF	PROPN	_	2265
+(	(	(	PUNCT	-	2264	punct	KF	PROPN	-	2265
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	2265	flat	Mike	PROPN	_	2262
+KF	KF	KF	PROPN	-	2265	flat	Mike	PROPN	-	2262
 <g/>
 </name>
-)	)	)	PUNCT	_	2266	punct	KF	PROPN	_	2265
-Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	2267	list	Mike	PROPN	_	2262
+)	)	)	PUNCT	-	2266	punct	KF	PROPN	-	2265
+Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	2267	list	Mike	PROPN	-	2262
 <g/>
-:	:	:	PUNCT	_	2268	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	2267
+:	:	:	PUNCT	-	2268	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	2267
 <name type="PER">
-Helle	Helle	Helle	PROPN	_	2269	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	2267
-Løvgreen	Løvgreen	Løvgreen	PROPN	_	2270	flat	Helle	PROPN	_	2269
-Mølvig	Mølvig	Mølvigen	PROPN	_	2271	flat	Helle	PROPN	_	2269
+Helle	Helle	Helle	PROPN	-	2269	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	2267
+Løvgreen	Løvgreen	Løvgreen	PROPN	-	2270	flat	Helle	PROPN	-	2269
+Mølvig	Mølvig	Mølvigen	PROPN	-	2271	flat	Helle	PROPN	-	2269
 </name>
-(	(	(	PUNCT	_	2272	punct	RV	PROPN	_	2273
+(	(	(	PUNCT	-	2272	punct	RV	PROPN	-	2273
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	2273	appos	Helle	PROPN	_	2269
+RV	RV	RV	PROPN	-	2273	appos	Helle	PROPN	-	2269
 <g/>
 </name>
-)	)	)	PUNCT	_	2274	punct	RV	PROPN	_	2273
-Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	2275	flat	RV	PROPN	_	2273
+)	)	)	PUNCT	-	2274	punct	RV	PROPN	-	2273
+Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	2275	flat	RV	PROPN	-	2273
 <g/>
-:	:	:	PUNCT	_	2276	punct	RV	PROPN	_	2273
+:	:	:	PUNCT	-	2276	punct	RV	PROPN	-	2273
 <name type="PER">
-Mike	Mike	Mike	PROPN	_	2277	flat	RV	PROPN	_	2273
-Legarth	Legarth	Legarth	PROPN	_	2278	flat	Mike	PROPN	_	2277
+Mike	Mike	Mike	PROPN	-	2277	flat	RV	PROPN	-	2273
+Legarth	Legarth	Legarth	PROPN	-	2278	flat	Mike	PROPN	-	2277
 </name>
-(	(	(	PUNCT	_	2279	punct	RV	PROPN	_	2273
+(	(	(	PUNCT	-	2279	punct	RV	PROPN	-	2273
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	2280	flat	RV	PROPN	_	2273
+KF	KF	KF	PROPN	-	2280	flat	RV	PROPN	-	2273
 <g/>
 </name>
-)	)	)	PUNCT	_	2281	punct	RV	PROPN	_	2273
-Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	2282	list	Helle	PROPN	_	2269
+)	)	)	PUNCT	-	2281	punct	RV	PROPN	-	2273
+Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	2282	list	Helle	PROPN	-	2269
 af	af	af	ADP	AdpType=Prep	2283	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	2285
 29	29	29	NUM	NumType=Card	2284	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	2285
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	2285	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	2282
 til	til	til	ADP	AdpType=Prep	2286	case	kulturudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	2287
 Kulturudvalget	Kulturudvalget	kulturudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	2287	nmod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	2285
 <g/>
-:	:	:	PUNCT	_	2288	punct	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	2282
+:	:	:	PUNCT	-	2288	punct	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	2282
 Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	2289	amod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	2282
-blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	2290	cop	Flemming	PROPN	_	2293
+blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	2290	cop	Flemming	PROPN	-	2293
 <g/>
-:	:	:	PUNCT	_	2291	punct	Flemming	PROPN	_	2293
-1	1	1	NUM	NumType=Card	2292	nummod	Flemming	PROPN	_	2293
+:	:	:	PUNCT	-	2291	punct	Flemming	PROPN	-	2293
+1	1	1	NUM	NumType=Card	2292	nummod	Flemming	PROPN	-	2293
 <name type="PER">
-Flemming	Flemming	Flemming	PROPN	_	2293	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	2289
-Møller	Møller	Møller	PROPN	_	2294	flat	Flemming	PROPN	_	2293
-Mortensen	Mortensen	Mortensen	PROPN	_	2295	flat	Flemming	PROPN	_	2293
+Flemming	Flemming	Flemming	PROPN	-	2293	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	2289
+Møller	Møller	Møller	PROPN	-	2294	flat	Flemming	PROPN	-	2293
+Mortensen	Mortensen	Mortensen	PROPN	-	2295	flat	Flemming	PROPN	-	2293
 </name>
-(	(	(	PUNCT	_	2296	punct	S	PROPN	_	2297
+(	(	(	PUNCT	-	2296	punct	S	PROPN	-	2297
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	2297	flat	Flemming	PROPN	_	2293
+S	S	S	PROPN	-	2297	flat	Flemming	PROPN	-	2293
 <g/>
 </name>
-)	)	)	PUNCT	_	2298	punct	S	PROPN	_	2297
-2	2	2	NUM	NumType=Card	2299	nummod	Jan	PROPN	_	2300
+)	)	)	PUNCT	-	2298	punct	S	PROPN	-	2297
+2	2	2	NUM	NumType=Card	2299	nummod	Jan	PROPN	-	2300
 <name type="PER">
-Jan	Jan	Jan	PROPN	_	2300	list	Flemming	PROPN	_	2293
-Johansen	Johansen	Johansen	PROPN	_	2301	flat	Jan	PROPN	_	2300
+Jan	Jan	Jan	PROPN	-	2300	list	Flemming	PROPN	-	2293
+Johansen	Johansen	Johansen	PROPN	-	2301	flat	Jan	PROPN	-	2300
 </name>
-(	(	(	PUNCT	_	2302	punct	S	PROPN	_	2303
+(	(	(	PUNCT	-	2302	punct	S	PROPN	-	2303
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	2303	flat	Jan	PROPN	_	2300
+S	S	S	PROPN	-	2303	flat	Jan	PROPN	-	2300
 <g/>
 </name>
-)	)	)	PUNCT	_	2304	punct	S	PROPN	_	2303
-3	3	3	ADJ	NumType=Ord	2305	amod	Rasmus	PROPN	_	2306
+)	)	)	PUNCT	-	2304	punct	S	PROPN	-	2303
+3	3	3	ADJ	NumType=Ord	2305	amod	Rasmus	PROPN	-	2306
 <name type="PER">
-Rasmus	Rasmus	Rasmus	PROPN	_	2306	list	Jan	PROPN	_	2300
-Prehn	Prehn	Prehn	PROPN	_	2307	flat	Rasmus	PROPN	_	2306
+Rasmus	Rasmus	Rasmus	PROPN	-	2306	list	Jan	PROPN	-	2300
+Prehn	Prehn	Prehn	PROPN	-	2307	flat	Rasmus	PROPN	-	2306
 </name>
-(	(	(	PUNCT	_	2308	punct	S	PROPN	_	2309
+(	(	(	PUNCT	-	2308	punct	S	PROPN	-	2309
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	2309	flat	Rasmus	PROPN	_	2306
+S	S	S	PROPN	-	2309	flat	Rasmus	PROPN	-	2306
 <g/>
 </name>
-)	)	)	PUNCT	_	2310	punct	S	PROPN	_	2309
-4	4	4	NUM	NumType=Card	2311	nummod	Leif	PROPN	_	2312
+)	)	)	PUNCT	-	2310	punct	S	PROPN	-	2309
+4	4	4	NUM	NumType=Card	2311	nummod	Leif	PROPN	-	2312
 <name type="PER">
-Leif	Leif	Leif	PROPN	_	2312	list	Rasmus	PROPN	_	2306
-Lahn	Lahn	Lahn	PROPN	_	2313	flat	Leif	PROPN	_	2312
-Jensen	Jensen	Jensen	PROPN	_	2314	flat	Leif	PROPN	_	2312
+Leif	Leif	Leif	PROPN	-	2312	list	Rasmus	PROPN	-	2306
+Lahn	Lahn	Lahn	PROPN	-	2313	flat	Leif	PROPN	-	2312
+Jensen	Jensen	Jensen	PROPN	-	2314	flat	Leif	PROPN	-	2312
 </name>
-(	(	(	PUNCT	_	2315	punct	S	PROPN	_	2316
+(	(	(	PUNCT	-	2315	punct	S	PROPN	-	2316
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	2316	list	Leif	PROPN	_	2312
+S	S	S	PROPN	-	2316	list	Leif	PROPN	-	2312
 <g/>
 </name>
-)	)	)	PUNCT	_	2317	punct	S	PROPN	_	2316
-5	5	5	NUM	NumType=Card	2318	nummod	Troels	PROPN	_	2319
+)	)	)	PUNCT	-	2317	punct	S	PROPN	-	2316
+5	5	5	NUM	NumType=Card	2318	nummod	Troels	PROPN	-	2319
 <name type="PER">
-Troels	Troels	Troels	PROPN	_	2319	list	S	PROPN	_	2316
-Ravn	Ravn	Ravn	PROPN	_	2320	flat	Troels	PROPN	_	2319
+Troels	Troels	Troels	PROPN	-	2319	list	S	PROPN	-	2316
+Ravn	Ravn	Ravn	PROPN	-	2320	flat	Troels	PROPN	-	2319
 </name>
-(	(	(	PUNCT	_	2321	punct	S	PROPN	_	2322
+(	(	(	PUNCT	-	2321	punct	S	PROPN	-	2322
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	2322	flat	Troels	PROPN	_	2319
+S	S	S	PROPN	-	2322	flat	Troels	PROPN	-	2319
 <g/>
 </name>
-)	)	)	PUNCT	_	2323	punct	S	PROPN	_	2322
-6	6	6	NUM	NumType=Card	2324	nummod	Ole	PROPN	_	2325
+)	)	)	PUNCT	-	2323	punct	S	PROPN	-	2322
+6	6	6	NUM	NumType=Card	2324	nummod	Ole	PROPN	-	2325
 <name type="PER">
-Ole	Ole	Ole	PROPN	_	2325	flat	S	PROPN	_	2316
-Sohn	Sohn	Sohn	PROPN	_	2326	flat	S	PROPN	_	2316
+Ole	Ole	Ole	PROPN	-	2325	flat	S	PROPN	-	2316
+Sohn	Sohn	Sohn	PROPN	-	2326	flat	S	PROPN	-	2316
 </name>
-(	(	(	PUNCT	_	2327	punct	S	PROPN	_	2328
+(	(	(	PUNCT	-	2327	punct	S	PROPN	-	2328
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	2328	flat	S	PROPN	_	2316
+S	S	S	PROPN	-	2328	flat	S	PROPN	-	2316
 <g/>
 </name>
-)	)	)	PUNCT	_	2329	punct	S	PROPN	_	2328
-7	7	7	NUM	NumType=Card	2330	nummod	Karin	PROPN	_	2331
+)	)	)	PUNCT	-	2329	punct	S	PROPN	-	2328
+7	7	7	NUM	NumType=Card	2330	nummod	Karin	PROPN	-	2331
 <name type="PER">
-Karin	Karin	Karin	PROPN	_	2331	flat	S	PROPN	_	2316
-Gaardsted	Gaardsted	Gaardsted	PROPN	_	2332	flat	S	PROPN	_	2316
+Karin	Karin	Karin	PROPN	-	2331	flat	S	PROPN	-	2316
+Gaardsted	Gaardsted	Gaardsted	PROPN	-	2332	flat	S	PROPN	-	2316
 </name>
-(	(	(	PUNCT	_	2333	punct	S	PROPN	_	2334
+(	(	(	PUNCT	-	2333	punct	S	PROPN	-	2334
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	2334	flat	S	PROPN	_	2316
+S	S	S	PROPN	-	2334	flat	S	PROPN	-	2316
 <g/>
 </name>
-)	)	)	PUNCT	_	2335	punct	S	PROPN	_	2334
-8	8	8	NUM	NumType=Card	2336	flat	S	PROPN	_	2316
+)	)	)	PUNCT	-	2335	punct	S	PROPN	-	2334
+8	8	8	NUM	NumType=Card	2336	flat	S	PROPN	-	2316
 <name type="PER">
-Marlene	Marlene	Marl	NOUN	Definite=Def Gender=Com Number=Plur	2337	flat	S	PROPN	_	2316
-Borst	Borst	Borst	NOUN	Definite=Ind Gender=Com Number=Sing	2338	flat	S	PROPN	_	2316
-Hansen	Hansen	Hansen	PROPN	_	2339	flat	S	PROPN	_	2316
+Marlene	Marlene	Marl	NOUN	Definite=Def Gender=Com Number=Plur	2337	flat	S	PROPN	-	2316
+Borst	Borst	Borst	NOUN	Definite=Ind Gender=Com Number=Sing	2338	flat	S	PROPN	-	2316
+Hansen	Hansen	Hansen	PROPN	-	2339	flat	S	PROPN	-	2316
 </name>
-(	(	(	PUNCT	_	2340	punct	RV	PROPN	_	2341
+(	(	(	PUNCT	-	2340	punct	RV	PROPN	-	2341
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	2341	flat	S	PROPN	_	2316
+RV	RV	RV	PROPN	-	2341	flat	S	PROPN	-	2316
 <g/>
 </name>
-)	)	)	PUNCT	_	2342	punct	RV	PROPN	_	2341
-9	9	9	NUM	NumType=Card	2343	nummod	Lone	PROPN	_	2344
+)	)	)	PUNCT	-	2342	punct	RV	PROPN	-	2341
+9	9	9	NUM	NumType=Card	2343	nummod	Lone	PROPN	-	2344
 <name type="PER">
-Lone	Lone	Lone	PROPN	_	2344	list	S	PROPN	_	2316
-Loklindt	Loklindt	Loklindt	PROPN	_	2345	flat	Lone	PROPN	_	2344
+Lone	Lone	Lone	PROPN	-	2344	list	S	PROPN	-	2316
+Loklindt	Loklindt	Loklindt	PROPN	-	2345	flat	Lone	PROPN	-	2344
 </name>
-(	(	(	PUNCT	_	2346	punct	RV	PROPN	_	2347
+(	(	(	PUNCT	-	2346	punct	RV	PROPN	-	2347
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	2347	flat	Lone	PROPN	_	2344
+RV	RV	RV	PROPN	-	2347	flat	Lone	PROPN	-	2344
 <g/>
 </name>
-)	)	)	PUNCT	_	2348	punct	RV	PROPN	_	2347
-10	10	10	NUM	NumType=Card	2349	nummod	Zenia	PROPN	_	2350
+)	)	)	PUNCT	-	2348	punct	RV	PROPN	-	2347
+10	10	10	NUM	NumType=Card	2349	nummod	Zenia	PROPN	-	2350
 <name type="PER">
-Zenia	Zenia	Zenia	PROPN	_	2350	list	Lone	PROPN	_	2344
-Stampe	Stampe	Stampe	NOUN	Definite=Ind Gender=Com Number=Sing	2351	flat	Zenia	PROPN	_	2350
+Zenia	Zenia	Zenia	PROPN	-	2350	list	Lone	PROPN	-	2344
+Stampe	Stampe	Stampe	NOUN	Definite=Ind Gender=Com Number=Sing	2351	flat	Zenia	PROPN	-	2350
 </name>
-(	(	(	PUNCT	_	2352	punct	RV	PROPN	_	2353
+(	(	(	PUNCT	-	2352	punct	RV	PROPN	-	2353
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	2353	flat	Zenia	PROPN	_	2350
+RV	RV	RV	PROPN	-	2353	flat	Zenia	PROPN	-	2350
 <g/>
 </name>
-)	)	)	PUNCT	_	2354	punct	RV	PROPN	_	2353
-11	11	11	NUM	NumType=Card	2355	nummod	Annette	PROPN	_	2356
+)	)	)	PUNCT	-	2354	punct	RV	PROPN	-	2353
+11	11	11	NUM	NumType=Card	2355	nummod	Annette	PROPN	-	2356
 <name type="PER">
-Annette	Annette	Annette	PROPN	_	2356	list	Zenia	PROPN	_	2350
-Vilhelmsen	Vilhelmsen	Vilhelmsen	PROPN	_	2357	flat	Annette	PROPN	_	2356
+Annette	Annette	Annette	PROPN	-	2356	list	Zenia	PROPN	-	2350
+Vilhelmsen	Vilhelmsen	Vilhelmsen	PROPN	-	2357	flat	Annette	PROPN	-	2356
 </name>
-(	(	(	PUNCT	_	2358	punct	SF	PROPN	_	2359
+(	(	(	PUNCT	-	2358	punct	SF	PROPN	-	2359
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	2359	list	Annette	PROPN	_	2356
+SF	SF	SF	PROPN	-	2359	list	Annette	PROPN	-	2356
 <g/>
 </name>
-)	)	)	PUNCT	_	2360	punct	SF	PROPN	_	2359
-12	12	12	NUM	NumType=Card	2361	nummod	Özlem	PROPN	_	2362
+)	)	)	PUNCT	-	2360	punct	SF	PROPN	-	2359
+12	12	12	NUM	NumType=Card	2361	nummod	Özlem	PROPN	-	2362
 <name type="PER">
-Özlem	Özlem	Özlem	PROPN	_	2362	list	SF	PROPN	_	2359
-Sara	Sara	Sara	PROPN	_	2363	flat	Özlem	PROPN	_	2362
-Cekic	Cekic	Cekic	PROPN	_	2364	flat	Özlem	PROPN	_	2362
+Özlem	Özlem	Özlem	PROPN	-	2362	list	SF	PROPN	-	2359
+Sara	Sara	Sara	PROPN	-	2363	flat	Özlem	PROPN	-	2362
+Cekic	Cekic	Cekic	PROPN	-	2364	flat	Özlem	PROPN	-	2362
 </name>
-(	(	(	PUNCT	_	2365	punct	SF	PROPN	_	2366
+(	(	(	PUNCT	-	2365	punct	SF	PROPN	-	2366
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	2366	list	Özlem	PROPN	_	2362
+SF	SF	SF	PROPN	-	2366	list	Özlem	PROPN	-	2362
 <g/>
 </name>
-)	)	)	PUNCT	_	2367	punct	SF	PROPN	_	2366
-13	13	13	NUM	NumType=Card	2368	nummod	Holger	PROPN	_	2369
+)	)	)	PUNCT	-	2367	punct	SF	PROPN	-	2366
+13	13	13	NUM	NumType=Card	2368	nummod	Holger	PROPN	-	2369
 <name type="PER">
-Holger	Holger	Holger	PROPN	_	2369	list	SF	PROPN	_	2366
-K.	K.	K.	PROPN	_	2370	flat	Holger	PROPN	_	2369
-Nielsen	Nielsen	Nielsen	PROPN	_	2371	flat	Holger	PROPN	_	2369
+Holger	Holger	Holger	PROPN	-	2369	list	SF	PROPN	-	2366
+K.	K.	K.	PROPN	-	2370	flat	Holger	PROPN	-	2369
+Nielsen	Nielsen	Nielsen	PROPN	-	2371	flat	Holger	PROPN	-	2369
 </name>
-(	(	(	PUNCT	_	2372	punct	SF	PROPN	_	2373
+(	(	(	PUNCT	-	2372	punct	SF	PROPN	-	2373
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	2373	list	Holger	PROPN	_	2369
+SF	SF	SF	PROPN	-	2373	list	Holger	PROPN	-	2369
 <g/>
 </name>
-)	)	)	PUNCT	_	2374	punct	SF	PROPN	_	2373
-14	14	14	NUM	NumType=Card	2375	nummod	Pernille	PROPN	_	2376
+)	)	)	PUNCT	-	2374	punct	SF	PROPN	-	2373
+14	14	14	NUM	NumType=Card	2375	nummod	Pernille	PROPN	-	2376
 <name type="PER">
-Pernille	Pernille	Pernille	PROPN	_	2376	list	SF	PROPN	_	2373
-Skipper	Skipper	Skipper	NOUN	Definite=Ind Gender=Com Number=Sing	2377	flat	Pernille	PROPN	_	2376
+Pernille	Pernille	Pernille	PROPN	-	2376	list	SF	PROPN	-	2373
+Skipper	Skipper	Skipper	NOUN	Definite=Ind Gender=Com Number=Sing	2377	flat	Pernille	PROPN	-	2376
 </name>
-(	(	(	PUNCT	_	2378	punct	EL	PROPN	_	2379
+(	(	(	PUNCT	-	2378	punct	EL	PROPN	-	2379
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	2379	flat	Pernille	PROPN	_	2376
+EL	EL	EL	PROPN	-	2379	flat	Pernille	PROPN	-	2376
 <g/>
 </name>
-)	)	)	PUNCT	_	2380	punct	EL	PROPN	_	2379
-15	15	15	NUM	NumType=Card	2381	nummod	Jørgen	PROPN	_	2382
+)	)	)	PUNCT	-	2380	punct	EL	PROPN	-	2379
+15	15	15	NUM	NumType=Card	2381	nummod	Jørgen	PROPN	-	2382
 <name type="PER">
-Jørgen	Jørgen	Jørgen	PROPN	_	2382	list	Pernille	PROPN	_	2376
-Arbo-Bæhr	Arbo-Bæhr	Arbo-Bæhr	PROPN	_	2383	flat	Jørgen	PROPN	_	2382
+Jørgen	Jørgen	Jørgen	PROPN	-	2382	list	Pernille	PROPN	-	2376
+Arbo-Bæhr	Arbo-Bæhr	Arbo-Bæhr	PROPN	-	2383	flat	Jørgen	PROPN	-	2382
 </name>
-(	(	(	PUNCT	_	2384	punct	EL	PROPN	_	2385
+(	(	(	PUNCT	-	2384	punct	EL	PROPN	-	2385
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	2385	flat	Jørgen	PROPN	_	2382
+EL	EL	EL	PROPN	-	2385	flat	Jørgen	PROPN	-	2382
 <g/>
 </name>
-)	)	)	PUNCT	_	2386	punct	EL	PROPN	_	2385
-16	16	16	NUM	NumType=Card	2387	nummod	Kim	PROPN	_	2388
+)	)	)	PUNCT	-	2386	punct	EL	PROPN	-	2385
+16	16	16	NUM	NumType=Card	2387	nummod	Kim	PROPN	-	2388
 <name type="PER">
-Kim	Kim	Kim	PROPN	_	2388	list	Jørgen	PROPN	_	2382
-Andersen	Andersen	Andersen	PROPN	_	2389	flat	Kim	PROPN	_	2388
+Kim	Kim	Kim	PROPN	-	2388	list	Jørgen	PROPN	-	2382
+Andersen	Andersen	Andersen	PROPN	-	2389	flat	Kim	PROPN	-	2388
 </name>
-(	(	(	PUNCT	_	2390	punct	V	PROPN	_	2391
+(	(	(	PUNCT	-	2390	punct	V	PROPN	-	2391
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	2391	flat	Kim	PROPN	_	2388
+V	V	V	PROPN	-	2391	flat	Kim	PROPN	-	2388
 <g/>
 </name>
-)	)	)	PUNCT	_	2392	punct	V	PROPN	_	2391
-17	17	17	NUM	NumType=Card	2393	nummod	Anni	PROPN	_	2394
+)	)	)	PUNCT	-	2392	punct	V	PROPN	-	2391
+17	17	17	NUM	NumType=Card	2393	nummod	Anni	PROPN	-	2394
 <name type="PER">
-Anni	Anni	Anni	PROPN	_	2394	list	Kim	PROPN	_	2388
-Matthiesen	Matthiesen	Matthiesen	PROPN	_	2395	flat	Anni	PROPN	_	2394
+Anni	Anni	Anni	PROPN	-	2394	list	Kim	PROPN	-	2388
+Matthiesen	Matthiesen	Matthiesen	PROPN	-	2395	flat	Anni	PROPN	-	2394
 </name>
-(	(	(	PUNCT	_	2396	punct	V	PROPN	_	2397
+(	(	(	PUNCT	-	2396	punct	V	PROPN	-	2397
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	2397	flat	Anni	PROPN	_	2394
+V	V	V	PROPN	-	2397	flat	Anni	PROPN	-	2394
 <g/>
 </name>
-)	)	)	PUNCT	_	2398	punct	V	PROPN	_	2397
-18	18	18	NUM	NumType=Card	2399	nummod	Eva	PROPN	_	2400
+)	)	)	PUNCT	-	2398	punct	V	PROPN	-	2397
+18	18	18	NUM	NumType=Card	2399	nummod	Eva	PROPN	-	2400
 <name type="PER">
-Eva	Eva	Eva	PROPN	_	2400	list	Anni	PROPN	_	2394
-Kjer	Kjer	Kjer	PROPN	_	2401	flat	Eva	PROPN	_	2400
-Hansen	Hansen	Hansen	PROPN	_	2402	flat	Eva	PROPN	_	2400
+Eva	Eva	Eva	PROPN	-	2400	list	Anni	PROPN	-	2394
+Kjer	Kjer	Kjer	PROPN	-	2401	flat	Eva	PROPN	-	2400
+Hansen	Hansen	Hansen	PROPN	-	2402	flat	Eva	PROPN	-	2400
 </name>
-(	(	(	PUNCT	_	2403	punct	V	PROPN	_	2404
+(	(	(	PUNCT	-	2403	punct	V	PROPN	-	2404
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	2404	flat	Eva	PROPN	_	2400
+V	V	V	PROPN	-	2404	flat	Eva	PROPN	-	2400
 <g/>
 </name>
-)	)	)	PUNCT	_	2405	punct	V	PROPN	_	2404
-19	19	19	NUM	NumType=Card	2406	nummod	Michael	PROPN	_	2407
+)	)	)	PUNCT	-	2405	punct	V	PROPN	-	2404
+19	19	19	NUM	NumType=Card	2406	nummod	Michael	PROPN	-	2407
 <name type="PER">
-Michael	Michael	Michael	PROPN	_	2407	list	Eva	PROPN	_	2400
-Aastrup	Aastrup	Aastrup	PROPN	_	2408	flat	Michael	PROPN	_	2407
-Jensen	Jensen	Jensen	PROPN	_	2409	flat	Michael	PROPN	_	2407
+Michael	Michael	Michael	PROPN	-	2407	list	Eva	PROPN	-	2400
+Aastrup	Aastrup	Aastrup	PROPN	-	2408	flat	Michael	PROPN	-	2407
+Jensen	Jensen	Jensen	PROPN	-	2409	flat	Michael	PROPN	-	2407
 </name>
-(	(	(	PUNCT	_	2410	punct	V	PROPN	_	2411
+(	(	(	PUNCT	-	2410	punct	V	PROPN	-	2411
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	2411	flat	Michael	PROPN	_	2407
+V	V	V	PROPN	-	2411	flat	Michael	PROPN	-	2407
 <g/>
 </name>
-)	)	)	PUNCT	_	2412	punct	V	PROPN	_	2411
-20	20	20	NUM	NumType=Card	2413	nummod	Flemming	PROPN	_	2414
+)	)	)	PUNCT	-	2412	punct	V	PROPN	-	2411
+20	20	20	NUM	NumType=Card	2413	nummod	Flemming	PROPN	-	2414
 <name type="PER">
-Flemming	Flemming	Flemming	PROPN	_	2414	list	Michael	PROPN	_	2407
-Damgaard	Damgaard	Damgaard	PROPN	_	2415	flat	Flemming	PROPN	_	2414
-Larsen	Larsen	Larsen	PROPN	_	2416	flat	Flemming	PROPN	_	2414
+Flemming	Flemming	Flemming	PROPN	-	2414	list	Michael	PROPN	-	2407
+Damgaard	Damgaard	Damgaard	PROPN	-	2415	flat	Flemming	PROPN	-	2414
+Larsen	Larsen	Larsen	PROPN	-	2416	flat	Flemming	PROPN	-	2414
 </name>
-(	(	(	PUNCT	_	2417	punct	V	PROPN	_	2418
+(	(	(	PUNCT	-	2417	punct	V	PROPN	-	2418
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	2418	flat	Flemming	PROPN	_	2414
+V	V	V	PROPN	-	2418	flat	Flemming	PROPN	-	2414
 <g/>
 </name>
-)	)	)	PUNCT	_	2419	punct	V	PROPN	_	2418
-21	21	21	NUM	NumType=Card	2420	nummod	Ellen	PROPN	_	2421
+)	)	)	PUNCT	-	2419	punct	V	PROPN	-	2418
+21	21	21	NUM	NumType=Card	2420	nummod	Ellen	PROPN	-	2421
 <name type="PER">
-Ellen	Ellen	Ellen	PROPN	_	2421	list	Flemming	PROPN	_	2414
-Trane	Trane	Trane	PROPN	_	2422	flat	Ellen	PROPN	_	2421
-Nørby	Nørby	Nørby	PROPN	_	2423	flat	Ellen	PROPN	_	2421
+Ellen	Ellen	Ellen	PROPN	-	2421	list	Flemming	PROPN	-	2414
+Trane	Trane	Trane	PROPN	-	2422	flat	Ellen	PROPN	-	2421
+Nørby	Nørby	Nørby	PROPN	-	2423	flat	Ellen	PROPN	-	2421
 </name>
-(	(	(	PUNCT	_	2424	punct	V	PROPN	_	2425
+(	(	(	PUNCT	-	2424	punct	V	PROPN	-	2425
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	2425	flat	Ellen	PROPN	_	2421
+V	V	V	PROPN	-	2425	flat	Ellen	PROPN	-	2421
 <g/>
 </name>
-)	)	)	PUNCT	_	2426	punct	V	PROPN	_	2425
-22	22	22	NUM	NumType=Card	2427	nummod	Eyvind	PROPN	_	2428
+)	)	)	PUNCT	-	2426	punct	V	PROPN	-	2425
+22	22	22	NUM	NumType=Card	2427	nummod	Eyvind	PROPN	-	2428
 <name type="PER">
-Eyvind	Eyvind	Eyvind	PROPN	_	2428	list	Ellen	PROPN	_	2421
-Vesselbo	Vesselbo	Vesselbo	PROPN	_	2429	flat	Eyvind	PROPN	_	2428
+Eyvind	Eyvind	Eyvind	PROPN	-	2428	list	Ellen	PROPN	-	2421
+Vesselbo	Vesselbo	Vesselbo	PROPN	-	2429	flat	Eyvind	PROPN	-	2428
 </name>
-(	(	(	PUNCT	_	2430	punct	V	PROPN	_	2431
+(	(	(	PUNCT	-	2430	punct	V	PROPN	-	2431
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	2431	flat	Eyvind	PROPN	_	2428
+V	V	V	PROPN	-	2431	flat	Eyvind	PROPN	-	2428
 <g/>
 </name>
-)	)	)	PUNCT	_	2432	punct	V	PROPN	_	2431
-23	23	23	NUM	NumType=Card	2433	nummod	Alex	PROPN	_	2434
+)	)	)	PUNCT	-	2432	punct	V	PROPN	-	2431
+23	23	23	NUM	NumType=Card	2433	nummod	Alex	PROPN	-	2434
 <name type="PER">
-Alex	Alex	Alex	PROPN	_	2434	list	Eyvind	PROPN	_	2428
-Ahrendtsen	Ahrendtsen	Ahrendtsen	PROPN	_	2435	flat	Alex	PROPN	_	2434
+Alex	Alex	Alex	PROPN	-	2434	list	Eyvind	PROPN	-	2428
+Ahrendtsen	Ahrendtsen	Ahrendtsen	PROPN	-	2435	flat	Alex	PROPN	-	2434
 </name>
-(	(	(	PUNCT	_	2436	punct	DF	PROPN	_	2437
+(	(	(	PUNCT	-	2436	punct	DF	PROPN	-	2437
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	2437	list	Alex	PROPN	_	2434
+DF	DF	DF	PROPN	-	2437	list	Alex	PROPN	-	2434
 <g/>
 </name>
-)	)	)	PUNCT	_	2438	punct	DF	PROPN	_	2437
-24	24	24	NUM	NumType=Card	2439	nummod	Morten	PROPN	_	2440
+)	)	)	PUNCT	-	2438	punct	DF	PROPN	-	2437
+24	24	24	NUM	NumType=Card	2439	nummod	Morten	PROPN	-	2440
 <name type="PER">
-Morten	Morten	Morten	PROPN	_	2440	list	DF	PROPN	_	2437
-Marinus	Marinus	Marinus	PROPN	_	2441	flat	Morten	PROPN	_	2440
+Morten	Morten	Morten	PROPN	-	2440	list	DF	PROPN	-	2437
+Marinus	Marinus	Marinus	PROPN	-	2441	flat	Morten	PROPN	-	2440
 </name>
-(	(	(	PUNCT	_	2442	punct	DF	PROPN	_	2443
+(	(	(	PUNCT	-	2442	punct	DF	PROPN	-	2443
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	2443	flat	Morten	PROPN	_	2440
+DF	DF	DF	PROPN	-	2443	flat	Morten	PROPN	-	2440
 <g/>
 </name>
-)	)	)	PUNCT	_	2444	punct	DF	PROPN	_	2443
-25	25	25	NUM	NumType=Card	2445	nummod	Karin	PROPN	_	2446
+)	)	)	PUNCT	-	2444	punct	DF	PROPN	-	2443
+25	25	25	NUM	NumType=Card	2445	nummod	Karin	PROPN	-	2446
 <name type="PER">
-Karin	Karin	Karin	PROPN	_	2446	list	Morten	PROPN	_	2440
-Nødgaard	Nødgaard	Nødgaard	PROPN	_	2447	flat	Karin	PROPN	_	2446
+Karin	Karin	Karin	PROPN	-	2446	list	Morten	PROPN	-	2440
+Nødgaard	Nødgaard	Nødgaard	PROPN	-	2447	flat	Karin	PROPN	-	2446
 </name>
-(	(	(	PUNCT	_	2448	punct	DF	PROPN	_	2449
+(	(	(	PUNCT	-	2448	punct	DF	PROPN	-	2449
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	2449	flat	Karin	PROPN	_	2446
+DF	DF	DF	PROPN	-	2449	flat	Karin	PROPN	-	2446
 <g/>
 </name>
-)	)	)	PUNCT	_	2450	punct	DF	PROPN	_	2449
-26	26	26	NUM	NumType=Card	2451	nummod	Pia	PROPN	_	2452
+)	)	)	PUNCT	-	2450	punct	DF	PROPN	-	2449
+26	26	26	NUM	NumType=Card	2451	nummod	Pia	PROPN	-	2452
 <name type="PER">
-Pia	Pia	Pia	PROPN	_	2452	list	Karin	PROPN	_	2446
-Kjærsgaard	Kjærsgaard	Kjærsgaard	PROPN	_	2453	flat	Pia	PROPN	_	2452
+Pia	Pia	Pia	PROPN	-	2452	list	Karin	PROPN	-	2446
+Kjærsgaard	Kjærsgaard	Kjærsgaard	PROPN	-	2453	flat	Pia	PROPN	-	2452
 </name>
-(	(	(	PUNCT	_	2454	punct	DF	PROPN	_	2455
+(	(	(	PUNCT	-	2454	punct	DF	PROPN	-	2455
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	2455	flat	Pia	PROPN	_	2452
+DF	DF	DF	PROPN	-	2455	flat	Pia	PROPN	-	2452
 <g/>
 </name>
-)	)	)	PUNCT	_	2456	punct	DF	PROPN	_	2455
-27	27	27	NUM	NumType=Card	2457	nummod	Mette	PROPN	_	2458
+)	)	)	PUNCT	-	2456	punct	DF	PROPN	-	2455
+27	27	27	NUM	NumType=Card	2457	nummod	Mette	PROPN	-	2458
 <name type="PER">
-Mette	Mette	Mette	PROPN	_	2458	list	Pia	PROPN	_	2452
-Bock	Bock	Bock	PROPN	_	2459	flat	Mette	PROPN	_	2458
+Mette	Mette	Mette	PROPN	-	2458	list	Pia	PROPN	-	2452
+Bock	Bock	Bock	PROPN	-	2459	flat	Mette	PROPN	-	2458
 </name>
-(	(	(	PUNCT	_	2460	punct	LA	PROPN	_	2461
+(	(	(	PUNCT	-	2460	punct	LA	PROPN	-	2461
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	2461	flat	Mette	PROPN	_	2458
+LA	LA	LA	PROPN	-	2461	flat	Mette	PROPN	-	2458
 <g/>
 </name>
-)	)	)	PUNCT	_	2462	punct	LA	PROPN	_	2461
-28	28	28	NUM	NumType=Card	2463	nummod	Lars	PROPN	_	2464
+)	)	)	PUNCT	-	2462	punct	LA	PROPN	-	2461
+28	28	28	NUM	NumType=Card	2463	nummod	Lars	PROPN	-	2464
 <name type="PER">
-Lars	Lars	Lars	PROPN	_	2464	list	DF	PROPN	_	2437
-Barfoed	Barfoed	Barfoed	PROPN	_	2465	flat	Lars	PROPN	_	2464
+Lars	Lars	Lars	PROPN	-	2464	list	DF	PROPN	-	2437
+Barfoed	Barfoed	Barfoed	PROPN	-	2465	flat	Lars	PROPN	-	2464
 </name>
-(	(	(	PUNCT	_	2466	punct	KF	PROPN	_	2467
+(	(	(	PUNCT	-	2466	punct	KF	PROPN	-	2467
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	2467	flat	Lars	PROPN	_	2464
+KF	KF	KF	PROPN	-	2467	flat	Lars	PROPN	-	2464
 <g/>
 </name>
-)	)	)	PUNCT	_	2468	punct	KF	PROPN	_	2467
-29	29	29	NUM	NumType=Card	2469	nummod	Brian	PROPN	_	2470
+)	)	)	PUNCT	-	2468	punct	KF	PROPN	-	2467
+29	29	29	NUM	NumType=Card	2469	nummod	Brian	PROPN	-	2470
 <name type="PER">
-Brian	Brian	Brian	PROPN	_	2470	list	Lars	PROPN	_	2464
-Mikkelsen	Mikkelsen	Mikkelsen	PROPN	_	2471	flat	Brian	PROPN	_	2470
+Brian	Brian	Brian	PROPN	-	2470	list	Lars	PROPN	-	2464
+Mikkelsen	Mikkelsen	Mikkelsen	PROPN	-	2471	flat	Brian	PROPN	-	2470
 </name>
-(	(	(	PUNCT	_	2472	punct	KF	PROPN	_	2473
+(	(	(	PUNCT	-	2472	punct	KF	PROPN	-	2473
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	2473	flat	Brian	PROPN	_	2470
+KF	KF	KF	PROPN	-	2473	flat	Brian	PROPN	-	2470
 <g/>
 </name>
-)	)	)	PUNCT	_	2474	punct	KF	PROPN	_	2473
-Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	2475	list	Brian	PROPN	_	2470
+)	)	)	PUNCT	-	2474	punct	KF	PROPN	-	2473
+Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	2475	list	Brian	PROPN	-	2470
 <g/>
-:	:	:	PUNCT	_	2476	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	2475
+:	:	:	PUNCT	-	2476	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	2475
 <name type="PER">
-Flemming	Flemming	Flemming	PROPN	_	2477	appos	formand	NOUN	Definite=Ind Gender=Com Number=Sing	2475
-Møller	Møller	Møller	PROPN	_	2478	flat	Flemming	PROPN	_	2477
-Mortensen	Mortensen	Mortensen	PROPN	_	2479	flat	Flemming	PROPN	_	2477
+Flemming	Flemming	Flemming	PROPN	-	2477	appos	formand	NOUN	Definite=Ind Gender=Com Number=Sing	2475
+Møller	Møller	Møller	PROPN	-	2478	flat	Flemming	PROPN	-	2477
+Mortensen	Mortensen	Mortensen	PROPN	-	2479	flat	Flemming	PROPN	-	2477
 </name>
-(	(	(	PUNCT	_	2480	punct	S	PROPN	_	2481
+(	(	(	PUNCT	-	2480	punct	S	PROPN	-	2481
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	2481	appos	Flemming	PROPN	_	2477
+S	S	S	PROPN	-	2481	appos	Flemming	PROPN	-	2477
 <g/>
 </name>
-)	)	)	PUNCT	_	2482	punct	S	PROPN	_	2481
-Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	2483	flat	S	PROPN	_	2481
+)	)	)	PUNCT	-	2482	punct	S	PROPN	-	2481
+Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	2483	flat	S	PROPN	-	2481
 <g/>
-:	:	:	PUNCT	_	2484	punct	S	PROPN	_	2481
+:	:	:	PUNCT	-	2484	punct	S	PROPN	-	2481
 <name type="PER">
-Anni	Anni	Anni	PROPN	_	2485	flat	S	PROPN	_	2481
-Matthiesen	Matthiesen	Matthiesen	PROPN	_	2486	flat	Anni	PROPN	_	2485
+Anni	Anni	Anni	PROPN	-	2485	flat	S	PROPN	-	2481
+Matthiesen	Matthiesen	Matthiesen	PROPN	-	2486	flat	Anni	PROPN	-	2485
 </name>
-(	(	(	PUNCT	_	2487	punct	S	PROPN	_	2481
+(	(	(	PUNCT	-	2487	punct	S	PROPN	-	2481
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	2488	flat	S	PROPN	_	2481
+V	V	V	PROPN	-	2488	flat	S	PROPN	-	2481
 <g/>
 </name>
-)	)	)	PUNCT	_	2489	punct	S	PROPN	_	2481
-Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	2490	flat	Flemming	PROPN	_	2477
+)	)	)	PUNCT	-	2489	punct	S	PROPN	-	2481
+Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	2490	flat	Flemming	PROPN	-	2477
 af	af	af	ADP	AdpType=Prep	2491	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	2493
 29	29	29	NUM	NumType=Card	2492	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	2493
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	2493	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	2490
 til	til	til	ADP	AdpType=Prep	2494	case	ligestillingsudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	2495
 Ligestillingsudvalget	Ligestillingsudvalget	ligestillingsudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	2495	nmod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	2493
 <g/>
-:	:	:	PUNCT	_	2496	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	2475
+:	:	:	PUNCT	-	2496	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	2475
 Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	2497	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	2475
-blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	2498	cop	Pernille	PROPN	_	2501
+blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	2498	cop	Pernille	PROPN	-	2501
 <g/>
-:	:	:	PUNCT	_	2499	punct	Pernille	PROPN	_	2501
-1	1	1	NUM	NumType=Card	2500	nummod	Pernille	PROPN	_	2501
+:	:	:	PUNCT	-	2499	punct	Pernille	PROPN	-	2501
+1	1	1	NUM	NumType=Card	2500	nummod	Pernille	PROPN	-	2501
 <name type="PER">
-Pernille	Pernille	Pernille	PROPN	_	2501	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	2497
-Rosenkrantz-Theil	Rosenkrantz-Theil	Rosenkrantz-Theil	PROPN	_	2502	flat	Pernille	PROPN	_	2501
+Pernille	Pernille	Pernille	PROPN	-	2501	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	2497
+Rosenkrantz-Theil	Rosenkrantz-Theil	Rosenkrantz-Theil	PROPN	-	2502	flat	Pernille	PROPN	-	2501
 </name>
-(	(	(	PUNCT	_	2503	punct	S	PROPN	_	2504
+(	(	(	PUNCT	-	2503	punct	S	PROPN	-	2504
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	2504	flat	Pernille	PROPN	_	2501
+S	S	S	PROPN	-	2504	flat	Pernille	PROPN	-	2501
 <g/>
 </name>
-)	)	)	PUNCT	_	2505	punct	S	PROPN	_	2504
-2	2	2	NUM	NumType=Card	2506	nummod	Rasmus	PROPN	_	2507
+)	)	)	PUNCT	-	2505	punct	S	PROPN	-	2504
+2	2	2	NUM	NumType=Card	2506	nummod	Rasmus	PROPN	-	2507
 <name type="PER">
-Rasmus	Rasmus	Rasmus	PROPN	_	2507	list	Pernille	PROPN	_	2501
-Horn	Horn	Horn	PROPN	_	2508	flat	Rasmus	PROPN	_	2507
-Langhoff	Langhoff	Langhoff	PROPN	_	2509	flat	Rasmus	PROPN	_	2507
+Rasmus	Rasmus	Rasmus	PROPN	-	2507	list	Pernille	PROPN	-	2501
+Horn	Horn	Horn	PROPN	-	2508	flat	Rasmus	PROPN	-	2507
+Langhoff	Langhoff	Langhoff	PROPN	-	2509	flat	Rasmus	PROPN	-	2507
 </name>
-(	(	(	PUNCT	_	2510	punct	S	PROPN	_	2511
+(	(	(	PUNCT	-	2510	punct	S	PROPN	-	2511
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	2511	flat	Rasmus	PROPN	_	2507
+S	S	S	PROPN	-	2511	flat	Rasmus	PROPN	-	2507
 <g/>
 </name>
-)	)	)	PUNCT	_	2512	punct	S	PROPN	_	2511
-3	3	3	ADJ	NumType=Ord	2513	amod	Rasmus	PROPN	_	2514
+)	)	)	PUNCT	-	2512	punct	S	PROPN	-	2511
+3	3	3	ADJ	NumType=Ord	2513	amod	Rasmus	PROPN	-	2514
 <name type="PER">
-Rasmus	Rasmus	Rasmus	PROPN	_	2514	list	Rasmus	PROPN	_	2507
-Prehn	Prehn	Prehn	PROPN	_	2515	flat	Rasmus	PROPN	_	2514
+Rasmus	Rasmus	Rasmus	PROPN	-	2514	list	Rasmus	PROPN	-	2507
+Prehn	Prehn	Prehn	PROPN	-	2515	flat	Rasmus	PROPN	-	2514
 </name>
-(	(	(	PUNCT	_	2516	punct	S	PROPN	_	2517
+(	(	(	PUNCT	-	2516	punct	S	PROPN	-	2517
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	2517	flat	Rasmus	PROPN	_	2514
+S	S	S	PROPN	-	2517	flat	Rasmus	PROPN	-	2514
 <g/>
 </name>
-)	)	)	PUNCT	_	2518	punct	S	PROPN	_	2517
-4	4	4	NUM	NumType=Card	2519	nummod	Karin	PROPN	_	2520
+)	)	)	PUNCT	-	2518	punct	S	PROPN	-	2517
+4	4	4	NUM	NumType=Card	2519	nummod	Karin	PROPN	-	2520
 <name type="PER">
-Karin	Karin	Karin	PROPN	_	2520	list	Rasmus	PROPN	_	2514
-Gaardsted	Gaardsted	Gaardsted	PROPN	_	2521	flat	Karin	PROPN	_	2520
+Karin	Karin	Karin	PROPN	-	2520	list	Rasmus	PROPN	-	2514
+Gaardsted	Gaardsted	Gaardsted	PROPN	-	2521	flat	Karin	PROPN	-	2520
 </name>
-(	(	(	PUNCT	_	2522	punct	S	PROPN	_	2523
+(	(	(	PUNCT	-	2522	punct	S	PROPN	-	2523
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	2523	list	Karin	PROPN	_	2520
+S	S	S	PROPN	-	2523	list	Karin	PROPN	-	2520
 <g/>
 </name>
-)	)	)	PUNCT	_	2524	punct	S	PROPN	_	2523
-5	5	5	NUM	NumType=Card	2525	nummod	Troels	PROPN	_	2526
+)	)	)	PUNCT	-	2524	punct	S	PROPN	-	2523
+5	5	5	NUM	NumType=Card	2525	nummod	Troels	PROPN	-	2526
 <name type="PER">
-Troels	Troels	Troels	PROPN	_	2526	flat	S	PROPN	_	2523
-Ravn	Ravn	Ravn	PROPN	_	2527	flat	S	PROPN	_	2523
+Troels	Troels	Troels	PROPN	-	2526	flat	S	PROPN	-	2523
+Ravn	Ravn	Ravn	PROPN	-	2527	flat	S	PROPN	-	2523
 </name>
-(	(	(	PUNCT	_	2528	punct	S	PROPN	_	2529
+(	(	(	PUNCT	-	2528	punct	S	PROPN	-	2529
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	2529	flat	S	PROPN	_	2523
+S	S	S	PROPN	-	2529	flat	S	PROPN	-	2523
 <g/>
 </name>
-)	)	)	PUNCT	_	2530	punct	S	PROPN	_	2529
-6	6	6	NUM	NumType=Card	2531	nummod	Astrid	PROPN	_	2532
+)	)	)	PUNCT	-	2530	punct	S	PROPN	-	2529
+6	6	6	NUM	NumType=Card	2531	nummod	Astrid	PROPN	-	2532
 <name type="PER">
-Astrid	Astrid	Astrid	PROPN	_	2532	flat	S	PROPN	_	2523
-Krag	Krag	Krag	PROPN	_	2533	flat	S	PROPN	_	2523
+Astrid	Astrid	Astrid	PROPN	-	2532	flat	S	PROPN	-	2523
+Krag	Krag	Krag	PROPN	-	2533	flat	S	PROPN	-	2523
 </name>
-(	(	(	PUNCT	_	2534	punct	S	PROPN	_	2535
+(	(	(	PUNCT	-	2534	punct	S	PROPN	-	2535
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	2535	flat	S	PROPN	_	2523
+S	S	S	PROPN	-	2535	flat	S	PROPN	-	2523
 <g/>
 </name>
-)	)	)	PUNCT	_	2536	punct	S	PROPN	_	2535
-7	7	7	NUM	NumType=Card	2537	nummod	Lennart	PROPN	_	2538
+)	)	)	PUNCT	-	2536	punct	S	PROPN	-	2535
+7	7	7	NUM	NumType=Card	2537	nummod	Lennart	PROPN	-	2538
 <name type="PER">
-Lennart	Lennart	Lennart	PROPN	_	2538	flat	S	PROPN	_	2523
-Damsbo-Andersen	Damsbo-Andersen	Damsbo-Andersen	PROPN	_	2539	flat	S	PROPN	_	2523
+Lennart	Lennart	Lennart	PROPN	-	2538	flat	S	PROPN	-	2523
+Damsbo-Andersen	Damsbo-Andersen	Damsbo-Andersen	PROPN	-	2539	flat	S	PROPN	-	2523
 </name>
-(	(	(	PUNCT	_	2540	punct	S	PROPN	_	2541
+(	(	(	PUNCT	-	2540	punct	S	PROPN	-	2541
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	2541	flat	S	PROPN	_	2523
+S	S	S	PROPN	-	2541	flat	S	PROPN	-	2523
 <g/>
 </name>
-)	)	)	PUNCT	_	2542	punct	S	PROPN	_	2541
-8	8	8	NUM	NumType=Card	2543	nummod	Liv	PROPN	_	2544
-Liv	Liv	Liv	PROPN	_	2544	flat	S	PROPN	_	2523
+)	)	)	PUNCT	-	2542	punct	S	PROPN	-	2541
+8	8	8	NUM	NumType=Card	2543	nummod	Liv	PROPN	-	2544
+Liv	Liv	Liv	PROPN	-	2544	flat	S	PROPN	-	2523
 <name type="PER">
-Holm	Holm	Holm	PROPN	_	2545	flat	S	PROPN	_	2523
-Andersen	Andersen	Andersen	PROPN	_	2546	flat	S	PROPN	_	2523
+Holm	Holm	Holm	PROPN	-	2545	flat	S	PROPN	-	2523
+Andersen	Andersen	Andersen	PROPN	-	2546	flat	S	PROPN	-	2523
 </name>
-(	(	(	PUNCT	_	2547	punct	RV	PROPN	_	2548
+(	(	(	PUNCT	-	2547	punct	RV	PROPN	-	2548
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	2548	flat	S	PROPN	_	2523
+RV	RV	RV	PROPN	-	2548	flat	S	PROPN	-	2523
 <g/>
 </name>
-)	)	)	PUNCT	_	2549	punct	RV	PROPN	_	2548
-9	9	9	NUM	NumType=Card	2550	nummod	Zenia	PROPN	_	2551
+)	)	)	PUNCT	-	2549	punct	RV	PROPN	-	2548
+9	9	9	NUM	NumType=Card	2550	nummod	Zenia	PROPN	-	2551
 <name type="PER">
-Zenia	Zenia	Zenia	PROPN	_	2551	list	S	PROPN	_	2523
-Stampe	Stampe	Stampe	NOUN	Definite=Ind Gender=Com Number=Sing	2552	flat	Zenia	PROPN	_	2551
+Zenia	Zenia	Zenia	PROPN	-	2551	list	S	PROPN	-	2523
+Stampe	Stampe	Stampe	NOUN	Definite=Ind Gender=Com Number=Sing	2552	flat	Zenia	PROPN	-	2551
 </name>
-(	(	(	PUNCT	_	2553	punct	RV	PROPN	_	2554
+(	(	(	PUNCT	-	2553	punct	RV	PROPN	-	2554
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	2554	flat	Zenia	PROPN	_	2551
+RV	RV	RV	PROPN	-	2554	flat	Zenia	PROPN	-	2551
 <g/>
 </name>
-)	)	)	PUNCT	_	2555	punct	RV	PROPN	_	2554
+)	)	)	PUNCT	-	2555	punct	RV	PROPN	-	2554
 10	10	10	NUM	NumType=Card	2556	nummod	Marl	NOUN	Definite=Def Gender=Com Number=Plur	2557
 <name type="PER">
-Marlene	Marlene	Marl	NOUN	Definite=Def Gender=Com Number=Plur	2557	list	Zenia	PROPN	_	2551
+Marlene	Marlene	Marl	NOUN	Definite=Def Gender=Com Number=Plur	2557	list	Zenia	PROPN	-	2551
 Borst	Borst	Borst	NOUN	Definite=Ind Gender=Com Number=Sing	2558	appos	Marl	NOUN	Definite=Def Gender=Com Number=Plur	2557
-Hansen	Hansen	Hansen	PROPN	_	2559	appos	Borst	NOUN	Definite=Ind Gender=Com Number=Sing	2558
+Hansen	Hansen	Hansen	PROPN	-	2559	appos	Borst	NOUN	Definite=Ind Gender=Com Number=Sing	2558
 </name>
-(	(	(	PUNCT	_	2560	punct	RV	PROPN	_	2561
+(	(	(	PUNCT	-	2560	punct	RV	PROPN	-	2561
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	2561	flat	Hansen	PROPN	_	2559
+RV	RV	RV	PROPN	-	2561	flat	Hansen	PROPN	-	2559
 <g/>
 </name>
-)	)	)	PUNCT	_	2562	punct	RV	PROPN	_	2561
-11	11	11	NUM	NumType=Card	2563	nummod	Özlem	PROPN	_	2564
+)	)	)	PUNCT	-	2562	punct	RV	PROPN	-	2561
+11	11	11	NUM	NumType=Card	2563	nummod	Özlem	PROPN	-	2564
 <name type="PER">
-Özlem	Özlem	Özlem	PROPN	_	2564	list	Hansen	PROPN	_	2559
-Sara	Sara	Sara	PROPN	_	2565	flat	Özlem	PROPN	_	2564
-Cekic	Cekic	Cekic	PROPN	_	2566	flat	Özlem	PROPN	_	2564
+Özlem	Özlem	Özlem	PROPN	-	2564	list	Hansen	PROPN	-	2559
+Sara	Sara	Sara	PROPN	-	2565	flat	Özlem	PROPN	-	2564
+Cekic	Cekic	Cekic	PROPN	-	2566	flat	Özlem	PROPN	-	2564
 </name>
-(	(	(	PUNCT	_	2567	punct	SF	PROPN	_	2568
+(	(	(	PUNCT	-	2567	punct	SF	PROPN	-	2568
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	2568	list	Özlem	PROPN	_	2564
+SF	SF	SF	PROPN	-	2568	list	Özlem	PROPN	-	2564
 <g/>
 </name>
-)	)	)	PUNCT	_	2569	punct	SF	PROPN	_	2568
-12	12	12	NUM	NumType=Card	2570	nummod	Karina	PROPN	_	2571
+)	)	)	PUNCT	-	2569	punct	SF	PROPN	-	2568
+12	12	12	NUM	NumType=Card	2570	nummod	Karina	PROPN	-	2571
 <name type="PER">
-Karina	Karina	Karina	PROPN	_	2571	list	SF	PROPN	_	2568
-Lorentzen	Lorentzen	Lorentzen	PROPN	_	2572	flat	Karina	PROPN	_	2571
-Dehnhardt	Dehnhardt	Dehnhardt	PROPN	_	2573	flat	Karina	PROPN	_	2571
+Karina	Karina	Karina	PROPN	-	2571	list	SF	PROPN	-	2568
+Lorentzen	Lorentzen	Lorentzen	PROPN	-	2572	flat	Karina	PROPN	-	2571
+Dehnhardt	Dehnhardt	Dehnhardt	PROPN	-	2573	flat	Karina	PROPN	-	2571
 </name>
-(	(	(	PUNCT	_	2574	punct	SF	PROPN	_	2575
+(	(	(	PUNCT	-	2574	punct	SF	PROPN	-	2575
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	2575	list	Karina	PROPN	_	2571
+SF	SF	SF	PROPN	-	2575	list	Karina	PROPN	-	2571
 <g/>
 </name>
-)	)	)	PUNCT	_	2576	punct	SF	PROPN	_	2575
-13	13	13	NUM	NumType=Card	2577	nummod	Johanne	PROPN	_	2578
+)	)	)	PUNCT	-	2576	punct	SF	PROPN	-	2575
+13	13	13	NUM	NumType=Card	2577	nummod	Johanne	PROPN	-	2578
 <name type="PER">
-Johanne	Johanne	Johanne	PROPN	_	2578	list	SF	PROPN	_	2575
-Schmidt-Nielsen	Schmidt-Nielsen	Schmidt-Nielsen	PROPN	_	2579	flat	Johanne	PROPN	_	2578
+Johanne	Johanne	Johanne	PROPN	-	2578	list	SF	PROPN	-	2575
+Schmidt-Nielsen	Schmidt-Nielsen	Schmidt-Nielsen	PROPN	-	2579	flat	Johanne	PROPN	-	2578
 </name>
-(	(	(	PUNCT	_	2580	punct	EL	PROPN	_	2581
+(	(	(	PUNCT	-	2580	punct	EL	PROPN	-	2581
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	2581	flat	Johanne	PROPN	_	2578
+EL	EL	EL	PROPN	-	2581	flat	Johanne	PROPN	-	2578
 <g/>
 </name>
-)	)	)	PUNCT	_	2582	punct	EL	PROPN	_	2581
-14	14	14	NUM	NumType=Card	2583	nummod	Stine	PROPN	_	2584
+)	)	)	PUNCT	-	2582	punct	EL	PROPN	-	2581
+14	14	14	NUM	NumType=Card	2583	nummod	Stine	PROPN	-	2584
 <name type="PER">
-Stine	Stine	Stine	PROPN	_	2584	list	Johanne	PROPN	_	2578
-Brix	Brix	Brix	PROPN	_	2585	flat	Stine	PROPN	_	2584
+Stine	Stine	Stine	PROPN	-	2584	list	Johanne	PROPN	-	2578
+Brix	Brix	Brix	PROPN	-	2585	flat	Stine	PROPN	-	2584
 </name>
-(	(	(	PUNCT	_	2586	punct	EL	PROPN	_	2587
+(	(	(	PUNCT	-	2586	punct	EL	PROPN	-	2587
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	2587	flat	Stine	PROPN	_	2584
+EL	EL	EL	PROPN	-	2587	flat	Stine	PROPN	-	2584
 <g/>
 </name>
-)	)	)	PUNCT	_	2588	punct	EL	PROPN	_	2587
-15	15	15	NUM	NumType=Card	2589	nummod	Jørgen	PROPN	_	2590
+)	)	)	PUNCT	-	2588	punct	EL	PROPN	-	2587
+15	15	15	NUM	NumType=Card	2589	nummod	Jørgen	PROPN	-	2590
 <name type="PER">
-Jørgen	Jørgen	Jørgen	PROPN	_	2590	list	Stine	PROPN	_	2584
-Arbo-Bæhr	Arbo-Bæhr	Arbo-Bæhr	PROPN	_	2591	flat	Jørgen	PROPN	_	2590
+Jørgen	Jørgen	Jørgen	PROPN	-	2590	list	Stine	PROPN	-	2584
+Arbo-Bæhr	Arbo-Bæhr	Arbo-Bæhr	PROPN	-	2591	flat	Jørgen	PROPN	-	2590
 </name>
-(	(	(	PUNCT	_	2592	punct	EL	PROPN	_	2593
+(	(	(	PUNCT	-	2592	punct	EL	PROPN	-	2593
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	2593	flat	Jørgen	PROPN	_	2590
+EL	EL	EL	PROPN	-	2593	flat	Jørgen	PROPN	-	2590
 <g/>
 </name>
-)	)	)	PUNCT	_	2594	punct	EL	PROPN	_	2593
-16	16	16	NUM	NumType=Card	2595	nummod	Louise	PROPN	_	2596
+)	)	)	PUNCT	-	2594	punct	EL	PROPN	-	2593
+16	16	16	NUM	NumType=Card	2595	nummod	Louise	PROPN	-	2596
 <name type="PER">
-Louise	Louise	Louise	PROPN	_	2596	list	Jørgen	PROPN	_	2590
-Schack	Schack	Schack	PROPN	_	2597	flat	Louise	PROPN	_	2596
-Elholm	Elholm	Elholm	PROPN	_	2598	flat	Louise	PROPN	_	2596
+Louise	Louise	Louise	PROPN	-	2596	list	Jørgen	PROPN	-	2590
+Schack	Schack	Schack	PROPN	-	2597	flat	Louise	PROPN	-	2596
+Elholm	Elholm	Elholm	PROPN	-	2598	flat	Louise	PROPN	-	2596
 </name>
-(	(	(	PUNCT	_	2599	punct	V	PROPN	_	2600
+(	(	(	PUNCT	-	2599	punct	V	PROPN	-	2600
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	2600	flat	Louise	PROPN	_	2596
+V	V	V	PROPN	-	2600	flat	Louise	PROPN	-	2596
 <g/>
 </name>
-)	)	)	PUNCT	_	2601	punct	V	PROPN	_	2600
-17	17	17	NUM	NumType=Card	2602	nummod	Karen	PROPN	_	2603
+)	)	)	PUNCT	-	2601	punct	V	PROPN	-	2600
+17	17	17	NUM	NumType=Card	2602	nummod	Karen	PROPN	-	2603
 <name type="PER">
-Karen	Karen	Karen	PROPN	_	2603	list	Louise	PROPN	_	2596
-Ellemann	Ellemann	Ellemann	PROPN	_	2604	flat	Karen	PROPN	_	2603
+Karen	Karen	Karen	PROPN	-	2603	list	Louise	PROPN	-	2596
+Ellemann	Ellemann	Ellemann	PROPN	-	2604	flat	Karen	PROPN	-	2603
 </name>
-(	(	(	PUNCT	_	2605	punct	V	PROPN	_	2606
+(	(	(	PUNCT	-	2605	punct	V	PROPN	-	2606
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	2606	flat	Karen	PROPN	_	2603
+V	V	V	PROPN	-	2606	flat	Karen	PROPN	-	2603
 <g/>
 </name>
-)	)	)	PUNCT	_	2607	punct	V	PROPN	_	2606
-18	18	18	NUM	NumType=Card	2608	nummod	Jane	PROPN	_	2609
+)	)	)	PUNCT	-	2607	punct	V	PROPN	-	2606
+18	18	18	NUM	NumType=Card	2608	nummod	Jane	PROPN	-	2609
 <name type="PER">
-Jane	Jane	Jane	PROPN	_	2609	list	Karen	PROPN	_	2603
-Heitmann	Heitmann	Heitmann	PROPN	_	2610	flat	Jane	PROPN	_	2609
+Jane	Jane	Jane	PROPN	-	2609	list	Karen	PROPN	-	2603
+Heitmann	Heitmann	Heitmann	PROPN	-	2610	flat	Jane	PROPN	-	2609
 </name>
-(	(	(	PUNCT	_	2611	punct	V	PROPN	_	2612
+(	(	(	PUNCT	-	2611	punct	V	PROPN	-	2612
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	2612	flat	Jane	PROPN	_	2609
+V	V	V	PROPN	-	2612	flat	Jane	PROPN	-	2609
 <g/>
 </name>
-)	)	)	PUNCT	_	2613	punct	V	PROPN	_	2612
-19	19	19	NUM	NumType=Card	2614	nummod	Jakob	PROPN	_	2615
+)	)	)	PUNCT	-	2613	punct	V	PROPN	-	2612
+19	19	19	NUM	NumType=Card	2614	nummod	Jakob	PROPN	-	2615
 <name type="PER">
-Jakob	Jakob	Jakob	PROPN	_	2615	list	Jane	PROPN	_	2609
-Engel-Schmidt	Engel-Schmidt	Engel-Schmidt	X	_	2616	flat	Jakob	PROPN	_	2615
+Jakob	Jakob	Jakob	PROPN	-	2615	list	Jane	PROPN	-	2609
+Engel-Schmidt	Engel-Schmidt	Engel-Schmidt	X	-	2616	flat	Jakob	PROPN	-	2615
 </name>
-(	(	(	PUNCT	_	2617	punct	V	PROPN	_	2618
+(	(	(	PUNCT	-	2617	punct	V	PROPN	-	2618
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	2618	flat	Jakob	PROPN	_	2615
+V	V	V	PROPN	-	2618	flat	Jakob	PROPN	-	2615
 <g/>
 </name>
-)	)	)	PUNCT	_	2619	punct	V	PROPN	_	2618
-20	20	20	NUM	NumType=Card	2620	nummod	Finn	PROPN	_	2621
+)	)	)	PUNCT	-	2619	punct	V	PROPN	-	2618
+20	20	20	NUM	NumType=Card	2620	nummod	Finn	PROPN	-	2621
 <name type="PER">
-Finn	Finn	Finn	PROPN	_	2621	list	Jakob	PROPN	_	2615
-Thranum	Thranum	Thranum	PROPN	_	2622	flat	Finn	PROPN	_	2621
+Finn	Finn	Finn	PROPN	-	2621	list	Jakob	PROPN	-	2615
+Thranum	Thranum	Thranum	PROPN	-	2622	flat	Finn	PROPN	-	2621
 </name>
-(	(	(	PUNCT	_	2623	punct	V	PROPN	_	2624
+(	(	(	PUNCT	-	2623	punct	V	PROPN	-	2624
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	2624	flat	Finn	PROPN	_	2621
+V	V	V	PROPN	-	2624	flat	Finn	PROPN	-	2621
 <g/>
 </name>
-)	)	)	PUNCT	_	2625	punct	V	PROPN	_	2624
-21	21	21	NUM	NumType=Card	2626	nummod	Mads	PROPN	_	2627
+)	)	)	PUNCT	-	2625	punct	V	PROPN	-	2624
+21	21	21	NUM	NumType=Card	2626	nummod	Mads	PROPN	-	2627
 <name type="PER">
-Mads	Mads	Mads	PROPN	_	2627	list	Finn	PROPN	_	2621
-Rørvig	Rørvig	Rørvig	PROPN	_	2628	flat	Mads	PROPN	_	2627
+Mads	Mads	Mads	PROPN	-	2627	list	Finn	PROPN	-	2621
+Rørvig	Rørvig	Rørvig	PROPN	-	2628	flat	Mads	PROPN	-	2627
 </name>
-(	(	(	PUNCT	_	2629	punct	V	PROPN	_	2630
+(	(	(	PUNCT	-	2629	punct	V	PROPN	-	2630
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	2630	flat	Mads	PROPN	_	2627
+V	V	V	PROPN	-	2630	flat	Mads	PROPN	-	2627
 <g/>
 </name>
-)	)	)	PUNCT	_	2631	punct	V	PROPN	_	2630
-22	22	22	NUM	NumType=Card	2632	nummod	Inger	PROPN	_	2633
+)	)	)	PUNCT	-	2631	punct	V	PROPN	-	2630
+22	22	22	NUM	NumType=Card	2632	nummod	Inger	PROPN	-	2633
 <name type="PER">
-Inger	Inger	Inger	PROPN	_	2633	list	Mads	PROPN	_	2627
-Støjberg	Støjberg	Støjberg	PROPN	_	2634	flat	Inger	PROPN	_	2633
+Inger	Inger	Inger	PROPN	-	2633	list	Mads	PROPN	-	2627
+Støjberg	Støjberg	Støjberg	PROPN	-	2634	flat	Inger	PROPN	-	2633
 </name>
-(	(	(	PUNCT	_	2635	punct	V	PROPN	_	2636
+(	(	(	PUNCT	-	2635	punct	V	PROPN	-	2636
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	2636	flat	Inger	PROPN	_	2633
+V	V	V	PROPN	-	2636	flat	Inger	PROPN	-	2633
 <g/>
 </name>
-)	)	)	PUNCT	_	2637	punct	V	PROPN	_	2636
-23	23	23	NUM	NumType=Card	2638	nummod	Fatma	PROPN	_	2639
+)	)	)	PUNCT	-	2637	punct	V	PROPN	-	2636
+23	23	23	NUM	NumType=Card	2638	nummod	Fatma	PROPN	-	2639
 <name type="PER">
-Fatma	Fatma	Fatma	PROPN	_	2639	list	Inger	PROPN	_	2633
-Øktem	Øktem	Øktem	PROPN	_	2640	flat	Fatma	PROPN	_	2639
+Fatma	Fatma	Fatma	PROPN	-	2639	list	Inger	PROPN	-	2633
+Øktem	Øktem	Øktem	PROPN	-	2640	flat	Fatma	PROPN	-	2639
 </name>
-(	(	(	PUNCT	_	2641	punct	V	PROPN	_	2642
+(	(	(	PUNCT	-	2641	punct	V	PROPN	-	2642
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	2642	list	Fatma	PROPN	_	2639
+V	V	V	PROPN	-	2642	list	Fatma	PROPN	-	2639
 <g/>
 </name>
-)	)	)	PUNCT	_	2643	punct	V	PROPN	_	2642
-24	24	24	NUM	NumType=Card	2644	nummod	Pia	PROPN	_	2645
+)	)	)	PUNCT	-	2643	punct	V	PROPN	-	2642
+24	24	24	NUM	NumType=Card	2644	nummod	Pia	PROPN	-	2645
 <name type="PER">
-Pia	Pia	Pia	PROPN	_	2645	list	V	PROPN	_	2642
-Adelsteen	Adelsteen	Adelsteen	PROPN	_	2646	flat	Pia	PROPN	_	2645
+Pia	Pia	Pia	PROPN	-	2645	list	V	PROPN	-	2642
+Adelsteen	Adelsteen	Adelsteen	PROPN	-	2646	flat	Pia	PROPN	-	2645
 </name>
-(	(	(	PUNCT	_	2647	punct	DF	PROPN	_	2648
+(	(	(	PUNCT	-	2647	punct	DF	PROPN	-	2648
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	2648	flat	Pia	PROPN	_	2645
+DF	DF	DF	PROPN	-	2648	flat	Pia	PROPN	-	2645
 <g/>
 </name>
-)	)	)	PUNCT	_	2649	punct	DF	PROPN	_	2648
-25	25	25	NUM	NumType=Card	2650	nummod	Liselott	PROPN	_	2651
+)	)	)	PUNCT	-	2649	punct	DF	PROPN	-	2648
+25	25	25	NUM	NumType=Card	2650	nummod	Liselott	PROPN	-	2651
 <name type="PER">
-Liselott	Liselott	Liselott	PROPN	_	2651	list	Pia	PROPN	_	2645
-Blixt	Blixt	Blixt	PROPN	_	2652	flat	Liselott	PROPN	_	2651
+Liselott	Liselott	Liselott	PROPN	-	2651	list	Pia	PROPN	-	2645
+Blixt	Blixt	Blixt	PROPN	-	2652	flat	Liselott	PROPN	-	2651
 </name>
-(	(	(	PUNCT	_	2653	punct	DF	PROPN	_	2654
+(	(	(	PUNCT	-	2653	punct	DF	PROPN	-	2654
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	2654	flat	Liselott	PROPN	_	2651
+DF	DF	DF	PROPN	-	2654	flat	Liselott	PROPN	-	2651
 <g/>
 </name>
-)	)	)	PUNCT	_	2655	punct	DF	PROPN	_	2654
-26	26	26	NUM	NumType=Card	2656	nummod	Martin	PROPN	_	2657
+)	)	)	PUNCT	-	2655	punct	DF	PROPN	-	2654
+26	26	26	NUM	NumType=Card	2656	nummod	Martin	PROPN	-	2657
 <name type="PER">
-Martin	Martin	Martin	PROPN	_	2657	list	Liselott	PROPN	_	2651
-Henriksen	Henriksen	Henriksen	PROPN	_	2658	flat	Martin	PROPN	_	2657
+Martin	Martin	Martin	PROPN	-	2657	list	Liselott	PROPN	-	2651
+Henriksen	Henriksen	Henriksen	PROPN	-	2658	flat	Martin	PROPN	-	2657
 </name>
-(	(	(	PUNCT	_	2659	punct	DF	PROPN	_	2660
+(	(	(	PUNCT	-	2659	punct	DF	PROPN	-	2660
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	2660	flat	Martin	PROPN	_	2657
+DF	DF	DF	PROPN	-	2660	flat	Martin	PROPN	-	2657
 <g/>
 </name>
-)	)	)	PUNCT	_	2661	punct	DF	PROPN	_	2660
-27	27	27	NUM	NumType=Card	2662	nummod	Hans	PROPN	_	2663
+)	)	)	PUNCT	-	2661	punct	DF	PROPN	-	2660
+27	27	27	NUM	NumType=Card	2662	nummod	Hans	PROPN	-	2663
 <name type="PER">
-Hans	Hans	Hans	PROPN	_	2663	list	Martin	PROPN	_	2657
-Kristian	Kristian	Kristian	PROPN	_	2664	flat	Hans	PROPN	_	2663
-Skibby	Skibby	Skibby	PROPN	_	2665	flat	Hans	PROPN	_	2663
+Hans	Hans	Hans	PROPN	-	2663	list	Martin	PROPN	-	2657
+Kristian	Kristian	Kristian	PROPN	-	2664	flat	Hans	PROPN	-	2663
+Skibby	Skibby	Skibby	PROPN	-	2665	flat	Hans	PROPN	-	2663
 </name>
-(	(	(	PUNCT	_	2666	punct	DF	PROPN	_	2667
+(	(	(	PUNCT	-	2666	punct	DF	PROPN	-	2667
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	2667	flat	Hans	PROPN	_	2663
+DF	DF	DF	PROPN	-	2667	flat	Hans	PROPN	-	2663
 <g/>
 </name>
-)	)	)	PUNCT	_	2668	punct	DF	PROPN	_	2667
-28	28	28	NUM	NumType=Card	2669	nummod	Merete	PROPN	_	2670
+)	)	)	PUNCT	-	2668	punct	DF	PROPN	-	2667
+28	28	28	NUM	NumType=Card	2669	nummod	Merete	PROPN	-	2670
 <name type="PER">
-Merete	Merete	Merete	PROPN	_	2670	list	Hans	PROPN	_	2663
-Riisager	Riisager	Riisager	PROPN	_	2671	flat	Merete	PROPN	_	2670
+Merete	Merete	Merete	PROPN	-	2670	list	Hans	PROPN	-	2663
+Riisager	Riisager	Riisager	PROPN	-	2671	flat	Merete	PROPN	-	2670
 </name>
-(	(	(	PUNCT	_	2672	punct	LA	PROPN	_	2673
+(	(	(	PUNCT	-	2672	punct	LA	PROPN	-	2673
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	2673	flat	Merete	PROPN	_	2670
+LA	LA	LA	PROPN	-	2673	flat	Merete	PROPN	-	2670
 <g/>
 </name>
-)	)	)	PUNCT	_	2674	punct	LA	PROPN	_	2673
-29	29	29	NUM	NumType=Card	2675	nummod	Charlotte	PROPN	_	2676
+)	)	)	PUNCT	-	2674	punct	LA	PROPN	-	2673
+29	29	29	NUM	NumType=Card	2675	nummod	Charlotte	PROPN	-	2676
 <name type="PER">
-Charlotte	Charlotte	Charlotte	PROPN	_	2676	list	Merete	PROPN	_	2670
-Dyremose	Dyremose	Dyremose	PROPN	_	2677	flat	Charlotte	PROPN	_	2676
+Charlotte	Charlotte	Charlotte	PROPN	-	2676	list	Merete	PROPN	-	2670
+Dyremose	Dyremose	Dyremose	PROPN	-	2677	flat	Charlotte	PROPN	-	2676
 </name>
-(	(	(	PUNCT	_	2678	punct	KF	PROPN	_	2679
+(	(	(	PUNCT	-	2678	punct	KF	PROPN	-	2679
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	2679	flat	Charlotte	PROPN	_	2676
+KF	KF	KF	PROPN	-	2679	flat	Charlotte	PROPN	-	2676
 <g/>
 </name>
-)	)	)	PUNCT	_	2680	punct	KF	PROPN	_	2679
-Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	2681	list	Charlotte	PROPN	_	2676
+)	)	)	PUNCT	-	2680	punct	KF	PROPN	-	2679
+Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	2681	list	Charlotte	PROPN	-	2676
 <g/>
-:	:	:	PUNCT	_	2682	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	2681
+:	:	:	PUNCT	-	2682	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	2681
 <name type="PER">
-Merete	Merete	Merete	PROPN	_	2683	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	2681
-Riisager	Riisager	Riisager	PROPN	_	2684	flat	Merete	PROPN	_	2683
+Merete	Merete	Merete	PROPN	-	2683	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	2681
+Riisager	Riisager	Riisager	PROPN	-	2684	flat	Merete	PROPN	-	2683
 </name>
-(	(	(	PUNCT	_	2685	punct	LA	PROPN	_	2686
+(	(	(	PUNCT	-	2685	punct	LA	PROPN	-	2686
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	2686	flat	Merete	PROPN	_	2683
+LA	LA	LA	PROPN	-	2686	flat	Merete	PROPN	-	2683
 <g/>
 </name>
-)	)	)	PUNCT	_	2687	punct	LA	PROPN	_	2686
-Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	2688	list	Merete	PROPN	_	2683
+)	)	)	PUNCT	-	2687	punct	LA	PROPN	-	2686
+Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	2688	list	Merete	PROPN	-	2683
 <g/>
-:	:	:	PUNCT	_	2689	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	2688
-Liv	Liv	Liv	PROPN	_	2690	list	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	2688
+:	:	:	PUNCT	-	2689	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	2688
+Liv	Liv	Liv	PROPN	-	2690	list	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	2688
 <name type="PER">
-Holm	Holm	Holm	PROPN	_	2691	flat	Liv	PROPN	_	2690
-Andersen	Andersen	Andersen	PROPN	_	2692	flat	Liv	PROPN	_	2690
+Holm	Holm	Holm	PROPN	-	2691	flat	Liv	PROPN	-	2690
+Andersen	Andersen	Andersen	PROPN	-	2692	flat	Liv	PROPN	-	2690
 </name>
-(	(	(	PUNCT	_	2693	punct	RV	PROPN	_	2694
+(	(	(	PUNCT	-	2693	punct	RV	PROPN	-	2694
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	2694	flat	Liv	PROPN	_	2690
+RV	RV	RV	PROPN	-	2694	flat	Liv	PROPN	-	2690
 <g/>
 </name>
-)	)	)	PUNCT	_	2695	punct	RV	PROPN	_	2694
-Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	2696	list	Liv	PROPN	_	2690
+)	)	)	PUNCT	-	2695	punct	RV	PROPN	-	2694
+Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	2696	list	Liv	PROPN	-	2690
 af	af	af	ADP	AdpType=Prep	2697	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	2699
 29	29	29	NUM	NumType=Card	2698	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	2699
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	2699	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	2696
 til	til	til	ADP	AdpType=Prep	2700	case	miljøudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	2701
 Miljøudvalget	Miljøudvalget	miljøudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	2701	nmod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	2699
 <g/>
-:	:	:	PUNCT	_	2702	punct	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	2696
+:	:	:	PUNCT	-	2702	punct	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	2696
 Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	2703	amod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	2696
-blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	2704	cop	Annette	PROPN	_	2707
+blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	2704	cop	Annette	PROPN	-	2707
 <g/>
-:	:	:	PUNCT	_	2705	punct	Annette	PROPN	_	2707
-1	1	1	NUM	NumType=Card	2706	nummod	Annette	PROPN	_	2707
+:	:	:	PUNCT	-	2705	punct	Annette	PROPN	-	2707
+1	1	1	NUM	NumType=Card	2706	nummod	Annette	PROPN	-	2707
 <name type="PER">
-Annette	Annette	Annette	PROPN	_	2707	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	2703
-Lind	Lind	Lind	PROPN	_	2708	flat	Annette	PROPN	_	2707
+Annette	Annette	Annette	PROPN	-	2707	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	2703
+Lind	Lind	Lind	PROPN	-	2708	flat	Annette	PROPN	-	2707
 </name>
-(	(	(	PUNCT	_	2709	punct	S	PROPN	_	2710
+(	(	(	PUNCT	-	2709	punct	S	PROPN	-	2710
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	2710	flat	Annette	PROPN	_	2707
+S	S	S	PROPN	-	2710	flat	Annette	PROPN	-	2707
 <g/>
 </name>
-)	)	)	PUNCT	_	2711	punct	S	PROPN	_	2710
-2	2	2	NUM	NumType=Card	2712	nummod	Flemming	PROPN	_	2713
+)	)	)	PUNCT	-	2711	punct	S	PROPN	-	2710
+2	2	2	NUM	NumType=Card	2712	nummod	Flemming	PROPN	-	2713
 <name type="PER">
-Flemming	Flemming	Flemming	PROPN	_	2713	list	Annette	PROPN	_	2707
-Møller	Møller	Møller	PROPN	_	2714	flat	Flemming	PROPN	_	2713
-Mortensen	Mortensen	Mortensen	PROPN	_	2715	flat	Flemming	PROPN	_	2713
+Flemming	Flemming	Flemming	PROPN	-	2713	list	Annette	PROPN	-	2707
+Møller	Møller	Møller	PROPN	-	2714	flat	Flemming	PROPN	-	2713
+Mortensen	Mortensen	Mortensen	PROPN	-	2715	flat	Flemming	PROPN	-	2713
 </name>
-(	(	(	PUNCT	_	2716	punct	S	PROPN	_	2717
+(	(	(	PUNCT	-	2716	punct	S	PROPN	-	2717
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	2717	flat	Flemming	PROPN	_	2713
+S	S	S	PROPN	-	2717	flat	Flemming	PROPN	-	2713
 <g/>
 </name>
-)	)	)	PUNCT	_	2718	punct	S	PROPN	_	2717
-3	3	3	ADJ	NumType=Ord	2719	amod	Jens	PROPN	_	2720
+)	)	)	PUNCT	-	2718	punct	S	PROPN	-	2717
+3	3	3	ADJ	NumType=Ord	2719	amod	Jens	PROPN	-	2720
 <name type="PER">
-Jens	Jens	Jens	PROPN	_	2720	list	Flemming	PROPN	_	2713
-Joel	Joel	Joel	PROPN	_	2721	flat	Jens	PROPN	_	2720
+Jens	Jens	Jens	PROPN	-	2720	list	Flemming	PROPN	-	2713
+Joel	Joel	Joel	PROPN	-	2721	flat	Jens	PROPN	-	2720
 </name>
-(	(	(	PUNCT	_	2722	punct	S	PROPN	_	2723
+(	(	(	PUNCT	-	2722	punct	S	PROPN	-	2723
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	2723	flat	Jens	PROPN	_	2720
+S	S	S	PROPN	-	2723	flat	Jens	PROPN	-	2720
 <g/>
 </name>
-)	)	)	PUNCT	_	2724	punct	S	PROPN	_	2723
-4	4	4	NUM	NumType=Card	2725	nummod	John	PROPN	_	2726
+)	)	)	PUNCT	-	2724	punct	S	PROPN	-	2723
+4	4	4	NUM	NumType=Card	2725	nummod	John	PROPN	-	2726
 <name type="PER">
-John	John	John	PROPN	_	2726	list	Jens	PROPN	_	2720
-Dyrby	Dyrby	Dyrby	PROPN	_	2727	flat	John	PROPN	_	2726
-Paulsen	Paulsen	Paulsen	PROPN	_	2728	flat	John	PROPN	_	2726
+John	John	John	PROPN	-	2726	list	Jens	PROPN	-	2720
+Dyrby	Dyrby	Dyrby	PROPN	-	2727	flat	John	PROPN	-	2726
+Paulsen	Paulsen	Paulsen	PROPN	-	2728	flat	John	PROPN	-	2726
 </name>
-(	(	(	PUNCT	_	2729	punct	S	PROPN	_	2730
+(	(	(	PUNCT	-	2729	punct	S	PROPN	-	2730
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	2730	flat	John	PROPN	_	2726
+S	S	S	PROPN	-	2730	flat	John	PROPN	-	2726
 <g/>
 </name>
-)	)	)	PUNCT	_	2731	punct	S	PROPN	_	2730
-5	5	5	NUM	NumType=Card	2732	nummod	Mette	PROPN	_	2733
+)	)	)	PUNCT	-	2731	punct	S	PROPN	-	2730
+5	5	5	NUM	NumType=Card	2732	nummod	Mette	PROPN	-	2733
 <name type="PER">
-Mette	Mette	Mette	PROPN	_	2733	list	John	PROPN	_	2726
-Reissmann	Reissmann	Reissmann	PROPN	_	2734	flat	Mette	PROPN	_	2733
+Mette	Mette	Mette	PROPN	-	2733	list	John	PROPN	-	2726
+Reissmann	Reissmann	Reissmann	PROPN	-	2734	flat	Mette	PROPN	-	2733
 </name>
-(	(	(	PUNCT	_	2735	punct	S	PROPN	_	2736
+(	(	(	PUNCT	-	2735	punct	S	PROPN	-	2736
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	2736	list	Mette	PROPN	_	2733
+S	S	S	PROPN	-	2736	list	Mette	PROPN	-	2733
 <g/>
 </name>
-)	)	)	PUNCT	_	2737	punct	S	PROPN	_	2736
-6	6	6	NUM	NumType=Card	2738	nummod	Torben	PROPN	_	2739
+)	)	)	PUNCT	-	2737	punct	S	PROPN	-	2736
+6	6	6	NUM	NumType=Card	2738	nummod	Torben	PROPN	-	2739
 <name type="PER">
-Torben	Torben	Torben	PROPN	_	2739	flat	S	PROPN	_	2736
-Hansen	Hansen	Hansen	PROPN	_	2740	flat	S	PROPN	_	2736
+Torben	Torben	Torben	PROPN	-	2739	flat	S	PROPN	-	2736
+Hansen	Hansen	Hansen	PROPN	-	2740	flat	S	PROPN	-	2736
 </name>
-(	(	(	PUNCT	_	2741	punct	S	PROPN	_	2742
+(	(	(	PUNCT	-	2741	punct	S	PROPN	-	2742
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	2742	flat	S	PROPN	_	2736
+S	S	S	PROPN	-	2742	flat	S	PROPN	-	2736
 <g/>
 </name>
-)	)	)	PUNCT	_	2743	punct	S	PROPN	_	2742
-7	7	7	NUM	NumType=Card	2744	nummod	Simon	PROPN	_	2745
+)	)	)	PUNCT	-	2743	punct	S	PROPN	-	2742
+7	7	7	NUM	NumType=Card	2744	nummod	Simon	PROPN	-	2745
 <name type="PER">
-Simon	Simon	Simon	PROPN	_	2745	flat	S	PROPN	_	2736
-Kollerup	Kollerup	Kollerup	PROPN	_	2746	flat	S	PROPN	_	2736
+Simon	Simon	Simon	PROPN	-	2745	flat	S	PROPN	-	2736
+Kollerup	Kollerup	Kollerup	PROPN	-	2746	flat	S	PROPN	-	2736
 </name>
-(	(	(	PUNCT	_	2747	punct	S	PROPN	_	2748
+(	(	(	PUNCT	-	2747	punct	S	PROPN	-	2748
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	2748	flat	S	PROPN	_	2736
+S	S	S	PROPN	-	2748	flat	S	PROPN	-	2736
 <g/>
 </name>
-)	)	)	PUNCT	_	2749	punct	S	PROPN	_	2748
-8	8	8	NUM	NumType=Card	2750	nummod	Lone	PROPN	_	2751
+)	)	)	PUNCT	-	2749	punct	S	PROPN	-	2748
+8	8	8	NUM	NumType=Card	2750	nummod	Lone	PROPN	-	2751
 <name type="PER">
-Lone	Lone	Lone	PROPN	_	2751	list	S	PROPN	_	2736
-Loklindt	Loklindt	Loklindt	PROPN	_	2752	flat	Lone	PROPN	_	2751
+Lone	Lone	Lone	PROPN	-	2751	list	S	PROPN	-	2736
+Loklindt	Loklindt	Loklindt	PROPN	-	2752	flat	Lone	PROPN	-	2751
 </name>
-(	(	(	PUNCT	_	2753	punct	RV	PROPN	_	2754
+(	(	(	PUNCT	-	2753	punct	RV	PROPN	-	2754
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	2754	flat	Lone	PROPN	_	2751
+RV	RV	RV	PROPN	-	2754	flat	Lone	PROPN	-	2751
 <g/>
 </name>
-)	)	)	PUNCT	_	2755	punct	RV	PROPN	_	2754
-9	9	9	NUM	NumType=Card	2756	nummod	Lotte	PROPN	_	2757
+)	)	)	PUNCT	-	2755	punct	RV	PROPN	-	2754
+9	9	9	NUM	NumType=Card	2756	nummod	Lotte	PROPN	-	2757
 <name type="PER">
-Lotte	Lotte	Lotte	PROPN	_	2757	list	Lone	PROPN	_	2751
-Rod	Rod	Rod	PROPN	_	2758	flat	Lotte	PROPN	_	2757
+Lotte	Lotte	Lotte	PROPN	-	2757	list	Lone	PROPN	-	2751
+Rod	Rod	Rod	PROPN	-	2758	flat	Lotte	PROPN	-	2757
 </name>
-(	(	(	PUNCT	_	2759	punct	RV	PROPN	_	2760
+(	(	(	PUNCT	-	2759	punct	RV	PROPN	-	2760
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	2760	flat	Lotte	PROPN	_	2757
+RV	RV	RV	PROPN	-	2760	flat	Lotte	PROPN	-	2757
 <g/>
 </name>
-)	)	)	PUNCT	_	2761	punct	RV	PROPN	_	2760
-10	10	10	NUM	NumType=Card	2762	nummod	Lisbeth	PROPN	_	2763
+)	)	)	PUNCT	-	2761	punct	RV	PROPN	-	2760
+10	10	10	NUM	NumType=Card	2762	nummod	Lisbeth	PROPN	-	2763
 <name type="PER">
-Lisbeth	Lisbeth	Lisbeth	PROPN	_	2763	list	Lotte	PROPN	_	2757
-Bech	Bech	Bech	PROPN	_	2764	flat	Lisbeth	PROPN	_	2763
-Poulsen	Poulsen	Poulsen	PROPN	_	2765	flat	Lisbeth	PROPN	_	2763
+Lisbeth	Lisbeth	Lisbeth	PROPN	-	2763	list	Lotte	PROPN	-	2757
+Bech	Bech	Bech	PROPN	-	2764	flat	Lisbeth	PROPN	-	2763
+Poulsen	Poulsen	Poulsen	PROPN	-	2765	flat	Lisbeth	PROPN	-	2763
 </name>
-(	(	(	PUNCT	_	2766	punct	SF	PROPN	_	2767
+(	(	(	PUNCT	-	2766	punct	SF	PROPN	-	2767
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	2767	flat	Lisbeth	PROPN	_	2763
+SF	SF	SF	PROPN	-	2767	flat	Lisbeth	PROPN	-	2763
 <g/>
 </name>
-)	)	)	PUNCT	_	2768	punct	SF	PROPN	_	2767
-11	11	11	NUM	NumType=Card	2769	nummod	Steen	PROPN	_	2770
+)	)	)	PUNCT	-	2768	punct	SF	PROPN	-	2767
+11	11	11	NUM	NumType=Card	2769	nummod	Steen	PROPN	-	2770
 <name type="PER">
-Steen	Steen	Steen	PROPN	_	2770	list	Lisbeth	PROPN	_	2763
-Gade	Gade	Gade	PROPN	_	2771	flat	Steen	PROPN	_	2770
+Steen	Steen	Steen	PROPN	-	2770	list	Lisbeth	PROPN	-	2763
+Gade	Gade	Gade	PROPN	-	2771	flat	Steen	PROPN	-	2770
 </name>
-(	(	(	PUNCT	_	2772	punct	SF	PROPN	_	2773
+(	(	(	PUNCT	-	2772	punct	SF	PROPN	-	2773
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	2773	flat	Steen	PROPN	_	2770
+SF	SF	SF	PROPN	-	2773	flat	Steen	PROPN	-	2770
 <g/>
 </name>
-)	)	)	PUNCT	_	2774	punct	SF	PROPN	_	2773
-12	12	12	NUM	NumType=Card	2775	nummod	Per	PROPN	_	2776
+)	)	)	PUNCT	-	2774	punct	SF	PROPN	-	2773
+12	12	12	NUM	NumType=Card	2775	nummod	Per	PROPN	-	2776
 <name type="PER">
-Per	Per	Per	PROPN	_	2776	list	Steen	PROPN	_	2770
-Clausen	Clausen	Clausen	PROPN	_	2777	flat	Per	PROPN	_	2776
+Per	Per	Per	PROPN	-	2776	list	Steen	PROPN	-	2770
+Clausen	Clausen	Clausen	PROPN	-	2777	flat	Per	PROPN	-	2776
 </name>
-(	(	(	PUNCT	_	2778	punct	EL	PROPN	_	2779
+(	(	(	PUNCT	-	2778	punct	EL	PROPN	-	2779
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	2779	flat	Per	PROPN	_	2776
+EL	EL	EL	PROPN	-	2779	flat	Per	PROPN	-	2776
 <g/>
 </name>
-)	)	)	PUNCT	_	2780	punct	EL	PROPN	_	2779
-13	13	13	NUM	NumType=Card	2781	nummod	Lars	PROPN	_	2782
+)	)	)	PUNCT	-	2780	punct	EL	PROPN	-	2779
+13	13	13	NUM	NumType=Card	2781	nummod	Lars	PROPN	-	2782
 <name type="PER">
-Lars	Lars	Lars	PROPN	_	2782	list	Per	PROPN	_	2776
-Dohn	Dohn	Dohn	PROPN	_	2783	flat	Lars	PROPN	_	2782
+Lars	Lars	Lars	PROPN	-	2782	list	Per	PROPN	-	2776
+Dohn	Dohn	Dohn	PROPN	-	2783	flat	Lars	PROPN	-	2782
 </name>
-(	(	(	PUNCT	_	2784	punct	EL	PROPN	_	2785
+(	(	(	PUNCT	-	2784	punct	EL	PROPN	-	2785
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	2785	flat	Lars	PROPN	_	2782
+EL	EL	EL	PROPN	-	2785	flat	Lars	PROPN	-	2782
 <g/>
 </name>
-)	)	)	PUNCT	_	2786	punct	EL	PROPN	_	2785
-14	14	14	NUM	NumType=Card	2787	nummod	Johan	PROPN	_	2788
+)	)	)	PUNCT	-	2786	punct	EL	PROPN	-	2785
+14	14	14	NUM	NumType=Card	2787	nummod	Johan	PROPN	-	2788
 <name type="PER">
-Johan	Johan	Johan	PROPN	_	2788	list	Lars	PROPN	_	2782
-Lund	Lund	Lund	PROPN	_	2789	flat	Johan	PROPN	_	2788
-Olsen	Olsen	Olsen	PROPN	_	2790	flat	Johan	PROPN	_	2788
+Johan	Johan	Johan	PROPN	-	2788	list	Lars	PROPN	-	2782
+Lund	Lund	Lund	PROPN	-	2789	flat	Johan	PROPN	-	2788
+Olsen	Olsen	Olsen	PROPN	-	2790	flat	Johan	PROPN	-	2788
 </name>
-(	(	(	PUNCT	_	2791	punct	IA	PROPN	_	2792
+(	(	(	PUNCT	-	2791	punct	IA	PROPN	-	2792
 <g/>
 <name type="ORG">
-IA	IA	IA	PROPN	_	2792	flat	Johan	PROPN	_	2788
+IA	IA	IA	PROPN	-	2792	flat	Johan	PROPN	-	2788
 <g/>
 </name>
-)	)	)	PUNCT	_	2793	punct	IA	PROPN	_	2792
-15	15	15	NUM	NumType=Card	2794	nummod	Uffe	PROPN	_	2795
+)	)	)	PUNCT	-	2793	punct	IA	PROPN	-	2792
+15	15	15	NUM	NumType=Card	2794	nummod	Uffe	PROPN	-	2795
 <name type="PER">
-Uffe	Uffe	Uffe	PROPN	_	2795	list	Lars	PROPN	_	2782
-Elbæk	Elbæk	Elbæk	PROPN	_	2796	flat	Uffe	PROPN	_	2795
+Uffe	Uffe	Uffe	PROPN	-	2795	list	Lars	PROPN	-	2782
+Elbæk	Elbæk	Elbæk	PROPN	-	2796	flat	Uffe	PROPN	-	2795
 </name>
-(	(	(	PUNCT	_	2797	punct	UFG	PROPN	_	2798
+(	(	(	PUNCT	-	2797	punct	UFG	PROPN	-	2798
 <g/>
 <name type="ORG">
-UFG	UFG	UFG	PROPN	_	2798	flat	Uffe	PROPN	_	2795
+UFG	UFG	UFG	PROPN	-	2798	flat	Uffe	PROPN	-	2795
 <g/>
 </name>
-)	)	)	PUNCT	_	2799	punct	UFG	PROPN	_	2798
-16	16	16	NUM	NumType=Card	2800	nummod	Erling	PROPN	_	2801
+)	)	)	PUNCT	-	2799	punct	UFG	PROPN	-	2798
+16	16	16	NUM	NumType=Card	2800	nummod	Erling	PROPN	-	2801
 <name type="PER">
-Erling	Erling	Erling	PROPN	_	2801	list	Uffe	PROPN	_	2795
-Bonnesen	Bonnesen	Bonnesen	PROPN	_	2802	flat	Erling	PROPN	_	2801
+Erling	Erling	Erling	PROPN	-	2801	list	Uffe	PROPN	-	2795
+Bonnesen	Bonnesen	Bonnesen	PROPN	-	2802	flat	Erling	PROPN	-	2801
 </name>
-(	(	(	PUNCT	_	2803	punct	V	PROPN	_	2804
+(	(	(	PUNCT	-	2803	punct	V	PROPN	-	2804
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	2804	flat	Erling	PROPN	_	2801
+V	V	V	PROPN	-	2804	flat	Erling	PROPN	-	2801
 <g/>
 </name>
-)	)	)	PUNCT	_	2805	punct	V	PROPN	_	2804
-17	17	17	NUM	NumType=Card	2806	nummod	Anne-Mette	PROPN	_	2807
+)	)	)	PUNCT	-	2805	punct	V	PROPN	-	2804
+17	17	17	NUM	NumType=Card	2806	nummod	Anne-Mette	PROPN	-	2807
 <name type="PER">
-Anne-Mette	Anne-Mette	Anne-Mette	PROPN	_	2807	list	Erling	PROPN	_	2801
-Winther	Winther	Winther	PROPN	_	2808	flat	Anne-Mette	PROPN	_	2807
-Christiansen	Christiansen	Christiansen	PROPN	_	2809	flat	Anne-Mette	PROPN	_	2807
+Anne-Mette	Anne-Mette	Anne-Mette	PROPN	-	2807	list	Erling	PROPN	-	2801
+Winther	Winther	Winther	PROPN	-	2808	flat	Anne-Mette	PROPN	-	2807
+Christiansen	Christiansen	Christiansen	PROPN	-	2809	flat	Anne-Mette	PROPN	-	2807
 </name>
-(	(	(	PUNCT	_	2810	punct	V	PROPN	_	2811
+(	(	(	PUNCT	-	2810	punct	V	PROPN	-	2811
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	2811	flat	Anne-Mette	PROPN	_	2807
+V	V	V	PROPN	-	2811	flat	Anne-Mette	PROPN	-	2807
 <g/>
 </name>
-)	)	)	PUNCT	_	2812	punct	V	PROPN	_	2811
-18	18	18	NUM	NumType=Card	2813	nummod	Henrik	PROPN	_	2814
+)	)	)	PUNCT	-	2812	punct	V	PROPN	-	2811
+18	18	18	NUM	NumType=Card	2813	nummod	Henrik	PROPN	-	2814
 <name type="PER">
-Henrik	Henrik	Henrik	PROPN	_	2814	list	Anne-Mette	PROPN	_	2807
-Høegh	Høegh	Høegh	PROPN	_	2815	flat	Henrik	PROPN	_	2814
+Henrik	Henrik	Henrik	PROPN	-	2814	list	Anne-Mette	PROPN	-	2807
+Høegh	Høegh	Høegh	PROPN	-	2815	flat	Henrik	PROPN	-	2814
 </name>
-(	(	(	PUNCT	_	2816	punct	V	PROPN	_	2817
+(	(	(	PUNCT	-	2816	punct	V	PROPN	-	2817
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	2817	flat	Henrik	PROPN	_	2814
+V	V	V	PROPN	-	2817	flat	Henrik	PROPN	-	2814
 <g/>
 </name>
-)	)	)	PUNCT	_	2818	punct	V	PROPN	_	2817
-19	19	19	NUM	NumType=Card	2819	nummod	Esben	PROPN	_	2820
+)	)	)	PUNCT	-	2818	punct	V	PROPN	-	2817
+19	19	19	NUM	NumType=Card	2819	nummod	Esben	PROPN	-	2820
 <name type="PER">
-Esben	Esben	Esben	PROPN	_	2820	list	Henrik	PROPN	_	2814
-Lunde	Lunde	Lunde	PROPN	_	2821	flat	Esben	PROPN	_	2820
-Larsen	Larsen	Larsen	PROPN	_	2822	flat	Esben	PROPN	_	2820
+Esben	Esben	Esben	PROPN	-	2820	list	Henrik	PROPN	-	2814
+Lunde	Lunde	Lunde	PROPN	-	2821	flat	Esben	PROPN	-	2820
+Larsen	Larsen	Larsen	PROPN	-	2822	flat	Esben	PROPN	-	2820
 </name>
-(	(	(	PUNCT	_	2823	punct	V	PROPN	_	2824
+(	(	(	PUNCT	-	2823	punct	V	PROPN	-	2824
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	2824	flat	Esben	PROPN	_	2820
+V	V	V	PROPN	-	2824	flat	Esben	PROPN	-	2820
 <g/>
 </name>
-)	)	)	PUNCT	_	2825	punct	V	PROPN	_	2824
-20	20	20	NUM	NumType=Card	2826	nummod	Hans	PROPN	_	2827
+)	)	)	PUNCT	-	2825	punct	V	PROPN	-	2824
+20	20	20	NUM	NumType=Card	2826	nummod	Hans	PROPN	-	2827
 <name type="PER">
-Hans	Hans	Hans	PROPN	_	2827	list	Esben	PROPN	_	2820
-Christian	Christian	Christian	PROPN	_	2828	flat	Hans	PROPN	_	2827
-Schmidt	Schmidt	Schmidt	X	_	2829	flat	Hans	PROPN	_	2827
+Hans	Hans	Hans	PROPN	-	2827	list	Esben	PROPN	-	2820
+Christian	Christian	Christian	PROPN	-	2828	flat	Hans	PROPN	-	2827
+Schmidt	Schmidt	Schmidt	X	-	2829	flat	Hans	PROPN	-	2827
 </name>
-(	(	(	PUNCT	_	2830	punct	V	PROPN	_	2831
+(	(	(	PUNCT	-	2830	punct	V	PROPN	-	2831
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	2831	flat	Hans	PROPN	_	2827
+V	V	V	PROPN	-	2831	flat	Hans	PROPN	-	2827
 <g/>
 </name>
-)	)	)	PUNCT	_	2832	punct	V	PROPN	_	2831
-21	21	21	NUM	NumType=Card	2833	nummod	Anni	PROPN	_	2834
+)	)	)	PUNCT	-	2832	punct	V	PROPN	-	2831
+21	21	21	NUM	NumType=Card	2833	nummod	Anni	PROPN	-	2834
 <name type="PER">
-Anni	Anni	Anni	PROPN	_	2834	list	Hans	PROPN	_	2827
-Matthiesen	Matthiesen	Matthiesen	PROPN	_	2835	flat	Anni	PROPN	_	2834
+Anni	Anni	Anni	PROPN	-	2834	list	Hans	PROPN	-	2827
+Matthiesen	Matthiesen	Matthiesen	PROPN	-	2835	flat	Anni	PROPN	-	2834
 </name>
-(	(	(	PUNCT	_	2836	punct	V	PROPN	_	2837
+(	(	(	PUNCT	-	2836	punct	V	PROPN	-	2837
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	2837	flat	Anni	PROPN	_	2834
+V	V	V	PROPN	-	2837	flat	Anni	PROPN	-	2834
 <g/>
 </name>
-)	)	)	PUNCT	_	2838	punct	V	PROPN	_	2837
-22	22	22	NUM	NumType=Card	2839	nummod	Hans	PROPN	_	2840
+)	)	)	PUNCT	-	2838	punct	V	PROPN	-	2837
+22	22	22	NUM	NumType=Card	2839	nummod	Hans	PROPN	-	2840
 <name type="PER">
-Hans	Hans	Hans	PROPN	_	2840	list	Anni	PROPN	_	2834
-Christian	Christian	Christian	PROPN	_	2841	flat	Hans	PROPN	_	2840
-Thoning	Thoning	Thoning	PROPN	_	2842	flat	Hans	PROPN	_	2840
+Hans	Hans	Hans	PROPN	-	2840	list	Anni	PROPN	-	2834
+Christian	Christian	Christian	PROPN	-	2841	flat	Hans	PROPN	-	2840
+Thoning	Thoning	Thoning	PROPN	-	2842	flat	Hans	PROPN	-	2840
 </name>
-(	(	(	PUNCT	_	2843	punct	V	PROPN	_	2844
+(	(	(	PUNCT	-	2843	punct	V	PROPN	-	2844
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	2844	flat	Hans	PROPN	_	2840
+V	V	V	PROPN	-	2844	flat	Hans	PROPN	-	2840
 <g/>
 </name>
-)	)	)	PUNCT	_	2845	punct	V	PROPN	_	2844
-23	23	23	NUM	NumType=Card	2846	nummod	Eyvind	PROPN	_	2847
+)	)	)	PUNCT	-	2845	punct	V	PROPN	-	2844
+23	23	23	NUM	NumType=Card	2846	nummod	Eyvind	PROPN	-	2847
 <name type="PER">
-Eyvind	Eyvind	Eyvind	PROPN	_	2847	list	Hans	PROPN	_	2840
-Vesselbo	Vesselbo	Vesselbo	PROPN	_	2848	flat	Eyvind	PROPN	_	2847
+Eyvind	Eyvind	Eyvind	PROPN	-	2847	list	Hans	PROPN	-	2840
+Vesselbo	Vesselbo	Vesselbo	PROPN	-	2848	flat	Eyvind	PROPN	-	2847
 </name>
-(	(	(	PUNCT	_	2849	punct	V	PROPN	_	2850
+(	(	(	PUNCT	-	2849	punct	V	PROPN	-	2850
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	2850	flat	Eyvind	PROPN	_	2847
+V	V	V	PROPN	-	2850	flat	Eyvind	PROPN	-	2847
 <g/>
 </name>
-)	)	)	PUNCT	_	2851	punct	V	PROPN	_	2850
-24	24	24	NUM	NumType=Card	2852	nummod	Pia	PROPN	_	2853
+)	)	)	PUNCT	-	2851	punct	V	PROPN	-	2850
+24	24	24	NUM	NumType=Card	2852	nummod	Pia	PROPN	-	2853
 <name type="PER">
-Pia	Pia	Pia	PROPN	_	2853	list	Eyvind	PROPN	_	2847
-Adelsteen	Adelsteen	Adelsteen	PROPN	_	2854	flat	Pia	PROPN	_	2853
+Pia	Pia	Pia	PROPN	-	2853	list	Eyvind	PROPN	-	2847
+Adelsteen	Adelsteen	Adelsteen	PROPN	-	2854	flat	Pia	PROPN	-	2853
 </name>
-(	(	(	PUNCT	_	2855	punct	DF	PROPN	_	2856
+(	(	(	PUNCT	-	2855	punct	DF	PROPN	-	2856
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	2856	flat	Pia	PROPN	_	2853
+DF	DF	DF	PROPN	-	2856	flat	Pia	PROPN	-	2853
 <g/>
 </name>
-)	)	)	PUNCT	_	2857	punct	DF	PROPN	_	2856
-25	25	25	NUM	NumType=Card	2858	nummod	René	PROPN	_	2859
+)	)	)	PUNCT	-	2857	punct	DF	PROPN	-	2856
+25	25	25	NUM	NumType=Card	2858	nummod	René	PROPN	-	2859
 <name type="PER">
-René	René	René	PROPN	_	2859	list	Pia	PROPN	_	2853
-Christensen	Christensen	Christensen	PROPN	_	2860	flat	René	PROPN	_	2859
+René	René	René	PROPN	-	2859	list	Pia	PROPN	-	2853
+Christensen	Christensen	Christensen	PROPN	-	2860	flat	René	PROPN	-	2859
 </name>
-(	(	(	PUNCT	_	2861	punct	DF	PROPN	_	2862
+(	(	(	PUNCT	-	2861	punct	DF	PROPN	-	2862
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	2862	flat	René	PROPN	_	2859
+DF	DF	DF	PROPN	-	2862	flat	René	PROPN	-	2859
 <g/>
 </name>
-)	)	)	PUNCT	_	2863	punct	DF	PROPN	_	2862
-26	26	26	NUM	NumType=Card	2864	nummod	Mette	PROPN	_	2865
+)	)	)	PUNCT	-	2863	punct	DF	PROPN	-	2862
+26	26	26	NUM	NumType=Card	2864	nummod	Mette	PROPN	-	2865
 <name type="PER">
-Mette	Mette	Mette	PROPN	_	2865	list	René	PROPN	_	2859
-Hjermind	Hjermind	Hjermind	PROPN	_	2866	flat	Mette	PROPN	_	2865
-Dencker	Dencker	Dencker	PROPN	_	2867	flat	Mette	PROPN	_	2865
+Mette	Mette	Mette	PROPN	-	2865	list	René	PROPN	-	2859
+Hjermind	Hjermind	Hjermind	PROPN	-	2866	flat	Mette	PROPN	-	2865
+Dencker	Dencker	Dencker	PROPN	-	2867	flat	Mette	PROPN	-	2865
 </name>
-(	(	(	PUNCT	_	2868	punct	DF	PROPN	_	2869
+(	(	(	PUNCT	-	2868	punct	DF	PROPN	-	2869
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	2869	flat	Mette	PROPN	_	2865
+DF	DF	DF	PROPN	-	2869	flat	Mette	PROPN	-	2865
 <g/>
 </name>
-)	)	)	PUNCT	_	2870	punct	DF	PROPN	_	2869
-27	27	27	NUM	NumType=Card	2871	nummod	Hans	PROPN	_	2872
+)	)	)	PUNCT	-	2870	punct	DF	PROPN	-	2869
+27	27	27	NUM	NumType=Card	2871	nummod	Hans	PROPN	-	2872
 <name type="PER">
-Hans	Hans	Hans	PROPN	_	2872	list	Mette	PROPN	_	2865
-Kristian	Kristian	Kristian	PROPN	_	2873	flat	Hans	PROPN	_	2872
-Skibby	Skibby	Skibby	PROPN	_	2874	flat	Hans	PROPN	_	2872
+Hans	Hans	Hans	PROPN	-	2872	list	Mette	PROPN	-	2865
+Kristian	Kristian	Kristian	PROPN	-	2873	flat	Hans	PROPN	-	2872
+Skibby	Skibby	Skibby	PROPN	-	2874	flat	Hans	PROPN	-	2872
 </name>
-(	(	(	PUNCT	_	2875	punct	DF	PROPN	_	2876
+(	(	(	PUNCT	-	2875	punct	DF	PROPN	-	2876
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	2876	flat	Hans	PROPN	_	2872
+DF	DF	DF	PROPN	-	2876	flat	Hans	PROPN	-	2872
 <g/>
 </name>
-)	)	)	PUNCT	_	2877	punct	DF	PROPN	_	2876
-28	28	28	NUM	NumType=Card	2878	nummod	Villum	PROPN	_	2879
+)	)	)	PUNCT	-	2877	punct	DF	PROPN	-	2876
+28	28	28	NUM	NumType=Card	2878	nummod	Villum	PROPN	-	2879
 <name type="PER">
-Villum	Villum	Villum	PROPN	_	2879	list	Hans	PROPN	_	2872
-Christensen	Christensen	Christensen	PROPN	_	2880	flat	Villum	PROPN	_	2879
+Villum	Villum	Villum	PROPN	-	2879	list	Hans	PROPN	-	2872
+Christensen	Christensen	Christensen	PROPN	-	2880	flat	Villum	PROPN	-	2879
 </name>
-(	(	(	PUNCT	_	2881	punct	LA	PROPN	_	2882
+(	(	(	PUNCT	-	2881	punct	LA	PROPN	-	2882
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	2882	flat	Villum	PROPN	_	2879
+LA	LA	LA	PROPN	-	2882	flat	Villum	PROPN	-	2879
 <g/>
 </name>
-)	)	)	PUNCT	_	2883	punct	LA	PROPN	_	2882
-29	29	29	NUM	NumType=Card	2884	nummod	Charlotte	PROPN	_	2885
+)	)	)	PUNCT	-	2883	punct	LA	PROPN	-	2882
+29	29	29	NUM	NumType=Card	2884	nummod	Charlotte	PROPN	-	2885
 <name type="PER">
-Charlotte	Charlotte	Charlotte	PROPN	_	2885	list	Villum	PROPN	_	2879
-Dyremose	Dyremose	Dyremose	PROPN	_	2886	flat	Charlotte	PROPN	_	2885
+Charlotte	Charlotte	Charlotte	PROPN	-	2885	list	Villum	PROPN	-	2879
+Dyremose	Dyremose	Dyremose	PROPN	-	2886	flat	Charlotte	PROPN	-	2885
 </name>
-(	(	(	PUNCT	_	2887	punct	KF	PROPN	_	2888
+(	(	(	PUNCT	-	2887	punct	KF	PROPN	-	2888
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	2888	flat	Charlotte	PROPN	_	2885
+KF	KF	KF	PROPN	-	2888	flat	Charlotte	PROPN	-	2885
 <g/>
 </name>
-)	)	)	PUNCT	_	2889	punct	KF	PROPN	_	2888
-Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	2890	list	Charlotte	PROPN	_	2885
+)	)	)	PUNCT	-	2889	punct	KF	PROPN	-	2888
+Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	2890	list	Charlotte	PROPN	-	2885
 <g/>
-:	:	:	PUNCT	_	2891	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	2890
+:	:	:	PUNCT	-	2891	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	2890
 <name type="PER">
-Lone	Lone	Lone	PROPN	_	2892	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	2890
-Loklindt	Loklindt	Loklindt	PROPN	_	2893	flat	Lone	PROPN	_	2892
+Lone	Lone	Lone	PROPN	-	2892	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	2890
+Loklindt	Loklindt	Loklindt	PROPN	-	2893	flat	Lone	PROPN	-	2892
 </name>
-(	(	(	PUNCT	_	2894	punct	RV	PROPN	_	2895
+(	(	(	PUNCT	-	2894	punct	RV	PROPN	-	2895
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	2895	flat	Lone	PROPN	_	2892
+RV	RV	RV	PROPN	-	2895	flat	Lone	PROPN	-	2892
 <g/>
 </name>
-)	)	)	PUNCT	_	2896	punct	RV	PROPN	_	2895
-Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	2897	list	Lone	PROPN	_	2892
+)	)	)	PUNCT	-	2896	punct	RV	PROPN	-	2895
+Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	2897	list	Lone	PROPN	-	2892
 <g/>
-:	:	:	PUNCT	_	2898	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	2897
+:	:	:	PUNCT	-	2898	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	2897
 <name type="PER">
-Anni	Anni	Anni	PROPN	_	2899	appos	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	2897
-Matthiesen	Matthiesen	Matthiesen	PROPN	_	2900	flat	Anni	PROPN	_	2899
+Anni	Anni	Anni	PROPN	-	2899	appos	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	2897
+Matthiesen	Matthiesen	Matthiesen	PROPN	-	2900	flat	Anni	PROPN	-	2899
 </name>
-(	(	(	PUNCT	_	2901	punct	V	PROPN	_	2902
+(	(	(	PUNCT	-	2901	punct	V	PROPN	-	2902
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	2902	flat	Anni	PROPN	_	2899
+V	V	V	PROPN	-	2902	flat	Anni	PROPN	-	2899
 <g/>
 </name>
-)	)	)	PUNCT	_	2903	punct	V	PROPN	_	2902
-Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	2904	flat	Anni	PROPN	_	2899
+)	)	)	PUNCT	-	2903	punct	V	PROPN	-	2902
+Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	2904	flat	Anni	PROPN	-	2899
 af	af	af	ADP	AdpType=Prep	2905	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	2907
 29	29	29	NUM	NumType=Card	2906	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	2907
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	2907	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	2904
 til	til	til	ADP	AdpType=Prep	2908	case	retsudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	2909
 Retsudvalget	Retsudvalget	retsudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	2909	nmod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	2907
 <g/>
-:	:	:	PUNCT	_	2910	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	2897
+:	:	:	PUNCT	-	2910	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	2897
 Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	2911	list	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	2897
-blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	2912	cop	Trine	PROPN	_	2915
+blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	2912	cop	Trine	PROPN	-	2915
 <g/>
-:	:	:	PUNCT	_	2913	punct	Trine	PROPN	_	2915
-1	1	1	NUM	NumType=Card	2914	nummod	Trine	PROPN	_	2915
+:	:	:	PUNCT	-	2913	punct	Trine	PROPN	-	2915
+1	1	1	NUM	NumType=Card	2914	nummod	Trine	PROPN	-	2915
 <name type="PER">
-Trine	Trine	Trine	PROPN	_	2915	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	2911
-Bramsen	Bramsen	Bramsen	PROPN	_	2916	flat	Trine	PROPN	_	2915
+Trine	Trine	Trine	PROPN	-	2915	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	2911
+Bramsen	Bramsen	Bramsen	PROPN	-	2916	flat	Trine	PROPN	-	2915
 </name>
-(	(	(	PUNCT	_	2917	punct	S	PROPN	_	2918
+(	(	(	PUNCT	-	2917	punct	S	PROPN	-	2918
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	2918	flat	Trine	PROPN	_	2915
+S	S	S	PROPN	-	2918	flat	Trine	PROPN	-	2915
 <g/>
 </name>
-)	)	)	PUNCT	_	2919	punct	S	PROPN	_	2918
-2	2	2	NUM	NumType=Card	2920	nummod	Julie	PROPN	_	2921
+)	)	)	PUNCT	-	2919	punct	S	PROPN	-	2918
+2	2	2	NUM	NumType=Card	2920	nummod	Julie	PROPN	-	2921
 <name type="PER">
-Julie	Julie	Julie	PROPN	_	2921	list	Trine	PROPN	_	2915
-Skovsby	Skovsby	Skovsby	PROPN	_	2922	flat	Julie	PROPN	_	2921
+Julie	Julie	Julie	PROPN	-	2921	list	Trine	PROPN	-	2915
+Skovsby	Skovsby	Skovsby	PROPN	-	2922	flat	Julie	PROPN	-	2921
 </name>
-(	(	(	PUNCT	_	2923	punct	S	PROPN	_	2924
+(	(	(	PUNCT	-	2923	punct	S	PROPN	-	2924
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	2924	flat	Julie	PROPN	_	2921
+S	S	S	PROPN	-	2924	flat	Julie	PROPN	-	2921
 <g/>
 </name>
-)	)	)	PUNCT	_	2925	punct	S	PROPN	_	2924
-3	3	3	ADJ	NumType=Ord	2926	amod	Astrid	PROPN	_	2927
+)	)	)	PUNCT	-	2925	punct	S	PROPN	-	2924
+3	3	3	ADJ	NumType=Ord	2926	amod	Astrid	PROPN	-	2927
 <name type="PER">
-Astrid	Astrid	Astrid	PROPN	_	2927	list	Julie	PROPN	_	2921
-Krag	Krag	Krag	PROPN	_	2928	flat	Astrid	PROPN	_	2927
+Astrid	Astrid	Astrid	PROPN	-	2927	list	Julie	PROPN	-	2921
+Krag	Krag	Krag	PROPN	-	2928	flat	Astrid	PROPN	-	2927
 </name>
-(	(	(	PUNCT	_	2929	punct	S	PROPN	_	2930
+(	(	(	PUNCT	-	2929	punct	S	PROPN	-	2930
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	2930	flat	Astrid	PROPN	_	2927
+S	S	S	PROPN	-	2930	flat	Astrid	PROPN	-	2927
 <g/>
 </name>
-)	)	)	PUNCT	_	2931	punct	S	PROPN	_	2930
-4	4	4	NUM	NumType=Card	2932	nummod	Mette	PROPN	_	2933
+)	)	)	PUNCT	-	2931	punct	S	PROPN	-	2930
+4	4	4	NUM	NumType=Card	2932	nummod	Mette	PROPN	-	2933
 <name type="PER">
-Mette	Mette	Mette	PROPN	_	2933	list	Astrid	PROPN	_	2927
-Reissmann	Reissmann	Reissmann	PROPN	_	2934	flat	Mette	PROPN	_	2933
+Mette	Mette	Mette	PROPN	-	2933	list	Astrid	PROPN	-	2927
+Reissmann	Reissmann	Reissmann	PROPN	-	2934	flat	Mette	PROPN	-	2933
 </name>
-(	(	(	PUNCT	_	2935	punct	S	PROPN	_	2936
+(	(	(	PUNCT	-	2935	punct	S	PROPN	-	2936
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	2936	flat	Mette	PROPN	_	2933
+S	S	S	PROPN	-	2936	flat	Mette	PROPN	-	2933
 <g/>
 </name>
-)	)	)	PUNCT	_	2937	punct	S	PROPN	_	2936
+)	)	)	PUNCT	-	2937	punct	S	PROPN	-	2936
 5	5	5	NUM	NumType=Card	2938	nummod	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	2939
 <name type="PER">
-Jeppe	Jeppe	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	2939	list	Mette	PROPN	_	2933
-Bruus	Bruus	Bruus	PROPN	_	2940	nmod	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	2939
+Jeppe	Jeppe	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	2939	list	Mette	PROPN	-	2933
+Bruus	Bruus	Bruus	PROPN	-	2940	nmod	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	2939
 </name>
-(	(	(	PUNCT	_	2941	punct	S	PROPN	_	2942
+(	(	(	PUNCT	-	2941	punct	S	PROPN	-	2942
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	2942	list	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	2939
+S	S	S	PROPN	-	2942	list	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	2939
 <g/>
 </name>
-)	)	)	PUNCT	_	2943	punct	S	PROPN	_	2942
-6	6	6	NUM	NumType=Card	2944	nummod	Rasmus	PROPN	_	2945
+)	)	)	PUNCT	-	2943	punct	S	PROPN	-	2942
+6	6	6	NUM	NumType=Card	2944	nummod	Rasmus	PROPN	-	2945
 <name type="PER">
-Rasmus	Rasmus	Rasmus	PROPN	_	2945	list	S	PROPN	_	2942
-Prehn	Prehn	Prehn	PROPN	_	2946	flat	Rasmus	PROPN	_	2945
+Rasmus	Rasmus	Rasmus	PROPN	-	2945	list	S	PROPN	-	2942
+Prehn	Prehn	Prehn	PROPN	-	2946	flat	Rasmus	PROPN	-	2945
 </name>
-(	(	(	PUNCT	_	2947	punct	S	PROPN	_	2948
+(	(	(	PUNCT	-	2947	punct	S	PROPN	-	2948
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	2948	flat	Rasmus	PROPN	_	2945
+S	S	S	PROPN	-	2948	flat	Rasmus	PROPN	-	2945
 <g/>
 </name>
-)	)	)	PUNCT	_	2949	punct	S	PROPN	_	2948
+)	)	)	PUNCT	-	2949	punct	S	PROPN	-	2948
 7	7	7	NUM	NumType=Card	2950	nummod	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	2951
 <name type="PER">
-Jeppe	Jeppe	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	2951	list	S	PROPN	_	2948
-Mikkelsen	Mikkelsen	Mikkelsen	PROPN	_	2952	nmod	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	2951
+Jeppe	Jeppe	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	2951	list	S	PROPN	-	2948
+Mikkelsen	Mikkelsen	Mikkelsen	PROPN	-	2952	nmod	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	2951
 </name>
-(	(	(	PUNCT	_	2953	punct	RV	PROPN	_	2954
+(	(	(	PUNCT	-	2953	punct	RV	PROPN	-	2954
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	2954	appos	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	2951
+RV	RV	RV	PROPN	-	2954	appos	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	2951
 <g/>
 </name>
-)	)	)	PUNCT	_	2955	punct	RV	PROPN	_	2954
-8	8	8	NUM	NumType=Card	2956	nummod	Zenia	PROPN	_	2957
+)	)	)	PUNCT	-	2955	punct	RV	PROPN	-	2954
+8	8	8	NUM	NumType=Card	2956	nummod	Zenia	PROPN	-	2957
 <name type="PER">
-Zenia	Zenia	Zenia	PROPN	_	2957	list	RV	PROPN	_	2954
-Stampe	Stampe	Stampe	NOUN	Definite=Ind Gender=Com Number=Sing	2958	flat	Zenia	PROPN	_	2957
+Zenia	Zenia	Zenia	PROPN	-	2957	list	RV	PROPN	-	2954
+Stampe	Stampe	Stampe	NOUN	Definite=Ind Gender=Com Number=Sing	2958	flat	Zenia	PROPN	-	2957
 </name>
-(	(	(	PUNCT	_	2959	punct	RV	PROPN	_	2960
+(	(	(	PUNCT	-	2959	punct	RV	PROPN	-	2960
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	2960	flat	Zenia	PROPN	_	2957
+RV	RV	RV	PROPN	-	2960	flat	Zenia	PROPN	-	2957
 <g/>
 </name>
-)	)	)	PUNCT	_	2961	punct	RV	PROPN	_	2960
+)	)	)	PUNCT	-	2961	punct	RV	PROPN	-	2960
 9	9	9	NUM	NumType=Card	2962	nummod	Marl	NOUN	Definite=Def Gender=Com Number=Plur	2963
 <name type="PER">
-Marlene	Marlene	Marl	NOUN	Definite=Def Gender=Com Number=Plur	2963	list	Zenia	PROPN	_	2957
+Marlene	Marlene	Marl	NOUN	Definite=Def Gender=Com Number=Plur	2963	list	Zenia	PROPN	-	2957
 Borst	Borst	Borst	NOUN	Definite=Ind Gender=Com Number=Sing	2964	appos	Marl	NOUN	Definite=Def Gender=Com Number=Plur	2963
-Hansen	Hansen	Hansen	PROPN	_	2965	appos	Borst	NOUN	Definite=Ind Gender=Com Number=Sing	2964
+Hansen	Hansen	Hansen	PROPN	-	2965	appos	Borst	NOUN	Definite=Ind Gender=Com Number=Sing	2964
 </name>
-(	(	(	PUNCT	_	2966	punct	RV	PROPN	_	2967
+(	(	(	PUNCT	-	2966	punct	RV	PROPN	-	2967
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	2967	flat	Hansen	PROPN	_	2965
+RV	RV	RV	PROPN	-	2967	flat	Hansen	PROPN	-	2965
 <g/>
 </name>
-)	)	)	PUNCT	_	2968	punct	RV	PROPN	_	2967
-10	10	10	NUM	NumType=Card	2969	nummod	Karina	PROPN	_	2970
+)	)	)	PUNCT	-	2968	punct	RV	PROPN	-	2967
+10	10	10	NUM	NumType=Card	2969	nummod	Karina	PROPN	-	2970
 <name type="PER">
-Karina	Karina	Karina	PROPN	_	2970	list	Hansen	PROPN	_	2965
-Lorentzen	Lorentzen	Lorentzen	PROPN	_	2971	flat	Karina	PROPN	_	2970
-Dehnhardt	Dehnhardt	Dehnhardt	PROPN	_	2972	flat	Karina	PROPN	_	2970
+Karina	Karina	Karina	PROPN	-	2970	list	Hansen	PROPN	-	2965
+Lorentzen	Lorentzen	Lorentzen	PROPN	-	2971	flat	Karina	PROPN	-	2970
+Dehnhardt	Dehnhardt	Dehnhardt	PROPN	-	2972	flat	Karina	PROPN	-	2970
 </name>
-(	(	(	PUNCT	_	2973	punct	SF	PROPN	_	2974
+(	(	(	PUNCT	-	2973	punct	SF	PROPN	-	2974
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	2974	list	Karina	PROPN	_	2970
+SF	SF	SF	PROPN	-	2974	list	Karina	PROPN	-	2970
 <g/>
 </name>
-)	)	)	PUNCT	_	2975	punct	SF	PROPN	_	2974
-11	11	11	NUM	NumType=Card	2976	nummod	Pernille	PROPN	_	2977
+)	)	)	PUNCT	-	2975	punct	SF	PROPN	-	2974
+11	11	11	NUM	NumType=Card	2976	nummod	Pernille	PROPN	-	2977
 <name type="PER">
-Pernille	Pernille	Pernille	PROPN	_	2977	list	SF	PROPN	_	2974
-Vigsø	Vigsø	Vigsø	PROPN	_	2978	flat	Pernille	PROPN	_	2977
-Bagge	Bagge	Bagge	PROPN	_	2979	flat	Pernille	PROPN	_	2977
+Pernille	Pernille	Pernille	PROPN	-	2977	list	SF	PROPN	-	2974
+Vigsø	Vigsø	Vigsø	PROPN	-	2978	flat	Pernille	PROPN	-	2977
+Bagge	Bagge	Bagge	PROPN	-	2979	flat	Pernille	PROPN	-	2977
 </name>
-(	(	(	PUNCT	_	2980	punct	SF	PROPN	_	2981
+(	(	(	PUNCT	-	2980	punct	SF	PROPN	-	2981
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	2981	list	Pernille	PROPN	_	2977
+SF	SF	SF	PROPN	-	2981	list	Pernille	PROPN	-	2977
 <g/>
 </name>
-)	)	)	PUNCT	_	2982	punct	SF	PROPN	_	2981
-12	12	12	NUM	NumType=Card	2983	nummod	Pernille	PROPN	_	2984
+)	)	)	PUNCT	-	2982	punct	SF	PROPN	-	2981
+12	12	12	NUM	NumType=Card	2983	nummod	Pernille	PROPN	-	2984
 <name type="PER">
-Pernille	Pernille	Pernille	PROPN	_	2984	list	SF	PROPN	_	2981
-Skipper	Skipper	Skipper	PROPN	_	2985	flat	Pernille	PROPN	_	2984
+Pernille	Pernille	Pernille	PROPN	-	2984	list	SF	PROPN	-	2981
+Skipper	Skipper	Skipper	PROPN	-	2985	flat	Pernille	PROPN	-	2984
 </name>
-(	(	(	PUNCT	_	2986	punct	EL	PROPN	_	2987
+(	(	(	PUNCT	-	2986	punct	EL	PROPN	-	2987
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	2987	flat	Pernille	PROPN	_	2984
+EL	EL	EL	PROPN	-	2987	flat	Pernille	PROPN	-	2984
 <g/>
 </name>
-)	)	)	PUNCT	_	2988	punct	EL	PROPN	_	2987
-13	13	13	NUM	NumType=Card	2989	nummod	Johanne	PROPN	_	2990
+)	)	)	PUNCT	-	2988	punct	EL	PROPN	-	2987
+13	13	13	NUM	NumType=Card	2989	nummod	Johanne	PROPN	-	2990
 <name type="PER">
-Johanne	Johanne	Johanne	PROPN	_	2990	list	Pernille	PROPN	_	2984
-Schmidt-Nielsen	Schmidt-Nielsen	Schmidt-Nielsen	PROPN	_	2991	flat	Johanne	PROPN	_	2990
+Johanne	Johanne	Johanne	PROPN	-	2990	list	Pernille	PROPN	-	2984
+Schmidt-Nielsen	Schmidt-Nielsen	Schmidt-Nielsen	PROPN	-	2991	flat	Johanne	PROPN	-	2990
 </name>
-(	(	(	PUNCT	_	2992	punct	EL	PROPN	_	2993
+(	(	(	PUNCT	-	2992	punct	EL	PROPN	-	2993
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	2993	flat	Johanne	PROPN	_	2990
+EL	EL	EL	PROPN	-	2993	flat	Johanne	PROPN	-	2990
 <g/>
 </name>
-)	)	)	PUNCT	_	2994	punct	EL	PROPN	_	2993
-14	14	14	NUM	NumType=Card	2995	nummod	Henning	PROPN	_	2996
+)	)	)	PUNCT	-	2994	punct	EL	PROPN	-	2993
+14	14	14	NUM	NumType=Card	2995	nummod	Henning	PROPN	-	2996
 <name type="PER">
-Henning	Henning	Henning	PROPN	_	2996	list	Johanne	PROPN	_	2990
-Hyllested	Hyllested	Hyllested	PROPN	_	2997	flat	Henning	PROPN	_	2996
+Henning	Henning	Henning	PROPN	-	2996	list	Johanne	PROPN	-	2990
+Hyllested	Hyllested	Hyllested	PROPN	-	2997	flat	Henning	PROPN	-	2996
 </name>
-(	(	(	PUNCT	_	2998	punct	EL	PROPN	_	2999
+(	(	(	PUNCT	-	2998	punct	EL	PROPN	-	2999
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	2999	flat	Henning	PROPN	_	2996
+EL	EL	EL	PROPN	-	2999	flat	Henning	PROPN	-	2996
 <g/>
 </name>
-)	)	)	PUNCT	_	3000	punct	EL	PROPN	_	2999
-15	15	15	NUM	NumType=Card	3001	nummod	Doris	PROPN	_	3002
+)	)	)	PUNCT	-	3000	punct	EL	PROPN	-	2999
+15	15	15	NUM	NumType=Card	3001	nummod	Doris	PROPN	-	3002
 <name type="PER">
-Doris	Doris	Doris	PROPN	_	3002	list	Henning	PROPN	_	2996
-Jakobsen	Jakobsen	Jakobsen	PROPN	_	3003	flat	Doris	PROPN	_	3002
+Doris	Doris	Doris	PROPN	-	3002	list	Henning	PROPN	-	2996
+Jakobsen	Jakobsen	Jakobsen	PROPN	-	3003	flat	Doris	PROPN	-	3002
 </name>
-(	(	(	PUNCT	_	3004	punct	SIU	PROPN	_	3005
+(	(	(	PUNCT	-	3004	punct	SIU	PROPN	-	3005
 <g/>
 <name type="PER">
-SIU	SIU	SIU	PROPN	_	3005	list	Doris	PROPN	_	3002
+SIU	SIU	SIU	PROPN	-	3005	list	Doris	PROPN	-	3002
 <g/>
 </name>
-)	)	)	PUNCT	_	3006	punct	SIU	PROPN	_	3005
-16	16	16	NUM	NumType=Card	3007	nummod	Kim	PROPN	_	3008
+)	)	)	PUNCT	-	3006	punct	SIU	PROPN	-	3005
+16	16	16	NUM	NumType=Card	3007	nummod	Kim	PROPN	-	3008
 <name type="PER">
-Kim	Kim	Kim	PROPN	_	3008	list	SIU	PROPN	_	3005
-Andersen	Andersen	Andersen	PROPN	_	3009	flat	Kim	PROPN	_	3008
+Kim	Kim	Kim	PROPN	-	3008	list	SIU	PROPN	-	3005
+Andersen	Andersen	Andersen	PROPN	-	3009	flat	Kim	PROPN	-	3008
 </name>
-(	(	(	PUNCT	_	3010	punct	V	PROPN	_	3011
+(	(	(	PUNCT	-	3010	punct	V	PROPN	-	3011
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3011	flat	Kim	PROPN	_	3008
+V	V	V	PROPN	-	3011	flat	Kim	PROPN	-	3008
 <g/>
 </name>
-)	)	)	PUNCT	_	3012	punct	V	PROPN	_	3011
-17	17	17	NUM	NumType=Card	3013	nummod	Preben	PROPN	_	3014
+)	)	)	PUNCT	-	3012	punct	V	PROPN	-	3011
+17	17	17	NUM	NumType=Card	3013	nummod	Preben	PROPN	-	3014
 <name type="PER">
-Preben	Preben	Preben	PROPN	_	3014	list	Kim	PROPN	_	3008
-Bang	Bang	Bang	PROPN	_	3015	flat	Preben	PROPN	_	3014
-Henriksen	Henriksen	Henriksen	PROPN	_	3016	flat	Preben	PROPN	_	3014
+Preben	Preben	Preben	PROPN	-	3014	list	Kim	PROPN	-	3008
+Bang	Bang	Bang	PROPN	-	3015	flat	Preben	PROPN	-	3014
+Henriksen	Henriksen	Henriksen	PROPN	-	3016	flat	Preben	PROPN	-	3014
 </name>
-(	(	(	PUNCT	_	3017	punct	V	PROPN	_	3018
+(	(	(	PUNCT	-	3017	punct	V	PROPN	-	3018
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3018	flat	Preben	PROPN	_	3014
+V	V	V	PROPN	-	3018	flat	Preben	PROPN	-	3014
 <g/>
 </name>
-)	)	)	PUNCT	_	3019	punct	V	PROPN	_	3018
-18	18	18	NUM	NumType=Card	3020	nummod	Inger	PROPN	_	3021
+)	)	)	PUNCT	-	3019	punct	V	PROPN	-	3018
+18	18	18	NUM	NumType=Card	3020	nummod	Inger	PROPN	-	3021
 <name type="PER">
-Inger	Inger	Inger	PROPN	_	3021	list	Preben	PROPN	_	3014
-Støjberg	Støjberg	Støjberg	PROPN	_	3022	flat	Inger	PROPN	_	3021
+Inger	Inger	Inger	PROPN	-	3021	list	Preben	PROPN	-	3014
+Støjberg	Støjberg	Støjberg	PROPN	-	3022	flat	Inger	PROPN	-	3021
 </name>
-(	(	(	PUNCT	_	3023	punct	V	PROPN	_	3024
+(	(	(	PUNCT	-	3023	punct	V	PROPN	-	3024
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3024	flat	Inger	PROPN	_	3021
+V	V	V	PROPN	-	3024	flat	Inger	PROPN	-	3021
 <g/>
 </name>
-)	)	)	PUNCT	_	3025	punct	V	PROPN	_	3024
-19	19	19	NUM	NumType=Card	3026	nummod	Søren	PROPN	_	3027
+)	)	)	PUNCT	-	3025	punct	V	PROPN	-	3024
+19	19	19	NUM	NumType=Card	3026	nummod	Søren	PROPN	-	3027
 <name type="PER">
-Søren	Søren	Søren	PROPN	_	3027	list	Inger	PROPN	_	3021
-Pind	Pind	Pind	PROPN	_	3028	flat	Søren	PROPN	_	3027
+Søren	Søren	Søren	PROPN	-	3027	list	Inger	PROPN	-	3021
+Pind	Pind	Pind	PROPN	-	3028	flat	Søren	PROPN	-	3027
 </name>
-(	(	(	PUNCT	_	3029	punct	V	PROPN	_	3030
+(	(	(	PUNCT	-	3029	punct	V	PROPN	-	3030
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3030	flat	Søren	PROPN	_	3027
+V	V	V	PROPN	-	3030	flat	Søren	PROPN	-	3027
 <g/>
 </name>
-)	)	)	PUNCT	_	3031	punct	V	PROPN	_	3030
-20	20	20	NUM	NumType=Card	3032	nummod	Jan	PROPN	_	3033
+)	)	)	PUNCT	-	3031	punct	V	PROPN	-	3030
+20	20	20	NUM	NumType=Card	3032	nummod	Jan	PROPN	-	3033
 <name type="PER">
-Jan	Jan	Jan	PROPN	_	3033	list	Søren	PROPN	_	3027
-E.	E.	E.	PROPN	_	3034	flat	Jan	PROPN	_	3033
-Jørgensen	Jørgensen	Jørgensen	PROPN	_	3035	flat	Jan	PROPN	_	3033
+Jan	Jan	Jan	PROPN	-	3033	list	Søren	PROPN	-	3027
+E.	E.	E.	PROPN	-	3034	flat	Jan	PROPN	-	3033
+Jørgensen	Jørgensen	Jørgensen	PROPN	-	3035	flat	Jan	PROPN	-	3033
 </name>
-(	(	(	PUNCT	_	3036	punct	V	PROPN	_	3037
+(	(	(	PUNCT	-	3036	punct	V	PROPN	-	3037
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3037	flat	Jan	PROPN	_	3033
+V	V	V	PROPN	-	3037	flat	Jan	PROPN	-	3033
 <g/>
 </name>
-)	)	)	PUNCT	_	3038	punct	V	PROPN	_	3037
-21	21	21	NUM	NumType=Card	3039	nummod	Karsten	PROPN	_	3040
+)	)	)	PUNCT	-	3038	punct	V	PROPN	-	3037
+21	21	21	NUM	NumType=Card	3039	nummod	Karsten	PROPN	-	3040
 <name type="PER">
-Karsten	Karsten	Karsten	PROPN	_	3040	list	Jan	PROPN	_	3033
-Lauritzen	Lauritzen	Lauritzen	PROPN	_	3041	flat	Karsten	PROPN	_	3040
+Karsten	Karsten	Karsten	PROPN	-	3040	list	Jan	PROPN	-	3033
+Lauritzen	Lauritzen	Lauritzen	PROPN	-	3041	flat	Karsten	PROPN	-	3040
 </name>
-(	(	(	PUNCT	_	3042	punct	V	PROPN	_	3043
+(	(	(	PUNCT	-	3042	punct	V	PROPN	-	3043
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3043	flat	Karsten	PROPN	_	3040
+V	V	V	PROPN	-	3043	flat	Karsten	PROPN	-	3040
 <g/>
 </name>
-)	)	)	PUNCT	_	3044	punct	V	PROPN	_	3043
-22	22	22	NUM	NumType=Card	3045	nummod	Kristian	PROPN	_	3046
+)	)	)	PUNCT	-	3044	punct	V	PROPN	-	3043
+22	22	22	NUM	NumType=Card	3045	nummod	Kristian	PROPN	-	3046
 <name type="PER">
-Kristian	Kristian	Kristian	PROPN	_	3046	list	Karsten	PROPN	_	3040
-Pihl	Pihl	Pihl	PROPN	_	3047	flat	Kristian	PROPN	_	3046
-Lorentzen	Lorentzen	Lorentzen	PROPN	_	3048	flat	Kristian	PROPN	_	3046
+Kristian	Kristian	Kristian	PROPN	-	3046	list	Karsten	PROPN	-	3040
+Pihl	Pihl	Pihl	PROPN	-	3047	flat	Kristian	PROPN	-	3046
+Lorentzen	Lorentzen	Lorentzen	PROPN	-	3048	flat	Kristian	PROPN	-	3046
 </name>
-(	(	(	PUNCT	_	3049	punct	V	PROPN	_	3050
+(	(	(	PUNCT	-	3049	punct	V	PROPN	-	3050
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3050	flat	Kristian	PROPN	_	3046
+V	V	V	PROPN	-	3050	flat	Kristian	PROPN	-	3046
 <g/>
 </name>
-)	)	)	PUNCT	_	3051	punct	V	PROPN	_	3050
-23	23	23	NUM	NumType=Card	3052	nummod	Karsten	PROPN	_	3053
+)	)	)	PUNCT	-	3051	punct	V	PROPN	-	3050
+23	23	23	NUM	NumType=Card	3052	nummod	Karsten	PROPN	-	3053
 <name type="PER">
-Karsten	Karsten	Karsten	PROPN	_	3053	list	Kristian	PROPN	_	3046
-Nonbo	Nonbo	Nonbo	PROPN	_	3054	flat	Karsten	PROPN	_	3053
+Karsten	Karsten	Karsten	PROPN	-	3053	list	Kristian	PROPN	-	3046
+Nonbo	Nonbo	Nonbo	PROPN	-	3054	flat	Karsten	PROPN	-	3053
 </name>
-(	(	(	PUNCT	_	3055	punct	V	PROPN	_	3056
+(	(	(	PUNCT	-	3055	punct	V	PROPN	-	3056
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3056	flat	Karsten	PROPN	_	3053
+V	V	V	PROPN	-	3056	flat	Karsten	PROPN	-	3053
 <g/>
 </name>
-)	)	)	PUNCT	_	3057	punct	V	PROPN	_	3056
-24	24	24	NUM	NumType=Card	3058	nummod	Peter	PROPN	_	3059
+)	)	)	PUNCT	-	3057	punct	V	PROPN	-	3056
+24	24	24	NUM	NumType=Card	3058	nummod	Peter	PROPN	-	3059
 <name type="PER">
-Peter	Peter	Peter	PROPN	_	3059	list	Karsten	PROPN	_	3053
-Skaarup	Skaarup	Skaarup	PROPN	_	3060	flat	Peter	PROPN	_	3059
+Peter	Peter	Peter	PROPN	-	3059	list	Karsten	PROPN	-	3053
+Skaarup	Skaarup	Skaarup	PROPN	-	3060	flat	Peter	PROPN	-	3059
 </name>
-(	(	(	PUNCT	_	3061	punct	DF	PROPN	_	3062
+(	(	(	PUNCT	-	3061	punct	DF	PROPN	-	3062
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	3062	flat	Peter	PROPN	_	3059
+DF	DF	DF	PROPN	-	3062	flat	Peter	PROPN	-	3059
 <g/>
 </name>
-)	)	)	PUNCT	_	3063	punct	DF	PROPN	_	3062
-25	25	25	NUM	NumType=Card	3064	nummod	Dennis	PROPN	_	3065
+)	)	)	PUNCT	-	3063	punct	DF	PROPN	-	3062
+25	25	25	NUM	NumType=Card	3064	nummod	Dennis	PROPN	-	3065
 <name type="PER">
-Dennis	Dennis	Dennis	PROPN	_	3065	list	Peter	PROPN	_	3059
-Flydtkjær	Flydtkjær	Flydtkjær	PROPN	_	3066	flat	Dennis	PROPN	_	3065
+Dennis	Dennis	Dennis	PROPN	-	3065	list	Peter	PROPN	-	3059
+Flydtkjær	Flydtkjær	Flydtkjær	PROPN	-	3066	flat	Dennis	PROPN	-	3065
 </name>
-(	(	(	PUNCT	_	3067	punct	DF	PROPN	_	3068
+(	(	(	PUNCT	-	3067	punct	DF	PROPN	-	3068
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	3068	flat	Dennis	PROPN	_	3065
+DF	DF	DF	PROPN	-	3068	flat	Dennis	PROPN	-	3065
 <g/>
 </name>
-)	)	)	PUNCT	_	3069	punct	DF	PROPN	_	3068
-26	26	26	NUM	NumType=Card	3070	nummod	Pia	PROPN	_	3071
+)	)	)	PUNCT	-	3069	punct	DF	PROPN	-	3068
+26	26	26	NUM	NumType=Card	3070	nummod	Pia	PROPN	-	3071
 <name type="PER">
-Pia	Pia	Pia	PROPN	_	3071	list	Dennis	PROPN	_	3065
-Adelsteen	Adelsteen	Adelsteen	PROPN	_	3072	flat	Pia	PROPN	_	3071
+Pia	Pia	Pia	PROPN	-	3071	list	Dennis	PROPN	-	3065
+Adelsteen	Adelsteen	Adelsteen	PROPN	-	3072	flat	Pia	PROPN	-	3071
 </name>
-(	(	(	PUNCT	_	3073	punct	DF	PROPN	_	3074
+(	(	(	PUNCT	-	3073	punct	DF	PROPN	-	3074
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	3074	flat	Pia	PROPN	_	3071
+DF	DF	DF	PROPN	-	3074	flat	Pia	PROPN	-	3071
 <g/>
 </name>
-)	)	)	PUNCT	_	3075	punct	DF	PROPN	_	3074
-27	27	27	NUM	NumType=Card	3076	nummod	Kim	PROPN	_	3077
+)	)	)	PUNCT	-	3075	punct	DF	PROPN	-	3074
+27	27	27	NUM	NumType=Card	3076	nummod	Kim	PROPN	-	3077
 <name type="PER">
-Kim	Kim	Kim	PROPN	_	3077	list	Pia	PROPN	_	3071
-Christiansen	Christiansen	Christiansen	PROPN	_	3078	flat	Kim	PROPN	_	3077
+Kim	Kim	Kim	PROPN	-	3077	list	Pia	PROPN	-	3071
+Christiansen	Christiansen	Christiansen	PROPN	-	3078	flat	Kim	PROPN	-	3077
 </name>
-(	(	(	PUNCT	_	3079	punct	DF	PROPN	_	3080
+(	(	(	PUNCT	-	3079	punct	DF	PROPN	-	3080
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	3080	flat	Kim	PROPN	_	3077
+DF	DF	DF	PROPN	-	3080	flat	Kim	PROPN	-	3077
 <g/>
 </name>
-)	)	)	PUNCT	_	3081	punct	DF	PROPN	_	3080
-28	28	28	NUM	NumType=Card	3082	nummod	Simon	PROPN	_	3083
+)	)	)	PUNCT	-	3081	punct	DF	PROPN	-	3080
+28	28	28	NUM	NumType=Card	3082	nummod	Simon	PROPN	-	3083
 <name type="PER">
-Simon	Simon	Simon	PROPN	_	3083	list	Kim	PROPN	_	3077
-Emil	Emil	Emil	PROPN	_	3084	flat	Simon	PROPN	_	3083
-Ammitzbøll	Ammitzbøll	Ammitzbøll	PROPN	_	3085	flat	Simon	PROPN	_	3083
+Simon	Simon	Simon	PROPN	-	3083	list	Kim	PROPN	-	3077
+Emil	Emil	Emil	PROPN	-	3084	flat	Simon	PROPN	-	3083
+Ammitzbøll	Ammitzbøll	Ammitzbøll	PROPN	-	3085	flat	Simon	PROPN	-	3083
 </name>
-(	(	(	PUNCT	_	3086	punct	LA	PROPN	_	3087
+(	(	(	PUNCT	-	3086	punct	LA	PROPN	-	3087
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	3087	flat	Simon	PROPN	_	3083
+LA	LA	LA	PROPN	-	3087	flat	Simon	PROPN	-	3083
 <g/>
 </name>
-)	)	)	PUNCT	_	3088	punct	LA	PROPN	_	3087
-29	29	29	NUM	NumType=Card	3089	nummod	Tom	PROPN	_	3090
+)	)	)	PUNCT	-	3088	punct	LA	PROPN	-	3087
+29	29	29	NUM	NumType=Card	3089	nummod	Tom	PROPN	-	3090
 <name type="PER">
-Tom	Tom	Tom	PROPN	_	3090	list	Simon	PROPN	_	3083
-Behnke	Behnke	Behnke	PROPN	_	3091	flat	Tom	PROPN	_	3090
+Tom	Tom	Tom	PROPN	-	3090	list	Simon	PROPN	-	3083
+Behnke	Behnke	Behnke	PROPN	-	3091	flat	Tom	PROPN	-	3090
 </name>
-(	(	(	PUNCT	_	3092	punct	KF	PROPN	_	3093
+(	(	(	PUNCT	-	3092	punct	KF	PROPN	-	3093
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	3093	flat	Tom	PROPN	_	3090
+KF	KF	KF	PROPN	-	3093	flat	Tom	PROPN	-	3090
 <g/>
 </name>
-)	)	)	PUNCT	_	3094	punct	KF	PROPN	_	3093
-Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	3095	list	Tom	PROPN	_	3090
+)	)	)	PUNCT	-	3094	punct	KF	PROPN	-	3093
+Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	3095	list	Tom	PROPN	-	3090
 <g/>
-:	:	:	PUNCT	_	3096	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	3095
+:	:	:	PUNCT	-	3096	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	3095
 <name type="PER">
-Karina	Karina	Karina	PROPN	_	3097	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	3095
-Lorentzen	Lorentzen	Lorentzen	PROPN	_	3098	flat	Karina	PROPN	_	3097
-Dehnhardt	Dehnhardt	Dehnhardt	PROPN	_	3099	flat	Karina	PROPN	_	3097
+Karina	Karina	Karina	PROPN	-	3097	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	3095
+Lorentzen	Lorentzen	Lorentzen	PROPN	-	3098	flat	Karina	PROPN	-	3097
+Dehnhardt	Dehnhardt	Dehnhardt	PROPN	-	3099	flat	Karina	PROPN	-	3097
 </name>
-(	(	(	PUNCT	_	3100	punct	SF	PROPN	_	3101
+(	(	(	PUNCT	-	3100	punct	SF	PROPN	-	3101
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	3101	appos	Karina	PROPN	_	3097
+SF	SF	SF	PROPN	-	3101	appos	Karina	PROPN	-	3097
 <g/>
 </name>
-)	)	)	PUNCT	_	3102	punct	SF	PROPN	_	3101
-Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	3103	flat	SF	PROPN	_	3101
+)	)	)	PUNCT	-	3102	punct	SF	PROPN	-	3101
+Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	3103	flat	SF	PROPN	-	3101
 <g/>
-:	:	:	PUNCT	_	3104	punct	SF	PROPN	_	3101
+:	:	:	PUNCT	-	3104	punct	SF	PROPN	-	3101
 <name type="PER">
-Tom	Tom	Tom	PROPN	_	3105	flat	SF	PROPN	_	3101
-Behnke	Behnke	Behnke	PROPN	_	3106	flat	Tom	PROPN	_	3105
+Tom	Tom	Tom	PROPN	-	3105	flat	SF	PROPN	-	3101
+Behnke	Behnke	Behnke	PROPN	-	3106	flat	Tom	PROPN	-	3105
 </name>
-(	(	(	PUNCT	_	3107	punct	SF	PROPN	_	3101
+(	(	(	PUNCT	-	3107	punct	SF	PROPN	-	3101
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	3108	flat	SF	PROPN	_	3101
+KF	KF	KF	PROPN	-	3108	flat	SF	PROPN	-	3101
 <g/>
 </name>
-)	)	)	PUNCT	_	3109	punct	SF	PROPN	_	3101
-Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	3110	list	Karina	PROPN	_	3097
+)	)	)	PUNCT	-	3109	punct	SF	PROPN	-	3101
+Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	3110	list	Karina	PROPN	-	3097
 af	af	af	ADP	AdpType=Prep	3111	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	3113
 29	29	29	NUM	NumType=Card	3112	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	3113
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	3113	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	3110
 til	til	til	ADP	AdpType=Prep	3114	case	skatteudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	3115
 Skatteudvalget	Skatteudvalget	skatteudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	3115	nmod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	3113
 <g/>
-:	:	:	PUNCT	_	3116	punct	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	3110
+:	:	:	PUNCT	-	3116	punct	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	3110
 Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3117	amod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	3110
-blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	3118	cop	Ane	PROPN	_	3121
+blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	3118	cop	Ane	PROPN	-	3121
 <g/>
-:	:	:	PUNCT	_	3119	punct	Ane	PROPN	_	3121
-1	1	1	NUM	NumType=Card	3120	nummod	Ane	PROPN	_	3121
+:	:	:	PUNCT	-	3119	punct	Ane	PROPN	-	3121
+1	1	1	NUM	NumType=Card	3120	nummod	Ane	PROPN	-	3121
 <name type="PER">
-Ane	Ane	Ane	PROPN	_	3121	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3117
-Halsboe-Jørgensen	Halsboe-Jørgensen	Halsboe-Jørgensen	PROPN	_	3122	flat	Ane	PROPN	_	3121
+Ane	Ane	Ane	PROPN	-	3121	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3117
+Halsboe-Jørgensen	Halsboe-Jørgensen	Halsboe-Jørgensen	PROPN	-	3122	flat	Ane	PROPN	-	3121
 </name>
-(	(	(	PUNCT	_	3123	punct	S	PROPN	_	3124
+(	(	(	PUNCT	-	3123	punct	S	PROPN	-	3124
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	3124	flat	Ane	PROPN	_	3121
+S	S	S	PROPN	-	3124	flat	Ane	PROPN	-	3121
 <g/>
 </name>
-)	)	)	PUNCT	_	3125	punct	S	PROPN	_	3124
-2	2	2	NUM	NumType=Card	3126	nummod	Astrid	PROPN	_	3127
+)	)	)	PUNCT	-	3125	punct	S	PROPN	-	3124
+2	2	2	NUM	NumType=Card	3126	nummod	Astrid	PROPN	-	3127
 <name type="PER">
-Astrid	Astrid	Astrid	PROPN	_	3127	list	Ane	PROPN	_	3121
-Krag	Krag	Krag	PROPN	_	3128	flat	Astrid	PROPN	_	3127
+Astrid	Astrid	Astrid	PROPN	-	3127	list	Ane	PROPN	-	3121
+Krag	Krag	Krag	PROPN	-	3128	flat	Astrid	PROPN	-	3127
 </name>
-(	(	(	PUNCT	_	3129	punct	S	PROPN	_	3130
+(	(	(	PUNCT	-	3129	punct	S	PROPN	-	3130
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	3130	flat	Astrid	PROPN	_	3127
+S	S	S	PROPN	-	3130	flat	Astrid	PROPN	-	3127
 <g/>
 </name>
-)	)	)	PUNCT	_	3131	punct	S	PROPN	_	3130
-3	3	3	NUM	NumType=Card	3132	nummod	Pernille	PROPN	_	3133
+)	)	)	PUNCT	-	3131	punct	S	PROPN	-	3130
+3	3	3	NUM	NumType=Card	3132	nummod	Pernille	PROPN	-	3133
 <name type="PER">
-Pernille	Pernille	Pernille	PROPN	_	3133	list	Astrid	PROPN	_	3127
-Rosenkrantz-Theil	Rosenkrantz-Theil	Rosenkrantz-Theil	PROPN	_	3134	flat	Pernille	PROPN	_	3133
+Pernille	Pernille	Pernille	PROPN	-	3133	list	Astrid	PROPN	-	3127
+Rosenkrantz-Theil	Rosenkrantz-Theil	Rosenkrantz-Theil	PROPN	-	3134	flat	Pernille	PROPN	-	3133
 </name>
-(	(	(	PUNCT	_	3135	punct	S	PROPN	_	3136
+(	(	(	PUNCT	-	3135	punct	S	PROPN	-	3136
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	3136	list	Pernille	PROPN	_	3133
+S	S	S	PROPN	-	3136	list	Pernille	PROPN	-	3133
 <g/>
 </name>
-)	)	)	PUNCT	_	3137	punct	S	PROPN	_	3136
-4	4	4	NUM	NumType=Card	3138	nummod	John	PROPN	_	3139
+)	)	)	PUNCT	-	3137	punct	S	PROPN	-	3136
+4	4	4	NUM	NumType=Card	3138	nummod	John	PROPN	-	3139
 <name type="PER">
-John	John	John	PROPN	_	3139	list	S	PROPN	_	3136
-Dyrby	Dyrby	Dyrby	PROPN	_	3140	flat	John	PROPN	_	3139
-Paulsen	Paulsen	Paulsen	PROPN	_	3141	flat	John	PROPN	_	3139
+John	John	John	PROPN	-	3139	list	S	PROPN	-	3136
+Dyrby	Dyrby	Dyrby	PROPN	-	3140	flat	John	PROPN	-	3139
+Paulsen	Paulsen	Paulsen	PROPN	-	3141	flat	John	PROPN	-	3139
 </name>
-(	(	(	PUNCT	_	3142	punct	S	PROPN	_	3143
+(	(	(	PUNCT	-	3142	punct	S	PROPN	-	3143
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	3143	flat	John	PROPN	_	3139
+S	S	S	PROPN	-	3143	flat	John	PROPN	-	3139
 <g/>
 </name>
-)	)	)	PUNCT	_	3144	punct	S	PROPN	_	3143
-5	5	5	NUM	NumType=Card	3145	nummod	Jesper	PROPN	_	3146
+)	)	)	PUNCT	-	3144	punct	S	PROPN	-	3143
+5	5	5	NUM	NumType=Card	3145	nummod	Jesper	PROPN	-	3146
 <name type="PER">
-Jesper	Jesper	Jesper	PROPN	_	3146	list	John	PROPN	_	3139
-Petersen	Petersen	Petersen	PROPN	_	3147	flat	Jesper	PROPN	_	3146
+Jesper	Jesper	Jesper	PROPN	-	3146	list	John	PROPN	-	3139
+Petersen	Petersen	Petersen	PROPN	-	3147	flat	Jesper	PROPN	-	3146
 </name>
-(	(	(	PUNCT	_	3148	punct	S	PROPN	_	3149
+(	(	(	PUNCT	-	3148	punct	S	PROPN	-	3149
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	3149	flat	Jesper	PROPN	_	3146
+S	S	S	PROPN	-	3149	flat	Jesper	PROPN	-	3146
 <g/>
 </name>
-)	)	)	PUNCT	_	3150	punct	S	PROPN	_	3149
-6	6	6	NUM	NumType=Card	3151	nummod	Simon	PROPN	_	3152
+)	)	)	PUNCT	-	3150	punct	S	PROPN	-	3149
+6	6	6	NUM	NumType=Card	3151	nummod	Simon	PROPN	-	3152
 <name type="PER">
-Simon	Simon	Simon	PROPN	_	3152	list	Jesper	PROPN	_	3146
-Kollerup	Kollerup	Kollerup	PROPN	_	3153	flat	Simon	PROPN	_	3152
+Simon	Simon	Simon	PROPN	-	3152	list	Jesper	PROPN	-	3146
+Kollerup	Kollerup	Kollerup	PROPN	-	3153	flat	Simon	PROPN	-	3152
 </name>
-(	(	(	PUNCT	_	3154	punct	S	PROPN	_	3155
+(	(	(	PUNCT	-	3154	punct	S	PROPN	-	3155
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	3155	flat	Simon	PROPN	_	3152
+S	S	S	PROPN	-	3155	flat	Simon	PROPN	-	3152
 <g/>
 </name>
-)	)	)	PUNCT	_	3156	punct	S	PROPN	_	3155
-7	7	7	NUM	NumType=Card	3157	nummod	Thomas	PROPN	_	3158
+)	)	)	PUNCT	-	3156	punct	S	PROPN	-	3155
+7	7	7	NUM	NumType=Card	3157	nummod	Thomas	PROPN	-	3158
 <name type="PER">
-Thomas	Thomas	Thomas	PROPN	_	3158	list	S	PROPN	_	3155
-Jensen	Jensen	Jensen	PROPN	_	3159	flat	Thomas	PROPN	_	3158
+Thomas	Thomas	Thomas	PROPN	-	3158	list	S	PROPN	-	3155
+Jensen	Jensen	Jensen	PROPN	-	3159	flat	Thomas	PROPN	-	3158
 </name>
-(	(	(	PUNCT	_	3160	punct	S	PROPN	_	3161
+(	(	(	PUNCT	-	3160	punct	S	PROPN	-	3161
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	3161	flat	Thomas	PROPN	_	3158
+S	S	S	PROPN	-	3161	flat	Thomas	PROPN	-	3158
 <g/>
 </name>
-)	)	)	PUNCT	_	3162	punct	S	PROPN	_	3161
-8	8	8	NUM	NumType=Card	3163	nummod	Nadeem	PROPN	_	3164
+)	)	)	PUNCT	-	3162	punct	S	PROPN	-	3161
+8	8	8	NUM	NumType=Card	3163	nummod	Nadeem	PROPN	-	3164
 <name type="PER">
-Nadeem	Nadeem	Nadeem	PROPN	_	3164	list	Thomas	PROPN	_	3158
-Farooq	Farooq	Farooq	NOUN	Definite=Ind Gender=Com Number=Sing	3165	flat	Nadeem	PROPN	_	3164
+Nadeem	Nadeem	Nadeem	PROPN	-	3164	list	Thomas	PROPN	-	3158
+Farooq	Farooq	Farooq	NOUN	Definite=Ind Gender=Com Number=Sing	3165	flat	Nadeem	PROPN	-	3164
 </name>
-(	(	(	PUNCT	_	3166	punct	RV	PROPN	_	3167
+(	(	(	PUNCT	-	3166	punct	RV	PROPN	-	3167
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	3167	flat	Nadeem	PROPN	_	3164
+RV	RV	RV	PROPN	-	3167	flat	Nadeem	PROPN	-	3164
 <g/>
 </name>
-)	)	)	PUNCT	_	3168	punct	RV	PROPN	_	3167
-9	9	9	NUM	NumType=Card	3169	nummod	Camilla	PROPN	_	3170
+)	)	)	PUNCT	-	3168	punct	RV	PROPN	-	3167
+9	9	9	NUM	NumType=Card	3169	nummod	Camilla	PROPN	-	3170
 <name type="PER">
-Camilla	Camilla	Camilla	PROPN	_	3170	list	Nadeem	PROPN	_	3164
-Hersom	Hersom	Hersom	PROPN	_	3171	flat	Camilla	PROPN	_	3170
+Camilla	Camilla	Camilla	PROPN	-	3170	list	Nadeem	PROPN	-	3164
+Hersom	Hersom	Hersom	PROPN	-	3171	flat	Camilla	PROPN	-	3170
 </name>
-(	(	(	PUNCT	_	3172	punct	RV	PROPN	_	3173
+(	(	(	PUNCT	-	3172	punct	RV	PROPN	-	3173
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	3173	flat	Camilla	PROPN	_	3170
+RV	RV	RV	PROPN	-	3173	flat	Camilla	PROPN	-	3170
 <g/>
 </name>
-)	)	)	PUNCT	_	3174	punct	RV	PROPN	_	3173
-10	10	10	NUM	NumType=Card	3175	nummod	Andreas	PROPN	_	3176
+)	)	)	PUNCT	-	3174	punct	RV	PROPN	-	3173
+10	10	10	NUM	NumType=Card	3175	nummod	Andreas	PROPN	-	3176
 <name type="PER">
-Andreas	Andreas	Andreas	PROPN	_	3176	list	Camilla	PROPN	_	3170
-Steenberg	Steenberg	Steenberg	PROPN	_	3177	flat	Andreas	PROPN	_	3176
+Andreas	Andreas	Andreas	PROPN	-	3176	list	Camilla	PROPN	-	3170
+Steenberg	Steenberg	Steenberg	PROPN	-	3177	flat	Andreas	PROPN	-	3176
 </name>
-(	(	(	PUNCT	_	3178	punct	RV	PROPN	_	3179
+(	(	(	PUNCT	-	3178	punct	RV	PROPN	-	3179
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	3179	flat	Andreas	PROPN	_	3176
+RV	RV	RV	PROPN	-	3179	flat	Andreas	PROPN	-	3176
 <g/>
 </name>
-)	)	)	PUNCT	_	3180	punct	RV	PROPN	_	3179
-11	11	11	NUM	NumType=Card	3181	nummod	Lisbeth	PROPN	_	3182
+)	)	)	PUNCT	-	3180	punct	RV	PROPN	-	3179
+11	11	11	NUM	NumType=Card	3181	nummod	Lisbeth	PROPN	-	3182
 <name type="PER">
-Lisbeth	Lisbeth	Lisbeth	PROPN	_	3182	list	Andreas	PROPN	_	3176
-Bech	Bech	Bech	PROPN	_	3183	flat	Lisbeth	PROPN	_	3182
-Poulsen	Poulsen	Poulsen	PROPN	_	3184	flat	Lisbeth	PROPN	_	3182
+Lisbeth	Lisbeth	Lisbeth	PROPN	-	3182	list	Andreas	PROPN	-	3176
+Bech	Bech	Bech	PROPN	-	3183	flat	Lisbeth	PROPN	-	3182
+Poulsen	Poulsen	Poulsen	PROPN	-	3184	flat	Lisbeth	PROPN	-	3182
 </name>
-(	(	(	PUNCT	_	3185	punct	SF	PROPN	_	3186
+(	(	(	PUNCT	-	3185	punct	SF	PROPN	-	3186
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	3186	flat	Lisbeth	PROPN	_	3182
+SF	SF	SF	PROPN	-	3186	flat	Lisbeth	PROPN	-	3182
 <g/>
 </name>
-)	)	)	PUNCT	_	3187	punct	SF	PROPN	_	3186
-12	12	12	NUM	NumType=Card	3188	nummod	Trine	PROPN	_	3189
+)	)	)	PUNCT	-	3187	punct	SF	PROPN	-	3186
+12	12	12	NUM	NumType=Card	3188	nummod	Trine	PROPN	-	3189
 <name type="PER">
-Trine	Trine	Trine	PROPN	_	3189	list	Lisbeth	PROPN	_	3182
-Mach	Mach	Machen	PROPN	_	3190	flat	Trine	PROPN	_	3189
+Trine	Trine	Trine	PROPN	-	3189	list	Lisbeth	PROPN	-	3182
+Mach	Mach	Machen	PROPN	-	3190	flat	Trine	PROPN	-	3189
 </name>
-(	(	(	PUNCT	_	3191	punct	SF	PROPN	_	3192
+(	(	(	PUNCT	-	3191	punct	SF	PROPN	-	3192
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	3192	flat	Trine	PROPN	_	3189
+SF	SF	SF	PROPN	-	3192	flat	Trine	PROPN	-	3189
 <g/>
 </name>
-)	)	)	PUNCT	_	3193	punct	SF	PROPN	_	3192
-13	13	13	NUM	NumType=Card	3194	nummod	Frank	PROPN	_	3195
+)	)	)	PUNCT	-	3193	punct	SF	PROPN	-	3192
+13	13	13	NUM	NumType=Card	3194	nummod	Frank	PROPN	-	3195
 <name type="PER">
-Frank	Frank	Frank	PROPN	_	3195	list	Trine	PROPN	_	3189
-Aaen	Aaen	Aaen	PROPN	_	3196	flat	Frank	PROPN	_	3195
+Frank	Frank	Frank	PROPN	-	3195	list	Trine	PROPN	-	3189
+Aaen	Aaen	Aaen	PROPN	-	3196	flat	Frank	PROPN	-	3195
 </name>
-(	(	(	PUNCT	_	3197	punct	EL	PROPN	_	3198
+(	(	(	PUNCT	-	3197	punct	EL	PROPN	-	3198
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	3198	flat	Frank	PROPN	_	3195
+EL	EL	EL	PROPN	-	3198	flat	Frank	PROPN	-	3195
 <g/>
 </name>
-)	)	)	PUNCT	_	3199	punct	EL	PROPN	_	3198
-14	14	14	NUM	NumType=Card	3200	nummod	Stine	PROPN	_	3201
+)	)	)	PUNCT	-	3199	punct	EL	PROPN	-	3198
+14	14	14	NUM	NumType=Card	3200	nummod	Stine	PROPN	-	3201
 <name type="PER">
-Stine	Stine	Stine	PROPN	_	3201	list	Frank	PROPN	_	3195
-Brix	Brix	Brix	PROPN	_	3202	flat	Stine	PROPN	_	3201
+Stine	Stine	Stine	PROPN	-	3201	list	Frank	PROPN	-	3195
+Brix	Brix	Brix	PROPN	-	3202	flat	Stine	PROPN	-	3201
 </name>
-(	(	(	PUNCT	_	3203	punct	EL	PROPN	_	3204
+(	(	(	PUNCT	-	3203	punct	EL	PROPN	-	3204
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	3204	flat	Stine	PROPN	_	3201
+EL	EL	EL	PROPN	-	3204	flat	Stine	PROPN	-	3201
 <g/>
 </name>
-)	)	)	PUNCT	_	3205	punct	EL	PROPN	_	3204
-15	15	15	NUM	NumType=Card	3206	nummod	Nikolaj	PROPN	_	3207
+)	)	)	PUNCT	-	3205	punct	EL	PROPN	-	3204
+15	15	15	NUM	NumType=Card	3206	nummod	Nikolaj	PROPN	-	3207
 <name type="PER">
-Nikolaj	Nikolaj	Nikolaj	PROPN	_	3207	list	Stine	PROPN	_	3201
-Villumsen	Villumsen	Villumsen	PROPN	_	3208	flat	Nikolaj	PROPN	_	3207
+Nikolaj	Nikolaj	Nikolaj	PROPN	-	3207	list	Stine	PROPN	-	3201
+Villumsen	Villumsen	Villumsen	PROPN	-	3208	flat	Nikolaj	PROPN	-	3207
 </name>
-(	(	(	PUNCT	_	3209	punct	EL	PROPN	_	3210
+(	(	(	PUNCT	-	3209	punct	EL	PROPN	-	3210
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	3210	flat	Nikolaj	PROPN	_	3207
+EL	EL	EL	PROPN	-	3210	flat	Nikolaj	PROPN	-	3207
 <g/>
 </name>
-)	)	)	PUNCT	_	3211	punct	EL	PROPN	_	3210
-16	16	16	NUM	NumType=Card	3212	nummod	Hans	PROPN	_	3213
+)	)	)	PUNCT	-	3211	punct	EL	PROPN	-	3210
+16	16	16	NUM	NumType=Card	3212	nummod	Hans	PROPN	-	3213
 <name type="PER">
-Hans	Hans	Hans	PROPN	_	3213	list	Nikolaj	PROPN	_	3207
-Andersen	Andersen	Andersen	PROPN	_	3214	flat	Hans	PROPN	_	3213
+Hans	Hans	Hans	PROPN	-	3213	list	Nikolaj	PROPN	-	3207
+Andersen	Andersen	Andersen	PROPN	-	3214	flat	Hans	PROPN	-	3213
 </name>
-(	(	(	PUNCT	_	3215	punct	V	PROPN	_	3216
+(	(	(	PUNCT	-	3215	punct	V	PROPN	-	3216
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3216	flat	Hans	PROPN	_	3213
+V	V	V	PROPN	-	3216	flat	Hans	PROPN	-	3213
 <g/>
 </name>
-)	)	)	PUNCT	_	3217	punct	V	PROPN	_	3216
-17	17	17	NUM	NumType=Card	3218	nummod	Jacob	PROPN	_	3219
+)	)	)	PUNCT	-	3217	punct	V	PROPN	-	3216
+17	17	17	NUM	NumType=Card	3218	nummod	Jacob	PROPN	-	3219
 <name type="PER">
-Jacob	Jacob	Jacob	PROPN	_	3219	list	Hans	PROPN	_	3213
-Jensen	Jensen	Jensen	PROPN	_	3220	flat	Jacob	PROPN	_	3219
+Jacob	Jacob	Jacob	PROPN	-	3219	list	Hans	PROPN	-	3213
+Jensen	Jensen	Jensen	PROPN	-	3220	flat	Jacob	PROPN	-	3219
 </name>
-(	(	(	PUNCT	_	3221	punct	V	PROPN	_	3222
+(	(	(	PUNCT	-	3221	punct	V	PROPN	-	3222
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3222	flat	Jacob	PROPN	_	3219
+V	V	V	PROPN	-	3222	flat	Jacob	PROPN	-	3219
 <g/>
 </name>
-)	)	)	PUNCT	_	3223	punct	V	PROPN	_	3222
-18	18	18	NUM	NumType=Card	3224	nummod	Thomas	PROPN	_	3225
+)	)	)	PUNCT	-	3223	punct	V	PROPN	-	3222
+18	18	18	NUM	NumType=Card	3224	nummod	Thomas	PROPN	-	3225
 <name type="PER">
-Thomas	Thomas	Thomas	PROPN	_	3225	list	Jacob	PROPN	_	3219
-Danielsen	Danielsen	Danielsen	PROPN	_	3226	flat	Thomas	PROPN	_	3225
+Thomas	Thomas	Thomas	PROPN	-	3225	list	Jacob	PROPN	-	3219
+Danielsen	Danielsen	Danielsen	PROPN	-	3226	flat	Thomas	PROPN	-	3225
 </name>
-(	(	(	PUNCT	_	3227	punct	V	PROPN	_	3228
+(	(	(	PUNCT	-	3227	punct	V	PROPN	-	3228
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3228	flat	Thomas	PROPN	_	3225
+V	V	V	PROPN	-	3228	flat	Thomas	PROPN	-	3225
 <g/>
 </name>
-)	)	)	PUNCT	_	3229	punct	V	PROPN	_	3228
-19	19	19	NUM	NumType=Card	3230	nummod	Kristian	PROPN	_	3231
+)	)	)	PUNCT	-	3229	punct	V	PROPN	-	3228
+19	19	19	NUM	NumType=Card	3230	nummod	Kristian	PROPN	-	3231
 <name type="PER">
-Kristian	Kristian	Kristian	PROPN	_	3231	list	Thomas	PROPN	_	3225
-Pihl	Pihl	Pihl	PROPN	_	3232	flat	Kristian	PROPN	_	3231
-Lorentzen	Lorentzen	Lorentzen	PROPN	_	3233	flat	Kristian	PROPN	_	3231
+Kristian	Kristian	Kristian	PROPN	-	3231	list	Thomas	PROPN	-	3225
+Pihl	Pihl	Pihl	PROPN	-	3232	flat	Kristian	PROPN	-	3231
+Lorentzen	Lorentzen	Lorentzen	PROPN	-	3233	flat	Kristian	PROPN	-	3231
 </name>
-(	(	(	PUNCT	_	3234	punct	V	PROPN	_	3235
+(	(	(	PUNCT	-	3234	punct	V	PROPN	-	3235
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3235	flat	Kristian	PROPN	_	3231
+V	V	V	PROPN	-	3235	flat	Kristian	PROPN	-	3231
 <g/>
 </name>
-)	)	)	PUNCT	_	3236	punct	V	PROPN	_	3235
-20	20	20	NUM	NumType=Card	3237	nummod	Tina	PROPN	_	3238
+)	)	)	PUNCT	-	3236	punct	V	PROPN	-	3235
+20	20	20	NUM	NumType=Card	3237	nummod	Tina	PROPN	-	3238
 <name type="PER">
-Tina	Tina	Tina	PROPN	_	3238	list	Kristian	PROPN	_	3231
-Nedergaard	Nedergaard	Nedergaard	PROPN	_	3239	flat	Tina	PROPN	_	3238
+Tina	Tina	Tina	PROPN	-	3238	list	Kristian	PROPN	-	3231
+Nedergaard	Nedergaard	Nedergaard	PROPN	-	3239	flat	Tina	PROPN	-	3238
 </name>
-(	(	(	PUNCT	_	3240	punct	V	PROPN	_	3241
+(	(	(	PUNCT	-	3240	punct	V	PROPN	-	3241
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3241	flat	Tina	PROPN	_	3238
+V	V	V	PROPN	-	3241	flat	Tina	PROPN	-	3238
 <g/>
 </name>
-)	)	)	PUNCT	_	3242	punct	V	PROPN	_	3241
-21	21	21	NUM	NumType=Card	3243	nummod	Torsten	PROPN	_	3244
+)	)	)	PUNCT	-	3242	punct	V	PROPN	-	3241
+21	21	21	NUM	NumType=Card	3243	nummod	Torsten	PROPN	-	3244
 <name type="PER">
-Torsten	Torsten	Torsten	PROPN	_	3244	list	Tina	PROPN	_	3238
-Schack	Schack	Schack	PROPN	_	3245	flat	Torsten	PROPN	_	3244
-Pedersen	Pedersen	Pedersen	PROPN	_	3246	flat	Torsten	PROPN	_	3244
+Torsten	Torsten	Torsten	PROPN	-	3244	list	Tina	PROPN	-	3238
+Schack	Schack	Schack	PROPN	-	3245	flat	Torsten	PROPN	-	3244
+Pedersen	Pedersen	Pedersen	PROPN	-	3246	flat	Torsten	PROPN	-	3244
 </name>
-(	(	(	PUNCT	_	3247	punct	V	PROPN	_	3248
+(	(	(	PUNCT	-	3247	punct	V	PROPN	-	3248
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3248	flat	Torsten	PROPN	_	3244
+V	V	V	PROPN	-	3248	flat	Torsten	PROPN	-	3244
 <g/>
 </name>
-)	)	)	PUNCT	_	3249	punct	V	PROPN	_	3248
-22	22	22	NUM	NumType=Card	3250	nummod	Troels	PROPN	_	3251
+)	)	)	PUNCT	-	3249	punct	V	PROPN	-	3248
+22	22	22	NUM	NumType=Card	3250	nummod	Troels	PROPN	-	3251
 <name type="PER">
-Troels	Troels	Troels	PROPN	_	3251	list	Torsten	PROPN	_	3244
-Lund	Lund	Lund	PROPN	_	3252	flat	Troels	PROPN	_	3251
-Poulsen	Poulsen	Poulsen	PROPN	_	3253	flat	Troels	PROPN	_	3251
+Troels	Troels	Troels	PROPN	-	3251	list	Torsten	PROPN	-	3244
+Lund	Lund	Lund	PROPN	-	3252	flat	Troels	PROPN	-	3251
+Poulsen	Poulsen	Poulsen	PROPN	-	3253	flat	Troels	PROPN	-	3251
 </name>
-(	(	(	PUNCT	_	3254	punct	V	PROPN	_	3255
+(	(	(	PUNCT	-	3254	punct	V	PROPN	-	3255
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3255	flat	Troels	PROPN	_	3251
+V	V	V	PROPN	-	3255	flat	Troels	PROPN	-	3251
 <g/>
 </name>
-)	)	)	PUNCT	_	3256	punct	V	PROPN	_	3255
-23	23	23	NUM	NumType=Card	3257	nummod	Mads	PROPN	_	3258
+)	)	)	PUNCT	-	3256	punct	V	PROPN	-	3255
+23	23	23	NUM	NumType=Card	3257	nummod	Mads	PROPN	-	3258
 <name type="PER">
-Mads	Mads	Mads	PROPN	_	3258	list	Troels	PROPN	_	3251
-Rørvig	Rørvig	Rørvig	PROPN	_	3259	flat	Mads	PROPN	_	3258
+Mads	Mads	Mads	PROPN	-	3258	list	Troels	PROPN	-	3251
+Rørvig	Rørvig	Rørvig	PROPN	-	3259	flat	Mads	PROPN	-	3258
 </name>
-(	(	(	PUNCT	_	3260	punct	V	PROPN	_	3261
+(	(	(	PUNCT	-	3260	punct	V	PROPN	-	3261
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3261	flat	Mads	PROPN	_	3258
+V	V	V	PROPN	-	3261	flat	Mads	PROPN	-	3258
 <g/>
 </name>
-)	)	)	PUNCT	_	3262	punct	V	PROPN	_	3261
-24	24	24	NUM	NumType=Card	3263	nummod	Dennis	PROPN	_	3264
+)	)	)	PUNCT	-	3262	punct	V	PROPN	-	3261
+24	24	24	NUM	NumType=Card	3263	nummod	Dennis	PROPN	-	3264
 <name type="PER">
-Dennis	Dennis	Dennis	PROPN	_	3264	list	Mads	PROPN	_	3258
-Flydtkjær	Flydtkjær	Flydtkjær	PROPN	_	3265	flat	Dennis	PROPN	_	3264
+Dennis	Dennis	Dennis	PROPN	-	3264	list	Mads	PROPN	-	3258
+Flydtkjær	Flydtkjær	Flydtkjær	PROPN	-	3265	flat	Dennis	PROPN	-	3264
 </name>
-(	(	(	PUNCT	_	3266	punct	DF	PROPN	_	3267
+(	(	(	PUNCT	-	3266	punct	DF	PROPN	-	3267
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	3267	flat	Dennis	PROPN	_	3264
+DF	DF	DF	PROPN	-	3267	flat	Dennis	PROPN	-	3264
 <g/>
 </name>
-)	)	)	PUNCT	_	3268	punct	DF	PROPN	_	3267
-25	25	25	NUM	NumType=Card	3269	nummod	Mikkel	PROPN	_	3270
+)	)	)	PUNCT	-	3268	punct	DF	PROPN	-	3267
+25	25	25	NUM	NumType=Card	3269	nummod	Mikkel	PROPN	-	3270
 <name type="PER">
-Mikkel	Mikkel	Mikkel	PROPN	_	3270	list	Dennis	PROPN	_	3264
-Dencker	Dencker	Dencker	PROPN	_	3271	flat	Mikkel	PROPN	_	3270
+Mikkel	Mikkel	Mikkel	PROPN	-	3270	list	Dennis	PROPN	-	3264
+Dencker	Dencker	Dencker	PROPN	-	3271	flat	Mikkel	PROPN	-	3270
 </name>
-(	(	(	PUNCT	_	3272	punct	DF	PROPN	_	3273
+(	(	(	PUNCT	-	3272	punct	DF	PROPN	-	3273
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	3273	flat	Mikkel	PROPN	_	3270
+DF	DF	DF	PROPN	-	3273	flat	Mikkel	PROPN	-	3270
 <g/>
 </name>
-)	)	)	PUNCT	_	3274	punct	DF	PROPN	_	3273
-26	26	26	NUM	NumType=Card	3275	nummod	Hans	PROPN	_	3276
+)	)	)	PUNCT	-	3274	punct	DF	PROPN	-	3273
+26	26	26	NUM	NumType=Card	3275	nummod	Hans	PROPN	-	3276
 <name type="PER">
-Hans	Hans	Hans	PROPN	_	3276	list	Mikkel	PROPN	_	3270
-Kristian	Kristian	Kristian	PROPN	_	3277	flat	Hans	PROPN	_	3276
-Skibby	Skibby	Skibby	PROPN	_	3278	flat	Hans	PROPN	_	3276
+Hans	Hans	Hans	PROPN	-	3276	list	Mikkel	PROPN	-	3270
+Kristian	Kristian	Kristian	PROPN	-	3277	flat	Hans	PROPN	-	3276
+Skibby	Skibby	Skibby	PROPN	-	3278	flat	Hans	PROPN	-	3276
 </name>
-(	(	(	PUNCT	_	3279	punct	DF	PROPN	_	3280
+(	(	(	PUNCT	-	3279	punct	DF	PROPN	-	3280
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	3280	flat	Hans	PROPN	_	3276
+DF	DF	DF	PROPN	-	3280	flat	Hans	PROPN	-	3276
 <g/>
 </name>
-)	)	)	PUNCT	_	3281	punct	DF	PROPN	_	3280
-27	27	27	NUM	NumType=Card	3282	nummod	Karina	PROPN	_	3283
+)	)	)	PUNCT	-	3281	punct	DF	PROPN	-	3280
+27	27	27	NUM	NumType=Card	3282	nummod	Karina	PROPN	-	3283
 <name type="PER">
-Karina	Karina	Karina	PROPN	_	3283	list	Hans	PROPN	_	3276
-Adsbøl	Adsbøl	Adsbøl	PROPN	_	3284	flat	Karina	PROPN	_	3283
+Karina	Karina	Karina	PROPN	-	3283	list	Hans	PROPN	-	3276
+Adsbøl	Adsbøl	Adsbøl	PROPN	-	3284	flat	Karina	PROPN	-	3283
 </name>
-(	(	(	PUNCT	_	3285	punct	DF	PROPN	_	3286
+(	(	(	PUNCT	-	3285	punct	DF	PROPN	-	3286
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	3286	flat	Karina	PROPN	_	3283
+DF	DF	DF	PROPN	-	3286	flat	Karina	PROPN	-	3283
 <g/>
 </name>
-)	)	)	PUNCT	_	3287	punct	DF	PROPN	_	3286
-28	28	28	NUM	NumType=Card	3288	nummod	Ole	PROPN	_	3289
+)	)	)	PUNCT	-	3287	punct	DF	PROPN	-	3286
+28	28	28	NUM	NumType=Card	3288	nummod	Ole	PROPN	-	3289
 <name type="PER">
-Ole	Ole	Ole	PROPN	_	3289	list	Karina	PROPN	_	3283
-Birk	Birk	Birk	PROPN	_	3290	flat	Ole	PROPN	_	3289
-Olesen	Olesen	Olesen	PROPN	_	3291	flat	Ole	PROPN	_	3289
+Ole	Ole	Ole	PROPN	-	3289	list	Karina	PROPN	-	3283
+Birk	Birk	Birk	PROPN	-	3290	flat	Ole	PROPN	-	3289
+Olesen	Olesen	Olesen	PROPN	-	3291	flat	Ole	PROPN	-	3289
 </name>
-(	(	(	PUNCT	_	3292	punct	LA	PROPN	_	3293
+(	(	(	PUNCT	-	3292	punct	LA	PROPN	-	3293
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	3293	flat	Ole	PROPN	_	3289
+LA	LA	LA	PROPN	-	3293	flat	Ole	PROPN	-	3289
 <g/>
 </name>
-)	)	)	PUNCT	_	3294	punct	LA	PROPN	_	3293
-29	29	29	NUM	NumType=Card	3295	nummod	Brian	PROPN	_	3296
+)	)	)	PUNCT	-	3294	punct	LA	PROPN	-	3293
+29	29	29	NUM	NumType=Card	3295	nummod	Brian	PROPN	-	3296
 <name type="PER">
-Brian	Brian	Brian	PROPN	_	3296	list	Karina	PROPN	_	3283
-Mikkelsen	Mikkelsen	Mikkelsen	PROPN	_	3297	flat	Brian	PROPN	_	3296
+Brian	Brian	Brian	PROPN	-	3296	list	Karina	PROPN	-	3283
+Mikkelsen	Mikkelsen	Mikkelsen	PROPN	-	3297	flat	Brian	PROPN	-	3296
 </name>
-(	(	(	PUNCT	_	3298	punct	KF	PROPN	_	3299
+(	(	(	PUNCT	-	3298	punct	KF	PROPN	-	3299
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	3299	flat	Brian	PROPN	_	3296
+KF	KF	KF	PROPN	-	3299	flat	Brian	PROPN	-	3296
 <g/>
 </name>
-)	)	)	PUNCT	_	3300	punct	KF	PROPN	_	3299
-Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	3301	list	Brian	PROPN	_	3296
+)	)	)	PUNCT	-	3300	punct	KF	PROPN	-	3299
+Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	3301	list	Brian	PROPN	-	3296
 <g/>
-:	:	:	PUNCT	_	3302	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	3301
+:	:	:	PUNCT	-	3302	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	3301
 <name type="PER">
-Mads	Mads	Mads	PROPN	_	3303	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	3301
-Rørvig	Rørvig	Rørvig	PROPN	_	3304	flat	Mads	PROPN	_	3303
+Mads	Mads	Mads	PROPN	-	3303	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	3301
+Rørvig	Rørvig	Rørvig	PROPN	-	3304	flat	Mads	PROPN	-	3303
 </name>
-(	(	(	PUNCT	_	3305	punct	V	PROPN	_	3306
+(	(	(	PUNCT	-	3305	punct	V	PROPN	-	3306
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3306	flat	Mads	PROPN	_	3303
+V	V	V	PROPN	-	3306	flat	Mads	PROPN	-	3303
 <g/>
 </name>
-)	)	)	PUNCT	_	3307	punct	V	PROPN	_	3306
-Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	3308	list	Mads	PROPN	_	3303
+)	)	)	PUNCT	-	3307	punct	V	PROPN	-	3306
+Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	3308	list	Mads	PROPN	-	3303
 <g/>
-:	:	:	PUNCT	_	3309	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	3308
+:	:	:	PUNCT	-	3309	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	3308
 <name type="PER">
-Ole	Ole	Ole	PROPN	_	3310	appos	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	3308
-Birk	Birk	Birk	PROPN	_	3311	flat	Ole	PROPN	_	3310
-Olesen	Olesen	Olesen	PROPN	_	3312	flat	Ole	PROPN	_	3310
+Ole	Ole	Ole	PROPN	-	3310	appos	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	3308
+Birk	Birk	Birk	PROPN	-	3311	flat	Ole	PROPN	-	3310
+Olesen	Olesen	Olesen	PROPN	-	3312	flat	Ole	PROPN	-	3310
 </name>
-(	(	(	PUNCT	_	3313	punct	LA	PROPN	_	3314
+(	(	(	PUNCT	-	3313	punct	LA	PROPN	-	3314
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	3314	flat	Ole	PROPN	_	3310
+LA	LA	LA	PROPN	-	3314	flat	Ole	PROPN	-	3310
 <g/>
 </name>
-)	)	)	PUNCT	_	3315	punct	LA	PROPN	_	3314
-Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	3316	flat	Ole	PROPN	_	3310
+)	)	)	PUNCT	-	3315	punct	LA	PROPN	-	3314
+Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	3316	flat	Ole	PROPN	-	3310
 af	af	af	ADP	AdpType=Prep	3317	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	3319
 29	29	29	NUM	NumType=Card	3318	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	3319
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	3319	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	3316
 til	til	til	ADP	AdpType=Prep	3320	case	socialudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	3321
 Socialudvalget	Socialudvalget	socialudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	3321	nmod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	3319
 <g/>
-:	:	:	PUNCT	_	3322	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	3308
+:	:	:	PUNCT	-	3322	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	3308
 Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3323	list	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	3308
-blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	3324	cop	Orla	PROPN	_	3327
+blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	3324	cop	Orla	PROPN	-	3327
 <g/>
-:	:	:	PUNCT	_	3325	punct	Orla	PROPN	_	3327
-1	1	1	NUM	NumType=Card	3326	nummod	Orla	PROPN	_	3327
+:	:	:	PUNCT	-	3325	punct	Orla	PROPN	-	3327
+1	1	1	NUM	NumType=Card	3326	nummod	Orla	PROPN	-	3327
 <name type="PER">
-Orla	Orla	Orla	PROPN	_	3327	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3323
-Hav	Hav	Hav	PROPN	_	3328	flat	Orla	PROPN	_	3327
+Orla	Orla	Orla	PROPN	-	3327	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3323
+Hav	Hav	Hav	PROPN	-	3328	flat	Orla	PROPN	-	3327
 </name>
-(	(	(	PUNCT	_	3329	punct	S	PROPN	_	3330
+(	(	(	PUNCT	-	3329	punct	S	PROPN	-	3330
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	3330	flat	Orla	PROPN	_	3327
+S	S	S	PROPN	-	3330	flat	Orla	PROPN	-	3327
 <g/>
 </name>
-)	)	)	PUNCT	_	3331	punct	S	PROPN	_	3330
-2	2	2	NUM	NumType=Card	3332	nummod	Pernille	PROPN	_	3333
+)	)	)	PUNCT	-	3331	punct	S	PROPN	-	3330
+2	2	2	NUM	NumType=Card	3332	nummod	Pernille	PROPN	-	3333
 <name type="PER">
-Pernille	Pernille	Pernille	PROPN	_	3333	list	Orla	PROPN	_	3327
-Rosenkrantz-Theil	Rosenkrantz-Theil	Rosenkrantz-Theil	PROPN	_	3334	flat	Pernille	PROPN	_	3333
+Pernille	Pernille	Pernille	PROPN	-	3333	list	Orla	PROPN	-	3327
+Rosenkrantz-Theil	Rosenkrantz-Theil	Rosenkrantz-Theil	PROPN	-	3334	flat	Pernille	PROPN	-	3333
 </name>
-(	(	(	PUNCT	_	3335	punct	S	PROPN	_	3336
+(	(	(	PUNCT	-	3335	punct	S	PROPN	-	3336
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	3336	flat	Pernille	PROPN	_	3333
+S	S	S	PROPN	-	3336	flat	Pernille	PROPN	-	3333
 <g/>
 </name>
-)	)	)	PUNCT	_	3337	punct	S	PROPN	_	3336
-3	3	3	NUM	NumType=Card	3338	nummod	Mette	PROPN	_	3339
+)	)	)	PUNCT	-	3337	punct	S	PROPN	-	3336
+3	3	3	NUM	NumType=Card	3338	nummod	Mette	PROPN	-	3339
 <name type="PER">
-Mette	Mette	Mette	PROPN	_	3339	list	Pernille	PROPN	_	3333
-Reissmann	Reissmann	Reissmann	PROPN	_	3340	flat	Mette	PROPN	_	3339
+Mette	Mette	Mette	PROPN	-	3339	list	Pernille	PROPN	-	3333
+Reissmann	Reissmann	Reissmann	PROPN	-	3340	flat	Mette	PROPN	-	3339
 </name>
-(	(	(	PUNCT	_	3341	punct	S	PROPN	_	3342
+(	(	(	PUNCT	-	3341	punct	S	PROPN	-	3342
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	3342	flat	Mette	PROPN	_	3339
+S	S	S	PROPN	-	3342	flat	Mette	PROPN	-	3339
 <g/>
 </name>
-)	)	)	PUNCT	_	3343	punct	S	PROPN	_	3342
-4	4	4	NUM	NumType=Card	3344	nummod	Jens	PROPN	_	3345
+)	)	)	PUNCT	-	3343	punct	S	PROPN	-	3342
+4	4	4	NUM	NumType=Card	3344	nummod	Jens	PROPN	-	3345
 <name type="PER">
-Jens	Jens	Jens	PROPN	_	3345	list	Mette	PROPN	_	3339
-Joel	Joel	Joel	PROPN	_	3346	flat	Jens	PROPN	_	3345
+Jens	Jens	Jens	PROPN	-	3345	list	Mette	PROPN	-	3339
+Joel	Joel	Joel	PROPN	-	3346	flat	Jens	PROPN	-	3345
 </name>
-(	(	(	PUNCT	_	3347	punct	S	PROPN	_	3348
+(	(	(	PUNCT	-	3347	punct	S	PROPN	-	3348
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	3348	flat	Jens	PROPN	_	3345
+S	S	S	PROPN	-	3348	flat	Jens	PROPN	-	3345
 <g/>
 </name>
-)	)	)	PUNCT	_	3349	punct	S	PROPN	_	3348
-5	5	5	NUM	NumType=Card	3350	nummod	Karen	PROPN	_	3351
+)	)	)	PUNCT	-	3349	punct	S	PROPN	-	3348
+5	5	5	NUM	NumType=Card	3350	nummod	Karen	PROPN	-	3351
 <name type="PER">
-Karen	Karen	Karen	PROPN	_	3351	list	Jens	PROPN	_	3345
-J.	J.	J.	PROPN	_	3352	flat	Karen	PROPN	_	3351
-Klint	Klint	Klint	PROPN	_	3353	flat	Karen	PROPN	_	3351
+Karen	Karen	Karen	PROPN	-	3351	list	Jens	PROPN	-	3345
+J.	J.	J.	PROPN	-	3352	flat	Karen	PROPN	-	3351
+Klint	Klint	Klint	PROPN	-	3353	flat	Karen	PROPN	-	3351
 </name>
-(	(	(	PUNCT	_	3354	punct	S	PROPN	_	3355
+(	(	(	PUNCT	-	3354	punct	S	PROPN	-	3355
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	3355	list	Karen	PROPN	_	3351
+S	S	S	PROPN	-	3355	list	Karen	PROPN	-	3351
 <g/>
 </name>
-)	)	)	PUNCT	_	3356	punct	S	PROPN	_	3355
-6	6	6	NUM	NumType=Card	3357	nummod	Astrid	PROPN	_	3358
+)	)	)	PUNCT	-	3356	punct	S	PROPN	-	3355
+6	6	6	NUM	NumType=Card	3357	nummod	Astrid	PROPN	-	3358
 <name type="PER">
-Astrid	Astrid	Astrid	PROPN	_	3358	list	S	PROPN	_	3355
-Krag	Krag	Krag	PROPN	_	3359	flat	Astrid	PROPN	_	3358
+Astrid	Astrid	Astrid	PROPN	-	3358	list	S	PROPN	-	3355
+Krag	Krag	Krag	PROPN	-	3359	flat	Astrid	PROPN	-	3358
 </name>
-(	(	(	PUNCT	_	3360	punct	S	PROPN	_	3361
+(	(	(	PUNCT	-	3360	punct	S	PROPN	-	3361
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	3361	flat	Astrid	PROPN	_	3358
+S	S	S	PROPN	-	3361	flat	Astrid	PROPN	-	3358
 <g/>
 </name>
-)	)	)	PUNCT	_	3362	punct	S	PROPN	_	3361
-7	7	7	NUM	NumType=Card	3363	nummod	Julie	PROPN	_	3364
+)	)	)	PUNCT	-	3362	punct	S	PROPN	-	3361
+7	7	7	NUM	NumType=Card	3363	nummod	Julie	PROPN	-	3364
 <name type="PER">
-Julie	Julie	Julie	PROPN	_	3364	list	Astrid	PROPN	_	3358
-Skovsby	Skovsby	Skovsby	PROPN	_	3365	flat	Julie	PROPN	_	3364
+Julie	Julie	Julie	PROPN	-	3364	list	Astrid	PROPN	-	3358
+Skovsby	Skovsby	Skovsby	PROPN	-	3365	flat	Julie	PROPN	-	3364
 </name>
-(	(	(	PUNCT	_	3366	punct	S	PROPN	_	3367
+(	(	(	PUNCT	-	3366	punct	S	PROPN	-	3367
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	3367	list	Julie	PROPN	_	3364
+S	S	S	PROPN	-	3367	list	Julie	PROPN	-	3364
 <g/>
 </name>
-)	)	)	PUNCT	_	3368	punct	S	PROPN	_	3367
+)	)	)	PUNCT	-	3368	punct	S	PROPN	-	3367
 8	8	8	NUM	NumType=Card	3369	nummod	Marl	NOUN	Definite=Def Gender=Com Number=Plur	3370
 <name type="PER">
-Marlene	Marlene	Marl	NOUN	Definite=Def Gender=Com Number=Plur	3370	list	S	PROPN	_	3367
-Borst	Borst	Borst	NOUN	Definite=Ind Gender=Com Number=Sing	3371	flat	S	PROPN	_	3367
-Hansen	Hansen	Hansen	PROPN	_	3372	flat	S	PROPN	_	3367
+Marlene	Marlene	Marl	NOUN	Definite=Def Gender=Com Number=Plur	3370	list	S	PROPN	-	3367
+Borst	Borst	Borst	NOUN	Definite=Ind Gender=Com Number=Sing	3371	flat	S	PROPN	-	3367
+Hansen	Hansen	Hansen	PROPN	-	3372	flat	S	PROPN	-	3367
 </name>
-(	(	(	PUNCT	_	3373	punct	RV	PROPN	_	3374
+(	(	(	PUNCT	-	3373	punct	RV	PROPN	-	3374
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	3374	flat	S	PROPN	_	3367
+RV	RV	RV	PROPN	-	3374	flat	S	PROPN	-	3367
 <g/>
 </name>
-)	)	)	PUNCT	_	3375	punct	RV	PROPN	_	3374
-9	9	9	NUM	NumType=Card	3376	nummod	Liv	PROPN	_	3377
-Liv	Liv	Liv	PROPN	_	3377	list	S	PROPN	_	3367
+)	)	)	PUNCT	-	3375	punct	RV	PROPN	-	3374
+9	9	9	NUM	NumType=Card	3376	nummod	Liv	PROPN	-	3377
+Liv	Liv	Liv	PROPN	-	3377	list	S	PROPN	-	3367
 <name type="PER">
-Holm	Holm	Holm	PROPN	_	3378	flat	Liv	PROPN	_	3377
-Andersen	Andersen	Andersen	PROPN	_	3379	flat	Liv	PROPN	_	3377
+Holm	Holm	Holm	PROPN	-	3378	flat	Liv	PROPN	-	3377
+Andersen	Andersen	Andersen	PROPN	-	3379	flat	Liv	PROPN	-	3377
 </name>
-(	(	(	PUNCT	_	3380	punct	RV	PROPN	_	3381
+(	(	(	PUNCT	-	3380	punct	RV	PROPN	-	3381
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	3381	list	Liv	PROPN	_	3377
+RV	RV	RV	PROPN	-	3381	list	Liv	PROPN	-	3377
 <g/>
 </name>
-)	)	)	PUNCT	_	3382	punct	RV	PROPN	_	3381
-10	10	10	NUM	NumType=Card	3383	nummod	Lotte	PROPN	_	3384
+)	)	)	PUNCT	-	3382	punct	RV	PROPN	-	3381
+10	10	10	NUM	NumType=Card	3383	nummod	Lotte	PROPN	-	3384
 <name type="PER">
-Lotte	Lotte	Lotte	PROPN	_	3384	list	RV	PROPN	_	3381
-Rod	Rod	Rod	PROPN	_	3385	flat	Lotte	PROPN	_	3384
+Lotte	Lotte	Lotte	PROPN	-	3384	list	RV	PROPN	-	3381
+Rod	Rod	Rod	PROPN	-	3385	flat	Lotte	PROPN	-	3384
 </name>
-(	(	(	PUNCT	_	3386	punct	RV	PROPN	_	3387
+(	(	(	PUNCT	-	3386	punct	RV	PROPN	-	3387
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	3387	flat	Lotte	PROPN	_	3384
+RV	RV	RV	PROPN	-	3387	flat	Lotte	PROPN	-	3384
 <g/>
 </name>
-)	)	)	PUNCT	_	3388	punct	RV	PROPN	_	3387
-11	11	11	NUM	NumType=Card	3389	nummod	Trine	PROPN	_	3390
+)	)	)	PUNCT	-	3388	punct	RV	PROPN	-	3387
+11	11	11	NUM	NumType=Card	3389	nummod	Trine	PROPN	-	3390
 <name type="PER">
-Trine	Trine	Trine	PROPN	_	3390	list	Lotte	PROPN	_	3384
-Mach	Mach	Machen	PROPN	_	3391	flat	Trine	PROPN	_	3390
+Trine	Trine	Trine	PROPN	-	3390	list	Lotte	PROPN	-	3384
+Mach	Mach	Machen	PROPN	-	3391	flat	Trine	PROPN	-	3390
 </name>
-(	(	(	PUNCT	_	3392	punct	SF	PROPN	_	3393
+(	(	(	PUNCT	-	3392	punct	SF	PROPN	-	3393
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	3393	list	Trine	PROPN	_	3390
+SF	SF	SF	PROPN	-	3393	list	Trine	PROPN	-	3390
 <g/>
 </name>
-)	)	)	PUNCT	_	3394	punct	SF	PROPN	_	3393
-12	12	12	NUM	NumType=Card	3395	nummod	Özlem	PROPN	_	3396
+)	)	)	PUNCT	-	3394	punct	SF	PROPN	-	3393
+12	12	12	NUM	NumType=Card	3395	nummod	Özlem	PROPN	-	3396
 <name type="PER">
-Özlem	Özlem	Özlem	PROPN	_	3396	list	SF	PROPN	_	3393
-Sara	Sara	Sara	PROPN	_	3397	flat	Özlem	PROPN	_	3396
-Cekic	Cekic	Cekic	PROPN	_	3398	flat	Özlem	PROPN	_	3396
+Özlem	Özlem	Özlem	PROPN	-	3396	list	SF	PROPN	-	3393
+Sara	Sara	Sara	PROPN	-	3397	flat	Özlem	PROPN	-	3396
+Cekic	Cekic	Cekic	PROPN	-	3398	flat	Özlem	PROPN	-	3396
 </name>
-(	(	(	PUNCT	_	3399	punct	SF	PROPN	_	3400
+(	(	(	PUNCT	-	3399	punct	SF	PROPN	-	3400
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	3400	list	Özlem	PROPN	_	3396
+SF	SF	SF	PROPN	-	3400	list	Özlem	PROPN	-	3396
 <g/>
 </name>
-)	)	)	PUNCT	_	3401	punct	SF	PROPN	_	3400
-13	13	13	NUM	NumType=Card	3402	nummod	Karina	PROPN	_	3403
+)	)	)	PUNCT	-	3401	punct	SF	PROPN	-	3400
+13	13	13	NUM	NumType=Card	3402	nummod	Karina	PROPN	-	3403
 <name type="PER">
-Karina	Karina	Karina	PROPN	_	3403	list	SF	PROPN	_	3400
-Lorentzen	Lorentzen	Lorentzen	PROPN	_	3404	flat	Karina	PROPN	_	3403
-Dehnhardt	Dehnhardt	Dehnhardt	PROPN	_	3405	flat	Karina	PROPN	_	3403
+Karina	Karina	Karina	PROPN	-	3403	list	SF	PROPN	-	3400
+Lorentzen	Lorentzen	Lorentzen	PROPN	-	3404	flat	Karina	PROPN	-	3403
+Dehnhardt	Dehnhardt	Dehnhardt	PROPN	-	3405	flat	Karina	PROPN	-	3403
 </name>
-(	(	(	PUNCT	_	3406	punct	SF	PROPN	_	3407
+(	(	(	PUNCT	-	3406	punct	SF	PROPN	-	3407
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	3407	list	Karina	PROPN	_	3403
+SF	SF	SF	PROPN	-	3407	list	Karina	PROPN	-	3403
 <g/>
 </name>
-)	)	)	PUNCT	_	3408	punct	SF	PROPN	_	3407
-14	14	14	NUM	NumType=Card	3409	nummod	Finn	PROPN	_	3410
+)	)	)	PUNCT	-	3408	punct	SF	PROPN	-	3407
+14	14	14	NUM	NumType=Card	3409	nummod	Finn	PROPN	-	3410
 <name type="PER">
-Finn	Finn	Finn	PROPN	_	3410	list	SF	PROPN	_	3407
-Sørensen	Sørensen	Sørensen	PROPN	_	3411	flat	Finn	PROPN	_	3410
+Finn	Finn	Finn	PROPN	-	3410	list	SF	PROPN	-	3407
+Sørensen	Sørensen	Sørensen	PROPN	-	3411	flat	Finn	PROPN	-	3410
 </name>
-(	(	(	PUNCT	_	3412	punct	EL	PROPN	_	3413
+(	(	(	PUNCT	-	3412	punct	EL	PROPN	-	3413
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	3413	flat	Finn	PROPN	_	3410
+EL	EL	EL	PROPN	-	3413	flat	Finn	PROPN	-	3410
 <g/>
 </name>
-)	)	)	PUNCT	_	3414	punct	EL	PROPN	_	3413
-15	15	15	NUM	NumType=Card	3415	nummod	Pernille	PROPN	_	3416
+)	)	)	PUNCT	-	3414	punct	EL	PROPN	-	3413
+15	15	15	NUM	NumType=Card	3415	nummod	Pernille	PROPN	-	3416
 <name type="PER">
-Pernille	Pernille	Pernille	PROPN	_	3416	list	Finn	PROPN	_	3410
-Skipper	Skipper	Skipper	PROPN	_	3417	flat	Pernille	PROPN	_	3416
+Pernille	Pernille	Pernille	PROPN	-	3416	list	Finn	PROPN	-	3410
+Skipper	Skipper	Skipper	PROPN	-	3417	flat	Pernille	PROPN	-	3416
 </name>
-(	(	(	PUNCT	_	3418	punct	EL	PROPN	_	3419
+(	(	(	PUNCT	-	3418	punct	EL	PROPN	-	3419
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	3419	flat	Pernille	PROPN	_	3416
+EL	EL	EL	PROPN	-	3419	flat	Pernille	PROPN	-	3416
 <g/>
 </name>
-)	)	)	PUNCT	_	3420	punct	EL	PROPN	_	3419
-16	16	16	NUM	NumType=Card	3421	nummod	Hans	PROPN	_	3422
+)	)	)	PUNCT	-	3420	punct	EL	PROPN	-	3419
+16	16	16	NUM	NumType=Card	3421	nummod	Hans	PROPN	-	3422
 <name type="PER">
-Hans	Hans	Hans	PROPN	_	3422	list	Finn	PROPN	_	3410
-Andersen	Andersen	Andersen	PROPN	_	3423	flat	Hans	PROPN	_	3422
+Hans	Hans	Hans	PROPN	-	3422	list	Finn	PROPN	-	3410
+Andersen	Andersen	Andersen	PROPN	-	3423	flat	Hans	PROPN	-	3422
 </name>
-(	(	(	PUNCT	_	3424	punct	V	PROPN	_	3425
+(	(	(	PUNCT	-	3424	punct	V	PROPN	-	3425
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3425	flat	Hans	PROPN	_	3422
+V	V	V	PROPN	-	3425	flat	Hans	PROPN	-	3422
 <g/>
 </name>
-)	)	)	PUNCT	_	3426	punct	V	PROPN	_	3425
-17	17	17	NUM	NumType=Card	3427	nummod	Anne-Mette	PROPN	_	3428
+)	)	)	PUNCT	-	3426	punct	V	PROPN	-	3425
+17	17	17	NUM	NumType=Card	3427	nummod	Anne-Mette	PROPN	-	3428
 <name type="PER">
-Anne-Mette	Anne-Mette	Anne-Mette	PROPN	_	3428	list	Hans	PROPN	_	3422
-Winther	Winther	Winther	PROPN	_	3429	flat	Anne-Mette	PROPN	_	3428
-Christiansen	Christiansen	Christiansen	PROPN	_	3430	flat	Anne-Mette	PROPN	_	3428
+Anne-Mette	Anne-Mette	Anne-Mette	PROPN	-	3428	list	Hans	PROPN	-	3422
+Winther	Winther	Winther	PROPN	-	3429	flat	Anne-Mette	PROPN	-	3428
+Christiansen	Christiansen	Christiansen	PROPN	-	3430	flat	Anne-Mette	PROPN	-	3428
 </name>
-(	(	(	PUNCT	_	3431	punct	V	PROPN	_	3432
+(	(	(	PUNCT	-	3431	punct	V	PROPN	-	3432
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3432	flat	Anne-Mette	PROPN	_	3428
+V	V	V	PROPN	-	3432	flat	Anne-Mette	PROPN	-	3428
 <g/>
 </name>
-)	)	)	PUNCT	_	3433	punct	V	PROPN	_	3432
-18	18	18	NUM	NumType=Card	3434	nummod	Tina	PROPN	_	3435
+)	)	)	PUNCT	-	3433	punct	V	PROPN	-	3432
+18	18	18	NUM	NumType=Card	3434	nummod	Tina	PROPN	-	3435
 <name type="PER">
-Tina	Tina	Tina	PROPN	_	3435	list	Anne-Mette	PROPN	_	3428
-Nedergaard	Nedergaard	Nedergaard	PROPN	_	3436	flat	Tina	PROPN	_	3435
+Tina	Tina	Tina	PROPN	-	3435	list	Anne-Mette	PROPN	-	3428
+Nedergaard	Nedergaard	Nedergaard	PROPN	-	3436	flat	Tina	PROPN	-	3435
 </name>
-(	(	(	PUNCT	_	3437	punct	V	PROPN	_	3438
+(	(	(	PUNCT	-	3437	punct	V	PROPN	-	3438
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3438	flat	Tina	PROPN	_	3435
+V	V	V	PROPN	-	3438	flat	Tina	PROPN	-	3435
 <g/>
 </name>
-)	)	)	PUNCT	_	3439	punct	V	PROPN	_	3438
-19	19	19	NUM	NumType=Card	3440	nummod	Finn	PROPN	_	3441
+)	)	)	PUNCT	-	3439	punct	V	PROPN	-	3438
+19	19	19	NUM	NumType=Card	3440	nummod	Finn	PROPN	-	3441
 <name type="PER">
-Finn	Finn	Finn	PROPN	_	3441	list	Tina	PROPN	_	3435
-Thranum	Thranum	Thranum	PROPN	_	3442	flat	Finn	PROPN	_	3441
+Finn	Finn	Finn	PROPN	-	3441	list	Tina	PROPN	-	3435
+Thranum	Thranum	Thranum	PROPN	-	3442	flat	Finn	PROPN	-	3441
 </name>
-(	(	(	PUNCT	_	3443	punct	V	PROPN	_	3444
+(	(	(	PUNCT	-	3443	punct	V	PROPN	-	3444
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3444	flat	Finn	PROPN	_	3441
+V	V	V	PROPN	-	3444	flat	Finn	PROPN	-	3441
 <g/>
 </name>
-)	)	)	PUNCT	_	3445	punct	V	PROPN	_	3444
-20	20	20	NUM	NumType=Card	3446	nummod	Sophie	PROPN	_	3447
+)	)	)	PUNCT	-	3445	punct	V	PROPN	-	3444
+20	20	20	NUM	NumType=Card	3446	nummod	Sophie	PROPN	-	3447
 <name type="PER">
-Sophie	Sophie	Sophie	PROPN	_	3447	list	Finn	PROPN	_	3441
-Løhde	Løhde	Løhde	NOUN	Definite=Ind Gender=Com Number=Sing	3448	flat	Sophie	PROPN	_	3447
+Sophie	Sophie	Sophie	PROPN	-	3447	list	Finn	PROPN	-	3441
+Løhde	Løhde	Løhde	NOUN	Definite=Ind Gender=Com Number=Sing	3448	flat	Sophie	PROPN	-	3447
 </name>
-(	(	(	PUNCT	_	3449	punct	V	PROPN	_	3450
+(	(	(	PUNCT	-	3449	punct	V	PROPN	-	3450
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3450	flat	Sophie	PROPN	_	3447
+V	V	V	PROPN	-	3450	flat	Sophie	PROPN	-	3447
 <g/>
 </name>
-)	)	)	PUNCT	_	3451	punct	V	PROPN	_	3450
-21	21	21	NUM	NumType=Card	3452	nummod	Fatma	PROPN	_	3453
+)	)	)	PUNCT	-	3451	punct	V	PROPN	-	3450
+21	21	21	NUM	NumType=Card	3452	nummod	Fatma	PROPN	-	3453
 <name type="PER">
-Fatma	Fatma	Fatma	PROPN	_	3453	list	Sophie	PROPN	_	3447
-Øktem	Øktem	Øktem	PROPN	_	3454	flat	Fatma	PROPN	_	3453
+Fatma	Fatma	Fatma	PROPN	-	3453	list	Sophie	PROPN	-	3447
+Øktem	Øktem	Øktem	PROPN	-	3454	flat	Fatma	PROPN	-	3453
 </name>
-(	(	(	PUNCT	_	3455	punct	V	PROPN	_	3456
+(	(	(	PUNCT	-	3455	punct	V	PROPN	-	3456
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3456	flat	Fatma	PROPN	_	3453
+V	V	V	PROPN	-	3456	flat	Fatma	PROPN	-	3453
 <g/>
 </name>
-)	)	)	PUNCT	_	3457	punct	V	PROPN	_	3456
-22	22	22	NUM	NumType=Card	3458	nummod	Karen	PROPN	_	3459
+)	)	)	PUNCT	-	3457	punct	V	PROPN	-	3456
+22	22	22	NUM	NumType=Card	3458	nummod	Karen	PROPN	-	3459
 <name type="PER">
-Karen	Karen	Karen	PROPN	_	3459	list	Fatma	PROPN	_	3453
-Ellemann	Ellemann	Ellemann	PROPN	_	3460	flat	Karen	PROPN	_	3459
+Karen	Karen	Karen	PROPN	-	3459	list	Fatma	PROPN	-	3453
+Ellemann	Ellemann	Ellemann	PROPN	-	3460	flat	Karen	PROPN	-	3459
 </name>
-(	(	(	PUNCT	_	3461	punct	V	PROPN	_	3462
+(	(	(	PUNCT	-	3461	punct	V	PROPN	-	3462
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3462	flat	Karen	PROPN	_	3459
+V	V	V	PROPN	-	3462	flat	Karen	PROPN	-	3459
 <g/>
 </name>
-)	)	)	PUNCT	_	3463	punct	V	PROPN	_	3462
-23	23	23	NUM	NumType=Card	3464	nummod	Karin	PROPN	_	3465
+)	)	)	PUNCT	-	3463	punct	V	PROPN	-	3462
+23	23	23	NUM	NumType=Card	3464	nummod	Karin	PROPN	-	3465
 <name type="PER">
-Karin	Karin	Karin	PROPN	_	3465	list	Karen	PROPN	_	3459
-Nødgaard	Nødgaard	Nødgaard	PROPN	_	3466	flat	Karin	PROPN	_	3465
+Karin	Karin	Karin	PROPN	-	3465	list	Karen	PROPN	-	3459
+Nødgaard	Nødgaard	Nødgaard	PROPN	-	3466	flat	Karin	PROPN	-	3465
 </name>
-(	(	(	PUNCT	_	3467	punct	DF	PROPN	_	3468
+(	(	(	PUNCT	-	3467	punct	DF	PROPN	-	3468
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	3468	flat	Karin	PROPN	_	3465
+DF	DF	DF	PROPN	-	3468	flat	Karin	PROPN	-	3465
 <g/>
 </name>
-)	)	)	PUNCT	_	3469	punct	DF	PROPN	_	3468
-24	24	24	NUM	NumType=Card	3470	nummod	René	PROPN	_	3471
+)	)	)	PUNCT	-	3469	punct	DF	PROPN	-	3468
+24	24	24	NUM	NumType=Card	3470	nummod	René	PROPN	-	3471
 <name type="PER">
-René	René	René	PROPN	_	3471	list	Karin	PROPN	_	3465
-Christensen	Christensen	Christensen	PROPN	_	3472	flat	René	PROPN	_	3471
+René	René	René	PROPN	-	3471	list	Karin	PROPN	-	3465
+Christensen	Christensen	Christensen	PROPN	-	3472	flat	René	PROPN	-	3471
 </name>
-(	(	(	PUNCT	_	3473	punct	DF	PROPN	_	3474
+(	(	(	PUNCT	-	3473	punct	DF	PROPN	-	3474
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	3474	flat	René	PROPN	_	3471
+DF	DF	DF	PROPN	-	3474	flat	René	PROPN	-	3471
 <g/>
 </name>
-)	)	)	PUNCT	_	3475	punct	DF	PROPN	_	3474
-25	25	25	NUM	NumType=Card	3476	nummod	Karina	PROPN	_	3477
+)	)	)	PUNCT	-	3475	punct	DF	PROPN	-	3474
+25	25	25	NUM	NumType=Card	3476	nummod	Karina	PROPN	-	3477
 <name type="PER">
-Karina	Karina	Karina	PROPN	_	3477	list	René	PROPN	_	3471
-Adsbøl	Adsbøl	Adsbøl	PROPN	_	3478	flat	Karina	PROPN	_	3477
+Karina	Karina	Karina	PROPN	-	3477	list	René	PROPN	-	3471
+Adsbøl	Adsbøl	Adsbøl	PROPN	-	3478	flat	Karina	PROPN	-	3477
 </name>
-(	(	(	PUNCT	_	3479	punct	DF	PROPN	_	3480
+(	(	(	PUNCT	-	3479	punct	DF	PROPN	-	3480
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	3480	flat	Karina	PROPN	_	3477
+DF	DF	DF	PROPN	-	3480	flat	Karina	PROPN	-	3477
 <g/>
 </name>
-)	)	)	PUNCT	_	3481	punct	DF	PROPN	_	3480
-26	26	26	NUM	NumType=Card	3482	nummod	Jens	PROPN	_	3483
+)	)	)	PUNCT	-	3481	punct	DF	PROPN	-	3480
+26	26	26	NUM	NumType=Card	3482	nummod	Jens	PROPN	-	3483
 <name type="PER">
-Jens	Jens	Jens	PROPN	_	3483	list	Karina	PROPN	_	3477
-Henrik	Henrik	Henrik	PROPN	_	3484	flat	Jens	PROPN	_	3483
-Thulesen	Thulesen	Thulesen	PROPN	_	3485	flat	Jens	PROPN	_	3483
-Dahl	Dahl	Dahl	PROPN	_	3486	flat	Jens	PROPN	_	3483
+Jens	Jens	Jens	PROPN	-	3483	list	Karina	PROPN	-	3477
+Henrik	Henrik	Henrik	PROPN	-	3484	flat	Jens	PROPN	-	3483
+Thulesen	Thulesen	Thulesen	PROPN	-	3485	flat	Jens	PROPN	-	3483
+Dahl	Dahl	Dahl	PROPN	-	3486	flat	Jens	PROPN	-	3483
 </name>
-(	(	(	PUNCT	_	3487	punct	DF	PROPN	_	3488
+(	(	(	PUNCT	-	3487	punct	DF	PROPN	-	3488
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	3488	flat	Jens	PROPN	_	3483
+DF	DF	DF	PROPN	-	3488	flat	Jens	PROPN	-	3483
 <g/>
 </name>
-)	)	)	PUNCT	_	3489	punct	DF	PROPN	_	3488
-27	27	27	NUM	NumType=Card	3490	nummod	Merete	PROPN	_	3491
+)	)	)	PUNCT	-	3489	punct	DF	PROPN	-	3488
+27	27	27	NUM	NumType=Card	3490	nummod	Merete	PROPN	-	3491
 <name type="PER">
-Merete	Merete	Merete	PROPN	_	3491	list	Jens	PROPN	_	3483
-Riisager	Riisager	Riisager	PROPN	_	3492	flat	Merete	PROPN	_	3491
+Merete	Merete	Merete	PROPN	-	3491	list	Jens	PROPN	-	3483
+Riisager	Riisager	Riisager	PROPN	-	3492	flat	Merete	PROPN	-	3491
 </name>
-(	(	(	PUNCT	_	3493	punct	LA	PROPN	_	3494
+(	(	(	PUNCT	-	3493	punct	LA	PROPN	-	3494
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	3494	flat	Merete	PROPN	_	3491
+LA	LA	LA	PROPN	-	3494	flat	Merete	PROPN	-	3491
 <g/>
 </name>
-)	)	)	PUNCT	_	3495	punct	LA	PROPN	_	3494
-28	28	28	NUM	NumType=Card	3496	nummod	Thyra	PROPN	_	3497
+)	)	)	PUNCT	-	3495	punct	LA	PROPN	-	3494
+28	28	28	NUM	NumType=Card	3496	nummod	Thyra	PROPN	-	3497
 <name type="PER">
-Thyra	Thyra	Thyra	PROPN	_	3497	list	Merete	PROPN	_	3491
-Frank	Frank	Frank	PROPN	_	3498	flat	Thyra	PROPN	_	3497
+Thyra	Thyra	Thyra	PROPN	-	3497	list	Merete	PROPN	-	3491
+Frank	Frank	Frank	PROPN	-	3498	flat	Thyra	PROPN	-	3497
 </name>
-(	(	(	PUNCT	_	3499	punct	LA	PROPN	_	3500
+(	(	(	PUNCT	-	3499	punct	LA	PROPN	-	3500
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	3500	flat	Thyra	PROPN	_	3497
+LA	LA	LA	PROPN	-	3500	flat	Thyra	PROPN	-	3497
 <g/>
 </name>
-)	)	)	PUNCT	_	3501	punct	LA	PROPN	_	3500
-29	29	29	NUM	NumType=Card	3502	nummod	Mai	PROPN	_	3503
+)	)	)	PUNCT	-	3501	punct	LA	PROPN	-	3500
+29	29	29	NUM	NumType=Card	3502	nummod	Mai	PROPN	-	3503
 <name type="PER">
-Mai	Mai	Mai	PROPN	_	3503	list	Thyra	PROPN	_	3497
-Mercado	Mercado	Mercado	PROPN	_	3504	flat	Mai	PROPN	_	3503
+Mai	Mai	Mai	PROPN	-	3503	list	Thyra	PROPN	-	3497
+Mercado	Mercado	Mercado	PROPN	-	3504	flat	Mai	PROPN	-	3503
 </name>
-(	(	(	PUNCT	_	3505	punct	KF	PROPN	_	3506
+(	(	(	PUNCT	-	3505	punct	KF	PROPN	-	3506
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	3506	flat	Mai	PROPN	_	3503
+KF	KF	KF	PROPN	-	3506	flat	Mai	PROPN	-	3503
 <g/>
 </name>
-)	)	)	PUNCT	_	3507	punct	KF	PROPN	_	3506
-Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	3508	list	Mai	PROPN	_	3503
+)	)	)	PUNCT	-	3507	punct	KF	PROPN	-	3506
+Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	3508	list	Mai	PROPN	-	3503
 <g/>
-:	:	:	PUNCT	_	3509	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	3508
+:	:	:	PUNCT	-	3509	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	3508
 <name type="PER">
-Trine	Trine	Trine	PROPN	_	3510	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	3508
-Mach	Mach	Machen	PROPN	_	3511	flat	Trine	PROPN	_	3510
+Trine	Trine	Trine	PROPN	-	3510	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	3508
+Mach	Mach	Machen	PROPN	-	3511	flat	Trine	PROPN	-	3510
 </name>
-(	(	(	PUNCT	_	3512	punct	SF	PROPN	_	3513
+(	(	(	PUNCT	-	3512	punct	SF	PROPN	-	3513
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	3513	flat	Trine	PROPN	_	3510
+SF	SF	SF	PROPN	-	3513	flat	Trine	PROPN	-	3510
 <g/>
 </name>
-)	)	)	PUNCT	_	3514	punct	SF	PROPN	_	3513
-Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	3515	list	Trine	PROPN	_	3510
+)	)	)	PUNCT	-	3514	punct	SF	PROPN	-	3513
+Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	3515	list	Trine	PROPN	-	3510
 <g/>
-:	:	:	PUNCT	_	3516	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	3515
+:	:	:	PUNCT	-	3516	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	3515
 <name type="PER">
-Anne-Mette	Anne-Mette	Anne-Mette	PROPN	_	3517	appos	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	3515
-Winther	Winther	Winther	PROPN	_	3518	flat	Anne-Mette	PROPN	_	3517
-Christiansen	Christiansen	Christiansen	PROPN	_	3519	flat	Anne-Mette	PROPN	_	3517
+Anne-Mette	Anne-Mette	Anne-Mette	PROPN	-	3517	appos	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	3515
+Winther	Winther	Winther	PROPN	-	3518	flat	Anne-Mette	PROPN	-	3517
+Christiansen	Christiansen	Christiansen	PROPN	-	3519	flat	Anne-Mette	PROPN	-	3517
 </name>
-(	(	(	PUNCT	_	3520	punct	V	PROPN	_	3521
+(	(	(	PUNCT	-	3520	punct	V	PROPN	-	3521
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3521	flat	Anne-Mette	PROPN	_	3517
+V	V	V	PROPN	-	3521	flat	Anne-Mette	PROPN	-	3517
 <g/>
 </name>
-)	)	)	PUNCT	_	3522	punct	V	PROPN	_	3521
-Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	3523	flat	Anne-Mette	PROPN	_	3517
+)	)	)	PUNCT	-	3522	punct	V	PROPN	-	3521
+Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	3523	flat	Anne-Mette	PROPN	-	3517
 af	af	af	ADP	AdpType=Prep	3524	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	3526
 29	29	29	NUM	NumType=Card	3525	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	3526
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	3526	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	3523
-til	til	til	ADP	AdpType=Prep	3527	case	sundheds-	X	_	3528
-Sundheds-	Sundheds-	sundheds-	X	_	3528	nmod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	3526
-og	og	og	CCONJ	_	3529	cc	forebyggelsesudvalget	X	Foreign=Yes	3530
-Forebyggelsesudvalget	Forebyggelsesudvalget	forebyggelsesudvalget	X	Foreign=Yes	3530	conj	sundheds-	X	_	3528
+til	til	til	ADP	AdpType=Prep	3527	case	sundheds-	X	-	3528
+Sundheds-	Sundheds-	sundheds-	X	-	3528	nmod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	3526
+og	og	og	CCONJ	-	3529	cc	forebyggelsesudvalget	X	Foreign=Yes	3530
+Forebyggelsesudvalget	Forebyggelsesudvalget	forebyggelsesudvalget	X	Foreign=Yes	3530	conj	sundheds-	X	-	3528
 <g/>
-:	:	:	PUNCT	_	3531	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	3515
+:	:	:	PUNCT	-	3531	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	3515
 Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3532	list	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	3515
-blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	3533	cop	Annette	PROPN	_	3536
+blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	3533	cop	Annette	PROPN	-	3536
 <g/>
-:	:	:	PUNCT	_	3534	punct	Annette	PROPN	_	3536
-1	1	1	NUM	NumType=Card	3535	nummod	Annette	PROPN	_	3536
+:	:	:	PUNCT	-	3534	punct	Annette	PROPN	-	3536
+1	1	1	NUM	NumType=Card	3535	nummod	Annette	PROPN	-	3536
 <name type="PER">
-Annette	Annette	Annette	PROPN	_	3536	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3532
-Lind	Lind	Lind	PROPN	_	3537	flat	Annette	PROPN	_	3536
+Annette	Annette	Annette	PROPN	-	3536	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3532
+Lind	Lind	Lind	PROPN	-	3537	flat	Annette	PROPN	-	3536
 </name>
-(	(	(	PUNCT	_	3538	punct	S	PROPN	_	3539
+(	(	(	PUNCT	-	3538	punct	S	PROPN	-	3539
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	3539	flat	Annette	PROPN	_	3536
+S	S	S	PROPN	-	3539	flat	Annette	PROPN	-	3536
 <g/>
 </name>
-)	)	)	PUNCT	_	3540	punct	S	PROPN	_	3539
-2	2	2	NUM	NumType=Card	3541	nummod	Flemming	PROPN	_	3542
+)	)	)	PUNCT	-	3540	punct	S	PROPN	-	3539
+2	2	2	NUM	NumType=Card	3541	nummod	Flemming	PROPN	-	3542
 <name type="PER">
-Flemming	Flemming	Flemming	PROPN	_	3542	list	Annette	PROPN	_	3536
-Møller	Møller	Møller	PROPN	_	3543	flat	Flemming	PROPN	_	3542
-Mortensen	Mortensen	Mortensen	PROPN	_	3544	flat	Flemming	PROPN	_	3542
+Flemming	Flemming	Flemming	PROPN	-	3542	list	Annette	PROPN	-	3536
+Møller	Møller	Møller	PROPN	-	3543	flat	Flemming	PROPN	-	3542
+Mortensen	Mortensen	Mortensen	PROPN	-	3544	flat	Flemming	PROPN	-	3542
 </name>
-(	(	(	PUNCT	_	3545	punct	S	PROPN	_	3546
+(	(	(	PUNCT	-	3545	punct	S	PROPN	-	3546
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	3546	list	Flemming	PROPN	_	3542
+S	S	S	PROPN	-	3546	list	Flemming	PROPN	-	3542
 <g/>
 </name>
-)	)	)	PUNCT	_	3547	punct	S	PROPN	_	3546
-3	3	3	NUM	NumType=Card	3548	nummod	Julie	PROPN	_	3549
+)	)	)	PUNCT	-	3547	punct	S	PROPN	-	3546
+3	3	3	NUM	NumType=Card	3548	nummod	Julie	PROPN	-	3549
 <name type="PER">
-Julie	Julie	Julie	PROPN	_	3549	flat	S	PROPN	_	3546
-Skovsby	Skovsby	Skovsby	PROPN	_	3550	flat	S	PROPN	_	3546
+Julie	Julie	Julie	PROPN	-	3549	flat	S	PROPN	-	3546
+Skovsby	Skovsby	Skovsby	PROPN	-	3550	flat	S	PROPN	-	3546
 </name>
-(	(	(	PUNCT	_	3551	punct	S	PROPN	_	3552
+(	(	(	PUNCT	-	3551	punct	S	PROPN	-	3552
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	3552	flat	S	PROPN	_	3546
+S	S	S	PROPN	-	3552	flat	S	PROPN	-	3546
 <g/>
 </name>
-)	)	)	PUNCT	_	3553	punct	S	PROPN	_	3552
-4	4	4	NUM	NumType=Card	3554	nummod	Karen	PROPN	_	3555
+)	)	)	PUNCT	-	3553	punct	S	PROPN	-	3552
+4	4	4	NUM	NumType=Card	3554	nummod	Karen	PROPN	-	3555
 <name type="PER">
-Karen	Karen	Karen	PROPN	_	3555	list	S	PROPN	_	3546
-J.	J.	J.	PROPN	_	3556	flat	Karen	PROPN	_	3555
-Klint	Klint	Klint	PROPN	_	3557	flat	Karen	PROPN	_	3555
+Karen	Karen	Karen	PROPN	-	3555	list	S	PROPN	-	3546
+J.	J.	J.	PROPN	-	3556	flat	Karen	PROPN	-	3555
+Klint	Klint	Klint	PROPN	-	3557	flat	Karen	PROPN	-	3555
 </name>
-(	(	(	PUNCT	_	3558	punct	S	PROPN	_	3559
+(	(	(	PUNCT	-	3558	punct	S	PROPN	-	3559
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	3559	flat	Karen	PROPN	_	3555
+S	S	S	PROPN	-	3559	flat	Karen	PROPN	-	3555
 <g/>
 </name>
-)	)	)	PUNCT	_	3560	punct	S	PROPN	_	3559
-5	5	5	NUM	NumType=Card	3561	nummod	Anne	PROPN	_	3562
+)	)	)	PUNCT	-	3560	punct	S	PROPN	-	3559
+5	5	5	NUM	NumType=Card	3561	nummod	Anne	PROPN	-	3562
 <name type="PER">
-Anne	Anne	Anne	PROPN	_	3562	list	Karen	PROPN	_	3555
-Sina	Sina	Sina	PROPN	_	3563	flat	Anne	PROPN	_	3562
+Anne	Anne	Anne	PROPN	-	3562	list	Karen	PROPN	-	3555
+Sina	Sina	Sina	PROPN	-	3563	flat	Anne	PROPN	-	3562
 </name>
-(	(	(	PUNCT	_	3564	punct	S	PROPN	_	3565
+(	(	(	PUNCT	-	3564	punct	S	PROPN	-	3565
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	3565	list	Anne	PROPN	_	3562
+S	S	S	PROPN	-	3565	list	Anne	PROPN	-	3562
 <g/>
 </name>
-)	)	)	PUNCT	_	3566	punct	S	PROPN	_	3565
-6	6	6	NUM	NumType=Card	3567	nummod	Rasmus	PROPN	_	3568
+)	)	)	PUNCT	-	3566	punct	S	PROPN	-	3565
+6	6	6	NUM	NumType=Card	3567	nummod	Rasmus	PROPN	-	3568
 <name type="PER">
-Rasmus	Rasmus	Rasmus	PROPN	_	3568	list	S	PROPN	_	3565
-Horn	Horn	Horn	PROPN	_	3569	flat	Rasmus	PROPN	_	3568
-Langhoff	Langhoff	Langhoff	PROPN	_	3570	flat	Rasmus	PROPN	_	3568
+Rasmus	Rasmus	Rasmus	PROPN	-	3568	list	S	PROPN	-	3565
+Horn	Horn	Horn	PROPN	-	3569	flat	Rasmus	PROPN	-	3568
+Langhoff	Langhoff	Langhoff	PROPN	-	3570	flat	Rasmus	PROPN	-	3568
 </name>
-(	(	(	PUNCT	_	3571	punct	S	PROPN	_	3572
+(	(	(	PUNCT	-	3571	punct	S	PROPN	-	3572
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	3572	list	Rasmus	PROPN	_	3568
+S	S	S	PROPN	-	3572	list	Rasmus	PROPN	-	3568
 <g/>
 </name>
-)	)	)	PUNCT	_	3573	punct	S	PROPN	_	3572
-7	7	7	NUM	NumType=Card	3574	nummod	Orla	PROPN	_	3575
+)	)	)	PUNCT	-	3573	punct	S	PROPN	-	3572
+7	7	7	NUM	NumType=Card	3574	nummod	Orla	PROPN	-	3575
 <name type="PER">
-Orla	Orla	Orla	PROPN	_	3575	list	S	PROPN	_	3572
-Hav	Hav	Hav	PROPN	_	3576	flat	Orla	PROPN	_	3575
+Orla	Orla	Orla	PROPN	-	3575	list	S	PROPN	-	3572
+Hav	Hav	Hav	PROPN	-	3576	flat	Orla	PROPN	-	3575
 </name>
-(	(	(	PUNCT	_	3577	punct	S	PROPN	_	3578
+(	(	(	PUNCT	-	3577	punct	S	PROPN	-	3578
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	3578	list	Orla	PROPN	_	3575
+S	S	S	PROPN	-	3578	list	Orla	PROPN	-	3575
 <g/>
 </name>
-)	)	)	PUNCT	_	3579	punct	S	PROPN	_	3578
-8	8	8	NUM	NumType=Card	3580	nummod	Helle	PROPN	_	3581
+)	)	)	PUNCT	-	3579	punct	S	PROPN	-	3578
+8	8	8	NUM	NumType=Card	3580	nummod	Helle	PROPN	-	3581
 <name type="PER">
-Helle	Helle	Helle	PROPN	_	3581	list	S	PROPN	_	3578
-Løvgreen	Løvgreen	Løvgreen	PROPN	_	3582	flat	Helle	PROPN	_	3581
-Mølvig	Mølvig	Mølvigen	PROPN	_	3583	flat	Helle	PROPN	_	3581
+Helle	Helle	Helle	PROPN	-	3581	list	S	PROPN	-	3578
+Løvgreen	Løvgreen	Løvgreen	PROPN	-	3582	flat	Helle	PROPN	-	3581
+Mølvig	Mølvig	Mølvigen	PROPN	-	3583	flat	Helle	PROPN	-	3581
 </name>
-(	(	(	PUNCT	_	3584	punct	RV	PROPN	_	3585
+(	(	(	PUNCT	-	3584	punct	RV	PROPN	-	3585
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	3585	flat	Helle	PROPN	_	3581
+RV	RV	RV	PROPN	-	3585	flat	Helle	PROPN	-	3581
 <g/>
 </name>
-)	)	)	PUNCT	_	3586	punct	RV	PROPN	_	3585
+)	)	)	PUNCT	-	3586	punct	RV	PROPN	-	3585
 9	9	9	NUM	NumType=Card	3587	nummod	Marl	NOUN	Definite=Def Gender=Com Number=Plur	3588
 <name type="PER">
-Marlene	Marlene	Marl	NOUN	Definite=Def Gender=Com Number=Plur	3588	list	Helle	PROPN	_	3581
+Marlene	Marlene	Marl	NOUN	Definite=Def Gender=Com Number=Plur	3588	list	Helle	PROPN	-	3581
 Borst	Borst	Borst	NOUN	Definite=Ind Gender=Com Number=Sing	3589	appos	Marl	NOUN	Definite=Def Gender=Com Number=Plur	3588
-Hansen	Hansen	Hansen	PROPN	_	3590	flat	Borst	NOUN	Definite=Ind Gender=Com Number=Sing	3589
+Hansen	Hansen	Hansen	PROPN	-	3590	flat	Borst	NOUN	Definite=Ind Gender=Com Number=Sing	3589
 </name>
-(	(	(	PUNCT	_	3591	punct	RV	PROPN	_	3592
+(	(	(	PUNCT	-	3591	punct	RV	PROPN	-	3592
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	3592	appos	Borst	NOUN	Definite=Ind Gender=Com Number=Sing	3589
+RV	RV	RV	PROPN	-	3592	appos	Borst	NOUN	Definite=Ind Gender=Com Number=Sing	3589
 <g/>
 </name>
-)	)	)	PUNCT	_	3593	punct	RV	PROPN	_	3592
-10	10	10	NUM	NumType=Card	3594	nummod	Liv	PROPN	_	3595
-Liv	Liv	Liv	PROPN	_	3595	flat	RV	PROPN	_	3592
+)	)	)	PUNCT	-	3593	punct	RV	PROPN	-	3592
+10	10	10	NUM	NumType=Card	3594	nummod	Liv	PROPN	-	3595
+Liv	Liv	Liv	PROPN	-	3595	flat	RV	PROPN	-	3592
 <name type="PER">
-Holm	Holm	Holm	PROPN	_	3596	flat	RV	PROPN	_	3592
-Andersen	Andersen	Andersen	PROPN	_	3597	flat	RV	PROPN	_	3592
+Holm	Holm	Holm	PROPN	-	3596	flat	RV	PROPN	-	3592
+Andersen	Andersen	Andersen	PROPN	-	3597	flat	RV	PROPN	-	3592
 </name>
-(	(	(	PUNCT	_	3598	punct	RV	PROPN	_	3599
+(	(	(	PUNCT	-	3598	punct	RV	PROPN	-	3599
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	3599	flat	RV	PROPN	_	3592
+RV	RV	RV	PROPN	-	3599	flat	RV	PROPN	-	3592
 <g/>
 </name>
-)	)	)	PUNCT	_	3600	punct	RV	PROPN	_	3599
-11	11	11	NUM	NumType=Card	3601	nummod	Özlem	PROPN	_	3602
+)	)	)	PUNCT	-	3600	punct	RV	PROPN	-	3599
+11	11	11	NUM	NumType=Card	3601	nummod	Özlem	PROPN	-	3602
 <name type="PER">
-Özlem	Özlem	Özlem	PROPN	_	3602	list	RV	PROPN	_	3592
-Sara	Sara	Sara	PROPN	_	3603	flat	Özlem	PROPN	_	3602
-Cekic	Cekic	Cekic	PROPN	_	3604	flat	Özlem	PROPN	_	3602
+Özlem	Özlem	Özlem	PROPN	-	3602	list	RV	PROPN	-	3592
+Sara	Sara	Sara	PROPN	-	3603	flat	Özlem	PROPN	-	3602
+Cekic	Cekic	Cekic	PROPN	-	3604	flat	Özlem	PROPN	-	3602
 </name>
-(	(	(	PUNCT	_	3605	punct	SF	PROPN	_	3606
+(	(	(	PUNCT	-	3605	punct	SF	PROPN	-	3606
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	3606	list	Özlem	PROPN	_	3602
+SF	SF	SF	PROPN	-	3606	list	Özlem	PROPN	-	3602
 <g/>
 </name>
-)	)	)	PUNCT	_	3607	punct	SF	PROPN	_	3606
-12	12	12	NUM	NumType=Card	3608	nummod	Jonas	PROPN	_	3609
+)	)	)	PUNCT	-	3607	punct	SF	PROPN	-	3606
+12	12	12	NUM	NumType=Card	3608	nummod	Jonas	PROPN	-	3609
 <name type="PER">
-Jonas	Jonas	Jonas	PROPN	_	3609	list	SF	PROPN	_	3606
-Dahl	Dahl	Dahl	PROPN	_	3610	flat	Jonas	PROPN	_	3609
+Jonas	Jonas	Jonas	PROPN	-	3609	list	SF	PROPN	-	3606
+Dahl	Dahl	Dahl	PROPN	-	3610	flat	Jonas	PROPN	-	3609
 </name>
-(	(	(	PUNCT	_	3611	punct	SF	PROPN	_	3612
+(	(	(	PUNCT	-	3611	punct	SF	PROPN	-	3612
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	3612	list	Jonas	PROPN	_	3609
+SF	SF	SF	PROPN	-	3612	list	Jonas	PROPN	-	3609
 <g/>
 </name>
-)	)	)	PUNCT	_	3613	punct	SF	PROPN	_	3612
-13	13	13	NUM	NumType=Card	3614	nummod	Eigil	PROPN	_	3615
+)	)	)	PUNCT	-	3613	punct	SF	PROPN	-	3612
+13	13	13	NUM	NumType=Card	3614	nummod	Eigil	PROPN	-	3615
 <name type="PER">
-Eigil	Eigil	Eigil	PROPN	_	3615	list	SF	PROPN	_	3612
-Andersen	Andersen	Andersen	PROPN	_	3616	flat	Eigil	PROPN	_	3615
+Eigil	Eigil	Eigil	PROPN	-	3615	list	SF	PROPN	-	3612
+Andersen	Andersen	Andersen	PROPN	-	3616	flat	Eigil	PROPN	-	3615
 </name>
-(	(	(	PUNCT	_	3617	punct	SF	PROPN	_	3618
+(	(	(	PUNCT	-	3617	punct	SF	PROPN	-	3618
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	3618	flat	Eigil	PROPN	_	3615
+SF	SF	SF	PROPN	-	3618	flat	Eigil	PROPN	-	3615
 <g/>
 </name>
-)	)	)	PUNCT	_	3619	punct	SF	PROPN	_	3618
-14	14	14	NUM	NumType=Card	3620	nummod	Stine	PROPN	_	3621
+)	)	)	PUNCT	-	3619	punct	SF	PROPN	-	3618
+14	14	14	NUM	NumType=Card	3620	nummod	Stine	PROPN	-	3621
 <name type="PER">
-Stine	Stine	Stine	PROPN	_	3621	list	SF	PROPN	_	3618
-Brix	Brix	Brix	PROPN	_	3622	flat	Stine	PROPN	_	3621
+Stine	Stine	Stine	PROPN	-	3621	list	SF	PROPN	-	3618
+Brix	Brix	Brix	PROPN	-	3622	flat	Stine	PROPN	-	3621
 </name>
-(	(	(	PUNCT	_	3623	punct	EL	PROPN	_	3624
+(	(	(	PUNCT	-	3623	punct	EL	PROPN	-	3624
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	3624	flat	Stine	PROPN	_	3621
+EL	EL	EL	PROPN	-	3624	flat	Stine	PROPN	-	3621
 <g/>
 </name>
-)	)	)	PUNCT	_	3625	punct	EL	PROPN	_	3624
-15	15	15	NUM	NumType=Card	3626	nummod	Per	PROPN	_	3627
+)	)	)	PUNCT	-	3625	punct	EL	PROPN	-	3624
+15	15	15	NUM	NumType=Card	3626	nummod	Per	PROPN	-	3627
 <name type="PER">
-Per	Per	Per	PROPN	_	3627	list	SF	PROPN	_	3618
-Clausen	Clausen	Clausen	PROPN	_	3628	flat	Per	PROPN	_	3627
+Per	Per	Per	PROPN	-	3627	list	SF	PROPN	-	3618
+Clausen	Clausen	Clausen	PROPN	-	3628	flat	Per	PROPN	-	3627
 </name>
-(	(	(	PUNCT	_	3629	punct	EL	PROPN	_	3630
+(	(	(	PUNCT	-	3629	punct	EL	PROPN	-	3630
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	3630	flat	Per	PROPN	_	3627
+EL	EL	EL	PROPN	-	3630	flat	Per	PROPN	-	3627
 <g/>
 </name>
-)	)	)	PUNCT	_	3631	punct	EL	PROPN	_	3630
-16	16	16	NUM	NumType=Card	3632	nummod	Hans	PROPN	_	3633
+)	)	)	PUNCT	-	3631	punct	EL	PROPN	-	3630
+16	16	16	NUM	NumType=Card	3632	nummod	Hans	PROPN	-	3633
 <name type="PER">
-Hans	Hans	Hans	PROPN	_	3633	list	Per	PROPN	_	3627
-Andersen	Andersen	Andersen	PROPN	_	3634	flat	Hans	PROPN	_	3633
+Hans	Hans	Hans	PROPN	-	3633	list	Per	PROPN	-	3627
+Andersen	Andersen	Andersen	PROPN	-	3634	flat	Hans	PROPN	-	3633
 </name>
-(	(	(	PUNCT	_	3635	punct	V	PROPN	_	3636
+(	(	(	PUNCT	-	3635	punct	V	PROPN	-	3636
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3636	flat	Hans	PROPN	_	3633
+V	V	V	PROPN	-	3636	flat	Hans	PROPN	-	3633
 <g/>
 </name>
-)	)	)	PUNCT	_	3637	punct	V	PROPN	_	3636
-17	17	17	NUM	NumType=Card	3638	nummod	Martin	PROPN	_	3639
+)	)	)	PUNCT	-	3637	punct	V	PROPN	-	3636
+17	17	17	NUM	NumType=Card	3638	nummod	Martin	PROPN	-	3639
 <name type="PER">
-Martin	Martin	Martin	PROPN	_	3639	list	Hans	PROPN	_	3633
-Geertsen	Geertsen	Geertsen	PROPN	_	3640	flat	Martin	PROPN	_	3639
+Martin	Martin	Martin	PROPN	-	3639	list	Hans	PROPN	-	3633
+Geertsen	Geertsen	Geertsen	PROPN	-	3640	flat	Martin	PROPN	-	3639
 </name>
-(	(	(	PUNCT	_	3641	punct	V	PROPN	_	3642
+(	(	(	PUNCT	-	3641	punct	V	PROPN	-	3642
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3642	flat	Martin	PROPN	_	3639
+V	V	V	PROPN	-	3642	flat	Martin	PROPN	-	3639
 <g/>
 </name>
-)	)	)	PUNCT	_	3643	punct	V	PROPN	_	3642
-18	18	18	NUM	NumType=Card	3644	nummod	Jane	PROPN	_	3645
+)	)	)	PUNCT	-	3643	punct	V	PROPN	-	3642
+18	18	18	NUM	NumType=Card	3644	nummod	Jane	PROPN	-	3645
 <name type="PER">
-Jane	Jane	Jane	PROPN	_	3645	list	Martin	PROPN	_	3639
-Heitmann	Heitmann	Heitmann	PROPN	_	3646	flat	Jane	PROPN	_	3645
+Jane	Jane	Jane	PROPN	-	3645	list	Martin	PROPN	-	3639
+Heitmann	Heitmann	Heitmann	PROPN	-	3646	flat	Jane	PROPN	-	3645
 </name>
-(	(	(	PUNCT	_	3647	punct	V	PROPN	_	3648
+(	(	(	PUNCT	-	3647	punct	V	PROPN	-	3648
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3648	list	Jane	PROPN	_	3645
+V	V	V	PROPN	-	3648	list	Jane	PROPN	-	3645
 <g/>
 </name>
-)	)	)	PUNCT	_	3649	punct	V	PROPN	_	3648
-19	19	19	NUM	NumType=Card	3650	nummod	Sophie	PROPN	_	3651
+)	)	)	PUNCT	-	3649	punct	V	PROPN	-	3648
+19	19	19	NUM	NumType=Card	3650	nummod	Sophie	PROPN	-	3651
 <name type="PER">
-Sophie	Sophie	Sophie	PROPN	_	3651	list	V	PROPN	_	3648
-Løhde	Løhde	Løhde	NOUN	Definite=Ind Gender=Com Number=Sing	3652	flat	Sophie	PROPN	_	3651
+Sophie	Sophie	Sophie	PROPN	-	3651	list	V	PROPN	-	3648
+Løhde	Løhde	Løhde	NOUN	Definite=Ind Gender=Com Number=Sing	3652	flat	Sophie	PROPN	-	3651
 </name>
-(	(	(	PUNCT	_	3653	punct	V	PROPN	_	3654
+(	(	(	PUNCT	-	3653	punct	V	PROPN	-	3654
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3654	flat	Sophie	PROPN	_	3651
+V	V	V	PROPN	-	3654	flat	Sophie	PROPN	-	3651
 <g/>
 </name>
-)	)	)	PUNCT	_	3655	punct	V	PROPN	_	3654
-20	20	20	NUM	NumType=Card	3656	nummod	Hans	PROPN	_	3657
+)	)	)	PUNCT	-	3655	punct	V	PROPN	-	3654
+20	20	20	NUM	NumType=Card	3656	nummod	Hans	PROPN	-	3657
 <name type="PER">
-Hans	Hans	Hans	PROPN	_	3657	list	Sophie	PROPN	_	3651
-Christian	Christian	Christian	PROPN	_	3658	flat	Hans	PROPN	_	3657
-Schmidt	Schmidt	Schmidt	X	_	3659	flat	Hans	PROPN	_	3657
+Hans	Hans	Hans	PROPN	-	3657	list	Sophie	PROPN	-	3651
+Christian	Christian	Christian	PROPN	-	3658	flat	Hans	PROPN	-	3657
+Schmidt	Schmidt	Schmidt	X	-	3659	flat	Hans	PROPN	-	3657
 </name>
-(	(	(	PUNCT	_	3660	punct	V	PROPN	_	3661
+(	(	(	PUNCT	-	3660	punct	V	PROPN	-	3661
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3661	flat	Hans	PROPN	_	3657
+V	V	V	PROPN	-	3661	flat	Hans	PROPN	-	3657
 <g/>
 </name>
-)	)	)	PUNCT	_	3662	punct	V	PROPN	_	3661
-21	21	21	NUM	NumType=Card	3663	nummod	Eyvind	PROPN	_	3664
+)	)	)	PUNCT	-	3662	punct	V	PROPN	-	3661
+21	21	21	NUM	NumType=Card	3663	nummod	Eyvind	PROPN	-	3664
 <name type="PER">
-Eyvind	Eyvind	Eyvind	PROPN	_	3664	list	Hans	PROPN	_	3657
-Vesselbo	Vesselbo	Vesselbo	PROPN	_	3665	flat	Eyvind	PROPN	_	3664
+Eyvind	Eyvind	Eyvind	PROPN	-	3664	list	Hans	PROPN	-	3657
+Vesselbo	Vesselbo	Vesselbo	PROPN	-	3665	flat	Eyvind	PROPN	-	3664
 </name>
-(	(	(	PUNCT	_	3666	punct	V	PROPN	_	3667
+(	(	(	PUNCT	-	3666	punct	V	PROPN	-	3667
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3667	flat	Eyvind	PROPN	_	3664
+V	V	V	PROPN	-	3667	flat	Eyvind	PROPN	-	3664
 <g/>
 </name>
-)	)	)	PUNCT	_	3668	punct	V	PROPN	_	3667
-22	22	22	NUM	NumType=Card	3669	nummod	Finn	PROPN	_	3670
+)	)	)	PUNCT	-	3668	punct	V	PROPN	-	3667
+22	22	22	NUM	NumType=Card	3669	nummod	Finn	PROPN	-	3670
 <name type="PER">
-Finn	Finn	Finn	PROPN	_	3670	list	Eyvind	PROPN	_	3664
-Thranum	Thranum	Thranum	PROPN	_	3671	flat	Finn	PROPN	_	3670
+Finn	Finn	Finn	PROPN	-	3670	list	Eyvind	PROPN	-	3664
+Thranum	Thranum	Thranum	PROPN	-	3671	flat	Finn	PROPN	-	3670
 </name>
-(	(	(	PUNCT	_	3672	punct	V	PROPN	_	3673
+(	(	(	PUNCT	-	3672	punct	V	PROPN	-	3673
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3673	flat	Finn	PROPN	_	3670
+V	V	V	PROPN	-	3673	flat	Finn	PROPN	-	3670
 <g/>
 </name>
-)	)	)	PUNCT	_	3674	punct	V	PROPN	_	3673
-23	23	23	NUM	NumType=Card	3675	nummod	Liselott	PROPN	_	3676
+)	)	)	PUNCT	-	3674	punct	V	PROPN	-	3673
+23	23	23	NUM	NumType=Card	3675	nummod	Liselott	PROPN	-	3676
 <name type="PER">
-Liselott	Liselott	Liselott	PROPN	_	3676	list	Finn	PROPN	_	3670
-Blixt	Blixt	Blixt	PROPN	_	3677	flat	Liselott	PROPN	_	3676
+Liselott	Liselott	Liselott	PROPN	-	3676	list	Finn	PROPN	-	3670
+Blixt	Blixt	Blixt	PROPN	-	3677	flat	Liselott	PROPN	-	3676
 </name>
-(	(	(	PUNCT	_	3678	punct	DF	PROPN	_	3679
+(	(	(	PUNCT	-	3678	punct	DF	PROPN	-	3679
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	3679	flat	Liselott	PROPN	_	3676
+DF	DF	DF	PROPN	-	3679	flat	Liselott	PROPN	-	3676
 <g/>
 </name>
-)	)	)	PUNCT	_	3680	punct	DF	PROPN	_	3679
-24	24	24	NUM	NumType=Card	3681	nummod	Jens	PROPN	_	3682
+)	)	)	PUNCT	-	3680	punct	DF	PROPN	-	3679
+24	24	24	NUM	NumType=Card	3681	nummod	Jens	PROPN	-	3682
 <name type="PER">
-Jens	Jens	Jens	PROPN	_	3682	list	Liselott	PROPN	_	3676
-Henrik	Henrik	Henrik	PROPN	_	3683	flat	Jens	PROPN	_	3682
-Thulesen	Thulesen	Thulesen	PROPN	_	3684	flat	Jens	PROPN	_	3682
-Dahl	Dahl	Dahl	PROPN	_	3685	flat	Jens	PROPN	_	3682
+Jens	Jens	Jens	PROPN	-	3682	list	Liselott	PROPN	-	3676
+Henrik	Henrik	Henrik	PROPN	-	3683	flat	Jens	PROPN	-	3682
+Thulesen	Thulesen	Thulesen	PROPN	-	3684	flat	Jens	PROPN	-	3682
+Dahl	Dahl	Dahl	PROPN	-	3685	flat	Jens	PROPN	-	3682
 </name>
-(	(	(	PUNCT	_	3686	punct	DF	PROPN	_	3687
+(	(	(	PUNCT	-	3686	punct	DF	PROPN	-	3687
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	3687	flat	Jens	PROPN	_	3682
+DF	DF	DF	PROPN	-	3687	flat	Jens	PROPN	-	3682
 <g/>
 </name>
-)	)	)	PUNCT	_	3688	punct	DF	PROPN	_	3687
-25	25	25	NUM	NumType=Card	3689	nummod	Karina	PROPN	_	3690
+)	)	)	PUNCT	-	3688	punct	DF	PROPN	-	3687
+25	25	25	NUM	NumType=Card	3689	nummod	Karina	PROPN	-	3690
 <name type="PER">
-Karina	Karina	Karina	PROPN	_	3690	list	Jens	PROPN	_	3682
-Adsbøl	Adsbøl	Adsbøl	PROPN	_	3691	flat	Karina	PROPN	_	3690
+Karina	Karina	Karina	PROPN	-	3690	list	Jens	PROPN	-	3682
+Adsbøl	Adsbøl	Adsbøl	PROPN	-	3691	flat	Karina	PROPN	-	3690
 </name>
-(	(	(	PUNCT	_	3692	punct	DF	PROPN	_	3693
+(	(	(	PUNCT	-	3692	punct	DF	PROPN	-	3693
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	3693	flat	Karina	PROPN	_	3690
+DF	DF	DF	PROPN	-	3693	flat	Karina	PROPN	-	3690
 <g/>
 </name>
-)	)	)	PUNCT	_	3694	punct	DF	PROPN	_	3693
-26	26	26	NUM	NumType=Card	3695	nummod	Anita	PROPN	_	3696
+)	)	)	PUNCT	-	3694	punct	DF	PROPN	-	3693
+26	26	26	NUM	NumType=Card	3695	nummod	Anita	PROPN	-	3696
 <name type="PER">
-Anita	Anita	Anita	PROPN	_	3696	list	Karina	PROPN	_	3690
-Christensen	Christensen	Christensen	PROPN	_	3697	flat	Anita	PROPN	_	3696
+Anita	Anita	Anita	PROPN	-	3696	list	Karina	PROPN	-	3690
+Christensen	Christensen	Christensen	PROPN	-	3697	flat	Anita	PROPN	-	3696
 </name>
-(	(	(	PUNCT	_	3698	punct	DF	PROPN	_	3699
+(	(	(	PUNCT	-	3698	punct	DF	PROPN	-	3699
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	3699	flat	Anita	PROPN	_	3696
+DF	DF	DF	PROPN	-	3699	flat	Anita	PROPN	-	3696
 <g/>
 </name>
-)	)	)	PUNCT	_	3700	punct	DF	PROPN	_	3699
-27	27	27	NUM	NumType=Card	3701	nummod	Simon	PROPN	_	3702
+)	)	)	PUNCT	-	3700	punct	DF	PROPN	-	3699
+27	27	27	NUM	NumType=Card	3701	nummod	Simon	PROPN	-	3702
 <name type="PER">
-Simon	Simon	Simon	PROPN	_	3702	list	Anita	PROPN	_	3696
-Emil	Emil	Emil	PROPN	_	3703	flat	Simon	PROPN	_	3702
-Ammitzbøll	Ammitzbøll	Ammitzbøll	PROPN	_	3704	flat	Simon	PROPN	_	3702
+Simon	Simon	Simon	PROPN	-	3702	list	Anita	PROPN	-	3696
+Emil	Emil	Emil	PROPN	-	3703	flat	Simon	PROPN	-	3702
+Ammitzbøll	Ammitzbøll	Ammitzbøll	PROPN	-	3704	flat	Simon	PROPN	-	3702
 </name>
-(	(	(	PUNCT	_	3705	punct	LA	PROPN	_	3706
+(	(	(	PUNCT	-	3705	punct	LA	PROPN	-	3706
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	3706	flat	Simon	PROPN	_	3702
+LA	LA	LA	PROPN	-	3706	flat	Simon	PROPN	-	3702
 <g/>
 </name>
-)	)	)	PUNCT	_	3707	punct	LA	PROPN	_	3706
-28	28	28	NUM	NumType=Card	3708	nummod	Thyra	PROPN	_	3709
+)	)	)	PUNCT	-	3707	punct	LA	PROPN	-	3706
+28	28	28	NUM	NumType=Card	3708	nummod	Thyra	PROPN	-	3709
 <name type="PER">
-Thyra	Thyra	Thyra	PROPN	_	3709	list	Simon	PROPN	_	3702
-Frank	Frank	Frank	PROPN	_	3710	flat	Thyra	PROPN	_	3709
+Thyra	Thyra	Thyra	PROPN	-	3709	list	Simon	PROPN	-	3702
+Frank	Frank	Frank	PROPN	-	3710	flat	Thyra	PROPN	-	3709
 </name>
-(	(	(	PUNCT	_	3711	punct	LA	PROPN	_	3712
+(	(	(	PUNCT	-	3711	punct	LA	PROPN	-	3712
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	3712	flat	Thyra	PROPN	_	3709
+LA	LA	LA	PROPN	-	3712	flat	Thyra	PROPN	-	3709
 <g/>
 </name>
-)	)	)	PUNCT	_	3713	punct	LA	PROPN	_	3712
-29	29	29	NUM	NumType=Card	3714	nummod	Mai	PROPN	_	3715
+)	)	)	PUNCT	-	3713	punct	LA	PROPN	-	3712
+29	29	29	NUM	NumType=Card	3714	nummod	Mai	PROPN	-	3715
 <name type="PER">
-Mai	Mai	Mai	PROPN	_	3715	list	Thyra	PROPN	_	3709
-Mercado	Mercado	Mercado	PROPN	_	3716	flat	Mai	PROPN	_	3715
+Mai	Mai	Mai	PROPN	-	3715	list	Thyra	PROPN	-	3709
+Mercado	Mercado	Mercado	PROPN	-	3716	flat	Mai	PROPN	-	3715
 </name>
-(	(	(	PUNCT	_	3717	punct	KF	PROPN	_	3718
+(	(	(	PUNCT	-	3717	punct	KF	PROPN	-	3718
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	3718	flat	Mai	PROPN	_	3715
+KF	KF	KF	PROPN	-	3718	flat	Mai	PROPN	-	3715
 <g/>
 </name>
-)	)	)	PUNCT	_	3719	punct	KF	PROPN	_	3718
-Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	3720	list	Mai	PROPN	_	3715
+)	)	)	PUNCT	-	3719	punct	KF	PROPN	-	3718
+Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	3720	list	Mai	PROPN	-	3715
 <g/>
-:	:	:	PUNCT	_	3721	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	3720
+:	:	:	PUNCT	-	3721	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	3720
 <name type="PER">
-Karen	Karen	Karen	PROPN	_	3722	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	3720
-J.	J.	J.	PROPN	_	3723	flat	Karen	PROPN	_	3722
-Klint	Klint	Klint	PROPN	_	3724	flat	Karen	PROPN	_	3722
+Karen	Karen	Karen	PROPN	-	3722	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	3720
+J.	J.	J.	PROPN	-	3723	flat	Karen	PROPN	-	3722
+Klint	Klint	Klint	PROPN	-	3724	flat	Karen	PROPN	-	3722
 </name>
-(	(	(	PUNCT	_	3725	punct	S	PROPN	_	3726
+(	(	(	PUNCT	-	3725	punct	S	PROPN	-	3726
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	3726	flat	Karen	PROPN	_	3722
+S	S	S	PROPN	-	3726	flat	Karen	PROPN	-	3722
 <g/>
 </name>
-)	)	)	PUNCT	_	3727	punct	S	PROPN	_	3726
-Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	3728	list	Karen	PROPN	_	3722
+)	)	)	PUNCT	-	3727	punct	S	PROPN	-	3726
+Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	3728	list	Karen	PROPN	-	3722
 <g/>
-:	:	:	PUNCT	_	3729	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	3728
+:	:	:	PUNCT	-	3729	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	3728
 <name type="PER">
-Hans	Hans	Hans	PROPN	_	3730	appos	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	3728
-Andersen	Andersen	Andersen	PROPN	_	3731	flat	Hans	PROPN	_	3730
+Hans	Hans	Hans	PROPN	-	3730	appos	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	3728
+Andersen	Andersen	Andersen	PROPN	-	3731	flat	Hans	PROPN	-	3730
 </name>
-(	(	(	PUNCT	_	3732	punct	V	PROPN	_	3733
+(	(	(	PUNCT	-	3732	punct	V	PROPN	-	3733
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3733	flat	Hans	PROPN	_	3730
+V	V	V	PROPN	-	3733	flat	Hans	PROPN	-	3730
 <g/>
 </name>
-)	)	)	PUNCT	_	3734	punct	V	PROPN	_	3733
-Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	3735	flat	Hans	PROPN	_	3730
+)	)	)	PUNCT	-	3734	punct	V	PROPN	-	3733
+Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	3735	flat	Hans	PROPN	-	3730
 af	af	af	ADP	AdpType=Prep	3736	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	3738
 29	29	29	NUM	NumType=Card	3737	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	3738
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	3738	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	3735
 til	til	til	ADP	AdpType=Prep	3739	case	transportudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	3740
 Transportudvalget	Transportudvalget	transportudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	3740	nmod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	3738
 <g/>
-:	:	:	PUNCT	_	3741	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	3728
-Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3742	acl_relcl	1	NUM	NumType=Card	3745
+:	:	:	PUNCT	-	3741	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	3728
+Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3742	acl:relcl	1	NUM	NumType=Card	3745
 blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	3743	cop	1	NUM	NumType=Card	3745
 <g/>
-:	:	:	PUNCT	_	3744	punct	1	NUM	NumType=Card	3745
+:	:	:	PUNCT	-	3744	punct	1	NUM	NumType=Card	3745
 1	1	1	NUM	NumType=Card	3745	nummod	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	3728
 <name type="PER">
-Jens	Jens	Jens	PROPN	_	3746	list	1	NUM	NumType=Card	3745
-Joel	Joel	Joel	PROPN	_	3747	flat	Jens	PROPN	_	3746
+Jens	Jens	Jens	PROPN	-	3746	list	1	NUM	NumType=Card	3745
+Joel	Joel	Joel	PROPN	-	3747	flat	Jens	PROPN	-	3746
 </name>
-(	(	(	PUNCT	_	3748	punct	S	PROPN	_	3749
+(	(	(	PUNCT	-	3748	punct	S	PROPN	-	3749
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	3749	flat	Jens	PROPN	_	3746
+S	S	S	PROPN	-	3749	flat	Jens	PROPN	-	3746
 <g/>
 </name>
-)	)	)	PUNCT	_	3750	punct	S	PROPN	_	3749
-2	2	2	NUM	NumType=Card	3751	nummod	Karin	PROPN	_	3752
+)	)	)	PUNCT	-	3750	punct	S	PROPN	-	3749
+2	2	2	NUM	NumType=Card	3751	nummod	Karin	PROPN	-	3752
 <name type="PER">
-Karin	Karin	Karin	PROPN	_	3752	list	Jens	PROPN	_	3746
-Gaardsted	Gaardsted	Gaardsted	PROPN	_	3753	flat	Karin	PROPN	_	3752
+Karin	Karin	Karin	PROPN	-	3752	list	Jens	PROPN	-	3746
+Gaardsted	Gaardsted	Gaardsted	PROPN	-	3753	flat	Karin	PROPN	-	3752
 </name>
-(	(	(	PUNCT	_	3754	punct	S	PROPN	_	3755
+(	(	(	PUNCT	-	3754	punct	S	PROPN	-	3755
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	3755	list	Karin	PROPN	_	3752
+S	S	S	PROPN	-	3755	list	Karin	PROPN	-	3752
 <g/>
 </name>
-)	)	)	PUNCT	_	3756	punct	S	PROPN	_	3755
-3	3	3	NUM	NumType=Card	3757	nummod	Rasmus	PROPN	_	3758
+)	)	)	PUNCT	-	3756	punct	S	PROPN	-	3755
+3	3	3	NUM	NumType=Card	3757	nummod	Rasmus	PROPN	-	3758
 <name type="PER">
-Rasmus	Rasmus	Rasmus	PROPN	_	3758	list	Jens	PROPN	_	3746
-Horn	Horn	Horn	PROPN	_	3759	flat	Rasmus	PROPN	_	3758
-Langhoff	Langhoff	Langhoff	PROPN	_	3760	flat	Rasmus	PROPN	_	3758
+Rasmus	Rasmus	Rasmus	PROPN	-	3758	list	Jens	PROPN	-	3746
+Horn	Horn	Horn	PROPN	-	3759	flat	Rasmus	PROPN	-	3758
+Langhoff	Langhoff	Langhoff	PROPN	-	3760	flat	Rasmus	PROPN	-	3758
 </name>
-(	(	(	PUNCT	_	3761	punct	S	PROPN	_	3762
+(	(	(	PUNCT	-	3761	punct	S	PROPN	-	3762
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	3762	flat	Rasmus	PROPN	_	3758
+S	S	S	PROPN	-	3762	flat	Rasmus	PROPN	-	3758
 <g/>
 </name>
-)	)	)	PUNCT	_	3763	punct	S	PROPN	_	3762
-4	4	4	NUM	NumType=Card	3764	nummod	Mette	PROPN	_	3765
+)	)	)	PUNCT	-	3763	punct	S	PROPN	-	3762
+4	4	4	NUM	NumType=Card	3764	nummod	Mette	PROPN	-	3765
 <name type="PER">
-Mette	Mette	Mette	PROPN	_	3765	list	Rasmus	PROPN	_	3758
-Reissmann	Reissmann	Reissmann	PROPN	_	3766	flat	Mette	PROPN	_	3765
+Mette	Mette	Mette	PROPN	-	3765	list	Rasmus	PROPN	-	3758
+Reissmann	Reissmann	Reissmann	PROPN	-	3766	flat	Mette	PROPN	-	3765
 </name>
-(	(	(	PUNCT	_	3767	punct	S	PROPN	_	3768
+(	(	(	PUNCT	-	3767	punct	S	PROPN	-	3768
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	3768	flat	Mette	PROPN	_	3765
+S	S	S	PROPN	-	3768	flat	Mette	PROPN	-	3765
 <g/>
 </name>
-)	)	)	PUNCT	_	3769	punct	S	PROPN	_	3768
-5	5	5	NUM	NumType=Card	3770	nummod	Orla	PROPN	_	3771
+)	)	)	PUNCT	-	3769	punct	S	PROPN	-	3768
+5	5	5	NUM	NumType=Card	3770	nummod	Orla	PROPN	-	3771
 <name type="PER">
-Orla	Orla	Orla	PROPN	_	3771	list	Mette	PROPN	_	3765
-Hav	Hav	Hav	PROPN	_	3772	flat	Orla	PROPN	_	3771
+Orla	Orla	Orla	PROPN	-	3771	list	Mette	PROPN	-	3765
+Hav	Hav	Hav	PROPN	-	3772	flat	Orla	PROPN	-	3771
 </name>
-(	(	(	PUNCT	_	3773	punct	S	PROPN	_	3774
+(	(	(	PUNCT	-	3773	punct	S	PROPN	-	3774
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	3774	flat	Orla	PROPN	_	3771
+S	S	S	PROPN	-	3774	flat	Orla	PROPN	-	3771
 <g/>
 </name>
-)	)	)	PUNCT	_	3775	punct	S	PROPN	_	3774
-6	6	6	NUM	NumType=Card	3776	nummod	Rasmus	PROPN	_	3777
+)	)	)	PUNCT	-	3775	punct	S	PROPN	-	3774
+6	6	6	NUM	NumType=Card	3776	nummod	Rasmus	PROPN	-	3777
 <name type="PER">
-Rasmus	Rasmus	Rasmus	PROPN	_	3777	list	Orla	PROPN	_	3771
-Prehn	Prehn	Prehn	PROPN	_	3778	flat	Rasmus	PROPN	_	3777
+Rasmus	Rasmus	Rasmus	PROPN	-	3777	list	Orla	PROPN	-	3771
+Prehn	Prehn	Prehn	PROPN	-	3778	flat	Rasmus	PROPN	-	3777
 </name>
-(	(	(	PUNCT	_	3779	punct	S	PROPN	_	3780
+(	(	(	PUNCT	-	3779	punct	S	PROPN	-	3780
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	3780	flat	Rasmus	PROPN	_	3777
+S	S	S	PROPN	-	3780	flat	Rasmus	PROPN	-	3777
 <g/>
 </name>
-)	)	)	PUNCT	_	3781	punct	S	PROPN	_	3780
-7	7	7	NUM	NumType=Card	3782	nummod	Anne	PROPN	_	3783
+)	)	)	PUNCT	-	3781	punct	S	PROPN	-	3780
+7	7	7	NUM	NumType=Card	3782	nummod	Anne	PROPN	-	3783
 <name type="PER">
-Anne	Anne	Anne	PROPN	_	3783	list	Rasmus	PROPN	_	3777
-Sina	Sina	Sina	PROPN	_	3784	flat	Anne	PROPN	_	3783
+Anne	Anne	Anne	PROPN	-	3783	list	Rasmus	PROPN	-	3777
+Sina	Sina	Sina	PROPN	-	3784	flat	Anne	PROPN	-	3783
 </name>
-(	(	(	PUNCT	_	3785	punct	S	PROPN	_	3786
+(	(	(	PUNCT	-	3785	punct	S	PROPN	-	3786
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	3786	list	Anne	PROPN	_	3783
+S	S	S	PROPN	-	3786	list	Anne	PROPN	-	3783
 <g/>
 </name>
-)	)	)	PUNCT	_	3787	punct	S	PROPN	_	3786
-8	8	8	NUM	NumType=Card	3788	nummod	Andreas	PROPN	_	3789
+)	)	)	PUNCT	-	3787	punct	S	PROPN	-	3786
+8	8	8	NUM	NumType=Card	3788	nummod	Andreas	PROPN	-	3789
 <name type="PER">
-Andreas	Andreas	Andreas	PROPN	_	3789	list	S	PROPN	_	3786
-Steenberg	Steenberg	Steenberg	PROPN	_	3790	flat	Andreas	PROPN	_	3789
+Andreas	Andreas	Andreas	PROPN	-	3789	list	S	PROPN	-	3786
+Steenberg	Steenberg	Steenberg	PROPN	-	3790	flat	Andreas	PROPN	-	3789
 </name>
-(	(	(	PUNCT	_	3791	punct	RV	PROPN	_	3792
+(	(	(	PUNCT	-	3791	punct	RV	PROPN	-	3792
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	3792	flat	Andreas	PROPN	_	3789
+RV	RV	RV	PROPN	-	3792	flat	Andreas	PROPN	-	3789
 <g/>
 </name>
-)	)	)	PUNCT	_	3793	punct	RV	PROPN	_	3792
-9	9	9	NUM	NumType=Card	3794	nummod	Ida	PROPN	_	3795
+)	)	)	PUNCT	-	3793	punct	RV	PROPN	-	3792
+9	9	9	NUM	NumType=Card	3794	nummod	Ida	PROPN	-	3795
 <name type="PER">
-Ida	Ida	Ida	PROPN	_	3795	list	Andreas	PROPN	_	3789
-Auken	Auken	Auken	PROPN	_	3796	flat	Ida	PROPN	_	3795
+Ida	Ida	Ida	PROPN	-	3795	list	Andreas	PROPN	-	3789
+Auken	Auken	Auken	PROPN	-	3796	flat	Ida	PROPN	-	3795
 </name>
-(	(	(	PUNCT	_	3797	punct	RV	PROPN	_	3798
+(	(	(	PUNCT	-	3797	punct	RV	PROPN	-	3798
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	3798	flat	Ida	PROPN	_	3795
+RV	RV	RV	PROPN	-	3798	flat	Ida	PROPN	-	3795
 <g/>
 </name>
-)	)	)	PUNCT	_	3799	punct	RV	PROPN	_	3798
-10	10	10	NUM	NumType=Card	3800	nummod	Lone	PROPN	_	3801
+)	)	)	PUNCT	-	3799	punct	RV	PROPN	-	3798
+10	10	10	NUM	NumType=Card	3800	nummod	Lone	PROPN	-	3801
 <name type="PER">
-Lone	Lone	Lone	PROPN	_	3801	list	Ida	PROPN	_	3795
-Loklindt	Loklindt	Loklindt	PROPN	_	3802	flat	Lone	PROPN	_	3801
+Lone	Lone	Lone	PROPN	-	3801	list	Ida	PROPN	-	3795
+Loklindt	Loklindt	Loklindt	PROPN	-	3802	flat	Lone	PROPN	-	3801
 </name>
-(	(	(	PUNCT	_	3803	punct	RV	PROPN	_	3804
+(	(	(	PUNCT	-	3803	punct	RV	PROPN	-	3804
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	3804	flat	Lone	PROPN	_	3801
+RV	RV	RV	PROPN	-	3804	flat	Lone	PROPN	-	3801
 <g/>
 </name>
-)	)	)	PUNCT	_	3805	punct	RV	PROPN	_	3804
-11	11	11	NUM	NumType=Card	3806	nummod	Anne	PROPN	_	3807
+)	)	)	PUNCT	-	3805	punct	RV	PROPN	-	3804
+11	11	11	NUM	NumType=Card	3806	nummod	Anne	PROPN	-	3807
 <name type="PER">
-Anne	Anne	Anne	PROPN	_	3807	list	Lone	PROPN	_	3801
-Baastrup	Baastrup	Baastrup	PROPN	_	3808	flat	Anne	PROPN	_	3807
+Anne	Anne	Anne	PROPN	-	3807	list	Lone	PROPN	-	3801
+Baastrup	Baastrup	Baastrup	PROPN	-	3808	flat	Anne	PROPN	-	3807
 </name>
-(	(	(	PUNCT	_	3809	punct	SF	PROPN	_	3810
+(	(	(	PUNCT	-	3809	punct	SF	PROPN	-	3810
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	3810	flat	Anne	PROPN	_	3807
+SF	SF	SF	PROPN	-	3810	flat	Anne	PROPN	-	3807
 <g/>
 </name>
-)	)	)	PUNCT	_	3811	punct	SF	PROPN	_	3810
-12	12	12	NUM	NumType=Card	3812	nummod	Jonas	PROPN	_	3813
+)	)	)	PUNCT	-	3811	punct	SF	PROPN	-	3810
+12	12	12	NUM	NumType=Card	3812	nummod	Jonas	PROPN	-	3813
 <name type="PER">
-Jonas	Jonas	Jonas	PROPN	_	3813	list	Anne	PROPN	_	3807
-Dahl	Dahl	Dahl	PROPN	_	3814	flat	Jonas	PROPN	_	3813
+Jonas	Jonas	Jonas	PROPN	-	3813	list	Anne	PROPN	-	3807
+Dahl	Dahl	Dahl	PROPN	-	3814	flat	Jonas	PROPN	-	3813
 </name>
-(	(	(	PUNCT	_	3815	punct	SF	PROPN	_	3816
+(	(	(	PUNCT	-	3815	punct	SF	PROPN	-	3816
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	3816	list	Jonas	PROPN	_	3813
+SF	SF	SF	PROPN	-	3816	list	Jonas	PROPN	-	3813
 <g/>
 </name>
-)	)	)	PUNCT	_	3817	punct	SF	PROPN	_	3816
-13	13	13	NUM	NumType=Card	3818	nummod	Henning	PROPN	_	3819
+)	)	)	PUNCT	-	3817	punct	SF	PROPN	-	3816
+13	13	13	NUM	NumType=Card	3818	nummod	Henning	PROPN	-	3819
 <name type="PER">
-Henning	Henning	Henning	PROPN	_	3819	list	SF	PROPN	_	3816
-Hyllested	Hyllested	Hyllested	PROPN	_	3820	flat	Henning	PROPN	_	3819
+Henning	Henning	Henning	PROPN	-	3819	list	SF	PROPN	-	3816
+Hyllested	Hyllested	Hyllested	PROPN	-	3820	flat	Henning	PROPN	-	3819
 </name>
-(	(	(	PUNCT	_	3821	punct	EL	PROPN	_	3822
+(	(	(	PUNCT	-	3821	punct	EL	PROPN	-	3822
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	3822	flat	Henning	PROPN	_	3819
+EL	EL	EL	PROPN	-	3822	flat	Henning	PROPN	-	3819
 <g/>
 </name>
-)	)	)	PUNCT	_	3823	punct	EL	PROPN	_	3822
-14	14	14	NUM	NumType=Card	3824	nummod	Per	PROPN	_	3825
+)	)	)	PUNCT	-	3823	punct	EL	PROPN	-	3822
+14	14	14	NUM	NumType=Card	3824	nummod	Per	PROPN	-	3825
 <name type="PER">
-Per	Per	Per	PROPN	_	3825	list	Henning	PROPN	_	3819
-Clausen	Clausen	Clausen	PROPN	_	3826	flat	Per	PROPN	_	3825
+Per	Per	Per	PROPN	-	3825	list	Henning	PROPN	-	3819
+Clausen	Clausen	Clausen	PROPN	-	3826	flat	Per	PROPN	-	3825
 </name>
-(	(	(	PUNCT	_	3827	punct	EL	PROPN	_	3828
+(	(	(	PUNCT	-	3827	punct	EL	PROPN	-	3828
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	3828	flat	Per	PROPN	_	3825
+EL	EL	EL	PROPN	-	3828	flat	Per	PROPN	-	3825
 <g/>
 </name>
-)	)	)	PUNCT	_	3829	punct	EL	PROPN	_	3828
-15	15	15	NUM	NumType=Card	3830	nummod	Lars	PROPN	_	3831
+)	)	)	PUNCT	-	3829	punct	EL	PROPN	-	3828
+15	15	15	NUM	NumType=Card	3830	nummod	Lars	PROPN	-	3831
 <name type="PER">
-Lars	Lars	Lars	PROPN	_	3831	list	Henning	PROPN	_	3819
-Dohn	Dohn	Dohn	PROPN	_	3832	flat	Lars	PROPN	_	3831
+Lars	Lars	Lars	PROPN	-	3831	list	Henning	PROPN	-	3819
+Dohn	Dohn	Dohn	PROPN	-	3832	flat	Lars	PROPN	-	3831
 </name>
-(	(	(	PUNCT	_	3833	punct	EL	PROPN	_	3834
+(	(	(	PUNCT	-	3833	punct	EL	PROPN	-	3834
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	3834	flat	Lars	PROPN	_	3831
+EL	EL	EL	PROPN	-	3834	flat	Lars	PROPN	-	3831
 <g/>
 </name>
-)	)	)	PUNCT	_	3835	punct	EL	PROPN	_	3834
-16	16	16	NUM	NumType=Card	3836	nummod	Thomas	PROPN	_	3837
+)	)	)	PUNCT	-	3835	punct	EL	PROPN	-	3834
+16	16	16	NUM	NumType=Card	3836	nummod	Thomas	PROPN	-	3837
 <name type="PER">
-Thomas	Thomas	Thomas	PROPN	_	3837	list	Lars	PROPN	_	3831
-Danielsen	Danielsen	Danielsen	PROPN	_	3838	flat	Thomas	PROPN	_	3837
+Thomas	Thomas	Thomas	PROPN	-	3837	list	Lars	PROPN	-	3831
+Danielsen	Danielsen	Danielsen	PROPN	-	3838	flat	Thomas	PROPN	-	3837
 </name>
-(	(	(	PUNCT	_	3839	punct	V	PROPN	_	3840
+(	(	(	PUNCT	-	3839	punct	V	PROPN	-	3840
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3840	flat	Thomas	PROPN	_	3837
+V	V	V	PROPN	-	3840	flat	Thomas	PROPN	-	3837
 <g/>
 </name>
-)	)	)	PUNCT	_	3841	punct	V	PROPN	_	3840
-17	17	17	NUM	NumType=Card	3842	nummod	Martin	PROPN	_	3843
+)	)	)	PUNCT	-	3841	punct	V	PROPN	-	3840
+17	17	17	NUM	NumType=Card	3842	nummod	Martin	PROPN	-	3843
 <name type="PER">
-Martin	Martin	Martin	PROPN	_	3843	list	Thomas	PROPN	_	3837
-Geertsen	Geertsen	Geertsen	PROPN	_	3844	flat	Martin	PROPN	_	3843
+Martin	Martin	Martin	PROPN	-	3843	list	Thomas	PROPN	-	3837
+Geertsen	Geertsen	Geertsen	PROPN	-	3844	flat	Martin	PROPN	-	3843
 </name>
-(	(	(	PUNCT	_	3845	punct	V	PROPN	_	3846
+(	(	(	PUNCT	-	3845	punct	V	PROPN	-	3846
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3846	list	Martin	PROPN	_	3843
+V	V	V	PROPN	-	3846	list	Martin	PROPN	-	3843
 <g/>
 </name>
-)	)	)	PUNCT	_	3847	punct	V	PROPN	_	3846
-18	18	18	NUM	NumType=Card	3848	nummod	Flemming	PROPN	_	3849
+)	)	)	PUNCT	-	3847	punct	V	PROPN	-	3846
+18	18	18	NUM	NumType=Card	3848	nummod	Flemming	PROPN	-	3849
 <name type="PER">
-Flemming	Flemming	Flemming	PROPN	_	3849	list	V	PROPN	_	3846
-Damgaard	Damgaard	Damgaard	PROPN	_	3850	flat	Flemming	PROPN	_	3849
-Larsen	Larsen	Larsen	PROPN	_	3851	flat	Flemming	PROPN	_	3849
+Flemming	Flemming	Flemming	PROPN	-	3849	list	V	PROPN	-	3846
+Damgaard	Damgaard	Damgaard	PROPN	-	3850	flat	Flemming	PROPN	-	3849
+Larsen	Larsen	Larsen	PROPN	-	3851	flat	Flemming	PROPN	-	3849
 </name>
-(	(	(	PUNCT	_	3852	punct	V	PROPN	_	3853
+(	(	(	PUNCT	-	3852	punct	V	PROPN	-	3853
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3853	flat	Flemming	PROPN	_	3849
+V	V	V	PROPN	-	3853	flat	Flemming	PROPN	-	3849
 <g/>
 </name>
-)	)	)	PUNCT	_	3854	punct	V	PROPN	_	3853
-19	19	19	NUM	NumType=Card	3855	nummod	Lars	PROPN	_	3856
+)	)	)	PUNCT	-	3854	punct	V	PROPN	-	3853
+19	19	19	NUM	NumType=Card	3855	nummod	Lars	PROPN	-	3856
 <name type="PER">
-Lars	Lars	Lars	PROPN	_	3856	list	Flemming	PROPN	_	3849
-Christian	Christian	Christian	PROPN	_	3857	flat	Lars	PROPN	_	3856
-Lilleholt	Lilleholt	Lilleholt	PROPN	_	3858	flat	Lars	PROPN	_	3856
+Lars	Lars	Lars	PROPN	-	3856	list	Flemming	PROPN	-	3849
+Christian	Christian	Christian	PROPN	-	3857	flat	Lars	PROPN	-	3856
+Lilleholt	Lilleholt	Lilleholt	PROPN	-	3858	flat	Lars	PROPN	-	3856
 </name>
-(	(	(	PUNCT	_	3859	punct	V	PROPN	_	3860
+(	(	(	PUNCT	-	3859	punct	V	PROPN	-	3860
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3860	flat	Lars	PROPN	_	3856
+V	V	V	PROPN	-	3860	flat	Lars	PROPN	-	3856
 <g/>
 </name>
-)	)	)	PUNCT	_	3861	punct	V	PROPN	_	3860
-20	20	20	NUM	NumType=Card	3862	nummod	Kristian	PROPN	_	3863
+)	)	)	PUNCT	-	3861	punct	V	PROPN	-	3860
+20	20	20	NUM	NumType=Card	3862	nummod	Kristian	PROPN	-	3863
 <name type="PER">
-Kristian	Kristian	Kristian	PROPN	_	3863	list	Lars	PROPN	_	3856
-Pihl	Pihl	Pihl	PROPN	_	3864	flat	Kristian	PROPN	_	3863
-Lorentzen	Lorentzen	Lorentzen	PROPN	_	3865	flat	Kristian	PROPN	_	3863
+Kristian	Kristian	Kristian	PROPN	-	3863	list	Lars	PROPN	-	3856
+Pihl	Pihl	Pihl	PROPN	-	3864	flat	Kristian	PROPN	-	3863
+Lorentzen	Lorentzen	Lorentzen	PROPN	-	3865	flat	Kristian	PROPN	-	3863
 </name>
-(	(	(	PUNCT	_	3866	punct	V	PROPN	_	3867
+(	(	(	PUNCT	-	3866	punct	V	PROPN	-	3867
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3867	flat	Kristian	PROPN	_	3863
+V	V	V	PROPN	-	3867	flat	Kristian	PROPN	-	3863
 <g/>
 </name>
-)	)	)	PUNCT	_	3868	punct	V	PROPN	_	3867
-21	21	21	NUM	NumType=Card	3869	nummod	Karsten	PROPN	_	3870
+)	)	)	PUNCT	-	3868	punct	V	PROPN	-	3867
+21	21	21	NUM	NumType=Card	3869	nummod	Karsten	PROPN	-	3870
 <name type="PER">
-Karsten	Karsten	Karsten	PROPN	_	3870	list	Kristian	PROPN	_	3863
-Nonbo	Nonbo	Nonbo	PROPN	_	3871	flat	Karsten	PROPN	_	3870
+Karsten	Karsten	Karsten	PROPN	-	3870	list	Kristian	PROPN	-	3863
+Nonbo	Nonbo	Nonbo	PROPN	-	3871	flat	Karsten	PROPN	-	3870
 </name>
-(	(	(	PUNCT	_	3872	punct	V	PROPN	_	3873
+(	(	(	PUNCT	-	3872	punct	V	PROPN	-	3873
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3873	flat	Karsten	PROPN	_	3870
+V	V	V	PROPN	-	3873	flat	Karsten	PROPN	-	3870
 <g/>
 </name>
-)	)	)	PUNCT	_	3874	punct	V	PROPN	_	3873
-22	22	22	NUM	NumType=Card	3875	nummod	Hans	PROPN	_	3876
+)	)	)	PUNCT	-	3874	punct	V	PROPN	-	3873
+22	22	22	NUM	NumType=Card	3875	nummod	Hans	PROPN	-	3876
 <name type="PER">
-Hans	Hans	Hans	PROPN	_	3876	list	Karsten	PROPN	_	3870
-Christian	Christian	Christian	PROPN	_	3877	flat	Hans	PROPN	_	3876
-Schmidt	Schmidt	Schmidt	X	_	3878	list	Hans	PROPN	_	3876
+Hans	Hans	Hans	PROPN	-	3876	list	Karsten	PROPN	-	3870
+Christian	Christian	Christian	PROPN	-	3877	flat	Hans	PROPN	-	3876
+Schmidt	Schmidt	Schmidt	X	-	3878	list	Hans	PROPN	-	3876
 </name>
-(	(	(	PUNCT	_	3879	punct	V	PROPN	_	3880
+(	(	(	PUNCT	-	3879	punct	V	PROPN	-	3880
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3880	list	Schmidt	X	_	3878
+V	V	V	PROPN	-	3880	list	Schmidt	X	-	3878
 <g/>
 </name>
-)	)	)	PUNCT	_	3881	punct	V	PROPN	_	3880
-23	23	23	NUM	NumType=Card	3882	nummod	Kim	PROPN	_	3883
+)	)	)	PUNCT	-	3881	punct	V	PROPN	-	3880
+23	23	23	NUM	NumType=Card	3882	nummod	Kim	PROPN	-	3883
 <name type="PER">
-Kim	Kim	Kim	PROPN	_	3883	list	V	PROPN	_	3880
-Christiansen	Christiansen	Christiansen	PROPN	_	3884	flat	Kim	PROPN	_	3883
+Kim	Kim	Kim	PROPN	-	3883	list	V	PROPN	-	3880
+Christiansen	Christiansen	Christiansen	PROPN	-	3884	flat	Kim	PROPN	-	3883
 </name>
-(	(	(	PUNCT	_	3885	punct	DF	PROPN	_	3886
+(	(	(	PUNCT	-	3885	punct	DF	PROPN	-	3886
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	3886	flat	Kim	PROPN	_	3883
+DF	DF	DF	PROPN	-	3886	flat	Kim	PROPN	-	3883
 <g/>
 </name>
-)	)	)	PUNCT	_	3887	punct	DF	PROPN	_	3886
-24	24	24	NUM	NumType=Card	3888	nummod	Morten	PROPN	_	3889
+)	)	)	PUNCT	-	3887	punct	DF	PROPN	-	3886
+24	24	24	NUM	NumType=Card	3888	nummod	Morten	PROPN	-	3889
 <name type="PER">
-Morten	Morten	Morten	PROPN	_	3889	list	Kim	PROPN	_	3883
-Marinus	Marinus	Marinus	PROPN	_	3890	flat	Morten	PROPN	_	3889
+Morten	Morten	Morten	PROPN	-	3889	list	Kim	PROPN	-	3883
+Marinus	Marinus	Marinus	PROPN	-	3890	flat	Morten	PROPN	-	3889
 </name>
-(	(	(	PUNCT	_	3891	punct	DF	PROPN	_	3892
+(	(	(	PUNCT	-	3891	punct	DF	PROPN	-	3892
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	3892	flat	Morten	PROPN	_	3889
+DF	DF	DF	PROPN	-	3892	flat	Morten	PROPN	-	3889
 <g/>
 </name>
-)	)	)	PUNCT	_	3893	punct	DF	PROPN	_	3892
-25	25	25	NUM	NumType=Card	3894	nummod	Mette	PROPN	_	3895
+)	)	)	PUNCT	-	3893	punct	DF	PROPN	-	3892
+25	25	25	NUM	NumType=Card	3894	nummod	Mette	PROPN	-	3895
 <name type="PER">
-Mette	Mette	Mette	PROPN	_	3895	list	Morten	PROPN	_	3889
-Hjermind	Hjermind	Hjermind	PROPN	_	3896	flat	Mette	PROPN	_	3895
-Dencker	Dencker	Dencker	PROPN	_	3897	flat	Mette	PROPN	_	3895
+Mette	Mette	Mette	PROPN	-	3895	list	Morten	PROPN	-	3889
+Hjermind	Hjermind	Hjermind	PROPN	-	3896	flat	Mette	PROPN	-	3895
+Dencker	Dencker	Dencker	PROPN	-	3897	flat	Mette	PROPN	-	3895
 </name>
-(	(	(	PUNCT	_	3898	punct	DF	PROPN	_	3899
+(	(	(	PUNCT	-	3898	punct	DF	PROPN	-	3899
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	3899	flat	Mette	PROPN	_	3895
+DF	DF	DF	PROPN	-	3899	flat	Mette	PROPN	-	3895
 <g/>
 </name>
-)	)	)	PUNCT	_	3900	punct	DF	PROPN	_	3899
-26	26	26	NUM	NumType=Card	3901	nummod	Leif	PROPN	_	3902
+)	)	)	PUNCT	-	3900	punct	DF	PROPN	-	3899
+26	26	26	NUM	NumType=Card	3901	nummod	Leif	PROPN	-	3902
 <name type="PER">
-Leif	Leif	Leif	PROPN	_	3902	list	Mette	PROPN	_	3895
-Mikkelsen	Mikkelsen	Mikkelsen	PROPN	_	3903	flat	Leif	PROPN	_	3902
+Leif	Leif	Leif	PROPN	-	3902	list	Mette	PROPN	-	3895
+Mikkelsen	Mikkelsen	Mikkelsen	PROPN	-	3903	flat	Leif	PROPN	-	3902
 </name>
-(	(	(	PUNCT	_	3904	punct	LA	PROPN	_	3905
+(	(	(	PUNCT	-	3904	punct	LA	PROPN	-	3905
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	3905	flat	Leif	PROPN	_	3902
+LA	LA	LA	PROPN	-	3905	flat	Leif	PROPN	-	3902
 <g/>
 </name>
-)	)	)	PUNCT	_	3906	punct	LA	PROPN	_	3905
-27	27	27	NUM	NumType=Card	3907	nummod	Villum	PROPN	_	3908
+)	)	)	PUNCT	-	3906	punct	LA	PROPN	-	3905
+27	27	27	NUM	NumType=Card	3907	nummod	Villum	PROPN	-	3908
 <name type="PER">
-Villum	Villum	Villum	PROPN	_	3908	list	Leif	PROPN	_	3902
-Christensen	Christensen	Christensen	PROPN	_	3909	flat	Villum	PROPN	_	3908
+Villum	Villum	Villum	PROPN	-	3908	list	Leif	PROPN	-	3902
+Christensen	Christensen	Christensen	PROPN	-	3909	flat	Villum	PROPN	-	3908
 </name>
-(	(	(	PUNCT	_	3910	punct	LA	PROPN	_	3911
+(	(	(	PUNCT	-	3910	punct	LA	PROPN	-	3911
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	3911	flat	Villum	PROPN	_	3908
+LA	LA	LA	PROPN	-	3911	flat	Villum	PROPN	-	3908
 <g/>
 </name>
-)	)	)	PUNCT	_	3912	punct	LA	PROPN	_	3911
-28	28	28	NUM	NumType=Card	3913	nummod	Mike	PROPN	_	3914
+)	)	)	PUNCT	-	3912	punct	LA	PROPN	-	3911
+28	28	28	NUM	NumType=Card	3913	nummod	Mike	PROPN	-	3914
 <name type="PER">
-Mike	Mike	Mike	PROPN	_	3914	list	Villum	PROPN	_	3908
-Legarth	Legarth	Legarth	PROPN	_	3915	flat	Mike	PROPN	_	3914
+Mike	Mike	Mike	PROPN	-	3914	list	Villum	PROPN	-	3908
+Legarth	Legarth	Legarth	PROPN	-	3915	flat	Mike	PROPN	-	3914
 </name>
-(	(	(	PUNCT	_	3916	punct	KF	PROPN	_	3917
+(	(	(	PUNCT	-	3916	punct	KF	PROPN	-	3917
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	3917	flat	Mike	PROPN	_	3914
+KF	KF	KF	PROPN	-	3917	flat	Mike	PROPN	-	3914
 <g/>
 </name>
-)	)	)	PUNCT	_	3918	punct	KF	PROPN	_	3917
-29	29	29	NUM	NumType=Card	3919	nummod	Tom	PROPN	_	3920
+)	)	)	PUNCT	-	3918	punct	KF	PROPN	-	3917
+29	29	29	NUM	NumType=Card	3919	nummod	Tom	PROPN	-	3920
 <name type="PER">
-Tom	Tom	Tom	PROPN	_	3920	list	Mike	PROPN	_	3914
-Behnke	Behnke	Behnke	PROPN	_	3921	flat	Tom	PROPN	_	3920
+Tom	Tom	Tom	PROPN	-	3920	list	Mike	PROPN	-	3914
+Behnke	Behnke	Behnke	PROPN	-	3921	flat	Tom	PROPN	-	3920
 </name>
-(	(	(	PUNCT	_	3922	punct	KF	PROPN	_	3923
+(	(	(	PUNCT	-	3922	punct	KF	PROPN	-	3923
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	3923	flat	Tom	PROPN	_	3920
+KF	KF	KF	PROPN	-	3923	flat	Tom	PROPN	-	3920
 <g/>
 </name>
-)	)	)	PUNCT	_	3924	punct	KF	PROPN	_	3923
-Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	3925	list	Tom	PROPN	_	3920
+)	)	)	PUNCT	-	3924	punct	KF	PROPN	-	3923
+Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	3925	list	Tom	PROPN	-	3920
 <g/>
-:	:	:	PUNCT	_	3926	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	3925
+:	:	:	PUNCT	-	3926	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	3925
 <name type="PER">
-Rasmus	Rasmus	Rasmus	PROPN	_	3927	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	3925
-Horn	Horn	Horn	PROPN	_	3928	flat	Rasmus	PROPN	_	3927
-Langhoff	Langhoff	Langhoff	PROPN	_	3929	flat	Rasmus	PROPN	_	3927
+Rasmus	Rasmus	Rasmus	PROPN	-	3927	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	3925
+Horn	Horn	Horn	PROPN	-	3928	flat	Rasmus	PROPN	-	3927
+Langhoff	Langhoff	Langhoff	PROPN	-	3929	flat	Rasmus	PROPN	-	3927
 </name>
-(	(	(	PUNCT	_	3930	punct	S	PROPN	_	3931
+(	(	(	PUNCT	-	3930	punct	S	PROPN	-	3931
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	3931	appos	Rasmus	PROPN	_	3927
+S	S	S	PROPN	-	3931	appos	Rasmus	PROPN	-	3927
 <g/>
 </name>
-)	)	)	PUNCT	_	3932	punct	S	PROPN	_	3931
-Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	3933	flat	S	PROPN	_	3931
+)	)	)	PUNCT	-	3932	punct	S	PROPN	-	3931
+Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	3933	flat	S	PROPN	-	3931
 <g/>
-:	:	:	PUNCT	_	3934	punct	S	PROPN	_	3931
+:	:	:	PUNCT	-	3934	punct	S	PROPN	-	3931
 <name type="PER">
-Flemming	Flemming	Flemming	PROPN	_	3935	flat	S	PROPN	_	3931
-Damgaard	Damgaard	Damgaard	PROPN	_	3936	flat	Flemming	PROPN	_	3935
-Larsen	Larsen	Larsen	PROPN	_	3937	flat	Flemming	PROPN	_	3935
+Flemming	Flemming	Flemming	PROPN	-	3935	flat	S	PROPN	-	3931
+Damgaard	Damgaard	Damgaard	PROPN	-	3936	flat	Flemming	PROPN	-	3935
+Larsen	Larsen	Larsen	PROPN	-	3937	flat	Flemming	PROPN	-	3935
 </name>
-(	(	(	PUNCT	_	3938	punct	S	PROPN	_	3931
+(	(	(	PUNCT	-	3938	punct	S	PROPN	-	3931
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	3939	flat	S	PROPN	_	3931
+V	V	V	PROPN	-	3939	flat	S	PROPN	-	3931
 <g/>
 </name>
-)	)	)	PUNCT	_	3940	punct	S	PROPN	_	3931
-Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	3941	list	Rasmus	PROPN	_	3927
+)	)	)	PUNCT	-	3940	punct	S	PROPN	-	3931
+Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	3941	list	Rasmus	PROPN	-	3927
 af	af	af	ADP	AdpType=Prep	3942	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	3944
 29	29	29	NUM	NumType=Card	3943	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	3944
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	3944	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	3941
 til	til	til	ADP	AdpType=Prep	3945	case	udenrigsudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	3946
 Udenrigsudvalget	Udenrigsudvalget	udenrigsudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	3946	nmod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	3944
 <g/>
-:	:	:	PUNCT	_	3947	punct	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	3941
+:	:	:	PUNCT	-	3947	punct	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	3941
 Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3948	amod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	3941
-blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	3949	cop	Jacob	PROPN	_	3952
+blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	3949	cop	Jacob	PROPN	-	3952
 <g/>
-:	:	:	PUNCT	_	3950	punct	Jacob	PROPN	_	3952
-1	1	1	NUM	NumType=Card	3951	nummod	Jacob	PROPN	_	3952
+:	:	:	PUNCT	-	3950	punct	Jacob	PROPN	-	3952
+1	1	1	NUM	NumType=Card	3951	nummod	Jacob	PROPN	-	3952
 <name type="PER">
-Jacob	Jacob	Jacob	PROPN	_	3952	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3948
-Lund	Lund	Lund	PROPN	_	3953	flat	Jacob	PROPN	_	3952
+Jacob	Jacob	Jacob	PROPN	-	3952	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3948
+Lund	Lund	Lund	PROPN	-	3953	flat	Jacob	PROPN	-	3952
 </name>
-(	(	(	PUNCT	_	3954	punct	S	PROPN	_	3955
+(	(	(	PUNCT	-	3954	punct	S	PROPN	-	3955
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	3955	flat	Jacob	PROPN	_	3952
+S	S	S	PROPN	-	3955	flat	Jacob	PROPN	-	3952
 <g/>
 </name>
-)	)	)	PUNCT	_	3956	punct	S	PROPN	_	3955
-2	2	2	NUM	NumType=Card	3957	nummod	Ane	PROPN	_	3958
+)	)	)	PUNCT	-	3956	punct	S	PROPN	-	3955
+2	2	2	NUM	NumType=Card	3957	nummod	Ane	PROPN	-	3958
 <name type="PER">
-Ane	Ane	Ane	PROPN	_	3958	list	Jacob	PROPN	_	3952
-Halsboe-Jørgensen	Halsboe-Jørgensen	Halsboe-Jørgensen	PROPN	_	3959	flat	Ane	PROPN	_	3958
+Ane	Ane	Ane	PROPN	-	3958	list	Jacob	PROPN	-	3952
+Halsboe-Jørgensen	Halsboe-Jørgensen	Halsboe-Jørgensen	PROPN	-	3959	flat	Ane	PROPN	-	3958
 </name>
-(	(	(	PUNCT	_	3960	punct	S	PROPN	_	3961
+(	(	(	PUNCT	-	3960	punct	S	PROPN	-	3961
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	3961	flat	Ane	PROPN	_	3958
+S	S	S	PROPN	-	3961	flat	Ane	PROPN	-	3958
 <g/>
 </name>
-)	)	)	PUNCT	_	3962	punct	S	PROPN	_	3961
-3	3	3	NUM	NumType=Card	3963	nummod	Mette	PROPN	_	3964
+)	)	)	PUNCT	-	3962	punct	S	PROPN	-	3961
+3	3	3	NUM	NumType=Card	3963	nummod	Mette	PROPN	-	3964
 <name type="PER">
-Mette	Mette	Mette	PROPN	_	3964	list	Ane	PROPN	_	3958
-Gjerskov	Gjerskov	Gjerskov	PROPN	_	3965	flat	Mette	PROPN	_	3964
+Mette	Mette	Mette	PROPN	-	3964	list	Ane	PROPN	-	3958
+Gjerskov	Gjerskov	Gjerskov	PROPN	-	3965	flat	Mette	PROPN	-	3964
 </name>
-(	(	(	PUNCT	_	3966	punct	S	PROPN	_	3967
+(	(	(	PUNCT	-	3966	punct	S	PROPN	-	3967
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	3967	list	Mette	PROPN	_	3964
+S	S	S	PROPN	-	3967	list	Mette	PROPN	-	3964
 <g/>
 </name>
-)	)	)	PUNCT	_	3968	punct	S	PROPN	_	3967
-4	4	4	NUM	NumType=Card	3969	nummod	John	PROPN	_	3970
+)	)	)	PUNCT	-	3968	punct	S	PROPN	-	3967
+4	4	4	NUM	NumType=Card	3969	nummod	John	PROPN	-	3970
 <name type="PER">
-John	John	John	PROPN	_	3970	list	S	PROPN	_	3967
-Dyrby	Dyrby	Dyrby	PROPN	_	3971	flat	John	PROPN	_	3970
-Paulsen	Paulsen	Paulsen	PROPN	_	3972	flat	John	PROPN	_	3970
+John	John	John	PROPN	-	3970	list	S	PROPN	-	3967
+Dyrby	Dyrby	Dyrby	PROPN	-	3971	flat	John	PROPN	-	3970
+Paulsen	Paulsen	Paulsen	PROPN	-	3972	flat	John	PROPN	-	3970
 </name>
-(	(	(	PUNCT	_	3973	punct	S	PROPN	_	3974
+(	(	(	PUNCT	-	3973	punct	S	PROPN	-	3974
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	3974	list	John	PROPN	_	3970
+S	S	S	PROPN	-	3974	list	John	PROPN	-	3970
 <g/>
 </name>
-)	)	)	PUNCT	_	3975	punct	S	PROPN	_	3974
-5	5	5	NUM	NumType=Card	3976	nummod	Henrik	PROPN	_	3977
+)	)	)	PUNCT	-	3975	punct	S	PROPN	-	3974
+5	5	5	NUM	NumType=Card	3976	nummod	Henrik	PROPN	-	3977
 <name type="PER">
-Henrik	Henrik	Henrik	PROPN	_	3977	list	S	PROPN	_	3974
-Dam	Dam	Dam	PROPN	_	3978	flat	Henrik	PROPN	_	3977
-Kristensen	Kristensen	Kristensen	PROPN	_	3979	flat	Henrik	PROPN	_	3977
+Henrik	Henrik	Henrik	PROPN	-	3977	list	S	PROPN	-	3974
+Dam	Dam	Dam	PROPN	-	3978	flat	Henrik	PROPN	-	3977
+Kristensen	Kristensen	Kristensen	PROPN	-	3979	flat	Henrik	PROPN	-	3977
 </name>
-(	(	(	PUNCT	_	3980	punct	S	PROPN	_	3981
+(	(	(	PUNCT	-	3980	punct	S	PROPN	-	3981
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	3981	flat	Henrik	PROPN	_	3977
+S	S	S	PROPN	-	3981	flat	Henrik	PROPN	-	3977
 <g/>
 </name>
-)	)	)	PUNCT	_	3982	punct	S	PROPN	_	3981
+)	)	)	PUNCT	-	3982	punct	S	PROPN	-	3981
 6	6	6	NUM	NumType=Card	3983	nummod	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	3984
 <name type="PER">
-Jeppe	Jeppe	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	3984	list	Henrik	PROPN	_	3977
-Bruus	Bruus	Bruus	PROPN	_	3985	nmod	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	3984
+Jeppe	Jeppe	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	3984	list	Henrik	PROPN	-	3977
+Bruus	Bruus	Bruus	PROPN	-	3985	nmod	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	3984
 </name>
-(	(	(	PUNCT	_	3986	punct	S	PROPN	_	3987
+(	(	(	PUNCT	-	3986	punct	S	PROPN	-	3987
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	3987	list	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	3984
+S	S	S	PROPN	-	3987	list	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	3984
 <g/>
 </name>
-)	)	)	PUNCT	_	3988	punct	S	PROPN	_	3987
-7	7	7	NUM	NumType=Card	3989	nummod	Morten	PROPN	_	3990
+)	)	)	PUNCT	-	3988	punct	S	PROPN	-	3987
+7	7	7	NUM	NumType=Card	3989	nummod	Morten	PROPN	-	3990
 <name type="PER">
-Morten	Morten	Morten	PROPN	_	3990	list	S	PROPN	_	3987
-Bødskov	Bødskov	Bødskov	PROPN	_	3991	flat	Morten	PROPN	_	3990
+Morten	Morten	Morten	PROPN	-	3990	list	S	PROPN	-	3987
+Bødskov	Bødskov	Bødskov	PROPN	-	3991	flat	Morten	PROPN	-	3990
 </name>
-(	(	(	PUNCT	_	3992	punct	S	PROPN	_	3993
+(	(	(	PUNCT	-	3992	punct	S	PROPN	-	3993
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	3993	flat	Morten	PROPN	_	3990
+S	S	S	PROPN	-	3993	flat	Morten	PROPN	-	3990
 <g/>
 </name>
-)	)	)	PUNCT	_	3994	punct	S	PROPN	_	3993
-8	8	8	NUM	NumType=Card	3995	nummod	Lone	PROPN	_	3996
+)	)	)	PUNCT	-	3994	punct	S	PROPN	-	3993
+8	8	8	NUM	NumType=Card	3995	nummod	Lone	PROPN	-	3996
 <name type="PER">
-Lone	Lone	Lone	PROPN	_	3996	list	Morten	PROPN	_	3990
-Loklindt	Loklindt	Loklindt	PROPN	_	3997	flat	Lone	PROPN	_	3996
+Lone	Lone	Lone	PROPN	-	3996	list	Morten	PROPN	-	3990
+Loklindt	Loklindt	Loklindt	PROPN	-	3997	flat	Lone	PROPN	-	3996
 </name>
-(	(	(	PUNCT	_	3998	punct	RV	PROPN	_	3999
+(	(	(	PUNCT	-	3998	punct	RV	PROPN	-	3999
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	3999	flat	Lone	PROPN	_	3996
+RV	RV	RV	PROPN	-	3999	flat	Lone	PROPN	-	3996
 <g/>
 </name>
-)	)	)	PUNCT	_	4000	punct	RV	PROPN	_	3999
-9	9	9	NUM	NumType=Card	4001	nummod	Liv	PROPN	_	4002
-Liv	Liv	Liv	PROPN	_	4002	list	Lone	PROPN	_	3996
+)	)	)	PUNCT	-	4000	punct	RV	PROPN	-	3999
+9	9	9	NUM	NumType=Card	4001	nummod	Liv	PROPN	-	4002
+Liv	Liv	Liv	PROPN	-	4002	list	Lone	PROPN	-	3996
 <name type="PER">
-Holm	Holm	Holm	PROPN	_	4003	flat	Liv	PROPN	_	4002
-Andersen	Andersen	Andersen	PROPN	_	4004	flat	Liv	PROPN	_	4002
+Holm	Holm	Holm	PROPN	-	4003	flat	Liv	PROPN	-	4002
+Andersen	Andersen	Andersen	PROPN	-	4004	flat	Liv	PROPN	-	4002
 </name>
-(	(	(	PUNCT	_	4005	punct	RV	PROPN	_	4006
+(	(	(	PUNCT	-	4005	punct	RV	PROPN	-	4006
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	4006	flat	Liv	PROPN	_	4002
+RV	RV	RV	PROPN	-	4006	flat	Liv	PROPN	-	4002
 <g/>
 </name>
-)	)	)	PUNCT	_	4007	punct	RV	PROPN	_	4006
-10	10	10	NUM	NumType=Card	4008	nummod	Zenia	PROPN	_	4009
+)	)	)	PUNCT	-	4007	punct	RV	PROPN	-	4006
+10	10	10	NUM	NumType=Card	4008	nummod	Zenia	PROPN	-	4009
 <name type="PER">
-Zenia	Zenia	Zenia	PROPN	_	4009	list	RV	PROPN	_	4006
-Stampe	Stampe	Stampe	NOUN	Definite=Ind Gender=Com Number=Sing	4010	flat	Zenia	PROPN	_	4009
+Zenia	Zenia	Zenia	PROPN	-	4009	list	RV	PROPN	-	4006
+Stampe	Stampe	Stampe	NOUN	Definite=Ind Gender=Com Number=Sing	4010	flat	Zenia	PROPN	-	4009
 </name>
-(	(	(	PUNCT	_	4011	punct	RV	PROPN	_	4012
+(	(	(	PUNCT	-	4011	punct	RV	PROPN	-	4012
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	4012	flat	Zenia	PROPN	_	4009
+RV	RV	RV	PROPN	-	4012	flat	Zenia	PROPN	-	4009
 <g/>
 </name>
-)	)	)	PUNCT	_	4013	punct	RV	PROPN	_	4012
-11	11	11	NUM	NumType=Card	4014	nummod	Trine	PROPN	_	4015
+)	)	)	PUNCT	-	4013	punct	RV	PROPN	-	4012
+11	11	11	NUM	NumType=Card	4014	nummod	Trine	PROPN	-	4015
 <name type="PER">
-Trine	Trine	Trine	PROPN	_	4015	list	Zenia	PROPN	_	4009
-Mach	Mach	Machen	PROPN	_	4016	flat	Trine	PROPN	_	4015
+Trine	Trine	Trine	PROPN	-	4015	list	Zenia	PROPN	-	4009
+Mach	Mach	Machen	PROPN	-	4016	flat	Trine	PROPN	-	4015
 </name>
-(	(	(	PUNCT	_	4017	punct	SF	PROPN	_	4018
+(	(	(	PUNCT	-	4017	punct	SF	PROPN	-	4018
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	4018	flat	Trine	PROPN	_	4015
+SF	SF	SF	PROPN	-	4018	flat	Trine	PROPN	-	4015
 <g/>
 </name>
-)	)	)	PUNCT	_	4019	punct	SF	PROPN	_	4018
-12	12	12	NUM	NumType=Card	4020	nummod	Holger	PROPN	_	4021
+)	)	)	PUNCT	-	4019	punct	SF	PROPN	-	4018
+12	12	12	NUM	NumType=Card	4020	nummod	Holger	PROPN	-	4021
 <name type="PER">
-Holger	Holger	Holger	PROPN	_	4021	list	Trine	PROPN	_	4015
-K.	K.	K.	PROPN	_	4022	flat	Holger	PROPN	_	4021
-Nielsen	Nielsen	Nielsen	PROPN	_	4023	flat	Holger	PROPN	_	4021
+Holger	Holger	Holger	PROPN	-	4021	list	Trine	PROPN	-	4015
+K.	K.	K.	PROPN	-	4022	flat	Holger	PROPN	-	4021
+Nielsen	Nielsen	Nielsen	PROPN	-	4023	flat	Holger	PROPN	-	4021
 </name>
-(	(	(	PUNCT	_	4024	punct	SF	PROPN	_	4025
+(	(	(	PUNCT	-	4024	punct	SF	PROPN	-	4025
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	4025	list	Holger	PROPN	_	4021
+SF	SF	SF	PROPN	-	4025	list	Holger	PROPN	-	4021
 <g/>
 </name>
-)	)	)	PUNCT	_	4026	punct	SF	PROPN	_	4025
-13	13	13	NUM	NumType=Card	4027	nummod	Christian	PROPN	_	4028
+)	)	)	PUNCT	-	4026	punct	SF	PROPN	-	4025
+13	13	13	NUM	NumType=Card	4027	nummod	Christian	PROPN	-	4028
 <name type="PER">
-Christian	Christian	Christian	PROPN	_	4028	list	SF	PROPN	_	4025
-Juhl	Juhl	Juhl	PROPN	_	4029	flat	Christian	PROPN	_	4028
+Christian	Christian	Christian	PROPN	-	4028	list	SF	PROPN	-	4025
+Juhl	Juhl	Juhl	PROPN	-	4029	flat	Christian	PROPN	-	4028
 </name>
-(	(	(	PUNCT	_	4030	punct	EL	PROPN	_	4031
+(	(	(	PUNCT	-	4030	punct	EL	PROPN	-	4031
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	4031	flat	Christian	PROPN	_	4028
+EL	EL	EL	PROPN	-	4031	flat	Christian	PROPN	-	4028
 <g/>
 </name>
-)	)	)	PUNCT	_	4032	punct	EL	PROPN	_	4031
-14	14	14	NUM	NumType=Card	4033	nummod	Nikolaj	PROPN	_	4034
+)	)	)	PUNCT	-	4032	punct	EL	PROPN	-	4031
+14	14	14	NUM	NumType=Card	4033	nummod	Nikolaj	PROPN	-	4034
 <name type="PER">
-Nikolaj	Nikolaj	Nikolaj	PROPN	_	4034	list	Christian	PROPN	_	4028
-Villumsen	Villumsen	Villumsen	PROPN	_	4035	flat	Nikolaj	PROPN	_	4034
+Nikolaj	Nikolaj	Nikolaj	PROPN	-	4034	list	Christian	PROPN	-	4028
+Villumsen	Villumsen	Villumsen	PROPN	-	4035	flat	Nikolaj	PROPN	-	4034
 </name>
-(	(	(	PUNCT	_	4036	punct	EL	PROPN	_	4037
+(	(	(	PUNCT	-	4036	punct	EL	PROPN	-	4037
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	4037	flat	Nikolaj	PROPN	_	4034
+EL	EL	EL	PROPN	-	4037	flat	Nikolaj	PROPN	-	4034
 <g/>
 </name>
-)	)	)	PUNCT	_	4038	punct	EL	PROPN	_	4037
-15	15	15	NUM	NumType=Card	4039	nummod	Frank	PROPN	_	4040
+)	)	)	PUNCT	-	4038	punct	EL	PROPN	-	4037
+15	15	15	NUM	NumType=Card	4039	nummod	Frank	PROPN	-	4040
 <name type="PER">
-Frank	Frank	Frank	PROPN	_	4040	list	Nikolaj	PROPN	_	4034
-Aaen	Aaen	Aaen	PROPN	_	4041	flat	Frank	PROPN	_	4040
+Frank	Frank	Frank	PROPN	-	4040	list	Nikolaj	PROPN	-	4034
+Aaen	Aaen	Aaen	PROPN	-	4041	flat	Frank	PROPN	-	4040
 </name>
-(	(	(	PUNCT	_	4042	punct	EL	PROPN	_	4043
+(	(	(	PUNCT	-	4042	punct	EL	PROPN	-	4043
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	4043	flat	Frank	PROPN	_	4040
+EL	EL	EL	PROPN	-	4043	flat	Frank	PROPN	-	4040
 <g/>
 </name>
-)	)	)	PUNCT	_	4044	punct	EL	PROPN	_	4043
-16	16	16	NUM	NumType=Card	4045	nummod	Peter	PROPN	_	4046
+)	)	)	PUNCT	-	4044	punct	EL	PROPN	-	4043
+16	16	16	NUM	NumType=Card	4045	nummod	Peter	PROPN	-	4046
 <name type="PER">
-Peter	Peter	Peter	PROPN	_	4046	list	Frank	PROPN	_	4040
-Juel	Juel	Juel	PROPN	_	4047	flat	Peter	PROPN	_	4046
-Jensen	Jensen	Jensen	PROPN	_	4048	flat	Peter	PROPN	_	4046
+Peter	Peter	Peter	PROPN	-	4046	list	Frank	PROPN	-	4040
+Juel	Juel	Juel	PROPN	-	4047	flat	Peter	PROPN	-	4046
+Jensen	Jensen	Jensen	PROPN	-	4048	flat	Peter	PROPN	-	4046
 </name>
-(	(	(	PUNCT	_	4049	punct	V	PROPN	_	4050
+(	(	(	PUNCT	-	4049	punct	V	PROPN	-	4050
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4050	flat	Peter	PROPN	_	4046
+V	V	V	PROPN	-	4050	flat	Peter	PROPN	-	4046
 <g/>
 </name>
-)	)	)	PUNCT	_	4051	punct	V	PROPN	_	4050
-17	17	17	NUM	NumType=Card	4052	nummod	Jakob	PROPN	_	4053
+)	)	)	PUNCT	-	4051	punct	V	PROPN	-	4050
+17	17	17	NUM	NumType=Card	4052	nummod	Jakob	PROPN	-	4053
 <name type="PER">
-Jakob	Jakob	Jakob	PROPN	_	4053	list	Peter	PROPN	_	4046
-Ellemann-Jensen	Ellemann-Jensen	Ellemann-Jensen	PROPN	_	4054	flat	Jakob	PROPN	_	4053
+Jakob	Jakob	Jakob	PROPN	-	4053	list	Peter	PROPN	-	4046
+Ellemann-Jensen	Ellemann-Jensen	Ellemann-Jensen	PROPN	-	4054	flat	Jakob	PROPN	-	4053
 </name>
-(	(	(	PUNCT	_	4055	punct	V	PROPN	_	4056
+(	(	(	PUNCT	-	4055	punct	V	PROPN	-	4056
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4056	flat	Jakob	PROPN	_	4053
+V	V	V	PROPN	-	4056	flat	Jakob	PROPN	-	4053
 <g/>
 </name>
-)	)	)	PUNCT	_	4057	punct	V	PROPN	_	4056
-18	18	18	NUM	NumType=Card	4058	nummod	Esben	PROPN	_	4059
+)	)	)	PUNCT	-	4057	punct	V	PROPN	-	4056
+18	18	18	NUM	NumType=Card	4058	nummod	Esben	PROPN	-	4059
 <name type="PER">
-Esben	Esben	Esben	PROPN	_	4059	list	Jakob	PROPN	_	4053
-Lunde	Lunde	Lunde	PROPN	_	4060	flat	Esben	PROPN	_	4059
-Larsen	Larsen	Larsen	PROPN	_	4061	flat	Esben	PROPN	_	4059
+Esben	Esben	Esben	PROPN	-	4059	list	Jakob	PROPN	-	4053
+Lunde	Lunde	Lunde	PROPN	-	4060	flat	Esben	PROPN	-	4059
+Larsen	Larsen	Larsen	PROPN	-	4061	flat	Esben	PROPN	-	4059
 </name>
-(	(	(	PUNCT	_	4062	punct	V	PROPN	_	4063
+(	(	(	PUNCT	-	4062	punct	V	PROPN	-	4063
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4063	flat	Esben	PROPN	_	4059
+V	V	V	PROPN	-	4063	flat	Esben	PROPN	-	4059
 <g/>
 </name>
-)	)	)	PUNCT	_	4064	punct	V	PROPN	_	4063
-19	19	19	NUM	NumType=Card	4065	nummod	Karsten	PROPN	_	4066
+)	)	)	PUNCT	-	4064	punct	V	PROPN	-	4063
+19	19	19	NUM	NumType=Card	4065	nummod	Karsten	PROPN	-	4066
 <name type="PER">
-Karsten	Karsten	Karsten	PROPN	_	4066	list	Esben	PROPN	_	4059
-Lauritzen	Lauritzen	Lauritzen	PROPN	_	4067	flat	Karsten	PROPN	_	4066
+Karsten	Karsten	Karsten	PROPN	-	4066	list	Esben	PROPN	-	4059
+Lauritzen	Lauritzen	Lauritzen	PROPN	-	4067	flat	Karsten	PROPN	-	4066
 </name>
-(	(	(	PUNCT	_	4068	punct	V	PROPN	_	4069
+(	(	(	PUNCT	-	4068	punct	V	PROPN	-	4069
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4069	flat	Karsten	PROPN	_	4066
+V	V	V	PROPN	-	4069	flat	Karsten	PROPN	-	4066
 <g/>
 </name>
-)	)	)	PUNCT	_	4070	punct	V	PROPN	_	4069
-20	20	20	NUM	NumType=Card	4071	nummod	Ellen	PROPN	_	4072
+)	)	)	PUNCT	-	4070	punct	V	PROPN	-	4069
+20	20	20	NUM	NumType=Card	4071	nummod	Ellen	PROPN	-	4072
 <name type="PER">
-Ellen	Ellen	Ellen	PROPN	_	4072	list	Karsten	PROPN	_	4066
-Trane	Trane	Trane	PROPN	_	4073	flat	Ellen	PROPN	_	4072
-Nørby	Nørby	Nørby	PROPN	_	4074	flat	Ellen	PROPN	_	4072
+Ellen	Ellen	Ellen	PROPN	-	4072	list	Karsten	PROPN	-	4066
+Trane	Trane	Trane	PROPN	-	4073	flat	Ellen	PROPN	-	4072
+Nørby	Nørby	Nørby	PROPN	-	4074	flat	Ellen	PROPN	-	4072
 </name>
-(	(	(	PUNCT	_	4075	punct	V	PROPN	_	4076
+(	(	(	PUNCT	-	4075	punct	V	PROPN	-	4076
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4076	flat	Ellen	PROPN	_	4072
+V	V	V	PROPN	-	4076	flat	Ellen	PROPN	-	4072
 <g/>
 </name>
-)	)	)	PUNCT	_	4077	punct	V	PROPN	_	4076
-21	21	21	NUM	NumType=Card	4078	nummod	Søren	PROPN	_	4079
+)	)	)	PUNCT	-	4077	punct	V	PROPN	-	4076
+21	21	21	NUM	NumType=Card	4078	nummod	Søren	PROPN	-	4079
 <name type="PER">
-Søren	Søren	Søren	PROPN	_	4079	list	Ellen	PROPN	_	4072
-Pind	Pind	Pind	PROPN	_	4080	flat	Søren	PROPN	_	4079
+Søren	Søren	Søren	PROPN	-	4079	list	Ellen	PROPN	-	4072
+Pind	Pind	Pind	PROPN	-	4080	flat	Søren	PROPN	-	4079
 </name>
-(	(	(	PUNCT	_	4081	punct	V	PROPN	_	4082
+(	(	(	PUNCT	-	4081	punct	V	PROPN	-	4082
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4082	flat	Søren	PROPN	_	4079
+V	V	V	PROPN	-	4082	flat	Søren	PROPN	-	4079
 <g/>
 </name>
-)	)	)	PUNCT	_	4083	punct	V	PROPN	_	4082
-22	22	22	NUM	NumType=Card	4084	nummod	Mads	PROPN	_	4085
+)	)	)	PUNCT	-	4083	punct	V	PROPN	-	4082
+22	22	22	NUM	NumType=Card	4084	nummod	Mads	PROPN	-	4085
 <name type="PER">
-Mads	Mads	Mads	PROPN	_	4085	list	Søren	PROPN	_	4079
-Rørvig	Rørvig	Rørvig	PROPN	_	4086	flat	Mads	PROPN	_	4085
+Mads	Mads	Mads	PROPN	-	4085	list	Søren	PROPN	-	4079
+Rørvig	Rørvig	Rørvig	PROPN	-	4086	flat	Mads	PROPN	-	4085
 </name>
-(	(	(	PUNCT	_	4087	punct	V	PROPN	_	4088
+(	(	(	PUNCT	-	4087	punct	V	PROPN	-	4088
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4088	flat	Mads	PROPN	_	4085
+V	V	V	PROPN	-	4088	flat	Mads	PROPN	-	4085
 <g/>
 </name>
-)	)	)	PUNCT	_	4089	punct	V	PROPN	_	4088
-23	23	23	NUM	NumType=Card	4090	nummod	Jens	PROPN	_	4091
+)	)	)	PUNCT	-	4089	punct	V	PROPN	-	4088
+23	23	23	NUM	NumType=Card	4090	nummod	Jens	PROPN	-	4091
 <name type="PER">
-Jens	Jens	Jens	PROPN	_	4091	list	Mads	PROPN	_	4085
-Ejner	Ejner	Ejner	PROPN	_	4092	flat	Jens	PROPN	_	4091
-Christensen	Christensen	Christensen	PROPN	_	4093	flat	Jens	PROPN	_	4091
+Jens	Jens	Jens	PROPN	-	4091	list	Mads	PROPN	-	4085
+Ejner	Ejner	Ejner	PROPN	-	4092	flat	Jens	PROPN	-	4091
+Christensen	Christensen	Christensen	PROPN	-	4093	flat	Jens	PROPN	-	4091
 </name>
-(	(	(	PUNCT	_	4094	punct	V	PROPN	_	4095
+(	(	(	PUNCT	-	4094	punct	V	PROPN	-	4095
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4095	flat	Jens	PROPN	_	4091
+V	V	V	PROPN	-	4095	flat	Jens	PROPN	-	4091
 <g/>
 </name>
-)	)	)	PUNCT	_	4096	punct	V	PROPN	_	4095
-24	24	24	NUM	NumType=Card	4097	nummod	Søren	PROPN	_	4098
+)	)	)	PUNCT	-	4096	punct	V	PROPN	-	4095
+24	24	24	NUM	NumType=Card	4097	nummod	Søren	PROPN	-	4098
 <name type="PER">
-Søren	Søren	Søren	PROPN	_	4098	list	Jens	PROPN	_	4091
-Espersen	Espersen	Espersen	PROPN	_	4099	flat	Søren	PROPN	_	4098
+Søren	Søren	Søren	PROPN	-	4098	list	Jens	PROPN	-	4091
+Espersen	Espersen	Espersen	PROPN	-	4099	flat	Søren	PROPN	-	4098
 </name>
-(	(	(	PUNCT	_	4100	punct	DF	PROPN	_	4101
+(	(	(	PUNCT	-	4100	punct	DF	PROPN	-	4101
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	4101	flat	Søren	PROPN	_	4098
+DF	DF	DF	PROPN	-	4101	flat	Søren	PROPN	-	4098
 <g/>
 </name>
-)	)	)	PUNCT	_	4102	punct	DF	PROPN	_	4101
-25	25	25	NUM	NumType=Card	4103	nummod	Hans	PROPN	_	4104
+)	)	)	PUNCT	-	4102	punct	DF	PROPN	-	4101
+25	25	25	NUM	NumType=Card	4103	nummod	Hans	PROPN	-	4104
 <name type="PER">
-Hans	Hans	Hans	PROPN	_	4104	list	Søren	PROPN	_	4098
-Kristian	Kristian	Kristian	PROPN	_	4105	flat	Hans	PROPN	_	4104
-Skibby	Skibby	Skibby	PROPN	_	4106	flat	Hans	PROPN	_	4104
+Hans	Hans	Hans	PROPN	-	4104	list	Søren	PROPN	-	4098
+Kristian	Kristian	Kristian	PROPN	-	4105	flat	Hans	PROPN	-	4104
+Skibby	Skibby	Skibby	PROPN	-	4106	flat	Hans	PROPN	-	4104
 </name>
-(	(	(	PUNCT	_	4107	punct	DF	PROPN	_	4108
+(	(	(	PUNCT	-	4107	punct	DF	PROPN	-	4108
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	4108	flat	Hans	PROPN	_	4104
+DF	DF	DF	PROPN	-	4108	flat	Hans	PROPN	-	4104
 <g/>
 </name>
-)	)	)	PUNCT	_	4109	punct	DF	PROPN	_	4108
-26	26	26	NUM	NumType=Card	4110	nummod	Pia	PROPN	_	4111
+)	)	)	PUNCT	-	4109	punct	DF	PROPN	-	4108
+26	26	26	NUM	NumType=Card	4110	nummod	Pia	PROPN	-	4111
 <name type="PER">
-Pia	Pia	Pia	PROPN	_	4111	list	Hans	PROPN	_	4104
-Adelsteen	Adelsteen	Adelsteen	PROPN	_	4112	flat	Pia	PROPN	_	4111
+Pia	Pia	Pia	PROPN	-	4111	list	Hans	PROPN	-	4104
+Adelsteen	Adelsteen	Adelsteen	PROPN	-	4112	flat	Pia	PROPN	-	4111
 </name>
-(	(	(	PUNCT	_	4113	punct	DF	PROPN	_	4114
+(	(	(	PUNCT	-	4113	punct	DF	PROPN	-	4114
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	4114	flat	Pia	PROPN	_	4111
+DF	DF	DF	PROPN	-	4114	flat	Pia	PROPN	-	4111
 <g/>
 </name>
-)	)	)	PUNCT	_	4115	punct	DF	PROPN	_	4114
-27	27	27	NUM	NumType=Card	4116	nummod	Peter	PROPN	_	4117
+)	)	)	PUNCT	-	4115	punct	DF	PROPN	-	4114
+27	27	27	NUM	NumType=Card	4116	nummod	Peter	PROPN	-	4117
 <name type="PER">
-Peter	Peter	Peter	PROPN	_	4117	list	Pia	PROPN	_	4111
-Skaarup	Skaarup	Skaarup	PROPN	_	4118	flat	Peter	PROPN	_	4117
+Peter	Peter	Peter	PROPN	-	4117	list	Pia	PROPN	-	4111
+Skaarup	Skaarup	Skaarup	PROPN	-	4118	flat	Peter	PROPN	-	4117
 </name>
-(	(	(	PUNCT	_	4119	punct	DF	PROPN	_	4120
+(	(	(	PUNCT	-	4119	punct	DF	PROPN	-	4120
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	4120	flat	Peter	PROPN	_	4117
+DF	DF	DF	PROPN	-	4120	flat	Peter	PROPN	-	4117
 <g/>
 </name>
-)	)	)	PUNCT	_	4121	punct	DF	PROPN	_	4120
-28	28	28	NUM	NumType=Card	4122	nummod	Mette	PROPN	_	4123
+)	)	)	PUNCT	-	4121	punct	DF	PROPN	-	4120
+28	28	28	NUM	NumType=Card	4122	nummod	Mette	PROPN	-	4123
 <name type="PER">
-Mette	Mette	Mette	PROPN	_	4123	list	Peter	PROPN	_	4117
-Bock	Bock	Bock	PROPN	_	4124	flat	Mette	PROPN	_	4123
+Mette	Mette	Mette	PROPN	-	4123	list	Peter	PROPN	-	4117
+Bock	Bock	Bock	PROPN	-	4124	flat	Mette	PROPN	-	4123
 </name>
-(	(	(	PUNCT	_	4125	punct	LA	PROPN	_	4126
+(	(	(	PUNCT	-	4125	punct	LA	PROPN	-	4126
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	4126	list	Mette	PROPN	_	4123
+LA	LA	LA	PROPN	-	4126	list	Mette	PROPN	-	4123
 <g/>
 </name>
-)	)	)	PUNCT	_	4127	punct	LA	PROPN	_	4126
-29	29	29	NUM	NumType=Card	4128	nummod	Per	PROPN	_	4129
+)	)	)	PUNCT	-	4127	punct	LA	PROPN	-	4126
+29	29	29	NUM	NumType=Card	4128	nummod	Per	PROPN	-	4129
 <name type="PER">
-Per	Per	Per	PROPN	_	4129	list	Pia	PROPN	_	4111
-Stig	Stig	Stig	PROPN	_	4130	flat	Per	PROPN	_	4129
-Møller	Møller	Møller	PROPN	_	4131	flat	Per	PROPN	_	4129
+Per	Per	Per	PROPN	-	4129	list	Pia	PROPN	-	4111
+Stig	Stig	Stig	PROPN	-	4130	flat	Per	PROPN	-	4129
+Møller	Møller	Møller	PROPN	-	4131	flat	Per	PROPN	-	4129
 </name>
-(	(	(	PUNCT	_	4132	punct	KF	PROPN	_	4133
+(	(	(	PUNCT	-	4132	punct	KF	PROPN	-	4133
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	4133	flat	Per	PROPN	_	4129
+KF	KF	KF	PROPN	-	4133	flat	Per	PROPN	-	4129
 <g/>
 </name>
-)	)	)	PUNCT	_	4134	punct	KF	PROPN	_	4133
-Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	4135	list	Per	PROPN	_	4129
+)	)	)	PUNCT	-	4134	punct	KF	PROPN	-	4133
+Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	4135	list	Per	PROPN	-	4129
 <g/>
-:	:	:	PUNCT	_	4136	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	4135
+:	:	:	PUNCT	-	4136	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	4135
 <name type="PER">
-Per	Per	Per	PROPN	_	4137	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	4135
-Stig	Stig	Stig	PROPN	_	4138	flat	Per	PROPN	_	4137
-Møller	Møller	Møller	PROPN	_	4139	flat	Per	PROPN	_	4137
+Per	Per	Per	PROPN	-	4137	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	4135
+Stig	Stig	Stig	PROPN	-	4138	flat	Per	PROPN	-	4137
+Møller	Møller	Møller	PROPN	-	4139	flat	Per	PROPN	-	4137
 </name>
-(	(	(	PUNCT	_	4140	punct	KF	PROPN	_	4141
+(	(	(	PUNCT	-	4140	punct	KF	PROPN	-	4141
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	4141	flat	Per	PROPN	_	4137
+KF	KF	KF	PROPN	-	4141	flat	Per	PROPN	-	4137
 <g/>
 </name>
-)	)	)	PUNCT	_	4142	punct	KF	PROPN	_	4141
-Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	4143	list	Per	PROPN	_	4137
+)	)	)	PUNCT	-	4142	punct	KF	PROPN	-	4141
+Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	4143	list	Per	PROPN	-	4137
 <g/>
-:	:	:	PUNCT	_	4144	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	4143
+:	:	:	PUNCT	-	4144	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	4143
 <name type="PER">
-Mette	Mette	Mette	PROPN	_	4145	appos	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	4143
-Gjerskov	Gjerskov	Gjerskov	PROPN	_	4146	flat	Mette	PROPN	_	4145
+Mette	Mette	Mette	PROPN	-	4145	appos	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	4143
+Gjerskov	Gjerskov	Gjerskov	PROPN	-	4146	flat	Mette	PROPN	-	4145
 </name>
-(	(	(	PUNCT	_	4147	punct	S	PROPN	_	4148
+(	(	(	PUNCT	-	4147	punct	S	PROPN	-	4148
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	4148	flat	Mette	PROPN	_	4145
+S	S	S	PROPN	-	4148	flat	Mette	PROPN	-	4145
 <g/>
 </name>
-)	)	)	PUNCT	_	4149	punct	S	PROPN	_	4148
-Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	4150	flat	Mette	PROPN	_	4145
+)	)	)	PUNCT	-	4149	punct	S	PROPN	-	4148
+Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	4150	flat	Mette	PROPN	-	4145
 af	af	af	ADP	AdpType=Prep	4151	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	4153
 29	29	29	NUM	NumType=Card	4152	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	4153
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	4153	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	4150
-til	til	til	ADP	AdpType=Prep	4154	case	uddannelses-	X	_	4155
-Uddannelses-	Uddannelses-	uddannelses-	X	_	4155	nmod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	4153
-og	og	og	CCONJ	_	4156	cc	forskningsudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	4157
-Forskningsudvalget	Forskningsudvalget	forskningsudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	4157	conj	uddannelses-	X	_	4155
+til	til	til	ADP	AdpType=Prep	4154	case	uddannelses-	X	-	4155
+Uddannelses-	Uddannelses-	uddannelses-	X	-	4155	nmod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	4153
+og	og	og	CCONJ	-	4156	cc	forskningsudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	4157
+Forskningsudvalget	Forskningsudvalget	forskningsudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	4157	conj	uddannelses-	X	-	4155
 <g/>
-:	:	:	PUNCT	_	4158	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	4143
+:	:	:	PUNCT	-	4158	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	4143
 Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	4159	list	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	4143
-blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	4160	cop	Bruus	PROPN	_	4164
+blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	4160	cop	Bruus	PROPN	-	4164
 <g/>
-:	:	:	PUNCT	_	4161	punct	Bruus	PROPN	_	4164
-1	1	1	NUM	NumType=Card	4162	nummod	Bruus	PROPN	_	4164
+:	:	:	PUNCT	-	4161	punct	Bruus	PROPN	-	4164
+1	1	1	NUM	NumType=Card	4162	nummod	Bruus	PROPN	-	4164
 <name type="PER">
-Jeppe	Jeppe	Jeppe	NOUN	Definite=Ind Gender=Com Number=Sing	4163	nmod	Bruus	PROPN	_	4164
-Bruus	Bruus	Bruus	PROPN	_	4164	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	4159
+Jeppe	Jeppe	Jeppe	NOUN	Definite=Ind Gender=Com Number=Sing	4163	nmod	Bruus	PROPN	-	4164
+Bruus	Bruus	Bruus	PROPN	-	4164	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	4159
 </name>
-(	(	(	PUNCT	_	4165	punct	S	PROPN	_	4166
+(	(	(	PUNCT	-	4165	punct	S	PROPN	-	4166
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	4166	flat	Bruus	PROPN	_	4164
+S	S	S	PROPN	-	4166	flat	Bruus	PROPN	-	4164
 <g/>
 </name>
-)	)	)	PUNCT	_	4167	punct	S	PROPN	_	4166
-2	2	2	NUM	NumType=Card	4168	nummod	Jesper	PROPN	_	4169
+)	)	)	PUNCT	-	4167	punct	S	PROPN	-	4166
+2	2	2	NUM	NumType=Card	4168	nummod	Jesper	PROPN	-	4169
 <name type="PER">
-Jesper	Jesper	Jesper	PROPN	_	4169	list	Bruus	PROPN	_	4164
-Petersen	Petersen	Petersen	PROPN	_	4170	flat	Jesper	PROPN	_	4169
+Jesper	Jesper	Jesper	PROPN	-	4169	list	Bruus	PROPN	-	4164
+Petersen	Petersen	Petersen	PROPN	-	4170	flat	Jesper	PROPN	-	4169
 </name>
-(	(	(	PUNCT	_	4171	punct	S	PROPN	_	4172
+(	(	(	PUNCT	-	4171	punct	S	PROPN	-	4172
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	4172	flat	Jesper	PROPN	_	4169
+S	S	S	PROPN	-	4172	flat	Jesper	PROPN	-	4169
 <g/>
 </name>
-)	)	)	PUNCT	_	4173	punct	S	PROPN	_	4172
-3	3	3	NUM	NumType=Card	4174	nummod	Mette	PROPN	_	4175
+)	)	)	PUNCT	-	4173	punct	S	PROPN	-	4172
+3	3	3	NUM	NumType=Card	4174	nummod	Mette	PROPN	-	4175
 <name type="PER">
-Mette	Mette	Mette	PROPN	_	4175	list	Jesper	PROPN	_	4169
-Reissmann	Reissmann	Reissmann	PROPN	_	4176	flat	Mette	PROPN	_	4175
+Mette	Mette	Mette	PROPN	-	4175	list	Jesper	PROPN	-	4169
+Reissmann	Reissmann	Reissmann	PROPN	-	4176	flat	Mette	PROPN	-	4175
 </name>
-(	(	(	PUNCT	_	4177	punct	S	PROPN	_	4178
+(	(	(	PUNCT	-	4177	punct	S	PROPN	-	4178
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	4178	list	Mette	PROPN	_	4175
+S	S	S	PROPN	-	4178	list	Mette	PROPN	-	4175
 <g/>
 </name>
-)	)	)	PUNCT	_	4179	punct	S	PROPN	_	4178
-4	4	4	NUM	NumType=Card	4180	nummod	Rasmus	PROPN	_	4181
+)	)	)	PUNCT	-	4179	punct	S	PROPN	-	4178
+4	4	4	NUM	NumType=Card	4180	nummod	Rasmus	PROPN	-	4181
 <name type="PER">
-Rasmus	Rasmus	Rasmus	PROPN	_	4181	list	S	PROPN	_	4178
-Prehn	Prehn	Prehn	PROPN	_	4182	flat	Rasmus	PROPN	_	4181
+Rasmus	Rasmus	Rasmus	PROPN	-	4181	list	S	PROPN	-	4178
+Prehn	Prehn	Prehn	PROPN	-	4182	flat	Rasmus	PROPN	-	4181
 </name>
-(	(	(	PUNCT	_	4183	punct	S	PROPN	_	4184
+(	(	(	PUNCT	-	4183	punct	S	PROPN	-	4184
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	4184	flat	Rasmus	PROPN	_	4181
+S	S	S	PROPN	-	4184	flat	Rasmus	PROPN	-	4181
 <g/>
 </name>
-)	)	)	PUNCT	_	4185	punct	S	PROPN	_	4184
-5	5	5	NUM	NumType=Card	4186	nummod	Simon	PROPN	_	4187
+)	)	)	PUNCT	-	4185	punct	S	PROPN	-	4184
+5	5	5	NUM	NumType=Card	4186	nummod	Simon	PROPN	-	4187
 <name type="PER">
-Simon	Simon	Simon	PROPN	_	4187	list	Rasmus	PROPN	_	4181
-Kollerup	Kollerup	Kollerup	PROPN	_	4188	flat	Simon	PROPN	_	4187
+Simon	Simon	Simon	PROPN	-	4187	list	Rasmus	PROPN	-	4181
+Kollerup	Kollerup	Kollerup	PROPN	-	4188	flat	Simon	PROPN	-	4187
 </name>
-(	(	(	PUNCT	_	4189	punct	S	PROPN	_	4190
+(	(	(	PUNCT	-	4189	punct	S	PROPN	-	4190
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	4190	list	Simon	PROPN	_	4187
+S	S	S	PROPN	-	4190	list	Simon	PROPN	-	4187
 <g/>
 </name>
-)	)	)	PUNCT	_	4191	punct	S	PROPN	_	4190
-6	6	6	NUM	NumType=Card	4192	nummod	Ole	PROPN	_	4193
+)	)	)	PUNCT	-	4191	punct	S	PROPN	-	4190
+6	6	6	NUM	NumType=Card	4192	nummod	Ole	PROPN	-	4193
 <name type="PER">
-Ole	Ole	Ole	PROPN	_	4193	list	S	PROPN	_	4190
-Hækkerup	Hækkerup	Hækkerup	PROPN	_	4194	flat	Ole	PROPN	_	4193
+Ole	Ole	Ole	PROPN	-	4193	list	S	PROPN	-	4190
+Hækkerup	Hækkerup	Hækkerup	PROPN	-	4194	flat	Ole	PROPN	-	4193
 </name>
-(	(	(	PUNCT	_	4195	punct	S	PROPN	_	4196
+(	(	(	PUNCT	-	4195	punct	S	PROPN	-	4196
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	4196	flat	Ole	PROPN	_	4193
+S	S	S	PROPN	-	4196	flat	Ole	PROPN	-	4193
 <g/>
 </name>
-)	)	)	PUNCT	_	4197	punct	S	PROPN	_	4196
-7	7	7	NUM	NumType=Card	4198	nummod	Trine	PROPN	_	4199
+)	)	)	PUNCT	-	4197	punct	S	PROPN	-	4196
+7	7	7	NUM	NumType=Card	4198	nummod	Trine	PROPN	-	4199
 <name type="PER">
-Trine	Trine	Trine	PROPN	_	4199	flat	S	PROPN	_	4190
-Bramsen	Bramsen	Bramsen	PROPN	_	4200	flat	S	PROPN	_	4190
+Trine	Trine	Trine	PROPN	-	4199	flat	S	PROPN	-	4190
+Bramsen	Bramsen	Bramsen	PROPN	-	4200	flat	S	PROPN	-	4190
 </name>
-(	(	(	PUNCT	_	4201	punct	S	PROPN	_	4202
+(	(	(	PUNCT	-	4201	punct	S	PROPN	-	4202
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	4202	flat	S	PROPN	_	4190
+S	S	S	PROPN	-	4202	flat	S	PROPN	-	4190
 <g/>
 </name>
-)	)	)	PUNCT	_	4203	punct	S	PROPN	_	4202
-8	8	8	NUM	NumType=Card	4204	nummod	Lotte	PROPN	_	4205
+)	)	)	PUNCT	-	4203	punct	S	PROPN	-	4202
+8	8	8	NUM	NumType=Card	4204	nummod	Lotte	PROPN	-	4205
 <name type="PER">
-Lotte	Lotte	Lotte	PROPN	_	4205	list	S	PROPN	_	4190
-Rod	Rod	Rod	PROPN	_	4206	flat	Lotte	PROPN	_	4205
+Lotte	Lotte	Lotte	PROPN	-	4205	list	S	PROPN	-	4190
+Rod	Rod	Rod	PROPN	-	4206	flat	Lotte	PROPN	-	4205
 </name>
-(	(	(	PUNCT	_	4207	punct	RV	PROPN	_	4208
+(	(	(	PUNCT	-	4207	punct	RV	PROPN	-	4208
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	4208	flat	Lotte	PROPN	_	4205
+RV	RV	RV	PROPN	-	4208	flat	Lotte	PROPN	-	4205
 <g/>
 </name>
-)	)	)	PUNCT	_	4209	punct	RV	PROPN	_	4208
-9	9	9	NUM	NumType=Card	4210	nummod	Liv	PROPN	_	4211
-Liv	Liv	Liv	PROPN	_	4211	list	Lotte	PROPN	_	4205
+)	)	)	PUNCT	-	4209	punct	RV	PROPN	-	4208
+9	9	9	NUM	NumType=Card	4210	nummod	Liv	PROPN	-	4211
+Liv	Liv	Liv	PROPN	-	4211	list	Lotte	PROPN	-	4205
 <name type="PER">
-Holm	Holm	Holm	PROPN	_	4212	flat	Liv	PROPN	_	4211
-Andersen	Andersen	Andersen	PROPN	_	4213	flat	Liv	PROPN	_	4211
+Holm	Holm	Holm	PROPN	-	4212	flat	Liv	PROPN	-	4211
+Andersen	Andersen	Andersen	PROPN	-	4213	flat	Liv	PROPN	-	4211
 </name>
-(	(	(	PUNCT	_	4214	punct	RV	PROPN	_	4215
+(	(	(	PUNCT	-	4214	punct	RV	PROPN	-	4215
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	4215	flat	Liv	PROPN	_	4211
+RV	RV	RV	PROPN	-	4215	flat	Liv	PROPN	-	4211
 <g/>
 </name>
-)	)	)	PUNCT	_	4216	punct	RV	PROPN	_	4215
+)	)	)	PUNCT	-	4216	punct	RV	PROPN	-	4215
 10	10	10	NUM	NumType=Card	4217	nummod	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	4218
 <name type="PER">
-Jeppe	Jeppe	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	4218	list	RV	PROPN	_	4215
-Mikkelsen	Mikkelsen	Mikkelsen	PROPN	_	4219	nmod	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	4218
+Jeppe	Jeppe	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	4218	list	RV	PROPN	-	4215
+Mikkelsen	Mikkelsen	Mikkelsen	PROPN	-	4219	nmod	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	4218
 </name>
-(	(	(	PUNCT	_	4220	punct	RV	PROPN	_	4221
+(	(	(	PUNCT	-	4220	punct	RV	PROPN	-	4221
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	4221	list	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	4218
+RV	RV	RV	PROPN	-	4221	list	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	4218
 <g/>
 </name>
-)	)	)	PUNCT	_	4222	punct	RV	PROPN	_	4221
-11	11	11	NUM	NumType=Card	4223	nummod	Annette	PROPN	_	4224
+)	)	)	PUNCT	-	4222	punct	RV	PROPN	-	4221
+11	11	11	NUM	NumType=Card	4223	nummod	Annette	PROPN	-	4224
 <name type="PER">
-Annette	Annette	Annette	PROPN	_	4224	list	RV	PROPN	_	4221
-Vilhelmsen	Vilhelmsen	Vilhelmsen	PROPN	_	4225	flat	Annette	PROPN	_	4224
+Annette	Annette	Annette	PROPN	-	4224	list	RV	PROPN	-	4221
+Vilhelmsen	Vilhelmsen	Vilhelmsen	PROPN	-	4225	flat	Annette	PROPN	-	4224
 </name>
-(	(	(	PUNCT	_	4226	punct	SF	PROPN	_	4227
+(	(	(	PUNCT	-	4226	punct	SF	PROPN	-	4227
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	4227	list	Annette	PROPN	_	4224
+SF	SF	SF	PROPN	-	4227	list	Annette	PROPN	-	4224
 <g/>
 </name>
-)	)	)	PUNCT	_	4228	punct	SF	PROPN	_	4227
-12	12	12	NUM	NumType=Card	4229	nummod	Jonas	PROPN	_	4230
+)	)	)	PUNCT	-	4228	punct	SF	PROPN	-	4227
+12	12	12	NUM	NumType=Card	4229	nummod	Jonas	PROPN	-	4230
 <name type="PER">
-Jonas	Jonas	Jonas	PROPN	_	4230	list	SF	PROPN	_	4227
-Dahl	Dahl	Dahl	PROPN	_	4231	flat	Jonas	PROPN	_	4230
+Jonas	Jonas	Jonas	PROPN	-	4230	list	SF	PROPN	-	4227
+Dahl	Dahl	Dahl	PROPN	-	4231	flat	Jonas	PROPN	-	4230
 </name>
-(	(	(	PUNCT	_	4232	punct	SF	PROPN	_	4233
+(	(	(	PUNCT	-	4232	punct	SF	PROPN	-	4233
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	4233	list	Jonas	PROPN	_	4230
+SF	SF	SF	PROPN	-	4233	list	Jonas	PROPN	-	4230
 <g/>
 </name>
-)	)	)	PUNCT	_	4234	punct	SF	PROPN	_	4233
-13	13	13	NUM	NumType=Card	4235	nummod	Pernille	PROPN	_	4236
+)	)	)	PUNCT	-	4234	punct	SF	PROPN	-	4233
+13	13	13	NUM	NumType=Card	4235	nummod	Pernille	PROPN	-	4236
 <name type="PER">
-Pernille	Pernille	Pernille	PROPN	_	4236	list	SF	PROPN	_	4233
-Vigsø	Vigsø	Vigsø	PROPN	_	4237	flat	Pernille	PROPN	_	4236
-Bagge	Bagge	Bagge	PROPN	_	4238	flat	Pernille	PROPN	_	4236
+Pernille	Pernille	Pernille	PROPN	-	4236	list	SF	PROPN	-	4233
+Vigsø	Vigsø	Vigsø	PROPN	-	4237	flat	Pernille	PROPN	-	4236
+Bagge	Bagge	Bagge	PROPN	-	4238	flat	Pernille	PROPN	-	4236
 </name>
-(	(	(	PUNCT	_	4239	punct	SF	PROPN	_	4240
+(	(	(	PUNCT	-	4239	punct	SF	PROPN	-	4240
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	4240	list	Pernille	PROPN	_	4236
+SF	SF	SF	PROPN	-	4240	list	Pernille	PROPN	-	4236
 <g/>
 </name>
-)	)	)	PUNCT	_	4241	punct	SF	PROPN	_	4240
-14	14	14	NUM	NumType=Card	4242	nummod	Pernille	PROPN	_	4243
+)	)	)	PUNCT	-	4241	punct	SF	PROPN	-	4240
+14	14	14	NUM	NumType=Card	4242	nummod	Pernille	PROPN	-	4243
 <name type="PER">
-Pernille	Pernille	Pernille	PROPN	_	4243	list	SF	PROPN	_	4240
-Skipper	Skipper	Skipper	NOUN	Definite=Ind Gender=Com Number=Sing	4244	flat	Pernille	PROPN	_	4243
+Pernille	Pernille	Pernille	PROPN	-	4243	list	SF	PROPN	-	4240
+Skipper	Skipper	Skipper	NOUN	Definite=Ind Gender=Com Number=Sing	4244	flat	Pernille	PROPN	-	4243
 </name>
-(	(	(	PUNCT	_	4245	punct	EL	PROPN	_	4246
+(	(	(	PUNCT	-	4245	punct	EL	PROPN	-	4246
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	4246	flat	Pernille	PROPN	_	4243
+EL	EL	EL	PROPN	-	4246	flat	Pernille	PROPN	-	4243
 <g/>
 </name>
-)	)	)	PUNCT	_	4247	punct	EL	PROPN	_	4246
-15	15	15	NUM	NumType=Card	4248	nummod	Rosa	PROPN	_	4249
+)	)	)	PUNCT	-	4247	punct	EL	PROPN	-	4246
+15	15	15	NUM	NumType=Card	4248	nummod	Rosa	PROPN	-	4249
 <name type="PER">
-Rosa	Rosa	Rosa	PROPN	_	4249	list	Pernille	PROPN	_	4243
-Lund	Lund	Lund	PROPN	_	4250	flat	Rosa	PROPN	_	4249
+Rosa	Rosa	Rosa	PROPN	-	4249	list	Pernille	PROPN	-	4243
+Lund	Lund	Lund	PROPN	-	4250	flat	Rosa	PROPN	-	4249
 </name>
-(	(	(	PUNCT	_	4251	punct	EL	PROPN	_	4252
+(	(	(	PUNCT	-	4251	punct	EL	PROPN	-	4252
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	4252	list	Rosa	PROPN	_	4249
+EL	EL	EL	PROPN	-	4252	list	Rosa	PROPN	-	4249
 <g/>
 </name>
-)	)	)	PUNCT	_	4253	punct	EL	PROPN	_	4252
-16	16	16	NUM	NumType=Card	4254	nummod	Bertel	PROPN	_	4255
+)	)	)	PUNCT	-	4253	punct	EL	PROPN	-	4252
+16	16	16	NUM	NumType=Card	4254	nummod	Bertel	PROPN	-	4255
 <name type="PER">
-Bertel	Bertel	Bertel	PROPN	_	4255	list	EL	PROPN	_	4252
-Haarder	Haarder	Haarder	PROPN	_	4256	flat	Bertel	PROPN	_	4255
+Bertel	Bertel	Bertel	PROPN	-	4255	list	EL	PROPN	-	4252
+Haarder	Haarder	Haarder	PROPN	-	4256	flat	Bertel	PROPN	-	4255
 </name>
-(	(	(	PUNCT	_	4257	punct	V	PROPN	_	4258
+(	(	(	PUNCT	-	4257	punct	V	PROPN	-	4258
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4258	flat	Bertel	PROPN	_	4255
+V	V	V	PROPN	-	4258	flat	Bertel	PROPN	-	4255
 <g/>
 </name>
-)	)	)	PUNCT	_	4259	punct	V	PROPN	_	4258
-17	17	17	NUM	NumType=Card	4260	nummod	Kristian	PROPN	_	4261
+)	)	)	PUNCT	-	4259	punct	V	PROPN	-	4258
+17	17	17	NUM	NumType=Card	4260	nummod	Kristian	PROPN	-	4261
 <name type="PER">
-Kristian	Kristian	Kristian	PROPN	_	4261	list	Bertel	PROPN	_	4255
-Jensen	Jensen	Jensen	PROPN	_	4262	flat	Kristian	PROPN	_	4261
+Kristian	Kristian	Kristian	PROPN	-	4261	list	Bertel	PROPN	-	4255
+Jensen	Jensen	Jensen	PROPN	-	4262	flat	Kristian	PROPN	-	4261
 </name>
-(	(	(	PUNCT	_	4263	punct	V	PROPN	_	4264
+(	(	(	PUNCT	-	4263	punct	V	PROPN	-	4264
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4264	flat	Kristian	PROPN	_	4261
+V	V	V	PROPN	-	4264	flat	Kristian	PROPN	-	4261
 <g/>
 </name>
-)	)	)	PUNCT	_	4265	punct	V	PROPN	_	4264
-18	18	18	NUM	NumType=Card	4266	nummod	Karen	PROPN	_	4267
+)	)	)	PUNCT	-	4265	punct	V	PROPN	-	4264
+18	18	18	NUM	NumType=Card	4266	nummod	Karen	PROPN	-	4267
 <name type="PER">
-Karen	Karen	Karen	PROPN	_	4267	list	Kristian	PROPN	_	4261
-Ellemann	Ellemann	Ellemann	PROPN	_	4268	flat	Karen	PROPN	_	4267
+Karen	Karen	Karen	PROPN	-	4267	list	Kristian	PROPN	-	4261
+Ellemann	Ellemann	Ellemann	PROPN	-	4268	flat	Karen	PROPN	-	4267
 </name>
-(	(	(	PUNCT	_	4269	punct	V	PROPN	_	4270
+(	(	(	PUNCT	-	4269	punct	V	PROPN	-	4270
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4270	flat	Karen	PROPN	_	4267
+V	V	V	PROPN	-	4270	flat	Karen	PROPN	-	4267
 <g/>
 </name>
-)	)	)	PUNCT	_	4271	punct	V	PROPN	_	4270
-19	19	19	NUM	NumType=Card	4272	nummod	Esben	PROPN	_	4273
+)	)	)	PUNCT	-	4271	punct	V	PROPN	-	4270
+19	19	19	NUM	NumType=Card	4272	nummod	Esben	PROPN	-	4273
 <name type="PER">
-Esben	Esben	Esben	PROPN	_	4273	list	Karen	PROPN	_	4267
-Lunde	Lunde	Lunde	PROPN	_	4274	flat	Esben	PROPN	_	4273
-Larsen	Larsen	Larsen	PROPN	_	4275	flat	Esben	PROPN	_	4273
+Esben	Esben	Esben	PROPN	-	4273	list	Karen	PROPN	-	4267
+Lunde	Lunde	Lunde	PROPN	-	4274	flat	Esben	PROPN	-	4273
+Larsen	Larsen	Larsen	PROPN	-	4275	flat	Esben	PROPN	-	4273
 </name>
-(	(	(	PUNCT	_	4276	punct	V	PROPN	_	4277
+(	(	(	PUNCT	-	4276	punct	V	PROPN	-	4277
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4277	flat	Esben	PROPN	_	4273
+V	V	V	PROPN	-	4277	flat	Esben	PROPN	-	4273
 <g/>
 </name>
-)	)	)	PUNCT	_	4278	punct	V	PROPN	_	4277
-20	20	20	NUM	NumType=Card	4279	nummod	Tina	PROPN	_	4280
+)	)	)	PUNCT	-	4278	punct	V	PROPN	-	4277
+20	20	20	NUM	NumType=Card	4279	nummod	Tina	PROPN	-	4280
 <name type="PER">
-Tina	Tina	Tina	PROPN	_	4280	list	Esben	PROPN	_	4273
-Nedergaard	Nedergaard	Nedergaard	PROPN	_	4281	flat	Tina	PROPN	_	4280
+Tina	Tina	Tina	PROPN	-	4280	list	Esben	PROPN	-	4273
+Nedergaard	Nedergaard	Nedergaard	PROPN	-	4281	flat	Tina	PROPN	-	4280
 </name>
-(	(	(	PUNCT	_	4282	punct	V	PROPN	_	4283
+(	(	(	PUNCT	-	4282	punct	V	PROPN	-	4283
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4283	flat	Tina	PROPN	_	4280
+V	V	V	PROPN	-	4283	flat	Tina	PROPN	-	4280
 <g/>
 </name>
-)	)	)	PUNCT	_	4284	punct	V	PROPN	_	4283
-21	21	21	NUM	NumType=Card	4285	nummod	V	PROPN	_	4289
+)	)	)	PUNCT	-	4284	punct	V	PROPN	-	4283
+21	21	21	NUM	NumType=Card	4285	nummod	V	PROPN	-	4289
 <name type="PER">
-Mads	Mads	Mads	PROPN	Case=Gen	4286	nmod_poss	V	PROPN	_	4289
-Rørvig	Rørvig	Rørvig	PROPN	_	4287	flat	Mads	PROPN	Case=Gen	4286
+Mads	Mads	Mads	PROPN	Case=Gen	4286	nmod:poss	V	PROPN	-	4289
+Rørvig	Rørvig	Rørvig	PROPN	-	4287	flat	Mads	PROPN	Case=Gen	4286
 </name>
-(	(	(	PUNCT	_	4288	punct	V	PROPN	_	4289
+(	(	(	PUNCT	-	4288	punct	V	PROPN	-	4289
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4289	list	Tina	PROPN	_	4280
+V	V	V	PROPN	-	4289	list	Tina	PROPN	-	4280
 <g/>
 </name>
-)	)	)	PUNCT	_	4290	punct	V	PROPN	_	4289
-22	22	22	NUM	NumType=Card	4291	nummod	Anne-Mette	PROPN	_	4292
+)	)	)	PUNCT	-	4290	punct	V	PROPN	-	4289
+22	22	22	NUM	NumType=Card	4291	nummod	Anne-Mette	PROPN	-	4292
 <name type="PER">
-Anne-Mette	Anne-Mette	Anne-Mette	PROPN	_	4292	list	V	PROPN	_	4289
-Winther	Winther	Winther	PROPN	_	4293	flat	Anne-Mette	PROPN	_	4292
-Christiansen	Christiansen	Christiansen	PROPN	_	4294	flat	Anne-Mette	PROPN	_	4292
+Anne-Mette	Anne-Mette	Anne-Mette	PROPN	-	4292	list	V	PROPN	-	4289
+Winther	Winther	Winther	PROPN	-	4293	flat	Anne-Mette	PROPN	-	4292
+Christiansen	Christiansen	Christiansen	PROPN	-	4294	flat	Anne-Mette	PROPN	-	4292
 </name>
-(	(	(	PUNCT	_	4295	punct	V	PROPN	_	4296
+(	(	(	PUNCT	-	4295	punct	V	PROPN	-	4296
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4296	flat	Anne-Mette	PROPN	_	4292
+V	V	V	PROPN	-	4296	flat	Anne-Mette	PROPN	-	4292
 <g/>
 </name>
-)	)	)	PUNCT	_	4297	punct	V	PROPN	_	4296
-23	23	23	NUM	NumType=Card	4298	nummod	Jens	PROPN	_	4299
+)	)	)	PUNCT	-	4297	punct	V	PROPN	-	4296
+23	23	23	NUM	NumType=Card	4298	nummod	Jens	PROPN	-	4299
 <name type="PER">
-Jens	Jens	Jens	PROPN	_	4299	list	Anne-Mette	PROPN	_	4292
-Henrik	Henrik	Henrik	PROPN	_	4300	flat	Jens	PROPN	_	4299
-Thulesen	Thulesen	Thulesen	PROPN	_	4301	flat	Jens	PROPN	_	4299
-Dahl	Dahl	Dahl	PROPN	_	4302	flat	Jens	PROPN	_	4299
+Jens	Jens	Jens	PROPN	-	4299	list	Anne-Mette	PROPN	-	4292
+Henrik	Henrik	Henrik	PROPN	-	4300	flat	Jens	PROPN	-	4299
+Thulesen	Thulesen	Thulesen	PROPN	-	4301	flat	Jens	PROPN	-	4299
+Dahl	Dahl	Dahl	PROPN	-	4302	flat	Jens	PROPN	-	4299
 </name>
-(	(	(	PUNCT	_	4303	punct	DF	PROPN	_	4304
+(	(	(	PUNCT	-	4303	punct	DF	PROPN	-	4304
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	4304	flat	Jens	PROPN	_	4299
+DF	DF	DF	PROPN	-	4304	flat	Jens	PROPN	-	4299
 <g/>
 </name>
-)	)	)	PUNCT	_	4305	punct	DF	PROPN	_	4304
-24	24	24	NUM	NumType=Card	4306	nummod	Marie	PROPN	_	4307
+)	)	)	PUNCT	-	4305	punct	DF	PROPN	-	4304
+24	24	24	NUM	NumType=Card	4306	nummod	Marie	PROPN	-	4307
 <name type="PER">
-Marie	Marie	Marie	PROPN	_	4307	list	Jens	PROPN	_	4299
-Krarup	Krarup	Krarup	PROPN	_	4308	flat	Marie	PROPN	_	4307
+Marie	Marie	Marie	PROPN	-	4307	list	Jens	PROPN	-	4299
+Krarup	Krarup	Krarup	PROPN	-	4308	flat	Marie	PROPN	-	4307
 </name>
-(	(	(	PUNCT	_	4309	punct	DF	PROPN	_	4310
+(	(	(	PUNCT	-	4309	punct	DF	PROPN	-	4310
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	4310	flat	Marie	PROPN	_	4307
+DF	DF	DF	PROPN	-	4310	flat	Marie	PROPN	-	4307
 <g/>
 </name>
-)	)	)	PUNCT	_	4311	punct	DF	PROPN	_	4310
-25	25	25	NUM	NumType=Card	4312	nummod	Alex	PROPN	_	4313
+)	)	)	PUNCT	-	4311	punct	DF	PROPN	-	4310
+25	25	25	NUM	NumType=Card	4312	nummod	Alex	PROPN	-	4313
 <name type="PER">
-Alex	Alex	Alex	PROPN	_	4313	list	Marie	PROPN	_	4307
-Ahrendtsen	Ahrendtsen	Ahrendtsen	PROPN	_	4314	flat	Alex	PROPN	_	4313
+Alex	Alex	Alex	PROPN	-	4313	list	Marie	PROPN	-	4307
+Ahrendtsen	Ahrendtsen	Ahrendtsen	PROPN	-	4314	flat	Alex	PROPN	-	4313
 </name>
-(	(	(	PUNCT	_	4315	punct	DF	PROPN	_	4316
+(	(	(	PUNCT	-	4315	punct	DF	PROPN	-	4316
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	4316	flat	Alex	PROPN	_	4313
+DF	DF	DF	PROPN	-	4316	flat	Alex	PROPN	-	4313
 <g/>
 </name>
-)	)	)	PUNCT	_	4317	punct	DF	PROPN	_	4316
-26	26	26	NUM	NumType=Card	4318	nummod	Christian	PROPN	_	4319
+)	)	)	PUNCT	-	4317	punct	DF	PROPN	-	4316
+26	26	26	NUM	NumType=Card	4318	nummod	Christian	PROPN	-	4319
 <name type="PER">
-Christian	Christian	Christian	PROPN	_	4319	list	Alex	PROPN	_	4313
-Langballe	Langballe	Langballe	PROPN	_	4320	flat	Christian	PROPN	_	4319
+Christian	Christian	Christian	PROPN	-	4319	list	Alex	PROPN	-	4313
+Langballe	Langballe	Langballe	PROPN	-	4320	flat	Christian	PROPN	-	4319
 </name>
-(	(	(	PUNCT	_	4321	punct	DF	PROPN	_	4322
+(	(	(	PUNCT	-	4321	punct	DF	PROPN	-	4322
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	4322	flat	Christian	PROPN	_	4319
+DF	DF	DF	PROPN	-	4322	flat	Christian	PROPN	-	4319
 <g/>
 </name>
-)	)	)	PUNCT	_	4323	punct	DF	PROPN	_	4322
-27	27	27	NUM	NumType=Card	4324	nummod	Merete	PROPN	_	4325
+)	)	)	PUNCT	-	4323	punct	DF	PROPN	-	4322
+27	27	27	NUM	NumType=Card	4324	nummod	Merete	PROPN	-	4325
 <name type="PER">
-Merete	Merete	Merete	PROPN	_	4325	list	Christian	PROPN	_	4319
-Riisager	Riisager	Riisager	PROPN	_	4326	flat	Merete	PROPN	_	4325
+Merete	Merete	Merete	PROPN	-	4325	list	Christian	PROPN	-	4319
+Riisager	Riisager	Riisager	PROPN	-	4326	flat	Merete	PROPN	-	4325
 </name>
-(	(	(	PUNCT	_	4327	punct	LA	PROPN	_	4328
+(	(	(	PUNCT	-	4327	punct	LA	PROPN	-	4328
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	4328	flat	Merete	PROPN	_	4325
+LA	LA	LA	PROPN	-	4328	flat	Merete	PROPN	-	4325
 <g/>
 </name>
-)	)	)	PUNCT	_	4329	punct	LA	PROPN	_	4328
-28	28	28	NUM	NumType=Card	4330	nummod	Villum	PROPN	_	4331
+)	)	)	PUNCT	-	4329	punct	LA	PROPN	-	4328
+28	28	28	NUM	NumType=Card	4330	nummod	Villum	PROPN	-	4331
 <name type="PER">
-Villum	Villum	Villum	PROPN	_	4331	list	Merete	PROPN	_	4325
-Christensen	Christensen	Christensen	PROPN	_	4332	flat	Villum	PROPN	_	4331
+Villum	Villum	Villum	PROPN	-	4331	list	Merete	PROPN	-	4325
+Christensen	Christensen	Christensen	PROPN	-	4332	flat	Villum	PROPN	-	4331
 </name>
-(	(	(	PUNCT	_	4333	punct	LA	PROPN	_	4334
+(	(	(	PUNCT	-	4333	punct	LA	PROPN	-	4334
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	4334	flat	Villum	PROPN	_	4331
+LA	LA	LA	PROPN	-	4334	flat	Villum	PROPN	-	4331
 <g/>
 </name>
-)	)	)	PUNCT	_	4335	punct	LA	PROPN	_	4334
-29	29	29	NUM	NumType=Card	4336	nummod	Lene	PROPN	_	4337
+)	)	)	PUNCT	-	4335	punct	LA	PROPN	-	4334
+29	29	29	NUM	NumType=Card	4336	nummod	Lene	PROPN	-	4337
 <name type="PER">
-Lene	Lene	Lene	PROPN	_	4337	list	Villum	PROPN	_	4331
-Espersen	Espersen	Espersen	PROPN	_	4338	flat	Lene	PROPN	_	4337
+Lene	Lene	Lene	PROPN	-	4337	list	Villum	PROPN	-	4331
+Espersen	Espersen	Espersen	PROPN	-	4338	flat	Lene	PROPN	-	4337
 </name>
-(	(	(	PUNCT	_	4339	punct	KF	PROPN	_	4340
+(	(	(	PUNCT	-	4339	punct	KF	PROPN	-	4340
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	4340	flat	Lene	PROPN	_	4337
+KF	KF	KF	PROPN	-	4340	flat	Lene	PROPN	-	4337
 <g/>
 </name>
-)	)	)	PUNCT	_	4341	punct	KF	PROPN	_	4340
-Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	4342	list	Lene	PROPN	_	4337
+)	)	)	PUNCT	-	4341	punct	KF	PROPN	-	4340
+Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	4342	list	Lene	PROPN	-	4337
 <g/>
-:	:	:	PUNCT	_	4343	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	4342
+:	:	:	PUNCT	-	4343	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	4342
 <name type="PER">
-Rasmus	Rasmus	Rasmus	PROPN	_	4344	nmod	formand	NOUN	Definite=Ind Gender=Com Number=Sing	4342
-Prehn	Prehn	Prehn	PROPN	_	4345	flat	Rasmus	PROPN	_	4344
+Rasmus	Rasmus	Rasmus	PROPN	-	4344	nmod	formand	NOUN	Definite=Ind Gender=Com Number=Sing	4342
+Prehn	Prehn	Prehn	PROPN	-	4345	flat	Rasmus	PROPN	-	4344
 </name>
-(	(	(	PUNCT	_	4346	punct	S	PROPN	_	4347
+(	(	(	PUNCT	-	4346	punct	S	PROPN	-	4347
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	4347	flat	Rasmus	PROPN	_	4344
+S	S	S	PROPN	-	4347	flat	Rasmus	PROPN	-	4344
 <g/>
 </name>
-)	)	)	PUNCT	_	4348	punct	S	PROPN	_	4347
-Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	4349	flat	Rasmus	PROPN	_	4344
+)	)	)	PUNCT	-	4348	punct	S	PROPN	-	4347
+Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	4349	flat	Rasmus	PROPN	-	4344
 <g/>
-:	:	:	PUNCT	_	4350	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	4349
+:	:	:	PUNCT	-	4350	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	4349
 <name type="PER">
-Karen	Karen	Karen	PROPN	_	4351	nsubj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	4369
-Ellemann	Ellemann	Ellemann	PROPN	_	4352	flat	Karen	PROPN	_	4351
+Karen	Karen	Karen	PROPN	-	4351	nsubj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	4369
+Ellemann	Ellemann	Ellemann	PROPN	-	4352	flat	Karen	PROPN	-	4351
 </name>
-(	(	(	PUNCT	_	4353	punct	V	PROPN	_	4354
+(	(	(	PUNCT	-	4353	punct	V	PROPN	-	4354
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4354	flat	Karen	PROPN	_	4351
+V	V	V	PROPN	-	4354	flat	Karen	PROPN	-	4351
 <g/>
 </name>
-)	)	)	PUNCT	_	4355	punct	V	PROPN	_	4354
+)	)	)	PUNCT	-	4355	punct	V	PROPN	-	4354
 Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	4356	nsubj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	4369
 af	af	af	ADP	AdpType=Prep	4357	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	4359
 29	29	29	NUM	NumType=Card	4358	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	4359
@@ -10265,399 +10265,399 @@ Udvalget	Udvalget	udvalg	NOUN	Definite=Def Gender=Neut Number=Sing	4361	nmod	med
 for	for	for	ADP	AdpType=Prep	4362	case	fødevare	NOUN	Definite=Ind Gender=Com Number=Plur	4363
 Fødevarer	Fødevarer	fødevare	NOUN	Definite=Ind Gender=Com Number=Plur	4363	nmod	udvalg	NOUN	Definite=Def Gender=Neut Number=Sing	4361
 <g/>
-,	,	,	PUNCT	_	4364	punct	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	4359
+,	,	,	PUNCT	-	4364	punct	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	4359
 Landbrug	Landbrug	landbrug	NOUN	Definite=Ind Gender=Neut Number=Sing	4365	conj	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	4359
-og	og	og	CCONJ	_	4366	cc	fiskeri	NOUN	Definite=Ind Gender=Neut Number=Sing	4367
+og	og	og	CCONJ	-	4366	cc	fiskeri	NOUN	Definite=Ind Gender=Neut Number=Sing	4367
 Fiskeri	Fiskeri	fiskeri	NOUN	Definite=Ind Gender=Neut Number=Sing	4367	conj	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	4359
 <g/>
-:	:	:	PUNCT	_	4368	punct	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	4356
-Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	4369	acl_relcl	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	4349
+:	:	:	PUNCT	-	4368	punct	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	4356
+Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	4369	acl:relcl	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	4349
 blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	4370	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	4369
 <g/>
-:	:	:	PUNCT	_	4371	punct	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	4370
-1	1	1	NUM	NumType=Card	4372	nummod	Jesper	PROPN	_	4373
+:	:	:	PUNCT	-	4371	punct	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	4370
+1	1	1	NUM	NumType=Card	4372	nummod	Jesper	PROPN	-	4373
 <name type="PER">
-Jesper	Jesper	Jesper	PROPN	_	4373	list	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	4370
-Petersen	Petersen	Petersen	PROPN	_	4374	flat	Jesper	PROPN	_	4373
+Jesper	Jesper	Jesper	PROPN	-	4373	list	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	4370
+Petersen	Petersen	Petersen	PROPN	-	4374	flat	Jesper	PROPN	-	4373
 </name>
-(	(	(	PUNCT	_	4375	punct	S	PROPN	_	4376
+(	(	(	PUNCT	-	4375	punct	S	PROPN	-	4376
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	4376	flat	Jesper	PROPN	_	4373
+S	S	S	PROPN	-	4376	flat	Jesper	PROPN	-	4373
 <g/>
 </name>
-)	)	)	PUNCT	_	4377	punct	S	PROPN	_	4376
-2	2	2	NUM	NumType=Card	4378	nummod	Bjarne	PROPN	_	4379
+)	)	)	PUNCT	-	4377	punct	S	PROPN	-	4376
+2	2	2	NUM	NumType=Card	4378	nummod	Bjarne	PROPN	-	4379
 <name type="PER">
-Bjarne	Bjarne	Bjarne	PROPN	_	4379	list	Jesper	PROPN	_	4373
-Laustsen	Laustsen	Laustsen	PROPN	_	4380	flat	Bjarne	PROPN	_	4379
+Bjarne	Bjarne	Bjarne	PROPN	-	4379	list	Jesper	PROPN	-	4373
+Laustsen	Laustsen	Laustsen	PROPN	-	4380	flat	Bjarne	PROPN	-	4379
 </name>
-(	(	(	PUNCT	_	4381	punct	S	PROPN	_	4382
+(	(	(	PUNCT	-	4381	punct	S	PROPN	-	4382
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	4382	flat	Bjarne	PROPN	_	4379
+S	S	S	PROPN	-	4382	flat	Bjarne	PROPN	-	4379
 <g/>
 </name>
-)	)	)	PUNCT	_	4383	punct	S	PROPN	_	4382
-3	3	3	NUM	NumType=Card	4384	nummod	Karin	PROPN	_	4385
+)	)	)	PUNCT	-	4383	punct	S	PROPN	-	4382
+3	3	3	NUM	NumType=Card	4384	nummod	Karin	PROPN	-	4385
 <name type="PER">
-Karin	Karin	Karin	PROPN	_	4385	list	Bjarne	PROPN	_	4379
-Gaardsted	Gaardsted	Gaardsted	PROPN	_	4386	flat	Karin	PROPN	_	4385
+Karin	Karin	Karin	PROPN	-	4385	list	Bjarne	PROPN	-	4379
+Gaardsted	Gaardsted	Gaardsted	PROPN	-	4386	flat	Karin	PROPN	-	4385
 </name>
-(	(	(	PUNCT	_	4387	punct	S	PROPN	_	4388
+(	(	(	PUNCT	-	4387	punct	S	PROPN	-	4388
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	4388	list	Karin	PROPN	_	4385
+S	S	S	PROPN	-	4388	list	Karin	PROPN	-	4385
 <g/>
 </name>
-)	)	)	PUNCT	_	4389	punct	S	PROPN	_	4388
-4	4	4	NUM	NumType=Card	4390	nummod	Orla	PROPN	_	4391
+)	)	)	PUNCT	-	4389	punct	S	PROPN	-	4388
+4	4	4	NUM	NumType=Card	4390	nummod	Orla	PROPN	-	4391
 <name type="PER">
-Orla	Orla	Orla	PROPN	_	4391	list	S	PROPN	_	4388
-Hav	Hav	Hav	PROPN	_	4392	flat	Orla	PROPN	_	4391
+Orla	Orla	Orla	PROPN	-	4391	list	S	PROPN	-	4388
+Hav	Hav	Hav	PROPN	-	4392	flat	Orla	PROPN	-	4391
 </name>
-(	(	(	PUNCT	_	4393	punct	S	PROPN	_	4394
+(	(	(	PUNCT	-	4393	punct	S	PROPN	-	4394
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	4394	flat	Orla	PROPN	_	4391
+S	S	S	PROPN	-	4394	flat	Orla	PROPN	-	4391
 <g/>
 </name>
-)	)	)	PUNCT	_	4395	punct	S	PROPN	_	4394
-5	5	5	NUM	NumType=Card	4396	nummod	Pernille	PROPN	_	4397
+)	)	)	PUNCT	-	4395	punct	S	PROPN	-	4394
+5	5	5	NUM	NumType=Card	4396	nummod	Pernille	PROPN	-	4397
 <name type="PER">
-Pernille	Pernille	Pernille	PROPN	_	4397	list	Orla	PROPN	_	4391
-Rosenkrantz-Theil	Rosenkrantz-Theil	Rosenkrantz-Theil	PROPN	_	4398	flat	Pernille	PROPN	_	4397
+Pernille	Pernille	Pernille	PROPN	-	4397	list	Orla	PROPN	-	4391
+Rosenkrantz-Theil	Rosenkrantz-Theil	Rosenkrantz-Theil	PROPN	-	4398	flat	Pernille	PROPN	-	4397
 </name>
-(	(	(	PUNCT	_	4399	punct	S	PROPN	_	4400
+(	(	(	PUNCT	-	4399	punct	S	PROPN	-	4400
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	4400	list	Pernille	PROPN	_	4397
+S	S	S	PROPN	-	4400	list	Pernille	PROPN	-	4397
 <g/>
 </name>
-)	)	)	PUNCT	_	4401	punct	S	PROPN	_	4400
-6	6	6	NUM	NumType=Card	4402	nummod	Mette	PROPN	_	4403
+)	)	)	PUNCT	-	4401	punct	S	PROPN	-	4400
+6	6	6	NUM	NumType=Card	4402	nummod	Mette	PROPN	-	4403
 <name type="PER">
-Mette	Mette	Mette	PROPN	_	4403	list	S	PROPN	_	4400
-Reissmann	Reissmann	Reissmann	PROPN	_	4404	flat	Mette	PROPN	_	4403
+Mette	Mette	Mette	PROPN	-	4403	list	S	PROPN	-	4400
+Reissmann	Reissmann	Reissmann	PROPN	-	4404	flat	Mette	PROPN	-	4403
 </name>
-(	(	(	PUNCT	_	4405	punct	S	PROPN	_	4406
+(	(	(	PUNCT	-	4405	punct	S	PROPN	-	4406
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	4406	flat	Mette	PROPN	_	4403
+S	S	S	PROPN	-	4406	flat	Mette	PROPN	-	4403
 <g/>
 </name>
-)	)	)	PUNCT	_	4407	punct	S	PROPN	_	4406
-7	7	7	NUM	NumType=Card	4408	nummod	Simon	PROPN	_	4409
+)	)	)	PUNCT	-	4407	punct	S	PROPN	-	4406
+7	7	7	NUM	NumType=Card	4408	nummod	Simon	PROPN	-	4409
 <name type="PER">
-Simon	Simon	Simon	PROPN	_	4409	list	Mette	PROPN	_	4403
-Kollerup	Kollerup	Kollerup	PROPN	_	4410	flat	Simon	PROPN	_	4409
+Simon	Simon	Simon	PROPN	-	4409	list	Mette	PROPN	-	4403
+Kollerup	Kollerup	Kollerup	PROPN	-	4410	flat	Simon	PROPN	-	4409
 </name>
-(	(	(	PUNCT	_	4411	punct	S	PROPN	_	4412
+(	(	(	PUNCT	-	4411	punct	S	PROPN	-	4412
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	4412	list	Simon	PROPN	_	4409
+S	S	S	PROPN	-	4412	list	Simon	PROPN	-	4409
 <g/>
 </name>
-)	)	)	PUNCT	_	4413	punct	S	PROPN	_	4412
-8	8	8	NUM	NumType=Card	4414	nummod	Helle	PROPN	_	4415
+)	)	)	PUNCT	-	4413	punct	S	PROPN	-	4412
+8	8	8	NUM	NumType=Card	4414	nummod	Helle	PROPN	-	4415
 <name type="PER">
-Helle	Helle	Helle	PROPN	_	4415	list	S	PROPN	_	4412
-Løvgreen	Løvgreen	Løvgreen	PROPN	_	4416	flat	Helle	PROPN	_	4415
-Mølvig	Mølvig	Mølvigen	PROPN	_	4417	flat	Helle	PROPN	_	4415
+Helle	Helle	Helle	PROPN	-	4415	list	S	PROPN	-	4412
+Løvgreen	Løvgreen	Løvgreen	PROPN	-	4416	flat	Helle	PROPN	-	4415
+Mølvig	Mølvig	Mølvigen	PROPN	-	4417	flat	Helle	PROPN	-	4415
 </name>
-(	(	(	PUNCT	_	4418	punct	RV	PROPN	_	4419
+(	(	(	PUNCT	-	4418	punct	RV	PROPN	-	4419
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	4419	flat	Helle	PROPN	_	4415
+RV	RV	RV	PROPN	-	4419	flat	Helle	PROPN	-	4415
 <g/>
 </name>
-)	)	)	PUNCT	_	4420	punct	RV	PROPN	_	4419
-9	9	9	NUM	NumType=Card	4421	nummod	Lone	PROPN	_	4422
+)	)	)	PUNCT	-	4420	punct	RV	PROPN	-	4419
+9	9	9	NUM	NumType=Card	4421	nummod	Lone	PROPN	-	4422
 <name type="PER">
-Lone	Lone	Lone	PROPN	_	4422	list	Helle	PROPN	_	4415
-Loklindt	Loklindt	Loklindt	PROPN	_	4423	flat	Lone	PROPN	_	4422
+Lone	Lone	Lone	PROPN	-	4422	list	Helle	PROPN	-	4415
+Loklindt	Loklindt	Loklindt	PROPN	-	4423	flat	Lone	PROPN	-	4422
 </name>
-(	(	(	PUNCT	_	4424	punct	RV	PROPN	_	4425
+(	(	(	PUNCT	-	4424	punct	RV	PROPN	-	4425
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	4425	flat	Lone	PROPN	_	4422
+RV	RV	RV	PROPN	-	4425	flat	Lone	PROPN	-	4422
 <g/>
 </name>
-)	)	)	PUNCT	_	4426	punct	RV	PROPN	_	4425
-10	10	10	NUM	NumType=Card	4427	nummod	Andreas	PROPN	_	4428
+)	)	)	PUNCT	-	4426	punct	RV	PROPN	-	4425
+10	10	10	NUM	NumType=Card	4427	nummod	Andreas	PROPN	-	4428
 <name type="PER">
-Andreas	Andreas	Andreas	PROPN	_	4428	list	Lone	PROPN	_	4422
-Steenberg	Steenberg	Steenberg	PROPN	_	4429	flat	Andreas	PROPN	_	4428
+Andreas	Andreas	Andreas	PROPN	-	4428	list	Lone	PROPN	-	4422
+Steenberg	Steenberg	Steenberg	PROPN	-	4429	flat	Andreas	PROPN	-	4428
 </name>
-(	(	(	PUNCT	_	4430	punct	RV	PROPN	_	4431
+(	(	(	PUNCT	-	4430	punct	RV	PROPN	-	4431
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	4431	flat	Andreas	PROPN	_	4428
+RV	RV	RV	PROPN	-	4431	flat	Andreas	PROPN	-	4428
 <g/>
 </name>
-)	)	)	PUNCT	_	4432	punct	RV	PROPN	_	4431
-11	11	11	NUM	NumType=Card	4433	nummod	Lisbeth	PROPN	_	4434
+)	)	)	PUNCT	-	4432	punct	RV	PROPN	-	4431
+11	11	11	NUM	NumType=Card	4433	nummod	Lisbeth	PROPN	-	4434
 <name type="PER">
-Lisbeth	Lisbeth	Lisbeth	PROPN	_	4434	list	Andreas	PROPN	_	4428
-Bech	Bech	Bech	PROPN	_	4435	flat	Lisbeth	PROPN	_	4434
-Poulsen	Poulsen	Poulsen	PROPN	_	4436	flat	Bech	PROPN	_	4435
+Lisbeth	Lisbeth	Lisbeth	PROPN	-	4434	list	Andreas	PROPN	-	4428
+Bech	Bech	Bech	PROPN	-	4435	flat	Lisbeth	PROPN	-	4434
+Poulsen	Poulsen	Poulsen	PROPN	-	4436	flat	Bech	PROPN	-	4435
 </name>
-(	(	(	PUNCT	_	4437	punct	SF	PROPN	_	4438
+(	(	(	PUNCT	-	4437	punct	SF	PROPN	-	4438
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	4438	list	Lisbeth	PROPN	_	4434
+SF	SF	SF	PROPN	-	4438	list	Lisbeth	PROPN	-	4434
 <g/>
 </name>
-)	)	)	PUNCT	_	4439	punct	SF	PROPN	_	4438
-12	12	12	NUM	NumType=Card	4440	nummod	Karina	PROPN	_	4441
+)	)	)	PUNCT	-	4439	punct	SF	PROPN	-	4438
+12	12	12	NUM	NumType=Card	4440	nummod	Karina	PROPN	-	4441
 <name type="PER">
-Karina	Karina	Karina	PROPN	_	4441	list	SF	PROPN	_	4438
-Lorentzen	Lorentzen	Lorentzen	PROPN	_	4442	flat	Karina	PROPN	_	4441
-Dehnhardt	Dehnhardt	Dehnhardt	PROPN	_	4443	flat	Karina	PROPN	_	4441
+Karina	Karina	Karina	PROPN	-	4441	list	SF	PROPN	-	4438
+Lorentzen	Lorentzen	Lorentzen	PROPN	-	4442	flat	Karina	PROPN	-	4441
+Dehnhardt	Dehnhardt	Dehnhardt	PROPN	-	4443	flat	Karina	PROPN	-	4441
 </name>
-(	(	(	PUNCT	_	4444	punct	SF	PROPN	_	4445
+(	(	(	PUNCT	-	4444	punct	SF	PROPN	-	4445
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	4445	list	Karina	PROPN	_	4441
+SF	SF	SF	PROPN	-	4445	list	Karina	PROPN	-	4441
 <g/>
 </name>
-)	)	)	PUNCT	_	4446	punct	SF	PROPN	_	4445
-13	13	13	NUM	NumType=Card	4447	nummod	Per	PROPN	_	4448
+)	)	)	PUNCT	-	4446	punct	SF	PROPN	-	4445
+13	13	13	NUM	NumType=Card	4447	nummod	Per	PROPN	-	4448
 <name type="PER">
-Per	Per	Per	PROPN	_	4448	list	SF	PROPN	_	4438
-Clausen	Clausen	Clausen	PROPN	_	4449	flat	Per	PROPN	_	4448
+Per	Per	Per	PROPN	-	4448	list	SF	PROPN	-	4438
+Clausen	Clausen	Clausen	PROPN	-	4449	flat	Per	PROPN	-	4448
 </name>
-(	(	(	PUNCT	_	4450	punct	EL	PROPN	_	4451
+(	(	(	PUNCT	-	4450	punct	EL	PROPN	-	4451
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	4451	flat	Per	PROPN	_	4448
+EL	EL	EL	PROPN	-	4451	flat	Per	PROPN	-	4448
 <g/>
 </name>
-)	)	)	PUNCT	_	4452	punct	EL	PROPN	_	4451
-14	14	14	NUM	NumType=Card	4453	nummod	Henning	PROPN	_	4454
+)	)	)	PUNCT	-	4452	punct	EL	PROPN	-	4451
+14	14	14	NUM	NumType=Card	4453	nummod	Henning	PROPN	-	4454
 <name type="PER">
-Henning	Henning	Henning	PROPN	_	4454	list	Per	PROPN	_	4448
-Hyllested	Hyllested	Hyllested	PROPN	_	4455	flat	Henning	PROPN	_	4454
+Henning	Henning	Henning	PROPN	-	4454	list	Per	PROPN	-	4448
+Hyllested	Hyllested	Hyllested	PROPN	-	4455	flat	Henning	PROPN	-	4454
 </name>
-(	(	(	PUNCT	_	4456	punct	EL	PROPN	_	4457
+(	(	(	PUNCT	-	4456	punct	EL	PROPN	-	4457
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	4457	flat	Henning	PROPN	_	4454
+EL	EL	EL	PROPN	-	4457	flat	Henning	PROPN	-	4454
 <g/>
 </name>
-)	)	)	PUNCT	_	4458	punct	EL	PROPN	_	4457
-15	15	15	NUM	NumType=Card	4459	nummod	Lars	PROPN	_	4460
+)	)	)	PUNCT	-	4458	punct	EL	PROPN	-	4457
+15	15	15	NUM	NumType=Card	4459	nummod	Lars	PROPN	-	4460
 <name type="PER">
-Lars	Lars	Lars	PROPN	_	4460	list	Henning	PROPN	_	4454
-Dohn	Dohn	Dohn	PROPN	_	4461	flat	Lars	PROPN	_	4460
+Lars	Lars	Lars	PROPN	-	4460	list	Henning	PROPN	-	4454
+Dohn	Dohn	Dohn	PROPN	-	4461	flat	Lars	PROPN	-	4460
 </name>
-(	(	(	PUNCT	_	4462	punct	EL	PROPN	_	4463
+(	(	(	PUNCT	-	4462	punct	EL	PROPN	-	4463
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	4463	flat	Lars	PROPN	_	4460
+EL	EL	EL	PROPN	-	4463	flat	Lars	PROPN	-	4460
 <g/>
 </name>
-)	)	)	PUNCT	_	4464	punct	EL	PROPN	_	4463
-16	16	16	NUM	NumType=Card	4465	nummod	Erling	PROPN	_	4466
+)	)	)	PUNCT	-	4464	punct	EL	PROPN	-	4463
+16	16	16	NUM	NumType=Card	4465	nummod	Erling	PROPN	-	4466
 <name type="PER">
-Erling	Erling	Erling	PROPN	_	4466	list	Lars	PROPN	_	4460
-Bonnesen	Bonnesen	Bonnesen	PROPN	_	4467	flat	Erling	PROPN	_	4466
+Erling	Erling	Erling	PROPN	-	4466	list	Lars	PROPN	-	4460
+Bonnesen	Bonnesen	Bonnesen	PROPN	-	4467	flat	Erling	PROPN	-	4466
 </name>
-(	(	(	PUNCT	_	4468	punct	V	PROPN	_	4469
+(	(	(	PUNCT	-	4468	punct	V	PROPN	-	4469
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4469	flat	Erling	PROPN	_	4466
+V	V	V	PROPN	-	4469	flat	Erling	PROPN	-	4466
 <g/>
 </name>
-)	)	)	PUNCT	_	4470	punct	V	PROPN	_	4469
-17	17	17	NUM	NumType=Card	4471	nummod	Thomas	PROPN	_	4472
+)	)	)	PUNCT	-	4470	punct	V	PROPN	-	4469
+17	17	17	NUM	NumType=Card	4471	nummod	Thomas	PROPN	-	4472
 <name type="PER">
-Thomas	Thomas	Thomas	PROPN	_	4472	list	Lars	PROPN	_	4460
-Danielsen	Danielsen	Danielsen	PROPN	_	4473	flat	Thomas	PROPN	_	4472
+Thomas	Thomas	Thomas	PROPN	-	4472	list	Lars	PROPN	-	4460
+Danielsen	Danielsen	Danielsen	PROPN	-	4473	flat	Thomas	PROPN	-	4472
 </name>
-(	(	(	PUNCT	_	4474	punct	V	PROPN	_	4475
+(	(	(	PUNCT	-	4474	punct	V	PROPN	-	4475
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4475	flat	Thomas	PROPN	_	4472
+V	V	V	PROPN	-	4475	flat	Thomas	PROPN	-	4472
 <g/>
 </name>
-)	)	)	PUNCT	_	4476	punct	V	PROPN	_	4475
-18	18	18	NUM	NumType=Card	4477	nummod	Henrik	PROPN	_	4478
+)	)	)	PUNCT	-	4476	punct	V	PROPN	-	4475
+18	18	18	NUM	NumType=Card	4477	nummod	Henrik	PROPN	-	4478
 <name type="PER">
-Henrik	Henrik	Henrik	PROPN	_	4478	list	Thomas	PROPN	_	4472
-Høegh	Høegh	Høegh	PROPN	_	4479	flat	Henrik	PROPN	_	4478
+Henrik	Henrik	Henrik	PROPN	-	4478	list	Thomas	PROPN	-	4472
+Høegh	Høegh	Høegh	PROPN	-	4479	flat	Henrik	PROPN	-	4478
 </name>
-(	(	(	PUNCT	_	4480	punct	V	PROPN	_	4481
+(	(	(	PUNCT	-	4480	punct	V	PROPN	-	4481
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4481	flat	Henrik	PROPN	_	4478
+V	V	V	PROPN	-	4481	flat	Henrik	PROPN	-	4478
 <g/>
 </name>
-)	)	)	PUNCT	_	4482	punct	V	PROPN	_	4481
-19	19	19	NUM	NumType=Card	4483	nummod	Jacob	PROPN	_	4484
+)	)	)	PUNCT	-	4482	punct	V	PROPN	-	4481
+19	19	19	NUM	NumType=Card	4483	nummod	Jacob	PROPN	-	4484
 <name type="PER">
-Jacob	Jacob	Jacob	PROPN	_	4484	list	Henrik	PROPN	_	4478
-Jensen	Jensen	Jensen	PROPN	_	4485	flat	Jacob	PROPN	_	4484
+Jacob	Jacob	Jacob	PROPN	-	4484	list	Henrik	PROPN	-	4478
+Jensen	Jensen	Jensen	PROPN	-	4485	flat	Jacob	PROPN	-	4484
 </name>
-(	(	(	PUNCT	_	4486	punct	V	PROPN	_	4487
+(	(	(	PUNCT	-	4486	punct	V	PROPN	-	4487
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4487	flat	Jacob	PROPN	_	4484
+V	V	V	PROPN	-	4487	flat	Jacob	PROPN	-	4484
 <g/>
 </name>
-)	)	)	PUNCT	_	4488	punct	V	PROPN	_	4487
-20	20	20	NUM	NumType=Card	4489	nummod	Hans	PROPN	_	4490
+)	)	)	PUNCT	-	4488	punct	V	PROPN	-	4487
+20	20	20	NUM	NumType=Card	4489	nummod	Hans	PROPN	-	4490
 <name type="PER">
-Hans	Hans	Hans	PROPN	_	4490	list	Jacob	PROPN	_	4484
-Christian	Christian	Christian	PROPN	_	4491	flat	Hans	PROPN	_	4490
-Schmidt	Schmidt	Schmidt	X	_	4492	flat	Hans	PROPN	_	4490
+Hans	Hans	Hans	PROPN	-	4490	list	Jacob	PROPN	-	4484
+Christian	Christian	Christian	PROPN	-	4491	flat	Hans	PROPN	-	4490
+Schmidt	Schmidt	Schmidt	X	-	4492	flat	Hans	PROPN	-	4490
 </name>
-(	(	(	PUNCT	_	4493	punct	V	PROPN	_	4494
+(	(	(	PUNCT	-	4493	punct	V	PROPN	-	4494
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4494	flat	Hans	PROPN	_	4490
+V	V	V	PROPN	-	4494	flat	Hans	PROPN	-	4490
 <g/>
 </name>
-)	)	)	PUNCT	_	4495	punct	V	PROPN	_	4494
-21	21	21	NUM	NumType=Card	4496	nummod	Jan	PROPN	_	4497
+)	)	)	PUNCT	-	4495	punct	V	PROPN	-	4494
+21	21	21	NUM	NumType=Card	4496	nummod	Jan	PROPN	-	4497
 <name type="PER">
-Jan	Jan	Jan	PROPN	_	4497	list	Hans	PROPN	_	4490
-E.	E.	E.	PROPN	_	4498	flat	Jan	PROPN	_	4497
-Jørgensen	Jørgensen	Jørgensen	PROPN	_	4499	flat	Jan	PROPN	_	4497
+Jan	Jan	Jan	PROPN	-	4497	list	Hans	PROPN	-	4490
+E.	E.	E.	PROPN	-	4498	flat	Jan	PROPN	-	4497
+Jørgensen	Jørgensen	Jørgensen	PROPN	-	4499	flat	Jan	PROPN	-	4497
 </name>
-(	(	(	PUNCT	_	4500	punct	V	PROPN	_	4501
+(	(	(	PUNCT	-	4500	punct	V	PROPN	-	4501
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4501	flat	Jan	PROPN	_	4497
+V	V	V	PROPN	-	4501	flat	Jan	PROPN	-	4497
 <g/>
 </name>
-)	)	)	PUNCT	_	4502	punct	V	PROPN	_	4501
-22	22	22	NUM	NumType=Card	4503	nummod	Esben	PROPN	_	4504
+)	)	)	PUNCT	-	4502	punct	V	PROPN	-	4501
+22	22	22	NUM	NumType=Card	4503	nummod	Esben	PROPN	-	4504
 <name type="PER">
-Esben	Esben	Esben	PROPN	_	4504	list	Jan	PROPN	_	4497
-Lunde	Lunde	Lunde	PROPN	_	4505	flat	Esben	PROPN	_	4504
-Larsen	Larsen	Larsen	PROPN	_	4506	flat	Esben	PROPN	_	4504
+Esben	Esben	Esben	PROPN	-	4504	list	Jan	PROPN	-	4497
+Lunde	Lunde	Lunde	PROPN	-	4505	flat	Esben	PROPN	-	4504
+Larsen	Larsen	Larsen	PROPN	-	4506	flat	Esben	PROPN	-	4504
 </name>
-(	(	(	PUNCT	_	4507	punct	V	PROPN	_	4508
+(	(	(	PUNCT	-	4507	punct	V	PROPN	-	4508
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4508	flat	Esben	PROPN	_	4504
+V	V	V	PROPN	-	4508	flat	Esben	PROPN	-	4504
 <g/>
 </name>
-)	)	)	PUNCT	_	4509	punct	V	PROPN	_	4508
-23	23	23	NUM	NumType=Card	4510	nummod	Tina	PROPN	_	4511
+)	)	)	PUNCT	-	4509	punct	V	PROPN	-	4508
+23	23	23	NUM	NumType=Card	4510	nummod	Tina	PROPN	-	4511
 <name type="PER">
-Tina	Tina	Tina	PROPN	_	4511	list	Esben	PROPN	_	4504
-Nedergaard	Nedergaard	Nedergaard	PROPN	_	4512	flat	Tina	PROPN	_	4511
+Tina	Tina	Tina	PROPN	-	4511	list	Esben	PROPN	-	4504
+Nedergaard	Nedergaard	Nedergaard	PROPN	-	4512	flat	Tina	PROPN	-	4511
 </name>
-(	(	(	PUNCT	_	4513	punct	V	PROPN	_	4514
+(	(	(	PUNCT	-	4513	punct	V	PROPN	-	4514
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4514	flat	Tina	PROPN	_	4511
+V	V	V	PROPN	-	4514	flat	Tina	PROPN	-	4511
 <g/>
 </name>
-)	)	)	PUNCT	_	4515	punct	V	PROPN	_	4514
-24	24	24	NUM	NumType=Card	4516	nummod	René	PROPN	_	4517
+)	)	)	PUNCT	-	4515	punct	V	PROPN	-	4514
+24	24	24	NUM	NumType=Card	4516	nummod	René	PROPN	-	4517
 <name type="PER">
-René	René	René	PROPN	_	4517	list	Tina	PROPN	_	4511
-Christensen	Christensen	Christensen	PROPN	_	4518	flat	René	PROPN	_	4517
+René	René	René	PROPN	-	4517	list	Tina	PROPN	-	4511
+Christensen	Christensen	Christensen	PROPN	-	4518	flat	René	PROPN	-	4517
 </name>
-(	(	(	PUNCT	_	4519	punct	DF	PROPN	_	4520
+(	(	(	PUNCT	-	4519	punct	DF	PROPN	-	4520
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	4520	flat	René	PROPN	_	4517
+DF	DF	DF	PROPN	-	4520	flat	René	PROPN	-	4517
 <g/>
 </name>
-)	)	)	PUNCT	_	4521	punct	DF	PROPN	_	4520
-25	25	25	NUM	NumType=Card	4522	nummod	Anita	PROPN	_	4523
+)	)	)	PUNCT	-	4521	punct	DF	PROPN	-	4520
+25	25	25	NUM	NumType=Card	4522	nummod	Anita	PROPN	-	4523
 <name type="PER">
-Anita	Anita	Anita	PROPN	_	4523	list	René	PROPN	_	4517
-Christensen	Christensen	Christensen	PROPN	_	4524	flat	Anita	PROPN	_	4523
+Anita	Anita	Anita	PROPN	-	4523	list	René	PROPN	-	4517
+Christensen	Christensen	Christensen	PROPN	-	4524	flat	Anita	PROPN	-	4523
 </name>
-(	(	(	PUNCT	_	4525	punct	DF	PROPN	_	4526
+(	(	(	PUNCT	-	4525	punct	DF	PROPN	-	4526
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	4526	flat	Anita	PROPN	_	4523
+DF	DF	DF	PROPN	-	4526	flat	Anita	PROPN	-	4523
 <g/>
 </name>
-)	)	)	PUNCT	_	4527	punct	DF	PROPN	_	4526
-26	26	26	NUM	NumType=Card	4528	nummod	Mette	PROPN	_	4529
+)	)	)	PUNCT	-	4527	punct	DF	PROPN	-	4526
+26	26	26	NUM	NumType=Card	4528	nummod	Mette	PROPN	-	4529
 <name type="PER">
-Mette	Mette	Mette	PROPN	_	4529	list	Anita	PROPN	_	4523
-Hjermind	Hjermind	Hjermind	PROPN	_	4530	flat	Mette	PROPN	_	4529
-Dencker	Dencker	Dencker	PROPN	_	4531	flat	Mette	PROPN	_	4529
+Mette	Mette	Mette	PROPN	-	4529	list	Anita	PROPN	-	4523
+Hjermind	Hjermind	Hjermind	PROPN	-	4530	flat	Mette	PROPN	-	4529
+Dencker	Dencker	Dencker	PROPN	-	4531	flat	Mette	PROPN	-	4529
 </name>
-(	(	(	PUNCT	_	4532	punct	DF	PROPN	_	4533
+(	(	(	PUNCT	-	4532	punct	DF	PROPN	-	4533
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	4533	flat	Mette	PROPN	_	4529
+DF	DF	DF	PROPN	-	4533	flat	Mette	PROPN	-	4529
 <g/>
 </name>
-)	)	)	PUNCT	_	4534	punct	DF	PROPN	_	4533
-27	27	27	NUM	NumType=Card	4535	nummod	Dennis	PROPN	_	4536
+)	)	)	PUNCT	-	4534	punct	DF	PROPN	-	4533
+27	27	27	NUM	NumType=Card	4535	nummod	Dennis	PROPN	-	4536
 <name type="PER">
-Dennis	Dennis	Dennis	PROPN	_	4536	list	Mette	PROPN	_	4529
-Flydtkjær	Flydtkjær	Flydtkjær	PROPN	_	4537	flat	Dennis	PROPN	_	4536
+Dennis	Dennis	Dennis	PROPN	-	4536	list	Mette	PROPN	-	4529
+Flydtkjær	Flydtkjær	Flydtkjær	PROPN	-	4537	flat	Dennis	PROPN	-	4536
 </name>
-(	(	(	PUNCT	_	4538	punct	DF	PROPN	_	4539
+(	(	(	PUNCT	-	4538	punct	DF	PROPN	-	4539
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	4539	flat	Dennis	PROPN	_	4536
+DF	DF	DF	PROPN	-	4539	flat	Dennis	PROPN	-	4536
 <g/>
 </name>
-)	)	)	PUNCT	_	4540	punct	DF	PROPN	_	4539
-28	28	28	NUM	NumType=Card	4541	nummod	Mette	PROPN	_	4542
+)	)	)	PUNCT	-	4540	punct	DF	PROPN	-	4539
+28	28	28	NUM	NumType=Card	4541	nummod	Mette	PROPN	-	4542
 <name type="PER">
-Mette	Mette	Mette	PROPN	_	4542	list	Dennis	PROPN	_	4536
-Bock	Bock	Bock	PROPN	_	4543	flat	Mette	PROPN	_	4542
+Mette	Mette	Mette	PROPN	-	4542	list	Dennis	PROPN	-	4536
+Bock	Bock	Bock	PROPN	-	4543	flat	Mette	PROPN	-	4542
 </name>
-(	(	(	PUNCT	_	4544	punct	LA	PROPN	_	4545
+(	(	(	PUNCT	-	4544	punct	LA	PROPN	-	4545
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	4545	flat	Mette	PROPN	_	4542
+LA	LA	LA	PROPN	-	4545	flat	Mette	PROPN	-	4542
 <g/>
 </name>
-)	)	)	PUNCT	_	4546	punct	LA	PROPN	_	4545
-29	29	29	NUM	NumType=Card	4547	nummod	Charlotte	PROPN	_	4548
+)	)	)	PUNCT	-	4546	punct	LA	PROPN	-	4545
+29	29	29	NUM	NumType=Card	4547	nummod	Charlotte	PROPN	-	4548
 <name type="PER">
-Charlotte	Charlotte	Charlotte	PROPN	_	4548	list	Mette	PROPN	_	4542
-Dyremose	Dyremose	Dyremose	PROPN	_	4549	flat	Charlotte	PROPN	_	4548
+Charlotte	Charlotte	Charlotte	PROPN	-	4548	list	Mette	PROPN	-	4542
+Dyremose	Dyremose	Dyremose	PROPN	-	4549	flat	Charlotte	PROPN	-	4548
 </name>
-(	(	(	PUNCT	_	4550	punct	KF	PROPN	_	4551
+(	(	(	PUNCT	-	4550	punct	KF	PROPN	-	4551
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	4551	flat	Charlotte	PROPN	_	4548
+KF	KF	KF	PROPN	-	4551	flat	Charlotte	PROPN	-	4548
 <g/>
 </name>
-)	)	)	PUNCT	_	4552	punct	KF	PROPN	_	4551
-Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	4553	list	Charlotte	PROPN	_	4548
+)	)	)	PUNCT	-	4552	punct	KF	PROPN	-	4551
+Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	4553	list	Charlotte	PROPN	-	4548
 <g/>
-:	:	:	PUNCT	_	4554	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	4553
+:	:	:	PUNCT	-	4554	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	4553
 <name type="PER">
-René	René	René	PROPN	_	4555	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	4553
-Christensen	Christensen	Christensen	PROPN	_	4556	flat	René	PROPN	_	4555
+René	René	René	PROPN	-	4555	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	4553
+Christensen	Christensen	Christensen	PROPN	-	4556	flat	René	PROPN	-	4555
 </name>
-(	(	(	PUNCT	_	4557	punct	DF	PROPN	_	4558
+(	(	(	PUNCT	-	4557	punct	DF	PROPN	-	4558
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	4558	flat	René	PROPN	_	4555
+DF	DF	DF	PROPN	-	4558	flat	René	PROPN	-	4555
 <g/>
 </name>
-)	)	)	PUNCT	_	4559	punct	DF	PROPN	_	4558
-Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	4560	list	René	PROPN	_	4555
+)	)	)	PUNCT	-	4559	punct	DF	PROPN	-	4558
+Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	4560	list	René	PROPN	-	4555
 <g/>
-:	:	:	PUNCT	_	4561	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	4560
+:	:	:	PUNCT	-	4561	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	4560
 <name type="PER">
-Per	Per	Per	PROPN	_	4562	nsubj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	4578
-Clausen	Clausen	Clausen	PROPN	_	4563	flat	Per	PROPN	_	4562
+Per	Per	Per	PROPN	-	4562	nsubj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	4578
+Clausen	Clausen	Clausen	PROPN	-	4563	flat	Per	PROPN	-	4562
 </name>
-(	(	(	PUNCT	_	4564	punct	EL	PROPN	_	4565
+(	(	(	PUNCT	-	4564	punct	EL	PROPN	-	4565
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	4565	flat	Per	PROPN	_	4562
+EL	EL	EL	PROPN	-	4565	flat	Per	PROPN	-	4562
 <g/>
 </name>
-)	)	)	PUNCT	_	4566	punct	EL	PROPN	_	4565
+)	)	)	PUNCT	-	4566	punct	EL	PROPN	-	4565
 Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	4567	nsubj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	4578
 af	af	af	ADP	AdpType=Prep	4568	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	4570
 29	29	29	NUM	NumType=Card	4569	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	4570
@@ -10666,1593 +10666,1593 @@ til	til	til	ADP	AdpType=Prep	4571	case	udvalg	NOUN	Definite=Def Gender=Neut Numb
 Udvalget	Udvalget	udvalg	NOUN	Definite=Def Gender=Neut Number=Sing	4572	nmod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	4570
 for	for	for	ADP	AdpType=Prep	4573	case	landdistrikt	NOUN	Definite=Ind Gender=Neut Number=Plur	4574
 Landdistrikter	Landdistrikter	landdistrikt	NOUN	Definite=Ind Gender=Neut Number=Plur	4574	nmod	udvalg	NOUN	Definite=Def Gender=Neut Number=Sing	4572
-og	og	og	CCONJ	_	4575	cc	ø	NOUN	Definite=Ind Gender=Neut Number=Plur	4576
+og	og	og	CCONJ	-	4575	cc	ø	NOUN	Definite=Ind Gender=Neut Number=Plur	4576
 Øer	Øer	ø	NOUN	Definite=Ind Gender=Neut Number=Plur	4576	conj	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	4570
 <g/>
-:	:	:	PUNCT	_	4577	punct	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	4567
-Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	4578	acl_relcl	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	4560
+:	:	:	PUNCT	-	4577	punct	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	4567
+Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	4578	acl:relcl	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	4560
 blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	4579	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	4578
 <g/>
-:	:	:	PUNCT	_	4580	punct	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	4579
-1	1	1	NUM	NumType=Card	4581	nummod	Annette	PROPN	_	4582
+:	:	:	PUNCT	-	4580	punct	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	4579
+1	1	1	NUM	NumType=Card	4581	nummod	Annette	PROPN	-	4582
 <name type="PER">
-Annette	Annette	Annette	PROPN	_	4582	list	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	4579
-Lind	Lind	Lind	PROPN	_	4583	flat	Annette	PROPN	_	4582
+Annette	Annette	Annette	PROPN	-	4582	list	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	4579
+Lind	Lind	Lind	PROPN	-	4583	flat	Annette	PROPN	-	4582
 </name>
-(	(	(	PUNCT	_	4584	punct	S	PROPN	_	4585
+(	(	(	PUNCT	-	4584	punct	S	PROPN	-	4585
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	4585	flat	Annette	PROPN	_	4582
+S	S	S	PROPN	-	4585	flat	Annette	PROPN	-	4582
 <g/>
 </name>
-)	)	)	PUNCT	_	4586	punct	S	PROPN	_	4585
-2	2	2	NUM	NumType=Card	4587	nummod	Bjarne	PROPN	_	4588
+)	)	)	PUNCT	-	4586	punct	S	PROPN	-	4585
+2	2	2	NUM	NumType=Card	4587	nummod	Bjarne	PROPN	-	4588
 <name type="PER">
-Bjarne	Bjarne	Bjarne	PROPN	_	4588	list	Annette	PROPN	_	4582
-Laustsen	Laustsen	Laustsen	PROPN	_	4589	flat	Bjarne	PROPN	_	4588
+Bjarne	Bjarne	Bjarne	PROPN	-	4588	list	Annette	PROPN	-	4582
+Laustsen	Laustsen	Laustsen	PROPN	-	4589	flat	Bjarne	PROPN	-	4588
 </name>
-(	(	(	PUNCT	_	4590	punct	S	PROPN	_	4591
+(	(	(	PUNCT	-	4590	punct	S	PROPN	-	4591
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	4591	flat	Bjarne	PROPN	_	4588
+S	S	S	PROPN	-	4591	flat	Bjarne	PROPN	-	4588
 <g/>
 </name>
-)	)	)	PUNCT	_	4592	punct	S	PROPN	_	4591
-3	3	3	NUM	NumType=Card	4593	nummod	Jacob	PROPN	_	4594
+)	)	)	PUNCT	-	4592	punct	S	PROPN	-	4591
+3	3	3	NUM	NumType=Card	4593	nummod	Jacob	PROPN	-	4594
 <name type="PER">
-Jacob	Jacob	Jacob	PROPN	_	4594	list	Bjarne	PROPN	_	4588
-Lund	Lund	Lund	PROPN	_	4595	flat	Jacob	PROPN	_	4594
+Jacob	Jacob	Jacob	PROPN	-	4594	list	Bjarne	PROPN	-	4588
+Lund	Lund	Lund	PROPN	-	4595	flat	Jacob	PROPN	-	4594
 </name>
-(	(	(	PUNCT	_	4596	punct	S	PROPN	_	4597
+(	(	(	PUNCT	-	4596	punct	S	PROPN	-	4597
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	4597	list	Jacob	PROPN	_	4594
+S	S	S	PROPN	-	4597	list	Jacob	PROPN	-	4594
 <g/>
 </name>
-)	)	)	PUNCT	_	4598	punct	S	PROPN	_	4597
-4	4	4	NUM	NumType=Card	4599	nummod	John	PROPN	_	4600
+)	)	)	PUNCT	-	4598	punct	S	PROPN	-	4597
+4	4	4	NUM	NumType=Card	4599	nummod	John	PROPN	-	4600
 <name type="PER">
-John	John	John	PROPN	_	4600	list	S	PROPN	_	4597
-Dyrby	Dyrby	Dyrby	PROPN	_	4601	flat	John	PROPN	_	4600
-Paulsen	Paulsen	Paulsen	PROPN	_	4602	flat	John	PROPN	_	4600
+John	John	John	PROPN	-	4600	list	S	PROPN	-	4597
+Dyrby	Dyrby	Dyrby	PROPN	-	4601	flat	John	PROPN	-	4600
+Paulsen	Paulsen	Paulsen	PROPN	-	4602	flat	John	PROPN	-	4600
 </name>
-(	(	(	PUNCT	_	4603	punct	S	PROPN	_	4604
+(	(	(	PUNCT	-	4603	punct	S	PROPN	-	4604
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	4604	flat	John	PROPN	_	4600
+S	S	S	PROPN	-	4604	flat	John	PROPN	-	4600
 <g/>
 </name>
-)	)	)	PUNCT	_	4605	punct	S	PROPN	_	4604
-5	5	5	NUM	NumType=Card	4606	nummod	Lennart	PROPN	_	4607
+)	)	)	PUNCT	-	4605	punct	S	PROPN	-	4604
+5	5	5	NUM	NumType=Card	4606	nummod	Lennart	PROPN	-	4607
 <name type="PER">
-Lennart	Lennart	Lennart	PROPN	_	4607	list	John	PROPN	_	4600
-Damsbo-Andersen	Damsbo-Andersen	Damsbo-Andersen	PROPN	_	4608	flat	Lennart	PROPN	_	4607
+Lennart	Lennart	Lennart	PROPN	-	4607	list	John	PROPN	-	4600
+Damsbo-Andersen	Damsbo-Andersen	Damsbo-Andersen	PROPN	-	4608	flat	Lennart	PROPN	-	4607
 </name>
-(	(	(	PUNCT	_	4609	punct	S	PROPN	_	4610
+(	(	(	PUNCT	-	4609	punct	S	PROPN	-	4610
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	4610	list	Lennart	PROPN	_	4607
+S	S	S	PROPN	-	4610	list	Lennart	PROPN	-	4607
 <g/>
 </name>
-)	)	)	PUNCT	_	4611	punct	S	PROPN	_	4610
-6	6	6	NUM	NumType=Card	4612	nummod	Simon	PROPN	_	4613
+)	)	)	PUNCT	-	4611	punct	S	PROPN	-	4610
+6	6	6	NUM	NumType=Card	4612	nummod	Simon	PROPN	-	4613
 <name type="PER">
-Simon	Simon	Simon	PROPN	_	4613	flat	S	PROPN	_	4610
-Kollerup	Kollerup	Kollerup	PROPN	_	4614	flat	S	PROPN	_	4610
+Simon	Simon	Simon	PROPN	-	4613	flat	S	PROPN	-	4610
+Kollerup	Kollerup	Kollerup	PROPN	-	4614	flat	S	PROPN	-	4610
 </name>
-(	(	(	PUNCT	_	4615	punct	S	PROPN	_	4616
+(	(	(	PUNCT	-	4615	punct	S	PROPN	-	4616
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	4616	flat	S	PROPN	_	4610
+S	S	S	PROPN	-	4616	flat	S	PROPN	-	4610
 <g/>
 </name>
-)	)	)	PUNCT	_	4617	punct	S	PROPN	_	4616
-7	7	7	NUM	NumType=Card	4618	nummod	Troels	PROPN	_	4619
+)	)	)	PUNCT	-	4617	punct	S	PROPN	-	4616
+7	7	7	NUM	NumType=Card	4618	nummod	Troels	PROPN	-	4619
 <name type="PER">
-Troels	Troels	Troels	PROPN	_	4619	flat	S	PROPN	_	4610
-Ravn	Ravn	Ravn	PROPN	_	4620	flat	S	PROPN	_	4610
+Troels	Troels	Troels	PROPN	-	4619	flat	S	PROPN	-	4610
+Ravn	Ravn	Ravn	PROPN	-	4620	flat	S	PROPN	-	4610
 </name>
-(	(	(	PUNCT	_	4621	punct	S	PROPN	_	4622
+(	(	(	PUNCT	-	4621	punct	S	PROPN	-	4622
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	4622	flat	S	PROPN	_	4610
+S	S	S	PROPN	-	4622	flat	S	PROPN	-	4610
 <g/>
 </name>
-)	)	)	PUNCT	_	4623	punct	S	PROPN	_	4622
-8	8	8	NUM	NumType=Card	4624	nummod	Andreas	PROPN	_	4625
+)	)	)	PUNCT	-	4623	punct	S	PROPN	-	4622
+8	8	8	NUM	NumType=Card	4624	nummod	Andreas	PROPN	-	4625
 <name type="PER">
-Andreas	Andreas	Andreas	PROPN	_	4625	list	S	PROPN	_	4610
-Steenberg	Steenberg	Steenberg	PROPN	_	4626	flat	Andreas	PROPN	_	4625
+Andreas	Andreas	Andreas	PROPN	-	4625	list	S	PROPN	-	4610
+Steenberg	Steenberg	Steenberg	PROPN	-	4626	flat	Andreas	PROPN	-	4625
 </name>
-(	(	(	PUNCT	_	4627	punct	RV	PROPN	_	4628
+(	(	(	PUNCT	-	4627	punct	RV	PROPN	-	4628
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	4628	flat	Andreas	PROPN	_	4625
+RV	RV	RV	PROPN	-	4628	flat	Andreas	PROPN	-	4625
 <g/>
 </name>
-)	)	)	PUNCT	_	4629	punct	RV	PROPN	_	4628
-9	9	9	NUM	NumType=Card	4630	nummod	Helle	PROPN	_	4631
+)	)	)	PUNCT	-	4629	punct	RV	PROPN	-	4628
+9	9	9	NUM	NumType=Card	4630	nummod	Helle	PROPN	-	4631
 <name type="PER">
-Helle	Helle	Helle	PROPN	_	4631	list	Andreas	PROPN	_	4625
-Løvgreen	Løvgreen	Løvgreen	PROPN	_	4632	flat	Helle	PROPN	_	4631
-Mølvig	Mølvig	Mølvigen	PROPN	_	4633	flat	Helle	PROPN	_	4631
+Helle	Helle	Helle	PROPN	-	4631	list	Andreas	PROPN	-	4625
+Løvgreen	Løvgreen	Løvgreen	PROPN	-	4632	flat	Helle	PROPN	-	4631
+Mølvig	Mølvig	Mølvigen	PROPN	-	4633	flat	Helle	PROPN	-	4631
 </name>
-(	(	(	PUNCT	_	4634	punct	RV	PROPN	_	4635
+(	(	(	PUNCT	-	4634	punct	RV	PROPN	-	4635
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	4635	list	Helle	PROPN	_	4631
+RV	RV	RV	PROPN	-	4635	list	Helle	PROPN	-	4631
 <g/>
 </name>
-)	)	)	PUNCT	_	4636	punct	RV	PROPN	_	4635
-10	10	10	NUM	NumType=Card	4637	nummod	Lotte	PROPN	_	4638
+)	)	)	PUNCT	-	4636	punct	RV	PROPN	-	4635
+10	10	10	NUM	NumType=Card	4637	nummod	Lotte	PROPN	-	4638
 <name type="PER">
-Lotte	Lotte	Lotte	PROPN	_	4638	list	RV	PROPN	_	4635
-Rod	Rod	Rod	PROPN	_	4639	flat	Lotte	PROPN	_	4638
+Lotte	Lotte	Lotte	PROPN	-	4638	list	RV	PROPN	-	4635
+Rod	Rod	Rod	PROPN	-	4639	flat	Lotte	PROPN	-	4638
 </name>
-(	(	(	PUNCT	_	4640	punct	RV	PROPN	_	4641
+(	(	(	PUNCT	-	4640	punct	RV	PROPN	-	4641
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	4641	flat	Lotte	PROPN	_	4638
+RV	RV	RV	PROPN	-	4641	flat	Lotte	PROPN	-	4638
 <g/>
 </name>
-)	)	)	PUNCT	_	4642	punct	RV	PROPN	_	4641
-11	11	11	NUM	NumType=Card	4643	nummod	Karina	PROPN	_	4644
+)	)	)	PUNCT	-	4642	punct	RV	PROPN	-	4641
+11	11	11	NUM	NumType=Card	4643	nummod	Karina	PROPN	-	4644
 <name type="PER">
-Karina	Karina	Karina	PROPN	_	4644	list	Lotte	PROPN	_	4638
-Lorentzen	Lorentzen	Lorentzen	PROPN	_	4645	flat	Karina	PROPN	_	4644
-Dehnhardt	Dehnhardt	Dehnhardt	PROPN	_	4646	flat	Karina	PROPN	_	4644
+Karina	Karina	Karina	PROPN	-	4644	list	Lotte	PROPN	-	4638
+Lorentzen	Lorentzen	Lorentzen	PROPN	-	4645	flat	Karina	PROPN	-	4644
+Dehnhardt	Dehnhardt	Dehnhardt	PROPN	-	4646	flat	Karina	PROPN	-	4644
 </name>
-(	(	(	PUNCT	_	4647	punct	SF	PROPN	_	4648
+(	(	(	PUNCT	-	4647	punct	SF	PROPN	-	4648
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	4648	list	Karina	PROPN	_	4644
+SF	SF	SF	PROPN	-	4648	list	Karina	PROPN	-	4644
 <g/>
 </name>
-)	)	)	PUNCT	_	4649	punct	SF	PROPN	_	4648
-12	12	12	NUM	NumType=Card	4650	nummod	Steen	PROPN	_	4651
+)	)	)	PUNCT	-	4649	punct	SF	PROPN	-	4648
+12	12	12	NUM	NumType=Card	4650	nummod	Steen	PROPN	-	4651
 <name type="PER">
-Steen	Steen	Steen	PROPN	_	4651	list	SF	PROPN	_	4648
-Gade	Gade	Gade	PROPN	_	4652	flat	Steen	PROPN	_	4651
+Steen	Steen	Steen	PROPN	-	4651	list	SF	PROPN	-	4648
+Gade	Gade	Gade	PROPN	-	4652	flat	Steen	PROPN	-	4651
 </name>
-(	(	(	PUNCT	_	4653	punct	SF	PROPN	_	4654
+(	(	(	PUNCT	-	4653	punct	SF	PROPN	-	4654
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	4654	flat	Steen	PROPN	_	4651
+SF	SF	SF	PROPN	-	4654	flat	Steen	PROPN	-	4651
 <g/>
 </name>
-)	)	)	PUNCT	_	4655	punct	SF	PROPN	_	4654
-13	13	13	NUM	NumType=Card	4656	nummod	Eigil	PROPN	_	4657
+)	)	)	PUNCT	-	4655	punct	SF	PROPN	-	4654
+13	13	13	NUM	NumType=Card	4656	nummod	Eigil	PROPN	-	4657
 <name type="PER">
-Eigil	Eigil	Eigil	PROPN	_	4657	list	SF	PROPN	_	4654
-Andersen	Andersen	Andersen	PROPN	_	4658	flat	Eigil	PROPN	_	4657
+Eigil	Eigil	Eigil	PROPN	-	4657	list	SF	PROPN	-	4654
+Andersen	Andersen	Andersen	PROPN	-	4658	flat	Eigil	PROPN	-	4657
 </name>
-(	(	(	PUNCT	_	4659	punct	SF	PROPN	_	4660
+(	(	(	PUNCT	-	4659	punct	SF	PROPN	-	4660
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	4660	flat	Eigil	PROPN	_	4657
+SF	SF	SF	PROPN	-	4660	flat	Eigil	PROPN	-	4657
 <g/>
 </name>
-)	)	)	PUNCT	_	4661	punct	SF	PROPN	_	4660
-14	14	14	NUM	NumType=Card	4662	nummod	Lars	PROPN	_	4663
+)	)	)	PUNCT	-	4661	punct	SF	PROPN	-	4660
+14	14	14	NUM	NumType=Card	4662	nummod	Lars	PROPN	-	4663
 <name type="PER">
-Lars	Lars	Lars	PROPN	_	4663	list	SF	PROPN	_	4660
-Dohn	Dohn	Dohn	PROPN	_	4664	flat	Lars	PROPN	_	4663
+Lars	Lars	Lars	PROPN	-	4663	list	SF	PROPN	-	4660
+Dohn	Dohn	Dohn	PROPN	-	4664	flat	Lars	PROPN	-	4663
 </name>
-(	(	(	PUNCT	_	4665	punct	EL	PROPN	_	4666
+(	(	(	PUNCT	-	4665	punct	EL	PROPN	-	4666
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	4666	flat	Lars	PROPN	_	4663
+EL	EL	EL	PROPN	-	4666	flat	Lars	PROPN	-	4663
 <g/>
 </name>
-)	)	)	PUNCT	_	4667	punct	EL	PROPN	_	4666
-15	15	15	NUM	NumType=Card	4668	nummod	Henning	PROPN	_	4669
+)	)	)	PUNCT	-	4667	punct	EL	PROPN	-	4666
+15	15	15	NUM	NumType=Card	4668	nummod	Henning	PROPN	-	4669
 <name type="PER">
-Henning	Henning	Henning	PROPN	_	4669	list	Lars	PROPN	_	4663
-Hyllested	Hyllested	Hyllested	PROPN	_	4670	flat	Henning	PROPN	_	4669
+Henning	Henning	Henning	PROPN	-	4669	list	Lars	PROPN	-	4663
+Hyllested	Hyllested	Hyllested	PROPN	-	4670	flat	Henning	PROPN	-	4669
 </name>
-(	(	(	PUNCT	_	4671	punct	EL	PROPN	_	4672
+(	(	(	PUNCT	-	4671	punct	EL	PROPN	-	4672
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	4672	flat	Henning	PROPN	_	4669
+EL	EL	EL	PROPN	-	4672	flat	Henning	PROPN	-	4669
 <g/>
 </name>
-)	)	)	PUNCT	_	4673	punct	EL	PROPN	_	4672
-16	16	16	NUM	NumType=Card	4674	nummod	Erling	PROPN	_	4675
+)	)	)	PUNCT	-	4673	punct	EL	PROPN	-	4672
+16	16	16	NUM	NumType=Card	4674	nummod	Erling	PROPN	-	4675
 <name type="PER">
-Erling	Erling	Erling	PROPN	_	4675	list	Henning	PROPN	_	4669
-Bonnesen	Bonnesen	Bonnesen	PROPN	_	4676	flat	Erling	PROPN	_	4675
+Erling	Erling	Erling	PROPN	-	4675	list	Henning	PROPN	-	4669
+Bonnesen	Bonnesen	Bonnesen	PROPN	-	4676	flat	Erling	PROPN	-	4675
 </name>
-(	(	(	PUNCT	_	4677	punct	V	PROPN	_	4678
+(	(	(	PUNCT	-	4677	punct	V	PROPN	-	4678
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4678	flat	Erling	PROPN	_	4675
+V	V	V	PROPN	-	4678	flat	Erling	PROPN	-	4675
 <g/>
 </name>
-)	)	)	PUNCT	_	4679	punct	V	PROPN	_	4678
-17	17	17	NUM	NumType=Card	4680	nummod	Eva	PROPN	_	4681
+)	)	)	PUNCT	-	4679	punct	V	PROPN	-	4678
+17	17	17	NUM	NumType=Card	4680	nummod	Eva	PROPN	-	4681
 <name type="PER">
-Eva	Eva	Eva	PROPN	_	4681	list	Erling	PROPN	_	4675
-Kjer	Kjer	Kjer	PROPN	_	4682	flat	Eva	PROPN	_	4681
-Hansen	Hansen	Hansen	PROPN	_	4683	flat	Eva	PROPN	_	4681
+Eva	Eva	Eva	PROPN	-	4681	list	Erling	PROPN	-	4675
+Kjer	Kjer	Kjer	PROPN	-	4682	flat	Eva	PROPN	-	4681
+Hansen	Hansen	Hansen	PROPN	-	4683	flat	Eva	PROPN	-	4681
 </name>
-(	(	(	PUNCT	_	4684	punct	V	PROPN	_	4685
+(	(	(	PUNCT	-	4684	punct	V	PROPN	-	4685
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4685	flat	Eva	PROPN	_	4681
+V	V	V	PROPN	-	4685	flat	Eva	PROPN	-	4681
 <g/>
 </name>
-)	)	)	PUNCT	_	4686	punct	V	PROPN	_	4685
-18	18	18	NUM	NumType=Card	4687	nummod	Hans	PROPN	_	4688
+)	)	)	PUNCT	-	4686	punct	V	PROPN	-	4685
+18	18	18	NUM	NumType=Card	4687	nummod	Hans	PROPN	-	4688
 <name type="PER">
-Hans	Hans	Hans	PROPN	_	4688	list	Eva	PROPN	_	4681
-Christian	Christian	Christian	PROPN	_	4689	flat	Hans	PROPN	_	4688
-Schmidt	Schmidt	Schmidt	X	_	4690	flat	Hans	PROPN	_	4688
+Hans	Hans	Hans	PROPN	-	4688	list	Eva	PROPN	-	4681
+Christian	Christian	Christian	PROPN	-	4689	flat	Hans	PROPN	-	4688
+Schmidt	Schmidt	Schmidt	X	-	4690	flat	Hans	PROPN	-	4688
 </name>
-(	(	(	PUNCT	_	4691	punct	V	PROPN	_	4692
+(	(	(	PUNCT	-	4691	punct	V	PROPN	-	4692
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4692	flat	Hans	PROPN	_	4688
+V	V	V	PROPN	-	4692	flat	Hans	PROPN	-	4688
 <g/>
 </name>
-)	)	)	PUNCT	_	4693	punct	V	PROPN	_	4692
-19	19	19	NUM	NumType=Card	4694	nummod	Thomas	PROPN	_	4695
+)	)	)	PUNCT	-	4693	punct	V	PROPN	-	4692
+19	19	19	NUM	NumType=Card	4694	nummod	Thomas	PROPN	-	4695
 <name type="PER">
-Thomas	Thomas	Thomas	PROPN	_	4695	list	Hans	PROPN	_	4688
-Danielsen	Danielsen	Danielsen	PROPN	_	4696	flat	Thomas	PROPN	_	4695
+Thomas	Thomas	Thomas	PROPN	-	4695	list	Hans	PROPN	-	4688
+Danielsen	Danielsen	Danielsen	PROPN	-	4696	flat	Thomas	PROPN	-	4695
 </name>
-(	(	(	PUNCT	_	4697	punct	V	PROPN	_	4698
+(	(	(	PUNCT	-	4697	punct	V	PROPN	-	4698
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4698	flat	Thomas	PROPN	_	4695
+V	V	V	PROPN	-	4698	flat	Thomas	PROPN	-	4695
 <g/>
 </name>
-)	)	)	PUNCT	_	4699	punct	V	PROPN	_	4698
-20	20	20	NUM	NumType=Card	4700	nummod	Esben	PROPN	_	4701
+)	)	)	PUNCT	-	4699	punct	V	PROPN	-	4698
+20	20	20	NUM	NumType=Card	4700	nummod	Esben	PROPN	-	4701
 <name type="PER">
-Esben	Esben	Esben	PROPN	_	4701	list	Thomas	PROPN	_	4695
-Lunde	Lunde	Lunde	PROPN	_	4702	flat	Esben	PROPN	_	4701
-Larsen	Larsen	Larsen	PROPN	_	4703	flat	Esben	PROPN	_	4701
+Esben	Esben	Esben	PROPN	-	4701	list	Thomas	PROPN	-	4695
+Lunde	Lunde	Lunde	PROPN	-	4702	flat	Esben	PROPN	-	4701
+Larsen	Larsen	Larsen	PROPN	-	4703	flat	Esben	PROPN	-	4701
 </name>
-(	(	(	PUNCT	_	4704	punct	V	PROPN	_	4705
+(	(	(	PUNCT	-	4704	punct	V	PROPN	-	4705
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4705	flat	Esben	PROPN	_	4701
+V	V	V	PROPN	-	4705	flat	Esben	PROPN	-	4701
 <g/>
 </name>
-)	)	)	PUNCT	_	4706	punct	V	PROPN	_	4705
-21	21	21	NUM	NumType=Card	4707	nummod	Flemming	PROPN	_	4708
+)	)	)	PUNCT	-	4706	punct	V	PROPN	-	4705
+21	21	21	NUM	NumType=Card	4707	nummod	Flemming	PROPN	-	4708
 <name type="PER">
-Flemming	Flemming	Flemming	PROPN	_	4708	list	Thomas	PROPN	_	4695
-Damgaard	Damgaard	Damgaard	PROPN	_	4709	flat	Flemming	PROPN	_	4708
-Larsen	Larsen	Larsen	PROPN	_	4710	flat	Flemming	PROPN	_	4708
+Flemming	Flemming	Flemming	PROPN	-	4708	list	Thomas	PROPN	-	4695
+Damgaard	Damgaard	Damgaard	PROPN	-	4709	flat	Flemming	PROPN	-	4708
+Larsen	Larsen	Larsen	PROPN	-	4710	flat	Flemming	PROPN	-	4708
 </name>
-(	(	(	PUNCT	_	4711	punct	V	PROPN	_	4712
+(	(	(	PUNCT	-	4711	punct	V	PROPN	-	4712
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4712	flat	Flemming	PROPN	_	4708
+V	V	V	PROPN	-	4712	flat	Flemming	PROPN	-	4708
 <g/>
 </name>
-)	)	)	PUNCT	_	4713	punct	V	PROPN	_	4712
-22	22	22	NUM	NumType=Card	4714	nummod	Anni	PROPN	_	4715
+)	)	)	PUNCT	-	4713	punct	V	PROPN	-	4712
+22	22	22	NUM	NumType=Card	4714	nummod	Anni	PROPN	-	4715
 <name type="PER">
-Anni	Anni	Anni	PROPN	_	4715	list	Flemming	PROPN	_	4708
-Matthiesen	Matthiesen	Matthiesen	PROPN	_	4716	flat	Anni	PROPN	_	4715
+Anni	Anni	Anni	PROPN	-	4715	list	Flemming	PROPN	-	4708
+Matthiesen	Matthiesen	Matthiesen	PROPN	-	4716	flat	Anni	PROPN	-	4715
 </name>
-(	(	(	PUNCT	_	4717	punct	V	PROPN	_	4718
+(	(	(	PUNCT	-	4717	punct	V	PROPN	-	4718
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4718	flat	Anni	PROPN	_	4715
+V	V	V	PROPN	-	4718	flat	Anni	PROPN	-	4715
 <g/>
 </name>
-)	)	)	PUNCT	_	4719	punct	V	PROPN	_	4718
-23	23	23	NUM	NumType=Card	4720	nummod	Torsten	PROPN	_	4721
+)	)	)	PUNCT	-	4719	punct	V	PROPN	-	4718
+23	23	23	NUM	NumType=Card	4720	nummod	Torsten	PROPN	-	4721
 <name type="PER">
-Torsten	Torsten	Torsten	PROPN	_	4721	list	Anni	PROPN	_	4715
-Schack	Schack	Schack	PROPN	_	4722	flat	Torsten	PROPN	_	4721
-Pedersen	Pedersen	Pedersen	PROPN	_	4723	flat	Torsten	PROPN	_	4721
+Torsten	Torsten	Torsten	PROPN	-	4721	list	Anni	PROPN	-	4715
+Schack	Schack	Schack	PROPN	-	4722	flat	Torsten	PROPN	-	4721
+Pedersen	Pedersen	Pedersen	PROPN	-	4723	flat	Torsten	PROPN	-	4721
 </name>
-(	(	(	PUNCT	_	4724	punct	V	PROPN	_	4725
+(	(	(	PUNCT	-	4724	punct	V	PROPN	-	4725
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4725	flat	Torsten	PROPN	_	4721
+V	V	V	PROPN	-	4725	flat	Torsten	PROPN	-	4721
 <g/>
 </name>
-)	)	)	PUNCT	_	4726	punct	V	PROPN	_	4725
-24	24	24	NUM	NumType=Card	4727	nummod	Mette	PROPN	_	4728
+)	)	)	PUNCT	-	4726	punct	V	PROPN	-	4725
+24	24	24	NUM	NumType=Card	4727	nummod	Mette	PROPN	-	4728
 <name type="PER">
-Mette	Mette	Mette	PROPN	_	4728	list	Torsten	PROPN	_	4721
-Hjermind	Hjermind	Hjermind	PROPN	_	4729	flat	Mette	PROPN	_	4728
-Dencker	Dencker	Dencker	PROPN	_	4730	flat	Mette	PROPN	_	4728
+Mette	Mette	Mette	PROPN	-	4728	list	Torsten	PROPN	-	4721
+Hjermind	Hjermind	Hjermind	PROPN	-	4729	flat	Mette	PROPN	-	4728
+Dencker	Dencker	Dencker	PROPN	-	4730	flat	Mette	PROPN	-	4728
 </name>
-(	(	(	PUNCT	_	4731	punct	DF	PROPN	_	4732
+(	(	(	PUNCT	-	4731	punct	DF	PROPN	-	4732
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	4732	flat	Mette	PROPN	_	4728
+DF	DF	DF	PROPN	-	4732	flat	Mette	PROPN	-	4728
 <g/>
 </name>
-)	)	)	PUNCT	_	4733	punct	DF	PROPN	_	4732
-25	25	25	NUM	NumType=Card	4734	nummod	Karina	PROPN	_	4735
+)	)	)	PUNCT	-	4733	punct	DF	PROPN	-	4732
+25	25	25	NUM	NumType=Card	4734	nummod	Karina	PROPN	-	4735
 <name type="PER">
-Karina	Karina	Karina	PROPN	_	4735	list	Mette	PROPN	_	4728
-Adsbøl	Adsbøl	Adsbøl	PROPN	_	4736	flat	Karina	PROPN	_	4735
+Karina	Karina	Karina	PROPN	-	4735	list	Mette	PROPN	-	4728
+Adsbøl	Adsbøl	Adsbøl	PROPN	-	4736	flat	Karina	PROPN	-	4735
 </name>
-(	(	(	PUNCT	_	4737	punct	DF	PROPN	_	4738
+(	(	(	PUNCT	-	4737	punct	DF	PROPN	-	4738
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	4738	flat	Karina	PROPN	_	4735
+DF	DF	DF	PROPN	-	4738	flat	Karina	PROPN	-	4735
 <g/>
 </name>
-)	)	)	PUNCT	_	4739	punct	DF	PROPN	_	4738
-26	26	26	NUM	NumType=Card	4740	nummod	Morten	PROPN	_	4741
+)	)	)	PUNCT	-	4739	punct	DF	PROPN	-	4738
+26	26	26	NUM	NumType=Card	4740	nummod	Morten	PROPN	-	4741
 <name type="PER">
-Morten	Morten	Morten	PROPN	_	4741	list	Karina	PROPN	_	4735
-Marinus	Marinus	Marinus	PROPN	_	4742	flat	Morten	PROPN	_	4741
+Morten	Morten	Morten	PROPN	-	4741	list	Karina	PROPN	-	4735
+Marinus	Marinus	Marinus	PROPN	-	4742	flat	Morten	PROPN	-	4741
 </name>
-(	(	(	PUNCT	_	4743	punct	DF	PROPN	_	4744
+(	(	(	PUNCT	-	4743	punct	DF	PROPN	-	4744
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	4744	flat	Morten	PROPN	_	4741
+DF	DF	DF	PROPN	-	4744	flat	Morten	PROPN	-	4741
 <g/>
 </name>
-)	)	)	PUNCT	_	4745	punct	DF	PROPN	_	4744
-27	27	27	NUM	NumType=Card	4746	nummod	Bent	PROPN	_	4747
+)	)	)	PUNCT	-	4745	punct	DF	PROPN	-	4744
+27	27	27	NUM	NumType=Card	4746	nummod	Bent	PROPN	-	4747
 <name type="PER">
-Bent	Bent	Bent	PROPN	_	4747	list	Morten	PROPN	_	4741
-Bøgsted	Bøgsted	Bøgsted	PROPN	_	4748	flat	Bent	PROPN	_	4747
+Bent	Bent	Bent	PROPN	-	4747	list	Morten	PROPN	-	4741
+Bøgsted	Bøgsted	Bøgsted	PROPN	-	4748	flat	Bent	PROPN	-	4747
 </name>
-(	(	(	PUNCT	_	4749	punct	DF	PROPN	_	4750
+(	(	(	PUNCT	-	4749	punct	DF	PROPN	-	4750
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	4750	flat	Bent	PROPN	_	4747
+DF	DF	DF	PROPN	-	4750	flat	Bent	PROPN	-	4747
 <g/>
 </name>
-)	)	)	PUNCT	_	4751	punct	DF	PROPN	_	4750
-28	28	28	NUM	NumType=Card	4752	nummod	Leif	PROPN	_	4753
+)	)	)	PUNCT	-	4751	punct	DF	PROPN	-	4750
+28	28	28	NUM	NumType=Card	4752	nummod	Leif	PROPN	-	4753
 <name type="PER">
-Leif	Leif	Leif	PROPN	_	4753	list	Bent	PROPN	_	4747
-Mikkelsen	Mikkelsen	Mikkelsen	PROPN	_	4754	flat	Leif	PROPN	_	4753
+Leif	Leif	Leif	PROPN	-	4753	list	Bent	PROPN	-	4747
+Mikkelsen	Mikkelsen	Mikkelsen	PROPN	-	4754	flat	Leif	PROPN	-	4753
 </name>
-(	(	(	PUNCT	_	4755	punct	LA	PROPN	_	4756
+(	(	(	PUNCT	-	4755	punct	LA	PROPN	-	4756
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	4756	flat	Leif	PROPN	_	4753
+LA	LA	LA	PROPN	-	4756	flat	Leif	PROPN	-	4753
 <g/>
 </name>
-)	)	)	PUNCT	_	4757	punct	LA	PROPN	_	4756
-29	29	29	NUM	NumType=Card	4758	nummod	Mai	PROPN	_	4759
+)	)	)	PUNCT	-	4757	punct	LA	PROPN	-	4756
+29	29	29	NUM	NumType=Card	4758	nummod	Mai	PROPN	-	4759
 <name type="PER">
-Mai	Mai	Mai	PROPN	_	4759	list	Leif	PROPN	_	4753
-Mercado	Mercado	Mercado	PROPN	_	4760	flat	Mai	PROPN	_	4759
+Mai	Mai	Mai	PROPN	-	4759	list	Leif	PROPN	-	4753
+Mercado	Mercado	Mercado	PROPN	-	4760	flat	Mai	PROPN	-	4759
 </name>
-(	(	(	PUNCT	_	4761	punct	KF	PROPN	_	4762
+(	(	(	PUNCT	-	4761	punct	KF	PROPN	-	4762
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	4762	flat	Mai	PROPN	_	4759
+KF	KF	KF	PROPN	-	4762	flat	Mai	PROPN	-	4759
 <g/>
 </name>
-)	)	)	PUNCT	_	4763	punct	KF	PROPN	_	4762
-Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	4764	list	Mai	PROPN	_	4759
+)	)	)	PUNCT	-	4763	punct	KF	PROPN	-	4762
+Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	4764	list	Mai	PROPN	-	4759
 <g/>
-:	:	:	PUNCT	_	4765	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	4764
+:	:	:	PUNCT	-	4765	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	4764
 <name type="PER">
-Hans	Hans	Hans	PROPN	_	4766	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	4764
-Christian	Christian	Christian	PROPN	_	4767	flat	Hans	PROPN	_	4766
-Schmidt	Schmidt	Schmidt	X	_	4768	flat	Hans	PROPN	_	4766
+Hans	Hans	Hans	PROPN	-	4766	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	4764
+Christian	Christian	Christian	PROPN	-	4767	flat	Hans	PROPN	-	4766
+Schmidt	Schmidt	Schmidt	X	-	4768	flat	Hans	PROPN	-	4766
 </name>
-(	(	(	PUNCT	_	4769	punct	V	PROPN	_	4770
+(	(	(	PUNCT	-	4769	punct	V	PROPN	-	4770
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4770	flat	Hans	PROPN	_	4766
+V	V	V	PROPN	-	4770	flat	Hans	PROPN	-	4766
 <g/>
 </name>
-)	)	)	PUNCT	_	4771	punct	V	PROPN	_	4770
-Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	4772	list	Hans	PROPN	_	4766
+)	)	)	PUNCT	-	4771	punct	V	PROPN	-	4770
+Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	4772	list	Hans	PROPN	-	4766
 <g/>
-:	:	:	PUNCT	_	4773	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	4772
+:	:	:	PUNCT	-	4773	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	4772
 <name type="PER">
-Lennart	Lennart	Lennart	PROPN	_	4774	appos	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	4772
-Damsbo-Andersen	Damsbo-Andersen	Damsbo-Andersen	PROPN	_	4775	flat	Lennart	PROPN	_	4774
+Lennart	Lennart	Lennart	PROPN	-	4774	appos	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	4772
+Damsbo-Andersen	Damsbo-Andersen	Damsbo-Andersen	PROPN	-	4775	flat	Lennart	PROPN	-	4774
 </name>
-(	(	(	PUNCT	_	4776	punct	S	PROPN	_	4777
+(	(	(	PUNCT	-	4776	punct	S	PROPN	-	4777
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	4777	flat	Lennart	PROPN	_	4774
+S	S	S	PROPN	-	4777	flat	Lennart	PROPN	-	4774
 <g/>
 </name>
-)	)	)	PUNCT	_	4778	punct	S	PROPN	_	4777
-Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	4779	flat	Lennart	PROPN	_	4774
+)	)	)	PUNCT	-	4778	punct	S	PROPN	-	4777
+Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	4779	flat	Lennart	PROPN	-	4774
 af	af	af	ADP	AdpType=Prep	4780	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	4782
 29	29	29	NUM	NumType=Card	4781	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	4782
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	4782	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	4779
 til	til	til	ADP	AdpType=Prep	4783	case	udvalg	NOUN	Definite=Def Gender=Neut Number=Sing	4784
 Udvalget	Udvalget	udvalg	NOUN	Definite=Def Gender=Neut Number=Sing	4784	nmod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	4782
-for	for	for	ADP	AdpType=Prep	4785	case	udlændinge-	X	_	4786
-Udlændinge-	Udlændinge-	udlændinge-	X	_	4786	nmod	udvalg	NOUN	Definite=Def Gender=Neut Number=Sing	4784
-og	og	og	CCONJ	_	4787	cc	integrationspolitik	NOUN	Definite=Ind Gender=Com Number=Sing	4788
-Integrationspolitik	Integrationspolitik	integrationspolitik	NOUN	Definite=Ind Gender=Com Number=Sing	4788	conj	udlændinge-	X	_	4786
+for	for	for	ADP	AdpType=Prep	4785	case	udlændinge-	X	-	4786
+Udlændinge-	Udlændinge-	udlændinge-	X	-	4786	nmod	udvalg	NOUN	Definite=Def Gender=Neut Number=Sing	4784
+og	og	og	CCONJ	-	4787	cc	integrationspolitik	NOUN	Definite=Ind Gender=Com Number=Sing	4788
+Integrationspolitik	Integrationspolitik	integrationspolitik	NOUN	Definite=Ind Gender=Com Number=Sing	4788	conj	udlændinge-	X	-	4786
 <g/>
-:	:	:	PUNCT	_	4789	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	4772
-Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	4790	acl_relcl	Trine	PROPN	_	4794
-blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	4791	cop	Trine	PROPN	_	4794
+:	:	:	PUNCT	-	4789	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	4772
+Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	4790	acl:relcl	Trine	PROPN	-	4794
+blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	4791	cop	Trine	PROPN	-	4794
 <g/>
-:	:	:	PUNCT	_	4792	punct	Trine	PROPN	_	4794
-1	1	1	NUM	NumType=Card	4793	nummod	Trine	PROPN	_	4794
+:	:	:	PUNCT	-	4792	punct	Trine	PROPN	-	4794
+1	1	1	NUM	NumType=Card	4793	nummod	Trine	PROPN	-	4794
 <name type="PER">
-Trine	Trine	Trine	PROPN	_	4794	list	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	4772
-Bramsen	Bramsen	Bramsen	PROPN	_	4795	flat	Trine	PROPN	_	4794
+Trine	Trine	Trine	PROPN	-	4794	list	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	4772
+Bramsen	Bramsen	Bramsen	PROPN	-	4795	flat	Trine	PROPN	-	4794
 </name>
-(	(	(	PUNCT	_	4796	punct	S	PROPN	_	4797
+(	(	(	PUNCT	-	4796	punct	S	PROPN	-	4797
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	4797	flat	Trine	PROPN	_	4794
+S	S	S	PROPN	-	4797	flat	Trine	PROPN	-	4794
 <g/>
 </name>
-)	)	)	PUNCT	_	4798	punct	S	PROPN	_	4797
-2	2	2	NUM	NumType=Card	4799	nummod	Troels	PROPN	_	4800
+)	)	)	PUNCT	-	4798	punct	S	PROPN	-	4797
+2	2	2	NUM	NumType=Card	4799	nummod	Troels	PROPN	-	4800
 <name type="PER">
-Troels	Troels	Troels	PROPN	_	4800	list	Trine	PROPN	_	4794
-Ravn	Ravn	Ravn	PROPN	_	4801	flat	Troels	PROPN	_	4800
+Troels	Troels	Troels	PROPN	-	4800	list	Trine	PROPN	-	4794
+Ravn	Ravn	Ravn	PROPN	-	4801	flat	Troels	PROPN	-	4800
 </name>
-(	(	(	PUNCT	_	4802	punct	S	PROPN	_	4803
+(	(	(	PUNCT	-	4802	punct	S	PROPN	-	4803
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	4803	flat	Troels	PROPN	_	4800
+S	S	S	PROPN	-	4803	flat	Troels	PROPN	-	4800
 <g/>
 </name>
-)	)	)	PUNCT	_	4804	punct	S	PROPN	_	4803
-3	3	3	ADJ	NumType=Ord	4805	list	Troels	PROPN	_	4800
+)	)	)	PUNCT	-	4804	punct	S	PROPN	-	4803
+3	3	3	ADJ	NumType=Ord	4805	list	Troels	PROPN	-	4800
 <name type="PER">
-Karen	Karen	Karen	PROPN	_	4806	conj	3	ADJ	NumType=Ord	4805
-J.	J.	J.	PROPN	_	4807	flat	Karen	PROPN	_	4806
-Klint	Klint	Klint	PROPN	_	4808	flat	Karen	PROPN	_	4806
+Karen	Karen	Karen	PROPN	-	4806	conj	3	ADJ	NumType=Ord	4805
+J.	J.	J.	PROPN	-	4807	flat	Karen	PROPN	-	4806
+Klint	Klint	Klint	PROPN	-	4808	flat	Karen	PROPN	-	4806
 </name>
-(	(	(	PUNCT	_	4809	punct	S	PROPN	_	4810
+(	(	(	PUNCT	-	4809	punct	S	PROPN	-	4810
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	4810	list	Karen	PROPN	_	4806
+S	S	S	PROPN	-	4810	list	Karen	PROPN	-	4806
 <g/>
 </name>
-)	)	)	PUNCT	_	4811	punct	S	PROPN	_	4810
-4	4	4	NUM	NumType=Card	4812	nummod	Lennart	PROPN	_	4813
+)	)	)	PUNCT	-	4811	punct	S	PROPN	-	4810
+4	4	4	NUM	NumType=Card	4812	nummod	Lennart	PROPN	-	4813
 <name type="PER">
-Lennart	Lennart	Lennart	PROPN	_	4813	flat	S	PROPN	_	4810
-Damsbo-Andersen	Damsbo-Andersen	Damsbo-Andersen	PROPN	_	4814	flat	S	PROPN	_	4810
+Lennart	Lennart	Lennart	PROPN	-	4813	flat	S	PROPN	-	4810
+Damsbo-Andersen	Damsbo-Andersen	Damsbo-Andersen	PROPN	-	4814	flat	S	PROPN	-	4810
 </name>
-(	(	(	PUNCT	_	4815	punct	S	PROPN	_	4816
+(	(	(	PUNCT	-	4815	punct	S	PROPN	-	4816
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	4816	flat	S	PROPN	_	4810
+S	S	S	PROPN	-	4816	flat	S	PROPN	-	4810
 <g/>
 </name>
-)	)	)	PUNCT	_	4817	punct	S	PROPN	_	4816
-5	5	5	NUM	NumType=Card	4818	nummod	Anne	PROPN	_	4819
+)	)	)	PUNCT	-	4817	punct	S	PROPN	-	4816
+5	5	5	NUM	NumType=Card	4818	nummod	Anne	PROPN	-	4819
 <name type="PER">
-Anne	Anne	Anne	PROPN	_	4819	flat	S	PROPN	_	4810
-Sina	Sina	Sina	PROPN	_	4820	flat	S	PROPN	_	4810
+Anne	Anne	Anne	PROPN	-	4819	flat	S	PROPN	-	4810
+Sina	Sina	Sina	PROPN	-	4820	flat	S	PROPN	-	4810
 </name>
-(	(	(	PUNCT	_	4821	punct	S	PROPN	_	4822
+(	(	(	PUNCT	-	4821	punct	S	PROPN	-	4822
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	4822	flat	S	PROPN	_	4810
+S	S	S	PROPN	-	4822	flat	S	PROPN	-	4810
 <g/>
 </name>
-)	)	)	PUNCT	_	4823	punct	S	PROPN	_	4822
-6	6	6	NUM	NumType=Card	4824	nummod	Mette	PROPN	_	4825
+)	)	)	PUNCT	-	4823	punct	S	PROPN	-	4822
+6	6	6	NUM	NumType=Card	4824	nummod	Mette	PROPN	-	4825
 <name type="PER">
-Mette	Mette	Mette	PROPN	_	4825	flat	S	PROPN	_	4810
-Reissmann	Reissmann	Reissmann	PROPN	_	4826	flat	S	PROPN	_	4810
+Mette	Mette	Mette	PROPN	-	4825	flat	S	PROPN	-	4810
+Reissmann	Reissmann	Reissmann	PROPN	-	4826	flat	S	PROPN	-	4810
 </name>
-(	(	(	PUNCT	_	4827	punct	S	PROPN	_	4828
+(	(	(	PUNCT	-	4827	punct	S	PROPN	-	4828
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	4828	flat	S	PROPN	_	4810
+S	S	S	PROPN	-	4828	flat	S	PROPN	-	4810
 <g/>
 </name>
-)	)	)	PUNCT	_	4829	punct	S	PROPN	_	4828
+)	)	)	PUNCT	-	4829	punct	S	PROPN	-	4828
 7	7	7	NUM	NumType=Card	4830	nummod	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	4831
 <name type="PER">
-Jeppe	Jeppe	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	4831	flat	S	PROPN	_	4810
-Bruus	Bruus	Bruus	PROPN	_	4832	flat	S	PROPN	_	4810
+Jeppe	Jeppe	Jeppe	NOUN	Definite=Ind Gender=Com Number=Plur	4831	flat	S	PROPN	-	4810
+Bruus	Bruus	Bruus	PROPN	-	4832	flat	S	PROPN	-	4810
 </name>
-(	(	(	PUNCT	_	4833	punct	S	PROPN	_	4834
+(	(	(	PUNCT	-	4833	punct	S	PROPN	-	4834
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	4834	flat	S	PROPN	_	4810
+S	S	S	PROPN	-	4834	flat	S	PROPN	-	4810
 <g/>
 </name>
-)	)	)	PUNCT	_	4835	punct	S	PROPN	_	4834
-8	8	8	NUM	NumType=Card	4836	nummod	Liv	PROPN	_	4837
-Liv	Liv	Liv	PROPN	_	4837	flat	S	PROPN	_	4810
+)	)	)	PUNCT	-	4835	punct	S	PROPN	-	4834
+8	8	8	NUM	NumType=Card	4836	nummod	Liv	PROPN	-	4837
+Liv	Liv	Liv	PROPN	-	4837	flat	S	PROPN	-	4810
 <name type="PER">
-Holm	Holm	Holm	PROPN	_	4838	flat	S	PROPN	_	4810
-Andersen	Andersen	Andersen	PROPN	_	4839	flat	S	PROPN	_	4810
+Holm	Holm	Holm	PROPN	-	4838	flat	S	PROPN	-	4810
+Andersen	Andersen	Andersen	PROPN	-	4839	flat	S	PROPN	-	4810
 </name>
-(	(	(	PUNCT	_	4840	punct	RV	PROPN	_	4841
+(	(	(	PUNCT	-	4840	punct	RV	PROPN	-	4841
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	4841	flat	S	PROPN	_	4810
+RV	RV	RV	PROPN	-	4841	flat	S	PROPN	-	4810
 <g/>
 </name>
-)	)	)	PUNCT	_	4842	punct	RV	PROPN	_	4841
-9	9	9	NUM	NumType=Card	4843	nummod	Lotte	PROPN	_	4844
+)	)	)	PUNCT	-	4842	punct	RV	PROPN	-	4841
+9	9	9	NUM	NumType=Card	4843	nummod	Lotte	PROPN	-	4844
 <name type="PER">
-Lotte	Lotte	Lotte	PROPN	_	4844	list	S	PROPN	_	4810
-Rod	Rod	Rod	PROPN	_	4845	flat	Lotte	PROPN	_	4844
+Lotte	Lotte	Lotte	PROPN	-	4844	list	S	PROPN	-	4810
+Rod	Rod	Rod	PROPN	-	4845	flat	Lotte	PROPN	-	4844
 </name>
-(	(	(	PUNCT	_	4846	punct	RV	PROPN	_	4847
+(	(	(	PUNCT	-	4846	punct	RV	PROPN	-	4847
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	4847	flat	Lotte	PROPN	_	4844
+RV	RV	RV	PROPN	-	4847	flat	Lotte	PROPN	-	4844
 <g/>
 </name>
-)	)	)	PUNCT	_	4848	punct	RV	PROPN	_	4847
+)	)	)	PUNCT	-	4848	punct	RV	PROPN	-	4847
 10	10	10	NUM	NumType=Card	4849	nummod	Marl	NOUN	Definite=Def Gender=Com Number=Plur	4850
 <name type="PER">
-Marlene	Marlene	Marl	NOUN	Definite=Def Gender=Com Number=Plur	4850	list	Lotte	PROPN	_	4844
+Marlene	Marlene	Marl	NOUN	Definite=Def Gender=Com Number=Plur	4850	list	Lotte	PROPN	-	4844
 Borst	Borst	Borst	NOUN	Definite=Ind Gender=Com Number=Sing	4851	nmod	Marl	NOUN	Definite=Def Gender=Com Number=Plur	4850
-Hansen	Hansen	Hansen	PROPN	_	4852	flat	Borst	NOUN	Definite=Ind Gender=Com Number=Sing	4851
+Hansen	Hansen	Hansen	PROPN	-	4852	flat	Borst	NOUN	Definite=Ind Gender=Com Number=Sing	4851
 </name>
-(	(	(	PUNCT	_	4853	punct	RV	PROPN	_	4854
+(	(	(	PUNCT	-	4853	punct	RV	PROPN	-	4854
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	4854	appos	Borst	NOUN	Definite=Ind Gender=Com Number=Sing	4851
+RV	RV	RV	PROPN	-	4854	appos	Borst	NOUN	Definite=Ind Gender=Com Number=Sing	4851
 <g/>
 </name>
-)	)	)	PUNCT	_	4855	punct	RV	PROPN	_	4854
-11	11	11	NUM	NumType=Card	4856	nummod	Karina	PROPN	_	4857
+)	)	)	PUNCT	-	4855	punct	RV	PROPN	-	4854
+11	11	11	NUM	NumType=Card	4856	nummod	Karina	PROPN	-	4857
 <name type="PER">
-Karina	Karina	Karina	PROPN	_	4857	list	RV	PROPN	_	4854
-Lorentzen	Lorentzen	Lorentzen	PROPN	_	4858	flat	Karina	PROPN	_	4857
-Dehnhardt	Dehnhardt	Dehnhardt	PROPN	_	4859	flat	Karina	PROPN	_	4857
+Karina	Karina	Karina	PROPN	-	4857	list	RV	PROPN	-	4854
+Lorentzen	Lorentzen	Lorentzen	PROPN	-	4858	flat	Karina	PROPN	-	4857
+Dehnhardt	Dehnhardt	Dehnhardt	PROPN	-	4859	flat	Karina	PROPN	-	4857
 </name>
-(	(	(	PUNCT	_	4860	punct	SF	PROPN	_	4861
+(	(	(	PUNCT	-	4860	punct	SF	PROPN	-	4861
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	4861	list	Karina	PROPN	_	4857
+SF	SF	SF	PROPN	-	4861	list	Karina	PROPN	-	4857
 <g/>
 </name>
-)	)	)	PUNCT	_	4862	punct	SF	PROPN	_	4861
-12	12	12	NUM	NumType=Card	4863	nummod	Pernille	PROPN	_	4864
+)	)	)	PUNCT	-	4862	punct	SF	PROPN	-	4861
+12	12	12	NUM	NumType=Card	4863	nummod	Pernille	PROPN	-	4864
 <name type="PER">
-Pernille	Pernille	Pernille	PROPN	_	4864	list	SF	PROPN	_	4861
-Vigsø	Vigsø	Vigsø	PROPN	_	4865	flat	Pernille	PROPN	_	4864
-Bagge	Bagge	Bagge	PROPN	_	4866	flat	Pernille	PROPN	_	4864
+Pernille	Pernille	Pernille	PROPN	-	4864	list	SF	PROPN	-	4861
+Vigsø	Vigsø	Vigsø	PROPN	-	4865	flat	Pernille	PROPN	-	4864
+Bagge	Bagge	Bagge	PROPN	-	4866	flat	Pernille	PROPN	-	4864
 </name>
-(	(	(	PUNCT	_	4867	punct	SF	PROPN	_	4868
+(	(	(	PUNCT	-	4867	punct	SF	PROPN	-	4868
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	4868	list	Pernille	PROPN	_	4864
+SF	SF	SF	PROPN	-	4868	list	Pernille	PROPN	-	4864
 <g/>
 </name>
-)	)	)	PUNCT	_	4869	punct	SF	PROPN	_	4868
-13	13	13	NUM	NumType=Card	4870	nummod	Johanne	PROPN	_	4871
+)	)	)	PUNCT	-	4869	punct	SF	PROPN	-	4868
+13	13	13	NUM	NumType=Card	4870	nummod	Johanne	PROPN	-	4871
 <name type="PER">
-Johanne	Johanne	Johanne	PROPN	_	4871	list	SF	PROPN	_	4868
-Schmidt-Nielsen	Schmidt-Nielsen	Schmidt-Nielsen	PROPN	_	4872	flat	Johanne	PROPN	_	4871
+Johanne	Johanne	Johanne	PROPN	-	4871	list	SF	PROPN	-	4868
+Schmidt-Nielsen	Schmidt-Nielsen	Schmidt-Nielsen	PROPN	-	4872	flat	Johanne	PROPN	-	4871
 </name>
-(	(	(	PUNCT	_	4873	punct	EL	PROPN	_	4874
+(	(	(	PUNCT	-	4873	punct	EL	PROPN	-	4874
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	4874	flat	Johanne	PROPN	_	4871
+EL	EL	EL	PROPN	-	4874	flat	Johanne	PROPN	-	4871
 <g/>
 </name>
-)	)	)	PUNCT	_	4875	punct	EL	PROPN	_	4874
-14	14	14	NUM	NumType=Card	4876	nummod	Pernille	PROPN	_	4877
+)	)	)	PUNCT	-	4875	punct	EL	PROPN	-	4874
+14	14	14	NUM	NumType=Card	4876	nummod	Pernille	PROPN	-	4877
 <name type="PER">
-Pernille	Pernille	Pernille	PROPN	_	4877	list	Johanne	PROPN	_	4871
-Skipper	Skipper	Skipper	NOUN	Definite=Ind Gender=Com Number=Sing	4878	flat	Pernille	PROPN	_	4877
+Pernille	Pernille	Pernille	PROPN	-	4877	list	Johanne	PROPN	-	4871
+Skipper	Skipper	Skipper	NOUN	Definite=Ind Gender=Com Number=Sing	4878	flat	Pernille	PROPN	-	4877
 </name>
-(	(	(	PUNCT	_	4879	punct	EL	PROPN	_	4880
+(	(	(	PUNCT	-	4879	punct	EL	PROPN	-	4880
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	4880	flat	Pernille	PROPN	_	4877
+EL	EL	EL	PROPN	-	4880	flat	Pernille	PROPN	-	4877
 <g/>
 </name>
-)	)	)	PUNCT	_	4881	punct	EL	PROPN	_	4880
-15	15	15	NUM	NumType=Card	4882	nummod	Jørgen	PROPN	_	4883
+)	)	)	PUNCT	-	4881	punct	EL	PROPN	-	4880
+15	15	15	NUM	NumType=Card	4882	nummod	Jørgen	PROPN	-	4883
 <name type="PER">
-Jørgen	Jørgen	Jørgen	PROPN	_	4883	list	Pernille	PROPN	_	4877
-Arbo-Bæhr	Arbo-Bæhr	Arbo-Bæhr	PROPN	_	4884	flat	Jørgen	PROPN	_	4883
+Jørgen	Jørgen	Jørgen	PROPN	-	4883	list	Pernille	PROPN	-	4877
+Arbo-Bæhr	Arbo-Bæhr	Arbo-Bæhr	PROPN	-	4884	flat	Jørgen	PROPN	-	4883
 </name>
-(	(	(	PUNCT	_	4885	punct	EL	PROPN	_	4886
+(	(	(	PUNCT	-	4885	punct	EL	PROPN	-	4886
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	4886	flat	Jørgen	PROPN	_	4883
+EL	EL	EL	PROPN	-	4886	flat	Jørgen	PROPN	-	4883
 <g/>
 </name>
-)	)	)	PUNCT	_	4887	punct	EL	PROPN	_	4886
-16	16	16	NUM	NumType=Card	4888	nummod	Jakob	PROPN	_	4889
+)	)	)	PUNCT	-	4887	punct	EL	PROPN	-	4886
+16	16	16	NUM	NumType=Card	4888	nummod	Jakob	PROPN	-	4889
 <name type="PER">
-Jakob	Jakob	Jakob	PROPN	_	4889	list	Jørgen	PROPN	_	4883
-Engel-Schmidt	Engel-Schmidt	Engel-Schmidt	X	_	4890	flat	Jakob	PROPN	_	4889
+Jakob	Jakob	Jakob	PROPN	-	4889	list	Jørgen	PROPN	-	4883
+Engel-Schmidt	Engel-Schmidt	Engel-Schmidt	X	-	4890	flat	Jakob	PROPN	-	4889
 </name>
-(	(	(	PUNCT	_	4891	punct	V	PROPN	_	4892
+(	(	(	PUNCT	-	4891	punct	V	PROPN	-	4892
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4892	flat	Jakob	PROPN	_	4889
+V	V	V	PROPN	-	4892	flat	Jakob	PROPN	-	4889
 <g/>
 </name>
-)	)	)	PUNCT	_	4893	punct	V	PROPN	_	4892
-17	17	17	NUM	NumType=Card	4894	nummod	Martin	PROPN	_	4895
+)	)	)	PUNCT	-	4893	punct	V	PROPN	-	4892
+17	17	17	NUM	NumType=Card	4894	nummod	Martin	PROPN	-	4895
 <name type="PER">
-Martin	Martin	Martin	PROPN	_	4895	list	V	PROPN	_	4892
-Geertsen	Geertsen	Geertsen	PROPN	_	4896	flat	Martin	PROPN	_	4895
+Martin	Martin	Martin	PROPN	-	4895	list	V	PROPN	-	4892
+Geertsen	Geertsen	Geertsen	PROPN	-	4896	flat	Martin	PROPN	-	4895
 </name>
-(	(	(	PUNCT	_	4897	punct	V	PROPN	_	4898
+(	(	(	PUNCT	-	4897	punct	V	PROPN	-	4898
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4898	flat	Martin	PROPN	_	4895
+V	V	V	PROPN	-	4898	flat	Martin	PROPN	-	4895
 <g/>
 </name>
-)	)	)	PUNCT	_	4899	punct	V	PROPN	_	4898
-18	18	18	NUM	NumType=Card	4900	nummod	Karen	PROPN	_	4901
+)	)	)	PUNCT	-	4899	punct	V	PROPN	-	4898
+18	18	18	NUM	NumType=Card	4900	nummod	Karen	PROPN	-	4901
 <name type="PER">
-Karen	Karen	Karen	PROPN	_	4901	list	Martin	PROPN	_	4895
-Ellemann	Ellemann	Ellemann	PROPN	_	4902	flat	Karen	PROPN	_	4901
+Karen	Karen	Karen	PROPN	-	4901	list	Martin	PROPN	-	4895
+Ellemann	Ellemann	Ellemann	PROPN	-	4902	flat	Karen	PROPN	-	4901
 </name>
-(	(	(	PUNCT	_	4903	punct	V	PROPN	_	4904
+(	(	(	PUNCT	-	4903	punct	V	PROPN	-	4904
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4904	flat	Karen	PROPN	_	4901
+V	V	V	PROPN	-	4904	flat	Karen	PROPN	-	4901
 <g/>
 </name>
-)	)	)	PUNCT	_	4905	punct	V	PROPN	_	4904
-19	19	19	NUM	NumType=Card	4906	nummod	Michael	PROPN	_	4907
+)	)	)	PUNCT	-	4905	punct	V	PROPN	-	4904
+19	19	19	NUM	NumType=Card	4906	nummod	Michael	PROPN	-	4907
 <name type="PER">
-Michael	Michael	Michael	PROPN	_	4907	list	Karen	PROPN	_	4901
-Aastrup	Aastrup	Aastrup	PROPN	_	4908	flat	Michael	PROPN	_	4907
-Jensen	Jensen	Jensen	PROPN	_	4909	flat	Michael	PROPN	_	4907
+Michael	Michael	Michael	PROPN	-	4907	list	Karen	PROPN	-	4901
+Aastrup	Aastrup	Aastrup	PROPN	-	4908	flat	Michael	PROPN	-	4907
+Jensen	Jensen	Jensen	PROPN	-	4909	flat	Michael	PROPN	-	4907
 </name>
-(	(	(	PUNCT	_	4910	punct	V	PROPN	_	4911
+(	(	(	PUNCT	-	4910	punct	V	PROPN	-	4911
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4911	flat	Michael	PROPN	_	4907
+V	V	V	PROPN	-	4911	flat	Michael	PROPN	-	4907
 <g/>
 </name>
-)	)	)	PUNCT	_	4912	punct	V	PROPN	_	4911
-20	20	20	NUM	NumType=Card	4913	nummod	Fatma	PROPN	_	4914
+)	)	)	PUNCT	-	4912	punct	V	PROPN	-	4911
+20	20	20	NUM	NumType=Card	4913	nummod	Fatma	PROPN	-	4914
 <name type="PER">
-Fatma	Fatma	Fatma	PROPN	_	4914	list	Michael	PROPN	_	4907
-Øktem	Øktem	Øktem	PROPN	_	4915	flat	Fatma	PROPN	_	4914
+Fatma	Fatma	Fatma	PROPN	-	4914	list	Michael	PROPN	-	4907
+Øktem	Øktem	Øktem	PROPN	-	4915	flat	Fatma	PROPN	-	4914
 </name>
-(	(	(	PUNCT	_	4916	punct	V	PROPN	_	4917
+(	(	(	PUNCT	-	4916	punct	V	PROPN	-	4917
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4917	flat	Fatma	PROPN	_	4914
+V	V	V	PROPN	-	4917	flat	Fatma	PROPN	-	4914
 <g/>
 </name>
-)	)	)	PUNCT	_	4918	punct	V	PROPN	_	4917
-21	21	21	NUM	NumType=Card	4919	nummod	Karen	PROPN	_	4920
+)	)	)	PUNCT	-	4918	punct	V	PROPN	-	4917
+21	21	21	NUM	NumType=Card	4919	nummod	Karen	PROPN	-	4920
 <name type="PER">
-Karen	Karen	Karen	PROPN	_	4920	list	Fatma	PROPN	_	4914
-Jespersen	Jespersen	Jespersen	PROPN	_	4921	flat	Karen	PROPN	_	4920
+Karen	Karen	Karen	PROPN	-	4920	list	Fatma	PROPN	-	4914
+Jespersen	Jespersen	Jespersen	PROPN	-	4921	flat	Karen	PROPN	-	4920
 </name>
-(	(	(	PUNCT	_	4922	punct	V	PROPN	_	4923
+(	(	(	PUNCT	-	4922	punct	V	PROPN	-	4923
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4923	flat	Karen	PROPN	_	4920
+V	V	V	PROPN	-	4923	flat	Karen	PROPN	-	4920
 <g/>
 </name>
-)	)	)	PUNCT	_	4924	punct	V	PROPN	_	4923
-22	22	22	NUM	NumType=Card	4925	nummod	Karsten	PROPN	_	4926
+)	)	)	PUNCT	-	4924	punct	V	PROPN	-	4923
+22	22	22	NUM	NumType=Card	4925	nummod	Karsten	PROPN	-	4926
 <name type="PER">
-Karsten	Karsten	Karsten	PROPN	_	4926	list	Karen	PROPN	_	4920
-Lauritzen	Lauritzen	Lauritzen	PROPN	_	4927	flat	Karsten	PROPN	_	4926
+Karsten	Karsten	Karsten	PROPN	-	4926	list	Karen	PROPN	-	4920
+Lauritzen	Lauritzen	Lauritzen	PROPN	-	4927	flat	Karsten	PROPN	-	4926
 </name>
-(	(	(	PUNCT	_	4928	punct	V	PROPN	_	4929
+(	(	(	PUNCT	-	4928	punct	V	PROPN	-	4929
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4929	flat	Karsten	PROPN	_	4926
+V	V	V	PROPN	-	4929	flat	Karsten	PROPN	-	4926
 <g/>
 </name>
-)	)	)	PUNCT	_	4930	punct	V	PROPN	_	4929
-23	23	23	NUM	NumType=Card	4931	nummod	Inger	PROPN	_	4932
+)	)	)	PUNCT	-	4930	punct	V	PROPN	-	4929
+23	23	23	NUM	NumType=Card	4931	nummod	Inger	PROPN	-	4932
 <name type="PER">
-Inger	Inger	Inger	PROPN	_	4932	list	Karsten	PROPN	_	4926
-Støjberg	Støjberg	Støjberg	PROPN	_	4933	flat	Inger	PROPN	_	4932
+Inger	Inger	Inger	PROPN	-	4932	list	Karsten	PROPN	-	4926
+Støjberg	Støjberg	Støjberg	PROPN	-	4933	flat	Inger	PROPN	-	4932
 </name>
-(	(	(	PUNCT	_	4934	punct	V	PROPN	_	4935
+(	(	(	PUNCT	-	4934	punct	V	PROPN	-	4935
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	4935	flat	Inger	PROPN	_	4932
+V	V	V	PROPN	-	4935	flat	Inger	PROPN	-	4932
 <g/>
 </name>
-)	)	)	PUNCT	_	4936	punct	V	PROPN	_	4935
-24	24	24	NUM	NumType=Card	4937	nummod	Martin	PROPN	_	4938
+)	)	)	PUNCT	-	4936	punct	V	PROPN	-	4935
+24	24	24	NUM	NumType=Card	4937	nummod	Martin	PROPN	-	4938
 <name type="PER">
-Martin	Martin	Martin	PROPN	_	4938	list	Inger	PROPN	_	4932
-Henriksen	Henriksen	Henriksen	PROPN	_	4939	flat	Martin	PROPN	_	4938
+Martin	Martin	Martin	PROPN	-	4938	list	Inger	PROPN	-	4932
+Henriksen	Henriksen	Henriksen	PROPN	-	4939	flat	Martin	PROPN	-	4938
 </name>
-(	(	(	PUNCT	_	4940	punct	DF	PROPN	_	4941
+(	(	(	PUNCT	-	4940	punct	DF	PROPN	-	4941
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	4941	flat	Martin	PROPN	_	4938
+DF	DF	DF	PROPN	-	4941	flat	Martin	PROPN	-	4938
 <g/>
 </name>
-)	)	)	PUNCT	_	4942	punct	DF	PROPN	_	4941
-25	25	25	NUM	NumType=Card	4943	nummod	Peter	PROPN	_	4944
+)	)	)	PUNCT	-	4942	punct	DF	PROPN	-	4941
+25	25	25	NUM	NumType=Card	4943	nummod	Peter	PROPN	-	4944
 <name type="PER">
-Peter	Peter	Peter	PROPN	_	4944	list	Martin	PROPN	_	4938
-Skaarup	Skaarup	Skaarup	PROPN	_	4945	flat	Peter	PROPN	_	4944
+Peter	Peter	Peter	PROPN	-	4944	list	Martin	PROPN	-	4938
+Skaarup	Skaarup	Skaarup	PROPN	-	4945	flat	Peter	PROPN	-	4944
 </name>
-(	(	(	PUNCT	_	4946	punct	DF	PROPN	_	4947
+(	(	(	PUNCT	-	4946	punct	DF	PROPN	-	4947
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	4947	flat	Peter	PROPN	_	4944
+DF	DF	DF	PROPN	-	4947	flat	Peter	PROPN	-	4944
 <g/>
 </name>
-)	)	)	PUNCT	_	4948	punct	DF	PROPN	_	4947
-26	26	26	NUM	NumType=Card	4949	nummod	Christian	PROPN	_	4950
+)	)	)	PUNCT	-	4948	punct	DF	PROPN	-	4947
+26	26	26	NUM	NumType=Card	4949	nummod	Christian	PROPN	-	4950
 <name type="PER">
-Christian	Christian	Christian	PROPN	_	4950	list	Peter	PROPN	_	4944
-Langballe	Langballe	Langballe	PROPN	_	4951	flat	Christian	PROPN	_	4950
+Christian	Christian	Christian	PROPN	-	4950	list	Peter	PROPN	-	4944
+Langballe	Langballe	Langballe	PROPN	-	4951	flat	Christian	PROPN	-	4950
 </name>
-(	(	(	PUNCT	_	4952	punct	DF	PROPN	_	4953
+(	(	(	PUNCT	-	4952	punct	DF	PROPN	-	4953
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	4953	flat	Christian	PROPN	_	4950
+DF	DF	DF	PROPN	-	4953	flat	Christian	PROPN	-	4950
 <g/>
 </name>
-)	)	)	PUNCT	_	4954	punct	DF	PROPN	_	4953
-27	27	27	NUM	NumType=Card	4955	nummod	Marie	PROPN	_	4956
+)	)	)	PUNCT	-	4954	punct	DF	PROPN	-	4953
+27	27	27	NUM	NumType=Card	4955	nummod	Marie	PROPN	-	4956
 <name type="PER">
-Marie	Marie	Marie	PROPN	_	4956	list	Christian	PROPN	_	4950
-Krarup	Krarup	Krarup	PROPN	_	4957	flat	Marie	PROPN	_	4956
+Marie	Marie	Marie	PROPN	-	4956	list	Christian	PROPN	-	4950
+Krarup	Krarup	Krarup	PROPN	-	4957	flat	Marie	PROPN	-	4956
 </name>
-(	(	(	PUNCT	_	4958	punct	DF	PROPN	_	4959
+(	(	(	PUNCT	-	4958	punct	DF	PROPN	-	4959
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	4959	flat	Marie	PROPN	_	4956
+DF	DF	DF	PROPN	-	4959	flat	Marie	PROPN	-	4956
 <g/>
 </name>
-)	)	)	PUNCT	_	4960	punct	DF	PROPN	_	4959
-28	28	28	NUM	NumType=Card	4961	nummod	Anders	PROPN	_	4962
+)	)	)	PUNCT	-	4960	punct	DF	PROPN	-	4959
+28	28	28	NUM	NumType=Card	4961	nummod	Anders	PROPN	-	4962
 <name type="PER">
-Anders	Anders	Anders	PROPN	_	4962	list	Marie	PROPN	_	4956
-Samuelsen	Samuelsen	Samuelsen	PROPN	_	4963	flat	Anders	PROPN	_	4962
+Anders	Anders	Anders	PROPN	-	4962	list	Marie	PROPN	-	4956
+Samuelsen	Samuelsen	Samuelsen	PROPN	-	4963	flat	Anders	PROPN	-	4962
 </name>
-(	(	(	PUNCT	_	4964	punct	LA	PROPN	_	4965
+(	(	(	PUNCT	-	4964	punct	LA	PROPN	-	4965
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	4965	flat	Anders	PROPN	_	4962
+LA	LA	LA	PROPN	-	4965	flat	Anders	PROPN	-	4962
 <g/>
 </name>
-)	)	)	PUNCT	_	4966	punct	LA	PROPN	_	4965
-29	29	29	NUM	NumType=Card	4967	nummod	Tom	PROPN	_	4968
+)	)	)	PUNCT	-	4966	punct	LA	PROPN	-	4965
+29	29	29	NUM	NumType=Card	4967	nummod	Tom	PROPN	-	4968
 <name type="PER">
-Tom	Tom	Tom	PROPN	_	4968	list	Anders	PROPN	_	4962
-Behnke	Behnke	Behnke	PROPN	_	4969	flat	Tom	PROPN	_	4968
+Tom	Tom	Tom	PROPN	-	4968	list	Anders	PROPN	-	4962
+Behnke	Behnke	Behnke	PROPN	-	4969	flat	Tom	PROPN	-	4968
 </name>
-(	(	(	PUNCT	_	4970	punct	KF	PROPN	_	4971
+(	(	(	PUNCT	-	4970	punct	KF	PROPN	-	4971
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	4971	flat	Tom	PROPN	_	4968
+KF	KF	KF	PROPN	-	4971	flat	Tom	PROPN	-	4968
 <g/>
 </name>
-)	)	)	PUNCT	_	4972	punct	KF	PROPN	_	4971
-Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	4973	list	Tom	PROPN	_	4968
+)	)	)	PUNCT	-	4972	punct	KF	PROPN	-	4971
+Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	4973	list	Tom	PROPN	-	4968
 <g/>
-:	:	:	PUNCT	_	4974	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	4973
+:	:	:	PUNCT	-	4974	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	4973
 <name type="PER">
-Troels	Troels	Troels	PROPN	_	4975	appos	formand	NOUN	Definite=Ind Gender=Com Number=Sing	4973
-Ravn	Ravn	Ravn	PROPN	_	4976	flat	Troels	PROPN	_	4975
+Troels	Troels	Troels	PROPN	-	4975	appos	formand	NOUN	Definite=Ind Gender=Com Number=Sing	4973
+Ravn	Ravn	Ravn	PROPN	-	4976	flat	Troels	PROPN	-	4975
 </name>
-(	(	(	PUNCT	_	4977	punct	S	PROPN	_	4978
+(	(	(	PUNCT	-	4977	punct	S	PROPN	-	4978
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	4978	flat	Troels	PROPN	_	4975
+S	S	S	PROPN	-	4978	flat	Troels	PROPN	-	4975
 <g/>
 </name>
-)	)	)	PUNCT	_	4979	punct	S	PROPN	_	4978
-Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	4980	flat	S	PROPN	_	4978
+)	)	)	PUNCT	-	4979	punct	S	PROPN	-	4978
+Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	4980	flat	S	PROPN	-	4978
 <g/>
-:	:	:	PUNCT	_	4981	punct	S	PROPN	_	4978
+:	:	:	PUNCT	-	4981	punct	S	PROPN	-	4978
 <name type="PER">
-Peter	Peter	Peter	PROPN	_	4982	flat	S	PROPN	_	4978
-Skaarup	Skaarup	Skaarup	PROPN	_	4983	flat	Peter	PROPN	_	4982
+Peter	Peter	Peter	PROPN	-	4982	flat	S	PROPN	-	4978
+Skaarup	Skaarup	Skaarup	PROPN	-	4983	flat	Peter	PROPN	-	4982
 </name>
-(	(	(	PUNCT	_	4984	punct	S	PROPN	_	4978
+(	(	(	PUNCT	-	4984	punct	S	PROPN	-	4978
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	4985	flat	S	PROPN	_	4978
+DF	DF	DF	PROPN	-	4985	flat	S	PROPN	-	4978
 <g/>
 </name>
-)	)	)	PUNCT	_	4986	punct	S	PROPN	_	4978
-Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	4987	flat	Troels	PROPN	_	4975
+)	)	)	PUNCT	-	4986	punct	S	PROPN	-	4978
+Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	4987	flat	Troels	PROPN	-	4975
 af	af	af	ADP	AdpType=Prep	4988	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	4990
 29	29	29	NUM	NumType=Card	4989	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	4990
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	4990	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	4987
 til	til	til	ADP	AdpType=Prep	4991	case	grønlandsudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	4992
 Grønlandsudvalget	Grønlandsudvalget	grønlandsudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	4992	nmod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	4990
 <g/>
-:	:	:	PUNCT	_	4993	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	4973
-Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	4994	acl_relcl	Flemming	PROPN	_	4998
-blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	4995	cop	Flemming	PROPN	_	4998
+:	:	:	PUNCT	-	4993	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	4973
+Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	4994	acl:relcl	Flemming	PROPN	-	4998
+blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	4995	cop	Flemming	PROPN	-	4998
 <g/>
-:	:	:	PUNCT	_	4996	punct	Flemming	PROPN	_	4998
-1	1	1	NUM	NumType=Card	4997	nummod	Flemming	PROPN	_	4998
+:	:	:	PUNCT	-	4996	punct	Flemming	PROPN	-	4998
+1	1	1	NUM	NumType=Card	4997	nummod	Flemming	PROPN	-	4998
 <name type="PER">
-Flemming	Flemming	Flemming	PROPN	_	4998	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	4973
-Møller	Møller	Møller	PROPN	_	4999	flat	Flemming	PROPN	_	4998
-Mortensen	Mortensen	Mortensen	PROPN	_	5000	flat	Flemming	PROPN	_	4998
+Flemming	Flemming	Flemming	PROPN	-	4998	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	4973
+Møller	Møller	Møller	PROPN	-	4999	flat	Flemming	PROPN	-	4998
+Mortensen	Mortensen	Mortensen	PROPN	-	5000	flat	Flemming	PROPN	-	4998
 </name>
-(	(	(	PUNCT	_	5001	punct	S	PROPN	_	5002
+(	(	(	PUNCT	-	5001	punct	S	PROPN	-	5002
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	5002	flat	Flemming	PROPN	_	4998
+S	S	S	PROPN	-	5002	flat	Flemming	PROPN	-	4998
 <g/>
 </name>
-)	)	)	PUNCT	_	5003	punct	S	PROPN	_	5002
-2	2	2	NUM	NumType=Card	5004	nummod	Orla	PROPN	_	5005
+)	)	)	PUNCT	-	5003	punct	S	PROPN	-	5002
+2	2	2	NUM	NumType=Card	5004	nummod	Orla	PROPN	-	5005
 <name type="PER">
-Orla	Orla	Orla	PROPN	_	5005	list	Flemming	PROPN	_	4998
-Hav	Hav	Hav	PROPN	_	5006	flat	Orla	PROPN	_	5005
+Orla	Orla	Orla	PROPN	-	5005	list	Flemming	PROPN	-	4998
+Hav	Hav	Hav	PROPN	-	5006	flat	Orla	PROPN	-	5005
 </name>
-(	(	(	PUNCT	_	5007	punct	S	PROPN	_	5008
+(	(	(	PUNCT	-	5007	punct	S	PROPN	-	5008
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	5008	flat	Orla	PROPN	_	5005
+S	S	S	PROPN	-	5008	flat	Orla	PROPN	-	5005
 <g/>
 </name>
-)	)	)	PUNCT	_	5009	punct	S	PROPN	_	5008
-3	3	3	NUM	NumType=Card	5010	nummod	Karin	PROPN	_	5011
+)	)	)	PUNCT	-	5009	punct	S	PROPN	-	5008
+3	3	3	NUM	NumType=Card	5010	nummod	Karin	PROPN	-	5011
 <name type="PER">
-Karin	Karin	Karin	PROPN	_	5011	list	Flemming	PROPN	_	4998
-Gaardsted	Gaardsted	Gaardsted	PROPN	_	5012	flat	Karin	PROPN	_	5011
+Karin	Karin	Karin	PROPN	-	5011	list	Flemming	PROPN	-	4998
+Gaardsted	Gaardsted	Gaardsted	PROPN	-	5012	flat	Karin	PROPN	-	5011
 </name>
-(	(	(	PUNCT	_	5013	punct	S	PROPN	_	5014
+(	(	(	PUNCT	-	5013	punct	S	PROPN	-	5014
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	5014	list	Karin	PROPN	_	5011
+S	S	S	PROPN	-	5014	list	Karin	PROPN	-	5011
 <g/>
 </name>
-)	)	)	PUNCT	_	5015	punct	S	PROPN	_	5014
-4	4	4	NUM	NumType=Card	5016	nummod	Astrid	PROPN	_	5017
+)	)	)	PUNCT	-	5015	punct	S	PROPN	-	5014
+4	4	4	NUM	NumType=Card	5016	nummod	Astrid	PROPN	-	5017
 <name type="PER">
-Astrid	Astrid	Astrid	PROPN	_	5017	list	S	PROPN	_	5014
-Krag	Krag	Krag	PROPN	_	5018	flat	Astrid	PROPN	_	5017
+Astrid	Astrid	Astrid	PROPN	-	5017	list	S	PROPN	-	5014
+Krag	Krag	Krag	PROPN	-	5018	flat	Astrid	PROPN	-	5017
 </name>
-(	(	(	PUNCT	_	5019	punct	S	PROPN	_	5020
+(	(	(	PUNCT	-	5019	punct	S	PROPN	-	5020
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	5020	flat	Astrid	PROPN	_	5017
+S	S	S	PROPN	-	5020	flat	Astrid	PROPN	-	5017
 <g/>
 </name>
-)	)	)	PUNCT	_	5021	punct	S	PROPN	_	5020
-5	5	5	NUM	NumType=Card	5022	nummod	Thomas	PROPN	_	5023
+)	)	)	PUNCT	-	5021	punct	S	PROPN	-	5020
+5	5	5	NUM	NumType=Card	5022	nummod	Thomas	PROPN	-	5023
 <name type="PER">
-Thomas	Thomas	Thomas	PROPN	_	5023	list	Astrid	PROPN	_	5017
-Jensen	Jensen	Jensen	PROPN	_	5024	flat	Thomas	PROPN	_	5023
+Thomas	Thomas	Thomas	PROPN	-	5023	list	Astrid	PROPN	-	5017
+Jensen	Jensen	Jensen	PROPN	-	5024	flat	Thomas	PROPN	-	5023
 </name>
-(	(	(	PUNCT	_	5025	punct	S	PROPN	_	5026
+(	(	(	PUNCT	-	5025	punct	S	PROPN	-	5026
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	5026	flat	Thomas	PROPN	_	5023
+S	S	S	PROPN	-	5026	flat	Thomas	PROPN	-	5023
 <g/>
 </name>
-)	)	)	PUNCT	_	5027	punct	S	PROPN	_	5026
-6	6	6	NUM	NumType=Card	5028	nummod	Torben	PROPN	_	5029
+)	)	)	PUNCT	-	5027	punct	S	PROPN	-	5026
+6	6	6	NUM	NumType=Card	5028	nummod	Torben	PROPN	-	5029
 <name type="PER">
-Torben	Torben	Torben	PROPN	_	5029	list	Thomas	PROPN	_	5023
-Hansen	Hansen	Hansen	PROPN	_	5030	flat	Torben	PROPN	_	5029
+Torben	Torben	Torben	PROPN	-	5029	list	Thomas	PROPN	-	5023
+Hansen	Hansen	Hansen	PROPN	-	5030	flat	Torben	PROPN	-	5029
 </name>
-(	(	(	PUNCT	_	5031	punct	S	PROPN	_	5032
+(	(	(	PUNCT	-	5031	punct	S	PROPN	-	5032
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	5032	list	Torben	PROPN	_	5029
+S	S	S	PROPN	-	5032	list	Torben	PROPN	-	5029
 <g/>
 </name>
-)	)	)	PUNCT	_	5033	punct	S	PROPN	_	5032
-7	7	7	NUM	NumType=Card	5034	nummod	Helle	PROPN	_	5035
+)	)	)	PUNCT	-	5033	punct	S	PROPN	-	5032
+7	7	7	NUM	NumType=Card	5034	nummod	Helle	PROPN	-	5035
 <name type="PER">
-Helle	Helle	Helle	PROPN	_	5035	list	S	PROPN	_	5032
-Løvgreen	Løvgreen	Løvgreen	PROPN	_	5036	flat	Helle	PROPN	_	5035
-Mølvig	Mølvig	Mølvigen	PROPN	_	5037	flat	Helle	PROPN	_	5035
+Helle	Helle	Helle	PROPN	-	5035	list	S	PROPN	-	5032
+Løvgreen	Løvgreen	Løvgreen	PROPN	-	5036	flat	Helle	PROPN	-	5035
+Mølvig	Mølvig	Mølvigen	PROPN	-	5037	flat	Helle	PROPN	-	5035
 </name>
-(	(	(	PUNCT	_	5038	punct	RV	PROPN	_	5039
+(	(	(	PUNCT	-	5038	punct	RV	PROPN	-	5039
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	5039	list	Helle	PROPN	_	5035
+RV	RV	RV	PROPN	-	5039	list	Helle	PROPN	-	5035
 <g/>
 </name>
-)	)	)	PUNCT	_	5040	punct	RV	PROPN	_	5039
-8	8	8	NUM	NumType=Card	5041	nummod	Nadeem	PROPN	_	5042
+)	)	)	PUNCT	-	5040	punct	RV	PROPN	-	5039
+8	8	8	NUM	NumType=Card	5041	nummod	Nadeem	PROPN	-	5042
 <name type="PER">
-Nadeem	Nadeem	Nadeem	PROPN	_	5042	list	RV	PROPN	_	5039
-Farooq	Farooq	Farooq	NOUN	Definite=Ind Gender=Com Number=Sing	5043	flat	Nadeem	PROPN	_	5042
+Nadeem	Nadeem	Nadeem	PROPN	-	5042	list	RV	PROPN	-	5039
+Farooq	Farooq	Farooq	NOUN	Definite=Ind Gender=Com Number=Sing	5043	flat	Nadeem	PROPN	-	5042
 </name>
-(	(	(	PUNCT	_	5044	punct	RV	PROPN	_	5045
+(	(	(	PUNCT	-	5044	punct	RV	PROPN	-	5045
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	5045	flat	Nadeem	PROPN	_	5042
+RV	RV	RV	PROPN	-	5045	flat	Nadeem	PROPN	-	5042
 <g/>
 </name>
-)	)	)	PUNCT	_	5046	punct	RV	PROPN	_	5045
-9	9	9	NUM	NumType=Card	5047	nummod	Annette	PROPN	_	5048
+)	)	)	PUNCT	-	5046	punct	RV	PROPN	-	5045
+9	9	9	NUM	NumType=Card	5047	nummod	Annette	PROPN	-	5048
 <name type="PER">
-Annette	Annette	Annette	PROPN	_	5048	list	Nadeem	PROPN	_	5042
-Vilhelmsen	Vilhelmsen	Vilhelmsen	PROPN	_	5049	flat	Annette	PROPN	_	5048
+Annette	Annette	Annette	PROPN	-	5048	list	Nadeem	PROPN	-	5042
+Vilhelmsen	Vilhelmsen	Vilhelmsen	PROPN	-	5049	flat	Annette	PROPN	-	5048
 </name>
-(	(	(	PUNCT	_	5050	punct	SF	PROPN	_	5051
+(	(	(	PUNCT	-	5050	punct	SF	PROPN	-	5051
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	5051	list	Annette	PROPN	_	5048
+SF	SF	SF	PROPN	-	5051	list	Annette	PROPN	-	5048
 <g/>
 </name>
-)	)	)	PUNCT	_	5052	punct	SF	PROPN	_	5051
-10	10	10	NUM	NumType=Card	5053	nummod	Özlem	PROPN	_	5054
+)	)	)	PUNCT	-	5052	punct	SF	PROPN	-	5051
+10	10	10	NUM	NumType=Card	5053	nummod	Özlem	PROPN	-	5054
 <name type="PER">
-Özlem	Özlem	Özlem	PROPN	_	5054	list	SF	PROPN	_	5051
-Sara	Sara	Sara	PROPN	_	5055	flat	Özlem	PROPN	_	5054
-Cekic	Cekic	Cekic	PROPN	_	5056	flat	Özlem	PROPN	_	5054
+Özlem	Özlem	Özlem	PROPN	-	5054	list	SF	PROPN	-	5051
+Sara	Sara	Sara	PROPN	-	5055	flat	Özlem	PROPN	-	5054
+Cekic	Cekic	Cekic	PROPN	-	5056	flat	Özlem	PROPN	-	5054
 </name>
-(	(	(	PUNCT	_	5057	punct	SF	PROPN	_	5058
+(	(	(	PUNCT	-	5057	punct	SF	PROPN	-	5058
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	5058	list	Özlem	PROPN	_	5054
+SF	SF	SF	PROPN	-	5058	list	Özlem	PROPN	-	5054
 <g/>
 </name>
-)	)	)	PUNCT	_	5059	punct	SF	PROPN	_	5058
-11	11	11	NUM	NumType=Card	5060	nummod	Finn	PROPN	_	5061
+)	)	)	PUNCT	-	5059	punct	SF	PROPN	-	5058
+11	11	11	NUM	NumType=Card	5060	nummod	Finn	PROPN	-	5061
 <name type="PER">
-Finn	Finn	Finn	PROPN	_	5061	list	SF	PROPN	_	5058
-Sørensen	Sørensen	Sørensen	PROPN	_	5062	flat	Finn	PROPN	_	5061
+Finn	Finn	Finn	PROPN	-	5061	list	SF	PROPN	-	5058
+Sørensen	Sørensen	Sørensen	PROPN	-	5062	flat	Finn	PROPN	-	5061
 </name>
-(	(	(	PUNCT	_	5063	punct	EL	PROPN	_	5064
+(	(	(	PUNCT	-	5063	punct	EL	PROPN	-	5064
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	5064	flat	Finn	PROPN	_	5061
+EL	EL	EL	PROPN	-	5064	flat	Finn	PROPN	-	5061
 <g/>
 </name>
-)	)	)	PUNCT	_	5065	punct	EL	PROPN	_	5064
-12	12	12	NUM	NumType=Card	5066	nummod	Christian	PROPN	_	5067
+)	)	)	PUNCT	-	5065	punct	EL	PROPN	-	5064
+12	12	12	NUM	NumType=Card	5066	nummod	Christian	PROPN	-	5067
 <name type="PER">
-Christian	Christian	Christian	PROPN	_	5067	list	Finn	PROPN	_	5061
-Juhl	Juhl	Juhl	PROPN	_	5068	flat	Christian	PROPN	_	5067
+Christian	Christian	Christian	PROPN	-	5067	list	Finn	PROPN	-	5061
+Juhl	Juhl	Juhl	PROPN	-	5068	flat	Christian	PROPN	-	5067
 </name>
-(	(	(	PUNCT	_	5069	punct	EL	PROPN	_	5070
+(	(	(	PUNCT	-	5069	punct	EL	PROPN	-	5070
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	5070	flat	Christian	PROPN	_	5067
+EL	EL	EL	PROPN	-	5070	flat	Christian	PROPN	-	5067
 <g/>
 </name>
-)	)	)	PUNCT	_	5071	punct	EL	PROPN	_	5070
-13	13	13	NUM	NumType=Card	5072	nummod	Johan	PROPN	_	5073
+)	)	)	PUNCT	-	5071	punct	EL	PROPN	-	5070
+13	13	13	NUM	NumType=Card	5072	nummod	Johan	PROPN	-	5073
 <name type="PER">
-Johan	Johan	Johan	PROPN	_	5073	list	Christian	PROPN	_	5067
-Lund	Lund	Lund	PROPN	_	5074	flat	Johan	PROPN	_	5073
-Olsen	Olsen	Olsen	PROPN	_	5075	flat	Johan	PROPN	_	5073
+Johan	Johan	Johan	PROPN	-	5073	list	Christian	PROPN	-	5067
+Lund	Lund	Lund	PROPN	-	5074	flat	Johan	PROPN	-	5073
+Olsen	Olsen	Olsen	PROPN	-	5075	flat	Johan	PROPN	-	5073
 </name>
-(	(	(	PUNCT	_	5076	punct	IA	PROPN	_	5077
+(	(	(	PUNCT	-	5076	punct	IA	PROPN	-	5077
 <g/>
 <name type="ORG">
-IA	IA	IA	PROPN	_	5077	flat	Johan	PROPN	_	5073
+IA	IA	IA	PROPN	-	5077	flat	Johan	PROPN	-	5073
 <g/>
 </name>
-)	)	)	PUNCT	_	5078	punct	IA	PROPN	_	5077
-14	14	14	NUM	NumType=Card	5079	nummod	Doris	PROPN	_	5080
+)	)	)	PUNCT	-	5078	punct	IA	PROPN	-	5077
+14	14	14	NUM	NumType=Card	5079	nummod	Doris	PROPN	-	5080
 <name type="PER">
-Doris	Doris	Doris	PROPN	_	5080	list	Johan	PROPN	_	5073
-Jakobsen	Jakobsen	Jakobsen	PROPN	_	5081	flat	Doris	PROPN	_	5080
+Doris	Doris	Doris	PROPN	-	5080	list	Johan	PROPN	-	5073
+Jakobsen	Jakobsen	Jakobsen	PROPN	-	5081	flat	Doris	PROPN	-	5080
 </name>
-(	(	(	PUNCT	_	5082	punct	SIU	PROPN	_	5083
+(	(	(	PUNCT	-	5082	punct	SIU	PROPN	-	5083
 <g/>
 <name type="PER">
-SIU	SIU	SIU	PROPN	_	5083	flat	Doris	PROPN	_	5080
+SIU	SIU	SIU	PROPN	-	5083	flat	Doris	PROPN	-	5080
 <g/>
 </name>
-)	)	)	PUNCT	_	5084	punct	SIU	PROPN	_	5083
-15	15	15	NUM	NumType=Card	5085	nummod	Uffe	PROPN	_	5086
+)	)	)	PUNCT	-	5084	punct	SIU	PROPN	-	5083
+15	15	15	NUM	NumType=Card	5085	nummod	Uffe	PROPN	-	5086
 <name type="PER">
-Uffe	Uffe	Uffe	PROPN	_	5086	list	Doris	PROPN	_	5080
-Elbæk	Elbæk	Elbæk	PROPN	_	5087	flat	Uffe	PROPN	_	5086
+Uffe	Uffe	Uffe	PROPN	-	5086	list	Doris	PROPN	-	5080
+Elbæk	Elbæk	Elbæk	PROPN	-	5087	flat	Uffe	PROPN	-	5086
 </name>
-(	(	(	PUNCT	_	5088	punct	UFG	PROPN	_	5089
+(	(	(	PUNCT	-	5088	punct	UFG	PROPN	-	5089
 <g/>
 <name type="ORG">
-UFG	UFG	UFG	PROPN	_	5089	flat	Uffe	PROPN	_	5086
+UFG	UFG	UFG	PROPN	-	5089	flat	Uffe	PROPN	-	5086
 <g/>
 </name>
-)	)	)	PUNCT	_	5090	punct	UFG	PROPN	_	5089
-16	16	16	NUM	NumType=Card	5091	nummod	Kim	PROPN	_	5092
+)	)	)	PUNCT	-	5090	punct	UFG	PROPN	-	5089
+16	16	16	NUM	NumType=Card	5091	nummod	Kim	PROPN	-	5092
 <name type="PER">
-Kim	Kim	Kim	PROPN	_	5092	list	Uffe	PROPN	_	5086
-Andersen	Andersen	Andersen	PROPN	_	5093	flat	Kim	PROPN	_	5092
+Kim	Kim	Kim	PROPN	-	5092	list	Uffe	PROPN	-	5086
+Andersen	Andersen	Andersen	PROPN	-	5093	flat	Kim	PROPN	-	5092
 </name>
-(	(	(	PUNCT	_	5094	punct	V	PROPN	_	5095
+(	(	(	PUNCT	-	5094	punct	V	PROPN	-	5095
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	5095	flat	Kim	PROPN	_	5092
+V	V	V	PROPN	-	5095	flat	Kim	PROPN	-	5092
 <g/>
 </name>
-)	)	)	PUNCT	_	5096	punct	V	PROPN	_	5095
-17	17	17	NUM	NumType=Card	5097	nummod	Ellen	PROPN	_	5098
+)	)	)	PUNCT	-	5096	punct	V	PROPN	-	5095
+17	17	17	NUM	NumType=Card	5097	nummod	Ellen	PROPN	-	5098
 <name type="PER">
-Ellen	Ellen	Ellen	PROPN	_	5098	list	Kim	PROPN	_	5092
-Trane	Trane	Trane	PROPN	_	5099	flat	Ellen	PROPN	_	5098
-Nørby	Nørby	Nørby	PROPN	_	5100	flat	Ellen	PROPN	_	5098
+Ellen	Ellen	Ellen	PROPN	-	5098	list	Kim	PROPN	-	5092
+Trane	Trane	Trane	PROPN	-	5099	flat	Ellen	PROPN	-	5098
+Nørby	Nørby	Nørby	PROPN	-	5100	flat	Ellen	PROPN	-	5098
 </name>
-(	(	(	PUNCT	_	5101	punct	V	PROPN	_	5102
+(	(	(	PUNCT	-	5101	punct	V	PROPN	-	5102
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	5102	flat	Ellen	PROPN	_	5098
+V	V	V	PROPN	-	5102	flat	Ellen	PROPN	-	5098
 <g/>
 </name>
-)	)	)	PUNCT	_	5103	punct	V	PROPN	_	5102
-18	18	18	NUM	NumType=Card	5104	nummod	Claus	PROPN	_	5105
+)	)	)	PUNCT	-	5103	punct	V	PROPN	-	5102
+18	18	18	NUM	NumType=Card	5104	nummod	Claus	PROPN	-	5105
 <name type="PER">
-Claus	Claus	Claus	PROPN	_	5105	list	Ellen	PROPN	_	5098
-Hjort	Hjort	Hjort	PROPN	_	5106	flat	Claus	PROPN	_	5105
-Frederiksen	Frederiksen	Frederiksen	PROPN	_	5107	flat	Claus	PROPN	_	5105
+Claus	Claus	Claus	PROPN	-	5105	list	Ellen	PROPN	-	5098
+Hjort	Hjort	Hjort	PROPN	-	5106	flat	Claus	PROPN	-	5105
+Frederiksen	Frederiksen	Frederiksen	PROPN	-	5107	flat	Claus	PROPN	-	5105
 </name>
-(	(	(	PUNCT	_	5108	punct	V	PROPN	_	5109
+(	(	(	PUNCT	-	5108	punct	V	PROPN	-	5109
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	5109	flat	Claus	PROPN	_	5105
+V	V	V	PROPN	-	5109	flat	Claus	PROPN	-	5105
 <g/>
 </name>
-)	)	)	PUNCT	_	5110	punct	V	PROPN	_	5109
-19	19	19	NUM	NumType=Card	5111	nummod	Eva	PROPN	_	5112
+)	)	)	PUNCT	-	5110	punct	V	PROPN	-	5109
+19	19	19	NUM	NumType=Card	5111	nummod	Eva	PROPN	-	5112
 <name type="PER">
-Eva	Eva	Eva	PROPN	_	5112	list	Claus	PROPN	_	5105
-Kjer	Kjer	Kjer	PROPN	_	5113	flat	Eva	PROPN	_	5112
-Hansen	Hansen	Hansen	PROPN	_	5114	flat	Eva	PROPN	_	5112
+Eva	Eva	Eva	PROPN	-	5112	list	Claus	PROPN	-	5105
+Kjer	Kjer	Kjer	PROPN	-	5113	flat	Eva	PROPN	-	5112
+Hansen	Hansen	Hansen	PROPN	-	5114	flat	Eva	PROPN	-	5112
 </name>
-(	(	(	PUNCT	_	5115	punct	V	PROPN	_	5116
+(	(	(	PUNCT	-	5115	punct	V	PROPN	-	5116
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	5116	flat	Eva	PROPN	_	5112
+V	V	V	PROPN	-	5116	flat	Eva	PROPN	-	5112
 <g/>
 </name>
-)	)	)	PUNCT	_	5117	punct	V	PROPN	_	5116
-20	20	20	NUM	NumType=Card	5118	nummod	Birgitte	PROPN	_	5119
+)	)	)	PUNCT	-	5117	punct	V	PROPN	-	5116
+20	20	20	NUM	NumType=Card	5118	nummod	Birgitte	PROPN	-	5119
 <name type="PER">
-Birgitte	Birgitte	Birgitte	PROPN	_	5119	list	Eva	PROPN	_	5112
-Josefsen	Josefsen	Josefsen	PROPN	_	5120	flat	Birgitte	PROPN	_	5119
+Birgitte	Birgitte	Birgitte	PROPN	-	5119	list	Eva	PROPN	-	5112
+Josefsen	Josefsen	Josefsen	PROPN	-	5120	flat	Birgitte	PROPN	-	5119
 </name>
-(	(	(	PUNCT	_	5121	punct	V	PROPN	_	5122
+(	(	(	PUNCT	-	5121	punct	V	PROPN	-	5122
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	5122	flat	Birgitte	PROPN	_	5119
+V	V	V	PROPN	-	5122	flat	Birgitte	PROPN	-	5119
 <g/>
 </name>
-)	)	)	PUNCT	_	5123	punct	V	PROPN	_	5122
-21	21	21	NUM	NumType=Card	5124	nummod	Jakob	PROPN	_	5125
+)	)	)	PUNCT	-	5123	punct	V	PROPN	-	5122
+21	21	21	NUM	NumType=Card	5124	nummod	Jakob	PROPN	-	5125
 <name type="PER">
-Jakob	Jakob	Jakob	PROPN	_	5125	list	Birgitte	PROPN	_	5119
-Ellemann-Jensen	Ellemann-Jensen	Ellemann-Jensen	PROPN	_	5126	flat	Jakob	PROPN	_	5125
+Jakob	Jakob	Jakob	PROPN	-	5125	list	Birgitte	PROPN	-	5119
+Ellemann-Jensen	Ellemann-Jensen	Ellemann-Jensen	PROPN	-	5126	flat	Jakob	PROPN	-	5125
 </name>
-(	(	(	PUNCT	_	5127	punct	V	PROPN	_	5128
+(	(	(	PUNCT	-	5127	punct	V	PROPN	-	5128
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	5128	flat	Jakob	PROPN	_	5125
+V	V	V	PROPN	-	5128	flat	Jakob	PROPN	-	5125
 <g/>
 </name>
-)	)	)	PUNCT	_	5129	punct	V	PROPN	_	5128
-22	22	22	NUM	NumType=Card	5130	nummod	Flemming	PROPN	_	5131
+)	)	)	PUNCT	-	5129	punct	V	PROPN	-	5128
+22	22	22	NUM	NumType=Card	5130	nummod	Flemming	PROPN	-	5131
 <name type="PER">
-Flemming	Flemming	Flemming	PROPN	_	5131	list	Jakob	PROPN	_	5125
-Damgaard	Damgaard	Damgaard	PROPN	_	5132	flat	Flemming	PROPN	_	5131
-Larsen	Larsen	Larsen	PROPN	_	5133	flat	Flemming	PROPN	_	5131
+Flemming	Flemming	Flemming	PROPN	-	5131	list	Jakob	PROPN	-	5125
+Damgaard	Damgaard	Damgaard	PROPN	-	5132	flat	Flemming	PROPN	-	5131
+Larsen	Larsen	Larsen	PROPN	-	5133	flat	Flemming	PROPN	-	5131
 </name>
-(	(	(	PUNCT	_	5134	punct	V	PROPN	_	5135
+(	(	(	PUNCT	-	5134	punct	V	PROPN	-	5135
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	5135	flat	Flemming	PROPN	_	5131
+V	V	V	PROPN	-	5135	flat	Flemming	PROPN	-	5131
 <g/>
 </name>
-)	)	)	PUNCT	_	5136	punct	V	PROPN	_	5135
-23	23	23	NUM	NumType=Card	5137	nummod	Edmund	PROPN	_	5138
+)	)	)	PUNCT	-	5136	punct	V	PROPN	-	5135
+23	23	23	NUM	NumType=Card	5137	nummod	Edmund	PROPN	-	5138
 <name type="PER">
-Edmund	Edmund	Edmund	PROPN	_	5138	list	Flemming	PROPN	_	5131
-Joensen	Joensen	Joensen	PROPN	_	5139	flat	Edmund	PROPN	_	5138
+Edmund	Edmund	Edmund	PROPN	-	5138	list	Flemming	PROPN	-	5131
+Joensen	Joensen	Joensen	PROPN	-	5139	flat	Edmund	PROPN	-	5138
 </name>
-(	(	(	PUNCT	_	5140	punct	SP	PROPN	_	5141
+(	(	(	PUNCT	-	5140	punct	SP	PROPN	-	5141
 <g/>
 <name type="ORG">
-SP	SP	SP	PROPN	_	5141	flat	Edmund	PROPN	_	5138
+SP	SP	SP	PROPN	-	5141	flat	Edmund	PROPN	-	5138
 <g/>
 </name>
-)	)	)	PUNCT	_	5142	punct	SP	PROPN	_	5141
-24	24	24	NUM	NumType=Card	5143	nummod	Søren	PROPN	_	5144
+)	)	)	PUNCT	-	5142	punct	SP	PROPN	-	5141
+24	24	24	NUM	NumType=Card	5143	nummod	Søren	PROPN	-	5144
 <name type="PER">
-Søren	Søren	Søren	PROPN	_	5144	list	Edmund	PROPN	_	5138
-Espersen	Espersen	Espersen	PROPN	_	5145	flat	Søren	PROPN	_	5144
+Søren	Søren	Søren	PROPN	-	5144	list	Edmund	PROPN	-	5138
+Espersen	Espersen	Espersen	PROPN	-	5145	flat	Søren	PROPN	-	5144
 </name>
-(	(	(	PUNCT	_	5146	punct	DF	PROPN	_	5147
+(	(	(	PUNCT	-	5146	punct	DF	PROPN	-	5147
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	5147	flat	Søren	PROPN	_	5144
+DF	DF	DF	PROPN	-	5147	flat	Søren	PROPN	-	5144
 <g/>
 </name>
-)	)	)	PUNCT	_	5148	punct	DF	PROPN	_	5147
-25	25	25	NUM	NumType=Card	5149	nummod	Martin	PROPN	_	5150
+)	)	)	PUNCT	-	5148	punct	DF	PROPN	-	5147
+25	25	25	NUM	NumType=Card	5149	nummod	Martin	PROPN	-	5150
 <name type="PER">
-Martin	Martin	Martin	PROPN	_	5150	list	Søren	PROPN	_	5144
-Henriksen	Henriksen	Henriksen	PROPN	_	5151	flat	Martin	PROPN	_	5150
+Martin	Martin	Martin	PROPN	-	5150	list	Søren	PROPN	-	5144
+Henriksen	Henriksen	Henriksen	PROPN	-	5151	flat	Martin	PROPN	-	5150
 </name>
-(	(	(	PUNCT	_	5152	punct	DF	PROPN	_	5153
+(	(	(	PUNCT	-	5152	punct	DF	PROPN	-	5153
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	5153	flat	Martin	PROPN	_	5150
+DF	DF	DF	PROPN	-	5153	flat	Martin	PROPN	-	5150
 <g/>
 </name>
-)	)	)	PUNCT	_	5154	punct	DF	PROPN	_	5153
-26	26	26	NUM	NumType=Card	5155	nummod	Kristian	PROPN	_	5156
+)	)	)	PUNCT	-	5154	punct	DF	PROPN	-	5153
+26	26	26	NUM	NumType=Card	5155	nummod	Kristian	PROPN	-	5156
 <name type="PER">
-Kristian	Kristian	Kristian	PROPN	_	5156	list	Martin	PROPN	_	5150
-Thulesen	Thulesen	Thulesen	PROPN	_	5157	flat	Kristian	PROPN	_	5156
-Dahl	Dahl	Dahl	PROPN	_	5158	flat	Kristian	PROPN	_	5156
+Kristian	Kristian	Kristian	PROPN	-	5156	list	Martin	PROPN	-	5150
+Thulesen	Thulesen	Thulesen	PROPN	-	5157	flat	Kristian	PROPN	-	5156
+Dahl	Dahl	Dahl	PROPN	-	5158	flat	Kristian	PROPN	-	5156
 </name>
-(	(	(	PUNCT	_	5159	punct	DF	PROPN	_	5160
+(	(	(	PUNCT	-	5159	punct	DF	PROPN	-	5160
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	5160	flat	Kristian	PROPN	_	5156
+DF	DF	DF	PROPN	-	5160	flat	Kristian	PROPN	-	5156
 <g/>
 </name>
-)	)	)	PUNCT	_	5161	punct	DF	PROPN	_	5160
-27	27	27	NUM	NumType=Card	5162	nummod	Marie	PROPN	_	5163
+)	)	)	PUNCT	-	5161	punct	DF	PROPN	-	5160
+27	27	27	NUM	NumType=Card	5162	nummod	Marie	PROPN	-	5163
 <name type="PER">
-Marie	Marie	Marie	PROPN	_	5163	list	Kristian	PROPN	_	5156
-Krarup	Krarup	Krarup	PROPN	_	5164	flat	Marie	PROPN	_	5163
+Marie	Marie	Marie	PROPN	-	5163	list	Kristian	PROPN	-	5156
+Krarup	Krarup	Krarup	PROPN	-	5164	flat	Marie	PROPN	-	5163
 </name>
-(	(	(	PUNCT	_	5165	punct	DF	PROPN	_	5166
+(	(	(	PUNCT	-	5165	punct	DF	PROPN	-	5166
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	5166	flat	Marie	PROPN	_	5163
+DF	DF	DF	PROPN	-	5166	flat	Marie	PROPN	-	5163
 <g/>
 </name>
-)	)	)	PUNCT	_	5167	punct	DF	PROPN	_	5166
-28	28	28	NUM	NumType=Card	5168	nummod	Villum	PROPN	_	5169
+)	)	)	PUNCT	-	5167	punct	DF	PROPN	-	5166
+28	28	28	NUM	NumType=Card	5168	nummod	Villum	PROPN	-	5169
 <name type="PER">
-Villum	Villum	Villum	PROPN	_	5169	list	Marie	PROPN	_	5163
-Christensen	Christensen	Christensen	PROPN	_	5170	flat	Villum	PROPN	_	5169
+Villum	Villum	Villum	PROPN	-	5169	list	Marie	PROPN	-	5163
+Christensen	Christensen	Christensen	PROPN	-	5170	flat	Villum	PROPN	-	5169
 </name>
-(	(	(	PUNCT	_	5171	punct	LA	PROPN	_	5172
+(	(	(	PUNCT	-	5171	punct	LA	PROPN	-	5172
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	5172	flat	Villum	PROPN	_	5169
+LA	LA	LA	PROPN	-	5172	flat	Villum	PROPN	-	5169
 <g/>
 </name>
-)	)	)	PUNCT	_	5173	punct	LA	PROPN	_	5172
-29	29	29	NUM	NumType=Card	5174	nummod	Per	PROPN	_	5175
+)	)	)	PUNCT	-	5173	punct	LA	PROPN	-	5172
+29	29	29	NUM	NumType=Card	5174	nummod	Per	PROPN	-	5175
 <name type="PER">
-Per	Per	Per	PROPN	_	5175	list	Villum	PROPN	_	5169
-Stig	Stig	Stig	PROPN	_	5176	flat	Per	PROPN	_	5175
-Møller	Møller	Møller	PROPN	_	5177	flat	Per	PROPN	_	5175
+Per	Per	Per	PROPN	-	5175	list	Villum	PROPN	-	5169
+Stig	Stig	Stig	PROPN	-	5176	flat	Per	PROPN	-	5175
+Møller	Møller	Møller	PROPN	-	5177	flat	Per	PROPN	-	5175
 </name>
-(	(	(	PUNCT	_	5178	punct	KF	PROPN	_	5179
+(	(	(	PUNCT	-	5178	punct	KF	PROPN	-	5179
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	5179	flat	Per	PROPN	_	5175
+KF	KF	KF	PROPN	-	5179	flat	Per	PROPN	-	5175
 <g/>
 </name>
-)	)	)	PUNCT	_	5180	punct	KF	PROPN	_	5179
-Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	5181	list	Per	PROPN	_	5175
+)	)	)	PUNCT	-	5180	punct	KF	PROPN	-	5179
+Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	5181	list	Per	PROPN	-	5175
 <g/>
-:	:	:	PUNCT	_	5182	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	5181
+:	:	:	PUNCT	-	5182	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	5181
 <name type="PER">
-Johan	Johan	Johan	PROPN	_	5183	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	5181
-Lund	Lund	Lund	PROPN	_	5184	flat	Johan	PROPN	_	5183
-Olsen	Olsen	Olsen	PROPN	_	5185	flat	Johan	PROPN	_	5183
+Johan	Johan	Johan	PROPN	-	5183	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	5181
+Lund	Lund	Lund	PROPN	-	5184	flat	Johan	PROPN	-	5183
+Olsen	Olsen	Olsen	PROPN	-	5185	flat	Johan	PROPN	-	5183
 </name>
-(	(	(	PUNCT	_	5186	punct	IA	PROPN	_	5187
+(	(	(	PUNCT	-	5186	punct	IA	PROPN	-	5187
 <g/>
 <name type="ORG">
-IA	IA	IA	PROPN	_	5187	appos	Johan	PROPN	_	5183
+IA	IA	IA	PROPN	-	5187	appos	Johan	PROPN	-	5183
 <g/>
 </name>
-)	)	)	PUNCT	_	5188	punct	IA	PROPN	_	5187
-Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	5189	flat	IA	PROPN	_	5187
+)	)	)	PUNCT	-	5188	punct	IA	PROPN	-	5187
+Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	5189	flat	IA	PROPN	-	5187
 <g/>
-:	:	:	PUNCT	_	5190	punct	IA	PROPN	_	5187
+:	:	:	PUNCT	-	5190	punct	IA	PROPN	-	5187
 <name type="PER">
-Doris	Doris	Doris	PROPN	_	5191	flat	IA	PROPN	_	5187
-Jakobsen	Jakobsen	Jakobsen	PROPN	_	5192	flat	Doris	PROPN	_	5191
+Doris	Doris	Doris	PROPN	-	5191	flat	IA	PROPN	-	5187
+Jakobsen	Jakobsen	Jakobsen	PROPN	-	5192	flat	Doris	PROPN	-	5191
 </name>
-(	(	(	PUNCT	_	5193	punct	IA	PROPN	_	5187
+(	(	(	PUNCT	-	5193	punct	IA	PROPN	-	5187
 <g/>
 <name type="PER">
-SIU	SIU	SIU	PROPN	_	5194	flat	IA	PROPN	_	5187
+SIU	SIU	SIU	PROPN	-	5194	flat	IA	PROPN	-	5187
 <g/>
 </name>
-)	)	)	PUNCT	_	5195	punct	IA	PROPN	_	5187
-Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	5196	list	Johan	PROPN	_	5183
+)	)	)	PUNCT	-	5195	punct	IA	PROPN	-	5187
+Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	5196	list	Johan	PROPN	-	5183
 af	af	af	ADP	AdpType=Prep	5197	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	5199
 29	29	29	NUM	NumType=Card	5198	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	5199
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	5199	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	5196
 til	til	til	ADP	AdpType=Prep	5200	case	færøudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	5201
 Færøudvalget	Færøudvalget	færøudvalg	NOUN	Definite=Def Gender=Neut Number=Sing	5201	nmod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	5199
 <g/>
-:	:	:	PUNCT	_	5202	punct	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	5196
+:	:	:	PUNCT	-	5202	punct	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	5196
 Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	5203	amod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	5196
-blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	5204	cop	Flemming	PROPN	_	5207
+blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	5204	cop	Flemming	PROPN	-	5207
 <g/>
-:	:	:	PUNCT	_	5205	punct	Flemming	PROPN	_	5207
-1	1	1	NUM	NumType=Card	5206	nummod	Flemming	PROPN	_	5207
+:	:	:	PUNCT	-	5205	punct	Flemming	PROPN	-	5207
+1	1	1	NUM	NumType=Card	5206	nummod	Flemming	PROPN	-	5207
 <name type="PER">
-Flemming	Flemming	Flemming	PROPN	_	5207	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	5203
-Møller	Møller	Møller	PROPN	_	5208	flat	Flemming	PROPN	_	5207
-Mortensen	Mortensen	Mortensen	PROPN	_	5209	flat	Flemming	PROPN	_	5207
+Flemming	Flemming	Flemming	PROPN	-	5207	obj	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	5203
+Møller	Møller	Møller	PROPN	-	5208	flat	Flemming	PROPN	-	5207
+Mortensen	Mortensen	Mortensen	PROPN	-	5209	flat	Flemming	PROPN	-	5207
 </name>
-(	(	(	PUNCT	_	5210	punct	S	PROPN	_	5211
+(	(	(	PUNCT	-	5210	punct	S	PROPN	-	5211
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	5211	flat	Flemming	PROPN	_	5207
+S	S	S	PROPN	-	5211	flat	Flemming	PROPN	-	5207
 <g/>
 </name>
-)	)	)	PUNCT	_	5212	punct	S	PROPN	_	5211
-2	2	2	NUM	NumType=Card	5213	nummod	Jesper	PROPN	_	5214
+)	)	)	PUNCT	-	5212	punct	S	PROPN	-	5211
+2	2	2	NUM	NumType=Card	5213	nummod	Jesper	PROPN	-	5214
 <name type="PER">
-Jesper	Jesper	Jesper	PROPN	_	5214	list	Flemming	PROPN	_	5207
-Petersen	Petersen	Petersen	PROPN	_	5215	flat	Jesper	PROPN	_	5214
+Jesper	Jesper	Jesper	PROPN	-	5214	list	Flemming	PROPN	-	5207
+Petersen	Petersen	Petersen	PROPN	-	5215	flat	Jesper	PROPN	-	5214
 </name>
-(	(	(	PUNCT	_	5216	punct	S	PROPN	_	5217
+(	(	(	PUNCT	-	5216	punct	S	PROPN	-	5217
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	5217	flat	Jesper	PROPN	_	5214
+S	S	S	PROPN	-	5217	flat	Jesper	PROPN	-	5214
 <g/>
 </name>
-)	)	)	PUNCT	_	5218	punct	S	PROPN	_	5217
-3	3	3	NUM	NumType=Card	5219	nummod	Karin	PROPN	_	5220
+)	)	)	PUNCT	-	5218	punct	S	PROPN	-	5217
+3	3	3	NUM	NumType=Card	5219	nummod	Karin	PROPN	-	5220
 <name type="PER">
-Karin	Karin	Karin	PROPN	_	5220	list	Jesper	PROPN	_	5214
-Gaardsted	Gaardsted	Gaardsted	PROPN	_	5221	flat	Karin	PROPN	_	5220
+Karin	Karin	Karin	PROPN	-	5220	list	Jesper	PROPN	-	5214
+Gaardsted	Gaardsted	Gaardsted	PROPN	-	5221	flat	Karin	PROPN	-	5220
 </name>
-(	(	(	PUNCT	_	5222	punct	S	PROPN	_	5223
+(	(	(	PUNCT	-	5222	punct	S	PROPN	-	5223
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	5223	list	Karin	PROPN	_	5220
+S	S	S	PROPN	-	5223	list	Karin	PROPN	-	5220
 <g/>
 </name>
-)	)	)	PUNCT	_	5224	punct	S	PROPN	_	5223
-4	4	4	NUM	NumType=Card	5225	nummod	Astrid	PROPN	_	5226
+)	)	)	PUNCT	-	5224	punct	S	PROPN	-	5223
+4	4	4	NUM	NumType=Card	5225	nummod	Astrid	PROPN	-	5226
 <name type="PER">
-Astrid	Astrid	Astrid	PROPN	_	5226	list	S	PROPN	_	5223
-Krag	Krag	Krag	PROPN	_	5227	flat	Astrid	PROPN	_	5226
+Astrid	Astrid	Astrid	PROPN	-	5226	list	S	PROPN	-	5223
+Krag	Krag	Krag	PROPN	-	5227	flat	Astrid	PROPN	-	5226
 </name>
-(	(	(	PUNCT	_	5228	punct	S	PROPN	_	5229
+(	(	(	PUNCT	-	5228	punct	S	PROPN	-	5229
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	5229	flat	Astrid	PROPN	_	5226
+S	S	S	PROPN	-	5229	flat	Astrid	PROPN	-	5226
 <g/>
 </name>
-)	)	)	PUNCT	_	5230	punct	S	PROPN	_	5229
-5	5	5	NUM	NumType=Card	5231	nummod	Thomas	PROPN	_	5232
+)	)	)	PUNCT	-	5230	punct	S	PROPN	-	5229
+5	5	5	NUM	NumType=Card	5231	nummod	Thomas	PROPN	-	5232
 <name type="PER">
-Thomas	Thomas	Thomas	PROPN	_	5232	list	Astrid	PROPN	_	5226
-Jensen	Jensen	Jensen	PROPN	_	5233	flat	Thomas	PROPN	_	5232
+Thomas	Thomas	Thomas	PROPN	-	5232	list	Astrid	PROPN	-	5226
+Jensen	Jensen	Jensen	PROPN	-	5233	flat	Thomas	PROPN	-	5232
 </name>
-(	(	(	PUNCT	_	5234	punct	S	PROPN	_	5235
+(	(	(	PUNCT	-	5234	punct	S	PROPN	-	5235
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	5235	flat	Thomas	PROPN	_	5232
+S	S	S	PROPN	-	5235	flat	Thomas	PROPN	-	5232
 <g/>
 </name>
-)	)	)	PUNCT	_	5236	punct	S	PROPN	_	5235
-6	6	6	NUM	NumType=Card	5237	nummod	Torben	PROPN	_	5238
+)	)	)	PUNCT	-	5236	punct	S	PROPN	-	5235
+6	6	6	NUM	NumType=Card	5237	nummod	Torben	PROPN	-	5238
 <name type="PER">
-Torben	Torben	Torben	PROPN	_	5238	list	Thomas	PROPN	_	5232
-Hansen	Hansen	Hansen	PROPN	_	5239	flat	Torben	PROPN	_	5238
+Torben	Torben	Torben	PROPN	-	5238	list	Thomas	PROPN	-	5232
+Hansen	Hansen	Hansen	PROPN	-	5239	flat	Torben	PROPN	-	5238
 </name>
-(	(	(	PUNCT	_	5240	punct	S	PROPN	_	5241
+(	(	(	PUNCT	-	5240	punct	S	PROPN	-	5241
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	5241	flat	Torben	PROPN	_	5238
+S	S	S	PROPN	-	5241	flat	Torben	PROPN	-	5238
 <g/>
 </name>
-)	)	)	PUNCT	_	5242	punct	S	PROPN	_	5241
-7	7	7	NUM	NumType=Card	5243	nummod	Rasmus	PROPN	_	5244
+)	)	)	PUNCT	-	5242	punct	S	PROPN	-	5241
+7	7	7	NUM	NumType=Card	5243	nummod	Rasmus	PROPN	-	5244
 <name type="PER">
-Rasmus	Rasmus	Rasmus	PROPN	_	5244	list	S	PROPN	_	5241
-Prehn	Prehn	Prehn	PROPN	_	5245	flat	Rasmus	PROPN	_	5244
+Rasmus	Rasmus	Rasmus	PROPN	-	5244	list	S	PROPN	-	5241
+Prehn	Prehn	Prehn	PROPN	-	5245	flat	Rasmus	PROPN	-	5244
 </name>
-(	(	(	PUNCT	_	5246	punct	S	PROPN	_	5247
+(	(	(	PUNCT	-	5246	punct	S	PROPN	-	5247
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	5247	list	Rasmus	PROPN	_	5244
+S	S	S	PROPN	-	5247	list	Rasmus	PROPN	-	5244
 <g/>
 </name>
-)	)	)	PUNCT	_	5248	punct	S	PROPN	_	5247
-8	8	8	NUM	NumType=Card	5249	nummod	Helle	PROPN	_	5250
+)	)	)	PUNCT	-	5248	punct	S	PROPN	-	5247
+8	8	8	NUM	NumType=Card	5249	nummod	Helle	PROPN	-	5250
 <name type="PER">
-Helle	Helle	Helle	PROPN	_	5250	list	S	PROPN	_	5247
-Løvgreen	Løvgreen	Løvgreen	PROPN	_	5251	flat	Helle	PROPN	_	5250
-Mølvig	Mølvig	Mølvigen	PROPN	_	5252	flat	Helle	PROPN	_	5250
+Helle	Helle	Helle	PROPN	-	5250	list	S	PROPN	-	5247
+Løvgreen	Løvgreen	Løvgreen	PROPN	-	5251	flat	Helle	PROPN	-	5250
+Mølvig	Mølvig	Mølvigen	PROPN	-	5252	flat	Helle	PROPN	-	5250
 </name>
-(	(	(	PUNCT	_	5253	punct	RV	PROPN	_	5254
+(	(	(	PUNCT	-	5253	punct	RV	PROPN	-	5254
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	5254	flat	Helle	PROPN	_	5250
+RV	RV	RV	PROPN	-	5254	flat	Helle	PROPN	-	5250
 <g/>
 </name>
-)	)	)	PUNCT	_	5255	punct	RV	PROPN	_	5254
-9	9	9	NUM	NumType=Card	5256	nummod	Lone	PROPN	_	5257
+)	)	)	PUNCT	-	5255	punct	RV	PROPN	-	5254
+9	9	9	NUM	NumType=Card	5256	nummod	Lone	PROPN	-	5257
 <name type="PER">
-Lone	Lone	Lone	PROPN	_	5257	list	Helle	PROPN	_	5250
-Loklindt	Loklindt	Loklindt	PROPN	_	5258	flat	Lone	PROPN	_	5257
+Lone	Lone	Lone	PROPN	-	5257	list	Helle	PROPN	-	5250
+Loklindt	Loklindt	Loklindt	PROPN	-	5258	flat	Lone	PROPN	-	5257
 </name>
-(	(	(	PUNCT	_	5259	punct	RV	PROPN	_	5260
+(	(	(	PUNCT	-	5259	punct	RV	PROPN	-	5260
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	5260	list	Lone	PROPN	_	5257
+RV	RV	RV	PROPN	-	5260	list	Lone	PROPN	-	5257
 <g/>
 </name>
-)	)	)	PUNCT	_	5261	punct	RV	PROPN	_	5260
-10	10	10	NUM	NumType=Card	5262	nummod	Nadeem	PROPN	_	5263
+)	)	)	PUNCT	-	5261	punct	RV	PROPN	-	5260
+10	10	10	NUM	NumType=Card	5262	nummod	Nadeem	PROPN	-	5263
 <name type="PER">
-Nadeem	Nadeem	Nadeem	PROPN	_	5263	flat	RV	PROPN	_	5260
-Farooq	Farooq	Farooq	NOUN	Definite=Ind Gender=Com Number=Sing	5264	flat	RV	PROPN	_	5260
+Nadeem	Nadeem	Nadeem	PROPN	-	5263	flat	RV	PROPN	-	5260
+Farooq	Farooq	Farooq	NOUN	Definite=Ind Gender=Com Number=Sing	5264	flat	RV	PROPN	-	5260
 </name>
-(	(	(	PUNCT	_	5265	punct	RV	PROPN	_	5266
+(	(	(	PUNCT	-	5265	punct	RV	PROPN	-	5266
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	5266	flat	RV	PROPN	_	5260
+RV	RV	RV	PROPN	-	5266	flat	RV	PROPN	-	5260
 <g/>
 </name>
-)	)	)	PUNCT	_	5267	punct	RV	PROPN	_	5266
-11	11	11	NUM	NumType=Card	5268	nummod	Jonas	PROPN	_	5269
+)	)	)	PUNCT	-	5267	punct	RV	PROPN	-	5266
+11	11	11	NUM	NumType=Card	5268	nummod	Jonas	PROPN	-	5269
 <name type="PER">
-Jonas	Jonas	Jonas	PROPN	_	5269	list	RV	PROPN	_	5260
-Dahl	Dahl	Dahl	PROPN	_	5270	flat	Jonas	PROPN	_	5269
+Jonas	Jonas	Jonas	PROPN	-	5269	list	RV	PROPN	-	5260
+Dahl	Dahl	Dahl	PROPN	-	5270	flat	Jonas	PROPN	-	5269
 </name>
-(	(	(	PUNCT	_	5271	punct	SF	PROPN	_	5272
+(	(	(	PUNCT	-	5271	punct	SF	PROPN	-	5272
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	5272	list	Jonas	PROPN	_	5269
+SF	SF	SF	PROPN	-	5272	list	Jonas	PROPN	-	5269
 <g/>
 </name>
-)	)	)	PUNCT	_	5273	punct	SF	PROPN	_	5272
-12	12	12	NUM	NumType=Card	5274	nummod	Özlem	PROPN	_	5275
+)	)	)	PUNCT	-	5273	punct	SF	PROPN	-	5272
+12	12	12	NUM	NumType=Card	5274	nummod	Özlem	PROPN	-	5275
 <name type="PER">
-Özlem	Özlem	Özlem	PROPN	_	5275	list	SF	PROPN	_	5272
-Sara	Sara	Sara	PROPN	_	5276	flat	Özlem	PROPN	_	5275
-Cekic	Cekic	Cekic	PROPN	_	5277	flat	Özlem	PROPN	_	5275
+Özlem	Özlem	Özlem	PROPN	-	5275	list	SF	PROPN	-	5272
+Sara	Sara	Sara	PROPN	-	5276	flat	Özlem	PROPN	-	5275
+Cekic	Cekic	Cekic	PROPN	-	5277	flat	Özlem	PROPN	-	5275
 </name>
-(	(	(	PUNCT	_	5278	punct	SF	PROPN	_	5279
+(	(	(	PUNCT	-	5278	punct	SF	PROPN	-	5279
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	5279	list	Özlem	PROPN	_	5275
+SF	SF	SF	PROPN	-	5279	list	Özlem	PROPN	-	5275
 <g/>
 </name>
-)	)	)	PUNCT	_	5280	punct	SF	PROPN	_	5279
-13	13	13	NUM	NumType=Card	5281	nummod	Finn	PROPN	_	5282
+)	)	)	PUNCT	-	5280	punct	SF	PROPN	-	5279
+13	13	13	NUM	NumType=Card	5281	nummod	Finn	PROPN	-	5282
 <name type="PER">
-Finn	Finn	Finn	PROPN	_	5282	list	SF	PROPN	_	5279
-Sørensen	Sørensen	Sørensen	PROPN	_	5283	flat	Finn	PROPN	_	5282
+Finn	Finn	Finn	PROPN	-	5282	list	SF	PROPN	-	5279
+Sørensen	Sørensen	Sørensen	PROPN	-	5283	flat	Finn	PROPN	-	5282
 </name>
-(	(	(	PUNCT	_	5284	punct	EL	PROPN	_	5285
+(	(	(	PUNCT	-	5284	punct	EL	PROPN	-	5285
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	5285	flat	Finn	PROPN	_	5282
+EL	EL	EL	PROPN	-	5285	flat	Finn	PROPN	-	5282
 <g/>
 </name>
-)	)	)	PUNCT	_	5286	punct	EL	PROPN	_	5285
-14	14	14	NUM	NumType=Card	5287	nummod	Christian	PROPN	_	5288
+)	)	)	PUNCT	-	5286	punct	EL	PROPN	-	5285
+14	14	14	NUM	NumType=Card	5287	nummod	Christian	PROPN	-	5288
 <name type="PER">
-Christian	Christian	Christian	PROPN	_	5288	list	Finn	PROPN	_	5282
-Juhl	Juhl	Juhl	PROPN	_	5289	flat	Christian	PROPN	_	5288
+Christian	Christian	Christian	PROPN	-	5288	list	Finn	PROPN	-	5282
+Juhl	Juhl	Juhl	PROPN	-	5289	flat	Christian	PROPN	-	5288
 </name>
-(	(	(	PUNCT	_	5290	punct	EL	PROPN	_	5291
+(	(	(	PUNCT	-	5290	punct	EL	PROPN	-	5291
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	5291	flat	Christian	PROPN	_	5288
+EL	EL	EL	PROPN	-	5291	flat	Christian	PROPN	-	5288
 <g/>
 </name>
-)	)	)	PUNCT	_	5292	punct	EL	PROPN	_	5291
-15	15	15	NUM	NumType=Card	5293	nummod	Sjúrður	PROPN	_	5294
+)	)	)	PUNCT	-	5292	punct	EL	PROPN	-	5291
+15	15	15	NUM	NumType=Card	5293	nummod	Sjúrður	PROPN	-	5294
 <name type="PER">
-Sjúrður	Sjúrður	Sjúrður	PROPN	_	5294	list	Christian	PROPN	_	5288
-Skaale	Skaale	Skaale	PROPN	_	5295	flat	Sjúrður	PROPN	_	5294
+Sjúrður	Sjúrður	Sjúrður	PROPN	-	5294	list	Christian	PROPN	-	5288
+Skaale	Skaale	Skaale	PROPN	-	5295	flat	Sjúrður	PROPN	-	5294
 </name>
-(	(	(	PUNCT	_	5296	punct	JF	PROPN	_	5297
+(	(	(	PUNCT	-	5296	punct	JF	PROPN	-	5297
 <g/>
 <name type="ORG">
-JF	JF	JF	PROPN	_	5297	list	Sjúrður	PROPN	_	5294
+JF	JF	JF	PROPN	-	5297	list	Sjúrður	PROPN	-	5294
 <g/>
 </name>
-)	)	)	PUNCT	_	5298	punct	JF	PROPN	_	5297
-16	16	16	NUM	NumType=Card	5299	nummod	Kim	PROPN	_	5300
+)	)	)	PUNCT	-	5298	punct	JF	PROPN	-	5297
+16	16	16	NUM	NumType=Card	5299	nummod	Kim	PROPN	-	5300
 <name type="PER">
-Kim	Kim	Kim	PROPN	_	5300	list	JF	PROPN	_	5297
-Andersen	Andersen	Andersen	PROPN	_	5301	flat	Kim	PROPN	_	5300
+Kim	Kim	Kim	PROPN	-	5300	list	JF	PROPN	-	5297
+Andersen	Andersen	Andersen	PROPN	-	5301	flat	Kim	PROPN	-	5300
 </name>
-(	(	(	PUNCT	_	5302	punct	V	PROPN	_	5303
+(	(	(	PUNCT	-	5302	punct	V	PROPN	-	5303
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	5303	flat	Kim	PROPN	_	5300
+V	V	V	PROPN	-	5303	flat	Kim	PROPN	-	5300
 <g/>
 </name>
-)	)	)	PUNCT	_	5304	punct	V	PROPN	_	5303
-17	17	17	NUM	NumType=Card	5305	nummod	Claus	PROPN	_	5306
+)	)	)	PUNCT	-	5304	punct	V	PROPN	-	5303
+17	17	17	NUM	NumType=Card	5305	nummod	Claus	PROPN	-	5306
 <name type="PER">
-Claus	Claus	Claus	PROPN	_	5306	list	Kim	PROPN	_	5300
-Hjort	Hjort	Hjort	PROPN	_	5307	flat	Claus	PROPN	_	5306
-Frederiksen	Frederiksen	Frederiksen	PROPN	_	5308	flat	Claus	PROPN	_	5306
+Claus	Claus	Claus	PROPN	-	5306	list	Kim	PROPN	-	5300
+Hjort	Hjort	Hjort	PROPN	-	5307	flat	Claus	PROPN	-	5306
+Frederiksen	Frederiksen	Frederiksen	PROPN	-	5308	flat	Claus	PROPN	-	5306
 </name>
-(	(	(	PUNCT	_	5309	punct	V	PROPN	_	5310
+(	(	(	PUNCT	-	5309	punct	V	PROPN	-	5310
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	5310	flat	Claus	PROPN	_	5306
+V	V	V	PROPN	-	5310	flat	Claus	PROPN	-	5306
 <g/>
 </name>
-)	)	)	PUNCT	_	5311	punct	V	PROPN	_	5310
-18	18	18	NUM	NumType=Card	5312	nummod	Thomas	PROPN	_	5313
+)	)	)	PUNCT	-	5311	punct	V	PROPN	-	5310
+18	18	18	NUM	NumType=Card	5312	nummod	Thomas	PROPN	-	5313
 <name type="PER">
-Thomas	Thomas	Thomas	PROPN	_	5313	list	Claus	PROPN	_	5306
-Danielsen	Danielsen	Danielsen	PROPN	_	5314	flat	Thomas	PROPN	_	5313
+Thomas	Thomas	Thomas	PROPN	-	5313	list	Claus	PROPN	-	5306
+Danielsen	Danielsen	Danielsen	PROPN	-	5314	flat	Thomas	PROPN	-	5313
 </name>
-(	(	(	PUNCT	_	5315	punct	V	PROPN	_	5316
+(	(	(	PUNCT	-	5315	punct	V	PROPN	-	5316
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	5316	flat	Thomas	PROPN	_	5313
+V	V	V	PROPN	-	5316	flat	Thomas	PROPN	-	5313
 <g/>
 </name>
-)	)	)	PUNCT	_	5317	punct	V	PROPN	_	5316
-19	19	19	NUM	NumType=Card	5318	nummod	Kristian	PROPN	_	5319
+)	)	)	PUNCT	-	5317	punct	V	PROPN	-	5316
+19	19	19	NUM	NumType=Card	5318	nummod	Kristian	PROPN	-	5319
 <name type="PER">
-Kristian	Kristian	Kristian	PROPN	_	5319	list	Thomas	PROPN	_	5313
-Jensen	Jensen	Jensen	PROPN	_	5320	flat	Kristian	PROPN	_	5319
+Kristian	Kristian	Kristian	PROPN	-	5319	list	Thomas	PROPN	-	5313
+Jensen	Jensen	Jensen	PROPN	-	5320	flat	Kristian	PROPN	-	5319
 </name>
-(	(	(	PUNCT	_	5321	punct	V	PROPN	_	5322
+(	(	(	PUNCT	-	5321	punct	V	PROPN	-	5322
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	5322	flat	Kristian	PROPN	_	5319
+V	V	V	PROPN	-	5322	flat	Kristian	PROPN	-	5319
 <g/>
 </name>
-)	)	)	PUNCT	_	5323	punct	V	PROPN	_	5322
-20	20	20	NUM	NumType=Card	5324	nummod	Flemming	PROPN	_	5325
+)	)	)	PUNCT	-	5323	punct	V	PROPN	-	5322
+20	20	20	NUM	NumType=Card	5324	nummod	Flemming	PROPN	-	5325
 <name type="PER">
-Flemming	Flemming	Flemming	PROPN	_	5325	list	Kristian	PROPN	_	5319
-Damgaard	Damgaard	Damgaard	PROPN	_	5326	flat	Flemming	PROPN	_	5325
-Larsen	Larsen	Larsen	PROPN	_	5327	flat	Flemming	PROPN	_	5325
+Flemming	Flemming	Flemming	PROPN	-	5325	list	Kristian	PROPN	-	5319
+Damgaard	Damgaard	Damgaard	PROPN	-	5326	flat	Flemming	PROPN	-	5325
+Larsen	Larsen	Larsen	PROPN	-	5327	flat	Flemming	PROPN	-	5325
 </name>
-(	(	(	PUNCT	_	5328	punct	V	PROPN	_	5329
+(	(	(	PUNCT	-	5328	punct	V	PROPN	-	5329
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	5329	flat	Flemming	PROPN	_	5325
+V	V	V	PROPN	-	5329	flat	Flemming	PROPN	-	5325
 <g/>
 </name>
-)	)	)	PUNCT	_	5330	punct	V	PROPN	_	5329
-21	21	21	NUM	NumType=Card	5331	nummod	Sophie	PROPN	_	5332
+)	)	)	PUNCT	-	5330	punct	V	PROPN	-	5329
+21	21	21	NUM	NumType=Card	5331	nummod	Sophie	PROPN	-	5332
 <name type="PER">
-Sophie	Sophie	Sophie	PROPN	_	5332	list	Flemming	PROPN	_	5325
-Løhde	Løhde	Løhde	NOUN	Definite=Ind Gender=Com Number=Sing	5333	flat	Sophie	PROPN	_	5332
+Sophie	Sophie	Sophie	PROPN	-	5332	list	Flemming	PROPN	-	5325
+Løhde	Løhde	Løhde	NOUN	Definite=Ind Gender=Com Number=Sing	5333	flat	Sophie	PROPN	-	5332
 </name>
-(	(	(	PUNCT	_	5334	punct	V	PROPN	_	5335
+(	(	(	PUNCT	-	5334	punct	V	PROPN	-	5335
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	5335	flat	Sophie	PROPN	_	5332
+V	V	V	PROPN	-	5335	flat	Sophie	PROPN	-	5332
 <g/>
 </name>
-)	)	)	PUNCT	_	5336	punct	V	PROPN	_	5335
-22	22	22	NUM	NumType=Card	5337	nummod	Finn	PROPN	_	5338
+)	)	)	PUNCT	-	5336	punct	V	PROPN	-	5335
+22	22	22	NUM	NumType=Card	5337	nummod	Finn	PROPN	-	5338
 <name type="PER">
-Finn	Finn	Finn	PROPN	_	5338	list	Sophie	PROPN	_	5332
-Thranum	Thranum	Thranum	PROPN	_	5339	flat	Finn	PROPN	_	5338
+Finn	Finn	Finn	PROPN	-	5338	list	Sophie	PROPN	-	5332
+Thranum	Thranum	Thranum	PROPN	-	5339	flat	Finn	PROPN	-	5338
 </name>
-(	(	(	PUNCT	_	5340	punct	V	PROPN	_	5341
+(	(	(	PUNCT	-	5340	punct	V	PROPN	-	5341
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	5341	flat	Finn	PROPN	_	5338
+V	V	V	PROPN	-	5341	flat	Finn	PROPN	-	5338
 <g/>
 </name>
-)	)	)	PUNCT	_	5342	punct	V	PROPN	_	5341
-23	23	23	NUM	NumType=Card	5343	nummod	Søren	PROPN	_	5344
+)	)	)	PUNCT	-	5342	punct	V	PROPN	-	5341
+23	23	23	NUM	NumType=Card	5343	nummod	Søren	PROPN	-	5344
 <name type="PER">
-Søren	Søren	Søren	PROPN	_	5344	list	Finn	PROPN	_	5338
-Espersen	Espersen	Espersen	PROPN	_	5345	flat	Søren	PROPN	_	5344
+Søren	Søren	Søren	PROPN	-	5344	list	Finn	PROPN	-	5338
+Espersen	Espersen	Espersen	PROPN	-	5345	flat	Søren	PROPN	-	5344
 </name>
-(	(	(	PUNCT	_	5346	punct	DF	PROPN	_	5347
+(	(	(	PUNCT	-	5346	punct	DF	PROPN	-	5347
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	5347	flat	Søren	PROPN	_	5344
+DF	DF	DF	PROPN	-	5347	flat	Søren	PROPN	-	5344
 <g/>
 </name>
-)	)	)	PUNCT	_	5348	punct	DF	PROPN	_	5347
-24	24	24	NUM	NumType=Card	5349	nummod	Martin	PROPN	_	5350
+)	)	)	PUNCT	-	5348	punct	DF	PROPN	-	5347
+24	24	24	NUM	NumType=Card	5349	nummod	Martin	PROPN	-	5350
 <name type="PER">
-Martin	Martin	Martin	PROPN	_	5350	list	Søren	PROPN	_	5344
-Henriksen	Henriksen	Henriksen	PROPN	_	5351	flat	Martin	PROPN	_	5350
+Martin	Martin	Martin	PROPN	-	5350	list	Søren	PROPN	-	5344
+Henriksen	Henriksen	Henriksen	PROPN	-	5351	flat	Martin	PROPN	-	5350
 </name>
-(	(	(	PUNCT	_	5352	punct	DF	PROPN	_	5353
+(	(	(	PUNCT	-	5352	punct	DF	PROPN	-	5353
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	5353	flat	Martin	PROPN	_	5350
+DF	DF	DF	PROPN	-	5353	flat	Martin	PROPN	-	5350
 <g/>
 </name>
-)	)	)	PUNCT	_	5354	punct	DF	PROPN	_	5353
-25	25	25	NUM	NumType=Card	5355	nummod	Kristian	PROPN	_	5356
+)	)	)	PUNCT	-	5354	punct	DF	PROPN	-	5353
+25	25	25	NUM	NumType=Card	5355	nummod	Kristian	PROPN	-	5356
 <name type="PER">
-Kristian	Kristian	Kristian	PROPN	_	5356	list	Martin	PROPN	_	5350
-Thulesen	Thulesen	Thulesen	PROPN	_	5357	flat	Kristian	PROPN	_	5356
-Dahl	Dahl	Dahl	PROPN	_	5358	flat	Kristian	PROPN	_	5356
+Kristian	Kristian	Kristian	PROPN	-	5356	list	Martin	PROPN	-	5350
+Thulesen	Thulesen	Thulesen	PROPN	-	5357	flat	Kristian	PROPN	-	5356
+Dahl	Dahl	Dahl	PROPN	-	5358	flat	Kristian	PROPN	-	5356
 </name>
-(	(	(	PUNCT	_	5359	punct	DF	PROPN	_	5360
+(	(	(	PUNCT	-	5359	punct	DF	PROPN	-	5360
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	5360	list	Kristian	PROPN	_	5356
+DF	DF	DF	PROPN	-	5360	list	Kristian	PROPN	-	5356
 <g/>
 </name>
-)	)	)	PUNCT	_	5361	punct	DF	PROPN	_	5360
-26	26	26	NUM	NumType=Card	5362	nummod	Marie	PROPN	_	5363
+)	)	)	PUNCT	-	5361	punct	DF	PROPN	-	5360
+26	26	26	NUM	NumType=Card	5362	nummod	Marie	PROPN	-	5363
 <name type="PER">
-Marie	Marie	Marie	PROPN	_	5363	list	DF	PROPN	_	5360
-Krarup	Krarup	Krarup	PROPN	_	5364	flat	Marie	PROPN	_	5363
+Marie	Marie	Marie	PROPN	-	5363	list	DF	PROPN	-	5360
+Krarup	Krarup	Krarup	PROPN	-	5364	flat	Marie	PROPN	-	5363
 </name>
-(	(	(	PUNCT	_	5365	punct	DF	PROPN	_	5366
+(	(	(	PUNCT	-	5365	punct	DF	PROPN	-	5366
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	5366	flat	Marie	PROPN	_	5363
+DF	DF	DF	PROPN	-	5366	flat	Marie	PROPN	-	5363
 <g/>
 </name>
-)	)	)	PUNCT	_	5367	punct	DF	PROPN	_	5366
-27	27	27	NUM	NumType=Card	5368	nummod	Villum	PROPN	_	5369
+)	)	)	PUNCT	-	5367	punct	DF	PROPN	-	5366
+27	27	27	NUM	NumType=Card	5368	nummod	Villum	PROPN	-	5369
 <name type="PER">
-Villum	Villum	Villum	PROPN	_	5369	list	Marie	PROPN	_	5363
-Christensen	Christensen	Christensen	PROPN	_	5370	flat	Villum	PROPN	_	5369
+Villum	Villum	Villum	PROPN	-	5369	list	Marie	PROPN	-	5363
+Christensen	Christensen	Christensen	PROPN	-	5370	flat	Villum	PROPN	-	5369
 </name>
-(	(	(	PUNCT	_	5371	punct	LA	PROPN	_	5372
+(	(	(	PUNCT	-	5371	punct	LA	PROPN	-	5372
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	5372	flat	Villum	PROPN	_	5369
+LA	LA	LA	PROPN	-	5372	flat	Villum	PROPN	-	5369
 <g/>
 </name>
-)	)	)	PUNCT	_	5373	punct	LA	PROPN	_	5372
-28	28	28	NUM	NumType=Card	5374	nummod	Per	PROPN	_	5375
+)	)	)	PUNCT	-	5373	punct	LA	PROPN	-	5372
+28	28	28	NUM	NumType=Card	5374	nummod	Per	PROPN	-	5375
 <name type="PER">
-Per	Per	Per	PROPN	_	5375	list	DF	PROPN	_	5360
-Stig	Stig	Stig	PROPN	_	5376	flat	Per	PROPN	_	5375
-Møller	Møller	Møller	PROPN	_	5377	flat	Per	PROPN	_	5375
+Per	Per	Per	PROPN	-	5375	list	DF	PROPN	-	5360
+Stig	Stig	Stig	PROPN	-	5376	flat	Per	PROPN	-	5375
+Møller	Møller	Møller	PROPN	-	5377	flat	Per	PROPN	-	5375
 </name>
-(	(	(	PUNCT	_	5378	punct	KF	PROPN	_	5379
+(	(	(	PUNCT	-	5378	punct	KF	PROPN	-	5379
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	5379	flat	Per	PROPN	_	5375
+KF	KF	KF	PROPN	-	5379	flat	Per	PROPN	-	5375
 <g/>
 </name>
-)	)	)	PUNCT	_	5380	punct	KF	PROPN	_	5379
-29	29	29	NUM	NumType=Card	5381	nummod	Edmund	PROPN	_	5382
+)	)	)	PUNCT	-	5380	punct	KF	PROPN	-	5379
+29	29	29	NUM	NumType=Card	5381	nummod	Edmund	PROPN	-	5382
 <name type="PER">
-Edmund	Edmund	Edmund	PROPN	_	5382	list	Per	PROPN	_	5375
-Joensen	Joensen	Joensen	PROPN	_	5383	flat	Edmund	PROPN	_	5382
+Edmund	Edmund	Edmund	PROPN	-	5382	list	Per	PROPN	-	5375
+Joensen	Joensen	Joensen	PROPN	-	5383	flat	Edmund	PROPN	-	5382
 </name>
-(	(	(	PUNCT	_	5384	punct	SP	PROPN	_	5385
+(	(	(	PUNCT	-	5384	punct	SP	PROPN	-	5385
 <g/>
 <name type="ORG">
-SP	SP	SP	PROPN	_	5385	flat	Edmund	PROPN	_	5382
+SP	SP	SP	PROPN	-	5385	flat	Edmund	PROPN	-	5382
 <g/>
 </name>
-)	)	)	PUNCT	_	5386	punct	SP	PROPN	_	5385
-Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	5387	list	Edmund	PROPN	_	5382
+)	)	)	PUNCT	-	5386	punct	SP	PROPN	-	5385
+Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	5387	list	Edmund	PROPN	-	5382
 <g/>
-:	:	:	PUNCT	_	5388	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	5387
+:	:	:	PUNCT	-	5388	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	5387
 <name type="PER">
-Sjúrður	Sjúrður	Sjúrður	PROPN	_	5389	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	5387
-Skaale	Skaale	Skaale	PROPN	_	5390	flat	Sjúrður	PROPN	_	5389
+Sjúrður	Sjúrður	Sjúrður	PROPN	-	5389	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	5387
+Skaale	Skaale	Skaale	PROPN	-	5390	flat	Sjúrður	PROPN	-	5389
 </name>
-(	(	(	PUNCT	_	5391	punct	JF	PROPN	_	5392
+(	(	(	PUNCT	-	5391	punct	JF	PROPN	-	5392
 <g/>
 <name type="ORG">
-JF	JF	JF	PROPN	_	5392	flat	Sjúrður	PROPN	_	5389
+JF	JF	JF	PROPN	-	5392	flat	Sjúrður	PROPN	-	5389
 <g/>
 </name>
-)	)	)	PUNCT	_	5393	punct	JF	PROPN	_	5392
-Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	5394	list	Sjúrður	PROPN	_	5389
+)	)	)	PUNCT	-	5393	punct	JF	PROPN	-	5392
+Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	5394	list	Sjúrður	PROPN	-	5389
 <g/>
-:	:	:	PUNCT	_	5395	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	5394
+:	:	:	PUNCT	-	5395	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	5394
 <name type="PER">
-Edmund	Edmund	Edmund	PROPN	_	5396	appos	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	5394
-Joensen	Joensen	Joensen	PROPN	_	5397	flat	Edmund	PROPN	_	5396
+Edmund	Edmund	Edmund	PROPN	-	5396	appos	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	5394
+Joensen	Joensen	Joensen	PROPN	-	5397	flat	Edmund	PROPN	-	5396
 </name>
-(	(	(	PUNCT	_	5398	punct	SP	PROPN	_	5399
+(	(	(	PUNCT	-	5398	punct	SP	PROPN	-	5399
 <g/>
 <name type="ORG">
-SP	SP	SP	PROPN	_	5399	flat	Edmund	PROPN	_	5396
+SP	SP	SP	PROPN	-	5399	flat	Edmund	PROPN	-	5396
 <g/>
 </name>
-)	)	)	PUNCT	_	5400	punct	SP	PROPN	_	5399
-Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	5401	flat	Edmund	PROPN	_	5396
+)	)	)	PUNCT	-	5400	punct	SP	PROPN	-	5399
+Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	5401	flat	Edmund	PROPN	-	5396
 af	af	af	ADP	AdpType=Prep	5402	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	5404
 2	2	2	NUM	NumType=Card	5403	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	5404
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	5404	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	5401
@@ -12262,56 +12262,56 @@ føre	føre	føre	VERB	VerbForm=Inf Voice=Act	5407	advcl	valg	NOUN	Definite=Ind 
 tilsyn	tilsyn	tilsyn	NOUN	Definite=Ind Gender=Neut Number=Sing	5408	obj	føre	VERB	VerbForm=Inf Voice=Act	5407
 med	med	med	ADP	AdpType=Prep	5409	case	bibliotek	NOUN	Definite=Ind Gender=Neut Number=Sing	5411
 <name type="ORG">
-Folketingets	Folketingets	Folketing	NOUN	Case=Gen Definite=Def Gender=Neut Number=Sing	5410	nmod_poss	bibliotek	NOUN	Definite=Ind Gender=Neut Number=Sing	5411
+Folketingets	Folketingets	Folketing	NOUN	Case=Gen Definite=Def Gender=Neut Number=Sing	5410	nmod:poss	bibliotek	NOUN	Definite=Ind Gender=Neut Number=Sing	5411
 </name>
 Bibliotek	Bibliotek	bibliotek	NOUN	Definite=Ind Gender=Neut Number=Sing	5411	obl	føre	VERB	VerbForm=Inf Voice=Act	5407
 <g/>
-:	:	:	PUNCT	_	5412	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	5394
-Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	5413	acl_relcl	Troels	PROPN	_	5417
-blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	5414	cop	Troels	PROPN	_	5417
+:	:	:	PUNCT	-	5412	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	5394
+Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	5413	acl:relcl	Troels	PROPN	-	5417
+blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	5414	cop	Troels	PROPN	-	5417
 <g/>
-:	:	:	PUNCT	_	5415	punct	Troels	PROPN	_	5417
-1	1	1	NUM	NumType=Card	5416	nummod	Troels	PROPN	_	5417
+:	:	:	PUNCT	-	5415	punct	Troels	PROPN	-	5417
+1	1	1	NUM	NumType=Card	5416	nummod	Troels	PROPN	-	5417
 <name type="PER">
-Troels	Troels	Troels	PROPN	_	5417	list	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	5394
-Ravn	Ravn	Ravn	PROPN	_	5418	flat	Troels	PROPN	_	5417
+Troels	Troels	Troels	PROPN	-	5417	list	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	5394
+Ravn	Ravn	Ravn	PROPN	-	5418	flat	Troels	PROPN	-	5417
 </name>
-(	(	(	PUNCT	_	5419	punct	S	PROPN	_	5420
+(	(	(	PUNCT	-	5419	punct	S	PROPN	-	5420
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	5420	flat	Troels	PROPN	_	5417
+S	S	S	PROPN	-	5420	flat	Troels	PROPN	-	5417
 <g/>
 </name>
-)	)	)	PUNCT	_	5421	punct	S	PROPN	_	5420
-2	2	2	NUM	NumType=Card	5422	nummod	Birthe	PROPN	_	5423
+)	)	)	PUNCT	-	5421	punct	S	PROPN	-	5420
+2	2	2	NUM	NumType=Card	5422	nummod	Birthe	PROPN	-	5423
 <name type="PER">
-Birthe	Birthe	Birthe	PROPN	_	5423	list	Troels	PROPN	_	5417
-Rønn	Rønn	Rønn	PROPN	_	5424	flat	Birthe	PROPN	_	5423
-Hornbech	Hornbech	Hornbech	PROPN	_	5425	flat	Birthe	PROPN	_	5423
+Birthe	Birthe	Birthe	PROPN	-	5423	list	Troels	PROPN	-	5417
+Rønn	Rønn	Rønn	PROPN	-	5424	flat	Birthe	PROPN	-	5423
+Hornbech	Hornbech	Hornbech	PROPN	-	5425	flat	Birthe	PROPN	-	5423
 </name>
-(	(	(	PUNCT	_	5426	punct	V	PROPN	_	5427
+(	(	(	PUNCT	-	5426	punct	V	PROPN	-	5427
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	5427	flat	Birthe	PROPN	_	5423
+V	V	V	PROPN	-	5427	flat	Birthe	PROPN	-	5423
 <g/>
 </name>
-)	)	)	PUNCT	_	5428	punct	V	PROPN	_	5427
-Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	5429	nmod_poss	den	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	5434
+)	)	)	PUNCT	-	5428	punct	V	PROPN	-	5427
+Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	5429	nmod:poss	den	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	5434
 af	af	af	ADP	AdpType=Prep	5430	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	5432
 9	9	9	NUM	NumType=Card	5431	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	5432
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	5432	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	5429
 til	til	til	ADP	AdpType=Prep	5433	case	den	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	5434
-det	det	den	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	5434	list	Birthe	PROPN	_	5423
+det	det	den	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	5434	list	Birthe	PROPN	-	5423
 i	i	i	ADP	AdpType=Prep	5435	case	grundlov	NOUN	Case=Gen Definite=Def Gender=Com Number=Sing	5436
 grundlovens	grundlovens	grundlov	NOUN	Case=Gen Definite=Def Gender=Com Number=Sing	5436	nmod	den	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	5434
-§	§	§	SYM	_	5437	punct	Troels	PROPN	_	5417
+§	§	§	SYM	-	5437	punct	Troels	PROPN	-	5417
 71	71	71	NUM	NumType=Card	5438	nummod	stk.	NOUN	Definite=Ind Gender=Neut Number=Sing	5440
 <g/>
-,	,	,	PUNCT	_	5439	punct	stk.	NOUN	Definite=Ind Gender=Neut Number=Sing	5440
-stk.	stk.	stk.	NOUN	Definite=Ind Gender=Neut Number=Sing	5440	nmod_poss	grundlov	NOUN	Case=Gen Definite=Def Gender=Com Number=Sing	5436
+,	,	,	PUNCT	-	5439	punct	stk.	NOUN	Definite=Ind Gender=Neut Number=Sing	5440
+stk.	stk.	stk.	NOUN	Definite=Ind Gender=Neut Number=Sing	5440	nmod:poss	grundlov	NOUN	Case=Gen Definite=Def Gender=Com Number=Sing	5436
 7	7	7	NUM	NumType=Card	5441	nmod	stk.	NOUN	Definite=Ind Gender=Neut Number=Sing	5440
 <g/>
-,	,	,	PUNCT	_	5442	punct	stk.	NOUN	Definite=Ind Gender=Neut Number=Sing	5440
+,	,	,	PUNCT	-	5442	punct	stk.	NOUN	Definite=Ind Gender=Neut Number=Sing	5440
 omhandlede	omhandlede	omhandle	VERB	Definite=Def Number=Sing Tense=Past VerbForm=Part	5443	amod	tilsyn	NOUN	Definite=Ind Gender=Neut Number=Sing	5444
 tilsyn	tilsyn	tilsyn	NOUN	Definite=Ind Gender=Neut Number=Sing	5444	nmod	stk.	NOUN	Definite=Ind Gender=Neut Number=Sing	5440
 med	med	med	ADP	AdpType=Prep	5445	case	behandling	NOUN	Definite=Def Gender=Com Number=Sing	5446
@@ -12319,176 +12319,176 @@ behandlingen	behandlingen	behandling	NOUN	Definite=Def Gender=Com Number=Sing	54
 af	af	af	ADP	AdpType=Prep	5447	case	person	NOUN	Definite=Ind Gender=Com Number=Plur	5448
 personer	personer	person	NOUN	Definite=Ind Gender=Com Number=Plur	5448	nmod	behandling	NOUN	Definite=Def Gender=Com Number=Sing	5446
 <g/>
-,	,	,	PUNCT	_	5449	punct	tilsyn	NOUN	Definite=Ind Gender=Neut Number=Sing	5444
+,	,	,	PUNCT	-	5449	punct	tilsyn	NOUN	Definite=Ind Gender=Neut Number=Sing	5444
 som	som	som	PRON	PartType=Inf	5450	nsubj	underkaste	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	5452
 er	er	være	AUX	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	5451	aux	underkaste	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	5452
-underkastet	underkastet	underkaste	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	5452	acl_relcl	tilsyn	NOUN	Definite=Ind Gender=Neut Number=Sing	5444
+underkastet	underkastet	underkaste	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	5452	acl:relcl	tilsyn	NOUN	Definite=Ind Gender=Neut Number=Sing	5444
 frihedsberøvelse	frihedsberøvelse	frihedsberøvelse	NOUN	Definite=Ind Gender=Com Number=Sing	5453	obj	underkaste	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	5452
 af	af	af	ADP	AdpType=Prep	5454	case	den	PRON	Case=Acc Gender=Com Number=Sing Person=3 PronType=Prs	5455
 den	den	den	PRON	Case=Acc Gender=Com Number=Sing Person=3 PronType=Prs	5455	nmod	frihedsberøvelse	NOUN	Definite=Ind Gender=Com Number=Sing	5453
 i	i	i	ADP	AdpType=Prep	5456	case	grundlov	NOUN	Case=Gen Definite=Def Gender=Com Number=Sing	5457
 grundlovens	grundlovens	grundlov	NOUN	Case=Gen Definite=Def Gender=Com Number=Sing	5457	obl	underkaste	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	5452
-§	§	§	SYM	_	5458	punct	stk.	NOUN	Definite=Ind Gender=Neut Number=Sing	5461
+§	§	§	SYM	-	5458	punct	stk.	NOUN	Definite=Ind Gender=Neut Number=Sing	5461
 71	71	71	NUM	NumType=Card	5459	nummod	stk.	NOUN	Definite=Ind Gender=Neut Number=Sing	5461
 <g/>
-,	,	,	PUNCT	_	5460	punct	stk.	NOUN	Definite=Ind Gender=Neut Number=Sing	5461
-stk.	stk.	stk.	NOUN	Definite=Ind Gender=Neut Number=Sing	5461	nmod_poss	grundlov	NOUN	Case=Gen Definite=Def Gender=Com Number=Sing	5457
+,	,	,	PUNCT	-	5460	punct	stk.	NOUN	Definite=Ind Gender=Neut Number=Sing	5461
+stk.	stk.	stk.	NOUN	Definite=Ind Gender=Neut Number=Sing	5461	nmod:poss	grundlov	NOUN	Case=Gen Definite=Def Gender=Com Number=Sing	5457
 6	6	6	NUM	NumType=Card	5462	nmod	stk.	NOUN	Definite=Ind Gender=Neut Number=Sing	5461
 <g/>
-,	,	,	PUNCT	_	5463	punct	stk.	NOUN	Definite=Ind Gender=Neut Number=Sing	5461
+,	,	,	PUNCT	-	5463	punct	stk.	NOUN	Definite=Ind Gender=Neut Number=Sing	5461
 omhandlede	omhandlede	omhandle	VERB	Definite=Def Number=Sing Tense=Past VerbForm=Part	5464	amod	art	NOUN	Definite=Ind Gender=Com Number=Sing	5465
 art	art	art	NOUN	Definite=Ind Gender=Com Number=Sing	5465	nmod	stk.	NOUN	Definite=Ind Gender=Neut Number=Sing	5461
 <g/>
-:	:	:	PUNCT	_	5466	punct	art	NOUN	Definite=Ind Gender=Com Number=Sing	5465
-Valgt	Valgt	valgt	NOUN	Definite=Ind Gender=Com Number=Sing	5467	nmod	Karen	PROPN	_	5471
-blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	5468	cop	Karen	PROPN	_	5471
+:	:	:	PUNCT	-	5466	punct	art	NOUN	Definite=Ind Gender=Com Number=Sing	5465
+Valgt	Valgt	valgt	NOUN	Definite=Ind Gender=Com Number=Sing	5467	nmod	Karen	PROPN	-	5471
+blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	5468	cop	Karen	PROPN	-	5471
 <g/>
-:	:	:	PUNCT	_	5469	punct	Karen	PROPN	_	5471
-1	1	1	NUM	NumType=Card	5470	nummod	Karen	PROPN	_	5471
+:	:	:	PUNCT	-	5469	punct	Karen	PROPN	-	5471
+1	1	1	NUM	NumType=Card	5470	nummod	Karen	PROPN	-	5471
 <name type="PER">
-Karen	Karen	Karen	PROPN	_	5471	appos	art	NOUN	Definite=Ind Gender=Com Number=Sing	5465
-J.	J.	J.	PROPN	_	5472	flat	Karen	PROPN	_	5471
-Klint	Klint	Klint	PROPN	_	5473	flat	Karen	PROPN	_	5471
+Karen	Karen	Karen	PROPN	-	5471	appos	art	NOUN	Definite=Ind Gender=Com Number=Sing	5465
+J.	J.	J.	PROPN	-	5472	flat	Karen	PROPN	-	5471
+Klint	Klint	Klint	PROPN	-	5473	flat	Karen	PROPN	-	5471
 </name>
-(	(	(	PUNCT	_	5474	punct	S	PROPN	_	5475
+(	(	(	PUNCT	-	5474	punct	S	PROPN	-	5475
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	5475	flat	Karen	PROPN	_	5471
+S	S	S	PROPN	-	5475	flat	Karen	PROPN	-	5471
 <g/>
 </name>
-)	)	)	PUNCT	_	5476	punct	S	PROPN	_	5475
-2	2	2	NUM	NumType=Card	5477	nummod	Orla	PROPN	_	5478
+)	)	)	PUNCT	-	5476	punct	S	PROPN	-	5475
+2	2	2	NUM	NumType=Card	5477	nummod	Orla	PROPN	-	5478
 <name type="PER">
-Orla	Orla	Orla	PROPN	_	5478	list	Karen	PROPN	_	5471
-Hav	Hav	Hav	PROPN	_	5479	flat	Orla	PROPN	_	5478
+Orla	Orla	Orla	PROPN	-	5478	list	Karen	PROPN	-	5471
+Hav	Hav	Hav	PROPN	-	5479	flat	Orla	PROPN	-	5478
 </name>
-(	(	(	PUNCT	_	5480	punct	S	PROPN	_	5481
+(	(	(	PUNCT	-	5480	punct	S	PROPN	-	5481
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	5481	list	Orla	PROPN	_	5478
+S	S	S	PROPN	-	5481	list	Orla	PROPN	-	5478
 <g/>
 </name>
-)	)	)	PUNCT	_	5482	punct	S	PROPN	_	5481
+)	)	)	PUNCT	-	5482	punct	S	PROPN	-	5481
 3	3	3	NUM	NumType=Card	5483	nummod	Marl	NOUN	Definite=Def Gender=Com Number=Plur	5484
 <name type="PER">
-Marlene	Marlene	Marl	NOUN	Definite=Def Gender=Com Number=Plur	5484	list	S	PROPN	_	5481
-Borst	Borst	Borst	NOUN	Definite=Ind Gender=Com Number=Sing	5485	flat	S	PROPN	_	5481
-Hansen	Hansen	Hansen	PROPN	_	5486	flat	S	PROPN	_	5481
+Marlene	Marlene	Marl	NOUN	Definite=Def Gender=Com Number=Plur	5484	list	S	PROPN	-	5481
+Borst	Borst	Borst	NOUN	Definite=Ind Gender=Com Number=Sing	5485	flat	S	PROPN	-	5481
+Hansen	Hansen	Hansen	PROPN	-	5486	flat	S	PROPN	-	5481
 </name>
-(	(	(	PUNCT	_	5487	punct	RV	PROPN	_	5488
+(	(	(	PUNCT	-	5487	punct	RV	PROPN	-	5488
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	5488	flat	S	PROPN	_	5481
+RV	RV	RV	PROPN	-	5488	flat	S	PROPN	-	5481
 <g/>
 </name>
-)	)	)	PUNCT	_	5489	punct	RV	PROPN	_	5488
-4	4	4	NUM	NumType=Card	5490	nummod	Özlem	PROPN	_	5491
+)	)	)	PUNCT	-	5489	punct	RV	PROPN	-	5488
+4	4	4	NUM	NumType=Card	5490	nummod	Özlem	PROPN	-	5491
 <name type="PER">
-Özlem	Özlem	Özlem	PROPN	_	5491	list	S	PROPN	_	5481
-Sara	Sara	Sara	PROPN	_	5492	flat	Özlem	PROPN	_	5491
-Cekic	Cekic	Cekic	PROPN	_	5493	flat	Özlem	PROPN	_	5491
+Özlem	Özlem	Özlem	PROPN	-	5491	list	S	PROPN	-	5481
+Sara	Sara	Sara	PROPN	-	5492	flat	Özlem	PROPN	-	5491
+Cekic	Cekic	Cekic	PROPN	-	5493	flat	Özlem	PROPN	-	5491
 </name>
-(	(	(	PUNCT	_	5494	punct	SF	PROPN	_	5495
+(	(	(	PUNCT	-	5494	punct	SF	PROPN	-	5495
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	5495	list	Özlem	PROPN	_	5491
+SF	SF	SF	PROPN	-	5495	list	Özlem	PROPN	-	5491
 <g/>
 </name>
-)	)	)	PUNCT	_	5496	punct	SF	PROPN	_	5495
-5	5	5	NUM	NumType=Card	5497	nummod	Stine	PROPN	_	5498
+)	)	)	PUNCT	-	5496	punct	SF	PROPN	-	5495
+5	5	5	NUM	NumType=Card	5497	nummod	Stine	PROPN	-	5498
 <name type="PER">
-Stine	Stine	Stine	PROPN	_	5498	list	SF	PROPN	_	5495
-Brix	Brix	Brix	PROPN	_	5499	flat	Stine	PROPN	_	5498
+Stine	Stine	Stine	PROPN	-	5498	list	SF	PROPN	-	5495
+Brix	Brix	Brix	PROPN	-	5499	flat	Stine	PROPN	-	5498
 </name>
-(	(	(	PUNCT	_	5500	punct	EL	PROPN	_	5501
+(	(	(	PUNCT	-	5500	punct	EL	PROPN	-	5501
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	5501	flat	Stine	PROPN	_	5498
+EL	EL	EL	PROPN	-	5501	flat	Stine	PROPN	-	5498
 <g/>
 </name>
-)	)	)	PUNCT	_	5502	punct	EL	PROPN	_	5501
-6	6	6	NUM	NumType=Card	5503	nummod	Jane	PROPN	_	5504
+)	)	)	PUNCT	-	5502	punct	EL	PROPN	-	5501
+6	6	6	NUM	NumType=Card	5503	nummod	Jane	PROPN	-	5504
 <name type="PER">
-Jane	Jane	Jane	PROPN	_	5504	list	Stine	PROPN	_	5498
-Heitmann	Heitmann	Heitmann	PROPN	_	5505	flat	Jane	PROPN	_	5504
+Jane	Jane	Jane	PROPN	-	5504	list	Stine	PROPN	-	5498
+Heitmann	Heitmann	Heitmann	PROPN	-	5505	flat	Jane	PROPN	-	5504
 </name>
-(	(	(	PUNCT	_	5506	punct	V	PROPN	_	5507
+(	(	(	PUNCT	-	5506	punct	V	PROPN	-	5507
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	5507	flat	Jane	PROPN	_	5504
+V	V	V	PROPN	-	5507	flat	Jane	PROPN	-	5504
 <g/>
 </name>
-)	)	)	PUNCT	_	5508	punct	V	PROPN	_	5507
-7	7	7	NUM	NumType=Card	5509	nummod	Finn	PROPN	_	5510
+)	)	)	PUNCT	-	5508	punct	V	PROPN	-	5507
+7	7	7	NUM	NumType=Card	5509	nummod	Finn	PROPN	-	5510
 <name type="PER">
-Finn	Finn	Finn	PROPN	_	5510	list	Jane	PROPN	_	5504
-Thranum	Thranum	Thranum	PROPN	_	5511	flat	Finn	PROPN	_	5510
+Finn	Finn	Finn	PROPN	-	5510	list	Jane	PROPN	-	5504
+Thranum	Thranum	Thranum	PROPN	-	5511	flat	Finn	PROPN	-	5510
 </name>
-(	(	(	PUNCT	_	5512	punct	V	PROPN	_	5513
+(	(	(	PUNCT	-	5512	punct	V	PROPN	-	5513
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	5513	flat	Finn	PROPN	_	5510
+V	V	V	PROPN	-	5513	flat	Finn	PROPN	-	5510
 <g/>
 </name>
-)	)	)	PUNCT	_	5514	punct	V	PROPN	_	5513
-8	8	8	NUM	NumType=Card	5515	nummod	Liselott	PROPN	_	5516
+)	)	)	PUNCT	-	5514	punct	V	PROPN	-	5513
+8	8	8	NUM	NumType=Card	5515	nummod	Liselott	PROPN	-	5516
 <name type="PER">
-Liselott	Liselott	Liselott	PROPN	_	5516	list	Finn	PROPN	_	5510
-Blixt	Blixt	Blixt	PROPN	_	5517	flat	Liselott	PROPN	_	5516
+Liselott	Liselott	Liselott	PROPN	-	5516	list	Finn	PROPN	-	5510
+Blixt	Blixt	Blixt	PROPN	-	5517	flat	Liselott	PROPN	-	5516
 </name>
-(	(	(	PUNCT	_	5518	punct	DF	PROPN	_	5519
+(	(	(	PUNCT	-	5518	punct	DF	PROPN	-	5519
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	5519	flat	Liselott	PROPN	_	5516
+DF	DF	DF	PROPN	-	5519	flat	Liselott	PROPN	-	5516
 <g/>
 </name>
-)	)	)	PUNCT	_	5520	punct	DF	PROPN	_	5519
-9	9	9	NUM	NumType=Card	5521	nummod	Thyra	PROPN	_	5522
+)	)	)	PUNCT	-	5520	punct	DF	PROPN	-	5519
+9	9	9	NUM	NumType=Card	5521	nummod	Thyra	PROPN	-	5522
 <name type="PER">
-Thyra	Thyra	Thyra	PROPN	_	5522	list	Liselott	PROPN	_	5516
-Frank	Frank	Frank	PROPN	_	5523	flat	Thyra	PROPN	_	5522
+Thyra	Thyra	Thyra	PROPN	-	5522	list	Liselott	PROPN	-	5516
+Frank	Frank	Frank	PROPN	-	5523	flat	Thyra	PROPN	-	5522
 </name>
-(	(	(	PUNCT	_	5524	punct	LA	PROPN	_	5525
+(	(	(	PUNCT	-	5524	punct	LA	PROPN	-	5525
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	5525	flat	Thyra	PROPN	_	5522
+LA	LA	LA	PROPN	-	5525	flat	Thyra	PROPN	-	5522
 <g/>
 </name>
-)	)	)	PUNCT	_	5526	punct	LA	PROPN	_	5525
-Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	5527	list	Thyra	PROPN	_	5522
+)	)	)	PUNCT	-	5526	punct	LA	PROPN	-	5525
+Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	5527	list	Thyra	PROPN	-	5522
 <g/>
-:	:	:	PUNCT	_	5528	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	5527
+:	:	:	PUNCT	-	5528	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	5527
 <name type="PER">
-Liselott	Liselott	Liselott	PROPN	_	5529	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	5527
-Blixt	Blixt	Blixt	PROPN	_	5530	flat	Liselott	PROPN	_	5529
+Liselott	Liselott	Liselott	PROPN	-	5529	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	5527
+Blixt	Blixt	Blixt	PROPN	-	5530	flat	Liselott	PROPN	-	5529
 </name>
-(	(	(	PUNCT	_	5531	punct	DF	PROPN	_	5532
+(	(	(	PUNCT	-	5531	punct	DF	PROPN	-	5532
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	5532	flat	Liselott	PROPN	_	5529
+DF	DF	DF	PROPN	-	5532	flat	Liselott	PROPN	-	5529
 <g/>
 </name>
-)	)	)	PUNCT	_	5533	punct	DF	PROPN	_	5532
-Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	5534	list	Liselott	PROPN	_	5529
+)	)	)	PUNCT	-	5533	punct	DF	PROPN	-	5532
+Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	5534	list	Liselott	PROPN	-	5529
 <g/>
-:	:	:	PUNCT	_	5535	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	5534
+:	:	:	PUNCT	-	5535	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	5534
 <name type="PER">
-Karen	Karen	Karen	PROPN	_	5536	list	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	5534
-J.	J.	J.	PROPN	_	5537	flat	Karen	PROPN	_	5536
-Klint	Klint	Klint	PROPN	_	5538	flat	Karen	PROPN	_	5536
+Karen	Karen	Karen	PROPN	-	5536	list	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	5534
+J.	J.	J.	PROPN	-	5537	flat	Karen	PROPN	-	5536
+Klint	Klint	Klint	PROPN	-	5538	flat	Karen	PROPN	-	5536
 </name>
-(	(	(	PUNCT	_	5539	punct	S	PROPN	_	5540
+(	(	(	PUNCT	-	5539	punct	S	PROPN	-	5540
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	5540	flat	Karen	PROPN	_	5536
+S	S	S	PROPN	-	5540	flat	Karen	PROPN	-	5536
 <g/>
 </name>
-)	)	)	PUNCT	_	5541	punct	S	PROPN	_	5540
-Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	5542	flat	Karen	PROPN	_	5536
+)	)	)	PUNCT	-	5541	punct	S	PROPN	-	5540
+Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	5542	flat	Karen	PROPN	-	5536
 af	af	af	ADP	AdpType=Prep	5543	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	5545
 17	17	17	NUM	NumType=Card	5544	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	5545
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	5545	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	5542
-og	og	og	CCONJ	_	5546	dep	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	5545
+og	og	og	CCONJ	-	5546	dep	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	5545
 17	17	17	NUM	NumType=Card	5547	nummod	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	5548
 stedfortrædere	stedfortrædere	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	5548	conj	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	5545
 til	til	til	ADP	AdpType=Prep	5549	case	nævn	NOUN	Definite=Ind Gender=Neut Number=Sing	5552
@@ -12496,924 +12496,924 @@ Det	Det	den	DET	Gender=Neut Number=Sing PronType=Dem	5550	det	nævn	NOUN	Definit
 Udenrigspolitiske	Udenrigspolitiske	udenrigspolitisk	ADJ	Definite=Def Degree=Pos Number=Sing	5551	amod	nævn	NOUN	Definite=Ind Gender=Neut Number=Sing	5552
 Nævn	Nævn	nævn	NOUN	Definite=Ind Gender=Neut Number=Sing	5552	nmod	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	5548
 <g/>
-:	:	:	PUNCT	_	5553	punct	nævn	NOUN	Definite=Ind Gender=Neut Number=Sing	5552
+:	:	:	PUNCT	-	5553	punct	nævn	NOUN	Definite=Ind Gender=Neut Number=Sing	5552
 Valgt	Valgt	valgt	NOUN	Definite=Ind Gender=Com Number=Sing	5554	nsubj	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	5555
 blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	5555	aux	nævn	NOUN	Definite=Ind Gender=Neut Number=Sing	5552
 <g/>
-:	:	:	PUNCT	_	5556	punct	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	5555
+:	:	:	PUNCT	-	5556	punct	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	5555
 Til	Til	til	ADP	AdpType=Prep	5557	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	5558
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	5558	obl	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	5555
 <g/>
-:	:	:	PUNCT	_	5559	punct	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	5558
-1	1	1	NUM	NumType=Card	5560	nummod	Mette	PROPN	_	5561
+:	:	:	PUNCT	-	5559	punct	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	5558
+1	1	1	NUM	NumType=Card	5560	nummod	Mette	PROPN	-	5561
 <name type="PER">
-Mette	Mette	Mette	PROPN	_	5561	list	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	5558
-Gjerskov	Gjerskov	Gjerskov	PROPN	_	5562	flat	Mette	PROPN	_	5561
+Mette	Mette	Mette	PROPN	-	5561	list	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	5558
+Gjerskov	Gjerskov	Gjerskov	PROPN	-	5562	flat	Mette	PROPN	-	5561
 </name>
-(	(	(	PUNCT	_	5563	punct	S	PROPN	_	5564
+(	(	(	PUNCT	-	5563	punct	S	PROPN	-	5564
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	5564	flat	Mette	PROPN	_	5561
+S	S	S	PROPN	-	5564	flat	Mette	PROPN	-	5561
 <g/>
 </name>
-)	)	)	PUNCT	_	5565	punct	S	PROPN	_	5564
-2	2	2	NUM	NumType=Card	5566	nummod	John	PROPN	_	5567
+)	)	)	PUNCT	-	5565	punct	S	PROPN	-	5564
+2	2	2	NUM	NumType=Card	5566	nummod	John	PROPN	-	5567
 <name type="PER">
-John	John	John	PROPN	_	5567	list	Mette	PROPN	_	5561
-Dyrby	Dyrby	Dyrby	PROPN	_	5568	flat	John	PROPN	_	5567
-Paulsen	Paulsen	Paulsen	PROPN	_	5569	flat	John	PROPN	_	5567
+John	John	John	PROPN	-	5567	list	Mette	PROPN	-	5561
+Dyrby	Dyrby	Dyrby	PROPN	-	5568	flat	John	PROPN	-	5567
+Paulsen	Paulsen	Paulsen	PROPN	-	5569	flat	John	PROPN	-	5567
 </name>
-(	(	(	PUNCT	_	5570	punct	S	PROPN	_	5571
+(	(	(	PUNCT	-	5570	punct	S	PROPN	-	5571
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	5571	flat	John	PROPN	_	5567
+S	S	S	PROPN	-	5571	flat	John	PROPN	-	5567
 <g/>
 </name>
-)	)	)	PUNCT	_	5572	punct	S	PROPN	_	5571
-3	3	3	NUM	NumType=Card	5573	nummod	Ole	PROPN	_	5574
+)	)	)	PUNCT	-	5572	punct	S	PROPN	-	5571
+3	3	3	NUM	NumType=Card	5573	nummod	Ole	PROPN	-	5574
 <name type="PER">
-Ole	Ole	Ole	PROPN	_	5574	list	John	PROPN	_	5567
-Hækkerup	Hækkerup	Hækkerup	PROPN	_	5575	flat	Ole	PROPN	_	5574
+Ole	Ole	Ole	PROPN	-	5574	list	John	PROPN	-	5567
+Hækkerup	Hækkerup	Hækkerup	PROPN	-	5575	flat	Ole	PROPN	-	5574
 </name>
-(	(	(	PUNCT	_	5576	punct	S	PROPN	_	5577
+(	(	(	PUNCT	-	5576	punct	S	PROPN	-	5577
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	5577	flat	Ole	PROPN	_	5574
+S	S	S	PROPN	-	5577	flat	Ole	PROPN	-	5574
 <g/>
 </name>
-)	)	)	PUNCT	_	5578	punct	S	PROPN	_	5577
-4	4	4	NUM	NumType=Card	5579	nummod	Orla	PROPN	_	5580
+)	)	)	PUNCT	-	5578	punct	S	PROPN	-	5577
+4	4	4	NUM	NumType=Card	5579	nummod	Orla	PROPN	-	5580
 <name type="PER">
-Orla	Orla	Orla	PROPN	_	5580	list	Ole	PROPN	_	5574
-Hav	Hav	Hav	PROPN	_	5581	flat	Orla	PROPN	_	5580
+Orla	Orla	Orla	PROPN	-	5580	list	Ole	PROPN	-	5574
+Hav	Hav	Hav	PROPN	-	5581	flat	Orla	PROPN	-	5580
 </name>
-(	(	(	PUNCT	_	5582	punct	S	PROPN	_	5583
+(	(	(	PUNCT	-	5582	punct	S	PROPN	-	5583
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	5583	list	Orla	PROPN	_	5580
+S	S	S	PROPN	-	5583	list	Orla	PROPN	-	5580
 <g/>
 </name>
-)	)	)	PUNCT	_	5584	punct	S	PROPN	_	5583
-5	5	5	NUM	NumType=Card	5585	nummod	Zenia	PROPN	_	5586
+)	)	)	PUNCT	-	5584	punct	S	PROPN	-	5583
+5	5	5	NUM	NumType=Card	5585	nummod	Zenia	PROPN	-	5586
 <name type="PER">
-Zenia	Zenia	Zenia	PROPN	_	5586	list	S	PROPN	_	5583
-Stampe	Stampe	Stampe	NOUN	Definite=Ind Gender=Com Number=Sing	5587	flat	Zenia	PROPN	_	5586
+Zenia	Zenia	Zenia	PROPN	-	5586	list	S	PROPN	-	5583
+Stampe	Stampe	Stampe	NOUN	Definite=Ind Gender=Com Number=Sing	5587	flat	Zenia	PROPN	-	5586
 </name>
-(	(	(	PUNCT	_	5588	punct	RV	PROPN	_	5589
+(	(	(	PUNCT	-	5588	punct	RV	PROPN	-	5589
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	5589	flat	Zenia	PROPN	_	5586
+RV	RV	RV	PROPN	-	5589	flat	Zenia	PROPN	-	5586
 <g/>
 </name>
-)	)	)	PUNCT	_	5590	punct	RV	PROPN	_	5589
-6	6	6	NUM	NumType=Card	5591	nummod	Pia	PROPN	_	5592
+)	)	)	PUNCT	-	5590	punct	RV	PROPN	-	5589
+6	6	6	NUM	NumType=Card	5591	nummod	Pia	PROPN	-	5592
 <name type="PER">
-Pia	Pia	Pia	PROPN	_	5592	list	Zenia	PROPN	_	5586
-Olsen	Olsen	Olsen	PROPN	_	5593	flat	Pia	PROPN	_	5592
-Dyhr	Dyhr	Dyhr	PROPN	_	5594	flat	Pia	PROPN	_	5592
+Pia	Pia	Pia	PROPN	-	5592	list	Zenia	PROPN	-	5586
+Olsen	Olsen	Olsen	PROPN	-	5593	flat	Pia	PROPN	-	5592
+Dyhr	Dyhr	Dyhr	PROPN	-	5594	flat	Pia	PROPN	-	5592
 </name>
-(	(	(	PUNCT	_	5595	punct	SF	PROPN	_	5596
+(	(	(	PUNCT	-	5595	punct	SF	PROPN	-	5596
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	5596	list	Pia	PROPN	_	5592
+SF	SF	SF	PROPN	-	5596	list	Pia	PROPN	-	5592
 <g/>
 </name>
-)	)	)	PUNCT	_	5597	punct	SF	PROPN	_	5596
-7	7	7	NUM	NumType=Card	5598	nummod	Christian	PROPN	_	5599
+)	)	)	PUNCT	-	5597	punct	SF	PROPN	-	5596
+7	7	7	NUM	NumType=Card	5598	nummod	Christian	PROPN	-	5599
 <name type="PER">
-Christian	Christian	Christian	PROPN	_	5599	list	SF	PROPN	_	5596
-Juhl	Juhl	Juhl	PROPN	_	5600	flat	Christian	PROPN	_	5599
+Christian	Christian	Christian	PROPN	-	5599	list	SF	PROPN	-	5596
+Juhl	Juhl	Juhl	PROPN	-	5600	flat	Christian	PROPN	-	5599
 </name>
-(	(	(	PUNCT	_	5601	punct	EL	PROPN	_	5602
+(	(	(	PUNCT	-	5601	punct	EL	PROPN	-	5602
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	5602	flat	Christian	PROPN	_	5599
+EL	EL	EL	PROPN	-	5602	flat	Christian	PROPN	-	5599
 <g/>
 </name>
-)	)	)	PUNCT	_	5603	punct	EL	PROPN	_	5602
-8	8	8	NUM	NumType=Card	5604	nummod	Doris	PROPN	_	5605
+)	)	)	PUNCT	-	5603	punct	EL	PROPN	-	5602
+8	8	8	NUM	NumType=Card	5604	nummod	Doris	PROPN	-	5605
 <name type="PER">
-Doris	Doris	Doris	PROPN	_	5605	list	Christian	PROPN	_	5599
-Jakobsen	Jakobsen	Jakobsen	PROPN	_	5606	flat	Doris	PROPN	_	5605
+Doris	Doris	Doris	PROPN	-	5605	list	Christian	PROPN	-	5599
+Jakobsen	Jakobsen	Jakobsen	PROPN	-	5606	flat	Doris	PROPN	-	5605
 </name>
-(	(	(	PUNCT	_	5607	punct	SIU	PROPN	_	5608
+(	(	(	PUNCT	-	5607	punct	SIU	PROPN	-	5608
 <g/>
 <name type="PER">
-SIU	SIU	SIU	PROPN	_	5608	flat	Doris	PROPN	_	5605
+SIU	SIU	SIU	PROPN	-	5608	flat	Doris	PROPN	-	5605
 <g/>
 </name>
-)	)	)	PUNCT	_	5609	punct	SIU	PROPN	_	5608
-9	9	9	NUM	NumType=Card	5610	nummod	Johan	PROPN	_	5611
+)	)	)	PUNCT	-	5609	punct	SIU	PROPN	-	5608
+9	9	9	NUM	NumType=Card	5610	nummod	Johan	PROPN	-	5611
 <name type="PER">
-Johan	Johan	Johan	PROPN	_	5611	list	Doris	PROPN	_	5605
-Lund	Lund	Lund	PROPN	_	5612	flat	Johan	PROPN	_	5611
-Olsen	Olsen	Olsen	PROPN	_	5613	flat	Johan	PROPN	_	5611
+Johan	Johan	Johan	PROPN	-	5611	list	Doris	PROPN	-	5605
+Lund	Lund	Lund	PROPN	-	5612	flat	Johan	PROPN	-	5611
+Olsen	Olsen	Olsen	PROPN	-	5613	flat	Johan	PROPN	-	5611
 </name>
-(	(	(	PUNCT	_	5614	punct	IA	PROPN	_	5615
+(	(	(	PUNCT	-	5614	punct	IA	PROPN	-	5615
 <g/>
 <name type="ORG">
-IA	IA	IA	PROPN	_	5615	flat	Johan	PROPN	_	5611
+IA	IA	IA	PROPN	-	5615	flat	Johan	PROPN	-	5611
 <g/>
 </name>
-)	)	)	PUNCT	_	5616	punct	IA	PROPN	_	5615
-10	10	10	NUM	NumType=Card	5617	nummod	Lars	PROPN	_	5618
+)	)	)	PUNCT	-	5616	punct	IA	PROPN	-	5615
+10	10	10	NUM	NumType=Card	5617	nummod	Lars	PROPN	-	5618
 <name type="PER">
-Lars	Lars	Lars	PROPN	_	5618	list	Johan	PROPN	_	5611
-Løkke	Løkke	Løkke	PROPN	_	5619	flat	Lars	PROPN	_	5618
-Rasmussen	Rasmussen	Rasmussen	PROPN	_	5620	flat	Lars	PROPN	_	5618
+Lars	Lars	Lars	PROPN	-	5618	list	Johan	PROPN	-	5611
+Løkke	Løkke	Løkke	PROPN	-	5619	flat	Lars	PROPN	-	5618
+Rasmussen	Rasmussen	Rasmussen	PROPN	-	5620	flat	Lars	PROPN	-	5618
 </name>
-(	(	(	PUNCT	_	5621	punct	V	PROPN	_	5622
+(	(	(	PUNCT	-	5621	punct	V	PROPN	-	5622
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	5622	flat	Lars	PROPN	_	5618
+V	V	V	PROPN	-	5622	flat	Lars	PROPN	-	5618
 <g/>
 </name>
-)	)	)	PUNCT	_	5623	punct	V	PROPN	_	5622
-11	11	11	NUM	NumType=Card	5624	nummod	Inger	PROPN	_	5625
+)	)	)	PUNCT	-	5623	punct	V	PROPN	-	5622
+11	11	11	NUM	NumType=Card	5624	nummod	Inger	PROPN	-	5625
 <name type="PER">
-Inger	Inger	Inger	PROPN	_	5625	list	Lars	PROPN	_	5618
-Støjberg	Støjberg	Støjberg	PROPN	_	5626	flat	Inger	PROPN	_	5625
+Inger	Inger	Inger	PROPN	-	5625	list	Lars	PROPN	-	5618
+Støjberg	Støjberg	Støjberg	PROPN	-	5626	flat	Inger	PROPN	-	5625
 </name>
-(	(	(	PUNCT	_	5627	punct	V	PROPN	_	5628
+(	(	(	PUNCT	-	5627	punct	V	PROPN	-	5628
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	5628	flat	Inger	PROPN	_	5625
+V	V	V	PROPN	-	5628	flat	Inger	PROPN	-	5625
 <g/>
 </name>
-)	)	)	PUNCT	_	5629	punct	V	PROPN	_	5628
-12	12	12	NUM	NumType=Card	5630	nummod	Søren	PROPN	_	5631
+)	)	)	PUNCT	-	5629	punct	V	PROPN	-	5628
+12	12	12	NUM	NumType=Card	5630	nummod	Søren	PROPN	-	5631
 <name type="PER">
-Søren	Søren	Søren	PROPN	_	5631	list	Inger	PROPN	_	5625
-Pind	Pind	Pind	PROPN	_	5632	flat	Søren	PROPN	_	5631
+Søren	Søren	Søren	PROPN	-	5631	list	Inger	PROPN	-	5625
+Pind	Pind	Pind	PROPN	-	5632	flat	Søren	PROPN	-	5631
 </name>
-(	(	(	PUNCT	_	5633	punct	V	PROPN	_	5634
+(	(	(	PUNCT	-	5633	punct	V	PROPN	-	5634
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	5634	flat	Søren	PROPN	_	5631
+V	V	V	PROPN	-	5634	flat	Søren	PROPN	-	5631
 <g/>
 </name>
-)	)	)	PUNCT	_	5635	punct	V	PROPN	_	5634
-13	13	13	NUM	NumType=Card	5636	nummod	Søren	PROPN	_	5637
+)	)	)	PUNCT	-	5635	punct	V	PROPN	-	5634
+13	13	13	NUM	NumType=Card	5636	nummod	Søren	PROPN	-	5637
 <name type="PER">
-Søren	Søren	Søren	PROPN	_	5637	list	Søren	PROPN	_	5631
-Espersen	Espersen	Espersen	PROPN	_	5638	flat	Søren	PROPN	_	5637
+Søren	Søren	Søren	PROPN	-	5637	list	Søren	PROPN	-	5631
+Espersen	Espersen	Espersen	PROPN	-	5638	flat	Søren	PROPN	-	5637
 </name>
-(	(	(	PUNCT	_	5639	punct	DF	PROPN	_	5640
+(	(	(	PUNCT	-	5639	punct	DF	PROPN	-	5640
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	5640	flat	Søren	PROPN	_	5637
+DF	DF	DF	PROPN	-	5640	flat	Søren	PROPN	-	5637
 <g/>
 </name>
-)	)	)	PUNCT	_	5641	punct	DF	PROPN	_	5640
-14	14	14	NUM	NumType=Card	5642	nummod	Kristian	PROPN	_	5643
+)	)	)	PUNCT	-	5641	punct	DF	PROPN	-	5640
+14	14	14	NUM	NumType=Card	5642	nummod	Kristian	PROPN	-	5643
 <name type="PER">
-Kristian	Kristian	Kristian	PROPN	_	5643	list	Søren	PROPN	_	5637
-Thulesen	Thulesen	Thulesen	PROPN	_	5644	flat	Kristian	PROPN	_	5643
-Dahl	Dahl	Dahl	PROPN	_	5645	flat	Kristian	PROPN	_	5643
+Kristian	Kristian	Kristian	PROPN	-	5643	list	Søren	PROPN	-	5637
+Thulesen	Thulesen	Thulesen	PROPN	-	5644	flat	Kristian	PROPN	-	5643
+Dahl	Dahl	Dahl	PROPN	-	5645	flat	Kristian	PROPN	-	5643
 </name>
-(	(	(	PUNCT	_	5646	punct	DF	PROPN	_	5647
+(	(	(	PUNCT	-	5646	punct	DF	PROPN	-	5647
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	5647	flat	Kristian	PROPN	_	5643
+DF	DF	DF	PROPN	-	5647	flat	Kristian	PROPN	-	5643
 <g/>
 </name>
-)	)	)	PUNCT	_	5648	punct	DF	PROPN	_	5647
-15	15	15	NUM	NumType=Card	5649	nummod	Mette	PROPN	_	5650
+)	)	)	PUNCT	-	5648	punct	DF	PROPN	-	5647
+15	15	15	NUM	NumType=Card	5649	nummod	Mette	PROPN	-	5650
 <name type="PER">
-Mette	Mette	Mette	PROPN	_	5650	list	Kristian	PROPN	_	5643
-Bock	Bock	Bock	PROPN	_	5651	flat	Mette	PROPN	_	5650
+Mette	Mette	Mette	PROPN	-	5650	list	Kristian	PROPN	-	5643
+Bock	Bock	Bock	PROPN	-	5651	flat	Mette	PROPN	-	5650
 </name>
-(	(	(	PUNCT	_	5652	punct	LA	PROPN	_	5653
+(	(	(	PUNCT	-	5652	punct	LA	PROPN	-	5653
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	5653	list	Mette	PROPN	_	5650
+LA	LA	LA	PROPN	-	5653	list	Mette	PROPN	-	5650
 <g/>
 </name>
-)	)	)	PUNCT	_	5654	punct	LA	PROPN	_	5653
-16	16	16	NUM	NumType=Card	5655	nummod	Lene	PROPN	_	5656
+)	)	)	PUNCT	-	5654	punct	LA	PROPN	-	5653
+16	16	16	NUM	NumType=Card	5655	nummod	Lene	PROPN	-	5656
 <name type="PER">
-Lene	Lene	Lene	PROPN	_	5656	list	LA	PROPN	_	5653
-Espersen	Espersen	Espersen	PROPN	_	5657	flat	Lene	PROPN	_	5656
+Lene	Lene	Lene	PROPN	-	5656	list	LA	PROPN	-	5653
+Espersen	Espersen	Espersen	PROPN	-	5657	flat	Lene	PROPN	-	5656
 </name>
-(	(	(	PUNCT	_	5658	punct	KF	PROPN	_	5659
+(	(	(	PUNCT	-	5658	punct	KF	PROPN	-	5659
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	5659	flat	Lene	PROPN	_	5656
+KF	KF	KF	PROPN	-	5659	flat	Lene	PROPN	-	5656
 <g/>
 </name>
-)	)	)	PUNCT	_	5660	punct	KF	PROPN	_	5659
-17	17	17	NUM	NumType=Card	5661	nummod	Edmund	PROPN	_	5662
+)	)	)	PUNCT	-	5660	punct	KF	PROPN	-	5659
+17	17	17	NUM	NumType=Card	5661	nummod	Edmund	PROPN	-	5662
 <name type="PER">
-Edmund	Edmund	Edmund	PROPN	_	5662	list	Lene	PROPN	_	5656
-Joensen	Joensen	Joensen	PROPN	_	5663	flat	Edmund	PROPN	_	5662
+Edmund	Edmund	Edmund	PROPN	-	5662	list	Lene	PROPN	-	5656
+Joensen	Joensen	Joensen	PROPN	-	5663	flat	Edmund	PROPN	-	5662
 </name>
-(	(	(	PUNCT	_	5664	punct	SP	PROPN	_	5665
+(	(	(	PUNCT	-	5664	punct	SP	PROPN	-	5665
 <g/>
 <name type="ORG">
-SP	SP	SP	PROPN	_	5665	flat	Edmund	PROPN	_	5662
+SP	SP	SP	PROPN	-	5665	flat	Edmund	PROPN	-	5662
 <g/>
 </name>
-)	)	)	PUNCT	_	5666	punct	SP	PROPN	_	5665
+)	)	)	PUNCT	-	5666	punct	SP	PROPN	-	5665
 Til	Til	til	ADP	AdpType=Prep	5667	case	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	5668
-stedfortrædere	stedfortrædere	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	5668	nmod	Lene	PROPN	_	5656
+stedfortrædere	stedfortrædere	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	5668	nmod	Lene	PROPN	-	5656
 for	for	for	ADP	AdpType=Prep	5669	case	a	X	Foreign=Yes	5672
 <g/>
-:	:	:	PUNCT	_	5670	punct	for	ADP	AdpType=Prep	5669
-1-4	1-4	1-4	X	_	5671	dep	a	X	Foreign=Yes	5672
+:	:	:	PUNCT	-	5670	punct	for	ADP	AdpType=Prep	5669
+1-4	1-4	1-4	X	-	5671	dep	a	X	Foreign=Yes	5672
 a	a	a	X	Foreign=Yes	5672	nmod	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	5668
 <name type="PER">
-Ane	Ane	Ane	PROPN	_	5673	conj	a	X	Foreign=Yes	5672
-Halsboe-Jørgensen	Halsboe-Jørgensen	Halsboe-Jørgensen	PROPN	_	5674	flat	Ane	PROPN	_	5673
+Ane	Ane	Ane	PROPN	-	5673	conj	a	X	Foreign=Yes	5672
+Halsboe-Jørgensen	Halsboe-Jørgensen	Halsboe-Jørgensen	PROPN	-	5674	flat	Ane	PROPN	-	5673
 </name>
-(	(	(	PUNCT	_	5675	punct	S	PROPN	_	5676
+(	(	(	PUNCT	-	5675	punct	S	PROPN	-	5676
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	5676	list	Ane	PROPN	_	5673
+S	S	S	PROPN	-	5676	list	Ane	PROPN	-	5673
 <g/>
 </name>
-)	)	)	PUNCT	_	5677	punct	S	PROPN	_	5676
-1-4	1-4	1-4	NUM	NumType=Card	5678	list	S	PROPN	_	5676
-b	b	b	NOUN	Definite=Ind Gender=Com Number=Sing	5679	flat	S	PROPN	_	5676
+)	)	)	PUNCT	-	5677	punct	S	PROPN	-	5676
+1-4	1-4	1-4	NUM	NumType=Card	5678	list	S	PROPN	-	5676
+b	b	b	NOUN	Definite=Ind Gender=Com Number=Sing	5679	flat	S	PROPN	-	5676
 <name type="PER">
-Torben	Torben	Torben	PROPN	_	5680	flat	S	PROPN	_	5676
-Hansen	Hansen	Hansen	PROPN	_	5681	flat	S	PROPN	_	5676
+Torben	Torben	Torben	PROPN	-	5680	flat	S	PROPN	-	5676
+Hansen	Hansen	Hansen	PROPN	-	5681	flat	S	PROPN	-	5676
 </name>
-(	(	(	PUNCT	_	5682	punct	S	PROPN	_	5683
+(	(	(	PUNCT	-	5682	punct	S	PROPN	-	5683
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	5683	flat	S	PROPN	_	5676
+S	S	S	PROPN	-	5683	flat	S	PROPN	-	5676
 <g/>
 </name>
-)	)	)	PUNCT	_	5684	punct	S	PROPN	_	5683
-1-4	1-4	1-4	X	_	5685	list	S	PROPN	_	5676
-c	c	c	X	Foreign=Yes	5686	dep	1-4	X	_	5685
+)	)	)	PUNCT	-	5684	punct	S	PROPN	-	5683
+1-4	1-4	1-4	X	-	5685	list	S	PROPN	-	5676
+c	c	c	X	Foreign=Yes	5686	dep	1-4	X	-	5685
 <name type="PER">
-Morten	Morten	Morten	PROPN	_	5687	conj	1-4	X	_	5685
-Bødskov	Bødskov	Bødskov	PROPN	_	5688	flat	Morten	PROPN	_	5687
+Morten	Morten	Morten	PROPN	-	5687	conj	1-4	X	-	5685
+Bødskov	Bødskov	Bødskov	PROPN	-	5688	flat	Morten	PROPN	-	5687
 </name>
-(	(	(	PUNCT	_	5689	punct	S	PROPN	_	5690
+(	(	(	PUNCT	-	5689	punct	S	PROPN	-	5690
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	5690	flat	Morten	PROPN	_	5687
+S	S	S	PROPN	-	5690	flat	Morten	PROPN	-	5687
 <g/>
 </name>
-)	)	)	PUNCT	_	5691	punct	S	PROPN	_	5690
-1-4	1-4	1-4	NUM	NumType=Card	5692	nummod	Jens	PROPN	_	5694
-d	d	d	NOUN	Definite=Ind Gender=Com Number=Sing	5693	nmod	Jens	PROPN	_	5694
+)	)	)	PUNCT	-	5691	punct	S	PROPN	-	5690
+1-4	1-4	1-4	NUM	NumType=Card	5692	nummod	Jens	PROPN	-	5694
+d	d	d	NOUN	Definite=Ind Gender=Com Number=Sing	5693	nmod	Jens	PROPN	-	5694
 <name type="PER">
-Jens	Jens	Jens	PROPN	_	5694	flat	S	PROPN	_	5690
-Joel	Joel	Joel	PROPN	_	5695	flat	Jens	PROPN	_	5694
+Jens	Jens	Jens	PROPN	-	5694	flat	S	PROPN	-	5690
+Joel	Joel	Joel	PROPN	-	5695	flat	Jens	PROPN	-	5694
 </name>
-(	(	(	PUNCT	_	5696	punct	S	PROPN	_	5690
+(	(	(	PUNCT	-	5696	punct	S	PROPN	-	5690
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	5697	flat	S	PROPN	_	5690
+S	S	S	PROPN	-	5697	flat	S	PROPN	-	5690
 <g/>
 </name>
-)	)	)	PUNCT	_	5698	punct	S	PROPN	_	5690
-5	5	5	NUM	NumType=Card	5699	nummod	Lone	PROPN	_	5700
+)	)	)	PUNCT	-	5698	punct	S	PROPN	-	5690
+5	5	5	NUM	NumType=Card	5699	nummod	Lone	PROPN	-	5700
 <name type="PER">
-Lone	Lone	Lone	PROPN	_	5700	list	Morten	PROPN	_	5687
-Loklindt	Loklindt	Loklindt	PROPN	_	5701	flat	Lone	PROPN	_	5700
+Lone	Lone	Lone	PROPN	-	5700	list	Morten	PROPN	-	5687
+Loklindt	Loklindt	Loklindt	PROPN	-	5701	flat	Lone	PROPN	-	5700
 </name>
-(	(	(	PUNCT	_	5702	punct	RV	PROPN	_	5703
+(	(	(	PUNCT	-	5702	punct	RV	PROPN	-	5703
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	5703	flat	Lone	PROPN	_	5700
+RV	RV	RV	PROPN	-	5703	flat	Lone	PROPN	-	5700
 <g/>
 </name>
-)	)	)	PUNCT	_	5704	punct	RV	PROPN	_	5703
-6-7	6-7	6-7	X	_	5705	list	RV	PROPN	_	5703
-a	a	a	X	Foreign=Yes	5706	dep	6-7	X	_	5705
+)	)	)	PUNCT	-	5704	punct	RV	PROPN	-	5703
+6-7	6-7	6-7	X	-	5705	list	RV	PROPN	-	5703
+a	a	a	X	Foreign=Yes	5706	dep	6-7	X	-	5705
 <name type="PER">
-Holger	Holger	Holger	PROPN	_	5707	conj	6-7	X	_	5705
-K.	K.	K.	PROPN	_	5708	flat	Holger	PROPN	_	5707
-Nielsen	Nielsen	Nielsen	PROPN	_	5709	flat	Holger	PROPN	_	5707
+Holger	Holger	Holger	PROPN	-	5707	conj	6-7	X	-	5705
+K.	K.	K.	PROPN	-	5708	flat	Holger	PROPN	-	5707
+Nielsen	Nielsen	Nielsen	PROPN	-	5709	flat	Holger	PROPN	-	5707
 </name>
-(	(	(	PUNCT	_	5710	punct	SF	PROPN	_	5711
+(	(	(	PUNCT	-	5710	punct	SF	PROPN	-	5711
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	5711	flat	Holger	PROPN	_	5707
+SF	SF	SF	PROPN	-	5711	flat	Holger	PROPN	-	5707
 <g/>
 </name>
-)	)	)	PUNCT	_	5712	punct	SF	PROPN	_	5711
-6-7	6-7	6-7	NUM	NumType=Card	5713	nummod	Jonas	PROPN	_	5715
-b	b	b	NOUN	Definite=Ind Gender=Com Number=Sing	5714	nmod	Jonas	PROPN	_	5715
+)	)	)	PUNCT	-	5712	punct	SF	PROPN	-	5711
+6-7	6-7	6-7	NUM	NumType=Card	5713	nummod	Jonas	PROPN	-	5715
+b	b	b	NOUN	Definite=Ind Gender=Com Number=Sing	5714	nmod	Jonas	PROPN	-	5715
 <name type="PER">
-Jonas	Jonas	Jonas	PROPN	_	5715	list	Holger	PROPN	_	5707
-Dahl	Dahl	Dahl	PROPN	_	5716	flat	Jonas	PROPN	_	5715
+Jonas	Jonas	Jonas	PROPN	-	5715	list	Holger	PROPN	-	5707
+Dahl	Dahl	Dahl	PROPN	-	5716	flat	Jonas	PROPN	-	5715
 </name>
-(	(	(	PUNCT	_	5717	punct	SF	PROPN	_	5718
+(	(	(	PUNCT	-	5717	punct	SF	PROPN	-	5718
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	5718	flat	Jonas	PROPN	_	5715
+SF	SF	SF	PROPN	-	5718	flat	Jonas	PROPN	-	5715
 <g/>
 </name>
-)	)	)	PUNCT	_	5719	punct	SF	PROPN	_	5718
-8	8	8	NUM	NumType=Card	5720	nummod	Nikolaj	PROPN	_	5721
+)	)	)	PUNCT	-	5719	punct	SF	PROPN	-	5718
+8	8	8	NUM	NumType=Card	5720	nummod	Nikolaj	PROPN	-	5721
 <name type="PER">
-Nikolaj	Nikolaj	Nikolaj	PROPN	_	5721	list	SF	PROPN	_	5718
-Villumsen	Villumsen	Villumsen	PROPN	_	5722	flat	Nikolaj	PROPN	_	5721
+Nikolaj	Nikolaj	Nikolaj	PROPN	-	5721	list	SF	PROPN	-	5718
+Villumsen	Villumsen	Villumsen	PROPN	-	5722	flat	Nikolaj	PROPN	-	5721
 </name>
-(	(	(	PUNCT	_	5723	punct	EL	PROPN	_	5724
+(	(	(	PUNCT	-	5723	punct	EL	PROPN	-	5724
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	5724	flat	Nikolaj	PROPN	_	5721
+EL	EL	EL	PROPN	-	5724	flat	Nikolaj	PROPN	-	5721
 <g/>
 </name>
-)	)	)	PUNCT	_	5725	punct	EL	PROPN	_	5724
-9	9	9	NUM	NumType=Card	5726	nummod	Sjúrður	PROPN	_	5727
+)	)	)	PUNCT	-	5725	punct	EL	PROPN	-	5724
+9	9	9	NUM	NumType=Card	5726	nummod	Sjúrður	PROPN	-	5727
 <name type="PER">
-Sjúrður	Sjúrður	Sjúrður	PROPN	_	5727	list	Nikolaj	PROPN	_	5721
-Skaale	Skaale	Skaale	PROPN	_	5728	flat	Sjúrður	PROPN	_	5727
+Sjúrður	Sjúrður	Sjúrður	PROPN	-	5727	list	Nikolaj	PROPN	-	5721
+Skaale	Skaale	Skaale	PROPN	-	5728	flat	Sjúrður	PROPN	-	5727
 </name>
-(	(	(	PUNCT	_	5729	punct	JF	PROPN	_	5730
+(	(	(	PUNCT	-	5729	punct	JF	PROPN	-	5730
 <g/>
 <name type="ORG">
-JF	JF	JF	PROPN	_	5730	flat	Sjúrður	PROPN	_	5727
+JF	JF	JF	PROPN	-	5730	flat	Sjúrður	PROPN	-	5727
 <g/>
 </name>
-)	)	)	PUNCT	_	5731	punct	JF	PROPN	_	5730
-10-12	10-12	10-12	NUM	NumType=Card	5732	nummod	Ellen	PROPN	_	5734
-a	a	a	NOUN	Definite=Ind Gender=Com Number=Sing	5733	nmod	Ellen	PROPN	_	5734
+)	)	)	PUNCT	-	5731	punct	JF	PROPN	-	5730
+10-12	10-12	10-12	NUM	NumType=Card	5732	nummod	Ellen	PROPN	-	5734
+a	a	a	NOUN	Definite=Ind Gender=Com Number=Sing	5733	nmod	Ellen	PROPN	-	5734
 <name type="PER">
-Ellen	Ellen	Ellen	PROPN	_	5734	list	Sjúrður	PROPN	_	5727
-Trane	Trane	Trane	PROPN	_	5735	flat	Ellen	PROPN	_	5734
-Nørby	Nørby	Nørby	PROPN	_	5736	flat	Ellen	PROPN	_	5734
+Ellen	Ellen	Ellen	PROPN	-	5734	list	Sjúrður	PROPN	-	5727
+Trane	Trane	Trane	PROPN	-	5735	flat	Ellen	PROPN	-	5734
+Nørby	Nørby	Nørby	PROPN	-	5736	flat	Ellen	PROPN	-	5734
 </name>
-(	(	(	PUNCT	_	5737	punct	V	PROPN	_	5738
+(	(	(	PUNCT	-	5737	punct	V	PROPN	-	5738
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	5738	flat	Ellen	PROPN	_	5734
+V	V	V	PROPN	-	5738	flat	Ellen	PROPN	-	5734
 <g/>
 </name>
-)	)	)	PUNCT	_	5739	punct	V	PROPN	_	5738
+)	)	)	PUNCT	-	5739	punct	V	PROPN	-	5738
 10-12	10-12	10-12	NUM	NumType=Card	5740	nummod	b	NOUN	Definite=Ind Gender=Com Number=Sing	5741
-b	b	b	NOUN	Definite=Ind Gender=Com Number=Sing	5741	list	Ellen	PROPN	_	5734
+b	b	b	NOUN	Definite=Ind Gender=Com Number=Sing	5741	list	Ellen	PROPN	-	5734
 <name type="PER">
-Jakob	Jakob	Jakob	PROPN	_	5742	appos	b	NOUN	Definite=Ind Gender=Com Number=Sing	5741
-Ellemann-Jensen	Ellemann-Jensen	Ellemann-Jensen	PROPN	_	5743	flat	Jakob	PROPN	_	5742
+Jakob	Jakob	Jakob	PROPN	-	5742	appos	b	NOUN	Definite=Ind Gender=Com Number=Sing	5741
+Ellemann-Jensen	Ellemann-Jensen	Ellemann-Jensen	PROPN	-	5743	flat	Jakob	PROPN	-	5742
 </name>
-(	(	(	PUNCT	_	5744	punct	V	PROPN	_	5745
+(	(	(	PUNCT	-	5744	punct	V	PROPN	-	5745
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	5745	flat	Jakob	PROPN	_	5742
+V	V	V	PROPN	-	5745	flat	Jakob	PROPN	-	5742
 <g/>
 </name>
-)	)	)	PUNCT	_	5746	punct	V	PROPN	_	5745
+)	)	)	PUNCT	-	5746	punct	V	PROPN	-	5745
 10-12	10-12	10-12	NUM	NumType=Card	5747	nummod	c	X	Foreign=Yes	5748
-c	c	c	X	Foreign=Yes	5748	list	V	PROPN	_	5745
+c	c	c	X	Foreign=Yes	5748	list	V	PROPN	-	5745
 <name type="PER">
-Karsten	Karsten	Karsten	PROPN	_	5749	appos	c	X	Foreign=Yes	5748
-Lauritzen	Lauritzen	Lauritzen	PROPN	_	5750	flat	Karsten	PROPN	_	5749
+Karsten	Karsten	Karsten	PROPN	-	5749	appos	c	X	Foreign=Yes	5748
+Lauritzen	Lauritzen	Lauritzen	PROPN	-	5750	flat	Karsten	PROPN	-	5749
 </name>
-(	(	(	PUNCT	_	5751	punct	V	PROPN	_	5752
+(	(	(	PUNCT	-	5751	punct	V	PROPN	-	5752
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	5752	flat	Karsten	PROPN	_	5749
+V	V	V	PROPN	-	5752	flat	Karsten	PROPN	-	5749
 <g/>
 </name>
-)	)	)	PUNCT	_	5753	punct	V	PROPN	_	5752
-13-14	13-14	13-14	X	_	5754	list	V	PROPN	_	5752
-a	a	a	X	Foreign=Yes	5755	dep	Peter	PROPN	_	5756
+)	)	)	PUNCT	-	5753	punct	V	PROPN	-	5752
+13-14	13-14	13-14	X	-	5754	list	V	PROPN	-	5752
+a	a	a	X	Foreign=Yes	5755	dep	Peter	PROPN	-	5756
 <name type="PER">
-Peter	Peter	Peter	PROPN	_	5756	conj	13-14	X	_	5754
-Skaarup	Skaarup	Skaarup	PROPN	_	5757	flat	Peter	PROPN	_	5756
+Peter	Peter	Peter	PROPN	-	5756	conj	13-14	X	-	5754
+Skaarup	Skaarup	Skaarup	PROPN	-	5757	flat	Peter	PROPN	-	5756
 </name>
-(	(	(	PUNCT	_	5758	punct	DF	PROPN	_	5759
+(	(	(	PUNCT	-	5758	punct	DF	PROPN	-	5759
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	5759	flat	Peter	PROPN	_	5756
+DF	DF	DF	PROPN	-	5759	flat	Peter	PROPN	-	5756
 <g/>
 </name>
-)	)	)	PUNCT	_	5760	punct	DF	PROPN	_	5759
+)	)	)	PUNCT	-	5760	punct	DF	PROPN	-	5759
 13-14	13-14	13-14	NUM	NumType=Card	5761	nummod	b	NOUN	Definite=Ind Gender=Com Number=Sing	5762
-b	b	b	NOUN	Definite=Ind Gender=Com Number=Sing	5762	list	Peter	PROPN	_	5756
+b	b	b	NOUN	Definite=Ind Gender=Com Number=Sing	5762	list	Peter	PROPN	-	5756
 <name type="PER">
-Pia	Pia	Pia	PROPN	_	5763	list	b	NOUN	Definite=Ind Gender=Com Number=Sing	5762
-Kjærsgaard	Kjærsgaard	Kjærsgaard	PROPN	_	5764	flat	Pia	PROPN	_	5763
+Pia	Pia	Pia	PROPN	-	5763	list	b	NOUN	Definite=Ind Gender=Com Number=Sing	5762
+Kjærsgaard	Kjærsgaard	Kjærsgaard	PROPN	-	5764	flat	Pia	PROPN	-	5763
 </name>
-(	(	(	PUNCT	_	5765	punct	DF	PROPN	_	5766
+(	(	(	PUNCT	-	5765	punct	DF	PROPN	-	5766
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	5766	flat	Pia	PROPN	_	5763
+DF	DF	DF	PROPN	-	5766	flat	Pia	PROPN	-	5763
 <g/>
 </name>
-)	)	)	PUNCT	_	5767	punct	DF	PROPN	_	5766
-15	15	15	NUM	NumType=Card	5768	nummod	Anders	PROPN	_	5769
+)	)	)	PUNCT	-	5767	punct	DF	PROPN	-	5766
+15	15	15	NUM	NumType=Card	5768	nummod	Anders	PROPN	-	5769
 <name type="PER">
-Anders	Anders	Anders	PROPN	_	5769	list	Pia	PROPN	_	5763
-Samuelsen	Samuelsen	Samuelsen	PROPN	_	5770	flat	Anders	PROPN	_	5769
+Anders	Anders	Anders	PROPN	-	5769	list	Pia	PROPN	-	5763
+Samuelsen	Samuelsen	Samuelsen	PROPN	-	5770	flat	Anders	PROPN	-	5769
 </name>
-(	(	(	PUNCT	_	5771	punct	LA	PROPN	_	5772
+(	(	(	PUNCT	-	5771	punct	LA	PROPN	-	5772
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	5772	flat	Anders	PROPN	_	5769
+LA	LA	LA	PROPN	-	5772	flat	Anders	PROPN	-	5769
 <g/>
 </name>
-)	)	)	PUNCT	_	5773	punct	LA	PROPN	_	5772
-16	16	16	NUM	NumType=Card	5774	nummod	Per	PROPN	_	5775
+)	)	)	PUNCT	-	5773	punct	LA	PROPN	-	5772
+16	16	16	NUM	NumType=Card	5774	nummod	Per	PROPN	-	5775
 <name type="PER">
-Per	Per	Per	PROPN	_	5775	list	Anders	PROPN	_	5769
-Stig	Stig	Stig	PROPN	_	5776	flat	Per	PROPN	_	5775
-Møller	Møller	Møller	PROPN	_	5777	flat	Per	PROPN	_	5775
+Per	Per	Per	PROPN	-	5775	list	Anders	PROPN	-	5769
+Stig	Stig	Stig	PROPN	-	5776	flat	Per	PROPN	-	5775
+Møller	Møller	Møller	PROPN	-	5777	flat	Per	PROPN	-	5775
 </name>
-(	(	(	PUNCT	_	5778	punct	KF	PROPN	_	5779
+(	(	(	PUNCT	-	5778	punct	KF	PROPN	-	5779
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	5779	flat	Per	PROPN	_	5775
+KF	KF	KF	PROPN	-	5779	flat	Per	PROPN	-	5775
 <g/>
 </name>
-)	)	)	PUNCT	_	5780	punct	KF	PROPN	_	5779
-17	17	17	NUM	NumType=Card	5781	nummod	Troels	PROPN	_	5782
+)	)	)	PUNCT	-	5780	punct	KF	PROPN	-	5779
+17	17	17	NUM	NumType=Card	5781	nummod	Troels	PROPN	-	5782
 <name type="PER">
-Troels	Troels	Troels	PROPN	_	5782	list	Per	PROPN	_	5775
-Lund	Lund	Lund	PROPN	_	5783	flat	Troels	PROPN	_	5782
-Poulsen	Poulsen	Poulsen	PROPN	_	5784	flat	Troels	PROPN	_	5782
+Troels	Troels	Troels	PROPN	-	5782	list	Per	PROPN	-	5775
+Lund	Lund	Lund	PROPN	-	5783	flat	Troels	PROPN	-	5782
+Poulsen	Poulsen	Poulsen	PROPN	-	5784	flat	Troels	PROPN	-	5782
 </name>
-(	(	(	PUNCT	_	5785	punct	V	PROPN	_	5786
+(	(	(	PUNCT	-	5785	punct	V	PROPN	-	5786
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	5786	flat	Troels	PROPN	_	5782
+V	V	V	PROPN	-	5786	flat	Troels	PROPN	-	5782
 <g/>
 </name>
-)	)	)	PUNCT	_	5787	punct	V	PROPN	_	5786
-Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	5788	list	Troels	PROPN	_	5782
+)	)	)	PUNCT	-	5787	punct	V	PROPN	-	5786
+Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	5788	list	Troels	PROPN	-	5782
 <g/>
-:	:	:	PUNCT	_	5789	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	5788
+:	:	:	PUNCT	-	5789	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	5788
 <name type="PER">
-Mette	Mette	Mette	PROPN	_	5790	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	5788
-Gjerskov	Gjerskov	Gjerskov	PROPN	_	5791	flat	Mette	PROPN	_	5790
+Mette	Mette	Mette	PROPN	-	5790	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	5788
+Gjerskov	Gjerskov	Gjerskov	PROPN	-	5791	flat	Mette	PROPN	-	5790
 </name>
-(	(	(	PUNCT	_	5792	punct	S	PROPN	_	5793
+(	(	(	PUNCT	-	5792	punct	S	PROPN	-	5793
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	5793	flat	Mette	PROPN	_	5790
+S	S	S	PROPN	-	5793	flat	Mette	PROPN	-	5790
 <g/>
 </name>
-)	)	)	PUNCT	_	5794	punct	S	PROPN	_	5793
-Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	5795	list	Mette	PROPN	_	5790
+)	)	)	PUNCT	-	5794	punct	S	PROPN	-	5793
+Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	5795	list	Mette	PROPN	-	5790
 <g/>
-:	:	:	PUNCT	_	5796	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	5795
+:	:	:	PUNCT	-	5796	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	5795
 <name type="PER">
-Søren	Søren	Søren	PROPN	_	5797	appos	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	5795
-Espersen	Espersen	Espersen	PROPN	_	5798	flat	Søren	PROPN	_	5797
+Søren	Søren	Søren	PROPN	-	5797	appos	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	5795
+Espersen	Espersen	Espersen	PROPN	-	5798	flat	Søren	PROPN	-	5797
 </name>
-(	(	(	PUNCT	_	5799	punct	DF	PROPN	_	5800
+(	(	(	PUNCT	-	5799	punct	DF	PROPN	-	5800
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	5800	flat	Søren	PROPN	_	5797
+DF	DF	DF	PROPN	-	5800	flat	Søren	PROPN	-	5797
 <g/>
 </name>
-)	)	)	PUNCT	_	5801	punct	DF	PROPN	_	5800
-Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	5802	flat	Søren	PROPN	_	5797
+)	)	)	PUNCT	-	5801	punct	DF	PROPN	-	5800
+Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	5802	flat	Søren	PROPN	-	5797
 af	af	af	ADP	AdpType=Prep	5803	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	5805
 16	16	16	NUM	NumType=Card	5804	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	5805
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	5805	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	5802
-og	og	og	CCONJ	_	5806	dep	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	5805
+og	og	og	CCONJ	-	5806	dep	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	5805
 16	16	16	NUM	NumType=Card	5807	nummod	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	5808
 stedfortrædere	stedfortrædere	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	5808	conj	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	5805
 til	til	til	ADP	AdpType=Prep	5809	case	råd	NOUN	Definite=Ind Gender=Neut Number=Sing	5811
 Nordisk	Nordisk	nordisk	ADJ	Definite=Ind Degree=Pos Number=Sing	5810	amod	råd	NOUN	Definite=Ind Gender=Neut Number=Sing	5811
 Råd	Råd	råd	NOUN	Definite=Ind Gender=Neut Number=Sing	5811	nmod	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	5808
 <g/>
-:	:	:	PUNCT	_	5812	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	5795
+:	:	:	PUNCT	-	5812	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	5795
 Valgt	Valgt	valgt	NOUN	Definite=Ind Gender=Com Number=Sing	5813	nsubj	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	5814
 blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	5814	list	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	5795
 <g/>
-:	:	:	PUNCT	_	5815	punct	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	5814
+:	:	:	PUNCT	-	5815	punct	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	5814
 Til	Til	til	ADP	AdpType=Prep	5816	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	5817
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	5817	obl	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	5814
 <g/>
-:	:	:	PUNCT	_	5818	punct	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	5817
-1	1	1	NUM	NumType=Card	5819	nummod	Karin	PROPN	_	5820
+:	:	:	PUNCT	-	5818	punct	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	5817
+1	1	1	NUM	NumType=Card	5819	nummod	Karin	PROPN	-	5820
 <name type="PER">
-Karin	Karin	Karin	PROPN	_	5820	list	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	5817
-Gaardsted	Gaardsted	Gaardsted	PROPN	_	5821	flat	Karin	PROPN	_	5820
+Karin	Karin	Karin	PROPN	-	5820	list	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	5817
+Gaardsted	Gaardsted	Gaardsted	PROPN	-	5821	flat	Karin	PROPN	-	5820
 </name>
-(	(	(	PUNCT	_	5822	punct	S	PROPN	_	5823
+(	(	(	PUNCT	-	5822	punct	S	PROPN	-	5823
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	5823	flat	Karin	PROPN	_	5820
+S	S	S	PROPN	-	5823	flat	Karin	PROPN	-	5820
 <g/>
 </name>
-)	)	)	PUNCT	_	5824	punct	S	PROPN	_	5823
-2	2	2	NUM	NumType=Card	5825	nummod	Karen	PROPN	_	5826
+)	)	)	PUNCT	-	5824	punct	S	PROPN	-	5823
+2	2	2	NUM	NumType=Card	5825	nummod	Karen	PROPN	-	5826
 <name type="PER">
-Karen	Karen	Karen	PROPN	_	5826	list	Karin	PROPN	_	5820
-J.	J.	J.	PROPN	_	5827	flat	Karen	PROPN	_	5826
-Klint	Klint	Klint	PROPN	_	5828	flat	Karen	PROPN	_	5826
+Karen	Karen	Karen	PROPN	-	5826	list	Karin	PROPN	-	5820
+J.	J.	J.	PROPN	-	5827	flat	Karen	PROPN	-	5826
+Klint	Klint	Klint	PROPN	-	5828	flat	Karen	PROPN	-	5826
 </name>
-(	(	(	PUNCT	_	5829	punct	S	PROPN	_	5830
+(	(	(	PUNCT	-	5829	punct	S	PROPN	-	5830
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	5830	flat	Karen	PROPN	_	5826
+S	S	S	PROPN	-	5830	flat	Karen	PROPN	-	5826
 <g/>
 </name>
-)	)	)	PUNCT	_	5831	punct	S	PROPN	_	5830
-3	3	3	NUM	NumType=Card	5832	nummod	Annette	PROPN	_	5833
+)	)	)	PUNCT	-	5831	punct	S	PROPN	-	5830
+3	3	3	NUM	NumType=Card	5832	nummod	Annette	PROPN	-	5833
 <name type="PER">
-Annette	Annette	Annette	PROPN	_	5833	list	Karen	PROPN	_	5826
-Lind	Lind	Lind	PROPN	_	5834	flat	Annette	PROPN	_	5833
+Annette	Annette	Annette	PROPN	-	5833	list	Karen	PROPN	-	5826
+Lind	Lind	Lind	PROPN	-	5834	flat	Annette	PROPN	-	5833
 </name>
-(	(	(	PUNCT	_	5835	punct	S	PROPN	_	5836
+(	(	(	PUNCT	-	5835	punct	S	PROPN	-	5836
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	5836	list	Annette	PROPN	_	5833
+S	S	S	PROPN	-	5836	list	Annette	PROPN	-	5833
 <g/>
 </name>
-)	)	)	PUNCT	_	5837	punct	S	PROPN	_	5836
-4	4	4	NUM	NumType=Card	5838	nummod	Henrik	PROPN	_	5839
+)	)	)	PUNCT	-	5837	punct	S	PROPN	-	5836
+4	4	4	NUM	NumType=Card	5838	nummod	Henrik	PROPN	-	5839
 <name type="PER">
-Henrik	Henrik	Henrik	PROPN	_	5839	list	S	PROPN	_	5836
-Dam	Dam	Dam	PROPN	_	5840	flat	Henrik	PROPN	_	5839
-Kristensen	Kristensen	Kristensen	PROPN	_	5841	flat	Henrik	PROPN	_	5839
+Henrik	Henrik	Henrik	PROPN	-	5839	list	S	PROPN	-	5836
+Dam	Dam	Dam	PROPN	-	5840	flat	Henrik	PROPN	-	5839
+Kristensen	Kristensen	Kristensen	PROPN	-	5841	flat	Henrik	PROPN	-	5839
 </name>
-(	(	(	PUNCT	_	5842	punct	S	PROPN	_	5843
+(	(	(	PUNCT	-	5842	punct	S	PROPN	-	5843
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	5843	flat	Henrik	PROPN	_	5839
+S	S	S	PROPN	-	5843	flat	Henrik	PROPN	-	5839
 <g/>
 </name>
-)	)	)	PUNCT	_	5844	punct	S	PROPN	_	5843
-5	5	5	NUM	NumType=Card	5845	nummod	Sjúrður	PROPN	_	5846
+)	)	)	PUNCT	-	5844	punct	S	PROPN	-	5843
+5	5	5	NUM	NumType=Card	5845	nummod	Sjúrður	PROPN	-	5846
 <name type="PER">
-Sjúrður	Sjúrður	Sjúrður	PROPN	_	5846	list	Henrik	PROPN	_	5839
-Skaale	Skaale	Skaale	PROPN	_	5847	flat	Sjúrður	PROPN	_	5846
+Sjúrður	Sjúrður	Sjúrður	PROPN	-	5846	list	Henrik	PROPN	-	5839
+Skaale	Skaale	Skaale	PROPN	-	5847	flat	Sjúrður	PROPN	-	5846
 </name>
-(	(	(	PUNCT	_	5848	punct	JF	PROPN	_	5849
+(	(	(	PUNCT	-	5848	punct	JF	PROPN	-	5849
 <g/>
 <name type="ORG">
-JF	JF	JF	PROPN	_	5849	flat	Sjúrður	PROPN	_	5846
+JF	JF	JF	PROPN	-	5849	flat	Sjúrður	PROPN	-	5846
 <g/>
 </name>
-)	)	)	PUNCT	_	5850	punct	JF	PROPN	_	5849
-6	6	6	NUM	NumType=Card	5851	nummod	Liv	PROPN	_	5852
-Liv	Liv	Liv	PROPN	_	5852	list	Sjúrður	PROPN	_	5846
+)	)	)	PUNCT	-	5850	punct	JF	PROPN	-	5849
+6	6	6	NUM	NumType=Card	5851	nummod	Liv	PROPN	-	5852
+Liv	Liv	Liv	PROPN	-	5852	list	Sjúrður	PROPN	-	5846
 <name type="PER">
-Holm	Holm	Holm	PROPN	_	5853	flat	Liv	PROPN	_	5852
-Andersen	Andersen	Andersen	PROPN	_	5854	flat	Liv	PROPN	_	5852
+Holm	Holm	Holm	PROPN	-	5853	flat	Liv	PROPN	-	5852
+Andersen	Andersen	Andersen	PROPN	-	5854	flat	Liv	PROPN	-	5852
 </name>
-(	(	(	PUNCT	_	5855	punct	RV	PROPN	_	5856
+(	(	(	PUNCT	-	5855	punct	RV	PROPN	-	5856
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	5856	list	Liv	PROPN	_	5852
+RV	RV	RV	PROPN	-	5856	list	Liv	PROPN	-	5852
 <g/>
 </name>
-)	)	)	PUNCT	_	5857	punct	RV	PROPN	_	5856
-7	7	7	NUM	NumType=Card	5858	nummod	Steen	PROPN	_	5859
+)	)	)	PUNCT	-	5857	punct	RV	PROPN	-	5856
+7	7	7	NUM	NumType=Card	5858	nummod	Steen	PROPN	-	5859
 <name type="PER">
-Steen	Steen	Steen	PROPN	_	5859	list	RV	PROPN	_	5856
-Gade	Gade	Gade	PROPN	_	5860	flat	Steen	PROPN	_	5859
+Steen	Steen	Steen	PROPN	-	5859	list	RV	PROPN	-	5856
+Gade	Gade	Gade	PROPN	-	5860	flat	Steen	PROPN	-	5859
 </name>
-(	(	(	PUNCT	_	5861	punct	SF	PROPN	_	5862
+(	(	(	PUNCT	-	5861	punct	SF	PROPN	-	5862
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	5862	list	Steen	PROPN	_	5859
+SF	SF	SF	PROPN	-	5862	list	Steen	PROPN	-	5859
 <g/>
 </name>
-)	)	)	PUNCT	_	5863	punct	SF	PROPN	_	5862
-8	8	8	NUM	NumType=Card	5864	nummod	Finn	PROPN	_	5865
+)	)	)	PUNCT	-	5863	punct	SF	PROPN	-	5862
+8	8	8	NUM	NumType=Card	5864	nummod	Finn	PROPN	-	5865
 <name type="PER">
-Finn	Finn	Finn	PROPN	_	5865	list	SF	PROPN	_	5862
-Sørensen	Sørensen	Sørensen	PROPN	_	5866	flat	Finn	PROPN	_	5865
+Finn	Finn	Finn	PROPN	-	5865	list	SF	PROPN	-	5862
+Sørensen	Sørensen	Sørensen	PROPN	-	5866	flat	Finn	PROPN	-	5865
 </name>
-(	(	(	PUNCT	_	5867	punct	EL	PROPN	_	5868
+(	(	(	PUNCT	-	5867	punct	EL	PROPN	-	5868
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	5868	flat	Finn	PROPN	_	5865
+EL	EL	EL	PROPN	-	5868	flat	Finn	PROPN	-	5865
 <g/>
 </name>
-)	)	)	PUNCT	_	5869	punct	EL	PROPN	_	5868
-9	9	9	NUM	NumType=Card	5870	nummod	Finn	PROPN	_	5871
+)	)	)	PUNCT	-	5869	punct	EL	PROPN	-	5868
+9	9	9	NUM	NumType=Card	5870	nummod	Finn	PROPN	-	5871
 <name type="PER">
-Finn	Finn	Finn	PROPN	_	5871	list	Finn	PROPN	_	5865
-Thranum	Thranum	Thranum	PROPN	_	5872	flat	Finn	PROPN	_	5871
+Finn	Finn	Finn	PROPN	-	5871	list	Finn	PROPN	-	5865
+Thranum	Thranum	Thranum	PROPN	-	5872	flat	Finn	PROPN	-	5871
 </name>
-(	(	(	PUNCT	_	5873	punct	V	PROPN	_	5874
+(	(	(	PUNCT	-	5873	punct	V	PROPN	-	5874
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	5874	flat	Finn	PROPN	_	5871
+V	V	V	PROPN	-	5874	flat	Finn	PROPN	-	5871
 <g/>
 </name>
-)	)	)	PUNCT	_	5875	punct	V	PROPN	_	5874
-10	10	10	NUM	NumType=Card	5876	nummod	Flemming	PROPN	_	5877
+)	)	)	PUNCT	-	5875	punct	V	PROPN	-	5874
+10	10	10	NUM	NumType=Card	5876	nummod	Flemming	PROPN	-	5877
 <name type="PER">
-Flemming	Flemming	Flemming	PROPN	_	5877	list	Finn	PROPN	_	5871
-Damgaard	Damgaard	Damgaard	PROPN	_	5878	flat	Flemming	PROPN	_	5877
-Larsen	Larsen	Larsen	PROPN	_	5879	flat	Flemming	PROPN	_	5877
+Flemming	Flemming	Flemming	PROPN	-	5877	list	Finn	PROPN	-	5871
+Damgaard	Damgaard	Damgaard	PROPN	-	5878	flat	Flemming	PROPN	-	5877
+Larsen	Larsen	Larsen	PROPN	-	5879	flat	Flemming	PROPN	-	5877
 </name>
-(	(	(	PUNCT	_	5880	punct	V	PROPN	_	5881
+(	(	(	PUNCT	-	5880	punct	V	PROPN	-	5881
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	5881	flat	Flemming	PROPN	_	5877
+V	V	V	PROPN	-	5881	flat	Flemming	PROPN	-	5877
 <g/>
 </name>
-)	)	)	PUNCT	_	5882	punct	V	PROPN	_	5881
-11	11	11	NUM	NumType=Card	5883	nummod	Karen	PROPN	_	5884
+)	)	)	PUNCT	-	5882	punct	V	PROPN	-	5881
+11	11	11	NUM	NumType=Card	5883	nummod	Karen	PROPN	-	5884
 <name type="PER">
-Karen	Karen	Karen	PROPN	_	5884	list	Flemming	PROPN	_	5877
-Ellemann	Ellemann	Ellemann	PROPN	_	5885	flat	Karen	PROPN	_	5884
+Karen	Karen	Karen	PROPN	-	5884	list	Flemming	PROPN	-	5877
+Ellemann	Ellemann	Ellemann	PROPN	-	5885	flat	Karen	PROPN	-	5884
 </name>
-(	(	(	PUNCT	_	5886	punct	V	PROPN	_	5887
+(	(	(	PUNCT	-	5886	punct	V	PROPN	-	5887
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	5887	flat	Karen	PROPN	_	5884
+V	V	V	PROPN	-	5887	flat	Karen	PROPN	-	5884
 <g/>
 </name>
-)	)	)	PUNCT	_	5888	punct	V	PROPN	_	5887
-12	12	12	NUM	NumType=Card	5889	nummod	Bertel	PROPN	_	5890
+)	)	)	PUNCT	-	5888	punct	V	PROPN	-	5887
+12	12	12	NUM	NumType=Card	5889	nummod	Bertel	PROPN	-	5890
 <name type="PER">
-Bertel	Bertel	Bertel	PROPN	_	5890	list	Karen	PROPN	_	5884
-Haarder	Haarder	Haarder	PROPN	_	5891	flat	Bertel	PROPN	_	5890
+Bertel	Bertel	Bertel	PROPN	-	5890	list	Karen	PROPN	-	5884
+Haarder	Haarder	Haarder	PROPN	-	5891	flat	Bertel	PROPN	-	5890
 </name>
-(	(	(	PUNCT	_	5892	punct	V	PROPN	_	5893
+(	(	(	PUNCT	-	5892	punct	V	PROPN	-	5893
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	5893	flat	Bertel	PROPN	_	5890
+V	V	V	PROPN	-	5893	flat	Bertel	PROPN	-	5890
 <g/>
 </name>
-)	)	)	PUNCT	_	5894	punct	V	PROPN	_	5893
-13	13	13	NUM	NumType=Card	5895	nummod	Mikkel	PROPN	_	5896
+)	)	)	PUNCT	-	5894	punct	V	PROPN	-	5893
+13	13	13	NUM	NumType=Card	5895	nummod	Mikkel	PROPN	-	5896
 <name type="PER">
-Mikkel	Mikkel	Mikkel	PROPN	_	5896	list	Bertel	PROPN	_	5890
-Dencker	Dencker	Dencker	PROPN	_	5897	flat	Mikkel	PROPN	_	5896
+Mikkel	Mikkel	Mikkel	PROPN	-	5896	list	Bertel	PROPN	-	5890
+Dencker	Dencker	Dencker	PROPN	-	5897	flat	Mikkel	PROPN	-	5896
 </name>
-(	(	(	PUNCT	_	5898	punct	DF	PROPN	_	5899
+(	(	(	PUNCT	-	5898	punct	DF	PROPN	-	5899
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	5899	flat	Mikkel	PROPN	_	5896
+DF	DF	DF	PROPN	-	5899	flat	Mikkel	PROPN	-	5896
 <g/>
 </name>
-)	)	)	PUNCT	_	5900	punct	DF	PROPN	_	5899
-14	14	14	NUM	NumType=Card	5901	nummod	Liselott	PROPN	_	5902
+)	)	)	PUNCT	-	5900	punct	DF	PROPN	-	5899
+14	14	14	NUM	NumType=Card	5901	nummod	Liselott	PROPN	-	5902
 <name type="PER">
-Liselott	Liselott	Liselott	PROPN	_	5902	list	Mikkel	PROPN	_	5896
-Blixt	Blixt	Blixt	PROPN	_	5903	flat	Liselott	PROPN	_	5902
+Liselott	Liselott	Liselott	PROPN	-	5902	list	Mikkel	PROPN	-	5896
+Blixt	Blixt	Blixt	PROPN	-	5903	flat	Liselott	PROPN	-	5902
 </name>
-(	(	(	PUNCT	_	5904	punct	DF	PROPN	_	5905
+(	(	(	PUNCT	-	5904	punct	DF	PROPN	-	5905
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	5905	flat	Liselott	PROPN	_	5902
+DF	DF	DF	PROPN	-	5905	flat	Liselott	PROPN	-	5902
 <g/>
 </name>
-)	)	)	PUNCT	_	5906	punct	DF	PROPN	_	5905
-15	15	15	NUM	NumType=Card	5907	nummod	Villum	PROPN	_	5908
+)	)	)	PUNCT	-	5906	punct	DF	PROPN	-	5905
+15	15	15	NUM	NumType=Card	5907	nummod	Villum	PROPN	-	5908
 <name type="PER">
-Villum	Villum	Villum	PROPN	_	5908	list	Liselott	PROPN	_	5902
-Christensen	Christensen	Christensen	PROPN	_	5909	flat	Villum	PROPN	_	5908
+Villum	Villum	Villum	PROPN	-	5908	list	Liselott	PROPN	-	5902
+Christensen	Christensen	Christensen	PROPN	-	5909	flat	Villum	PROPN	-	5908
 </name>
-(	(	(	PUNCT	_	5910	punct	LA	PROPN	_	5911
+(	(	(	PUNCT	-	5910	punct	LA	PROPN	-	5911
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	5911	flat	Villum	PROPN	_	5908
+LA	LA	LA	PROPN	-	5911	flat	Villum	PROPN	-	5908
 <g/>
 </name>
-)	)	)	PUNCT	_	5912	punct	LA	PROPN	_	5911
-16	16	16	NUM	NumType=Card	5913	nummod	Lars	PROPN	_	5914
+)	)	)	PUNCT	-	5912	punct	LA	PROPN	-	5911
+16	16	16	NUM	NumType=Card	5913	nummod	Lars	PROPN	-	5914
 <name type="PER">
-Lars	Lars	Lars	PROPN	_	5914	list	Villum	PROPN	_	5908
-Barfoed	Barfoed	Barfoed	PROPN	_	5915	flat	Lars	PROPN	_	5914
+Lars	Lars	Lars	PROPN	-	5914	list	Villum	PROPN	-	5908
+Barfoed	Barfoed	Barfoed	PROPN	-	5915	flat	Lars	PROPN	-	5914
 </name>
-(	(	(	PUNCT	_	5916	punct	KF	PROPN	_	5917
+(	(	(	PUNCT	-	5916	punct	KF	PROPN	-	5917
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	5917	flat	Lars	PROPN	_	5914
+KF	KF	KF	PROPN	-	5917	flat	Lars	PROPN	-	5914
 <g/>
 </name>
-)	)	)	PUNCT	_	5918	punct	KF	PROPN	_	5917
+)	)	)	PUNCT	-	5918	punct	KF	PROPN	-	5917
 Til	Til	til	ADP	AdpType=Prep	5919	case	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	5920
-stedfortrædere	stedfortrædere	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	5920	nmod	Lars	PROPN	_	5914
-for	for	for	ADP	AdpType=Prep	5921	case	Jens	PROPN	_	5924
+stedfortrædere	stedfortrædere	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	5920	nmod	Lars	PROPN	-	5914
+for	for	for	ADP	AdpType=Prep	5921	case	Jens	PROPN	-	5924
 <g/>
-:	:	:	PUNCT	_	5922	punct	for	ADP	AdpType=Prep	5921
-1	1	1	NUM	NumType=Card	5923	nummod	Jens	PROPN	_	5924
+:	:	:	PUNCT	-	5922	punct	for	ADP	AdpType=Prep	5921
+1	1	1	NUM	NumType=Card	5923	nummod	Jens	PROPN	-	5924
 <name type="PER">
-Jens	Jens	Jens	PROPN	_	5924	nmod	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	5920
-Joel	Joel	Joel	PROPN	_	5925	flat	Jens	PROPN	_	5924
+Jens	Jens	Jens	PROPN	-	5924	nmod	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	5920
+Joel	Joel	Joel	PROPN	-	5925	flat	Jens	PROPN	-	5924
 </name>
-(	(	(	PUNCT	_	5926	punct	S	PROPN	_	5927
+(	(	(	PUNCT	-	5926	punct	S	PROPN	-	5927
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	5927	flat	Jens	PROPN	_	5924
+S	S	S	PROPN	-	5927	flat	Jens	PROPN	-	5924
 <g/>
 </name>
-)	)	)	PUNCT	_	5928	punct	S	PROPN	_	5927
-2	2	2	NUM	NumType=Card	5929	nummod	Jacob	PROPN	_	5930
+)	)	)	PUNCT	-	5928	punct	S	PROPN	-	5927
+2	2	2	NUM	NumType=Card	5929	nummod	Jacob	PROPN	-	5930
 <name type="PER">
-Jacob	Jacob	Jacob	PROPN	_	5930	list	Jens	PROPN	_	5924
-Lund	Lund	Lund	PROPN	_	5931	flat	Jacob	PROPN	_	5930
+Jacob	Jacob	Jacob	PROPN	-	5930	list	Jens	PROPN	-	5924
+Lund	Lund	Lund	PROPN	-	5931	flat	Jacob	PROPN	-	5930
 </name>
-(	(	(	PUNCT	_	5932	punct	S	PROPN	_	5933
+(	(	(	PUNCT	-	5932	punct	S	PROPN	-	5933
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	5933	flat	Jacob	PROPN	_	5930
+S	S	S	PROPN	-	5933	flat	Jacob	PROPN	-	5930
 <g/>
 </name>
-)	)	)	PUNCT	_	5934	punct	S	PROPN	_	5933
-3	3	3	ADJ	NumType=Ord	5935	amod	Doris	PROPN	_	5936
+)	)	)	PUNCT	-	5934	punct	S	PROPN	-	5933
+3	3	3	ADJ	NumType=Ord	5935	amod	Doris	PROPN	-	5936
 <name type="PER">
-Doris	Doris	Doris	PROPN	_	5936	list	Jens	PROPN	_	5924
-Jakobsen	Jakobsen	Jakobsen	PROPN	_	5937	flat	Doris	PROPN	_	5936
+Doris	Doris	Doris	PROPN	-	5936	list	Jens	PROPN	-	5924
+Jakobsen	Jakobsen	Jakobsen	PROPN	-	5937	flat	Doris	PROPN	-	5936
 </name>
-(	(	(	PUNCT	_	5938	punct	SIU	PROPN	_	5939
+(	(	(	PUNCT	-	5938	punct	SIU	PROPN	-	5939
 <g/>
 <name type="PER">
-SIU	SIU	SIU	PROPN	_	5939	flat	Doris	PROPN	_	5936
+SIU	SIU	SIU	PROPN	-	5939	flat	Doris	PROPN	-	5936
 <g/>
 </name>
-)	)	)	PUNCT	_	5940	punct	SIU	PROPN	_	5939
-4	4	4	NUM	NumType=Card	5941	nummod	Ole	PROPN	_	5942
+)	)	)	PUNCT	-	5940	punct	SIU	PROPN	-	5939
+4	4	4	NUM	NumType=Card	5941	nummod	Ole	PROPN	-	5942
 <name type="PER">
-Ole	Ole	Ole	PROPN	_	5942	list	Doris	PROPN	_	5936
-Hækkerup	Hækkerup	Hækkerup	PROPN	_	5943	flat	Ole	PROPN	_	5942
+Ole	Ole	Ole	PROPN	-	5942	list	Doris	PROPN	-	5936
+Hækkerup	Hækkerup	Hækkerup	PROPN	-	5943	flat	Ole	PROPN	-	5942
 </name>
-(	(	(	PUNCT	_	5944	punct	S	PROPN	_	5945
+(	(	(	PUNCT	-	5944	punct	S	PROPN	-	5945
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	5945	flat	Ole	PROPN	_	5942
+S	S	S	PROPN	-	5945	flat	Ole	PROPN	-	5942
 <g/>
 </name>
-)	)	)	PUNCT	_	5946	punct	S	PROPN	_	5945
-5	5	5	NUM	NumType=Card	5947	nummod	Johan	PROPN	_	5948
+)	)	)	PUNCT	-	5946	punct	S	PROPN	-	5945
+5	5	5	NUM	NumType=Card	5947	nummod	Johan	PROPN	-	5948
 <name type="PER">
-Johan	Johan	Johan	PROPN	_	5948	list	Ole	PROPN	_	5942
-Lund	Lund	Lund	PROPN	_	5949	flat	Johan	PROPN	_	5948
-Olsen	Olsen	Olsen	PROPN	_	5950	flat	Johan	PROPN	_	5948
+Johan	Johan	Johan	PROPN	-	5948	list	Ole	PROPN	-	5942
+Lund	Lund	Lund	PROPN	-	5949	flat	Johan	PROPN	-	5948
+Olsen	Olsen	Olsen	PROPN	-	5950	flat	Johan	PROPN	-	5948
 </name>
-(	(	(	PUNCT	_	5951	punct	IA	PROPN	_	5952
+(	(	(	PUNCT	-	5951	punct	IA	PROPN	-	5952
 <g/>
 <name type="ORG">
-IA	IA	IA	PROPN	_	5952	list	Johan	PROPN	_	5948
+IA	IA	IA	PROPN	-	5952	list	Johan	PROPN	-	5948
 <g/>
 </name>
-)	)	)	PUNCT	_	5953	punct	IA	PROPN	_	5952
-6	6	6	NUM	NumType=Card	5954	nummod	Zenia	PROPN	_	5955
+)	)	)	PUNCT	-	5953	punct	IA	PROPN	-	5952
+6	6	6	NUM	NumType=Card	5954	nummod	Zenia	PROPN	-	5955
 <name type="PER">
-Zenia	Zenia	Zenia	PROPN	_	5955	list	IA	PROPN	_	5952
-Stampe	Stampe	Stampe	NOUN	Definite=Ind Gender=Com Number=Sing	5956	flat	Zenia	PROPN	_	5955
+Zenia	Zenia	Zenia	PROPN	-	5955	list	IA	PROPN	-	5952
+Stampe	Stampe	Stampe	NOUN	Definite=Ind Gender=Com Number=Sing	5956	flat	Zenia	PROPN	-	5955
 </name>
-(	(	(	PUNCT	_	5957	punct	RV	PROPN	_	5958
+(	(	(	PUNCT	-	5957	punct	RV	PROPN	-	5958
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	5958	flat	Zenia	PROPN	_	5955
+RV	RV	RV	PROPN	-	5958	flat	Zenia	PROPN	-	5955
 <g/>
 </name>
-)	)	)	PUNCT	_	5959	punct	RV	PROPN	_	5958
-7	7	7	NUM	NumType=Card	5960	nummod	Annette	PROPN	_	5961
+)	)	)	PUNCT	-	5959	punct	RV	PROPN	-	5958
+7	7	7	NUM	NumType=Card	5960	nummod	Annette	PROPN	-	5961
 <name type="PER">
-Annette	Annette	Annette	PROPN	_	5961	list	Zenia	PROPN	_	5955
-Vilhelmsen	Vilhelmsen	Vilhelmsen	PROPN	_	5962	flat	Annette	PROPN	_	5961
+Annette	Annette	Annette	PROPN	-	5961	list	Zenia	PROPN	-	5955
+Vilhelmsen	Vilhelmsen	Vilhelmsen	PROPN	-	5962	flat	Annette	PROPN	-	5961
 </name>
-(	(	(	PUNCT	_	5963	punct	SF	PROPN	_	5964
+(	(	(	PUNCT	-	5963	punct	SF	PROPN	-	5964
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	5964	list	Annette	PROPN	_	5961
+SF	SF	SF	PROPN	-	5964	list	Annette	PROPN	-	5961
 <g/>
 </name>
-)	)	)	PUNCT	_	5965	punct	SF	PROPN	_	5964
-8	8	8	NUM	NumType=Card	5966	nummod	Christian	PROPN	_	5967
+)	)	)	PUNCT	-	5965	punct	SF	PROPN	-	5964
+8	8	8	NUM	NumType=Card	5966	nummod	Christian	PROPN	-	5967
 <name type="PER">
-Christian	Christian	Christian	PROPN	_	5967	list	SF	PROPN	_	5964
-Juhl	Juhl	Juhl	PROPN	_	5968	flat	Christian	PROPN	_	5967
+Christian	Christian	Christian	PROPN	-	5967	list	SF	PROPN	-	5964
+Juhl	Juhl	Juhl	PROPN	-	5968	flat	Christian	PROPN	-	5967
 </name>
-(	(	(	PUNCT	_	5969	punct	EL	PROPN	_	5970
+(	(	(	PUNCT	-	5969	punct	EL	PROPN	-	5970
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	5970	flat	Christian	PROPN	_	5967
+EL	EL	EL	PROPN	-	5970	flat	Christian	PROPN	-	5967
 <g/>
 </name>
-)	)	)	PUNCT	_	5971	punct	EL	PROPN	_	5970
-9	9	9	NUM	NumType=Card	5972	nummod	Jacob	PROPN	_	5973
+)	)	)	PUNCT	-	5971	punct	EL	PROPN	-	5970
+9	9	9	NUM	NumType=Card	5972	nummod	Jacob	PROPN	-	5973
 <name type="PER">
-Jacob	Jacob	Jacob	PROPN	_	5973	list	Christian	PROPN	_	5967
-Jensen	Jensen	Jensen	PROPN	_	5974	flat	Jacob	PROPN	_	5973
+Jacob	Jacob	Jacob	PROPN	-	5973	list	Christian	PROPN	-	5967
+Jensen	Jensen	Jensen	PROPN	-	5974	flat	Jacob	PROPN	-	5973
 </name>
-(	(	(	PUNCT	_	5975	punct	V	PROPN	_	5976
+(	(	(	PUNCT	-	5975	punct	V	PROPN	-	5976
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	5976	flat	Jacob	PROPN	_	5973
+V	V	V	PROPN	-	5976	flat	Jacob	PROPN	-	5973
 <g/>
 </name>
-)	)	)	PUNCT	_	5977	punct	V	PROPN	_	5976
-10	10	10	NUM	NumType=Card	5978	nummod	Anni	PROPN	_	5979
+)	)	)	PUNCT	-	5977	punct	V	PROPN	-	5976
+10	10	10	NUM	NumType=Card	5978	nummod	Anni	PROPN	-	5979
 <name type="PER">
-Anni	Anni	Anni	PROPN	_	5979	list	Jacob	PROPN	_	5973
-Matthiesen	Matthiesen	Matthiesen	PROPN	_	5980	flat	Anni	PROPN	_	5979
+Anni	Anni	Anni	PROPN	-	5979	list	Jacob	PROPN	-	5973
+Matthiesen	Matthiesen	Matthiesen	PROPN	-	5980	flat	Anni	PROPN	-	5979
 </name>
-(	(	(	PUNCT	_	5981	punct	V	PROPN	_	5982
+(	(	(	PUNCT	-	5981	punct	V	PROPN	-	5982
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	5982	flat	Anni	PROPN	_	5979
+V	V	V	PROPN	-	5982	flat	Anni	PROPN	-	5979
 <g/>
 </name>
-)	)	)	PUNCT	_	5983	punct	V	PROPN	_	5982
-11	11	11	NUM	NumType=Card	5984	nummod	Claus	PROPN	_	5985
+)	)	)	PUNCT	-	5983	punct	V	PROPN	-	5982
+11	11	11	NUM	NumType=Card	5984	nummod	Claus	PROPN	-	5985
 <name type="PER">
-Claus	Claus	Claus	PROPN	_	5985	list	Anni	PROPN	_	5979
-Hjort	Hjort	Hjort	PROPN	_	5986	flat	Claus	PROPN	_	5985
-Frederiksen	Frederiksen	Frederiksen	PROPN	_	5987	flat	Claus	PROPN	_	5985
+Claus	Claus	Claus	PROPN	-	5985	list	Anni	PROPN	-	5979
+Hjort	Hjort	Hjort	PROPN	-	5986	flat	Claus	PROPN	-	5985
+Frederiksen	Frederiksen	Frederiksen	PROPN	-	5987	flat	Claus	PROPN	-	5985
 </name>
-(	(	(	PUNCT	_	5988	punct	V	PROPN	_	5989
+(	(	(	PUNCT	-	5988	punct	V	PROPN	-	5989
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	5989	flat	Claus	PROPN	_	5985
+V	V	V	PROPN	-	5989	flat	Claus	PROPN	-	5985
 <g/>
 </name>
-)	)	)	PUNCT	_	5990	punct	V	PROPN	_	5989
-12	12	12	NUM	NumType=Card	5991	nummod	Søren	PROPN	_	5992
+)	)	)	PUNCT	-	5990	punct	V	PROPN	-	5989
+12	12	12	NUM	NumType=Card	5991	nummod	Søren	PROPN	-	5992
 <name type="PER">
-Søren	Søren	Søren	PROPN	_	5992	list	Claus	PROPN	_	5985
-Pind	Pind	Pind	PROPN	_	5993	flat	Søren	PROPN	_	5992
+Søren	Søren	Søren	PROPN	-	5992	list	Claus	PROPN	-	5985
+Pind	Pind	Pind	PROPN	-	5993	flat	Søren	PROPN	-	5992
 </name>
-(	(	(	PUNCT	_	5994	punct	V	PROPN	_	5995
+(	(	(	PUNCT	-	5994	punct	V	PROPN	-	5995
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	5995	flat	Søren	PROPN	_	5992
+V	V	V	PROPN	-	5995	flat	Søren	PROPN	-	5992
 <g/>
 </name>
-)	)	)	PUNCT	_	5996	punct	V	PROPN	_	5995
-13	13	13	NUM	NumType=Card	5997	nummod	Karin	PROPN	_	5998
+)	)	)	PUNCT	-	5996	punct	V	PROPN	-	5995
+13	13	13	NUM	NumType=Card	5997	nummod	Karin	PROPN	-	5998
 <name type="PER">
-Karin	Karin	Karin	PROPN	_	5998	list	Søren	PROPN	_	5992
-Nødgaard	Nødgaard	Nødgaard	PROPN	_	5999	flat	Karin	PROPN	_	5998
+Karin	Karin	Karin	PROPN	-	5998	list	Søren	PROPN	-	5992
+Nødgaard	Nødgaard	Nødgaard	PROPN	-	5999	flat	Karin	PROPN	-	5998
 </name>
-(	(	(	PUNCT	_	6000	punct	DF	PROPN	_	6001
+(	(	(	PUNCT	-	6000	punct	DF	PROPN	-	6001
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	6001	flat	Karin	PROPN	_	5998
+DF	DF	DF	PROPN	-	6001	flat	Karin	PROPN	-	5998
 <g/>
 </name>
-)	)	)	PUNCT	_	6002	punct	DF	PROPN	_	6001
-14	14	14	NUM	NumType=Card	6003	nummod	Pia	PROPN	_	6004
+)	)	)	PUNCT	-	6002	punct	DF	PROPN	-	6001
+14	14	14	NUM	NumType=Card	6003	nummod	Pia	PROPN	-	6004
 <name type="PER">
-Pia	Pia	Pia	PROPN	_	6004	list	Karin	PROPN	_	5998
-Adelsteen	Adelsteen	Adelsteen	PROPN	_	6005	flat	Pia	PROPN	_	6004
+Pia	Pia	Pia	PROPN	-	6004	list	Karin	PROPN	-	5998
+Adelsteen	Adelsteen	Adelsteen	PROPN	-	6005	flat	Pia	PROPN	-	6004
 </name>
-(	(	(	PUNCT	_	6006	punct	DF	PROPN	_	6007
+(	(	(	PUNCT	-	6006	punct	DF	PROPN	-	6007
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	6007	flat	Pia	PROPN	_	6004
+DF	DF	DF	PROPN	-	6007	flat	Pia	PROPN	-	6004
 <g/>
 </name>
-)	)	)	PUNCT	_	6008	punct	DF	PROPN	_	6007
-15	15	15	NUM	NumType=Card	6009	nummod	Thyra	PROPN	_	6010
+)	)	)	PUNCT	-	6008	punct	DF	PROPN	-	6007
+15	15	15	NUM	NumType=Card	6009	nummod	Thyra	PROPN	-	6010
 <name type="PER">
-Thyra	Thyra	Thyra	PROPN	_	6010	list	Pia	PROPN	_	6004
-Frank	Frank	Frank	PROPN	_	6011	flat	Thyra	PROPN	_	6010
+Thyra	Thyra	Thyra	PROPN	-	6010	list	Pia	PROPN	-	6004
+Frank	Frank	Frank	PROPN	-	6011	flat	Thyra	PROPN	-	6010
 </name>
-(	(	(	PUNCT	_	6012	punct	LA	PROPN	_	6013
+(	(	(	PUNCT	-	6012	punct	LA	PROPN	-	6013
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	6013	flat	Thyra	PROPN	_	6010
+LA	LA	LA	PROPN	-	6013	flat	Thyra	PROPN	-	6010
 <g/>
 </name>
-)	)	)	PUNCT	_	6014	punct	LA	PROPN	_	6013
-16	16	16	NUM	NumType=Card	6015	nummod	Mai	PROPN	_	6016
+)	)	)	PUNCT	-	6014	punct	LA	PROPN	-	6013
+16	16	16	NUM	NumType=Card	6015	nummod	Mai	PROPN	-	6016
 <name type="PER">
-Mai	Mai	Mai	PROPN	_	6016	list	Pia	PROPN	_	6004
-Mercado	Mercado	Mercado	PROPN	_	6017	flat	Mai	PROPN	_	6016
+Mai	Mai	Mai	PROPN	-	6016	list	Pia	PROPN	-	6004
+Mercado	Mercado	Mercado	PROPN	-	6017	flat	Mai	PROPN	-	6016
 </name>
-(	(	(	PUNCT	_	6018	punct	KF	PROPN	_	6019
+(	(	(	PUNCT	-	6018	punct	KF	PROPN	-	6019
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	6019	flat	Mai	PROPN	_	6016
+KF	KF	KF	PROPN	-	6019	flat	Mai	PROPN	-	6016
 <g/>
 </name>
-)	)	)	PUNCT	_	6020	punct	KF	PROPN	_	6019
-Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	6021	list	Mai	PROPN	_	6016
+)	)	)	PUNCT	-	6020	punct	KF	PROPN	-	6019
+Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	6021	list	Mai	PROPN	-	6016
 <g/>
-:	:	:	PUNCT	_	6022	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	6021
+:	:	:	PUNCT	-	6022	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	6021
 <name type="PER">
-Bertel	Bertel	Bertel	PROPN	_	6023	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	6021
-Haarder	Haarder	Haarder	PROPN	_	6024	flat	Bertel	PROPN	_	6023
+Bertel	Bertel	Bertel	PROPN	-	6023	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	6021
+Haarder	Haarder	Haarder	PROPN	-	6024	flat	Bertel	PROPN	-	6023
 </name>
-(	(	(	PUNCT	_	6025	punct	V	PROPN	_	6026
+(	(	(	PUNCT	-	6025	punct	V	PROPN	-	6026
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	6026	flat	Bertel	PROPN	_	6023
+V	V	V	PROPN	-	6026	flat	Bertel	PROPN	-	6023
 <g/>
 </name>
-)	)	)	PUNCT	_	6027	punct	V	PROPN	_	6026
-Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	6028	list	Bertel	PROPN	_	6023
+)	)	)	PUNCT	-	6027	punct	V	PROPN	-	6026
+Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	6028	list	Bertel	PROPN	-	6023
 <g/>
-:	:	:	PUNCT	_	6029	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	6028
+:	:	:	PUNCT	-	6029	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	6028
 <name type="PER">
-Karin	Karin	Karin	PROPN	_	6030	appos	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	6028
-Gaardsted	Gaardsted	Gaardsted	PROPN	_	6031	flat	Karin	PROPN	_	6030
+Karin	Karin	Karin	PROPN	-	6030	appos	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	6028
+Gaardsted	Gaardsted	Gaardsted	PROPN	-	6031	flat	Karin	PROPN	-	6030
 </name>
-(	(	(	PUNCT	_	6032	punct	S	PROPN	_	6033
+(	(	(	PUNCT	-	6032	punct	S	PROPN	-	6033
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	6033	flat	Karin	PROPN	_	6030
+S	S	S	PROPN	-	6033	flat	Karin	PROPN	-	6030
 <g/>
 </name>
-)	)	)	PUNCT	_	6034	punct	S	PROPN	_	6033
-Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	6035	flat	Karin	PROPN	_	6030
+)	)	)	PUNCT	-	6034	punct	S	PROPN	-	6033
+Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	6035	flat	Karin	PROPN	-	6030
 af	af	af	ADP	AdpType=Prep	6036	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6038
 9	9	9	NUM	NumType=Card	6037	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6038
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6038	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	6035
-og	og	og	CCONJ	_	6039	dep	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6038
+og	og	og	CCONJ	-	6039	dep	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6038
 9	9	9	NUM	NumType=Card	6040	nummod	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	6041
 stedfortrædere	stedfortrædere	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	6041	conj	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6038
 til	til	til	ADP	AdpType=Prep	6042	case	udvalg	NOUN	Definite=Def Gender=Neut Number=Sing	6043
@@ -13423,660 +13423,660 @@ Det	Det	den	DET	Gender=Neut Number=Sing PronType=Dem	6045	det	råd	NOUN	Definite
 Etiske	Etiske	etisk	ADJ	Definite=Def Degree=Pos Number=Sing	6046	amod	råd	NOUN	Definite=Ind Gender=Neut Number=Sing	6047
 Råd	Råd	råd	NOUN	Definite=Ind Gender=Neut Number=Sing	6047	appos	udvalg	NOUN	Definite=Def Gender=Neut Number=Sing	6043
 <g/>
-:	:	:	PUNCT	_	6048	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	6028
+:	:	:	PUNCT	-	6048	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	6028
 Valgt	Valgt	valgt	NOUN	Definite=Ind Gender=Com Number=Sing	6049	nsubj	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	6050
 blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	6050	list	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	6028
 <g/>
-:	:	:	PUNCT	_	6051	punct	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	6050
+:	:	:	PUNCT	-	6051	punct	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	6050
 Til	Til	til	ADP	AdpType=Prep	6052	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6053
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6053	obl	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	6050
 <g/>
-:	:	:	PUNCT	_	6054	punct	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6053
-1	1	1	NUM	NumType=Card	6055	nummod	Karen	PROPN	_	6056
+:	:	:	PUNCT	-	6054	punct	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6053
+1	1	1	NUM	NumType=Card	6055	nummod	Karen	PROPN	-	6056
 <name type="PER">
-Karen	Karen	Karen	PROPN	_	6056	list	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6053
-J.	J.	J.	PROPN	_	6057	flat	Karen	PROPN	_	6056
-Klint	Klint	Klint	PROPN	_	6058	flat	Karen	PROPN	_	6056
+Karen	Karen	Karen	PROPN	-	6056	list	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6053
+J.	J.	J.	PROPN	-	6057	flat	Karen	PROPN	-	6056
+Klint	Klint	Klint	PROPN	-	6058	flat	Karen	PROPN	-	6056
 </name>
-(	(	(	PUNCT	_	6059	punct	S	PROPN	_	6060
+(	(	(	PUNCT	-	6059	punct	S	PROPN	-	6060
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	6060	flat	Karen	PROPN	_	6056
+S	S	S	PROPN	-	6060	flat	Karen	PROPN	-	6056
 <g/>
 </name>
-)	)	)	PUNCT	_	6061	punct	S	PROPN	_	6060
-2	2	2	NUM	NumType=Card	6062	nummod	Anne	PROPN	_	6063
+)	)	)	PUNCT	-	6061	punct	S	PROPN	-	6060
+2	2	2	NUM	NumType=Card	6062	nummod	Anne	PROPN	-	6063
 <name type="PER">
-Anne	Anne	Anne	PROPN	_	6063	list	Karen	PROPN	_	6056
-Sina	Sina	Sina	PROPN	_	6064	flat	Anne	PROPN	_	6063
+Anne	Anne	Anne	PROPN	-	6063	list	Karen	PROPN	-	6056
+Sina	Sina	Sina	PROPN	-	6064	flat	Anne	PROPN	-	6063
 </name>
-(	(	(	PUNCT	_	6065	punct	S	PROPN	_	6066
+(	(	(	PUNCT	-	6065	punct	S	PROPN	-	6066
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	6066	list	Anne	PROPN	_	6063
+S	S	S	PROPN	-	6066	list	Anne	PROPN	-	6063
 <g/>
 </name>
-)	)	)	PUNCT	_	6067	punct	S	PROPN	_	6066
+)	)	)	PUNCT	-	6067	punct	S	PROPN	-	6066
 3	3	3	NUM	NumType=Card	6068	nummod	Marl	NOUN	Definite=Def Gender=Com Number=Plur	6069
 <name type="PER">
-Marlene	Marlene	Marl	NOUN	Definite=Def Gender=Com Number=Plur	6069	list	Karen	PROPN	_	6056
+Marlene	Marlene	Marl	NOUN	Definite=Def Gender=Com Number=Plur	6069	list	Karen	PROPN	-	6056
 Borst	Borst	Borst	NOUN	Definite=Ind Gender=Com Number=Sing	6070	appos	Marl	NOUN	Definite=Def Gender=Com Number=Plur	6069
-Hansen	Hansen	Hansen	PROPN	_	6071	flat	Borst	NOUN	Definite=Ind Gender=Com Number=Sing	6070
+Hansen	Hansen	Hansen	PROPN	-	6071	flat	Borst	NOUN	Definite=Ind Gender=Com Number=Sing	6070
 </name>
-(	(	(	PUNCT	_	6072	punct	RV	PROPN	_	6073
+(	(	(	PUNCT	-	6072	punct	RV	PROPN	-	6073
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	6073	appos	Borst	NOUN	Definite=Ind Gender=Com Number=Sing	6070
+RV	RV	RV	PROPN	-	6073	appos	Borst	NOUN	Definite=Ind Gender=Com Number=Sing	6070
 <g/>
 </name>
-)	)	)	PUNCT	_	6074	punct	RV	PROPN	_	6073
-4	4	4	NUM	NumType=Card	6075	nummod	Özlem	PROPN	_	6076
+)	)	)	PUNCT	-	6074	punct	RV	PROPN	-	6073
+4	4	4	NUM	NumType=Card	6075	nummod	Özlem	PROPN	-	6076
 <name type="PER">
-Özlem	Özlem	Özlem	PROPN	_	6076	list	RV	PROPN	_	6073
-Sara	Sara	Sara	PROPN	_	6077	flat	Özlem	PROPN	_	6076
-Cekic	Cekic	Cekic	PROPN	_	6078	flat	Özlem	PROPN	_	6076
+Özlem	Özlem	Özlem	PROPN	-	6076	list	RV	PROPN	-	6073
+Sara	Sara	Sara	PROPN	-	6077	flat	Özlem	PROPN	-	6076
+Cekic	Cekic	Cekic	PROPN	-	6078	flat	Özlem	PROPN	-	6076
 </name>
-(	(	(	PUNCT	_	6079	punct	SF	PROPN	_	6080
+(	(	(	PUNCT	-	6079	punct	SF	PROPN	-	6080
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	6080	list	Özlem	PROPN	_	6076
+SF	SF	SF	PROPN	-	6080	list	Özlem	PROPN	-	6076
 <g/>
 </name>
-)	)	)	PUNCT	_	6081	punct	SF	PROPN	_	6080
-5	5	5	NUM	NumType=Card	6082	nummod	Stine	PROPN	_	6083
+)	)	)	PUNCT	-	6081	punct	SF	PROPN	-	6080
+5	5	5	NUM	NumType=Card	6082	nummod	Stine	PROPN	-	6083
 <name type="PER">
-Stine	Stine	Stine	PROPN	_	6083	list	SF	PROPN	_	6080
-Brix	Brix	Brix	PROPN	_	6084	flat	Stine	PROPN	_	6083
+Stine	Stine	Stine	PROPN	-	6083	list	SF	PROPN	-	6080
+Brix	Brix	Brix	PROPN	-	6084	flat	Stine	PROPN	-	6083
 </name>
-(	(	(	PUNCT	_	6085	punct	EL	PROPN	_	6086
+(	(	(	PUNCT	-	6085	punct	EL	PROPN	-	6086
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	6086	flat	Stine	PROPN	_	6083
+EL	EL	EL	PROPN	-	6086	flat	Stine	PROPN	-	6083
 <g/>
 </name>
-)	)	)	PUNCT	_	6087	punct	EL	PROPN	_	6086
-6	6	6	NUM	NumType=Card	6088	nummod	Anne-Mette	PROPN	_	6089
+)	)	)	PUNCT	-	6087	punct	EL	PROPN	-	6086
+6	6	6	NUM	NumType=Card	6088	nummod	Anne-Mette	PROPN	-	6089
 <name type="PER">
-Anne-Mette	Anne-Mette	Anne-Mette	PROPN	_	6089	list	Stine	PROPN	_	6083
-Winther	Winther	Winther	PROPN	_	6090	flat	Anne-Mette	PROPN	_	6089
-Christiansen	Christiansen	Christiansen	PROPN	_	6091	flat	Anne-Mette	PROPN	_	6089
+Anne-Mette	Anne-Mette	Anne-Mette	PROPN	-	6089	list	Stine	PROPN	-	6083
+Winther	Winther	Winther	PROPN	-	6090	flat	Anne-Mette	PROPN	-	6089
+Christiansen	Christiansen	Christiansen	PROPN	-	6091	flat	Anne-Mette	PROPN	-	6089
 </name>
-(	(	(	PUNCT	_	6092	punct	V	PROPN	_	6093
+(	(	(	PUNCT	-	6092	punct	V	PROPN	-	6093
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	6093	flat	Anne-Mette	PROPN	_	6089
+V	V	V	PROPN	-	6093	flat	Anne-Mette	PROPN	-	6089
 <g/>
 </name>
-)	)	)	PUNCT	_	6094	punct	V	PROPN	_	6093
-7	7	7	NUM	NumType=Card	6095	nummod	Birgitte	PROPN	_	6096
+)	)	)	PUNCT	-	6094	punct	V	PROPN	-	6093
+7	7	7	NUM	NumType=Card	6095	nummod	Birgitte	PROPN	-	6096
 <name type="PER">
-Birgitte	Birgitte	Birgitte	PROPN	_	6096	list	Anne-Mette	PROPN	_	6089
-Josefsen	Josefsen	Josefsen	PROPN	_	6097	flat	Birgitte	PROPN	_	6096
+Birgitte	Birgitte	Birgitte	PROPN	-	6096	list	Anne-Mette	PROPN	-	6089
+Josefsen	Josefsen	Josefsen	PROPN	-	6097	flat	Birgitte	PROPN	-	6096
 </name>
-(	(	(	PUNCT	_	6098	punct	V	PROPN	_	6099
+(	(	(	PUNCT	-	6098	punct	V	PROPN	-	6099
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	6099	flat	Birgitte	PROPN	_	6096
+V	V	V	PROPN	-	6099	flat	Birgitte	PROPN	-	6096
 <g/>
 </name>
-)	)	)	PUNCT	_	6100	punct	V	PROPN	_	6099
-8	8	8	NUM	NumType=Card	6101	nummod	Liselott	PROPN	_	6102
+)	)	)	PUNCT	-	6100	punct	V	PROPN	-	6099
+8	8	8	NUM	NumType=Card	6101	nummod	Liselott	PROPN	-	6102
 <name type="PER">
-Liselott	Liselott	Liselott	PROPN	_	6102	list	Birgitte	PROPN	_	6096
-Blixt	Blixt	Blixt	PROPN	_	6103	flat	Liselott	PROPN	_	6102
+Liselott	Liselott	Liselott	PROPN	-	6102	list	Birgitte	PROPN	-	6096
+Blixt	Blixt	Blixt	PROPN	-	6103	flat	Liselott	PROPN	-	6102
 </name>
-(	(	(	PUNCT	_	6104	punct	DF	PROPN	_	6105
+(	(	(	PUNCT	-	6104	punct	DF	PROPN	-	6105
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	6105	flat	Liselott	PROPN	_	6102
+DF	DF	DF	PROPN	-	6105	flat	Liselott	PROPN	-	6102
 <g/>
 </name>
-)	)	)	PUNCT	_	6106	punct	DF	PROPN	_	6105
-9	9	9	NUM	NumType=Card	6107	nummod	Charlotte	PROPN	_	6108
+)	)	)	PUNCT	-	6106	punct	DF	PROPN	-	6105
+9	9	9	NUM	NumType=Card	6107	nummod	Charlotte	PROPN	-	6108
 <name type="PER">
-Charlotte	Charlotte	Charlotte	PROPN	_	6108	list	Liselott	PROPN	_	6102
-Dyremose	Dyremose	Dyremose	PROPN	_	6109	flat	Charlotte	PROPN	_	6108
+Charlotte	Charlotte	Charlotte	PROPN	-	6108	list	Liselott	PROPN	-	6102
+Dyremose	Dyremose	Dyremose	PROPN	-	6109	flat	Charlotte	PROPN	-	6108
 </name>
-(	(	(	PUNCT	_	6110	punct	KF	PROPN	_	6111
+(	(	(	PUNCT	-	6110	punct	KF	PROPN	-	6111
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	6111	flat	Charlotte	PROPN	_	6108
+KF	KF	KF	PROPN	-	6111	flat	Charlotte	PROPN	-	6108
 <g/>
 </name>
-)	)	)	PUNCT	_	6112	punct	KF	PROPN	_	6111
+)	)	)	PUNCT	-	6112	punct	KF	PROPN	-	6111
 Til	Til	til	ADP	AdpType=Prep	6113	case	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	6114
-stedfortrædere	stedfortrædere	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	6114	nmod	Charlotte	PROPN	_	6108
-for	for	for	ADP	AdpType=Prep	6115	case	Annette	PROPN	_	6118
+stedfortrædere	stedfortrædere	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	6114	nmod	Charlotte	PROPN	-	6108
+for	for	for	ADP	AdpType=Prep	6115	case	Annette	PROPN	-	6118
 <g/>
-:	:	:	PUNCT	_	6116	punct	for	ADP	AdpType=Prep	6115
-1	1	1	NUM	NumType=Card	6117	nummod	Annette	PROPN	_	6118
+:	:	:	PUNCT	-	6116	punct	for	ADP	AdpType=Prep	6115
+1	1	1	NUM	NumType=Card	6117	nummod	Annette	PROPN	-	6118
 <name type="PER">
-Annette	Annette	Annette	PROPN	_	6118	nmod	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	6114
-Lind	Lind	Lind	PROPN	_	6119	flat	Annette	PROPN	_	6118
+Annette	Annette	Annette	PROPN	-	6118	nmod	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	6114
+Lind	Lind	Lind	PROPN	-	6119	flat	Annette	PROPN	-	6118
 </name>
-(	(	(	PUNCT	_	6120	punct	S	PROPN	_	6121
+(	(	(	PUNCT	-	6120	punct	S	PROPN	-	6121
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	6121	flat	Annette	PROPN	_	6118
+S	S	S	PROPN	-	6121	flat	Annette	PROPN	-	6118
 <g/>
 </name>
-)	)	)	PUNCT	_	6122	punct	S	PROPN	_	6121
-2	2	2	NUM	NumType=Card	6123	nummod	Flemming	PROPN	_	6124
+)	)	)	PUNCT	-	6122	punct	S	PROPN	-	6121
+2	2	2	NUM	NumType=Card	6123	nummod	Flemming	PROPN	-	6124
 <name type="PER">
-Flemming	Flemming	Flemming	PROPN	_	6124	list	Annette	PROPN	_	6118
-Møller	Møller	Møller	PROPN	_	6125	flat	Flemming	PROPN	_	6124
-Mortensen	Mortensen	Mortensen	PROPN	_	6126	flat	Flemming	PROPN	_	6124
+Flemming	Flemming	Flemming	PROPN	-	6124	list	Annette	PROPN	-	6118
+Møller	Møller	Møller	PROPN	-	6125	flat	Flemming	PROPN	-	6124
+Mortensen	Mortensen	Mortensen	PROPN	-	6126	flat	Flemming	PROPN	-	6124
 </name>
-(	(	(	PUNCT	_	6127	punct	S	PROPN	_	6128
+(	(	(	PUNCT	-	6127	punct	S	PROPN	-	6128
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	6128	flat	Flemming	PROPN	_	6124
+S	S	S	PROPN	-	6128	flat	Flemming	PROPN	-	6124
 <g/>
 </name>
-)	)	)	PUNCT	_	6129	punct	S	PROPN	_	6128
-3	3	3	ADJ	NumType=Ord	6130	amod	Liv	PROPN	_	6131
-Liv	Liv	Liv	PROPN	_	6131	list	Flemming	PROPN	_	6124
+)	)	)	PUNCT	-	6129	punct	S	PROPN	-	6128
+3	3	3	ADJ	NumType=Ord	6130	amod	Liv	PROPN	-	6131
+Liv	Liv	Liv	PROPN	-	6131	list	Flemming	PROPN	-	6124
 <name type="PER">
-Holm	Holm	Holm	PROPN	_	6132	flat	Liv	PROPN	_	6131
-Andersen	Andersen	Andersen	PROPN	_	6133	flat	Liv	PROPN	_	6131
+Holm	Holm	Holm	PROPN	-	6132	flat	Liv	PROPN	-	6131
+Andersen	Andersen	Andersen	PROPN	-	6133	flat	Liv	PROPN	-	6131
 </name>
-(	(	(	PUNCT	_	6134	punct	RV	PROPN	_	6135
+(	(	(	PUNCT	-	6134	punct	RV	PROPN	-	6135
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	6135	flat	Liv	PROPN	_	6131
+RV	RV	RV	PROPN	-	6135	flat	Liv	PROPN	-	6131
 <g/>
 </name>
-)	)	)	PUNCT	_	6136	punct	RV	PROPN	_	6135
-4	4	4	NUM	NumType=Card	6137	nummod	Pernille	PROPN	_	6138
+)	)	)	PUNCT	-	6136	punct	RV	PROPN	-	6135
+4	4	4	NUM	NumType=Card	6137	nummod	Pernille	PROPN	-	6138
 <name type="PER">
-Pernille	Pernille	Pernille	PROPN	_	6138	list	Liv	PROPN	_	6131
-Vigsø	Vigsø	Vigsø	PROPN	_	6139	flat	Pernille	PROPN	_	6138
-Bagge	Bagge	Bagge	PROPN	_	6140	flat	Pernille	PROPN	_	6138
+Pernille	Pernille	Pernille	PROPN	-	6138	list	Liv	PROPN	-	6131
+Vigsø	Vigsø	Vigsø	PROPN	-	6139	flat	Pernille	PROPN	-	6138
+Bagge	Bagge	Bagge	PROPN	-	6140	flat	Pernille	PROPN	-	6138
 </name>
-(	(	(	PUNCT	_	6141	punct	SF	PROPN	_	6142
+(	(	(	PUNCT	-	6141	punct	SF	PROPN	-	6142
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	6142	list	Pernille	PROPN	_	6138
+SF	SF	SF	PROPN	-	6142	list	Pernille	PROPN	-	6138
 <g/>
 </name>
-)	)	)	PUNCT	_	6143	punct	SF	PROPN	_	6142
-5	5	5	NUM	NumType=Card	6144	nummod	Finn	PROPN	_	6145
+)	)	)	PUNCT	-	6143	punct	SF	PROPN	-	6142
+5	5	5	NUM	NumType=Card	6144	nummod	Finn	PROPN	-	6145
 <name type="PER">
-Finn	Finn	Finn	PROPN	_	6145	list	SF	PROPN	_	6142
-Sørensen	Sørensen	Sørensen	PROPN	_	6146	flat	Finn	PROPN	_	6145
+Finn	Finn	Finn	PROPN	-	6145	list	SF	PROPN	-	6142
+Sørensen	Sørensen	Sørensen	PROPN	-	6146	flat	Finn	PROPN	-	6145
 </name>
-(	(	(	PUNCT	_	6147	punct	EL	PROPN	_	6148
+(	(	(	PUNCT	-	6147	punct	EL	PROPN	-	6148
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	6148	flat	Finn	PROPN	_	6145
+EL	EL	EL	PROPN	-	6148	flat	Finn	PROPN	-	6145
 <g/>
 </name>
-)	)	)	PUNCT	_	6149	punct	EL	PROPN	_	6148
-6	6	6	NUM	NumType=Card	6150	nummod	Jane	PROPN	_	6151
+)	)	)	PUNCT	-	6149	punct	EL	PROPN	-	6148
+6	6	6	NUM	NumType=Card	6150	nummod	Jane	PROPN	-	6151
 <name type="PER">
-Jane	Jane	Jane	PROPN	_	6151	list	Finn	PROPN	_	6145
-Heitmann	Heitmann	Heitmann	PROPN	_	6152	flat	Jane	PROPN	_	6151
+Jane	Jane	Jane	PROPN	-	6151	list	Finn	PROPN	-	6145
+Heitmann	Heitmann	Heitmann	PROPN	-	6152	flat	Jane	PROPN	-	6151
 </name>
-(	(	(	PUNCT	_	6153	punct	V	PROPN	_	6154
+(	(	(	PUNCT	-	6153	punct	V	PROPN	-	6154
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	6154	flat	Jane	PROPN	_	6151
+V	V	V	PROPN	-	6154	flat	Jane	PROPN	-	6151
 <g/>
 </name>
-)	)	)	PUNCT	_	6155	punct	V	PROPN	_	6154
-7	7	7	NUM	NumType=Card	6156	nummod	Sophie	PROPN	_	6157
+)	)	)	PUNCT	-	6155	punct	V	PROPN	-	6154
+7	7	7	NUM	NumType=Card	6156	nummod	Sophie	PROPN	-	6157
 <name type="PER">
-Sophie	Sophie	Sophie	PROPN	_	6157	list	Jane	PROPN	_	6151
-Løhde	Løhde	Løhde	NOUN	Definite=Ind Gender=Com Number=Sing	6158	flat	Sophie	PROPN	_	6157
+Sophie	Sophie	Sophie	PROPN	-	6157	list	Jane	PROPN	-	6151
+Løhde	Løhde	Løhde	NOUN	Definite=Ind Gender=Com Number=Sing	6158	flat	Sophie	PROPN	-	6157
 </name>
-(	(	(	PUNCT	_	6159	punct	V	PROPN	_	6160
+(	(	(	PUNCT	-	6159	punct	V	PROPN	-	6160
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	6160	flat	Sophie	PROPN	_	6157
+V	V	V	PROPN	-	6160	flat	Sophie	PROPN	-	6157
 <g/>
 </name>
-)	)	)	PUNCT	_	6161	punct	V	PROPN	_	6160
-8	8	8	NUM	NumType=Card	6162	nummod	Marie	PROPN	_	6163
+)	)	)	PUNCT	-	6161	punct	V	PROPN	-	6160
+8	8	8	NUM	NumType=Card	6162	nummod	Marie	PROPN	-	6163
 <name type="PER">
-Marie	Marie	Marie	PROPN	_	6163	list	Sophie	PROPN	_	6157
-Krarup	Krarup	Krarup	PROPN	_	6164	flat	Marie	PROPN	_	6163
+Marie	Marie	Marie	PROPN	-	6163	list	Sophie	PROPN	-	6157
+Krarup	Krarup	Krarup	PROPN	-	6164	flat	Marie	PROPN	-	6163
 </name>
-(	(	(	PUNCT	_	6165	punct	DF	PROPN	_	6166
+(	(	(	PUNCT	-	6165	punct	DF	PROPN	-	6166
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	6166	flat	Marie	PROPN	_	6163
+DF	DF	DF	PROPN	-	6166	flat	Marie	PROPN	-	6163
 <g/>
 </name>
-)	)	)	PUNCT	_	6167	punct	DF	PROPN	_	6166
-9	9	9	NUM	NumType=Card	6168	nummod	Joachim	PROPN	_	6169
+)	)	)	PUNCT	-	6167	punct	DF	PROPN	-	6166
+9	9	9	NUM	NumType=Card	6168	nummod	Joachim	PROPN	-	6169
 <name type="PER">
-Joachim	Joachim	Joachim	PROPN	_	6169	flat	Marie	PROPN	_	6163
-B.	B.	B.	PROPN	_	6170	flat	Marie	PROPN	_	6163
-Olsen	Olsen	Olsen	PROPN	_	6171	flat	Marie	PROPN	_	6163
+Joachim	Joachim	Joachim	PROPN	-	6169	flat	Marie	PROPN	-	6163
+B.	B.	B.	PROPN	-	6170	flat	Marie	PROPN	-	6163
+Olsen	Olsen	Olsen	PROPN	-	6171	flat	Marie	PROPN	-	6163
 </name>
-(	(	(	PUNCT	_	6172	punct	LA	PROPN	_	6173
+(	(	(	PUNCT	-	6172	punct	LA	PROPN	-	6173
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	6173	flat	Marie	PROPN	_	6163
+LA	LA	LA	PROPN	-	6173	flat	Marie	PROPN	-	6163
 <g/>
 </name>
-)	)	)	PUNCT	_	6174	punct	LA	PROPN	_	6173
-Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	6175	list	Marie	PROPN	_	6163
+)	)	)	PUNCT	-	6174	punct	LA	PROPN	-	6173
+Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	6175	list	Marie	PROPN	-	6163
 <g/>
-:	:	:	PUNCT	_	6176	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	6175
+:	:	:	PUNCT	-	6176	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	6175
 <name type="PER">
-Birgitte	Birgitte	Birgitte	PROPN	_	6177	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	6175
-Josefsen	Josefsen	Josefsen	PROPN	_	6178	flat	Birgitte	PROPN	_	6177
+Birgitte	Birgitte	Birgitte	PROPN	-	6177	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	6175
+Josefsen	Josefsen	Josefsen	PROPN	-	6178	flat	Birgitte	PROPN	-	6177
 </name>
-(	(	(	PUNCT	_	6179	punct	V	PROPN	_	6180
+(	(	(	PUNCT	-	6179	punct	V	PROPN	-	6180
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	6180	flat	Birgitte	PROPN	_	6177
+V	V	V	PROPN	-	6180	flat	Birgitte	PROPN	-	6177
 <g/>
 </name>
-)	)	)	PUNCT	_	6181	punct	V	PROPN	_	6180
-Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	6182	list	Birgitte	PROPN	_	6177
+)	)	)	PUNCT	-	6181	punct	V	PROPN	-	6180
+Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	6182	list	Birgitte	PROPN	-	6177
 <g/>
-:	:	:	PUNCT	_	6183	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	6182
+:	:	:	PUNCT	-	6183	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	6182
 <name type="PER">
-Karen	Karen	Karen	PROPN	_	6184	list	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	6182
-J.	J.	J.	PROPN	_	6185	flat	Karen	PROPN	_	6184
-Klint	Klint	Klint	PROPN	_	6186	flat	Karen	PROPN	_	6184
+Karen	Karen	Karen	PROPN	-	6184	list	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	6182
+J.	J.	J.	PROPN	-	6185	flat	Karen	PROPN	-	6184
+Klint	Klint	Klint	PROPN	-	6186	flat	Karen	PROPN	-	6184
 </name>
-(	(	(	PUNCT	_	6187	punct	S	PROPN	_	6188
+(	(	(	PUNCT	-	6187	punct	S	PROPN	-	6188
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	6188	flat	Karen	PROPN	_	6184
+S	S	S	PROPN	-	6188	flat	Karen	PROPN	-	6184
 <g/>
 </name>
-)	)	)	PUNCT	_	6189	punct	S	PROPN	_	6188
-Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	6190	flat	Karen	PROPN	_	6184
+)	)	)	PUNCT	-	6189	punct	S	PROPN	-	6188
+Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	6190	flat	Karen	PROPN	-	6184
 af	af	af	ADP	AdpType=Prep	6191	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6193
 6	6	6	NUM	NumType=Card	6192	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6193
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6193	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	6190
-og	og	og	CCONJ	_	6194	dep	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6193
+og	og	og	CCONJ	-	6194	dep	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6193
 6	6	6	NUM	NumType=Card	6195	nummod	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	6196
 stedfortrædere	stedfortrædere	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	6196	conj	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6193
 til	til	til	ADP	AdpType=Prep	6197	case	forsamling	NOUN	Definite=Ind Gender=Com Number=Sing	6200
-OSCE's	OSCE's	osce's	PROPN	Case=Gen	6198	nmod_poss	forsamling	NOUN	Definite=Ind Gender=Com Number=Sing	6200
+OSCE's	OSCE's	osce's	PROPN	Case=Gen	6198	nmod:poss	forsamling	NOUN	Definite=Ind Gender=Com Number=Sing	6200
 Parlamentariske	Parlamentariske	parlamentarisk	ADJ	Definite=Def Degree=Pos Number=Sing	6199	amod	forsamling	NOUN	Definite=Ind Gender=Com Number=Sing	6200
 Forsamling	Forsamling	forsamling	NOUN	Definite=Ind Gender=Com Number=Sing	6200	nmod	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	6196
 <g/>
-:	:	:	PUNCT	_	6201	punct	forsamling	NOUN	Definite=Ind Gender=Com Number=Sing	6200
+:	:	:	PUNCT	-	6201	punct	forsamling	NOUN	Definite=Ind Gender=Com Number=Sing	6200
 Valgt	Valgt	valgt	NOUN	Definite=Ind Gender=Com Number=Sing	6202	nsubj	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	6203
 blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	6203	aux	forsamling	NOUN	Definite=Ind Gender=Com Number=Sing	6200
 <g/>
-:	:	:	PUNCT	_	6204	punct	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	6203
+:	:	:	PUNCT	-	6204	punct	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	6203
 Til	Til	til	ADP	AdpType=Prep	6205	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6206
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6206	obl	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	6203
 <g/>
-:	:	:	PUNCT	_	6207	punct	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6206
-1	1	1	NUM	NumType=Card	6208	nummod	Ane	PROPN	_	6209
+:	:	:	PUNCT	-	6207	punct	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6206
+1	1	1	NUM	NumType=Card	6208	nummod	Ane	PROPN	-	6209
 <name type="PER">
-Ane	Ane	Ane	PROPN	_	6209	list	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6206
-Halsboe-Jørgensen	Halsboe-Jørgensen	Halsboe-Jørgensen	PROPN	_	6210	flat	Ane	PROPN	_	6209
+Ane	Ane	Ane	PROPN	-	6209	list	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6206
+Halsboe-Jørgensen	Halsboe-Jørgensen	Halsboe-Jørgensen	PROPN	-	6210	flat	Ane	PROPN	-	6209
 </name>
-(	(	(	PUNCT	_	6211	punct	S	PROPN	_	6212
+(	(	(	PUNCT	-	6211	punct	S	PROPN	-	6212
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	6212	flat	Ane	PROPN	_	6209
+S	S	S	PROPN	-	6212	flat	Ane	PROPN	-	6209
 <g/>
 </name>
-)	)	)	PUNCT	_	6213	punct	S	PROPN	_	6212
-2	2	2	NUM	NumType=Card	6214	nummod	Liv	PROPN	_	6215
-Liv	Liv	Liv	PROPN	_	6215	list	Ane	PROPN	_	6209
+)	)	)	PUNCT	-	6213	punct	S	PROPN	-	6212
+2	2	2	NUM	NumType=Card	6214	nummod	Liv	PROPN	-	6215
+Liv	Liv	Liv	PROPN	-	6215	list	Ane	PROPN	-	6209
 <name type="PER">
-Holm	Holm	Holm	PROPN	_	6216	flat	Liv	PROPN	_	6215
-Andersen	Andersen	Andersen	PROPN	_	6217	flat	Liv	PROPN	_	6215
+Holm	Holm	Holm	PROPN	-	6216	flat	Liv	PROPN	-	6215
+Andersen	Andersen	Andersen	PROPN	-	6217	flat	Liv	PROPN	-	6215
 </name>
-(	(	(	PUNCT	_	6218	punct	RV	PROPN	_	6219
+(	(	(	PUNCT	-	6218	punct	RV	PROPN	-	6219
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	6219	flat	Liv	PROPN	_	6215
+RV	RV	RV	PROPN	-	6219	flat	Liv	PROPN	-	6215
 <g/>
 </name>
-)	)	)	PUNCT	_	6220	punct	RV	PROPN	_	6219
-3	3	3	ADJ	NumType=Ord	6221	amod	Trine	PROPN	_	6222
+)	)	)	PUNCT	-	6220	punct	RV	PROPN	-	6219
+3	3	3	ADJ	NumType=Ord	6221	amod	Trine	PROPN	-	6222
 <name type="PER">
-Trine	Trine	Trine	PROPN	_	6222	list	Liv	PROPN	_	6215
-Mach	Mach	Machen	PROPN	_	6223	flat	Trine	PROPN	_	6222
+Trine	Trine	Trine	PROPN	-	6222	list	Liv	PROPN	-	6215
+Mach	Mach	Machen	PROPN	-	6223	flat	Trine	PROPN	-	6222
 </name>
-(	(	(	PUNCT	_	6224	punct	SF	PROPN	_	6225
+(	(	(	PUNCT	-	6224	punct	SF	PROPN	-	6225
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	6225	flat	Trine	PROPN	_	6222
+SF	SF	SF	PROPN	-	6225	flat	Trine	PROPN	-	6222
 <g/>
 </name>
-)	)	)	PUNCT	_	6226	punct	SF	PROPN	_	6225
-4	4	4	NUM	NumType=Card	6227	nummod	Peter	PROPN	_	6228
+)	)	)	PUNCT	-	6226	punct	SF	PROPN	-	6225
+4	4	4	NUM	NumType=Card	6227	nummod	Peter	PROPN	-	6228
 <name type="PER">
-Peter	Peter	Peter	PROPN	_	6228	list	Trine	PROPN	_	6222
-Juel	Juel	Juel	PROPN	_	6229	flat	Peter	PROPN	_	6228
-Jensen	Jensen	Jensen	PROPN	_	6230	flat	Peter	PROPN	_	6228
+Peter	Peter	Peter	PROPN	-	6228	list	Trine	PROPN	-	6222
+Juel	Juel	Juel	PROPN	-	6229	flat	Peter	PROPN	-	6228
+Jensen	Jensen	Jensen	PROPN	-	6230	flat	Peter	PROPN	-	6228
 </name>
-(	(	(	PUNCT	_	6231	punct	V	PROPN	_	6232
+(	(	(	PUNCT	-	6231	punct	V	PROPN	-	6232
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	6232	flat	Peter	PROPN	_	6228
+V	V	V	PROPN	-	6232	flat	Peter	PROPN	-	6228
 <g/>
 </name>
-)	)	)	PUNCT	_	6233	punct	V	PROPN	_	6232
-5	5	5	NUM	NumType=Card	6234	nummod	Pia	PROPN	_	6235
+)	)	)	PUNCT	-	6233	punct	V	PROPN	-	6232
+5	5	5	NUM	NumType=Card	6234	nummod	Pia	PROPN	-	6235
 <name type="PER">
-Pia	Pia	Pia	PROPN	_	6235	list	Peter	PROPN	_	6228
-Kjærsgaard	Kjærsgaard	Kjærsgaard	PROPN	_	6236	flat	Pia	PROPN	_	6235
+Pia	Pia	Pia	PROPN	-	6235	list	Peter	PROPN	-	6228
+Kjærsgaard	Kjærsgaard	Kjærsgaard	PROPN	-	6236	flat	Pia	PROPN	-	6235
 </name>
-(	(	(	PUNCT	_	6237	punct	DF	PROPN	_	6238
+(	(	(	PUNCT	-	6237	punct	DF	PROPN	-	6238
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	6238	flat	Pia	PROPN	_	6235
+DF	DF	DF	PROPN	-	6238	flat	Pia	PROPN	-	6235
 <g/>
 </name>
-)	)	)	PUNCT	_	6239	punct	DF	PROPN	_	6238
-6	6	6	NUM	NumType=Card	6240	nummod	Lars	PROPN	_	6241
+)	)	)	PUNCT	-	6239	punct	DF	PROPN	-	6238
+6	6	6	NUM	NumType=Card	6240	nummod	Lars	PROPN	-	6241
 <name type="PER">
-Lars	Lars	Lars	PROPN	_	6241	list	Pia	PROPN	_	6235
-Barfoed	Barfoed	Barfoed	PROPN	_	6242	flat	Lars	PROPN	_	6241
+Lars	Lars	Lars	PROPN	-	6241	list	Pia	PROPN	-	6235
+Barfoed	Barfoed	Barfoed	PROPN	-	6242	flat	Lars	PROPN	-	6241
 </name>
-(	(	(	PUNCT	_	6243	punct	KF	PROPN	_	6244
+(	(	(	PUNCT	-	6243	punct	KF	PROPN	-	6244
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	6244	flat	Lars	PROPN	_	6241
+KF	KF	KF	PROPN	-	6244	flat	Lars	PROPN	-	6241
 <g/>
 </name>
-)	)	)	PUNCT	_	6245	punct	KF	PROPN	_	6244
+)	)	)	PUNCT	-	6245	punct	KF	PROPN	-	6244
 Til	Til	til	ADP	AdpType=Prep	6246	case	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	6247
-stedfortrædere	stedfortrædere	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	6247	nmod	Lars	PROPN	_	6241
-for	for	for	ADP	AdpType=Prep	6248	case	Bruus	PROPN	_	6252
+stedfortrædere	stedfortrædere	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	6247	nmod	Lars	PROPN	-	6241
+for	for	for	ADP	AdpType=Prep	6248	case	Bruus	PROPN	-	6252
 <g/>
-:	:	:	PUNCT	_	6249	punct	for	ADP	AdpType=Prep	6248
-1	1	1	NUM	NumType=Card	6250	nummod	Bruus	PROPN	_	6252
+:	:	:	PUNCT	-	6249	punct	for	ADP	AdpType=Prep	6248
+1	1	1	NUM	NumType=Card	6250	nummod	Bruus	PROPN	-	6252
 <name type="PER">
-Jeppe	Jeppe	Jeppe	NOUN	Definite=Ind Gender=Com Number=Sing	6251	nmod	Bruus	PROPN	_	6252
-Bruus	Bruus	Bruus	PROPN	_	6252	nmod	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	6247
+Jeppe	Jeppe	Jeppe	NOUN	Definite=Ind Gender=Com Number=Sing	6251	nmod	Bruus	PROPN	-	6252
+Bruus	Bruus	Bruus	PROPN	-	6252	nmod	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	6247
 </name>
-(	(	(	PUNCT	_	6253	punct	S	PROPN	_	6254
+(	(	(	PUNCT	-	6253	punct	S	PROPN	-	6254
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	6254	flat	Bruus	PROPN	_	6252
+S	S	S	PROPN	-	6254	flat	Bruus	PROPN	-	6252
 <g/>
 </name>
-)	)	)	PUNCT	_	6255	punct	S	PROPN	_	6254
-2	2	2	NUM	NumType=Card	6256	nummod	Christian	PROPN	_	6257
+)	)	)	PUNCT	-	6255	punct	S	PROPN	-	6254
+2	2	2	NUM	NumType=Card	6256	nummod	Christian	PROPN	-	6257
 <name type="PER">
-Christian	Christian	Christian	PROPN	_	6257	list	Bruus	PROPN	_	6252
-Juhl	Juhl	Juhl	PROPN	_	6258	flat	Christian	PROPN	_	6257
+Christian	Christian	Christian	PROPN	-	6257	list	Bruus	PROPN	-	6252
+Juhl	Juhl	Juhl	PROPN	-	6258	flat	Christian	PROPN	-	6257
 </name>
-(	(	(	PUNCT	_	6259	punct	EL	PROPN	_	6260
+(	(	(	PUNCT	-	6259	punct	EL	PROPN	-	6260
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	6260	flat	Christian	PROPN	_	6257
+EL	EL	EL	PROPN	-	6260	flat	Christian	PROPN	-	6257
 <g/>
 </name>
-)	)	)	PUNCT	_	6261	punct	EL	PROPN	_	6260
-3	3	3	ADJ	NumType=Ord	6262	amod	Pernille	PROPN	_	6263
+)	)	)	PUNCT	-	6261	punct	EL	PROPN	-	6260
+3	3	3	ADJ	NumType=Ord	6262	amod	Pernille	PROPN	-	6263
 <name type="PER">
-Pernille	Pernille	Pernille	PROPN	_	6263	list	Christian	PROPN	_	6257
-Vigsø	Vigsø	Vigsø	PROPN	_	6264	flat	Pernille	PROPN	_	6263
-Bagge	Bagge	Bagge	PROPN	_	6265	flat	Pernille	PROPN	_	6263
+Pernille	Pernille	Pernille	PROPN	-	6263	list	Christian	PROPN	-	6257
+Vigsø	Vigsø	Vigsø	PROPN	-	6264	flat	Pernille	PROPN	-	6263
+Bagge	Bagge	Bagge	PROPN	-	6265	flat	Pernille	PROPN	-	6263
 </name>
-(	(	(	PUNCT	_	6266	punct	SF	PROPN	_	6267
+(	(	(	PUNCT	-	6266	punct	SF	PROPN	-	6267
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	6267	flat	Pernille	PROPN	_	6263
+SF	SF	SF	PROPN	-	6267	flat	Pernille	PROPN	-	6263
 <g/>
 </name>
-)	)	)	PUNCT	_	6268	punct	SF	PROPN	_	6267
-4	4	4	NUM	NumType=Card	6269	nummod	Karsten	PROPN	_	6270
+)	)	)	PUNCT	-	6268	punct	SF	PROPN	-	6267
+4	4	4	NUM	NumType=Card	6269	nummod	Karsten	PROPN	-	6270
 <name type="PER">
-Karsten	Karsten	Karsten	PROPN	_	6270	list	Pernille	PROPN	_	6263
-Lauritzen	Lauritzen	Lauritzen	PROPN	_	6271	flat	Karsten	PROPN	_	6270
+Karsten	Karsten	Karsten	PROPN	-	6270	list	Pernille	PROPN	-	6263
+Lauritzen	Lauritzen	Lauritzen	PROPN	-	6271	flat	Karsten	PROPN	-	6270
 </name>
-(	(	(	PUNCT	_	6272	punct	V	PROPN	_	6273
+(	(	(	PUNCT	-	6272	punct	V	PROPN	-	6273
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	6273	flat	Karsten	PROPN	_	6270
+V	V	V	PROPN	-	6273	flat	Karsten	PROPN	-	6270
 <g/>
 </name>
-)	)	)	PUNCT	_	6274	punct	V	PROPN	_	6273
-5	5	5	NUM	NumType=Card	6275	nummod	Mikkel	PROPN	_	6276
+)	)	)	PUNCT	-	6274	punct	V	PROPN	-	6273
+5	5	5	NUM	NumType=Card	6275	nummod	Mikkel	PROPN	-	6276
 <name type="PER">
-Mikkel	Mikkel	Mikkel	PROPN	_	6276	list	Karsten	PROPN	_	6270
-Dencker	Dencker	Dencker	PROPN	_	6277	flat	Mikkel	PROPN	_	6276
+Mikkel	Mikkel	Mikkel	PROPN	-	6276	list	Karsten	PROPN	-	6270
+Dencker	Dencker	Dencker	PROPN	-	6277	flat	Mikkel	PROPN	-	6276
 </name>
-(	(	(	PUNCT	_	6278	punct	DF	PROPN	_	6279
+(	(	(	PUNCT	-	6278	punct	DF	PROPN	-	6279
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	6279	flat	Mikkel	PROPN	_	6276
+DF	DF	DF	PROPN	-	6279	flat	Mikkel	PROPN	-	6276
 <g/>
 </name>
-)	)	)	PUNCT	_	6280	punct	DF	PROPN	_	6279
-6	6	6	NUM	NumType=Card	6281	nummod	Lene	PROPN	_	6282
+)	)	)	PUNCT	-	6280	punct	DF	PROPN	-	6279
+6	6	6	NUM	NumType=Card	6281	nummod	Lene	PROPN	-	6282
 <name type="PER">
-Lene	Lene	Lene	PROPN	_	6282	list	Mikkel	PROPN	_	6276
-Espersen	Espersen	Espersen	PROPN	_	6283	flat	Lene	PROPN	_	6282
+Lene	Lene	Lene	PROPN	-	6282	list	Mikkel	PROPN	-	6276
+Espersen	Espersen	Espersen	PROPN	-	6283	flat	Lene	PROPN	-	6282
 </name>
-(	(	(	PUNCT	_	6284	punct	KF	PROPN	_	6285
+(	(	(	PUNCT	-	6284	punct	KF	PROPN	-	6285
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	6285	flat	Lene	PROPN	_	6282
+KF	KF	KF	PROPN	-	6285	flat	Lene	PROPN	-	6282
 <g/>
 </name>
-)	)	)	PUNCT	_	6286	punct	KF	PROPN	_	6285
-Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	6287	list	Lene	PROPN	_	6282
+)	)	)	PUNCT	-	6286	punct	KF	PROPN	-	6285
+Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	6287	list	Lene	PROPN	-	6282
 <g/>
-:	:	:	PUNCT	_	6288	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	6287
+:	:	:	PUNCT	-	6288	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	6287
 <name type="PER">
-Peter	Peter	Peter	PROPN	_	6289	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	6287
-Juel	Juel	Juel	PROPN	_	6290	flat	Peter	PROPN	_	6289
-Jensen	Jensen	Jensen	PROPN	_	6291	flat	Peter	PROPN	_	6289
+Peter	Peter	Peter	PROPN	-	6289	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	6287
+Juel	Juel	Juel	PROPN	-	6290	flat	Peter	PROPN	-	6289
+Jensen	Jensen	Jensen	PROPN	-	6291	flat	Peter	PROPN	-	6289
 </name>
-(	(	(	PUNCT	_	6292	punct	V	PROPN	_	6293
+(	(	(	PUNCT	-	6292	punct	V	PROPN	-	6293
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	6293	flat	Peter	PROPN	_	6289
+V	V	V	PROPN	-	6293	flat	Peter	PROPN	-	6289
 <g/>
 </name>
-)	)	)	PUNCT	_	6294	punct	V	PROPN	_	6293
-Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	6295	list	Peter	PROPN	_	6289
+)	)	)	PUNCT	-	6294	punct	V	PROPN	-	6293
+Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	6295	list	Peter	PROPN	-	6289
 <g/>
-:	:	:	PUNCT	_	6296	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	6295
+:	:	:	PUNCT	-	6296	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	6295
 <name type="PER">
-Ane	Ane	Ane	PROPN	_	6297	list	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	6295
-Halsboe-Jørgensen	Halsboe-Jørgensen	Halsboe-Jørgensen	PROPN	_	6298	flat	Ane	PROPN	_	6297
+Ane	Ane	Ane	PROPN	-	6297	list	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	6295
+Halsboe-Jørgensen	Halsboe-Jørgensen	Halsboe-Jørgensen	PROPN	-	6298	flat	Ane	PROPN	-	6297
 </name>
-(	(	(	PUNCT	_	6299	punct	S	PROPN	_	6300
+(	(	(	PUNCT	-	6299	punct	S	PROPN	-	6300
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	6300	flat	Ane	PROPN	_	6297
+S	S	S	PROPN	-	6300	flat	Ane	PROPN	-	6297
 <g/>
 </name>
-)	)	)	PUNCT	_	6301	punct	S	PROPN	_	6300
-Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	6302	list	Ane	PROPN	_	6297
+)	)	)	PUNCT	-	6301	punct	S	PROPN	-	6300
+Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	6302	list	Ane	PROPN	-	6297
 af	af	af	ADP	AdpType=Prep	6303	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6305
 5	5	5	NUM	NumType=Card	6304	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6305
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6305	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	6302
-og	og	og	CCONJ	_	6306	dep	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6305
+og	og	og	CCONJ	-	6306	dep	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6305
 5	5	5	NUM	NumType=Card	6307	nummod	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	6308
 stedfortrædere	stedfortrædere	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	6308	conj	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6305
 til	til	til	ADP	AdpType=Prep	6309	case	forsamling	NOUN	Definite=Ind Gender=Com Number=Sing	6312
 <name type="ORG">
-Europarådets	Europarådets	Europarådet	PROPN	Case=Gen	6310	nmod_poss	forsamling	NOUN	Definite=Ind Gender=Com Number=Sing	6312
+Europarådets	Europarådets	Europarådet	PROPN	Case=Gen	6310	nmod:poss	forsamling	NOUN	Definite=Ind Gender=Com Number=Sing	6312
 </name>
 Parlamentariske	Parlamentariske	parlamentarisk	ADJ	Definite=Def Degree=Pos Number=Sing	6311	amod	forsamling	NOUN	Definite=Ind Gender=Com Number=Sing	6312
 Forsamling	Forsamling	forsamling	NOUN	Definite=Ind Gender=Com Number=Sing	6312	nmod	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	6308
 <g/>
-:	:	:	PUNCT	_	6313	punct	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	6308
+:	:	:	PUNCT	-	6313	punct	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	6308
 Valgt	Valgt	valgt	NOUN	Definite=Ind Gender=Com Number=Sing	6314	nsubj	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	6315
 blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	6315	aux	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	6308
 <g/>
-:	:	:	PUNCT	_	6316	punct	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	6315
+:	:	:	PUNCT	-	6316	punct	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	6315
 Til	Til	til	ADP	AdpType=Prep	6317	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6318
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6318	obl	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	6315
 <g/>
-:	:	:	PUNCT	_	6319	punct	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6318
-1	1	1	NUM	NumType=Card	6320	nummod	Jacob	PROPN	_	6321
+:	:	:	PUNCT	-	6319	punct	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6318
+1	1	1	NUM	NumType=Card	6320	nummod	Jacob	PROPN	-	6321
 <name type="PER">
-Jacob	Jacob	Jacob	PROPN	_	6321	list	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6318
-Lund	Lund	Lund	PROPN	_	6322	flat	Jacob	PROPN	_	6321
+Jacob	Jacob	Jacob	PROPN	-	6321	list	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6318
+Lund	Lund	Lund	PROPN	-	6322	flat	Jacob	PROPN	-	6321
 </name>
-(	(	(	PUNCT	_	6323	punct	S	PROPN	_	6324
+(	(	(	PUNCT	-	6323	punct	S	PROPN	-	6324
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	6324	flat	Jacob	PROPN	_	6321
+S	S	S	PROPN	-	6324	flat	Jacob	PROPN	-	6321
 <g/>
 </name>
-)	)	)	PUNCT	_	6325	punct	S	PROPN	_	6324
-2	2	2	NUM	NumType=Card	6326	nummod	Liv	PROPN	_	6327
-Liv	Liv	Liv	PROPN	_	6327	list	Jacob	PROPN	_	6321
+)	)	)	PUNCT	-	6325	punct	S	PROPN	-	6324
+2	2	2	NUM	NumType=Card	6326	nummod	Liv	PROPN	-	6327
+Liv	Liv	Liv	PROPN	-	6327	list	Jacob	PROPN	-	6321
 <name type="PER">
-Holm	Holm	Holm	PROPN	_	6328	flat	Liv	PROPN	_	6327
-Andersen	Andersen	Andersen	PROPN	_	6329	flat	Liv	PROPN	_	6327
+Holm	Holm	Holm	PROPN	-	6328	flat	Liv	PROPN	-	6327
+Andersen	Andersen	Andersen	PROPN	-	6329	flat	Liv	PROPN	-	6327
 </name>
-(	(	(	PUNCT	_	6330	punct	RV	PROPN	_	6331
+(	(	(	PUNCT	-	6330	punct	RV	PROPN	-	6331
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	6331	flat	Liv	PROPN	_	6327
+RV	RV	RV	PROPN	-	6331	flat	Liv	PROPN	-	6327
 <g/>
 </name>
-)	)	)	PUNCT	_	6332	punct	RV	PROPN	_	6331
-3	3	3	ADJ	NumType=Ord	6333	amod	Trine	PROPN	_	6334
+)	)	)	PUNCT	-	6332	punct	RV	PROPN	-	6331
+3	3	3	ADJ	NumType=Ord	6333	amod	Trine	PROPN	-	6334
 <name type="PER">
-Trine	Trine	Trine	PROPN	_	6334	list	Liv	PROPN	_	6327
-Mach	Mach	Machen	PROPN	_	6335	flat	Trine	PROPN	_	6334
+Trine	Trine	Trine	PROPN	-	6334	list	Liv	PROPN	-	6327
+Mach	Mach	Machen	PROPN	-	6335	flat	Trine	PROPN	-	6334
 </name>
-(	(	(	PUNCT	_	6336	punct	SF	PROPN	_	6337
+(	(	(	PUNCT	-	6336	punct	SF	PROPN	-	6337
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	6337	flat	Trine	PROPN	_	6334
+SF	SF	SF	PROPN	-	6337	flat	Trine	PROPN	-	6334
 <g/>
 </name>
-)	)	)	PUNCT	_	6338	punct	SF	PROPN	_	6337
-4	4	4	NUM	NumType=Card	6339	nummod	Michael	PROPN	_	6340
+)	)	)	PUNCT	-	6338	punct	SF	PROPN	-	6337
+4	4	4	NUM	NumType=Card	6339	nummod	Michael	PROPN	-	6340
 <name type="PER">
-Michael	Michael	Michael	PROPN	_	6340	list	Trine	PROPN	_	6334
-Aastrup	Aastrup	Aastrup	PROPN	_	6341	flat	Michael	PROPN	_	6340
-Jensen	Jensen	Jensen	PROPN	_	6342	flat	Michael	PROPN	_	6340
+Michael	Michael	Michael	PROPN	-	6340	list	Trine	PROPN	-	6334
+Aastrup	Aastrup	Aastrup	PROPN	-	6341	flat	Michael	PROPN	-	6340
+Jensen	Jensen	Jensen	PROPN	-	6342	flat	Michael	PROPN	-	6340
 </name>
-(	(	(	PUNCT	_	6343	punct	V	PROPN	_	6344
+(	(	(	PUNCT	-	6343	punct	V	PROPN	-	6344
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	6344	flat	Michael	PROPN	_	6340
+V	V	V	PROPN	-	6344	flat	Michael	PROPN	-	6340
 <g/>
 </name>
-)	)	)	PUNCT	_	6345	punct	V	PROPN	_	6344
-5	5	5	NUM	NumType=Card	6346	nummod	Martin	PROPN	_	6347
+)	)	)	PUNCT	-	6345	punct	V	PROPN	-	6344
+5	5	5	NUM	NumType=Card	6346	nummod	Martin	PROPN	-	6347
 <name type="PER">
-Martin	Martin	Martin	PROPN	_	6347	list	Michael	PROPN	_	6340
-Henriksen	Henriksen	Henriksen	PROPN	_	6348	flat	Martin	PROPN	_	6347
+Martin	Martin	Martin	PROPN	-	6347	list	Michael	PROPN	-	6340
+Henriksen	Henriksen	Henriksen	PROPN	-	6348	flat	Martin	PROPN	-	6347
 </name>
-(	(	(	PUNCT	_	6349	punct	DF	PROPN	_	6350
+(	(	(	PUNCT	-	6349	punct	DF	PROPN	-	6350
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	6350	flat	Martin	PROPN	_	6347
+DF	DF	DF	PROPN	-	6350	flat	Martin	PROPN	-	6347
 <g/>
 </name>
-)	)	)	PUNCT	_	6351	punct	DF	PROPN	_	6350
+)	)	)	PUNCT	-	6351	punct	DF	PROPN	-	6350
 Til	Til	til	ADP	AdpType=Prep	6352	case	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	6353
-stedfortrædere	stedfortrædere	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	6353	nmod	Martin	PROPN	_	6347
-for	for	for	ADP	AdpType=Prep	6354	case	Mette	PROPN	_	6357
+stedfortrædere	stedfortrædere	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	6353	nmod	Martin	PROPN	-	6347
+for	for	for	ADP	AdpType=Prep	6354	case	Mette	PROPN	-	6357
 <g/>
-:	:	:	PUNCT	_	6355	punct	for	ADP	AdpType=Prep	6354
-1	1	1	NUM	NumType=Card	6356	nummod	Mette	PROPN	_	6357
+:	:	:	PUNCT	-	6355	punct	for	ADP	AdpType=Prep	6354
+1	1	1	NUM	NumType=Card	6356	nummod	Mette	PROPN	-	6357
 <name type="PER">
-Mette	Mette	Mette	PROPN	_	6357	nmod	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	6353
-Reissmann	Reissmann	Reissmann	PROPN	_	6358	flat	Mette	PROPN	_	6357
+Mette	Mette	Mette	PROPN	-	6357	nmod	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	6353
+Reissmann	Reissmann	Reissmann	PROPN	-	6358	flat	Mette	PROPN	-	6357
 </name>
-(	(	(	PUNCT	_	6359	punct	S	PROPN	_	6360
+(	(	(	PUNCT	-	6359	punct	S	PROPN	-	6360
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	6360	flat	Mette	PROPN	_	6357
+S	S	S	PROPN	-	6360	flat	Mette	PROPN	-	6357
 <g/>
 </name>
-)	)	)	PUNCT	_	6361	punct	S	PROPN	_	6360
-2	2	2	NUM	NumType=Card	6362	nummod	Nikolaj	PROPN	_	6363
+)	)	)	PUNCT	-	6361	punct	S	PROPN	-	6360
+2	2	2	NUM	NumType=Card	6362	nummod	Nikolaj	PROPN	-	6363
 <name type="PER">
-Nikolaj	Nikolaj	Nikolaj	PROPN	_	6363	list	Mette	PROPN	_	6357
-Villumsen	Villumsen	Villumsen	PROPN	_	6364	flat	Nikolaj	PROPN	_	6363
+Nikolaj	Nikolaj	Nikolaj	PROPN	-	6363	list	Mette	PROPN	-	6357
+Villumsen	Villumsen	Villumsen	PROPN	-	6364	flat	Nikolaj	PROPN	-	6363
 </name>
-(	(	(	PUNCT	_	6365	punct	EL	PROPN	_	6366
+(	(	(	PUNCT	-	6365	punct	EL	PROPN	-	6366
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	6366	flat	Nikolaj	PROPN	_	6363
+EL	EL	EL	PROPN	-	6366	flat	Nikolaj	PROPN	-	6363
 <g/>
 </name>
-)	)	)	PUNCT	_	6367	punct	EL	PROPN	_	6366
-3	3	3	ADJ	NumType=Ord	6368	amod	Pernille	PROPN	_	6369
+)	)	)	PUNCT	-	6367	punct	EL	PROPN	-	6366
+3	3	3	ADJ	NumType=Ord	6368	amod	Pernille	PROPN	-	6369
 <name type="PER">
-Pernille	Pernille	Pernille	PROPN	_	6369	list	Nikolaj	PROPN	_	6363
-Vigsø	Vigsø	Vigsø	PROPN	_	6370	flat	Pernille	PROPN	_	6369
-Bagge	Bagge	Bagge	PROPN	_	6371	flat	Pernille	PROPN	_	6369
+Pernille	Pernille	Pernille	PROPN	-	6369	list	Nikolaj	PROPN	-	6363
+Vigsø	Vigsø	Vigsø	PROPN	-	6370	flat	Pernille	PROPN	-	6369
+Bagge	Bagge	Bagge	PROPN	-	6371	flat	Pernille	PROPN	-	6369
 </name>
-(	(	(	PUNCT	_	6372	punct	SF	PROPN	_	6373
+(	(	(	PUNCT	-	6372	punct	SF	PROPN	-	6373
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	6373	list	Pernille	PROPN	_	6369
+SF	SF	SF	PROPN	-	6373	list	Pernille	PROPN	-	6369
 <g/>
 </name>
-)	)	)	PUNCT	_	6374	punct	SF	PROPN	_	6373
-4	4	4	NUM	NumType=Card	6375	nummod	Sophie	PROPN	_	6376
+)	)	)	PUNCT	-	6374	punct	SF	PROPN	-	6373
+4	4	4	NUM	NumType=Card	6375	nummod	Sophie	PROPN	-	6376
 <name type="PER">
-Sophie	Sophie	Sophie	PROPN	_	6376	list	SF	PROPN	_	6373
-Løhde	Løhde	Løhde	NOUN	Definite=Ind Gender=Com Number=Sing	6377	flat	Sophie	PROPN	_	6376
+Sophie	Sophie	Sophie	PROPN	-	6376	list	SF	PROPN	-	6373
+Løhde	Løhde	Løhde	NOUN	Definite=Ind Gender=Com Number=Sing	6377	flat	Sophie	PROPN	-	6376
 </name>
-(	(	(	PUNCT	_	6378	punct	V	PROPN	_	6379
+(	(	(	PUNCT	-	6378	punct	V	PROPN	-	6379
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	6379	flat	Sophie	PROPN	_	6376
+V	V	V	PROPN	-	6379	flat	Sophie	PROPN	-	6376
 <g/>
 </name>
-)	)	)	PUNCT	_	6380	punct	V	PROPN	_	6379
-5	5	5	NUM	NumType=Card	6381	nummod	Lars	PROPN	_	6382
+)	)	)	PUNCT	-	6380	punct	V	PROPN	-	6379
+5	5	5	NUM	NumType=Card	6381	nummod	Lars	PROPN	-	6382
 <name type="PER">
-Lars	Lars	Lars	PROPN	_	6382	list	Sophie	PROPN	_	6376
-Barfoed	Barfoed	Barfoed	PROPN	_	6383	flat	Lars	PROPN	_	6382
+Lars	Lars	Lars	PROPN	-	6382	list	Sophie	PROPN	-	6376
+Barfoed	Barfoed	Barfoed	PROPN	-	6383	flat	Lars	PROPN	-	6382
 </name>
-(	(	(	PUNCT	_	6384	punct	KF	PROPN	_	6385
+(	(	(	PUNCT	-	6384	punct	KF	PROPN	-	6385
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	6385	flat	Lars	PROPN	_	6382
+KF	KF	KF	PROPN	-	6385	flat	Lars	PROPN	-	6382
 <g/>
 </name>
-)	)	)	PUNCT	_	6386	punct	KF	PROPN	_	6385
-Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	6387	list	Lars	PROPN	_	6382
+)	)	)	PUNCT	-	6386	punct	KF	PROPN	-	6385
+Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	6387	list	Lars	PROPN	-	6382
 <g/>
-:	:	:	PUNCT	_	6388	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	6387
+:	:	:	PUNCT	-	6388	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	6387
 <name type="PER">
-Jacob	Jacob	Jacob	PROPN	_	6389	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	6387
-Lund	Lund	Lund	PROPN	_	6390	flat	Jacob	PROPN	_	6389
+Jacob	Jacob	Jacob	PROPN	-	6389	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	6387
+Lund	Lund	Lund	PROPN	-	6390	flat	Jacob	PROPN	-	6389
 </name>
-(	(	(	PUNCT	_	6391	punct	S	PROPN	_	6392
+(	(	(	PUNCT	-	6391	punct	S	PROPN	-	6392
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	6392	flat	Jacob	PROPN	_	6389
+S	S	S	PROPN	-	6392	flat	Jacob	PROPN	-	6389
 <g/>
 </name>
-)	)	)	PUNCT	_	6393	punct	S	PROPN	_	6392
-Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	6394	list	Jacob	PROPN	_	6389
+)	)	)	PUNCT	-	6393	punct	S	PROPN	-	6392
+Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	6394	list	Jacob	PROPN	-	6389
 <g/>
-:	:	:	PUNCT	_	6395	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	6394
+:	:	:	PUNCT	-	6395	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	6394
 <name type="PER">
-Michael	Michael	Michael	PROPN	_	6396	nmod	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	6394
-Aastrup	Aastrup	Aastrup	PROPN	_	6397	flat	Michael	PROPN	_	6396
-Jensen	Jensen	Jensen	PROPN	_	6398	flat	Michael	PROPN	_	6396
+Michael	Michael	Michael	PROPN	-	6396	nmod	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	6394
+Aastrup	Aastrup	Aastrup	PROPN	-	6397	flat	Michael	PROPN	-	6396
+Jensen	Jensen	Jensen	PROPN	-	6398	flat	Michael	PROPN	-	6396
 </name>
-(	(	(	PUNCT	_	6399	punct	V	PROPN	_	6400
+(	(	(	PUNCT	-	6399	punct	V	PROPN	-	6400
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	6400	flat	Michael	PROPN	_	6396
+V	V	V	PROPN	-	6400	flat	Michael	PROPN	-	6396
 <g/>
 </name>
-)	)	)	PUNCT	_	6401	punct	V	PROPN	_	6400
-Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	6402	flat	Michael	PROPN	_	6396
+)	)	)	PUNCT	-	6401	punct	V	PROPN	-	6400
+Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	6402	flat	Michael	PROPN	-	6396
 af	af	af	ADP	AdpType=Prep	6403	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6405
 3	3	3	NUM	NumType=Card	6404	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6405
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6405	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	6402
-og	og	og	CCONJ	_	6406	dep	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6405
+og	og	og	CCONJ	-	6406	dep	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6405
 3	3	3	NUM	NumType=Card	6407	nummod	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	6408
 stedfortrædere	stedfortrædere	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	6408	conj	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6405
 til	til	til	ADP	AdpType=Prep	6409	case	forsamling	NOUN	Definite=Ind Gender=Com Number=Sing	6412
@@ -14087,128 +14087,128 @@ for	for	for	ADP	AdpType=Prep	6413	case	EU-Middelhavsområde	NOUN	Definite=Def Ge
 <name type="MISC">
 EU-Middelhavsområdet	EU-Middelhavsområdet	EU-Middelhavsområde	NOUN	Definite=Def Gender=Neut Number=Sing	6414	nmod	forsamling	NOUN	Definite=Ind Gender=Com Number=Sing	6412
 </name>
-(	(	(	PUNCT	_	6415	punct	ufm-pa	NOUN	Definite=Ind Gender=Com Number=Sing	6416
+(	(	(	PUNCT	-	6415	punct	ufm-pa	NOUN	Definite=Ind Gender=Com Number=Sing	6416
 <g/>
 UfM-PA	UfM-PA	ufm-pa	NOUN	Definite=Ind Gender=Com Number=Sing	6416	nmod	forsamling	NOUN	Definite=Ind Gender=Com Number=Sing	6412
-)	)	)	PUNCT	_	6417	punct	ufm-pa	NOUN	Definite=Ind Gender=Com Number=Sing	6416
+)	)	)	PUNCT	-	6417	punct	ufm-pa	NOUN	Definite=Ind Gender=Com Number=Sing	6416
 <g/>
-:	:	:	PUNCT	_	6418	punct	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	6408
+:	:	:	PUNCT	-	6418	punct	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	6408
 Valgt	Valgt	valgt	ADV	Degree=Pos	6419	advmod	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6423
 blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	6420	cop	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6423
 <g/>
-:	:	:	PUNCT	_	6421	punct	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6423
+:	:	:	PUNCT	-	6421	punct	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6423
 Til	Til	til	ADP	AdpType=Prep	6422	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6423
 medlemmer	medlemmer	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6423	nmod	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	6408
 <g/>
-:	:	:	PUNCT	_	6424	punct	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6423
-1	1	1	NUM	NumType=Card	6425	nummod	Morten	PROPN	_	6426
+:	:	:	PUNCT	-	6424	punct	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6423
+1	1	1	NUM	NumType=Card	6425	nummod	Morten	PROPN	-	6426
 <name type="PER">
-Morten	Morten	Morten	PROPN	_	6426	appos	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6423
-Bødskov	Bødskov	Bødskov	PROPN	_	6427	flat	Morten	PROPN	_	6426
+Morten	Morten	Morten	PROPN	-	6426	appos	medlem	NOUN	Definite=Ind Gender=Neut Number=Plur	6423
+Bødskov	Bødskov	Bødskov	PROPN	-	6427	flat	Morten	PROPN	-	6426
 </name>
-(	(	(	PUNCT	_	6428	punct	S	PROPN	_	6429
+(	(	(	PUNCT	-	6428	punct	S	PROPN	-	6429
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	6429	flat	Morten	PROPN	_	6426
+S	S	S	PROPN	-	6429	flat	Morten	PROPN	-	6426
 <g/>
 </name>
-)	)	)	PUNCT	_	6430	punct	S	PROPN	_	6429
-2	2	2	NUM	NumType=Card	6431	nummod	Holger	PROPN	_	6432
+)	)	)	PUNCT	-	6430	punct	S	PROPN	-	6429
+2	2	2	NUM	NumType=Card	6431	nummod	Holger	PROPN	-	6432
 <name type="PER">
-Holger	Holger	Holger	PROPN	_	6432	list	Morten	PROPN	_	6426
-K.	K.	K.	PROPN	_	6433	flat	Holger	PROPN	_	6432
-Nielsen	Nielsen	Nielsen	PROPN	_	6434	flat	Holger	PROPN	_	6432
+Holger	Holger	Holger	PROPN	-	6432	list	Morten	PROPN	-	6426
+K.	K.	K.	PROPN	-	6433	flat	Holger	PROPN	-	6432
+Nielsen	Nielsen	Nielsen	PROPN	-	6434	flat	Holger	PROPN	-	6432
 </name>
-(	(	(	PUNCT	_	6435	punct	SF	PROPN	_	6436
+(	(	(	PUNCT	-	6435	punct	SF	PROPN	-	6436
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	6436	flat	Holger	PROPN	_	6432
+SF	SF	SF	PROPN	-	6436	flat	Holger	PROPN	-	6432
 <g/>
 </name>
-)	)	)	PUNCT	_	6437	punct	SF	PROPN	_	6436
-3	3	3	ADJ	NumType=Ord	6438	amod	Jakob	PROPN	_	6439
+)	)	)	PUNCT	-	6437	punct	SF	PROPN	-	6436
+3	3	3	ADJ	NumType=Ord	6438	amod	Jakob	PROPN	-	6439
 <name type="PER">
-Jakob	Jakob	Jakob	PROPN	_	6439	flat	Holger	PROPN	_	6432
-Ellemann-Jensen	Ellemann-Jensen	Ellemann-Jensen	PROPN	_	6440	flat	Jakob	PROPN	_	6439
+Jakob	Jakob	Jakob	PROPN	-	6439	flat	Holger	PROPN	-	6432
+Ellemann-Jensen	Ellemann-Jensen	Ellemann-Jensen	PROPN	-	6440	flat	Jakob	PROPN	-	6439
 </name>
-(	(	(	PUNCT	_	6441	punct	V	PROPN	_	6442
+(	(	(	PUNCT	-	6441	punct	V	PROPN	-	6442
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	6442	flat	Jakob	PROPN	_	6439
+V	V	V	PROPN	-	6442	flat	Jakob	PROPN	-	6439
 <g/>
 </name>
-)	)	)	PUNCT	_	6443	punct	V	PROPN	_	6442
+)	)	)	PUNCT	-	6443	punct	V	PROPN	-	6442
 Til	Til	til	ADP	AdpType=Prep	6444	case	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	6445
-stedfortrædere	stedfortrædere	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	6445	nmod	Morten	PROPN	_	6426
-for	for	for	ADP	AdpType=Prep	6446	case	Nikolaj	PROPN	_	6449
+stedfortrædere	stedfortrædere	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	6445	nmod	Morten	PROPN	-	6426
+for	for	for	ADP	AdpType=Prep	6446	case	Nikolaj	PROPN	-	6449
 <g/>
-:	:	:	PUNCT	_	6447	punct	for	ADP	AdpType=Prep	6446
-1	1	1	NUM	NumType=Card	6448	nummod	Nikolaj	PROPN	_	6449
+:	:	:	PUNCT	-	6447	punct	for	ADP	AdpType=Prep	6446
+1	1	1	NUM	NumType=Card	6448	nummod	Nikolaj	PROPN	-	6449
 <name type="PER">
-Nikolaj	Nikolaj	Nikolaj	PROPN	_	6449	nmod	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	6445
-Villumsen	Villumsen	Villumsen	PROPN	_	6450	flat	Nikolaj	PROPN	_	6449
+Nikolaj	Nikolaj	Nikolaj	PROPN	-	6449	nmod	stedfortræder	NOUN	Definite=Ind Gender=Com Number=Plur	6445
+Villumsen	Villumsen	Villumsen	PROPN	-	6450	flat	Nikolaj	PROPN	-	6449
 </name>
-(	(	(	PUNCT	_	6451	punct	EL	PROPN	_	6452
+(	(	(	PUNCT	-	6451	punct	EL	PROPN	-	6452
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	6452	flat	Nikolaj	PROPN	_	6449
+EL	EL	EL	PROPN	-	6452	flat	Nikolaj	PROPN	-	6449
 <g/>
 </name>
-)	)	)	PUNCT	_	6453	punct	EL	PROPN	_	6452
-2	2	2	NUM	NumType=Card	6454	nummod	Ida	PROPN	_	6455
+)	)	)	PUNCT	-	6453	punct	EL	PROPN	-	6452
+2	2	2	NUM	NumType=Card	6454	nummod	Ida	PROPN	-	6455
 <name type="PER">
-Ida	Ida	Ida	PROPN	_	6455	list	Nikolaj	PROPN	_	6449
-Auken	Auken	Auken	PROPN	_	6456	flat	Ida	PROPN	_	6455
+Ida	Ida	Ida	PROPN	-	6455	list	Nikolaj	PROPN	-	6449
+Auken	Auken	Auken	PROPN	-	6456	flat	Ida	PROPN	-	6455
 </name>
-(	(	(	PUNCT	_	6457	punct	RV	PROPN	_	6458
+(	(	(	PUNCT	-	6457	punct	RV	PROPN	-	6458
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	6458	list	Ida	PROPN	_	6455
+RV	RV	RV	PROPN	-	6458	list	Ida	PROPN	-	6455
 <g/>
 </name>
-)	)	)	PUNCT	_	6459	punct	RV	PROPN	_	6458
-3	3	3	ADJ	NumType=Ord	6460	amod	Eva	PROPN	_	6461
+)	)	)	PUNCT	-	6459	punct	RV	PROPN	-	6458
+3	3	3	ADJ	NumType=Ord	6460	amod	Eva	PROPN	-	6461
 <name type="PER">
-Eva	Eva	Eva	PROPN	_	6461	nsubj	jf.	VERB	Mood=Imp	6502
-Kjer	Kjer	Kjer	PROPN	_	6462	flat	Eva	PROPN	_	6461
-Hansen	Hansen	Hansen	PROPN	_	6463	flat	Eva	PROPN	_	6461
+Eva	Eva	Eva	PROPN	-	6461	nsubj	jf.	VERB	Mood=Imp	6502
+Kjer	Kjer	Kjer	PROPN	-	6462	flat	Eva	PROPN	-	6461
+Hansen	Hansen	Hansen	PROPN	-	6463	flat	Eva	PROPN	-	6461
 </name>
-(	(	(	PUNCT	_	6464	punct	V	PROPN	_	6465
+(	(	(	PUNCT	-	6464	punct	V	PROPN	-	6465
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	6465	flat	Eva	PROPN	_	6461
+V	V	V	PROPN	-	6465	flat	Eva	PROPN	-	6461
 <g/>
 </name>
-)	)	)	PUNCT	_	6466	punct	V	PROPN	_	6465
-Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	6467	flat	Eva	PROPN	_	6461
+)	)	)	PUNCT	-	6466	punct	V	PROPN	-	6465
+Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	6467	flat	Eva	PROPN	-	6461
 <g/>
-:	:	:	PUNCT	_	6468	punct	Eva	PROPN	_	6461
+:	:	:	PUNCT	-	6468	punct	Eva	PROPN	-	6461
 <name type="PER">
-Jakob	Jakob	Jakob	PROPN	_	6469	appos	Eva	PROPN	_	6461
-Ellemann-Jensen	Ellemann-Jensen	Ellemann-Jensen	PROPN	_	6470	flat	Jakob	PROPN	_	6469
+Jakob	Jakob	Jakob	PROPN	-	6469	appos	Eva	PROPN	-	6461
+Ellemann-Jensen	Ellemann-Jensen	Ellemann-Jensen	PROPN	-	6470	flat	Jakob	PROPN	-	6469
 </name>
-(	(	(	PUNCT	_	6471	punct	V	PROPN	_	6472
+(	(	(	PUNCT	-	6471	punct	V	PROPN	-	6472
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	6472	flat	Jakob	PROPN	_	6469
+V	V	V	PROPN	-	6472	flat	Jakob	PROPN	-	6469
 <g/>
 </name>
-)	)	)	PUNCT	_	6473	punct	V	PROPN	_	6472
-Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	6474	flat	Jakob	PROPN	_	6469
+)	)	)	PUNCT	-	6473	punct	V	PROPN	-	6472
+Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	6474	flat	Jakob	PROPN	-	6469
 <g/>
-:	:	:	PUNCT	_	6475	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	6474
+:	:	:	PUNCT	-	6475	punct	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	6474
 <name type="PER">
-Morten	Morten	Morten	PROPN	_	6476	nmod	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	6474
-Bødskov	Bødskov	Bødskov	PROPN	_	6477	flat	Morten	PROPN	_	6476
+Morten	Morten	Morten	PROPN	-	6476	nmod	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	6474
+Bødskov	Bødskov	Bødskov	PROPN	-	6477	flat	Morten	PROPN	-	6476
 </name>
-(	(	(	PUNCT	_	6478	punct	S	PROPN	_	6479
+(	(	(	PUNCT	-	6478	punct	S	PROPN	-	6479
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	6479	flat	Morten	PROPN	_	6476
+S	S	S	PROPN	-	6479	flat	Morten	PROPN	-	6476
 <g/>
 </name>
-)	)	)	PUNCT	_	6480	punct	S	PROPN	_	6479
-Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	6481	flat	Morten	PROPN	_	6476
+)	)	)	PUNCT	-	6480	punct	S	PROPN	-	6479
+Valg	Valg	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	6481	flat	Morten	PROPN	-	6476
 af	af	af	ADP	AdpType=Prep	6482	case	medlem	NOUN	Definite=Ind Gender=Neut Number=Sing	6484
 1	1	1	NUM	NumType=Card	6483	nummod	medlem	NOUN	Definite=Ind Gender=Neut Number=Sing	6484
 medlem	medlem	medlem	NOUN	Definite=Ind Gender=Neut Number=Sing	6484	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	6481
@@ -14216,160 +14216,160 @@ fra	fra	fra	ADP	AdpType=Prep	6485	case	gruppe	NOUN	Definite=Ind Gender=Com Numbe
 hver	hver	hver	PRON	Gender=Com Number=Sing PronType=Ind	6486	mark	gruppe	NOUN	Definite=Ind Gender=Com Number=Sing	6487
 gruppe	gruppe	gruppe	NOUN	Definite=Ind Gender=Com Number=Sing	6487	nmod	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	6481
 <g/>
-,	,	,	PUNCT	_	6488	punct	gruppe	NOUN	Definite=Ind Gender=Com Number=Sing	6487
+,	,	,	PUNCT	-	6488	punct	gruppe	NOUN	Definite=Ind Gender=Com Number=Sing	6487
 der	der	der	PRON	PartType=Inf	6489	nsubj	repræsentere	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	6491
 er	er	være	AUX	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	6490	aux	repræsentere	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	6491
-repræsenteret	repræsenteret	repræsentere	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	6491	acl_relcl	gruppe	NOUN	Definite=Ind Gender=Com Number=Sing	6487
+repræsenteret	repræsenteret	repræsentere	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	6491	acl:relcl	gruppe	NOUN	Definite=Ind Gender=Com Number=Sing	6487
 i	i	i	ADP	AdpType=Prep	6492	case	udvalg	NOUN	Definite=Def Gender=Neut Number=Sing	6493
 Udvalget	Udvalget	udvalg	NOUN	Definite=Def Gender=Neut Number=Sing	6493	obl	repræsentere	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	6491
 for	for	for	ADP	AdpType=Prep	6494	case	forretningsorden	NOUN	Definite=Def Gender=Com Number=Sing	6495
 Forretningsordenen	Forretningsordenen	forretningsorden	NOUN	Definite=Def Gender=Com Number=Sing	6495	obl	repræsentere	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	6491
 <g/>
-,	,	,	PUNCT	_	6496	punct	repræsentere	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	6491
+,	,	,	PUNCT	-	6496	punct	repræsentere	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	6491
 til	til	til	ADP	AdpType=Prep	6497	case	underudvalg	NOUN	Definite=Ind Gender=Neut Number=Sing	6500
 dette	dette	denne	DET	Gender=Neut Number=Sing PronType=Dem	6498	det	underudvalg	NOUN	Definite=Ind Gender=Neut Number=Sing	6500
 udvalgs	udvalgs	udvalgs	ADJ	Degree=Pos	6499	amod	underudvalg	NOUN	Definite=Ind Gender=Neut Number=Sing	6500
 underudvalg	underudvalg	underudvalg	NOUN	Definite=Ind Gender=Neut Number=Sing	6500	nmod	gruppe	NOUN	Definite=Ind Gender=Com Number=Sing	6487
 <g/>
-,	,	,	PUNCT	_	6501	punct	Morten	PROPN	_	6476
-jf.	jf.	jf.	VERB	Mood=Imp	6502	acl_relcl	Nikolaj	PROPN	_	6449
+,	,	,	PUNCT	-	6501	punct	Morten	PROPN	-	6476
+jf.	jf.	jf.	VERB	Mood=Imp	6502	acl:relcl	Nikolaj	PROPN	-	6449
 Valgt	Valgt	vælge	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	6503	xcomp	jf.	VERB	Mood=Imp	6502
-blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	6504	cop	Henrik	PROPN	_	6507
+blev	blev	blive	AUX	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	6504	cop	Henrik	PROPN	-	6507
 <g/>
-:	:	:	PUNCT	_	6505	punct	Henrik	PROPN	_	6507
-1	1	1	NUM	NumType=Card	6506	nummod	Henrik	PROPN	_	6507
+:	:	:	PUNCT	-	6505	punct	Henrik	PROPN	-	6507
+1	1	1	NUM	NumType=Card	6506	nummod	Henrik	PROPN	-	6507
 <name type="PER">
-Henrik	Henrik	Henrik	PROPN	_	6507	obj	jf.	VERB	Mood=Imp	6502
-Dam	Dam	Dam	PROPN	_	6508	flat	Henrik	PROPN	_	6507
-Kristensen	Kristensen	Kristensen	PROPN	_	6509	flat	Henrik	PROPN	_	6507
+Henrik	Henrik	Henrik	PROPN	-	6507	obj	jf.	VERB	Mood=Imp	6502
+Dam	Dam	Dam	PROPN	-	6508	flat	Henrik	PROPN	-	6507
+Kristensen	Kristensen	Kristensen	PROPN	-	6509	flat	Henrik	PROPN	-	6507
 </name>
-(	(	(	PUNCT	_	6510	punct	S	PROPN	_	6511
+(	(	(	PUNCT	-	6510	punct	S	PROPN	-	6511
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	6511	flat	Henrik	PROPN	_	6507
+S	S	S	PROPN	-	6511	flat	Henrik	PROPN	-	6507
 <g/>
 </name>
-)	)	)	PUNCT	_	6512	punct	S	PROPN	_	6511
-2	2	2	NUM	NumType=Card	6513	nummod	Lone	PROPN	_	6514
+)	)	)	PUNCT	-	6512	punct	S	PROPN	-	6511
+2	2	2	NUM	NumType=Card	6513	nummod	Lone	PROPN	-	6514
 <name type="PER">
-Lone	Lone	Lone	PROPN	_	6514	list	Henrik	PROPN	_	6507
-Loklindt	Loklindt	Loklindt	PROPN	_	6515	flat	Lone	PROPN	_	6514
+Lone	Lone	Lone	PROPN	-	6514	list	Henrik	PROPN	-	6507
+Loklindt	Loklindt	Loklindt	PROPN	-	6515	flat	Lone	PROPN	-	6514
 </name>
-(	(	(	PUNCT	_	6516	punct	RV	PROPN	_	6517
+(	(	(	PUNCT	-	6516	punct	RV	PROPN	-	6517
 <g/>
 <name type="ORG">
-RV	RV	RV	PROPN	_	6517	flat	Lone	PROPN	_	6514
+RV	RV	RV	PROPN	-	6517	flat	Lone	PROPN	-	6514
 <g/>
 </name>
-)	)	)	PUNCT	_	6518	punct	RV	PROPN	_	6517
-3	3	3	ADJ	NumType=Ord	6519	amod	Jonas	PROPN	_	6520
+)	)	)	PUNCT	-	6518	punct	RV	PROPN	-	6517
+3	3	3	ADJ	NumType=Ord	6519	amod	Jonas	PROPN	-	6520
 <name type="PER">
-Jonas	Jonas	Jonas	PROPN	_	6520	list	Lone	PROPN	_	6514
-Dahl	Dahl	Dahl	PROPN	_	6521	flat	Jonas	PROPN	_	6520
+Jonas	Jonas	Jonas	PROPN	-	6520	list	Lone	PROPN	-	6514
+Dahl	Dahl	Dahl	PROPN	-	6521	flat	Jonas	PROPN	-	6520
 </name>
-(	(	(	PUNCT	_	6522	punct	SF	PROPN	_	6523
+(	(	(	PUNCT	-	6522	punct	SF	PROPN	-	6523
 <g/>
 <name type="ORG">
-SF	SF	SF	PROPN	_	6523	flat	Jonas	PROPN	_	6520
+SF	SF	SF	PROPN	-	6523	flat	Jonas	PROPN	-	6520
 <g/>
 </name>
-)	)	)	PUNCT	_	6524	punct	SF	PROPN	_	6523
-4	4	4	NUM	NumType=Card	6525	nummod	Stine	PROPN	_	6526
+)	)	)	PUNCT	-	6524	punct	SF	PROPN	-	6523
+4	4	4	NUM	NumType=Card	6525	nummod	Stine	PROPN	-	6526
 <name type="PER">
-Stine	Stine	Stine	PROPN	_	6526	list	Jonas	PROPN	_	6520
-Brix	Brix	Brix	PROPN	_	6527	flat	Stine	PROPN	_	6526
+Stine	Stine	Stine	PROPN	-	6526	list	Jonas	PROPN	-	6520
+Brix	Brix	Brix	PROPN	-	6527	flat	Stine	PROPN	-	6526
 </name>
-(	(	(	PUNCT	_	6528	punct	EL	PROPN	_	6529
+(	(	(	PUNCT	-	6528	punct	EL	PROPN	-	6529
 <g/>
 <name type="ORG">
-EL	EL	EL	PROPN	_	6529	flat	Stine	PROPN	_	6526
+EL	EL	EL	PROPN	-	6529	flat	Stine	PROPN	-	6526
 <g/>
 </name>
-)	)	)	PUNCT	_	6530	punct	EL	PROPN	_	6529
-5	5	5	NUM	NumType=Card	6531	nummod	Kristian	PROPN	_	6532
+)	)	)	PUNCT	-	6530	punct	EL	PROPN	-	6529
+5	5	5	NUM	NumType=Card	6531	nummod	Kristian	PROPN	-	6532
 <name type="PER">
-Kristian	Kristian	Kristian	PROPN	_	6532	list	Stine	PROPN	_	6526
-Jensen	Jensen	Jensen	PROPN	_	6533	flat	Kristian	PROPN	_	6532
+Kristian	Kristian	Kristian	PROPN	-	6532	list	Stine	PROPN	-	6526
+Jensen	Jensen	Jensen	PROPN	-	6533	flat	Kristian	PROPN	-	6532
 </name>
-(	(	(	PUNCT	_	6534	punct	V	PROPN	_	6535
+(	(	(	PUNCT	-	6534	punct	V	PROPN	-	6535
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	6535	flat	Kristian	PROPN	_	6532
+V	V	V	PROPN	-	6535	flat	Kristian	PROPN	-	6532
 <g/>
 </name>
-)	)	)	PUNCT	_	6536	punct	V	PROPN	_	6535
-6	6	6	NUM	NumType=Card	6537	nummod	Peter	PROPN	_	6538
+)	)	)	PUNCT	-	6536	punct	V	PROPN	-	6535
+6	6	6	NUM	NumType=Card	6537	nummod	Peter	PROPN	-	6538
 <name type="PER">
-Peter	Peter	Peter	PROPN	_	6538	list	Kristian	PROPN	_	6532
-Skaarup	Skaarup	Skaarup	PROPN	_	6539	flat	Peter	PROPN	_	6538
+Peter	Peter	Peter	PROPN	-	6538	list	Kristian	PROPN	-	6532
+Skaarup	Skaarup	Skaarup	PROPN	-	6539	flat	Peter	PROPN	-	6538
 </name>
-(	(	(	PUNCT	_	6540	punct	DF	PROPN	_	6541
+(	(	(	PUNCT	-	6540	punct	DF	PROPN	-	6541
 <g/>
 <name type="ORG">
-DF	DF	DF	PROPN	_	6541	flat	Peter	PROPN	_	6538
+DF	DF	DF	PROPN	-	6541	flat	Peter	PROPN	-	6538
 <g/>
 </name>
-)	)	)	PUNCT	_	6542	punct	DF	PROPN	_	6541
-7	7	7	NUM	NumType=Card	6543	nummod	Simon	PROPN	_	6544
+)	)	)	PUNCT	-	6542	punct	DF	PROPN	-	6541
+7	7	7	NUM	NumType=Card	6543	nummod	Simon	PROPN	-	6544
 <name type="PER">
-Simon	Simon	Simon	PROPN	_	6544	list	Peter	PROPN	_	6538
-Emil	Emil	Emil	PROPN	_	6545	flat	Simon	PROPN	_	6544
-Ammitzbøll	Ammitzbøll	Ammitzbøll	PROPN	_	6546	flat	Simon	PROPN	_	6544
+Simon	Simon	Simon	PROPN	-	6544	list	Peter	PROPN	-	6538
+Emil	Emil	Emil	PROPN	-	6545	flat	Simon	PROPN	-	6544
+Ammitzbøll	Ammitzbøll	Ammitzbøll	PROPN	-	6546	flat	Simon	PROPN	-	6544
 </name>
-(	(	(	PUNCT	_	6547	punct	LA	PROPN	_	6548
+(	(	(	PUNCT	-	6547	punct	LA	PROPN	-	6548
 <g/>
 <name type="ORG">
-LA	LA	LA	PROPN	_	6548	flat	Simon	PROPN	_	6544
+LA	LA	LA	PROPN	-	6548	flat	Simon	PROPN	-	6544
 <g/>
 </name>
-)	)	)	PUNCT	_	6549	punct	LA	PROPN	_	6548
-8	8	8	NUM	NumType=Card	6550	nummod	Brian	PROPN	_	6551
+)	)	)	PUNCT	-	6549	punct	LA	PROPN	-	6548
+8	8	8	NUM	NumType=Card	6550	nummod	Brian	PROPN	-	6551
 <name type="PER">
-Brian	Brian	Brian	PROPN	_	6551	list	Simon	PROPN	_	6544
-Mikkelsen	Mikkelsen	Mikkelsen	PROPN	_	6552	flat	Brian	PROPN	_	6551
+Brian	Brian	Brian	PROPN	-	6551	list	Simon	PROPN	-	6544
+Mikkelsen	Mikkelsen	Mikkelsen	PROPN	-	6552	flat	Brian	PROPN	-	6551
 </name>
-(	(	(	PUNCT	_	6553	punct	KF	PROPN	_	6554
+(	(	(	PUNCT	-	6553	punct	KF	PROPN	-	6554
 <g/>
 <name type="ORG">
-KF	KF	KF	PROPN	_	6554	flat	Brian	PROPN	_	6551
+KF	KF	KF	PROPN	-	6554	flat	Brian	PROPN	-	6551
 <g/>
 </name>
-)	)	)	PUNCT	_	6555	punct	KF	PROPN	_	6554
-Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	6556	list	Brian	PROPN	_	6551
+)	)	)	PUNCT	-	6555	punct	KF	PROPN	-	6554
+Formand	Formand	formand	NOUN	Definite=Ind Gender=Com Number=Sing	6556	list	Brian	PROPN	-	6551
 <g/>
-:	:	:	PUNCT	_	6557	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	6556
+:	:	:	PUNCT	-	6557	punct	formand	NOUN	Definite=Ind Gender=Com Number=Sing	6556
 <name type="PER">
-Henrik	Henrik	Henrik	PROPN	_	6558	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	6556
-Dam	Dam	Dam	PROPN	_	6559	flat	Henrik	PROPN	_	6558
-Kristensen	Kristensen	Kristensen	PROPN	_	6560	flat	Henrik	PROPN	_	6558
+Henrik	Henrik	Henrik	PROPN	-	6558	list	formand	NOUN	Definite=Ind Gender=Com Number=Sing	6556
+Dam	Dam	Dam	PROPN	-	6559	flat	Henrik	PROPN	-	6558
+Kristensen	Kristensen	Kristensen	PROPN	-	6560	flat	Henrik	PROPN	-	6558
 </name>
-(	(	(	PUNCT	_	6561	punct	S	PROPN	_	6562
+(	(	(	PUNCT	-	6561	punct	S	PROPN	-	6562
 <g/>
 <name type="ORG">
-S	S	S	PROPN	_	6562	list	Henrik	PROPN	_	6558
+S	S	S	PROPN	-	6562	list	Henrik	PROPN	-	6558
 <g/>
 </name>
-)	)	)	PUNCT	_	6563	punct	S	PROPN	_	6562
-Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	6564	flat	S	PROPN	_	6562
+)	)	)	PUNCT	-	6563	punct	S	PROPN	-	6562
+Næstformand	Næstformand	næstformand	NOUN	Definite=Ind Gender=Com Number=Sing	6564	flat	S	PROPN	-	6562
 <g/>
-:	:	:	PUNCT	_	6565	punct	S	PROPN	_	6562
+:	:	:	PUNCT	-	6565	punct	S	PROPN	-	6562
 <name type="PER">
-Kristian	Kristian	Kristian	PROPN	_	6566	flat	S	PROPN	_	6562
-Jensen	Jensen	Jensen	PROPN	_	6567	flat	Kristian	PROPN	_	6566
+Kristian	Kristian	Kristian	PROPN	-	6566	flat	S	PROPN	-	6562
+Jensen	Jensen	Jensen	PROPN	-	6567	flat	Kristian	PROPN	-	6566
 </name>
-(	(	(	PUNCT	_	6568	punct	S	PROPN	_	6562
+(	(	(	PUNCT	-	6568	punct	S	PROPN	-	6562
 <g/>
 <name type="ORG">
-V	V	V	PROPN	_	6569	flat	S	PROPN	_	6562
+V	V	V	PROPN	-	6569	flat	S	PROPN	-	6562
 <g/>
 </name>
-)	)	)	PUNCT	_	6570	punct	S	PROPN	_	6562
+)	)	)	PUNCT	-	6570	punct	S	PROPN	-	6562
 <g/>
-]	]	]	PUNCT	_	6571	punct	jf.	VERB	Mood=Imp	6502
+]	]	]	PUNCT	-	6571	punct	jf.	VERB	Mood=Imp	6502
 </s>
 </p>
 </speech>
 <note type="gap::editorial">
-/SAMPLING/	_	_	_	_	_	_	_	_	_	_
+/SAMPLING/	-	-	-	-	-	-	-	-	-	-
 </note>
 </text>
