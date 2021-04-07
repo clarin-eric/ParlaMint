@@ -343,7 +343,9 @@
 	 the correct time-frame for the speech -->
     <xsl:variable name="refs">
       <xsl:variable name="tmp">
-	<xsl:for-each select="$speaker/tei:affiliation[@role='member' or @role='candidateMP']">
+	<xsl:for-each select="$speaker/tei:affiliation
+			      [@role='member' or @role='candidateMP' or 
+			      @role='president' or @role='vicePresident' or @role='secretary']">
 	  <xsl:choose>
 	    <xsl:when test="@from and @to">
 	      <xsl:if test="et:between-dates($date-from, @from, @to) and

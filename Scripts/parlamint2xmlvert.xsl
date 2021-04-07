@@ -555,27 +555,27 @@ And, there is, in theory, also:
 	 the correct time-frame for the speech -->
     <xsl:variable name="refs">
       <xsl:variable name="tmp">
-	<xsl:for-each select="$speaker/tei:affiliation[@role='member' or @role='candidateMP']">
+	<xsl:for-each select="$speaker/tei:affiliation
+			      [@role='member' or @role='candidateMP' or 
+			      @role='president' or @role='vicePresident' or @role='secretary']">
 	  <xsl:choose>
 	    <xsl:when test="@from and @to">
 	      <xsl:if test="et:between-dates($date-from, @from, @to) and
 			    et:between-dates($date-to, @from, @to)">
 		<xsl:value-of select="@ref"/>
-		<xsl:text>&#32;</xsl:text>
 	      </xsl:if>
 	    </xsl:when>
 	    <xsl:when test="@from">
 	      <xsl:if test="et:between-dates($date-from, @from, $today-iso) and
 			    et:between-dates($date-to, @from, $today-iso)">
 		<xsl:value-of select="@ref"/>
-		<xsl:text>&#32;</xsl:text>
 	      </xsl:if>
 	    </xsl:when>
 	    <xsl:otherwise>
 	      <xsl:value-of select="@ref"/>
-	      <xsl:text>&#32;</xsl:text>
 	    </xsl:otherwise>
 	  </xsl:choose>
+	  <xsl:text>&#32;</xsl:text>
 	</xsl:for-each>
       </xsl:variable>
       <!--xsl:if test="contains(normalize-space($tmp), ' ')">
