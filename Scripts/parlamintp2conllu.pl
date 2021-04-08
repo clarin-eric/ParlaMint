@@ -67,6 +67,7 @@ my ($langs) = $country2lang{$country};
 
 `mkdir $outDir` unless -e "$outDir";
 `rm -f $outDir/*.conllu`;
+`rm -f $outDir/*-meta.tsv`;
 
 #Store all files to be processed in $fileFile
 $fileFile = "$DIR/files.lst";

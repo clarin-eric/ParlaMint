@@ -312,13 +312,13 @@
   <xsl:template match="tei:u">
     <xsl:choose>
       <xsl:when test="not(@who)">
-	<xsl:call-template name="error">
+	<!--xsl:call-template name="error">
 	  <xsl:with-param name="severity">INFO</xsl:with-param>
 	  <xsl:with-param name="msg">
 	    <xsl:text>Element u without @who </xsl:text>
 	    <xsl:value-of select="@xml:id"/>
 	  </xsl:with-param>
-	</xsl:call-template>
+	</xsl:call-template-->
       </xsl:when>
       <xsl:when test="not(normalize-space(@who))">
 	<xsl:call-template name="error">
@@ -365,8 +365,9 @@
       <xsl:if test="$head != ancestor::tei:s/@xml:id">
 	<xsl:variable name="token" select="substring-after(@target, ' ')"/>
 	<xsl:call-template name="error">
+	  <xsl:with-param name="severity">WARN</xsl:with-param>
 	  <xsl:with-param name="msg"
-			  select="concat('UD root relation must have sentence ID as its head for ', 
+			  select="concat('UD root relation should have sentence ID as its head for ', 
 				  $token, ' head = ', $head, ' sent ID = ', ancestor::tei:s/@xml:id)"/>
 	</xsl:call-template>
       </xsl:if>
