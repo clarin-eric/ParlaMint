@@ -225,7 +225,7 @@ test-val:
 	$s -xsl:Scripts/validate-parlamint.xsl ParlaMint-BE/ParlaMint-BE.ana.xml
 	$s -xsl:Scripts/validate-parlamint.xsl ParlaMint-BE/ParlaMint-BE_2015-06-10-54-commissie-ic189x.ana.xml
 # Validate and derive formats for 1 language
-LANG = HU
+LANG = NL
 PREF = /project/corpora/Parla/ParlaMint/ParlaMint
 all-lang:	all-lang-tei all-lang-ana
 all-lang-tei:	val-pc-lang val-lang text-lang meta-lang chars-lang
