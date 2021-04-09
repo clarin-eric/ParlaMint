@@ -64,11 +64,20 @@
   
   <!-- A segment corresponds to a paragraph -->
   <xsl:template match="tei:seg">
-    <xsl:if test="not(normalize-space($seg-lang)) or 
-		  ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = $seg-lang">
-      <xsl:value-of select="concat('# newpar id = ', @xml:id, '&#10;')"/>
-      <xsl:apply-templates/>
-    </xsl:if>
+    <xsl:choose>
+      <xsl:when test="tei:s">
+	<xsl:if test="not(normalize-space($seg-lang)) or 
+		      ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = $seg-lang">
+	  <xsl:value-of select="concat('# newpar id = ', @xml:id, '&#10;')"/>
+	  <xsl:apply-templates select="tei:s"/>
+	</xsl:if>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:message>
+	  <xsl:value-of select="concat('WARN: skipping segment without sentences ', @xml:id)"/>
+	</xsl:message>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
   
   <!-- And a sentence is a sentence -->
