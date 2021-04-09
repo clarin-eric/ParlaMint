@@ -1,4 +1,44 @@
-#Generation and validation of CoNLL-U files
+#Make ParlaMint corpus root
+root:
+	$s -xsl:Scripts/parlamint2root.xsl Scripts/ParlaMint-template.xml > ParlaMint.xml
+	$s -xsl:Scripts/parlamint2root.xsl Scripts/ParlaMint.ana-template.xml > ParlaMint.ana.xml
+
+# Validate and derive formats for 1 language
+LANG = TR
+PREF = /project/corpora/Parla/ParlaMint/ParlaMint
+all-lang:	all-lang-tei all-lang-ana
+all-lang-tei:	val-pc-lang val-lang text-lang meta-lang chars-lang
+all-lang-ana:	vertana-lang conllu-lang
+chars-lang:
+	rm -f ParlaMint-${LANG}/chars-files-${LANG}.txt
+	rm -f ParlaMint-${LANG}/*.tmp
+	nice find ParlaMint-${LANG}/ -name '*.txt' | \
+	$P --jobs 20 'cut -f2 {} > {.}.tmp'
+	nice find ParlaMint-${LANG}/ -name '*.tmp' | \
+	$P --jobs 20 'Scripts/chars.pl {} >> ParlaMint-${LANG}/chars-files-${LANG}.tbl'
+	Scripts/chars-summ.pl < ParlaMint-${LANG}/chars-files-${LANG}.tbl \
+	> ParlaMint-${LANG}/chars-${LANG}.tbl
+	rm -f ParlaMint-${LANG}/*.tmp
+text-lang:
+	ls ParlaMint-${LANG}/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ParlaMint-${LANG}/{/.}.txt'
+meta-lang:
+	ls ParlaMint-${LANG}/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
+	'$s hdr=../ParlaMint-${LANG}/ParlaMint-${LANG}.xml -xsl:Scripts/parlamint2meta.xsl \
+	{} > ParlaMint-${LANG}/{/.}-meta.tsv'
+conllu-lang:
+	Scripts/parlamint2conllu.pl ParlaMint-${LANG} ParlaMint-${LANG}
+
+vertana-lang:
+	Scripts/parlamint-tei2vert.pl ParlaMint-${LANG}/ParlaMint-${LANG}.ana.xml ParlaMint-${LANG}
+val-lang:
+	Scripts/validate-parlamint.pl Schema 'ParlaMint-${LANG}'
+val-pc-lang:
+	ls ParlaMint-${LANG}/ParlaMint-${LANG}.xml | xargs ${pc} 
+	ls ParlaMint-${LANG}/ParlaMint-${LANG}.ana.xml | xargs ${pc}
+
+
+#Generation and validation of all CoNLL-U files
 #If you want to use, first do:
 #$ cd Scripts; git clone git@github.com:UniversalDependencies/tools.git
 nohup-conllu:
@@ -9,7 +49,7 @@ conllu:
 	Scripts/parlamint2conllu.pl ParlaMint-BG ParlaMint-BG 2> ParlaMint-BG/ParlaMint-BG.conllu.log
 	Scripts/parlamint2conllu.pl ParlaMint-CZ ParlaMint-CZ 2> ParlaMint-CZ/ParlaMint-CZ.conllu.log
 	Scripts/parlamint2conllu.pl ParlaMint-DK ParlaMint-DK 2> ParlaMint-DK/ParlaMint-DK.conllu.log
-	#Scripts/parlamint2conllu.pl ParlaMint-ES ParlaMint-ES 2> ParlaMint-ES/ParlaMint-ES.conllu.log
+	Scripts/parlamint2conllu.pl ParlaMint-ES ParlaMint-ES 2> ParlaMint-ES/ParlaMint-ES.conllu.log
 	#Scripts/parlamint2conllu.pl ParlaMint-FR ParlaMint-FR 2> ParlaMint-FR/ParlaMint-FR.conllu.log
 	Scripts/parlamint2conllu.pl ParlaMint-GB ParlaMint-GB 2> ParlaMint-GB/ParlaMint-GB.conllu.log
 	Scripts/parlamint2conllu.pl ParlaMint-HR ParlaMint-HR 2> ParlaMint-HR/ParlaMint-HR.conllu.log
@@ -210,11 +250,6 @@ verts:
 	Scripts/parlamint-tei2vert.pl ParlaMint-SI/ParlaMint-SI.ana.xml ParlaMint-SI
 	#Scripts/parlamint-tei2vert.pl ParlaMint-TR/ParlaMint-TR.ana.xml ParlaMint-TR
 
-#Make ParlaMint corpus root
-root:
-	$s -xsl:Scripts/parlamint2root.xsl Scripts/ParlaMint-template.xml > ParlaMint.xml
-	$s -xsl:Scripts/parlamint2root.xsl Scripts/ParlaMint.ana-template.xml > ParlaMint.ana.xml
-
 #Make HTML, not yet operative
 H = /project/corpora/Parla/ParlaMint/ParlaMint/
 htm:	val-all
@@ -224,40 +259,6 @@ htm:	val-all
 test-val:
 	$s -xsl:Scripts/validate-parlamint.xsl ParlaMint-BE/ParlaMint-BE.ana.xml
 	$s -xsl:Scripts/validate-parlamint.xsl ParlaMint-BE/ParlaMint-BE_2015-06-10-54-commissie-ic189x.ana.xml
-# Validate and derive formats for 1 language
-LANG = NL
-PREF = /project/corpora/Parla/ParlaMint/ParlaMint
-all-lang:	all-lang-tei all-lang-ana
-all-lang-tei:	val-pc-lang val-lang text-lang meta-lang chars-lang
-all-lang-ana:	vertana-lang conllu-lang
-chars-lang:
-	rm -f ParlaMint-${LANG}/chars-files-${LANG}.txt
-	rm -f ParlaMint-${LANG}/*.tmp
-	nice find ParlaMint-${LANG}/ -name '*.txt' | \
-	$P --jobs 20 'cut -f2 {} > {.}.tmp'
-	nice find ParlaMint-${LANG}/ -name '*.tmp' | \
-	$P --jobs 20 'Scripts/chars.pl {} >> ParlaMint-${LANG}/chars-files-${LANG}.tbl'
-	Scripts/chars-summ.pl < ParlaMint-${LANG}/chars-files-${LANG}.tbl \
-	> ParlaMint-${LANG}/chars-${LANG}.tbl
-	rm -f ParlaMint-${LANG}/*.tmp
-text-lang:
-	ls ParlaMint-${LANG}/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ParlaMint-${LANG}/{/.}.txt'
-meta-lang:
-	ls ParlaMint-${LANG}/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../ParlaMint-${LANG}/ParlaMint-${LANG}.xml -xsl:Scripts/parlamint2meta.xsl \
-	{} > ParlaMint-${LANG}/{/.}-meta.tsv'
-conllu-lang:
-	Scripts/parlamint2conllu.pl ParlaMint-${LANG} ParlaMint-${LANG}
-
-vertana-lang:
-	Scripts/parlamint-tei2vert.pl ParlaMint-${LANG}/ParlaMint-${LANG}.ana.xml ParlaMint-${LANG}
-val-lang:
-	Scripts/validate-parlamint.pl Schema 'ParlaMint-${LANG}'
-val-pc-lang:
-	ls ParlaMint-${LANG}/ParlaMint-${LANG}.xml | xargs ${pc} 
-	ls ParlaMint-${LANG}/ParlaMint-${LANG}.ana.xml | xargs ${pc}
-
 # Validation for all corpora
 # Parla-CLARIN validation
 nohup:
