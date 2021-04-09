@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ParlaMint-TR_T26-tbmm-2017-10-16"
+     xml:lang="tr"
+     ana="#parla.session #reference">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">The Turkish parliamentary corpus ParlaMint-TR, Session 8 [ParlaMint SAMPLE]</title>
+            <meeting n="26" corresp="#TBMM" ana="#parla.term #TBMM.26">Term 26</meeting>
+            <meeting n="8" ana="#parla.session">8</meeting>
+            <respStmt>
+               <persName>Çağrı Çöltekin</persName>
+               <resp xml:lang="en">Data retrieval, linguistic annotation, and conversion to TEI</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>1.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="209" xml:lang="en">209 speeches</measure>
+            <measure unit="words" quantity="28399" xml:lang="en">28,399 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1405</idno>
+            <pubPlace>
+               <ref target="http://hdl.handle.net/11356/1405">http://hdl.handle.net/11356/1405</ref>
+            </pubPlace>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>. </p>
+            </availability>
+            <date when="2021-04-09">2021-04-09</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="en">https://www.tbmm.gov.tr/tutanak/donem26/yil3/ham/b00801h.htm</title>
+               <edition xml:lang="en">Unverified session record</edition>
+               <publisher xml:lang="en">The Turkish Parliament</publisher>
+               <idno type="URI">https://www.tbmm.gov.tr/</idno>
+               <date when="2017-10-16">2017-10-16</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="4"/>
+               <tagUsage gi="note" occurs="75"/>
+               <tagUsage gi="u" occurs="805"/>
+               <tagUsage gi="seg" occurs="805"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city">Ankara</name>
+               <name type="country" key="TR">Turkey</name>
+               <date when="2014-08-25" ana="#parla.session">25.8.2014</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="tr">
+      <body>
+         <div type="debateSection">
+            <note type="time">14.03</note>
+            <note type="chair">Ahmet Aydın</note>
+            <u ana="#regular" who="#Ahmet.Aydın" xml:id="tbmm-2017-10-16s01p001">
+               <seg xml:id="tbmm-2017-10-16s01p001.seg0">Türkiye Büyük Millet Meclisinin 8’inci Birleşimini açıyorum.</seg>
+            </u>
+            <u ana="#regular" who="#Ahmet.Aydın" xml:id="tbmm-2017-10-16s01p002">
+               <seg xml:id="tbmm-2017-10-16s01p002.seg0">Toplantı yeter sayısı vardır, görüşmelere başlıyoruz.</seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+         </div>
+         <div type="debateSection">
+            <u ana="#regular" who="#Ahmet.Aydın" xml:id="tbmm-2017-10-16s04p240">
+               <seg xml:id="tbmm-2017-10-16s04p240.seg0">Evet, böylece gündemimizi tamamlamış bulunuyoruz.</seg>
+            </u>
+            <u ana="#regular" who="#Ahmet.Aydın" xml:id="tbmm-2017-10-16s04p241">
+               <seg xml:id="tbmm-2017-10-16s04p241.seg0">OHAL’in uzatılmasına dair Başbakanlık tezkeresi ve sözlü soru önergeleri ile alınan karar gereğince, kanun tasarı ve teklifleri ile komisyonlardan gelen diğer işleri sırasıyla görüşmek için 17 Ekim 2017 Salı günü saat 15.00’te toplanmak üzere birleşimi kapatıyor, hayırlı akşamlar diliyorum.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
