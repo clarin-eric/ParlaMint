@@ -4,7 +4,7 @@ root:
 	$s -xsl:Scripts/parlamint2root.xsl Scripts/ParlaMint.ana-template.xml > ParlaMint.ana.xml
 
 # Validate and derive formats for 1 language
-LANG = TR
+LANG = ES
 PREF = /project/corpora/Parla/ParlaMint/ParlaMint
 all-lang:	all-lang-tei all-lang-ana
 all-lang-tei:	val-pc-lang val-lang text-lang meta-lang chars-lang

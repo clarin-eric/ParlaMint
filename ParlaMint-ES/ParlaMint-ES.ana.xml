@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es" xml:id="ParlaMint-ES">
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0"
+           xml:lang="es"
+           xml:id="ParlaMint-ES.ana">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" xml:lang="es">Corpus parlamentario en español ParlaMint-ES [ParlaMint SAMPLE]</title>
-            <title type="main" xml:lang="en">Spanish parliamentary corpus ParlaMint-ES [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="es">Corpus parlamentario en español ParlaMint-ES [ParlaMint.ana SAMPLE]</title>
+            <title type="main" xml:lang="en">Spanish parliamentary corpus ParlaMint-ES [ParlaMint.ana SAMPLE]</title>
             <title type="sub" xml:lang="es">Actas del Congreso de los Diputados de España, legislaturas XI-XII (2015 - 2020)</title>
             <title type="sub" xml:lang="en">Minutes from the National Congress in Spain, terms 10-14 (2015 - 2020)</title>
             <meeting n="10" corresp="#CD" ana="#parla.term #CD.10">Term 10</meeting>
@@ -20,6 +22,10 @@
                <persName ref="https://orcid.org/0000-0002-1560-4099">Tomaž Erjavec</persName>
                <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
             </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-1195-7487">Luciana de Macedo</persName>
+               <resp xml:lang="en">Tokenization, Lemmatization, POS-tagging, NER, UD</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="es">CLARIN infraestructura de investigación científica</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
@@ -30,13 +36,13 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>2.0</edition>
+            <edition>0.1</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="49919" xml:lang="es">49,919 intervenciones</measure>
-            <measure unit="speeches" quantity="49919" xml:lang="en">49.919 speeches</measure>
-            <measure quantity="0" unit="words" xml:lang="es">0 palabras</measure>
-            <measure quantity="0" unit="words" xml:lang="en">0 words</measure>
+            <measure unit="speeches" quantity="49919" xml:lang="en">49,919 speeches</measure>
+            <measure quantity="13039185" unit="words" xml:lang="es">13,039,185 palabras</measure>
+            <measure quantity="13039185" unit="words" xml:lang="en">13,039,185 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -44,7 +50,7 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1405</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="es">Este trabajo se encuentra protegido por la licencia <ref target="https://creativecommons.org/licenses/by/4.0/">Atribución 4.0 Internacional</ref>.</p>
@@ -400,7 +406,265 @@
                      <term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
                </category>
             </taxonomy>
+            <taxonomy xml:id="NER">
+               <desc xml:lang="en">
+                  <term>Named entities</term>
+               </desc>
+               <category xml:id="PER">
+                  <catDesc xml:lang="en">
+                     <term>person</term>
+                  </catDesc>
+               </category>
+               <category xml:id="LOC">
+                  <catDesc xml:lang="en">
+                     <term>location</term>
+                  </catDesc>
+               </category>
+               <category xml:id="ORG">
+                  <catDesc xml:lang="en">
+                     <term>organization</term>
+                  </catDesc>
+               </category>
+               <category xml:id="MISC">
+                  <catDesc xml:lang="en">
+                     <term>miscellaneous</term>
+                  </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="UD-SYN">
+               <desc xml:lang="en">
+                  <term>UD syntactic relations</term>
+               </desc>
+               <category xml:id="acl">
+                  <catDesc xml:lang="en">
+                     <term>acl</term>: Clausal modifier of noun (adjectival clause)</catDesc>
+               </category>
+               <category xml:id="acl_relcl">
+                  <catDesc xml:lang="en">
+                     <term>acl:relcl</term>: Relative clause modifier</catDesc>
+               </category>
+               <category xml:id="advcl">
+                  <catDesc xml:lang="en">
+                     <term>advcl</term>: Adverbial clause modifier</catDesc>
+               </category>
+               <category xml:id="advmod">
+                  <catDesc xml:lang="en">
+                     <term>advmod</term>: Adverbial modifier</catDesc>
+               </category>
+               <category xml:id="amod">
+                  <catDesc xml:lang="en">
+                     <term>amod</term>: Adjectival modifier</catDesc>
+               </category>
+               <category xml:id="appos">
+                  <catDesc xml:lang="en">
+                     <term>appos</term>: Appositional modifier</catDesc>
+               </category>
+               <category xml:id="aux">
+                  <catDesc xml:lang="en">
+                     <term>aux</term>: Auxiliary</catDesc>
+               </category>
+               <category xml:id="aux_pass">
+                  <catDesc xml:lang="en">
+                     <term>aux:pass</term>: Passive auxiliary</catDesc>
+               </category>
+               <category xml:id="case">
+                  <catDesc xml:lang="en">
+                     <term>case</term>: Case marking</catDesc>
+               </category>
+               <category xml:id="cc">
+                  <catDesc xml:lang="en">
+                     <term>cc</term>: Coordinating conjunction</catDesc>
+               </category>
+               <category xml:id="ccomp">
+                  <catDesc xml:lang="en">
+                     <term>ccomp</term>: Clausal complement</catDesc>
+               </category>
+               <category xml:id="cc_preconj">
+                  <catDesc>
+                     <term>cc:preconj</term>: Preconjunct</catDesc>
+               </category>
+               <category xml:id="compound">
+                  <catDesc xml:lang="en">
+                     <term>compound</term>: Compound</catDesc>
+               </category>
+               <category xml:id="compound_prt">
+                  <catDesc>
+                     <term>compound:prt</term>: Phrasal verb particle</catDesc>
+               </category>
+               <category xml:id="conj">
+                  <catDesc xml:lang="en">
+                     <term>conj</term>: Conjunct</catDesc>
+               </category>
+               <category xml:id="cop">
+                  <catDesc xml:lang="en">
+                     <term>cop</term>: Copula</catDesc>
+               </category>
+               <category xml:id="csubj">
+                  <catDesc xml:lang="en">
+                     <term>csubj</term>: Clausal subject</catDesc>
+               </category>
+               <category xml:id="csubj_pass">
+                  <catDesc xml:lang="en">
+                     <term>csubj:pass</term>: Clausal passive subject</catDesc>
+               </category>
+               <category xml:id="dep">
+                  <catDesc xml:lang="en">
+                     <term>dep</term>: Unspecified dependency</catDesc>
+               </category>
+               <category xml:id="det">
+                  <catDesc xml:lang="en">
+                     <term>det</term>: Determiner</catDesc>
+               </category>
+               <category xml:id="det_predet">
+                  <catDesc>
+                     <term>det:predet</term>: Predeterminer</catDesc>
+               </category>
+               <category xml:id="det_qmod">
+                  <catDesc>
+                     <term>det:qmod</term>: Special relation quantificational modifier</catDesc>
+               </category>
+               <category xml:id="discourse">
+                  <catDesc xml:lang="en">
+                     <term>discourse</term>: Discourse element</catDesc>
+               </category>
+               <category xml:id="expl">
+                  <catDesc xml:lang="en">
+                     <term>expl</term>: Expletive</catDesc>
+               </category>
+               <category xml:id="expl_impers">
+                  <catDesc xml:lang="en">
+                     <term>expl:impers</term>: Expletive impersonal</catDesc>
+               </category>
+               <category xml:id="expl_pass">
+                  <catDesc xml:lang="en">
+                     <term>expl:pass</term>: Expletive passive</catDesc>
+               </category>
+               <category xml:id="expl_pv">
+                  <catDesc xml:lang="en">
+                     <term>expl:pv</term>: Reflexive clitic with an inherently reflexive verb</catDesc>
+               </category>
+               <category xml:id="fixed">
+                  <catDesc xml:lang="en">
+                     <term>fixed</term>: Fixed multiword expression</catDesc>
+               </category>
+               <category xml:id="flat">
+                  <catDesc xml:lang="en">
+                     <term>flat</term>: Flat multiword expression</catDesc>
+               </category>
+               <category xml:id="goeswith">
+                  <catDesc xml:lang="en">
+                     <term>goeswith</term>
+                  </catDesc>
+               </category>
+               <category xml:id="flat_name">
+                  <catDesc>
+                     <term>flat:name</term>: Flat name</catDesc>
+               </category>
+               <category xml:id="iobj">
+                  <catDesc xml:lang="en">
+                     <term>iobj</term>: Indirect object</catDesc>
+               </category>
+               <category xml:id="list">
+                  <catDesc xml:lang="en">
+                     <term>list</term>: List</catDesc>
+               </category>
+               <category xml:id="mark">
+                  <catDesc xml:lang="en">
+                     <term>mark</term>: Marker</catDesc>
+               </category>
+               <category xml:id="nmod">
+                  <catDesc xml:lang="en">
+                     <term>nmod</term>: Nominal modifier</catDesc>
+               </category>
+               <category xml:id="nmod_poss">
+                  <catDesc>
+                     <term>nmod:poss</term>: Possessive nominal modifier</catDesc>
+               </category>
+               <category xml:id="nsubj">
+                  <catDesc xml:lang="en">
+                     <term>nsubj</term>: Nominal subject</catDesc>
+               </category>
+               <category xml:id="nsubj_pass">
+                  <catDesc xml:lang="en">
+                     <term>nsubj:pass</term>: Passive nominal subject</catDesc>
+               </category>
+               <category xml:id="nsubj_xsubj">
+                  <catDesc>
+                     <term>nsubj:xsubj</term>: Controlling subject (enhanced dependency)</catDesc>
+               </category>
+               <category xml:id="nsubj_pass_xsubj">
+                  <catDesc>
+                     <term>nsubj:pass:xsubj</term>: Controlling passive subject (enhanced dependency)</catDesc>
+               </category>
+               <category xml:id="nummod">
+                  <catDesc xml:lang="en">
+                     <term>nummod</term>: Numeric modifier</catDesc>
+               </category>
+               <category xml:id="obj">
+                  <catDesc xml:lang="en">
+                     <term>obj</term>: Object</catDesc>
+               </category>
+               <category xml:id="obl">
+                  <catDesc xml:lang="en">
+                     <term>obl</term>: Oblique nominal</catDesc>
+               </category>
+               <category xml:id="obl_agent">
+                  <catDesc>
+                     <term>obl:agent</term>: Agent modifier</catDesc>
+               </category>
+               <category xml:id="obl_npmod">
+                  <catDesc>
+                     <term>obl</term>: Oblique nominal noun phrase modifier</catDesc>
+               </category>
+               <category xml:id="obl_tmod">
+                  <catDesc>
+                     <term>obl:tmod</term>: Temporal modifier</catDesc>
+               </category>
+               <category xml:id="orphan">
+                  <catDesc xml:lang="en">
+                     <term>orphan</term>: Orphan-to-orphan relation in gapping</catDesc>
+               </category>
+               <category xml:id="parataxis">
+                  <catDesc xml:lang="en">
+                     <term>parataxis</term>: Parataxis</catDesc>
+               </category>
+               <category xml:id="punct">
+                  <catDesc xml:lang="en">
+                     <term>punct</term>: Punctuation</catDesc>
+               </category>
+               <category xml:id="ref">
+                  <catDesc>
+                     <term>ref</term>: Relative clause (enhanced dependency)</catDesc>
+               </category>
+               <category xml:id="reparandum">
+                  <catDesc xml:lang="en">
+                     <term>reparandum</term>: Overridden disfluency (here used for program mistakes!)</catDesc>
+               </category>
+               <category xml:id="root">
+                  <catDesc xml:lang="en">
+                     <term>root</term>: Root</catDesc>
+               </category>
+               <category xml:id="vocative">
+                  <catDesc xml:lang="en">
+                     <term>vocative</term>: Vocative</catDesc>
+               </category>
+               <category xml:id="xcomp">
+                  <catDesc xml:lang="en">
+                     <term>xcomp</term>: Open clausal complement</catDesc>
+               </category>
+            </taxonomy>
          </classDecl>
+         <listPrefixDef>
+            <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
+               <p xml:lang="en">Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI header.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <appInfo>
+            <application ident="stanza" version="1.2.0">
+               <label>Stanza</label>
+               <desc xml:lang="en">Tokenisation, POS tagging, NER and dependency parsed using Stanza, a Python NLP language analysis package <ref target="https://stanfordnlp.github.io/stanza/">https://stanfordnlp.github.io/stanza/</ref>. UD parsing was trained on the Spanish AnCora Treebank <ref target="https://github.com/UniversalDependencies/UD_Spanish-AnCora">https://github.com/UniversalDependencies/UD_Spanish-AnCora</ref>.</desc>
+            </application>
+         </appInfo>
       </encodingDesc>
       <profileDesc>
          <settingDesc>
@@ -10951,16 +11215,14 @@
       <revisionDesc>
          <change when="2021-04-09">
             <name>Tomaž Erjavec</name>: Made sample.</change>
-         <change when="2021-04-09">
+         <change when="2021-03-20">
             <name>Tomaž Erjavec</name>: Conversion to ParlaMint TEI.</change>
       </revisionDesc>
    </teiHeader>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2015-01-21-CD150121.xml"/>
+               href="ParlaMint-ES_2015-01-21-CD150121.ana.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-03-16-CD170316.xml"/>
+               href="ParlaMint-ES_2017-03-16-CD170316.ana.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2018-10-10-CD181010.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2020-12-15-CD201215.xml"/>
+               href="ParlaMint-ES_2018-10-10-CD181010.ana.xml"/>
 </teiCorpus>
