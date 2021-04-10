@@ -183,7 +183,7 @@
            <ref target="http://hdl.handle.net/11356/1345">http://hdl.handle.net/11356/1345</ref>
          </pubPlace>
   -->
-  <xsl:template match="tei:publicationStmt[tei:idno[@type='handle']]/
+  <xsl:template match="tei:publicationStmt[tei:idno]/
 		       tei:pubPlace[tei:ref[matches(@target, 'hdl.handle.net')]]">
     <xsl:message select="concat('WARN ', $id, ': deleting redundant pubPlace ', .)"/>
   </xsl:template>
@@ -393,7 +393,7 @@
   </xsl:template>
   
   <!-- This type value is no loger valid, just remove it -->
-  <xsl:template match="tei:kinesic/@type[.='kinesic']"/>
+  <!--xsl:template match="tei:kinesic/@type[.='kinesic']"/-->
   
   <!-- Change UD synt. roles in link/@ana so they use : not _
        https://github.com/clarin-eric/ParlaMint/issues/27
