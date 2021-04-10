@@ -1,7 +1,7 @@
 #Make ParlaMint corpus root
 root:
 	$s -xsl:Scripts/parlamint2root.xsl Scripts/ParlaMint-template.xml > ParlaMint.xml
-	$s -xsl:Scripts/parlamint2root.xsl Scripts/ParlaMint.ana-template.xml > ParlaMint.ana.xml
+	$s -xsl:Scripts/parlamint2root.xsl Scripts/ParlaMint-template.ana.xml > ParlaMint.ana.xml
 
 # Validate and derive formats for 1 language
 LANG = ES
