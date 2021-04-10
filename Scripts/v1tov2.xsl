@@ -150,7 +150,7 @@
       </xsl:choose>
     </xsl:copy>
   </xsl:template>
-  <xsl:template match="tei:TEI/tei:teiHeader//tei:title[@type = 'main'][@xml:lang='en']">
+  <xsl:template match="tei:TEI/tei:teiHeader//tei:titleStmt/tei:title[@type = 'main'][@xml:lang='en']">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
       <xsl:choose>
@@ -163,6 +163,16 @@
 	  <xsl:value-of select="."/>
 	</xsl:otherwise>
       </xsl:choose>
+    </xsl:copy>
+  </xsl:template>
+  
+  <!-- Add language to title if missing -->
+  <xsl:template match="tei:TEI/tei:teiHeader//tei:sourceDesc//tei:title[not(@xml:lang='en')]
+		       [contains(., 'Minutes')]">
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <xsl:attribute name="xml:lang">en</xsl:attribute>
+      <xsl:apply-templates/>
     </xsl:copy>
   </xsl:template>
   
