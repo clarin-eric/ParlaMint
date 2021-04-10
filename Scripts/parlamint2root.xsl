@@ -53,6 +53,16 @@
     </xsl:for-each>
   </xsl:template>
     
+  <xsl:template match="tei:title | tei:publisher">
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <xsl:if test="ancestor-or-self::tei:*[@xml:lang][1][@xml:lang!='en']">
+	<xsl:attribute name="xml:lang" select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
+      </xsl:if>
+      <xsl:apply-templates/>
+    </xsl:copy>
+  </xsl:template>
+  
   <xsl:template match="tei:publicationStmt/tei:date">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
@@ -138,12 +148,9 @@
 	  <xsl:value-of select="@xml:id"/>
 	</head>
 	<xsl:for-each select="tei:teiHeader//tei:sourceDesc/tei:bibl">
-	  <!-- We just want the original sources, not ParlaMint ones -->
-	  <xsl:if test="not(contains(., 'ParlaMint'))">
-	    <bibl>
-	      <xsl:apply-templates select="tei:*[ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']]"/>
-	    </bibl>
-	  </xsl:if>
+	  <bibl>
+	    <xsl:apply-templates/>
+	  </bibl>
 	</xsl:for-each>
       </listBibl>
     </xsl:for-each>

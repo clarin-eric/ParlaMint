@@ -3,7 +3,7 @@
    <teiHeader xml:lang="en">
       <fileDesc>
          <titleStmt>
-            <title type="main">Multilingual comparable parliamentary corpus ParlaMint [ParlaMint.ana]</title>
+            <title type="main">Multilingual comparable parliamentary corpora ParlaMint [ParlaMint.ana]</title>
             <respStmt>
                <persName>Maciej Ogrodniczuk</persName>
                <persName>Petya Osenova</persName>
@@ -144,45 +144,73 @@
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2021-04-09">April 9, 2021</date>
+            <date when="2021-04-10">April 10, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <listBibl n="ParlaMint-BE.ana">
                <head>ParlaMint-BE.ana</head>
                <bibl>
+                  <title type="main" xml:lang="nl">Federaal Parlement van België: Plenaire zittingen</title>
                   <title type="main">Belgian Federal Parliament: Plenary sessions</title>
+                  <publisher>Kamer van volksvertegenwoordigers</publisher>
+                  <idno type="URI">https://www.dekamer.be/kvvcr/showpage.cfm?section=/cricra&amp;language=nl&amp;cfm=dcricra.cfm?type=plen&amp;cricra=cri&amp;count=all</idno>
+                  <date to="2020-08-14" from="2015-11-12">2015-11-12 - 2020-08-18</date>
                </bibl>
                <bibl>
+                  <title type="main" xml:lang="nl">Federaal Parlement van België: Commissievergaderingen</title>
                   <title type="main">Belgian Federal Parliament: committee meetings</title>
+                  <publisher>Kamer van volksvertegenwoordigers</publisher>
+                  <idno type="URI">https://www.dekamer.be/kvvcr/showpage.cfm?section=/cricra&amp;language=nl&amp;cfm=dcricra.cfm?type=comm&amp;cricra=cri&amp;count=all</idno>
+                  <date to="2020-08-18" from="2015-11-12">2015-11-12 - 2020-08-18</date>
                </bibl>
             </listBibl>
             <listBibl n="ParlaMint-BG.ana">
                <head>ParlaMint-BG.ana</head>
                <bibl>
                   <title>Transcripts of plenary sittings of the Parliament of the Republic of Bulgaria</title>
+                  <idno type="URI">https://parlametar.bg/</idno>
+                  <idno type="URI">https://parliament.bg/bg</idno>
+                  <date from="2014-10-27" to="2020-07-31">2014-10-27 - 2020-07-31</date>
                </bibl>
             </listBibl>
             <listBibl n="ParlaMint-CZ.ana">
                <head>ParlaMint-CZ.ana</head>
                <bibl>
+                  <title type="main" xml:lang="cs">Parlament České republiky, Poslanecká sněmovna</title>
                   <title type="main">Parliament of the Czech Republic, Chamber of Deputies</title>
+                  <idno type="URI">https://www.psp.cz/eknih/</idno>
+                  <date from="2013-11-25" to="2021-04-01">25.11.2013 - 01.04.2021</date>
                </bibl>
             </listBibl>
             <listBibl n="ParlaMint-DK.ana">
                <head>ParlaMint-DK.ana</head>
                <bibl>
+                  <title xml:lang="da">Multilingual comparable corpora of parliamentary debates ParlaMint 1.0</title>
+                  <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1405</idno>
+               </bibl>
+               <bibl>
                   <title type="main">Hansards of the Danish Parliament</title>
                   <publisher>The Danish Parliament</publisher>
+                  <idno type="URI">https://www.ft.dk/</idno>
+                  <date from="2014-10-07" to="2020-09-29">7.10.2014 - 29.9.2020</date>
                </bibl>
             </listBibl>
             <listBibl n="ParlaMint-ES.ana">
                <head>ParlaMint-ES.ana</head>
                <bibl>
+                  <title type="main" xml:lang="es">Cortes generales diario de sesiones del congreso de los diputados pleno y diputación permanente</title>
                   <title type="main">National assembly of Spain daily sessions</title>
+                  <idno type="URI">http://www.congreso.es</idno>
+                  <date from="2015-01-20" to="2020-12-15">20.1.2015 - 15.12.2020</date>
                </bibl>
             </listBibl>
             <listBibl n="ParlaMint-GB.ana">
                <head>ParlaMint-GB.ana</head>
+               <bibl>
+                  <title xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions">Corpora of parliamentary debates ParlaMint</title>
+                  <idno xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
+                        type="handle">http://hdl.handle.net/11356/1388</idno>
+               </bibl>
                <bibl>
                   <title xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions">Transcripts of Parliament of Great Britain.</title>
                   <idno xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
@@ -191,46 +219,90 @@
             </listBibl>
             <listBibl n="ParlaMint-HR.ana">
                <head>ParlaMint-HR.ana</head>
-               <bibl/>
+               <bibl>
+                  <title type="main" xml:lang="hr">Minutes of the National Assembly of the Republic of Croatia</title>
+                  <idno type="URI">https://parlametar.hr/</idno>
+                  <idno type="URI">http://www.sabor.hr/</idno>
+                  <date from="2016-11-15" to="2020-05-18">2016-11-15 - 2020-05-18</date>
+               </bibl>
             </listBibl>
             <listBibl n="ParlaMint-HU.ana">
                <head>ParlaMint-HU.ana</head>
                <bibl>
+                  <title type="main" xml:lang="hu">A Magyar Országgyűlés ülései</title>
                   <title type="main">Minutes of the National Assembly of Hungary</title>
+                  <idno type="URI">https://https://www.parlament.hu/</idno>
+                  <date from="2018-02-19" to="2020-12-14">2018. 02. 19. - 2020. 12. 14.</date>
                </bibl>
             </listBibl>
             <listBibl n="ParlaMint-IS.ana">
                <head>ParlaMint-IS.ana</head>
                <bibl>
+                  <title xml:lang="is">Þingræður haldnar á Alþingi Íslendinga</title>
                   <title>Parliament speeches in the national parliament of Iceland </title>
+                  <idno type="URI">www.athingi.is</idno>
+                  <date from="2015-01-01" to="2020-09-30">2015-01-01 - 2020-09-30</date>
                </bibl>
             </listBibl>
             <listBibl n="ParlaMint-LV.ana">
                <head>ParlaMint-LV.ana</head>
+               <bibl>
+                  <title type="main" xml:lang="lv">Latvijas Republikas Saeimas stenogrammu korpuss</title>
+                  <title type="main">The Corpus of Parliament of Latvia [ParlaMint-LV]</title>
+                  <idno type="URI">https://www.saeima.lv/</idno>
+                  <date from="1993-07-06" to="2020-12-21">06.07.1993 - 21.12.2020</date>
+               </bibl>
             </listBibl>
             <listBibl n="ParlaMint-NL.ana">
                <head>ParlaMint-NL.ana</head>
-               <bibl/>
-               <bibl/>
+               <bibl>
+                  <title xml:lang="nl">Multilingual comparable corpora of parliamentary debates ParlaMint 1.0</title>
+                  <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1405</idno>
+               </bibl>
+               <bibl>
+                  <title type="main" xml:lang="nl">Minutes of the Eerste Kamer of The Netherlands</title>
+                  <idno type="URI">https://www.eerstekamer.nl/</idno>
+                  <date when="2021-02-01">2021-02-01</date>
+               </bibl>
+               <bibl>
+                  <title type="main" xml:lang="nl">Minutes of the Tweede Kamer of The Netherlands</title>
+                  <idno type="URI">https://www.tweedekamer.nl/</idno>
+                  <date when="2021-02-01">2021-02-01</date>
+               </bibl>
             </listBibl>
             <listBibl n="ParlaMint-PL.ana">
                <head>ParlaMint-PL.ana</head>
                <bibl>
+                  <title type="main" xml:lang="pl">Sprawozdanie stenograficzne z obrad Sejmu RP</title>
                   <title type="main">Minutes of the Sejm of the Republic of Poland</title>
+                  <publisher>Kancelaria Sejmu Rzeczypospolitej Polskiej</publisher>
+                  <idno type="URI">http://www.sejm.gov.pl/Sejm9.nsf/page.xsp/archiwum</idno>
+                  <date from="2015-11-12" to="2020-08-14">12.11.2015 - 14.08.2020</date>
                </bibl>
                <bibl>
+                  <title type="main" xml:lang="pl">Sprawozdanie stenograficzne z obrad Senatu RP</title>
                   <title type="main">Minutes of the Senat of the Republic of Poland</title>
+                  <publisher>Kancelaria Senatu Rzeczypospolitej Polskiej</publisher>
+                  <idno type="URI">https://www.senat.gov.pl/poprzednie-kadencje/</idno>
+                  <date from="2015-11-12" to="2020-08-18">12.11.2015 - 14.08.2020</date>
                </bibl>
             </listBibl>
             <listBibl n="ParlaMint-SI.ana">
                <head>ParlaMint-SI.ana</head>
                <bibl>
+                  <title type="main" xml:lang="sl">Zapisi sej Državnega zbora Republike Slovenije</title>
                   <title type="main">Minutes of the National Assembly of the Republic of Slovenia</title>
+                  <idno type="URI">https://www.dz-rs.si</idno>
+                  <date from="2014-08-01" to="2020-07-16">1.8.2014 - 16.7.2020</date>
                </bibl>
             </listBibl>
             <listBibl n="ParlaMint-TR.ana">
                <head>ParlaMint-TR.ana</head>
-               <bibl/>
+               <bibl>
+                  <title type="main" xml:lang="tr">Website of the National Assembly</title>
+                  <idno type="URI">https://www.tbmm.gov.tr/</idno>
+                  <date from="2009-04-01" to="2021-02-11"/>
+               </bibl>
             </listBibl>
          </sourceDesc>
       </fileDesc>
@@ -2284,7 +2356,7 @@
          </appInfo>
       </encodingDesc>
       <revisionDesc>
-         <change when="2021-04-09">
+         <change when="2021-04-10">
             <name>Tomaž Erjavec</name>: Generate root</change>
       </revisionDesc>
    </teiHeader>
