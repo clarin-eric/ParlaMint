@@ -21,45 +21,34 @@ Have separate finalize for ana: change UD terms for extended relations
   exclude-result-prefixes="xsl tei et xs xi"
   version="2.0">
 
+  <!-- Directories must have absolute paths! -->
+  <xsl:param name="outDir">.</xsl:param>
+  <xsl:param name="anaDir">.</xsl:param>
+  <xsl:param name="version">2.0</xsl:param>
   <xsl:param name="type">
     <xsl:choose>
       <xsl:when test="contains(/tei:teiCorpus/@xml:id, '.ana')">ana</xsl:when>
       <xsl:otherwise>txt</xsl:otherwise>
     </xsl:choose>
   </xsl:param>
-  <xsl:param name="outDir">.</xsl:param>
-  <xsl:param name="anaDir">.</xsl:param>
-  <xsl:param name="version">2.0</xsl:param>
 
   <xsl:output method="xml" indent="yes"/>
   <xsl:preserve-space elements="catDesc seg"/>
   
+  <!-- Input directory -->
+  <xsl:variable name="inDir" select="replace(base-uri(), '(.*)/.*', '$1')"/>
   <!-- The name of the corpus directory to output to, i.e. "ParlaMint-XX" -->
   <xsl:variable name="corpusDir" select="replace(base-uri(), 
 					 '.*?([^/]+)/[^/]+\.[^/]+$', '$1')"/>
 
-  <!-- Path from bin/ to component files -->
-  <xsl:variable name="trueInDir">
-    <xsl:text>../</xsl:text>
-    <xsl:value-of select="$corpusDir"/>
-  </xsl:variable>
-  <xsl:variable name="trueAnaDir">
-    <xsl:text>../</xsl:text>
-    <xsl:value-of select="$anaDir"/>
-  </xsl:variable>
-
- 
   <xsl:variable name="today" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
   
-  <xsl:variable name="trueOutDir">
+  <xsl:variable name="outRoot">
     <xsl:value-of select="$outDir"/>
     <xsl:text>/</xsl:text>
     <xsl:value-of select="$corpusDir"/>
-  </xsl:variable>
-  <xsl:variable name="outRoot">
-    <xsl:value-of select="$trueOutDir"/>
     <xsl:text>/</xsl:text>
-    <xsl:value-of select="replace(base-uri(), '.*?([^/]+)$', '$1')"/>
+    <xsl:value-of select="replace(base-uri(), '.*/(.+)$', '$1')"/>
   </xsl:variable>
 
   <!-- Gather URIs of component xi + files and map to new files, incl. .ana files -->
@@ -70,13 +59,13 @@ Have separate finalize for ana: change UD terms for extended relations
 	  <xsl:value-of select="@href"/>
 	</xi-orig>
 	<url-orig>
-	  <xsl:value-of select="concat($trueInDir, '/', @href)"/>
+	  <xsl:value-of select="concat($inDir, '/', @href)"/>
 	</url-orig>
 	<url-new>
-	  <xsl:value-of select="concat($trueOutDir, '/', @href)"/>
+	  <xsl:value-of select="concat($outDir, '/', $corpusDir, '/', @href)"/>
 	</url-new>
 	<url-ana>
-	  <xsl:value-of select="concat($trueAnaDir, '/', replace(@href, '\.xml', '.ana.xml'))"/>
+	  <xsl:value-of select="concat($anaDir, '/', replace(@href, '\.xml', '.ana.xml'))"/>
 	</url-ana>
       </item>
       </xsl:for-each>
@@ -412,7 +401,7 @@ Have separate finalize for ana: change UD terms for extended relations
 		      $lang = 'lv' or
 		      $lang = 'pl' or
 		      $lang = 'ro' or
-		      $lang = 'si' or
+		      $lang = 'sl' or
 		      $lang = 'tr'
 		      ">
 	<xsl:value-of select="replace($form, ',', '.')"/>
