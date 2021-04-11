@@ -40,7 +40,7 @@ GetOptions
      'schema=s' => \$schemaDir,
      'in=s'     => \$inDir,
      'out=s'    => \$outDir,
-     'all'      => \$procAll,
+     'all!'     => \$procAll,
      'ana!'     => \$procAna,
      'tei!'     => \$procTei,
      'sample!'  => \$procSample,
@@ -93,17 +93,17 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     $outConlDir = "$outDir/$XX.conllu";
 
     if ($procAll or $procAna) {
-	print STDERR "INFO: *Finalizing TEI.ana\n";
+	print STDERR "INFO: *Finalizing $countryCode TEI.ana\n";
 	`rm -fr $outAnaDir`;
 	`$Saxon outDir=$outDir -xsl:$Final $inAnaRoot`;
     }
     if ($procAll or $procTei) {
-	print STDERR "INFO: *Finalizing TEI\n";
+	print STDERR "INFO: *Finalizing $countryCode TEI\n";
 	`rm -fr $outTeiDir`;
 	`$Saxon anaDir=$outAnaDir outDir=$outDir -xsl:$Final $inTeiRoot`;
     }
     if ($procAll or $procSample) {
-	print STDERR "INFO: *Making samples\n";
+	print STDERR "INFO: *Making $countryCode samples\n";
 	`rm -fr $outSmpDir`;
 	`$Saxon outDir=$outSmpDir -xsl:$Sample $outTeiRoot`;
 	`$Saxon outDir=$outSmpDir -xsl:$Sample $outAnaRoot`;
@@ -115,27 +115,27 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	&polish($outTeiDir);
     }
     if ($procAll or $procValid) {
-	print STDERR "INFO: *Validating TEI\n";
+	print STDERR "INFO: *Validating $countryCode TEI\n";
 	`$Valid $schemaDir $outSmpDir`;
 	`$Valid $schemaDir $outTeiDir`;
 	`$Valid $schemaDir $outAnaDir`;
     }
     if ($procAll or $procTxt) {
-	print STDERR "INFO: *Making txt\n";
+	print STDERR "INFO: *Making $countryCode text\n";
 	`rm -fr $outTxtDir; mkdir $outTxtDir`;
 	`ls -dR $outTeiDir | grep '_' | $Paralel '$Saxon -xsl:$Texts {} > $outTxtDir/{/.}.txt'`;
 	$files = "ls -dR $outTeiDir | grep '_'";
 	`$files | $Paralel '$Saxon hdr=$outTeiRoot -xsl:$Metas {} > $outTxtDir/{/.}-meta.tsv'`;
     }
     if ($procAll or $procConll) {
-	print STDERR "INFO: *Making CoNLL-U\n";
+	print STDERR "INFO: *Making $countryCode CoNLL-U\n";
 	`rm -fr $outConlDir; mkdir $outConlDir`;
 	`$Conls $outAnaDir $outConlDir`;
 	$files = "ls -dR $outAnaDir | grep '_'";
 	`$files | $Paralel '$Saxon hdr=$outTeiRoot -xsl:$Metas {} > $outConlDir/{/.}-meta.tsv'`;
     }
     if ($procAll or $procVert) {
-	print STDERR "INFO: *Making vert\n";
+	print STDERR "INFO: *Making $countryCode vert\n";
 	`rm -fr $outVertDir; mkdir $outVertDir`;
 	`$Verts $outAnaDir $outVertDir`;
     }
