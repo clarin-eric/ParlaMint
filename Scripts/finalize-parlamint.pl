@@ -25,10 +25,17 @@ use Getopt::Long;
 use FindBin qw($Bin);
 use File::Spec;
 
-$countryCodes = shift;
-$schemaDir = File::Spec->rel2abs(shift);
-$inDir = File::Spec->rel2abs(shift);
-$outDir = File::Spec->rel2abs(shift);
+GetOptions
+    (
+     'codes=s'  => \$countryCodes,
+     'schema=s' => \$schemaDir,
+     'in=s'     => \$inDir,
+     'out=s'    => \$outDir,
+);
+
+$schemaDir = File::Spec->rel2abs($schemaDir);
+$inDir = File::Spec->rel2abs($inDir);
+$outDir = File::Spec->rel2abs($outDir);
 
 $Paralel = "parallel --gnu --halt 2 --jobs 15";
 $Saxon   = "java -jar /usr/share/java/saxon.jar";
@@ -61,7 +68,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     $outTeiRoot = "$outDir/$teiRoot";
     $outAnaDir  = "$outDir/$anaDir";
     $outAnaRoot = "$outDir/$anaRoot";
-    $outSmpDir  = "$outDir/$XX-Sample";
+    $outSmpDir  = "$outDir/Sample-$XX";
     $outTxtDir  = "$outDir/$XX.txt";
     $outVertDir = "$outDir/$XX.vert";
     $outConlDir = "$outDir/$XX.conllu";
@@ -69,32 +76,34 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     print STDERR "INFO: *Finalizing TEI.ana\n";
     `rm -fr $outAnaDir`;
     `$Saxon outDir=$outDir -xsl:$Final $inAnaRoot`;
-    &polish($outAnaDir);
-    `$Valid $schemaDir $outAnaDir`;
     
     print STDERR "INFO: *Finalizing TEI\n";
     `rm -fr $outTeiDir`;
     `$Saxon anaDir=$outAnaDir outDir=$outDir -xsl:$Final $inTeiRoot`;
-    &polish($outTeiDir);
-    `$Valid $schemaDir $outTeiDir`;
 
     print STDERR "INFO: *Making samples\n";
     `rm -fr $outSmpDir`;
     `$Saxon outDir=$outSmpDir -xsl:$Sample $outTeiRoot`;
     `$Saxon outDir=$outSmpDir -xsl:$Sample $outAnaRoot`;
+    
+    print STDERR "INFO: *Validating TEI\n";
     `$Valid $schemaDir $outSmpDir`;
+    &polish($outAnaDir);
+    `$Valid $schemaDir $outAnaDir`;
+    &polish($outTeiDir);
+    `$Valid $schemaDir $outTeiDir`;
     
     print STDERR "INFO: *Making txt\n";
     `rm -fr $outTxtDir; mkdir $outTxtDir`;
-    `ls -R $outTeiDir | grep '_' | $Paralel '$Saxon -xsl:$Texts {} > $outTxtDir/{/.}.txt'`;
-    $files = "ls -R $outTeiDir | grep '_'";
-    `$files | $Paralel '$Saxon hdr=$outTeiRoot -xsl:$Metas {} > $outTxtDir/{/.}-meta.tsv`;
+    `ls -dR $outTeiDir | grep '_' | $Paralel '$Saxon -xsl:$Texts {} > $outTxtDir/{/.}.txt'`;
+    $files = "ls -dR $outTeiDir | grep '_'";
+    `$files | $Paralel '$Saxon hdr=$outTeiRoot -xsl:$Metas {} > $outTxtDir/{/.}-meta.tsv'`;
     
     print STDERR "INFO: *Making CoNLL-U\n";
     `rm -fr $outConlDir; mkdir $outConlDir`;
     `$Conls $outAnaDir $outConlDir`;
-    $files = "ls -R $outAnaDir | grep '_'";
-    `$files | $Paralel '$Saxon hdr=$outTeiRoot -xsl:$Metas {} > $outConlDir/{/.}-meta.tsv`;
+    $files = "ls -dR $outAnaDir | grep '_'";
+    `$files | $Paralel '$Saxon hdr=$outTeiRoot -xsl:$Metas {} > $outConlDir/{/.}-meta.tsv'`;
     
     print STDERR "INFO: *Making vert\n";
     `rm -fr $outVertDir; mkdir $outVertDir`;
