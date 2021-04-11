@@ -26,44 +26,72 @@ use FindBin qw($Bin);
 use File::Spec;
 
 $countryCodes = shift;
+$schemaDir = File::Spec->rel2abs(shift);
 $inDir = File::Spec->rel2abs(shift);
 $outDir = File::Spec->rel2abs(shift);
 
 $Saxon = "java -jar /usr/share/java/saxon.jar";
 $Final = "$Bin/parlamint2final.xsl";
 $Polish = "$Bin/polish.pl";
+$Sample = "$Bin/corpus2sample.xsl";
+$Valid = "$Bin/validate-parlamint.pl";
 
-$anaDir  = "ParlaMint-XX.TEI.ana";
-$anaRoot = "$anaDir/ParlaMint-XX.ana.xml";
 $teiDir  = "ParlaMint-XX.TEI";
 $teiRoot = "$teiDir/ParlaMint-XX.xml";
-$outAnaDir  = "$outDir/$anaDir";
+$anaDir  = "ParlaMint-XX.TEI.ana";
+$anaRoot = "$anaDir/ParlaMint-XX.ana.xml";
+
 $outTeiDir  = "$outDir/$teiDir";
+$outTeiRoot = "$outDir/$teiRoot";
+$outAnaDir  = "$outDir/$anaDir";
+$outAnaRoot = "$outDir/$anaRoot";
+$outSampleDir  = "$outDir/ParlaMint-XX-Sample";
 
 foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     print STDERR "INFO: ***Converting $countryCode\n";
+    print STDERR "INFO: *Finalizing TEI.ana\n";
     $CanaRoot = "$inDir/$anaRoot";
     $CanaRoot =~ s|XX|$countryCode|g;
     $CanaDir = $anaDir;
     $CanaDir =~ s|XX|$countryCode|g;
-    $command = "$Saxon outDir=$outDir -xsl:$Final $CanaRoot";
-    `$command`;
     $CoutAnaDir = $outAnaDir;
     $CoutAnaDir =~ s|XX|$countryCode|g;
+    `rm -fr $CoutAnaDir`;
+    $command = "$Saxon outDir=$outDir -xsl:$Final $CanaRoot";
+    `$command`;
     &polish($CoutAnaDir);
+    $command = "$Valid $schemaDir $CoutAnaDir";
+    `$command`;
     
+    print STDERR "INFO: *Finalizing TEI\n";
     $CteiRoot = "$inDir/$teiRoot";
     $CteiRoot =~ s|XX|$countryCode|g;
-    $command = "$Saxon anaDir=$CoutAnaDir outDir=$outDir -xsl:$Final $CteiRoot";
-    `$command`;
     $CoutTeiDir = $outTeiDir;
     $CoutTeiDir =~ s|XX|$countryCode|g;
+    `rm -fr $CoutTeiDir`;
+    $command = "$Saxon anaDir=$CoutAnaDir outDir=$outDir -xsl:$Final $CteiRoot";
+    `$command`;
     &polish($CoutTeiDir);
+    $command = "$Valid $schemaDir $CoutTeiDir";
+    `$command`;
+
+    print STDERR "INFO: *Making samples\n";
+    $CoutSampleDir = $outSampleDir;
+    $CoutSampleDir =~ s|XX|$countryCode|g;
+    $command = "$Saxon outDir=$CoutSampleDir -xsl:$Sample $outTeiRoot";
+    `$command`;
+    $command = "$Saxon outDir=$CoutSampleDir -xsl:$Sample $outAnaRoot";
+    `$command`;
+    $command = "$Valid $schemaDir $CoutSampleDir";
+    `$command`;
+    
 }
+
+#Make XML file a bit smaller
 sub polish {
     my $dir = shift;
     foreach my $file (glob("$dir/*.xml $dir/*/*.xml")) {
-	$command = "$POLISH < $file > $file.tmp";
+	$command = "$Polish < $file > $file.tmp";
 	`$command`;
 	rename("$file.tmp", $file); 
     }

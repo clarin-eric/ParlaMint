@@ -300,7 +300,7 @@ Have separate finalize for ana: change UD terms for extended relations
   <xsl:template match="tei:publicationStmt[tei:idno]/
 		       tei:pubPlace[tei:ref[matches(@target, 'hdl.handle.net')]]">
     <xsl:message select="concat('INFO ', /tei:teiCorpus/@xml:id, 
-			 ': deleting redundant pubPlace ', .)"/>
+			 ': deleting redundant pubPlace')"/>
   </xsl:template>
   
   <xsl:template match="tei:tagsDecl/tei:namespace">
@@ -317,7 +317,14 @@ Have separate finalize for ana: change UD terms for extended relations
     </xsl:copy>
     <relation name="opposition">
       <xsl:attribute name="mutual">
-	<xsl:variable name="from-mandate" select="@from"/>
+	<xsl:variable name="from-mandate">
+	  <xsl:choose>
+	    <xsl:when test="@from">
+	      <xsl:value-of select="@from"/>
+	    </xsl:when>
+	    <xsl:otherwise>1000-01-01</xsl:otherwise>
+	  </xsl:choose>
+	</xsl:variable>
 	<xsl:variable name="to-mandate">
 	  <xsl:choose>
 	    <xsl:when test="@to">
@@ -330,7 +337,14 @@ Have separate finalize for ana: change UD terms for extended relations
 	<xsl:variable name="tmp">
 	  <xsl:for-each select="ancestor::tei:listOrg//tei:org[@role='politicalParty']">
 	    <xsl:if test="not(contains($exclude, concat('#', @xml:id, ' ')))">
-	      <xsl:variable name="from-party" select="tei:event[tei:label = 'existence']/@from"/>
+	      <xsl:variable name="from-party">
+		<xsl:choose>
+		  <xsl:when test="tei:event[tei:label = 'existence'][@from]">
+		    <xsl:value-of select="tei:event[tei:label = 'existence']/@from"/>
+		  </xsl:when>
+		  <xsl:otherwise>1000-01-01</xsl:otherwise>
+		</xsl:choose>
+	      </xsl:variable>
 	      <xsl:variable name="to-party">
 		<xsl:choose>
 		  <xsl:when test="tei:event[tei:label = 'existence'][@to]">
