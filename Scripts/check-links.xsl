@@ -45,11 +45,11 @@
   </xsl:variable>
 
   <xsl:template match="/">
-    <xsl:call-template name="error">
+    <!--xsl:call-template name="error">
       <xsl:with-param name="severity">INFO</xsl:with-param>
       <xsl:with-param name="msg" select="concat('Checking links in ', 
 					 replace(base-uri(), '.+/', ''))"/>
-    </xsl:call-template>
+    </xsl:call-template-->
     <xsl:apply-templates/>
   </xsl:template>
   <xsl:template match="text()"/>
