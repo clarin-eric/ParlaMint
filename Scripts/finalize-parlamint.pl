@@ -79,7 +79,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     `$Valid $schemaDir $outTeiDir`;
 
     print STDERR "INFO: *Making samples\n";
-    `rm -fr $Sample`;
+    `rm -fr $outSmpDir`;
     `$Saxon outDir=$outSmpDir -xsl:$Sample $outTeiRoot`;
     `$Saxon outDir=$outSmpDir -xsl:$Sample $outAnaRoot`;
     `$Valid $schemaDir $outSmpDir`;
