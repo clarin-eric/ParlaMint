@@ -12,30 +12,38 @@ binmode(STDERR, ':utf8');
 
 sub usage
 {
-    print STDERR ("Usage: finalize-parlamint.pl '<COUNTRYCODES>' <InputDirectory> <OutputDirectory>\n");
-    print STDERR ("       Finalizes ParlaMint corpora and produces derived encodings.\n");
-    print STDERR ("       <COUNTRYCODES> is the list of country codes of the corpora to be processed.\n");
-    print STDERR ("       <InputDirectory> is where ParlaMint.TEI-XX/ and ParlaMint.TEI.ana-XX/ are.\n");
-    print STDERR ("       <OutputDirectory> is where output directories are written.\n");
-    print STDERR ("       The script does the following:\n");
-    print STDERR ("       * finalizes the TEI and TEI.ana directories\n");
-    print STDERR ("       * produces the plain text, meta, conllu and vertical files.\n");
+    print STDERR ("Usage:\n");
+    print STDERR ("finalize-parlamint.pl -help\n");
+    print STDERR ("finalize-parlamint.pl -codes '<Codes>' -schema [<Schema>] -in <Input> -out <Output>\n");
+    print STDERR ("    Finalizes ParlaMint corpora and produces derived encodings.\n");
+    print STDERR ("    <Codes> is the list of country codes of the corpora to be processed.\n");
+    print STDERR ("    <Input> is the directory where ParlaMint.TEI-XX/ and ParlaMint.TEI.ana-XX/ are.\n");
+    print STDERR ("    <Output> is the directory where output directories are written.\n");
+    print STDERR ("    The script does the following:\n");
+    print STDERR ("    * finalizes the TEI.ana directory\n");
+    print STDERR ("    * finalizes the TEI directory\n");
+    print STDERR ("    * prodces samples\n");
+    print STDERR ("    * validates TEI, TEI.ana and samples\n");
+    print STDERR ("    * produces plain text files with metadata files\n");
+    print STDERR ("    * produces conllu files with metadata files\n");
+    print STDERR ("    * produces vertical files.\n");
 }
 use Getopt::Long;
 use FindBin qw($Bin);
 use File::Spec;
 
 my $procAll    = 1;
-my $procAna    = 0;
-my $procTei    = 0;
-my $procSample = 0;
-my $procValid  = 0;
-my $procTxt    = 0;
-my $procConll  = 0;
-my $procVert   = 0;
+my $procAna    = 2;
+my $procTei    = 2;
+my $procSample = 2;
+my $procValid  = 2;
+my $procTxt    = 2;
+my $procConll  = 2;
+my $procVert   = 2;
 
 GetOptions
     (
+     'help'     => \$help,
      'codes=s'  => \$countryCodes,
      'schema=s' => \$schemaDir,
      'in=s'     => \$inDir,
@@ -50,6 +58,10 @@ GetOptions
      'vert!'    => \$procVert,
 );
 
+if ($help) {
+    &usage;
+    exit;
+}
 
 $schemaDir = File::Spec->rel2abs($schemaDir);
 $inDir = File::Spec->rel2abs($inDir);
@@ -92,49 +104,49 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     $outVertDir = "$outDir/$XX.vert";
     $outConlDir = "$outDir/$XX.conllu";
 
-    if ($procAll or $procAna) {
+    if ($procAll and $procAna) {
 	print STDERR "INFO: *Finalizing $countryCode TEI.ana\n";
 	`rm -fr $outAnaDir`;
 	`$Saxon outDir=$outDir -xsl:$Final $inAnaRoot`;
     }
-    if ($procAll or $procTei) {
+    if ($procAll and $procTei) {
 	print STDERR "INFO: *Finalizing $countryCode TEI\n";
 	`rm -fr $outTeiDir`;
 	`$Saxon anaDir=$outAnaDir outDir=$outDir -xsl:$Final $inTeiRoot`;
     }
-    if ($procAll or $procSample) {
+    if ($procAll and $procSample) {
 	print STDERR "INFO: *Making $countryCode samples\n";
 	`rm -fr $outSmpDir`;
 	`$Saxon outDir=$outSmpDir -xsl:$Sample $outTeiRoot`;
 	`$Saxon outDir=$outSmpDir -xsl:$Sample $outAnaRoot`;
     }
-    if ($procAll or $procAna) {
+    if ($procAll and $procAna) {
     	&polish($outAnaDir);
     }
-    if ($procAll or $procTei) {
+    if ($procAll and $procTei) {
 	&polish($outTeiDir);
     }
-    if ($procAll or $procValid) {
+    if ($procAll and $procValid) {
 	print STDERR "INFO: *Validating $countryCode TEI\n";
 	`$Valid $schemaDir $outSmpDir`;
 	`$Valid $schemaDir $outTeiDir`;
 	`$Valid $schemaDir $outAnaDir`;
     }
-    if ($procAll or $procTxt) {
+    if ($procAll and $procTxt) {
 	print STDERR "INFO: *Making $countryCode text\n";
 	`rm -fr $outTxtDir; mkdir $outTxtDir`;
 	`ls -dR $outTeiDir | grep '_' | $Paralel '$Saxon -xsl:$Texts {} > $outTxtDir/{/.}.txt'`;
 	$files = "ls -dR $outTeiDir | grep '_'";
 	`$files | $Paralel '$Saxon hdr=$outTeiRoot -xsl:$Metas {} > $outTxtDir/{/.}-meta.tsv'`;
     }
-    if ($procAll or $procConll) {
+    if ($procAll and $procConll) {
 	print STDERR "INFO: *Making $countryCode CoNLL-U\n";
 	`rm -fr $outConlDir; mkdir $outConlDir`;
 	`$Conls $outAnaDir $outConlDir`;
 	$files = "ls -dR $outAnaDir | grep '_'";
 	`$files | $Paralel '$Saxon hdr=$outTeiRoot -xsl:$Metas {} > $outConlDir/{/.}-meta.tsv'`;
     }
-    if ($procAll or $procVert) {
+    if ($procAll and $procVert) {
 	print STDERR "INFO: *Making $countryCode vert\n";
 	`rm -fr $outVertDir; mkdir $outVertDir`;
 	`$Verts $outAnaDir $outVertDir`;
