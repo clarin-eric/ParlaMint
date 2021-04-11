@@ -18,10 +18,6 @@
   <!-- File with corpus teiHeader for information about taxonomies, persons, parties -->
   <xsl:param name="hdr"/>
 
-  <!-- Separator for string multi-valued attributes
-       doesn't work in Saxon!? Need to use a literal 
-  <xsl:param name="multi-separator">|</xsl:param-->
-
   <!-- Output labels for MPs and guests -->
   <xsl:param name="mp-label">MP</xsl:param>
   <xsl:param name="guest-label">notMP</xsl:param>
@@ -553,41 +549,7 @@ And, there is, in theory, also:
     <xsl:param name="full" as="xs:string"/>
     <!-- Collect all affiliation references where the speaker is a member and are in 
 	 the correct time-frame for the speech -->
-    <xsl:variable name="refs">
-      <xsl:variable name="tmp">
-	<xsl:for-each select="$speaker/tei:affiliation
-			      [@role='member' or @role='candidateMP' or 
-			      @role='president' or @role='vicePresident' or @role='secretary']">
-	  <xsl:choose>
-	    <xsl:when test="@from and @to">
-	      <xsl:if test="et:between-dates($date-from, @from, @to) and
-			    et:between-dates($date-to, @from, @to)">
-		<xsl:value-of select="@ref"/>
-	      </xsl:if>
-	    </xsl:when>
-	    <xsl:when test="@from">
-	      <xsl:if test="et:between-dates($date-from, @from, $today-iso) and
-			    et:between-dates($date-to, @from, $today-iso)">
-		<xsl:value-of select="@ref"/>
-	      </xsl:if>
-	    </xsl:when>
-	    <xsl:otherwise>
-	      <xsl:value-of select="@ref"/>
-	    </xsl:otherwise>
-	  </xsl:choose>
-	  <xsl:text>&#32;</xsl:text>
-	</xsl:for-each>
-      </xsl:variable>
-      <!--xsl:if test="contains(normalize-space($tmp), ' ')">
-	<xsl:message>
-	  <xsl:text>WARN: more than one party for </xsl:text>
-	  <xsl:value-of select="$speaker/@xml:id"/>
-	  <xsl:text> on </xsl:text>
-	  <xsl:value-of select="concat($date-from, ' - ', $date-to, ': ', $tmp)"/>
-	</xsl:message>
-      </xsl:if-->
-      <xsl:value-of select="normalize-space($tmp)"/>
-    </xsl:variable>
+    <xsl:variable name="refs" select="et:speaker-affiliations-refs($speaker)"/>
     <xsl:variable name="politicalGroups">
       <xsl:for-each select="distinct-values(tokenize($refs, ' '))">
 	<xsl:variable name="party" select="key('idr', ., $teiHeader)[@role='politicalGroup']"/>
@@ -615,6 +577,44 @@ And, there is, in theory, also:
       </xsl:when>
       <xsl:otherwise>-</xsl:otherwise>
     </xsl:choose>
+  </xsl:function>
+  
+  <!-- Output IDREFS to the speaker affiliations in the correct time-frame -->
+  <xsl:function name="et:speaker-affiliations-refs" as="xs:string">
+    <xsl:param name="speaker" as="element(tei:person)"/>
+    <xsl:variable name="refs">
+      <xsl:for-each select="$speaker/tei:affiliation
+			    [@role='member' or @role='candidateMP' or 
+			    @role='president' or @role='vicePresident' or @role='secretary']">
+	<xsl:choose>
+	  <xsl:when test="@from and @to">
+	    <xsl:if test="et:between-dates($date-from, @from, @to) and
+			  et:between-dates($date-to, @from, @to)">
+	      <xsl:value-of select="@ref"/>
+	    </xsl:if>
+	  </xsl:when>
+	  <xsl:when test="@from">
+	    <xsl:if test="et:between-dates($date-from, @from, $today-iso) and
+			  et:between-dates($date-to, @from, $today-iso)">
+	      <xsl:value-of select="@ref"/>
+	    </xsl:if>
+	  </xsl:when>
+	  <xsl:otherwise>
+	      <xsl:value-of select="@ref"/>
+	  </xsl:otherwise>
+	</xsl:choose>
+	<xsl:text>&#32;</xsl:text>
+      </xsl:for-each>
+    </xsl:variable>
+    <!--xsl:if test="contains(normalize-space($tmp), ' ')">
+	<xsl:message>
+	<xsl:text>WARN: more than one party for </xsl:text>
+	<xsl:value-of select="$speaker/@xml:id"/>
+	<xsl:text> on </xsl:text>
+	<xsl:value-of select="concat($date-from, ' - ', $date-to, ': ', $tmp)"/>
+	</xsl:message>
+	</xsl:if-->
+    <xsl:value-of select="normalize-space($refs)"/>
   </xsl:function>
   
   <!-- Return the name of the party -->
