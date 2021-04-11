@@ -62,7 +62,6 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     $outAnaDir  = "$outDir/$anaDir";
     $outAnaRoot = "$outDir/$anaRoot";
     $outSmpDir  = "$outDir/$XX-Sample";
-    $outMetaDir = "$outDir/$XX-Meta";
     $outTxtDir  = "$outDir/$XX.txt";
     $outVertDir = "$outDir/$XX.vert";
     $outConlDir = "$outDir/$XX.conllu";
@@ -88,7 +87,6 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     print STDERR "INFO: *Making txt\n";
     `rm -fr $outTxtDir; mkdir $outTxtDir`;
     `ls -R $outTeiDir | grep '_' | $Paralel '$Saxon -xsl:$Texts {} > $outTxtDir/{/.}.txt'`;
-    `cp $outMetaDir/* $outTxtDir`;
     $files = "ls -R $outTeiDir | grep '_'";
     `$files | $Paralel '$Saxon hdr=$outTeiRoot -xsl:$Metas {} > $outTxtDir/{/.}-meta.tsv`;
     
