@@ -4,7 +4,7 @@
 </note>
 <speech id="ParlaMint-ES_2018-10-10-CD181010.u1" speaker_role="Chairman" speaker_id="?" speaker_name="?" speaker_type="?" speaker_party="?" speaker_party_name="?" speaker_gender="?" speaker_birth="?">
 <p id="ParlaMint-ES_2018-10-10-CD181010.u1.1" lang="Spanish">
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2018-10-10-CD181010.u1.1.1">
+<s id="ParlaMint-ES_2018-10-10-CD181010.u1.1.1">
 Señorías	Señorías	señoría	NOUN	Gender=Fem Number=Plur	1	nsubj	guardar	VERB	VerbForm=Inf	13
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	2	punct	antes	ADV	-	3
@@ -58,7 +58,7 @@ Cardassar	Cardassar	Cardassar	PROPN	-	46	flat	Sant	PROPN	-	43
 </name>
 .	.	.	PUNCT	PunctType=Peri	47	punct	guardar	VERB	VerbForm=Inf	13
 </s>
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2018-10-10-CD181010.u1.1.2">
+<s id="ParlaMint-ES_2018-10-10-CD181010.u1.1.2">
 Desde	Desde	desde	ADP	AdpType=Prep	1	case	aquí	ADV	-	2
 aquí	aquí	aquí	ADV	-	2	advmod	enviar	VERB	VerbForm=Inf	5
 vamos	vamos	ir	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	3	aux	enviar	VERB	VerbForm=Inf	5
@@ -92,7 +92,7 @@ afectados	afectados	afectado	NOUN	Gender=Masc Number=Plur	26	nmod	conjunto	NOUN	
 <note type="-">
 /La Cámara, puesta en pie, guarda un minuto de silencio/	-	-	-	-	-	-	-	-	-	-
 </note>
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2018-10-10-CD181010.u1.1.4">
+<s id="ParlaMint-ES_2018-10-10-CD181010.u1.1.4">
 Muchas	Muchas	mucho	DET	Gender=Fem NumType=Card Number=Plur PronType=Ind	1	det	gracias	NOUN	Gender=Fem Number=Plur	2
 gracias	gracias	gracias	NOUN	Gender=Fem Number=Plur	2	advmod	señoría	NOUN	Gender=Fem Number=Plur	4
 <g/>
@@ -111,7 +111,7 @@ señorías	señorías	señoría	NOUN	Gender=Fem Number=Plur	4	root	-	-	-	-
 </note>
 <speech id="ParlaMint-ES_2018-10-10-CD181010.u2" speaker_role="Chairman" speaker_id="?" speaker_name="?" speaker_type="?" speaker_party="?" speaker_party_name="?" speaker_gender="?" speaker_birth="?">
 <p id="ParlaMint-ES_2018-10-10-CD181010.u2.1" lang="Spanish">
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2018-10-10-CD181010.u2.1.1">
+<s id="ParlaMint-ES_2018-10-10-CD181010.u2.1.1">
 Continuamos	Continuamos	continuar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 con	con	con	ADP	AdpType=Prep	2	case	pregunta	NOUN	Gender=Fem Number=Plur	4
 las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	3	det	pregunta	NOUN	Gender=Fem Number=Plur	4
@@ -131,7 +131,7 @@ mismo	mismo	mismo	PRON	Gender=Masc Number=Sing PronType=Dem	14	obj	remitir	ADJ	G
 <g/>
 .	.	.	PUNCT	PunctType=Peri	15	punct	continuar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
 </s>
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2018-10-10-CD181010.u2.1.2">
+<s id="ParlaMint-ES_2018-10-10-CD181010.u2.1.2">
 Comenzamos	Comenzamos	comenzar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 con	con	con	ADP	AdpType=Prep	2	case	pregunta	NOUN	Gender=Fem Number=Plur	4
 las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	3	det	pregunta	NOUN	Gender=Fem Number=Plur	4
@@ -147,7 +147,7 @@ Gobierno	Gobierno	Gobierno	PROPN	-	10	nmod	presidente	NOUN	Gender=Masc Number=Si
 </name>
 .	.	.	PUNCT	PunctType=Peri	11	punct	comenzar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
 </s>
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2018-10-10-CD181010.u2.1.3">
+<s id="ParlaMint-ES_2018-10-10-CD181010.u2.1.3">
 En	En	en	ADP	AdpType=Prep	1	case	lugar	NOUN	Gender=Masc Number=Sing	3
 primer	primer	primero	ADJ	Gender=Masc NumType=Ord Number=Sing	2	amod	lugar	NOUN	Gender=Masc Number=Sing	3
 lugar	lugar	lugar	NOUN	Gender=Masc Number=Sing	3	obl	preguntar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
@@ -173,7 +173,7 @@ Popular	Popular	Popular	PROPN	-	16	flat	Grupo	PROPN	-	14
 </name>
 .	.	.	PUNCT	PunctType=Peri	17	punct	preguntar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
 </s>
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2018-10-10-CD181010.u2.1.4">
+<s id="ParlaMint-ES_2018-10-10-CD181010.u2.1.4">
 Adelante	Adelante	adelante	ADV	-	1	advmod	señoría	NOUN	Gender=Fem Number=Sing	3
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	2	punct	adelante	ADV	-	1
@@ -188,7 +188,7 @@ señoría	señoría	señoría	NOUN	Gender=Fem Number=Sing	3	root	-	-	-	-
 </note>
 <speech id="ParlaMint-ES_2018-10-10-CD181010.u238" speaker_role="Regular" speaker_id="BatetMeritxell" speaker_name="Batet Lamaña, Meritxell" speaker_type="MP" speaker_party="PSC-PSOE" speaker_party_name="Partido Socialista de Cataluya - Partido Socialista Obrero Español" speaker_gender="F" speaker_birth="1973">
 <p id="ParlaMint-ES_2018-10-10-CD181010.u238.1" lang="Spanish">
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2018-10-10-CD181010.u238.1.1">
+<s id="ParlaMint-ES_2018-10-10-CD181010.u238.1.1">
 Gracias	Gracias	gracias	NOUN	-	1	advmod	presidente	NOUN	Gender=Masc Number=Sing	3
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	2	punct	gracias	NOUN	-	1
@@ -198,7 +198,7 @@ presidente	presidente	presidente	NOUN	Gender=Masc Number=Sing	3	root	-	-	-	-
 </s>
 </p>
 <p id="ParlaMint-ES_2018-10-10-CD181010.u238.2" lang="Spanish">
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2018-10-10-CD181010.u238.2.1">
+<s id="ParlaMint-ES_2018-10-10-CD181010.u238.2.1">
 <name type="PER">
 Señor	Señor	Señor	PROPN	-	1	nsubj	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	24
 Villegas	Villegas	Villegas	PROPN	-	2	flat	Señor	PROPN	-	1
@@ -259,7 +259,7 @@ anterior	anterior	anterior	ADJ	Number=Sing	47	amod	mejor	ADJ	Degree=Cmp Number=S
 <g/>
 .	.	.	PUNCT	PunctType=Peri	48	punct	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	24
 </s>
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2018-10-10-CD181010.u238.2.2">
+<s id="ParlaMint-ES_2018-10-10-CD181010.u238.2.2">
 La	La	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	1	det	excepcionalidad	NOUN	Gender=Fem Number=Sing	2
 excepcionalidad	excepcionalidad	excepcionalidad	NOUN	Gender=Fem Number=Sing	2	nsubj	solución	NOUN	Gender=Fem Number=Sing	26
 del	del	del	ADP	AdpType=Preppron	3	case	155	NUM	NumForm=Digit NumType=Card	4
@@ -308,7 +308,7 @@ nada	nada	nada	PRON	Number=Sing PronType=Neg	38	nmod	solución	NOUN	Gender=Fem N
 <g/>
 .	.	.	PUNCT	PunctType=Peri	39	punct	solución	NOUN	Gender=Fem Number=Sing	26
 </s>
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2018-10-10-CD181010.u238.2.3">
+<s id="ParlaMint-ES_2018-10-10-CD181010.u238.2.3">
 Es	Es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1	cop	instrumento	NOUN	Gender=Masc Number=Sing	3
 un	un	uno	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	2	det	instrumento	NOUN	Gender=Masc Number=Sing	3
 instrumento	instrumento	instrumento	NOUN	Gender=Masc Number=Sing	3	root	-	-	-	-
@@ -329,7 +329,7 @@ soluciones	soluciones	solución	NOUN	Gender=Fem Number=Plur	17	obj	hallar	VERB	V
 <g/>
 .	.	.	PUNCT	PunctType=Peri	18	punct	instrumento	NOUN	Gender=Masc Number=Sing	3
 </s>
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2018-10-10-CD181010.u238.2.4">
+<s id="ParlaMint-ES_2018-10-10-CD181010.u238.2.4">
 El	El	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	1	det	espacio	NOUN	Gender=Masc Number=Sing	2
 espacio	espacio	espacio	NOUN	Gender=Masc Number=Sing	2	nsubj	abrir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	8
 para	para	para	ADP	AdpType=Prep	3	case	política	NOUN	Gender=Fem Number=Sing	5
@@ -356,7 +356,7 @@ Villegas	Villegas	Villegas	PROPN	-	19	flat	señor	NOUN	Gender=Masc Number=Sing	1
 </name>
 .	.	.	PUNCT	PunctType=Peri	20	punct	abrir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	8
 </s>
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2018-10-10-CD181010.u238.2.5">
+<s id="ParlaMint-ES_2018-10-10-CD181010.u238.2.5">
 Lo	Lo	él	PRON	Case=Acc Definite=Def Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	1	det	tocar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 que	que	que	PRON	PronType=Int,Rel	2	nsubj	tocar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 toca	toca	tocar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	csubj	espacio	NOUN	Gender=Masc Number=Sing	6
@@ -389,7 +389,7 @@ social	social	social	ADJ	Number=Sing	27	amod	tensión	NOUN	Gender=Fem Number=Sin
 <g/>
 .	.	.	PUNCT	PunctType=Peri	28	punct	espacio	NOUN	Gender=Masc Number=Sing	6
 </s>
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2018-10-10-CD181010.u238.2.6">
+<s id="ParlaMint-ES_2018-10-10-CD181010.u238.2.6">
 Eso	Eso	ese	PRON	Number=Sing PronType=Dem	1	nsubj	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 lo	lo	él	PRON	Case=Acc Definite=Def Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	3	det	tocar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
@@ -423,7 +423,7 @@ votar	votar	votar	VERB	VerbForm=Inf	28	xcomp	llevar	VERB	Gender=Masc Number=Sing
 les	les	él	PRON	Case=Dat Number=Plur Person=3 PronType=Prs	29	obj	votar	VERB	VerbForm=Inf	28
 .	.	.	PUNCT	PunctType=Peri	30	punct	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 </s>
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2018-10-10-CD181010.u238.2.7">
+<s id="ParlaMint-ES_2018-10-10-CD181010.u238.2.7">
 Si	Si	si	SCONJ	-	1	mark	entender	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	4
 yo	yo	yo	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	2	nsubj	entender	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	4
 lo	lo	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	3	obj	entender	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	4
@@ -437,7 +437,7 @@ Villegas	Villegas	Villegas	PROPN	-	7	flat	señor	NOUN	Gender=Masc Number=Sing	6
 </name>
 .	.	.	PUNCT	PunctType=Peri	8	punct	entender	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	4
 </s>
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2018-10-10-CD181010.u238.2.8">
+<s id="ParlaMint-ES_2018-10-10-CD181010.u238.2.8">
 A	A	a	ADP	AdpType=Prep	1	case	partido	NOUN	Gender=Masc Number=Sing	3
 un	un	uno	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	2	det	partido	NOUN	Gender=Masc Number=Sing	3
 partido	partido	partido	NOUN	Gender=Masc Number=Sing	3	obl	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	14
@@ -472,7 +472,7 @@ constitucional	constitucional	constitucional	ADJ	Number=Sing	29	amod	crisis	NOUN
 <g/>
 .	.	.	PUNCT	PunctType=Peri	30	punct	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	14
 </s>
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2018-10-10-CD181010.u238.2.9">
+<s id="ParlaMint-ES_2018-10-10-CD181010.u238.2.9">
 Eso	Eso	ese	PRON	Number=Sing PronType=Dem	1	nsubj	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 lo	lo	él	PRON	Case=Acc Definite=Def Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	3	det	ver	VERB	VerbForm=Inf	7
@@ -502,7 +502,7 @@ excepcionalidad	excepcionalidad	excepcionalidad	NOUN	Gender=Fem Number=Sing	25	o
 <g/>
 .	.	.	PUNCT	PunctType=Peri	26	punct	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 </s>
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2018-10-10-CD181010.u238.2.10">
+<s id="ParlaMint-ES_2018-10-10-CD181010.u238.2.10">
 <name type="MISC">
 Señorías	Señorías	señoría	NOUN	Gender=Fem Number=Plur	1	dep	crecer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	6
 <g/>
@@ -553,7 +553,7 @@ excepcionalidad	excepcionalidad	excepcionalidad	NOUN	Gender=Fem Number=Sing	36	c
 </s>
 </p>
 <p id="ParlaMint-ES_2018-10-10-CD181010.u238.3" lang="Spanish">
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2018-10-10-CD181010.u238.3.1">
+<s id="ParlaMint-ES_2018-10-10-CD181010.u238.3.1">
 Hoy	Hoy	hoy	ADV	-	1	advmod	mejor	ADJ	Degree=Cmp Number=Sing	12
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	situación	NOUN	Gender=Fem Number=Sing	3
 situación	situación	situación	NOUN	Gender=Fem Number=Sing	3	nsubj	mejor	ADJ	Degree=Cmp Number=Sing	12
@@ -577,7 +577,7 @@ año	año	año	NOUN	Gender=Masc Number=Sing	16	obj	hacer	VERB	Mood=Ind Number=Si
 <g/>
 .	.	.	PUNCT	PunctType=Peri	17	punct	mejor	ADJ	Degree=Cmp Number=Sing	12
 </s>
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2018-10-10-CD181010.u238.3.2">
+<s id="ParlaMint-ES_2018-10-10-CD181010.u238.3.2">
 Consigamos	Consigamos	consegar	VERB	Mood=Imp Number=Plur Person=1 VerbForm=Fin	1	root	-	-	-	-
 entre	entre	entre	ADP	AdpType=Prep	2	case	todo	PRON	Gender=Masc Number=Plur PronType=Tot	3
 todos	todos	todo	PRON	Gender=Masc Number=Plur PronType=Tot	3	obl	consegar	VERB	Mood=Imp Number=Plur Person=1 VerbForm=Fin	1
@@ -601,7 +601,7 @@ recorrido	recorrido	recorrido	NOUN	Gender=Masc Number=Sing	18	nmod	falta	NOUN	Ge
 <g/>
 .	.	.	PUNCT	PunctType=Peri	19	punct	consegar	VERB	Mood=Imp Number=Plur Person=1 VerbForm=Fin	1
 </s>
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2018-10-10-CD181010.u238.3.3">
+<s id="ParlaMint-ES_2018-10-10-CD181010.u238.3.3">
 Lo	Lo	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	1	obj	decir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	3
 he	he	haber	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	2	aux	decir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	3
 dicho	dicho	decir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	3	root	-	-	-	-
@@ -643,7 +643,7 @@ Villegas	Villegas	Villegas	PROPN	-	32	flat	señor	NOUN	Gender=Masc Number=Sing	3
 </name>
 .	.	.	PUNCT	PunctType=Peri	33	punct	decir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	3
 </s>
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2018-10-10-CD181010.u238.3.4">
+<s id="ParlaMint-ES_2018-10-10-CD181010.u238.3.4">
 Los	Los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	1	det	socialista	NOUN	Number=Plur	2
 socialistas	socialistas	socialista	NOUN	Number=Plur	2	nsubj	creer	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	3
 creemos	creemos	creer	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	3	root	-	-	-	-
@@ -677,7 +677,7 @@ ustedes	ustedes	tú	PRON	Case=Acc,Nom Number=Plur Person=2 Polite=Form PronType=
 <g/>
 .	.	.	PUNCT	PunctType=Peri	27	punct	creer	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	3
 </s>
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2018-10-10-CD181010.u238.3.5">
+<s id="ParlaMint-ES_2018-10-10-CD181010.u238.3.5">
 Hasta	Hasta	hasta	ADP	AdpType=Prep	1	mark	crear	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	5
 que	que	que	SCONJ	-	2	mark	crear	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	5
 ustedes	ustedes	tú	PRON	Case=Acc,Nom Number=Plur Person=2 Polite=Form PronType=Prs	3	nsubj	crear	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	5
@@ -754,7 +754,7 @@ paso	paso	paso	NOUN	Gender=Masc Number=Sing	69	obj	dar	VERB	VerbForm=Inf	67
 <g/>
 .	.	.	PUNCT	PunctType=Peri	70	punct	absurdo	ADJ	Gender=Fem Number=Sing	48
 </s>
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2018-10-10-CD181010.u238.3.6">
+<s id="ParlaMint-ES_2018-10-10-CD181010.u238.3.6">
 Creo	Creo	creer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 que	que	que	SCONJ	-	2	mark	importante	ADJ	Number=Sing	4
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	cop	importante	ADJ	Number=Sing	4
@@ -780,7 +780,7 @@ problema	problema	problema	NOUN	Gender=Masc Number=Sing	18	obj	no	ADV	Polarity=N
 <g/>
 .	.	.	PUNCT	PunctType=Peri	19	punct	creer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 </s>
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2018-10-10-CD181010.u238.3.7">
+<s id="ParlaMint-ES_2018-10-10-CD181010.u238.3.7">
 Creo	Creo	creer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 que	que	que	SCONJ	-	2	mark	importante	ADJ	Number=Sing	4
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	cop	importante	ADJ	Number=Sing	4
@@ -795,7 +795,7 @@ solución	solución	solución	NOUN	Gender=Fem Number=Sing	11	nmod	parte	NOUN	Gen
 <g/>
 .	.	.	PUNCT	PunctType=Peri	12	punct	creer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 </s>
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2018-10-10-CD181010.u238.3.8">
+<s id="ParlaMint-ES_2018-10-10-CD181010.u238.3.8">
 Nos	Nos	yo	PRON	Case=Dat Number=Plur Person=1 PrepCase=Npr PronType=Prs	1	iobj	decir	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	2
 decía	decía	decir	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	2	root	-	-	-	-
 que	que	que	SCONJ	-	3	mark	equivocar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	7
@@ -808,7 +808,7 @@ adversario	adversario	adversario	NOUN	Gender=Masc Number=Sing	9	obl	equivocar	VE
 <g/>
 .	.	.	PUNCT	PunctType=Peri	10	punct	decir	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	2
 </s>
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2018-10-10-CD181010.u238.3.9">
+<s id="ParlaMint-ES_2018-10-10-CD181010.u238.3.9">
 No	No	no	ADV	Polarity=Neg	1	advmod	equivocar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	5
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	2	punct	no	ADV	Polarity=Neg	1
@@ -820,7 +820,7 @@ adversario	adversario	adversario	NOUN	Gender=Masc Number=Sing	7	obj	equivocar	VE
 <g/>
 .	.	.	PUNCT	PunctType=Peri	8	punct	equivocar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	5
 </s>
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2018-10-10-CD181010.u238.3.10">
+<s id="ParlaMint-ES_2018-10-10-CD181010.u238.3.10">
 El	El	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	1	det	adversario	NOUN	Gender=Masc Number=Sing	2
 adversario	adversario	adversario	NOUN	Gender=Masc Number=Sing	2	nsubj	Partido	PROPN	-	6
 no	no	no	ADV	Polarity=Neg	3	advmod	Partido	PROPN	-	6
@@ -860,7 +860,7 @@ Villegas	Villegas	Villegas	PROPN	-	25	flat	señor	NOUN	Gender=Masc Number=Sing	2
 </name>
 .	.	.	PUNCT	PunctType=Peri	26	punct	Partido	PROPN	-	6
 </s>
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2018-10-10-CD181010.u238.3.11">
+<s id="ParlaMint-ES_2018-10-10-CD181010.u238.3.11">
 Está	Está	estar	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1	cop	bien	ADV	-	2
 bien	bien	bien	ADV	-	2	root	-	-	-	-
 que	que	que	SCONJ	-	3	mark	presentar	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	4
@@ -882,7 +882,7 @@ adversario	adversario	adversario	NOUN	Gender=Masc Number=Sing	16	advcl	adversari
 <g/>
 .	.	.	PUNCT	PunctType=Peri	17	punct	bien	ADV	-	2
 </s>
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2018-10-10-CD181010.u238.3.12">
+<s id="ParlaMint-ES_2018-10-10-CD181010.u238.3.12">
 Y	Y	y	CCONJ	-	1	advmod	decir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	4
 yo	yo	yo	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	2	nsubj	decir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	4
 le	le	él	PRON	Case=Dat Number=Sing Person=3 PronType=Prs	3	iobj	decir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	4
@@ -901,7 +901,7 @@ Villegas	Villegas	Villegas	PROPN	-	12	flat	señor	NOUN	Gender=Masc Number=Sing	1
 </name>
 .	.	.	PUNCT	PunctType=Peri	13	punct	decir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	4
 </s>
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2018-10-10-CD181010.u238.3.13">
+<s id="ParlaMint-ES_2018-10-10-CD181010.u238.3.13">
 Lo	Lo	él	PRON	Case=Acc Definite=Def Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	1	det	valer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 que	que	que	PRON	PronType=Int,Rel	2	nsubj	valer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 vale	vale	valer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	csubj	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
@@ -926,7 +926,7 @@ país	país	país	NOUN	Gender=Masc Number=Sing	21	obl	tener	VERB	Mood=Ind Number
 <g/>
 .	.	.	PUNCT	PunctType=Peri	22	punct	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
 </s>
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2018-10-10-CD181010.u238.3.14">
+<s id="ParlaMint-ES_2018-10-10-CD181010.u238.3.14">
 Eso	Eso	ese	PRON	Number=Sing PronType=Dem	1	nsubj	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 lo	lo	él	PRON	Case=Acc Definite=Def Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	3	det	valer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
@@ -937,7 +937,7 @@ pena	pena	pena	NOUN	Gender=Fem Number=Sing	7	obj	valer	VERB	Mood=Ind Number=Sing
 <g/>
 .	.	.	PUNCT	PunctType=Peri	8	punct	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 </s>
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2018-10-10-CD181010.u238.3.15">
+<s id="ParlaMint-ES_2018-10-10-CD181010.u238.3.15">
 Y	Y	y	CCONJ	-	1	advmod	decir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
 le	le	él	PRON	Case=Dat Number=Sing Person=3 PronType=Prs	2	obj	decir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
 digo	digo	decir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3	root	-	-	-	-
@@ -974,7 +974,7 @@ cuenta	cuenta	cuenta	NOUN	Gender=Fem Number=Sing	28	compound	dar	VERB	Mood=Ind N
 </s>
 </p>
 <p id="ParlaMint-ES_2018-10-10-CD181010.u238.4" lang="Spanish">
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2018-10-10-CD181010.u238.4.1">
+<s id="ParlaMint-ES_2018-10-10-CD181010.u238.4.1">
 Muchas	Muchas	mucho	DET	Gender=Fem NumType=Card Number=Plur PronType=Ind	1	det	gracias	NOUN	Gender=Fem Number=Plur	2
 gracias	gracias	gracias	NOUN	Gender=Fem Number=Plur	2	root	-	-	-	-
 <g/>
@@ -987,7 +987,7 @@ gracias	gracias	gracias	NOUN	Gender=Fem Number=Plur	2	root	-	-	-	-
 </speech>
 <speech id="ParlaMint-ES_2018-10-10-CD181010.u239" speaker_role="Chairman" speaker_id="PrendesJosé" speaker_name="Prendes Prendes, José Ignacio" speaker_type="MP" speaker_party="Cs" speaker_party_name="Ciudadanos" speaker_gender="M" speaker_birth="1965">
 <p id="ParlaMint-ES_2018-10-10-CD181010.u239.1" lang="Spanish">
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2018-10-10-CD181010.u239.1.1">
+<s id="ParlaMint-ES_2018-10-10-CD181010.u239.1.1">
 Muchas	Muchas	mucho	DET	Gender=Fem NumType=Card Number=Plur PronType=Ind	1	det	gracias	NOUN	Gender=Fem Number=Plur	2
 gracias	gracias	gracias	NOUN	Gender=Fem Number=Plur	2	root	-	-	-	-
 <g/>
@@ -999,7 +999,7 @@ ministra	ministra	ministra	NOUN	Gender=Fem Number=Sing	5	appos	gracias	NOUN	Gend
 </s>
 </p>
 <p id="ParlaMint-ES_2018-10-10-CD181010.u239.2" lang="Spanish">
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2018-10-10-CD181010.u239.2.1">
+<s id="ParlaMint-ES_2018-10-10-CD181010.u239.2.1">
 Concluido	Concluido	concluir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	1	advcl	levantar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	2	det	debate	NOUN	Gender=Masc Number=Sing	3
 debate	debate	debate	NOUN	Gender=Masc Number=Sing	3	nsubj	concluir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	1
@@ -1014,7 +1014,7 @@ sesión	sesión	sesión	NOUN	Gender=Fem Number=Sing	8	nsubj	levantar	VERB	Mood=I
 </s>
 </p>
 <p id="ParlaMint-ES_2018-10-10-CD181010.u239.3" lang="Spanish">
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2018-10-10-CD181010.u239.3.1">
+<s id="ParlaMint-ES_2018-10-10-CD181010.u239.3.1">
 Eran	Eran	ser	AUX	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	1	cop	minuto	NOUN	Gender=Masc Number=Plur	6
 las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	2	det	minuto	NOUN	Gender=Masc Number=Plur	6
 doce	doce	doce	NUM	NumType=Card Number=Plur	3	nummod	minuto	NOUN	Gender=Masc Number=Plur	6

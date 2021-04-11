@@ -4,7 +4,7 @@
 </note>
 <speech id="ParlaMint-ES_2015-01-21-CD150121.u1" speaker_role="Chairman" speaker_id="?" speaker_name="?" speaker_type="?" speaker_party="?" speaker_party_name="?" speaker_gender="?" speaker_birth="?">
 <p id="ParlaMint-ES_2015-01-21-CD150121.u1.1" lang="Spanish">
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2015-01-21-CD150121.u1.1.1">
+<s id="ParlaMint-ES_2015-01-21-CD150121.u1.1.1">
 Se	Se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	1	expl:pass	reanudar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 reanuda	reanuda	reanudar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	3	det	sesión	NOUN	Gender=Fem Number=Sing	4
@@ -14,7 +14,7 @@ sesión	sesión	sesión	NOUN	Gender=Fem Number=Sing	4	nsubj	reanudar	VERB	Mood=I
 </s>
 </p>
 <p id="ParlaMint-ES_2015-01-21-CD150121.u1.2" lang="Spanish">
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2015-01-21-CD150121.u1.2.1">
+<s id="ParlaMint-ES_2015-01-21-CD150121.u1.2.1">
 Preguntas	Preguntas	pregunta	NOUN	Gender=Fem Number=Plur	1	root	-	-	-	-
 dirigidas	dirigidas	dirigido	ADJ	Gender=Fem Number=Plur VerbForm=Part	2	amod	pregunta	NOUN	Gender=Fem Number=Plur	1
 al	al	al	ADP	AdpType=Preppron	3	case	Gobierno	PROPN	-	4
@@ -36,7 +36,7 @@ Gobierno	Gobierno	Gobierno	PROPN	-	11	nmod	presidente	NOUN	Gender=Masc Number=Si
 <note type="-">
 /Rumores/	-	-	-	-	-	-	-	-	-	-
 </note>
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2015-01-21-CD150121.u1.2.3">
+<s id="ParlaMint-ES_2015-01-21-CD150121.u1.2.3">
 Ruego	Ruego	rugar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 silencio	silencio	silencio	NOUN	Gender=Masc Number=Sing	2	obj	rugar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 <g/>
@@ -48,7 +48,7 @@ favor	favor	favor	NOUN	-	5	fixed	por	ADP	AdpType=Prep	4
 </s>
 </p>
 <p id="ParlaMint-ES_2015-01-21-CD150121.u1.3" lang="Spanish">
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2015-01-21-CD150121.u1.3.1">
+<s id="ParlaMint-ES_2015-01-21-CD150121.u1.3.1">
 Pregunta	Pregunta	pregunta	NOUN	Gender=Fem Number=Sing	1	root	-	-	-	-
 del	del	del	ADP	AdpType=Preppron	2	case	diputado	NOUN	Gender=Masc Number=Sing	3
 diputado	diputado	diputado	NOUN	Gender=Masc Number=Sing	3	nmod	pregunta	NOUN	Gender=Fem Number=Sing	1
@@ -75,7 +75,7 @@ Plural	Plural	Plural	PROPN	-	14	flat	Grupo	PROPN	-	9
 </speech>
 <speech id="ParlaMint-ES_2015-01-21-CD150121.u2" speaker_role="Regular" speaker_id="GarzónAlberto" speaker_name="Garzón Espinosa, Alberto" speaker_type="MP" speaker_party="IZQ-PLU" speaker_party_name="Izquierda Plural" speaker_gender="M" speaker_birth="1985">
 <p id="ParlaMint-ES_2015-01-21-CD150121.u2.1" lang="Spanish">
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2015-01-21-CD150121.u2.1.1">
+<s id="ParlaMint-ES_2015-01-21-CD150121.u2.1.1">
 Señor	Señor	señor	NOUN	Gender=Masc Number=Sing	1	nsubj	devolver	VERB	VerbForm=Inf	9
 presidente	presidente	presidente	NOUN	Gender=Masc Number=Sing	2	appos	señor	NOUN	Gender=Masc Number=Sing	1
 <g/>
@@ -114,7 +114,7 @@ julio	julio	julio	NOUN	-	23	compound	13	NUM	NumForm=Digit NumType=Card	21
 </note>
 <speech id="ParlaMint-ES_2015-01-21-CD150121.u335" speaker_role="Chairman" speaker_id="?" speaker_name="?" speaker_type="?" speaker_party="?" speaker_party_name="?" speaker_gender="?" speaker_birth="?">
 <p id="ParlaMint-ES_2015-01-21-CD150121.u335.1" lang="Spanish">
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2015-01-21-CD150121.u335.1.1">
+<s id="ParlaMint-ES_2015-01-21-CD150121.u335.1.1">
 Votación	Votación	votación	NOUN	Gender=Fem Number=Sing	1	root	-	-	-	-
 de	de	de	ADP	AdpType=Prep	2	case	conjunto	NOUN	Gender=Masc Number=Sing	3
 conjunto	conjunto	conjunto	NOUN	Gender=Masc Number=Sing	3	nmod	votación	NOUN	Gender=Fem Number=Sing	1
@@ -136,7 +136,7 @@ políticos	políticos	político	ADJ	Gender=Masc Number=Plur	18	amod	partido	NOUN
 <g/>
 .	.	.	PUNCT	PunctType=Peri	19	punct	votación	NOUN	Gender=Fem Number=Sing	1
 </s>
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2015-01-21-CD150121.u335.1.2">
+<s id="ParlaMint-ES_2015-01-21-CD150121.u335.1.2">
 Se	Se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	1	expl:pass	emitir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	3
 han	han	haber	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	2	aux	emitir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	3
 emitido	emitido	emitir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	3	root	-	-	-	-
@@ -148,7 +148,7 @@ telemáticos	telemáticos	telemático	ADJ	Gender=Masc Number=Plur	6	amod	voto	NO
 </s>
 </p>
 <p id="ParlaMint-ES_2015-01-21-CD150121.u335.2" lang="Spanish">
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2015-01-21-CD150121.u335.2.1">
+<s id="ParlaMint-ES_2015-01-21-CD150121.u335.2.1">
 Comienza	Comienza	comenzar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	votación	NOUN	Gender=Fem Number=Sing	3
 votación	votación	votación	NOUN	Gender=Fem Number=Sing	3	nsubj	comenzar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1
@@ -158,7 +158,7 @@ votación	votación	votación	NOUN	Gender=Fem Number=Sing	3	nsubj	comenzar	VERB	
 <note type="-">
 /Pausa/	-	-	-	-	-	-	-	-	-	-
 </note>
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2015-01-21-CD150121.u335.2.3">
+<s id="ParlaMint-ES_2015-01-21-CD150121.u335.2.3">
 Efectuada	Efectuada	efectuado	ADJ	Gender=Fem Number=Sing VerbForm=Part	1	advmod	dar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	5
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	votación	NOUN	Gender=Fem Number=Sing	3
 votación	votación	votación	NOUN	Gender=Fem Number=Sing	3	nsubj	efectuado	ADJ	Gender=Fem Number=Sing VerbForm=Part	1
@@ -223,7 +223,7 @@ telemáticos	telemáticos	telemático	ADJ	Gender=Masc Number=Plur	43	amod	voto	N
 </speech>
 <speech id="ParlaMint-ES_2015-01-21-CD150121.u336" speaker_role="Chairman" speaker_id="?" speaker_name="?" speaker_type="?" speaker_party="?" speaker_party_name="?" speaker_gender="?" speaker_birth="?">
 <p id="ParlaMint-ES_2015-01-21-CD150121.u336.1" lang="Spanish">
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2015-01-21-CD150121.u336.1.1">
+<s id="ParlaMint-ES_2015-01-21-CD150121.u336.1.1">
 Queda	Queda	quedar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 aprobado	aprobado	aprobado	ADJ	Gender=Masc Number=Sing VerbForm=Part	2	obj	quedar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1
 <g/>
@@ -231,7 +231,7 @@ aprobado	aprobado	aprobado	ADJ	Gender=Masc Number=Sing VerbForm=Part	2	obj	queda
 </s>
 </p>
 <p id="ParlaMint-ES_2015-01-21-CD150121.u336.2" lang="Spanish">
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2015-01-21-CD150121.u336.2.1">
+<s id="ParlaMint-ES_2015-01-21-CD150121.u336.2.1">
 Se	Se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	1	expl:pass	levantar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 levanta	levanta	levantar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	3	det	sesión	NOUN	Gender=Fem Number=Sing	4
@@ -241,7 +241,7 @@ sesión	sesión	sesión	NOUN	Gender=Fem Number=Sing	4	nsubj	levantar	VERB	Mood=I
 </s>
 </p>
 <p id="ParlaMint-ES_2015-01-21-CD150121.u336.3" lang="Spanish">
-<s xmlns:xs="http://www.w3.org/2001/XMLSchema" id="ParlaMint-ES_2015-01-21-CD150121.u336.3.1">
+<s id="ParlaMint-ES_2015-01-21-CD150121.u336.3.1">
 Eran	Eran	ser	AUX	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	1	cop	minuto	NOUN	Gender=Masc Number=Plur	6
 las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	2	det	minuto	NOUN	Gender=Masc Number=Plur	6
 tres	tres	tres	NUM	NumType=Card Number=Plur	3	nummod	minuto	NOUN	Gender=Masc Number=Plur	6

@@ -36,13 +36,13 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>0.1</edition>
+            <edition>2.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="49919" xml:lang="es">49,919 intervenciones</measure>
             <measure unit="speeches" quantity="49919" xml:lang="en">49,919 speeches</measure>
-            <measure quantity="13039185" unit="words" xml:lang="es">13,039,185 palabras</measure>
-            <measure quantity="13039185" unit="words" xml:lang="en">13,039,185 words</measure>
+            <measure quantity="13098642" unit="words" xml:lang="es">13,098,642 palabras</measure>
+            <measure quantity="13098642" unit="words" xml:lang="en">13,098,642 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -56,7 +56,7 @@
                <p xml:lang="es">Este trabajo se encuentra protegido por la licencia <ref target="https://creativecommons.org/licenses/by/4.0/">Atribución 4.0 Internacional</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2021-04-09">2021-04-09</date>
+            <date when="2021-04-11">2021-04-11</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -97,10 +97,15 @@
                <tagUsage gi="body" occurs="308"/>
                <tagUsage gi="div" occurs="1785"/>
                <tagUsage gi="head" occurs="1728"/>
-               <tagUsage gi="seg" occurs="147283"/>
-               <tagUsage gi="note" occurs="46976"/>
-               <tagUsage gi="pb" occurs="17020"/>
+               <tagUsage gi="link" occurs="14670573"/>
+               <tagUsage gi="linkGrp" occurs="526694"/>
+               <tagUsage gi="name" occurs="476893"/>
+               <tagUsage gi="note" occurs="46965"/>
+               <tagUsage gi="pc" occurs="1571931"/>
+               <tagUsage gi="s" occurs="526694"/>
+               <tagUsage gi="seg" occurs="147299"/>
                <tagUsage gi="u" occurs="49919"/>
+               <tagUsage gi="w" occurs="13098642"/>
             </namespace>
          </tagsDecl>
          <classDecl>
@@ -11213,10 +11218,10 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-04-09">
+         <change when="2021-04-11">
             <name>Tomaž Erjavec</name>: Made sample.</change>
-         <change when="2021-03-20">
-            <name>Tomaž Erjavec</name>: Conversion to ParlaMint TEI.</change>
+         <change when="2021-04-11">
+            <name>Tomaž Erjavec</name>: Finalize encoding.</change>
       </revisionDesc>
    </teiHeader>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -11225,4 +11230,6 @@
                href="ParlaMint-ES_2017-03-16-CD170316.ana.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-ES_2018-10-10-CD181010.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-ES_2020-12-15-CD201215.ana.xml"/>
 </teiCorpus>
