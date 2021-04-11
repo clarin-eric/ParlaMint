@@ -25,18 +25,37 @@ use Getopt::Long;
 use FindBin qw($Bin);
 use File::Spec;
 
+my $procAll    = 1;
+my $procAna    = 0;
+my $procTei    = 0;
+my $procSample = 0;
+my $procValid  = 0;
+my $procTxt    = 0;
+my $procConll  = 0;
+my $procVert   = 0;
+
 GetOptions
     (
      'codes=s'  => \$countryCodes,
      'schema=s' => \$schemaDir,
      'in=s'     => \$inDir,
      'out=s'    => \$outDir,
+     'all'      => \$procAll,
+     'ana!'     => \$procAna,
+     'tei!'     => \$procTei,
+     'sample!'  => \$procSample,
+     'valid!'   => \$procValid,
+     'txt!'     => \$procTxt,
+     'conll!'   => \$procConll,
+     'vert!'    => \$procVert,
 );
+
 
 $schemaDir = File::Spec->rel2abs($schemaDir);
 $inDir = File::Spec->rel2abs($inDir);
 $outDir = File::Spec->rel2abs($outDir);
 
+#Scripts
 $Paralel = "parallel --gnu --halt 2 --jobs 15";
 $Saxon   = "java -jar /usr/share/java/saxon.jar";
 $Final   = "$Bin/parlamint2final.xsl";
@@ -72,44 +91,55 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     $outTxtDir  = "$outDir/$XX.txt";
     $outVertDir = "$outDir/$XX.vert";
     $outConlDir = "$outDir/$XX.conllu";
-    
-    print STDERR "INFO: *Finalizing TEI.ana\n";
-    `rm -fr $outAnaDir`;
-    `$Saxon outDir=$outDir -xsl:$Final $inAnaRoot`;
-    
-    print STDERR "INFO: *Finalizing TEI\n";
-    `rm -fr $outTeiDir`;
-    `$Saxon anaDir=$outAnaDir outDir=$outDir -xsl:$Final $inTeiRoot`;
 
-    print STDERR "INFO: *Making samples\n";
-    `rm -fr $outSmpDir`;
-    `$Saxon outDir=$outSmpDir -xsl:$Sample $outTeiRoot`;
-    `$Saxon outDir=$outSmpDir -xsl:$Sample $outAnaRoot`;
-    
-    print STDERR "INFO: *Validating TEI\n";
-    `$Valid $schemaDir $outSmpDir`;
-    &polish($outAnaDir);
-    `$Valid $schemaDir $outAnaDir`;
-    &polish($outTeiDir);
-    `$Valid $schemaDir $outTeiDir`;
-    
-    print STDERR "INFO: *Making txt\n";
-    `rm -fr $outTxtDir; mkdir $outTxtDir`;
-    `ls -dR $outTeiDir | grep '_' | $Paralel '$Saxon -xsl:$Texts {} > $outTxtDir/{/.}.txt'`;
-    $files = "ls -dR $outTeiDir | grep '_'";
-    `$files | $Paralel '$Saxon hdr=$outTeiRoot -xsl:$Metas {} > $outTxtDir/{/.}-meta.tsv'`;
-    
-    print STDERR "INFO: *Making CoNLL-U\n";
-    `rm -fr $outConlDir; mkdir $outConlDir`;
-    `$Conls $outAnaDir $outConlDir`;
-    $files = "ls -dR $outAnaDir | grep '_'";
-    `$files | $Paralel '$Saxon hdr=$outTeiRoot -xsl:$Metas {} > $outConlDir/{/.}-meta.tsv'`;
-    
-    print STDERR "INFO: *Making vert\n";
-    `rm -fr $outVertDir; mkdir $outVertDir`;
-    `$Verts $outAnaDir $outVertDir`;
+    if ($procAll or $procAna) {
+	print STDERR "INFO: *Finalizing TEI.ana\n";
+	`rm -fr $outAnaDir`;
+	`$Saxon outDir=$outDir -xsl:$Final $inAnaRoot`;
+    }
+    if ($procAll or $procTei) {
+	print STDERR "INFO: *Finalizing TEI\n";
+	`rm -fr $outTeiDir`;
+	`$Saxon anaDir=$outAnaDir outDir=$outDir -xsl:$Final $inTeiRoot`;
+    }
+    if ($procAll or $procSample) {
+	print STDERR "INFO: *Making samples\n";
+	`rm -fr $outSmpDir`;
+	`$Saxon outDir=$outSmpDir -xsl:$Sample $outTeiRoot`;
+	`$Saxon outDir=$outSmpDir -xsl:$Sample $outAnaRoot`;
+    }
+    if ($procAll or $procAna) {
+    	&polish($outAnaDir);
+    }
+    if ($procAll or $procTei) {
+	&polish($outTeiDir);
+    }
+    if ($procAll or $procValid) {
+	print STDERR "INFO: *Validating TEI\n";
+	`$Valid $schemaDir $outSmpDir`;
+	`$Valid $schemaDir $outTeiDir`;
+	`$Valid $schemaDir $outAnaDir`;
+    }
+    if ($procAll or $procTxt) {
+	print STDERR "INFO: *Making txt\n";
+	`rm -fr $outTxtDir; mkdir $outTxtDir`;
+	`ls -dR $outTeiDir | grep '_' | $Paralel '$Saxon -xsl:$Texts {} > $outTxtDir/{/.}.txt'`;
+	$files = "ls -dR $outTeiDir | grep '_'";
+	`$files | $Paralel '$Saxon hdr=$outTeiRoot -xsl:$Metas {} > $outTxtDir/{/.}-meta.tsv'`;
+    }
+    if ($procAll or $procConll) {
+	print STDERR "INFO: *Making CoNLL-U\n";
+	`rm -fr $outConlDir; mkdir $outConlDir`;
+	`$Conls $outAnaDir $outConlDir`;
+	$files = "ls -dR $outAnaDir | grep '_'";
+	`$files | $Paralel '$Saxon hdr=$outTeiRoot -xsl:$Metas {} > $outConlDir/{/.}-meta.tsv'`;
+    }
+    if ($procAll or $procVert) {
+	print STDERR "INFO: *Making vert\n";
+	`rm -fr $outVertDir; mkdir $outVertDir`;
+	`$Verts $outAnaDir $outVertDir`;
+    }
 }
-
 #Format XML file to be a bit nicer & smaller
 sub polish {
     my $dir = shift;
