@@ -77,8 +77,8 @@ Have separate finalize for ana: change UD terms for extended relations
       <item n="{tei:xi-orig}">
 	<xsl:choose>
 	  <xsl:when test="$type = 'ana'">
-	    <xsl:value-of select="document(tei:url-orig)/tei:TEI/tei:text/
-				  count(.//tei:w[not(parent::tei:w)])"/>
+	    <xsl:value-of select="document(tei:url-orig)/
+				  count(//tei:w[not(parent::tei:w)])"/>
 	    </xsl:when>
 	  <xsl:when test="doc-available(tei:url-ana)">
 	    <xsl:value-of select="document(tei:url-ana)/tei:TEI/tei:teiHeader//

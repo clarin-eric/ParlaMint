@@ -30,64 +30,80 @@ $schemaDir = File::Spec->rel2abs(shift);
 $inDir = File::Spec->rel2abs(shift);
 $outDir = File::Spec->rel2abs(shift);
 
-$Saxon = "java -jar /usr/share/java/saxon.jar";
-$Final = "$Bin/parlamint2final.xsl";
-$Polish = "$Bin/polish.pl";
-$Sample = "$Bin/corpus2sample.xsl";
-$Valid = "$Bin/validate-parlamint.pl";
+$Paralel = "parallel --gnu --halt 2 --jobs 15";
+$Saxon   = "java -jar /usr/share/java/saxon.jar";
+$Final   = "$Bin/parlamint2final.xsl";
+$Polish  = "$Bin/polish.pl";
+$Valid   = "$Bin/validate-parlamint.pl";
+$Sample  = "$Bin/corpus2sample.xsl";
+$Metas   = "$Bin/parlamint2meta.xsl";
+$Texts   = "$Bin/parlamint-tei2text.xsl";
+$Verts   = "$Bin/parlamintp-tei2vert.pl";
+$Conls   = "$Bin/parlamintp2conllu.pl";
 
-$teiDir  = "ParlaMint-XX.TEI";
-$teiRoot = "$teiDir/ParlaMint-XX.xml";
-$anaDir  = "ParlaMint-XX.TEI.ana";
-$anaRoot = "$anaDir/ParlaMint-XX.ana.xml";
-
-$outTeiDir  = "$outDir/$teiDir";
-$outTeiRoot = "$outDir/$teiRoot";
-$outAnaDir  = "$outDir/$anaDir";
-$outAnaRoot = "$outDir/$anaRoot";
-$outSampleDir  = "$outDir/ParlaMint-XX-Sample";
+$XX_template = "ParlaMint-XX";
 
 foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     print STDERR "INFO: ***Converting $countryCode\n";
+    
+    $XX = $XX_template;
+    $XX =~ s|XX|$countryCode|g;
+    
+    $teiDir  = "$XX.TEI";
+    $teiRoot = "$teiDir/$XX.xml";
+    $anaDir  = "$XX.TEI.ana";
+    $anaRoot = "$anaDir/$XX.ana.xml";
+
+    $inTeiRoot = "$inDir/$teiRoot";
+    $inAnaRoot = "$inDir/$anaRoot";
+
+    $outTeiDir  = "$outDir/$teiDir";
+    $outTeiRoot = "$outDir/$teiRoot";
+    $outAnaDir  = "$outDir/$anaDir";
+    $outAnaRoot = "$outDir/$anaRoot";
+    $outSmpDir  = "$outDir/$XX-Sample";
+    $outMetaDir = "$outDir/$XX-Meta";
+    $outTxtDir  = "$outDir/$XX.txt";
+    $outVertDir = "$outDir/$XX.vert";
+    $outConlDir = "$outDir/$XX.conllu";
+    
     print STDERR "INFO: *Finalizing TEI.ana\n";
-    $CanaRoot = "$inDir/$anaRoot";
-    $CanaRoot =~ s|XX|$countryCode|g;
-    $CanaDir = $anaDir;
-    $CanaDir =~ s|XX|$countryCode|g;
-    $CoutAnaDir = $outAnaDir;
-    $CoutAnaDir =~ s|XX|$countryCode|g;
-    `rm -fr $CoutAnaDir`;
-    $command = "$Saxon outDir=$outDir -xsl:$Final $CanaRoot";
-    `$command`;
-    &polish($CoutAnaDir);
-    $command = "$Valid $schemaDir $CoutAnaDir";
-    `$command`;
+    `rm -fr $outAnaDir`;
+    `$Saxon outDir=$outDir -xsl:$Final $inAnaRoot`;
+    &polish($outAnaDir);
+    `$Valid $schemaDir $outAnaDir`;
     
     print STDERR "INFO: *Finalizing TEI\n";
-    $CteiRoot = "$inDir/$teiRoot";
-    $CteiRoot =~ s|XX|$countryCode|g;
-    $CoutTeiDir = $outTeiDir;
-    $CoutTeiDir =~ s|XX|$countryCode|g;
-    `rm -fr $CoutTeiDir`;
-    $command = "$Saxon anaDir=$CoutAnaDir outDir=$outDir -xsl:$Final $CteiRoot";
-    `$command`;
-    &polish($CoutTeiDir);
-    $command = "$Valid $schemaDir $CoutTeiDir";
-    `$command`;
+    `rm -fr $outTeiDir`;
+    `$Saxon anaDir=$outAnaDir outDir=$outDir -xsl:$Final $inTeiRoot`;
+    &polish($outTeiDir);
+    `$Valid $schemaDir $outTeiDir`;
 
     print STDERR "INFO: *Making samples\n";
-    $CoutSampleDir = $outSampleDir;
-    $CoutSampleDir =~ s|XX|$countryCode|g;
-    $command = "$Saxon outDir=$CoutSampleDir -xsl:$Sample $outTeiRoot";
-    `$command`;
-    $command = "$Saxon outDir=$CoutSampleDir -xsl:$Sample $outAnaRoot";
-    `$command`;
-    $command = "$Valid $schemaDir $CoutSampleDir";
-    `$command`;
+    `rm -fr $Sample`;
+    `$Saxon outDir=$outSmpDir -xsl:$Sample $outTeiRoot`;
+    `$Saxon outDir=$outSmpDir -xsl:$Sample $outAnaRoot`;
+    `$Valid $schemaDir $outSmpDir`;
     
+    print STDERR "INFO: *Making txt\n";
+    `rm -fr $outTxtDir; mkdir $outTxtDir`;
+    `ls -R $outTeiDir | grep '_' | $Paralel '$Saxon -xsl:$Texts {} > $outTxtDir/{/.}.txt'`;
+    `cp $outMetaDir/* $outTxtDir`;
+    $files = "ls -R $outTeiDir | grep '_'";
+    `$files | $Paralel '$Saxon hdr=$outTeiRoot -xsl:$Metas {} > $outTxtDir/{/.}-meta.tsv`;
+    
+    print STDERR "INFO: *Making CoNLL-U\n";
+    `rm -fr $outConlDir; mkdir $outConlDir`;
+    `$Conls $outAnaDir $outConlDir`;
+    $files = "ls -R $outAnaDir | grep '_'";
+    `$files | $Paralel '$Saxon hdr=$outTeiRoot -xsl:$Metas {} > $outConlDir/{/.}-meta.tsv`;
+    
+    print STDERR "INFO: *Making vert\n";
+    `rm -fr $outVertDir; mkdir $outVertDir`;
+    `$Verts $outAnaDir $outVertDir`;
 }
 
-#Make XML file a bit smaller
+#Format XML file to be a bit nicer & smaller
 sub polish {
     my $dir = shift;
     foreach my $file (glob("$dir/*.xml $dir/*/*.xml")) {
