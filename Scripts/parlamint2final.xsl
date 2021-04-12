@@ -7,7 +7,6 @@
      - get rid of spurious spaces
      - do extents and tagcounts, warn if changed
      - insert word extents from ana
-     - do opposition relations if coalitions exists
 
 Have separate finalize for ana: change UD terms for extended relations
 -->
@@ -311,7 +310,8 @@ Have separate finalize for ana: change UD terms for extended relations
   </xsl:template>
     
   <!-- Insert the opposition parties -->
-  <xsl:template match="tei:relation[@name='coalition']">
+  <!-- Actually, this might be a bad idea, comment out -->
+  <!--xsl:template match="tei:relation[@name='coalition']">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
     </xsl:copy>
@@ -369,7 +369,7 @@ Have separate finalize for ana: change UD terms for extended relations
       </xsl:if>
       <xsl:attribute name="ana" select="@ana"/>
     </relation>
-  </xsl:template>
+  </xsl:template-->
     
   <!-- Fix too long or too short dates a la "2013-10-26T14:00:00" or "2018-02" -->
   <xsl:function name="et:fix-date">
