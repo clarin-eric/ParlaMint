@@ -10,29 +10,32 @@ binmode(STDIN, ':utf8');
 binmode(STDOUT, ':utf8');
 binmode(STDERR, ':utf8');
 
-sub usage
-{
+sub usage {
     print STDERR ("Usage:\n");
     print STDERR ("finalize-parlamint.pl -help\n");
-    print STDERR ("finalize-parlamint.pl -codes '<Codes>' -schema [<Schema>] -in <Input> -out <Output>\n");
+    print STDERR ("finalize-parlamint.pl [<procFlags>] -codes '<Codes>' -schema [<Schema>] -in <Input> -out <Output>\n");
     print STDERR ("    Finalizes ParlaMint corpora and produces derived encodings.\n");
     print STDERR ("    <Codes> is the list of country codes of the corpora to be processed.\n");
     print STDERR ("    <Input> is the directory where ParlaMint.TEI-XX/ and ParlaMint.TEI.ana-XX/ are.\n");
     print STDERR ("    <Output> is the directory where output directories are written.\n");
-    print STDERR ("    The script does the following:\n");
-    print STDERR ("    * finalizes the TEI.ana directory\n");
-    print STDERR ("    * finalizes the TEI directory\n");
-    print STDERR ("    * prodces samples\n");
-    print STDERR ("    * validates TEI, TEI.ana and samples\n");
-    print STDERR ("    * produces plain text files with metadata files\n");
-    print STDERR ("    * produces conllu files with metadata files\n");
-    print STDERR ("    * produces vertical files.\n");
+    print STDERR ("    <procFlags> are process flags that set which operations are carried out:\n");
+    print STDERR ("    * -ana: finalizes the TEI.ana directory\n");
+    print STDERR ("    * -tei: finalizes the TEI directory (needs TEI.ana output)\n");
+    print STDERR ("    * -sample: prodeced samples (from TEI.ana and TEI output)\n");
+    print STDERR ("    * -valid: validates TEI, TEI.ana and samples\n");
+    print STDERR ("    * -txt: produces plain text files with metadata files (from TEI output)\n");
+    print STDERR ("    * -conll: produces conllu files with metadata files (from TEI.ana output)\n");
+    print STDERR ("    * -vert: produces vertical files (from TEI.ana output)\n");
+    print STDERR ("    * -all: do all of the above.\n");
+    print STDERR ("    The flags can be also negated, e.g. \"-all -novalid\".\n");
 }
+
 use Getopt::Long;
 use FindBin qw($Bin);
 use File::Spec;
+use File::Copy;
 
-my $procAll    = 1;
+my $procAll    = 0;
 my $procAna    = 2;
 my $procTei    = 2;
 my $procSample = 2;
@@ -48,7 +51,7 @@ GetOptions
      'schema=s' => \$schemaDir,
      'in=s'     => \$inDir,
      'out=s'    => \$outDir,
-     'all!'     => \$procAll,
+     'all'      => \$procAll,
      'ana!'     => \$procAna,
      'tei!'     => \$procTei,
      'sample!'  => \$procSample,
@@ -104,52 +107,61 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     $outVertDir = "$outDir/$XX.vert";
     $outConlDir = "$outDir/$XX.conllu";
 
-    if ($procAll and $procAna) {
+    if (($procAll and $procAna) or (!$procAll and $procAna == 1)) {
 	print STDERR "INFO: *Finalizing $countryCode TEI.ana\n";
 	`rm -fr $outAnaDir`;
+	die "Can't find $inAnaRoot\n" unless -e $inAnaRoot; 
 	`$Saxon outDir=$outDir -xsl:$Final $inAnaRoot`;
     }
-    if ($procAll and $procTei) {
+    if (($procAll and $procTei) or (!$procAll and $procTei == 1)) {
 	print STDERR "INFO: *Finalizing $countryCode TEI\n";
+	die "Can't find $inTeiRoot\n" unless -e $inTeiRoot; 
 	`rm -fr $outTeiDir`;
 	`$Saxon anaDir=$outAnaDir outDir=$outDir -xsl:$Final $inTeiRoot`;
     }
-    if ($procAll and $procSample) {
+    if (($procAll and $procSample) or (!$procAll and $procSample == 1)) {
 	print STDERR "INFO: *Making $countryCode samples\n";
+	die "Can't find $outTeiRoot\n" unless -e $outTeiRoot; 
 	`rm -fr $outSmpDir`;
 	`$Saxon outDir=$outSmpDir -xsl:$Sample $outTeiRoot`;
 	`$Saxon outDir=$outSmpDir -xsl:$Sample $outAnaRoot`;
     }
-    if ($procAll and $procAna) {
+    if (($procAll and $procAna) or (!$procAll and $procAna == 1)) {
     	&polish($outAnaDir);
     }
-    if ($procAll and $procTei) {
+    if (($procAll and $procTei) or (!$procAll and $procTei == 1)) {
 	&polish($outTeiDir);
     }
-    if ($procAll and $procValid) {
+    if (($procAll and $procValid) or (!$procAll and $procValid == 1)) {
 	print STDERR "INFO: *Validating $countryCode TEI\n";
 	`$Valid $schemaDir $outSmpDir`;
 	`$Valid $schemaDir $outTeiDir`;
 	`$Valid $schemaDir $outAnaDir`;
     }
-    if ($procAll and $procTxt) {
+    if (($procAll and $procTxt) or (!$procAll and $procTxt == 1)) {
 	print STDERR "INFO: *Making $countryCode text\n";
+	die "Can't find $outTeiDir\n" unless -e $outTeiDir; 
 	`rm -fr $outTxtDir; mkdir $outTxtDir`;
 	`ls -dR $outTeiDir | grep '_' | $Paralel '$Saxon -xsl:$Texts {} > $outTxtDir/{/.}.txt'`;
 	$files = "ls -dR $outTeiDir | grep '_'";
 	`$files | $Paralel '$Saxon hdr=$outTeiRoot -xsl:$Metas {} > $outTxtDir/{/.}-meta.tsv'`;
+	&dirify($outTxtDir);
     }
-    if ($procAll and $procConll) {
+    if (($procAll and $procConll) or (!$procAll and $procConll == 1)) {
 	print STDERR "INFO: *Making $countryCode CoNLL-U\n";
+	die "Can't find $outAnaDir\n" unless -e $outAnaDir; 
 	`rm -fr $outConlDir; mkdir $outConlDir`;
 	`$Conls $outAnaDir $outConlDir`;
 	$files = "ls -dR $outAnaDir | grep '_'";
 	`$files | $Paralel '$Saxon hdr=$outTeiRoot -xsl:$Metas {} > $outConlDir/{/.}-meta.tsv'`;
+	&dirify($outConlDir);
     }
-    if ($procAll and $procVert) {
+    if (($procAll and $procVert) or (!$procAll and $procVert == 1)) {
 	print STDERR "INFO: *Making $countryCode vert\n";
+	die "Can't find $outAnaDir\n" unless -e $outAnaDir; 
 	`rm -fr $outVertDir; mkdir $outVertDir`;
 	`$Verts $outAnaDir $outVertDir`;
+	&dirify($outVertDir);
     }
 }
 #Format XML file to be a bit nicer & smaller
@@ -159,5 +171,20 @@ sub polish {
 	$command = "$Polish < $file > $file.tmp";
 	`$command`;
 	rename("$file.tmp", $file); 
+    }
+}
+#If a directory has more than $MAX files, store them in year directories
+sub dirify {
+    my $MAX = 1023;
+    my $inDir = shift;
+    my @files = glob("$inDir/*");
+    if (scalar @files > $MAX) {
+	foreach my $file (@files) {
+	    if (my ($year) = $file =~ m|ParlaMint-.+?_(\d\d\d\d)|) {
+		my $newDir = "$inDir/$year";
+		mkdir($newDir) unless -d $newDir;
+		move($file, $newDir);
+	    }
+	}
     }
 }
