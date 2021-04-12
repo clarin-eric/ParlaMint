@@ -142,9 +142,9 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	print STDERR "INFO: *Making $countryCode text\n";
 	die "Can't find $outTeiDir\n" unless -e $outTeiDir; 
 	`rm -fr $outTxtDir; mkdir $outTxtDir`;
-	`ls -dR $outTeiDir | grep '_' | $Paralel '$Saxon -xsl:$Texts {} > $outTxtDir/{/.}.txt'`;
-	$files = "ls -dR $outTeiDir | grep '_'";
-	`$files | $Paralel '$Saxon hdr=$outTeiRoot -xsl:$Metas {} > $outTxtDir/{/.}-meta.tsv'`;
+	`ls -R $outTeiDir | grep '_' | $Paralel '$Saxon -xsl:$Texts $outTeiDir/{} > $outTxtDir/{/.}.txt'`;
+	$files = "ls -R $outTeiDir | grep '_'";
+	`$files | $Paralel '$Saxon hdr=$outTeiRoot -xsl:$Metas $outTeiDir/{} > $outTxtDir/{/.}-meta.tsv'`;
 	&dirify($outTxtDir);
     }
     if (($procAll and $procConll) or (!$procAll and $procConll == 1)) {
@@ -152,8 +152,10 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	die "Can't find $outAnaDir\n" unless -e $outAnaDir; 
 	`rm -fr $outConlDir; mkdir $outConlDir`;
 	`$Conls $outAnaDir $outConlDir`;
-	$files = "ls -dR $outAnaDir | grep '_'";
-	`$files | $Paralel '$Saxon hdr=$outTeiRoot -xsl:$Metas {} > $outConlDir/{/.}-meta.tsv'`;
+	# Meta already produced by Conls!
+	# my $command = "$Saxon hdr=$outTeiRoot -xsl:$Metas $outAnaDir/{} > $outConlDir/{/.}-meta.tsv";
+	# `ls -R $outAnaDir | grep '_' | $Paralel '$command'`;
+	#`rename 's/\.ana//' $outConlDir/*.ana-meta.tsv`;
 	&dirify($outConlDir);
     }
     if (($procAll and $procVert) or (!$procAll and $procVert == 1)) {
