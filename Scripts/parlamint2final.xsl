@@ -7,8 +7,7 @@
      - get rid of spurious spaces
      - do extents and tagcounts, warn if changed
      - insert word extents from ana
-
-Have separate finalize for ana: change UD terms for extended relations
+     - fix UD terms for extended relations (in .ana) 
 -->
 <xsl:stylesheet 
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"

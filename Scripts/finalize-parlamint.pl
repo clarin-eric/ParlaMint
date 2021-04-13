@@ -70,9 +70,12 @@ $schemaDir = File::Spec->rel2abs($schemaDir);
 $inDir = File::Spec->rel2abs($inDir);
 $outDir = File::Spec->rel2abs($outDir);
 
-#Scripts
+#Execution
 $Paralel = "parallel --gnu --halt 2 --jobs 15";
 $Saxon   = "java -jar /usr/share/java/saxon.jar";
+# Problem with Out of heap space with TR, NL, GB for ana
+$SaxonX  = "java -Xmx90g -jar /usr/share/java/saxon.jar";
+
 $Final   = "$Bin/parlamint2final.xsl";
 $Polish  = "$Bin/polish.pl";
 $Valid   = "$Bin/validate-parlamint.pl";
@@ -111,7 +114,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	print STDERR "INFO: *Finalizing $countryCode TEI.ana\n";
 	`rm -fr $outAnaDir`;
 	die "Can't find $inAnaRoot\n" unless -e $inAnaRoot; 
-	`$Saxon outDir=$outDir -xsl:$Final $inAnaRoot`;
+	`$SaxonX outDir=$outDir -xsl:$Final $inAnaRoot`;
     }
     if (($procAll and $procTei) or (!$procAll and $procTei == 1)) {
 	print STDERR "INFO: *Finalizing $countryCode TEI\n";
