@@ -178,6 +178,7 @@
       <xsl:attribute name="speaker_type">?</xsl:attribute>
       <xsl:attribute name="speaker_party">?</xsl:attribute>
       <xsl:attribute name="speaker_party_name">?</xsl:attribute>
+      <xsl:attribute name="coalition_party">?</xsl:attribute>
       <xsl:attribute name="speaker_gender">?</xsl:attribute>
       <xsl:attribute name="speaker_birth">?</xsl:attribute>
       <xsl:text>&#10;</xsl:text>
@@ -197,6 +198,7 @@
 	  <xsl:attribute name="speaker_type" select="et:speaker-type($speaker)"/>
 	  <xsl:attribute name="speaker_party" select="et:speaker-party($speaker, 'init')"/>
 	  <xsl:attribute name="speaker_party_name" select="et:speaker-party($speaker, 'yes')"/>
+	  <xsl:attribute name="coalition_party" select="et:party-coalition($speaker)"/>
 	  <xsl:attribute name="speaker_gender">
 	    <xsl:choose>
 	      <xsl:when test="$speaker/tei:sex">
@@ -538,6 +540,61 @@ And, there is, in theory, also:
       </xsl:when>
       <xsl:otherwise>
 	<xsl:value-of select="$guest-label"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:function>
+  
+  <!-- Output yes/no/? if the speaker's party is in the coalition when speaking -->
+  <xsl:function name="et:party-coalition" as="xs:string">
+    <xsl:param name="speaker" as="element(tei:person)"/>
+    <!-- Collect all affiliation references where the speaker is a member and are in 
+	 the correct time-frame for the speech -->
+    <xsl:variable name="org-refs" select="et:speaker-affiliations-refs($speaker)"/>
+    <!-- All coalitions -->
+    <xsl:variable name="coalitions" select="$teiHeader//tei:relation[@name='coalition']"/>
+    <!--xsl:message terminate="yes" select="concat('AH: ', $coalitions/@mutual)"/-->
+    <xsl:choose>
+      <!-- Corpus does not have coalition info -->
+      <xsl:when test="not($coalitions/self::tei:relation)">?</xsl:when>
+      <xsl:otherwise>
+	<!-- Coalition in the correct time-frame, should be only 1 -->
+	<xsl:variable name="coalition">
+	  <xsl:for-each select="$coalitions/self::tei:relation">
+	    <xsl:choose>
+	      <xsl:when test="@from and @to">
+		<xsl:if test="et:between-dates($date-from, @from, @to) and
+			      et:between-dates($date-to, @from, @to)">
+		  <xsl:value-of select="@mutual"/>
+		</xsl:if>
+	      </xsl:when>
+	      <xsl:when test="@from">
+		<xsl:if test="et:between-dates($date-from, @from, $today-iso) and
+			      et:between-dates($date-to, @from, $today-iso)">
+		  <xsl:value-of select="@mutual"/>
+		</xsl:if>
+	      </xsl:when>
+	      <xsl:otherwise>
+		<xsl:value-of select="@mutual"/>
+	      </xsl:otherwise>
+	    </xsl:choose>
+	    <xsl:text>&#32;</xsl:text>
+	  </xsl:for-each>
+	</xsl:variable>
+	<!-- Is the organisation that the speaker is affiliated with in the coallition(s)? -->
+	<!-- We don't check the type of organisation of the speaker's role in it, as we 
+	     assume that this is "ok" -->
+	<xsl:variable name="in-coalition">
+	  <xsl:for-each select="tokenize(normalize-space($coalition), ' ')">
+	    <xsl:variable name="coalition-party" select="."/>
+	    <xsl:for-each select="tokenize($org-refs, ' ')">
+	      <xsl:if test="$coalition-party = .">true</xsl:if>
+	    </xsl:for-each>
+	  </xsl:for-each>
+	</xsl:variable>
+	<xsl:choose>
+	  <xsl:when test="normalize-space($in-coalition)">yes</xsl:when>
+	  <xsl:otherwise>no</xsl:otherwise>
+	</xsl:choose>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:function>
