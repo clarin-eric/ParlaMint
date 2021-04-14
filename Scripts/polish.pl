@@ -2,8 +2,11 @@
 # Finalise ParlaMint file
 use warnings;
 use utf8;
+use Unicode::Normalize;
 undef $/;
-$txt = <>;
+$txt = NFC(<>);
+$txt =~ s| | |g;
+$txt =~ s|­||g;
 $txt =~ s|([^>])[ \t]*\n\s*|$1 |g; #join lines
 $txt =~ s|(<p [^>]*>)\s+|$1|g;
 $txt =~ s|(<p>)\s+|$1|g;
