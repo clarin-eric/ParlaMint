@@ -17,9 +17,6 @@ $Saxon = 'java -jar /usr/share/java/saxon.jar';
 $TEI2VERT  = "$Bin/parlamint2xmlvert.xsl";
 $POLISH = "$Bin/parlamint-xml2vert.pl";
 
-
-binmode(STDERR,'utf8');
-
 die "Can't find root TEI file with teiHeader: $rootFile\n"
     unless -e $rootFile;
 
