@@ -77,7 +77,7 @@ $inDir = File::Spec->rel2abs($inDir);
 $outDir = File::Spec->rel2abs($outDir);
 
 #Execution
-$Paralel = "parallel --gnu --halt 2 --jobs 15";
+#$Parallel = "parallel --gnu --halt 2 --jobs 15";
 $Saxon   = "java -jar /usr/share/java/saxon.jar";
 # Problem with Out of heap space with TR, NL, GB for ana
 $SaxonX  = "java -Xmx120g -jar /usr/share/java/saxon.jar";
@@ -86,8 +86,7 @@ $Final   = "$Bin/parlamint2final.xsl";
 $Polish  = "$Bin/polish.pl";
 $Valid   = "$Bin/validate-parlamint.pl";
 $Sample  = "$Bin/corpus2sample.xsl";
-$Metas   = "$Bin/parlamint2meta.xsl";
-$Texts   = "$Bin/parlamint-tei2text.xsl";
+$Texts   = "$Bin/parlamintp-tei2text.pl";
 $Verts   = "$Bin/parlamintp-tei2vert.pl";
 $Conls   = "$Bin/parlamintp2conllu.pl";
 
@@ -113,9 +112,10 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     $outAnaRoot = "$outDir/$anaRoot";
     $outSmpDir  = "$outDir/Sample-$XX";
     $outTxtDir  = "$outDir/$XX.txt";
-    $outVertDir = "$outDir/$XX.vert";
     $outConlDir = "$outDir/$XX.conllu";
-
+    $outVertDir = "$outDir/$XX.vert";
+    $vertRegi   = lc "parlamint20_$countryCode.regi";
+	
     if (($procAll and $procAna) or (!$procAll and $procAna == 1)) {
 	print STDERR "INFO: *Finalizing $countryCode TEI.ana\n";
 	die "Can't find $inAnaRoot\n" unless -e $inAnaRoot;
@@ -169,10 +169,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	die "Can't find $outTeiDir\n" unless -e $outTeiDir; 
 	`rm -fr $outTxtDir; mkdir $outTxtDir`;
 	&cp_readme($countryCode, "$docsDir/README.txt.txt", "$outTxtDir/00README.txt");
-	#Get input TEI files with absolute paths
-	my $inFiles = join("\n", glob("$outTeiDir/*_*.xml $outTeiDir/*/*_*.xml"));
-	`echo '$inFiles' | $Paralel '$Saxon -xsl:$Texts {} > $outTxtDir/{/.}.txt'`;
-	`echo '$inFiles' | $Paralel '$Saxon hdr=$outTeiRoot -xsl:$Metas {} > $outTxtDir/{/.}-meta.tsv'`;
+	`$Texts $outTeiDir $outTxtDir`;
 	&dirify($outTxtDir);
     }
     if (($procAll and $procConll) or (!$procAll and $procConll == 1)) {
@@ -181,10 +178,6 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	`rm -fr $outConlDir; mkdir $outConlDir`;
 	&cp_readme($countryCode, "$docsDir/README.conll.txt", "$outConlDir/00README.txt");
 	`$Conls $outAnaDir $outConlDir`;
-	# Meta already produced by Conls!
-	# my $command = "$Saxon hdr=$outTeiRoot -xsl:$Metas $outAnaDir/{} > $outConlDir/{/.}-meta.tsv";
-	# `ls -R $outAnaDir | grep '_' | $Paralel '$command'`;
-	#`rename 's/\.ana//' $outConlDir/*.ana-meta.tsv`;
 	&dirify($outConlDir);
     }
     if (($procAll and $procVert) or (!$procAll and $procVert == 1)) {
@@ -192,6 +185,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	die "Can't find $outAnaDir\n" unless -e $outAnaDir; 
 	`rm -fr $outVertDir; mkdir $outVertDir`;
 	&cp_readme($countryCode, "$docsDir/README.vert.txt", "$outVertDir/00README.txt");
+	`cp "$docsDir/$vertRegi" $outVertDir`;
 	`$Verts $outAnaDir $outVertDir`;
 	&dirify($outVertDir);
     }
