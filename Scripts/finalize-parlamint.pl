@@ -12,8 +12,9 @@ binmode(STDERR, ':utf8');
 
 sub usage {
     print STDERR ("Usage:\n");
-    print STDERR ("finalize-parlamint.pl -help\n");
-    print STDERR ("finalize-parlamint.pl [<procFlags>] -codes '<Codes>' -schema [<Schema>] -docs [<Docs>] -in <Input> -out <Output>\n");
+    print STDERR ("$0 -help\n");
+    print STDERR ("$0 [<procFlags>] -codes '<Codes>' -schema [<Schema>] -docs [<Docs>]");
+    print STDERR (" -in <Input> -out <Output>\n");
     print STDERR ("    Finalizes ParlaMint corpora and produces derived encodings.\n");
     print STDERR ("    <Codes> is the list of country codes of the corpora to be processed.\n");
     print STDERR ("    <Schema> is the directory where ParlaMint RNG schemas are.\n");
@@ -36,6 +37,7 @@ use Getopt::Long;
 use FindBin qw($Bin);
 use File::Spec;
 use File::Copy;
+use File::Copy::Recursive qw(dircopy);
 
 my $procAll    = 0;
 my $procAna    = 2;
@@ -78,7 +80,7 @@ $outDir = File::Spec->rel2abs($outDir);
 $Paralel = "parallel --gnu --halt 2 --jobs 15";
 $Saxon   = "java -jar /usr/share/java/saxon.jar";
 # Problem with Out of heap space with TR, NL, GB for ana
-$SaxonX  = "java -Xmx90g -jar /usr/share/java/saxon.jar";
+$SaxonX  = "java -Xmx120g -jar /usr/share/java/saxon.jar";
 
 $Final   = "$Bin/parlamint2final.xsl";
 $Polish  = "$Bin/polish.pl";
@@ -119,6 +121,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	die "Can't find $inAnaRoot\n" unless -e $inAnaRoot;
 	`rm -fr $outAnaDir; mkdir $outAnaDir`;
 	&cp_readme($countryCode, "$docsDir/README.TEI.ana.txt", "$outAnaDir/00README.txt");
+	dircopy($schemaDir, "$outAnaDir/Schema");
 	`$SaxonX outDir=$outDir -xsl:$Final $inAnaRoot`;
     }
     if (($procAll and $procTei) or (!$procAll and $procTei == 1)) {
@@ -126,7 +129,8 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	die "Can't find $inTeiRoot\n" unless -e $inTeiRoot; 
 	`rm -fr $outTeiDir; mkdir $outTeiDir`;
 	&cp_readme($countryCode, "$docsDir/README.TEI.txt", "$outTeiDir/00README.txt");
-	`$Saxon anaDir=$outAnaDir outDir=$outDir -xsl:$Final $inTeiRoot`;
+	dircopy($schemaDir, "$outTeiDir//Schema");
+	`$SaxonX anaDir=$outAnaDir outDir=$outDir -xsl:$Final $inTeiRoot`;
     }
     if (($procAll and $procSample) or (!$procAll and $procSample == 1)) {
 	print STDERR "INFO: *Making $countryCode samples\n";
@@ -134,6 +138,18 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	`rm -fr $outSmpDir`;
 	`$Saxon outDir=$outSmpDir -xsl:$Sample $outTeiRoot`;
 	`$Saxon outDir=$outSmpDir -xsl:$Sample $outAnaRoot`;
+	my $inFiles = join("\n", );
+	#Make also derived files
+	foreach my $inFile (glob("$outSmpDir/$XX\_*.xml")) {
+	    if ($inFile =~ /\.ana/) {
+		`$Conls $outSmpDir $outSmpDir`;
+		`$Verts $outSmpDir $outSmpDir`;
+	    }
+	    else {
+		my ($outFile) = $inFile =~ /(.+)\.xml/;
+		`$Saxon -xsl:$Texts $inFile > $outFile.txt`;
+	    }
+	}
     }
     if (($procAll and $procAna) or (!$procAll and $procAna == 1)) {
     	&polish($outAnaDir);
@@ -153,9 +169,10 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	die "Can't find $outTeiDir\n" unless -e $outTeiDir; 
 	`rm -fr $outTxtDir; mkdir $outTxtDir`;
 	&cp_readme($countryCode, "$docsDir/README.txt.txt", "$outTxtDir/00README.txt");
-	`ls -R $outTeiDir | grep '_' | $Paralel '$Saxon -xsl:$Texts $outTeiDir/{} > $outTxtDir/{/.}.txt'`;
-	$files = "ls -R $outTeiDir | grep '_'";
-	`$files | $Paralel '$Saxon hdr=$outTeiRoot -xsl:$Metas $outTeiDir/{} > $outTxtDir/{/.}-meta.tsv'`;
+	#Get input TEI files with absolute paths
+	my $inFiles = join("\n", glob("$outTeiDir/*_*.xml $outTeiDir/*/*_*.xml"));
+	`echo '$inFiles' | $Paralel '$Saxon -xsl:$Texts {} > $outTxtDir/{/.}.txt'`;
+	`echo '$inFiles' | $Paralel '$Saxon hdr=$outTeiRoot -xsl:$Metas {} > $outTxtDir/{/.}-meta.tsv'`;
 	&dirify($outTxtDir);
     }
     if (($procAll and $procConll) or (!$procAll and $procConll == 1)) {
