@@ -22,7 +22,7 @@ The *[Schema](Schema/) folder* contains the schemas for validating the
 four types of files present in the corpora. The README in this
 directory provides more information.
 
-The *[Scripts](Scripts/)* folder contains the XSLT scripts (and their Perl wrappers) used to:
+The *[Scripts](Scripts/) folder* contains the XSLT scripts (and their Perl wrappers) used to:
 
 * convert the first generation ParlaMint corpora to the present one;
 
