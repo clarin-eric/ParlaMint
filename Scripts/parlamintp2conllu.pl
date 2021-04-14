@@ -16,9 +16,8 @@ sub usage
 {
     print STDERR ("Usage: parlamint2conllu.pl <InputDirectory> <OutputDirectory>\n");
     print STDERR ("       Converts ParlaMint .ana files in the <InputDirectory> to\n");
-    print STDERR ("       .conllu files in the <OutputDirectory>\n");
+    print STDERR ("       .conllu and -meta.tsv files in the <OutputDirectory>\n");
     print STDERR ("       Also validates the .conllu agains UD validations script\n");
-    print STDERR ("       Note that the processing is specific to the current set of ParlaMint corpora.\n");
 }
 use FindBin qw($Bin);
 use File::Spec;
@@ -65,10 +64,6 @@ foreach $inFile (glob($corpusFiles)) {
 }
 my ($country) = $rootAnaFile =~ /ParlaMint-(..)/ or die;
 my ($langs) = $country2lang{$country};
-
-`mkdir $outDir` unless -e "$outDir";
-`rm -f $outDir/*.conllu`;
-`rm -f $outDir/*-meta.tsv`;
 
 #Store all files to be processed in $fileFile
 $fileFile = "$DIR/files.lst";
