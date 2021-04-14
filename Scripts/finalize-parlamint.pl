@@ -13,9 +13,11 @@ binmode(STDERR, ':utf8');
 sub usage {
     print STDERR ("Usage:\n");
     print STDERR ("finalize-parlamint.pl -help\n");
-    print STDERR ("finalize-parlamint.pl [<procFlags>] -codes '<Codes>' -schema [<Schema>] -in <Input> -out <Output>\n");
+    print STDERR ("finalize-parlamint.pl [<procFlags>] -codes '<Codes>' -schema [<Schema>] -docs [<Docs>] -in <Input> -out <Output>\n");
     print STDERR ("    Finalizes ParlaMint corpora and produces derived encodings.\n");
     print STDERR ("    <Codes> is the list of country codes of the corpora to be processed.\n");
+    print STDERR ("    <Schema> is the directory where ParlaMint RNG schemas are.\n");
+    print STDERR ("    <Docs> is the directory where ParlaMint README files are.\n");
     print STDERR ("    <Input> is the directory where ParlaMint.TEI-XX/ and ParlaMint.TEI.ana-XX/ are.\n");
     print STDERR ("    <Output> is the directory where output directories are written.\n");
     print STDERR ("    <procFlags> are process flags that set which operations are carried out:\n");
@@ -48,7 +50,8 @@ GetOptions
     (
      'help'     => \$help,
      'codes=s'  => \$countryCodes,
-     'schema=s' => \$schemaDir,
+     'schema:s' => \$schemaDir,
+     'docs:s'   => \$docsDir,
      'in=s'     => \$inDir,
      'out=s'    => \$outDir,
      'all'      => \$procAll,
@@ -67,6 +70,7 @@ if ($help) {
 }
 
 $schemaDir = File::Spec->rel2abs($schemaDir);
+$docsDir = File::Spec->rel2abs($docsDir);
 $inDir = File::Spec->rel2abs($inDir);
 $outDir = File::Spec->rel2abs($outDir);
 
@@ -112,14 +116,16 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 
     if (($procAll and $procAna) or (!$procAll and $procAna == 1)) {
 	print STDERR "INFO: *Finalizing $countryCode TEI.ana\n";
-	`rm -fr $outAnaDir`;
-	die "Can't find $inAnaRoot\n" unless -e $inAnaRoot; 
+	die "Can't find $inAnaRoot\n" unless -e $inAnaRoot;
+	`rm -fr $outAnaDir; mkdir $outAnaDir`;
+	&cp_readme($countryCode, "$docsDir/README.TEI.ana.txt", "$outAnaDir/00README.txt");
 	`$SaxonX outDir=$outDir -xsl:$Final $inAnaRoot`;
     }
     if (($procAll and $procTei) or (!$procAll and $procTei == 1)) {
 	print STDERR "INFO: *Finalizing $countryCode TEI\n";
 	die "Can't find $inTeiRoot\n" unless -e $inTeiRoot; 
-	`rm -fr $outTeiDir`;
+	`rm -fr $outTeiDir; mkdir $outTeiDir`;
+	&cp_readme($countryCode, "$docsDir/README.TEI.txt", "$outTeiDir/00README.txt");
 	`$Saxon anaDir=$outAnaDir outDir=$outDir -xsl:$Final $inTeiRoot`;
     }
     if (($procAll and $procSample) or (!$procAll and $procSample == 1)) {
@@ -137,6 +143,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     }
     if (($procAll and $procValid) or (!$procAll and $procValid == 1)) {
 	print STDERR "INFO: *Validating $countryCode TEI\n";
+	die "Can't find schema directory $schemaDir\n" unless -e $schemaDir;
 	`$Valid $schemaDir $outSmpDir`;
 	`$Valid $schemaDir $outTeiDir`;
 	`$Valid $schemaDir $outAnaDir`;
@@ -145,6 +152,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	print STDERR "INFO: *Making $countryCode text\n";
 	die "Can't find $outTeiDir\n" unless -e $outTeiDir; 
 	`rm -fr $outTxtDir; mkdir $outTxtDir`;
+	&cp_readme($countryCode, "$docsDir/README.txt.txt", "$outTxtDir/00README.txt");
 	`ls -R $outTeiDir | grep '_' | $Paralel '$Saxon -xsl:$Texts $outTeiDir/{} > $outTxtDir/{/.}.txt'`;
 	$files = "ls -R $outTeiDir | grep '_'";
 	`$files | $Paralel '$Saxon hdr=$outTeiRoot -xsl:$Metas $outTeiDir/{} > $outTxtDir/{/.}-meta.tsv'`;
@@ -154,6 +162,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	print STDERR "INFO: *Making $countryCode CoNLL-U\n";
 	die "Can't find $outAnaDir\n" unless -e $outAnaDir; 
 	`rm -fr $outConlDir; mkdir $outConlDir`;
+	&cp_readme($countryCode, "$docsDir/README.conll.txt", "$outConlDir/00README.txt");
 	`$Conls $outAnaDir $outConlDir`;
 	# Meta already produced by Conls!
 	# my $command = "$Saxon hdr=$outTeiRoot -xsl:$Metas $outAnaDir/{} > $outConlDir/{/.}-meta.tsv";
@@ -165,6 +174,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	print STDERR "INFO: *Making $countryCode vert\n";
 	die "Can't find $outAnaDir\n" unless -e $outAnaDir; 
 	`rm -fr $outVertDir; mkdir $outVertDir`;
+	&cp_readme($countryCode, "$docsDir/README.vert.txt", "$outVertDir/00README.txt");
 	`$Verts $outAnaDir $outVertDir`;
 	&dirify($outVertDir);
     }
@@ -192,4 +202,19 @@ sub dirify {
 	    }
 	}
     }
+}
+
+#Read in the appropriate README and output it to appropriate directory
+sub cp_readme {
+    my $country = shift;
+    my $inFile = shift;
+    my $outFile = shift;
+    open IN, '<:utf8', $inFile or die "Can't open input README $inFile\n";
+    open OUT,'>:utf8', $outFile or die "Can't open output README $outFile\n";
+    while (<IN>) {
+	s/XX/$country/g;
+	print OUT
+    }
+    close IN;
+    close OUT;
 }
