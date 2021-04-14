@@ -1,34 +1,54 @@
 # ParlaMint: Comparable Parliamentary Corpora
 
 The [CLARIN ParlaMint
-project](https://www.clarin.eu/content/parlamint-towards-comparable-parliamentary-corpora)
-aims to create linguistically annotated comparable parliamentary
-corpora for a number of countries/languages. The corpora are to be
-encoded to a common schema, which is a specialisation of the
-[Parla-CLARIN
-recommendations](https://clarin-eric.github.io/parla-clarin/).
+project](https://www.clarin.eu/content/parlamint-towards-comparable-parliamentary-corpora) is
+compiling comparable parliamentary corpora for a number of countries/languages. 
 
-This project is meant for hosting the schema and samples of the developing ParlaMint corpora, in
-order to perform validation of the encoding, and to have a forum for reporting problems via
-GitHub issues.
+ParlaMint corpora are interoperable, i.e. encoded to very specific common schema,
+a specialisation of the [Parla-CLARIN recommendations](https://clarin-eric.github.io/parla-clarin/).
+Common scripts can process them, despite the differing parliamentary systems of the countries,
+source formats, and, of course, languages.
 
-Each country has a dedicated directory for its samples, which should ultimately contain at least
-four files:
+The [first version](http://hdl.handle.net/11356/1345) of the corpora included BG/bg, CZ/cs, HR/hr,
+PL/pl and SI/sl, while the state of the second version is documented here. The complete
+corpora should become available in the first half of 2021.
 
-* ParlaMint-XX.xml: Corpus root file for the "plain text" sample, which XIncludes its component
-  file(s)
+This Git contains the ParlaMint RelaxNG schema, samples of the ParlaMint corpora, and the XSLT (and
+nasty Perl) scripts used to validate, curate, and convert the ParlaMint/TEI/XML corpora to some
+useful derived formats, also included.
 
-* ParlaMint-XX_zzz.xml: at least one "plain text" sample corpus component file
+Each sample country directory should include:
 
-* ParlaMint-XX.ana.xml: Corpus root file for the linguistically annotated sample, which
-  XIncludes the component file(s)
+* ParlaMint-XX.xml: teiCorpus root file of the sample with (e.g. speaker and party) metadata and
+  XIncludes to its component TEI files
 
-* ParlaMint-XX_zzz.ana.xml: at least one linguistically annotated sample corpus component file
+* ParlaMint-XX_*.xml: sample TEI component, a few speeches from the full text (typicall 1 day of speeches)
 
-As examples pls. see the files for version 1 of the corpus, i.e. the BG, HR, PL, SI directories.
+* ParlaMint-XX.ana.xml: teiCorpus root file for the linguistically (UD and NER) annotated sample,
+  including annotation metadata
+
+* ParlaMint-XX_*.ana.xml: ParlaMint-XX_*.xml + UD and NER annotations
+
+* ParlaMint-XX_*.conllu: ParlaMint-XX_*.ana in UD CoNLL-U format (also includes NER annotations).
+
+* ParlaMint-XX_*-meta.tsv: Speech metadata, with type and name of speaker, 
+  political party, etc.
+
+* ParlaMint-XX_*.txt: plain text of each speech, with speech id
+
+* ParlaMint-XX_*.vert: vertical format, as used by CQP/CWB, (no)SketchEngine and KonText concordancers
 
 The [Schema](Schema/) folder contains the schemas for validating the
 four types of files present in the corpora. The README in this
 directory provides more information.
 
-The [Scripts](Scripts/) folder contains some possibly useful XSLT scripts.
+The [Scripts](Scripts/) folder contains the XSLT scripts (and their Perl wrappers) used to:
+
+* convert the first generation ParlaMint corpora to the present one
+
+* validate the corpora, in addition to schema validation also for links and metadata consistency.
+
+* prepare the full corpora for distribution
+
+* convert the TEI encoded corpora to derived formats.
+
