@@ -18,11 +18,11 @@ This Git contains the ParlaMint RelaxNG schema, samples of the ParlaMint corpora
 nasty Perl) scripts used to validate, curate, and convert the ParlaMint/TEI/XML corpora to some
 useful derived formats, also included.
 
-The [Schema](Schema/) folder contains the schemas for validating the
+The *[Schema](Schema/) folder* contains the schemas for validating the
 four types of files present in the corpora. The README in this
 directory provides more information.
 
-The [Scripts](Scripts/) folder contains the XSLT scripts (and their Perl wrappers) used to:
+The *[Scripts](Scripts/)* folder contains the XSLT scripts (and their Perl wrappers) used to:
 
 * convert the first generation ParlaMint corpora to the present one;
 
@@ -32,7 +32,7 @@ The [Scripts](Scripts/) folder contains the XSLT scripts (and their Perl wrapper
 
 * convert the TEI encoded corpora to derived formats.
 
-Each sample country directory should include:
+The *sample country directories* should include:
 
 * ParlaMint-XX.xml: teiCorpus root file of the sample with (e.g. speaker and party) metadata and
   XIncludes to its component TEI files;
