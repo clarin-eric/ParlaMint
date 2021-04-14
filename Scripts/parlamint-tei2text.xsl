@@ -10,7 +10,7 @@
   <xsl:output method="text"/>
   
   <xsl:template match="/">
-    <xsl:message select="concat('INFO: converting ', tei:TEI/@xml:id, ' to text')"/>
+    <!--xsl:message select="concat('INFO: converting ', tei:TEI/@xml:id, ' to text')"/-->
     <xsl:apply-templates select="//tei:u"/>
   </xsl:template>
   
