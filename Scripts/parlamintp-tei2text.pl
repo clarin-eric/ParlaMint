@@ -13,7 +13,7 @@ $outDir = File::Spec->rel2abs(shift);
 
 binmode(STDERR, 'utf8');
 
-$Para  = 'parallel --gnu --halt 2 --jobs 15';
+$Para  = 'parallel --gnu --halt 2 --jobs 10';
 $Saxon = 'java -jar /usr/share/java/saxon.jar';
 $Meta = "$Bin/parlamint2meta.xsl";
 $Convert = "$Bin/parlamint-tei2text.xsl";
