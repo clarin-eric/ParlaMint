@@ -3,8 +3,12 @@
 use warnings;
 use utf8;
 use Unicode::Normalize;
+#use feature 'unicode_strings';
+binmode(STDIN,'utf8');
+binmode(STDOUT,'utf8');
+binmode(STDERR,'utf8');
 undef $/;
-$txt = NFC(<>);
+$txt = NFKC(<>);
 $txt =~ s| | |g;
 $txt =~ s|­||g;
 $txt =~ s|([^>])[ \t]*\n\s*|$1 |g; #join lines
