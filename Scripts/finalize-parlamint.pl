@@ -83,7 +83,7 @@ $Saxon   = "java -jar /usr/share/java/saxon.jar";
 $SaxonX  = "java -Xmx120g -jar /usr/share/java/saxon.jar";
 
 $Final   = "$Bin/parlamint2final.xsl";
-$Polish  = "$Bin/polish.pl";
+$Polish  = "$Bin/polish-xml.pl";
 $Valid   = "$Bin/validate-parlamint.pl";
 $Sample  = "$Bin/corpus2sample.xsl";
 $Texts   = "$Bin/parlamintp-tei2text.pl";
