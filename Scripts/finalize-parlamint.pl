@@ -19,7 +19,7 @@ sub usage {
     print STDERR ("    <Codes> is the list of country codes of the corpora to be processed.\n");
     print STDERR ("    <Schema> is the directory where ParlaMint RNG schemas are.\n");
     print STDERR ("    <Docs> is the directory where ParlaMint README files are.\n");
-    print STDERR ("    <Input> is the directory where ParlaMint.TEI-XX/ and ParlaMint.TEI.ana-XX/ are.\n");
+    print STDERR ("    <Input> is the directory where ParlaMint-XX.TEI/ and ParlaMint-XX.TEI.ana/ are.\n");
     print STDERR ("    <Output> is the directory where output directories are written.\n");
     print STDERR ("    <procFlags> are process flags that set which operations are carried out:\n");
     print STDERR ("    * -ana: finalizes the TEI.ana directory\n");

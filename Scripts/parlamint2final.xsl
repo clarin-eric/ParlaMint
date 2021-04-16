@@ -171,42 +171,19 @@
     <xsl:variable name="old-words" select="@quantity"/>
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
-      <xsl:if test="normalize-space($words)">
+      <xsl:if test="normalize-space($words) and $words != '0'">
 	<xsl:attribute name="quantity" select="$words"/>
 	<xsl:if test="$old-words != $words">
 	  <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
 			       ': replacing words ', $old-words, ' with ', $words)"/>
 	</xsl:if>
-      <xsl:value-of select="replace(., '.+ ', concat(
+	<xsl:value-of select="replace(., '.+ ', concat(
 			    et:format-number(ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang, $words), 
 			    ' '))"/>
       </xsl:if>
     </xsl:copy>
   </xsl:template>  
 
-  <xsl:template match="tei:measure">
-    <xsl:copy>
-      <xsl:apply-templates select="@*"/>
-      <xsl:variable name="quant">
-	<xsl:choose>
-	  <xsl:when test="@unit='sessions'">
-	    <xsl:value-of select="count($docs/tei:item)"/>
-	  </xsl:when>
-	  <xsl:when test="@unit='speeches'">
-	    <xsl:value-of select="sum($speeches/tei:item)"/>
-	  </xsl:when>
-	  <xsl:when test="@unit='words'">
-	    <xsl:value-of select="sum($words/tei:item)"/>
-	  </xsl:when>
-	</xsl:choose>
-      </xsl:variable>
-      <xsl:attribute name="quantity" select="format-number($quant, '#')"/>
-      <xsl:value-of select="replace(., '.+ ', concat(
-			    et:format-number(ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang, $quant), 
-			    ' '))"/>
-    </xsl:copy>
-  </xsl:template>
-  
   <xsl:template mode="comp" match="tei:editionStmt/tei:edition">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
@@ -244,7 +221,8 @@
     </xsl:choose>
   </xsl:template>
   
-  <!-- ROOT -->
+  <!-- Finalizing ROOT -->
+  
   <xsl:template match="*">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
@@ -253,6 +231,29 @@
   </xsl:template>
   <xsl:template match="@*">
     <xsl:copy/>
+  </xsl:template>
+  
+  <xsl:template match="tei:measure">
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <xsl:variable name="quant">
+	<xsl:choose>
+	  <xsl:when test="@unit='sessions'">
+	    <xsl:value-of select="count($docs/tei:item)"/>
+	  </xsl:when>
+	  <xsl:when test="@unit='speeches'">
+	    <xsl:value-of select="sum($speeches/tei:item)"/>
+	  </xsl:when>
+	  <xsl:when test="@unit='words'">
+	    <xsl:value-of select="sum($words/tei:item)"/>
+	  </xsl:when>
+	</xsl:choose>
+      </xsl:variable>
+      <xsl:attribute name="quantity" select="format-number($quant, '#')"/>
+      <xsl:value-of select="replace(., '.+ ', concat(
+			    et:format-number(ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang, $quant), 
+			    ' '))"/>
+    </xsl:copy>
   </xsl:template>
   
   <xsl:template match="tei:taxonomy[@xml:id = 'UD-SYN']//tei:catDesc/tei:term">
