@@ -1,3 +1,6 @@
+#Dump all parties in TSV file
+parties:
+	$s -xsl:Scripts/parlamint-parties.xsl ParlaMint.xml > Metadata/ParlaMint-parties.tsv
 #Make ParlaMint corpus root
 root:
 	$s -xsl:Scripts/parlamint2root.xsl Scripts/ParlaMint-template.xml > ParlaMint.xml
