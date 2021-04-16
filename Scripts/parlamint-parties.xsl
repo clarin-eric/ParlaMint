@@ -57,19 +57,23 @@
 	</xsl:otherwise>
       </xsl:choose>
       <xsl:text>&#9;</xsl:text-->
-      <xsl:choose>
-	<xsl:when test="tei:orgName[@full = 'yes']
-			[ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang != 'en']">
-	  <xsl:value-of select="tei:orgName[@full = 'yes']
+      <xsl:variable name="full-name">
+	<xsl:choose>
+	  <xsl:when test="tei:orgName[@full = 'yes']
+			  [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang != 'en']">
+	    <xsl:value-of select="tei:orgName[@full = 'yes']
 				[ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang != 'en']"/>
-	</xsl:when>
-	<xsl:when test="tei:orgName[@full = 'yes']">
-	  <xsl:value-of select="tei:orgName[@full = 'yes']"/>
-	</xsl:when>
-	<xsl:otherwise>
-	  <xsl:value-of select="tei:orgName[@full = 'init'][1]"/>
-	</xsl:otherwise>
-      </xsl:choose>
+	  </xsl:when>
+	  <xsl:when test="tei:orgName[@full = 'yes']">
+	    <xsl:value-of select="tei:orgName[@full = 'yes']"/>
+	  </xsl:when>
+	  <xsl:otherwise>
+	    <xsl:value-of select="tei:orgName[@full = 'init'][1]"/>
+	  </xsl:otherwise>
+	</xsl:choose>
+      </xsl:variable>
+      <!-- Some apps don't like quotes in TSV columns, simply delete -->
+      <xsl:value-of select="translate($full-name, '&quot;', '')"/>
       <xsl:text>&#10;</xsl:text>
     </xsl:if>
   </xsl:template>
