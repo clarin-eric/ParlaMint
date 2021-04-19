@@ -23,9 +23,12 @@ print STDERR "INFO: Converting directory $inDir\n";
 #Store all files to be processed in $fileFile
 $fileFile = "$DIR/files.lst";
 $corpusFiles = "$inDir/*_*.xml $inDir/*/*_*.xml";
+
+#We convert only plain files, not .ana!
 open(TMP, '>:utf8', $fileFile);
 foreach $inFile (glob $corpusFiles) {
     print TMP "$inFile\n"
+	unless $inFile =~ /\.ana/;
 }
 close TMP;
 
@@ -38,5 +41,5 @@ print STDERR "INFO: Making metadata files\n";
 @rootFile = glob("$inDir/ParlaMint-??.xml");
 $command = "$Saxon hdr=$rootFile[0] -xsl:$Meta {} > $outDir/{/.}-meta.tsv";
 `cat $fileFile | $Para '$command'`;
+`rm -f $outDir/*-meta.tsv`;
 `rename 's/\.ana//' $outDir/*-meta.tsv`;
-

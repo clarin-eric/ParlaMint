@@ -28,7 +28,7 @@ my $DIR = tempdir(DIR => $tempdirroot, CLEANUP => 1);
 $inDir = File::Spec->rel2abs(shift);
 $outDir = File::Spec->rel2abs(shift);
 
-$Para  = 'parallel --gnu --halt 0 --jobs 10';
+$Para  = 'parallel --gnu --halt 0 --jobs 8';
 $Saxon = 'java -jar /usr/share/java/saxon.jar';
 $Convert = "$Bin/parlamint2conllu.xsl";
 $Meta = "$Bin/parlamint2meta.xsl";

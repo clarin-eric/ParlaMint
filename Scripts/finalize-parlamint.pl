@@ -21,16 +21,25 @@ sub usage {
     print STDERR ("    <Docs> is the directory where ParlaMint README files are.\n");
     print STDERR ("    <Input> is the directory where ParlaMint-XX.TEI/ and ParlaMint-XX.TEI.ana/ are.\n");
     print STDERR ("    <Output> is the directory where output directories are written.\n");
+    
     print STDERR ("    <procFlags> are process flags that set which operations are carried out:\n");
     print STDERR ("    * -ana: finalizes the TEI.ana directory\n");
     print STDERR ("    * -tei: finalizes the TEI directory (needs TEI.ana output)\n");
     print STDERR ("    * -sample: prodeced samples (from TEI.ana and TEI output)\n");
     print STDERR ("    * -valid: validates TEI, TEI.ana and samples\n");
+    print STDERR ("    * -vert: produces vertical files (from TEI.ana output)\n");
+    
+    # maybe should have also -meta (and pack separately for ana but include in -txttei dir?)
+    # maybe should have -txttei and -txtana ??
     print STDERR ("    * -txt: produces plain text files with metadata files (from TEI output)\n");
     print STDERR ("    * -conll: produces conllu files with metadata files (from TEI.ana output)\n");
-    print STDERR ("    * -vert: produces vertical files (from TEI.ana output)\n");
+    
     print STDERR ("    * -all: do all of the above.\n");
-    print STDERR ("    The flags can be also negated, e.g. \"-all -novalid\".\n");
+    #print STDERR ("    The flags can be also negated, e.g. \"-all -novalid\".\n");
+    print STDERR ("    Example: \n");
+    print STDERR ("    ./finalize-parlamint.pl -all -novalid -codes 'BE ES' \\\n");
+    print STDERR ("      -schema ../Schema -docs My/Docs/ -in Originals/ -out Final/  \\\n");
+    print STDERR ("      2> ParlaMint.ana.log\n");
 }
 
 use Getopt::Long;
@@ -52,8 +61,8 @@ GetOptions
     (
      'help'     => \$help,
      'codes=s'  => \$countryCodes,
-     'schema:s' => \$schemaDir,
-     'docs:s'   => \$docsDir,
+     'schema=s' => \$schemaDir,
+     'docs=s'   => \$docsDir,
      'in=s'     => \$inDir,
      'out=s'    => \$outDir,
      'all'      => \$procAll,
@@ -92,6 +101,11 @@ $Conls   = "$Bin/parlamintp2conllu.pl";
 
 $XX_template = "ParlaMint-XX";
 
+unless ($countryCodes) {
+    print STDERR "Need some country codes.\n";
+    print STDERR "For help: finalize-parlamint.pl -h\n";
+    exit
+}
 foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     print STDERR "INFO: ***Converting $countryCode\n";
     
@@ -123,6 +137,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	&cp_readme($countryCode, "$docsDir/README.TEI.ana.txt", "$outAnaDir/00README.txt");
 	dircopy($schemaDir, "$outAnaDir/Schema");
 	`$SaxonX outDir=$outDir -xsl:$Final $inAnaRoot`;
+    	&polish($outAnaDir);
     }
     if (($procAll and $procTei) or (!$procAll and $procTei == 1)) {
 	print STDERR "INFO: *Finalizing $countryCode TEI\n";
@@ -131,6 +146,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	&cp_readme($countryCode, "$docsDir/README.TEI.txt", "$outTeiDir/00README.txt");
 	dircopy($schemaDir, "$outTeiDir//Schema");
 	`$SaxonX anaDir=$outAnaDir outDir=$outDir -xsl:$Final $inTeiRoot`;
+	&polish($outTeiDir);
     }
     if (($procAll and $procSample) or (!$procAll and $procSample == 1)) {
 	print STDERR "INFO: *Making $countryCode samples\n";
@@ -140,22 +156,11 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	`$Saxon outDir=$outSmpDir -xsl:$Sample $outAnaRoot`;
 	my $inFiles = join("\n", );
 	#Make also derived files
-	foreach my $inFile (glob("$outSmpDir/$XX\_*.xml")) {
-	    if ($inFile =~ /\.ana/) {
-		`$Conls $outSmpDir $outSmpDir`;
-		`$Verts $outSmpDir $outSmpDir`;
-	    }
-	    else {
-		my ($outFile) = $inFile =~ /(.+)\.xml/;
-		`$Saxon -xsl:$Texts $inFile > $outFile.txt`;
-	    }
-	}
-    }
-    if (($procAll and $procAna) or (!$procAll and $procAna == 1)) {
-    	&polish($outAnaDir);
-    }
-    if (($procAll and $procTei) or (!$procAll and $procTei == 1)) {
-	&polish($outTeiDir);
+	`$Texts $outSmpDir $outSmpDir`;
+	#Remove as Conlls will generate meta again, sigh...
+	`rm -f $outSmpDir/*-meta.tsv`;
+	`$Conls $outSmpDir $outSmpDir`;
+	`$Verts $outSmpDir $outSmpDir`;
     }
     if (($procAll and $procValid) or (!$procAll and $procValid == 1)) {
 	print STDERR "INFO: *Validating $countryCode TEI\n";
