@@ -338,10 +338,13 @@
   <xsl:template name="NER">
     <xsl:text>NER=</xsl:text>
     <xsl:choose>
-      <xsl:when test="ancestor::tei:name">
+      <xsl:when test="ancestor::tei:name[@type]">
+	<xsl:variable name="ancestor" select="generate-id(ancestor::tei:name[@type][last()])"/>
 	<xsl:variable name="type" select="ancestor::tei:name/@type"/>
 	<xsl:choose>
-	  <xsl:when test="preceding-sibling::tei:*">
+	  <xsl:when test="preceding::tei:*
+			  [ancestor::tei:*[generate-id(.) = $ancestor]]
+			  [self::tei:w or self::tei:pc]">
 	    <xsl:value-of select="concat('I-', $type)"/>
 	  </xsl:when>
 	  <xsl:otherwise>
