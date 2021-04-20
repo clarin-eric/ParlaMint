@@ -52,10 +52,9 @@
                <persName>Tomaž Erjavec</persName>
                <resp>Conversion to ParlaMint TEI</resp>
             </respStmt>
-            <respStmt xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                      n="ParlaMint-GB">
+            <respStmt n="ParlaMint-GB">
                <persName>Matthew Coole</persName>
-               <resp>Parla-CLARIN TEI XML corpus encoding</resp>
+               <resp>Data retrieval, Parla-CLARIN TEI XML corpus encoding and linguistic annotation.</resp>
             </respStmt>
             <respStmt n="ParlaMint-HR">
                <persName>Nikola Ljubešić</persName>
@@ -76,7 +75,22 @@
             </respStmt>
             <respStmt n="ParlaMint-IT">
                <persName>Tommaso Agnoloni</persName>
-               <resp>Parla-CLARIN TEI XML corpus encoding</resp>
+               <persName>Francesca Frontini</persName>
+               <persName>Simonetta Montemagni</persName>
+               <persName>Valeria Quochi</persName>
+               <persName>Giulia Venturi</persName>
+               <resp>Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt n="ParlaMint-IT">
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp>Data retrieval</resp>
+            </respStmt>
+            <respStmt n="ParlaMint-IT">
+               <persName>Tommaso Agnoloni</persName>
+               <resp>ParlaMint TEI XML corpus encoding</resp>
+               <resp>Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
             </respStmt>
             <respStmt n="ParlaMint-LV">
                <persName>Roberts Darģis</persName>
@@ -112,8 +126,8 @@
          </editionStmt>
          <extent>
             <measure unit="corpora" quantity="15">15 corpora</measure>
-            <measure unit="speeches" quantity="2508144">2,508,144 speeches</measure>
-            <measure unit="words" quantity="344907962">344,907,962 words</measure>
+            <measure unit="speeches" quantity="3060154">3,060,154 speeches</measure>
+            <measure unit="words" quantity="447162495">447,162,495 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -125,7 +139,7 @@
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2021-04-16">April 16, 2021</date>
+            <date when="2021-04-20">April 20, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <listBibl n="ParlaMint-BE">
@@ -184,14 +198,10 @@
             <listBibl n="ParlaMint-GB">
                <head>ParlaMint-GB</head>
                <bibl>
-                  <title xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions">Corpora of parliamentary debates ParlaMint</title>
-                  <idno xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                        type="handle">http://hdl.handle.net/11356/1388</idno>
-               </bibl>
-               <bibl>
-                  <title xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions">Transcripts of Parliament of Great Britain.</title>
-                  <idno xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                        type="handle">https://hansard-api.parliament.uk/</idno>
+                  <title type="main">Parliament of Great Britain: Daily sessions</title>
+                  <publisher>Houses of Parliament</publisher>
+                  <idno type="URI">https://hansard.parliament.uk/</idno>
+                  <date from="2015-01-05" to="2021-02-25">2015-01-05 - 2021-02-25</date>
                </bibl>
             </listBibl>
             <listBibl n="ParlaMint-HR">
@@ -224,10 +234,6 @@
             <listBibl n="ParlaMint-IT">
                <head>ParlaMint-IT</head>
                <bibl>
-                  <title xml:lang="it">Multilingual comparable corpora of parliamentary debates ParlaMint 2.0</title>
-                  <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1388</idno>
-               </bibl>
-               <bibl>
                   <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche d'aula del Senato della Repubblica italiana</title>
                   <title type="main">Minutes of the Senate of the Republic of Italy</title>
                   <idno type="URI">https://www.senato.it</idno>
@@ -245,10 +251,6 @@
             </listBibl>
             <listBibl n="ParlaMint-NL">
                <head>ParlaMint-NL</head>
-               <bibl>
-                  <title xml:lang="nl">Multilingual comparable corpora of parliamentary debates ParlaMint 1.0</title>
-                  <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
-               </bibl>
                <bibl>
                   <title type="main" xml:lang="nl">Minutes of the Eerste Kamer of The Netherlands</title>
                   <idno type="URI">https://www.eerstekamer.nl/</idno>
@@ -308,8 +310,7 @@
                <p n="ParlaMint-CZ">No correction of source texts was performed.</p>
                <p n="ParlaMint-DK">No correction of source texts was performed.</p>
                <p n="ParlaMint-ES">No correction of source texts was performed.</p>
-               <p xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                  n="ParlaMint-GB"/>
+               <p n="ParlaMint-GB">No correction of source texts was performed.</p>
                <p n="ParlaMint-HR">No correction of source texts was performed.</p>
                <p n="ParlaMint-HU">No correction of source texts was performed.</p>
                <p n="ParlaMint-IS">No correction of source texts was performed.</p>
@@ -326,15 +327,13 @@
                <p n="ParlaMint-CZ">Text has not been normalised, except for spacing.</p>
                <p n="ParlaMint-DK">Text has not been normalised.</p>
                <p n="ParlaMint-ES">Text has not been normalised, except for spacing.</p>
-               <p xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                  n="ParlaMint-GB"/>
+               <p n="ParlaMint-GB">Text has not been normalised, except for spacing.</p>
                <p n="ParlaMint-HR">Text has not been normalised, except for spacing.</p>
                <p n="ParlaMint-HU">Normalisation was performed only on the meta-data, e.g. person names.</p>
-               <p n="ParlaMint-IS">No end-of-line hyphens were present in the source.</p>
+               <p n="ParlaMint-IS">Text has not been normalised, except for spacing</p>
                <p n="ParlaMint-IT">Text has not been normalised, except for spacing.</p>
                <p n="ParlaMint-LV">Text has not been normalised, except for spacing.</p>
-               <p n="ParlaMint-NL">Through the dat collection process several Unicode hair space charactars were present in the text,
-	  these have been removed.</p>
+               <p n="ParlaMint-NL">Through the dat collection process several Unicode hair space charactars were present in the text, these have been removed.</p>
                <p n="ParlaMint-PL">Text has not been normalised, except for spacing.</p>
                <p n="ParlaMint-SI">Text has not been normalised, except for spacing.</p>
                <p n="ParlaMint-TR">Text has not been normalised.</p>
@@ -345,11 +344,10 @@
                <p n="ParlaMint-CZ">No end-of-line hyphens were present in the source.</p>
                <p n="ParlaMint-DK">No end-of-line hyphens were present in the source.</p>
                <p n="ParlaMint-ES">No end-of-line hyphens were present in the source.</p>
-               <p xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                  n="ParlaMint-GB"/>
+               <p n="ParlaMint-GB">Hyphenation has not been altered with respect to the source files.</p>
                <p n="ParlaMint-HR">No end-of-line hyphens were present in the source.</p>
                <p n="ParlaMint-HU">No end-of-line hyphens were present in the source.</p>
-               <p n="ParlaMint-IS">Text has not been normalised, except for spacing</p>
+               <p n="ParlaMint-IS">No end-of-line hyphens were present in the source.</p>
                <p n="ParlaMint-IT">No end-of-line hyphens were present in the source.</p>
                <p n="ParlaMint-LV">No end-of-line hyphens were present in the source.</p>
                <p n="ParlaMint-NL">No end-of-line hyphens were present in the source.</p>
@@ -363,8 +361,7 @@
                <p n="ParlaMint-CZ">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p n="ParlaMint-DK">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p n="ParlaMint-ES">Quotation marks have been left in the text and are not explicitly marked up.</p>
-               <p xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                  n="ParlaMint-GB"/>
+               <p n="ParlaMint-GB">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p n="ParlaMint-HR">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p n="ParlaMint-HU">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p n="ParlaMint-IS">Quotation marks have been left in the text and are not explicitly marked up.</p>
@@ -382,8 +379,7 @@
                <p n="ParlaMint-CZ">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
                <p n="ParlaMint-DK">The texts are segmented into utterances (speeches) and segments (corresponding to one utterance).</p>
                <p n="ParlaMint-ES">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
-               <p xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                  n="ParlaMint-GB"/>
+               <p n="ParlaMint-GB">The texts are segmented into utterances (contributions) and segments (corresponding to paragraphs in the source transcription).</p>
                <p n="ParlaMint-HR">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
                <p n="ParlaMint-HU">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
                <p n="ParlaMint-IS">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
@@ -397,26 +393,26 @@
          </editorialDecl>
          <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="body" occurs="18630"/>
-               <tagUsage gi="desc" occurs="312475"/>
-               <tagUsage gi="div" occurs="48399"/>
+               <tagUsage gi="body" occurs="20422"/>
+               <tagUsage gi="desc" occurs="312469"/>
+               <tagUsage gi="div" occurs="79771"/>
                <tagUsage gi="gap" occurs="21600"/>
-               <tagUsage gi="head" occurs="26071"/>
+               <tagUsage gi="head" occurs="57442"/>
                <tagUsage gi="incident" occurs="2727"/>
                <tagUsage gi="kinesic" occurs="183095"/>
-               <tagUsage gi="note" occurs="1128840"/>
+               <tagUsage gi="note" occurs="1294376"/>
                <tagUsage gi="pb" occurs="42570"/>
                <tagUsage gi="ref" occurs="34208"/>
-               <tagUsage gi="seg" occurs="7167884"/>
-               <tagUsage gi="text" occurs="17122"/>
+               <tagUsage gi="seg" occurs="8311104"/>
+               <tagUsage gi="text" occurs="17764"/>
                <tagUsage gi="time" occurs="22337"/>
-               <tagUsage gi="u" occurs="3771218"/>
+               <tagUsage gi="u" occurs="4323244"/>
                <tagUsage gi="vocal" occurs="106210"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
       <revisionDesc>
-         <change when="2021-04-16">
+         <change when="2021-04-20">
             <name>Tomaž Erjavec</name>: Generate root</change>
       </revisionDesc>
    </teiHeader>

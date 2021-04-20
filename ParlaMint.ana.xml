@@ -61,10 +61,9 @@
                <persName>Luciana de Macedo</persName>
                <resp>Tokenization, Lemmatization, POS-tagging, NER, UD</resp>
             </respStmt>
-            <respStmt xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                      n="ParlaMint-GB.ana">
+            <respStmt n="ParlaMint-GB.ana">
                <persName>Matthew Coole</persName>
-               <resp>Parla-CLARIN TEI XML corpus encoding</resp>
+               <resp>Data retrieval, Parla-CLARIN TEI XML corpus encoding and linguistic annotation.</resp>
             </respStmt>
             <respStmt n="ParlaMint-HR.ana">
                <persName>Nikola Ljubešić</persName>
@@ -88,16 +87,46 @@
                <persName>Starkaður Barkarson</persName>
                <resp>Linguistic annotation</resp>
             </respStmt>
+            <respStmt n="ParlaMint-IT.ana">
+               <persName>Tommaso Agnoloni</persName>
+               <persName>Francesca Frontini</persName>
+               <persName>Simonetta Montemagni</persName>
+               <persName>Valeria Quochi</persName>
+               <persName>Giulia Venturi</persName>
+               <resp>Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt n="ParlaMint-IT.ana">
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp>Data retrieval</resp>
+            </respStmt>
+            <respStmt n="ParlaMint-IT.ana">
+               <persName>Tommaso Agnoloni</persName>
+               <resp>ParlaMint TEI XML corpus encoding</resp>
+               <resp>Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <respStmt n="ParlaMint-IT.ana">
+               <persName>Giulia Venturi</persName>
+               <persName>Andrea Cimino</persName>
+               <resp>Automatic Linguistic annotation</resp>
+               <resp>NER</resp>
+               <resp>Linguistic annotation - NER Alignment</resp>
+            </respStmt>
+            <respStmt n="ParlaMint-IT.ana">
+               <persName>Roberto Bartolini</persName>
+               <persName>Valeria Quochi</persName>
+               <resp>Conversion of the linguistic annotation: from CoNLL-U to ParlaMint TEI XML</resp>
+            </respStmt>
             <respStmt n="ParlaMint-LV.ana">
                <persName>Roberts Darģis</persName>
                <resp>Parla-CLARIN TEI XML corpus encoding</resp>
             </respStmt>
             <respStmt n="ParlaMint-NL.ana">
-               <persName>Ruben van Heusden</persName>
-               <resp>Downloading and converting the corpus to TEI format</resp>
+               <persName>Jesse de Does</persName>
+               <resp>Running the Linguistic Processing Pipeline and adding the annotations to the corpus</resp>
             </respStmt>
             <respStmt n="ParlaMint-NL.ana">
-               <persName>Jesse de Does</persName>
                <persName>Katrien Depuydt</persName>
                <resp>Running the Linguistic Processing Pipeline and adding the annotations to the corpus</resp>
             </respStmt>
@@ -130,9 +159,9 @@
             <edition>2.0</edition>
          </editionStmt>
          <extent>
-            <measure unit="corpora" quantity="14">14 corpora</measure>
-            <measure unit="speeches" quantity="2293772">2,293,772 speeches</measure>
-            <measure unit="words" quantity="318375314">318,375,314 words</measure>
+            <measure unit="corpora" quantity="15">15 corpora</measure>
+            <measure unit="speeches" quantity="3060134">3,060,134 speeches</measure>
+            <measure unit="words" quantity="447162495">447,162,495 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -144,7 +173,7 @@
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2021-04-16">April 16, 2021</date>
+            <date when="2021-04-20">April 20, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <listBibl n="ParlaMint-BE.ana">
@@ -207,14 +236,10 @@
             <listBibl n="ParlaMint-GB.ana">
                <head>ParlaMint-GB.ana</head>
                <bibl>
-                  <title xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions">Corpora of parliamentary debates ParlaMint</title>
-                  <idno xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                        type="handle">http://hdl.handle.net/11356/1388</idno>
-               </bibl>
-               <bibl>
-                  <title xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions">Transcripts of Parliament of Great Britain.</title>
-                  <idno xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                        type="handle">https://hansard-api.parliament.uk/</idno>
+                  <title type="main">Parliament of Great Britain: Daily sessions</title>
+                  <publisher>Houses of Parliament</publisher>
+                  <idno type="URI">https://hansard.parliament.uk/</idno>
+                  <date from="2015-01-05" to="2021-02-25">2015-01-05 - 2021-02-25</date>
                </bibl>
             </listBibl>
             <listBibl n="ParlaMint-HR.ana">
@@ -244,6 +269,20 @@
                   <date from="2015-01-01" to="2020-09-30">2015-01-01 - 2020-09-30</date>
                </bibl>
             </listBibl>
+            <listBibl n="ParlaMint-IT.ana">
+               <head>ParlaMint-IT.ana</head>
+               <bibl>
+                  <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche d'aula del Senato della Repubblica italiana</title>
+                  <title type="main">Minutes of the Senate of the Republic of Italy</title>
+                  <idno type="URI">https://www.senato.it</idno>
+                  <date from="2013-03-15" to="2020-11-18">15.3.2013 - 18.11.2020</date>
+               </bibl>
+               <bibl>
+                  <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT [ParlaMint]</title>
+                  <title type="main">Italian parliamentary corpus ParlaMint-IT [ParlaMint]</title>
+                  <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1388</idno>
+               </bibl>
+            </listBibl>
             <listBibl n="ParlaMint-LV.ana">
                <head>ParlaMint-LV.ana</head>
                <bibl>
@@ -255,10 +294,6 @@
             </listBibl>
             <listBibl n="ParlaMint-NL.ana">
                <head>ParlaMint-NL.ana</head>
-               <bibl>
-                  <title xml:lang="nl">Multilingual comparable corpora of parliamentary debates ParlaMint 1.0</title>
-                  <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1405</idno>
-               </bibl>
                <bibl>
                   <title type="main" xml:lang="nl">Minutes of the Eerste Kamer of The Netherlands</title>
                   <idno type="URI">https://www.eerstekamer.nl/</idno>
@@ -318,11 +353,11 @@
                <p n="ParlaMint-CZ.ana">No correction of source texts was performed.</p>
                <p n="ParlaMint-DK.ana">No correction of source texts was performed.</p>
                <p n="ParlaMint-ES.ana">No correction of source texts was performed.</p>
-               <p xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                  n="ParlaMint-GB.ana"/>
+               <p n="ParlaMint-GB.ana">No correction of source texts was performed.</p>
                <p n="ParlaMint-HR.ana">No correction of source texts was performed.</p>
                <p n="ParlaMint-HU.ana">No correction of source texts was performed.</p>
                <p n="ParlaMint-IS.ana">No correction of source texts was performed.</p>
+               <p n="ParlaMint-IT.ana">No correction of source texts was performed.</p>
                <p n="ParlaMint-LV.ana">No correction of source texts was performed.</p>
                <p n="ParlaMint-NL.ana">No correction of source texts was performed.</p>
                <p n="ParlaMint-PL.ana">No correction of source texts was performed.</p>
@@ -335,14 +370,13 @@
                <p n="ParlaMint-CZ.ana">Text has not been normalised, except for spacing.</p>
                <p n="ParlaMint-DK.ana">Text has not been normalised.</p>
                <p n="ParlaMint-ES.ana">Text has not been normalised, except for spacing.</p>
-               <p xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                  n="ParlaMint-GB.ana"/>
+               <p n="ParlaMint-GB.ana">Text has not been normalised, except for spacing.</p>
                <p n="ParlaMint-HR.ana">Text has not been normalised, except for spacing.</p>
                <p n="ParlaMint-HU.ana">Normalisation was performed only on the meta-data, e.g. person names.</p>
-               <p n="ParlaMint-IS.ana">No end-of-line hyphens were present in the source.</p>
+               <p n="ParlaMint-IS.ana">Text has not been normalised, except for spacing</p>
+               <p n="ParlaMint-IT.ana">Text has not been normalised, except for spacing.</p>
                <p n="ParlaMint-LV.ana">Text has not been normalised, except for spacing.</p>
-               <p n="ParlaMint-NL.ana">Through the dat collection process several Unicode hair space charactars were present in the text,
-	  these have been removed.</p>
+               <p n="ParlaMint-NL.ana">Through the dat collection process several Unicode hair space charactars were present in the text, these have been removed.</p>
                <p n="ParlaMint-PL.ana">Text has not been normalised, except for spacing.</p>
                <p n="ParlaMint-SI.ana">Text has not been normalised, except for spacing.</p>
                <p n="ParlaMint-TR.ana">Text has not been normalised.</p>
@@ -353,11 +387,11 @@
                <p n="ParlaMint-CZ.ana">No end-of-line hyphens were present in the source.</p>
                <p n="ParlaMint-DK.ana">No end-of-line hyphens were present in the source.</p>
                <p n="ParlaMint-ES.ana">No end-of-line hyphens were present in the source.</p>
-               <p xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                  n="ParlaMint-GB.ana"/>
+               <p n="ParlaMint-GB.ana">Hyphenation has not been altered with respect to the source files.</p>
                <p n="ParlaMint-HR.ana">No end-of-line hyphens were present in the source.</p>
                <p n="ParlaMint-HU.ana">No end-of-line hyphens were present in the source.</p>
-               <p n="ParlaMint-IS.ana">Text has not been normalised, except for spacing</p>
+               <p n="ParlaMint-IS.ana">No end-of-line hyphens were present in the source.</p>
+               <p n="ParlaMint-IT.ana">No end-of-line hyphens were present in the source.</p>
                <p n="ParlaMint-LV.ana">No end-of-line hyphens were present in the source.</p>
                <p n="ParlaMint-NL.ana">No end-of-line hyphens were present in the source.</p>
                <p n="ParlaMint-PL.ana">No end-of-line hyphens were present in the source.</p>
@@ -370,11 +404,11 @@
                <p n="ParlaMint-CZ.ana">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p n="ParlaMint-DK.ana">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p n="ParlaMint-ES.ana">Quotation marks have been left in the text and are not explicitly marked up.</p>
-               <p xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                  n="ParlaMint-GB.ana"/>
+               <p n="ParlaMint-GB.ana">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p n="ParlaMint-HR.ana">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p n="ParlaMint-HU.ana">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p n="ParlaMint-IS.ana">Quotation marks have been left in the text and are not explicitly marked up.</p>
+               <p n="ParlaMint-IT.ana">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p n="ParlaMint-LV.ana">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p n="ParlaMint-NL.ana">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p n="ParlaMint-PL.ana">Quotation marks have been left in the text and are not explicitly marked up.</p>
@@ -388,11 +422,11 @@
                <p n="ParlaMint-CZ.ana">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
                <p n="ParlaMint-DK.ana">The texts are segmented into utterances (speeches) and segments (corresponding to one utterance).</p>
                <p n="ParlaMint-ES.ana">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
-               <p xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                  n="ParlaMint-GB.ana"/>
+               <p n="ParlaMint-GB.ana">The texts are segmented into utterances (contributions) and segments (corresponding to paragraphs in the source transcription).</p>
                <p n="ParlaMint-HR.ana">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
                <p n="ParlaMint-HU.ana">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
                <p n="ParlaMint-IS.ana">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+               <p n="ParlaMint-IT.ana">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
                <p n="ParlaMint-LV.ana">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
                <p n="ParlaMint-NL.ana">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
                <p n="ParlaMint-PL.ana">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
@@ -402,31 +436,31 @@
          </editorialDecl>
          <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="body" occurs="17430"/>
+               <tagUsage gi="body" occurs="20422"/>
                <tagUsage gi="date" occurs="147549"/>
-               <tagUsage gi="desc" occurs="254702"/>
-               <tagUsage gi="div" occurs="33334"/>
+               <tagUsage gi="desc" occurs="316551"/>
+               <tagUsage gi="div" occurs="79771"/>
                <tagUsage gi="email" occurs="81"/>
-               <tagUsage gi="gap" occurs="25450"/>
-               <tagUsage gi="head" occurs="14895"/>
-               <tagUsage gi="incident" occurs="1326"/>
-               <tagUsage gi="kinesic" occurs="127754"/>
-               <tagUsage gi="link" occurs="331822361"/>
-               <tagUsage gi="linkGrp" occurs="17980205"/>
-               <tagUsage gi="name" occurs="10158742"/>
-               <tagUsage gi="note" occurs="935260"/>
+               <tagUsage gi="gap" occurs="25704"/>
+               <tagUsage gi="head" occurs="57856"/>
+               <tagUsage gi="incident" occurs="2727"/>
+               <tagUsage gi="kinesic" occurs="179324"/>
+               <tagUsage gi="link" occurs="503201561"/>
+               <tagUsage gi="linkGrp" occurs="24536973"/>
+               <tagUsage gi="name" occurs="14082715"/>
+               <tagUsage gi="note" occurs="1293745"/>
                <tagUsage gi="num" occurs="284859"/>
                <tagUsage gi="pb" occurs="25550"/>
-               <tagUsage gi="pc" occurs="43683153"/>
+               <tagUsage gi="pc" occurs="52979541"/>
                <tagUsage gi="ref" occurs="34291"/>
-               <tagUsage gi="s" occurs="17980205"/>
-               <tagUsage gi="seg" occurs="6939297"/>
-               <tagUsage gi="text" occurs="17122"/>
+               <tagUsage gi="s" occurs="24536973"/>
+               <tagUsage gi="seg" occurs="8296865"/>
+               <tagUsage gi="text" occurs="17076"/>
                <tagUsage gi="time" occurs="43235"/>
-               <tagUsage gi="u" occurs="3691763"/>
+               <tagUsage gi="u" occurs="4323198"/>
                <tagUsage gi="unit" occurs="3457"/>
-               <tagUsage gi="vocal" occurs="97573"/>
-               <tagUsage gi="w" occurs="288872879"/>
+               <tagUsage gi="vocal" occurs="106209"/>
+               <tagUsage gi="w" occurs="453155852"/>
             </namespace>
          </tagsDecl>
          <classDecl>
@@ -444,8 +478,7 @@
                      <term>acl</term>: Clausal modifier of noun (adjectival clause)</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>acl</term>: Clausal modifier of noun (adjectival clause)</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>acl</term>: Clausal modifier of noun (adjectival clause)</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>acl</term>: Clausal modifier of noun (adjectival clause)</catDesc>
@@ -453,6 +486,8 @@
                      <term>acl</term>: Clausal modifier of noun (adjectival clause)</catDesc>
                   <catDesc corresp="ParlaMint-IS.ana">
                      <term>acl</term>Clausal modifier of noun (adjectival clause)</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>acl</term>: Clausal modifier of noun (adjectival clause)</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>acl</term>: Clausal modifier of noun (adjectival clause)</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
@@ -476,8 +511,7 @@
                      <term>advcl</term>: Adverbial clause modifier</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>advcl</term>: Adverbial clause modifier</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>advcl</term>: Adverbial clause modifier</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>advcl</term>: Adverbial clause modifier</catDesc>
@@ -485,6 +519,8 @@
                      <term>advcl</term>: Adverbial clause modifier</catDesc>
                   <catDesc corresp="ParlaMint-IS.ana">
                      <term>advcl</term>Adverbial clause modifier</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>advcl</term>: Adverbial clause modifier</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>advcl</term>: Adverbial clause modifier</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
@@ -508,8 +544,7 @@
                      <term>advmod</term>: Adverbial modifier</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>advmod</term>: Adverbial modifier</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>advmod</term>: Adverbial modifier</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>advmod</term>: Adverbial modifier</catDesc>
@@ -517,6 +552,8 @@
                      <term>advmod</term>: Adverbial modifier</catDesc>
                   <catDesc corresp="ParlaMint-IS.ana">
                      <term>advmod</term>Adverbial modifier</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>advmod</term>: Adverbial modifier</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>advmod</term>: Adverbial modifier</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
@@ -540,13 +577,14 @@
                      <term>amod</term>: Adjectival modifier</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>amod</term>: Adjectival modifier</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>amod</term>: Adjectival modifier</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>amod</term>: Adjectival modifier</catDesc>
                   <catDesc corresp="ParlaMint-IS.ana">
                      <term>amod</term>Adjectival modifier</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>amod</term>: Adjectival modifier</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>amod</term>: Adjectival modifier</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
@@ -570,8 +608,7 @@
                      <term>appos</term>: Appositional modifier</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>appos</term>: Appositional modifier</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>appos</term>: Appositional modifier</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>appos</term>: Appositional modifier</catDesc>
@@ -579,6 +616,8 @@
                      <term>appos</term>: Appositional modifier</catDesc>
                   <catDesc corresp="ParlaMint-IS.ana">
                      <term>appos</term>Appositional modifier</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>appos</term>: Appositional modifier</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>appos</term>: Appositional modifier</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
@@ -602,8 +641,7 @@
                      <term>aux</term>: Auxiliary</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>aux</term>: Auxiliary</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>aux</term>: Auxiliary</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>aux</term>: Auxiliary</catDesc>
@@ -611,6 +649,8 @@
                      <term>aux</term>: Auxiliary</catDesc>
                   <catDesc corresp="ParlaMint-IS.ana">
                      <term>aux</term>Auxiliary</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>aux</term>: Auxiliary</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>aux</term>: Auxiliary</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
@@ -634,8 +674,7 @@
                      <term>case</term>: Case marking</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>case</term>: Case marking</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>case</term>: Case marking</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>case</term>: Case marking</catDesc>
@@ -643,6 +682,8 @@
                      <term>case</term>: Case marking</catDesc>
                   <catDesc corresp="ParlaMint-IS.ana">
                      <term>case</term>Case marking</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>case</term>: Case marking</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>case</term>: Case marking</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
@@ -666,8 +707,7 @@
                      <term>cc</term>: Coordinating conjunction</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>cc</term>: Coordinating conjunction</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>cc</term>: Coordinating conjunction</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>cc</term>: Coordinating conjunction</catDesc>
@@ -675,6 +715,8 @@
                      <term>cc</term>: Coordinating conjunction</catDesc>
                   <catDesc corresp="ParlaMint-IS.ana">
                      <term>cc</term>Coordinating conjunction</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>cc</term>: Coordinating conjunction</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>cc</term>: Coordinating conjunction</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
@@ -698,8 +740,7 @@
                      <term>ccomp</term>: Clausal complement</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>ccomp</term>: Clausal complement</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>ccomp</term>: Clausal complement</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>ccomp</term>: Clausal complement</catDesc>
@@ -707,6 +748,8 @@
                      <term>ccomp</term>: Clausal complement</catDesc>
                   <catDesc corresp="ParlaMint-IS.ana">
                      <term>ccomp</term>Clausal complement</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>ccomp</term>: Clausal complement</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>ccomp</term>: Clausal complement</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
@@ -726,8 +769,7 @@
                      <term>cc:preconj</term>: Preconjunct</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>cc:preconj</term>: Preconjunct</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>cc:preconj</term>: Preconjunct</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>cc:preconj</term>: Preconjunct</catDesc>
@@ -756,8 +798,7 @@
                      <term>conj</term>: Conjunct</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>conj</term>: Conjunct</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>conj</term>: Conjunct</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>conj</term>: Conjunct</catDesc>
@@ -765,6 +806,8 @@
                      <term>conj</term>: Conjunct</catDesc>
                   <catDesc corresp="ParlaMint-IS.ana">
                      <term>conj</term>Conjunct</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>conj</term>: Conjunct</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>conj</term>: Conjunct</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
@@ -788,8 +831,7 @@
                      <term>cop</term>: Copula</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>cop</term>: Copula</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>cop</term>: Copula</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>cop</term>: Copula</catDesc>
@@ -797,6 +839,8 @@
                      <term>cop</term>: Copula</catDesc>
                   <catDesc corresp="ParlaMint-IS.ana">
                      <term>cop</term>Copula</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>cop</term>: Copula</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>cop</term>: Copula</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
@@ -818,8 +862,7 @@
                      <term>csubj</term>: Clausal subject</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>csubj</term>: Clausal subject</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>csubj</term>: Clausal subject</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>csubj</term>: Clausal subject</catDesc>
@@ -827,6 +870,8 @@
                      <term>csubj</term>: Clausal subject</catDesc>
                   <catDesc corresp="ParlaMint-IS.ana">
                      <term>csubj</term>Clausal subject</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>csubj</term>: Clausal subject</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>csubj</term>: Clausal subject</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
@@ -848,8 +893,7 @@
                      <term>dep</term>: Unspecified dependency</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>dep</term>: Unspecified dependency</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>dep</term>: Unspecified dependency</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>dep</term>: Unspecified dependency</catDesc>
@@ -857,6 +901,8 @@
                      <term>dep</term>: Unspecified dependency</catDesc>
                   <catDesc corresp="ParlaMint-IS.ana">
                      <term>dep</term>Unspecified dependency</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>dep</term>: Unspecified dependency</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>dep</term>: Unspecified dependency</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
@@ -880,8 +926,7 @@
                      <term>det</term>: Determiner</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>det</term>: Determiner</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>det</term>: Determiner</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>det</term>: Determiner</catDesc>
@@ -889,6 +934,8 @@
                      <term>det</term>: Determiner</catDesc>
                   <catDesc corresp="ParlaMint-IS.ana">
                      <term>det</term>Determiner</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>det</term>: Determiner</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>det</term>: Determiner</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
@@ -912,13 +959,14 @@
                      <term>discourse</term>: Discourse element</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>discourse</term>: Discourse element</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>discourse</term>: Discourse element</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>discourse</term>: Discourse element</catDesc>
                   <catDesc corresp="ParlaMint-IS.ana">
                      <term>discourse</term>Discourse element</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>discourse</term>: Discourse element</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>discourse</term>: Discourse element</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
@@ -942,13 +990,14 @@
                      <term>expl</term>: Expletive</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>expl</term>: Expletive</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>expl</term>: Expletive</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>expl</term>: Expletive</catDesc>
                   <catDesc corresp="ParlaMint-IS.ana">
                      <term>expl</term>Expletive</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>expl</term>: Expletive</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>expl</term>: Expletive</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
@@ -972,13 +1021,14 @@
                      <term>fixed</term>: Fixed multiword expression</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>fixed</term>: Fixed multiword expression</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>fixed</term>: Fixed multiword expression</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>fixed</term>: Fixed multiword expression</catDesc>
                   <catDesc corresp="ParlaMint-IS.ana">
                      <term>fixed</term>Fixed multiword expression</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>fixed</term>: Fixed multiword expression</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>fixed</term>: Fixed multiword expression</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
@@ -1002,13 +1052,14 @@
                      <term>flat</term>: Flat multiword expression</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>flat</term>: Flat multiword expression</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>flat</term>: Flat multiword expression</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>flat</term>: Flat multiword expression</catDesc>
                   <catDesc corresp="ParlaMint-IS.ana">
                      <term>flat</term>Flat multiword expression</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>flat</term>: Flat multiword expression</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>flat</term>: Flat multiword expression</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
@@ -1026,13 +1077,14 @@
                      <term>flat:foreign</term>: Flat multiword expression: foreign</catDesc>
                   <catDesc corresp="ParlaMint-CZ.ana">
                      <term>flat:foreign</term>: Flat multiword expression: foreign</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>flat:foreign</term>: Flat multiword expression: foreign</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>flat:foreign</term>: Flat multiword expression: foreign</catDesc>
                   <catDesc corresp="ParlaMint-IS.ana">
                      <term>flat:foreign</term>Flat multiword expression: foreign</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>flat:foreign</term>: Flat multiword expression: foreign</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>flat:foreign</term>: Flat multiword expression: foreign</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
@@ -1052,8 +1104,7 @@
                      <term>flat:name</term>: Flat name</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>flat:name</term>: Flat name</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>flat:name</term>: Flat name</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>flat:name</term>: Flat name</catDesc>
@@ -1061,6 +1112,8 @@
                      <term>flat:name</term>: Flat name</catDesc>
                   <catDesc corresp="ParlaMint-IS.ana">
                      <term>flat:name</term>Flat name</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>flat:name</term>: Flat name</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>flat:name</term>: Flat name</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
@@ -1084,8 +1137,7 @@
                      <term>iobj</term>: Indirect object</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>iobj</term>: Indirect object</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>iobj</term>: Indirect object</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>iobj</term>: Indirect object</catDesc>
@@ -1093,6 +1145,8 @@
                      <term>iobj</term>: Indirect object</catDesc>
                   <catDesc corresp="ParlaMint-IS.ana">
                      <term>iobj</term>Indirect object</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>iobj</term>: Indirect object</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>iobj</term>: Indirect object</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
@@ -1116,8 +1170,7 @@
                      <term>mark</term>: Marker</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>mark</term>: Marker</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>mark</term>: Marker</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>mark</term>: Marker</catDesc>
@@ -1125,6 +1178,8 @@
                      <term>mark</term>: Marker</catDesc>
                   <catDesc corresp="ParlaMint-IS.ana">
                      <term>mark</term>Marker</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>mark</term>: Marker</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>mark</term>: Marker</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
@@ -1148,8 +1203,7 @@
                      <term>nmod</term>: Nominal modifier</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>nmod</term>: Nominal modifier</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>nmod</term>: Nominal modifier</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>nmod</term>: Nominal modifier</catDesc>
@@ -1157,6 +1211,8 @@
                      <term>nmod</term>: Nominal modifier</catDesc>
                   <catDesc corresp="ParlaMint-IS.ana">
                      <term>nmod</term>Nominal modifier</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>nmod</term>: Nominal modifier</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>nmod</term>: Nominal modifier</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
@@ -1180,8 +1236,7 @@
                      <term>nsubj</term>: Nominal subject</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>nsubj</term>: Nominal subject</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>nsubj</term>: Nominal subject</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>nsubj</term>: Nominal subject</catDesc>
@@ -1189,6 +1244,8 @@
                      <term>nsubj</term>: Nominal subject</catDesc>
                   <catDesc corresp="ParlaMint-IS.ana">
                      <term>nsubj</term>Nominal subject</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>nsubj</term>: Nominal subject</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>nsubj</term>: Nominal subject</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
@@ -1212,8 +1269,7 @@
                      <term>nummod</term>: Numeric modifier</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>nummod</term>: Numeric modifier</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>nummod</term>: Numeric modifier</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>nummod</term>: Numeric modifier</catDesc>
@@ -1221,6 +1277,8 @@
                      <term>nummod</term>: Numeric modifier</catDesc>
                   <catDesc corresp="ParlaMint-IS.ana">
                      <term>nummod</term>Numeric modifier</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>nummod</term>: Numeric modifier</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>nummod</term>: Numeric modifier</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
@@ -1244,8 +1302,7 @@
                      <term>obj</term>: Object</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>obj</term>: Object</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>obj</term>: Object</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>obj</term>: Object</catDesc>
@@ -1253,6 +1310,8 @@
                      <term>obj</term>: Object</catDesc>
                   <catDesc corresp="ParlaMint-IS.ana">
                      <term>obj</term>Object</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>obj</term>: Object</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>obj</term>: Object</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
@@ -1276,8 +1335,7 @@
                      <term>obl</term>: Oblique nominal</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>obl</term>: Oblique nominal</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>obl</term>: Oblique nominal</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>obl</term>: Oblique nominal</catDesc>
@@ -1285,6 +1343,8 @@
                      <term>obl</term>: Oblique nominal</catDesc>
                   <catDesc corresp="ParlaMint-IS.ana">
                      <term>obl</term>Oblique nominal</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>obl</term>: Oblique nominal</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>obl</term>: Oblique nominal</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
@@ -1306,8 +1366,7 @@
                      <term>parataxis</term>: Parataxis</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>parataxis</term>: Parataxis</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>parataxis</term>: Parataxis</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>parataxis</term>: Parataxis</catDesc>
@@ -1315,6 +1374,8 @@
                      <term>parataxis</term>: Parataxis</catDesc>
                   <catDesc corresp="ParlaMint-IS.ana">
                      <term>parataxis</term>Parataxis</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>parataxis</term>: Parataxis</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>parataxis</term>: Parataxis</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
@@ -1338,8 +1399,7 @@
                      <term>punct</term>: Punctuation</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>punct</term>: Punctuation</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>punct</term>: Punctuation</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>punct</term>: Punctuation</catDesc>
@@ -1347,6 +1407,8 @@
                      <term>punct</term>: Punctuation</catDesc>
                   <catDesc corresp="ParlaMint-IS.ana">
                      <term>punct</term>Punctuation</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>punct</term>: Punctuation</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>punct</term>: Punctuation</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
@@ -1368,13 +1430,14 @@
                      <term>reparandum</term>: Overridden disfluency (here used for program mistakes!)</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>reparandum</term>: Overridden disfluency (here used for program mistakes!)</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>reparandum</term>: Overridden disfluency (here used for program mistakes!)</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>reparandum</term>: Overridden disfluency (here used for program mistakes!)</catDesc>
                   <catDesc corresp="ParlaMint-IS.ana">
                      <term>reparandum</term>Overridden disfluency (here used for program mistakes!)</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>reparandum</term>: Overridden disfluency (here used for program mistakes!)</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>reparandum</term>: Overridden disfluency (here used for program mistakes!)</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
@@ -1398,8 +1461,7 @@
                      <term>root</term>: Root</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>root</term>: Root</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>root</term>: Root</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>root</term>: Root</catDesc>
@@ -1407,6 +1469,8 @@
                      <term>root</term>: Root</catDesc>
                   <catDesc corresp="ParlaMint-IS.ana">
                      <term>root</term>Root</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>root</term>: Root</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>root</term>: Root</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
@@ -1430,8 +1494,7 @@
                      <term>xcomp</term>: Open clausal complement</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>xcomp</term>: Open clausal complement</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>xcomp</term>: Open clausal complement</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>xcomp</term>: Open clausal complement</catDesc>
@@ -1439,6 +1502,8 @@
                      <term>xcomp</term>: Open clausal complement</catDesc>
                   <catDesc corresp="ParlaMint-IS.ana">
                      <term>xcomp</term>Open clausal complement</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>xcomp</term>: Open clausal complement</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>xcomp</term>: Open clausal complement</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
@@ -1453,23 +1518,23 @@
                </category>
                <category xml:id="nsubj_caus">
                   <catDesc corresp="ParlaMint-BE.ana">
-                     <term>nsubj_caus</term>
+                     <term>nsubj:caus</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
-                     <term>nsubj_caus</term>
+                     <term>nsubj:caus</term>
                   </catDesc>
                </category>
                <category xml:id="expl_comp">
                   <catDesc corresp="ParlaMint-BE.ana">
-                     <term>expl_comp</term>
+                     <term>expl:comp</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
-                     <term>expl_comp</term>
+                     <term>expl:comp</term>
                   </catDesc>
                </category>
                <category xml:id="acl_relcl">
                   <catDesc corresp="ParlaMint-BE.ana">
-                     <term>acl_relcl</term>
+                     <term>acl:relcl</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-BG.ana">
                      <term>acl:relcl</term>
@@ -1480,15 +1545,16 @@
                      <term>acl:relcl</term>: A relative clause modifier of an noun</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>acl:relcl</term>: Relative clause modifier</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>acl:relcl</term>: relative clause modifier</catDesc>
                   <catDesc corresp="ParlaMint-IS.ana">
-                     <term>acl_relcl</term>Relative clause modifier</catDesc>
+                     <term>acl:relcl</term>Relative clause modifier</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>acl:relcl</term>: relative clause modifier</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>acl:relcl</term>: Relative clause modifier</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
-                     <term>acl_relcl</term>
+                     <term>acl:relcl</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-PL.ana">
                      <term>acl:relcl</term>
@@ -1504,9 +1570,13 @@
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>goeswith</term>
                   </catDesc>
+                  <catDesc corresp="ParlaMint-GB.ana">
+                     <term>goeswith</term>: Goes with</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>goeswith</term>
                   </catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>goeswith</term>: goeswith</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>goeswith</term>
                   </catDesc>
@@ -1519,7 +1589,7 @@
                </category>
                <category xml:id="nsubj_pass">
                   <catDesc corresp="ParlaMint-BE.ana">
-                     <term>nsubj_pass</term>
+                     <term>nsubj:pass</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-BG.ana">
                      <term>nsubj:pass</term>
@@ -1528,16 +1598,17 @@
                      <term>nsubj:pass</term>: Passive nominal subject</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>nsubj:pass</term>: Passive nominal subject</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>nsubj:pass</term>: passive nominal subject</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>nsubj:pass</term>
                   </catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>nsubj:pass</term>: passive nominal subject</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>nsubj:pass</term>: Passive nominal subject</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
-                     <term>nsubj_pass</term>
+                     <term>nsubj:pass</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-PL.ana">
                      <term>nsubj:pass</term>
@@ -1545,14 +1616,14 @@
                </category>
                <category xml:id="obl_arg">
                   <catDesc corresp="ParlaMint-BE.ana">
-                     <term>obl_arg</term>
+                     <term>obl:arg</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-CZ.ana">
                      <term>obl:arg</term>: Oblique argument</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>obl:arg</term>: Oblique argument</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
-                     <term>obl_arg</term>
+                     <term>obl:arg</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-PL.ana">
                      <term>obl:arg</term>
@@ -1560,41 +1631,42 @@
                </category>
                <category xml:id="obj_agent">
                   <catDesc corresp="ParlaMint-BE.ana">
-                     <term>obj_agent</term>
+                     <term>obj:agent</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
-                     <term>obj_agent</term>
+                     <term>obj:agent</term>
                   </catDesc>
                </category>
                <category xml:id="obj_lvc">
                   <catDesc corresp="ParlaMint-BE.ana">
-                     <term>obj_lvc</term>
+                     <term>obj:lvc</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-HU.ana">
                      <term>obj:lvc</term>: Object: object of a light verb</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
-                     <term>obj_lvc</term>
+                     <term>obj:lvc</term>
                   </catDesc>
                </category>
                <category xml:id="expl_subj">
                   <catDesc corresp="ParlaMint-BE.ana">
-                     <term>expl_subj</term>
+                     <term>expl:subj</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
-                     <term>expl_subj</term>
+                     <term>expl:subj</term>
                   </catDesc>
                </category>
                <category xml:id="obl_agent">
                   <catDesc corresp="ParlaMint-BE.ana">
-                     <term>obl_agent</term>
+                     <term>obl:agent</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>obl:agent</term>: Agent modifier</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
+                     <term>obl:agent</term>: agent modifier</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
                      <term>obl:agent</term>: agent modifier</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
-                     <term>obl_agent</term>
+                     <term>obl:agent</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-PL.ana">
                      <term>obl:agent</term>
@@ -1611,14 +1683,15 @@
                      <term>orphan</term>: Orphan</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>orphan</term>: Orphan-to-orphan relation in gapping</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>orphan</term>: orphan-to-orphan relation in gapping</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>orphan</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-HU.ana">
                      <term>orphan</term>: Relation between Adjective and Noun</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>orphan</term>: orphan-to-orphan relation in gapping</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>orphan</term>: Orphan</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
@@ -1630,68 +1703,68 @@
                </category>
                <category xml:id="nmod_poss">
                   <catDesc corresp="ParlaMint-BE.ana">
-                     <term>nmod_poss</term>
+                     <term>nmod:poss</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-DK.ana">
                      <term>nmod:poss</term>: Nominal modifier which occurs before its head in the specifier position used for ‘s possessives</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>nmod:poss</term>: Possessive nominal modifier</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>nmod:poss</term>: possessive nominal modifier</catDesc>
                   <catDesc corresp="ParlaMint-IS.ana">
-                     <term>nmod_poss</term>Possisive nominal modifier</catDesc>
+                     <term>nmod:poss</term>Possisive nominal modifier</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
-                     <term>nmod_poss</term>
+                     <term>nmod:poss</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-TR.ana">
                      <term>nmod:poss</term>: Possessive nominal modifier</catDesc>
                </category>
                <category xml:id="iobj_agent">
                   <catDesc corresp="ParlaMint-BE.ana">
-                     <term>iobj_agent</term>
+                     <term>iobj:agent</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
-                     <term>iobj_agent</term>
+                     <term>iobj:agent</term>
                   </catDesc>
                </category>
                <category xml:id="advcl_cleft">
                   <catDesc corresp="ParlaMint-BE.ana">
-                     <term>advcl_cleft</term>
+                     <term>advcl:cleft</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
-                     <term>advcl_cleft</term>
+                     <term>advcl:cleft</term>
                   </catDesc>
                </category>
                <category xml:id="expl_pass">
                   <catDesc corresp="ParlaMint-BE.ana">
-                     <term>expl_pass</term>
+                     <term>expl:pass</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-CZ.ana">
                      <term>expl:pass</term>: Reflexive pronoun used in reflexive passive</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>expl:pass</term>: Expletive passive</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>expl:pass</term>: reflexive pronoun used in reflexive passive</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>expl:pass</term>: Reflexive pronoun used in reflexive passive</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
-                     <term>expl_pass</term>
+                     <term>expl:pass</term>
                   </catDesc>
                </category>
                <category xml:id="compound_prt">
                   <catDesc corresp="ParlaMint-BE.ana">
-                     <term>compound_prt</term>
+                     <term>compound:prt</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-DK.ana">
                      <term>compound:prt</term>: Phrasal verb particle relation</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>compound:prt</term>: Phrasal verb particle</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>compound:prt</term>: phrasal verb particle</catDesc>
                   <catDesc corresp="ParlaMint-IS.ana">
-                     <term>compound_prt</term>Compound (particle verb)</catDesc>
+                     <term>compound:prt</term>Compound (particle verb)</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
-                     <term>compound_prt</term>
+                     <term>compound:prt</term>
                   </catDesc>
                </category>
                <category xml:id="vocative">
@@ -1710,6 +1783,8 @@
                   </catDesc>
                   <catDesc corresp="ParlaMint-IS.ana">
                      <term>vocative</term>Vocative</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>vocative</term>: Vocative</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>vocative</term>: Vocative</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
@@ -1721,7 +1796,7 @@
                </category>
                <category xml:id="expl_pv">
                   <catDesc corresp="ParlaMint-BE.ana">
-                     <term>expl_pv</term>
+                     <term>expl:pv</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-CZ.ana">
                      <term>expl:pv</term>: Reflexive clitic with an inherently reflexive verb</catDesc>
@@ -1733,7 +1808,7 @@
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>expl:pv</term>: Reflexive clitic with an inherently reflexive verb</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
-                     <term>expl_pv</term>
+                     <term>expl:pv</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-PL.ana">
                      <term>expl:pv</term>
@@ -1741,18 +1816,18 @@
                </category>
                <category xml:id="obl_mod">
                   <catDesc corresp="ParlaMint-BE.ana">
-                     <term>obl_mod</term>
+                     <term>obl:mod</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
-                     <term>obl_mod</term>
+                     <term>obl:mod</term>
                   </catDesc>
                </category>
                <category xml:id="aux_caus">
                   <catDesc corresp="ParlaMint-BE.ana">
-                     <term>aux_caus</term>
+                     <term>aux:caus</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
-                     <term>aux_caus</term>
+                     <term>aux:caus</term>
                   </catDesc>
                </category>
                <category xml:id="dislocated">
@@ -1762,6 +1837,8 @@
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>dislocated</term>
                   </catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>dislocated</term>: Dislocated elements</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
                      <term>dislocated</term>
                   </catDesc>
@@ -1771,7 +1848,7 @@
                </category>
                <category xml:id="aux_pass">
                   <catDesc corresp="ParlaMint-BE.ana">
-                     <term>aux_pass</term>
+                     <term>aux:pass</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-BG.ana">
                      <term>aux:pass</term>
@@ -1780,16 +1857,17 @@
                      <term>aux:pass</term>: Passive auxiliary</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>aux:pass</term>: Passive auxiliary</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>aux:pass</term>: passive auxiliary</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>aux:pass</term>
                   </catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>aux:pass</term>: passive auxiliary</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>aux:pass</term>: Passive auxiliary</catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
-                     <term>aux_pass</term>
+                     <term>aux:pass</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-PL.ana">
                      <term>aux:pass</term>
@@ -1797,10 +1875,10 @@
                </category>
                <category xml:id="aux_tense">
                   <catDesc corresp="ParlaMint-BE.ana">
-                     <term>aux_tense</term>
+                     <term>aux:tense</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-NL.ana">
-                     <term>aux_tense</term>
+                     <term>aux:tense</term>
                   </catDesc>
                </category>
                <category xml:id="compound">
@@ -1811,14 +1889,15 @@
                      <term>compound</term>: Compound</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>compound</term>: Compound</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>compound</term>: compound</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>compound</term>
                   </catDesc>
                   <catDesc corresp="ParlaMint-HU.ana">
                      <term>compound</term>: Relation between verb and preverb</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>compound</term>: compound</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>compound</term>: Compound</catDesc>
                   <catDesc corresp="ParlaMint-PL.ana">
@@ -1835,12 +1914,13 @@
                      <term>csubj:pass</term>: Clausal passive subject</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>csubj:pass</term>: Clausal passive subject</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>csubj:pass</term>: Clausal passive subject</catDesc>
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>csubj:pass</term>
                   </catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>csubj:pass</term>: Clausal passive subject</catDesc>
                   <catDesc corresp="ParlaMint-LV.ana">
                      <term>csubj:pass</term>: Clausal passive subject</catDesc>
                   <catDesc corresp="ParlaMint-PL.ana">
@@ -1896,6 +1976,8 @@
                   <catDesc corresp="ParlaMint-HR.ana">
                      <term>list</term>
                   </catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>list</term>: List</catDesc>
                   <catDesc corresp="ParlaMint-PL.ana">
                      <term>list</term>
                   </catDesc>
@@ -1909,59 +1991,55 @@
                      <term>obl:tmod</term>: A temporal modifier</catDesc>
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>obl:tmod</term>: Temporal modifier</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>obl:tmod</term>: temporal modifier</catDesc>
                </category>
                <category xml:id="det_predet">
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>det:predet</term>: Predeterminer</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
+                     <term>det:predet</term>: predeterminer</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
                      <term>det:predet</term>: predeterminer</catDesc>
                </category>
                <category xml:id="det_qmod">
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>det:qmod</term>: Special relation quantificational modifier</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>det:qmod</term>: special relation quantificational modifier</catDesc>
                </category>
                <category xml:id="expl_impers">
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>expl:impers</term>: Expletive impersonal</catDesc>
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>expl:impers</term>: impersonal expletive</catDesc>
                </category>
                <category xml:id="nsubj_xsubj">
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>nsubj:xsubj</term>: Controlling subject (enhanced dependency)</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>nsubj:xsubj</term>: controlling subject (enhanced dependency)</catDesc>
                </category>
                <category xml:id="nsubj_pass_xsubj">
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>nsubj:pass:xsubj</term>: Controlling passive subject (enhanced dependency)</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>nsubj:pass:xsubj</term>: controlling passive subject (enhanced dependency)</catDesc>
                </category>
                <category xml:id="obl_npmod">
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>obl</term>: Oblique nominal noun phrase modifier</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>obl</term>: oblique nominal noun phrase modifier</catDesc>
                </category>
                <category xml:id="ref">
                   <catDesc corresp="ParlaMint-ES.ana">
                      <term>ref</term>: Relative clause (enhanced dependency)</catDesc>
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>ref</term>: relative clause (enhanced dependency)</catDesc>
                </category>
                <category xml:id="udpe">
-                  <catDesc xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                           corresp="ParlaMint-GB.ana">
+                  <catDesc corresp="ParlaMint-GB.ana">
                      <term>?</term>: UD parser error</catDesc>
                </category>
                <category xml:id="advmod_locy">
@@ -2031,6 +2109,51 @@
                   <catDesc corresp="ParlaMint-HU.ana">
                      <term>nmod:obl</term>: Nominal modifier: oblique</catDesc>
                </category>
+               <category xml:id="det_poss">
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>det:poss</term>: possessive determiner</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>det:poss</term>
+                  </catDesc>
+               </category>
+               <category xml:id="discourse_emo">
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>discourse:emo</term>: emoticons, emojis</catDesc>
+               </category>
+               <category xml:id="parataxis_appos">
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>parataxis:appos</term>: paratactic apposition</catDesc>
+               </category>
+               <category xml:id="parataxis_discourse">
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>parataxis:discourse</term>: paratactic discourse</catDesc>
+               </category>
+               <category xml:id="parataxis_hashtag">
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>parataxis:hashtag</term>: paratactic hashtag</catDesc>
+               </category>
+               <category xml:id="parataxis_insert">
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>parataxis:insert</term>: paratactic insert</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>parataxis:insert</term>
+                  </catDesc>
+               </category>
+               <category xml:id="parataxis_nsubj">
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>parataxis:nsubj</term>: paratactic nominal subject</catDesc>
+               </category>
+               <category xml:id="parataxis_obj">
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>parataxis:obj</term>: direct speech</catDesc>
+                  <catDesc corresp="ParlaMint-PL.ana">
+                     <term>parataxis:obj</term>
+                  </catDesc>
+               </category>
+               <category xml:id="vocative_mention">
+                  <catDesc corresp="ParlaMint-IT.ana">
+                     <term>vocative:mention</term>: Vocative mention</catDesc>
+               </category>
                <category xml:id="advcl_relcl">
                   <catDesc corresp="ParlaMint-PL.ana">
                      <term>advcl:relcl</term>
@@ -2066,11 +2189,6 @@
                      <term>aux:imp</term>
                   </catDesc>
                </category>
-               <category xml:id="det_poss">
-                  <catDesc corresp="ParlaMint-PL.ana">
-                     <term>det:poss</term>
-                  </catDesc>
-               </category>
                <category xml:id="discourse_intj">
                   <catDesc corresp="ParlaMint-PL.ana">
                      <term>discourse:intj</term>
@@ -2094,16 +2212,6 @@
                <category xml:id="obl_cmpr">
                   <catDesc corresp="ParlaMint-PL.ana">
                      <term>obl:cmpr</term>
-                  </catDesc>
-               </category>
-               <category xml:id="parataxis_insert">
-                  <catDesc corresp="ParlaMint-PL.ana">
-                     <term>parataxis:insert</term>
-                  </catDesc>
-               </category>
-               <category xml:id="parataxis_obj">
-                  <catDesc corresp="ParlaMint-PL.ana">
-                     <term>parataxis:obj</term>
                   </catDesc>
                </category>
                <category xml:id="xcomp_pred">
@@ -2137,22 +2245,17 @@
             </application>
             <application ident="udify" version="1.0">
                <label>Udify</label>
-               <desc>UDify is a single model that parses Universal Dependencies (UPOS, UFeats, Lemmas, Deps) jointly, accepting any of 75 supported languages as input.
-        Available from <ref target="https://github.com/Hyperparticle/udify">https://github.com/Hyperparticle/udify</ref>
+               <desc>UDify is a single model that parses Universal Dependencies (UPOS, UFeats, Lemmas, Deps) jointly, accepting any of 75 supported languages as input. Available from <ref target="https://github.com/Hyperparticle/udify">https://github.com/Hyperparticle/udify</ref>
                </desc>
             </application>
             <application ident="flair-ner" version="1.0">
                <label>Flair NLP NER tagging for French and Dutch</label>
-               <desc>A powerful NLP library. Flair allows you to apply our state-of-the-art natural language processing (NLP) models to your text,
-          such as named entity recognition (NER), part-of-speech tagging (PoS), sense disambiguation and classification, with support for a rapidly growing number of languages.
-          Available from <ref target="https://github.com/flairNLP/flair">https://github.com/flairNLP/flair</ref>
+               <desc>A powerful NLP library. Flair allows you to apply our state-of-the-art natural language processing (NLP) models to your text, such as named entity recognition (NER), part-of-speech tagging (PoS), sense disambiguation and classification, with support for a rapidly growing number of languages. Available from <ref target="https://github.com/flairNLP/flair">https://github.com/flairNLP/flair</ref>
                </desc>
             </application>
             <application ident="trankit" version="1.0">
                <label>Trankit: A Light-Weight Transformer-based Python Toolkit for Multilingual Natural Language Processing</label>
-               <desc>Trankit is a light-weight Transformer-based Python Toolkit for multilingual Natural Language Processing (NLP).
-          It provides a trainable pipeline for fundamental NLP tasks over 100 languages, and 90 downloadable pretrained pipelines for 56 languages.
-          Available from <ref target="https://github.com/nlp-uoregon/trankit">https://github.com/nlp-uoregon/trankit</ref>
+               <desc>Trankit is a light-weight Transformer-based Python Toolkit for multilingual Natural Language Processing (NLP). It provides a trainable pipeline for fundamental NLP tasks over 100 languages, and 90 downloadable pretrained pipelines for 56 languages. Available from <ref target="https://github.com/nlp-uoregon/trankit">https://github.com/nlp-uoregon/trankit</ref>
                </desc>
             </application>
          </appInfo>
@@ -2204,8 +2307,7 @@
                <desc>Tokenisation, POS tagging, NER and dependency parsed using Stanza, a Python NLP language analysis package <ref target="https://stanfordnlp.github.io/stanza/">https://stanfordnlp.github.io/stanza/</ref>. UD parsing was trained on the Spanish AnCora Treebank <ref target="https://github.com/UniversalDependencies/UD_Spanish-AnCora">https://github.com/UniversalDependencies/UD_Spanish-AnCora</ref>.</desc>
             </application>
          </appInfo>
-         <appInfo xmlns:parlamint="java:uk.ac.lancs.ucrel.parlamint.ExtensionFunctions"
-                  n="ParlaMint-GB.ana">
+         <appInfo n="ParlaMint-GB.ana">
             <application version="4.0" ident="stanford-corenlp">
                <label>Stanford CoreNLP</label>
                <desc>Tokenisation, POS tagging, NER and dependency parsed using Stanford CoreNLP <ref target="https://stanfordnlp.github.io/CoreNLP/">https://stanfordnlp.github.io/CoreNLP/</ref>.</desc>
@@ -2262,6 +2364,23 @@
                <desc>MSD tagging done with the ufal.udpipe avaiable at <ref target="https://pypi.org/project/ufal.udpipe/">https://pypi.org/project/ufal.udpipe/</ref>.</desc>
             </application>
          </appInfo>
+         <appInfo n="ParlaMint-IT.ana">
+            <application version="1" ident="app-stanza">
+               <label>Stanza</label>
+               <desc>
+                  <ref target="https://stanfordnlp.github.io/stanza/index.html">Stanza</ref>: a jointly trained neural tagger, lemmatizer and dependency parser. Pretrained model based on the italian-isdt-ud-2.5 treebank</desc>
+            </application>
+            <application version="1" ident="app-t2k">
+               <label>T2K</label>
+               <desc>
+                  <ref target="http://www.italianlp.it/demo/t2k-text-to-knowledge/">T2K</ref>: contains a named entity recognition module for Italian.</desc>
+            </application>
+            <application version="1" ident="conll-U2TEIXML">
+               <label>CoNLL-U 2 TEI XML</label>
+               <desc>
+                  <ref target="http://conllu2teixml">CoNLL-U 2 TEI XML</ref>: converter from CoNLL-U format to (ParlaClarin/ParlaMint) Tei XML Format</desc>
+            </application>
+         </appInfo>
          <appInfo n="ParlaMint-LV.ana">
             <application version="1.0" ident="LV-NLP-PIPE">
                <label>NLP-PIPE: Latvian NLP Tool Pipeline</label>
@@ -2275,22 +2394,17 @@
             </application>
             <application ident="udify" version="1.0">
                <label>Udify</label>
-               <desc>UDify is a single model that parses Universal Dependencies (UPOS, UFeats, Lemmas, Deps) jointly, accepting any of 75 supported languages as input.
-    	  Available from <ref target="https://github.com/Hyperparticle/udify">https://github.com/Hyperparticle/udify</ref>
+               <desc>UDify is a single model that parses Universal Dependencies (UPOS, UFeats, Lemmas, Deps) jointly, accepting any of 75 supported languages as input. Available from <ref target="https://github.com/Hyperparticle/udify">https://github.com/Hyperparticle/udify</ref>
                </desc>
             </application>
             <application ident="flair-ner" version="1.0">
                <label>Flair NLP NER tagging for French and Dutch</label>
-               <desc>A powerful NLP library. Flair allows you to apply our state-of-the-art natural language processing (NLP) models to your text,
-    	  such as named entity recognition (NER), part-of-speech tagging (PoS), sense disambiguation and classification, with support for a rapidly growing number of languages.
-    	  Available from <ref target="https://github.com/flairNLP/flair">https://github.com/flairNLP/flair</ref>
+               <desc>A powerful NLP library. Flair allows you to apply our state-of-the-art natural language processing (NLP) models to your text, such as named entity recognition (NER), part-of-speech tagging (PoS), sense disambiguation and classification, with support for a rapidly growing number of languages. Available from <ref target="https://github.com/flairNLP/flair">https://github.com/flairNLP/flair</ref>
                </desc>
             </application>
             <application ident="trankit" version="1.0">
                <label>Trankit: A Light-Weight Transformer-based Python Toolkit for Multilingual Natural Language Processing</label>
-               <desc>Trankit is a light-weight Transformer-based Python Toolkit for multilingual Natural Language Processing (NLP).
-    	  It provides a trainable pipeline for fundamental NLP tasks over 100 languages, and 90 downloadable pretrained pipelines for 56 languages.
-    	  Available from <ref target="https://github.com/nlp-uoregon/trankit">https://github.com/nlp-uoregon/trankit</ref>
+               <desc>Trankit is a light-weight Transformer-based Python Toolkit for multilingual Natural Language Processing (NLP). It provides a trainable pipeline for fundamental NLP tasks over 100 languages, and 90 downloadable pretrained pipelines for 56 languages. Available from <ref target="https://github.com/nlp-uoregon/trankit">https://github.com/nlp-uoregon/trankit</ref>
                </desc>
             </application>
          </appInfo>
@@ -2341,9 +2455,7 @@
          <appInfo n="ParlaMint-TR.ana">
             <application version="2.0" ident="TRmorph">
                <label>TRmoroph morphological analyzer</label>
-               <desc>Tokenisation, sentence segmentation, lemmatization, POS tagging,
-               morphological features with TRmorph.
-               Available from <ref target="https://github.com/coltekin/trmorph">https://github.com/coltekin/trmorph</ref>.</desc>
+               <desc>Tokenisation, sentence segmentation, lemmatization, POS tagging, morphological features with TRmorph. Available from <ref target="https://github.com/coltekin/trmorph">https://github.com/coltekin/trmorph</ref>.</desc>
             </application>
             <application ident="UDPipe" version="2">
                <label>UDPipe 2 (turkish-imst-ud-2.6-200830 model)</label>
@@ -2356,7 +2468,7 @@
          </appInfo>
       </encodingDesc>
       <revisionDesc>
-         <change when="2021-04-16">
+         <change when="2021-04-20">
             <name>Tomaž Erjavec</name>: Generate root</change>
       </revisionDesc>
    </teiHeader>
@@ -2378,6 +2490,8 @@
                href="ParlaMint-HU/ParlaMint-HU.ana.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-IS/ParlaMint-IS.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-IT/ParlaMint-IT.ana.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-LV/ParlaMint-LV.ana.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
