@@ -7,7 +7,7 @@ root:
 	$s -xsl:Scripts/parlamint2root.xsl Scripts/ParlaMint-template.ana.xml > ParlaMint.ana.xml
 
 # Validate and derive formats for 1 language
-LANG = ES
+LANG = CZ
 PREF = /project/corpora/Parla/ParlaMint/ParlaMint
 all-lang:	all-lang-tei all-lang-ana
 all-lang-tei:	val-pc-lang val-lang text-lang meta-lang chars-lang
@@ -58,7 +58,7 @@ conllu:
 	Scripts/parlamint2conllu.pl ParlaMint-HR ParlaMint-HR 2> ParlaMint-HR/ParlaMint-HR.conllu.log
 	Scripts/parlamint2conllu.pl ParlaMint-HU ParlaMint-HU 2> ParlaMint-HU/ParlaMint-HU.conllu.log
 	Scripts/parlamint2conllu.pl ParlaMint-IS ParlaMint-IS 2> ParlaMint-IS/ParlaMint-IS.conllu.log
-	#Scripts/parlamint2conllu.pl ParlaMint-IT ParlaMint-IT 2> ParlaMint-IT/ParlaMint-IT.conllu.log
+	Scripts/parlamint2conllu.pl ParlaMint-IT ParlaMint-IT 2> ParlaMint-IT/ParlaMint-IT.conllu.log
 	#Scripts/parlamint2conllu.pl ParlaMint-LT ParlaMint-LT 2> ParlaMint-LT/ParlaMint-LT.conllu.log
 	#Scripts/parlamint2conllu.pl ParlaMint-LV ParlaMint-LV 2> ParlaMint-LV/ParlaMint-LV.conllu.log
 	Scripts/parlamint2conllu.pl ParlaMint-NL ParlaMint-NL 2> ParlaMint-NL/ParlaMint-NL.conllu.log
