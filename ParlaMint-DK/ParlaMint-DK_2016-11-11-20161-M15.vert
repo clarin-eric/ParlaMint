@@ -5,7 +5,7 @@
 <note type="agendaItem">
 /2016-11-11-0/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-DK_20161111100007" speaker_role="Chairperson" speaker_id="KjærsgaardPia" speaker_name="Kjærsgaard, Pia" speaker_type="MP" speaker_party="DF" speaker_party_name="Dansk Folkeparti" speaker_gender="F" speaker_birth="1947">
+<speech id="ParlaMint-DK_20161111100007" speaker_role="Chairperson" speaker_id="KjærsgaardPia" speaker_name="Kjærsgaard, Pia" speaker_type="MP" speaker_party="DF" speaker_party_name="Dansk Folkeparti" coalition_party="no" speaker_gender="F" speaker_birth="1947">
 <p id="ParlaMint-DK_20161111100007.seg1" lang="Danish">
 <s id="ParlaMint-DK_20161111100007.seg1.1">
 Mødet	Mødet	møde	NOUN	Definite=Def Gender=Neut Number=Sing	1	nsubj	åbne	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
@@ -308,7 +308,7 @@ folketingstidende.dk.	folketingstidende.dk.	folketingstidende.dk.	NOUN	Definite=
 <note type="agendaItem">
 /2016-11-11-1/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-DK_20161111100112" speaker_role="Chairperson" speaker_id="KjærsgaardPia" speaker_name="Kjærsgaard, Pia" speaker_type="MP" speaker_party="DF" speaker_party_name="Dansk Folkeparti" speaker_gender="F" speaker_birth="1947">
+<speech id="ParlaMint-DK_20161111100112" speaker_role="Chairperson" speaker_id="KjærsgaardPia" speaker_name="Kjærsgaard, Pia" speaker_type="MP" speaker_party="DF" speaker_party_name="Dansk Folkeparti" coalition_party="no" speaker_gender="F" speaker_birth="1947">
 <p id="ParlaMint-DK_20161111100112.seg2" lang="Danish">
 <s id="ParlaMint-DK_20161111100112.seg2.1">
 Forhandlingen	Forhandlingen	forhandling	NOUN	Definite=Def Gender=Com Number=Sing	1	nsubj	åbne	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
@@ -343,7 +343,7 @@ Værsgo	Værsgo	værsgo	INTJ	-	1	root	-	-	-	-
 <note type="gap::editorial">
 /SAMPLING/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-DK_20161111151753" speaker_role="Chairperson" speaker_id="KjærsgaardPia" speaker_name="Kjærsgaard, Pia" speaker_type="MP" speaker_party="DF" speaker_party_name="Dansk Folkeparti" speaker_gender="F" speaker_birth="1947">
+<speech id="ParlaMint-DK_20161111151753" speaker_role="Chairperson" speaker_id="KjærsgaardPia" speaker_name="Kjærsgaard, Pia" speaker_type="MP" speaker_party="DF" speaker_party_name="Dansk Folkeparti" coalition_party="no" speaker_gender="F" speaker_birth="1947">
 <p id="ParlaMint-DK_20161111151753.seg408" lang="Danish">
 <s id="ParlaMint-DK_20161111151753.seg408.1">
 Tak	Tak	tak	NOUN	Definite=Ind Gender=Com Number=Sing	1	root	-	-	-	-
@@ -418,7 +418,7 @@ vedtaget	vedtaget	vedtage	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part
 <note type="agendaItem">
 /2016-11-11-0/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-DK_20161111151807" speaker_role="Chairperson" speaker_id="KjærsgaardPia" speaker_name="Kjærsgaard, Pia" speaker_type="MP" speaker_party="DF" speaker_party_name="Dansk Folkeparti" speaker_gender="F" speaker_birth="1947">
+<speech id="ParlaMint-DK_20161111151807" speaker_role="Chairperson" speaker_id="KjærsgaardPia" speaker_name="Kjærsgaard, Pia" speaker_type="MP" speaker_party="DF" speaker_party_name="Dansk Folkeparti" coalition_party="no" speaker_gender="F" speaker_birth="1947">
 <p id="ParlaMint-DK_20161111151807.seg409" lang="Danish">
 <s id="ParlaMint-DK_20161111151807.seg409.1">
 Der	Der	der	ADV	PartType=Inf	1	expl	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	2

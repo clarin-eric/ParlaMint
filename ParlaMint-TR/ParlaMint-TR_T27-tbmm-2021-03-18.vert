@@ -5,7 +5,7 @@
 <note type="chair">
 /Celal A/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="tbmm-2021-03-18s01p001" speaker_role="Regular" speaker_id="Celal.Adan" speaker_name="Adan, Celal" speaker_type="MP" speaker_party="MHP" speaker_party_name="Milliyetçi Hareket Partisi" speaker_gender="M" speaker_birth="?">
+<speech id="tbmm-2021-03-18s01p001" speaker_role="Regular" speaker_id="Celal.Adan" speaker_name="Adan, Celal" speaker_type="MP" speaker_party="MHP" speaker_party_name="Milliyetçi Hareket Partisi" coalition_party="?" speaker_gender="M" speaker_birth="?">
 <p id="tbmm-2021-03-18s01p001.seg0" lang="Turkish">
 <s id="tbmm-2021-03-18s01p001-000010">
 <name type="ORG">
@@ -22,7 +22,7 @@ açıyorum	açıyorum	aç	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Perso
 </s>
 </p>
 </speech>
-<speech id="tbmm-2021-03-18s01p002" speaker_role="Regular" speaker_id="Celal.Adan" speaker_name="Adan, Celal" speaker_type="MP" speaker_party="MHP" speaker_party_name="Milliyetçi Hareket Partisi" speaker_gender="M" speaker_birth="?">
+<speech id="tbmm-2021-03-18s01p002" speaker_role="Regular" speaker_id="Celal.Adan" speaker_name="Adan, Celal" speaker_type="MP" speaker_party="MHP" speaker_party_name="Milliyetçi Hareket Partisi" coalition_party="?" speaker_gender="M" speaker_birth="?">
 <p id="tbmm-2021-03-18s01p002.seg0" lang="Turkish">
 <s id="tbmm-2021-03-18s01p002-000010">
 Başkan	Başkan	başkan	NOUN	-	t1	nmod:poss	et	VERB	Case=Abl Number=Sing Number[psor]=Sing Person[psor]=3 Polarity=Neg Tense=Past VerbForm=Part	t5

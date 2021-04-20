@@ -2,7 +2,7 @@
 <note type="speaker">
 /Místopředseda PSP Vojtěch Filip/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u1" speaker_role="Chairperson" speaker_id="VojtechFilip.1955" speaker_name="Filip, Vojtěch" speaker_type="MP" speaker_party="KSČM" speaker_party_name="Poslanecký klub Komunistické strany Čech a Moravy" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u1" speaker_role="Chairperson" speaker_id="VojtechFilip.1955" speaker_name="Filip, Vojtěch" speaker_type="MP" speaker_party="KSČM" speaker_party_name="Poslanecký klub Komunistické strany Čech a Moravy" coalition_party="?" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u1.p1" lang="Czech">
 <s id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u1.p1.s1">
 162	162	162	NUM	NumForm=Digit NumType=Card	w1	root	-	-	-	-
@@ -176,7 +176,7 @@ slovo	slovo	slovo	NOUN	Case=Acc Gender=Neut Number=Sing Polarity=Pos	w7	obj	mít
 <note type="speaker">
 /Ministr vnitra ČR Milan Chovanec/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u2" speaker_role="Regular" speaker_id="MilanChovanec.1970" speaker_name="Chovanec, Milan" speaker_type="MP" speaker_party="ČSSD" speaker_party_name="Poslanecký klub České strany sociálně demokratické" speaker_gender="M" speaker_birth="1970">
+<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u2" speaker_role="Regular" speaker_id="MilanChovanec.1970" speaker_name="Chovanec, Milan" speaker_type="MP" speaker_party="ČSSD" speaker_party_name="Poslanecký klub České strany sociálně demokratické" coalition_party="?" speaker_gender="M" speaker_birth="1970">
 <p id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u2.p1" lang="Czech">
 <s id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u2.p1.s1">
 Vážený	Vážený	vážený	ADJ	Animacy=Anim Case=Voc Degree=Pos Gender=Masc Number=Sing Polarity=Pos	w1	amod	poslankyně	NOUN	Case=Acc Gender=Fem Number=Plur Polarity=Pos	w6
@@ -390,7 +390,7 @@ pozornost	pozornost	pozornost	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	
 <note type="gap::editorial">
 /SAMPLING/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u14" speaker_role="Regular" speaker_id="MiloslavJanulik.1962" speaker_name="Janulík, Miloslav" speaker_type="MP" speaker_party="ANO" speaker_party_name="Poslanecký klub ANO 2011" speaker_gender="M" speaker_birth="1962">
+<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u14" speaker_role="Regular" speaker_id="MiloslavJanulik.1962" speaker_name="Janulík, Miloslav" speaker_type="MP" speaker_party="ANO" speaker_party_name="Poslanecký klub ANO 2011" coalition_party="?" speaker_gender="M" speaker_birth="1962">
 <p id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u14.p1" lang="Czech">
 <s id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u14.p1.s1">
 Třetí	Třetí	třetí	ADJ	Case=Nom Gender=Neut Number=Sing NumType=Ord	w1	amod	hlasování	NOUN	Case=Nom Gender=Neut Number=Sing Polarity=Pos	w2
@@ -444,7 +444,7 @@ nedoporučuje	nedoporučuje	doporučovat	VERB	Aspect=Imp Mood=Ind Number=Sing Pe
 <note type="speaker">
 /Místopředseda PSP Vojtěch Filip/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u15" speaker_role="Chairperson" speaker_id="VojtechFilip.1955" speaker_name="Filip, Vojtěch" speaker_type="MP" speaker_party="KSČM" speaker_party_name="Poslanecký klub Komunistické strany Čech a Moravy" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u15" speaker_role="Chairperson" speaker_id="VojtechFilip.1955" speaker_name="Filip, Vojtěch" speaker_type="MP" speaker_party="KSČM" speaker_party_name="Poslanecký klub Komunistické strany Čech a Moravy" coalition_party="?" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u15.p1" lang="Czech">
 <s id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u15.p1.s1">
 Pan	Pan	pan	NOUN	Animacy=Anim Case=Nom Gender=Masc Number=Sing Polarity=Pos	w1	nmod	ministr	NOUN	Animacy=Anim Case=Nom Gender=Masc Number=Sing Polarity=Pos	w2

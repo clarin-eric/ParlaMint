@@ -8,18 +8,33 @@
          <titleStmt>
             <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 17, Seduta 724 [ParlaMint SAMPLE]</title>
             <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 17, Sitting 724 [ParlaMint SAMPLE]</title>
-            <title type="sub" xml:lang="it">Resoconto  della seduta del Senato della  Repubblica italiana, Legislatura 17, seduta 724, giorno (2016-11-16)</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 17, seduta 724, giorno (2016-11-16)</title>
             <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 17, Sitting 724, Day (2016-11-16)</title>
             <meeting ana="#parla.upper">Senato</meeting>
             <meeting ana="#parla.upper #parla.term" n="17-upper">17 Legislatura</meeting>
             <meeting ana="#parla.upper #parla.sitting" n="724-upper">724 Seduta</meeting>
             <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
                <persName>Tommaso Agnoloni</persName>
-               <persName>Giulia Venturi</persName>
-               <persName>Francesca Frontini</persName>
-               <persName>Valeria Quochi</persName>
-               <resp xml:lang="it">Reperimento dati e conversione in TEI</resp>
-               <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
             </respStmt>
             <funder>
                <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
@@ -43,13 +58,13 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>1.0</edition>
+            <edition>2.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure quantity="154" unit="speeches" xml:lang="it">154 discorsi</measure>
             <measure quantity="154" unit="speeches" xml:lang="en">154 speeches</measure>
-            <measure quantity="22718" unit="words" xml:lang="it">22718 parole</measure>
-            <measure quantity="22718" unit="words" xml:lang="en">22718 words</measure>
+            <measure quantity="23337" unit="words" xml:lang="it">23.337 parole</measure>
+            <measure quantity="23337" unit="words" xml:lang="en">23,337 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -57,22 +72,15 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URL">https://github.com/clarin-eric/ParlaMint</idno>
-            <pubPlace>
-               <ref target="https://github.com/clarin-eric/ParlaMint">https://github.com/clarin-eric/ParlaMint</ref>
-            </pubPlace>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1388</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2021-03-20">2021-03-20</date>
+            <date when="2021-04-20">2021-04-20</date>
          </publicationStmt>
          <sourceDesc>
-            <bibl>
-               <title>Multilingual comparable corpora of parliamentary debates ParlaMint 2.0</title>
-               <idno type="handle">http://hdl.handle.net/11356/1388</idno>
-            </bibl>
             <bibl>
                <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
                <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
@@ -117,7 +125,7 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-03-20">
+         <change when="2021-04-20">
             <name>Tomaž Erjavec</name>: Made sample.</change>
          <change when="2021-02-02">
             <name>Tommaso Agnoloni</name>:Made sample.</change>

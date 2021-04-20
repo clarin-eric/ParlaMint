@@ -8,7 +8,7 @@
 <note type="debate">
 /Posiedzeniu przewodniczą marszałek Stanisław Karczewski oraz wicemarszałkowie Maria Koc, Grzegorz Czelej i Adam Bielan/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-PL_2017-02-21-senat-35-1.u1" speaker_role="Chairperson" speaker_id="KuchcińskiMarek" speaker_name="Kuchciński, Marek" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-PL_2017-02-21-senat-35-1.u1" speaker_role="Chairperson" speaker_id="KuchcińskiMarek" speaker_name="Kuchciński, Marek" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" coalition_party="?" speaker_gender="M" speaker_birth="1955">
 <p id="seg635541" lang="Polish">
 <s id="seg635541.1">
 Otwieram	Otwieram	otwierać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
@@ -960,7 +960,7 @@ Senatu	Senatu	senat	PROPN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	41	nmod	
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-PL_2017-02-21-senat-35-1.u2" speaker_role="Regular" speaker_id="FedorowiczJerzy" speaker_name="Fedorowicz, Jerzy" speaker_type="MP" speaker_party="KO" speaker_party_name="Klub Parlamentarny Koalicja Obywatelska - Platforma Obywatelska, Nowoczesna, Inicjatywa Polska, Zieloni" speaker_gender="M" speaker_birth="1947">
+<speech id="ParlaMint-PL_2017-02-21-senat-35-1.u2" speaker_role="Regular" speaker_id="FedorowiczJerzy" speaker_name="Fedorowicz, Jerzy" speaker_type="MP" speaker_party="KO" speaker_party_name="Klub Parlamentarny Koalicja Obywatelska - Platforma Obywatelska, Nowoczesna, Inicjatywa Polska, Zieloni" coalition_party="?" speaker_gender="M" speaker_birth="1947">
 <p id="seg635560" lang="Polish">
 <s id="seg635560.1">
 (	(	(	PUNCT	PunctSide=Ini PunctType=Brck	1	punct	kiedy	ADV	PronType=Int	4
@@ -978,7 +978,7 @@ kiedy	kiedy	kiedy	ADV	PronType=Int	4	root	-	-	-	-
 <note type="gap::editorial">
 /SAMPLING/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-PL_2017-02-21-senat-35-1.u210" speaker_role="Regular" speaker_id="StanisławekAndrzej" speaker_name="Stanisławek, Andrzej" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" speaker_gender="M" speaker_birth="1954">
+<speech id="ParlaMint-PL_2017-02-21-senat-35-1.u210" speaker_role="Regular" speaker_id="StanisławekAndrzej" speaker_name="Stanisławek, Andrzej" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" coalition_party="?" speaker_gender="M" speaker_birth="1954">
 <p id="seg636080" lang="Polish">
 <s id="seg636080.1">
 Panie	Panie	pan	NOUN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	1	vocative	-	-	-	-
@@ -2628,7 +2628,7 @@ bardzo	bardzo	bardzo	ADV	Degree=Pos	2	advmod	dziękować	VERB	Aspect=Imp Mood=In
 /Oklaski/	-	-	-	-	-	-	-	-	-	-
 </note>
 </speech>
-<speech id="ParlaMint-PL_2017-02-21-senat-35-1.u211" speaker_role="Chairperson" speaker_id="BielanAdam" speaker_name="Bielan, Adam" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" speaker_gender="M" speaker_birth="1974">
+<speech id="ParlaMint-PL_2017-02-21-senat-35-1.u211" speaker_role="Chairperson" speaker_id="BielanAdam" speaker_name="Bielan, Adam" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" coalition_party="?" speaker_gender="M" speaker_birth="1974">
 <p id="seg636090" lang="Polish">
 <s id="seg636090.1">
 Bardzo	Bardzo	bardzo	ADV	Degree=Pos	1	advmod	dziękować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2

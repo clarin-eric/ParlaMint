@@ -1,13 +1,13 @@
 <text id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.ana" subcorpus="Reference" term="54" session="-" meeting="ip002" sitting="-" agenda="-" from="2014-06-30" to="2014-06-30" title="Belgisch parlementair corpus ParlaMint-BE, plenaire zitting van 30-06-2014 [ParlaMint.ana SAMPLE]">
-<speech id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.u1" speaker_role="Chairperson" speaker_id="FlahautAndré" speaker_name="Flahaut, André" speaker_type="MP" speaker_party="PS" speaker_party_name="Parti Socialiste" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.u1" speaker_role="Chairperson" speaker_id="FlahautAndré" speaker_name="Flahaut, André" speaker_type="MP" speaker_party="PS" speaker_party_name="Parti Socialiste" coalition_party="?" speaker_gender="M" speaker_birth="1955">
 <note type="-">
 /De voorzitter:/	-	-	-	-	-	-	-	-	-	-
 </note>
 <p id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.seg1" lang="Dutch">
 <s id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.s6">
 De	De	de	DET	Definite=Def	w70	det	vergadering	NOUN	Gender=Com Number=Sing	w71
-vergadering	vergadering	vergadering	NOUN	Gender=Com Number=Sing	w71	nsubj_pass	openen	VERB	VerbForm=Part	w73
-is	is	zijn	AUX	Number=Sing Tense=Pres VerbForm=Fin	w72	aux_pass	openen	VERB	VerbForm=Part	w73
+vergadering	vergadering	vergadering	NOUN	Gender=Com Number=Sing	w71	nsubj:pass	openen	VERB	VerbForm=Part	w73
+is	is	zijn	AUX	Number=Sing Tense=Pres VerbForm=Fin	w72	aux:pass	openen	VERB	VerbForm=Part	w73
 geopend	geopend	openen	VERB	VerbForm=Part	w73	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	pc15	punct	openen	VERB	VerbForm=Part	w73
@@ -16,15 +16,15 @@ geopend	geopend	openen	VERB	VerbForm=Part	w73	root	-	-	-	-
 <p id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.seg2" lang="French">
 <s id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.s7">
 La	La	le	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w74	det	séance	NOUN	Gender=Fem Number=Sing	w75
-séance	séance	séance	NOUN	Gender=Fem Number=Sing	w75	nsubj_pass	ouvrir	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w77
-est	est	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w76	aux_pass	ouvrir	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w77
+séance	séance	séance	NOUN	Gender=Fem Number=Sing	w75	nsubj:pass	ouvrir	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w77
+est	est	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w76	aux:pass	ouvrir	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w77
 ouverte	ouverte	ouvrir	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w77	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	pc16	punct	ouvrir	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w77
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.u2" speaker_role="Chairperson" speaker_id="FlahautAndré" speaker_name="Flahaut, André" speaker_type="MP" speaker_party="PS" speaker_party_name="Parti Socialiste" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.u2" speaker_role="Chairperson" speaker_id="FlahautAndré" speaker_name="Flahaut, André" speaker_type="MP" speaker_party="PS" speaker_party_name="Parti Socialiste" coalition_party="?" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.seg3" lang="Dutch">
 <s id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.s24">
 Aan	Aan	aan	ADP	-	w201	case	orde	NOUN	Gender=Com Number=Sing	w203
@@ -73,9 +73,9 @@ définitif	définitif	définitif	ADJ	Gender=Masc Number=Sing	w219	amod	bureau	NO
 <s id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.s27">
 Het	Het	het	DET	Definite=Def	w221	det	bureau	NOUN	Gender=Com,Neut Number=Sing	w222
 <name type="ORG">
-Bureau	Bureau	bureau	NOUN	Gender=Com,Neut Number=Sing	w222	nsubj_pass	samenstellen	VERB	VerbForm=Part	w226
+Bureau	Bureau	bureau	NOUN	Gender=Com,Neut Number=Sing	w222	nsubj:pass	samenstellen	VERB	VerbForm=Part	w226
 </name>
-wordt	wordt	worden	AUX	Number=Sing Tense=Pres VerbForm=Fin	w223	aux_pass	samenstellen	VERB	VerbForm=Part	w226
+wordt	wordt	worden	AUX	Number=Sing Tense=Pres VerbForm=Fin	w223	aux:pass	samenstellen	VERB	VerbForm=Part	w226
 als	als	als	SCONJ	-	w224	mark	volgen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w225
 volgt	volgt	volgen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w225	advcl	samenstellen	VERB	VerbForm=Part	w226
 samengesteld	samengesteld	samenstellen	VERB	VerbForm=Part	w226	root	-	-	-	-
@@ -123,9 +123,9 @@ Bureauleden	Bureauleden	Bureaulid	PROPN	Number=Plur	w237	root	-	-	-	-
 <s id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.s32">
 Het	Het	het	DET	Definite=Def	w239	det	bureau	NOUN	Gender=Com,Neut Number=Sing	w240
 <name type="ORG">
-Bureau	Bureau	bureau	NOUN	Gender=Com,Neut Number=Sing	w240	nsubj_pass	aanvullen	VERB	VerbForm=Part	w242
+Bureau	Bureau	bureau	NOUN	Gender=Com,Neut Number=Sing	w240	nsubj:pass	aanvullen	VERB	VerbForm=Part	w242
 </name>
-wordt	wordt	worden	AUX	Number=Sing Tense=Pres VerbForm=Fin	w241	aux_pass	aanvullen	VERB	VerbForm=Part	w242
+wordt	wordt	worden	AUX	Number=Sing Tense=Pres VerbForm=Fin	w241	aux:pass	aanvullen	VERB	VerbForm=Part	w242
 aangevuld	aangevuld	aanvullen	VERB	VerbForm=Part	w242	root	-	-	-	-
 met	met	met	ADP	-	w243	obl	aanvullen	VERB	VerbForm=Part	w242
 <g/>
@@ -189,7 +189,7 @@ het	het	het	DET	Definite=Def	w279	det	bureau	NOUN	Gender=Neut Number=Sing	w280
 <name type="ORG">
 Bureau	Bureau	bureau	NOUN	Gender=Neut Number=Sing	w280	nmod	lid	NOUN	Gender=Neut Number=Sing	w277
 </name>
-heeft	heeft	hebben	VERB	Number=Sing Tense=Pres VerbForm=Fin	w281	acl_relcl	fractie	NOUN	Gender=Com Number=Sing	w265
+heeft	heeft	hebben	VERB	Number=Sing Tense=Pres VerbForm=Fin	w281	acl:relcl	fractie	NOUN	Gender=Com Number=Sing	w265
 <g/>
 .	.	.	PUNCT	-	pc59	punct	lid	NOUN	Gender=Neut Number=Sing	w262
 </s>
@@ -199,12 +199,12 @@ heeft	heeft	hebben	VERB	Number=Sing Tense=Pres VerbForm=Fin	w281	acl_relcl	fract
 1.	1.	1.	PUNCT	-	w282	punct	composer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w286
 Le	Le	le	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w283	det	bureau	NOUN	Gender=Masc Number=Sing	w284
 <name type="ORG">
-Bureau	Bureau	bureau	NOUN	Gender=Masc Number=Sing	w284	nsubj_pass	composer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w286
+Bureau	Bureau	bureau	NOUN	Gender=Masc Number=Sing	w284	nsubj:pass	composer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w286
 </name>
-est	est	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w285	aux_pass	composer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w286
+est	est	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w285	aux:pass	composer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w286
 composé	composé	composer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w286	root	-	-	-	-
 comme	comme	comme	ADP	-	w287	case	suivre	NOUN	-	w288
-suit	suit	suivre	NOUN	-	w288	obl_mod	composer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w286
+suit	suit	suivre	NOUN	-	w288	obl:mod	composer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w286
 <g/>
 :	:	:	PUNCT	-	pc61	punct	composer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w286
 </s>
@@ -247,9 +247,9 @@ Bureau	Bureau	bureau	NOUN	Gender=Masc Number=Sing	w301	nmod	membre	NOUN	Gender=M
 2.	2.	2.	PUNCT	-	w302	punct	compléter	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w306
 Le	Le	le	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w303	det	bureau	NOUN	Gender=Masc Number=Sing	w304
 <name type="ORG">
-Bureau	Bureau	bureau	NOUN	Gender=Masc Number=Sing	w304	nsubj_pass	compléter	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w306
+Bureau	Bureau	bureau	NOUN	Gender=Masc Number=Sing	w304	nsubj:pass	compléter	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w306
 </name>
-est	est	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w305	aux_pass	compléter	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w306
+est	est	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w305	aux:pass	compléter	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w306
 complété	complété	compléter	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w306	root	-	-	-	-
 par	par	par	ADP	-	w307	mark	compléter	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w306
 <g/>
@@ -293,14 +293,14 @@ un	un	un	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	w323	det	membre	N
 membre	membre	membre	NOUN	Gender=Masc Number=Sing	w324	root	-	-	-	-
 associé	associé	associer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w325	acl	membre	NOUN	Gender=Masc Number=Sing	w324
 par	par	par	ADP	-	w326	case	groupe	NOUN	Gender=Masc Number=Sing	w327
-groupe	groupe	groupe	NOUN	Gender=Masc Number=Sing	w327	obl_agent	associer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w325
+groupe	groupe	groupe	NOUN	Gender=Masc Number=Sing	w327	obl:agent	associer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w325
 politique	politique	politique	ADJ	Gender=Masc Number=Sing	w328	amod	groupe	NOUN	Gender=Masc Number=Sing	w327
 qui	qui	qui	PRON	PronType=Rel	w329	nsubj	compter	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w330
-compte	compte	compter	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w330	acl_relcl	membre	NOUN	Gender=Masc Number=Sing	w324
+compte	compte	compter	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w330	acl:relcl	membre	NOUN	Gender=Masc Number=Sing	w324
 moins	moins	moins	ADV	-	w331	obj	compter	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w330
 de	de	de	ADP	-	w332	case	membre	NOUN	Gender=Masc Number=Plur	w334
 douze	douze	douze	NUM	-	w333	nummod	membre	NOUN	Gender=Masc Number=Plur	w334
-membres	membres	membre	NOUN	Gender=Masc Number=Plur	w334	obl_arg	moins	ADV	-	w331
+membres	membres	membre	NOUN	Gender=Masc Number=Plur	w334	obl:arg	moins	ADV	-	w331
 et	et	et	CCONJ	-	w335	cc	avoir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	pc76
 qui	qui	qui	PRON	PronType=Rel	w336	nsubj	avoir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	pc76
 n'	n'	ne	ADV	Polarity=Neg	w337	advmod	avoir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	pc76
@@ -314,7 +314,7 @@ du	de|le	de|le	ADP|DET	-|Definite=Def Gender=Masc Number=Sing PronType=Art	w341a
 Bureau	Bureau	bureau	NOUN	Gender=Masc Number=Sing	w342	nmod	membre	NOUN	Gender=Masc Number=Sing	w340
 visé	visé	viser	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w343	acl	bureau	NOUN	Gender=Masc Number=Sing	w342
 au	à|le	à|le	ADP|DET	-|Definite=Def Gender=Masc Number=Sing PronType=Art	w344a|w344b	case|det	°	SYM	-	w345
-n°	n°	°	SYM	-	w345	obl_arg	viser	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w343
+n°	n°	°	SYM	-	w345	obl:arg	viser	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w343
 1	1	1	NUM	-	w346	nmod	°	SYM	-	w345
 <g/>
 </name>
@@ -324,8 +324,8 @@ n°	n°	°	SYM	-	w345	obl_arg	viser	VERB	Gender=Masc Number=Sing Tense=Past Verb
 <p id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.seg21" lang="Dutch">
 <s id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.s44">
 De	De	de	DET	Definite=Def	w347	det	voorzitter	NOUN	Gender=Com Number=Sing	w348
-voorzitter	voorzitter	voorzitter	NOUN	Gender=Com Number=Sing	w348	nsubj_pass	verkiezen	VERB	VerbForm=Part	w350
-wordt	wordt	worden	AUX	Number=Sing Tense=Pres VerbForm=Fin	w349	aux_pass	verkiezen	VERB	VerbForm=Part	w350
+voorzitter	voorzitter	voorzitter	NOUN	Gender=Com Number=Sing	w348	nsubj:pass	verkiezen	VERB	VerbForm=Part	w350
+wordt	wordt	worden	AUX	Number=Sing Tense=Pres VerbForm=Fin	w349	aux:pass	verkiezen	VERB	VerbForm=Part	w350
 verkozen	verkozen	verkiezen	VERB	VerbForm=Part	w350	root	-	-	-	-
 overeenkomstig	overeenkomstig	overeenkomstig	ADP	-	w351	case	artikel	NOUN	Gender=Neut Number=Sing	w352
 artikel	artikel	artikel	NOUN	Gender=Neut Number=Sing	w352	obl	verkiezen	VERB	VerbForm=Part	w350
@@ -342,17 +342,17 @@ Reglement	Reglement	reglement	NOUN	Gender=Neut Number=Sing	w356	nmod	artikel	NOU
 <p id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.seg22" lang="Dutch">
 <s id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.s45">
 De	De	de	DET	Definite=Def	w357	det	ondervoorzitter	NOUN	Number=Plur	w358
-ondervoorzitters	ondervoorzitters	ondervoorzitter	NOUN	Number=Plur	w358	nsubj_pass	benoemen	VERB	VerbForm=Part	w362
+ondervoorzitters	ondervoorzitters	ondervoorzitter	NOUN	Number=Plur	w358	nsubj:pass	benoemen	VERB	VerbForm=Part	w362
 en	en	en	CCONJ	-	w359	cc	Bureaulid	NOUN	Number=Plur	w360
 <name type="MISC">
 Bureauleden	Bureauleden	Bureaulid	NOUN	Number=Plur	w360	conj	ondervoorzitter	NOUN	Number=Plur	w358
 </name>
-worden	worden	worden	AUX	Number=Plur Tense=Pres VerbForm=Fin	w361	aux_pass	benoemen	VERB	VerbForm=Part	w362
+worden	worden	worden	AUX	Number=Plur Tense=Pres VerbForm=Fin	w361	aux:pass	benoemen	VERB	VerbForm=Part	w362
 benoemd	benoemd	benoemen	VERB	VerbForm=Part	w362	root	-	-	-	-
 door	door	door	ADP	-	w363	case	kamer	NOUN	Gender=Com Number=Sing	w365
 de	de	de	DET	Definite=Def	w364	det	kamer	NOUN	Gender=Com Number=Sing	w365
 <name type="ORG">
-Kamer	Kamer	kamer	NOUN	Gender=Com Number=Sing	w365	obl_agent	benoemen	VERB	VerbForm=Part	w362
+Kamer	Kamer	kamer	NOUN	Gender=Com Number=Sing	w365	obl:agent	benoemen	VERB	VerbForm=Part	w362
 </name>
 overeenkomstig	overeenkomstig	overeenkomstig	ADP	-	w366	case	artikel	NOUN	Gender=Neut Number=Sing	w367
 artikel	artikel	artikel	NOUN	Gender=Neut Number=Sing	w367	obl	benoemen	VERB	VerbForm=Part	w362
@@ -377,9 +377,9 @@ fracties	fracties	fractie	NOUN	Number=Plur	w378	nmod	voorstel	NOUN	Gender=Neut N
 ,	,	,	PUNCT	-	pc83	punct	meerekenen	VERB	VerbForm=Part	w383
 waarbij	waarbij	waarbij	ADV	-	w379	advmod	meerekenen	VERB	VerbForm=Part	w383
 het	het	het	DET	Definite=Def	w380	det	voorzitterschap	NOUN	Gender=Neut Number=Sing	w381
-voorzitterschap	voorzitterschap	voorzitterschap	NOUN	Gender=Neut Number=Sing	w381	nsubj_pass	meerekenen	VERB	VerbForm=Part	w383
-wordt	wordt	worden	AUX	Number=Sing Tense=Pres VerbForm=Fin	w382	aux_pass	meerekenen	VERB	VerbForm=Part	w383
-meegerekend	meegerekend	meerekenen	VERB	VerbForm=Part	w383	acl_relcl	voorstel	NOUN	Gender=Neut Number=Sing	w374
+voorzitterschap	voorzitterschap	voorzitterschap	NOUN	Gender=Neut Number=Sing	w381	nsubj:pass	meerekenen	VERB	VerbForm=Part	w383
+wordt	wordt	worden	AUX	Number=Sing Tense=Pres VerbForm=Fin	w382	aux:pass	meerekenen	VERB	VerbForm=Part	w383
+meegerekend	meegerekend	meerekenen	VERB	VerbForm=Part	w383	acl:relcl	voorstel	NOUN	Gender=Neut Number=Sing	w374
 in	in	in	ADP	-	w384	case	toewijzing	NOUN	Gender=Com Number=Sing	w386
 de	de	de	DET	Definite=Def	w385	det	toewijzing	NOUN	Gender=Com Number=Sing	w386
 toewijzing	toewijzing	toewijzing	NOUN	Gender=Com Number=Sing	w386	obl	meerekenen	VERB	VerbForm=Part	w383
@@ -397,8 +397,8 @@ fracties	fracties	fractie	NOUN	Number=Plur	w397	nmod	vertegenwoordiging	NOUN	Gen
 en	en	en	CCONJ	-	w398	cc	benoemen	VERB	VerbForm=Part	w403
 waarbij	waarbij	waarbij	ADV	-	w399	advmod	benoemen	VERB	VerbForm=Part	w403
 zoveel	zoveel	zoveel	NUM	-	w400	nummod	lid	NOUN	Number=Plur	w401
-leden	leden	lid	NOUN	Number=Plur	w401	nsubj_pass	benoemen	VERB	VerbForm=Part	w403
-worden	worden	worden	AUX	Number=Plur Tense=Pres VerbForm=Fin	w402	aux_pass	benoemen	VERB	VerbForm=Part	w403
+leden	leden	lid	NOUN	Number=Plur	w401	nsubj:pass	benoemen	VERB	VerbForm=Part	w403
+worden	worden	worden	AUX	Number=Plur Tense=Pres VerbForm=Fin	w402	aux:pass	benoemen	VERB	VerbForm=Part	w403
 benoemd	benoemd	benoemen	VERB	VerbForm=Part	w403	conj	meerekenen	VERB	VerbForm=Part	w383
 als	als	als	SCONJ	-	w404	mark	nodig	ADJ	Degree=Pos	w405
 nodig	nodig	nodig	ADJ	Degree=Pos	w405	advcl	zoveel	NUM	-	w400
@@ -429,14 +429,14 @@ telt	telt	tellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w423	advcl	benoemen	VE
 <p id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.seg23" lang="French">
 <s id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.s46">
 Le	Le	le	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w424	det	président	NOUN	Gender=Masc Number=Sing	w425
-président	président	président	NOUN	Gender=Masc Number=Sing	w425	nsubj_pass	nommer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w427
-est	est	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w426	aux_pass	nommer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w427
+président	président	président	NOUN	Gender=Masc Number=Sing	w425	nsubj:pass	nommer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w427
+est	est	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w426	aux:pass	nommer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w427
 nommé	nommé	nommer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w427	root	-	-	-	-
 conformément	conformément	conformément	ADV	-	w428	advmod	nommer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w427
 à	à	à	ADP	-	w429	case	article	NOUN	Gender=Masc Number=Sing	pc85
 l'	l'	le	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w430	det	article	NOUN	Gender=Masc Number=Sing	pc85
 <g/>
-article	article	article	NOUN	Gender=Masc Number=Sing	pc85	obl_arg	conformément	ADV	-	w428
+article	article	article	NOUN	Gender=Masc Number=Sing	pc85	obl:arg	conformément	ADV	-	w428
 157	157	157	NUM	-	w431	nmod	article	NOUN	Gender=Masc Number=Sing	pc85
 du	de|le	de|le	ADP|DET	-|Definite=Def Gender=Masc Number=Sing PronType=Art	w432a|w432b	case|det	Règlement	PROPN	Gender=Masc Number=Sing	w433
 <name type="MISC">
@@ -449,25 +449,25 @@ Règlement	Règlement	Règlement	PROPN	Gender=Masc Number=Sing	w433	nmod	article
 <p id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.seg24" lang="French">
 <s id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.s47">
 Les	Les	le	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	w434	det	vice-président	NOUN	Gender=Masc Number=Plur	w435
-vice-présidents	vice-présidents	vice-président	NOUN	Gender=Masc Number=Plur	w435	nsubj_pass	nommer	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	w441
+vice-présidents	vice-présidents	vice-président	NOUN	Gender=Masc Number=Plur	w435	nsubj:pass	nommer	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	w441
 et	et	et	CCONJ	-	w436	cc	membre	NOUN	Gender=Masc Number=Plur	w437
 membres	membres	membre	NOUN	Gender=Masc Number=Plur	w437	conj	vice-président	NOUN	Gender=Masc Number=Plur	w435
 du	de|le	de|le	ADP|DET	-|Definite=Def Gender=Masc Number=Sing PronType=Art	w438a|w438b	case|det	bureau	NOUN	Gender=Masc Number=Sing	w439
 <name type="ORG">
 Bureau	Bureau	bureau	NOUN	Gender=Masc Number=Sing	w439	nmod	membre	NOUN	Gender=Masc Number=Plur	w437
 </name>
-sont	sont	être	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w440	aux_pass	nommer	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	w441
+sont	sont	être	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w440	aux:pass	nommer	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	w441
 nommés	nommés	nommer	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	w441	root	-	-	-	-
 par	par	par	ADP	-	w442	case	chambre	NOUN	Gender=Fem Number=Sing	w444
 la	la	le	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w443	det	chambre	NOUN	Gender=Fem Number=Sing	w444
 <name type="ORG">
-Chambre	Chambre	chambre	NOUN	Gender=Fem Number=Sing	w444	obl_agent	nommer	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	w441
+Chambre	Chambre	chambre	NOUN	Gender=Fem Number=Sing	w444	obl:agent	nommer	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	w441
 </name>
 conformément	conformément	conformément	ADV	-	w445	advmod	nommer	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	w441
 à	à	à	ADP	-	w446	case	article	NOUN	Gender=Masc Number=Sing	pc87
 l'	l'	le	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w447	det	article	NOUN	Gender=Masc Number=Sing	pc87
 <g/>
-article	article	article	NOUN	Gender=Masc Number=Sing	pc87	obl_arg	conformément	ADV	-	w445
+article	article	article	NOUN	Gender=Masc Number=Sing	pc87	obl:arg	conformément	ADV	-	w445
 158	158	158	NUM	-	w448	nmod	article	NOUN	Gender=Masc Number=Sing	pc87
 <g/>
 ,	,	,	PUNCT	-	pc88	punct	°	SYM	-	w449
@@ -491,8 +491,8 @@ politiques	politiques	politique	ADJ	Gender=Masc Number=Plur	w458	amod	groupe	NOU
 entendu	entendu	entendre	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w460	acl	proposition	NOUN	Gender=Fem Number=Sing	w455
 que	que	que	SCONJ	-	w461	mark	prendre	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w465
 la	la	le	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w462	det	présidence	NOUN	Gender=Fem Number=Sing	w463
-présidence	présidence	présidence	NOUN	Gender=Fem Number=Sing	w463	nsubj_pass	prendre	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w465
-est	est	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w464	aux_pass	prendre	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w465
+présidence	présidence	présidence	NOUN	Gender=Fem Number=Sing	w463	nsubj:pass	prendre	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w465
+est	est	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w464	aux:pass	prendre	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w465
 prise	prise	prendre	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w465	ccomp	entendre	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w460
 en	en	en	ADP	-	w466	case	compte	NOUN	Gender=Masc Number=Sing	w467
 compte	compte	compte	NOUN	Gender=Masc Number=Sing	w467	obl	prendre	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w465
@@ -517,15 +517,15 @@ et	et	et	CCONJ	-	w483	cc	procéder	VERB	Gender=Masc Number=Sing Tense=Past VerbF
 qu'	qu'	que	SCONJ	-	w484	mark	procéder	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w486
 <g/>
 il	il	il	PRON	Gender=Masc Number=Sing Person=3 PronType=Prs	pc93	nsubj	procéder	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w486
-est	est	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w485	aux_tense	procéder	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w486
+est	est	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w485	aux:tense	procéder	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w486
 procédé	procédé	procéder	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w486	conj	prendre	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w465
 à	à	à	ADP	-	w487	case	autant	ADV	-	w488
-autant	autant	autant	ADV	-	w488	obl_arg	procéder	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w486
+autant	autant	autant	ADV	-	w488	obl:arg	procéder	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w486
 de	de	de	ADP	-	w489	case	nomination	NOUN	Gender=Fem Number=Plur	w490
-nominations	nominations	nomination	NOUN	Gender=Fem Number=Plur	w490	obl_arg	autant	ADV	-	w488
+nominations	nominations	nomination	NOUN	Gender=Fem Number=Plur	w490	obl:arg	autant	ADV	-	w488
 qu'	qu'	que	SCONJ	-	w491	mark	nécessaire	ADJ	Gender=Masc Number=Sing	w493
 <g/>
-il	il	il	PRON	Gender=Masc Number=Sing Person=3 PronType=Prs	pc94	expl_subj	nécessaire	ADJ	Gender=Masc Number=Sing	w493
+il	il	il	PRON	Gender=Masc Number=Sing Person=3 PronType=Prs	pc94	expl:subj	nécessaire	ADJ	Gender=Masc Number=Sing	w493
 est	est	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w492	cop	nécessaire	ADJ	Gender=Masc Number=Sing	w493
 nécessaire	nécessaire	nécessaire	ADJ	Gender=Masc Number=Sing	w493	advcl	autant	ADV	-	w488
 pour	pour	pour	ADP	-	w494	mark	compter	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w503
@@ -545,7 +545,7 @@ moins	moins	moins	ADV	-	w505	fixed	à	ADP	-	w504a
 un	un	un	NUM	-	w506	nummod	membre	NOUN	Gender=Masc Number=Sing	w507
 membre	membre	membre	NOUN	Gender=Masc Number=Sing	w507	obj	compter	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w503
 au	à|le	à|le	ADP|DET	-|Definite=Def Gender=Masc Number=Sing PronType=Art	w508a|w508b	case|det	sein	NOUN	Gender=Masc Number=Sing	w509
-sein	sein	sein	NOUN	Gender=Masc Number=Sing	w509	obl_mod	compter	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w503
+sein	sein	sein	NOUN	Gender=Masc Number=Sing	w509	obl:mod	compter	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w503
 du	de|le	de|le	ADP|DET	-|Definite=Def Gender=Masc Number=Sing PronType=Art	w510a|w510b	case|det	bureau	NOUN	Gender=Masc Number=Sing	w511
 <name type="ORG">
 Bureau	Bureau	bureau	NOUN	Gender=Masc Number=Sing	w511	nmod	sein	NOUN	Gender=Masc Number=Sing	w509
@@ -571,10 +571,10 @@ stemopneming	stemopneming	stemopneming	NOUN	Gender=Com Number=Sing	w519	obl	same
 een	een	een	NUM	-	w520	nummod	bureau	NOUN	Number=Plur	w523
 of	of	of	CCONJ	-	w521	cc	twee	NUM	-	w522
 twee	twee	twee	NUM	-	w522	conj	een	NUM	-	w520
-bureaus	bureaus	bureau	NOUN	Number=Plur	w523	nsubj_pass	samenstellen	VERB	VerbForm=Part	w527
+bureaus	bureaus	bureau	NOUN	Number=Plur	w523	nsubj:pass	samenstellen	VERB	VerbForm=Part	w527
 van	van	van	ADP	-	w524	case	stemopnemer	NOUN	Number=Plur	w525
 stemopnemers	stemopnemers	stemopnemer	NOUN	Number=Plur	w525	nmod	bureau	NOUN	Number=Plur	w523
-worden	worden	worden	AUX	VerbForm=Inf	w526	aux_pass	samenstellen	VERB	VerbForm=Part	w527
+worden	worden	worden	AUX	VerbForm=Inf	w526	aux:pass	samenstellen	VERB	VerbForm=Part	w527
 samengesteld	samengesteld	samenstellen	VERB	VerbForm=Part	w527	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	pc99	punct	bestaand	VERB	VerbForm=Part	w529
@@ -585,7 +585,7 @@ vier	vier	vier	NUM	-	w531	nummod	lid	NOUN	Number=Plur	w538
 door	door	door	ADP	-	w532	case	lot	NOUN	Gender=Neut Number=Sing	w534
 het	het	het	DET	Definite=Def	w533	det	lot	NOUN	Gender=Neut Number=Sing	w534
 lot	lot	lot	NOUN	Gender=Neut Number=Sing	w534	obl	wijzen	VERB	VerbForm=Inf	w537
-aan	aan	aan	ADP	-	w535	compound_prt	wijzen	VERB	VerbForm=Inf	w537
+aan	aan	aan	ADP	-	w535	compound:prt	wijzen	VERB	VerbForm=Inf	w537
 te	te	te	ADP	-	w536	mark	wijzen	VERB	VerbForm=Inf	w537
 wijzen	wijzen	wijzen	VERB	VerbForm=Inf	w537	acl	lid	NOUN	Number=Plur	w538
 leden	leden	lid	NOUN	Number=Plur	w538	obl	bestaand	VERB	VerbForm=Part	w529
@@ -595,7 +595,7 @@ leden	leden	lid	NOUN	Number=Plur	w538	obl	bestaand	VERB	VerbForm=Part	w529
 </p>
 <p id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.seg26" lang="French">
 <s id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.s49">
-Il	Il	il	PRON	Gender=Masc Number=Sing Person=3 PronType=Prs	w539	expl_subj	importer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w540
+Il	Il	il	PRON	Gender=Masc Number=Sing Person=3 PronType=Prs	w539	expl:subj	importer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w540
 importe	importe	importer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w540	root	-	-	-	-
 de	de	de	ADP	-	w541	mark	nommer	VERB	VerbForm=Inf	w542
 nommer	nommer	nommer	VERB	VerbForm=Inf	w542	csubj	importer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w540
@@ -620,12 +620,12 @@ composés	composés	composer	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Pa
 chacun	chacun	chacun	PRON	Gender=Masc Number=Sing	w557	obl	composer	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	w556
 de	de	de	ADP	-	w558	case	membre	NOUN	Gender=Masc Number=Plur	w560
 quatre	quatre	quatre	NUM	-	w559	nummod	membre	NOUN	Gender=Masc Number=Plur	w560
-membres	membres	membre	NOUN	Gender=Masc Number=Plur	w560	obl_arg	composer	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	w556
+membres	membres	membre	NOUN	Gender=Masc Number=Plur	w560	obl:arg	composer	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	w556
 à	à	à	ADP	-	w561	mark	désigner	VERB	VerbForm=Inf	w562
 désigner	désigner	désigner	VERB	VerbForm=Inf	w562	acl	membre	NOUN	Gender=Masc Number=Plur	w560
 par	par	par	ADP	-	w563	case	sort	NOUN	Gender=Masc Number=Sing	w565
 le	le	le	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w564	det	sort	NOUN	Gender=Masc Number=Sing	w565
-sort	sort	sort	NOUN	Gender=Masc Number=Sing	w565	obl_agent	désigner	VERB	VerbForm=Inf	w562
+sort	sort	sort	NOUN	Gender=Masc Number=Sing	w565	obl:agent	désigner	VERB	VerbForm=Inf	w562
 <g/>
 .	.	.	PUNCT	-	pc103	punct	importer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w540
 </s>
@@ -635,11 +635,11 @@ sort	sort	sort	NOUN	Gender=Masc Number=Sing	w565	obl_agent	désigner	VERB	VerbFo
 Ik	Ik	ik	PRON	Case=Nom Person=1 PronType=Prs	w566	nsubj	stellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w567
 stel	stel	stellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w567	root	-	-	-	-
 u	u	u	PRON	Case=Nom Person=2 PronType=Prs	w568	iobj	stellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w567
-voor	voor	voor	ADP	-	w569	compound_prt	stellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w567
-onze	onze	ons	PRON	Person=1 Poss=Yes PronType=Prs	w570	nmod_poss	secretaris	NOUN	Number=Plur	w572
+voor	voor	voor	ADP	-	w569	compound:prt	stellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w567
+onze	onze	ons	PRON	Person=1 Poss=Yes PronType=Prs	w570	nmod:poss	secretaris	NOUN	Number=Plur	w572
 twee	twee	twee	NUM	-	w571	nummod	secretaris	NOUN	Number=Plur	w572
 secretarissen	secretarissen	secretaris	NOUN	Number=Plur	w572	obj	duiden	VERB	VerbForm=Inf	w575
-aan	aan	aan	ADP	-	w573	compound_prt	duiden	VERB	VerbForm=Inf	w575
+aan	aan	aan	ADP	-	w573	compound:prt	duiden	VERB	VerbForm=Inf	w575
 te	te	te	ADP	-	w574	mark	duiden	VERB	VerbForm=Inf	w575
 duiden	duiden	duiden	VERB	VerbForm=Inf	w575	ccomp	stellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w567
 als	als	als	SCONJ	-	w576	mark	stemopnemer	NOUN	Number=Plur	w577
@@ -652,7 +652,7 @@ de	de	de	DET	Definite=Def	w580	det	lid	NOUN	Number=Plur	w582
 jongste	jongste	jong	ADJ	Degree=Sup	w581	amod	lid	NOUN	Number=Plur	w582
 leden	leden	lid	NOUN	Number=Plur	w582	advcl	duiden	VERB	VerbForm=Inf	w575
 van	van	van	ADP	-	w583	case	assemblee	NOUN	Gender=Com Number=Sing	w585
-onze	onze	ons	PRON	Person=1 Poss=Yes PronType=Prs	w584	nmod_poss	assemblee	NOUN	Gender=Com Number=Sing	w585
+onze	onze	ons	PRON	Person=1 Poss=Yes PronType=Prs	w584	nmod:poss	assemblee	NOUN	Gender=Com Number=Sing	w585
 assemblee	assemblee	assemblee	NOUN	Gender=Com Number=Sing	w585	nmod	lid	NOUN	Number=Plur	w582
 zijn	zijn	zijn	AUX	Number=Plur Tense=Pres VerbForm=Fin	w586	cop	lid	NOUN	Number=Plur	w582
 <g/>
@@ -694,7 +694,7 @@ nos	nos	son	DET	Gender=Masc Number=Plur Poss=Yes PronType=Prs	w598	det	secrétai
 deux	deux	deux	NUM	-	w599	nummod	secrétaire	NOUN	Gender=Masc Number=Plur	w600
 secrétaires	secrétaires	secrétaire	NOUN	Gender=Masc Number=Plur	w600	obj	désigner	VERB	VerbForm=Inf	w597
 comme	comme	comme	ADP	-	w601	case	scrutateur	NOUN	Gender=Masc Number=Plur	w602
-scrutateurs	scrutateurs	scrutateur	NOUN	Gender=Masc Number=Plur	w602	obl_mod	désigner	VERB	VerbForm=Inf	w597
+scrutateurs	scrutateurs	scrutateur	NOUN	Gender=Masc Number=Plur	w602	obl:mod	désigner	VERB	VerbForm=Inf	w597
 <g/>
 ,	,	,	PUNCT	-	pc110	punct	membre	NOUN	Gender=Masc Number=Plur	w608
 étant	étant	être	AUX	Tense=Pres VerbForm=Part	w603	mark	membre	NOUN	Gender=Masc Number=Plur	w608
@@ -731,7 +731,7 @@ observation	observation	observation	NOUN	Gender=Fem Number=Sing	pc114	root	-	-	-
 <p id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.seg32" lang="French">
 <s id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.s57">
 Il	Il	il	PRON	Gender=Masc Number=Sing Person=3 PronType=Prs	w618	nsubj	être	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	w620
-en	en	en	PRON	Person=3	w619	expl_comp	être	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	w620
+en	en	en	PRON	Person=3	w619	expl:comp	être	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	w620
 sera	sera	être	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	w620	root	-	-	-	-
 ainsi	ainsi	ainsi	ADV	-	w621	advmod	être	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	w620
 <g/>
@@ -742,7 +742,7 @@ ainsi	ainsi	ainsi	ADV	-	w621	advmod	être	VERB	Mood=Ind Number=Sing Person=3 Ten
 <note type="gap::editorial">
 /SAMPLING/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.u77" speaker_role="Chairperson" speaker_id="FlahautAndré" speaker_name="Flahaut, André" speaker_type="MP" speaker_party="PS" speaker_party_name="Parti Socialiste" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.u77" speaker_role="Chairperson" speaker_id="FlahautAndré" speaker_name="Flahaut, André" speaker_type="MP" speaker_party="PS" speaker_party_name="Parti Socialiste" coalition_party="?" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.seg538" lang="Dutch">
 <s id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.s781">
 Bij	Bij	bij	ADP	-	w8544	case	brief	NOUN	Gender=Com Number=Sing	w8545
@@ -763,10 +763,10 @@ Franse	Franse	Frans	ADJ	Degree=Pos	w8555	nmod	parlement	NOUN	Gender=Neut Number=
 Gemeenschap	Gemeenschap	gemeenschap	NOUN	Gender=Com Number=Sing	w8556	fixed	Frans	ADJ	Degree=Pos	w8555
 </name>
 ons	ons	ons	PRON	Case=Acc Person=1 PronType=Prs	w8557	iobj	brengen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w8550
-ter	ter	ter	ADP	-	w8558	compound_prt	brengen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w8550
+ter	ter	ter	ADP	-	w8558	compound:prt	brengen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w8550
 kennis	kennis	kennis	NOUN	Gender=Com Number=Sing	w8559	fixed	ter	ADP	-	w8558
 dat	dat	dat	SCONJ	-	w8560	mark	verklaren	VERB	VerbForm=Part	w8571
-het	het	het	PRON	Person=3 PronType=Prs	w8561	nsubj_pass	verklaren	VERB	VerbForm=Part	w8571
+het	het	het	PRON	Person=3 PronType=Prs	w8561	nsubj:pass	verklaren	VERB	VerbForm=Part	w8571
 ter	ter	ter	ADP	-	w8562	case	vergadering	NOUN	Gender=Com Number=Sing	w8563
 vergadering	vergadering	vergadering	NOUN	Gender=Com Number=Sing	w8563	obl	verklaren	VERB	VerbForm=Part	w8571
 van	van	van	ADP	-	w8564	case	dag	NOUN	Gender=Com Number=Sing	w8566
@@ -777,13 +777,13 @@ wettig	wettig	wettig	ADJ	Degree=Pos	w8568	obl	verklaren	VERB	VerbForm=Part	w8571
 en	en	en	CCONJ	-	w8569	cc	voltallig	ADJ	Degree=Pos	w8570
 voltallig	voltallig	voltallig	ADJ	Degree=Pos	w8570	conj	wettig	ADJ	Degree=Pos	w8568
 verklaard	verklaard	verklaren	VERB	VerbForm=Part	w8571	ccomp	brengen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w8550
-is	is	zijn	AUX	Number=Sing Tense=Pres VerbForm=Fin	w8572	aux_pass	verklaren	VERB	VerbForm=Part	w8571
+is	is	zijn	AUX	Number=Sing Tense=Pres VerbForm=Fin	w8572	aux:pass	verklaren	VERB	VerbForm=Part	w8571
 </s>
 </p>
 <p id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.seg539" lang="French">
 <s id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.s782">
 Par	Par	par	ADP	-	w8573	case	message	NOUN	Gender=Masc Number=Sing	w8574
-message	message	message	NOUN	Gender=Masc Number=Sing	w8574	obl_mod	connaître	VERB	VerbForm=Inf	w8586
+message	message	message	NOUN	Gender=Masc Number=Sing	w8574	obl:mod	connaître	VERB	VerbForm=Inf	w8586
 du	de|le	de|le	ADP|DET	-|Definite=Def Gender=Masc Number=Sing PronType=Art	w8575a|w8575b	case|det	17	NUM	-	w8576
 17	17	17	NUM	-	w8576	nmod	message	NOUN	Gender=Masc Number=Sing	w8574
 juin	juin	juin	NOUN	Gender=Masc Number=Sing	w8577	nmod	17	NUM	-	w8576
@@ -792,20 +792,20 @@ juin	juin	juin	NOUN	Gender=Masc Number=Sing	w8577	nmod	17	NUM	-	w8576
 ,	,	,	PUNCT	-	pc1499	punct	message	NOUN	Gender=Masc Number=Sing	w8574
 le	le	le	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w8579	det	parlement	NOUN	Gender=Masc Number=Sing	w8580
 <name type="ORG">
-Parlement	Parlement	parlement	NOUN	Gender=Masc Number=Sing	w8580	nsubj_caus	connaître	VERB	VerbForm=Inf	w8586
+Parlement	Parlement	parlement	NOUN	Gender=Masc Number=Sing	w8580	nsubj:caus	connaître	VERB	VerbForm=Inf	w8586
 de	de	de	ADP	-	w8581	case	communauté	NOUN	Gender=Fem Number=Sing	w8583
 la	la	le	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w8582	det	communauté	NOUN	Gender=Fem Number=Sing	w8583
 Communauté	Communauté	communauté	NOUN	Gender=Fem Number=Sing	w8583	nmod	parlement	NOUN	Gender=Masc Number=Sing	w8580
 française	française	français	ADJ	Gender=Fem Number=Sing	w8584	amod	communauté	NOUN	Gender=Fem Number=Sing	w8583
 </name>
-fait	fait	faire	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w8585	aux_caus	connaître	VERB	VerbForm=Inf	w8586
+fait	fait	faire	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w8585	aux:caus	connaître	VERB	VerbForm=Inf	w8586
 connaître	connaître	connaître	VERB	VerbForm=Inf	w8586	root	-	-	-	-
 qu'	qu'	que	SCONJ	-	w8587	mark	constituer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w8589
 <g/>
 il	il	il	PRON	Gender=Masc Number=Sing Person=3 PronType=Prs	pc1500	nsubj	constituer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w8589
 s'	s'	se	PRON	Person=3 PronType=Prs	w8588	obj	constituer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w8589
 <g/>
-est	est	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	pc1501	aux_tense	constituer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w8589
+est	est	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	pc1501	aux:tense	constituer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w8589
 constitué	constitué	constituer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w8589	ccomp	connaître	VERB	VerbForm=Inf	w8586
 en	en	en	ADP	-	w8590	case	séance	NOUN	Gender=Fem Number=Sing	w8592
 sa	sa	son	DET	Gender=Fem Number=Sing Poss=Yes PronType=Prs	w8591	det	séance	NOUN	Gender=Fem Number=Sing	w8592
@@ -830,7 +830,7 @@ weelde	weelde	weelde	NOUN	Gender=Com Number=Sing	w8603	obj	kennen	VERB	Number=Pl
 wij	wij	wij	PRON	Case=Nom Person=1 PronType=Prs	w8604	nsubj	kennen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w8605
 kennen	kennen	kennen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w8605	csubj	worden	VERB	Number=Sing Tense=Pres VerbForm=Fin	w8597
 in	in	in	ADP	-	w8606	case	land	NOUN	Gender=Neut Number=Sing	w8609
-ons	ons	ons	PRON	Person=1 Poss=Yes PronType=Prs	w8607	nmod_poss	land	NOUN	Gender=Neut Number=Sing	w8609
+ons	ons	ons	PRON	Person=1 Poss=Yes PronType=Prs	w8607	nmod:poss	land	NOUN	Gender=Neut Number=Sing	w8609
 federaal	federaal	federaal	ADJ	Degree=Pos	w8608	amod	land	NOUN	Gender=Neut Number=Sing	w8609
 land	land	land	NOUN	Gender=Neut Number=Sing	w8609	obl	kennen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w8605
 <g/>
@@ -841,7 +841,7 @@ collega’s	collega’s	collega’s	NOUN	Number=Plur	w8610	parataxis	worden	VERB
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.u78" speaker_role="Chairperson" speaker_id="FlahautAndré" speaker_name="Flahaut, André" speaker_type="MP" speaker_party="PS" speaker_party_name="Parti Socialiste" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.u78" speaker_role="Chairperson" speaker_id="FlahautAndré" speaker_name="Flahaut, André" speaker_type="MP" speaker_party="PS" speaker_party_name="Parti Socialiste" coalition_party="?" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.seg541" lang="Dutch">
 <s id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.s786">
 Ik	Ik	ik	PRON	Case=Nom Person=1 PronType=Prs	w8617	nsubj	komen	VERB	VerbForm=Part	w8625
@@ -879,7 +879,7 @@ vergadering	vergadering	vergadering	NOUN	Gender=Com Number=Sing	w8641	nmod	vastl
 <s id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.s788">
 Ik	Ik	ik	PRON	Case=Nom Person=1 PronType=Prs	w8642	nsubj	stellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w8643
 stel	stel	stellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w8643	root	-	-	-	-
-voor	voor	voor	ADP	-	w8644	compound_prt	stellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w8643
+voor	voor	voor	ADP	-	w8644	compound:prt	stellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w8643
 dat	dat	dat	SCONJ	-	w8645	mark	doen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w8648
 wij	wij	wij	PRON	Case=Nom Person=1 PronType=Prs	w8646	nsubj	doen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w8648
 dat	dat	dat	PRON	Person=3 PronType=Dem	w8647	obj	doen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w8648
@@ -902,7 +902,7 @@ dag	dag	dag	NOUN	Gender=Com Number=Sing	w8659	obl	doen	VERB	Number=Plur Tense=Pr
 Ik	Ik	ik	PRON	Case=Nom Person=1 PronType=Prs	w8660	nsubj	stellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w8661
 stel	stel	stellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w8661	root	-	-	-	-
 dus	dus	dus	ADV	-	w8662	advmod	stellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w8661
-voor	voor	voor	ADP	-	w8663	compound_prt	stellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w8661
+voor	voor	voor	ADP	-	w8663	compound:prt	stellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w8661
 dat	dat	dat	SCONJ	-	w8664	mark	plaatsvinden	VERB	VerbForm=Inf	w8678
 de	de	de	DET	Definite=Def	w8665	det	bijeenkomst	NOUN	Gender=Com Number=Sing	w8667
 volgende	volgende	volgend	VERB	VerbForm=Part	w8666	amod	bijeenkomst	NOUN	Gender=Com Number=Sing	w8667
@@ -933,7 +933,7 @@ du	de|le	de|le	ADP|DET	-|Definite=Def Gender=Masc Number=Sing PronType=Art	w8682
 <name type="ORG">
 Parlement	Parlement	parlement	NOUN	Gender=Masc Number=Sing	w8683	nmod	séance	NOUN	Gender=Fem Number=Sing	w8681
 </name>
-se	se	se	PRON	Person=3 PronType=Prs	w8684	expl_pass	faire	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	w8685
+se	se	se	PRON	Person=3 PronType=Prs	w8684	expl:pass	faire	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	w8685
 fera	fera	faire	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	w8685	root	-	-	-	-
 après	après	après	ADP	-	w8686	case	convocation	NOUN	Gender=Fem Number=Sing	w8687
 convocation	convocation	convocation	NOUN	Gender=Fem Number=Sing	w8687	obl	faire	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	w8685
@@ -948,11 +948,11 @@ zal	zal	zullen	AUX	Number=Sing Tense=Pres VerbForm=Fin	w8689	aux	bijeenroepen	VE
 voorafgaandelijk	voorafgaandelijk	voorafgaandelijk	ADJ	Degree=Pos	w8690	advmod	bijeenroepen	VERB	VerbForm=Part	w8698
 ook	ook	ook	ADV	-	w8691	advmod	bijeenroepen	VERB	VerbForm=Part	w8698
 een	een	een	DET	Definite=Ind	w8692	det	conferentie	NOUN	Gender=Com Number=Sing	w8693
-conferentie	conferentie	conferentie	NOUN	Gender=Com Number=Sing	w8693	nsubj_pass	bijeenroepen	VERB	VerbForm=Part	w8698
+conferentie	conferentie	conferentie	NOUN	Gender=Com Number=Sing	w8693	nsubj:pass	bijeenroepen	VERB	VerbForm=Part	w8698
 van	van	van	ADP	-	w8694	case	voorzitter	NOUN	Number=Plur	w8696
 de	de	de	DET	Definite=Def	w8695	det	voorzitter	NOUN	Number=Plur	w8696
 voorzitters	voorzitters	voorzitter	NOUN	Number=Plur	w8696	nmod	conferentie	NOUN	Gender=Com Number=Sing	w8693
-worden	worden	worden	AUX	VerbForm=Inf	w8697	aux_pass	bijeenroepen	VERB	VerbForm=Part	w8698
+worden	worden	worden	AUX	VerbForm=Inf	w8697	aux:pass	bijeenroepen	VERB	VerbForm=Part	w8698
 bijeengeroepen	bijeengeroepen	bijeenroepen	VERB	VerbForm=Part	w8698	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	pc1510	punct	bijeenroepen	VERB	VerbForm=Part	w8698
@@ -992,7 +992,7 @@ gaat	gaat	gaan	VERB	Number=Sing Tense=Pres VerbForm=Fin	w8715	root	-	-	-	-
 tot	tot	tot	ADP	-	w8716	case	bijeenroeping	NOUN	Gender=Com Number=Sing	w8718
 nadere	nadere	nader	ADJ	Degree=Cmp	w8717	amod	bijeenroeping	NOUN	Gender=Com Number=Sing	w8718
 bijeenroeping	bijeenroeping	bijeenroeping	NOUN	Gender=Com Number=Sing	w8718	obl	gaan	VERB	Number=Sing Tense=Pres VerbForm=Fin	w8715
-uiteen	uiteen	uiteen	ADV	-	w8719	compound_prt	gaan	VERB	Number=Sing Tense=Pres VerbForm=Fin	w8715
+uiteen	uiteen	uiteen	ADV	-	w8719	compound:prt	gaan	VERB	Number=Sing Tense=Pres VerbForm=Fin	w8715
 <g/>
 .	.	.	PUNCT	-	pc1513	punct	gaan	VERB	Number=Sing Tense=Pres VerbForm=Fin	w8715
 </s>
@@ -1000,8 +1000,8 @@ uiteen	uiteen	uiteen	ADV	-	w8719	compound_prt	gaan	VERB	Number=Sing Tense=Pres V
 <p id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.seg546" lang="French">
 <s id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.s795">
 La	La	le	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w8720	det	séance	NOUN	Gender=Fem Number=Sing	w8721
-séance	séance	séance	NOUN	Gender=Fem Number=Sing	w8721	nsubj_pass	lever	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w8723
-est	est	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w8722	aux_pass	lever	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w8723
+séance	séance	séance	NOUN	Gender=Fem Number=Sing	w8721	nsubj:pass	lever	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w8723
+est	est	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w8722	aux:pass	lever	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w8723
 levée	levée	lever	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w8723	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	pc1514	punct	lever	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w8723
@@ -1017,7 +1017,7 @@ ajourne	ajourne	ajourner	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=
 jusqu'	jusqu'	jusque	ADV	-	w8727	advmod	convocation	NOUN	Gender=Fem Number=Sing	w8728
 <g/>
 à	à	à	ADP	-	pc1516	case	convocation	NOUN	Gender=Fem Number=Sing	w8728
-convocation	convocation	convocation	NOUN	Gender=Fem Number=Sing	w8728	obl_mod	ajourner	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	pc1515
+convocation	convocation	convocation	NOUN	Gender=Fem Number=Sing	w8728	obl:mod	ajourner	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	pc1515
 ultérieure	ultérieure	ultérieur	ADJ	Gender=Fem Number=Sing	w8729	amod	convocation	NOUN	Gender=Fem Number=Sing	w8728
 <g/>
 .	.	.	PUNCT	-	pc1517	punct	ajourner	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	pc1515

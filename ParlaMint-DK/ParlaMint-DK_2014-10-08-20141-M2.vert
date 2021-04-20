@@ -5,7 +5,7 @@
 <note type="agendaItem">
 /2014-10-08-0/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-DK_20141008130000" speaker_role="Chairperson" speaker_id="LykketoftMogens" speaker_name="Lykketoft, Mogens" speaker_type="MP" speaker_party="S" speaker_party_name="Socialdemokratiet" speaker_gender="M" speaker_birth="1946">
+<speech id="ParlaMint-DK_20141008130000" speaker_role="Chairperson" speaker_id="LykketoftMogens" speaker_name="Lykketoft, Mogens" speaker_type="MP" speaker_party="S" speaker_party_name="Socialdemokratiet" coalition_party="yes" speaker_gender="M" speaker_birth="1946">
 <p id="ParlaMint-DK_20141008130000.seg1" lang="Danish">
 <s id="ParlaMint-DK_20141008130000.seg1.1">
 Mødet	Mødet	møde	NOUN	Definite=Def Gender=Neut Number=Sing	1	nsubj	åbne	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
@@ -1423,7 +1423,7 @@ www.folketingstidende.dk.	www.folketingstidende.dk.	www.folketingstidende.dk.	NO
 <note type="agendaItem">
 /2014-10-08-1/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-DK_20141008130437" speaker_role="Chairperson" speaker_id="LykketoftMogens" speaker_name="Lykketoft, Mogens" speaker_type="MP" speaker_party="S" speaker_party_name="Socialdemokratiet" speaker_gender="M" speaker_birth="1946">
+<speech id="ParlaMint-DK_20141008130437" speaker_role="Chairperson" speaker_id="LykketoftMogens" speaker_name="Lykketoft, Mogens" speaker_type="MP" speaker_party="S" speaker_party_name="Socialdemokratiet" coalition_party="yes" speaker_gender="M" speaker_birth="1946">
 <p id="ParlaMint-DK_20141008130437.seg2" lang="Danish">
 <s id="ParlaMint-DK_20141008130437.seg2.1">
 Til	Til	til	ADP	AdpType=Prep	1	case	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	3

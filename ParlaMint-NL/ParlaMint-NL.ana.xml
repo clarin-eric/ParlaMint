@@ -15,12 +15,11 @@
             <meeting n="35-upper" ana="#parla.upper #parla.term">35ste Eerste Kamer</meeting>
             <meeting n="36-upper" ana="#parla.upper #parla.term">36ste Eerste Kamer</meeting>
             <respStmt>
-               <persName>Ruben van Heusden</persName>
-               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+               <persName xml:lang="nl">Jesse de Does</persName>
+               <resp xml:lang="en">Running the Linguistic Processing Pipeline and adding the annotations to the corpus</resp>
             </respStmt>
             <respStmt>
-               <persName>Jesse de Does</persName>
-               <persName>Katrien Depuydt</persName>
+               <persName xml:lang="nl">Katrien Depuydt</persName>
                <resp xml:lang="en">Running the Linguistic Processing Pipeline and adding the annotations to the corpus</resp>
             </respStmt>
             <funder>
@@ -31,32 +30,25 @@
             <edition>2.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
-            <measure unit="speeches" xml:lang="nl" quantity="474944">474944 toespraken</measure>
-            <measure unit="speeches" xml:lang="en" quantity="474944">474944 speeches</measure>
-            <measure unit="words" xml:lang="nl" quantity="51454636">51454636 woorden</measure>
-            <measure unit="words" xml:lang="en" quantity="51454636">51454636 words</measure>
+            <measure unit="speeches" xml:lang="nl" quantity="474944">474,944 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="474944">474,944 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="51451191">51,451,191 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="51451191">51,451,191 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URL">https://github.com/clarin-eric/ParlaMint</idno>
-            <pubPlace>
-               <ref target="https://github.com/clarin-eric/ParlaMint">https://github.com/clarin-eric/ParlaMint</ref>
-            </pubPlace>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1405</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-09">2021-04-09</date>
+            <date when="2021-04-20">2021-04-20</date>
          </publicationStmt>
          <sourceDesc>
-            <bibl>
-               <title>Multilingual comparable corpora of parliamentary debates ParlaMint 1.0</title>
-               <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1405</idno>
-            </bibl>
             <bibl>
                <title type="main">Minutes of the Eerste Kamer of The Netherlands</title>
                <idno type="URI">https://www.eerstekamer.nl/</idno>
@@ -80,8 +72,7 @@
                <p xml:lang="en">No correction of source texts was performed.</p>
             </correction>
             <normalization>
-               <p xml:lang="en">Through the dat collection process several Unicode hair space charactars were present in the text,
-	  these have been removed.</p>
+               <p xml:lang="en">Through the dat collection process several Unicode hair space charactars were present in the text, these have been removed.</p>
             </normalization>
             <hyphenation>
                <p xml:lang="en">No end-of-line hyphens were present in the source.</p>
@@ -95,20 +86,20 @@
          </editorialDecl>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage occurs="3378290" gi="s"/>
-               <tagUsage occurs="129" gi="desc"/>
-               <tagUsage occurs="5197" gi="body"/>
-               <tagUsage occurs="1471178" gi="name"/>
-               <tagUsage occurs="474944" gi="u"/>
-               <tagUsage occurs="714764" gi="seg"/>
-               <tagUsage occurs="5197" gi="div"/>
-               <tagUsage occurs="5197" gi="text"/>
-               <tagUsage occurs="3378290" gi="linkGrp"/>
-               <tagUsage occurs="129" gi="gap"/>
-               <tagUsage occurs="190907" gi="note"/>
-               <tagUsage occurs="57052916" gi="link"/>
-               <tagUsage occurs="5598280" gi="pc"/>
-               <tagUsage occurs="51454636" gi="w"/>
+               <tagUsage gi="body" occurs="5197"/>
+               <tagUsage gi="desc" occurs="383"/>
+               <tagUsage gi="div" occurs="5197"/>
+               <tagUsage gi="gap" occurs="383"/>
+               <tagUsage gi="link" occurs="57049091"/>
+               <tagUsage gi="linkGrp" occurs="3378036"/>
+               <tagUsage gi="name" occurs="1471085"/>
+               <tagUsage gi="note" occurs="190907"/>
+               <tagUsage gi="pc" occurs="5597900"/>
+               <tagUsage gi="s" occurs="3378036"/>
+               <tagUsage gi="seg" occurs="714764"/>
+               <tagUsage gi="text" occurs="5197"/>
+               <tagUsage gi="u" occurs="474944"/>
+               <tagUsage gi="w" occurs="51451191"/>
             </namespace>
          </tagsDecl>
          <classDecl>
@@ -497,17 +488,17 @@
                </category>
                <category xml:id="nsubj_caus">
                   <catDesc xml:lang="en">
-                     <term>nsubj_caus</term>
+                     <term>nsubj:caus</term>
                   </catDesc>
                </category>
                <category xml:id="expl_comp">
                   <catDesc xml:lang="en">
-                     <term>expl_comp</term>
+                     <term>expl:comp</term>
                   </catDesc>
                </category>
                <category xml:id="acl_relcl">
                   <catDesc xml:lang="en">
-                     <term>acl_relcl</term>
+                     <term>acl:relcl</term>
                   </catDesc>
                </category>
                <category xml:id="goeswith">
@@ -517,32 +508,32 @@
                </category>
                <category xml:id="nsubj_pass">
                   <catDesc xml:lang="en">
-                     <term>nsubj_pass</term>
+                     <term>nsubj:pass</term>
                   </catDesc>
                </category>
                <category xml:id="obl_arg">
                   <catDesc xml:lang="en">
-                     <term>obl_arg</term>
+                     <term>obl:arg</term>
                   </catDesc>
                </category>
                <category xml:id="obj_agent">
                   <catDesc xml:lang="en">
-                     <term>obj_agent</term>
+                     <term>obj:agent</term>
                   </catDesc>
                </category>
                <category xml:id="obj_lvc">
                   <catDesc xml:lang="en">
-                     <term>obj_lvc</term>
+                     <term>obj:lvc</term>
                   </catDesc>
                </category>
                <category xml:id="expl_subj">
                   <catDesc xml:lang="en">
-                     <term>expl_subj</term>
+                     <term>expl:subj</term>
                   </catDesc>
                </category>
                <category xml:id="obl_agent">
                   <catDesc xml:lang="en">
-                     <term>obl_agent</term>
+                     <term>obl:agent</term>
                   </catDesc>
                </category>
                <category xml:id="orphan">
@@ -552,27 +543,27 @@
                </category>
                <category xml:id="nmod_poss">
                   <catDesc xml:lang="en">
-                     <term>nmod_poss</term>
+                     <term>nmod:poss</term>
                   </catDesc>
                </category>
                <category xml:id="iobj_agent">
                   <catDesc xml:lang="en">
-                     <term>iobj_agent</term>
+                     <term>iobj:agent</term>
                   </catDesc>
                </category>
                <category xml:id="advcl_cleft">
                   <catDesc xml:lang="en">
-                     <term>advcl_cleft</term>
+                     <term>advcl:cleft</term>
                   </catDesc>
                </category>
                <category xml:id="expl_pass">
                   <catDesc xml:lang="en">
-                     <term>expl_pass</term>
+                     <term>expl:pass</term>
                   </catDesc>
                </category>
                <category xml:id="compound_prt">
                   <catDesc xml:lang="en">
-                     <term>compound_prt</term>
+                     <term>compound:prt</term>
                   </catDesc>
                </category>
                <category xml:id="vocative">
@@ -582,17 +573,17 @@
                </category>
                <category xml:id="expl_pv">
                   <catDesc xml:lang="en">
-                     <term>expl_pv</term>
+                     <term>expl:pv</term>
                   </catDesc>
                </category>
                <category xml:id="obl_mod">
                   <catDesc xml:lang="en">
-                     <term>obl_mod</term>
+                     <term>obl:mod</term>
                   </catDesc>
                </category>
                <category xml:id="aux_caus">
                   <catDesc xml:lang="en">
-                     <term>aux_caus</term>
+                     <term>aux:caus</term>
                   </catDesc>
                </category>
                <category xml:id="dislocated">
@@ -602,12 +593,12 @@
                </category>
                <category xml:id="aux_pass">
                   <catDesc xml:lang="en">
-                     <term>aux_pass</term>
+                     <term>aux:pass</term>
                   </catDesc>
                </category>
                <category xml:id="aux_tense">
                   <catDesc xml:lang="en">
-                     <term>aux_tense</term>
+                     <term>aux:tense</term>
                   </catDesc>
                </category>
             </taxonomy>
@@ -932,22 +923,17 @@
             </application>
             <application ident="udify" version="1.0">
                <label>Udify</label>
-               <desc xml:lang="en">UDify is a single model that parses Universal Dependencies (UPOS, UFeats, Lemmas, Deps) jointly, accepting any of 75 supported languages as input.
-    	  Available from <ref target="https://github.com/Hyperparticle/udify">https://github.com/Hyperparticle/udify</ref>
+               <desc xml:lang="en">UDify is a single model that parses Universal Dependencies (UPOS, UFeats, Lemmas, Deps) jointly, accepting any of 75 supported languages as input. Available from <ref target="https://github.com/Hyperparticle/udify">https://github.com/Hyperparticle/udify</ref>
                </desc>
             </application>
             <application ident="flair-ner" version="1.0">
                <label>Flair NLP NER tagging for French and Dutch</label>
-               <desc xml:lang="en">A powerful NLP library. Flair allows you to apply our state-of-the-art natural language processing (NLP) models to your text,
-    	  such as named entity recognition (NER), part-of-speech tagging (PoS), sense disambiguation and classification, with support for a rapidly growing number of languages.
-    	  Available from <ref target="https://github.com/flairNLP/flair">https://github.com/flairNLP/flair</ref>
+               <desc xml:lang="en">A powerful NLP library. Flair allows you to apply our state-of-the-art natural language processing (NLP) models to your text, such as named entity recognition (NER), part-of-speech tagging (PoS), sense disambiguation and classification, with support for a rapidly growing number of languages. Available from <ref target="https://github.com/flairNLP/flair">https://github.com/flairNLP/flair</ref>
                </desc>
             </application>
             <application ident="trankit" version="1.0">
                <label>Trankit: A Light-Weight Transformer-based Python Toolkit for Multilingual Natural Language Processing</label>
-               <desc xml:lang="en">Trankit is a light-weight Transformer-based Python Toolkit for multilingual Natural Language Processing (NLP).
-    	  It provides a trainable pipeline for fundamental NLP tasks over 100 languages, and 90 downloadable pretrained pipelines for 56 languages.
-    	  Available from <ref target="https://github.com/nlp-uoregon/trankit">https://github.com/nlp-uoregon/trankit</ref>
+               <desc xml:lang="en">Trankit is a light-weight Transformer-based Python Toolkit for multilingual Natural Language Processing (NLP). It provides a trainable pipeline for fundamental NLP tasks over 100 languages, and 90 downloadable pretrained pipelines for 56 languages. Available from <ref target="https://github.com/nlp-uoregon/trankit">https://github.com/nlp-uoregon/trankit</ref>
                </desc>
             </application>
          </appInfo>
@@ -5744,8 +5730,6 @@
          </particDesc>
          <langUsage>
             <language ident="nl" xml:lang="nl">Nederlands</language>
-            <language ident="nl" xml:lang="en">Dutch</language>
-            <language ident="en" xml:lang="nl">Engels</language>
             <language ident="en" xml:lang="en">English</language>
          </langUsage>
       </profileDesc>

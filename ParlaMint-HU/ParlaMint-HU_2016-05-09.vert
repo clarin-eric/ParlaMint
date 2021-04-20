@@ -1,5 +1,5 @@
 <text id="ParlaMint-HU_2016-05-09.ana" subcorpus="Reference" term="7" session="-" meeting="-" sitting="-" agenda="-" from="2016-05-09" to="2016-05-09" title="Minutes of the National Assembly of Hungary, Term 7">
-<speech id="ParlaMint-HU_2016-05-09-interpellation-IC7_10331_segmented" speaker_role="Regular" speaker_id="LászlóKiss" speaker_name="Kiss, László" speaker_type="MP" speaker_party="MSZP" speaker_party_name="Magyar Szocialista Párt" speaker_gender="M" speaker_birth="1979">
+<speech id="ParlaMint-HU_2016-05-09-interpellation-IC7_10331_segmented" speaker_role="Regular" speaker_id="LászlóKiss" speaker_name="Kiss, László" speaker_type="MP" speaker_party="MSZP" speaker_party_name="Magyar Szocialista Párt" coalition_party="?" speaker_gender="M" speaker_birth="1979">
 <note type="-">
 /KISS LÁSZLÓ (MSZP):/	-	-	-	-	-	-	-	-	-	-
 </note>
@@ -586,7 +586,7 @@ lt;andgt	lt;andgt	lt;andg	NOUN	Case=Acc Number=Sing	4	parataxis	felszólalás	NO
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-HU_2016-05-09-interpellation-IC7_10493_segmented" speaker_role="Regular" speaker_id="GyörgySzilágyi" speaker_name="Szilágyi, György" speaker_type="MP" speaker_party="Jobbik" speaker_party_name="Jobbik Magyarországért Mozgalom" speaker_gender="M" speaker_birth="1966">
+<speech id="ParlaMint-HU_2016-05-09-interpellation-IC7_10493_segmented" speaker_role="Regular" speaker_id="GyörgySzilágyi" speaker_name="Szilágyi, György" speaker_type="MP" speaker_party="Jobbik" speaker_party_name="Jobbik Magyarországért Mozgalom" coalition_party="?" speaker_gender="M" speaker_birth="1966">
 <note type="-">
 /SZILÁGYI GYÖRGY (Jobbik):/	-	-	-	-	-	-	-	-	-	-
 </note>
@@ -1166,7 +1166,7 @@ lt;andgt	lt;andgt	lt;andg	NOUN	Case=Acc Number=Sing	4	parataxis	felszólalás	NO
 <note type="gap::editorial">
 /SAMPLING/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-HU_2016-05-09-urgent_question-AC7_10615_segmented" speaker_role="Regular" speaker_id="RolandMengyi" speaker_name="Mengyi, Roland" speaker_type="MP" speaker_party="Fidesz" speaker_party_name="Fidesz – Magyar Polgári Szövetség" speaker_gender="M" speaker_birth="1975">
+<speech id="ParlaMint-HU_2016-05-09-urgent_question-AC7_10615_segmented" speaker_role="Regular" speaker_id="RolandMengyi" speaker_name="Mengyi, Roland" speaker_type="MP" speaker_party="Fidesz" speaker_party_name="Fidesz – Magyar Polgári Szövetség" coalition_party="?" speaker_gender="M" speaker_birth="1975">
 <note type="-">
 /DR. MENGYI ROLAND (Fidesz):/	-	-	-	-	-	-	-	-	-	-
 </note>
@@ -1556,7 +1556,7 @@ adóévben	adóévben	adóév	NOUN	Case=Ine Number=Sing	13	nmod:obl	tesz	VERB	Ve
 /Taps a kormánypártok soraiban./	-	-	-	-	-	-	-	-	-	-
 </note>
 </speech>
-<speech id="ParlaMint-HU_2016-05-09-urgent_question-AC7_10616_segmented" speaker_role="Regular" speaker_id="JenőManninger" speaker_name="Manninger, Jenő" speaker_type="MP" speaker_party="Fidesz" speaker_party_name="Fidesz – Magyar Polgári Szövetség" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-HU_2016-05-09-urgent_question-AC7_10616_segmented" speaker_role="Regular" speaker_id="JenőManninger" speaker_name="Manninger, Jenő" speaker_type="MP" speaker_party="Fidesz" speaker_party_name="Fidesz – Magyar Polgári Szövetség" coalition_party="?" speaker_gender="M" speaker_birth="1955">
 <note type="-">
 /MANNINGER JENŐ (Fidesz):/	-	-	-	-	-	-	-	-	-	-
 </note>

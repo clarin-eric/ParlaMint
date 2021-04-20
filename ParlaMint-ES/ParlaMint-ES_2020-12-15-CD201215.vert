@@ -2,7 +2,7 @@
 <note type="head">
 /TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY DE INICIATIVA POPULAR - PROPOSICIÓN DE LEY SOBRE RATIOS DE ENFERMERAS PARA GARANTIZAR LA SEGURIDAD DEL PACIENTE EN CENTROS SANITARIOS Y OTROS ÁMBITOS/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-ES_2020-12-15-CD201215.u1" speaker_role="Chairman" speaker_id="?" speaker_name="?" speaker_type="?" speaker_party="?" speaker_party_name="?" speaker_gender="?" speaker_birth="?">
+<speech id="ParlaMint-ES_2020-12-15-CD201215.u1" speaker_role="Chairman" speaker_id="?" speaker_name="?" speaker_type="?" speaker_party="?" speaker_party_name="?" coalition_party="?" speaker_gender="?" speaker_birth="?">
 <p id="ParlaMint-ES_2020-12-15-CD201215.u1.1" lang="Spanish">
 <s id="ParlaMint-ES_2020-12-15-CD201215.u1.1.1">
 Buenas	Buenas	buen	ADJ	Gender=Fem Number=Plur	1	amod	tarde	NOUN	Gender=Fem Number=Plur	2
@@ -150,7 +150,7 @@ gracias	gracias	gracias	NOUN	Gender=Fem Number=Plur	2	root	-	-	-	-
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-ES_2020-12-15-CD201215.u2" speaker_role="Regular" speaker_id="PrietoAna" speaker_name="Prieto Nieto, Ana" speaker_type="MP" speaker_party="PsdeG-PSOE" speaker_party_name="Partido dos Socialistas de Galicia - Partido Socialista Obrero Español" speaker_gender="F" speaker_birth="1965">
+<speech id="ParlaMint-ES_2020-12-15-CD201215.u2" speaker_role="Regular" speaker_id="PrietoAna" speaker_name="Prieto Nieto, Ana" speaker_type="MP" speaker_party="PsdeG-PSOE" speaker_party_name="Partido dos Socialistas de Galicia - Partido Socialista Obrero Español" coalition_party="?" speaker_gender="F" speaker_birth="1965">
 <p id="ParlaMint-ES_2020-12-15-CD201215.u2.1" lang="Spanish">
 <s id="ParlaMint-ES_2020-12-15-CD201215.u2.1.1">
 Señorías	Señorías	señoría	NOUN	Gender=Fem Number=Plur	1	root	-	-	-	-
@@ -819,7 +819,7 @@ Cámara	Cámara	Cámara	PROPN	-	12	nmod	presente	ADJ	Number=Plur	9
 <note type="gap::editorial">
 /SAMPLING/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-ES_2020-12-15-CD201215.u175" speaker_role="Chairman" speaker_id="?" speaker_name="?" speaker_type="?" speaker_party="?" speaker_party_name="?" speaker_gender="?" speaker_birth="?">
+<speech id="ParlaMint-ES_2020-12-15-CD201215.u175" speaker_role="Chairman" speaker_id="?" speaker_name="?" speaker_type="?" speaker_party="?" speaker_party_name="?" coalition_party="?" speaker_gender="?" speaker_birth="?">
 <p id="ParlaMint-ES_2020-12-15-CD201215.u175.1" lang="Spanish">
 <s id="ParlaMint-ES_2020-12-15-CD201215.u175.1.1">
 Procedemos	Procedemos	proceder	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
@@ -982,7 +982,7 @@ telemáticos	telemáticos	telemático	ADJ	Gender=Masc Number=Plur	47	amod	voto	N
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-ES_2020-12-15-CD201215.u176" speaker_role="Chairman" speaker_id="?" speaker_name="?" speaker_type="?" speaker_party="?" speaker_party_name="?" speaker_gender="?" speaker_birth="?">
+<speech id="ParlaMint-ES_2020-12-15-CD201215.u176" speaker_role="Chairman" speaker_id="?" speaker_name="?" speaker_type="?" speaker_party="?" speaker_party_name="?" coalition_party="?" speaker_gender="?" speaker_birth="?">
 <p id="ParlaMint-ES_2020-12-15-CD201215.u176.1" lang="Spanish">
 <s id="ParlaMint-ES_2020-12-15-CD201215.u176.1.1">
 En	En	en	ADP	AdpType=Prep	1	advmod	tomar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5

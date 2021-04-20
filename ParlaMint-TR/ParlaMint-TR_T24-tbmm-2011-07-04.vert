@@ -5,7 +5,7 @@
 <note type="chair">
 /Osman Oktay Ekşi/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="tbmm-2011-07-04s01p001" speaker_role="Regular" speaker_id="OsmanOktay.Ekşi" speaker_name="Ekşi, Osman Oktay" speaker_type="MP" speaker_party="CHP" speaker_party_name="Cumhuriyet Halk Partisi" speaker_gender="M" speaker_birth="?">
+<speech id="tbmm-2011-07-04s01p001" speaker_role="Regular" speaker_id="OsmanOktay.Ekşi" speaker_name="Ekşi, Osman Oktay" speaker_type="MP" speaker_party="CHP" speaker_party_name="Cumhuriyet Halk Partisi" coalition_party="?" speaker_gender="M" speaker_birth="?">
 <p id="tbmm-2011-07-04s01p001.seg0" lang="Turkish">
 <s id="tbmm-2011-07-04s01p001-000010">
 <name type="ORG">
@@ -22,7 +22,7 @@ açıyorum	açıyorum	aç	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Perso
 </s>
 </p>
 </speech>
-<speech id="tbmm-2011-07-04s01p002" speaker_role="Regular" speaker_id="OsmanOktay.Ekşi" speaker_name="Ekşi, Osman Oktay" speaker_type="MP" speaker_party="CHP" speaker_party_name="Cumhuriyet Halk Partisi" speaker_gender="M" speaker_birth="?">
+<speech id="tbmm-2011-07-04s01p002" speaker_role="Regular" speaker_id="OsmanOktay.Ekşi" speaker_name="Ekşi, Osman Oktay" speaker_type="MP" speaker_party="CHP" speaker_party_name="Cumhuriyet Halk Partisi" coalition_party="?" speaker_gender="M" speaker_birth="?">
 <p id="tbmm-2011-07-04s01p002.seg0" lang="Turkish">
 <s id="tbmm-2011-07-04s01p002-000010">
 <name type="LOC">
@@ -47,7 +47,7 @@ milletvekilleri	milletvekilleri	milletvekili	NOUN	Case=Nom Number=Sing Number[ps
 <note type="gap::editorial">
 /SAMPLING/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="tbmm-2011-07-04s02p089" speaker_role="Regular" speaker_id="Cemil.Çiçek" speaker_name="Çiçek, Cemil" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" speaker_gender="M" speaker_birth="?">
+<speech id="tbmm-2011-07-04s02p089" speaker_role="Regular" speaker_id="Cemil.Çiçek" speaker_name="Çiçek, Cemil" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" coalition_party="?" speaker_gender="M" speaker_birth="?">
 <p id="tbmm-2011-07-04s02p089.seg0" lang="Turkish">
 <s id="tbmm-2011-07-04s02p089-000010">
 Hepinize	Hepinize	hepiniz	PRON	Case=Dat Number=Plur Person=2	t1	obl	sun	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres	t3
@@ -61,7 +61,7 @@ sunuyorum	sunuyorum	sun	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=
 <note type="-">
 /AK PARTİ, CHP ve MHP sıralarından alkışlar/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="tbmm-2011-07-04s02p090" speaker_role="Regular" speaker_id="OsmanOktay.Ekşi" speaker_name="Ekşi, Osman Oktay" speaker_type="MP" speaker_party="CHP" speaker_party_name="Cumhuriyet Halk Partisi" speaker_gender="M" speaker_birth="?">
+<speech id="tbmm-2011-07-04s02p090" speaker_role="Regular" speaker_id="OsmanOktay.Ekşi" speaker_name="Ekşi, Osman Oktay" speaker_type="MP" speaker_party="CHP" speaker_party_name="Cumhuriyet Halk Partisi" coalition_party="?" speaker_gender="M" speaker_birth="?">
 <p id="tbmm-2011-07-04s02p090.seg0" lang="Turkish">
 <s id="tbmm-2011-07-04s02p090-000010">
 Sayın	Sayın	sayın	ADJ	-	t1	amod	milletvekili	NOUN	Case=Nom Number=Sing Number[psor]=Plur Person[psor]=3	t2

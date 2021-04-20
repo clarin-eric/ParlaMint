@@ -24,32 +24,25 @@
             <edition>2.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
-            <measure unit="speeches" xml:lang="nl" quantity="474964">474964 toespraken</measure>
-            <measure unit="speeches" xml:lang="en" quantity="474964">474964 speeches</measure>
-            <measure unit="words" xml:lang="nl" quantity="51619675">51619675 woorden</measure>
-            <measure unit="words" xml:lang="en" quantity="51619675">51619675 words</measure>
+            <measure unit="speeches" xml:lang="nl" quantity="474964">474,964 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="474964">474,964 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="51451191">51,451,191 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="51451191">51,451,191 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URL">https://github.com/clarin-eric/ParlaMint</idno>
-            <pubPlace>
-               <ref target="https://github.com/clarin-eric/ParlaMint">https://github.com/clarin-eric/ParlaMint</ref>
-            </pubPlace>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1388</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-07">2021-04-07</date>
+            <date when="2021-04-20">2021-04-20</date>
          </publicationStmt>
          <sourceDesc>
-            <bibl>
-               <title>Multilingual comparable corpora of parliamentary debates ParlaMint 1.0</title>
-               <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
-            </bibl>
             <bibl>
                <title type="main">Minutes of the Eerste Kamer of The Netherlands</title>
                <idno type="URI">https://www.eerstekamer.nl/</idno>
@@ -73,8 +66,7 @@
                <p xml:lang="en">No correction of source texts was performed.</p>
             </correction>
             <normalization>
-               <p xml:lang="en">Through the dat collection process several Unicode hair space charactars were present in the text,
-	  these have been removed.</p>
+               <p xml:lang="en">Through the dat collection process several Unicode hair space charactars were present in the text, these have been removed.</p>
             </normalization>
             <hyphenation>
                <p xml:lang="en">No end-of-line hyphens were present in the source.</p>
@@ -90,10 +82,10 @@
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="body" occurs="5197"/>
                <tagUsage gi="div" occurs="5197"/>
+               <tagUsage gi="note" occurs="191113"/>
                <tagUsage gi="seg" occurs="714859"/>
                <tagUsage gi="text" occurs="5197"/>
                <tagUsage gi="u" occurs="474964"/>
-               <tagUsage gi="note" occurs="191113"/>
             </namespace>
          </tagsDecl>
          <classDecl>
@@ -5101,8 +5093,6 @@
          </particDesc>
          <langUsage>
             <language ident="nl" xml:lang="nl">Nederlands</language>
-            <language ident="nl" xml:lang="en">Dutch</language>
-            <language ident="en" xml:lang="nl">Engels</language>
             <language ident="en" xml:lang="en">English</language>
          </langUsage>
       </profileDesc>

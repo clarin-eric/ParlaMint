@@ -1,5 +1,5 @@
 <text id="ParlaMint-HU_2014-06-19.ana" subcorpus="Reference" term="7" session="-" meeting="-" sitting="-" agenda="-" from="2014-06-19" to="2014-06-19" title="Minutes of the National Assembly of Hungary, Term 7">
-<speech id="ParlaMint-HU_2014-06-19-interpellation-IC7_157_segmented" speaker_role="Regular" speaker_id="IldikóBangónéBorbély" speaker_name="Bangóné Borbély, Ildikó" speaker_type="MP" speaker_party="MSZP" speaker_party_name="Magyar Szocialista Párt" speaker_gender="F" speaker_birth="1972">
+<speech id="ParlaMint-HU_2014-06-19-interpellation-IC7_157_segmented" speaker_role="Regular" speaker_id="IldikóBangónéBorbély" speaker_name="Bangóné Borbély, Ildikó" speaker_type="MP" speaker_party="MSZP" speaker_party_name="Magyar Szocialista Párt" coalition_party="?" speaker_gender="F" speaker_birth="1972">
 <note type="-">
 /BANGÓNÉ BORBÉLY ILDIKÓ (MSZP):/	-	-	-	-	-	-	-	-	-	-
 </note>
@@ -632,7 +632,7 @@ lt;andgt	lt;andgt	lt;andg	NOUN	Case=Acc Number=Sing	4	parataxis	felszólalás	NO
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-HU_2014-06-19-interpellation-IC7_165_segmented" speaker_role="Regular" speaker_id="DánielZ.Kárpát" speaker_name="Z. Kárpát, Dániel" speaker_type="MP" speaker_party="Jobbik" speaker_party_name="Jobbik Magyarországért Mozgalom" speaker_gender="M" speaker_birth="1979">
+<speech id="ParlaMint-HU_2014-06-19-interpellation-IC7_165_segmented" speaker_role="Regular" speaker_id="DánielZ.Kárpát" speaker_name="Z. Kárpát, Dániel" speaker_type="MP" speaker_party="Jobbik" speaker_party_name="Jobbik Magyarországért Mozgalom" coalition_party="?" speaker_gender="M" speaker_birth="1979">
 <note type="-">
 /Z. KÁRPÁT DÁNIEL (Jobbik):/	-	-	-	-	-	-	-	-	-	-
 </note>
@@ -1323,7 +1323,7 @@ lt;andgt	lt;andgt	lt;andg	NOUN	Case=Acc Number=Sing	4	parataxis	felszólalás	NO
 <note type="gap::editorial">
 /SAMPLING/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-HU_2014-06-19-urgent_question-AC7_360_segmented" speaker_role="Regular" speaker_id="LászlóVarga" speaker_name="Varga, László" speaker_type="MP" speaker_party="MSZP" speaker_party_name="Magyar Szocialista Párt" speaker_gender="M" speaker_birth="1979">
+<speech id="ParlaMint-HU_2014-06-19-urgent_question-AC7_360_segmented" speaker_role="Regular" speaker_id="LászlóVarga" speaker_name="Varga, László" speaker_type="MP" speaker_party="MSZP" speaker_party_name="Magyar Szocialista Párt" coalition_party="?" speaker_gender="M" speaker_birth="1979">
 <note type="-">
 /DR. VARGA LÁSZLÓ (MSZP):/	-	-	-	-	-	-	-	-	-	-
 </note>
@@ -1784,7 +1784,7 @@ elnök	elnök	elnök	NOUN	Case=Nom Number=Sing	3	conj	Köszönöm	NOUN	Case=Nom 
 /Taps az MSZP padsoraiban./	-	-	-	-	-	-	-	-	-	-
 </note>
 </speech>
-<speech id="ParlaMint-HU_2014-06-19-urgent_question-AC7_361_segmented" speaker_role="Regular" speaker_id="GáborIstvánHarangozó" speaker_name="Harangozó, Gábor István" speaker_type="MP" speaker_party="MSZP" speaker_party_name="Magyar Szocialista Párt" speaker_gender="M" speaker_birth="1979">
+<speech id="ParlaMint-HU_2014-06-19-urgent_question-AC7_361_segmented" speaker_role="Regular" speaker_id="GáborIstvánHarangozó" speaker_name="Harangozó, Gábor István" speaker_type="MP" speaker_party="MSZP" speaker_party_name="Magyar Szocialista Párt" coalition_party="?" speaker_gender="M" speaker_birth="1979">
 <note type="-">
 /HARANGOZÓ GÁBOR ISTVÁN (MSZP):/	-	-	-	-	-	-	-	-	-	-
 </note>

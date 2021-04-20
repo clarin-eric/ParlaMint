@@ -1,0 +1,403 @@
+# newdoc id = ParlaMint-GB_2020-06-04-lords.u1
+# newpar id = ParlaMint-GB_2020-06-04-lords.seg1
+# sent_id = ParlaMint-GB_2020-06-04-lords.seg1.1
+# text = Good morning, my Lords.
+1	Good	good	ADJ	JJ	Degree=Pos	2	amod	_	NER=O
+2	morning	morning	NOUN	NN	Number=Sing	5	discourse	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	NER=O
+4	my	my	DET	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	NER=O
+5	Lords	Lords	PROPN	NNP	Number=Sing	0	root	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	NER=O
+
+# sent_id = ParlaMint-GB_2020-06-04-lords.seg1.2
+# text = Welcome to what is the last virtual Oral Question Time.
+1	Welcome	welcome	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+2	to	to	ADP	IN	_	3	case	_	NER=O
+3	what	what	PRON	WP	PronType=Int	1	obl	_	NER=O
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	NER=O
+5	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	NER=O
+6	last	last	ADJ	JJ	Degree=Pos	10	amod	_	NER=O
+7	virtual	virtual	ADJ	JJ	Degree=Pos	9	amod	_	NER=O
+8	Oral	oral	ADJ	JJ	Degree=Pos	9	amod	_	NER=O
+9	Question	question	NOUN	NN	Number=Sing	10	compound	_	NER=O
+10	Time	time	NOUN	NN	Number=Sing	3	nsubj	_	NER=O|SpaceAfter=No
+11	.	.	PUNCT	.	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-GB_2020-06-04-lords.seg1.3
+# text = I take the opportunity to thank everyone for making these procedures possible over the past weeks.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=O
+2	take	take	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	NER=O
+4	opportunity	opportunity	NOUN	NN	Number=Sing	2	obj	_	NER=O
+5	to	to	PART	TO	_	6	mark	_	NER=O
+6	thank	thank	VERB	VB	VerbForm=Inf	2	xcomp	_	NER=O
+7	everyone	everyone	NOUN	NN	Number=Sing	6	obj	_	NER=O
+8	for	for	ADP	IN	_	9	case	_	NER=O
+9	making	make	VERB	VBG	VerbForm=Ger	6	advcl	_	NER=O
+10	these	these	DET	DT	Number=Plur|PronType=Dem	11	det	_	NER=O
+11	procedures	procedure	NOUN	NNS	Number=Plur	12	nsubj	_	NER=O
+12	possible	possible	ADJ	JJ	Degree=Pos	9	xcomp	_	NER=O
+13	over	over	ADP	IN	_	16	case	_	NER=O
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	NER=O
+15	past	past	ADJ	JJ	Degree=Pos	16	amod	_	NER=O
+16	weeks	week	NOUN	NNS	Number=Plur	12	obl	_	NER=O|SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-GB_2020-06-04-lords.seg1.4
+# text = Next week we plan to introduce the new hybrid House, and guidance for Members will be issued very shortly.
+1	Next	next	ADJ	JJ	Degree=Pos	2	amod	_	NER=O
+2	week	week	NOUN	NN	Number=Sing	4	obl:tmod	_	NER=O
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	NER=O
+4	plan	plan	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+5	to	to	PART	TO	_	6	mark	_	NER=O
+6	introduce	introduce	VERB	VB	VerbForm=Inf	4	xcomp	_	NER=O
+7	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	NER=O
+8	new	new	ADJ	JJ	Degree=Pos	10	amod	_	NER=O
+9	hybrid	hybrid	NOUN	NN	Number=Sing	10	compound	_	NER=O
+10	House	House	PROPN	NNP	Number=Sing	6	obj	_	NER=B-ORG|SpaceAfter=No
+11	,	,	PUNCT	,	_	6	punct	_	NER=O
+12	and	and	CCONJ	CC	_	13	cc	_	NER=O
+13	guidance	guidance	NOUN	NN	Number=Sing	6	conj	_	NER=O
+14	for	for	ADP	IN	_	15	case	_	NER=O
+15	Members	member	NOUN	NNS	Number=Plur	13	nmod	_	NER=O
+16	will	will	VERB	MD	VerbForm=Fin	18	aux	_	NER=O
+17	be	be	VERB	VB	VerbForm=Inf	18	aux:pass	_	NER=O
+18	issued	issue	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	dep	_	NER=O
+19	very	very	ADV	RB	_	20	advmod	_	NER=O
+20	shortly	shortly	ADV	RB	_	18	advmod	_	NER=O|SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	_	NER=O
+
+# sent_id = ParlaMint-GB_2020-06-04-lords.seg1.5
+# text = That will be followed by remote voting, which is designed to beat the queues
+1	That	that	DET	DT	Number=Sing|PronType=Dem	4	nsubj:pass	_	NER=O
+2	will	will	VERB	MD	VerbForm=Fin	4	aux	_	NER=O
+3	be	be	VERB	VB	VerbForm=Inf	4	aux:pass	_	NER=O
+4	followed	follow	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	NER=O
+5	by	by	ADP	IN	_	7	case	_	NER=O
+6	remote	remote	ADJ	JJ	Degree=Pos	7	amod	_	NER=O
+7	voting	voting	NOUN	NN	Number=Sing	4	obl	_	NER=O|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	NER=O
+9	which	which	DET	WDT	PronType=Rel	11	nsubj:pass	_	NER=O
+10	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	NER=O
+11	designed	design	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	acl:relcl	_	NER=O
+12	to	to	PART	TO	_	13	mark	_	NER=O
+13	beat	beat	VERB	VB	VerbForm=Inf	11	xcomp	_	NER=O
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	NER=O
+15	queues	queue	NOUN	NNS	Number=Plur	13	obj	_	NER=O
+
+# newpar id = ParlaMint-GB_2020-06-04-lords.seg2
+# sent_id = ParlaMint-GB_2020-06-04-lords.seg2.1
+# text = Virtual Proceedings of the House of Lords will now begin for the last time.
+1	Virtual	virtual	ADJ	JJ	Degree=Pos	2	amod	_	NER=O
+2	Proceedings	Proceedings	PROPN	NNPS	Number=Plur	10	nsubj	_	NER=O
+3	of	of	ADP	IN	_	5	case	_	NER=O
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	NER=O
+5	House	House	PROPN	NNP	Number=Sing	2	nmod	_	NER=B-ORG
+6	of	of	ADP	IN	_	7	case	_	NER=I-ORG
+7	Lords	Lords	PROPN	NNPS	Number=Plur	5	nmod	_	NER=I-ORG
+8	will	will	VERB	MD	VerbForm=Fin	10	aux	_	NER=O
+9	now	now	ADV	RB	_	10	advmod	_	NER=O
+10	begin	begin	VERB	VB	VerbForm=Inf	0	root	_	NER=O
+11	for	for	ADP	IN	_	14	case	_	NER=O
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	NER=O
+13	last	last	ADJ	JJ	Degree=Pos	14	amod	_	NER=O
+14	time	time	NOUN	NN	Number=Sing	10	obl	_	NER=O|SpaceAfter=No
+15	.	.	PUNCT	.	_	10	punct	_	NER=O
+
+# sent_id = ParlaMint-GB_2020-06-04-lords.seg2.2
+# text = I remind Members that these proceedings are subject to parliamentary privilege and that what we say is available to the public both in Hansard and to those listening and watching.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=O
+2	remind	remind	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+3	Members	member	NOUN	NNS	Number=Plur	2	obj	_	NER=O
+4	that	that	DET	WDT	PronType=Dem	8	dep	_	NER=O
+5	these	these	DET	DT	Number=Plur|PronType=Dem	6	det	_	NER=O
+6	proceedings	proceedings	NOUN	NNS	Number=Plur	8	nsubj	_	NER=O
+7	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	NER=O
+8	subject	subject	ADJ	JJ	Degree=Pos	2	dep	_	NER=O
+9	to	to	ADP	IN	_	11	case	_	NER=O
+10	parliamentary	parliamentary	ADJ	JJ	Degree=Pos	11	amod	_	NER=O
+11	privilege	privilege	NOUN	NN	Number=Sing	8	obl	_	NER=O
+12	and	and	CCONJ	CC	_	18	cc	_	NER=O
+13	that	that	ADP	IN	_	18	mark	_	NER=O
+14	what	what	PRON	WP	PronType=Int	16	obj	_	NER=O
+15	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	NER=O
+16	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	csubj	_	NER=O
+17	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	NER=O
+18	available	available	ADJ	JJ	Degree=Pos	8	conj	_	NER=O
+19	to	to	ADP	IN	_	21	case	_	NER=O
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	NER=O
+21	public	public	ADJ	JJ	Degree=Pos	18	obl	_	NER=O
+22	both	both	CCONJ	CC	_	24	cc:preconj	_	NER=O
+23	in	in	ADP	IN	_	24	case	_	NER=O
+24	Hansard	Hansard	PROPN	NNP	Number=Sing	21	nmod	_	NER=B-LOC
+25	and	and	CCONJ	CC	_	27	cc	_	NER=O
+26	to	to	ADP	IN	_	27	case	_	NER=O
+27	those	those	DET	DT	Number=Plur|PronType=Dem	24	conj	_	NER=O
+28	listening	listen	VERB	VBG	VerbForm=Ger	27	acl	_	NER=O
+29	and	and	CCONJ	CC	_	30	cc	_	NER=O
+30	watching	watch	VERB	VBG	VerbForm=Ger	28	conj	_	NER=O|SpaceAfter=No
+31	.	.	PUNCT	.	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-GB_2020-06-04-lords.seg2.3
+# text = Members’ microphones will initially be set to mute, and the broadcasting team will unmute their microphones shortly before we reach their place in the speakers’ list.
+1	Members	member	NOUN	NNS	Number=Plur	3	nmod:poss	_	NER=O|SpaceAfter=No
+2	’	’	PART	POS	_	1	case	_	NER=O
+3	microphones	microphone	NOUN	NNS	Number=Plur	7	nsubj:pass	_	NER=O
+4	will	will	VERB	MD	VerbForm=Fin	7	aux	_	NER=O
+5	initially	initially	ADV	RB	_	7	advmod	_	NER=O
+6	be	be	VERB	VB	VerbForm=Inf	7	aux:pass	_	NER=O
+7	set	set	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	NER=O
+8	to	to	PART	TO	_	9	mark	_	NER=O
+9	mute	mute	VERB	VB	VerbForm=Inf	7	xcomp	_	NER=O|SpaceAfter=No
+10	,	,	PUNCT	,	_	7	punct	_	NER=O
+11	and	and	CCONJ	CC	_	16	cc	_	NER=O
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	NER=O
+13	broadcasting	broadcasting	NOUN	NN	Number=Sing	14	compound	_	NER=O
+14	team	team	NOUN	NN	Number=Sing	16	nsubj	_	NER=O
+15	will	will	VERB	MD	VerbForm=Fin	16	aux	_	NER=O
+16	unmute	unmute	VERB	VB	VerbForm=Inf	7	conj	_	NER=O
+17	their	they	DET	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	NER=O
+18	microphones	microphone	NOUN	NNS	Number=Plur	16	obj	_	NER=O
+19	shortly	shortly	ADV	RB	_	22	advmod	_	NER=O
+20	before	before	ADP	IN	_	22	mark	_	NER=O
+21	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	22	nsubj	_	NER=O
+22	reach	reach	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	advcl	_	NER=O
+23	their	they	DET	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	NER=O
+24	place	place	NOUN	NN	Number=Sing	22	obj	_	NER=O
+25	in	in	ADP	IN	_	29	case	_	NER=O
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	NER=O
+27	speakers	speaker	NOUN	NNS	Number=Plur	29	nmod:poss	_	NER=O|SpaceAfter=No
+28	’	’	PART	POS	_	27	case	_	NER=O
+29	list	list	NOUN	NN	Number=Sing	22	obl	_	NER=O|SpaceAfter=No
+30	.	.	PUNCT	.	_	7	punct	_	NER=O
+
+# sent_id = ParlaMint-GB_2020-06-04-lords.seg2.4
+# text = Members may now need to accept an on-screen prompt to unmute their microphone.
+1	Members	member	NOUN	NNS	Number=Plur	4	nsubj	_	NER=O
+2	may	may	VERB	MD	VerbForm=Fin	4	aux	_	NER=O
+3	now	now	ADV	RB	_	4	advmod	_	NER=O
+4	need	need	VERB	VB	VerbForm=Inf	0	root	_	NER=O
+5	to	to	PART	TO	_	6	mark	_	NER=O
+6	accept	accept	VERB	VB	VerbForm=Inf	4	xcomp	_	NER=O
+7	an	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	NER=O
+8	on	on	ADP	IN	_	10	case	_	NER=O|SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	10	punct	_	NER=O|SpaceAfter=No
+10	screen	screen	NOUN	NN	Number=Sing	11	compound	_	NER=O
+11	prompt	prompt	NOUN	NN	Number=Sing	6	obj	_	NER=O
+12	to	to	ADP	IN	_	13	dep	_	NER=O
+13	unmute	unmute	VERB	VB	VerbForm=Inf	6	xcomp	_	NER=O
+14	their	they	DET	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	NER=O
+15	microphone	microphone	NOUN	NN	Number=Sing	13	obj	_	NER=O|SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	NER=O
+
+# sent_id = ParlaMint-GB_2020-06-04-lords.seg2.5
+# text = When Members have finished speaking, their microphone will again be set to mute.
+1	When	when	ADV	WRB	PronType=Int	4	advmod	_	NER=O
+2	Members	member	NOUN	NNS	Number=Plur	4	nsubj	_	NER=O
+3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	NER=O
+4	finished	finish	VERB	VBN	Tense=Past|VerbForm=Part	12	advcl	_	NER=O
+5	speaking	speak	VERB	VBG	VerbForm=Ger	4	advmod	_	NER=O|SpaceAfter=No
+6	,	,	PUNCT	,	_	12	punct	_	NER=O
+7	their	they	DET	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	NER=O
+8	microphone	microphone	NOUN	NN	Number=Sing	12	nsubj:pass	_	NER=O
+9	will	will	VERB	MD	VerbForm=Fin	12	aux	_	NER=O
+10	again	again	ADV	RB	_	12	advmod	_	NER=O
+11	be	be	VERB	VB	VerbForm=Inf	12	aux:pass	_	NER=O
+12	set	set	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	NER=O
+13	to	to	PART	TO	_	14	mark	_	NER=O
+14	mute	mute	VERB	VB	VerbForm=Inf	12	xcomp	_	NER=O|SpaceAfter=No
+15	.	.	PUNCT	.	_	12	punct	_	NER=O
+
+# sent_id = ParlaMint-GB_2020-06-04-lords.seg2.6
+# text = I ask colleagues to keep their contributions as brief as possible, and then we will be able to get as many people on the list into Question Time as we possibly can.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=O
+2	ask	ask	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+3	colleagues	colleague	NOUN	NNS	Number=Plur	2	obj	_	NER=O
+4	to	to	PART	TO	_	5	mark	_	NER=O
+5	keep	keep	VERB	VB	VerbForm=Inf	2	xcomp	_	NER=O
+6	their	they	DET	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	NER=O
+7	contributions	contribution	NOUN	NNS	Number=Plur	5	obj	_	NER=O
+8	as	as	ADP	IN	_	9	case	_	NER=O
+9	brief	brief	ADJ	JJ	Degree=Pos	5	advcl	_	NER=O
+10	as	as	ADP	IN	_	11	case	_	NER=O
+11	possible	possible	ADJ	JJ	Degree=Pos	9	advcl	_	NER=O|SpaceAfter=No
+12	,	,	PUNCT	,	_	2	punct	_	NER=O
+13	and	and	CCONJ	CC	_	18	cc	_	NER=O
+14	then	then	ADV	RB	PronType=Dem	18	advmod	_	NER=O
+15	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	NER=O
+16	will	will	VERB	MD	VerbForm=Fin	18	aux	_	NER=O
+17	be	be	VERB	VB	VerbForm=Inf	18	cop	_	NER=O
+18	able	able	ADJ	JJ	Degree=Pos	2	conj	_	NER=O
+19	to	to	PART	TO	_	20	mark	_	NER=O
+20	get	get	VERB	VB	VerbForm=Inf	18	xcomp	_	NER=O
+21	as	as	ADV	RB	_	22	advmod	_	NER=O
+22	many	many	ADJ	JJ	Degree=Pos	23	amod	_	NER=O
+23	people	people	NOUN	NNS	Number=Plur	20	obj	_	NER=O
+24	on	on	ADP	IN	_	26	case	_	NER=O
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	NER=O
+26	list	list	NOUN	NN	Number=Sing	23	nmod	_	NER=O
+27	into	into	ADP	IN	_	29	case	_	NER=O
+28	Question	question	NOUN	NN	Number=Sing	29	compound	_	NER=O
+29	Time	time	NOUN	NN	Number=Sing	20	obl	_	NER=O
+30	as	as	ADP	IN	_	33	mark	_	NER=O
+31	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	33	nsubj	_	NER=O
+32	possibly	possibly	ADV	RB	_	33	advmod	_	NER=O
+33	can	can	VERB	MD	VerbForm=Fin	20	advcl	_	NER=O|SpaceAfter=No
+34	.	.	PUNCT	.	_	2	punct	_	NER=O
+
+# newdoc id = ParlaMint-GB_2020-06-04-lords.u2
+# newpar id = ParlaMint-GB_2020-06-04-lords.seg3
+# sent_id = ParlaMint-GB_2020-06-04-lords.seg3.1
+# text = To ask Her Majesty’s Government what action they will take to close any educational gaps arising from the school closures due to the COVID-19 pandemic.
+1	To	to	PART	TO	_	2	mark	_	NER=O
+2	ask	ask	VERB	VB	VerbForm=Inf	0	root	_	NER=O
+3	Her	she	DET	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	NER=O
+4	Majesty	Majesty	PROPN	NNP	Number=Sing	6	nmod:poss	_	NER=O|SpaceAfter=No
+5	’s	’s	PART	POS	_	4	case	_	NER=O
+6	Government	government	NOUN	NN	Number=Sing	2	obj	_	NER=O
+7	what	what	PRON	WP	PronType=Int	8	det	_	NER=O
+8	action	action	NOUN	NN	Number=Sing	11	obj	_	NER=O
+9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	NER=O
+10	will	will	VERB	MD	VerbForm=Fin	11	aux	_	NER=O
+11	take	take	VERB	VB	VerbForm=Inf	2	ccomp	_	NER=O
+12	to	to	PART	TO	_	13	mark	_	NER=O
+13	close	close	VERB	VB	VerbForm=Inf	11	xcomp	_	NER=O
+14	any	any	DET	DT	_	16	det	_	NER=O
+15	educational	educational	ADJ	JJ	Degree=Pos	16	amod	_	NER=O
+16	gaps	gap	NOUN	NNS	Number=Plur	13	obj	_	NER=O
+17	arising	arise	VERB	VBG	VerbForm=Ger	16	acl	_	NER=O
+18	from	from	ADP	IN	_	21	case	_	NER=O
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	NER=O
+20	school	school	NOUN	NN	Number=Sing	21	compound	_	NER=O
+21	closures	closure	NOUN	NNS	Number=Plur	17	obl	_	NER=O
+22	due	due	ADP	IN	_	28	case	_	NER=O
+23	to	to	ADP	IN	_	22	fixed	_	NER=O
+24	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	NER=O
+25	COVID	covid	NOUN	NN	Number=Sing	28	compound	_	NER=B-MISC|SpaceAfter=No
+26	-	-	PUNCT	HYPH	_	25	punct	_	NER=I-MISC|SpaceAfter=No
+27	19	19	NUM	CD	NumType=Card	25	nummod	_	NER=I-MISC
+28	pandemic	pandemic	NOUN	NN	Number=Sing	13	obl	_	NER=I-MISC|SpaceAfter=No
+29	.	.	PUNCT	.	_	2	punct	_	NER=O
+
+# newdoc id = ParlaMint-GB_2020-06-04-lords.u295
+# newpar id = ParlaMint-GB_2020-06-04-lords.seg594
+# sent_id = ParlaMint-GB_2020-06-04-lords.seg594.1
+# text = My Lords, I can barely hear my noble friend, but I assure him that all the airports that are open will be subject to these monitoring arrangements and locator forms.
+1	My	my	DET	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	NER=O
+2	Lords	Lords	PROPN	NNP	Number=Sing	7	nsubj	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	NER=O
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	NER=O
+5	can	can	VERB	MD	VerbForm=Fin	7	aux	_	NER=O
+6	barely	barely	ADV	RB	_	7	advmod	_	NER=O
+7	hear	hear	VERB	VB	VerbForm=Inf	0	root	_	NER=O
+8	my	my	DET	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	NER=O
+9	noble	noble	ADJ	JJ	Degree=Pos	10	amod	_	NER=O
+10	friend	friend	NOUN	NN	Number=Sing	7	obj	_	NER=O|SpaceAfter=No
+11	,	,	PUNCT	,	_	7	punct	_	NER=O
+12	but	but	CCONJ	CC	_	14	cc	_	NER=O
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	NER=O
+14	assure	assure	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	conj	_	NER=O
+15	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	NER=O
+16	that	that	ADP	IN	_	25	mark	_	NER=O
+17	all	all	DET	PDT	_	19	det:predet	_	NER=O
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	NER=O
+19	airports	airport	NOUN	NNS	Number=Plur	25	nsubj	_	NER=O
+20	that	that	DET	WDT	PronType=Rel	22	nsubj	_	NER=O
+21	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	cop	_	NER=O
+22	open	open	ADJ	JJ	Degree=Pos	19	acl:relcl	_	NER=O
+23	will	will	VERB	MD	VerbForm=Fin	25	aux	_	NER=O
+24	be	be	VERB	VB	VerbForm=Inf	25	cop	_	NER=O
+25	subject	subject	ADJ	JJ	Degree=Pos	14	ccomp	_	NER=O
+26	to	to	ADP	IN	_	29	case	_	NER=O
+27	these	these	DET	DT	Number=Plur|PronType=Dem	29	det	_	NER=O
+28	monitoring	monitor	VERB	VBG	VerbForm=Ger	29	amod	_	NER=O
+29	arrangements	arrangement	NOUN	NNS	Number=Plur	25	obl	_	NER=O
+30	and	and	CCONJ	CC	_	32	cc	_	NER=O
+31	locator	locator	NOUN	NN	Number=Sing	32	compound	_	NER=O
+32	forms	form	NOUN	NNS	Number=Plur	29	conj	_	NER=O|SpaceAfter=No
+33	.	.	PUNCT	.	_	7	punct	_	NER=O
+
+# sent_id = ParlaMint-GB_2020-06-04-lords.seg594.2
+# text = I am so sorry that I did not get the rest of my noble friend’s question.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	NER=O
+2	am	be	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	NER=O
+3	so	so	ADV	RB	_	4	advmod	_	NER=O
+4	sorry	sorry	ADJ	JJ	Degree=Pos	0	root	_	NER=O
+5	that	that	ADP	IN	_	9	mark	_	NER=O
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	NER=O
+7	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	NER=O
+8	not	not	ADV	RB	_	9	advmod	_	NER=O
+9	get	get	VERB	VB	VerbForm=Inf	4	ccomp	_	NER=O
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	NER=O
+11	rest	rest	NOUN	NN	Number=Sing	9	obj	_	NER=O
+12	of	of	ADP	IN	_	17	case	_	NER=O
+13	my	my	DET	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	NER=O
+14	noble	noble	ADJ	JJ	Degree=Pos	15	amod	_	NER=O
+15	friend	friend	NOUN	NN	Number=Sing	17	nmod:poss	_	NER=O|SpaceAfter=No
+16	’s	’s	PART	POS	_	15	case	_	NER=O
+17	question	question	NOUN	NN	Number=Sing	11	nmod	_	NER=O|SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	NER=O
+
+# sent_id = ParlaMint-GB_2020-06-04-lords.seg594.3
+# text = Perhaps we can take this offline.
+1	Perhaps	perhaps	ADV	RB	_	4	advmod	_	NER=O
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	NER=O
+3	can	can	VERB	MD	VerbForm=Fin	4	aux	_	NER=O
+4	take	take	VERB	VB	VerbForm=Inf	0	root	_	NER=O
+5	this	this	DET	DT	Number=Sing|PronType=Dem	4	obj	_	NER=O
+6	offline	offline	ADV	RB	_	4	advmod	_	NER=O|SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	NER=O
+
+# newdoc id = ParlaMint-GB_2020-06-04-lords.u296
+# newpar id = ParlaMint-GB_2020-06-04-lords.seg595
+# sent_id = ParlaMint-GB_2020-06-04-lords.seg595.1
+# text = My Lords, the time allotted for this Statement is now up.
+1	My	my	DET	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	NER=O
+2	Lords	Lords	PROPN	NNP	Number=Sing	12	nsubj	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	NER=O
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	NER=O
+5	time	time	NOUN	NN	Number=Sing	2	appos	_	NER=O
+6	allotted	allot	VERB	VBN	Tense=Past|VerbForm=Part	5	acl	_	NER=O
+7	for	for	ADP	IN	_	9	case	_	NER=O
+8	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	_	NER=O
+9	Statement	Statement	PROPN	NNP	Number=Sing	6	obl	_	NER=O
+10	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	NER=O
+11	now	now	ADV	RB	_	12	advmod	_	NER=O
+12	up	up	ADV	RB	_	0	root	_	NER=O|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	punct	_	NER=O
+
+# sent_id = ParlaMint-GB_2020-06-04-lords.seg595.2
+# text = We managed to get through 22 noble Lords, so I thank them and the Minister for their brevity.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	NER=O
+2	managed	manage	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	NER=O
+3	to	to	PART	TO	_	4	mark	_	NER=O
+4	get	get	VERB	VB	VerbForm=Inf	2	xcomp	_	NER=O
+5	through	through	ADP	IN	_	8	case	_	NER=O
+6	22	22	NUM	CD	NumType=Card	8	nummod	_	NER=O
+7	noble	noble	ADJ	JJ	Degree=Pos	8	amod	_	NER=O
+8	Lords	Lords	PROPN	NNPS	Number=Plur	4	obl	_	NER=O|SpaceAfter=No
+9	,	,	PUNCT	,	_	2	punct	_	NER=O
+10	so	so	ADV	RB	_	12	advmod	_	NER=O
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	NER=O
+12	thank	thank	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	NER=O
+13	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	obj	_	NER=O
+14	and	and	CCONJ	CC	_	16	cc	_	NER=O
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	NER=O
+16	Minister	Minister	PROPN	NNP	Number=Sing	12	conj	_	NER=O
+17	for	for	ADP	IN	_	19	case	_	NER=O
+18	their	they	DET	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	NER=O
+19	brevity	brevity	NOUN	NN	Number=Sing	16	nmod	_	NER=O|SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-GB_2020-06-04-lords.seg595.3
+# text = The day’s Virtual Proceedings are now complete.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	NER=O
+2	day	day	NOUN	NN	Number=Sing	5	nmod:poss	_	NER=O|SpaceAfter=No
+3	’s	’s	PART	POS	_	2	case	_	NER=O
+4	Virtual	virtual	ADJ	JJ	Degree=Pos	5	amod	_	NER=O
+5	Proceedings	Proceedings	PROPN	NNPS	Number=Plur	8	nsubj	_	NER=O
+6	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	NER=O
+7	now	now	ADV	RB	_	8	advmod	_	NER=O
+8	complete	complete	ADJ	JJ	Degree=Pos	0	root	_	NER=O|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	NER=O
+

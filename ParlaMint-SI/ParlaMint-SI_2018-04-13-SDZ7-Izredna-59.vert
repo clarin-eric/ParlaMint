@@ -14,7 +14,7 @@
 <note type="speaker">
 /PREDSEDNIK DR. MILAN BRGLEZ:/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-SI_2018-04-13-SDZ7-Izredna-59.u1" speaker_role="Chairperson" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka modernega centra" speaker_gender="M" speaker_birth="1967">
+<speech id="ParlaMint-SI_2018-04-13-SDZ7-Izredna-59.u1" speaker_role="Chairperson" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka modernega centra" coalition_party="yes" speaker_gender="M" speaker_birth="1967">
 <p id="ParlaMint-SI_2018-04-13-SDZ7-Izredna-59.seg1" lang="Slovenian">
 <s id="ParlaMint-SI_2018-04-13-SDZ7-Izredna-59.seg1.1">
 Spoštovani	Spoštovani	spoštovan	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Plur VerbForm=Part	1	amod	kolegica	NOUN	Case=Nom Gender=Fem Number=Plur	2
@@ -544,7 +544,7 @@ minut	minut	minuta	NOUN	Case=Gen Gender=Fem Number=Plur	18	conj	ura	NOUN	Case=Lo
 <note type="speaker">
 /PREDSEDNIK DR. MILAN BRGLEZ:/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-SI_2018-04-13-SDZ7-Izredna-59.u2" speaker_role="Chairperson" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka modernega centra" speaker_gender="M" speaker_birth="1967">
+<speech id="ParlaMint-SI_2018-04-13-SDZ7-Izredna-59.u2" speaker_role="Chairperson" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka modernega centra" coalition_party="yes" speaker_gender="M" speaker_birth="1967">
 <p id="ParlaMint-SI_2018-04-13-SDZ7-Izredna-59.seg9" lang="Slovenian">
 <s id="ParlaMint-SI_2018-04-13-SDZ7-Izredna-59.seg9.1">
 Spoštovani	Spoštovani	spoštovan	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Plur VerbForm=Part	1	amod	kolegica	NOUN	Case=Nom Gender=Fem Number=Plur	2

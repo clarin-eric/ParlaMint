@@ -1,12 +1,12 @@
 <text id="ParlaMint-BE_2016-07-06-54-commissie-ic468x.ana" subcorpus="Reference" term="54" session="-" meeting="ic468" sitting="-" agenda="-" from="2016-07-06" to="2016-07-06" title="Belgisch parlementair corpus ParlaMint-BE, commissievergadering van 06-07-2016 [ParlaMint.ana SAMPLE]">
-<speech id="ParlaMint-BE_2016-07-06-54-commissie-ic468x.u1" speaker_role="Chairperson" speaker_id="GoffinPhilippe" speaker_name="Goffin, Philippe" speaker_type="MP" speaker_party="MR" speaker_party_name="Mouvement Réformateur" speaker_gender="M" speaker_birth="1967">
+<speech id="ParlaMint-BE_2016-07-06-54-commissie-ic468x.u1" speaker_role="Chairperson" speaker_id="GoffinPhilippe" speaker_name="Goffin, Philippe" speaker_type="MP" speaker_party="MR" speaker_party_name="Mouvement Réformateur" coalition_party="?" speaker_gender="M" speaker_birth="1967">
 <note type="-">
 /Le président:/	-	-	-	-	-	-	-	-	-	-
 </note>
 <p id="ParlaMint-BE_2016-07-06-54-commissie-ic468x.seg1" lang="French">
 <s id="ParlaMint-BE_2016-07-06-54-commissie-ic468x.s4">
 Les	Les	le	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	w35	det	question	NOUN	Gender=Fem Number=Plur	w36
-questions	questions	question	NOUN	Gender=Fem Number=Plur	w36	nsubj_pass	transformé	VERB	Gender=Fem Number=Plur Tense=Past VerbForm=Part	w45
+questions	questions	question	NOUN	Gender=Fem Number=Plur	w36	nsubj:pass	transformé	VERB	Gender=Fem Number=Plur Tense=Past VerbForm=Part	w45
 n°s	n°s	nz	NOUN	Gender=Masc Number=Plur	w37	nmod	question	NOUN	Gender=Fem Number=Plur	w36
 12619	12619	12619	NUM	-	w38	nmod	nz	NOUN	Gender=Masc Number=Plur	w37
 et	et	et	CCONJ	-	w39	cc	12627	NUM	-	w40
@@ -16,7 +16,7 @@ de	de	de	ADP	-	w41	case	monsieur	NOUN	Gender=Masc Number=Sing	w42
 M.	M.	monsieur	NOUN	Gender=Masc Number=Sing	w42	nmod	question	NOUN	Gender=Fem Number=Plur	w36
 Pivin	Pivin	Pivin	PROPN	-	w43	flat:name	monsieur	NOUN	Gender=Masc Number=Sing	w42
 </name>
-sont	sont	être	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w44	aux_pass	transformé	VERB	Gender=Fem Number=Plur Tense=Past VerbForm=Part	w45
+sont	sont	être	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	w44	aux:pass	transformé	VERB	Gender=Fem Number=Plur Tense=Past VerbForm=Part	w45
 transformées	transformées	transformé	VERB	Gender=Fem Number=Plur Tense=Past VerbForm=Part	w45	root	-	-	-	-
 en	en	en	ADP	-	w46	case	question	NOUN	Gender=Fem Number=Plur	w47
 questions	questions	question	NOUN	Gender=Fem Number=Plur	w47	obl	transformé	VERB	Gender=Fem Number=Plur Tense=Past VerbForm=Part	w45
@@ -26,7 +26,7 @@ questions	questions	question	NOUN	Gender=Fem Number=Plur	w47	obl	transformé	VER
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-BE_2016-07-06-54-commissie-ic468x.u2" speaker_role="Chairperson" speaker_id="GoffinPhilippe" speaker_name="Goffin, Philippe" speaker_type="MP" speaker_party="MR" speaker_party_name="Mouvement Réformateur" speaker_gender="M" speaker_birth="1967">
+<speech id="ParlaMint-BE_2016-07-06-54-commissie-ic468x.u2" speaker_role="Chairperson" speaker_id="GoffinPhilippe" speaker_name="Goffin, Philippe" speaker_type="MP" speaker_party="MR" speaker_party_name="Mouvement Réformateur" coalition_party="?" speaker_gender="M" speaker_birth="1967">
 <p id="ParlaMint-BE_2016-07-06-54-commissie-ic468x.seg2" lang="Dutch">
 <s id="ParlaMint-BE_2016-07-06-54-commissie-ic468x.s11">
 De	De	de	DET	Definite=Def	w143	det	heer	NOUN	Gender=Com Number=Sing	w144
@@ -45,7 +45,7 @@ afwezig	afwezig	afwezig	ADJ	Degree=Pos	w148	root	-	-	-	-
 <note type="gap::editorial">
 /SAMPLING/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-BE_2016-07-06-54-commissie-ic468x.u39" speaker_role="Regular" speaker_id="DeWitSophie" speaker_name="De Wit, Sophie" speaker_type="MP" speaker_party="N-VA" speaker_party_name="Nieuw-Vlaamse Alliantie" speaker_gender="F" speaker_birth="1973">
+<speech id="ParlaMint-BE_2016-07-06-54-commissie-ic468x.u39" speaker_role="Regular" speaker_id="DeWitSophie" speaker_name="De Wit, Sophie" speaker_type="MP" speaker_party="N-VA" speaker_party_name="Nieuw-Vlaamse Alliantie" coalition_party="?" speaker_gender="F" speaker_birth="1973">
 <note type="-">
 /10.03 Sophie De Wit (N-VA):/	-	-	-	-	-	-	-	-	-	-
 </note>
@@ -64,7 +64,7 @@ cijfers	cijfers	cijfer	NOUN	Number=Plur	w11906	obl	zien	VERB	Number=Plur Tense=P
 dat	dat	dat	SCONJ	-	w11907	mark	halen	VERB	VerbForm=Part	w11926
 door	door	door	ADP	-	w11908	case	samenwerking	NOUN	Gender=Com Number=Sing	w11910
 de	de	de	DET	Definite=Def	w11909	det	samenwerking	NOUN	Gender=Com Number=Sing	w11910
-samenwerking	samenwerking	samenwerking	NOUN	Gender=Com Number=Sing	w11910	obl_agent	halen	VERB	VerbForm=Part	w11926
+samenwerking	samenwerking	samenwerking	NOUN	Gender=Com Number=Sing	w11910	obl:agent	halen	VERB	VerbForm=Part	w11926
 tussen	tussen	tussen	ADP	-	w11911	case	u	PRON	Case=Nom Person=2 PronType=Prs	w11912
 u	u	u	PRON	Case=Nom Person=2 PronType=Prs	w11912	nmod	samenwerking	NOUN	Gender=Com Number=Sing	w11910
 en	en	en	CCONJ	-	w11913	cc	collega	NOUN	Gender=Com Number=Sing	w11914
@@ -77,19 +77,19 @@ inderdaad	inderdaad	inderdaad	ADV	-	w11917	advmod	halen	VERB	VerbForm=Part	w1192
 al	al	al	ADV	-	w11918	advmod	halen	VERB	VerbForm=Part	w11926
 heel	heel	heel	ADJ	Degree=Pos	w11919	amod	wat	DET	-	w11920
 wat	wat	wat	DET	-	w11920	det	persoon	NOUN	Number=Plur	w11921
-personen	personen	persoon	NOUN	Number=Plur	w11921	nsubj_pass	halen	VERB	VerbForm=Part	w11926
+personen	personen	persoon	NOUN	Number=Plur	w11921	nsubj:pass	halen	VERB	VerbForm=Part	w11926
 uit	uit	uit	ADP	-	w11922	case	gevangenis	NOUN	Gender=Com Number=Sing	w11924
 de	de	de	DET	Definite=Def	w11923	det	gevangenis	NOUN	Gender=Com Number=Sing	w11924
 gevangenis	gevangenis	gevangenis	NOUN	Gender=Com Number=Sing	w11924	obl	halen	VERB	VerbForm=Part	w11926
-zijn	zijn	zijn	AUX	Number=Plur Tense=Pres VerbForm=Fin	w11925	aux_pass	halen	VERB	VerbForm=Part	w11926
+zijn	zijn	zijn	AUX	Number=Plur Tense=Pres VerbForm=Fin	w11925	aux:pass	halen	VERB	VerbForm=Part	w11926
 gehaald	gehaald	halen	VERB	VerbForm=Part	w11926	ccomp	zien	VERB	Number=Plur Tense=Pres VerbForm=Fin	w11903
 om	om	om	ADP	-	w11927	mark	zitten	VERB	VerbForm=Inf	w11935
-hun	hun	hun	PRON	Person=3 Poss=Yes PronType=Prs	w11928	nmod_poss	straf	NOUN	Gender=Com Number=Sing	w11929
+hun	hun	hun	PRON	Person=3 Poss=Yes PronType=Prs	w11928	nmod:poss	straf	NOUN	Gender=Com Number=Sing	w11929
 straf	straf	straf	NOUN	Gender=Com Number=Sing	w11929	obj	zitten	VERB	VerbForm=Inf	w11935
 in	in	in	ADP	-	w11930	case	thuisland	NOUN	Gender=Neut Number=Sing	w11932
 het	het	het	DET	Definite=Def	w11931	det	thuisland	NOUN	Gender=Neut Number=Sing	w11932
 thuisland	thuisland	thuisland	NOUN	Gender=Neut Number=Sing	w11932	obl	zitten	VERB	VerbForm=Inf	w11935
-uit	uit	uit	ADP	-	w11933	compound_prt	zitten	VERB	VerbForm=Inf	w11935
+uit	uit	uit	ADP	-	w11933	compound:prt	zitten	VERB	VerbForm=Inf	w11935
 te	te	te	ADP	-	w11934	mark	zitten	VERB	VerbForm=Inf	w11935
 zitten	zitten	zitten	VERB	VerbForm=Inf	w11935	advcl	halen	VERB	VerbForm=Part	w11926
 <g/>
@@ -175,10 +175,10 @@ om	om	om	ADP	-	w11987	mark	zien	VERB	VerbForm=Inf	w11989
 te	te	te	ADP	-	w11988	mark	zien	VERB	VerbForm=Inf	w11989
 zien	zien	zien	VERB	VerbForm=Inf	w11989	ccomp	vinden	VERB	Number=Sing Tense=Past VerbForm=Fin	w11983
 dat	dat	dat	SCONJ	-	w11990	mark	vrijlaten	VERB	VerbForm=Part	w11995
-mensen	mensen	mens	NOUN	Number=Plur	w11991	nsubj_pass	vrijlaten	VERB	VerbForm=Part	w11995
+mensen	mensen	mens	NOUN	Number=Plur	w11991	nsubj:pass	vrijlaten	VERB	VerbForm=Part	w11995
 opeens	opeens	opeens	ADV	-	w11992	advmod	vrijlaten	VERB	VerbForm=Part	w11995
 vroeger	vroeger	vroeger	ADJ	Degree=Cmp	w11993	advmod	vrijlaten	VERB	VerbForm=Part	w11995
-werden	werden	worden	AUX	Number=Plur Tense=Past VerbForm=Fin	w11994	aux_pass	vrijlaten	VERB	VerbForm=Part	w11995
+werden	werden	worden	AUX	Number=Plur Tense=Past VerbForm=Fin	w11994	aux:pass	vrijlaten	VERB	VerbForm=Part	w11995
 vrijgelaten	vrijgelaten	vrijlaten	VERB	VerbForm=Part	w11995	ccomp	zien	VERB	VerbForm=Inf	w11989
 <g/>
 .	.	.	PUNCT	-	pc1588	punct	vinden	VERB	Number=Sing Tense=Past VerbForm=Fin	w11983
@@ -297,14 +297,14 @@ de	de	de	DET	Definite=Def	w12083	det	context	NOUN	Gender=Com Number=Sing	w12084
 context	context	context	NOUN	Gender=Com Number=Sing	w12084	obl	blij	ADJ	Degree=Pos	w12081
 die	die	die	PRON	PronType=Rel	w12085	obj	schetsen	VERB	VerbForm=Part	w12087
 u	u	u	PRON	Case=Nom Person=2 PronType=Prs	w12086	nsubj	schetsen	VERB	VerbForm=Part	w12087
-geschetst	geschetst	schetsen	VERB	VerbForm=Part	w12087	acl_relcl	context	NOUN	Gender=Com Number=Sing	w12084
+geschetst	geschetst	schetsen	VERB	VerbForm=Part	w12087	acl:relcl	context	NOUN	Gender=Com Number=Sing	w12084
 hebt	hebt	hebben	AUX	Number=Sing Tense=Pres VerbForm=Fin	w12088	aux	schetsen	VERB	VerbForm=Part	w12087
 <g/>
 .	.	.	PUNCT	-	pc1595	punct	blij	ADJ	Degree=Pos	w12081
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-BE_2016-07-06-54-commissie-ic468x.u40" speaker_role="Chairperson" speaker_id="GoffinPhilippe" speaker_name="Goffin, Philippe" speaker_type="MP" speaker_party="MR" speaker_party_name="Mouvement Réformateur" speaker_gender="M" speaker_birth="1967">
+<speech id="ParlaMint-BE_2016-07-06-54-commissie-ic468x.u40" speaker_role="Chairperson" speaker_id="GoffinPhilippe" speaker_name="Goffin, Philippe" speaker_type="MP" speaker_party="MR" speaker_party_name="Mouvement Réformateur" coalition_party="?" speaker_gender="M" speaker_birth="1967">
 <p id="ParlaMint-BE_2016-07-06-54-commissie-ic468x.seg189" lang="Dutch">
 <s id="ParlaMint-BE_2016-07-06-54-commissie-ic468x.s609">
 (	(	(	PUNCT	-	pc1612	punct	dienen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w12144
@@ -352,7 +352,7 @@ zin	zin	zin	NOUN	Gender=Com Number=Sing	w12166	appos	woord	NOUN	Number=Plur	w121
 <g/>
 ,	,	,	PUNCT	-	pc1618	punct	woord	NOUN	Number=Plur	w12168
 de	de	de	DET	Definite=Def	w12167	det	woord	NOUN	Number=Plur	w12168
-woorden	woorden	woord	NOUN	Number=Plur	w12168	nsubj_pass	lezen	VERB	VerbForm=Part	w12171
+woorden	woorden	woord	NOUN	Number=Plur	w12168	nsubj:pass	lezen	VERB	VerbForm=Part	w12171
 ‘’	‘’	‘	PUNCT	-	pc1619	punct	maison	X	Foreign=Yes	w12169
 <g/>
 maison	maison	maison	X	Foreign=Yes	w12169	appos	woord	NOUN	Number=Plur	w12168
@@ -361,7 +361,7 @@ d’arrêt	d’arrêt	d’arrêt	X	Foreign=Yes	w12170	fixed	maison	X	Foreign=Yes
 ’’	’’	’	PUNCT	-	pc1620	punct	maison	X	Foreign=Yes	w12169
 gelezen	gelezen	lezen	VERB	VerbForm=Part	w12171	xcomp	dienen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w12144
 te	te	te	ADP	-	w12172	mark	lezen	VERB	VerbForm=Part	w12171
-worden	worden	worden	AUX	VerbForm=Inf	w12173	aux_pass	lezen	VERB	VerbForm=Part	w12171
+worden	worden	worden	AUX	VerbForm=Inf	w12173	aux:pass	lezen	VERB	VerbForm=Part	w12171
 als	als	als	SCONJ	-	w12174	mark	maison	X	Foreign=Yes	w12175
 ‘’	‘’	‘	PUNCT	-	pc1621	punct	maison	X	Foreign=Yes	w12175
 <g/>

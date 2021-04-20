@@ -1,13 +1,13 @@
 <text id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.ana" subcorpus="COVID" term="55" session="-" meeting="ip073" sitting="-" agenda="-" from="2020-12-03" to="2020-12-03" title="Belgisch parlementair corpus ParlaMint-BE, plenaire zitting van 03-12-2020 [ParlaMint.ana SAMPLE]">
-<speech id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.u1" speaker_role="Chairperson" speaker_id="TillieuxEliane" speaker_name="Tillieux, Eliane" speaker_type="MP" speaker_party="PS" speaker_party_name="Parti Socialiste" speaker_gender="F" speaker_birth="1966">
+<speech id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.u1" speaker_role="Chairperson" speaker_id="TillieuxEliane" speaker_name="Tillieux, Eliane" speaker_type="MP" speaker_party="PS" speaker_party_name="Parti Socialiste" coalition_party="?" speaker_gender="F" speaker_birth="1966">
 <note type="-">
 /La présidente:/	-	-	-	-	-	-	-	-	-	-
 </note>
 <p id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.seg1" lang="French">
 <s id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.s4">
 La	La	le	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w32	det	séance	NOUN	Gender=Fem Number=Sing	w33
-séance	séance	séance	NOUN	Gender=Fem Number=Sing	w33	nsubj_pass	ouvrir	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w35
-est	est	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w34	aux_pass	ouvrir	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w35
+séance	séance	séance	NOUN	Gender=Fem Number=Sing	w33	nsubj:pass	ouvrir	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w35
+est	est	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w34	aux:pass	ouvrir	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w35
 ouverte	ouverte	ouvrir	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w35	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	pc6	punct	ouvrir	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w35
@@ -16,15 +16,15 @@ ouverte	ouverte	ouvrir	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w35	
 <p id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.seg2" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.s5">
 De	De	de	DET	Definite=Def	w36	det	vergadering	NOUN	Gender=Com Number=Sing	w37
-vergadering	vergadering	vergadering	NOUN	Gender=Com Number=Sing	w37	nsubj_pass	openen	VERB	VerbForm=Part	w39
-is	is	zijn	AUX	Number=Sing Tense=Pres VerbForm=Fin	w38	aux_pass	openen	VERB	VerbForm=Part	w39
+vergadering	vergadering	vergadering	NOUN	Gender=Com Number=Sing	w37	nsubj:pass	openen	VERB	VerbForm=Part	w39
+is	is	zijn	AUX	Number=Sing Tense=Pres VerbForm=Fin	w38	aux:pass	openen	VERB	VerbForm=Part	w39
 geopend	geopend	openen	VERB	VerbForm=Part	w39	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	pc7	punct	openen	VERB	VerbForm=Part	w39
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.u2" speaker_role="Chairperson" speaker_id="TillieuxEliane" speaker_name="Tillieux, Eliane" speaker_type="MP" speaker_party="PS" speaker_party_name="Parti Socialiste" speaker_gender="F" speaker_birth="1966">
+<speech id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.u2" speaker_role="Chairperson" speaker_id="TillieuxEliane" speaker_name="Tillieux, Eliane" speaker_type="MP" speaker_party="PS" speaker_party_name="Parti Socialiste" coalition_party="?" speaker_gender="F" speaker_birth="1966">
 <p id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.seg3" lang="French">
 <s id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.s15">
 La	La	le	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w159	det	président	NOUN	Gender=Fem Number=Sing	w160
@@ -38,7 +38,7 @@ présidente	présidente	président	NOUN	Gender=Fem Number=Sing	w160	root	-	-	-	-
 <note type="gap::editorial">
 /SAMPLING/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.u169" speaker_role="Chairperson" speaker_id="TillieuxEliane" speaker_name="Tillieux, Eliane" speaker_type="MP" speaker_party="PS" speaker_party_name="Parti Socialiste" speaker_gender="F" speaker_birth="1966">
+<speech id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.u169" speaker_role="Chairperson" speaker_id="TillieuxEliane" speaker_name="Tillieux, Eliane" speaker_type="MP" speaker_party="PS" speaker_party_name="Parti Socialiste" coalition_party="?" speaker_gender="F" speaker_birth="1966">
 <p id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.seg976" lang="French">
 <s id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.s2673">
 Oui	Oui	oui	INTJ	-	w40446	root	-	-	-	-
@@ -106,7 +106,7 @@ Totaal	Totaal	totaal	ADV	-	w40457	root	-	-	-	-
 <p id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.seg988" lang="French">
 <s id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.s2685">
 En	En	en	ADP	-	w40458	case	conséquence	NOUN	Gender=Fem Number=Sing	w40459
-conséquence	conséquence	conséquence	NOUN	Gender=Fem Number=Sing	w40459	obl_mod	adopter	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w40462
+conséquence	conséquence	conséquence	NOUN	Gender=Fem Number=Sing	w40459	obl:mod	adopter	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w40462
 <g/>
 ,	,	,	PUNCT	-	pc5983	punct	conséquence	NOUN	Gender=Fem Number=Sing	w40459
 la	la	le	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w40460	det	chambre	NOUN	Gender=Fem Number=Sing	w40461
@@ -123,10 +123,10 @@ rejet	rejet	rejet	NOUN	Gender=Masc Number=Sing	w40466	nmod	proposition	NOUN	Gend
 </s>
 <s id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.s2686">
 La	La	le	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w40467	det	proposition	NOUN	Gender=Fem Number=Sing	w40468
-proposition	proposition	proposition	NOUN	Gender=Fem Number=Sing	w40468	nsubj_pass	rejeter	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w40473
+proposition	proposition	proposition	NOUN	Gender=Fem Number=Sing	w40468	nsubj:pass	rejeter	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w40473
 n°	n°	°	SYM	-	w40469	nmod	proposition	NOUN	Gender=Fem Number=Sing	w40468
 1319/1	1319/1	1319/1	NUM	-	w40470	nmod	°	SYM	-	w40469
-est	est	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w40471	aux_pass	rejeter	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w40473
+est	est	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w40471	aux:pass	rejeter	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w40473
 donc	donc	donc	ADV	-	w40472	advmod	rejeter	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w40473
 rejetée	rejetée	rejeter	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w40473	root	-	-	-	-
 <g/>
@@ -145,16 +145,16 @@ het	het	het	DET	Definite=Def	w40478	det	voorstel	NOUN	Gender=Neut Number=Sing	w4
 voorstel	voorstel	voorstel	NOUN	Gender=Neut Number=Sing	w40479	obj	nemen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w40475
 tot	tot	tot	ADP	-	w40480	case	verwerping	NOUN	Gender=Com Number=Sing	w40481
 verwerping	verwerping	verwerping	NOUN	Gender=Com Number=Sing	w40481	obl	nemen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w40475
-aan	aan	aan	ADP	-	w40482	compound_prt	nemen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w40475
+aan	aan	aan	ADP	-	w40482	compound:prt	nemen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w40475
 <g/>
 .	.	.	PUNCT	-	pc5986	punct	nemen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w40475
 </s>
 <s id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.s2688">
 Het	Het	het	DET	Definite=Def	w40483	det	voorstel	NOUN	Gender=Neut Number=Sing	w40484
-voorstel	voorstel	voorstel	NOUN	Gender=Neut Number=Sing	w40484	nsubj_pass	verwerpen	VERB	VerbForm=Part	w40489
+voorstel	voorstel	voorstel	NOUN	Gender=Neut Number=Sing	w40484	nsubj:pass	verwerpen	VERB	VerbForm=Part	w40489
 nr.	nr.	nr.	NOUN	Gender=Neut Number=Sing	w40485	appos	voorstel	NOUN	Gender=Neut Number=Sing	w40484
 1319/1	1319/1	1319/1	NUM	-	w40486	appos	nr.	NOUN	Gender=Neut Number=Sing	w40485
-is	is	zijn	AUX	Number=Sing Tense=Pres VerbForm=Fin	w40487	aux_pass	verwerpen	VERB	VerbForm=Part	w40489
+is	is	zijn	AUX	Number=Sing Tense=Pres VerbForm=Fin	w40487	aux:pass	verwerpen	VERB	VerbForm=Part	w40489
 dus	dus	dus	ADV	-	w40488	advmod	verwerpen	VERB	VerbForm=Part	w40489
 verworpen	verworpen	verwerpen	VERB	VerbForm=Part	w40489	root	-	-	-	-
 <g/>
@@ -162,7 +162,7 @@ verworpen	verworpen	verwerpen	VERB	VerbForm=Part	w40489	root	-	-	-	-
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.u170" speaker_role="Chairperson" speaker_id="TillieuxEliane" speaker_name="Tillieux, Eliane" speaker_type="MP" speaker_party="PS" speaker_party_name="Parti Socialiste" speaker_gender="F" speaker_birth="1966">
+<speech id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.u170" speaker_role="Chairperson" speaker_id="TillieuxEliane" speaker_name="Tillieux, Eliane" speaker_type="MP" speaker_party="PS" speaker_party_name="Parti Socialiste" coalition_party="?" speaker_gender="F" speaker_birth="1966">
 <p id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.seg990" lang="French">
 <s id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.s2692">
 Nous	Nous	il	PRON	Number=Plur Person=1 PronType=Prs	w40510	nsubj	devoir	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w40511
@@ -171,7 +171,7 @@ procéder	procéder	procéder	VERB	VerbForm=Inf	w40512	xcomp	devoir	VERB	Mood=In
 à	à	à	ADP	-	w40513	case	approbation	NOUN	Gender=Fem Number=Sing	pc5993
 l’	l’	le	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w40514	det	approbation	NOUN	Gender=Fem Number=Sing	pc5993
 <g/>
-approbation	approbation	approbation	NOUN	Gender=Fem Number=Sing	pc5993	obl_arg	procéder	VERB	VerbForm=Inf	w40512
+approbation	approbation	approbation	NOUN	Gender=Fem Number=Sing	pc5993	obl:arg	procéder	VERB	VerbForm=Inf	w40512
 de	de	de	ADP	-	w40515	case	ordre	NOUN	Gender=Masc Number=Sing	pc5994
 l'	l'	le	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w40516	det	ordre	NOUN	Gender=Masc Number=Sing	pc5994
 <g/>
@@ -226,11 +226,11 @@ observation	observation	observation	NOUN	Gender=Fem Number=Sing	pc5998	root	-	-	
 <name type="MISC">
 L’	L’	le	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w40544	det	ordre	NOUN	Gender=Masc Number=Sing	pc6001
 <g/>
-ordre	ordre	ordre	NOUN	Gender=Masc Number=Sing	pc6001	nsubj_pass	approuver	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w40548
+ordre	ordre	ordre	NOUN	Gender=Masc Number=Sing	pc6001	nsubj:pass	approuver	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w40548
 du	de|le	de|le	ADP|DET	-|Definite=Def Gender=Masc Number=Sing PronType=Art	w40545a|w40545b	case|det	jour	NOUN	Gender=Masc Number=Sing	w40546
 jour	jour	jour	NOUN	Gender=Masc Number=Sing	w40546	nmod	ordre	NOUN	Gender=Masc Number=Sing	pc6001
 </name>
-est	est	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w40547	aux_pass	approuver	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w40548
+est	est	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w40547	aux:pass	approuver	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w40548
 approuvé	approuvé	approuver	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w40548	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	pc6002	punct	approuver	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	w40548
@@ -248,8 +248,8 @@ bezwaar	bezwaar	bezwaar	NOUN	Gender=Neut Number=Sing	w40550	root	-	-	-	-
 </note>
 <s id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.s2699">
 De	De	de	DET	Definite=Def	w40552	det	agenda	NOUN	Gender=Com Number=Sing	w40553
-agenda	agenda	agenda	NOUN	Gender=Com Number=Sing	w40553	nsubj_pass	goedkeuren	VERB	VerbForm=Part	w40555
-is	is	zijn	AUX	Number=Sing Tense=Pres VerbForm=Fin	w40554	aux_pass	goedkeuren	VERB	VerbForm=Part	w40555
+agenda	agenda	agenda	NOUN	Gender=Com Number=Sing	w40553	nsubj:pass	goedkeuren	VERB	VerbForm=Part	w40555
+is	is	zijn	AUX	Number=Sing Tense=Pres VerbForm=Fin	w40554	aux:pass	goedkeuren	VERB	VerbForm=Part	w40555
 goedgekeurd	goedgekeurd	goedkeuren	VERB	VerbForm=Part	w40555	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	pc6006	punct	goedkeuren	VERB	VerbForm=Part	w40555
@@ -258,14 +258,14 @@ goedgekeurd	goedgekeurd	goedkeuren	VERB	VerbForm=Part	w40555	root	-	-	-	-
 <p id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.seg994" lang="French">
 <s id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.s2700">
 Soyez	Soyez	être	AUX	Mood=Imp Number=Plur Person=2 Tense=Pres VerbForm=Fin	w40556	cop	sage	ADJ	Gender=Masc Number=Plur	w40558
-tous	tous	tout	PRON	Gender=Masc Number=Plur	w40557	obl_mod	sage	ADJ	Gender=Masc Number=Plur	w40558
+tous	tous	tout	PRON	Gender=Masc Number=Plur	w40557	obl:mod	sage	ADJ	Gender=Masc Number=Plur	w40558
 sages	sages	sage	ADJ	Gender=Masc Number=Plur	w40558	root	-	-	-	-
 pour	pour	pour	ADP	-	w40559	mark	récompenser	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	w40561
-être	être	être	AUX	VerbForm=Inf	w40560	aux_pass	récompenser	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	w40561
+être	être	être	AUX	VerbForm=Inf	w40560	aux:pass	récompenser	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	w40561
 récompensés	récompensés	récompenser	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	w40561	advcl	sage	ADJ	Gender=Masc Number=Plur	w40558
 par	par	par	ADP	-	w40562	case	Saint	PROPN	-	w40563
 <name type="PER">
-Saint	Saint	Saint	PROPN	-	w40563	obl_agent	récompenser	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	w40561
+Saint	Saint	Saint	PROPN	-	w40563	obl:agent	récompenser	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	w40561
 Nicolas	Nicolas	Nicolas	PROPN	-	w40564	flat:name	Saint	PROPN	-	w40563
 <g/>
 </name>
@@ -275,8 +275,8 @@ Nicolas	Nicolas	Nicolas	PROPN	-	w40564	flat:name	Saint	PROPN	-	w40563
 <p id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.seg995" lang="French">
 <s id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.s2701">
 La	La	le	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w40565	det	séance	NOUN	Gender=Fem Number=Sing	w40566
-séance	séance	séance	NOUN	Gender=Fem Number=Sing	w40566	nsubj_pass	lever	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w40568
-est	est	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w40567	aux_pass	lever	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w40568
+séance	séance	séance	NOUN	Gender=Fem Number=Sing	w40566	nsubj:pass	lever	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w40568
+est	est	être	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	w40567	aux:pass	lever	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w40568
 levée	levée	lever	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w40568	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	pc6008	punct	lever	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w40568
@@ -300,8 +300,8 @@ h	h	heure	NOUN	Gender=Fem Number=Sing	w40578	nmod	jeudi	NOUN	Gender=Masc Number=
 <p id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.seg996" lang="Dutch">
 <s id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.s2703">
 De	De	de	DET	Definite=Def	w40580	det	vergadering	NOUN	Gender=Com Number=Sing	w40581
-vergadering	vergadering	vergadering	NOUN	Gender=Com Number=Sing	w40581	nsubj_pass	sluiten	VERB	VerbForm=Part	w40583
-wordt	wordt	worden	AUX	Number=Sing Tense=Pres VerbForm=Fin	w40582	aux_pass	sluiten	VERB	VerbForm=Part	w40583
+vergadering	vergadering	vergadering	NOUN	Gender=Com Number=Sing	w40581	nsubj:pass	sluiten	VERB	VerbForm=Part	w40583
+wordt	wordt	worden	AUX	Number=Sing Tense=Pres VerbForm=Fin	w40582	aux:pass	sluiten	VERB	VerbForm=Part	w40583
 gesloten	gesloten	sluiten	VERB	VerbForm=Part	w40583	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	pc6010	punct	sluiten	VERB	VerbForm=Part	w40583

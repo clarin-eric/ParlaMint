@@ -14,7 +14,7 @@
 <note type="speaker">
 /PREDSEDNIK DR. MILAN BRGLEZ:/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.u1" speaker_role="Chairperson" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka modernega centra" speaker_gender="M" speaker_birth="1967">
+<speech id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.u1" speaker_role="Chairperson" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka modernega centra" coalition_party="yes" speaker_gender="M" speaker_birth="1967">
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg1" lang="Slovenian">
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg1.1">
 Spoštovani	Spoštovani	spoštovan	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Plur VerbForm=Part	1	amod	kolegica	NOUN	Case=Nom Gender=Fem Number=Plur	2
@@ -230,7 +230,7 @@ Sodin	Sodin	Sodin	PROPN	Case=Dat Gender=Fem Number=Sing	19	flat:name	Irena	PROPN
 <note type="speaker">
 /IRENA SODIN:/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.u2" speaker_role="Regular" speaker_id="SodinIrena" speaker_name="Sodin, Irena" speaker_type="notMP" speaker_party="-" speaker_party_name="-" speaker_gender="F" speaker_birth="?">
+<speech id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.u2" speaker_role="Regular" speaker_id="SodinIrena" speaker_name="Sodin, Irena" speaker_type="notMP" speaker_party="-" speaker_party_name="-" coalition_party="no" speaker_gender="F" speaker_birth="?">
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg7" lang="Slovenian">
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg7.1">
 Spoštovani	Spoštovani	spoštovan	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing VerbForm=Part	1	amod	predsednik	NOUN	Case=Nom Gender=Masc Number=Sing	2
@@ -768,7 +768,7 @@ Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 <note type="gap::editorial">
 /SAMPLING/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.u217" speaker_role="Regular" speaker_id="LogarAnže" speaker_name="Logar, Anže" speaker_type="MP" speaker_party="SDS" speaker_party_name="Slovenska demokratska stranka" speaker_gender="M" speaker_birth="1976">
+<speech id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.u217" speaker_role="Regular" speaker_id="LogarAnže" speaker_name="Logar, Anže" speaker_type="MP" speaker_party="SDS" speaker_party_name="Slovenska demokratska stranka" coalition_party="no" speaker_gender="M" speaker_birth="1976">
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg817" lang="Slovenian">
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg817.1">
 Lep	Lep	lep	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing	1	amod	pozdrav	NOUN	Case=Nom Gender=Masc Number=Sing	2
@@ -1525,7 +1525,7 @@ podprli	podprli	podpreti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	
 <note type="speaker">
 /PREDSEDNIK DR. MILAN BRGLEZ:/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.u218" speaker_role="Chairperson" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka modernega centra" speaker_gender="M" speaker_birth="1967">
+<speech id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.u218" speaker_role="Chairperson" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka modernega centra" coalition_party="yes" speaker_gender="M" speaker_birth="1967">
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg821" lang="Slovenian">
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg821.1">
 Zaključili	Zaključili	zaključiti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	1	root	-	-	-	-

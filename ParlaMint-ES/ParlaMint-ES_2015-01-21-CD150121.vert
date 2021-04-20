@@ -2,7 +2,7 @@
 <note type="head">
 /PREGUNTAS - DEL DIPUTADO DON ALBERTO GARZÓN ESPINOSA, DEL GRUPO PARLAMENTARIO DE IU, ICV-EUiA, CHA: LA IZQUIERDA PLURAL, QUE FORMULA AL SEÑOR PRESIDENTE DEL GOBIERNO: ¿CUÁNDO TIENE PREVISTO RESTITUIR A TODOS LOS CIUDADANOS Y CIUDADANAS LOS DERECHOS QUE, DE CONFORMIDAD CON EL ARTÍCULO 41 DE LA CONSTITUCIÓN, TENÍAN ANTES DE LAS REFORMAS INICIADAS CON EL RDL 20/2012, DE 13 DE JULIO?/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-ES_2015-01-21-CD150121.u1" speaker_role="Chairman" speaker_id="?" speaker_name="?" speaker_type="?" speaker_party="?" speaker_party_name="?" speaker_gender="?" speaker_birth="?">
+<speech id="ParlaMint-ES_2015-01-21-CD150121.u1" speaker_role="Chairman" speaker_id="?" speaker_name="?" speaker_type="?" speaker_party="?" speaker_party_name="?" coalition_party="?" speaker_gender="?" speaker_birth="?">
 <p id="ParlaMint-ES_2015-01-21-CD150121.u1.1" lang="Spanish">
 <s id="ParlaMint-ES_2015-01-21-CD150121.u1.1.1">
 Se	Se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	1	expl:pass	reanudar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
@@ -73,7 +73,7 @@ Plural	Plural	Plural	PROPN	-	14	flat	Grupo	PROPN	-	9
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-ES_2015-01-21-CD150121.u2" speaker_role="Regular" speaker_id="GarzónAlberto" speaker_name="Garzón Espinosa, Alberto" speaker_type="MP" speaker_party="IZQ-PLU" speaker_party_name="Izquierda Plural" speaker_gender="M" speaker_birth="1985">
+<speech id="ParlaMint-ES_2015-01-21-CD150121.u2" speaker_role="Regular" speaker_id="GarzónAlberto" speaker_name="Garzón Espinosa, Alberto" speaker_type="MP" speaker_party="IZQ-PLU" speaker_party_name="Izquierda Plural" coalition_party="?" speaker_gender="M" speaker_birth="1985">
 <p id="ParlaMint-ES_2015-01-21-CD150121.u2.1" lang="Spanish">
 <s id="ParlaMint-ES_2015-01-21-CD150121.u2.1.1">
 Señor	Señor	señor	NOUN	Gender=Masc Number=Sing	1	nsubj	devolver	VERB	VerbForm=Inf	9
@@ -112,7 +112,7 @@ julio	julio	julio	NOUN	-	23	compound	13	NUM	NumForm=Digit NumType=Card	21
 <note type="gap::editorial">
 /SAMPLING/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-ES_2015-01-21-CD150121.u335" speaker_role="Chairman" speaker_id="?" speaker_name="?" speaker_type="?" speaker_party="?" speaker_party_name="?" speaker_gender="?" speaker_birth="?">
+<speech id="ParlaMint-ES_2015-01-21-CD150121.u335" speaker_role="Chairman" speaker_id="?" speaker_name="?" speaker_type="?" speaker_party="?" speaker_party_name="?" coalition_party="?" speaker_gender="?" speaker_birth="?">
 <p id="ParlaMint-ES_2015-01-21-CD150121.u335.1" lang="Spanish">
 <s id="ParlaMint-ES_2015-01-21-CD150121.u335.1.1">
 Votación	Votación	votación	NOUN	Gender=Fem Number=Sing	1	root	-	-	-	-
@@ -221,7 +221,7 @@ telemáticos	telemáticos	telemático	ADJ	Gender=Masc Number=Plur	43	amod	voto	N
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-ES_2015-01-21-CD150121.u336" speaker_role="Chairman" speaker_id="?" speaker_name="?" speaker_type="?" speaker_party="?" speaker_party_name="?" speaker_gender="?" speaker_birth="?">
+<speech id="ParlaMint-ES_2015-01-21-CD150121.u336" speaker_role="Chairman" speaker_id="?" speaker_name="?" speaker_type="?" speaker_party="?" speaker_party_name="?" coalition_party="?" speaker_gender="?" speaker_birth="?">
 <p id="ParlaMint-ES_2015-01-21-CD150121.u336.1" lang="Spanish">
 <s id="ParlaMint-ES_2015-01-21-CD150121.u336.1.1">
 Queda	Queda	quedar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1	root	-	-	-	-

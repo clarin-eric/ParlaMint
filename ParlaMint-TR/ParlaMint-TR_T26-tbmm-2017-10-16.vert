@@ -5,7 +5,7 @@
 <note type="chair">
 /Ahmet Aydın/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="tbmm-2017-10-16s01p001" speaker_role="Regular" speaker_id="Ahmet.Aydın" speaker_name="Aydın, Ahmet" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" speaker_gender="M" speaker_birth="?">
+<speech id="tbmm-2017-10-16s01p001" speaker_role="Regular" speaker_id="Ahmet.Aydın" speaker_name="Aydın, Ahmet" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" coalition_party="?" speaker_gender="M" speaker_birth="?">
 <p id="tbmm-2017-10-16s01p001.seg0" lang="Turkish">
 <s id="tbmm-2017-10-16s01p001-000010">
 <name type="ORG">
@@ -22,7 +22,7 @@ açıyorum	açıyorum	aç	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Perso
 </s>
 </p>
 </speech>
-<speech id="tbmm-2017-10-16s01p002" speaker_role="Regular" speaker_id="Ahmet.Aydın" speaker_name="Aydın, Ahmet" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" speaker_gender="M" speaker_birth="?">
+<speech id="tbmm-2017-10-16s01p002" speaker_role="Regular" speaker_id="Ahmet.Aydın" speaker_name="Aydın, Ahmet" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" coalition_party="?" speaker_gender="M" speaker_birth="?">
 <p id="tbmm-2017-10-16s01p002.seg0" lang="Turkish">
 <s id="tbmm-2017-10-16s01p002-000010">
 Toplantı	Toplantı	toplantı	NOUN	Case=Nom Number=Sing	t1	obj	yet	VERB	Aspect=Hab Evident=Fh Mood=Gen Number=Sing Person=3 Tense=Pres	t2
@@ -43,7 +43,7 @@ başlıyoruz	başlıyoruz	başlı	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Pl
 <note type="gap::editorial">
 /SAMPLING/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="tbmm-2017-10-16s04p240" speaker_role="Regular" speaker_id="Ahmet.Aydın" speaker_name="Aydın, Ahmet" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" speaker_gender="M" speaker_birth="?">
+<speech id="tbmm-2017-10-16s04p240" speaker_role="Regular" speaker_id="Ahmet.Aydın" speaker_name="Aydın, Ahmet" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" coalition_party="?" speaker_gender="M" speaker_birth="?">
 <p id="tbmm-2017-10-16s04p240.seg0" lang="Turkish">
 <s id="tbmm-2017-10-16s04p240-000010">
 Evet	Evet	evet	ADV	-	t1	advmod	bul	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Plur Person=1 Tense=Pres Voice=Pass	t6
@@ -58,7 +58,7 @@ bulunuyoruz	bulunuyoruz	bul	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Plur Per
 </s>
 </p>
 </speech>
-<speech id="tbmm-2017-10-16s04p241" speaker_role="Regular" speaker_id="Ahmet.Aydın" speaker_name="Aydın, Ahmet" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" speaker_gender="M" speaker_birth="?">
+<speech id="tbmm-2017-10-16s04p241" speaker_role="Regular" speaker_id="Ahmet.Aydın" speaker_name="Aydın, Ahmet" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" coalition_party="?" speaker_gender="M" speaker_birth="?">
 <p id="tbmm-2017-10-16s04p241.seg0" lang="Turkish">
 <s id="tbmm-2017-10-16s04p241-000010">
 OHAL’in	OHAL’in	OHAL	NOUN	Abbr=Yes Case=Nom Number=Sing Number[psor]=Sing Person[psor]=2	t1	obl	alın	VERB	Tense=Pres VerbForm=Part	t13

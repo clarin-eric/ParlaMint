@@ -2,7 +2,7 @@
 <note type="speaker">
 /Předsedající Miroslava Němcová/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-CZ_2013-11-25-ps2013-001-01-001-001.u1" speaker_role="Chairperson" speaker_id="MiroslavaNemcova.1952" speaker_name="Němcová, Miroslava" speaker_type="MP" speaker_party="ODS" speaker_party_name="Poslanecký klub Občanské demokratické strany" speaker_gender="F" speaker_birth="1952">
+<speech id="ParlaMint-CZ_2013-11-25-ps2013-001-01-001-001.u1" speaker_role="Chairperson" speaker_id="MiroslavaNemcova.1952" speaker_name="Němcová, Miroslava" speaker_type="MP" speaker_party="ODS" speaker_party_name="Poslanecký klub Občanské demokratické strany" coalition_party="?" speaker_gender="F" speaker_birth="1952">
 <p id="ParlaMint-CZ_2013-11-25-ps2013-001-01-001-001.u1.p1" lang="Czech">
 <s id="ParlaMint-CZ_2013-11-25-ps2013-001-01-001-001.u1.p1.s1">
 1	1	1	NUM	NumForm=Digit NumType=Card	w1	root	-	-	-	-

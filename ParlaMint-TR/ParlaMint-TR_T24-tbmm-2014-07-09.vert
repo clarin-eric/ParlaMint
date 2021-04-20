@@ -5,7 +5,7 @@
 <note type="chair">
 /Ayşe Nur Bahçekapılı/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="tbmm-2014-07-09s01p001" speaker_role="Regular" speaker_id="AyşeNur.Bahçekapılı" speaker_name="Bahçekapılı, Ayşe Nur" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" speaker_gender="F" speaker_birth="?">
+<speech id="tbmm-2014-07-09s01p001" speaker_role="Regular" speaker_id="AyşeNur.Bahçekapılı" speaker_name="Bahçekapılı, Ayşe Nur" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" coalition_party="?" speaker_gender="F" speaker_birth="?">
 <p id="tbmm-2014-07-09s01p001.seg0" lang="Turkish">
 <s id="tbmm-2014-07-09s01p001-000010">
 <name type="ORG">
@@ -22,7 +22,7 @@ açıyorum	açıyorum	aç	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Perso
 </s>
 </p>
 </speech>
-<speech id="tbmm-2014-07-09s01p002" speaker_role="Regular" speaker_id="AyşeNur.Bahçekapılı" speaker_name="Bahçekapılı, Ayşe Nur" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" speaker_gender="F" speaker_birth="?">
+<speech id="tbmm-2014-07-09s01p002" speaker_role="Regular" speaker_id="AyşeNur.Bahçekapılı" speaker_name="Bahçekapılı, Ayşe Nur" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" coalition_party="?" speaker_gender="F" speaker_birth="?">
 <p id="tbmm-2014-07-09s01p002.seg0" lang="Turkish">
 <s id="tbmm-2014-07-09s01p002-000010">
 Toplantı	Toplantı	toplantı	NOUN	Case=Nom Number=Sing	t1	obj	yet	VERB	Aspect=Hab Evident=Fh Mood=Gen Number=Sing Person=3 Tense=Pres	t2
@@ -43,7 +43,7 @@ başlıyoruz	başlıyoruz	başlı	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Pl
 <note type="gap::editorial">
 /SAMPLING/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="tbmm-2014-07-09s06p008" speaker_role="Regular" speaker_id="AyşeNur.Bahçekapılı" speaker_name="Bahçekapılı, Ayşe Nur" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" speaker_gender="F" speaker_birth="?">
+<speech id="tbmm-2014-07-09s06p008" speaker_role="Regular" speaker_id="AyşeNur.Bahçekapılı" speaker_name="Bahçekapılı, Ayşe Nur" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" coalition_party="?" speaker_gender="F" speaker_birth="?">
 <p id="tbmm-2014-07-09s06p008.seg0" lang="Turkish">
 <s id="tbmm-2014-07-09s06p008-000010">
 Kanun	Kanun	kanun	NOUN	Case=Nom Number=Sing	t1	nmod	karar	NOUN	Case=Nom Number=Sing	t21
@@ -88,7 +88,7 @@ kapatıyorum	kapatıyorum	kapa	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing 
 </s>
 </p>
 </speech>
-<speech id="tbmm-2014-07-09s06p009" speaker_role="Regular" speaker_id="AyşeNur.Bahçekapılı" speaker_name="Bahçekapılı, Ayşe Nur" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" speaker_gender="F" speaker_birth="?">
+<speech id="tbmm-2014-07-09s06p009" speaker_role="Regular" speaker_id="AyşeNur.Bahçekapılı" speaker_name="Bahçekapılı, Ayşe Nur" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" coalition_party="?" speaker_gender="F" speaker_birth="?">
 <p id="tbmm-2014-07-09s06p009.seg0" lang="Turkish">
 <s id="tbmm-2014-07-09s06p009-000010">
 <name type="ORG">

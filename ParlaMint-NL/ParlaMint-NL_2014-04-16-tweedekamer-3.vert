@@ -5,8 +5,8 @@
 <note type="-">
 /(Zie vergadering van 10 december 2013.)/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-NL_2014-04-16-tweedekamer-3.u1" speaker_role="Chairperson" speaker_id="AnouchkavanMiltenburg" speaker_name="van Miltenburg, Anouchka" speaker_type="notMP" speaker_party="VVD" speaker_party_name="Volkspartij voor Vrijheid en Democratie" speaker_gender="F" speaker_birth="?">
-<p id="ParlaMint-NL_2014-04-16-tweedekamer-3.seg1" lang="Dutch">
+<speech id="ParlaMint-NL_2014-04-16-tweedekamer-3.u1" speaker_role="Chairperson" speaker_id="AnouchkavanMiltenburg" speaker_name="van Miltenburg, Anouchka" speaker_type="notMP" speaker_party="VVD" speaker_party_name="Volkspartij voor Vrijheid en Democratie" coalition_party="yes" speaker_gender="F" speaker_birth="?">
+<p id="ParlaMint-NL_2014-04-16-tweedekamer-3.seg1" lang="">
 <s id="ParlaMint-NL_2014-04-16-tweedekamer-3.s2">
 Er	Er	er	ADV	-	w9	advmod	aan	ADP	-	w14
 zijn	zijn	zijn	AUX	Number=Plur Tense=Pres VerbForm=Fin	w10	aux	aan	ADP	-	w14
@@ -21,7 +21,7 @@ geweest	geweest	zijn	AUX	VerbForm=Part	w17	cop	aan	ADP	-	w14
 ,	,	,	PUNCT	-	pc3	punct	mevrouw	NOUN	Gender=Com Number=Sing	w20
 onder	onder	onder	ADP	-	w18	case	wie	PRON	Person=3 PronType=Int	w19
 wie	wie	wie	PRON	Person=3 PronType=Int	w19	nmod	mevrouw	NOUN	Gender=Com Number=Sing	w20
-mevrouw	mevrouw	mevrouw	NOUN	Gender=Com Number=Sing	w20	acl_relcl	woordvoerder	NOUN	Number=Plur	w13
+mevrouw	mevrouw	mevrouw	NOUN	Gender=Com Number=Sing	w20	acl:relcl	woordvoerder	NOUN	Number=Plur	w13
 <name type="PER">
 Dik-Faber	Dik-Faber	Dik-Faber	PROPN	Gender=Com,Neut Number=Sing	w21	appos	mevrouw	NOUN	Gender=Com Number=Sing	w20
 </name>
@@ -36,7 +36,7 @@ ChristenUnie	ChristenUnie	ChristenUnie	PROPN	Gender=Com Number=Sing	w24	nmod	mev
 <s id="ParlaMint-NL_2014-04-16-tweedekamer-3.s3">
 Zij	Zij	zij	PRON	Case=Nom Person=3 PronType=Prs	w25	nsubj	afmelden	VERB	VerbForm=Inf	w36
 heeft	heeft	hebben	AUX	Number=Sing Tense=Pres VerbForm=Fin	w26	aux	afmelden	VERB	VerbForm=Inf	w36
-zich	zich	zich	PRON	Case=Acc Person=3 PronType=Prs Reflex=Yes	w27	expl_pv	afmelden	VERB	VerbForm=Inf	w36
+zich	zich	zich	PRON	Case=Acc Person=3 PronType=Prs Reflex=Yes	w27	expl:pv	afmelden	VERB	VerbForm=Inf	w36
 voor	voor	voor	ADP	-	w28	case	voortzetting	NOUN	Gender=Com Number=Sing	w30
 de	de	de	DET	Definite=Def	w29	det	voortzetting	NOUN	Gender=Com Number=Sing	w30
 voortzetting	voortzetting	voortzetting	NOUN	Gender=Com Number=Sing	w30	obl	afmelden	VERB	VerbForm=Inf	w36
@@ -138,8 +138,8 @@ vervolgvraag	vervolgvraag	vervolgvraag	NOUN	Gender=Com Number=Sing	w98	conj	vraa
 <note type="-">
 /De algemene beraadslaging wordt hervat./	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-NL_2014-04-16-tweedekamer-3.u2" speaker_role="Regular" speaker_id="LutzJacobi" speaker_name="Jacobi, Lutz" speaker_type="MP" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" speaker_gender="F" speaker_birth="?">
-<p id="ParlaMint-NL_2014-04-16-tweedekamer-3.seg2" lang="Dutch">
+<speech id="ParlaMint-NL_2014-04-16-tweedekamer-3.u2" speaker_role="Regular" speaker_id="LutzJacobi" speaker_name="Jacobi, Lutz" speaker_type="MP" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" coalition_party="yes" speaker_gender="F" speaker_birth="?">
+<p id="ParlaMint-NL_2014-04-16-tweedekamer-3.seg2" lang="">
 <s id="ParlaMint-NL_2014-04-16-tweedekamer-3.s7">
 Voorzitter	Voorzitter	voorzitter	NOUN	Gender=Com Number=Sing	w104	root	-	-	-	-
 <g/>
@@ -217,12 +217,12 @@ weer	weer	weer	ADV	-	w148	advmod	helpen	VERB	Number=Plur Tense=Pres VerbForm=Fin
 een	een	een	DET	Definite=Ind	w149	det	stukje	NOUN	Gender=Neut Number=Sing	w150
 stukje	stukje	stukje	NOUN	Gender=Neut Number=Sing	w150	obl	verder	ADJ	Degree=Cmp	w151
 verder	verder	verder	ADJ	Degree=Cmp	w151	advmod	helpen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w152
-helpen	helpen	helpen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w152	acl_relcl	versiering	NOUN	Gender=Com Number=Sing	w133
+helpen	helpen	helpen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w152	acl:relcl	versiering	NOUN	Gender=Com Number=Sing	w133
 <g/>
 .	.	.	PUNCT	-	pc21	punct	hopen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w123
 </s>
 </p>
-<p id="ParlaMint-NL_2014-04-16-tweedekamer-3.seg3" lang="Dutch">
+<p id="ParlaMint-NL_2014-04-16-tweedekamer-3.seg3" lang="">
 <s id="ParlaMint-NL_2014-04-16-tweedekamer-3.s12">
 In	In	in	ADP	-	w153	case	november	PROPN	Gender=Com Number=Sing	w154
 november	november	november	PROPN	Gender=Com Number=Sing	w154	obl	spreken	VERB	Number=Plur Tense=Past VerbForm=Fin	w161
@@ -252,7 +252,7 @@ moest	moest	moeten	AUX	Number=Sing Tense=Past VerbForm=Fin	w167	aux	herschrijven
 voor	voor	voor	ADP	-	w168	case	vandaag	ADV	-	w169
 vandaag	vandaag	vandaag	ADV	-	w169	obl	herschrijven	VERB	VerbForm=Inf	w174
 bijna	bijna	bijna	ADV	-	w170	advmod	herschrijven	VERB	VerbForm=Inf	w174
-mijn	mijn	mijn	PRON	Person=1 Poss=Yes PronType=Prs	w171	nmod_poss	inbreng	NOUN	Gender=Com Number=Sing	w173
+mijn	mijn	mijn	PRON	Person=1 Poss=Yes PronType=Prs	w171	nmod:poss	inbreng	NOUN	Gender=Com Number=Sing	w173
 hele	hele	heel	ADJ	Degree=Pos	w172	amod	inbreng	NOUN	Gender=Com Number=Sing	w173
 inbreng	inbreng	inbreng	NOUN	Gender=Com Number=Sing	w173	obj	herschrijven	VERB	VerbForm=Inf	w174
 herschrijven	herschrijven	herschrijven	VERB	VerbForm=Inf	w174	root	-	-	-	-
@@ -290,8 +290,8 @@ een	een	een	DET	Definite=Ind	w199	det	miljoen	NOUN	Gender=Neut Number=Sing	w200
 miljoen	miljoen	miljoen	NOUN	Gender=Neut Number=Sing	w200	nmod	rekensysteem	NOUN	Gender=Neut Number=Sing	w194
 stikstofbronnen	stikstofbronnen	stikstofbron	NOUN	Number=Plur	w201	nmod	miljoen	NOUN	Gender=Neut Number=Sing	w200
 in	in	in	ADP	-	w202	obl	waar	ADV	-	w195
-zijn	zijn	zijn	AUX	Number=Plur Tense=Pres VerbForm=Fin	w203	aux_pass	verwerken	VERB	VerbForm=Part	w204
-verwerkt	verwerkt	verwerken	VERB	VerbForm=Part	w204	acl_relcl	rekensysteem	NOUN	Gender=Neut Number=Sing	w194
+zijn	zijn	zijn	AUX	Number=Plur Tense=Pres VerbForm=Fin	w203	aux:pass	verwerken	VERB	VerbForm=Part	w204
+verwerkt	verwerkt	verwerken	VERB	VerbForm=Part	w204	acl:relcl	rekensysteem	NOUN	Gender=Neut Number=Sing	w194
 <g/>
 .	.	.	PUNCT	-	pc27	punct	herschrijven	VERB	VerbForm=Inf	w174
 </s>
@@ -328,7 +328,7 @@ aantal	aantal	aantal	NOUN	Gender=Neut Number=Sing	w227	obj	schrappen	VERB	VerbFo
 zorgpunten	zorgpunten	zorgpunt	NOUN	Number=Plur	w228	nmod	aantal	NOUN	Gender=Neut Number=Sing	w227
 schrappen	schrappen	schrappen	VERB	VerbForm=Inf	w229	root	-	-	-	-
 uit	uit	uit	ADP	-	w230	case	inbreng	NOUN	Gender=Com Number=Sing	w232
-mijn	mijn	mijn	PRON	Person=1 Poss=Yes PronType=Prs	w231	nmod_poss	inbreng	NOUN	Gender=Com Number=Sing	w232
+mijn	mijn	mijn	PRON	Person=1 Poss=Yes PronType=Prs	w231	nmod:poss	inbreng	NOUN	Gender=Com Number=Sing	w232
 inbreng	inbreng	inbreng	NOUN	Gender=Com Number=Sing	w232	obl	schrappen	VERB	VerbForm=Inf	w229
 <g/>
 ;	;	;	PUNCT	-	pc30	punct	schelen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w234
@@ -339,14 +339,14 @@ weer	weer	weer	ADV	-	w235	advmod	schelen	VERB	Number=Sing Tense=Pres VerbForm=Fi
 .	.	.	PUNCT	-	pc31	punct	schrappen	VERB	VerbForm=Inf	w229
 </s>
 </p>
-<p id="ParlaMint-NL_2014-04-16-tweedekamer-3.seg4" lang="Dutch">
+<p id="ParlaMint-NL_2014-04-16-tweedekamer-3.seg4" lang="">
 <s id="ParlaMint-NL_2014-04-16-tweedekamer-3.s16">
 De	De	de	DET	Definite=Def	w236	det	PAS	PROPN	Gender=Com Number=Sing	w237
 <name type="ORG">
 PAS	PAS	PAS	PROPN	Gender=Com Number=Sing	w237	nsubj	komen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w238
 </name>
 komt	komt	komen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w238	root	-	-	-	-
-voort	voort	voort	ADP	-	w239	compound_prt	komen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w238
+voort	voort	voort	ADP	-	w239	compound:prt	komen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w238
 uit	uit	uit	ADP	-	w240	case	samenwerking	NOUN	Gender=Com Number=Sing	w243
 een	een	een	DET	Definite=Ind	w241	det	samenwerking	NOUN	Gender=Com Number=Sing	w243
 vruchtbare	vruchtbare	vruchtbaar	ADJ	Degree=Pos	w242	amod	samenwerking	NOUN	Gender=Com Number=Sing	w243
@@ -438,7 +438,7 @@ nodig	nodig	nodig	ADJ	Degree=Pos	w301	root	-	-	-	-
 om	om	om	ADP	-	w302	mark	dringen	VERB	VerbForm=Inf	w307
 de	de	de	DET	Definite=Def	w303	det	stikstofdepositie	NOUN	Gender=Com Number=Sing	w304
 stikstofdepositie	stikstofdepositie	stikstofdepositie	NOUN	Gender=Com Number=Sing	w304	obj	dringen	VERB	VerbForm=Inf	w307
-terug	terug	terug	ADV	-	w305	compound_prt	dringen	VERB	VerbForm=Inf	w307
+terug	terug	terug	ADV	-	w305	compound:prt	dringen	VERB	VerbForm=Inf	w307
 te	te	te	ADP	-	w306	mark	dringen	VERB	VerbForm=Inf	w307
 dringen	dringen	dringen	VERB	VerbForm=Inf	w307	csubj	nodig	ADJ	Degree=Pos	w301
 <g/>
@@ -491,14 +491,14 @@ dierenwelzijn	dierenwelzijn	dierenwelzijn	NOUN	Gender=Neut Number=Sing	w342	conj
 als	als	als	SCONJ	-	w343	cc	arbeidsomstandigheden	NOUN	Number=Plur	w345
 de	de	de	DET	Definite=Def	w344	det	arbeidsomstandigheden	NOUN	Number=Plur	w345
 arbeidsomstandigheden	arbeidsomstandigheden	arbeidsomstandigheden	NOUN	Number=Plur	w345	conj	natuur	NOUN	Gender=Com Number=Sing	w339
-ten	ten	ten	ADP	-	w346	compound_prt	komen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w348
+ten	ten	ten	ADP	-	w346	compound:prt	komen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w348
 goede	goede	goede	ADJ	Degree=Pos	w347	fixed	ten	ADP	-	w346
-komen	komen	komen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w348	acl_relcl	modernisering	NOUN	Number=Plur	w335
+komen	komen	komen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w348	acl:relcl	modernisering	NOUN	Number=Plur	w335
 <g/>
 .	.	.	PUNCT	-	pc42	punct	hebben	VERB	Number=Plur Tense=Pres VerbForm=Fin	w326
 </s>
 </p>
-<p id="ParlaMint-NL_2014-04-16-tweedekamer-3.seg5" lang="Dutch">
+<p id="ParlaMint-NL_2014-04-16-tweedekamer-3.seg5" lang="">
 <s id="ParlaMint-NL_2014-04-16-tweedekamer-3.s22">
 Wij	Wij	wij	PRON	Case=Nom Person=1 PronType=Prs	w349	nsubj	doende	VERB	VerbForm=Part	w355
 zijn	zijn	zijn	AUX	Number=Plur Tense=Pres VerbForm=Fin	w350	cop	doende	VERB	VerbForm=Part	w355
@@ -561,7 +561,7 @@ verminderen	verminderen	verminderen	VERB	VerbForm=Inf	w389	csubj	voorstel	NOUN	G
 ,	,	,	PUNCT	-	pc47	punct	stellen	VERB	VerbForm=Inf	w394
 kritische	kritische	kritisch	ADJ	Degree=Pos	w390	amod	depositiewaarde	NOUN	Number=Plur	w391
 depositiewaarden	depositiewaarden	depositiewaarde	NOUN	Number=Plur	w391	obj	stellen	VERB	VerbForm=Inf	w394
-vast	vast	vast	ADJ	Degree=Pos	w392	compound_prt	stellen	VERB	VerbForm=Inf	w394
+vast	vast	vast	ADJ	Degree=Pos	w392	compound:prt	stellen	VERB	VerbForm=Inf	w394
 te	te	te	ADP	-	w393	mark	stellen	VERB	VerbForm=Inf	w394
 stellen	stellen	stellen	VERB	VerbForm=Inf	w394	conj	verminderen	VERB	VerbForm=Inf	w389
 en	en	en	CCONJ	-	w395	cc	kijken	VERB	VerbForm=Inf	w401
@@ -668,7 +668,7 @@ de	de	de	DET	Definite=Def	w465	det	staatssecretaris	NOUN	Gender=Com Number=Sing	
 staatssecretaris	staatssecretaris	staatssecretaris	NOUN	Gender=Com Number=Sing	w466	nsubj	straks	ADV	-	w467
 straks	straks	straks	ADV	-	w467	csubj	goed	ADJ	Degree=Pos	w462
 in	in	in	ADP	-	w468	case	termijn	NOUN	Gender=Com Number=Sing	w471
-haar	haar	haar	PRON	Person=3 Poss=Yes PronType=Prs	w469	nmod_poss	termijn	NOUN	Gender=Com Number=Sing	w471
+haar	haar	haar	PRON	Person=3 Poss=Yes PronType=Prs	w469	nmod:poss	termijn	NOUN	Gender=Com Number=Sing	w471
 eerste	eerste	eerste	ADJ	-	w470	amod	termijn	NOUN	Gender=Com Number=Sing	w471
 termijn	termijn	termijn	NOUN	Gender=Com Number=Sing	w471	obl	straks	ADV	-	w467
 de	de	de	DET	Definite=Def	w472	det	houdbaarheid	NOUN	Gender=Com Number=Sing	w474
@@ -722,7 +722,7 @@ bespreekt	bespreekt	bespreken	VERB	Number=Sing Tense=Pres VerbForm=Fin	w508	csub
 .	.	.	PUNCT	-	pc62	punct	staan	VERB	Number=Sing Tense=Pres VerbForm=Fin	w489
 </s>
 </p>
-<p id="ParlaMint-NL_2014-04-16-tweedekamer-3.seg6" lang="Dutch">
+<p id="ParlaMint-NL_2014-04-16-tweedekamer-3.seg6" lang="">
 <s id="ParlaMint-NL_2014-04-16-tweedekamer-3.s32">
 Wij	Wij	wij	PRON	Case=Nom Person=1 PronType=Prs	w509	nsubj	positief	ADJ	Degree=Pos	w511
 zijn	zijn	zijn	AUX	Number=Plur Tense=Pres VerbForm=Fin	w510	cop	positief	ADJ	Degree=Pos	w511
@@ -746,7 +746,7 @@ alle	alle	al	DET	-	w525	det	mens	NOUN	Number=Plur	w526
 mensen	mensen	mens	NOUN	Number=Plur	w526	conj	staatssecretaris	NOUN	Gender=Com Number=Sing	w523
 die	die	die	PRON	PronType=Rel	w527	nsubj	betrekken	VERB	VerbForm=Part	w529
 daarbij	daarbij	daarbij	ADV	-	w528	advmod	betrekken	VERB	VerbForm=Part	w529
-betrokken	betrokken	betrekken	VERB	VerbForm=Part	w529	acl_relcl	mens	NOUN	Number=Plur	w526
+betrokken	betrokken	betrekken	VERB	VerbForm=Part	w529	acl:relcl	mens	NOUN	Number=Plur	w526
 zijn	zijn	zijn	AUX	Number=Plur Tense=Pres VerbForm=Fin	w530	cop	betrekken	VERB	VerbForm=Part	w529
 <g/>
 ;	;	;	PUNCT	-	pc64	punct	vergeten	VERB	VerbForm=Inf	w538
@@ -891,7 +891,7 @@ geleidelijkheid	geleidelijkheid	geleidelijkheid	NOUN	Gender=Com Number=Sing	w624
 </s>
 <s id="ParlaMint-NL_2014-04-16-tweedekamer-3.s41">
 Daarmee	Daarmee	daarmee	ADV	-	w625	advmod	voorkomen	VERB	VerbForm=Part	w628
-wordt	wordt	worden	AUX	Number=Sing Tense=Pres VerbForm=Fin	w626	aux_pass	voorkomen	VERB	VerbForm=Part	w628
+wordt	wordt	worden	AUX	Number=Sing Tense=Pres VerbForm=Fin	w626	aux:pass	voorkomen	VERB	VerbForm=Part	w628
 ook	ook	ook	ADV	-	w627	advmod	voorkomen	VERB	VerbForm=Part	w628
 voorkomen	voorkomen	voorkomen	VERB	VerbForm=Part	w628	root	-	-	-	-
 dat	dat	dat	SCONJ	-	w629	mark	zeggen	VERB	VerbForm=Inf	w637
@@ -969,7 +969,7 @@ of	of	of	CCONJ	-	w686	cc	60/40	NUM	-	w687
 ?	?	?	PUNCT	-	pc80	punct	streven	VERB	VerbForm=Inf	w680
 </s>
 </p>
-<p id="ParlaMint-NL_2014-04-16-tweedekamer-3.seg7" lang="Dutch">
+<p id="ParlaMint-NL_2014-04-16-tweedekamer-3.seg7" lang="">
 <s id="ParlaMint-NL_2014-04-16-tweedekamer-3.s45">
 Het	Het	het	DET	Definite=Def	w688	det	zorgpunt	NOUN	Gender=Neut Number=Sing	w690
 tweede	tweede	tweede	ADJ	-	w689	amod	zorgpunt	NOUN	Gender=Neut Number=Sing	w690
@@ -985,9 +985,9 @@ activiteiten	activiteiten	activiteit	NOUN	Number=Plur	w694	obj	betreffen	VERB	Nu
 In	In	in	ADP	-	w695	case	wetsvoorstel	NOUN	Gender=Neut Number=Sing	w697
 het	het	het	DET	Definite=Def	w696	det	wetsvoorstel	NOUN	Gender=Neut Number=Sing	w697
 wetsvoorstel	wetsvoorstel	wetsvoorstel	NOUN	Gender=Neut Number=Sing	w697	obl	verklaren	VERB	VerbForm=Part	w704
-worden	worden	worden	AUX	Number=Plur Tense=Pres VerbForm=Fin	w698	aux_pass	verklaren	VERB	VerbForm=Part	w704
+worden	worden	worden	AUX	Number=Plur Tense=Pres VerbForm=Fin	w698	aux:pass	verklaren	VERB	VerbForm=Part	w704
 bepaalde	bepaalde	bepaald	VERB	VerbForm=Part	w699	amod	activiteit	NOUN	Number=Plur	w700
-activiteiten	activiteiten	activiteit	NOUN	Number=Plur	w700	nsubj_pass	verklaren	VERB	VerbForm=Part	w704
+activiteiten	activiteiten	activiteit	NOUN	Number=Plur	w700	nsubj:pass	verklaren	VERB	VerbForm=Part	w704
 en	en	en	CCONJ	-	w701	cc	uitbreiding	NOUN	Number=Plur	w702
 uitbreidingen	uitbreidingen	uitbreiding	NOUN	Number=Plur	w702	conj	activiteit	NOUN	Number=Plur	w700
 vergunningsvrij	vergunningsvrij	vergunningsvrij	ADJ	Degree=Pos	w703	xcomp	verklaren	VERB	VerbForm=Part	w704
@@ -996,10 +996,10 @@ verklaard	verklaard	verklaren	VERB	VerbForm=Part	w704	root	-	-	-	-
 ,	,	,	PUNCT	-	pc82	punct	verbinden	VERB	VerbForm=Part	w712
 maar	maar	maar	CCONJ	-	w705	cc	verbinden	VERB	VerbForm=Part	w712
 er	er	er	ADV	-	w706	obl	verbinden	VERB	VerbForm=Part	w712
-is	is	zijn	AUX	Number=Sing Tense=Pres VerbForm=Fin	w707	aux_pass	verbinden	VERB	VerbForm=Part	w712
+is	is	zijn	AUX	Number=Sing Tense=Pres VerbForm=Fin	w707	aux:pass	verbinden	VERB	VerbForm=Part	w712
 wel	wel	wel	ADV	-	w708	advmod	verbinden	VERB	VerbForm=Part	w712
 een	een	een	DET	Definite=Ind	w709	det	meldingsplicht	NOUN	Gender=Com Number=Sing	w710
-meldingsplicht	meldingsplicht	meldingsplicht	NOUN	Gender=Com Number=Sing	w710	nsubj_pass	verbinden	VERB	VerbForm=Part	w712
+meldingsplicht	meldingsplicht	meldingsplicht	NOUN	Gender=Com Number=Sing	w710	nsubj:pass	verbinden	VERB	VerbForm=Part	w712
 aan	aan	aan	ADP	-	w711	case	er	ADV	-	w706
 verbonden	verbonden	verbinden	VERB	VerbForm=Part	w712	conj	verklaren	VERB	VerbForm=Part	w704
 <g/>
@@ -1039,8 +1039,8 @@ jaar	jaar	jaar	NOUN	Gender=Neut Number=Sing	w736	nmod	hectare	NOUN	Gender=Com Nu
 </s>
 <s id="ParlaMint-NL_2014-04-16-tweedekamer-3.s49">
 De	De	de	DET	Definite=Def	w737	det	grenswaarde	NOUN	Gender=Com Number=Sing	w738
-grenswaarde	grenswaarde	grenswaarde	NOUN	Gender=Com Number=Sing	w738	nsubj_pass	vaststellen	VERB	VerbForm=Part	w740
-is	is	zijn	AUX	Number=Sing Tense=Pres VerbForm=Fin	w739	aux_pass	vaststellen	VERB	VerbForm=Part	w740
+grenswaarde	grenswaarde	grenswaarde	NOUN	Gender=Com Number=Sing	w738	nsubj:pass	vaststellen	VERB	VerbForm=Part	w740
+is	is	zijn	AUX	Number=Sing Tense=Pres VerbForm=Fin	w739	aux:pass	vaststellen	VERB	VerbForm=Part	w740
 vastgesteld	vastgesteld	vaststellen	VERB	VerbForm=Part	w740	root	-	-	-	-
 op	op	op	ADP	-	w741	case	mol	NOUN	Gender=Com Number=Sing	w743
 1	1	1	NUM	-	w742	nummod	mol	NOUN	Gender=Com Number=Sing	w743
@@ -1076,11 +1076,11 @@ hierbij	hierbij	hierbij	ADV	-	w765	advmod	orde	NOUN	Gender=Com Number=Sing	w769
 mogelijk	mogelijk	mogelijk	ADJ	Degree=Pos	w766	advmod	orde	NOUN	Gender=Com Number=Sing	w769
 aan	aan	aan	ADP	-	w767	case	orde	NOUN	Gender=Com Number=Sing	w769
 de	de	de	DET	Definite=Def	w768	det	orde	NOUN	Gender=Com Number=Sing	w769
-orde	orde	orde	NOUN	Gender=Com Number=Sing	w769	acl_relcl	cumulatie	NOUN	Gender=Com Number=Sing	w763
+orde	orde	orde	NOUN	Gender=Com Number=Sing	w769	acl:relcl	cumulatie	NOUN	Gender=Com Number=Sing	w763
 is	is	zijn	AUX	Number=Sing Tense=Pres VerbForm=Fin	w770	cop	orde	NOUN	Gender=Com Number=Sing	w769
 <g/>
 ,	,	,	PUNCT	-	pc88	punct	cumulatie	NOUN	Gender=Com Number=Sing	w763
-in	in	in	ADP	-	w771	compound_prt	houden	VERB	VerbForm=Inf	w775
+in	in	in	ADP	-	w771	compound:prt	houden	VERB	VerbForm=Inf	w775
 de	de	de	DET	Definite=Def	w772	fixed	in	ADP	-	w771
 gaten	gaten	gat	NOUN	Number=Plur	w773	fixed	in	ADP	-	w771
 zal	zal	zullen	AUX	Number=Sing Tense=Pres VerbForm=Fin	w774	aux	houden	VERB	VerbForm=Inf	w775
@@ -1111,7 +1111,7 @@ reserveren	reserveren	reserveren	VERB	VerbForm=Inf	w793	conj	doen	VERB	VerbForm=
 ?	?	?	PUNCT	-	pc90	punct	verstandig	ADJ	Degree=Cmp	w779
 </s>
 </p>
-<p id="ParlaMint-NL_2014-04-16-tweedekamer-3.seg8" lang="Dutch">
+<p id="ParlaMint-NL_2014-04-16-tweedekamer-3.seg8" lang="">
 <s id="ParlaMint-NL_2014-04-16-tweedekamer-3.s52">
 Het	Het	het	DET	Definite=Def	w794	det	punt	NOUN	Gender=Neut Number=Sing	w796
 derde	derde	derde	ADJ	-	w795	amod	punt	NOUN	Gender=Neut Number=Sing	w796
@@ -1283,8 +1283,8 @@ dat	dat	dat	SCONJ	-	w908	mark	vinden	VERB	VerbForm=Part	w914
 er	er	er	ADV	-	w909	advmod	vinden	VERB	VerbForm=Part	w914
 gewoon	gewoon	gewoon	ADJ	Degree=Pos	w910	advmod	vinden	VERB	VerbForm=Part	w914
 een	een	een	DET	Definite=Ind	w911	det	oplossing	NOUN	Gender=Com Number=Sing	w912
-oplossing	oplossing	oplossing	NOUN	Gender=Com Number=Sing	w912	nsubj_pass	vinden	VERB	VerbForm=Part	w914
-wordt	wordt	worden	AUX	Number=Sing Tense=Pres VerbForm=Fin	w913	aux_pass	vinden	VERB	VerbForm=Part	w914
+oplossing	oplossing	oplossing	NOUN	Gender=Com Number=Sing	w912	nsubj:pass	vinden	VERB	VerbForm=Part	w914
+wordt	wordt	worden	AUX	Number=Sing Tense=Pres VerbForm=Fin	w913	aux:pass	vinden	VERB	VerbForm=Part	w914
 gevonden	gevonden	vinden	VERB	VerbForm=Part	w914	ccomp	willen	VERB	VerbForm=Inf	w907
 in	in	in	ADP	-	w915	case	regeling	NOUN	Gender=Com Number=Sing	w918
 de	de	de	DET	Definite=Def	w916	det	regeling	NOUN	Gender=Com Number=Sing	w918
@@ -1324,7 +1324,7 @@ probleempje	probleempje	probleempje	NOUN	Gender=Neut Number=Sing	w938	obj	hebben
 <s id="ParlaMint-NL_2014-04-16-tweedekamer-3.s63">
 Ik	Ik	ik	PRON	Case=Nom Person=1 PronType=Prs	w939	nsubj	laten	VERB	VerbForm=Inf	w943
 heb	heb	hebben	AUX	Number=Sing Tense=Pres VerbForm=Fin	w940	aux	laten	VERB	VerbForm=Inf	w943
-mijn	mijn	mijn	PRON	Person=1 Poss=Yes PronType=Prs	w941	nmod_poss	keuze	NOUN	Gender=Com Number=Sing	w942
+mijn	mijn	mijn	PRON	Person=1 Poss=Yes PronType=Prs	w941	nmod:poss	keuze	NOUN	Gender=Com Number=Sing	w942
 keuze	keuze	keuze	NOUN	Gender=Com Number=Sing	w942	obj	laten	VERB	VerbForm=Inf	w943
 laten	laten	laten	VERB	VerbForm=Inf	w943	root	-	-	-	-
 vallen	vallen	vallen	VERB	VerbForm=Inf	w944	xcomp	laten	VERB	VerbForm=Inf	w943
@@ -1351,7 +1351,7 @@ het	het	het	DET	Definite=Def	w958	det	waddengebied	NOUN	Gender=Neut Number=Sing	
 <name type="LOC">
 Waddengebied	Waddengebied	waddengebied	NOUN	Gender=Neut Number=Sing	w959	nmod	deel	NOUN	Gender=Neut Number=Sing	w956
 </name>
-afkomstig	afkomstig	afkomstig	ADJ	Degree=Pos	w960	acl_relcl	Schiermonnikoog	PROPN	Gender=Neut Number=Sing	w946
+afkomstig	afkomstig	afkomstig	ADJ	Degree=Pos	w960	acl:relcl	Schiermonnikoog	PROPN	Gender=Neut Number=Sing	w946
 is	is	zijn	AUX	Number=Sing Tense=Pres VerbForm=Fin	w961	cop	afkomstig	ADJ	Degree=Pos	w960
 <g/>
 .	.	.	PUNCT	-	pc105	punct	laten	VERB	VerbForm=Inf	w943
@@ -1372,7 +1372,7 @@ die	die	die	PRON	PronType=Rel	w971	nsubj	ontplooien	VERB	Number=Plur Tense=Pres 
 daar	daar	daar	ADV	-	w972	advmod	ontplooien	VERB	Number=Plur Tense=Pres VerbForm=Fin	w975
 economische	economische	economisch	ADJ	Degree=Pos	w973	amod	activiteit	NOUN	Number=Plur	w974
 activiteiten	activiteiten	activiteit	NOUN	Number=Plur	w974	obj	ontplooien	VERB	Number=Plur Tense=Pres VerbForm=Fin	w975
-ontplooien	ontplooien	ontplooien	VERB	Number=Plur Tense=Pres VerbForm=Fin	w975	acl_relcl	degene	PRON	PronType=Dem	w970
+ontplooien	ontplooien	ontplooien	VERB	Number=Plur Tense=Pres VerbForm=Fin	w975	acl:relcl	degene	PRON	PronType=Dem	w970
 <g/>
 .	.	.	PUNCT	-	pc106	punct	zijn	VERB	Number=Sing Tense=Pres VerbForm=Fin	w964
 </s>
@@ -1399,7 +1399,7 @@ ook	ook	ook	ADV	-	w990	advmod	verschonen	VERB	VerbForm=Inf	w997
 een	een	een	DET	Definite=Ind	w991	det	deel	NOUN	Gender=Neut Number=Sing	w992
 deel	deel	deel	NOUN	Gender=Neut Number=Sing	w992	obj	verschonen	VERB	VerbForm=Inf	w997
 van	van	van	ADP	-	w993	case	bron	NOUN	Number=Plur	w995
-hun	hun	hun	PRON	Person=3 Poss=Yes PronType=Prs	w994	nmod_poss	bron	NOUN	Number=Plur	w995
+hun	hun	hun	PRON	Person=3 Poss=Yes PronType=Prs	w994	nmod:poss	bron	NOUN	Number=Plur	w995
 bronnen	bronnen	bron	NOUN	Number=Plur	w995	nmod	deel	NOUN	Gender=Neut Number=Sing	w992
 te	te	te	ADP	-	w996	mark	verschonen	VERB	VerbForm=Inf	w997
 verschonen	verschonen	verschonen	VERB	VerbForm=Inf	w997	conj	groen	ADJ	Degree=Pos	w985
@@ -1407,13 +1407,13 @@ verschonen	verschonen	verschonen	VERB	VerbForm=Inf	w997	conj	groen	ADJ	Degree=Po
 ,	,	,	PUNCT	-	pc108	punct	datgeniden	PRON	PronType=Dem	w999
 bovenop	bovenop	bovenop	ADP	-	w998	case	datgeniden	PRON	PronType=Dem	w999
 datgene	datgene	datgeniden	PRON	PronType=Dem	w999	parataxis	proberen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w983
-wat	wat	wat	PRON	Person=3 PronType=Int	w1000	nsubj_pass	vragen	VERB	VerbForm=Part	w1006
+wat	wat	wat	PRON	Person=3 PronType=Int	w1000	nsubj:pass	vragen	VERB	VerbForm=Part	w1006
 al	al	al	ADV	-	w1001	advmod	vragen	VERB	VerbForm=Part	w1006
 vanuit	vanuit	vanuit	ADP	-	w1002	case	maatregel	NOUN	Number=Plur	w1004
 generieke	generieke	generiek	ADJ	Degree=Pos	w1003	amod	maatregel	NOUN	Number=Plur	w1004
 maatregelen	maatregelen	maatregel	NOUN	Number=Plur	w1004	obl	vragen	VERB	VerbForm=Part	w1006
-wordt	wordt	worden	AUX	Number=Sing Tense=Pres VerbForm=Fin	w1005	aux_pass	vragen	VERB	VerbForm=Part	w1006
-gevraagd	gevraagd	vragen	VERB	VerbForm=Part	w1006	acl_relcl	datgeniden	PRON	PronType=Dem	w999
+wordt	wordt	worden	AUX	Number=Sing Tense=Pres VerbForm=Fin	w1005	aux:pass	vragen	VERB	VerbForm=Part	w1006
+gevraagd	gevraagd	vragen	VERB	VerbForm=Part	w1006	acl:relcl	datgeniden	PRON	PronType=Dem	w999
 <g/>
 .	.	.	PUNCT	-	pc109	punct	proberen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w983
 </s>
@@ -1466,7 +1466,7 @@ gebieden	gebieden	gebied	NOUN	Number=Plur	w1035	iobj	komen	VERB	VerbForm=Inf	w10
 toch	toch	toch	ADV	-	w1036	advmod	komen	VERB	VerbForm=Inf	w1040
 een	een	een	DET	Definite=Ind	w1037	det	beetje	NOUN	Gender=Neut Number=Sing	w1038
 beetje	beetje	beetje	NOUN	Gender=Neut Number=Sing	w1038	obl	komen	VERB	VerbForm=Inf	w1040
-tegemoet	tegemoet	tegemoet	ADV	-	w1039	compound_prt	komen	VERB	VerbForm=Inf	w1040
+tegemoet	tegemoet	tegemoet	ADV	-	w1039	compound:prt	komen	VERB	VerbForm=Inf	w1040
 komen	komen	komen	VERB	VerbForm=Inf	w1040	root	-	-	-	-
 <g/>
 ?	?	?	PUNCT	-	pc113	punct	komen	VERB	VerbForm=Inf	w1040
@@ -1480,7 +1480,7 @@ ze	ze	zij	PRON	Person=3 PronType=Prs	w1045	nsubj	komen	VERB	Number=Plur Tense=Pr
 wel	wel	wel	ADV	-	w1046	advmod	komen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w1052
 heel	heel	heel	ADJ	Degree=Pos	w1047	advmod	erg	ADJ	Degree=Pos	w1048
 erg	erg	erg	ADJ	Degree=Pos	w1048	advmod	komen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w1052
-in	in	in	ADP	-	w1049	compound_prt	komen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w1052
+in	in	in	ADP	-	w1049	compound:prt	komen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w1052
 de	de	de	DET	Definite=Def	w1050	fixed	in	ADP	-	w1049
 knel	knel	knel	NOUN	Gender=Com Number=Sing	w1051	fixed	in	ADP	-	w1049
 komen	komen	komen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w1052	ccomp	denken	VERB	Number=Sing Tense=Pres VerbForm=Fin	w1042
@@ -1498,15 +1498,15 @@ ontwikkelingen	ontwikkelingen	ontwikkeling	NOUN	Number=Plur	w1056	obl	komen	VERB
 <note type="gap::editorial">
 /SAMPLING/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-NL_2014-04-16-tweedekamer-3.u42" speaker_role="Regular" speaker_id="SharonDijksma" speaker_name="Dijksma, Sharon" speaker_type="MP" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" speaker_gender="F" speaker_birth="?">
-<p id="ParlaMint-NL_2014-04-16-tweedekamer-3.seg76" lang="Dutch">
+<speech id="ParlaMint-NL_2014-04-16-tweedekamer-3.u42" speaker_role="Regular" speaker_id="SharonDijksma" speaker_name="Dijksma, Sharon" speaker_type="MP" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" coalition_party="yes" speaker_gender="F" speaker_birth="?">
+<p id="ParlaMint-NL_2014-04-16-tweedekamer-3.seg76" lang="">
 <s id="ParlaMint-NL_2014-04-16-tweedekamer-3.s511">
 Dat	Dat	dat	PRON	Person=3 PronType=Dem	w8555	obj	laten	VERB	Number=Sing Tense=Pres VerbForm=Fin	w8556
 laat	laat	laten	VERB	Number=Sing Tense=Pres VerbForm=Fin	w8556	root	-	-	-	-
 ik	ik	ik	PRON	Case=Nom Person=1 PronType=Prs	w8557	nsubj	laten	VERB	Number=Sing Tense=Pres VerbForm=Fin	w8556
 aan	aan	aan	ADP	-	w8558	case	u	PRON	Case=Nom Person=2 PronType=Prs	w8559
 u	u	u	PRON	Case=Nom Person=2 PronType=Prs	w8559	obl	laten	VERB	Number=Sing Tense=Pres VerbForm=Fin	w8556
-over	over	over	ADP	-	w8560	compound_prt	laten	VERB	Number=Sing Tense=Pres VerbForm=Fin	w8556
+over	over	over	ADP	-	w8560	compound:prt	laten	VERB	Number=Sing Tense=Pres VerbForm=Fin	w8556
 <g/>
 ,	,	,	PUNCT	-	pc928	punct	voorzitter	NOUN	Gender=Com Number=Sing	w8561
 voorzitter	voorzitter	voorzitter	NOUN	Gender=Com Number=Sing	w8561	parataxis	laten	VERB	Number=Sing Tense=Pres VerbForm=Fin	w8556
@@ -1515,13 +1515,13 @@ voorzitter	voorzitter	voorzitter	NOUN	Gender=Com Number=Sing	w8561	parataxis	lat
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-NL_2014-04-16-tweedekamer-3.u43" speaker_role="Chairperson" speaker_id="AnouchkavanMiltenburg" speaker_name="van Miltenburg, Anouchka" speaker_type="notMP" speaker_party="VVD" speaker_party_name="Volkspartij voor Vrijheid en Democratie" speaker_gender="F" speaker_birth="?">
-<p id="ParlaMint-NL_2014-04-16-tweedekamer-3.seg77" lang="Dutch">
+<speech id="ParlaMint-NL_2014-04-16-tweedekamer-3.u43" speaker_role="Chairperson" speaker_id="AnouchkavanMiltenburg" speaker_name="van Miltenburg, Anouchka" speaker_type="notMP" speaker_party="VVD" speaker_party_name="Volkspartij voor Vrijheid en Democratie" coalition_party="yes" speaker_gender="F" speaker_birth="?">
+<p id="ParlaMint-NL_2014-04-16-tweedekamer-3.seg77" lang="">
 <s id="ParlaMint-NL_2014-04-16-tweedekamer-3.s512">
 Dan	Dan	dan	ADV	-	w8562	advmod	stellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w8563
 stel	stel	stellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w8563	root	-	-	-	-
 ik	ik	ik	PRON	Case=Nom Person=1 PronType=Prs	w8564	nsubj	stellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w8563
-voor	voor	voor	ADP	-	w8565	compound_prt	stellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w8563
+voor	voor	voor	ADP	-	w8565	compound:prt	stellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w8563
 <g/>
 ,	,	,	PUNCT	-	pc930	punct	schorsen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w8573
 dat	dat	dat	SCONJ	-	w8566	mark	schorsen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w8573

@@ -23,7 +23,7 @@
 <note type="">
 /Wszyscy śpiewają hymn narodowy/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-PL_2015-11-12-senat-01-1.u1" speaker_role="Guest" speaker_id="DudaAndrzej" speaker_name="Duda, Andrzej" speaker_type="notMP" speaker_party="-" speaker_party_name="-" speaker_gender="M" speaker_birth="?">
+<speech id="ParlaMint-PL_2015-11-12-senat-01-1.u1" speaker_role="Guest" speaker_id="DudaAndrzej" speaker_name="Duda, Andrzej" speaker_type="notMP" speaker_party="-" speaker_party_name="-" coalition_party="?" speaker_gender="M" speaker_birth="?">
 <p id="seg543983" lang="Polish">
 <s id="seg543983.1">
 Szanowni	Szanowni	szanowny	ADJ	Animacy=Hum Case=Nom Degree=Pos Gender=Masc Number=Sing	1	amod	państwo	PROPN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	2
@@ -2273,7 +2273,7 @@ bardzo	bardzo	bardzo	ADV	Degree=Pos	2	advmod	dziękować	VERB	Aspect=Imp Mood=In
 /Oklaski/	-	-	-	-	-	-	-	-	-	-
 </note>
 </speech>
-<speech id="ParlaMint-PL_2015-11-12-senat-01-1.u2" speaker_role="Chairperson" speaker_id="KuchcińskiMarek" speaker_name="Kuchciński, Marek" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-PL_2015-11-12-senat-01-1.u2" speaker_role="Chairperson" speaker_id="KuchcińskiMarek" speaker_name="Kuchciński, Marek" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" coalition_party="?" speaker_gender="M" speaker_birth="1955">
 <p id="seg544002" lang="Polish">
 <s id="seg544002.1">
 Dziękuję	Dziękuję	dziękować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
@@ -4132,7 +4132,7 @@ sposób	sposób	sposób	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	35	nm
 <note type="gap::editorial">
 /SAMPLING/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-PL_2015-11-12-senat-01-1.u50" speaker_role="Regular" speaker_id="SzwedAleksander" speaker_name="Szwed, Aleksander" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" speaker_gender="M" speaker_birth="1982">
+<speech id="ParlaMint-PL_2015-11-12-senat-01-1.u50" speaker_role="Regular" speaker_id="SzwedAleksander" speaker_name="Szwed, Aleksander" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" coalition_party="?" speaker_gender="M" speaker_birth="1982">
 <p id="seg544801" lang="Polish">
 <s id="seg544801.1">
 Panie	Panie	pan	NOUN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	1	vocative	-	-	-	-
@@ -4281,7 +4281,7 @@ Dziękuję	Dziękuję	dziękować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-PL_2015-11-12-senat-01-1.u51" speaker_role="Chairperson" speaker_id="KuchcińskiMarek" speaker_name="Kuchciński, Marek" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-PL_2015-11-12-senat-01-1.u51" speaker_role="Chairperson" speaker_id="KuchcińskiMarek" speaker_name="Kuchciński, Marek" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" coalition_party="?" speaker_gender="M" speaker_birth="1955">
 <p id="seg544804" lang="Polish">
 <s id="seg544804.1">
 Ogłaszam	Ogłaszam	ogłaszać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-

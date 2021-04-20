@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ParlaMint-GB_2020-03-05-commons"
+     xml:lang="en"
+     ana="#parla.sitting #covid">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Great Britain parliamentary corpus ParlaMint-GB, Commons, 2020-03-05 [ParlaMint SAMPLE]</title>
+            <title type="sub">Minutes of the House of Commons, Daily Session 2020-03-05</title>
+            <meeting corresp="#PoGB" ana="#parla.meeting.regular"/>
+            <meeting n="58" corresp="#PoGB" ana="#parla.term #PoGB.58"/>
+            <respStmt>
+               <persName>Matthew Coole</persName>
+               <resp>TEI corpus encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="331">331 speeches</measure>
+            <measure unit="words" quantity="69924">69,924 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName>CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+               <p>This work is also licensed under the <ref target="https://www.parliament.uk/site-information/copyright-parliament/open-parliament-licence/">Open Parliament Licence v3.0</ref>.</p>
+            </availability>
+            <date when="2021-04-19">2021-04-19</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>UK Parliamentary Corpus. Volume 672. Thursday 5th March 2020.</title>
+               <idno type="URI">https://hansard-api.parliament.uk/debates/debate/b724a5c2-72d1-40e4-9b0f-be8a88d39175.xml</idno>
+               <date when="2020-03-05"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="21"/>
+               <tagUsage gi="head" occurs="21"/>
+               <tagUsage gi="note" occurs="27"/>
+               <tagUsage gi="u" occurs="331"/>
+               <tagUsage gi="seg" occurs="701"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city">London</name>
+               <name type="place">Westminster</name>
+               <name type="place">Commons Chamber</name>
+               <date when="2020-03-05"/>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid">
+      <body>
+         <div type="debateSection">
+            <head>UK/US Free Trade Agreement</head>
+            <u xml:id="ParlaMint-GB_2020-03-05-commons.u1"
+               ana="#regular"
+               who="#AaronBell">
+               <seg xml:id="ParlaMint-GB_2020-03-05-commons.seg1">1. What recent assessment she has made of the potential economic benefits to manufacturing industries of a free trade agreement with the US.</seg>
+            </u>
+            <u xml:id="ParlaMint-GB_2020-03-05-commons.u2"
+               ana="#regular"
+               who="#ElizabethTruss">
+               <seg xml:id="ParlaMint-GB_2020-03-05-commons.seg2">A free trade agreement with the US could deliver a £15 billion increase in bilateral trade, increase manufacturing output and benefit all parts of the UK economy, particularly the midlands, Scotland and the north-east.</seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+         </div>
+         <div type="debateSection">
+            <u xml:id="ParlaMint-GB_2020-03-05-commons.u330"
+               ana="#regular"
+               who="#RobertBlackman">
+               <seg xml:id="ParlaMint-GB_2020-03-05-commons.seg700">Before the Minister sits down, let me counsel her that one of her predecessors, my hon. Friend the Member for Winchester (Steve Brine), was asked during his first outing at the Dispatch Box in Health questions when the prevention Green Paper would be published, and—to the consternation of his officials—he announced, “This month”. Therefore, if the Minister would do us the honour of saying when we will get the response to the Green Paper, I am sure—to the consternation of her officials—we would get some urgent action.</seg>
+            </u>
+            <u xml:id="ParlaMint-GB_2020-03-05-commons.u331"
+               ana="#regular"
+               who="#JohannaChurchill">
+               <seg xml:id="ParlaMint-GB_2020-03-05-commons.seg701">I will resist the temptation to name a date, as I am sure my hon. Friend appreciates that I have one or two other things on my desk at the moment, but we will make sure that the document is with him as soon as possible. Question put and agreed to.</seg>
+            </u>
+            <note>House adjourned.</note>
+            <note>End of debateSection.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

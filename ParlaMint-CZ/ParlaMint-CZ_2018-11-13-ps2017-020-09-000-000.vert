@@ -5,7 +5,7 @@
 <note type="speaker">
 /Předseda PSP Radek Vondráček/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000.u1" speaker_role="Chairperson" speaker_id="RadekVondracek.1973" speaker_name="Vondráček, Radek" speaker_type="MP" speaker_party="ANO" speaker_party_name="Poslanecký klub ANO 2011" speaker_gender="M" speaker_birth="1973">
+<speech id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000.u1" speaker_role="Chairperson" speaker_id="RadekVondracek.1973" speaker_name="Vondráček, Radek" speaker_type="MP" speaker_party="ANO" speaker_party_name="Poslanecký klub ANO 2011" coalition_party="?" speaker_gender="M" speaker_birth="1973">
 <p id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000.u1.p1" lang="Czech">
 <s id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000.u1.p1.s1">
 Vážené	Vážené	vážený	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur Polarity=Pos	w1	amod	paní	NOUN	Case=Nom Gender=Fem Number=Plur Polarity=Pos	w2
@@ -751,7 +751,7 @@ návrh	návrh	návrh	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing Polarity
 <note type="speaker">
 /Poslanec Jaroslav Faltýnek/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000.u2" speaker_role="Regular" speaker_id="JaroslavFaltynek.1962" speaker_name="Faltýnek, Jaroslav" speaker_type="MP" speaker_party="ANO" speaker_party_name="Poslanecký klub ANO 2011" speaker_gender="M" speaker_birth="1962">
+<speech id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000.u2" speaker_role="Regular" speaker_id="JaroslavFaltynek.1962" speaker_name="Faltýnek, Jaroslav" speaker_type="MP" speaker_party="ANO" speaker_party_name="Poslanecký klub ANO 2011" coalition_party="?" speaker_gender="M" speaker_birth="1962">
 <p id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000.u2.p1" lang="Czech">
 <s id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000.u2.p1.s1">
 Hezké	Hezké	hezký	ADJ	Case=Nom Degree=Pos Gender=Neut Number=Sing Polarity=Pos	w1	amod	odpoledne	NOUN	Case=Nom Gender=Neut Number=Sing Polarity=Pos	w2
@@ -964,7 +964,7 @@ Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=
 <note type="gap::editorial">
 /SAMPLING/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000.u12" speaker_role="Regular" speaker_id="MiroslavKalousek.1960" speaker_name="Kalousek, Miroslav" speaker_type="MP" speaker_party="TOP09" speaker_party_name="Poslanecký klub TOP 09" speaker_gender="M" speaker_birth="1960">
+<speech id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000.u12" speaker_role="Regular" speaker_id="MiroslavKalousek.1960" speaker_name="Kalousek, Miroslav" speaker_type="MP" speaker_party="TOP09" speaker_party_name="Poslanecký klub TOP 09" coalition_party="?" speaker_gender="M" speaker_birth="1960">
 <p id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000.u12.p1" lang="Czech">
 <s id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000.u12.p1.s1">
 Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-
@@ -1210,7 +1210,7 @@ Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=
 <note type="speaker">
 /Předseda PSP Radek Vondráček/	-	-	-	-	-	-	-	-	-	-
 </note>
-<speech id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000.u13" speaker_role="Chairperson" speaker_id="RadekVondracek.1973" speaker_name="Vondráček, Radek" speaker_type="MP" speaker_party="ANO" speaker_party_name="Poslanecký klub ANO 2011" speaker_gender="M" speaker_birth="1973">
+<speech id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000.u13" speaker_role="Chairperson" speaker_id="RadekVondracek.1973" speaker_name="Vondráček, Radek" speaker_type="MP" speaker_party="ANO" speaker_party_name="Poslanecký klub ANO 2011" coalition_party="?" speaker_gender="M" speaker_birth="1973">
 <p id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000.u13.p1" lang="Czech">
 <s id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000.u13.p1.s1">
 Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-
