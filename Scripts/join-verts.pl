@@ -51,6 +51,5 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     $XX =~ s|XX|$countryCode|g;
     $inVertDir  = "$inDir/$XX.vert";
     $outVert    = "$outDir/$XX.vert";
-    `rm -fr $outVert`;
-    `find $inVertDir -type f -name \*.vert -print | tac | xargs cat | gzip > $outVert.gz`
+    `find $inVertDir -type f -name '*.vert' -print | tac | xargs cat | gzip > $outVert.gz`
 }
