@@ -12,7 +12,7 @@ $outDir = File::Spec->rel2abs(shift);
 
 binmode(STDERR, 'utf8');
 
-$Para  = 'parallel --gnu --halt 2 --jobs 10';
+$Para  = 'parallel --gnu --halt 2 --jobs 8';
 $Saxon = 'java -jar /usr/share/java/saxon.jar';
 $TEI2VERT  = "$Bin/parlamint2xmlvert.xsl";
 $POLISH = "$Bin/parlamint-xml2vert.pl";
@@ -28,6 +28,11 @@ foreach $inFile (glob($corpusFiles)) {
     if ($inFile =~ m|ParlaMint-..\.ana\.xml|) {$rootAnaFile = $inFile}
     elsif ($inFile =~ m|ParlaMint-.._.+\.ana\.xml|) {push(@compAnaFiles, $inFile)}
 }
+
+die "Cannot find root file in $inDir!\n"
+    unless $rootAnaFile;
+die "Cannot find component files in $inDir!\n"
+    unless @compAnaFiles;
 
 `mkdir $outDir` unless -e "$outDir";
 `rm -f $outDir/*.vert`;
