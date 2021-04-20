@@ -342,9 +342,9 @@
 	<xsl:variable name="ancestor" select="generate-id(ancestor::tei:name[@type][last()])"/>
 	<xsl:variable name="type" select="ancestor::tei:name/@type"/>
 	<xsl:choose>
-	  <xsl:when test="preceding::tei:*
+	  <xsl:when test="preceding::tei:*[1]
 			  [ancestor::tei:*[generate-id(.) = $ancestor]]
-			  [self::tei:w or self::tei:pc]">
+			  ">
 	    <xsl:value-of select="concat('I-', $type)"/>
 	  </xsl:when>
 	  <xsl:otherwise>
