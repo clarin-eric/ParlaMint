@@ -233,7 +233,7 @@
     <xsl:copy/>
   </xsl:template>
   
-  <xsl:template match="tei:measure">
+  <xsl:template match="tei:measure[@unit='sessions' or @unit='speeches' or @unit='words']">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
       <xsl:variable name="quant">
@@ -249,10 +249,18 @@
 	  </xsl:when>
 	</xsl:choose>
       </xsl:variable>
-      <xsl:attribute name="quantity" select="format-number($quant, '#')"/>
-      <xsl:value-of select="replace(., '.+ ', concat(
-			    et:format-number(ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang, $quant), 
-			    ' '))"/>
+      <xsl:choose>
+	<xsl:when test="normalize-space($quant)">
+	  <xsl:attribute name="quantity" select="format-number($quant, '#')"/>
+	  <xsl:value-of select="replace(., '.+ ', concat(
+				et:format-number(ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang, $quant), 
+				' '))"/>
+	</xsl:when>
+	<xsl:otherwise>
+	  <xsl:message select="concat('ERROR ', /tei:TEI/@xml:id, 
+			       ': no count for measure ', @unit)"/>
+	</xsl:otherwise>
+      </xsl:choose>
     </xsl:copy>
   </xsl:template>
   
