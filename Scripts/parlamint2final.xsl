@@ -201,6 +201,35 @@
 			 ': deleting redundant handle pubPlace')"/>
   </xsl:template>
   
+  <!-- Take care of syntactic words -->
+  <xsl:template mode="comp" match="tei:w[tei:w]">
+    <xsl:choose>
+      <xsl:when test="tei:w[2]">
+	<xsl:copy>
+	  <xsl:apply-templates mode="comp" select="@*"/>
+	  <xsl:apply-templates mode="comp"/>
+	</xsl:copy>
+      </xsl:when>
+      <!-- Bad syntactic word with just one word, like:
+           <w xml:id="ParlaMint-IT_2013-06-25-LEG17-Sed-50.seg160.23.39-39">gli
+             <w xml:id="ParlaMint-IT_2013-06-25-LEG17-Sed-50.seg160.23.39"
+                norm="gli" 
+                lemma="il"
+                pos="RD"
+                msd="UPosTag=DET|Definite=Def|Gender=Masc|Number=Plur|PronType=Art"/>
+           </w>
+      -->
+      <xsl:otherwise>
+	<xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+			     ': removing useless syntactic word ', @xml:id)"/>
+	<xsl:copy>
+	  <xsl:apply-templates mode="comp" select="tei:w/@*[name() != 'norm']"/>
+	  <xsl:value-of select="normalize-space(.)"/>
+	</xsl:copy>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+    
   <!-- Remove leading, trailing and multiple spaces -->
   <xsl:template mode="comp" match="text()[normalize-space(.)]">
     <xsl:variable name="str" select="replace(., '\s+', ' ')"/>

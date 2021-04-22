@@ -19,5 +19,13 @@ $txt =~ s|</gap> +(\S)|</gap>$1|g;
 $txt =~ s|\n\s*<w |\n<w |g;
 $txt =~ s|\n\s*<pc |\n<pc |g;
 $txt =~ s|\n\s*<link |\n<link |g;
+$txt =~ s|\n\s*(</?linkGrp)|\n$1|g;
+#Bug in -IT: <w ... norm="ce" lemma="_" ... msd="UPosTag=PRON|Clitic=Yes|Person=|PronType=Prs"/>
+$txt =~ s|(<w.*?) norm="(.+)" lemma="_"|$1 norm="$2" lemma="$2"|g;
+$txt =~ s!(<w.+?)\|Person=\|!$1\|!g;
+#Syntactic words
+$txt =~ s|[ \t]+<w |<w |g;
+$txt =~ s|(<w[^/>]+/>)\n|$1|g;
+$txt =~ s|[ \t]+</w>\n|</w>\n|g;
 print $txt;
 print "\n";
