@@ -13,7 +13,7 @@
   
   <xsl:template match="text()"/>
   <xsl:template match="/">
-    <xsl:text>Country&#9;Role&#9;ID&#9;From&#9;To&#9;Name&#10;</xsl:text>
+    <xsl:text>Country&#9;Role&#9;ID&#9;From&#9;To&#9;Init&#9;Name&#10;</xsl:text>
     <xsl:for-each select="//xi:include">
       <!-- We need "../" as the this XSLT is in Scripts! -->
       <xsl:variable name="href" select="concat('../', @href)"/>
@@ -46,7 +46,7 @@
 	<xsl:otherwise>-</xsl:otherwise>
       </xsl:choose>
       <xsl:text>&#9;</xsl:text>
-      <!--xsl:choose>
+      <xsl:choose>
 	<xsl:when test="tei:orgName[@full = 'init']
 			[ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang != 'en']">
 	  <xsl:value-of select="tei:orgName[@full = 'init']
@@ -56,7 +56,7 @@
 	  <xsl:value-of select="tei:orgName[@full = 'init']"/>
 	</xsl:otherwise>
       </xsl:choose>
-      <xsl:text>&#9;</xsl:text-->
+      <xsl:text>&#9;</xsl:text>
       <xsl:variable name="full-name">
 	<xsl:choose>
 	  <xsl:when test="tei:orgName[@full = 'yes']
