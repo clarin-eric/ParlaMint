@@ -25,7 +25,7 @@ sub usage {
     print STDERR ("    <procFlags> are process flags that set which operations are carried out:\n");
     print STDERR ("    * -ana: finalizes the TEI.ana directory\n");
     print STDERR ("    * -tei: finalizes the TEI directory (needs TEI.ana output)\n");
-    print STDERR ("    * -sample: prodeced samples (from TEI.ana and TEI output)\n");
+    print STDERR ("    * -sample: produces samples (from TEI.ana and TEI output)\n");
     print STDERR ("    * -valid: validates TEI, TEI.ana and samples\n");
     print STDERR ("    * -vert: produces vertical files (from TEI.ana output)\n");
     
