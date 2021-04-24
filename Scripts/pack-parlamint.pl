@@ -66,7 +66,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     move("$inDir/$outTxt", $outDir);
     
     print STDERR "INFO: *Packing $anaDir, $ConlDir, $VertDir\n";
-    if (-e "$inDir/$anaDir/$anaDir.xml") {
+    if (-e "$inDir/$anaDir/$XX.ana.xml") {
 	`rm -fr $outDir/$outAna`;
 	die "Can't find $inDir/$anaDir\n" unless -e "$inDir/$anaDir"; 
 	die "Can't find $inDir/$ConlDir\n" unless -e "$inDir/$ConlDir";
