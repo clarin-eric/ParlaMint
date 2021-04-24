@@ -229,7 +229,25 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
-    
+
+  <!-- Bug in STANZA, sometimes a word lemma is _ -->
+  <xsl:template mode="comp" match="tei:w/@lemma[. = '_']">
+    <xsl:attribute name="lemma">
+      <xsl:choose>
+	<xsl:when test="../@norm">
+	  <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+			       ': changing _ lemma to @norm ', ../@norm, ' in ', ../@xml:id)"/>
+	  <xsl:value-of select="../@norm"/>
+	</xsl:when>
+	<xsl:otherwise>
+	  <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+			       ': changing _ lemma to token ', ../text(), ' in ', ../@xml:id)"/>
+	  <xsl:value-of select="../text()"/>
+	</xsl:otherwise>
+      </xsl:choose>
+    </xsl:attribute>
+  </xsl:template>
+  
   <!-- Remove leading, trailing and multiple spaces -->
   <xsl:template mode="comp" match="text()[normalize-space(.)]">
     <xsl:variable name="str" select="replace(., '\s+', ' ')"/>

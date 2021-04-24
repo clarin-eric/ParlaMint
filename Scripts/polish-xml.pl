@@ -20,10 +20,9 @@ $txt =~ s|\n\s*<w |\n<w |g;
 $txt =~ s|\n\s*<pc |\n<pc |g;
 $txt =~ s|\n\s*<link |\n<link |g;
 $txt =~ s|\n\s*(</?linkGrp)|\n$1|g;
-#Bug in -IT: <w ... norm="ce" lemma="_" ... msd="UPosTag=PRON|Clitic=Yes|Person=|PronType=Prs"/>
-$txt =~ s|(<w.*?) norm="(.+)" lemma="_"|$1 norm="$2" lemma="$2"|g;
-$txt =~ s!(<w.+?)\|Person=\|!$1\|!g;
-#Syntactic words
+#Bug in -IT: msd="UPosTag=PRON|Clitic=Yes|Person=|PronType=Prs"
+$txt =~ s/(<w.+?)\|Person=\|/$1\|/g;
+#Put w/w in one line, so that w/text() does not have leading/trailing \s
 $txt =~ s|[ \t]+<w |<w |g;
 $txt =~ s|(<w[^/>]+/>)\n|$1|g;
 $txt =~ s|[ \t]+</w>\n|</w>\n|g;
