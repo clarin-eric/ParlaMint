@@ -33,15 +33,15 @@ verbale	verbale	verbale	ADJ	Number=Sing	7	amod	processo	NOUN	Gender=Masc Number=
 </s>
 <s id="ParlaMint-IT_2015-03-03-LEG17-Sed-401.seg1.3">
 <name type="PER">
-PETRAGLIA	PETRAGLIA	PetraGlia	PROPN	-	1	nsubj	_	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
+PETRAGLIA	PETRAGLIA	PetraGlia	PROPN	-	1	nsubj	dà	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
 <g/>
 </name>
 ,	,	,	PUNCT	-	2	punct	PetraGlia	PROPN	-	1
 segretario	segretario	segretario	NOUN	Gender=Masc Number=Sing	3	appos	PetraGlia	PROPN	-	1
 <g/>
 ,	,	,	PUNCT	-	4	punct	PetraGlia	PROPN	-	1
-dà	dà	_	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5	root	-	-	-	-
-lettura	lettura	lettura	NOUN	Gender=Fem Number=Sing	6	obj	_	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
+dà	dà	dà	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5	root	-	-	-	-
+lettura	lettura	lettura	NOUN	Gender=Fem Number=Sing	6	obj	dà	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
 del	di|il	di|il	ADP|DET	-|Definite=Def Gender=Masc Number=Sing PronType=Art	7|8	case|det	processo	NOUN	Gender=Masc Number=Sing	9
 processo	processo	processo	NOUN	Gender=Masc Number=Sing	9	nmod	lettura	NOUN	Gender=Fem Number=Sing	6
 verbale	verbale	verbale	ADJ	Number=Sing	10	amod	processo	NOUN	Gender=Masc Number=Sing	9
@@ -52,7 +52,7 @@ del	di|il	di|il	ADP|DET	-|Definite=Def Gender=Masc Number=Sing PronType=Art	15|1
 25	25	25	NUM	NumType=Card	17	nmod	seduta	NOUN	Gender=Fem Number=Sing	13
 febbraio	febbraio	febbraio	NOUN	Gender=Masc Number=Sing	18	flat	25	NUM	NumType=Card	17
 <g/>
-.	.	.	PUNCT	-	19	punct	_	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
+.	.	.	PUNCT	-	19	punct	dà	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
 </s>
 <s id="ParlaMint-IT_2015-03-03-LEG17-Sed-401.seg1.4">
 PRESIDENTE	PRESIDENTE	presidente	NOUN	Gender=Masc Number=Sing	1	root	-	-	-	-

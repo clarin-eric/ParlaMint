@@ -37,15 +37,15 @@ verbale	verbale	verbale	ADJ	Number=Sing	12	amod	processo	NOUN	Gender=Masc Number
 .	.	.	PUNCT	-	13	punct	invitare	VERB	Gender=Masc Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin	1
 </s>
 <s id="ParlaMint-IT_2013-03-16-LEG17-Sed-2.seg1.3">
-SPILABOTTE	SPILABOTTE	SPILABOTTE	PROPN	-	1	nsubj	_	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
+SPILABOTTE	SPILABOTTE	SPILABOTTE	PROPN	-	1	nsubj	dà	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
 <g/>
 ,	,	,	PUNCT	-	2	punct	SPILABOTTE	PROPN	-	1
 segretario	segretario	segretario	NOUN	Gender=Masc Number=Sing	3	appos	SPILABOTTE	PROPN	-	1
 provvisorio	provvisorio	provvisorio	ADJ	Gender=Masc Number=Sing	4	amod	segretario	NOUN	Gender=Masc Number=Sing	3
 <g/>
 ,	,	,	PUNCT	-	5	punct	SPILABOTTE	PROPN	-	1
-dà	dà	_	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6	root	-	-	-	-
-lettura	lettura	lettura	NOUN	Gender=Fem Number=Sing	7	obj	_	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
+dà	dà	dà	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6	root	-	-	-	-
+lettura	lettura	lettura	NOUN	Gender=Fem Number=Sing	7	obj	dà	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
 del	di|il	di|il	ADP|DET	-|Definite=Def Gender=Masc Number=Sing PronType=Art	8|9	case|det	processo	NOUN	Gender=Masc Number=Sing	10
 processo	processo	processo	NOUN	Gender=Masc Number=Sing	10	nmod	lettura	NOUN	Gender=Fem Number=Sing	7
 verbale	verbale	verbale	ADJ	Number=Sing	11	amod	processo	NOUN	Gender=Masc Number=Sing	10
@@ -55,7 +55,7 @@ del	di|il	di|il	ADP|DET	-|Definite=Def Gender=Masc Number=Sing PronType=Art	15|1
 giorno	giorno	giorno	NOUN	Gender=Masc Number=Sing	17	nmod	seduta	NOUN	Gender=Fem Number=Sing	14
 precedente	precedente	precedente	ADJ	Gender=Masc Number=Sing	18	amod	giorno	NOUN	Gender=Masc Number=Sing	17
 <g/>
-.	.	.	PUNCT	-	19	punct	_	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
+.	.	.	PUNCT	-	19	punct	dà	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
 </s>
 <s id="ParlaMint-IT_2013-03-16-LEG17-Sed-2.seg1.4">
 PRESIDENTE	PRESIDENTE	presidente	NOUN	Gender=Masc Number=Sing	1	root	-	-	-	-
