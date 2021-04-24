@@ -153,14 +153,16 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	die "Can't find $outTeiRoot\n" unless -e $outTeiRoot; 
 	`rm -fr $outSmpDir`;
 	`$Saxon outDir=$outSmpDir -xsl:$Sample $outTeiRoot`;
-	`$Saxon outDir=$outSmpDir -xsl:$Sample $outAnaRoot`;
-	my $inFiles = join("\n", );
-	#Make also derived files
+	if (glob("$outSmpDir/*.ana.xml")) {
+	    `$Saxon outDir=$outSmpDir -xsl:$Sample $outAnaRoot`;
+	    #Make also derived files
+	    `$Verts $outSmpDir $outSmpDir`;
+	    `$Conls $outSmpDir $outSmpDir`
+	}
+	else {
+	    print STDERR "WARN: No .ana files in $countryCode samples\n";
+	}
 	`$Texts $outSmpDir $outSmpDir`;
-	#Remove as Conlls will generate meta again, sigh...
-	`rm -f $outSmpDir/*-meta.tsv`;
-	`$Conls $outSmpDir $outSmpDir`;
-	`$Verts $outSmpDir $outSmpDir`;
     }
     if (($procAll and $procValid) or (!$procAll and $procValid == 1)) {
 	print STDERR "INFO: *Validating $countryCode TEI\n";

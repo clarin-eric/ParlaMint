@@ -230,7 +230,8 @@
     </xsl:choose>
   </xsl:template>
 
-  <!-- Bug in STANZA, sometimes a word lemma is _ -->
+  <!-- Bug in STANZA, sometimes a word lemma is set to "_" -->
+  <!-- We set lemma to @norm, if it exists, else to text() of the word -->
   <xsl:template mode="comp" match="tei:w/@lemma[. = '_']">
     <xsl:attribute name="lemma">
       <xsl:choose>

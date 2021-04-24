@@ -41,5 +41,5 @@ print STDERR "INFO: Making metadata files\n";
 @rootFile = glob("$inDir/ParlaMint-??.xml");
 $command = "$Saxon hdr=$rootFile[0] -xsl:$Meta {} > $outDir/{/.}-meta.tsv";
 `cat $fileFile | $Para '$command'`;
-`rm -f $outDir/*-meta.tsv`;
+`rm -f $outDir/*.ana-meta.tsv`;
 `rename 's/\.ana//' $outDir/*-meta.tsv`;

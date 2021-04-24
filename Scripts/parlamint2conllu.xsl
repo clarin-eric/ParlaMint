@@ -232,8 +232,9 @@
 				       '\|?XPosTag=[^|]+', '')"/>
     <xsl:choose>
       <xsl:when test="normalize-space($feats)">
-	<!-- ?In TEI : was changed to _ so it doesn't clash with extended pointer prefixes -->
-	<!-- Is this relevant here!?! -->
+	<!-- In TEI ":" in extended relations is changed to "_" so it doesn't clash with 
+	     extended pointer prefixes -->
+	<!-- Here we change it back: -->
 	<xsl:value-of select="et:sort_feats(replace($feats, '_', ':'))"/>
       </xsl:when>
       <xsl:otherwise>_</xsl:otherwise>
