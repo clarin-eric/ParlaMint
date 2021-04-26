@@ -13,7 +13,7 @@
   
   <xsl:template match="text()"/>
   <xsl:template match="/">
-    <xsl:text>Country&#9;Role&#9;IDs&#9;From&#9;To&#10;</xsl:text>
+    <xsl:text>Country&#9;Role&#9;From&#9;To&#9;Party IDs&#10;</xsl:text>
     <xsl:for-each select="//xi:include">
       <!-- We need "../" as the this XSLT is in Scripts! -->
       <xsl:variable name="href" select="concat('../', @href)"/>
@@ -53,8 +53,6 @@
     <xsl:text>&#9;</xsl:text>
     <xsl:value-of select="@name"/>
     <xsl:text>&#9;</xsl:text>
-    <xsl:value-of select="replace(@mutual, '#', '')"/>
-    <xsl:text>&#9;</xsl:text>
     <xsl:choose>
       <xsl:when test="@from">
 	<xsl:value-of select="@from"/>
@@ -68,6 +66,8 @@
       </xsl:when>
       <xsl:otherwise>-</xsl:otherwise>
     </xsl:choose>
+    <xsl:text>&#9;</xsl:text>
+    <xsl:value-of select="replace(@mutual, '#', '')"/>
     <xsl:text>&#10;</xsl:text>
   </xsl:template>
 </xsl:stylesheet>
