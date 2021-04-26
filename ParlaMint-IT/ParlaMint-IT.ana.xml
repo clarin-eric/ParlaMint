@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-IT" xml:lang="it">
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0"
+           xml:id="ParlaMint-IT.ana"
+           xml:lang="it">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT [ParlaMint SAMPLE]</title>
-            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT [ParlaMint.ana SAMPLE]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT [ParlaMint.ana SAMPLE]</title>
             <title type="sub" xml:lang="it">Resoconti del Senato della Repubblica italiana, legislature XVII e XVIII (2013 - 2020)</title>
             <title type="sub" xml:lang="en">Minutes of the Senate of the Italian Republic, terms 17 and 18 (2013 - 2020)</title>
             <meeting ana="#parla.term #LEG.17" corresp="#LEG" n="17">XVII Legislatura</meeting>
@@ -32,6 +34,22 @@
                <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
                <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
             </respStmt>
+            <respStmt>
+               <persName>Giulia Venturi</persName>
+               <persName>Andrea Cimino</persName>
+               <resp xml:lang="it">Annotazione linguistica automatica</resp>
+               <resp xml:lang="en">Automatic Linguistic annotation</resp>
+               <resp xml:lang="it">Riconoscimento Entità Nominate</resp>
+               <resp xml:lang="en">NER</resp>
+               <resp xml:lang="it">Allineamento Annotazione linguistica - Entità Nominate</resp>
+               <resp xml:lang="en">Linguistic annotation - NER Alignment</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Roberto Bartolini</persName>
+               <persName>Valeria Quochi</persName>
+               <resp xml:lang="it">Conversione annotazione linguistica: da CoNLL-U a ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Conversion of the linguistic annotation: from CoNLL-U to ParlaMint TEI XML</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
@@ -52,7 +70,7 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1388</idno>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1405</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
@@ -66,6 +84,11 @@
                <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
                <idno type="URI">https://www.senato.it</idno>
                <date from="2013-03-15" to="2020-11-18">15.3.2013 - 18.11.2020</date>
+            </bibl>
+            <bibl>
+               <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT [ParlaMint]</title>
+               <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT [ParlaMint]</title>
+               <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1388</idno>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -102,10 +125,16 @@
                <tagUsage gi="head" occurs="11585"/>
                <tagUsage gi="incident" occurs="1401"/>
                <tagUsage gi="kinesic" occurs="51570"/>
+               <tagUsage gi="link" occurs="32817851"/>
+               <tagUsage gi="linkGrp" occurs="1087465"/>
+               <tagUsage gi="name" occurs="868371"/>
                <tagUsage gi="note" occurs="192855"/>
+               <tagUsage gi="pc" occurs="3674101"/>
+               <tagUsage gi="s" occurs="1087465"/>
                <tagUsage gi="seg" occurs="214300"/>
                <tagUsage gi="u" occurs="79373"/>
                <tagUsage gi="vocal" occurs="8636"/>
+               <tagUsage gi="w" occurs="31343911"/>
             </namespace>
          </tagsDecl>
          <classDecl>
@@ -312,7 +341,298 @@
                      <term>COVID</term>: COVID subcorpus, from 2019-10-01 onwards</catDesc>
                </category>
             </taxonomy>
+            <taxonomy xml:id="NER">
+               <desc xml:lang="it">
+                  <term>Entità nominate</term>
+               </desc>
+               <desc xml:lang="en">
+                  <term>Named entities</term>
+               </desc>
+               <category xml:id="PER">
+                  <catDesc xml:lang="it">
+                     <term>persona</term>
+                  </catDesc>
+                  <catDesc xml:lang="en">
+                     <term>person</term>
+                  </catDesc>
+               </category>
+               <category xml:id="LOC">
+                  <catDesc xml:lang="it">
+                     <term>luogo</term>
+                  </catDesc>
+                  <catDesc xml:lang="en">
+                     <term>location</term>
+                  </catDesc>
+               </category>
+               <category xml:id="ORG">
+                  <catDesc xml:lang="it">
+                     <term>organizzazione</term>
+                  </catDesc>
+                  <catDesc xml:lang="en">
+                     <term>organization</term>
+                  </catDesc>
+               </category>
+               <category xml:id="MISC">
+                  <catDesc xml:lang="it">
+                     <term>miscellanea</term>
+                  </catDesc>
+                  <catDesc xml:lang="en">
+                     <term>miscellaneous</term>
+                  </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="UD-SYN">
+               <desc xml:lang="en">
+                  <term>UD syntactic relations</term>
+               </desc>
+               <desc xml:lang="it">
+                  <term>Relazioni sintattiche UD</term>
+               </desc>
+               <category xml:id="acl">
+                  <catDesc xml:lang="en">
+                     <term>acl</term>: Clausal modifier of noun (adjectival clause)</catDesc>
+               </category>
+               <category xml:id="acl_relcl">
+                  <catDesc xml:lang="en">
+                     <term>acl:relcl</term>: relative clause modifier</catDesc>
+               </category>
+               <category xml:id="advcl">
+                  <catDesc xml:lang="en">
+                     <term>advcl</term>: Adverbial clause modifier</catDesc>
+               </category>
+               <category xml:id="advmod">
+                  <catDesc xml:lang="en">
+                     <term>advmod</term>: Adverbial modifier</catDesc>
+               </category>
+               <category xml:id="amod">
+                  <catDesc xml:lang="en">
+                     <term>amod</term>: Adjectival modifier</catDesc>
+               </category>
+               <category xml:id="appos">
+                  <catDesc xml:lang="en">
+                     <term>appos</term>: Appositional modifier</catDesc>
+               </category>
+               <category xml:id="aux">
+                  <catDesc xml:lang="en">
+                     <term>aux</term>: Auxiliary</catDesc>
+               </category>
+               <category xml:id="aux_pass">
+                  <catDesc xml:lang="en">
+                     <term>aux:pass</term>: passive auxiliary</catDesc>
+               </category>
+               <category xml:id="case">
+                  <catDesc xml:lang="en">
+                     <term>case</term>: Case marking</catDesc>
+               </category>
+               <category xml:id="cc">
+                  <catDesc xml:lang="en">
+                     <term>cc</term>: Coordinating conjunction</catDesc>
+               </category>
+               <category xml:id="ccomp">
+                  <catDesc xml:lang="en">
+                     <term>ccomp</term>: Clausal complement</catDesc>
+               </category>
+               <category xml:id="compound">
+                  <catDesc xml:lang="en">
+                     <term>compound</term>: compound</catDesc>
+               </category>
+               <category xml:id="conj">
+                  <catDesc xml:lang="en">
+                     <term>conj</term>: Conjunct</catDesc>
+               </category>
+               <category xml:id="cop">
+                  <catDesc xml:lang="en">
+                     <term>cop</term>: Copula</catDesc>
+               </category>
+               <category xml:id="csubj">
+                  <catDesc xml:lang="en">
+                     <term>csubj</term>: Clausal subject</catDesc>
+               </category>
+               <category xml:id="csubj_pass">
+                  <catDesc xml:lang="en">
+                     <term>csubj:pass</term>: Clausal passive subject</catDesc>
+               </category>
+               <category xml:id="dep">
+                  <catDesc xml:lang="en">
+                     <term>dep</term>: Unspecified dependency</catDesc>
+               </category>
+               <category xml:id="det">
+                  <catDesc xml:lang="en">
+                     <term>det</term>: Determiner</catDesc>
+               </category>
+               <category xml:id="det_poss">
+                  <catDesc xml:lang="en">
+                     <term>det:poss</term>: possessive determiner</catDesc>
+               </category>
+               <category xml:id="det_predet">
+                  <catDesc xml:lang="en">
+                     <term>det:predet</term>: predeterminer</catDesc>
+               </category>
+               <category xml:id="discourse">
+                  <catDesc xml:lang="en">
+                     <term>discourse</term>: Discourse element</catDesc>
+               </category>
+               <category xml:id="discourse_emo">
+                  <catDesc xml:lang="en">
+                     <term>discourse:emo</term>: emoticons, emojis</catDesc>
+               </category>
+               <category xml:id="dislocated">
+                  <catDesc xml:lang="en">
+                     <term>dislocated</term>: Dislocated elements</catDesc>
+               </category>
+               <category xml:id="expl">
+                  <catDesc xml:lang="en">
+                     <term>expl</term>: Expletive</catDesc>
+               </category>
+               <category xml:id="expl_impers">
+                  <catDesc xml:lang="en">
+                     <term>expl:impers</term>: impersonal expletive</catDesc>
+               </category>
+               <category xml:id="expl_pass">
+                  <catDesc xml:lang="en">
+                     <term>expl:pass</term>: reflexive pronoun used in reflexive passive</catDesc>
+               </category>
+               <category xml:id="fixed">
+                  <catDesc xml:lang="en">
+                     <term>fixed</term>: Fixed multiword expression</catDesc>
+               </category>
+               <category xml:id="flat">
+                  <catDesc xml:lang="en">
+                     <term>flat</term>: Flat multiword expression</catDesc>
+               </category>
+               <category xml:id="flat_foreign">
+                  <catDesc xml:lang="en">
+                     <term>flat:foreign</term>: Flat multiword expression: foreign</catDesc>
+               </category>
+               <category xml:id="flat_name">
+                  <catDesc xml:lang="en">
+                     <term>flat:name</term>: Flat name</catDesc>
+               </category>
+               <category xml:id="goeswith">
+                  <catDesc xml:lang="en">
+                     <term>goeswith</term>: goeswith</catDesc>
+               </category>
+               <category xml:id="iobj">
+                  <catDesc xml:lang="en">
+                     <term>iobj</term>: Indirect object</catDesc>
+               </category>
+               <category xml:id="list">
+                  <catDesc xml:lang="en">
+                     <term>list</term>: List</catDesc>
+               </category>
+               <category xml:id="mark">
+                  <catDesc xml:lang="en">
+                     <term>mark</term>: Marker</catDesc>
+               </category>
+               <category xml:id="nmod">
+                  <catDesc xml:lang="en">
+                     <term>nmod</term>: Nominal modifier</catDesc>
+               </category>
+               <category xml:id="nsubj">
+                  <catDesc xml:lang="en">
+                     <term>nsubj</term>: Nominal subject</catDesc>
+               </category>
+               <category xml:id="nsubj_pass">
+                  <catDesc xml:lang="en">
+                     <term>nsubj:pass</term>: passive nominal subject</catDesc>
+               </category>
+               <category xml:id="nummod">
+                  <catDesc xml:lang="en">
+                     <term>nummod</term>: Numeric modifier</catDesc>
+               </category>
+               <category xml:id="obj">
+                  <catDesc xml:lang="en">
+                     <term>obj</term>: Object</catDesc>
+               </category>
+               <category xml:id="obl">
+                  <catDesc xml:lang="en">
+                     <term>obl</term>: Oblique nominal</catDesc>
+               </category>
+               <category xml:id="obl_agent">
+                  <catDesc xml:lang="en">
+                     <term>obl:agent</term>: agent modifier</catDesc>
+               </category>
+               <category xml:id="orphan">
+                  <catDesc xml:lang="en">
+                     <term>orphan</term>: orphan-to-orphan relation in gapping</catDesc>
+               </category>
+               <category xml:id="parataxis">
+                  <catDesc xml:lang="en">
+                     <term>parataxis</term>: Parataxis</catDesc>
+               </category>
+               <category xml:id="parataxis_appos">
+                  <catDesc xml:lang="en">
+                     <term>parataxis:appos</term>: paratactic apposition</catDesc>
+               </category>
+               <category xml:id="parataxis_discourse">
+                  <catDesc xml:lang="en">
+                     <term>parataxis:discourse</term>: paratactic discourse</catDesc>
+               </category>
+               <category xml:id="parataxis_hashtag">
+                  <catDesc xml:lang="en">
+                     <term>parataxis:hashtag</term>: paratactic hashtag</catDesc>
+               </category>
+               <category xml:id="parataxis_insert">
+                  <catDesc xml:lang="en">
+                     <term>parataxis:insert</term>: paratactic insert</catDesc>
+               </category>
+               <category xml:id="parataxis_nsubj">
+                  <catDesc xml:lang="en">
+                     <term>parataxis:nsubj</term>: paratactic nominal subject</catDesc>
+               </category>
+               <category xml:id="parataxis_obj">
+                  <catDesc xml:lang="en">
+                     <term>parataxis:obj</term>: direct speech</catDesc>
+               </category>
+               <category xml:id="punct">
+                  <catDesc xml:lang="en">
+                     <term>punct</term>: Punctuation</catDesc>
+               </category>
+               <category xml:id="reparandum">
+                  <catDesc xml:lang="en">
+                     <term>reparandum</term>: Overridden disfluency (here used for program mistakes!)</catDesc>
+               </category>
+               <category xml:id="root">
+                  <catDesc xml:lang="en">
+                     <term>root</term>: Root</catDesc>
+               </category>
+               <category xml:id="vocative">
+                  <catDesc xml:lang="en">
+                     <term>vocative</term>: Vocative</catDesc>
+               </category>
+               <category xml:id="vocative_mention">
+                  <catDesc xml:lang="en">
+                     <term>vocative:mention</term>: Vocative mention</catDesc>
+               </category>
+               <category xml:id="xcomp">
+                  <catDesc xml:lang="en">
+                     <term>xcomp</term>: Open clausal complement</catDesc>
+               </category>
+            </taxonomy>
          </classDecl>
+         <listPrefixDef>
+            <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
+               <p xml:lang="it">Gli URI privati con questo prefisso puntano a elementi che ne indicano il nome. In questo documento sono dei semplici riferimenti locali alle categorie della tassonomia UD-SYN contenute nel root TEI header del corpus</p>
+               <p xml:lang="en">Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI header.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <appInfo>
+            <application version="1" ident="app-stanza">
+               <label>Stanza</label>
+               <desc xml:lang="en">
+                  <ref target="https://stanfordnlp.github.io/stanza/index.html">Stanza</ref>: a jointly trained neural tagger, lemmatizer and dependency parser. Pretrained model based on the italian-isdt-ud-2.5 treebank</desc>
+            </application>
+            <application version="1" ident="app-t2k">
+               <label>T2K</label>
+               <desc xml:lang="en">
+                  <ref target="http://www.italianlp.it/demo/t2k-text-to-knowledge/">T2K</ref>: contains a named entity recognition module for Italian.</desc>
+            </application>
+            <application version="1" ident="conll-U2TEIXML">
+               <label>CoNLL-U 2 TEI XML</label>
+               <desc xml:lang="en">
+                  <ref target="http://conllu2teixml">CoNLL-U 2 TEI XML</ref>: converter from CoNLL-U format to (ParlaClarin/ParlaMint) Tei XML Format</desc>
+            </application>
+         </appInfo>
       </encodingDesc>
       <profileDesc>
          <settingDesc>
@@ -18779,11 +19099,11 @@
       </profileDesc>
    </teiHeader>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-IT_2013-10-16-LEG17-Sed-126.xml"/>
+               href="ParlaMint-IT_2013-03-16-LEG17-Sed-2.ana.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-IT_2015-08-03-LEG17-Sed-496.xml"/>
+               href="ParlaMint-IT_2015-03-03-LEG17-Sed-401.ana.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-IT_2019-12-11-LEG18-Sed-172.xml"/>
+               href="ParlaMint-IT_2017-04-04-LEG17-Sed-800.ana.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-IT_2016-11-16-LEG17-Sed-724.xml"/>
+               href="ParlaMint-IT_2020-11-18-LEG18-Sed-276.ana.xml"/>
 </teiCorpus>
