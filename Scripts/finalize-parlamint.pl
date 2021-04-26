@@ -153,14 +153,14 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	die "Can't find $outTeiRoot\n" unless -e $outTeiRoot; 
 	`rm -fr $outSmpDir`;
 	`$Saxon outDir=$outSmpDir -xsl:$Sample $outTeiRoot`;
-	if (glob("$outSmpDir/*.ana.xml")) {
+	if (-e $outAnaRoot) {
 	    `$Saxon outDir=$outSmpDir -xsl:$Sample $outAnaRoot`;
 	    #Make also derived files
 	    `$Verts $outSmpDir $outSmpDir`;
 	    `$Conls $outSmpDir $outSmpDir`
 	}
 	else {
-	    print STDERR "WARN: No .ana files in $countryCode samples\n";
+	    print STDERR "WARN: No .ana files for $countryCode samples\n";
 	}
 	`$Texts $outSmpDir $outSmpDir`;
     }
