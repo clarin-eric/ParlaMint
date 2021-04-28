@@ -78,9 +78,14 @@ listOrg =
       attribute role {
         "government"
         | "parliament"
+        | "politicalParty"
+        | 
+          ## The following used only by LT:
+          "politicalGroup"
+        | "conferenceOfChairs"
         | 
           ## The following used only by BG:
-          "politicalParty"
+          "boardOfParliament"
         | "coalition"
         | 
           ## The following used only by CZ:
@@ -91,7 +96,6 @@ listOrg =
         | "committee"
         | "subcommittee"
         | "commission"
-        | "politicalGroup"
         | "delegation"
         | "supervisoryBoard"
         | "workingGroup"
