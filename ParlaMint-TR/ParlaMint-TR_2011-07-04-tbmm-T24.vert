@@ -1,4 +1,4 @@
-<text id="ParlaMint-TR_T24-tbmm-2011-07-04.ana" subcorpus="Reference" term="24" session="2" meeting="-" sitting="-" agenda="-" from="2014-08-25" to="2014-08-25" title="The Turkish parliamentary corpus ParlaMint-TR, Session 2 [ParlaMint.ana SAMPLE]">
+<text id="ParlaMint-TR_2011-07-04-tbmm-T24.ana" subcorpus="Reference" term="24" session="2" meeting="-" sitting="-" agenda="-" from="2014-08-25" to="2014-08-25" title="The Turkish parliamentary corpus ParlaMint-TR, Term 24, Session 2 [ParlaMint.ana SAMPLE]">
 <note type="time">
 /14.03/	-	-	-	-	-	-	-	-	-	-
 </note>
@@ -50,7 +50,9 @@ milletvekilleri	milletvekilleri	milletvekili	NOUN	Case=Nom Number=Sing Number[ps
 <speech id="tbmm-2011-07-04s02p089" speaker_role="Regular" speaker_id="Cemil.Çiçek" speaker_name="Çiçek, Cemil" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" coalition_party="?" speaker_gender="M" speaker_birth="?">
 <p id="tbmm-2011-07-04s02p089.seg0" lang="Turkish">
 <s id="tbmm-2011-07-04s02p089-000010">
+<name type="ORG">
 Hepinize	Hepinize	hepiniz	PRON	Case=Dat Number=Plur Person=2	t1	obl	sun	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres	t3
+</name>
 saygılar	saygılar	saygı	NOUN	Case=Nom Number=Plur	t2	obj	sun	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres	t3
 sunuyorum	sunuyorum	sun	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres	t3	root	-	-	-	-
 <g/>
@@ -96,7 +98,6 @@ daha	daha	daha	ADV	-	t22	advmod	UNIFIL	PROPN	Abbr=Yes Case=Nom Number=Sing	t23
 <name type="ORG">
 UNIFIL	UNIFIL	UNIFIL	PROPN	Abbr=Yes Case=Nom Number=Sing	t23	obl	görüş	VERB	Case=Nom Number=Sing VerbForm=Vnoun	t39
 Harekâtına	Harekâtına	harekât	NOUN	Case=Dat Number=Sing Number[psor]=Sing Person[psor]=2	t24	nmod	iştirak	NOUN	Case=Nom Number=Sing	t25
-</name>
 iştirak	iştirak	iştirak	NOUN	Case=Nom Number=Sing	t25	obl	görüş	VERB	Case=Nom Number=Sing VerbForm=Vnoun	t39
 etmesi	etmesi	et	VERB	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3 VerbForm=Vnoun	t26	compound:lvc	iştirak	NOUN	Case=Nom Number=Sing	t25
 hususunda	hususunda	husus	NOUN	Case=Loc Number=Sing Number[psor]=Sing Person[psor]=2	t27	obl	görüş	VERB	Case=Nom Number=Sing VerbForm=Vnoun	t39
@@ -105,6 +106,7 @@ Anayasa’nın	Anayasa’nın	anayasa	NOUN	Case=Gen Number=Sing	t28	obl	görüş
 maddesi	maddesi	madde	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t30	obl	görüş	VERB	Case=Nom Number=Sing VerbForm=Vnoun	t39
 uyarınca	uyarınca	uyar	VERB	VerbForm=Conv	t31	acl	görüş	VERB	Case=Nom Number=Sing VerbForm=Vnoun	t39
 Hükûmete	Hükûmete	hükûmet	NOUN	Case=Dat Number=Sing	t32	obl	görüş	VERB	Case=Nom Number=Sing VerbForm=Vnoun	t39
+</name>
 izin	izin	iz	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=2	t33	obl	görüş	VERB	Case=Nom Number=Sing VerbForm=Vnoun	t39
 verilmesine	verilmesine	ver	VERB	Case=Dat Number=Sing Number[psor]=Sing Person[psor]=3 VerbForm=Vnoun Voice=Pass	t34	compound	iz	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=2	t33
 dair	dair	dair	ADP	-	t35	case	iz	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=2	t33
