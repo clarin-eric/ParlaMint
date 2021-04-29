@@ -708,11 +708,22 @@ And, there is, in theory, also:
   <!-- Is the first date between the following two? -->
   <xsl:function name="et:between-dates" as="xs:boolean">
     <xsl:param name="date" as="xs:string"/>
-    <xsl:param name="from" as="xs:string"/>
-    <xsl:param name="to" as="xs:string"/>
+    <xsl:param name="from" as="xs:string?"/>
+    <xsl:param name="to" as="xs:string?"/>
     <xsl:choose>
-      <xsl:when test="xs:date(et:fix-date($date)) &gt;= xs:date(et:fix-date($from)) and
-	              xs:date(et:fix-date($date)) &lt;= xs:date(et:fix-date($to))">
+      <xsl:when test="$from = '' and $to = ''">
+	<xsl:value-of select="true()"/>
+      </xsl:when>
+      <xsl:when test="$from = '' and 
+		      xs:date(et:pad-date($date)) &lt;= xs:date(et:pad-date($to))" >
+	<xsl:value-of select="true()"/>
+      </xsl:when>
+      <xsl:when test="$to = '' and 
+		      xs:date(et:pad-date($date)) &gt;= xs:date(et:pad-date($from))" >
+	<xsl:value-of select="true()"/>
+      </xsl:when>
+      <xsl:when test="xs:date(et:pad-date($date)) &gt;= xs:date(et:pad-date($from)) and
+	              xs:date(et:pad-date($date)) &lt;= xs:date(et:pad-date($to))">
 	<xsl:value-of select="true()"/>
       </xsl:when>
       <xsl:otherwise>
@@ -721,8 +732,9 @@ And, there is, in theory, also:
     </xsl:choose>
   </xsl:function>
   
-  <!-- Fix too long or too short dates a la "2013-10-26T14:00:00" or "2018-02" -->
-  <xsl:function name="et:fix-date">
+  <!-- Fix too long or too short dates 
+       a la "2013-10-26T14:00:00" or "2018" to xs:date e.g. 2018-01-01 -->
+  <xsl:function name="et:pad-date">
     <xsl:param name="date"/>
     <xsl:choose>
       <xsl:when test="matches($date, '^\d\d\d\d-\d\d-\d\dT.+$')">
