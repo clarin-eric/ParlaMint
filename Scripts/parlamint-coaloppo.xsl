@@ -24,7 +24,7 @@
 	</xsl:apply-templates>
       </xsl:variable>
       <xsl:choose>
-	<xsl:when test="normalize-space($coalition)">
+	<xsl:when test="$coalition =! ''">
 	  <xsl:value-of select="$coalition"/>
 	</xsl:when>
 	<xsl:otherwise>
@@ -37,7 +37,7 @@
 	</xsl:apply-templates>
       </xsl:variable>
       <xsl:choose>
-	<xsl:when test="normalize-space($opposition)">
+	<xsl:when test="$opposition != ''">
 	  <xsl:value-of select="$opposition"/>
 	</xsl:when>
 	<xsl:otherwise>
