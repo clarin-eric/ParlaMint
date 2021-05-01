@@ -74,10 +74,12 @@
     <xsl:for-each select="$docs/tei:item">
       <item n="{tei:xi-orig}">
 	<xsl:choose>
+	  <!-- For .ana files, compute number of words -->
 	  <xsl:when test="$type = 'ana'">
 	    <xsl:value-of select="document(tei:url-orig)/
 				  count(//tei:w[not(parent::tei:w)])"/>
-	    </xsl:when>
+	  </xsl:when>
+	  <!-- For plain files, take number of words from .ana files -->
 	  <xsl:when test="doc-available(tei:url-ana)">
 	    <xsl:value-of select="document(tei:url-ana)/tei:TEI/tei:teiHeader//
 				  tei:extent/tei:measure[@unit='words'][1]/@quantity"/>
