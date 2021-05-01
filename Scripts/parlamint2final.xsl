@@ -367,93 +367,6 @@
     </xsl:copy>
   </xsl:template>
     
-  <!-- Insert the opposition parties -->
-  <!-- Actually, this might be a bad idea, comment out -->
-  <!--xsl:template match="tei:relation[@name='coalition']">
-    <xsl:copy>
-      <xsl:apply-templates select="@*"/>
-    </xsl:copy>
-    <relation name="opposition">
-      <xsl:attribute name="mutual">
-	<xsl:variable name="from-mandate">
-	  <xsl:choose>
-	    <xsl:when test="@from">
-	      <xsl:value-of select="@from"/>
-	    </xsl:when>
-	    <xsl:otherwise>1000-01-01</xsl:otherwise>
-	  </xsl:choose>
-	</xsl:variable>
-	<xsl:variable name="to-mandate">
-	  <xsl:choose>
-	    <xsl:when test="@to">
-	      <xsl:value-of select="@to"/>
-	    </xsl:when>
-	    <xsl:otherwise>3000-01-01</xsl:otherwise>
-	  </xsl:choose>
-	</xsl:variable>
-	<xsl:variable name="exclude" select="concat(@mutual, ' ')"/>
-	<xsl:variable name="tmp">
-	  <xsl:for-each select="ancestor::tei:listOrg//tei:org[@role='politicalParty']">
-	    <xsl:if test="not(contains($exclude, concat('#', @xml:id, ' ')))">
-	      <xsl:variable name="from-party">
-		<xsl:choose>
-		  <xsl:when test="tei:event[tei:label = 'existence'][@from]">
-		    <xsl:value-of select="tei:event[tei:label = 'existence']/@from"/>
-		  </xsl:when>
-		  <xsl:otherwise>1000-01-01</xsl:otherwise>
-		</xsl:choose>
-	      </xsl:variable>
-	      <xsl:variable name="to-party">
-		<xsl:choose>
-		  <xsl:when test="tei:event[tei:label = 'existence'][@to]">
-		    <xsl:value-of select="tei:event[tei:label = 'existence']/@to"/>
-		  </xsl:when>
-		  <xsl:otherwise>3000-01-01</xsl:otherwise>
-		</xsl:choose>
-	      </xsl:variable>
-	      <xsl:if test="et:between-dates($from-mandate, $from-party, $to-party)
-			    and 
-			    et:between-dates($to-mandate, $from-party, $to-party)">
-		<xsl:value-of select="concat('#', @xml:id, ' ')"/>
-	      </xsl:if>
-	    </xsl:if>
-	  </xsl:for-each>
-	</xsl:variable>
-	<xsl:value-of select="replace($tmp, ' $', '')"/>
-      </xsl:attribute>
-      <xsl:attribute name="from" select="@from"/>
-      <xsl:if test="@to">
-	<xsl:attribute name="to" select="@to"/>
-      </xsl:if>
-      <xsl:attribute name="ana" select="@ana"/>
-    </relation>
-  </xsl:template-->
-    
-  <!-- Fix too long or too short dates a la "2013-10-26T14:00:00" or "2018-02" -->
-  <xsl:function name="et:fix-date">
-    <xsl:param name="date"/>
-    <xsl:choose>
-      <xsl:when test="matches($date, '^\d\d\d\d-\d\d-\d\dT.+$')">
-	<xsl:value-of select="substring-before($date, 'T')"/>
-      </xsl:when>
-      <xsl:when test="matches($date, '^\d\d\d\d-\d\d-\d\d$')">
-	<xsl:value-of select="$date"/>
-      </xsl:when>
-      <xsl:when test="matches($date, '^\d\d\d\d-\d\d$')">
-	<xsl:value-of select="concat($date, '-01')"/>
-      </xsl:when>
-      <xsl:when test="matches($date, '^\d\d\d\d$')">
-	<xsl:value-of select="concat($date, '-01-01')"/>
-      </xsl:when>
-      <xsl:otherwise>
-	<xsl:message terminate="yes">
-	  <xsl:text>ERROR: bad date </xsl:text>
-	  <xsl:value-of select="$date"/>
-	</xsl:message>
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:function>
-  
   <!-- Format number-->
   <xsl:function name="et:format-number" as="xs:string">
     <xsl:param name="lang" as="xs:string"/>
@@ -487,11 +400,22 @@
   <!-- Is the first date between the following two? -->
   <xsl:function name="et:between-dates" as="xs:boolean">
     <xsl:param name="date" as="xs:string"/>
-    <xsl:param name="from" as="xs:string"/>
-    <xsl:param name="to" as="xs:string"/>
+    <xsl:param name="from" as="xs:string?"/>
+    <xsl:param name="to" as="xs:string?"/>
     <xsl:choose>
-      <xsl:when test="xs:date(et:fix-date($date)) &gt;= xs:date(et:fix-date($from)) and
-		      xs:date(et:fix-date($date)) &lt;= xs:date(et:fix-date($to))">
+      <xsl:when test="$from = '' and $to = ''">
+	<xsl:value-of select="true()"/>
+      </xsl:when>
+      <xsl:when test="$from = '' and 
+		      xs:date(et:pad-date($date)) &lt;= xs:date(et:pad-date($to))" >
+	<xsl:value-of select="true()"/>
+      </xsl:when>
+      <xsl:when test="$to = '' and 
+		      xs:date(et:pad-date($date)) &gt;= xs:date(et:pad-date($from))" >
+	<xsl:value-of select="true()"/>
+      </xsl:when>
+      <xsl:when test="xs:date(et:pad-date($date)) &gt;= xs:date(et:pad-date($from)) and
+	              xs:date(et:pad-date($date)) &lt;= xs:date(et:pad-date($to))">
 	<xsl:value-of select="true()"/>
       </xsl:when>
       <xsl:otherwise>
@@ -499,5 +423,39 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:function>
-
+  
+  <!-- Fix too long or too short dates 
+       a la "2013-10-26T14:00:00" or "2018" to xs:date e.g. 2018-01-01 -->
+  <xsl:function name="et:pad-date">
+    <xsl:param name="date"/>
+    <xsl:choose>
+      <xsl:when test="matches($date, '^\d\d\d\d-\d\d-\d\dT.+$')">
+	<xsl:value-of select="substring-before($date, 'T')"/>
+      </xsl:when>
+      <xsl:when test="matches($date, '^\d\d\d\d-\d\d-\d\d$')">
+	<xsl:value-of select="$date"/>
+      </xsl:when>
+      <xsl:when test="matches($date, '^\d\d\d\d-\d\d$')">
+	<!--xsl:message>
+	  <xsl:text>WARN: short date </xsl:text>
+	  <xsl:value-of select="$date"/>
+	</xsl:message-->
+	<xsl:value-of select="concat($date, '-01')"/>
+      </xsl:when>
+      <xsl:when test="matches($date, '^\d\d\d\d$')">
+	<!--xsl:message>
+	  <xsl:text>WARN: short date </xsl:text>
+	  <xsl:value-of select="$date"/>
+	</xsl:message-->
+	<xsl:value-of select="concat($date, '-01-01')"/>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:message terminate="yes">
+	  <xsl:text>ERROR: bad date </xsl:text>
+	  <xsl:value-of select="$date"/>
+	</xsl:message>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:function>
+  
 </xsl:stylesheet>
