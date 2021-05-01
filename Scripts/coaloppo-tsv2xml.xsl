@@ -50,6 +50,9 @@
 		<xsl:when test="$to and $to != '-' and not(matches($to, '\d\d\d\d-\d\d-\d\d'))">
 		  <xsl:message select="concat('ERROR ' , $country, ': to = ', $to)"/>
 		</xsl:when>
+		<xsl:when test="$role != 'coalition' and $role != 'opposition'">
+		  <xsl:message select="concat('WARN ', $country, ': role = ', $role, ', skipping!')"/>
+		</xsl:when>
 		<xsl:otherwise>
 		  <item>
 		    <country>
@@ -103,7 +106,7 @@
   </xsl:variable>
   
   <xsl:template match="/">
-    <listRelation>
+    <xsl:variable name="relations">
       <xsl:for-each select="$input//tei:item">
 	<xsl:sort select="tei:country"/>
 	<xsl:variable name="item" select="."/>
@@ -132,7 +135,17 @@
 		<xsl:variable name="government"
 			      select="$listOrgs//tei:item[tei:country = $item/tei:country]/
 				      tei:org[@role = 'government']/@xml:id"/>
-		<xsl:value-of select="concat('#', $government)"/>
+		<xsl:choose>
+		  <xsl:when test="$government != ''">
+		    <xsl:value-of select="concat('#', $government)"/>
+		  </xsl:when>
+		  <xsl:otherwise>
+		    <xsl:variable name="gov-ref" select="concat('government.', $item/tei:country)"/>
+		    <xsl:message select="concat('WARN: adding fake government ', $gov-ref, 
+					 ' ref for ', $item/tei:country, ' opposition')"/>
+		    <xsl:value-of select="concat('#', $gov-ref)"/>
+		  </xsl:otherwise>
+		</xsl:choose>
 	      </xsl:attribute>
 	    </xsl:when>
 	  </xsl:choose>
@@ -142,7 +155,7 @@
 	  <xsl:if test="normalize-space(tei:to)">
 	    <xsl:attribute name="to" select="tei:to"/>
 	  </xsl:if>
-	  <!-- Government -->
+	  <!-- Add term when coalition/opposition active -->
 	  <xsl:variable name="term">
 	    <xsl:variable name="terms" select="$listOrgs//tei:item[tei:country = $item/tei:country]/
 					       tei:org[@role = 'parliament']/tei:listEvent"/>
@@ -157,6 +170,17 @@
 	  </xsl:if>
 	</relation>
       </xsl:for-each>
+    </xsl:variable>
+    <listRelation>
+      <xsl:for-each-group select="$relations/tei:relation" group-by="@n">
+	<listRelation n="{current-grouping-key()}">
+	  <xsl:for-each select="current-group()">
+	    <xsl:copy>
+	      <xsl:copy-of select="@*[name() != 'n']"/>
+	    </xsl:copy>
+	  </xsl:for-each>
+	</listRelation>
+      </xsl:for-each-group>
     </listRelation>
   </xsl:template>
   
