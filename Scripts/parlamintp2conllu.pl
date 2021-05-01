@@ -62,7 +62,8 @@ foreach $inFile (glob($corpusFiles)) {
     if ($inFile =~ m|ParlaMint-..\.ana\.xml|) {$rootAnaFile = $inFile}
     elsif ($inFile =~ m|ParlaMint-.._.+\.ana\.xml|) {push(@compAnaFiles, $inFile)}
 }
-my ($country) = $rootAnaFile =~ /ParlaMint-(..)/ or die;
+my ($country) = $rootAnaFile =~ /ParlaMint-(..)/
+    or die "Can't find country code in root file $rootAnaFile!\n";
 my ($langs) = $country2lang{$country};
 
 #Store all files to be processed in $fileFile
