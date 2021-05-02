@@ -13,7 +13,6 @@ use File::Copy;
 use File::Spec;
 $inDirs = File::Spec->rel2abs(shift);
 $MAX = 1023;
-$MAX = 102;
 foreach my $inDir (glob "$inDirs") {
     print STDERR "INFO: Doing directory $inDir\n";
     @files = glob "$inDir/*";
