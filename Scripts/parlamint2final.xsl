@@ -5,9 +5,11 @@
      - set version to 2.0
      - get rid of spurious handle ref
      - get rid of spurious spaces
-     - do extents and tagcounts, warn if changed
-     - insert word extents from ana
-     - fix UD terms for extended relations (in .ana) 
+     - insert government org, if missing
+     - calculate component extents in ana, warn if changed
+     - insert word extents from ana into plain version
+     - insert tagcounts in root (but not in component files!)
+     - fix UD terms for extended relations in .ana
 -->
 <xsl:stylesheet 
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -367,6 +369,32 @@
     </xsl:copy>
   </xsl:template>
     
+  <!-- Insert government organisation if missing -->
+  <xsl:template match="tei:listOrg">
+    <xsl:copy>
+      <xsl:if test="not(tei:org[@role = 'government'])">
+	<xsl:variable name="country-code" select="replace(/tei:teiCorpus/@xml:id, 
+					 '.*-(..).*', '$1')"/>
+	<xsl:variable name="country-name" select="replace(/tei:teiCorpus/tei:teiHeader/
+						  tei:fileDesc/tei:titleStmt/
+						  tei:title[@type='main' and @xml:lang='en'],
+						  '([^ ]+) .*', '$1')"/>
+	<xsl:variable name="government-id" select="concat('government.' , $country-code)"/>
+	<xsl:variable name="government-name" select="concat($country-name, ' Government')"/>
+	<xsl:message select="concat('WARN ', /tei:teiCorpus/@xml:id, 
+			     ': inserting government organisation ', $government-name, 
+			     ' with ID ', $government-id)"/>
+        <org xml:id="{$government-id}" role="government">
+          <orgName xml:lang="en" full="yes">
+	    <xsl:value-of select="$government-name"/>
+	  </orgName>
+	</org>
+      </xsl:if>
+      <xsl:apply-templates select="@*"/>
+      <xsl:apply-templates/>
+    </xsl:copy>
+  </xsl:template>
+  
   <!-- Format number-->
   <xsl:function name="et:format-number" as="xs:string">
     <xsl:param name="lang" as="xs:string"/>
