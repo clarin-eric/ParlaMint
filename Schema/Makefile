@@ -1,3 +1,6 @@
+list:
+	grep '<element name=' ParlaMint-*.rng | perl -pe 's|.+="||; s|">||' | sort | uniq
+
 nohup:
 	nohup time make all > nohup.all &
 all:	val trang
