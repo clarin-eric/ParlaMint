@@ -192,7 +192,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
       <xsl:if test="$version != .">
-	<xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+	<xsl:message select="concat('INFO ', /tei:TEI/@xml:id, 
 			     ': replacing version ', ., ' with ', $version)"/>
       </xsl:if>
       <xsl:value-of select="$version"/>
