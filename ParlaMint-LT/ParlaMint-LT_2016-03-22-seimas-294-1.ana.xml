@@ -1,0 +1,2580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     ana="#parla.meeting #reference"
+     xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.ana"
+     xml:lang="lt">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="lt">Lietuvos parlamento debatų tekstynas ParlaMint-LT, 8 eilinė sesija [ParlaMint.ana SAMPLE]</title>
+            <title type="main" xml:lang="en">Lithuanian parliamentary corpus ParlaMint-LT, Regular Session 8 [ParlaMint.ana SAMPLE]</title>
+            <title type="sub" xml:lang="lt">Lietuvos Respublikos Seimo posėdžių stenogramos, 7kadencija, 8 eilinė sesija (2016-03-22)</title>
+            <title type="sub" xml:lang="en">Transcripts of the Meetings of the Seimas of the Republic of Lithuania, Term 7, Regular Session 8 (2016-03-22)</title>
+            <meeting ana="#parla.uni">Seimas</meeting>
+            <meeting ana="#parla.uni #parla.term #S.7" corresp="#S" n="7">7 kadencija</meeting>
+            <meeting ana="#parla.uni #parla.session #S.7" corresp="#S" n="8">8 eilinė sesija</meeting>
+            <meeting ana="#parla.uni #parla.meeting.regular" n="323">323 posėdis</meeting>
+            <respStmt>
+               <persName>Andrius Utka</persName>
+               <persName>Mindaugas Petkevičius</persName>
+               <persName>Monika Briedienė</persName>
+               <persName>Tomas Krilavičius</persName>
+               <persName>Vaidas Morkevičius</persName>
+               <resp xml:lang="lt">Duomenų atsisiuntimas ir konvertavimas į Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Data retrieval and conversion to Parla-CLARIN TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="lt">„CLARIN ERIC“ tyrimų infrastruktūra</orgName>
+               <orgName xml:lang="en">The CLARIN ERIC research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure quantity="291" unit="speeches" xml:lang="lt">291 pasisakymų</measure>
+            <measure quantity="291" unit="speeches" xml:lang="en">291 speeches</measure>
+            <measure quantity="18551" unit="words" xml:lang="lt">18.551 žodžių</measure>
+            <measure quantity="18551" unit="words" xml:lang="en">18,551 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="lt">CLARIN tyrimų infrastruktūra</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1405</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="lt">Šis kūrinys yra licencijuojamas pagal <ref target="http://creativecommons.org/licenses/by/4.0/">„Creative Commons“ priskyrimo tarptautinę viešąją licenciją</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
+            </availability>
+            <date when="2021-05-03">2021-05-03</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="lt">Lietuvos Respublikos Seimo posėdžių stenogramos</title>
+               <title type="main" xml:lang="en">Transcripts of the Meetings of the Seimas of the Republic of Lithuania</title>
+               <edition xml:lang="lt">Galutinis variantas</edition>
+               <edition xml:lang="en">Final version</edition>
+               <idno type="URI">https://e-seimas.lrs.lt/portal/legalAct/lt/TAK/TAIS.462504</idno>
+               <date when="2016-03-22">2016-03-22</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="lt">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="2"/>
+               <tagUsage gi="note" occurs="42"/>
+               <tagUsage gi="u" occurs="291"/>
+               <tagUsage gi="seg" occurs="449"/>
+               <tagUsage gi="vocal" occurs="35"/>
+               <tagUsage gi="desc" occurs="40"/>
+               <tagUsage gi="kinesic" occurs="5"/>
+               <tagUsage gi="s" occurs="1800"/>
+               <tagUsage gi="name" occurs="711"/>
+               <tagUsage gi="w" occurs="18551"/>
+               <tagUsage gi="pc" occurs="4709"/>
+               <tagUsage gi="linkGrp" occurs="1800"/>
+               <tagUsage gi="link" occurs="23260"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Gedimino pr. 53</name>
+               <name type="city">Vilnius</name>
+               <name key="LT" type="country">Lithuania</name>
+               <date ana="#parla.meeting" when="2016-03-22">2016-03-22</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2021-05-03">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2021-03-31">
+            <name>Mindaugas Petkevičius</name>: Fixes for Version 1.</change>
+         <change when="2021-03-11">
+            <name>Mindaugas Petkevičius</name>: Corpus generated for ParlaMint.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="lt">
+      <body>
+         <div type="debateSection">
+            <head>LIETUVOS RESPUBLIKOS SEIMAS, VIII (PAVASARIO) SESIJOS, VAKARINIO POSĖDŽIO NR. 323 STENOGRAMA, 2016 m. kovo 22 d.</head>
+            <head type="chairman">Pirmininkauja Lietuvos Respublikos Seimo Pirmininko pavaduotojas J. NARKEVIČIUS</head>
+            <u ana="#chair"
+               who="#NarkevičiusJ"
+               xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.u1">
+               <seg xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130301">
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.1">
+                     <w lemma="labas"
+                        msd="UPosTag=INTJ|Hyph=Yes"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.1.1">Laba</w>
+                     <w lemma="diena"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.1.2">diena</w>
+                     <w lemma="dar"
+                        msd="UPosTag=PART"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.1.3">dar</w>
+                     <w lemma="kartas2"
+                        msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.1.4">kartą</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.1.5">,</pc>
+                     <w lemma="gerbiamas"
+                        msd="UPosTag=VERB|Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.1.6">gerbiami</w>
+                     <name type="ORG">
+                        <w lemma="seimas"
+                           msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.1.7">Seimo</w>
+                     </name>
+                     <w lemma="narė"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Plur"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.1.8">nariai</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.1.9">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.1.2"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.1.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.1.1"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.1.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.1.4"/>
+                        <link ana="ud-syn:acl"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.1.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.1.6"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.1.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.1.9"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.1.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.1.3"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.1.6 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.1.5"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.1.6 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.1.8"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.1.8 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.1.7"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.2">
+                     <w lemma="pradėti"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.2.1">Pradedame</w>
+                     <w lemma="šios"
+                        msd="UPosTag=DET|Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.2.2">šios</w>
+                     <w lemma="dienoti"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.2.3">dienos</w>
+                     <name type="ORG">
+                        <w lemma="seimas"
+                           msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.2.4">Seimo</w>
+                     </name>
+                     <w lemma="popietinį"
+                        msd="UPosTag=ADJ|Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.2.5">popietinį</w>
+                     <w lemma="plenarinis"
+                        msd="UPosTag=ADJ|Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.2.6">plenarinį</w>
+                     <w lemma="posėdis"
+                        msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.2.7">posėdį</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.2.8">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.2.1"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.2.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.2.7"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.2.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.2.8"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.2.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.2.2"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.2.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.2.3"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.2.7 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.2.4"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.2.7 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.2.5"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.2.7 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.2.6"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <kinesic type="ringing">
+                  <desc>Gongas</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302">
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.1">
+                     <w join="right"
+                        lemma="registracija"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.1.1">Registracija</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.1.2">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.1.1"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.1.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.1.2"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.2">
+                     <w join="right"
+                        lemma="geras"
+                        msd="UPosTag=ADV|Degree=Pos"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.2.1">Gerai</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.2.2">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.2.1"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.2.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.2.2"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.3">
+                     <w join="right"
+                        lemma="Registruojamės"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.3.1">Registruojamės</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.3.2">,</pc>
+                     <w lemma="gerbiamas"
+                        msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.3.3">gerbiamieji</w>
+                     <name type="ORG">
+                        <w lemma="seimas"
+                           msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.3.4">Seimo</w>
+                     </name>
+                     <w lemma="narė"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Plur"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.3.5">nariai</w>
+                     <w lemma="ir"
+                        msd="UPosTag=CCONJ"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.3.6">ir</w>
+                     <w lemma="gerbiamosios"
+                        msd="UPosTag=VERB|Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.3.7">gerbiamosios</w>
+                     <name type="ORG">
+                        <w lemma="seimas"
+                           msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.3.8">Seimo</w>
+                     </name>
+                     <w lemma="narė"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Plur"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.3.9">narės</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.3.10">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.3.1"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.3.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.3.5"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.3.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.3.10"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.3.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.3.2"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.3.5 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.3.3"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.3.5 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.3.4"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.3.5 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.3.9"/>
+                        <link ana="ud-syn:acl"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.3.8 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.3.7"/>
+                        <link ana="ud-syn:cc"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.3.9 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.3.6"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.3.9 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.3.8"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.4">
+                     <w join="right"
+                        lemma="Registruojamės"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.4.1">Registruojamės</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.4.2">!</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.4.1"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.4.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.4.2"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.5">
+                     <w lemma="būti"
+                        msd="UPosTag=AUX|Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.5.1">Buvo</w>
+                     <w lemma="minutė"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.5.2">minutė</w>
+                     <w join="right"
+                        lemma="susikauptas"
+                        msd="UPosTag=VERB|Polarity=Pos|Reflex=Yes|VerbForm=Inf"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.5.3">susikaupti</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.5.4">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.5 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.5.3"/>
+                        <link ana="ud-syn:cop"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.5.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.5.1"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.5.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.5.2"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.5.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.5.4"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.6">
+                     <w lemma="Taigi"
+                        msd="UPosTag=PART"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.6.1">Taigi</w>
+                     <w lemma="dabar"
+                        msd="UPosTag=ADV|Degree=Pos"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.6.2">dabar</w>
+                     <w lemma="jau"
+                        msd="UPosTag=ADV|Degree=Pos"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.6.3">jau</w>
+                     <w lemma="galimas"
+                        msd="UPosTag=VERB|Definite=Ind|Gender=Neut|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.6.4">galima</w>
+                     <w lemma="registruotis"
+                        msd="UPosTag=VERB|Polarity=Pos|Reflex=Yes|VerbForm=Inf"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.6.5">registruotis</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.6.6">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.6 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.6.4"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.6.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.6.1"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.6.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.6.2"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.6.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.6.3"/>
+                        <link ana="ud-syn:xcomp"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.6.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.6.5"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.6.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.6.6"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130303">
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130303.1">
+                     <w lemma="užsiregistruoti"
+                        msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130303.1.1">Užsiregistravo</w>
+                     <w lemma="84"
+                        msd="UPosTag=NUM|Definite=Ind|NumForm=Digit"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130303.1.2">84</w>
+                     <name type="ORG">
+                        <w lemma="seimas"
+                           msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130303.1.3">Seimo</w>
+                     </name>
+                     <w lemma="narė"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Plur"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130303.1.4">nariai</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130303.1.5">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130303.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130303.1.1"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130303.1.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130303.1.4"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130303.1.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130303.1.5"/>
+                        <link ana="ud-syn:nummod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130303.1.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130303.1.2"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130303.1.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130303.1.3"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <note type="time">15.06</note>
+            <note type="debate">Miškų įstatymo Nr. I-671 2, 5 ir 18 straipsnių pakeitimo įstatymo projektas Nr. XIIP-3095 (pateikimas)</note>
+            <u ana="#chair"
+               who="#NarkevičiusJ"
+               xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.u2">
+               <seg xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304">
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.1">
+                     <w lemma="Taigi"
+                        msd="UPosTag=PART"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.1.1">Taigi</w>
+                     <w join="right"
+                        lemma="pradėti"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.1.2">pradedame</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.1.3">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.1.2"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.1.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.1.1"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.1.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.1.3"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.2">
+                     <w lemma="mūsa"
+                        msd="UPosTag=PRON|Case=Gen|Definite=Ind|Number=Plur|Person=1|PronType=Prs"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.2.1">Mūsų</w>
+                     <w lemma="šios"
+                        msd="UPosTag=DET|Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.2.2">šios</w>
+                     <w lemma="dienoti"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.2.3">dienos</w>
+                     <w lemma="darbotvarkė"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.2.4">darbotvarkės</w>
+                     <w lemma="penkiolikta"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.2.5">penkioliktas</w>
+                     <w join="right"
+                        lemma="klausimas"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.2.6">klausimas</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.2.7">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.2.6"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.2.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.2.2"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.2.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.2.1"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.2.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.2.3"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.2.5 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.2.4"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.2.6 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.2.5"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.2.6 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.2.7"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.3">
+                     <w lemma="ponas"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.3.1">Ponas</w>
+                     <name type="PER">
+                        <w join="right"
+                           lemma="A"
+                           msd="UPosTag=SYM"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.3.2">A</w>
+                        <pc msd="UPosTag=PUNCT"
+                            xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.3.3">.</pc>
+                        <w join="right"
+                           lemma="Palionis"
+                           msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.3.4">Palionis</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.3.5">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.3.1"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.3.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.3.2"/>
+                        <link ana="ud-syn:flat"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.3.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.3.4"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.3.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.3.3"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.3.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.3.5"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4">
+                     <w join="right"
+                        lemma="prašyti"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.1">Prašau</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.2">,</pc>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.3">pone</pc>
+                     <name type="PER">
+                        <w lemma="Andriau"
+                           msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Past|VerbForm=Fin"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.4">Andriau</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.5">,</pc>
+                     <w lemma="pristatytas"
+                        msd="UPosTag=VERB|Polarity=Pos|VerbForm=Inf"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.6">pristatyti</w>
+                     <w lemma="miškas"
+                        msd="UPosTag=ADJ|Case=Gen|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.7">Miškų</w>
+                     <w lemma="įstatymas"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.8">įstatymo</w>
+                     <w join="right"
+                        lemma="Nr"
+                        msd="UPosTag=X|Abbr=Yes"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.9">Nr</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.10">.</pc>
+                     <w lemma="I-671"
+                        msd="UPosTag=X|Abbr=Yes"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.11">I-671</w>
+                     <w join="right"
+                        lemma="2"
+                        msd="UPosTag=NUM|Definite=Ind|NumForm=Digit"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.12">2</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.13">,</pc>
+                     <w lemma="5"
+                        msd="UPosTag=NUM|Definite=Ind|NumForm=Digit"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.14">5</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.15">,</pc>
+                     <w lemma="18"
+                        msd="UPosTag=NUM|Definite=Ind|NumForm=Digit"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.16">18</w>
+                     <w lemma="straipsnis"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.17">straipsnių</w>
+                     <w lemma="pakeitimas"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.18">pakeitimo</w>
+                     <w lemma="projektas"
+                        msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.19">projektą</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.20">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.1"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.3"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.6"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.20"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.2"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.4"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.6 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.5"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.6 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.19"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.8 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.7"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.9 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.8"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.9 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.10"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.11 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.9"/>
+                        <link ana="ud-syn:nummod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.11 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.12"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.12 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.14"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.12 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.16"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.14 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.13"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.16 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.15"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.17 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.11"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.18 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.17"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.19 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4.18"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.5">
+                     <w join="right"
+                        lemma="pateikimas"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.5.1">Pateikimas</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.5.2">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.5 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.5.1"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.5.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.5.2"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u ana="#chair"
+               who="#NarkevičiusJ"
+               xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.u290">
+               <seg xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739">
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1">
+                     <w lemma="kitas"
+                        msd="UPosTag=PRON|Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.1">Kitas</w>
+                     <w lemma="darbotvarkė"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.2">darbotvarkės</w>
+                     <w lemma="klausimas"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.3">klausimas</w>
+                     <w lemma="būti"
+                        msd="UPosTag=AUX|Mood=Cnd|Number=Sing|Person=3|Polarity=Pos|VerbForm=Fin"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.4">būtų</w>
+                     <w lemma="2"
+                        msd="UPosTag=NUM|Definite=Ind|NumForm=Digit"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.5">2</w>
+                     <w lemma="rezervinis"
+                        msd="UPosTag=ADJ|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.6">rezervinis</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.7">-</pc>
+                     <name type="ORG">
+                        <w lemma="seimas"
+                           msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.8">Seimo</w>
+                     </name>
+                     <w lemma="nutarimas"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.9">nutarimo</w>
+                     <w lemma="&amp;amp;"
+                        msd="UPosTag=SYM"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.10">&amp;amp;</w>
+                     <w lemma="amp;quot;Dėl"
+                        msd="UPosTag=SYM"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.11">amp;quot;Dėl</w>
+                     <name type="MISC">
+                        <w lemma="Lietuvos"
+                           msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.12">Lietuvos</w>
+                        <w lemma="respublika"
+                           msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.13">Respublikos</w>
+                     </name>
+                     <w lemma="seimas"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.14">Seimo</w>
+                     <name type="MISC">
+                        <w lemma="2012"
+                           msd="UPosTag=NUM|Definite=Ind|NumForm=Digit"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.15">2012</w>
+                        <w join="right"
+                           lemma="m"
+                           msd="UPosTag=NOUN|Abbr=Yes"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.16">m</w>
+                        <pc msd="UPosTag=PUNCT"
+                            xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.17">.</pc>
+                        <w lemma="gruodis"
+                           msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.18">gruodžio</w>
+                        <w lemma="4"
+                           msd="UPosTag=NUM|Definite=Ind|NumForm=Digit"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.19">4</w>
+                        <w join="right"
+                           lemma="d"
+                           msd="UPosTag=X|Abbr=Yes"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.20">d</w>
+                        <pc msd="UPosTag=PUNCT"
+                            xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.21">.</pc>
+                     </name>
+                     <w lemma="nutarimas"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.22">nutarimo</w>
+                     <w join="right"
+                        lemma="&amp;amp;"
+                        msd="UPosTag=SYM"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.23">&amp;amp;</w>
+                     <w lemma="amp;quot;Dėl"
+                        msd="UPosTag=SYM"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.24">amp;quot;Dėl</w>
+                     <name type="MISC">
+                        <w lemma="Lietuvos"
+                           msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.25">Lietuvos</w>
+                        <w lemma="respublika"
+                           msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.26">Respublikos</w>
+                     </name>
+                     <w lemma="seimas"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.27">Seimo</w>
+                     <w lemma="komisija"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Plur"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.28">komisijų</w>
+                     <w lemma="pirmininkas"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.29">pirmininkų</w>
+                     <w lemma="ir"
+                        msd="UPosTag=CCONJ"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.30">ir</w>
+                     <w lemma="jų"
+                        msd="UPosTag=PRON|Case=Gen|Definite=Ind|Gender=Masc|Number=Plur|Person=3|PronType=Prs"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.31">jų</w>
+                     <w lemma="pavaduotojas"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.32">pavaduotojų</w>
+                     <w lemma="patvirtinimo&amp;amp;amp;quot"
+                        msd="UPosTag=SYM"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.33">patvirtinimo&amp;amp;amp;quot</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.34">;</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.6"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.1"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.2"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.6 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.3"/>
+                        <link ana="ud-syn:cop"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.6 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.4"/>
+                        <link ana="ud-syn:nummod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.6 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.5"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.6 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.9"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.6 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.11"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.6 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.33"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.6 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.34"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.9 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.7"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.9 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.8"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.11 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.10"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.11 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.22"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.13 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.12"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.14 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.13"/>
+                        <link ana="ud-syn:nummod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.16 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.15"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.16 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.17"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.18 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.16"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.20 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.18"/>
+                        <link ana="ud-syn:nummod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.20 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.19"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.20 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.21"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.22 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.14"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.22 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.20"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.22 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.23"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.23 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.24"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.24 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.29"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.26 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.25"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.28 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.26"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.28 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.27"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.29 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.28"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.29 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.32"/>
+                        <link ana="ud-syn:cc"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.32 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.30"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.32 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1.31"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.2">
+                     <w join="right"
+                        lemma="pakeitimo&amp;amp;amp;quot"
+                        msd="UPosTag=VERB|Polarity=Pos|Tense=Pres|VerbForm=Ger"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.2.1">pakeitimo&amp;amp;amp;quot</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.2.2">;</pc>
+                     <w lemma="projektas"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.2.3">projektas</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.2.4">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.2.1"/>
+                        <link ana="ud-syn:appos"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.2.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.2.3"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.2.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.2.4"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.2.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.2.2"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.3">
+                     <w lemma="Jeigu"
+                        msd="UPosTag=SCONJ"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.3.1">Jeigu</w>
+                     <w lemma="jūs"
+                        msd="UPosTag=PRON|Case=Nom|Definite=Ind|Number=Plur|Person=2|PronType=Prs"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.3.2">jūs</w>
+                     <w join="right"
+                        lemma="neprieštaraujate"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.3.3">neprieštaraujate</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.3.4">,</pc>
+                     <w lemma="aš"
+                        msd="UPosTag=PRON|Case=Nom|Definite=Ind|Number=Sing|Person=1|PronType=Prs"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.3.5">aš</w>
+                     <w lemma="pateikti"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.3.6">pateiksiu</w>
+                     <w lemma="šį"
+                        msd="UPosTag=DET|Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.3.7">šį</w>
+                     <w lemma="projektas"
+                        msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.3.8">projektą</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.3.9">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.3.3"/>
+                        <link ana="ud-syn:mark"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.3.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.3.1"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.3.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.3.2"/>
+                        <link ana="ud-syn:advcl"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.3.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.3.6"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.3.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.3.9"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.3.6 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.3.4"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.3.6 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.3.5"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.3.6 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.3.8"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.3.8 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.3.7"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740">
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.1">
+                     <w lemma="kalbamas"
+                        msd="UPosTag=VERB|Definite=Ind|Gender=Neut|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.1.1">Kalbama</w>
+                     <w lemma="apie"
+                        msd="UPosTag=ADP|AdpType=Prep|Case=Acc"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.1.2">apie</w>
+                     <name type="ORG">
+                        <w lemma="sportas"
+                           msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.1.3">Sporto</w>
+                        <w lemma="ir"
+                           msd="UPosTag=CCONJ"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.1.4">ir</w>
+                        <w lemma="jaunimas"
+                           msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.1.5">jaunimo</w>
+                        <w lemma="komisija"
+                           msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.1.6">komisijos</w>
+                     </name>
+                     <w lemma="pirmininkas"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.1.7">pirmininko</w>
+                     <w lemma="rinkimas"
+                        msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.1.8">rinkimą</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.1.9">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.1.1"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.1.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.1.8"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.1.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.1.9"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.1.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.1.5"/>
+                        <link ana="ud-syn:cc"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.1.5 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.1.4"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.1.6 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.1.3"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.1.7 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.1.6"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.1.8 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.1.2"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.1.8 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.1.7"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.2">
+                     <name type="MISC">
+                        <w lemma="Šiandien"
+                           msd="UPosTag=ADV|Degree=Pos"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.2.1">Šiandien</w>
+                     </name>
+                     <w lemma="vyko"
+                        msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.2.2">vyko</w>
+                     <w lemma="rinkimas"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Plur"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.2.3">rinkimai</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.2.4">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.2.2"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.2.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.2.1"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.2.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.2.3"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.2.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.2.4"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3">
+                     <w lemma="bendras"
+                        msd="UPosTag=ADJ|Case=Ins|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.1">Bendru</w>
+                     <w lemma="sutarimas"
+                        msd="UPosTag=NOUN|Case=Ins|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.2">sutarimu</w>
+                     <w lemma="irti"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.3">yra</w>
+                     <w lemma="išrinktas"
+                        msd="UPosTag=VERB|Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.4">išrinktas</w>
+                     <w lemma="ponas"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.5">ponas</w>
+                     <name type="PER">
+                        <w join="right"
+                           lemma="V"
+                           msd="UPosTag=X|Abbr=Yes"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.6">V</w>
+                        <pc msd="UPosTag=PUNCT"
+                            xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.7">.</pc>
+                        <w join="right"
+                           lemma="Mikalauskas"
+                           msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.8">Mikalauskas</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.9">,</pc>
+                     <w lemma="su"
+                        msd="UPosTag=ADP|AdpType=Prep|Case=Ins"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.10">su</w>
+                     <w lemma="kuo"
+                        msd="UPosTag=PRON|Case=Ins|Definite=Ind|Hyph=Yes|PronType=Int"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.11">kuo</w>
+                     <w lemma="ir"
+                        msd="UPosTag=PART"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.12">ir</w>
+                     <w lemma="sveikinti"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.13">sveikiname</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.14">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.5"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.1"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.2"/>
+                        <link ana="ud-syn:cop"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.3"/>
+                        <link ana="ud-syn:acl"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.5 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.4"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.5 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.6"/>
+                        <link ana="ud-syn:flat"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.5 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.8"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.5 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.14"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.6 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.7"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.8 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.13"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.11 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.10"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.13 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.9"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.13 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.11"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.13 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3.12"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4">
+                     <w lemma="Bet"
+                        msd="UPosTag=CCONJ"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.1">Bet</w>
+                     <w lemma="dabar"
+                        msd="UPosTag=ADV|Degree=Pos"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.2">dabar</w>
+                     <w lemma="mesti"
+                        msd="UPosTag=PRON|Case=Nom|Definite=Ind|Number=Plur|Person=1|PronType=Prs"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.3">mes</w>
+                     <w lemma="turėti"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.4">turime</w>
+                     <w lemma="tą"
+                        msd="UPosTag=DET|Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.5">tą</w>
+                     <w lemma="nutarimas"
+                        msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.6">nutarimą</w>
+                     <w lemma="pritaikytas"
+                        msd="UPosTag=VERB|Polarity=Pos|VerbForm=Inf"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.7">pritaikyti</w>
+                     <w lemma="ir"
+                        msd="UPosTag=CCONJ"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.8">ir</w>
+                     <w lemma="papildytas"
+                        msd="UPosTag=VERB|Polarity=Pos|VerbForm=Inf"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.9">papildyti</w>
+                     <w lemma="būtent"
+                        msd="UPosTag=PART"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.10">būtent</w>
+                     <w lemma="tuo"
+                        msd="UPosTag=DET|Case=Ins|Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.11">tuo</w>
+                     <w join="right"
+                        lemma="straipsnis"
+                        msd="UPosTag=NOUN|Case=Ins|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.12">straipsniu</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.13">,</pc>
+                     <w lemma="7"
+                        msd="UPosTag=NUM|Definite=Ind|NumForm=Digit"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.14">7</w>
+                     <w lemma="straipsnis"
+                        msd="UPosTag=NOUN|Case=Ins|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.15">straipsniu</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.16">,</pc>
+                     <w lemma="patvirtintas"
+                        msd="UPosTag=VERB|Polarity=Pos|VerbForm=Inf"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.17">patvirtinti</w>
+                     <name type="MISC">
+                        <w lemma="Lietuvos"
+                           msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.18">Lietuvos</w>
+                        <w lemma="respublika"
+                           msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.19">Respublikos</w>
+                     </name>
+                     <w lemma="seimas"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.20">Seimo</w>
+                     <w lemma="jaunimas"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.21">jaunimo</w>
+                     <w lemma="ir"
+                        msd="UPosTag=CCONJ"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.22">ir</w>
+                     <w lemma="sportas"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.23">sporto</w>
+                     <w lemma="reikalas"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.24">reikalų</w>
+                     <w lemma="komisija"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.25">komisijos</w>
+                     <w lemma="pirmininkas"
+                        msd="UPosTag=NOUN|Case=Ins|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.26">pirmininku</w>
+                     <name type="ORG">
+                        <w lemma="seimas"
+                           msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.27">Seimo</w>
+                     </name>
+                     <w lemma="narė"
+                        msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.28">narį</w>
+                     <name type="PER">
+                        <w join="right"
+                           lemma="V"
+                           msd="UPosTag=X|Abbr=Yes"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.29">V</w>
+                        <pc msd="UPosTag=PUNCT"
+                            xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.30">.</pc>
+                        <w lemma="Mikalauską"
+                           msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.31">Mikalauską</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.32">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.4"/>
+                        <link ana="ud-syn:cc"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.1"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.2"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.3"/>
+                        <link ana="ud-syn:xcomp"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.7"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.31"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.32"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.6 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.5"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.7 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.6"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.7 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.9"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.7 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.12"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.7 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.17"/>
+                        <link ana="ud-syn:cc"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.9 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.8"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.11 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.10"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.12 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.11"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.12 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.15"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.15 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.13"/>
+                        <link ana="ud-syn:nummod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.15 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.14"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.17 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.16"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.17 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.26"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.17 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.28"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.19 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.18"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.21 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.19"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.21 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.20"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.21 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.23"/>
+                        <link ana="ud-syn:cc"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.23 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.22"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.24 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.21"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.25 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.24"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.26 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.25"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.28 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.27"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.29 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.30"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.31 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4.29"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.5">
+                     <w lemma="Po"
+                        msd="UPosTag=ADP|AdpType=Prep|Case=Gen"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.5.1">Po</w>
+                     <w lemma="pateikimas"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.5.2">pateikimo</w>
+                     <w lemma="klausimas"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.5.3">klausimų</w>
+                     <w join="right"
+                        lemma="nebūti"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.5.4">nėra</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.5.5">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.5 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.5.4"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.5.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.5.1"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.5.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.5.2"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.5.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.5.3"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.5.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.5.5"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.6">
+                     <w lemma="norįsis"
+                        msd="UPosTag=VERB|Case=Gen|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.6.1">Norinčių</w>
+                     <w join="right"
+                        lemma="nebūti"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.6.2">nėra</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.6.3">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.6 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.6.2"/>
+                        <link ana="ud-syn:advcl"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.6.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.6.1"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.6.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.6.3"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.7">
+                     <w lemma="bendras"
+                        msd="UPosTag=ADJ|Case=Ins|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.7.1">Bendru</w>
+                     <w lemma="sutarimas"
+                        msd="UPosTag=NOUN|Case=Ins|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.7.2">sutarimu</w>
+                     <w join="right"
+                        lemma="pritarti"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.7.3">pritariame</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.7.4">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.7 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.7.3"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.7.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.7.1"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.7.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.7.2"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.7.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.7.4"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741">
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.1">
+                     <w lemma="svarstymas"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.1.1">Svarstymo</w>
+                     <w lemma="stadija"
+                        msd="UPosTag=NOUN|Case=Loc|Gender=Fem|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.1.2">stadijoje</w>
+                     <w lemma="irgi"
+                        msd="UPosTag=ADV|Degree=Pos"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.1.3">irgi</w>
+                     <w join="right"
+                        lemma="pritarti"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.1.4">pritariame</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.1.5">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.1.4"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.1.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.1.1"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.1.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.1.2"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.1.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.1.3"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.1.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.1.5"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.2">
+                     <w lemma="Taigi"
+                        msd="UPosTag=PART"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.2.1">Taigi</w>
+                     <w lemma="priėmimas"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.2.2">priėmimo</w>
+                     <w lemma="stadija"
+                        msd="UPosTag=NOUN|Case=Loc|Gender=Fem|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.2.3">stadijoje</w>
+                     <w lemma="motyvas"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.2.4">motyvų</w>
+                     <w lemma="išsakytas"
+                        msd="UPosTag=VERB|Polarity=Pos|VerbForm=Inf"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.2.5">išsakyti</w>
+                     <w lemma="norįsis"
+                        msd="UPosTag=VERB|Case=Gen|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.2.6">norinčių</w>
+                     <w lemma="nebūti"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.2.7">nėra</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.2.8">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.2.5"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.2.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.2.2"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.2.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.2.3"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.2.5 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.2.1"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.2.5 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.2.4"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.2.5 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.2.7"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.2.5 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.2.8"/>
+                        <link ana="ud-syn:acl"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.2.7 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.2.6"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.3">
+                     <w lemma="Taigi"
+                        msd="UPosTag=PART"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.3.1">Taigi</w>
+                     <w join="right"
+                        lemma="balsuoti"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.3.2">balsuojame</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.3.3">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.3.2"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.3.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.3.1"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.3.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.3.3"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.4">
+                     <w lemma="balsuoti"
+                        msd="UPosTag=VERB|Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Pos|Reflex=Yes|Tense=Pres|VerbForm=Part|Voice=Act"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.4.1">Balsuojame</w>
+                     <w lemma="dėl"
+                        msd="UPosTag=ADP|AdpType=Prep|Case=Gen"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.4.2">dėl</w>
+                     <w lemma="nutarimas"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.4.3">nutarimo</w>
+                     <w lemma="dėl"
+                        msd="UPosTag=ADP|AdpType=Prep|Case=Gen"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.4.4">dėl</w>
+                     <w lemma="komisija"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Plur"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.4.5">komisijų</w>
+                     <w lemma="pirmininkas"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.4.6">pirmininkų</w>
+                     <w lemma="ir"
+                        msd="UPosTag=CCONJ"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.4.7">ir</w>
+                     <w lemma="papildytas"
+                        msd="UPosTag=VERB|Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.4.8">papildyti</w>
+                     <w lemma="7"
+                        msd="UPosTag=NUM|Definite=Ind|NumForm=Digit"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.4.9">7</w>
+                     <w lemma="straipsnis"
+                        msd="UPosTag=NOUN|Case=Ins|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.4.10">straipsniu</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.4.11">...</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.4.1"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.4.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.4.3"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.4.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.4.8"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.4.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.4.11"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.4.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.4.2"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.4.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.4.6"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.4.6 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.4.4"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.4.6 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.4.5"/>
+                        <link ana="ud-syn:cc"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.4.8 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.4.7"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.4.8 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.4.10"/>
+                        <link ana="ud-syn:nummod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.4.10 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.4.9"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.5">
+                     <name type="PER">
+                        <w join="right"
+                           lemma="V"
+                           msd="UPosTag=X|Abbr=Yes"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.5.1">V</w>
+                        <pc msd="UPosTag=PUNCT"
+                            xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.5.2">.</pc>
+                        <w lemma="Mikalauską"
+                           msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.5.3">Mikalauską</w>
+                     </name>
+                     <w lemma="jaunimas"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.5.4">Jaunimo</w>
+                     <w lemma="ir"
+                        msd="UPosTag=CCONJ"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.5.5">ir</w>
+                     <w lemma="sportas"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.5.6">sporto</w>
+                     <w lemma="reikalas"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.5.7">reikalų</w>
+                     <w lemma="komisija"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.5.8">komisijos</w>
+                     <w lemma="pirmininkas"
+                        msd="UPosTag=NOUN|Case=Ins|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.5.9">pirmininku</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.5.10">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.5 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.5.3"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.5.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.5.2"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.5.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.5.1"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.5.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.5.9"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.5.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.5.10"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.5.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.5.6"/>
+                        <link ana="ud-syn:cc"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.5.6 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.5.5"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.5.7 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.5.4"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.5.8 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.5.7"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.5.9 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.5.8"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.6">
+                     <w lemma="Ir"
+                        msd="UPosTag=CCONJ"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.6.1">Ir</w>
+                     <w join="right"
+                        lemma="sportininkas"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.6.2">sportininkas</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.6.3">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.6 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.6.2"/>
+                        <link ana="ud-syn:cc"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.6.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.6.1"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.6.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.6.3"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.7">
+                     <w join="right"
+                        lemma="matyti"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.7.1">Matote</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.7.2">,</pc>
+                     <w lemma="kaip"
+                        msd="UPosTag=SCONJ"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.7.3">kaip</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.7.4">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.7 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.7.1"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.7.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.7.3"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.7.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.7.4"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.7.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.7.2"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.8">
+                     <w lemma="tikras"
+                        msd="UPosTag=ADV|Degree=Pos"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.8.1">Tikrai</w>
+                     <w lemma="vienbalsiai"
+                        msd="UPosTag=ADV|Degree=Pos"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.8.2">vienbalsiai</w>
+                     <w lemma="būti"
+                        msd="UPosTag=AUX|Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.8.3">buvo</w>
+                     <w lemma="išrinktas"
+                        msd="UPosTag=VERB|Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.8.4">išrinktas</w>
+                     <w lemma="didus"
+                        msd="UPosTag=ADV|Degree=Pos"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.8.5">didžiai</w>
+                     <w lemma="gerbiamas"
+                        msd="UPosTag=VERB|Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.8.6">gerbiamas</w>
+                     <w lemma="asmuo"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.8.7">asmuo</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.8.8">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.8 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.8.4"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.8.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.8.1"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.8.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.8.2"/>
+                        <link ana="ud-syn:cop"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.8.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.8.3"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.8.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.8.7"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.8.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.8.8"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.8.6 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.8.5"/>
+                        <link ana="ud-syn:acl"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.8.7 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.8.6"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.9">
+                     <w join="right"
+                        lemma="Tikimasi"
+                        msd="UPosTag=VERB|Mood=Ind|Person=3|Polarity=Pos|Reflex=Yes|Tense=Pres|VerbForm=Fin"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.9.1">Tikimasi</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.9.2">,</pc>
+                     <w lemma="kad"
+                        msd="UPosTag=SCONJ"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.9.3">kad</w>
+                     <w lemma="komisija"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.9.4">komisija</w>
+                     <w lemma="dirbti"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.9.5">dirbs</w>
+                     <w lemma="tikras"
+                        msd="UPosTag=ADV|Degree=Pos"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.9.6">tikrai</w>
+                     <w lemma="tvarkingas"
+                        msd="UPosTag=ADV|Degree=Pos"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.9.7">tvarkingai</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.9.8">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.9 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.9.1"/>
+                        <link ana="ud-syn:acl"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.9.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.9.5"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.9.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.9.8"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.9.5 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.9.2"/>
+                        <link ana="ud-syn:mark"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.9.5 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.9.3"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.9.5 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.9.4"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.9.5 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.9.7"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.9.7 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.9.6"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <vocal type="noise">
+                  <desc>Balsai salėje</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130742">
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130742.1">
+                     <w lemma="Šio"
+                        msd="UPosTag=DET|Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130742.1.1">Šio</w>
+                     <w lemma="nutarimas"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130742.1.2">nutarimo</w>
+                     <w lemma="priėmimas"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130742.1.3">priėmimas</w>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130742.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130742.1.3"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130742.1.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130742.1.1"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130742.1.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130742.1.2"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130743">
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.1">
+                     <w lemma="susilaikyti"
+                        msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.1.1">Susilaikė</w>
+                     <w join="right"
+                        lemma="1"
+                        msd="UPosTag=NUM|Definite=Ind|NumForm=Digit"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.1.2">1</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.1.3">,</pc>
+                     <w lemma="prieš"
+                        msd="UPosTag=ADP|AdpType=Prep|Case=Acc"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.1.4">prieš</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.1.5">-</pc>
+                     <w join="right"
+                        lemma="1"
+                        msd="UPosTag=NUM|Definite=Ind|NumForm=Digit"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.1.6">1</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.1.7">,</pc>
+                     <w lemma="už"
+                        msd="UPosTag=ADP|AdpType=Prep|Case=Acc"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.1.8">už</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.1.9">-</pc>
+                     <w lemma="37"
+                        msd="UPosTag=NUM|Definite=Ind|NumForm=Digit"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.1.10">37</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.1.11">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.1.1"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.1.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.1.2"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.1.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.1.8"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.1.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.1.11"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.1.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.1.3"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.1.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.1.4"/>
+                        <link ana="ud-syn:appos"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.1.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.1.6"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.1.6 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.1.5"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.1.6 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.1.7"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.1.8 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.1.10"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.1.10 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.1.9"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.2">
+                     <w lemma="minėtas"
+                        msd="UPosTag=VERB|Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.2.1">Minėtas</w>
+                     <w lemma="nutarimas"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.2.2">nutarimas</w>
+                     <w join="right"
+                        lemma="priimtas"
+                        msd="UPosTag=VERB|Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.2.3">priimtas</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.2.4">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.2.3"/>
+                        <link ana="ud-syn:acl"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.2.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.2.1"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.2.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.2.2"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.2.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.2.4"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <kinesic type="ringing">
+                  <desc>Gongas</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744">
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1">
+                     <w lemma="sveikinti"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.1">Sveikiname</w>
+                     <w lemma="gerbiamąjį"
+                        msd="UPosTag=ADJ|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.2">gerbiamąjį</w>
+                     <w lemma="ponas"
+                        msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.3">poną</w>
+                     <name type="PER">
+                        <w join="right"
+                           lemma="V"
+                           msd="UPosTag=X|Abbr=Yes"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.4">V</w>
+                        <pc msd="UPosTag=PUNCT"
+                            xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.5">.</pc>
+                        <w lemma="Mikalauską"
+                           msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.6">Mikalauską</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.7">,</pc>
+                     <w lemma="linkėti"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.8">linkime</w>
+                     <w lemma="sėkmingas"
+                        msd="UPosTag=ADJ|Case=Gen|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.9">sėkmingo</w>
+                     <w lemma="vadovavimas"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.10">vadovavimo</w>
+                     <w lemma="šita"
+                        msd="UPosTag=DET|Definite=Ind|Gender=Neut|PronType=Dem"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.11">šitai</w>
+                     <w lemma="komisija"
+                        msd="UPosTag=NOUN|Case=Dat|Gender=Fem|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.12">komisijai</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.13">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.1"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.3"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.6"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.8"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.13"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.2"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.5"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.6 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.4"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.8 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.7"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.8 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.12"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.10 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.9"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.11 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.10"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.12 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1.11"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.2">
+                     <w lemma="tikras"
+                        msd="UPosTag=ADV|Degree=Pos"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.2.1">Tikrai</w>
+                     <w lemma="labas"
+                        msd="UPosTag=ADV|Degree=Pos"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.2.2">labai</w>
+                     <w lemma="svarbus"
+                        msd="UPosTag=ADJ|Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.2.3">svarbi</w>
+                     <w join="right"
+                        lemma="komisija"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.2.4">komisija</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.2.5">,</pc>
+                     <w lemma="kuruojanti"
+                        msd="UPosTag=VERB|Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.2.6">kuruojanti</w>
+                     <w lemma="jaunimas"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.2.7">jaunimo</w>
+                     <w lemma="ir"
+                        msd="UPosTag=CCONJ"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.2.8">ir</w>
+                     <w lemma="sportas"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.2.9">sporto</w>
+                     <w lemma="reikalas"
+                        msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Plur"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.2.10">reikalus</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.2.11">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.2.1"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.2.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.2.4"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.2.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.2.11"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.2.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.2.2"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.2.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.2.3"/>
+                        <link ana="ud-syn:acl"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.2.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.2.6"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.2.6 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.2.5"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.2.6 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.2.10"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.2.7 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.2.9"/>
+                        <link ana="ud-syn:cc"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.2.9 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.2.8"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.2.10 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.2.7"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.3">
+                     <w join="right"
+                        lemma="Ačiū"
+                        msd="UPosTag=X|Abbr=Yes"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.3.1">Ačiū</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.3.2">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.3.1"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.3.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.3.2"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130745">
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130745.1">
+                     <w lemma="kitas"
+                        msd="UPosTag=PRON|Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130745.1.1">Kitas</w>
+                     <w lemma="būti"
+                        msd="UPosTag=AUX|Mood=Cnd|Person=3|Polarity=Pos|VerbForm=Fin"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130745.1.2">būtų</w>
+                     <name type="ORG">
+                        <w lemma="seimas"
+                           msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130745.1.3">Seimo</w>
+                     </name>
+                     <w lemma="narė"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130745.1.4">narių</w>
+                     <w join="right"
+                        lemma="pareiškimas"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Plur"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130745.1.5">pareiškimai</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130745.1.6">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130745.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130745.1.5"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130745.1.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130745.1.3"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130745.1.5 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130745.1.1"/>
+                        <link ana="ud-syn:cop"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130745.1.5 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130745.1.2"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130745.1.5 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130745.1.4"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130745.1.5 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130745.1.6"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <note type="time">18.20</note>
+            <note type="debate">Informaciniai pranešimai</note>
+            <u ana="#chair"
+               who="#NarkevičiusJ"
+               xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.u291">
+               <seg xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746">
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.1">
+                     <w lemma="Prieš"
+                        msd="UPosTag=ADP|AdpType=Prep|Case=Acc"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.1.1">Prieš</w>
+                     <w lemma="registracija"
+                        msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.1.2">registraciją</w>
+                     <w lemma="dar"
+                        msd="UPosTag=PART"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.1.3">dar</w>
+                     <w lemma="informacija"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.1.4">informacija</w>
+                     <w lemma="dėl"
+                        msd="UPosTag=ADP|AdpType=Prep|Case=Gen"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.1.5">dėl</w>
+                     <w lemma="balsus"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.1.6">Balsų</w>
+                     <w lemma="skaičiavimas"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.1.7">skaičiavimo</w>
+                     <w lemma="grupė"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.1.8">grupės</w>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.1.2"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.1.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.1.1"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.1.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.1.4"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.1.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.1.3"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.1.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.1.8"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.1.7 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.1.6"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.1.8 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.1.5"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.1.8 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.1.7"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.2">
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.2.1">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.2.1"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.3">
+                     <w lemma="Aš"
+                        msd="UPosTag=PRON|Case=Nom|Definite=Ind|Number=Sing|Person=1|PronType=Prs"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.3.1">Aš</w>
+                     <w lemma="trumpas"
+                        msd="UPosTag=ADV|Degree=Pos"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.3.2">trumpai</w>
+                     <w lemma="informuosiu"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.3.3">informuosiu</w>
+                     <w join="right"
+                        lemma="justi"
+                        msd="UPosTag=PRON|Case=Acc|Definite=Ind|Number=Plur|Person=2|PronType=Prs"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.3.4">jus</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.3.5">,</pc>
+                     <w lemma="kasti"
+                        msd="UPosTag=PRON|Case=Nom|Definite=Ind|PronType=Int"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.3.6">kas</w>
+                     <w lemma="įeiti"
+                        msd="UPosTag=VERB|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.3.7">įeina</w>
+                     <w lemma="į"
+                        msd="UPosTag=ADP|AdpType=Prep|Case=Acc"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.3.8">į</w>
+                     <w lemma="skaičiavimas"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.3.9">skaičiavimo</w>
+                     <w lemma="grupė"
+                        msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.3.10">grupę</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.3.11">:</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.3.3"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.3.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.3.1"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.3.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.3.2"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.3.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.3.4"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.3.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.3.11"/>
+                        <link ana="ud-syn:acl"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.3.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.3.7"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.3.7 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.3.5"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.3.7 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.3.6"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.3.7 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.3.10"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.3.10 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.3.8"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.3.10 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.3.9"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4">
+                     <w lemma="ponia"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.1">ponia</w>
+                     <name type="PER">
+                        <w join="right"
+                           lemma="V"
+                           msd="UPosTag=X|Abbr=Yes"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.2">V</w>
+                        <pc msd="UPosTag=PUNCT"
+                            xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.3">.</pc>
+                        <w join="right"
+                           lemma="M"
+                           msd="UPosTag=X|Abbr=Yes"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.4">M</w>
+                        <pc msd="UPosTag=PUNCT"
+                            xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.5">.</pc>
+                        <w lemma="Čigriejienė"
+                           msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.6">Čigriejienė</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.7">,</pc>
+                     <w lemma="ponia"
+                        msd="UPosTag=NOUN|Case=Voc|Gender=Fem|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.8">ponia</w>
+                     <name type="PER">
+                        <w join="right"
+                           lemma="V"
+                           msd="UPosTag=X|Abbr=Yes"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.9">V</w>
+                        <pc msd="UPosTag=PUNCT"
+                            xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.10">.</pc>
+                        <w lemma="Filipovičienė"
+                           msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.11">Filipovičienė</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.12">,</pc>
+                     <w lemma="ponas"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.13">ponas</w>
+                     <name type="PER">
+                        <w join="right"
+                           lemma="Z"
+                           msd="UPosTag=SYM"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.14">Z</w>
+                        <pc msd="UPosTag=PUNCT"
+                            xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.15">.</pc>
+                        <w lemma="Jedinskis"
+                           msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.16">Jedinskis</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.17">,</pc>
+                     <w lemma="ponas"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.18">ponas</w>
+                     <name type="PER">
+                        <w join="right"
+                           lemma="E"
+                           msd="UPosTag=SYM"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.19">E</w>
+                        <pc msd="UPosTag=PUNCT"
+                            xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.20">.</pc>
+                        <w lemma="Jonyla"
+                           msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.21">Jonyla</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.22">,</pc>
+                     <w lemma="ponas"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.23">ponas</w>
+                     <name type="PER">
+                        <w join="right"
+                           lemma="V"
+                           msd="UPosTag=SYM"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.24">V</w>
+                        <pc msd="UPosTag=PUNCT"
+                            xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.25">.</pc>
+                        <w lemma="Kamblevičius"
+                           msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.26">Kamblevičius</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.27">,</pc>
+                     <w lemma="ponia"
+                        msd="UPosTag=NOUN|Case=Voc|Gender=Fem|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.28">ponia</w>
+                     <name type="PER">
+                        <w join="right"
+                           lemma="D"
+                           msd="UPosTag=X|Abbr=Yes"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.29">D</w>
+                        <pc msd="UPosTag=PUNCT"
+                            xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.30">.</pc>
+                        <w join="right"
+                           lemma="Teišerskytė"
+                           msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.31">Teišerskytė</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.32">,</pc>
+                     <w lemma="ponas"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.33">ponas</w>
+                     <name type="PER">
+                        <w join="right"
+                           lemma="J"
+                           msd="UPosTag=X|Abbr=Yes"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.34">J</w>
+                        <pc msd="UPosTag=PUNCT"
+                            xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.35">.</pc>
+                        <w join="right"
+                           lemma="Varkala"
+                           msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.36">Varkala</w>
+                     </name>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.37">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.36"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.2"/>
+                        <link ana="ud-syn:flat"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.6"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.16"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.18"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.21"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.26"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.28"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.3"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.5"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.6 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.4"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.8 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.11"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.8 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.13"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.9 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.10"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.11 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.9"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.13 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.12"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.13 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.14"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.14 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.15"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.16 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.7"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.16 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.8"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.18 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.17"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.18 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.19"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.19 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.20"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.24 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.25"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.26 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.22"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.26 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.23"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.26 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.24"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.28 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.27"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.28 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.31"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.29 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.30"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.31 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.29"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.31 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.33"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.33 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.32"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.33 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.34"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.34 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.35"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.36 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.1"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.36 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4.37"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.5">
+                     <w lemma="Visi"
+                        msd="UPosTag=DET|Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|PronType=Tot"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.5.1">Visi</w>
+                     <name type="ORG">
+                        <w lemma="seimas"
+                           msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.5.2">Seimo</w>
+                     </name>
+                     <w join="right"
+                        lemma="narė"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Plur"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.5.3">nariai</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.5.4">,</pc>
+                     <w lemma="atstovaujantys"
+                        msd="UPosTag=VERB|Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.5.5">atstovaujantys</w>
+                     <w lemma="frakcija"
+                        msd="UPosTag=NOUN|Case=Dat|Gender=Fem|Number=Plur"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.5.6">frakcijoms</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.5.7">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.5 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.5.3"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.5.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.5.1"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.5.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.5.2"/>
+                        <link ana="ud-syn:acl"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.5.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.5.5"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.5.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.5.7"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.5.5 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.5.4"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.5.5 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.5.6"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747">
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1">
+                     <w lemma="Ačiū"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1.1">Ačiū</w>
+                     <w lemma="už"
+                        msd="UPosTag=ADP|AdpType=Prep|Case=Acc"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1.2">už</w>
+                     <w join="right"
+                        lemma="dėmesys"
+                        msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1.3">dėmesį</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1.4">,</pc>
+                     <w lemma="jūsų"
+                        msd="UPosTag=PRON|Case=Gen|Definite=Ind|Number=Plur|Person=2|PronType=Prs"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1.5">jūsų</w>
+                     <w lemma="racionalus"
+                        msd="UPosTag=ADJ|Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1.6">racionalų</w>
+                     <w lemma="darbas"
+                        msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1.7">darbą</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1.8">,</pc>
+                     <w lemma="mesti"
+                        msd="UPosTag=PRON|Case=Nom|Definite=Ind|Number=Plur|Person=1|PronType=Prs"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1.9">mes</w>
+                     <w lemma="pusantro"
+                        msd="UPosTag=NUM|Case=Gen|Gender=Fem|NumForm=Word|NumType=Card|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1.10">pusantros</w>
+                     <w lemma="valanda"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1.11">valandos</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1.12">...</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1.1"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1.3"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1.11"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1.12"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1.2"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1.7"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1.7 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1.4"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1.7 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1.5"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1.7 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1.6"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1.11 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1.8"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1.11 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1.9"/>
+                        <link ana="ud-syn:nummod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1.11 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1.10"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.2">
+                     <w lemma="Dabar"
+                        msd="UPosTag=ADV|Degree=Pos"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.2.1">Dabar</w>
+                     <name type="MISC">
+                        <w lemma="17.20"
+                           msd="UPosTag=NUM|Definite=Ind|NumForm=Digit"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.2.2">17.20</w>
+                        <w join="right"
+                           lemma="val"
+                           msd="UPosTag=X|Abbr=Yes"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.2.3">val</w>
+                        <pc msd="UPosTag=PUNCT"
+                            xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.2.4">.</pc>
+                     </name>
+                     <w lemma="būti"
+                        msd="UPosTag=AUX|Aspect=Perf|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.2.5">buvo</w>
+                     <w lemma="numatytas"
+                        msd="UPosTag=VERB|Definite=Ind|Gender=Neut|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.2.6">numatyta</w>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.2.6"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.2.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.2.3"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.2.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.2.4"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.2.6 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.2.1"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.2.6 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.2.2"/>
+                        <link ana="ud-syn:cop"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.2.6 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.2.5"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.3">
+                     <w join="right"
+                        lemma="18"
+                        msd="UPosTag=NUM|Definite=Ind|NumForm=Digit"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.3.1">18</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.3.2">...</pc>
+                     <w lemma="Vyksta"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.3.3">Vyksta</w>
+                     <w lemma="registracija"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.3.4">registracija</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.3.5">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.3.3"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.3.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.3.2"/>
+                        <link ana="ud-syn:nummod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.3.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.3.1"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.3.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.3.4"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.3.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.3.5"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.4">
+                     <w lemma="Jau"
+                        msd="UPosTag=ADV|Degree=Pos"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.4.1">Jau</w>
+                     <w join="right"
+                        lemma="vyksta"
+                        msd="UPosTag=VERB|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.4.2">vyksta</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.4.3">,</pc>
+                     <w lemma="būti"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.4.4">būkime</w>
+                     <w lemma="budrus"
+                        msd="UPosTag=ADJ|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.4.5">budrūs</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.4.6">...</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.4.2"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.4.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.4.1"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.4.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.4.3"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.4.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.4.5"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.4.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.4.6"/>
+                        <link ana="ud-syn:cop"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.4.5 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.4.4"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.5">
+                     <w lemma="Likvidavome"
+                        msd="UPosTag=VERB|Aspect=Perf|Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Pos|Reflex=Yes|Tense=Past|VerbForm=Part|Voice=Act"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.5.1">Likvidavome</w>
+                     <w lemma="pusantro"
+                        msd="UPosTag=NUM|Case=Gen|Gender=Fem|NumForm=Word|NumType=Card|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.5.2">pusantros</w>
+                     <w lemma="valanda"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.5.3">valandos</w>
+                     <w lemma="atsilikimas"
+                        msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.5.4">atsilikimą</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.5.5">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.5 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.5.1"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.5.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.5.4"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.5.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.5.5"/>
+                        <link ana="ud-syn:nummod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.5.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.5.2"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.5.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.5.3"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130748">
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.1">
+                     <w lemma="užsiregistruoti"
+                        msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.1.1">Užsiregistravo</w>
+                     <w lemma="38"
+                        msd="UPosTag=NUM|Definite=Ind|NumForm=Digit"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.1.2">38</w>
+                     <name type="ORG">
+                        <w lemma="seimas"
+                           msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing"
+                           xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.1.3">Seimo</w>
+                     </name>
+                     <w lemma="narė"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Plur"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.1.4">nariai</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.1.5">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.1.1"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.1.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.1.4"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.1.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.1.5"/>
+                        <link ana="ud-syn:nummod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.1.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.1.2"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.1.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.1.3"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.2">
+                     <w lemma="Ačiū"
+                        msd="UPosTag=ADP|AdpType=Prep|Case=Acc"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.2.1">Ačiū</w>
+                     <w lemma="už"
+                        msd="UPosTag=ADP|AdpType=Prep|Case=Acc"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.2.2">už</w>
+                     <w lemma="bendradarbiavimas"
+                        msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.2.3">bendradarbiavimą</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.2.4">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.2.1"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.2.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.2.3"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.2.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.2.4"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.2.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.2.2"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.3">
+                     <w lemma="geras"
+                        msd="UPosTag=ADJ|Case=Gen|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.3.1">Gero</w>
+                     <w join="right"
+                        lemma="vakarė"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.3.2">vakaro</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.3.3">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.3.2"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.3.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.3.1"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.3.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.3.3"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.4">
+                     <w lemma="vakarinis"
+                        msd="UPosTag=ADJ|Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.4.1">Vakarinį</w>
+                     <w lemma="posėdis"
+                        msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.4.2">posėdį</w>
+                     <w lemma="skelbti"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.4.3">skelbiu</w>
+                     <w lemma="baigtas"
+                        msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.4.4">baigtą</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.4.5">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.4 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.4.3"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.4.2 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.4.1"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.4.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.4.2"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.4.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.4.4"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.4.3 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.4.5"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <kinesic type="ringing">
+                  <desc>Gongas</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130749">
+                  <s xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130749.1">
+                     <w lemma="Viso"
+                        msd="UPosTag=ADJ|Case=Gen|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130749.1.1">Viso</w>
+                     <w lemma="geras"
+                        msd="UPosTag=X|Hyph=Yes"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130749.1.2">gero</w>
+                     <w lemma="visiems"
+                        msd="UPosTag=DET|Case=Dat|Definite=Ind|Gender=Masc|Number=Plur|PronType=Tot"
+                        xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130749.1.3">visiems</w>
+                     <pc msd="UPosTag=PUNCT"
+                         xml:id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130749.1.4">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130749.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130749.1.1"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130749.1.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130749.1.2"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130749.1.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130749.1.3"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LT_2016-03-22-seimas-294-1.seg130749.1.1 #ParlaMint-LT_2016-03-22-seimas-294-1.seg130749.1.4"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     ana="#parla.meeting #reference"
+     xml:id="ParlaMint-LT_2014-11-20-seimas-2-1"
+     xml:lang="lt">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="lt">Lietuvos parlamento debatų tekstynas ParlaMint-LT, 5 eilinė sesija [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Lithuanian parliamentary corpus ParlaMint-LT, Regular Session 5 [ParlaMint SAMPLE]</title>
+            <title type="sub" xml:lang="lt">Lietuvos Respublikos Seimo posėdžių stenogramos, 7kadencija, 5 eilinė sesija (2014-11-20)</title>
+            <title type="sub" xml:lang="en">Transcripts of the Meetings of the Seimas of the Republic of Lithuania, Term 7, Regular Session 5 (2014-11-20)</title>
+            <meeting ana="#parla.uni">Seimas</meeting>
+            <meeting ana="#parla.uni #parla.term #S.7" corresp="#S" n="7">7 kadencija</meeting>
+            <meeting ana="#parla.uni #parla.session #S.7" corresp="#S" n="5">5 eilinė sesija</meeting>
+            <meeting ana="#parla.uni #parla.meeting.regular" n="201">201 posėdis</meeting>
+            <respStmt>
+               <persName>Andrius Utka</persName>
+               <persName>Mindaugas Petkevičius</persName>
+               <persName>Monika Briedienė</persName>
+               <persName>Tomas Krilavičius</persName>
+               <persName>Vaidas Morkevičius</persName>
+               <resp xml:lang="lt">Duomenų atsisiuntimas ir konvertavimas į Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Data retrieval and conversion to Parla-CLARIN TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="lt">„CLARIN ERIC“ tyrimų infrastruktūra</orgName>
+               <orgName xml:lang="en">The CLARIN ERIC research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure quantity="213" unit="speeches" xml:lang="lt">213 pasisakymų</measure>
+            <measure quantity="213" unit="speeches" xml:lang="en">213 speeches</measure>
+            <measure quantity="10570" unit="words" xml:lang="lt">10.570 žodžių</measure>
+            <measure quantity="10570" unit="words" xml:lang="en">10,570 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="lt">CLARIN tyrimų infrastruktūra</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1405</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="lt">Šis kūrinys yra licencijuojamas pagal <ref target="http://creativecommons.org/licenses/by/4.0/">„Creative Commons“ priskyrimo tarptautinę viešąją licenciją</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
+            </availability>
+            <date when="2021-05-03">2021-05-03</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="lt">Lietuvos Respublikos Seimo posėdžių stenogramos</title>
+               <title type="main" xml:lang="en">Transcripts of the Meetings of the Seimas of the Republic of Lithuania</title>
+               <edition xml:lang="lt">Galutinis variantas</edition>
+               <edition xml:lang="en">Final version</edition>
+               <idno type="URI">https://e-seimas.lrs.lt/portal/legalAct/lt/TAK/TAIS.462504</idno>
+               <date when="2014-11-20">2014-11-20</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="lt">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="2"/>
+               <tagUsage gi="note" occurs="30"/>
+               <tagUsage gi="u" occurs="213"/>
+               <tagUsage gi="seg" occurs="320"/>
+               <tagUsage gi="vocal" occurs="16"/>
+               <tagUsage gi="desc" occurs="24"/>
+               <tagUsage gi="kinesic" occurs="8"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Gedimino pr. 53</name>
+               <name type="city">Vilnius</name>
+               <name key="LT" type="country">Lithuania</name>
+               <date ana="#parla.meeting" when="2014-11-20">2014-11-20</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2021-05-03">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2021-03-31">
+            <name>Mindaugas Petkevičius</name>: Fixes for Version 1.</change>
+         <change when="2021-03-11">
+            <name>Mindaugas Petkevičius</name>: Corpus generated for ParlaMint.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="lt">
+      <body>
+         <div type="debateSection">
+            <head>LIETUVOS RESPUBLIKOS SEIMAS, V (RUDENS) SESIJOS, VAKARINIO POSĖDŽIO NR. 201 STENOGRAMA, 2014 m. lapkričio 20 d.</head>
+            <head type="chairman">Pirmininkauja Lietuvos Respublikos Seimo Pirmininko pavaduotojas J. NARKEVIČIUS</head>
+            <u ana="#chair"
+               who="#NarkevičiusJ"
+               xml:id="ParlaMint-LT_2014-11-20-seimas-2-1.u1">
+               <seg xml:id="ParlaMint-LT_2014-11-20-seimas-2-1.seg444">Dar kartą laba diena, gerbiamieji Seimo nariai! Pradedame popietinį posėdį. Registruojamės.</seg>
+               <seg xml:id="ParlaMint-LT_2014-11-20-seimas-2-1.seg445">Ačiū. Užsiregistravo 52 Seimo nariai.</seg>
+            </u>
+            <note type="time">15.02</note>
+            <note type="debate">Seimo nutarimo "Dėl Dianos Gumbrevičiūtės-Kuzminskienės skyrimo lygių galimybių kontrolieriumi" projektas Nr. XIIP-2532 (pateikimas)</note>
+            <u ana="#chair"
+               who="#NarkevičiusJ"
+               xml:id="ParlaMint-LT_2014-11-20-seimas-2-1.u2">
+               <seg xml:id="ParlaMint-LT_2014-11-20-seimas-2-1.seg446">Pirmas mūsų darbotvarkės klausimas, kurį pristatys gerbiamoji Seimo Pirmininkė ponia L. Graužinienė - Seimo nutarimo &amp;quot;Dėl Dianos Gumbrevičiūtės-Kuzminskienės skyrimo lygių galimybių kontrolieriumi&amp;quot; projektas Nr. XIIP-2532. Pateikimas. Prašome, gerbiamoji Pirmininke ponia Graužiniene.</seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u ana="#regular"
+               who="#ZasčiurinskasMečislovas"
+               xml:id="ParlaMint-LT_2014-11-20-seimas-2-1.u212">
+               <seg xml:id="ParlaMint-LT_2014-11-20-seimas-2-1.seg757">Gerbiamieji kolegos, pirmininkas skiriamas po to, kai komisija suformuota. Vadinasi, bent savaitę vėliau, nes logikos nėra.</seg>
+            </u>
+            <u ana="#chair"
+               who="#NarkevičiusJ"
+               xml:id="ParlaMint-LT_2014-11-20-seimas-2-1.u213">
+               <seg xml:id="ParlaMint-LT_2014-11-20-seimas-2-1.seg758">Gerai. Ačiū. Nutraukiu diskusiją. Kadangi yra du pasiūlymai, mes tiesiog turime priimti sprendimą demokratiškai.</seg>
+               <seg xml:id="ParlaMint-LT_2014-11-20-seimas-2-1.seg759">Alternatyvus balsavimas. Taip pat, kaip ir buvo praeitą kartą. Už - pavasario sesija, prieš - gruodžio 11 d. Dabar mes balsuoja dėl svarstymo datos.</seg>
+               <vocal type="noise">
+                  <desc>Balsai salėje</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-LT_2014-11-20-seimas-2-1.seg760">Ačiū. Balsavimas įvyko. Balsavo 48: už - 22, prieš - 26. Svarstymas, kaip ir praeito klausimo, numatytas gruodžio 11 d.</seg>
+               <vocal type="noise">
+                  <desc>Balsai salėje</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-LT_2014-11-20-seimas-2-1.seg761">Gerbiamieji po rezervinių klausimų nematau Seimo narių, norinčių perskaityti pareiškimus. Nebent dabar kas? Gerbiamasis opozicijos...</seg>
+               <vocal type="noise">
+                  <desc>Balsai salėje</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-LT_2014-11-20-seimas-2-1.seg762">Gerbiamieji Seimo nariai, registruojamės. Vyksta registracija. Gerai, kad pavyko mums Seimo posėdį baigti su gera nuotaika. Tai svarbiausia, grįžime į šeimas su gera nuotaika.</seg>
+               <seg xml:id="ParlaMint-LT_2014-11-20-seimas-2-1.seg763">Užsiregistravo 49 Seimo nariai. Ačiū už bendradarbiavimą. Gero vakaro. Popietinis Seimo posėdis baigtas.</seg>
+               <kinesic type="ringing">
+                  <desc>Gongas</desc>
+               </kinesic>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
