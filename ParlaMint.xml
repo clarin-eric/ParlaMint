@@ -96,6 +96,14 @@
                <resp>ParlaMint TEI XML corpus encoding</resp>
                <resp>Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
             </respStmt>
+            <respStmt n="ParlaMint-LT">
+               <persName>Andrius Utka</persName>
+               <persName>Mindaugas Petkevičius</persName>
+               <persName>Monika Briedienė</persName>
+               <persName>Tomas Krilavičius</persName>
+               <persName>Vaidas Morkevičius</persName>
+               <resp>Data retrieval and conversion to Parla-CLARIN TEI XML</resp>
+            </respStmt>
             <respStmt n="ParlaMint-LV">
                <persName>Roberts Darģis</persName>
                <resp>Parla-CLARIN TEI XML corpus encoding</resp>
@@ -129,9 +137,9 @@
             <edition>2.0</edition>
          </editionStmt>
          <extent>
-            <measure unit="corpora" quantity="16">16 corpora</measure>
-            <measure unit="speeches" quantity="136226204">136,226,204 speeches</measure>
-            <measure unit="words" quantity="447436313">447,436,313 words</measure>
+            <measure unit="corpora" quantity="17">17 corpora</measure>
+            <measure unit="speeches" quantity="136456569">136,456,569 speeches</measure>
+            <measure unit="words" quantity="462236971">462,236,971 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -143,7 +151,7 @@
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2021-05-01">May 1, 2021</date>
+            <date when="2021-05-03">May 3, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <listBibl n="ParlaMint-BE">
@@ -252,6 +260,16 @@
                   <date from="2013-03-15" to="2020-11-18">15.3.2013 - 18.11.2020</date>
                </bibl>
             </listBibl>
+            <listBibl n="ParlaMint-LT">
+               <head>ParlaMint-LT</head>
+               <bibl>
+                  <title type="main" xml:lang="lt">Lietuvos Respublikos Seimo posėdžių stenogramos</title>
+                  <title type="main">Transcripts of the Meetings of the Seimas of the Republic of Lithuania</title>
+                  <publisher xml:lang="lt">Lietuvos Seimo kanceliarija</publisher>
+                  <idno type="URI">https://www.lrs.lt/sip/portal.show?p_r=35727</idno>
+                  <date from="2012-11-16" to="2020-08-14">16.11.2012 - 14.08.2020</date>
+               </bibl>
+            </listBibl>
             <listBibl n="ParlaMint-LV">
                <head>ParlaMint-LV</head>
                <bibl>
@@ -328,6 +346,7 @@
                <p n="ParlaMint-HU">No correction of source texts was performed.</p>
                <p n="ParlaMint-IS">No correction of source texts was performed.</p>
                <p n="ParlaMint-IT">No correction of source texts was performed.</p>
+               <p n="ParlaMint-LT">No correction of source texts was performed.</p>
                <p n="ParlaMint-LV">No correction of source texts was performed.</p>
                <p n="ParlaMint-NL">No correction of source texts was performed.</p>
                <p n="ParlaMint-PL">No correction of source texts was performed.</p>
@@ -346,6 +365,7 @@
                <p n="ParlaMint-HU">Normalisation was performed only on the meta-data, e.g. person names.</p>
                <p n="ParlaMint-IS">Text has not been normalised, except for spacing</p>
                <p n="ParlaMint-IT">Text has not been normalised, except for spacing.</p>
+               <p n="ParlaMint-LT">Text has not been normalised.</p>
                <p n="ParlaMint-LV">Text has not been normalised, except for spacing.</p>
                <p n="ParlaMint-NL">Through the dat collection process several Unicode hair space charactars were present in the text, these have been removed.</p>
                <p n="ParlaMint-PL">Text has not been normalised, except for spacing.</p>
@@ -364,6 +384,7 @@
                <p n="ParlaMint-HU">No end-of-line hyphens were present in the source.</p>
                <p n="ParlaMint-IS">No end-of-line hyphens were present in the source.</p>
                <p n="ParlaMint-IT">No end-of-line hyphens were present in the source.</p>
+               <p n="ParlaMint-LT">No end-of-line hyphens were present in the source.</p>
                <p n="ParlaMint-LV">No end-of-line hyphens were present in the source.</p>
                <p n="ParlaMint-NL">No end-of-line hyphens were present in the source.</p>
                <p n="ParlaMint-PL">No end-of-line hyphens were present in the source.</p>
@@ -382,6 +403,7 @@
                <p n="ParlaMint-HU">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p n="ParlaMint-IS">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p n="ParlaMint-IT">Quotation marks have been left in the text and are not explicitly marked up.</p>
+               <p n="ParlaMint-LT">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p n="ParlaMint-LV">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p n="ParlaMint-NL">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p n="ParlaMint-PL">Quotation marks have been left in the text and are not explicitly marked up.</p>
@@ -401,6 +423,7 @@
                <p n="ParlaMint-HU">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
                <p n="ParlaMint-IS">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
                <p n="ParlaMint-IT">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+               <p n="ParlaMint-LT">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription). </p>
                <p n="ParlaMint-LV">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
                <p n="ParlaMint-NL">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
                <p n="ParlaMint-PL">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
@@ -410,26 +433,26 @@
          </editorialDecl>
          <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="body" occurs="20438"/>
-               <tagUsage gi="desc" occurs="312469"/>
-               <tagUsage gi="div" occurs="79811"/>
+               <tagUsage gi="body" occurs="21314"/>
+               <tagUsage gi="desc" occurs="342625"/>
+               <tagUsage gi="div" occurs="80687"/>
                <tagUsage gi="gap" occurs="21600"/>
-               <tagUsage gi="head" occurs="57442"/>
+               <tagUsage gi="head" occurs="59194"/>
                <tagUsage gi="incident" occurs="2727"/>
-               <tagUsage gi="kinesic" occurs="183095"/>
-               <tagUsage gi="note" occurs="1295848"/>
+               <tagUsage gi="kinesic" occurs="193135"/>
+               <tagUsage gi="note" occurs="1331254"/>
                <tagUsage gi="pb" occurs="42570"/>
                <tagUsage gi="ref" occurs="34208"/>
-               <tagUsage gi="seg" occurs="8188424"/>
-               <tagUsage gi="text" occurs="17764"/>
+               <tagUsage gi="seg" occurs="8578610"/>
+               <tagUsage gi="text" occurs="18640"/>
                <tagUsage gi="time" occurs="22337"/>
-               <tagUsage gi="u" occurs="4200564"/>
-               <tagUsage gi="vocal" occurs="106210"/>
+               <tagUsage gi="u" occurs="4430929"/>
+               <tagUsage gi="vocal" occurs="126326"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
       <revisionDesc>
-         <change when="2021-05-01">
+         <change when="2021-05-03">
             <name>Tomaž Erjavec</name>: Generate root</change>
       </revisionDesc>
    </teiHeader>
@@ -455,6 +478,8 @@
                href="ParlaMint-IS/ParlaMint-IS.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-IT/ParlaMint-IT.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-LT/ParlaMint-LT.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-LV/ParlaMint-LV.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
