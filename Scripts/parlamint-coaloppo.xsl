@@ -24,7 +24,7 @@
 	</xsl:apply-templates>
       </xsl:variable>
       <xsl:choose>
-	<xsl:when test="$coalition =! ''">
+	<xsl:when test="$coalition != ''">
 	  <xsl:value-of select="$coalition"/>
 	</xsl:when>
 	<xsl:otherwise>
