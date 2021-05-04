@@ -194,11 +194,11 @@
 	<xsl:value-of select="true()"/>
       </xsl:when>
       <xsl:when test="not(normalize-space($from) or normalize-space($date)) 
-		      or  xs:date($date) &lt;= xs:date($to))">
+		      or xs:date($date) &lt;= xs:date($to)">
 	<xsl:value-of select="true()"/>
       </xsl:when>
       <xsl:when test="not(normalize-space($to) or normalize-space($date)) 
-		      or xs:date($date) &gt;= xs:date($from))">
+		      or xs:date($date) &gt;= xs:date($from)">
 	<xsl:value-of select="true()"/>
       </xsl:when>
       <xsl:when test="not(normalize-space($date)) or 
