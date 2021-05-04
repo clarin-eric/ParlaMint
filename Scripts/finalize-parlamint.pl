@@ -28,14 +28,10 @@ sub usage {
     print STDERR ("    * -sample: produces samples (from TEI.ana and TEI output)\n");
     print STDERR ("    * -valid: validates TEI, TEI.ana and samples\n");
     print STDERR ("    * -vert: produces vertical files (from TEI.ana output)\n");
-    
-    # maybe should have also -meta (and pack separately for ana but include in -txttei dir?)
-    # maybe should have -txttei and -txtana ??
     print STDERR ("    * -txt: produces plain text files with metadata files (from TEI output)\n");
     print STDERR ("    * -conll: produces conllu files with metadata files (from TEI.ana output)\n");
-    
     print STDERR ("    * -all: do all of the above.\n");
-    #print STDERR ("    The flags can be also negated, e.g. \"-all -novalid\".\n");
+    print STDERR ("    The flags can be also negated, e.g. \"-all -novalid\".\n");
     print STDERR ("    Example: \n");
     print STDERR ("    ./finalize-parlamint.pl -all -novalid -codes 'BE ES' \\\n");
     print STDERR ("      -schema ../Schema -docs My/Docs/ -in Originals/ -out Final/  \\\n");
