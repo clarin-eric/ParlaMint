@@ -149,10 +149,10 @@
 	      </xsl:attribute>
 	    </xsl:when>
 	  </xsl:choose>
-	  <xsl:if test="normalize-space(tei:from)">
+	  <xsl:if test="tei:from != '' and tei:from != '-'">
 	    <xsl:attribute name="from" select="tei:from"/>
 	  </xsl:if>
-	  <xsl:if test="normalize-space(tei:to)">
+	  <xsl:if test="tei:to != '' and tei:to != '-'">
 	    <xsl:attribute name="to" select="tei:to"/>
 	  </xsl:if>
 	  <!-- Add term when coalition/opposition active -->
@@ -186,21 +186,25 @@
   
   <!-- Is the first date between the following two? -->
   <xsl:function name="et:between-dates" as="xs:boolean">
-    <xsl:param name="date" as="xs:string"/>
+    <xsl:param name="date" as="xs:string?"/>
     <xsl:param name="from" as="xs:string?"/>
     <xsl:param name="to" as="xs:string?"/>
     <xsl:choose>
-      <xsl:when test="($from = '' or $from = '-') and ($to = '' or $to = '-')">
+      <xsl:when test="not(normalize-space($from) or normalize-space($to))">
 	<xsl:value-of select="true()"/>
       </xsl:when>
-      <xsl:when test="($from = '' or $from = '-') and xs:date($date) &lt;= xs:date($to)" >
+      <xsl:when test="not(normalize-space($from) or normalize-space($date)) 
+		      or  xs:date($date) &lt;= xs:date($to))">
 	<xsl:value-of select="true()"/>
       </xsl:when>
-      <xsl:when test="($to = '' or $to = '-') and xs:date($date) &gt;= xs:date($from)" >
+      <xsl:when test="not(normalize-space($to) or normalize-space($date)) 
+		      or xs:date($date) &gt;= xs:date($from))">
 	<xsl:value-of select="true()"/>
       </xsl:when>
-      <xsl:when test="xs:date($date) &gt;= xs:date($from) and
-	              xs:date($date) &lt;= xs:date($to)">
+      <xsl:when test="not(normalize-space($date)) or 
+		      (xs:date($date) &gt;= xs:date($from) 
+		      and
+	              xs:date($date) &lt;= xs:date($to))">
 	<xsl:value-of select="true()"/>
       </xsl:when>
       <xsl:otherwise>
