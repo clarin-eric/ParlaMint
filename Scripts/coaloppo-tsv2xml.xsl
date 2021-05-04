@@ -164,7 +164,7 @@
 	    <xsl:variable name="terms" select="$listOrgs//tei:item[tei:country = $item/tei:country]/
 					       tei:org[@role = 'parliament']/tei:listEvent"/>
 	    <xsl:for-each select="$terms/tei:event">
-	      <xsl:if test="et:between-dates($item/tei:from, @from, @to) or 
+	      <xsl:if test="et:between-dates($item/tei:from, @from, @to) and 
 			    et:between-dates($item/tei:to, @from, @to)">
 		<xsl:value-of select="concat('#', @xml:id, ' ')"/>
 	      </xsl:if>
