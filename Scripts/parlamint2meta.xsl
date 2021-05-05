@@ -115,6 +115,7 @@
     <xsl:text>Speaker_type&#9;</xsl:text>
     <xsl:text>Speaker_party&#9;</xsl:text>
     <xsl:text>Speaker_party_name&#9;</xsl:text>
+    <xsl:text>Party_status&#9;</xsl:text>
     <xsl:text>Speaker_name&#9;</xsl:text>
     <xsl:text>Speaker_gender&#9;</xsl:text>
     <xsl:text>Speaker_birth</xsl:text>
@@ -144,6 +145,7 @@
 	<xsl:text>-&#9;</xsl:text>
 	<xsl:text>-&#9;</xsl:text>
 	<xsl:text>-&#9;</xsl:text>
+	<xsl:text>-&#9;</xsl:text>
 	<xsl:text>-</xsl:text>
       </xsl:when>
       <xsl:otherwise>
@@ -157,6 +159,7 @@
 	<xsl:value-of select="concat(et:speaker-type($speaker), '&#9;')"/>
 	<xsl:value-of select="concat(et:speaker-party($speaker, 'init'), '&#9;')"/>
 	<xsl:value-of select="concat(et:speaker-party($speaker, 'yes'), '&#9;')"/>
+	<xsl:value-of select="concat(et:party-status($speaker), '&#9;')"/>
 	<xsl:value-of select="concat(et:format-name($speaker//tei:persName[1]), '&#9;')"/>
 	<xsl:choose>
 	  <xsl:when test="$speaker/tei:sex">
