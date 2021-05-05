@@ -23,8 +23,8 @@
   <xsl:param name="guest-label">notMP</xsl:param>
 
   <!-- String to put at the start and end of "incidents", i.e. transcriber notes -->
-  <xsl:param name="note-open">/</xsl:param>
-  <xsl:param name="note-close">/</xsl:param>
+  <xsl:param name="note-open">[</xsl:param>
+  <xsl:param name="note-close">]</xsl:param>
   
   <xsl:variable name="today-iso" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
 
@@ -162,8 +162,8 @@
       </xsl:attribute>
       <xsl:text>&#10;</xsl:text>
       <xsl:value-of select="concat($note-open, normalize-space(.), $note-close)"/>
-      <!-- Introduce $COLUMNS & call-template! -->
-      <xsl:text>&#9;-&#9;-&#9;-&#9;-&#9;-&#9;-&#9;-&#9;-&#9;-&#9;-&#10;</xsl:text>
+      <!--xsl:text>&#9;-&#9;-&#9;-&#9;-&#9;-&#9;-&#9;-&#9;-&#9;-&#9;-&#10;</xsl:text-->
+      <xsl:text>&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#10;</xsl:text>
 
     </note>
     <xsl:text>&#10;</xsl:text>
