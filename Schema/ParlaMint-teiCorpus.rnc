@@ -140,7 +140,7 @@ listRelation =
         "coalition" | "opposition" | "renaming" | "successor"
       },
       (attribute mutual { anyURIs }
-       | (attribute active { xsd:anyURI },
+       | (attribute active { anyURIs },
           attribute passive { anyURIs }))
     }+
   }
