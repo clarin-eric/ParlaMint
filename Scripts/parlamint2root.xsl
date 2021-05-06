@@ -71,6 +71,30 @@
     </xsl:copy>
   </xsl:template>
     
+  <xsl:template match="tei:titleStmt/tei:funder">
+    <funder>
+      <orgName>The CLARIN research infrastructure</orgName>
+    </funder>
+    <xsl:for-each select="$docs//tei:item">
+      <xsl:for-each select="document(.)/tei:teiCorpus">
+	<xsl:variable name="corpus" select="@xml:id"/>
+	<xsl:variable name="funders">
+	  <xsl:for-each select="tei:teiHeader//tei:titleStmt/tei:funder">
+	    <xsl:if test="not(contains(., ' CLARIN '))">
+	      <xsl:copy-of select="tei:*[ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']]"/>
+	    </xsl:if>
+	  </xsl:for-each>
+	</xsl:variable>
+	<xsl:if test="normalize-space($funders)">
+	  <xsl:copy>
+	    <xsl:attribute name="n" select="$corpus"/>
+	    <xsl:copy-of select="$funders"/>
+	  </xsl:copy>
+	</xsl:if>
+      </xsl:for-each>
+    </xsl:for-each>
+  </xsl:template>
+    
   <xsl:template match="tei:extent">
     <xsl:copy>
       <xsl:variable name="corpora" select="count($docs/tei:item)"/>
