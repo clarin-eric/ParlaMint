@@ -86,10 +86,9 @@
 	  </xsl:for-each>
 	</xsl:variable>
 	<xsl:if test="normalize-space($funders)">
-	  <xsl:copy>
-	    <xsl:attribute name="n" select="$corpus"/>
+	  <funder n="{$corpus}">
 	    <xsl:copy-of select="$funders"/>
-	  </xsl:copy>
+	  </funder>
 	</xsl:if>
       </xsl:for-each>
     </xsl:for-each>
