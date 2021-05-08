@@ -372,7 +372,7 @@
   <!-- Insert government organisation if missing -->
   <xsl:template match="tei:listOrg">
     <xsl:copy>
-      <xsl:if test="not(tei:org[@role = 'government'])">
+      <xsl:if test="not(ancestor::tei:particDesc//tei:org[@role = 'government'])">
 	<xsl:variable name="country-code" select="replace(/tei:teiCorpus/@xml:id, 
 					 '.*-(..).*', '$1')"/>
 	<xsl:variable name="country-name" select="replace(/tei:teiCorpus/tei:teiHeader/
