@@ -231,6 +231,14 @@
     </xsl:for-each>
   </xsl:template>
   
+  <xsl:template match="tei:settingDesc">
+    <xsl:for-each select="$docs//document(tei:item)/tei:teiCorpus">
+      <setting n="{@xml:id}">
+	<xsl:copy-of select="tei:teiHeader//tei:setting/tei:*"/>
+      </setting>
+    </xsl:for-each>
+  </xsl:template>
+    
   <xsl:template match="tei:change/@when">
     <xsl:attribute name="when" select="$today"/>
   </xsl:template>
