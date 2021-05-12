@@ -39,6 +39,7 @@
             </respStmt>
             <respStmt n="ParlaMint-CZ.ana">
                <persName>Matyáš Kopp</persName>
+               <resp>Data retrieval</resp>
                <resp>TEI XML corpus encoding</resp>
                <resp>Linguistic annotation</resp>
             </respStmt>
@@ -81,7 +82,8 @@
             </respStmt>
             <respStmt n="ParlaMint-IS.ana">
                <persName>Starkaður Barkarson</persName>
-               <resp>Collection and processing of texts. TEI encoding.</resp>
+               <persName>Steinþór Steingrímsson</persName>
+               <resp>Collection and processing of texts. TEI encoding. Linguistic annotation.</resp>
             </respStmt>
             <respStmt n="ParlaMint-IS.ana">
                <persName>Starkaður Barkarson</persName>
@@ -166,6 +168,9 @@
                <orgName xml:lang="en">the European Commission</orgName>
                <orgName xml:lang="en">Dutch Language Institute</orgName>
             </funder>
+            <funder n="ParlaMint-CZ.ana">
+               <orgName xml:lang="en">LINDAT/CLARIAH-CZ: Digital Research Infrastructure for Language Technologies, Arts and Humanities</orgName>
+            </funder>
             <funder n="ParlaMint-DK.ana">
                <orgName xml:lang="en">European Commission</orgName>
                <orgName xml:lang="en">Department of Nordic Studies and Linguistics (NorS), University of Copenhagen</orgName>
@@ -181,14 +186,18 @@
                <orgName xml:lang="en">Institute of Computer Science, Polish Academy of Sciences</orgName>
                <orgName xml:lang="en">Ministry of Science and Higher Education, Poland</orgName>
             </funder>
+            <funder n="ParlaMint-SI.ana">
+               <orgName xml:lang="en">The Slovenian research infrastructure CLARIN.SI</orgName>
+               <orgName xml:lang="en">Slovenian Research Agency Programme P6-0411 "Language Resources and Technologies for Slovene"</orgName>
+            </funder>
          </titleStmt>
          <editionStmt>
             <edition>2.0</edition>
          </editionStmt>
          <extent>
             <measure unit="corpora" quantity="16">16 corpora</measure>
-            <measure unit="speeches" quantity="3292609">3,292,609 speeches</measure>
-            <measure unit="words" quantity="462236971">462,236,971 words</measure>
+            <measure unit="speeches" quantity="3307079">3,307,079 speeches</measure>
+            <measure unit="words" quantity="462217184">462,217,184 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -200,7 +209,7 @@
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2021-05-10">May 10, 2021</date>
+            <date when="2021-05-12">May 12, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <listBibl n="ParlaMint-BE.ana">
@@ -480,29 +489,29 @@
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="body" occurs="21314"/>
                <tagUsage gi="date" occurs="147549"/>
-               <tagUsage gi="desc" occurs="346707"/>
+               <tagUsage gi="desc" occurs="346706"/>
                <tagUsage gi="div" occurs="80687"/>
                <tagUsage gi="email" occurs="81"/>
                <tagUsage gi="gap" occurs="25704"/>
                <tagUsage gi="head" occurs="59608"/>
                <tagUsage gi="incident" occurs="2727"/>
-               <tagUsage gi="kinesic" occurs="189364"/>
-               <tagUsage gi="link" occurs="522046099"/>
-               <tagUsage gi="linkGrp" occurs="25959771"/>
-               <tagUsage gi="name" occurs="14806369"/>
+               <tagUsage gi="kinesic" occurs="189363"/>
+               <tagUsage gi="link" occurs="521997485"/>
+               <tagUsage gi="linkGrp" occurs="25947290"/>
+               <tagUsage gi="name" occurs="14798216"/>
                <tagUsage gi="note" occurs="1330623"/>
                <tagUsage gi="num" occurs="284859"/>
                <tagUsage gi="pb" occurs="25550"/>
-               <tagUsage gi="pc" occurs="56749603"/>
+               <tagUsage gi="pc" occurs="56720776"/>
                <tagUsage gi="ref" occurs="34291"/>
-               <tagUsage gi="s" occurs="25959771"/>
-               <tagUsage gi="seg" occurs="8656588"/>
+               <tagUsage gi="s" occurs="25947290"/>
+               <tagUsage gi="seg" occurs="8656581"/>
                <tagUsage gi="text" occurs="17952"/>
                <tagUsage gi="time" occurs="43235"/>
-               <tagUsage gi="u" occurs="4523100"/>
+               <tagUsage gi="u" occurs="4537570"/>
                <tagUsage gi="unit" occurs="3457"/>
                <tagUsage gi="vocal" occurs="126325"/>
-               <tagUsage gi="w" occurs="468230328"/>
+               <tagUsage gi="w" occurs="468210541"/>
             </namespace>
          </tagsDecl>
          <classDecl>
@@ -2721,7 +2730,7 @@
          </appInfo>
       </encodingDesc>
       <revisionDesc>
-         <change when="2021-05-10">
+         <change when="2021-05-12">
             <name>Tomaž Erjavec</name>: Generate root</change>
       </revisionDesc>
    </teiHeader>

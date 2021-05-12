@@ -62,7 +62,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-20">2021-04-20</date>
+            <date when="2021-05-07">2021-05-07</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -827,6 +827,10 @@
          </settingDesc>
          <particDesc>
             <listOrg>
+               <org role="government" xml:id="government.PL">
+                  <orgName xml:lang="pl" full="yes">Rada Ministrów Rzeczypospolitej Polskiej</orgName>
+                  <orgName xml:lang="en" full="yes">Government of the Republic of Poland</orgName>
+               </org>
                <org xml:id="party.PiS" role="politicalParty">
                   <orgName full="yes">Klub Parlamentarny Prawo i Sprawiedliwość</orgName>
                   <orgName full="init">PiS</orgName>
@@ -867,6 +871,18 @@
                   <orgName full="yes">Koło Poselskie Unia Polityki Realnej</orgName>
                   <orgName full="init">UPR</orgName>
                </org>
+               <listRelation>
+                  <relation name="coalition" mutual="#party.PiS" from="2015-11-06"/>
+                  <relation name="opposition"
+                            active="#party.KO #party.Kukiz15 #party.KP-PSL #party.PrzywrócićPrawo #party.Teraz"
+                            passive="#government.PL"
+                            from="2015-11-06"
+                            to="2019-11-11"/>
+                  <relation name="opposition"
+                            active="#party.KO #party.KP-PSL #party.Lewica #party.Konfederacja"
+                            passive="#government.PL"
+                            from="2019-11-12"/>
+               </listRelation>
             </listOrg>
             <listPerson>
                <person xml:id="AbramowiczAdam">
@@ -11297,9 +11313,9 @@
          </langUsage>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2021-04-20">
+         <change when="2021-05-07">
             <name>Tomaž Erjavec</name>: Made sample.</change>
-         <change when="2021-04-19">
+         <change when="2021-05-06">
             <name>Tomaž Erjavec</name>: Finalize encoding.</change>
       </revisionDesc>
    </teiHeader>

@@ -26,6 +26,14 @@
                <orgName xml:lang="sl">Raziskovalna infrastruktura CLARIN</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
             </funder>
+            <funder>
+               <orgName xml:lang="sl">Slovenska raziskovalna infrastruktura CLARIN.SI</orgName>
+               <orgName xml:lang="en">The Slovenian research infrastructure CLARIN.SI</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="sl">Raziskovalni program ARRS P6-0411 "Jezikovni viri in tehnologije za slovenski jezik"</orgName>
+               <orgName xml:lang="en">Slovenian Research Agency Programme P6-0411 "Language Resources and Technologies for Slovene"</orgName>
+            </funder>
          </titleStmt>
          <editionStmt>
             <edition>2.0</edition>
@@ -48,7 +56,7 @@
                <p xml:lang="sl">To delo je ponujeno pod <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Priznanje avtorstva 4.0 mednarodna licenca</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2021-04-20">2021-04-20</date>
+            <date when="2021-05-11">2021-05-11</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -854,24 +862,47 @@
                             passive="#party.ZaSLD"
                             when="2017-10-07"/>
                   <relation name="coalition"
-                            mutual="#party.PS #party.SD #party.DL #party.DeSUS"
-                            from="2013-03-20"
-                            to="2014-09-18"
-                            ana="#GOV.11"/>
-                  <relation name="coalition"
-                            mutual="#party.SMC.1 #party.SMC.2 #party.SD #party.DeSUS"
+                            mutual="#party.SMC.1 #party.DeSUS #party.SD"
                             from="2014-09-18"
-                            to="2018-09-12"
-                            ana="#GOV.12"/>
+                            to="2018-03-14"
+                            ana="#DZ.7"/>
+                  <relation name="opposition"
+                            active="#party.SDS.2 #party.NSi #party.ZaAB #party.Levica.1"
+                            passive="#GOV"
+                            from="2014-09-18"
+                            to="2018-03-14"
+                            ana="#DZ.7"/>
                   <relation name="coalition"
-                            mutual="#party.LMŠ #party.SMC.2 #party.SD #party.SAB #party.DeSUS"
+                            mutual="#party.LMŠ #party.SD #party.SMC.2 #party.SAB #party.DeSUS"
                             from="2018-09-13"
-                            to="2020-03-12"
-                            ana="#GOV.13"/>
+                            to="2020-01-29"
+                            ana="#DZ.8"/>
+                  <relation name="opposition"
+                            active="#party.SDS.2 #party.SNS #party.NSi #party.Levica.2"
+                            passive="#GOV"
+                            from="2018-09-13"
+                            to="2020-01-29"
+                            ana="#DZ.8"/>
                   <relation name="coalition"
                             mutual="#party.SDS.2 #party.SMC.2 #party.NSi #party.DeSUS"
                             from="2020-03-13"
-                            ana="#GOV.14"/>
+                            to="2020-12-17"
+                            ana="#DZ.8"/>
+                  <relation name="opposition"
+                            active="#party.LMŠ #party.SD #party.SAB #party.Levica.2"
+                            passive="#GOV"
+                            from="2020-03-13"
+                            to="2020-12-17"
+                            ana="#DZ.8"/>
+                  <relation name="coalition"
+                            mutual="#party.SDS.2 #party.SMC.2 #party.NSi"
+                            from="2020-12-18"
+                            ana="#DZ.8"/>
+                  <relation name="opposition"
+                            active="#party.DeSUS #party.LMŠ #party.SD #party.SMC.2 #party.SAB #party.Levica.2"
+                            passive="#GOV"
+                            from="2020-12-18"
+                            ana="#DZ.8"/>
                </listRelation>
             </listOrg>
             <listPerson>
@@ -5841,9 +5872,9 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-04-20">
+         <change when="2021-05-11">
             <name>Tomaž Erjavec</name>: Made sample.</change>
-         <change when="2021-04-19">
+         <change when="2021-05-11">
             <name>Tomaž Erjavec</name>: Finalize encoding.</change>
       </revisionDesc>
    </teiHeader>

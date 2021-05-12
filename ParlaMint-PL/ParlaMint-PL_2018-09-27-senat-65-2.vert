@@ -1,14 +1,14 @@
 <text id="ParlaMint-PL_2018-09-27-senat-65-2.ana" subcorpus="Reference" term="9-upper" session="65-upper" meeting="-" sitting="2-upper" agenda="-" from="2018-09-27" to="2018-09-27" title="Report of the session of the Senat of the Republic of Poland, Term 9, Session 65, Day 2 (2018-09-27)">
 <note type="head">
-/65. posiedzenie Senatu RP 9. kadencji, dzień 2/	-	-	-	-	-	-	-	-	-	-
+[65. posiedzenie Senatu RP 9. kadencji, dzień 2]										
 </note>
 <note type="time">
-/Wznowienie posiedzenia o godzinie 11 minut 00/	-	-	-	-	-	-	-	-	-	-
+[Wznowienie posiedzenia o godzinie 11 minut 00]										
 </note>
 <note type="debate">
-/Posiedzeniu przewodniczą marszałek Stanisław Karczewski oraz wicemarszałkowie Michał Seweryński, Maria Koc i Adam Bielan/	-	-	-	-	-	-	-	-	-	-
+[Posiedzeniu przewodniczą marszałek Stanisław Karczewski oraz wicemarszałkowie Michał Seweryński, Maria Koc i Adam Bielan]										
 </note>
-<speech id="ParlaMint-PL_2018-09-27-senat-65-2.u1" speaker_role="Chairperson" speaker_id="KuchcińskiMarek" speaker_name="Kuchciński, Marek" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" coalition_party="?" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-PL_2018-09-27-senat-65-2.u1" speaker_role="Chairperson" speaker_id="KuchcińskiMarek" speaker_name="Kuchciński, Marek" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="coalition" speaker_gender="M" speaker_birth="1955">
 <p id="seg747084" lang="Polish">
 <s id="seg747084.1">
 Wznawiam	Wznawiam	wznawiać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
@@ -18,7 +18,7 @@ posiedzenie	posiedzenie	posiedzenie	NOUN	Case=Acc Gender=Neut Number=Sing	2	obj	
 </s>
 </p>
 <note type="vocal:noise">
-/Rozmowy na sali/	-	-	-	-	-	-	-	-	-	-
+[Rozmowy na sali]										
 </note>
 <p id="seg747085" lang="Polish">
 <s id="seg747085.1">
@@ -114,7 +114,7 @@ serdecznie	serdecznie	serdecznie	ADV	Degree=Pos	15	advmod	witać	VERB	Aspect=Imp
 </s>
 </p>
 <note type="kinesic:applause">
-/Oklaski/	-	-	-	-	-	-	-	-	-	-
+[Oklaski]										
 </note>
 <p id="seg747089" lang="Polish">
 <s id="seg747089.1">
@@ -143,7 +143,7 @@ Wschodu	Wschodu	wschód	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	12	fl
 </s>
 </p>
 <note type="kinesic:applause">
-/Oklaski/	-	-	-	-	-	-	-	-	-	-
+[Oklaski]										
 </note>
 <p id="seg747090" lang="Polish">
 <s id="seg747090.1">
@@ -169,7 +169,7 @@ Katyniu	Katyniu	Katyń	PROPN	Animacy=Inan Case=Loc Gender=Masc Number=Sing	12	ob
 </s>
 </p>
 <note type="kinesic:applause">
-/Oklaski/	-	-	-	-	-	-	-	-	-	-
+[Oklaski]										
 </note>
 <p id="seg747091" lang="Polish">
 <s id="seg747091.1">
@@ -197,7 +197,7 @@ Warszawie	Warszawie	Warszawa	PROPN	Case=Loc Gender=Fem Number=Sing	14	nmod	uniwe
 </s>
 </p>
 <note type="kinesic:applause">
-/Oklaski/	-	-	-	-	-	-	-	-	-	-
+[Oklaski]										
 </note>
 <p id="seg747092" lang="Polish">
 <s id="seg747092.1">
@@ -228,7 +228,7 @@ serdecznie	serdecznie	serdecznie	ADV	Degree=Pos	15	advmod	witać	VERB	Aspect=Imp
 </s>
 </p>
 <note type="kinesic:applause">
-/Oklaski/	-	-	-	-	-	-	-	-	-	-
+[Oklaski]										
 </note>
 <p id="seg747093" lang="Polish">
 <s id="seg747093.1">
@@ -266,7 +266,7 @@ Sanoku	Sanoku	Sanok	PROPN	Animacy=Inan Case=Loc Gender=Masc Number=Sing	18	nmod	
 </s>
 </p>
 <note type="kinesic:applause">
-/Oklaski/	-	-	-	-	-	-	-	-	-	-
+[Oklaski]										
 </note>
 <p id="seg747094" lang="Polish">
 <s id="seg747094.1">
@@ -305,7 +305,7 @@ Peszkowskiego	Peszkowskiego	Peszkowskiego	PROPN	Animacy=Hum Case=Acc Gender=Masc
 </s>
 </p>
 <note type="kinesic:applause">
-/Oklaski/	-	-	-	-	-	-	-	-	-	-
+[Oklaski]										
 </note>
 <p id="seg747095" lang="Polish">
 <s id="seg747095.1">
@@ -404,7 +404,7 @@ Senatorze	Senatorze	senator	PROPN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	5
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-PL_2018-09-27-senat-65-2.u2" speaker_role="Regular" speaker_id="ŻarynJan" speaker_name="Żaryn, Jan" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" coalition_party="?" speaker_gender="M" speaker_birth="1958">
+<speech id="ParlaMint-PL_2018-09-27-senat-65-2.u2" speaker_role="Regular" speaker_id="ŻarynJan" speaker_name="Żaryn, Jan" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="coalition" speaker_gender="M" speaker_birth="1958">
 <p id="seg747099" lang="Polish">
 <s id="seg747099.1">
 Panie	Panie	pan	NOUN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	1	vocative	-	-	-	-
@@ -570,13 +570,13 @@ poklaskać	poklaskać	poklaskać	VERB	Aspect=Imp VerbForm=Inf Voice=Act	4	xcomp	
 </s>
 </p>
 <note type="kinesic:applause">
-/Oklaski/	-	-	-	-	-	-	-	-	-	-
+[Oklaski]										
 </note>
 </speech>
 <note type="gap::editorial">
-/SAMPLING/	-	-	-	-	-	-	-	-	-	-
+[SAMPLING]										
 </note>
-<speech id="ParlaMint-PL_2018-09-27-senat-65-2.u356" speaker_role="Regular" speaker_id="RadziwiłłKonstanty" speaker_name="Radziwiłł, Konstanty" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" coalition_party="?" speaker_gender="M" speaker_birth="1958">
+<speech id="ParlaMint-PL_2018-09-27-senat-65-2.u356" speaker_role="Regular" speaker_id="RadziwiłłKonstanty" speaker_name="Radziwiłł, Konstanty" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="coalition" speaker_gender="M" speaker_birth="1958">
 <p id="seg747831" lang="Polish">
 <s id="seg747831.1">
 (	(	(	PUNCT	PunctSide=Ini PunctType=Brck	1	punct	mieć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	3
@@ -592,7 +592,7 @@ rządu	rządu	rząd	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	5	nmod:ar
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-PL_2018-09-27-senat-65-2.u357" speaker_role="Chairperson" speaker_id="BielanAdam" speaker_name="Bielan, Adam" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" coalition_party="?" speaker_gender="M" speaker_birth="1974">
+<speech id="ParlaMint-PL_2018-09-27-senat-65-2.u357" speaker_role="Chairperson" speaker_id="BielanAdam" speaker_name="Bielan, Adam" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="coalition" speaker_gender="M" speaker_birth="1974">
 <p id="seg747832" lang="Polish">
 <s id="seg747832.1">
 Otwieram	Otwieram	otwierać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
@@ -728,7 +728,7 @@ rozpatrzeniu	rozpatrzeniu	rozpatrzyć	NOUN	Aspect=Perf Case=Loc Gender=Neut Numb
 </s>
 </p>
 <note type="time">
-/Przerwa w posiedzeniu o godzinie 17 minut 25/	-	-	-	-	-	-	-	-	-	-
+[Przerwa w posiedzeniu o godzinie 17 minut 25]										
 </note>
 </speech>
 </text>

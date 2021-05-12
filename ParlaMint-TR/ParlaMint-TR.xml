@@ -33,7 +33,7 @@
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2021-04-27">2021-04-27</date>
+            <date when="2021-05-07">2021-05-07</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -307,6 +307,9 @@
          </settingDesc>
          <particDesc>
             <listOrg>
+               <org xml:id="government.TR" role="government">
+                  <orgName xml:lang="en" full="yes">Turkish Government</orgName>
+               </org>
                <org xml:id="TBMM" role="parliament" ana="#parla.national">
                   <orgName full="yes" xml:lang="en">National Assembly of the Republic of Turkey</orgName>
                   <orgName full="yes" xml:lang="en">Türkiye Büyük Millet Meclisi</orgName>
@@ -561,6 +564,22 @@
                   <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Innovation_Party_(Turkey)</idno>
                   <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q97599122</idno>
                </org>
+               <listRelation>
+                  <relation name="coalition"
+                            mutual="#party.AKP"
+                            from="2011-06-28"
+                            ana="#TBMM.24"/>
+                  <relation name="opposition"
+                            active="#party.MHP #party.ANAP #party.CHP #party.DSP #party.DYP #party.FAZILET #party.HDP #party.IYI #party.ANA #party.BDP #party.BBP #party.DP #party.DEVA #party.eParti #party.MEP #party.TiP #party.SAADET #party.YP"
+                            passive="#government.TR"
+                            from="2011-06-28"
+                            to="2018-02-20"/>
+                  <relation name="opposition"
+                            active="#party.ANAP #party.CHP #party.DSP #party.DYP #party.FAZILET #party.HDP #party.IYI #party.ANA #party.BDP #party.BBP #party.DP #party.DEVA #party.eParti #party.MEP #party.TiP #party.SAADET #party.YP"
+                            passive="#government.TR"
+                            from="2018-02-21"
+                            ana="#TBMM.26"/>
+               </listRelation>
             </listOrg>
             <listPerson>
                <head xml:lang="en">List of speakers</head>

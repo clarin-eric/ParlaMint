@@ -1,11 +1,11 @@
 <text id="ParlaMint-IT_2013-03-16-LEG17-Sed-2.ana" subcorpus="Reference" term="17-upper" session="-" meeting="-" sitting="2-upper" agenda="-" from="2013-03-16" to="2013-03-16" title="Report of the session of the Senate of the Italian Republic, Term 17, Sitting 2, Day (2013-03-16)">
 <note type="president">
-/Presidenza del presidente provvisorio COLOMBO/	-	-	-	-	-	-	-	-	-	-
+[Presidenza del presidente provvisorio COLOMBO]										
 </note>
 <note type="role">
-/PRESIDENTE/	-	-	-	-	-	-	-	-	-	-
+[PRESIDENTE]										
 </note>
-<speech id="ParlaMint-IT_2013-03-16-LEG17-Sed-2.u1" speaker_role="Chairperson" speaker_id="ColomboEmilio" speaker_name="Colombo, Emilio" speaker_type="MP" speaker_party="-" speaker_party_name="-" coalition_party="no" speaker_gender="M" speaker_birth="1920">
+<speech id="ParlaMint-IT_2013-03-16-LEG17-Sed-2.u1" speaker_role="Chairperson" speaker_id="ColomboEmilio" speaker_name="Colombo, Emilio" speaker_type="MP" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="M" speaker_birth="1920">
 <p id="ParlaMint-IT_2013-03-16-LEG17-Sed-2.seg1" lang="Italian">
 <s id="ParlaMint-IT_2013-03-16-LEG17-Sed-2.seg1.1">
 La	La	il	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	1	det	seduta	NOUN	Gender=Fem Number=Sing	2
@@ -79,17 +79,17 @@ approvato	approvato	approvare	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=P
 </p>
 </speech>
 <note type="gap::editorial">
-/SAMPLING/	-	-	-	-	-	-	-	-	-	-
+[SAMPLING]										
 </note>
 <note type="head">
-/Sul 35° anniversario del rapimento di Aldo Moro e dell'uccisione dei componenti della sua scorta/	-	-	-	-	-	-	-	-	-	-
+[Sul 35° anniversario del rapimento di Aldo Moro e dell'uccisione dei componenti della sua scorta]										
 </note>
 <note type="role">
-/PRESIDENTE/	-	-	-	-	-	-	-	-	-	-
+[PRESIDENTE]										
 </note>
-<speech id="ParlaMint-IT_2013-03-16-LEG17-Sed-2.u2" speaker_role="Chairperson" speaker_id="ColomboEmilio" speaker_name="Colombo, Emilio" speaker_type="MP" speaker_party="-" speaker_party_name="-" coalition_party="no" speaker_gender="M" speaker_birth="1920">
+<speech id="ParlaMint-IT_2013-03-16-LEG17-Sed-2.u2" speaker_role="Chairperson" speaker_id="ColomboEmilio" speaker_name="Colombo, Emilio" speaker_type="MP" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="M" speaker_birth="1920">
 <note type="incident:action">
-/Si leva in piedi e con lui tutta l'Assemblea./	-	-	-	-	-	-	-	-	-	-
+[Si leva in piedi e con lui tutta l'Assemblea.]										
 </note>
 <p id="ParlaMint-IT_2013-03-16-LEG17-Sed-2.seg2" lang="Italian">
 <s id="ParlaMint-IT_2013-03-16-LEG17-Sed-2.seg2.1">
@@ -282,7 +282,7 @@ alta	alta	alto	ADJ	Gender=Fem Number=Sing	13	amod	gioia	NOUN	Gender=Fem Number=S
 </s>
 </p>
 <note type="kinesic:applause">
-/Segni di commozione del Presidente. Applausi./	-	-	-	-	-	-	-	-	-	-
+[Segni di commozione del Presidente. Applausi.]										
 </note>
 <p id="ParlaMint-IT_2013-03-16-LEG17-Sed-2.seg5" lang="Italian">
 <s id="ParlaMint-IT_2013-03-16-LEG17-Sed-2.seg5.1">
@@ -332,13 +332,13 @@ raccoglimento	raccoglimento	raccoglimento	NOUN	Gender=Masc Number=Sing	7	nmod	mi
 </s>
 </p>
 <note type="incident:sound">
-/L'Assemblea osserva un minuto di silenzio. Applausi./	-	-	-	-	-	-	-	-	-	-
+[L'Assemblea osserva un minuto di silenzio. Applausi.]										
 </note>
 </speech>
 <note type="gap::editorial">
-/SAMPLING/	-	-	-	-	-	-	-	-	-	-
+[SAMPLING]										
 </note>
-<speech id="ParlaMint-IT_2013-03-16-LEG17-Sed-2.u21" speaker_role="Chairperson" speaker_id="GrassoPietro" speaker_name="Grasso, Pietro" speaker_type="MP" speaker_party="-" speaker_party_name="-" coalition_party="no" speaker_gender="M" speaker_birth="1945">
+<speech id="ParlaMint-IT_2013-03-16-LEG17-Sed-2.u21" speaker_role="Chairperson" speaker_id="GrassoPietro" speaker_name="Grasso, Pietro" speaker_type="MP" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="M" speaker_birth="1945">
 <p id="ParlaMint-IT_2013-03-16-LEG17-Sed-2.seg102" lang="Italian">
 <s id="ParlaMint-IT_2013-03-16-LEG17-Sed-2.seg102.1">
 Le	Di|i	di|il	ADP|DET	-|Definite=Def Gender=Masc Number=Plur PronType=Art	1|2	case|det	mozione	NOUN	Gender=Fem Number=Plur	3
@@ -372,12 +372,12 @@ odierna	odierna	odierno	ADJ	Gender=Fem Number=Sing	24	amod	seduta	NOUN	Gender=Fe
 </p>
 </speech>
 <note type="head">
-/Ordine del giorno per la seduta di giovedì 21 marzo 2013/	-	-	-	-	-	-	-	-	-	-
+[Ordine del giorno per la seduta di giovedì 21 marzo 2013]										
 </note>
 <note type="role">
-/PRESIDENTE/	-	-	-	-	-	-	-	-	-	-
+[PRESIDENTE]										
 </note>
-<speech id="ParlaMint-IT_2013-03-16-LEG17-Sed-2.u22" speaker_role="Chairperson" speaker_id="GrassoPietro" speaker_name="Grasso, Pietro" speaker_type="MP" speaker_party="-" speaker_party_name="-" coalition_party="no" speaker_gender="M" speaker_birth="1945">
+<speech id="ParlaMint-IT_2013-03-16-LEG17-Sed-2.u22" speaker_role="Chairperson" speaker_id="GrassoPietro" speaker_name="Grasso, Pietro" speaker_type="MP" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="M" speaker_birth="1945">
 <p id="ParlaMint-IT_2013-03-16-LEG17-Sed-2.seg103" lang="Italian">
 <s id="ParlaMint-IT_2013-03-16-LEG17-Sed-2.seg103.1">
 Il	Il	il	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	1	det	Senato	PROPN	-	2

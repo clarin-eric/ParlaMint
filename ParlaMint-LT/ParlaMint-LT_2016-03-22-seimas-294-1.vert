@@ -1,13 +1,13 @@
 <text id="ParlaMint-LT_2016-03-22-seimas-294-1.ana" subcorpus="Reference" term="7" session="8" meeting="323" sitting="-" agenda="-" from="2016-03-22" to="2016-03-22" title="Transcripts of the Meetings of the Seimas of the Republic of Lithuania, Term 7, Regular Session 8 (2016-03-22)">
 <note type="head">
-/LIETUVOS RESPUBLIKOS SEIMAS, VIII (PAVASARIO) SESIJOS, VAKARINIO POSĖDŽIO NR. 323 STENOGRAMA, 2016 m. kovo 22 d./	-	-	-	-	-	-	-	-	-	-
+[LIETUVOS RESPUBLIKOS SEIMAS, VIII (PAVASARIO) SESIJOS, VAKARINIO POSĖDŽIO NR. 323 STENOGRAMA, 2016 m. kovo 22 d.]										
 </note>
 <note type="head">
-/Pirmininkauja Lietuvos Respublikos Seimo Pirmininko pavaduotojas J. NARKEVIČIUS/	-	-	-	-	-	-	-	-	-	-
+[Pirmininkauja Lietuvos Respublikos Seimo Pirmininko pavaduotojas J. NARKEVIČIUS]										
 </note>
-<speech id="ParlaMint-LT_2016-03-22-seimas-294-1.u1" speaker_role="Chairperson" speaker_id="NarkevičiusJ" speaker_name="Narkevičius, J." speaker_type="notMP" speaker_party="-" speaker_party_name="-" coalition_party="?" speaker_gender="M" speaker_birth="?">
-<p id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130301" lang="Lithuanian">
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.1">
+<speech id="ParlaMint-LT_2016-03-22-seimas-294-1.u1" speaker_role="Chairperson" speaker_id="NarkevičiusJ" speaker_name="Narkevičius, J." speaker_type="notMP" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="M" speaker_birth="-">
+<p id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130297" lang="Lithuanian">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130297.1">
 Laba	Laba	labas	INTJ	Hyph=Yes	1	det	diena	NOUN	Case=Nom Gender=Fem Number=Sing	2
 diena	diena	diena	NOUN	Case=Nom Gender=Fem Number=Sing	2	root	-	-	-	-
 dar	dar	dar	PART	-	3	advmod	kartas2	NOUN	Case=Acc Gender=Masc Number=Sing	4
@@ -20,7 +20,7 @@ Seimo	Seimo	seimas	NOUN	Case=Gen Gender=Masc Number=Sing	7	nmod	narė	NOUN	Case=
 nariai	nariai	narė	NOUN	Case=Nom Gender=Masc Number=Plur	8	nsubj	gerbiamas	VERB	Case=Nom Definite=Ind Gender=Masc Number=Plur Polarity=Pos Tense=Pres VerbForm=Part Voice=Pass	6
 .	.	.	PUNCT	-	9	punct	diena	NOUN	Case=Nom Gender=Fem Number=Sing	2
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130301.2">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130297.2">
 Pradedame	Pradedame	pradėti	VERB	Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 šios	šios	šios	DET	Case=Gen Definite=Ind Gender=Fem Number=Sing PronType=Dem	2	det	dienoti	NOUN	Case=Gen Gender=Fem Number=Sing	3
 dienos	dienos	dienoti	NOUN	Case=Gen Gender=Fem Number=Sing	3	nmod	seimas	NOUN	Case=Gen Gender=Masc Number=Sing	4
@@ -34,20 +34,20 @@ posėdį	posėdį	posėdis	NOUN	Case=Acc Gender=Masc Number=Sing	7	obj	pradėti	
 </s>
 </p>
 <note type="kinesic:ringing">
-/Gongas/	-	-	-	-	-	-	-	-	-	-
+[Gongas]										
 </note>
-<p id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302" lang="Lithuanian">
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.1">
+<p id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130298" lang="Lithuanian">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130298.1">
 Registracija	Registracija	registracija	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	2	punct	registracija	NOUN	Case=Nom Gender=Fem Number=Sing	1
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.2">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130298.2">
 Gerai	Gerai	geras	ADV	Degree=Pos	1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	2	punct	geras	ADV	Degree=Pos	1
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.3">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130298.3">
 Registruojamės	Registruojamės	Registruojamės	VERB	Mood=Ind Number=Sing Person=2 Polarity=Pos Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	2	punct	gerbiamas	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Plur	3
@@ -64,19 +64,19 @@ Seimo	Seimo	seimas	NOUN	Case=Gen Gender=Masc Number=Sing	8	nmod	narė	NOUN	Case=
 narės	narės	narė	NOUN	Case=Nom Gender=Fem Number=Plur	9	conj	narė	NOUN	Case=Nom Gender=Masc Number=Plur	5
 .	.	.	PUNCT	-	10	punct	Registruojamės	VERB	Mood=Ind Number=Sing Person=2 Polarity=Pos Tense=Pres VerbForm=Fin	1
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.4">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130298.4">
 Registruojamės	Registruojamės	Registruojamės	VERB	Mood=Ind Number=Sing Person=2 Polarity=Pos Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 <g/>
 !	!	!	PUNCT	-	2	punct	Registruojamės	VERB	Mood=Ind Number=Sing Person=2 Polarity=Pos Tense=Pres VerbForm=Fin	1
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.5">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130298.5">
 Buvo	Buvo	būti	AUX	Aspect=Perf Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Past VerbForm=Fin	1	cop	minutė	NOUN	Case=Nom Gender=Fem Number=Sing	2
 minutė	minutė	minutė	NOUN	Case=Nom Gender=Fem Number=Sing	2	nsubj	susikauptas	VERB	Polarity=Pos Reflex=Yes VerbForm=Inf	3
 susikaupti	susikaupti	susikauptas	VERB	Polarity=Pos Reflex=Yes VerbForm=Inf	3	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	4	punct	susikauptas	VERB	Polarity=Pos Reflex=Yes VerbForm=Inf	3
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130302.6">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130298.6">
 Taigi	Taigi	Taigi	PART	-	1	advmod	galimas	VERB	Definite=Ind Gender=Neut Polarity=Pos Tense=Pres VerbForm=Part Voice=Pass	4
 dabar	dabar	dabar	ADV	Degree=Pos	2	advmod	galimas	VERB	Definite=Ind Gender=Neut Polarity=Pos Tense=Pres VerbForm=Part Voice=Pass	4
 jau	jau	jau	ADV	Degree=Pos	3	advmod	galimas	VERB	Definite=Ind Gender=Neut Polarity=Pos Tense=Pres VerbForm=Part Voice=Pass	4
@@ -85,8 +85,8 @@ registruotis	registruotis	registruotis	VERB	Polarity=Pos Reflex=Yes VerbForm=Inf
 .	.	.	PUNCT	-	6	punct	galimas	VERB	Definite=Ind Gender=Neut Polarity=Pos Tense=Pres VerbForm=Part Voice=Pass	4
 </s>
 </p>
-<p id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130303" lang="Lithuanian">
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130303.1">
+<p id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130299" lang="Lithuanian">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130299.1">
 Užsiregistravo	Užsiregistravo	užsiregistruoti	PROPN	Case=Gen Gender=Fem Number=Sing	1	root	-	-	-	-
 84	84	84	NUM	Definite=Ind NumForm=Digit	2	nummod	narė	NOUN	Case=Nom Gender=Masc Number=Plur	4
 <name type="ORG">
@@ -98,20 +98,20 @@ nariai	nariai	narė	NOUN	Case=Nom Gender=Masc Number=Plur	4	nsubj	užsiregistruo
 </p>
 </speech>
 <note type="time">
-/15.06/	-	-	-	-	-	-	-	-	-	-
+[15.06]										
 </note>
 <note type="debate">
-/Miškų įstatymo Nr. I-671 2, 5 ir 18 straipsnių pakeitimo įstatymo projektas Nr. XIIP-3095 (pateikimas)/	-	-	-	-	-	-	-	-	-	-
+[Miškų įstatymo Nr. I-671 2, 5 ir 18 straipsnių pakeitimo įstatymo projektas Nr. XIIP-3095 (pateikimas)]										
 </note>
-<speech id="ParlaMint-LT_2016-03-22-seimas-294-1.u2" speaker_role="Chairperson" speaker_id="NarkevičiusJ" speaker_name="Narkevičius, J." speaker_type="notMP" speaker_party="-" speaker_party_name="-" coalition_party="?" speaker_gender="M" speaker_birth="?">
-<p id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304" lang="Lithuanian">
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.1">
+<speech id="ParlaMint-LT_2016-03-22-seimas-294-1.u2" speaker_role="Chairperson" speaker_id="NarkevičiusJ" speaker_name="Narkevičius, J." speaker_type="notMP" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="M" speaker_birth="-">
+<p id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130300" lang="Lithuanian">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130300.1">
 Taigi	Taigi	Taigi	PART	-	1	advmod	pradėti	VERB	Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	2
 pradedame	pradedame	pradėti	VERB	Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	3	punct	pradėti	VERB	Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	2
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.2">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130300.2">
 Mūsų	Mūsų	mūsa	PRON	Case=Gen Definite=Ind Number=Plur Person=1 PronType=Prs	1	nmod	darbotvarkė	NOUN	Case=Gen Gender=Fem Number=Sing	4
 šios	šios	šios	DET	Case=Gen Definite=Ind Gender=Fem Number=Sing PronType=Dem	2	det	dienoti	NOUN	Case=Gen Gender=Fem Number=Sing	3
 dienos	dienos	dienoti	NOUN	Case=Gen Gender=Fem Number=Sing	3	nmod	darbotvarkė	NOUN	Case=Gen Gender=Fem Number=Sing	4
@@ -121,7 +121,7 @@ klausimas	klausimas	klausimas	NOUN	Case=Nom Gender=Masc Number=Sing	6	root	-	-	-
 <g/>
 .	.	.	PUNCT	-	7	punct	klausimas	NOUN	Case=Nom Gender=Masc Number=Sing	6
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.3">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130300.3">
 Ponas	Ponas	ponas	NOUN	Case=Nom Gender=Masc Number=Sing	1	root	-	-	-	-
 <name type="PER">
 A	A	A	SYM	-	2	nmod	ponas	NOUN	Case=Nom Gender=Masc Number=Sing	1
@@ -132,7 +132,7 @@ Palionis	Palionis	Palionis	PROPN	Case=Nom Gender=Masc Number=Sing	4	flat	ponas	N
 </name>
 .	.	.	PUNCT	-	5	punct	Palionis	PROPN	Case=Nom Gender=Masc Number=Sing	4
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.4">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130300.4">
 Prašau	Prašau	prašyti	VERB	Mood=Ind Number=Plur Person=2 Polarity=Pos Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	2	punct	p	PUNCT	-	3
@@ -159,7 +159,7 @@ pakeitimo	pakeitimo	pakeitimas	NOUN	Case=Gen Gender=Masc Number=Sing	18	nmod	pro
 projektą	projektą	projektas	NOUN	Case=Acc Gender=Masc Number=Sing	19	obj	pristatytas	VERB	Polarity=Pos VerbForm=Inf	6
 .	.	.	PUNCT	-	20	punct	prašyti	VERB	Mood=Ind Number=Plur Person=2 Polarity=Pos Tense=Pres VerbForm=Fin	1
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130304.5">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130300.5">
 Pateikimas	Pateikimas	pateikimas	NOUN	Case=Nom Gender=Masc Number=Sing	1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	2	punct	pateikimas	NOUN	Case=Nom Gender=Masc Number=Sing	1
@@ -167,11 +167,11 @@ Pateikimas	Pateikimas	pateikimas	NOUN	Case=Nom Gender=Masc Number=Sing	1	root	-	
 </p>
 </speech>
 <note type="gap::editorial">
-/SAMPLING/	-	-	-	-	-	-	-	-	-	-
+[SAMPLING]										
 </note>
-<speech id="ParlaMint-LT_2016-03-22-seimas-294-1.u290" speaker_role="Chairperson" speaker_id="NarkevičiusJ" speaker_name="Narkevičius, J." speaker_type="notMP" speaker_party="-" speaker_party_name="-" coalition_party="?" speaker_gender="M" speaker_birth="?">
-<p id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739" lang="Lithuanian">
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1">
+<speech id="ParlaMint-LT_2016-03-22-seimas-294-1.u290" speaker_role="Chairperson" speaker_id="NarkevičiusJ" speaker_name="Narkevičius, J." speaker_type="notMP" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="M" speaker_birth="-">
+<p id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130735" lang="Lithuanian">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130735.1">
 Kitas	Kitas	kitas	PRON	Case=Nom Definite=Ind Gender=Masc Number=Sing PronType=Ind	1	nmod	darbotvarkė	NOUN	Case=Gen Gender=Fem Number=Sing	2
 darbotvarkės	darbotvarkės	darbotvarkė	NOUN	Case=Gen Gender=Fem Number=Sing	2	nmod	klausimas	NOUN	Case=Nom Gender=Masc Number=Sing	3
 klausimas	klausimas	klausimas	NOUN	Case=Nom Gender=Masc Number=Sing	3	nsubj	rezervinis	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing	6
@@ -218,14 +218,14 @@ pavaduotojų	pavaduotojų	pavaduotojas	NOUN	Case=Gen Gender=Masc Number=Plur	32	
 patvirtinimo&amp;amp;quot	patvirtinimo&amp;amp;quot	patvirtinimo&amp;amp;quot	SYM	-	33	conj	rezervinis	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing	6
 ;	;	;	PUNCT	-	34	punct	rezervinis	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing	6
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.2">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130735.2">
 pakeitimo&amp;amp;quot	pakeitimo&amp;amp;quot	pakeitimo&amp;amp;quot	VERB	Polarity=Pos Tense=Pres VerbForm=Ger	1	root	-	-	-	-
 <g/>
 ;	;	;	PUNCT	-	2	punct	projektas	NOUN	Case=Nom Gender=Masc Number=Sing	3
 projektas	projektas	projektas	NOUN	Case=Nom Gender=Masc Number=Sing	3	appos	pakeitimo&amp;amp;quot	VERB	Polarity=Pos Tense=Pres VerbForm=Ger	1
 .	.	.	PUNCT	-	4	punct	pakeitimo&amp;amp;quot	VERB	Polarity=Pos Tense=Pres VerbForm=Ger	1
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.3">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130735.3">
 Jeigu	Jeigu	Jeigu	SCONJ	-	1	mark	neprieštaraujate	VERB	Mood=Ind Number=Plur Person=2 Polarity=Pos Tense=Pres VerbForm=Fin	3
 jūs	jūs	jūs	PRON	Case=Nom Definite=Ind Number=Plur Person=2 PronType=Prs	2	nsubj	neprieštaraujate	VERB	Mood=Ind Number=Plur Person=2 Polarity=Pos Tense=Pres VerbForm=Fin	3
 neprieštaraujate	neprieštaraujate	neprieštaraujate	VERB	Mood=Ind Number=Plur Person=2 Polarity=Pos Tense=Pres VerbForm=Fin	3	root	-	-	-	-
@@ -238,8 +238,8 @@ projektą	projektą	projektas	NOUN	Case=Acc Gender=Masc Number=Sing	8	obj	pateik
 .	.	.	PUNCT	-	9	punct	neprieštaraujate	VERB	Mood=Ind Number=Plur Person=2 Polarity=Pos Tense=Pres VerbForm=Fin	3
 </s>
 </p>
-<p id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740" lang="Lithuanian">
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.1">
+<p id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130736" lang="Lithuanian">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130736.1">
 Kalbama	Kalbama	kalbamas	VERB	Definite=Ind Gender=Neut Polarity=Pos Tense=Pres VerbForm=Part Voice=Pass	1	root	-	-	-	-
 apie	apie	apie	ADP	AdpType=Prep Case=Acc	2	case	rinkimas	NOUN	Case=Acc Gender=Masc Number=Sing	8
 <name type="ORG">
@@ -252,7 +252,7 @@ pirmininko	pirmininko	pirmininkas	NOUN	Case=Gen Gender=Masc Number=Sing	7	nmod	r
 rinkimą	rinkimą	rinkimas	NOUN	Case=Acc Gender=Masc Number=Sing	8	obl	kalbamas	VERB	Definite=Ind Gender=Neut Polarity=Pos Tense=Pres VerbForm=Part Voice=Pass	1
 .	.	.	PUNCT	-	9	punct	kalbamas	VERB	Definite=Ind Gender=Neut Polarity=Pos Tense=Pres VerbForm=Part Voice=Pass	1
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.2">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130736.2">
 <name type="MISC">
 Šiandien	Šiandien	Šiandien	ADV	Degree=Pos	1	advmod	vyko	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Polarity=Pos Tense=Past VerbForm=Fin	2
 </name>
@@ -260,7 +260,7 @@ vyko	vyko	vyko	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Polarity=Pos Tense
 rinkimai	rinkimai	rinkimas	NOUN	Case=Nom Gender=Masc Number=Plur	3	nsubj	vyko	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Polarity=Pos Tense=Past VerbForm=Fin	2
 .	.	.	PUNCT	-	4	punct	vyko	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Polarity=Pos Tense=Past VerbForm=Fin	2
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130736.3">
 Bendru	Bendru	bendras	ADJ	Case=Ins Definite=Ind Degree=Pos Gender=Masc Number=Sing	1	amod	sutarimas	NOUN	Case=Ins Gender=Masc Number=Sing	2
 sutarimu	sutarimu	sutarimas	NOUN	Case=Ins Gender=Masc Number=Sing	2	obl	išrinktas	VERB	Case=Nom Definite=Ind Gender=Masc Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Pass	4
 yra	yra	irti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	3	cop	išrinktas	VERB	Case=Nom Definite=Ind Gender=Masc Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Pass	4
@@ -280,7 +280,7 @@ ir	ir	ir	PART	-	12	advmod	sveikinti	VERB	Mood=Ind Number=Plur Person=1 Polarity=
 sveikiname	sveikiname	sveikinti	VERB	Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	13	conj	Mikalauskas	PROPN	Case=Nom Gender=Masc Number=Sing	8
 .	.	.	PUNCT	-	14	punct	ponas	NOUN	Case=Nom Gender=Masc Number=Sing	5
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.4">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130736.4">
 Bet	Bet	Bet	CCONJ	-	1	cc	turėti	VERB	Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	4
 dabar	dabar	dabar	ADV	Degree=Pos	2	advmod	turėti	VERB	Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	4
 mes	mes	mesti	PRON	Case=Nom Definite=Ind Number=Plur Person=1 PronType=Prs	3	nsubj	turėti	VERB	Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	4
@@ -322,7 +322,7 @@ Mikalauską	Mikalauską	Mikalauską	PROPN	Case=Nom Gender=Masc Number=Sing	31	ns
 </name>
 .	.	.	PUNCT	-	32	punct	turėti	VERB	Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	4
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.5">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130736.5">
 Po	Po	Po	ADP	AdpType=Prep Case=Gen	1	case	pateikimas	NOUN	Case=Gen Gender=Masc Number=Sing	2
 pateikimo	pateikimo	pateikimas	NOUN	Case=Gen Gender=Masc Number=Sing	2	nmod	klausimas	NOUN	Case=Gen Gender=Masc Number=Plur	3
 klausimų	klausimų	klausimas	NOUN	Case=Gen Gender=Masc Number=Plur	3	nsubj	nebūti	VERB	Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin	4
@@ -330,13 +330,13 @@ nėra	nėra	nebūti	VERB	Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres V
 <g/>
 .	.	.	PUNCT	-	5	punct	nebūti	VERB	Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin	4
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.6">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130736.6">
 Norinčių	Norinčių	norįsis	VERB	Case=Gen Definite=Ind Gender=Masc Number=Plur Polarity=Pos Tense=Pres VerbForm=Part Voice=Act	1	advcl	nebūti	VERB	Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin	2
 nėra	nėra	nebūti	VERB	Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	3	punct	nebūti	VERB	Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin	2
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.7">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130736.7">
 Bendru	Bendru	bendras	ADJ	Case=Ins Definite=Ind Degree=Pos Gender=Masc Number=Sing	1	nmod	sutarimas	NOUN	Case=Ins Gender=Masc Number=Sing	2
 sutarimu	sutarimu	sutarimas	NOUN	Case=Ins Gender=Masc Number=Sing	2	obj	pritarti	VERB	Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	3
 pritariame	pritariame	pritarti	VERB	Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	3	root	-	-	-	-
@@ -344,8 +344,8 @@ pritariame	pritariame	pritarti	VERB	Mood=Ind Number=Plur Person=1 Polarity=Pos T
 .	.	.	PUNCT	-	4	punct	pritarti	VERB	Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	3
 </s>
 </p>
-<p id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741" lang="Lithuanian">
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.1">
+<p id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130737" lang="Lithuanian">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130737.1">
 Svarstymo	Svarstymo	svarstymas	NOUN	Case=Gen Gender=Masc Number=Sing	1	nmod	stadija	NOUN	Case=Loc Gender=Fem Number=Sing	2
 stadijoje	stadijoje	stadija	NOUN	Case=Loc Gender=Fem Number=Sing	2	obl	pritarti	VERB	Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	4
 irgi	irgi	irgi	ADV	Degree=Pos	3	advmod	pritarti	VERB	Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	4
@@ -353,7 +353,7 @@ pritariame	pritariame	pritarti	VERB	Mood=Ind Number=Plur Person=1 Polarity=Pos T
 <g/>
 .	.	.	PUNCT	-	5	punct	pritarti	VERB	Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	4
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.2">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130737.2">
 Taigi	Taigi	Taigi	PART	-	1	advmod	išsakytas	VERB	Polarity=Pos VerbForm=Inf	5
 priėmimo	priėmimo	priėmimas	NOUN	Case=Gen Gender=Masc Number=Sing	2	nmod	stadija	NOUN	Case=Loc Gender=Fem Number=Sing	3
 stadijoje	stadijoje	stadija	NOUN	Case=Loc Gender=Fem Number=Sing	3	dep	motyvas	NOUN	Case=Gen Gender=Masc Number=Plur	4
@@ -363,13 +363,13 @@ norinčių	norinčių	norįsis	VERB	Case=Gen Definite=Ind Gender=Masc Number=Plu
 nėra	nėra	nebūti	VERB	Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin	7	conj	išsakytas	VERB	Polarity=Pos VerbForm=Inf	5
 .	.	.	PUNCT	-	8	punct	išsakytas	VERB	Polarity=Pos VerbForm=Inf	5
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.3">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130737.3">
 Taigi	Taigi	Taigi	PART	-	1	advmod	balsuoti	VERB	Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	2
 balsuojame	balsuojame	balsuoti	VERB	Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	3	punct	balsuoti	VERB	Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	2
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.4">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130737.4">
 Balsuojame	Balsuojame	balsuoti	VERB	Case=Nom Definite=Ind Gender=Masc Number=Plur Polarity=Pos Reflex=Yes Tense=Pres VerbForm=Part Voice=Act	1	root	-	-	-	-
 dėl	dėl	dėl	ADP	AdpType=Prep Case=Gen	2	case	nutarimas	NOUN	Case=Gen Gender=Masc Number=Sing	3
 nutarimo	nutarimo	nutarimas	NOUN	Case=Gen Gender=Masc Number=Sing	3	obl	balsuoti	VERB	Case=Nom Definite=Ind Gender=Masc Number=Plur Polarity=Pos Reflex=Yes Tense=Pres VerbForm=Part Voice=Act	1
@@ -382,7 +382,7 @@ papildyti	papildyti	papildytas	VERB	Case=Nom Definite=Ind Gender=Masc Number=Plu
 straipsniu	straipsniu	straipsnis	NOUN	Case=Ins Gender=Masc Number=Sing	10	obl	papildytas	VERB	Case=Nom Definite=Ind Gender=Masc Number=Plur Polarity=Pos Tense=Past VerbForm=Part Voice=Pass	8
 ...	...	.	PUNCT	-	11	punct	balsuoti	VERB	Case=Nom Definite=Ind Gender=Masc Number=Plur Polarity=Pos Reflex=Yes Tense=Pres VerbForm=Part Voice=Act	1
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.5">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130737.5">
 <name type="PER">
 V	V	V	X	Abbr=Yes	1	nmod	Mikalauską	PROPN	Case=Nom Gender=Masc Number=Sing	3
 <g/>
@@ -397,20 +397,20 @@ komisijos	komisijos	komisija	NOUN	Case=Gen Gender=Fem Number=Sing	8	nmod	pirmini
 pirmininku	pirmininku	pirmininkas	NOUN	Case=Ins Gender=Masc Number=Sing	9	obl	Mikalauską	PROPN	Case=Nom Gender=Masc Number=Sing	3
 .	.	.	PUNCT	-	10	punct	Mikalauską	PROPN	Case=Nom Gender=Masc Number=Sing	3
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.6">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130737.6">
 Ir	Ir	Ir	CCONJ	-	1	cc	sportininkas	NOUN	Case=Nom Gender=Masc Number=Sing	2
 sportininkas	sportininkas	sportininkas	NOUN	Case=Nom Gender=Masc Number=Sing	2	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	3	punct	sportininkas	NOUN	Case=Nom Gender=Masc Number=Sing	2
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.7">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130737.7">
 Matote	Matote	matyti	VERB	Mood=Ind Number=Plur Person=2 Polarity=Pos Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	2	punct	kaip	SCONJ	-	3
 kaip	kaip	kaip	SCONJ	-	3	dep	matyti	VERB	Mood=Ind Number=Plur Person=2 Polarity=Pos Tense=Pres VerbForm=Fin	1
 .	.	.	PUNCT	-	4	punct	matyti	VERB	Mood=Ind Number=Plur Person=2 Polarity=Pos Tense=Pres VerbForm=Fin	1
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.8">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130737.8">
 Tikrai	Tikrai	tikras	ADV	Degree=Pos	1	advmod	išrinktas	VERB	Case=Nom Definite=Ind Gender=Masc Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Pass	4
 vienbalsiai	vienbalsiai	vienbalsiai	ADV	Degree=Pos	2	advmod	išrinktas	VERB	Case=Nom Definite=Ind Gender=Masc Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Pass	4
 buvo	buvo	būti	AUX	Aspect=Perf Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Past VerbForm=Fin	3	cop	išrinktas	VERB	Case=Nom Definite=Ind Gender=Masc Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Pass	4
@@ -420,7 +420,7 @@ gerbiamas	gerbiamas	gerbiamas	VERB	Case=Nom Definite=Ind Gender=Masc Number=Sing
 asmuo	asmuo	asmuo	NOUN	Case=Nom Gender=Masc Number=Sing	7	nsubj	išrinktas	VERB	Case=Nom Definite=Ind Gender=Masc Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Pass	4
 .	.	.	PUNCT	-	8	punct	išrinktas	VERB	Case=Nom Definite=Ind Gender=Masc Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Pass	4
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.9">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130737.9">
 Tikimasi	Tikimasi	Tikimasi	VERB	Mood=Ind Person=3 Polarity=Pos Reflex=Yes Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	-	2	punct	dirbti	VERB	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Fut VerbForm=Fin	5
@@ -433,17 +433,17 @@ tvarkingai	tvarkingai	tvarkingas	ADV	Degree=Pos	7	advmod	dirbti	VERB	Mood=Ind Nu
 </s>
 </p>
 <note type="vocal:noise">
-/Balsai salėje/	-	-	-	-	-	-	-	-	-	-
+[Balsai salėje]										
 </note>
-<p id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130742" lang="Lithuanian">
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130742.1">
+<p id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130738" lang="Lithuanian">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130738.1">
 Šio	Šio	Šio	DET	Case=Gen Definite=Ind Gender=Masc Number=Sing PronType=Dem	1	det	nutarimas	NOUN	Case=Gen Gender=Masc Number=Sing	2
 nutarimo	nutarimo	nutarimas	NOUN	Case=Gen Gender=Masc Number=Sing	2	nmod	priėmimas	NOUN	Case=Nom Gender=Masc Number=Sing	3
 priėmimas	priėmimas	priėmimas	NOUN	Case=Nom Gender=Masc Number=Sing	3	root	-	-	-	-
 </s>
 </p>
-<p id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130743" lang="Lithuanian">
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.1">
+<p id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739" lang="Lithuanian">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.1">
 Susilaikė	Susilaikė	susilaikyti	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Polarity=Pos Tense=Past VerbForm=Fin	1	root	-	-	-	-
 1	1	1	NUM	Definite=Ind NumForm=Digit	2	obl	susilaikyti	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Polarity=Pos Tense=Past VerbForm=Fin	1
 <g/>
@@ -458,7 +458,7 @@ už	už	už	ADP	AdpType=Prep Case=Acc	8	dep	susilaikyti	VERB	Aspect=Perf Mood=In
 37	37	37	NUM	Definite=Ind NumForm=Digit	10	conj	už	ADP	AdpType=Prep Case=Acc	8
 .	.	.	PUNCT	-	11	punct	susilaikyti	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Polarity=Pos Tense=Past VerbForm=Fin	1
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.2">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130739.2">
 Minėtas	Minėtas	minėtas	VERB	Case=Nom Definite=Ind Gender=Masc Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Pass	1	acl	nutarimas	NOUN	Case=Nom Gender=Masc Number=Sing	2
 nutarimas	nutarimas	nutarimas	NOUN	Case=Nom Gender=Masc Number=Sing	2	nsubj	priimtas	VERB	Case=Nom Definite=Ind Gender=Masc Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Pass	3
 priimtas	priimtas	priimtas	VERB	Case=Nom Definite=Ind Gender=Masc Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Pass	3	root	-	-	-	-
@@ -467,10 +467,10 @@ priimtas	priimtas	priimtas	VERB	Case=Nom Definite=Ind Gender=Masc Number=Sing Po
 </s>
 </p>
 <note type="kinesic:ringing">
-/Gongas/	-	-	-	-	-	-	-	-	-	-
+[Gongas]										
 </note>
-<p id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744" lang="Lithuanian">
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1">
+<p id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740" lang="Lithuanian">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.1">
 Sveikiname	Sveikiname	sveikinti	VERB	Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 gerbiamąjį	gerbiamąjį	gerbiamąjį	ADJ	Case=Acc Definite=Def Degree=Pos Gender=Masc Number=Sing	2	amod	ponas	NOUN	Case=Acc Gender=Masc Number=Sing	3
 poną	poną	ponas	NOUN	Case=Acc Gender=Masc Number=Sing	3	obj	sveikinti	VERB	Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	1
@@ -488,7 +488,7 @@ vadovavimo	vadovavimo	vadovavimas	NOUN	Case=Gen Gender=Masc Number=Sing	10	nmod	
 komisijai	komisijai	komisija	NOUN	Case=Dat Gender=Fem Number=Sing	12	obj	linkėti	VERB	Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin	8
 .	.	.	PUNCT	-	13	punct	sveikinti	VERB	Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	1
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.2">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.2">
 Tikrai	Tikrai	tikras	ADV	Degree=Pos	1	root	-	-	-	-
 labai	labai	labas	ADV	Degree=Pos	2	advmod	svarbus	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Fem Number=Sing	3
 svarbi	svarbi	svarbus	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Fem Number=Sing	3	amod	komisija	NOUN	Case=Nom Gender=Fem Number=Sing	4
@@ -502,14 +502,14 @@ sporto	sporto	sportas	NOUN	Case=Gen Gender=Masc Number=Sing	9	conj	jaunimas	NOUN
 reikalus	reikalus	reikalas	NOUN	Case=Acc Gender=Masc Number=Plur	10	obj	kuruojanti	VERB	Case=Nom Definite=Ind Gender=Fem Number=Sing Polarity=Pos Tense=Pres VerbForm=Part Voice=Act	6
 .	.	.	PUNCT	-	11	punct	tikras	ADV	Degree=Pos	1
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.3">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130740.3">
 Ačiū	Ačiū	Ačiū	X	Abbr=Yes	1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	2	punct	Ačiū	X	Abbr=Yes	1
 </s>
 </p>
-<p id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130745" lang="Lithuanian">
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130745.1">
+<p id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741" lang="Lithuanian">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130741.1">
 Kitas	Kitas	kitas	PRON	Case=Nom Definite=Ind Gender=Masc Number=Sing PronType=Ind	1	nsubj	pareiškimas	NOUN	Case=Nom Gender=Masc Number=Plur	5
 būtų	būtų	būti	AUX	Mood=Cnd Person=3 Polarity=Pos VerbForm=Fin	2	cop	pareiškimas	NOUN	Case=Nom Gender=Masc Number=Plur	5
 <name type="ORG">
@@ -523,14 +523,14 @@ pareiškimai	pareiškimai	pareiškimas	NOUN	Case=Nom Gender=Masc Number=Plur	5	r
 </p>
 </speech>
 <note type="time">
-/18.20/	-	-	-	-	-	-	-	-	-	-
+[18.20]										
 </note>
 <note type="debate">
-/Informaciniai pranešimai/	-	-	-	-	-	-	-	-	-	-
+[Informaciniai pranešimai]										
 </note>
-<speech id="ParlaMint-LT_2016-03-22-seimas-294-1.u291" speaker_role="Chairperson" speaker_id="NarkevičiusJ" speaker_name="Narkevičius, J." speaker_type="notMP" speaker_party="-" speaker_party_name="-" coalition_party="?" speaker_gender="M" speaker_birth="?">
-<p id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746" lang="Lithuanian">
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.1">
+<speech id="ParlaMint-LT_2016-03-22-seimas-294-1.u291" speaker_role="Chairperson" speaker_id="NarkevičiusJ" speaker_name="Narkevičius, J." speaker_type="notMP" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="M" speaker_birth="-">
+<p id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130742" lang="Lithuanian">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130742.1">
 Prieš	Prieš	Prieš	ADP	AdpType=Prep Case=Acc	1	case	registracija	NOUN	Case=Acc Gender=Fem Number=Sing	2
 registraciją	registraciją	registracija	NOUN	Case=Acc Gender=Fem Number=Sing	2	root	-	-	-	-
 dar	dar	dar	PART	-	3	advmod	informacija	NOUN	Case=Nom Gender=Fem Number=Sing	4
@@ -540,10 +540,10 @@ Balsų	Balsų	balsus	NOUN	Case=Gen Gender=Masc Number=Plur	6	nmod	skaičiavimas	
 skaičiavimo	skaičiavimo	skaičiavimas	NOUN	Case=Gen Gender=Masc Number=Sing	7	nmod	grupė	NOUN	Case=Gen Gender=Fem Number=Sing	8
 grupės	grupės	grupė	NOUN	Case=Gen Gender=Fem Number=Sing	8	obl	informacija	NOUN	Case=Nom Gender=Fem Number=Sing	4
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.2">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130742.2">
 .	.	.	PUNCT	-	1	root	-	-	-	-
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.3">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130742.3">
 Aš	Aš	Aš	PRON	Case=Nom Definite=Ind Number=Sing Person=1 PronType=Prs	1	nsubj	informuosiu	VERB	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Fut VerbForm=Fin	3
 trumpai	trumpai	trumpas	ADV	Degree=Pos	2	advmod	informuosiu	VERB	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Fut VerbForm=Fin	3
 informuosiu	informuosiu	informuosiu	VERB	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Fut VerbForm=Fin	3	root	-	-	-	-
@@ -557,7 +557,7 @@ skaičiavimo	skaičiavimo	skaičiavimas	NOUN	Case=Gen Gender=Masc Number=Sing	9	
 grupę	grupę	grupė	NOUN	Case=Acc Gender=Fem Number=Sing	10	obl	įeiti	VERB	Mood=Ind Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	7
 :	:	:	PUNCT	-	11	punct	informuosiu	VERB	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Fut VerbForm=Fin	3
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.4">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130742.4">
 ponia	ponia	ponia	NOUN	Case=Nom Gender=Fem Number=Sing	1	nsubj	Varkala	PROPN	Case=Nom Gender=Fem Number=Sing	36
 <name type="PER">
 V	V	V	X	Abbr=Yes	2	nmod	ponia	NOUN	Case=Nom Gender=Fem Number=Sing	1
@@ -620,7 +620,7 @@ Varkala	Varkala	Varkala	PROPN	Case=Nom Gender=Fem Number=Sing	36	root	-	-	-	-
 </name>
 .	.	.	PUNCT	-	37	punct	Varkala	PROPN	Case=Nom Gender=Fem Number=Sing	36
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130746.5">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130742.5">
 Visi	Visi	Visi	DET	Case=Nom Definite=Ind Gender=Masc Number=Plur PronType=Tot	1	det	narė	NOUN	Case=Nom Gender=Masc Number=Plur	3
 <name type="ORG">
 Seimo	Seimo	seimas	NOUN	Case=Gen Gender=Masc Number=Sing	2	nmod	narė	NOUN	Case=Nom Gender=Masc Number=Plur	3
@@ -633,8 +633,8 @@ frakcijoms	frakcijoms	frakcija	NOUN	Case=Dat Gender=Fem Number=Plur	6	obj	atstov
 .	.	.	PUNCT	-	7	punct	narė	NOUN	Case=Nom Gender=Masc Number=Plur	3
 </s>
 </p>
-<p id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747" lang="Lithuanian">
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.1">
+<p id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130743" lang="Lithuanian">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.1">
 Ačiū	Ačiū	Ačiū	VERB	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 už	už	už	ADP	AdpType=Prep Case=Acc	2	case	dėmesys	NOUN	Case=Acc Gender=Masc Number=Sing	3
 dėmesį	dėmesį	dėmesys	NOUN	Case=Acc Gender=Masc Number=Sing	3	obl	Ačiū	VERB	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	1
@@ -649,7 +649,7 @@ pusantros	pusantros	pusantro	NUM	Case=Gen Gender=Fem NumForm=Word NumType=Card N
 valandos	valandos	valanda	NOUN	Case=Gen Gender=Fem Number=Sing	11	obl	Ačiū	VERB	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	1
 ...	...	.	PUNCT	-	12	punct	Ačiū	VERB	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	1
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.2">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.2">
 Dabar	Dabar	Dabar	ADV	Degree=Pos	1	advmod	numatytas	VERB	Definite=Ind Gender=Neut Polarity=Pos Tense=Past VerbForm=Part Voice=Pass	6
 <name type="MISC">
 17.20	17.20	17.20	NUM	Definite=Ind NumForm=Digit	2	nsubj	numatytas	VERB	Definite=Ind Gender=Neut Polarity=Pos Tense=Past VerbForm=Part Voice=Pass	6
@@ -660,7 +660,7 @@ val	val	val	X	Abbr=Yes	3	nmod	17.20	NUM	Definite=Ind NumForm=Digit	2
 buvo	buvo	būti	AUX	Aspect=Perf Mood=Ind Person=3 Polarity=Pos Tense=Past VerbForm=Fin	5	cop	numatytas	VERB	Definite=Ind Gender=Neut Polarity=Pos Tense=Past VerbForm=Part Voice=Pass	6
 numatyta	numatyta	numatytas	VERB	Definite=Ind Gender=Neut Polarity=Pos Tense=Past VerbForm=Part Voice=Pass	6	root	-	-	-	-
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.3">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.3">
 18	18	18	NUM	Definite=Ind NumForm=Digit	1	nummod	Vyksta	VERB	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	3
 <g/>
 ...	...	.	PUNCT	-	2	punct	18	NUM	Definite=Ind NumForm=Digit	1
@@ -668,7 +668,7 @@ Vyksta	Vyksta	Vyksta	VERB	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres 
 registracija	registracija	registracija	NOUN	Case=Nom Gender=Fem Number=Sing	4	nsubj	Vyksta	VERB	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	3
 .	.	.	PUNCT	-	5	punct	Vyksta	VERB	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	3
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.4">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.4">
 Jau	Jau	Jau	ADV	Degree=Pos	1	advmod	vyksta	VERB	Mood=Ind Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	2
 vyksta	vyksta	vyksta	VERB	Mood=Ind Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 <g/>
@@ -677,7 +677,7 @@ būkime	būkime	būti	AUX	Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Fut V
 budrūs	budrūs	budrus	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Plur	5	conj	vyksta	VERB	Mood=Ind Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	2
 ...	...	.	PUNCT	-	6	punct	vyksta	VERB	Mood=Ind Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	2
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130747.5">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130743.5">
 Likvidavome	Likvidavome	Likvidavome	VERB	Aspect=Perf Case=Acc Definite=Ind Gender=Fem Number=Sing Polarity=Pos Reflex=Yes Tense=Past VerbForm=Part Voice=Act	1	root	-	-	-	-
 pusantros	pusantros	pusantro	NUM	Case=Gen Gender=Fem NumForm=Word NumType=Card Number=Sing	2	nummod	valanda	NOUN	Case=Gen Gender=Fem Number=Sing	3
 valandos	valandos	valanda	NOUN	Case=Gen Gender=Fem Number=Sing	3	nmod	atsilikimas	NOUN	Case=Acc Gender=Masc Number=Sing	4
@@ -685,8 +685,8 @@ atsilikimą	atsilikimą	atsilikimas	NOUN	Case=Acc Gender=Masc Number=Sing	4	obj	
 .	.	.	PUNCT	-	5	punct	Likvidavome	VERB	Aspect=Perf Case=Acc Definite=Ind Gender=Fem Number=Sing Polarity=Pos Reflex=Yes Tense=Past VerbForm=Part Voice=Act	1
 </s>
 </p>
-<p id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130748" lang="Lithuanian">
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.1">
+<p id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744" lang="Lithuanian">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.1">
 Užsiregistravo	Užsiregistravo	užsiregistruoti	PROPN	Case=Gen Gender=Fem Number=Sing	1	root	-	-	-	-
 38	38	38	NUM	Definite=Ind NumForm=Digit	2	nummod	narė	NOUN	Case=Nom Gender=Masc Number=Plur	4
 <name type="ORG">
@@ -695,19 +695,19 @@ Seimo	Seimo	seimas	NOUN	Case=Gen Gender=Masc Number=Sing	3	nmod	narė	NOUN	Case=
 nariai	nariai	narė	NOUN	Case=Nom Gender=Masc Number=Plur	4	nsubj	užsiregistruoti	PROPN	Case=Gen Gender=Fem Number=Sing	1
 .	.	.	PUNCT	-	5	punct	užsiregistruoti	PROPN	Case=Gen Gender=Fem Number=Sing	1
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.2">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.2">
 Ačiū	Ačiū	Ačiū	ADP	AdpType=Prep Case=Acc	1	root	-	-	-	-
 už	už	už	ADP	AdpType=Prep Case=Acc	2	case	bendradarbiavimas	NOUN	Case=Acc Gender=Masc Number=Sing	3
 bendradarbiavimą	bendradarbiavimą	bendradarbiavimas	NOUN	Case=Acc Gender=Masc Number=Sing	3	obl	Ačiū	ADP	AdpType=Prep Case=Acc	1
 .	.	.	PUNCT	-	4	punct	Ačiū	ADP	AdpType=Prep Case=Acc	1
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.3">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.3">
 Gero	Gero	geras	ADJ	Case=Gen Definite=Ind Degree=Pos Gender=Masc Number=Sing	1	nmod	vakarė	NOUN	Case=Gen Gender=Masc Number=Sing	2
 vakaro	vakaro	vakarė	NOUN	Case=Gen Gender=Masc Number=Sing	2	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	-	3	punct	vakarė	NOUN	Case=Gen Gender=Masc Number=Sing	2
 </s>
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130748.4">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130744.4">
 Vakarinį	Vakarinį	vakarinis	ADJ	Case=Acc Definite=Ind Degree=Pos Gender=Masc Number=Sing	1	amod	posėdis	NOUN	Case=Acc Gender=Masc Number=Sing	2
 posėdį	posėdį	posėdis	NOUN	Case=Acc Gender=Masc Number=Sing	2	obl	skelbti	VERB	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	3
 skelbiu	skelbiu	skelbti	VERB	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	3	root	-	-	-	-
@@ -716,10 +716,10 @@ baigtą	baigtą	baigtas	NOUN	Case=Acc Gender=Masc Number=Sing	4	obj	skelbti	VERB
 </s>
 </p>
 <note type="kinesic:ringing">
-/Gongas/	-	-	-	-	-	-	-	-	-	-
+[Gongas]										
 </note>
-<p id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130749" lang="Lithuanian">
-<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130749.1">
+<p id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130745" lang="Lithuanian">
+<s id="ParlaMint-LT_2016-03-22-seimas-294-1.seg130745.1">
 Viso	Viso	Viso	ADJ	Case=Gen Definite=Ind Degree=Pos Gender=Masc Number=Sing	1	root	-	-	-	-
 gero	gero	geras	X	Hyph=Yes	2	nmod	Viso	ADJ	Case=Gen Definite=Ind Degree=Pos Gender=Masc Number=Sing	1
 visiems	visiems	visiems	DET	Case=Dat Definite=Ind Gender=Masc Number=Plur PronType=Tot	3	punct	Viso	ADJ	Case=Gen Definite=Ind Degree=Pos Gender=Masc Number=Sing	1

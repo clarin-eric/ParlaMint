@@ -1,11 +1,11 @@
 <text id="ParlaMint-LT_2014-11-20-seimas-2-1.ana" subcorpus="Reference" term="7" session="5" meeting="201" sitting="-" agenda="-" from="2014-11-20" to="2014-11-20" title="Transcripts of the Meetings of the Seimas of the Republic of Lithuania, Term 7, Regular Session 5 (2014-11-20)">
 <note type="head">
-/LIETUVOS RESPUBLIKOS SEIMAS, V (RUDENS) SESIJOS, VAKARINIO POSĖDŽIO NR. 201 STENOGRAMA, 2014 m. lapkričio 20 d./	-	-	-	-	-	-	-	-	-	-
+[LIETUVOS RESPUBLIKOS SEIMAS, V (RUDENS) SESIJOS, VAKARINIO POSĖDŽIO NR. 201 STENOGRAMA, 2014 m. lapkričio 20 d.]										
 </note>
 <note type="head">
-/Pirmininkauja Lietuvos Respublikos Seimo Pirmininko pavaduotojas J. NARKEVIČIUS/	-	-	-	-	-	-	-	-	-	-
+[Pirmininkauja Lietuvos Respublikos Seimo Pirmininko pavaduotojas J. NARKEVIČIUS]										
 </note>
-<speech id="ParlaMint-LT_2014-11-20-seimas-2-1.u1" speaker_role="Chairperson" speaker_id="NarkevičiusJ" speaker_name="Narkevičius, J." speaker_type="notMP" speaker_party="-" speaker_party_name="-" coalition_party="?" speaker_gender="M" speaker_birth="?">
+<speech id="ParlaMint-LT_2014-11-20-seimas-2-1.u1" speaker_role="Chairperson" speaker_id="NarkevičiusJ" speaker_name="Narkevičius, J." speaker_type="notMP" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-LT_2014-11-20-seimas-2-1.seg444" lang="Lithuanian">
 <s id="ParlaMint-LT_2014-11-20-seimas-2-1.seg444.1">
 Dar	Dar	Dar	PART	-	1	advmod	kartas2	NOUN	Case=Acc Gender=Masc Number=Sing	2
@@ -49,12 +49,12 @@ nariai	nariai	narė	NOUN	Case=Nom Gender=Masc Number=Plur	6	nsubj	užsiregistruo
 </p>
 </speech>
 <note type="time">
-/15.02/	-	-	-	-	-	-	-	-	-	-
+[15.02]										
 </note>
 <note type="debate">
-/Seimo nutarimo "Dėl Dianos Gumbrevičiūtės-Kuzminskienės skyrimo lygių galimybių kontrolieriumi" projektas Nr. XIIP-2532 (pateikimas)/	-	-	-	-	-	-	-	-	-	-
+[Seimo nutarimo "Dėl Dianos Gumbrevičiūtės-Kuzminskienės skyrimo lygių galimybių kontrolieriumi" projektas Nr. XIIP-2532 (pateikimas)]										
 </note>
-<speech id="ParlaMint-LT_2014-11-20-seimas-2-1.u2" speaker_role="Chairperson" speaker_id="NarkevičiusJ" speaker_name="Narkevičius, J." speaker_type="notMP" speaker_party="-" speaker_party_name="-" coalition_party="?" speaker_gender="M" speaker_birth="?">
+<speech id="ParlaMint-LT_2014-11-20-seimas-2-1.u2" speaker_role="Chairperson" speaker_id="NarkevičiusJ" speaker_name="Narkevičius, J." speaker_type="notMP" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-LT_2014-11-20-seimas-2-1.seg446" lang="Lithuanian">
 <s id="ParlaMint-LT_2014-11-20-seimas-2-1.seg446.1">
 Pirmas	Pirmas	pirmas	NUM	Case=Nom Definite=Ind Gender=Masc NumForm=Word NumType=Ord Number=Sing	1	amod	klausimas	NOUN	Case=Nom Gender=Masc Number=Sing	4
@@ -125,9 +125,9 @@ Graužiniene	Graužiniene	Graužiniene	PROPN	Case=Ins Gender=Fem Number=Sing	6	n
 </p>
 </speech>
 <note type="gap::editorial">
-/SAMPLING/	-	-	-	-	-	-	-	-	-	-
+[SAMPLING]										
 </note>
-<speech id="ParlaMint-LT_2014-11-20-seimas-2-1.u212" speaker_role="Regular" speaker_id="ZasčiurinskasMečislovas" speaker_name="Zasčiurinskas, Mečislovas" speaker_type="MP" speaker_party="DPF" speaker_party_name="Darbo partijos frakcija" coalition_party="?" speaker_gender="M" speaker_birth="?">
+<speech id="ParlaMint-LT_2014-11-20-seimas-2-1.u212" speaker_role="Regular" speaker_id="ZasčiurinskasMečislovas" speaker_name="Zasčiurinskas, Mečislovas" speaker_type="MP" speaker_party="DPF" speaker_party_name="Darbo partijos frakcija" party_status="coalition" speaker_gender="M" speaker_birth="1946">
 <p id="ParlaMint-LT_2014-11-20-seimas-2-1.seg757" lang="Lithuanian">
 <s id="ParlaMint-LT_2014-11-20-seimas-2-1.seg757.1">
 Gerbiamieji	Gerbiamieji	gerbiamas	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Plur	1	amod	kolega	NOUN	Case=Nom Gender=Masc Number=Plur	2
@@ -159,7 +159,7 @@ nėra	nėra	nebūti	VERB	Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres V
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-LT_2014-11-20-seimas-2-1.u213" speaker_role="Chairperson" speaker_id="NarkevičiusJ" speaker_name="Narkevičius, J." speaker_type="notMP" speaker_party="-" speaker_party_name="-" coalition_party="?" speaker_gender="M" speaker_birth="?">
+<speech id="ParlaMint-LT_2014-11-20-seimas-2-1.u213" speaker_role="Chairperson" speaker_id="NarkevičiusJ" speaker_name="Narkevičius, J." speaker_type="notMP" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-LT_2014-11-20-seimas-2-1.seg758" lang="Lithuanian">
 <s id="ParlaMint-LT_2014-11-20-seimas-2-1.seg758.1">
 Gerai	Gerai	geras	ADV	Degree=Pos	1	root	-	-	-	-
@@ -235,7 +235,7 @@ datos	datos	data	NOUN	Case=Gen Gender=Fem Number=Sing	26	obl	balsuoti	VERB	Mood=
 </s>
 </p>
 <note type="vocal:noise">
-/Balsai salėje/	-	-	-	-	-	-	-	-	-	-
+[Balsai salėje]										
 </note>
 <p id="ParlaMint-LT_2014-11-20-seimas-2-1.seg760" lang="Lithuanian">
 <s id="ParlaMint-LT_2014-11-20-seimas-2-1.seg760.1">
@@ -286,7 +286,7 @@ d	d	d	X	Abbr=Yes	19	obl	numatytas	VERB	Case=Acc Definite=Ind Gender=Fem Number=P
 </s>
 </p>
 <note type="vocal:noise">
-/Balsai salėje/	-	-	-	-	-	-	-	-	-	-
+[Balsai salėje]										
 </note>
 <p id="ParlaMint-LT_2014-11-20-seimas-2-1.seg761" lang="Lithuanian">
 <s id="ParlaMint-LT_2014-11-20-seimas-2-1.seg761.1">
@@ -320,7 +320,7 @@ opozicijos	opozicijos	opozicija	NOUN	Case=Gen Gender=Fem Number=Sing	2	obj	gerbi
 </s>
 </p>
 <note type="vocal:noise">
-/Balsai salėje/	-	-	-	-	-	-	-	-	-	-
+[Balsai salėje]										
 </note>
 <p id="ParlaMint-LT_2014-11-20-seimas-2-1.seg762" lang="Lithuanian">
 <s id="ParlaMint-LT_2014-11-20-seimas-2-1.seg762.1">
@@ -403,7 +403,7 @@ baigtas	baigtas	baigtas	VERB	Case=Nom Definite=Ind Gender=Masc Number=Sing Polar
 </s>
 </p>
 <note type="kinesic:ringing">
-/Gongas/	-	-	-	-	-	-	-	-	-	-
+[Gongas]										
 </note>
 </speech>
 </text>

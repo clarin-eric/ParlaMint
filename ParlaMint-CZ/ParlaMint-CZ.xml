@@ -11,11 +11,16 @@
             <meeting ana="#parla.term #parla.lower #parliament.PSP8" n="ps2017">ps2017</meeting>
             <respStmt>
                <persName ref="https://orcid.org/0000-0001-7953-8783">Matyáš Kopp</persName>
+               <resp xml:lang="en">Data retrieval</resp>
                <resp xml:lang="en">TEI XML corpus encoding</resp>
             </respStmt>
             <funder>
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <orgName xml:lang="cs">Výzkumná infrastruktura CLARIN</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="cs">LINDAT/CLARIAH-CZ: Digitální výzkumná infrastruktura pro jazykové technologie, umění a humanitní vědy</orgName>
+               <orgName xml:lang="en">LINDAT/CLARIAH-CZ: Digital Research Infrastructure for Language Technologies, Arts and Humanities</orgName>
             </funder>
          </titleStmt>
          <editionStmt>
@@ -39,7 +44,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="cs">Toto dílo je licencováno <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Uveďte původ 4.0 Mezinárodní Veřejná licence</ref>.</p>
             </availability>
-            <date when="2021-04-19">2021-04-19</date>
+            <date when="2021-05-11">2021-05-11</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -8172,6 +8177,33 @@
                      <label xml:lang="en">existence</label>
                   </event>
                </org>
+               <listRelation>
+                  <relation name="coalition"
+                            mutual="#politicalGroup.ANO.1108 #politicalGroup.CSSD.1107 #politicalGroup.KDU-CSL.1110"
+                            from="2014-01-29"
+                            to="2017-10-26"
+                            ana="#parliament.PSP7"/>
+                  <relation name="opposition"
+                            active="#politicalGroup.KSCM.1109 #politicalGroup.ODS.1106 #politicalGroup.TOP09-S.1112 #politicalGroup.Usvit.1111"
+                            passive="#government"
+                            from="2014-01-29"
+                            to="2017-10-26"
+                            ana="#parliament.PSP7"/>
+                  <relation name="coalition"
+                            mutual="#politicalGroup.ANO.1292 #politicalGroup.CSSD.1294"
+                            from="2017-12-13"
+                            to="2018-06-26T23:59:59"
+                            ana="#parliament.PSP8"/>
+                  <relation name="opposition"
+                            active="#politicalGroup.KDU-CSL.1297 #politicalGroup.ODS.1295 #politicalGroup.Pirati.1300 #politicalGroup.SPD.1298 #politicalGroup.STAN.1296 #politicalGroup.TOP09.1299"
+                            passive="#government"
+                            from="2017-12-13"
+                            ana="#parliament.PSP8"/>
+                  <relation name="coalition"
+                            mutual="#politicalGroup.ANO.1292 #politicalGroup.CSSD.1294"
+                            from="2018-06-27T09:00:00"
+                            ana="#parliament.PSP8"/>
+               </listRelation>
             </listOrg>
             <listPerson>
                <person xml:id="AdamKalous.1979">

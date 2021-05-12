@@ -1,11 +1,11 @@
 <text id="ParlaMint-DK_2014-10-08-20141-M2.ana" subcorpus="Reference" term="-" session="20141" meeting="-" sitting="2" agenda="-" from="2014-10-08" to="2014-10-08" title="Hansard of the session of the Danish Parliament (Folketinget), 20141, M2 (2014-10-08), final version">
 <note type="head">
-/Punkt 0/	-	-	-	-	-	-	-	-	-	-
+[Punkt 0]										
 </note>
 <note type="agendaItem">
-/2014-10-08-0/	-	-	-	-	-	-	-	-	-	-
+[2014-10-08-0]										
 </note>
-<speech id="ParlaMint-DK_20141008130000" speaker_role="Chairperson" speaker_id="LykketoftMogens" speaker_name="Lykketoft, Mogens" speaker_type="MP" speaker_party="S" speaker_party_name="Socialdemokratiet" coalition_party="yes" speaker_gender="M" speaker_birth="1946">
+<speech id="ParlaMint-DK_20141008130000" speaker_role="Chairperson" speaker_id="LykketoftMogens" speaker_name="Lykketoft, Mogens" speaker_type="MP" speaker_party="S" speaker_party_name="Socialdemokratiet" party_status="coalition" speaker_gender="M" speaker_birth="1946">
 <p id="ParlaMint-DK_20141008130000.seg1" lang="Danish">
 <s id="ParlaMint-DK_20141008130000.seg1.1">
 Mødet	Mødet	møde	NOUN	Definite=Def Gender=Neut Number=Sing	1	nsubj	åbne	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
@@ -1415,15 +1415,15 @@ www.folketingstidende.dk.	www.folketingstidende.dk.	www.folketingstidende.dk.	NO
 </p>
 </speech>
 <note type="gap::editorial">
-/SAMPLING/	-	-	-	-	-	-	-	-	-	-
+[SAMPLING]										
 </note>
 <note type="head">
-/Valg af stående udvalg m.v./	-	-	-	-	-	-	-	-	-	-
+[Valg af stående udvalg m.v.]										
 </note>
 <note type="agendaItem">
-/2014-10-08-1/	-	-	-	-	-	-	-	-	-	-
+[2014-10-08-1]										
 </note>
-<speech id="ParlaMint-DK_20141008130437" speaker_role="Chairperson" speaker_id="LykketoftMogens" speaker_name="Lykketoft, Mogens" speaker_type="MP" speaker_party="S" speaker_party_name="Socialdemokratiet" coalition_party="yes" speaker_gender="M" speaker_birth="1946">
+<speech id="ParlaMint-DK_20141008130437" speaker_role="Chairperson" speaker_id="LykketoftMogens" speaker_name="Lykketoft, Mogens" speaker_type="MP" speaker_party="S" speaker_party_name="Socialdemokratiet" party_status="coalition" speaker_gender="M" speaker_birth="1946">
 <p id="ParlaMint-DK_20141008130437.seg2" lang="Danish">
 <s id="ParlaMint-DK_20141008130437.seg2.1">
 Til	Til	til	ADP	AdpType=Prep	1	case	valg	NOUN	Definite=Ind Gender=Neut Number=Sing	3
@@ -14370,6 +14370,6 @@ V	V	V	PROPN	-	6569	flat	S	PROPN	-	6562
 </p>
 </speech>
 <note type="gap::editorial">
-/SAMPLING/	-	-	-	-	-	-	-	-	-	-
+[SAMPLING]										
 </note>
 </text>

@@ -1,8 +1,8 @@
 <text id="ParlaMint-LV_PT13-2021-02-04-2190.ana" subcorpus="COVID" term="13" session="-" meeting="-" sitting="-" agenda="-" from="2021-02-04" to="2021-02-04" title="Latvijas parlamenta corpus ParlaMint-LV, 13. Saeima, 2021-02-04 [ParlaMint.ana SAMPLE]">
 <note type="speaker">
-/Sēdes vadītāja./	-	-	-	-	-	-	-	-	-	-
+[Sēdes vadītāja.]										
 </note>
-<speech id="ParlaMint-LV_PT13-2021-02-04-2190-U1" speaker_role="Chairperson" speaker_id="MūrnieceInāra" speaker_name="Mūrniece, Ināra" speaker_type="notMP" speaker_party="-" speaker_party_name="-" coalition_party="?" speaker_gender="F" speaker_birth="?">
+<speech id="ParlaMint-LV_PT13-2021-02-04-2190-U1" speaker_role="Chairperson" speaker_id="MūrnieceInāra" speaker_name="Mūrniece, Ināra" speaker_type="notMP" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="F" speaker_birth="-">
 <p id="ParlaMint-LV_PT13-2021-02-04-2190-U1-P1" lang="Latvian">
 <s id="ParlaMint-LV_PT13-2021-02-04-2190-U1-P1.1">
 Godātie	Godātie	godāts	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Plur	1	amod	kolēģis	NOUN	Case=Voc Gender=Masc Number=Plur	2
@@ -188,9 +188,9 @@ Lūdzu	Lūdzu	lūdzu	INTJ	-	1	root	-	-	-	-
 </p>
 </speech>
 <note type="speaker">
-/K. Feldmans (JK)./	-	-	-	-	-	-	-	-	-	-
+[K. Feldmans (JK).]										
 </note>
-<speech id="ParlaMint-LV_PT13-2021-02-04-2190-U2" speaker_role="Deputy" speaker_id="FeldmansKrišjānis" speaker_name="Feldmans, Krišjānis" speaker_type="MP" speaker_party="JK" speaker_party_name="Jaunā konservatīvā" coalition_party="?" speaker_gender="M" speaker_birth="?">
+<speech id="ParlaMint-LV_PT13-2021-02-04-2190-U2" speaker_role="Regular" speaker_id="FeldmansKrišjānis" speaker_name="Feldmans, Krišjānis" speaker_type="MP" speaker_party="JK" speaker_party_name="Jaunā konservatīvā" party_status="-" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-LV_PT13-2021-02-04-2190-U2-P1" lang="Latvian">
 <s id="ParlaMint-LV_PT13-2021-02-04-2190-U2-P1.1">
 Labdien	Labdien	labdien	INTJ	-	1	root	-	-	-	-
@@ -1018,9 +1018,9 @@ pret	pret	pret	ADP	-	4	case	”	PUNCT	-	5
 </p>
 </speech>
 <note type="gap::editorial">
-/SAMPLING/	-	-	-	-	-	-	-	-	-	-
+[SAMPLING]										
 </note>
-<speech id="ParlaMint-LV_PT13-2021-02-04-2190-U252" speaker_role="Deputy" speaker_id="ZariņšIvars" speaker_name="Zariņš, Ivars" speaker_type="MP" speaker_party="SASKAŅA" speaker_party_name="SASKAŅA" coalition_party="?" speaker_gender="M" speaker_birth="?">
+<speech id="ParlaMint-LV_PT13-2021-02-04-2190-U252" speaker_role="Regular" speaker_id="ZariņšIvars" speaker_name="Zariņš, Ivars" speaker_type="MP" speaker_party="SASKAŅA" speaker_party_name="SASKAŅA" party_status="-" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-LV_PT13-2021-02-04-2190-U252-P1" lang="Latvian">
 <s id="ParlaMint-LV_PT13-2021-02-04-2190-U252-P1.1">
 Kolēģi	Kolēģi	kolēģis	NOUN	Case=Voc Gender=Masc Number=Plur	1	root	-	-	-	-
@@ -1229,9 +1229,9 @@ Paldies	Paldies	paldies	INTJ	-	1	root	-	-	-	-
 </p>
 </speech>
 <note type="speaker">
-/Sēdes vadītāja./	-	-	-	-	-	-	-	-	-	-
+[Sēdes vadītāja.]										
 </note>
-<speech id="ParlaMint-LV_PT13-2021-02-04-2190-U253" speaker_role="Chairperson" speaker_id="MūrnieceInāra" speaker_name="Mūrniece, Ināra" speaker_type="notMP" speaker_party="-" speaker_party_name="-" coalition_party="?" speaker_gender="F" speaker_birth="?">
+<speech id="ParlaMint-LV_PT13-2021-02-04-2190-U253" speaker_role="Chairperson" speaker_id="MūrnieceInāra" speaker_name="Mūrniece, Ināra" speaker_type="notMP" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="F" speaker_birth="-">
 <p id="ParlaMint-LV_PT13-2021-02-04-2190-U253-P1" lang="Latvian">
 <s id="ParlaMint-LV_PT13-2021-02-04-2190-U253-P1.1">
 Paldies	Paldies	paldies	INTJ	-	1	root	-	-	-	-

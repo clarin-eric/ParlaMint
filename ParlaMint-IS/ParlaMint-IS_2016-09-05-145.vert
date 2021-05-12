@@ -1,5 +1,5 @@
 <text id="ParlaMint-IS_2016-09-05-145.ana" subcorpus="Reference" term="21" session="145" meeting="145" sitting="-" agenda="-" from="2016-09-05" to="2016-09-05" title="Speeches in the national parliament of Iceland, 21. term, regular meeting 145-145, 05.09.2016.">
-<speech id="ParlaMint-IS_2016-09-05-145.u1" speaker_role="Chairperson" speaker_id="EinarGudfinnsson1955" speaker_name="Guðfinnsson, Einar K." speaker_type="MP" speaker_party="S" speaker_party_name="Sjálfstæðisflokkur" coalition_party="yes" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-IS_2016-09-05-145.u1" speaker_role="Chairperson" speaker_id="EinarGudfinnsson1955" speaker_name="Guðfinnsson, Einar K." speaker_type="MP" speaker_party="S" speaker_party_name="Sjálfstæðisflokkur" party_status="coalition" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-IS_2016-09-05-145.seg1" lang="">
 <s id="ParlaMint-IS_2016-09-05-145.seg1.1">
 Á	Á	á	ADP	-	1	case	þingfundur	NOUN	Case=Dat Definite=Ind Gender=Masc Number=Sing	2
@@ -55,7 +55,7 @@ leiðrétt	leiðrétt	leiðrétta	NOUN	Case=Nom Definite=Ind Gender=Fem Number=S
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-IS_2016-09-05-145.u2" speaker_role="Chairperson" speaker_id="EinarGudfinnsson1955" speaker_name="Guðfinnsson, Einar K." speaker_type="MP" speaker_party="S" speaker_party_name="Sjálfstæðisflokkur" coalition_party="yes" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-IS_2016-09-05-145.u2" speaker_role="Chairperson" speaker_id="EinarGudfinnsson1955" speaker_name="Guðfinnsson, Einar K." speaker_type="MP" speaker_party="S" speaker_party_name="Sjálfstæðisflokkur" party_status="coalition" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-IS_2016-09-05-145.seg2" lang="">
 <s id="ParlaMint-IS_2016-09-05-145.seg2.1">
 Til	Til	til	ADP	-	1	case	svar	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
@@ -97,9 +97,9 @@ húsnæðismálaráðherra	húsnæðismálaráðherra	húsnæðismálaráðherra
 </p>
 </speech>
 <note type="gap::editorial">
-/SAMPLING/	-	-	-	-	-	-	-	-	-	-
+[SAMPLING]										
 </note>
-<speech id="ParlaMint-IS_2016-09-05-145.u55" speaker_role="Regular" speaker_id="HelgiGunnarsson" speaker_name="Gunnarsson, Helgi Hrafn" speaker_type="MP" speaker_party="P" speaker_party_name="Píratar" coalition_party="no" speaker_gender="M" speaker_birth="1980">
+<speech id="ParlaMint-IS_2016-09-05-145.u55" speaker_role="Regular" speaker_id="HelgiGunnarsson" speaker_name="Gunnarsson, Helgi Hrafn" speaker_type="MP" speaker_party="P" speaker_party_name="Píratar" party_status="opposition" speaker_gender="M" speaker_birth="1980">
 <p id="ParlaMint-IS_2016-09-05-145.seg149" lang="">
 <s id="ParlaMint-IS_2016-09-05-145.seg149.1">
 Virðulegi	Virðulegi	virðulegur	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing	1	amod	forseti	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	2
@@ -479,7 +479,7 @@ næsta	næsta	næstur	ADJ	Case=Dat Definite=Def Degree=Sup Gender=Neut Number=Si
 um	um	um	ADP	-	15	case	það	PRON	Case=Acc Gender=Neut Number=Sing PronType=Prs	16
 það	það	það	PRON	Case=Acc Gender=Neut Number=Sing PronType=Prs	16	obl	næstur	ADJ	Case=Dat Definite=Def Degree=Sup Gender=Neut Number=Sing	14
 <note type="kinesic:ringing">
-/Forseti hringir./	-	-	-	-	-	-	-	-	-	-
+[Forseti hringir.]										
 </note>
 og	og	og	CCONJ	-	17	cc	þá	ADV	-	18
 þá	þá	þá	ADV	-	18	advmod	ef	ADP	-	21
@@ -493,7 +493,7 @@ er	er	vera	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-IS_2016-09-05-145.u56" speaker_role="Regular" speaker_id="OlofNordal" speaker_name="Nordal, Ólöf" speaker_type="notMP" speaker_party="-" speaker_party_name="-" coalition_party="no" speaker_gender="F" speaker_birth="1966">
+<speech id="ParlaMint-IS_2016-09-05-145.u56" speaker_role="Regular" speaker_id="OlofNordal" speaker_name="Nordal, Ólöf" speaker_type="notMP" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="F" speaker_birth="1966">
 <p id="ParlaMint-IS_2016-09-05-145.seg152" lang="">
 <s id="ParlaMint-IS_2016-09-05-145.seg152.1">
 Hæstv.	Hæstv.	Hæstv.	ADJ	-	1	amod	forseti	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	2

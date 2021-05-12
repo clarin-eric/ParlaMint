@@ -1,11 +1,11 @@
 <text id="ParlaMint-TR_2014-07-19-tbmm-T24.ana" subcorpus="Reference" term="24" session="120" meeting="-" sitting="-" agenda="-" from="2014-08-25" to="2014-08-25" title="The Turkish parliamentary corpus ParlaMint-TR, Term 24, Session 120 [ParlaMint.ana SAMPLE]">
 <note type="time">
-/14.00/	-	-	-	-	-	-	-	-	-	-
+[14.00]										
 </note>
 <note type="chair">
-/Sadık Yakut/	-	-	-	-	-	-	-	-	-	-
+[Sadık Yakut]										
 </note>
-<speech id="tbmm-2014-07-19s01p001" speaker_role="Regular" speaker_id="Sadık.Yakut" speaker_name="Yakut, Sadık" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" coalition_party="?" speaker_gender="M" speaker_birth="?">
+<speech id="tbmm-2014-07-19s01p001" speaker_role="Regular" speaker_id="Sadık.Yakut" speaker_name="Yakut, Sadık" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="coalition" speaker_gender="M" speaker_birth="-">
 <p id="tbmm-2014-07-19s01p001.seg0" lang="Turkish">
 <s id="tbmm-2014-07-19s01p001-000010">
 <name type="ORG">
@@ -22,7 +22,7 @@ açıyorum	açıyorum	aç	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Perso
 </s>
 </p>
 </speech>
-<speech id="tbmm-2014-07-19s01p002" speaker_role="Regular" speaker_id="Sadık.Yakut" speaker_name="Yakut, Sadık" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" coalition_party="?" speaker_gender="M" speaker_birth="?">
+<speech id="tbmm-2014-07-19s01p002" speaker_role="Regular" speaker_id="Sadık.Yakut" speaker_name="Yakut, Sadık" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="coalition" speaker_gender="M" speaker_birth="-">
 <p id="tbmm-2014-07-19s01p002.seg0" lang="Turkish">
 <s id="tbmm-2014-07-19s01p002-000010">
 Toplantı	Toplantı	toplantı	NOUN	Case=Nom Number=Sing	t1	obj	yet	VERB	Aspect=Hab Evident=Fh Mood=Gen Number=Sing Person=3 Tense=Pres	t2
@@ -41,9 +41,9 @@ geçiyoruz	geçiyoruz	geç	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Plur Pers
 </p>
 </speech>
 <note type="gap::editorial">
-/SAMPLING/	-	-	-	-	-	-	-	-	-	-
+[SAMPLING]										
 </note>
-<speech id="tbmm-2014-07-19s11p047" speaker_role="Regular" speaker_id="Sadık.Yakut" speaker_name="Yakut, Sadık" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" coalition_party="?" speaker_gender="M" speaker_birth="?">
+<speech id="tbmm-2014-07-19s11p047" speaker_role="Regular" speaker_id="Sadık.Yakut" speaker_name="Yakut, Sadık" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="coalition" speaker_gender="M" speaker_birth="-">
 <p id="tbmm-2014-07-19s11p047.seg0" lang="Turkish">
 <s id="tbmm-2014-07-19s11p047-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	obj	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
@@ -77,7 +77,7 @@ edilmemiştir	edilmemiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing
 </s>
 </p>
 </speech>
-<speech id="tbmm-2014-07-19s11p048" speaker_role="Regular" speaker_id="Sadık.Yakut" speaker_name="Yakut, Sadık" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" coalition_party="?" speaker_gender="M" speaker_birth="?">
+<speech id="tbmm-2014-07-19s11p048" speaker_role="Regular" speaker_id="Sadık.Yakut" speaker_name="Yakut, Sadık" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="coalition" speaker_gender="M" speaker_birth="-">
 <p id="tbmm-2014-07-19s11p048.seg0" lang="Turkish">
 <s id="tbmm-2014-07-19s11p048-000010">
 Birleşime	Birleşime	birleşim	NOUN	Case=Dat Number=Sing	t1	obj	ver	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres	t5

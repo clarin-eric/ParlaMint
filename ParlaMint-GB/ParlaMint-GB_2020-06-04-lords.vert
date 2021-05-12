@@ -1,14 +1,14 @@
 <text id="ParlaMint-GB_2020-06-04-lords.ana" subcorpus="COVID" term="58" session="-" meeting="-" sitting="-" agenda="-" from="2020-06-04" to="2020-06-04" title="Minutes of the House of Lords, Daily Session 2020-06-04">
 <note type="head">
-/Arrangement of Business/	-	-	-	-	-	-	-	-	-	-
+[Arrangement of Business]										
 </note>
 <note type="-">
-/Announcement/	-	-	-	-	-	-	-	-	-	-
+[Announcement]										
 </note>
 <note type="-">
-/The announcement was made in a Virtual Proceeding via video call./	-	-	-	-	-	-	-	-	-	-
+[The announcement was made in a Virtual Proceeding via video call.]										
 </note>
-<speech id="ParlaMint-GB_2020-06-04-lords.u1" speaker_role="Regular" speaker_id="PeterFowler" speaker_name="Fowler, Peter" speaker_type="notMP" speaker_party="I;LS" speaker_party_name="Independent;Lord Speaker" coalition_party="?" speaker_gender="M" speaker_birth="?">
+<speech id="ParlaMint-GB_2020-06-04-lords.u1" speaker_role="Regular" speaker_id="PeterFowler" speaker_name="Fowler, Peter" speaker_type="MP" speaker_party="I;LS" speaker_party_name="Independent;Lord Speaker" party_status="-" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GB_2020-06-04-lords.seg1" lang="English">
 <s id="ParlaMint-GB_2020-06-04-lords.seg1.1">
 Good	Good	good	ADJ	Degree=Pos	1	amod	morning	NOUN	Number=Sing	2
@@ -274,21 +274,21 @@ can	can	can	VERB	VerbForm=Fin	33	advcl	get	VERB	VerbForm=Inf	20
 </p>
 </speech>
 <note type="-">
-/End of debateSection./	-	-	-	-	-	-	-	-	-	-
+[End of debateSection.]										
 </note>
 <note type="gap::editorial">
-/SAMPLING/	-	-	-	-	-	-	-	-	-	-
+[SAMPLING]										
 </note>
 <note type="head">
-/Covid-19: Educational Gaps/	-	-	-	-	-	-	-	-	-	-
+[Covid-19: Educational Gaps]										
 </note>
 <note type="-">
-/Question/	-	-	-	-	-	-	-	-	-	-
+[Question]										
 </note>
 <note type="-">
-/Asked by/	-	-	-	-	-	-	-	-	-	-
+[Asked by]										
 </note>
-<speech id="ParlaMint-GB_2020-06-04-lords.u2" speaker_role="Regular" speaker_id="JackMcConnell" speaker_name="McConnell, Jack Wilson" speaker_type="notMP" speaker_party="LAB" speaker_party_name="Labour" coalition_party="?" speaker_gender="M" speaker_birth="?">
+<speech id="ParlaMint-GB_2020-06-04-lords.u2" speaker_role="Regular" speaker_id="JackMcConnell" speaker_name="McConnell, Jack Wilson" speaker_type="MP" speaker_party="LAB" speaker_party_name="Labour" party_status="-" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GB_2020-06-04-lords.seg3" lang="English">
 <s id="ParlaMint-GB_2020-06-04-lords.seg3.1">
 To	To	to	PART	-	1	mark	ask	VERB	VerbForm=Inf	2
@@ -330,9 +330,9 @@ pandemic	pandemic	pandemic	NOUN	Number=Sing	28	obl	close	VERB	VerbForm=Inf	13
 </p>
 </speech>
 <note type="gap::editorial">
-/SAMPLING/	-	-	-	-	-	-	-	-	-	-
+[SAMPLING]										
 </note>
-<speech id="ParlaMint-GB_2020-06-04-lords.u295" speaker_role="Regular" speaker_id="SusanWilliams" speaker_name="Williams, Susan" speaker_type="notMP" speaker_party="CON" speaker_party_name="Conservative" coalition_party="?" speaker_gender="F" speaker_birth="?">
+<speech id="ParlaMint-GB_2020-06-04-lords.u295" speaker_role="Regular" speaker_id="SusanWilliams" speaker_name="Williams, Susan" speaker_type="MP" speaker_party="CON" speaker_party_name="Conservative" party_status="-" speaker_gender="F" speaker_birth="-">
 <p id="ParlaMint-GB_2020-06-04-lords.seg594" lang="English">
 <s id="ParlaMint-GB_2020-06-04-lords.seg594.1">
 My	My	my	DET	Number=Sing Person=1 Poss=Yes PronType=Prs	1	nmod:poss	Lords	PROPN	Number=Sing	2
@@ -406,7 +406,7 @@ offline	offline	offline	ADV	-	6	advmod	take	VERB	VerbForm=Inf	4
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-GB_2020-06-04-lords.u296" speaker_role="Regular" speaker_id="IainMcNicol" speaker_name="McNicol, Iain" speaker_type="notMP" speaker_party="LAB" speaker_party_name="Labour" coalition_party="?" speaker_gender="M" speaker_birth="?">
+<speech id="ParlaMint-GB_2020-06-04-lords.u296" speaker_role="Regular" speaker_id="IainMcNicol" speaker_name="McNicol, Iain" speaker_type="MP" speaker_party="LAB" speaker_party_name="Labour" party_status="-" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GB_2020-06-04-lords.seg595" lang="English">
 <s id="ParlaMint-GB_2020-06-04-lords.seg595.1">
 My	My	my	DET	Number=Sing Person=1 Poss=Yes PronType=Prs	1	nmod:poss	Lords	PROPN	Number=Sing	2
@@ -465,6 +465,6 @@ complete	complete	complete	ADJ	Degree=Pos	8	root	-	-	-	-
 </p>
 </speech>
 <note type="-">
-/End of debateSection./	-	-	-	-	-	-	-	-	-	-
+[End of debateSection.]										
 </note>
 </text>

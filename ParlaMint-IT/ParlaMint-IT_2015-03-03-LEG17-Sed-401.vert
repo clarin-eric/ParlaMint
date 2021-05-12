@@ -1,11 +1,11 @@
 <text id="ParlaMint-IT_2015-03-03-LEG17-Sed-401.ana" subcorpus="Reference" term="17-upper" session="-" meeting="-" sitting="401-upper" agenda="-" from="2015-03-03" to="2015-03-03" title="Report of the session of the Senate of the Italian Republic, Term 17, Sitting 401, Day (2015-03-03)">
 <note type="president">
-/Presidenza del vice presidente GASPARRI/	-	-	-	-	-	-	-	-	-	-
+[Presidenza del vice presidente GASPARRI]										
 </note>
 <note type="role">
-/PRESIDENTE/	-	-	-	-	-	-	-	-	-	-
+[PRESIDENTE]										
 </note>
-<speech id="ParlaMint-IT_2015-03-03-LEG17-Sed-401.u1" speaker_role="Chairperson" speaker_id="GasparriMaurizio" speaker_name="Gasparri, Maurizio" speaker_type="MP" speaker_party="FI-PdL XVII" speaker_party_name="Forza Italia-Il Popolo della Libertà XVII Legislatura" coalition_party="no" speaker_gender="M" speaker_birth="1956">
+<speech id="ParlaMint-IT_2015-03-03-LEG17-Sed-401.u1" speaker_role="Chairperson" speaker_id="GasparriMaurizio" speaker_name="Gasparri, Maurizio" speaker_type="MP" speaker_party="FI-PdL XVII" speaker_party_name="Forza Italia-Il Popolo della Libertà XVII Legislatura" party_status="opposition" speaker_gender="M" speaker_birth="1956">
 <p id="ParlaMint-IT_2015-03-03-LEG17-Sed-401.seg1" lang="Italian">
 <s id="ParlaMint-IT_2015-03-03-LEG17-Sed-401.seg1.1">
 La	La	il	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	1	det	seduta	NOUN	Gender=Fem Number=Sing	2
@@ -76,15 +76,15 @@ approvato	approvato	approvare	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=P
 </p>
 </speech>
 <note type="gap::editorial">
-/SAMPLING/	-	-	-	-	-	-	-	-	-	-
+[SAMPLING]										
 </note>
 <note type="head">
-/Comunicazioni della Presidenza/	-	-	-	-	-	-	-	-	-	-
+[Comunicazioni della Presidenza]										
 </note>
 <note type="role">
-/PRESIDENTE/	-	-	-	-	-	-	-	-	-	-
+[PRESIDENTE]										
 </note>
-<speech id="ParlaMint-IT_2015-03-03-LEG17-Sed-401.u2" speaker_role="Chairperson" speaker_id="GasparriMaurizio" speaker_name="Gasparri, Maurizio" speaker_type="MP" speaker_party="FI-PdL XVII" speaker_party_name="Forza Italia-Il Popolo della Libertà XVII Legislatura" coalition_party="no" speaker_gender="M" speaker_birth="1956">
+<speech id="ParlaMint-IT_2015-03-03-LEG17-Sed-401.u2" speaker_role="Chairperson" speaker_id="GasparriMaurizio" speaker_name="Gasparri, Maurizio" speaker_type="MP" speaker_party="FI-PdL XVII" speaker_party_name="Forza Italia-Il Popolo della Libertà XVII Legislatura" party_status="opposition" speaker_gender="M" speaker_birth="1956">
 <p id="ParlaMint-IT_2015-03-03-LEG17-Sed-401.seg2" lang="Italian">
 <s id="ParlaMint-IT_2015-03-03-LEG17-Sed-401.seg2.1">
 L'	A|IL	a|il	ADP|DET	-|Definite=Def Gender=Masc Number=Sing PronType=Art	1|2	case|det	elenco	NOUN	Gender=Masc Number=Sing	3
@@ -132,9 +132,9 @@ odierna	odierna	odierno	ADJ	Gender=Fem Number=Sing	36	amod	seduta	NOUN	Gender=Fe
 </p>
 </speech>
 <note type="gap::editorial">
-/SAMPLING/	-	-	-	-	-	-	-	-	-	-
+[SAMPLING]										
 </note>
-<speech id="ParlaMint-IT_2015-03-03-LEG17-Sed-401.u160" speaker_role="Chairperson" speaker_id="CalderoliRoberto" speaker_name="Calderoli, Roberto" speaker_type="MP" speaker_party="LN-Aut" speaker_party_name="Lega Nord e Autonomie" coalition_party="no" speaker_gender="M" speaker_birth="1956">
+<speech id="ParlaMint-IT_2015-03-03-LEG17-Sed-401.u160" speaker_role="Chairperson" speaker_id="CalderoliRoberto" speaker_name="Calderoli, Roberto" speaker_type="MP" speaker_party="LN-Aut" speaker_party_name="Lega Nord e Autonomie" party_status="opposition" speaker_gender="M" speaker_birth="1956">
 <p id="ParlaMint-IT_2015-03-03-LEG17-Sed-401.seg265" lang="Italian">
 <s id="ParlaMint-IT_2015-03-03-LEG17-Sed-401.seg265.1">
 Le	Di|i	di|il	ADP|DET	-|Definite=Def Gender=Masc Number=Plur PronType=Art	1|2	case|det	mozione	NOUN	Gender=Fem Number=Plur	3
@@ -168,12 +168,12 @@ odierna	odierna	odierno	ADJ	Gender=Fem Number=Sing	24	amod	seduta	NOUN	Gender=Fe
 </p>
 </speech>
 <note type="head">
-/Ordine del giorno per le sedute di mercoledì 4 marzo 2015/	-	-	-	-	-	-	-	-	-	-
+[Ordine del giorno per le sedute di mercoledì 4 marzo 2015]										
 </note>
 <note type="role">
-/PRESIDENTE/	-	-	-	-	-	-	-	-	-	-
+[PRESIDENTE]										
 </note>
-<speech id="ParlaMint-IT_2015-03-03-LEG17-Sed-401.u161" speaker_role="Chairperson" speaker_id="CalderoliRoberto" speaker_name="Calderoli, Roberto" speaker_type="MP" speaker_party="LN-Aut" speaker_party_name="Lega Nord e Autonomie" coalition_party="no" speaker_gender="M" speaker_birth="1956">
+<speech id="ParlaMint-IT_2015-03-03-LEG17-Sed-401.u161" speaker_role="Chairperson" speaker_id="CalderoliRoberto" speaker_name="Calderoli, Roberto" speaker_type="MP" speaker_party="LN-Aut" speaker_party_name="Lega Nord e Autonomie" party_status="opposition" speaker_gender="M" speaker_birth="1956">
 <p id="ParlaMint-IT_2015-03-03-LEG17-Sed-401.seg266" lang="Italian">
 <s id="ParlaMint-IT_2015-03-03-LEG17-Sed-401.seg266.1">
 Il	Il	il	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	1	det	Senato	PROPN	-	2

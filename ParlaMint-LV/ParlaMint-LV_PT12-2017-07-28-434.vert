@@ -1,8 +1,8 @@
 <text id="ParlaMint-LV_PT12-2017-07-28-434.ana" subcorpus="Reference" term="13" session="-" meeting="-" sitting="-" agenda="-" from="2017-07-28" to="2017-07-28" title="Latvijas parlamenta corpus ParlaMint-LV, 12. Saeima, 2017-07-28 [ParlaMint.ana SAMPLE]">
 <note type="speaker">
-/Sēdes vadītāja./	-	-	-	-	-	-	-	-	-	-
+[Sēdes vadītāja.]										
 </note>
-<speech id="ParlaMint-LV_PT12-2017-07-28-434-U1" speaker_role="Chairperson" speaker_id="MūrnieceInāra" speaker_name="Mūrniece, Ināra" speaker_type="MP" speaker_party="NA" speaker_party_name="Nacionālā apvienība &#34;Visu Latvijai!&#34;–&#34;Tēvzemei un Brīvībai/LNNK&#34;" coalition_party="?" speaker_gender="F" speaker_birth="?">
+<speech id="ParlaMint-LV_PT12-2017-07-28-434-U1" speaker_role="Chairperson" speaker_id="MūrnieceInāra" speaker_name="Mūrniece, Ināra" speaker_type="MP" speaker_party="NA" speaker_party_name="Nacionālā apvienība &#34;Visu Latvijai!&#34;–&#34;Tēvzemei un Brīvībai/LNNK&#34;" party_status="-" speaker_gender="F" speaker_birth="-">
 <p id="ParlaMint-LV_PT12-2017-07-28-434-U1-P1" lang="Latvian">
 <s id="ParlaMint-LV_PT12-2017-07-28-434-U1-P1.1">
 Godātie	Godātie	godāts	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Plur	1	amod	deputāts	NOUN	Case=Nom Gender=Masc Number=Plur	2
@@ -123,9 +123,9 @@ darbu	darbu	darbs	NOUN	Case=Acc Gender=Masc Number=Sing	2	obj	turpināt	VERB	Evi
 </p>
 </speech>
 <note type="speaker">
-/J.Upenieks (VIENOTĪBA)./	-	-	-	-	-	-	-	-	-	-
+[J.Upenieks (VIENOTĪBA).]										
 </note>
-<speech id="ParlaMint-LV_PT12-2017-07-28-434-U2" speaker_role="Deputy" speaker_id="UpenieksJānis" speaker_name="Upenieks, Jānis" speaker_type="MP" speaker_party="VIENOTĪBA" speaker_party_name="VIENOTĪBA" coalition_party="?" speaker_gender="M" speaker_birth="?">
+<speech id="ParlaMint-LV_PT12-2017-07-28-434-U2" speaker_role="Regular" speaker_id="UpenieksJānis" speaker_name="Upenieks, Jānis" speaker_type="MP" speaker_party="VIENOTĪBA" speaker_party_name="VIENOTĪBA" party_status="-" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-LV_PT12-2017-07-28-434-U2-P1" lang="Latvian">
 <s id="ParlaMint-LV_PT12-2017-07-28-434-U2-P1.1">
 Labrīt	Labrīt	labrīt	INTJ	-	1	root	-	-	-	-
@@ -198,9 +198,9 @@ Balsojam	Balsojam	balsot	VERB	Evident=Fh Mood=Ind Number=Plur Person=1 Polarity=
 </p>
 </speech>
 <note type="gap::editorial">
-/SAMPLING/	-	-	-	-	-	-	-	-	-	-
+[SAMPLING]										
 </note>
-<speech id="ParlaMint-LV_PT12-2017-07-28-434-U863" speaker_role="Guest" speaker_id="KūtrisGunārs" speaker_name="Kūtris, Gunārs" speaker_type="notMP" speaker_party="-" speaker_party_name="-" coalition_party="?" speaker_gender="M" speaker_birth="?">
+<speech id="ParlaMint-LV_PT12-2017-07-28-434-U863" speaker_role="Guest" speaker_id="KūtrisGunārs" speaker_name="Kūtris, Gunārs" speaker_type="notMP" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-LV_PT12-2017-07-28-434-U863-P1" lang="Latvian">
 <s id="ParlaMint-LV_PT12-2017-07-28-434-U863-P1.1">
 Cienījamie	Cienījamie	cienīt	VERB	Case=Voc Definite=Def Degree=Pos Gender=Masc Number=Plur Polarity=Pos Tense=Pres VerbForm=Part Voice=Pass	1	amod	kolēģis	NOUN	Case=Voc Gender=Masc Number=Plur	2
@@ -325,9 +325,9 @@ Zujevs	Zujevs	Zujevs	NOUN	Case=Nom Gender=Masc Number=Sing	10	flat:name	Igors	PR
 </p>
 </speech>
 <note type="speaker">
-/Sēdes vadītāja./	-	-	-	-	-	-	-	-	-	-
+[Sēdes vadītāja.]										
 </note>
-<speech id="ParlaMint-LV_PT12-2017-07-28-434-U864" speaker_role="Chairperson" speaker_id="MūrnieceInāra" speaker_name="Mūrniece, Ināra" speaker_type="MP" speaker_party="NA" speaker_party_name="Nacionālā apvienība &#34;Visu Latvijai!&#34;–&#34;Tēvzemei un Brīvībai/LNNK&#34;" coalition_party="?" speaker_gender="F" speaker_birth="?">
+<speech id="ParlaMint-LV_PT12-2017-07-28-434-U864" speaker_role="Chairperson" speaker_id="MūrnieceInāra" speaker_name="Mūrniece, Ināra" speaker_type="MP" speaker_party="NA" speaker_party_name="Nacionālā apvienība &#34;Visu Latvijai!&#34;–&#34;Tēvzemei un Brīvībai/LNNK&#34;" party_status="-" speaker_gender="F" speaker_birth="-">
 <p id="ParlaMint-LV_PT12-2017-07-28-434-U864-P1" lang="Latvian">
 <s id="ParlaMint-LV_PT12-2017-07-28-434-U864-P1.1">
 Paldies	Paldies	paldies	INTJ	-	1	root	-	-	-	-

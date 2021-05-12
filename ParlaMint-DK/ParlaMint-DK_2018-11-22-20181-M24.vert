@@ -1,11 +1,11 @@
 <text id="ParlaMint-DK_2018-11-22-20181-M24.ana" subcorpus="Reference" term="-" session="20181" meeting="-" sitting="24" agenda="-" from="2018-11-22" to="2018-11-22" title="Hansard of the session of the Danish Parliament (Folketinget), 20181, M24 (2018-11-22), final version">
 <note type="head">
-/Punkt 0/	-	-	-	-	-	-	-	-	-	-
+[Punkt 0]										
 </note>
 <note type="agendaItem">
-/2018-11-22-0/	-	-	-	-	-	-	-	-	-	-
+[2018-11-22-0]										
 </note>
-<speech id="ParlaMint-DK_20181122100022" speaker_role="Chairperson" speaker_id="KjærsgaardPia" speaker_name="Kjærsgaard, Pia" speaker_type="MP" speaker_party="DF" speaker_party_name="Dansk Folkeparti" coalition_party="no" speaker_gender="F" speaker_birth="1947">
+<speech id="ParlaMint-DK_20181122100022" speaker_role="Chairperson" speaker_id="KjærsgaardPia" speaker_name="Kjærsgaard, Pia" speaker_type="MP" speaker_party="DF" speaker_party_name="Dansk Folkeparti" party_status="-" speaker_gender="F" speaker_birth="1947">
 <p id="ParlaMint-DK_20181122100022.seg1" lang="Danish">
 <s id="ParlaMint-DK_20181122100022.seg1.1">
 Mødet	Mødet	møde	NOUN	Definite=Def Gender=Neut Number=Sing	1	nsubj	åbne	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
@@ -16,7 +16,7 @@ er	er	være	AUX	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	2	aux	åbne	VERB	Defi
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-DK_20181122100033" speaker_role="Chairperson" speaker_id="KjærsgaardPia" speaker_name="Kjærsgaard, Pia" speaker_type="MP" speaker_party="DF" speaker_party_name="Dansk Folkeparti" coalition_party="no" speaker_gender="F" speaker_birth="1947">
+<speech id="ParlaMint-DK_20181122100033" speaker_role="Chairperson" speaker_id="KjærsgaardPia" speaker_name="Kjærsgaard, Pia" speaker_type="MP" speaker_party="DF" speaker_party_name="Dansk Folkeparti" party_status="-" speaker_gender="F" speaker_birth="1947">
 <p id="ParlaMint-DK_20181122100033.seg2" lang="Danish">
 <s id="ParlaMint-DK_20181122100033.seg2.1">
 Det	Det	den	DET	Gender=Neut Number=Sing PronType=Dem	1	det	punkt	NOUN	Definite=Ind Gender=Neut Number=Sing	2
@@ -69,9 +69,9 @@ givet	givet	give	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3	root	-
 </p>
 </speech>
 <note type="gap::editorial">
-/SAMPLING/	-	-	-	-	-	-	-	-	-	-
+[SAMPLING]										
 </note>
-<speech id="ParlaMint-DK_20181122181714" speaker_role="Chairperson" speaker_id="JuhlChristian" speaker_name="Juhl, Christian" speaker_type="MP" speaker_party="EL" speaker_party_name="Enhedslisten" coalition_party="no" speaker_gender="M" speaker_birth="1953">
+<speech id="ParlaMint-DK_20181122181714" speaker_role="Chairperson" speaker_id="JuhlChristian" speaker_name="Juhl, Christian" speaker_type="MP" speaker_party="EL" speaker_party_name="Enhedslisten" party_status="-" speaker_gender="M" speaker_birth="1953">
 <p id="ParlaMint-DK_20181122181714.seg431" lang="Danish">
 <s id="ParlaMint-DK_20181122181714.seg431.1">
 Selv	Selv	selv	PRON	PronType=Dem	1	nsubj	takke	VERB	Mood=Ind Tense=Past VerbForm=Fin Voice=Act	2
@@ -181,12 +181,12 @@ om	om	om	ADP	AdpType=Prep	18	mark	stemme	VERB	VerbForm=Inf Voice=Act	17
 </p>
 </speech>
 <note type="head">
-/Punkt 0/	-	-	-	-	-	-	-	-	-	-
+[Punkt 0]										
 </note>
 <note type="agendaItem">
-/2018-11-22-0/	-	-	-	-	-	-	-	-	-	-
+[2018-11-22-0]										
 </note>
-<speech id="ParlaMint-DK_20181122181748" speaker_role="Chairperson" speaker_id="JuhlChristian" speaker_name="Juhl, Christian" speaker_type="MP" speaker_party="EL" speaker_party_name="Enhedslisten" coalition_party="no" speaker_gender="M" speaker_birth="1953">
+<speech id="ParlaMint-DK_20181122181748" speaker_role="Chairperson" speaker_id="JuhlChristian" speaker_name="Juhl, Christian" speaker_type="MP" speaker_party="EL" speaker_party_name="Enhedslisten" party_status="-" speaker_gender="M" speaker_birth="1953">
 <p id="ParlaMint-DK_20181122181748.seg432" lang="Danish">
 <s id="ParlaMint-DK_20181122181748.seg432.1">
 Der	Der	der	ADV	PartType=Inf	1	expl	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	2

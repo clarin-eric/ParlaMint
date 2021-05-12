@@ -1,11 +1,11 @@
 <text id="ParlaMint-IT_2017-04-04-LEG17-Sed-800.ana" subcorpus="Reference" term="17-upper" session="-" meeting="-" sitting="800-upper" agenda="-" from="2017-04-04" to="2017-04-04" title="Report of the session of the Senate of the Italian Republic, Term 17, Sitting 800, Day (2017-04-04)">
 <note type="president">
-/Presidenza del presidente GRASSO/	-	-	-	-	-	-	-	-	-	-
+[Presidenza del presidente GRASSO]										
 </note>
 <note type="role">
-/PRESIDENTE/	-	-	-	-	-	-	-	-	-	-
+[PRESIDENTE]										
 </note>
-<speech id="ParlaMint-IT_2017-04-04-LEG17-Sed-800.u1" speaker_role="Chairperson" speaker_id="GrassoPietro" speaker_name="Grasso, Pietro" speaker_type="MP" speaker_party="PD" speaker_party_name="Partito Democratico" coalition_party="yes" speaker_gender="M" speaker_birth="1945">
+<speech id="ParlaMint-IT_2017-04-04-LEG17-Sed-800.u1" speaker_role="Chairperson" speaker_id="GrassoPietro" speaker_name="Grasso, Pietro" speaker_type="MP" speaker_party="PD" speaker_party_name="Partito Democratico" party_status="coalition" speaker_gender="M" speaker_birth="1945">
 <p id="ParlaMint-IT_2017-04-04-LEG17-Sed-800.seg1" lang="Italian">
 <s id="ParlaMint-IT_2017-04-04-LEG17-Sed-800.seg1.1">
 La	La	il	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	1	det	seduta	NOUN	Gender=Fem Number=Sing	2
@@ -76,15 +76,15 @@ approvato	approvato	approvare	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=P
 </p>
 </speech>
 <note type="gap::editorial">
-/SAMPLING/	-	-	-	-	-	-	-	-	-	-
+[SAMPLING]										
 </note>
 <note type="head">
-/Comunicazioni della Presidenza/	-	-	-	-	-	-	-	-	-	-
+[Comunicazioni della Presidenza]										
 </note>
 <note type="role">
-/PRESIDENTE/	-	-	-	-	-	-	-	-	-	-
+[PRESIDENTE]										
 </note>
-<speech id="ParlaMint-IT_2017-04-04-LEG17-Sed-800.u2" speaker_role="Chairperson" speaker_id="GrassoPietro" speaker_name="Grasso, Pietro" speaker_type="MP" speaker_party="PD" speaker_party_name="Partito Democratico" coalition_party="yes" speaker_gender="M" speaker_birth="1945">
+<speech id="ParlaMint-IT_2017-04-04-LEG17-Sed-800.u2" speaker_role="Chairperson" speaker_id="GrassoPietro" speaker_name="Grasso, Pietro" speaker_type="MP" speaker_party="PD" speaker_party_name="Partito Democratico" party_status="coalition" speaker_gender="M" speaker_birth="1945">
 <p id="ParlaMint-IT_2017-04-04-LEG17-Sed-800.seg2" lang="Italian">
 <s id="ParlaMint-IT_2017-04-04-LEG17-Sed-800.seg2.1">
 L'	A|IL	a|il	ADP|DET	-|Definite=Def Gender=Masc Number=Sing PronType=Art	1|2	case|det	elenco	NOUN	Gender=Masc Number=Sing	3
@@ -132,9 +132,9 @@ odierna	odierna	odierno	ADJ	Gender=Fem Number=Sing	36	amod	seduta	NOUN	Gender=Fe
 </p>
 </speech>
 <note type="gap::editorial">
-/SAMPLING/	-	-	-	-	-	-	-	-	-	-
+[SAMPLING]										
 </note>
-<speech id="ParlaMint-IT_2017-04-04-LEG17-Sed-800.u81" speaker_role="Chairperson" speaker_id="CalderoliRoberto" speaker_name="Calderoli, Roberto" speaker_type="MP" speaker_party="LN-Aut" speaker_party_name="Lega Nord e Autonomie" coalition_party="no" speaker_gender="M" speaker_birth="1956">
+<speech id="ParlaMint-IT_2017-04-04-LEG17-Sed-800.u81" speaker_role="Chairperson" speaker_id="CalderoliRoberto" speaker_name="Calderoli, Roberto" speaker_type="MP" speaker_party="LN-Aut" speaker_party_name="Lega Nord e Autonomie" party_status="opposition" speaker_gender="M" speaker_birth="1956">
 <p id="ParlaMint-IT_2017-04-04-LEG17-Sed-800.seg131" lang="Italian">
 <s id="ParlaMint-IT_2017-04-04-LEG17-Sed-800.seg131.1">
 Le	Di|i	di|il	ADP|DET	-|Definite=Def Gender=Masc Number=Plur PronType=Art	1|2	case|det	mozione	NOUN	Gender=Fem Number=Plur	3
@@ -168,12 +168,12 @@ odierna	odierna	odierno	ADJ	Gender=Fem Number=Sing	24	amod	seduta	NOUN	Gender=Fe
 </p>
 </speech>
 <note type="head">
-/Ordine del giorno per le sedute di mercoledì 5 aprile 2017/	-	-	-	-	-	-	-	-	-	-
+[Ordine del giorno per le sedute di mercoledì 5 aprile 2017]										
 </note>
 <note type="role">
-/PRESIDENTE/	-	-	-	-	-	-	-	-	-	-
+[PRESIDENTE]										
 </note>
-<speech id="ParlaMint-IT_2017-04-04-LEG17-Sed-800.u82" speaker_role="Chairperson" speaker_id="CalderoliRoberto" speaker_name="Calderoli, Roberto" speaker_type="MP" speaker_party="LN-Aut" speaker_party_name="Lega Nord e Autonomie" coalition_party="no" speaker_gender="M" speaker_birth="1956">
+<speech id="ParlaMint-IT_2017-04-04-LEG17-Sed-800.u82" speaker_role="Chairperson" speaker_id="CalderoliRoberto" speaker_name="Calderoli, Roberto" speaker_type="MP" speaker_party="LN-Aut" speaker_party_name="Lega Nord e Autonomie" party_status="opposition" speaker_gender="M" speaker_birth="1956">
 <p id="ParlaMint-IT_2017-04-04-LEG17-Sed-800.seg132" lang="Italian">
 <s id="ParlaMint-IT_2017-04-04-LEG17-Sed-800.seg132.1">
 Il	Il	il	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	1	det	Senato	PROPN	-	2

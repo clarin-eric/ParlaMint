@@ -1,7 +1,7 @@
 <text id="ParlaMint-BE_2018-06-20-54-commissie-ic931x.ana" subcorpus="Reference" term="54" session="-" meeting="ic931" sitting="-" agenda="-" from="2018-06-20" to="2018-06-20" title="Belgisch parlementair corpus ParlaMint-BE, commissievergadering van 20-06-2018 [ParlaMint.ana SAMPLE]">
-<speech id="ParlaMint-BE_2018-06-20-54-commissie-ic931x.u1" speaker_role="Regular" speaker_id="TerwingenRaf" speaker_name="Terwingen, Raf" speaker_type="MP" speaker_party="CD&V" speaker_party_name="Christen-Democratisch en Vlaams" coalition_party="?" speaker_gender="M" speaker_birth="1972">
+<speech id="ParlaMint-BE_2018-06-20-54-commissie-ic931x.u1" speaker_role="Regular" speaker_id="TerwingenRaf" speaker_name="Terwingen, Raf" speaker_type="MP" speaker_party="CD&V" speaker_party_name="Christen-Democratisch en Vlaams" party_status="coalition" speaker_gender="M" speaker_birth="1972">
 <note type="-">
-/01.01 Raf Terwingen (CD&V):/	-	-	-	-	-	-	-	-	-	-
+[01.01 Raf Terwingen (CD&V):]										
 </note>
 <p id="ParlaMint-BE_2018-06-20-54-commissie-ic931x.seg1" lang="Dutch">
 <s id="ParlaMint-BE_2018-06-20-54-commissie-ic931x.s6">
@@ -192,9 +192,9 @@ worden	worden	worden	AUX	VerbForm=Inf	w257	aux:pass	interpreteren	VERB	VerbForm=
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-BE_2018-06-20-54-commissie-ic931x.u2" speaker_role="Minister" speaker_id="BellotFrançois" speaker_name="Bellot, François" speaker_type="notMP" speaker_party="-" speaker_party_name="-" coalition_party="?" speaker_gender="M" speaker_birth="1954">
+<speech id="ParlaMint-BE_2018-06-20-54-commissie-ic931x.u2" speaker_role="Minister" speaker_id="BellotFrançois" speaker_name="Bellot, François" speaker_type="notMP" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="M" speaker_birth="1954">
 <note type="-">
-/01.02 Minister François Bellot:/	-	-	-	-	-	-	-	-	-	-
+[01.02 Minister François Bellot:]										
 </note>
 <p id="ParlaMint-BE_2018-06-20-54-commissie-ic931x.seg4" lang="Dutch">
 <s id="ParlaMint-BE_2018-06-20-54-commissie-ic931x.s12">
@@ -343,11 +343,11 @@ afgegeven	afgegeven	afgeven	VERB	VerbForm=Part	w358	acl:relcl	regelgeving	NOUN	G
 </p>
 </speech>
 <note type="gap::editorial">
-/SAMPLING/	-	-	-	-	-	-	-	-	-	-
+[SAMPLING]										
 </note>
-<speech id="ParlaMint-BE_2018-06-20-54-commissie-ic931x.u55" speaker_role="Regular" speaker_id="DumeryDaphné" speaker_name="Dumery, Daphné" speaker_type="MP" speaker_party="N-VA" speaker_party_name="Nieuw-Vlaamse Alliantie" coalition_party="?" speaker_gender="F" speaker_birth="1974">
+<speech id="ParlaMint-BE_2018-06-20-54-commissie-ic931x.u55" speaker_role="Regular" speaker_id="DumeryDaphné" speaker_name="Dumery, Daphné" speaker_type="MP" speaker_party="N-VA" speaker_party_name="Nieuw-Vlaamse Alliantie" party_status="coalition" speaker_gender="F" speaker_birth="1974">
 <note type="-">
-/12.03 Daphné Dumery (N-VA):/	-	-	-	-	-	-	-	-	-	-
+[12.03 Daphné Dumery (N-VA):]										
 </note>
 <p id="ParlaMint-BE_2018-06-20-54-commissie-ic931x.seg190" lang="Dutch">
 <s id="ParlaMint-BE_2018-06-20-54-commissie-ic931x.s532">
@@ -474,9 +474,9 @@ antwoord	antwoord	antwoord	NOUN	Gender=Neut Number=Sing	w9251	obl	danken	VERB	Nu
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-BE_2018-06-20-54-commissie-ic931x.u56" speaker_role="Chairperson" speaker_id="FrédéricAndré" speaker_name="Frédéric, André" speaker_type="MP" speaker_party="PS" speaker_party_name="Parti Socialiste" coalition_party="?" speaker_gender="M" speaker_birth="1958">
+<speech id="ParlaMint-BE_2018-06-20-54-commissie-ic931x.u56" speaker_role="Chairperson" speaker_id="FrédéricAndré" speaker_name="Frédéric, André" speaker_type="MP" speaker_party="PS" speaker_party_name="Parti Socialiste" party_status="opposition" speaker_gender="M" speaker_birth="1958">
 <note type="-">
-/La présidente:/	-	-	-	-	-	-	-	-	-	-
+[La présidente:]										
 </note>
 <p id="ParlaMint-BE_2018-06-20-54-commissie-ic931x.seg193" lang="French">
 <s id="ParlaMint-BE_2018-06-20-54-commissie-ic931x.s542">

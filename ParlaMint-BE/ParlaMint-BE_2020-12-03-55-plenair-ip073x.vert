@@ -1,7 +1,7 @@
 <text id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.ana" subcorpus="COVID" term="55" session="-" meeting="ip073" sitting="-" agenda="-" from="2020-12-03" to="2020-12-03" title="Belgisch parlementair corpus ParlaMint-BE, plenaire zitting van 03-12-2020 [ParlaMint.ana SAMPLE]">
-<speech id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.u1" speaker_role="Chairperson" speaker_id="TillieuxEliane" speaker_name="Tillieux, Eliane" speaker_type="MP" speaker_party="PS" speaker_party_name="Parti Socialiste" coalition_party="?" speaker_gender="F" speaker_birth="1966">
+<speech id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.u1" speaker_role="Chairperson" speaker_id="TillieuxEliane" speaker_name="Tillieux, Eliane" speaker_type="MP" speaker_party="PS" speaker_party_name="Parti Socialiste" party_status="coalition" speaker_gender="F" speaker_birth="1966">
 <note type="-">
-/La présidente:/	-	-	-	-	-	-	-	-	-	-
+[La présidente:]										
 </note>
 <p id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.seg1" lang="French">
 <s id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.s4">
@@ -24,21 +24,21 @@ geopend	geopend	openen	VERB	VerbForm=Part	w39	root	-	-	-	-
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.u2" speaker_role="Chairperson" speaker_id="TillieuxEliane" speaker_name="Tillieux, Eliane" speaker_type="MP" speaker_party="PS" speaker_party_name="Parti Socialiste" coalition_party="?" speaker_gender="F" speaker_birth="1966">
+<speech id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.u2" speaker_role="Chairperson" speaker_id="TillieuxEliane" speaker_name="Tillieux, Eliane" speaker_type="MP" speaker_party="PS" speaker_party_name="Parti Socialiste" party_status="coalition" speaker_gender="F" speaker_birth="1966">
 <p id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.seg3" lang="French">
 <s id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.s15">
 La	La	le	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	w159	det	président	NOUN	Gender=Fem Number=Sing	w160
 présidente	présidente	président	NOUN	Gender=Fem Number=Sing	w160	root	-	-	-	-
 </s>
 <note type="-">
-/(devant l'assemblée debout)/	-	-	-	-	-	-	-	-	-	-
+[(devant l'assemblée debout)]										
 </note>
 </p>
 </speech>
 <note type="gap::editorial">
-/SAMPLING/	-	-	-	-	-	-	-	-	-	-
+[SAMPLING]										
 </note>
-<speech id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.u169" speaker_role="Chairperson" speaker_id="TillieuxEliane" speaker_name="Tillieux, Eliane" speaker_type="MP" speaker_party="PS" speaker_party_name="Parti Socialiste" coalition_party="?" speaker_gender="F" speaker_birth="1966">
+<speech id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.u169" speaker_role="Chairperson" speaker_id="TillieuxEliane" speaker_name="Tillieux, Eliane" speaker_type="MP" speaker_party="PS" speaker_party_name="Parti Socialiste" party_status="coalition" speaker_gender="F" speaker_birth="1966">
 <p id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.seg976" lang="French">
 <s id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.s2673">
 Oui	Oui	oui	INTJ	-	w40446	root	-	-	-	-
@@ -162,7 +162,7 @@ verworpen	verworpen	verwerpen	VERB	VerbForm=Part	w40489	root	-	-	-	-
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.u170" speaker_role="Chairperson" speaker_id="TillieuxEliane" speaker_name="Tillieux, Eliane" speaker_type="MP" speaker_party="PS" speaker_party_name="Parti Socialiste" coalition_party="?" speaker_gender="F" speaker_birth="1966">
+<speech id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.u170" speaker_role="Chairperson" speaker_id="TillieuxEliane" speaker_name="Tillieux, Eliane" speaker_type="MP" speaker_party="PS" speaker_party_name="Parti Socialiste" party_status="coalition" speaker_gender="F" speaker_birth="1966">
 <p id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.seg990" lang="French">
 <s id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.s2692">
 Nous	Nous	il	PRON	Number=Plur Person=1 PronType=Prs	w40510	nsubj	devoir	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w40511
@@ -220,7 +220,7 @@ observation	observation	observation	NOUN	Gender=Fem Number=Sing	pc5998	root	-	-	
 ?	?	?	PUNCT	-	pc5997	punct	observation	NOUN	Gender=Fem Number=Sing	pc5998
 </s>
 <note type="answer">
-/(Non)/	-	-	-	-	-	-	-	-	-	-
+[(Non)]										
 </note>
 <s id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.s2696">
 <name type="MISC">
@@ -244,7 +244,7 @@ bezwaar	bezwaar	bezwaar	NOUN	Gender=Neut Number=Sing	w40550	root	-	-	-	-
 ?	?	?	PUNCT	-	pc6003	punct	bezwaar	NOUN	Gender=Neut Number=Sing	w40550
 </s>
 <note type="answer">
-/(Nee)/	-	-	-	-	-	-	-	-	-	-
+[(Nee)]										
 </note>
 <s id="ParlaMint-BE_2020-12-03-55-plenair-ip073x.s2699">
 De	De	de	DET	Definite=Def	w40552	det	agenda	NOUN	Gender=Com Number=Sing	w40553

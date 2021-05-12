@@ -1,29 +1,29 @@
 <text id="ParlaMint-PL_2015-11-12-senat-01-1.ana" subcorpus="Reference" term="9-upper" session="1-upper" meeting="-" sitting="1-upper" agenda="-" from="2015-11-12" to="2015-11-12" title="Report of the session of the Senat of the Republic of Poland, Term 9, Session 1, Day 1 (2015-11-12)">
 <note type="head">
-/1. posiedzenie Senatu RP 9. kadencji, dzień 1/	-	-	-	-	-	-	-	-	-	-
+[1. posiedzenie Senatu RP 9. kadencji, dzień 1]										
 </note>
 <note type="time">
-/Początek posiedzenia o godzinie 17 minut 02/	-	-	-	-	-	-	-	-	-	-
+[Początek posiedzenia o godzinie 17 minut 02]										
 </note>
 <note type="debate">
-/Posiedzeniu przewodniczą marszałek senior Michał Seweryński oraz marszałek Stanisław Karczewski/	-	-	-	-	-	-	-	-	-	-
+[Posiedzeniu przewodniczą marszałek senior Michał Seweryński oraz marszałek Stanisław Karczewski]										
 </note>
 <note type="incident:entering">
-/Przybycie prezydenta Rzeczypospolitej Polskiej/	-	-	-	-	-	-	-	-	-	-
+[Przybycie prezydenta Rzeczypospolitej Polskiej]										
 </note>
 <note type="incident:action">
-/Wszyscy wstają/	-	-	-	-	-	-	-	-	-	-
+[Wszyscy wstają]										
 </note>
 <note type="kinesic:applause">
-/Oklaski/	-	-	-	-	-	-	-	-	-	-
+[Oklaski]										
 </note>
 <note type="">
-/Orkiestra wojskowa gra hymn narodowy/	-	-	-	-	-	-	-	-	-	-
+[Orkiestra wojskowa gra hymn narodowy]										
 </note>
 <note type="">
-/Wszyscy śpiewają hymn narodowy/	-	-	-	-	-	-	-	-	-	-
+[Wszyscy śpiewają hymn narodowy]										
 </note>
-<speech id="ParlaMint-PL_2015-11-12-senat-01-1.u1" speaker_role="Guest" speaker_id="DudaAndrzej" speaker_name="Duda, Andrzej" speaker_type="notMP" speaker_party="-" speaker_party_name="-" coalition_party="?" speaker_gender="M" speaker_birth="?">
+<speech id="ParlaMint-PL_2015-11-12-senat-01-1.u1" speaker_role="Guest" speaker_id="DudaAndrzej" speaker_name="Duda, Andrzej" speaker_type="notMP" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="M" speaker_birth="-">
 <p id="seg543983" lang="Polish">
 <s id="seg543983.1">
 Szanowni	Szanowni	szanowny	ADJ	Animacy=Hum Case=Nom Degree=Pos Gender=Masc Number=Sing	1	amod	państwo	PROPN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	2
@@ -88,7 +88,7 @@ wszystkim	wszystkim	wszystko	PRON	Case=Ins Gender=Neut Number=Sing PronType=Tot	
 </s>
 </p>
 <note type="kinesic:applause">
-/Oklaski/	-	-	-	-	-	-	-	-	-	-
+[Oklaski]										
 </note>
 <p id="seg543986" lang="Polish">
 <s id="seg543986.1">
@@ -273,7 +273,7 @@ prawdziwa	prawdziwa	prawdziwy	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	17	
 </s>
 </p>
 <note type="kinesic:applause">
-/Oklaski/	-	-	-	-	-	-	-	-	-	-
+[Oklaski]										
 </note>
 <p id="seg543988" lang="Polish">
 <s id="seg543988.1">
@@ -604,7 +604,7 @@ Polski	Polski	Polska	PROPN	Case=Gen Gender=Fem Number=Sing	12	nmod:arg	symbol	NO
 </s>
 </p>
 <note type="kinesic:applause">
-/Oklaski/	-	-	-	-	-	-	-	-	-	-
+[Oklaski]										
 </note>
 <p id="seg543989" lang="Polish">
 <s id="seg543989.1">
@@ -1500,7 +1500,7 @@ zintensyfikowało	zintensyfikowało	zintensyfikować	VERB	Aspect=Perf Gender=Neu
 </s>
 </p>
 <note type="kinesic:applause">
-/Oklaski/	-	-	-	-	-	-	-	-	-	-
+[Oklaski]										
 </note>
 <p id="seg543991" lang="Polish">
 <s id="seg543991.1">
@@ -1808,7 +1808,7 @@ drzwi	drzwi	drzwi	NOUN	Case=Nom Gender=Neut Number=Ptan	5	nsubj	chcieć	VERB	Asp
 </s>
 </p>
 <note type="kinesic:applause">
-/Oklaski/	-	-	-	-	-	-	-	-	-	-
+[Oklaski]										
 </note>
 <p id="seg543993" lang="Polish">
 <s id="seg543993.1">
@@ -2072,7 +2072,7 @@ dlatego	dlatego	dlatego	ADV	PronType=Dem	2	root	-	-	-	-
 </s>
 </p>
 <note type="kinesic:applause">
-/Oklaski/	-	-	-	-	-	-	-	-	-	-
+[Oklaski]										
 </note>
 <p id="seg543996" lang="Polish">
 <s id="seg543996.1">
@@ -2094,7 +2094,7 @@ jednomandatowym	jednomandatowym	jednomandatowy	ADJ	Animacy=Inan Case=Loc Degree=
 </s>
 </p>
 <note type="kinesic:applause">
-/Oklaski/	-	-	-	-	-	-	-	-	-	-
+[Oklaski]										
 </note>
 <p id="seg543997" lang="Polish">
 <s id="seg543997.1">
@@ -2270,10 +2270,10 @@ bardzo	bardzo	bardzo	ADV	Degree=Pos	2	advmod	dziękować	VERB	Aspect=Imp Mood=In
 </s>
 </p>
 <note type="kinesic:applause">
-/Oklaski/	-	-	-	-	-	-	-	-	-	-
+[Oklaski]										
 </note>
 </speech>
-<speech id="ParlaMint-PL_2015-11-12-senat-01-1.u2" speaker_role="Chairperson" speaker_id="KuchcińskiMarek" speaker_name="Kuchciński, Marek" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" coalition_party="?" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-PL_2015-11-12-senat-01-1.u2" speaker_role="Chairperson" speaker_id="KuchcińskiMarek" speaker_name="Kuchciński, Marek" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="coalition" speaker_gender="M" speaker_birth="1955">
 <p id="seg544002" lang="Polish">
 <s id="seg544002.1">
 Dziękuję	Dziękuję	dziękować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
@@ -2303,7 +2303,7 @@ seniora	seniora	senior	NOUN	Animacy=Hum Case=Gen Gender=Masc Number=Sing	20	nmod
 </s>
 </p>
 <note type="vocal:speaking">
-/Proszę podejść bliżej mikrofonu, będzie lepiej słychać./	-	-	-	-	-	-	-	-	-	-
+[Proszę podejść bliżej mikrofonu, będzie lepiej słychać.]										
 </note>
 <p id="seg544003" lang="Polish">
 <s id="seg544003.1">
@@ -2386,7 +2386,7 @@ kadencji	kadencji	kadencja	NOUN	Case=Gen Gender=Fem Number=Sing	22	nmod	sejm	NOU
 </s>
 </p>
 <note type="kinesic:applause">
-/oklaski/	-	-	-	-	-	-	-	-	-	-
+[oklaski]										
 </note>
 <p id="seg544006" lang="Polish">
 <s id="seg544006.1">
@@ -2410,7 +2410,7 @@ kadencji	kadencji	kadencja	NOUN	Case=Gen Gender=Fem Number=Sing	9	nmod:arg	senat
 </s>
 </p>
 <note type="kinesic:applause">
-/oklaski/	-	-	-	-	-	-	-	-	-	-
+[oklaski]										
 </note>
 <p id="seg544007" lang="Polish">
 <s id="seg544007.1">
@@ -2434,7 +2434,7 @@ kadencji	kadencji	kadencja	NOUN	Case=Gen Gender=Fem Number=Sing	9	nmod:arg	senat
 </s>
 </p>
 <note type="kinesic:applause">
-/Oklaski/	-	-	-	-	-	-	-	-	-	-
+[Oklaski]										
 </note>
 <p id="seg544008" lang="Polish">
 <s id="seg544008.1">
@@ -2467,7 +2467,7 @@ kadencji	kadencji	kadencja	NOUN	Case=Gen Gender=Fem Number=Sing	18	nmod:arg	sena
 </s>
 </p>
 <note type="kinesic:applause">
-/Oklaski/	-	-	-	-	-	-	-	-	-	-
+[Oklaski]										
 </note>
 <p id="seg544009" lang="Polish">
 <s id="seg544009.1">
@@ -2491,7 +2491,7 @@ kadencji	kadencji	kadencja	NOUN	Case=Gen Gender=Fem Number=Sing	10	nmod:arg	sejm
 </s>
 </p>
 <note type="kinesic:applause">
-/Oklaski/	-	-	-	-	-	-	-	-	-	-
+[Oklaski]										
 </note>
 <p id="seg544010" lang="Polish">
 <s id="seg544010.1">
@@ -2529,7 +2529,7 @@ Polsce	Polsce	Polska	PROPN	Case=Loc Gender=Fem Number=Sing	19	nmod	korpus	NOUN	A
 </s>
 </p>
 <note type="kinesic:applause">
-/Oklaski/	-	-	-	-	-	-	-	-	-	-
+[Oklaski]										
 </note>
 <p id="seg544011" lang="Polish">
 <s id="seg544011.1">
@@ -2556,7 +2556,7 @@ Konstytucyjnego	Konstytucyjnego	konstytucyjny	ADJ	Animacy=Inan Case=Gen Degree=P
 </s>
 </p>
 <note type="kinesic:applause">
-/oklaski/	-	-	-	-	-	-	-	-	-	-
+[oklaski]										
 </note>
 <p id="seg544012" lang="Polish">
 <s id="seg544012.1">
@@ -2580,7 +2580,7 @@ Najwyższego	Najwyższego	wysoki	ADJ	Animacy=Inan Case=Gen Degree=Sup Gender=Mas
 </s>
 </p>
 <note type="kinesic:applause">
-/oklaski/	-	-	-	-	-	-	-	-	-	-
+[oklaski]										
 </note>
 <p id="seg544013" lang="Polish">
 <s id="seg544013.1">
@@ -2604,7 +2604,7 @@ Administracyjnego	Administracyjnego	administracyjny	ADJ	Animacy=Inan Case=Gen De
 </s>
 </p>
 <note type="kinesic:applause">
-/oklaski/	-	-	-	-	-	-	-	-	-	-
+[oklaski]										
 </note>
 <p id="seg544014" lang="Polish">
 <s id="seg544014.1">
@@ -2624,7 +2624,7 @@ generalnego	generalnego	generalny	ADJ	Animacy=Hum Case=Gen Degree=Pos Gender=Mas
 </s>
 </p>
 <note type="kinesic:applause">
-/oklaski/	-	-	-	-	-	-	-	-	-	-
+[oklaski]										
 </note>
 <p id="seg544015" lang="Polish">
 <s id="seg544015.1">
@@ -2648,7 +2648,7 @@ Sądownictwa	Sądownictwa	sądownictwo	NOUN	Case=Gen Gender=Neut Number=Sing	9	n
 </s>
 </p>
 <note type="kinesic:applause">
-/Oklaski/	-	-	-	-	-	-	-	-	-	-
+[Oklaski]										
 </note>
 <p id="seg544016" lang="Polish">
 <s id="seg544016.1">
@@ -2673,7 +2673,7 @@ Wyborczej	Wyborczej	wyborczy	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Sing	11	a
 </s>
 </p>
 <note type="kinesic:applause">
-/Oklaski/	-	-	-	-	-	-	-	-	-	-
+[Oklaski]										
 </note>
 <p id="seg544017" lang="Polish">
 <s id="seg544017.1">
@@ -2696,7 +2696,7 @@ Kontroli	Kontroli	kontrola	NOUN	Case=Gen Gender=Fem Number=Sing	9	nmod:flat	izba
 </s>
 </p>
 <note type="kinesic:applause">
-/oklaski/	-	-	-	-	-	-	-	-	-	-
+[oklaski]										
 </note>
 <p id="seg544018" lang="Polish">
 <s id="seg544018.1">
@@ -2717,7 +2717,7 @@ obywatelskich	obywatelskich	obywatelski	ADJ	Case=Gen Degree=Pos Gender=Neut Numb
 </s>
 </p>
 <note type="kinesic:applause">
-/oklaski/	-	-	-	-	-	-	-	-	-	-
+[oklaski]										
 </note>
 <p id="seg544019" lang="Polish">
 <s id="seg544019.1">
@@ -2738,7 +2738,7 @@ dziecka	dziecka	dziecko	NOUN	Case=Gen Gender=Neut Number=Sing NumType=Sets	8	nmo
 </s>
 </p>
 <note type="kinesic:applause">
-/oklaski/	-	-	-	-	-	-	-	-	-	-
+[oklaski]										
 </note>
 <p id="seg544020" lang="Polish">
 <s id="seg544020.1">
@@ -2764,7 +2764,7 @@ Telewizji	Telewizji	telewizja	NOUN	Case=Gen Gender=Fem Number=Sing	11	conj	radio
 </s>
 </p>
 <note type="kinesic:applause">
-/oklaski/	-	-	-	-	-	-	-	-	-	-
+[oklaski]										
 </note>
 <p id="seg544021" lang="Polish">
 <s id="seg544021.1">
@@ -2797,7 +2797,7 @@ Polskiemu	Polskiemu	polski	ADJ	Animacy=Inan Case=Dat Degree=Pos Gender=Masc Numb
 </s>
 </p>
 <note type="kinesic:applause">
-/oklaski/	-	-	-	-	-	-	-	-	-	-
+[oklaski]										
 </note>
 <p id="seg544022" lang="Polish">
 <s id="seg544022.1">
@@ -2820,7 +2820,7 @@ osobowych	osobowych	osobowy	ADJ	Case=Gen Degree=Pos Gender=Neut Number=Plur	10	a
 </s>
 </p>
 <note type="kinesic:applause">
-/Oklaski/	-	-	-	-	-	-	-	-	-	-
+[Oklaski]										
 </note>
 <p id="seg544023" lang="Polish">
 <s id="seg544023.1">
@@ -2843,7 +2843,7 @@ Prezydenta	Prezydenta	prezydent	PROPN	Animacy=Hum Case=Gen Gender=Masc Number=Si
 </s>
 </p>
 <note type="kinesic:applause">
-/oklaski/	-	-	-	-	-	-	-	-	-	-
+[oklaski]										
 </note>
 <p id="seg544024" lang="Polish">
 <s id="seg544024.1">
@@ -2866,7 +2866,7 @@ Prezydenta	Prezydenta	prezydent	PROPN	Animacy=Hum Case=Gen Gender=Masc Number=Si
 </s>
 </p>
 <note type="kinesic:applause">
-/oklaski/	-	-	-	-	-	-	-	-	-	-
+[oklaski]										
 </note>
 <p id="seg544025" lang="Polish">
 <s id="seg544025.1">
@@ -2890,7 +2890,7 @@ Narodowego	Narodowego	narodowy	ADJ	Case=Gen Degree=Pos Gender=Neut Number=Sing	9
 </s>
 </p>
 <note type="kinesic:applause">
-/oklaski/	-	-	-	-	-	-	-	-	-	-
+[oklaski]										
 </note>
 <p id="seg544026" lang="Polish">
 <s id="seg544026.1">
@@ -2915,7 +2915,7 @@ Prezydenta	Prezydenta	prezydent	PROPN	Animacy=Hum Case=Gen Gender=Masc Number=Si
 </s>
 </p>
 <note type="kinesic:applause">
-/oklaski/	-	-	-	-	-	-	-	-	-	-
+[oklaski]										
 </note>
 <p id="seg544027" lang="Polish">
 <s id="seg544027.1">
@@ -2944,7 +2944,7 @@ Prezydenta	Prezydenta	prezydent	PROPN	Animacy=Hum Case=Gen Gender=Masc Number=Si
 </s>
 </p>
 <note type="kinesic:applause">
-/Oklaski/	-	-	-	-	-	-	-	-	-	-
+[Oklaski]										
 </note>
 <p id="seg544028" lang="Polish">
 <s id="seg544028.1">
@@ -2961,7 +2961,7 @@ uroczystość	uroczystość	uroczystość	NOUN	Case=Acc Gender=Fem Number=Sing	8
 </s>
 </p>
 <note type="kinesic:applause">
-/Oklaski/	-	-	-	-	-	-	-	-	-	-
+[Oklaski]										
 </note>
 <p id="seg544029" lang="Polish">
 <s id="seg544029.1">
@@ -3337,7 +3337,7 @@ państwa	państwa	państwo	NOUN	Case=Gen Gender=Neut Number=Sing	38	nmod	polityk
 </s>
 </p>
 <note type="kinesic:applause">
-/Oklaski/	-	-	-	-	-	-	-	-	-	-
+[Oklaski]										
 </note>
 <p id="seg544034" lang="Polish">
 <s id="seg544034.1">
@@ -3645,7 +3645,7 @@ lex	lex	lex	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing	33	nmod	suprema	N
 </s>
 </p>
 <note type="kinesic:applause">
-/Oklaski/	-	-	-	-	-	-	-	-	-	-
+[Oklaski]										
 </note>
 <p id="seg544036" lang="Polish">
 <s id="seg544036.1">
@@ -3691,7 +3691,7 @@ miejsc	miejsc	miejsce	NOUN	Case=Gen Gender=Neut Number=Plur	7	nmod	powstać	NOUN
 </s>
 </p>
 <note type="incident:action">
-/Wszyscy wstają/	-	-	-	-	-	-	-	-	-	-
+[Wszyscy wstają]										
 </note>
 <p id="seg544038" lang="Polish">
 <s id="seg544038.1">
@@ -3830,7 +3830,7 @@ prezydialnym	prezydialnym	prezydialny	ADJ	Animacy=Inan Case=Loc Degree=Pos Gende
 </s>
 </p>
 <note type="vocal:noise">
-/Rozmowy na sali/	-	-	-	-	-	-	-	-	-	-
+[Rozmowy na sali]										
 </note>
 <p id="seg544041" lang="Polish">
 <s id="seg544041.1">
@@ -4012,7 +4012,7 @@ powstanie	powstanie	powstanie	NOUN	Case=Acc Gender=Neut Number=Sing	4	obl:arg	pr
 </s>
 </p>
 <note type="incident:action">
-/Wszyscy wstają/	-	-	-	-	-	-	-	-	-	-
+[Wszyscy wstają]										
 </note>
 <p id="seg544045" lang="Polish">
 <s id="seg544045.1">
@@ -4130,9 +4130,9 @@ sposób	sposób	sposób	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	35	nm
 </p>
 </speech>
 <note type="gap::editorial">
-/SAMPLING/	-	-	-	-	-	-	-	-	-	-
+[SAMPLING]										
 </note>
-<speech id="ParlaMint-PL_2015-11-12-senat-01-1.u50" speaker_role="Regular" speaker_id="SzwedAleksander" speaker_name="Szwed, Aleksander" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" coalition_party="?" speaker_gender="M" speaker_birth="1982">
+<speech id="ParlaMint-PL_2015-11-12-senat-01-1.u50" speaker_role="Regular" speaker_id="SzwedAleksander" speaker_name="Szwed, Aleksander" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="coalition" speaker_gender="M" speaker_birth="1982">
 <p id="seg544801" lang="Polish">
 <s id="seg544801.1">
 Panie	Panie	pan	NOUN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	1	vocative	-	-	-	-
@@ -4281,7 +4281,7 @@ Dziękuję	Dziękuję	dziękować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-PL_2015-11-12-senat-01-1.u51" speaker_role="Chairperson" speaker_id="KuchcińskiMarek" speaker_name="Kuchciński, Marek" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" coalition_party="?" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-PL_2015-11-12-senat-01-1.u51" speaker_role="Chairperson" speaker_id="KuchcińskiMarek" speaker_name="Kuchciński, Marek" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="coalition" speaker_gender="M" speaker_birth="1955">
 <p id="seg544804" lang="Polish">
 <s id="seg544804.1">
 Ogłaszam	Ogłaszam	ogłaszać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
@@ -4296,7 +4296,7 @@ godziny	godziny	godzina	NOUN	Case=Gen Gender=Fem Number=Sing	6	obl	ogłaszać	VE
 </s>
 </p>
 <note type="time">
-/Przerwa w posiedzeniu o godzinie 23 minut 17/	-	-	-	-	-	-	-	-	-	-
+[Przerwa w posiedzeniu o godzinie 23 minut 17]										
 </note>
 </speech>
 </text>

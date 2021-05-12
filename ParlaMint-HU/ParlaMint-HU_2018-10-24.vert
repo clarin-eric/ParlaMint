@@ -1,7 +1,7 @@
 <text id="ParlaMint-HU_2018-10-24.ana" subcorpus="COVID" term="8" session="-" meeting="-" sitting="-" agenda="-" from="2018-10-24" to="2018-10-24" title="Minutes of the National Assembly of Hungary, Term 8">
-<speech id="ParlaMint-HU_2018-10-24-urgent_question-AC8_2943_segmented" speaker_role="Regular" speaker_id="SándorSzékely" speaker_name="Székely, Sándor" speaker_type="MP" speaker_party="DK" speaker_party_name="Demokratikus Koalíció" coalition_party="?" speaker_gender="M" speaker_birth="1977">
+<speech id="ParlaMint-HU_2018-10-24-urgent_question-AC8_2943_segmented" speaker_role="Regular" speaker_id="SándorSzékely" speaker_name="Székely, Sándor" speaker_type="MP" speaker_party="DK" speaker_party_name="Demokratikus Koalíció" party_status="-" speaker_gender="M" speaker_birth="1977">
 <note type="-">
-/SZÉKELY SÁNDOR (DK):/	-	-	-	-	-	-	-	-	-	-
+[SZÉKELY SÁNDOR (DK):]										
 </note>
 <p id="AC8_2943.1" lang="Hungarian">
 <s id="AC8_2943_2.1.1">
@@ -363,12 +363,12 @@ szépen	szépen	szép	ADJ	Case=Ess Degree=Pos Number=Sing	2	amod:mode	köszön	N
 </s>
 </p>
 <note type="kinesic:applause">
-/Taps az ellenzék soraiból./	-	-	-	-	-	-	-	-	-	-
+[Taps az ellenzék soraiból.]										
 </note>
 </speech>
-<speech id="ParlaMint-HU_2018-10-24-urgent_question-AC8_2944_segmented" speaker_role="Regular" speaker_id="IldikóBangónéBorbély" speaker_name="Bangóné Borbély, Ildikó" speaker_type="MP" speaker_party="MSZP" speaker_party_name="Magyar Szocialista Párt" coalition_party="?" speaker_gender="F" speaker_birth="1972">
+<speech id="ParlaMint-HU_2018-10-24-urgent_question-AC8_2944_segmented" speaker_role="Regular" speaker_id="IldikóBangónéBorbély" speaker_name="Bangóné Borbély, Ildikó" speaker_type="MP" speaker_party="MSZP" speaker_party_name="Magyar Szocialista Párt" party_status="-" speaker_gender="F" speaker_birth="1972">
 <note type="-">
-/BANGÓNÉ BORBÉLY ILDIKÓ (MSZP):/	-	-	-	-	-	-	-	-	-	-
+[BANGÓNÉ BORBÉLY ILDIKÓ (MSZP):]										
 </note>
 <p id="AC8_2944.1" lang="Hungarian">
 <s id="AC8_2944_2.1.1">
@@ -770,7 +770,7 @@ szed	szed	szed	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Pres VerbFo
 </s>
 </p>
 <note type="kinesic:signal">
-/Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét./	-	-	-	-	-	-	-	-	-	-
+[Az elnök a csengő megkocogtatásával jelzi az időkeret leteltét.]										
 </note>
 <p id="AC8_2944.4" lang="Hungarian">
 <s id="AC8_2944_2.4.1">
@@ -793,15 +793,15 @@ válaszát	válaszát	válasz	NOUN	Case=Acc Number=Sing Number[psor]=Sing Person
 </s>
 </p>
 <note type="kinesic:applause">
-/Taps az MSZP soraiban./	-	-	-	-	-	-	-	-	-	-
+[Taps az MSZP soraiban.]										
 </note>
 </speech>
 <note type="gap::editorial">
-/SAMPLING/	-	-	-	-	-	-	-	-	-	-
+[SAMPLING]										
 </note>
-<speech id="ParlaMint-HU_2018-10-24-urgent_question-AC8_2956_segmented" speaker_role="Regular" speaker_id="ImreVejkey" speaker_name="Vejkey, Imre" speaker_type="MP" speaker_party="KDNP" speaker_party_name="Kereszténydemokrata Néppárt" coalition_party="?" speaker_gender="M" speaker_birth="1964">
+<speech id="ParlaMint-HU_2018-10-24-urgent_question-AC8_2956_segmented" speaker_role="Regular" speaker_id="ImreVejkey" speaker_name="Vejkey, Imre" speaker_type="MP" speaker_party="KDNP" speaker_party_name="Kereszténydemokrata Néppárt" party_status="-" speaker_gender="M" speaker_birth="1964">
 <note type="-">
-/DR. VEJKEY IMRE (KDNP):/	-	-	-	-	-	-	-	-	-	-
+[DR. VEJKEY IMRE (KDNP):]										
 </note>
 <p id="AC8_2956.1" lang="Hungarian">
 <s id="AC8_2956_2.1.1">
@@ -1099,12 +1099,12 @@ Köszönöm	Köszönöm	Köszönöm	PROPN	Case=Nom Number=Sing	1	root	-	-	-	-
 </s>
 </p>
 <note type="kinesic:applause">
-/Taps a kormánypárti padsorokból./	-	-	-	-	-	-	-	-	-	-
+[Taps a kormánypárti padsorokból.]										
 </note>
 </speech>
-<speech id="ParlaMint-HU_2018-10-24-urgent_question-AC8_2957_segmented" speaker_role="Regular" speaker_id="GyörgyHubay" speaker_name="Hubay, György" speaker_type="MP" speaker_party="Fidesz" speaker_party_name="Fidesz – Magyar Polgári Szövetség" coalition_party="?" speaker_gender="M" speaker_birth="?">
+<speech id="ParlaMint-HU_2018-10-24-urgent_question-AC8_2957_segmented" speaker_role="Regular" speaker_id="GyörgyHubay" speaker_name="Hubay, György" speaker_type="MP" speaker_party="Fidesz" speaker_party_name="Fidesz – Magyar Polgári Szövetség" party_status="-" speaker_gender="M" speaker_birth="-">
 <note type="-">
-/HUBAY GYÖRGY (Fidesz):/	-	-	-	-	-	-	-	-	-	-
+[HUBAY GYÖRGY (Fidesz):]										
 </note>
 <p id="AC8_2957.1" lang="Hungarian">
 <s id="AC8_2957_2.1.1">
@@ -1382,7 +1382,7 @@ számukra	számukra	számára	PRON	Case=Nom Number=Plur Person=3 PronType=Prs	24
 </s>
 </p>
 <note type="kinesic:noise">
-/Folyamatos közbeszólások a Jobbik és az LMP soraiból./	-	-	-	-	-	-	-	-	-	-
+[Folyamatos közbeszólások a Jobbik és az LMP soraiból.]										
 </note>
 <p id="AC8_2957.3" lang="Hungarian">
 <s id="AC8_2957_2.3.1">
@@ -1495,7 +1495,7 @@ asszony	asszony	asszony	NOUN	Case=Nom Number=Sing	21	nsubj	átlép	VERB	Definite
 </s>
 </p>
 <note type="kinesic:noise">
-/Folyamatos közbeszólások az ellenzéki padsorokból, többek között: Elég legyen ebből! Hazudsz! Lejárt az idő. Az elnök csenget./	-	-	-	-	-	-	-	-	-	-
+[Folyamatos közbeszólások az ellenzéki padsorokból, többek között: Elég legyen ebből! Hazudsz! Lejárt az idő. Az elnök csenget.]										
 </note>
 <p id="AC8_2957.5" lang="Hungarian">
 <s id="AC8_2957_2.5.1">
@@ -1534,7 +1534,7 @@ válaszát	válaszát	válasz	NOUN	Case=Acc Number=Sing Number[psor]=Sing Person
 </s>
 </p>
 <note type="kinesic:applause">
-/Taps a kormánypárti padsorokban./	-	-	-	-	-	-	-	-	-	-
+[Taps a kormánypárti padsorokban.]										
 </note>
 </speech>
 </text>

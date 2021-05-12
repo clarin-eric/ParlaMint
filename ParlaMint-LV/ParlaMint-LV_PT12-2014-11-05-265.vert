@@ -1,8 +1,8 @@
 <text id="ParlaMint-LV_PT12-2014-11-05-265.ana" subcorpus="Reference" term="13" session="-" meeting="-" sitting="-" agenda="-" from="2014-11-05" to="2014-11-05" title="Latvijas parlamenta corpus ParlaMint-LV, 12. Saeima, 2014-11-05 [ParlaMint.ana SAMPLE]">
 <note type="speaker">
-/Sēdes vadītāja./	-	-	-	-	-	-	-	-	-	-
+[Sēdes vadītāja.]										
 </note>
-<speech id="ParlaMint-LV_PT12-2014-11-05-265-U1" speaker_role="Chairperson" speaker_id="MūrnieceInāra" speaker_name="Mūrniece, Ināra" speaker_type="notMP" speaker_party="-" speaker_party_name="-" coalition_party="?" speaker_gender="F" speaker_birth="?">
+<speech id="ParlaMint-LV_PT12-2014-11-05-265-U1" speaker_role="Chairperson" speaker_id="MūrnieceInāra" speaker_name="Mūrniece, Ināra" speaker_type="notMP" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="F" speaker_birth="-">
 <p id="ParlaMint-LV_PT12-2014-11-05-265-U1-P1" lang="Latvian">
 <s id="ParlaMint-LV_PT12-2014-11-05-265-U1-P1.1">
 Godātie	Godātie	godāts	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Plur	1	amod	deputāts	NOUN	Case=Nom Gender=Masc Number=Plur	2
@@ -98,9 +98,9 @@ Latkovskis	Latkovskis	Latkovskis	NOUN	Case=Nom Gender=Masc Number=Sing	12	flat:n
 </p>
 </speech>
 <note type="speaker">
-/A.Latkovskis (VIENOTĪBA)./	-	-	-	-	-	-	-	-	-	-
+[A.Latkovskis (VIENOTĪBA).]										
 </note>
-<speech id="ParlaMint-LV_PT12-2014-11-05-265-U2" speaker_role="Deputy" speaker_id="LatkovskisAinars" speaker_name="Latkovskis, Ainars" speaker_type="MP" speaker_party="VIENOTĪBA" speaker_party_name="VIENOTĪBA" coalition_party="?" speaker_gender="M" speaker_birth="?">
+<speech id="ParlaMint-LV_PT12-2014-11-05-265-U2" speaker_role="Regular" speaker_id="LatkovskisAinars" speaker_name="Latkovskis, Ainars" speaker_type="MP" speaker_party="VIENOTĪBA" speaker_party_name="VIENOTĪBA" party_status="-" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-LV_PT12-2014-11-05-265-U2-P1" lang="Latvian">
 <s id="ParlaMint-LV_PT12-2014-11-05-265-U2-P1.1">
 Kolēģi	Kolēģi	kolēģis	NOUN	Case=Voc Gender=Masc Number=Plur	1	root	-	-	-	-
@@ -161,9 +161,9 @@ apstiprināt	apstiprināt	apstiprināt	VERB	Polarity=Pos VerbForm=Inf	2	ccomp	ai
 </p>
 </speech>
 <note type="gap::editorial">
-/SAMPLING/	-	-	-	-	-	-	-	-	-	-
+[SAMPLING]										
 </note>
-<speech id="ParlaMint-LV_PT12-2014-11-05-265-U49" speaker_role="Chairperson" speaker_id="MūrnieceInāra" speaker_name="Mūrniece, Ināra" speaker_type="notMP" speaker_party="-" speaker_party_name="-" coalition_party="?" speaker_gender="F" speaker_birth="?">
+<speech id="ParlaMint-LV_PT12-2014-11-05-265-U49" speaker_role="Chairperson" speaker_id="MūrnieceInāra" speaker_name="Mūrniece, Ināra" speaker_type="notMP" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="F" speaker_birth="-">
 <p id="ParlaMint-LV_PT12-2014-11-05-265-U49-P1" lang="Latvian">
 <s id="ParlaMint-LV_PT12-2014-11-05-265-U49-P1.1">
 Paldies	Paldies	paldies	INTJ	-	1	root	-	-	-	-
@@ -190,9 +190,9 @@ nolasīšanai	nolasīšanai	nolasīšana	NOUN	Case=Dat Gender=Fem Number=Sing	9	
 </p>
 </speech>
 <note type="speaker">
-/G.Kūtris (12.Saeimas sekretāra biedrs)./	-	-	-	-	-	-	-	-	-	-
+[G.Kūtris (12.Saeimas sekretāra biedrs).]										
 </note>
-<speech id="ParlaMint-LV_PT12-2014-11-05-265-U50" speaker_role="Guest" speaker_id="KūtrisGunārs" speaker_name="Kūtris, Gunārs" speaker_type="notMP" speaker_party="-" speaker_party_name="-" coalition_party="?" speaker_gender="M" speaker_birth="?">
+<speech id="ParlaMint-LV_PT12-2014-11-05-265-U50" speaker_role="Guest" speaker_id="KūtrisGunārs" speaker_name="Kūtris, Gunārs" speaker_type="notMP" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-LV_PT12-2014-11-05-265-U50-P1" lang="Latvian">
 <s id="ParlaMint-LV_PT12-2014-11-05-265-U50-P1.1">
 Cienījamie	Cienījamie	cienīt	VERB	Case=Voc Definite=Def Degree=Pos Gender=Masc Number=Plur Polarity=Pos Tense=Pres VerbForm=Part Voice=Pass	1	amod	deputāts	NOUN	Case=Voc Gender=Masc Number=Plur	2

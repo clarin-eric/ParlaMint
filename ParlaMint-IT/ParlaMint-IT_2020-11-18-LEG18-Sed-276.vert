@@ -1,11 +1,11 @@
 <text id="ParlaMint-IT_2020-11-18-LEG18-Sed-276.ana" subcorpus="COVID" term="18-upper" session="-" meeting="-" sitting="276-upper" agenda="-" from="2020-11-18" to="2020-11-18" title="Report of the session of the Senate of the Italian Republic, Term 18, Sitting 276, Day (2020-11-18)">
 <note type="president">
-/Presidenza del vice presidente CALDEROLI/	-	-	-	-	-	-	-	-	-	-
+[Presidenza del vice presidente CALDEROLI]										
 </note>
 <note type="role">
-/PRESIDENTE/	-	-	-	-	-	-	-	-	-	-
+[PRESIDENTE]										
 </note>
-<speech id="ParlaMint-IT_2020-11-18-LEG18-Sed-276.u1" speaker_role="Chairperson" speaker_id="CalderoliRoberto" speaker_name="Calderoli, Roberto" speaker_type="MP" speaker_party="L-SP-PSd'Az" speaker_party_name="Lega-Salvini Premier-Partito Sardo d'Azione" coalition_party="no" speaker_gender="M" speaker_birth="1956">
+<speech id="ParlaMint-IT_2020-11-18-LEG18-Sed-276.u1" speaker_role="Chairperson" speaker_id="CalderoliRoberto" speaker_name="Calderoli, Roberto" speaker_type="MP" speaker_party="L-SP-PSd'Az" speaker_party_name="Lega-Salvini Premier-Partito Sardo d'Azione" party_status="opposition" speaker_gender="M" speaker_birth="1956">
 <p id="ParlaMint-IT_2020-11-18-LEG18-Sed-276.seg1" lang="Italian">
 <s id="ParlaMint-IT_2020-11-18-LEG18-Sed-276.seg1.1">
 La	La	il	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	1	det	seduta	NOUN	Gender=Fem Number=Sing	2
@@ -75,15 +75,15 @@ approvato	approvato	approvare	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=P
 </p>
 </speech>
 <note type="gap::editorial">
-/SAMPLING/	-	-	-	-	-	-	-	-	-	-
+[SAMPLING]										
 </note>
 <note type="head">
-/Comunicazioni della Presidenza/	-	-	-	-	-	-	-	-	-	-
+[Comunicazioni della Presidenza]										
 </note>
 <note type="role">
-/PRESIDENTE/	-	-	-	-	-	-	-	-	-	-
+[PRESIDENTE]										
 </note>
-<speech id="ParlaMint-IT_2020-11-18-LEG18-Sed-276.u2" speaker_role="Chairperson" speaker_id="CalderoliRoberto" speaker_name="Calderoli, Roberto" speaker_type="MP" speaker_party="L-SP-PSd'Az" speaker_party_name="Lega-Salvini Premier-Partito Sardo d'Azione" coalition_party="no" speaker_gender="M" speaker_birth="1956">
+<speech id="ParlaMint-IT_2020-11-18-LEG18-Sed-276.u2" speaker_role="Chairperson" speaker_id="CalderoliRoberto" speaker_name="Calderoli, Roberto" speaker_type="MP" speaker_party="L-SP-PSd'Az" speaker_party_name="Lega-Salvini Premier-Partito Sardo d'Azione" party_status="opposition" speaker_gender="M" speaker_birth="1956">
 <p id="ParlaMint-IT_2020-11-18-LEG18-Sed-276.seg2" lang="Italian">
 <s id="ParlaMint-IT_2020-11-18-LEG18-Sed-276.seg2.1">
 L'	A|IL	a|il	ADP|DET	-|Definite=Def Gender=Masc Number=Sing PronType=Art	1|2	case|det	elenco	NOUN	Gender=Masc Number=Sing	3
@@ -131,9 +131,9 @@ odierna	odierna	odierno	ADJ	Gender=Fem Number=Sing	36	amod	seduta	NOUN	Gender=Fe
 </p>
 </speech>
 <note type="gap::editorial">
-/SAMPLING/	-	-	-	-	-	-	-	-	-	-
+[SAMPLING]										
 </note>
-<speech id="ParlaMint-IT_2020-11-18-LEG18-Sed-276.u8" speaker_role="Chairperson" speaker_id="CalderoliRoberto" speaker_name="Calderoli, Roberto" speaker_type="MP" speaker_party="L-SP-PSd'Az" speaker_party_name="Lega-Salvini Premier-Partito Sardo d'Azione" coalition_party="no" speaker_gender="M" speaker_birth="1956">
+<speech id="ParlaMint-IT_2020-11-18-LEG18-Sed-276.u8" speaker_role="Chairperson" speaker_id="CalderoliRoberto" speaker_name="Calderoli, Roberto" speaker_type="MP" speaker_party="L-SP-PSd'Az" speaker_party_name="Lega-Salvini Premier-Partito Sardo d'Azione" party_status="opposition" speaker_gender="M" speaker_birth="1956">
 <p id="ParlaMint-IT_2020-11-18-LEG18-Sed-276.seg9" lang="Italian">
 <s id="ParlaMint-IT_2020-11-18-LEG18-Sed-276.seg9.1">
 Le	Di|i	di|il	ADP|DET	-|Definite=Def Gender=Masc Number=Plur PronType=Art	1|2	case|det	mozione	NOUN	Gender=Fem Number=Plur	3
@@ -199,12 +199,12 @@ odierna	odierna	odierno	ADJ	Gender=Fem Number=Sing	55	amod	seduta	NOUN	Gender=Fe
 </p>
 </speech>
 <note type="head">
-/Ordine del giorno per la seduta di mercoledì 25 novembre 2020/	-	-	-	-	-	-	-	-	-	-
+[Ordine del giorno per la seduta di mercoledì 25 novembre 2020]										
 </note>
 <note type="role">
-/PRESIDENTE/	-	-	-	-	-	-	-	-	-	-
+[PRESIDENTE]										
 </note>
-<speech id="ParlaMint-IT_2020-11-18-LEG18-Sed-276.u9" speaker_role="Chairperson" speaker_id="CalderoliRoberto" speaker_name="Calderoli, Roberto" speaker_type="MP" speaker_party="L-SP-PSd'Az" speaker_party_name="Lega-Salvini Premier-Partito Sardo d'Azione" coalition_party="no" speaker_gender="M" speaker_birth="1956">
+<speech id="ParlaMint-IT_2020-11-18-LEG18-Sed-276.u9" speaker_role="Chairperson" speaker_id="CalderoliRoberto" speaker_name="Calderoli, Roberto" speaker_type="MP" speaker_party="L-SP-PSd'Az" speaker_party_name="Lega-Salvini Premier-Partito Sardo d'Azione" party_status="opposition" speaker_gender="M" speaker_birth="1956">
 <p id="ParlaMint-IT_2020-11-18-LEG18-Sed-276.seg10" lang="Italian">
 <s id="ParlaMint-IT_2020-11-18-LEG18-Sed-276.seg10.1">
 Il	Il	il	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	1	det	Senato	PROPN	-	2

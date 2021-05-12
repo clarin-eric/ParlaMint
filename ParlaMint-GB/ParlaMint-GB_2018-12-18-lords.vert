@@ -1,14 +1,14 @@
 <text id="ParlaMint-GB_2018-12-18-lords.ana" subcorpus="Reference" term="57" session="-" meeting="-" sitting="-" agenda="-" from="2018-12-18" to="2018-12-18" title="Minutes of the House of Lords, Daily Session 2018-12-18">
 <note type="head">
-/Nigeria: Intercommunal Violence/	-	-	-	-	-	-	-	-	-	-
+[Nigeria: Intercommunal Violence]										
 </note>
 <note type="-">
-/Question/	-	-	-	-	-	-	-	-	-	-
+[Question]										
 </note>
 <note type="-">
-/Asked by/	-	-	-	-	-	-	-	-	-	-
+[Asked by]										
 </note>
-<speech id="ParlaMint-GB_2018-12-18-lords.u1" speaker_role="Regular" speaker_id="RanbirSuri" speaker_name="Suri, Ranbir" speaker_type="notMP" speaker_party="CON" speaker_party_name="Conservative" coalition_party="?" speaker_gender="M" speaker_birth="?">
+<speech id="ParlaMint-GB_2018-12-18-lords.u1" speaker_role="Regular" speaker_id="RanbirSuri" speaker_name="Suri, Ranbir" speaker_type="MP" speaker_party="CON" speaker_party_name="Conservative" party_status="-" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GB_2018-12-18-lords.seg1" lang="English">
 <s id="ParlaMint-GB_2018-12-18-lords.seg1.1">
 To	To	to	PART	-	1	mark	ask	VERB	VerbForm=Inf	2
@@ -68,7 +68,7 @@ violence	violence	violence	NOUN	Number=Sing	50	nmod	continuance	NOUN	Number=Sing
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-GB_2018-12-18-lords.u2" speaker_role="Regular" speaker_id="TariqAhmad" speaker_name="Ahmad, Tariq" speaker_type="notMP" speaker_party="CON" speaker_party_name="Conservative" coalition_party="?" speaker_gender="M" speaker_birth="?">
+<speech id="ParlaMint-GB_2018-12-18-lords.u2" speaker_role="Regular" speaker_id="TariqAhmad" speaker_name="Ahmad, Tariq" speaker_type="MP" speaker_party="CON" speaker_party_name="Conservative" party_status="-" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GB_2018-12-18-lords.seg2" lang="English">
 <s id="ParlaMint-GB_2018-12-18-lords.seg2.1">
 My	My	my	DET	Number=Sing Person=1 Poss=Yes PronType=Prs	1	nmod:poss	Lords	PROPN	Number=Sing	2
@@ -169,9 +169,9 @@ efforts	efforts	effort	NOUN	Number=Plur	33	conj	dialogue	NOUN	Number=Sing	30
 </p>
 </speech>
 <note type="gap::editorial">
-/SAMPLING/	-	-	-	-	-	-	-	-	-	-
+[SAMPLING]										
 </note>
-<speech id="ParlaMint-GB_2018-12-18-lords.u182" speaker_role="Regular" speaker_id="RobertStevenson" speaker_name="Stevenson, Robert" speaker_type="notMP" speaker_party="LAB" speaker_party_name="Labour" coalition_party="?" speaker_gender="M" speaker_birth="?">
+<speech id="ParlaMint-GB_2018-12-18-lords.u182" speaker_role="Regular" speaker_id="RobertStevenson" speaker_name="Stevenson, Robert" speaker_type="MP" speaker_party="LAB" speaker_party_name="Labour" party_status="-" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GB_2018-12-18-lords.seg527" lang="English">
 <s id="ParlaMint-GB_2018-12-18-lords.seg527.1">
 My	My	my	DET	Number=Sing Person=1 Poss=Yes PronType=Prs	1	nmod:poss	Lords	PROPN	Number=Plur	2
@@ -1046,7 +1046,7 @@ forward	forward	forward	ADV	-	54	advmod	move	VERB	VerbForm=Inf	53
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-GB_2018-12-18-lords.u183" speaker_role="Regular" speaker_id="OliverEden" speaker_name="Eden, Oliver Michael Robert" speaker_type="notMP" speaker_party="CON" speaker_party_name="Conservative" coalition_party="?" speaker_gender="M" speaker_birth="?">
+<speech id="ParlaMint-GB_2018-12-18-lords.u183" speaker_role="Regular" speaker_id="OliverEden" speaker_name="Eden, Oliver Michael Robert" speaker_type="MP" speaker_party="CON" speaker_party_name="Conservative" party_status="-" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GB_2018-12-18-lords.seg532" lang="English">
 <s id="ParlaMint-GB_2018-12-18-lords.seg532.1">
 My	My	my	DET	Number=Sing Person=1 Poss=Yes PronType=Prs	1	nmod:poss	Lords	PROPN	Number=Sing	2
@@ -1559,12 +1559,12 @@ House	House	House	PROPN	Number=Sing	34	obl	commend	VERB	Mood=Ind Tense=Pres Verb
 </p>
 </speech>
 <note type="-">
-/Motions agreed./	-	-	-	-	-	-	-	-	-	-
+[Motions agreed.]										
 </note>
 <note type="-">
-/House adjourned at 9.46 pm./	-	-	-	-	-	-	-	-	-	-
+[House adjourned at 9.46 pm.]										
 </note>
 <note type="-">
-/End of debateSection./	-	-	-	-	-	-	-	-	-	-
+[End of debateSection.]										
 </note>
 </text>

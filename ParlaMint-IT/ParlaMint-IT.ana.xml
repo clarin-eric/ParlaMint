@@ -76,7 +76,7 @@
                <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2021-04-26">2021-04-26</date>
+            <date when="2021-05-08">2021-05-08</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -330,15 +330,15 @@
                </desc>
                <category xml:id="reference">
                   <catDesc xml:lang="it">
-                     <term>Reference</term>: reference subcorpus, fino al 30-09-2019</catDesc>
+                     <term>Reference</term>: reference subcorpus, fino al 31-10-2019</catDesc>
                   <catDesc xml:lang="en">
-                     <term>Reference</term>: reference subcorpus, until 2019-09-30</catDesc>
+                     <term>Reference</term>: reference subcorpus, until 2019-10-31</catDesc>
                </category>
                <category xml:id="covid">
                   <catDesc xml:lang="it">
-                     <term>COVID</term>: COVID subcorpus, dal 01-10-2019</catDesc>
+                     <term>COVID</term>: COVID subcorpus, dal 01-11-2019</catDesc>
                   <catDesc xml:lang="en">
-                     <term>COVID</term>: COVID subcorpus, from 2019-10-01 onwards</catDesc>
+                     <term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="NER">
@@ -683,7 +683,7 @@
                         <label xml:lang="it">Governo Conte (1 giugno 2018 - 5 settembre 2019)</label>
                         <label xml:lang="en">Government Conte (1 June 2018 - 5 September 2019)</label>
                      </event>
-                     <event from="2019-09-05" xml:id="GOV.CONTE.2">
+                     <event from="2019-09-05" to="2021-02-12" xml:id="GOV.CONTE.2">
                         <label xml:lang="it">Governo Conte II (5 settembre 2019 - 12 febbraio 2021)</label>
                         <label xml:lang="en">Government Conte II (5 September 2019 - 12 February 2021)</label>
                      </event>
@@ -1088,30 +1088,115 @@
                             name="renaming"
                             passive="#group.Aut.SVP.UV.PATT.UPT.PSI"
                             when="2013-07-10"/>
-                  <relation ana="#GOV.LETTA.1"
+                  <relation name="coalition"
+                            mutual="#group.PD #group.PdL #group.SCpI #group.Aut.SVP.UV.PATT.UPT.PSI"
                             from="2013-04-28"
-                            mutual="#group.PD #group.PdL #group.NCD #group.SCpI #group.Aut.SVP.UV.PATT.UPT.PSI"
-                            name="coalition"
-                            to="2014-02-22"/>
-                  <relation ana="#GOV.RENZI.1"
-                            from="2014-02-22"
+                            to="2013-07-09"
+                            ana="#GOV.LETTA.1"/>
+                  <relation name="coalition"
+                            mutual="#group.PD #group.PdL #group.SCpI #group.Aut.SVP.UV.PATT.UPT.PSI-MAIE"
+                            from="2013-07-10"
+                            to="2013-11-19"
+                            ana="#GOV.LETTA.1"/>
+                  <relation name="coalition"
                             mutual="#group.PD #group.NCD #group.PI #group.Aut.SVP.UV.PATT.UPT.PSI-MAIE"
-                            name="coalition"
+                            from="2013-11-20"
+                            to="2014-02-21"
+                            ana="#GOV.LETTA.1"/>
+                  <relation name="opposition"
+                            active="#group.LN-Aut #group.M5S.1"
+                            passive="#GOV.LETTA.1"
+                            from="2013-04-28"
+                            to="2013-11-19"/>
+                  <relation name="opposition"
+                            active="#group.FI-PdL.XVII #group.LN-Aut #group.M5S.1"
+                            passive="#GOV.LETTA.1"
+                            from="2013-11-20"
+                            to="2014-02-21"/>
+                  <relation name="coalition"
+                            mutual="#group.PD #group.NCD #group.PI #group.Aut.SVP.UV.PATT.UPT.PSI-MAIE"
+                            from="2014-02-22"
+                            to="2014-12-10"
+                            ana="#GOV.RENZI.1"/>
+                  <relation name="coalition"
+                            mutual="#group.PD #group.PI #group.AP.NCD-UDC #group.Aut.SVP.UV.PATT.UPT.PSI-MAIE"
+                            from="2014-12-11"
+                            to="2016-12-12"
+                            ana="#GOV.RENZI.1"/>
+                  <relation name="opposition"
+                            active="#group.FI-PdL.XVII #group.LN-Aut #group.M5S.1"
+                            passive="#GOV.RENZI.1"
+                            from="2014-02-22"
                             to="2016-12-12"/>
-                  <relation ana="#GOV.GENTILONI.1"
+                  <relation name="coalition"
+                            mutual="#group.PD #group.Aut.SVP.UV.PATT.UPT.PSI-MAIE"
                             from="2016-12-12"
+                            to="2017-05-08"
+                            ana="#GOV.GENTILONI.1"/>
+                  <relation name="coalition"
                             mutual="#group.PD #group.AP-CpE-NCD #group.Aut.SVP.UV.PATT.UPT.PSI-MAIE"
-                            name="coalition"
+                            from="2017-05-09"
+                            to="2018-03-22"
+                            ana="#GOV.GENTILONI.1"/>
+                  <relation name="coalition"
+                            mutual="#group.PD #group.Aut.SVP-PATT.UV"
+                            from="2018-03-23"
+                            to="2018-06-01"
+                            ana="#GOV.GENTILONI.1"/>
+                  <relation name="opposition"
+                            active="#group.FI-PdL.XVII #group.LN-Aut #group.M5S.1"
+                            passive="#GOV.GENTILONI.1"
+                            from="2016-12-12"
+                            to="2017-02-27"/>
+                  <relation name="opposition"
+                            active="#group.FI-PdL.XVII #group.LN-Aut #group.M5S.1 #group.Art.1-MDP"
+                            passive="#GOV.GENTILONI.1"
+                            from="2017-02-28"
+                            to="2017-12-12"/>
+                  <relation name="opposition"
+                            active="#group.FI-PdL.XVII #group.LN-Aut #group.M5S.1 #group.Art.1-MDP-LeU"
+                            passive="#GOV.GENTILONI.1"
+                            from="2017-12-13"
+                            to="2018-03-22"/>
+                  <relation name="opposition"
+                            active="#group.FI-BP #group.L-SP #group.FdI #group.M5S.2"
+                            passive="#GOV.GENTILONI.1"
+                            from="2018-03-23"
                             to="2018-06-01"/>
-                  <relation ana="#GOV.CONTE.1"
-                            from="2018-06-01"
+                  <relation name="coalition"
                             mutual="#group.M5S.2 #group.L-SP"
-                            name="coalition"
+                            from="2018-06-01"
+                            to="2018-07-29"
+                            ana="#GOV.CONTE.1"/>
+                  <relation name="coalition"
+                            mutual="#group.M5S.2 #group.L-SP-PSd.Az"
+                            from="2018-07-30"
+                            to="2019-09-05"
+                            ana="#GOV.CONTE.1"/>
+                  <relation name="opposition"
+                            active="#group.PD #group.FI-BP #group.FdI #group.Aut.SVP-PATT.UV"
+                            passive="#GOV.CONTE.1"
+                            from="2018-06-01"
                             to="2019-09-05"/>
-                  <relation ana="#GOV.CONTE.2"
+                  <relation name="coalition"
+                            mutual="#group.M5S.2 #group.PD #group.Aut.SVP-PATT.UV"
                             from="2019-09-05"
-                            mutual="#group.M5S.2 #group.PD #group.IV-PSI #group.Art.1-MDP-LeU #group.Aut.SVP-PATT.UV"
-                            name="coalition"
+                            to="2019-09-17"
+                            ana="#GOV.CONTE.2"/>
+                  <relation name="coalition"
+                            mutual="#group.M5S.2 #group.PD #group.IV-PSI #group.Aut.SVP-PATT.UV"
+                            from="2019-09-18"
+                            to="2021-02-12"
+                            ana="#GOV.CONTE.2"/>
+                  <relation name="opposition"
+                            active="#group.FI-BP #group.L-SP-PSd.Az #group.FdI"
+                            passive="#GOV.CONTE.2"
+                            from="2019-09-05"
+                            to="2019-12-10"/>
+                  <relation name="opposition"
+                            active="#group.FIBP-UDC #group.L-SP-PSd.Az #group.FdI"
+                            passive="#GOV.CONTE.2"
+                            from="2019-12-11"
                             to="2021-02-12"/>
                </listRelation>
             </listOrg>

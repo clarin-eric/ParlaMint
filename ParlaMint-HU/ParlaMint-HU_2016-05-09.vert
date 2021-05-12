@@ -1,7 +1,7 @@
 <text id="ParlaMint-HU_2016-05-09.ana" subcorpus="Reference" term="7" session="-" meeting="-" sitting="-" agenda="-" from="2016-05-09" to="2016-05-09" title="Minutes of the National Assembly of Hungary, Term 7">
-<speech id="ParlaMint-HU_2016-05-09-interpellation-IC7_10331_segmented" speaker_role="Regular" speaker_id="LászlóKiss" speaker_name="Kiss, László" speaker_type="MP" speaker_party="MSZP" speaker_party_name="Magyar Szocialista Párt" coalition_party="?" speaker_gender="M" speaker_birth="1979">
+<speech id="ParlaMint-HU_2016-05-09-interpellation-IC7_10331_segmented" speaker_role="Regular" speaker_id="LászlóKiss" speaker_name="Kiss, László" speaker_type="MP" speaker_party="MSZP" speaker_party_name="Magyar Szocialista Párt" party_status="-" speaker_gender="M" speaker_birth="1979">
 <note type="-">
-/KISS LÁSZLÓ (MSZP):/	-	-	-	-	-	-	-	-	-	-
+[KISS LÁSZLÓ (MSZP):]										
 </note>
 <p id="IC7_10331.1" lang="Hungarian">
 <s id="IC7_10331_2.1.1">
@@ -517,7 +517,7 @@ választanak	választanak	választ	VERB	Definite=Ind Mood=Imp Number=Plur Person
 </s>
 </p>
 <note type="kinesic:signal">
-/Az elnök a csengő megkocogtatásával jelzi az idő leteltét./	-	-	-	-	-	-	-	-	-	-
+[Az elnök a csengő megkocogtatásával jelzi az idő leteltét.]										
 </note>
 <p id="IC7_10331.2" lang="Hungarian">
 <s id="IC7_10331_2.2.1">
@@ -572,7 +572,7 @@ meghallgattak	meghallgattak	meg+hallg	VERB	Definite=Ind Mood=Ind Number=Plur Per
 </s>
 </p>
 <note type="kinesic:applause">
-/Taps az MSZP soraiban./	-	-	-	-	-	-	-	-	-	-
+[Taps az MSZP soraiban.]										
 </note>
 <p id="IC7_10331.3" lang="Hungarian">
 <s id="IC7_10331_2.3.1">
@@ -586,9 +586,9 @@ lt;andgt	lt;andgt	lt;andg	NOUN	Case=Acc Number=Sing	4	parataxis	felszólalás	NO
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-HU_2016-05-09-interpellation-IC7_10493_segmented" speaker_role="Regular" speaker_id="GyörgySzilágyi" speaker_name="Szilágyi, György" speaker_type="MP" speaker_party="Jobbik" speaker_party_name="Jobbik Magyarországért Mozgalom" coalition_party="?" speaker_gender="M" speaker_birth="1966">
+<speech id="ParlaMint-HU_2016-05-09-interpellation-IC7_10493_segmented" speaker_role="Regular" speaker_id="GyörgySzilágyi" speaker_name="Szilágyi, György" speaker_type="MP" speaker_party="Jobbik" speaker_party_name="Jobbik Magyarországért Mozgalom" party_status="-" speaker_gender="M" speaker_birth="1966">
 <note type="-">
-/SZILÁGYI GYÖRGY (Jobbik):/	-	-	-	-	-	-	-	-	-	-
+[SZILÁGYI GYÖRGY (Jobbik):]										
 </note>
 <p id="IC7_10493.1" lang="Hungarian">
 <s id="IC7_10493_2.1.1">
@@ -1149,7 +1149,7 @@ törvénysértéseket	törvénysértéseket	törvénysértés	NOUN	Case=Acc Numb
 </s>
 </p>
 <note type="kinesic:applause">
-/Taps a Jobbik soraiban./	-	-	-	-	-	-	-	-	-	-
+[Taps a Jobbik soraiban.]										
 </note>
 <p id="IC7_10493.5" lang="Hungarian">
 <s id="IC7_10493_2.5.1">
@@ -1164,11 +1164,11 @@ lt;andgt	lt;andgt	lt;andg	NOUN	Case=Acc Number=Sing	4	parataxis	felszólalás	NO
 </p>
 </speech>
 <note type="gap::editorial">
-/SAMPLING/	-	-	-	-	-	-	-	-	-	-
+[SAMPLING]										
 </note>
-<speech id="ParlaMint-HU_2016-05-09-urgent_question-AC7_10615_segmented" speaker_role="Regular" speaker_id="RolandMengyi" speaker_name="Mengyi, Roland" speaker_type="MP" speaker_party="Fidesz" speaker_party_name="Fidesz – Magyar Polgári Szövetség" coalition_party="?" speaker_gender="M" speaker_birth="1975">
+<speech id="ParlaMint-HU_2016-05-09-urgent_question-AC7_10615_segmented" speaker_role="Regular" speaker_id="RolandMengyi" speaker_name="Mengyi, Roland" speaker_type="MP" speaker_party="Fidesz" speaker_party_name="Fidesz – Magyar Polgári Szövetség" party_status="-" speaker_gender="M" speaker_birth="1975">
 <note type="-">
-/DR. MENGYI ROLAND (Fidesz):/	-	-	-	-	-	-	-	-	-	-
+[DR. MENGYI ROLAND (Fidesz):]										
 </note>
 <p id="AC7_10615.1" lang="Hungarian">
 <s id="AC7_10615_2.1.1">
@@ -1553,12 +1553,12 @@ adóévben	adóévben	adóév	NOUN	Case=Ine Number=Sing	13	nmod:obl	tesz	VERB	Ve
 </s>
 </p>
 <note type="kinesic:applause">
-/Taps a kormánypártok soraiban./	-	-	-	-	-	-	-	-	-	-
+[Taps a kormánypártok soraiban.]										
 </note>
 </speech>
-<speech id="ParlaMint-HU_2016-05-09-urgent_question-AC7_10616_segmented" speaker_role="Regular" speaker_id="JenőManninger" speaker_name="Manninger, Jenő" speaker_type="MP" speaker_party="Fidesz" speaker_party_name="Fidesz – Magyar Polgári Szövetség" coalition_party="?" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-HU_2016-05-09-urgent_question-AC7_10616_segmented" speaker_role="Regular" speaker_id="JenőManninger" speaker_name="Manninger, Jenő" speaker_type="MP" speaker_party="Fidesz" speaker_party_name="Fidesz – Magyar Polgári Szövetség" party_status="-" speaker_gender="M" speaker_birth="1955">
 <note type="-">
-/MANNINGER JENŐ (Fidesz):/	-	-	-	-	-	-	-	-	-	-
+[MANNINGER JENŐ (Fidesz):]										
 </note>
 <p id="AC7_10616.1" lang="Hungarian">
 <s id="AC7_10616_2.1.1">
@@ -1686,7 +1686,7 @@ pályára	pályára	pálya	NOUN	Case=Sub Number=Sing	52	nmod:obl	állít	VERB	De
 </s>
 </p>
 <note type="kinesic:noise">
-/Zaj, mozgás. - Számos képviselő elhagyja a termet./	-	-	-	-	-	-	-	-	-	-
+[Zaj, mozgás. - Számos képviselő elhagyja a termet.]										
 </note>
 <p id="AC7_10616.3" lang="Hungarian">
 <s id="AC7_10616_2.3.1">
@@ -1762,7 +1762,7 @@ oldalára	oldalára	oldal	NOUN	Case=Sub Number=Sing Number[psor]=Sing Person[pso
 </s>
 </p>
 <note type="kinesic:noise">
-/Folyamatos zaj. - Az elnök megkocogtatja a csengőt./	-	-	-	-	-	-	-	-	-	-
+[Folyamatos zaj. - Az elnök megkocogtatja a csengőt.]										
 </note>
 <p id="AC7_10616.4" lang="Hungarian">
 <s id="AC7_10616_2.4.1">

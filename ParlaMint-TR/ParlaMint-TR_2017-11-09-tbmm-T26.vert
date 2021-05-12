@@ -1,11 +1,11 @@
 <text id="ParlaMint-TR_2017-11-09-tbmm-T26.ana" subcorpus="Reference" term="26" session="20" meeting="-" sitting="-" agenda="-" from="2014-08-25" to="2014-08-25" title="The Turkish parliamentary corpus ParlaMint-TR, Term 26, Session 20 [ParlaMint.ana SAMPLE]">
 <note type="time">
-/14.04/	-	-	-	-	-	-	-	-	-	-
+[14.04]										
 </note>
 <note type="chair">
-/Ahmet Aydın/	-	-	-	-	-	-	-	-	-	-
+[Ahmet Aydın]										
 </note>
-<speech id="tbmm-2017-11-09s01p001" speaker_role="Regular" speaker_id="Ahmet.Aydın" speaker_name="Aydın, Ahmet" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" coalition_party="?" speaker_gender="M" speaker_birth="?">
+<speech id="tbmm-2017-11-09s01p001" speaker_role="Regular" speaker_id="Ahmet.Aydın" speaker_name="Aydın, Ahmet" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="coalition" speaker_gender="M" speaker_birth="-">
 <p id="tbmm-2017-11-09s01p001.seg0" lang="Turkish">
 <s id="tbmm-2017-11-09s01p001-000010">
 <name type="ORG">
@@ -22,7 +22,7 @@ açıyorum	açıyorum	aç	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Perso
 </s>
 </p>
 </speech>
-<speech id="tbmm-2017-11-09s01p002" speaker_role="Regular" speaker_id="Ahmet.Aydın" speaker_name="Aydın, Ahmet" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" coalition_party="?" speaker_gender="M" speaker_birth="?">
+<speech id="tbmm-2017-11-09s01p002" speaker_role="Regular" speaker_id="Ahmet.Aydın" speaker_name="Aydın, Ahmet" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="coalition" speaker_gender="M" speaker_birth="-">
 <p id="tbmm-2017-11-09s01p002.seg0" lang="Turkish">
 <s id="tbmm-2017-11-09s01p002-000010">
 <name type="ORG">
@@ -39,9 +39,9 @@ yapacağ	yapacağ	yap	VERB	Case=Nom Number=Sing Tense=Fut VerbForm=Part	t4	root	
 </p>
 </speech>
 <note type="gap::editorial">
-/SAMPLING/	-	-	-	-	-	-	-	-	-	-
+[SAMPLING]										
 </note>
-<speech id="tbmm-2017-11-09s06p011" speaker_role="Regular" speaker_id="Ahmet.Aydın" speaker_name="Aydın, Ahmet" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" coalition_party="?" speaker_gender="M" speaker_birth="?">
+<speech id="tbmm-2017-11-09s06p011" speaker_role="Regular" speaker_id="Ahmet.Aydın" speaker_name="Aydın, Ahmet" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="coalition" speaker_gender="M" speaker_birth="-">
 <p id="tbmm-2017-11-09s06p011.seg0" lang="Turkish">
 <s id="tbmm-2017-11-09s06p011-000010">
 Gündemimizde	Gündemimizde	gündem	NOUN	Case=Loc Number=Sing Number[psor]=Plur Person[psor]=1	t1	obl	bul	VERB	Case=Abl Number=Sing Number[psor]=Sing Person[psor]=3 Polarity=Neg Tense=Past VerbForm=Part Voice=Pass	t5
@@ -91,7 +91,7 @@ kapatıyorum	kapatıyorum	kapa	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing 
 </s>
 </p>
 </speech>
-<speech id="tbmm-2017-11-09s06p012" speaker_role="Regular" speaker_id="Ahmet.Aydın" speaker_name="Aydın, Ahmet" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" coalition_party="?" speaker_gender="M" speaker_birth="?">
+<speech id="tbmm-2017-11-09s06p012" speaker_role="Regular" speaker_id="Ahmet.Aydın" speaker_name="Aydın, Ahmet" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="coalition" speaker_gender="M" speaker_birth="-">
 <p id="tbmm-2017-11-09s06p012.seg0" lang="Turkish">
 <s id="tbmm-2017-11-09s06p012-000010">
 Çalışmalarınızdan	Çalışmalarınızdan	çalış	VERB	Case=Abl Number=Plur Number[psor]=Plur Person[psor]=2 VerbForm=Vnoun	t1	nmod	et	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres	t4

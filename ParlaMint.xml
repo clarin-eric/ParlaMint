@@ -36,6 +36,7 @@
             </respStmt>
             <respStmt n="ParlaMint-CZ">
                <persName>Matyáš Kopp</persName>
+               <resp>Data retrieval</resp>
                <resp>TEI XML corpus encoding</resp>
             </respStmt>
             <respStmt n="ParlaMint-DK">
@@ -71,6 +72,7 @@
             </respStmt>
             <respStmt n="ParlaMint-IS">
                <persName>Starkaður Barkarson</persName>
+               <persName>Steinþór Steingrímsson</persName>
                <resp>Collection and processing of texts. TEI encoding.</resp>
             </respStmt>
             <respStmt n="ParlaMint-IT">
@@ -132,6 +134,9 @@
                <orgName xml:lang="en">the European Commission</orgName>
                <orgName xml:lang="en">Dutch Language Institute</orgName>
             </funder>
+            <funder n="ParlaMint-CZ">
+               <orgName xml:lang="en">LINDAT/CLARIAH-CZ: Digital Research Infrastructure for Language Technologies, Arts and Humanities</orgName>
+            </funder>
             <funder n="ParlaMint-DK">
                <orgName xml:lang="en">European Commission</orgName>
                <orgName xml:lang="en">Department of Nordic Studies and Linguistics (NorS), University of Copenhagen</orgName>
@@ -147,14 +152,18 @@
                <orgName xml:lang="en">Institute of Computer Science, Polish Academy of Sciences</orgName>
                <orgName xml:lang="en">Ministry of Science and Higher Education, Poland</orgName>
             </funder>
+            <funder n="ParlaMint-SI">
+               <orgName xml:lang="en">The Slovenian research infrastructure CLARIN.SI</orgName>
+               <orgName xml:lang="en">Slovenian Research Agency Programme P6-0411 "Language Resources and Technologies for Slovene"</orgName>
+            </funder>
          </titleStmt>
          <editionStmt>
             <edition>2.0</edition>
          </editionStmt>
          <extent>
             <measure unit="corpora" quantity="16">16 corpora</measure>
-            <measure unit="speeches" quantity="3292629">3,292,629 speeches</measure>
-            <measure unit="words" quantity="462236971">462,236,971 words</measure>
+            <measure unit="speeches" quantity="3307099">3,307,099 speeches</measure>
+            <measure unit="words" quantity="462217184">462,217,184 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -166,7 +175,7 @@
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2021-05-10">May 10, 2021</date>
+            <date when="2021-05-12">May 12, 2021</date>
          </publicationStmt>
          <sourceDesc>
             <listBibl n="ParlaMint-BE">
@@ -436,19 +445,19 @@
          <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="body" occurs="21314"/>
-               <tagUsage gi="desc" occurs="342625"/>
+               <tagUsage gi="desc" occurs="342624"/>
                <tagUsage gi="div" occurs="80687"/>
                <tagUsage gi="gap" occurs="21600"/>
                <tagUsage gi="head" occurs="59194"/>
                <tagUsage gi="incident" occurs="2727"/>
-               <tagUsage gi="kinesic" occurs="193135"/>
+               <tagUsage gi="kinesic" occurs="193134"/>
                <tagUsage gi="note" occurs="1331254"/>
                <tagUsage gi="pb" occurs="42570"/>
                <tagUsage gi="ref" occurs="34208"/>
-               <tagUsage gi="seg" occurs="8578610"/>
+               <tagUsage gi="seg" occurs="8578603"/>
                <tagUsage gi="text" occurs="18640"/>
                <tagUsage gi="time" occurs="22337"/>
-               <tagUsage gi="u" occurs="4430929"/>
+               <tagUsage gi="u" occurs="4445399"/>
                <tagUsage gi="vocal" occurs="126326"/>
             </namespace>
          </tagsDecl>
@@ -552,7 +561,7 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-05-10">
+         <change when="2021-05-12">
             <name>Tomaž Erjavec</name>: Generate root</change>
       </revisionDesc>
    </teiHeader>

@@ -5,7 +5,7 @@
          <titleStmt>
             <title type="main" xml:lang="hr">Hrvatski parlamentarni korpus ParlaMint-HR [ParlaMint SAMPLE]</title>
             <title type="main" xml:lang="en">Croatian parliamentary corpus ParlaMint-HR [ParlaMint SAMPLE]</title>
-            <title type="sub" xml:lang="hr">Zapisnici sjednica Hvratskog sabora, mandat IX (2016-11-15 - 2020-05-18)</title>
+            <title type="sub" xml:lang="hr">Zapisnici sjednica Hrvatskog sabora, mandat IX (2016-11-15 - 2020-05-18)</title>
             <title type="sub" xml:lang="en">Minutes of the National Assembly of the Republic of Croatia, Term 9 (2016-11-15 - 2020-05-18)</title>
             <meeting n="9" corresp="#HS" ana="#parla.term #HS.9">9. mandat</meeting>
             <respStmt>
@@ -46,7 +46,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-19">2021-04-19</date>
+            <date when="2021-05-07">2021-05-07</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -417,8 +417,15 @@
          </settingDesc>
          <particDesc>
             <listOrg>
+               <org xml:id="government.HR" role="government">
+                  <orgName xml:lang="hr" full="yes">Vlada Republike Hrvatske</orgName>
+                  <orgName xml:lang="en" full="yes">Government of the Republic of Croatia</orgName>
+                  <event from="1990-05-30">
+                     <label xml:lang="en">existence</label>
+                  </event>
+               </org>
                <org xml:id="HS" role="parliament" ana="#parla.national #parla.uni">
-                  <orgName xml:lang="hr" full="yes">Hvratski sabor</orgName>
+                  <orgName xml:lang="hr" full="yes">Hrvatski sabor</orgName>
                   <orgName xml:lang="en" full="yes">National Assembly of the Republic of Croatia</orgName>
                   <event from="1990-05-30">
                      <label xml:lang="en">existence</label>
@@ -498,6 +505,19 @@
                   <orgName full="yes" xml:lang="hr">Klub Živog zida i SNAGA-e</orgName>
                   <orgName full="init">Živi zid, SNAGA</orgName>
                </org>
+               <listRelation>
+                  <relation name="coalition"
+                            mutual="#party.HDZ #party.HNS #party.BM_365_NZ #party.SDSS #party.HDS_HSLS_HDSSB"
+                            from="2016-10-14"
+                            to="2020-07-21"
+                            ana="#HS.9"/>
+                  <relation name="opposition"
+                            active="#party.GLAS #party.HS #party.HSS_Demokrati #party.HSU_SNAGA_NZ_NP #party.IDS_PGS_RI #party.Most #party.NLM #party.Nezavisni #party.SDP #party.Živi_zid_PH #party.Živi_zid_SNAGA"
+                            passive="#government.HR"
+                            from="2016-10-14"
+                            to="2020-07-21"
+                            ana="#HS.9"/>
+               </listRelation>
             </listOrg>
             <listPerson>
                <person xml:id="ReinerŽeljko" n="1291">
@@ -3473,9 +3493,9 @@
          </langUsage>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2021-04-19">
+         <change when="2021-05-07">
             <name>Tomaž Erjavec</name>: Made sample.</change>
-         <change when="2021-04-19">
+         <change when="2021-05-06">
             <name>Tomaž Erjavec</name>: Finalize encoding.</change>
       </revisionDesc>
    </teiHeader>

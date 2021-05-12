@@ -1,7 +1,7 @@
 <text id="ParlaMint-HU_2014-06-19.ana" subcorpus="Reference" term="7" session="-" meeting="-" sitting="-" agenda="-" from="2014-06-19" to="2014-06-19" title="Minutes of the National Assembly of Hungary, Term 7">
-<speech id="ParlaMint-HU_2014-06-19-interpellation-IC7_157_segmented" speaker_role="Regular" speaker_id="IldikóBangónéBorbély" speaker_name="Bangóné Borbély, Ildikó" speaker_type="MP" speaker_party="MSZP" speaker_party_name="Magyar Szocialista Párt" coalition_party="?" speaker_gender="F" speaker_birth="1972">
+<speech id="ParlaMint-HU_2014-06-19-interpellation-IC7_157_segmented" speaker_role="Regular" speaker_id="IldikóBangónéBorbély" speaker_name="Bangóné Borbély, Ildikó" speaker_type="MP" speaker_party="MSZP" speaker_party_name="Magyar Szocialista Párt" party_status="-" speaker_gender="F" speaker_birth="1972">
 <note type="-">
-/BANGÓNÉ BORBÉLY ILDIKÓ (MSZP):/	-	-	-	-	-	-	-	-	-	-
+[BANGÓNÉ BORBÉLY ILDIKÓ (MSZP):]										
 </note>
 <p id="IC7_157.1" lang="Hungarian">
 <s id="IC7_157_2.1.1">
@@ -151,7 +151,7 @@ meg	meg	meg	PART	-	30	compound:preverb	old	VERB	Definite=Def Mood=Ind Number=Sin
 </s>
 </p>
 <note type="kinesic:noise">
-/Közbeszólások a kormánypárti padsorokból: 110?/	-	-	-	-	-	-	-	-	-	-
+[Közbeszólások a kormánypárti padsorokból: 110?]										
 </note>
 <p id="IC7_157.2" lang="Hungarian">
 <s id="IC7_157_2.2.1">
@@ -536,7 +536,7 @@ kérdése	kérdése	kérdés	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[
 </s>
 </p>
 <note type="kinesic:noise">
-/Közbeszólás a Fidesz soraiból: Idő! Idő!/	-	-	-	-	-	-	-	-	-	-
+[Közbeszólás a Fidesz soraiból: Idő! Idő!]										
 </note>
 <p id="IC7_157.5" lang="Hungarian">
 <s id="IC7_157_2.5.1">
@@ -574,7 +574,7 @@ támogatásához	támogatásához	támogatás	NOUN	Case=All Number=Sing Number[p
 </s>
 </p>
 <note type="kinesic:signal">
-/Az elnök többször csenget./	-	-	-	-	-	-	-	-	-	-
+[Az elnök többször csenget.]										
 </note>
 <p id="IC7_157.6" lang="Hungarian">
 <s id="IC7_157_2.6.1">
@@ -618,7 +618,7 @@ legyen	legyen	lesz	AUX	Definite=Ind Mood=Imp Number=Sing Person=3 Tense=Pres Ver
 </s>
 </p>
 <note type="kinesic:applause">
-/Taps az MSZP soraiban./	-	-	-	-	-	-	-	-	-	-
+[Taps az MSZP soraiban.]										
 </note>
 <p id="IC7_157.7" lang="Hungarian">
 <s id="IC7_157_2.7.1">
@@ -632,9 +632,9 @@ lt;andgt	lt;andgt	lt;andg	NOUN	Case=Acc Number=Sing	4	parataxis	felszólalás	NO
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-HU_2014-06-19-interpellation-IC7_165_segmented" speaker_role="Regular" speaker_id="DánielZ.Kárpát" speaker_name="Z. Kárpát, Dániel" speaker_type="MP" speaker_party="Jobbik" speaker_party_name="Jobbik Magyarországért Mozgalom" coalition_party="?" speaker_gender="M" speaker_birth="1979">
+<speech id="ParlaMint-HU_2014-06-19-interpellation-IC7_165_segmented" speaker_role="Regular" speaker_id="DánielZ.Kárpát" speaker_name="Z. Kárpát, Dániel" speaker_type="MP" speaker_party="Jobbik" speaker_party_name="Jobbik Magyarországért Mozgalom" party_status="-" speaker_gender="M" speaker_birth="1979">
 <note type="-">
-/Z. KÁRPÁT DÁNIEL (Jobbik):/	-	-	-	-	-	-	-	-	-	-
+[Z. KÁRPÁT DÁNIEL (Jobbik):]										
 </note>
 <p id="IC7_165.1" lang="Hungarian">
 <s id="IC7_165_2.1.1">
@@ -1306,7 +1306,7 @@ kéne	kéne	kéne	AUX	Definite=Ind Mood=Cnd Number=Sing Person=3 Tense=Pres Verb
 </s>
 </p>
 <note type="kinesic:applause">
-/Taps a Jobbik padsoraiban./	-	-	-	-	-	-	-	-	-	-
+[Taps a Jobbik padsoraiban.]										
 </note>
 <p id="IC7_165.6" lang="Hungarian">
 <s id="IC7_165_2.6.1">
@@ -1321,11 +1321,11 @@ lt;andgt	lt;andgt	lt;andg	NOUN	Case=Acc Number=Sing	4	parataxis	felszólalás	NO
 </p>
 </speech>
 <note type="gap::editorial">
-/SAMPLING/	-	-	-	-	-	-	-	-	-	-
+[SAMPLING]										
 </note>
-<speech id="ParlaMint-HU_2014-06-19-urgent_question-AC7_360_segmented" speaker_role="Regular" speaker_id="LászlóVarga" speaker_name="Varga, László" speaker_type="MP" speaker_party="MSZP" speaker_party_name="Magyar Szocialista Párt" coalition_party="?" speaker_gender="M" speaker_birth="1979">
+<speech id="ParlaMint-HU_2014-06-19-urgent_question-AC7_360_segmented" speaker_role="Regular" speaker_id="LászlóVarga" speaker_name="Varga, László" speaker_type="MP" speaker_party="MSZP" speaker_party_name="Magyar Szocialista Párt" party_status="-" speaker_gender="M" speaker_birth="1979">
 <note type="-">
-/DR. VARGA LÁSZLÓ (MSZP):/	-	-	-	-	-	-	-	-	-	-
+[DR. VARGA LÁSZLÓ (MSZP):]										
 </note>
 <p id="AC7_360.1" lang="Hungarian">
 <s id="AC7_360_2.1.1">
@@ -1713,7 +1713,7 @@ b	b	b	PUNCT	-	13	punct	nyújt	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Te
 </s>
 </p>
 <note type="kinesic:signal">
-/Az elnök csengetéssel jelzi az időkeret leteltét./	-	-	-	-	-	-	-	-	-	-
+[Az elnök csengetéssel jelzi az időkeret leteltét.]										
 </note>
 <p id="AC7_360.5" lang="Hungarian">
 <s id="AC7_360_2.5.1">
@@ -1731,7 +1731,7 @@ illetőt	illetőt	illető	NOUN	Case=Acc Number=Sing	10	obj	felment	VERB	Definite
 </s>
 </p>
 <note type="kinesic:signal">
-/Az elnök ismét csenget./	-	-	-	-	-	-	-	-	-	-
+[Az elnök ismét csenget.]										
 </note>
 <p id="AC7_360.6" lang="Hungarian">
 <s id="AC7_360_2.6.1">
@@ -1781,12 +1781,12 @@ elnök	elnök	elnök	NOUN	Case=Nom Number=Sing	3	conj	Köszönöm	NOUN	Case=Nom 
 </s>
 </p>
 <note type="kinesic:applause">
-/Taps az MSZP padsoraiban./	-	-	-	-	-	-	-	-	-	-
+[Taps az MSZP padsoraiban.]										
 </note>
 </speech>
-<speech id="ParlaMint-HU_2014-06-19-urgent_question-AC7_361_segmented" speaker_role="Regular" speaker_id="GáborIstvánHarangozó" speaker_name="Harangozó, Gábor István" speaker_type="MP" speaker_party="MSZP" speaker_party_name="Magyar Szocialista Párt" coalition_party="?" speaker_gender="M" speaker_birth="1979">
+<speech id="ParlaMint-HU_2014-06-19-urgent_question-AC7_361_segmented" speaker_role="Regular" speaker_id="GáborIstvánHarangozó" speaker_name="Harangozó, Gábor István" speaker_type="MP" speaker_party="MSZP" speaker_party_name="Magyar Szocialista Párt" party_status="-" speaker_gender="M" speaker_birth="1979">
 <note type="-">
-/HARANGOZÓ GÁBOR ISTVÁN (MSZP):/	-	-	-	-	-	-	-	-	-	-
+[HARANGOZÓ GÁBOR ISTVÁN (MSZP):]										
 </note>
 <p id="AC7_361.1" lang="Hungarian">
 <s id="AC7_361_2.1.1">
@@ -2167,7 +2167,7 @@ tenni	tenni	tesz	VERB	VerbForm=Inf Voice=Act	47	xcomp	tud	VERB	Definite=Def Mood
 </s>
 </p>
 <note type="kinesic:applause">
-/Taps az MSZP soraiból./	-	-	-	-	-	-	-	-	-	-
+[Taps az MSZP soraiból.]										
 </note>
 </speech>
 </text>

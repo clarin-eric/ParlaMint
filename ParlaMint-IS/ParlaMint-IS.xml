@@ -12,6 +12,7 @@
             <meeting n="23" ana="#parla.term #LV.23">23. kjörtímabil</meeting>
             <respStmt>
                <persName>Starkaður Barkarson</persName>
+               <persName>Steinþór Steingrímsson</persName>
                <resp xml:lang="is">Söfnun og úrvinnsla texta. TEI-kóðun.</resp>
                <resp xml:lang="en">Collection and processing of texts. TEI encoding.</resp>
             </respStmt>
@@ -39,7 +40,7 @@
                <p xml:lang="is">Þessi texti er gefinn út með <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2021-04-20">2021-04-20</date>
+            <date when="2021-05-11">2021-05-11</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -11366,24 +11367,30 @@
                </org>
                <listRelation>
                   <relation name="coalition"
-                            mutual="#party.F #party.S"
+                            mutual="#party.S #party.F"
                             from="2013-05-23"
-                            to="2016-04-07"
-                            ana="#GOV_LV.42"/>
-                  <relation name="coalition"
-                            mutual="#party.F #party.S"
-                            from="2016-04-07"
-                            to="2017-01-11"
-                            ana="#GOV_LV.43"/>
+                            to="2017-01-10"/>
                   <relation name="coalition"
                             mutual="#party.S #party.V #party.Bf"
                             from="2017-01-11"
-                            to="2017-11-30"
-                            ana="#GOV_LV.44"/>
+                            to="2017-11-29"/>
                   <relation name="coalition"
-                            mutual="#party.S #party.F #party.Vg"
-                            from="2017-11-30"
-                            ana="#GOV_LV.45"/>
+                            mutual="#party.S #party.Vg #party.F"
+                            from="2017-11-30"/>
+                  <relation name="opposition"
+                            active="#party.Vg #party.Bf #party.V #party.P #party.Sf"
+                            passive="#GOV_LV"
+                            from="2013-05-23"
+                            to="2017-01-10"/>
+                  <relation name="opposition"
+                            active="#party.Vg #party.P #party.Flf #party.Sf #party.F #party.M"
+                            passive="#GOV_LV"
+                            from="2017-01-11"
+                            to="2017-11-29"/>
+                  <relation name="opposition"
+                            active="#party.P #party.Flf #party.Sf #party.M #party.V"
+                            passive="#GOV_LV"
+                            from="2017-11-30"/>
                </listRelation>
             </listOrg>
             <listPerson>
@@ -11474,7 +11481,7 @@
                                ana="#LV.21"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2015-04-27"
+                               from="2014-09-09"
                                to="2015-06-26"
                                ana="#LV.21 #const.Reykjavikurkjordaemis_sudur"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=477</idno>
@@ -11504,7 +11511,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-06-02"
+                               from="2016-10-29"
                                to="2018-09-10"
                                ana="#LV.22 #const.Nordausturkjordaemis"/>
                   <affiliation role="member"
@@ -11514,7 +11521,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2019-09-03"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Nordausturkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=557</idno>
@@ -11533,7 +11540,7 @@
                                ana="#LV.21"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2015-04-27"
+                               from="2014-09-09"
                                to="2016-10-28"
                                ana="#LV.21 #const.Sudvesturkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=630</idno>
@@ -11570,16 +11577,16 @@
                                from="2016-10-29"
                                to="2018-09-10"
                                ana="#LV.22"/>
+                  <affiliation role="MP"
+                               ref="#LV"
+                               from="2016-10-29"
+                               to="2018-09-10"
+                               ana="#LV.22 #const.Sudvesturkjordaemis"/>
                   <affiliation role="minister"
                                ref="#GOV_LV.44"
                                from="2017-01-11"
                                to="2017-11-30"
                                ana="#mstr.landbunadur #mstr.sjavarutvegur"/>
-                  <affiliation role="MP"
-                               ref="#LV"
-                               from="2017-06-02"
-                               to="2018-09-10"
-                               ana="#LV.22 #const.Sudvesturkjordaemis"/>
                   <affiliation role="member"
                                ref="#party.V"
                                from="2018-09-11"
@@ -11587,7 +11594,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2019-03-25"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Sudvesturkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=632</idno>
@@ -11607,7 +11614,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-12-14"
+                               from="2017-10-28"
                                to="2018-09-10"
                                ana="#LV.22 #const.Reykjavikurkjordaemis_sudur"/>
                   <affiliation role="member"
@@ -11617,7 +11624,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2019-05-01"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Reykjavikurkjordaemis_sudur"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=647</idno>
@@ -11646,7 +11653,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-01-24"
+                               from="2016-10-29"
                                to="2018-09-10"
                                ana="#LV.22 #const.Reyknesinga"/>
                   <affiliation role="member"
@@ -11690,13 +11697,18 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-01-11"
+                               from="2016-10-29"
                                to="2018-09-10"
                                ana="#LV.22 #const.Sudvesturkjordaemis"/>
                   <affiliation role="minister"
+                               ref="#GOV_LV.43"
+                               from="2016-10-29"
+                               to="2017-01-11"
+                               ana="#mstr.efnahagur #mstr.fjarmal"/>
+                  <affiliation role="minister"
                                ref="#GOV_LV.44"
                                from="2017-01-11"
-                               to="2017-10-27"
+                               to="2017-11-30"
                                ana="#mstr.forsaeti"/>
                   <affiliation role="minister"
                                ref="#GOV_LV.45"
@@ -11750,7 +11762,7 @@
                                ana="#LV.21"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2015-06-27"
+                               from="2014-09-09"
                                to="2016-10-28"
                                ana="#LV.21 #const.Reykjavikurkjordaemis_sudur"/>
                   <affiliation role="member"
@@ -11758,20 +11770,20 @@
                                from="2016-10-29"
                                to="2018-09-10"
                                ana="#LV.22"/>
-                  <affiliation role="minister"
-                               ref="#GOV_LV.44"
-                               from="2017-01-11"
-                               to="2017-10-27"
-                               ana="#mstr.utanrikismal"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-06-02"
+                               from="2016-10-29"
                                to="2018-09-10"
                                ana="#LV.22 #const.Reyknesinga"/>
                   <affiliation role="minister"
+                               ref="#GOV_LV.44"
+                               from="2017-01-11"
+                               to="2017-11-30"
+                               ana="#mstr.utanrikismal"/>
+                  <affiliation role="minister"
                                ref="#GOV_LV.45"
                                from="2017-11-30"
-                               to="2019-09-09"
+                               to="2019-12-31"
                                ana="#mstr.utanrikismal"/>
                   <affiliation role="member"
                                ref="#party.S"
@@ -11780,7 +11792,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2019-05-28"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Reyknesinga"/>
                   <affiliation role="minister"
@@ -11804,7 +11816,7 @@
                                ana="#LV.21"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2015-06-11"
+                               from="2014-09-09"
                                to="2016-10-28"
                                ana="#LV.21 #const.Reykjavikurkjordaemis_sudur"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=658</idno>
@@ -11842,7 +11854,7 @@
                                ana="#LV.21"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2015-06-11"
+                               from="2015-06-04"
                                to="2015-06-11"
                                ana="#LV.21 #const.Reykjavikurkjordaemis_sudur"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=662</idno>
@@ -11871,7 +11883,7 @@
                                ana="#LV.23"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2019-09-02"
+                               from="2018-11-19"
                                to="2019-09-02"
                                ana="#LV.23 #const.Reyknesinga"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=676</idno>
@@ -11910,7 +11922,7 @@
                                ana="#LV.21"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2015-02-02"
+                               from="2014-09-09"
                                to="2015-10-22"
                                ana="#LV.21 #const.Nordurland_vestra"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=683</idno>
@@ -11929,7 +11941,7 @@
                                ana="#LV.21"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2015-06-15"
+                               from="2014-09-09"
                                to="2016-10-28"
                                ana="#LV.21 #const.Nordausturkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=686</idno>
@@ -11946,16 +11958,16 @@
                                from="2014-09-09"
                                to="2016-10-28"
                                ana="#LV.21"/>
+                  <affiliation role="MP"
+                               ref="#LV"
+                               from="2014-09-09"
+                               to="2016-10-28"
+                               ana="#LV.21 #const.Reyknesinga"/>
                   <affiliation role="minister"
                                ref="#GOV_LV.42"
                                from="2014-09-09"
                                to="2016-10-28"
                                ana="#mstr.menning #mstr.menntamál"/>
-                  <affiliation role="MP"
-                               ref="#LV"
-                               from="2015-05-20"
-                               to="2016-10-28"
-                               ana="#LV.21 #const.Reyknesinga"/>
                   <affiliation role="minister"
                                ref="#GOV_LV.43"
                                from="2016-10-29"
@@ -11987,7 +11999,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-01-11"
+                               from="2016-10-29"
                                to="2018-09-10"
                                ana="#LV.22 #const.Sudvesturkjordaemis"/>
                   <affiliation role="minister"
@@ -12002,7 +12014,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2018-11-27"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Sudvesturkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=688</idno>
@@ -12021,7 +12033,7 @@
                                ana="#LV.21"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2015-01-27"
+                               from="2014-09-09"
                                to="2016-10-28"
                                ana="#LV.21 #const.Reyknesinga"/>
                   <affiliation role="member"
@@ -12031,7 +12043,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-05-01"
+                               from="2016-10-29"
                                to="2018-09-10"
                                ana="#LV.22 #const.Reyknesinga"/>
                   <affiliation role="minister"
@@ -12046,7 +12058,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2018-11-26"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Reyknesinga"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=690</idno>
@@ -12079,21 +12091,26 @@
                                from="2016-10-29"
                                to="2018-09-10"
                                ana="#LV.22"/>
-                  <affiliation role="minister"
-                               ref="#GOV_LV.44"
-                               from="2017-01-24"
-                               to="2017-09-11"
-                               ana="#mstr.norraen_samstarfsmal"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-06-02"
+                               from="2016-10-29"
                                to="2018-09-10"
                                ana="#LV.22 #const.Nordausturkjordaemis"/>
                   <affiliation role="minister"
+                               ref="#GOV_LV.43"
+                               from="2016-10-29"
+                               to="2017-01-11"
+                               ana="#mstr.heilbrigdi"/>
+                  <affiliation role="minister"
                                ref="#GOV_LV.44"
-                               from="2017-09-12"
-                               to="2017-10-27"
+                               from="2017-01-11"
+                               to="2017-11-30"
                                ana="#mstr.menning #mstr.menntamál"/>
+                  <affiliation role="minister"
+                               ref="#GOV_LV.44"
+                               from="2017-01-24"
+                               to="2017-11-30"
+                               ana="#mstr.norraen_samstarfsmal"/>
                   <affiliation role="minister"
                                ref="#GOV_LV.45"
                                from="2017-11-30"
@@ -12128,16 +12145,16 @@
                                from="2016-10-29"
                                to="2017-02-08"
                                ana="#LV.22"/>
+                  <affiliation role="MP"
+                               ref="#LV"
+                               from="2016-10-29"
+                               to="2017-02-08"
+                               ana="#LV.22 #const.Reykjavikurkjordaemis_sudur"/>
                   <affiliation role="minister"
                                ref="#GOV_LV.43"
                                from="2016-10-29"
                                to="2017-01-11"
                                ana="#mstr.innanrikismal"/>
-                  <affiliation role="MP"
-                               ref="#LV"
-                               from="2017-01-11"
-                               to="2017-02-08"
-                               ana="#LV.22 #const.Reykjavikurkjordaemis_sudur"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=692</idno>
                </person>
                <person xml:id="RagnheidurArnadottir">
@@ -12153,16 +12170,16 @@
                                from="2014-09-09"
                                to="2016-10-28"
                                ana="#LV.21"/>
+                  <affiliation role="MP"
+                               ref="#LV"
+                               from="2014-09-09"
+                               to="2016-10-28"
+                               ana="#LV.21 #const.Sudurkjordaemis"/>
                   <affiliation role="minister"
                                ref="#GOV_LV.42"
                                from="2014-09-09"
                                to="2016-10-28"
                                ana="#mstr.vidskipti #mstr.idnadur"/>
-                  <affiliation role="MP"
-                               ref="#LV"
-                               from="2015-04-28"
-                               to="2016-10-28"
-                               ana="#LV.21 #const.Sudurkjordaemis"/>
                   <affiliation role="minister"
                                ref="#GOV_LV.43"
                                from="2016-10-29"
@@ -12196,6 +12213,11 @@
                   </persName>
                   <sex value="F">kona</sex>
                   <birth when="1972-12-12"/>
+                  <affiliation role="minister"
+                               ref="#GOV_LV.42"
+                               from="2013-09-30"
+                               to="2017-01-11"
+                               ana="#mstr.norraen_samstarfsmal"/>
                   <affiliation role="member"
                                ref="#party.F"
                                from="2014-09-09"
@@ -12216,16 +12238,16 @@
                                from="2016-10-29"
                                to="2017-10-27"
                                ana="#LV.22"/>
+                  <affiliation role="MP"
+                               ref="#LV"
+                               from="2016-10-29"
+                               to="2017-10-27"
+                               ana="#LV.22 #const.Sudvesturkjordaemis"/>
                   <affiliation role="minister"
                                ref="#GOV_LV.43"
                                from="2016-10-29"
                                to="2017-01-11"
                                ana="#mstr.husnaedi #mstr.felagsmal"/>
-                  <affiliation role="MP"
-                               ref="#LV"
-                               from="2017-06-02"
-                               to="2017-10-27"
-                               ana="#LV.22 #const.Sudvesturkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=703</idno>
                </person>
                <person xml:id="GudmundurSteingrimsson">
@@ -12273,16 +12295,16 @@
                   </persName>
                   <sex value="F">kona</sex>
                   <birth when="1965-03-20"/>
+                  <affiliation role="MP"
+                               ref="#LV"
+                               from="2014-09-09"
+                               to="2016-10-28"
+                               ana="#LV.21 #const.Reykjavikurkjordaemis_sudur"/>
                   <affiliation role="member"
                                ref="#party.F"
                                from="2014-10-13"
                                to="2016-10-28"
                                ana="#LV.21"/>
-                  <affiliation role="MP"
-                               ref="#LV"
-                               from="2015-06-15"
-                               to="2016-10-28"
-                               ana="#LV.21 #const.Reykjavikurkjordaemis_sudur"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=706</idno>
                </person>
                <person xml:id="AsmundurDadason">
@@ -12300,7 +12322,7 @@
                                ana="#LV.21"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2015-06-20"
+                               from="2014-09-09"
                                to="2016-10-28"
                                ana="#LV.21 #const.Nordurland_vestra"/>
                   <affiliation role="member"
@@ -12308,31 +12330,31 @@
                                from="2017-10-28"
                                to="2018-09-10"
                                ana="#LV.22"/>
+                  <affiliation role="MP"
+                               ref="#LV"
+                               from="2017-10-28"
+                               to="2018-09-10"
+                               ana="#LV.22 #const.Nordurland_vestra"/>
                   <affiliation role="minister"
                                ref="#GOV_LV.45"
                                from="2017-11-30"
-                               to="2018-09-10"
+                               to="2018-12-31"
                                ana="#mstr.jafnrett #mstr.felagsmal"/>
-                  <affiliation role="MP"
-                               ref="#LV"
-                               from="2018-03-20"
-                               to="2018-09-10"
-                               ana="#LV.22 #const.Nordurland_vestra"/>
                   <affiliation role="member"
                                ref="#party.F"
                                from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23"/>
+                  <affiliation role="MP"
+                               ref="#LV"
+                               from="2018-09-11"
+                               to="2020-09-30"
+                               ana="#LV.23 #const.Nordurland_vestra"/>
                   <affiliation role="minister"
                                ref="#GOV_LV.45"
                                from="2019-01-01"
                                to="2020-09-30"
                                ana="#mstr.born #mstr.felagsmal"/>
-                  <affiliation role="MP"
-                               ref="#LV"
-                               from="2019-03-14"
-                               to="2020-09-30"
-                               ana="#LV.23 #const.Nordurland_vestra"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=707</idno>
                </person>
                <person xml:id="RobertMarshall">
@@ -12399,7 +12421,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-03-27"
+                               from="2016-10-29"
                                to="2018-09-10"
                                ana="#LV.22 #const.Nordurland_vestra"/>
                   <affiliation role="member"
@@ -12429,12 +12451,12 @@
                                ana="#LV.21"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2015-01-29"
+                               from="2015-01-22"
                                to="2015-09-22"
                                ana="#LV.21 #const.Nordurland_vestra"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2015-11-16"
+                               from="2015-10-23"
                                to="2016-10-28"
                                ana="#LV.21 #const.Nordurland_vestra"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=715</idno>
@@ -12454,7 +12476,7 @@
                                ana="#LV.21"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2015-06-11"
+                               from="2014-09-09"
                                to="2016-10-28"
                                ana="#LV.21 #const.Sudurkjordaemis"/>
                   <affiliation role="member"
@@ -12474,7 +12496,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2018-09-21"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Sudurkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=719</idno>
@@ -12504,7 +12526,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-01-24"
+                               from="2016-10-29"
                                to="2017-10-27"
                                ana="#LV.22 #const.Sudurkjordaemis"/>
                   <affiliation role="substituteMP"
@@ -12519,7 +12541,7 @@
                                ana="#LV.23"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2019-09-02"
+                               from="2019-02-18"
                                to="2019-10-25"
                                ana="#LV.23 #const.Sudurkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=721</idno>
@@ -12537,16 +12559,16 @@
                                from="2014-09-09"
                                to="2016-10-28"
                                ana="#LV.21"/>
+                  <affiliation role="MP"
+                               ref="#LV"
+                               from="2014-09-09"
+                               to="2016-10-28"
+                               ana="#LV.21 #const.Nordurland_vestra"/>
                   <affiliation role="minister"
                                ref="#GOV_LV.42"
                                from="2014-09-09"
-                               to="2015-09-07"
+                               to="2016-04-07"
                                ana="#mstr.utanrikismal"/>
-                  <affiliation role="MP"
-                               ref="#LV"
-                               from="2015-07-03"
-                               to="2016-10-28"
-                               ana="#LV.21 #const.Nordurland_vestra"/>
                   <affiliation role="minister"
                                ref="#GOV_LV.43"
                                from="2016-04-07"
@@ -12559,7 +12581,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-05-30"
+                               from="2016-10-29"
                                to="2017-10-27"
                                ana="#LV.22 #const.Nordurland_vestra"/>
                   <affiliation role="member"
@@ -12569,7 +12591,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-12-14"
+                               from="2017-10-28"
                                to="2018-09-10"
                                ana="#LV.22 #const.Sudvesturkjordaemis"/>
                   <affiliation role="member"
@@ -12579,7 +12601,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2019-06-21"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Sudvesturkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=722</idno>
@@ -12616,16 +12638,16 @@
                                from="2014-09-09"
                                to="2016-10-28"
                                ana="#LV.21"/>
+                  <affiliation role="MP"
+                               ref="#LV"
+                               from="2014-09-09"
+                               to="2016-10-28"
+                               ana="#LV.21 #const.Sudurkjordaemis"/>
                   <affiliation role="minister"
                                ref="#GOV_LV.42"
                                from="2014-09-09"
-                               to="2015-09-07"
+                               to="2016-04-07"
                                ana="#mstr.landbunadur #mstr.sjavarutvegur"/>
-                  <affiliation role="MP"
-                               ref="#LV"
-                               from="2015-06-09"
-                               to="2016-10-28"
-                               ana="#LV.21 #const.Sudurkjordaemis"/>
                   <affiliation role="minister"
                                ref="#GOV_LV.43"
                                from="2016-04-07"
@@ -12638,7 +12660,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-01-11"
+                               from="2016-10-29"
                                to="2018-09-10"
                                ana="#LV.22 #const.Sudurkjordaemis"/>
                   <affiliation role="minister"
@@ -12653,7 +12675,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2019-09-03"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Sudurkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=726</idno>
@@ -12682,7 +12704,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-04-07"
+                               from="2016-10-29"
                                to="2017-10-27"
                                ana="#LV.22 #const.Reyknesinga"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=728</idno>
@@ -12695,6 +12717,11 @@
                   </persName>
                   <sex value="M">maður</sex>
                   <birth when="1975-03-12"/>
+                  <affiliation role="minister"
+                               ref="#GOV_LV.42"
+                               from="2013-09-30"
+                               to="2016-04-07"
+                               ana="#mstr.forsaeti"/>
                   <affiliation role="member"
                                ref="#party.F"
                                from="2014-09-09"
@@ -12705,11 +12732,6 @@
                                from="2014-09-29"
                                to="2016-10-28"
                                ana="#LV.21 #const.Nordausturkjordaemis"/>
-                  <affiliation role="minister"
-                               ref="#GOV_LV.42"
-                               from="2015-09-08"
-                               to="2016-04-07"
-                               ana="#mstr.forsaeti"/>
                   <affiliation role="member"
                                ref="#party.F"
                                from="2016-10-29"
@@ -12732,7 +12754,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2019-04-12"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Nordausturkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=729</idno>
@@ -12823,16 +12845,16 @@
                                from="2014-09-09"
                                to="2016-10-28"
                                ana="#LV.21"/>
+                  <affiliation role="MP"
+                               ref="#LV"
+                               from="2014-09-09"
+                               to="2016-10-28"
+                               ana="#LV.21 #const.Reyknesinga"/>
                   <affiliation role="minister"
                                ref="#GOV_LV.42"
                                from="2014-12-31"
                                to="2016-10-28"
                                ana="#mstr.audlindir #mstr.umhverfismal"/>
-                  <affiliation role="MP"
-                               ref="#LV"
-                               from="2015-06-02"
-                               to="2016-10-28"
-                               ana="#LV.21 #const.Reyknesinga"/>
                   <affiliation role="minister"
                                ref="#GOV_LV.43"
                                from="2016-10-29"
@@ -12855,7 +12877,7 @@
                                ana="#LV.21"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2016-10-10"
+                               from="2015-11-16"
                                to="2016-10-14"
                                ana="#LV.21 #const.Sudvesturkjordaemis"/>
                   <affiliation role="member"
@@ -12865,7 +12887,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-01-11"
+                               from="2016-10-29"
                                to="2018-09-10"
                                ana="#LV.22 #const.Sudvesturkjordaemis"/>
                   <affiliation role="member"
@@ -12895,7 +12917,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2018-03-19"
+                               from="2017-10-28"
                                to="2018-09-10"
                                ana="#LV.22 #const.Sudvesturkjordaemis"/>
                   <affiliation role="member"
@@ -12905,7 +12927,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2019-02-13"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Sudvesturkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1001</idno>
@@ -12925,7 +12947,7 @@
                                ana="#LV.21"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2016-10-03"
+                               from="2015-12-07"
                                to="2016-10-10"
                                ana="#LV.21 #const.Reyknesinga"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1002</idno>
@@ -12945,7 +12967,7 @@
                                ana="#LV.23"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2019-05-06"
+                               from="2018-09-17"
                                to="2020-02-02"
                                ana="#LV.23 #const.Nordurland_vestra"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1004</idno>
@@ -12975,7 +12997,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-01-23"
+                               from="2016-10-29"
                                to="2018-09-10"
                                ana="#LV.22 #const.Nordausturkjordaemis"/>
                   <affiliation role="member"
@@ -12985,7 +13007,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2019-06-21"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Nordausturkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1012</idno>
@@ -13005,7 +13027,7 @@
                                ana="#LV.21"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2015-04-27"
+                               from="2015-01-20"
                                to="2015-06-26"
                                ana="#LV.21 #const.Reykjavikurkjordaemis_sudur"/>
                   <affiliation role="MP"
@@ -13018,16 +13040,16 @@
                                from="2016-10-29"
                                to="2018-09-10"
                                ana="#LV.22"/>
+                  <affiliation role="MP"
+                               ref="#LV"
+                               from="2016-10-29"
+                               to="2018-09-10"
+                               ana="#LV.22 #const.Reykjavikurkjordaemis_sudur"/>
                   <affiliation role="minister"
                                ref="#GOV_LV.44"
                                from="2017-01-11"
-                               to="2017-10-27"
+                               to="2017-11-30"
                                ana="#mstr.domsmal"/>
-                  <affiliation role="MP"
-                               ref="#LV"
-                               from="2017-04-07"
-                               to="2018-09-10"
-                               ana="#LV.22 #const.Reykjavikurkjordaemis_sudur"/>
                   <affiliation role="minister"
                                ref="#GOV_LV.45"
                                from="2017-11-30"
@@ -13040,7 +13062,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2019-06-21"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Reykjavikurkjordaemis_sudur"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1018</idno>
@@ -13053,16 +13075,16 @@
                   </persName>
                   <sex value="F">kona</sex>
                   <birth when="1977-09-18"/>
+                  <affiliation role="MP"
+                               ref="#LV"
+                               from="2014-09-09"
+                               to="2016-10-28"
+                               ana="#LV.21 #const.Reyknesinga"/>
                   <affiliation role="member"
                                ref="#party.Vg"
                                from="2014-10-13"
                                to="2016-10-28"
                                ana="#LV.21"/>
-                  <affiliation role="MP"
-                               ref="#LV"
-                               from="2015-07-04"
-                               to="2016-10-28"
-                               ana="#LV.21 #const.Reyknesinga"/>
                   <affiliation role="member"
                                ref="#party.Vg"
                                from="2016-10-29"
@@ -13070,7 +13092,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-05-17"
+                               from="2016-10-29"
                                to="2018-09-10"
                                ana="#LV.22 #const.Reyknesinga"/>
                   <affiliation role="member"
@@ -13080,7 +13102,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2019-09-03"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Reyknesinga"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1031</idno>
@@ -13099,7 +13121,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-06-02"
+                               from="2016-10-29"
                                to="2018-09-10"
                                ana="#LV.22 #const.Sudvesturkjordaemis"/>
                   <affiliation role="member"
@@ -13148,7 +13170,7 @@
                                ana="#LV.23"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2019-04-05"
+                               from="2018-10-01"
                                to="2020-03-08"
                                ana="#LV.23 #const.Sudvesturkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1121</idno>
@@ -13177,7 +13199,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2019-01-31"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Nordausturkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1128</idno>
@@ -13196,7 +13218,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2018-01-29"
+                               from="2017-10-28"
                                to="2018-09-10"
                                ana="#LV.22 #const.Sudurkjordaemis"/>
                   <affiliation role="member"
@@ -13206,7 +13228,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2019-01-28"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Sudurkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1129</idno>
@@ -13235,7 +13257,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-01-11"
+                               from="2016-10-29"
                                to="2018-09-10"
                                ana="#LV.22 #const.Sudurkjordaemis"/>
                   <affiliation role="member"
@@ -13245,7 +13267,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2019-03-04"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Sudurkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1157</idno>
@@ -13264,7 +13286,7 @@
                                ana="#LV.21"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2015-07-04"
+                               from="2014-09-09"
                                to="2016-10-28"
                                ana="#LV.21 #const.Reyknesinga"/>
                   <affiliation role="member"
@@ -13274,7 +13296,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-01-11"
+                               from="2016-10-29"
                                to="2017-10-27"
                                ana="#LV.22 #const.Reyknesinga"/>
                   <affiliation role="minister"
@@ -13327,7 +13349,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-04-07"
+                               from="2016-10-29"
                                to="2018-09-10"
                                ana="#LV.22 #const.Reykjavikurkjordaemis_sudur"/>
                   <affiliation role="member"
@@ -13337,7 +13359,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2018-11-27"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Reykjavikurkjordaemis_sudur"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1160</idno>
@@ -13406,7 +13428,7 @@
                                ana="#LV.21"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2015-04-27"
+                               from="2014-09-09"
                                to="2016-10-28"
                                ana="#LV.21 #const.Reykjavikurkjordaemis_sudur"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1163</idno>
@@ -13425,7 +13447,7 @@
                                ana="#LV.21"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2015-02-06"
+                               from="2014-09-09"
                                to="2016-10-28"
                                ana="#LV.21 #const.Nordurland_vestra"/>
                   <affiliation role="member"
@@ -13435,7 +13457,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-06-02"
+                               from="2016-10-29"
                                to="2018-09-10"
                                ana="#LV.22 #const.Nordurland_vestra"/>
                   <affiliation role="member"
@@ -13445,7 +13467,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2018-11-12"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Nordurland_vestra"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1164</idno>
@@ -13464,7 +13486,7 @@
                                ana="#LV.21"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2015-03-25"
+                               from="2014-09-09"
                                to="2016-10-28"
                                ana="#LV.21 #const.Sudurkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1165</idno>
@@ -13484,7 +13506,7 @@
                                ana="#LV.21"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2015-03-27"
+                               from="2014-09-09"
                                to="2016-10-28"
                                ana="#LV.21 #const.Reyknesinga"/>
                   <affiliation role="member"
@@ -13494,7 +13516,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2018-06-13"
+                               from="2017-10-28"
                                to="2018-09-10"
                                ana="#LV.22 #const.Reyknesinga"/>
                   <affiliation role="member"
@@ -13504,8 +13526,8 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2019-04-12"
-                               to="2020-09-30"
+                               from="2018-09-11"
+                               to="2020-11-22"
                                ana="#LV.23 #const.Reyknesinga"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1166</idno>
                </person>
@@ -13524,7 +13546,7 @@
                                ana="#LV.21"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2015-05-13"
+                               from="2014-09-09"
                                to="2016-10-28"
                                ana="#LV.21 #const.Nordurland_vestra"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1167</idno>
@@ -13544,7 +13566,7 @@
                                ana="#LV.21"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2015-03-09"
+                               from="2014-09-09"
                                to="2015-09-07"
                                ana="#LV.21 #const.Reykjavikurkjordaemis_sudur"/>
                   <affiliation role="member"
@@ -13554,7 +13576,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-03-14"
+                               from="2016-10-29"
                                to="2018-09-10"
                                ana="#LV.22 #const.Sudvesturkjordaemis"/>
                   <affiliation role="member"
@@ -13583,7 +13605,7 @@
                                ana="#LV.21"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2015-06-29"
+                               from="2014-09-09"
                                to="2016-10-28"
                                ana="#LV.21 #const.Reykjavikurkjordaemis_sudur"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1169</idno>
@@ -13618,7 +13640,7 @@
                                ana="#LV.22 #const.Nordausturkjordaemis"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-12-14"
+                               from="2017-10-28"
                                to="2018-09-10"
                                ana="#LV.22 #const.Nordausturkjordaemis"/>
                   <affiliation role="member"
@@ -13628,7 +13650,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2018-10-27"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Nordausturkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1170</idno>
@@ -13655,16 +13677,16 @@
                                from="2016-10-29"
                                to="2017-10-27"
                                ana="#LV.22"/>
+                  <affiliation role="MP"
+                               ref="#LV"
+                               from="2016-10-29"
+                               to="2017-10-27"
+                               ana="#LV.22 #const.Sudvesturkjordaemis"/>
                   <affiliation role="minister"
                                ref="#GOV_LV.44"
                                from="2017-01-11"
                                to="2017-11-30"
                                ana="#mstr.heilbrigdi"/>
-                  <affiliation role="MP"
-                               ref="#LV"
-                               from="2017-05-29"
-                               to="2017-10-27"
-                               ana="#LV.22 #const.Sudvesturkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1171</idno>
                </person>
                <person xml:id="PallBjornsson">
@@ -13712,7 +13734,7 @@
                                ana="#LV.21"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2015-06-29"
+                               from="2014-09-09"
                                to="2016-10-28"
                                ana="#LV.21 #const.Sudurkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1173</idno>
@@ -13752,7 +13774,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2019-09-03"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Sudurkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1174</idno>
@@ -13781,7 +13803,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-01-24"
+                               from="2016-10-29"
                                to="2017-10-27"
                                ana="#LV.22 #const.Nordausturkjordaemis"/>
                   <affiliation role="substituteMP"
@@ -13815,7 +13837,7 @@
                                ana="#LV.21"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2015-05-12"
+                               from="2014-09-09"
                                to="2016-10-28"
                                ana="#LV.21 #const.Sudurkjordaemis"/>
                   <affiliation role="member"
@@ -13825,7 +13847,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-05-01"
+                               from="2016-10-29"
                                to="2018-09-10"
                                ana="#LV.22 #const.Sudurkjordaemis"/>
                   <affiliation role="member"
@@ -13835,7 +13857,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2019-09-03"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Sudurkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1176</idno>
@@ -13864,7 +13886,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-01-11"
+                               from="2016-10-29"
                                to="2017-10-27"
                                ana="#LV.22 #const.Sudvesturkjordaemis"/>
                   <affiliation role="member"
@@ -13904,12 +13926,12 @@
                                ana="#LV.22"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2017-05-30"
+                               from="2017-02-20"
                                to="2017-06-01"
                                ana="#LV.22 #const.Sudvesturkjordaemis"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-12-14"
+                               from="2017-10-28"
                                to="2018-09-10"
                                ana="#LV.22 #const.Sudvesturkjordaemis"/>
                   <affiliation role="member"
@@ -13919,7 +13941,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2019-03-19"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Sudvesturkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1178</idno>
@@ -13948,7 +13970,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-12-14"
+                               from="2017-10-28"
                                to="2018-09-10"
                                ana="#LV.22 #const.Reykjavikurkjordaemis_sudur"/>
                   <affiliation role="member"
@@ -13958,7 +13980,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2019-03-15"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Reykjavikurkjordaemis_sudur"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1179</idno>
@@ -13977,7 +13999,7 @@
                                ana="#LV.21"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2015-01-20"
+                               from="2014-09-09"
                                to="2016-10-28"
                                ana="#LV.21 #const.Nordausturkjordaemis"/>
                   <affiliation role="member"
@@ -13987,7 +14009,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-05-29"
+                               from="2016-10-29"
                                to="2018-09-10"
                                ana="#LV.22 #const.Nordausturkjordaemis"/>
                   <affiliation role="member"
@@ -13997,7 +14019,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2019-03-18"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Nordausturkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1180</idno>
@@ -14036,7 +14058,7 @@
                                ana="#LV.21"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2015-04-20"
+                               from="2015-01-26"
                                to="2016-04-25"
                                ana="#LV.21 #const.Sudvesturkjordaemis"/>
                   <affiliation role="member"
@@ -14056,7 +14078,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2019-04-12"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Sudvesturkjordaemis"/>
                   <affiliation role="member"
@@ -14120,7 +14142,7 @@
                                ana="#LV.21"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2016-10-10"
+                               from="2015-11-17"
                                to="2016-10-14"
                                ana="#LV.21 #const.Sudvesturkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1199</idno>
@@ -14159,7 +14181,7 @@
                                ana="#LV.21"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2015-06-07"
+                               from="2015-01-21"
                                to="2016-05-21"
                                ana="#LV.21 #const.Nordausturkjordaemis"/>
                   <affiliation role="member"
@@ -14169,7 +14191,7 @@
                                ana="#LV.23"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2019-05-06"
+                               from="2018-09-17"
                                to="2019-11-17"
                                ana="#LV.23 #const.Nordausturkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1202</idno>
@@ -14209,7 +14231,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-12-14"
+                               from="2017-10-28"
                                to="2018-09-10"
                                ana="#LV.22 #const.Nordurland_vestra"/>
                   <affiliation role="member"
@@ -14219,7 +14241,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2019-05-28"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Nordurland_vestra"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1203</idno>
@@ -14239,7 +14261,7 @@
                                ana="#LV.21"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2015-06-18"
+                               from="2015-06-02"
                                to="2015-11-13"
                                ana="#LV.21 #const.Sudurkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1211</idno>
@@ -14259,7 +14281,7 @@
                                ana="#LV.21"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2015-04-28"
+                               from="2015-04-16"
                                to="2016-09-08"
                                ana="#LV.21 #const.Sudurkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1212</idno>
@@ -14304,7 +14326,7 @@
                                ana="#LV.21 #const.Reykjavikurkjordaemis_sudur"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2016-03-07"
+                               from="2015-09-08"
                                to="2016-10-28"
                                ana="#LV.21 #const.Reykjavikurkjordaemis_sudur"/>
                   <affiliation role="member"
@@ -14314,7 +14336,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-05-15"
+                               from="2016-10-29"
                                to="2017-10-27"
                                ana="#LV.22 #const.Reykjavikurkjordaemis_sudur"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1214</idno>
@@ -14334,7 +14356,7 @@
                                ana="#LV.21"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2015-12-07"
+                               from="2015-10-16"
                                to="2015-12-14"
                                ana="#LV.21 #const.Sudvesturkjordaemis"/>
                   <affiliation role="member"
@@ -14349,7 +14371,7 @@
                                ana="#LV.22 #const.Reyknesinga"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2018-06-13"
+                               from="2017-10-28"
                                to="2018-09-10"
                                ana="#LV.22 #const.Reykjavikurkjordaemis_sudur"/>
                   <affiliation role="member"
@@ -14359,7 +14381,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2018-09-24"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Reykjavikurkjordaemis_sudur"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1215</idno>
@@ -14378,7 +14400,7 @@
                                ana="#LV.21"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2015-03-24"
+                               from="2015-02-23"
                                to="2016-10-14"
                                ana="#LV.21 #const.Reyknesinga"/>
                   <affiliation role="member"
@@ -14399,7 +14421,7 @@
                   <affiliation role="MP"
                                ref="#LV"
                                from="2018-09-11"
-                               to="2020-09-30"
+                               to="2020-11-03"
                                ana="#LV.23 #const.Reyknesinga"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1218</idno>
                </person>
@@ -14418,7 +14440,7 @@
                                ana="#LV.21"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2015-06-22"
+                               from="2015-05-05"
                                to="2016-04-25"
                                ana="#LV.21 #const.Nordurland_vestra"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1221</idno>
@@ -14438,7 +14460,7 @@
                                ana="#LV.21"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2015-06-22"
+                               from="2015-02-16"
                                to="2015-06-29"
                                ana="#LV.21 #const.Reykjavikurkjordaemis_sudur"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1222</idno>
@@ -14478,7 +14500,7 @@
                                ana="#LV.21"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2015-04-13"
+                               from="2015-01-28"
                                to="2015-04-27"
                                ana="#LV.21 #const.Reykjavikurkjordaemis_sudur"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1231</idno>
@@ -14497,7 +14519,7 @@
                                ana="#LV.21"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2015-06-22"
+                               from="2015-05-27"
                                to="2015-07-03"
                                ana="#LV.21 #const.Reyknesinga"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1233</idno>
@@ -14527,7 +14549,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-06-02"
+                               from="2016-10-29"
                                to="2018-09-10"
                                ana="#LV.22 #const.Reyknesinga"/>
                   <affiliation role="member"
@@ -14537,7 +14559,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2019-04-12"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Reyknesinga"/>
                   <affiliation role="member"
@@ -14561,7 +14583,7 @@
                                ana="#LV.21"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2015-11-02"
+                               from="2015-09-23"
                                to="2015-11-16"
                                ana="#LV.21 #const.Nordurland_vestra"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1235</idno>
@@ -14600,7 +14622,7 @@
                                ana="#LV.23"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2019-08-28"
+                               from="2018-10-15"
                                to="2019-09-02"
                                ana="#LV.23 #const.Nordausturkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1236</idno>
@@ -14763,7 +14785,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-01-11"
+                               from="2016-10-29"
                                to="2018-09-10"
                                ana="#LV.22 #const.Reykjavikurkjordaemis_sudur"/>
                   <affiliation role="minister"
@@ -14778,7 +14800,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2019-05-17"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Reykjavikurkjordaemis_sudur"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1244</idno>
@@ -14807,7 +14829,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-01-11"
+                               from="2016-10-29"
                                to="2017-10-27"
                                ana="#LV.22 #const.Nordausturkjordaemis"/>
                   <affiliation role="minister"
@@ -14832,7 +14854,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-05-22"
+                               from="2016-10-29"
                                to="2018-09-10"
                                ana="#LV.22 #const.Sudurkjordaemis"/>
                   <affiliation role="member"
@@ -14842,7 +14864,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2018-09-24"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Sudurkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1249</idno>
@@ -14862,7 +14884,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-06-01"
+                               from="2016-10-29"
                                to="2018-09-10"
                                ana="#LV.22 #const.Sudvesturkjordaemis"/>
                   <affiliation role="member"
@@ -14891,7 +14913,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-01-11"
+                               from="2016-10-29"
                                to="2017-10-27"
                                ana="#LV.22 #const.Reykjavikurkjordaemis_sudur"/>
                   <affiliation role="substituteMP"
@@ -14927,13 +14949,13 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-01-11"
+                               from="2016-10-29"
                                to="2018-09-10"
                                ana="#LV.22 #const.Nordurland_vestra"/>
                   <affiliation role="minister"
                                ref="#GOV_LV.44"
                                from="2017-01-11"
-                               to="2017-10-27"
+                               to="2017-11-30"
                                ana="#mstr.nyskopun #mstr.ferdamal #mstr.idnadur"/>
                   <affiliation role="minister"
                                ref="#GOV_LV.45"
@@ -14947,7 +14969,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2019-03-14"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Nordurland_vestra"/>
                   <affiliation role="minister"
@@ -14972,7 +14994,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-06-02"
+                               from="2016-10-29"
                                to="2017-10-27"
                                ana="#LV.22 #const.Nordurland_vestra"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1253</idno>
@@ -14991,7 +15013,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-01-11"
+                               from="2016-10-29"
                                to="2018-09-10"
                                ana="#LV.22 #const.Reyknesinga"/>
                   <affiliation role="minister"
@@ -15006,7 +15028,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2019-06-21"
+                               from="2018-09-11"
                                to="2020-04-14"
                                ana="#LV.23 #const.Reyknesinga"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1254</idno>
@@ -15026,7 +15048,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-02-24"
+                               from="2016-10-29"
                                to="2018-09-10"
                                ana="#LV.22 #const.Nordausturkjordaemis"/>
                   <affiliation role="member"
@@ -15036,7 +15058,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2018-10-27"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Nordausturkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1255</idno>
@@ -15056,7 +15078,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-01-24"
+                               from="2016-10-29"
                                to="2017-10-27"
                                ana="#LV.22 #const.Nordurland_vestra"/>
                   <affiliation role="substituteMP"
@@ -15071,7 +15093,7 @@
                                ana="#LV.23"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2018-10-08"
+                               from="2018-09-18"
                                to="2018-11-11"
                                ana="#LV.23 #const.Nordurland_vestra"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1256</idno>
@@ -15101,7 +15123,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2019-05-13"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Nordurland_vestra"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1257</idno>
@@ -15121,7 +15143,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-04-07"
+                               from="2016-10-29"
                                to="2018-09-10"
                                ana="#LV.22 #const.Reyknesinga"/>
                   <affiliation role="member"
@@ -15131,7 +15153,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2019-09-06"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Reyknesinga"/>
                   <affiliation role="minister"
@@ -15156,7 +15178,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-03-06"
+                               from="2016-10-29"
                                to="2017-10-27"
                                ana="#LV.22 #const.Reykjavikurkjordaemis_sudur"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1262</idno>
@@ -15176,7 +15198,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-05-01"
+                               from="2016-10-29"
                                to="2017-10-27"
                                ana="#LV.22 #const.Sudurkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1264</idno>
@@ -15196,7 +15218,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-03-20"
+                               from="2016-10-29"
                                to="2018-09-10"
                                ana="#LV.22 #const.Reykjavikurkjordaemis_sudur"/>
                   <affiliation role="member"
@@ -15206,7 +15228,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2019-09-03"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Reykjavikurkjordaemis_sudur"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1265</idno>
@@ -15225,7 +15247,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-01-11"
+                               from="2016-10-29"
                                to="2018-09-10"
                                ana="#LV.22 #const.Sudurkjordaemis"/>
                   <affiliation role="member"
@@ -15255,7 +15277,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-06-02"
+                               from="2016-10-29"
                                to="2017-10-27"
                                ana="#LV.22 #const.Reykjavikurkjordaemis_sudur"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1267</idno>
@@ -15274,7 +15296,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-05-15"
+                               from="2016-10-29"
                                to="2018-09-10"
                                ana="#LV.22 #const.Sudurkjordaemis"/>
                   <affiliation role="member"
@@ -15284,7 +15306,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2019-03-15"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Sudurkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1268</idno>
@@ -15304,7 +15326,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-01-23"
+                               from="2016-10-29"
                                to="2017-10-27"
                                ana="#LV.22 #const.Sudvesturkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1269</idno>
@@ -15324,12 +15346,12 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-05-01"
+                               from="2016-10-29"
                                to="2017-10-27"
                                ana="#LV.22 #const.Sudvesturkjordaemis"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2018-04-30"
+                               from="2017-10-28"
                                to="2018-09-10"
                                ana="#LV.22 #const.Reykjavikurkjordaemis_sudur"/>
                   <affiliation role="member"
@@ -15339,8 +15361,8 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2019-05-30"
-                               to="2020-09-30"
+                               from="2018-09-11"
+                               to="2020-11-17"
                                ana="#LV.23 #const.Reykjavikurkjordaemis_sudur"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1270</idno>
                </person>
@@ -15358,7 +15380,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-06-02"
+                               from="2016-10-29"
                                to="2017-10-27"
                                ana="#LV.22 #const.Nordausturkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1274</idno>
@@ -15378,7 +15400,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-05-15"
+                               from="2016-10-29"
                                to="2018-09-10"
                                ana="#LV.22 #const.Reykjavikurkjordaemis_sudur"/>
                   <affiliation role="member"
@@ -15388,7 +15410,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2018-11-27"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Reykjavikurkjordaemis_sudur"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1276</idno>
@@ -15407,7 +15429,7 @@
                                ana="#LV.22"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2017-01-11"
+                               from="2016-12-06"
                                to="2018-04-29"
                                ana="#LV.22 #const.Reykjavikurkjordaemis_sudur"/>
                   <affiliation role="MP"
@@ -15422,7 +15444,7 @@
                                ana="#LV.23"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2019-06-19"
+                               from="2018-10-15"
                                to="2020-06-30"
                                ana="#LV.23 #const.Reykjavikurkjordaemis_sudur"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1279</idno>
@@ -15461,7 +15483,7 @@
                                ana="#LV.22"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2017-01-16"
+                               from="2016-12-19"
                                to="2017-06-01"
                                ana="#LV.22 #const.Nordurland_vestra"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1285</idno>
@@ -15501,7 +15523,7 @@
                                ana="#LV.22"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2017-04-24"
+                               from="2017-01-24"
                                to="2017-09-22"
                                ana="#LV.22 #const.Reyknesinga"/>
                   <affiliation role="member"
@@ -15555,7 +15577,7 @@
                                ana="#LV.22 #const.Sudvesturkjordaemis"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2018-07-17"
+                               from="2018-05-28"
                                to="2018-07-18"
                                ana="#LV.22 #const.Reyknesinga"/>
                   <affiliation role="member"
@@ -15565,7 +15587,7 @@
                                ana="#LV.23"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2019-01-15"
+                               from="2018-09-11"
                                to="2019-04-11"
                                ana="#LV.23 #const.Reyknesinga"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1289</idno>
@@ -15585,7 +15607,7 @@
                                ana="#LV.22"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2017-04-24"
+                               from="2017-03-06"
                                to="2017-05-01"
                                ana="#LV.22 #const.Sudvesturkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1290</idno>
@@ -15604,7 +15626,7 @@
                                ana="#LV.22"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2017-04-24"
+                               from="2017-03-13"
                                to="2017-05-01"
                                ana="#LV.22 #const.Sudurkjordaemis"/>
                   <affiliation role="member"
@@ -15634,7 +15656,7 @@
                                ana="#LV.22"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2017-05-08"
+                               from="2017-03-20"
                                to="2017-05-15"
                                ana="#LV.22 #const.Sudurkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1295</idno>
@@ -15663,7 +15685,7 @@
                                ana="#LV.23"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2020-01-27"
+                               from="2019-10-21"
                                to="2020-02-02"
                                ana="#LV.23 #const.Nordurland_vestra"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1296</idno>
@@ -15712,7 +15734,7 @@
                                ana="#LV.22"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2017-05-29"
+                               from="2017-03-30"
                                to="2017-06-01"
                                ana="#LV.22 #const.Reyknesinga"/>
                   <affiliation role="member"
@@ -15722,7 +15744,7 @@
                                ana="#LV.23"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2019-05-21"
+                               from="2018-10-10"
                                to="2020-06-30"
                                ana="#LV.23 #const.Reyknesinga"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1298</idno>
@@ -15772,7 +15794,7 @@
                                ana="#LV.22"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2017-05-30"
+                               from="2017-04-24"
                                to="2017-06-01"
                                ana="#LV.22 #const.Sudvesturkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1303</idno>
@@ -15960,7 +15982,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2018-03-19"
+                               from="2017-10-28"
                                to="2018-09-10"
                                ana="#LV.22 #const.Nordausturkjordaemis"/>
                   <affiliation role="member"
@@ -15990,7 +16012,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-12-14"
+                               from="2017-10-28"
                                to="2018-09-10"
                                ana="#LV.22 #const.Nordausturkjordaemis"/>
                   <affiliation role="member"
@@ -16000,7 +16022,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2019-09-03"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Nordausturkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1326</idno>
@@ -16019,7 +16041,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2018-04-30"
+                               from="2017-10-28"
                                to="2018-09-10"
                                ana="#LV.22 #const.Nordurland_vestra"/>
                   <affiliation role="member"
@@ -16029,7 +16051,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2019-04-12"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Nordurland_vestra"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1327</idno>
@@ -16049,7 +16071,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2018-02-26"
+                               from="2017-10-28"
                                to="2018-09-10"
                                ana="#LV.22 #const.Sudvesturkjordaemis"/>
                   <affiliation role="member"
@@ -16059,7 +16081,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2018-11-09"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Sudvesturkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1328</idno>
@@ -16079,7 +16101,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-12-14"
+                               from="2017-10-28"
                                to="2018-09-10"
                                ana="#LV.22 #const.Sudvesturkjordaemis"/>
                   <affiliation role="member"
@@ -16089,7 +16111,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2019-09-03"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Sudvesturkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1329</idno>
@@ -16109,7 +16131,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-12-14"
+                               from="2017-10-28"
                                to="2018-09-10"
                                ana="#LV.22 #const.Nordurland_vestra"/>
                   <affiliation role="member"
@@ -16119,7 +16141,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2019-06-21"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Nordurland_vestra"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1330</idno>
@@ -16139,7 +16161,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-12-14"
+                               from="2017-10-28"
                                to="2018-09-10"
                                ana="#LV.22 #const.Reyknesinga"/>
                   <affiliation role="member"
@@ -16149,7 +16171,7 @@
                                ana="#LV.23"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2019-04-12"
+                               from="2018-09-11"
                                to="2020-09-30"
                                ana="#LV.23 #const.Reyknesinga"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1331</idno>
@@ -16168,7 +16190,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2018-02-05"
+                               from="2017-10-28"
                                to="2018-09-10"
                                ana="#LV.22 #const.Reykjavikurkjordaemis_sudur"/>
                   <affiliation role="member"
@@ -16198,7 +16220,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-12-14"
+                               from="2017-10-28"
                                to="2018-09-10"
                                ana="#LV.22 #const.Sudurkjordaemis"/>
                   <affiliation role="member"
@@ -16206,16 +16228,16 @@
                                from="2018-09-11"
                                to="2018-12-02"
                                ana="#LV.23"/>
+                  <affiliation role="MP"
+                               ref="#LV"
+                               from="2018-09-11"
+                               to="2020-09-30"
+                               ana="#LV.23 #const.Sudurkjordaemis"/>
                   <affiliation role="member"
                                ref="#party.M"
                                from="2018-12-03"
                                to="2020-09-30"
                                ana="#LV.23"/>
-                  <affiliation role="MP"
-                               ref="#LV"
-                               from="2019-02-22"
-                               to="2020-09-30"
-                               ana="#LV.23 #const.Sudurkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1333</idno>
                </person>
                <person xml:id="OlafurEsleifsson">
@@ -16232,7 +16254,7 @@
                                ana="#LV.22"/>
                   <affiliation role="MP"
                                ref="#LV"
-                               from="2017-12-14"
+                               from="2017-10-28"
                                to="2018-09-10"
                                ana="#LV.22 #const.Reyknesinga"/>
                   <affiliation role="member"
@@ -16240,16 +16262,16 @@
                                from="2018-09-11"
                                to="2018-12-02"
                                ana="#LV.23"/>
+                  <affiliation role="MP"
+                               ref="#LV"
+                               from="2018-09-11"
+                               to="2020-09-30"
+                               ana="#LV.23 #const.Reyknesinga"/>
                   <affiliation role="member"
                                ref="#party.M"
                                from="2018-12-03"
                                to="2020-09-30"
                                ana="#LV.23"/>
-                  <affiliation role="MP"
-                               ref="#LV"
-                               from="2019-02-22"
-                               to="2020-09-30"
-                               ana="#LV.23 #const.Reyknesinga"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1334</idno>
                </person>
                <person xml:id="GudmundurGudbrandsson">
@@ -16311,7 +16333,7 @@
                                ana="#LV.22"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2018-04-20"
+                               from="2018-01-22"
                                to="2018-04-29"
                                ana="#LV.22 #const.Reykjavikurkjordaemis_sudur"/>
                   <affiliation role="member"
@@ -16321,7 +16343,7 @@
                                ana="#LV.23"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2019-05-22"
+                               from="2018-09-17"
                                to="2020-02-02"
                                ana="#LV.23 #const.Reykjavikurkjordaemis_sudur"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1341</idno>
@@ -16340,7 +16362,7 @@
                                ana="#LV.22"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2018-03-12"
+                               from="2018-01-22"
                                to="2018-03-18"
                                ana="#LV.22 #const.Sudvesturkjordaemis"/>
                   <affiliation role="member"
@@ -16350,7 +16372,7 @@
                                ana="#LV.23"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2019-04-08"
+                               from="2019-02-06"
                                to="2020-02-02"
                                ana="#LV.23 #const.Sudvesturkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1342</idno>
@@ -16420,7 +16442,7 @@
                                ana="#LV.22"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2018-02-19"
+                               from="2018-01-29"
                                to="2018-02-25"
                                ana="#LV.22 #const.Nordausturkjordaemis"/>
                   <affiliation role="member"
@@ -16430,7 +16452,7 @@
                                ana="#LV.23"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2019-05-27"
+                               from="2018-10-15"
                                to="2020-04-30"
                                ana="#LV.23 #const.Nordausturkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1345</idno>
@@ -16460,7 +16482,7 @@
                                ana="#LV.23"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2019-05-09"
+                               from="2018-11-29"
                                to="2019-05-16"
                                ana="#LV.23 #const.Reykjavikurkjordaemis_sudur"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1346</idno>
@@ -16539,7 +16561,7 @@
                                ana="#LV.23"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2020-01-27"
+                               from="2019-10-21"
                                to="2020-02-02"
                                ana="#LV.23 #const.Nordurland_vestra"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1349</idno>
@@ -16569,7 +16591,7 @@
                                ana="#LV.23"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2019-03-18"
+                               from="2018-09-24"
                                to="2019-03-24"
                                ana="#LV.23 #const.Sudvesturkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1350</idno>
@@ -16588,7 +16610,7 @@
                                ana="#LV.22"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2018-04-09"
+                               from="2018-03-19"
                                to="2018-04-22"
                                ana="#LV.22 #const.Sudurkjordaemis"/>
                   <affiliation role="member"
@@ -16598,7 +16620,7 @@
                                ana="#LV.23"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2019-03-06"
+                               from="2018-11-19"
                                to="2020-05-24"
                                ana="#LV.23 #const.Sudurkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1351</idno>
@@ -16677,7 +16699,7 @@
                                ana="#LV.23"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2019-05-13"
+                               from="2018-10-08"
                                to="2019-12-08"
                                ana="#LV.23 #const.Nordurland_vestra"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1355</idno>
@@ -16707,7 +16729,7 @@
                                ana="#LV.23"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2019-09-02"
+                               from="2018-11-05"
                                to="2020-02-02"
                                ana="#LV.23 #const.Sudurkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1358</idno>
@@ -16756,7 +16778,7 @@
                                ana="#LV.23"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2018-12-12"
+                               from="2018-10-08"
                                to="2018-12-14"
                                ana="#LV.23 #const.Reykjavikurkjordaemis_sudur"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1360</idno>
@@ -16785,7 +16807,7 @@
                                ana="#LV.23"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2019-09-02"
+                               from="2018-09-11"
                                to="2020-02-02"
                                ana="#LV.23 #const.Sudvesturkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1362</idno>
@@ -16844,7 +16866,7 @@
                                ana="#LV.23"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2019-09-02"
+                               from="2018-10-08"
                                to="2019-12-17"
                                ana="#LV.23 #const.Sudurkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1365</idno>
@@ -16863,7 +16885,7 @@
                                ana="#LV.23"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2019-09-02"
+                               from="2018-10-11"
                                to="2020-03-15"
                                ana="#LV.23 #const.Nordausturkjordaemis"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1366</idno>
@@ -16883,7 +16905,7 @@
                                ana="#LV.23"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2019-01-15"
+                               from="2018-10-15"
                                to="2019-02-07"
                                ana="#LV.23 #const.Reykjavikurkjordaemis_sudur"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1367</idno>
@@ -16922,7 +16944,7 @@
                                ana="#LV.23"/>
                   <affiliation role="substituteMP"
                                ref="#LV"
-                               from="2019-06-19"
+                               from="2018-12-07"
                                to="2019-06-20"
                                ana="#LV.23 #const.Nordurland_vestra"/>
                   <idno type="URL">http://althingi.is/altext/cv/is/?nfaerslunr=1370</idno>

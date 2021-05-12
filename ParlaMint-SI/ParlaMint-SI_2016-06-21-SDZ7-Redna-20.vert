@@ -1,20 +1,20 @@
 <text id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.ana" subcorpus="Reference" term="7" session="-" meeting="20" sitting="-" agenda="-" from="2016-06-21" to="2016-06-21" title="Minutes of the National Assembly of the Republic of Slovenia, Term 7, Regular Session 20, 21.6.2016">
 <note type="head">
-/REPUBLIKA SLOVENIJA DRŽAVNI ZBOR/	-	-	-	-	-	-	-	-	-	-
+[REPUBLIKA SLOVENIJA DRŽAVNI ZBOR]										
 </note>
 <note type="head">
-/nadaljevanje 20. seje/	-	-	-	-	-	-	-	-	-	-
+[nadaljevanje 20. seje]										
 </note>
 <note type="head">
-/Sejo so vodili predsednik Državnega zbora dr. Milan Brglez ter podpredsednika Primož Hainz in Matjaž Nemec./	-	-	-	-	-	-	-	-	-	-
+[Sejo so vodili predsednik Državnega zbora dr. Milan Brglez ter podpredsednika Primož Hainz in Matjaž Nemec.]										
 </note>
 <note type="time">
-/Seja se je začela ob 9. uri./	-	-	-	-	-	-	-	-	-	-
+[Seja se je začela ob 9. uri.]										
 </note>
 <note type="speaker">
-/PREDSEDNIK DR. MILAN BRGLEZ:/	-	-	-	-	-	-	-	-	-	-
+[PREDSEDNIK DR. MILAN BRGLEZ:]										
 </note>
-<speech id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.u1" speaker_role="Chairperson" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka modernega centra" coalition_party="yes" speaker_gender="M" speaker_birth="1967">
+<speech id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.u1" speaker_role="Chairperson" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka modernega centra" party_status="-" speaker_gender="M" speaker_birth="1967">
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg1" lang="Slovenian">
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg1.1">
 Spoštovani	Spoštovani	spoštovan	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Plur VerbForm=Part	1	amod	kolegica	NOUN	Case=Nom Gender=Fem Number=Plur	2
@@ -228,9 +228,9 @@ Sodin	Sodin	Sodin	PROPN	Case=Dat Gender=Fem Number=Sing	19	flat:name	Irena	PROPN
 </p>
 </speech>
 <note type="speaker">
-/IRENA SODIN:/	-	-	-	-	-	-	-	-	-	-
+[IRENA SODIN:]										
 </note>
-<speech id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.u2" speaker_role="Regular" speaker_id="SodinIrena" speaker_name="Sodin, Irena" speaker_type="notMP" speaker_party="-" speaker_party_name="-" coalition_party="no" speaker_gender="F" speaker_birth="?">
+<speech id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.u2" speaker_role="Regular" speaker_id="SodinIrena" speaker_name="Sodin, Irena" speaker_type="notMP" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="F" speaker_birth="-">
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg7" lang="Slovenian">
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg7.1">
 Spoštovani	Spoštovani	spoštovan	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing VerbForm=Part	1	amod	predsednik	NOUN	Case=Nom Gender=Masc Number=Sing	2
@@ -766,9 +766,9 @@ Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 </p>
 </speech>
 <note type="gap::editorial">
-/SAMPLING/	-	-	-	-	-	-	-	-	-	-
+[SAMPLING]										
 </note>
-<speech id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.u217" speaker_role="Regular" speaker_id="LogarAnže" speaker_name="Logar, Anže" speaker_type="MP" speaker_party="SDS" speaker_party_name="Slovenska demokratska stranka" coalition_party="no" speaker_gender="M" speaker_birth="1976">
+<speech id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.u217" speaker_role="Regular" speaker_id="LogarAnže" speaker_name="Logar, Anže" speaker_type="MP" speaker_party="SDS" speaker_party_name="Slovenska demokratska stranka" party_status="opposition" speaker_gender="M" speaker_birth="1976">
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg817" lang="Slovenian">
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg817.1">
 Lep	Lep	lep	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing	1	amod	pozdrav	NOUN	Case=Nom Gender=Masc Number=Sing	2
@@ -1523,9 +1523,9 @@ podprli	podprli	podpreti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	
 </p>
 </speech>
 <note type="speaker">
-/PREDSEDNIK DR. MILAN BRGLEZ:/	-	-	-	-	-	-	-	-	-	-
+[PREDSEDNIK DR. MILAN BRGLEZ:]										
 </note>
-<speech id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.u218" speaker_role="Chairperson" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka modernega centra" coalition_party="yes" speaker_gender="M" speaker_birth="1967">
+<speech id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.u218" speaker_role="Chairperson" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka modernega centra" party_status="-" speaker_gender="M" speaker_birth="1967">
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg821" lang="Slovenian">
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg821.1">
 Zaključili	Zaključili	zaključiti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	1	root	-	-	-	-
@@ -1607,10 +1607,10 @@ pa	pa	pa	CCONJ	-	14	advmod	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	
 </s>
 </p>
 <note type="vote-ayes">
-/Za je glasovalo 47./	-	-	-	-	-	-	-	-	-	-
+[Za je glasovalo 47.]										
 </note>
 <note type="vote-noes">
-/Proti 6./	-	-	-	-	-	-	-	-	-	-
+[Proti 6.]										
 </note>
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg825" lang="Slovenian">
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg825.1">
@@ -1684,10 +1684,10 @@ pa	pa	pa	CCONJ	-	14	advmod	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	
 </s>
 </p>
 <note type="vote-ayes">
-/Za je glasovalo 48./	-	-	-	-	-	-	-	-	-	-
+[Za je glasovalo 48.]										
 </note>
 <note type="vote-noes">
-/Proti 15./	-	-	-	-	-	-	-	-	-	-
+[Proti 15.]										
 </note>
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg829" lang="Slovenian">
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg829.1">
@@ -1761,10 +1761,10 @@ pa	pa	pa	CCONJ	-	14	advmod	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	
 </s>
 </p>
 <note type="vote-ayes">
-/Za je glasovalo 49./	-	-	-	-	-	-	-	-	-	-
+[Za je glasovalo 49.]										
 </note>
 <note type="vote-noes">
-/Proti 1./	-	-	-	-	-	-	-	-	-	-
+[Proti 1.]										
 </note>
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg833" lang="Slovenian">
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg833.1">
@@ -1872,10 +1872,10 @@ pa	pa	pa	CCONJ	-	14	advmod	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	
 </s>
 </p>
 <note type="vote-ayes">
-/Za je glasovalo 50./	-	-	-	-	-	-	-	-	-	-
+[Za je glasovalo 50.]										
 </note>
 <note type="vote-noes">
-/Proti 1./	-	-	-	-	-	-	-	-	-	-
+[Proti 1.]										
 </note>
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg837" lang="Slovenian">
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg837.1">
@@ -2013,10 +2013,10 @@ nihče	nihče	nihče	PRON	Case=Nom Gender=Masc Number=Sing PronType=Neg	17	nsubj
 </s>
 </p>
 <note type="vote-ayes">
-/Za je glasovalo 70./	-	-	-	-	-	-	-	-	-	-
+[Za je glasovalo 70.]										
 </note>
 <note type="vote-noes">
-/Proti nihče./	-	-	-	-	-	-	-	-	-	-
+[Proti nihče.]										
 </note>
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg841" lang="Slovenian">
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg841.1">
@@ -2249,10 +2249,10 @@ proti	proti	proti	ADP	Case=Dat	13	case	2.	NUM	NumForm=Digit NumType=Ord	14
 </s>
 </p>
 <note type="vote-ayes">
-/Za je glasovalo 51./	-	-	-	-	-	-	-	-	-	-
+[Za je glasovalo 51.]										
 </note>
 <note type="vote-noes">
-/Proti 2./	-	-	-	-	-	-	-	-	-	-
+[Proti 2.]										
 </note>
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg845" lang="Slovenian">
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg845.1">
@@ -2290,6 +2290,6 @@ zbora	zbora	zbor	NOUN	Case=Gen Gender=Masc Number=Sing	13	nmod	seja	NOUN	Case=Ac
 </p>
 </speech>
 <note type="time">
-/Seja se je končala 21. junija 2016 ob 20.11./	-	-	-	-	-	-	-	-	-	-
+[Seja se je končala 21. junija 2016 ob 20.11.]										
 </note>
 </text>

@@ -53,7 +53,7 @@
                <p xml:lang="bg">Корпусът е достъпен чрез международния лиценз <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2021-04-19">2021-04-19</date>
+            <date when="2021-05-08">2021-05-08</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -506,6 +506,28 @@
                   <idno type="URI" xml:lang="bg" subtype="wikimedia">https://bg.wikipedia.org/wiki/Патриотичен фронт</idno>
                   <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Patriotic_Front_(Bulgaria)</idno>
                </org>
+               <listRelation>
+                  <relation name="coalition"
+                            mutual="#party.GERB #party.RB #party.PF #party.ABV"
+                            from="2014-10-05"
+                            to="2017-01-26"/>
+                  <relation name="opposition"
+                            active="#party.BSP #party.DPS #party.ATAKA #party.BGUn"
+                            passive="#gov.IzvSv"
+                            from="2014-10-05"
+                            to="2017-01-26"/>
+                  <relation name="coalition"
+                            mutual="#party.GERB #party.VMRO #party.FRONT #party.ATAKA #party.VOLYA"
+                            from="2017-04-19"
+                            to="2021-03-25"
+                            ana="#NS.44"/>
+                  <relation name="opposition"
+                            active="#party.BSP #party.DPS"
+                            passive="#gov.IzvSv"
+                            from="2017-04-19"
+                            to="2021-03-25"
+                            ana="#NS.44"/>
+               </listRelation>
             </listOrg>
             <listOrg>
                <head xml:lang="bg">Народното събрание, минстерства, агенции и други държавни служби</head>
@@ -9338,9 +9360,9 @@
          </langUsage>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2021-04-19">
+         <change when="2021-05-08">
             <name>Tomaž Erjavec</name>: Made sample.</change>
-         <change when="2021-04-19">
+         <change when="2021-05-08">
             <name>Tomaž Erjavec</name>: Finalize encoding.</change>
       </revisionDesc>
    </teiHeader>

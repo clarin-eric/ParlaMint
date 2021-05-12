@@ -1,8 +1,8 @@
 <text id="ParlaMint-GB_2016-02-01-commons.ana" subcorpus="Reference" term="56" session="-" meeting="-" sitting="-" agenda="-" from="2016-02-01" to="2016-02-01" title="Minutes of the House of Commons, Daily Session 2016-02-01">
 <note type="head">
-/State Pension Eligibility/	-	-	-	-	-	-	-	-	-	-
+[State Pension Eligibility]										
 </note>
-<speech id="ParlaMint-GB_2016-02-01-commons.u1" speaker_role="Regular" speaker_id="MartynDay" speaker_name="Day, Martyn" speaker_type="MP" speaker_party="SNP" speaker_party_name="Scottish National Party" coalition_party="?" speaker_gender="M" speaker_birth="?">
+<speech id="ParlaMint-GB_2016-02-01-commons.u1" speaker_role="Regular" speaker_id="MartynDay" speaker_name="Day, Martyn" speaker_type="MP" speaker_party="SNP" speaker_party_name="Scottish National Party" party_status="-" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GB_2016-02-01-commons.seg1" lang="English">
 <s id="ParlaMint-GB_2016-02-01-commons.seg1.1">
 1	1	1	X	-	1	root	-	-	-	-
@@ -46,7 +46,7 @@ pension	pension	pension	NOUN	Number=Sing	31	obl	eligible	ADJ	Degree=Pos	27
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-GB_2016-02-01-commons.u2" speaker_role="Regular" speaker_id="TasminaAhmedSheikh" speaker_name="Ahmed-Sheikh, Tasmina" speaker_type="notMP" speaker_party="SNP" speaker_party_name="Scottish National Party" coalition_party="?" speaker_gender="F" speaker_birth="?">
+<speech id="ParlaMint-GB_2016-02-01-commons.u2" speaker_role="Regular" speaker_id="TasminaAhmedSheikh" speaker_name="Ahmed-Sheikh, Tasmina" speaker_type="MP" speaker_party="SNP" speaker_party_name="Scottish National Party" party_status="-" speaker_gender="F" speaker_birth="-">
 <p id="ParlaMint-GB_2016-02-01-commons.seg2" lang="English">
 <s id="ParlaMint-GB_2016-02-01-commons.seg2.1">
 2	2	2	X	-	1	root	-	-	-	-
@@ -91,9 +91,9 @@ pension	pension	pension	NOUN	Number=Sing	31	obl	eligible	ADJ	Degree=Pos	27
 </p>
 </speech>
 <note type="gap::editorial">
-/SAMPLING/	-	-	-	-	-	-	-	-	-	-
+[SAMPLING]										
 </note>
-<speech id="ParlaMint-GB_2016-02-01-commons.u368" speaker_role="Regular" speaker_id="NusratUlGhani" speaker_name="Ul-Ghani, Nusrat Munir" speaker_type="MP" speaker_party="CON" speaker_party_name="Conservative" coalition_party="?" speaker_gender="F" speaker_birth="?">
+<speech id="ParlaMint-GB_2016-02-01-commons.u368" speaker_role="Regular" speaker_id="NusratUlGhani" speaker_name="Ul-Ghani, Nusrat Munir" speaker_type="MP" speaker_party="CON" speaker_party_name="Conservative" party_status="-" speaker_gender="F" speaker_birth="-">
 <p id="ParlaMint-GB_2016-02-01-commons.seg773" lang="English">
 <s id="ParlaMint-GB_2016-02-01-commons.seg773.1">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	1	nsubj	agree	VERB	Mood=Ind Tense=Pres VerbForm=Fin	3
@@ -1082,7 +1082,7 @@ it	it	it	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	76	obl	go	V
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-GB_2016-02-01-commons.u369" speaker_role="Regular" speaker_id="JamesDuddridge" speaker_name="Duddridge, James Philip" speaker_type="MP" speaker_party="CON" speaker_party_name="Conservative" coalition_party="?" speaker_gender="M" speaker_birth="?">
+<speech id="ParlaMint-GB_2016-02-01-commons.u369" speaker_role="Regular" speaker_id="JamesDuddridge" speaker_name="Duddridge, James Philip" speaker_type="MP" speaker_party="CON" speaker_party_name="Conservative" party_status="-" speaker_gender="M" speaker_birth="-">
 <p id="ParlaMint-GB_2016-02-01-commons.seg781" lang="English">
 <s id="ParlaMint-GB_2016-02-01-commons.seg781.1">
 I	I	I	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	1	nsubj	grateful	ADJ	Degree=Pos	3
@@ -2933,9 +2933,9 @@ to	to	to	PART	-	5	obj	agree	VERB	Mood=Ind Tense=Past VerbForm=Fin	4
 </p>
 </speech>
 <note type="-">
-/House adjourned./	-	-	-	-	-	-	-	-	-	-
+[House adjourned.]										
 </note>
 <note type="-">
-/End of debateSection./	-	-	-	-	-	-	-	-	-	-
+[End of debateSection.]										
 </note>
 </text>

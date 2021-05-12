@@ -58,7 +58,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-04-19">2021-04-19</date>
+            <date when="2021-05-11">2021-05-11</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -1027,6 +1027,11 @@
          </settingDesc>
          <particDesc>
             <listOrg>
+               <org xml:id="government.BE" role="government">
+                  <orgName xml:lang="en" full="yes">Federal Government of Belgium</orgName>
+                  <orgName xml:lang="nl" full="yes">Federale regering</orgName>
+                  <orgName xml:lang="fr" full="yes">Gouvernement fédéral</orgName>
+               </org>
                <org ana="#parla.federal #parla.lower"
                     role="parliament"
                     xml:id="be_federal_parliament">
@@ -1467,6 +1472,59 @@
                   <orgName full="init">Vuye_Wouters</orgName>
                   <orgName full="yes">Vuye &amp; Wouters: V-Kamerleden</orgName>
                </org>
+               <listRelation>
+                  <relation name="coalition"
+                            mutual="#MR #OpenVld #N-VA #CD_en_V"
+                            from="2014-10-11"
+                            to="2018-12-09"
+                            ana="#period_54"/>
+                  <relation name="opposition"
+                            active="#Ecolo #cdH #DéFi #Vuye_Wouters #sp.a #PP #PS #PTB #FDF #VB #PVDA-PTB #Groen"
+                            passive="#government.BE"
+                            from="2014-10-11"
+                            to="2018-12-09"
+                            ana="#period_54"/>
+                  <relation name="coalition"
+                            mutual="#MR #OpenVld #CD_en_V"
+                            from="2018-12-10"
+                            to="2019-10-27"/>
+                  <relation name="opposition"
+                            active="#Ecolo #N-VA #cdH #DéFi #Vuye_Wouters #sp.a #PP #PS #PTB #VB #PVDA-PTB #Groen"
+                            passive="#government.BE"
+                            from="2018-12-10"
+                            to="2019-10-27"/>
+                  <relation name="coalition"
+                            mutual="#MR #OpenVld #CD_en_V"
+                            from="2019-10-28"
+                            to="2020-03-17"
+                            ana="#period_55"/>
+                  <relation name="opposition"
+                            active="#Ecolo #cdH #DéFi #sp.a #PS #PTB #VB #PVDA-PTB #Groen"
+                            passive="#government.BE"
+                            from="2019-10-28"
+                            to="2020-03-17"
+                            ana="#period_55"/>
+                  <relation name="coalition"
+                            mutual="#MR #OpenVld #CD_en_V"
+                            from="2020-03-18"
+                            to="2020-10-01"
+                            ana="#period_55"/>
+                  <relation name="opposition"
+                            active="#Ecolo #cdH #DéFi #sp.a #PS #PTB #VB #PVDA-PTB #Groen"
+                            passive="#government.BE"
+                            from="2020-03-18"
+                            to="2020-10-01"
+                            ana="#period_55"/>
+                  <relation name="coalition"
+                            mutual="#MR #OpenVld #PS #sp.a #Ecolo #Groen #CD_en_V"
+                            from="2020-10-02"
+                            ana="#period_55"/>
+                  <relation name="opposition"
+                            active="#N-VA #cdH #DéFi #PTB #VB #PVDA-PTB"
+                            passive="#government.BE"
+                            from="2020-10-02"
+                            ana="#period_55"/>
+               </listRelation>
             </listOrg>
             <listPerson>
                <person xml:id="Anonymous">
