@@ -362,7 +362,8 @@
       <xsl:variable name="head" select="substring-after(
 					substring-before(@target, ' '),
 					'#')"/>
-      <xsl:if test="$head != ancestor::tei:s/@xml:id">
+      <!-- Leave this error to be reported by CoNLL-U validation -->
+      <!--xsl:if test="$head != ancestor::tei:s/@xml:id">
 	<xsl:variable name="token" select="substring-after(@target, ' ')"/>
 	<xsl:call-template name="error">
 	  <xsl:with-param name="severity">WARN</xsl:with-param>
@@ -370,7 +371,7 @@
 			  select="concat('UD root relation should have sentence ID as its head for ', 
 				  $token, ' head = ', $head, ' sent ID = ', ancestor::tei:s/@xml:id)"/>
 	</xsl:call-template>
-      </xsl:if>
+      </xsl:if-->
     </xsl:if>
   </xsl:template>
   
