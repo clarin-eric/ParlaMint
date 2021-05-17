@@ -2,7 +2,8 @@
 <!-- Finalize the encoding of a ParlaMint corpus -->
 <!-- Takes root file as input, and outputs it and all finalized component files to outDir:
      - set release date to today
-     - set version to 2.0
+     - set version to 2.1
+     - set handles for 2.1
      - get rid of spurious handle ref
      - get rid of spurious spaces
      - insert government org, if missing
@@ -24,7 +25,9 @@
   <!-- Directories must have absolute paths! -->
   <xsl:param name="outDir">.</xsl:param>
   <xsl:param name="anaDir">.</xsl:param>
-  <xsl:param name="version">2.0</xsl:param>
+  <xsl:param name="version">2.1</xsl:param>
+  <xsl:param name="handle-txt">http://hdl.handle.net/11356/1432</xsl:param>
+  <xsl:param name="handle-ana">http://hdl.handle.net/11356/1431</xsl:param>
   <xsl:param name="type">
     <xsl:choose>
       <xsl:when test="contains(/tei:teiCorpus/@xml:id, '.ana')">ana</xsl:when>
@@ -199,6 +202,19 @@
     </xsl:copy>
   </xsl:template>
   
+  <xsl:template mode="comp" match="tei:idno[contains(., 'http://hdl.handle.net/11356/')]">
+    <idno subtype="handle" type="URI">
+      <xsl:choose>
+	<xsl:when test="$type = 'txt'">
+	  <xsl:value-of select="$handle-txt"/>
+	</xsl:when>
+	<xsl:when test="$type = 'ana'">
+	  <xsl:value-of select="$handle-ana"/>
+	</xsl:when>
+      </xsl:choose>
+    </idno>
+  </xsl:template>
+
   <xsl:template mode="comp" match="tei:publicationStmt[tei:idno]/
 		       tei:pubPlace[tei:ref[matches(@target, 'hdl.handle.net')]]">
     <xsl:message select="concat('INFO ', /tei:TEI/@xml:id, 
@@ -285,6 +301,17 @@
     <xsl:copy/>
   </xsl:template>
   
+  <xsl:template match="tei:teiCorpus">
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <xsl:apply-templates select="tei:*"/>
+      <xsl:for-each select="xi:include">
+	<xsl:sort select="replace(@href, '.+?_(\d\d\d\d-\d\d-\d\d).*', '$1')"/>
+	<xsl:copy-of select="."/>
+      </xsl:for-each>
+    </xsl:copy>
+  </xsl:template>
+  
   <xsl:template match="tei:measure[@unit='sessions' or @unit='speeches' or @unit='words']">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
@@ -354,6 +381,19 @@
       <xsl:apply-templates select="@*"/>
       <change when="{$today}"><name>Tomaž Erjavec</name>: Finalize encoding.</change>
     </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="tei:idno[contains(., 'http://hdl.handle.net/11356/')]">
+    <idno subtype="handle" type="URI">
+      <xsl:choose>
+	<xsl:when test="$type = 'txt'">
+	  <xsl:value-of select="$handle-txt"/>
+	</xsl:when>
+	<xsl:when test="$type = 'ana'">
+	  <xsl:value-of select="$handle-ana"/>
+	</xsl:when>
+      </xsl:choose>
+    </idno>
   </xsl:template>
 
   <xsl:template match="tei:publicationStmt[tei:idno]/
