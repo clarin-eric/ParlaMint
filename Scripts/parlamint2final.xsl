@@ -263,7 +263,7 @@
   
   <xsl:template match="/">
     <!-- Process component files -->
-    <!--xsl:for-each select="$docs//tei:item">
+    <xsl:for-each select="$docs//tei:item">
       <xsl:variable name="this" select="tei:xi-orig"/>
       <xsl:message select="concat('INFO: Processing ', $this)"/>
       <xsl:result-document href="{tei:url-new}">
@@ -271,7 +271,7 @@
 	<xsl:with-param name="words" select="$words/tei:item[@n = $this]"/>
 	</xsl:apply-templates>
       </xsl:result-document>
-    </xsl:for-each-->
+    </xsl:for-each>
     <!-- Output Root file -->
     <xsl:message>INFO: processing root </xsl:message>
     <xsl:result-document href="{$outRoot}">
