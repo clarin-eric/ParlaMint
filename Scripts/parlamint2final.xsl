@@ -121,17 +121,15 @@
 	<term>Lower house</term>
 	<term>Upper house</term>
       </xsl:when>
-      <xsl:when test="$country-code = 'PL'">
-	<term>Legislature</term>
-	<term>Bicameralism</term>
-	<term>Lower house</term>
-	<term>Upper house</term>
-      </xsl:when>
       <xsl:when test="$country-code = 'SI'">
 	<term>Legislature</term>
 	<term>Bicameralism</term>
 	<term>Lower house</term>
       </xsl:when>
+      <xsl:otherwise>
+	<xsl:message terminate="yes" select="concat('FATAL ', /tei:TEI/@xml:id, 
+					     ': BAD COUNTRY!')"/>
+      </xsl:otherwise>
     </xsl:choose>
   </xsl:variable>
   
@@ -142,11 +140,13 @@
       <xsl:variable name="term-id">
 	<xsl:choose>
 	  <xsl:when test="$term = 'Legislature'">
-	    <xsl:value-of select="//$taxos[tei:desc[@xml:lang = 'en']/tei:term = $term]/@xml:id"/>
+	    <xsl:value-of select="//$taxos
+				  [tei:desc[tei:term = $term]]
+				  /@xml:id"/>
 	  </xsl:when>
 	  <xsl:otherwise>
 	    <xsl:value-of select="$taxos//tei:category
-				  [tei:catDesc[@xml:lang = 'en']/tei:term = $term]
+				  [tei:catDesc[tei:term = $term]]
 				  /@xml:id"/>
 	  </xsl:otherwise>
 	</xsl:choose>
@@ -293,11 +293,26 @@
   </xsl:template>
 
   <xsl:template mode="comp" match="tei:publicationStmt/tei:date">
-    <xsl:copy>
-      <xsl:apply-templates select="@*"/>
-      <xsl:attribute name="when" select="$today"/>
-      <xsl:value-of select="format-date(current-date(), '[MNn] [D], [Y]')"/>
-    </xsl:copy>
+    <xsl:apply-templates select="."/>
+  </xsl:template>
+  
+  <xsl:template mode="comp" match="tei:editionStmt/tei:edition">
+    <xsl:apply-templates select="."/>
+  </xsl:template>
+  
+  <xsl:template mode="comp" match="tei:idno[contains(., 'http://hdl.handle.net/11356/')]">
+    <xsl:apply-templates select="."/>
+  </xsl:template>
+
+  <!-- Same as for root -->
+  <xsl:template mode="comp" match="tei:publicationStmt[tei:idno]/
+		       tei:pubPlace[tei:ref[matches(@target, 'hdl.handle.net')]]">
+    <xsl:apply-templates select="."/>
+  </xsl:template>
+  
+  <!-- Same as for root -->
+  <xsl:template mode="comp" match="tei:meeting">
+    <xsl:apply-templates select="."/>
   </xsl:template>
   
   <xsl:template mode="comp" match="tei:extent/tei:measure[@unit='words']">
@@ -318,36 +333,6 @@
     </xsl:copy>
   </xsl:template>  
 
-  <xsl:template mode="comp" match="tei:editionStmt/tei:edition">
-    <xsl:copy>
-      <xsl:apply-templates select="@*"/>
-      <xsl:if test="$version != .">
-	<xsl:message select="concat('INFO ', /tei:TEI/@xml:id, 
-			     ': replacing version ', ., ' with ', $version)"/>
-      </xsl:if>
-      <xsl:value-of select="$version"/>
-    </xsl:copy>
-  </xsl:template>
-  
-  <xsl:template mode="comp" match="tei:idno[contains(., 'http://hdl.handle.net/11356/')]">
-    <idno subtype="handle" type="URI">
-      <xsl:choose>
-	<xsl:when test="$type = 'txt'">
-	  <xsl:value-of select="$handle-txt"/>
-	</xsl:when>
-	<xsl:when test="$type = 'ana'">
-	  <xsl:value-of select="$handle-ana"/>
-	</xsl:when>
-      </xsl:choose>
-    </idno>
-  </xsl:template>
-
-  <xsl:template mode="comp" match="tei:publicationStmt[tei:idno]/
-		       tei:pubPlace[tei:ref[matches(@target, 'hdl.handle.net')]]">
-    <xsl:message select="concat('INFO ', /tei:TEI/@xml:id, 
-			 ': deleting redundant handle pubPlace')"/>
-  </xsl:template>
-  
   <!-- Take care of syntactic words -->
   <xsl:template mode="comp" match="tei:w[tei:w]">
     <xsl:choose>
@@ -486,6 +471,7 @@
     </xsl:copy>
   </xsl:template>
   
+  <!-- Add textClass if missing -->
   <xsl:template match="tei:settingDesc">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
@@ -517,6 +503,69 @@
     </xsl:if>
   </xsl:template>
   
+  <xsl:template match="tei:meeting">
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <xsl:if test="$house-refs/tei:ref[. = 'Bicameralism'] and 
+		    not(contains(@ana, 'parla.lower') or contains(@ana, 'parla.upper'))">
+	<xsl:variable name="house">
+	  <xsl:choose>
+	    <xsl:when test="not($house-refs/tei:ref[. = 'Lower house']) and
+			    not($house-refs/tei:ref[. = 'Upper house'])">
+	      <xsl:message terminate="yes" select="concat('FATAL ', /tei:TEI/@xml:id, 
+						   ': NO HOUSES!')"/>
+	    </xsl:when>
+	    <xsl:when test="$house-refs/tei:ref[. = 'Lower house'] and
+			    not($house-refs/tei:ref[. = 'Upper house'])">
+	      <xsl:copy-of select="$house-refs/tei:ref[. = 'Lower house']"/>
+	    </xsl:when>
+	    <xsl:when test="$house-refs/tei:ref[. = 'Upper house'] and
+			    not($house-refs/tei:ref[. = 'Lower house'])">
+	      <xsl:copy-of select="$house-refs/tei:ref[. = 'Upper house']"/>
+	    </xsl:when>
+	    <xsl:when test="$country-code = 'GB' and 
+			    contains(/tei:TEI/tei:teiHeader//tei:titleStmt
+			    /tei:title[@type='main'],
+			    'Commons')">
+	      <xsl:copy-of select="$house-refs/tei:ref[. = 'Lower house']"/>
+	    </xsl:when>
+	    <xsl:when test="$country-code = 'GB' and 
+			    contains(/tei:TEI/tei:teiHeader//tei:titleStmt
+			    /tei:title[@type='main'],
+			    'Lords')">
+	      <xsl:copy-of select="$house-refs/tei:ref[. = 'Upper house']"/>
+	    </xsl:when>
+	    <xsl:when test="$country-code = 'NL' and 
+			    contains(/tei:TEI/tei:teiHeader//tei:titleStmt
+			    /tei:title[@type='main' and @xml:lang='en'],
+			    'Lower House')">
+	      <xsl:copy-of select="$house-refs/tei:ref[. = 'Lower house']"/>
+	    </xsl:when>
+	    <xsl:when test="$country-code = 'NL' and 
+			    contains(/tei:TEI/tei:teiHeader//tei:titleStmt
+			    /tei:title[@type='main' and @xml:lang='en'],
+			    'Upper House')">
+	      <xsl:copy-of select="$house-refs/tei:ref[. = 'Upper house']"/>
+	    </xsl:when>
+	  </xsl:choose>
+	</xsl:variable>
+	<xsl:message select="concat('INFO ', /tei:TEI/@xml:id, 
+			     ': inserting ', $house/tei:ref/@target, ' into meeting/@ana')"/>
+	<xsl:choose>
+	  <xsl:when test="normalize-space($house)">
+	    <xsl:attribute name="ana"
+			   select="concat(@ana, '&#32;', $house/tei:ref/@target)"/>
+	  </xsl:when>
+	  <xsl:otherwise>
+	    <xsl:message select="concat('ERROR ', /tei:TEI/@xml:id, 
+				 ': dont know how to insert uppper and lower house!')"/>
+	  </xsl:otherwise>
+	</xsl:choose>
+      </xsl:if>
+      <xsl:apply-templates/>
+    </xsl:copy>
+  </xsl:template>
+  
   <xsl:template match="tei:publicationStmt/tei:date">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
@@ -524,6 +573,7 @@
       <xsl:value-of select="format-date(current-date(), '[MNn] [D], [Y]')"/>
     </xsl:copy>
   </xsl:template>
+  
   <xsl:template match="tei:editionStmt/tei:edition">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
@@ -534,6 +584,7 @@
       <xsl:value-of select="$version"/>
     </xsl:copy>
   </xsl:template>
+  
   <xsl:template match="tei:revisionDesc">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
