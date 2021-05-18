@@ -41,7 +41,7 @@ include "ParlaMint-TEI.rnc" {
   ## Profile description.
   profileDesc =
     element profileDesc {
-      global.atts, settingDesc, particDesc, langUsage
+      global.atts, settingDesc, textClass?, particDesc, langUsage
     }
 }
 editorialDecl =
@@ -51,6 +51,13 @@ editorialDecl =
     element hyphenation { paras },
     element quotation { paras },
     element segmentation { paras }
+  }
+textClass =
+  element textClass {
+    element catRef {
+      attribute scheme { xsd:anyURI }?,
+      attribute target { anyURIs }
+    }+
   }
 taxonomy =
   element taxonomy {
@@ -276,8 +283,7 @@ event =
   }
 term = element term { text }
 
-## Text preceded by term, for use in
-##     taxonomies.
+## Text preceded by term, for use in taxonomies.
 term-text = term, annotated-text
 
 ## Attribute for person name elements,

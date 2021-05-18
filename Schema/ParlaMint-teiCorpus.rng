@@ -15,11 +15,11 @@
       <a:documentation>Root element of a ParlaMint root
       file.</a:documentation>
       <element name="teiCorpus">
-      <ref name="id.att"/>
-      <attribute name="xml:lang">
-	<ref name="lang.vals"/>
-      </attribute>
-      <ref name="teiHeader"/>
+	<ref name="id.att"/>
+	<attribute name="xml:lang">
+	  <ref name="lang.vals"/>
+	</attribute>
+	<ref name="teiHeader"/>
 	<oneOrMore>
 	  <element name="xi:include">
 	    <attribute name="href">
@@ -84,11 +84,13 @@
       <element name="profileDesc">
 	<ref name="global.atts"/>
 	<ref name="settingDesc"/>
+	<optional>
+	  <ref name="textClass"/>
+	</optional>
 	<ref name="particDesc"/>
 	<ref name="langUsage"/>
       </element>
     </define>
-    
   </include>
 
   <define name="editorialDecl">
@@ -111,7 +113,24 @@
     </element>
   </define>
 
-<define name="taxonomy">
+  <define name="textClass">
+    <element name="textClass">
+      <oneOrMore>
+	<element name="catRef">
+	  <optional>
+	    <attribute name="scheme">
+	      <data type="anyURI"/>
+	    </attribute>
+	  </optional>
+	  <attribute name="target">
+	    <ref name="anyURIs"/>
+	  </attribute>
+	</element>
+      </oneOrMore>
+    </element>
+  </define>
+
+  <define name="taxonomy">
     <element name="taxonomy">
       <ref name="id.att"/>
       <oneOrMore>
@@ -567,8 +586,7 @@
   </define>
   
   <define name="term-text">
-    <a:documentation>Text preceded by term, for use in
-    taxonomies.</a:documentation>
+    <a:documentation>Text preceded by term, for use in taxonomies.</a:documentation>
     <ref name="term"/>
     <ref name="annotated-text"/>
   </define>
