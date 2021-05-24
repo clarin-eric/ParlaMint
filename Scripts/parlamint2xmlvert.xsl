@@ -86,6 +86,9 @@
 	  </xsl:if>
 	</xsl:for-each>
       </xsl:attribute>
+      <xsl:attribute name="house">
+	<xsl:call-template name="house"/>
+      </xsl:attribute>
       <xsl:attribute name="term">
 	<xsl:call-template name="meeting">
 	  <xsl:with-param name="ref">parla.term</xsl:with-param>
@@ -363,6 +366,43 @@ And, there is, in theory, also:
 
   <!-- NAMED TEMPLATES -->
 
+  <!-- Get the name (Lower House, Upper house, -) of the house from meeting element, e.g.
+       <meeting ana="#parla.term #parla.lower #parliament.PSP8" n="ps2017">ps2017</meeting>
+       <meeting corresp="#PoGB" ana="#parla.upper #parla.meeting.regular"/>
+       <meeting ana="#parla.meeting.regular" corresp="#NS" n="394">394 пленарно заседание</meeting>
+  -->
+  <xsl:template name="house">
+    <xsl:param name="lower">Lower house</xsl:param>
+    <xsl:param name="upper">Upper house</xsl:param>
+    <xsl:param name="none">-</xsl:param>
+    <xsl:variable name="titleStmt" select="//tei:teiHeader/tei:fileDesc/tei:titleStmt"/>
+    <xsl:variable name="is_lower">
+      <xsl:for-each select="$titleStmt/tei:meeting">
+	<xsl:for-each select="tokenize(@ana, ' ')">
+	  <xsl:if test="key('idr', ., $teiHeader)/tei:catDesc[tei:term = $lower]">X</xsl:if>
+	</xsl:for-each>
+      </xsl:for-each>
+    </xsl:variable>
+    <xsl:variable name="is_upper">
+      <xsl:for-each select="$titleStmt/tei:meeting">
+	<xsl:for-each select="tokenize(@ana, ' ')">
+	  <xsl:if test="key('idr', ., $teiHeader)/tei:catDesc[tei:term = $upper]">X</xsl:if>
+	</xsl:for-each>
+      </xsl:for-each>
+    </xsl:variable>
+    <xsl:choose>
+      <xsl:when test="normalize-space($is_lower)">
+	<xsl:value-of select="$lower"/>
+      </xsl:when>
+      <xsl:when test="normalize-space($is_upper)">
+	<xsl:value-of select="$upper"/>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:value-of select="$none"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
   <!-- Get @n from appropriate meeting type, e.g.
        <meeting n="7" corresp="#DZ" ana="#parla.term #DZ.7">7. mandat</meeting>
        <meeting n="1" corresp="#DZ" ana="#parla.meeting.regular">Redna</meeting>
