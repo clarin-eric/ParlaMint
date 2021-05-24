@@ -7,11 +7,12 @@
      - get rid of spurious spaces
      - insert government org, if missing
      - insert bi- or uni-cameralism if missing
-     * insert lower/upper house into meeting elements if missing (not yet)
-     - calculate component extents in ana, warn if changed
+     - insert lower/upper house into bicameral meeting elements if missing
+     - calculate extents in component ana files, warn if changed
      - insert word extents from ana into plain version
      - insert tagcounts in root (taken from component files and not changed there!)
      - fix UD terms for extended relations in .ana (i.e. substitute "_" with ":"
+     - fix "_" lemmas for w elements (for IT)
 -->
 <xsl:stylesheet 
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -506,6 +507,9 @@
     </xsl:if>
   </xsl:template>
   
+  <!-- Insert lower and/or upper (house) for bicameral ones -->
+  <!-- $house-refs give info on whic is which and what they contain -->
+  <!-- GB and NL have both, where we decide on the basis of the main title -->
   <xsl:template match="tei:meeting">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
@@ -525,6 +529,10 @@
 	    <xsl:when test="$house-refs/tei:ref[. = 'Upper house'] and
 			    not($house-refs/tei:ref[. = 'Lower house'])">
 	      <xsl:copy-of select="$house-refs/tei:ref[. = 'Upper house']"/>
+	    </xsl:when>
+	    <xsl:when test="$country-code = 'GB' and /tei:teiCorpus">
+	      <xsl:copy-of select="$house-refs/tei:ref[. = 'Upper house']"/>
+	      <xsl:copy-of select="$house-refs/tei:ref[. = 'Lower house']"/>
 	    </xsl:when>
 	    <xsl:when test="$country-code = 'GB' and 
 			    contains(/tei:TEI/tei:teiHeader//tei:titleStmt
@@ -556,8 +564,13 @@
 			     ': inserting ', $house/tei:ref/@target, ' into meeting/@ana')"/>
 	<xsl:choose>
 	  <xsl:when test="normalize-space($house)">
-	    <xsl:attribute name="ana"
-			   select="concat(@ana, '&#32;', $house/tei:ref/@target)"/>
+	    <xsl:attribute name="ana">
+	      <xsl:for-each select="$house/tei:ref">
+		<xsl:value-of select="@target"/>
+		<xsl:text>&#32;</xsl:text>
+	      </xsl:for-each>
+	      <xsl:value-of select="@ana"/>
+	    </xsl:attribute>
 	  </xsl:when>
 	  <xsl:otherwise>
 	    <xsl:message select="concat('ERROR ', /tei:TEI/@xml:id, 
