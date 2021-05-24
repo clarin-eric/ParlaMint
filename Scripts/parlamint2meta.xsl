@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <!-- Transform one ParlaMint file to a TSV file with its metadata. -->
-<!-- Needs the file with corpus teiHeader as a parameter -->
-<!-- Includes the script for vertical file generation, as they share much code -->
+<!-- Includes header row, cf. template for tei:TEI -->
+<!-- Needs the file with corpus teiHeader giving the speaker, party etc. info as the "hdr" parameter -->
+<!-- Imports the script for vertical file generation, as they share much code -->
 <xsl:stylesheet 
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns="http://www.tei-c.org/ns/1.0"
@@ -16,6 +17,7 @@
   <xsl:import href="parlamint2xmlvert.xsl"/>
   <xsl:output method="text" encoding="utf-8"/>
   
+  <!-- Store sub title, if it exists, otherwise main title -->
   <xsl:variable name="title">
     <xsl:variable name="titles" select="/tei:TEI/tei:teiHeader/tei:fileDesc/
 					tei:titleStmt/tei:title"/>
@@ -35,6 +37,7 @@
     </xsl:choose>
   </xsl:variable>
   
+  <!-- Typically $date-from and $date-to are identical, but not necessarily -->
   <xsl:variable name="date-from">
     <xsl:variable name="d" select="/tei:TEI/tei:teiHeader//tei:settingDesc//tei:date"/>
     <xsl:choose>
@@ -46,7 +49,8 @@
       </xsl:when>
       <xsl:otherwise>
 	<xsl:message terminate="yes">
-	  <xsl:text>Can't find TEI date(s) in settingDesc of input file!</xsl:text>
+	  <xsl:text>FATAL: Can't find TEI date-from in settingDesc of input file </xsl:text>
+	  <xsl:value-of select="/tei:TEI/@xml:id"/>
 	</xsl:message>
       </xsl:otherwise>
     </xsl:choose>
@@ -60,9 +64,16 @@
       <xsl:when test="$d/@to">
 	<xsl:value-of select="$d/@to"/>
       </xsl:when>
+      <xsl:otherwise>
+	<xsl:message terminate="yes">
+	  <xsl:text>FATAL: Can't find TEI date-to in settingDesc of input file </xsl:text>
+	  <xsl:value-of select="/tei:TEI/@xml:id"/>
+	</xsl:message>
+      </xsl:otherwise>
     </xsl:choose>
   </xsl:variable>
   
+  <!-- Term, session, meeting, sitting, agenda -->
   <xsl:variable name="term">
     <xsl:call-template name="meeting">
       <xsl:with-param name="ref">parla.term</xsl:with-param>
@@ -89,6 +100,7 @@
     </xsl:call-template>
   </xsl:variable>
   
+  <!-- COVID / reference subcorpus -->
   <xsl:variable name="subcorpus">
     <xsl:for-each select="tokenize(tei:TEI/@ana, ' ')">
       <xsl:if test="key('idr', ., $teiHeader)/
@@ -152,8 +164,10 @@
 	<xsl:variable name="speaker" select="key('idr', @who, $teiHeader)"/>
 	<xsl:if test="not(normalize-space($speaker))">
 	  <xsl:message terminate="yes">
-	    <xsl:text>Can't find speaker for </xsl:text>
+	    <xsl:text>FATAL: Can't find speaker for </xsl:text>
 	    <xsl:value-of select="@who"/>
+	    <xsl:text> in </xsl:text>
+	    <xsl:value-of select="@xml:id"/>
 	  </xsl:message>
 	</xsl:if>
 	<xsl:value-of select="concat(et:speaker-type($speaker), '&#9;')"/>
