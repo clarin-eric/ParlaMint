@@ -323,7 +323,7 @@
       <xsl:if test="normalize-space($words) and $words != '0'">
 	<xsl:attribute name="quantity" select="$words"/>
 	<xsl:if test="$old-words != $words">
-	  <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+	  <xsl:message select="concat('INFO ', /tei:TEI/@xml:id, 
 			       ': replacing words ', $old-words, ' with ', $words)"/>
 	</xsl:if>
 	<xsl:value-of select="replace(., '.+ ', concat(
@@ -418,7 +418,10 @@
       <xsl:apply-templates select="@*"/>
       <xsl:apply-templates select="tei:*"/>
       <xsl:for-each select="xi:include">
-	<xsl:sort select="replace(@href, '.+?_(\d\d\d\d-\d\d-\d\d).*', '$1')"/>
+	<!-- Don't sort just by date, as otherwise if one date has more than one file,
+             the order inside the date will be random; rather, just sort on @href -->
+	<!--xsl:sort select="replace(@href, '.+?_(\d\d\d\d-\d\d-\d\d).*', '$1')"/-->
+	<xsl:sort select="@href"/>
 	<xsl:copy-of select="."/>
       </xsl:for-each>
     </xsl:copy>
@@ -578,7 +581,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
       <xsl:if test="$version != .">
-	<xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+	<xsl:message select="concat('INFO ', /tei:TEI/@xml:id, 
 			     ': replacing version ', ., ' with ', $version)"/>
       </xsl:if>
       <xsl:value-of select="$version"/>
