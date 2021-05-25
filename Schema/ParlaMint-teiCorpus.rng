@@ -218,6 +218,8 @@
 	      <a:documentation>The following used only by SI:</a:documentation>
               <value>ethnicCommunity</value>
               <value>independent</value>
+	      <a:documentation>The following used only by GB:</a:documentation>
+              <value>speaker</value>
 	    </choice>
 	  </attribute>
 	  <oneOrMore>
@@ -424,6 +426,7 @@
       </optional>
       <attribute name="role">
 	<choice>
+	  <value>member</value>
 	  <value>president</value>
 	  <value>vicePresident</value>
 	  <value>chairman</value>
@@ -448,7 +451,6 @@
 	  <value>publicDefenderOfRights</value>
 	  <value>alternateOfDelegation</value>
 	  <value>replacement</value>
-	  <value>member</value>
 	  <value>candidateMP</value>
 	  
 	  <a:documentation>The following used only by BG:</a:documentation>

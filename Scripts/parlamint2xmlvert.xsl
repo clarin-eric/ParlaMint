@@ -73,6 +73,13 @@
   
   <xsl:template match="@*"/>
   <xsl:template match="text()"/>
+  <xsl:template match="tei:*">
+    <xsl:message>
+      <xsl:text>WARN: unexpected element </xsl:text>
+      <xsl:value-of select="name()"/>
+      <xsl:value-of select="concat(' in ', ancestor::tei:TEI/@xml:id, ' : ', @xml:id)"/>
+    </xsl:message>
+  </xsl:template>
 
   <xsl:template match="tei:TEI">
     <xsl:variable name="text_id" select="replace(@xml:id, '\.ana', '')"/>
@@ -136,10 +143,6 @@
     </xsl:variable>
     <xsl:for-each select="tei:text/tei:body/tei:div/tei:*">
       <xsl:choose>
-	<xsl:when test="self::tei:head or self::tei:note or self::tei:gap or 
-			self::tei:vocal or self::tei:incident or self::tei:kinesic">
-	  <xsl:call-template name="note"/>
-	</xsl:when>
 	<xsl:when test="self::tei:u">
 	  <xsl:variable name="speech_id" select="replace(@xml:id, '\.ana', '')"/>
 	  <speech id="{$speech_id}" text_id="{$text_id}"
@@ -166,14 +169,37 @@
 	  <xsl:text>&#10;</xsl:text>
 	</xsl:when>
 	<xsl:otherwise>
-	  <xsl:message terminate="yes">
-	    <xsl:text>FATAL: bad element </xsl:text>
-	    <xsl:value-of select="name()"/>
-	    <xsl:value-of select="concat(' in ', ancestor::tei:TEI/@xml:id, ':', @xml:id)"/>
-	  </xsl:message>
+	  <xsl:apply-templates select="."/>
 	</xsl:otherwise>
       </xsl:choose>
     </xsl:for-each>
+  </xsl:template>
+  
+  <xsl:template match="tei:pb"/>
+  
+  <!-- Conflate head, note, gap and all "incidents" into <note> -->
+  <xsl:template match="tei:head | tei:note | tei:gap | tei:vocal | tei:incident | tei:kinesic">
+    <note>
+      <xsl:attribute name="type">
+	<xsl:choose>
+	  <xsl:when test="self::tei:head">head</xsl:when>
+	  <xsl:when test="self::tei:note[@type]">
+	    <xsl:value-of select="@type"/>
+	  </xsl:when>
+	  <xsl:when test="self::tei:note">-</xsl:when>
+	  <xsl:when test="@type">
+	    <xsl:value-of select="concat(name(), ':', @type)"/>
+	  </xsl:when>
+	  <xsl:when test="@reason">
+	    <xsl:value-of select="concat(name(), '::', @reason)"/>
+	  </xsl:when>
+	</xsl:choose>
+      </xsl:attribute>
+      <xsl:attribute name="content">
+	<xsl:value-of select="normalize-space(.)"/>
+      </xsl:attribute>
+    </note>
+    <xsl:text>&#10;</xsl:text>
   </xsl:template>
   
   <xsl:template match="tei:seg">
@@ -221,28 +247,30 @@
     <xsl:text>&#10;</xsl:text>
   </xsl:template>
 
-<!-- We now have the Czech case:
+  <xsl:template match="tei:linkGrp"/>
+  
+  <!-- We have do deal with syntactic words, e.g.:
 
-<w xml:id="u1.p1.s1.w18">abych
-  <w xml:id="u1.p1.s1.w19" lemma="aby" msd="UPosTag=SCONJ" norm="aby"/>
-  <w xml:id="u1.p1.s1.w20" lemma="být" msd="UPosTag=AUX|Mood=Cnd" norm="bych"/>
-</w>
+  <w xml:id="u1.p1.s1.w18">abych
+    <w xml:id="u1.p1.s1.w19" lemma="aby" msd="UPosTag=SCONJ" norm="aby"/>
+    <w xml:id="u1.p1.s1.w20" lemma="být" msd="UPosTag=AUX|Mood=Cnd" norm="bych"/>
+  </w>
 
-<link ana="ud-syn:punct" target="#u1.p1.s1.w21 #u1.p1.s1.w17"/>
-<link ana="ud-syn:mark"  target="#u1.p1.s1.w21 #u1.p1.s1.w19"/>
-<link ana="ud-syn:aux"   target="#u1.p1.s1.w21 #u1.p1.s1.w20"/>
+  <link ana="ud-syn:punct" target="#u1.p1.s1.w21 #u1.p1.s1.w17"/>
+  <link ana="ud-syn:mark"  target="#u1.p1.s1.w21 #u1.p1.s1.w19"/>
+  <link ana="ud-syn:aux"   target="#u1.p1.s1.w21 #u1.p1.s1.w20"/>
 
-Simplest:
-- introduce normalised column (multi valued)
-- make all attributes multivalued 
+  Solution:
+  - introduce normalised column (multi valued)
+  - make all attributes multivalued 
 
-And, there is, in theory, also:
-<w norm="najlepši" lemma="lep">
- <w>nar</w>
- <w>lepši</w>
-</w>
-
--->
+  In theory there is also:
+    <w norm="najlepši" lemma="lep">
+      <w>nar</w>
+      <w>lepši</w>
+    </w>
+   We do not cover this case!
+  -->
 
   <!-- TOKENS -->
   <xsl:template match="tei:pc | tei:w">
@@ -309,32 +337,6 @@ And, there is, in theory, also:
   </xsl:template>
 
   <!-- NAMED TEMPLATES -->
-
-  <!-- Output empty note element -->
-  <!-- Conflate head, note, gap and all "incidents" into <note> -->
-  <xsl:template name="note">
-    <note>
-      <xsl:attribute name="type">
-	<xsl:choose>
-	  <xsl:when test="self::tei:head">head</xsl:when>
-	  <xsl:when test="self::tei:note[@type]">
-	    <xsl:value-of select="@type"/>
-	  </xsl:when>
-	  <xsl:when test="self::tei:note">-</xsl:when>
-	  <xsl:when test="@type">
-	    <xsl:value-of select="concat(name(), ':', @type)"/>
-	  </xsl:when>
-	  <xsl:when test="@reason">
-	    <xsl:value-of select="concat(name(), '::', @reason)"/>
-	  </xsl:when>
-	</xsl:choose>
-      </xsl:attribute>
-      <xsl:attribute name="content">
-	<xsl:value-of select="normalize-space(.)"/>
-      </xsl:attribute>
-    </note>
-    <xsl:text>&#10;</xsl:text>
-  </xsl:template>
 
   <!-- Get the name (Lower House, Upper house, -) of the house from meeting element, e.g.
        <meeting ana="#parla.term #parla.lower #parliament.PSP8" n="ps2017">ps2017</meeting>

@@ -73,7 +73,10 @@
     </xsl:choose>
   </xsl:variable>
   
-  <!-- Term, session, meeting, sitting, agenda -->
+  <!-- House, term, session, meeting, sitting, agenda -->
+  <xsl:variable name="house">
+    <xsl:call-template name="house"/>
+  </xsl:variable>
   <xsl:variable name="term">
     <xsl:call-template name="meeting">
       <xsl:with-param name="ref">parla.term</xsl:with-param>
@@ -117,6 +120,7 @@
     <xsl:text>Title&#9;</xsl:text>
     <xsl:text>From&#9;</xsl:text>
     <xsl:text>To&#9;</xsl:text>
+    <xsl:text>House&#9;</xsl:text>
     <xsl:text>Term&#9;</xsl:text>
     <xsl:text>Session&#9;</xsl:text>
     <xsl:text>Meeting&#9;</xsl:text>
@@ -142,6 +146,7 @@
     <xsl:value-of select="concat($title, '&#9;')"/>
     <xsl:value-of select="concat($date-from, '&#9;')"/>
     <xsl:value-of select="concat($date-to, '&#9;')"/>
+    <xsl:value-of select="concat($house, '&#9;')"/>
     <xsl:value-of select="concat($term, '&#9;')"/>
     <xsl:value-of select="concat($session, '&#9;')"/>
     <xsl:value-of select="concat($meeting, '&#9;')"/>

@@ -116,7 +116,10 @@ listOrg =
           ## The following used only by SI:
           "boardOfDirectors"
         | "ethnicCommunity"
-        | "independent"
+        | 
+          ## The following used only by GB:
+          "independent"
+        | "speaker"
       },
       orgName+,
       event*,
@@ -190,7 +193,8 @@ affiliation =
     temporal.atts?,
     ref.att?,
     attribute role {
-      "president"
+      "member"
+      | "president"
       | "vicePresident"
       | "chairman"
       | "viceChairman"
@@ -214,7 +218,6 @@ affiliation =
       | "publicDefenderOfRights"
       | "alternateOfDelegation"
       | "replacement"
-      | "member"
       | 
         ## The following used only by BG:
         "candidateMP"
