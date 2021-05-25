@@ -6,6 +6,7 @@
      - get rid of spurious handle ref
      - get rid of spurious spaces
      - insert government org, if missing
+     - remove speaker "parties" from GB, and change affiliation for such speakers
      - insert bi- or uni-cameralism if missing
      - insert lower/upper house into bicameral meeting elements if missing
      - calculate extents in component ana files, warn if changed
@@ -560,21 +561,22 @@
 	    </xsl:when>
 	  </xsl:choose>
 	</xsl:variable>
-	<xsl:message select="concat('INFO ', /tei:TEI/@xml:id, 
-			     ': inserting ', $house/tei:ref/@target, ' into meeting/@ana')"/>
 	<xsl:choose>
 	  <xsl:when test="normalize-space($house)">
-	    <xsl:attribute name="ana">
+	    <xsl:variable name="refs">
 	      <xsl:for-each select="$house/tei:ref">
 		<xsl:value-of select="@target"/>
 		<xsl:text>&#32;</xsl:text>
 	      </xsl:for-each>
-	      <xsl:value-of select="@ana"/>
-	    </xsl:attribute>
+	    </xsl:variable>
+	    <xsl:message select="concat('INFO ', /tei:TEI/@xml:id, 
+			     ': inserting ', $refs, 'into meeting/@ana')"/>
+	    
+	    <xsl:attribute name="ana" select="concat($refs, @ana)"/>
 	  </xsl:when>
 	  <xsl:otherwise>
 	    <xsl:message select="concat('ERROR ', /tei:TEI/@xml:id, 
-				 ': dont know how to insert uppper and lower house!')"/>
+				 ': dont know how to insert houses!')"/>
 	  </xsl:otherwise>
 	</xsl:choose>
       </xsl:if>
@@ -651,6 +653,40 @@
       </xsl:if>
       <xsl:apply-templates select="@*"/>
       <xsl:apply-templates/>
+    </xsl:copy>
+  </xsl:template>
+
+  <!-- Remove the two "speaker" parties from GB, i.e. 
+       <org role="politicalParty" xml:id="party.S">
+         <orgName full="yes">Speaker</orgName>
+         <orgName full="init">S</orgName>
+       </org>
+       <org role="politicalParty" xml:id="party.LS">
+         <orgName full="yes">Lord Speaker</orgName>
+         <orgName full="init">LS</orgName>
+       </org>
+  -->
+  <xsl:template match="tei:org[@role='politicalParty']">
+    <xsl:if test="$country-code != 'GB' or
+      (@xml:id != 'party.S' and @xml:id != 'party.LS')">
+      <xsl:copy>
+	<xsl:apply-templates select="@*"/>
+	<xsl:apply-templates/>
+      </xsl:copy>
+    </xsl:if>
+  </xsl:template>
+  
+  <xsl:template match="tei:affiliation[@role='member']">
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <xsl:if test="$country-code = 'GB' and 
+		    (@ref = '#party.S' or @ref = '#party.LS')">
+	<xsl:attribute name="role">speaker</xsl:attribute>
+	<xsl:attribute name="ref">
+	  <xsl:if test="@ref = '#party.S'">#parla.lower</xsl:if>
+	  <xsl:if test="@ref = '#party.LS'">#parla.upper"</xsl:if>
+	</xsl:attribute>
+      </xsl:if>
     </xsl:copy>
   </xsl:template>
   
