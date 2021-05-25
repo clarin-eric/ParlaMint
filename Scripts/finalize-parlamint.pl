@@ -124,7 +124,8 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     $outTxtDir  = "$outDir/$XX.txt";
     $outConlDir = "$outDir/$XX.conllu";
     $outVertDir = "$outDir/$XX.vert";
-    $vertRegi   = lc "parlamint20_$countryCode.regi";
+    #$vertRegi   = lc "parlamint20_$countryCode.regi";
+    $vertRegi   = lc "parlamint21_$countryCode.regi";
 	
     if (($procAll and $procAna) or (!$procAll and $procAna == 1)) {
 	print STDERR "INFO: *Finalizing $countryCode TEI.ana\n";
