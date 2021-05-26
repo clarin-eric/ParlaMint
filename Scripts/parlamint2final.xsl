@@ -294,6 +294,35 @@
     <xsl:copy/>
   </xsl:template>
 
+  <!-- Merge two subheadings in CZ -->
+  <xsl:template mode="comp" match="tei:titleStmt/tei:title[@type='sub' and @xml:lang='cs']">
+    <xsl:choose>
+      <xsl:when test="preceding-sibling::tei:title[@type='sub' and @xml:lang='cs']">
+	<xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+			     ': removing cs subtitle ', .)"/>
+      </xsl:when>
+      <xsl:when test="following-sibling::tei:title[@type='sub' and @xml:lang='cs']">
+	<xsl:variable name="content"
+		      select="concat(., ', ', 
+			      ancestor::tei:fileDesc/tei:sourceDesc/tei:bibl/tei:date/@when, ', ',
+			      following-sibling::tei:title[@type='sub' and @xml:lang='cs'])"/>
+
+	<xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+			     ': changing cs subtitle to ', $content)"/>
+	<xsl:copy>
+	  <xsl:apply-templates select="@*"/>
+	  <xsl:value-of select="$content"/>
+	</xsl:copy>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:copy>
+	  <xsl:apply-templates select="@*"/>
+	  <xsl:apply-templates/>
+	</xsl:copy>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+    
   <xsl:template mode="comp" match="tei:publicationStmt/tei:date">
     <xsl:apply-templates select="."/>
   </xsl:template>
@@ -507,7 +536,7 @@
       </textClass>
     </xsl:if>
   </xsl:template>
-  
+
   <!-- Insert lower and/or upper (house) for bicameral ones -->
   <!-- $house-refs give info on whic is which and what they contain -->
   <!-- GB and NL have both, where we decide on the basis of the main title -->
@@ -684,7 +713,7 @@
 	<xsl:attribute name="role">speaker</xsl:attribute>
 	<xsl:attribute name="ref">
 	  <xsl:if test="@ref = '#party.S'">#parla.lower</xsl:if>
-	  <xsl:if test="@ref = '#party.LS'">#parla.upper"</xsl:if>
+	  <xsl:if test="@ref = '#party.LS'">#parla.upper</xsl:if>
 	</xsl:attribute>
       </xsl:if>
     </xsl:copy>
