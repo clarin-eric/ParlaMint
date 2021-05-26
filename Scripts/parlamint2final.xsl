@@ -291,7 +291,7 @@
     </xsl:copy>
   </xsl:template>
   <xsl:template mode="comp" match="@*">
-    <xsl:copy/>
+   <xsl:copy/>
   </xsl:template>
 
   <!-- Get rid of spurious .ana in eg.
@@ -301,7 +301,7 @@
   <xsl:template mode="comp" match="tei:titleStmt/tei:title[@type='main']">
     <xsl:copy>
       <xsl:copy-of select="@*"/>
-      <xsl:value-of select="normalize-space(replace(., '\.ana ', ''))"/>
+      <xsl:value-of select="normalize-space(replace(., '\.ana ', ' '))"/>
     </xsl:copy>
   </xsl:template>
   
@@ -330,7 +330,7 @@
   <xsl:template mode="comp" match="tei:titleStmt/tei:title[@type='sub' and @xml:lang='cs']">
     <xsl:choose>
       <xsl:when test="preceding-sibling::tei:title[@type='sub' and @xml:lang='cs']">
-	<xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+	<xsl:message select="concat('INFO ', /tei:TEI/@xml:id, 
 			     ': removing cs subtitle ', .)"/>
       </xsl:when>
       <xsl:when test="following-sibling::tei:title[@type='sub' and @xml:lang='cs']">
@@ -338,7 +338,7 @@
 		      select="concat(., ', ', 
 			      ancestor::tei:fileDesc/tei:sourceDesc/tei:bibl/tei:date/@when, ', ',
 			      following-sibling::tei:title[@type='sub' and @xml:lang='cs'][1])"/>
-	<xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+	<xsl:message select="concat('INFO ', /tei:TEI/@xml:id, 
 			     ': changing cs subtitle to ', $content)"/>
 	<xsl:copy>
 	  <xsl:apply-templates select="@*"/>
