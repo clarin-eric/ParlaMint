@@ -294,6 +294,38 @@
     <xsl:copy/>
   </xsl:template>
 
+  <!-- Get rid of spurious .ana in eg.
+       <title type="main" xml:lang="cs">Český parlamentní korpus ParlaMint-CZ, 
+         2013-12-04 ps2013-002-01-000-000.ana [ParlaMint.ana]</title>
+  -->
+  <xsl:template mode="comp" match="tei:titleStmt/tei:title[@type='main']">
+    <xsl:copy>
+      <xsl:copy-of select="@*"/>
+      <xsl:value-of select="normalize-space(replace(., '\.ana ', ''))"/>
+    </xsl:copy>
+  </xsl:template>
+  
+  <!-- Add date to CZ en subheading -->
+  <xsl:template mode="comp" match="tei:titleStmt/tei:title[@type='sub' and @xml:lang='en']">
+    <xsl:choose>
+      <xsl:when test="$country-code = 'CZ'">
+	<xsl:copy>
+	  <xsl:apply-templates mode="comp" select="@*"/>
+	  <xsl:value-of select="normalize-space(
+				concat(., ', ', 
+				ancestor::tei:fileDesc/tei:sourceDesc/tei:bibl/tei:date/@when
+				))"/>
+	</xsl:copy>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:copy>
+	  <xsl:apply-templates mode="comp" select="@*"/>
+	  <xsl:value-of select="normalize-space(.)"/>
+	</xsl:copy>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+    
   <!-- Merge two subheadings in CZ -->
   <xsl:template mode="comp" match="tei:titleStmt/tei:title[@type='sub' and @xml:lang='cs']">
     <xsl:choose>
@@ -305,8 +337,7 @@
 	<xsl:variable name="content"
 		      select="concat(., ', ', 
 			      ancestor::tei:fileDesc/tei:sourceDesc/tei:bibl/tei:date/@when, ', ',
-			      following-sibling::tei:title[@type='sub' and @xml:lang='cs'])"/>
-
+			      following-sibling::tei:title[@type='sub' and @xml:lang='cs'][1])"/>
 	<xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
 			     ': changing cs subtitle to ', $content)"/>
 	<xsl:copy>
