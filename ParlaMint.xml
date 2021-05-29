@@ -53,6 +53,10 @@
                <persName>Tomaž Erjavec</persName>
                <resp>Conversion to ParlaMint TEI</resp>
             </respStmt>
+            <respStmt n="ParlaMint-FR">
+               <persName>Sascha Diwersy</persName>
+               <persName>Giancarlo Luxardo</persName>
+            </respStmt>
             <respStmt n="ParlaMint-GB">
                <persName>Matthew Coole</persName>
                <resp>Data retrieval, Parla-CLARIN TEI XML corpus encoding and linguistic annotation.</resp>
@@ -158,19 +162,19 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>2.0</edition>
+            <edition>2.1</edition>
          </editionStmt>
          <extent>
-            <measure unit="corpora" quantity="16">16 corpora</measure>
-            <measure unit="speeches" quantity="3307099">3,307,099 speeches</measure>
-            <measure unit="words" quantity="462217184">462,217,184 words</measure>
+            <measure unit="corpora" quantity="17">17 corpora</measure>
+            <measure unit="speeches" quantity="3788703">3,788,703 speeches</measure>
+            <measure unit="words" quantity="483818087">483,818,087 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
                <orgName>CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1432</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
@@ -229,6 +233,14 @@
                   <title type="main">National assembly of Spain daily sessions</title>
                   <idno type="URI">http://www.congreso.es</idno>
                   <date from="2015-01-20" to="2020-12-15">20.1.2015 - 15.12.2020</date>
+               </bibl>
+            </listBibl>
+            <listBibl n="ParlaMint-FR">
+               <head>ParlaMint-FR</head>
+               <bibl>
+                  <title type="main" xml:lang="fr">Travaux parlementaires (Assemblée nationale)</title>
+                  <title type="sub" xml:lang="fr">Débats en séance publique - Comptes rendus au format XML</title>
+                  <idno type="URI">http://data.assemblee-nationale.fr/travaux-parlementaires/debats</idno>
                </bibl>
             </listBibl>
             <listBibl n="ParlaMint-GB">
@@ -356,6 +368,7 @@
                <p n="ParlaMint-CZ">No correction of source texts was performed.</p>
                <p n="ParlaMint-DK">No correction of source texts was performed.</p>
                <p n="ParlaMint-ES">No correction of source texts was performed.</p>
+               <p n="ParlaMint-FR">No correction of source texts was performed.</p>
                <p n="ParlaMint-GB">No correction of source texts was performed.</p>
                <p n="ParlaMint-HR">No correction of source texts was performed.</p>
                <p n="ParlaMint-HU">No correction of source texts was performed.</p>
@@ -374,6 +387,7 @@
                <p n="ParlaMint-CZ">Text has not been normalised, except for spacing.</p>
                <p n="ParlaMint-DK">Text has not been normalised.</p>
                <p n="ParlaMint-ES">Text has not been normalised, except for spacing.</p>
+               <p n="ParlaMint-FR">Text has not been normalised, except for removing non-breaking spaces.</p>
                <p n="ParlaMint-GB">Text has not been normalised, except for spacing.</p>
                <p n="ParlaMint-HR">Text has not been normalised, except for spacing.</p>
                <p n="ParlaMint-HU">Normalisation was performed only on the meta-data, e.g. person names.</p>
@@ -392,6 +406,7 @@
                <p n="ParlaMint-CZ">No end-of-line hyphens were present in the source.</p>
                <p n="ParlaMint-DK">No end-of-line hyphens were present in the source.</p>
                <p n="ParlaMint-ES">No end-of-line hyphens were present in the source.</p>
+               <p n="ParlaMint-FR">No end-of-line hyphens were present in the source.</p>
                <p n="ParlaMint-GB">Hyphenation has not been altered with respect to the source files.</p>
                <p n="ParlaMint-HR">No end-of-line hyphens were present in the source.</p>
                <p n="ParlaMint-HU">No end-of-line hyphens were present in the source.</p>
@@ -410,6 +425,7 @@
                <p n="ParlaMint-CZ">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p n="ParlaMint-DK">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p n="ParlaMint-ES">Quotation marks have been left in the text and are not explicitly marked up.</p>
+               <p n="ParlaMint-FR">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p n="ParlaMint-GB">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p n="ParlaMint-HR">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p n="ParlaMint-HU">Quotation marks have been left in the text and are not explicitly marked up.</p>
@@ -429,6 +445,7 @@
                <p n="ParlaMint-CZ">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
                <p n="ParlaMint-DK">The texts are segmented into utterances (speeches) and segments (corresponding to one utterance).</p>
                <p n="ParlaMint-ES">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+               <p n="ParlaMint-FR">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
                <p n="ParlaMint-GB">The texts are segmented into utterances (contributions) and segments (corresponding to paragraphs in the source transcription).</p>
                <p n="ParlaMint-HR">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
                <p n="ParlaMint-HU">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
@@ -444,21 +461,21 @@
          </editorialDecl>
          <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="body" occurs="21314"/>
-               <tagUsage gi="desc" occurs="342624"/>
-               <tagUsage gi="div" occurs="80687"/>
+               <tagUsage gi="body" occurs="22329"/>
+               <tagUsage gi="desc" occurs="405333"/>
+               <tagUsage gi="div" occurs="93261"/>
                <tagUsage gi="gap" occurs="21600"/>
-               <tagUsage gi="head" occurs="59194"/>
-               <tagUsage gi="incident" occurs="2727"/>
-               <tagUsage gi="kinesic" occurs="193134"/>
-               <tagUsage gi="note" occurs="1331254"/>
+               <tagUsage gi="head" occurs="71692"/>
+               <tagUsage gi="incident" occurs="7114"/>
+               <tagUsage gi="kinesic" occurs="240842"/>
+               <tagUsage gi="note" occurs="1343752"/>
                <tagUsage gi="pb" occurs="42570"/>
                <tagUsage gi="ref" occurs="34208"/>
-               <tagUsage gi="seg" occurs="8578603"/>
+               <tagUsage gi="seg" occurs="9383694"/>
                <tagUsage gi="text" occurs="18640"/>
                <tagUsage gi="time" occurs="22337"/>
-               <tagUsage gi="u" occurs="4445399"/>
-               <tagUsage gi="vocal" occurs="126326"/>
+               <tagUsage gi="u" occurs="4927003"/>
+               <tagUsage gi="vocal" occurs="136940"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -493,6 +510,11 @@
                <name type="city">Madrid</name>
                <name type="country" key="ES">Spain</name>
                <date from="2015-01-20" to="2020-12-15">20.1.2015 - 15.12.2020</date>
+            </setting>
+            <setting n="ParlaMint-FR">
+               <name type="city">Paris</name>
+               <name type="country" key="FR">France</name>
+               <date from="2017-07" to="2020-07">07/2017 - 07/2020</date>
             </setting>
             <setting n="ParlaMint-GB">
                <name type="city">London</name>
@@ -575,6 +597,8 @@
                href="ParlaMint-DK/ParlaMint-DK.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-ES/ParlaMint-ES.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-FR/ParlaMint-FR.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-GB/ParlaMint-GB.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
