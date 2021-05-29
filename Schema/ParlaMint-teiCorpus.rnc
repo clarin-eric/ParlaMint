@@ -116,10 +116,7 @@ listOrg =
           ## The following used only by SI:
           "boardOfDirectors"
         | "ethnicCommunity"
-        | 
-          ## The following used only by GB:
-          "independent"
-        | "speaker"
+        | "independent"
       },
       orgName+,
       event*,
@@ -240,7 +237,10 @@ affiliation =
       | "secretary"
       | "secretaryGeneral"
       | "viceChairman"
-      | "viceDirector"
+      | 
+        ## The following used only by GB:
+        "viceDirector"
+      | "speaker"
     },
     text
   }

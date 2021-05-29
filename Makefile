@@ -271,18 +271,18 @@ all:	val-all
 
 # ParlaMint validation
 val-all:
-	Scripts/validate-parlamint.pl Schema 'ParlaMint-*'
+	Scripts/validate-parlamint.pl Schema 'ParlaMint-??'
 
 # ParlaMint validation with Jing only
 val-jing:
-	ls ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs ${pc}
-	ls ParlaMint-*/ParlaMint-*.xml | grep    '.ana.' | grep -v '_' | xargs ${pc}
-	ls ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs ${vrt}
-	ls ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep    '_' | xargs ${vct}
-	ls ParlaMint-*/ParlaMint-*.xml | grep    '.ana.' | grep -v '_' | xargs ${vra}
-	ls ParlaMint-*/ParlaMint-*.xml | grep    '.ana.' | grep    '_' | xargs ${vca}
+	ls ParlaMint-??/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs ${pc}
+	ls ParlaMint-??/ParlaMint-*.xml | grep    '.ana.' | grep -v '_' | xargs ${pc}
+	ls ParlaMint-??/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs ${vrt}
+	ls ParlaMint-??/ParlaMint-*.xml | grep -v '.ana.' | grep    '_' | xargs ${vct}
+	ls ParlaMint-??/ParlaMint-*.xml | grep    '.ana.' | grep -v '_' | xargs ${vra}
+	ls ParlaMint-??/ParlaMint-*.xml | grep    '.ana.' | grep    '_' | xargs ${vca}
 clean:
-	rm -f ParlaMint-*/*.xml
+	rm -f ParlaMint-??/*.xml
 
 ################################################
 s = java -jar /usr/share/java/saxon.jar
