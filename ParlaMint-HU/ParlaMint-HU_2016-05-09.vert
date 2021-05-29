@@ -1,8 +1,5 @@
-<text id="ParlaMint-HU_2016-05-09.ana" subcorpus="Reference" term="7" session="-" meeting="-" sitting="-" agenda="-" from="2016-05-09" to="2016-05-09" title="Minutes of the National Assembly of Hungary, Term 7">
-<speech id="ParlaMint-HU_2016-05-09-interpellation-IC7_10331_segmented" speaker_role="Regular" speaker_id="LászlóKiss" speaker_name="Kiss, László" speaker_type="MP" speaker_party="MSZP" speaker_party_name="Magyar Szocialista Párt" party_status="-" speaker_gender="M" speaker_birth="1979">
-<note type="-">
-[KISS LÁSZLÓ (MSZP):]										
-</note>
+<speech id="ParlaMint-HU_2016-05-09-interpellation-IC7_10331_segmented" text_id="ParlaMint-HU_2016-05-09" subcorpus="Reference" house="-" term="7" session="-" meeting="-" sitting="-" agenda="-" from="2016-05-09" to="2016-05-09" title="Minutes of the National Assembly of Hungary, Term 7" speaker_role="Regular" speaker_id="LászlóKiss" speaker_name="Kiss, László" speaker_type="MP" speaker_party="MSZP" speaker_party_name="Magyar Szocialista Párt" party_status="-" speaker_gender="M" speaker_birth="1979">
+<note type="-" content="KISS LÁSZLÓ (MSZP):"/>
 <p id="IC7_10331.1" lang="Hungarian">
 <s id="IC7_10331_2.1.1">
 Köszönöm	Köszönöm	köszön	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
@@ -516,9 +513,7 @@ tankönyveket	tankönyveket	tankönyv	NOUN	Case=Acc Number=Plur	11	obj	választ	
 választanak	választanak	választ	VERB	Definite=Ind Mood=Imp Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	12	ccomp:obl	dönt	VERB	Definite=Ind Mood=Pot Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	3
 </s>
 </p>
-<note type="kinesic:signal">
-[Az elnök a csengő megkocogtatásával jelzi az idő leteltét.]										
-</note>
+<note type="kinesic:signal" content="Az elnök a csengő megkocogtatásával jelzi az idő leteltét."/>
 <p id="IC7_10331.2" lang="Hungarian">
 <s id="IC7_10331_2.2.1">
 Nyilván	Nyilván	nyilván	ADV	-	1	advmod:mode	tekinthető	ADJ	Case=Nom Number=Sing VerbForm=PartPres	10
@@ -571,9 +566,7 @@ hogy	hogy	hogy	SCONJ	-	3	mark	meg+hallg	VERB	Definite=Ind Mood=Ind Number=Plur P
 meghallgattak	meghallgattak	meg+hallg	VERB	Definite=Ind Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	4	ccomp:obj	köszön	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<note type="kinesic:applause">
-[Taps az MSZP soraiban.]										
-</note>
+<note type="kinesic:applause" content="Taps az MSZP soraiban."/>
 <p id="IC7_10331.3" lang="Hungarian">
 <s id="IC7_10331_2.3.1">
 Felszólalások	Felszólalások	felszólalás	NOUN	Case=Nom Number=Plur	1	root	-	-	-	-
@@ -586,10 +579,8 @@ lt;andgt	lt;andgt	lt;andg	NOUN	Case=Acc Number=Sing	4	parataxis	felszólalás	NO
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-HU_2016-05-09-interpellation-IC7_10493_segmented" speaker_role="Regular" speaker_id="GyörgySzilágyi" speaker_name="Szilágyi, György" speaker_type="MP" speaker_party="Jobbik" speaker_party_name="Jobbik Magyarországért Mozgalom" party_status="-" speaker_gender="M" speaker_birth="1966">
-<note type="-">
-[SZILÁGYI GYÖRGY (Jobbik):]										
-</note>
+<speech id="ParlaMint-HU_2016-05-09-interpellation-IC7_10493_segmented" text_id="ParlaMint-HU_2016-05-09" subcorpus="Reference" house="-" term="7" session="-" meeting="-" sitting="-" agenda="-" from="2016-05-09" to="2016-05-09" title="Minutes of the National Assembly of Hungary, Term 7" speaker_role="Regular" speaker_id="GyörgySzilágyi" speaker_name="Szilágyi, György" speaker_type="MP" speaker_party="Jobbik" speaker_party_name="Jobbik Magyarországért Mozgalom" party_status="-" speaker_gender="M" speaker_birth="1966">
+<note type="-" content="SZILÁGYI GYÖRGY (Jobbik):"/>
 <p id="IC7_10493.1" lang="Hungarian">
 <s id="IC7_10493_2.1.1">
 Köszönöm	Köszönöm	köszön	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
@@ -1148,9 +1139,7 @@ a	a	a	DET	Definite=Def PronType=Art	4	det	törvénysértés	NOUN	Case=Acc Number
 törvénysértéseket	törvénysértéseket	törvénysértés	NOUN	Case=Acc Number=Plur	5	obj	szűnik	VERB	Definite=Def Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Cau	2
 </s>
 </p>
-<note type="kinesic:applause">
-[Taps a Jobbik soraiban.]										
-</note>
+<note type="kinesic:applause" content="Taps a Jobbik soraiban."/>
 <p id="IC7_10493.5" lang="Hungarian">
 <s id="IC7_10493_2.5.1">
 Felszólalások	Felszólalások	felszólalás	NOUN	Case=Nom Number=Plur	1	root	-	-	-	-
@@ -1163,13 +1152,9 @@ lt;andgt	lt;andgt	lt;andg	NOUN	Case=Acc Number=Sing	4	parataxis	felszólalás	NO
 </s>
 </p>
 </speech>
-<note type="gap::editorial">
-[SAMPLING]										
-</note>
-<speech id="ParlaMint-HU_2016-05-09-urgent_question-AC7_10615_segmented" speaker_role="Regular" speaker_id="RolandMengyi" speaker_name="Mengyi, Roland" speaker_type="MP" speaker_party="Fidesz" speaker_party_name="Fidesz – Magyar Polgári Szövetség" party_status="-" speaker_gender="M" speaker_birth="1975">
-<note type="-">
-[DR. MENGYI ROLAND (Fidesz):]										
-</note>
+<note type="gap::editorial" content="SAMPLING"/>
+<speech id="ParlaMint-HU_2016-05-09-urgent_question-AC7_10615_segmented" text_id="ParlaMint-HU_2016-05-09" subcorpus="Reference" house="-" term="7" session="-" meeting="-" sitting="-" agenda="-" from="2016-05-09" to="2016-05-09" title="Minutes of the National Assembly of Hungary, Term 7" speaker_role="Regular" speaker_id="RolandMengyi" speaker_name="Mengyi, Roland" speaker_type="MP" speaker_party="Fidesz" speaker_party_name="Fidesz – Magyar Polgári Szövetség" party_status="-" speaker_gender="M" speaker_birth="1975">
+<note type="-" content="DR. MENGYI ROLAND (Fidesz):"/>
 <p id="AC7_10615.1" lang="Hungarian">
 <s id="AC7_10615_2.1.1">
 Köszönöm	Köszönöm	köszön	VERB	Definite=Def Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
@@ -1552,14 +1537,10 @@ következő	következő	következő	ADJ	Case=Nom Number=Sing VerbForm=PartPres	1
 adóévben	adóévben	adóév	NOUN	Case=Ine Number=Sing	13	nmod:obl	tesz	VERB	VerbForm=Inf Voice=Act	8
 </s>
 </p>
-<note type="kinesic:applause">
-[Taps a kormánypártok soraiban.]										
-</note>
+<note type="kinesic:applause" content="Taps a kormánypártok soraiban."/>
 </speech>
-<speech id="ParlaMint-HU_2016-05-09-urgent_question-AC7_10616_segmented" speaker_role="Regular" speaker_id="JenőManninger" speaker_name="Manninger, Jenő" speaker_type="MP" speaker_party="Fidesz" speaker_party_name="Fidesz – Magyar Polgári Szövetség" party_status="-" speaker_gender="M" speaker_birth="1955">
-<note type="-">
-[MANNINGER JENŐ (Fidesz):]										
-</note>
+<speech id="ParlaMint-HU_2016-05-09-urgent_question-AC7_10616_segmented" text_id="ParlaMint-HU_2016-05-09" subcorpus="Reference" house="-" term="7" session="-" meeting="-" sitting="-" agenda="-" from="2016-05-09" to="2016-05-09" title="Minutes of the National Assembly of Hungary, Term 7" speaker_role="Regular" speaker_id="JenőManninger" speaker_name="Manninger, Jenő" speaker_type="MP" speaker_party="Fidesz" speaker_party_name="Fidesz – Magyar Polgári Szövetség" party_status="-" speaker_gender="M" speaker_birth="1955">
+<note type="-" content="MANNINGER JENŐ (Fidesz):"/>
 <p id="AC7_10616.1" lang="Hungarian">
 <s id="AC7_10616_2.1.1">
 <name type="ORG">
@@ -1685,9 +1666,7 @@ pályára	pályára	pálya	NOUN	Case=Sub Number=Sing	52	nmod:obl	állít	VERB	De
 állítsuk	állítsuk	állít	VERB	Definite=Def Mood=Imp Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	53	conj	kihúz	VERB	Definite=Def Mood=Imp Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	46
 </s>
 </p>
-<note type="kinesic:noise">
-[Zaj, mozgás. - Számos képviselő elhagyja a termet.]										
-</note>
+<note type="kinesic:noise" content="Zaj, mozgás. - Számos képviselő elhagyja a termet."/>
 <p id="AC7_10616.3" lang="Hungarian">
 <s id="AC7_10616_2.3.1">
 Ezt	Ezt	ez	DET	Case=Acc Number=Sing Person=3 PronType=Dem	1	det	kérdés	NOUN	Case=Acc Number=Sing	3
@@ -1761,9 +1740,7 @@ oldalára	oldalára	oldal	NOUN	Case=Sub Number=Sing Number[psor]=Sing Person[pso
 ál	ál	á	PUNCT	-	26	punct	van	VERB	Definite=Ind Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	3
 </s>
 </p>
-<note type="kinesic:noise">
-[Folyamatos zaj. - Az elnök megkocogtatja a csengőt.]										
-</note>
+<note type="kinesic:noise" content="Folyamatos zaj. - Az elnök megkocogtatja a csengőt."/>
 <p id="AC7_10616.4" lang="Hungarian">
 <s id="AC7_10616_2.4.1">
 ,	,	,	PUNCT	-	1	punct	ellentét	NOUN	Case=Ine Number=Sing	2
@@ -1830,4 +1807,3 @@ számára	számára	számára	PRON	Case=Nom Number=Sing Person=3 PronType=Prs	4	
 </s>
 </p>
 </speech>
-</text>

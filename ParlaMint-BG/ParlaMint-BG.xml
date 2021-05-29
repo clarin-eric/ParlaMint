@@ -33,7 +33,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>2.0</edition>
+            <edition>2.1</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure quantity="147428" unit="speeches" xml:lang="bg">147.428 изказвания</measure>
@@ -47,13 +47,13 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="bg">Корпусът е достъпен чрез международния лиценз <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2021-05-08">2021-05-08</date>
+            <date when="2021-05-26">2021-05-26</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -122,7 +122,7 @@
                      <catDesc xml:lang="bg">
                         <term>Парламент</term>
                      </catDesc>
-                     <category xml:id="par.uni">
+                     <category xml:id="parla.uni">
                         <catDesc xml:lang="en">
                            <term>Unicameralism</term>
                         </catDesc>
@@ -332,6 +332,9 @@
                <date from="2014-10-27" to="2020-07-31"/>
             </setting>
          </settingDesc>
+         <textClass>
+            <catRef scheme="" target="#parla.uni"/>
+         </textClass>
          <particDesc>
             <listOrg>
                <head xml:lang="bg">Партии в Народно събрание</head>
@@ -1576,7 +1579,7 @@
                      <placeName>Момчилград, България</placeName>
                   </birth>
                   <affiliation ref="#NS" role="MP">депутат</affiliation>
-                  <affiliation role="member">Национално движение Симеон Втори</affiliation>
+                  <affiliation role="member"/>
                </person>
                <person xml:id="VuchkovVeselin">
                   <persName xml:lang="bg">
@@ -3266,7 +3269,7 @@
                      <placeName>Пловдив, България</placeName>
                   </birth>
                   <affiliation ref="#NS" role="MP">депутат</affiliation>
-                  <affiliation role="member">Синята коалиция</affiliation>
+                  <affiliation role="member"/>
                </person>
                <person n="2869" xml:id="MihovskiIvan">
                   <persName xml:lang="bg">
@@ -7403,7 +7406,7 @@
                   <education>Sapienza University</education>
                   <occupation>политик</occupation>
                   <affiliation from="2017-01-17" role="presidentEP" to="2019-07-03">President of the European Parliament</affiliation>
-                  <affiliation role="member">European People's Party</affiliation>
+                  <affiliation role="member"/>
                   <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Antonio_Tajani</idno>
                </person>
                <person xml:id="StoimenovaAsena">
@@ -7423,7 +7426,7 @@
                   <sex value="M">мъжки</sex>
                   <education>икономист</education>
                   <affiliation from="2012" role="viceChairman" to="2017">Зам.-председател на Комисията за защита от дискриминация</affiliation>
-                  <affiliation role="member">#party.KB</affiliation>
+                  <affiliation role="member"/>
                </person>
                <person xml:id="ZhotevaBetina">
                   <persName xml:lang="bg">
@@ -7436,7 +7439,7 @@
                   </birth>
                   <education>журналист</education>
                   <idno type="URI" xml:lang="bg" subtype="wikimedia">https://bg.wikipedia.org/wiki/Бетина_Жотева</idno>
-                  <affiliation from="2016" role="member" to="2022">Член на Съвета за електронни медии</affiliation>
+                  <affiliation from="2016" role="member" to="2022"/>
                   <affiliation from="2020" role="chairman" to="2021">Председател на Съвета за електронни медии</affiliation>
                </person>
                <person xml:id="AtanasovBoyko">
@@ -7522,7 +7525,7 @@
                   </persName>
                   <sex value="M">мъжки</sex>
                   <education>юрист</education>
-                  <affiliation from="2017" role="member">Член на Висшия съдебен съвет</affiliation>
+                  <affiliation from="2017" role="member"/>
                </person>
                <person xml:id="PetkovVladomir">
                   <persName xml:lang="bg">
@@ -7532,7 +7535,7 @@
                   </persName>
                   <sex value="M">мъжки</sex>
                   <occupation>политик</occupation>
-                  <affiliation role="member">Член на Комисията за енергийно и водно регулиране</affiliation>
+                  <affiliation role="member"/>
                </person>
                <person xml:id="PoryazovValentin">
                   <persName xml:lang="bg">
@@ -7699,7 +7702,7 @@
                   </persName>
                   <sex value="M">мъжки</sex>
                   <occupation>политик</occupation>
-                  <affiliation role="member">Член на Комисията за енергийно и водно регулиране</affiliation>
+                  <affiliation role="member"/>
                </person>
                <person xml:id="KozarevaGabriela">
                   <persName xml:lang="bg">
@@ -7743,7 +7746,7 @@
                   </birth>
                   <education when="1987">Магистър по право от Великотърновския университет</education>
                   <occupation>политик</occupation>
-                  <affiliation role="member">Член на Комисията за енергийно и водно регулиране</affiliation>
+                  <affiliation role="member"/>
                </person>
                <person xml:id="KostovGeorgi">
                   <persName xml:lang="bg">
@@ -7800,7 +7803,7 @@
                   </persName>
                   <sex value="M">мъжки</sex>
                   <occupation>политик</occupation>
-                  <affiliation from="2015-03-26" role="member">Член на Сметната палата</affiliation>
+                  <affiliation from="2015-03-26" role="member"/>
                </person>
                <person xml:id="ZlatevGeorgi">
                   <persName xml:lang="bg">
@@ -7811,7 +7814,7 @@
                   <sex value="M">мъжки</sex>
                   <education when="1997">Висшия Машинно-електротехнически институт – гр.Варна, магистър „електроинженер”, специалност „Електроенергетика”</education>
                   <occupation>политик</occupation>
-                  <affiliation role="member">Член на Комисията за енергийно и водно регулиране</affiliation>
+                  <affiliation role="member"/>
                </person>
                <person xml:id="CholakovGeorgi">
                   <persName xml:lang="bg">
@@ -7833,7 +7836,7 @@
                   </persName>
                   <sex value="F">женски</sex>
                   <occupation>политик</occupation>
-                  <affiliation role="member">Член на Комисията за защита на конкуренцията</affiliation>
+                  <affiliation role="member"/>
                </person>
                <person xml:id="KomitovGlinka">
                   <persName xml:lang="bg">
@@ -7992,7 +7995,7 @@
                   <sex value="M">мъжки</sex>
                   <education when="1987"/>
                   <occupation>политик</occupation>
-                  <affiliation role="member">Член на Комисията за енергийно и водно регулиране</affiliation>
+                  <affiliation role="member"/>
                </person>
                <person xml:id="KostovDimityr">
                   <persName xml:lang="bg">
@@ -8039,7 +8042,7 @@
                   <education when="1981">Висш институт за подготовка на офицери и за научноизследователска дейност на МВР”, специалност „Охрана на обществения ред и борба срещу престъпността”, с гражданска специалност „Право”</education>
                   <occupation>юрист</occupation>
                   <occupation>политик</occupation>
-                  <affiliation from="2012-10-03" role="member">Член на Висшия съдебен съвет</affiliation>
+                  <affiliation from="2012-10-03" role="member"/>
                </person>
                <person xml:id="IlievDimityr">
                   <persName xml:lang="bg">
@@ -8087,7 +8090,7 @@
                   </persName>
                   <sex value="F">женски</sex>
                   <occupation>политик</occupation>
-                  <affiliation role="member">Член на Комисията за енергийно и водно регулиране</affiliation>
+                  <affiliation role="member"/>
                </person>
                <person xml:id="KostadinovEvtim">
                   <persName xml:lang="bg">
@@ -8108,7 +8111,7 @@
                   </persName>
                   <sex value="M">мъжки</sex>
                   <occupation>политик</occupation>
-                  <affiliation from="2015-03-26" role="member">Член на Сметната палата</affiliation>
+                  <affiliation from="2015-03-26" role="member"/>
                </person>
                <person xml:id="RadevEmil">
                   <persName xml:lang="bg">
@@ -8257,7 +8260,7 @@
                   </persName>
                   <sex value="M">мъжки</sex>
                   <occupation>политик</occupation>
-                  <affiliation role="member">Член на Националното бюро за контрол на специалните разузнавателни средства</affiliation>
+                  <affiliation role="member"/>
                </person>
                <person xml:id="CanovaIliyana">
                   <persName xml:lang="bg">
@@ -8450,7 +8453,7 @@
                   </persName>
                   <sex value="M">мъжки</sex>
                   <occupation>политик</occupation>
-                  <affiliation role="member">Член на Комисията за защита на конкуренцията</affiliation>
+                  <affiliation role="member"/>
                </person>
                <person xml:id="ZafirovKrasimir">
                   <persName xml:lang="bg">
@@ -8460,7 +8463,7 @@
                   </persName>
                   <sex value="M">мъжки</sex>
                   <occupation>политик</occupation>
-                  <affiliation role="member">Член на Комисията за защита на конкуренцията</affiliation>
+                  <affiliation role="member"/>
                </person>
                <person xml:id="VlahovKrasimir">
                   <persName xml:lang="bg">
@@ -8606,7 +8609,7 @@
                   <education>Юридическия факултет на Софийски университет „Св. Климент Охридски”, специалност „Право”</education>
                   <education>Магистърска степен по специалност „Защита на националната сигурност” към факултет „Сигурност” на Академията на МВР</education>
                   <occupation>юрист</occupation>
-                  <affiliation from="2007" role="member">Член на Комисията за защита на личните данни</affiliation>
+                  <affiliation from="2007" role="member"/>
                </person>
                <person xml:id="NenkovMiroslav">
                   <persName xml:lang="bg">
@@ -8733,7 +8736,7 @@
                   </persName>
                   <sex value="M">мъжки</sex>
                   <occupation>политик</occupation>
-                  <affiliation role="member">Член на Националното бюро за контрол на специалните разузнавателни средства</affiliation>
+                  <affiliation role="member"/>
                </person>
                <person xml:id="SimeonovOgnyan">
                   <persName xml:lang="bg">
@@ -8772,7 +8775,7 @@
                   </persName>
                   <sex value="M">мъжки</sex>
                   <occupation>политик</occupation>
-                  <affiliation role="member">Член на Националното бюро за контрол на специалните разузнавателни средства</affiliation>
+                  <affiliation role="member"/>
                </person>
                <person xml:id="AsenovOleg">
                   <persName xml:lang="bg">
@@ -8790,7 +8793,7 @@
                      <placeName>Димитровград</placeName>
                   </birth>
                   <education>Компютърни мрежи и комплекси, „Технически университет“ – София</education>
-                  <affiliation role="member" when="2019-07-25">Член на УС на Агенция "Пътна инфраструктура"</affiliation>
+                  <affiliation role="member" when="2019-07-25"/>
                </person>
                <person xml:id="GudzhovPavel">
                   <persName xml:lang="bg">
@@ -8809,7 +8812,7 @@
                   </persName>
                   <sex value="F">женски</sex>
                   <occupation>политик</occupation>
-                  <affiliation role="member">Член на Комисията за енергийно и водно регулиране</affiliation>
+                  <affiliation role="member"/>
                </person>
                <person xml:id="DzhelepovPetyr">
                   <persName xml:lang="bg">
@@ -8820,7 +8823,7 @@
                   <sex value="M">мъжки</sex>
                   <education when="1987"/>
                   <occupation>политик</occupation>
-                  <affiliation role="member">Член на Комисията за финансов надзор</affiliation>
+                  <affiliation role="member"/>
                </person>
                <person xml:id="NikolovPetar">
                   <persName xml:lang="bg">
@@ -8866,7 +8869,7 @@
                   </persName>
                   <sex value="M">мъжки</sex>
                   <occupation>политик</occupation>
-                  <affiliation role="member">Член на Комисията за защита на конкуренцията</affiliation>
+                  <affiliation role="member"/>
                </person>
                <person xml:id="GeorgievPlamen">
                   <persName xml:lang="bg">
@@ -8953,7 +8956,7 @@
                   <education when="1997">„Право“ в Юридическия факултет на Университета за национално и световно стопанство (УНСС)</education>
                   <occupation>юрист</occupation>
                   <occupation>политик</occupation>
-                  <affiliation role="member">Член на Комисията за енергийно и водно регулиране</affiliation>
+                  <affiliation role="member"/>
                   <idno type="URI" xml:lang="bg" subtype="wikimedia">https://bg.wikipedia.org/wiki/Ремзи_Осман</idno>
                </person>
                <person xml:id="PlevnelievRosen">
@@ -9056,7 +9059,7 @@
                   <education>Икономика във ВИИ „К. Маркс“</education>
                   <occupation>икономист</occupation>
                   <affiliation from="2014-09" role="chairman" to="2015-04">Председател на Комисията за енергийно и водно регулиране</affiliation>
-                  <affiliation from="2015-04" role="member">Член на Комисията за енергийно и водно регулиране</affiliation>
+                  <affiliation from="2015-04" role="member"/>
                </person>
                <person xml:id="ZhekovaSvetlana">
                   <persName xml:lang="bg">
@@ -9092,7 +9095,7 @@
                   <education when="1988">Доктор по икономика от Университет за национално и световно стопанство</education>
                   <occupation>икономист</occupation>
                   <occupation>счетоводител</occupation>
-                  <affiliation role="member">Член на Комисия за публичен надзор над регистрираните одитори</affiliation>
+                  <affiliation role="member"/>
                </person>
                <person xml:id="StoyanovaSlaveya">
                   <persName xml:lang="bg">
@@ -9360,9 +9363,9 @@
          </langUsage>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2021-05-08">
+         <change when="2021-05-26">
             <name>Tomaž Erjavec</name>: Made sample.</change>
-         <change when="2021-05-08">
+         <change when="2021-05-26">
             <name>Tomaž Erjavec</name>: Finalize encoding.</change>
       </revisionDesc>
    </teiHeader>

@@ -1,20 +1,9 @@
-<text id="ParlaMint-SI_2018-04-13-SDZ7-Izredna-59.ana" subcorpus="Reference" term="7" session="-" meeting="59" sitting="-" agenda="-" from="2018-04-13" to="2018-04-13" title="Minutes of the National Assembly of the Republic of Slovenia, Term 7, Extraordinary Session 59, 13.4.2018">
-<note type="head">
-[REPUBLIKA SLOVENIJA DRŽAVNI ZBOR]										
-</note>
-<note type="head">
-[nadaljevanje 59. izredne seje]										
-</note>
-<note type="head">
-[Sejo je vodil predsednik Državnega zbora dr. Milan Brglez.]										
-</note>
-<note type="time">
-[Seja se je začela ob 12.02.]										
-</note>
-<note type="speaker">
-[PREDSEDNIK DR. MILAN BRGLEZ:]										
-</note>
-<speech id="ParlaMint-SI_2018-04-13-SDZ7-Izredna-59.u1" speaker_role="Chairperson" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka modernega centra" party_status="-" speaker_gender="M" speaker_birth="1967">
+<note type="head" content="REPUBLIKA SLOVENIJA DRŽAVNI ZBOR"/>
+<note type="head" content="nadaljevanje 59. izredne seje"/>
+<note type="head" content="Sejo je vodil predsednik Državnega zbora dr. Milan Brglez."/>
+<note type="time" content="Seja se je začela ob 12.02."/>
+<note type="speaker" content="PREDSEDNIK DR. MILAN BRGLEZ:"/>
+<speech id="ParlaMint-SI_2018-04-13-SDZ7-Izredna-59.u1" text_id="ParlaMint-SI_2018-04-13-SDZ7-Izredna-59" subcorpus="Reference" house="Lower house" term="7" session="-" meeting="59" sitting="-" agenda="-" from="2018-04-13" to="2018-04-13" title="Minutes of the National Assembly of the Republic of Slovenia, Term 7, Extraordinary Session 59, 13.4.2018" speaker_role="Chairperson" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka modernega centra" party_status="-" speaker_gender="M" speaker_birth="1967">
 <p id="ParlaMint-SI_2018-04-13-SDZ7-Izredna-59.seg1" lang="Slovenian">
 <s id="ParlaMint-SI_2018-04-13-SDZ7-Izredna-59.seg1.1">
 Spoštovani	Spoštovani	spoštovan	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Plur VerbForm=Part	1	amod	kolegica	NOUN	Case=Nom Gender=Fem Number=Plur	2
@@ -283,12 +272,8 @@ Logar	Logar	Logar	PROPN	Case=Nom Gender=Masc Number=Sing	143	flat:name	Anže	PRO
 </name>
 </s>
 </p>
-<note type="gap::inaudible">
-[…]										
-</note>
-<note type="vocal:interruption">
-[oglašanje iz dvorane]										
-</note>
+<note type="gap::inaudible" content="…"/>
+<note type="vocal:interruption" content="oglašanje iz dvorane"/>
 <p id="ParlaMint-SI_2018-04-13-SDZ7-Izredna-59.seg4" lang="Slovenian">
 <s id="ParlaMint-SI_2018-04-13-SDZ7-Izredna-59.seg4.1">
 Pardon	Pardon	pardon	INTJ	-	1	discourse	pardon	INTJ	-	3
@@ -538,13 +523,9 @@ minut	minut	minuta	NOUN	Case=Gen Gender=Fem Number=Plur	18	conj	ura	NOUN	Case=Lo
 </s>
 </p>
 </speech>
-<note type="time">
-[Seja je bila prekinjena ob 12.04 in se je nadaljevala ob 16.06.]										
-</note>
-<note type="speaker">
-[PREDSEDNIK DR. MILAN BRGLEZ:]										
-</note>
-<speech id="ParlaMint-SI_2018-04-13-SDZ7-Izredna-59.u2" speaker_role="Chairperson" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka modernega centra" party_status="-" speaker_gender="M" speaker_birth="1967">
+<note type="time" content="Seja je bila prekinjena ob 12.04 in se je nadaljevala ob 16.06."/>
+<note type="speaker" content="PREDSEDNIK DR. MILAN BRGLEZ:"/>
+<speech id="ParlaMint-SI_2018-04-13-SDZ7-Izredna-59.u2" text_id="ParlaMint-SI_2018-04-13-SDZ7-Izredna-59" subcorpus="Reference" house="Lower house" term="7" session="-" meeting="59" sitting="-" agenda="-" from="2018-04-13" to="2018-04-13" title="Minutes of the National Assembly of the Republic of Slovenia, Term 7, Extraordinary Session 59, 13.4.2018" speaker_role="Chairperson" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka modernega centra" party_status="-" speaker_gender="M" speaker_birth="1967">
 <p id="ParlaMint-SI_2018-04-13-SDZ7-Izredna-59.seg9" lang="Slovenian">
 <s id="ParlaMint-SI_2018-04-13-SDZ7-Izredna-59.seg9.1">
 Spoštovani	Spoštovani	spoštovan	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Plur VerbForm=Part	1	amod	kolegica	NOUN	Case=Nom Gender=Fem Number=Plur	2
@@ -683,7 +664,4 @@ zbora	zbora	zbor	NOUN	Case=Gen Gender=Masc Number=Sing	12	nmod	seja	NOUN	Case=Ac
 </s>
 </p>
 </speech>
-<note type="gap::editorial">
-[SAMPLING]										
-</note>
-</text>
+<note type="gap::editorial" content="SAMPLING"/>

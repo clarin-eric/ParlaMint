@@ -1,11 +1,6 @@
-<text id="ParlaMint-TR_2011-07-04-tbmm-T24.ana" subcorpus="Reference" term="24" session="2" meeting="-" sitting="-" agenda="-" from="2014-08-25" to="2014-08-25" title="The Turkish parliamentary corpus ParlaMint-TR, Term 24, Session 2 [ParlaMint.ana SAMPLE]">
-<note type="time">
-[14.03]										
-</note>
-<note type="chair">
-[Osman Oktay Ekşi]										
-</note>
-<speech id="tbmm-2011-07-04s01p001" speaker_role="Regular" speaker_id="OsmanOktay.Ekşi" speaker_name="Ekşi, Osman Oktay" speaker_type="MP" speaker_party="CHP" speaker_party_name="Cumhuriyet Halk Partisi" party_status="opposition" speaker_gender="M" speaker_birth="-">
+<note type="time" content="14.03"/>
+<note type="chair" content="Osman Oktay Ekşi"/>
+<speech id="tbmm-2011-07-04s01p001" text_id="ParlaMint-TR_2011-07-04-tbmm-T24" subcorpus="Reference" house="-" term="24" session="2" meeting="-" sitting="-" agenda="-" from="2011-07-04" to="2011-07-04" title="The Turkish parliamentary corpus ParlaMint-TR, Term 24, Session 2" speaker_role="Regular" speaker_id="OsmanOktay.Ekşi" speaker_name="Ekşi, Osman Oktay" speaker_type="MP" speaker_party="CHP" speaker_party_name="Cumhuriyet Halk Partisi" party_status="opposition" speaker_gender="M" speaker_birth="">
 <p id="tbmm-2011-07-04s01p001.seg0" lang="Turkish">
 <s id="tbmm-2011-07-04s01p001-000010">
 <name type="ORG">
@@ -22,7 +17,7 @@ açıyorum	açıyorum	aç	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Perso
 </s>
 </p>
 </speech>
-<speech id="tbmm-2011-07-04s01p002" speaker_role="Regular" speaker_id="OsmanOktay.Ekşi" speaker_name="Ekşi, Osman Oktay" speaker_type="MP" speaker_party="CHP" speaker_party_name="Cumhuriyet Halk Partisi" party_status="opposition" speaker_gender="M" speaker_birth="-">
+<speech id="tbmm-2011-07-04s01p002" text_id="ParlaMint-TR_2011-07-04-tbmm-T24" subcorpus="Reference" house="-" term="24" session="2" meeting="-" sitting="-" agenda="-" from="2011-07-04" to="2011-07-04" title="The Turkish parliamentary corpus ParlaMint-TR, Term 24, Session 2" speaker_role="Regular" speaker_id="OsmanOktay.Ekşi" speaker_name="Ekşi, Osman Oktay" speaker_type="MP" speaker_party="CHP" speaker_party_name="Cumhuriyet Halk Partisi" party_status="opposition" speaker_gender="M" speaker_birth="">
 <p id="tbmm-2011-07-04s01p002.seg0" lang="Turkish">
 <s id="tbmm-2011-07-04s01p002-000010">
 <name type="LOC">
@@ -44,10 +39,8 @@ milletvekilleri	milletvekilleri	milletvekili	NOUN	Case=Nom Number=Sing Number[ps
 </s>
 </p>
 </speech>
-<note type="gap::editorial">
-[SAMPLING]										
-</note>
-<speech id="tbmm-2011-07-04s02p089" speaker_role="Regular" speaker_id="Cemil.Çiçek" speaker_name="Çiçek, Cemil" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="coalition" speaker_gender="M" speaker_birth="-">
+<note type="gap::editorial" content="SAMPLING"/>
+<speech id="tbmm-2011-07-04s02p089" text_id="ParlaMint-TR_2011-07-04-tbmm-T24" subcorpus="Reference" house="-" term="24" session="2" meeting="-" sitting="-" agenda="-" from="2011-07-04" to="2011-07-04" title="The Turkish parliamentary corpus ParlaMint-TR, Term 24, Session 2" speaker_role="Regular" speaker_id="Cemil.Çiçek" speaker_name="Çiçek, Cemil" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="coalition" speaker_gender="M" speaker_birth="">
 <p id="tbmm-2011-07-04s02p089.seg0" lang="Turkish">
 <s id="tbmm-2011-07-04s02p089-000010">
 <name type="ORG">
@@ -60,10 +53,8 @@ sunuyorum	sunuyorum	sun	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=
 </s>
 </p>
 </speech>
-<note type="-">
-[AK PARTİ, CHP ve MHP sıralarından alkışlar]										
-</note>
-<speech id="tbmm-2011-07-04s02p090" speaker_role="Regular" speaker_id="OsmanOktay.Ekşi" speaker_name="Ekşi, Osman Oktay" speaker_type="MP" speaker_party="CHP" speaker_party_name="Cumhuriyet Halk Partisi" party_status="opposition" speaker_gender="M" speaker_birth="-">
+<note type="-" content="AK PARTİ, CHP ve MHP sıralarından alkışlar"/>
+<speech id="tbmm-2011-07-04s02p090" text_id="ParlaMint-TR_2011-07-04-tbmm-T24" subcorpus="Reference" house="-" term="24" session="2" meeting="-" sitting="-" agenda="-" from="2011-07-04" to="2011-07-04" title="The Turkish parliamentary corpus ParlaMint-TR, Term 24, Session 2" speaker_role="Regular" speaker_id="OsmanOktay.Ekşi" speaker_name="Ekşi, Osman Oktay" speaker_type="MP" speaker_party="CHP" speaker_party_name="Cumhuriyet Halk Partisi" party_status="opposition" speaker_gender="M" speaker_birth="">
 <p id="tbmm-2011-07-04s02p090.seg0" lang="Turkish">
 <s id="tbmm-2011-07-04s02p090-000010">
 Sayın	Sayın	sayın	ADJ	-	t1	amod	milletvekili	NOUN	Case=Nom Number=Sing Number[psor]=Plur Person[psor]=3	t2
@@ -141,4 +132,3 @@ kapatıyorum	kapatıyorum	kapa	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing 
 </s>
 </p>
 </speech>
-</text>

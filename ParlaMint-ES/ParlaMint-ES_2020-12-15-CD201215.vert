@@ -1,8 +1,5 @@
-<text id="ParlaMint-ES_2020-12-15-CD201215.ana" subcorpus="COVID" term="14" session="66" meeting="-" sitting="-" agenda="-" from="2020-12-15" to="2020-12-15" title="Plenary session 66 (2020-12-15)">
-<note type="head">
-[TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY DE INICIATIVA POPULAR - PROPOSICIÓN DE LEY SOBRE RATIOS DE ENFERMERAS PARA GARANTIZAR LA SEGURIDAD DEL PACIENTE EN CENTROS SANITARIOS Y OTROS ÁMBITOS]										
-</note>
-<speech id="ParlaMint-ES_2020-12-15-CD201215.u1" speaker_role="Chairman" speaker_id="-" speaker_name="-" speaker_type="-" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="-" speaker_birth="-">
+<note type="head" content="TOMA EN CONSIDERACIÓN DE PROPOSICIONES DE LEY DE INICIATIVA POPULAR - PROPOSICIÓN DE LEY SOBRE RATIOS DE ENFERMERAS PARA GARANTIZAR LA SEGURIDAD DEL PACIENTE EN CENTROS SANITARIOS Y OTROS ÁMBITOS"/>
+<speech id="ParlaMint-ES_2020-12-15-CD201215.u1" text_id="ParlaMint-ES_2020-12-15-CD201215" subcorpus="COVID" house="Lower house" term="14" session="66" meeting="-" sitting="-" agenda="-" from="2020-12-15" to="2020-12-15" title="Plenary session 66 (2020-12-15)" speaker_role="Chairman">
 <p id="ParlaMint-ES_2020-12-15-CD201215.u1.1" lang="Spanish">
 <s id="ParlaMint-ES_2020-12-15-CD201215.u1.1.1">
 Buenas	Buenas	buen	ADJ	Gender=Fem Number=Plur	1	amod	tarde	NOUN	Gender=Fem Number=Plur	2
@@ -111,9 +108,7 @@ Nieto	Nieto	Nieto	PROPN	-	14	flat	Prieto	PROPN	-	13
 </name>
 .	.	.	PUNCT	PunctType=Peri	15	punct	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1
 </s>
-<note type="-">
-[Rumores]										
-</note>
+<note type="-" content="Rumores"/>
 <s id="ParlaMint-ES_2020-12-15-CD201215.u1.2.5">
 Para	Para	para	ADP	AdpType=Prep	1	mark	dar	VERB	VerbForm=Inf	2
 dar	dar	dar	VERB	VerbForm=Inf	2	advcl	pedir	VERB	VerbForm=Inf	9
@@ -139,9 +134,7 @@ silencio	silencio	silencio	NOUN	Gender=Masc Number=Sing	17	nmod	poco	ADV	-	15
 <g/>
 .	.	.	PUNCT	PunctType=Peri	18	punct	pedir	VERB	VerbForm=Inf	9
 </s>
-<note type="-">
-[Pausa]										
-</note>
+<note type="-" content="Pausa"/>
 <s id="ParlaMint-ES_2020-12-15-CD201215.u1.2.7">
 Muchísimas	Muchísimas	muchísimo	DET	Gender=Fem NumType=Card Number=Plur PronType=Ind	1	det	gracias	NOUN	Gender=Fem Number=Plur	2
 gracias	gracias	gracias	NOUN	Gender=Fem Number=Plur	2	root	-	-	-	-
@@ -150,7 +143,7 @@ gracias	gracias	gracias	NOUN	Gender=Fem Number=Plur	2	root	-	-	-	-
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-ES_2020-12-15-CD201215.u2" speaker_role="Regular" speaker_id="PrietoAna" speaker_name="Prieto Nieto, Ana" speaker_type="MP" speaker_party="PsdeG-PSOE" speaker_party_name="Partido dos Socialistas de Galicia - Partido Socialista Obrero Español" party_status="-" speaker_gender="F" speaker_birth="1965">
+<speech id="ParlaMint-ES_2020-12-15-CD201215.u2" text_id="ParlaMint-ES_2020-12-15-CD201215" subcorpus="COVID" house="Lower house" term="14" session="66" meeting="-" sitting="-" agenda="-" from="2020-12-15" to="2020-12-15" title="Plenary session 66 (2020-12-15)" speaker_role="Regular" speaker_id="PrietoAna" speaker_name="Prieto Nieto, Ana" speaker_type="MP" speaker_party="PsdeG-PSOE" speaker_party_name="Partido dos Socialistas de Galicia - Partido Socialista Obrero Español" party_status="-" speaker_gender="F" speaker_birth="1965">
 <p id="ParlaMint-ES_2020-12-15-CD201215.u2.1" lang="Spanish">
 <s id="ParlaMint-ES_2020-12-15-CD201215.u2.1.1">
 Señorías	Señorías	señoría	NOUN	Gender=Fem Number=Plur	1	root	-	-	-	-
@@ -240,9 +233,7 @@ COVID	COVID	COVID	PROPN	-	29	obl	fallecer	VERB	Gender=Masc Number=Sing Tense=Pas
 </name>
 .	.	.	PUNCT	PunctType=Peri	30	punct	permitir	VERB	VerbForm=Inf	4
 </s>
-<note type="-">
-[Aplausos]										
-</note>
+<note type="-" content="Aplausos"/>
 <s id="ParlaMint-ES_2020-12-15-CD201215.u2.2.4">
 Lanzo	Lanzo	lanzar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 desde	desde	desde	ADP	AdpType=Prep	2	case	tribuna	NOUN	Gender=Fem Number=Sing	4
@@ -740,9 +731,7 @@ es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	25	cop	qué	
 <g/>
 ?	?	?	PUNCT	PunctSide=Fin PunctType=Qest	26	punct	ejemplo	NOUN	Gender=Masc Number=Sing	16
 </s>
-<note type="-">
-[Rumores.-Aplausos]										
-</note>
+<note type="-" content="Rumores.-Aplausos"/>
 <s id="ParlaMint-ES_2020-12-15-CD201215.u2.5.5">
 ¿	¿	¿	PUNCT	PunctSide=Ini PunctType=Qest	1	punct	gestionar	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	3
 <g/>
@@ -767,9 +756,7 @@ forzosos	forzosos	forzoso	ADJ	Gender=Masc Number=Plur	15	amod	traslado	NOUN	Gend
 <g/>
 ?	?	?	PUNCT	PunctSide=Fin PunctType=Qest	16	punct	gestionar	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	3
 </s>
-<note type="-">
-[Rumores]										
-</note>
+<note type="-" content="Rumores"/>
 <s id="ParlaMint-ES_2020-12-15-CD201215.u2.5.7">
 Las	Las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	1	det	conclusión	NOUN	Gender=Fem Number=Plur	2
 conclusiones	conclusiones	conclusión	NOUN	Gender=Fem Number=Plur	2	root	-	-	-	-
@@ -789,9 +776,7 @@ de	de	de	ADP	AdpType=Prep	12	case	España	PROPN	-	13
 España	España	España	PROPN	-	13	flat	Comisión	PROPN	-	5
 </name>
 </s>
-<note type="-">
-[rumores]										
-</note>
+<note type="-" content="rumores"/>
 <s id="ParlaMint-ES_2020-12-15-CD201215.u2.5.9">
 ,	,	,	PUNCT	PunctType=Comm	1	punct	aprobado	ADJ	Gender=Fem Number=Sing VerbForm=Part	2
 aprobada	aprobada	aprobado	ADJ	Gender=Fem Number=Sing VerbForm=Part	2	root	-	-	-	-
@@ -816,10 +801,8 @@ Cámara	Cámara	Cámara	PROPN	-	12	nmod	presente	ADJ	Number=Plur	9
 </s>
 </p>
 </speech>
-<note type="gap::editorial">
-[SAMPLING]										
-</note>
-<speech id="ParlaMint-ES_2020-12-15-CD201215.u175" speaker_role="Chairman" speaker_id="-" speaker_name="-" speaker_type="-" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="-" speaker_birth="-">
+<note type="gap::editorial" content="SAMPLING"/>
+<speech id="ParlaMint-ES_2020-12-15-CD201215.u175" text_id="ParlaMint-ES_2020-12-15-CD201215" subcorpus="COVID" house="Lower house" term="14" session="66" meeting="-" sitting="-" agenda="-" from="2020-12-15" to="2020-12-15" title="Plenary session 66 (2020-12-15)" speaker_role="Chairman">
 <p id="ParlaMint-ES_2020-12-15-CD201215.u175.1" lang="Spanish">
 <s id="ParlaMint-ES_2020-12-15-CD201215.u175.1.1">
 Procedemos	Procedemos	proceder	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
@@ -914,9 +897,7 @@ votación	votación	votación	NOUN	Gender=Fem Number=Sing	3	nsubj	comenzar	VERB	
 <g/>
 .	.	.	PUNCT	PunctType=Peri	4	punct	comenzar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1
 </s>
-<note type="-">
-[Pausa]										
-</note>
+<note type="-" content="Pausa"/>
 <s id="ParlaMint-ES_2020-12-15-CD201215.u175.2.3">
 Efectuada	Efectuada	efectuado	ADJ	Gender=Fem Number=Sing VerbForm=Part	1	advmod	dar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	5
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	votación	NOUN	Gender=Fem Number=Sing	3
@@ -982,7 +963,7 @@ telemáticos	telemáticos	telemático	ADJ	Gender=Masc Number=Plur	47	amod	voto	N
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-ES_2020-12-15-CD201215.u176" speaker_role="Chairman" speaker_id="-" speaker_name="-" speaker_type="-" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="-" speaker_birth="-">
+<speech id="ParlaMint-ES_2020-12-15-CD201215.u176" text_id="ParlaMint-ES_2020-12-15-CD201215" subcorpus="COVID" house="Lower house" term="14" session="66" meeting="-" sitting="-" agenda="-" from="2020-12-15" to="2020-12-15" title="Plenary session 66 (2020-12-15)" speaker_role="Chairman">
 <p id="ParlaMint-ES_2020-12-15-CD201215.u176.1" lang="Spanish">
 <s id="ParlaMint-ES_2020-12-15-CD201215.u176.1.1">
 En	En	en	ADP	AdpType=Prep	1	advmod	tomar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
@@ -1000,9 +981,7 @@ ley	ley	ley	NOUN	Gender=Fem Number=Sing	11	nmod	proposición	NOUN	Gender=Fem Num
 <g/>
 .	.	.	PUNCT	PunctType=Peri	12	punct	tomar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
 </s>
-<note type="-">
-[Aplausos]										
-</note>
+<note type="-" content="Aplausos"/>
 <s id="ParlaMint-ES_2020-12-15-CD201215.u176.1.3">
 Se	Se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	1	expl:pass	suspender	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 suspende	suspende	suspender	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	root	-	-	-	-
@@ -1039,4 +1018,3 @@ noche	noche	noche	NOUN	Gender=Fem Number=Sing	9	nmod	minuto	NOUN	Gender=Masc Num
 </s>
 </p>
 </speech>
-</text>

@@ -1,11 +1,6 @@
-<text id="ParlaMint-NL_2014-04-16-tweedekamer-3.ana" subcorpus="Reference" term="28-lower" session="3" meeting="76" sitting="-" agenda="-" from="2014-04-16" to="2014-04-16" title="Report of the meeting of the Dutch Lower House, Meeting 76, Session 3 (2014-04-16)">
-<note type="-">
-[Programmatische aanpak stikstof]										
-</note>
-<note type="-">
-[(Zie vergadering van 10 december 2013.)]										
-</note>
-<speech id="ParlaMint-NL_2014-04-16-tweedekamer-3.u1" speaker_role="Chairperson" speaker_id="AnouchkavanMiltenburg" speaker_name="van Miltenburg, Anouchka" speaker_type="MP" speaker_party="VVD" speaker_party_name="Volkspartij voor Vrijheid en Democratie" party_status="coalition" speaker_gender="F" speaker_birth="-">
+<note type="-" content="Programmatische aanpak stikstof"/>
+<note type="-" content="(Zie vergadering van 10 december 2013.)"/>
+<speech id="ParlaMint-NL_2014-04-16-tweedekamer-3.u1" text_id="ParlaMint-NL_2014-04-16-tweedekamer-3" subcorpus="Reference" house="Lower house" term="28-lower" session="3" meeting="76" sitting="-" agenda="-" from="2014-04-16" to="2014-04-16" title="Report of the meeting of the Dutch Lower House, Meeting 76, Session 3 (2014-04-16)" speaker_role="Chairperson" speaker_id="AnouchkavanMiltenburg" speaker_name="van Miltenburg, Anouchka" speaker_type="MP" speaker_party="VVD" speaker_party_name="Volkspartij voor Vrijheid en Democratie" party_status="coalition" speaker_gender="F" speaker_birth="">
 <p id="ParlaMint-NL_2014-04-16-tweedekamer-3.seg1" lang="">
 <s id="ParlaMint-NL_2014-04-16-tweedekamer-3.s2">
 Er	Er	er	ADV	-	w9	advmod	aan	ADP	-	w14
@@ -135,10 +130,8 @@ vervolgvraag	vervolgvraag	vervolgvraag	NOUN	Gender=Com Number=Sing	w98	conj	vraa
 </s>
 </p>
 </speech>
-<note type="-">
-[De algemene beraadslaging wordt hervat.]										
-</note>
-<speech id="ParlaMint-NL_2014-04-16-tweedekamer-3.u2" speaker_role="Regular" speaker_id="LutzJacobi" speaker_name="Jacobi, Lutz" speaker_type="MP" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="coalition" speaker_gender="F" speaker_birth="-">
+<note type="-" content="De algemene beraadslaging wordt hervat."/>
+<speech id="ParlaMint-NL_2014-04-16-tweedekamer-3.u2" text_id="ParlaMint-NL_2014-04-16-tweedekamer-3" subcorpus="Reference" house="Lower house" term="28-lower" session="3" meeting="76" sitting="-" agenda="-" from="2014-04-16" to="2014-04-16" title="Report of the meeting of the Dutch Lower House, Meeting 76, Session 3 (2014-04-16)" speaker_role="Regular" speaker_id="LutzJacobi" speaker_name="Jacobi, Lutz" speaker_type="MP" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="coalition" speaker_gender="F" speaker_birth="">
 <p id="ParlaMint-NL_2014-04-16-tweedekamer-3.seg2" lang="">
 <s id="ParlaMint-NL_2014-04-16-tweedekamer-3.s7">
 Voorzitter	Voorzitter	voorzitter	NOUN	Gender=Com Number=Sing	w104	root	-	-	-	-
@@ -1495,10 +1488,8 @@ ontwikkelingen	ontwikkelingen	ontwikkeling	NOUN	Number=Plur	w1056	obl	komen	VERB
 </s>
 </p>
 </speech>
-<note type="gap::editorial">
-[SAMPLING]										
-</note>
-<speech id="ParlaMint-NL_2014-04-16-tweedekamer-3.u42" speaker_role="Regular" speaker_id="SharonDijksma" speaker_name="Dijksma, Sharon" speaker_type="MP" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="coalition" speaker_gender="F" speaker_birth="-">
+<note type="gap::editorial" content="SAMPLING"/>
+<speech id="ParlaMint-NL_2014-04-16-tweedekamer-3.u42" text_id="ParlaMint-NL_2014-04-16-tweedekamer-3" subcorpus="Reference" house="Lower house" term="28-lower" session="3" meeting="76" sitting="-" agenda="-" from="2014-04-16" to="2014-04-16" title="Report of the meeting of the Dutch Lower House, Meeting 76, Session 3 (2014-04-16)" speaker_role="Regular" speaker_id="SharonDijksma" speaker_name="Dijksma, Sharon" speaker_type="MP" speaker_party="PvdA" speaker_party_name="Partij van de Arbeid" party_status="coalition" speaker_gender="F" speaker_birth="">
 <p id="ParlaMint-NL_2014-04-16-tweedekamer-3.seg76" lang="">
 <s id="ParlaMint-NL_2014-04-16-tweedekamer-3.s511">
 Dat	Dat	dat	PRON	Person=3 PronType=Dem	w8555	obj	laten	VERB	Number=Sing Tense=Pres VerbForm=Fin	w8556
@@ -1515,7 +1506,7 @@ voorzitter	voorzitter	voorzitter	NOUN	Gender=Com Number=Sing	w8561	parataxis	lat
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-NL_2014-04-16-tweedekamer-3.u43" speaker_role="Chairperson" speaker_id="AnouchkavanMiltenburg" speaker_name="van Miltenburg, Anouchka" speaker_type="MP" speaker_party="VVD" speaker_party_name="Volkspartij voor Vrijheid en Democratie" party_status="coalition" speaker_gender="F" speaker_birth="-">
+<speech id="ParlaMint-NL_2014-04-16-tweedekamer-3.u43" text_id="ParlaMint-NL_2014-04-16-tweedekamer-3" subcorpus="Reference" house="Lower house" term="28-lower" session="3" meeting="76" sitting="-" agenda="-" from="2014-04-16" to="2014-04-16" title="Report of the meeting of the Dutch Lower House, Meeting 76, Session 3 (2014-04-16)" speaker_role="Chairperson" speaker_id="AnouchkavanMiltenburg" speaker_name="van Miltenburg, Anouchka" speaker_type="MP" speaker_party="VVD" speaker_party_name="Volkspartij voor Vrijheid en Democratie" party_status="coalition" speaker_gender="F" speaker_birth="">
 <p id="ParlaMint-NL_2014-04-16-tweedekamer-3.seg77" lang="">
 <s id="ParlaMint-NL_2014-04-16-tweedekamer-3.s512">
 Dan	Dan	dan	ADV	-	w8562	advmod	stellen	VERB	Number=Sing Tense=Pres VerbForm=Fin	w8563
@@ -1563,10 +1554,5 @@ termijn	termijn	termijn	NOUN	Gender=Com Number=Sing	w8595	nmod	beantwoording	NOU
 </s>
 </p>
 </speech>
-<note type="-">
-[De algemene beraadslaging wordt geschorst.]										
-</note>
-<note type="-">
-[De vergadering wordt van 12.06 uur tot 12.53 uur geschorst.]										
-</note>
-</text>
+<note type="-" content="De algemene beraadslaging wordt geschorst."/>
+<note type="-" content="De vergadering wordt van 12.06 uur tot 12.53 uur geschorst."/>

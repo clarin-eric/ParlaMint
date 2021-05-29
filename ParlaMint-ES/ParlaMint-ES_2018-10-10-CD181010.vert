@@ -1,8 +1,5 @@
-<text id="ParlaMint-ES_2018-10-10-CD181010.ana" subcorpus="Reference" term="12" session="147" meeting="-" sitting="-" agenda="-" from="2018-10-10" to="2018-10-10" title="Plenary session 147 (2018-10-10)">
-<note type="head">
-[MINUTO DE SILENCIO]										
-</note>
-<speech id="ParlaMint-ES_2018-10-10-CD181010.u1" speaker_role="Chairman" speaker_id="-" speaker_name="-" speaker_type="-" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="-" speaker_birth="-">
+<note type="head" content="MINUTO DE SILENCIO"/>
+<speech id="ParlaMint-ES_2018-10-10-CD181010.u1" text_id="ParlaMint-ES_2018-10-10-CD181010" subcorpus="Reference" house="Lower house" term="12" session="147" meeting="-" sitting="-" agenda="-" from="2018-10-10" to="2018-10-10" title="Plenary session 147 (2018-10-10)" speaker_role="Chairman">
 <p id="ParlaMint-ES_2018-10-10-CD181010.u1.1" lang="Spanish">
 <s id="ParlaMint-ES_2018-10-10-CD181010.u1.1.1">
 Señorías	Señorías	señoría	NOUN	Gender=Fem Number=Plur	1	nsubj	guardar	VERB	VerbForm=Inf	13
@@ -89,9 +86,7 @@ afectados	afectados	afectado	NOUN	Gender=Masc Number=Plur	26	nmod	conjunto	NOUN	
 <g/>
 .	.	.	PUNCT	PunctType=Peri	27	punct	enviar	VERB	VerbForm=Inf	5
 </s>
-<note type="-">
-[La Cámara, puesta en pie, guarda un minuto de silencio]										
-</note>
+<note type="-" content="La Cámara, puesta en pie, guarda un minuto de silencio"/>
 <s id="ParlaMint-ES_2018-10-10-CD181010.u1.1.4">
 Muchas	Muchas	mucho	DET	Gender=Fem NumType=Card Number=Plur PronType=Ind	1	det	gracias	NOUN	Gender=Fem Number=Plur	2
 gracias	gracias	gracias	NOUN	Gender=Fem Number=Plur	2	advmod	señoría	NOUN	Gender=Fem Number=Plur	4
@@ -103,13 +98,9 @@ señorías	señorías	señoría	NOUN	Gender=Fem Number=Plur	4	root	-	-	-	-
 </s>
 </p>
 </speech>
-<note type="gap::editorial">
-[SAMPLING]										
-</note>
-<note type="head">
-[PREGUNTAS - DEL DIPUTADO DON PABLO CASADO BLANCO, DEL GRUPO PARLAMENTARIO POPULAR EN EL CONGRESO, QUE FORMULA AL SEÑOR PRESIDENTE DEL GOBIERNO: ¿QUÉ MÁS TIENE QUE OCURRIR PARA QUE CONVOQUE ELECCIONES GENERALES?]										
-</note>
-<speech id="ParlaMint-ES_2018-10-10-CD181010.u2" speaker_role="Chairman" speaker_id="-" speaker_name="-" speaker_type="-" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="-" speaker_birth="-">
+<note type="gap::editorial" content="SAMPLING"/>
+<note type="head" content="PREGUNTAS - DEL DIPUTADO DON PABLO CASADO BLANCO, DEL GRUPO PARLAMENTARIO POPULAR EN EL CONGRESO, QUE FORMULA AL SEÑOR PRESIDENTE DEL GOBIERNO: ¿QUÉ MÁS TIENE QUE OCURRIR PARA QUE CONVOQUE ELECCIONES GENERALES?"/>
+<speech id="ParlaMint-ES_2018-10-10-CD181010.u2" text_id="ParlaMint-ES_2018-10-10-CD181010" subcorpus="Reference" house="Lower house" term="12" session="147" meeting="-" sitting="-" agenda="-" from="2018-10-10" to="2018-10-10" title="Plenary session 147 (2018-10-10)" speaker_role="Chairman">
 <p id="ParlaMint-ES_2018-10-10-CD181010.u2.1" lang="Spanish">
 <s id="ParlaMint-ES_2018-10-10-CD181010.u2.1.1">
 Continuamos	Continuamos	continuar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
@@ -183,10 +174,8 @@ señoría	señoría	señoría	NOUN	Gender=Fem Number=Sing	3	root	-	-	-	-
 </s>
 </p>
 </speech>
-<note type="gap::editorial">
-[SAMPLING]										
-</note>
-<speech id="ParlaMint-ES_2018-10-10-CD181010.u238" speaker_role="Regular" speaker_id="BatetMeritxell" speaker_name="Batet Lamaña, Meritxell" speaker_type="MP" speaker_party="PSC-PSOE" speaker_party_name="Partido Socialista de Cataluya - Partido Socialista Obrero Español" party_status="opposition" speaker_gender="F" speaker_birth="1973">
+<note type="gap::editorial" content="SAMPLING"/>
+<speech id="ParlaMint-ES_2018-10-10-CD181010.u238" text_id="ParlaMint-ES_2018-10-10-CD181010" subcorpus="Reference" house="Lower house" term="12" session="147" meeting="-" sitting="-" agenda="-" from="2018-10-10" to="2018-10-10" title="Plenary session 147 (2018-10-10)" speaker_role="Regular" speaker_id="BatetMeritxell" speaker_name="Batet Lamaña, Meritxell" speaker_type="MP" speaker_party="PSC-PSOE" speaker_party_name="Partido Socialista de Cataluya - Partido Socialista Obrero Español" party_status="opposition" speaker_gender="F" speaker_birth="1973">
 <p id="ParlaMint-ES_2018-10-10-CD181010.u238.1" lang="Spanish">
 <s id="ParlaMint-ES_2018-10-10-CD181010.u238.1.1">
 Gracias	Gracias	gracias	NOUN	-	1	advmod	presidente	NOUN	Gender=Masc Number=Sing	3
@@ -981,11 +970,9 @@ gracias	gracias	gracias	NOUN	Gender=Fem Number=Plur	2	root	-	-	-	-
 .	.	.	PUNCT	PunctType=Peri	3	punct	gracias	NOUN	Gender=Fem Number=Plur	2
 </s>
 </p>
-<note type="-">
-[Aplausos]										
-</note>
+<note type="-" content="Aplausos"/>
 </speech>
-<speech id="ParlaMint-ES_2018-10-10-CD181010.u239" speaker_role="Chairman" speaker_id="PrendesJosé" speaker_name="Prendes Prendes, José Ignacio" speaker_type="MP" speaker_party="Cs" speaker_party_name="Ciudadanos" party_status="opposition" speaker_gender="M" speaker_birth="1965">
+<speech id="ParlaMint-ES_2018-10-10-CD181010.u239" text_id="ParlaMint-ES_2018-10-10-CD181010" subcorpus="Reference" house="Lower house" term="12" session="147" meeting="-" sitting="-" agenda="-" from="2018-10-10" to="2018-10-10" title="Plenary session 147 (2018-10-10)" speaker_role="Chairman" speaker_id="PrendesJosé" speaker_name="Prendes Prendes, José Ignacio" speaker_type="MP" speaker_party="Cs" speaker_party_name="Ciudadanos" party_status="opposition" speaker_gender="M" speaker_birth="1965">
 <p id="ParlaMint-ES_2018-10-10-CD181010.u239.1" lang="Spanish">
 <s id="ParlaMint-ES_2018-10-10-CD181010.u239.1.1">
 Muchas	Muchas	mucho	DET	Gender=Fem NumType=Card Number=Plur PronType=Ind	1	det	gracias	NOUN	Gender=Fem Number=Plur	2
@@ -1028,4 +1015,3 @@ mediodía	mediodía	mediodía	NOUN	Gender=Masc Number=Sing	8	nmod	minuto	NOUN	Ge
 </s>
 </p>
 </speech>
-</text>

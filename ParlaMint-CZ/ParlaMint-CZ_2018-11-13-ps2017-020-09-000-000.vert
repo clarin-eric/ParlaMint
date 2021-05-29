@@ -1,11 +1,6 @@
-<text id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000.ana" subcorpus="Reference" term="ps2017" session="-" meeting="ps2017/020" sitting="ps2017/020/09" agenda="ps2017/020/000" from="2018-11-13" to="2018-11-13" title="Parliament of the Czech Republic, Chamber of Deputies">
-<note type="time">
-[(Jednání zahájeno v 14.00 hodin.)]										
-</note>
-<note type="speaker">
-[Předseda PSP Radek Vondráček]										
-</note>
-<speech id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000.u1" speaker_role="Chairperson" speaker_id="RadekVondracek.1973" speaker_name="Vondráček, Radek" speaker_type="MP" speaker_party="ANO" speaker_party_name="Poslanecký klub ANO 2011" party_status="coalition" speaker_gender="M" speaker_birth="1973">
+<note type="time" content="(Jednání zahájeno v 14.00 hodin.)"/>
+<note type="speaker" content="Předseda PSP Radek Vondráček"/>
+<speech id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000.u1" text_id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000" subcorpus="Reference" house="Lower house" term="ps2017" session="-" meeting="ps2017/020" sitting="ps2017/020/09" agenda="ps2017/020/000" from="2018-11-13" to="2018-11-13" title="Parliament of the Czech Republic, Chamber of Deputies, 2018-11-13" speaker_role="Chairperson" speaker_id="RadekVondracek.1973" speaker_name="Vondráček, Radek" speaker_type="MP" speaker_party="ANO" speaker_party_name="Poslanecký klub ANO 2011" party_status="coalition" speaker_gender="M" speaker_birth="1973">
 <p id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000.u1.p1" lang="Czech">
 <s id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000.u1.p1.s1">
 Vážené	Vážené	vážený	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur Polarity=Pos	w1	amod	paní	NOUN	Case=Nom Gender=Fem Number=Plur Polarity=Pos	w2
@@ -674,9 +669,7 @@ lavice	lavice	lavice	NOUN	Case=Acc Gender=Fem Number=Plur Polarity=Pos	w8	obl	ro
 .	.	.	PUNCT	-	w9	punct	rozdaný	ADJ	Gender=Masc Number=Sing Polarity=Pos Variant=Short VerbForm=Part Voice=Pass	w6
 </s>
 </p>
-<note type="vocal:noise">
-[(V sále je hluk.)]										
-</note>
+<note type="vocal:noise" content="(V sále je hluk.)"/>
 <p id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000.u1.p10" lang="Czech">
 <s id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000.u1.p10.s1">
 K	K	k	ADP	AdpType=Prep Case=Dat	w1	case	pořad	NOUN	Animacy=Inan Case=Dat Gender=Masc Number=Sing Polarity=Pos	w2
@@ -748,10 +741,8 @@ návrh	návrh	návrh	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing Polarity
 </s>
 </p>
 </speech>
-<note type="speaker">
-[Poslanec Jaroslav Faltýnek]										
-</note>
-<speech id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000.u2" speaker_role="Regular" speaker_id="JaroslavFaltynek.1962" speaker_name="Faltýnek, Jaroslav" speaker_type="MP" speaker_party="ANO" speaker_party_name="Poslanecký klub ANO 2011" party_status="coalition" speaker_gender="M" speaker_birth="1962">
+<note type="speaker" content="Poslanec Jaroslav Faltýnek"/>
+<speech id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000.u2" text_id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000" subcorpus="Reference" house="Lower house" term="ps2017" session="-" meeting="ps2017/020" sitting="ps2017/020/09" agenda="ps2017/020/000" from="2018-11-13" to="2018-11-13" title="Parliament of the Czech Republic, Chamber of Deputies, 2018-11-13" speaker_role="Regular" speaker_id="JaroslavFaltynek.1962" speaker_name="Faltýnek, Jaroslav" speaker_type="MP" speaker_party="ANO" speaker_party_name="Poslanecký klub ANO 2011" party_status="coalition" speaker_gender="M" speaker_birth="1962">
 <p id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000.u2.p1" lang="Czech">
 <s id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000.u2.p1.s1">
 Hezké	Hezké	hezký	ADJ	Case=Nom Degree=Pos Gender=Neut Number=Sing Polarity=Pos	w1	amod	odpoledne	NOUN	Case=Nom Gender=Neut Number=Sing Polarity=Pos	w2
@@ -961,10 +952,8 @@ Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=
 </s>
 </p>
 </speech>
-<note type="gap::editorial">
-[SAMPLING]										
-</note>
-<speech id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000.u12" speaker_role="Regular" speaker_id="MiroslavKalousek.1960" speaker_name="Kalousek, Miroslav" speaker_type="MP" speaker_party="TOP09" speaker_party_name="Poslanecký klub TOP 09" party_status="opposition" speaker_gender="M" speaker_birth="1960">
+<note type="gap::editorial" content="SAMPLING"/>
+<speech id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000.u12" text_id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000" subcorpus="Reference" house="Lower house" term="ps2017" session="-" meeting="ps2017/020" sitting="ps2017/020/09" agenda="ps2017/020/000" from="2018-11-13" to="2018-11-13" title="Parliament of the Czech Republic, Chamber of Deputies, 2018-11-13" speaker_role="Regular" speaker_id="MiroslavKalousek.1960" speaker_name="Kalousek, Miroslav" speaker_type="MP" speaker_party="TOP09" speaker_party_name="Poslanecký klub TOP 09" party_status="opposition" speaker_gender="M" speaker_birth="1960">
 <p id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000.u12.p1" lang="Czech">
 <s id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000.u12.p1.s1">
 Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-
@@ -1207,10 +1196,8 @@ Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=
 </s>
 </p>
 </speech>
-<note type="speaker">
-[Předseda PSP Radek Vondráček]										
-</note>
-<speech id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000.u13" speaker_role="Chairperson" speaker_id="RadekVondracek.1973" speaker_name="Vondráček, Radek" speaker_type="MP" speaker_party="ANO" speaker_party_name="Poslanecký klub ANO 2011" party_status="coalition" speaker_gender="M" speaker_birth="1973">
+<note type="speaker" content="Předseda PSP Radek Vondráček"/>
+<speech id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000.u13" text_id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000" subcorpus="Reference" house="Lower house" term="ps2017" session="-" meeting="ps2017/020" sitting="ps2017/020/09" agenda="ps2017/020/000" from="2018-11-13" to="2018-11-13" title="Parliament of the Czech Republic, Chamber of Deputies, 2018-11-13" speaker_role="Chairperson" speaker_id="RadekVondracek.1973" speaker_name="Vondráček, Radek" speaker_type="MP" speaker_party="ANO" speaker_party_name="Poslanecký klub ANO 2011" party_status="coalition" speaker_gender="M" speaker_birth="1973">
 <p id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000.u13.p1" lang="Czech">
 <s id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000.u13.p1.s1">
 Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-
@@ -1479,9 +1466,7 @@ námitku	námitku	námitka	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	w7	
 <g/>
 .	.	.	PUNCT	-	w8	punct	ptát	VERB	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
 </s>
-<note type="comment">
-[(Reakce na poznámku z okolí:)]										
-</note>
+<note type="comment" content="(Reakce na poznámku z okolí:)"/>
 <s id="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000.u13.p5.s3">
 Tak	Tak	tak	ADV	PronType=Dem	w1	dep	hlasovat	VERB	Aspect=Imp Polarity=Pos VerbForm=Inf	w4
 <g/>
@@ -1983,4 +1968,3 @@ je	je	být	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fi
 </s>
 </p>
 </speech>
-</text>

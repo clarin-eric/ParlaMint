@@ -26,7 +26,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>2.0</edition>
+            <edition>2.1</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure quantity="244835" unit="speeches" xml:lang="lt">244.835 pasisakymų</measure>
@@ -40,7 +40,7 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1405</idno>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1431</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="lt">Šis kūrinys yra licencijuojamas pagal <ref target="http://creativecommons.org/licenses/by/4.0/">„Creative Commons“ priskyrimo tarptautinę viešąją licenciją</ref>
@@ -48,7 +48,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
             .</p>
             </availability>
-            <date when="2021-05-10">2021-05-10</date>
+            <date when="2021-05-27">2021-05-27</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -795,13 +795,16 @@
                <date from="2012-11-16" to="2020-11-10">16.11.2012 - 10.11.2020</date>
             </setting>
          </settingDesc>
+         <textClass>
+            <catRef scheme="#parla.legislature" target="#parla.uni"/>
+         </textClass>
          <particDesc>
             <listOrg>
                <org role="government" xml:id="government.LT">
                   <orgName full="yes" xml:lang="en">Government of the Republic of Lithuania</orgName>
                   <orgName full="yes" xml:lang="lt">Lietuvos Respublikos Vyriausybė</orgName>
                </org>
-               <org ana="#parla.national #parla.lower" role="parliament" xml:id="S">
+               <org ana="#parla.national" role="parliament" xml:id="S">
                   <orgName full="yes" xml:lang="lt">Lietuvos Respublikos Seimas</orgName>
                   <orgName full="yes" xml:lang="en">The Seimas of the Republic of Lithuania</orgName>
                   <event from="1990-03-10">
@@ -42946,16 +42949,16 @@
          </langUsage>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2021-05-10">
+         <change when="2021-05-27">
             <name>Tomaž Erjavec</name>: Made sample.</change>
-         <change when="2021-05-10">
+         <change when="2021-05-27">
             <name>Tomaž Erjavec</name>: Finalize encoding.</change>
       </revisionDesc>
    </teiHeader>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-LT_2014-11-20-seimas-2-1.ana.xml"/>
+               href="ParlaMint-LT_2012-11-20-seimas-342-1.ana.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-LT_2016-03-22-seimas-294-1.ana.xml"/>
+               href="ParlaMint-LT_2015-10-20-seimas-435-1.ana.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-LT_2015-05-12-seimas-586-1.ana.xml"/>
+               href="ParlaMint-LT_2018-05-17-seimas-390-1.ana.xml"/>
 </teiCorpus>

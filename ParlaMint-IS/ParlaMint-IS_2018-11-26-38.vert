@@ -1,5 +1,4 @@
-<text id="ParlaMint-IS_2018-11-26-38.ana" subcorpus="Reference" term="23" session="149" meeting="38" sitting="-" agenda="-" from="2018-11-26" to="2018-11-26" title="Speeches in the national parliament of Iceland, 23. term, regular meeting 149-38, 26.11.2018.">
-<speech id="ParlaMint-IS_2018-11-26-38.u1" speaker_role="Regular" speaker_id="JonValdimarsson" speaker_name="Valdimarsson, Jón Steindór" speaker_type="MP" speaker_party="V" speaker_party_name="Viðreisn" party_status="opposition" speaker_gender="M" speaker_birth="1958">
+<speech id="ParlaMint-IS_2018-11-26-38.u1" text_id="ParlaMint-IS_2018-11-26-38" subcorpus="Reference" house="-" term="23" session="149" meeting="38" sitting="-" agenda="-" from="2018-11-26" to="2018-11-26" title="Speeches in the national parliament of Iceland, 23. term, regular meeting 149-38, 26.11.2018." speaker_role="Regular" speaker_id="JonValdimarsson" speaker_name="Valdimarsson, Jón Steindór" speaker_type="MP" speaker_party="V" speaker_party_name="Viðreisn" party_status="opposition" speaker_gender="M" speaker_birth="1958">
 <p id="ParlaMint-IS_2018-11-26-38.seg1" lang="">
 <s id="ParlaMint-IS_2018-11-26-38.seg1.1">
 Herra	Herra	herra	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	1	root	-	-	-	-
@@ -205,9 +204,7 @@ verður	verður	verða	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin
 “	“	“	PUNCT	-	27	punct	.	PUNCT	-	26
 </s>
 </p>
-<note type="kinesic:ringing">
-[Forseti hringir.]										
-</note>
+<note type="kinesic:ringing" content="Forseti hringir."/>
 <p id="ParlaMint-IS_2018-11-26-38.seg4" lang="">
 <s id="ParlaMint-IS_2018-11-26-38.seg4.1">
 Mér	Mér	ég	PRON	Case=Dat Number=Sing Person=1 PronType=Prs	1	nsubj	finna	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Mid	2
@@ -266,7 +263,7 @@ en	en	en	ADP	-	7	case	ég	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	8
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-IS_2018-11-26-38.u2" speaker_role="Regular" speaker_id="OddnyHardardottir" speaker_name="Harðardóttir, Oddný G." speaker_type="MP" speaker_party="Sf" speaker_party_name="Samfylking" party_status="opposition" speaker_gender="F" speaker_birth="1957">
+<speech id="ParlaMint-IS_2018-11-26-38.u2" text_id="ParlaMint-IS_2018-11-26-38" subcorpus="Reference" house="-" term="23" session="149" meeting="38" sitting="-" agenda="-" from="2018-11-26" to="2018-11-26" title="Speeches in the national parliament of Iceland, 23. term, regular meeting 149-38, 26.11.2018." speaker_role="Regular" speaker_id="OddnyHardardottir" speaker_name="Harðardóttir, Oddný G." speaker_type="MP" speaker_party="Sf" speaker_party_name="Samfylking" party_status="opposition" speaker_gender="F" speaker_birth="1957">
 <p id="ParlaMint-IS_2018-11-26-38.seg5" lang="">
 <s id="ParlaMint-IS_2018-11-26-38.seg5.1">
 Herra	Herra	herra	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	1	root	-	-	-	-
@@ -431,10 +428,8 @@ lotu	lotu	lota	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Sing	21	obl	búinn	V
 </s>
 </p>
 </speech>
-<note type="gap::editorial">
-[SAMPLING]										
-</note>
-<speech id="ParlaMint-IS_2018-11-26-38.u259" speaker_role="Regular" speaker_id="JonValdimarsson" speaker_name="Valdimarsson, Jón Steindór" speaker_type="MP" speaker_party="V" speaker_party_name="Viðreisn" party_status="opposition" speaker_gender="M" speaker_birth="1958">
+<note type="gap::editorial" content="SAMPLING"/>
+<speech id="ParlaMint-IS_2018-11-26-38.u259" text_id="ParlaMint-IS_2018-11-26-38" subcorpus="Reference" house="-" term="23" session="149" meeting="38" sitting="-" agenda="-" from="2018-11-26" to="2018-11-26" title="Speeches in the national parliament of Iceland, 23. term, regular meeting 149-38, 26.11.2018." speaker_role="Regular" speaker_id="JonValdimarsson" speaker_name="Valdimarsson, Jón Steindór" speaker_type="MP" speaker_party="V" speaker_party_name="Viðreisn" party_status="opposition" speaker_gender="M" speaker_birth="1958">
 <p id="ParlaMint-IS_2018-11-26-38.seg795" lang="">
 <s id="ParlaMint-IS_2018-11-26-38.seg795.1">
 Virðulegur	Virðulegur	virðulegur	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing	1	amod	forseti	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	2
@@ -754,7 +749,7 @@ til	til	til	ADP	-	27	compound:prt	leggja	VERB	VerbForm=Inf Voice=Act	26
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-IS_2018-11-26-38.u260" speaker_role="Regular" speaker_id="OddnyHardardottir" speaker_name="Harðardóttir, Oddný G." speaker_type="MP" speaker_party="Sf" speaker_party_name="Samfylking" party_status="opposition" speaker_gender="F" speaker_birth="1957">
+<speech id="ParlaMint-IS_2018-11-26-38.u260" text_id="ParlaMint-IS_2018-11-26-38" subcorpus="Reference" house="-" term="23" session="149" meeting="38" sitting="-" agenda="-" from="2018-11-26" to="2018-11-26" title="Speeches in the national parliament of Iceland, 23. term, regular meeting 149-38, 26.11.2018." speaker_role="Regular" speaker_id="OddnyHardardottir" speaker_name="Harðardóttir, Oddný G." speaker_type="MP" speaker_party="Sf" speaker_party_name="Samfylking" party_status="opposition" speaker_gender="F" speaker_birth="1957">
 <p id="ParlaMint-IS_2018-11-26-38.seg800" lang="">
 <s id="ParlaMint-IS_2018-11-26-38.seg800.1">
 Herra	Herra	herra	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	1	root	-	-	-	-
@@ -1019,9 +1014,7 @@ svona	svona	svona	ADV	-	20	advmod	láta	VERB	Mood=Ind Number=Sing Person=1 Tense
 <g/>
 .	.	.	PUNCT	-	21	punct	svona	ADV	-	20
 </s>
-<note type="vocal:interruption">
-[Gripið fram í.]										
-</note>
+<note type="vocal:interruption" content="Gripið fram í."/>
 <s id="ParlaMint-IS_2018-11-26-38.seg802.3">
 Það	Það	það	PRON	Case=Nom Gender=Neut Number=Sing PronType=Prs	1	root	-	-	-	-
 er	er	vera	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	cop	það	PRON	Case=Nom Gender=Neut Number=Sing PronType=Prs	1
@@ -1066,4 +1059,3 @@ stefnu	stefnu	stefna	NOUN	Case=Acc Definite=Ind Gender=Fem Number=Sing	29	obj	ta
 </s>
 </p>
 </speech>
-</text>

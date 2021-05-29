@@ -9,8 +9,8 @@
             <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT [ParlaMint.ana SAMPLE]</title>
             <title type="sub" xml:lang="it">Resoconti del Senato della Repubblica italiana, legislature XVII e XVIII (2013 - 2020)</title>
             <title type="sub" xml:lang="en">Minutes of the Senate of the Italian Republic, terms 17 and 18 (2013 - 2020)</title>
-            <meeting ana="#parla.term #LEG.17" corresp="#LEG" n="17">XVII Legislatura</meeting>
-            <meeting ana="#parla.term #LEG.18" corresp="#LEG" n="18">XVIII Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.17" corresp="#LEG" n="17">XVII Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.18" corresp="#LEG" n="18">XVIII Legislatura</meeting>
             <respStmt>
                <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
                <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
@@ -56,7 +56,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>2.0</edition>
+            <edition>2.1</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure quantity="214300" unit="speeches" xml:lang="it">214.300 discorsi</measure>
@@ -70,13 +70,13 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1405</idno>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1431</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2021-05-08">2021-05-08</date>
+            <date when="2021-05-27">2021-05-27</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -88,7 +88,7 @@
             <bibl>
                <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT [ParlaMint]</title>
                <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT [ParlaMint]</title>
-               <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1388</idno>
+               <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1431</idno>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -643,6 +643,9 @@
                <date from="2013-03-15" to="2020-11-18">15.3.2013 - 18.11.2020</date>
             </setting>
          </settingDesc>
+         <textClass>
+            <catRef scheme="#parla.legislature" target="#parla.bi #parla.upper"/>
+         </textClass>
          <particDesc>
             <listOrg>
                <org ana="#parla.national #parla.upper" role="parliament" xml:id="LEG">

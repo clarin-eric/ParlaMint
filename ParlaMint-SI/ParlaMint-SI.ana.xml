@@ -9,8 +9,8 @@
             <title type="main" xml:lang="en">Slovenian parliamentary corpus ParlaMint-SI [ParlaMint.ana SAMPLE]</title>
             <title type="sub" xml:lang="sl">Zapisi sej Državnega zbora Republike Slovenije, 7. in 8. mandat (2014 - 2020)</title>
             <title type="sub" xml:lang="en">Minutes of the National Assembly of the Republic of Slovenia, Term 7 and 8 (2014 - 2020)</title>
-            <meeting n="7" corresp="#DZ" ana="#parla.term #DZ.7">7. mandat</meeting>
-            <meeting n="8" corresp="#DZ" ana="#parla.term #DZ.8">8. mandat</meeting>
+            <meeting n="7" corresp="#DZ" ana="#parla.lower #parla.term #DZ.7">7. mandat</meeting>
+            <meeting n="8" corresp="#DZ" ana="#parla.lower #parla.term #DZ.8">8. mandat</meeting>
             <respStmt>
                <persName ref="https://orcid.org/0000-0001-6143-6877">Andrej Pančur</persName>
                <persName ref="https://orcid.org/0000-0002-1560-4099">Tomaž Erjavec</persName>
@@ -36,7 +36,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>2.0</edition>
+            <edition>2.1</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="75122" xml:lang="sl">75.122 govorov</measure>
@@ -50,13 +50,13 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1405</idno>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1431</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="sl">To delo je ponujeno pod <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Priznanje avtorstva 4.0 mednarodna licenca</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2021-05-11">2021-05-11</date>
+            <date when="2021-05-28">2021-05-28</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -630,6 +630,9 @@
                <date from="2014-08-01" to="2020-07-16">1.8.2014 - 16.7.2020</date>
             </setting>
          </settingDesc>
+         <textClass>
+            <catRef scheme="#parla.legislature" target="#parla.bi #parla.lower"/>
+         </textClass>
          <particDesc>
             <listOrg>
                <org xml:id="DZ" role="parliament" ana="#parla.national #parla.lower">
@@ -5872,9 +5875,9 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-05-11">
+         <change when="2021-05-28">
             <name>Tomaž Erjavec</name>: Made sample.</change>
-         <change when="2021-05-11">
+         <change when="2021-05-28">
             <name>Tomaž Erjavec</name>: Finalize encoding.</change>
       </revisionDesc>
    </teiHeader>

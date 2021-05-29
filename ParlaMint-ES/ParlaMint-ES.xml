@@ -7,11 +7,11 @@
             <title type="main" xml:lang="en">Spanish parliamentary corpus ParlaMint-ES [ParlaMint SAMPLE]</title>
             <title type="sub" xml:lang="es">Actas del Congreso de los Diputados de España, legislaturas XI-XII (2015 - 2020)</title>
             <title type="sub" xml:lang="en">Minutes from the National Congress in Spain, terms 10-14 (2015 - 2020)</title>
-            <meeting n="10" corresp="#CD" ana="#parla.term #CD.10">Term 10</meeting>
-            <meeting n="11" corresp="#CD" ana="#parla.term #CD.11">Term 11</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Term 12</meeting>
-            <meeting n="13" corresp="#CD" ana="#parla.term #CD.13">Term 13</meeting>
-            <meeting n="14" corresp="#CD" ana="#parla.term #CD.14">Term 14</meeting>
+            <meeting n="10" corresp="#CD" ana="#parla.lower #parla.term #CD.10">Term 10</meeting>
+            <meeting n="11" corresp="#CD" ana="#parla.lower #parla.term #CD.11">Term 11</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Term 12</meeting>
+            <meeting n="13" corresp="#CD" ana="#parla.lower #parla.term #CD.13">Term 13</meeting>
+            <meeting n="14" corresp="#CD" ana="#parla.lower #parla.term #CD.14">Term 14</meeting>
             <respStmt>
                <persName ref="https://orcid.org/0000-0003-0830-4837">María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
@@ -30,7 +30,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>2.0</edition>
+            <edition>2.1</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="49919" xml:lang="es">49,919 intervenciones</measure>
@@ -44,13 +44,13 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="es">Este trabajo se encuentra protegido por la licencia <ref target="https://creativecommons.org/licenses/by/4.0/">Atribución 4.0 Internacional</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2021-05-07">2021-05-07</date>
+            <date when="2021-05-26">2021-05-26</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -411,6 +411,9 @@
                <date from="2015-01-20" to="2020-12-15">20.1.2015 - 15.12.2020</date>
             </setting>
          </settingDesc>
+         <textClass>
+            <catRef scheme="#parla.legislature" target="#parla.bi #parla.lower"/>
+         </textClass>
          <particDesc>
             <listOrg>
                <org xml:id="CD" role="parliament" ana="#parla.national #parla.lower">
@@ -11003,9 +11006,9 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-05-07">
+         <change when="2021-05-26">
             <name>Tomaž Erjavec</name>: Made sample.</change>
-         <change when="2021-05-06">
+         <change when="2021-05-26">
             <name>Tomaž Erjavec</name>: Finalize encoding.</change>
       </revisionDesc>
    </teiHeader>

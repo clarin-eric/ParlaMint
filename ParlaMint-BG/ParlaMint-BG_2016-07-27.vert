@@ -1,5 +1,4 @@
-<text id="ParlaMint-BG_2016-07-27.ana" subcorpus="Reference" term="43" session="6" meeting="224" sitting="-" agenda="-" from="2016-07-27" to="2016-07-27" title="Report of the meeting of the Bulgarian National Assembly, Term 43, Session 6, Meeting 224 (2016-07-27)">
-<speech id="ParlaMint-BG_2016-07-27.u1" speaker_role="Chairperson" speaker_id="TsachevaTsetska" speaker_name="Цачева, Цецка" speaker_type="notMP" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="F" speaker_birth="1958">
+<speech id="ParlaMint-BG_2016-07-27.u1" text_id="ParlaMint-BG_2016-07-27" subcorpus="Reference" house="-" term="43" session="6" meeting="224" sitting="-" agenda="-" from="2016-07-27" to="2016-07-27" title="Report of the meeting of the Bulgarian National Assembly, Term 43, Session 6, Meeting 224 (2016-07-27)" speaker_role="Chairperson" speaker_id="TsachevaTsetska" speaker_name="Цачева, Цецка" speaker_type="notMP" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="F" speaker_birth="1958">
 <p id="ParlaMint-BG_2016-07-27.seg1" lang="Bulgarian">
 <s id="ParlaMint-BG_2016-07-27.seg1.1">
 Налице	Налице	налице	ADV	Degree=Pos	1	root	-	-	-	-
@@ -18,9 +17,7 @@
 .	.	.	PUNCT	-	4	punct	откривам-(се)	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<note type="vocal:laughter">
-[Звъни. Смях, оживление, единични ръкопляскания.]										
-</note>
+<note type="vocal:laughter" content="Звъни. Смях, оживление, единични ръкопляскания."/>
 <p id="ParlaMint-BG_2016-07-27.seg3" lang="Bulgarian">
 <s id="ParlaMint-BG_2016-07-27.seg3.1">
 Уважаеми	Уважаеми	уважаем	ADJ	Definite=Ind Degree=Pos Number=Plur	1	amod	представител	NOUN	Definite=Ind Gender=Masc Number=Plur	3
@@ -1748,7 +1745,7 @@
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-BG_2016-07-27.u2" speaker_role="Regular" speaker_id="StoyanovaMenda" speaker_name="Кирилова Стоянова, Менда" speaker_type="MP" speaker_party="ГЕРБ" speaker_party_name="Граждани за европейско развитие на България" party_status="coalition" speaker_gender="F" speaker_birth="1956">
+<speech id="ParlaMint-BG_2016-07-27.u2" text_id="ParlaMint-BG_2016-07-27" subcorpus="Reference" house="-" term="43" session="6" meeting="224" sitting="-" agenda="-" from="2016-07-27" to="2016-07-27" title="Report of the meeting of the Bulgarian National Assembly, Term 43, Session 6, Meeting 224 (2016-07-27)" speaker_role="Regular" speaker_id="StoyanovaMenda" speaker_name="Кирилова Стоянова, Менда" speaker_type="MP" speaker_party="ГЕРБ" speaker_party_name="Граждани за европейско развитие на България" party_status="coalition" speaker_gender="F" speaker_birth="1956">
 <p id="ParlaMint-BG_2016-07-27.seg39" lang="Bulgarian">
 <s id="ParlaMint-BG_2016-07-27.seg39.1">
 Благодаря	Благодаря	благодаря	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
@@ -3627,10 +3624,8 @@
 </s>
 </p>
 </speech>
-<note type="gap::editorial">
-[SAMPLING]										
-</note>
-<speech id="ParlaMint-BG_2016-07-27.u304" speaker_role="Regular" speaker_id="KirilovDanail" speaker_name="Димитров Кирилов, Данаил" speaker_type="notMP" speaker_party="ГЕРБ" speaker_party_name="Граждани за европейско развитие на България" party_status="coalition" speaker_gender="M" speaker_birth="1970">
+<note type="gap::editorial" content="SAMPLING"/>
+<speech id="ParlaMint-BG_2016-07-27.u304" text_id="ParlaMint-BG_2016-07-27" subcorpus="Reference" house="-" term="43" session="6" meeting="224" sitting="-" agenda="-" from="2016-07-27" to="2016-07-27" title="Report of the meeting of the Bulgarian National Assembly, Term 43, Session 6, Meeting 224 (2016-07-27)" speaker_role="Regular" speaker_id="KirilovDanail" speaker_name="Димитров Кирилов, Данаил" speaker_type="notMP" speaker_party="ГЕРБ" speaker_party_name="Граждани за европейско развитие на България" party_status="coalition" speaker_gender="M" speaker_birth="1970">
 <p id="ParlaMint-BG_2016-07-27.seg1853" lang="Bulgarian">
 <s id="ParlaMint-BG_2016-07-27.seg1853.1">
 Да	Да	да	INTJ	-	1	discourse	подкрепя	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	4
@@ -3671,7 +3666,7 @@
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-BG_2016-07-27.u305" speaker_role="Chairperson" speaker_id="TsachevaTsetska" speaker_name="Цачева, Цецка" speaker_type="notMP" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="F" speaker_birth="1958">
+<speech id="ParlaMint-BG_2016-07-27.u305" text_id="ParlaMint-BG_2016-07-27" subcorpus="Reference" house="-" term="43" session="6" meeting="224" sitting="-" agenda="-" from="2016-07-27" to="2016-07-27" title="Report of the meeting of the Bulgarian National Assembly, Term 43, Session 6, Meeting 224 (2016-07-27)" speaker_role="Chairperson" speaker_id="TsachevaTsetska" speaker_name="Цачева, Цецка" speaker_type="notMP" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="F" speaker_birth="1958">
 <p id="ParlaMint-BG_2016-07-27.seg1855" lang="Bulgarian">
 <s id="ParlaMint-BG_2016-07-27.seg1855.1">
 Точно	Точно	точно	ADV	Degree=Pos	1	advmod	така	ADV	PronType=Dem	2
@@ -3877,8 +3872,5 @@
 .	.	.	PUNCT	-	3	punct	закривам	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<note type="kinesic:ringing">
-[Звъни.]										
-</note>
+<note type="kinesic:ringing" content="Звъни."/>
 </speech>
-</text>

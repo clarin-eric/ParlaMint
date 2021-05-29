@@ -29,7 +29,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>2.0</edition>
+            <edition>2.1</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="words" quantity="23660386" xml:lang="en">23,660,386 words</measure>
@@ -41,13 +41,13 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1405</idno>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1431</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="is">Þessi texti er gefinn út með <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2021-05-11">2021-05-11</date>
+            <date when="2021-05-27">2021-05-27</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -201,24 +201,29 @@
                            <term>Sameinað þing</term>
                         </catDesc>
                         <catDesc xml:lang="en">
-                           <term>Unified Chamber</term>
+                           <term>Unicameralism</term>
                         </catDesc>
                      </category>
-                     <category xml:id="parla.upper">
-                        <catDesc xml:lang="is">
-                           <term>Efri deild</term>
-                        </catDesc>
+                     <category xml:id="parla.bi">
                         <catDesc xml:lang="en">
-                           <term>Upper Chamber</term>
+                           <term>Bicameralism</term>
                         </catDesc>
-                     </category>
-                     <category xml:id="parla.lower">
-                        <catDesc xml:lang="is">
-                           <term>Neðri deild</term>
-                        </catDesc>
-                        <catDesc xml:lang="en">
-                           <term>Lower Chamber</term>
-                        </catDesc>
+                        <category xml:id="parla.upper">
+                           <catDesc xml:lang="is">
+                              <term>Efri deild</term>
+                           </catDesc>
+                           <catDesc xml:lang="en">
+                              <term>Upper house</term>
+                           </catDesc>
+                        </category>
+                        <category xml:id="parla.lower">
+                           <catDesc xml:lang="is">
+                              <term>Neðri deild</term>
+                           </catDesc>
+                           <catDesc xml:lang="en">
+                              <term>Lower house</term>
+                           </catDesc>
+                        </category>
                      </category>
                   </category>
                </category>
@@ -11509,6 +11514,9 @@
                <date from="2015-01-01" to="2020-09-30"/>
             </setting>
          </settingDesc>
+         <textClass>
+            <catRef scheme="#parla.legislature" target="#parla.uni"/>
+         </textClass>
          <particDesc>
             <listOrg>
                <org xml:id="GOV_LV" role="government">

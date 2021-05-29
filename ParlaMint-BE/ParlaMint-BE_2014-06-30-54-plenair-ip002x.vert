@@ -1,8 +1,5 @@
-<text id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.ana" subcorpus="Reference" term="54" session="-" meeting="ip002" sitting="-" agenda="-" from="2014-06-30" to="2014-06-30" title="Belgisch parlementair corpus ParlaMint-BE, plenaire zitting van 30-06-2014 [ParlaMint.ana SAMPLE]">
-<speech id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.u1" speaker_role="Chairperson" speaker_id="FlahautAndré" speaker_name="Flahaut, André" speaker_type="MP" speaker_party="PS" speaker_party_name="Parti Socialiste" party_status="-" speaker_gender="M" speaker_birth="1955">
-<note type="-">
-[De voorzitter:]										
-</note>
+<speech id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.u1" text_id="ParlaMint-BE_2014-06-30-54-plenair-ip002x" subcorpus="Reference" house="Lower house" term="54" session="-" meeting="ip002" sitting="-" agenda="-" from="2014-06-30" to="2014-06-30" title="Belgisch parlementair corpus ParlaMint-BE, plenaire zitting van 30-06-2014" speaker_role="Chairperson" speaker_id="FlahautAndré" speaker_name="Flahaut, André" speaker_type="MP" speaker_party="PS" speaker_party_name="Parti Socialiste" party_status="-" speaker_gender="M" speaker_birth="1955">
+<note type="-" content="De voorzitter:"/>
 <p id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.seg1" lang="Dutch">
 <s id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.s6">
 De	De	de	DET	Definite=Def	w70	det	vergadering	NOUN	Gender=Com Number=Sing	w71
@@ -24,7 +21,7 @@ ouverte	ouverte	ouvrir	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	w77	
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.u2" speaker_role="Chairperson" speaker_id="FlahautAndré" speaker_name="Flahaut, André" speaker_type="MP" speaker_party="PS" speaker_party_name="Parti Socialiste" party_status="-" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.u2" text_id="ParlaMint-BE_2014-06-30-54-plenair-ip002x" subcorpus="Reference" house="Lower house" term="54" session="-" meeting="ip002" sitting="-" agenda="-" from="2014-06-30" to="2014-06-30" title="Belgisch parlementair corpus ParlaMint-BE, plenaire zitting van 30-06-2014" speaker_role="Chairperson" speaker_id="FlahautAndré" speaker_name="Flahaut, André" speaker_type="MP" speaker_party="PS" speaker_party_name="Parti Socialiste" party_status="-" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.seg3" lang="Dutch">
 <s id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.s24">
 Aan	Aan	aan	ADP	-	w201	case	orde	NOUN	Gender=Com Number=Sing	w203
@@ -724,9 +721,7 @@ observation	observation	observation	NOUN	Gender=Fem Number=Sing	pc114	root	-	-	-
 <g/>
 ?	?	?	PUNCT	-	pc113	punct	observation	NOUN	Gender=Fem Number=Sing	pc114
 </s>
-<note type="answer">
-[(Non)]										
-</note>
+<note type="answer" content="(Non)"/>
 </p>
 <p id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.seg32" lang="French">
 <s id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.s57">
@@ -739,10 +734,8 @@ ainsi	ainsi	ainsi	ADV	-	w621	advmod	être	VERB	Mood=Ind Number=Sing Person=3 Ten
 </s>
 </p>
 </speech>
-<note type="gap::editorial">
-[SAMPLING]										
-</note>
-<speech id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.u77" speaker_role="Chairperson" speaker_id="FlahautAndré" speaker_name="Flahaut, André" speaker_type="MP" speaker_party="PS" speaker_party_name="Parti Socialiste" party_status="-" speaker_gender="M" speaker_birth="1955">
+<note type="gap::editorial" content="SAMPLING"/>
+<speech id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.u77" text_id="ParlaMint-BE_2014-06-30-54-plenair-ip002x" subcorpus="Reference" house="Lower house" term="54" session="-" meeting="ip002" sitting="-" agenda="-" from="2014-06-30" to="2014-06-30" title="Belgisch parlementair corpus ParlaMint-BE, plenaire zitting van 30-06-2014" speaker_role="Chairperson" speaker_id="FlahautAndré" speaker_name="Flahaut, André" speaker_type="MP" speaker_party="PS" speaker_party_name="Parti Socialiste" party_status="-" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.seg538" lang="Dutch">
 <s id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.s781">
 Bij	Bij	bij	ADP	-	w8544	case	brief	NOUN	Gender=Com Number=Sing	w8545
@@ -841,7 +834,7 @@ collega’s	collega’s	collega’s	NOUN	Number=Plur	w8610	parataxis	worden	VERB
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.u78" speaker_role="Chairperson" speaker_id="FlahautAndré" speaker_name="Flahaut, André" speaker_type="MP" speaker_party="PS" speaker_party_name="Parti Socialiste" party_status="-" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.u78" text_id="ParlaMint-BE_2014-06-30-54-plenair-ip002x" subcorpus="Reference" house="Lower house" term="54" session="-" meeting="ip002" sitting="-" agenda="-" from="2014-06-30" to="2014-06-30" title="Belgisch parlementair corpus ParlaMint-BE, plenaire zitting van 30-06-2014" speaker_role="Chairperson" speaker_id="FlahautAndré" speaker_name="Flahaut, André" speaker_type="MP" speaker_party="PS" speaker_party_name="Parti Socialiste" party_status="-" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.seg541" lang="Dutch">
 <s id="ParlaMint-BE_2014-06-30-54-plenair-ip002x.s786">
 Ik	Ik	ik	PRON	Case=Nom Person=1 PronType=Prs	w8617	nsubj	komen	VERB	VerbForm=Part	w8625
@@ -1024,4 +1017,3 @@ ultérieure	ultérieure	ultérieur	ADJ	Gender=Fem Number=Sing	w8729	amod	convoca
 </s>
 </p>
 </speech>
-</text>

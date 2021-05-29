@@ -1,14 +1,7 @@
-<text id="ParlaMint-PL_2017-02-21-senat-35-1.ana" subcorpus="Reference" term="9-upper" session="35-upper" meeting="-" sitting="1-upper" agenda="-" from="2017-02-21" to="2017-02-21" title="Report of the session of the Senat of the Republic of Poland, Term 9, Session 35, Day 1 (2017-02-21)">
-<note type="head">
-[35. posiedzenie Senatu RP 9. kadencji, dzień 1]										
-</note>
-<note type="time">
-[Początek posiedzenia o godzinie 11 minut 00]										
-</note>
-<note type="debate">
-[Posiedzeniu przewodniczą marszałek Stanisław Karczewski oraz wicemarszałkowie Maria Koc, Grzegorz Czelej i Adam Bielan]										
-</note>
-<speech id="ParlaMint-PL_2017-02-21-senat-35-1.u1" speaker_role="Chairperson" speaker_id="KuchcińskiMarek" speaker_name="Kuchciński, Marek" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="coalition" speaker_gender="M" speaker_birth="1955">
+<note type="head" content="35. posiedzenie Senatu RP 9. kadencji, dzień 1"/>
+<note type="time" content="Początek posiedzenia o godzinie 11 minut 00"/>
+<note type="debate" content="Posiedzeniu przewodniczą marszałek Stanisław Karczewski oraz wicemarszałkowie Maria Koc, Grzegorz Czelej i Adam Bielan"/>
+<speech id="ParlaMint-PL_2017-02-21-senat-35-1.u1" text_id="ParlaMint-PL_2017-02-21-senat-35-1" subcorpus="Reference" house="Upper house" term="9-upper" session="35-upper" meeting="-" sitting="1-upper" agenda="-" from="2017-02-21" to="2017-02-21" title="Report of the session of the Senat of the Republic of Poland, Term 9, Session 35, Day 1 (2017-02-21)" speaker_role="Chairperson" speaker_id="KuchcińskiMarek" speaker_name="Kuchciński, Marek" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="coalition" speaker_gender="M" speaker_birth="1955">
 <p id="seg635541" lang="Polish">
 <s id="seg635541.1">
 Otwieram	Otwieram	otwierać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
@@ -26,9 +19,7 @@ kadencji	kadencji	kadencja	NOUN	Case=Gen Gender=Fem Number=Sing	9	nmod	senat	NOU
 .	.	.	PUNCT	PunctType=Peri	10	punct	otwierać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<note type="kinesic:signal">
-[Marszałek trzykrotnie uderza laską marszałkowską]										
-</note>
+<note type="kinesic:signal" content="Marszałek trzykrotnie uderza laską marszałkowską"/>
 <p id="seg635542" lang="Polish">
 <s id="seg635542.1">
 Na	Na	na	ADP	AdpType=Prep	1	case	sekretarz	NOUN	Animacy=Hum Case=Acc Gender=Masc Number=Plur	2
@@ -97,9 +88,7 @@ witam	witam	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres Verb
 …	…	…	PUNCT	PunctType=Excl	19	punct	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	18
 </s>
 </p>
-<note type="kinesic:applause">
-[oklaski]										
-</note>
+<note type="kinesic:applause" content="oklaski"/>
 <p id="seg635544" lang="Polish">
 <s id="seg635544.1">
 …	…	…	PUNCT	PunctType=Dash	1	punct	delegacja	NOUN	Case=Ins Gender=Fem Number=Sing	6
@@ -145,9 +134,7 @@ serdecznie	serdecznie	serdecznie	ADV	Degree=Pos	3	advmod	witać	VERB	Aspect=Imp 
 .	.	.	PUNCT	PunctType=Peri	4	punct	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<note type="kinesic:applause">
-[Oklaski]										
-</note>
+<note type="kinesic:applause" content="Oklaski"/>
 <p id="seg635545" lang="Polish">
 <s id="seg635545.1">
 Pan	Pan	pan	NOUN	Animacy=Hum Case=Nom Gender=Masc Number=Sing	1	nsubj	przebywać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	6
@@ -960,7 +947,7 @@ Senatu	Senatu	senat	PROPN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	41	nmod	
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-PL_2017-02-21-senat-35-1.u2" speaker_role="Regular" speaker_id="FedorowiczJerzy" speaker_name="Fedorowicz, Jerzy" speaker_type="MP" speaker_party="KO" speaker_party_name="Klub Parlamentarny Koalicja Obywatelska - Platforma Obywatelska, Nowoczesna, Inicjatywa Polska, Zieloni" party_status="opposition" speaker_gender="M" speaker_birth="1947">
+<speech id="ParlaMint-PL_2017-02-21-senat-35-1.u2" text_id="ParlaMint-PL_2017-02-21-senat-35-1" subcorpus="Reference" house="Upper house" term="9-upper" session="35-upper" meeting="-" sitting="1-upper" agenda="-" from="2017-02-21" to="2017-02-21" title="Report of the session of the Senat of the Republic of Poland, Term 9, Session 35, Day 1 (2017-02-21)" speaker_role="Regular" speaker_id="FedorowiczJerzy" speaker_name="Fedorowicz, Jerzy" speaker_type="MP" speaker_party="KO" speaker_party_name="Klub Parlamentarny Koalicja Obywatelska - Platforma Obywatelska, Nowoczesna, Inicjatywa Polska, Zieloni" party_status="opposition" speaker_gender="M" speaker_birth="1947">
 <p id="seg635560" lang="Polish">
 <s id="seg635560.1">
 (	(	(	PUNCT	PunctSide=Ini PunctType=Brck	1	punct	kiedy	ADV	PronType=Int	4
@@ -975,10 +962,8 @@ kiedy	kiedy	kiedy	ADV	PronType=Int	4	root	-	-	-	-
 </s>
 </p>
 </speech>
-<note type="gap::editorial">
-[SAMPLING]										
-</note>
-<speech id="ParlaMint-PL_2017-02-21-senat-35-1.u210" speaker_role="Regular" speaker_id="StanisławekAndrzej" speaker_name="Stanisławek, Andrzej" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="coalition" speaker_gender="M" speaker_birth="1954">
+<note type="gap::editorial" content="SAMPLING"/>
+<speech id="ParlaMint-PL_2017-02-21-senat-35-1.u210" text_id="ParlaMint-PL_2017-02-21-senat-35-1" subcorpus="Reference" house="Upper house" term="9-upper" session="35-upper" meeting="-" sitting="1-upper" agenda="-" from="2017-02-21" to="2017-02-21" title="Report of the session of the Senat of the Republic of Poland, Term 9, Session 35, Day 1 (2017-02-21)" speaker_role="Regular" speaker_id="StanisławekAndrzej" speaker_name="Stanisławek, Andrzej" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="coalition" speaker_gender="M" speaker_birth="1954">
 <p id="seg636080" lang="Polish">
 <s id="seg636080.1">
 Panie	Panie	pan	NOUN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	1	vocative	-	-	-	-
@@ -2624,11 +2609,9 @@ bardzo	bardzo	bardzo	ADV	Degree=Pos	2	advmod	dziękować	VERB	Aspect=Imp Mood=In
 .	.	.	PUNCT	PunctType=Peri	3	punct	dziękować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<note type="kinesic:applause">
-[Oklaski]										
-</note>
+<note type="kinesic:applause" content="Oklaski"/>
 </speech>
-<speech id="ParlaMint-PL_2017-02-21-senat-35-1.u211" speaker_role="Chairperson" speaker_id="BielanAdam" speaker_name="Bielan, Adam" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="coalition" speaker_gender="M" speaker_birth="1974">
+<speech id="ParlaMint-PL_2017-02-21-senat-35-1.u211" text_id="ParlaMint-PL_2017-02-21-senat-35-1" subcorpus="Reference" house="Upper house" term="9-upper" session="35-upper" meeting="-" sitting="1-upper" agenda="-" from="2017-02-21" to="2017-02-21" title="Report of the session of the Senat of the Republic of Poland, Term 9, Session 35, Day 1 (2017-02-21)" speaker_role="Chairperson" speaker_id="BielanAdam" speaker_name="Bielan, Adam" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="coalition" speaker_gender="M" speaker_birth="1974">
 <p id="seg636090" lang="Polish">
 <s id="seg636090.1">
 Bardzo	Bardzo	bardzo	ADV	Degree=Pos	1	advmod	dziękować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
@@ -2757,8 +2740,5 @@ r	r	rok	X	Abbr=Yes Pun=Yes	4	nmod:flat	grudzień	NOUN	Case=Nom Gender=Masc Numbe
 .	.	.	PUNCT	PunctType=Peri	5	punct	grudzień	NOUN	Case=Nom Gender=Masc Number=Sing	2
 </s>
 </p>
-<note type="time">
-[Przerwa w posiedzeniu o godzinie 16 minut 45]										
-</note>
+<note type="time" content="Przerwa w posiedzeniu o godzinie 16 minut 45"/>
 </speech>
-</text>

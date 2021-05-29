@@ -40,7 +40,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>2.0</edition>
+            <edition>2.1</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="331044" xml:lang="pl">331.044 wypowiedzi</measure>
@@ -54,7 +54,7 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1405</idno>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1431</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="pl">Ten utwór jest dostępny na <ref target="http://creativecommons.org/licenses/by/4.0/">międzynarodowej licencji Creative Commons Attribution 4.0</ref>
@@ -62,7 +62,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-05-07">2021-05-07</date>
+            <date when="2021-05-28">2021-05-28</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -825,6 +825,10 @@
                <date from="2015-11-06" to="2020-08-18">12.11.2015 - 14.8.2020</date>
             </setting>
          </settingDesc>
+         <textClass>
+            <catRef scheme="#parla.legislature"
+                    target="#parla.bi #parla.lower #parla.upper"/>
+         </textClass>
          <particDesc>
             <listOrg>
                <org role="government" xml:id="government.PL">
@@ -6505,9 +6509,12 @@
                   </persName>
                   <birth when="1961-11-30">30.11.1961</birth>
                   <sex value="M">mężczyzna</sex>
-                  <affiliation role="member" ref="#party.PiS"/>
-                  <affiliation role="member" ref="#party.KO"/>
-                  <affiliation role="member" ref="#party.Niezrzeszeni"/>
+                  <affiliation role="member" ref="#party.KO" from="2015-11-12" to="2017-12-13"/>
+                  <affiliation role="member"
+                               ref="#party.Niezrzeszeni"
+                               from="2017-12-14"
+                               to="2017-12-18"/>
+                  <affiliation role="member" ref="#party.PiS" from="2017-12-19"/>
                   <affiliation role="MP"/>
                </person>
                <person xml:id="MisiłoPiotr">
@@ -7441,9 +7448,12 @@
                   </persName>
                   <birth when="1958-09-20">20.09.1958</birth>
                   <sex value="M">mężczyzna</sex>
-                  <affiliation role="member" ref="#party.PiS"/>
-                  <affiliation role="member" ref="#party.KO"/>
-                  <affiliation role="member" ref="#party.Niezrzeszeni"/>
+                  <affiliation role="member" ref="#party.KO" from="2015-11-12" to="2017-12-13"/>
+                  <affiliation role="member"
+                               ref="#party.Niezrzeszeni"
+                               from="2017-12-14"
+                               to="2017-12-18"/>
+                  <affiliation role="member" ref="#party.PiS" from="2017-12-19"/>
                   <affiliation role="MP"/>
                </person>
                <person xml:id="PiechotaSławomir">
@@ -11313,9 +11323,9 @@
          </langUsage>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2021-05-07">
+         <change when="2021-05-28">
             <name>Tomaž Erjavec</name>: Made sample.</change>
-         <change when="2021-05-06">
+         <change when="2021-05-28">
             <name>Tomaž Erjavec</name>: Finalize encoding.</change>
       </revisionDesc>
    </teiHeader>

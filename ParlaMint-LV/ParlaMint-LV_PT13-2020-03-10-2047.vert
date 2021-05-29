@@ -1,8 +1,5 @@
-<text id="ParlaMint-LV_PT13-2020-03-10-2047.ana" subcorpus="COVID" term="13" session="-" meeting="-" sitting="-" agenda="-" from="2020-03-10" to="2020-03-10" title="Latvijas parlamenta corpus ParlaMint-LV, 13. Saeima, 2020-03-10 [ParlaMint.ana SAMPLE]">
-<note type="speaker">
-[Sēdes vadītāja.]										
-</note>
-<speech id="ParlaMint-LV_PT13-2020-03-10-2047-U1" speaker_role="Chairperson" speaker_id="MūrnieceInāra" speaker_name="Mūrniece, Ināra" speaker_type="MP" speaker_party="NA" speaker_party_name="Nacionālā apvienība &#34;Visu Latvijai!&#34;–&#34;Tēvzemei un Brīvībai/LNNK&#34;" party_status="-" speaker_gender="F" speaker_birth="-">
+<note type="speaker" content="Sēdes vadītāja."/>
+<speech id="ParlaMint-LV_PT13-2020-03-10-2047-U1" text_id="ParlaMint-LV_PT13-2020-03-10-2047" subcorpus="COVID" house="-" term="13" session="-" meeting="-" sitting="-" agenda="-" from="2020-03-10" to="2020-03-10" title="Latvijas parlamenta corpus ParlaMint-LV, 13. Saeima, 2020-03-10" speaker_role="Chairperson" speaker_id="MūrnieceInāra" speaker_name="Mūrniece, Ināra" speaker_type="MP" speaker_party="NA" speaker_party_name="Nacionālā apvienība &#34;Visu Latvijai!&#34;–&#34;Tēvzemei un Brīvībai/LNNK&#34;" party_status="-" speaker_gender="F" speaker_birth="">
 <p id="ParlaMint-LV_PT13-2020-03-10-2047-U1-P1" lang="Latvian">
 <s id="ParlaMint-LV_PT13-2020-03-10-2047-U1-P1.1">
 Labrīt	Labrīt	labrīt	INTJ	-	1	root	-	-	-	-
@@ -61,10 +58,8 @@ Plešs	Plešs	Plešs	NOUN	Case=Nom Gender=Masc Number=Sing	10	flat:name	Toms	PRO
 </s>
 </p>
 </speech>
-<note type="speaker">
-[A. T. Plešs (AP!).]										
-</note>
-<speech id="ParlaMint-LV_PT13-2020-03-10-2047-U2" speaker_role="Regular" speaker_id="PlešsArtūrsToms" speaker_name="Plešs, Artūrs Toms" speaker_type="MP" speaker_party="AP" speaker_party_name="Attīstībai/Par!" party_status="-" speaker_gender="M" speaker_birth="-">
+<note type="speaker" content="A. T. Plešs (AP!)."/>
+<speech id="ParlaMint-LV_PT13-2020-03-10-2047-U2" text_id="ParlaMint-LV_PT13-2020-03-10-2047" subcorpus="COVID" house="-" term="13" session="-" meeting="-" sitting="-" agenda="-" from="2020-03-10" to="2020-03-10" title="Latvijas parlamenta corpus ParlaMint-LV, 13. Saeima, 2020-03-10" speaker_role="Regular" speaker_id="PlešsArtūrsToms" speaker_name="Plešs, Artūrs Toms" speaker_type="MP" speaker_party="AP" speaker_party_name="Attīstībai/Par!" party_status="-" speaker_gender="M" speaker_birth="">
 <p id="ParlaMint-LV_PT13-2020-03-10-2047-U2-P1" lang="Latvian">
 <s id="ParlaMint-LV_PT13-2020-03-10-2047-U2-P1.1">
 Labrīt	Labrīt	labrīt	INTJ	-	1	root	-	-	-	-
@@ -106,10 +101,8 @@ priekšlikums	priekšlikums	priekšlikums	NOUN	Case=Nom Gender=Masc Number=Sing	
 </s>
 </p>
 </speech>
-<note type="gap::editorial">
-[SAMPLING]										
-</note>
-<speech id="ParlaMint-LV_PT13-2020-03-10-2047-U503" speaker_role="Guest" speaker_id="GolubevaMarija" speaker_name="Golubeva, Marija" speaker_type="MP" speaker_party="AP" speaker_party_name="Attīstībai/Par!" party_status="-" speaker_gender="F" speaker_birth="-">
+<note type="gap::editorial" content="SAMPLING"/>
+<speech id="ParlaMint-LV_PT13-2020-03-10-2047-U503" text_id="ParlaMint-LV_PT13-2020-03-10-2047" subcorpus="COVID" house="-" term="13" session="-" meeting="-" sitting="-" agenda="-" from="2020-03-10" to="2020-03-10" title="Latvijas parlamenta corpus ParlaMint-LV, 13. Saeima, 2020-03-10" speaker_role="Guest" speaker_id="GolubevaMarija" speaker_name="Golubeva, Marija" speaker_type="MP" speaker_party="AP" speaker_party_name="Attīstībai/Par!" party_status="-" speaker_gender="F" speaker_birth="">
 <p id="ParlaMint-LV_PT13-2020-03-10-2047-U503-P1" lang="Latvian">
 <s id="ParlaMint-LV_PT13-2020-03-10-2047-U503-P1.1">
 Nav	Nav	nebūt	AUX	Evident=Fh Mood=Ind Person=3 Polarity=Neg Tense=Pres VerbForm=Fin Voice=Act	1	aux	reģistrēties	VERB	Aspect=Perf Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Plur Polarity=Pos Reflex=Yes Tense=Past VerbForm=Part	2
@@ -213,10 +206,8 @@ Paldies	Paldies	paldies	INTJ	-	1	root	-	-	-	-
 </s>
 </p>
 </speech>
-<note type="speaker">
-[Sēdes vadītāja.]										
-</note>
-<speech id="ParlaMint-LV_PT13-2020-03-10-2047-U504" speaker_role="Chairperson" speaker_id="MūrnieceInāra" speaker_name="Mūrniece, Ināra" speaker_type="MP" speaker_party="NA" speaker_party_name="Nacionālā apvienība &#34;Visu Latvijai!&#34;–&#34;Tēvzemei un Brīvībai/LNNK&#34;" party_status="-" speaker_gender="F" speaker_birth="-">
+<note type="speaker" content="Sēdes vadītāja."/>
+<speech id="ParlaMint-LV_PT13-2020-03-10-2047-U504" text_id="ParlaMint-LV_PT13-2020-03-10-2047" subcorpus="COVID" house="-" term="13" session="-" meeting="-" sitting="-" agenda="-" from="2020-03-10" to="2020-03-10" title="Latvijas parlamenta corpus ParlaMint-LV, 13. Saeima, 2020-03-10" speaker_role="Chairperson" speaker_id="MūrnieceInāra" speaker_name="Mūrniece, Ināra" speaker_type="MP" speaker_party="NA" speaker_party_name="Nacionālā apvienība &#34;Visu Latvijai!&#34;–&#34;Tēvzemei un Brīvībai/LNNK&#34;" party_status="-" speaker_gender="F" speaker_birth="">
 <p id="ParlaMint-LV_PT13-2020-03-10-2047-U504-P1" lang="Latvian">
 <s id="ParlaMint-LV_PT13-2020-03-10-2047-U504-P1.1">
 Kolēģi	Kolēģi	kolēģis	NOUN	Case=Nom Gender=Masc Number=Plur	1	nsubj	turpināt	VERB	Evident=Fh Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Fut VerbForm=Fin Voice=Act	4
@@ -236,4 +227,3 @@ Pārtraukums	Pārtraukums	pārtraukums	NOUN	Case=Nom Gender=Masc Number=Sing	9	c
 </s>
 </p>
 </speech>
-</text>

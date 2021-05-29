@@ -1,11 +1,6 @@
-<text id="ParlaMint-DK_2016-11-11-20161-M15.ana" subcorpus="Reference" term="-" session="20161" meeting="-" sitting="15" agenda="-" from="2016-11-11" to="2016-11-11" title="Hansard of the session of the Danish Parliament (Folketinget), 20161, M15 (2016-11-11), final version">
-<note type="head">
-[Punkt 0]										
-</note>
-<note type="agendaItem">
-[2016-11-11-0]										
-</note>
-<speech id="ParlaMint-DK_20161111100007" speaker_role="Chairperson" speaker_id="KjærsgaardPia" speaker_name="Kjærsgaard, Pia" speaker_type="MP" speaker_party="DF" speaker_party_name="Dansk Folkeparti" party_status="-" speaker_gender="F" speaker_birth="1947">
+<note type="head" content="Punkt 0"/>
+<note type="agendaItem" content="2016-11-11-0"/>
+<speech id="ParlaMint-DK_20161111100007" text_id="ParlaMint-DK_2016-11-11-20161-M15" subcorpus="Reference" house="-" term="-" session="20161" meeting="-" sitting="15" agenda="-" from="2016-11-11" to="2016-11-11" title="Hansard of the session of the Danish Parliament (Folketinget), 20161, M15 (2016-11-11), final version" speaker_role="Chairperson" speaker_id="KjærsgaardPia" speaker_name="Kjærsgaard, Pia" speaker_type="MP" speaker_party="DF" speaker_party_name="Dansk Folkeparti" party_status="-" speaker_gender="F" speaker_birth="1947">
 <p id="ParlaMint-DK_20161111100007.seg1" lang="Danish">
 <s id="ParlaMint-DK_20161111100007.seg1.1">
 Mødet	Mødet	møde	NOUN	Definite=Def Gender=Neut Number=Sing	1	nsubj	åbne	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
@@ -299,16 +294,10 @@ folketingstidende.dk.	folketingstidende.dk.	folketingstidende.dk.	NOUN	Definite=
 </s>
 </p>
 </speech>
-<note type="gap::editorial">
-[SAMPLING]										
-</note>
-<note type="head">
-[1. behandling af L 45: Om hold af heste og om opbindingsperiode for gruppeopstaldede heste m.v.]										
-</note>
-<note type="agendaItem">
-[2016-11-11-1]										
-</note>
-<speech id="ParlaMint-DK_20161111100112" speaker_role="Chairperson" speaker_id="KjærsgaardPia" speaker_name="Kjærsgaard, Pia" speaker_type="MP" speaker_party="DF" speaker_party_name="Dansk Folkeparti" party_status="-" speaker_gender="F" speaker_birth="1947">
+<note type="gap::editorial" content="SAMPLING"/>
+<note type="head" content="1. behandling af L 45: Om hold af heste og om opbindingsperiode for gruppeopstaldede heste m.v."/>
+<note type="agendaItem" content="2016-11-11-1"/>
+<speech id="ParlaMint-DK_20161111100112" text_id="ParlaMint-DK_2016-11-11-20161-M15" subcorpus="Reference" house="-" term="-" session="20161" meeting="-" sitting="15" agenda="-" from="2016-11-11" to="2016-11-11" title="Hansard of the session of the Danish Parliament (Folketinget), 20161, M15 (2016-11-11), final version" speaker_role="Chairperson" speaker_id="KjærsgaardPia" speaker_name="Kjærsgaard, Pia" speaker_type="MP" speaker_party="DF" speaker_party_name="Dansk Folkeparti" party_status="-" speaker_gender="F" speaker_birth="1947">
 <p id="ParlaMint-DK_20161111100112.seg2" lang="Danish">
 <s id="ParlaMint-DK_20161111100112.seg2.1">
 Forhandlingen	Forhandlingen	forhandling	NOUN	Definite=Def Gender=Com Number=Sing	1	nsubj	åbne	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part	3
@@ -340,10 +329,8 @@ Værsgo	Værsgo	værsgo	INTJ	-	1	root	-	-	-	-
 </s>
 </p>
 </speech>
-<note type="gap::editorial">
-[SAMPLING]										
-</note>
-<speech id="ParlaMint-DK_20161111151753" speaker_role="Chairperson" speaker_id="KjærsgaardPia" speaker_name="Kjærsgaard, Pia" speaker_type="MP" speaker_party="DF" speaker_party_name="Dansk Folkeparti" party_status="-" speaker_gender="F" speaker_birth="1947">
+<note type="gap::editorial" content="SAMPLING"/>
+<speech id="ParlaMint-DK_20161111151753" text_id="ParlaMint-DK_2016-11-11-20161-M15" subcorpus="Reference" house="-" term="-" session="20161" meeting="-" sitting="15" agenda="-" from="2016-11-11" to="2016-11-11" title="Hansard of the session of the Danish Parliament (Folketinget), 20161, M15 (2016-11-11), final version" speaker_role="Chairperson" speaker_id="KjærsgaardPia" speaker_name="Kjærsgaard, Pia" speaker_type="MP" speaker_party="DF" speaker_party_name="Dansk Folkeparti" party_status="-" speaker_gender="F" speaker_birth="1947">
 <p id="ParlaMint-DK_20161111151753.seg408" lang="Danish">
 <s id="ParlaMint-DK_20161111151753.seg408.1">
 Tak	Tak	tak	NOUN	Definite=Ind Gender=Com Number=Sing	1	root	-	-	-	-
@@ -412,13 +399,9 @@ vedtaget	vedtaget	vedtage	VERB	Definite=Ind Number=Sing Tense=Past VerbForm=Part
 </s>
 </p>
 </speech>
-<note type="head">
-[Punkt 0]										
-</note>
-<note type="agendaItem">
-[2016-11-11-0]										
-</note>
-<speech id="ParlaMint-DK_20161111151807" speaker_role="Chairperson" speaker_id="KjærsgaardPia" speaker_name="Kjærsgaard, Pia" speaker_type="MP" speaker_party="DF" speaker_party_name="Dansk Folkeparti" party_status="-" speaker_gender="F" speaker_birth="1947">
+<note type="head" content="Punkt 0"/>
+<note type="agendaItem" content="2016-11-11-0"/>
+<speech id="ParlaMint-DK_20161111151807" text_id="ParlaMint-DK_2016-11-11-20161-M15" subcorpus="Reference" house="-" term="-" session="20161" meeting="-" sitting="15" agenda="-" from="2016-11-11" to="2016-11-11" title="Hansard of the session of the Danish Parliament (Folketinget), 20161, M15 (2016-11-11), final version" speaker_role="Chairperson" speaker_id="KjærsgaardPia" speaker_name="Kjærsgaard, Pia" speaker_type="MP" speaker_party="DF" speaker_party_name="Dansk Folkeparti" party_status="-" speaker_gender="F" speaker_birth="1947">
 <p id="ParlaMint-DK_20161111151807.seg409" lang="Danish">
 <s id="ParlaMint-DK_20161111151807.seg409.1">
 Der	Der	der	ADV	PartType=Inf	1	expl	være	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Act	2
@@ -497,4 +480,3 @@ alle	alle	al	ADJ	Degree=Pos Number=Plur	4	amod	weekend	NOUN	Definite=Ind Gender=
 </s>
 </p>
 </speech>
-</text>

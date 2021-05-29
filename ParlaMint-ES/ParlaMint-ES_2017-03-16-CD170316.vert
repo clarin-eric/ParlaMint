@@ -1,8 +1,5 @@
-<text id="ParlaMint-ES_2017-03-16-CD170316.ana" subcorpus="Reference" term="12" session="37" meeting="-" sitting="-" agenda="-" from="2017-03-16" to="2017-03-16" title="Plenary session 37 (2017-03-16)">
-<note type="head">
-[CONVALIDACIÓN O DEROGACIÓN DE REALES DECRETOS-LEYES - REAL DECRETO-LEY 4/2017, DE 24 DE FEBRERO, POR EL QUE SE MODIFICA EL RÉGIMEN DE LOS TRABAJADORES PARA LA PRESTACIÓN DEL SERVICIO PORTUARIO DE MANIPULACIÓN DE MERCANCÍAS DANDO CUMPLIMIENTO A LA SENTENCIA DEL TRIBUNAL DE JUSTICIA DE LA UNIÓN EUROPEA DE 11 DE DICIEMBRE DE 2014, RECAÍDA EN EL ASUNTO C-576/13]										
-</note>
-<speech id="ParlaMint-ES_2017-03-16-CD170316.u1" speaker_role="Chairman" speaker_id="-" speaker_name="-" speaker_type="-" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="-" speaker_birth="-">
+<note type="head" content="CONVALIDACIÓN O DEROGACIÓN DE REALES DECRETOS-LEYES - REAL DECRETO-LEY 4/2017, DE 24 DE FEBRERO, POR EL QUE SE MODIFICA EL RÉGIMEN DE LOS TRABAJADORES PARA LA PRESTACIÓN DEL SERVICIO PORTUARIO DE MANIPULACIÓN DE MERCANCÍAS DANDO CUMPLIMIENTO A LA SENTENCIA DEL TRIBUNAL DE JUSTICIA DE LA UNIÓN EUROPEA DE 11 DE DICIEMBRE DE 2014, RECAÍDA EN EL ASUNTO C-576/13"/>
+<speech id="ParlaMint-ES_2017-03-16-CD170316.u1" text_id="ParlaMint-ES_2017-03-16-CD170316" subcorpus="Reference" house="Lower house" term="12" session="37" meeting="-" sitting="-" agenda="-" from="2017-03-16" to="2017-03-16" title="Plenary session 37 (2017-03-16)" speaker_role="Chairman">
 <p id="ParlaMint-ES_2017-03-16-CD170316.u1.1" lang="Spanish">
 <s id="ParlaMint-ES_2017-03-16-CD170316.u1.1.1">
 <name type="ORG">
@@ -71,9 +68,7 @@ mercancías	mercancías	mercancía	NOUN	Gender=Fem Number=Plur	44	nmod	manipulac
 <g/>
 ...	...	.	PUNCT	PunctType=Comm	45	punct	comenzar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
 </s>
-<note type="-">
-[Rumores]										
-</note>
+<note type="-" content="Rumores"/>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u1.2.3">
 Señorías	Señorías	señoría	NOUN	Gender=Fem Number=Plur	1	dep	ocupar	VERB	Mood=Imp Number=Plur Person=3 VerbForm=Fin	3
 <g/>
@@ -201,7 +196,7 @@ Fomento	Fomento	Fomento	PROPN	-	20	nmod	ministro	NOUN	Gender=Masc Number=Sing	18
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-ES_2017-03-16-CD170316.u2" speaker_role="Regular" speaker_id="SernaÍñigo" speaker_name="Serna Hernáiz, Íñigo Joaquín" speaker_type="MP" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="M" speaker_birth="1971">
+<speech id="ParlaMint-ES_2017-03-16-CD170316.u2" text_id="ParlaMint-ES_2017-03-16-CD170316" subcorpus="Reference" house="Lower house" term="12" session="37" meeting="-" sitting="-" agenda="-" from="2017-03-16" to="2017-03-16" title="Plenary session 37 (2017-03-16)" speaker_role="Regular" speaker_id="SernaÍñigo" speaker_name="Serna Hernáiz, Íñigo Joaquín" speaker_type="MP" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="M" speaker_birth="1971">
 <p id="ParlaMint-ES_2017-03-16-CD170316.u2.1" lang="Spanish">
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.1.1">
 Muchas	Muchas	mucho	DET	Gender=Fem NumType=Card Number=Plur PronType=Ind	1	det	gracias	NOUN	Gender=Fem Number=Plur	2
@@ -8126,14 +8121,10 @@ legislatura	legislatura	legislatura	NOUN	Gender=Fem Number=Sing	39	obj	empezar	V
 ...	...	.	PUNCT	PunctType=Comm	41	punct	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	10
 </s>
 </p>
-<note type="-">
-[Rumores]										
-</note>
+<note type="-" content="Rumores"/>
 </speech>
-<note type="gap::editorial">
-[SAMPLING]										
-</note>
-<speech id="ParlaMint-ES_2017-03-16-CD170316.u111" speaker_role="Chairman" speaker_id="-" speaker_name="-" speaker_type="-" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="-" speaker_birth="-">
+<note type="gap::editorial" content="SAMPLING"/>
+<speech id="ParlaMint-ES_2017-03-16-CD170316.u111" text_id="ParlaMint-ES_2017-03-16-CD170316" subcorpus="Reference" house="Lower house" term="12" session="37" meeting="-" sitting="-" agenda="-" from="2017-03-16" to="2017-03-16" title="Plenary session 37 (2017-03-16)" speaker_role="Chairman">
 <p id="ParlaMint-ES_2017-03-16-CD170316.u111.1" lang="Spanish">
 <s id="ParlaMint-ES_2017-03-16-CD170316.u111.1.1">
 Pasamos	Pasamos	pasar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
@@ -8201,9 +8192,7 @@ votación	votación	votación	NOUN	Gender=Fem Number=Sing	3	nsubj	comenzar	VERB	
 <g/>
 .	.	.	PUNCT	PunctType=Peri	4	punct	comenzar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1
 </s>
-<note type="-">
-[Pausa]										
-</note>
+<note type="-" content="Pausa"/>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u111.2.3">
 Efectuada	Efectuada	efectuado	ADJ	Gender=Fem Number=Sing VerbForm=Part	1	advmod	dar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	5
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	votación	NOUN	Gender=Fem Number=Sing	3
@@ -8251,7 +8240,7 @@ abstenciones	abstenciones	abstención	NOUN	Gender=Fem Number=Plur	32	conj	voto	N
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-ES_2017-03-16-CD170316.u112" speaker_role="Chairman" speaker_id="-" speaker_name="-" speaker_type="-" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="-" speaker_birth="-">
+<speech id="ParlaMint-ES_2017-03-16-CD170316.u112" text_id="ParlaMint-ES_2017-03-16-CD170316" subcorpus="Reference" house="Lower house" term="12" session="37" meeting="-" sitting="-" agenda="-" from="2017-03-16" to="2017-03-16" title="Plenary session 37 (2017-03-16)" speaker_role="Chairman">
 <p id="ParlaMint-ES_2017-03-16-CD170316.u112.1" lang="Spanish">
 <s id="ParlaMint-ES_2017-03-16-CD170316.u112.1.1">
 Queda	Queda	quedar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
@@ -8285,4 +8274,3 @@ tarde	tarde	tarde	NOUN	Gender=Fem Number=Sing	6	nmod	uno	PRON	Gender=Fem Number=
 </s>
 </p>
 </speech>
-</text>

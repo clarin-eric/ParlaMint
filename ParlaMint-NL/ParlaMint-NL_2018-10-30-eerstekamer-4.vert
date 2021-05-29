@@ -1,8 +1,5 @@
-<text id="ParlaMint-NL_2018-10-30-eerstekamer-4.ana" subcorpus="Reference" term="35-upper" session="4" meeting="5" sitting="-" agenda="-" from="2018-10-30" to="2018-10-30" title="Report of the meeting of the Dutch Upper House, Meeting 5, Session 4 (2018-10-30)">
-<note type="-">
-[Herdenking W. Kok]										
-</note>
-<speech id="ParlaMint-NL_2018-10-30-eerstekamer-4.u1" speaker_role="Chairperson" speaker_id="AnkieBroekers-Knol" speaker_name="Broekers-Knol, Ankie" speaker_type="MP" speaker_party="VVD" speaker_party_name="Volkspartij voor Vrijheid en Democratie" party_status="coalition" speaker_gender="F" speaker_birth="-">
+<note type="-" content="Herdenking W. Kok"/>
+<speech id="ParlaMint-NL_2018-10-30-eerstekamer-4.u1" text_id="ParlaMint-NL_2018-10-30-eerstekamer-4" subcorpus="Reference" house="Upper house" term="35-upper" session="4" meeting="5" sitting="-" agenda="-" from="2018-10-30" to="2018-10-30" title="Report of the meeting of the Dutch Upper House, Meeting 5, Session 4 (2018-10-30)" speaker_role="Chairperson" speaker_id="AnkieBroekers-Knol" speaker_name="Broekers-Knol, Ankie" speaker_type="MP" speaker_party="VVD" speaker_party_name="Volkspartij voor Vrijheid en Democratie" party_status="coalition" speaker_gender="F" speaker_birth="">
 <p id="ParlaMint-NL_2018-10-30-eerstekamer-4.seg1" lang="">
 <s id="ParlaMint-NL_2018-10-30-eerstekamer-4.s1">
 Aan	Aan	aan	ADP	-	w3	case	orde	NOUN	Gender=Com Number=Sing	w5
@@ -1818,7 +1815,7 @@ minister-president	minister-president	minister-president	NOUN	Gender=Com Number=
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-NL_2018-10-30-eerstekamer-4.u2" speaker_role="Regular" speaker_id="MarkRutte" speaker_name="Rutte, Mark" speaker_type="MP" speaker_party="VVD" speaker_party_name="Volkspartij voor Vrijheid en Democratie" party_status="coalition" speaker_gender="M" speaker_birth="-">
+<speech id="ParlaMint-NL_2018-10-30-eerstekamer-4.u2" text_id="ParlaMint-NL_2018-10-30-eerstekamer-4" subcorpus="Reference" house="Upper house" term="35-upper" session="4" meeting="5" sitting="-" agenda="-" from="2018-10-30" to="2018-10-30" title="Report of the meeting of the Dutch Upper House, Meeting 5, Session 4 (2018-10-30)" speaker_role="Regular" speaker_id="MarkRutte" speaker_name="Rutte, Mark" speaker_type="MP" speaker_party="VVD" speaker_party_name="Volkspartij voor Vrijheid en Democratie" party_status="coalition" speaker_gender="M" speaker_birth="">
 <p id="ParlaMint-NL_2018-10-30-eerstekamer-4.seg18" lang="">
 <s id="ParlaMint-NL_2018-10-30-eerstekamer-4.s75">
 Mevrouw	Mevrouw	mevrouw	NOUN	Gender=Com Number=Sing	w1189	root	-	-	-	-
@@ -2844,10 +2841,8 @@ verlies	verlies	verlies	NOUN	Gender=Neut Number=Sing	w1872	nmod	verwerken	VERB	V
 </s>
 </p>
 </speech>
-<note type="gap::editorial">
-[SAMPLING]										
-</note>
-<speech id="ParlaMint-NL_2018-10-30-eerstekamer-4.u3" speaker_role="Chairperson" speaker_id="AnkieBroekers-Knol" speaker_name="Broekers-Knol, Ankie" speaker_type="MP" speaker_party="VVD" speaker_party_name="Volkspartij voor Vrijheid en Democratie" party_status="coalition" speaker_gender="F" speaker_birth="-">
+<note type="gap::editorial" content="SAMPLING"/>
+<speech id="ParlaMint-NL_2018-10-30-eerstekamer-4.u3" text_id="ParlaMint-NL_2018-10-30-eerstekamer-4" subcorpus="Reference" house="Upper house" term="35-upper" session="4" meeting="5" sitting="-" agenda="-" from="2018-10-30" to="2018-10-30" title="Report of the meeting of the Dutch Upper House, Meeting 5, Session 4 (2018-10-30)" speaker_role="Chairperson" speaker_id="AnkieBroekers-Knol" speaker_name="Broekers-Knol, Ankie" speaker_type="MP" speaker_party="VVD" speaker_party_name="Volkspartij voor Vrijheid en Democratie" party_status="coalition" speaker_gender="F" speaker_birth="">
 <p id="ParlaMint-NL_2018-10-30-eerstekamer-4.seg31" lang="">
 <s id="ParlaMint-NL_2018-10-30-eerstekamer-4.s125">
 Ik	Ik	ik	PRON	Case=Nom Person=1 PronType=Prs	w1873	nsubj	verzoek	VERB	Number=Sing Tense=Pres VerbForm=Fin	w1874
@@ -2866,10 +2861,8 @@ nemen	nemen	nemen	VERB	VerbForm=Inf	w1883	xcomp	verzoek	VERB	Number=Sing Tense=P
 </s>
 </p>
 </speech>
-<note type="-">
-[(De aanwezigen nemen enkele ogenblikken stilte in acht.)]										
-</note>
-<speech id="ParlaMint-NL_2018-10-30-eerstekamer-4.u4" speaker_role="Chairperson" speaker_id="AnkieBroekers-Knol" speaker_name="Broekers-Knol, Ankie" speaker_type="MP" speaker_party="VVD" speaker_party_name="Volkspartij voor Vrijheid en Democratie" party_status="coalition" speaker_gender="F" speaker_birth="-">
+<note type="-" content="(De aanwezigen nemen enkele ogenblikken stilte in acht.)"/>
+<speech id="ParlaMint-NL_2018-10-30-eerstekamer-4.u4" text_id="ParlaMint-NL_2018-10-30-eerstekamer-4" subcorpus="Reference" house="Upper house" term="35-upper" session="4" meeting="5" sitting="-" agenda="-" from="2018-10-30" to="2018-10-30" title="Report of the meeting of the Dutch Upper House, Meeting 5, Session 4 (2018-10-30)" speaker_role="Chairperson" speaker_id="AnkieBroekers-Knol" speaker_name="Broekers-Knol, Ankie" speaker_type="MP" speaker_party="VVD" speaker_party_name="Volkspartij voor Vrijheid en Democratie" party_status="coalition" speaker_gender="F" speaker_birth="">
 <p id="ParlaMint-NL_2018-10-30-eerstekamer-4.seg32" lang="">
 <s id="ParlaMint-NL_2018-10-30-eerstekamer-4.s127">
 Dank	Dank	dank	VERB	Gender=Com Number=Sing	w1892	root	-	-	-	-
@@ -2894,7 +2887,4 @@ uur	uur	uur	NOUN	Gender=Neut Number=Sing	w1904	fixed	15.00	NUM	-	w1903
 </s>
 </p>
 </speech>
-<note type="-">
-[De vergadering wordt van 13.15 uur tot 15.06 uur geschorst.]										
-</note>
-</text>
+<note type="-" content="De vergadering wordt van 13.15 uur tot 15.06 uur geschorst."/>

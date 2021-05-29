@@ -1,8 +1,5 @@
-<text id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.ana" subcorpus="Reference" term="ps2013" session="-" meeting="ps2013/044" sitting="ps2013/044/02" agenda="ps2013/044/162" from="2016-04-13" to="2016-04-13" title="Parliament of the Czech Republic, Chamber of Deputies">
-<note type="speaker">
-[Místopředseda PSP Vojtěch Filip]										
-</note>
-<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u1" speaker_role="Chairperson" speaker_id="VojtechFilip.1955" speaker_name="Filip, Vojtěch" speaker_type="MP" speaker_party="KSČM" speaker_party_name="Poslanecký klub Komunistické strany Čech a Moravy" party_status="opposition" speaker_gender="M" speaker_birth="1955">
+<note type="speaker" content="Místopředseda PSP Vojtěch Filip"/>
+<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u1" text_id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162" subcorpus="Reference" house="Lower house" term="ps2013" session="-" meeting="ps2013/044" sitting="ps2013/044/02" agenda="ps2013/044/162" from="2016-04-13" to="2016-04-13" title="Parliament of the Czech Republic, Chamber of Deputies, 2016-04-13" speaker_role="Chairperson" speaker_id="VojtechFilip.1955" speaker_name="Filip, Vojtěch" speaker_type="MP" speaker_party="KSČM" speaker_party_name="Poslanecký klub Komunistické strany Čech a Moravy" party_status="opposition" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u1.p1" lang="Czech">
 <s id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u1.p1.s1">
 162	162	162	NUM	NumForm=Digit NumType=Card	w1	root	-	-	-	-
@@ -170,13 +167,9 @@ slovo	slovo	slovo	NOUN	Case=Acc Gender=Neut Number=Sing Polarity=Pos	w7	obj	mít
 </s>
 </p>
 </speech>
-<note type="time">
-[(12.10 hodin)]										
-</note>
-<note type="speaker">
-[Ministr vnitra ČR Milan Chovanec]										
-</note>
-<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u2" speaker_role="Regular" speaker_id="MilanChovanec.1970" speaker_name="Chovanec, Milan" speaker_type="MP" speaker_party="ČSSD" speaker_party_name="Poslanecký klub České strany sociálně demokratické" party_status="coalition" speaker_gender="M" speaker_birth="1970">
+<note type="time" content="(12.10 hodin)"/>
+<note type="speaker" content="Ministr vnitra ČR Milan Chovanec"/>
+<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u2" text_id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162" subcorpus="Reference" house="Lower house" term="ps2013" session="-" meeting="ps2013/044" sitting="ps2013/044/02" agenda="ps2013/044/162" from="2016-04-13" to="2016-04-13" title="Parliament of the Czech Republic, Chamber of Deputies, 2016-04-13" speaker_role="Regular" speaker_id="MilanChovanec.1970" speaker_name="Chovanec, Milan" speaker_type="MP" speaker_party="ČSSD" speaker_party_name="Poslanecký klub České strany sociálně demokratické" party_status="coalition" speaker_gender="M" speaker_birth="1970">
 <p id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u2.p1" lang="Czech">
 <s id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u2.p1.s1">
 Vážený	Vážený	vážený	ADJ	Animacy=Anim Case=Voc Degree=Pos Gender=Masc Number=Sing Polarity=Pos	w1	amod	poslankyně	NOUN	Case=Acc Gender=Fem Number=Plur Polarity=Pos	w6
@@ -387,10 +380,8 @@ pozornost	pozornost	pozornost	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	
 </s>
 </p>
 </speech>
-<note type="gap::editorial">
-[SAMPLING]										
-</note>
-<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u14" speaker_role="Regular" speaker_id="MiloslavJanulik.1962" speaker_name="Janulík, Miloslav" speaker_type="MP" speaker_party="ANO" speaker_party_name="Poslanecký klub ANO 2011" party_status="coalition" speaker_gender="M" speaker_birth="1962">
+<note type="gap::editorial" content="SAMPLING"/>
+<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u14" text_id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162" subcorpus="Reference" house="Lower house" term="ps2013" session="-" meeting="ps2013/044" sitting="ps2013/044/02" agenda="ps2013/044/162" from="2016-04-13" to="2016-04-13" title="Parliament of the Czech Republic, Chamber of Deputies, 2016-04-13" speaker_role="Regular" speaker_id="MiloslavJanulik.1962" speaker_name="Janulík, Miloslav" speaker_type="MP" speaker_party="ANO" speaker_party_name="Poslanecký klub ANO 2011" party_status="coalition" speaker_gender="M" speaker_birth="1962">
 <p id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u14.p1" lang="Czech">
 <s id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u14.p1.s1">
 Třetí	Třetí	třetí	ADJ	Case=Nom Gender=Neut Number=Sing NumType=Ord	w1	amod	hlasování	NOUN	Case=Nom Gender=Neut Number=Sing Polarity=Pos	w2
@@ -441,10 +432,8 @@ nedoporučuje	nedoporučuje	doporučovat	VERB	Aspect=Imp Mood=Ind Number=Sing Pe
 </s>
 </p>
 </speech>
-<note type="speaker">
-[Místopředseda PSP Vojtěch Filip]										
-</note>
-<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u15" speaker_role="Chairperson" speaker_id="VojtechFilip.1955" speaker_name="Filip, Vojtěch" speaker_type="MP" speaker_party="KSČM" speaker_party_name="Poslanecký klub Komunistické strany Čech a Moravy" party_status="opposition" speaker_gender="M" speaker_birth="1955">
+<note type="speaker" content="Místopředseda PSP Vojtěch Filip"/>
+<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u15" text_id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162" subcorpus="Reference" house="Lower house" term="ps2013" session="-" meeting="ps2013/044" sitting="ps2013/044/02" agenda="ps2013/044/162" from="2016-04-13" to="2016-04-13" title="Parliament of the Czech Republic, Chamber of Deputies, 2016-04-13" speaker_role="Chairperson" speaker_id="VojtechFilip.1955" speaker_name="Filip, Vojtěch" speaker_type="MP" speaker_party="KSČM" speaker_party_name="Poslanecký klub Komunistické strany Čech a Moravy" party_status="opposition" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u15.p1" lang="Czech">
 <s id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u15.p1.s1">
 Pan	Pan	pan	NOUN	Animacy=Anim Case=Nom Gender=Masc Number=Sing Polarity=Pos	w1	nmod	ministr	NOUN	Animacy=Anim Case=Nom Gender=Masc Number=Sing Polarity=Pos	w2
@@ -453,9 +442,7 @@ ministr	ministr	ministr	NOUN	Animacy=Anim Case=Nom Gender=Masc Number=Sing Polar
 ?	?	?	PUNCT	-	w3	punct	ministr	NOUN	Animacy=Anim Case=Nom Gender=Masc Number=Sing Polarity=Pos	w2
 </s>
 </p>
-<note type="vocal:speaking">
-[(Nesouhlas.)]										
-</note>
+<note type="vocal:speaking" content="(Nesouhlas.)"/>
 <p id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u15.p2" lang="Czech">
 <s id="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.u15.p2.s1">
 Zahájil	Zahájil	zahájit	VERB	Aspect=Perf Gender=Masc Number=Sing Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w1	root	-	-	-	-
@@ -564,9 +551,7 @@ o	o	o	ADP	AdpType=Prep Case=Loc	w20	case	změna	NOUN	Case=Loc Gender=Fem Number=
 změně	změně	změna	NOUN	Case=Loc Gender=Fem Number=Sing Polarity=Pos	w21	conj	návrh	NOUN	Animacy=Inan Case=Ins Gender=Masc Number=Sing Polarity=Pos	w11
 souvisejících	souvisejících	související	ADJ	Animacy=Inan Aspect=Imp Case=Gen Gender=Masc Number=Plur Polarity=Pos Tense=Pres VerbForm=Part Voice=Act	w22	amod	zákon	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Plur Polarity=Pos	w23
 zákonů	zákonů	zákon	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Plur Polarity=Pos	w23	nmod	změna	NOUN	Case=Loc Gender=Fem Number=Sing Polarity=Pos	w21
-<note type="comment">
-[(zákon o ochraně státních hranic)]										
-</note>
+<note type="comment" content="(zákon o ochraně státních hranic)"/>
 ,	,	,	PUNCT	-	w24	punct	tisk	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing Polarity=Pos	w27
 podle	podle	podle	ADP	AdpType=Prep Case=Gen	w25	case	tisk	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing Polarity=Pos	w27
 sněmovního	sněmovního	sněmovní	ADJ	Animacy=Inan Case=Gen Degree=Pos Gender=Masc Number=Sing Polarity=Pos	w26	amod	tisk	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing Polarity=Pos	w27
@@ -743,4 +728,3 @@ zpravodajů	zpravodajů	zpravodaj	NOUN	Animacy=Anim Case=Gen Gender=Masc Number=
 </s>
 </p>
 </speech>
-</text>

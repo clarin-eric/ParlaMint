@@ -7,10 +7,10 @@
          <titleStmt>
             <title type="main">Great Britain parliamentary corpus ParlaMint-GB [ParlaMint.ana SAMPLE]</title>
             <title type="sub">Minutes of the House of Commons and the House of Lords, Daily Sessions</title>
-            <meeting ana="#parla.term #PoGB.55"/>
-            <meeting ana="#parla.term #PoGB.56"/>
-            <meeting ana="#parla.term #PoGB.57"/>
-            <meeting ana="#parla.term #PoGB.58"/>
+            <meeting ana="#parla.upper #parla.lower #parla.term #PoGB.55"/>
+            <meeting ana="#parla.upper #parla.lower #parla.term #PoGB.56"/>
+            <meeting ana="#parla.upper #parla.lower #parla.term #PoGB.57"/>
+            <meeting ana="#parla.upper #parla.lower #parla.term #PoGB.58"/>
             <respStmt>
                <persName>Matthew Coole</persName>
                <resp>Data retrieval, Parla-CLARIN TEI XML corpus encoding and linguistic annotation.</resp>
@@ -20,7 +20,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>2.0</edition>
+            <edition>2.1</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="552103">552,103 speeches</measure>
@@ -31,13 +31,13 @@
                <orgName>The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1405</idno>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1431</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-05-07">2021-05-07</date>
+            <date when="2021-05-27">2021-05-27</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -429,6 +429,10 @@
                <date from="2015-01-01" to="2021-03-31"/>
             </setting>
          </settingDesc>
+         <textClass>
+            <catRef scheme="#parla.legislature"
+                    target="#parla.bi #parla.lower #parla.upper"/>
+         </textClass>
          <particDesc>
             <listOrg>
                <org xml:id="government.GB" role="government">
@@ -535,10 +539,6 @@
                   <orgName full="yes">Respect</orgName>
                   <orgName full="init">64RT</orgName>
                </org>
-               <org role="politicalParty" xml:id="party.S">
-                  <orgName full="yes">Speaker</orgName>
-                  <orgName full="init">S</orgName>
-               </org>
                <org role="politicalParty" xml:id="party.UUP">
                   <orgName full="yes">Ulster Unionist Party</orgName>
                   <orgName full="init">UUP</orgName>
@@ -575,14 +575,35 @@
                   <orgName full="yes">Independent Conservative</orgName>
                   <orgName full="init">0UBS</orgName>
                </org>
-               <org role="politicalParty" xml:id="party.LS">
-                  <orgName full="yes">Lord Speaker</orgName>
-                  <orgName full="init">LS</orgName>
-               </org>
                <org role="politicalParty" xml:id="party.LD">
                   <orgName full="yes">Liberal Democrat</orgName>
                   <orgName full="init">LD</orgName>
                </org>
+               <listRelation>
+                  <relation name="coalition"
+                            mutual="#party.CON #party.LD"
+                            from="2010-05-06"
+                            to="2015-05-07"/>
+                  <relation name="opposition"
+                            active="#party.LAB #party.SO0T #party.64RT #party.SDLP #party.L1QU #party.0UBS #party.BI #party.LI #party.LB #party.LJ95 #party.IGC #party.NPBE #party.CB #party.QMZZ #party.IL #party.UUP #party.FZPG #party.A #party.GP #party.SNP #party.I #party.L8TA #party.CON #party.NA #party.DUP #party.UUSL #party.ZKPW #party.UKIP #party.PC"
+                            passive="#government.GB"
+                            from="2010-05-06"
+                            to="2015-05-07"/>
+                  <relation name="opposition"
+                            active="#party.LAB #party.SO0T #party.LD #party.64RT #party.SDLP #party.L1QU #party.0UBS #party.BI #party.LI #party.LB #party.LJ95 #party.IGC #party.NPBE #party.CB #party.QMZZ #party.IL #party.UUP #party.FZPG #party.A #party.GP #party.SNP #party.I #party.L8TA #party.CON #party.NA #party.DUP #party.UUSL #party.ZKPW #party.UKIP #party.PC"
+                            passive="#government.GB"
+                            from="2015-05-08"
+                            to="2017-06-08"/>
+                  <relation name="opposition"
+                            active="#party.LAB #party.SO0T #party.LD #party.64RT #party.SDLP #party.L1QU #party.0UBS #party.BI #party.LI #party.LB #party.LJ95 #party.IGC #party.NPBE #party.CB #party.QMZZ #party.IL #party.UUP #party.FZPG #party.A #party.GP #party.SNP #party.I #party.L8TA #party.CON #party.NA #party.UUSL #party.ZKPW #party.UKIP #party.PC"
+                            passive="#government.GB"
+                            from="2017-06-09"
+                            to="2019-12-12"/>
+                  <relation name="opposition"
+                            active="#party.LAB #party.SO0T #party.LD #party.64RT #party.SDLP #party.L1QU #party.0UBS #party.BI #party.LI #party.LB #party.LJ95 #party.IGC #party.NPBE #party.CB #party.QMZZ #party.IL #party.UUP #party.FZPG #party.A #party.GP #party.SNP #party.I #party.L8TA #party.CON #party.NA #party.DUP #party.UUSL #party.ZKPW #party.UKIP #party.PC"
+                            passive="#government.GB"
+                            from="2019-12-13"/>
+               </listRelation>
             </listOrg>
             <listPerson>
                <head>List of speakers</head>
@@ -862,7 +883,10 @@
                                ref="#party.LAB"
                                role="member"
                                to="2009-06-22"/>
-                  <affiliation from="2000-10-23" ref="#party.S" role="member" to="2009-06-22"/>
+                  <affiliation from="2000-10-23"
+                               ref="#parla.lower"
+                               role="speaker"
+                               to="2009-06-22"/>
                   <affiliation from="2001-06-07" ref="#parla.lower" role="MP" to="2005-05-05"/>
                   <affiliation from="2005-05-05" ref="#parla.lower" role="MP" to="2009-06-22"/>
                   <affiliation from="2009-08-25" ref="#parla.lower" role="MP" to="2018-04-29"/>
@@ -7621,7 +7645,7 @@
                                role="member"
                                to="2016-09-01"/>
                   <affiliation from="2016-09-01" ref="#party.I" role="member"/>
-                  <affiliation from="2016-09-01" ref="#party.LS" role="member"/>
+                  <affiliation from="2016-09-01" ref="#parla.upper" role="speaker"/>
                   <idno subtype="contact" type="URI">https://members.parliament.uk/member/315/contact</idno>
                   <figure>
                      <graphic url="https://api.parliament.uk/photo/QDbueyIv.jpg?crop=CU_1:1"/>
@@ -22267,20 +22291,29 @@
                                ref="#party.CON"
                                role="member"
                                to="2015-03-30"/>
-                  <affiliation from="2009-06-22" ref="#party.S" role="member" to="2015-03-30"/>
+                  <affiliation from="2009-06-22"
+                               ref="#parla.lower"
+                               role="speaker"
+                               to="2015-03-30"/>
                   <affiliation from="2010-05-06" ref="#parla.lower" role="MP" to="2015-03-30"/>
                   <affiliation from="2015-05-07" ref="#parla.lower" role="MP" to="2017-05-03"/>
                   <affiliation from="2015-05-07"
                                ref="#party.CON"
                                role="member"
                                to="2017-05-03"/>
-                  <affiliation from="2015-05-07" ref="#party.S" role="member" to="2017-05-03"/>
+                  <affiliation from="2015-05-07"
+                               ref="#parla.lower"
+                               role="speaker"
+                               to="2017-05-03"/>
                   <affiliation from="2017-06-08" ref="#parla.lower" role="MP" to="2019-11-04"/>
                   <affiliation from="2017-06-08"
                                ref="#party.CON"
                                role="member"
                                to="2019-11-04"/>
-                  <affiliation from="2017-06-08" ref="#party.S" role="member" to="2019-11-04"/>
+                  <affiliation from="2017-06-08"
+                               ref="#parla.lower"
+                               role="speaker"
+                               to="2019-11-04"/>
                   <idno subtype="contact" type="URI">https://members.parliament.uk/member/17/contact</idno>
                </person>
                <person xml:id="SimonDanczuk">
@@ -24663,7 +24696,10 @@
                                ref="#party.LAB"
                                role="member"
                                to="2000-10-23"/>
-                  <affiliation from="1992-04-28" ref="#party.S" role="member" to="2000-10-23"/>
+                  <affiliation from="1992-04-28"
+                               ref="#parla.lower"
+                               role="speaker"
+                               to="2000-10-23"/>
                   <affiliation from="1997-05-01" ref="#parla.lower" role="MP" to="2000-10-23"/>
                   <affiliation from="2001-01-15" ref="#parla.lower" role="MP"/>
                   <affiliation from="2001-01-15" ref="#party.CB" role="member"/>
@@ -32583,11 +32619,14 @@
                                ref="#party.LAB"
                                role="member"
                                to="2019-11-04"/>
-                  <affiliation from="2019-11-04" ref="#party.S" role="member" to="2019-11-06"/>
+                  <affiliation from="2019-11-04"
+                               ref="#parla.lower"
+                               role="speaker"
+                               to="2019-11-06"/>
                   <affiliation from="2019-11-05" ref="#party.LAB" role="member"/>
-                  <affiliation from="2019-11-05" ref="#party.S" role="member"/>
+                  <affiliation from="2019-11-05" ref="#parla.lower" role="speaker"/>
                   <affiliation from="2019-12-12" ref="#parla.lower" role="MP"/>
-                  <affiliation from="2019-12-12" ref="#party.S" role="member"/>
+                  <affiliation from="2019-12-12" ref="#parla.lower" role="speaker"/>
                   <idno subtype="contact" type="URI">https://members.parliament.uk/member/467/contact</idno>
                   <idno subtype="twitter" type="URI">https://twitter.com/LindsayHoyle_MP</idno>
                   <figure>
@@ -39007,9 +39046,9 @@
       </profileDesc>
    </teiHeader>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-GB_2016-02-01-commons.ana.xml"/>
+               href="ParlaMint-GB_2015-01-06-commons.ana.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-GB_2020-06-04-lords.ana.xml"/>
+               href="ParlaMint-GB_2017-01-24-lords.ana.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-GB_2018-12-18-lords.ana.xml"/>
+               href="ParlaMint-GB_2019-02-18-commons.ana.xml"/>
 </teiCorpus>

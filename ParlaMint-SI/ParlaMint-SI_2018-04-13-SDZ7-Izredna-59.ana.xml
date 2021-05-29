@@ -10,8 +10,10 @@
             <title type="main" xml:lang="en">Slovenian parliamentary corpus ParlaMint-SI, Extraordinary Session 59 [ParlaMint.ana SAMPLE]</title>
             <title type="sub" xml:lang="sl">Zapisi sej Državnega zbora Republike Slovenije, 7. mandat, 59. izredna seja, 13.4.2018</title>
             <title type="sub" xml:lang="en">Minutes of the National Assembly of the Republic of Slovenia, Term 7, Extraordinary Session 59, 13.4.2018</title>
-            <meeting n="59" corresp="#DZ" ana="#parla.meeting.extraordinary">Izredna</meeting>
-            <meeting n="7" corresp="#DZ" ana="#parla.term #DZ.7">7. mandat</meeting>
+            <meeting n="59"
+                     corresp="#DZ"
+                     ana="#parla.lower #parla.meeting.extraordinary">Izredna</meeting>
+            <meeting n="7" corresp="#DZ" ana="#parla.lower #parla.term #DZ.7">7. mandat</meeting>
             <respStmt>
                <persName>Andrej Pančur</persName>
                <resp xml:lang="sl">Kodiranje TEI</resp>
@@ -28,7 +30,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>2.0</edition>
+            <edition>2.1</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="2" xml:lang="sl">2 govorov</measure>
@@ -42,13 +44,13 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1405</idno>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1431</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="sl">To delo je ponujeno pod <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Priznanje avtorstva 4.0 mednarodna licenca</ref>.</p>
             </availability>
-            <date when="2021-05-11">2021-05-11</date>
+            <date when="2021-05-28">2021-05-28</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -101,7 +103,7 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-05-11">
+         <change when="2021-05-28">
             <name>Tomaž Erjavec</name>: Made sample.</change>
          <change when="2021-03-20">
             <name>Tomaž Erjavec</name>: Fixes for Version 2.</change>

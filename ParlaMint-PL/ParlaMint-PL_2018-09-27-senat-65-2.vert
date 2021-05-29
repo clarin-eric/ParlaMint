@@ -1,14 +1,7 @@
-<text id="ParlaMint-PL_2018-09-27-senat-65-2.ana" subcorpus="Reference" term="9-upper" session="65-upper" meeting="-" sitting="2-upper" agenda="-" from="2018-09-27" to="2018-09-27" title="Report of the session of the Senat of the Republic of Poland, Term 9, Session 65, Day 2 (2018-09-27)">
-<note type="head">
-[65. posiedzenie Senatu RP 9. kadencji, dzień 2]										
-</note>
-<note type="time">
-[Wznowienie posiedzenia o godzinie 11 minut 00]										
-</note>
-<note type="debate">
-[Posiedzeniu przewodniczą marszałek Stanisław Karczewski oraz wicemarszałkowie Michał Seweryński, Maria Koc i Adam Bielan]										
-</note>
-<speech id="ParlaMint-PL_2018-09-27-senat-65-2.u1" speaker_role="Chairperson" speaker_id="KuchcińskiMarek" speaker_name="Kuchciński, Marek" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="coalition" speaker_gender="M" speaker_birth="1955">
+<note type="head" content="65. posiedzenie Senatu RP 9. kadencji, dzień 2"/>
+<note type="time" content="Wznowienie posiedzenia o godzinie 11 minut 00"/>
+<note type="debate" content="Posiedzeniu przewodniczą marszałek Stanisław Karczewski oraz wicemarszałkowie Michał Seweryński, Maria Koc i Adam Bielan"/>
+<speech id="ParlaMint-PL_2018-09-27-senat-65-2.u1" text_id="ParlaMint-PL_2018-09-27-senat-65-2" subcorpus="Reference" house="Upper house" term="9-upper" session="65-upper" meeting="-" sitting="2-upper" agenda="-" from="2018-09-27" to="2018-09-27" title="Report of the session of the Senat of the Republic of Poland, Term 9, Session 65, Day 2 (2018-09-27)" speaker_role="Chairperson" speaker_id="KuchcińskiMarek" speaker_name="Kuchciński, Marek" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="coalition" speaker_gender="M" speaker_birth="1955">
 <p id="seg747084" lang="Polish">
 <s id="seg747084.1">
 Wznawiam	Wznawiam	wznawiać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
@@ -17,9 +10,7 @@ posiedzenie	posiedzenie	posiedzenie	NOUN	Case=Acc Gender=Neut Number=Sing	2	obj	
 .	.	.	PUNCT	PunctType=Peri	3	punct	wznawiać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<note type="vocal:noise">
-[Rozmowy na sali]										
-</note>
+<note type="vocal:noise" content="Rozmowy na sali"/>
 <p id="seg747085" lang="Polish">
 <s id="seg747085.1">
 Bardzo	Bardzo	bardzo	ADV	Degree=Pos	1	advmod	prosić	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
@@ -113,9 +104,7 @@ serdecznie	serdecznie	serdecznie	ADV	Degree=Pos	15	advmod	witać	VERB	Aspect=Imp
 .	.	.	PUNCT	PunctType=Peri	16	punct	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	13
 </s>
 </p>
-<note type="kinesic:applause">
-[Oklaski]										
-</note>
+<note type="kinesic:applause" content="Oklaski"/>
 <p id="seg747089" lang="Polish">
 <s id="seg747089.1">
 Witam	Witam	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
@@ -142,9 +131,7 @@ Wschodu	Wschodu	wschód	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	12	fl
 .	.	.	PUNCT	PunctType=Peri	14	punct	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<note type="kinesic:applause">
-[Oklaski]										
-</note>
+<note type="kinesic:applause" content="Oklaski"/>
 <p id="seg747090" lang="Polish">
 <s id="seg747090.1">
 Witam	Witam	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
@@ -168,9 +155,7 @@ Katyniu	Katyniu	Katyń	PROPN	Animacy=Inan Case=Loc Gender=Masc Number=Sing	12	ob
 .	.	.	PUNCT	PunctType=Peri	13	punct	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<note type="kinesic:applause">
-[Oklaski]										
-</note>
+<note type="kinesic:applause" content="Oklaski"/>
 <p id="seg747091" lang="Polish">
 <s id="seg747091.1">
 Witam	Witam	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
@@ -196,9 +181,7 @@ Warszawie	Warszawie	Warszawa	PROPN	Case=Loc Gender=Fem Number=Sing	14	nmod	uniwe
 .	.	.	PUNCT	PunctType=Peri	15	punct	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<note type="kinesic:applause">
-[Oklaski]										
-</note>
+<note type="kinesic:applause" content="Oklaski"/>
 <p id="seg747092" lang="Polish">
 <s id="seg747092.1">
 Witam	Witam	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	parataxis:obj	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	13
@@ -227,9 +210,7 @@ serdecznie	serdecznie	serdecznie	ADV	Degree=Pos	15	advmod	witać	VERB	Aspect=Imp
 .	.	.	PUNCT	PunctType=Peri	16	punct	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	13
 </s>
 </p>
-<note type="kinesic:applause">
-[Oklaski]										
-</note>
+<note type="kinesic:applause" content="Oklaski"/>
 <p id="seg747093" lang="Polish">
 <s id="seg747093.1">
 Witam	Witam	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
@@ -265,9 +246,7 @@ Sanoku	Sanoku	Sanok	PROPN	Animacy=Inan Case=Loc Gender=Masc Number=Sing	18	nmod	
 .	.	.	PUNCT	PunctType=Peri	19	punct	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<note type="kinesic:applause">
-[Oklaski]										
-</note>
+<note type="kinesic:applause" content="Oklaski"/>
 <p id="seg747094" lang="Polish">
 <s id="seg747094.1">
 I	I	i	CCONJ	-	1	cc	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
@@ -304,9 +283,7 @@ Peszkowskiego	Peszkowskiego	Peszkowskiego	PROPN	Animacy=Hum Case=Acc Gender=Masc
 .	.	.	PUNCT	PunctType=Peri	3	punct	Zdzisław	PROPN	Animacy=Hum Case=Acc Gender=Masc Number=Sing	1
 </s>
 </p>
-<note type="kinesic:applause">
-[Oklaski]										
-</note>
+<note type="kinesic:applause" content="Oklaski"/>
 <p id="seg747095" lang="Polish">
 <s id="seg747095.1">
 Bardzo	Bardzo	bardzo	ADV	Degree=Pos	1	advmod	serdecznie	ADV	Degree=Pos	2
@@ -404,7 +381,7 @@ Senatorze	Senatorze	senator	PROPN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	5
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-PL_2018-09-27-senat-65-2.u2" speaker_role="Regular" speaker_id="ŻarynJan" speaker_name="Żaryn, Jan" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="coalition" speaker_gender="M" speaker_birth="1958">
+<speech id="ParlaMint-PL_2018-09-27-senat-65-2.u2" text_id="ParlaMint-PL_2018-09-27-senat-65-2" subcorpus="Reference" house="Upper house" term="9-upper" session="65-upper" meeting="-" sitting="2-upper" agenda="-" from="2018-09-27" to="2018-09-27" title="Report of the session of the Senat of the Republic of Poland, Term 9, Session 65, Day 2 (2018-09-27)" speaker_role="Regular" speaker_id="ŻarynJan" speaker_name="Żaryn, Jan" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="coalition" speaker_gender="M" speaker_birth="1958">
 <p id="seg747099" lang="Polish">
 <s id="seg747099.1">
 Panie	Panie	pan	NOUN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	1	vocative	-	-	-	-
@@ -569,14 +546,10 @@ poklaskać	poklaskać	poklaskać	VERB	Aspect=Imp VerbForm=Inf Voice=Act	4	xcomp	
 .	.	.	PUNCT	PunctType=Peri	5	punct	śmiało	VERB	Aspect=Imp Gender=Neut Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<note type="kinesic:applause">
-[Oklaski]										
-</note>
+<note type="kinesic:applause" content="Oklaski"/>
 </speech>
-<note type="gap::editorial">
-[SAMPLING]										
-</note>
-<speech id="ParlaMint-PL_2018-09-27-senat-65-2.u356" speaker_role="Regular" speaker_id="RadziwiłłKonstanty" speaker_name="Radziwiłł, Konstanty" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="coalition" speaker_gender="M" speaker_birth="1958">
+<note type="gap::editorial" content="SAMPLING"/>
+<speech id="ParlaMint-PL_2018-09-27-senat-65-2.u356" text_id="ParlaMint-PL_2018-09-27-senat-65-2" subcorpus="Reference" house="Upper house" term="9-upper" session="65-upper" meeting="-" sitting="2-upper" agenda="-" from="2018-09-27" to="2018-09-27" title="Report of the session of the Senat of the Republic of Poland, Term 9, Session 65, Day 2 (2018-09-27)" speaker_role="Regular" speaker_id="RadziwiłłKonstanty" speaker_name="Radziwiłł, Konstanty" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="coalition" speaker_gender="M" speaker_birth="1958">
 <p id="seg747831" lang="Polish">
 <s id="seg747831.1">
 (	(	(	PUNCT	PunctSide=Ini PunctType=Brck	1	punct	mieć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	3
@@ -592,7 +565,7 @@ rządu	rządu	rząd	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	5	nmod:ar
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-PL_2018-09-27-senat-65-2.u357" speaker_role="Chairperson" speaker_id="BielanAdam" speaker_name="Bielan, Adam" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="coalition" speaker_gender="M" speaker_birth="1974">
+<speech id="ParlaMint-PL_2018-09-27-senat-65-2.u357" text_id="ParlaMint-PL_2018-09-27-senat-65-2" subcorpus="Reference" house="Upper house" term="9-upper" session="65-upper" meeting="-" sitting="2-upper" agenda="-" from="2018-09-27" to="2018-09-27" title="Report of the session of the Senat of the Republic of Poland, Term 9, Session 65, Day 2 (2018-09-27)" speaker_role="Chairperson" speaker_id="BielanAdam" speaker_name="Bielan, Adam" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="coalition" speaker_gender="M" speaker_birth="1974">
 <p id="seg747832" lang="Polish">
 <s id="seg747832.1">
 Otwieram	Otwieram	otwierać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
@@ -727,8 +700,5 @@ rozpatrzeniu	rozpatrzeniu	rozpatrzyć	NOUN	Aspect=Perf Case=Loc Gender=Neut Numb
 .	.	.	PUNCT	PunctType=Peri	18	punct	odbyć	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin Voice=Act	12
 </s>
 </p>
-<note type="time">
-[Przerwa w posiedzeniu o godzinie 17 minut 25]										
-</note>
+<note type="time" content="Przerwa w posiedzeniu o godzinie 17 minut 25"/>
 </speech>
-</text>

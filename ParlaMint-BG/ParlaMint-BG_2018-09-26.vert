@@ -1,8 +1,5 @@
-<text id="ParlaMint-BG_2018-09-26.ana" subcorpus="Reference" term="44" session="5" meeting="177" sitting="-" agenda="-" from="2018-09-26" to="2018-09-26" title="Report of the meeting of the Bulgarian National Assembly, Term 44, Session 5, Meeting 177 (2018-09-26)">
-<speech id="ParlaMint-BG_2018-09-26.u1" speaker_role="Chairperson" speaker_id="KarayanchevaTsveta" speaker_name="Вълчева Караянчева, Цвета" speaker_type="MP" speaker_party="ГЕРБ" speaker_party_name="Граждани за европейско развитие на България" party_status="coalition" speaker_gender="F" speaker_birth="1968">
-<note type="kinesic:ringing">
-[звъни]										
-</note>
+<speech id="ParlaMint-BG_2018-09-26.u1" text_id="ParlaMint-BG_2018-09-26" subcorpus="Reference" house="-" term="44" session="5" meeting="177" sitting="-" agenda="-" from="2018-09-26" to="2018-09-26" title="Report of the meeting of the Bulgarian National Assembly, Term 44, Session 5, Meeting 177 (2018-09-26)" speaker_role="Chairperson" speaker_id="KarayanchevaTsveta" speaker_name="Вълчева Караянчева, Цвета" speaker_type="MP" speaker_party="ГЕРБ" speaker_party_name="Граждани за европейско развитие на България" party_status="coalition" speaker_gender="F" speaker_birth="1968">
+<note type="kinesic:ringing" content="звъни"/>
 <p id="ParlaMint-BG_2018-09-26.seg1" lang="Bulgarian">
 <s id="ParlaMint-BG_2018-09-26.seg1.1">
 :	:	:	PUNCT	-	1	punct	има	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
@@ -1169,11 +1166,9 @@ BlackSea4Fish	BlackSea4Fish	blacksea4fish	PROPN	Definite=Ind Gender=Masc Number=
 .	.	.	PUNCT	-	11	punct	заповядам	VERB	Aspect=Perf Mood=Imp Number=Plur Person=2 VerbForm=Fin	4
 </s>
 </p>
-<note type="incident:action">
-[Всички стават.]										
-</note>
+<note type="incident:action" content="Всички стават."/>
 </speech>
-<speech id="ParlaMint-BG_2018-09-26.u2" speaker_role="Regular" speaker_id="IvanovStanislav" speaker_name="Стоянов Иванов, Станислав" speaker_type="MP" speaker_party="ГЕРБ" speaker_party_name="Граждани за европейско развитие на България" party_status="coalition" speaker_gender="M" speaker_birth="1973">
+<speech id="ParlaMint-BG_2018-09-26.u2" text_id="ParlaMint-BG_2018-09-26" subcorpus="Reference" house="-" term="44" session="5" meeting="177" sitting="-" agenda="-" from="2018-09-26" to="2018-09-26" title="Report of the meeting of the Bulgarian National Assembly, Term 44, Session 5, Meeting 177 (2018-09-26)" speaker_role="Regular" speaker_id="IvanovStanislav" speaker_name="Стоянов Иванов, Станислав" speaker_type="MP" speaker_party="ГЕРБ" speaker_party_name="Граждани за европейско развитие на България" party_status="coalition" speaker_gender="M" speaker_birth="1973">
 <p id="ParlaMint-BG_2018-09-26.seg30" lang="Bulgarian">
 <s id="ParlaMint-BG_2018-09-26.seg30.1">
 „	„	„	PUNCT	-	1	punct	заклевам-(се)	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
@@ -1220,14 +1215,10 @@ BlackSea4Fish	BlackSea4Fish	blacksea4fish	PROPN	Definite=Ind Gender=Masc Number=
 “	“	“	PUNCT	-	4	punct	закълна-(се)	VERB	Aspect=Perf Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<note type="kinesic:applause">
-[Ръкопляскания.]										
-</note>
+<note type="kinesic:applause" content="Ръкопляскания."/>
 </speech>
-<note type="gap::editorial">
-[SAMPLING]										
-</note>
-<speech id="ParlaMint-BG_2018-09-26.u189" speaker_role="Regular" speaker_id="DamyanovaMilena" speaker_name="Цветанова Дамянова, Милена" speaker_type="MP" speaker_party="ГЕРБ" speaker_party_name="Граждани за европейско развитие на България" party_status="coalition" speaker_gender="F" speaker_birth="1976">
+<note type="gap::editorial" content="SAMPLING"/>
+<speech id="ParlaMint-BG_2018-09-26.u189" text_id="ParlaMint-BG_2018-09-26" subcorpus="Reference" house="-" term="44" session="5" meeting="177" sitting="-" agenda="-" from="2018-09-26" to="2018-09-26" title="Report of the meeting of the Bulgarian National Assembly, Term 44, Session 5, Meeting 177 (2018-09-26)" speaker_role="Regular" speaker_id="DamyanovaMilena" speaker_name="Цветанова Дамянова, Милена" speaker_type="MP" speaker_party="ГЕРБ" speaker_party_name="Граждани за европейско развитие на България" party_status="coalition" speaker_gender="F" speaker_birth="1976">
 <p id="ParlaMint-BG_2018-09-26.seg939" lang="Bulgarian">
 <s id="ParlaMint-BG_2018-09-26.seg939.1">
 Благодаря	Благодаря	благодаря	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
@@ -3567,11 +3558,9 @@ III	III	трети	ADJ	Definite=Ind Degree=Pos Gender=Masc Number=Sing NumType=O
 .	.	.	PUNCT	-	21	punct	съм	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 </s>
 </p>
-<note type="kinesic:applause">
-[Ръкопляскания от ГЕРБ и ОП.]										
-</note>
+<note type="kinesic:applause" content="Ръкопляскания от ГЕРБ и ОП."/>
 </speech>
-<speech id="ParlaMint-BG_2018-09-26.u190" speaker_role="Chairperson" speaker_id="HristovEmil" speaker_name="Маринов Христов, Емил" speaker_type="MP" speaker_party="ГЕРБ" speaker_party_name="Граждани за европейско развитие на България" party_status="coalition" speaker_gender="M" speaker_birth="1957">
+<speech id="ParlaMint-BG_2018-09-26.u190" text_id="ParlaMint-BG_2018-09-26" subcorpus="Reference" house="-" term="44" session="5" meeting="177" sitting="-" agenda="-" from="2018-09-26" to="2018-09-26" title="Report of the meeting of the Bulgarian National Assembly, Term 44, Session 5, Meeting 177 (2018-09-26)" speaker_role="Chairperson" speaker_id="HristovEmil" speaker_name="Маринов Христов, Емил" speaker_type="MP" speaker_party="ГЕРБ" speaker_party_name="Граждани за европейско развитие на България" party_status="coalition" speaker_gender="M" speaker_birth="1957">
 <p id="ParlaMint-BG_2018-09-26.seg969" lang="Bulgarian">
 <s id="ParlaMint-BG_2018-09-26.seg969.1">
 Благодаря	Благодаря	благодаря	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
@@ -3737,8 +3726,5 @@ III	III	трети	ADJ	Definite=Ind Degree=Pos Gender=Masc Number=Sing NumType=O
 .	.	.	PUNCT	-	3	punct	закривам	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<note type="kinesic:ringing">
-[Звъни.]										
-</note>
+<note type="kinesic:ringing" content="Звъни."/>
 </speech>
-</text>

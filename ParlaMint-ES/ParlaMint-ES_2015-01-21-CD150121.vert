@@ -1,8 +1,5 @@
-<text id="ParlaMint-ES_2015-01-21-CD150121.ana" subcorpus="Reference" term="10" session="238" meeting="-" sitting="-" agenda="-" from="2015-01-21" to="2015-01-21" title="Plenary session 238 (2015-01-21)">
-<note type="head">
-[PREGUNTAS - DEL DIPUTADO DON ALBERTO GARZÓN ESPINOSA, DEL GRUPO PARLAMENTARIO DE IU, ICV-EUiA, CHA: LA IZQUIERDA PLURAL, QUE FORMULA AL SEÑOR PRESIDENTE DEL GOBIERNO: ¿CUÁNDO TIENE PREVISTO RESTITUIR A TODOS LOS CIUDADANOS Y CIUDADANAS LOS DERECHOS QUE, DE CONFORMIDAD CON EL ARTÍCULO 41 DE LA CONSTITUCIÓN, TENÍAN ANTES DE LAS REFORMAS INICIADAS CON EL RDL 20/2012, DE 13 DE JULIO?]										
-</note>
-<speech id="ParlaMint-ES_2015-01-21-CD150121.u1" speaker_role="Chairman" speaker_id="-" speaker_name="-" speaker_type="-" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="-" speaker_birth="-">
+<note type="head" content="PREGUNTAS - DEL DIPUTADO DON ALBERTO GARZÓN ESPINOSA, DEL GRUPO PARLAMENTARIO DE IU, ICV-EUiA, CHA: LA IZQUIERDA PLURAL, QUE FORMULA AL SEÑOR PRESIDENTE DEL GOBIERNO: ¿CUÁNDO TIENE PREVISTO RESTITUIR A TODOS LOS CIUDADANOS Y CIUDADANAS LOS DERECHOS QUE, DE CONFORMIDAD CON EL ARTÍCULO 41 DE LA CONSTITUCIÓN, TENÍAN ANTES DE LAS REFORMAS INICIADAS CON EL RDL 20/2012, DE 13 DE JULIO?"/>
+<speech id="ParlaMint-ES_2015-01-21-CD150121.u1" text_id="ParlaMint-ES_2015-01-21-CD150121" subcorpus="Reference" house="Lower house" term="10" session="238" meeting="-" sitting="-" agenda="-" from="2015-01-21" to="2015-01-21" title="Plenary session 238 (2015-01-21)" speaker_role="Chairman">
 <p id="ParlaMint-ES_2015-01-21-CD150121.u1.1" lang="Spanish">
 <s id="ParlaMint-ES_2015-01-21-CD150121.u1.1.1">
 Se	Se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	1	expl:pass	reanudar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
@@ -33,9 +30,7 @@ Gobierno	Gobierno	Gobierno	PROPN	-	11	nmod	presidente	NOUN	Gender=Masc Number=Si
 </name>
 .	.	.	PUNCT	PunctType=Peri	12	punct	pregunta	NOUN	Gender=Fem Number=Plur	1
 </s>
-<note type="-">
-[Rumores]										
-</note>
+<note type="-" content="Rumores"/>
 <s id="ParlaMint-ES_2015-01-21-CD150121.u1.2.3">
 Ruego	Ruego	rugar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 silencio	silencio	silencio	NOUN	Gender=Masc Number=Sing	2	obj	rugar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
@@ -73,7 +68,7 @@ Plural	Plural	Plural	PROPN	-	14	flat	Grupo	PROPN	-	9
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-ES_2015-01-21-CD150121.u2" speaker_role="Regular" speaker_id="GarzónAlberto" speaker_name="Garzón Espinosa, Alberto" speaker_type="MP" speaker_party="IZQ-PLU" speaker_party_name="Izquierda Plural" party_status="opposition" speaker_gender="M" speaker_birth="1985">
+<speech id="ParlaMint-ES_2015-01-21-CD150121.u2" text_id="ParlaMint-ES_2015-01-21-CD150121" subcorpus="Reference" house="Lower house" term="10" session="238" meeting="-" sitting="-" agenda="-" from="2015-01-21" to="2015-01-21" title="Plenary session 238 (2015-01-21)" speaker_role="Regular" speaker_id="GarzónAlberto" speaker_name="Garzón Espinosa, Alberto" speaker_type="MP" speaker_party="IZQ-PLU" speaker_party_name="Izquierda Plural" party_status="opposition" speaker_gender="M" speaker_birth="1985">
 <p id="ParlaMint-ES_2015-01-21-CD150121.u2.1" lang="Spanish">
 <s id="ParlaMint-ES_2015-01-21-CD150121.u2.1.1">
 Señor	Señor	señor	NOUN	Gender=Masc Number=Sing	1	nsubj	devolver	VERB	VerbForm=Inf	9
@@ -109,10 +104,8 @@ julio	julio	julio	NOUN	-	23	compound	13	NUM	NumForm=Digit NumType=Card	21
 </s>
 </p>
 </speech>
-<note type="gap::editorial">
-[SAMPLING]										
-</note>
-<speech id="ParlaMint-ES_2015-01-21-CD150121.u335" speaker_role="Chairman" speaker_id="-" speaker_name="-" speaker_type="-" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="-" speaker_birth="-">
+<note type="gap::editorial" content="SAMPLING"/>
+<speech id="ParlaMint-ES_2015-01-21-CD150121.u335" text_id="ParlaMint-ES_2015-01-21-CD150121" subcorpus="Reference" house="Lower house" term="10" session="238" meeting="-" sitting="-" agenda="-" from="2015-01-21" to="2015-01-21" title="Plenary session 238 (2015-01-21)" speaker_role="Chairman">
 <p id="ParlaMint-ES_2015-01-21-CD150121.u335.1" lang="Spanish">
 <s id="ParlaMint-ES_2015-01-21-CD150121.u335.1.1">
 Votación	Votación	votación	NOUN	Gender=Fem Number=Sing	1	root	-	-	-	-
@@ -155,9 +148,7 @@ votación	votación	votación	NOUN	Gender=Fem Number=Sing	3	nsubj	comenzar	VERB	
 <g/>
 .	.	.	PUNCT	PunctType=Peri	4	punct	comenzar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1
 </s>
-<note type="-">
-[Pausa]										
-</note>
+<note type="-" content="Pausa"/>
 <s id="ParlaMint-ES_2015-01-21-CD150121.u335.2.3">
 Efectuada	Efectuada	efectuado	ADJ	Gender=Fem Number=Sing VerbForm=Part	1	advmod	dar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	5
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	votación	NOUN	Gender=Fem Number=Sing	3
@@ -221,7 +212,7 @@ telemáticos	telemáticos	telemático	ADJ	Gender=Masc Number=Plur	43	amod	voto	N
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-ES_2015-01-21-CD150121.u336" speaker_role="Chairman" speaker_id="-" speaker_name="-" speaker_type="-" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="-" speaker_birth="-">
+<speech id="ParlaMint-ES_2015-01-21-CD150121.u336" text_id="ParlaMint-ES_2015-01-21-CD150121" subcorpus="Reference" house="Lower house" term="10" session="238" meeting="-" sitting="-" agenda="-" from="2015-01-21" to="2015-01-21" title="Plenary session 238 (2015-01-21)" speaker_role="Chairman">
 <p id="ParlaMint-ES_2015-01-21-CD150121.u336.1" lang="Spanish">
 <s id="ParlaMint-ES_2015-01-21-CD150121.u336.1.1">
 Queda	Queda	quedar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
@@ -256,4 +247,3 @@ tarde	tarde	tarde	NOUN	Gender=Fem Number=Sing	9	nmod	minuto	NOUN	Gender=Masc Num
 </s>
 </p>
 </speech>
-</text>

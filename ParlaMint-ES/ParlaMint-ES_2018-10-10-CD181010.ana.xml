@@ -10,8 +10,8 @@
             <title type="main" xml:lang="es">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 147 (2018-10-10) [ParlaMint.ana SAMPLE]</title>
             <title type="sub" xml:lang="es">Sesión plenaria núm. 147 (2018-10-10)</title>
             <title type="sub" xml:lang="en">Plenary session 147 (2018-10-10)</title>
-            <meeting n="147" corresp="#CD" ana="#parla.session">Sesión plenaria núm. 147</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="147" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 147</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
             <respStmt>
                <persName>María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
@@ -30,7 +30,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>2.0</edition>
+            <edition>2.1</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure quantity="239" unit="speeches" xml:lang="en">239 speeches</measure>
@@ -44,14 +44,14 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1405</idno>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1431</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="es">Este trabajo se encuentra protegido por la licencia <ref target="https://creativecommons.org/licenses/by/4.0/">Atribución 4.0 Internacional</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2021-05-07">2021-05-07</date>
+            <date when="2021-05-26">2021-05-26</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -97,7 +97,7 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-05-07">
+         <change when="2021-05-26">
             <name>Tomaž Erjavec</name>: Made sample.</change>
          <change when="2021-04-11">
             <name>Tomaž Erjavec</name>: Fixes for Version 2.</change>

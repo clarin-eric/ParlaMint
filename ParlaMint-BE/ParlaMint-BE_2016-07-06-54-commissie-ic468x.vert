@@ -1,8 +1,5 @@
-<text id="ParlaMint-BE_2016-07-06-54-commissie-ic468x.ana" subcorpus="Reference" term="54" session="-" meeting="ic468" sitting="-" agenda="-" from="2016-07-06" to="2016-07-06" title="Belgisch parlementair corpus ParlaMint-BE, commissievergadering van 06-07-2016 [ParlaMint.ana SAMPLE]">
-<speech id="ParlaMint-BE_2016-07-06-54-commissie-ic468x.u1" speaker_role="Chairperson" speaker_id="GoffinPhilippe" speaker_name="Goffin, Philippe" speaker_type="MP" speaker_party="MR" speaker_party_name="Mouvement Réformateur" party_status="coalition" speaker_gender="M" speaker_birth="1967">
-<note type="-">
-[Le président:]										
-</note>
+<speech id="ParlaMint-BE_2016-07-06-54-commissie-ic468x.u1" text_id="ParlaMint-BE_2016-07-06-54-commissie-ic468x" subcorpus="Reference" house="Lower house" term="54" session="-" meeting="ic468" sitting="-" agenda="-" from="2016-07-06" to="2016-07-06" title="Belgisch parlementair corpus ParlaMint-BE, commissievergadering van 06-07-2016" speaker_role="Chairperson" speaker_id="GoffinPhilippe" speaker_name="Goffin, Philippe" speaker_type="MP" speaker_party="MR" speaker_party_name="Mouvement Réformateur" party_status="coalition" speaker_gender="M" speaker_birth="1967">
+<note type="-" content="Le président:"/>
 <p id="ParlaMint-BE_2016-07-06-54-commissie-ic468x.seg1" lang="French">
 <s id="ParlaMint-BE_2016-07-06-54-commissie-ic468x.s4">
 Les	Les	le	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	w35	det	question	NOUN	Gender=Fem Number=Plur	w36
@@ -26,7 +23,7 @@ questions	questions	question	NOUN	Gender=Fem Number=Plur	w47	obl	transformé	VER
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-BE_2016-07-06-54-commissie-ic468x.u2" speaker_role="Chairperson" speaker_id="GoffinPhilippe" speaker_name="Goffin, Philippe" speaker_type="MP" speaker_party="MR" speaker_party_name="Mouvement Réformateur" party_status="coalition" speaker_gender="M" speaker_birth="1967">
+<speech id="ParlaMint-BE_2016-07-06-54-commissie-ic468x.u2" text_id="ParlaMint-BE_2016-07-06-54-commissie-ic468x" subcorpus="Reference" house="Lower house" term="54" session="-" meeting="ic468" sitting="-" agenda="-" from="2016-07-06" to="2016-07-06" title="Belgisch parlementair corpus ParlaMint-BE, commissievergadering van 06-07-2016" speaker_role="Chairperson" speaker_id="GoffinPhilippe" speaker_name="Goffin, Philippe" speaker_type="MP" speaker_party="MR" speaker_party_name="Mouvement Réformateur" party_status="coalition" speaker_gender="M" speaker_birth="1967">
 <p id="ParlaMint-BE_2016-07-06-54-commissie-ic468x.seg2" lang="Dutch">
 <s id="ParlaMint-BE_2016-07-06-54-commissie-ic468x.s11">
 De	De	de	DET	Definite=Def	w143	det	heer	NOUN	Gender=Com Number=Sing	w144
@@ -42,13 +39,9 @@ afwezig	afwezig	afwezig	ADJ	Degree=Pos	w148	root	-	-	-	-
 </s>
 </p>
 </speech>
-<note type="gap::editorial">
-[SAMPLING]										
-</note>
-<speech id="ParlaMint-BE_2016-07-06-54-commissie-ic468x.u39" speaker_role="Regular" speaker_id="DeWitSophie" speaker_name="De Wit, Sophie" speaker_type="MP" speaker_party="N-VA" speaker_party_name="Nieuw-Vlaamse Alliantie" party_status="coalition" speaker_gender="F" speaker_birth="1973">
-<note type="-">
-[10.03 Sophie De Wit (N-VA):]										
-</note>
+<note type="gap::editorial" content="SAMPLING"/>
+<speech id="ParlaMint-BE_2016-07-06-54-commissie-ic468x.u39" text_id="ParlaMint-BE_2016-07-06-54-commissie-ic468x" subcorpus="Reference" house="Lower house" term="54" session="-" meeting="ic468" sitting="-" agenda="-" from="2016-07-06" to="2016-07-06" title="Belgisch parlementair corpus ParlaMint-BE, commissievergadering van 06-07-2016" speaker_role="Regular" speaker_id="DeWitSophie" speaker_name="De Wit, Sophie" speaker_type="MP" speaker_party="N-VA" speaker_party_name="Nieuw-Vlaamse Alliantie" party_status="coalition" speaker_gender="F" speaker_birth="1973">
+<note type="-" content="10.03 Sophie De Wit (N-VA):"/>
 <p id="ParlaMint-BE_2016-07-06-54-commissie-ic468x.seg185" lang="Dutch">
 <s id="ParlaMint-BE_2016-07-06-54-commissie-ic468x.s595">
 Mijnheer	Mijnheer	mijnheer	NOUN	Gender=Com Number=Sing	w11899	parataxis	zien	VERB	Number=Plur Tense=Pres VerbForm=Fin	w11903
@@ -304,7 +297,7 @@ hebt	hebt	hebben	AUX	Number=Sing Tense=Pres VerbForm=Fin	w12088	aux	schetsen	VER
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-BE_2016-07-06-54-commissie-ic468x.u40" speaker_role="Chairperson" speaker_id="GoffinPhilippe" speaker_name="Goffin, Philippe" speaker_type="MP" speaker_party="MR" speaker_party_name="Mouvement Réformateur" party_status="coalition" speaker_gender="M" speaker_birth="1967">
+<speech id="ParlaMint-BE_2016-07-06-54-commissie-ic468x.u40" text_id="ParlaMint-BE_2016-07-06-54-commissie-ic468x" subcorpus="Reference" house="Lower house" term="54" session="-" meeting="ic468" sitting="-" agenda="-" from="2016-07-06" to="2016-07-06" title="Belgisch parlementair corpus ParlaMint-BE, commissievergadering van 06-07-2016" speaker_role="Chairperson" speaker_id="GoffinPhilippe" speaker_name="Goffin, Philippe" speaker_type="MP" speaker_party="MR" speaker_party_name="Mouvement Réformateur" party_status="coalition" speaker_gender="M" speaker_birth="1967">
 <p id="ParlaMint-BE_2016-07-06-54-commissie-ic468x.seg189" lang="Dutch">
 <s id="ParlaMint-BE_2016-07-06-54-commissie-ic468x.s609">
 (	(	(	PUNCT	-	pc1612	punct	dienen	VERB	Number=Plur Tense=Pres VerbForm=Fin	w12144
@@ -373,4 +366,3 @@ peine	peine	peine	X	Foreign=Yes	w12177	fixed	maison	X	Foreign=Yes	w12175
 </s>
 </p>
 </speech>
-</text>

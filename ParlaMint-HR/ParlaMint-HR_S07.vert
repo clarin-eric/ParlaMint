@@ -1,8 +1,5 @@
-<text id="ParlaMint-HR_S07.ana" subcorpus="Reference" term="9" session="7" meeting="-" sitting="-" agenda="-" from="2018-03-23" to="2018-05-09" title="Minutes of the National Assembly of the Republic of Croatia, Term 9, Session 7 (2018-03-23 - 2018-05-09)">
-<note type="head">
-[7. sjednica]										
-</note>
-<speech id="ParlaMint-HR_S07.u1" speaker_role="Chairperson" speaker_id="JandrokovićGordan" speaker_name="Jandroković, Gordan" speaker_type="MP" speaker_party="HDZ" speaker_party_name="Klub Hrvatske demokratske zajednice" party_status="coalition" speaker_gender="M" speaker_birth="1967">
+<note type="head" content="7. sjednica"/>
+<speech id="ParlaMint-HR_S07.u1" text_id="ParlaMint-HR_S07" subcorpus="Reference" house="-" term="9" session="7" meeting="-" sitting="-" agenda="-" from="2018-03-23" to="2018-05-09" title="Minutes of the National Assembly of the Republic of Croatia, Term 9, Session 7 (2018-03-23 - 2018-05-09)" speaker_role="Chairperson" speaker_id="JandrokovićGordan" speaker_name="Jandroković, Gordan" speaker_type="MP" speaker_party="HDZ" speaker_party_name="Klub Hrvatske demokratske zajednice" party_status="coalition" speaker_gender="M" speaker_birth="1967">
 <p id="seg229262" lang="Croatian">
 <s id="seg229262.1">
 Gospođe	Gospođe	gospođa	NOUN	Case=Nom Gender=Fem Number=Plur	1	nsubj	počinjati	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	7
@@ -96,7 +93,7 @@ Izvolite	Izvolite	izvoljeti	VERB	Mood=Imp Number=Plur Person=2 VerbForm=Fin	1	ro
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-HR_S07.u2" speaker_role="Regular" speaker_id="RadinFurio" speaker_name="Radin, Furio" speaker_type="MP" speaker_party="IDS, PGS, RI" speaker_party_name="Klub Istarskog demokratskog sabora, Primorsko-goranskog saveza, Liste za Rijeku" party_status="opposition" speaker_gender="M" speaker_birth="1950">
+<speech id="ParlaMint-HR_S07.u2" text_id="ParlaMint-HR_S07" subcorpus="Reference" house="-" term="9" session="7" meeting="-" sitting="-" agenda="-" from="2018-03-23" to="2018-05-09" title="Minutes of the National Assembly of the Republic of Croatia, Term 9, Session 7 (2018-03-23 - 2018-05-09)" speaker_role="Regular" speaker_id="RadinFurio" speaker_name="Radin, Furio" speaker_type="MP" speaker_party="IDS, PGS, RI" speaker_party_name="Klub Istarskog demokratskog sabora, Primorsko-goranskog saveza, Liste za Rijeku" party_status="opposition" speaker_gender="M" speaker_birth="1950">
 <p id="seg229267" lang="Croatian">
 <s id="seg229267.1">
 Cijenjena	Cijenjena	cijeniti	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Fem Number=Sing VerbForm=Part Voice=Pass	1	amod	ministrica	NOUN	Case=Nom Gender=Fem Number=Sing	2
@@ -441,9 +438,7 @@ profesori	profesori	profesor	NOUN	Case=Nom Gender=Masc Number=Plur	13	conj	izgub
 ...	...	.	PUNCT	-	14	punct	izgubiti	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part Voice=Act	8
 </s>
 </p>
-<note type="vocal:interruption">
-[Upadica predsjednik: Kolega Radin, vrijeme je isteklo, molim vas pitanje.]										
-</note>
+<note type="vocal:interruption" content="Upadica predsjednik: Kolega Radin, vrijeme je isteklo, molim vas pitanje."/>
 <p id="seg229273" lang="Croatian">
 <s id="seg229273.1">
 Nastavit	Nastavit	nastaviti	VERB	VerbForm=Inf	1	root	-	-	-	-
@@ -454,10 +449,8 @@ poslije	poslije	poslije	ADV	Degree=Pos	3	advmod	nastaviti	VERB	VerbForm=Inf	1
 </s>
 </p>
 </speech>
-<note type="gap::editorial">
-[SAMPLING]										
-</note>
-<speech id="ParlaMint-HR_S07.u9941" speaker_role="Regular" speaker_id="LovrinovićIvan" speaker_name="Lovrinović, Ivan" speaker_type="MP" speaker_party="Živi zid i PH" speaker_party_name="Klub zastupnika Živog zida i Promijenimo Hrvatsku" party_status="opposition" speaker_gender="M" speaker_birth="1960">
+<note type="gap::editorial" content="SAMPLING"/>
+<speech id="ParlaMint-HR_S07.u9941" text_id="ParlaMint-HR_S07" subcorpus="Reference" house="-" term="9" session="7" meeting="-" sitting="-" agenda="-" from="2018-03-23" to="2018-05-09" title="Minutes of the National Assembly of the Republic of Croatia, Term 9, Session 7 (2018-03-23 - 2018-05-09)" speaker_role="Regular" speaker_id="LovrinovićIvan" speaker_name="Lovrinović, Ivan" speaker_type="MP" speaker_party="Živi zid i PH" speaker_party_name="Klub zastupnika Živog zida i Promijenimo Hrvatsku" party_status="opposition" speaker_gender="M" speaker_birth="1960">
 <p id="seg286135" lang="Croatian">
 <s id="seg286135.1">
 Žao	Žao	žao	ADV	Degree=Pos	1	root	-	-	-	-
@@ -480,7 +473,7 @@ je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	14	cop	žao
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-HR_S07.u9942" speaker_role="Chairperson" speaker_id="JandrokovićGordan" speaker_name="Jandroković, Gordan" speaker_type="MP" speaker_party="HDZ" speaker_party_name="Klub Hrvatske demokratske zajednice" party_status="coalition" speaker_gender="M" speaker_birth="1967">
+<speech id="ParlaMint-HR_S07.u9942" text_id="ParlaMint-HR_S07" subcorpus="Reference" house="-" term="9" session="7" meeting="-" sitting="-" agenda="-" from="2018-03-23" to="2018-05-09" title="Minutes of the National Assembly of the Republic of Croatia, Term 9, Session 7 (2018-03-23 - 2018-05-09)" speaker_role="Chairperson" speaker_id="JandrokovićGordan" speaker_name="Jandroković, Gordan" speaker_type="MP" speaker_party="HDZ" speaker_party_name="Klub Hrvatske demokratske zajednice" party_status="coalition" speaker_gender="M" speaker_birth="1967">
 <p id="seg286137" lang="Croatian">
 <s id="seg286137.1">
 Dobro	Dobro	dobro	ADV	Degree=Pos	1	discourse	žao	ADV	Degree=Pos	3
@@ -510,4 +503,3 @@ glasovanje	glasovanje	glasovanje	NOUN	Case=Acc Gender=Neut Number=Sing	3	obl	ić
 </s>
 </p>
 </speech>
-</text>

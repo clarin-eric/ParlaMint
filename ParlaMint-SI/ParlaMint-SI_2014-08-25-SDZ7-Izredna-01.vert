@@ -1,20 +1,9 @@
-<text id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.ana" subcorpus="Reference" term="7" session="-" meeting="1" sitting="-" agenda="-" from="2014-08-25" to="2014-08-25" title="Minutes of the National Assembly of the Republic of Slovenia, Term 7, Extraordinary Session 1, 25.8.2014">
-<note type="head">
-[REPUBLIKA SLOVENIJA DRŽAVNI ZBOR]										
-</note>
-<note type="head">
-[1. izredna seja]										
-</note>
-<note type="head">
-[Sejo sta vodila predsednik Državnega zbora dr. Milan Brglez in podpredsednik Janko Veber.]										
-</note>
-<note type="time">
-[Seja se je začela ob 10. uri.]										
-</note>
-<note type="speaker">
-[PREDSEDNIK DR. MILAN BRGLEZ:]										
-</note>
-<speech id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.u1" speaker_role="Chairperson" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka Mira Cerarja" party_status="-" speaker_gender="M" speaker_birth="1967">
+<note type="head" content="REPUBLIKA SLOVENIJA DRŽAVNI ZBOR"/>
+<note type="head" content="1. izredna seja"/>
+<note type="head" content="Sejo sta vodila predsednik Državnega zbora dr. Milan Brglez in podpredsednik Janko Veber."/>
+<note type="time" content="Seja se je začela ob 10. uri."/>
+<note type="speaker" content="PREDSEDNIK DR. MILAN BRGLEZ:"/>
+<speech id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.u1" text_id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01" subcorpus="Reference" house="Lower house" term="7" session="-" meeting="1" sitting="-" agenda="-" from="2014-08-25" to="2014-08-25" title="Minutes of the National Assembly of the Republic of Slovenia, Term 7, Extraordinary Session 1, 25.8.2014" speaker_role="Chairperson" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka Mira Cerarja" party_status="-" speaker_gender="M" speaker_birth="1967">
 <p id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.seg1" lang="Slovenian">
 <s id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.seg1.1">
 Spoštovane	Spoštovane	spoštovan	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur VerbForm=Part	1	amod	kolegica	NOUN	Case=Nom Gender=Fem Number=Plur	2
@@ -883,10 +872,8 @@ Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 </s>
 </p>
 </speech>
-<note type="speaker">
-[PREDSEDNIK DR. MILAN BRGLEZ:]										
-</note>
-<speech id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.u2" speaker_role="Chairperson" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka Mira Cerarja" party_status="-" speaker_gender="M" speaker_birth="1967">
+<note type="speaker" content="PREDSEDNIK DR. MILAN BRGLEZ:"/>
+<speech id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.u2" text_id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01" subcorpus="Reference" house="Lower house" term="7" session="-" meeting="1" sitting="-" agenda="-" from="2014-08-25" to="2014-08-25" title="Minutes of the National Assembly of the Republic of Slovenia, Term 7, Extraordinary Session 1, 25.8.2014" speaker_role="Chairperson" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka Mira Cerarja" party_status="-" speaker_gender="M" speaker_birth="1967">
 <p id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.seg6" lang="Slovenian">
 <s id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.seg6.1">
 Prehajamo	Prehajamo	prehajati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
@@ -1033,12 +1020,8 @@ proti	proti	proti	ADP	Case=Dat	13	case	2.	NUM	NumForm=Digit NumType=Ord	14
 2.	2.	2.	NUM	NumForm=Digit NumType=Ord	14	conj	84	NUM	NumForm=Digit NumType=Card	11
 </s>
 </p>
-<note type="vote-ayes">
-[Za je glasovalo 84.]										
-</note>
-<note type="vote-noes">
-[Proti 2.]										
-</note>
+<note type="vote-ayes" content="Za je glasovalo 84."/>
+<note type="vote-noes" content="Proti 2."/>
 <p id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.seg11" lang="Slovenian">
 <s id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.seg11.1">
 Ugotavljam	Ugotavljam	ugotavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
@@ -1180,10 +1163,8 @@ Dejanu	Dejanu	Dejan	PROPN	Case=Dat Gender=Masc Number=Sing	12	nmod	predstavnik	N
 </s>
 </p>
 </speech>
-<note type="gap::editorial">
-[SAMPLING]										
-</note>
-<speech id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.u169" speaker_role="Regular" speaker_id="ToninMatej" speaker_name="Tonin, Matej" speaker_type="MP" speaker_party="NSi" speaker_party_name="Nova Slovenija – Krščanski demokrati" party_status="-" speaker_gender="M" speaker_birth="1983">
+<note type="gap::editorial" content="SAMPLING"/>
+<speech id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.u169" text_id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01" subcorpus="Reference" house="Lower house" term="7" session="-" meeting="1" sitting="-" agenda="-" from="2014-08-25" to="2014-08-25" title="Minutes of the National Assembly of the Republic of Slovenia, Term 7, Extraordinary Session 1, 25.8.2014" speaker_role="Regular" speaker_id="ToninMatej" speaker_name="Tonin, Matej" speaker_type="MP" speaker_party="NSi" speaker_party_name="Nova Slovenija – Krščanski demokrati" party_status="-" speaker_gender="M" speaker_birth="1983">
 <p id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.seg579" lang="Slovenian">
 <s id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.seg579.1">
 Jaz	Jaz	jaz	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	1	nsubj	imeti	VERB	Aspect=Imp Gender=Masc Number=Sing VerbForm=Part	3
@@ -1289,10 +1270,8 @@ zavlačujemo	zavlačujemo	zavlačevati	VERB	Aspect=Imp Mood=Ind Number=Plur Pers
 </s>
 </p>
 </speech>
-<note type="speaker">
-[PREDSEDNIK DR. MILAN BRGLEZ:]										
-</note>
-<speech id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.u170" speaker_role="Chairperson" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka Mira Cerarja" party_status="-" speaker_gender="M" speaker_birth="1967">
+<note type="speaker" content="PREDSEDNIK DR. MILAN BRGLEZ:"/>
+<speech id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.u170" text_id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01" subcorpus="Reference" house="Lower house" term="7" session="-" meeting="1" sitting="-" agenda="-" from="2014-08-25" to="2014-08-25" title="Minutes of the National Assembly of the Republic of Slovenia, Term 7, Extraordinary Session 1, 25.8.2014" speaker_role="Chairperson" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka Mira Cerarja" party_status="-" speaker_gender="M" speaker_birth="1967">
 <p id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.seg580" lang="Slovenian">
 <s id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.seg580.1">
 Želi	Želi	želeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
@@ -1312,9 +1291,7 @@ točke	točke	točka	NOUN	Case=Gen Gender=Fem Number=Sing	11	nmod	preložitev	NO
 ?	?	?	PUNCT	-	12	punct	želeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1
 </s>
 </p>
-<note type="answer">
-[Ne želi.]										
-</note>
+<note type="answer" content="Ne želi."/>
 <p id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.seg581" lang="Slovenian">
 <s id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.seg581.1">
 Prehajamo	Prehajamo	prehajati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
@@ -1387,12 +1364,8 @@ proti	proti	proti	ADP	Case=Dat	13	case	28.	NUM	NumForm=Digit NumType=Ord	14
 28.	28.	28.	NUM	NumForm=Digit NumType=Ord	14	advmod	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
 </s>
 </p>
-<note type="vote-ayes">
-[Za je glasovalo 55.]										
-</note>
-<note type="vote-noes">
-[Proti 28.]										
-</note>
+<note type="vote-ayes" content="Za je glasovalo 55."/>
+<note type="vote-noes" content="Proti 28."/>
 <p id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.seg584" lang="Slovenian">
 <s id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.seg584.1">
 Ugotavljam	Ugotavljam	ugotavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
@@ -1456,7 +1429,4 @@ zbora	zbora	zbor	NOUN	Case=Gen Gender=Masc Number=Sing	7	nmod	seja	NOUN	Case=Acc
 </s>
 </p>
 </speech>
-<note type="time">
-[Seja se je končala 25. avgusta 2014 ob 19.10.]										
-</note>
-</text>
+<note type="time" content="Seja se je končala 25. avgusta 2014 ob 19.10."/>

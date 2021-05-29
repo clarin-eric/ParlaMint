@@ -1,8 +1,5 @@
-<text id="ParlaMint-CZ_2013-11-25-ps2013-001-01-001-001.ana" subcorpus="Reference" term="ps2013" session="-" meeting="ps2013/001" sitting="ps2013/001/01" agenda="ps2013/001/001" from="2013-11-25" to="2013-11-25" title="Parliament of the Czech Republic, Chamber of Deputies">
-<note type="speaker">
-[Předsedající Miroslava Němcová]										
-</note>
-<speech id="ParlaMint-CZ_2013-11-25-ps2013-001-01-001-001.u1" speaker_role="Chairperson" speaker_id="MiroslavaNemcova.1952" speaker_name="Němcová, Miroslava" speaker_type="MP" speaker_party="ODS" speaker_party_name="Poslanecký klub Občanské demokratické strany" party_status="-" speaker_gender="F" speaker_birth="1952">
+<note type="speaker" content="Předsedající Miroslava Němcová"/>
+<speech id="ParlaMint-CZ_2013-11-25-ps2013-001-01-001-001.u1" text_id="ParlaMint-CZ_2013-11-25-ps2013-001-01-001-001" subcorpus="Reference" house="Lower house" term="ps2013" session="-" meeting="ps2013/001" sitting="ps2013/001/01" agenda="ps2013/001/001" from="2013-11-25" to="2013-11-25" title="Parliament of the Czech Republic, Chamber of Deputies, 2013-11-25" speaker_role="Chairperson" speaker_id="MiroslavaNemcova.1952" speaker_name="Němcová, Miroslava" speaker_type="MP" speaker_party="ODS" speaker_party_name="Poslanecký klub Občanské demokratické strany" party_status="-" speaker_gender="F" speaker_birth="1952">
 <p id="ParlaMint-CZ_2013-11-25-ps2013-001-01-001-001.u1.p1" lang="Czech">
 <s id="ParlaMint-CZ_2013-11-25-ps2013-001-01-001-001.u1.p1.s1">
 1	1	1	NUM	NumForm=Digit NumType=Card	w1	root	-	-	-	-
@@ -33,9 +30,7 @@ povstali	povstali	povstat	VERB	Animacy=Anim Gender=Masc Number=Plur Polarity=Pos
 .	.	.	PUNCT	-	w9	punct	prosit	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
 </s>
 </p>
-<note type="comment">
-[(Děje se.)]										
-</note>
+<note type="comment" content="(Děje se.)"/>
 <p id="ParlaMint-CZ_2013-11-25-ps2013-001-01-001-001.u1.p3" lang="Czech">
 <s id="ParlaMint-CZ_2013-11-25-ps2013-001-01-001-001.u1.p3.s1">
 "	"	"	PUNCT	-	w1	punct	slibovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w2
@@ -126,7 +121,4 @@ poslanců	poslanců	poslanec	NOUN	Animacy=Anim Case=Gen Gender=Masc Number=Plur 
 </s>
 </p>
 </speech>
-<note type="gap::editorial">
-[SAMPLING]										
-</note>
-</text>
+<note type="gap::editorial" content="SAMPLING"/>
