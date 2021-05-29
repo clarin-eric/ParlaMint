@@ -133,6 +133,8 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	`rm -fr $outAnaDir; mkdir $outAnaDir`;
 	&cp_readme($countryCode, "$docsDir/README.TEI.ana.txt", "$outAnaDir/00README.txt");
 	dircopy($schemaDir, "$outAnaDir/Schema");
+	`rm -f $outAnaDir/Schema/.gitignore`;
+	`rm -f $outAnaDir/Schema/nohup.*`;
 	`$SaxonX outDir=$outDir -xsl:$Final $inAnaRoot`;
     	&polish($outAnaDir);
     }
