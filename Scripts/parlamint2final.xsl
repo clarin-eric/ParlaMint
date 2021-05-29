@@ -264,6 +264,7 @@
   </xsl:variable>
   
   <xsl:template match="/">
+    <xsl:message select="concat('INFO: Starting to process ', tei:teiCorpus/@xml:id)"/>
     <!-- Process component files -->
     <xsl:for-each select="$docs//tei:item">
       <xsl:variable name="this" select="tei:xi-orig"/>
