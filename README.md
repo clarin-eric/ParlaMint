@@ -37,21 +37,21 @@ The *[Scripts](Scripts/) folder* contains the XSLT scripts (and their Perl wrapp
 
 The *sample country directories* should include:
 
-* ParlaMint-XX.xml: teiCorpus root file of the sample with (e.g. speaker and party) metadata and
+* `ParlaMint-XX.xml`: teiCorpus root file of the sample with (e.g. speaker and party) metadata and
   XIncludes to its component TEI files;
 
-* ParlaMint-XX\_*.xml: sample TEI component, a few speeches from the full text (typicall 1 day of speeches);
+* `ParlaMint-XX_*.xml`: sample TEI component, a few speeches from the full text (typicall 1 day of speeches);
 
-* ParlaMint-XX.ana.xml: teiCorpus root file for the linguistically (UD and NER) annotated sample,
+* `ParlaMint-XX.ana.xml`: teiCorpus root file for the linguistically (UD and NER) annotated sample,
   including annotation metadata;
 
-* ParlaMint-XX\_*.ana.xml: ParlaMint-XX\_*.xml + UD and NER annotations;
+* `ParlaMint-XX_*.ana.xml`: ParlaMint-XX_*.xml + UD and NER annotations;
 
-* ParlaMint-XX\_*.conllu: ParlaMint-XX\_*.ana in UD CoNLL-U format (also includes NER annotations)
+* `ParlaMint-XX_*.conllu`: ParlaMint-XX_*.ana in UD CoNLL-U format (also includes NER annotations)
 
-* ParlaMint-XX\_*-meta.tsv: Speech metadata, with type and name of speaker, 
+* `ParlaMint-XX_*-meta.tsv`: Speech metadata, with type and name of speaker, 
   political party, etc.;
 
-* ParlaMint-XX\_*.txt: plain text of each speech, with speech id;
+* `ParlaMint-XX_*.txt`: plain text of each speech, with speech id;
 
-* ParlaMint-XX\_*.vert: vertical format, as used by CQP/CWB, (no)Sketch Engine and KonText concordancers.
+* `ParlaMint-XX_*.vert`: vertical format, as used by CQP/CWB, (no)Sketch Engine and KonText concordancers.
