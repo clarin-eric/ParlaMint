@@ -563,7 +563,7 @@
 					   [@name='coalition' or @name='opposition']"/>
     <xsl:choose>
       <!-- Corpus does not have coalition / opposition) info -->
-      <xsl:when test="not($relations/self::tei:relation)">-</xsl:when>
+      <xsl:when test="not($relations/self::tei:relation)"><xsl:text></xsl:text></xsl:when>
       <xsl:otherwise>
 	<!-- Relation in the correct time-frame, should be only 1 -->
 	<xsl:variable name="relation">
@@ -598,13 +598,13 @@
 	  <xsl:for-each select="$relation/tei:relation[@name = 'coalition']/tokenize(@mutual)">
 	    <xsl:variable name="relation-party" select="."/>
 	    <xsl:for-each select="tokenize($org-refs, ' ')">
-	      <xsl:if test="$relation-party = .">coalition </xsl:if>
+	      <xsl:if test="$relation-party = .">Coalition </xsl:if>
 	    </xsl:for-each>
 	  </xsl:for-each>
 	  <xsl:for-each select="$relation/tei:relation[@name = 'opposition']/tokenize(@active)">
 	    <xsl:variable name="relation-party" select="."/>
 	    <xsl:for-each select="tokenize($org-refs, ' ')">
-	      <xsl:if test="$relation-party = .">opposition </xsl:if>
+	      <xsl:if test="$relation-party = .">Opposition </xsl:if>
 	    </xsl:for-each>
 	  </xsl:for-each>
 	</xsl:variable>
@@ -622,7 +622,7 @@
 	  <xsl:when test="normalize-space($in-relation)">
 	    <xsl:value-of select="normalize-space($in-relation)"/>
 	  </xsl:when>
-	  <xsl:otherwise>-</xsl:otherwise>
+	  <xsl:otherwise><xsl:text></xsl:text></xsl:otherwise>
 	</xsl:choose>
       </xsl:otherwise>
     </xsl:choose>
@@ -661,7 +661,7 @@
       <xsl:when test="normalize-space($politicalParties)">
 	<xsl:value-of select="replace($politicalParties, ';$', '')"/>
       </xsl:when>
-      <xsl:otherwise>-</xsl:otherwise>
+      <xsl:otherwise><xsl:text></xsl:text></xsl:otherwise>
     </xsl:choose>
   </xsl:function>
   
@@ -731,6 +731,7 @@
 	<xsl:value-of select="replace($party/@xml:id, '.+?\.' , '')"/>
 	<xsl:text>;</xsl:text>
       </xsl:when>
+      <xsl:otherwise><xsl:text></xsl:text></xsl:otherwise>
     </xsl:choose>
   </xsl:template>
   
