@@ -400,11 +400,19 @@
   <xsl:template mode="comp" match="tei:seg[not(@xml:id)]">
     <xsl:copy>
       <xsl:apply-templates mode="comp" select="@*"/>
-      <xsl:attribute name="xml:id">
-	<xsl:value-of select="parent::tei:u/@xml:id"/>
-	<xsl:text>.</xsl:text>
-	<xsl:number/>
-      </xsl:attribute>
+      <xsl:choose>
+	<xsl:when test="parent::tei:u/@xml:id">
+	  <xsl:attribute name="xml:id">
+	    <xsl:value-of select="parent::tei:u/@xml:id"/>
+	    <xsl:text>.</xsl:text>
+	    <xsl:number/>
+	  </xsl:attribute>
+	</xsl:when>
+	<xsl:otherwise>
+	  <xsl:message select="concat('ERROR ', /tei:TEI/@xml:id, 
+			       ': seg without ID but utterance also has no ID!')"/>
+	</xsl:otherwise>
+      </xsl:choose>
       <xsl:apply-templates mode="comp"/>
     </xsl:copy>
   </xsl:template>
