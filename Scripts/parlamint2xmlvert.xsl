@@ -151,7 +151,8 @@
 		  meeting="{$meeting}" sitting="{$sitting}" agenda="{$agenda}"
 		  from="{$from}" to="{$to}" title="{$title}">
 	    <xsl:attribute name="speaker_role" select="et:u-role(@ana)"/>
-	    <xsl:if test="@who">
+	    <xsl:choose>
+	    <xsl:when test="@who">
 	      <xsl:variable name="speaker" select="key('idr', @who, $teiHeader)"/>
 	      <xsl:attribute name="speaker_role" select="et:u-role(@ana)"/>
 	      <xsl:attribute name="speaker_id" select="$speaker/@xml:id"/>
@@ -162,7 +163,19 @@
 	      <xsl:attribute name="party_status" select="et:party-status($speaker)"/>
 	      <xsl:attribute name="speaker_gender" select="$speaker/tei:sex/@value"/>
 	      <xsl:attribute name="speaker_birth" select="replace($speaker/tei:birth/@when, '-.+', '')"/>
-	    </xsl:if>
+	    </xsl:when>
+	    <xsl:otherwise>
+	      <xsl:attribute name="speaker_role"/>
+	      <xsl:attribute name="speaker_id"/>
+	      <xsl:attribute name="speaker_name"/>
+	      <xsl:attribute name="speaker_type"/>
+	      <xsl:attribute name="speaker_party"/>
+	      <xsl:attribute name="speaker_party_name"/>
+	      <xsl:attribute name="party_status"/>
+	      <xsl:attribute name="speaker_gender"/>
+	      <xsl:attribute name="speaker_birth"/>
+	    </xsl:otherwise>
+	    </xsl:choose>
 	    <xsl:text>&#10;</xsl:text>
 	    <xsl:apply-templates/>
 	  </speech>
@@ -346,7 +359,7 @@
   <xsl:template name="house">
     <xsl:param name="lower">Lower house</xsl:param>
     <xsl:param name="upper">Upper house</xsl:param>
-    <xsl:param name="none">-</xsl:param>
+    <xsl:param name="none"></xsl:param>
     <xsl:variable name="titleStmt" select="//tei:teiHeader/tei:fileDesc/tei:titleStmt"/>
     <xsl:variable name="is_lower">
       <xsl:for-each select="$titleStmt/tei:meeting">
@@ -408,7 +421,7 @@
 	<xsl:value-of select="$result"/>
       </xsl:when>
       <xsl:otherwise>
-	<xsl:text>-</xsl:text>
+	<xsl:text></xsl:text>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
@@ -493,7 +506,7 @@
 	<xsl:message>
 	  <xsl:text>ERROR: empty persName!</xsl:text>
 	</xsl:message>
-	<xsl:text>-</xsl:text>
+	<xsl:text></xsl:text>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:function>
@@ -843,7 +856,7 @@
 	  <xsl:value-of select="replace($fs, '\|', ' ')"/>
 	</xsl:when>
 	<xsl:otherwise>
-	  <xsl:text>-</xsl:text>
+	  <xsl:text></xsl:text>
 	</xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
