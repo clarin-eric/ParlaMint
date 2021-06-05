@@ -396,6 +396,19 @@
     </xsl:copy>
   </xsl:template>  
 
+  <!-- Give IDs to segs without them -->
+  <xsl:template mode="comp" match="tei:seg[not(@xml:id)]">
+    <xsl:copy>
+      <xsl:apply-templates mode="comp" select="@*"/>
+      <xsl:attribute name="xml:id">
+	<xsl:value-of select="parent::tei:u/@xml:id"/>
+	<xsl:text>.</xsl:text>
+	<xsl:number/>
+      </xsl:attribute>
+      <xsl:apply-templates mode="comp"/>
+    </xsl:copy>
+  </xsl:template>
+      
   <!-- Take care of syntactic words -->
   <xsl:template mode="comp" match="tei:w[tei:w]">
     <xsl:choose>
