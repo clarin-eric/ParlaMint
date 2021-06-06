@@ -3,6 +3,7 @@
 <!-- Takes root file as input, and outputs it and all finalized component files to outDir:
      - set release date to today
      - set version and handles for 2.1
+     - set correct subcorpus
      - get rid of spurious handle ref
      - get rid of spurious spaces
      - insert government org, if missing
@@ -29,6 +30,7 @@
   <xsl:param name="outDir">.</xsl:param>
   <xsl:param name="anaDir">.</xsl:param>
   <xsl:param name="version">2.1</xsl:param>
+  <xsl:param name="covid-date" as="xs:date">2019-11-01</xsl:param>
   <xsl:param name="handle-txt">http://hdl.handle.net/11356/1432</xsl:param>
   <xsl:param name="handle-ana">http://hdl.handle.net/11356/1431</xsl:param>
   <xsl:param name="type">
@@ -174,7 +176,6 @@
 					 '.*?([^/]+)/[^/]+\.[^/]+$', '$1')"/>
 
   <xsl:variable name="today" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
-  
   <xsl:variable name="outRoot">
     <xsl:value-of select="$outDir"/>
     <xsl:text>/</xsl:text>
@@ -292,9 +293,52 @@
     </xsl:copy>
   </xsl:template>
   <xsl:template mode="comp" match="@*">
-   <xsl:copy/>
+    <xsl:copy/>
   </xsl:template>
 
+  <xsl:template mode="comp" match="tei:TEI/@ana | tei:text/@ana">
+    <xsl:variable name="id" select="ancestor::tei:TEI/@xml:id"/>
+    <xsl:variable name="date" select="ancestor::tei:TEI/tei:teiHeader//tei:setting/tei:date"/>
+    <xsl:variable name="date-from">
+      <xsl:choose>
+	<xsl:when test="$date/@when">
+	  <xsl:value-of select="$date/@when"/>
+	</xsl:when>
+	<xsl:when test="$date/@from">
+	  <xsl:value-of select="$date/@from"/>
+	</xsl:when>
+	<xsl:otherwise>
+	  <xsl:message select="concat('ERROR ', $id, ': no date in setting!')"/>
+	</xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+    <xsl:attribute name="ana">
+      <xsl:variable name="ref">
+	<xsl:for-each select="tokenize(., ' ')">
+	  <xsl:choose>
+	    <xsl:when test=". = '#reference' and 
+			    $covid-date &lt;= $date-from">
+	      <xsl:text>#covid</xsl:text>
+	      <xsl:message select="concat('WARN ', $id, 
+			       ': fixing subcorpus to covid for date ', $date-from)"/>
+	    </xsl:when>
+	    <xsl:when test=". = '#covid' and 
+			    $covid-date &gt; $date-from">
+	      <xsl:text>#reference</xsl:text>
+	      <xsl:message select="concat('WARN ', $id, 
+			       ': fixing subcorpus to reference for date ', $date-from)"/>
+	    </xsl:when>
+	    <xsl:otherwise>
+	      <xsl:value-of select="."/>
+	    </xsl:otherwise>
+	  </xsl:choose>
+	  <xsl:text>&#32;</xsl:text>
+	</xsl:for-each>
+      </xsl:variable>
+      <xsl:value-of select="normalize-space($ref)"/>
+    </xsl:attribute>
+  </xsl:template>
+  
   <!-- Get rid of spurious .ana in eg.
        <title type="main" xml:lang="cs">Český parlamentní korpus ParlaMint-CZ, 
          2013-12-04 ps2013-002-01-000-000.ana [ParlaMint.ana]</title>
@@ -355,25 +399,20 @@
     </xsl:choose>
   </xsl:template>
     
+  <!-- Same as for root -->
   <xsl:template mode="comp" match="tei:publicationStmt/tei:date">
     <xsl:apply-templates select="."/>
   </xsl:template>
-  
   <xsl:template mode="comp" match="tei:editionStmt/tei:edition">
     <xsl:apply-templates select="."/>
   </xsl:template>
-  
   <xsl:template mode="comp" match="tei:idno[contains(., 'http://hdl.handle.net/11356/')]">
     <xsl:apply-templates select="."/>
   </xsl:template>
-
-  <!-- Same as for root -->
   <xsl:template mode="comp" match="tei:publicationStmt[tei:idno]/
 		       tei:pubPlace[tei:ref[matches(@target, 'hdl.handle.net')]]">
     <xsl:apply-templates select="."/>
   </xsl:template>
-  
-  <!-- Same as for root -->
   <xsl:template mode="comp" match="tei:meeting">
     <xsl:apply-templates select="."/>
   </xsl:template>
@@ -396,7 +435,7 @@
     </xsl:copy>
   </xsl:template>  
 
-  <!-- Give IDs to segs without them -->
+  <!-- Give IDs to segs without them (if u has ID, otherwise complain) -->
   <xsl:template mode="comp" match="tei:seg[not(@xml:id)]">
     <xsl:copy>
       <xsl:apply-templates mode="comp" select="@*"/>
