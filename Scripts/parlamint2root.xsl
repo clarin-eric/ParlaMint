@@ -196,7 +196,7 @@
     </xsl:copy>
   </xsl:template>
   
-  <xsl:template match="tei:taxonomy[@xml:id='UD-SYN']">
+  <xsl:template match="tei:taxonomy">
     <xsl:variable name="id" select="@xml:id"/>
     <xsl:copy>
       <xsl:attribute name="xml:id" select="$id"/>
@@ -208,7 +208,12 @@
 	  <category xml:id="{current-grouping-key()}">
 	    <xsl:for-each select="current-group()/tei:*">
 	      <xsl:copy>
-		<xsl:attribute name="corresp" select="ancestor::tei:teiCorpus/@xml:id"/>
+		<xsl:attribute name="corresp"
+			       select="concat('#', ancestor::tei:teiCorpus/@xml:id)"/>
+		<xsl:if test="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang != 'en'">
+		  <xsl:attribute name="xml:lang"
+				 select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
+		</xsl:if>
 		<xsl:apply-templates/>
 	      </xsl:copy>
 	    </xsl:for-each>

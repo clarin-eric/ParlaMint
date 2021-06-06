@@ -11,7 +11,7 @@
             </respStmt>
             <respStmt>
                <persName>Tomaž Erjavec</persName>
-               <resp>ParlaMint corpus encoding verification</resp>
+               <resp>ParlaMint corpus encoding validation</resp>
             </respStmt>
             <respStmt n="ParlaMint-BE">
                <persName>Henk van der Pol</persName>
@@ -359,7 +359,7 @@
       <encodingDesc>
          <projectDesc>
             <p>
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through the CLARIN.SI repository, concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
          <editorialDecl>
             <correction>
@@ -479,6 +479,3407 @@
                <tagUsage gi="w" occurs="34681551"/>
             </namespace>
          </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="parla.legislature">
+               <category xml:id="parla.organization">
+                  <catDesc corresp="#ParlaMint-BE" xml:lang="nl">
+                     <term>Organisatie</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-BE">
+                     <term>Organization</term>
+                  </catDesc>
+                  <category corresp="#ParlaMint-BE" xml:lang="nl">
+                     <catDesc>
+                        <term>Kamers</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Chambers</term>
+                     </catDesc>
+                     <category xml:id="parla.uni">
+                        <catDesc>
+                           <term>Unikameralisme</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Unicameralism</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.national">
+                        <catDesc>
+                           <term>Landelijk</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>National</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.community">
+                        <catDesc>
+                           <term>Gemeenschap</term> (Vlaams of Waals)</catDesc>
+                        <catDesc>
+                           <term>Community</term> (Flemish or Wallonian)</catDesc>
+                     </category>
+                     <category xml:id="parla.federal">
+                        <catDesc>
+                           <term>Federaal</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Federal</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.bi">
+                        <catDesc>
+                           <term>Bikameralisme</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Bicameralism</term>
+                        </catDesc>
+                        <category xml:id="parla.upper">
+                           <catDesc>
+                              <term>Senaat</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Upper house</term>
+                           </catDesc>
+                        </category>
+                        <category xml:id="parla.lower">
+                           <catDesc>
+                              <term>Kamer</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Lower house</term>
+                           </catDesc>
+                        </category>
+                     </category>
+                     <category xml:id="parla.multi">
+                        <catDesc>
+                           <term>Multikameralisme</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Multicameralism</term>
+                        </catDesc>
+                        <category xml:id="parla.chamber">
+                           <catDesc>
+                              <term>Kamer</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Chamber</term>
+                           </catDesc>
+                        </category>
+                     </category>
+                  </category>
+                  <catDesc corresp="#ParlaMint-BG">
+                     <term>Organization</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-BG" xml:lang="bg">
+                     <term>Организация</term>
+                  </catDesc>
+                  <category corresp="#ParlaMint-BG" xml:lang="bg">
+                     <catDesc>
+                        <term>Chambers</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Парламент</term>
+                     </catDesc>
+                     <category xml:id="parla.uni">
+                        <catDesc>
+                           <term>Unicameralism</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Еднокамарен</term>
+                        </catDesc>
+                     </category>
+                  </category>
+                  <category corresp="#ParlaMint-BG" xml:lang="bg">
+                     <catDesc>
+                        <term>Committee</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Комисия</term>
+                     </catDesc>
+                     <category xml:id="parla.committee.standing">
+                        <catDesc>
+                           <term>Standing committee</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Постоянна комисия</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.committee.special">
+                        <catDesc>
+                           <term>Special committee</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Временна комисия</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.committee.inquiry">
+                        <catDesc>
+                           <term>Committee of inquiry</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Анкетна комисия</term>
+                        </catDesc>
+                     </category>
+                  </category>
+                  <catDesc corresp="#ParlaMint-CZ" xml:lang="cs">
+                     <term>Organizace</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-CZ">
+                     <term>Organization</term>
+                  </catDesc>
+                  <category corresp="#ParlaMint-CZ" xml:lang="cs">
+                     <catDesc>
+                        <term>Komory</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Chambers</term>
+                     </catDesc>
+                     <category xml:id="parla.uni">
+                        <catDesc>
+                           <term>Jednokomorový parlament</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Unicameralism</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.bi">
+                        <catDesc>
+                           <term>Dvoukomorový parlament</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Bicameralism</term>
+                        </catDesc>
+                        <category xml:id="parla.upper">
+                           <catDesc>
+                              <term>Senát</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Upper house</term>
+                           </catDesc>
+                        </category>
+                        <category xml:id="parla.lower">
+                           <catDesc>
+                              <term>Poslanecká sněmovna</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Lower house</term>
+                           </catDesc>
+                        </category>
+                     </category>
+                     <category xml:id="parla.multi">
+                        <catDesc>
+                           <term>Vícekomorový parlament</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Multicameralism</term>
+                        </catDesc>
+                        <category xml:id="parla.chamber">
+                           <catDesc>
+                              <term>Komora</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Chamber</term>
+                           </catDesc>
+                        </category>
+                     </category>
+                  </category>
+                  <category corresp="#ParlaMint-CZ" xml:lang="cs">
+                     <catDesc>
+                        <term>Komise</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Committee</term>
+                     </catDesc>
+                     <category xml:id="parla.committee.standing">
+                        <catDesc>
+                           <term>Stálá komise</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Standing committee</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.committee.special">
+                        <catDesc>
+                           <term>Zvláštní komise</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Special committee</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.committee.inquiry">
+                        <catDesc>
+                           <term>Vyšetřovací komise</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Committee of inquiry</term>
+                        </catDesc>
+                     </category>
+                  </category>
+                  <catDesc corresp="#ParlaMint-DK">
+                     <term>Organization</term>
+                  </catDesc>
+                  <category corresp="#ParlaMint-DK" xml:lang="da">
+                     <catDesc>
+                        <term>Chambers</term>
+                     </catDesc>
+                     <category xml:id="parla.uni">
+                        <catDesc>
+                           <term>Unicameralism</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.bi">
+                        <catDesc>
+                           <term>Bicameralism</term>
+                        </catDesc>
+                        <category xml:id="parla.upper">
+                           <catDesc>
+                              <term>Upper house</term>
+                           </catDesc>
+                        </category>
+                        <category xml:id="parla.lower">
+                           <catDesc>
+                              <term>Lower house</term>
+                           </catDesc>
+                        </category>
+                     </category>
+                     <category xml:id="parla.multi">
+                        <catDesc>
+                           <term>Multicameralism</term>
+                        </catDesc>
+                        <category xml:id="parla.chamber">
+                           <catDesc>
+                              <term>Chamber</term>
+                           </catDesc>
+                        </category>
+                     </category>
+                  </category>
+                  <category corresp="#ParlaMint-DK" xml:lang="da">
+                     <catDesc>
+                        <term>Committee</term>
+                     </catDesc>
+                     <category xml:id="parla.committee.standing">
+                        <catDesc>
+                           <term>Standing committee</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.committee.special">
+                        <catDesc>
+                           <term>Special committee</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.committee.inquiry">
+                        <catDesc>
+                           <term>Committee of inquiry</term>
+                        </catDesc>
+                     </category>
+                  </category>
+                  <catDesc corresp="#ParlaMint-ES" xml:lang="es">
+                     <term>Organización</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-ES">
+                     <term>Organization</term>
+                  </catDesc>
+                  <category corresp="#ParlaMint-ES" xml:lang="es">
+                     <catDesc>
+                        <term>Cámaras</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Chambers</term>
+                     </catDesc>
+                     <category xml:id="parla.uni">
+                        <catDesc>
+                           <term>Unicameralismo</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Unicameralism</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.bi">
+                        <catDesc>
+                           <term>Bicameralismo</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Bicameralism</term>
+                        </catDesc>
+                        <category xml:id="parla.upper">
+                           <catDesc>
+                              <term>Cámara Alta</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Upper house</term>
+                           </catDesc>
+                        </category>
+                        <category xml:id="parla.lower">
+                           <catDesc>
+                              <term>Cámara Baja</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Lower house</term>
+                           </catDesc>
+                        </category>
+                        <category xml:id="parla.multi">
+                           <catDesc>
+                              <term>Multicameralismo</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Multicameralism</term>
+                           </catDesc>
+                           <category xml:id="parla.chamber">
+                              <catDesc>
+                                 <term>Cámara</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Chamber</term>
+                              </catDesc>
+                           </category>
+                        </category>
+                     </category>
+                  </category>
+                  <category corresp="#ParlaMint-ES" xml:lang="es">
+                     <catDesc>
+                        <term>Comisión</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Committee</term>
+                     </catDesc>
+                     <category xml:id="parla.committee.standing">
+                        <catDesc>
+                           <term>Comisión permanente</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Standing committee</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.committee.special">
+                        <catDesc>
+                           <term>Comisión no permanente</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Special committee</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.committee.inquiry">
+                        <catDesc>
+                           <term>Comisión de investigación</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Committee of inquiry</term>
+                        </catDesc>
+                     </category>
+                  </category>
+                  <catDesc corresp="#ParlaMint-FR" xml:lang="fr">
+                     <term>Organisation</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-FR">
+                     <term>Organization</term>
+                  </catDesc>
+                  <category corresp="#ParlaMint-FR" xml:lang="fr">
+                     <catDesc>
+                        <term>Chambres</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Chambers</term>
+                     </catDesc>
+                     <category xml:id="parla.uni">
+                        <catDesc>
+                           <term>Unicaméralisme</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Unicameralism</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.bi">
+                        <catDesc>
+                           <term>Bicaméralisme</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Bicameralism</term>
+                        </catDesc>
+                        <category xml:id="parla.upper">
+                           <catDesc>
+                              <term>Chambre haute</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Upper house</term>
+                           </catDesc>
+                        </category>
+                        <category xml:id="parla.lower">
+                           <catDesc>
+                              <term>Chambre basse</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Lower house</term>
+                           </catDesc>
+                        </category>
+                     </category>
+                     <category xml:id="parla.multi">
+                        <catDesc>
+                           <term>Multicaméralisme</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Multicameralism</term>
+                        </catDesc>
+                        <category xml:id="parla.chamber">
+                           <catDesc>
+                              <term>Chambre</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Chamber</term>
+                           </catDesc>
+                        </category>
+                     </category>
+                  </category>
+                  <category corresp="#ParlaMint-FR" xml:lang="fr">
+                     <catDesc>
+                        <term>Commission</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Committee</term>
+                     </catDesc>
+                     <category xml:id="parla.committee.standing">
+                        <catDesc>
+                           <term>Commission permanente</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Standing committee</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.committee.special">
+                        <catDesc>
+                           <term>Commission spéciale</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Special committee</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.committee.inquiry">
+                        <catDesc>
+                           <term>Commission d'enquête</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Committee of inquiry</term>
+                        </catDesc>
+                     </category>
+                  </category>
+                  <category corresp="#ParlaMint-FR" xml:lang="fr">
+                     <catDesc>
+                        <term>Période législative</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Legislative period</term>: term of the parliament between general elections.</catDesc>
+                     <category xml:id="parla.session">
+                        <catDesc>
+                           <term>Session parlementaire</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Legislative session</term>: the period of time in which a legislature is convened for purpose of lawmaking, usually being one of two or more smaller divisions of the entire time between two elections. A session is a meeting or series of connected meetings devoted to a single order of business, program, agenda, or announced purpose.</catDesc>
+                        <category xml:id="parla.meeting">
+                           <catDesc>
+                              <term>Réunion</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Meeting</term>: Each meeting may be a separate session or part of a group of meetings constituting a session. The session/meeting may take one or more days.</catDesc>
+                           <category xml:id="parla.meeting-types">
+                              <catDesc>
+                                 <term>Types de réunions</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Types of meetings</term>
+                              </catDesc>
+                              <category xml:id="parla.meeting.regular">
+                                 <catDesc>
+                                    <term>Réunion ordinaire</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Regular meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.special">
+                                 <catDesc>
+                                    <term>Réunion spéciale</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Special meeting</term>
+                                 </catDesc>
+                                 <category xml:id="parla.meeting.extraordinary">
+                                    <catDesc>
+                                       <term>Réunion extraordinaire</term>
+                                    </catDesc>
+                                    <catDesc>
+                                       <term>Extraordinary meeting</term>
+                                    </catDesc>
+                                 </category>
+                                 <category xml:id="parla.meeting.urgent">
+                                    <catDesc>
+                                       <term>Réunion urgente</term>
+                                    </catDesc>
+                                    <catDesc>
+                                       <term>Urgent meeting</term>
+                                    </catDesc>
+                                 </category>
+                                 <category xml:id="parla.meeting.ceremonial">
+                                    <catDesc>
+                                       <term>Réunion cérémonielle</term>
+                                    </catDesc>
+                                    <catDesc>
+                                       <term>Ceremonial meeting</term>
+                                    </catDesc>
+                                 </category>
+                                 <category xml:id="parla.meeting.commemorative">
+                                    <catDesc>
+                                       <term>Réunion commémorative</term>
+                                    </catDesc>
+                                    <catDesc>
+                                       <term>Commemorative meeting</term>
+                                    </catDesc>
+                                 </category>
+                                 <category xml:id="parla.meeting.opinions">
+                                    <catDesc>
+                                       <term>Présentation publique des avis</term>
+                                    </catDesc>
+                                    <catDesc>
+                                       <term>Public presentation of opinions</term>
+                                    </catDesc>
+                                 </category>
+                              </category>
+                              <category xml:id="parla.meeting.continued">
+                                 <catDesc>
+                                    <term>Suite de réunion</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Continued meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.public">
+                                 <catDesc>
+                                    <term>Réunion publique</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Public meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.executive">
+                                 <catDesc>
+                                    <term>Réunion exécutive</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Executive meeting</term>
+                                 </catDesc>
+                              </category>
+                           </category>
+                           <category xml:id="parla.sitting">
+                              <catDesc>
+                                 <term>Séance</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Sitting</term>: sitting day</catDesc>
+                           </category>
+                        </category>
+                     </category>
+                  </category>
+                  <catDesc corresp="#ParlaMint-GB">
+                     <term>Organization</term>
+                  </catDesc>
+                  <category corresp="#ParlaMint-GB">
+                     <catDesc>
+                        <term>Chambers</term>
+                     </catDesc>
+                     <category xml:id="parla.bi">
+                        <catDesc>
+                           <term>Bicameralism</term>
+                        </catDesc>
+                        <category xml:id="parla.upper">
+                           <catDesc>
+                              <term>Upper house</term>
+                           </catDesc>
+                        </category>
+                        <category xml:id="parla.lower">
+                           <catDesc>
+                              <term>Lower house</term>
+                           </catDesc>
+                        </category>
+                     </category>
+                  </category>
+                  <catDesc corresp="#ParlaMint-HR" xml:lang="hr">
+                     <term>Organizacija</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-HR">
+                     <term>Organization</term>
+                  </catDesc>
+                  <category corresp="#ParlaMint-HR" xml:lang="hr">
+                     <catDesc>
+                        <term>Komore</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Chambers</term>
+                     </catDesc>
+                     <category xml:id="parla.uni">
+                        <catDesc>
+                           <term>Jednodoman</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Unicameralism</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.bi">
+                        <catDesc>
+                           <term>Dvodoman</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Bicameralism</term>
+                        </catDesc>
+                        <category xml:id="parla.upper">
+                           <catDesc>
+                              <term>Gornji dom</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Upper house</term>
+                           </catDesc>
+                        </category>
+                        <category xml:id="parla.lower">
+                           <catDesc>
+                              <term>Donji dom</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Lower house</term>
+                           </catDesc>
+                        </category>
+                     </category>
+                     <category xml:id="parla.multi">
+                        <catDesc>
+                           <term>Višedoman</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Multicameralism</term>
+                        </catDesc>
+                        <category xml:id="parla.chamber">
+                           <catDesc>
+                              <term>Komora</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Chamber</term>
+                           </catDesc>
+                        </category>
+                     </category>
+                  </category>
+                  <category corresp="#ParlaMint-HR" xml:lang="hr">
+                     <catDesc>
+                        <term>Radno tijelo</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Committee</term>
+                     </catDesc>
+                     <category xml:id="parla.committee.standing">
+                        <catDesc>
+                           <term>Stalno radno tijelo</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Standing committee</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.committee.special">
+                        <catDesc>
+                           <term>Privremeno radno tijelo</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Special committee</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.committee.inquiry">
+                        <catDesc>
+                           <term>Istražno tijelo</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Committee of inquiry</term>
+                        </catDesc>
+                     </category>
+                  </category>
+                  <catDesc corresp="#ParlaMint-HU" xml:lang="hu">
+                     <term>Szervezet</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-HU">
+                     <term>Organization</term>
+                  </catDesc>
+                  <category corresp="#ParlaMint-HU" xml:lang="hu">
+                     <catDesc>
+                        <term>Kamara</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Chambers</term>
+                     </catDesc>
+                     <category xml:id="parla.uni">
+                        <catDesc>
+                           <term>Egykamarás</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Unicameralism</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.bi">
+                        <catDesc>
+                           <term>Kétkamarás</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Bicameralism</term>
+                        </catDesc>
+                        <category xml:id="parla.upper">
+                           <catDesc>
+                              <term>Felsőház</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Upper house</term>
+                           </catDesc>
+                        </category>
+                        <category xml:id="parla.lower">
+                           <catDesc>
+                              <term>Alsóház</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Lower house</term>
+                           </catDesc>
+                        </category>
+                     </category>
+                     <category xml:id="parla.multi">
+                        <catDesc>
+                           <term>Többkamarás</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Multicameralism</term>
+                        </catDesc>
+                        <category xml:id="parla.chamber">
+                           <catDesc>
+                              <term>Kamara</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Chamber</term>
+                           </catDesc>
+                        </category>
+                     </category>
+                  </category>
+                  <category corresp="#ParlaMint-HU" xml:lang="hu">
+                     <catDesc>
+                        <term>Bizottságok</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Committee</term>
+                     </catDesc>
+                     <category xml:id="parla.committee.standing">
+                        <catDesc>
+                           <term>Állandó bizottságok</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Standing committee</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.committee.special">
+                        <catDesc>
+                           <term>Eseti bizottságok</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Special committee</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.committee.inquiry">
+                        <catDesc>
+                           <term>Vizsgálati bizottságok</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Committee of inquiry</term>
+                        </catDesc>
+                     </category>
+                  </category>
+                  <catDesc corresp="#ParlaMint-IS" xml:lang="is">
+                     <term>Skipulag</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-IS">
+                     <term>Organization</term>
+                  </catDesc>
+                  <category corresp="#ParlaMint-IS" xml:lang="is">
+                     <catDesc>
+                        <term>Þingdeildir</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Chambers</term>
+                     </catDesc>
+                     <category xml:id="parla.uni">
+                        <catDesc>
+                           <term>Sameinað þing</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Unicameralism</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.bi">
+                        <catDesc>
+                           <term>Bicameralism</term>
+                        </catDesc>
+                        <category xml:id="parla.upper">
+                           <catDesc>
+                              <term>Efri deild</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Upper house</term>
+                           </catDesc>
+                        </category>
+                        <category xml:id="parla.lower">
+                           <catDesc>
+                              <term>Neðri deild</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Lower house</term>
+                           </catDesc>
+                        </category>
+                     </category>
+                  </category>
+                  <catDesc corresp="#ParlaMint-IT" xml:lang="it">
+                     <term>Organizzazione</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-IT">
+                     <term>Organization</term>
+                  </catDesc>
+                  <category corresp="#ParlaMint-IT" xml:lang="it">
+                     <catDesc>
+                        <term>Camere</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Chambers</term>
+                     </catDesc>
+                     <category xml:id="parla.uni">
+                        <catDesc>
+                           <term>Monocameralismo</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Unicameralism</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.bi">
+                        <catDesc>
+                           <term>Bicameralismo</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Bicameralism</term>
+                        </catDesc>
+                        <category xml:id="parla.upper">
+                           <catDesc>
+                              <term>Senato della Repubblica</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Upper house</term>
+                           </catDesc>
+                        </category>
+                        <category xml:id="parla.lower">
+                           <catDesc>
+                              <term>Camera dei Deputati</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Lower house</term>
+                           </catDesc>
+                        </category>
+                     </category>
+                     <category xml:id="parla.multi">
+                        <catDesc>
+                           <term>Multicameralismo</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Multicameralism</term>
+                        </catDesc>
+                        <category xml:id="parla.chamber">
+                           <catDesc>
+                              <term>Camera</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Chamber</term>
+                           </catDesc>
+                        </category>
+                     </category>
+                  </category>
+                  <catDesc corresp="#ParlaMint-LT" xml:lang="lt">
+                     <term>Organizacija</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-LT">
+                     <term>Organization</term>
+                  </catDesc>
+                  <category corresp="#ParlaMint-LT" xml:lang="lt">
+                     <catDesc>
+                        <term>Rūmai</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Chambers</term>
+                     </catDesc>
+                     <category xml:id="parla.uni">
+                        <catDesc>
+                           <term>Vienų rūmų parlamentas</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Unicameralism</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.bi">
+                        <catDesc>
+                           <term>Dviejų rūmų parlamentas</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Bicameralism</term>
+                        </catDesc>
+                        <category xml:id="parla.upper">
+                           <catDesc>
+                              <term>Aukštesnieji rūmai</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Upper house</term>
+                           </catDesc>
+                        </category>
+                        <category xml:id="parla.lower">
+                           <catDesc>
+                              <term>Žemesnieji rūmai</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Lower house</term>
+                           </catDesc>
+                        </category>
+                     </category>
+                     <category xml:id="parla.multi">
+                        <catDesc>
+                           <term>Daugelio rūmų parlamentas</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Multicameralism</term>
+                        </catDesc>
+                        <category xml:id="parla.chamber">
+                           <catDesc>
+                              <term>Rūmai</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Chamber</term>
+                           </catDesc>
+                        </category>
+                     </category>
+                  </category>
+                  <category corresp="#ParlaMint-LT" xml:lang="lt">
+                     <catDesc>
+                        <term>Komitetas arba komisija</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Committee</term>
+                     </catDesc>
+                     <category xml:id="parla.committee.standing">
+                        <catDesc>
+                           <term>Nuolatinis komitetas arba komisija</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Standing committee</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.committee.special">
+                        <catDesc>
+                           <term>Specialioji (tyrimo) komisija</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Special committee</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.committee.inquiry">
+                        <catDesc>
+                           <term>Laikinoji (tyrimo) komisija</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Committee of inquiry</term>
+                        </catDesc>
+                     </category>
+                  </category>
+                  <catDesc corresp="#ParlaMint-LV" xml:lang="lv">
+                     <term>Struktūra</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-LV">
+                     <term>Organization</term>
+                  </catDesc>
+                  <category corresp="#ParlaMint-LV" xml:lang="lv">
+                     <catDesc>
+                        <term>Palātas</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Chambers</term>
+                     </catDesc>
+                     <category xml:id="parla.uni">
+                        <catDesc>
+                           <term>Vienpalātas</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Unicameralism</term>
+                        </catDesc>
+                     </category>
+                  </category>
+                  <catDesc corresp="#ParlaMint-NL">
+                     <term>Organization</term>
+                  </catDesc>
+                  <category corresp="#ParlaMint-NL" xml:lang="nl">
+                     <catDesc>
+                        <term>Kamers</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Chambers</term>
+                     </catDesc>
+                     <category xml:id="parla.uni">
+                        <catDesc>
+                           <term>Unicameralism</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.bi">
+                        <catDesc>
+                           <term>Bicameralism</term>
+                        </catDesc>
+                        <category xml:id="parla.upper">
+                           <catDesc>
+                              <term>Eerste Kamer</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Upper house</term>
+                           </catDesc>
+                        </category>
+                        <category xml:id="parla.lower">
+                           <catDesc>
+                              <term>Eerste Kamer</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Lower house</term>
+                           </catDesc>
+                        </category>
+                     </category>
+                     <category xml:id="parla.multi">
+                        <catDesc>
+                           <term>Multicameralism</term>
+                        </catDesc>
+                        <category xml:id="parla.chamber">
+                           <catDesc>
+                              <term>Chamber</term>
+                           </catDesc>
+                        </category>
+                     </category>
+                  </category>
+                  <category corresp="#ParlaMint-NL" xml:lang="nl">
+                     <catDesc>
+                        <term>Commissie</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Committee</term>
+                     </catDesc>
+                     <category xml:id="parla.committee.special">
+                        <catDesc>
+                           <term>Speciale commissie</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Special committee</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.committee.inquiry">
+                        <catDesc>
+                           <term>Onderzoekscommissie</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Committee of inquiry</term>
+                        </catDesc>
+                     </category>
+                  </category>
+                  <catDesc corresp="#ParlaMint-PL" xml:lang="pl">
+                     <term>Organizacja</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-PL">
+                     <term>Organization</term>
+                  </catDesc>
+                  <category corresp="#ParlaMint-PL" xml:lang="pl">
+                     <catDesc>
+                        <term>Izby</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Chambers</term>
+                     </catDesc>
+                     <category xml:id="parla.uni">
+                        <catDesc>
+                           <term>Unikameralizm</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Unicameralism</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.bi">
+                        <catDesc>
+                           <term>Bikameralizm</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Bicameralism</term>
+                        </catDesc>
+                        <category xml:id="parla.upper">
+                           <catDesc>
+                              <term>Senat</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Upper house</term>
+                           </catDesc>
+                        </category>
+                        <category xml:id="parla.lower">
+                           <catDesc>
+                              <term>Sejm</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Lower house</term>
+                           </catDesc>
+                        </category>
+                     </category>
+                     <category xml:id="parla.multi">
+                        <catDesc>
+                           <term>Multikameralizm</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Multicameralism</term>
+                        </catDesc>
+                        <category xml:id="parla.chamber">
+                           <catDesc>
+                              <term>Izba</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Chamber</term>
+                           </catDesc>
+                        </category>
+                     </category>
+                  </category>
+                  <category corresp="#ParlaMint-PL" xml:lang="pl">
+                     <catDesc>
+                        <term>Komisja</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Committee</term>
+                     </catDesc>
+                     <category xml:id="parla.committee.standing">
+                        <catDesc>
+                           <term>Komisja stała</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Standing committee</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.committee.special">
+                        <catDesc>
+                           <term>Komisja specjalna</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Special committee</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.committee.inquiry">
+                        <catDesc>
+                           <term>Komisja śledcza</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Committee of inquiry</term>
+                        </catDesc>
+                     </category>
+                  </category>
+                  <catDesc corresp="#ParlaMint-SI" xml:lang="sl">
+                     <term>Organiziranost</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-SI">
+                     <term>Organization</term>
+                  </catDesc>
+                  <category corresp="#ParlaMint-SI" xml:lang="sl">
+                     <catDesc>
+                        <term>Zbori</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Chambers</term>
+                     </catDesc>
+                     <category xml:id="parla.uni">
+                        <catDesc>
+                           <term>Enodomen</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Unicameralism</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.bi">
+                        <catDesc>
+                           <term>Dvodomen</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Bicameralism</term>
+                        </catDesc>
+                        <category xml:id="parla.upper">
+                           <catDesc>
+                              <term>Zgornji dom</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Upper house</term>
+                           </catDesc>
+                        </category>
+                        <category xml:id="parla.lower">
+                           <catDesc>
+                              <term>Spodnji dom</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Lower house</term>
+                           </catDesc>
+                        </category>
+                     </category>
+                     <category xml:id="parla.multi">
+                        <catDesc>
+                           <term>Večdomen</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Multicameralism</term>
+                        </catDesc>
+                        <category xml:id="parla.chamber">
+                           <catDesc>
+                              <term>Zbor</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Chamber</term>
+                           </catDesc>
+                        </category>
+                     </category>
+                  </category>
+                  <category corresp="#ParlaMint-SI" xml:lang="sl">
+                     <catDesc>
+                        <term>Delovno telo</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Committee</term>
+                     </catDesc>
+                     <category xml:id="parla.committee.standing">
+                        <catDesc>
+                           <term>Stalno delovno telo</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Standing committee</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.committee.special">
+                        <catDesc>
+                           <term>Začasno delovno telo</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Special committee</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.committee.inquiry">
+                        <catDesc>
+                           <term>Preiskovalna komisija</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Committee of inquiry</term>
+                        </catDesc>
+                     </category>
+                  </category>
+                  <catDesc corresp="#ParlaMint-TR">
+                     <term>Organization</term>
+                  </catDesc>
+                  <category corresp="#ParlaMint-TR" xml:lang="tr">
+                     <catDesc>
+                        <term>Chambers</term>
+                     </catDesc>
+                     <category xml:id="parla.uni">
+                        <catDesc>
+                           <term>Unicameralism</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.bi">
+                        <catDesc>
+                           <term>Bicameralism</term>
+                        </catDesc>
+                        <category xml:id="parla.upper">
+                           <catDesc>
+                              <term>Upper house</term>
+                           </catDesc>
+                        </category>
+                        <category xml:id="parla.lower">
+                           <catDesc>
+                              <term>Lower house</term>
+                           </catDesc>
+                        </category>
+                     </category>
+                     <category xml:id="parla.multi">
+                        <catDesc>
+                           <term>Multicameralism</term>
+                        </catDesc>
+                        <category xml:id="parla.chamber">
+                           <catDesc>
+                              <term>Chamber</term>
+                           </catDesc>
+                        </category>
+                     </category>
+                  </category>
+                  <category corresp="#ParlaMint-TR" xml:lang="tr">
+                     <catDesc>
+                        <term>Committee</term>
+                     </catDesc>
+                     <category xml:id="parla.committee.standing">
+                        <catDesc>
+                           <term>Standing committee</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.committee.special">
+                        <catDesc>
+                           <term>Special committee</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.committee.inquiry">
+                        <catDesc>
+                           <term>Committee of inquiry</term>
+                        </catDesc>
+                     </category>
+                  </category>
+               </category>
+               <category xml:id="parla.term">
+                  <catDesc corresp="#ParlaMint-BG">
+                     <term>Legislative period</term>: term of the parliament between general elections.</catDesc>
+                  <catDesc corresp="#ParlaMint-BG" xml:lang="bg">
+                     <term>Законодателен период</term>
+                  </catDesc>
+                  <category corresp="#ParlaMint-BG" xml:lang="bg">
+                     <catDesc>
+                        <term>Legislative session</term>: the period of time in which a legislature is convened for purpose of lawmaking, usually being one of two or more smaller divisions of the entire time between two elections. A session is a meeting or series of connected meetings devoted to a single order of business, program, agenda, or announced purpose.</catDesc>
+                     <catDesc>
+                        <term>Законодателна сесия</term>
+                     </catDesc>
+                     <category xml:id="parla.meeting">
+                        <catDesc>
+                           <term>Meeting</term>: Each meeting may be a separate session or part of a group of meetings constituting a session. The session/meeting may take one or more days.</catDesc>
+                        <catDesc>
+                           <term>Заседание</term>
+                        </catDesc>
+                        <category xml:id="parla.meeting-types">
+                           <catDesc>
+                              <term>Types of meetings</term>
+                           </catDesc>
+                           <category xml:id="parla.meeting.regular">
+                              <catDesc>
+                                 <term>Regular meeting</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Редовно заседание</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.special">
+                              <catDesc>
+                                 <term>Special meeting</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Специална заседание</term>
+                              </catDesc>
+                              <category xml:id="parla.meeting.extraordinary">
+                                 <catDesc>
+                                    <term>Extraordinary meeting</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Извънредно заседание</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.urgent">
+                                 <catDesc>
+                                    <term>Urgent meeting</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Спешнo заседание</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.ceremonial">
+                                 <catDesc>
+                                    <term>Ceremonial meeting</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Официално заседание</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.commemorative">
+                                 <catDesc>
+                                    <term>Commemorative meeting</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Възпоменателно заседание</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.opinions">
+                                 <catDesc>
+                                    <term>Public presentation of opinions</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Публично представяне на мнения</term>
+                                 </catDesc>
+                              </category>
+                           </category>
+                           <category xml:id="parla.meeting.continued">
+                              <catDesc>
+                                 <term>Continued meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.public">
+                              <catDesc>
+                                 <term>Public meeting</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Публично заседание</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.executive">
+                              <catDesc>
+                                 <term>Executive meeting</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Закрито заседание</term>
+                              </catDesc>
+                           </category>
+                        </category>
+                        <category xml:id="parla.sitting">
+                           <catDesc>
+                              <term>Sitting</term>: sitting day</catDesc>
+                           <catDesc>
+                              <term>заседател ден</term>
+                           </catDesc>
+                        </category>
+                     </category>
+                  </category>
+                  <catDesc corresp="#ParlaMint-CZ" xml:lang="cs">
+                     <term>Legislativní perioda</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-CZ">
+                     <term>Legislative period</term>: term of the parliament between general elections.</catDesc>
+                  <category corresp="#ParlaMint-CZ" xml:lang="cs">
+                     <catDesc>
+                        <term>Legislativní schůze</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Legislative session</term>: the period of time in which a legislature is convened for purpose of lawmaking, usually being one of two or more smaller divisions of the entire time between two elections. A session is a meeting or series of connected meetings devoted to a single order of business, program, agenda, or announced purpose.</catDesc>
+                     <category xml:id="parla.meeting">
+                        <catDesc>
+                           <term>Schůze</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Meeting</term>: Each meeting may be a separate session or part of a group of meetings constituting a session. The session/meeting may take one or more days.</catDesc>
+                        <category xml:id="parla.meeting-types">
+                           <catDesc>
+                              <term>Druhy schůzí</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Types of meetings</term>
+                           </catDesc>
+                           <category xml:id="parla.meeting.regular">
+                              <catDesc>
+                                 <term>Běžná schůze</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Regular meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.special">
+                              <catDesc>
+                                 <term>Zvláštní schůze</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Special meeting</term>
+                              </catDesc>
+                              <category xml:id="parla.meeting.extraordinary">
+                                 <catDesc>
+                                    <term>Mimořádná schůze</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Extraordinary meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.urgent">
+                                 <catDesc>
+                                    <term>Urgentní schůze</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Urgent meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.ceremonial">
+                                 <catDesc>
+                                    <term>Slavnostní schůze</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Ceremonial meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.commemorative">
+                                 <catDesc>
+                                    <term>Pamětní schůze</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Commemorative meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.opinions">
+                                 <catDesc>
+                                    <term>Veřejná prezentace možností</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Public presentation of opinions</term>
+                                 </catDesc>
+                              </category>
+                           </category>
+                           <category xml:id="parla.meeting.continued">
+                              <catDesc>
+                                 <term>Pokračování schůze</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Continued meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.public">
+                              <catDesc>
+                                 <term>Veřejná schůze</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Public meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.executive">
+                              <catDesc>
+                                 <term>Výkonná schůze</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Executive meeting</term>
+                              </catDesc>
+                           </category>
+                        </category>
+                        <category xml:id="parla.sitting">
+                           <catDesc>
+                              <term>Sezení</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Sitting</term>: sitting day</catDesc>
+                        </category>
+                     </category>
+                  </category>
+                  <catDesc corresp="#ParlaMint-DK">
+                     <term>Legislative period</term>: term of the parliament between general elections.</catDesc>
+                  <category corresp="#ParlaMint-DK" xml:lang="da">
+                     <catDesc>
+                        <term>Session</term>: A parliamentary year, which always begins on the first Tuesday in October at 12.00 o’clock noon and ends on the same date at the same time the following year. However, parliamentary work at Christiansborg is organised in such a way that it primarily takes place from October to June</catDesc>
+                     <category xml:id="parla.meeting">
+                        <catDesc>
+                           <term>Meeting</term>: Each meeting may be a separate session or part of a group of meetings constituting a session. The session/meeting may take one or more days.</catDesc>
+                        <category xml:id="parla.meeting-types">
+                           <catDesc>
+                              <term>Types of meetings</term>
+                           </catDesc>
+                           <category xml:id="parla.meeting.regular">
+                              <catDesc>
+                                 <term>Regular meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.special">
+                              <catDesc>
+                                 <term>Special meeting</term>
+                              </catDesc>
+                              <category xml:id="parla.meeting.extraordinary">
+                                 <catDesc>
+                                    <term>Extraordinary meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.urgent">
+                                 <catDesc>
+                                    <term>Urgent meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.ceremonial">
+                                 <catDesc>
+                                    <term>Ceremonial meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.commemorative">
+                                 <catDesc>
+                                    <term>Commemorative meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.opinions">
+                                 <catDesc>
+                                    <term>Public presentation of opinions</term>
+                                 </catDesc>
+                              </category>
+                           </category>
+                           <category xml:id="parla.meeting.continued">
+                              <catDesc>
+                                 <term>Continued meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.public">
+                              <catDesc>
+                                 <term>Public meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.executive">
+                              <catDesc>
+                                 <term>Executive meeting</term>
+                              </catDesc>
+                           </category>
+                        </category>
+                        <category xml:id="parla.sitting">
+                           <catDesc>
+                              <term>Sitting</term>: a parliamentary meeting. The course of the year is planned in accordance with a number of working processes and recurring events. Sittings for the coming parliamentary year are planned in advance, and the plan specifies the days on which there will be sittings and the weeks during which there will be no sittings in the Chamber. Parliamentary committees usually have one or two regular weekly meetings, but not all of them hold meetings every week, especially not during the summer. During a parliamentary year, there are about 100 sitting days.</catDesc>
+                        </category>
+                     </category>
+                  </category>
+                  <catDesc corresp="#ParlaMint-ES" xml:lang="es">
+                     <term>Legislatura</term>: mandato parlamentario entre elecciones.</catDesc>
+                  <catDesc corresp="#ParlaMint-ES">
+                     <term>Legislative period</term>: term of the parliament between general elections.</catDesc>
+                  <category corresp="#ParlaMint-ES" xml:lang="es">
+                     <catDesc>
+                        <term>Periodo de sesiones</term>: periodo en el que se celebran las sesiones parlamentarias con propósitos legislativos. Generalmente, durante la legislatura hay uno o dos periodos de sesiones. Una sesión, por su parte, se convocan para abordar un orden del día en uno o varios encuentros parlamentarios.</catDesc>
+                     <catDesc>
+                        <term>Legislative session</term>: the period of time in which a legislature is convened for purpose of lawmaking, usually being one of two or more smaller divisions of the entire time between two elections. A session is a meeting or series of connected meetings devoted to a single order of business, program, agenda, or announced purpose.</catDesc>
+                     <category xml:id="parla.meeting">
+                        <catDesc>
+                           <term>Sesión</term>: reunión de un órgano parlamentario (en uno o varios encuentros) vinculado a un orden del día.</catDesc>
+                        <catDesc>
+                           <term>Meeting</term>: each meeting may be a separate session or part of a group of meetings constituting a session. The session/meeting may take one or more days.</catDesc>
+                        <category xml:id="parla.meeting-types">
+                           <catDesc>
+                              <term>Tipos de sesión</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Types of meetings</term>
+                           </catDesc>
+                           <category xml:id="parla.meeting.regular">
+                              <catDesc>
+                                 <term>Sesión ordinaria</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Regular meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.special">
+                              <catDesc>
+                                 <term>Sesión especial</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Special meeting</term>
+                              </catDesc>
+                              <category xml:id="parla.meeting.extraordinary">
+                                 <catDesc>
+                                    <term>Sesión extraordinaria</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Extraordinary meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.urgent">
+                                 <catDesc>
+                                    <term>Sesión extraordinaria urgente</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Urgent meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.ceremonial">
+                                 <catDesc>
+                                    <term>--</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Ceremonial meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.commemorative">
+                                 <catDesc>
+                                    <term>Sesión conmemorativa</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Commemorative meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.opinions">
+                                 <catDesc>
+                                    <term>Exposición pública</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Public presentation of opinions</term>
+                                 </catDesc>
+                              </category>
+                           </category>
+                           <category xml:id="parla.meeting.continued">
+                              <catDesc>
+                                 <term>Reanudación de la sesión</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Continued meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.public">
+                              <catDesc>
+                                 <term>Sesión pública</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Public meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.executive">
+                              <catDesc>
+                                 <term>Sesión secreta</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Executive meeting</term>
+                              </catDesc>
+                           </category>
+                        </category>
+                        <category xml:id="parla.sitting">
+                           <catDesc>
+                              <term>Sesión plenaria</term>: día del pleno</catDesc>
+                           <catDesc>
+                              <term>Sitting</term>: sitting day</catDesc>
+                        </category>
+                     </category>
+                  </category>
+                  <catDesc corresp="#ParlaMint-GB">
+                     <term>Legislative period</term>: term of the parliament between general elections.</catDesc>
+                  <category corresp="#ParlaMint-GB">
+                     <catDesc>
+                        <term>Legislative session</term>: a period of time in which a legislature is convened, typically one year.</catDesc>
+                     <category xml:id="parla.meeting">
+                        <catDesc>
+                           <term>Meeting</term>: Each meeting will be a constitute part of a parliamentary session.</catDesc>
+                        <category xml:id="parla.meeting-types">
+                           <catDesc>
+                              <term>Types of meetings</term>
+                           </catDesc>
+                           <category xml:id="parla.meeting.regular">
+                              <catDesc>
+                                 <term>Regular meeting</term>
+                              </catDesc>
+                           </category>
+                        </category>
+                        <category xml:id="parla.sitting">
+                           <catDesc>
+                              <term>Sitting</term>: sitting day</catDesc>
+                        </category>
+                     </category>
+                  </category>
+                  <catDesc corresp="#ParlaMint-HR" xml:lang="hr">
+                     <term>Zakonodavno razdoblje</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-HR">
+                     <term>Legislative period</term>: term of the parliament between general elections.</catDesc>
+                  <category corresp="#ParlaMint-HR" xml:lang="hr">
+                     <catDesc>
+                        <term>Zakonodavna sjednica</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Legislative session</term>: the period of time in which a legislature is convened for purpose of lawmaking, usually being one of two or more smaller divisions of the entire time between two elections. A session is a meeting or series of connected meetings devoted to a single order of business, program, agenda, or announced purpose.</catDesc>
+                     <category xml:id="parla.meeting">
+                        <catDesc>
+                           <term>Zasjedanje</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Meeting</term>: Each meeting may be a separate session or part of a group of meetings constituting a session. The session/meeting may take one or more days.</catDesc>
+                        <category xml:id="parla.meeting-types">
+                           <catDesc>
+                              <term>Vrste zasjedanja</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Types of meetings</term>
+                           </catDesc>
+                           <category xml:id="parla.meeting.regular">
+                              <catDesc>
+                                 <term>Redovno zasjedanje</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Regular meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.special">
+                              <catDesc>
+                                 <term>Posebno zasjedanje</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Special meeting</term>
+                              </catDesc>
+                              <category xml:id="parla.meeting.extraordinary">
+                                 <catDesc>
+                                    <term>Izvanredno zasjedanje</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Extraordinary meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.urgent">
+                                 <catDesc>
+                                    <term>Hitno zasjedanje</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Urgent meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.ceremonial">
+                                 <catDesc>
+                                    <term>Svečano zasjedanje</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Ceremonial meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.commemorative">
+                                 <catDesc>
+                                    <term>Komemorativno zasjedanje</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Commemorative meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.opinions">
+                                 <catDesc>
+                                    <term>Javno predstavljanje mišljenja</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Public presentation of opinions</term>
+                                 </catDesc>
+                              </category>
+                           </category>
+                           <category xml:id="parla.meeting.continued">
+                              <catDesc>
+                                 <term>Nastavljena sjednica</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Continued meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.public">
+                              <catDesc>
+                                 <term>Javna sjednica</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Public meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.executive">
+                              <catDesc>
+                                 <term>Zatvorena sjednica</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Executive meeting</term>
+                              </catDesc>
+                           </category>
+                        </category>
+                        <category xml:id="parla.sitting">
+                           <catDesc>
+                              <term>Dan zasjedanja</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Sitting</term>: sitting day</catDesc>
+                        </category>
+                     </category>
+                  </category>
+                  <catDesc corresp="#ParlaMint-HU" xml:lang="hu">
+                     <term>Törvényhozási ciklus</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-HU">
+                     <term>Legislative period</term>: term of the parliament between general elections.</catDesc>
+                  <category corresp="#ParlaMint-HU" xml:lang="hu">
+                     <catDesc>
+                        <term>Ülésszak</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Legislative session</term>: the period of time in which a legislature is convened for purpose of lawmaking, usually being one of two or more smaller divisions of the entire time between two elections. A session is a meeting or series of connected meetings devoted to a single order of business, program, agenda, or announced purpose.</catDesc>
+                     <category xml:id="parla.meeting">
+                        <catDesc>
+                           <term>Ülés</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Meeting</term>: Each meeting may be a separate session or part of a group of meetings constituting a session. The session/meeting may take one or more days.</catDesc>
+                        <category xml:id="parla.meeting-types">
+                           <catDesc>
+                              <term>Üléstípus</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Types of meetings</term>
+                           </catDesc>
+                           <category xml:id="parla.meeting.regular">
+                              <catDesc>
+                                 <term>Rendes ülés</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Regular meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.special">
+                              <catDesc>
+                                 <term>Különleges ülés</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Special meeting</term>
+                              </catDesc>
+                              <category xml:id="parla.meeting.extraordinary">
+                                 <catDesc>
+                                    <term>Rendkívüli ülés</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Extraordinary meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.urgent">
+                                 <catDesc>
+                                    <term>Sürgős ülés</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Urgent meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.ceremonial">
+                                 <catDesc>
+                                    <term>Ünnepi ülés</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Ceremonial meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.commemorative">
+                                 <catDesc>
+                                    <term>Emlékülés</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Commemorative meeting</term>
+                                 </catDesc>
+                              </category>
+                           </category>
+                           <category xml:id="parla.meeting.continued">
+                              <catDesc>
+                                 <term>Folytatólagos ülés</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Continued meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.speech-types">
+                              <catDesc>
+                                 <term>Beszédtípusok</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Types of speeches</term>
+                              </catDesc>
+                              <category xml:id="parla.speech.interpellation">
+                                 <catDesc>
+                                    <term>Interpelláció</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Interpellation</term>
+                                 </catDesc>
+                                 <category xml:id="parla.speech.urgent-question">
+                                    <catDesc>
+                                       <term>Azonnali kérdés</term>
+                                    </catDesc>
+                                    <catDesc>
+                                       <term>Urgent question</term>
+                                    </catDesc>
+                                    <category xml:id="parla.speech.regular">
+                                       <catDesc>
+                                          <term>Felszólalás</term>
+                                       </catDesc>
+                                       <catDesc>
+                                          <term>Regular speech</term>
+                                       </catDesc>
+                                    </category>
+                                 </category>
+                              </category>
+                           </category>
+                        </category>
+                        <category xml:id="parla.sitting">
+                           <catDesc>
+                              <term>Ülés</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Sitting</term>
+                           </catDesc>
+                        </category>
+                     </category>
+                  </category>
+                  <catDesc corresp="#ParlaMint-IS" xml:lang="is">
+                     <term>Kjörtímabil</term>: tímabil milli tveggja reglulegra kosninga</catDesc>
+                  <catDesc corresp="#ParlaMint-IS">
+                     <term>Legislative period</term>: term of the parliament between general elections.</catDesc>
+                  <category corresp="#ParlaMint-IS" xml:lang="is">
+                     <catDesc>
+                        <term>Þing</term>: sá tími þar sem þing kemur saman til lagasetningar og er yfirleitt annað tveggja eða fleiri tímabila milli kosninga. Þing samanstendur af þingfundi eða röð þingfunda, sem eru eyrnamerktir ákveðinni dagskrá, fyrirfram ákveðnum tilgangi eða ætlaðir til afgreiðslu tiltekinna mála.</catDesc>
+                     <catDesc>
+                        <term>Legislative session</term>: the period of time in which a legislature is convened for purpose of lawmaking, usually being one of two or more smaller divisions of the entire time between two elections. A session is a meeting or series of connected meetings devoted to a single order of business, program, agenda, or announced purpose.</catDesc>
+                     <category xml:id="parla.meeting">
+                        <catDesc>
+                           <term>Þingfundur</term>: Hver þingfundur getur jafnt verið stakur eða hluti af röð þingfunda á þingi og getur tekið einn dag eða fleiri.</catDesc>
+                        <catDesc>
+                           <term>Meeting</term>: Each meeting may be a separate session or part of a group of meetings constituting a session. The session/meeting may take one or more days.</catDesc>
+                        <category xml:id="parla.meeting-types">
+                           <catDesc>
+                              <term>Tegundir þingfunda</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Types of meeting</term>
+                           </catDesc>
+                           <category xml:id="parla.meeting.regular">
+                              <catDesc>
+                                 <term>Almennur þingfundur</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Regular meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.special">
+                              <catDesc>
+                                 <term>Sérstakur þingfundur</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Special meeting</term>
+                              </catDesc>
+                           </category>
+                        </category>
+                        <category xml:id="parla.sittinig">
+                           <catDesc>
+                              <term>Þingdagur</term>: einn heill dagur</catDesc>
+                           <catDesc>
+                              <term>Sitting</term>: sitting day</catDesc>
+                        </category>
+                     </category>
+                  </category>
+                  <catDesc corresp="#ParlaMint-IT" xml:lang="it">
+                     <term>Legislatura</term>: mandato del parlamento fra elezioni politiche generali.</catDesc>
+                  <catDesc corresp="#ParlaMint-IT">
+                     <term>Legislative period</term>: term of the parliament between general elections.</catDesc>
+                  <category corresp="#ParlaMint-IT" xml:lang="it">
+                     <catDesc>
+                        <term>Sessione</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Legislative session</term>: the period of time in which a legislature is convened for purpose of lawmaking, usually being one of two or more smaller divisions of the entire time between two elections. A session is a meeting or series of connected meetings devoted to a single order of business, program, agenda, or announced purpose.</catDesc>
+                     <category xml:id="parla.meeting">
+                        <catDesc>
+                           <term>Riunione</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Meeting</term>: Each meeting may be a separate session or part of a group of meetings constituting a session. The session/meeting may take one or more days.</catDesc>
+                        <category xml:id="parla.meeting-types">
+                           <catDesc>
+                              <term>Tipi di seduta</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Types of meetings</term>
+                           </catDesc>
+                           <category xml:id="parla.meeting.regular">
+                              <catDesc>
+                                 <term>Seduta ordinaria</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Regular meeting</term>
+                              </catDesc>
+                           </category>
+                        </category>
+                        <category xml:id="parla.sitting">
+                           <catDesc>
+                              <term>Seduta</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Sitting</term>: sitting day</catDesc>
+                        </category>
+                     </category>
+                  </category>
+                  <catDesc corresp="#ParlaMint-LT" xml:lang="lt">
+                     <term>Parlamento kadencija</term>: laikotarpis tarp nacionalinių parlamento rinkimų.</catDesc>
+                  <catDesc corresp="#ParlaMint-LT">
+                     <term>Legislative period</term>: term of the parliament between general elections.</catDesc>
+                  <category corresp="#ParlaMint-LT" xml:lang="lt">
+                     <catDesc>
+                        <term>Parlamento sesija</term>: laikotarpis, kurio metu parlamentas posėdžiauja įstatymų leidybos tikslais. Paprastai, tokių smulkesnių laikotarpių būna du ar daugiau tarp dviejų nacionalinių parlamento rinkimų. Sesija yra posėdžiai arba susietų posėdžių grupė, skirta svarstyti tam tikrą programą, darbotvarkę, darbotvarkės punktą ar kitokį iš anksto paskelbtą dalyką.</catDesc>
+                     <catDesc>
+                        <term>Legislative session</term>: the period of time in which a legislature is convened for purpose of lawmaking, usually being one of two or more smaller divisions of the entire time between two elections. A session is a meeting or series of connected meetings devoted to a single order of business, program, agenda, or announced purpose.</catDesc>
+                     <category xml:id="parla.meeting">
+                        <catDesc>
+                           <term>Posėdis</term>: kiekvienas posėdis gali būti atskira sesija arba posėdžių grupės sudedamoji dalis. Sesija ar posėdis gali trukti vieną ar daugiau dienų.</catDesc>
+                        <catDesc>
+                           <term>Meeting</term>: each meeting may be a separate session or part of a group of meetings constituting a session. The session/meeting may take one or more days.</catDesc>
+                        <category xml:id="parla.meeting-types">
+                           <catDesc>
+                              <term>Posėdžių tipai</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Types of meetings</term>
+                           </catDesc>
+                           <category xml:id="parla.meeting.regular">
+                              <catDesc>
+                                 <term>Eilinis posėdis</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Regular meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.special">
+                              <catDesc>
+                                 <term>Specialusis posėdis</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Special meeting</term>
+                              </catDesc>
+                              <category xml:id="parla.meeting.extraordinary">
+                                 <catDesc>
+                                    <term>Nenumatytas ar neeilinis posėdis</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Extraordinary meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.urgent">
+                                 <catDesc>
+                                    <term>Skubus posėdis</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Urgent meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.ceremonial">
+                                 <catDesc>
+                                    <term>Iškilmingas posėdis</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Ceremonial meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.commemorative">
+                                 <catDesc>
+                                    <term>Minėjimo posėdis</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Commemorative meeting</term>
+                                 </catDesc>
+                              </category>
+                           </category>
+                           <category xml:id="parla.meeting.continued">
+                              <catDesc>
+                                 <term>Posėdžio tęsinys</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Continued meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.public">
+                              <catDesc>
+                                 <term>Išvažiuojamasis posėdis</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Public meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.executive">
+                              <catDesc>
+                                 <term>Uždaras posėdis</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Executive meeting</term>
+                              </catDesc>
+                           </category>
+                        </category>
+                     </category>
+                  </category>
+                  <catDesc corresp="#ParlaMint-LV" xml:lang="lv">
+                     <term>Parlamentārais sasaukums</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-LV">
+                     <term>Legislative period</term>: term of the parliament between general elections.</catDesc>
+                  <category corresp="#ParlaMint-LV" xml:lang="lv">
+                     <catDesc>
+                        <term>Parlamentārā sesija</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Legislative session</term>: the period of time in which a legislature is convened for purpose of lawmaking, usually being one of two or more smaller divisions of the entire time between two elections. A session is a meeting or series of connected meetings devoted to a single order of business, program, agenda, or announced purpose.</catDesc>
+                     <category xml:id="parla.meeting">
+                        <catDesc>
+                           <term>Sēde</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Meeting</term>: Each meeting may be a separate session or part of a group of meetings constituting a session. The session/meeting may take one or more days.</catDesc>
+                        <category xml:id="parla.meeting-types">
+                           <catDesc>
+                              <term>Sēdžu tipi</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Types of meetings</term>
+                           </catDesc>
+                           <category xml:id="parla.meeting.regular">
+                              <catDesc>
+                                 <term>Regulārā sēde</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Regular meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.special">
+                              <catDesc>
+                                 <term>Īpašās sēdes</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Special meeting</term>
+                              </catDesc>
+                              <category xml:id="parla.meeting.urgent">
+                                 <catDesc>
+                                    <term>Ārkārtas sēde</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Urgent meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.ceremonial">
+                                 <catDesc>
+                                    <term>Svinīgā sēde</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Ceremonial meeting</term>
+                                 </catDesc>
+                              </category>
+                           </category>
+                           <category xml:id="parla.meeting.continued">
+                              <catDesc>
+                                 <term>Sēdes turpinājums</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Continued meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.public">
+                              <catDesc>
+                                 <term>Publiska sēde</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Public meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.executive">
+                              <catDesc>
+                                 <term>Slēgta sēde</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Executive meeting</term>
+                              </catDesc>
+                           </category>
+                        </category>
+                        <category xml:id="parla.sitting">
+                           <catDesc>
+                              <term>Sēde</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Sitting</term>
+                           </catDesc>
+                        </category>
+                     </category>
+                  </category>
+                  <catDesc corresp="#ParlaMint-NL">
+                     <term>Legislative period</term>: term of the parliament between general elections.</catDesc>
+                  <category corresp="#ParlaMint-NL" xml:lang="nl">
+                     <catDesc>
+                        <term>Sessie</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Legislative session</term>: the period of time in which a legislature is convened for purpose of lawmaking, usually being one of two or more smaller divisions of the entire time between two elections. A session is a meeting or series of connected meetings devoted to a single order of business, program, agenda, or announced purpose.</catDesc>
+                     <category xml:id="parla.meeting">
+                        <catDesc>
+                           <term>Vergadering</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Meeting</term>: Each meeting may be a separate session or part of a group of meetings constituting a session. The session/meeting may take one or more days.</catDesc>
+                        <category xml:id="parla.meeting-types">
+                           <catDesc>
+                              <term>Types of meetings</term>
+                           </catDesc>
+                           <category xml:id="parla.meeting.regular">
+                              <catDesc>
+                                 <term>Regular meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.special">
+                              <catDesc>
+                                 <term>Special meeting</term>
+                              </catDesc>
+                              <category xml:id="parla.meeting.extraordinary">
+                                 <catDesc>
+                                    <term>Extraordinary meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.urgent">
+                                 <catDesc>
+                                    <term>Urgent meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.ceremonial">
+                                 <catDesc>
+                                    <term>Ceremonial meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.commemorative">
+                                 <catDesc>
+                                    <term>Commemorative meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.opinions">
+                                 <catDesc>
+                                    <term>Public presentation of opinions</term>
+                                 </catDesc>
+                              </category>
+                           </category>
+                           <category xml:id="parla.meeting.continued">
+                              <catDesc>
+                                 <term>Continued meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.public">
+                              <catDesc>
+                                 <term>Public meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.executive">
+                              <catDesc>
+                                 <term>Executive meeting</term>
+                              </catDesc>
+                           </category>
+                        </category>
+                        <category xml:id="parla.sitting">
+                           <catDesc>
+                              <term>Sitting</term>: sitting day</catDesc>
+                        </category>
+                     </category>
+                  </category>
+                  <catDesc corresp="#ParlaMint-PL" xml:lang="pl">
+                     <term>Kadencja</term>: okres pomiędzy wyborami powszechnymi</catDesc>
+                  <catDesc corresp="#ParlaMint-PL">
+                     <term>Legislative period</term>: term of the parliament between general elections.</catDesc>
+                  <category corresp="#ParlaMint-PL" xml:lang="pl">
+                     <catDesc>
+                        <term>Posiedzenie</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Legislative session</term>: the period of time in which a legislature is convened for purpose of lawmaking, usually being one of two or more smaller divisions of the entire time between two elections. A session is a meeting or series of connected meetings devoted to a single order of business, program, agenda, or announced purpose.</catDesc>
+                     <category xml:id="parla.meeting">
+                        <catDesc>
+                           <term>Dzień</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Meeting</term>: Each meeting may be a separate session or part of a group of meetings constituting a session. The session/meeting may take one or more days.</catDesc>
+                        <category xml:id="parla.meeting-types">
+                           <catDesc>
+                              <term>Typy posiedzeń</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Types of meetings</term>
+                           </catDesc>
+                           <category xml:id="parla.meeting.regular">
+                              <catDesc>
+                                 <term>Posiedzenie plenarne</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Regular meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.special">
+                              <catDesc>
+                                 <term>Posiedzenie specjalne</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Special meeting</term>
+                              </catDesc>
+                              <category xml:id="parla.meeting.extraordinary">
+                                 <catDesc>
+                                    <term>Posiedzenie nadzwyczajne</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Extraordinary meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.urgent">
+                                 <catDesc>
+                                    <term>Posiedzenie pilne</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Urgent meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.ceremonial">
+                                 <catDesc>
+                                    <term>Posiedzenie uroczyste</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Ceremonial meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.commemorative">
+                                 <catDesc>
+                                    <term>Posiedzenie okolicznościowe</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Commemorative meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.opinions">
+                                 <catDesc>
+                                    <term>Publiczna prezentacja opinii</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Public presentation of opinions</term>
+                                 </catDesc>
+                              </category>
+                           </category>
+                           <category xml:id="parla.meeting.continued">
+                              <catDesc>
+                                 <term>Kontynuacja posiedzenia</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Continued meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.public">
+                              <catDesc>
+                                 <term>Posiedzenie publiczne</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Public meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.executive">
+                              <catDesc>
+                                 <term>Posiedzenie wykonawcze</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Executive meeting</term>
+                              </catDesc>
+                           </category>
+                        </category>
+                        <category xml:id="parla.sitting">
+                           <catDesc>
+                              <term>Dzień posiedzenia</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Sitting</term>: sitting day</catDesc>
+                        </category>
+                     </category>
+                  </category>
+                  <catDesc corresp="#ParlaMint-SI" xml:lang="sl">
+                     <term>Zakonodajno obdobje</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-SI">
+                     <term>Legislative period</term>: term of the parliament between general elections.</catDesc>
+                  <category corresp="#ParlaMint-SI" xml:lang="sl">
+                     <catDesc>
+                        <term>Parlamentaro zasedanje</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Legislative session</term>: the period of time in which a legislature is convened for purpose of lawmaking, usually being one of two or more smaller divisions of the entire time between two elections. A session is a meeting or series of connected meetings devoted to a single order of business, program, agenda, or announced purpose.</catDesc>
+                     <category xml:id="parla.meeting">
+                        <catDesc>
+                           <term>Seja</term>
+                        </catDesc>
+                        <catDesc>
+                           <term>Meeting</term>: Each meeting may be a separate session or part of a group of meetings constituting a session. The session/meeting may take one or more days.</catDesc>
+                        <category xml:id="parla.meeting-types">
+                           <catDesc>
+                              <term>Vrste sej</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Types of meetings</term>
+                           </catDesc>
+                           <category xml:id="parla.meeting.regular">
+                              <catDesc>
+                                 <term>Redna seja</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Regular meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.special">
+                              <catDesc>
+                                 <term>Posebna seja</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Special meeting</term>
+                              </catDesc>
+                              <category xml:id="parla.meeting.extraordinary">
+                                 <catDesc>
+                                    <term>Izredna seja</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Extraordinary meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.urgent">
+                                 <catDesc>
+                                    <term>Nujna seja</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Urgent meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.ceremonial">
+                                 <catDesc>
+                                    <term>Slavnostna seja</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Ceremonial meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.commemorative">
+                                 <catDesc>
+                                    <term>Žalna seja</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Commemorative meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.opinions">
+                                 <catDesc>
+                                    <term>Javna predstavitev mnenj</term>
+                                 </catDesc>
+                                 <catDesc>
+                                    <term>Public presentation of opinions</term>
+                                 </catDesc>
+                              </category>
+                           </category>
+                           <category xml:id="parla.meeting.continued">
+                              <catDesc>
+                                 <term>Ponovni sestanek</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Continued meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.public">
+                              <catDesc>
+                                 <term>Javna seja</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Public meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.executive">
+                              <catDesc>
+                                 <term>Zaprta seja</term>
+                              </catDesc>
+                              <catDesc>
+                                 <term>Executive meeting</term>
+                              </catDesc>
+                           </category>
+                        </category>
+                        <category xml:id="parla.sitting">
+                           <catDesc>
+                              <term>Dan seje</term>
+                           </catDesc>
+                           <catDesc>
+                              <term>Sitting</term>: sitting day</catDesc>
+                        </category>
+                     </category>
+                  </category>
+                  <catDesc corresp="#ParlaMint-TR">
+                     <term>Legislative period</term>: term of the parliament between general elections.</catDesc>
+                  <category corresp="#ParlaMint-TR" xml:lang="tr">
+                     <catDesc>
+                        <term>Session</term>: A parliamentary year, which always begins on the first Tuesday in October at 12.00 o’clock noon and ends on the same date at the same time the following year. However, parliamentary work at Christiansborg is organised in such a way that it primarily takes place from October to June</catDesc>
+                     <category xml:id="parla.meeting">
+                        <catDesc>
+                           <term>Meeting</term>: Each meeting may be a separate session or part of a group of meetings constituting a session. The session/meeting may take one or more days.</catDesc>
+                        <category xml:id="parla.meeting-types">
+                           <catDesc>
+                              <term>Types of meetings</term>
+                           </catDesc>
+                           <category xml:id="parla.meeting.regular">
+                              <catDesc>
+                                 <term>Regular meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.special">
+                              <catDesc>
+                                 <term>Special meeting</term>
+                              </catDesc>
+                              <category xml:id="parla.meeting.extraordinary">
+                                 <catDesc>
+                                    <term>Extraordinary meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.urgent">
+                                 <catDesc>
+                                    <term>Urgent meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.ceremonial">
+                                 <catDesc>
+                                    <term>Ceremonial meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.commemorative">
+                                 <catDesc>
+                                    <term>Commemorative meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.opinions">
+                                 <catDesc>
+                                    <term>Public presentation of opinions</term>
+                                 </catDesc>
+                              </category>
+                           </category>
+                           <category xml:id="parla.meeting.continued">
+                              <catDesc>
+                                 <term>Continued meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.public">
+                              <catDesc>
+                                 <term>Public meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.executive">
+                              <catDesc>
+                                 <term>Executive meeting</term>
+                              </catDesc>
+                           </category>
+                        </category>
+                        <category xml:id="parla.sitting">
+                           <catDesc>
+                              <term>Sitting</term>: a parliamentary meeting. The course of the year is planned in accordance with a number of working processes and recurring events. Sittings for the coming parliamentary year are planned in advance, and the plan specifies the days on which there will be sittings and the weeks during which there will be no sittings in the Chamber. Parliamentary committees usually have one or two regular weekly meetings, but not all of them hold meetings every week, especially not during the summer. During a parliamentary year, there are about 100 sitting days.</catDesc>
+                        </category>
+                     </category>
+                  </category>
+               </category>
+               <category xml:id="parla.geo-political">
+                  <catDesc corresp="#ParlaMint-CZ" xml:lang="cs">
+                     <term>Geo-politické nebo administrativní jednotky</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-CZ">
+                     <term>Geo-political or administrative units</term>
+                  </catDesc>
+                  <category corresp="#ParlaMint-CZ" xml:lang="cs">
+                     <catDesc>
+                        <term>Mezinárodní legislatura</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Supranational legislature</term>
+                     </catDesc>
+                  </category>
+                  <category corresp="#ParlaMint-CZ" xml:lang="cs">
+                     <catDesc>
+                        <term>Národní legislatura</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>National legislature</term>
+                     </catDesc>
+                  </category>
+                  <category corresp="#ParlaMint-CZ" xml:lang="cs">
+                     <catDesc>
+                        <term>Regionální legislatura</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Regional legislature</term>
+                     </catDesc>
+                  </category>
+                  <category corresp="#ParlaMint-CZ" xml:lang="cs">
+                     <catDesc>
+                        <term>Místní legislatura</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Local legislature</term>
+                     </catDesc>
+                  </category>
+                  <catDesc corresp="#ParlaMint-DK">
+                     <term>Geo-political or administrative units</term>
+                  </catDesc>
+                  <category corresp="#ParlaMint-DK" xml:lang="da">
+                     <catDesc>
+                        <term>Supranational legislature</term>
+                     </catDesc>
+                  </category>
+                  <category corresp="#ParlaMint-DK" xml:lang="da">
+                     <catDesc>
+                        <term>National legislature</term>
+                     </catDesc>
+                  </category>
+                  <category corresp="#ParlaMint-DK" xml:lang="da">
+                     <catDesc>
+                        <term>Regional legislature</term>
+                     </catDesc>
+                  </category>
+                  <category corresp="#ParlaMint-DK" xml:lang="da">
+                     <catDesc>
+                        <term>Local legislature</term>
+                     </catDesc>
+                  </category>
+                  <catDesc corresp="#ParlaMint-ES" xml:lang="es">
+                     <term>Entidades geopolíticas o administrativas</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-ES">
+                     <term>Geo-political or administrative units</term>
+                  </catDesc>
+                  <category corresp="#ParlaMint-ES" xml:lang="es">
+                     <catDesc>
+                        <term>Ámbito legislativo supranacional</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Supranational legislature</term>
+                     </catDesc>
+                  </category>
+                  <category corresp="#ParlaMint-ES" xml:lang="es">
+                     <catDesc>
+                        <term>Ámbito legislativo nacional</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>National legislature</term>
+                     </catDesc>
+                  </category>
+                  <category corresp="#ParlaMint-ES" xml:lang="es">
+                     <catDesc>
+                        <term>Ámbito legislativo regional</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Regional legislature</term>
+                     </catDesc>
+                  </category>
+                  <category corresp="#ParlaMint-ES" xml:lang="es">
+                     <catDesc>
+                        <term>Ámbito legislativo local</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Local legislature</term>
+                     </catDesc>
+                  </category>
+                  <catDesc corresp="#ParlaMint-HR" xml:lang="hr">
+                     <term>Geopolitičke ili upravne jedinice</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-HR">
+                     <term>Geo-political or administrative units</term>
+                  </catDesc>
+                  <category corresp="#ParlaMint-HR" xml:lang="hr">
+                     <catDesc>
+                        <term>Transnacionalno zakonodavstvo</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Supranational legislature</term>
+                     </catDesc>
+                  </category>
+                  <category corresp="#ParlaMint-HR" xml:lang="hr">
+                     <catDesc>
+                        <term>Nacionalno zakonodavstvo</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>National legislature</term>
+                     </catDesc>
+                  </category>
+                  <category corresp="#ParlaMint-HR" xml:lang="hr">
+                     <catDesc>
+                        <term>Regionalno zakonodavstvo</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Regional legislature</term>
+                     </catDesc>
+                  </category>
+                  <category corresp="#ParlaMint-HR" xml:lang="hr">
+                     <catDesc>
+                        <term>Lokalno zakonodavstvo</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Local legislature</term>
+                     </catDesc>
+                  </category>
+                  <catDesc corresp="#ParlaMint-HU" xml:lang="hu">
+                     <term>Geo-politikai vagy közigazgatási egységek</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-HU">
+                     <term>Geo-political or administrative units</term>
+                  </catDesc>
+                  <category corresp="#ParlaMint-HU" xml:lang="hu">
+                     <catDesc>
+                        <term>Szupranacionális parlament</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Supranational legislature</term>
+                     </catDesc>
+                  </category>
+                  <category corresp="#ParlaMint-HU" xml:lang="hu">
+                     <catDesc>
+                        <term>Nemzeti törvényhozás</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>National legislature</term>
+                     </catDesc>
+                  </category>
+                  <category corresp="#ParlaMint-HU" xml:lang="hu">
+                     <catDesc>
+                        <term>Területi önkormányzati képviselőtestület</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Regional legislature</term>
+                     </catDesc>
+                  </category>
+                  <category corresp="#ParlaMint-HU" xml:lang="hu">
+                     <catDesc>
+                        <term>Helyi önkormányzati képviselőtestület</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Local legislature</term>
+                     </catDesc>
+                  </category>
+                  <catDesc corresp="#ParlaMint-IT" xml:lang="it">
+                     <term>Unità geo-politica o amministrativa</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-IT">
+                     <term>Geo-political or administrative units</term>
+                  </catDesc>
+                  <category corresp="#ParlaMint-IT" xml:lang="it">
+                     <catDesc>
+                        <term>Legislatura sovranazionale</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Supranational legislature</term>
+                     </catDesc>
+                  </category>
+                  <category corresp="#ParlaMint-IT" xml:lang="it">
+                     <catDesc>
+                        <term>Legislatura nazionale</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>National legislature</term>
+                     </catDesc>
+                  </category>
+                  <category corresp="#ParlaMint-IT" xml:lang="it">
+                     <catDesc>
+                        <term>Legislatura regionale</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Regional legislature</term>
+                     </catDesc>
+                  </category>
+                  <category corresp="#ParlaMint-IT" xml:lang="it">
+                     <catDesc>
+                        <term>Legislatura locale</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Local legislature</term>
+                     </catDesc>
+                  </category>
+                  <catDesc corresp="#ParlaMint-LT" xml:lang="lt">
+                     <term>Geopolitiniai ar administraciniai vienetai</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-LT">
+                     <term>Geo-political or administrative units</term>
+                  </catDesc>
+                  <category corresp="#ParlaMint-LT" xml:lang="lt">
+                     <catDesc>
+                        <term>Viršnacionalinis parlamentas</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Supranational legislature</term>
+                     </catDesc>
+                  </category>
+                  <category corresp="#ParlaMint-LT" xml:lang="lt">
+                     <catDesc>
+                        <term>Nacionalinis parlamentas</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>National legislature</term>
+                     </catDesc>
+                  </category>
+                  <category corresp="#ParlaMint-LT" xml:lang="lt">
+                     <catDesc>
+                        <term>Vietinis parlamentas (taryba)</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Local legislature</term>
+                     </catDesc>
+                  </category>
+                  <catDesc corresp="#ParlaMint-NL">
+                     <term>Geo-political or administrative units</term>
+                  </catDesc>
+                  <category corresp="#ParlaMint-NL" xml:lang="nl">
+                     <catDesc>
+                        <term>Supranational legislature</term>
+                     </catDesc>
+                  </category>
+                  <category corresp="#ParlaMint-NL" xml:lang="nl">
+                     <catDesc>
+                        <term>National legislature</term>
+                     </catDesc>
+                  </category>
+                  <category corresp="#ParlaMint-NL" xml:lang="nl">
+                     <catDesc>
+                        <term>Regional legislature</term>
+                     </catDesc>
+                  </category>
+                  <category corresp="#ParlaMint-NL" xml:lang="nl">
+                     <catDesc>
+                        <term>Local legislature</term>
+                     </catDesc>
+                  </category>
+                  <catDesc corresp="#ParlaMint-SI" xml:lang="sl">
+                     <term>Geopolitične ali upravne enote</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-SI">
+                     <term>Geo-political or administrative units</term>
+                  </catDesc>
+                  <category corresp="#ParlaMint-SI" xml:lang="sl">
+                     <catDesc>
+                        <term>Nadnacionalna zakonodajna oblast</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Supranational legislature</term>
+                     </catDesc>
+                  </category>
+                  <category corresp="#ParlaMint-SI" xml:lang="sl">
+                     <catDesc>
+                        <term>Nacionalna zakonodajna oblast</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>National legislature</term>
+                     </catDesc>
+                  </category>
+                  <category corresp="#ParlaMint-SI" xml:lang="sl">
+                     <catDesc>
+                        <term>Regionalna zakonodajna oblast</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Regional legislature</term>
+                     </catDesc>
+                  </category>
+                  <category corresp="#ParlaMint-SI" xml:lang="sl">
+                     <catDesc>
+                        <term>Lokalna zakonodajna oblast</term>
+                     </catDesc>
+                     <catDesc>
+                        <term>Local legislature</term>
+                     </catDesc>
+                  </category>
+                  <catDesc corresp="#ParlaMint-TR">
+                     <term>Geo-political or administrative units</term>
+                  </catDesc>
+                  <category corresp="#ParlaMint-TR" xml:lang="tr">
+                     <catDesc>
+                        <term>Supranational legislature</term>
+                     </catDesc>
+                  </category>
+                  <category corresp="#ParlaMint-TR" xml:lang="tr">
+                     <catDesc>
+                        <term>National legislature</term>
+                     </catDesc>
+                  </category>
+                  <category corresp="#ParlaMint-TR" xml:lang="tr">
+                     <catDesc>
+                        <term>Regional legislature</term>
+                     </catDesc>
+                  </category>
+                  <category corresp="#ParlaMint-TR" xml:lang="tr">
+                     <catDesc>
+                        <term>Local legislature</term>
+                     </catDesc>
+                  </category>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="speaker_types">
+               <category xml:id="chair">
+                  <catDesc corresp="#ParlaMint-BE" xml:lang="nl">
+                     <term>Voorzitter</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-BE">
+                     <term>Chairperson</term>: chairman of a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-BG" xml:lang="bg">
+                     <term>Председател</term>: председател на заседание</catDesc>
+                  <catDesc corresp="#ParlaMint-BG">
+                     <term>Chairperson</term>: chairman of a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-CZ" xml:lang="cs">
+                     <term>Předsedající</term>: předsedá zasedání</catDesc>
+                  <catDesc corresp="#ParlaMint-CZ">
+                     <term>Chairperson</term>: chairman of a sitting</catDesc>
+                  <catDesc corresp="#ParlaMint-DK">
+                     <term>Chairperson</term>: chairman of a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-ES" xml:lang="es">
+                     <term>Presidencia</term>: persona que preside la sesion</catDesc>
+                  <catDesc corresp="#ParlaMint-ES">
+                     <term>Chairperson</term>: chairman of a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-FR" xml:lang="fr">
+                     <term>Président</term>: président de séance</catDesc>
+                  <catDesc corresp="#ParlaMint-FR">
+                     <term>Chairperson</term>: chairman of a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-GB">
+                     <term>Chairperson</term>: chairman of a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-HR" xml:lang="hr">
+                     <term>Predsjedavajući</term>: predsjedavajući zasjedanja</catDesc>
+                  <catDesc corresp="#ParlaMint-HR">
+                     <term>Chairperson</term>: chairman of a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-HU" xml:lang="hu">
+                     <term>Házelnök</term>: az ülés elnöke</catDesc>
+                  <catDesc corresp="#ParlaMint-HU">
+                     <term>Chairperson</term>: chairman of a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-IS" xml:lang="is">
+                     <term>Þingforseti</term>: forseti alþingis</catDesc>
+                  <catDesc corresp="#ParlaMint-IS">
+                     <term>Chairperson</term>: chairman of a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-IT" xml:lang="it">
+                     <term>Presidente</term>: presidente di seduta</catDesc>
+                  <catDesc corresp="#ParlaMint-IT">
+                     <term>Chairperson</term>: chairman of a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-LT" xml:lang="lt">
+                     <term>Pirmininkas</term>: posėdžio pirmininkas</catDesc>
+                  <catDesc corresp="#ParlaMint-LT">
+                     <term>Chairperson</term>: chairman of a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-LV" xml:lang="lv">
+                     <term>Priekššedētājs</term>: Saeimas priekšsēdētājs</catDesc>
+                  <catDesc corresp="#ParlaMint-LV">
+                     <term>Chairperson</term>: chairman of a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-NL">
+                     <term>Chairperson</term>: chairman of a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-PL" xml:lang="pl">
+                     <term>Przewodniczący</term>: przewodniczący posiedzenia</catDesc>
+                  <catDesc corresp="#ParlaMint-PL">
+                     <term>Chairperson</term>: chairman of a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-SI" xml:lang="sl">
+                     <term>Predsedujoči</term>: predsedujoči zasedanja</catDesc>
+                  <catDesc corresp="#ParlaMint-SI">
+                     <term>Chairperson</term>: chairman of a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-TR">
+                     <term>Chairperson</term>: chairman of a meeting</catDesc>
+               </category>
+               <category xml:id="regular">
+                  <catDesc corresp="#ParlaMint-BE" xml:lang="nl">
+                     <term>Lid federaal parlement</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-BE">
+                     <term>Regular</term>: a regular speaker at a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-BG" xml:lang="bg">
+                     <term>Говорещ</term>: обикновен изказващ се на заседание</catDesc>
+                  <catDesc corresp="#ParlaMint-BG">
+                     <term>Regular</term>: a regular speaker at a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-CZ" xml:lang="cs">
+                     <term>Poslanec</term>: poslanec nebo člen vlády</catDesc>
+                  <catDesc corresp="#ParlaMint-CZ">
+                     <term>Regular</term>: a regular speaker at a sitting</catDesc>
+                  <catDesc corresp="#ParlaMint-DK">
+                     <term>Regular</term>: a regular speaker at a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-ES" xml:lang="es">
+                     <term>Diputado/a</term>: representante en el Congreso</catDesc>
+                  <catDesc corresp="#ParlaMint-ES">
+                     <term>Regular</term>: a regular speaker at a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-GB">
+                     <term>Regular</term>: a regular speaker at a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-HR" xml:lang="hr">
+                     <term>Redovni</term>: redovni govornik na zasjedanju</catDesc>
+                  <catDesc corresp="#ParlaMint-HR">
+                     <term>Regular</term>: a regular speaker at a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-HU" xml:lang="hu">
+                     <term>Képviselő</term>: rendes résztvevője a találkozónak</catDesc>
+                  <catDesc corresp="#ParlaMint-HU">
+                     <term>Regular</term>: a regular speaker at a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-IS" xml:lang="is">
+                     <term>Venjulegur</term>: venjulegur ræðumaður á fundi</catDesc>
+                  <catDesc corresp="#ParlaMint-IS">
+                     <term>Regular</term>: a regular speaker at a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-IT" xml:lang="it">
+                     <term>Membro</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-IT">
+                     <term>Regular</term>: a regular speaker at a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-LT" xml:lang="lt">
+                     <term>Nuolatinis</term>: nuolat posėdžiuose pasisakantis asmuo (Seimo narys)</catDesc>
+                  <catDesc corresp="#ParlaMint-LT">
+                     <term>Regular</term>: a regular speaker at a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-LV" xml:lang="lv">
+                     <term>Deputāts</term>: Saeimas deputāts</catDesc>
+                  <catDesc corresp="#ParlaMint-LV">
+                     <term>Regular</term>: a regular speaker at a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-NL">
+                     <term>Regular</term>: a regular speaker at a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-PL" xml:lang="pl">
+                     <term>Parlamentarzysta</term>: zwykły uczestnik posiedzenia</catDesc>
+                  <catDesc corresp="#ParlaMint-PL">
+                     <term>Regular</term>: a regular speaker at a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-SI" xml:lang="sl">
+                     <term>Navadni</term>: navadni govorec na zasedanju</catDesc>
+                  <catDesc corresp="#ParlaMint-SI">
+                     <term>Regular</term>: a regular speaker at a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-TR">
+                     <term>Regular</term>: a regular speaker at a meeting</catDesc>
+               </category>
+               <category xml:id="guest">
+                  <catDesc corresp="#ParlaMint-BE" xml:lang="nl">
+                     <term>Gastspreker</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-BE">
+                     <term>Guest</term>: a guest speaker at a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-BG" xml:lang="bg">
+                     <term>Гост</term>: гост на заседание</catDesc>
+                  <catDesc corresp="#ParlaMint-BG">
+                     <term>Guest</term>: a guest speaker at a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-CZ" xml:lang="cs">
+                     <term>Host</term>: ghostující řečník na sezení</catDesc>
+                  <catDesc corresp="#ParlaMint-CZ">
+                     <term>Guest</term>: a guest speaker at a sitting</catDesc>
+                  <catDesc corresp="#ParlaMint-DK">
+                     <term>Guest</term>: a guest speaker at a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-ES" xml:lang="es">
+                     <term>Orador/a invitado/a</term>: persona invitada a hablar ante el Pleno</catDesc>
+                  <catDesc corresp="#ParlaMint-ES">
+                     <term>Guest</term>: a guest speaker at a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-FR" xml:lang="fr">
+                     <term>Invité</term>: invité en séance</catDesc>
+                  <catDesc corresp="#ParlaMint-FR">
+                     <term>Guest</term>: a guest speaker at a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-GB">
+                     <term>Guest</term>: a guest speaker at a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-HR" xml:lang="hr">
+                     <term>Gost</term>: gostujući govornik na zasjedanju</catDesc>
+                  <catDesc corresp="#ParlaMint-HR">
+                     <term>Guest</term>: a guest speaker at a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-IS" xml:lang="is">
+                     <term>Gestur</term>: gestaræðumaður</catDesc>
+                  <catDesc corresp="#ParlaMint-IS">
+                     <term>Guest</term>: a guest speaker at a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-IT" xml:lang="it">
+                     <term>Ospite</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-IT">
+                     <term>Guest</term>: a guest speaker at a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-LT" xml:lang="lt">
+                     <term>Svečias</term>: kviestinis pranešėjas</catDesc>
+                  <catDesc corresp="#ParlaMint-LT">
+                     <term>Guest</term>: a guest speaker at a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-LV" xml:lang="lv">
+                     <term>Viesis</term>: viesis Saeimas sēdē</catDesc>
+                  <catDesc corresp="#ParlaMint-LV">
+                     <term>Guest</term>: a guest speaker at a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-NL">
+                     <term>Guest</term>: a guest speaker at a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-PL" xml:lang="pl">
+                     <term>Gość</term>: zewnętrzny uczestnik posiedzenia</catDesc>
+                  <catDesc corresp="#ParlaMint-PL">
+                     <term>Guest</term>: a guest speaker at a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-SI" xml:lang="sl">
+                     <term>Gost</term>: gostujoči govornik na zasedanju</catDesc>
+                  <catDesc corresp="#ParlaMint-SI">
+                     <term>Guest</term>: a guest speaker at a meeting</catDesc>
+                  <catDesc corresp="#ParlaMint-TR">
+                     <term>Guest</term>: a guest speaker at a meeting</catDesc>
+               </category>
+               <category xml:id="rapporteur">
+                  <catDesc corresp="#ParlaMint-BE" xml:lang="nl">
+                     <term>Rapporteur</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-BE">
+                     <term>Reporting</term>: a reporting speaker at a meeting</catDesc>
+               </category>
+               <category xml:id="minister">
+                  <catDesc corresp="#ParlaMint-BE" xml:lang="nl">
+                     <term>Minister</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-BE">
+                     <term>Minister</term>
+                  </catDesc>
+               </category>
+               <category xml:id="primeMinister">
+                  <catDesc corresp="#ParlaMint-BE" xml:lang="nl">
+                     <term>Premier</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-BE">
+                     <term>Prime Minister</term>
+                  </catDesc>
+               </category>
+               <category xml:id="secretaryOfState">
+                  <catDesc corresp="#ParlaMint-BE" xml:lang="nl">
+                     <term>Staatssecretaris</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-BE">
+                     <term>Secretary Of State</term>
+                  </catDesc>
+               </category>
+               <category xml:id="secretary">
+                  <catDesc corresp="#ParlaMint-BE" xml:lang="nl">
+                     <term>Secretaris</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-BE">
+                     <term>Secretary</term>
+                  </catDesc>
+               </category>
+               <category xml:id="other">
+                  <catDesc corresp="#ParlaMint-BE" xml:lang="nl">
+                     <term>Overig sprekertype</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-BE">
+                     <term>Other type of speaker</term>
+                  </catDesc>
+               </category>
+               <category xml:id="presidentOfTheEuropeanCommission">
+                  <catDesc corresp="#ParlaMint-BE" xml:lang="nl">
+                     <term>Voorzitter van de Europese Commissie</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-BE">
+                     <term>President Of the European Commission</term>
+                  </catDesc>
+               </category>
+               <category xml:id="unknown">
+                  <catDesc corresp="#ParlaMint-BE" xml:lang="nl">
+                     <term>Onbekend</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-BE">
+                     <term>Unknown</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-FR" xml:lang="fr">
+                     <term>Gouvernement</term>: type d'orateur inconnu</catDesc>
+                  <catDesc corresp="#ParlaMint-FR">
+                     <term>Government</term>: : unknown type of speaker</catDesc>
+                  <catDesc corresp="#ParlaMint-TR">
+                     <term>unknown</term>Speaker cannot be determined. Most likely a guest, but can also be due to failure to match the pattern in the transcripts.</catDesc>
+               </category>
+               <category xml:id="EuropeanCommissioner">
+                  <catDesc corresp="#ParlaMint-BE" xml:lang="nl">
+                     <term>Europees commissaris</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-BE">
+                     <term>European Commissioner</term>
+                  </catDesc>
+               </category>
+               <category xml:id="chairOfSenate">
+                  <catDesc corresp="#ParlaMint-BE" xml:lang="nl">
+                     <term>Voorzitter van de senaat</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-BE">
+                     <term>Chair of Senate</term>
+                  </catDesc>
+               </category>
+               <category xml:id="staffMemberOfMinister">
+                  <catDesc corresp="#ParlaMint-BE" xml:lang="nl">
+                     <term>Ministeriële staf</term>
+                  </catDesc>
+                  <catDesc corresp="#ParlaMint-BE">
+                     <term>Staff Member of Minister</term>
+                  </catDesc>
+               </category>
+               <category xml:id="speaker">
+                  <catDesc corresp="#ParlaMint-FR" xml:lang="fr">
+                     <term>Orateur</term>: orateur en séance</catDesc>
+                  <catDesc corresp="#ParlaMint-FR">
+                     <term>Regular</term>: a regular speaker at a meeting</catDesc>
+               </category>
+               <category xml:id="government">
+                  <catDesc corresp="#ParlaMint-FR" xml:lang="fr">
+                     <term>Gouvernement</term>: membre du gouvernement invité en séance</catDesc>
+                  <catDesc corresp="#ParlaMint-FR">
+                     <term>Government</term>: member of government invited at a meeting</catDesc>
+               </category>
+               <category xml:id="irregular">
+                  <catDesc corresp="#ParlaMint-HU" xml:lang="hu">
+                     <term>Vendég</term>: az ülés külső résztvevője</catDesc>
+                  <catDesc corresp="#ParlaMint-HU">
+                     <term>Guest</term>: a guest speaker at a meeting</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="subcorpus">
+               <category xml:id="reference">
+                  <catDesc corresp="#ParlaMint-BE" xml:lang="nl">
+                     <term>Reference</term>: referentiesubcorpus, tot 2019-10-31</catDesc>
+                  <catDesc corresp="#ParlaMint-BE">
+                     <term>Reference</term>: reference subcorpus, until 2019-10-31</catDesc>
+                  <catDesc corresp="#ParlaMint-BG">
+                     <term>Reference</term>: reference subcorpus, until 2019-10-31</catDesc>
+                  <catDesc corresp="#ParlaMint-BG" xml:lang="bg">
+                     <term>Референтен</term>: референтен подкорпус, до 2019-10-31</catDesc>
+                  <catDesc corresp="#ParlaMint-CZ" xml:lang="cs">
+                     <term>Referenční</term>: referenční podkorpus, do 2019-10-31</catDesc>
+                  <catDesc corresp="#ParlaMint-CZ">
+                     <term>Reference</term>: reference subcorpus, until 2019-10-31</catDesc>
+                  <catDesc corresp="#ParlaMint-DK">
+                     <term>Reference</term>: reference subcorpus, until 2019-09-12</catDesc>
+                  <catDesc corresp="#ParlaMint-ES" xml:lang="es">
+                     <term>Corpus de referencia</term>: aquel que incluye todos los textos compilados hasta el 31 de octubre de 2019.</catDesc>
+                  <catDesc corresp="#ParlaMint-ES">
+                     <term>Reference</term>: reference subcorpus, until 2019-10-31.</catDesc>
+                  <catDesc corresp="#ParlaMint-FR" xml:lang="fr">
+                     <term>Référence</term>: sous-corpus de référence, jusqu'à 2019-07-31</catDesc>
+                  <catDesc corresp="#ParlaMint-FR">
+                     <term>Reference</term>: reference subcorpus, until 2019-07-31</catDesc>
+                  <catDesc corresp="#ParlaMint-GB">
+                     <term>Reference</term>: reference subcorpus, until 2019-10-31</catDesc>
+                  <catDesc corresp="#ParlaMint-HR" xml:lang="hr">
+                     <term>Referenca</term>: referenčni podkorpus, do 2019-10-31</catDesc>
+                  <catDesc corresp="#ParlaMint-HR">
+                     <term>Reference</term>: reference subcorpus, until 2019-10-31</catDesc>
+                  <catDesc corresp="#ParlaMint-HU" xml:lang="hu">
+                     <term>Referencia</term>: referencia részkorpusz, 2019. 10. 30-ig</catDesc>
+                  <catDesc corresp="#ParlaMint-HU">
+                     <term>Reference</term>: reference subcorpus, until 2019-10-31</catDesc>
+                  <catDesc corresp="#ParlaMint-IT" xml:lang="it">
+                     <term>Reference</term>: reference subcorpus, fino al 31-10-2019</catDesc>
+                  <catDesc corresp="#ParlaMint-IT">
+                     <term>Reference</term>: reference subcorpus, until 2019-10-31</catDesc>
+                  <catDesc corresp="#ParlaMint-LT" xml:lang="lt">
+                     <term>Referentinis</term>: referentinis tekstynas, iki 2020-01-28</catDesc>
+                  <catDesc corresp="#ParlaMint-LT">
+                     <term>Reference</term>: reference subcorpus, until 2020-01-28</catDesc>
+                  <catDesc corresp="#ParlaMint-LV" xml:lang="lv">
+                     <term>References</term>: references apakškorpuss, līdz 2019-10-31</catDesc>
+                  <catDesc corresp="#ParlaMint-LV">
+                     <term>Reference</term>: reference subcorpus, until 2019-10-31</catDesc>
+                  <catDesc corresp="#ParlaMint-NL">
+                     <term>Reference</term>: reference subcorpus, until 2019-10-31</catDesc>
+                  <catDesc corresp="#ParlaMint-PL" xml:lang="pl">
+                     <term>Referencyjny</term>: podkorpus referencyjny, do 2019-10-31</catDesc>
+                  <catDesc corresp="#ParlaMint-PL">
+                     <term>Reference</term>: reference subcorpus, until 2019-10-31</catDesc>
+                  <catDesc corresp="#ParlaMint-SI" xml:lang="sl">
+                     <term>Referenca</term>: referenčni podkorpus, do 2019-10-31</catDesc>
+                  <catDesc corresp="#ParlaMint-SI">
+                     <term>Reference</term>: reference subcorpus, until 2019-10-31</catDesc>
+                  <catDesc corresp="#ParlaMint-TR">
+                     <term>Reference</term>: reference subcorpus, until 2020-01-17</catDesc>
+               </category>
+               <category xml:id="covid">
+                  <catDesc corresp="#ParlaMint-BE" xml:lang="nl">
+                     <term>COVID</term>: COVID subcorpus, vanaf 2019-11-01 onwards</catDesc>
+                  <catDesc corresp="#ParlaMint-BE">
+                     <term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
+                  <catDesc corresp="#ParlaMint-BG">
+                     <term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
+                  <catDesc corresp="#ParlaMint-BG" xml:lang="bg">
+                     <term>COVID</term>: COVID подкорпус, от 2019-11-01 нататък</catDesc>
+                  <catDesc corresp="#ParlaMint-CZ" xml:lang="cs">
+                     <term>COVID</term>: COVID podkorpus, od 2019-11-01 dále</catDesc>
+                  <catDesc corresp="#ParlaMint-CZ">
+                     <term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
+                  <catDesc corresp="#ParlaMint-DK">
+                     <term>COVID</term>: COVID subcorpus, from 2019-10-01 onwards</catDesc>
+                  <catDesc corresp="#ParlaMint-ES" xml:lang="es">
+                     <term>Corpus COVID</term>: Aquel que incluye todos los textos compilados a partir del 1 de noviembre de 2019.</catDesc>
+                  <catDesc corresp="#ParlaMint-ES">
+                     <term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
+                  <catDesc corresp="#ParlaMint-FR" xml:lang="fr">
+                     <term>COVID</term>: sous-corpus COVID, à partir de 2019-10-01</catDesc>
+                  <catDesc corresp="#ParlaMint-FR">
+                     <term>COVID</term>: COVID subcorpus, from 2019-10-01 onwards</catDesc>
+                  <catDesc corresp="#ParlaMint-GB">
+                     <term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
+                  <catDesc corresp="#ParlaMint-HR" xml:lang="hr">
+                     <term>COVID</term>: COVID podkorpus, od 2019-11-01 dalje</catDesc>
+                  <catDesc corresp="#ParlaMint-HR">
+                     <term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
+                  <catDesc corresp="#ParlaMint-HU" xml:lang="hu">
+                     <term>COVID</term>: COVID részkorpusz, 2019. 11. 01-tól</catDesc>
+                  <catDesc corresp="#ParlaMint-HU">
+                     <term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
+                  <catDesc corresp="#ParlaMint-IT" xml:lang="it">
+                     <term>COVID</term>: COVID subcorpus, dal 01-11-2019</catDesc>
+                  <catDesc corresp="#ParlaMint-IT">
+                     <term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
+                  <catDesc corresp="#ParlaMint-LT" xml:lang="lt">
+                     <term>COVID</term>: tekstyno „COVID“ dalis, nuo 2020-03-10</catDesc>
+                  <catDesc corresp="#ParlaMint-LT">
+                     <term>COVID</term>: COVID subcorpus, from 2020-03-10 onwards</catDesc>
+                  <catDesc corresp="#ParlaMint-LV" xml:lang="lv">
+                     <term>COVID</term>: COVID apakškorpuss, no 2019-11-01</catDesc>
+                  <catDesc corresp="#ParlaMint-LV">
+                     <term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
+                  <catDesc corresp="#ParlaMint-NL">
+                     <term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
+                  <catDesc corresp="#ParlaMint-PL" xml:lang="pl">
+                     <term>COVID</term>: podkorpus COVID, od 2019-11-01</catDesc>
+                  <catDesc corresp="#ParlaMint-PL">
+                     <term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
+                  <catDesc corresp="#ParlaMint-SI" xml:lang="sl">
+                     <term>COVID</term>: COVID podkorpus, od 2019-11-01 dalje</catDesc>
+                  <catDesc corresp="#ParlaMint-SI">
+                     <term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
+                  <catDesc corresp="#ParlaMint-TR">
+                     <term>COVID</term>: COVID subcorpus, from 2020-01-28 onwards</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
       </encodingDesc>
       <profileDesc>
          <settingDesc>
@@ -582,6 +3983,7 @@
                <date from="1996-11-28" to="2000-10-27"/>
             </setting>
          </settingDesc>
+         <langUsage/>
       </profileDesc>
       <revisionDesc>
          <change when="2021-06-06">
