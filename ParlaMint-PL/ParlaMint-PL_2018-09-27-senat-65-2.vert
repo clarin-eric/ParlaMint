@@ -1,7 +1,7 @@
 <note type="head" content="65. posiedzenie Senatu RP 9. kadencji, dzień 2"/>
 <note type="time" content="Wznowienie posiedzenia o godzinie 11 minut 00"/>
 <note type="debate" content="Posiedzeniu przewodniczą marszałek Stanisław Karczewski oraz wicemarszałkowie Michał Seweryński, Maria Koc i Adam Bielan"/>
-<speech id="ParlaMint-PL_2018-09-27-senat-65-2.u1" text_id="ParlaMint-PL_2018-09-27-senat-65-2" subcorpus="Reference" house="Upper house" term="9-upper" session="65-upper" meeting="-" sitting="2-upper" agenda="-" from="2018-09-27" to="2018-09-27" title="Report of the session of the Senat of the Republic of Poland, Term 9, Session 65, Day 2 (2018-09-27)" speaker_role="Chairperson" speaker_id="KuchcińskiMarek" speaker_name="Kuchciński, Marek" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="coalition" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-PL_2018-09-27-senat-65-2.u1" text_id="ParlaMint-PL_2018-09-27-senat-65-2" subcorpus="Reference" house="Upper house" term="9-upper" session="65-upper" meeting="" sitting="2-upper" agenda="" from="2018-09-27" to="2018-09-27" title="Report of the session of the Senat of the Republic of Poland, Term 9, Session 65, Day 2 (2018-09-27)" speaker_role="Chairperson" speaker_id="KuchcińskiMarek" speaker_name="Kuchciński, Marek" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="Coalition" speaker_gender="M" speaker_birth="1955">
 <p id="seg747084" lang="Polish">
 <s id="seg747084.1">
 Wznawiam	Wznawiam	wznawiać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
@@ -18,7 +18,7 @@ proszę	proszę	prosić	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres
 o	o	o	ADP	AdpType=Prep	3	case	zająć	NOUN	Aspect=Perf Case=Acc Gender=Neut Number=Sing Polarity=Pos VerbForm=Vnoun	4
 zajęcie	zajęcie	zająć	NOUN	Aspect=Perf Case=Acc Gender=Neut Number=Sing Polarity=Pos VerbForm=Vnoun	4	obl:arg	prosić	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 miejsc	miejsc	miejsce	NOUN	Case=Gen Gender=Neut Number=Plur	5	obj	zająć	NOUN	Aspect=Perf Case=Acc Gender=Neut Number=Sing Polarity=Pos VerbForm=Vnoun	4
-i	i	i	CCONJ	-	6	cc	wyciszyć	NOUN	Aspect=Perf Case=Acc Gender=Neut Number=Sing Polarity=Pos VerbForm=Vnoun	7
+i	i	i	CCONJ		6	cc	wyciszyć	NOUN	Aspect=Perf Case=Acc Gender=Neut Number=Sing Polarity=Pos VerbForm=Vnoun	7
 wyciszenie	wyciszenie	wyciszyć	NOUN	Aspect=Perf Case=Acc Gender=Neut Number=Sing Polarity=Pos VerbForm=Vnoun	7	conj	zająć	NOUN	Aspect=Perf Case=Acc Gender=Neut Number=Sing Polarity=Pos VerbForm=Vnoun	4
 rozmów	rozmów	rozmowa	NOUN	Case=Gen Gender=Fem Number=Plur	8	obj	wyciszyć	NOUN	Aspect=Perf Case=Acc Gender=Neut Number=Sing Polarity=Pos VerbForm=Vnoun	7
 <g/>
@@ -249,7 +249,7 @@ Sanoku	Sanoku	Sanok	PROPN	Animacy=Inan Case=Loc Gender=Masc Number=Sing	18	nmod	
 <note type="kinesic:applause" content="Oklaski"/>
 <p id="seg747094" lang="Polish">
 <s id="seg747094.1">
-I	I	i	CCONJ	-	1	cc	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
+I	I	i	CCONJ		1	cc	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 witam	witam	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
 panią	panią	pani	NOUN	Case=Acc Gender=Fem Number=Sing	3	obj	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 <name type="PER">
@@ -290,7 +290,7 @@ Bardzo	Bardzo	bardzo	ADV	Degree=Pos	1	advmod	serdecznie	ADV	Degree=Pos	2
 serdecznie	serdecznie	serdecznie	ADV	Degree=Pos	2	advmod	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	4
 państwa	państwa	państwo	NOUN	Case=Acc Gender=Neut Number=Ptan	3	obj	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	4
 witam	witam	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	4	root	-	-	-	-
-i	i	i	CCONJ	-	5	cc	dziękować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	6
+i	i	i	CCONJ		5	cc	dziękować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	6
 dziękuję	dziękuję	dziękować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	6	conj	witać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	4
 za	za	za	ADP	AdpType=Prep	7	case	przyjąć	NOUN	Aspect=Perf Case=Acc Gender=Neut Number=Sing Polarity=Pos VerbForm=Vnoun	8
 przyjęcie	przyjęcie	przyjąć	NOUN	Aspect=Perf Case=Acc Gender=Neut Number=Sing Polarity=Pos VerbForm=Vnoun	8	obl:arg	dziękować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	6
@@ -304,7 +304,7 @@ zaproszenia	zaproszenia	zaproszenie	NOUN	Case=Gen Gender=Neut Number=Sing	9	obj	
 Przypominam	Przypominam	przypominać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	2	punct	wnieść	ADJ	Animacy=Inan Aspect=Perf Case=Nom Gender=Masc Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	7
-że	że	że	SCONJ	-	3	mark	wnieść	ADJ	Animacy=Inan Aspect=Perf Case=Nom Gender=Masc Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	7
+że	że	że	SCONJ		3	mark	wnieść	ADJ	Animacy=Inan Aspect=Perf Case=Nom Gender=Masc Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	7
 projekt	projekt	projekt	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing	4	nsubj:pass	wnieść	ADJ	Animacy=Inan Aspect=Perf Case=Nom Gender=Masc Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	7
 uchwały	uchwały	uchwała	NOUN	Case=Gen Gender=Fem Number=Sing	5	nmod:arg	projekt	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing	4
 został	został	zostać	AUX	Animacy=Inan Aspect=Perf Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	6	aux:pass	wnieść	ADJ	Animacy=Inan Aspect=Perf Case=Nom Gender=Masc Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	7
@@ -314,7 +314,7 @@ grupę	grupę	grupa	NOUN	Case=Acc Gender=Fem Number=Sing	9	obl:agent	wnieść	AD
 <name type="ORG">
 senatorów	senatorów	senator	NOUN	Animacy=Hum Case=Gen Gender=Masc Number=Plur	10	nmod	grupa	NOUN	Case=Acc Gender=Fem Number=Sing	9
 </name>
-i	i	i	CCONJ	-	11	cc	zawrzeć	ADJ	Animacy=Inan Aspect=Perf Case=Nom Gender=Masc Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	12
+i	i	i	CCONJ		11	cc	zawrzeć	ADJ	Animacy=Inan Aspect=Perf Case=Nom Gender=Masc Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	12
 zawarty	zawarty	zawrzeć	ADJ	Animacy=Inan Aspect=Perf Case=Nom Gender=Masc Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	12	conj	wnieść	ADJ	Animacy=Inan Aspect=Perf Case=Nom Gender=Masc Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	7
 jest	jest	być	AUX	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	13	aux:pass	zawrzeć	ADJ	Animacy=Inan Aspect=Perf Case=Nom Gender=Masc Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	12
 w	w	w	ADP	AdpType=Prep Variant=Short	14	case	druk	NOUN	Animacy=Inan Case=Loc Gender=Masc Number=Sing	15
@@ -323,7 +323,7 @@ nr	nr	numer	X	Abbr=Yes Pun=No	16	nmod	druk	NOUN	Animacy=Inan Case=Loc Gender=Mas
 941	941	941	X	NumForm=Digit	17	nmod	numer	X	Abbr=Yes Pun=No	16
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	18	punct	zawrzeć	ADJ	Animacy=Inan Aspect=Perf Case=Nom Gender=Masc Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	12
-a	a	a	CCONJ	-	19	cc	zawrzeć	ADJ	Animacy=Inan Aspect=Perf Case=Nom Gender=Masc Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	12
+a	a	a	CCONJ		19	cc	zawrzeć	ADJ	Animacy=Inan Aspect=Perf Case=Nom Gender=Masc Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	12
 sprawozdanie	sprawozdanie	sprawozdanie	NOUN	Case=Nom Gender=Neut Number=Sing	20	nsubj:pass	zawrzeć	ADJ	Animacy=Inan Aspect=Perf Case=Nom Gender=Masc Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	12
 komisji	komisji	komisja	NOUN	Case=Gen Gender=Fem Number=Sing	21	nmod	sprawozdanie	NOUN	Case=Nom Gender=Neut Number=Sing	20
 </s>
@@ -381,7 +381,7 @@ Senatorze	Senatorze	senator	PROPN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	5
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-PL_2018-09-27-senat-65-2.u2" text_id="ParlaMint-PL_2018-09-27-senat-65-2" subcorpus="Reference" house="Upper house" term="9-upper" session="65-upper" meeting="-" sitting="2-upper" agenda="-" from="2018-09-27" to="2018-09-27" title="Report of the session of the Senat of the Republic of Poland, Term 9, Session 65, Day 2 (2018-09-27)" speaker_role="Regular" speaker_id="ŻarynJan" speaker_name="Żaryn, Jan" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="coalition" speaker_gender="M" speaker_birth="1958">
+<speech id="ParlaMint-PL_2018-09-27-senat-65-2.u2" text_id="ParlaMint-PL_2018-09-27-senat-65-2" subcorpus="Reference" house="Upper house" term="9-upper" session="65-upper" meeting="" sitting="2-upper" agenda="" from="2018-09-27" to="2018-09-27" title="Report of the session of the Senat of the Republic of Poland, Term 9, Session 65, Day 2 (2018-09-27)" speaker_role="Regular" speaker_id="ŻarynJan" speaker_name="Żaryn, Jan" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="Coalition" speaker_gender="M" speaker_birth="1958">
 <p id="seg747099" lang="Polish">
 <s id="seg747099.1">
 Panie	Panie	pan	NOUN	Animacy=Hum Case=Voc Gender=Masc Number=Sing	1	vocative	-	-	-	-
@@ -413,7 +413,7 @@ Goście	Goście	gość	PROPN	Animacy=Hum Case=Voc Gender=Masc Number=Plur	2	root
 Mam	Mam	mieć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 wielką	wielką	wielki	ADJ	Case=Acc Degree=Pos Gender=Fem Number=Sing	2	amod	przyjemność	NOUN	Case=Acc Gender=Fem Number=Sing	3
 przyjemność	przyjemność	przyjemność	NOUN	Case=Acc Gender=Fem Number=Sing	3	iobj	mieć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
-i	i	i	CCONJ	-	4	cc	honor	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	5
+i	i	i	CCONJ		4	cc	honor	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	5
 honor	honor	honor	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	5	conj	przyjemność	NOUN	Case=Acc Gender=Fem Number=Sing	3
 przeczytać	przeczytać	przeczytać	VERB	Aspect=Perf VerbForm=Inf Voice=Act	6	conj	przyjemność	NOUN	Case=Acc Gender=Fem Number=Sing	3
 państwu	państwu	państwo	NOUN	Animacy=Hum Case=Dat Gender=Neut Number=Sing	7	iobj	przeczytać	VERB	Aspect=Perf VerbForm=Inf Voice=Act	6
@@ -447,7 +447,7 @@ Jastrzębiec-Peszkowskiego	Jastrzębiec-Peszkowskiego	Jastrzębiec-Peszkowskiego
 .	.	.	PUNCT	PunctType=Peri	28	punct	mieć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 <s id="seg747100.2">
-Ale	Ale	ale	CCONJ	-	1	cc	chcieć	VERB	Animacy=Hum Aspect=Imp Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	14
+Ale	Ale	ale	CCONJ		1	cc	chcieć	VERB	Animacy=Hum Aspect=Imp Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	14
 jak	jak	jak	ADV	Degree=Pos PronType=Int	2	advmod	bywać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	7
 to	to	to	PRON	Case=Nom Gender=Neut Number=Sing PronType=Dem	3	nsubj	bywać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	7
 zwykle	zwykle	zwykle	ADV	Degree=Pos	4	advmod	bywać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	7
@@ -456,7 +456,7 @@ mną	mną	ja	PRON	Animacy=Hum Case=Ins Gender=Masc Number=Sing Person=1 PronType
 bywa	bywa	bywać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	7	advcl	chcieć	VERB	Animacy=Hum Aspect=Imp Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	14
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	8	punct	przeczytać	VERB	Aspect=Perf Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin Voice=Act	10
-zanim	zanim	zanim	SCONJ	-	9	mark	przeczytać	VERB	Aspect=Perf Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin Voice=Act	10
+zanim	zanim	zanim	SCONJ		9	mark	przeczytać	VERB	Aspect=Perf Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin Voice=Act	10
 przeczytam	przeczytam	przeczytać	VERB	Aspect=Perf Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin Voice=Act	10	advcl	bywać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	7
 projekt	projekt	projekt	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	11	obj	przeczytać	VERB	Aspect=Perf Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin Voice=Act	10
 uchwały	uchwały	uchwała	NOUN	Case=Gen Gender=Fem Number=Sing	12	nmod:arg	projekt	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	11
@@ -464,7 +464,7 @@ uchwały	uchwały	uchwała	NOUN	Case=Gen Gender=Fem Number=Sing	12	nmod:arg	proj
 ,	,	,	PUNCT	PunctType=Comm	13	punct	przeczytać	VERB	Aspect=Perf Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin Voice=Act	10
 chciał	chciał	chcieć	VERB	Animacy=Hum Aspect=Imp Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	14	root	-	-	-	-
 <g/>
-by	by	by	AUX	-	15	aux:cnd	chcieć	VERB	Animacy=Hum Aspect=Imp Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	14
+by	by	by	AUX		15	aux:cnd	chcieć	VERB	Animacy=Hum Aspect=Imp Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	14
 <g/>
 m	m	być	AUX	Aspect=Imp Clitic=Yes Number=Sing Person=1 Variant=Short	16	aux:clitic	chcieć	VERB	Animacy=Hum Aspect=Imp Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	14
 parę	parę	parę	DET	Case=Acc Gender=Neut Number=Plur NumType=Card PronType=Ind	17	det:numgov	słowo	NOUN	Case=Gen Gender=Neut Number=Plur	18
@@ -480,7 +480,7 @@ Przede	Przede	przed	ADP	AdpType=Prep Variant=Long	1	parataxis:insert	chcieć	VER
 wszystkim	wszystkim	wszystko	PRON	Case=Ins Gender=Neut Number=Sing PronType=Tot	2	fixed	przed	ADP	AdpType=Prep Variant=Long	1
 chciał	chciał	chcieć	VERB	Animacy=Hum Aspect=Imp Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	3	root	-	-	-	-
 <g/>
-by	by	by	AUX	-	4	aux:cnd	chcieć	VERB	Animacy=Hum Aspect=Imp Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	3
+by	by	by	AUX		4	aux:cnd	chcieć	VERB	Animacy=Hum Aspect=Imp Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	3
 <g/>
 m	m	być	AUX	Aspect=Imp Clitic=Yes Number=Sing Person=1 Variant=Short	5	aux:clitic	chcieć	VERB	Animacy=Hum Aspect=Imp Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	3
 wskazać	wskazać	wskazać	VERB	Aspect=Perf VerbForm=Inf Voice=Act	6	xcomp	chcieć	VERB	Animacy=Hum Aspect=Imp Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	3
@@ -502,7 +502,7 @@ która	która	który	DET	Case=Nom Gender=Fem Number=Sing PronType=Rel	18	nsubj	p
 przypilnowała	przypilnowała	przypilnować	VERB	Aspect=Perf Gender=Fem Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	19	acl:relcl	pomysłodawczyni	NOUN	Case=Ins Gender=Fem Number=Sing	16
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	20	punct	zapomnieć	VERB	Animacy=Hum Aspect=Perf Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	27
-żeby	żeby	żeby	SCONJ	-	21	mark	zapomnieć	VERB	Animacy=Hum Aspect=Perf Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	27
+żeby	żeby	żeby	SCONJ		21	mark	zapomnieć	VERB	Animacy=Hum Aspect=Perf Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	27
 prof	prof	profesor	X	Abbr=Yes Pun=Yes	22	nsubj	zapomnieć	VERB	Animacy=Hum Aspect=Perf Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	27
 <g/>
 .	.	.	PUNCT	PunctType=Peri	23	punct	profesor	X	Abbr=Yes Pun=Yes	22
@@ -549,7 +549,7 @@ poklaskać	poklaskać	poklaskać	VERB	Aspect=Imp VerbForm=Inf Voice=Act	4	xcomp	
 <note type="kinesic:applause" content="Oklaski"/>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-PL_2018-09-27-senat-65-2.u356" text_id="ParlaMint-PL_2018-09-27-senat-65-2" subcorpus="Reference" house="Upper house" term="9-upper" session="65-upper" meeting="-" sitting="2-upper" agenda="-" from="2018-09-27" to="2018-09-27" title="Report of the session of the Senat of the Republic of Poland, Term 9, Session 65, Day 2 (2018-09-27)" speaker_role="Regular" speaker_id="RadziwiłłKonstanty" speaker_name="Radziwiłł, Konstanty" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="coalition" speaker_gender="M" speaker_birth="1958">
+<speech id="ParlaMint-PL_2018-09-27-senat-65-2.u356" text_id="ParlaMint-PL_2018-09-27-senat-65-2" subcorpus="Reference" house="Upper house" term="9-upper" session="65-upper" meeting="" sitting="2-upper" agenda="" from="2018-09-27" to="2018-09-27" title="Report of the session of the Senat of the Republic of Poland, Term 9, Session 65, Day 2 (2018-09-27)" speaker_role="Regular" speaker_id="RadziwiłłKonstanty" speaker_name="Radziwiłł, Konstanty" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="Coalition" speaker_gender="M" speaker_birth="1958">
 <p id="seg747831" lang="Polish">
 <s id="seg747831.1">
 (	(	(	PUNCT	PunctSide=Ini PunctType=Brck	1	punct	mieć	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	3
@@ -565,7 +565,7 @@ rządu	rządu	rząd	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing	5	nmod:ar
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-PL_2018-09-27-senat-65-2.u357" text_id="ParlaMint-PL_2018-09-27-senat-65-2" subcorpus="Reference" house="Upper house" term="9-upper" session="65-upper" meeting="-" sitting="2-upper" agenda="-" from="2018-09-27" to="2018-09-27" title="Report of the session of the Senat of the Republic of Poland, Term 9, Session 65, Day 2 (2018-09-27)" speaker_role="Chairperson" speaker_id="BielanAdam" speaker_name="Bielan, Adam" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="coalition" speaker_gender="M" speaker_birth="1974">
+<speech id="ParlaMint-PL_2018-09-27-senat-65-2.u357" text_id="ParlaMint-PL_2018-09-27-senat-65-2" subcorpus="Reference" house="Upper house" term="9-upper" session="65-upper" meeting="" sitting="2-upper" agenda="" from="2018-09-27" to="2018-09-27" title="Report of the session of the Senat of the Republic of Poland, Term 9, Session 65, Day 2 (2018-09-27)" speaker_role="Chairperson" speaker_id="BielanAdam" speaker_name="Bielan, Adam" speaker_type="MP" speaker_party="PiS" speaker_party_name="Klub Parlamentarny Prawo i Sprawiedliwość" party_status="Coalition" speaker_gender="M" speaker_birth="1974">
 <p id="seg747832" lang="Polish">
 <s id="seg747832.1">
 Otwieram	Otwieram	otwierać	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
@@ -579,7 +579,7 @@ dyskusję	dyskusję	dyskusja	NOUN	Case=Acc Gender=Fem Number=Sing	2	obj	otwiera�
 Informuję	Informuję	informować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	2	punct	zapisać	VERB	Animacy=Hum Aspect=Perf Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	9
-że	że	że	SCONJ	-	3	mark	zapisać	VERB	Animacy=Hum Aspect=Perf Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	9
+że	że	że	SCONJ		3	mark	zapisać	VERB	Animacy=Hum Aspect=Perf Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	9
 nikt	nikt	nikt	PRON	Animacy=Hum Case=Nom Gender=Masc Number=Sing PronType=Ind	4	nsubj	zapisać	VERB	Animacy=Hum Aspect=Perf Gender=Masc Mood=Ind Number=Sing Tense=Past VerbForm=Fin Voice=Act	9
 z	z	z	ADP	AdpType=Prep Variant=Short	5	case	państwo	NOUN	Case=Gen Gender=Neut Number=Sing	6
 państwa	państwa	państwo	NOUN	Case=Gen Gender=Neut Number=Sing	6	obl	nikt	PRON	Animacy=Hum Case=Nom Gender=Masc Number=Sing PronType=Ind	4
@@ -606,7 +606,7 @@ dyskusję	dyskusję	dyskusja	NOUN	Case=Acc Gender=Fem Number=Sing	2	obj	zamykać
 Informuję	Informuję	informować	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	2	punct	przeprowadzić	ADJ	Aspect=Perf Case=Nom Gender=Neut Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	10
-że	że	że	SCONJ	-	3	mark	przeprowadzić	ADJ	Aspect=Perf Case=Nom Gender=Neut Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	10
+że	że	że	SCONJ		3	mark	przeprowadzić	ADJ	Aspect=Perf Case=Nom Gender=Neut Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	10
 głosowanie	głosowanie	głosowanie	NOUN	Case=Nom Gender=Neut Number=Sing	4	nsubj:pass	przeprowadzić	ADJ	Aspect=Perf Case=Nom Gender=Neut Number=Sing Polarity=Pos VerbForm=Part Voice=Pass	10
 w	w	w	ADP	AdpType=Prep Variant=Short	5	case	ustawa	NOUN	Case=Gen Gender=Fem Number=Sing	8
 sprawie	sprawie	sprawa	NOUN	Case=Loc Gender=Fem Number=Sing	6	fixed	w	ADP	AdpType=Prep Variant=Short	5
@@ -639,7 +639,7 @@ godziny	godziny	godzina	NOUN	Case=Gen Gender=Fem Number=Sing	6	obl	ogłaszać	VE
 </p>
 <p id="seg747837" lang="Polish">
 <s id="seg747837.1">
-Jutro	Jutro	jutro	ADV	-	1	advmod	rozpocząć	VERB	Aspect=Perf Mood=Ind Number=Plur Person=1 Tense=Fut VerbForm=Fin Voice=Act	2
+Jutro	Jutro	jutro	ADV		1	advmod	rozpocząć	VERB	Aspect=Perf Mood=Ind Number=Plur Person=1 Tense=Fut VerbForm=Fin Voice=Act	2
 rozpoczniemy	rozpoczniemy	rozpocząć	VERB	Aspect=Perf Mood=Ind Number=Plur Person=1 Tense=Fut VerbForm=Fin Voice=Act	2	root	-	-	-	-
 obrady	obrady	obrady	NOUN	Case=Acc Gender=Neut Number=Ptan	3	obj	rozpocząć	VERB	Aspect=Perf Mood=Ind Number=Plur Person=1 Tense=Fut VerbForm=Fin Voice=Act	2
 o	o	o	ADP	AdpType=Prep	4	case	godzina	NOUN	Case=Loc Gender=Fem Number=Sing	5

@@ -1,5 +1,5 @@
 <note type="head" content="CONVALIDACIÓN O DEROGACIÓN DE REALES DECRETOS-LEYES - REAL DECRETO-LEY 4/2017, DE 24 DE FEBRERO, POR EL QUE SE MODIFICA EL RÉGIMEN DE LOS TRABAJADORES PARA LA PRESTACIÓN DEL SERVICIO PORTUARIO DE MANIPULACIÓN DE MERCANCÍAS DANDO CUMPLIMIENTO A LA SENTENCIA DEL TRIBUNAL DE JUSTICIA DE LA UNIÓN EUROPEA DE 11 DE DICIEMBRE DE 2014, RECAÍDA EN EL ASUNTO C-576/13"/>
-<speech id="ParlaMint-ES_2017-03-16-CD170316.u1" text_id="ParlaMint-ES_2017-03-16-CD170316" subcorpus="Reference" house="Lower house" term="12" session="37" meeting="-" sitting="-" agenda="-" from="2017-03-16" to="2017-03-16" title="Plenary session 37 (2017-03-16)" speaker_role="Chairman">
+<speech id="ParlaMint-ES_2017-03-16-CD170316.u1" text_id="ParlaMint-ES_2017-03-16-CD170316" subcorpus="Reference" house="Lower house" term="12" session="37" meeting="" sitting="" agenda="" from="2017-03-16" to="2017-03-16" title="Plenary session 37 (2017-03-16)" speaker_role="" speaker_id="" speaker_name="" speaker_type="" speaker_party="" speaker_party_name="" party_status="" speaker_gender="" speaker_birth="">
 <p id="ParlaMint-ES_2017-03-16-CD170316.u1.1" lang="Spanish">
 <s id="ParlaMint-ES_2017-03-16-CD170316.u1.1.1">
 <name type="ORG">
@@ -29,27 +29,27 @@ correspondiente	correspondiente	correspondiente	ADJ	Number=Sing	9	amod	punto	NOU
 a	a	a	ADP	AdpType=Prep	10	case	convalidación	NOUN	Gender=Fem Number=Sing	12
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	11	det	convalidación	NOUN	Gender=Fem Number=Sing	12
 convalidación	convalidación	convalidación	NOUN	Gender=Fem Number=Sing	12	nmod	correspondiente	ADJ	Number=Sing	9
-o	o	o	CCONJ	-	13	cc	derogación	NOUN	Gender=Fem Number=Sing	14
+o	o	o	CCONJ		13	cc	derogación	NOUN	Gender=Fem Number=Sing	14
 derogación	derogación	derogación	NOUN	Gender=Fem Number=Sing	14	conj	convalidación	NOUN	Gender=Fem Number=Sing	12
-del	del	del	ADP	AdpType=Preppron	15	case	Real	PROPN	-	16
+del	del	del	ADP	AdpType=Preppron	15	case	Real	PROPN		16
 <name type="MISC">
-Real	Real	Real	PROPN	-	16	nmod	convalidación	NOUN	Gender=Fem Number=Sing	12
-Decreto-ley	Decreto-ley	Decreto-ley	PROPN	-	17	flat	Real	PROPN	-	16
-4/2017	4/2017	4/2017	NUM	NumForm=Digit NumType=Card	18	nummod	Real	PROPN	-	16
+Real	Real	Real	PROPN		16	nmod	convalidación	NOUN	Gender=Fem Number=Sing	12
+Decreto-ley	Decreto-ley	Decreto-ley	PROPN		17	flat	Real	PROPN		16
+4/2017	4/2017	4/2017	NUM	NumForm=Digit NumType=Card	18	nummod	Real	PROPN		16
 <g/>
 </name>
 ,	,	,	PUNCT	PunctType=Comm	19	punct	24	NUM	NumForm=Digit NumType=Card	21
 de	de	de	ADP	AdpType=Prep	20	case	24	NUM	NumForm=Digit NumType=Card	21
-24	24	24	NUM	NumForm=Digit NumType=Card	21	nmod	Real	PROPN	-	16
-de	de	de	ADP	AdpType=Prep	22	case	febrero	NOUN	-	23
-febrero	febrero	febrero	NOUN	-	23	compound	24	NUM	NumForm=Digit NumType=Card	21
+24	24	24	NUM	NumForm=Digit NumType=Card	21	nmod	Real	PROPN		16
+de	de	de	ADP	AdpType=Prep	22	case	febrero	NOUN		23
+febrero	febrero	febrero	NOUN		23	compound	24	NUM	NumForm=Digit NumType=Card	21
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	24	punct	24	NUM	NumForm=Digit NumType=Card	21
 por	por	por	ADP	AdpType=Prep	25	case	que	PRON	PronType=Int,Rel	27
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	26	det	que	PRON	PronType=Int,Rel	27
 que	que	que	PRON	PronType=Int,Rel	27	obl	modificar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	29
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	28	expl:pass	modificar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	29
-modifica	modifica	modificar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	29	acl	Real	PROPN	-	16
+modifica	modifica	modificar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	29	acl	Real	PROPN		16
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	30	det	régimen	NOUN	Gender=Masc Number=Sing	31
 régimen	régimen	régimen	NOUN	Gender=Masc Number=Sing	31	nsubj	modificar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	29
 de	de	de	ADP	AdpType=Prep	32	case	trabajador	NOUN	Gender=Masc Number=Plur	34
@@ -76,7 +76,7 @@ Señorías	Señorías	señoría	NOUN	Gender=Fem Number=Plur	1	dep	ocupar	VERB	Mo
 ocupen	ocupen	ocupar	VERB	Mood=Imp Number=Plur Person=3 VerbForm=Fin	3	root	-	-	-	-
 sus	sus	su	DET	Number=Plur Person=3 Poss=Yes PronType=Prs	4	det	escaño	NOUN	Gender=Masc Number=Plur	5
 escaños	escaños	escaño	NOUN	Gender=Masc Number=Plur	5	obj	ocupar	VERB	Mood=Imp Number=Plur Person=3 VerbForm=Fin	3
-y	y	y	CCONJ	-	6	cc	guardar	VERB	Mood=Imp Number=Plur Person=3 VerbForm=Fin	7
+y	y	y	CCONJ		6	cc	guardar	VERB	Mood=Imp Number=Plur Person=3 VerbForm=Fin	7
 guarden	guarden	guardar	VERB	Mood=Imp Number=Plur Person=3 VerbForm=Fin	7	conj	ocupar	VERB	Mood=Imp Number=Plur Person=3 VerbForm=Fin	3
 silencio	silencio	silencio	NOUN	Gender=Masc Number=Sing	8	obj	guardar	VERB	Mood=Imp Number=Plur Person=3 VerbForm=Fin	7
 <g/>
@@ -84,27 +84,27 @@ silencio	silencio	silencio	NOUN	Gender=Masc Number=Sing	8	obj	guardar	VERB	Mood=
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u1.2.4">
 Convalidación	Convalidación	convalidación	NOUN	Gender=Fem Number=Sing	1	root	-	-	-	-
-o	o	o	CCONJ	-	2	cc	derogación	NOUN	Gender=Fem Number=Sing	3
+o	o	o	CCONJ		2	cc	derogación	NOUN	Gender=Fem Number=Sing	3
 derogación	derogación	derogación	NOUN	Gender=Fem Number=Sing	3	conj	convalidación	NOUN	Gender=Fem Number=Sing	1
-del	del	del	ADP	AdpType=Preppron	4	case	Real	PROPN	-	5
+del	del	del	ADP	AdpType=Preppron	4	case	Real	PROPN		5
 <name type="MISC">
-Real	Real	Real	PROPN	-	5	nmod	convalidación	NOUN	Gender=Fem Number=Sing	1
-Decreto-ley	Decreto-ley	Decreto-ley	PROPN	-	6	flat	Real	PROPN	-	5
-4/2017	4/2017	4/2017	NUM	NumForm=Digit NumType=Card	7	nummod	Real	PROPN	-	5
+Real	Real	Real	PROPN		5	nmod	convalidación	NOUN	Gender=Fem Number=Sing	1
+Decreto-ley	Decreto-ley	Decreto-ley	PROPN		6	flat	Real	PROPN		5
+4/2017	4/2017	4/2017	NUM	NumForm=Digit NumType=Card	7	nummod	Real	PROPN		5
 <g/>
 </name>
 ,	,	,	PUNCT	PunctType=Comm	8	punct	24	NUM	NumForm=Digit NumType=Card	10
 de	de	de	ADP	AdpType=Prep	9	case	24	NUM	NumForm=Digit NumType=Card	10
-24	24	24	NUM	NumForm=Digit NumType=Card	10	nmod	Real	PROPN	-	5
-de	de	de	ADP	AdpType=Prep	11	case	febrero	NOUN	-	12
-febrero	febrero	febrero	NOUN	-	12	compound	24	NUM	NumForm=Digit NumType=Card	10
+24	24	24	NUM	NumForm=Digit NumType=Card	10	nmod	Real	PROPN		5
+de	de	de	ADP	AdpType=Prep	11	case	febrero	NOUN		12
+febrero	febrero	febrero	NOUN		12	compound	24	NUM	NumForm=Digit NumType=Card	10
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	13	punct	24	NUM	NumForm=Digit NumType=Card	10
 por	por	por	ADP	AdpType=Prep	14	case	que	PRON	PronType=Int,Rel	16
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	15	det	que	PRON	PronType=Int,Rel	16
 que	que	que	PRON	PronType=Int,Rel	16	obl	modificar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	18
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	17	expl:pass	modificar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	18
-modifica	modifica	modificar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	18	acl	Real	PROPN	-	5
+modifica	modifica	modificar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	18	acl	Real	PROPN		5
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	19	det	régimen	NOUN	Gender=Masc Number=Sing	20
 régimen	régimen	régimen	NOUN	Gender=Masc Number=Sing	20	nsubj	modificar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	18
 de	de	de	ADP	AdpType=Prep	21	case	trabajador	NOUN	Gender=Masc Number=Plur	23
@@ -127,22 +127,22 @@ cumplimiento	cumplimiento	cumplimiento	NOUN	Gender=Masc Number=Sing	36	obj	dar	V
 a	a	a	ADP	AdpType=Prep	37	case	sentencia	NOUN	Gender=Fem Number=Sing	39
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	38	det	sentencia	NOUN	Gender=Fem Number=Sing	39
 sentencia	sentencia	sentencia	NOUN	Gender=Fem Number=Sing	39	obj	dar	VERB	VerbForm=Ger	35
-del	del	del	ADP	AdpType=Preppron	40	case	Tribunal	PROPN	-	41
+del	del	del	ADP	AdpType=Preppron	40	case	Tribunal	PROPN		41
 <name type="ORG">
-Tribunal	Tribunal	Tribunal	PROPN	-	41	nmod	sentencia	NOUN	Gender=Fem Number=Sing	39
-de	de	de	ADP	AdpType=Prep	42	case	Justicia	PROPN	-	43
-Justicia	Justicia	Justicia	PROPN	-	43	flat	Tribunal	PROPN	-	41
-de	de	de	ADP	AdpType=Prep	44	case	Unión	PROPN	-	46
-la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	45	det	Unión	PROPN	-	46
-Unión	Unión	Unión	PROPN	-	46	flat	Tribunal	PROPN	-	41
-Europea	Europea	Europea	PROPN	-	47	flat	Unión	PROPN	-	46
+Tribunal	Tribunal	Tribunal	PROPN		41	nmod	sentencia	NOUN	Gender=Fem Number=Sing	39
+de	de	de	ADP	AdpType=Prep	42	case	Justicia	PROPN		43
+Justicia	Justicia	Justicia	PROPN		43	flat	Tribunal	PROPN		41
+de	de	de	ADP	AdpType=Prep	44	case	Unión	PROPN		46
+la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	45	det	Unión	PROPN		46
+Unión	Unión	Unión	PROPN		46	flat	Tribunal	PROPN		41
+Europea	Europea	Europea	PROPN		47	flat	Unión	PROPN		46
 <g/>
 </name>
 ,	,	,	PUNCT	PunctType=Comm	48	punct	11	NUM	NumForm=Digit NumType=Card	50
 de	de	de	ADP	AdpType=Prep	49	case	11	NUM	NumForm=Digit NumType=Card	50
 11	11	11	NUM	NumForm=Digit NumType=Card	50	nmod	sentencia	NOUN	Gender=Fem Number=Sing	39
-de	de	de	ADP	AdpType=Prep	51	case	diciembre	NOUN	-	52
-diciembre	diciembre	diciembre	NOUN	-	52	compound	11	NUM	NumForm=Digit NumType=Card	50
+de	de	de	ADP	AdpType=Prep	51	case	diciembre	NOUN		52
+diciembre	diciembre	diciembre	NOUN		52	compound	11	NUM	NumForm=Digit NumType=Card	50
 de	de	de	ADP	AdpType=Prep	53	case	2014	NUM	NumForm=Digit NumType=Card	54
 2014	2014	2014	NUM	NumForm=Digit NumType=Card	54	compound	11	NUM	NumForm=Digit NumType=Card	50
 <g/>
@@ -168,35 +168,35 @@ Para	Para	para	ADP	AdpType=Prep	1	mark	presentar	VERB	VerbForm=Inf	2
 presentar	presentar	presentar	VERB	VerbForm=Inf	2	advcl	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	7
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	3	det	real	NOUN	Gender=Masc Number=Sing	4
 real	real	real	NOUN	Gender=Masc Number=Sing	4	obj	presentar	VERB	VerbForm=Inf	2
-decreto-ley	decreto-ley	decreto-ley	NOUN	-	5	compound	real	NOUN	Gender=Masc Number=Sing	4
+decreto-ley	decreto-ley	decreto-ley	NOUN		5	compound	real	NOUN	Gender=Masc Number=Sing	4
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	6	punct	presentar	VERB	VerbForm=Inf	2
 tiene	tiene	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	7	root	-	-	-	-
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	8	det	palabra	NOUN	Gender=Fem Number=Sing	9
 palabra	palabra	palabra	NOUN	Gender=Fem Number=Sing	9	obj	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	7
 <g/>
-,	,	,	PUNCT	PunctType=Comm	10	punct	Gobierno	PROPN	-	14
-en	en	en	ADP	AdpType=Prep	11	case	Gobierno	PROPN	-	14
-nombre	nombre	nombre	NOUN	-	12	fixed	en	ADP	AdpType=Prep	11
+,	,	,	PUNCT	PunctType=Comm	10	punct	Gobierno	PROPN		14
+en	en	en	ADP	AdpType=Prep	11	case	Gobierno	PROPN		14
+nombre	nombre	nombre	NOUN		12	fixed	en	ADP	AdpType=Prep	11
 del	del	del	ADP	AdpType=Preppron	13	fixed	en	ADP	AdpType=Prep	11
 <name type="ORG">
-Gobierno	Gobierno	Gobierno	PROPN	-	14	obl	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	7
+Gobierno	Gobierno	Gobierno	PROPN		14	obl	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	7
 <g/>
 </name>
-,	,	,	PUNCT	PunctType=Comm	15	punct	Gobierno	PROPN	-	14
+,	,	,	PUNCT	PunctType=Comm	15	punct	Gobierno	PROPN		14
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	16	det	señor	NOUN	Gender=Masc Number=Sing	17
 señor	señor	señor	NOUN	Gender=Masc Number=Sing	17	nsubj	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	7
 ministro	ministro	ministro	NOUN	Gender=Masc Number=Sing	18	appos	señor	NOUN	Gender=Masc Number=Sing	17
-de	de	de	ADP	AdpType=Prep	19	case	Fomento	PROPN	-	20
+de	de	de	ADP	AdpType=Prep	19	case	Fomento	PROPN		20
 <name type="MISC">
-Fomento	Fomento	Fomento	PROPN	-	20	nmod	ministro	NOUN	Gender=Masc Number=Sing	18
+Fomento	Fomento	Fomento	PROPN		20	nmod	ministro	NOUN	Gender=Masc Number=Sing	18
 <g/>
 </name>
 .	.	.	PUNCT	PunctType=Peri	21	punct	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	7
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-ES_2017-03-16-CD170316.u2" text_id="ParlaMint-ES_2017-03-16-CD170316" subcorpus="Reference" house="Lower house" term="12" session="37" meeting="-" sitting="-" agenda="-" from="2017-03-16" to="2017-03-16" title="Plenary session 37 (2017-03-16)" speaker_role="Regular" speaker_id="SernaÍñigo" speaker_name="Serna Hernáiz, Íñigo Joaquín" speaker_type="MP" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="M" speaker_birth="1971">
+<speech id="ParlaMint-ES_2017-03-16-CD170316.u2" text_id="ParlaMint-ES_2017-03-16-CD170316" subcorpus="Reference" house="Lower house" term="12" session="37" meeting="" sitting="" agenda="" from="2017-03-16" to="2017-03-16" title="Plenary session 37 (2017-03-16)" speaker_role="Regular" speaker_id="SernaÍñigo" speaker_name="Serna Hernáiz, Íñigo Joaquín" speaker_type="MP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="1971">
 <p id="ParlaMint-ES_2017-03-16-CD170316.u2.1" lang="Spanish">
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.1.1">
 Muchas	Muchas	mucho	DET	Gender=Fem NumType=Card Number=Plur PronType=Ind	1	det	gracias	NOUN	Gender=Fem Number=Plur	2
@@ -217,10 +217,10 @@ Señorías	Señorías	señoría	NOUN	Gender=Fem Number=Plur	1	nsubj	comparecer	V
 </name>
 ,	,	,	PUNCT	PunctType=Comm	2	punct	señoría	NOUN	Gender=Fem Number=Plur	1
 comparezco	comparezco	comparecer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3	root	-	-	-	-
-en	en	en	ADP	AdpType=Prep	4	case	Cámara	PROPN	-	6
-esta	esta	este	DET	Gender=Fem Number=Sing PronType=Dem	5	det	Cámara	PROPN	-	6
+en	en	en	ADP	AdpType=Prep	4	case	Cámara	PROPN		6
+esta	esta	este	DET	Gender=Fem Number=Sing PronType=Dem	5	det	Cámara	PROPN		6
 <name type="ORG">
-Cámara	Cámara	Cámara	PROPN	-	6	obl	comparecer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
+Cámara	Cámara	Cámara	PROPN		6	obl	comparecer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
 </name>
 para	para	para	ADP	AdpType=Prep	7	mark	someter	VERB	VerbForm=Inf	8
 someter	someter	someter	VERB	VerbForm=Inf	8	advcl	comparecer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
@@ -229,29 +229,29 @@ su	su	su	DET	Number=Sing Person=3 Poss=Yes PronType=Prs	10	det	consideración	NO
 consideración	consideración	consideración	NOUN	Gender=Fem Number=Sing	11	obj	someter	VERB	VerbForm=Inf	8
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	12	det	convalidación	NOUN	Gender=Fem Number=Sing	13
 convalidación	convalidación	convalidación	NOUN	Gender=Fem Number=Sing	13	obj	someter	VERB	VerbForm=Inf	8
-del	del	del	ADP	AdpType=Preppron	14	case	Real	PROPN	-	15
+del	del	del	ADP	AdpType=Preppron	14	case	Real	PROPN		15
 <name type="MISC">
-Real	Real	Real	PROPN	-	15	nmod	convalidación	NOUN	Gender=Fem Number=Sing	13
-Decreto-ley	Decreto-ley	Decreto-ley	PROPN	-	16	flat	Real	PROPN	-	15
-4/2017	4/2017	4/2017	NUM	NumForm=Digit NumType=Card	17	nummod	Real	PROPN	-	15
+Real	Real	Real	PROPN		15	nmod	convalidación	NOUN	Gender=Fem Number=Sing	13
+Decreto-ley	Decreto-ley	Decreto-ley	PROPN		16	flat	Real	PROPN		15
+4/2017	4/2017	4/2017	NUM	NumForm=Digit NumType=Card	17	nummod	Real	PROPN		15
 <g/>
 </name>
 ,	,	,	PUNCT	PunctType=Comm	18	punct	aprobar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	21
 que	que	que	PRON	PronType=Int,Rel	19	nsubj	aprobar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	21
 fue	fue	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	20	aux	aprobar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	21
-aprobado	aprobado	aprobar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	21	acl	Real	PROPN	-	15
-por	por	por	ADP	AdpType=Prep	22	case	Consejo	PROPN	-	24
-el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	23	det	Consejo	PROPN	-	24
+aprobado	aprobado	aprobar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	21	acl	Real	PROPN		15
+por	por	por	ADP	AdpType=Prep	22	case	Consejo	PROPN		24
+el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	23	det	Consejo	PROPN		24
 <name type="ORG">
-Consejo	Consejo	Consejo	PROPN	-	24	obj	aprobar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	21
-de	de	de	ADP	AdpType=Prep	25	case	Ministros	PROPN	-	26
-Ministros	Ministros	Ministros	PROPN	-	26	flat	Consejo	PROPN	-	24
+Consejo	Consejo	Consejo	PROPN		24	obj	aprobar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	21
+de	de	de	ADP	AdpType=Prep	25	case	Ministros	PROPN		26
+Ministros	Ministros	Ministros	PROPN		26	flat	Consejo	PROPN		24
 </name>
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	27	det	24	NUM	NumForm=Digit NumType=Card	29
 pasado	pasado	pasado	ADJ	Gender=Masc Number=Sing VerbForm=Part	28	amod	24	NUM	NumForm=Digit NumType=Card	29
 24	24	24	NUM	NumForm=Digit NumType=Card	29	obl	aprobar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	21
-de	de	de	ADP	AdpType=Prep	30	case	febrero	NOUN	-	31
-febrero	febrero	febrero	NOUN	-	31	compound	24	NUM	NumForm=Digit NumType=Card	29
+de	de	de	ADP	AdpType=Prep	30	case	febrero	NOUN		31
+febrero	febrero	febrero	NOUN		31	compound	24	NUM	NumForm=Digit NumType=Card	29
 <g/>
 .	.	.	PUNCT	PunctType=Peri	32	punct	comparecer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
 </s>
@@ -277,27 +277,27 @@ de	de	de	ADP	AdpType=Prep	18	case	manipulación	NOUN	Gender=Fem Number=Sing	19
 manipulación	manipulación	manipulación	NOUN	Gender=Fem Number=Sing	19	nmod	servicio	NOUN	Gender=Masc Number=Sing	16
 de	de	de	ADP	AdpType=Prep	20	case	mercancía	NOUN	Gender=Masc Number=Plur	21
 mercancías	mercancías	mercancía	NOUN	Gender=Masc Number=Plur	21	nmod	manipulación	NOUN	Gender=Fem Number=Sing	19
-y	y	y	CCONJ	-	22	cc	dar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	24
+y	y	y	CCONJ		22	cc	dar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	24
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	23	expl:pass	dar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	24
 da	da	dar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	24	conj	modificar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
 cumplimiento	cumplimiento	cumplimiento	NOUN	Gender=Masc Number=Sing	25	obj	dar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	24
 a	a	a	ADP	AdpType=Prep	26	case	sentencia	NOUN	Gender=Fem Number=Sing	28
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	27	det	sentencia	NOUN	Gender=Fem Number=Sing	28
 sentencia	sentencia	sentencia	NOUN	Gender=Fem Number=Sing	28	obj	dar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	24
-del	del	del	ADP	AdpType=Preppron	29	case	Tribunal	PROPN	-	30
+del	del	del	ADP	AdpType=Preppron	29	case	Tribunal	PROPN		30
 <name type="ORG">
-Tribunal	Tribunal	Tribunal	PROPN	-	30	nmod	sentencia	NOUN	Gender=Fem Number=Sing	28
-de	de	de	ADP	AdpType=Prep	31	case	Justicia	PROPN	-	32
-Justicia	Justicia	Justicia	PROPN	-	32	flat	Tribunal	PROPN	-	30
-de	de	de	ADP	AdpType=Prep	33	case	Unión	PROPN	-	35
-la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	34	det	Unión	PROPN	-	35
-Unión	Unión	Unión	PROPN	-	35	flat	Tribunal	PROPN	-	30
-Europea	Europea	Europea	PROPN	-	36	flat	Unión	PROPN	-	35
+Tribunal	Tribunal	Tribunal	PROPN		30	nmod	sentencia	NOUN	Gender=Fem Number=Sing	28
+de	de	de	ADP	AdpType=Prep	31	case	Justicia	PROPN		32
+Justicia	Justicia	Justicia	PROPN		32	flat	Tribunal	PROPN		30
+de	de	de	ADP	AdpType=Prep	33	case	Unión	PROPN		35
+la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	34	det	Unión	PROPN		35
+Unión	Unión	Unión	PROPN		35	flat	Tribunal	PROPN		30
+Europea	Europea	Europea	PROPN		36	flat	Unión	PROPN		35
 </name>
 de	de	de	ADP	AdpType=Prep	37	case	11	NUM	NumForm=Digit NumType=Card	38
 11	11	11	NUM	NumForm=Digit NumType=Card	38	nmod	sentencia	NOUN	Gender=Fem Number=Sing	28
-de	de	de	ADP	AdpType=Prep	39	case	diciembre	NOUN	-	40
-diciembre	diciembre	diciembre	NOUN	-	40	compound	11	NUM	NumForm=Digit NumType=Card	38
+de	de	de	ADP	AdpType=Prep	39	case	diciembre	NOUN		40
+diciembre	diciembre	diciembre	NOUN		40	compound	11	NUM	NumForm=Digit NumType=Card	38
 de	de	de	ADP	AdpType=Prep	41	case	2014	NUM	NumForm=Digit NumType=Card	42
 2014	2014	2014	NUM	NumForm=Digit NumType=Card	42	compound	11	NUM	NumForm=Digit NumType=Card	38
 <g/>
@@ -307,15 +307,15 @@ de	de	de	ADP	AdpType=Prep	41	case	2014	NUM	NumForm=Digit NumType=Card	42
 Esta	Esta	este	DET	Gender=Fem Number=Sing PronType=Dem	1	det	sentencia	NOUN	Gender=Fem Number=Sing	2
 sentencia	sentencia	sentencia	NOUN	Gender=Fem Number=Sing	2	nsubj	condenar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 condena	condena	condenar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	root	-	-	-	-
-al	al	al	ADP	AdpType=Preppron	4	case	Reino	PROPN	-	5
+al	al	al	ADP	AdpType=Preppron	4	case	Reino	PROPN		5
 <name type="ORG">
-Reino	Reino	Reino	PROPN	-	5	obj	condenar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
-de	de	de	ADP	AdpType=Prep	6	case	España	PROPN	-	7
-España	España	España	PROPN	-	7	flat	Reino	PROPN	-	5
+Reino	Reino	Reino	PROPN		5	obj	condenar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
+de	de	de	ADP	AdpType=Prep	6	case	España	PROPN		7
+España	España	España	PROPN		7	flat	Reino	PROPN		5
 </name>
 por	por	por	ADP	AdpType=Prep	8	mark	considerar	VERB	VerbForm=Inf	9
 considerar	considerar	considerar	VERB	VerbForm=Inf	9	advcl	condenar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
-que	que	que	SCONJ	-	10	mark	contravenir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	25
+que	que	que	SCONJ		10	mark	contravenir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	25
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	11	det	régimen	NOUN	Gender=Masc Number=Sing	12
 régimen	régimen	régimen	NOUN	Gender=Masc Number=Sing	12	nsubj	contravenir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	25
 legal	legal	legal	ADJ	Number=Sing	13	amod	régimen	NOUN	Gender=Masc Number=Sing	12
@@ -336,14 +336,14 @@ el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	26	det	artículo	
 artículo	artículo	artículo	NOUN	Gender=Masc Number=Sing	27	obj	contravenir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	25
 49	49	49	NUM	NumForm=Digit NumType=Card	28	nummod	artículo	NOUN	Gender=Masc Number=Sing	27
 </name>
-del	del	del	ADP	AdpType=Preppron	29	case	Tratado	PROPN	-	30
+del	del	del	ADP	AdpType=Preppron	29	case	Tratado	PROPN		30
 <name type="MISC">
-Tratado	Tratado	Tratado	PROPN	-	30	nmod	artículo	NOUN	Gender=Masc Number=Sing	27
-de	de	de	ADP	AdpType=Prep	31	case	Funcionamiento	PROPN	-	32
-Funcionamiento	Funcionamiento	Funcionamiento	PROPN	-	32	flat	Tratado	PROPN	-	30
-de	de	de	ADP	AdpType=Prep	33	case	Unión	PROPN	-	35
-la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	34	det	Unión	PROPN	-	35
-Unión	Unión	Unión	PROPN	-	35	flat	Tratado	PROPN	-	30
+Tratado	Tratado	Tratado	PROPN		30	nmod	artículo	NOUN	Gender=Masc Number=Sing	27
+de	de	de	ADP	AdpType=Prep	31	case	Funcionamiento	PROPN		32
+Funcionamiento	Funcionamiento	Funcionamiento	PROPN		32	flat	Tratado	PROPN		30
+de	de	de	ADP	AdpType=Prep	33	case	Unión	PROPN		35
+la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	34	det	Unión	PROPN		35
+Unión	Unión	Unión	PROPN		35	flat	Tratado	PROPN		30
 </name>
 sobre	sobre	sobre	ADP	AdpType=Prep	36	case	libertad	NOUN	Gender=Fem Number=Sing	37
 libertad	libertad	libertad	NOUN	Gender=Fem Number=Sing	37	nmod	artículo	NOUN	Gender=Masc Number=Sing	27
@@ -353,11 +353,11 @@ establecimiento	establecimiento	establecimiento	NOUN	Gender=Masc Number=Sing	39	
 .	.	.	PUNCT	PunctType=Peri	40	punct	condenar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.2.4">
-Esto	Esto	este	PRON	Number=Sing PronType=Dem	1	nsubj	así	ADV	-	3
-es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	cop	así	ADV	-	3
-así	así	así	ADV	-	3	root	-	-	-	-
-porque	porque	porque	SCONJ	-	4	mark	imponer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
-impone	impone	imponer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5	advcl	así	ADV	-	3
+Esto	Esto	este	PRON	Number=Sing PronType=Dem	1	nsubj	así	ADV		3
+es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	cop	así	ADV		3
+así	así	así	ADV		3	root	-	-	-	-
+porque	porque	porque	SCONJ		4	mark	imponer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
+impone	impone	imponer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5	advcl	así	ADV		3
 a	a	a	ADP	AdpType=Prep	6	case	empresa	NOUN	Gender=Fem Number=Plur	8
 las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	7	det	empresa	NOUN	Gender=Fem Number=Plur	8
 empresas	empresas	empresa	NOUN	Gender=Fem Number=Plur	8	obj	imponer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
@@ -366,19 +366,19 @@ deseen	deseen	desear	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	
 desarrollar	desarrollar	desarrollar	VERB	VerbForm=Inf	11	xcomp	desear	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	10
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	12	det	actividad	NOUN	Gender=Fem Number=Sing	13
 actividad	actividad	actividad	NOUN	Gender=Fem Number=Sing	13	obj	desarrollar	VERB	VerbForm=Inf	11
-fundamentalmente	fundamentalmente	fundamentalmente	ADV	-	14	advmod	obligación	NOUN	Gender=Fem Number=Plur	16
+fundamentalmente	fundamentalmente	fundamentalmente	ADV		14	advmod	obligación	NOUN	Gender=Fem Number=Plur	16
 dos	dos	dos	NUM	NumType=Card Number=Plur	15	nummod	obligación	NOUN	Gender=Fem Number=Plur	16
 obligaciones	obligaciones	obligación	NOUN	Gender=Fem Number=Plur	16	obj	desarrollar	VERB	VerbForm=Inf	11
 <g/>
-.	.	.	PUNCT	PunctType=Peri	17	punct	así	ADV	-	3
+.	.	.	PUNCT	PunctType=Peri	17	punct	así	ADV		3
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.2.5">
 La	La	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	1	det	primero	ADJ	Gender=Fem NumType=Ord Number=Sing	2
 primera	primera	primero	ADJ	Gender=Fem NumType=Ord Number=Sing	2	nsubj	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	root	-	-	-	-
-que	que	que	SCONJ	-	4	mark	participar	VERB	VerbForm=Inf	7
+que	que	que	SCONJ		4	mark	participar	VERB	VerbForm=Inf	7
 tienen	tienen	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	5	ccomp	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
-que	que	que	SCONJ	-	6	cc	participar	VERB	VerbForm=Inf	7
+que	que	que	SCONJ		6	cc	participar	VERB	VerbForm=Inf	7
 participar	participar	participar	VERB	VerbForm=Inf	7	conj	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	5
 en	en	en	ADP	AdpType=Prep	8	case	capital	NOUN	Gender=Masc Number=Sing	10
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	9	det	capital	NOUN	Gender=Masc Number=Sing	10
@@ -406,16 +406,16 @@ la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	7	det	contratació
 contratación	contratación	contratación	NOUN	Gender=Fem Number=Sing	8	nmod	obligación	NOUN	Gender=Fem Number=Sing	5
 del	del	del	ADP	AdpType=Preppron	9	case	personal	NOUN	Gender=Masc Number=Sing	10
 personal	personal	personal	NOUN	Gender=Masc Number=Sing	10	nmod	contratación	NOUN	Gender=Fem Number=Sing	8
-de	de	de	ADP	AdpType=Prep	11	case	Sagep	PROPN	-	13
-esa	esa	ese	DET	Gender=Fem Number=Sing PronType=Dem	12	det	Sagep	PROPN	-	13
+de	de	de	ADP	AdpType=Prep	11	case	Sagep	PROPN		13
+esa	esa	ese	DET	Gender=Fem Number=Sing PronType=Dem	12	det	Sagep	PROPN		13
 <name type="ORG">
-Sagep	Sagep	Sagep	PROPN	-	13	nmod	personal	NOUN	Gender=Masc Number=Sing	10
+Sagep	Sagep	Sagep	PROPN		13	nmod	personal	NOUN	Gender=Masc Number=Sing	10
 <g/>
 </name>
 .	.	.	PUNCT	PunctType=Peri	14	punct	obligación	NOUN	Gender=Fem Number=Sing	5
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.2.7">
-O	O	o	CCONJ	-	1	advmod	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	12
+O	O	o	CCONJ		1	advmod	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	12
 dicho	dicho	dicho	ADJ	Gender=Masc Number=Sing VerbForm=Part	2	advmod	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	12
 de	de	de	ADP	AdpType=Prep	3	case	forma	NOUN	Gender=Fem Number=Sing	5
 otra	otra	otro	DET	Gender=Fem Number=Sing PronType=Ind	4	det	forma	NOUN	Gender=Fem Number=Sing	5
@@ -428,23 +428,23 @@ dice	dice	decir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	9	csu
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	10	det	sentencia	NOUN	Gender=Fem Number=Sing	11
 sentencia	sentencia	sentencia	NOUN	Gender=Fem Number=Sing	11	nsubj	decir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	9
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	12	root	-	-	-	-
-que	que	que	SCONJ	-	13	mark	contratar	VERB	VerbForm=Inf	22
+que	que	que	SCONJ		13	mark	contratar	VERB	VerbForm=Inf	22
 en	en	en	ADP	AdpType=Prep	14	case	país	NOUN	Gender=Masc Number=Sing	16
 este	este	este	DET	Gender=Masc Number=Sing PronType=Dem	15	det	país	NOUN	Gender=Masc Number=Sing	16
 país	país	país	NOUN	Gender=Masc Number=Sing	16	obl	contratar	VERB	VerbForm=Inf	22
 una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	17	det	empresa	NOUN	Gender=Fem Number=Sing	18
 empresa	empresa	empresa	NOUN	Gender=Fem Number=Sing	18	nsubj	contratar	VERB	VerbForm=Inf	22
 tiene	tiene	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	19	ccomp	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	12
-que	que	que	SCONJ	-	20	cc	contratar	VERB	VerbForm=Inf	22
+que	que	que	SCONJ		20	cc	contratar	VERB	VerbForm=Inf	22
 poder	poder	poder	AUX	VerbForm=Inf	21	aux	contratar	VERB	VerbForm=Inf	22
 contratar	contratar	contratar	VERB	VerbForm=Inf	22	conj	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	19
-libremente	libremente	libremente	ADV	-	23	advmod	contratar	VERB	VerbForm=Inf	22
+libremente	libremente	libremente	ADV		23	advmod	contratar	VERB	VerbForm=Inf	22
 a	a	a	ADP	AdpType=Prep	24	case	trabajador	NOUN	Gender=Masc Number=Plur	26
 sus	sus	su	DET	Number=Plur Person=3 Poss=Yes PronType=Prs	25	det	trabajador	NOUN	Gender=Masc Number=Plur	26
 trabajadores	trabajadores	trabajador	NOUN	Gender=Masc Number=Plur	26	obj	contratar	VERB	VerbForm=Inf	22
-y	y	y	CCONJ	-	27	cc	tener	VERB	VerbForm=Inf	52
-que	que	que	SCONJ	-	28	mark	tener	VERB	VerbForm=Inf	52
-además	además	además	ADV	-	29	advmod	tener	VERB	VerbForm=Inf	52
+y	y	y	CCONJ		27	cc	tener	VERB	VerbForm=Inf	52
+que	que	que	SCONJ		28	mark	tener	VERB	VerbForm=Inf	52
+además	además	además	ADV		29	advmod	tener	VERB	VerbForm=Inf	52
 una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	30	det	persona	NOUN	Gender=Fem Number=Sing	31
 persona	persona	persona	NOUN	Gender=Fem Number=Sing	31	nsubj	tener	VERB	VerbForm=Inf	52
 en	en	en	ADP	AdpType=Prep	32	case	situación	NOUN	Gender=Fem Number=Sing	33
@@ -453,37 +453,37 @@ de	de	de	ADP	AdpType=Prep	34	case	desempleo	NOUN	Gender=Masc Number=Sing	35
 desempleo	desempleo	desempleo	NOUN	Gender=Masc Number=Sing	35	nmod	situación	NOUN	Gender=Fem Number=Sing	33
 -sea	-sea	-seo	ADJ	Number=Sing	36	amod	hombre	NOUN	Gender=Masc Number=Sing	37
 hombre	hombre	hombre	NOUN	Gender=Masc Number=Sing	37	appos	situación	NOUN	Gender=Fem Number=Sing	33
-o	o	o	CCONJ	-	38	cc	mujer	NOUN	Gender=Fem Number=Sing	39
+o	o	o	CCONJ		38	cc	mujer	NOUN	Gender=Fem Number=Sing	39
 mujer	mujer	mujer	NOUN	Gender=Fem Number=Sing	39	conj	hombre	NOUN	Gender=Masc Number=Sing	37
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	40	punct	estar	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	41
 esté	esté	estar	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	41	advcl	tener	VERB	VerbForm=Inf	52
-en	en	en	ADP	AdpType=Prep	42	case	Algeciras	PROPN	-	43
+en	en	en	ADP	AdpType=Prep	42	case	Algeciras	PROPN		43
 <name type="LOC">
-Algeciras	Algeciras	Algeciras	PROPN	-	43	obl	estar	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	41
+Algeciras	Algeciras	Algeciras	PROPN		43	obl	estar	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	41
 <g/>
 </name>
-,	,	,	PUNCT	PunctType=Comm	44	punct	Bilbao	PROPN	-	46
-en	en	en	ADP	AdpType=Prep	45	case	Bilbao	PROPN	-	46
+,	,	,	PUNCT	PunctType=Comm	44	punct	Bilbao	PROPN		46
+en	en	en	ADP	AdpType=Prep	45	case	Bilbao	PROPN		46
 <name type="LOC">
-Bilbao	Bilbao	Bilbao	PROPN	-	46	conj	Algeciras	PROPN	-	43
+Bilbao	Bilbao	Bilbao	PROPN		46	conj	Algeciras	PROPN		43
 </name>
-o	o	o	CCONJ	-	47	cc	Valencia	PROPN	-	49
-en	en	en	ADP	AdpType=Prep	48	case	Valencia	PROPN	-	49
+o	o	o	CCONJ		47	cc	Valencia	PROPN		49
+en	en	en	ADP	AdpType=Prep	48	case	Valencia	PROPN		49
 <name type="LOC">
-Valencia	Valencia	Valencia	PROPN	-	49	conj	Bilbao	PROPN	-	46
+Valencia	Valencia	Valencia	PROPN		49	conj	Bilbao	PROPN		46
 <g/>
 </name>
--	-	-	PUNCT	PunctType=Dash	50	punct	Bilbao	PROPN	-	46
+-	-	-	PUNCT	PunctType=Dash	50	punct	Bilbao	PROPN		46
 pueda	pueda	poder	AUX	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	51	aux	tener	VERB	VerbForm=Inf	52
 tener	tener	tener	VERB	VerbForm=Inf	52	conj	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	19
-también	también	también	ADV	-	53	advmod	tener	VERB	VerbForm=Inf	52
+también	también	también	ADV		53	advmod	tener	VERB	VerbForm=Inf	52
 una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	54	det	oportunidad	NOUN	Gender=Fem Number=Sing	55
 oportunidad	oportunidad	oportunidad	NOUN	Gender=Fem Number=Sing	55	obj	tener	VERB	VerbForm=Inf	52
 laboral	laboral	laboral	ADJ	Number=Sing	56	amod	oportunidad	NOUN	Gender=Fem Number=Sing	55
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	57	punct	cumplir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	59
-si	si	si	SCONJ	-	58	mark	cumplir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	59
+si	si	si	SCONJ		58	mark	cumplir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	59
 cumple	cumple	cumplir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	59	advcl	tener	VERB	VerbForm=Inf	52
 con	con	con	ADP	AdpType=Prep	60	case	requisito	NOUN	Gender=Masc Number=Plur	62
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	61	det	requisito	NOUN	Gender=Masc Number=Plur	62
@@ -497,9 +497,9 @@ adecuados	adecuados	adecuado	ADJ	Gender=Masc Number=Plur VerbForm=Part	65	amod	c
 </p>
 <p id="ParlaMint-ES_2017-03-16-CD170316.u2.3" lang="Spanish">
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.3.1">
-Hoy	Hoy	hoy	ADV	-	1	advmod	suponer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	2
+Hoy	Hoy	hoy	ADV		1	advmod	suponer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	2
 supongo	supongo	suponer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	2	root	-	-	-	-
-que	que	que	SCONJ	-	3	mark	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	4
+que	que	que	SCONJ		3	mark	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	4
 habrá	habrá	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	4	ccomp	suponer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	2
 un	un	uno	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	5	det	debate	NOUN	Gender=Masc Number=Sing	7
 largo	largo	largo	ADJ	Gender=Masc Number=Sing	6	amod	debate	NOUN	Gender=Masc Number=Sing	7
@@ -508,14 +508,14 @@ sobre	sobre	sobre	ADP	AdpType=Prep	8	case	decreto-ley	NOUN	Gender=Masc Number=Si
 este	este	este	DET	Gender=Masc Number=Sing PronType=Dem	9	det	decreto-ley	NOUN	Gender=Masc Number=Sing	11
 real	real	real	ADJ	Number=Sing	10	amod	decreto-ley	NOUN	Gender=Masc Number=Sing	11
 decreto-ley	decreto-ley	decreto-ley	NOUN	Gender=Masc Number=Sing	11	nmod	debate	NOUN	Gender=Masc Number=Sing	7
-y	y	y	CCONJ	-	12	cc	decir	VERB	Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin	14
+y	y	y	CCONJ		12	cc	decir	VERB	Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin	14
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	13	expl:pass	decir	VERB	Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin	14
 dirán	dirán	decir	VERB	Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin	14	conj	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	4
 muchas	muchas	mucho	DET	Gender=Fem NumType=Card Number=Plur PronType=Ind	15	det	cosa	NOUN	Gender=Fem Number=Plur	16
 cosas	cosas	cosa	NOUN	Gender=Fem Number=Plur	16	nsubj	decir	VERB	Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin	14
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	17	punct	simple	ADJ	Number=Sing	28
-pero	pero	pero	CCONJ	-	18	cc	simple	ADJ	Number=Sing	28
+pero	pero	pero	CCONJ		18	cc	simple	ADJ	Number=Sing	28
 en	en	en	ADP	AdpType=Prep	19	case	esencia	NOUN	Gender=Fem Number=Sing	20
 esencia	esencia	esencia	NOUN	Gender=Fem Number=Sing	20	obl	simple	ADJ	Number=Sing	28
 lo	lo	él	PRON	Case=Acc Definite=Def Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	21	det	decir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	23
@@ -526,15 +526,15 @@ real	real	real	ADJ	Number=Sing	25	amod	decreto-ley	NOUN	Gender=Masc Number=Sing	
 decreto-ley	decreto-ley	decreto-ley	NOUN	Gender=Masc Number=Sing	26	nsubj	decir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	23
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	27	cop	simple	ADJ	Number=Sing	28
 simple	simple	simple	ADJ	Number=Sing	28	conj	suponer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	2
-y	y	y	CCONJ	-	29	cc	este	PRON	Number=Sing PronType=Dem	31
-llanamente	llanamente	llanamente	ADV	-	30	advmod	este	PRON	Number=Sing PronType=Dem	31
+y	y	y	CCONJ		29	cc	este	PRON	Number=Sing PronType=Dem	31
+llanamente	llanamente	llanamente	ADV		30	advmod	este	PRON	Number=Sing PronType=Dem	31
 esto	esto	este	PRON	Number=Sing PronType=Dem	31	conj	simple	ADJ	Number=Sing	28
 <g/>
 :	:	:	PUNCT	PunctType=Colo	32	punct	contratar	VERB	VerbForm=Inf	39
-que	que	que	SCONJ	-	33	mark	contratar	VERB	VerbForm=Inf	39
-en	en	en	ADP	AdpType=Prep	34	case	España	PROPN	-	35
+que	que	que	SCONJ		33	mark	contratar	VERB	VerbForm=Inf	39
+en	en	en	ADP	AdpType=Prep	34	case	España	PROPN		35
 <name type="LOC">
-España	España	España	PROPN	-	35	obl	contratar	VERB	VerbForm=Inf	39
+España	España	España	PROPN		35	obl	contratar	VERB	VerbForm=Inf	39
 </name>
 las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	36	det	empresa	NOUN	Gender=Fem Number=Plur	37
 empresas	empresas	empresa	NOUN	Gender=Fem Number=Plur	37	nsubj	contratar	VERB	VerbForm=Inf	39
@@ -572,7 +572,7 @@ informes	informes	informe	NOUN	Gender=Masc Number=Plur	13	obj	avalar	ADJ	Gender=
 de	de	de	ADP	AdpType=Prep	14	case	organismo	NOUN	Gender=Masc Number=Plur	16
 distintos	distintos	distinto	DET	Gender=Masc Number=Plur PronType=Ind	15	det	organismo	NOUN	Gender=Masc Number=Plur	16
 organismos	organismos	organismo	NOUN	Gender=Masc Number=Plur	16	nmod	informe	NOUN	Gender=Masc Number=Plur	13
-y	y	y	CCONJ	-	17	cc	hablar	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	19
+y	y	y	CCONJ		17	cc	hablar	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	19
 que	que	que	PRON	PronType=Int,Rel	18	nsubj	hablar	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	19
 hablan	hablan	hablar	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	19	conj	avalar	ADJ	Gender=Fem Number=Sing VerbForm=Part	11
 sobre	sobre	sobre	ADP	AdpType=Prep	20	case	falta	NOUN	Gender=Fem Number=Sing	22
@@ -591,34 +591,34 @@ centraré	centraré	centrar	VERB	Mood=Ind Number=Sing Person=1 Tense=Fut VerbFor
 en	en	en	ADP	AdpType=Prep	5	case	cuestión	NOUN	Gender=Fem Number=Sing	7
 esta	esta	este	DET	Gender=Fem Number=Sing PronType=Dem	6	det	cuestión	NOUN	Gender=Fem Number=Sing	7
 cuestión	cuestión	cuestión	NOUN	Gender=Fem Number=Sing	7	obj	centrar	VERB	Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin	4
-pero	pero	pero	CCONJ	-	8	cc	resaltar	VERB	Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin	10
-sí	sí	sí	INTJ	-	9	advcl	resaltar	VERB	Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin	10
+pero	pero	pero	CCONJ		8	cc	resaltar	VERB	Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin	10
+sí	sí	sí	INTJ		9	advcl	resaltar	VERB	Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin	10
 resaltaré	resaltaré	resaltar	VERB	Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin	10	conj	centrar	VERB	Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin	4
 un	un	uno	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	11	det	par	NOUN	Gender=Masc Number=Sing	12
 par	par	par	NOUN	Gender=Masc Number=Sing	12	obj	resaltar	VERB	Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin	10
 de	de	de	ADP	AdpType=Prep	13	case	dato	NOUN	Gender=Masc Number=Plur	14
 datos	datos	dato	NOUN	Gender=Masc Number=Plur	14	nmod	par	NOUN	Gender=Masc Number=Sing	12
-y	y	y	CCONJ	-	15	cc	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	16
+y	y	y	CCONJ		15	cc	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	16
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	16	conj	centrar	VERB	Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin	4
-que	que	que	SCONJ	-	17	mark	estar	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	20
+que	que	que	SCONJ		17	mark	estar	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	20
 esos	esos	ese	DET	Gender=Masc Number=Plur PronType=Dem	18	det	coste	NOUN	Gender=Masc Number=Plur	19
 costes	costes	coste	NOUN	Gender=Masc Number=Plur	19	nsubj	estar	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	20
-están	están	estar	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	20	cop	mucho	ADV	-	21
-muy	muy	mucho	ADV	-	21	ccomp	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	16
-por	por	por	ADP	AdpType=Prep	22	case	mucho	ADV	-	21
+están	están	estar	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	20	cop	mucho	ADV		21
+muy	muy	mucho	ADV		21	ccomp	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	16
+por	por	por	ADP	AdpType=Prep	22	case	mucho	ADV		21
 encima	encima	encima	ADV	AdpType=Prep	23	fixed	por	ADP	AdpType=Prep	22
 de	de	de	ADP	AdpType=Prep	24	fixed	por	ADP	AdpType=Prep	22
-costes	costes	coste	NOUN	Gender=Masc Number=Plur	25	nmod	mucho	ADV	-	21
+costes	costes	coste	NOUN	Gender=Masc Number=Plur	25	nmod	mucho	ADV		21
 laborales	laborales	laboral	ADJ	Number=Plur	26	amod	coste	NOUN	Gender=Masc Number=Plur	25
 de	de	de	ADP	AdpType=Prep	27	case	actividad	NOUN	Gender=Fem Number=Plur	29
 otras	otras	otro	DET	Gender=Fem Number=Plur PronType=Ind	28	det	actividad	NOUN	Gender=Fem Number=Plur	29
 actividades	actividades	actividad	NOUN	Gender=Fem Number=Plur	29	nmod	coste	NOUN	Gender=Masc Number=Plur	25
 logísticas	logísticas	logístico	ADJ	Gender=Fem Number=Plur	30	amod	actividad	NOUN	Gender=Fem Number=Plur	29
-y	y	y	CCONJ	-	31	cc	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	32
+y	y	y	CCONJ		31	cc	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	32
 tienen	tienen	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	32	conj	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	16
 un	un	uno	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	33	det	peso	NOUN	Gender=Masc Number=Sing	34
 peso	peso	peso	NOUN	Gender=Masc Number=Sing	34	obj	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	32
-muy	muy	mucho	ADV	-	35	advmod	importante	ADJ	Number=Sing	36
+muy	muy	mucho	ADV		35	advmod	importante	ADJ	Number=Sing	36
 importante	importante	importante	ADJ	Number=Sing	36	amod	peso	NOUN	Gender=Masc Number=Sing	34
 en	en	en	ADP	AdpType=Prep	37	case	conjunto	NOUN	Gender=Masc Number=Sing	39
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	38	det	conjunto	NOUN	Gender=Masc Number=Sing	39
@@ -627,18 +627,18 @@ de	de	de	ADP	AdpType=Prep	40	case	mercancía	NOUN	Gender=Fem Number=Plur	42
 las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	41	det	mercancía	NOUN	Gender=Fem Number=Plur	42
 mercancías	mercancías	mercancía	NOUN	Gender=Fem Number=Plur	42	nmod	conjunto	NOUN	Gender=Masc Number=Sing	39
 <g/>
-,	,	,	PUNCT	PunctType=Comm	43	punct	cerca	ADV	-	44
-cerca	cerca	cerca	ADV	-	44	advmod	conjunto	NOUN	Gender=Masc Number=Sing	39
+,	,	,	PUNCT	PunctType=Comm	43	punct	cerca	ADV		44
+cerca	cerca	cerca	ADV		44	advmod	conjunto	NOUN	Gender=Masc Number=Sing	39
 del	del	del	ADP	AdpType=Preppron	45	case	50	NUM	NumForm=Digit NumType=Card	46
-50	50	50	NUM	NumForm=Digit NumType=Card	46	obl	cerca	ADV	-	44
+50	50	50	NUM	NumForm=Digit NumType=Card	46	obl	cerca	ADV		44
 %	%	%	SYM	NumForm=Digit	47	nmod	50	NUM	NumForm=Digit NumType=Card	46
 en	en	en	ADP	AdpType=Prep	48	case	manipulación	NOUN	Gender=Fem Number=Sing	50
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	49	det	manipulación	NOUN	Gender=Fem Number=Sing	50
-manipulación	manipulación	manipulación	NOUN	Gender=Fem Number=Sing	50	obl	cerca	ADV	-	44
+manipulación	manipulación	manipulación	NOUN	Gender=Fem Number=Sing	50	obl	cerca	ADV		44
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	51	punct	descarga	NOUN	Gender=Fem Number=Sing	52
 descarga	descarga	descarga	NOUN	Gender=Fem Number=Sing	52	conj	manipulación	NOUN	Gender=Fem Number=Sing	50
-y	y	y	CCONJ	-	53	cc	carga	NOUN	Gender=Fem Number=Sing	54
+y	y	y	CCONJ		53	cc	carga	NOUN	Gender=Fem Number=Sing	54
 carga	carga	carga	NOUN	Gender=Fem Number=Sing	54	conj	manipulación	NOUN	Gender=Fem Number=Sing	50
 de	de	de	ADP	AdpType=Prep	55	case	mercancía	NOUN	Gender=Fem Number=Plur	57
 esas	esas	ese	DET	Gender=Fem Number=Plur PronType=Dem	56	det	mercancía	NOUN	Gender=Fem Number=Plur	57
@@ -656,10 +656,10 @@ lugar	lugar	lugar	NOUN	Gender=Masc Number=Sing	3	obl	querer	VERB	Mood=Sub Number
 ,	,	,	PUNCT	PunctType=Comm	4	punct	lugar	NOUN	Gender=Masc Number=Sing	3
 quisiera	quisiera	querer	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	5	root	-	-	-	-
 decir	decir	decir	VERB	VerbForm=Inf	6	ccomp	querer	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	5
-que	que	que	SCONJ	-	7	mark	aprobación	NOUN	Gender=Fem Number=Sing	21
+que	que	que	SCONJ		7	mark	aprobación	NOUN	Gender=Fem Number=Sing	21
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	8	det	aprobación	NOUN	Gender=Fem Number=Sing	9
 aprobación	aprobación	aprobación	NOUN	Gender=Fem Number=Sing	9	nsubj	aprobación	NOUN	Gender=Fem Number=Sing	21
-y	y	y	CCONJ	-	10	cc	tramitación	NOUN	Gender=Fem Number=Sing	12
+y	y	y	CCONJ		10	cc	tramitación	NOUN	Gender=Fem Number=Sing	12
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	11	det	tramitación	NOUN	Gender=Fem Number=Sing	12
 tramitación	tramitación	tramitación	NOUN	Gender=Fem Number=Sing	12	conj	aprobación	NOUN	Gender=Fem Number=Sing	9
 de	de	de	ADP	AdpType=Prep	13	case	decreto-ley	NOUN	Gender=Masc Number=Sing	16
@@ -671,7 +671,7 @@ ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	18	aux	apr
 sido	sido	ser	AUX	Gender=Masc Number=Sing Tense=Past VerbForm=Part	19	cop	aprobación	NOUN	Gender=Fem Number=Sing	21
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	20	det	aprobación	NOUN	Gender=Fem Number=Sing	21
 aprobación	aprobación	aprobación	NOUN	Gender=Fem Number=Sing	21	ccomp	decir	VERB	VerbForm=Inf	6
-y	y	y	CCONJ	-	22	cc	tramitación	NOUN	Gender=Fem Number=Sing	24
+y	y	y	CCONJ		22	cc	tramitación	NOUN	Gender=Fem Number=Sing	24
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	23	det	tramitación	NOUN	Gender=Fem Number=Sing	24
 tramitación	tramitación	tramitación	NOUN	Gender=Fem Number=Sing	24	conj	aprobación	NOUN	Gender=Fem Number=Sing	21
 de	de	de	ADP	AdpType=Prep	25	case	decreto-ley	NOUN	Gender=Masc Number=Sing	28
@@ -688,22 +688,22 @@ motivos	motivos	motivo	NOUN	Gender=Masc Number=Plur	33	obl	aprobación	NOUN	Gend
 .	.	.	PUNCT	PunctType=Peri	34	punct	querer	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	5
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.4.2">
-Primero	Primero	primero	ADV	-	1	advmod	norma	NOUN	Gender=Fem Number=Sing	8
+Primero	Primero	primero	ADV		1	advmod	norma	NOUN	Gender=Fem Number=Sing	8
 <g/>
-,	,	,	PUNCT	PunctType=Comm	2	punct	primero	ADV	-	1
-porque	porque	porque	SCONJ	-	3	mark	norma	NOUN	Gender=Fem Number=Sing	8
+,	,	,	PUNCT	PunctType=Comm	2	punct	primero	ADV		1
+porque	porque	porque	SCONJ		3	mark	norma	NOUN	Gender=Fem Number=Sing	8
 no	no	no	ADV	Polarity=Neg	4	advmod	norma	NOUN	Gender=Fem Number=Sing	8
 estamos	estamos	estar	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	5	cop	norma	NOUN	Gender=Fem Number=Sing	8
 ante	ante	ante	ADP	AdpType=Prep	6	case	norma	NOUN	Gender=Fem Number=Sing	8
 una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	7	det	norma	NOUN	Gender=Fem Number=Sing	8
-norma	norma	norma	NOUN	Gender=Fem Number=Sing	8	parataxis	sino	CCONJ	-	53
+norma	norma	norma	NOUN	Gender=Fem Number=Sing	8	parataxis	sino	CCONJ		53
 que	que	que	PRON	PronType=Int,Rel	9	obj	aprobar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	10
 aprueba	aprueba	aprobar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	10	acl	norma	NOUN	Gender=Fem Number=Sing	8
-el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	11	det	Gobierno	PROPN	-	12
+el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	11	det	Gobierno	PROPN		12
 <name type="ORG">
-Gobierno	Gobierno	Gobierno	PROPN	-	12	nsubj	aprobar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	10
-de	de	de	ADP	AdpType=Prep	13	case	España	PROPN	-	14
-España	España	España	PROPN	-	14	flat	Gobierno	PROPN	-	12
+Gobierno	Gobierno	Gobierno	PROPN		12	nsubj	aprobar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	10
+de	de	de	ADP	AdpType=Prep	13	case	España	PROPN		14
+España	España	España	PROPN		14	flat	Gobierno	PROPN		12
 </name>
 por	por	por	ADP	AdpType=Prep	15	case	decisión	NOUN	Gender=Fem Number=Sing	17
 una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	16	det	decisión	NOUN	Gender=Fem Number=Sing	17
@@ -717,8 +717,8 @@ condicionamiento	condicionamiento	condicionamiento	NOUN	Gender=Masc Number=Sing	
 <g/>
 por	por	por	ADP	AdpType=Prep	24	mark	coincidar	VERB	Mood=Sub Number=Plur Person=1 Tense=Pres VerbForm=Fin	28
 más	más	más	ADV	Degree=Cmp	25	fixed	por	ADP	AdpType=Prep	24
-que	que	que	SCONJ	-	26	fixed	por	ADP	AdpType=Prep	24
-obviamente	obviamente	obviamente	ADV	-	27	advmod	coincidar	VERB	Mood=Sub Number=Plur Person=1 Tense=Pres VerbForm=Fin	28
+que	que	que	SCONJ		26	fixed	por	ADP	AdpType=Prep	24
+obviamente	obviamente	obviamente	ADV		27	advmod	coincidar	VERB	Mood=Sub Number=Plur Person=1 Tense=Pres VerbForm=Fin	28
 coincidamos	coincidamos	coincidar	VERB	Mood=Sub Number=Plur Person=1 Tense=Pres VerbForm=Fin	28	advcl	norma	NOUN	Gender=Fem Number=Sing	8
 en	en	en	ADP	AdpType=Prep	29	mark	acabar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	32
 lo	lo	él	PRON	Case=Acc Definite=Def Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	30	det	acabar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	32
@@ -727,7 +727,7 @@ acabo	acabo	acabar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	32
 de	de	de	ADP	AdpType=Prep	33	mark	mencionar	VERB	VerbForm=Inf	34
 mencionar	mencionar	mencionar	VERB	VerbForm=Inf	34	xcomp	acabar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	32
 en	en	en	ADP	AdpType=Prep	35	case	potestad	NOUN	Gender=Fem Number=Sing	39
-relación	relación	relación	NOUN	-	36	fixed	en	ADP	AdpType=Prep	35
+relación	relación	relación	NOUN		36	fixed	en	ADP	AdpType=Prep	35
 a	a	a	ADP	AdpType=Prep	37	fixed	en	ADP	AdpType=Prep	35
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	38	det	potestad	NOUN	Gender=Fem Number=Sing	39
 potestad	potestad	potestad	NOUN	Gender=Fem Number=Sing	39	obl	mencionar	VERB	VerbForm=Inf	34
@@ -738,7 +738,7 @@ empresas	empresas	empresa	NOUN	Gender=Fem Number=Plur	43	nsubj	tener	VERB	Mood=I
 para	para	para	ADP	AdpType=Prep	44	mark	contratar	VERB	VerbForm=Inf	46
 poder	poder	poder	AUX	VerbForm=Inf	45	aux	contratar	VERB	VerbForm=Inf	46
 contratar	contratar	contratar	VERB	VerbForm=Inf	46	advcl	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	41
-libremente	libremente	libremente	ADV	-	47	advmod	contratar	VERB	VerbForm=Inf	46
+libremente	libremente	libremente	ADV		47	advmod	contratar	VERB	VerbForm=Inf	46
 a	a	a	ADP	AdpType=Prep	48	case	trabajador	NOUN	Gender=Masc Number=Plur	50
 sus	sus	su	DET	Number=Plur Person=3 Poss=Yes PronType=Prs	49	det	trabajador	NOUN	Gender=Masc Number=Plur	50
 trabajadores	trabajadores	trabajador	NOUN	Gender=Masc Number=Plur	50	obj	contratar	VERB	VerbForm=Inf	46
@@ -746,61 +746,61 @@ trabajadores	trabajadores	trabajador	NOUN	Gender=Masc Number=Plur	50	obj	contrat
 -	-	-	PUNCT	PunctType=Dash	51	punct	coincidar	VERB	Mood=Sub Number=Plur Person=1 Tense=Pres VerbForm=Fin	28
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	52	punct	obligado	ADJ	Gender=Masc Number=Plur VerbForm=Part	56
-sino	sino	sino	CCONJ	-	53	root	-	-	-	-
-que	que	que	SCONJ	-	54	fixed	sino	CCONJ	-	53
+sino	sino	sino	CCONJ		53	root	-	-	-	-
+que	que	que	SCONJ		54	fixed	sino	CCONJ		53
 estamos	estamos	estar	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	55	cop	obligado	ADJ	Gender=Masc Number=Plur VerbForm=Part	56
-obligados	obligados	obligado	ADJ	Gender=Masc Number=Plur VerbForm=Part	56	parataxis	sino	CCONJ	-	53
-como	como	como	SCONJ	-	57	mark	consecuencia	NOUN	Gender=Fem Number=Sing	58
+obligados	obligados	obligado	ADJ	Gender=Masc Number=Plur VerbForm=Part	56	parataxis	sino	CCONJ		53
+como	como	como	SCONJ		57	mark	consecuencia	NOUN	Gender=Fem Number=Sing	58
 consecuencia	consecuencia	consecuencia	NOUN	Gender=Fem Number=Sing	58	obl	obligado	ADJ	Gender=Masc Number=Plur VerbForm=Part	56
 de	de	de	ADP	AdpType=Prep	59	case	sentencia	NOUN	Gender=Fem Number=Sing	61
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	60	det	sentencia	NOUN	Gender=Fem Number=Sing	61
 sentencia	sentencia	sentencia	NOUN	Gender=Fem Number=Sing	61	nmod	consecuencia	NOUN	Gender=Fem Number=Sing	58
-del	del	del	ADP	AdpType=Preppron	62	case	Tribunal	PROPN	-	63
+del	del	del	ADP	AdpType=Preppron	62	case	Tribunal	PROPN		63
 <name type="ORG">
-Tribunal	Tribunal	Tribunal	PROPN	-	63	nmod	sentencia	NOUN	Gender=Fem Number=Sing	61
-de	de	de	ADP	AdpType=Prep	64	case	Justicia	PROPN	-	65
-Justicia	Justicia	Justicia	PROPN	-	65	flat	Tribunal	PROPN	-	63
+Tribunal	Tribunal	Tribunal	PROPN		63	nmod	sentencia	NOUN	Gender=Fem Number=Sing	61
+de	de	de	ADP	AdpType=Prep	64	case	Justicia	PROPN		65
+Justicia	Justicia	Justicia	PROPN		65	flat	Tribunal	PROPN		63
 </name>
-de	de	de	ADP	AdpType=Prep	66	case	Unión	PROPN	-	68
-la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	67	det	Unión	PROPN	-	68
+de	de	de	ADP	AdpType=Prep	66	case	Unión	PROPN		68
+la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	67	det	Unión	PROPN		68
 <name type="ORG">
-Unión	Unión	Unión	PROPN	-	68	flat	Tribunal	PROPN	-	63
-Europea	Europea	Europea	PROPN	-	69	flat	Unión	PROPN	-	68
+Unión	Unión	Unión	PROPN		68	flat	Tribunal	PROPN		63
+Europea	Europea	Europea	PROPN		69	flat	Unión	PROPN		68
 </name>
 que	que	que	PRON	PronType=Int,Rel	70	nsubj	condenar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	71
 condena	condena	condenar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	71	acl	sentencia	NOUN	Gender=Fem Number=Sing	61
-al	al	al	ADP	AdpType=Preppron	72	case	Reino	PROPN	-	73
+al	al	al	ADP	AdpType=Preppron	72	case	Reino	PROPN		73
 <name type="ORG">
-Reino	Reino	Reino	PROPN	-	73	obj	condenar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	71
-de	de	de	ADP	AdpType=Prep	74	case	España	PROPN	-	75
-España	España	España	PROPN	-	75	flat	Reino	PROPN	-	73
+Reino	Reino	Reino	PROPN		73	obj	condenar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	71
+de	de	de	ADP	AdpType=Prep	74	case	España	PROPN		75
+España	España	España	PROPN		75	flat	Reino	PROPN		73
 <g/>
 </name>
 ,	,	,	PUNCT	PunctType=Comm	76	punct	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	81
-y	y	y	CCONJ	-	77	cc	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	81
-por	por	por	ADP	AdpType=Prep	78	advmod	Congreso	PROPN	-	83
+y	y	y	CCONJ		77	cc	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	81
+por	por	por	ADP	AdpType=Prep	78	advmod	Congreso	PROPN		83
 lo	lo	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	79	fixed	por	ADP	AdpType=Prep	78
-tanto	tanto	tanto	NOUN	-	80	fixed	por	ADP	AdpType=Prep	78
+tanto	tanto	tanto	NOUN		80	fixed	por	ADP	AdpType=Prep	78
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	81	conj	condenar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	71
-este	este	este	DET	Gender=Masc Number=Sing PronType=Dem	82	det	Congreso	PROPN	-	83
+este	este	este	DET	Gender=Masc Number=Sing PronType=Dem	82	det	Congreso	PROPN		83
 <name type="ORG">
-Congreso	Congreso	Congreso	PROPN	-	83	nsubj	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	81
-de	de	de	ADP	AdpType=Prep	84	case	Diputados	PROPN	-	86
-los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	85	det	Diputados	PROPN	-	86
-Diputados	Diputados	Diputados	PROPN	-	86	flat	Congreso	PROPN	-	83
+Congreso	Congreso	Congreso	PROPN		83	nsubj	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	81
+de	de	de	ADP	AdpType=Prep	84	case	Diputados	PROPN		86
+los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	85	det	Diputados	PROPN		86
+Diputados	Diputados	Diputados	PROPN		86	flat	Congreso	PROPN		83
 <g/>
 </name>
-,	,	,	PUNCT	PunctType=Comm	87	punct	Cámara	PROPN	-	89
-esta	esta	este	DET	Gender=Fem Number=Sing PronType=Dem	88	det	Cámara	PROPN	-	89
+,	,	,	PUNCT	PunctType=Comm	87	punct	Cámara	PROPN		89
+esta	esta	este	DET	Gender=Fem Number=Sing PronType=Dem	88	det	Cámara	PROPN		89
 <name type="ORG">
-Cámara	Cámara	Cámara	PROPN	-	89	flat	Congreso	PROPN	-	83
+Cámara	Cámara	Cámara	PROPN		89	flat	Congreso	PROPN		83
 <g/>
 </name>
 ,	,	,	PUNCT	PunctType=Comm	90	punct	obligado	ADJ	Gender=Fem Number=Sing VerbForm=Part	94
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	91	det	obligado	ADJ	Gender=Fem Number=Sing VerbForm=Part	94
 que	que	que	PRON	PronType=Int,Rel	92	nsubj	obligado	ADJ	Gender=Fem Number=Sing VerbForm=Part	94
 está	está	estar	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	93	cop	obligado	ADJ	Gender=Fem Number=Sing VerbForm=Part	94
-obligada	obligada	obligado	ADJ	Gender=Fem Number=Sing VerbForm=Part	94	acl	Congreso	PROPN	-	83
+obligada	obligada	obligado	ADJ	Gender=Fem Number=Sing VerbForm=Part	94	acl	Congreso	PROPN		83
 a	a	a	ADP	AdpType=Prep	95	case	modificación	NOUN	Gender=Fem Number=Sing	97
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	96	det	modificación	NOUN	Gender=Fem Number=Sing	97
 modificación	modificación	modificación	NOUN	Gender=Fem Number=Sing	97	obj	obligado	ADJ	Gender=Fem Number=Sing VerbForm=Part	94
@@ -813,12 +813,12 @@ esa	esa	ese	DET	Gender=Fem Number=Sing PronType=Dem	103	det	sentencia	NOUN	Gende
 sentencia	sentencia	sentencia	NOUN	Gender=Fem Number=Sing	104	nmod	existencia	NOUN	Gender=Fem Number=Sing	101
 condenatoria	condenatoria	condenatorio	ADJ	Gender=Fem Number=Sing	105	amod	sentencia	NOUN	Gender=Fem Number=Sing	104
 <g/>
-.	.	.	PUNCT	PunctType=Peri	106	punct	sino	CCONJ	-	53
+.	.	.	PUNCT	PunctType=Peri	106	punct	sino	CCONJ		53
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.4.3">
-El	El	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	1	det	Gobierno	PROPN	-	2
+El	El	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	1	det	Gobierno	PROPN		2
 <name type="ORG">
-Gobierno	Gobierno	Gobierno	PROPN	-	2	nsubj	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
+Gobierno	Gobierno	Gobierno	PROPN		2	nsubj	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
 </name>
 ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	aux	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
 hecho	hecho	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4	root	-	-	-	-
@@ -826,21 +826,21 @@ su	su	su	DET	Number=Sing Person=3 Poss=Yes PronType=Prs	5	det	parte	NOUN	Gender=
 parte	parte	parte	NOUN	Gender=Fem Number=Sing	6	obj	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	7	punct	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
-el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	8	det	Gobierno	PROPN	-	9
+el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	8	det	Gobierno	PROPN		9
 <name type="ORG">
-Gobierno	Gobierno	Gobierno	PROPN	-	9	nsubj	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	11
+Gobierno	Gobierno	Gobierno	PROPN		9	nsubj	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	11
 </name>
 ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	10	aux	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	11
 hecho	hecho	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	11	advcl	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
 lo	lo	él	PRON	Case=Acc Definite=Def Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	12	det	hacer	VERB	VerbForm=Inf	16
 que	que	que	PRON	PronType=Int,Rel	13	obj	hacer	VERB	VerbForm=Inf	16
 tenía	tenía	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	14	ccomp	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	11
-que	que	que	SCONJ	-	15	cc	hacer	VERB	VerbForm=Inf	16
+que	que	que	SCONJ		15	cc	hacer	VERB	VerbForm=Inf	16
 hacer	hacer	hacer	VERB	VerbForm=Inf	16	conj	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	14
-y	y	y	CCONJ	-	17	cc	obligado	ADJ	Gender=Masc Number=Sing VerbForm=Part	21
-el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	18	det	Gobierno	PROPN	-	19
+y	y	y	CCONJ		17	cc	obligado	ADJ	Gender=Masc Number=Sing VerbForm=Part	21
+el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	18	det	Gobierno	PROPN		19
 <name type="ORG">
-Gobierno	Gobierno	Gobierno	PROPN	-	19	nsubj	obligado	ADJ	Gender=Masc Number=Sing VerbForm=Part	21
+Gobierno	Gobierno	Gobierno	PROPN		19	nsubj	obligado	ADJ	Gender=Masc Number=Sing VerbForm=Part	21
 </name>
 estaba	estaba	estar	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	20	cop	obligado	ADJ	Gender=Masc Number=Sing VerbForm=Part	21
 obligado	obligado	obligado	ADJ	Gender=Masc Number=Sing VerbForm=Part	21	conj	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	11
@@ -854,33 +854,33 @@ hecho	hecho	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	27	ccomp
 .	.	.	PUNCT	PunctType=Peri	28	punct	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.4.4">
-Ahora	Ahora	ahora	ADV	-	1	advmod	corresponder	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
+Ahora	Ahora	ahora	ADV		1	advmod	corresponder	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 le	le	él	PRON	Case=Dat Number=Sing Person=3 PronType=Prs	2	obj	corresponder	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 corresponde	corresponde	corresponder	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	root	-	-	-	-
 dar	dar	dar	VERB	VerbForm=Inf	4	csubj	corresponder	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 respuesta	respuesta	respuesta	NOUN	Gender=Fem Number=Sing	5	obj	dar	VERB	VerbForm=Inf	4
-a	a	a	ADP	AdpType=Prep	6	case	Congreso	PROPN	-	8
-este	este	este	DET	Gender=Masc Number=Sing PronType=Dem	7	det	Congreso	PROPN	-	8
+a	a	a	ADP	AdpType=Prep	6	case	Congreso	PROPN		8
+este	este	este	DET	Gender=Masc Number=Sing PronType=Dem	7	det	Congreso	PROPN		8
 <name type="ORG">
-Congreso	Congreso	Congreso	PROPN	-	8	obj	dar	VERB	VerbForm=Inf	4
+Congreso	Congreso	Congreso	PROPN		8	obj	dar	VERB	VerbForm=Inf	4
 <g/>
 </name>
 ,	,	,	PUNCT	PunctType=Comm	9	punct	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	11
 que	que	que	PRON	PronType=Int,Rel	10	nsubj	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	11
-tiene	tiene	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	11	acl	Congreso	PROPN	-	8
+tiene	tiene	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	11	acl	Congreso	PROPN		8
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	12	det	responsabilidad	NOUN	Gender=Fem Number=Sing	14
 misma	misma	mismo	DET	Gender=Fem Number=Sing PronType=Dem	13	det	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	12
 responsabilidad	responsabilidad	responsabilidad	NOUN	Gender=Fem Number=Sing	14	obj	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	11
 que	que	que	PRON	PronType=Int,Rel	15	obj	tener	VERB	VerbForm=Inf	17
 puede	puede	poder	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	16	aux	tener	VERB	VerbForm=Inf	17
 tener	tener	tener	VERB	VerbForm=Inf	17	acl	responsabilidad	NOUN	Gender=Fem Number=Sing	14
-el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	18	det	Gobierno	PROPN	-	19
+el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	18	det	Gobierno	PROPN		19
 <name type="ORG">
-Gobierno	Gobierno	Gobierno	PROPN	-	19	nsubj	tener	VERB	VerbForm=Inf	17
+Gobierno	Gobierno	Gobierno	PROPN		19	nsubj	tener	VERB	VerbForm=Inf	17
 <g/>
 </name>
 ,	,	,	PUNCT	PunctType=Comm	20	punct	hablar	VERB	VerbForm=Ger	26
-porque	porque	porque	SCONJ	-	21	mark	hablar	VERB	VerbForm=Ger	26
+porque	porque	porque	SCONJ		21	mark	hablar	VERB	VerbForm=Ger	26
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	22	punct	insistir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	23
 insisto	insisto	insistir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	23	parataxis	hablar	VERB	VerbForm=Ger	26
@@ -891,19 +891,19 @@ hablando	hablando	hablar	VERB	VerbForm=Ger	26	advcl	tener	VERB	Mood=Ind Number=S
 de	de	de	ADP	AdpType=Prep	27	case	sentencia	NOUN	Gender=Fem Number=Sing	29
 una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	28	det	sentencia	NOUN	Gender=Fem Number=Sing	29
 sentencia	sentencia	sentencia	NOUN	Gender=Fem Number=Sing	29	obj	hablar	VERB	VerbForm=Ger	26
-contra	contra	contra	ADP	AdpType=Prep	30	case	Reino	PROPN	-	32
-el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	31	det	Reino	PROPN	-	32
+contra	contra	contra	ADP	AdpType=Prep	30	case	Reino	PROPN		32
+el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	31	det	Reino	PROPN		32
 <name type="ORG">
-Reino	Reino	Reino	PROPN	-	32	nmod	sentencia	NOUN	Gender=Fem Number=Sing	29
-de	de	de	ADP	AdpType=Prep	33	case	España	PROPN	-	34
-España	España	España	PROPN	-	34	flat	Reino	PROPN	-	32
+Reino	Reino	Reino	PROPN		32	nmod	sentencia	NOUN	Gender=Fem Number=Sing	29
+de	de	de	ADP	AdpType=Prep	33	case	España	PROPN		34
+España	España	España	PROPN		34	flat	Reino	PROPN		32
 <g/>
 </name>
 .	.	.	PUNCT	PunctType=Peri	35	punct	corresponder	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.4.5">
 Por	Por	por	ADP	AdpType=Prep	1	advmod	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
-tanto	tanto	tanto	NOUN	-	2	fixed	por	ADP	AdpType=Prep	1
+tanto	tanto	tanto	NOUN		2	fixed	por	ADP	AdpType=Prep	1
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	3	punct	por	ADP	AdpType=Prep	1
 tiene	tiene	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4	root	-	-	-	-
@@ -912,30 +912,30 @@ misma	misma	mismo	DET	Gender=Fem Number=Sing PronType=Dem	6	det	el	DET	Definite=
 responsabilidad	responsabilidad	responsabilidad	NOUN	Gender=Fem Number=Sing	7	obj	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
 para	para	para	ADP	AdpType=Prep	8	mark	evitar	VERB	VerbForm=Inf	9
 evitar	evitar	evitar	VERB	VerbForm=Inf	9	acl	responsabilidad	NOUN	Gender=Fem Number=Sing	7
-que	que	que	SCONJ	-	10	mark	incumplimiento	NOUN	Gender=Masc Number=Sing	15
+que	que	que	SCONJ		10	mark	incumplimiento	NOUN	Gender=Masc Number=Sing	15
 este	este	este	PRON	Gender=Masc Number=Sing PronType=Dem	11	nsubj	incumplimiento	NOUN	Gender=Masc Number=Sing	15
 sea	sea	ser	AUX	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	12	cop	incumplimiento	NOUN	Gender=Masc Number=Sing	15
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	13	det	incumplimiento	NOUN	Gender=Masc Number=Sing	15
 primer	primer	primero	ADJ	Gender=Masc NumType=Ord Number=Sing	14	amod	incumplimiento	NOUN	Gender=Masc Number=Sing	15
 incumplimiento	incumplimiento	incumplimiento	NOUN	Gender=Masc Number=Sing	15	ccomp	evitar	VERB	VerbForm=Inf	9
-del	del	del	ADP	AdpType=Preppron	16	case	Reino	PROPN	-	17
+del	del	del	ADP	AdpType=Preppron	16	case	Reino	PROPN		17
 <name type="LOC">
-Reino	Reino	Reino	PROPN	-	17	nmod	incumplimiento	NOUN	Gender=Masc Number=Sing	15
-de	de	de	ADP	AdpType=Prep	18	case	España	PROPN	-	19
-España	España	España	PROPN	-	19	flat	Reino	PROPN	-	17
+Reino	Reino	Reino	PROPN		17	nmod	incumplimiento	NOUN	Gender=Masc Number=Sing	15
+de	de	de	ADP	AdpType=Prep	18	case	España	PROPN		19
+España	España	España	PROPN		19	flat	Reino	PROPN		17
 </name>
-del	del	del	ADP	AdpType=Preppron	20	case	Tratado	PROPN	-	21
+del	del	del	ADP	AdpType=Preppron	20	case	Tratado	PROPN		21
 <name type="MISC">
-Tratado	Tratado	Tratado	PROPN	-	21	flat	Reino	PROPN	-	17
-de	de	de	ADP	AdpType=Prep	22	case	Unión	PROPN	-	24
-la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	23	det	Unión	PROPN	-	24
-Unión	Unión	Unión	PROPN	-	24	flat	Tratado	PROPN	-	21
-Europea	Europea	Europea	PROPN	-	25	flat	Unión	PROPN	-	24
+Tratado	Tratado	Tratado	PROPN		21	flat	Reino	PROPN		17
+de	de	de	ADP	AdpType=Prep	22	case	Unión	PROPN		24
+la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	23	det	Unión	PROPN		24
+Unión	Unión	Unión	PROPN		24	flat	Tratado	PROPN		21
+Europea	Europea	Europea	PROPN		25	flat	Unión	PROPN		24
 <g/>
 </name>
 ,	,	,	PUNCT	PunctType=Comm	26	punct	multa	NOUN	Gender=Fem Number=Sing	31
-así	así	así	ADV	-	27	cc	multa	NOUN	Gender=Fem Number=Sing	31
-como	como	como	SCONJ	-	28	fixed	así	ADV	-	27
+así	así	así	ADV		27	cc	multa	NOUN	Gender=Fem Number=Sing	31
+como	como	como	SCONJ		28	fixed	así	ADV		27
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	29	det	multa	NOUN	Gender=Fem Number=Sing	31
 importante	importante	importante	ADJ	Number=Sing	30	amod	multa	NOUN	Gender=Fem Number=Sing	31
 multa	multa	multa	NOUN	Gender=Fem Number=Sing	31	conj	incumplimiento	NOUN	Gender=Masc Number=Sing	15
@@ -957,7 +957,7 @@ se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	44	expl:pa
 este	este	este	DET	Gender=Masc Number=Sing PronType=Dem	45	det	decreto	NOUN	Gender=Masc Number=Sing	47
 real	real	real	ADJ	Number=Sing	46	amod	decreto	NOUN	Gender=Masc Number=Sing	47
 decreto	decreto	decreto	NOUN	Gender=Masc Number=Sing	47	nsubj	convalidar	VERB	VerbForm=Inf	43
-y	y	y	CCONJ	-	48	cc	caer	VERB	VerbForm=Inf	49
+y	y	y	CCONJ		48	cc	caer	VERB	VerbForm=Inf	49
 caer	caer	caer	VERB	VerbForm=Inf	49	conj	convalidar	VERB	VerbForm=Inf	43
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	50	det	sentencia	NOUN	Gender=Fem Number=Sing	52
 segunda	segunda	segundo	ADJ	Gender=Fem NumType=Ord Number=Sing	51	amod	sentencia	NOUN	Gender=Fem Number=Sing	52
@@ -965,7 +965,7 @@ sentencia	sentencia	sentencia	NOUN	Gender=Fem Number=Sing	52	obj	caer	VERB	VerbF
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	53	punct	convalidar	VERB	VerbForm=Inf	43
 tendrán	tendrán	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin	54	conj	referir	VERB	Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin	34
-que	que	que	SCONJ	-	55	cc	hacer	VERB	VerbForm=Inf	56
+que	que	que	SCONJ		55	cc	hacer	VERB	VerbForm=Inf	56
 hacer	hacer	hacer	VERB	VerbForm=Inf	56	conj	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin	54
 frente	frente	frente	NOUN	Number=Sing	57	compound	hacer	VERB	VerbForm=Inf	56
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	58	det	conjunto	NOUN	Gender=Masc Number=Sing	59
@@ -1003,57 +1003,57 @@ urgencia	urgencia	urgencia	NOUN	Gender=Fem Number=Sing	20	root	-	-	-	-
 .	.	.	PUNCT	PunctType=Peri	21	punct	urgencia	NOUN	Gender=Fem Number=Sing	20
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.5.2">
-Como	Como	como	SCONJ	-	1	mark	acabar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	2
-acabo	acabo	acabar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	2	advcl	punto	NOUN	-	8
+Como	Como	como	SCONJ		1	mark	acabar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	2
+acabo	acabo	acabar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	2	advcl	punto	NOUN		8
 de	de	de	ADP	AdpType=Prep	3	mark	mencionar	VERB	VerbForm=Inf	4
 mencionar	mencionar	mencionar	VERB	VerbForm=Inf	4	xcomp	acabar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	2
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	5	punct	acabar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	2
-está	está	estar	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6	cop	punto	NOUN	-	8
-a	a	a	ADP	AdpType=Prep	7	case	punto	NOUN	-	8
-punto	punto	punto	NOUN	-	8	root	-	-	-	-
+está	está	estar	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6	cop	punto	NOUN		8
+a	a	a	ADP	AdpType=Prep	7	case	punto	NOUN		8
+punto	punto	punto	NOUN		8	root	-	-	-	-
 de	de	de	ADP	AdpType=Prep	9	mark	caer	VERB	VerbForm=Inf	10
-caer	caer	caer	VERB	VerbForm=Inf	10	acl	punto	NOUN	-	8
+caer	caer	caer	VERB	VerbForm=Inf	10	acl	punto	NOUN		8
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	11	det	sentencia	NOUN	Gender=Fem Number=Sing	13
 segunda	segunda	segundo	ADJ	Gender=Fem NumType=Ord Number=Sing	12	amod	sentencia	NOUN	Gender=Fem Number=Sing	13
 sentencia	sentencia	sentencia	NOUN	Gender=Fem Number=Sing	13	obj	caer	VERB	VerbForm=Inf	10
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	14	punct	poner	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	17
-como	como	como	SCONJ	-	15	mark	poner	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	17
+como	como	como	SCONJ		15	mark	poner	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	17
 ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	16	aux	poner	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	17
-puesto	puesto	poner	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	17	advcl	punto	NOUN	-	8
+puesto	puesto	poner	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	17	advcl	punto	NOUN		8
 de	de	de	ADP	AdpType=Prep	18	case	manifiesto	NOUN	Gender=Masc Number=Sing	19
 manifiesto	manifiesto	manifiesto	NOUN	Gender=Masc Number=Sing	19	compound	poner	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	17
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	20	det	comisaria	NOUN	Gender=Fem Number=Sing	22
 propia	propia	propio	DET	Gender=Fem Number=Sing PronType=Ind	21	det	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	20
 comisaria	comisaria	comisaria	NOUN	Gender=Fem Number=Sing	22	nsubj	poner	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	17
-de	de	de	ADP	AdpType=Prep	23	case	Transporte	PROPN	-	24
+de	de	de	ADP	AdpType=Prep	23	case	Transporte	PROPN		24
 <name type="MISC">
-Transporte	Transporte	Transporte	PROPN	-	24	nmod	comisaria	NOUN	Gender=Fem Number=Sing	22
+Transporte	Transporte	Transporte	PROPN		24	nmod	comisaria	NOUN	Gender=Fem Number=Sing	22
 </name>
-de	de	de	ADP	AdpType=Prep	25	case	Unión	PROPN	-	27
-la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	26	det	Unión	PROPN	-	27
+de	de	de	ADP	AdpType=Prep	25	case	Unión	PROPN		27
+la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	26	det	Unión	PROPN		27
 <name type="ORG">
-Unión	Unión	Unión	PROPN	-	27	flat	Transporte	PROPN	-	24
-Europea	Europea	Europea	PROPN	-	28	flat	Unión	PROPN	-	27
+Unión	Unión	Unión	PROPN		27	flat	Transporte	PROPN		24
+Europea	Europea	Europea	PROPN		28	flat	Unión	PROPN		27
 </name>
-en	en	en	ADP	AdpType=Prep	29	case	Congreso	PROPN	-	31
-este	este	este	DET	Gender=Masc Number=Sing PronType=Dem	30	det	Congreso	PROPN	-	31
+en	en	en	ADP	AdpType=Prep	29	case	Congreso	PROPN		31
+este	este	este	DET	Gender=Masc Number=Sing PronType=Dem	30	det	Congreso	PROPN		31
 <name type="ORG">
-Congreso	Congreso	Congreso	PROPN	-	31	nmod	comisaria	NOUN	Gender=Fem Number=Sing	22
-de	de	de	ADP	AdpType=Prep	32	case	Diputados	PROPN	-	34
-los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	33	det	Diputados	PROPN	-	34
-Diputados	Diputados	Diputados	PROPN	-	34	flat	Congreso	PROPN	-	31
+Congreso	Congreso	Congreso	PROPN		31	nmod	comisaria	NOUN	Gender=Fem Number=Sing	22
+de	de	de	ADP	AdpType=Prep	32	case	Diputados	PROPN		34
+los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	33	det	Diputados	PROPN		34
+Diputados	Diputados	Diputados	PROPN		34	flat	Congreso	PROPN		31
 </name>
-cuando	cuando	cuando	SCONJ	-	35	mark	reunir	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	37
+cuando	cuando	cuando	SCONJ		35	mark	reunir	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	37
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	36	expl:pv	reunir	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	37
 reunió	reunió	reunir	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	37	advcl	poner	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	17
-en	en	en	ADP	AdpType=Prep	38	case	Comisión	PROPN	-	40
-la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	39	det	Comisión	PROPN	-	40
+en	en	en	ADP	AdpType=Prep	38	case	Comisión	PROPN		40
+la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	39	det	Comisión	PROPN		40
 <name type="ORG">
-Comisión	Comisión	Comisión	PROPN	-	40	obj	reunir	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	37
-de	de	de	ADP	AdpType=Prep	41	case	Fomento	PROPN	-	42
-Fomento	Fomento	Fomento	PROPN	-	42	flat	Comisión	PROPN	-	40
+Comisión	Comisión	Comisión	PROPN		40	obj	reunir	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	37
+de	de	de	ADP	AdpType=Prep	41	case	Fomento	PROPN		42
+Fomento	Fomento	Fomento	PROPN		42	flat	Comisión	PROPN		40
 </name>
 con	con	con	ADP	AdpType=Prep	43	case	grupo	NOUN	Gender=Masc Number=Plur	46
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	44	det	grupo	NOUN	Gender=Masc Number=Plur	46
@@ -1061,7 +1061,7 @@ diferentes	diferentes	diferente	DET	Number=Plur PronType=Ind	45	amod	grupo	NOUN	
 grupos	grupos	grupo	NOUN	Gender=Masc Number=Plur	46	obj	reunir	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	37
 políticos	políticos	político	ADJ	Gender=Masc Number=Plur	47	amod	grupo	NOUN	Gender=Masc Number=Plur	46
 <g/>
-.	.	.	PUNCT	PunctType=Peri	48	punct	punto	NOUN	-	8
+.	.	.	PUNCT	PunctType=Peri	48	punct	punto	NOUN		8
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.5.3">
 La	La	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	1	det	multa	NOUN	Gender=Fem Number=Sing	2
@@ -1077,7 +1077,7 @@ lado	lado	lado	NOUN	Gender=Masc Number=Sing	7	obl	suponer	VERB	Mood=Ind Number=S
 una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	9	det	suma	NOUN	Gender=Fem Number=Sing	10
 suma	suma	suma	NOUN	Gender=Fem Number=Sing	10	obj	suponer	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	3
 a	a	a	ADP	AdpType=Prep	11	advmod	alzar	ADJ	Gender=Masc Number=Sing VerbForm=Part	13
-tanto	tanto	tanto	NOUN	-	12	fixed	a	ADP	AdpType=Prep	11
+tanto	tanto	tanto	NOUN		12	fixed	a	ADP	AdpType=Prep	11
 alzado	alzado	alzar	ADJ	Gender=Masc Number=Sing VerbForm=Part	13	amod	suma	NOUN	Gender=Fem Number=Sing	10
 de	de	de	ADP	AdpType=Prep	14	case	euro	NOUN	NumForm=Digit	16
 27.522	27.522	27522	NUM	NumForm=Digit NumType=Card	15	nummod	euro	NOUN	NumForm=Digit	16
@@ -1094,20 +1094,20 @@ sentencia	sentencia	sentencia	NOUN	Gender=Fem Number=Sing	25	nmod	fecha	NOUN	Gen
 hasta	hasta	hasta	ADP	AdpType=Prep	26	case	día	NOUN	Gender=Masc Number=Sing	28
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	27	det	día	NOUN	Gender=Masc Number=Sing	28
 día	día	día	NOUN	Gender=Masc Number=Sing	28	obl	alzar	ADJ	Gender=Masc Number=Sing VerbForm=Part	13
-de	de	de	ADP	AdpType=Prep	29	case	hoy	ADV	-	30
-hoy	hoy	hoy	ADV	-	30	advmod	día	NOUN	Gender=Masc Number=Sing	28
+de	de	de	ADP	AdpType=Prep	29	case	hoy	ADV		30
+hoy	hoy	hoy	ADV		30	advmod	día	NOUN	Gender=Masc Number=Sing	28
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	31	punct	aprobar	VERB	Mood=Sub Number=Plur Person=1 Tense=Imp VerbForm=Fin	33
-si	si	si	SCONJ	-	32	mark	aprobar	VERB	Mood=Sub Number=Plur Person=1 Tense=Imp VerbForm=Fin	33
+si	si	si	SCONJ		32	mark	aprobar	VERB	Mood=Sub Number=Plur Person=1 Tense=Imp VerbForm=Fin	33
 aprobáramos	aprobáramos	aprobar	VERB	Mood=Sub Number=Plur Person=1 Tense=Imp VerbForm=Fin	33	advcl	suponer	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	3
-y	y	y	CCONJ	-	34	cc	convalidar	VERB	Mood=Sub Number=Plur Person=1 Tense=Imp VerbForm=Fin	35
+y	y	y	CCONJ		34	cc	convalidar	VERB	Mood=Sub Number=Plur Person=1 Tense=Imp VerbForm=Fin	35
 convalidáramos	convalidáramos	convalidar	VERB	Mood=Sub Number=Plur Person=1 Tense=Imp VerbForm=Fin	35	conj	aprobar	VERB	Mood=Sub Number=Plur Person=1 Tense=Imp VerbForm=Fin	33
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	36	det	real	NOUN	Gender=Masc Number=Sing	37
 real	real	real	NOUN	Gender=Masc Number=Sing	37	obj	convalidar	VERB	Mood=Sub Number=Plur Person=1 Tense=Imp VerbForm=Fin	35
-decreto	decreto	decreto	NOUN	-	38	compound	real	NOUN	Gender=Masc Number=Sing	37
+decreto	decreto	decreto	NOUN		38	compound	real	NOUN	Gender=Masc Number=Sing	37
 -	-	-	PUNCT	PunctType=Dash	39	punct	producir	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	47
 <g/>
-aunque	aunque	aunque	SCONJ	-	40	mark	producir	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	47
+aunque	aunque	aunque	SCONJ		40	mark	producir	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	47
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	41	punct	caso	NOUN	Gender=Masc Number=Sing	44
 en	en	en	ADP	AdpType=Prep	42	case	caso	NOUN	Gender=Masc Number=Sing	44
@@ -1119,18 +1119,18 @@ se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	46	expl:pv
 produciría	produciría	producir	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	47	advcl	aprobar	VERB	Mood=Sub Number=Plur Person=1 Tense=Imp VerbForm=Fin	33
 un	un	uno	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	48	det	desistimiento	NOUN	Gender=Masc Number=Sing	49
 desistimiento	desistimiento	desistimiento	NOUN	Gender=Masc Number=Sing	49	nsubj	producir	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	47
-por	por	por	ADP	AdpType=Prep	50	case	Comisión	PROPN	-	54
-parte	parte	parte	NOUN	-	51	fixed	por	ADP	AdpType=Prep	50
+por	por	por	ADP	AdpType=Prep	50	case	Comisión	PROPN		54
+parte	parte	parte	NOUN		51	fixed	por	ADP	AdpType=Prep	50
 de	de	de	ADP	AdpType=Prep	52	fixed	por	ADP	AdpType=Prep	50
-la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	53	det	Comisión	PROPN	-	54
+la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	53	det	Comisión	PROPN		54
 <name type="ORG">
-Comisión	Comisión	Comisión	PROPN	-	54	nmod	desistimiento	NOUN	Gender=Masc Number=Sing	49
+Comisión	Comisión	Comisión	PROPN		54	nmod	desistimiento	NOUN	Gender=Masc Number=Sing	49
 <g/>
 </name>
 -	-	-	PUNCT	PunctType=Dash	55	punct	producir	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	47
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	56	punct	día	NOUN	Gender=Masc Number=Sing	60
-o	o	o	CCONJ	-	57	cc	día	NOUN	Gender=Masc Number=Sing	60
+o	o	o	CCONJ		57	cc	día	NOUN	Gender=Masc Number=Sing	60
 hasta	hasta	hasta	ADP	AdpType=Prep	58	case	día	NOUN	Gender=Masc Number=Sing	60
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	59	det	día	NOUN	Gender=Masc Number=Sing	60
 día	día	día	NOUN	Gender=Masc Number=Sing	60	conj	producir	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	47
@@ -1154,11 +1154,11 @@ estos	estos	este	DET	Gender=Masc Number=Plur PronType=Dem	6	det	momento	NOUN	Gen
 momentos	momentos	momento	NOUN	Gender=Masc Number=Plur	7	obl	millón	NOUN	Gender=Masc Number=Plur	15
 esa	esa	ese	DET	Gender=Fem Number=Sing PronType=Dem	8	det	deuda	NOUN	Gender=Fem Number=Sing	9
 deuda	deuda	deuda	NOUN	Gender=Fem Number=Sing	9	nsubj	millón	NOUN	Gender=Masc Number=Plur	15
-ya	ya	ya	ADV	-	10	advmod	millón	NOUN	Gender=Masc Number=Plur	15
+ya	ya	ya	ADV		10	advmod	millón	NOUN	Gender=Masc Number=Plur	15
 está	está	estar	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	11	cop	millón	NOUN	Gender=Masc Number=Plur	15
-cerca	cerca	cerca	ADV	-	12	advmod	millón	NOUN	Gender=Masc Number=Plur	15
-de	de	de	ADP	AdpType=Prep	13	case	cerca	ADV	-	12
-23	23	23	NUM	NumForm=Digit NumType=Card	14	nummod	cerca	ADV	-	12
+cerca	cerca	cerca	ADV		12	advmod	millón	NOUN	Gender=Masc Number=Plur	15
+de	de	de	ADP	AdpType=Prep	13	case	cerca	ADV		12
+23	23	23	NUM	NumForm=Digit NumType=Card	14	nummod	cerca	ADV		12
 millones	millones	millón	NOUN	Gender=Masc Number=Plur	15	root	-	-	-	-
 de	de	de	ADP	AdpType=Prep	16	case	euro	NOUN	NumForm=Digit	17
 euros	euros	euro	NOUN	NumForm=Digit	17	nmod	millón	NOUN	Gender=Masc Number=Plur	15
@@ -1166,15 +1166,15 @@ euros	euros	euro	NOUN	NumForm=Digit	17	nmod	millón	NOUN	Gender=Masc Number=Plur
 ,	,	,	PUNCT	PunctType=Comm	18	punct	disposición	NOUN	Gender=Fem Number=Sing	23
 que	que	que	PRON	PronType=Int,Rel	19	nsubj	disposición	NOUN	Gender=Fem Number=Sing	23
 estamos	estamos	estar	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	20	cop	disposición	NOUN	Gender=Fem Number=Sing	23
-todavía	todavía	todavía	ADV	-	21	advmod	disposición	NOUN	Gender=Fem Number=Sing	23
+todavía	todavía	todavía	ADV		21	advmod	disposición	NOUN	Gender=Fem Number=Sing	23
 en	en	en	ADP	AdpType=Prep	22	case	disposición	NOUN	Gender=Fem Number=Sing	23
 disposición	disposición	disposición	NOUN	Gender=Fem Number=Sing	23	acl	millón	NOUN	Gender=Masc Number=Plur	15
 de	de	de	ADP	AdpType=Prep	24	mark	tener	VERB	VerbForm=Inf	26
 no	no	no	ADV	Polarity=Neg	25	advmod	pagar	VERB	VerbForm=Inf	28
 tener	tener	tener	VERB	VerbForm=Inf	26	acl	disposición	NOUN	Gender=Fem Number=Sing	23
-que	que	que	SCONJ	-	27	cc	pagar	VERB	VerbForm=Inf	28
+que	que	que	SCONJ		27	cc	pagar	VERB	VerbForm=Inf	28
 pagar	pagar	pagar	VERB	VerbForm=Inf	28	conj	tener	VERB	VerbForm=Inf	26
-si	si	si	SCONJ	-	29	mark	convalir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	31
+si	si	si	SCONJ		29	mark	convalir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	31
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	30	expl:pass	convalir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	31
 convalida	convalida	convalir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	31	advcl	pagar	VERB	VerbForm=Inf	28
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	32	det	decreto-ley	NOUN	Gender=Masc Number=Sing	34
@@ -1185,8 +1185,8 @@ decreto-ley	decreto-ley	decreto-ley	NOUN	Gender=Masc Number=Sing	34	nsubj	conval
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.5.5">
 Por	Por	por	ADP	AdpType=Prep	1	advmod	suponer	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	5
-otro	otro	otro	ADJ	-	2	fixed	por	ADP	AdpType=Prep	1
-lado	lado	lado	NOUN	-	3	fixed	por	ADP	AdpType=Prep	1
+otro	otro	otro	ADJ		2	fixed	por	ADP	AdpType=Prep	1
+lado	lado	lado	NOUN		3	fixed	por	ADP	AdpType=Prep	1
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	4	punct	por	ADP	AdpType=Prep	1
 supondrá	supondrá	suponer	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	5	root	-	-	-	-
@@ -1196,21 +1196,21 @@ coercitiva	coercitiva	coercitivo	ADJ	Gender=Fem Number=Sing	8	amod	multa	NOUN	Ge
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	9	punct	sentencia	NOUN	Gender=Fem Number=Sing	14
 a	a	a	ADP	AdpType=Prep	10	case	sentencia	NOUN	Gender=Fem Number=Sing	14
-partir	partir	partir	NOUN	-	11	fixed	a	ADP	AdpType=Prep	10
+partir	partir	partir	NOUN		11	fixed	a	ADP	AdpType=Prep	10
 de	de	de	ADP	AdpType=Prep	12	fixed	a	ADP	AdpType=Prep	10
 esta	esta	este	DET	Gender=Fem Number=Sing PronType=Dem	13	det	sentencia	NOUN	Gender=Fem Number=Sing	14
 sentencia	sentencia	sentencia	NOUN	Gender=Fem Number=Sing	14	obl	suponer	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	5
-que	que	que	PRON	PronType=Int,Rel	15	nsubj	punto	NOUN	-	18
-está	está	estar	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	16	cop	punto	NOUN	-	18
-a	a	a	ADP	AdpType=Prep	17	case	punto	NOUN	-	18
-punto	punto	punto	NOUN	-	18	acl	sentencia	NOUN	Gender=Fem Number=Sing	14
+que	que	que	PRON	PronType=Int,Rel	15	nsubj	punto	NOUN		18
+está	está	estar	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	16	cop	punto	NOUN		18
+a	a	a	ADP	AdpType=Prep	17	case	punto	NOUN		18
+punto	punto	punto	NOUN		18	acl	sentencia	NOUN	Gender=Fem Number=Sing	14
 de	de	de	ADP	AdpType=Prep	19	mark	caer	VERB	VerbForm=Inf	20
-caer	caer	caer	VERB	VerbForm=Inf	20	acl	punto	NOUN	-	18
+caer	caer	caer	VERB	VerbForm=Inf	20	acl	punto	NOUN		18
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	21	punct	euro	NOUN	NumForm=Digit	24
 de	de	de	ADP	AdpType=Prep	22	case	euro	NOUN	NumForm=Digit	24
 134.107	134.107	134107	NUM	NumForm=Digit NumType=Card	23	nummod	euro	NOUN	NumForm=Digit	24
-euros	euros	euro	NOUN	NumForm=Digit	24	nmod	punto	NOUN	-	18
+euros	euros	euro	NOUN	NumForm=Digit	24	nmod	punto	NOUN		18
 al	al	al	ADP	AdpType=Preppron	25	case	día	NOUN	Gender=Masc Number=Sing	26
 día	día	día	NOUN	Gender=Masc Number=Sing	26	nmod	euro	NOUN	NumForm=Digit	24
 <g/>
@@ -1227,11 +1227,11 @@ día	día	día	NOUN	Gender=Masc Number=Sing	4	obl	134000	NUM	NumForm=Digit NumTy
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.5.7">
 Es	Es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1	cop	importante	ADJ	Number=Sing	2
 importante	importante	importante	ADJ	Number=Sing	2	root	-	-	-	-
-que	que	que	SCONJ	-	3	mark	entender	VERB	Mood=Sub Number=Plur Person=1 Tense=Pres VerbForm=Fin	4
+que	que	que	SCONJ		3	mark	entender	VERB	Mood=Sub Number=Plur Person=1 Tense=Pres VerbForm=Fin	4
 entendamos	entendamos	entender	VERB	Mood=Sub Number=Plur Person=1 Tense=Pres VerbForm=Fin	4	csubj	importante	ADJ	Number=Sing	2
-que	que	que	SCONJ	-	5	mark	detener	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	9
+que	que	que	SCONJ		5	mark	detener	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	9
 eso	eso	ese	PRON	Number=Sing PronType=Dem	6	nsubj	detener	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	9
-solo	solo	solo	NOUN	-	7	fixed	ese	PRON	Number=Sing PronType=Dem	6
+solo	solo	solo	NOUN		7	fixed	ese	PRON	Number=Sing PronType=Dem	6
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	8	expl:pv	detener	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	9
 detendrá	detendrá	detener	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	9	ccomp	entender	VERB	Mood=Sub Number=Plur Person=1 Tense=Pres VerbForm=Fin	4
 en	en	en	ADP	AdpType=Prep	10	case	momento	NOUN	Gender=Masc Number=Sing	12
@@ -1255,18 +1255,18 @@ decir	decir	decir	VERB	VerbForm=Inf	3	xcomp	oír	VERB	Gender=Masc Number=Sing Te
 en	en	en	ADP	AdpType=Prep	4	case	ocasión	NOUN	Gender=Fem Number=Plur	6
 muchas	muchas	mucho	DET	Gender=Fem NumType=Card Number=Plur PronType=Ind	5	det	ocasión	NOUN	Gender=Fem Number=Plur	6
 ocasiones	ocasiones	ocasión	NOUN	Gender=Fem Number=Plur	6	obl	decir	VERB	VerbForm=Inf	3
-que	que	que	SCONJ	-	7	mark	ascender	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	18
+que	que	que	SCONJ		7	mark	ascender	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	18
 esta	esta	este	DET	Gender=Fem Number=Sing PronType=Dem	8	det	multa	NOUN	Gender=Fem Number=Sing	9
 multa	multa	multa	NOUN	Gender=Fem Number=Sing	9	nsubj	ascender	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	18
-del	del	del	ADP	AdpType=Preppron	10	case	Tribunal	PROPN	-	11
+del	del	del	ADP	AdpType=Preppron	10	case	Tribunal	PROPN		11
 <name type="ORG">
-Tribunal	Tribunal	Tribunal	PROPN	-	11	nmod	multa	NOUN	Gender=Fem Number=Sing	9
-de	de	de	ADP	AdpType=Prep	12	case	Justicia	PROPN	-	13
-Justicia	Justicia	Justicia	PROPN	-	13	flat	Tribunal	PROPN	-	11
-de	de	de	ADP	AdpType=Prep	14	case	Unión	PROPN	-	16
-la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	15	det	Unión	PROPN	-	16
-Unión	Unión	Unión	PROPN	-	16	flat	Tribunal	PROPN	-	11
-Europea	Europea	Europea	PROPN	-	17	flat	Unión	PROPN	-	16
+Tribunal	Tribunal	Tribunal	PROPN		11	nmod	multa	NOUN	Gender=Fem Number=Sing	9
+de	de	de	ADP	AdpType=Prep	12	case	Justicia	PROPN		13
+Justicia	Justicia	Justicia	PROPN		13	flat	Tribunal	PROPN		11
+de	de	de	ADP	AdpType=Prep	14	case	Unión	PROPN		16
+la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	15	det	Unión	PROPN		16
+Unión	Unión	Unión	PROPN		16	flat	Tribunal	PROPN		11
+Europea	Europea	Europea	PROPN		17	flat	Unión	PROPN		16
 </name>
 ascendía	ascendía	ascender	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	18	ccomp	decir	VERB	VerbForm=Inf	3
 a	a	a	ADP	AdpType=Prep	19	case	millón	NOUN	Gender=Masc Number=Plur	21
@@ -1278,27 +1278,27 @@ euros	euros	euro	NOUN	NumForm=Digit	23	nmod	millón	NOUN	Gender=Masc Number=Plur
 .	.	.	PUNCT	PunctType=Peri	24	punct	oír	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	2
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.5.9">
-Esto	Esto	este	PRON	Number=Sing PronType=Dem	1	nsubj	así	ADV	-	3
-es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	cop	así	ADV	-	3
-así	así	así	ADV	-	3	root	-	-	-	-
-hasta	hasta	hasta	ADP	AdpType=Prep	4	case	hoy	ADV	-	5
-hoy	hoy	hoy	ADV	-	5	advmod	así	ADV	-	3
+Esto	Esto	este	PRON	Number=Sing PronType=Dem	1	nsubj	así	ADV		3
+es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	cop	así	ADV		3
+así	así	así	ADV		3	root	-	-	-	-
+hasta	hasta	hasta	ADP	AdpType=Prep	4	case	hoy	ADV		5
+hoy	hoy	hoy	ADV		5	advmod	así	ADV		3
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	6	punct	cien	NUM	NumType=Card Number=Plur	11
-pero	pero	pero	CCONJ	-	7	cc	cien	NUM	NumType=Card Number=Plur	11
+pero	pero	pero	CCONJ		7	cc	cien	NUM	NumType=Card Number=Plur	11
 puede	puede	poder	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	8	aux	cien	NUM	NumType=Card Number=Plur	11
 ser	ser	ser	AUX	VerbForm=Inf	9	cop	cien	NUM	NumType=Card Number=Plur	11
 de	de	de	ADP	AdpType=Prep	10	case	cien	NUM	NumType=Card Number=Plur	11
-cien	cien	cien	NUM	NumType=Card Number=Plur	11	conj	así	ADV	-	3
+cien	cien	cien	NUM	NumType=Card Number=Plur	11	conj	así	ADV		3
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	12	punct	cien	NUM	NumType=Card Number=Plur	11
 puede	puede	poder	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	13	aux	cien	NUM	NumType=Card Number=Plur	11
 ser	ser	ser	AUX	VerbForm=Inf	14	cop	cien	NUM	NumType=Card Number=Plur	11
 de	de	de	ADP	AdpType=Prep	15	case	mil	NUM	NumType=Card Number=Plur	16
 mil	mil	mil	NUM	NumType=Card Number=Plur	16	obl	ser	AUX	VerbForm=Inf	14
-y	y	y	CCONJ	-	17	cc	ser	AUX	VerbForm=Inf	19
+y	y	y	CCONJ		17	cc	ser	AUX	VerbForm=Inf	19
 puede	puede	poder	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	18	aux	ser	AUX	VerbForm=Inf	19
-ser	ser	ser	AUX	VerbForm=Inf	19	conj	así	ADV	-	3
+ser	ser	ser	AUX	VerbForm=Inf	19	conj	así	ADV		3
 lo	lo	él	PRON	Case=Acc Definite=Def Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	20	det	querer	VERB	Mood=Imp Number=Plur Person=3 VerbForm=Fin	26
 que	que	que	PRON	PronType=Int,Rel	21	iobj	querer	VERB	Mood=Imp Number=Plur Person=3 VerbForm=Fin	26
 ustedes	ustedes	tú	PRON	Case=Acc,Nom Number=Plur Person=2 Polite=Form PronType=Prs	22	nsubj	querer	VERB	Mood=Imp Number=Plur Person=3 VerbForm=Fin	26
@@ -1308,71 +1308,71 @@ señorías	señorías	señoría	NOUN	Gender=Fem Number=Plur	24	obl	querer	VERB	M
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	25	punct	señoría	NOUN	Gender=Fem Number=Plur	24
 quieran	quieran	querer	VERB	Mood=Imp Number=Plur Person=3 VerbForm=Fin	26	ccomp	ser	AUX	VerbForm=Inf	19
-que	que	que	SCONJ	-	27	mark	ser	AUX	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	28
+que	que	que	SCONJ		27	mark	ser	AUX	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	28
 sea	sea	ser	AUX	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	28	ccomp	querer	VERB	Mood=Imp Number=Plur Person=3 VerbForm=Fin	26
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	29	punct	aprobar	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	33
 hasta	hasta	hasta	ADP	AdpType=Prep	30	mark	aprobar	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	33
-que	que	que	SCONJ	-	31	mark	aprobar	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	33
+que	que	que	SCONJ		31	mark	aprobar	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	33
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	32	expl:pass	aprobar	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	33
 apruebe	apruebe	aprobar	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	33	advcl	querer	VERB	Mood=Imp Number=Plur Person=3 VerbForm=Fin	26
-definitivamente	definitivamente	definitivamente	ADV	-	34	advmod	aprobar	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	33
-en	en	en	ADP	AdpType=Prep	35	case	Cámara	PROPN	-	37
-esta	esta	este	DET	Gender=Fem Number=Sing PronType=Dem	36	det	Cámara	PROPN	-	37
+definitivamente	definitivamente	definitivamente	ADV		34	advmod	aprobar	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	33
+en	en	en	ADP	AdpType=Prep	35	case	Cámara	PROPN		37
+esta	esta	este	DET	Gender=Fem Number=Sing PronType=Dem	36	det	Cámara	PROPN		37
 <name type="ORG">
-Cámara	Cámara	Cámara	PROPN	-	37	obl	aprobar	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	33
+Cámara	Cámara	Cámara	PROPN		37	obl	aprobar	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	33
 </name>
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	38	det	modificación	NOUN	Gender=Fem Number=Sing	39
 modificación	modificación	modificación	NOUN	Gender=Fem Number=Sing	39	nsubj	aprobar	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	33
 legal	legal	legal	ADJ	Number=Sing	40	amod	modificación	NOUN	Gender=Fem Number=Sing	39
 <g/>
-.	.	.	PUNCT	PunctType=Peri	41	punct	así	ADV	-	3
+.	.	.	PUNCT	PunctType=Peri	41	punct	así	ADV		3
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.5.10">
 Lo	Lo	él	PRON	Case=Acc Definite=Def Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	1	det	saber	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	4
 que	que	que	PRON	PronType=Int,Rel	2	obj	saber	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	4
-sí	sí	sí	INTJ	-	3	advcl	saber	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	4
+sí	sí	sí	INTJ		3	advcl	saber	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	4
 sabemos	sabemos	saber	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	4	csubj	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	34
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	5	punct	recibir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	9
-porque	porque	porque	SCONJ	-	6	mark	recibir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	9
-ya	ya	ya	ADV	-	7	advmod	recibir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	9
+porque	porque	porque	SCONJ		6	mark	recibir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	9
+ya	ya	ya	ADV		7	advmod	recibir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	9
 hemos	hemos	haber	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	8	aux	recibir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	9
 recibido	recibido	recibir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	9	advcl	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	34
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	10	det	contestación	NOUN	Gender=Fem Number=Sing	11
 contestación	contestación	contestación	NOUN	Gender=Fem Number=Sing	11	obj	recibir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	9
 por	por	por	ADP	AdpType=Prep	12	advmod	contestación	NOUN	Gender=Fem Number=Sing	11
-escrito	escrito	escrito	NOUN	-	13	fixed	por	ADP	AdpType=Prep	12
-tanto	tanto	tanto	NOUN	-	14	fixed	por	ADP	AdpType=Prep	12
+escrito	escrito	escrito	NOUN		13	fixed	por	ADP	AdpType=Prep	12
+tanto	tanto	tanto	NOUN		14	fixed	por	ADP	AdpType=Prep	12
 por	por	por	ADP	AdpType=Prep	15	case	servicio	NOUN	Gender=Masc Number=Plur	19
-parte	parte	parte	NOUN	-	16	fixed	por	ADP	AdpType=Prep	15
+parte	parte	parte	NOUN		16	fixed	por	ADP	AdpType=Prep	15
 de	de	de	ADP	AdpType=Prep	17	fixed	por	ADP	AdpType=Prep	15
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	18	det	servicio	NOUN	Gender=Masc Number=Plur	19
 servicios	servicios	servicio	NOUN	Gender=Masc Number=Plur	19	nmod	contestación	NOUN	Gender=Fem Number=Sing	11
-de	de	de	ADP	AdpType=Prep	20	case	Comisión	PROPN	-	22
-la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	21	det	Comisión	PROPN	-	22
+de	de	de	ADP	AdpType=Prep	20	case	Comisión	PROPN		22
+la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	21	det	Comisión	PROPN		22
 <name type="ORG">
-Comisión	Comisión	Comisión	PROPN	-	22	nmod	servicio	NOUN	Gender=Masc Number=Plur	19
-Europea	Europea	Europea	PROPN	-	23	flat	Comisión	PROPN	-	22
+Comisión	Comisión	Comisión	PROPN		22	nmod	servicio	NOUN	Gender=Masc Number=Plur	19
+Europea	Europea	Europea	PROPN		23	flat	Comisión	PROPN		22
 </name>
-como	como	como	SCONJ	-	24	cc	comisaria	NOUN	Gender=Fem Number=Sing	30
+como	como	como	SCONJ		24	cc	comisaria	NOUN	Gender=Fem Number=Sing	30
 por	por	por	ADP	AdpType=Prep	25	case	comisaria	NOUN	Gender=Fem Number=Sing	30
-parte	parte	parte	NOUN	-	26	fixed	por	ADP	AdpType=Prep	25
+parte	parte	parte	NOUN		26	fixed	por	ADP	AdpType=Prep	25
 de	de	de	ADP	AdpType=Prep	27	fixed	por	ADP	AdpType=Prep	25
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	28	det	comisaria	NOUN	Gender=Fem Number=Sing	30
 misma	misma	mismo	DET	Gender=Fem Number=Sing PronType=Dem	29	det	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	28
 comisaria	comisaria	comisaria	NOUN	Gender=Fem Number=Sing	30	nmod	servicio	NOUN	Gender=Masc Number=Plur	19
-de	de	de	ADP	AdpType=Prep	31	case	Transportes	PROPN	-	32
+de	de	de	ADP	AdpType=Prep	31	case	Transportes	PROPN		32
 <name type="MISC">
-Transportes	Transportes	Transportes	PROPN	-	32	nmod	comisaria	NOUN	Gender=Fem Number=Sing	30
+Transportes	Transportes	Transportes	PROPN		32	nmod	comisaria	NOUN	Gender=Fem Number=Sing	30
 <g/>
 </name>
 ,	,	,	PUNCT	PunctType=Comm	33	punct	recibir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	9
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	34	root	-	-	-	-
-que	que	que	SCONJ	-	35	mark	evitar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	43
+que	que	que	SCONJ		35	mark	evitar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	43
 de	de	de	ADP	AdpType=Prep	36	mark	convalidar	VERB	VerbForm=Inf	37
 convalidar	convalidar	convalidar	VERB	VerbForm=Inf	37	advcl	evitar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	43
-hoy	hoy	hoy	ADV	-	38	advmod	convalidar	VERB	VerbForm=Inf	37
+hoy	hoy	hoy	ADV		38	advmod	convalidar	VERB	VerbForm=Inf	37
 este	este	este	DET	Gender=Masc Number=Sing PronType=Dem	39	det	decreto-ley	NOUN	Gender=Masc Number=Sing	41
 real	real	real	ADJ	Number=Sing	40	amod	decreto-ley	NOUN	Gender=Masc Number=Sing	41
 decreto-ley	decreto-ley	decreto-ley	NOUN	Gender=Masc Number=Sing	41	nsubj	evitar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	43
@@ -1382,7 +1382,7 @@ la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	44	det	sentencia	N
 sentencia	sentencia	sentencia	NOUN	Gender=Fem Number=Sing	45	nsubj	evitar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	43
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	46	punct	elevar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	56
-porque	porque	porque	SCONJ	-	47	mark	elevar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	56
+porque	porque	porque	SCONJ		47	mark	elevar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	56
 desde	desde	desde	ADP	AdpType=Prep	48	case	gabinete	NOUN	Gender=Masc Number=Sing	50
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	49	det	gabinete	NOUN	Gender=Masc Number=Sing	50
 gabinete	gabinete	gabinete	NOUN	Gender=Masc Number=Sing	50	obl	elevar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	56
@@ -1396,7 +1396,7 @@ la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	57	det	propuesta	N
 propuesta	propuesta	propuesta	NOUN	Gender=Fem Number=Sing	58	nsubj	elevar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	56
 de	de	de	ADP	AdpType=Prep	59	case	desistimiento	NOUN	Gender=Masc Number=Sing	60
 desistimiento	desistimiento	desistimiento	NOUN	Gender=Masc Number=Sing	60	nmod	propuesta	NOUN	Gender=Fem Number=Sing	58
-y	y	y	CCONJ	-	61	cc	tener	VERB	Mood=Cnd Number=Plur Person=1 VerbForm=Fin	67
+y	y	y	CCONJ		61	cc	tener	VERB	Mood=Cnd Number=Plur Person=1 VerbForm=Fin	67
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	62	punct	él	PRON	Case=Acc,Nom Gender=Masc Number=Sing Person=3 PronType=Prs	64
 con	con	con	ADP	AdpType=Prep	63	case	él	PRON	Case=Acc,Nom Gender=Masc Number=Sing Person=3 PronType=Prs	64
@@ -1405,7 +1405,7 @@ ello	ello	él	PRON	Case=Acc,Nom Gender=Masc Number=Sing Person=3 PronType=Prs	64
 ,	,	,	PUNCT	PunctType=Comm	65	punct	él	PRON	Case=Acc,Nom Gender=Masc Number=Sing Person=3 PronType=Prs	64
 no	no	no	ADV	Polarity=Neg	66	advmod	pagar	VERB	VerbForm=Inf	69
 tendríamos	tendríamos	tener	VERB	Mood=Cnd Number=Plur Person=1 VerbForm=Fin	67	conj	elevar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	56
-que	que	que	SCONJ	-	68	cc	pagar	VERB	VerbForm=Inf	69
+que	que	que	SCONJ		68	cc	pagar	VERB	VerbForm=Inf	69
 pagar	pagar	pagar	VERB	VerbForm=Inf	69	conj	tener	VERB	Mood=Cnd Number=Plur Person=1 VerbForm=Fin	67
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	70	det	multa	NOUN	Gender=Fem Number=Sing	71
 multa	multa	multa	NOUN	Gender=Fem Number=Sing	71	obj	pagar	VERB	VerbForm=Inf	69
@@ -1416,26 +1416,26 @@ momentos	momentos	momento	NOUN	Gender=Masc Number=Plur	75	obl	devengar	VERB	Mood
 devengamos	devengamos	devengar	VERB	Mood=Sub Number=Plur Person=1 Tense=Pres VerbForm=Fin	76	acl	multa	NOUN	Gender=Fem Number=Sing	71
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	77	punct	multa	NOUN	Gender=Fem Number=Sing	82
-ni	ni	ni	CCONJ	-	78	cc	multa	NOUN	Gender=Fem Number=Sing	82
-por	por	por	ADP	AdpType=Prep	79	fixed	ni	CCONJ	-	78
-supuesto	supuesto	supuesto	NOUN	-	80	fixed	ni	CCONJ	-	78
+ni	ni	ni	CCONJ		78	cc	multa	NOUN	Gender=Fem Number=Sing	82
+por	por	por	ADP	AdpType=Prep	79	fixed	ni	CCONJ		78
+supuesto	supuesto	supuesto	NOUN		80	fixed	ni	CCONJ		78
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	81	det	multa	NOUN	Gender=Fem Number=Sing	82
 multa	multa	multa	NOUN	Gender=Fem Number=Sing	82	obj	devengar	VERB	Mood=Sub Number=Plur Person=1 Tense=Pres VerbForm=Fin	76
 coercitiva	coercitiva	coercitivo	ADJ	Gender=Fem Number=Sing	83	amod	multa	NOUN	Gender=Fem Number=Sing	82
 que	que	que	PRON	PronType=Int,Rel	84	nsubj	venir	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	85
 vendría	vendría	venir	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	85	acl	multa	NOUN	Gender=Fem Number=Sing	82
-después	después	después	ADV	-	86	advmod	venir	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	85
+después	después	después	ADV		86	advmod	venir	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	85
 <g/>
 .	.	.	PUNCT	PunctType=Peri	87	punct	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	34
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.5.11">
 Por	Por	por	ADP	AdpType=Prep	1	advmod	diferenciar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	7
-tanto	tanto	tanto	NOUN	-	2	fixed	por	ADP	AdpType=Prep	1
+tanto	tanto	tanto	NOUN		2	fixed	por	ADP	AdpType=Prep	1
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	3	punct	por	ADP	AdpType=Prep	1
 esa	esa	ese	DET	Gender=Fem Number=Sing PronType=Dem	4	det	urgencia	NOUN	Gender=Fem Number=Sing	5
 urgencia	urgencia	urgencia	NOUN	Gender=Fem Number=Sing	5	nsubj	diferenciar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	7
-también	también	también	ADV	-	6	advmod	diferenciar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	7
+también	también	también	ADV		6	advmod	diferenciar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	7
 diferencia	diferencia	diferenciar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	7	root	-	-	-	-
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	8	det	tramitación	NOUN	Gender=Fem Number=Sing	9
 tramitación	tramitación	tramitación	NOUN	Gender=Fem Number=Sing	9	obj	diferenciar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	7
@@ -1448,10 +1448,10 @@ otros	otros	otro	PRON	Gender=Masc Number=Plur PronType=Ind	15	nmod	real	NOUN	Gen
 que	que	que	PRON	PronType=Int,Rel	16	nsubj	venir	VERB	VerbForm=Inf	18
 puedan	puedan	poder	AUX	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	17	aux	venir	VERB	VerbForm=Inf	18
 venir	venir	venir	VERB	VerbForm=Inf	18	acl	otro	PRON	Gender=Masc Number=Plur PronType=Ind	15
-a	a	a	ADP	AdpType=Prep	19	case	Cámara	PROPN	-	21
-esta	esta	este	DET	Gender=Fem Number=Sing PronType=Dem	20	det	Cámara	PROPN	-	21
+a	a	a	ADP	AdpType=Prep	19	case	Cámara	PROPN		21
+esta	esta	este	DET	Gender=Fem Number=Sing PronType=Dem	20	det	Cámara	PROPN		21
 <name type="ORG">
-Cámara	Cámara	Cámara	PROPN	-	21	obl	venir	VERB	VerbForm=Inf	18
+Cámara	Cámara	Cámara	PROPN		21	obl	venir	VERB	VerbForm=Inf	18
 <g/>
 </name>
 .	.	.	PUNCT	PunctType=Peri	22	punct	diferenciar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	7
@@ -1479,7 +1479,7 @@ decretoley	decretoley	decretoley	ADJ	Gender=Masc Number=Sing	16	amod	real	NOUN	G
 .	.	.	PUNCT	PunctType=Peri	17	punct	capacidad	NOUN	Gender=Fem Number=Sing	8
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.6.2">
-Como	Como	como	SCONJ	-	1	mark	saber	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	2
+Como	Como	como	SCONJ		1	mark	saber	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	2
 saben	saben	saber	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	2	advcl	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	14
 ustedes	ustedes	tú	PRON	Case=Acc,Nom Number=Plur Person=2 Polite=Form PronType=Prs	3	nsubj	saber	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	2
 <g/>
@@ -1491,13 +1491,13 @@ decretoley	decretoley	decretoley	ADJ	Gender=Masc Number=Sing	8	amod	real	NOUN	Ge
 de	de	de	ADP	AdpType=Prep	9	case	tipo	NOUN	Gender=Masc Number=Sing	11
 otro	otro	otro	DET	Gender=Masc Number=Sing PronType=Ind	10	det	tipo	NOUN	Gender=Masc Number=Sing	11
 tipo	tipo	tipo	NOUN	Gender=Masc Number=Sing	11	nmod	real	NOUN	Gender=Masc Number=Sing	7
-el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	12	det	Gobierno	PROPN	-	13
+el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	12	det	Gobierno	PROPN		13
 <name type="ORG">
-Gobierno	Gobierno	Gobierno	PROPN	-	13	nsubj	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	14
+Gobierno	Gobierno	Gobierno	PROPN		13	nsubj	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	14
 </name>
 tiene	tiene	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	14	root	-	-	-	-
 margen	margen	margen	NOUN	Number=Sing	15	obj	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	14
-y	y	y	CCONJ	-	16	cc	capacidad	NOUN	Gender=Fem Number=Sing	17
+y	y	y	CCONJ		16	cc	capacidad	NOUN	Gender=Fem Number=Sing	17
 capacidad	capacidad	capacidad	NOUN	Gender=Fem Number=Sing	17	conj	margen	NOUN	Number=Sing	15
 para	para	para	ADP	AdpType=Prep	18	mark	maniobrar	VERB	VerbForm=Inf	20
 poder	poder	poder	AUX	VerbForm=Inf	19	aux	maniobrar	VERB	VerbForm=Inf	20
@@ -1505,11 +1505,11 @@ maniobrar	maniobrar	maniobrar	VERB	VerbForm=Inf	20	advcl	tener	VERB	Mood=Ind Num
 con	con	con	ADP	AdpType=Prep	21	case	grupo	NOUN	Gender=Masc Number=Plur	22
 grupos	grupos	grupo	NOUN	Gender=Masc Number=Plur	22	obl	maniobrar	VERB	VerbForm=Inf	20
 políticos	políticos	político	ADJ	Gender=Masc Number=Plur	23	amod	grupo	NOUN	Gender=Masc Number=Plur	22
-y	y	y	CCONJ	-	24	cc	sector	NOUN	Gender=Masc Number=Plur	26
+y	y	y	CCONJ		24	cc	sector	NOUN	Gender=Masc Number=Plur	26
 con	con	con	ADP	AdpType=Prep	25	case	sector	NOUN	Gender=Masc Number=Plur	26
 sectores	sectores	sector	NOUN	Gender=Masc Number=Plur	26	conj	grupo	NOUN	Gender=Masc Number=Plur	22
 sociales	sociales	social	ADJ	Number=Plur	27	amod	sector	NOUN	Gender=Masc Number=Plur	26
-y	y	y	CCONJ	-	28	cc	económico	ADJ	Gender=Masc Number=Plur	29
+y	y	y	CCONJ		28	cc	económico	ADJ	Gender=Masc Number=Plur	29
 económicos	económicos	económico	ADJ	Gender=Masc Number=Plur	29	conj	social	ADJ	Number=Plur	27
 <g/>
 .	.	.	PUNCT	PunctType=Peri	30	punct	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	14
@@ -1527,13 +1527,13 @@ clara	clara	claro	ADJ	Gender=Fem Number=Sing	8	amod	limitación	NOUN	Gender=Fem 
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	9	punct	determinante	ADJ	Number=Sing	10
 determinante	determinante	determinante	ADJ	Number=Sing	10	conj	claro	ADJ	Gender=Fem Number=Sing	8
-y	y	y	CCONJ	-	11	cc	contundente	ADJ	Number=Sing	12
+y	y	y	CCONJ		11	cc	contundente	ADJ	Number=Sing	12
 contundente	contundente	contundente	ADJ	Number=Sing	12	conj	claro	ADJ	Gender=Fem Number=Sing	8
-de	de	de	ADP	AdpType=Prep	13	case	Comisión	PROPN	-	15
-la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	14	det	Comisión	PROPN	-	15
+de	de	de	ADP	AdpType=Prep	13	case	Comisión	PROPN		15
+la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	14	det	Comisión	PROPN		15
 <name type="ORG">
-Comisión	Comisión	Comisión	PROPN	-	15	nmod	limitación	NOUN	Gender=Fem Number=Sing	7
-Europea	Europea	Europea	PROPN	-	16	flat	Comisión	PROPN	-	15
+Comisión	Comisión	Comisión	PROPN		15	nmod	limitación	NOUN	Gender=Fem Number=Sing	7
+Europea	Europea	Europea	PROPN		16	flat	Comisión	PROPN		15
 <g/>
 </name>
 ,	,	,	PUNCT	PunctType=Comm	17	punct	garante	NOUN	Number=Sing	21
@@ -1541,24 +1541,24 @@ que	que	que	PRON	PronType=Int,Rel	18	nsubj	garante	NOUN	Number=Sing	21
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	19	cop	garante	NOUN	Number=Sing	21
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	20	det	garante	NOUN	Number=Sing	21
 garante	garante	garante	NOUN	Number=Sing	21	acl	limitación	NOUN	Gender=Fem Number=Sing	7
-del	del	del	ADP	AdpType=Preppron	22	case	Tratado	PROPN	-	23
+del	del	del	ADP	AdpType=Preppron	22	case	Tratado	PROPN		23
 <name type="MISC">
-Tratado	Tratado	Tratado	PROPN	-	23	nmod	garante	NOUN	Number=Sing	21
+Tratado	Tratado	Tratado	PROPN		23	nmod	garante	NOUN	Number=Sing	21
 </name>
-y	y	y	CCONJ	-	24	cc	responsable	NOUN	Number=Sing	25
-responsable	responsable	responsable	NOUN	Number=Sing	25	conj	Tratado	PROPN	-	23
+y	y	y	CCONJ		24	cc	responsable	NOUN	Number=Sing	25
+responsable	responsable	responsable	NOUN	Number=Sing	25	conj	Tratado	PROPN		23
 de	de	de	ADP	AdpType=Prep	26	case	decisión	NOUN	Gender=Fem Number=Sing	28
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	27	det	decisión	NOUN	Gender=Fem Number=Sing	28
 decisión	decisión	decisión	NOUN	Gender=Fem Number=Sing	28	nmod	responsable	NOUN	Number=Sing	25
 de	de	de	ADP	AdpType=Prep	29	mark	desestimar	VERB	VerbForm=Inf	30
 desestimar	desestimar	desestimar	VERB	VerbForm=Inf	30	acl	decisión	NOUN	Gender=Fem Number=Sing	28
-y	y	y	CCONJ	-	31	cc	establecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	34
+y	y	y	CCONJ		31	cc	establecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	34
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	32	det	establecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	34
 que	que	que	PRON	PronType=Int,Rel	33	nsubj	establecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	34
 establece	establece	establecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	34	conj	garante	NOUN	Number=Sing	21
 cuáles	cuáles	cuál	PRON	Number=Plur PronType=Int,Rel	35	nsubj	límite	NOUN	Gender=Masc Number=Plur	40
 tienen	tienen	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	36	ccomp	establecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	34
-que	que	que	SCONJ	-	37	cc	límite	NOUN	Gender=Masc Number=Plur	40
+que	que	que	SCONJ		37	cc	límite	NOUN	Gender=Masc Number=Plur	40
 ser	ser	ser	AUX	VerbForm=Inf	38	cop	límite	NOUN	Gender=Masc Number=Plur	40
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	39	det	límite	NOUN	Gender=Masc Number=Plur	40
 límites	límites	límite	NOUN	Gender=Masc Number=Plur	40	conj	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	36
@@ -1577,19 +1577,19 @@ decretoley	decretoley	decretoley	ADJ	Gender=Masc Number=Sing	49	amod	real	NOUN	G
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.6.4">
 Por	Por	por	ADP	AdpType=Prep	1	advmod	tener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	8
-tanto	tanto	tanto	NOUN	-	2	fixed	por	ADP	AdpType=Prep	1
+tanto	tanto	tanto	NOUN		2	fixed	por	ADP	AdpType=Prep	1
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	3	punct	por	ADP	AdpType=Prep	1
-el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	4	det	Gobierno	PROPN	-	5
+el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	4	det	Gobierno	PROPN		5
 <name type="ORG">
-Gobierno	Gobierno	Gobierno	PROPN	-	5	nsubj	tener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	8
+Gobierno	Gobierno	Gobierno	PROPN		5	nsubj	tener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	8
 </name>
 no	no	no	ADV	Polarity=Neg	6	advmod	tener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	8
 ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	7	aux	tener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	8
 tenido	tenido	tener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	8	root	-	-	-	-
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	9	det	margen	NOUN	Number=Sing	10
 margen	margen	margen	NOUN	Number=Sing	10	obj	tener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	8
-ni	ni	ni	CCONJ	-	11	cc	libertad	NOUN	Gender=Fem Number=Sing	13
+ni	ni	ni	CCONJ		11	cc	libertad	NOUN	Gender=Fem Number=Sing	13
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	12	det	libertad	NOUN	Gender=Fem Number=Sing	13
 libertad	libertad	libertad	NOUN	Gender=Fem Number=Sing	13	conj	margen	NOUN	Number=Sing	10
 que	que	que	PRON	PronType=Int,Rel	14	obj	establecer	VERB	VerbForm=Inf	16
@@ -1600,7 +1600,7 @@ otros	otros	otro	DET	Gender=Masc Number=Plur PronType=Ind	18	det	caso	NOUN	Gende
 casos	casos	caso	NOUN	Gender=Masc Number=Plur	19	obl	establecer	VERB	VerbForm=Inf	16
 para	para	para	ADP	AdpType=Prep	20	mark	decidir	VERB	VerbForm=Inf	21
 decidir	decidir	decidir	VERB	VerbForm=Inf	21	advcl	establecer	VERB	VerbForm=Inf	16
-libremente	libremente	libremente	ADV	-	22	advmod	decidir	VERB	VerbForm=Inf	21
+libremente	libremente	libremente	ADV		22	advmod	decidir	VERB	VerbForm=Inf	21
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	23	det	término	NOUN	Gender=Masc Number=Plur	24
 términos	términos	término	NOUN	Gender=Masc Number=Plur	24	obj	decidir	VERB	VerbForm=Inf	21
 del	del	del	ADP	AdpType=Preppron	25	case	mismo	PRON	Gender=Masc Number=Sing PronType=Dem	26
@@ -1614,21 +1614,21 @@ proceso	proceso	proceso	NOUN	Gender=Masc Number=Sing	2	nsubj	marcado	ADJ	Gender=
 ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	aux	marcado	ADJ	Gender=Masc Number=Sing VerbForm=Part	5
 estado	estado	estar	AUX	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4	cop	marcado	ADJ	Gender=Masc Number=Sing VerbForm=Part	5
 marcado	marcado	marcado	ADJ	Gender=Masc Number=Sing VerbForm=Part	5	root	-	-	-	-
-permanentemente	permanentemente	permanentemente	ADV	-	6	advmod	marcado	ADJ	Gender=Masc Number=Sing VerbForm=Part	5
+permanentemente	permanentemente	permanentemente	ADV		6	advmod	marcado	ADJ	Gender=Masc Number=Sing VerbForm=Part	5
 por	por	por	ADP	AdpType=Prep	7	case	limitación	NOUN	Gender=Fem Number=Plur	10
 las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	8	det	limitación	NOUN	Gender=Fem Number=Plur	10
 propias	propias	propio	ADJ	Gender=Fem Number=Plur	9	amod	limitación	NOUN	Gender=Fem Number=Plur	10
 limitaciones	limitaciones	limitación	NOUN	Gender=Fem Number=Plur	10	obj	marcado	ADJ	Gender=Masc Number=Sing VerbForm=Part	5
 que	que	que	PRON	PronType=Int,Rel	11	obj	establecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	12
 establecía	establecía	establecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	12	acl	limitación	NOUN	Gender=Fem Number=Plur	10
-la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	13	det	Comisión	PROPN	-	14
+la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	13	det	Comisión	PROPN		14
 <name type="ORG">
-Comisión	Comisión	Comisión	PROPN	-	14	nsubj	establecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	12
-Europea	Europea	Europea	PROPN	-	15	flat	Comisión	PROPN	-	14
+Comisión	Comisión	Comisión	PROPN		14	nsubj	establecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	12
+Europea	Europea	Europea	PROPN		15	flat	Comisión	PROPN		14
 <g/>
 </name>
 ,	,	,	PUNCT	PunctType=Comm	16	punct	acreditar	VERB	VerbForm=Inf	20
-como	como	como	SCONJ	-	17	mark	acreditar	VERB	VerbForm=Inf	20
+como	como	como	SCONJ		17	mark	acreditar	VERB	VerbForm=Inf	20
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	18	expl:pass	acreditar	VERB	VerbForm=Inf	20
 puede	puede	poder	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	19	aux	acreditar	VERB	VerbForm=Inf	20
 acreditar	acreditar	acreditar	VERB	VerbForm=Inf	20	advcl	marcado	ADJ	Gender=Masc Number=Sing VerbForm=Part	5
@@ -1642,14 +1642,14 @@ correos	correos	correo	NOUN	Gender=Masc Number=Plur	26	appos	reunión	NOUN	Gende
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	27	punct	carta	NOUN	Gender=Fem Number=Plur	28
 cartas	cartas	carta	NOUN	Gender=Fem Number=Plur	28	conj	reunión	NOUN	Gender=Fem Number=Plur	24
-e	e	e	CCONJ	-	29	cc	informe	NOUN	Gender=Masc Number=Plur	30
+e	e	e	CCONJ		29	cc	informe	NOUN	Gender=Masc Number=Plur	30
 informes	informes	informe	NOUN	Gender=Masc Number=Plur	30	conj	reunión	NOUN	Gender=Fem Number=Plur	24
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	31	punct	referir	VERB	Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin	37
 a	a	a	ADP	AdpType=Prep	32	case	que	PRON	PronType=Int,Rel	34
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	33	det	que	PRON	PronType=Int,Rel	34
 que	que	que	PRON	PronType=Int,Rel	34	obj	referir	VERB	Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin	37
-también	también	también	ADV	-	35	advmod	referir	VERB	Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin	37
+también	también	también	ADV		35	advmod	referir	VERB	Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin	37
 me	me	yo	PRON	Case=Acc Number=Sing Person=1 PrepCase=Npr PronType=Prs	36	expl:pv	referir	VERB	Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin	37
 referiré	referiré	referir	VERB	Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin	37	acl	reunión	NOUN	Gender=Fem Number=Plur	24
 <g/>
@@ -1660,16 +1660,16 @@ Hemos	Hemos	haber	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1	au
 oído	oído	oír	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	2	root	-	-	-	-
 a	a	a	ADP	AdpType=Prep	3	case	mes	NOUN	Gender=Masc Number=Plur	8
 lo	lo	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	4	fixed	a	ADP	AdpType=Prep	3
-largo	largo	largo	NOUN	-	5	fixed	a	ADP	AdpType=Prep	3
+largo	largo	largo	NOUN		5	fixed	a	ADP	AdpType=Prep	3
 de	de	de	ADP	AdpType=Prep	6	fixed	a	ADP	AdpType=Prep	3
 estos	estos	este	DET	Gender=Masc Number=Plur PronType=Dem	7	det	mes	NOUN	Gender=Masc Number=Plur	8
 meses	meses	mes	NOUN	Gender=Masc Number=Plur	8	obl	oír	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	2
-que	que	que	SCONJ	-	9	mark	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	15
-si	si	si	SCONJ	-	10	mark	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	15
-la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	11	det	Comisión	PROPN	-	12
+que	que	que	SCONJ		9	mark	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	15
+si	si	si	SCONJ		10	mark	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	15
+la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	11	det	Comisión	PROPN		12
 <name type="ORG">
-Comisión	Comisión	Comisión	PROPN	-	12	nsubj	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	15
-Europea	Europea	Europea	PROPN	-	13	flat	Comisión	PROPN	-	12
+Comisión	Comisión	Comisión	PROPN		12	nsubj	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	15
+Europea	Europea	Europea	PROPN		13	flat	Comisión	PROPN		12
 </name>
 no	no	no	ADV	Polarity=Neg	14	advmod	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	15
 tenía	tenía	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	15	ccomp	oír	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	2
@@ -1681,16 +1681,16 @@ hacer	hacer	hacer	VERB	VerbForm=Inf	20	acl	capacidad	NOUN	Gender=Fem Number=Sing
 esto	esto	este	PRON	Number=Sing PronType=Dem	21	obj	hacer	VERB	VerbForm=Inf	20
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	22	punct	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	26
-que	que	que	SCONJ	-	23	mark	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	26
-si	si	si	SCONJ	-	24	mark	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	26
+que	que	que	SCONJ		23	mark	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	26
+si	si	si	SCONJ		24	mark	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	26
 no	no	no	ADV	Polarity=Neg	25	advmod	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	26
 era	era	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	26	advcl	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	15
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	27	det	velar	VERB	VerbForm=Inf	31
 que	que	que	PRON	PronType=Int,Rel	28	nsubj	velar	VERB	VerbForm=Inf	31
 tenía	tenía	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	29	ccomp	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	26
-que	que	que	SCONJ	-	30	cc	velar	VERB	VerbForm=Inf	31
+que	que	que	SCONJ		30	cc	velar	VERB	VerbForm=Inf	31
 velar	velar	velar	VERB	VerbForm=Inf	31	conj	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	29
-y	y	y	CCONJ	-	32	cc	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	33
+y	y	y	CCONJ		32	cc	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	33
 tenía	tenía	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	33	conj	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	29
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	34	det	potestad	NOUN	Gender=Fem Number=Sing	35
 potestad	potestad	potestad	NOUN	Gender=Fem Number=Sing	35	obj	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	33
@@ -1699,8 +1699,8 @@ poder	poder	poder	AUX	VerbForm=Inf	37	aux	desistir	VERB	VerbForm=Inf	38
 desistir	desistir	desistir	VERB	VerbForm=Inf	38	advcl	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	33
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	39	punct	cosa	NOUN	Gender=Fem Number=Sing	45
-que	que	que	SCONJ	-	40	mark	cosa	NOUN	Gender=Fem Number=Sing	45
-si	si	si	SCONJ	-	41	mark	cosa	NOUN	Gender=Fem Number=Sing	45
+que	que	que	SCONJ		40	mark	cosa	NOUN	Gender=Fem Number=Sing	45
+si	si	si	SCONJ		41	mark	cosa	NOUN	Gender=Fem Number=Sing	45
 esto	esto	este	PRON	Number=Sing PronType=Dem	42	nsubj	cosa	NOUN	Gender=Fem Number=Sing	45
 era	era	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	43	cop	cosa	NOUN	Gender=Fem Number=Sing	45
 una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	44	det	cosa	NOUN	Gender=Fem Number=Sing	45
@@ -1713,7 +1713,7 @@ funcionarios	funcionarios	funcionario	NOUN	Gender=Masc Number=Plur	47	nmod	cosa	
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.6.7">
 Yo	Yo	yo	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	1	nsubj	creer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	2
 creo	creo	creer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	2	root	-	-	-	-
-que	que	que	SCONJ	-	3	mark	cierto	ADJ	Gender=Masc Number=Sing	8
+que	que	que	SCONJ		3	mark	cierto	ADJ	Gender=Masc Number=Sing	8
 nada	nada	nada	PRON	Number=Sing PronType=Neg	4	nsubj	cierto	ADJ	Gender=Masc Number=Sing	8
 de	de	de	ADP	AdpType=Prep	5	case	ese	PRON	Number=Sing PronType=Dem	6
 eso	eso	ese	PRON	Number=Sing PronType=Dem	6	nmod	nada	PRON	Number=Sing PronType=Neg	4
@@ -1721,11 +1721,11 @@ era	era	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	7	cop	ciert
 cierto	cierto	cierto	ADJ	Gender=Masc Number=Sing	8	ccomp	creer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	2
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	9	punct	quedar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	13
-y	y	y	CCONJ	-	10	cc	quedar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	13
-además	además	además	ADV	-	11	advmod	quedar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	13
+y	y	y	CCONJ		10	cc	quedar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	13
+además	además	además	ADV		11	advmod	quedar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	13
 ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	12	aux	quedar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	13
 quedado	quedado	quedar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	13	conj	creer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	2
-así	así	así	ADV	-	14	advmod	ratificar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	15
+así	así	así	ADV		14	advmod	ratificar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	15
 ratificado	ratificado	ratificar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	15	conj	quedar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	13
 por	por	por	ADP	AdpType=Prep	16	case	comisaria	NOUN	Gender=Fem Number=Sing	19
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	17	det	comisaria	NOUN	Gender=Fem Number=Sing	19
@@ -1736,8 +1736,8 @@ comisaria	comisaria	comisaria	NOUN	Gender=Fem Number=Sing	19	obj	ratificar	VERB	
 que	que	que	PRON	PronType=Int,Rel	21	nsubj	confirmar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	23
 ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	22	aux	confirmar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	23
 confirmado	confirmado	confirmar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	23	acl	comisaria	NOUN	Gender=Fem Number=Sing	19
-públicamente	públicamente	públicamente	ADV	-	24	advmod	confirmar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	23
-que	que	que	SCONJ	-	25	mark	línea	NOUN	Gender=Fem Number=Sing	40
+públicamente	públicamente	públicamente	ADV		24	advmod	confirmar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	23
+que	que	que	SCONJ		25	mark	línea	NOUN	Gender=Fem Number=Sing	40
 en	en	en	ADP	AdpType=Prep	26	case	proceso	NOUN	Gender=Masc Number=Sing	28
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	27	det	proceso	NOUN	Gender=Masc Number=Sing	28
 proceso	proceso	proceso	NOUN	Gender=Masc Number=Sing	28	obl	estar	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	38
@@ -1747,10 +1747,10 @@ está	está	estar	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	31	a
 siguiendo	siguiendo	seguir	VERB	VerbForm=Ger	32	acl	proceso	NOUN	Gender=Masc Number=Sing	28
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	33	det	capacidad	NOUN	Gender=Fem Number=Sing	34
 capacidad	capacidad	capacidad	NOUN	Gender=Fem Number=Sing	34	nsubj	seguir	VERB	VerbForm=Ger	32
-de	de	de	ADP	AdpType=Prep	35	case	Comisión	PROPN	-	37
-la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	36	det	Comisión	PROPN	-	37
+de	de	de	ADP	AdpType=Prep	35	case	Comisión	PROPN		37
+la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	36	det	Comisión	PROPN		37
 <name type="ORG">
-Comisión	Comisión	Comisión	PROPN	-	37	nmod	capacidad	NOUN	Gender=Fem Number=Sing	34
+Comisión	Comisión	Comisión	PROPN		37	nmod	capacidad	NOUN	Gender=Fem Number=Sing	34
 </name>
 está	está	estar	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	38	cop	línea	NOUN	Gender=Fem Number=Sing	40
 en	en	en	ADP	AdpType=Prep	39	case	línea	NOUN	Gender=Fem Number=Sing	40
@@ -1758,9 +1758,9 @@ línea	línea	línea	NOUN	Gender=Fem Number=Sing	40	ccomp	confirmar	VERB	Gender=
 con	con	con	ADP	AdpType=Prep	41	mark	venir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	46
 lo	lo	él	PRON	Case=Acc Definite=Def Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	42	det	venir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	46
 que	que	que	PRON	PronType=Int,Rel	43	obl	venir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	46
-el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	44	det	Gobierno	PROPN	-	45
+el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	44	det	Gobierno	PROPN		45
 <name type="ORG">
-Gobierno	Gobierno	Gobierno	PROPN	-	45	nsubj	venir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	46
+Gobierno	Gobierno	Gobierno	PROPN		45	nsubj	venir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	46
 </name>
 viene	viene	venir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	46	acl	línea	NOUN	Gender=Fem Number=Sing	40
 sosteniendo	sosteniendo	sostener	VERB	VerbForm=Ger	47	xcomp	venir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	46
@@ -1792,19 +1792,19 @@ la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	16	det	sentencia	N
 sentencia	sentencia	sentencia	NOUN	Gender=Fem Number=Sing	17	nmod	cumplimiento	NOUN	Gender=Masc Number=Sing	13
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	18	punct	manifestar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	22
-como	como	como	SCONJ	-	19	mark	manifestar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	22
-así	así	así	ADV	-	20	advmod	manifestar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	22
+como	como	como	SCONJ		19	mark	manifestar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	22
+así	así	así	ADV		20	advmod	manifestar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	22
 ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	21	aux	manifestar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	22
 manifestado	manifestado	manifestar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	22	advcl	cumplimiento	NOUN	Gender=Masc Number=Sing	13
-la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	23	det	Comisión	PROPN	-	25
+la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	23	det	Comisión	PROPN		25
 propia	propia	propio	DET	Gender=Fem Number=Sing PronType=Ind	24	det	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	23
 <name type="ORG">
-Comisión	Comisión	Comisión	PROPN	-	25	nsubj	manifestar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	22
-Europea	Europea	Europea	PROPN	-	26	flat	Comisión	PROPN	-	25
+Comisión	Comisión	Comisión	PROPN		25	nsubj	manifestar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	22
+Europea	Europea	Europea	PROPN		26	flat	Comisión	PROPN		25
 <g/>
 </name>
 ,	,	,	PUNCT	PunctType=Comm	27	punct	manifestar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	22
-y	y	y	CCONJ	-	28	cc	flexibilización	NOUN	Gender=Fem Number=Sing	30
+y	y	y	CCONJ		28	cc	flexibilización	NOUN	Gender=Fem Number=Sing	30
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	29	det	flexibilización	NOUN	Gender=Fem Number=Sing	30
 flexibilización	flexibilización	flexibilización	NOUN	Gender=Fem Number=Sing	30	conj	cumplimiento	NOUN	Gender=Masc Number=Sing	13
 al	al	al	ADP	AdpType=Preppron	31	case	máximo	NOUN	Gender=Masc	32
@@ -1816,7 +1816,7 @@ de	de	de	ADP	AdpType=Prep	36	case	mismo	PRON	Gender=Fem Number=Sing PronType=Dem
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	37	det	mismo	PRON	Gender=Fem Number=Sing PronType=Dem	38
 misma	misma	mismo	PRON	Gender=Fem Number=Sing PronType=Dem	38	nmod	término	NOUN	Gender=Masc Number=Plur	35
 a	a	a	ADP	AdpType=Prep	39	case	trabajador	NOUN	Gender=Masc Number=Plur	43
-favor	favor	favor	NOUN	-	40	fixed	a	ADP	AdpType=Prep	39
+favor	favor	favor	NOUN		40	fixed	a	ADP	AdpType=Prep	39
 de	de	de	ADP	AdpType=Prep	41	fixed	a	ADP	AdpType=Prep	39
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	42	det	trabajador	NOUN	Gender=Masc Number=Plur	43
 trabajadores	trabajadores	trabajador	NOUN	Gender=Masc Number=Plur	43	nmod	término	NOUN	Gender=Masc Number=Plur	35
@@ -1827,12 +1827,12 @@ trabajadores	trabajadores	trabajador	NOUN	Gender=Masc Number=Plur	43	nmod	térmi
 <p id="ParlaMint-ES_2017-03-16-CD170316.u2.7" lang="Spanish">
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.7.1">
 A	A	a	ADP	AdpType=Prep	1	advmod	hablar	VERB	Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin	3
-continuación	continuación	continuación	NOUN	-	2	fixed	a	ADP	AdpType=Prep	1
+continuación	continuación	continuación	NOUN		2	fixed	a	ADP	AdpType=Prep	1
 hablaré	hablaré	hablar	VERB	Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin	3	root	-	-	-	-
-un	un	uno	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	4	det	poco	ADV	-	5
-poco	poco	poco	ADV	-	5	obj	hablar	VERB	Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin	3
+un	un	uno	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	4	det	poco	ADV		5
+poco	poco	poco	ADV		5	obj	hablar	VERB	Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin	3
 del	del	del	ADP	AdpType=Preppron	6	case	proceso	NOUN	Gender=Masc Number=Sing	7
-proceso	proceso	proceso	NOUN	Gender=Masc Number=Sing	7	nmod	poco	ADV	-	5
+proceso	proceso	proceso	NOUN	Gender=Masc Number=Sing	7	nmod	poco	ADV		5
 que	que	que	PRON	PronType=Int,Rel	8	obj	llevar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	10
 ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	9	aux	llevar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	10
 llevado	llevado	llevar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	10	acl	proceso	NOUN	Gender=Masc Number=Sing	7
@@ -1848,15 +1848,15 @@ de	de	de	ADP	AdpType=Prep	18	case	diálogo	NOUN	Gender=Masc Number=Sing	19
 diálogo	diálogo	diálogo	NOUN	Gender=Masc Number=Sing	19	nmod	proceso	NOUN	Gender=Masc Number=Sing	17
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	20	punct	venir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	27
-porque	porque	porque	SCONJ	-	21	mark	venir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	27
+porque	porque	porque	SCONJ		21	mark	venir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	27
 a	a	a	ADP	AdpType=Prep	22	mark	venir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	27
-pesar	pesar	pesar	NOUN	-	23	fixed	a	ADP	AdpType=Prep	22
+pesar	pesar	pesar	NOUN		23	fixed	a	ADP	AdpType=Prep	22
 de	de	de	ADP	AdpType=Prep	24	fixed	a	ADP	AdpType=Prep	22
-que	que	que	SCONJ	-	25	fixed	a	ADP	AdpType=Prep	22
+que	que	que	SCONJ		25	fixed	a	ADP	AdpType=Prep	22
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	26	expl:pass	venir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	27
 viene	viene	venir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	27	acl	proceso	NOUN	Gender=Masc Number=Sing	17
 diciendo	diciendo	decir	VERB	VerbForm=Ger	28	xcomp	venir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	27
-que	que	que	SCONJ	-	29	mark	abrir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	34
+que	que	que	SCONJ		29	mark	abrir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	34
 las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	30	det	negociación	NOUN	Gender=Fem Number=Plur	31
 negociaciones	negociaciones	negociación	NOUN	Gender=Fem Number=Plur	31	nsubj	abrir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	34
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	32	expl:pass	abrir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	34
@@ -1866,7 +1866,7 @@ en	en	en	ADP	AdpType=Prep	35	case	semana	NOUN	Gender=Fem Number=Plur	38
 estas	estas	este	DET	Gender=Fem Number=Plur PronType=Dem	36	det	semana	NOUN	Gender=Fem Number=Plur	38
 últimas	últimas	último	ADJ	Gender=Fem NumType=Ord Number=Plur	37	amod	semana	NOUN	Gender=Fem Number=Plur	38
 semanas	semanas	semana	NOUN	Gender=Fem Number=Plur	38	obl	abrir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	34
-o	o	o	CCONJ	-	39	cc	mes	NOUN	Gender=Masc Number=Plur	43
+o	o	o	CCONJ		39	cc	mes	NOUN	Gender=Masc Number=Plur	43
 en	en	en	ADP	AdpType=Prep	40	case	mes	NOUN	Gender=Masc Number=Plur	43
 estos	estos	este	DET	Gender=Masc Number=Plur PronType=Dem	41	det	mes	NOUN	Gender=Masc Number=Plur	43
 últimos	últimos	último	ADJ	Gender=Masc NumType=Ord Number=Plur	42	amod	mes	NOUN	Gender=Masc Number=Plur	43
@@ -1876,13 +1876,13 @@ meses	meses	mes	NOUN	Gender=Masc Number=Plur	43	conj	semana	NOUN	Gender=Fem Numb
 lo	lo	él	PRON	Case=Acc Definite=Def Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	45	det	cierto	ADJ	Gender=Masc Number=Sing	46
 cierto	cierto	cierto	ADJ	Gender=Masc Number=Sing	46	nsubj	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	47
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	47	conj	hablar	VERB	Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin	3
-que	que	que	SCONJ	-	48	mark	llevar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	53
+que	que	que	SCONJ		48	mark	llevar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	53
 ese	ese	ese	DET	Gender=Masc Number=Sing PronType=Dem	49	det	proceso	NOUN	Gender=Masc Number=Sing	50
 proceso	proceso	proceso	NOUN	Gender=Masc Number=Sing	50	nsubj	llevar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	53
 de	de	de	ADP	AdpType=Prep	51	case	negociación	NOUN	Gender=Fem Number=Sing	52
 negociación	negociación	negociación	NOUN	Gender=Fem Number=Sing	52	nmod	proceso	NOUN	Gender=Masc Number=Sing	50
 lleva	lleva	llevar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	53	ccomp	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	47
-ya	ya	ya	ADV	-	54	advmod	llevar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	53
+ya	ya	ya	ADV		54	advmod	llevar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	53
 dos	dos	dos	NUM	NumType=Card Number=Plur	55	nummod	año	NOUN	Gender=Masc Number=Plur	56
 años	años	año	NOUN	Gender=Masc Number=Plur	56	obl	llevar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	53
 produciendo	produciendo	producir	VERB	VerbForm=Ger	57	advcl	llevar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	53
@@ -1892,7 +1892,7 @@ con	con	con	ADP	AdpType=Prep	59	case	agente	NOUN	Number=Plur	61
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	60	det	agente	NOUN	Number=Plur	61
 agentes	agentes	agente	NOUN	Number=Plur	61	obl	producir	VERB	VerbForm=Ger	57
 sociales	sociales	social	ADJ	Number=Plur	62	amod	agente	NOUN	Number=Plur	61
-y	y	y	CCONJ	-	63	cc	sector	NOUN	Gender=Masc Number=Sing	66
+y	y	y	CCONJ		63	cc	sector	NOUN	Gender=Masc Number=Sing	66
 con	con	con	ADP	AdpType=Prep	64	case	sector	NOUN	Gender=Masc Number=Sing	66
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	65	det	sector	NOUN	Gender=Masc Number=Sing	66
 sector	sector	sector	NOUN	Gender=Masc Number=Sing	66	conj	agente	NOUN	Number=Plur	61
@@ -1908,17 +1908,17 @@ alcanzar	alcanzar	alcanzar	VERB	VerbForm=Inf	74	advcl	puesto	ADJ	Gender=Fem Numb
 un	un	uno	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	75	det	acuerdo	NOUN	Gender=Masc Number=Sing	76
 acuerdo	acuerdo	acuerdo	NOUN	Gender=Masc Number=Sing	76	obj	alcanzar	VERB	VerbForm=Inf	74
 <g/>
-,	,	,	PUNCT	PunctType=Comm	77	punct	dentro	ADV	-	78
-dentro	dentro	dentro	ADV	-	78	advmod	alcanzar	VERB	VerbForm=Inf	74
+,	,	,	PUNCT	PunctType=Comm	77	punct	dentro	ADV		78
+dentro	dentro	dentro	ADV		78	advmod	alcanzar	VERB	VerbForm=Inf	74
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	79	punct	por	ADP	AdpType=Prep	80
-por	por	por	ADP	AdpType=Prep	80	advmod	dentro	ADV	-	78
-supuesto	supuesto	supuesto	NOUN	-	81	fixed	por	ADP	AdpType=Prep	80
+por	por	por	ADP	AdpType=Prep	80	advmod	dentro	ADV		78
+supuesto	supuesto	supuesto	NOUN		81	fixed	por	ADP	AdpType=Prep	80
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	82	punct	por	ADP	AdpType=Prep	80
 de	de	de	ADP	AdpType=Prep	83	case	por	ADP	AdpType=Prep	80
 las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	84	det	limitación	NOUN	Gender=Fem Number=Plur	85
-limitaciones	limitaciones	limitación	NOUN	Gender=Fem Number=Plur	85	obl	dentro	ADV	-	78
+limitaciones	limitaciones	limitación	NOUN	Gender=Fem Number=Plur	85	obl	dentro	ADV		78
 que	que	que	PRON	PronType=Int,Rel	86	nsubj	establecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	87
 establece	establece	establecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	87	acl	limitación	NOUN	Gender=Fem Number=Plur	85
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	88	det	cumplimiento	NOUN	Gender=Masc Number=Sing	89
@@ -1927,41 +1927,41 @@ de	de	de	ADP	AdpType=Prep	90	case	sentencia	NOUN	Gender=Fem Number=Sing	93
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	91	det	sentencia	NOUN	Gender=Fem Number=Sing	93
 propia	propia	propio	DET	Gender=Fem Number=Sing PronType=Ind	92	det	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	91
 sentencia	sentencia	sentencia	NOUN	Gender=Fem Number=Sing	93	nmod	cumplimiento	NOUN	Gender=Masc Number=Sing	89
-y	y	y	CCONJ	-	94	cc	Comisión	PROPN	-	96
-la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	95	det	Comisión	PROPN	-	96
+y	y	y	CCONJ		94	cc	Comisión	PROPN		96
+la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	95	det	Comisión	PROPN		96
 <name type="ORG">
-Comisión	Comisión	Comisión	PROPN	-	96	conj	sentencia	NOUN	Gender=Fem Number=Sing	93
-Europea	Europea	Europea	PROPN	-	97	flat	Comisión	PROPN	-	96
+Comisión	Comisión	Comisión	PROPN		96	conj	sentencia	NOUN	Gender=Fem Number=Sing	93
+Europea	Europea	Europea	PROPN		97	flat	Comisión	PROPN		96
 <g/>
 </name>
 .	.	.	PUNCT	PunctType=Peri	98	punct	hablar	VERB	Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin	3
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.7.2">
-Así	Así	así	ADV	-	1	advmod	realizar	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin	51
+Así	Así	así	ADV		1	advmod	realizar	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin	51
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	2	punct	lugar	NOUN	Gender=Masc Number=Sing	5
 en	en	en	ADP	AdpType=Prep	3	case	lugar	NOUN	Gender=Masc Number=Sing	5
 primer	primer	primero	ADJ	Gender=Masc NumType=Ord Number=Sing	4	amod	lugar	NOUN	Gender=Masc Number=Sing	5
 lugar	lugar	lugar	NOUN	Gender=Masc Number=Sing	5	obl	realizar	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin	51
 <g/>
-,	,	,	PUNCT	PunctType=Comm	6	punct	ya	ADV	-	7
-ya	ya	ya	ADV	-	7	advmod	realizar	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin	51
-en	en	en	ADP	AdpType=Prep	8	case	ya	ADV	-	7
-el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	9	det	año	NOUN	-	10
-año	año	año	NOUN	-	10	nmod	ya	ADV	-	7
-2012	2012	2012	NUM	NumForm=Digit NumType=Card	11	compound	año	NOUN	-	10
+,	,	,	PUNCT	PunctType=Comm	6	punct	ya	ADV		7
+ya	ya	ya	ADV		7	advmod	realizar	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin	51
+en	en	en	ADP	AdpType=Prep	8	case	ya	ADV		7
+el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	9	det	año	NOUN		10
+año	año	año	NOUN		10	nmod	ya	ADV		7
+2012	2012	2012	NUM	NumForm=Digit NumType=Card	11	compound	año	NOUN		10
 <g/>
-,	,	,	PUNCT	PunctType=Comm	12	punct	ya	ADV	-	7
+,	,	,	PUNCT	PunctType=Comm	12	punct	ya	ADV		7
 dos	dos	dos	NUM	NumType=Card Number=Plur	13	nummod	año	NOUN	Gender=Masc Number=Plur	14
-años	años	año	NOUN	Gender=Masc Number=Plur	14	obl	antes	ADV	-	15
-antes	antes	antes	ADV	-	15	advmod	realizar	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin	51
+años	años	año	NOUN	Gender=Masc Number=Plur	14	obl	antes	ADV		15
+antes	antes	antes	ADV		15	advmod	realizar	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin	51
 de	de	de	ADP	AdpType=Prep	16	case	sentencia	NOUN	Gender=Fem Number=Sing	18
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	17	det	sentencia	NOUN	Gender=Fem Number=Sing	18
-sentencia	sentencia	sentencia	NOUN	Gender=Fem Number=Sing	18	obl	antes	ADV	-	15
+sentencia	sentencia	sentencia	NOUN	Gender=Fem Number=Sing	18	obl	antes	ADV		15
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	19	punct	carta	NOUN	Gender=Fem Number=Sing	24
 a	a	a	ADP	AdpType=Prep	20	case	carta	NOUN	Gender=Fem Number=Sing	24
-partir	partir	partir	NOUN	-	21	fixed	a	ADP	AdpType=Prep	20
+partir	partir	partir	NOUN		21	fixed	a	ADP	AdpType=Prep	20
 de	de	de	ADP	AdpType=Prep	22	fixed	a	ADP	AdpType=Prep	20
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	23	det	carta	NOUN	Gender=Fem Number=Sing	24
 carta	carta	carta	NOUN	Gender=Fem Number=Sing	24	obl	realizar	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin	51
@@ -1970,28 +1970,28 @@ emplazamiento	emplazamiento	emplazamiento	NOUN	Gender=Masc Number=Sing	26	nmod	c
 que	que	que	PRON	PronType=Int,Rel	27	nsubj	recibir	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	29
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	28	expl:pass	recibir	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	29
 recibió	recibió	recibir	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	29	acl	carta	NOUN	Gender=Fem Number=Sing	24
-por	por	por	ADP	AdpType=Prep	30	case	Gobierno	PROPN	-	33
-parte	parte	parte	NOUN	-	31	fixed	por	ADP	AdpType=Prep	30
+por	por	por	ADP	AdpType=Prep	30	case	Gobierno	PROPN		33
+parte	parte	parte	NOUN		31	fixed	por	ADP	AdpType=Prep	30
 del	del	del	ADP	AdpType=Preppron	32	fixed	por	ADP	AdpType=Prep	30
 <name type="ORG">
-Gobierno	Gobierno	Gobierno	PROPN	-	33	obl	recibir	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	29
+Gobierno	Gobierno	Gobierno	PROPN		33	obl	recibir	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	29
 </name>
-y	y	y	CCONJ	-	34	cc	objetivo	NOUN	-	37
-con	con	con	ADP	AdpType=Prep	35	case	objetivo	NOUN	-	37
-el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	36	det	objetivo	NOUN	-	37
-objetivo	objetivo	objetivo	NOUN	-	37	conj	carta	NOUN	Gender=Fem Number=Sing	24
+y	y	y	CCONJ		34	cc	objetivo	NOUN		37
+con	con	con	ADP	AdpType=Prep	35	case	objetivo	NOUN		37
+el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	36	det	objetivo	NOUN		37
+objetivo	objetivo	objetivo	NOUN		37	conj	carta	NOUN	Gender=Fem Number=Sing	24
 de	de	de	ADP	AdpType=Prep	38	mark	evitar	VERB	VerbForm=Inf	39
-evitar	evitar	evitar	VERB	VerbForm=Inf	39	acl	objetivo	NOUN	-	37
+evitar	evitar	evitar	VERB	VerbForm=Inf	39	acl	objetivo	NOUN		37
 su	su	su	DET	Number=Sing Person=3 Poss=Yes PronType=Prs	40	det	remisión	NOUN	Gender=Fem Number=Sing	41
 remisión	remisión	remisión	NOUN	Gender=Fem Number=Sing	41	obj	evitar	VERB	VerbForm=Inf	39
 al	al	al	ADP	AdpType=Preppron	42	case	tribunal	NOUN	Gender=Masc Number=Sing	43
 tribunal	tribunal	tribunal	NOUN	Gender=Masc Number=Sing	43	nmod	remisión	NOUN	Gender=Fem Number=Sing	41
-por	por	por	ADP	AdpType=Prep	44	case	Comisión	PROPN	-	48
-parte	parte	parte	NOUN	-	45	fixed	por	ADP	AdpType=Prep	44
+por	por	por	ADP	AdpType=Prep	44	case	Comisión	PROPN		48
+parte	parte	parte	NOUN		45	fixed	por	ADP	AdpType=Prep	44
 de	de	de	ADP	AdpType=Prep	46	fixed	por	ADP	AdpType=Prep	44
-la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	47	det	Comisión	PROPN	-	48
+la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	47	det	Comisión	PROPN		48
 <name type="ORG">
-Comisión	Comisión	Comisión	PROPN	-	48	obl	evitar	VERB	VerbForm=Inf	39
+Comisión	Comisión	Comisión	PROPN		48	obl	evitar	VERB	VerbForm=Inf	39
 <g/>
 </name>
 ,	,	,	PUNCT	PunctType=Comm	49	punct	carta	NOUN	Gender=Fem Number=Sing	24
@@ -2002,7 +2002,7 @@ primeras	primeras	primero	ADJ	Gender=Fem NumType=Ord Number=Plur	53	amod	convoca
 convocatorias	convocatorias	convocatoria	NOUN	Gender=Fem Number=Plur	54	nsubj	realizar	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin	51
 a	a	a	ADP	AdpType=Prep	55	case	sindicato	NOUN	Gender=Masc Number=Plur	56
 sindicatos	sindicatos	sindicato	NOUN	Gender=Masc Number=Plur	56	nmod	convocatoria	NOUN	Gender=Fem Number=Plur	54
-y	y	y	CCONJ	-	57	cc	patronal	NOUN	Gender=Fem Number=Sing	58
+y	y	y	CCONJ		57	cc	patronal	NOUN	Gender=Fem Number=Sing	58
 patronal	patronal	patronal	NOUN	Gender=Fem Number=Sing	58	conj	sindicato	NOUN	Gender=Masc Number=Plur	56
 para	para	para	ADP	AdpType=Prep	59	mark	tratar	VERB	VerbForm=Inf	60
 tratar	tratar	tratar	VERB	VerbForm=Inf	60	advcl	realizar	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin	51
@@ -2010,16 +2010,16 @@ de	de	de	ADP	AdpType=Prep	61	mark	consensuar	VERB	VerbForm=Inf	62
 consensuar	consensuar	consensuar	VERB	VerbForm=Inf	62	xcomp	tratar	VERB	VerbForm=Inf	60
 las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	63	det	respuesta	NOUN	Gender=Fem Number=Plur	64
 respuestas	respuestas	respuesta	NOUN	Gender=Fem Number=Plur	64	obj	consensuar	VERB	VerbForm=Inf	62
-a	a	a	ADP	AdpType=Prep	65	case	Comisión	PROPN	-	67
-la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	66	det	Comisión	PROPN	-	67
+a	a	a	ADP	AdpType=Prep	65	case	Comisión	PROPN		67
+la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	66	det	Comisión	PROPN		67
 <name type="ORG">
-Comisión	Comisión	Comisión	PROPN	-	67	nmod	respuesta	NOUN	Gender=Fem Number=Plur	64
+Comisión	Comisión	Comisión	PROPN		67	nmod	respuesta	NOUN	Gender=Fem Number=Plur	64
 <g/>
 </name>
 .	.	.	PUNCT	PunctType=Peri	68	punct	realizar	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin	51
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.7.3">
-Pero	Pero	pero	CCONJ	-	1	advmod	quedar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	4
+Pero	Pero	pero	CCONJ		1	advmod	quedar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	4
 esa	esa	ese	DET	Gender=Fem Number=Sing PronType=Dem	2	det	posibilidad	NOUN	Gender=Fem Number=Sing	3
 posibilidad	posibilidad	posibilidad	NOUN	Gender=Fem Number=Sing	3	nsubj	quedar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	4
 quedó	quedó	quedar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	4	root	-	-	-	-
@@ -2030,19 +2030,19 @@ creencia	creencia	creencia	NOUN	Gender=Fem Number=Sing	8	obl	coartada	ADJ	Gender
 de	de	de	ADP	AdpType=Prep	9	case	alguno	PRON	Gender=Masc Number=Plur PronType=Ind	10
 algunos	algunos	alguno	PRON	Gender=Masc Number=Plur PronType=Ind	10	nmod	creencia	NOUN	Gender=Fem Number=Sing	8
 de	de	de	ADP	AdpType=Prep	11	mark	ratificar	VERB	VerbForm=Inf	24
-que	que	que	SCONJ	-	12	mark	ratificar	VERB	VerbForm=Inf	24
-realmente	realmente	realmente	ADV	-	13	advmod	ratificar	VERB	VerbForm=Inf	24
-el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	14	det	Tribunal	PROPN	-	15
+que	que	que	SCONJ		12	mark	ratificar	VERB	VerbForm=Inf	24
+realmente	realmente	realmente	ADV		13	advmod	ratificar	VERB	VerbForm=Inf	24
+el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	14	det	Tribunal	PROPN		15
 <name type="ORG">
-Tribunal	Tribunal	Tribunal	PROPN	-	15	nsubj	ratificar	VERB	VerbForm=Inf	24
-de	de	de	ADP	AdpType=Prep	16	case	Justicia	PROPN	-	17
-Justicia	Justicia	Justicia	PROPN	-	17	flat	Tribunal	PROPN	-	15
+Tribunal	Tribunal	Tribunal	PROPN		15	nsubj	ratificar	VERB	VerbForm=Inf	24
+de	de	de	ADP	AdpType=Prep	16	case	Justicia	PROPN		17
+Justicia	Justicia	Justicia	PROPN		17	flat	Tribunal	PROPN		15
 </name>
-de	de	de	ADP	AdpType=Prep	18	case	Unión	PROPN	-	20
-la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	19	det	Unión	PROPN	-	20
+de	de	de	ADP	AdpType=Prep	18	case	Unión	PROPN		20
+la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	19	det	Unión	PROPN		20
 <name type="ORG">
-Unión	Unión	Unión	PROPN	-	20	flat	Tribunal	PROPN	-	15
-Europea	Europea	Europea	PROPN	-	21	flat	Unión	PROPN	-	20
+Unión	Unión	Unión	PROPN		20	flat	Tribunal	PROPN		15
+Europea	Europea	Europea	PROPN		21	flat	Unión	PROPN		20
 </name>
 iba	iba	ir	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	22	aux	ratificar	VERB	VerbForm=Inf	24
 a	a	a	ADP	AdpType=Prep	23	mark	ratificar	VERB	VerbForm=Inf	24
@@ -2054,7 +2054,7 @@ modelo	modelo	modelo	NOUN	Gender=Masc Number=Sing	28	nmod	legalidad	NOUN	Gender=
 español	español	español	ADJ	Gender=Masc Number=Sing	29	amod	modelo	NOUN	Gender=Masc Number=Sing	28
 de	de	de	ADP	AdpType=Prep	30	case	estiba	NOUN	Gender=Fem Number=Sing	31
 estiba	estiba	estiba	NOUN	Gender=Fem Number=Sing	31	nmod	modelo	NOUN	Gender=Masc Number=Sing	28
-y	y	y	CCONJ	-	32	cc	compatibilidad	NOUN	Gender=Fem Number=Sing	34
+y	y	y	CCONJ		32	cc	compatibilidad	NOUN	Gender=Fem Number=Sing	34
 su	su	su	DET	Number=Sing Person=3 Poss=Yes PronType=Prs	33	det	compatibilidad	NOUN	Gender=Fem Number=Sing	34
 compatibilidad	compatibilidad	compatibilidad	NOUN	Gender=Fem Number=Sing	34	conj	modelo	NOUN	Gender=Masc Number=Sing	28
 con	con	con	ADP	AdpType=Prep	35	case	normativa	NOUN	Gender=Fem Number=Sing	37
@@ -2065,20 +2065,20 @@ europea	europea	europeo	ADJ	Gender=Fem Number=Sing	38	amod	normativa	NOUN	Gender
 .	.	.	PUNCT	PunctType=Peri	39	punct	quedar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	4
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.7.4">
-Finalmente	Finalmente	finalmente	ADV	-	1	advmod	así	ADV	-	10
+Finalmente	Finalmente	finalmente	ADV		1	advmod	así	ADV		10
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	2	punct	saber	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	5
-como	como	como	SCONJ	-	3	mark	saber	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	5
+como	como	como	SCONJ		3	mark	saber	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	5
 ustedes	ustedes	tú	PRON	Case=Acc,Nom Number=Plur Person=2 Polite=Form PronType=Prs	4	nsubj	saber	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	5
-saben	saben	saber	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	5	advcl	así	ADV	-	10
+saben	saben	saber	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	5	advcl	así	ADV		10
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	6	punct	saber	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	5
-esto	esto	este	PRON	Number=Sing PronType=Dem	7	nsubj	así	ADV	-	10
-no	no	no	ADV	Polarity=Neg	8	advmod	así	ADV	-	10
-fue	fue	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	9	cop	así	ADV	-	10
-así	así	así	ADV	-	10	root	-	-	-	-
+esto	esto	este	PRON	Number=Sing PronType=Dem	7	nsubj	así	ADV		10
+no	no	no	ADV	Polarity=Neg	8	advmod	así	ADV		10
+fue	fue	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	9	cop	así	ADV		10
+así	así	así	ADV		10	root	-	-	-	-
 <g/>
-.	.	.	PUNCT	PunctType=Peri	11	punct	así	ADV	-	10
+.	.	.	PUNCT	PunctType=Peri	11	punct	así	ADV		10
 </s>
 </p>
 <p id="ParlaMint-ES_2017-03-16-CD170316.u2.8" lang="Spanish">
@@ -2088,23 +2088,23 @@ segundo	segundo	segundo	ADJ	Gender=Masc NumType=Ord Number=Sing	2	amod	lugar	NOU
 lugar	lugar	lugar	NOUN	Gender=Masc Number=Sing	3	obl	mantener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	22
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	4	punct	lugar	NOUN	Gender=Masc Number=Sing	3
-en	en	en	ADP	AdpType=Prep	5	case	año	NOUN	-	7
-los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	6	det	año	NOUN	-	7
-años	años	año	NOUN	-	7	obl	mantener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	22
-2015	2015	2015	NUM	NumForm=Digit NumType=Card	8	appos	año	NOUN	-	7
-y	y	y	CCONJ	-	9	cc	2016	NOUN	AdvType=Tim	10
+en	en	en	ADP	AdpType=Prep	5	case	año	NOUN		7
+los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	6	det	año	NOUN		7
+años	años	año	NOUN		7	obl	mantener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	22
+2015	2015	2015	NUM	NumForm=Digit NumType=Card	8	appos	año	NOUN		7
+y	y	y	CCONJ		9	cc	2016	NOUN	AdvType=Tim	10
 2016	2016	2016	NOUN	AdvType=Tim	10	conj	2015	NUM	NumForm=Digit NumType=Card	8
 <g/>
-,	,	,	PUNCT	PunctType=Comm	11	punct	después	ADV	-	12
-después	después	después	ADV	-	12	advmod	año	NOUN	-	7
+,	,	,	PUNCT	PunctType=Comm	11	punct	después	ADV		12
+después	después	después	ADV		12	advmod	año	NOUN		7
 de	de	de	ADP	AdpType=Prep	13	case	sentencia	NOUN	Gender=Fem Number=Sing	15
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	14	det	sentencia	NOUN	Gender=Fem Number=Sing	15
-sentencia	sentencia	sentencia	NOUN	Gender=Fem Number=Sing	15	obl	después	ADV	-	12
-del	del	del	ADP	AdpType=Preppron	16	case	año	NOUN	-	17
-año	año	año	NOUN	-	17	nmod	sentencia	NOUN	Gender=Fem Number=Sing	15
-2014	2014	2014	NUM	NumForm=Digit NumType=Card	18	compound	año	NOUN	-	17
+sentencia	sentencia	sentencia	NOUN	Gender=Fem Number=Sing	15	obl	después	ADV		12
+del	del	del	ADP	AdpType=Preppron	16	case	año	NOUN		17
+año	año	año	NOUN		17	nmod	sentencia	NOUN	Gender=Fem Number=Sing	15
+2014	2014	2014	NUM	NumForm=Digit NumType=Card	18	compound	año	NOUN		17
 <g/>
-,	,	,	PUNCT	PunctType=Comm	19	punct	después	ADV	-	12
+,	,	,	PUNCT	PunctType=Comm	19	punct	después	ADV		12
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	20	expl:pass	mantener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	22
 han	han	haber	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	21	aux	mantener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	22
 mantenido	mantenido	mantener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	22	root	-	-	-	-
@@ -2112,9 +2112,9 @@ numerosas	numerosas	numeroso	ADJ	Gender=Fem Number=Plur	23	amod	reunión	NOUN	Ge
 reuniones	reuniones	reunión	NOUN	Gender=Fem Number=Plur	24	nsubj	mantener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	22
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	25	punct	formal	ADJ	Number=Plur	27
-tanto	tanto	tanto	ADV	-	26	cc	formal	ADJ	Number=Plur	27
+tanto	tanto	tanto	ADV		26	cc	formal	ADJ	Number=Plur	27
 formales	formales	formal	ADJ	Number=Plur	27	amod	reunión	NOUN	Gender=Fem Number=Plur	24
-como	como	como	SCONJ	-	28	cc	informal	ADJ	Number=Plur	29
+como	como	como	SCONJ		28	cc	informal	ADJ	Number=Plur	29
 informales	informales	informal	ADJ	Number=Plur	29	conj	formal	ADJ	Number=Plur	27
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	30	punct	formal	ADJ	Number=Plur	27
@@ -2122,7 +2122,7 @@ con	con	con	ADP	AdpType=Prep	31	case	agente	NOUN	Number=Plur	33
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	32	det	agente	NOUN	Number=Plur	33
 agentes	agentes	agente	NOUN	Number=Plur	33	nmod	reunión	NOUN	Gender=Fem Number=Plur	24
 sociales	sociales	social	ADJ	Number=Plur	34	amod	agente	NOUN	Number=Plur	33
-y	y	y	CCONJ	-	35	cc	sector	NOUN	Gender=Masc Number=Sing	38
+y	y	y	CCONJ		35	cc	sector	NOUN	Gender=Masc Number=Sing	38
 con	con	con	ADP	AdpType=Prep	36	case	sector	NOUN	Gender=Masc Number=Sing	38
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	37	det	sector	NOUN	Gender=Masc Number=Sing	38
 sector	sector	sector	NOUN	Gender=Masc Number=Sing	38	conj	agente	NOUN	Number=Plur	33
@@ -2140,42 +2140,42 @@ propuestas	propuestas	propuesta	NOUN	Gender=Fem Number=Plur	4	nsubj	intercambiar
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	6	expl:pass	analizar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	8
 han	han	haber	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	7	aux	analizar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	8
 analizado	analizado	analizar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	8	advcl	intercambiar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	3
-jurídicamente	jurídicamente	jurídicamente	ADV	-	9	advmod	analizar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	8
+jurídicamente	jurídicamente	jurídicamente	ADV		9	advmod	analizar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	8
 dichas	dichas	dicho	ADJ	Gender=Fem Number=Plur VerbForm=Part	10	amod	propuesta	NOUN	Gender=Fem Number=Plur	11
 propuestas	propuestas	propuesta	NOUN	Gender=Fem Number=Plur	11	nsubj	analizar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	8
 por	por	por	ADP	AdpType=Prep	12	case	servicio	NOUN	Gender=Masc Number=Plur	16
-parte	parte	parte	NOUN	-	13	fixed	por	ADP	AdpType=Prep	12
+parte	parte	parte	NOUN		13	fixed	por	ADP	AdpType=Prep	12
 de	de	de	ADP	AdpType=Prep	14	fixed	por	ADP	AdpType=Prep	12
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	15	det	servicio	NOUN	Gender=Masc Number=Plur	16
 servicios	servicios	servicio	NOUN	Gender=Masc Number=Plur	16	nmod	propuesta	NOUN	Gender=Fem Number=Plur	11
-del	del	del	ADP	AdpType=Preppron	17	case	Estado	PROPN	-	18
+del	del	del	ADP	AdpType=Preppron	17	case	Estado	PROPN		18
 <name type="ORG">
-Estado	Estado	Estado	PROPN	-	18	nmod	servicio	NOUN	Gender=Masc Number=Plur	16
+Estado	Estado	Estado	PROPN		18	nmod	servicio	NOUN	Gender=Masc Number=Plur	16
 <g/>
 </name>
 ,	,	,	PUNCT	PunctType=Comm	19	punct	analizar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	8
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	20	expl:pv	remitir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	22
 han	han	haber	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	21	aux	remitir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	22
 remitido	remitido	remitir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	22	advcl	intercambiar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	3
-a	a	a	ADP	AdpType=Prep	23	case	Comisión	PROPN	-	25
-la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	24	det	Comisión	PROPN	-	25
+a	a	a	ADP	AdpType=Prep	23	case	Comisión	PROPN		25
+la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	24	det	Comisión	PROPN		25
 <name type="ORG">
-Comisión	Comisión	Comisión	PROPN	-	25	obj	remitir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	22
-Europea	Europea	Europea	PROPN	-	26	flat	Comisión	PROPN	-	25
+Comisión	Comisión	Comisión	PROPN		25	obj	remitir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	22
+Europea	Europea	Europea	PROPN		26	flat	Comisión	PROPN		25
 <g/>
 </name>
 ,	,	,	PUNCT	PunctType=Comm	27	punct	importante	ADJ	Number=Sing	31
-y	y	y	CCONJ	-	28	cc	importante	ADJ	Number=Sing	31
+y	y	y	CCONJ		28	cc	importante	ADJ	Number=Sing	31
 esto	esto	este	PRON	Number=Sing PronType=Dem	29	nsubj	importante	ADJ	Number=Sing	31
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	30	cop	importante	ADJ	Number=Sing	31
 importante	importante	importante	ADJ	Number=Sing	31	conj	intercambiar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	3
 destacar	destacar	destacar	VERB	VerbForm=Inf	32	csubj	importante	ADJ	Number=Sing	31
 <g/>
 lo	lo	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	33	obj	destacar	VERB	VerbForm=Inf	32
-porque	porque	porque	SCONJ	-	34	mark	cierto	ADJ	Gender=Masc Number=Sing	36
+porque	porque	porque	SCONJ		34	mark	cierto	ADJ	Gender=Masc Number=Sing	36
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	35	cop	cierto	ADJ	Gender=Masc Number=Sing	36
 cierto	cierto	cierto	ADJ	Gender=Masc Number=Sing	36	advcl	importante	ADJ	Number=Sing	31
-que	que	que	SCONJ	-	37	mark	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	40
+que	que	que	SCONJ		37	mark	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	40
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	38	expl:pv	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	40
 habían	habían	haber	AUX	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	39	aux	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	40
 producido	producido	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	40	csubj	cierto	ADJ	Gender=Masc Number=Sing	36
@@ -2189,11 +2189,11 @@ cierto	cierto	cierto	DET	Gender=Masc Number=Sing PronType=Ind	47	det	uno	DET	Def
 acuerdo	acuerdo	acuerdo	NOUN	Gender=Masc Number=Sing	48	obj	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	45
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	49	punct	cierto	ADJ	Gender=Masc Number=Sing	53
-pero	pero	pero	CCONJ	-	50	cc	cierto	ADJ	Gender=Masc Number=Sing	53
-también	también	también	ADV	-	51	advmod	cierto	ADJ	Gender=Masc Number=Sing	53
+pero	pero	pero	CCONJ		50	cc	cierto	ADJ	Gender=Masc Number=Sing	53
+también	también	también	ADV		51	advmod	cierto	ADJ	Gender=Masc Number=Sing	53
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	52	cop	cierto	ADJ	Gender=Masc Number=Sing	53
 cierto	cierto	cierto	ADJ	Gender=Masc Number=Sing	53	conj	intercambiar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	3
-que	que	que	SCONJ	-	54	mark	eliminar	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	74
+que	que	que	SCONJ		54	mark	eliminar	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	74
 muchos	muchos	mucho	PRON	Gender=Masc NumType=Card Number=Plur PronType=Ind	55	nsubj	eliminar	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	74
 de	de	de	ADP	AdpType=Prep	56	case	término	NOUN	Gender=Masc Number=Plur	58
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	57	det	término	NOUN	Gender=Masc Number=Plur	58
@@ -2204,31 +2204,31 @@ documentos	documentos	documento	NOUN	Gender=Masc Number=Plur	61	nmod	término	NO
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	62	punct	trasladar	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin	67
 una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	63	mark	trasladar	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin	67
-vez	vez	vez	NOUN	-	64	fixed	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	63
-que	que	que	SCONJ	-	65	fixed	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	63
+vez	vez	vez	NOUN		64	fixed	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	63
+que	que	que	SCONJ		65	fixed	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	63
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	66	expl:pv	trasladar	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin	67
 trasladaron	trasladaron	trasladar	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin	67	advcl	eliminar	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	74
-a	a	a	ADP	AdpType=Prep	68	case	Comisión	PROPN	-	70
-la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	69	det	Comisión	PROPN	-	70
+a	a	a	ADP	AdpType=Prep	68	case	Comisión	PROPN		70
+la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	69	det	Comisión	PROPN		70
 <name type="ORG">
-Comisión	Comisión	Comisión	PROPN	-	70	obl	trasladar	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin	67
-Europea	Europea	Europea	PROPN	-	71	flat	Comisión	PROPN	-	70
+Comisión	Comisión	Comisión	PROPN		70	obl	trasladar	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin	67
+Europea	Europea	Europea	PROPN		71	flat	Comisión	PROPN		70
 <g/>
 </name>
 ,	,	,	PUNCT	PunctType=Comm	72	punct	trasladar	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin	67
 fueron	fueron	ser	AUX	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin	73	aux	eliminar	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	74
 eliminados	eliminados	eliminar	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	74	csubj	cierto	ADJ	Gender=Masc Number=Sing	53
-porque	porque	porque	SCONJ	-	75	mark	entender	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	77
+porque	porque	porque	SCONJ		75	mark	entender	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	77
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	76	expl:pass	entender	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	77
 entendía	entendía	entender	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	77	advcl	eliminar	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	74
-que	que	que	SCONJ	-	78	mark	cumplir	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	80
+que	que	que	SCONJ		78	mark	cumplir	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	80
 no	no	no	ADV	Polarity=Neg	79	advmod	cumplir	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	80
 cumplían	cumplían	cumplir	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	80	csubj	entender	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	77
 con	con	con	ADP	AdpType=Prep	81	case	normativa	NOUN	Gender=Fem Number=Sing	83
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	82	det	normativa	NOUN	Gender=Fem Number=Sing	83
 normativa	normativa	normativa	NOUN	Gender=Fem Number=Sing	83	obj	cumplir	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	80
-y	y	y	CCONJ	-	84	cc	vulnerar	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	86
-que	que	que	SCONJ	-	85	mark	vulnerar	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	86
+y	y	y	CCONJ		84	cc	vulnerar	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	86
+que	que	que	SCONJ		85	mark	vulnerar	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	86
 vulneraban	vulneraban	vulnerar	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	86	conj	cumplir	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	80
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	87	det	contenido	NOUN	Gender=Masc Number=Sing	88
 contenido	contenido	contenido	NOUN	Gender=Masc Number=Sing	88	obj	vulnerar	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	86
@@ -2239,10 +2239,10 @@ sentencia	sentencia	sentencia	NOUN	Gender=Fem Number=Sing	92	nmod	contenido	NOUN
 <g/>
 ;	;	;	PUNCT	PunctType=Semi	93	punct	en	ADP	AdpType=Prep	94
 en	en	en	ADP	AdpType=Prep	94	advmod	seguir	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	98
-definitiva	definitiva	definitiva	NOUN	-	95	fixed	en	ADP	AdpType=Prep	94
+definitiva	definitiva	definitiva	NOUN		95	fixed	en	ADP	AdpType=Prep	94
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	96	punct	en	ADP	AdpType=Prep	94
-porque	porque	porque	SCONJ	-	97	mark	seguir	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	98
+porque	porque	porque	SCONJ		97	mark	seguir	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	98
 seguían	seguían	seguir	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	98	advcl	eliminar	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	74
 manteniendo	manteniendo	mantener	VERB	VerbForm=Ger	99	xcomp	seguir	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	98
 de	de	de	ADP	AdpType=Prep	100	case	facto	NOUN	Gender=Masc Number=Sing	101
@@ -2264,7 +2264,7 @@ estiba	estiba	estiba	NOUN	Gender=Fem Number=Sing	112	nmod	statu	NOUN	Gender=Masc
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.8.3">
 Por	Por	por	ADP	AdpType=Prep	1	advmod	venir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	8
 lo	lo	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	2	fixed	por	ADP	AdpType=Prep	1
-tanto	tanto	tanto	NOUN	-	3	fixed	por	ADP	AdpType=Prep	1
+tanto	tanto	tanto	NOUN		3	fixed	por	ADP	AdpType=Prep	1
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	4	punct	por	ADP	AdpType=Prep	1
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	5	det	negociación	NOUN	Gender=Fem Number=Sing	6
@@ -2276,7 +2276,7 @@ realizando	realizando	realizar	VERB	VerbForm=Ger	9	xcomp	venir	VERB	Gender=Masc 
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	10	expl:pv	realizar	VERB	VerbForm=Ger	9
 a	a	a	ADP	AdpType=Prep	11	case	año	NOUN	Gender=Masc Number=Plur	17
 lo	lo	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	12	fixed	a	ADP	AdpType=Prep	11
-largo	largo	largo	NOUN	-	13	fixed	a	ADP	AdpType=Prep	11
+largo	largo	largo	NOUN		13	fixed	a	ADP	AdpType=Prep	11
 de	de	de	ADP	AdpType=Prep	14	fixed	a	ADP	AdpType=Prep	11
 estos	estos	este	DET	Gender=Masc Number=Plur PronType=Dem	15	det	año	NOUN	Gender=Masc Number=Plur	17
 dos	dos	dos	NUM	NumType=Card Number=Plur	16	nummod	este	DET	Gender=Masc Number=Plur PronType=Dem	15
@@ -2290,32 +2290,32 @@ acuerdo	acuerdo	acuerdo	NOUN	Gender=Masc Number=Sing	22	obj	buscar	VERB	VerbForm
 .	.	.	PUNCT	PunctType=Peri	23	punct	venir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	8
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.8.4">
-También	También	también	ADV	-	1	advmod	decir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
+También	También	también	ADV		1	advmod	decir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	2	expl:pass	decir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
 ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	aux	decir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
 dicho	dicho	decir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4	root	-	-	-	-
-que	que	que	SCONJ	-	5	mark	punto	NOUN	-	9
-se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	6	expl:impers	punto	NOUN	-	9
-estaba	estaba	estar	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	7	cop	punto	NOUN	-	9
-a	a	a	ADP	AdpType=Prep	8	case	punto	NOUN	-	9
-punto	punto	punto	NOUN	-	9	csubj	decir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
+que	que	que	SCONJ		5	mark	punto	NOUN		9
+se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	6	expl:impers	punto	NOUN		9
+estaba	estaba	estar	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	7	cop	punto	NOUN		9
+a	a	a	ADP	AdpType=Prep	8	case	punto	NOUN		9
+punto	punto	punto	NOUN		9	csubj	decir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
 de	de	de	ADP	AdpType=Prep	10	mark	alcanzar	VERB	VerbForm=Inf	11
-alcanzar	alcanzar	alcanzar	VERB	VerbForm=Inf	11	acl	punto	NOUN	-	9
+alcanzar	alcanzar	alcanzar	VERB	VerbForm=Inf	11	acl	punto	NOUN		9
 un	un	uno	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	12	det	acuerdo	NOUN	Gender=Masc Number=Sing	14
 nuevo	nuevo	nuevo	ADJ	Gender=Masc Number=Sing	13	amod	acuerdo	NOUN	Gender=Masc Number=Sing	14
 acuerdo	acuerdo	acuerdo	NOUN	Gender=Masc Number=Sing	14	obj	alcanzar	VERB	VerbForm=Inf	11
-y	y	y	CCONJ	-	15	cc	actuar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	21
-que	que	que	SCONJ	-	16	mark	actuar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	21
+y	y	y	CCONJ		15	cc	actuar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	21
+que	que	que	SCONJ		16	mark	actuar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	21
 en	en	en	ADP	AdpType=Prep	17	case	momento	NOUN	Gender=Masc Number=Sing	19
 ese	ese	ese	DET	Gender=Masc Number=Sing PronType=Dem	18	det	momento	NOUN	Gender=Masc Number=Sing	19
 momento	momento	momento	NOUN	Gender=Masc Number=Sing	19	obl	actuar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	21
 ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	20	aux	actuar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	21
-actuado	actuado	actuar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	21	conj	punto	NOUN	-	9
-el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	22	det	Ministerio	PROPN	-	23
+actuado	actuado	actuar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	21	conj	punto	NOUN		9
+el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	22	det	Ministerio	PROPN		23
 <name type="ORG">
-Ministerio	Ministerio	Ministerio	PROPN	-	23	nsubj	actuar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	21
-de	de	de	ADP	AdpType=Prep	24	case	Fomento	PROPN	-	25
-Fomento	Fomento	Fomento	PROPN	-	25	flat	Ministerio	PROPN	-	23
+Ministerio	Ministerio	Ministerio	PROPN		23	nsubj	actuar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	21
+de	de	de	ADP	AdpType=Prep	24	case	Fomento	PROPN		25
+Fomento	Fomento	Fomento	PROPN		25	flat	Ministerio	PROPN		23
 <g/>
 </name>
 .	.	.	PUNCT	PunctType=Peri	26	punct	decir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
@@ -2330,14 +2330,14 @@ la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	6	det	patronal	NOU
 propia	propia	propio	DET	Gender=Fem Number=Sing PronType=Ind	7	det	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	6
 patronal	patronal	patronal	NOUN	Gender=Fem Number=Sing	8	obj	negar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
 <g/>
-,	,	,	PUNCT	PunctType=Comm	9	punct	Anesco	PROPN	-	11
-por	por	por	ADP	AdpType=Prep	10	case	Anesco	PROPN	-	11
+,	,	,	PUNCT	PunctType=Comm	9	punct	Anesco	PROPN		11
+por	por	por	ADP	AdpType=Prep	10	case	Anesco	PROPN		11
 <name type="ORG">
-Anesco	Anesco	Anesco	PROPN	-	11	obl	negar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
+Anesco	Anesco	Anesco	PROPN		11	obl	negar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
 <g/>
 </name>
 ,	,	,	PUNCT	PunctType=Comm	12	punct	diferenciar	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	29
-y	y	y	CCONJ	-	13	cc	diferenciar	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	29
+y	y	y	CCONJ		13	cc	diferenciar	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	29
 en	en	en	ADP	AdpType=Prep	14	case	caso	NOUN	Gender=Masc Number=Sing	16
 cualquier	cualquier	cualquiera	DET	Number=Sing PronType=Ind	15	det	caso	NOUN	Gender=Masc Number=Sing	16
 caso	caso	caso	NOUN	Gender=Masc Number=Sing	16	obl	diferenciar	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	29
@@ -2354,27 +2354,27 @@ acuerdo	acuerdo	acuerdo	NOUN	Gender=Masc Number=Sing	26	nsubj	establecer	VERB	Ve
 no	no	no	ADV	Polarity=Neg	27	advmod	diferenciar	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	29
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	28	expl:pass	diferenciar	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	29
 diferenciaban	diferenciaban	diferenciar	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	29	conj	negar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
-mucho	mucho	mucho	ADV	-	30	advmod	diferenciar	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	29
+mucho	mucho	mucho	ADV		30	advmod	diferenciar	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	29
 de	de	de	ADP	AdpType=Prep	31	case	acuerdo	NOUN	Gender=Masc Number=Plur	33
 otros	otros	otro	DET	Gender=Masc Number=Plur PronType=Ind	32	det	acuerdo	NOUN	Gender=Masc Number=Plur	33
 acuerdos	acuerdos	acuerdo	NOUN	Gender=Masc Number=Plur	33	obj	diferenciar	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	29
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	34	punct	saber	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	37
-y	y	y	CCONJ	-	35	cc	saber	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	37
-ya	ya	ya	ADV	-	36	advmod	saber	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	37
+y	y	y	CCONJ		35	cc	saber	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	37
+ya	ya	ya	ADV		36	advmod	saber	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	37
 sabemos	sabemos	saber	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	37	conj	negar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
 cuál	cuál	cuál	PRON	Number=Sing PronType=Int,Rel	38	nsubj	respuesta	NOUN	Gender=Fem Number=Sing	42
 ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	39	aux	respuesta	NOUN	Gender=Fem Number=Sing	42
 sido	sido	ser	AUX	Gender=Masc Number=Sing Tense=Past VerbForm=Part	40	cop	respuesta	NOUN	Gender=Fem Number=Sing	42
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	41	det	respuesta	NOUN	Gender=Fem Number=Sing	42
 respuesta	respuesta	respuesta	NOUN	Gender=Fem Number=Sing	42	ccomp	saber	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	37
-por	por	por	ADP	AdpType=Prep	43	case	Comisión	PROPN	-	47
-parte	parte	parte	NOUN	-	44	fixed	por	ADP	AdpType=Prep	43
+por	por	por	ADP	AdpType=Prep	43	case	Comisión	PROPN		47
+parte	parte	parte	NOUN		44	fixed	por	ADP	AdpType=Prep	43
 de	de	de	ADP	AdpType=Prep	45	fixed	por	ADP	AdpType=Prep	43
-la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	46	det	Comisión	PROPN	-	47
+la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	46	det	Comisión	PROPN		47
 <name type="ORG">
-Comisión	Comisión	Comisión	PROPN	-	47	nmod	respuesta	NOUN	Gender=Fem Number=Sing	42
-Europea	Europea	Europea	PROPN	-	48	flat	Comisión	PROPN	-	47
+Comisión	Comisión	Comisión	PROPN		47	nmod	respuesta	NOUN	Gender=Fem Number=Sing	42
+Europea	Europea	Europea	PROPN		48	flat	Comisión	PROPN		47
 </name>
 a	a	a	ADP	AdpType=Prep	49	case	contenido	NOUN	Gender=Masc Number=Sing	51
 su	su	su	DET	Number=Sing Person=3 Poss=Yes PronType=Prs	50	det	contenido	NOUN	Gender=Masc Number=Sing	51
@@ -2385,27 +2385,27 @@ contenido	contenido	contenido	NOUN	Gender=Masc Number=Sing	51	nmod	respuesta	NOU
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.8.6">
 Por	Por	por	ADP	AdpType=Prep	1	advmod	querer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	5
 lo	lo	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	2	fixed	por	ADP	AdpType=Prep	1
-tanto	tanto	tanto	NOUN	-	3	fixed	por	ADP	AdpType=Prep	1
+tanto	tanto	tanto	NOUN		3	fixed	por	ADP	AdpType=Prep	1
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	4	punct	por	ADP	AdpType=Prep	1
 quiero	quiero	querer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	5	root	-	-	-	-
 insistir	insistir	insistir	VERB	VerbForm=Inf	6	xcomp	querer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	5
 en	en	en	ADP	AdpType=Prep	7	mark	haber	AUX	Gender=Masc Number=Sing Tense=Past VerbForm=Part	10
-que	que	que	SCONJ	-	8	mark	haber	AUX	Gender=Masc Number=Sing Tense=Past VerbForm=Part	10
+que	que	que	SCONJ		8	mark	haber	AUX	Gender=Masc Number=Sing Tense=Past VerbForm=Part	10
 ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	9	aux	haber	AUX	Gender=Masc Number=Sing Tense=Past VerbForm=Part	10
 habido	habido	haber	AUX	Gender=Masc Number=Sing Tense=Past VerbForm=Part	10	ccomp	insistir	VERB	VerbForm=Inf	6
 muchas	muchas	mucho	DET	Gender=Fem NumType=Card Number=Plur PronType=Ind	11	det	reunión	NOUN	Gender=Fem Number=Plur	12
 reuniones	reuniones	reunión	NOUN	Gender=Fem Number=Plur	12	obj	haber	AUX	Gender=Masc Number=Sing Tense=Past VerbForm=Part	10
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	13	punct	contacto	NOUN	Gender=Masc Number=Plur	19
-cerca	cerca	cerca	ADV	-	14	advmod	contacto	NOUN	Gender=Masc Number=Plur	19
-de	de	de	ADP	AdpType=Prep	15	case	cerca	ADV	-	14
+cerca	cerca	cerca	ADV		14	advmod	contacto	NOUN	Gender=Masc Number=Plur	19
+de	de	de	ADP	AdpType=Prep	15	case	cerca	ADV		14
 veinte	veinte	veinte	NUM	NumType=Card Number=Plur	16	nummod	contacto	NOUN	Gender=Masc Number=Plur	19
-o	o	o	CCONJ	-	17	cc	treinta	NUM	NumType=Card Number=Plur	18
+o	o	o	CCONJ		17	cc	treinta	NUM	NumType=Card Number=Plur	18
 treinta	treinta	treinta	NUM	NumType=Card Number=Plur	18	conj	veinte	NUM	NumType=Card Number=Plur	16
 contactos	contactos	contacto	NOUN	Gender=Masc Number=Plur	19	nmod	reunión	NOUN	Gender=Fem Number=Plur	12
 formales	formales	formal	ADJ	Number=Plur	20	amod	contacto	NOUN	Gender=Masc Number=Plur	19
-e	e	e	CCONJ	-	21	cc	informal	ADJ	Number=Plur	22
+e	e	e	CCONJ		21	cc	informal	ADJ	Number=Plur	22
 informales	informales	informal	ADJ	Number=Plur	22	conj	formal	ADJ	Number=Plur	20
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	23	punct	parte	NOUN	Gender=Fem Number=Plur	27
@@ -2416,17 +2416,17 @@ partes	partes	parte	NOUN	Gender=Fem Number=Plur	27	nmod	contacto	NOUN	Gender=Mas
 del	del	del	ADP	AdpType=Preppron	28	case	sector	NOUN	Gender=Masc Number=Sing	29
 sector	sector	sector	NOUN	Gender=Masc Number=Sing	29	nmod	parte	NOUN	Gender=Fem Number=Plur	27
 por	por	por	ADP	AdpType=Prep	30	case	secretario	NOUN	Gender=Masc Number=Sing	33
-parte	parte	parte	NOUN	-	31	fixed	por	ADP	AdpType=Prep	30
+parte	parte	parte	NOUN		31	fixed	por	ADP	AdpType=Prep	30
 del	del	del	ADP	AdpType=Preppron	32	fixed	por	ADP	AdpType=Prep	30
 secretario	secretario	secretario	NOUN	Gender=Masc Number=Sing	33	nmod	parte	NOUN	Gender=Fem Number=Plur	27
-de	de	de	ADP	AdpType=Prep	34	case	Estado	PROPN	-	35
+de	de	de	ADP	AdpType=Prep	34	case	Estado	PROPN		35
 <name type="ORG">
-Estado	Estado	Estado	PROPN	-	35	nmod	secretario	NOUN	Gender=Masc Number=Sing	33
+Estado	Estado	Estado	PROPN		35	nmod	secretario	NOUN	Gender=Masc Number=Sing	33
 <g/>
 </name>
 ,	,	,	PUNCT	PunctType=Comm	36	punct	ministerio	NOUN	Gender=Masc Number=Sing	40
 por	por	por	ADP	AdpType=Prep	37	case	ministerio	NOUN	Gender=Masc Number=Sing	40
-parte	parte	parte	NOUN	-	38	fixed	por	ADP	AdpType=Prep	37
+parte	parte	parte	NOUN		38	fixed	por	ADP	AdpType=Prep	37
 del	del	del	ADP	AdpType=Preppron	39	fixed	por	ADP	AdpType=Prep	37
 ministerio	ministerio	ministerio	NOUN	Gender=Masc Number=Sing	40	nmod	secretario	NOUN	Gender=Masc Number=Sing	33
 <g/>
@@ -2451,16 +2451,16 @@ sentencia	sentencia	sentencia	NOUN	Gender=Fem Number=Sing	56	nmod	ámbito	NOUN	G
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.8.7">
 Por	Por	por	ADP	AdpType=Prep	1	advmod	mantener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	14
-fin	fin	fin	NOUN	-	2	fixed	por	ADP	AdpType=Prep	1
+fin	fin	fin	NOUN		2	fixed	por	ADP	AdpType=Prep	1
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	3	punct	por	ADP	AdpType=Prep	1
 con	con	con	ADP	AdpType=Prep	4	case	arranque	NOUN	Gender=Masc Number=Sing	6
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	5	det	arranque	NOUN	Gender=Masc Number=Sing	6
 arranque	arranque	arranque	NOUN	Gender=Masc Number=Sing	6	obl	mantener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	14
-también	también	también	ADV	-	7	advmod	arranque	NOUN	Gender=Masc Number=Sing	6
-de	de	de	ADP	AdpType=Prep	8	case	también	ADV	-	7
+también	también	también	ADV		7	advmod	arranque	NOUN	Gender=Masc Number=Sing	6
+de	de	de	ADP	AdpType=Prep	8	case	también	ADV		7
 este	este	este	DET	Gender=Masc Number=Sing PronType=Dem	9	det	proceso	NOUN	Gender=Masc Number=Sing	10
-proceso	proceso	proceso	NOUN	Gender=Masc Number=Sing	10	nmod	también	ADV	-	7
+proceso	proceso	proceso	NOUN	Gender=Masc Number=Sing	10	nmod	también	ADV		7
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	11	punct	arranque	NOUN	Gender=Masc Number=Sing	6
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	12	expl:pass	mantener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	14
@@ -2493,7 +2493,7 @@ proceso	proceso	proceso	NOUN	Gender=Masc Number=Sing	6	nmod	conclusión	NOUN	Gen
 largo	largo	largo	ADJ	Gender=Masc Number=Sing	7	amod	proceso	NOUN	Gender=Masc Number=Sing	6
 de	de	de	ADP	AdpType=Prep	8	case	negociación	NOUN	Gender=Fem Number=Sing	9
 negociación	negociación	negociación	NOUN	Gender=Fem Number=Sing	9	nmod	proceso	NOUN	Gender=Masc Number=Sing	6
-y	y	y	CCONJ	-	10	cc	acuerdo	NOUN	Gender=Masc Number=Sing	12
+y	y	y	CCONJ		10	cc	acuerdo	NOUN	Gender=Masc Number=Sing	12
 de	de	de	ADP	AdpType=Prep	11	case	acuerdo	NOUN	Gender=Masc Number=Sing	12
 acuerdo	acuerdo	acuerdo	NOUN	Gender=Masc Number=Sing	12	conj	negociación	NOUN	Gender=Fem Number=Sing	9
 <g/>
@@ -2504,7 +2504,7 @@ repetir	repetir	repetir	VERB	VerbForm=Inf	16	xcomp	volver	VERB	Mood=Ind Number=S
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	17	punct	volver	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	14
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	18	root	-	-	-	-
-que	que	que	SCONJ	-	19	mark	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	20
+que	que	que	SCONJ		19	mark	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	20
 había	había	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	20	ccomp	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	18
 partes	partes	parte	NOUN	Gender=Fem Number=Plur	21	obj	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	20
 que	que	que	PRON	PronType=Int,Rel	22	nsubj	mantener	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	24
@@ -2519,18 +2519,18 @@ que	que	que	PRON	PronType=Int,Rel	30	nsubj	considerar	VERB	Mood=Ind Number=Plur 
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	31	expl:pass	considerar	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	32
 consideraban	consideraban	considerar	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	32	acl	aspecto	NOUN	Gender=Masc Number=Plur	29
 esenciales	esenciales	esencial	ADJ	Number=Plur	33	obj	considerar	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	32
-y	y	y	CCONJ	-	34	cc	reiterar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	38
+y	y	y	CCONJ		34	cc	reiterar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	38
 que	que	que	PRON	PronType=Int,Rel	35	obj	reiterar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	38
-la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	36	det	Comisión	PROPN	-	37
+la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	36	det	Comisión	PROPN		37
 <name type="ORG">
-Comisión	Comisión	Comisión	PROPN	-	37	nsubj	reiterar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	38
+Comisión	Comisión	Comisión	PROPN		37	nsubj	reiterar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	38
 </name>
 reiteraba	reiteraba	reiterar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	38	conj	considerar	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	32
 una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	39	det	vez	NOUN	Gender=Fem Number=Sing	42
-y	y	y	CCONJ	-	40	cc	otro	DET	Gender=Fem Number=Sing PronType=Ind	41
+y	y	y	CCONJ		40	cc	otro	DET	Gender=Fem Number=Sing PronType=Ind	41
 otra	otra	otro	DET	Gender=Fem Number=Sing PronType=Ind	41	conj	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	39
 vez	vez	vez	NOUN	Gender=Fem Number=Sing	42	obl	reiterar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	38
-que	que	que	SCONJ	-	43	mark	posible	ADJ	Number=Sing	46
+que	que	que	SCONJ		43	mark	posible	ADJ	Number=Sing	46
 no	no	no	ADV	Polarity=Neg	44	advmod	posible	ADJ	Number=Sing	46
 era	era	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	45	cop	posible	ADJ	Number=Sing	46
 posible	posible	posible	ADJ	Number=Sing	46	ccomp	reiterar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	38
@@ -2575,12 +2575,12 @@ a	a	a	ADP	AdpType=Prep	19	case	que	PRON	PronType=Int,Rel	21
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	20	det	que	PRON	PronType=Int,Rel	21
 que	que	que	PRON	PronType=Int,Rel	21	obj	acudir	VERB	VerbForm=Inf	24
 tengan	tengan	tener	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	22	acl	lista	NOUN	Gender=Fem Number=Sing	18
-que	que	que	SCONJ	-	23	cc	acudir	VERB	VerbForm=Inf	24
+que	que	que	SCONJ		23	cc	acudir	VERB	VerbForm=Inf	24
 acudir	acudir	acudir	VERB	VerbForm=Inf	24	conj	tener	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	22
 de	de	de	ADP	AdpType=Prep	25	case	manera	NOUN	Gender=Fem Number=Sing	26
 manera	manera	manera	NOUN	Gender=Fem Number=Sing	26	obl	acudir	VERB	VerbForm=Inf	24
 obligatoria	obligatoria	obligatorio	ADJ	Gender=Fem Number=Sing	27	amod	manera	NOUN	Gender=Fem Number=Sing	26
-o	o	o	CCONJ	-	28	cc	manera	NOUN	Gender=Fem Number=Sing	30
+o	o	o	CCONJ		28	cc	manera	NOUN	Gender=Fem Number=Sing	30
 de	de	de	ADP	AdpType=Prep	29	case	manera	NOUN	Gender=Fem Number=Sing	30
 manera	manera	manera	NOUN	Gender=Fem Number=Sing	30	conj	manera	NOUN	Gender=Fem Number=Sing	26
 preferente	preferente	preferente	ADJ	Number=Sing	31	amod	manera	NOUN	Gender=Fem Number=Sing	30
@@ -2599,10 +2599,10 @@ este	este	este	DET	Gender=Masc Number=Sing PronType=Dem	3	det	tiempo	NOUN	Gender
 tiempo	tiempo	tiempo	NOUN	Gender=Masc Number=Sing	4	obl	tajante	ADJ	Number=Sing	11
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	5	punct	tiempo	NOUN	Gender=Masc Number=Sing	4
-la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	6	det	Comisión	PROPN	-	7
+la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	6	det	Comisión	PROPN		7
 <name type="ORG">
-Comisión	Comisión	Comisión	PROPN	-	7	nsubj	tajante	ADJ	Number=Sing	11
-Europea	Europea	Europea	PROPN	-	8	flat	Comisión	PROPN	-	7
+Comisión	Comisión	Comisión	PROPN		7	nsubj	tajante	ADJ	Number=Sing	11
+Europea	Europea	Europea	PROPN		8	flat	Comisión	PROPN		7
 </name>
 ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	9	aux	tajante	ADJ	Number=Sing	11
 sido	sido	ser	AUX	Gender=Masc Number=Sing Tense=Past VerbForm=Part	10	cop	tajante	ADJ	Number=Sing	11
@@ -2626,7 +2626,7 @@ a	a	a	ADP	AdpType=Prep	9	case	contratación	NOUN	Gender=Fem Number=Sing	11
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	10	det	contratación	NOUN	Gender=Fem Number=Sing	11
 contratación	contratación	contratación	NOUN	Gender=Fem Number=Sing	11	nmod	restricción	NOUN	Gender=Fem Number=Sing	8
 por	por	por	ADP	AdpType=Prep	12	case	empresa	NOUN	Gender=Fem Number=Plur	16
-parte	parte	parte	NOUN	-	13	fixed	por	ADP	AdpType=Prep	12
+parte	parte	parte	NOUN		13	fixed	por	ADP	AdpType=Prep	12
 de	de	de	ADP	AdpType=Prep	14	fixed	por	ADP	AdpType=Prep	12
 las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	15	det	empresa	NOUN	Gender=Fem Number=Plur	16
 empresas	empresas	empresa	NOUN	Gender=Fem Number=Plur	16	nmod	tipo	NOUN	Gender=Masc Number=Sing	6
@@ -2635,14 +2635,14 @@ empresas	empresas	empresa	NOUN	Gender=Fem Number=Plur	16	nmod	tipo	NOUN	Gender=M
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.9.5">
 Por	Por	por	ADP	AdpType=Prep	1	advmod	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	29
-tanto	tanto	tanto	NOUN	-	2	fixed	por	ADP	AdpType=Prep	1
+tanto	tanto	tanto	NOUN		2	fixed	por	ADP	AdpType=Prep	1
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	3	punct	por	ADP	AdpType=Prep	1
 a	a	a	ADP	AdpType=Prep	4	mark	sostener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	11
-pesar	pesar	pesar	NOUN	-	5	fixed	a	ADP	AdpType=Prep	4
+pesar	pesar	pesar	NOUN		5	fixed	a	ADP	AdpType=Prep	4
 de	de	de	ADP	AdpType=Prep	6	fixed	a	ADP	AdpType=Prep	4
-que	que	que	SCONJ	-	7	fixed	a	ADP	AdpType=Prep	4
-también	también	también	ADV	-	8	advmod	sostener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	11
+que	que	que	SCONJ		7	fixed	a	ADP	AdpType=Prep	4
+también	también	también	ADV		8	advmod	sostener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	11
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	9	expl:pass	sostener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	11
 ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	10	aux	sostener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	11
 sostenido	sostenido	sostener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	11	advcl	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	29
@@ -2656,10 +2656,10 @@ era	era	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	18	cop	posi
 posible	posible	posible	ADJ	Number=Sing	19	acl	tiempo	NOUN	Gender=Masc Number=Sing	14
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	20	punct	sostener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	11
-que	que	que	SCONJ	-	21	mark	permitir	VERB	VerbForm=Inf	26
-la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	22	det	Comisión	PROPN	-	23
+que	que	que	SCONJ		21	mark	permitir	VERB	VerbForm=Inf	26
+la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	22	det	Comisión	PROPN		23
 <name type="ORG">
-Comisión	Comisión	Comisión	PROPN	-	23	nsubj	permitir	VERB	VerbForm=Inf	26
+Comisión	Comisión	Comisión	PROPN		23	nsubj	permitir	VERB	VerbForm=Inf	26
 </name>
 lo	lo	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	24	obj	permitir	VERB	VerbForm=Inf	26
 podía	podía	poder	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	25	aux	permitir	VERB	VerbForm=Inf	26
@@ -2669,7 +2669,7 @@ permitir	permitir	permitir	VERB	VerbForm=Inf	26	advcl	posible	ADJ	Number=Sing	19
 no	no	no	ADV	Polarity=Neg	28	advmod	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	29
 fue	fue	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	29	root	-	-	-	-
 hasta	hasta	hasta	ADP	AdpType=Prep	30	mark	sacar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	33
-que	que	que	SCONJ	-	31	mark	sacar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	33
+que	que	que	SCONJ		31	mark	sacar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	33
 no	no	no	ADV	Polarity=Neg	32	advmod	sacar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	33
 sacamos	sacamos	sacar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	33	ccomp	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	29
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	34	det	informe	NOUN	Gender=Masc Number=Sing	35
@@ -2677,15 +2677,15 @@ informe	informe	informe	NOUN	Gender=Masc Number=Sing	35	obj	sacar	VERB	Mood=Ind 
 en	en	en	ADP	AdpType=Prep	36	case	que	PRON	PronType=Int,Rel	38
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	37	det	que	PRON	PronType=Int,Rel	38
 que	que	que	PRON	PronType=Int,Rel	38	obl	establecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	42
-la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	39	det	Comisión	PROPN	-	40
+la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	39	det	Comisión	PROPN		40
 <name type="ORG">
-Comisión	Comisión	Comisión	PROPN	-	40	nsubj	establecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	42
-Europea	Europea	Europea	PROPN	-	41	flat	Comisión	PROPN	-	40
+Comisión	Comisión	Comisión	PROPN		40	nsubj	establecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	42
+Europea	Europea	Europea	PROPN		41	flat	Comisión	PROPN		40
 </name>
 establecía	establecía	establecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	42	acl	informe	NOUN	Gender=Masc Number=Sing	35
 con	con	con	ADP	AdpType=Prep	43	case	claridad	NOUN	Gender=Fem Number=Sing	44
 claridad	claridad	claridad	NOUN	Gender=Fem Number=Sing	44	obl	establecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	42
-que	que	que	SCONJ	-	45	mark	permitir	VERB	VerbForm=Inf	50
+que	que	que	SCONJ		45	mark	permitir	VERB	VerbForm=Inf	50
 no	no	no	ADV	Polarity=Neg	46	advmod	permitir	VERB	VerbForm=Inf	50
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	47	expl:pass	permitir	VERB	VerbForm=Inf	50
 iba	iba	ir	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	48	aux	permitir	VERB	VerbForm=Inf	50
@@ -2693,7 +2693,7 @@ a	a	a	ADP	AdpType=Prep	49	mark	permitir	VERB	VerbForm=Inf	50
 permitir	permitir	permitir	VERB	VerbForm=Inf	50	xcomp	establecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	42
 ese	ese	ese	DET	Gender=Masc Number=Sing PronType=Dem	51	det	registro	NOUN	Gender=Masc Number=Sing	52
 registro	registro	registro	NOUN	Gender=Masc Number=Sing	52	nsubj	permitir	VERB	VerbForm=Inf	50
-cuando	cuando	cuando	SCONJ	-	53	mark	empezar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	56
+cuando	cuando	cuando	SCONJ		53	mark	empezar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	56
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	54	expl:pv	empezar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	56
 ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	55	aux	empezar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	56
 empezado	empezado	empezar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	56	advcl	permitir	VERB	VerbForm=Inf	50
@@ -2742,8 +2742,8 @@ lista	lista	lista	NOUN	Gender=Fem Number=Sing	5	conj	registro	NOUN	Gender=Masc N
 pool	pool	pool	NOUN	Gender=Masc Number=Sing	7	conj	registro	NOUN	Gender=Masc Number=Sing	3
 de	de	de	ADP	AdpType=Prep	8	case	trabajador	NOUN	Gender=Masc Number=Plur	9
 trabajadores	trabajadores	trabajador	NOUN	Gender=Masc Number=Plur	9	nmod	pool	NOUN	Gender=Masc Number=Sing	7
-o	o	o	CCONJ	-	10	cc	querer	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	14
-como	como	como	SCONJ	-	11	mark	querer	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	14
+o	o	o	CCONJ		10	cc	querer	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	14
+como	como	como	SCONJ		11	mark	querer	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	14
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	12	expl:pass	querer	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	14
 le	le	él	PRON	Case=Dat Number=Sing Person=3 PronType=Prs	13	obj	querer	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	14
 quiera	quiera	querer	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	14	conj	denominar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
@@ -2753,26 +2753,26 @@ llamar	llamar	llamar	VERB	VerbForm=Inf	15	xcomp	querer	VERB	Mood=Sub Number=Sing
 lo	lo	él	PRON	Case=Acc Definite=Def Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	17	det	claro	ADJ	Gender=Masc Number=Sing	21
 que	que	que	PRON	PronType=Int,Rel	18	nsubj	claro	ADJ	Gender=Masc Number=Sing	21
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	19	cop	claro	ADJ	Gender=Masc Number=Sing	21
-absolutamente	absolutamente	absolutamente	ADV	-	20	advmod	claro	ADJ	Gender=Masc Number=Sing	21
+absolutamente	absolutamente	absolutamente	ADV		20	advmod	claro	ADJ	Gender=Masc Number=Sing	21
 claro	claro	claro	ADJ	Gender=Masc Number=Sing	21	advcl	querer	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	14
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	22	punct	explicar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	27
-tal	tal	tal	NOUN	-	23	mark	explicar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	27
-y	y	y	CCONJ	-	24	fixed	tal	NOUN	-	23
-como	como	como	SCONJ	-	25	fixed	tal	NOUN	-	23
-además	además	además	ADV	-	26	advmod	explicar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	27
+tal	tal	tal	NOUN		23	mark	explicar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	27
+y	y	y	CCONJ		24	fixed	tal	NOUN		23
+como	como	como	SCONJ		25	fixed	tal	NOUN		23
+además	además	además	ADV		26	advmod	explicar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	27
 explicó	explicó	explicar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	27	advcl	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	34
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	28	det	comisaria	NOUN	Gender=Fem Number=Sing	29
 comisaria	comisaria	comisaria	NOUN	Gender=Fem Number=Sing	29	nsubj	explicar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	27
-en	en	en	ADP	AdpType=Prep	30	case	Cámara	PROPN	-	32
-esta	esta	este	DET	Gender=Fem Number=Sing PronType=Dem	31	det	Cámara	PROPN	-	32
+en	en	en	ADP	AdpType=Prep	30	case	Cámara	PROPN		32
+esta	esta	este	DET	Gender=Fem Number=Sing PronType=Dem	31	det	Cámara	PROPN		32
 <name type="ORG">
-Cámara	Cámara	Cámara	PROPN	-	32	obl	explicar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	27
+Cámara	Cámara	Cámara	PROPN		32	obl	explicar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	27
 <g/>
 </name>
 ,	,	,	PUNCT	PunctType=Comm	33	punct	explicar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	27
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	34	advcl	claro	ADJ	Gender=Masc Number=Sing	21
-que	que	que	SCONJ	-	35	mark	lista	NOUN	Gender=Fem Number=Sing	46
+que	que	que	SCONJ		35	mark	lista	NOUN	Gender=Fem Number=Sing	46
 cualquier	cualquier	cualquiera	DET	Number=Sing PronType=Ind	36	det	tipo	NOUN	Gender=Masc Number=Sing	37
 tipo	tipo	tipo	NOUN	Gender=Masc Number=Sing	37	nsubj	lista	NOUN	Gender=Fem Number=Sing	46
 de	de	de	ADP	AdpType=Prep	38	case	lista	NOUN	Gender=Fem Number=Sing	39
@@ -2780,7 +2780,7 @@ lista	lista	lista	NOUN	Gender=Fem Number=Sing	39	nmod	tipo	NOUN	Gender=Masc Numb
 que	que	que	PRON	PronType=Int,Rel	40	nsubj	existir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	41
 exista	exista	existir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	41	acl	tipo	NOUN	Gender=Masc Number=Sing	37
 tiene	tiene	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	42	ccomp	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	34
-que	que	que	SCONJ	-	43	cc	lista	NOUN	Gender=Fem Number=Sing	46
+que	que	que	SCONJ		43	cc	lista	NOUN	Gender=Fem Number=Sing	46
 ser	ser	ser	AUX	VerbForm=Inf	44	cop	lista	NOUN	Gender=Fem Number=Sing	46
 una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	45	det	lista	NOUN	Gender=Fem Number=Sing	46
 lista	lista	lista	NOUN	Gender=Fem Number=Sing	46	conj	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	42
@@ -2796,7 +2796,7 @@ empresas	empresas	empresa	NOUN	Gender=Fem Number=Plur	55	nsubj	acudir	VERB	Mood=
 para	para	para	ADP	AdpType=Prep	56	mark	contratar	VERB	VerbForm=Inf	58
 poder	poder	poder	AUX	VerbForm=Inf	57	aux	contratar	VERB	VerbForm=Inf	58
 contratar	contratar	contratar	VERB	VerbForm=Inf	58	advcl	acudir	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	50
-libremente	libremente	libremente	ADV	-	59	advmod	contratar	VERB	VerbForm=Inf	58
+libremente	libremente	libremente	ADV		59	advmod	contratar	VERB	VerbForm=Inf	58
 <g/>
 .	.	.	PUNCT	PunctType=Peri	60	punct	denominar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 </s>
@@ -2806,7 +2806,7 @@ ese	ese	ese	DET	Gender=Masc Number=Sing PronType=Dem	2	det	sentido	NOUN	Gender=M
 sentido	sentido	sentido	NOUN	Gender=Masc Number=Sing	3	obl	querer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	4
 quiero	quiero	querer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	4	root	-	-	-	-
 recordar	recordar	recordar	VERB	VerbForm=Inf	5	ccomp	querer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	4
-que	que	que	SCONJ	-	6	mark	contemplado	ADJ	Gender=Masc Number=Plur VerbForm=Part	12
+que	que	que	SCONJ		6	mark	contemplado	ADJ	Gender=Masc Number=Plur VerbForm=Part	12
 en	en	en	ADP	AdpType=Prep	7	case	decreto-ley	NOUN	Gender=Masc Number=Sing	10
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	8	det	decreto-ley	NOUN	Gender=Masc Number=Sing	10
 real	real	real	ADJ	Number=Sing	9	amod	decreto-ley	NOUN	Gender=Masc Number=Sing	10
@@ -2819,21 +2819,21 @@ portuarios	portuarios	portuario	ADJ	Gender=Masc Number=Plur	15	amod	centro	NOUN	
 de	de	de	ADP	AdpType=Prep	16	case	empleo	NOUN	Gender=Masc Number=Sing	17
 empleo	empleo	empleo	NOUN	Gender=Masc Number=Sing	17	nmod	centro	NOUN	Gender=Masc Number=Plur	14
 <g/>
-,	,	,	PUNCT	PunctType=Comm	18	punct	ETT	PROPN	-	22
-que	que	que	PRON	PronType=Int,Rel	19	nsubj	ETT	PROPN	-	22
-son	son	ser	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	20	cop	ETT	PROPN	-	22
-unas	unas	uno	DET	Definite=Ind Gender=Fem Number=Plur PronType=Art	21	det	ETT	PROPN	-	22
+,	,	,	PUNCT	PunctType=Comm	18	punct	ETT	PROPN		22
+que	que	que	PRON	PronType=Int,Rel	19	nsubj	ETT	PROPN		22
+son	son	ser	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	20	cop	ETT	PROPN		22
+unas	unas	uno	DET	Definite=Ind Gender=Fem Number=Plur PronType=Art	21	det	ETT	PROPN		22
 <name type="MISC">
-ETT	ETT	ETT	PROPN	-	22	acl	centro	NOUN	Gender=Masc Number=Plur	14
+ETT	ETT	ETT	PROPN		22	acl	centro	NOUN	Gender=Masc Number=Plur	14
 </name>
-especializadas	especializadas	especializado	ADJ	Gender=Fem Number=Plur VerbForm=Part	23	amod	ETT	PROPN	-	22
+especializadas	especializadas	especializado	ADJ	Gender=Fem Number=Plur VerbForm=Part	23	amod	ETT	PROPN		22
 para	para	para	ADP	AdpType=Prep	24	case	sector	NOUN	Gender=Masc Number=Sing	26
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	25	det	sector	NOUN	Gender=Masc Number=Sing	26
 sector	sector	sector	NOUN	Gender=Masc Number=Sing	26	obl	especializado	ADJ	Gender=Fem Number=Plur VerbForm=Part	23
 portuario	portuario	portuario	ADJ	Gender=Masc Number=Sing	27	amod	sector	NOUN	Gender=Masc Number=Sing	26
-y	y	y	CCONJ	-	28	cc	suponer	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	30
-que	que	que	SCONJ	-	29	mark	suponer	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	30
-suponen	suponen	suponer	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	30	conj	ETT	PROPN	-	22
+y	y	y	CCONJ		28	cc	suponer	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	30
+que	que	que	SCONJ		29	mark	suponer	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	30
+suponen	suponen	suponer	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	30	conj	ETT	PROPN		22
 de	de	de	ADP	AdpType=Prep	31	case	él	PRON	Case=Acc Person=3 PrepCase=Pre PronType=Prs Reflex=Yes	33
 por	por	por	ADP	AdpType=Prep	32	case	él	PRON	Case=Acc Person=3 PrepCase=Pre PronType=Prs Reflex=Yes	33
 sí	sí	él	PRON	Case=Acc Person=3 PrepCase=Pre PronType=Prs Reflex=Yes	33	obl	suponer	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	30
@@ -2850,16 +2850,16 @@ esto	esto	este	PRON	Number=Sing PronType=Dem	2	obj	incluir	VERB	VerbForm=Inf	1
 en	en	en	ADP	AdpType=Prep	3	case	decreto-ley	NOUN	Gender=Masc Number=Sing	5
 real	real	real	ADJ	Number=Sing	4	amod	decreto-ley	NOUN	Gender=Masc Number=Sing	5
 decreto-ley	decreto-ley	decreto-ley	NOUN	Gender=Masc Number=Sing	5	obl	incluir	VERB	VerbForm=Inf	1
-tampoco	tampoco	tampoco	ADV	-	6	advmod	fácil	ADJ	Number=Sing	9
+tampoco	tampoco	tampoco	ADV		6	advmod	fácil	ADJ	Number=Sing	9
 ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	7	aux	fácil	ADJ	Number=Sing	9
 sido	sido	ser	AUX	Gender=Masc Number=Sing Tense=Past VerbForm=Part	8	cop	fácil	ADJ	Number=Sing	9
 fácil	fácil	fácil	ADJ	Number=Sing	9	root	-	-	-	-
-ya	ya	ya	ADV	-	10	mark	establecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	15
-que	que	que	SCONJ	-	11	fixed	ya	ADV	-	10
-la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	12	det	Comisión	PROPN	-	13
+ya	ya	ya	ADV		10	mark	establecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	15
+que	que	que	SCONJ		11	fixed	ya	ADV		10
+la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	12	det	Comisión	PROPN		13
 <name type="ORG">
-Comisión	Comisión	Comisión	PROPN	-	13	nsubj	establecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	15
-Europea	Europea	Europea	PROPN	-	14	flat	Comisión	PROPN	-	13
+Comisión	Comisión	Comisión	PROPN		13	nsubj	establecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	15
+Europea	Europea	Europea	PROPN		14	flat	Comisión	PROPN		13
 </name>
 establece	establece	establecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	15	advcl	llegar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	21
 en	en	en	ADP	AdpType=Prep	16	case	informe	NOUN	Gender=Masc Number=Sing	18
@@ -2870,7 +2870,7 @@ se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	20	expl:pv
 llegó	llegó	llegar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	21	advcl	fácil	ADJ	Number=Sing	9
 a	a	a	ADP	AdpType=Prep	22	mark	decir	VERB	VerbForm=Inf	23
 decir	decir	decir	VERB	VerbForm=Inf	23	xcomp	llegar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	21
-que	que	que	SCONJ	-	24	mark	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	25
+que	que	que	SCONJ		24	mark	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	25
 tenía	tenía	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	25	ccomp	decir	VERB	VerbForm=Inf	23
 un	un	uno	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	26	det	componente	NOUN	Gender=Masc Number=Sing	27
 componente	componente	componente	NOUN	Gender=Masc Number=Sing	27	obj	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	25
@@ -2886,7 +2886,7 @@ caso	caso	caso	NOUN	Gender=Masc Number=Sing	35	obl	permitir	VERB	VerbForm=Inf	38
 iba	iba	ir	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	36	aux	permitir	VERB	VerbForm=Inf	38
 a	a	a	ADP	AdpType=Prep	37	mark	permitir	VERB	VerbForm=Inf	38
 permitir	permitir	permitir	VERB	VerbForm=Inf	38	acl	componente	NOUN	Gender=Masc Number=Sing	27
-que	que	que	SCONJ	-	39	mark	tener	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	40
+que	que	que	SCONJ		39	mark	tener	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	40
 tuviera	tuviera	tener	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	40	ccomp	permitir	VERB	VerbForm=Inf	38
 un	un	uno	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	41	det	tratamiento	NOUN	Gender=Masc Number=Sing	42
 tratamiento	tratamiento	tratamiento	NOUN	Gender=Masc Number=Sing	42	obj	tener	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	40
@@ -2897,29 +2897,29 @@ punto	punto	punto	NOUN	Gender=Masc Number=Sing	46	obl	diferenciado	ADJ	Gender=Ma
 de	de	de	ADP	AdpType=Prep	47	case	vista	NOUN	Gender=Fem Number=Sing	48
 vista	vista	vista	NOUN	Gender=Fem Number=Sing	48	nmod	punto	NOUN	Gender=Masc Number=Sing	46
 jurídico	jurídico	jurídico	ADJ	Gender=Masc Number=Sing	49	amod	vista	NOUN	Gender=Fem Number=Sing	48
-de	de	de	ADP	AdpType=Prep	50	case	ETT	PROPN	-	56
-lo	lo	él	PRON	Case=Acc Definite=Def Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	51	det	ETT	PROPN	-	56
-que	que	que	PRON	PronType=Int,Rel	52	nsubj	ETT	PROPN	-	56
-puede	puede	poder	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	53	aux	ETT	PROPN	-	56
-ser	ser	ser	AUX	VerbForm=Inf	54	cop	ETT	PROPN	-	56
-una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	55	det	ETT	PROPN	-	56
+de	de	de	ADP	AdpType=Prep	50	case	ETT	PROPN		56
+lo	lo	él	PRON	Case=Acc Definite=Def Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	51	det	ETT	PROPN		56
+que	que	que	PRON	PronType=Int,Rel	52	nsubj	ETT	PROPN		56
+puede	puede	poder	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	53	aux	ETT	PROPN		56
+ser	ser	ser	AUX	VerbForm=Inf	54	cop	ETT	PROPN		56
+una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	55	det	ETT	PROPN		56
 <name type="MISC">
-ETT	ETT	ETT	PROPN	-	56	acl	punto	NOUN	Gender=Masc Number=Sing	46
+ETT	ETT	ETT	PROPN		56	acl	punto	NOUN	Gender=Masc Number=Sing	46
 </name>
-normal	normal	normal	ADJ	Number=Sing	57	amod	ETT	PROPN	-	56
+normal	normal	normal	ADJ	Number=Sing	57	amod	ETT	PROPN		56
 <g/>
 .	.	.	PUNCT	PunctType=Peri	58	punct	fácil	ADJ	Number=Sing	9
 </s>
 </p>
 <p id="ParlaMint-ES_2017-03-16-CD170316.u2.10" lang="Spanish">
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.10.1">
-También	También	también	ADV	-	1	advmod	hablar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
+También	También	también	ADV		1	advmod	hablar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	2	expl:pass	hablar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
 ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	aux	hablar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
 hablado	hablado	hablar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4	root	-	-	-	-
--quizá	-quizá	-quizá	SCONJ	-	5	mark	salir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
+-quizá	-quizá	-quizá	SCONJ		5	mark	salir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
 salga	salga	salir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	6	csubj	hablar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
-posteriormente	posteriormente	posteriormente	ADV	-	7	advmod	salir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
+posteriormente	posteriormente	posteriormente	ADV		7	advmod	salir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
 en	en	en	ADP	AdpType=Prep	8	case	debate-	NOUN	Gender=Masc Number=Sing	10
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	9	det	debate-	NOUN	Gender=Masc Number=Sing	10
 debate-	debate-	debate-	NOUN	Gender=Masc Number=Sing	10	obl	salir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
@@ -2933,27 +2933,27 @@ países	países	país	NOUN	Gender=Masc Number=Plur	15	nmod	caso	NOUN	Gender=Masc
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	17	expl:pass	decir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	19
 ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	18	aux	decir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	19
 dicho	dicho	decir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	19	conj	hablar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
-que	que	que	SCONJ	-	20	mark	permitir	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	33
+que	que	que	SCONJ		20	mark	permitir	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	33
 en	en	en	ADP	AdpType=Prep	21	case	país	NOUN	Gender=Masc Number=Plur	23
 otros	otros	otro	DET	Gender=Masc Number=Plur PronType=Ind	22	det	país	NOUN	Gender=Masc Number=Plur	23
 países	países	país	NOUN	Gender=Masc Number=Plur	23	obl	permitir	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	33
 <g/>
-,	,	,	PUNCT	PunctType=Comm	24	punct	concretamente	ADV	-	25
-concretamente	concretamente	concretamente	ADV	-	25	advmod	permitir	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	33
-en	en	en	ADP	AdpType=Prep	26	case	concretamente	ADV	-	25
+,	,	,	PUNCT	PunctType=Comm	24	punct	concretamente	ADV		25
+concretamente	concretamente	concretamente	ADV		25	advmod	permitir	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	33
+en	en	en	ADP	AdpType=Prep	26	case	concretamente	ADV		25
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	27	det	caso	NOUN	Gender=Masc Number=Sing	28
-caso	caso	caso	NOUN	Gender=Masc Number=Sing	28	nmod	concretamente	ADV	-	25
-de	de	de	ADP	AdpType=Prep	29	case	Bélgica	PROPN	-	30
+caso	caso	caso	NOUN	Gender=Masc Number=Sing	28	nmod	concretamente	ADV		25
+de	de	de	ADP	AdpType=Prep	29	case	Bélgica	PROPN		30
 <name type="LOC">
-Bélgica	Bélgica	Bélgica	PROPN	-	30	nmod	caso	NOUN	Gender=Masc Number=Sing	28
+Bélgica	Bélgica	Bélgica	PROPN		30	nmod	caso	NOUN	Gender=Masc Number=Sing	28
 <g/>
 </name>
-,	,	,	PUNCT	PunctType=Comm	31	punct	concretamente	ADV	-	25
+,	,	,	PUNCT	PunctType=Comm	31	punct	concretamente	ADV		25
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	32	expl:pass	permitir	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	33
 permiten	permiten	permitir	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	33	ccomp	decir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	19
 cosas	cosas	cosa	NOUN	Gender=Fem Number=Plur	34	nsubj	permitir	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	33
 que	que	que	PRON	PronType=Int,Rel	35	obj	contemplar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	41
-aquí	aquí	aquí	ADV	-	36	advmod	contemplar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	41
+aquí	aquí	aquí	ADV		36	advmod	contemplar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	41
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	37	det	decreto-ley	NOUN	Gender=Masc Number=Sing	39
 real	real	real	ADJ	Number=Sing	38	amod	decreto-ley	NOUN	Gender=Masc Number=Sing	39
 decreto-ley	decreto-ley	decreto-ley	NOUN	Gender=Masc Number=Sing	39	nsubj	contemplar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	41
@@ -2970,12 +2970,12 @@ Nosotros	Nosotros	yo	PRON	Case=Acc,Nom Gender=Masc Number=Plur Person=1 PronType
 hemos	hemos	haber	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	2	aux	explicar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	3
 explicado	explicado	explicar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	3	root	-	-	-	-
 una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	4	det	vez	NOUN	Gender=Fem Number=Sing	7
-y	y	y	CCONJ	-	5	cc	otro	DET	Gender=Fem Number=Sing PronType=Ind	6
+y	y	y	CCONJ		5	cc	otro	DET	Gender=Fem Number=Sing PronType=Ind	6
 otra	otra	otro	DET	Gender=Fem Number=Sing PronType=Ind	6	conj	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	4
 vez	vez	vez	NOUN	Gender=Fem Number=Sing	7	obl	explicar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	3
-que	que	que	SCONJ	-	8	mark	mismo	PRON	Gender=Masc Number=Sing PronType=Dem	24
+que	que	que	SCONJ		8	mark	mismo	PRON	Gender=Masc Number=Sing PronType=Dem	24
 teniendo	teniendo	tener	VERB	VerbForm=Ger	9	advcl	mismo	PRON	Gender=Masc Number=Sing PronType=Dem	24
-como	como	como	SCONJ	-	10	mark	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	11
+como	como	como	SCONJ		10	mark	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	11
 tienen	tienen	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	11	advcl	tener	VERB	VerbForm=Ger	9
 estos	estos	este	DET	Gender=Masc Number=Plur PronType=Dem	12	det	país	NOUN	Gender=Masc Number=Plur	13
 países	países	país	NOUN	Gender=Masc Number=Plur	13	nsubj	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	11
@@ -3001,15 +3001,15 @@ ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	aux	reca
 recalcado	recalcado	recalcar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4	root	-	-	-	-
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	5	det	comisaria	NOUN	Gender=Fem Number=Sing	6
 comisaria	comisaria	comisaria	NOUN	Gender=Fem Number=Sing	6	nsubj	recalcar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
-de	de	de	ADP	AdpType=Prep	7	case	Transportes	PROPN	-	8
+de	de	de	ADP	AdpType=Prep	7	case	Transportes	PROPN		8
 <name type="MISC">
-Transportes	Transportes	Transportes	PROPN	-	8	nmod	comisaria	NOUN	Gender=Fem Number=Sing	6
+Transportes	Transportes	Transportes	PROPN		8	nmod	comisaria	NOUN	Gender=Fem Number=Sing	6
 </name>
 de	de	de	ADP	AdpType=Prep	9	case	manera	NOUN	Gender=Fem Number=Sing	11
 una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	10	det	manera	NOUN	Gender=Fem Number=Sing	11
 manera	manera	manera	NOUN	Gender=Fem Number=Sing	11	obl	recalcar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
 contundente	contundente	contundente	ADJ	Number=Sing	12	amod	manera	NOUN	Gender=Fem Number=Sing	11
-cuando	cuando	cuando	SCONJ	-	13	mark	mantener	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	14
+cuando	cuando	cuando	SCONJ		13	mark	mantener	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	14
 mantuvo	mantuvo	mantener	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	14	advcl	recalcar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	15	det	reunión	NOUN	Gender=Fem Number=Sing	16
 reunión	reunión	reunión	NOUN	Gender=Fem Number=Sing	16	obj	mantener	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	14
@@ -3041,24 +3041,24 @@ el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	17	det	mismo	PRON
 mismo	mismo	mismo	PRON	Gender=Masc Number=Sing PronType=Dem	18	root	-	-	-	-
 para	para	para	ADP	AdpType=Prep	19	case	todo	PRON	Gender=Masc Number=Plur PronType=Tot	20
 todos	todos	todo	PRON	Gender=Masc Number=Plur PronType=Tot	20	nmod	mismo	PRON	Gender=Masc Number=Sing PronType=Dem	18
-y	y	y	CCONJ	-	21	cc	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	22
+y	y	y	CCONJ		21	cc	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	22
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	22	conj	mismo	PRON	Gender=Masc Number=Sing PronType=Dem	18
 en	en	en	ADP	AdpType=Prep	23	mark	estar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	26
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	24	det	estar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	26
 que	que	que	PRON	PronType=Int,Rel	25	obj	estar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	26
 está	está	estar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	26	ccomp	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	22
 <name type="ORG">
-España	España	España	PROPN	-	27	nsubj	estar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	26
+España	España	España	PROPN		27	nsubj	estar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	26
 </name>
 a	a	a	ADP	AdpType=Prep	28	case	decreto-ley	NOUN	Gender=Masc Number=Sing	33
-través	través	través	NOUN	-	29	fixed	a	ADP	AdpType=Prep	28
+través	través	través	NOUN		29	fixed	a	ADP	AdpType=Prep	28
 de	de	de	ADP	AdpType=Prep	30	fixed	a	ADP	AdpType=Prep	28
 este	este	este	DET	Gender=Masc Number=Sing PronType=Dem	31	det	decreto-ley	NOUN	Gender=Masc Number=Sing	33
 real	real	real	ADJ	Number=Sing	32	amod	decreto-ley	NOUN	Gender=Masc Number=Sing	33
 decreto-ley	decreto-ley	decreto-ley	NOUN	Gender=Masc Number=Sing	33	obl	estar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	26
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	34	punct	permitir	VERB	VerbForm=Inf	40
-y	y	y	CCONJ	-	35	cc	permitir	VERB	VerbForm=Inf	40
+y	y	y	CCONJ		35	cc	permitir	VERB	VerbForm=Inf	40
 no	no	no	ADV	Polarity=Neg	36	advmod	permitir	VERB	VerbForm=Inf	40
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	37	expl:pass	permitir	VERB	VerbForm=Inf	40
 va	va	ir	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	38	aux	permitir	VERB	VerbForm=Inf	40
@@ -3075,14 +3075,14 @@ proceso	proceso	proceso	NOUN	Gender=Masc Number=Sing	46	nmod	hecho	NOUN	Gender=M
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.10.5">
 Por	Por	por	ADP	AdpType=Prep	1	advmod	decir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	5
-otro	otro	otro	ADJ	-	2	fixed	por	ADP	AdpType=Prep	1
-lado	lado	lado	NOUN	-	3	fixed	por	ADP	AdpType=Prep	1
+otro	otro	otro	ADJ		2	fixed	por	ADP	AdpType=Prep	1
+lado	lado	lado	NOUN		3	fixed	por	ADP	AdpType=Prep	1
 -lo	-lo	tlo	PRON	Number=Sing PronType=Int,Rel	4	nsubj	decir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	5
 digo	digo	decir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	5	ccomp	estar	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	15
 por	por	por	ADP	AdpType=Prep	6	mark	salir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	10
-si	si	si	SCONJ	-	7	mark	salir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	10
-más	más	más	ADV	Degree=Cmp	8	advmod	tarde	ADV	-	9
-tarde	tarde	tarde	ADV	-	9	advmod	salir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	10
+si	si	si	SCONJ		7	mark	salir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	10
+más	más	más	ADV	Degree=Cmp	8	advmod	tarde	ADV		9
+tarde	tarde	tarde	ADV		9	advmod	salir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	10
 sale	sale	salir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	10	ccomp	decir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	5
 en	en	en	ADP	AdpType=Prep	11	case	debate-	NOUN	Gender=Masc Number=Sing	13
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	12	det	debate-	NOUN	Gender=Masc Number=Sing	13
@@ -3105,10 +3105,10 @@ comunicado	comunicado	comunicado	NOUN	Gender=Masc Number=Sing	27	obl	hacer	VERB	
 en	en	en	ADP	AdpType=Prep	28	case	semana	NOUN	Gender=Fem Number=Sing	31
 esta	esta	este	DET	Gender=Fem Number=Sing PronType=Dem	29	det	semana	NOUN	Gender=Fem Number=Sing	31
 última	última	último	ADJ	Gender=Fem NumType=Ord Number=Sing	30	amod	semana	NOUN	Gender=Fem Number=Sing	31
-semana	semana	semana	NOUN	Gender=Fem Number=Sing	31	obl	dentro	ADV	-	32
-dentro	dentro	dentro	ADV	-	32	advmod	comunicado	NOUN	Gender=Masc Number=Sing	27
+semana	semana	semana	NOUN	Gender=Fem Number=Sing	31	obl	dentro	ADV		32
+dentro	dentro	dentro	ADV		32	advmod	comunicado	NOUN	Gender=Masc Number=Sing	27
 del	del	del	ADP	AdpType=Preppron	33	case	reglamento	NOUN	Gender=Masc Number=Sing	34
-reglamento	reglamento	reglamento	NOUN	Gender=Masc Number=Sing	34	obl	dentro	ADV	-	32
+reglamento	reglamento	reglamento	NOUN	Gender=Masc Number=Sing	34	obl	dentro	ADV		32
 de	de	de	ADP	AdpType=Prep	35	case	servicio	NOUN	Gender=Masc Number=Plur	36
 servicios	servicios	servicio	NOUN	Gender=Masc Number=Plur	36	nmod	reglamento	NOUN	Gender=Masc Number=Sing	34
 portuarios	portuarios	portuario	ADJ	Gender=Masc Number=Plur	37	amod	servicio	NOUN	Gender=Masc Number=Plur	36
@@ -3119,7 +3119,7 @@ dando	dando	dar	VERB	VerbForm=Ger	39	advcl	hacer	VERB	Gender=Masc Number=Sing Te
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	40	expl:pv	dar	VERB	VerbForm=Ger	39
 a	a	a	ADP	AdpType=Prep	41	mark	conocer	VERB	VerbForm=Inf	42
 conocer	conocer	conocer	VERB	VerbForm=Inf	42	xcomp	dar	VERB	VerbForm=Ger	39
-que	que	que	SCONJ	-	43	mark	permitir	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	46
+que	que	que	SCONJ		43	mark	permitir	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	46
 este	este	este	DET	Gender=Masc Number=Sing PronType=Dem	44	det	reglamento	NOUN	Gender=Masc Number=Sing	45
 reglamento	reglamento	reglamento	NOUN	Gender=Masc Number=Sing	45	nsubj	permitir	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	46
 permitía	permitía	permitir	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	46	ccomp	conocer	VERB	VerbForm=Inf	42
@@ -3135,7 +3135,7 @@ aclarar	aclarar	aclarar	VERB	VerbForm=Inf	3	csubj	gustar	VERB	Mood=Cnd Number=Si
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	4	punct	abordar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	7
 por	por	por	ADP	AdpType=Prep	5	mark	abordar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	7
-si	si	si	SCONJ	-	6	mark	abordar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	7
+si	si	si	SCONJ		6	mark	abordar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	7
 abordamos	abordamos	abordar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	7	advcl	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	20
 este	este	este	DET	Gender=Masc Number=Sing PronType=Dem	8	det	punto	NOUN	Gender=Masc Number=Sing	9
 punto	punto	punto	NOUN	Gender=Masc Number=Sing	9	obj	abordar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	7
@@ -3144,20 +3144,20 @@ el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	11	det	debate	NOU
 debate	debate	debate	NOUN	Gender=Masc Number=Sing	12	obl	abordar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	7
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	13	punct	abordar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	7
-que	que	que	SCONJ	-	14	mark	cierto	ADJ	Gender=Masc Number=Sing	17
+que	que	que	SCONJ		14	mark	cierto	ADJ	Gender=Masc Number=Sing	17
 siendo	siendo	ser	AUX	VerbForm=Ger	15	cop	cierto	ADJ	Gender=Masc Number=Sing	17
 esto	esto	este	PRON	Number=Sing PronType=Dem	16	nsubj	cierto	ADJ	Gender=Masc Number=Sing	17
 cierto	cierto	cierto	ADJ	Gender=Masc Number=Sing	17	advcl	abordar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	7
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	18	punct	abordar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	7
-también	también	también	ADV	-	19	advmod	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	20
+también	también	también	ADV		19	advmod	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	20
 lo	lo	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	20	advcl	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	21
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	21	advcl	gustar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	2
-que	que	que	SCONJ	-	22	mark	recoger	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	28
-dentro	dentro	dentro	ADV	-	23	advmod	recoger	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	28
+que	que	que	SCONJ		22	mark	recoger	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	28
+dentro	dentro	dentro	ADV		23	advmod	recoger	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	28
 de	de	de	ADP	AdpType=Prep	24	case	reglamento	NOUN	Gender=Masc Number=Sing	26
 ese	ese	ese	DET	Gender=Masc Number=Sing PronType=Dem	25	det	reglamento	NOUN	Gender=Masc Number=Sing	26
-reglamento	reglamento	reglamento	NOUN	Gender=Masc Number=Sing	26	obl	dentro	ADV	-	23
+reglamento	reglamento	reglamento	NOUN	Gender=Masc Number=Sing	26	obl	dentro	ADV		23
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	27	expl:pass	recoger	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	28
 recoge	recoge	recoger	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	28	ccomp	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	21
 una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	29	det	frase	NOUN	Gender=Fem Number=Sing	30
@@ -3192,21 +3192,21 @@ este	este	este	DET	Gender=Masc Number=Sing PronType=Dem	4	det	proceso	NOUN	Gende
 proceso	proceso	proceso	NOUN	Gender=Masc Number=Sing	5	obl	mantener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	25
 de	de	de	ADP	AdpType=Prep	6	case	negociación	NOUN	Gender=Fem Number=Sing	7
 negociación	negociación	negociación	NOUN	Gender=Fem Number=Sing	7	nmod	proceso	NOUN	Gender=Masc Number=Sing	5
-y	y	y	CCONJ	-	8	cc	diálogo	NOUN	Gender=Masc Number=Sing	9
+y	y	y	CCONJ		8	cc	diálogo	NOUN	Gender=Masc Number=Sing	9
 diálogo	diálogo	diálogo	NOUN	Gender=Masc Number=Sing	9	conj	negociación	NOUN	Gender=Fem Number=Sing	7
 <g/>
-,	,	,	PUNCT	PunctType=Comm	10	punct	ya	ADV	-	11
-ya	ya	ya	ADV	-	11	advmod	mantener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	25
-desde	desde	desde	ADP	AdpType=Prep	12	case	ya	ADV	-	11
-el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	13	det	mes	NOUN	-	14
-mes	mes	mes	NOUN	-	14	nmod	ya	ADV	-	11
-de	de	de	ADP	AdpType=Prep	15	case	enero	NOUN	-	16
-enero	enero	enero	NOUN	-	16	compound	mes	NOUN	-	14
-y	y	y	CCONJ	-	17	cc	antes	ADV	-	18
-antes	antes	antes	ADV	-	18	advmod	mantener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	25
+,	,	,	PUNCT	PunctType=Comm	10	punct	ya	ADV		11
+ya	ya	ya	ADV		11	advmod	mantener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	25
+desde	desde	desde	ADP	AdpType=Prep	12	case	ya	ADV		11
+el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	13	det	mes	NOUN		14
+mes	mes	mes	NOUN		14	nmod	ya	ADV		11
+de	de	de	ADP	AdpType=Prep	15	case	enero	NOUN		16
+enero	enero	enero	NOUN		16	compound	mes	NOUN		14
+y	y	y	CCONJ		17	cc	antes	ADV		18
+antes	antes	antes	ADV		18	advmod	mantener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	25
 de	de	de	ADP	AdpType=Prep	19	case	presentación	NOUN	Gender=Fem Number=Sing	21
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	20	det	presentación	NOUN	Gender=Fem Number=Sing	21
-presentación	presentación	presentación	NOUN	Gender=Fem Number=Sing	21	obl	antes	ADV	-	18
+presentación	presentación	presentación	NOUN	Gender=Fem Number=Sing	21	obl	antes	ADV		18
 del	del	del	ADP	AdpType=Preppron	22	case	decreto	NOUN	Gender=Masc Number=Sing	23
 decreto	decreto	decreto	NOUN	Gender=Masc Number=Sing	23	nmod	presentación	NOUN	Gender=Fem Number=Sing	21
 hemos	hemos	haber	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	24	aux	mantener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	25
@@ -3228,7 +3228,7 @@ de	de	de	ADP	AdpType=Prep	38	case	cual	PRON	Number=Plur PronType=Int,Rel	40
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	39	det	cual	PRON	Number=Plur PronType=Int,Rel	40
 cuales	cuales	cual	PRON	Number=Plur PronType=Int,Rel	40	nmod	mucho	PRON	Gender=Masc NumType=Card Number=Plur PronType=Ind	37
 están	están	estar	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	41	cop	presente	ADJ	Number=Plur	43
-aquí	aquí	aquí	ADV	-	42	advmod	presente	ADJ	Number=Plur	43
+aquí	aquí	aquí	ADV		42	advmod	presente	ADJ	Number=Plur	43
 presentes	presentes	presente	ADJ	Number=Plur	43	acl	grupo	NOUN	Gender=Masc Number=Plur	34
 <g/>
 .	.	.	PUNCT	PunctType=Peri	44	punct	mantener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	25
@@ -3240,19 +3240,19 @@ agradecer	agradecer	agradecer	VERB	VerbForm=Inf	2	xcomp	querer	VERB	Mood=Ind Num
 les	les	él	PRON	Case=Dat Number=Plur Person=3 PronType=Prs	3	obj	agradecer	VERB	VerbForm=Inf	2
 a	a	a	ADP	AdpType=Prep	4	case	todo	PRON	Gender=Masc Number=Plur PronType=Tot	5
 todos	todos	todo	PRON	Gender=Masc Number=Plur PronType=Tot	5	obj	agradecer	VERB	VerbForm=Inf	2
-sinceramente	sinceramente	sinceramente	ADV	-	6	advmod	agradecer	VERB	VerbForm=Inf	2
+sinceramente	sinceramente	sinceramente	ADV		6	advmod	agradecer	VERB	VerbForm=Inf	2
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	7	det	disposición	NOUN	Gender=Fem Number=Sing	8
 disposición	disposición	disposición	NOUN	Gender=Fem Number=Sing	8	obj	agradecer	VERB	VerbForm=Inf	2
 que	que	que	PRON	PronType=Int,Rel	9	obj	tener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	11
 han	han	haber	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	10	aux	tener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	11
 tenido	tenido	tener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	11	acl	disposición	NOUN	Gender=Fem Number=Sing	8
-siempre	siempre	siempre	ADV	-	12	advmod	tener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	11
+siempre	siempre	siempre	ADV		12	advmod	tener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	11
 para	para	para	ADP	AdpType=Prep	13	mark	hablar	VERB	VerbForm=Inf	15
 poder	poder	poder	AUX	VerbForm=Inf	14	aux	hablar	VERB	VerbForm=Inf	15
 hablar	hablar	hablar	VERB	VerbForm=Inf	15	advcl	tener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	11
 con	con	con	ADP	AdpType=Prep	16	case	yo	PRON	Case=Acc,Nom Gender=Masc Number=Plur Person=1 PronType=Prs	17
 nosotros	nosotros	yo	PRON	Case=Acc,Nom Gender=Masc Number=Plur Person=1 PronType=Prs	17	obl	hablar	VERB	VerbForm=Inf	15
-y	y	y	CCONJ	-	18	cc	compartir	VERB	VerbForm=Inf	21
+y	y	y	CCONJ		18	cc	compartir	VERB	VerbForm=Inf	21
 para	para	para	ADP	AdpType=Prep	19	mark	compartir	VERB	VerbForm=Inf	21
 poder	poder	poder	AUX	VerbForm=Inf	20	aux	compartir	VERB	VerbForm=Inf	21
 compartir	compartir	compartir	VERB	VerbForm=Inf	21	conj	hablar	VERB	VerbForm=Inf	15
@@ -3280,16 +3280,16 @@ esas	esas	ese	DET	Gender=Fem Number=Plur PronType=Dem	13	det	conversación	NOUN	
 conversaciones	conversaciones	conversación	NOUN	Gender=Fem Number=Plur	14	appos	encuentro	NOUN	Gender=Masc Number=Plur	11
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	15	punct	permitanmar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	17
-y	y	y	CCONJ	-	16	cc	permitanmar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	17
+y	y	y	CCONJ		16	cc	permitanmar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	17
 permítanme	permítanme	permitanmar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	17	conj	dedicar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	2
-que	que	que	SCONJ	-	18	mark	sacar	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	19
+que	que	que	SCONJ		18	mark	sacar	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	19
 saque	saque	sacar	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	19	ccomp	permitanmar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	17
 una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	20	det	conclusión	NOUN	Gender=Fem Number=Sing	21
 conclusión	conclusión	conclusión	NOUN	Gender=Fem Number=Sing	21	obj	sacar	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	19
 especial	especial	especial	ADJ	Number=Sing	22	amod	conclusión	NOUN	Gender=Fem Number=Sing	21
-y	y	y	CCONJ	-	23	cc	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	24
+y	y	y	CCONJ		23	cc	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	24
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	24	conj	permitanmar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	17
-que	que	que	SCONJ	-	25	mark	abordar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	30
+que	que	que	SCONJ		25	mark	abordar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	30
 en	en	en	ADP	AdpType=Prep	26	case	ninguno	PRON	Gender=Fem Number=Sing PronType=Neg	27
 ninguna	ninguna	ninguno	PRON	Gender=Fem Number=Sing PronType=Neg	27	obl	abordar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	30
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	28	expl:pass	abordar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	30
@@ -3305,14 +3305,14 @@ real	real	real	ADJ	Number=Sing	37	amod	decreto-ley	NOUN	Gender=Masc Number=Sing	
 decreto-ley	decreto-ley	decreto-ley	NOUN	Gender=Masc Number=Sing	38	nmod	contenido	NOUN	Gender=Masc Number=Sing	35
 que	que	que	PRON	PronType=Int,Rel	39	obj	modificar	VERB	VerbForm=Inf	42
 hubiera	hubiera	haber	AUX	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	40	acl	decreto-ley	NOUN	Gender=Masc Number=Sing	38
-que	que	que	SCONJ	-	41	cc	modificar	VERB	VerbForm=Inf	42
+que	que	que	SCONJ		41	cc	modificar	VERB	VerbForm=Inf	42
 modificar	modificar	modificar	VERB	VerbForm=Inf	42	conj	haber	AUX	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	40
-o	o	o	CCONJ	-	43	cc	eliminar	VERB	VerbForm=Inf	44
+o	o	o	CCONJ		43	cc	eliminar	VERB	VerbForm=Inf	44
 eliminar	eliminar	eliminar	VERB	VerbForm=Inf	44	conj	modificar	VERB	VerbForm=Inf	42
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	45	punct	ir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	50
-sino	sino	sino	CCONJ	-	46	cc	ir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	50
-que	que	que	SCONJ	-	47	fixed	sino	CCONJ	-	46
+sino	sino	sino	CCONJ		46	cc	ir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	50
+que	que	que	SCONJ		47	fixed	sino	CCONJ		46
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	48	expl:pv	ir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	50
 ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	49	aux	ir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	50
 ido	ido	ir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	50	conj	haber	AUX	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	40
@@ -3327,7 +3327,7 @@ algunas	algunas	alguno	PRON	Gender=Fem Number=Plur PronType=Ind	57	nsubj	ir	VERB
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	58	punct	por	ADP	AdpType=Prep	59
 por	por	por	ADP	AdpType=Prep	59	advmod	ajeno	ADJ	Gender=Fem Number=Plur	62
-desgracia	desgracia	desgracia	NOUN	-	60	fixed	por	ADP	AdpType=Prep	59
+desgracia	desgracia	desgracia	NOUN		60	fixed	por	ADP	AdpType=Prep	59
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	61	punct	por	ADP	AdpType=Prep	59
 ajenas	ajenas	ajeno	ADJ	Gender=Fem Number=Plur	62	amod	alguno	PRON	Gender=Fem Number=Plur PronType=Ind	57
@@ -3337,7 +3337,7 @@ del	del	del	ADP	AdpType=Preppron	65	case	decreto-ley	NOUN	Gender=Masc Number=Sin
 real	real	real	ADJ	Number=Sing	66	amod	decreto-ley	NOUN	Gender=Masc Number=Sing	67
 decreto-ley	decreto-ley	decreto-ley	NOUN	Gender=Masc Number=Sing	67	nmod	contenido	NOUN	Gender=Masc Number=Sing	64
 <g/>
-.	.	.	PUNCT	PunctType=Peri	68	punct	sino	CCONJ	-	46
+.	.	.	PUNCT	PunctType=Peri	68	punct	sino	CCONJ		46
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.11.4">
 En	En	en	ADP	AdpType=Prep	1	case	caso	NOUN	Gender=Masc Number=Sing	3
@@ -3347,13 +3347,13 @@ se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	4	expl:pv	
 ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5	aux	entrar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	6
 entrado	entrado	entrar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	6	root	-	-	-	-
 a	a	a	ADP	AdpType=Prep	7	advmod	entrar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	6
-fondo	fondo	fondo	NOUN	-	8	fixed	a	ADP	AdpType=Prep	7
+fondo	fondo	fondo	NOUN		8	fixed	a	ADP	AdpType=Prep	7
 en	en	en	ADP	AdpType=Prep	9	case	necesidad	NOUN	Gender=Fem Number=Sing	11
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	10	det	necesidad	NOUN	Gender=Fem Number=Sing	11
 necesidad	necesidad	necesidad	NOUN	Gender=Fem Number=Sing	11	obl	entrar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	6
 de	de	de	ADP	AdpType=Prep	12	mark	modificar	VERB	VerbForm=Inf	13
 modificar	modificar	modificar	VERB	VerbForm=Inf	13	acl	necesidad	NOUN	Gender=Fem Number=Sing	11
-o	o	o	CCONJ	-	14	cc	eliminar	VERB	VerbForm=Inf	15
+o	o	o	CCONJ		14	cc	eliminar	VERB	VerbForm=Inf	15
 eliminar	eliminar	eliminar	VERB	VerbForm=Inf	15	conj	modificar	VERB	VerbForm=Inf	13
 alguno	alguno	alguno	PRON	Gender=Masc Number=Sing PronType=Ind	16	obj	modificar	VERB	VerbForm=Inf	13
 de	de	de	ADP	AdpType=Prep	17	case	contenido	NOUN	Gender=Masc Number=Plur	19
@@ -3372,20 +3372,20 @@ esa	esa	ese	DET	Gender=Fem Number=Sing PronType=Dem	2	det	situación	NOUN	Gender
 situación	situación	situación	NOUN	Gender=Fem Number=Sing	3	obl	gustar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	7
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	4	punct	situación	NOUN	Gender=Fem Number=Sing	3
-también	también	también	ADV	-	5	advmod	gustar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	7
+también	también	también	ADV		5	advmod	gustar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	7
 me	me	yo	PRON	Case=Dat Number=Sing Person=1 PrepCase=Npr PronType=Prs	6	iobj	gustar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	7
 gustaría	gustaría	gustar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	7	root	-	-	-	-
 destacar	destacar	destacar	VERB	VerbForm=Inf	8	csubj	gustar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	7
-que	que	que	SCONJ	-	9	mark	importante	ADJ	Number=Sing	19
+que	que	que	SCONJ		9	mark	importante	ADJ	Number=Sing	19
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	10	det	presencia	NOUN	Gender=Fem Number=Sing	11
 presencia	presencia	presencia	NOUN	Gender=Fem Number=Sing	11	nsubj	importante	ADJ	Number=Sing	19
 de	de	de	ADP	AdpType=Prep	12	case	comisaria	NOUN	Gender=Fem Number=Sing	14
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	13	det	comisaria	NOUN	Gender=Fem Number=Sing	14
 comisaria	comisaria	comisaria	NOUN	Gender=Fem Number=Sing	14	nmod	presencia	NOUN	Gender=Fem Number=Sing	11
-en	en	en	ADP	AdpType=Prep	15	case	Cámara	PROPN	-	17
-esta	esta	este	DET	Gender=Fem Number=Sing PronType=Dem	16	det	Cámara	PROPN	-	17
+en	en	en	ADP	AdpType=Prep	15	case	Cámara	PROPN		17
+esta	esta	este	DET	Gender=Fem Number=Sing PronType=Dem	16	det	Cámara	PROPN		17
 <name type="ORG">
-Cámara	Cámara	Cámara	PROPN	-	17	nmod	presencia	NOUN	Gender=Fem Number=Sing	11
+Cámara	Cámara	Cámara	PROPN		17	nmod	presencia	NOUN	Gender=Fem Number=Sing	11
 </name>
 fue	fue	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	18	cop	importante	ADJ	Number=Sing	19
 importante	importante	importante	ADJ	Number=Sing	19	ccomp	destacar	VERB	VerbForm=Inf	8
@@ -3402,18 +3402,18 @@ ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	29	aux	lle
 llevado	llevado	llevar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	30	acl	proceso	NOUN	Gender=Masc Number=Sing	27
 a	a	a	ADP	AdpType=Prep	31	case	cabo	NOUN	Gender=Masc Number=Sing	32
 cabo	cabo	cabo	NOUN	Gender=Masc Number=Sing	32	compound	llevar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	30
-el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	33	det	Gobierno	PROPN	-	34
+el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	33	det	Gobierno	PROPN		34
 <name type="ORG">
-Gobierno	Gobierno	Gobierno	PROPN	-	34	nsubj	llevar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	30
+Gobierno	Gobierno	Gobierno	PROPN		34	nsubj	llevar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	30
 </name>
-y	y	y	CCONJ	-	35	cc	necesidad	NOUN	Gender=Fem Number=Sing	37
+y	y	y	CCONJ		35	cc	necesidad	NOUN	Gender=Fem Number=Sing	37
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	36	det	necesidad	NOUN	Gender=Fem Number=Sing	37
-necesidad	necesidad	necesidad	NOUN	Gender=Fem Number=Sing	37	conj	Gobierno	PROPN	-	34
+necesidad	necesidad	necesidad	NOUN	Gender=Fem Number=Sing	37	conj	Gobierno	PROPN		34
 de	de	de	ADP	AdpType=Prep	38	case	convalidación	NOUN	Gender=Fem Number=Sing	40
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	39	det	convalidación	NOUN	Gender=Fem Number=Sing	40
 convalidación	convalidación	convalidación	NOUN	Gender=Fem Number=Sing	40	nmod	necesidad	NOUN	Gender=Fem Number=Sing	37
 por	por	por	ADP	AdpType=Prep	41	case	grupo	NOUN	Gender=Masc Number=Plur	45
-parte	parte	parte	NOUN	-	42	fixed	por	ADP	AdpType=Prep	41
+parte	parte	parte	NOUN		42	fixed	por	ADP	AdpType=Prep	41
 de	de	de	ADP	AdpType=Prep	43	fixed	por	ADP	AdpType=Prep	41
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	44	det	grupo	NOUN	Gender=Masc Number=Plur	45
 grupos	grupos	grupo	NOUN	Gender=Masc Number=Plur	45	nmod	necesidad	NOUN	Gender=Fem Number=Sing	37
@@ -3437,13 +3437,13 @@ El	El	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	1	det	decreto-ley
 real	real	real	ADJ	Number=Sing	2	amod	decreto-ley	NOUN	Gender=Masc Number=Sing	3
 decreto-ley	decreto-ley	decreto-ley	NOUN	Gender=Masc Number=Sing	3	nsubj	sencillo	ADJ	Gender=Masc Number=Sing	6
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4	cop	sencillo	ADJ	Gender=Masc Number=Sing	6
-muy	muy	mucho	ADV	-	5	advmod	sencillo	ADJ	Gender=Masc Number=Sing	6
+muy	muy	mucho	ADV		5	advmod	sencillo	ADJ	Gender=Masc Number=Sing	6
 sencillo	sencillo	sencillo	ADJ	Gender=Masc Number=Sing	6	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	7	punct	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	9
 no	no	no	ADV	Polarity=Neg	8	advmod	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	9
 tiene	tiene	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	9	advcl	sencillo	ADJ	Gender=Masc Number=Sing	6
-prácticamente	prácticamente	prácticamente	ADV	-	10	advmod	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	9
+prácticamente	prácticamente	prácticamente	ADV		10	advmod	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	9
 nada	nada	nada	PRON	Number=Sing PronType=Neg	11	obj	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	9
 en	en	en	ADP	AdpType=Prep	12	case	relativo	ADJ	Gender=Masc Number=Sing	14
 lo	lo	él	PRON	Case=Acc Definite=Def Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	13	det	relativo	ADJ	Gender=Masc Number=Sing	14
@@ -3457,23 +3457,23 @@ por	por	por	ADP	AdpType=Prep	19	case	ese	PRON	Number=Sing PronType=Dem	20
 eso	eso	ese	PRON	Number=Sing PronType=Dem	20	obl	insistir	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	21
 insistimos	insistimos	insistir	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	21	advcl	sencillo	ADJ	Gender=Masc Number=Sing	6
 una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	22	det	vez	NOUN	Gender=Fem Number=Sing	25
-y	y	y	CCONJ	-	23	cc	otro	DET	Gender=Fem Number=Sing PronType=Ind	24
+y	y	y	CCONJ		23	cc	otro	DET	Gender=Fem Number=Sing PronType=Ind	24
 otra	otra	otro	DET	Gender=Fem Number=Sing PronType=Ind	24	conj	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	22
 vez	vez	vez	NOUN	Gender=Fem Number=Sing	25	obl	insistir	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	21
-que	que	que	SCONJ	-	26	mark	ir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	28
+que	que	que	SCONJ		26	mark	ir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	28
 no	no	no	ADV	Polarity=Neg	27	advmod	ir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	28
 va	va	ir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	28	ccomp	insistir	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	21
-más	más	más	ADV	Degree=Cmp	29	advmod	allá	ADV	-	30
-allá	allá	allá	ADV	-	30	advmod	ir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	28
+más	más	más	ADV	Degree=Cmp	29	advmod	allá	ADV		30
+allá	allá	allá	ADV		30	advmod	ir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	28
 del	del	del	ADP	AdpType=Preppron	31	case	cumplimiento	NOUN	Gender=Masc Number=Sing	33
 estricto	estricto	estricto	ADJ	Gender=Masc Number=Sing	32	amod	cumplimiento	NOUN	Gender=Masc Number=Sing	33
-cumplimiento	cumplimiento	cumplimiento	NOUN	Gender=Masc Number=Sing	33	obl	allá	ADV	-	30
+cumplimiento	cumplimiento	cumplimiento	NOUN	Gender=Masc Number=Sing	33	obl	allá	ADV		30
 de	de	de	ADP	AdpType=Prep	34	case	sentencia	NOUN	Gender=Fem Number=Sing	36
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	35	det	sentencia	NOUN	Gender=Fem Number=Sing	36
 sentencia	sentencia	sentencia	NOUN	Gender=Fem Number=Sing	36	nmod	cumplimiento	NOUN	Gender=Masc Number=Sing	33
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	37	punct	entrar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	40
-porque	porque	porque	SCONJ	-	38	mark	entrar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	40
+porque	porque	porque	SCONJ		38	mark	entrar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	40
 no	no	no	ADV	Polarity=Neg	39	advmod	entrar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	40
 entra	entra	entrar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	40	advcl	ir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	28
 en	en	en	ADP	AdpType=Prep	41	case	tipo	NOUN	Gender=Masc Number=Sing	43
@@ -3483,17 +3483,17 @@ de	de	de	ADP	AdpType=Prep	44	case	consideración	NOUN	Gender=Fem Number=Plur	45
 consideraciones	consideraciones	consideración	NOUN	Gender=Fem Number=Plur	45	nmod	tipo	NOUN	Gender=Masc Number=Sing	43
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	46	punct	acatar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	48
-simplemente	simplemente	simplemente	ADV	-	47	advmod	acatar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	48
+simplemente	simplemente	simplemente	ADV		47	advmod	acatar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	48
 acata	acata	acatar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	48	advcl	entrar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	40
 esa	esa	ese	DET	Gender=Fem Number=Sing PronType=Dem	49	det	sentencia	NOUN	Gender=Fem Number=Sing	50
 sentencia	sentencia	sentencia	NOUN	Gender=Fem Number=Sing	50	obj	acatar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	48
 en	en	en	ADP	AdpType=Prep	51	case	término	NOUN	Gender=Masc Number=Plur	53
 sus	sus	su	DET	Number=Plur Person=3 Poss=Yes PronType=Prs	52	det	término	NOUN	Gender=Masc Number=Plur	53
 términos	términos	término	NOUN	Gender=Masc Number=Plur	53	obl	acatar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	48
-y	y	y	CCONJ	-	54	cc	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	58
+y	y	y	CCONJ		54	cc	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	58
 por	por	por	ADP	AdpType=Prep	55	case	ese	PRON	Number=Sing PronType=Dem	56
 eso	eso	ese	PRON	Number=Sing PronType=Dem	56	obl	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	58
-solo	solo	solo	NOUN	-	57	advmod	ese	PRON	Number=Sing PronType=Dem	56
+solo	solo	solo	NOUN		57	advmod	ese	PRON	Number=Sing PronType=Dem	56
 tiene	tiene	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	58	conj	acatar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	48
 cuatro	cuatro	cuatro	NUM	NumType=Card Number=Plur	59	nummod	artículo	NOUN	Gender=Masc Number=Plur	60
 artículos	artículos	artículo	NOUN	Gender=Masc Number=Plur	60	obj	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	58
@@ -3510,7 +3510,7 @@ el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	6	det	objeto	NOUN
 objeto	objeto	objeto	NOUN	Gender=Masc Number=Sing	7	obj	establecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
 del	del	del	ADP	AdpType=Preppron	8	case	real	NOUN	Gender=Masc Number=Sing	9
 real	real	real	NOUN	Gender=Masc Number=Sing	9	nmod	objeto	NOUN	Gender=Masc Number=Sing	7
-decreto-ley	decreto-ley	decreto-ley	NOUN	-	10	compound	real	NOUN	Gender=Masc Number=Sing	9
+decreto-ley	decreto-ley	decreto-ley	NOUN		10	compound	real	NOUN	Gender=Masc Number=Sing	9
 <g/>
 ;	;	;	PUNCT	PunctType=Semi	11	punct	establecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	14
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	12	det	segundo	ADJ	Gender=Masc NumType=Ord Number=Sing	13
@@ -3524,8 +3524,8 @@ la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	19	det	sentencia	N
 sentencia	sentencia	sentencia	NOUN	Gender=Fem Number=Sing	20	nmod	cumplimiento	NOUN	Gender=Masc Number=Sing	17
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	21	punct	obligación	NOUN	Gender=Fem Number=Sing	27
-es	es	es	NOUN	-	22	cc	obligación	NOUN	Gender=Fem Number=Sing	27
-decir	decir	decir	NOUN	-	23	fixed	es	NOUN	-	22
+es	es	es	NOUN		22	cc	obligación	NOUN	Gender=Fem Number=Sing	27
+decir	decir	decir	NOUN		23	fixed	es	NOUN		22
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	24	punct	obligación	NOUN	Gender=Fem Number=Sing	27
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	25	det	obligación	NOUN	Gender=Fem Number=Sing	27
@@ -3540,13 +3540,13 @@ en	en	en	ADP	AdpType=Prep	33	case	capital	NOUN	Gender=Masc Number=Sing	35
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	34	det	capital	NOUN	Gender=Masc Number=Sing	35
 capital	capital	capital	NOUN	Gender=Masc Number=Sing	35	obj	participar	VERB	VerbForm=Inf	32
 social	social	social	ADJ	Number=Sing	36	amod	capital	NOUN	Gender=Masc Number=Sing	35
-y	y	y	CCONJ	-	37	cc	libertad	NOUN	Gender=Fem Number=Sing	39
+y	y	y	CCONJ		37	cc	libertad	NOUN	Gender=Fem Number=Sing	39
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	38	det	libertad	NOUN	Gender=Fem Number=Sing	39
 libertad	libertad	libertad	NOUN	Gender=Fem Number=Sing	39	conj	capital	NOUN	Gender=Masc Number=Sing	35
 de	de	de	ADP	AdpType=Prep	40	case	contratación	NOUN	Gender=Fem Number=Sing	41
 contratación	contratación	contratación	NOUN	Gender=Fem Number=Sing	41	nmod	libertad	NOUN	Gender=Fem Number=Sing	39
 por	por	por	ADP	AdpType=Prep	42	case	trabajador	NOUN	Gender=Masc Number=Plur	46
-parte	parte	parte	NOUN	-	43	fixed	por	ADP	AdpType=Prep	42
+parte	parte	parte	NOUN		43	fixed	por	ADP	AdpType=Prep	42
 de	de	de	ADP	AdpType=Prep	44	fixed	por	ADP	AdpType=Prep	42
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	45	det	trabajador	NOUN	Gender=Masc Number=Plur	46
 trabajadores	trabajadores	trabajador	NOUN	Gender=Masc Number=Plur	46	nmod	libertad	NOUN	Gender=Fem Number=Sing	39
@@ -3560,10 +3560,10 @@ requisitos	requisitos	requisito	NOUN	Gender=Masc Number=Plur	52	obj	definir	VERB
 de	de	de	ADP	AdpType=Prep	53	case	capacitación	NOUN	Gender=Fem Number=Sing	54
 capacitación	capacitación	capacitación	NOUN	Gender=Fem Number=Sing	54	nmod	requisito	NOUN	Gender=Masc Number=Plur	52
 para	para	para	ADP	AdpType=Prep	55	mark	objetivo	NOUN	Gender=Masc Number=Plur	58
-que	que	que	SCONJ	-	56	mark	objetivo	NOUN	Gender=Masc Number=Plur	58
+que	que	que	SCONJ		56	mark	objetivo	NOUN	Gender=Masc Number=Plur	58
 sean	sean	ser	AUX	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	57	cop	objetivo	NOUN	Gender=Masc Number=Plur	58
 objetivos	objetivos	objetivo	NOUN	Gender=Masc Number=Plur	58	acl	requisito	NOUN	Gender=Masc Number=Plur	52
-y	y	y	CCONJ	-	59	cc	transparente	ADJ	Number=Plur	60
+y	y	y	CCONJ		59	cc	transparente	ADJ	Number=Plur	60
 transparentes	transparentes	transparente	ADJ	Number=Plur	60	conj	objetivo	NOUN	Gender=Masc Number=Plur	58
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	61	punct	otro	PRON	Gender=Masc Number=Plur PronType=Ind	65
@@ -3579,7 +3579,7 @@ académica	académica	académico	ADJ	Gender=Fem Number=Sing	70	amod	titulación	
 en	en	en	ADP	AdpType=Prep	71	case	formación	NOUN	Gender=Fem Number=Sing	72
 formación	formación	formación	NOUN	Gender=Fem Number=Sing	72	nmod	titulación	NOUN	Gender=Fem Number=Sing	69
 profesional	profesional	profesional	ADJ	Number=Sing	73	amod	formación	NOUN	Gender=Fem Number=Sing	72
-o	o	o	CCONJ	-	74	cc	reconocimiento	NOUN	Gender=Masc Number=Sing	76
+o	o	o	CCONJ		74	cc	reconocimiento	NOUN	Gender=Masc Number=Sing	76
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	75	det	reconocimiento	NOUN	Gender=Masc Number=Sing	76
 reconocimiento	reconocimiento	reconocimiento	NOUN	Gender=Masc Number=Sing	76	conj	titulación	NOUN	Gender=Fem Number=Sing	69
 de	de	de	ADP	AdpType=Prep	77	case	experiencia	NOUN	Gender=Fem Number=Sing	79
@@ -3587,7 +3587,7 @@ la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	78	det	experiencia
 experiencia	experiencia	experiencia	NOUN	Gender=Fem Number=Sing	79	nmod	reconocimiento	NOUN	Gender=Masc Number=Sing	76
 profesional	profesional	profesional	ADJ	Number=Sing	80	amod	experiencia	NOUN	Gender=Fem Number=Sing	79
 a	a	a	ADP	AdpType=Prep	81	case	certificado	NOUN	Gender=Masc Number=Sing	85
-través	través	través	NOUN	-	82	fixed	a	ADP	AdpType=Prep	81
+través	través	través	NOUN		82	fixed	a	ADP	AdpType=Prep	81
 de	de	de	ADP	AdpType=Prep	83	fixed	a	ADP	AdpType=Prep	81
 un	un	uno	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	84	det	certificado	NOUN	Gender=Masc Number=Sing	85
 certificado	certificado	certificado	NOUN	Gender=Masc Number=Sing	85	nmod	reconocimiento	NOUN	Gender=Masc Number=Sing	76
@@ -3599,15 +3599,15 @@ regulado	regulado	regulado	ADJ	Gender=Masc Number=Sing VerbForm=Part	90	acl	cert
 en	en	en	ADP	AdpType=Prep	91	case	decreto	NOUN	Gender=Masc Number=Sing	93
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	92	det	decreto	NOUN	Gender=Masc Number=Sing	93
 decreto	decreto	decreto	NOUN	Gender=Masc Number=Sing	93	obl	regulado	ADJ	Gender=Masc Number=Sing VerbForm=Part	90
-ya	ya	ya	ADV	-	94	advmod	existente	ADJ	Number=Sing	95
+ya	ya	ya	ADV		94	advmod	existente	ADJ	Number=Sing	95
 existente	existente	existente	ADJ	Number=Sing	95	amod	decreto	NOUN	Gender=Masc Number=Sing	93
 <g/>
-,	,	,	PUNCT	PunctType=Comm	96	punct	alternativamente	ADV	-	98
-o	o	o	CCONJ	-	97	cc	alternativamente	ADV	-	98
-alternativamente	alternativamente	alternativamente	ADV	-	98	conj	existente	ADJ	Number=Sing	95
+,	,	,	PUNCT	PunctType=Comm	96	punct	alternativamente	ADV		98
+o	o	o	CCONJ		97	cc	alternativamente	ADV		98
+alternativamente	alternativamente	alternativamente	ADV		98	conj	existente	ADJ	Number=Sing	95
 -	-	-	PUNCT	PunctType=Dash	99	punct	uno	PRON	Gender=Fem Number=Sing PronType=Ind	103
 <g/>
-y	y	y	CCONJ	-	100	cc	uno	PRON	Gender=Fem Number=Sing PronType=Ind	103
+y	y	y	CCONJ		100	cc	uno	PRON	Gender=Fem Number=Sing PronType=Ind	103
 esta	esta	este	PRON	Gender=Fem Number=Sing PronType=Dem	101	nsubj	uno	PRON	Gender=Fem Number=Sing PronType=Ind	103
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	102	cop	uno	PRON	Gender=Fem Number=Sing PronType=Ind	103
 una	una	uno	PRON	Gender=Fem Number=Sing PronType=Ind	103	conj	regulado	ADJ	Gender=Masc Number=Sing VerbForm=Part	90
@@ -3618,11 +3618,11 @@ que	que	que	PRON	PronType=Int,Rel	107	nsubj	conseguir	VERB	Mood=Ind Number=Sing 
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	108	expl:pass	conseguir	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	109
 consiguió	consiguió	conseguir	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	109	acl	cuestión	NOUN	Gender=Fem Number=Plur	106
 obtener	obtener	obtener	VERB	VerbForm=Inf	110	xcomp	conseguir	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	109
-de	de	de	ADP	AdpType=Prep	111	case	Comisión	PROPN	-	113
-la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	112	det	Comisión	PROPN	-	113
+de	de	de	ADP	AdpType=Prep	111	case	Comisión	PROPN		113
+la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	112	det	Comisión	PROPN		113
 <name type="ORG">
-Comisión	Comisión	Comisión	PROPN	-	113	obj	obtener	VERB	VerbForm=Inf	110
-Europea	Europea	Europea	PROPN	-	114	flat	Comisión	PROPN	-	113
+Comisión	Comisión	Comisión	PROPN		113	obj	obtener	VERB	VerbForm=Inf	110
+Europea	Europea	Europea	PROPN		114	flat	Comisión	PROPN		113
 <g/>
 </name>
 -	-	-	PUNCT	PunctType=Dash	115	punct	acreditar	VERB	VerbForm=Inf	117
@@ -3653,15 +3653,15 @@ que	que	que	PRON	PronType=Int,Rel	138	nsubj	estar	AUX	Mood=Sub Number=Plur Perso
 en	en	en	ADP	AdpType=Prep	139	case	momento	NOUN	Gender=Masc Number=Plur	141
 estos	estos	este	DET	Gender=Masc Number=Plur PronType=Dem	140	det	momento	NOUN	Gender=Masc Number=Plur	141
 momentos	momentos	momento	NOUN	Gender=Masc Number=Plur	141	obl	estar	AUX	Mood=Sub Number=Plur Person=3 Tense=Imp VerbForm=Fin	144
-en	en	en	ADP	AdpType=Prep	142	case	España	PROPN	-	143
+en	en	en	ADP	AdpType=Prep	142	case	España	PROPN		143
 <name type="LOC">
-España	España	España	PROPN	-	143	nmod	momento	NOUN	Gender=Masc Number=Plur	141
+España	España	España	PROPN		143	nmod	momento	NOUN	Gender=Masc Number=Plur	141
 </name>
 estuvieran	estuvieran	estar	AUX	Mood=Sub Number=Plur Person=3 Tense=Imp VerbForm=Fin	144	acl	persona	NOUN	Gender=Fem Number=Plur	137
 en	en	en	ADP	AdpType=Prep	145	case	sector	NOUN	Gender=Masc Number=Sing	147
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	146	det	sector	NOUN	Gender=Masc Number=Sing	147
 sector	sector	sector	NOUN	Gender=Masc Number=Sing	147	obl	estar	AUX	Mood=Sub Number=Plur Person=3 Tense=Imp VerbForm=Fin	144
-y	y	y	CCONJ	-	148	cc	acreditar	VERB	VerbForm=Inf	151
+y	y	y	CCONJ		148	cc	acreditar	VERB	VerbForm=Inf	151
 no	no	no	ADV	Polarity=Neg	149	advmod	acreditar	VERB	VerbForm=Inf	151
 pudieran	pudieran	poder	AUX	Mood=Sub Number=Plur Person=3 Tense=Imp VerbForm=Fin	150	aux	acreditar	VERB	VerbForm=Inf	151
 acreditar	acreditar	acreditar	VERB	VerbForm=Inf	151	conj	estar	AUX	Mood=Sub Number=Plur Person=3 Tense=Imp VerbForm=Fin	144
@@ -3670,10 +3670,10 @@ certificados	certificados	certificado	NOUN	Gender=Masc Number=Plur	153	obj	acred
 anteriores	anteriores	anterior	ADJ	Number=Plur	154	amod	certificado	NOUN	Gender=Masc Number=Plur	153
 <g/>
 ;	;	;	PUNCT	PunctType=Semi	155	punct	dar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	160
-es	es	es	NOUN	-	156	cc	dar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	160
-decir	decir	decir	NOUN	-	157	fixed	es	NOUN	-	156
+es	es	es	NOUN		156	cc	dar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	160
+decir	decir	decir	NOUN		157	fixed	es	NOUN		156
 <g/>
-,	,	,	PUNCT	PunctType=Comm	158	punct	es	NOUN	-	156
+,	,	,	PUNCT	PunctType=Comm	158	punct	es	NOUN		156
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	159	expl:pass	dar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	160
 daba	daba	dar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	160	conj	permitir	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	132
 una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	161	det	salida	NOUN	Gender=Fem Number=Sing	162
@@ -3691,8 +3691,8 @@ trabajadores	trabajadores	trabajador	NOUN	Gender=Masc Number=Plur	170	nmod	cien	
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.11.9">
 Por	Por	por	ADP	AdpType=Prep	1	advmod	establecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	8
-otro	otro	otro	ADJ	-	2	fixed	por	ADP	AdpType=Prep	1
-lado	lado	lado	NOUN	-	3	fixed	por	ADP	AdpType=Prep	1
+otro	otro	otro	ADJ		2	fixed	por	ADP	AdpType=Prep	1
+lado	lado	lado	NOUN		3	fixed	por	ADP	AdpType=Prep	1
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	4	punct	por	ADP	AdpType=Prep	1
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	5	det	artículo	NOUN	Gender=Masc Number=Sing	6
@@ -3719,13 +3719,13 @@ referido	referido	referir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	
 .	.	.	PUNCT	PunctType=Peri	23	punct	establecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	8
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.11.10">
-Además	Además	además	ADV	-	1	advmod	indicar	VERB	VerbForm=Inf	5
+Además	Además	además	ADV		1	advmod	indicar	VERB	VerbForm=Inf	5
 <g/>
-,	,	,	PUNCT	PunctType=Comm	2	punct	además	ADV	-	1
+,	,	,	PUNCT	PunctType=Comm	2	punct	además	ADV		1
 he	he	haber	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3	aux	indicar	VERB	VerbForm=Inf	5
 de	de	de	ADP	AdpType=Prep	4	mark	indicar	VERB	VerbForm=Inf	5
 indicar	indicar	indicar	VERB	VerbForm=Inf	5	root	-	-	-	-
-que	que	que	SCONJ	-	6	mark	incluir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	9
+que	que	que	SCONJ		6	mark	incluir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	9
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	7	expl:pass	incluir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	9
 han	han	haber	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	8	aux	incluir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	9
 incluido	incluido	incluir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	9	ccomp	indicar	VERB	VerbForm=Inf	5
@@ -3756,7 +3756,7 @@ transición	transición	transición	NOUN	Gender=Fem Number=Sing	13	nmod	periodo	
 .	.	.	PUNCT	PunctType=Peri	14	punct	periodo	NOUN	Gender=Masc Number=Sing	11
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.11.12">
-Inicialmente	Inicialmente	inicialmente	ADV	-	1	advmod	plantear	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	3
+Inicialmente	Inicialmente	inicialmente	ADV		1	advmod	plantear	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	3
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	2	expl:pass	plantear	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	3
 planteó	planteó	plantear	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	3	root	-	-	-	-
 hacer	hacer	hacer	VERB	VerbForm=Inf	4	csubj	plantear	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	3
@@ -3765,19 +3765,19 @@ lo	lo	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=P
 en	en	en	ADP	AdpType=Prep	6	case	año	NOUN	Gender=Masc Number=Plur	8
 siete	siete	siete	NUM	NumType=Card Number=Plur	7	nummod	año	NOUN	Gender=Masc Number=Plur	8
 años	años	año	NOUN	Gender=Masc Number=Plur	8	obl	hacer	VERB	VerbForm=Inf	4
-y	y	y	CCONJ	-	9	cc	decir	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	12
-la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	10	det	Comisión	PROPN	-	11
+y	y	y	CCONJ		9	cc	decir	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	12
+la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	10	det	Comisión	PROPN		11
 <name type="ORG">
-Comisión	Comisión	Comisión	PROPN	-	11	nsubj	decir	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	12
+Comisión	Comisión	Comisión	PROPN		11	nsubj	decir	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	12
 </name>
 dijo	dijo	decir	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	12	conj	plantear	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	3
-que	que	que	SCONJ	-	13	mark	no	ADV	Polarity=Neg	14
+que	que	que	SCONJ		13	mark	no	ADV	Polarity=Neg	14
 no	no	no	ADV	Polarity=Neg	14	obj	decir	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	12
 <g/>
 .	.	.	PUNCT	PunctType=Peri	15	punct	plantear	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	3
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.11.13">
-Finalmente	Finalmente	finalmente	ADV	-	1	advmod	periodo	NOUN	Gender=Masc Number=Sing	12
+Finalmente	Finalmente	finalmente	ADV		1	advmod	periodo	NOUN	Gender=Masc Number=Sing	12
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	2	punct	esfuerzo	NOUN	Gender=Masc Number=Sing	6
 en	en	en	ADP	AdpType=Prep	3	case	esfuerzo	NOUN	Gender=Masc Number=Sing	6
@@ -3796,15 +3796,15 @@ transición	transición	transición	NOUN	Gender=Fem Number=Sing	14	nmod	periodo	
 de	de	de	ADP	AdpType=Prep	15	case	año	NOUN	Gender=Masc Number=Plur	17
 cuatro	cuatro	cuatro	NUM	NumType=Card Number=Plur	16	nummod	año	NOUN	Gender=Masc Number=Plur	17
 años	años	año	NOUN	Gender=Masc Number=Plur	17	nmod	periodo	NOUN	Gender=Masc Number=Sing	12
-y	y	y	CCONJ	-	18	cc	escribir	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	22
-la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	19	det	Comisión	PROPN	-	20
+y	y	y	CCONJ		18	cc	escribir	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	22
+la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	19	det	Comisión	PROPN		20
 <name type="ORG">
-Comisión	Comisión	Comisión	PROPN	-	20	nsubj	escribir	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	22
+Comisión	Comisión	Comisión	PROPN		20	nsubj	escribir	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	22
 </name>
 nos	nos	yo	PRON	Case=Dat Number=Plur Person=1 PrepCase=Npr PronType=Prs	21	iobj	escribir	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	22
 escribió	escribió	escribir	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	22	conj	periodo	NOUN	Gender=Masc Number=Sing	12
 diciendo	diciendo	decir	VERB	VerbForm=Ger	23	advcl	escribir	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	22
-que	que	que	SCONJ	-	24	mark	permitir	VERB	VerbForm=Inf	28
+que	que	que	SCONJ		24	mark	permitir	VERB	VerbForm=Inf	28
 no	no	no	ADV	Polarity=Neg	25	advmod	permitir	VERB	VerbForm=Inf	28
 iba	iba	ir	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	26	aux	permitir	VERB	VerbForm=Inf	28
 a	a	a	ADP	AdpType=Prep	27	mark	permitir	VERB	VerbForm=Inf	28
@@ -3813,8 +3813,8 @@ cuatro	cuatro	cuatro	NUM	NumType=Card Number=Plur	29	nummod	año	NOUN	Gender=Mas
 años	años	año	NOUN	Gender=Masc Number=Plur	30	obj	permitir	VERB	VerbForm=Inf	28
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	31	punct	admitir	VERB	VerbForm=Inf	36
-que	que	que	SCONJ	-	32	mark	admitir	VERB	VerbForm=Inf	36
-solo	solo	solo	ADV	-	33	advmod	admitir	VERB	VerbForm=Inf	36
+que	que	que	SCONJ		32	mark	admitir	VERB	VerbForm=Inf	36
+solo	solo	solo	ADV		33	advmod	admitir	VERB	VerbForm=Inf	36
 iba	iba	ir	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	34	aux	admitir	VERB	VerbForm=Inf	36
 a	a	a	ADP	AdpType=Prep	35	mark	admitir	VERB	VerbForm=Inf	36
 admitir	admitir	admitir	VERB	VerbForm=Inf	36	advcl	permitir	VERB	VerbForm=Inf	28
@@ -3826,10 +3826,10 @@ años	años	año	NOUN	Gender=Masc Number=Plur	41	obj	admitir	VERB	VerbForm=Inf	3
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	42	punct	llevar	VERB	VerbForm=Inf	51
 que	que	que	PRON	PronType=Int,Rel	43	nsubj	llevar	VERB	VerbForm=Inf	51
-en	en	en	ADP	AdpType=Prep	44	case	año	NOUN	-	46
-el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	45	det	año	NOUN	-	46
-año	año	año	NOUN	-	46	obl	llevar	VERB	VerbForm=Inf	51
-2016	2016	2016	NUM	NumForm=Digit NumType=Card	47	compound	año	NOUN	-	46
+en	en	en	ADP	AdpType=Prep	44	case	año	NOUN		46
+el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	45	det	año	NOUN		46
+año	año	año	NOUN		46	obl	llevar	VERB	VerbForm=Inf	51
+2016	2016	2016	NUM	NumForm=Digit NumType=Card	47	compound	año	NOUN		46
 no	no	no	ADV	Polarity=Neg	48	advmod	llevar	VERB	VerbForm=Inf	51
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	49	expl:pass	llevar	VERB	VerbForm=Inf	51
 podía	podía	poder	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	50	aux	llevar	VERB	VerbForm=Inf	51
@@ -3848,13 +3848,13 @@ en	en	en	ADP	AdpType=Prep	62	case	que	PRON	PronType=Int,Rel	64
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	63	det	que	PRON	PronType=Int,Rel	64
 que	que	que	PRON	PronType=Int,Rel	64	obl	estar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	65
 estaba	estaba	estar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	65	acl	situación	NOUN	Gender=Fem Number=Sing	61
-el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	66	det	Gobierno	PROPN	-	67
+el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	66	det	Gobierno	PROPN		67
 <name type="ORG">
-Gobierno	Gobierno	Gobierno	PROPN	-	67	nsubj	estar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	65
+Gobierno	Gobierno	Gobierno	PROPN		67	nsubj	estar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	65
 <g/>
 </name>
 ,	,	,	PUNCT	PunctType=Comm	68	punct	adoptar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	73
-pues	pues	pues	SCONJ	-	69	mark	adoptar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	73
+pues	pues	pues	SCONJ		69	mark	adoptar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	73
 no	no	no	ADV	Polarity=Neg	70	advmod	adoptar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	73
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	71	expl:pass	adoptar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	73
 habían	habían	haber	AUX	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	72	aux	adoptar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	73
@@ -3865,17 +3865,17 @@ contempladas	contempladas	contemplado	ADJ	Gender=Fem Number=Plur VerbForm=Part	7
 en	en	en	ADP	AdpType=Prep	77	case	sentencia	NOUN	Gender=Fem Number=Sing	79
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	78	det	sentencia	NOUN	Gender=Fem Number=Sing	79
 sentencia	sentencia	sentencia	NOUN	Gender=Fem Number=Sing	79	obl	contemplado	ADJ	Gender=Fem Number=Plur VerbForm=Part	76
-y	y	y	CCONJ	-	80	cc	entender	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	84
+y	y	y	CCONJ		80	cc	entender	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	84
 por	por	por	ADP	AdpType=Prep	81	advmod	entender	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	84
 lo	lo	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	82	fixed	por	ADP	AdpType=Prep	81
-tanto	tanto	tanto	NOUN	-	83	fixed	por	ADP	AdpType=Prep	81
+tanto	tanto	tanto	NOUN		83	fixed	por	ADP	AdpType=Prep	81
 entendía	entendía	entender	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	84	conj	adoptar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	73
-que	que	que	SCONJ	-	85	mark	año	NOUN	Gender=Masc Number=Sing	88
+que	que	que	SCONJ		85	mark	año	NOUN	Gender=Masc Number=Sing	88
 era	era	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	86	cop	año	NOUN	Gender=Masc Number=Sing	88
 un	un	uno	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	87	det	año	NOUN	Gender=Masc Number=Sing	88
 año	año	año	NOUN	Gender=Masc Number=Sing	88	ccomp	entender	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	84
 que	que	que	PRON	PronType=Int,Rel	89	nsubj	transcurrir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	92
-ya	ya	ya	ADV	-	90	advmod	transcurrir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	92
+ya	ya	ya	ADV		90	advmod	transcurrir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	92
 había	había	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	91	aux	transcurrir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	92
 transcurrido	transcurrido	transcurrir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	92	acl	año	NOUN	Gender=Masc Number=Sing	88
 <g/>
@@ -3883,10 +3883,10 @@ transcurrido	transcurrido	transcurrir	VERB	Gender=Masc Number=Sing Tense=Past Ve
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.11.14">
 En	En	en	ADP	AdpType=Prep	1	advmod	permitir	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	6
-consecuencia	consecuencia	consecuencia	NOUN	-	2	fixed	en	ADP	AdpType=Prep	1
+consecuencia	consecuencia	consecuencia	NOUN		2	fixed	en	ADP	AdpType=Prep	1
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	3	punct	en	ADP	AdpType=Prep	1
-solo	solo	solo	ADV	-	4	advmod	permitir	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	6
+solo	solo	solo	ADV		4	advmod	permitir	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	6
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	5	expl:pass	permitir	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	6
 permitía	permitía	permitir	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	6	root	-	-	-	-
 un	un	uno	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	7	det	periodo	NOUN	Gender=Masc Number=Sing	8
@@ -3903,7 +3903,7 @@ años	años	año	NOUN	Gender=Masc Number=Plur	13	nmod	periodo	NOUN	Gender=Masc N
 <p id="ParlaMint-ES_2017-03-16-CD170316.u2.12" lang="Spanish">
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.12.1">
 Por	Por	por	ADP	AdpType=Prep	1	advmod	asunción	NOUN	Gender=Fem Number=Sing	9
-último	último	último	NOUN	-	2	fixed	por	ADP	AdpType=Prep	1
+último	último	último	NOUN		2	fixed	por	ADP	AdpType=Prep	1
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	3	punct	por	ADP	AdpType=Prep	1
 una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	4	det	cuestión	NOUN	Gender=Fem Number=Sing	5
@@ -3913,7 +3913,7 @@ es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	7	cop	asunci
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	8	det	asunción	NOUN	Gender=Fem Number=Sing	9
 asunción	asunción	asunción	NOUN	Gender=Fem Number=Sing	9	root	-	-	-	-
 por	por	por	ADP	AdpType=Prep	10	case	autoridad	NOUN	Gender=Fem Number=Plur	14
-parte	parte	parte	NOUN	-	11	fixed	por	ADP	AdpType=Prep	10
+parte	parte	parte	NOUN		11	fixed	por	ADP	AdpType=Prep	10
 de	de	de	ADP	AdpType=Prep	12	fixed	por	ADP	AdpType=Prep	10
 las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	13	det	autoridad	NOUN	Gender=Fem Number=Plur	14
 autoridades	autoridades	autoridad	NOUN	Gender=Fem Number=Plur	14	nmod	asunción	NOUN	Gender=Fem Number=Sing	9
@@ -3923,7 +3923,7 @@ todo	todo	todo	DET	Gender=Masc Number=Sing PronType=Tot	17	det	él	PRON	Case=Acc
 lo	lo	él	PRON	Case=Acc Definite=Def Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	18	det	ver	VERB	VerbForm=Inf	22
 que	que	que	PRON	PronType=Int,Rel	19	obj	ver	VERB	VerbForm=Inf	22
 tiene	tiene	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	20	acl	autoridad	NOUN	Gender=Fem Number=Plur	14
-que	que	que	SCONJ	-	21	cc	ver	VERB	VerbForm=Inf	22
+que	que	que	SCONJ		21	cc	ver	VERB	VerbForm=Inf	22
 ver	ver	ver	VERB	VerbForm=Inf	22	conj	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	20
 con	con	con	ADP	AdpType=Prep	23	case	pasivo	NOUN	Gender=Masc Number=Plur	25
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	24	det	pasivo	NOUN	Gender=Masc Number=Plur	25
@@ -3936,7 +3936,7 @@ trabajadores	trabajadores	trabajador	NOUN	Gender=Masc Number=Plur	29	nmod	pasivo
 ;	;	;	PUNCT	PunctType=Semi	30	punct	asunción	NOUN	Gender=Fem Number=Sing	9
 esto	esto	este	PRON	Number=Sing PronType=Dem	31	nsubj	servir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	32
 sirve	sirve	servir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	32	advcl	asunción	NOUN	Gender=Fem Number=Sing	9
-precisamente	precisamente	precisamente	ADV	-	33	advmod	servir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	32
+precisamente	precisamente	precisamente	ADV		33	advmod	servir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	32
 para	para	para	ADP	AdpType=Prep	34	mark	estimular	VERB	VerbForm=Inf	35
 estimular	estimular	estimular	VERB	VerbForm=Inf	35	xcomp	servir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	32
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	36	det	incorporación	NOUN	Gender=Fem Number=Sing	37
@@ -3947,9 +3947,9 @@ trabajadores	trabajadores	trabajador	NOUN	Gender=Masc Number=Plur	40	nmod	incorp
 al	al	al	ADP	AdpType=Preppron	41	case	sector	NOUN	Gender=Masc Number=Sing	42
 sector	sector	sector	NOUN	Gender=Masc Number=Sing	42	obj	estimular	VERB	VerbForm=Inf	35
 empresarial	empresarial	empresarial	ADJ	Number=Sing	43	amod	sector	NOUN	Gender=Masc Number=Sing	42
-y	y	y	CCONJ	-	44	cc	existir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	48
+y	y	y	CCONJ		44	cc	existir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	48
 para	para	para	ADP	AdpType=Prep	45	mark	existir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	48
-que	que	que	SCONJ	-	46	mark	existir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	48
+que	que	que	SCONJ		46	mark	existir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	48
 no	no	no	ADV	Polarity=Neg	47	advmod	existir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	48
 exista	exista	existir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	48	conj	estimular	VERB	VerbForm=Inf	35
 una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	49	det	pérdida	NOUN	Gender=Fem Number=Sing	50
@@ -3957,7 +3957,7 @@ pérdida	pérdida	pérdida	NOUN	Gender=Fem Number=Sing	50	nsubj	existir	VERB	Moo
 de	de	de	ADP	AdpType=Prep	51	case	competitividad	NOUN	Gender=Fem Number=Sing	52
 competitividad	competitividad	competitividad	NOUN	Gender=Fem Number=Sing	52	nmod	pérdida	NOUN	Gender=Fem Number=Sing	50
 en	en	en	ADP	AdpType=Prep	53	case	empresa	NOUN	Gender=Fem Number=Plur	57
-relación	relación	relación	NOUN	-	54	fixed	en	ADP	AdpType=Prep	53
+relación	relación	relación	NOUN		54	fixed	en	ADP	AdpType=Prep	53
 con	con	con	ADP	AdpType=Prep	55	fixed	en	ADP	AdpType=Prep	53
 otras	otras	otro	DET	Gender=Fem Number=Plur PronType=Ind	56	det	empresa	NOUN	Gender=Fem Number=Plur	57
 empresas	empresas	empresa	NOUN	Gender=Fem Number=Plur	57	nmod	pérdida	NOUN	Gender=Fem Number=Sing	50
@@ -3973,14 +3973,14 @@ puertos	puertos	puerto	NOUN	Gender=Masc Number=Plur	66	obl	llegar	VERB	VerbForm=
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	67	punct	asumir	VERB	VerbForm=Ger	68
 asumiendo	asumiendo	asumir	VERB	VerbForm=Ger	68	advcl	llegar	VERB	VerbForm=Inf	63
-como	como	como	SCONJ	-	69	mark	asumir	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	70
+como	como	como	SCONJ		69	mark	asumir	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	70
 asumen	asumen	asumir	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	70	advcl	asumir	VERB	VerbForm=Ger	68
 las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	71	det	autoridad	NOUN	Gender=Fem Number=Plur	72
 autoridades	autoridades	autoridad	NOUN	Gender=Fem Number=Plur	72	nsubj	asumir	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	70
 portuarias	portuarias	portuario	ADJ	Gender=Fem Number=Plur	73	amod	autoridad	NOUN	Gender=Fem Number=Plur	72
 ese	ese	ese	DET	Gender=Masc Number=Sing PronType=Dem	74	det	fondo	NOUN	Gender=Masc Number=Sing	75
 fondo	fondo	fondo	NOUN	Gender=Masc Number=Sing	75	obj	asumir	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	70
-y	y	y	CCONJ	-	76	cc	tener	VERB	VerbForm=Ger	77
+y	y	y	CCONJ		76	cc	tener	VERB	VerbForm=Ger	77
 teniendo	teniendo	tener	VERB	VerbForm=Ger	77	conj	asumir	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	70
 capacidad	capacidad	capacidad	NOUN	Gender=Fem Number=Sing	78	obj	tener	VERB	VerbForm=Ger	77
 de	de	de	ADP	AdpType=Prep	79	case	maniobra	NOUN	Gender=Fem Number=Sing	80
@@ -4005,9 +4005,9 @@ puertos	puertos	puerto	NOUN	Gender=Masc Number=Plur	96	obl	incluido	ADJ	Gender=M
 .	.	.	PUNCT	PunctType=Peri	97	punct	asunción	NOUN	Gender=Fem Number=Sing	9
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.12.2">
-Y	Y	y	CCONJ	-	1	advmod	gustar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	5
-aquí	aquí	aquí	ADV	-	2	advmod	gustar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	5
-sí	sí	sí	INTJ	-	3	advcl	gustar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	5
+Y	Y	y	CCONJ		1	advmod	gustar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	5
+aquí	aquí	aquí	ADV		2	advmod	gustar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	5
+sí	sí	sí	INTJ		3	advcl	gustar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	5
 me	me	yo	PRON	Case=Dat Number=Sing Person=1 PrepCase=Npr PronType=Prs	4	iobj	gustar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	5
 gustaría	gustaría	gustar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	5	root	-	-	-	-
 hacer	hacer	hacer	VERB	VerbForm=Inf	6	csubj	gustar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	5
@@ -4015,12 +4015,12 @@ una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	7	det	mención	
 mención	mención	mención	NOUN	Gender=Fem Number=Sing	8	obj	hacer	VERB	VerbForm=Inf	6
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	9	punct	cierto	ADJ	Gender=Masc Number=Sing	36
-porque	porque	porque	SCONJ	-	10	mark	cierto	ADJ	Gender=Masc Number=Sing	36
-así	así	así	ADV	-	11	mark	decir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	14
-como	como	como	SCONJ	-	12	fixed	así	ADV	-	11
+porque	porque	porque	SCONJ		10	mark	cierto	ADJ	Gender=Masc Number=Sing	36
+así	así	así	ADV		11	mark	decir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	14
+como	como	como	SCONJ		12	fixed	así	ADV		11
 he	he	haber	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	13	aux	decir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	14
 dicho	dicho	decir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	14	advcl	cierto	ADJ	Gender=Masc Number=Sing	36
-que	que	que	SCONJ	-	15	mark	entrar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	20
+que	que	que	SCONJ		15	mark	entrar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	20
 ninguno	ninguno	ninguno	PRON	Gender=Masc Number=Sing PronType=Neg	16	nsubj	entrar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	20
 de	de	de	ADP	AdpType=Prep	17	case	grupo	NOUN	Gender=Masc Number=Plur	19
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	18	det	grupo	NOUN	Gender=Masc Number=Plur	19
@@ -4032,7 +4032,7 @@ de	de	de	ADP	AdpType=Prep	23	case	consideración	NOUN	Gender=Fem Number=Plur	25
 las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	24	det	consideración	NOUN	Gender=Fem Number=Plur	25
 consideraciones	consideraciones	consideración	NOUN	Gender=Fem Number=Plur	25	nmod	ninguno	PRON	Gender=Fem Number=Sing PronType=Neg	22
 en	en	en	ADP	AdpType=Prep	26	case	contenido	NOUN	Gender=Masc Number=Sing	29
-relación	relación	relación	NOUN	-	27	fixed	en	ADP	AdpType=Prep	26
+relación	relación	relación	NOUN		27	fixed	en	ADP	AdpType=Prep	26
 al	al	al	ADP	AdpType=Preppron	28	fixed	en	ADP	AdpType=Prep	26
 contenido	contenido	contenido	NOUN	Gender=Masc Number=Sing	29	nmod	consideración	NOUN	Gender=Fem Number=Plur	25
 del	del	del	ADP	AdpType=Preppron	30	case	real-decreto	NOUN	Gender=Masc Number=Sing	31
@@ -4040,27 +4040,27 @@ real-decreto	real-decreto	real-decreto	NOUN	Gender=Masc Number=Sing	31	nmod	cont
 ley	ley	ley	NOUN	Gender=Fem Number=Sing	32	nmod	real-decreto	NOUN	Gender=Masc Number=Sing	31
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	33	punct	decir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	14
-sí	sí	sí	INTJ	-	34	advcl	cierto	ADJ	Gender=Masc Number=Sing	36
+sí	sí	sí	INTJ		34	advcl	cierto	ADJ	Gender=Masc Number=Sing	36
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	35	cop	cierto	ADJ	Gender=Masc Number=Sing	36
 cierto	cierto	cierto	ADJ	Gender=Masc Number=Sing	36	advcl	gustar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	5
-que	que	que	SCONJ	-	37	mark	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	38
+que	que	que	SCONJ		37	mark	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	38
 hubo	hubo	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	38	csubj	cierto	ADJ	Gender=Masc Number=Sing	36
 un	un	uno	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	39	det	grupo	NOUN	Gender=Masc Number=Sing	40
 grupo	grupo	grupo	NOUN	Gender=Masc Number=Sing	40	obj	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	38
 que	que	que	PRON	PronType=Int,Rel	41	nsubj	hacer	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	42
 hizo	hizo	hacer	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	42	acl	grupo	NOUN	Gender=Masc Number=Sing	40
 una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	43	det	concreto	ADJ	Gender=Fem Number=Sing	45
-muy	muy	mucho	ADV	-	44	advmod	concreto	ADJ	Gender=Fem Number=Sing	45
+muy	muy	mucho	ADV		44	advmod	concreto	ADJ	Gender=Fem Number=Sing	45
 concreta	concreta	concreto	ADJ	Gender=Fem Number=Sing	45	obj	hacer	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	42
 sobre	sobre	sobre	ADP	AdpType=Prep	46	mark	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	48
-si	si	si	SCONJ	-	47	mark	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	48
+si	si	si	SCONJ		47	mark	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	48
 tenían	tenían	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	48	advcl	hacer	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	42
-que	que	que	SCONJ	-	49	cc	ser	AUX	VerbForm=Inf	55
+que	que	que	SCONJ		49	cc	ser	AUX	VerbForm=Inf	55
 ser	ser	ser	AUX	VerbForm=Inf	50	conj	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	53
-o	o	o	CCONJ	-	51	cc	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	53
+o	o	o	CCONJ		51	cc	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	53
 no	no	no	ADV	Polarity=Neg	52	advmod	ser	AUX	VerbForm=Inf	55
 tenían	tenían	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	53	conj	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	48
-que	que	que	SCONJ	-	54	cc	ser	AUX	VerbForm=Inf	55
+que	que	que	SCONJ		54	cc	ser	AUX	VerbForm=Inf	55
 ser	ser	ser	AUX	VerbForm=Inf	55	conj	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	53
 las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	56	det	autoridad	NOUN	Gender=Fem Number=Plur	57
 autoridades	autoridades	autoridad	NOUN	Gender=Fem Number=Plur	57	nsubj	ser	AUX	VerbForm=Inf	55
@@ -4068,31 +4068,31 @@ portuarias	portuarias	portuario	ADJ	Gender=Fem Number=Plur	58	amod	autoridad	NOU
 las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	59	det	hacer	VERB	VerbForm=Inf	63
 que	que	que	PRON	PronType=Int,Rel	60	nsubj	hacer	VERB	VerbForm=Inf	63
 tuvieran	tuvieran	tener	VERB	Mood=Sub Number=Plur Person=3 Tense=Imp VerbForm=Fin	61	ccomp	ser	AUX	VerbForm=Inf	55
-que	que	que	SCONJ	-	62	cc	hacer	VERB	VerbForm=Inf	63
+que	que	que	SCONJ		62	cc	hacer	VERB	VerbForm=Inf	63
 hacer	hacer	hacer	VERB	VerbForm=Inf	63	conj	tener	VERB	Mood=Sub Number=Plur Person=3 Tense=Imp VerbForm=Fin	61
 frente	frente	frente	NOUN	Number=Sing	64	compound	hacer	VERB	VerbForm=Inf	63
 a	a	a	ADP	AdpType=Prep	65	case	obligación	NOUN	Gender=Fem Number=Plur	67
 estas	estas	este	DET	Gender=Fem Number=Plur PronType=Dem	66	det	obligación	NOUN	Gender=Fem Number=Plur	67
 obligaciones	obligaciones	obligación	NOUN	Gender=Fem Number=Plur	67	obj	hacer	VERB	VerbForm=Inf	63
-o	o	o	CCONJ	-	68	cc	tener	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	74
+o	o	o	CCONJ		68	cc	tener	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	74
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	69	punct	por	ADP	AdpType=Prep	70
 por	por	por	ADP	AdpType=Prep	70	advmod	organismo	NOUN	Gender=Masc Number=Sing	78
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	71	fixed	por	ADP	AdpType=Prep	70
-contrario	contrario	contrario	NOUN	-	72	fixed	por	ADP	AdpType=Prep	70
+contrario	contrario	contrario	NOUN		72	fixed	por	ADP	AdpType=Prep	70
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	73	punct	por	ADP	AdpType=Prep	70
 tendría	tendría	tener	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	74	conj	tener	VERB	Mood=Sub Number=Plur Person=3 Tense=Imp VerbForm=Fin	61
-que	que	que	SCONJ	-	75	cc	organismo	NOUN	Gender=Masc Number=Sing	78
+que	que	que	SCONJ		75	cc	organismo	NOUN	Gender=Masc Number=Sing	78
 ser	ser	ser	AUX	VerbForm=Inf	76	cop	organismo	NOUN	Gender=Masc Number=Sing	78
 otro	otro	otro	DET	Gender=Masc Number=Sing PronType=Ind	77	det	organismo	NOUN	Gender=Masc Number=Sing	78
 organismo	organismo	organismo	NOUN	Gender=Masc Number=Sing	78	conj	tener	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	74
-o	o	o	CCONJ	-	79	cc	ente	NOUN	Gender=Masc Number=Sing	80
+o	o	o	CCONJ		79	cc	ente	NOUN	Gender=Masc Number=Sing	80
 ente	ente	ente	NOUN	Gender=Masc Number=Sing	80	conj	organismo	NOUN	Gender=Masc Number=Sing	78
 perteneciente	perteneciente	perteneciente	ADJ	Number=Sing	81	amod	organismo	NOUN	Gender=Masc Number=Sing	78
-al	al	al	ADP	AdpType=Preppron	82	case	Estado	PROPN	-	83
+al	al	al	ADP	AdpType=Preppron	82	case	Estado	PROPN		83
 <name type="ORG">
-Estado	Estado	Estado	PROPN	-	83	nmod	perteneciente	ADJ	Number=Sing	81
+Estado	Estado	Estado	PROPN		83	nmod	perteneciente	ADJ	Number=Sing	81
 <g/>
 </name>
 .	.	.	PUNCT	PunctType=Peri	84	punct	gustar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	5
@@ -4116,31 +4116,31 @@ recibido	recibido	recibir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.12.4">
 Con	Con	con	ADP	AdpType=Prep	1	case	él	PRON	Case=Acc,Nom Gender=Masc Number=Sing Person=3 PronType=Prs	2
 ello	ello	él	PRON	Case=Acc,Nom Gender=Masc Number=Sing Person=3 PronType=Prs	2	obl	instar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	24
-la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	3	det	Comisión	PROPN	-	4
+la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	3	det	Comisión	PROPN		4
 <name type="ORG">
-Comisión	Comisión	Comisión	PROPN	-	4	nsubj	instar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	24
-Europea	Europea	Europea	PROPN	-	5	flat	Comisión	PROPN	-	4
+Comisión	Comisión	Comisión	PROPN		4	nsubj	instar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	24
+Europea	Europea	Europea	PROPN		5	flat	Comisión	PROPN		4
 <g/>
 </name>
 ,	,	,	PUNCT	PunctType=Comm	6	punct	visita	NOUN	Gender=Fem Number=Sing	9
 en	en	en	ADP	AdpType=Prep	7	case	visita	NOUN	Gender=Fem Number=Sing	9
 su	su	su	DET	Number=Sing Person=3 Poss=Yes PronType=Prs	8	det	visita	NOUN	Gender=Fem Number=Sing	9
 visita	visita	visita	NOUN	Gender=Fem Number=Sing	9	obl	instar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	24
-a	a	a	ADP	AdpType=Prep	10	case	España	PROPN	-	11
+a	a	a	ADP	AdpType=Prep	10	case	España	PROPN		11
 <name type="LOC">
-España	España	España	PROPN	-	11	nmod	visita	NOUN	Gender=Fem Number=Sing	9
+España	España	España	PROPN		11	nmod	visita	NOUN	Gender=Fem Number=Sing	9
 </name>
 a	a	a	ADP	AdpType=Prep	12	case	comisaria	NOUN	Gender=Fem Number=Sing	16
-través	través	través	NOUN	-	13	fixed	a	ADP	AdpType=Prep	12
+través	través	través	NOUN		13	fixed	a	ADP	AdpType=Prep	12
 de	de	de	ADP	AdpType=Prep	14	fixed	a	ADP	AdpType=Prep	12
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	15	det	comisaria	NOUN	Gender=Fem Number=Sing	16
 comisaria	comisaria	comisaria	NOUN	Gender=Fem Number=Sing	16	nmod	visita	NOUN	Gender=Fem Number=Sing	9
 del	del	del	ADP	AdpType=Preppron	17	case	6	NUM	NumForm=Digit NumType=Card	18
 6	6	6	NUM	NumForm=Digit NumType=Card	18	nmod	comisaria	NOUN	Gender=Fem Number=Sing	16
-y	y	y	CCONJ	-	19	cc	7	NUM	NumForm=Digit NumType=Card	20
+y	y	y	CCONJ		19	cc	7	NUM	NumForm=Digit NumType=Card	20
 7	7	7	NUM	NumForm=Digit NumType=Card	20	conj	6	NUM	NumForm=Digit NumType=Card	18
-de	de	de	ADP	AdpType=Prep	21	case	marzo	NOUN	-	22
-marzo	marzo	marzo	NOUN	-	22	compound	7	NUM	NumForm=Digit NumType=Card	20
+de	de	de	ADP	AdpType=Prep	21	case	marzo	NOUN		22
+marzo	marzo	marzo	NOUN		22	compound	7	NUM	NumForm=Digit NumType=Card	20
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	23	punct	visita	NOUN	Gender=Fem Number=Sing	9
 instó	instó	instar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	24	root	-	-	-	-
@@ -4155,10 +4155,10 @@ instó	instó	instar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	
 a	a	a	ADP	AdpType=Prep	32	case	convalidación	NOUN	Gender=Fem Number=Sing	34
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	33	det	convalidación	NOUN	Gender=Fem Number=Sing	34
 convalidación	convalidación	convalidación	NOUN	Gender=Fem Number=Sing	34	obj	instar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	31
-del	del	del	ADP	AdpType=Preppron	35	case	real-decreto	NOUN	-	36
-real-decreto	real-decreto	real-decreto	NOUN	-	36	nmod	convalidación	NOUN	Gender=Fem Number=Sing	34
-ley	ley	ley	NOUN	Gender=Fem Number=Sing	37	appos	real-decreto	NOUN	-	36
-y	y	y	CCONJ	-	38	cc	alertar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	39
+del	del	del	ADP	AdpType=Preppron	35	case	real-decreto	NOUN		36
+real-decreto	real-decreto	real-decreto	NOUN		36	nmod	convalidación	NOUN	Gender=Fem Number=Sing	34
+ley	ley	ley	NOUN	Gender=Fem Number=Sing	37	appos	real-decreto	NOUN		36
+y	y	y	CCONJ		38	cc	alertar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	39
 alertó	alertó	alertar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	39	conj	instar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	31
 sobre	sobre	sobre	ADP	AdpType=Prep	40	case	consecuencia	NOUN	Gender=Fem Number=Plur	42
 las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	41	det	consecuencia	NOUN	Gender=Fem Number=Plur	42
@@ -4171,8 +4171,8 @@ convalidación	convalidación	convalidación	NOUN	Gender=Fem Number=Sing	46	nmod
 .	.	.	PUNCT	PunctType=Peri	47	punct	instar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	24
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.12.5">
-Y	Y	y	CCONJ	-	1	advmod	poner	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	3
-además	además	además	ADV	-	2	advmod	poner	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	3
+Y	Y	y	CCONJ		1	advmod	poner	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	3
+además	además	además	ADV		2	advmod	poner	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	3
 puso	puso	poner	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	3	root	-	-	-	-
 una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	4	det	fecha	NOUN	Gender=Fem Number=Sing	5
 fecha	fecha	fecha	NOUN	Gender=Fem Number=Sing	5	obj	poner	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	3
@@ -4182,19 +4182,19 @@ que	que	que	PRON	PronType=Int,Rel	7	nsubj	poner	VERB	Mood=Ind Number=Sing Person
 no	no	no	ADV	Polarity=Neg	8	advmod	poner	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	10
 la	la	él	PRON	Case=Acc Gender=Fem Number=Sing Person=3 PrepCase=Npr PronType=Prs	9	obj	poner	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	10
 puso	puso	poner	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	10	acl	fecha	NOUN	Gender=Fem Number=Sing	5
-el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	11	det	Gobierno	PROPN	-	12
+el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	11	det	Gobierno	PROPN		12
 <name type="ORG">
-Gobierno	Gobierno	Gobierno	PROPN	-	12	nsubj	poner	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	10
+Gobierno	Gobierno	Gobierno	PROPN		12	nsubj	poner	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	10
 <g/>
 </name>
 ,	,	,	PUNCT	PunctType=Comm	13	punct	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	15
-y	y	y	CCONJ	-	14	cc	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	15
+y	y	y	CCONJ		14	cc	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	15
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	15	conj	poner	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	3
-que	que	que	SCONJ	-	16	mark	indicar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	49
-así	así	así	ADV	-	17	advmod	indicar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	49
-como	como	como	SCONJ	-	18	fixed	así	ADV	-	17
+que	que	que	SCONJ		16	mark	indicar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	49
+así	así	así	ADV		17	advmod	indicar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	49
+como	como	como	SCONJ		18	fixed	así	ADV		17
 entendía	entendía	entender	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	19	advcl	indicar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	49
-que	que	que	SCONJ	-	20	mark	detener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	22
+que	que	que	SCONJ		20	mark	detener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	22
 había	había	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	21	aux	detener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	22
 detenido	detenido	detener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	22	ccomp	entender	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	19
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	23	det	reloj	NOUN	Gender=Masc Number=Sing	24
@@ -4207,11 +4207,11 @@ de	de	de	ADP	AdpType=Prep	29	case	multa	NOUN	Gender=Fem Number=Sing	31
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	30	det	multa	NOUN	Gender=Fem Number=Sing	31
 multa	multa	multa	NOUN	Gender=Fem Number=Sing	31	nmod	parte	NOUN	Gender=Fem Number=Sing	28
 que	que	que	PRON	PronType=Int,Rel	32	nsubj	correr	VERB	VerbForm=Ger	35
-ya	ya	ya	ADV	-	33	advmod	correr	VERB	VerbForm=Ger	35
+ya	ya	ya	ADV		33	advmod	correr	VERB	VerbForm=Ger	35
 está	está	estar	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	34	aux	correr	VERB	VerbForm=Ger	35
 corriendo	corriendo	correr	VERB	VerbForm=Ger	35	acl	multa	NOUN	Gender=Fem Number=Sing	31
 hasta	hasta	hasta	ADP	AdpType=Prep	36	mark	conseguir	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	39
-que	que	que	SCONJ	-	37	mark	conseguir	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	39
+que	que	que	SCONJ		37	mark	conseguir	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	39
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	38	expl:pass	conseguir	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	39
 consiguiera	consiguiera	conseguir	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	39	advcl	correr	VERB	VerbForm=Ger	35
 aprobar	aprobar	aprobar	VERB	VerbForm=Inf	40	csubj	conseguir	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	39
@@ -4223,9 +4223,9 @@ real-decreto	real-decreto	real-decreto	ADJ	Gender=Masc Number=Sing	45	amod	ley	N
 ley	ley	ley	NOUN	Gender=Fem Number=Sing	46	obj	aprobar	VERB	VerbForm=Inf	40
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	47	punct	entender	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	19
-también	también	también	ADV	-	48	advmod	indicar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	49
+también	también	también	ADV		48	advmod	indicar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	49
 indicó	indicó	indicar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	49	ccomp	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	15
-que	que	que	SCONJ	-	50	mark	volver	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	54
+que	que	que	SCONJ		50	mark	volver	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	54
 ese	ese	ese	DET	Gender=Masc Number=Sing PronType=Dem	51	det	reloj	NOUN	Gender=Masc Number=Sing	52
 reloj	reloj	reloj	NOUN	Gender=Masc Number=Sing	52	nsubj	volver	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	54
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	53	expl:pv	volver	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	54
@@ -4235,18 +4235,18 @@ poner	poner	poner	VERB	VerbForm=Inf	56	xcomp	volver	VERB	Mood=Cnd Number=Sing Pe
 en	en	en	ADP	AdpType=Prep	57	case	marcha	NOUN	Gender=Fem Number=Sing	58
 marcha	marcha	marcha	NOUN	Gender=Fem Number=Sing	58	compound	poner	VERB	VerbForm=Inf	56
 a	a	a	ADP	AdpType=Prep	59	case	24	NUM	NumForm=Digit NumType=Card	62
-partir	partir	partir	NOUN	-	60	fixed	a	ADP	AdpType=Prep	59
+partir	partir	partir	NOUN		60	fixed	a	ADP	AdpType=Prep	59
 del	del	del	ADP	AdpType=Preppron	61	fixed	a	ADP	AdpType=Prep	59
 24	24	24	NUM	NumForm=Digit NumType=Card	62	obl	volver	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	54
-de	de	de	ADP	AdpType=Prep	63	case	marzo	NOUN	-	64
-marzo	marzo	marzo	NOUN	-	64	compound	24	NUM	NumForm=Digit NumType=Card	62
+de	de	de	ADP	AdpType=Prep	63	case	marzo	NOUN		64
+marzo	marzo	marzo	NOUN		64	compound	24	NUM	NumForm=Digit NumType=Card	62
 <g/>
 .	.	.	PUNCT	PunctType=Peri	65	punct	poner	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	3
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.12.6">
 Por	Por	por	ADP	AdpType=Prep	1	advmod	volver	VERB	Mood=Ind Number=Plur Person=1 Tense=Fut VerbForm=Fin	8
 lo	lo	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	2	fixed	por	ADP	AdpType=Prep	1
-tanto	tanto	tanto	NOUN	-	3	fixed	por	ADP	AdpType=Prep	1
+tanto	tanto	tanto	NOUN		3	fixed	por	ADP	AdpType=Prep	1
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	4	punct	por	ADP	AdpType=Prep	1
 en	en	en	ADP	AdpType=Prep	5	case	fecha	NOUN	Gender=Fem Number=Sing	7
@@ -4262,9 +4262,9 @@ día	día	día	NOUN	Gender=Masc Number=Sing	14	obl	hacer	VERB	VerbForm=Ger	11
 a	a	a	ADP	AdpType=Prep	15	case	multa	NOUN	Gender=Fem Number=Sing	17
 una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	16	det	multa	NOUN	Gender=Fem Number=Sing	17
 multa	multa	multa	NOUN	Gender=Fem Number=Sing	17	obj	hacer	VERB	VerbForm=Ger	11
-como	como	como	SCONJ	-	18	case	incumplimiento	NOUN	Gender=Masc Number=Sing	21
-consecuencia	consecuencia	consecuencia	NOUN	Gender=Fem Number=Sing	19	fixed	como	SCONJ	-	18
-del	del	del	ADP	AdpType=Preppron	20	fixed	como	SCONJ	-	18
+como	como	como	SCONJ		18	case	incumplimiento	NOUN	Gender=Masc Number=Sing	21
+consecuencia	consecuencia	consecuencia	NOUN	Gender=Fem Number=Sing	19	fixed	como	SCONJ		18
+del	del	del	ADP	AdpType=Preppron	20	fixed	como	SCONJ		18
 incumplimiento	incumplimiento	incumplimiento	NOUN	Gender=Masc Number=Sing	21	nmod	multa	NOUN	Gender=Fem Number=Sing	17
 de	de	de	ADP	AdpType=Prep	22	case	sentencia	NOUN	Gender=Fem Number=Sing	24
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	23	det	sentencia	NOUN	Gender=Fem Number=Sing	24
@@ -4275,17 +4275,17 @@ sentencia	sentencia	sentencia	NOUN	Gender=Fem Number=Sing	24	nmod	incumplimiento
 </p>
 <p id="ParlaMint-ES_2017-03-16-CD170316.u2.13" lang="Spanish">
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.13.1">
-Ahora	Ahora	ahora	ADV	-	1	advmod	decir	VERB	Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin	2
+Ahora	Ahora	ahora	ADV		1	advmod	decir	VERB	Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin	2
 diré	diré	decir	VERB	Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin	2	root	-	-	-	-
 unas	unas	uno	DET	Definite=Ind Gender=Fem Number=Plur PronType=Art	3	det	palabra	NOUN	Gender=Fem Number=Plur	4
 palabras	palabras	palabra	NOUN	Gender=Fem Number=Plur	4	obj	decir	VERB	Mood=Ind Number=Sing Person=1 Tense=Fut VerbForm=Fin	2
 que	que	que	PRON	PronType=Int,Rel	5	nsubj	creer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	6
 creo	creo	creer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	6	acl	palabra	NOUN	Gender=Fem Number=Plur	4
-que	que	que	SCONJ	-	7	mark	importante	ADJ	Number=Plur	9
+que	que	que	SCONJ		7	mark	importante	ADJ	Number=Plur	9
 son	son	ser	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	8	cop	importante	ADJ	Number=Plur	9
 importantes	importantes	importante	ADJ	Number=Plur	9	ccomp	creer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	6
 en	en	en	ADP	AdpType=Prep	10	case	negociación	NOUN	Gender=Fem Number=Sing	14
-torno	torno	torno	NOUN	-	11	fixed	en	ADP	AdpType=Prep	10
+torno	torno	torno	NOUN		11	fixed	en	ADP	AdpType=Prep	10
 a	a	a	ADP	AdpType=Prep	12	fixed	en	ADP	AdpType=Prep	10
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	13	det	negociación	NOUN	Gender=Fem Number=Sing	14
 negociación	negociación	negociación	NOUN	Gender=Fem Number=Sing	14	obl	importante	ADJ	Number=Plur	9
@@ -4298,9 +4298,9 @@ Desde	Desde	desde	ADP	AdpType=Prep	1	case	momento	NOUN	Gender=Masc Number=Sing	4
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	2	det	momento	NOUN	Gender=Masc Number=Sing	4
 primer	primer	primero	ADJ	Gender=Masc NumType=Ord Number=Sing	3	amod	momento	NOUN	Gender=Masc Number=Sing	4
 momento	momento	momento	NOUN	Gender=Masc Number=Sing	4	obl	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	13
-el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	5	det	Gobierno	PROPN	-	6
+el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	5	det	Gobierno	PROPN		6
 <name type="ORG">
-Gobierno	Gobierno	Gobierno	PROPN	-	6	nsubj	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	13
+Gobierno	Gobierno	Gobierno	PROPN		6	nsubj	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	13
 <g/>
 </name>
 ,	,	,	PUNCT	PunctType=Comm	7	punct	lado	NOUN	Gender=Masc Number=Sing	10
@@ -4314,7 +4314,7 @@ hecho	hecho	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	13	root	
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	14	det	deber	NOUN	Gender=Masc Number=Plur	15
 deberes	deberes	deber	NOUN	Gender=Masc Number=Plur	15	obj	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	13
 en	en	en	ADP	AdpType=Prep	16	case	necesidad	NOUN	Gender=Fem Number=Sing	20
-cuanto	cuanto	cuanto	NOUN	-	17	fixed	en	ADP	AdpType=Prep	16
+cuanto	cuanto	cuanto	NOUN		17	fixed	en	ADP	AdpType=Prep	16
 a	a	a	ADP	AdpType=Prep	18	fixed	en	ADP	AdpType=Prep	16
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	19	det	necesidad	NOUN	Gender=Fem Number=Sing	20
 necesidad	necesidad	necesidad	NOUN	Gender=Fem Number=Sing	20	obl	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	13
@@ -4325,20 +4325,20 @@ la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	24	det	sentencia	N
 sentencia	sentencia	sentencia	NOUN	Gender=Fem Number=Sing	25	obj	cumplir	VERB	VerbForm=Inf	22
 <g/>
 ;	;	;	PUNCT	PunctType=Semi	26	punct	instar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	34
-y	y	y	CCONJ	-	27	cc	instar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	34
+y	y	y	CCONJ		27	cc	instar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	34
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	28	punct	por	ADP	AdpType=Prep	29
 por	por	por	ADP	AdpType=Prep	29	advmod	instar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	34
-otro	otro	otro	ADJ	-	30	fixed	por	ADP	AdpType=Prep	29
-lado	lado	lado	NOUN	-	31	fixed	por	ADP	AdpType=Prep	29
+otro	otro	otro	ADJ		30	fixed	por	ADP	AdpType=Prep	29
+lado	lado	lado	NOUN		31	fixed	por	ADP	AdpType=Prep	29
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	32	punct	por	ADP	AdpType=Prep	29
 ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	33	aux	instar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	34
 instado	instado	instar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	34	conj	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	13
 a	a	a	ADP	AdpType=Prep	35	mark	sentar	VERB	Mood=Sub Number=Plur Person=3 Tense=Imp VerbForm=Fin	41
-que	que	que	SCONJ	-	36	mark	sentar	VERB	Mood=Sub Number=Plur Person=3 Tense=Imp VerbForm=Fin	41
+que	que	que	SCONJ		36	mark	sentar	VERB	Mood=Sub Number=Plur Person=3 Tense=Imp VerbForm=Fin	41
 sindicatos	sindicatos	sindicato	NOUN	Gender=Masc Number=Plur	37	nsubj	sentar	VERB	Mood=Sub Number=Plur Person=3 Tense=Imp VerbForm=Fin	41
-y	y	y	CCONJ	-	38	cc	patronal	NOUN	Gender=Fem Number=Sing	39
+y	y	y	CCONJ		38	cc	patronal	NOUN	Gender=Fem Number=Sing	39
 patronal	patronal	patronal	NOUN	Gender=Fem Number=Sing	39	conj	sindicato	NOUN	Gender=Masc Number=Plur	37
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	40	expl:pv	sentar	VERB	Mood=Sub Number=Plur Person=3 Tense=Imp VerbForm=Fin	41
 sentaran	sentaran	sentar	VERB	Mood=Sub Number=Plur Person=3 Tense=Imp VerbForm=Fin	41	ccomp	instar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	34
@@ -4357,8 +4357,8 @@ colectiva	colectiva	colectivo	ADJ	Gender=Fem Number=Sing	51	amod	negociación	NO
 teniendo	teniendo	tener	VERB	VerbForm=Ger	53	advcl	sentar	VERB	Mood=Sub Number=Plur Person=3 Tense=Imp VerbForm=Fin	41
 en	en	en	ADP	AdpType=Prep	54	case	cuenta	NOUN	Gender=Fem Number=Sing	55
 cuenta	cuenta	cuenta	NOUN	Gender=Fem Number=Sing	55	compound	tener	VERB	VerbForm=Ger	53
-además	además	además	ADV	-	56	advmod	tener	VERB	VerbForm=Ger	53
-que	que	que	SCONJ	-	57	mark	establecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	61
+además	además	además	ADV		56	advmod	tener	VERB	VerbForm=Ger	53
+que	que	que	SCONJ		57	mark	establecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	61
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	58	det	real-decreto	NOUN	Gender=Masc Number=Sing	59
 real-decreto	real-decreto	real-decreto	NOUN	Gender=Masc Number=Sing	59	nsubj	establecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	61
 ley	ley	ley	NOUN	Gender=Fem Number=Sing	60	nmod	real-decreto	NOUN	Gender=Masc Number=Sing	59
@@ -4395,9 +4395,9 @@ es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	7	cop	lugar	
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	8	punct	sin	ADP	AdpType=Prep	9
 sin	sin	sin	ADP	AdpType=Prep	9	advmod	lugar	NOUN	Gender=Masc Number=Sing	15
-lugar	lugar	lugar	NOUN	-	10	fixed	sin	ADP	AdpType=Prep	9
+lugar	lugar	lugar	NOUN		10	fixed	sin	ADP	AdpType=Prep	9
 a	a	a	ADP	AdpType=Prep	11	fixed	sin	ADP	AdpType=Prep	9
-dudas	dudas	duda	NOUN	-	12	fixed	sin	ADP	AdpType=Prep	9
+dudas	dudas	duda	NOUN		12	fixed	sin	ADP	AdpType=Prep	9
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	13	punct	sin	ADP	AdpType=Prep	9
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	14	det	lugar	NOUN	Gender=Masc Number=Sing	15
@@ -4409,9 +4409,9 @@ llegar	llegar	llegar	VERB	VerbForm=Inf	19	acl	lugar	NOUN	Gender=Masc Number=Sing
 a	a	a	ADP	AdpType=Prep	20	case	acuerdo	NOUN	Gender=Masc Number=Sing	22
 un	un	uno	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	21	det	acuerdo	NOUN	Gender=Masc Number=Sing	22
 acuerdo	acuerdo	acuerdo	NOUN	Gender=Masc Number=Sing	22	obl	llegar	VERB	VerbForm=Inf	19
-tal	tal	tal	NOUN	-	23	mark	suceder	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	26
-y	y	y	CCONJ	-	24	fixed	tal	NOUN	-	23
-como	como	como	SCONJ	-	25	fixed	tal	NOUN	-	23
+tal	tal	tal	NOUN		23	mark	suceder	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	26
+y	y	y	CCONJ		24	fixed	tal	NOUN		23
+como	como	como	SCONJ		25	fixed	tal	NOUN		23
 sucede	sucede	suceder	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	26	advcl	lugar	NOUN	Gender=Masc Number=Sing	38
 con	con	con	ADP	AdpType=Prep	27	case	sector	NOUN	Gender=Masc Number=Sing	30
 cualquier	cualquier	cualquiera	DET	Number=Sing PronType=Ind	28	det	sector	NOUN	Gender=Masc Number=Sing	30
@@ -4435,7 +4435,7 @@ acuerdos	acuerdos	acuerdo	NOUN	Gender=Masc Number=Plur	44	obl	llegar	VERB	Mood=I
 entre	entre	entre	ADP	AdpType=Prep	45	case	sindicato	NOUN	Gender=Masc Number=Plur	47
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	46	det	sindicato	NOUN	Gender=Masc Number=Plur	47
 sindicatos	sindicatos	sindicato	NOUN	Gender=Masc Number=Plur	47	nmod	acuerdo	NOUN	Gender=Masc Number=Plur	44
-y	y	y	CCONJ	-	48	cc	patronal	NOUN	Gender=Fem Number=Sing	50
+y	y	y	CCONJ		48	cc	patronal	NOUN	Gender=Fem Number=Sing	50
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	49	det	patronal	NOUN	Gender=Fem Number=Sing	50
 patronal	patronal	patronal	NOUN	Gender=Fem Number=Sing	50	conj	sindicato	NOUN	Gender=Masc Number=Plur	47
 <g/>
@@ -4447,23 +4447,23 @@ en	en	en	ADP	AdpType=Prep	2	case	punto	NOUN	Gender=Masc Number=Sing	4
 este	este	este	DET	Gender=Masc Number=Sing PronType=Dem	3	det	punto	NOUN	Gender=Masc Number=Sing	4
 punto	punto	punto	NOUN	Gender=Masc Number=Sing	4	obl	querer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 agradecer	agradecer	agradecer	VERB	VerbForm=Inf	5	xcomp	querer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
-especialmente	especialmente	especialmente	ADV	-	6	advmod	agradecer	VERB	VerbForm=Inf	5
+especialmente	especialmente	especialmente	ADV		6	advmod	agradecer	VERB	VerbForm=Inf	5
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	7	det	tarea	NOUN	Gender=Fem Number=Sing	8
 tarea	tarea	tarea	NOUN	Gender=Fem Number=Sing	8	obj	agradecer	VERB	VerbForm=Inf	5
 incansable	incansable	incansable	ADJ	Number=Sing	9	amod	tarea	NOUN	Gender=Fem Number=Sing	8
 que	que	que	PRON	PronType=Int,Rel	10	obj	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	12
 ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	11	aux	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	12
 hecho	hecho	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	12	acl	tarea	NOUN	Gender=Fem Number=Sing	8
-el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	13	det	Ministerio	PROPN	-	14
+el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	13	det	Ministerio	PROPN		14
 <name type="ORG">
-Ministerio	Ministerio	Ministerio	PROPN	-	14	nsubj	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	12
-de	de	de	ADP	AdpType=Prep	15	case	Empleo	PROPN	-	16
-Empleo	Empleo	Empleo	PROPN	-	16	flat	Ministerio	PROPN	-	14
+Ministerio	Ministerio	Ministerio	PROPN		14	nsubj	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	12
+de	de	de	ADP	AdpType=Prep	15	case	Empleo	PROPN		16
+Empleo	Empleo	Empleo	PROPN		16	flat	Ministerio	PROPN		14
 </name>
-y	y	y	CCONJ	-	17	cc	ministra	NOUN	Gender=Fem Number=Sing	19
+y	y	y	CCONJ		17	cc	ministra	NOUN	Gender=Fem Number=Sing	19
 su	su	su	DET	Number=Sing Person=3 Poss=Yes PronType=Prs	18	det	ministra	NOUN	Gender=Fem Number=Sing	19
-ministra	ministra	ministra	NOUN	Gender=Fem Number=Sing	19	conj	Ministerio	PROPN	-	14
-aquí	aquí	aquí	ADV	-	20	advmod	presente	ADJ	Number=Sing	21
+ministra	ministra	ministra	NOUN	Gender=Fem Number=Sing	19	conj	Ministerio	PROPN		14
+aquí	aquí	aquí	ADV		20	advmod	presente	ADJ	Number=Sing	21
 presente	presente	presente	ADJ	Number=Sing	21	amod	ministra	NOUN	Gender=Fem Number=Sing	19
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	22	punct	dedicar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	25
@@ -4472,7 +4472,7 @@ ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	24	aux	ded
 dedicado	dedicado	dedicar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	25	acl	ministra	NOUN	Gender=Fem Number=Sing	19
 muchas	muchas	mucho	DET	Gender=Fem NumType=Card Number=Plur PronType=Ind	26	det	hora	NOUN	Gender=Fem Number=Plur	27
 horas	horas	hora	NOUN	Gender=Fem Number=Plur	27	obj	dedicar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	25
-y	y	y	CCONJ	-	28	cc	esfuerzo	NOUN	Gender=Masc Number=Plur	30
+y	y	y	CCONJ		28	cc	esfuerzo	NOUN	Gender=Masc Number=Plur	30
 muchos	muchos	mucho	DET	Gender=Masc NumType=Card Number=Plur PronType=Ind	29	det	esfuerzo	NOUN	Gender=Masc Number=Plur	30
 esfuerzos	esfuerzos	esfuerzo	NOUN	Gender=Masc Number=Plur	30	conj	hora	NOUN	Gender=Fem Number=Plur	27
 para	para	para	ADP	AdpType=Prep	31	mark	facilitar	VERB	VerbForm=Inf	32
@@ -4482,8 +4482,8 @@ negociación	negociación	negociación	NOUN	Gender=Fem Number=Sing	34	obj	facili
 colectiva	colectiva	colectivo	ADJ	Gender=Fem Number=Sing	35	amod	negociación	NOUN	Gender=Fem Number=Sing	34
 <g/>
 ;	;	;	PUNCT	PunctType=Semi	36	punct	querer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
-desde	desde	desde	NOUN	-	37	advmod	agradecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	42
-luego	luego	luego	ADV	-	38	fixed	desde	NOUN	-	37
+desde	desde	desde	NOUN		37	advmod	agradecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	42
+luego	luego	luego	ADV		38	fixed	desde	NOUN		37
 este	este	este	DET	Gender=Masc Number=Sing PronType=Dem	39	det	ministro	NOUN	Gender=Masc Number=Sing	40
 ministro	ministro	ministro	NOUN	Gender=Masc Number=Sing	40	nsubj	agradecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	42
 lo	lo	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	41	obj	agradecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	42
@@ -4491,10 +4491,10 @@ agradece	agradece	agradecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbFo
 de	de	de	ADP	AdpType=Prep	43	case	manera	NOUN	Gender=Fem Number=Sing	44
 manera	manera	manera	NOUN	Gender=Fem Number=Sing	44	obl	agradecer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	42
 especial	especial	especial	ADJ	Number=Sing	45	amod	manera	NOUN	Gender=Fem Number=Sing	44
-porque	porque	porque	SCONJ	-	46	mark	arropado	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	62
+porque	porque	porque	SCONJ		46	mark	arropado	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	62
 a	a	a	ADP	AdpType=Prep	47	case	proceso	NOUN	Gender=Masc Number=Sing	53
 lo	lo	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	48	fixed	a	ADP	AdpType=Prep	47
-largo	largo	largo	NOUN	-	49	fixed	a	ADP	AdpType=Prep	47
+largo	largo	largo	NOUN		49	fixed	a	ADP	AdpType=Prep	47
 de	de	de	ADP	AdpType=Prep	50	fixed	a	ADP	AdpType=Prep	47
 todo	todo	todo	DET	Gender=Masc Number=Sing PronType=Tot	51	det	este	DET	Gender=Masc Number=Sing PronType=Dem	52
 este	este	este	DET	Gender=Masc Number=Sing PronType=Dem	52	det	proceso	NOUN	Gender=Masc Number=Sing	53
@@ -4521,7 +4521,7 @@ ayuda	ayuda	ayuda	NOUN	Gender=Fem Number=Sing	68	obl	arropado	VERB	Gender=Masc N
 con	con	con	ADP	AdpType=Prep	70	case	colaboración	NOUN	Gender=Fem Number=Sing	72
 su	su	su	DET	Number=Sing Person=3 Poss=Yes PronType=Prs	71	det	colaboración	NOUN	Gender=Fem Number=Sing	72
 colaboración	colaboración	colaboración	NOUN	Gender=Fem Number=Sing	72	obl	arropado	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	62
-y	y	y	CCONJ	-	73	cc	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	74
+y	y	y	CCONJ		73	cc	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	74
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	74	conj	colaboración	NOUN	Gender=Fem Number=Sing	72
 de	de	de	ADP	AdpType=Prep	75	case	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	74
 todo	todo	todo	DET	Gender=Masc Number=Sing PronType=Tot	76	det	su	DET	Number=Sing Person=3 Poss=Yes PronType=Prs	77
@@ -4531,8 +4531,8 @@ equipo	equipo	equipo	NOUN	Gender=Masc Number=Sing	78	nmod	el	DET	Definite=Def Ge
 .	.	.	PUNCT	PunctType=Peri	79	punct	querer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.13.5">
-Y	Y	y	CCONJ	-	1	advmod	desear	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
-también	también	también	ADV	-	2	advmod	desear	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
+Y	Y	y	CCONJ		1	advmod	desear	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
+también	también	también	ADV		2	advmod	desear	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
 deseo	deseo	desear	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3	root	-	-	-	-
 agradecer	agradecer	agradecer	VERB	VerbForm=Inf	4	xcomp	desear	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	5	det	labor	NOUN	Gender=Fem Number=Sing	6
@@ -4543,11 +4543,11 @@ mediador	mediador	mediador	NOUN	Gender=Masc Number=Sing	8	nmod	labor	NOUN	Gender
 ,	,	,	PUNCT	PunctType=Comm	9	punct	comenzar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	11
 que	que	que	PRON	PronType=Int,Rel	10	nsubj	comenzar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	11
 comenzó	comenzó	comenzar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	11	acl	mediador	NOUN	Gender=Masc Number=Sing	8
-como	como	como	SCONJ	-	12	mark	tarea	NOUN	Gender=Fem Number=Sing	14
+como	como	como	SCONJ		12	mark	tarea	NOUN	Gender=Fem Number=Sing	14
 una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	13	det	tarea	NOUN	Gender=Fem Number=Sing	14
 tarea	tarea	tarea	NOUN	Gender=Fem Number=Sing	14	obl	comenzar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	11
 difícil	difícil	difícil	ADJ	Number=Sing	15	amod	tarea	NOUN	Gender=Fem Number=Sing	14
-y	y	y	CCONJ	-	16	cc	terminar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	17
+y	y	y	CCONJ		16	cc	terminar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	17
 terminó	terminó	terminar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	17	conj	comenzar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	11
 siendo	siendo	ser	AUX	VerbForm=Ger	18	cop	imposible	ADJ	Number=Sing	19
 imposible	imposible	imposible	ADJ	Number=Sing	19	xcomp	terminar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	17
@@ -4556,11 +4556,11 @@ imposible	imposible	imposible	ADJ	Number=Sing	19	xcomp	terminar	VERB	Mood=Ind Nu
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.13.6">
 De	De	de	ADP	AdpType=Prep	1	mark	tornar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	4
-que	que	que	SCONJ	-	2	mark	tornar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	4
+que	que	que	SCONJ		2	mark	tornar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	4
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	3	expl:pv	tornar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	4
 tornara	tornara	tornar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	4	advcl	encargar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	8
 imposible	imposible	imposible	ADJ	Number=Sing	5	obj	tornar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	4
-ya	ya	ya	ADV	-	6	advmod	encargar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	8
+ya	ya	ya	ADV		6	advmod	encargar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	8
 nos	nos	yo	PRON	Case=Acc Number=Plur Person=1 PrepCase=Npr PronType=Prs	7	expl:pv	encargar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	8
 encargamos	encargamos	encargar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	8	root	-	-	-	-
 todos	todos	todo	PRON	Gender=Masc Number=Plur PronType=Tot	9	nsubj	encargar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	8
@@ -4571,10 +4571,10 @@ todos	todos	todo	PRON	Gender=Masc Number=Plur PronType=Tot	9	nsubj	encargar	VERB
 Me	Me	yo	PRON	Case=Dat Number=Sing Person=1 PrepCase=Npr PronType=Prs	1	iobj	gustar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	2
 gustaría	gustaría	gustar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	2	root	-	-	-	-
 mencionar	mencionar	mencionar	VERB	VerbForm=Inf	3	csubj	gustar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	2
-que	que	que	SCONJ	-	4	mark	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	24
+que	que	que	SCONJ		4	mark	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	24
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	5	punct	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	12
-aunque	aunque	aunque	SCONJ	-	6	mark	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	12
+aunque	aunque	aunque	SCONJ		6	mark	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	12
 en	en	en	ADP	AdpType=Prep	7	case	mesa	NOUN	Gender=Fem Number=Sing	9
 esa	esa	ese	DET	Gender=Fem Number=Sing PronType=Dem	8	det	mesa	NOUN	Gender=Fem Number=Sing	9
 mesa	mesa	mesa	NOUN	Gender=Fem Number=Sing	9	obl	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	12
@@ -4582,7 +4582,7 @@ se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	10	expl:pv
 han	han	haber	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	11	aux	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	12
 producido	producido	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	12	advcl	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	24
 diálogos	diálogos	diálogo	NOUN	Gender=Masc Number=Plur	13	nsubj	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	12
-y	y	y	CCONJ	-	14	cc	alcanzar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	17
+y	y	y	CCONJ		14	cc	alcanzar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	17
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	15	expl:pass	alcanzar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	17
 ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	16	aux	alcanzar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	17
 alcanzado	alcanzado	alcanzar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	17	conj	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	12
@@ -4602,7 +4602,7 @@ el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	29	det	principio	
 principio	principio	principio	NOUN	Gender=Masc Number=Sing	30	obl	hacer	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	31
 hacían	hacían	hacer	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	31	acl	elemento	NOUN	Gender=Masc Number=Plur	26
 imposible	imposible	imposible	ADJ	Number=Sing	32	iobj	hacer	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	31
-que	que	que	SCONJ	-	33	mark	firmar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	35
+que	que	que	SCONJ		33	mark	firmar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	35
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	34	expl:pass	firmar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	35
 firmara	firmara	firmar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	35	ccomp	hacer	VERB	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	31
 un	un	uno	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	36	det	acuerdo	NOUN	Gender=Masc Number=Sing	37
@@ -4615,13 +4615,13 @@ concreto	concreto	concreto	ADJ	Gender=Masc Number=Sing	38	amod	acuerdo	NOUN	Gend
 El	El	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	1	det	primero	ADJ	Gender=Masc NumType=Ord Number=Sing	2
 primero	primero	primero	ADJ	Gender=Masc NumType=Ord Number=Sing	2	nsubj	ver	VERB	VerbForm=Inf	5
 tenía	tenía	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	3	root	-	-	-	-
-que	que	que	SCONJ	-	4	cc	ver	VERB	VerbForm=Inf	5
+que	que	que	SCONJ		4	cc	ver	VERB	VerbForm=Inf	5
 ver	ver	ver	VERB	VerbForm=Inf	5	conj	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	3
 con	con	con	ADP	AdpType=Prep	6	case	existencia	NOUN	Gender=Fem Number=Sing	8
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	7	det	existencia	NOUN	Gender=Fem Number=Sing	8
 existencia	existencia	existencia	NOUN	Gender=Fem Number=Sing	8	obj	ver	VERB	VerbForm=Inf	5
 probada	probada	probado	ADJ	Gender=Fem Number=Sing VerbForm=Part	9	amod	existencia	NOUN	Gender=Fem Number=Sing	8
--no	-no	-no	ADV	-	10	advmod	probado	ADJ	Gender=Fem Number=Sing VerbForm=Part	9
+-no	-no	-no	ADV		10	advmod	probado	ADJ	Gender=Fem Number=Sing VerbForm=Part	9
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	11	cop	opinión	NOUN	Gender=Fem Number=Sing	13
 una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	12	det	opinión	NOUN	Gender=Fem Number=Sing	13
 opinión	opinión	opinión	NOUN	Gender=Fem Number=Sing	13	conj	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	3
@@ -4656,7 +4656,7 @@ los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	15	det	puerto	N
 propios	propios	propio	DET	Gender=Masc Number=Plur PronType=Ind	16	det	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	15
 puertos	puertos	puerto	NOUN	Gender=Masc Number=Plur	17	obj	provenir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	13
 en	en	en	ADP	AdpType=Prep	18	case	reducción	NOUN	Gender=Fem Number=Sing	22
-relación	relación	relación	NOUN	-	19	fixed	en	ADP	AdpType=Prep	18
+relación	relación	relación	NOUN		19	fixed	en	ADP	AdpType=Prep	18
 con	con	con	ADP	AdpType=Prep	20	fixed	en	ADP	AdpType=Prep	18
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	21	det	reducción	NOUN	Gender=Fem Number=Sing	22
 reducción	reducción	reducción	NOUN	Gender=Fem Number=Sing	22	nmod	puerto	NOUN	Gender=Masc Number=Plur	17
@@ -4683,7 +4683,7 @@ ejemplo	ejemplo	ejemplo	NOUN	Gender=Masc Number=Sing	40	fixed	por	ADP	AdpType=Pr
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	41	punct	por	ADP	AdpType=Prep	39
 a	a	a	ADP	AdpType=Prep	42	case	millón	NOUN	Gender=Masc Number=Plur	46
-razón	razón	razón	NOUN	-	43	fixed	a	ADP	AdpType=Prep	42
+razón	razón	razón	NOUN		43	fixed	a	ADP	AdpType=Prep	42
 de	de	de	ADP	AdpType=Prep	44	fixed	a	ADP	AdpType=Prep	42
 5	5	5	NUM	NumForm=Digit NumType=Card	45	nummod	millón	NOUN	Gender=Masc Number=Plur	46
 millones	millones	millón	NOUN	Gender=Masc Number=Plur	46	nmod	pérdida	NOUN	Gender=Fem Number=Plur	28
@@ -4694,10 +4694,10 @@ en	en	en	ADP	AdpType=Prep	50	case	parte	NOUN	Gender=Fem Number=Sing	52
 una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	51	det	parte	NOUN	Gender=Fem Number=Sing	52
 parte	parte	parte	NOUN	Gender=Fem Number=Sing	52	nmod	millón	NOUN	Gender=Masc Number=Plur	46
 importante	importante	importante	ADJ	Number=Sing	53	amod	parte	NOUN	Gender=Fem Number=Sing	52
-del	del	del	ADP	AdpType=Preppron	54	case	mes	NOUN	-	55
-mes	mes	mes	NOUN	-	55	nmod	parte	NOUN	Gender=Fem Number=Sing	52
-de	de	de	ADP	AdpType=Prep	56	case	febrero	NOUN	-	57
-febrero	febrero	febrero	NOUN	-	57	compound	mes	NOUN	-	55
+del	del	del	ADP	AdpType=Preppron	54	case	mes	NOUN		55
+mes	mes	mes	NOUN		55	nmod	parte	NOUN	Gender=Fem Number=Sing	52
+de	de	de	ADP	AdpType=Prep	56	case	febrero	NOUN		57
+febrero	febrero	febrero	NOUN		57	compound	mes	NOUN		55
 <g/>
 ;	;	;	PUNCT	PunctType=Semi	58	punct	desvío	NOUN	Gender=Masc Number=Plur	61
 con	con	con	ADP	AdpType=Prep	59	case	desvío	NOUN	Gender=Masc Number=Plur	61
@@ -4718,7 +4718,7 @@ la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	72	det	que	PRON	Pr
 que	que	que	PRON	PronType=Int,Rel	73	obj	hacer	VERB	VerbForm=Inf	77
 han	han	haber	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	74	aux	hacer	VERB	VerbForm=Inf	77
 tenido	tenido	tener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	75	acl	situación	NOUN	Gender=Fem Number=Sing	70
-que	que	que	SCONJ	-	76	cc	hacer	VERB	VerbForm=Inf	77
+que	que	que	SCONJ		76	cc	hacer	VERB	VerbForm=Inf	77
 hacer	hacer	hacer	VERB	VerbForm=Inf	77	conj	tener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	75
 frente	frente	frente	NOUN	Number=Sing	78	compound	hacer	VERB	VerbForm=Inf	77
 muchas	muchas	mucho	PRON	Gender=Fem NumType=Card Number=Plur PronType=Ind	79	nsubj	hacer	VERB	VerbForm=Inf	77
@@ -4727,13 +4727,13 @@ las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	81	det	empresa	N
 empresas	empresas	empresa	NOUN	Gender=Fem Number=Plur	82	nmod	mucho	PRON	Gender=Fem NumType=Card Number=Plur PronType=Ind	79
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	83	punct	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	88
-y	y	y	CCONJ	-	84	cc	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	88
+y	y	y	CCONJ		84	cc	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	88
 algunas	algunas	alguno	PRON	Gender=Fem Number=Plur PronType=Ind	85	nsubj	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	88
 lo	lo	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	86	obj	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	88
 han	han	haber	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	87	aux	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	88
 hecho	hecho	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	88	conj	tener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	75
 público	público	público	NOUN	Gender=Masc Number=Sing	89	iobj	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	88
-y	y	y	CCONJ	-	90	cc	transmitir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	93
+y	y	y	CCONJ		90	cc	transmitir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	93
 lo	lo	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	91	obj	transmitir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	93
 han	han	haber	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	92	aux	transmitir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	93
 transmitido	transmitido	transmitir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	93	conj	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	88
@@ -4742,17 +4742,17 @@ transmitido	transmitido	transmitir	VERB	Gender=Masc Number=Sing Tense=Past VerbF
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	95	cop	caso	NOUN	Gender=Masc Number=Sing	97
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	96	det	caso	NOUN	Gender=Masc Number=Sing	97
 caso	caso	caso	NOUN	Gender=Masc Number=Sing	97	advcl	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
-de	de	de	ADP	AdpType=Prep	98	case	Algeciras	PROPN	-	99
+de	de	de	ADP	AdpType=Prep	98	case	Algeciras	PROPN		99
 <name type="LOC">
-Algeciras	Algeciras	Algeciras	PROPN	-	99	nmod	caso	NOUN	Gender=Masc Number=Sing	97
+Algeciras	Algeciras	Algeciras	PROPN		99	nmod	caso	NOUN	Gender=Masc Number=Sing	97
 <g/>
 </name>
 ,	,	,	PUNCT	PunctType=Comm	100	punct	caso	NOUN	Gender=Masc Number=Sing	102
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	101	det	caso	NOUN	Gender=Masc Number=Sing	102
-caso	caso	caso	NOUN	Gender=Masc Number=Sing	102	appos	Algeciras	PROPN	-	99
-de	de	de	ADP	AdpType=Prep	103	case	Maerks	PROPN	-	104
+caso	caso	caso	NOUN	Gender=Masc Number=Sing	102	appos	Algeciras	PROPN		99
+de	de	de	ADP	AdpType=Prep	103	case	Maerks	PROPN		104
 <name type="LOC">
-Maerks	Maerks	Maerks	PROPN	-	104	nmod	caso	NOUN	Gender=Masc Number=Sing	102
+Maerks	Maerks	Maerks	PROPN		104	nmod	caso	NOUN	Gender=Masc Number=Sing	102
 <g/>
 </name>
 ,	,	,	PUNCT	PunctType=Comm	105	punct	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	109
@@ -4762,7 +4762,7 @@ ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	108	aux	pr
 producido	producido	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	109	acl	caso	NOUN	Gender=Masc Number=Sing	102
 un	un	uno	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	110	det	desvío	NOUN	Gender=Masc Number=Sing	111
 desvío	desvío	desvío	NOUN	Gender=Masc Number=Sing	111	nsubj	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	109
-y	y	y	CCONJ	-	112	cc	reducción	NOUN	Gender=Fem Number=Sing	114
+y	y	y	CCONJ		112	cc	reducción	NOUN	Gender=Fem Number=Sing	114
 una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	113	det	reducción	NOUN	Gender=Fem Number=Sing	114
 reducción	reducción	reducción	NOUN	Gender=Fem Number=Sing	114	conj	desvío	NOUN	Gender=Masc Number=Sing	111
 de	de	de	ADP	AdpType=Prep	115	case	actividad	NOUN	Gender=Fem Number=Sing	117
@@ -4784,7 +4784,7 @@ parte	parte	parte	NOUN	Gender=Fem Number=Sing	3	obl	gustar	VERB	Mood=Cnd Number=
 me	me	yo	PRON	Case=Dat Number=Sing Person=1 PrepCase=Npr PronType=Prs	5	iobj	gustar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	6
 gustaría	gustaría	gustar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	6	root	-	-	-	-
 señalar	señalar	señalar	VERB	VerbForm=Inf	7	csubj	gustar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	6
-que	que	que	SCONJ	-	8	mark	garantizar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	12
+que	que	que	SCONJ		8	mark	garantizar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	12
 esta	esta	este	DET	Gender=Fem Number=Sing PronType=Dem	9	det	empresa	NOUN	Gender=Fem Number=Sing	10
 empresa	empresa	empresa	NOUN	Gender=Fem Number=Sing	10	nsubj	garantizar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	12
 ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	11	aux	garantizar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	12
@@ -4797,7 +4797,7 @@ continuidad	continuidad	continuidad	NOUN	Gender=Fem Number=Sing	17	obj	garantiza
 en	en	en	ADP	AdpType=Prep	18	case	empleo	NOUN	Gender=Masc Number=Sing	20
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	19	det	empleo	NOUN	Gender=Masc Number=Sing	20
 empleo	empleo	empleo	NOUN	Gender=Masc Number=Sing	20	nmod	continuidad	NOUN	Gender=Fem Number=Sing	17
-y	y	y	CCONJ	-	21	cc	condición	NOUN	Gender=Fem Number=Plur	25
+y	y	y	CCONJ		21	cc	condición	NOUN	Gender=Fem Number=Plur	25
 con	con	con	ADP	AdpType=Prep	22	case	condición	NOUN	Gender=Fem Number=Plur	25
 las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	23	det	condición	NOUN	Gender=Fem Number=Plur	25
 actuales	actuales	actual	ADJ	Number=Plur	24	amod	condición	NOUN	Gender=Fem Number=Plur	25
@@ -4812,9 +4812,9 @@ los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	32	det	trabajad
 trabajadores	trabajadores	trabajador	NOUN	Gender=Masc Number=Plur	33	nmod	totalidad	NOUN	Gender=Fem Number=Sing	30
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	34	punct	manifestar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	39
-tal	tal	tal	NOUN	-	35	mark	manifestar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	39
-y	y	y	CCONJ	-	36	fixed	tal	NOUN	-	35
-como	como	como	SCONJ	-	37	fixed	tal	NOUN	-	35
+tal	tal	tal	NOUN		35	mark	manifestar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	39
+y	y	y	CCONJ		36	fixed	tal	NOUN		35
+como	como	como	SCONJ		37	fixed	tal	NOUN		35
 ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	38	aux	manifestar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	39
 manifestado	manifestado	manifestar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	39	advcl	garantizar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	12
 de	de	de	ADP	AdpType=Prep	40	case	forma	NOUN	Gender=Fem Number=Sing	41
@@ -4837,7 +4837,7 @@ contenedores	contenedores	contenedor	NOUN	Gender=Masc Number=Plur	10	nmod	movimi
 <g/>
 ;	;	;	PUNCT	PunctType=Semi	11	punct	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	5
 en	en	en	ADP	AdpType=Prep	12	advmod	incremento	NOUN	Gender=Masc Number=Plur	15
-definitiva	definitiva	definitiva	NOUN	-	13	fixed	en	ADP	AdpType=Prep	12
+definitiva	definitiva	definitiva	NOUN		13	fixed	en	ADP	AdpType=Prep	12
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	14	punct	en	ADP	AdpType=Prep	12
 incrementos	incrementos	incremento	NOUN	Gender=Masc Number=Plur	15	conj	reducción	NOUN	Gender=Fem Number=Plur	6
@@ -4851,27 +4851,27 @@ rendimientos	rendimientos	rendimiento	NOUN	Gender=Masc Number=Plur	22	obj	asocia
 <g/>
 ;	;	;	PUNCT	PunctType=Semi	23	punct	aumento	NOUN	Gender=Masc Number=Sing	24
 aumento	aumento	aumento	NOUN	Gender=Masc Number=Sing	24	conj	reducción	NOUN	Gender=Fem Number=Plur	6
-también	también	también	ADV	-	25	advmod	aumento	NOUN	Gender=Masc Number=Sing	24
-de	de	de	ADP	AdpType=Prep	26	case	también	ADV	-	25
+también	también	también	ADV		25	advmod	aumento	NOUN	Gender=Masc Number=Sing	24
+de	de	de	ADP	AdpType=Prep	26	case	también	ADV		25
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	27	det	flete	NOUN	Gender=Masc Number=Plur	28
-fletes	fletes	flete	NOUN	Gender=Masc Number=Plur	28	nmod	también	ADV	-	25
+fletes	fletes	flete	NOUN	Gender=Masc Number=Plur	28	nmod	también	ADV		25
 para	para	para	ADP	AdpType=Prep	29	case	mercancía	NOUN	Gender=Fem Number=Plur	31
 las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	30	det	mercancía	NOUN	Gender=Fem Number=Plur	31
 mercancías	mercancías	mercancía	NOUN	Gender=Fem Number=Plur	31	nmod	flete	NOUN	Gender=Masc Number=Plur	28
 con	con	con	ADP	AdpType=Prep	32	case	origen	NOUN	Gender=Masc Number=Sing	33
 origen	origen	origen	NOUN	Gender=Masc Number=Sing	33	nmod	mercancía	NOUN	Gender=Fem Number=Plur	31
-o	o	o	CCONJ	-	34	cc	destino	NOUN	Gender=Masc Number=Sing	35
+o	o	o	CCONJ		34	cc	destino	NOUN	Gender=Masc Number=Sing	35
 destino	destino	destino	NOUN	Gender=Masc Number=Sing	35	conj	origen	NOUN	Gender=Masc Number=Sing	33
-en	en	en	ADP	AdpType=Prep	36	case	España	PROPN	-	37
+en	en	en	ADP	AdpType=Prep	36	case	España	PROPN		37
 <name type="LOC">
-España	España	España	PROPN	-	37	nmod	destino	NOUN	Gender=Masc Number=Sing	35
+España	España	España	PROPN		37	nmod	destino	NOUN	Gender=Masc Number=Sing	35
 </name>
-y	y	y	CCONJ	-	38	cc	situación	NOUN	Gender=Fem Number=Sing	40
+y	y	y	CCONJ		38	cc	situación	NOUN	Gender=Fem Number=Sing	40
 una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	39	det	situación	NOUN	Gender=Fem Number=Sing	40
 situación	situación	situación	NOUN	Gender=Fem Number=Sing	40	conj	reducción	NOUN	Gender=Fem Number=Plur	6
 complicada	complicada	complicado	ADJ	Gender=Fem Number=Sing VerbForm=Part	41	amod	situación	NOUN	Gender=Fem Number=Sing	40
 que	que	que	PRON	PronType=Int,Rel	42	nsubj	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	45
-ya	ya	ya	ADV	-	43	advmod	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	45
+ya	ya	ya	ADV		43	advmod	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	45
 ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	44	aux	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	45
 producido	producido	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	45	acl	situación	NOUN	Gender=Fem Number=Sing	40
 un	un	uno	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	46	det	daño	NOUN	Gender=Masc Number=Sing	47
@@ -4918,7 +4918,7 @@ acción	acción	acción	NOUN	Gender=Fem Number=Sing	26	obj	sufrir	VERB	VerbForm=
 .	.	.	PUNCT	PunctType=Peri	27	punct	representar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	7
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.13.13">
-Pero	Pero	pero	CCONJ	-	1	advmod	ser	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	7
+Pero	Pero	pero	CCONJ		1	advmod	ser	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	7
 sobre	sobre	sobre	ADP	AdpType=Prep	2	advmod	ser	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	7
 todo	todo	todo	DET	Gender=Masc Number=Sing PronType=Tot	3	fixed	sobre	ADP	AdpType=Prep	2
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	4	det	obstáculo	NOUN	Gender=Masc Number=Sing	6
@@ -4934,14 +4934,14 @@ claridad	claridad	claridad	NOUN	Gender=Fem Number=Sing	12	obl	decir	VERB	VerbFor
 <g/>
 -	-	-	PUNCT	PunctType=Dash	13	punct	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	14
 era	era	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	14	advcl	ser	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	7
-que	que	que	SCONJ	-	15	mark	anunciar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	21
+que	que	que	SCONJ		15	mark	anunciar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	21
 desde	desde	desde	ADP	AdpType=Prep	16	case	momento	NOUN	Gender=Masc Number=Plur	19
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	17	det	momento	NOUN	Gender=Masc Number=Plur	19
 primeros	primeros	primero	ADJ	Gender=Masc NumType=Ord Number=Plur	18	amod	momento	NOUN	Gender=Masc Number=Plur	19
 momentos	momentos	momento	NOUN	Gender=Masc Number=Plur	19	obl	anunciar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	21
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	20	expl:pass	anunciar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	21
 anunciara	anunciara	anunciar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	21	ccomp	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	14
-públicamente	públicamente	públicamente	ADV	-	22	advmod	anunciar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	21
+públicamente	públicamente	públicamente	ADV		22	advmod	anunciar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	21
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	23	det	posición	NOUN	Gender=Fem Number=Sing	24
 posición	posición	posición	NOUN	Gender=Fem Number=Sing	24	nsubj	anunciar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	21
 negativa	negativa	negativo	ADJ	Gender=Fem Number=Sing	25	amod	posición	NOUN	Gender=Fem Number=Sing	24
@@ -4951,7 +4951,7 @@ este	este	este	DET	Gender=Masc Number=Sing PronType=Dem	28	det	decreto-ley	NOUN	
 real	real	real	ADJ	Gender=Masc Number=Sing	29	amod	decreto-ley	NOUN	Gender=Masc Number=Sing	30
 decreto-ley	decreto-ley	decreto-ley	NOUN	Gender=Masc Number=Sing	30	obj	convalidar	VERB	VerbForm=Inf	27
 por	por	por	ADP	AdpType=Prep	31	case	grupo	NOUN	Gender=Masc Number=Sing	35
-parte	parte	parte	NOUN	-	32	fixed	por	ADP	AdpType=Prep	31
+parte	parte	parte	NOUN		32	fixed	por	ADP	AdpType=Prep	31
 de	de	de	ADP	AdpType=Prep	33	fixed	por	ADP	AdpType=Prep	31
 algún	algún	alguno	DET	Gender=Masc Number=Sing PronType=Ind	34	det	grupo	NOUN	Gender=Masc Number=Sing	35
 grupo	grupo	grupo	NOUN	Gender=Masc Number=Sing	35	obl	convalidar	VERB	VerbForm=Inf	27
@@ -4964,21 +4964,21 @@ Esto	Esto	este	PRON	Number=Sing PronType=Dem	1	nsubj	cosa	NOUN	Gender=Fem Number
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	cop	cosa	NOUN	Gender=Fem Number=Sing	4
 una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	3	det	cosa	NOUN	Gender=Fem Number=Sing	4
 cosa	cosa	cosa	NOUN	Gender=Fem Number=Sing	4	root	-	-	-	-
-muy	muy	mucho	ADV	-	5	advmod	sencillo	ADJ	Gender=Fem Number=Sing	6
+muy	muy	mucho	ADV		5	advmod	sencillo	ADJ	Gender=Fem Number=Sing	6
 sencilla	sencilla	sencillo	ADJ	Gender=Fem Number=Sing	6	amod	cosa	NOUN	Gender=Fem Number=Sing	4
 de	de	de	ADP	AdpType=Prep	7	mark	comprender	VERB	VerbForm=Inf	8
 comprender	comprender	comprender	VERB	VerbForm=Inf	8	acl	sencillo	ADJ	Gender=Fem Number=Sing	6
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	9	punct	entender	VERB	Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin	13
-y	y	y	CCONJ	-	10	cc	entender	VERB	Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin	13
+y	y	y	CCONJ		10	cc	entender	VERB	Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin	13
 ustedes	ustedes	tú	PRON	Case=Acc,Nom Number=Plur Person=2 Polite=Form PronType=Prs	11	nsubj	entender	VERB	Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin	13
 lo	lo	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	12	obj	entender	VERB	Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin	13
 entenderán	entenderán	entender	VERB	Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin	13	conj	cosa	NOUN	Gender=Fem Number=Sing	4
-muy	muy	mucho	ADV	-	14	advmod	bien	ADV	-	15
-bien	bien	bien	ADV	-	15	advmod	entender	VERB	Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin	13
+muy	muy	mucho	ADV		14	advmod	bien	ADV		15
+bien	bien	bien	ADV		15	advmod	entender	VERB	Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin	13
 <g/>
 :	:	:	PUNCT	PunctType=Colo	16	punct	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	38
-si	si	si	SCONJ	-	17	mark	situación	NOUN	Gender=Fem Number=Sing	22
+si	si	si	SCONJ		17	mark	situación	NOUN	Gender=Fem Number=Sing	22
 ustedes	ustedes	tú	PRON	Case=Acc,Nom Number=Plur Person=2 Polite=Form PronType=Prs	18	nsubj	situación	NOUN	Gender=Fem Number=Sing	22
 estuvieran	estuvieran	estar	AUX	Mood=Sub Number=Plur Person=3 Tense=Imp VerbForm=Fin	19	cop	situación	NOUN	Gender=Fem Number=Sing	22
 en	en	en	ADP	AdpType=Prep	20	case	situación	NOUN	Gender=Fem Number=Sing	22
@@ -4986,7 +4986,7 @@ una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	21	det	situaci�
 situación	situación	situación	NOUN	Gender=Fem Number=Sing	22	advcl	entender	VERB	Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin	13
 de	de	de	ADP	AdpType=Prep	23	case	monopolio	NOUN	Gender=Masc Number=Sing	24
 monopolio	monopolio	monopolio	NOUN	Gender=Masc Number=Sing	24	nmod	situación	NOUN	Gender=Fem Number=Sing	22
-como	como	como	SCONJ	-	25	mark	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	28
+como	como	como	SCONJ		25	mark	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	28
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	26	det	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	28
 que	que	que	PRON	PronType=Int,Rel	27	obj	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	28
 tiene	tiene	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	28	acl	situación	NOUN	Gender=Fem Number=Sing	22
@@ -5000,28 +5000,28 @@ la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	35	det	estiba	NOUN
 estiba	estiba	estiba	NOUN	Gender=Fem Number=Sing	36	nmod	sector	NOUN	Gender=Masc Number=Sing	33
 -no	-no	-no	PRON	Number=Sing PronType=Int,Rel	37	nsubj	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	38
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	38	cop	situación	NOUN	Gender=Fem Number=Sing	22
-porque	porque	porque	SCONJ	-	39	mark	decir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	41
+porque	porque	porque	SCONJ		39	mark	decir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	41
 lo	lo	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	40	obj	decir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	41
 diga	diga	decir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	41	advcl	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	38
 yo	yo	yo	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	42	nsubj	decir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	41
 <g/>
-,	,	,	PUNCT	PunctType=Comm	43	punct	así	ADV	-	45
-es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	44	cop	así	ADV	-	45
-así	así	así	ADV	-	45	advcl	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	38
-y	y	y	CCONJ	-	46	cc	describir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	51
-además	además	además	ADV	-	47	advmod	describir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	51
-así	así	así	ADV	-	48	advmod	describir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	51
+,	,	,	PUNCT	PunctType=Comm	43	punct	así	ADV		45
+es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	44	cop	así	ADV		45
+así	así	así	ADV		45	advcl	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	38
+y	y	y	CCONJ		46	cc	describir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	51
+además	además	además	ADV		47	advmod	describir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	51
+así	así	así	ADV		48	advmod	describir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	51
 ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	49	aux	describir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	51
 sido	sido	ser	AUX	Gender=Masc Number=Sing Tense=Past VerbForm=Part	50	aux	describir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	51
-descrito	descrito	describir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	51	conj	así	ADV	-	45
-también	también	también	ADV	-	52	advmod	describir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	51
+descrito	descrito	describir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	51	conj	así	ADV		45
+también	también	también	ADV		52	advmod	describir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	51
 por	por	por	ADP	AdpType=Prep	53	case	autoridad	NOUN	Gender=Fem Number=Plur	55
 las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	54	det	autoridad	NOUN	Gender=Fem Number=Plur	55
 autoridades	autoridades	autoridad	NOUN	Gender=Fem Number=Plur	55	obj	describir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	51
 europeas	europeas	europeo	ADJ	Gender=Fem Number=Plur	56	amod	autoridad	NOUN	Gender=Fem Number=Plur	55
 <g/>
 -	-	-	PUNCT	PunctType=Dash	57	punct	trasladar	VERB	VerbForm=Ger	66
-y	y	y	CCONJ	-	58	cc	trasladar	VERB	VerbForm=Ger	66
+y	y	y	CCONJ		58	cc	trasladar	VERB	VerbForm=Ger	66
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	59	det	grupo	NOUN	Gender=Masc Number=Plur	60
 grupos	grupos	grupo	NOUN	Gender=Masc Number=Plur	60	nsubj	trasladar	VERB	VerbForm=Ger	66
 con	con	con	ADP	AdpType=Prep	61	case	posición	NOUN	Gender=Fem Number=Sing	63
@@ -5030,7 +5030,7 @@ posición	posición	posición	NOUN	Gender=Fem Number=Sing	63	nmod	grupo	NOUN	Gen
 les	les	él	PRON	Case=Dat Number=Plur Person=3 PronType=Prs	64	obj	trasladar	VERB	VerbForm=Ger	66
 están	están	estar	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	65	aux	trasladar	VERB	VerbForm=Ger	66
 trasladando	trasladando	trasladar	VERB	VerbForm=Ger	66	conj	describir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	51
-que	que	que	SCONJ	-	67	mark	conservar	VERB	VerbForm=Inf	69
+que	que	que	SCONJ		67	mark	conservar	VERB	VerbForm=Inf	69
 pueden	pueden	poder	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	68	aux	conservar	VERB	VerbForm=Inf	69
 conservar	conservar	conservar	VERB	VerbForm=Inf	69	xcomp	trasladar	VERB	VerbForm=Ger	66
 esa	esa	ese	DET	Gender=Fem Number=Sing PronType=Dem	70	det	situación	NOUN	Gender=Fem Number=Sing	71
@@ -5042,7 +5042,7 @@ situación	situación	situación	NOUN	Gender=Fem Number=Sing	71	obj	conservar	VE
 por	por	por	ADP	AdpType=Prep	74	case	qué	PRON	Number=Sing PronType=Int,Rel	75
 qué	qué	qué	PRON	Number=Sing PronType=Int,Rel	75	obl	realizar	VERB	VerbForm=Inf	78
 tendrían	tendrían	tener	VERB	Mood=Cnd Number=Plur Person=3 VerbForm=Fin	76	advcl	trasladar	VERB	VerbForm=Ger	66
-que	que	que	SCONJ	-	77	cc	realizar	VERB	VerbForm=Inf	78
+que	que	que	SCONJ		77	cc	realizar	VERB	VerbForm=Inf	78
 realizar	realizar	realizar	VERB	VerbForm=Inf	78	conj	tener	VERB	Mood=Cnd Number=Plur Person=3 VerbForm=Fin	76
 ninguna	ninguna	ninguno	DET	Gender=Fem Number=Sing PronType=Neg	79	det	cesión	NOUN	Gender=Fem Number=Sing	80
 cesión	cesión	cesión	NOUN	Gender=Fem Number=Sing	80	obj	realizar	VERB	VerbForm=Inf	78
@@ -5056,7 +5056,7 @@ mucho	mucho	mucho	DET	Gender=Masc NumType=Card Number=Sing PronType=Ind	3	det	se
 sentido	sentido	sentido	NOUN	Gender=Masc Number=Sing	4	obj	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 <g/>
 ;	;	;	PUNCT	PunctType=Semi	5	punct	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
-si	si	si	SCONJ	-	6	mark	situación	NOUN	Gender=Fem Number=Sing	10
+si	si	si	SCONJ		6	mark	situación	NOUN	Gender=Fem Number=Sing	10
 estás	estás	estar	AUX	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin	7	cop	situación	NOUN	Gender=Fem Number=Sing	10
 en	en	en	ADP	AdpType=Prep	8	case	situación	NOUN	Gender=Fem Number=Sing	10
 una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	9	det	situación	NOUN	Gender=Fem Number=Sing	10
@@ -5088,14 +5088,14 @@ búsqueda	búsqueda	búsqueda	NOUN	Gender=Fem Number=Sing	32	obl	dar	VERB	VerbFo
 de	de	de	ADP	AdpType=Prep	33	case	aspecto	NOUN	Gender=Masc Number=Plur	35
 otros	otros	otro	DET	Gender=Masc Number=Plur PronType=Ind	34	det	aspecto	NOUN	Gender=Masc Number=Plur	35
 aspectos	aspectos	aspecto	NOUN	Gender=Masc Number=Plur	35	nmod	búsqueda	NOUN	Gender=Fem Number=Sing	32
-como	como	como	SCONJ	-	36	mark	mantenimiento	NOUN	Gender=Masc Number=Sing	40
+como	como	como	SCONJ		36	mark	mantenimiento	NOUN	Gender=Masc Number=Sing	40
 puede	puede	poder	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	37	aux	mantenimiento	NOUN	Gender=Masc Number=Sing	40
 ser	ser	ser	AUX	VerbForm=Inf	38	cop	mantenimiento	NOUN	Gender=Masc Number=Sing	40
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	39	det	mantenimiento	NOUN	Gender=Masc Number=Sing	40
 mantenimiento	mantenimiento	mantenimiento	NOUN	Gender=Masc Number=Sing	40	advcl	dar	VERB	VerbForm=Inf	26
 del	del	del	ADP	AdpType=Preppron	41	case	empleo	NOUN	Gender=Masc Number=Sing	42
 empleo	empleo	empleo	NOUN	Gender=Masc Number=Sing	42	nmod	mantenimiento	NOUN	Gender=Masc Number=Sing	40
-si	si	si	SCONJ	-	43	mark	tener	VERB	VerbForm=Inf	48
+si	si	si	SCONJ		43	mark	tener	VERB	VerbForm=Inf	48
 en	en	en	ADP	AdpType=Prep	44	case	momento	NOUN	Gender=Masc Number=Plur	46
 estos	estos	este	DET	Gender=Masc Number=Plur PronType=Dem	45	det	momento	NOUN	Gender=Masc Number=Plur	46
 momentos	momentos	momento	NOUN	Gender=Masc Number=Plur	46	obl	tener	VERB	VerbForm=Inf	48
@@ -5108,7 +5108,7 @@ todo	todo	todo	PRON	Gender=Masc Number=Sing PronType=Tot	50	obj	tener	VERB	VerbF
 ?	?	?	PUNCT	PunctSide=Fin PunctType=Qest	51	punct	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.13.16">
-Porque	Porque	porque	SCONJ	-	1	mark	garantizar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
+Porque	Porque	porque	SCONJ		1	mark	garantizar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
 esa	esa	ese	DET	Gender=Fem Number=Sing PronType=Dem	2	det	posición	NOUN	Gender=Fem Number=Sing	3
 posición	posición	posición	NOUN	Gender=Fem Number=Sing	3	nsubj	garantizar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
 les	les	él	PRON	Case=Dat Number=Plur Person=3 PronType=Prs	4	obj	garantizar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
@@ -5135,28 +5135,28 @@ que	que	que	PRON	PronType=Int,Rel	4	nsubj	producir	VERB	Gender=Masc Number=Sing 
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	5	expl:pv	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	7
 ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6	aux	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	7
 producido	producido	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	7	acl	bucle	NOUN	Gender=Masc Number=Sing	2
-cuando	cuando	cuando	SCONJ	-	8	mark	provocar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	13
+cuando	cuando	cuando	SCONJ		8	mark	provocar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	13
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	9	det	no	ADV	Polarity=Neg	11
-'	'	'	SYM	-	10	nmod	no	ADV	Polarity=Neg	11
+'	'	'	SYM		10	nmod	no	ADV	Polarity=Neg	11
 <g/>
 no	no	no	ADV	Polarity=Neg	11	advmod	provocar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	13
 <g/>
-'	'	'	SYM	-	12	nmod	no	ADV	Polarity=Neg	11
+'	'	'	SYM		12	nmod	no	ADV	Polarity=Neg	11
 provocaba	provocaba	provocar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	13	advcl	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	7
-que	que	que	SCONJ	-	14	mark	dar	VERB	Mood=Sub Number=Plur Person=3 Tense=Imp VerbForm=Fin	17
+que	que	que	SCONJ		14	mark	dar	VERB	Mood=Sub Number=Plur Person=3 Tense=Imp VerbForm=Fin	17
 no	no	no	ADV	Polarity=Neg	15	advmod	dar	VERB	Mood=Sub Number=Plur Person=3 Tense=Imp VerbForm=Fin	17
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	16	expl:pass	dar	VERB	Mood=Sub Number=Plur Person=3 Tense=Imp VerbForm=Fin	17
 dieran	dieran	dar	VERB	Mood=Sub Number=Plur Person=3 Tense=Imp VerbForm=Fin	17	ccomp	provocar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	13
 pasos	pasos	paso	NOUN	Gender=Masc Number=Plur	18	obj	dar	VERB	Mood=Sub Number=Plur Person=3 Tense=Imp VerbForm=Fin	17
-adelante	adelante	adelante	ADV	-	19	advmod	dar	VERB	Mood=Sub Number=Plur Person=3 Tense=Imp VerbForm=Fin	17
+adelante	adelante	adelante	ADV		19	advmod	dar	VERB	Mood=Sub Number=Plur Person=3 Tense=Imp VerbForm=Fin	17
 en	en	en	ADP	AdpType=Prep	20	case	mesa	NOUN	Gender=Fem Number=Sing	22
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	21	det	mesa	NOUN	Gender=Fem Number=Sing	22
 mesa	mesa	mesa	NOUN	Gender=Fem Number=Sing	22	obl	dar	VERB	Mood=Sub Number=Plur Person=3 Tense=Imp VerbForm=Fin	17
-y	y	y	CCONJ	-	23	cc	dar	VERB	VerbForm=Inf	25
+y	y	y	CCONJ		23	cc	dar	VERB	VerbForm=Inf	25
 no	no	no	ADV	Polarity=Neg	24	advmod	dar	VERB	VerbForm=Inf	25
 dar	dar	dar	VERB	VerbForm=Inf	25	conj	dar	VERB	Mood=Sub Number=Plur Person=3 Tense=Imp VerbForm=Fin	17
 pasos	pasos	paso	NOUN	Gender=Masc Number=Plur	26	obj	dar	VERB	VerbForm=Inf	25
-adelante	adelante	adelante	ADV	-	27	advmod	dar	VERB	VerbForm=Inf	25
+adelante	adelante	adelante	ADV		27	advmod	dar	VERB	VerbForm=Inf	25
 en	en	en	ADP	AdpType=Prep	28	case	mesa	NOUN	Gender=Fem Number=Sing	30
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	29	det	mesa	NOUN	Gender=Fem Number=Sing	30
 mesa	mesa	mesa	NOUN	Gender=Fem Number=Sing	30	obl	dar	VERB	VerbForm=Inf	25
@@ -5168,16 +5168,16 @@ del	del	del	ADP	AdpType=Preppron	34	case	'no	NOUN	Gender=Masc Number=Sing	35
 'no	'no	'no	NOUN	Gender=Masc Number=Sing	35	nmod	posición	NOUN	Gender=Fem Number=Sing	33
 <g/>
 </name>
-'	'	'	SYM	-	36	nmod	'no	NOUN	Gender=Masc Number=Sing	35
+'	'	'	SYM		36	nmod	'no	NOUN	Gender=Masc Number=Sing	35
 nos	nos	yo	PRON	Case=Acc Number=Plur Person=1 PrepCase=Npr PronType=Prs	37	expl:pv	llevar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	38
 llevaba	llevaba	llevar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	38	conj	avalar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	31
-inevitablemente	inevitablemente	inevitablemente	ADV	-	39	advmod	llevar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	38
+inevitablemente	inevitablemente	inevitablemente	ADV		39	advmod	llevar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	38
 hacia	hacia	hacia	ADP	AdpType=Prep	40	case	presentación	NOUN	Gender=Fem Number=Sing	42
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	41	det	presentación	NOUN	Gender=Fem Number=Sing	42
 presentación	presentación	presentación	NOUN	Gender=Fem Number=Sing	42	obl	llevar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	38
 del	del	del	ADP	AdpType=Preppron	43	case	real	NOUN	Gender=Masc Number=Sing	44
 real	real	real	NOUN	Gender=Masc Number=Sing	44	nmod	presentación	NOUN	Gender=Fem Number=Sing	42
-decreto-ley	decreto-ley	decreto-ley	NOUN	-	45	compound	real	NOUN	Gender=Masc Number=Sing	44
+decreto-ley	decreto-ley	decreto-ley	NOUN		45	compound	real	NOUN	Gender=Masc Number=Sing	44
 en	en	en	ADP	AdpType=Prep	46	case	término	NOUN	Gender=Masc Number=Plur	48
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	47	det	término	NOUN	Gender=Masc Number=Plur	48
 términos	términos	término	NOUN	Gender=Masc Number=Plur	48	obl	llevar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	38
@@ -5200,37 +5200,37 @@ voces	voces	voz	NOUN	Gender=Fem Number=Plur	8	nsubj	mucho	DET	Gender=Fem NumType
 que	que	que	PRON	PronType=Int,Rel	9	nsubj	decir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	11
 han	han	haber	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	10	aux	decir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	11
 dicho	dicho	decir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	11	acl	voz	NOUN	Gender=Fem Number=Plur	8
-que	que	que	SCONJ	-	12	mark	inmediato	ADJ	Gender=Fem Number=Sing	34
-si	si	si	SCONJ	-	13	mark	aprobar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	16
+que	que	que	SCONJ		12	mark	inmediato	ADJ	Gender=Fem Number=Sing	34
+si	si	si	SCONJ		13	mark	aprobar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	16
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	14	expl:pass	aprobar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	16
 hubiera	hubiera	haber	AUX	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	15	aux	aprobar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	16
 aprobado	aprobado	aprobar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	16	advcl	inmediato	ADJ	Gender=Fem Number=Sing	34
-antes	antes	antes	ADV	-	17	advmod	aprobar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	16
-o	o	o	CCONJ	-	18	cc	aprobar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	21
-si	si	si	SCONJ	-	19	mark	aprobar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	21
+antes	antes	antes	ADV		17	advmod	aprobar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	16
+o	o	o	CCONJ		18	cc	aprobar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	21
+si	si	si	SCONJ		19	mark	aprobar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	21
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	20	expl:pass	aprobar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	21
 aprobara	aprobara	aprobar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	21	conj	aprobar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	16
-hoy	hoy	hoy	ADV	-	22	advmod	aprobar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	21
+hoy	hoy	hoy	ADV		22	advmod	aprobar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	21
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	23	det	real	NOUN	Gender=Masc Number=Sing	24
 real	real	real	NOUN	Gender=Masc Number=Sing	24	nsubj	aprobar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	21
-decreto-ley	decreto-ley	decreto-ley	NOUN	-	25	compound	real	NOUN	Gender=Masc Number=Sing	24
-y	y	y	CCONJ	-	26	cc	convalidar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	28
+decreto-ley	decreto-ley	decreto-ley	NOUN		25	compound	real	NOUN	Gender=Masc Number=Sing	24
+y	y	y	CCONJ		26	cc	convalidar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	28
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	27	expl:pass	convalidar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	28
 convalidara	convalidara	convalidar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	28	conj	aprobar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	21
-definitivamente	definitivamente	definitivamente	ADV	-	29	advmod	convalidar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	28
+definitivamente	definitivamente	definitivamente	ADV		29	advmod	convalidar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	28
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	30	punct	aprobar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	16
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	31	det	negociación	NOUN	Gender=Fem Number=Sing	32
 negociación	negociación	negociación	NOUN	Gender=Fem Number=Sing	32	nsubj	inmediato	ADJ	Gender=Fem Number=Sing	34
 sería	sería	ser	AUX	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	33	cop	inmediato	ADJ	Gender=Fem Number=Sing	34
 inmediata	inmediata	inmediato	ADJ	Gender=Fem Number=Sing	34	ccomp	decir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	11
-porque	porque	porque	SCONJ	-	35	mark	atender	VERB	VerbForm=Inf	44
+porque	porque	porque	SCONJ		35	mark	atender	VERB	VerbForm=Inf	44
 en	en	en	ADP	AdpType=Prep	36	case	condición	NOUN	Gender=Fem Number=Plur	38
 esas	esas	ese	DET	Gender=Fem Number=Plur PronType=Dem	37	det	condición	NOUN	Gender=Fem Number=Plur	38
 condiciones	condiciones	condición	NOUN	Gender=Fem Number=Plur	38	obl	atender	VERB	VerbForm=Inf	44
 seguro	seguro	seguro	ADJ	Gender=Masc Number=Sing	39	amod	condición	NOUN	Gender=Fem Number=Plur	38
-que	que	que	SCONJ	-	40	mark	atender	VERB	VerbForm=Inf	44
-ya	ya	ya	ADV	-	41	advmod	atender	VERB	VerbForm=Inf	44
+que	que	que	SCONJ		40	mark	atender	VERB	VerbForm=Inf	44
+ya	ya	ya	ADV		41	advmod	atender	VERB	VerbForm=Inf	44
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	42	expl:impers	atender	VERB	VerbForm=Inf	44
 podría	podría	poder	AUX	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	43	aux	atender	VERB	VerbForm=Inf	44
 atender	atender	atender	VERB	VerbForm=Inf	44	advcl	inmediato	ADJ	Gender=Fem Number=Sing	34
@@ -5249,7 +5249,7 @@ empleo	empleo	empleo	NOUN	Gender=Masc Number=Sing	54	nmod	mantenimiento	NOUN	Gen
 .	.	.	PUNCT	PunctType=Peri	55	punct	mucho	DET	Gender=Fem NumType=Card Number=Plur PronType=Ind	6
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.13.19">
-Y	Y	y	CCONJ	-	1	advmod	estar	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
+Y	Y	y	CCONJ		1	advmod	estar	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
 a	a	a	ADP	AdpType=Prep	2	case	este	PRON	Number=Sing PronType=Dem	4
 todo	todo	todo	DET	Gender=Masc Number=Sing PronType=Tot	3	det	este	PRON	Number=Sing PronType=Dem	4
 esto	esto	este	PRON	Number=Sing PronType=Dem	4	obl	estar	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
@@ -5281,12 +5281,12 @@ que	que	que	PRON	PronType=Int,Rel	2	nsubj	claro	ADJ	Gender=Masc Number=Sing	4
 está	está	estar	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	cop	claro	ADJ	Gender=Masc Number=Sing	4
 claro	claro	claro	ADJ	Gender=Masc Number=Sing	4	csubj	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5	root	-	-	-	-
-que	que	que	SCONJ	-	6	mark	haber	AUX	Gender=Masc Number=Sing Tense=Past VerbForm=Part	8
+que	que	que	SCONJ		6	mark	haber	AUX	Gender=Masc Number=Sing Tense=Past VerbForm=Part	8
 ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	7	aux	haber	AUX	Gender=Masc Number=Sing Tense=Past VerbForm=Part	8
 habido	habido	haber	AUX	Gender=Masc Number=Sing Tense=Past VerbForm=Part	8	ccomp	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
 tiempo	tiempo	tiempo	NOUN	Gender=Masc Number=Sing	9	obj	haber	AUX	Gender=Masc Number=Sing Tense=Past VerbForm=Part	8
 más	más	más	ADV	Degree=Cmp	10	advmod	tiempo	NOUN	Gender=Masc Number=Sing	9
-que	que	que	SCONJ	-	11	mark	suficiente	ADJ	Number=Sing	12
+que	que	que	SCONJ		11	mark	suficiente	ADJ	Number=Sing	12
 suficiente	suficiente	suficiente	ADJ	Number=Sing	12	amod	tiempo	NOUN	Gender=Masc Number=Sing	9
 para	para	para	ADP	AdpType=Prep	13	mark	cerrar	VERB	VerbForm=Inf	15
 poder	poder	poder	AUX	VerbForm=Inf	14	aux	cerrar	VERB	VerbForm=Inf	15
@@ -5307,7 +5307,7 @@ empleo	empleo	empleo	NOUN	Gender=Masc Number=Sing	27	nmod	mantenimiento	NOUN	Gen
 .	.	.	PUNCT	PunctType=Peri	28	punct	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.14.2">
-Como	Como	como	SCONJ	-	1	mark	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	6
+Como	Como	como	SCONJ		1	mark	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	6
 esto	esto	este	PRON	Number=Sing PronType=Dem	2	nsubj	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	6
 no	no	no	ADV	Polarity=Neg	3	advmod	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	6
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	4	expl:pv	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	6
@@ -5315,19 +5315,19 @@ ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5	aux	prod
 producido	producido	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	6	advcl	plantear	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	20
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	7	punct	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	15
-como	como	como	SCONJ	-	8	mark	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	15
+como	como	como	SCONJ		8	mark	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	15
 ese	ese	ese	DET	Gender=Masc Number=Sing PronType=Dem	9	det	acuerdo	NOUN	Gender=Masc Number=Sing	10
 acuerdo	acuerdo	acuerdo	NOUN	Gender=Masc Number=Sing	10	nsubj	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	15
-finalmente	finalmente	finalmente	ADV	-	11	advmod	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	15
+finalmente	finalmente	finalmente	ADV		11	advmod	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	15
 no	no	no	ADV	Polarity=Neg	12	advmod	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	15
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	13	expl:pv	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	15
 ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	14	aux	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	15
 producido	producido	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	15	advcl	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	6
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	16	punct	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	6
-el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	17	det	Gobierno	PROPN	-	18
+el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	17	det	Gobierno	PROPN		18
 <name type="ORG">
-Gobierno	Gobierno	Gobierno	PROPN	-	18	nsubj	plantear	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	20
+Gobierno	Gobierno	Gobierno	PROPN		18	nsubj	plantear	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	20
 </name>
 ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	19	aux	plantear	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	20
 planteado	planteado	plantear	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	20	root	-	-	-	-
@@ -5336,14 +5336,14 @@ documento	documento	documento	NOUN	Gender=Masc Number=Sing	22	obj	plantear	VERB	
 en	en	en	ADP	AdpType=Prep	23	case	que	PRON	PronType=Int,Rel	25
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	24	det	que	PRON	PronType=Int,Rel	25
 que	que	que	PRON	PronType=Int,Rel	25	obl	pretender	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	28
-precisamente	precisamente	precisamente	ADV	-	26	advmod	pretender	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	28
+precisamente	precisamente	precisamente	ADV		26	advmod	pretender	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	28
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	27	expl:pass	pretender	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	28
 pretenden	pretenden	pretender	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	28	acl	documento	NOUN	Gender=Masc Number=Sing	22
 varias	varias	varios	DET	Gender=Fem Number=Plur PronType=Ind	29	det	cosa	NOUN	Gender=Fem Number=Plur	30
 cosas	cosas	cosa	NOUN	Gender=Fem Number=Plur	30	nsubj	pretender	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	28
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	31	punct	mantenimiento	NOUN	Gender=Masc Number=Sing	37
-pero	pero	pero	CCONJ	-	32	cc	mantenimiento	NOUN	Gender=Masc Number=Sing	37
+pero	pero	pero	CCONJ		32	cc	mantenimiento	NOUN	Gender=Masc Number=Sing	37
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	33	det	esencial	ADJ	Number=Sing	34
 esencial	esencial	esencial	ADJ	Number=Sing	34	nsubj	mantenimiento	NOUN	Gender=Masc Number=Sing	37
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	35	cop	mantenimiento	NOUN	Gender=Masc Number=Sing	37
@@ -5355,22 +5355,22 @@ empleo	empleo	empleo	NOUN	Gender=Masc Number=Sing	39	nmod	mantenimiento	NOUN	Gen
 .	.	.	PUNCT	PunctType=Peri	40	punct	plantear	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	20
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.14.3">
-Como	Como	como	SCONJ	-	1	mark	situación	NOUN	Gender=Fem Number=Sing	3
+Como	Como	como	SCONJ		1	mark	situación	NOUN	Gender=Fem Number=Sing	3
 esa	esa	ese	DET	Gender=Fem Number=Sing PronType=Dem	2	det	situación	NOUN	Gender=Fem Number=Sing	3
 situación	situación	situación	NOUN	Gender=Fem Number=Sing	3	nsubj	condicionar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	14
 anunciada	anunciada	anunciado	ADJ	Gender=Fem Number=Sing VerbForm=Part	4	amod	situación	NOUN	Gender=Fem Number=Sing	3
 de	de	de	ADP	AdpType=Prep	5	mark	salir	VERB	VerbForm=Inf	12
-que	que	que	SCONJ	-	6	mark	salir	VERB	VerbForm=Inf	12
+que	que	que	SCONJ		6	mark	salir	VERB	VerbForm=Inf	12
 este	este	este	DET	Gender=Masc Number=Sing PronType=Dem	7	det	decreto-ley	NOUN	Gender=Masc Number=Sing	9
 real	real	real	ADJ	Number=Sing	8	amod	decreto-ley	NOUN	Gender=Masc Number=Sing	9
 decreto-ley	decreto-ley	decreto-ley	NOUN	Gender=Masc Number=Sing	9	nsubj	salir	VERB	VerbForm=Inf	12
 podía	podía	poder	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	10	aux	salir	VERB	VerbForm=Inf	12
 no	no	no	ADV	Polarity=Neg	11	advmod	salir	VERB	VerbForm=Inf	12
 salir	salir	salir	VERB	VerbForm=Inf	12	xcomp	anunciado	ADJ	Gender=Fem Number=Sing VerbForm=Part	4
-adelante	adelante	adelante	ADV	-	13	advmod	salir	VERB	VerbForm=Inf	12
+adelante	adelante	adelante	ADV		13	advmod	salir	VERB	VerbForm=Inf	12
 condicionaba	condicionaba	condicionar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	14	ccomp	ser	AUX	Gender=Masc Number=Sing Tense=Past VerbForm=Part	34
-claramente	claramente	claramente	ADV	-	15	advmod	condicionar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	14
-que	que	que	SCONJ	-	16	mark	dar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	22
+claramente	claramente	claramente	ADV		15	advmod	condicionar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	14
+que	que	que	SCONJ		16	mark	dar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	22
 una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	17	det	parte	NOUN	Gender=Fem Number=Sing	18
 parte	parte	parte	NOUN	Gender=Fem Number=Sing	18	nsubj	dar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	22
 de	de	de	ADP	AdpType=Prep	19	case	mesa	NOUN	Gender=Fem Number=Sing	21
@@ -5379,8 +5379,8 @@ mesa	mesa	mesa	NOUN	Gender=Fem Number=Sing	21	nmod	parte	NOUN	Gender=Fem Number=
 diera	diera	dar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	22	ccomp	condicionar	VERB	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	14
 un	un	uno	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	23	det	paso	NOUN	Gender=Masc Number=Sing	24
 paso	paso	paso	NOUN	Gender=Masc Number=Sing	24	obj	dar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	22
-hacia	hacia	hacia	ADP	AdpType=Prep	25	case	delante	ADV	-	26
-delante	delante	delante	ADV	-	26	advmod	dar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	22
+hacia	hacia	hacia	ADP	AdpType=Prep	25	case	delante	ADV		26
+delante	delante	delante	ADV		26	advmod	dar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	22
 para	para	para	ADP	AdpType=Prep	27	mark	cerrar	VERB	VerbForm=Inf	29
 poder	poder	poder	AUX	VerbForm=Inf	28	aux	cerrar	VERB	VerbForm=Inf	29
 cerrar	cerrar	cerrar	VERB	VerbForm=Inf	29	advcl	dar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	22
@@ -5390,9 +5390,9 @@ acuerdo	acuerdo	acuerdo	NOUN	Gender=Masc Number=Sing	31	obj	cerrar	VERB	VerbForm
 ,	,	,	PUNCT	PunctType=Comm	32	punct	ser	AUX	Gender=Masc Number=Sing Tense=Past VerbForm=Part	34
 ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	33	aux	ser	AUX	Gender=Masc Number=Sing Tense=Past VerbForm=Part	34
 sido	sido	ser	AUX	Gender=Masc Number=Sing Tense=Past VerbForm=Part	34	root	-	-	-	-
-el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	35	det	Gobierno	PROPN	-	36
+el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	35	det	Gobierno	PROPN		36
 <name type="ORG">
-Gobierno	Gobierno	Gobierno	PROPN	-	36	nsubj	ser	AUX	Gender=Masc Number=Sing Tense=Past VerbForm=Part	34
+Gobierno	Gobierno	Gobierno	PROPN		36	nsubj	ser	AUX	Gender=Masc Number=Sing Tense=Past VerbForm=Part	34
 </name>
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	37	det	dar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	77
 que	que	que	PRON	PronType=Int,Rel	38	nsubj	dar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	77
@@ -5403,11 +5403,11 @@ un	un	uno	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	41	det	esfuerzo	
 esfuerzo	esfuerzo	esfuerzo	NOUN	Gender=Masc Number=Sing	42	obl	dar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	77
 más	más	más	ADV	Degree=Cmp	43	advmod	esfuerzo	NOUN	Gender=Masc Number=Sing	42
 <g/>
-,	,	,	PUNCT	PunctType=Comm	44	punct	después	ADV	-	45
-después	después	después	ADV	-	45	advmod	esfuerzo	NOUN	Gender=Masc Number=Sing	42
+,	,	,	PUNCT	PunctType=Comm	44	punct	después	ADV		45
+después	después	después	ADV		45	advmod	esfuerzo	NOUN	Gender=Masc Number=Sing	42
 de	de	de	ADP	AdpType=Prep	46	mark	retrasar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	48
 haber	haber	haber	AUX	VerbForm=Inf	47	aux	retrasar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	48
-retrasado	retrasado	retrasar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	48	advcl	después	ADV	-	45
+retrasado	retrasado	retrasar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	48	advcl	después	ADV		45
 una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	49	det	semana	NOUN	Gender=Fem Number=Sing	50
 semana	semana	semana	NOUN	Gender=Fem Number=Sing	50	obl	retrasar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	48
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	51	det	aprobación	NOUN	Gender=Fem Number=Sing	52
@@ -5416,32 +5416,32 @@ de	de	de	ADP	AdpType=Prep	53	case	decreto-ley	NOUN	Gender=Masc Number=Sing	56
 este	este	este	DET	Gender=Masc Number=Sing PronType=Dem	54	det	decreto-ley	NOUN	Gender=Masc Number=Sing	56
 real	real	real	ADJ	Number=Sing	55	amod	decreto-ley	NOUN	Gender=Masc Number=Sing	56
 decreto-ley	decreto-ley	decreto-ley	NOUN	Gender=Masc Number=Sing	56	nmod	aprobación	NOUN	Gender=Fem Number=Sing	52
-en	en	en	ADP	AdpType=Prep	57	case	Consejo	PROPN	-	58
+en	en	en	ADP	AdpType=Prep	57	case	Consejo	PROPN		58
 <name type="ORG">
-Consejo	Consejo	Consejo	PROPN	-	58	nmod	decreto-ley	NOUN	Gender=Masc Number=Sing	56
-de	de	de	ADP	AdpType=Prep	59	case	Ministros	PROPN	-	60
-Ministros	Ministros	Ministros	PROPN	-	60	flat	Consejo	PROPN	-	58
+Consejo	Consejo	Consejo	PROPN		58	nmod	decreto-ley	NOUN	Gender=Masc Number=Sing	56
+de	de	de	ADP	AdpType=Prep	59	case	Ministros	PROPN		60
+Ministros	Ministros	Ministros	PROPN		60	flat	Consejo	PROPN		58
 <g/>
 </name>
-,	,	,	PUNCT	PunctType=Comm	61	punct	después	ADV	-	62
-después	después	después	ADV	-	62	advmod	retrasar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	48
+,	,	,	PUNCT	PunctType=Comm	61	punct	después	ADV		62
+después	después	después	ADV		62	advmod	retrasar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	48
 de	de	de	ADP	AdpType=Prep	63	mark	retrasar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	65
 haber	haber	haber	AUX	VerbForm=Inf	64	aux	retrasar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	65
-retrasado	retrasado	retrasar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	65	advcl	después	ADV	-	62
-también	también	también	ADV	-	66	advmod	retrasar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	65
+retrasado	retrasado	retrasar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	65	advcl	después	ADV		62
+también	también	también	ADV		66	advmod	retrasar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	65
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	67	det	convalidación	NOUN	Gender=Fem Number=Sing	68
 convalidación	convalidación	convalidación	NOUN	Gender=Fem Number=Sing	68	obj	retrasar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	65
 de	de	de	ADP	AdpType=Prep	69	case	decreto	NOUN	Gender=Masc Number=Sing	72
 este	este	este	DET	Gender=Masc Number=Sing PronType=Dem	70	det	decreto	NOUN	Gender=Masc Number=Sing	72
 real	real	real	ADJ	Number=Sing	71	amod	decreto	NOUN	Gender=Masc Number=Sing	72
 decreto	decreto	decreto	NOUN	Gender=Masc Number=Sing	72	nmod	convalidación	NOUN	Gender=Fem Number=Sing	68
-en	en	en	ADP	AdpType=Prep	73	case	Cámara	PROPN	-	75
-esta	esta	este	DET	Gender=Fem Number=Sing PronType=Dem	74	det	Cámara	PROPN	-	75
+en	en	en	ADP	AdpType=Prep	73	case	Cámara	PROPN		75
+esta	esta	este	DET	Gender=Fem Number=Sing PronType=Dem	74	det	Cámara	PROPN		75
 <name type="ORG">
-Cámara	Cámara	Cámara	PROPN	-	75	nmod	decreto	NOUN	Gender=Masc Number=Sing	72
+Cámara	Cámara	Cámara	PROPN		75	nmod	decreto	NOUN	Gender=Masc Number=Sing	72
 <g/>
 </name>
-,	,	,	PUNCT	PunctType=Comm	76	punct	después	ADV	-	62
+,	,	,	PUNCT	PunctType=Comm	76	punct	después	ADV		62
 dio	dio	dar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	77	ccomp	ser	AUX	Gender=Masc Number=Sing Tense=Past VerbForm=Part	34
 un	un	uno	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	78	det	paso	NOUN	Gender=Masc Number=Sing	79
 paso	paso	paso	NOUN	Gender=Masc Number=Sing	79	obj	dar	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	77
@@ -5451,13 +5451,13 @@ presentación	presentación	presentación	NOUN	Gender=Fem Number=Sing	82	obl	dar
 en	en	en	ADP	AdpType=Prep	83	case	día	NOUN	Gender=Masc Number=Sing	85
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	84	det	día	NOUN	Gender=Masc Number=Sing	85
 día	día	día	NOUN	Gender=Masc Number=Sing	85	nmod	presentación	NOUN	Gender=Fem Number=Sing	82
-de	de	de	ADP	AdpType=Prep	86	case	ayer	ADV	-	87
-ayer	ayer	ayer	ADV	-	87	advmod	día	NOUN	Gender=Masc Number=Sing	85
-por	por	por	ADP	AdpType=Prep	88	case	Gobierno	PROPN	-	91
-parte	parte	parte	NOUN	-	89	fixed	por	ADP	AdpType=Prep	88
+de	de	de	ADP	AdpType=Prep	86	case	ayer	ADV		87
+ayer	ayer	ayer	ADV		87	advmod	día	NOUN	Gender=Masc Number=Sing	85
+por	por	por	ADP	AdpType=Prep	88	case	Gobierno	PROPN		91
+parte	parte	parte	NOUN		89	fixed	por	ADP	AdpType=Prep	88
 del	del	del	ADP	AdpType=Preppron	90	fixed	por	ADP	AdpType=Prep	88
 <name type="ORG">
-Gobierno	Gobierno	Gobierno	PROPN	-	91	nmod	presentación	NOUN	Gender=Fem Number=Sing	82
+Gobierno	Gobierno	Gobierno	PROPN		91	nmod	presentación	NOUN	Gender=Fem Number=Sing	82
 </name>
 -cuya	-cuya	-cuyo	DET	Gender=Fem Number=Sing Person=3 Poss=Yes PronType=Prs	92	det	presencia	NOUN	Gender=Fem Number=Sing	93
 presencia	presencia	presencia	NOUN	Gender=Fem Number=Sing	93	nsubj	anunciado	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	102
@@ -5470,7 +5470,7 @@ mediador	mediador	mediador	NOUN	Gender=Masc Number=Sing	97	obl	anunciado	VERB	Ge
 ,	,	,	PUNCT	PunctType=Comm	98	punct	mediador	NOUN	Gender=Masc Number=Sing	97
 había	había	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Imp VerbForm=Fin	99	aux	anunciado	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	102
 sido	sido	ser	AUX	Gender=Masc Number=Sing Tense=Past VerbForm=Part	100	aux	anunciado	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	102
-ya	ya	ya	ADV	-	101	advmod	anunciado	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	102
+ya	ya	ya	ADV		101	advmod	anunciado	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	102
 anunciada	anunciada	anunciado	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	102	advcl	ser	AUX	Gender=Masc Number=Sing Tense=Past VerbForm=Part	34
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	103	det	día	NOUN	Gender=Masc Number=Sing	104
 día	día	día	NOUN	Gender=Masc Number=Sing	104	obl	anunciado	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	102
@@ -5511,9 +5511,9 @@ asunto	asunto	asunto	NOUN	Gender=Masc Number=Sing	2	nsubj	establecer	VERB	Mood=I
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	3	punct	preocupar	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	6
 que	que	que	PRON	PronType=Int,Rel	4	nsubj	preocupar	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	6
-indudablemente	indudablemente	indudablemente	ADV	-	5	advmod	preocupar	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	6
+indudablemente	indudablemente	indudablemente	ADV		5	advmod	preocupar	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	6
 preocupará	preocupará	preocupar	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	6	acl	asunto	NOUN	Gender=Masc Number=Sing	2
-como	como	como	SCONJ	-	7	mark	manera	NOUN	Gender=Fem Number=Sing	13
+como	como	como	SCONJ		7	mark	manera	NOUN	Gender=Fem Number=Sing	13
 no	no	no	ADV	Polarity=Neg	8	advmod	manera	NOUN	Gender=Fem Number=Sing	13
 puede	puede	poder	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	9	aux	manera	NOUN	Gender=Fem Number=Sing	13
 ser	ser	ser	AUX	VerbForm=Inf	10	cop	manera	NOUN	Gender=Fem Number=Sing	13
@@ -5527,18 +5527,18 @@ sindicatos	sindicatos	sindicato	NOUN	Gender=Masc Number=Plur	16	nmod	manera	NOUN
 ,	,	,	PUNCT	PunctType=Comm	17	punct	preocupar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	19
 que	que	que	PRON	PronType=Int,Rel	18	nsubj	preocupar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	19
 preocupa	preocupa	preocupar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	19	acl	sindicato	NOUN	Gender=Masc Number=Plur	16
-al	al	al	ADP	AdpType=Preppron	20	case	Gobierno	PROPN	-	21
+al	al	al	ADP	AdpType=Preppron	20	case	Gobierno	PROPN		21
 <name type="ORG">
-Gobierno	Gobierno	Gobierno	PROPN	-	21	obj	preocupar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	19
+Gobierno	Gobierno	Gobierno	PROPN		21	obj	preocupar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	19
 <g/>
 </name>
 ,	,	,	PUNCT	PunctType=Comm	22	punct	seguro	ADJ	Gender=Masc Number=Sing	25
-y	y	y	CCONJ	-	23	cc	seguro	ADJ	Gender=Masc Number=Sing	25
+y	y	y	CCONJ		23	cc	seguro	ADJ	Gender=Masc Number=Sing	25
 estoy	estoy	estar	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	24	cop	seguro	ADJ	Gender=Masc Number=Sing	25
 seguro	seguro	seguro	ADJ	Gender=Masc Number=Sing	25	conj	preocupar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	19
-también	también	también	ADV	-	26	advmod	seguro	ADJ	Gender=Masc Number=Sing	25
+también	también	también	ADV		26	advmod	seguro	ADJ	Gender=Masc Number=Sing	25
 de	de	de	ADP	AdpType=Prep	27	mark	preocupar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	29
-que	que	que	SCONJ	-	28	mark	preocupar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	29
+que	que	que	SCONJ		28	mark	preocupar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	29
 preocupa	preocupa	preocupar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	29	acl	seguro	ADJ	Gender=Masc Number=Sing	25
 a	a	a	ADP	AdpType=Prep	30	case	grupo	NOUN	Gender=Masc Number=Plur	33
 todos	todos	todo	DET	Gender=Masc Number=Plur PronType=Tot	31	det	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	32
@@ -5569,7 +5569,7 @@ de	de	de	ADP	AdpType=Prep	53	case	mercancía	NOUN	Gender=Masc Number=Plur	54
 mercancías	mercancías	mercancía	NOUN	Gender=Masc Number=Plur	54	nmod	manipulación	NOUN	Gender=Fem Number=Sing	52
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	55	punct	dejar	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	57
-cuando	cuando	cuando	SCONJ	-	56	mark	dejar	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	57
+cuando	cuando	cuando	SCONJ		56	mark	dejar	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	57
 dejen	dejen	dejar	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	57	acl	empresa	NOUN	Gender=Fem Number=Plur	44
 las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	58	det	sociedad	NOUN	Gender=Fem Number=Plur	59
 sociedades	sociedades	sociedad	NOUN	Gender=Fem Number=Plur	59	obj	dejar	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	57
@@ -5580,16 +5580,16 @@ de	de	de	ADP	AdpType=Prep	63	case	estibador	NOUN	Gender=Masc Number=Plur	64
 estibadores	estibadores	estibador	NOUN	Gender=Masc Number=Plur	64	nmod	gestión	NOUN	Gender=Fem Number=Sing	62
 portuarios	portuarios	portuario	ADJ	Gender=Masc Number=Plur	65	amod	estibador	NOUN	Gender=Masc Number=Plur	64
 <g/>
-,	,	,	PUNCT	PunctType=Comm	66	punct	Sagep	PROPN	-	68
-las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	67	det	Sagep	PROPN	-	68
+,	,	,	PUNCT	PunctType=Comm	66	punct	Sagep	PROPN		68
+las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	67	det	Sagep	PROPN		68
 <name type="ORG">
-Sagep	Sagep	Sagep	PROPN	-	68	appos	estibador	NOUN	Gender=Masc Number=Plur	64
+Sagep	Sagep	Sagep	PROPN		68	appos	estibador	NOUN	Gender=Masc Number=Plur	64
 <g/>
 </name>
-,	,	,	PUNCT	PunctType=Comm	69	punct	Sagep	PROPN	-	68
+,	,	,	PUNCT	PunctType=Comm	69	punct	Sagep	PROPN		68
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	70	expl:pv	subrogar	VERB	Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin	71
 subrogarán	subrogarán	subrogar	VERB	Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin	71	advcl	dejar	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	57
-como	como	como	SCONJ	-	72	mark	empleadora	NOUN	Gender=Fem Number=Plur	74
+como	como	como	SCONJ		72	mark	empleadora	NOUN	Gender=Fem Number=Plur	74
 nuevas	nuevas	nuevo	ADJ	Gender=Fem Number=Plur	73	amod	empleadora	NOUN	Gender=Fem Number=Plur	74
 empleadoras	empleadoras	empleadora	NOUN	Gender=Fem Number=Plur	74	obl	subrogar	VERB	Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin	71
 en	en	en	ADP	AdpType=Prep	75	case	titularidad	NOUN	Gender=Fem Number=Sing	77
@@ -5601,12 +5601,12 @@ relación	relación	relación	NOUN	Gender=Fem Number=Sing	80	nmod	titularidad	NO
 laboral	laboral	laboral	ADJ	Number=Sing	81	amod	relación	NOUN	Gender=Fem Number=Sing	80
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	82	punct	derecho	NOUN	Gender=Masc Number=Plur	87
-así	así	así	ADV	-	83	cc	derecho	NOUN	Gender=Masc Number=Plur	87
-como	como	como	SCONJ	-	84	fixed	así	ADV	-	83
+así	así	así	ADV		83	cc	derecho	NOUN	Gender=Masc Number=Plur	87
+como	como	como	SCONJ		84	fixed	así	ADV		83
 en	en	en	ADP	AdpType=Prep	85	case	derecho	NOUN	Gender=Masc Number=Plur	87
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	86	det	derecho	NOUN	Gender=Masc Number=Plur	87
 derechos	derechos	derecho	NOUN	Gender=Masc Number=Plur	87	conj	titularidad	NOUN	Gender=Fem Number=Sing	77
-y	y	y	CCONJ	-	88	cc	obligación	NOUN	Gender=Fem Number=Plur	89
+y	y	y	CCONJ		88	cc	obligación	NOUN	Gender=Fem Number=Plur	89
 obligaciones	obligaciones	obligación	NOUN	Gender=Fem Number=Plur	89	conj	derecho	NOUN	Gender=Masc Number=Plur	87
 que	que	que	PRON	PronType=Int,Rel	90	nsubj	determinar	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	92
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	91	expl:pass	determinar	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	92
@@ -5616,13 +5616,13 @@ la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	94	det	negociació
 negociación	negociación	negociación	NOUN	Gender=Fem Number=Sing	95	obl	determinar	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	92
 colectiva	colectiva	colectivo	ADJ	Gender=Fem Number=Sing	96	amod	negociación	NOUN	Gender=Fem Number=Sing	95
 que	que	que	PRON	PronType=Int,Rel	97	obj	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	100
-las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	98	det	Sagep	PROPN	-	99
+las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	98	det	Sagep	PROPN		99
 <name type="ORG">
-Sagep	Sagep	Sagep	PROPN	-	99	nsubj	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	100
+Sagep	Sagep	Sagep	PROPN		99	nsubj	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	100
 </name>
 tienen	tienen	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	100	acl	negociación	NOUN	Gender=Fem Number=Sing	95
 con	con	con	ADP	AdpType=Prep	101	case	estibador	NOUN	Gender=Masc Number=Plur	105
-respecto	respecto	respecto	NOUN	-	102	fixed	con	ADP	AdpType=Prep	101
+respecto	respecto	respecto	NOUN		102	fixed	con	ADP	AdpType=Prep	101
 a	a	a	ADP	AdpType=Prep	103	fixed	con	ADP	AdpType=Prep	101
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	104	det	estibador	NOUN	Gender=Masc Number=Plur	105
 estibadores	estibadores	estibador	NOUN	Gender=Masc Number=Plur	105	obl	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	100
@@ -5637,11 +5637,11 @@ mismas	mismas	mismo	PRON	Gender=Fem Number=Plur PronType=Dem	110	obj	vinculado	A
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.15.3">
 Se	Se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	1	expl:pass	entender	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	2
 entenderá	entenderá	entender	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	2	root	-	-	-	-
-igualmente	igualmente	igualmente	ADV	-	3	advmod	producido	ADJ	Gender=Fem Number=Sing VerbForm=Part	4
+igualmente	igualmente	igualmente	ADV		3	advmod	producido	ADJ	Gender=Fem Number=Sing VerbForm=Part	4
 producida	producida	producido	ADJ	Gender=Fem Number=Sing VerbForm=Part	4	obj	entender	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	2
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	5	det	subrogación	NOUN	Gender=Fem Number=Sing	6
 subrogación	subrogación	subrogación	NOUN	Gender=Fem Number=Sing	6	nsubj	entender	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	2
-cuando	cuando	cuando	SCONJ	-	7	mark	incorporar	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	12
+cuando	cuando	cuando	SCONJ		7	mark	incorporar	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	12
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	8	det	trabajador	NOUN	Gender=Masc Number=Sing	9
 trabajador	trabajador	trabajador	NOUN	Gender=Masc Number=Sing	9	nsubj	incorporar	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	12
 portuario	portuario	portuario	ADJ	Gender=Masc Number=Sing	10	amod	trabajador	NOUN	Gender=Masc Number=Sing	9
@@ -5687,19 +5687,19 @@ subrogación	subrogación	subrogación	NOUN	Gender=Fem Number=Sing	11	nsubj	llev
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	12	punct	este	PRON	Number=Sing PronType=Dem	13
 esto	esto	este	PRON	Number=Sing PronType=Dem	13	nsubj	determinar	VERB	Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin	32
-es	es	es	NOUN	-	14	fixed	este	PRON	Number=Sing PronType=Dem	13
+es	es	es	NOUN		14	fixed	este	PRON	Number=Sing PronType=Dem	13
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	15	punct	este	PRON	Number=Sing PronType=Dem	13
 las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	16	det	obligación	NOUN	Gender=Fem Number=Plur	17
 obligaciones	obligaciones	obligación	NOUN	Gender=Fem Number=Plur	17	appos	subrogación	NOUN	Gender=Fem Number=Sing	11
-y	y	y	CCONJ	-	18	cc	derecho	NOUN	Gender=Masc Number=Plur	19
+y	y	y	CCONJ		18	cc	derecho	NOUN	Gender=Masc Number=Plur	19
 derechos	derechos	derecho	NOUN	Gender=Masc Number=Plur	19	conj	obligación	NOUN	Gender=Fem Number=Plur	17
 de	de	de	ADP	AdpType=Prep	20	case	trabajador	NOUN	Gender=Masc Number=Plur	22
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	21	det	trabajador	NOUN	Gender=Masc Number=Plur	22
 trabajadores	trabajadores	trabajador	NOUN	Gender=Masc Number=Plur	22	nmod	derecho	NOUN	Gender=Masc Number=Plur	19
 portuarios	portuarios	portuario	ADJ	Gender=Masc Number=Plur	23	amod	trabajador	NOUN	Gender=Masc Number=Plur	22
 subrogados	subrogados	subrogado	ADJ	Gender=Masc Number=Plur VerbForm=Part	24	amod	trabajador	NOUN	Gender=Masc Number=Plur	22
-y	y	y	CCONJ	-	25	cc	empleadora	NOUN	Gender=Fem Number=Plur	29
+y	y	y	CCONJ		25	cc	empleadora	NOUN	Gender=Fem Number=Plur	29
 de	de	de	ADP	AdpType=Prep	26	case	empleadora	NOUN	Gender=Fem Number=Plur	29
 las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	27	det	empleadora	NOUN	Gender=Fem Number=Plur	29
 nuevas	nuevas	nuevo	ADJ	Gender=Fem Number=Plur	28	amod	empleadora	NOUN	Gender=Fem Number=Plur	29
@@ -5723,7 +5723,7 @@ estatal	estatal	estatal	ADJ	Number=Sing	40	amod	ámbito	NOUN	Gender=Masc Number=
 En	En	en	ADP	AdpType=Prep	1	case	defecto	NOUN	Gender=Masc Number=Sing	2
 defecto	defecto	defecto	NOUN	Gender=Masc Number=Sing	2	obl	quedar	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	8
 de	de	de	ADP	AdpType=Prep	3	fixed	en	ADP	AdpType=Prep	1
-acuerdo	acuerdo	acuerdo	NOUN	-	4	fixed	en	ADP	AdpType=Prep	1
+acuerdo	acuerdo	acuerdo	NOUN		4	fixed	en	ADP	AdpType=Prep	1
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	5	det	empleador	NOUN	Gender=Masc Number=Sing	7
 nuevo	nuevo	nuevo	ADJ	Gender=Masc Number=Sing	6	amod	empleador	NOUN	Gender=Masc Number=Sing	7
 empleador	empleador	empleador	NOUN	Gender=Masc Number=Sing	7	nsubj	quedar	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	8
@@ -5732,14 +5732,14 @@ subrogado	subrogado	subrogado	ADJ	Gender=Masc Number=Sing VerbForm=Part	9	obj	qu
 en	en	en	ADP	AdpType=Prep	10	case	derecho	NOUN	Gender=Masc Number=Plur	12
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	11	det	derecho	NOUN	Gender=Masc Number=Plur	12
 derechos	derechos	derecho	NOUN	Gender=Masc Number=Plur	12	obl	subrogado	ADJ	Gender=Masc Number=Sing VerbForm=Part	9
-y	y	y	CCONJ	-	13	cc	obligación	NOUN	Gender=Fem Number=Plur	14
+y	y	y	CCONJ		13	cc	obligación	NOUN	Gender=Fem Number=Plur	14
 obligaciones	obligaciones	obligación	NOUN	Gender=Fem Number=Plur	14	conj	derecho	NOUN	Gender=Masc Number=Plur	12
 salariales	salariales	salarial	ADJ	Number=Plur	15	amod	obligación	NOUN	Gender=Fem Number=Plur	14
-y	y	y	CCONJ	-	16	cc	Seguridad	PROPN	-	18
-de	de	de	ADP	AdpType=Prep	17	case	Seguridad	PROPN	-	18
+y	y	y	CCONJ		16	cc	Seguridad	PROPN		18
+de	de	de	ADP	AdpType=Prep	17	case	Seguridad	PROPN		18
 <name type="MISC">
-Seguridad	Seguridad	Seguridad	PROPN	-	18	conj	obligación	NOUN	Gender=Fem Number=Plur	14
-Social	Social	Social	PROPN	-	19	flat	Seguridad	PROPN	-	18
+Seguridad	Seguridad	Seguridad	PROPN		18	conj	obligación	NOUN	Gender=Fem Number=Plur	14
+Social	Social	Social	PROPN		19	flat	Seguridad	PROPN		18
 <g/>
 </name>
 .	.	.	PUNCT	PunctType=Peri	20	punct	quedar	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	8
@@ -5774,21 +5774,21 @@ manipulación	manipulación	manipulación	NOUN	Gender=Fem Number=Sing	26	nmod	li
 de	de	de	ADP	AdpType=Prep	27	case	mercancía	NOUN	Gender=Masc Number=Plur	28
 mercancías	mercancías	mercancía	NOUN	Gender=Masc Number=Plur	28	nmod	manipulación	NOUN	Gender=Fem Number=Sing	26
 <g/>
-,	,	,	PUNCT	PunctType=Comm	29	punct	Sagep	PROPN	-	32
-de	de	de	ADP	AdpType=Prep	30	case	Sagep	PROPN	-	32
-las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	31	det	Sagep	PROPN	-	32
+,	,	,	PUNCT	PunctType=Comm	29	punct	Sagep	PROPN		32
+de	de	de	ADP	AdpType=Prep	30	case	Sagep	PROPN		32
+las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	31	det	Sagep	PROPN		32
 <name type="ORG">
-Sagep	Sagep	Sagep	PROPN	-	32	nmod	manipulación	NOUN	Gender=Fem Number=Sing	26
+Sagep	Sagep	Sagep	PROPN		32	nmod	manipulación	NOUN	Gender=Fem Number=Sing	26
 </name>
 que	que	que	PRON	PronType=Int,Rel	33	nsubj	operar	VERB	VerbForm=Ger	35
 estén	estén	estar	AUX	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	34	aux	operar	VERB	VerbForm=Ger	35
-operando	operando	operar	VERB	VerbForm=Ger	35	acl	Sagep	PROPN	-	32
+operando	operando	operar	VERB	VerbForm=Ger	35	acl	Sagep	PROPN		32
 en	en	en	ADP	AdpType=Prep	36	case	puerto	NOUN	Gender=Masc Number=Sing	39
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	37	det	puerto	NOUN	Gender=Masc Number=Sing	39
 respectivo	respectivo	respectivo	ADJ	Gender=Masc Number=Sing	38	amod	puerto	NOUN	Gender=Masc Number=Sing	39
 puerto	puerto	puerto	NOUN	Gender=Masc Number=Sing	39	obl	operar	VERB	VerbForm=Ger	35
 <g/>
-,	,	,	PUNCT	PunctType=Comm	40	punct	Sagep	PROPN	-	32
+,	,	,	PUNCT	PunctType=Comm	40	punct	Sagep	PROPN		32
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	41	expl:pass	determinar	VERB	Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin	42
 determinarán	determinarán	determinar	VERB	Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin	42	root	-	-	-	-
 en	en	en	ADP	AdpType=Prep	43	case	convenio	NOUN	Gender=Masc Number=Plur	45
@@ -5806,7 +5806,7 @@ En	En	en	ADP	AdpType=Prep	1	case	supuesto	NOUN	Gender=Masc Number=Sing	3
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	2	det	supuesto	NOUN	Gender=Masc Number=Sing	3
 supuesto	supuesto	supuesto	NOUN	Gender=Masc Number=Sing	3	obl	ver	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	42
 de	de	de	ADP	AdpType=Prep	4	mark	decidir	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	18
-que	que	que	SCONJ	-	5	mark	decidir	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	18
+que	que	que	SCONJ		5	mark	decidir	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	18
 las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	6	det	empresa	NOUN	Gender=Fem Number=Plur	7
 empresas	empresas	empresa	NOUN	Gender=Fem Number=Plur	7	nsubj	decidir	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	18
 titulares	titulares	titular	ADJ	Number=Plur	8	amod	empresa	NOUN	Gender=Fem Number=Plur	7
@@ -5821,17 +5821,17 @@ de	de	de	ADP	AdpType=Prep	16	case	mercancía	NOUN	Gender=Masc Number=Plur	17
 mercancías	mercancías	mercancía	NOUN	Gender=Masc Number=Plur	17	nmod	manipulación	NOUN	Gender=Fem Number=Sing	15
 decidan	decidan	decidir	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	18	acl	supuesto	NOUN	Gender=Masc Number=Sing	3
 permanecer	permanecer	permanecer	VERB	VerbForm=Inf	19	xcomp	decidir	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	18
-en	en	en	ADP	AdpType=Prep	20	case	Sagep	PROPN	-	22
-las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	21	det	Sagep	PROPN	-	22
+en	en	en	ADP	AdpType=Prep	20	case	Sagep	PROPN		22
+las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	21	det	Sagep	PROPN		22
 <name type="MISC">
-Sagep	Sagep	Sagep	PROPN	-	22	obl	permanecer	VERB	VerbForm=Inf	19
+Sagep	Sagep	Sagep	PROPN		22	obl	permanecer	VERB	VerbForm=Inf	19
 <g/>
 </name>
 ,	,	,	PUNCT	PunctType=Comm	23	punct	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	30
-y	y	y	CCONJ	-	24	cc	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	30
-que	que	que	SCONJ	-	25	mark	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	30
+y	y	y	CCONJ		24	cc	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	30
+que	que	que	SCONJ		25	mark	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	30
 por	por	por	ADP	AdpType=Prep	26	advmod	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	30
-consiguiente	consiguiente	consiguiente	NOUN	-	27	fixed	por	ADP	AdpType=Prep	26
+consiguiente	consiguiente	consiguiente	NOUN		27	fixed	por	ADP	AdpType=Prep	26
 no	no	no	ADV	Polarity=Neg	28	advmod	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	30
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	29	expl:pv	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	30
 produzca	produzca	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	30	conj	decidir	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	18
@@ -5854,9 +5854,9 @@ afectada	afectada	afectado	ADJ	Gender=Fem Number=Sing VerbForm=Part	43	obj	ver	V
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.15.8">
 En	En	en	ADP	AdpType=Prep	1	case	sentido	NOUN	Gender=Masc Number=Sing	3
-igual	igual	igual	ADJ	-	2	fixed	en	ADP	AdpType=Prep	1
+igual	igual	igual	ADJ		2	fixed	en	ADP	AdpType=Prep	1
 sentido	sentido	sentido	NOUN	Gender=Masc Number=Sing	3	obl	ver	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	6
-tampoco	tampoco	tampoco	ADV	-	4	advmod	ver	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	6
+tampoco	tampoco	tampoco	ADV		4	advmod	ver	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	6
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	5	expl:pass	ver	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	6
 verá	verá	ver	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	6	root	-	-	-	-
 afectada	afectada	afectado	ADJ	Gender=Fem Number=Sing VerbForm=Part	7	obj	ver	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	6
@@ -5891,22 +5891,22 @@ manipulación	manipulación	manipulación	NOUN	Gender=Fem Number=Sing	35	nmod	se
 de	de	de	ADP	AdpType=Prep	36	case	mercancía	NOUN	Gender=Masc Number=Plur	37
 mercancías	mercancías	mercancía	NOUN	Gender=Masc Number=Plur	37	nmod	manipulación	NOUN	Gender=Fem Number=Sing	35
 pertenecientes	pertenecientes	perteneciente	ADJ	Number=Plur	38	amod	servicio	NOUN	Gender=Masc Number=Sing	33
-a	a	a	ADP	AdpType=Prep	39	case	Sagep	PROPN	-	41
-las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	40	det	Sagep	PROPN	-	41
+a	a	a	ADP	AdpType=Prep	39	case	Sagep	PROPN		41
+las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	40	det	Sagep	PROPN		41
 <name type="MISC">
-Sagep	Sagep	Sagep	PROPN	-	41	nmod	perteneciente	ADJ	Number=Plur	38
+Sagep	Sagep	Sagep	PROPN		41	nmod	perteneciente	ADJ	Number=Plur	38
 <g/>
 </name>
 .	.	.	PUNCT	PunctType=Peri	42	punct	ver	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	6
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.15.9">
-Y	Y	y	CCONJ	-	1	advmod	articular	VERB	VerbForm=Inf	36
+Y	Y	y	CCONJ		1	advmod	articular	VERB	VerbForm=Inf	36
 sin	sin	sin	ADP	AdpType=Prep	2	case	perjuicio	NOUN	Gender=Masc Number=Sing	3
 perjuicio	perjuicio	perjuicio	NOUN	Gender=Masc Number=Sing	3	obl	articular	VERB	VerbForm=Inf	36
 de	de	de	ADP	AdpType=Prep	4	case	anterior	ADJ	Number=Sing	6
 lo	lo	él	PRON	Case=Acc Definite=Def Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	5	det	anterior	ADJ	Number=Sing	6
 anterior	anterior	anterior	ADJ	Number=Sing	6	amod	perjuicio	NOUN	Gender=Masc Number=Sing	3
-y	y	y	CCONJ	-	7	cc	libertad	NOUN	Gender=Fem Number=Sing	10
+y	y	y	CCONJ		7	cc	libertad	NOUN	Gender=Fem Number=Sing	10
 de	de	de	ADP	AdpType=Prep	8	case	libertad	NOUN	Gender=Fem Number=Sing	10
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	9	det	libertad	NOUN	Gender=Fem Number=Sing	10
 libertad	libertad	libertad	NOUN	Gender=Fem Number=Sing	10	conj	anterior	ADJ	Number=Sing	6
@@ -5922,7 +5922,7 @@ los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	19	det	convenio
 convenios	convenios	convenio	NOUN	Gender=Masc Number=Plur	20	nmod	contenido	NOUN	Gender=Masc Number=Sing	17
 colectivos	colectivos	colectivo	ADJ	Gender=Masc Number=Plur	21	amod	convenio	NOUN	Gender=Masc Number=Plur	20
 por	por	por	ADP	AdpType=Prep	22	advmod	convenio	NOUN	Gender=Masc Number=Plur	20
-supuesto	supuesto	supuesto	NOUN	-	23	fixed	por	ADP	AdpType=Prep	22
+supuesto	supuesto	supuesto	NOUN		23	fixed	por	ADP	AdpType=Prep	22
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	24	punct	perjuicio	NOUN	Gender=Masc Number=Sing	3
 en	en	en	ADP	AdpType=Prep	25	case	convenio	NOUN	Gender=Masc Number=Plur	27
@@ -5947,7 +5947,7 @@ interna	interna	interno	ADJ	Gender=Fem Number=Sing	42	amod	flexibilidad	NOUN	Gen
 que	que	que	PRON	PronType=Int,Rel	43	nsubj	permitir	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	44
 permitan	permitan	permitir	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	44	acl	medida	NOUN	Gender=Fem Number=Plur	38
 hacer	hacer	hacer	VERB	VerbForm=Inf	45	xcomp	permitir	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	44
-frente	frente	frente	NOUN	-	46	case	oscilación	NOUN	Gender=Fem Number=Plur	49
+frente	frente	frente	NOUN		46	case	oscilación	NOUN	Gender=Fem Number=Plur	49
 a	a	a	ADP	AdpType=Prep	47	case	oscilación	NOUN	Gender=Fem Number=Plur	49
 las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	48	det	oscilación	NOUN	Gender=Fem Number=Plur	49
 oscilaciones	oscilaciones	oscilación	NOUN	Gender=Fem Number=Plur	49	obj	hacer	VERB	VerbForm=Inf	45
@@ -5965,8 +5965,8 @@ empleo	empleo	empleo	NOUN	Gender=Masc Number=Sing	59	obj	preservar	VERB	VerbForm
 .	.	.	PUNCT	PunctType=Peri	60	punct	articular	VERB	VerbForm=Inf	36
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.15.10">
-Es	Es	es	NOUN	-	1	cc	señoría	NOUN	Gender=Fem Number=Plur	4
-decir	decir	decir	NOUN	-	2	fixed	es	NOUN	-	1
+Es	Es	es	NOUN		1	cc	señoría	NOUN	Gender=Fem Number=Plur	4
+decir	decir	decir	NOUN		2	fixed	es	NOUN		1
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	3	punct	señoría	NOUN	Gender=Fem Number=Plur	4
 señorías	señorías	señoría	NOUN	Gender=Fem Number=Plur	4	root	-	-	-	-
@@ -6010,16 +6010,16 @@ acordada	acordada	acordado	ADJ	Gender=Fem Number=Sing VerbForm=Part	19	amod	mane
 entre	entre	entre	ADP	AdpType=Prep	20	case	organización	NOUN	Gender=Fem Number=Plur	21
 organizaciones	organizaciones	organización	NOUN	Gender=Fem Number=Plur	21	obl	acordado	ADJ	Gender=Fem Number=Sing VerbForm=Part	19
 sindicales	sindicales	sindical	ADJ	Number=Plur	22	amod	organización	NOUN	Gender=Fem Number=Plur	21
-y	y	y	CCONJ	-	23	cc	empresarial	ADJ	Number=Plur	24
+y	y	y	CCONJ		23	cc	empresarial	ADJ	Number=Plur	24
 empresariales	empresariales	empresarial	ADJ	Number=Plur	24	conj	sindical	ADJ	Number=Plur	22
 <g/>
 ;	;	;	PUNCT	PunctType=Semi	25	punct	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1
-aquí	aquí	aquí	ADV	-	26	advmod	considerar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	30
+aquí	aquí	aquí	ADV		26	advmod	considerar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	30
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	27	det	sector	NOUN	Gender=Masc Number=Sing	28
 sector	sector	sector	NOUN	Gender=Masc Number=Sing	28	nsubj	considerar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	30
 empresarial	empresarial	empresarial	ADJ	Number=Sing	29	amod	sector	NOUN	Gender=Masc Number=Sing	28
 considera	considera	considerar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	30	advcl	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1
-que	que	que	SCONJ	-	31	mark	tener	VERB	VerbForm=Inf	33
+que	que	que	SCONJ		31	mark	tener	VERB	VerbForm=Inf	33
 debe	debe	deber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	32	aux	tener	VERB	VerbForm=Inf	33
 tener	tener	tener	VERB	VerbForm=Inf	33	xcomp	considerar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	30
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	34	det	capacidad	NOUN	Gender=Fem Number=Sing	35
@@ -6057,7 +6057,7 @@ las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	6	det	ayuda	NOUN
 ayudas	ayudas	ayuda	NOUN	Gender=Fem Number=Plur	7	nsubj	estar	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	5
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	8	punct	establecer	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	32
-porque	porque	porque	SCONJ	-	9	mark	establecer	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	32
+porque	porque	porque	SCONJ		9	mark	establecer	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	32
 además	además	además	ADV	AdpType=Prep	10	case	garantía	NOUN	Gender=Fem Number=Sing	13
 de	de	de	ADP	AdpType=Prep	11	fixed	además	ADV	AdpType=Prep	10
 esa	esa	ese	DET	Gender=Fem Number=Sing PronType=Dem	12	det	garantía	NOUN	Gender=Fem Number=Sing	13
@@ -6100,7 +6100,7 @@ dice	dice	decir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	roo
 lo	lo	él	PRON	Case=Acc Definite=Def Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	4	det	siguiente	ADJ	Number=Sing	5
 siguiente	siguiente	siguiente	ADJ	Number=Sing	5	obj	decir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 -creo	-creo	-creer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	6	ccomp	decir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
-que	que	que	SCONJ	-	7	mark	importante	ADJ	Number=Sing	9
+que	que	que	SCONJ		7	mark	importante	ADJ	Number=Sing	9
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	8	cop	importante	ADJ	Number=Sing	9
 importante	importante	importante	ADJ	Number=Sing	9	ccomp	-creer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	6
 para	para	para	ADP	AdpType=Prep	10	mark	tener	VERB	VerbForm=Inf	11
@@ -6117,7 +6117,7 @@ la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	19	det	convalidaci
 convalidación	convalidación	convalidación	NOUN	Gender=Fem Number=Sing	20	obl	referir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	25
 del	del	del	ADP	AdpType=Preppron	21	case	real	NOUN	Gender=Masc Number=Sing	22
 real	real	real	NOUN	Gender=Masc Number=Sing	22	nmod	convalidación	NOUN	Gender=Fem Number=Sing	20
-decreto-ley	decreto-ley	decreto-ley	NOUN	-	23	compound	real	NOUN	Gender=Masc Number=Sing	22
+decreto-ley	decreto-ley	decreto-ley	NOUN		23	compound	real	NOUN	Gender=Masc Number=Sing	22
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	24	expl:pv	referir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	25
 refiere-	refiere-	referir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	25	advcl	importante	ADJ	Number=Sing	9
 <g/>
@@ -6146,7 +6146,7 @@ asociada	asociada	asociado	ADJ	Gender=Fem Number=Sing VerbForm=Part	47	obj	lleva
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	48	punct	facilitar	VERB	VerbForm=Inf	52
 en	en	en	ADP	AdpType=Prep	49	mark	facilitar	VERB	VerbForm=Inf	52
-aras	aras	aras	NOUN	-	50	fixed	en	ADP	AdpType=Prep	49
+aras	aras	aras	NOUN		50	fixed	en	ADP	AdpType=Prep	49
 de	de	de	ADP	AdpType=Prep	51	fixed	en	ADP	AdpType=Prep	49
 facilitar	facilitar	facilitar	VERB	VerbForm=Inf	52	advcl	llevar	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	46
 un	un	uno	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	53	det	proceso	NOUN	Gender=Masc Number=Sing	54
@@ -6165,20 +6165,20 @@ a	a	a	ADP	AdpType=Prep	64	case	trabajador	NOUN	Gender=Masc Number=Plur	66
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	65	det	trabajador	NOUN	Gender=Masc Number=Plur	66
 trabajadores	trabajadores	trabajador	NOUN	Gender=Masc Number=Plur	66	nmod	ayuda	NOUN	Gender=Fem Number=Plur	62
 que	que	que	PRON	PronType=Int,Rel	67	nsubj	rescindir	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	69
-voluntariamente	voluntariamente	voluntariamente	ADV	-	68	advmod	rescindir	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	69
+voluntariamente	voluntariamente	voluntariamente	ADV		68	advmod	rescindir	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	69
 rescindan	rescindan	rescindir	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	69	acl	trabajador	NOUN	Gender=Masc Number=Plur	66
 su	su	su	DET	Number=Sing Person=3 Poss=Yes PronType=Prs	70	det	contrato	NOUN	Gender=Masc Number=Sing	71
 contrato	contrato	contrato	NOUN	Gender=Masc Number=Sing	71	obj	rescindir	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	69
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	72	punct	razón	NOUN	Gender=Fem Number=Sing	76
-ya	ya	ya	ADV	-	73	advmod	razón	NOUN	Gender=Fem Number=Sing	76
+ya	ya	ya	ADV		73	advmod	razón	NOUN	Gender=Fem Number=Sing	76
 sea	sea	ser	AUX	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	74	cop	razón	NOUN	Gender=Fem Number=Sing	76
 por	por	por	ADP	AdpType=Prep	75	case	razón	NOUN	Gender=Fem Number=Sing	76
 razón	razón	razón	NOUN	Gender=Fem Number=Sing	76	obl	rescindir	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	69
 de	de	de	ADP	AdpType=Prep	77	case	edad	NOUN	Gender=Fem Number=Sing	79
 su	su	su	DET	Number=Sing Person=3 Poss=Yes PronType=Prs	78	det	edad	NOUN	Gender=Fem Number=Sing	79
 edad	edad	edad	NOUN	Gender=Fem Number=Sing	79	nmod	razón	NOUN	Gender=Fem Number=Sing	76
-o	o	o	CCONJ	-	80	cc	perjuicio	NOUN	Gender=Masc Number=Plur	83
+o	o	o	CCONJ		80	cc	perjuicio	NOUN	Gender=Masc Number=Plur	83
 de	de	de	ADP	AdpType=Prep	81	case	perjuicio	NOUN	Gender=Masc Number=Plur	83
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	82	det	perjuicio	NOUN	Gender=Masc Number=Plur	83
 perjuicios	perjuicios	perjuicio	NOUN	Gender=Masc Number=Plur	83	conj	edad	NOUN	Gender=Fem Number=Sing	79
@@ -6197,22 +6197,22 @@ interno	interno	interno	ADJ	Gender=Masc Number=Sing	95	amod	derecho	NOUN	Gender=
 de	de	de	ADP	AdpType=Prep	96	case	resolución	NOUN	Gender=Fem Number=Sing	98
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	97	det	resolución	NOUN	Gender=Fem Number=Sing	98
 resolución	resolución	resolución	NOUN	Gender=Fem Number=Sing	98	nmod	adaptación	NOUN	Gender=Fem Number=Sing	92
-del	del	del	ADP	AdpType=Preppron	99	case	Tribunal	PROPN	-	100
+del	del	del	ADP	AdpType=Preppron	99	case	Tribunal	PROPN		100
 <name type="ORG">
-Tribunal	Tribunal	Tribunal	PROPN	-	100	nmod	resolución	NOUN	Gender=Fem Number=Sing	98
-de	de	de	ADP	AdpType=Prep	101	case	Justicia	PROPN	-	102
-Justicia	Justicia	Justicia	PROPN	-	102	flat	Tribunal	PROPN	-	100
-de	de	de	ADP	AdpType=Prep	103	case	Unión	PROPN	-	105
-la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	104	det	Unión	PROPN	-	105
-Unión	Unión	Unión	PROPN	-	105	nmod	Tribunal	PROPN	-	100
-Europea	Europea	Europea	PROPN	-	106	flat	Unión	PROPN	-	105
+Tribunal	Tribunal	Tribunal	PROPN		100	nmod	resolución	NOUN	Gender=Fem Number=Sing	98
+de	de	de	ADP	AdpType=Prep	101	case	Justicia	PROPN		102
+Justicia	Justicia	Justicia	PROPN		102	flat	Tribunal	PROPN		100
+de	de	de	ADP	AdpType=Prep	103	case	Unión	PROPN		105
+la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	104	det	Unión	PROPN		105
+Unión	Unión	Unión	PROPN		105	nmod	Tribunal	PROPN		100
+Europea	Europea	Europea	PROPN		106	flat	Unión	PROPN		105
 <g/>
 </name>
 .	.	.	PUNCT	PunctType=Peri	107	punct	decir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.17.3">
 En	En	en	ADP	AdpType=Prep	1	advmod	acoger	VERB	VerbForm=Inf	5
-concreto	concreto	concreto	NOUN	-	2	fixed	en	ADP	AdpType=Prep	1
+concreto	concreto	concreto	NOUN		2	fixed	en	ADP	AdpType=Prep	1
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	3	punct	en	ADP	AdpType=Prep	1
 podrán	podrán	poder	AUX	Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin	4	aux	acoger	VERB	VerbForm=Inf	5
@@ -6227,7 +6227,7 @@ quienes	quienes	quien	PRON	Number=Plur PronType=Int,Rel	11	nsubj	restir	VERB	Moo
 resten	resten	restir	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	12	acl	estibador	NOUN	Gender=Masc Number=Plur	8
 sesenta	sesenta	sesenta	NUM	NumType=Card Number=Plur	13	nummod	mes	NOUN	Gender=Masc Number=Plur	14
 meses	meses	mes	NOUN	Gender=Masc Number=Plur	14	obj	restir	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	12
-o	o	o	CCONJ	-	15	cc	menos	ADV	Degree=Cmp	16
+o	o	o	CCONJ		15	cc	menos	ADV	Degree=Cmp	16
 menos	menos	menos	ADV	Degree=Cmp	16	conj	mes	NOUN	Gender=Masc Number=Plur	14
 para	para	para	ADP	AdpType=Prep	17	mark	acceder	VERB	VerbForm=Inf	18
 acceder	acceder	acceder	VERB	VerbForm=Inf	18	advcl	restir	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	12
@@ -6240,18 +6240,18 @@ la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	24	det	fecha	NOUN	
 fecha	fecha	fecha	NOUN	Gender=Fem Number=Sing	25	obj	acceder	VERB	VerbForm=Inf	18
 de	de	de	ADP	AdpType=Prep	26	case	convalidación	NOUN	Gender=Fem Number=Sing	27
 convalidación	convalidación	convalidación	NOUN	Gender=Fem Number=Sing	27	nmod	fecha	NOUN	Gender=Fem Number=Sing	25
-del	del	del	ADP	AdpType=Preppron	28	case	Real	PROPN	-	29
+del	del	del	ADP	AdpType=Preppron	28	case	Real	PROPN		29
 <name type="MISC">
-Real	Real	Real	PROPN	-	29	nmod	fecha	NOUN	Gender=Fem Number=Sing	25
-Decreto-ley	Decreto-ley	Decreto-ley	PROPN	-	30	flat	Real	PROPN	-	29
-4/2017	4/2017	4/2017	NUM	NumForm=Digit NumType=Card	31	nummod	Real	PROPN	-	29
+Real	Real	Real	PROPN		29	nmod	fecha	NOUN	Gender=Fem Number=Sing	25
+Decreto-ley	Decreto-ley	Decreto-ley	PROPN		30	flat	Real	PROPN		29
+4/2017	4/2017	4/2017	NUM	NumForm=Digit NumType=Card	31	nummod	Real	PROPN		29
 <g/>
 </name>
 ,	,	,	PUNCT	PunctType=Comm	32	punct	24	NUM	NumForm=Digit NumType=Card	34
 de	de	de	ADP	AdpType=Prep	33	case	24	NUM	NumForm=Digit NumType=Card	34
-24	24	24	NUM	NumForm=Digit NumType=Card	34	nmod	Real	PROPN	-	29
-de	de	de	ADP	AdpType=Prep	35	case	febrero	NOUN	-	36
-febrero	febrero	febrero	NOUN	-	36	compound	24	NUM	NumForm=Digit NumType=Card	34
+24	24	24	NUM	NumForm=Digit NumType=Card	34	nmod	Real	PROPN		29
+de	de	de	ADP	AdpType=Prep	35	case	febrero	NOUN		36
+febrero	febrero	febrero	NOUN		36	compound	24	NUM	NumForm=Digit NumType=Card	34
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	37	punct	24	NUM	NumForm=Digit NumType=Card	34
 por	por	por	ADP	AdpType=Prep	38	case	que	PRON	PronType=Int,Rel	40
@@ -6287,7 +6287,7 @@ tribunal	tribunal	tribunal	NOUN	Gender=Masc Number=Sing	65	nmod	sentencia	NOUN	G
 .	.	.	PUNCT	PunctType=Peri	66	punct	acoger	VERB	VerbForm=Inf	5
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.17.4">
-Asimismo	Asimismo	asimismo	ADV	-	1	advmod	garantizar	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	3
+Asimismo	Asimismo	asimismo	ADV		1	advmod	garantizar	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	3
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	2	expl:pass	garantizar	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	3
 garantizan	garantizan	garantizar	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	3	root	-	-	-	-
 a	a	a	ADP	AdpType=Prep	4	case	trabajador	NOUN	Gender=Masc Number=Plur	6
@@ -6300,11 +6300,11 @@ ayudas	ayudas	ayuda	NOUN	Gender=Fem Number=Plur	10	obj	acogido	ADJ	Gender=Masc N
 las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	11	det	cotización	NOUN	Gender=Fem Number=Plur	12
 cotizaciones	cotizaciones	cotización	NOUN	Gender=Fem Number=Plur	12	nsubj	garantizar	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	3
 necesarias	necesarias	necesario	ADJ	Gender=Fem Number=Plur	13	amod	cotización	NOUN	Gender=Fem Number=Plur	12
-a	a	a	ADP	AdpType=Prep	14	case	Seguridad	PROPN	-	16
-la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	15	det	Seguridad	PROPN	-	16
+a	a	a	ADP	AdpType=Prep	14	case	Seguridad	PROPN		16
+la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	15	det	Seguridad	PROPN		16
 <name type="MISC">
-Seguridad	Seguridad	Seguridad	PROPN	-	16	nmod	necesario	ADJ	Gender=Fem Number=Plur	13
-Social	Social	Social	PROPN	-	17	flat	Seguridad	PROPN	-	16
+Seguridad	Seguridad	Seguridad	PROPN		16	nmod	necesario	ADJ	Gender=Fem Number=Plur	13
+Social	Social	Social	PROPN		17	flat	Seguridad	PROPN		16
 <g/>
 </name>
 ,	,	,	PUNCT	PunctType=Comm	18	punct	hacer	VERB	Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin	21
@@ -6333,28 +6333,28 @@ jubilación	jubilación	jubilación	NOUN	Gender=Fem Number=Sing	36	nmod	edad	NOU
 Los	Los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	1	det	trabajador	NOUN	Gender=Masc Number=Plur	2
 trabajadores	trabajadores	trabajador	NOUN	Gender=Masc Number=Plur	2	nsubj	acoger	VERB	VerbForm=Inf	9
 por	por	por	ADP	AdpType=Prep	3	advmod	interesado	ADJ	Gender=Masc Number=Plur VerbForm=Part	5
-supuesto	supuesto	supuesto	NOUN	-	4	fixed	por	ADP	AdpType=Prep	3
+supuesto	supuesto	supuesto	NOUN		4	fixed	por	ADP	AdpType=Prep	3
 interesados	interesados	interesado	ADJ	Gender=Masc Number=Plur VerbForm=Part	5	amod	trabajador	NOUN	Gender=Masc Number=Plur	2
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	6	expl:pv	acoger	VERB	VerbForm=Inf	9
 tienen	tienen	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	7	root	-	-	-	-
-que	que	que	SCONJ	-	8	cc	acoger	VERB	VerbForm=Inf	9
+que	que	que	SCONJ		8	cc	acoger	VERB	VerbForm=Inf	9
 acoger	acoger	acoger	VERB	VerbForm=Inf	9	conj	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	7
-voluntariamente	voluntariamente	voluntariamente	ADV	-	10	advmod	acoger	VERB	VerbForm=Inf	9
+voluntariamente	voluntariamente	voluntariamente	ADV		10	advmod	acoger	VERB	VerbForm=Inf	9
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	11	punct	manifestar	VERB	VerbForm=Inf	14
-y	y	y	CCONJ	-	12	cc	manifestar	VERB	VerbForm=Inf	14
+y	y	y	CCONJ		12	cc	manifestar	VERB	VerbForm=Inf	14
 deben	deben	deber	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	13	aux	manifestar	VERB	VerbForm=Inf	14
 manifestar	manifestar	manifestar	VERB	VerbForm=Inf	14	conj	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	7
 <g/>
 lo	lo	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	15	obj	manifestar	VERB	VerbForm=Inf	14
-individualmente	individualmente	individualmente	ADV	-	16	advmod	manifestar	VERB	VerbForm=Inf	14
+individualmente	individualmente	individualmente	ADV		16	advmod	manifestar	VERB	VerbForm=Inf	14
 <g/>
 .	.	.	PUNCT	PunctType=Peri	17	punct	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	7
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.17.6">
-Y	Y	y	CCONJ	-	1	advmod	consistir	VERB	Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin	7
+Y	Y	y	CCONJ		1	advmod	consistir	VERB	Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin	7
 por	por	por	ADP	AdpType=Prep	2	advmod	consistir	VERB	Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin	7
-último	último	último	NOUN	-	3	fixed	por	ADP	AdpType=Prep	2
+último	último	último	NOUN		3	fixed	por	ADP	AdpType=Prep	2
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	4	punct	por	ADP	AdpType=Prep	2
 dichas	dichas	dicho	ADJ	Gender=Fem Number=Plur VerbForm=Part	5	amod	ayuda	NOUN	Gender=Fem Number=Plur	6
@@ -6397,24 +6397,24 @@ al	al	al	ADP	AdpType=Preppron	35	case	70	NUM	NumForm=Digit NumType=Card	36
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.17.7">
 Quiero	Quiero	querer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 señalar	señalar	señalar	VERB	VerbForm=Inf	2	ccomp	querer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
-que	que	que	SCONJ	-	3	mark	contribuir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	11
+que	que	que	SCONJ		3	mark	contribuir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	11
 este	este	este	DET	Gender=Masc Number=Sing PronType=Dem	4	det	esfuerzo	NOUN	Gender=Masc Number=Sing	5
 esfuerzo	esfuerzo	esfuerzo	NOUN	Gender=Masc Number=Sing	5	nsubj	contribuir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	11
 importantísimo	importantísimo	importantísimo	ADJ	Degree=Abs Gender=Masc Number=Sing	6	amod	esfuerzo	NOUN	Gender=Masc Number=Sing	5
 que	que	que	PRON	PronType=Int,Rel	7	obj	hacer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	8
 hace	hace	hacer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	8	acl	esfuerzo	NOUN	Gender=Masc Number=Sing	5
-el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	9	det	Gobierno	PROPN	-	10
+el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	9	det	Gobierno	PROPN		10
 <name type="ORG">
-Gobierno	Gobierno	Gobierno	PROPN	-	10	nsubj	hacer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	8
+Gobierno	Gobierno	Gobierno	PROPN		10	nsubj	hacer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	8
 </name>
 contribuye	contribuye	contribuir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	11	ccomp	señalar	VERB	VerbForm=Inf	2
 a	a	a	ADP	AdpType=Prep	12	mark	facilitar	VERB	VerbForm=Inf	13
 facilitar	facilitar	facilitar	VERB	VerbForm=Inf	13	xcomp	contribuir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	11
 ese	ese	ese	DET	Gender=Masc Number=Sing PronType=Dem	14	det	acuerdo	NOUN	Gender=Masc Number=Sing	15
 acuerdo	acuerdo	acuerdo	NOUN	Gender=Masc Number=Sing	15	obj	facilitar	VERB	VerbForm=Inf	13
-y	y	y	CCONJ	-	16	cc	garantía	NOUN	Gender=Fem Number=Sing	20
+y	y	y	CCONJ		16	cc	garantía	NOUN	Gender=Fem Number=Sing	20
 por	por	por	ADP	AdpType=Prep	17	advmod	garantía	NOUN	Gender=Fem Number=Sing	20
-supuesto	supuesto	supuesto	NOUN	-	18	fixed	por	ADP	AdpType=Prep	17
+supuesto	supuesto	supuesto	NOUN		18	fixed	por	ADP	AdpType=Prep	17
 esa	esa	ese	DET	Gender=Fem Number=Sing PronType=Dem	19	det	garantía	NOUN	Gender=Fem Number=Sing	20
 garantía	garantía	garantía	NOUN	Gender=Fem Number=Sing	20	conj	contribuir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	11
 del	del	del	ADP	AdpType=Preppron	21	case	cien	NUM	NumType=Card	22
@@ -6430,12 +6430,12 @@ de	de	de	ADP	AdpType=Prep	30	case	trabajo	NOUN	Gender=Masc Number=Sing	31
 trabajo	trabajo	trabajo	NOUN	Gender=Masc Number=Sing	31	nmod	puesto	NOUN	Gender=Masc Number=Plur	29
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	32	punct	esfuerzo	NOUN	Gender=Masc Number=Sing	37
-y	y	y	CCONJ	-	33	cc	esfuerzo	NOUN	Gender=Masc Number=Sing	37
-que	que	que	SCONJ	-	34	mark	esfuerzo	NOUN	Gender=Masc Number=Sing	37
+y	y	y	CCONJ		33	cc	esfuerzo	NOUN	Gender=Masc Number=Sing	37
+que	que	que	SCONJ		34	mark	esfuerzo	NOUN	Gender=Masc Number=Sing	37
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	35	cop	esfuerzo	NOUN	Gender=Masc Number=Sing	37
 un	un	uno	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	36	det	esfuerzo	NOUN	Gender=Masc Number=Sing	37
 esfuerzo	esfuerzo	esfuerzo	NOUN	Gender=Masc Number=Sing	37	conj	contribuir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	11
-muy	muy	mucho	ADV	-	38	advmod	importante	ADJ	Number=Sing	39
+muy	muy	mucho	ADV		38	advmod	importante	ADJ	Number=Sing	39
 importante	importante	importante	ADJ	Number=Sing	39	amod	esfuerzo	NOUN	Gender=Masc Number=Sing	37
 <g/>
 .	.	.	PUNCT	PunctType=Peri	40	punct	querer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
@@ -6444,7 +6444,7 @@ importante	importante	importante	ADJ	Number=Sing	39	amod	esfuerzo	NOUN	Gender=Ma
 <p id="ParlaMint-ES_2017-03-16-CD170316.u2.18" lang="Spanish">
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.18.1">
 Por	Por	por	ADP	AdpType=Prep	1	advmod	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
-último	último	último	NOUN	-	2	fixed	por	ADP	AdpType=Prep	1
+último	último	último	NOUN		2	fixed	por	ADP	AdpType=Prep	1
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	3	punct	por	ADP	AdpType=Prep	1
 hay	hay	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4	root	-	-	-	-
@@ -6456,13 +6456,13 @@ para	para	para	ADP	AdpType=Prep	9	case	yo	PRON	Case=Acc,Nom Gender=Masc Number=P
 nosotros	nosotros	yo	PRON	Case=Acc,Nom Gender=Masc Number=Plur Person=1 PronType=Prs	10	obl	importante	ADJ	Number=Sing	12
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	11	cop	importante	ADJ	Number=Sing	12
 importante	importante	importante	ADJ	Number=Sing	12	acl	punto	NOUN	Gender=Masc Number=Sing	7
-y	y	y	CCONJ	-	13	cc	creer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	14
+y	y	y	CCONJ		13	cc	creer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	14
 creo	creo	creer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	14	conj	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
-que	que	que	SCONJ	-	15	mark	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	21
-también	también	también	ADV	-	16	advmod	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	21
-para	para	para	ADP	AdpType=Prep	17	case	también	ADV	-	16
-sindicatos	sindicatos	sindicato	NOUN	Gender=Masc Number=Plur	18	nmod	también	ADV	-	16
-y	y	y	CCONJ	-	19	cc	patronal	NOUN	Gender=Fem Number=Sing	20
+que	que	que	SCONJ		15	mark	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	21
+también	también	también	ADV		16	advmod	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	21
+para	para	para	ADP	AdpType=Prep	17	case	también	ADV		16
+sindicatos	sindicatos	sindicato	NOUN	Gender=Masc Number=Plur	18	nmod	también	ADV		16
+y	y	y	CCONJ		19	cc	patronal	NOUN	Gender=Fem Number=Sing	20
 patronal	patronal	patronal	NOUN	Gender=Fem Number=Sing	20	conj	sindicato	NOUN	Gender=Masc Number=Plur	18
 lo	lo	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	21	ccomp	creer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	14
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	22	cop	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	21
@@ -6491,24 +6491,24 @@ importante	importante	importante	ADJ	Number=Sing	5	root	-	-	-	-
 ?	?	?	PUNCT	PunctSide=Fin PunctType=Qest	6	punct	importante	ADJ	Number=Sing	5
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.18.3">
-Porque	Porque	porque	SCONJ	-	1	mark	garantizar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
+Porque	Porque	porque	SCONJ		1	mark	garantizar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 eso	eso	ese	PRON	Number=Sing PronType=Dem	2	nsubj	garantizar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 garantiza	garantiza	garantizar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	root	-	-	-	-
 a	a	a	ADP	AdpType=Prep	4	case	parte	NOUN	Gender=Fem Number=Plur	6
 las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	5	det	parte	NOUN	Gender=Fem Number=Plur	6
 partes	partes	parte	NOUN	Gender=Fem Number=Plur	6	iobj	garantizar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 que	que	que	PRON	PronType=Int,Rel	7	obj	estar	VERB	VerbForm=Inf	12
-el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	8	det	Gobierno	PROPN	-	9
+el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	8	det	Gobierno	PROPN		9
 <name type="ORG">
-Gobierno	Gobierno	Gobierno	PROPN	-	9	nsubj	estar	VERB	VerbForm=Inf	12
+Gobierno	Gobierno	Gobierno	PROPN		9	nsubj	estar	VERB	VerbForm=Inf	12
 </name>
 va	va	ir	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	10	aux	estar	VERB	VerbForm=Inf	12
 a	a	a	ADP	AdpType=Prep	11	mark	estar	VERB	VerbForm=Inf	12
 estar	estar	estar	VERB	VerbForm=Inf	12	acl	parte	NOUN	Gender=Fem Number=Plur	6
-ahí	ahí	ahí	ADV	-	13	advmod	estar	VERB	VerbForm=Inf	12
+ahí	ahí	ahí	ADV		13	advmod	estar	VERB	VerbForm=Inf	12
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	14	punct	final	NOUN	Gender=Masc Number=Sing	20
-que	que	que	SCONJ	-	15	mark	final	NOUN	Gender=Masc Number=Sing	20
+que	que	que	SCONJ		15	mark	final	NOUN	Gender=Masc Number=Sing	20
 este	este	este	PRON	Gender=Masc Number=Sing PronType=Dem	16	nsubj	final	NOUN	Gender=Masc Number=Sing	20
 no	no	no	ADV	Polarity=Neg	17	advmod	final	NOUN	Gender=Masc Number=Sing	20
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	18	cop	final	NOUN	Gender=Masc Number=Sing	20
@@ -6523,37 +6523,37 @@ que	que	que	PRON	PronType=Int,Rel	25	nsubj	controlar	VERB	VerbForm=Inf	28
 va	va	ir	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	26	aux	controlar	VERB	VerbForm=Inf	28
 a	a	a	ADP	AdpType=Prep	27	mark	controlar	VERB	VerbForm=Inf	28
 controlar	controlar	controlar	VERB	VerbForm=Inf	28	acl	proceso	NOUN	Gender=Masc Number=Sing	23
-y	y	y	CCONJ	-	29	cc	hacer	VERB	VerbForm=Inf	32
+y	y	y	CCONJ		29	cc	hacer	VERB	VerbForm=Inf	32
 va	va	ir	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	30	aux	hacer	VERB	VerbForm=Inf	32
 a	a	a	ADP	AdpType=Prep	31	mark	hacer	VERB	VerbForm=Inf	32
 hacer	hacer	hacer	VERB	VerbForm=Inf	32	conj	controlar	VERB	VerbForm=Inf	28
 un	un	uno	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	33	det	seguimiento	NOUN	Gender=Masc Number=Sing	34
 seguimiento	seguimiento	seguimiento	NOUN	Gender=Masc Number=Sing	34	obj	hacer	VERB	VerbForm=Inf	32
 para	para	para	ADP	AdpType=Prep	35	mark	respetar	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	38
-que	que	que	SCONJ	-	36	mark	respetar	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	38
+que	que	que	SCONJ		36	mark	respetar	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	38
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	37	expl:pass	respetar	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	38
 respeten	respeten	respetar	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	38	advcl	hacer	VERB	VerbForm=Inf	32
 todos	todos	todo	PRON	Gender=Masc Number=Plur PronType=Tot	39	nsubj	respetar	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	38
-y	y	y	CCONJ	-	40	cc	uno	PRON	Gender=Masc Number=Sing PronType=Ind	42
+y	y	y	CCONJ		40	cc	uno	PRON	Gender=Masc Number=Sing PronType=Ind	42
 cada	cada	cada	DET	Number=Sing PronType=Tot	41	det	uno	PRON	Gender=Masc Number=Sing PronType=Ind	42
 uno	uno	uno	PRON	Gender=Masc Number=Sing PronType=Ind	42	conj	todo	PRON	Gender=Masc Number=Plur PronType=Tot	39
 de	de	de	ADP	AdpType=Prep	43	case	acuerdo	NOUN	Gender=Masc Number=Plur	45
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	44	det	acuerdo	NOUN	Gender=Masc Number=Plur	45
 acuerdos	acuerdos	acuerdo	NOUN	Gender=Masc Number=Plur	45	nmod	uno	PRON	Gender=Masc Number=Sing PronType=Ind	42
 que	que	que	PRON	PronType=Int,Rel	46	nsubj	firmar	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	49
-finalmente	finalmente	finalmente	ADV	-	47	advmod	firmar	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	49
+finalmente	finalmente	finalmente	ADV		47	advmod	firmar	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	49
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	48	expl:pass	firmar	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	49
 firmen	firmen	firmar	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	49	acl	acuerdo	NOUN	Gender=Masc Number=Plur	45
 <g/>
 .	.	.	PUNCT	PunctType=Peri	50	punct	garantizar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.18.4">
-Y	Y	y	CCONJ	-	1	advmod	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
+Y	Y	y	CCONJ		1	advmod	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
 por	por	por	ADP	AdpType=Prep	2	case	ese	PRON	Number=Sing PronType=Dem	3
 eso	eso	ese	PRON	Number=Sing PronType=Dem	3	obl	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
-el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	4	det	Gobierno	PROPN	-	5
+el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	4	det	Gobierno	PROPN		5
 <name type="ORG">
-Gobierno	Gobierno	Gobierno	PROPN	-	5	nsubj	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
+Gobierno	Gobierno	Gobierno	PROPN		5	nsubj	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
 </name>
 tiene	tiene	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6	root	-	-	-	-
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	7	det	voluntad	NOUN	Gender=Fem Number=Sing	8
@@ -6566,11 +6566,11 @@ comisión	comisión	comisión	NOUN	Gender=Fem Number=Sing	12	obj	constituir	VERB
 ,	,	,	PUNCT	PunctType=Comm	13	punct	garantizar	VERB	VerbForm=Inf	15
 para	para	para	ADP	AdpType=Prep	14	mark	garantizar	VERB	VerbForm=Inf	15
 garantizar	garantizar	garantizar	VERB	VerbForm=Inf	15	advcl	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
-que	que	que	SCONJ	-	16	mark	cumplir	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	18
+que	que	que	SCONJ		16	mark	cumplir	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	18
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	17	expl:pass	cumplir	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	18
 cumplen	cumplen	cumplir	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	18	ccomp	garantizar	VERB	VerbForm=Inf	15
 todos	todos	todo	PRON	Gender=Masc Number=Plur PronType=Tot	19	nsubj	cumplir	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	18
-y	y	y	CCONJ	-	20	cc	uno	PRON	Gender=Masc Number=Sing PronType=Ind	22
+y	y	y	CCONJ		20	cc	uno	PRON	Gender=Masc Number=Sing PronType=Ind	22
 cada	cada	cada	DET	Number=Sing PronType=Tot	21	det	uno	PRON	Gender=Masc Number=Sing PronType=Ind	22
 uno	uno	uno	PRON	Gender=Masc Number=Sing PronType=Ind	22	conj	todo	PRON	Gender=Masc Number=Plur PronType=Tot	19
 de	de	de	ADP	AdpType=Prep	23	case	compromiso	NOUN	Gender=Masc Number=Plur	25
@@ -6583,11 +6583,11 @@ adquiridos	adquiridos	adquirido	ADJ	Gender=Masc Number=Plur VerbForm=Part	26	amo
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.18.5">
 Por	Por	por	ADP	AdpType=Prep	1	advmod	decir	VERB	VerbForm=Inf	6
 lo	lo	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	2	fixed	por	ADP	AdpType=Prep	1
-tanto	tanto	tanto	NOUN	-	3	fixed	por	ADP	AdpType=Prep	1
+tanto	tanto	tanto	NOUN		3	fixed	por	ADP	AdpType=Prep	1
 tenemos	tenemos	tener	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	4	root	-	-	-	-
-que	que	que	SCONJ	-	5	cc	decir	VERB	VerbForm=Inf	6
+que	que	que	SCONJ		5	cc	decir	VERB	VerbForm=Inf	6
 decir	decir	decir	VERB	VerbForm=Inf	6	conj	tener	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	4
-que	que	que	SCONJ	-	7	mark	plantear	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	55
+que	que	que	SCONJ		7	mark	plantear	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	55
 con	con	con	ADP	AdpType=Prep	8	case	propuesta	NOUN	Gender=Fem Number=Sing	10
 esta	esta	este	DET	Gender=Fem Number=Sing PronType=Dem	9	det	propuesta	NOUN	Gender=Fem Number=Sing	10
 propuesta	propuesta	propuesta	NOUN	Gender=Fem Number=Sing	10	obl	tener	VERB	VerbForm=Inf	24
@@ -6603,16 +6603,16 @@ esa	esa	ese	DET	Gender=Fem Number=Sing PronType=Dem	18	det	mesa	NOUN	Gender=Fem 
 mesa	mesa	mesa	NOUN	Gender=Fem Number=Sing	19	obl	cerrar	VERB	VerbForm=Inf	15
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	20	punct	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	22
-que	que	que	SCONJ	-	21	mark	tener	VERB	VerbForm=Inf	24
+que	que	que	SCONJ		21	mark	tener	VERB	VerbForm=Inf	24
 tendrá	tendrá	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	22	ccomp	decir	VERB	VerbForm=Inf	6
-que	que	que	SCONJ	-	23	cc	tener	VERB	VerbForm=Inf	24
+que	que	que	SCONJ		23	cc	tener	VERB	VerbForm=Inf	24
 tener	tener	tener	VERB	VerbForm=Inf	24	conj	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	22
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	25	det	disposición	NOUN	Gender=Fem Number=Sing	26
 disposición	disposición	disposición	NOUN	Gender=Fem Number=Sing	26	obj	tener	VERB	VerbForm=Inf	24
 normativa	normativa	normativa	ADJ	Gender=Fem Number=Sing	27	amod	disposición	NOUN	Gender=Fem Number=Sing	26
 que	que	que	PRON	PronType=Int,Rel	28	obj	tener	VERB	VerbForm=Inf	31
 tenga	tenga	tener	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	29	acl	disposición	NOUN	Gender=Fem Number=Sing	26
-que	que	que	SCONJ	-	30	cc	tener	VERB	VerbForm=Inf	31
+que	que	que	SCONJ		30	cc	tener	VERB	VerbForm=Inf	31
 tener	tener	tener	VERB	VerbForm=Inf	31	conj	tener	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	29
 en	en	en	ADP	AdpType=Prep	32	case	término	NOUN	Gender=Masc Number=Plur	34
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	33	det	término	NOUN	Gender=Masc Number=Plur	34
@@ -6660,19 +6660,19 @@ empleo	empleo	empleo	NOUN	Gender=Masc Number=Sing	68	nmod	cien	NUM	NumType=Card	
 <p id="ParlaMint-ES_2017-03-16-CD170316.u2.19" lang="Spanish">
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.19.1">
 Somos	Somos	ser	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1	cop	consciente	ADJ	Number=Plur	3
-perfectamente	perfectamente	perfectamente	ADV	-	2	advmod	consciente	ADJ	Number=Plur	3
+perfectamente	perfectamente	perfectamente	ADV		2	advmod	consciente	ADJ	Number=Plur	3
 conscientes	conscientes	consciente	ADJ	Number=Plur	3	root	-	-	-	-
 -	-	-	PUNCT	PunctType=Dash	4	punct	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	7
 <g/>
-porque	porque	porque	SCONJ	-	5	mark	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	7
-además	además	además	ADV	-	6	advmod	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	7
+porque	porque	porque	SCONJ		5	mark	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	7
+además	además	además	ADV		6	advmod	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	7
 hay	hay	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	7	advcl	consciente	ADJ	Number=Plur	3
 muchos	muchos	mucho	DET	Gender=Masc NumType=Card Number=Plur PronType=Ind	8	det	medio	NOUN	Gender=Masc Number=Plur	9
 medios	medios	medio	NOUN	Gender=Masc Number=Plur	9	obj	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	7
 de	de	de	ADP	AdpType=Prep	10	case	comunicación	NOUN	Gender=Fem Number=Sing	11
 comunicación	comunicación	comunicación	NOUN	Gender=Fem Number=Sing	11	nmod	medio	NOUN	Gender=Masc Number=Plur	9
 que	que	que	PRON	PronType=Int,Rel	12	nsubj	trasladar	VERB	VerbForm=Ger	16
-hoy	hoy	hoy	ADV	-	13	advmod	trasladar	VERB	VerbForm=Ger	16
+hoy	hoy	hoy	ADV		13	advmod	trasladar	VERB	VerbForm=Ger	16
 lo	lo	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	14	obj	trasladar	VERB	VerbForm=Ger	16
 están	están	estar	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	15	aux	trasladar	VERB	VerbForm=Ger	16
 trasladando	trasladando	trasladar	VERB	VerbForm=Ger	16	acl	medio	NOUN	Gender=Masc Number=Plur	9
@@ -6684,7 +6684,7 @@ escuchado	escuchado	escuchar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Pa
 en	en	en	ADP	AdpType=Prep	21	case	radio	NOUN	Gender=Fem Number=Sing	23
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	22	det	radio	NOUN	Gender=Fem Number=Sing	23
 radio	radio	radio	NOUN	Gender=Fem Number=Sing	23	obl	escuchar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	20
-y	y	y	CCONJ	-	24	cc	leer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	27
+y	y	y	CCONJ		24	cc	leer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	27
 lo	lo	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	25	obj	leer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	27
 hemos	hemos	haber	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	26	aux	leer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	27
 leído	leído	leer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	27	conj	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	7
@@ -6694,17 +6694,17 @@ periódicos	periódicos	periódico	NOUN	Gender=Masc Number=Plur	30	obl	leer	VERB
 <g/>
 -	-	-	PUNCT	PunctType=Dash	31	punct	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	43
 de	de	de	ADP	AdpType=Prep	32	mark	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	43
-que	que	que	SCONJ	-	33	mark	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	43
+que	que	que	SCONJ		33	mark	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	43
 este	este	este	DET	Gender=Masc Number=Sing PronType=Dem	34	det	esfuerzo	NOUN	Gender=Masc Number=Sing	35
 esfuerzo	esfuerzo	esfuerzo	NOUN	Gender=Masc Number=Sing	35	nsubj	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	43
 que	que	que	PRON	PronType=Int,Rel	36	nsubj	hacer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	38
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	37	expl:pass	hacer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	38
 hace	hace	hacer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	38	acl	esfuerzo	NOUN	Gender=Masc Number=Sing	35
-por	por	por	ADP	AdpType=Prep	39	case	Gobierno	PROPN	-	42
-parte	parte	parte	NOUN	-	40	fixed	por	ADP	AdpType=Prep	39
+por	por	por	ADP	AdpType=Prep	39	case	Gobierno	PROPN		42
+parte	parte	parte	NOUN		40	fixed	por	ADP	AdpType=Prep	39
 del	del	del	ADP	AdpType=Preppron	41	fixed	por	ADP	AdpType=Prep	39
 <name type="ORG">
-Gobierno	Gobierno	Gobierno	PROPN	-	42	obl	hacer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	38
+Gobierno	Gobierno	Gobierno	PROPN		42	obl	hacer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	38
 </name>
 tiene	tiene	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	43	advcl	leer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	27
 un	un	uno	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	44	det	carácter	NOUN	Gender=Masc Number=Sing	45
@@ -6714,7 +6714,7 @@ extraordinario	extraordinario	extraordinario	ADJ	Gender=Masc Number=Sing	46	amod
 ;	;	;	PUNCT	PunctType=Semi	47	punct	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	7
 algunos	algunos	alguno	PRON	Gender=Masc Number=Plur PronType=Ind	48	nsubj	criticar	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	49
 critican	critican	criticar	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	49	advcl	consciente	ADJ	Number=Plur	3
-que	que	que	SCONJ	-	50	mark	esfuerzo	NOUN	Gender=Masc Number=Sing	53
+que	que	que	SCONJ		50	mark	esfuerzo	NOUN	Gender=Masc Number=Sing	53
 sea	sea	ser	AUX	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	51	cop	esfuerzo	NOUN	Gender=Masc Number=Sing	53
 un	un	uno	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	52	det	esfuerzo	NOUN	Gender=Masc Number=Sing	53
 esfuerzo	esfuerzo	esfuerzo	NOUN	Gender=Masc Number=Sing	53	ccomp	criticar	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	49
@@ -6729,27 +6729,27 @@ trabajadores	trabajadores	trabajador	NOUN	Gender=Masc Number=Plur	61	obl	generar
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	62	punct	ir	VERB	VerbForm=Ger	70
 que	que	que	PRON	PronType=Int,Rel	63	obj	decir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	68
-el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	64	det	Gobierno	PROPN	-	65
+el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	64	det	Gobierno	PROPN		65
 <name type="ORG">
-Gobierno	Gobierno	Gobierno	PROPN	-	65	nsubj	ir	VERB	VerbForm=Ger	70
+Gobierno	Gobierno	Gobierno	PROPN		65	nsubj	ir	VERB	VerbForm=Ger	70
 </name>
 -así	-así	-así	PRON	Number=Sing PronType=Int,Rel	66	nsubj	decir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	68
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	67	expl:pass	decir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	68
-dice-	dice-	decir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	68	acl	Gobierno	PROPN	-	65
+dice-	dice-	decir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	68	acl	Gobierno	PROPN		65
 está	está	estar	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	69	aux	ir	VERB	VerbForm=Ger	70
 yendo	yendo	ir	VERB	VerbForm=Ger	70	advcl	generar	VERB	VerbForm=Inf	56
-mucho	mucho	mucho	ADV	-	71	advmod	ir	VERB	VerbForm=Ger	70
-más	más	más	ADV	Degree=Cmp	72	advmod	allá	ADV	-	73
-allá	allá	allá	ADV	-	73	advmod	ir	VERB	VerbForm=Ger	70
+mucho	mucho	mucho	ADV		71	advmod	ir	VERB	VerbForm=Ger	70
+más	más	más	ADV	Degree=Cmp	72	advmod	allá	ADV		73
+allá	allá	allá	ADV		73	advmod	ir	VERB	VerbForm=Ger	70
 de	de	de	ADP	AdpType=Prep	74	case	que	PRON	PronType=Int,Rel	76
 lo	lo	él	PRON	Case=Acc Definite=Def Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	75	det	que	PRON	PronType=Int,Rel	76
 que	que	que	PRON	PronType=Int,Rel	76	obj	hacer	VERB	VerbForm=Ger	81
 debería	debería	deber	AUX	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	77	aux	hacer	VERB	VerbForm=Ger	81
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	78	punct	hacer	VERB	VerbForm=Ger	81
-que	que	que	SCONJ	-	79	mark	hacer	VERB	VerbForm=Ger	81
+que	que	que	SCONJ		79	mark	hacer	VERB	VerbForm=Ger	81
 está	está	estar	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	80	aux	hacer	VERB	VerbForm=Ger	81
-haciendo	haciendo	hacer	VERB	VerbForm=Ger	81	advcl	allá	ADV	-	73
+haciendo	haciendo	hacer	VERB	VerbForm=Ger	81	advcl	allá	ADV		73
 más	más	más	ADV	Degree=Cmp	82	advmod	hacer	VERB	VerbForm=Ger	81
 de	de	de	ADP	AdpType=Prep	83	mark	hacer	VERB	VerbForm=Inf	87
 lo	lo	él	PRON	Case=Acc Definite=Def Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	84	det	hacer	VERB	VerbForm=Inf	87
@@ -6758,27 +6758,27 @@ debería	debería	deber	AUX	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	86	aux	ha
 hacer	hacer	hacer	VERB	VerbForm=Inf	87	advcl	más	ADV	Degree=Cmp	82
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	88	punct	saber	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	92
-y	y	y	CCONJ	-	89	cc	saber	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	92
+y	y	y	CCONJ		89	cc	saber	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	92
 yo	yo	yo	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	90	nsubj	saber	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	92
 no	no	no	ADV	Polarity=Neg	91	advmod	saber	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	92
 sé	sé	saber	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	92	conj	hacer	VERB	VerbForm=Ger	81
-si	si	si	SCONJ	-	93	mark	cierto	ADJ	Gender=Masc Number=Sing	96
+si	si	si	SCONJ		93	mark	cierto	ADJ	Gender=Masc Number=Sing	96
 esto	esto	este	PRON	Number=Sing PronType=Dem	94	nsubj	cierto	ADJ	Gender=Masc Number=Sing	96
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	95	cop	cierto	ADJ	Gender=Masc Number=Sing	96
 cierto	cierto	cierto	ADJ	Gender=Masc Number=Sing	96	ccomp	saber	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	92
-o	o	o	CCONJ	-	97	cc	cierto	ADJ	Gender=Masc Number=Sing	100
+o	o	o	CCONJ		97	cc	cierto	ADJ	Gender=Masc Number=Sing	100
 no	no	no	ADV	Polarity=Neg	98	advmod	cierto	ADJ	Gender=Masc Number=Sing	100
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	99	cop	cierto	ADJ	Gender=Masc Number=Sing	100
 cierto	cierto	cierto	ADJ	Gender=Masc Number=Sing	100	conj	cierto	ADJ	Gender=Masc Number=Sing	96
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	101	punct	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	107
-pero	pero	pero	CCONJ	-	102	cc	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	107
+pero	pero	pero	CCONJ		102	cc	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	107
 lo	lo	él	PRON	Case=Acc Definite=Def Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	103	det	saber	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	106
 que	que	que	PRON	PronType=Int,Rel	104	obj	saber	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	106
-sí	sí	sí	INTJ	-	105	advcl	saber	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	106
+sí	sí	sí	INTJ		105	advcl	saber	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	106
 sé	sé	saber	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	106	csubj	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	107
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	107	conj	cierto	ADJ	Gender=Masc Number=Sing	96
-que	que	que	SCONJ	-	108	mark	conseguir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	113
+que	que	que	SCONJ		108	mark	conseguir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	113
 con	con	con	ADP	AdpType=Prep	109	case	esfuerzo	NOUN	Gender=Masc Number=Sing	111
 este	este	este	DET	Gender=Masc Number=Sing PronType=Dem	110	det	esfuerzo	NOUN	Gender=Masc Number=Sing	111
 esfuerzo	esfuerzo	esfuerzo	NOUN	Gender=Masc Number=Sing	111	obl	conseguir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	113
@@ -6786,10 +6786,10 @@ se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	112	expl:p
 consigue	consigue	conseguir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	113	ccomp	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	107
 esa	esa	ese	DET	Gender=Fem Number=Sing PronType=Dem	114	det	garantía	NOUN	Gender=Fem Number=Sing	115
 garantía	garantía	garantía	NOUN	Gender=Fem Number=Sing	115	nsubj	conseguir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	113
-y	y	y	CCONJ	-	116	cc	esfuerzo	NOUN	Gender=Masc Number=Sing	122
+y	y	y	CCONJ		116	cc	esfuerzo	NOUN	Gender=Masc Number=Sing	122
 que	que	que	PRON	PronType=Int,Rel	117	nsubj	esfuerzo	NOUN	Gender=Masc Number=Sing	122
-desde	desde	desde	NOUN	-	118	advmod	esfuerzo	NOUN	Gender=Masc Number=Sing	122
-luego	luego	luego	ADV	-	119	fixed	desde	NOUN	-	118
+desde	desde	desde	NOUN		118	advmod	esfuerzo	NOUN	Gender=Masc Number=Sing	122
+luego	luego	luego	ADV		119	fixed	desde	NOUN		118
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	120	cop	esfuerzo	NOUN	Gender=Masc Number=Sing	122
 un	un	uno	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	121	det	esfuerzo	NOUN	Gender=Masc Number=Sing	122
 esfuerzo	esfuerzo	esfuerzo	NOUN	Gender=Masc Number=Sing	122	conj	conseguir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	113
@@ -6813,37 +6813,37 @@ que	que	que	PRON	PronType=Int,Rel	138	nsubj	tener	VERB	Mood=Ind Number=Plur Pers
 tienen	tienen	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	139	acl	trabajador	NOUN	Gender=Masc Number=Plur	133
 unas	unas	uno	DET	Definite=Ind Gender=Fem Number=Plur PronType=Art	140	det	condición	NOUN	Gender=Fem Number=Plur	141
 condiciones	condiciones	condición	NOUN	Gender=Fem Number=Plur	141	obj	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	139
-completamente	completamente	completamente	ADV	-	142	advmod	distinto	ADJ	Gender=Fem Number=Plur	143
+completamente	completamente	completamente	ADV		142	advmod	distinto	ADJ	Gender=Fem Number=Plur	143
 distintas	distintas	distinto	ADJ	Gender=Fem Number=Plur	143	amod	condición	NOUN	Gender=Fem Number=Plur	141
 <g/>
 .	.	.	PUNCT	PunctType=Peri	144	punct	consciente	ADJ	Number=Plur	3
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.19.2">
-Y	Y	y	CCONJ	-	1	advmod	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
-si	si	si	SCONJ	-	2	mark	hacer	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	4
+Y	Y	y	CCONJ		1	advmod	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
+si	si	si	SCONJ		2	mark	hacer	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	4
 lo	lo	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	3	obj	hacer	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	4
 hacemos	hacemos	hacer	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	4	advcl	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5	root	-	-	-	-
-porque	porque	porque	SCONJ	-	6	mark	convencido	ADJ	Gender=Masc Number=Plur VerbForm=Part	8
+porque	porque	porque	SCONJ		6	mark	convencido	ADJ	Gender=Masc Number=Plur VerbForm=Part	8
 estamos	estamos	estar	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	7	cop	convencido	ADJ	Gender=Masc Number=Plur VerbForm=Part	8
 convencidos	convencidos	convencido	ADJ	Gender=Masc Number=Plur VerbForm=Part	8	ccomp	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
 de	de	de	ADP	AdpType=Prep	9	case	él	PRON	Case=Acc,Nom Gender=Masc Number=Sing Person=3 PronType=Prs	10
 ello	ello	él	PRON	Case=Acc,Nom Gender=Masc Number=Sing Person=3 PronType=Prs	10	obj	convencido	ADJ	Gender=Masc Number=Plur VerbForm=Part	8
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	11	punct	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	15
-si	si	si	SCONJ	-	12	mark	hacer	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	14
+si	si	si	SCONJ		12	mark	hacer	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	14
 lo	lo	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	13	obj	hacer	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	14
 hacemos	hacemos	hacer	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	14	csubj	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	15
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	15	advcl	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
-porque	porque	porque	SCONJ	-	16	mark	pensar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	18
-realmente	realmente	realmente	ADV	-	17	advmod	pensar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	18
+porque	porque	porque	SCONJ		16	mark	pensar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	18
+realmente	realmente	realmente	ADV		17	advmod	pensar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	18
 pensamos	pensamos	pensar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	18	ccomp	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	15
-que	que	que	SCONJ	-	19	mark	facilitar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	22
+que	que	que	SCONJ		19	mark	facilitar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	22
 ese	ese	ese	DET	Gender=Masc Number=Sing PronType=Dem	20	det	esfuerzo	NOUN	Gender=Masc Number=Sing	21
 esfuerzo	esfuerzo	esfuerzo	NOUN	Gender=Masc Number=Sing	21	nsubj	facilitar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	22
 facilita	facilita	facilitar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	22	ccomp	pensar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	18
-muchísimo	muchísimo	muchísimo	ADV	-	23	advmod	facilitar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	22
-que	que	que	SCONJ	-	24	mark	alcanzar	VERB	VerbForm=Inf	27
+muchísimo	muchísimo	muchísimo	ADV		23	advmod	facilitar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	22
+que	que	que	SCONJ		24	mark	alcanzar	VERB	VerbForm=Inf	27
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	25	expl:pass	alcanzar	VERB	VerbForm=Inf	27
 pueda	pueda	poder	AUX	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	26	aux	alcanzar	VERB	VerbForm=Inf	27
 alcanzar	alcanzar	alcanzar	VERB	VerbForm=Inf	27	xcomp	facilitar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	22
@@ -6851,11 +6851,11 @@ ese	ese	ese	DET	Gender=Masc Number=Sing PronType=Dem	28	det	acuerdo	NOUN	Gender=
 acuerdo	acuerdo	acuerdo	NOUN	Gender=Masc Number=Sing	29	nsubj	alcanzar	VERB	VerbForm=Inf	27
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	30	punct	convalidar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	34
-y	y	y	CCONJ	-	31	cc	convalidar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	34
-si	si	si	SCONJ	-	32	mark	convalidar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	34
+y	y	y	CCONJ		31	cc	convalidar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	34
+si	si	si	SCONJ		32	mark	convalidar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	34
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	33	expl:pass	convalidar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	34
 convalidara	convalidara	convalidar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	34	conj	alcanzar	VERB	VerbForm=Inf	27
-hoy	hoy	hoy	ADV	-	35	advmod	convalidar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	34
+hoy	hoy	hoy	ADV		35	advmod	convalidar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	34
 ese	ese	ese	DET	Gender=Masc Number=Sing PronType=Dem	36	det	decreto-ley	NOUN	Gender=Masc Number=Sing	38
 real	real	real	ADJ	Number=Sing	37	amod	decreto-ley	NOUN	Gender=Masc Number=Sing	38
 decreto-ley	decreto-ley	decreto-ley	NOUN	Gender=Masc Number=Sing	38	nsubj	convalidar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	34
@@ -6866,23 +6866,23 @@ en	en	en	ADP	AdpType=Prep	42	case	que	PRON	PronType=Int,Rel	43
 que	que	que	PRON	PronType=Int,Rel	43	obl	recogido	ADJ	Gender=Masc Number=Sing VerbForm=Part	45
 está	está	estar	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	44	cop	recogido	ADJ	Gender=Masc Number=Sing VerbForm=Part	45
 recogido	recogido	recogido	ADJ	Gender=Masc Number=Sing VerbForm=Part	45	acl	término	NOUN	Gender=Masc Number=Plur	41
-o	o	o	CCONJ	-	46	cc	término	NOUN	Gender=Masc Number=Plur	48
+o	o	o	CCONJ		46	cc	término	NOUN	Gender=Masc Number=Plur	48
 en	en	en	ADP	AdpType=Prep	47	case	término	NOUN	Gender=Masc Number=Plur	48
 términos	términos	término	NOUN	Gender=Masc Number=Plur	48	conj	recogido	ADJ	Gender=Masc Number=Sing VerbForm=Part	45
-muy	muy	mucho	ADV	-	49	advmod	similar	ADJ	Number=Plur	50
+muy	muy	mucho	ADV		49	advmod	similar	ADJ	Number=Plur	50
 similares	similares	similar	ADJ	Number=Plur	50	amod	término	NOUN	Gender=Masc Number=Plur	48
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	51	punct	acuerdo	NOUN	Gender=Masc Number=Sing	54
 con	con	con	ADP	AdpType=Prep	52	case	acuerdo	NOUN	Gender=Masc Number=Sing	54
 ese	ese	ese	DET	Gender=Masc Number=Sing PronType=Dem	53	det	acuerdo	NOUN	Gender=Masc Number=Sing	54
 acuerdo	acuerdo	acuerdo	NOUN	Gender=Masc Number=Sing	54	obl	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	69
-si	si	si	SCONJ	-	55	mark	pretender	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	58
+si	si	si	SCONJ		55	mark	pretender	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	58
 no	no	no	ADV	Polarity=Neg	56	advmod	pretender	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	58
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	57	expl:pass	pretender	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	58
 pretende	pretende	pretender	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	58	advcl	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	69
 otra	otra	otro	DET	Gender=Fem Number=Sing PronType=Ind	59	det	cosa	NOUN	Gender=Fem Number=Sing	60
 cosa	cosa	cosa	NOUN	Gender=Fem Number=Sing	60	nsubj	pretender	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	58
-que	que	que	SCONJ	-	61	mark	mantenimiento	NOUN	Gender=Masc Number=Sing	65
+que	que	que	SCONJ		61	mark	mantenimiento	NOUN	Gender=Masc Number=Sing	65
 no	no	no	ADV	Polarity=Neg	62	advmod	mantenimiento	NOUN	Gender=Masc Number=Sing	65
 sea	sea	ser	AUX	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	63	cop	mantenimiento	NOUN	Gender=Masc Number=Sing	65
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	64	det	mantenimiento	NOUN	Gender=Masc Number=Sing	65
@@ -6896,7 +6896,7 @@ una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	70	det	garantí
 garantía	garantía	garantía	NOUN	Gender=Fem Number=Sing	71	obj	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	69
 absoluta	absoluta	absoluto	ADJ	Gender=Fem Number=Sing	72	amod	garantía	NOUN	Gender=Fem Number=Sing	71
 para	para	para	ADP	AdpType=Prep	73	mark	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	78
-que	que	que	SCONJ	-	74	mark	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	78
+que	que	que	SCONJ		74	mark	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	78
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	75	det	reestructuración	NOUN	Gender=Fem Number=Sing	76
 reestructuración	reestructuración	reestructuración	NOUN	Gender=Fem Number=Sing	76	nsubj	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	78
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	77	expl:pv	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	78
@@ -6916,7 +6916,7 @@ partes	partes	parte	NOUN	Gender=Fem Number=Plur	85	nmod	tranquilidad	NOUN	Gender
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.20.1">
 Por	Por	por	ADP	AdpType=Prep	1	advmod	-voir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	6
 lo	lo	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	2	fixed	por	ADP	AdpType=Prep	1
-tanto	tanto	tanto	NOUN	-	3	fixed	por	ADP	AdpType=Prep	1
+tanto	tanto	tanto	NOUN		3	fixed	por	ADP	AdpType=Prep	1
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	4	punct	por	ADP	AdpType=Prep	1
 señorías	señorías	señoría	NOUN	Gender=Fem Number=Plur	5	nsubj	-voir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	6
@@ -6943,31 +6943,31 @@ el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	22	det	tratado	NO
 tratado	tratado	tratado	NOUN	Gender=Masc Number=Sing	23	obj	cumplir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	20
 de	de	de	ADP	AdpType=Prep	24	case	funcionamiento	NOUN	Gender=Masc Number=Sing	25
 funcionamiento	funcionamiento	funcionamiento	NOUN	Gender=Masc Number=Sing	25	nmod	tratado	NOUN	Gender=Masc Number=Sing	23
-de	de	de	ADP	AdpType=Prep	26	case	Unión	PROPN	-	28
-la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	27	det	Unión	PROPN	-	28
+de	de	de	ADP	AdpType=Prep	26	case	Unión	PROPN		28
+la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	27	det	Unión	PROPN		28
 <name type="ORG">
-Unión	Unión	Unión	PROPN	-	28	nmod	tratado	NOUN	Gender=Masc Number=Sing	23
+Unión	Unión	Unión	PROPN		28	nmod	tratado	NOUN	Gender=Masc Number=Sing	23
 <g/>
 </name>
 ,	,	,	PUNCT	PunctType=Comm	29	punct	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	40
-y	y	y	CCONJ	-	30	cc	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	40
+y	y	y	CCONJ		30	cc	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	40
 esto	esto	este	PRON	Number=Sing PronType=Dem	31	nsubj	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	40
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	32	punct	mencionado	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	37
-aunque	aunque	aunque	SCONJ	-	33	mark	mencionado	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	37
+aunque	aunque	aunque	SCONJ		33	mark	mencionado	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	37
 no	no	no	ADV	Polarity=Neg	34	advmod	mencionado	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	37
 lo	lo	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	35	obj	mencionado	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	37
 he	he	haber	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	36	aux	mencionado	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	37
 mencionado	mencionado	mencionado	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	37	advcl	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	40
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	38	punct	mencionado	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	37
-también	también	también	ADV	-	39	advmod	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	40
+también	también	también	ADV		39	advmod	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	40
 tiene	tiene	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	40	conj	cumplir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	20
 relevancia	relevancia	relevancia	NOUN	Gender=Fem Number=Sing	41	obj	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	40
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	42	punct	obligación	NOUN	Gender=Fem Number=Sing	48
-porque	porque	porque	SCONJ	-	43	mark	obligación	NOUN	Gender=Fem Number=Sing	48
-como	como	como	SCONJ	-	44	mark	país	NOUN	Gender=Masc Number=Sing	45
+porque	porque	porque	SCONJ		43	mark	obligación	NOUN	Gender=Fem Number=Sing	48
+como	como	como	SCONJ		44	mark	país	NOUN	Gender=Masc Number=Sing	45
 país	país	país	NOUN	Gender=Masc Number=Sing	45	obl	obligación	NOUN	Gender=Fem Number=Sing	48
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	46	cop	obligación	NOUN	Gender=Fem Number=Sing	48
 nuestra	nuestra	nuestro	DET	Gender=Fem Number=Sing Number[psor]=Plur Person=1 Poss=Yes PronType=Prs	47	det	obligación	NOUN	Gender=Fem Number=Sing	48
@@ -6976,7 +6976,7 @@ hacer	hacer	hacer	VERB	VerbForm=Inf	49	csubj	obligación	NOUN	Gender=Fem Number=
 <g/>
 lo	lo	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	50	obj	hacer	VERB	VerbForm=Inf	49
 ,	,	,	PUNCT	PunctType=Comm	51	punct	obligación	NOUN	Gender=Fem Number=Sing	48
-como	como	como	SCONJ	-	52	mark	país	NOUN	Gender=Masc Number=Sing	53
+como	como	como	SCONJ		52	mark	país	NOUN	Gender=Masc Number=Sing	53
 país	país	país	NOUN	Gender=Masc Number=Sing	53	obl	obligado	ADJ	Gender=Masc Number=Plur VerbForm=Part	55
 estamos	estamos	estar	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	54	cop	obligado	ADJ	Gender=Masc Number=Plur VerbForm=Part	55
 obligados	obligados	obligado	ADJ	Gender=Masc Number=Plur VerbForm=Part	55	advcl	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	40
@@ -6985,11 +6985,11 @@ evitar	evitar	evitar	VERB	VerbForm=Inf	57	xcomp	obligado	ADJ	Gender=Masc Number=
 esa	esa	ese	DET	Gender=Fem Number=Sing PronType=Dem	58	det	condena	NOUN	Gender=Fem Number=Sing	60
 segunda	segunda	segundo	ADJ	Gender=Fem NumType=Ord Number=Sing	59	amod	condena	NOUN	Gender=Fem Number=Sing	60
 condena	condena	condena	NOUN	Gender=Fem Number=Sing	60	obj	evitar	VERB	VerbForm=Inf	57
-al	al	al	ADP	AdpType=Preppron	61	case	Reino	PROPN	-	62
+al	al	al	ADP	AdpType=Preppron	61	case	Reino	PROPN		62
 <name type="ORG">
-Reino	Reino	Reino	PROPN	-	62	obj	evitar	VERB	VerbForm=Inf	57
-de	de	de	ADP	AdpType=Prep	63	case	España	PROPN	-	64
-España	España	España	PROPN	-	64	flat	Reino	PROPN	-	62
+Reino	Reino	Reino	PROPN		62	obj	evitar	VERB	VerbForm=Inf	57
+de	de	de	ADP	AdpType=Prep	63	case	España	PROPN		64
+España	España	España	PROPN		64	flat	Reino	PROPN		62
 <g/>
 </name>
 .	.	.	PUNCT	PunctType=Peri	65	punct	-voir	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	6
@@ -7001,7 +7001,7 @@ cumplir	cumplir	cumplir	VERB	VerbForm=Inf	3	acl	este	PRON	Number=Sing PronType=D
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	4	det	ley	NOUN	Gender=Fem Number=Sing	5
 ley	ley	ley	NOUN	Gender=Fem Number=Sing	5	obj	cumplir	VERB	VerbForm=Inf	3
 creo	creo	creer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	6	root	-	-	-	-
-que	que	que	SCONJ	-	7	mark	compartir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	9
+que	que	que	SCONJ		7	mark	compartir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	9
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	8	aux	compartir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	9
 compartido	compartido	compartir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	9	ccomp	creer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	6
 por	por	por	ADP	AdpType=Prep	10	case	todo	PRON	Gender=Masc Number=Plur PronType=Tot	11
@@ -7016,7 +7016,7 @@ todos	todos	todo	PRON	Gender=Masc Number=Plur PronType=Tot	17	obj	compartir	VERB
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	18	punct	disposición	NOUN	Gender=Fem Number=Sing	25
 por	por	por	ADP	AdpType=Prep	19	advmod	disposición	NOUN	Gender=Fem Number=Sing	25
-tanto	tanto	tanto	NOUN	-	20	fixed	por	ADP	AdpType=Prep	19
+tanto	tanto	tanto	NOUN		20	fixed	por	ADP	AdpType=Prep	19
 estamos	estamos	estar	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	21	cop	disposición	NOUN	Gender=Fem Number=Sing	25
 ante	ante	ante	ADP	AdpType=Prep	22	case	disposición	NOUN	Gender=Fem Number=Sing	25
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	23	det	disposición	NOUN	Gender=Fem Number=Sing	25
@@ -7030,11 +7030,11 @@ que	que	que	PRON	PronType=Int,Rel	30	nsubj	evitar	VERB	Mood=Ind Number=Sing Pers
 evita	evita	evitar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	31	acl	instrumento	NOUN	Gender=Masc Number=Sing	28
 una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	32	det	sentencia	NOUN	Gender=Fem Number=Sing	33
 sentencia	sentencia	sentencia	NOUN	Gender=Fem Number=Sing	33	obj	evitar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	31
-al	al	al	ADP	AdpType=Preppron	34	case	Reino	PROPN	-	35
+al	al	al	ADP	AdpType=Preppron	34	case	Reino	PROPN		35
 <name type="LOC">
-Reino	Reino	Reino	PROPN	-	35	obj	evitar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	31
-de	de	de	ADP	AdpType=Prep	36	case	España	PROPN	-	37
-España	España	España	PROPN	-	37	flat	Reino	PROPN	-	35
+Reino	Reino	Reino	PROPN		35	obj	evitar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	31
+de	de	de	ADP	AdpType=Prep	36	case	España	PROPN		37
+España	España	España	PROPN		37	flat	Reino	PROPN		35
 <g/>
 </name>
 .	.	.	PUNCT	PunctType=Peri	38	punct	creer	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	6
@@ -7058,13 +7058,13 @@ al	al	al	ADP	AdpType=Preppron	12	case	sector	NOUN	Gender=Masc Number=Sing	13
 sector	sector	sector	NOUN	Gender=Masc Number=Sing	13	obj	dar	VERB	VerbForm=Inf	10
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	14	punct	importante	ADJ	Number=Sing	18
-y	y	y	CCONJ	-	15	cc	importante	ADJ	Number=Sing	18
+y	y	y	CCONJ		15	cc	importante	ADJ	Number=Sing	18
 esto	esto	este	PRON	Number=Sing PronType=Dem	16	nsubj	importante	ADJ	Number=Sing	18
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	17	cop	importante	ADJ	Number=Sing	18
 importante	importante	importante	ADJ	Number=Sing	18	conj	dar	VERB	VerbForm=Inf	10
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	19	punct	dar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	22
-porque	porque	porque	SCONJ	-	20	mark	dar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	22
+porque	porque	porque	SCONJ		20	mark	dar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	22
 he	he	haber	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	21	aux	dar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	22
 dado	dado	dar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	22	advcl	importante	ADJ	Number=Sing	18
 algunos	algunos	alguno	DET	Gender=Masc Number=Plur PronType=Ind	23	det	dato	NOUN	Gender=Masc Number=Plur	24
@@ -7079,7 +7079,7 @@ los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	31	det	puerto	N
 puertos	puertos	puerto	NOUN	Gender=Masc Number=Plur	32	obl	suceder	VERB	VerbForm=Ger	29
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	33	punct	preocupante	ADJ	Number=Sing	40
-pero	pero	pero	CCONJ	-	34	cc	preocupante	ADJ	Number=Sing	40
+pero	pero	pero	CCONJ		34	cc	preocupante	ADJ	Number=Sing	40
 esto	esto	este	PRON	Number=Sing PronType=Dem	35	nsubj	preocupante	ADJ	Number=Sing	40
 no	no	no	ADV	Polarity=Neg	36	advmod	preocupante	ADJ	Number=Sing	40
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	37	cop	preocupante	ADJ	Number=Sing	40
@@ -7087,20 +7087,20 @@ lo	lo	él	PRON	Case=Acc Definite=Def Gender=Masc Number=Sing Person=3 PrepCase=N
 más	más	más	ADV	Degree=Cmp	39	advmod	preocupante	ADJ	Number=Sing	40
 preocupante	preocupante	preocupante	ADJ	Number=Sing	40	conj	dar	VERB	VerbForm=Inf	10
 siendo	siendo	ser	AUX	VerbForm=Ger	41	cop	grave	ADJ	Number=Sing	44
-como	como	como	SCONJ	-	42	mark	grave	ADJ	Number=Sing	44
+como	como	como	SCONJ		42	mark	grave	ADJ	Number=Sing	44
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	43	cop	grave	ADJ	Number=Sing	44
 grave	grave	grave	ADJ	Number=Sing	44	advcl	preocupante	ADJ	Number=Sing	40
-y	y	y	CCONJ	-	45	cc	preocupante	ADJ	Number=Sing	46
+y	y	y	CCONJ		45	cc	preocupante	ADJ	Number=Sing	46
 preocupante	preocupante	preocupante	ADJ	Number=Sing	46	conj	grave	ADJ	Number=Sing	44
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	47	punct	preocupante	ADJ	Number=Sing	40
-sino	sino	sino	CCONJ	-	48	cc	preocupante	ADJ	Number=Sing	40
-que	que	que	SCONJ	-	49	fixed	sino	CCONJ	-	48
+sino	sino	sino	CCONJ		48	cc	preocupante	ADJ	Number=Sing	40
+que	que	que	SCONJ		49	fixed	sino	CCONJ		48
 lo	lo	él	PRON	Case=Acc Definite=Def Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	50	det	preocupante	ADJ	Number=Sing	51
 preocupante	preocupante	preocupante	ADJ	Number=Sing	51	nsubj	desvío	NOUN	Gender=Masc Number=Plur	54
 son	son	ser	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	52	cop	desvío	NOUN	Gender=Masc Number=Plur	54
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	53	det	desvío	NOUN	Gender=Masc Number=Plur	54
-desvíos	desvíos	desvío	NOUN	Gender=Masc Number=Plur	54	parataxis	sino	CCONJ	-	48
+desvíos	desvíos	desvío	NOUN	Gender=Masc Number=Plur	54	parataxis	sino	CCONJ		48
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	55	punct	momento	NOUN	Gender=Masc Number=Sing	58
 hasta	hasta	hasta	ADP	AdpType=Prep	56	case	momento	NOUN	Gender=Masc Number=Sing	58
@@ -7119,7 +7119,7 @@ tornar	tornar	tornar	VERB	VerbForm=Inf	67	acl	momento	NOUN	Gender=Masc Number=Si
 definitivos	definitivos	definitivo	ADJ	Gender=Masc Number=Plur	68	obj	tornar	VERB	VerbForm=Inf	67
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	69	punct	producir	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	74
-porque	porque	porque	SCONJ	-	70	mark	producir	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	74
+porque	porque	porque	SCONJ		70	mark	producir	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	74
 con	con	con	ADP	AdpType=Prep	71	case	él	PRON	Case=Acc,Nom Gender=Masc Number=Sing Person=3 PronType=Prs	72
 ello	ello	él	PRON	Case=Acc,Nom Gender=Masc Number=Sing Person=3 PronType=Prs	72	obl	producir	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	74
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	73	expl:pv	producir	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	74
@@ -7129,14 +7129,14 @@ pérdida	pérdida	pérdida	NOUN	Gender=Fem Number=Sing	76	nsubj	producir	VERB	Mo
 en	en	en	ADP	AdpType=Prep	77	case	caso	NOUN	Gender=Masc Number=Sing	79
 este	este	este	DET	Gender=Masc Number=Sing PronType=Dem	78	det	caso	NOUN	Gender=Masc Number=Sing	79
 caso	caso	caso	NOUN	Gender=Masc Number=Sing	79	nmod	pérdida	NOUN	Gender=Fem Number=Sing	76
-sí	sí	sí	INTJ	-	80	advcl	definitivo	ADJ	Gender=Fem Number=Sing	81
+sí	sí	sí	INTJ		80	advcl	definitivo	ADJ	Gender=Fem Number=Sing	81
 definitiva	definitiva	definitivo	ADJ	Gender=Fem Number=Sing	81	amod	caso	NOUN	Gender=Masc Number=Sing	79
 del	del	del	ADP	AdpType=Preppron	82	case	empleo	NOUN	Gender=Masc Number=Sing	83
 empleo	empleo	empleo	NOUN	Gender=Masc Number=Sing	83	nmod	definitivo	ADJ	Gender=Fem Number=Sing	81
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	84	punct	decidir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	92
-porque	porque	porque	SCONJ	-	85	mark	decidir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	92
-si	si	si	SCONJ	-	86	mark	decidir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	92
+porque	porque	porque	SCONJ		85	mark	decidir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	92
+si	si	si	SCONJ		86	mark	decidir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	92
 alguna	alguna	alguno	PRON	Gender=Fem Number=Sing PronType=Ind	87	nsubj	decidir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	92
 de	de	de	ADP	AdpType=Prep	88	case	empresa	NOUN	Gender=Fem Number=Plur	91
 estas	estas	este	DET	Gender=Fem Number=Plur PronType=Dem	89	det	empresa	NOUN	Gender=Fem Number=Plur	91
@@ -7146,7 +7146,7 @@ decide	decide	decidir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin
 deslocalizar	deslocalizar	deslocalizar	VERB	VerbForm=Inf	93	xcomp	decidir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	92
 <g/>
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	94	expl:pv	deslocalizar	VERB	VerbForm=Inf	93
-y	y	y	CCONJ	-	95	cc	decidir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	96
+y	y	y	CCONJ		95	cc	decidir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	96
 decide	decide	decidir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	96	conj	decidir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	92
 utilizar	utilizar	utilizar	VERB	VerbForm=Inf	97	xcomp	decidir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	96
 otros	otros	otro	DET	Gender=Masc Number=Plur PronType=Ind	98	det	puerto	NOUN	Gender=Masc Number=Plur	99
@@ -7159,14 +7159,14 @@ situaciones	situaciones	situación	NOUN	Gender=Fem Number=Plur	103	obj	tener	VER
 ,	,	,	PUNCT	PunctType=Comm	104	punct	competitivo	ADJ	Gender=Fem Number=Plur	106
 más	más	más	ADV	Degree=Cmp	105	advmod	competitivo	ADJ	Gender=Fem Number=Plur	106
 competitivas	competitivas	competitivo	ADJ	Gender=Fem Number=Plur	106	amod	situación	NOUN	Gender=Fem Number=Plur	103
-o	o	o	CCONJ	-	107	cc	haber	AUX	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	110
+o	o	o	CCONJ		107	cc	haber	AUX	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	110
 donde	donde	donde	PRON	PronType=Ind	108	obl	haber	AUX	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	110
 no	no	no	ADV	Polarity=Neg	109	advmod	haber	AUX	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	110
 haya	haya	haber	AUX	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	110	conj	competitivo	ADJ	Gender=Fem Number=Plur	106
 conflictos	conflictos	conflicto	NOUN	Gender=Masc Number=Plur	111	obj	haber	AUX	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	110
 simple	simple	simple	ADJ	Number=Sing	112	amod	conflicto	NOUN	Gender=Masc Number=Plur	111
-y	y	y	CCONJ	-	113	cc	llanamente	ADV	-	114
-llanamente	llanamente	llanamente	ADV	-	114	conj	simple	ADJ	Number=Sing	112
+y	y	y	CCONJ		113	cc	llanamente	ADV		114
+llanamente	llanamente	llanamente	ADV		114	conj	simple	ADJ	Number=Sing	112
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	115	punct	competitivo	ADJ	Gender=Fem Number=Plur	106
 produciría	produciría	producir	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	116	conj	decidir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	92
@@ -7194,7 +7194,7 @@ a	a	a	ADP	AdpType=Prep	7	case	responsabilidad	NOUN	Gender=Fem Number=Sing	9
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	8	det	responsabilidad	NOUN	Gender=Fem Number=Sing	9
 responsabilidad	responsabilidad	responsabilidad	NOUN	Gender=Fem Number=Sing	9	nmod	llamamiento	NOUN	Gender=Masc Number=Sing	6
 para	para	para	ADP	AdpType=Prep	10	mark	dar	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	16
-que	que	que	SCONJ	-	11	mark	dar	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	16
+que	que	que	SCONJ		11	mark	dar	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	16
 esas	esas	ese	DET	Gender=Fem Number=Plur PronType=Dem	12	det	situación	NOUN	Gender=Fem Number=Plur	13
 situaciones	situaciones	situación	NOUN	Gender=Fem Number=Plur	13	nsubj	dar	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	16
 no	no	no	ADV	Polarity=Neg	14	advmod	dar	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	16
@@ -7203,15 +7203,15 @@ den	den	dar	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	16	advcl	
 en	en	en	ADP	AdpType=Prep	17	case	puerto	NOUN	Gender=Masc Number=Plur	19
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	18	det	puerto	NOUN	Gender=Masc Number=Plur	19
 puertos	puertos	puerto	NOUN	Gender=Masc Number=Plur	19	obl	dar	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	16
-y	y	y	CCONJ	-	20	cc	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	24
+y	y	y	CCONJ		20	cc	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	24
 para	para	para	ADP	AdpType=Prep	21	mark	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	24
-que	que	que	SCONJ	-	22	mark	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	24
+que	que	que	SCONJ		22	mark	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	24
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	23	expl:pv	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	24
 produzca	produzca	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	24	conj	dar	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	16
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	25	det	funcionamiento	NOUN	Gender=Masc Number=Sing	26
 funcionamiento	funcionamiento	funcionamiento	NOUN	Gender=Masc Number=Sing	26	nsubj	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	24
 ordinario	ordinario	ordinario	ADJ	Gender=Masc Number=Sing	27	amod	funcionamiento	NOUN	Gender=Masc Number=Sing	26
-y	y	y	CCONJ	-	28	cc	afectar	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	31
+y	y	y	CCONJ		28	cc	afectar	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	31
 no	no	no	ADV	Polarity=Neg	29	advmod	afectar	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	31
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	30	expl:impers	afectar	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	31
 afecte	afecte	afectar	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	31	conj	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	24
@@ -7236,7 +7236,7 @@ tercer	tercer	tercero	ADJ	Gender=Masc NumType=Ord Number=Sing	2	amod	lugar	NOUN	
 lugar	lugar	lugar	NOUN	Gender=Masc Number=Sing	3	obl	evitar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	4	punct	lugar	NOUN	Gender=Masc Number=Sing	3
-porque	porque	porque	SCONJ	-	5	mark	evitar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
+porque	porque	porque	SCONJ		5	mark	evitar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
 evita	evita	evitar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6	root	-	-	-	-
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	7	det	multa	NOUN	Gender=Fem Number=Sing	8
 multa	multa	multa	NOUN	Gender=Fem Number=Sing	8	obj	evitar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
@@ -7250,19 +7250,19 @@ señorías	señorías	señoría	NOUN	Gender=Fem Number=Plur	10	appos	multa	NOUN	
 Este	Este	este	DET	Gender=Masc Number=Sing PronType=Dem	1	det	argumento	NOUN	Gender=Masc Number=Sing	2
 argumento	argumento	argumento	NOUN	Gender=Masc Number=Sing	2	nsubj	sencillo	ADJ	Gender=Masc Number=Sing	5
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	cop	sencillo	ADJ	Gender=Masc Number=Sing	5
-muy	muy	mucho	ADV	-	4	advmod	sencillo	ADJ	Gender=Masc Number=Sing	5
+muy	muy	mucho	ADV		4	advmod	sencillo	ADJ	Gender=Masc Number=Sing	5
 sencillo	sencillo	sencillo	ADJ	Gender=Masc Number=Sing	5	root	-	-	-	-
-también	también	también	ADV	-	6	advmod	sencillo	ADJ	Gender=Masc Number=Sing	5
+también	también	también	ADV		6	advmod	sencillo	ADJ	Gender=Masc Number=Sing	5
 de	de	de	ADP	AdpType=Prep	7	mark	entender	VERB	VerbForm=Inf	8
-entender	entender	entender	VERB	VerbForm=Inf	8	acl	también	ADV	-	6
+entender	entender	entender	VERB	VerbForm=Inf	8	acl	también	ADV		6
 <g/>
 .	.	.	PUNCT	PunctType=Peri	9	punct	sencillo	ADJ	Gender=Masc Number=Sing	5
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.22.3">
-Si	Si	si	SCONJ	-	1	mark	aprobar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
-esta	esta	este	DET	Gender=Fem Number=Sing PronType=Dem	2	det	Cámara	PROPN	-	3
+Si	Si	si	SCONJ		1	mark	aprobar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
+esta	esta	este	DET	Gender=Fem Number=Sing PronType=Dem	2	det	Cámara	PROPN		3
 <name type="ORG">
-Cámara	Cámara	Cámara	PROPN	-	3	nsubj	aprobar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
+Cámara	Cámara	Cámara	PROPN		3	nsubj	aprobar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
 </name>
 no	no	no	ADV	Polarity=Neg	4	advmod	aprobar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
 aprueba	aprueba	aprobar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5	advcl	caer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	9
@@ -7274,8 +7274,8 @@ la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	10	det	multa	NOUN	
 multa	multa	multa	NOUN	Gender=Fem Number=Sing	11	nsubj	caer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	9
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	12	punct	euro	NOUN	NumForm=Digit	20
-y	y	y	CCONJ	-	13	cc	euro	NOUN	NumForm=Digit	20
-si	si	si	SCONJ	-	14	mark	caer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	15
+y	y	y	CCONJ		13	cc	euro	NOUN	NumForm=Digit	20
+si	si	si	SCONJ		14	mark	caer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	15
 cae	cae	caer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	15	advcl	euro	NOUN	NumForm=Digit	20
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	16	det	multa	NOUN	Gender=Fem Number=Sing	17
 multa	multa	multa	NOUN	Gender=Fem Number=Sing	17	nsubj	caer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	15
@@ -7301,7 +7301,7 @@ educación	educación	educación	NOUN	Gender=Fem Number=Sing	9	obl	hacer	VERB	Ve
 ,	,	,	PUNCT	PunctType=Comm	10	punct	servicio	NOUN	Gender=Masc Number=Plur	11
 servicios	servicios	servicio	NOUN	Gender=Masc Number=Plur	11	conj	educación	NOUN	Gender=Fem Number=Sing	9
 sociales	sociales	social	ADJ	Number=Plur	12	amod	servicio	NOUN	Gender=Masc Number=Plur	11
-y	y	y	CCONJ	-	13	cc	sanidad	NOUN	Gender=Fem Number=Sing	14
+y	y	y	CCONJ		13	cc	sanidad	NOUN	Gender=Fem Number=Sing	14
 sanidad	sanidad	sanidad	NOUN	Gender=Fem Number=Sing	14	conj	educación	NOUN	Gender=Fem Number=Sing	9
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	15	punct	incorporación	NOUN	Gender=Fem Number=Sing	18
@@ -7315,7 +7315,7 @@ de	de	de	ADP	AdpType=Prep	22	case	puesto	NOUN	Gender=Masc Number=Plur	23
 puestos	puestos	puesto	NOUN	Gender=Masc Number=Plur	23	obj	hacer	VERB	VerbForm=Inf	21
 de	de	de	ADP	AdpType=Prep	24	case	trabajo	NOUN	Gender=Masc Number=Sing	25
 trabajo	trabajo	trabajo	NOUN	Gender=Masc Number=Sing	25	nmod	puesto	NOUN	Gender=Masc Number=Plur	23
-o	o	o	CCONJ	-	26	cc	asunto	NOUN	Gender=Masc Number=Sing	29
+o	o	o	CCONJ		26	cc	asunto	NOUN	Gender=Masc Number=Sing	29
 cualquier	cualquier	cualquiera	DET	Number=Sing PronType=Ind	27	det	asunto	NOUN	Gender=Masc Number=Sing	29
 otro	otro	otro	DET	Gender=Masc Number=Sing PronType=Ind	28	det	cualquiera	DET	Number=Sing PronType=Ind	27
 asunto	asunto	asunto	NOUN	Gender=Masc Number=Sing	29	conj	puesto	NOUN	Gender=Masc Number=Plur	23
@@ -7329,7 +7329,7 @@ conjunto	conjunto	conjunto	NOUN	Gender=Masc Number=Sing	35	nmod	dinero	NOUN	Gend
 de	de	de	ADP	AdpType=Prep	36	case	español	NOUN	Gender=Masc Number=Plur	38
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	37	det	español	NOUN	Gender=Masc Number=Plur	38
 españoles	españoles	español	NOUN	Gender=Masc Number=Plur	38	nmod	conjunto	NOUN	Gender=Masc Number=Sing	35
-y	y	y	CCONJ	-	39	cc	pagar	VERB	VerbForm=Inf	43
+y	y	y	CCONJ		39	cc	pagar	VERB	VerbForm=Inf	43
 lo	lo	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	40	obj	pagar	VERB	VerbForm=Inf	43
 vamos	vamos	ir	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	41	aux	pagar	VERB	VerbForm=Inf	43
 a	a	a	ADP	AdpType=Prep	42	mark	pagar	VERB	VerbForm=Inf	43
@@ -7344,7 +7344,7 @@ españoles	españoles	español	NOUN	Gender=Masc Number=Plur	48	nmod	conjunto	NOU
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.22.5">
 Por	Por	por	ADP	AdpType=Prep	1	advmod	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
-tanto	tanto	tanto	NOUN	-	2	fixed	por	ADP	AdpType=Prep	1
+tanto	tanto	tanto	NOUN		2	fixed	por	ADP	AdpType=Prep	1
 hay	hay	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	root	-	-	-	-
 razones	razones	razón	NOUN	Gender=Fem Number=Plur	4	obj	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 de	de	de	ADP	AdpType=Prep	5	case	urgencia	NOUN	Gender=Fem Number=Sing	6
@@ -7362,9 +7362,9 @@ es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	cop	urgenc
 una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	3	det	urgencia	NOUN	Gender=Fem Number=Sing	4
 urgencia	urgencia	urgencia	NOUN	Gender=Fem Number=Sing	4	root	-	-	-	-
 voluntaria	voluntaria	voluntario	ADJ	Gender=Fem Number=Sing	5	amod	urgencia	NOUN	Gender=Fem Number=Sing	4
-del	del	del	ADP	AdpType=Preppron	6	case	Gobierno	PROPN	-	7
+del	del	del	ADP	AdpType=Preppron	6	case	Gobierno	PROPN		7
 <name type="ORG">
-Gobierno	Gobierno	Gobierno	PROPN	-	7	nmod	urgencia	NOUN	Gender=Fem Number=Sing	4
+Gobierno	Gobierno	Gobierno	PROPN		7	nmod	urgencia	NOUN	Gender=Fem Number=Sing	4
 <g/>
 </name>
 ,	,	,	PUNCT	PunctType=Comm	8	punct	urgencia	NOUN	Gender=Fem Number=Sing	11
@@ -7379,20 +7379,20 @@ ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	16	aux	exp
 expuesto	expuesto	exponer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	17	acl	urgencia	NOUN	Gender=Fem Number=Sing	11
 con	con	con	ADP	AdpType=Prep	18	case	claridad	NOUN	Gender=Fem Number=Sing	19
 claridad	claridad	claridad	NOUN	Gender=Fem Number=Sing	19	obl	exponer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	17
-en	en	en	ADP	AdpType=Prep	20	case	Cámara	PROPN	-	22
-esta	esta	este	DET	Gender=Fem Number=Sing PronType=Dem	21	det	Cámara	PROPN	-	22
+en	en	en	ADP	AdpType=Prep	20	case	Cámara	PROPN		22
+esta	esta	este	DET	Gender=Fem Number=Sing PronType=Dem	21	det	Cámara	PROPN		22
 <name type="ORG">
-Cámara	Cámara	Cámara	PROPN	-	22	obl	exponer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	17
+Cámara	Cámara	Cámara	PROPN		22	obl	exponer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	17
 <g/>
 </name>
 ,	,	,	PUNCT	PunctType=Comm	23	punct	importante	ADJ	Number=Sing	26
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	24	cop	importante	ADJ	Number=Sing	26
-muy	muy	mucho	ADV	-	25	advmod	importante	ADJ	Number=Sing	26
+muy	muy	mucho	ADV		25	advmod	importante	ADJ	Number=Sing	26
 importante	importante	importante	ADJ	Number=Sing	26	advcl	urgencia	NOUN	Gender=Fem Number=Sing	11
 hacer	hacer	hacer	VERB	VerbForm=Inf	27	csubj	importante	ADJ	Number=Sing	26
 <g/>
 lo	lo	él	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	28	obj	hacer	VERB	VerbForm=Inf	27
-y	y	y	CCONJ	-	29	cc	hacer	VERB	VerbForm=Inf	30
+y	y	y	CCONJ		29	cc	hacer	VERB	VerbForm=Inf	30
 hacer	hacer	hacer	VERB	VerbForm=Inf	30	conj	hacer	VERB	VerbForm=Inf	27
 <g/>
 lo	lo	él	PRON	Case=Acc Definite=Def Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	31	det	rápido	ADJ	Gender=Masc Number=Sing	32
@@ -7408,7 +7408,7 @@ las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	39	det	consecuen
 consecuencias	consecuencias	consecuencia	NOUN	Gender=Fem Number=Plur	40	ccomp	alertar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	35
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	41	punct	mantener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	45
-y	y	y	CCONJ	-	42	cc	mantener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	45
+y	y	y	CCONJ		42	cc	mantener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	45
 nosotros	nosotros	yo	PRON	Case=Acc,Nom Gender=Masc Number=Plur Person=1 PronType=Prs	43	nsubj	mantener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	45
 hemos	hemos	haber	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	44	aux	mantener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	45
 mantenido	mantenido	mantener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	45	conj	alertar	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	35
@@ -7420,23 +7420,23 @@ diálogo	diálogo	diálogo	NOUN	Gender=Masc Number=Sing	50	obj	mantener	VERB	Gen
 permanente	permanente	permanente	ADJ	Number=Sing	51	amod	diálogo	NOUN	Gender=Masc Number=Sing	50
 desde	desde	desde	ADP	AdpType=Prep	52	mark	hacer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	53
 hace	hace	hacer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	53	advcl	mantener	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	45
-ya	ya	ya	ADV	-	54	advmod	año	NOUN	Gender=Masc Number=Plur	58
+ya	ya	ya	ADV		54	advmod	año	NOUN	Gender=Masc Number=Plur	58
 más	más	más	ADV	Degree=Cmp	55	advmod	año	NOUN	Gender=Masc Number=Plur	58
 de	de	de	ADP	AdpType=Prep	56	case	año	NOUN	Gender=Masc Number=Plur	58
 dos	dos	dos	NUM	NumType=Card Number=Plur	57	nummod	año	NOUN	Gender=Masc Number=Plur	58
 años	años	año	NOUN	Gender=Masc Number=Plur	58	obj	hacer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	53
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	59	punct	voluntad	NOUN	Gender=Fem Number=Sing	63
-y	y	y	CCONJ	-	60	cc	voluntad	NOUN	Gender=Fem Number=Sing	63
+y	y	y	CCONJ		60	cc	voluntad	NOUN	Gender=Fem Number=Sing	63
 una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	61	det	voluntad	NOUN	Gender=Fem Number=Sing	63
 reiterada	reiterada	reiterado	ADJ	Gender=Fem Number=Sing VerbForm=Part	62	amod	voluntad	NOUN	Gender=Fem Number=Sing	63
 voluntad	voluntad	voluntad	NOUN	Gender=Fem Number=Sing	63	conj	diálogo	NOUN	Gender=Masc Number=Sing	50
-del	del	del	ADP	AdpType=Preppron	64	case	Gobierno	PROPN	-	65
+del	del	del	ADP	AdpType=Preppron	64	case	Gobierno	PROPN		65
 <name type="ORG">
-Gobierno	Gobierno	Gobierno	PROPN	-	65	nmod	voluntad	NOUN	Gender=Fem Number=Sing	63
+Gobierno	Gobierno	Gobierno	PROPN		65	nmod	voluntad	NOUN	Gender=Fem Number=Sing	63
 </name>
 para	para	para	ADP	AdpType=Prep	66	mark	alcanzar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	69
-que	que	que	SCONJ	-	67	mark	alcanzar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	69
+que	que	que	SCONJ		67	mark	alcanzar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	69
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	68	expl:pass	alcanzar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	69
 alcanzara	alcanzara	alcanzar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	69	acl	voluntad	NOUN	Gender=Fem Number=Sing	63
 un	un	uno	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	70	det	acuerdo	NOUN	Gender=Masc Number=Sing	71
@@ -7446,7 +7446,7 @@ acuerdo	acuerdo	acuerdo	NOUN	Gender=Masc Number=Sing	71	nsubj	alcanzar	VERB	Mood
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.22.7">
 Una	Una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	1	det	vez	NOUN	Gender=Fem Number=Sing	4
-y	y	y	CCONJ	-	2	cc	otro	DET	Gender=Fem Number=Sing PronType=Ind	3
+y	y	y	CCONJ		2	cc	otro	DET	Gender=Fem Number=Sing PronType=Ind	3
 otra	otra	otro	DET	Gender=Fem Number=Sing PronType=Ind	3	conj	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	1
 vez	vez	vez	NOUN	Gender=Fem Number=Sing	4	obl	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	6
 hemos	hemos	haber	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	5	aux	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	6
@@ -7455,11 +7455,11 @@ esfuerzos	esfuerzos	esfuerzo	NOUN	Gender=Masc Number=Plur	7	obj	hacer	VERB	Gende
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	8	punct	vez	NOUN	Gender=Fem Number=Sing	12
 una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	9	det	vez	NOUN	Gender=Fem Number=Sing	12
-y	y	y	CCONJ	-	10	cc	otro	DET	Gender=Fem Number=Sing PronType=Ind	11
+y	y	y	CCONJ		10	cc	otro	DET	Gender=Fem Number=Sing PronType=Ind	11
 otra	otra	otro	DET	Gender=Fem Number=Sing PronType=Ind	11	conj	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	9
 vez	vez	vez	NOUN	Gender=Fem Number=Sing	12	obl	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	6
 para	para	para	ADP	AdpType=Prep	13	mark	alcanzar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	16
-que	que	que	SCONJ	-	14	mark	alcanzar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	16
+que	que	que	SCONJ		14	mark	alcanzar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	16
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	15	expl:pass	alcanzar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	16
 alcanzara	alcanzara	alcanzar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	16	advcl	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	6
 ese	ese	ese	DET	Gender=Masc Number=Sing PronType=Dem	17	det	acuerdo	NOUN	Gender=Masc Number=Sing	18
@@ -7467,22 +7467,22 @@ acuerdo	acuerdo	acuerdo	NOUN	Gender=Masc Number=Sing	18	nsubj	alcanzar	VERB	Mood
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	19	punct	por	ADP	AdpType=Prep	20
 por	por	por	ADP	AdpType=Prep	20	advmod	alcanzar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	16
-supuesto	supuesto	supuesto	NOUN	-	21	fixed	por	ADP	AdpType=Prep	20
-dentro	dentro	dentro	ADV	-	22	advmod	por	ADP	AdpType=Prep	20
+supuesto	supuesto	supuesto	NOUN		21	fixed	por	ADP	AdpType=Prep	20
+dentro	dentro	dentro	ADV		22	advmod	por	ADP	AdpType=Prep	20
 de	de	de	ADP	AdpType=Prep	23	case	margen	NOUN	Number=Plur	25
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	24	det	margen	NOUN	Number=Plur	25
-márgenes	márgenes	margen	NOUN	Number=Plur	25	obl	dentro	ADV	-	22
-y	y	y	CCONJ	-	26	cc	límite	NOUN	Gender=Masc Number=Plur	28
+márgenes	márgenes	margen	NOUN	Number=Plur	25	obl	dentro	ADV		22
+y	y	y	CCONJ		26	cc	límite	NOUN	Gender=Masc Number=Plur	28
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	27	det	límite	NOUN	Gender=Masc Number=Plur	28
 límites	límites	límite	NOUN	Gender=Masc Number=Plur	28	conj	margen	NOUN	Number=Plur	25
 que	que	que	PRON	PronType=Int,Rel	29	obj	tener	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	30
 tenemos	tenemos	tener	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	30	acl	límite	NOUN	Gender=Masc Number=Plur	28
 marcados	marcados	marcado	ADJ	Gender=Masc Number=Plur VerbForm=Part	31	obj	tener	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	30
-por	por	por	ADP	AdpType=Prep	32	case	Comisión	PROPN	-	34
-la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	33	det	Comisión	PROPN	-	34
+por	por	por	ADP	AdpType=Prep	32	case	Comisión	PROPN		34
+la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	33	det	Comisión	PROPN		34
 <name type="ORG">
-Comisión	Comisión	Comisión	PROPN	-	34	obj	marcado	ADJ	Gender=Masc Number=Plur VerbForm=Part	31
-Europea	Europea	Europea	PROPN	-	35	flat	Comisión	PROPN	-	34
+Comisión	Comisión	Comisión	PROPN		34	obj	marcado	ADJ	Gender=Masc Number=Plur VerbForm=Part	31
+Europea	Europea	Europea	PROPN		35	flat	Comisión	PROPN		34
 <g/>
 </name>
 .	.	.	PUNCT	PunctType=Peri	36	punct	hacer	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	6
@@ -7491,9 +7491,9 @@ Europea	Europea	Europea	PROPN	-	35	flat	Comisión	PROPN	-	34
 Para	Para	para	ADP	AdpType=Prep	1	case	yo	PRON	Case=Acc,Nom Gender=Masc Number=Plur Person=1 PronType=Prs	2
 nosotros	nosotros	yo	PRON	Case=Acc,Nom Gender=Masc Number=Plur Person=1 PronType=Prs	2	obl	importante	ADJ	Number=Sing	5
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	cop	importante	ADJ	Number=Sing	5
-tan	tan	tanto	ADV	-	4	advmod	importante	ADJ	Number=Sing	5
+tan	tan	tanto	ADV		4	advmod	importante	ADJ	Number=Sing	5
 importante	importante	importante	ADJ	Number=Sing	5	root	-	-	-	-
-como	como	como	SCONJ	-	6	mark	anterior	ADJ	Number=Sing	8
+como	como	como	SCONJ		6	mark	anterior	ADJ	Number=Sing	8
 lo	lo	él	PRON	Case=Acc Definite=Def Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	7	det	anterior	ADJ	Number=Sing	8
 anterior	anterior	anterior	ADJ	Number=Sing	8	amod	importante	ADJ	Number=Sing	5
 cumplir	cumplir	cumplir	VERB	VerbForm=Inf	9	csubj	importante	ADJ	Number=Sing	5
@@ -7510,39 +7510,39 @@ del	del	del	ADP	AdpType=Preppron	18	case	empleo	NOUN	Gender=Masc Number=Sing	19
 empleo	empleo	empleo	NOUN	Gender=Masc Number=Sing	19	nmod	mantenimiento	NOUN	Gender=Masc Number=Sing	17
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	20	punct	convencido	ADJ	Gender=Masc Number=Plur VerbForm=Part	24
-y	y	y	CCONJ	-	21	cc	convencido	ADJ	Gender=Masc Number=Plur VerbForm=Part	24
+y	y	y	CCONJ		21	cc	convencido	ADJ	Gender=Masc Number=Plur VerbForm=Part	24
 estamos	estamos	estar	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	22	cop	convencido	ADJ	Gender=Masc Number=Plur VerbForm=Part	24
-absolutamente	absolutamente	absolutamente	ADV	-	23	advmod	convencido	ADJ	Gender=Masc Number=Plur VerbForm=Part	24
+absolutamente	absolutamente	absolutamente	ADV		23	advmod	convencido	ADJ	Gender=Masc Number=Plur VerbForm=Part	24
 convencidos	convencidos	convencido	ADJ	Gender=Masc Number=Plur VerbForm=Part	24	conj	importante	ADJ	Number=Sing	5
 de	de	de	ADP	AdpType=Prep	25	mark	viable	ADJ	Number=Sing	30
-que	que	que	SCONJ	-	26	mark	viable	ADJ	Number=Sing	30
+que	que	que	SCONJ		26	mark	viable	ADJ	Number=Sing	30
 eso	eso	ese	PRON	Number=Sing PronType=Dem	27	nsubj	viable	ADJ	Number=Sing	30
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	28	cop	viable	ADJ	Number=Sing	30
-perfectamente	perfectamente	perfectamente	ADV	-	29	advmod	viable	ADJ	Number=Sing	30
+perfectamente	perfectamente	perfectamente	ADV		29	advmod	viable	ADJ	Number=Sing	30
 viable	viable	viable	ADJ	Number=Sing	30	ccomp	convencido	ADJ	Gender=Masc Number=Plur VerbForm=Part	24
 con	con	con	ADP	AdpType=Prep	31	case	propuesta	NOUN	Gender=Fem Number=Sing	33
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	32	det	propuesta	NOUN	Gender=Fem Number=Sing	33
 propuesta	propuesta	propuesta	NOUN	Gender=Fem Number=Sing	33	nmod	viable	ADJ	Number=Sing	30
 que	que	que	PRON	PronType=Int,Rel	34	obj	formulado	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	38
-el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	35	det	Gobierno	PROPN	-	36
+el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	35	det	Gobierno	PROPN		36
 <name type="ORG">
-Gobierno	Gobierno	Gobierno	PROPN	-	36	nsubj	formulado	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	38
+Gobierno	Gobierno	Gobierno	PROPN		36	nsubj	formulado	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	38
 </name>
 ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	37	aux	formulado	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	38
 formulado	formulado	formulado	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	38	acl	propuesta	NOUN	Gender=Fem Number=Sing	33
-y	y	y	CCONJ	-	39	cc	conjunto	NOUN	Gender=Masc Number=Sing	42
+y	y	y	CCONJ		39	cc	conjunto	NOUN	Gender=Masc Number=Sing	42
 con	con	con	ADP	AdpType=Prep	40	case	conjunto	NOUN	Gender=Masc Number=Sing	42
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	41	det	conjunto	NOUN	Gender=Masc Number=Sing	42
 conjunto	conjunto	conjunto	NOUN	Gender=Masc Number=Sing	42	conj	propuesta	NOUN	Gender=Fem Number=Sing	33
 de	de	de	ADP	AdpType=Prep	43	case	ayuda	NOUN	Gender=Fem Number=Plur	44
 ayudas	ayudas	ayuda	NOUN	Gender=Fem Number=Plur	44	nmod	conjunto	NOUN	Gender=Masc Number=Sing	42
 que	que	que	PRON	PronType=Int,Rel	45	nsubj	poner	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	53
-desde	desde	desde	ADP	AdpType=Prep	46	case	Ministerio	PROPN	-	48
-el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	47	det	Ministerio	PROPN	-	48
+desde	desde	desde	ADP	AdpType=Prep	46	case	Ministerio	PROPN		48
+el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	47	det	Ministerio	PROPN		48
 <name type="ORG">
-Ministerio	Ministerio	Ministerio	PROPN	-	48	obl	poner	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	53
-de	de	de	ADP	AdpType=Prep	49	case	Empleo	PROPN	-	50
-Empleo	Empleo	Empleo	PROPN	-	50	flat	Ministerio	PROPN	-	48
+Ministerio	Ministerio	Ministerio	PROPN		48	obl	poner	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	53
+de	de	de	ADP	AdpType=Prep	49	case	Empleo	PROPN		50
+Empleo	Empleo	Empleo	PROPN		50	flat	Ministerio	PROPN		48
 </name>
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	51	expl:pass	poner	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	53
 han	han	haber	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	52	aux	poner	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	53
@@ -7551,10 +7551,10 @@ encima	encima	encima	ADV	AdpType=Prep	54	advmod	poner	VERB	Gender=Masc Number=Si
 de	de	de	ADP	AdpType=Prep	55	case	mesa	NOUN	Gender=Fem Number=Sing	57
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	56	det	mesa	NOUN	Gender=Fem Number=Sing	57
 mesa	mesa	mesa	NOUN	Gender=Fem Number=Sing	57	obl	poner	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	53
-y	y	y	CCONJ	-	58	cc	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin	60
+y	y	y	CCONJ		58	cc	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin	60
 que	que	que	PRON	PronType=Int,Rel	59	nsubj	articular	VERB	Gender=Fem Number=Plur Tense=Past VerbForm=Part	63
 tendrán	tendrán	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin	60	conj	poner	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	53
-que	que	que	SCONJ	-	61	cc	articular	VERB	Gender=Fem Number=Plur Tense=Past VerbForm=Part	63
+que	que	que	SCONJ		61	cc	articular	VERB	Gender=Fem Number=Plur Tense=Past VerbForm=Part	63
 ser	ser	ser	AUX	VerbForm=Inf	62	aux	articular	VERB	Gender=Fem Number=Plur Tense=Past VerbForm=Part	63
 articuladas	articuladas	articular	VERB	Gender=Fem Number=Plur Tense=Past VerbForm=Part	63	conj	tener	VERB	Mood=Ind Number=Plur Person=3 Tense=Fut VerbForm=Fin	60
 todas	todas	todo	DET	Gender=Fem Number=Plur PronType=Tot	64	det	él	PRON	Case=Acc,Nom Gender=Fem Number=Plur Person=3 PronType=Prs	65
@@ -7564,16 +7564,16 @@ el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	67	det	rango	NOUN
 rango	rango	rango	NOUN	Gender=Masc Number=Sing	68	obl	articular	VERB	Gender=Fem Number=Plur Tense=Past VerbForm=Part	63
 que	que	que	PRON	PronType=Int,Rel	69	obj	tener	VERB	VerbForm=Inf	72
 tengan	tengan	tener	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	70	acl	rango	NOUN	Gender=Masc Number=Sing	68
-que	que	que	SCONJ	-	71	cc	tener	VERB	VerbForm=Inf	72
+que	que	que	SCONJ		71	cc	tener	VERB	VerbForm=Inf	72
 tener	tener	tener	VERB	VerbForm=Inf	72	conj	tener	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	70
-a	a	a	ADP	AdpType=Prep	73	case	Ministerio	PROPN	-	77
-través	través	través	NOUN	-	74	fixed	a	ADP	AdpType=Prep	73
+a	a	a	ADP	AdpType=Prep	73	case	Ministerio	PROPN		77
+través	través	través	NOUN		74	fixed	a	ADP	AdpType=Prep	73
 del	del	del	ADP	AdpType=Preppron	75	fixed	a	ADP	AdpType=Prep	73
-propio	propio	propio	DET	Gender=Masc Number=Sing PronType=Ind	76	det	Ministerio	PROPN	-	77
+propio	propio	propio	DET	Gender=Masc Number=Sing PronType=Ind	76	det	Ministerio	PROPN		77
 <name type="ORG">
-Ministerio	Ministerio	Ministerio	PROPN	-	77	obl	tener	VERB	VerbForm=Inf	72
-de	de	de	ADP	AdpType=Prep	78	case	Empleo	PROPN	-	79
-Empleo	Empleo	Empleo	PROPN	-	79	flat	Ministerio	PROPN	-	77
+Ministerio	Ministerio	Ministerio	PROPN		77	obl	tener	VERB	VerbForm=Inf	72
+de	de	de	ADP	AdpType=Prep	78	case	Empleo	PROPN		79
+Empleo	Empleo	Empleo	PROPN		79	flat	Ministerio	PROPN		77
 <g/>
 </name>
 .	.	.	PUNCT	PunctType=Peri	80	punct	importante	ADJ	Number=Sing	5
@@ -7581,14 +7581,14 @@ Empleo	Empleo	Empleo	PROPN	-	79	flat	Ministerio	PROPN	-	77
 </p>
 <p id="ParlaMint-ES_2017-03-16-CD170316.u2.23" lang="Spanish">
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.23.1">
-Ayer	Ayer	ayer	ADV	-	1	advmod	finalizar	VERB	Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin	8
+Ayer	Ayer	ayer	ADV		1	advmod	finalizar	VERB	Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin	8
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	2	punct	finalizar	VERB	Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin	8
-y	y	y	CCONJ	-	3	cc	finalizar	VERB	Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin	8
-ya	ya	ya	ADV	-	4	advmod	finalizar	VERB	Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin	8
-con	con	con	ADP	AdpType=Prep	5	case	ya	ADV	-	4
-ello	ello	él	PRON	Case=Acc,Nom Gender=Masc Number=Sing Person=3 PronType=Prs	6	nmod	ya	ADV	-	4
-sí	sí	sí	INTJ	-	7	advcl	finalizar	VERB	Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin	8
+y	y	y	CCONJ		3	cc	finalizar	VERB	Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin	8
+ya	ya	ya	ADV		4	advmod	finalizar	VERB	Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin	8
+con	con	con	ADP	AdpType=Prep	5	case	ya	ADV		4
+ello	ello	él	PRON	Case=Acc,Nom Gender=Masc Number=Sing Person=3 PronType=Prs	6	nmod	ya	ADV		4
+sí	sí	sí	INTJ		7	advcl	finalizar	VERB	Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin	8
 finalizo	finalizo	finalizar	VERB	Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin	8	root	-	-	-	-
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	9	punct	finalizar	VERB	Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin	8
@@ -7617,14 +7617,14 @@ acceso	acceso	acceso	NOUN	Gender=Masc Number=Sing	28	obj	tener	VERB	Mood=Ind Num
 al	al	al	ADP	AdpType=Preppron	29	case	mercado	NOUN	Gender=Masc Number=Sing	30
 mercado	mercado	mercado	NOUN	Gender=Masc Number=Sing	30	nmod	acceso	NOUN	Gender=Masc Number=Sing	28
 laboral	laboral	laboral	ADJ	Number=Sing	31	amod	mercado	NOUN	Gender=Masc Number=Sing	30
-y	y	y	CCONJ	-	32	cc	igualdad	NOUN	Gender=Fem Number=Sing	34
+y	y	y	CCONJ		32	cc	igualdad	NOUN	Gender=Fem Number=Sing	34
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	33	det	igualdad	NOUN	Gender=Fem Number=Sing	34
 igualdad	igualdad	igualdad	NOUN	Gender=Fem Number=Sing	34	conj	reforma	NOUN	Gender=Fem Number=Plur	16
 de	de	de	ADP	AdpType=Prep	35	case	oportunidad	NOUN	Gender=Fem Number=Plur	36
 oportunidades	oportunidades	oportunidad	NOUN	Gender=Fem Number=Plur	36	nmod	igualdad	NOUN	Gender=Fem Number=Sing	34
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	37	punct	necesidad	NOUN	Gender=Fem Number=Sing	42
-pero	pero	pero	CCONJ	-	38	cc	necesidad	NOUN	Gender=Fem Number=Sing	42
+pero	pero	pero	CCONJ		38	cc	necesidad	NOUN	Gender=Fem Number=Sing	42
 estamos	estamos	estar	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	39	cop	necesidad	NOUN	Gender=Fem Number=Sing	42
 ante	ante	ante	ADP	AdpType=Prep	40	case	necesidad	NOUN	Gender=Fem Number=Sing	42
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	41	det	necesidad	NOUN	Gender=Fem Number=Sing	42
@@ -7633,7 +7633,7 @@ de	de	de	ADP	AdpType=Prep	43	mark	cumplir	VERB	VerbForm=Inf	44
 cumplir	cumplir	cumplir	VERB	VerbForm=Inf	44	acl	necesidad	NOUN	Gender=Fem Number=Sing	42
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	45	det	sentencia	NOUN	Gender=Fem Number=Sing	46
 sentencia	sentencia	sentencia	NOUN	Gender=Fem Number=Sing	46	obj	cumplir	VERB	VerbForm=Inf	44
-y	y	y	CCONJ	-	47	cc	compromiso	NOUN	Gender=Masc Number=Sing	50
+y	y	y	CCONJ		47	cc	compromiso	NOUN	Gender=Masc Number=Sing	50
 con	con	con	ADP	AdpType=Prep	48	case	compromiso	NOUN	Gender=Masc Number=Sing	50
 un	un	uno	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	49	det	compromiso	NOUN	Gender=Masc Number=Sing	50
 compromiso	compromiso	compromiso	NOUN	Gender=Masc Number=Sing	50	conj	sentencia	NOUN	Gender=Fem Number=Sing	46
@@ -7642,8 +7642,8 @@ el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	52	det	mantenimie
 mantenimiento	mantenimiento	mantenimiento	NOUN	Gender=Masc Number=Sing	53	nmod	compromiso	NOUN	Gender=Masc Number=Sing	50
 del	del	del	ADP	AdpType=Preppron	54	case	empleo	NOUN	Gender=Masc Number=Sing	55
 empleo	empleo	empleo	NOUN	Gender=Masc Number=Sing	55	nmod	mantenimiento	NOUN	Gender=Masc Number=Sing	53
-como	como	como	SCONJ	-	56	mark	haber	AUX	Gender=Masc Number=Sing Tense=Past VerbForm=Part	60
-probablemente	probablemente	probablemente	ADV	-	57	advmod	haber	AUX	Gender=Masc Number=Sing Tense=Past VerbForm=Part	60
+como	como	como	SCONJ		56	mark	haber	AUX	Gender=Masc Number=Sing Tense=Past VerbForm=Part	60
+probablemente	probablemente	probablemente	ADV		57	advmod	haber	AUX	Gender=Masc Number=Sing Tense=Past VerbForm=Part	60
 no	no	no	ADV	Polarity=Neg	58	advmod	haber	AUX	Gender=Masc Number=Sing Tense=Past VerbForm=Part	60
 ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	59	aux	haber	AUX	Gender=Masc Number=Sing Tense=Past VerbForm=Part	60
 habido	habido	haber	AUX	Gender=Masc Number=Sing Tense=Past VerbForm=Part	60	advcl	cumplir	VERB	VerbForm=Inf	44
@@ -7672,12 +7672,12 @@ país	país	país	NOUN	Gender=Masc Number=Sing	78	nmod	economía	NOUN	Gender=Fem
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.23.2">
 Por	Por	por	ADP	AdpType=Prep	1	advmod	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	10
-tanto	tanto	tanto	NOUN	-	2	fixed	por	ADP	AdpType=Prep	1
+tanto	tanto	tanto	NOUN		2	fixed	por	ADP	AdpType=Prep	1
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	3	punct	por	ADP	AdpType=Prep	1
 decir	decir	decir	VERB	VerbForm=Inf	4	csubj	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	10
-hoy	hoy	hoy	ADV	-	5	advmod	decir	VERB	VerbForm=Inf	4
-sí	sí	sí	INTJ	-	6	advcl	decir	VERB	VerbForm=Inf	4
+hoy	hoy	hoy	ADV		5	advmod	decir	VERB	VerbForm=Inf	4
+sí	sí	sí	INTJ		6	advcl	decir	VERB	VerbForm=Inf	4
 a	a	a	ADP	AdpType=Prep	7	case	convalidación	NOUN	Gender=Fem Number=Sing	9
 esa	esa	ese	DET	Gender=Fem Number=Sing PronType=Dem	8	det	convalidación	NOUN	Gender=Fem Number=Sing	9
 convalidación	convalidación	convalidación	NOUN	Gender=Fem Number=Sing	9	obj	decir	VERB	VerbForm=Inf	4
@@ -7686,21 +7686,21 @@ cumplir	cumplir	cumplir	VERB	VerbForm=Inf	11	ccomp	ser	AUX	Mood=Ind Number=Sing 
 con	con	con	ADP	AdpType=Prep	12	case	obligación	NOUN	Gender=Fem Number=Sing	14
 nuestra	nuestra	nuestro	DET	Gender=Fem Number=Sing Number[psor]=Plur Person=1 Poss=Yes PronType=Prs	13	det	obligación	NOUN	Gender=Fem Number=Sing	14
 obligación	obligación	obligación	NOUN	Gender=Fem Number=Sing	14	obj	cumplir	VERB	VerbForm=Inf	11
-como	como	como	SCONJ	-	15	mark	país	NOUN	Gender=Masc Number=Sing	16
+como	como	como	SCONJ		15	mark	país	NOUN	Gender=Masc Number=Sing	16
 país	país	país	NOUN	Gender=Masc Number=Sing	16	nmod	obligación	NOUN	Gender=Fem Number=Sing	14
-y	y	y	CCONJ	-	17	cc	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	18
+y	y	y	CCONJ		17	cc	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	18
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	18	conj	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	10
 evitar	evitar	evitar	VERB	VerbForm=Inf	19	ccomp	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	18
-que	que	que	SCONJ	-	20	mark	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	22
+que	que	que	SCONJ		20	mark	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	22
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	21	expl:pv	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	22
 produzca	produzca	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	22	ccomp	evitar	VERB	VerbForm=Inf	19
 una	una	uno	DET	Definite=Ind Gender=Fem Number=Sing PronType=Art	23	det	multa	NOUN	Gender=Fem Number=Sing	24
 multa	multa	multa	NOUN	Gender=Fem Number=Sing	24	nsubj	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	22
-muy	muy	mucho	ADV	-	25	advmod	importante	ADJ	Number=Sing	26
+muy	muy	mucho	ADV		25	advmod	importante	ADJ	Number=Sing	26
 importante	importante	importante	ADJ	Number=Sing	26	amod	multa	NOUN	Gender=Fem Number=Sing	24
 que	que	que	PRON	PronType=Int,Rel	27	obj	pagar	VERB	VerbForm=Inf	30
 tendrá	tendrá	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	28	acl	multa	NOUN	Gender=Fem Number=Sing	24
-que	que	que	SCONJ	-	29	cc	pagar	VERB	VerbForm=Inf	30
+que	que	que	SCONJ		29	cc	pagar	VERB	VerbForm=Inf	30
 pagar	pagar	pagar	VERB	VerbForm=Inf	30	conj	tener	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	28
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	31	det	conjunto	NOUN	Gender=Masc Number=Sing	32
 conjunto	conjunto	conjunto	NOUN	Gender=Masc Number=Sing	32	obj	pagar	VERB	VerbForm=Inf	30
@@ -7715,27 +7715,27 @@ bolsillo	bolsillo	bolsillo	NOUN	Gender=Masc Number=Sing	38	nmod	español	NOUN	Ge
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.23.3">
 Por	Por	por	ADP	AdpType=Prep	1	advmod	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
-supuesto	supuesto	supuesto	NOUN	-	2	fixed	por	ADP	AdpType=Prep	1
+supuesto	supuesto	supuesto	NOUN		2	fixed	por	ADP	AdpType=Prep	1
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	root	-	-	-	-
 favorecer	favorecer	favorecer	VERB	VerbForm=Inf	4	ccomp	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
-que	que	que	SCONJ	-	5	mark	contratar	VERB	VerbForm=Inf	11
+que	que	que	SCONJ		5	mark	contratar	VERB	VerbForm=Inf	11
 nuestras	nuestras	nuestro	DET	Gender=Fem Number=Plur Number[psor]=Plur Person=1 Poss=Yes PronType=Prs	6	det	empresa	NOUN	Gender=Fem Number=Plur	7
 empresas	empresas	empresa	NOUN	Gender=Fem Number=Plur	7	nsubj	contratar	VERB	VerbForm=Inf	11
-en	en	en	ADP	AdpType=Prep	8	case	España	PROPN	-	9
+en	en	en	ADP	AdpType=Prep	8	case	España	PROPN		9
 <name type="LOC">
-España	España	España	PROPN	-	9	nmod	empresa	NOUN	Gender=Fem Number=Plur	7
+España	España	España	PROPN		9	nmod	empresa	NOUN	Gender=Fem Number=Plur	7
 </name>
 puedan	puedan	poder	AUX	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	10	aux	contratar	VERB	VerbForm=Inf	11
 contratar	contratar	contratar	VERB	VerbForm=Inf	11	xcomp	favorecer	VERB	VerbForm=Inf	4
-libremente	libremente	libremente	ADV	-	12	advmod	contratar	VERB	VerbForm=Inf	11
+libremente	libremente	libremente	ADV		12	advmod	contratar	VERB	VerbForm=Inf	11
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	13	punct	significar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	34
-porque	porque	porque	SCONJ	-	14	mark	significar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	34
+porque	porque	porque	SCONJ		14	mark	significar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	34
 votar	votar	votar	VERB	VerbForm=Inf	15	advcl	significar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	34
 no	no	no	ADV	Polarity=Neg	16	advmod	votar	VERB	VerbForm=Inf	15
-y	y	y	CCONJ	-	17	cc	evitar	VERB	VerbForm=Inf	18
+y	y	y	CCONJ		17	cc	evitar	VERB	VerbForm=Inf	18
 evitar	evitar	evitar	VERB	VerbForm=Inf	18	conj	votar	VERB	VerbForm=Inf	15
-que	que	que	SCONJ	-	19	mark	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	21
+que	que	que	SCONJ		19	mark	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	21
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	20	expl:pv	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	21
 produzca	produzca	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	21	ccomp	evitar	VERB	VerbForm=Inf	18
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	22	det	ruptura	NOUN	Gender=Fem Number=Sing	23
@@ -7763,11 +7763,11 @@ contratar	contratar	contratar	VERB	VerbForm=Inf	43	advcl	mantener	VERB	VerbForm=
 con	con	con	ADP	AdpType=Prep	44	case	libertad	NOUN	Gender=Fem Number=Sing	45
 libertad	libertad	libertad	NOUN	Gender=Fem Number=Sing	45	obl	contratar	VERB	VerbForm=Inf	43
 <g/>
-,	,	,	PUNCT	PunctType=Comm	46	punct	también	ADV	-	48
-y	y	y	CCONJ	-	47	cc	también	ADV	-	48
-también	también	también	ADV	-	48	conj	significar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	34
+,	,	,	PUNCT	PunctType=Comm	46	punct	también	ADV		48
+y	y	y	CCONJ		47	cc	también	ADV		48
+también	también	también	ADV		48	conj	significar	VERB	Mood=Cnd Number=Sing Person=3 VerbForm=Fin	34
 para	para	para	ADP	AdpType=Prep	49	mark	tener	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	59
-que	que	que	SCONJ	-	50	mark	tener	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	59
+que	que	que	SCONJ		50	mark	tener	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	59
 otras	otras	otro	DET	Gender=Fem Number=Plur PronType=Ind	51	det	persona	NOUN	Gender=Fem Number=Plur	52
 personas	personas	persona	NOUN	Gender=Fem Number=Plur	52	nsubj	tener	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	59
 que	que	que	PRON	PronType=Int,Rel	53	nsubj	situación	NOUN	Gender=Fem Number=Sing	56
@@ -7776,7 +7776,7 @@ en	en	en	ADP	AdpType=Prep	55	case	situación	NOUN	Gender=Fem Number=Sing	56
 situación	situación	situación	NOUN	Gender=Fem Number=Sing	56	acl	persona	NOUN	Gender=Fem Number=Plur	52
 de	de	de	ADP	AdpType=Prep	57	case	desempleo	NOUN	Gender=Masc Number=Sing	58
 desempleo	desempleo	desempleo	NOUN	Gender=Masc Number=Sing	58	nmod	situación	NOUN	Gender=Fem Number=Sing	56
-tengan	tengan	tener	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	59	acl	también	ADV	-	48
+tengan	tengan	tener	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	59	acl	también	ADV		48
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	60	det	oportunidad	NOUN	Gender=Fem Number=Sing	61
 oportunidad	oportunidad	oportunidad	NOUN	Gender=Fem Number=Sing	61	obj	tener	VERB	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	59
 de	de	de	ADP	AdpType=Prep	62	mark	acceder	VERB	VerbForm=Inf	64
@@ -7785,8 +7785,8 @@ acceder	acceder	acceder	VERB	VerbForm=Inf	64	acl	oportunidad	NOUN	Gender=Fem Num
 a	a	a	ADP	AdpType=Prep	65	case	trabajo	NOUN	Gender=Masc Number=Sing	67
 ese	ese	ese	DET	Gender=Masc Number=Sing PronType=Dem	66	det	trabajo	NOUN	Gender=Masc Number=Sing	67
 trabajo	trabajo	trabajo	NOUN	Gender=Masc Number=Sing	67	obj	acceder	VERB	VerbForm=Inf	64
-y	y	y	CCONJ	-	68	cc	mantener	VERB	VerbForm=Inf	72
-que	que	que	SCONJ	-	69	mark	mantener	VERB	VerbForm=Inf	72
+y	y	y	CCONJ		68	cc	mantener	VERB	VerbForm=Inf	72
+que	que	que	SCONJ		69	mark	mantener	VERB	VerbForm=Inf	72
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	70	expl:pass	mantener	VERB	VerbForm=Inf	72
 puedan	puedan	poder	AUX	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin	71	aux	mantener	VERB	VerbForm=Inf	72
 mantener	mantener	mantener	VERB	VerbForm=Inf	72	conj	acceder	VERB	VerbForm=Inf	64
@@ -7797,11 +7797,11 @@ laborales	laborales	laboral	ADJ	Number=Plur	75	amod	condición	NOUN	Gender=Fem N
 .	.	.	PUNCT	PunctType=Peri	76	punct	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.23.4">
-Ahora	Ahora	ahora	ADV	-	1	advmod	hablar	VERB	VerbForm=Ger	38
-bien	bien	bien	ADV	-	2	fixed	ahora	ADV	-	1
+Ahora	Ahora	ahora	ADV		1	advmod	hablar	VERB	VerbForm=Ger	38
+bien	bien	bien	ADV		2	fixed	ahora	ADV		1
 <g/>
-,	,	,	PUNCT	PunctType=Comm	3	punct	ahora	ADV	-	1
-si	si	si	SCONJ	-	4	mark	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	10
+,	,	,	PUNCT	PunctType=Comm	3	punct	ahora	ADV		1
+si	si	si	SCONJ		4	mark	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	10
 de	de	de	ADP	AdpType=Prep	5	mark	hablar	VERB	VerbForm=Ger	9
 lo	lo	él	PRON	Case=Acc Definite=Def Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	6	det	hablar	VERB	VerbForm=Ger	9
 que	que	que	PRON	PronType=Int,Rel	7	nsubj	hablar	VERB	VerbForm=Ger	9
@@ -7824,8 +7824,8 @@ de	de	de	ADP	AdpType=Prep	23	case	monopolio	NOUN	Gender=Masc Number=Sing	24
 monopolio	monopolio	monopolio	NOUN	Gender=Masc Number=Sing	24	nmod	situación	NOUN	Gender=Fem Number=Sing	22
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	25	punct	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	30
-pero	pero	pero	CCONJ	-	26	cc	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	30
-que	que	que	SCONJ	-	27	mark	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	30
+pero	pero	pero	CCONJ		26	cc	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	30
+que	que	que	SCONJ		27	mark	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	30
 no	no	no	ADV	Polarity=Neg	28	advmod	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	30
 son	son	ser	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	29	cop	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	30
 las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	30	det	hablar	VERB	VerbForm=Ger	38
@@ -7835,7 +7835,7 @@ del	del	del	ADP	AdpType=Preppron	33	case	empleo	NOUN	Gender=Masc Number=Sing	34
 empleo	empleo	empleo	NOUN	Gender=Masc Number=Sing	34	nmod	mantenimiento	NOUN	Gender=Masc Number=Sing	32
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	35	punct	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	10
-entonces	entonces	entonces	ADV	-	36	advmod	hablar	VERB	VerbForm=Ger	38
+entonces	entonces	entonces	ADV		36	advmod	hablar	VERB	VerbForm=Ger	38
 estamos	estamos	estar	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	37	aux	hablar	VERB	VerbForm=Ger	38
 hablando	hablando	hablar	VERB	VerbForm=Ger	38	root	-	-	-	-
 de	de	de	ADP	AdpType=Prep	39	case	cosa	NOUN	Gender=Fem Number=Sing	41
@@ -7846,9 +7846,9 @@ distinta	distinta	distinto	ADJ	Gender=Fem Number=Sing	42	amod	cosa	NOUN	Gender=F
 .	.	.	PUNCT	PunctType=Peri	43	punct	hablar	VERB	VerbForm=Ger	38
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.23.5">
-El	El	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	1	det	Gobierno	PROPN	-	2
+El	El	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	1	det	Gobierno	PROPN		2
 <name type="ORG">
-Gobierno	Gobierno	Gobierno	PROPN	-	2	nsubj	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	12
+Gobierno	Gobierno	Gobierno	PROPN		2	nsubj	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	12
 </name>
 lo	lo	él	PRON	Case=Acc Definite=Def Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	3	det	hacer	VERB	VerbForm=Ger	6
 que	que	que	PRON	PronType=Int,Rel	4	nsubj	hacer	VERB	VerbForm=Ger	6
@@ -7873,23 +7873,23 @@ a	a	a	ADP	AdpType=Prep	20	case	encuentro	NOUN	Gender=Masc Number=Plur	27
 más	más	más	ADV	Degree=Cmp	21	advmod	veinte	NUM	NumType=Card Number=Plur	23
 de	de	de	ADP	AdpType=Prep	22	case	más	ADV	Degree=Cmp	21
 veinte	veinte	veinte	NUM	NumType=Card Number=Plur	23	nummod	encuentro	NOUN	Gender=Masc Number=Plur	27
-o	o	o	CCONJ	-	24	cc	treinta	NUM	NumType=Card Number=Plur	25
+o	o	o	CCONJ		24	cc	treinta	NUM	NumType=Card Number=Plur	25
 treinta	treinta	treinta	NUM	NumType=Card Number=Plur	25	conj	veinte	NUM	NumType=Card Number=Plur	23
 diferentes	diferentes	diferente	DET	Number=Plur PronType=Ind	26	conj	más	ADV	Degree=Cmp	21
 encuentros	encuentros	encuentro	NOUN	Gender=Masc Number=Plur	27	obj	dar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	18
-con	con	con	ADP	AdpType=Prep	28	case	Comisión	PROPN	-	30
-la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	29	det	Comisión	PROPN	-	30
+con	con	con	ADP	AdpType=Prep	28	case	Comisión	PROPN		30
+la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	29	det	Comisión	PROPN		30
 <name type="ORG">
-Comisión	Comisión	Comisión	PROPN	-	30	nmod	encuentro	NOUN	Gender=Masc Number=Plur	27
-Europea	Europea	Europea	PROPN	-	31	flat	Comisión	PROPN	-	30
+Comisión	Comisión	Comisión	PROPN		30	nmod	encuentro	NOUN	Gender=Masc Number=Plur	27
+Europea	Europea	Europea	PROPN		31	flat	Comisión	PROPN		30
 </name>
-y	y	y	CCONJ	-	32	cc	cumplir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	34
+y	y	y	CCONJ		32	cc	cumplir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	34
 que	que	que	PRON	PronType=Int,Rel	33	nsubj	cumplir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	34
 cumple	cumple	cumplir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	34	conj	dar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	18
 con	con	con	ADP	AdpType=Prep	35	case	sentencia	NOUN	Gender=Fem Number=Sing	37
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	36	det	sentencia	NOUN	Gender=Fem Number=Sing	37
 sentencia	sentencia	sentencia	NOUN	Gender=Fem Number=Sing	37	obj	cumplir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	34
-y	y	y	CCONJ	-	38	cc	hacer	VERB	VerbForm=Inf	41
+y	y	y	CCONJ		38	cc	hacer	VERB	VerbForm=Inf	41
 que	que	que	PRON	PronType=Int,Rel	39	nsubj	hacer	VERB	VerbForm=Inf	41
 debemos	debemos	deber	AUX	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	40	aux	hacer	VERB	VerbForm=Inf	41
 hacer	hacer	hacer	VERB	VerbForm=Inf	41	conj	cumplir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	34
@@ -7899,10 +7899,10 @@ con	con	con	ADP	AdpType=Prep	43	case	urgencia	NOUN	Gender=Fem Number=Sing	44
 urgencia	urgencia	urgencia	NOUN	Gender=Fem Number=Sing	44	obl	hacer	VERB	VerbForm=Inf	41
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	45	punct	ofrecer	VERB	VerbForm=Inf	51
-y	y	y	CCONJ	-	46	cc	ofrecer	VERB	VerbForm=Inf	51
+y	y	y	CCONJ		46	cc	ofrecer	VERB	VerbForm=Inf	51
 por	por	por	ADP	AdpType=Prep	47	advmod	ofrecer	VERB	VerbForm=Inf	51
-otro	otro	otro	ADJ	-	48	fixed	por	ADP	AdpType=Prep	47
-lado	lado	lado	NOUN	-	49	fixed	por	ADP	AdpType=Prep	47
+otro	otro	otro	ADJ		48	fixed	por	ADP	AdpType=Prep	47
+lado	lado	lado	NOUN		49	fixed	por	ADP	AdpType=Prep	47
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	50	punct	por	ADP	AdpType=Prep	47
 ofrecer	ofrecer	ofrecer	VERB	VerbForm=Inf	51	conj	hacer	VERB	VerbForm=Inf	41
@@ -7918,13 +7918,13 @@ da	da	dar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	60	acl	empl
 tranquilidad	tranquilidad	tranquilidad	NOUN	Gender=Fem Number=Sing	61	obj	dar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	60
 al	al	al	ADP	AdpType=Preppron	62	case	sector	NOUN	Gender=Masc Number=Sing	63
 sector	sector	sector	NOUN	Gender=Masc Number=Sing	63	obj	dar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	60
-y	y	y	CCONJ	-	64	cc	conseguir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	66
+y	y	y	CCONJ		64	cc	conseguir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	66
 que	que	que	PRON	PronType=Int,Rel	65	nsubj	conseguir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	66
 consigue	consigue	conseguir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	66	conj	ofrecer	VERB	VerbForm=Inf	51
 mantener	mantener	mantener	VERB	VerbForm=Inf	67	xcomp	conseguir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	66
 un	un	uno	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	68	det	proceso	NOUN	Gender=Masc Number=Sing	69
 proceso	proceso	proceso	NOUN	Gender=Masc Number=Sing	69	obj	mantener	VERB	VerbForm=Inf	67
-y	y	y	CCONJ	-	70	cc	proyecto	NOUN	Gender=Masc Number=Sing	72
+y	y	y	CCONJ		70	cc	proyecto	NOUN	Gender=Masc Number=Sing	72
 un	un	uno	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	71	det	proyecto	NOUN	Gender=Masc Number=Sing	72
 proyecto	proyecto	proyecto	NOUN	Gender=Masc Number=Sing	72	conj	proceso	NOUN	Gender=Masc Number=Sing	69
 de	de	de	ADP	AdpType=Prep	73	case	reestructuración	NOUN	Gender=Fem Number=Sing	74
@@ -7937,7 +7937,7 @@ garantías	garantías	garantía	NOUN	Gender=Fem Number=Plur	78	nmod	proyecto	NOU
 .	.	.	PUNCT	PunctType=Peri	79	punct	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	12
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.23.6">
-Si	Si	si	SCONJ	-	1	mark	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	10
+Si	Si	si	SCONJ		1	mark	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	10
 de	de	de	ADP	AdpType=Prep	2	mark	tratar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
 lo	lo	él	PRON	Case=Acc Definite=Def Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	3	det	tratar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
 que	que	que	PRON	PronType=Int,Rel	4	nsubj	tratar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
@@ -7960,11 +7960,11 @@ a	a	a	ADP	AdpType=Prep	18	case	situación	NOUN	Gender=Fem Number=Sing	20
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	19	det	situación	NOUN	Gender=Fem Number=Sing	20
 situación	situación	situación	NOUN	Gender=Fem Number=Sing	20	obj	asociado	ADJ	Gender=Fem Number=Plur VerbForm=Part	17
 actual	actual	actual	ADJ	Number=Sing	21	amod	situación	NOUN	Gender=Fem Number=Sing	20
-entonces	entonces	entonces	ADV	-	22	advmod	estar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	27
-evidentemente	evidentemente	evidentemente	ADV	-	23	advmod	estar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	27
-el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	24	det	Gobierno	PROPN	-	25
+entonces	entonces	entonces	ADV		22	advmod	estar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	27
+evidentemente	evidentemente	evidentemente	ADV		23	advmod	estar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	27
+el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	24	det	Gobierno	PROPN		25
 <name type="ORG">
-Gobierno	Gobierno	Gobierno	PROPN	-	25	nsubj	estar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	27
+Gobierno	Gobierno	Gobierno	PROPN		25	nsubj	estar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	27
 </name>
 no	no	no	ADV	Polarity=Neg	26	advmod	estar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	27
 está	está	estar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	27	root	-	-	-	-
@@ -7993,11 +7993,11 @@ que	que	que	PRON	PronType=Int,Rel	11	nsubj	ser	AUX	Mood=Ind Number=Plur Person=3
 no	no	no	ADV	Polarity=Neg	12	advmod	treinta	NUM	NumType=Card Number=Plur	14
 son	son	ser	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	13	cop	año	NOUN	Gender=Masc Number=Plur	21
 treinta	treinta	treinta	NUM	NumType=Card Number=Plur	14	acl	diputado	NOUN	Gender=Masc Number=Plur	9
-y	y	y	CCONJ	-	15	compound	siete	NUM	NumType=Card Number=Plur	16
+y	y	y	CCONJ		15	compound	siete	NUM	NumType=Card Number=Plur	16
 siete	siete	siete	NUM	NumType=Card Number=Plur	16	conj	treinta	NUM	NumType=Card Number=Plur	14
-o	o	o	CCONJ	-	17	cc	treinta	NUM	NumType=Card Number=Plur	18
+o	o	o	CCONJ		17	cc	treinta	NUM	NumType=Card Number=Plur	18
 treinta	treinta	treinta	NUM	NumType=Card Number=Plur	18	conj	treinta	NUM	NumType=Card Number=Plur	14
-y	y	y	CCONJ	-	19	cc	nueve	NUM	NumType=Card Number=Plur	20
+y	y	y	CCONJ		19	cc	nueve	NUM	NumType=Card Number=Plur	20
 nueve	nueve	nueve	NUM	NumType=Card Number=Plur	20	conj	treinta	NUM	NumType=Card Number=Plur	18
 años	años	año	NOUN	Gender=Masc Number=Plur	21	conj	treinta	NUM	NumType=Card Number=Plur	14
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	22	det	transcurrir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	25
@@ -8005,7 +8005,7 @@ que	que	que	PRON	PronType=Int,Rel	23	nsubj	transcurrir	VERB	Gender=Masc Number=S
 han	han	haber	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	24	aux	transcurrir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	25
 transcurrido	transcurrido	transcurrir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	25	acl	año	NOUN	Gender=Masc Number=Plur	21
 desde	desde	desde	ADP	AdpType=Prep	26	mark	aprobar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	30
-que	que	que	SCONJ	-	27	mark	aprobar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	30
+que	que	que	SCONJ		27	mark	aprobar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	30
 no	no	no	ADV	Polarity=Neg	28	advmod	aprobar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	30
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	29	expl:pass	aprobar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	30
 aprobara	aprobara	aprobar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	30	advcl	transcurrir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	25
@@ -8014,7 +8014,7 @@ real	real	real	ADJ	Number=Sing	32	amod	decreto-ley	NOUN	Gender=Masc Number=Sing	
 decreto-ley	decreto-ley	decreto-ley	NOUN	Gender=Masc Number=Sing	33	nsubj	aprobar	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	30
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	34	punct	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	39
-y	y	y	CCONJ	-	35	cc	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	39
+y	y	y	CCONJ		35	cc	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	39
 que	que	que	PRON	PronType=Int,Rel	36	nsubj	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	39
 en	en	en	ADP	AdpType=Prep	37	case	2006	NOUN	AdvType=Tim	38
 2006	2006	2006	NOUN	AdvType=Tim	38	obl	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin	39
@@ -8035,25 +8035,25 @@ decreto-ley	decreto-ley	decreto-ley	NOUN	Gender=Masc Number=Sing	49	nmod	convali
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.23.8">
 No	No	no	ADV	Polarity=Neg	1	advmod	saber	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	2
 sé	sé	saber	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	2	root	-	-	-	-
-si	si	si	SCONJ	-	3	mark	así	ADV	-	6
-esto	esto	este	PRON	Number=Sing PronType=Dem	4	nsubj	así	ADV	-	6
-es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5	cop	así	ADV	-	6
-así	así	así	ADV	-	6	ccomp	saber	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	2
-o	o	o	CCONJ	-	7	cc	así	ADV	-	10
-no	no	no	ADV	Polarity=Neg	8	advmod	así	ADV	-	10
-es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	9	cop	así	ADV	-	10
-así	así	así	ADV	-	10	conj	así	ADV	-	6
+si	si	si	SCONJ		3	mark	así	ADV		6
+esto	esto	este	PRON	Number=Sing PronType=Dem	4	nsubj	así	ADV		6
+es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5	cop	así	ADV		6
+así	así	así	ADV		6	ccomp	saber	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	2
+o	o	o	CCONJ		7	cc	así	ADV		10
+no	no	no	ADV	Polarity=Neg	8	advmod	así	ADV		10
+es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	9	cop	así	ADV		10
+así	así	así	ADV		10	conj	así	ADV		6
 <g/>
 .	.	.	PUNCT	PunctType=Peri	11	punct	saber	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	2
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.23.9">
 No	No	no	ADV	Polarity=Neg	1	advmod	recordar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	2
 recuerdo	recuerdo	recordar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	2	root	-	-	-	-
-si	si	si	SCONJ	-	3	mark	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	6
+si	si	si	SCONJ		3	mark	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	6
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	4	expl:pv	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	6
 ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5	aux	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	6
 producido	producido	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	6	ccomp	recordar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	2
-o	o	o	CCONJ	-	7	cc	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	11
+o	o	o	CCONJ		7	cc	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	11
 no	no	no	ADV	Polarity=Neg	8	advmod	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	11
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	9	expl:pv	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	11
 ha	ha	haber	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	10	aux	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	11
@@ -8064,7 +8064,7 @@ producido	producido	producir	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Pa
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.23.10">
 Confío	Confío	confiar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 en	en	en	ADP	AdpType=Prep	2	mark	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
-que	que	que	SCONJ	-	3	mark	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
+que	que	que	SCONJ		3	mark	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
 no	no	no	ADV	Polarity=Neg	4	advmod	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	5	expl:pv	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
 produzca	produzca	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin	6	ccomp	confiar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
@@ -8073,27 +8073,27 @@ produzca	produzca	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbFor
 </s>
 <s id="ParlaMint-ES_2017-03-16-CD170316.u2.23.11">
 En	En	en	ADP	AdpType=Prep	1	advmod	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	10
-fin	fin	fin	NOUN	-	2	fixed	en	ADP	AdpType=Prep	1
+fin	fin	fin	NOUN		2	fixed	en	ADP	AdpType=Prep	1
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	3	punct	en	ADP	AdpType=Prep	1
 nosotros	nosotros	yo	PRON	Case=Acc,Nom Gender=Masc Number=Plur Person=1 PronType=Prs	4	nsubj	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	10
 lo	lo	él	PRON	Case=Acc Definite=Def Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	5	det	tener	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	8
 que	que	que	PRON	PronType=Int,Rel	6	nsubj	tener	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	8
-sí	sí	sí	INTJ	-	7	advcl	tener	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	8
+sí	sí	sí	INTJ		7	advcl	tener	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	8
 tenemos	tenemos	tener	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	8	csubj	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	10
 claro	claro	claro	ADJ	Gender=Masc Number=Sing	9	obj	tener	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	8
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	10	root	-	-	-	-
-que	que	que	SCONJ	-	11	mark	agradable	ADJ	Number=Sing	24
+que	que	que	SCONJ		11	mark	agradable	ADJ	Number=Sing	24
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	12	punct	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	17
-aunque	aunque	aunque	SCONJ	-	13	mark	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	17
+aunque	aunque	aunque	SCONJ		13	mark	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	17
 ese	ese	ese	DET	Gender=Masc Number=Sing PronType=Dem	14	det	hecho	NOUN	Gender=Masc Number=Sing	15
 hecho	hecho	hecho	NOUN	Gender=Masc Number=Sing	15	nsubj	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	17
 se	se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	16	expl:pv	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	17
 produjera	produjera	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	17	advcl	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	21
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	18	punct	producir	VERB	Mood=Sub Number=Sing Person=3 Tense=Imp VerbForm=Fin	17
-y	y	y	CCONJ	-	19	cc	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	21
+y	y	y	CCONJ		19	cc	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	21
 no	no	no	ADV	Polarity=Neg	20	advmod	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	21
 es	es	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	21	conj	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	10
 lo	lo	él	PRON	Case=Acc Definite=Def Gender=Masc Number=Sing Person=3 PrepCase=Npr PronType=Prs	22	det	agradable	ADJ	Number=Sing	24
@@ -8109,7 +8109,7 @@ uno	uno	uno	PRON	Gender=Masc Number=Sing PronType=Ind	30	obl	suceder	VERB	VerbFo
 ,	,	,	PUNCT	PunctType=Comm	31	punct	acabar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	35
 sobre	sobre	sobre	ADP	AdpType=Prep	32	advmod	acabar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	35
 todo	todo	todo	PRON	Gender=Masc Number=Sing PronType=Tot	33	fixed	sobre	ADP	AdpType=Prep	32
-cuando	cuando	cuando	SCONJ	-	34	fixed	sobre	ADP	AdpType=Prep	32
+cuando	cuando	cuando	SCONJ		34	fixed	sobre	ADP	AdpType=Prep	32
 acaba	acaba	acabar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	35	advcl	suceder	VERB	VerbForm=Inf	28
 de	de	de	ADP	AdpType=Prep	36	mark	empezar	VERB	VerbForm=Inf	37
 empezar	empezar	empezar	VERB	VerbForm=Inf	37	xcomp	acabar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	35
@@ -8124,45 +8124,45 @@ legislatura	legislatura	legislatura	NOUN	Gender=Fem Number=Sing	39	obj	empezar	V
 <note type="-" content="Rumores"/>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-ES_2017-03-16-CD170316.u111" text_id="ParlaMint-ES_2017-03-16-CD170316" subcorpus="Reference" house="Lower house" term="12" session="37" meeting="-" sitting="-" agenda="-" from="2017-03-16" to="2017-03-16" title="Plenary session 37 (2017-03-16)" speaker_role="Chairman">
+<speech id="ParlaMint-ES_2017-03-16-CD170316.u111" text_id="ParlaMint-ES_2017-03-16-CD170316" subcorpus="Reference" house="Lower house" term="12" session="37" meeting="" sitting="" agenda="" from="2017-03-16" to="2017-03-16" title="Plenary session 37 (2017-03-16)" speaker_role="" speaker_id="" speaker_name="" speaker_type="" speaker_party="" speaker_party_name="" party_status="" speaker_gender="" speaker_birth="">
 <p id="ParlaMint-ES_2017-03-16-CD170316.u111.1" lang="Spanish">
 <s id="ParlaMint-ES_2017-03-16-CD170316.u111.1.1">
 Pasamos	Pasamos	pasar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 a	a	a	ADP	AdpType=Prep	2	advmod	pasar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
-continuación	continuación	continuación	NOUN	-	3	fixed	a	ADP	AdpType=Prep	2
+continuación	continuación	continuación	NOUN		3	fixed	a	ADP	AdpType=Prep	2
 a	a	a	ADP	AdpType=Prep	4	mark	votar	VERB	VerbForm=Inf	5
 votar	votar	votar	VERB	VerbForm=Inf	5	advcl	pasar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
 el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	6	det	dictamen	NOUN	Gender=Masc Number=Sing	7
 dictamen	dictamen	dictamen	NOUN	Gender=Masc Number=Sing	7	obj	votar	VERB	VerbForm=Inf	5
-de	de	de	ADP	AdpType=Prep	8	case	Comisión	PROPN	-	10
-la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	9	det	Comisión	PROPN	-	10
+de	de	de	ADP	AdpType=Prep	8	case	Comisión	PROPN		10
+la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	9	det	Comisión	PROPN		10
 <name type="ORG">
-Comisión	Comisión	Comisión	PROPN	-	10	nmod	dictamen	NOUN	Gender=Masc Number=Sing	7
-Mixta	Mixta	Mixta	PROPN	-	11	flat	Comisión	PROPN	-	10
-para	para	para	ADP	AdpType=Prep	12	case	Relaciones	PROPN	-	14
-las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	13	det	Relaciones	PROPN	-	14
-Relaciones	Relaciones	Relaciones	PROPN	-	14	flat	Comisión	PROPN	-	10
-con	con	con	ADP	AdpType=Prep	15	case	Tribunal	PROPN	-	17
-el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	16	det	Tribunal	PROPN	-	17
-Tribunal	Tribunal	Tribunal	PROPN	-	17	flat	Comisión	PROPN	-	10
-de	de	de	ADP	AdpType=Prep	18	case	Cuentas	PROPN	-	19
-Cuentas	Cuentas	Cuentas	PROPN	-	19	flat	Tribunal	PROPN	-	17
+Comisión	Comisión	Comisión	PROPN		10	nmod	dictamen	NOUN	Gender=Masc Number=Sing	7
+Mixta	Mixta	Mixta	PROPN		11	flat	Comisión	PROPN		10
+para	para	para	ADP	AdpType=Prep	12	case	Relaciones	PROPN		14
+las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	13	det	Relaciones	PROPN		14
+Relaciones	Relaciones	Relaciones	PROPN		14	flat	Comisión	PROPN		10
+con	con	con	ADP	AdpType=Prep	15	case	Tribunal	PROPN		17
+el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	16	det	Tribunal	PROPN		17
+Tribunal	Tribunal	Tribunal	PROPN		17	flat	Comisión	PROPN		10
+de	de	de	ADP	AdpType=Prep	18	case	Cuentas	PROPN		19
+Cuentas	Cuentas	Cuentas	PROPN		19	flat	Tribunal	PROPN		17
 </name>
-en	en	en	ADP	AdpType=Prep	20	case	ahora	ADV	-	23
-relación	relación	relación	NOUN	-	21	fixed	en	ADP	AdpType=Prep	20
+en	en	en	ADP	AdpType=Prep	20	case	ahora	ADV		23
+relación	relación	relación	NOUN		21	fixed	en	ADP	AdpType=Prep	20
 <g/>
-,	,	,	PUNCT	PunctType=Comm	22	punct	ahora	ADV	-	23
-ahora	ahora	ahora	ADV	-	23	advmod	votar	VERB	VerbForm=Inf	5
-con	con	con	ADP	AdpType=Prep	24	case	ahora	ADV	-	23
+,	,	,	PUNCT	PunctType=Comm	22	punct	ahora	ADV		23
+ahora	ahora	ahora	ADV		23	advmod	votar	VERB	VerbForm=Inf	5
+con	con	con	ADP	AdpType=Prep	24	case	ahora	ADV		23
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	25	det	declaración	NOUN	Gender=Fem Number=Sing	26
-declaración	declaración	declaración	NOUN	Gender=Fem Number=Sing	26	nmod	ahora	ADV	-	23
+declaración	declaración	declaración	NOUN	Gender=Fem Number=Sing	26	nmod	ahora	ADV		23
 sobre	sobre	sobre	ADP	AdpType=Prep	27	case	cuenta	NOUN	Gender=Fem Number=Sing	29
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	28	det	cuenta	NOUN	Gender=Fem Number=Sing	29
 cuenta	cuenta	cuenta	NOUN	Gender=Fem Number=Sing	29	nmod	declaración	NOUN	Gender=Fem Number=Sing	26
 general	general	general	ADJ	Number=Sing	30	amod	cuenta	NOUN	Gender=Fem Number=Sing	29
-del	del	del	ADP	AdpType=Preppron	31	case	Estado	PROPN	-	32
+del	del	del	ADP	AdpType=Preppron	31	case	Estado	PROPN		32
 <name type="ORG">
-Estado	Estado	Estado	PROPN	-	32	nmod	cuenta	NOUN	Gender=Fem Number=Sing	29
+Estado	Estado	Estado	PROPN		32	nmod	cuenta	NOUN	Gender=Fem Number=Sing	29
 </name>
 correspondiente	correspondiente	correspondiente	ADJ	Number=Sing	33	amod	cuenta	NOUN	Gender=Fem Number=Sing	29
 al	al	al	ADP	AdpType=Preppron	34	case	ejercicio	NOUN	Gender=Masc Number=Sing	35
@@ -8170,15 +8170,15 @@ ejercicio	ejercicio	ejercicio	NOUN	Gender=Masc Number=Sing	35	nmod	correspondien
 2014	2014	2014	NUM	NumForm=Digit NumType=Card	36	appos	ejercicio	NOUN	Gender=Masc Number=Sing	35
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	37	punct	resolución	NOUN	Gender=Fem Number=Sing	41
-así	así	así	ADV	-	38	cc	resolución	NOUN	Gender=Fem Number=Sing	41
-como	como	como	SCONJ	-	39	fixed	así	ADV	-	38
+así	así	así	ADV		38	cc	resolución	NOUN	Gender=Fem Number=Sing	41
+como	como	como	SCONJ		39	fixed	así	ADV		38
 la	la	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	40	det	resolución	NOUN	Gender=Fem Number=Sing	41
 resolución	resolución	resolución	NOUN	Gender=Fem Number=Sing	41	conj	declaración	NOUN	Gender=Fem Number=Sing	26
 adoptada	adoptada	adoptado	ADJ	Gender=Fem Number=Sing VerbForm=Part	42	amod	resolución	NOUN	Gender=Fem Number=Sing	41
-por	por	por	ADP	AdpType=Prep	43	case	Comisión	PROPN	-	45
-dicha	dicha	dicho	ADJ	Gender=Fem Number=Sing VerbForm=Part	44	amod	Comisión	PROPN	-	45
+por	por	por	ADP	AdpType=Prep	43	case	Comisión	PROPN		45
+dicha	dicha	dicho	ADJ	Gender=Fem Number=Sing VerbForm=Part	44	amod	Comisión	PROPN		45
 <name type="ORG">
-Comisión	Comisión	Comisión	PROPN	-	45	obj	adoptado	ADJ	Gender=Fem Number=Sing VerbForm=Part	42
+Comisión	Comisión	Comisión	PROPN		45	obj	adoptado	ADJ	Gender=Fem Number=Sing VerbForm=Part	42
 <g/>
 </name>
 .	.	.	PUNCT	PunctType=Peri	46	punct	pasar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
@@ -8220,7 +8220,7 @@ telemáticos	telemáticos	telemático	ADJ	Gender=Masc Number=Plur	17	amod	voto	N
 <g/>
 ;	;	;	PUNCT	PunctType=Semi	20	punct	voto	NOUN	Gender=Masc Number=Plur	10
 a	a	a	ADP	AdpType=Prep	21	advmod	345	NUM	NumForm=Digit NumType=Card	24
-favor	favor	favor	NOUN	-	22	fixed	a	ADP	AdpType=Prep	21
+favor	favor	favor	NOUN		22	fixed	a	ADP	AdpType=Prep	21
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	23	punct	a	ADP	AdpType=Prep	21
 345	345	345	NUM	NumForm=Digit NumType=Card	24	conj	voto	NOUN	Gender=Masc Number=Plur	10
@@ -8240,7 +8240,7 @@ abstenciones	abstenciones	abstención	NOUN	Gender=Fem Number=Plur	32	conj	voto	N
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-ES_2017-03-16-CD170316.u112" text_id="ParlaMint-ES_2017-03-16-CD170316" subcorpus="Reference" house="Lower house" term="12" session="37" meeting="-" sitting="-" agenda="-" from="2017-03-16" to="2017-03-16" title="Plenary session 37 (2017-03-16)" speaker_role="Chairman">
+<speech id="ParlaMint-ES_2017-03-16-CD170316.u112" text_id="ParlaMint-ES_2017-03-16-CD170316" subcorpus="Reference" house="Lower house" term="12" session="37" meeting="" sitting="" agenda="" from="2017-03-16" to="2017-03-16" title="Plenary session 37 (2017-03-16)" speaker_role="" speaker_id="" speaker_name="" speaker_type="" speaker_party="" speaker_party_name="" party_status="" speaker_gender="" speaker_birth="">
 <p id="ParlaMint-ES_2017-03-16-CD170316.u112.1" lang="Spanish">
 <s id="ParlaMint-ES_2017-03-16-CD170316.u112.1.1">
 Queda	Queda	quedar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1	root	-	-	-	-

@@ -1,5 +1,5 @@
 <note type="head" content="PREGUNTAS - DEL DIPUTADO DON ALBERTO GARZÓN ESPINOSA, DEL GRUPO PARLAMENTARIO DE IU, ICV-EUiA, CHA: LA IZQUIERDA PLURAL, QUE FORMULA AL SEÑOR PRESIDENTE DEL GOBIERNO: ¿CUÁNDO TIENE PREVISTO RESTITUIR A TODOS LOS CIUDADANOS Y CIUDADANAS LOS DERECHOS QUE, DE CONFORMIDAD CON EL ARTÍCULO 41 DE LA CONSTITUCIÓN, TENÍAN ANTES DE LAS REFORMAS INICIADAS CON EL RDL 20/2012, DE 13 DE JULIO?"/>
-<speech id="ParlaMint-ES_2015-01-21-CD150121.u1" text_id="ParlaMint-ES_2015-01-21-CD150121" subcorpus="Reference" house="Lower house" term="10" session="238" meeting="-" sitting="-" agenda="-" from="2015-01-21" to="2015-01-21" title="Plenary session 238 (2015-01-21)" speaker_role="Chairman">
+<speech id="ParlaMint-ES_2015-01-21-CD150121.u1" text_id="ParlaMint-ES_2015-01-21-CD150121" subcorpus="Reference" house="Lower house" term="10" session="238" meeting="" sitting="" agenda="" from="2015-01-21" to="2015-01-21" title="Plenary session 238 (2015-01-21)" speaker_role="" speaker_id="" speaker_name="" speaker_type="" speaker_party="" speaker_party_name="" party_status="" speaker_gender="" speaker_birth="">
 <p id="ParlaMint-ES_2015-01-21-CD150121.u1.1" lang="Spanish">
 <s id="ParlaMint-ES_2015-01-21-CD150121.u1.1.1">
 Se	Se	él	PRON	Case=Acc Person=3 PrepCase=Npr PronType=Prs Reflex=Yes	1	expl:pass	reanudar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
@@ -14,18 +14,18 @@ sesión	sesión	sesión	NOUN	Gender=Fem Number=Sing	4	nsubj	reanudar	VERB	Mood=I
 <s id="ParlaMint-ES_2015-01-21-CD150121.u1.2.1">
 Preguntas	Preguntas	pregunta	NOUN	Gender=Fem Number=Plur	1	root	-	-	-	-
 dirigidas	dirigidas	dirigido	ADJ	Gender=Fem Number=Plur VerbForm=Part	2	amod	pregunta	NOUN	Gender=Fem Number=Plur	1
-al	al	al	ADP	AdpType=Preppron	3	case	Gobierno	PROPN	-	4
+al	al	al	ADP	AdpType=Preppron	3	case	Gobierno	PROPN		4
 <name type="ORG">
-Gobierno	Gobierno	Gobierno	PROPN	-	4	obj	dirigido	ADJ	Gender=Fem Number=Plur VerbForm=Part	2
+Gobierno	Gobierno	Gobierno	PROPN		4	obj	dirigido	ADJ	Gender=Fem Number=Plur VerbForm=Part	2
 </name>
-y	y	y	CCONJ	-	5	cc	concretamente	ADV	-	6
-concretamente	concretamente	concretamente	ADV	-	6	conj	dirigido	ADJ	Gender=Fem Number=Plur VerbForm=Part	2
-al	al	al	ADP	AdpType=Preppron	7	case	concretamente	ADV	-	6
-señor	señor	señor	NOUN	Gender=Masc Number=Sing	8	nmod	concretamente	ADV	-	6
-presidente	presidente	presidente	NOUN	Gender=Masc Number=Sing	9	nmod	concretamente	ADV	-	6
-del	del	del	ADP	AdpType=Preppron	10	case	Gobierno	PROPN	-	11
+y	y	y	CCONJ		5	cc	concretamente	ADV		6
+concretamente	concretamente	concretamente	ADV		6	conj	dirigido	ADJ	Gender=Fem Number=Plur VerbForm=Part	2
+al	al	al	ADP	AdpType=Preppron	7	case	concretamente	ADV		6
+señor	señor	señor	NOUN	Gender=Masc Number=Sing	8	nmod	concretamente	ADV		6
+presidente	presidente	presidente	NOUN	Gender=Masc Number=Sing	9	nmod	concretamente	ADV		6
+del	del	del	ADP	AdpType=Preppron	10	case	Gobierno	PROPN		11
 <name type="ORG">
-Gobierno	Gobierno	Gobierno	PROPN	-	11	nmod	presidente	NOUN	Gender=Masc Number=Sing	9
+Gobierno	Gobierno	Gobierno	PROPN		11	nmod	presidente	NOUN	Gender=Masc Number=Sing	9
 <g/>
 </name>
 .	.	.	PUNCT	PunctType=Peri	12	punct	pregunta	NOUN	Gender=Fem Number=Plur	1
@@ -37,7 +37,7 @@ silencio	silencio	silencio	NOUN	Gender=Masc Number=Sing	2	obj	rugar	VERB	Mood=In
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	3	punct	por	ADP	AdpType=Prep	4
 por	por	por	ADP	AdpType=Prep	4	advmod	rugar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
-favor	favor	favor	NOUN	-	5	fixed	por	ADP	AdpType=Prep	4
+favor	favor	favor	NOUN		5	fixed	por	ADP	AdpType=Prep	4
 <g/>
 .	.	.	PUNCT	PunctType=Peri	6	punct	rugar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 </s>
@@ -49,26 +49,26 @@ del	del	del	ADP	AdpType=Preppron	2	case	diputado	NOUN	Gender=Masc Number=Sing	3
 diputado	diputado	diputado	NOUN	Gender=Masc Number=Sing	3	nmod	pregunta	NOUN	Gender=Fem Number=Sing	1
 don	don	don	NOUN	Gender=Masc Number=Sing	4	appos	diputado	NOUN	Gender=Masc Number=Sing	3
 <name type="PER">
-Alberto	Alberto	Alberto	PROPN	-	5	appos	diputado	NOUN	Gender=Masc Number=Sing	3
-Garzón	Garzón	Garzón	PROPN	-	6	flat	Alberto	PROPN	-	5
+Alberto	Alberto	Alberto	PROPN		5	appos	diputado	NOUN	Gender=Masc Number=Sing	3
+Garzón	Garzón	Garzón	PROPN		6	flat	Alberto	PROPN		5
 <g/>
 </name>
-,	,	,	PUNCT	PunctType=Comm	7	punct	Grupo	PROPN	-	9
-del	del	del	ADP	AdpType=Preppron	8	case	Grupo	PROPN	-	9
+,	,	,	PUNCT	PunctType=Comm	7	punct	Grupo	PROPN		9
+del	del	del	ADP	AdpType=Preppron	8	case	Grupo	PROPN		9
 <name type="ORG">
-Grupo	Grupo	Grupo	PROPN	-	9	nmod	diputado	NOUN	Gender=Masc Number=Sing	3
-Parlamentario	Parlamentario	Parlamentario	PROPN	-	10	flat	Grupo	PROPN	-	9
-de	de	de	ADP	AdpType=Prep	11	case	Izquierda	PROPN	-	13
-La	La	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	12	det	Izquierda	PROPN	-	13
-Izquierda	Izquierda	Izquierda	PROPN	-	13	flat	Grupo	PROPN	-	9
-Plural	Plural	Plural	PROPN	-	14	flat	Grupo	PROPN	-	9
+Grupo	Grupo	Grupo	PROPN		9	nmod	diputado	NOUN	Gender=Masc Number=Sing	3
+Parlamentario	Parlamentario	Parlamentario	PROPN		10	flat	Grupo	PROPN		9
+de	de	de	ADP	AdpType=Prep	11	case	Izquierda	PROPN		13
+La	La	el	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	12	det	Izquierda	PROPN		13
+Izquierda	Izquierda	Izquierda	PROPN		13	flat	Grupo	PROPN		9
+Plural	Plural	Plural	PROPN		14	flat	Grupo	PROPN		9
 <g/>
 </name>
 .	.	.	PUNCT	PunctType=Peri	15	punct	pregunta	NOUN	Gender=Fem Number=Sing	1
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-ES_2015-01-21-CD150121.u2" text_id="ParlaMint-ES_2015-01-21-CD150121" subcorpus="Reference" house="Lower house" term="10" session="238" meeting="-" sitting="-" agenda="-" from="2015-01-21" to="2015-01-21" title="Plenary session 238 (2015-01-21)" speaker_role="Regular" speaker_id="GarzónAlberto" speaker_name="Garzón Espinosa, Alberto" speaker_type="MP" speaker_party="IZQ-PLU" speaker_party_name="Izquierda Plural" party_status="opposition" speaker_gender="M" speaker_birth="1985">
+<speech id="ParlaMint-ES_2015-01-21-CD150121.u2" text_id="ParlaMint-ES_2015-01-21-CD150121" subcorpus="Reference" house="Lower house" term="10" session="238" meeting="" sitting="" agenda="" from="2015-01-21" to="2015-01-21" title="Plenary session 238 (2015-01-21)" speaker_role="Regular" speaker_id="GarzónAlberto" speaker_name="Garzón Espinosa, Alberto" speaker_type="MP" speaker_party="IZQ-PLU" speaker_party_name="Izquierda Plural" party_status="Opposition" speaker_gender="M" speaker_birth="1985">
 <p id="ParlaMint-ES_2015-01-21-CD150121.u2.1" lang="Spanish">
 <s id="ParlaMint-ES_2015-01-21-CD150121.u2.1.1">
 Señor	Señor	señor	NOUN	Gender=Masc Number=Sing	1	nsubj	devolver	VERB	VerbForm=Inf	9
@@ -85,27 +85,27 @@ devolver	devolver	devolver	VERB	VerbForm=Inf	9	root	-	-	-	-
 los	los	el	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	10	det	derecho	NOUN	Gender=Masc Number=Plur	11
 derechos	derechos	derecho	NOUN	Gender=Masc Number=Plur	11	nsubj	devolver	VERB	VerbForm=Inf	9
 recortados	recortados	recortado	ADJ	Gender=Masc Number=Plur VerbForm=Part	12	amod	derecho	NOUN	Gender=Masc Number=Plur	11
-en	en	en	ADP	AdpType=Prep	13	case	Decreto	PROPN	-	15
-el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	14	det	Decreto	PROPN	-	15
+en	en	en	ADP	AdpType=Prep	13	case	Decreto	PROPN		15
+el	el	el	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	14	det	Decreto	PROPN		15
 <name type="MISC">
-Decreto	Decreto	Decreto	PROPN	-	15	obl	recortado	ADJ	Gender=Masc Number=Plur VerbForm=Part	12
-20	20	20	NUM	NumForm=Digit NumType=Card	16	nummod	Decreto	PROPN	-	15
+Decreto	Decreto	Decreto	PROPN		15	obl	recortado	ADJ	Gender=Masc Number=Plur VerbForm=Part	12
+20	20	20	NUM	NumForm=Digit NumType=Card	16	nummod	Decreto	PROPN		15
 </name>
 de	de	de	ADP	AdpType=Prep	17	case	2012	NOUN	AdvType=Tim	18
-2012	2012	2012	NOUN	AdvType=Tim	18	nmod	Decreto	PROPN	-	15
+2012	2012	2012	NOUN	AdvType=Tim	18	nmod	Decreto	PROPN		15
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	19	punct	13	NUM	NumForm=Digit NumType=Card	21
 de	de	de	ADP	AdpType=Prep	20	case	13	NUM	NumForm=Digit NumType=Card	21
-13	13	13	NUM	NumForm=Digit NumType=Card	21	nmod	Decreto	PROPN	-	15
-de	de	de	ADP	AdpType=Prep	22	case	julio	NOUN	-	23
-julio	julio	julio	NOUN	-	23	compound	13	NUM	NumForm=Digit NumType=Card	21
+13	13	13	NUM	NumForm=Digit NumType=Card	21	nmod	Decreto	PROPN		15
+de	de	de	ADP	AdpType=Prep	22	case	julio	NOUN		23
+julio	julio	julio	NOUN		23	compound	13	NUM	NumForm=Digit NumType=Card	21
 <g/>
 ?	?	?	PUNCT	PunctSide=Fin PunctType=Qest	24	punct	devolver	VERB	VerbForm=Inf	9
 </s>
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-ES_2015-01-21-CD150121.u335" text_id="ParlaMint-ES_2015-01-21-CD150121" subcorpus="Reference" house="Lower house" term="10" session="238" meeting="-" sitting="-" agenda="-" from="2015-01-21" to="2015-01-21" title="Plenary session 238 (2015-01-21)" speaker_role="Chairman">
+<speech id="ParlaMint-ES_2015-01-21-CD150121.u335" text_id="ParlaMint-ES_2015-01-21-CD150121" subcorpus="Reference" house="Lower house" term="10" session="238" meeting="" sitting="" agenda="" from="2015-01-21" to="2015-01-21" title="Plenary session 238 (2015-01-21)" speaker_role="" speaker_id="" speaker_name="" speaker_type="" speaker_party="" speaker_party_name="" party_status="" speaker_gender="" speaker_birth="">
 <p id="ParlaMint-ES_2015-01-21-CD150121.u335.1" lang="Spanish">
 <s id="ParlaMint-ES_2015-01-21-CD150121.u335.1.1">
 Votación	Votación	votación	NOUN	Gender=Fem Number=Sing	1	root	-	-	-	-
@@ -176,7 +176,7 @@ telemáticos	telemáticos	telemático	ADJ	Gender=Masc Number=Plur	17	amod	voto	N
 <g/>
 ;	;	;	PUNCT	PunctType=Semi	20	punct	voto	NOUN	Gender=Masc Number=Plur	10
 a	a	a	ADP	AdpType=Prep	21	advmod	203	NUM	NumForm=Digit NumType=Card	24
-favor	favor	favor	NOUN	-	22	fixed	a	ADP	AdpType=Prep	21
+favor	favor	favor	NOUN		22	fixed	a	ADP	AdpType=Prep	21
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	23	punct	a	ADP	AdpType=Prep	21
 203	203	203	NUM	NumForm=Digit NumType=Card	24	appos	voto	NOUN	Gender=Masc Number=Plur	10
@@ -190,7 +190,7 @@ telemáticos	telemáticos	telemático	ADJ	Gender=Masc Number=Plur	28	amod	voto	N
 <g/>
 ;	;	;	PUNCT	PunctType=Semi	31	punct	voto	NOUN	Gender=Masc Number=Plur	27
 en	en	en	ADP	AdpType=Prep	32	advmod	26	NUM	NumForm=Digit NumType=Card	35
-contra	contra	contra	NOUN	-	33	fixed	en	ADP	AdpType=Prep	32
+contra	contra	contra	NOUN		33	fixed	en	ADP	AdpType=Prep	32
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	34	punct	en	ADP	AdpType=Prep	32
 26	26	26	NUM	NumForm=Digit NumType=Card	35	appos	voto	NOUN	Gender=Masc Number=Plur	10
@@ -212,7 +212,7 @@ telemáticos	telemáticos	telemático	ADJ	Gender=Masc Number=Plur	43	amod	voto	N
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-ES_2015-01-21-CD150121.u336" text_id="ParlaMint-ES_2015-01-21-CD150121" subcorpus="Reference" house="Lower house" term="10" session="238" meeting="-" sitting="-" agenda="-" from="2015-01-21" to="2015-01-21" title="Plenary session 238 (2015-01-21)" speaker_role="Chairman">
+<speech id="ParlaMint-ES_2015-01-21-CD150121.u336" text_id="ParlaMint-ES_2015-01-21-CD150121" subcorpus="Reference" house="Lower house" term="10" session="238" meeting="" sitting="" agenda="" from="2015-01-21" to="2015-01-21" title="Plenary session 238 (2015-01-21)" speaker_role="" speaker_id="" speaker_name="" speaker_type="" speaker_party="" speaker_party_name="" party_status="" speaker_gender="" speaker_birth="">
 <p id="ParlaMint-ES_2015-01-21-CD150121.u336.1" lang="Spanish">
 <s id="ParlaMint-ES_2015-01-21-CD150121.u336.1.1">
 Queda	Queda	quedar	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
@@ -236,7 +236,7 @@ sesión	sesión	sesión	NOUN	Gender=Fem Number=Sing	4	nsubj	levantar	VERB	Mood=I
 Eran	Eran	ser	AUX	Mood=Ind Number=Plur Person=3 Tense=Imp VerbForm=Fin	1	cop	minuto	NOUN	Gender=Masc Number=Plur	6
 las	las	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	2	det	minuto	NOUN	Gender=Masc Number=Plur	6
 tres	tres	tres	NUM	NumType=Card Number=Plur	3	nummod	minuto	NOUN	Gender=Masc Number=Plur	6
-y	y	y	CCONJ	-	4	cc	quince	NUM	NumType=Card Number=Plur	5
+y	y	y	CCONJ		4	cc	quince	NUM	NumType=Card Number=Plur	5
 quince	quince	quince	NUM	NumType=Card Number=Plur	5	conj	el	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	2
 minutos	minutos	minuto	NOUN	Gender=Masc Number=Plur	6	root	-	-	-	-
 de	de	de	ADP	AdpType=Prep	7	case	tarde	NOUN	Gender=Fem Number=Sing	9

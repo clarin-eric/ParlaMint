@@ -3,22 +3,22 @@
 <note type="head" content="Sejo so vodili predsednik Državnega zbora dr. Milan Brglez ter podpredsednika Primož Hainz in Matjaž Nemec."/>
 <note type="time" content="Seja se je začela ob 9. uri."/>
 <note type="speaker" content="PREDSEDNIK DR. MILAN BRGLEZ:"/>
-<speech id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.u1" text_id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20" subcorpus="Reference" house="Lower house" term="7" session="-" meeting="20" sitting="-" agenda="-" from="2016-06-21" to="2016-06-21" title="Minutes of the National Assembly of the Republic of Slovenia, Term 7, Regular Session 20, 21.6.2016" speaker_role="Chairperson" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka modernega centra" party_status="-" speaker_gender="M" speaker_birth="1967">
+<speech id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.u1" text_id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20" subcorpus="Reference" house="Lower house" term="7" session="" meeting="20" sitting="" agenda="" from="2016-06-21" to="2016-06-21" title="Minutes of the National Assembly of the Republic of Slovenia, Term 7, Regular Session 20, 21.6.2016" speaker_role="Chairperson" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka modernega centra" party_status="" speaker_gender="M" speaker_birth="1967">
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg1" lang="Slovenian">
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg1.1">
 Spoštovani	Spoštovani	spoštovan	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Plur VerbForm=Part	1	amod	kolegica	NOUN	Case=Nom Gender=Fem Number=Plur	2
 kolegice	kolegice	kolegica	NOUN	Case=Nom Gender=Fem Number=Plur	2	root	-	-	-	-
 poslanke	poslanke	poslanka	NOUN	Case=Gen Gender=Fem Number=Plur	3	nmod	kolegica	NOUN	Case=Nom Gender=Fem Number=Plur	2
-in	in	in	CCONJ	-	4	cc	kolega	NOUN	Case=Nom Gender=Masc Number=Plur	5
+in	in	in	CCONJ		4	cc	kolega	NOUN	Case=Nom Gender=Masc Number=Plur	5
 kolegi	kolegi	kolega	NOUN	Case=Nom Gender=Masc Number=Plur	5	conj	kolegica	NOUN	Case=Nom Gender=Fem Number=Plur	2
 poslanci	poslanci	poslanec	NOUN	Case=Nom Gender=Masc Number=Plur	6	nmod	kolega	NOUN	Case=Nom Gender=Masc Number=Plur	5
 <g/>
-,	,	,	PUNCT	-	7	punct	gospa	NOUN	Case=Nom Gender=Fem Number=Plur	8
+,	,	,	PUNCT		7	punct	gospa	NOUN	Case=Nom Gender=Fem Number=Plur	8
 gospe	gospe	gospa	NOUN	Case=Nom Gender=Fem Number=Plur	8	conj	poslanec	NOUN	Case=Nom Gender=Masc Number=Plur	6
-in	in	in	CCONJ	-	9	cc	gospod	NOUN	Case=Nom Gender=Masc Number=Plur	10
+in	in	in	CCONJ		9	cc	gospod	NOUN	Case=Nom Gender=Masc Number=Plur	10
 gospodje	gospodje	gospod	NOUN	Case=Nom Gender=Masc Number=Plur	10	conj	poslanec	NOUN	Case=Nom Gender=Masc Number=Plur	6
 <g/>
-!	!	!	PUNCT	-	11	punct	kolegica	NOUN	Case=Nom Gender=Fem Number=Plur	2
+!	!	!	PUNCT		11	punct	kolegica	NOUN	Case=Nom Gender=Fem Number=Plur	2
 </s>
 </p>
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg2" lang="Slovenian">
@@ -32,7 +32,7 @@ Državnega	Državnega	državen	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Sing	5
 zbora	zbora	zbor	NOUN	Case=Gen Gender=Masc Number=Sing	6	nmod	seja	NOUN	Case=Gen Gender=Fem Number=Sing	4
 <g/>
 </name>
-.	.	.	PUNCT	-	7	punct	začenjati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
+.	.	.	PUNCT		7	punct	začenjati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 </s>
 </p>
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg3" lang="Slovenian">
@@ -40,8 +40,8 @@ zbora	zbora	zbor	NOUN	Case=Gen Gender=Masc Number=Sing	6	nmod	seja	NOUN	Case=Gen
 Obveščen	Obveščen	obveščen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	1	root	-	-	-	-
 sem	sem	biti	AUX	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	2	cop	obveščen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	1
 <g/>
-,	,	,	PUNCT	-	3	punct	moči	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	9
-da	da	da	SCONJ	-	4	mark	moči	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	9
+,	,	,	PUNCT		3	punct	moči	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	9
+da	da	da	SCONJ		4	mark	moči	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	9
 se	se	se	PRON	PronType=Prs Reflex=Yes Variant=Short	5	expl	udeležiti	VERB	Aspect=Perf VerbForm=Inf	10
 današnje	današnje	današnji	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	6	amod	seja	NOUN	Case=Nom Gender=Fem Number=Plur	7
 seje	seje	seja	NOUN	Case=Nom Gender=Fem Number=Plur	7	nsubj	moči	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	9
@@ -50,23 +50,23 @@ morejo	morejo	moči	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres Ver
 udeležiti	udeležiti	udeležiti	VERB	Aspect=Perf VerbForm=Inf	10	xcomp	moči	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	9
 naslednji	naslednji	naslednji	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Dual	11	amod	poslanka	NOUN	Case=Nom Gender=Fem Number=Dual	12
 poslanki	poslanki	poslanka	NOUN	Case=Nom Gender=Fem Number=Dual	12	nsubj	udeležiti	VERB	Aspect=Perf VerbForm=Inf	10
-in	in	in	CCONJ	-	13	cc	poslanec	NOUN	Case=Nom Gender=Masc Number=Plur	14
+in	in	in	CCONJ		13	cc	poslanec	NOUN	Case=Nom Gender=Masc Number=Plur	14
 poslanci	poslanci	poslanec	NOUN	Case=Nom Gender=Masc Number=Plur	14	conj	poslanka	NOUN	Case=Nom Gender=Fem Number=Dual	12
 <g/>
-:	:	:	PUNCT	-	15	punct	Violeta	PROPN	Case=Nom Gender=Fem Number=Sing	16
+:	:	:	PUNCT		15	punct	Violeta	PROPN	Case=Nom Gender=Fem Number=Sing	16
 <name type="PER">
 Violeta	Violeta	Violeta	PROPN	Case=Nom Gender=Fem Number=Sing	16	nmod	poslanka	NOUN	Case=Nom Gender=Fem Number=Dual	12
 Tomić	Tomić	Tomić	PROPN	Case=Nom Gender=Fem Number=Sing	17	flat:name	Violeta	PROPN	Case=Nom Gender=Fem Number=Sing	16
 <g/>
 </name>
-,	,	,	PUNCT	-	18	punct	Ksenija	PROPN	Case=Nom Gender=Fem Number=Sing	19
+,	,	,	PUNCT		18	punct	Ksenija	PROPN	Case=Nom Gender=Fem Number=Sing	19
 <name type="PER">
 Ksenija	Ksenija	Ksenija	PROPN	Case=Nom Gender=Fem Number=Sing	19	conj	Violeta	PROPN	Case=Nom Gender=Fem Number=Sing	16
 Korenjak	Korenjak	Korenjak	PROPN	Case=Nom Gender=Fem Number=Sing	20	flat:name	Ksenija	PROPN	Case=Nom Gender=Fem Number=Sing	19
 Kramar	Kramar	Kramar	PROPN	Case=Nom Gender=Fem Number=Sing	21	flat:name	Ksenija	PROPN	Case=Nom Gender=Fem Number=Sing	19
 <g/>
 </name>
-,	,	,	PUNCT	-	22	punct	Milan	PROPN	Case=Nom Gender=Masc Number=Sing	24
+,	,	,	PUNCT		22	punct	Milan	PROPN	Case=Nom Gender=Masc Number=Sing	24
 dr.	dr.	dr.	X	Abbr=Yes	23	nmod	Milan	PROPN	Case=Nom Gender=Masc Number=Sing	24
 <name type="PER">
 Milan	Milan	Milan	PROPN	Case=Nom Gender=Masc Number=Sing	24	conj	Violeta	PROPN	Case=Nom Gender=Fem Number=Sing	16
@@ -74,31 +74,31 @@ Brglez	Brglez	Brglez	PROPN	Case=Nom Gender=Masc Number=Sing	25	flat:name	Milan	P
 </name>
 med	med	med	ADP	Case=Ins	26	case	ura	NOUN	Case=Ins Gender=Fem Number=Sing	30
 13.	13.	13.	NUM	NumForm=Digit NumType=Ord	27	nummod	ura	NOUN	Case=Ins Gender=Fem Number=Sing	30
-in	in	in	CCONJ	-	28	cc	15.	NUM	NumForm=Digit NumType=Ord	29
+in	in	in	CCONJ		28	cc	15.	NUM	NumForm=Digit NumType=Ord	29
 15.	15.	15.	NUM	NumForm=Digit NumType=Ord	29	conj	13.	NUM	NumForm=Digit NumType=Ord	27
 uro	uro	ura	NOUN	Case=Ins Gender=Fem Number=Sing	30	nmod	Milan	PROPN	Case=Nom Gender=Masc Number=Sing	24
 <g/>
-,	,	,	PUNCT	-	31	punct	Bojan	PROPN	Case=Nom Gender=Masc Number=Sing	33
+,	,	,	PUNCT		31	punct	Bojan	PROPN	Case=Nom Gender=Masc Number=Sing	33
 dr.	dr.	dr.	X	Abbr=Yes	32	nmod	Bojan	PROPN	Case=Nom Gender=Masc Number=Sing	33
 <name type="PER">
 Bojan	Bojan	Bojan	PROPN	Case=Nom Gender=Masc Number=Sing	33	conj	Violeta	PROPN	Case=Nom Gender=Fem Number=Sing	16
 Dobovšek	Dobovšek	Dobovšek	PROPN	Case=Nom Gender=Masc Number=Sing	34	flat:name	Bojan	PROPN	Case=Nom Gender=Masc Number=Sing	33
 <g/>
 </name>
-,	,	,	PUNCT	-	35	punct	Matjaž	PROPN	Case=Nom Gender=Masc Number=Sing	36
+,	,	,	PUNCT		35	punct	Matjaž	PROPN	Case=Nom Gender=Masc Number=Sing	36
 <name type="PER">
 Matjaž	Matjaž	Matjaž	PROPN	Case=Nom Gender=Masc Number=Sing	36	conj	Bojan	PROPN	Case=Nom Gender=Masc Number=Sing	33
 Hanžek	Hanžek	Hanžek	PROPN	Case=Nom Gender=Masc Number=Sing	37	flat:name	Matjaž	PROPN	Case=Nom Gender=Masc Number=Sing	36
 <g/>
 </name>
-,	,	,	PUNCT	-	38	punct	Franc	PROPN	Case=Nom Gender=Masc Number=Sing	40
+,	,	,	PUNCT		38	punct	Franc	PROPN	Case=Nom Gender=Masc Number=Sing	40
 dr.	dr.	dr.	X	Abbr=Yes	39	nmod	Franc	PROPN	Case=Nom Gender=Masc Number=Sing	40
 <name type="PER">
 Franc	Franc	Franc	PROPN	Case=Nom Gender=Masc Number=Sing	40	conj	Matjaž	PROPN	Case=Nom Gender=Masc Number=Sing	36
 Trček	Trček	Trček	PROPN	Case=Nom Gender=Masc Number=Sing	41	flat:name	Franc	PROPN	Case=Nom Gender=Masc Number=Sing	40
 <g/>
 </name>
-,	,	,	PUNCT	-	42	punct	Jernej	PROPN	Case=Nom Gender=Masc Number=Sing	43
+,	,	,	PUNCT		42	punct	Jernej	PROPN	Case=Nom Gender=Masc Number=Sing	43
 <name type="PER">
 Jernej	Jernej	Jernej	PROPN	Case=Nom Gender=Masc Number=Sing	43	conj	Franc	PROPN	Case=Nom Gender=Masc Number=Sing	40
 Vrtovec	Vrtovec	Vrtovec	PROPN	Case=Nom Gender=Masc Number=Sing	44	flat:name	Jernej	PROPN	Case=Nom Gender=Masc Number=Sing	43
@@ -106,7 +106,7 @@ Vrtovec	Vrtovec	Vrtovec	PROPN	Case=Nom Gender=Masc Number=Sing	44	flat:name	Jern
 do	do	do	ADP	Case=Gen	45	case	ura	NOUN	Case=Gen Gender=Fem Number=Sing	47
 18.	18.	18.	NUM	NumForm=Digit NumType=Ord	46	nummod	ura	NOUN	Case=Gen Gender=Fem Number=Sing	47
 ure	ure	ura	NOUN	Case=Gen Gender=Fem Number=Sing	47	nmod	Jernej	PROPN	Case=Nom Gender=Masc Number=Sing	43
-in	in	in	CCONJ	-	48	cc	Vinko	PROPN	Case=Nom Gender=Masc Number=Sing	50
+in	in	in	CCONJ		48	cc	Vinko	PROPN	Case=Nom Gender=Masc Number=Sing	50
 dr.	dr.	dr.	X	Abbr=Yes	49	nmod	Vinko	PROPN	Case=Nom Gender=Masc Number=Sing	50
 <name type="PER">
 Vinko	Vinko	Vinko	PROPN	Case=Nom Gender=Masc Number=Sing	50	conj	Violeta	PROPN	Case=Nom Gender=Fem Number=Sing	16
@@ -117,7 +117,7 @@ od	od	od	ADP	Case=Gen	52	case	ura	NOUN	Case=Gen Gender=Fem Number=Sing	54
 ure	ure	ura	NOUN	Case=Gen Gender=Fem Number=Sing	54	nmod	Vinko	PROPN	Case=Nom Gender=Masc Number=Sing	50
 dalje	dalje	dalje	ADV	Degree=Pos	55	advmod	ura	NOUN	Case=Gen Gender=Fem Number=Sing	54
 <g/>
-.	.	.	PUNCT	-	56	punct	obveščen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	1
+.	.	.	PUNCT		56	punct	obveščen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	1
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg3.2">
 Vse	Vse	ves	DET	Case=Acc Gender=Masc Number=Plur PronType=Tot	1	nmod	prisoten	ADJ	Case=Acc Degree=Pos Gender=Fem Number=Plur	2
@@ -125,7 +125,7 @@ prisotne	prisotne	prisoten	ADJ	Case=Acc Degree=Pos Gender=Fem Number=Plur	2	obj	
 lepo	lepo	lepo	ADV	Degree=Pos	3	advmod	pozdravljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	4
 pozdravljam	pozdravljam	pozdravljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	4	root	-	-	-	-
 <g/>
-!	!	!	PUNCT	-	5	punct	pozdravljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	4
+!	!	!	PUNCT		5	punct	pozdravljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	4
 </s>
 </p>
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg4" lang="Slovenian">
@@ -139,7 +139,7 @@ TOČKO	TOČKO	točka	NOUN	Case=Acc Gender=Fem Number=Sing	1	obl	biti	AUX	Mood=In
 DNEVNEGA	DNEVNEGA	dneven	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Sing	2	amod	red	NOUN	Case=Gen Gender=Masc Number=Sing	3
 REDA	REDA	red	NOUN	Case=Gen Gender=Masc Number=Sing	3	nmod	točka	NOUN	Case=Acc Gender=Fem Number=Sing	1
 <g/>
-,	,	,	PUNCT	-	4	punct	točka	NOUN	Case=Acc Gender=Fem Number=Sing	1
+,	,	,	PUNCT		4	punct	točka	NOUN	Case=Acc Gender=Fem Number=Sing	1
 TO	TO	ta	DET	Case=Nom Gender=Neut Number=Sing PronType=Dem	5	nsubj	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	6
 JE	JE	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	6	root	-	-	-	-
 NA	NA	na	ADP	Case=Acc	7	case	obravnava	NOUN	Case=Acc Gender=Fem Number=Sing	9
@@ -149,19 +149,19 @@ PREDLOGA	PREDLOGA	predlog	NOUN	Case=Gen Gender=Masc Number=Sing	10	nmod	obravnav
 ZAKONA	ZAKONA	zakon	NOUN	Case=Gen Gender=Masc Number=Sing	11	nmod	predlog	NOUN	Case=Gen Gender=Masc Number=Sing	10
 O	O	o	ADP	Case=Loc	12	case	sprememba	NOUN	Case=Loc Gender=Fem Number=Plur	13
 SPREMEMBAH	SPREMEMBAH	sprememba	NOUN	Case=Loc Gender=Fem Number=Plur	13	nmod	zakon	NOUN	Case=Gen Gender=Masc Number=Sing	11
-IN	IN	in	CCONJ	-	14	cc	dopolnitev	NOUN	Case=Loc Gender=Fem Number=Plur	15
+IN	IN	in	CCONJ		14	cc	dopolnitev	NOUN	Case=Loc Gender=Fem Number=Plur	15
 DOPOLNITVAH	DOPOLNITVAH	dopolnitev	NOUN	Case=Loc Gender=Fem Number=Plur	15	conj	sprememba	NOUN	Case=Loc Gender=Fem Number=Plur	13
 ZAKONA	ZAKONA	zakon	NOUN	Case=Gen Gender=Masc Number=Sing	16	nmod	dopolnitev	NOUN	Case=Loc Gender=Fem Number=Plur	15
 O	O	o	ADP	Case=Loc	17	case	storitev	NOUN	Case=Loc Gender=Fem Number=Plur	19
 PLAČILNIH	PLAČILNIH	plačilen	ADJ	Case=Loc Degree=Pos Gender=Fem Number=Plur	18	amod	storitev	NOUN	Case=Loc Gender=Fem Number=Plur	19
 STORITVAH	STORITVAH	storitev	NOUN	Case=Loc Gender=Fem Number=Plur	19	nmod	zakon	NOUN	Case=Gen Gender=Masc Number=Sing	16
-IN	IN	in	CCONJ	-	20	cc	sistem	NOUN	Case=Loc Gender=Masc Number=Plur	21
+IN	IN	in	CCONJ		20	cc	sistem	NOUN	Case=Loc Gender=Masc Number=Plur	21
 SISTEMIH	SISTEMIH	sistem	NOUN	Case=Loc Gender=Masc Number=Plur	21	conj	storitev	NOUN	Case=Loc Gender=Fem Number=Plur	19
 PO	PO	po	ADP	Case=Loc	22	case	postopek	NOUN	Case=Loc Gender=Masc Number=Sing	24
 REDNEM	REDNEM	reden	ADJ	Case=Loc Degree=Pos Gender=Masc Number=Sing	23	amod	postopek	NOUN	Case=Loc Gender=Masc Number=Sing	24
 POSTOPKU	POSTOPKU	postopek	NOUN	Case=Loc Gender=Masc Number=Sing	24	nmod	sistem	NOUN	Case=Loc Gender=Masc Number=Plur	21
 <g/>
-.	.	.	PUNCT	-	25	punct	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	6
+.	.	.	PUNCT		25	punct	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	6
 </s>
 </p>
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg5" lang="Slovenian">
@@ -180,7 +180,7 @@ predložila	predložila	predložiti	VERB	Aspect=Perf Gender=Fem Number=Sing Verb
 Vlada	Vlada	vlada	NOUN	Case=Nom Gender=Fem Number=Sing	9	nsubj	predložiti	VERB	Aspect=Perf Gender=Fem Number=Sing VerbForm=Part	8
 <g/>
 </name>
-.	.	.	PUNCT	-	10	punct	predložiti	VERB	Aspect=Perf Gender=Fem Number=Sing VerbForm=Part	8
+.	.	.	PUNCT		10	punct	predložiti	VERB	Aspect=Perf Gender=Fem Number=Sing VerbForm=Part	8
 </s>
 </p>
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg6" lang="Slovenian">
@@ -197,7 +197,7 @@ predstavnici	predstavnici	predstavnica	NOUN	Case=Dat Gender=Fem Number=Sing	8	nm
 Vlade	Vlade	vlada	NOUN	Case=Gen Gender=Fem Number=Sing	9	nmod	predstavnica	NOUN	Case=Dat Gender=Fem Number=Sing	8
 <g/>
 </name>
-,	,	,	PUNCT	-	10	punct	sekretarka	NOUN	Case=Dat Gender=Fem Number=Sing	12
+,	,	,	PUNCT		10	punct	sekretarka	NOUN	Case=Dat Gender=Fem Number=Sing	12
 državni	državni	državen	ADJ	Case=Dat Degree=Pos Gender=Fem Number=Sing	11	amod	sekretarka	NOUN	Case=Dat Gender=Fem Number=Sing	12
 sekretarki	sekretarki	sekretarka	NOUN	Case=Dat Gender=Fem Number=Sing	12	appos	predstavnica	NOUN	Case=Dat Gender=Fem Number=Sing	8
 na	na	na	ADP	Case=Loc	13	case	ministrstvo	NOUN	Case=Loc Gender=Neut Number=Sing	14
@@ -212,24 +212,24 @@ Ireni	Ireni	Irena	PROPN	Case=Dat Gender=Fem Number=Sing	18	nmod	gospa	NOUN	Case=
 Sodin	Sodin	Sodin	PROPN	Case=Dat Gender=Fem Number=Sing	19	flat:name	Irena	PROPN	Case=Dat Gender=Fem Number=Sing	18
 <g/>
 </name>
-.	.	.	PUNCT	-	20	punct	dajati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	6
+.	.	.	PUNCT		20	punct	dajati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	6
 </s>
 </p>
 </speech>
 <note type="speaker" content="IRENA SODIN:"/>
-<speech id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.u2" text_id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20" subcorpus="Reference" house="Lower house" term="7" session="-" meeting="20" sitting="-" agenda="-" from="2016-06-21" to="2016-06-21" title="Minutes of the National Assembly of the Republic of Slovenia, Term 7, Regular Session 20, 21.6.2016" speaker_role="Regular" speaker_id="SodinIrena" speaker_name="Sodin, Irena" speaker_type="notMP" speaker_party="-" speaker_party_name="-" party_status="-" speaker_gender="F" speaker_birth="">
+<speech id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.u2" text_id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20" subcorpus="Reference" house="Lower house" term="7" session="" meeting="20" sitting="" agenda="" from="2016-06-21" to="2016-06-21" title="Minutes of the National Assembly of the Republic of Slovenia, Term 7, Regular Session 20, 21.6.2016" speaker_role="Regular" speaker_id="SodinIrena" speaker_name="Sodin, Irena" speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="F" speaker_birth="">
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg7" lang="Slovenian">
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg7.1">
 Spoštovani	Spoštovani	spoštovan	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing VerbForm=Part	1	amod	predsednik	NOUN	Case=Nom Gender=Masc Number=Sing	2
 predsednik	predsednik	predsednik	NOUN	Case=Nom Gender=Masc Number=Sing	2	root	-	-	-	-
 <g/>
-,	,	,	PUNCT	-	3	punct	poslanka	NOUN	Case=Nom Gender=Fem Number=Plur	5
+,	,	,	PUNCT		3	punct	poslanka	NOUN	Case=Nom Gender=Fem Number=Plur	5
 spoštovane	spoštovane	spoštovan	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur VerbForm=Part	4	amod	poslanka	NOUN	Case=Nom Gender=Fem Number=Plur	5
 poslanke	poslanke	poslanka	NOUN	Case=Nom Gender=Fem Number=Plur	5	conj	predsednik	NOUN	Case=Nom Gender=Masc Number=Sing	2
-in	in	in	CCONJ	-	6	cc	poslanec	NOUN	Case=Nom Gender=Masc Number=Plur	7
+in	in	in	CCONJ		6	cc	poslanec	NOUN	Case=Nom Gender=Masc Number=Plur	7
 poslanci	poslanci	poslanec	NOUN	Case=Nom Gender=Masc Number=Plur	7	conj	predsednik	NOUN	Case=Nom Gender=Masc Number=Sing	2
 <g/>
-!	!	!	PUNCT	-	8	punct	predsednik	NOUN	Case=Nom Gender=Masc Number=Sing	2
+!	!	!	PUNCT		8	punct	predsednik	NOUN	Case=Nom Gender=Masc Number=Sing	2
 </s>
 </p>
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg8" lang="Slovenian">
@@ -242,14 +242,14 @@ zakona	zakona	zakon	NOUN	Case=Gen Gender=Masc Number=Sing	4	nmod	predlog	NOUN	Ca
 o	o	o	ADP	Case=Loc	5	case	sprememba	NOUN	Case=Loc Gender=Fem Number=Plur	6
 spremembah	spremembah	sprememba	NOUN	Case=Loc Gender=Fem Number=Plur	6	nmod	zakon	NOUN	Case=Gen Gender=Masc Number=Sing	4
 </name>
-in	in	in	CCONJ	-	7	cc	dopolnitev	NOUN	Case=Loc Gender=Fem Number=Plur	8
+in	in	in	CCONJ		7	cc	dopolnitev	NOUN	Case=Loc Gender=Fem Number=Plur	8
 dopolnitvah	dopolnitvah	dopolnitev	NOUN	Case=Loc Gender=Fem Number=Plur	8	conj	sprememba	NOUN	Case=Loc Gender=Fem Number=Plur	6
 <name type="MISC">
 Zakona	Zakona	zakon	NOUN	Case=Gen Gender=Masc Number=Sing	9	nmod	dopolnitev	NOUN	Case=Loc Gender=Fem Number=Plur	8
 o	o	o	ADP	Case=Loc	10	case	storitev	NOUN	Case=Loc Gender=Fem Number=Plur	12
 plačilnih	plačilnih	plačilen	ADJ	Case=Loc Degree=Pos Gender=Fem Number=Plur	11	amod	storitev	NOUN	Case=Loc Gender=Fem Number=Plur	12
 storitvah	storitvah	storitev	NOUN	Case=Loc Gender=Fem Number=Plur	12	nmod	zakon	NOUN	Case=Gen Gender=Masc Number=Sing	9
-in	in	in	CCONJ	-	13	cc	sistem	NOUN	Case=Loc Gender=Masc Number=Plur	14
+in	in	in	CCONJ		13	cc	sistem	NOUN	Case=Loc Gender=Masc Number=Plur	14
 sistemih	sistemih	sistem	NOUN	Case=Loc Gender=Masc Number=Plur	14	conj	storitev	NOUN	Case=Loc Gender=Fem Number=Plur	12
 </name>
 je	je	biti	VERB	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	15	cop	cilj	NOUN	Case=Nom Gender=Masc Number=Sing	2
@@ -264,31 +264,31 @@ primerljivosti	primerljivosti	primerljivost	NOUN	Case=Loc Gender=Fem Number=Sing
 </name>
 nadomestil	nadomestil	nadomestilo	NOUN	Case=Gen Gender=Neut Number=Plur	23	nmod	primerljivost	NOUN	Case=Loc Gender=Fem Number=Sing	22
 <g/>
-,	,	,	PUNCT	-	24	punct	povezan	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur VerbForm=Part	25
+,	,	,	PUNCT		24	punct	povezan	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur VerbForm=Part	25
 povezanih	povezanih	povezan	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur VerbForm=Part	25	amod	nadomestilo	NOUN	Case=Gen Gender=Neut Number=Plur	23
 s	s	z	ADP	Case=Ins	26	case	račun	NOUN	Case=Ins Gender=Masc Number=Plur	28
 plačilnimi	plačilnimi	plačilen	ADJ	Case=Ins Degree=Pos Gender=Masc Number=Plur	27	amod	račun	NOUN	Case=Ins Gender=Masc Number=Plur	28
 računi	računi	račun	NOUN	Case=Ins Gender=Masc Number=Plur	28	obl	povezan	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur VerbForm=Part	25
 <g/>
-,	,	,	PUNCT	-	29	punct	zamenjava	NOUN	Case=Loc Gender=Fem Number=Sing	30
+,	,	,	PUNCT		29	punct	zamenjava	NOUN	Case=Loc Gender=Fem Number=Sing	30
 zamenjavi	zamenjavi	zamenjava	NOUN	Case=Loc Gender=Fem Number=Sing	30	conj	račun	NOUN	Case=Ins Gender=Masc Number=Plur	28
 plačilnih	plačilnih	plačilen	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	31	amod	račun	NOUN	Case=Gen Gender=Masc Number=Plur	32
 računov	računov	račun	NOUN	Case=Gen Gender=Masc Number=Plur	32	nmod	zamenjava	NOUN	Case=Loc Gender=Fem Number=Sing	30
-in	in	in	CCONJ	-	33	cc	dostop	NOUN	Case=Loc Gender=Masc Number=Sing	34
+in	in	in	CCONJ		33	cc	dostop	NOUN	Case=Loc Gender=Masc Number=Sing	34
 dostopu	dostopu	dostop	NOUN	Case=Loc Gender=Masc Number=Sing	34	conj	račun	NOUN	Case=Gen Gender=Masc Number=Plur	32
 do	do	do	ADP	Case=Gen	35	case	račun	NOUN	Case=Gen Gender=Masc Number=Plur	38
 osnovnih	osnovnih	osnoven	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	36	amod	račun	NOUN	Case=Gen Gender=Masc Number=Plur	38
 plačilnih	plačilnih	plačilen	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	37	amod	račun	NOUN	Case=Gen Gender=Masc Number=Plur	38
 računov	računov	račun	NOUN	Case=Gen Gender=Masc Number=Plur	38	nmod	dostop	NOUN	Case=Loc Gender=Masc Number=Sing	34
 <g/>
-.	.	.	PUNCT	-	39	punct	cilj	NOUN	Case=Nom Gender=Masc Number=Sing	2
+.	.	.	PUNCT		39	punct	cilj	NOUN	Case=Nom Gender=Masc Number=Sing	2
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg8.2">
 V	V	v	ADP	Case=Acc	1	case	zakon	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	2
 zakon	zakon	zakon	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	2	obl	prenašati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	4
 se	se	se	PRON	PronType=Prs Reflex=Yes Variant=Short	3	expl	prenašati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	4
 prenašajo	prenašajo	prenašati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	4	root	-	-	-	-
-tudi	tudi	tudi	PART	-	5	advmod	prenašati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	4
+tudi	tudi	tudi	PART		5	advmod	prenašati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	4
 določbe	določbe	določba	NOUN	Case=Nom Gender=Fem Number=Plur	6	nsubj	prenašati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	4
 <name type="MISC">
 Uredbe	Uredbe	uredba	NOUN	Case=Gen Gender=Fem Number=Sing	7	nmod	določba	NOUN	Case=Nom Gender=Fem Number=Plur	6
@@ -296,18 +296,18 @@ o	o	o	ADP	Case=Loc	8	case	uvajanje	NOUN	Case=Loc Gender=Neut Number=Sing	9
 uvajanju	uvajanju	uvajanje	NOUN	Case=Loc Gender=Neut Number=Sing	9	nmod	uredba	NOUN	Case=Gen Gender=Fem Number=Sing	7
 tehničnih	tehničnih	tehničen	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Plur	10	amod	zahteva	NOUN	Case=Gen Gender=Fem Number=Plur	13
 </name>
-in	in	in	CCONJ	-	11	cc	posloven	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Plur	12
+in	in	in	CCONJ		11	cc	posloven	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Plur	12
 poslovnih	poslovnih	posloven	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Plur	12	conj	tehničen	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Plur	10
 zahtev	zahtev	zahteva	NOUN	Case=Gen Gender=Fem Number=Plur	13	nmod	uvajanje	NOUN	Case=Loc Gender=Neut Number=Sing	9
 za	za	za	ADP	Case=Acc	14	case	prenos	NOUN	Case=Acc Gender=Masc Number=Plur	16
 kreditne	kreditne	krediten	ADJ	Case=Acc Degree=Pos Gender=Masc Number=Plur	15	amod	prenos	NOUN	Case=Acc Gender=Masc Number=Plur	16
 prenose	prenose	prenos	NOUN	Case=Acc Gender=Masc Number=Plur	16	nmod	zahteva	NOUN	Case=Gen Gender=Fem Number=Plur	13
-in	in	in	CCONJ	-	17	cc	bremenitev	NOUN	Case=Acc Gender=Fem Number=Plur	19
+in	in	in	CCONJ		17	cc	bremenitev	NOUN	Case=Acc Gender=Fem Number=Plur	19
 direktne	direktne	direkten	ADJ	Case=Acc Degree=Pos Gender=Fem Number=Plur	18	amod	bremenitev	NOUN	Case=Acc Gender=Fem Number=Plur	19
 bremenitve	bremenitve	bremenitev	NOUN	Case=Acc Gender=Fem Number=Plur	19	conj	določba	NOUN	Case=Nom Gender=Fem Number=Plur	6
 v	v	v	ADP	Case=Loc	20	case	evro	NOUN	Case=Loc Gender=Masc Number=Plur	21
 evrih	evrih	evro	NOUN	Case=Loc Gender=Masc Number=Plur	21	nmod	bremenitev	NOUN	Case=Acc Gender=Fem Number=Plur	19
-ter	ter	ter	CCONJ	-	22	cc	določba	NOUN	Case=Nom Gender=Fem Number=Plur	23
+ter	ter	ter	CCONJ		22	cc	določba	NOUN	Case=Nom Gender=Fem Number=Plur	23
 določbe	določbe	določba	NOUN	Case=Nom Gender=Fem Number=Plur	23	conj	določba	NOUN	Case=Nom Gender=Fem Number=Plur	6
 <name type="MISC">
 Uredbe	Uredbe	uredba	NOUN	Case=Gen Gender=Fem Number=Sing	24	nmod	določba	NOUN	Case=Nom Gender=Fem Number=Plur	23
@@ -325,7 +325,7 @@ kartične	kartične	kartičen	ADJ	Case=Acc Degree=Pos Gender=Fem Number=Plur	32	
 plačilne	plačilne	plačilen	ADJ	Case=Acc Degree=Pos Gender=Fem Number=Plur	33	amod	transakcija	NOUN	Case=Acc Gender=Fem Number=Plur	34
 transakcije	transakcije	transakcija	NOUN	Case=Acc Gender=Fem Number=Plur	34	nmod	provizija	NOUN	Case=Loc Gender=Fem Number=Plur	30
 <g/>
-.	.	.	PUNCT	-	35	punct	prenašati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	4
+.	.	.	PUNCT		35	punct	prenašati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	4
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg8.3">
 Poleg	Poleg	poleg	ADP	Case=Gen	1	case	ta	DET	Case=Gen Gender=Neut Number=Sing PronType=Dem	2
@@ -335,7 +335,7 @@ zakona	zakona	zakon	NOUN	Case=Gen Gender=Masc Number=Sing	4	nmod	predlog	NOUN	Ca
 z	z	z	ADP	Case=Ins	5	case	sprememba	NOUN	Case=Ins Gender=Fem Number=Plur	7
 manjšimi	manjšimi	majhen	ADJ	Case=Ins Degree=Cmp Gender=Fem Number=Plur	6	amod	sprememba	NOUN	Case=Ins Gender=Fem Number=Plur	7
 spremembami	spremembami	sprememba	NOUN	Case=Ins Gender=Fem Number=Plur	7	nmod	zakon	NOUN	Case=Gen Gender=Masc Number=Sing	4
-in	in	in	CCONJ	-	8	cc	dopolnitev	NOUN	Case=Ins Gender=Fem Number=Plur	9
+in	in	in	CCONJ		8	cc	dopolnitev	NOUN	Case=Ins Gender=Fem Number=Plur	9
 dopolnitvami	dopolnitvami	dopolnitev	NOUN	Case=Ins Gender=Fem Number=Plur	9	conj	sprememba	NOUN	Case=Ins Gender=Fem Number=Plur	7
 <name type="MISC">
 Zakona	Zakona	zakon	NOUN	Case=Gen Gender=Masc Number=Sing	10	nmod	dopolnitev	NOUN	Case=Ins Gender=Fem Number=Plur	9
@@ -343,14 +343,14 @@ o	o	o	ADP	Case=Loc	11	case	storitev	NOUN	Case=Loc Gender=Fem Number=Plur	13
 plačilnih	plačilnih	plačilen	ADJ	Case=Loc Degree=Pos Gender=Fem Number=Plur	12	amod	storitev	NOUN	Case=Loc Gender=Fem Number=Plur	13
 storitvah	storitvah	storitev	NOUN	Case=Loc Gender=Fem Number=Plur	13	nmod	zakon	NOUN	Case=Gen Gender=Masc Number=Sing	10
 </name>
-in	in	in	CCONJ	-	14	cc	sistem	NOUN	Case=Loc Gender=Masc Number=Plur	15
+in	in	in	CCONJ		14	cc	sistem	NOUN	Case=Loc Gender=Masc Number=Plur	15
 sistemih	sistemih	sistem	NOUN	Case=Loc Gender=Masc Number=Plur	15	conj	storitev	NOUN	Case=Loc Gender=Fem Number=Plur	13
 izboljšuje	izboljšuje	izboljševati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	16	root	-	-	-	-
 trenutni	trenutni	trenuten	ADJ	Case=Acc Definite=Def Degree=Pos Gender=Masc Number=Sing	17	amod	okvir	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	19
 zakonski	zakonski	zakonski	ADJ	Case=Acc Definite=Def Degree=Pos Gender=Masc Number=Sing	18	amod	okvir	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	19
 okvir	okvir	okvir	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	19	obj	izboljševati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	16
 <g/>
-.	.	.	PUNCT	-	20	punct	izboljševati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	16
+.	.	.	PUNCT		20	punct	izboljševati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	16
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg8.4">
 V	V	v	ADP	Case=Loc	1	case	povezava	NOUN	Case=Loc Gender=Fem Number=Sing	2
@@ -364,27 +364,27 @@ ureja	ureja	urejati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres Ver
 tri	tri	trije	NUM	Case=Acc Gender=Neut Number=Plur NumForm=Word NumType=Card	9	nummod	področje	NOUN	Case=Acc Gender=Neut Number=Plur	10
 področja	področja	področje	NOUN	Case=Acc Gender=Neut Number=Plur	10	obj	urejati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	8
 <g/>
-:	:	:	PUNCT	-	11	punct	določati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	12
+:	:	:	PUNCT		11	punct	določati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	12
 določa	določa	določati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	12	parataxis	urejati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	8
 pravila	pravila	pravilo	NOUN	Case=Acc Gender=Neut Number=Plur	13	obj	določati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	12
 glede	glede	glede	ADP	Case=Gen	14	case	primerljivost	NOUN	Case=Gen Gender=Fem Number=Sing	15
 primerljivosti	primerljivosti	primerljivost	NOUN	Case=Gen Gender=Fem Number=Sing	15	nmod	pravilo	NOUN	Case=Acc Gender=Neut Number=Plur	13
 nadomestil	nadomestil	nadomestilo	NOUN	Case=Gen Gender=Neut Number=Plur	16	nmod	primerljivost	NOUN	Case=Gen Gender=Fem Number=Sing	15
 <g/>
-,	,	,	PUNCT	-	17	punct	povezan	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur VerbForm=Part	18
+,	,	,	PUNCT		17	punct	povezan	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur VerbForm=Part	18
 povezanih	povezanih	povezan	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur VerbForm=Part	18	amod	nadomestilo	NOUN	Case=Gen Gender=Neut Number=Plur	16
 s	s	z	ADP	Case=Ins	19	case	račun	NOUN	Case=Ins Gender=Masc Number=Plur	21
 plačilnimi	plačilnimi	plačilen	ADJ	Case=Ins Degree=Pos Gender=Masc Number=Plur	20	amod	račun	NOUN	Case=Ins Gender=Masc Number=Plur	21
 računi	računi	račun	NOUN	Case=Ins Gender=Masc Number=Plur	21	obl	povezan	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur VerbForm=Part	18
 <g/>
-,	,	,	PUNCT	-	22	punct	določati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	23
+,	,	,	PUNCT		22	punct	določati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	23
 določa	določa	določati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	23	parataxis	urejati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	8
 pravila	pravila	pravilo	NOUN	Case=Acc Gender=Neut Number=Plur	24	obj	določati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	23
 glede	glede	glede	ADP	Case=Gen	25	case	zamenjava	NOUN	Case=Gen Gender=Fem Number=Sing	26
 zamenjave	zamenjave	zamenjava	NOUN	Case=Gen Gender=Fem Number=Sing	26	nmod	pravilo	NOUN	Case=Acc Gender=Neut Number=Plur	24
 plačilnih	plačilnih	plačilen	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	27	amod	račun	NOUN	Case=Gen Gender=Masc Number=Plur	28
 računov	računov	račun	NOUN	Case=Gen Gender=Masc Number=Plur	28	nmod	zamenjava	NOUN	Case=Gen Gender=Fem Number=Sing	26
-in	in	in	CCONJ	-	29	cc	določati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	30
+in	in	in	CCONJ		29	cc	določati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	30
 določa	določa	določati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	30	conj	določati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	23
 pravila	pravila	pravilo	NOUN	Case=Acc Gender=Neut Number=Plur	31	obj	določati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	30
 glede	glede	glede	ADP	Case=Gen	32	case	dostop	NOUN	Case=Gen Gender=Masc Number=Sing	33
@@ -394,7 +394,7 @@ osnovnih	osnovnih	osnoven	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	35	amo
 plačilnih	plačilnih	plačilen	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	36	amod	račun	NOUN	Case=Gen Gender=Masc Number=Plur	37
 računov	računov	račun	NOUN	Case=Gen Gender=Masc Number=Plur	37	nmod	dostop	NOUN	Case=Gen Gender=Masc Number=Sing	33
 <g/>
-.	.	.	PUNCT	-	38	punct	urejati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	8
+.	.	.	PUNCT		38	punct	urejati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	8
 </s>
 </p>
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg9" lang="Slovenian">
@@ -404,24 +404,24 @@ vidika	vidika	vidik	NOUN	Case=Gen Gender=Masc Number=Sing	2	obl	predpisovati	VER
 primerljivosti	primerljivosti	primerljivost	NOUN	Case=Gen Gender=Fem Number=Sing	3	nmod	vidik	NOUN	Case=Gen Gender=Masc Number=Sing	2
 nadomestil	nadomestil	nadomestilo	NOUN	Case=Gen Gender=Neut Number=Plur	4	nmod	primerljivost	NOUN	Case=Gen Gender=Fem Number=Sing	3
 <g/>
-,	,	,	PUNCT	-	5	punct	povezan	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur VerbForm=Part	6
+,	,	,	PUNCT		5	punct	povezan	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur VerbForm=Part	6
 povezanih	povezanih	povezan	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur VerbForm=Part	6	amod	nadomestilo	NOUN	Case=Gen Gender=Neut Number=Plur	4
 s	s	z	ADP	Case=Ins	7	case	račun	NOUN	Case=Ins Gender=Masc Number=Plur	9
 plačilnimi	plačilnimi	plačilen	ADJ	Case=Ins Degree=Pos Gender=Masc Number=Plur	8	amod	račun	NOUN	Case=Ins Gender=Masc Number=Plur	9
 računi	računi	račun	NOUN	Case=Ins Gender=Masc Number=Plur	9	obl	povezan	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur VerbForm=Part	6
 <g/>
-,	,	,	PUNCT	-	10	punct	povezan	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur VerbForm=Part	6
+,	,	,	PUNCT		10	punct	povezan	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur VerbForm=Part	6
 predlog	predlog	predlog	NOUN	Case=Nom Gender=Masc Number=Sing	11	nsubj	predpisovati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	13
 podrobneje	podrobneje	podrobno	ADV	Degree=Cmp	12	advmod	predpisovati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	13
 predpisuje	predpisuje	predpisovati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	13	root	-	-	-	-
 obliko	obliko	oblika	NOUN	Case=Acc Gender=Fem Number=Sing	14	obj	predpisovati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	13
 <g/>
-,	,	,	PUNCT	-	15	punct	način	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	16
+,	,	,	PUNCT		15	punct	način	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	16
 način	način	način	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	16	conj	oblika	NOUN	Case=Acc Gender=Fem Number=Sing	14
-ter	ter	ter	CCONJ	-	17	cc	roka	NOUN	Case=Acc Gender=Fem Number=Plur	18
+ter	ter	ter	CCONJ		17	cc	roka	NOUN	Case=Acc Gender=Fem Number=Plur	18
 roke	roke	roka	NOUN	Case=Acc Gender=Fem Number=Plur	18	conj	oblika	NOUN	Case=Acc Gender=Fem Number=Sing	14
 <g/>
-,	,	,	PUNCT	-	19	punct	morati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	22
+,	,	,	PUNCT		19	punct	morati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	22
 v	v	v	ADP	Case=Loc	20	case	kateri	DET	Case=Loc Gender=Fem Number=Plur PronType=Int	21
 katerih	katerih	kateri	DET	Case=Loc Gender=Fem Number=Plur PronType=Int	21	obl	morati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	22
 morajo	morajo	morati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	22	acl	roka	NOUN	Case=Acc Gender=Fem Number=Plur	18
@@ -435,13 +435,13 @@ informacijo	informacijo	informacija	NOUN	Case=Acc Gender=Fem Number=Sing	29	obj	
 o	o	o	ADP	Case=Loc	30	case	nadomestilo	NOUN	Case=Loc Gender=Neut Number=Plur	31
 nadomestilih	nadomestilih	nadomestilo	NOUN	Case=Loc Gender=Neut Number=Plur	31	nmod	informacija	NOUN	Case=Acc Gender=Fem Number=Sing	29
 <g/>
-,	,	,	PUNCT	-	32	punct	povezan	ADJ	Case=Loc Degree=Pos Gender=Masc Number=Plur VerbForm=Part	33
+,	,	,	PUNCT		32	punct	povezan	ADJ	Case=Loc Degree=Pos Gender=Masc Number=Plur VerbForm=Part	33
 povezanih	povezanih	povezan	ADJ	Case=Loc Degree=Pos Gender=Masc Number=Plur VerbForm=Part	33	amod	nadomestilo	NOUN	Case=Loc Gender=Neut Number=Plur	31
 s	s	z	ADP	Case=Ins	34	case	račun	NOUN	Case=Ins Gender=Masc Number=Plur	36
 plačilnimi	plačilnimi	plačilen	ADJ	Case=Ins Degree=Pos Gender=Masc Number=Plur	35	amod	račun	NOUN	Case=Ins Gender=Masc Number=Plur	36
 računi	računi	račun	NOUN	Case=Ins Gender=Masc Number=Plur	36	obl	povezan	ADJ	Case=Loc Degree=Pos Gender=Masc Number=Plur VerbForm=Part	33
 <g/>
-.	.	.	PUNCT	-	37	punct	predpisovati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	13
+.	.	.	PUNCT		37	punct	predpisovati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	13
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg9.2">
 <name type="ORG">
@@ -459,8 +459,8 @@ omogočila	omogočila	omogočiti	VERB	Aspect=Perf Gender=Fem Number=Sing VerbFor
 primerjavo	primerjavo	primerjava	NOUN	Case=Acc Gender=Fem Number=Sing	11	obj	omogočiti	VERB	Aspect=Perf Gender=Fem Number=Sing VerbForm=Part	10
 nadomestil	nadomestil	nadomestilo	NOUN	Case=Gen Gender=Neut Number=Plur	12	nmod	primerjava	NOUN	Case=Acc Gender=Fem Number=Sing	11
 <g/>
-,	,	,	PUNCT	-	13	punct	zaračunavati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	16
-ki	ki	ki	SCONJ	-	14	mark	zaračunavati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	16
+,	,	,	PUNCT		13	punct	zaračunavati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	16
+ki	ki	ki	SCONJ		14	mark	zaračunavati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	16
 jih	jih	on	PRON	Case=Acc Gender=Masc Number=Plur Person=3 PronType=Prs Variant=Short	15	obj	zaračunavati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	16
 zaračunavajo	zaračunavajo	zaračunavati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	16	acl	nadomestilo	NOUN	Case=Gen Gender=Neut Number=Plur	12
 ponudniki	ponudniki	ponudnik	NOUN	Case=Nom Gender=Masc Number=Plur	17	nsubj	zaračunavati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	16
@@ -472,7 +472,7 @@ Republiki	Republiki	republika	NOUN	Case=Loc Gender=Fem Number=Sing	21	nmod	stori
 Sloveniji	Sloveniji	Slovenija	PROPN	Case=Loc Gender=Fem Number=Sing	22	nmod	republika	NOUN	Case=Loc Gender=Fem Number=Sing	21
 <g/>
 </name>
-.	.	.	PUNCT	-	23	punct	omogočiti	VERB	Aspect=Perf Gender=Fem Number=Sing VerbForm=Part	10
+.	.	.	PUNCT		23	punct	omogočiti	VERB	Aspect=Perf Gender=Fem Number=Sing VerbForm=Part	10
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg9.3">
 Primerjavo	Primerjavo	primerjava	NOUN	Case=Acc Gender=Fem Number=Sing	1	obj	objavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	9
@@ -486,11 +486,11 @@ Banka	Banka	banka	NOUN	Case=Nom Gender=Fem Number=Sing	7	nsubj	objavljati	VERB	A
 Slovenije	Slovenije	Slovenija	PROPN	Case=Gen Gender=Fem Number=Sing	8	nmod	banka	NOUN	Case=Nom Gender=Fem Number=Sing	7
 </name>
 objavlja	objavlja	objavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	9	root	-	-	-	-
-že	že	že	PART	-	10	advmod	objavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	9
+že	že	že	PART		10	advmod	objavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	9
 sedaj	sedaj	sedaj	ADV	Degree=Pos	11	advmod	objavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	9
 <g/>
-,	,	,	PUNCT	-	12	punct	skladen	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	19
-vendar	vendar	vendar	CCONJ	-	13	cc	skladen	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	19
+,	,	,	PUNCT		12	punct	skladen	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	19
+vendar	vendar	vendar	CCONJ		13	cc	skladen	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	19
 bo	bo	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Fut VerbForm=Fin	14	cop	skladen	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	19
 v	v	v	ADP	Case=Acc	15	case	bodoč	ADJ	Case=Acc Degree=Pos Gender=Neut Number=Sing	16
 bodoče	bodoče	bodoč	ADJ	Case=Acc Degree=Pos Gender=Neut Number=Sing	16	amod	objava	NOUN	Case=Nom Gender=Fem Number=Sing	18
@@ -502,12 +502,12 @@ zahtevami	zahtevami	zahteva	NOUN	Case=Ins Gender=Fem Number=Plur	21	obl	skladen	
 iz	iz	iz	ADP	Case=Gen	22	case	direktiva	NOUN	Case=Gen Gender=Fem Number=Sing	23
 direktive	direktive	direktiva	NOUN	Case=Gen Gender=Fem Number=Sing	23	nmod	zahteva	NOUN	Case=Ins Gender=Fem Number=Plur	21
 <g/>
-.	.	.	PUNCT	-	24	punct	objavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	9
+.	.	.	PUNCT		24	punct	objavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	9
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg9.4">
 Objavljena	Objavljena	objavljen	ADJ	Case=Nom Degree=Pos Gender=Neut Number=Plur VerbForm=Part	1	root	-	-	-	-
 bodo	bodo	biti	AUX	Mood=Ind Number=Plur Person=3 Polarity=Pos Tense=Fut VerbForm=Fin	2	cop	objavljen	ADJ	Case=Nom Degree=Pos Gender=Neut Number=Plur VerbForm=Part	1
-tudi	tudi	tudi	PART	-	3	advmod	objavljen	ADJ	Case=Nom Degree=Pos Gender=Neut Number=Plur VerbForm=Part	1
+tudi	tudi	tudi	PART		3	advmod	objavljen	ADJ	Case=Nom Degree=Pos Gender=Neut Number=Plur VerbForm=Part	1
 nadomestila	nadomestila	nadomestilo	NOUN	Case=Nom Gender=Neut Number=Plur	4	nsubj	objavljen	ADJ	Case=Nom Degree=Pos Gender=Neut Number=Plur VerbForm=Part	1
 za	za	za	ADP	Case=Acc	5	case	storitev	NOUN	Case=Acc Gender=Fem Number=Plur	6
 storitve	storitve	storitev	NOUN	Case=Acc Gender=Fem Number=Plur	6	nmod	nadomestilo	NOUN	Case=Nom Gender=Neut Number=Plur	4
@@ -518,8 +518,8 @@ s	s	z	ADP	Case=Ins	10	case	terminologija	NOUN	Case=Ins Gender=Fem Number=Sing	12
 standardizirano	standardizirano	standardiziran	ADJ	Case=Ins Degree=Pos Gender=Fem Number=Sing VerbForm=Part	11	amod	terminologija	NOUN	Case=Ins Gender=Fem Number=Sing	12
 terminologijo	terminologijo	terminologija	NOUN	Case=Ins Gender=Fem Number=Sing	12	nmod	seznam	NOUN	Case=Gen Gender=Masc Number=Sing	9
 <g/>
-,	,	,	PUNCT	-	13	punct	določiti	VERB	Aspect=Perf Gender=Fem Number=Sing VerbForm=Part	17
-ki	ki	ki	SCONJ	-	14	mark	določiti	VERB	Aspect=Perf Gender=Fem Number=Sing VerbForm=Part	17
+,	,	,	PUNCT		13	punct	določiti	VERB	Aspect=Perf Gender=Fem Number=Sing VerbForm=Part	17
+ki	ki	ki	SCONJ		14	mark	določiti	VERB	Aspect=Perf Gender=Fem Number=Sing VerbForm=Part	17
 ga	ga	on	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PronType=Prs Variant=Short	15	obj	določiti	VERB	Aspect=Perf Gender=Fem Number=Sing VerbForm=Part	17
 bo	bo	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Fut VerbForm=Fin	16	aux	določiti	VERB	Aspect=Perf Gender=Fem Number=Sing VerbForm=Part	17
 določila	določila	določiti	VERB	Aspect=Perf Gender=Fem Number=Sing VerbForm=Part	17	acl	terminologija	NOUN	Case=Ins Gender=Fem Number=Sing	12
@@ -533,7 +533,7 @@ regulativnih	regulativnih	regulativen	ADJ	Case=Gen Degree=Pos Gender=Masc Number
 tehničnih	tehničnih	tehničen	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	23	amod	standard	NOUN	Case=Gen Gender=Masc Number=Plur	24
 standardov	standardov	standard	NOUN	Case=Gen Gender=Masc Number=Plur	24	nmod	izdaja	NOUN	Case=Ins Gender=Fem Number=Sing	21
 <g/>
-.	.	.	PUNCT	-	25	punct	objavljen	ADJ	Case=Nom Degree=Pos Gender=Neut Number=Plur VerbForm=Part	1
+.	.	.	PUNCT		25	punct	objavljen	ADJ	Case=Nom Degree=Pos Gender=Neut Number=Plur VerbForm=Part	1
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg9.5">
 Ponudniki	Ponudniki	ponudnik	NOUN	Case=Nom Gender=Masc Number=Plur	1	nsubj	morati	VERB	Aspect=Imp Gender=Masc Number=Plur VerbForm=Part	5
@@ -550,7 +550,7 @@ posamezno	posamezno	posamezen	ADJ	Case=Acc Degree=Pos Gender=Fem Number=Sing	11	
 plačilno	plačilno	plačilen	ADJ	Case=Acc Degree=Pos Gender=Fem Number=Sing	12	amod	storitev	NOUN	Case=Acc Gender=Fem Number=Sing	13
 storitev	storitev	storitev	NOUN	Case=Acc Gender=Fem Number=Sing	13	nmod	izraz	NOUN	Case=Acc Gender=Masc Number=Plur	9
 <g/>
-,	,	,	PUNCT	-	14	punct	prispevati	VERB	Gender=Neut Number=Sing VerbForm=Part	17
+,	,	,	PUNCT		14	punct	prispevati	VERB	Gender=Neut Number=Sing VerbForm=Part	17
 kar	kar	kar	PRON	Case=Nom Gender=Neut Number=Sing PronType=Rel	15	nsubj	prispevati	VERB	Gender=Neut Number=Sing VerbForm=Part	17
 bo	bo	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Fut VerbForm=Fin	16	aux	prispevati	VERB	Gender=Neut Number=Sing VerbForm=Part	17
 prispevalo	prispevalo	prispevati	VERB	Gender=Neut Number=Sing VerbForm=Part	17	parataxis	morati	VERB	Aspect=Imp Gender=Masc Number=Plur VerbForm=Part	5
@@ -559,7 +559,7 @@ večji	večji	velik	ADJ	Case=Dat Degree=Cmp Gender=Fem Number=Sing	19	amod	pregl
 preglednosti	preglednosti	preglednost	NOUN	Case=Dat Gender=Fem Number=Sing	20	obl	prispevati	VERB	Gender=Neut Number=Sing VerbForm=Part	17
 plačilnih	plačilnih	plačilen	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Plur	21	amod	storitev	NOUN	Case=Gen Gender=Fem Number=Plur	22
 storitev	storitev	storitev	NOUN	Case=Gen Gender=Fem Number=Plur	22	nmod	preglednost	NOUN	Case=Dat Gender=Fem Number=Sing	20
-in	in	in	CCONJ	-	23	cc	potrošnik	NOUN	Case=Dat Gender=Masc Number=Plur	24
+in	in	in	CCONJ		23	cc	potrošnik	NOUN	Case=Dat Gender=Masc Number=Plur	24
 potrošnikom	potrošnikom	potrošnik	NOUN	Case=Dat Gender=Masc Number=Plur	24	iobj	olajšati	VERB	Aspect=Perf Gender=Neut Number=Sing VerbForm=Part	25
 olajšalo	olajšalo	olajšati	VERB	Aspect=Perf Gender=Neut Number=Sing VerbForm=Part	25	conj	prispevati	VERB	Gender=Neut Number=Sing VerbForm=Part	17
 primerjavo	primerjavo	primerjava	NOUN	Case=Acc Gender=Fem Number=Sing	26	obj	olajšati	VERB	Aspect=Perf Gender=Neut Number=Sing VerbForm=Part	25
@@ -568,7 +568,7 @@ med	med	med	ADP	Case=Ins	28	case	ponudnik	NOUN	Case=Ins Gender=Masc Number=Plur	
 posameznimi	posameznimi	posamezen	ADJ	Case=Ins Degree=Pos Gender=Masc Number=Plur	29	amod	ponudnik	NOUN	Case=Ins Gender=Masc Number=Plur	30
 ponudniki	ponudniki	ponudnik	NOUN	Case=Ins Gender=Masc Number=Plur	30	nmod	nadomestilo	NOUN	Case=Gen Gender=Neut Number=Plur	27
 <g/>
-.	.	.	PUNCT	-	31	punct	morati	VERB	Aspect=Imp Gender=Masc Number=Plur VerbForm=Part	5
+.	.	.	PUNCT		31	punct	morati	VERB	Aspect=Imp Gender=Masc Number=Plur VerbForm=Part	5
 </s>
 </p>
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg10" lang="Slovenian">
@@ -576,18 +576,18 @@ ponudniki	ponudniki	ponudnik	NOUN	Case=Ins Gender=Masc Number=Plur	30	nmod	nadom
 Predlog	Predlog	predlog	NOUN	Case=Nom Gender=Masc Number=Sing	1	nsubj	urejati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 zakona	zakona	zakon	NOUN	Case=Gen Gender=Masc Number=Sing	2	nmod	predlog	NOUN	Case=Nom Gender=Masc Number=Sing	1
 ureja	ureja	urejati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	root	-	-	-	-
-tudi	tudi	tudi	PART	-	4	advmod	urejati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
+tudi	tudi	tudi	PART		4	advmod	urejati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 zamenjavo	zamenjavo	zamenjava	NOUN	Case=Acc Gender=Fem Number=Sing	5	obj	urejati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 plačilnega	plačilnega	plačilen	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Sing	6	amod	račun	NOUN	Case=Gen Gender=Masc Number=Sing	7
 računa	računa	račun	NOUN	Case=Gen Gender=Masc Number=Sing	7	nmod	zamenjava	NOUN	Case=Acc Gender=Fem Number=Sing	5
 znotraj	znotraj	znotraj	ADP	Case=Gen	8	case	država	NOUN	Case=Gen Gender=Fem Number=Sing	9
 države	države	država	NOUN	Case=Gen Gender=Fem Number=Sing	9	nmod	račun	NOUN	Case=Gen Gender=Masc Number=Sing	7
 članice	članice	članica	NOUN	Case=Gen Gender=Fem Number=Sing	10	nmod	država	NOUN	Case=Gen Gender=Fem Number=Sing	9
-in	in	in	CCONJ	-	11	cc	zamenjava	NOUN	Case=Acc Gender=Fem Number=Sing	13
+in	in	in	CCONJ		11	cc	zamenjava	NOUN	Case=Acc Gender=Fem Number=Sing	13
 čezmejno	čezmejno	čezmejen	ADJ	Case=Acc Degree=Pos Gender=Fem Number=Sing	12	amod	zamenjava	NOUN	Case=Acc Gender=Fem Number=Sing	13
 zamenjavo	zamenjavo	zamenjava	NOUN	Case=Acc Gender=Fem Number=Sing	13	conj	zamenjava	NOUN	Case=Acc Gender=Fem Number=Sing	5
 <g/>
-.	.	.	PUNCT	-	14	punct	urejati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
+.	.	.	PUNCT		14	punct	urejati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg10.2">
 Postopek	Postopek	postopek	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	1	obj	začeti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	10
@@ -607,11 +607,11 @@ ponudnik	ponudnik	ponudnik	NOUN	Case=Nom Gender=Masc Number=Sing	12	nsubj	začet
 plačilnih	plačilnih	plačilen	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Plur	13	amod	storitev	NOUN	Case=Gen Gender=Fem Number=Plur	14
 storitev	storitev	storitev	NOUN	Case=Gen Gender=Fem Number=Plur	14	nmod	ponudnik	NOUN	Case=Nom Gender=Masc Number=Sing	12
 <g/>
-,	,	,	PUNCT	-	15	punct	ponudnik	NOUN	Case=Nom Gender=Masc Number=Sing	17
-torej	torej	torej	CCONJ	-	16	advmod	ponudnik	NOUN	Case=Nom Gender=Masc Number=Sing	17
+,	,	,	PUNCT		15	punct	ponudnik	NOUN	Case=Nom Gender=Masc Number=Sing	17
+torej	torej	torej	CCONJ		16	advmod	ponudnik	NOUN	Case=Nom Gender=Masc Number=Sing	17
 ponudnik	ponudnik	ponudnik	NOUN	Case=Nom Gender=Masc Number=Sing	17	conj	ponudnik	NOUN	Case=Nom Gender=Masc Number=Sing	12
 <g/>
-,	,	,	PUNCT	-	18	punct	odpreti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	23
+,	,	,	PUNCT		18	punct	odpreti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	23
 pri	pri	pri	ADP	Case=Loc	19	case	kateri	DET	Case=Loc Gender=Masc Number=Sing PronType=Int	20
 katerem	katerem	kateri	DET	Case=Loc Gender=Masc Number=Sing PronType=Int	20	obl	odpreti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	23
 bo	bo	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Fut VerbForm=Fin	21	aux	odpreti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	23
@@ -621,11 +621,11 @@ nov	nov	nov	ADJ	Case=Acc Definite=Ind Degree=Pos Gender=Masc Number=Sing	24	amod
 plačilni	plačilni	plačilen	ADJ	Case=Acc Definite=Def Degree=Pos Gender=Masc Number=Sing	25	amod	račun	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	26
 račun	račun	račun	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	26	obj	odpreti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	23
 <g/>
-.	.	.	PUNCT	-	27	punct	začeti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	10
+.	.	.	PUNCT		27	punct	začeti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	10
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg10.3">
 Prejemni	Prejemni	prejemen	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing	1	amod	ponudnik	NOUN	Case=Nom Gender=Masc Number=Sing	4
-in	in	in	CCONJ	-	2	cc	prenosen	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing	3
+in	in	in	CCONJ		2	cc	prenosen	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing	3
 prenosni	prenosni	prenosen	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing	3	conj	prejemen	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing	1
 ponudnik	ponudnik	ponudnik	NOUN	Case=Nom Gender=Masc Number=Sing	4	nsubj	dolžen	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Dual	8
 plačilnih	plačilnih	plačilen	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Plur	5	amod	storitev	NOUN	Case=Gen Gender=Fem Number=Plur	6
@@ -640,19 +640,19 @@ zamenjavi	zamenjavi	zamenjava	NOUN	Case=Loc Gender=Fem Number=Sing	13	nmod	posto
 plačilnega	plačilnega	plačilen	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Sing	14	amod	račun	NOUN	Case=Gen Gender=Masc Number=Sing	15
 računa	računa	račun	NOUN	Case=Gen Gender=Masc Number=Sing	15	nmod	zamenjava	NOUN	Case=Loc Gender=Fem Number=Sing	13
 <g/>
-,	,	,	PUNCT	-	16	punct	določen	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Plur VerbForm=Part	17
+,	,	,	PUNCT		16	punct	določen	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Plur VerbForm=Part	17
 določene	določene	določen	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Plur VerbForm=Part	17	amod	račun	NOUN	Case=Gen Gender=Masc Number=Sing	15
 v	v	v	ADP	Case=Loc	18	case	pooblastilo	NOUN	Case=Loc Gender=Neut Number=Sing	19
 pooblastilu	pooblastilu	pooblastilo	NOUN	Case=Loc Gender=Neut Number=Sing	19	obl	določen	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Plur VerbForm=Part	17
 potrošnika	potrošnika	potrošnik	NOUN	Case=Gen Gender=Masc Number=Sing	20	nmod	pooblastilo	NOUN	Case=Loc Gender=Neut Number=Sing	19
-in	in	in	CCONJ	-	21	cc	rok	NOUN	Case=Loc Gender=Masc Number=Plur	26
+in	in	in	CCONJ		21	cc	rok	NOUN	Case=Loc Gender=Masc Number=Plur	26
 v	v	v	ADP	Case=Loc	22	case	rok	NOUN	Case=Loc Gender=Masc Number=Plur	26
 zakonsko	zakonsko	zakonsko	ADV	Degree=Pos	23	advmod	določen	ADJ	Case=Loc Degree=Pos Gender=Masc Number=Plur VerbForm=Part	24
 določenih	določenih	določen	ADJ	Case=Loc Degree=Pos Gender=Masc Number=Plur VerbForm=Part	24	amod	rok	NOUN	Case=Loc Gender=Masc Number=Plur	26
 časovnih	časovnih	časoven	ADJ	Case=Loc Degree=Pos Gender=Masc Number=Plur	25	amod	rok	NOUN	Case=Loc Gender=Masc Number=Plur	26
 rokih	rokih	rok	NOUN	Case=Loc Gender=Masc Number=Plur	26	conj	pooblastilo	NOUN	Case=Loc Gender=Neut Number=Sing	19
 <g/>
-.	.	.	PUNCT	-	27	punct	dolžen	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Dual	8
+.	.	.	PUNCT		27	punct	dolžen	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Dual	8
 </s>
 </p>
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg11" lang="Slovenian">
@@ -667,7 +667,7 @@ kategorija	kategorija	kategorija	NOUN	Case=Nom Gender=Fem Number=Sing	7	nsubj	uv
 plačilnih	plačilnih	plačilen	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	8	amod	račun	NOUN	Case=Gen Gender=Masc Number=Plur	9
 računov	računov	račun	NOUN	Case=Gen Gender=Masc Number=Plur	9	nmod	kategorija	NOUN	Case=Nom Gender=Fem Number=Sing	7
 <g/>
-.	.	.	PUNCT	-	10	punct	uvajati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
+.	.	.	PUNCT		10	punct	uvajati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg11.2">
 To	To	ta	DET	Case=Nom Gender=Neut Number=Sing PronType=Dem	1	nsubj	račun	NOUN	Case=Nom Gender=Masc Number=Plur	5
@@ -676,7 +676,7 @@ osnovni	osnovni	osnoven	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Plur	3	amod	r
 plačilni	plačilni	plačilen	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Plur	4	amod	račun	NOUN	Case=Nom Gender=Masc Number=Plur	5
 računi	računi	račun	NOUN	Case=Nom Gender=Masc Number=Plur	5	root	-	-	-	-
 <g/>
-.	.	.	PUNCT	-	6	punct	račun	NOUN	Case=Nom Gender=Masc Number=Plur	5
+.	.	.	PUNCT		6	punct	račun	NOUN	Case=Nom Gender=Masc Number=Plur	5
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg11.3">
 Osnovni	Osnovni	osnoven	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing	1	amod	račun	NOUN	Case=Nom Gender=Masc Number=Sing	3
@@ -690,14 +690,14 @@ določenim	določenim	določen	ADJ	Case=Ins Degree=Pos Gender=Masc Number=Sing V
 naborom	naborom	nabor	NOUN	Case=Ins Gender=Masc Number=Sing	9	nmod	račun	NOUN	Case=Nom Gender=Masc Number=Sing	5
 storitev	storitev	storitev	NOUN	Case=Gen Gender=Fem Number=Plur	10	nmod	nabor	NOUN	Case=Ins Gender=Masc Number=Sing	9
 <g/>
-,	,	,	PUNCT	-	11	punct	opredeljen	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur VerbForm=Part	14
-ki	ki	ki	SCONJ	-	12	mark	opredeljen	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur VerbForm=Part	14
+,	,	,	PUNCT		11	punct	opredeljen	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur VerbForm=Part	14
+ki	ki	ki	SCONJ		12	mark	opredeljen	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur VerbForm=Part	14
 so	so	biti	AUX	Mood=Ind Number=Plur Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	13	cop	opredeljen	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur VerbForm=Part	14
 opredeljene	opredeljene	opredeljen	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur VerbForm=Part	14	acl	storitev	NOUN	Case=Gen Gender=Fem Number=Plur	10
 v	v	v	ADP	Case=Loc	15	case	direktiva	NOUN	Case=Loc Gender=Fem Number=Sing	16
 direktivi	direktivi	direktiva	NOUN	Case=Loc Gender=Fem Number=Sing	16	obl	opredeljen	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur VerbForm=Part	14
 <g/>
-.	.	.	PUNCT	-	17	punct	račun	NOUN	Case=Nom Gender=Masc Number=Sing	5
+.	.	.	PUNCT		17	punct	račun	NOUN	Case=Nom Gender=Masc Number=Sing	5
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg11.4">
 Odprtje	Odprtje	odprtje	NOUN	Case=Nom Gender=Neut Number=Sing	1	nsubj	morati	VERB	Aspect=Imp Gender=Fem Number=Plur VerbForm=Part	6
@@ -718,7 +718,7 @@ pod	pod	pod	ADP	Case=Ins	13	case	pogoj	NOUN	Case=Ins Gender=Masc Number=Plur	15
 nediskriminatornimi	nediskriminatornimi	nediskriminatoren	ADJ	Case=Ins Degree=Pos Gender=Masc Number=Plur	14	amod	pogoj	NOUN	Case=Ins Gender=Masc Number=Plur	15
 pogoji	pogoji	pogoj	NOUN	Case=Ins Gender=Masc Number=Plur	15	nmod	republika	NOUN	Case=Loc Gender=Fem Number=Sing	11
 <g/>
-.	.	.	PUNCT	-	16	punct	morati	VERB	Aspect=Imp Gender=Fem Number=Plur VerbForm=Part	6
+.	.	.	PUNCT		16	punct	morati	VERB	Aspect=Imp Gender=Fem Number=Plur VerbForm=Part	6
 </s>
 </p>
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg12" lang="Slovenian">
@@ -732,34 +732,34 @@ zboru	zboru	zbor	NOUN	Case=Dat Gender=Masc Number=Sing	5	iobj	predlagati	VERB	Mo
 </name>
 predlaga	predlaga	predlagati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6	root	-	-	-	-
 <g/>
-,	,	,	PUNCT	-	7	punct	sprejeti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	16
-da	da	da	SCONJ	-	8	mark	sprejeti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	16
+,	,	,	PUNCT		7	punct	sprejeti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	16
+da	da	da	SCONJ		8	mark	sprejeti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	16
 predlog	predlog	predlog	NOUN	Case=Nom Gender=Masc Number=Sing	9	nsubj	sprejeti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	16
 zakona	zakona	zakon	NOUN	Case=Gen Gender=Masc Number=Sing	10	nmod	predlog	NOUN	Case=Nom Gender=Masc Number=Sing	9
 o	o	o	ADP	Case=Loc	11	case	sprememba	NOUN	Case=Loc Gender=Fem Number=Plur	12
 spremembah	spremembah	sprememba	NOUN	Case=Loc Gender=Fem Number=Plur	12	nmod	zakon	NOUN	Case=Gen Gender=Masc Number=Sing	10
-in	in	in	CCONJ	-	13	cc	dopolnitev	NOUN	Case=Loc Gender=Fem Number=Plur	14
+in	in	in	CCONJ		13	cc	dopolnitev	NOUN	Case=Loc Gender=Fem Number=Plur	14
 dopolnitvah	dopolnitvah	dopolnitev	NOUN	Case=Loc Gender=Fem Number=Plur	14	conj	sprememba	NOUN	Case=Loc Gender=Fem Number=Plur	12
 zakona	zakona	zakon	NOUN	Case=Gen Gender=Masc Number=Sing	15	nmod	dopolnitev	NOUN	Case=Loc Gender=Fem Number=Plur	14
 sprejme	sprejme	sprejeti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	16	ccomp	predlagati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
 <g/>
-.	.	.	PUNCT	-	17	punct	predlagati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
+.	.	.	PUNCT		17	punct	predlagati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg12.2">
 Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 <g/>
-.	.	.	PUNCT	-	2	punct	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1
+.	.	.	PUNCT		2	punct	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1
 </s>
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.u217" text_id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20" subcorpus="Reference" house="Lower house" term="7" session="-" meeting="20" sitting="-" agenda="-" from="2016-06-21" to="2016-06-21" title="Minutes of the National Assembly of the Republic of Slovenia, Term 7, Regular Session 20, 21.6.2016" speaker_role="Regular" speaker_id="LogarAnže" speaker_name="Logar, Anže" speaker_type="MP" speaker_party="SDS" speaker_party_name="Slovenska demokratska stranka" party_status="opposition" speaker_gender="M" speaker_birth="1976">
+<speech id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.u217" text_id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20" subcorpus="Reference" house="Lower house" term="7" session="" meeting="20" sitting="" agenda="" from="2016-06-21" to="2016-06-21" title="Minutes of the National Assembly of the Republic of Slovenia, Term 7, Regular Session 20, 21.6.2016" speaker_role="Regular" speaker_id="LogarAnže" speaker_name="Logar, Anže" speaker_type="MP" speaker_party="SDS" speaker_party_name="Slovenska demokratska stranka" party_status="Opposition" speaker_gender="M" speaker_birth="1976">
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg817" lang="Slovenian">
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg817.1">
 Lep	Lep	lep	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing	1	amod	pozdrav	NOUN	Case=Nom Gender=Masc Number=Sing	2
 pozdrav	pozdrav	pozdrav	NOUN	Case=Nom Gender=Masc Number=Sing	2	root	-	-	-	-
 <g/>
-!	!	!	PUNCT	-	3	punct	pozdrav	NOUN	Case=Nom Gender=Masc Number=Sing	2
+!	!	!	PUNCT		3	punct	pozdrav	NOUN	Case=Nom Gender=Masc Number=Sing	2
 </s>
 </p>
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg818" lang="Slovenian">
@@ -771,7 +771,7 @@ je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fi
 bila	bila	biti	AUX	Gender=Fem Number=Sing VerbForm=Part	5	cop	zanimiv	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	7
 precej	precej	precej	ADV	Degree=Pos	6	advmod	zanimiv	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	7
 zanimiva	zanimiva	zanimiv	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	7	root	-	-	-	-
-in	in	in	CCONJ	-	8	cc	živahen	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	9
+in	in	in	CCONJ		8	cc	živahen	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	9
 živahna	živahna	živahen	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	9	amod	razprava	NOUN	Case=Nom Gender=Fem Number=Sing	10
 razprava	razprava	razprava	NOUN	Case=Nom Gender=Fem Number=Sing	10	nsubj	zanimiv	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	7
 v	v	v	ADP	Case=Loc	11	case	zveza	NOUN	Case=Loc Gender=Fem Number=Sing	12
@@ -785,7 +785,7 @@ v	v	v	ADP	Case=Acc	18	case	funkcija	NOUN	Case=Acc Gender=Fem Number=Sing	20
 sodniško	sodniško	sodniški	ADJ	Case=Acc Degree=Pos Gender=Fem Number=Sing	19	amod	funkcija	NOUN	Case=Acc Gender=Fem Number=Sing	20
 funkcijo	funkcijo	funkcija	NOUN	Case=Acc Gender=Fem Number=Sing	20	nmod	imenovanje	NOUN	Case=Acc Gender=Neut Number=Sing	17
 <g/>
-.	.	.	PUNCT	-	21	punct	zanimiv	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	7
+.	.	.	PUNCT		21	punct	zanimiv	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	7
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg818.2">
 Večkrat	Večkrat	večkrat	ADV	Degree=Cmp	1	advmod	slišati	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	2
@@ -796,17 +796,17 @@ pristranskosti	pristranskosti	pristranskost	NOUN	Case=Loc Gender=Fem Number=Sing
 sodnikov	sodnikov	sodnik	NOUN	Case=Gen Gender=Masc Number=Plur	6	nmod	pristranskost	NOUN	Case=Loc Gender=Fem Number=Sing	5
 na	na	na	ADP	Case=Loc	7	case	stran	NOUN	Case=Loc Gender=Fem Number=Sing	11
 eni	eni	en	NUM	Case=Loc Gender=Fem Number=Sing NumForm=Word NumType=Card	8	nummod	stran	NOUN	Case=Loc Gender=Fem Number=Sing	11
-ali	ali	ali	CCONJ	-	9	cc	drug	ADJ	Case=Loc Gender=Fem Number=Sing	10
+ali	ali	ali	CCONJ		9	cc	drug	ADJ	Case=Loc Gender=Fem Number=Sing	10
 drugi	drugi	drug	ADJ	Case=Loc Gender=Fem Number=Sing	10	conj	en	NUM	Case=Loc Gender=Fem Number=Sing NumForm=Word NumType=Card	8
 strani	strani	stran	NOUN	Case=Loc Gender=Fem Number=Sing	11	nmod	sodnik	NOUN	Case=Gen Gender=Masc Number=Plur	6
 <g/>
-,	,	,	PUNCT	-	12	punct	računati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	15
-in	in	in	CCONJ	-	13	cc	računati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	15
+,	,	,	PUNCT		12	punct	računati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	15
+in	in	in	CCONJ		13	cc	računati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	15
 jaz	jaz	jaz	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	14	nsubj	računati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	15
 računam	računam	računati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	15	conj	slišati	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	2
 <g/>
-,	,	,	PUNCT	-	16	punct	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	21
-da	da	da	SCONJ	-	17	mark	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	21
+,	,	,	PUNCT		16	punct	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	21
+da	da	da	SCONJ		17	mark	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	21
 na	na	na	ADP	Case=Acc	18	case	način	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	20
 nek	nek	nek	DET	Case=Acc Gender=Masc Number=Sing PronType=Ind	19	det	način	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	20
 način	način	način	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	20	obl	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	21
@@ -815,8 +815,8 @@ zavedanje	zavedanje	zavedanje	NOUN	Case=Nom Gender=Neut Number=Sing	22	nsubj	bit
 o	o	o	ADP	Case=Loc	23	case	ta	DET	Case=Loc Gender=Neut Number=Sing PronType=Dem	24
 tem	tem	ta	DET	Case=Loc Gender=Neut Number=Sing PronType=Dem	24	nmod	zavedanje	NOUN	Case=Nom Gender=Neut Number=Sing	22
 <g/>
-,	,	,	PUNCT	-	25	punct	odločati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	36
-da	da	da	SCONJ	-	26	mark	odločati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	36
+,	,	,	PUNCT		25	punct	odločati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	36
+da	da	da	SCONJ		26	mark	odločati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	36
 glede	glede	glede	ADV	Degree=Pos	27	advmod	podlaga	NOUN	Case=Acc Gender=Fem Number=Sing	31
 na	na	na	ADP	Case=Acc	28	case	podlaga	NOUN	Case=Acc Gender=Fem Number=Sing	31
 našo	našo	naš	DET	Case=Acc Gender=Fem Number=Sing Number[psor]=Plur Person=1 Poss=Yes PronType=Prs	29	det	podlaga	NOUN	Case=Acc Gender=Fem Number=Sing	31
@@ -827,12 +827,12 @@ o	o	o	ADP	Case=Loc	33	case	sodnik	NOUN	Case=Loc Gender=Masc Number=Plur	35
 nepristranskih	nepristranskih	nepristranski	ADJ	Case=Loc Degree=Pos Gender=Masc Number=Plur	34	amod	sodnik	NOUN	Case=Loc Gender=Masc Number=Plur	35
 sodnikih	sodnikih	sodnik	NOUN	Case=Loc Gender=Masc Number=Plur	35	obl	odločati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	36
 odloča	odloča	odločati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	36	acl	ta	DET	Case=Loc Gender=Neut Number=Sing PronType=Dem	24
-samo	samo	samo	PART	-	37	advmod	odločati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	36
+samo	samo	samo	PART		37	advmod	odločati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	36
 tisti	tisti	tisti	DET	Case=Nom Gender=Masc Number=Sing PronType=Dem	38	det	trenutek	NOUN	Case=Nom Gender=Masc Number=Sing	39
 trenutek	trenutek	trenutek	NOUN	Case=Nom Gender=Masc Number=Sing	39	nsubj	odločati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	36
 <g/>
-,	,	,	PUNCT	-	40	punct	odločati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	42
-ko	ko	ko	SCONJ	-	41	mark	odločati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	42
+,	,	,	PUNCT		40	punct	odločati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	42
+ko	ko	ko	SCONJ		41	mark	odločati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	42
 odloča	odloča	odločati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	42	acl	trenutek	NOUN	Case=Nom Gender=Masc Number=Sing	39
 o	o	o	ADP	Case=Loc	43	case	imenovanje	NOUN	Case=Loc Gender=Neut Number=Sing	44
 imenovanju	imenovanju	imenovanje	NOUN	Case=Loc Gender=Neut Number=Sing	44	obl	odločati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	42
@@ -840,42 +840,42 @@ v	v	v	ADP	Case=Acc	45	case	funkcija	NOUN	Case=Acc Gender=Fem Number=Sing	47
 sodniško	sodniško	sodniški	ADJ	Case=Acc Degree=Pos Gender=Fem Number=Sing	46	amod	funkcija	NOUN	Case=Acc Gender=Fem Number=Sing	47
 funkcijo	funkcijo	funkcija	NOUN	Case=Acc Gender=Fem Number=Sing	47	nmod	imenovanje	NOUN	Case=Loc Gender=Neut Number=Sing	44
 <g/>
-.	.	.	PUNCT	-	48	punct	slišati	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	2
+.	.	.	PUNCT		48	punct	slišati	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	2
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg818.3">
 Z	Z	z	ADP	Case=Ins	1	case	beseda	NOUN	Case=Ins Gender=Fem Number=Plur	3
 drugimi	drugimi	drug	ADJ	Case=Ins Gender=Fem Number=Plur	2	amod	beseda	NOUN	Case=Ins Gender=Fem Number=Plur	3
 besedami	besedami	beseda	NOUN	Case=Ins Gender=Fem Number=Plur	3	obl	soditi	VERB	Aspect=Imp Gender=Masc Number=Sing VerbForm=Part	17
 <g/>
-,	,	,	PUNCT	-	4	punct	imenovati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
-če	če	če	SCONJ	-	5	mark	imenovati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
+,	,	,	PUNCT		4	punct	imenovati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
+če	če	če	SCONJ		5	mark	imenovati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
 imenuje	imenuje	imenovati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6	acl	beseda	NOUN	Case=Ins Gender=Fem Number=Plur	3
 pristranskega	pristranskega	pristranski	ADJ	Case=Acc Degree=Pos Gender=Masc Number=Sing	7	amod	sodnik	NOUN	Animacy=Anim Case=Acc Gender=Masc Number=Sing	8
 sodnika	sodnika	sodnik	NOUN	Animacy=Anim Case=Acc Gender=Masc Number=Sing	8	obj	imenovati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
 <g/>
-,	,	,	PUNCT	-	9	punct	imenovati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
+,	,	,	PUNCT		9	punct	imenovati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	6
 bo	bo	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Fut VerbForm=Fin	10	aux	soditi	VERB	Aspect=Imp Gender=Masc Number=Sing VerbForm=Part	17
 ta	ta	ta	DET	Case=Nom Gender=Masc Number=Sing PronType=Dem	11	det	sodnik	NOUN	Case=Nom Gender=Masc Number=Sing	13
 pristranski	pristranski	pristranski	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing	12	amod	sodnik	NOUN	Case=Nom Gender=Masc Number=Sing	13
 sodnik	sodnik	sodnik	NOUN	Case=Nom Gender=Masc Number=Sing	13	nsubj	soditi	VERB	Aspect=Imp Gender=Masc Number=Sing VerbForm=Part	17
-tudi	tudi	tudi	PART	-	14	advmod	soditi	VERB	Aspect=Imp Gender=Masc Number=Sing VerbForm=Part	17
+tudi	tudi	tudi	PART		14	advmod	soditi	VERB	Aspect=Imp Gender=Masc Number=Sing VerbForm=Part	17
 verjetno	verjetno	verjetno	ADV	Degree=Pos	15	advmod	soditi	VERB	Aspect=Imp Gender=Masc Number=Sing VerbForm=Part	17
 pristransko	pristransko	pristransko	ADV	Degree=Pos	16	advmod	soditi	VERB	Aspect=Imp Gender=Masc Number=Sing VerbForm=Part	17
 sodil	sodil	soditi	VERB	Aspect=Imp Gender=Masc Number=Sing VerbForm=Part	17	root	-	-	-	-
 <g/>
-.	.	.	PUNCT	-	18	punct	soditi	VERB	Aspect=Imp Gender=Masc Number=Sing VerbForm=Part	17
+.	.	.	PUNCT		18	punct	soditi	VERB	Aspect=Imp Gender=Masc Number=Sing VerbForm=Part	17
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg818.4">
-Zato	Zato	zato	CCONJ	-	1	cc	morati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
+Zato	Zato	zato	CCONJ		1	cc	morati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 mora	mora	morati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 <name type="ORG">
 Državni	Državni	državen	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing	3	amod	zbor	NOUN	Case=Nom Gender=Masc Number=Sing	4
 zbor	zbor	zbor	NOUN	Case=Nom Gender=Masc Number=Sing	4	nsubj	morati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 <g/>
 </name>
-,	,	,	PUNCT	-	5	punct	opraviti	VERB	Aspect=Perf VerbForm=Inf	18
+,	,	,	PUNCT		5	punct	opraviti	VERB	Aspect=Perf VerbForm=Inf	18
 posebej	posebej	posebej	ADV	Degree=Pos	6	advmod	opraviti	VERB	Aspect=Perf VerbForm=Inf	18
-pa	pa	pa	CCONJ	-	7	advmod	opraviti	VERB	Aspect=Perf VerbForm=Inf	18
+pa	pa	pa	CCONJ		7	advmod	opraviti	VERB	Aspect=Perf VerbForm=Inf	18
 v	v	v	ADP	Case=Loc	8	case	funkcija	NOUN	Case=Loc Gender=Fem Number=Sing	10
 prvi	prvi	prvi	ADJ	Case=Loc Gender=Fem Number=Sing NumType=Ord	9	amod	funkcija	NOUN	Case=Loc Gender=Fem Number=Sing	10
 funkciji	funkciji	funkcija	NOUN	Case=Loc Gender=Fem Number=Sing	10	obl	opraviti	VERB	Aspect=Perf VerbForm=Inf	18
@@ -892,12 +892,12 @@ opraviti	opraviti	opraviti	VERB	Aspect=Perf VerbForm=Inf	18	xcomp	morati	VERB	As
 temeljito	temeljito	temeljit	ADJ	Case=Acc Degree=Pos Gender=Fem Number=Sing	19	amod	razprava	NOUN	Case=Acc Gender=Fem Number=Sing	20
 razpravo	razpravo	razprava	NOUN	Case=Acc Gender=Fem Number=Sing	20	obj	opraviti	VERB	Aspect=Perf VerbForm=Inf	18
 <g/>
-.	.	.	PUNCT	-	21	punct	morati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
+.	.	.	PUNCT		21	punct	morati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg818.5">
 Mi	Mi	jaz	PRON	Case=Nom Gender=Masc Number=Plur Person=1 PronType=Prs	1	nsubj	opozoriti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	11
 <g/>
-,	,	,	PUNCT	-	2	punct	predstavnik	NOUN	Case=Nom Gender=Masc Number=Plur	3
+,	,	,	PUNCT		2	punct	predstavnik	NOUN	Case=Nom Gender=Masc Number=Plur	3
 predstavniki	predstavniki	predstavnik	NOUN	Case=Nom Gender=Masc Number=Plur	3	conj	jaz	PRON	Case=Nom Gender=Masc Number=Plur Person=1 PronType=Prs	1
 <name type="ORG">
 Slovenske	Slovenske	slovenski	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Sing	4	amod	stranka	NOUN	Case=Gen Gender=Fem Number=Sing	6
@@ -914,7 +914,7 @@ opozorili	opozorili	opozoriti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=
 na	na	na	ADP	Case=Acc	12	case	nedoslednost	NOUN	Case=Acc Gender=Fem Number=Plur	14
 številne	številne	številen	ADJ	Case=Acc Degree=Pos Gender=Fem Number=Plur	13	amod	nedoslednost	NOUN	Case=Acc Gender=Fem Number=Plur	14
 nedoslednosti	nedoslednosti	nedoslednost	NOUN	Case=Acc Gender=Fem Number=Plur	14	obl	opozoriti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	11
-in	in	in	CCONJ	-	15	cc	praksa	NOUN	Case=Acc Gender=Fem Number=Plur	17
+in	in	in	CCONJ		15	cc	praksa	NOUN	Case=Acc Gender=Fem Number=Plur	17
 pristranske	pristranske	pristranski	ADJ	Case=Acc Degree=Pos Gender=Fem Number=Plur	16	amod	praksa	NOUN	Case=Acc Gender=Fem Number=Plur	17
 prakse	prakse	praksa	NOUN	Case=Acc Gender=Fem Number=Plur	17	conj	nedoslednost	NOUN	Case=Acc Gender=Fem Number=Plur	14
 v	v	v	ADP	Case=Loc	18	case	en	NUM	Case=Loc Gender=Fem Number=Sing NumForm=Word NumType=Card	19
@@ -922,7 +922,7 @@ eni	eni	en	NUM	Case=Loc Gender=Fem Number=Sing NumForm=Word NumType=Card	19	nmod
 od	od	od	ADP	Case=Gen	20	case	kandidatka	NOUN	Case=Gen Gender=Fem Number=Plur	21
 kandidatk	kandidatk	kandidatka	NOUN	Case=Gen Gender=Fem Number=Plur	21	nmod	en	NUM	Case=Loc Gender=Fem Number=Sing NumForm=Word NumType=Card	19
 <g/>
-,	,	,	PUNCT	-	22	punct	govoriti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	24
+,	,	,	PUNCT		22	punct	govoriti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	24
 konkretno	konkretno	konkretno	ADV	Degree=Pos	23	advmod	govoriti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	24
 govorim	govorim	govoriti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	24	parataxis	opozoriti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	11
 o	o	o	ADP	Case=Loc	25	case	kandidatka	NOUN	Case=Loc Gender=Fem Number=Sing	26
@@ -932,17 +932,17 @@ Karmen	Karmen	Karmen	PROPN	Case=Nom Gender=Fem Number=Sing	27	nmod	kandidatka	NO
 Erčulj	Erčulj	Erčulj	PROPN	Case=Nom Gender=Fem Number=Sing	28	flat:name	Karmen	PROPN	Case=Nom Gender=Fem Number=Sing	27
 <g/>
 </name>
-,	,	,	PUNCT	-	29	punct	izhajati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	31
-ki	ki	ki	SCONJ	-	30	mark	izhajati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	31
+,	,	,	PUNCT		29	punct	izhajati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	31
+ki	ki	ki	SCONJ		30	mark	izhajati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	31
 izhaja	izhaja	izhajati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	31	acl	Karmen	PROPN	Case=Nom Gender=Fem Number=Sing	27
 iz	iz	iz	ADP	Case=Gen	32	case	vrsta	NOUN	Case=Gen Gender=Fem Number=Plur	34
 tožilskih	tožilskih	tožilski	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Plur	33	amod	vrsta	NOUN	Case=Gen Gender=Fem Number=Plur	34
 vrst	vrst	vrsta	NOUN	Case=Gen Gender=Fem Number=Plur	34	obl	izhajati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	31
 <g/>
-.	.	.	PUNCT	-	35	punct	opozoriti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	11
+.	.	.	PUNCT		35	punct	opozoriti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	11
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg818.6">
-Namreč	Namreč	namreč	CCONJ	-	1	advmod	praviti	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	8
+Namreč	Namreč	namreč	CCONJ		1	advmod	praviti	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	8
 37.	37.	37.	NUM	NumForm=Digit NumType=Ord	2	nummod	člen	NOUN	Case=Nom Gender=Masc Number=Sing	3
 člen	člen	člen	NOUN	Case=Nom Gender=Masc Number=Sing	3	nsubj	praviti	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	8
 <name type="MISC">
@@ -953,11 +953,11 @@ službi	službi	služba	NOUN	Case=Loc Gender=Fem Number=Sing	7	nmod	zakon	NOUN	C
 </name>
 pravi	pravi	praviti	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	8	root	-	-	-	-
 <g/>
-,	,	,	PUNCT	-	9	punct	citirati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	10
+,	,	,	PUNCT		9	punct	citirati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	10
 citiram	citiram	citirati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	10	parataxis	praviti	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	8
 <g/>
-:	:	:	PUNCT	-	11	punct	morati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	15
-"	"	"	PUNCT	-	12	punct	praviti	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	8
+:	:	:	PUNCT		11	punct	morati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	15
+"	"	"	PUNCT		12	punct	praviti	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	8
 <g/>
 Sodnik	Sodnik	sodnik	NOUN	Case=Nom Gender=Masc Number=Sing	13	nsubj	morati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	15
 se	se	se	PRON	PronType=Prs Reflex=Yes Variant=Short	14	expl	vesti	VERB	Aspect=Imp VerbForm=Inf	17
@@ -966,19 +966,19 @@ vselej	vselej	vselej	ADV	Degree=Pos	16	advmod	vesti	VERB	Aspect=Imp VerbForm=Inf
 vesti	vesti	vesti	VERB	Aspect=Imp VerbForm=Inf	17	xcomp	morati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	15
 tako	tako	tako	ADV	Degree=Pos	18	mark	varovati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	21
 <g/>
-,	,	,	PUNCT	-	19	punct	tako	ADV	Degree=Pos	18
-da	da	da	SCONJ	-	20	fixed	tako	ADV	Degree=Pos	18
+,	,	,	PUNCT		19	punct	tako	ADV	Degree=Pos	18
+da	da	da	SCONJ		20	fixed	tako	ADV	Degree=Pos	18
 varuje	varuje	varovati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	21	advcl	vesti	VERB	Aspect=Imp VerbForm=Inf	17
 nepristranskost	nepristranskost	nepristranskost	NOUN	Case=Acc Gender=Fem Number=Sing	22	obj	varovati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	21
-in	in	in	CCONJ	-	23	cc	neodvisnost	NOUN	Case=Acc Gender=Fem Number=Sing	24
+in	in	in	CCONJ		23	cc	neodvisnost	NOUN	Case=Acc Gender=Fem Number=Sing	24
 neodvisnost	neodvisnost	neodvisnost	NOUN	Case=Acc Gender=Fem Number=Sing	24	conj	nepristranskost	NOUN	Case=Acc Gender=Fem Number=Sing	22
 sojenja	sojenja	sojenje	NOUN	Case=Gen Gender=Neut Number=Sing	25	nmod	neodvisnost	NOUN	Case=Acc Gender=Fem Number=Sing	24
 <g/>
-.	.	.	PUNCT	-	26	punct	varovati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	21
+.	.	.	PUNCT		26	punct	varovati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	21
 <g/>
-"	"	"	PUNCT	-	27	punct	praviti	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	8
-Vendar	Vendar	vendar	CCONJ	-	28	cc	pričati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	33
-pa	pa	pa	CCONJ	-	29	advmod	pričati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	33
+"	"	"	PUNCT		27	punct	praviti	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	8
+Vendar	Vendar	vendar	CCONJ		28	cc	pričati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	33
+pa	pa	pa	CCONJ		29	advmod	pričati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	33
 praksa	praksa	praksa	NOUN	Case=Nom Gender=Fem Number=Sing	30	nsubj	pričati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	33
 dela	dela	del	NOUN	Case=Gen Gender=Masc Number=Sing	31	nmod	praksa	NOUN	Case=Nom Gender=Fem Number=Sing	30
 tožilke	tožilke	tožilka	NOUN	Case=Gen Gender=Fem Number=Sing	32	nmod	del	NOUN	Case=Gen Gender=Masc Number=Sing	31
@@ -987,10 +987,10 @@ o	o	o	ADP	Case=Loc	34	case	nasproten	ADJ	Case=Loc Degree=Pos Gender=Neut Number=
 povsem	povsem	povsem	ADV	Degree=Pos	35	advmod	nasproten	ADJ	Case=Loc Degree=Pos Gender=Neut Number=Sing	36
 nasprotnem	nasprotnem	nasproten	ADJ	Case=Loc Degree=Pos Gender=Neut Number=Sing	36	obl	pričati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	33
 <g/>
-.	.	.	PUNCT	-	37	punct	praviti	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	8
+.	.	.	PUNCT		37	punct	praviti	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	8
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg818.7">
-Ko	Ko	ko	SCONJ	-	1	mark	reči	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	11
+Ko	Ko	ko	SCONJ		1	mark	reči	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	11
 nekdanji	nekdanji	nekdanji	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing	2	amod	minister	NOUN	Case=Nom Gender=Masc Number=Sing	4
 kulturni	kulturni	kulturen	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing	3	amod	minister	NOUN	Case=Nom Gender=Masc Number=Sing	4
 minister	minister	minister	NOUN	Case=Nom Gender=Masc Number=Sing	4	nsubj	reči	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	11
@@ -1010,14 +1010,14 @@ krepko	krepko	krepko	ADV	Degree=Pos	13	advmod	reči	VERB	Aspect=Perf Mood=Ind Nu
 KPK	KPK	KPK	PROPN	Case=Acc Gender=Fem Number=Sing	15	obl	reči	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	11
 <g/>
 </name>
-,	,	,	PUNCT	-	16	punct	voditi	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	22
-ki	ki	ki	SCONJ	-	17	mark	voditi	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	22
+,	,	,	PUNCT		16	punct	voditi	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	22
+ki	ki	ki	SCONJ		17	mark	voditi	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	22
 jo	jo	on	PRON	Case=Acc Gender=Fem Number=Sing Person=3 PronType=Prs Variant=Short	18	obj	voditi	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	22
 v	v	v	ADP	Case=Loc	19	case	čas	NOUN	Case=Loc Gender=Masc Number=Sing	21
 tistem	tistem	tisti	DET	Case=Loc Gender=Masc Number=Sing PronType=Dem	20	det	čas	NOUN	Case=Loc Gender=Masc Number=Sing	21
 času	času	čas	NOUN	Case=Loc Gender=Masc Number=Sing	21	obl	voditi	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	22
 vodi	vodi	voditi	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	22	acl	KPK	PROPN	Case=Acc Gender=Fem Number=Sing	15
-še	še	še	PART	-	23	advmod	voditi	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	22
+še	še	še	PART		23	advmod	voditi	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	22
 danes	danes	danes	ADV	Degree=Pos	24	advmod	voditi	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	22
 pravosodni	pravosodni	pravosoden	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing	25	amod	minister	NOUN	Case=Nom Gender=Masc Number=Sing	26
 minister	minister	minister	NOUN	Case=Nom Gender=Masc Number=Sing	26	nsubj	voditi	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	22
@@ -1026,7 +1026,7 @@ gospod	gospod	gospod	NOUN	Case=Nom Gender=Masc Number=Sing	27	nmod	minister	NOUN
 Klemenčič	Klemenčič	Klemenčič	PROPN	Case=Nom Gender=Masc Number=Sing	28	nmod	gospod	NOUN	Case=Nom Gender=Masc Number=Sing	27
 <g/>
 </name>
-,	,	,	PUNCT	-	29	punct	voditi	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	22
+,	,	,	PUNCT		29	punct	voditi	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	22
 gospa	gospa	gospa	NOUN	Case=Nom Gender=Fem Number=Sing	30	nsubj	začeti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	36
 <name type="PER">
 Karmen	Karmen	Karmen	PROPN	Case=Nom Gender=Fem Number=Sing	31	nmod	gospa	NOUN	Case=Nom Gender=Fem Number=Sing	30
@@ -1044,14 +1044,14 @@ gospoda	gospoda	gospod	NOUN	Animacy=Anim Case=Acc Gender=Masc Number=Sing	40	nmo
 Simonitija	Simonitija	Simoniti	PROPN	Animacy=Anim Case=Gen Gender=Masc Number=Sing	41	nmod	gospod	NOUN	Animacy=Anim Case=Acc Gender=Masc Number=Sing	40
 <g/>
 </name>
-.	.	.	PUNCT	-	42	punct	začeti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	36
+.	.	.	PUNCT		42	punct	začeti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	36
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg818.8">
-Ko	Ko	ko	SCONJ	-	1	mark	pohvaliti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
+Ko	Ko	ko	SCONJ		1	mark	pohvaliti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 najprej	najprej	najprej	ADV	Degree=Sup	2	advmod	pohvaliti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 pohvali	pohvali	pohvaliti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	advcl	učiti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
 <g/>
-,	,	,	PUNCT	-	4	punct	pohvaliti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
+,	,	,	PUNCT		4	punct	pohvaliti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 uči	uči	učiti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5	root	-	-	-	-
 ljubljanskega	ljubljanskega	ljubljanski	ADJ	Case=Acc Degree=Pos Gender=Masc Number=Sing	6	amod	župan	NOUN	Animacy=Anim Case=Acc Gender=Masc Number=Sing	7
 župana	župana	župan	NOUN	Animacy=Anim Case=Acc Gender=Masc Number=Sing	7	obj	učiti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
@@ -1059,7 +1059,7 @@ na	na	na	ADP	Case=Loc	8	case	tek	NOUN	Case=Loc Gender=Masc Number=Sing	10
 nekem	nekem	nek	DET	Case=Loc Gender=Masc Number=Sing PronType=Ind	9	det	tek	NOUN	Case=Loc Gender=Masc Number=Sing	10
 teku	teku	tek	NOUN	Case=Loc Gender=Masc Number=Sing	10	obl	učiti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
 maja	maja	maj	NOUN	Case=Gen Gender=Masc Number=Sing	11	nmod	tek	NOUN	Case=Loc Gender=Masc Number=Sing	10
-in	in	in	CCONJ	-	12	cc	pojaviti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	15
+in	in	in	CCONJ		12	cc	pojaviti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	15
 se	se	se	PRON	PronType=Prs Reflex=Yes Variant=Short	13	expl	pojaviti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	15
 potem	potem	potem	ADV	Degree=Pos	14	advmod	pojaviti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	15
 pojavi	pojavi	pojaviti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	15	conj	učiti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	5
@@ -1069,8 +1069,8 @@ zoper	zoper	zoper	ADP	Case=Acc	18	case	župan	NOUN	Animacy=Anim Case=Acc Gender=
 ljubljanskega	ljubljanskega	ljubljanski	ADJ	Case=Acc Degree=Pos Gender=Masc Number=Sing	19	amod	župan	NOUN	Animacy=Anim Case=Acc Gender=Masc Number=Sing	20
 župana	župana	župan	NOUN	Animacy=Anim Case=Acc Gender=Masc Number=Sing	20	nmod	kolumna	NOUN	Case=Nom Gender=Fem Number=Sing	17
 <g/>
-,	,	,	PUNCT	-	21	punct	pohvaliti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
-pa	pa	pa	CCONJ	-	22	advmod	začeti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	31
+,	,	,	PUNCT		21	punct	pohvaliti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
+pa	pa	pa	CCONJ		22	advmod	začeti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	31
 na	na	na	ADP	Case=Acc	23	case	pobuda	NOUN	Case=Acc Gender=Fem Number=Sing	25
 lastno	lastno	lasten	ADJ	Case=Acc Degree=Pos Gender=Fem Number=Sing	24	amod	pobuda	NOUN	Case=Acc Gender=Fem Number=Sing	25
 pobudo	pobudo	pobuda	NOUN	Case=Acc Gender=Fem Number=Sing	25	obl	začeti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	31
@@ -1089,8 +1089,8 @@ eni	eni	en	NUM	Case=Loc Gender=Fem Number=Sing NumForm=Word NumType=Card	37	nmod
 od	od	od	ADP	Case=Gen	38	case	revija	NOUN	Case=Gen Gender=Fem Number=Plur	39
 revij	revij	revija	NOUN	Case=Gen Gender=Fem Number=Plur	39	nmod	en	NUM	Case=Loc Gender=Fem Number=Sing NumForm=Word NumType=Card	37
 <g/>
-,	,	,	PUNCT	-	40	punct	začeti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	31
-in	in	in	CCONJ	-	41	cc	ta	DET	Case=Nom Gender=Neut Number=Sing PronType=Dem	42
+,	,	,	PUNCT		40	punct	začeti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	31
+in	in	in	CCONJ		41	cc	ta	DET	Case=Nom Gender=Neut Number=Sing PronType=Dem	42
 to	to	ta	DET	Case=Nom Gender=Neut Number=Sing PronType=Dem	42	nsubj	začeti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	31
 na	na	na	ADP	Case=Acc	43	case	predvečer	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	44
 predvečer	predvečer	predvečer	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	44	nmod	ta	DET	Case=Nom Gender=Neut Number=Sing PronType=Dem	42
@@ -1098,8 +1098,8 @@ volitev	volitev	volitev	NOUN	Case=Gen Gender=Fem Number=Plur	45	nmod	predvečer	
 leta	leta	leto	NOUN	Case=Gen Gender=Neut Number=Sing	46	nmod	predvečer	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	44
 2011	2011	2011	NUM	NumForm=Digit NumType=Card	47	nummod	leto	NOUN	Case=Gen Gender=Neut Number=Sing	46
 <g/>
-,	,	,	PUNCT	-	48	punct	leto	NOUN	Case=Gen Gender=Neut Number=Sing	46
-in	in	in	CCONJ	-	49	cc	pokazati	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	55
+,	,	,	PUNCT		48	punct	leto	NOUN	Case=Gen Gender=Neut Number=Sing	46
+in	in	in	CCONJ		49	cc	pokazati	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	55
 s	s	z	ADP	Case=Ins	50	case	ta	DET	Case=Ins Gender=Neut Number=Sing PronType=Dem	51
 tem	tem	ta	DET	Case=Ins Gender=Neut Number=Sing PronType=Dem	51	obl	pokazati	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	55
 na	na	na	ADP	Case=Acc	52	case	način	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	54
@@ -1109,20 +1109,20 @@ pokaže	pokaže	pokazati	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pr
 svojo	svojo	svoj	DET	Case=Acc Gender=Fem Number=Sing Poss=Yes PronType=Prs Reflex=Yes	56	det	pristranskost	NOUN	Case=Acc Gender=Fem Number=Sing	57
 pristranskost	pristranskost	pristranskost	NOUN	Case=Acc Gender=Fem Number=Sing	57	obj	pokazati	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	55
 <g/>
-.	.	.	PUNCT	-	58	punct	začeti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	31
+.	.	.	PUNCT		58	punct	začeti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	31
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg818.9">
-Še	Še	še	PART	-	1	advmod	več	DET	PronType=Ind	2
+Še	Še	še	PART		1	advmod	več	DET	PronType=Ind	2
 več	več	več	DET	PronType=Ind	2	root	-	-	-	-
 <g/>
-.	.	.	PUNCT	-	3	punct	več	DET	PronType=Ind	2
+.	.	.	PUNCT		3	punct	več	DET	PronType=Ind	2
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg818.10">
 V	V	v	ADP	Case=Loc	1	case	pregon	NOUN	Case=Loc Gender=Masc Number=Sing	3
 tistem	tistem	tisti	DET	Case=Loc Gender=Masc Number=Sing PronType=Dem	2	det	pregon	NOUN	Case=Loc Gender=Masc Number=Sing	3
 pregonu	pregonu	pregon	NOUN	Case=Loc Gender=Masc Number=Sing	3	obl	zapisati	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	14
 <g/>
-,	,	,	PUNCT	-	4	punct	način	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	7
+,	,	,	PUNCT		4	punct	način	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	7
 na	na	na	ADP	Case=Acc	5	case	način	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	7
 nek	nek	nek	DET	Case=Acc Gender=Masc Number=Sing PronType=Ind	6	det	način	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	7
 način	način	način	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	7	appos	pregon	NOUN	Case=Loc Gender=Masc Number=Sing	3
@@ -1132,24 +1132,24 @@ uporaba	uporaba	uporaba	NOUN	Case=Nom Gender=Fem Number=Sing	8	nmod	način	NOUN	
 verbalnega	verbalnega	verbalen	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Sing	11	amod	delikt	NOUN	Case=Gen Gender=Masc Number=Sing	12
 delikta	delikta	delikt	NOUN	Case=Gen Gender=Masc Number=Sing	12	nmod	člen	NOUN	Case=Gen Gender=Masc Number=Sing	10
 <g/>
-,	,	,	PUNCT	-	13	punct	način	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	7
+,	,	,	PUNCT		13	punct	način	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	7
 zapiše	zapiše	zapisati	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	14	root	-	-	-	-
 <g/>
-,	,	,	PUNCT	-	15	punct	citirati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	16
+,	,	,	PUNCT		15	punct	citirati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	16
 citiram	citiram	citirati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	16	parataxis	zapisati	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	14
 <g/>
-:	:	:	PUNCT	-	17	punct	govoriti	VERB	Aspect=Imp Gender=Masc Number=Sing VerbForm=Part	22
-"	"	"	PUNCT	-	18	punct	zapisati	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	14
+:	:	:	PUNCT		17	punct	govoriti	VERB	Aspect=Imp Gender=Masc Number=Sing VerbForm=Part	22
+"	"	"	PUNCT		18	punct	zapisati	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	14
 <g/>
 Članek	Članek	članek	NOUN	Case=Nom Gender=Masc Number=Sing	19	nsubj	govoriti	VERB	Aspect=Imp Gender=Masc Number=Sing VerbForm=Part	22
-naj	naj	naj	PART	-	20	advmod	govoriti	VERB	Aspect=Imp Gender=Masc Number=Sing VerbForm=Part	22
+naj	naj	naj	PART		20	advmod	govoriti	VERB	Aspect=Imp Gender=Masc Number=Sing VerbForm=Part	22
 bi	bi	biti	AUX	Mood=Cnd VerbForm=Fin	21	aux	govoriti	VERB	Aspect=Imp Gender=Masc Number=Sing VerbForm=Part	22
 govoril	govoril	govoriti	VERB	Aspect=Imp Gender=Masc Number=Sing VerbForm=Part	22	parataxis	zapisati	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	14
 o	o	o	ADP	Case=Loc	23	case	zaslužek	NOUN	Case=Loc Gender=Masc Number=Sing	25
 domnevnem	domnevnem	domneven	ADJ	Case=Loc Degree=Pos Gender=Masc Number=Sing	24	amod	zaslužek	NOUN	Case=Loc Gender=Masc Number=Sing	25
 zaslužku	zaslužku	zaslužek	NOUN	Case=Loc Gender=Masc Number=Sing	25	obl	govoriti	VERB	Aspect=Imp Gender=Masc Number=Sing VerbForm=Part	22
 <g/>
-,	,	,	PUNCT	-	26	punct	posel	NOUN	Case=Loc Gender=Masc Number=Sing	27
+,	,	,	PUNCT		26	punct	posel	NOUN	Case=Loc Gender=Masc Number=Sing	27
 poslu	poslu	posel	NOUN	Case=Loc Gender=Masc Number=Sing	27	conj	zaslužek	NOUN	Case=Loc Gender=Masc Number=Sing	25
 s	s	z	ADP	Case=Ins	28	case	travnik	NOUN	Case=Ins Gender=Masc Number=Sing	29
 travnikom	travnikom	travnik	NOUN	Case=Ins Gender=Masc Number=Sing	29	nmod	posel	NOUN	Case=Loc Gender=Masc Number=Sing	27
@@ -1158,17 +1158,17 @@ severni	severni	severen	ADJ	Case=Loc Degree=Pos Gender=Fem Number=Sing	31	amod	o
 ljubljanski	ljubljanski	ljubljanski	ADJ	Case=Loc Degree=Pos Gender=Fem Number=Sing	32	amod	obvoznica	NOUN	Case=Loc Gender=Fem Number=Sing	33
 obvoznici	obvoznici	obvoznica	NOUN	Case=Loc Gender=Fem Number=Sing	33	nmod	travnik	NOUN	Case=Ins Gender=Masc Number=Sing	29
 <g/>
-,	,	,	PUNCT	-	34	punct	iti	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	37
+,	,	,	PUNCT		34	punct	iti	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	37
 dejansko	dejansko	dejansko	ADV	Degree=Pos	35	advmod	iti	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	37
-pa	pa	pa	CCONJ	-	36	advmod	iti	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	37
+pa	pa	pa	CCONJ		36	advmod	iti	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	37
 gre	gre	iti	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	37	parataxis	zapisati	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	14
 za	za	za	ADP	Case=Acc	38	case	širjenje	NOUN	Case=Acc Gender=Neut Number=Sing	39
 širjenje	širjenje	širjenje	NOUN	Case=Acc Gender=Neut Number=Sing	39	obl	iti	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	37
 neresničnih	neresničnih	neresničen	ADJ	Case=Gen Degree=Pos Gender=Neut Number=Plur	40	amod	dejstvo	NOUN	Case=Gen Gender=Neut Number=Plur	45
 <g/>
-,	,	,	PUNCT	-	41	punct	zaničevalen	ADJ	Case=Gen Degree=Pos Gender=Neut Number=Plur	42
+,	,	,	PUNCT		41	punct	zaničevalen	ADJ	Case=Gen Degree=Pos Gender=Neut Number=Plur	42
 zaničevalnih	zaničevalnih	zaničevalen	ADJ	Case=Gen Degree=Pos Gender=Neut Number=Plur	42	conj	neresničen	ADJ	Case=Gen Degree=Pos Gender=Neut Number=Plur	40
-in	in	in	CCONJ	-	43	cc	žaljiv	ADJ	Case=Gen Degree=Pos Gender=Neut Number=Plur	44
+in	in	in	CCONJ		43	cc	žaljiv	ADJ	Case=Gen Degree=Pos Gender=Neut Number=Plur	44
 žaljivih	žaljivih	žaljiv	ADJ	Case=Gen Degree=Pos Gender=Neut Number=Plur	44	conj	neresničen	ADJ	Case=Gen Degree=Pos Gender=Neut Number=Plur	40
 dejstev	dejstev	dejstvo	NOUN	Case=Gen Gender=Neut Number=Plur	45	nmod	širjenje	NOUN	Case=Acc Gender=Neut Number=Sing	39
 v	v	v	ADP	Case=Loc	46	case	zveza	NOUN	Case=Loc Gender=Fem Number=Sing	47
@@ -1177,30 +1177,30 @@ s	s	z	ADP	Case=Ins	48	case	župan	NOUN	Case=Ins Gender=Masc Number=Sing	50
 ljubljanskim	ljubljanskim	ljubljanski	ADJ	Case=Ins Degree=Pos Gender=Masc Number=Sing	49	amod	župan	NOUN	Case=Ins Gender=Masc Number=Sing	50
 županom	županom	župan	NOUN	Case=Ins Gender=Masc Number=Sing	50	nmod	zveza	NOUN	Case=Loc Gender=Fem Number=Sing	47
 <g/>
-.	.	.	PUNCT	-	51	punct	vedeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	57
+.	.	.	PUNCT		51	punct	vedeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	57
 <g/>
-"	"	"	PUNCT	-	52	punct	vedeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	57
+"	"	"	PUNCT		52	punct	vedeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	57
 Kako	Kako	kako	ADV	Degree=Pos	53	advmod	vedeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	57
-pa	pa	pa	CCONJ	-	54	advmod	vedeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	57
+pa	pa	pa	CCONJ		54	advmod	vedeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	57
 tožilka	tožilka	tožilka	NOUN	Case=Nom Gender=Fem Number=Sing	55	nsubj	vedeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	57
 to	to	ta	DET	Case=Acc Gender=Neut Number=Sing PronType=Dem	56	obj	vedeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	57
 ve	ve	vedeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	57	advcl	iti	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	37
 <g/>
-?	?	?	PUNCT	-	58	punct	zapisati	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	14
+?	?	?	PUNCT		58	punct	zapisati	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	14
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg818.11">
 Kako	Kako	kako	ADV	Degree=Pos	1	advmod	vedeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
-pa	pa	pa	CCONJ	-	2	advmod	vedeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
+pa	pa	pa	CCONJ		2	advmod	vedeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 ve	ve	vedeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3	root	-	-	-	-
 <g/>
-,	,	,	PUNCT	-	4	punct	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	6
-da	da	da	SCONJ	-	5	mark	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	6
+,	,	,	PUNCT		4	punct	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	6
+da	da	da	SCONJ		5	mark	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	6
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	6	ccomp	vedeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 uvodnik	uvodnik	uvodnik	NOUN	Case=Nom Gender=Masc Number=Sing	7	nsubj	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	6
 nekega	nekega	nek	DET	Case=Gen Gender=Masc Number=Sing PronType=Ind	8	det	članek	NOUN	Case=Gen Gender=Masc Number=Sing	9
 članka	članka	članek	NOUN	Case=Gen Gender=Masc Number=Sing	9	nmod	uvodnik	NOUN	Case=Nom Gender=Masc Number=Sing	7
-oziroma	oziroma	oziroma	CCONJ	-	10	cc	iti	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	12
-da	da	da	SCONJ	-	11	mark	iti	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	12
+oziroma	oziroma	oziroma	CCONJ		10	cc	iti	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	12
+da	da	da	SCONJ		11	mark	iti	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	12
 gre	gre	iti	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	12	conj	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	6
 v	v	v	ADP	Case=Loc	13	case	primer	NOUN	Case=Loc Gender=Masc Number=Sing	15
 tem	tem	ta	DET	Case=Loc Gender=Masc Number=Sing PronType=Dem	14	det	primer	NOUN	Case=Loc Gender=Masc Number=Sing	15
@@ -1209,10 +1209,10 @@ za	za	za	ADP	Case=Acc	16	case	širjenje	NOUN	Case=Acc Gender=Neut Number=Sing	17
 širjenje	širjenje	širjenje	NOUN	Case=Acc Gender=Neut Number=Sing	17	obl	iti	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	12
 neresničnih	neresničnih	neresničen	ADJ	Case=Gen Degree=Pos Gender=Neut Number=Plur	18	amod	dejstvo	NOUN	Case=Gen Gender=Neut Number=Plur	23
 <g/>
-,	,	,	PUNCT	-	19	punct	zaničevalen	ADJ	Case=Gen Degree=Pos Gender=Neut Number=Plur	20
+,	,	,	PUNCT		19	punct	zaničevalen	ADJ	Case=Gen Degree=Pos Gender=Neut Number=Plur	20
 zaničevalnih	zaničevalnih	zaničevalen	ADJ	Case=Gen Degree=Pos Gender=Neut Number=Plur	20	conj	neresničen	ADJ	Case=Gen Degree=Pos Gender=Neut Number=Plur	18
 <g/>
-,	,	,	PUNCT	-	21	punct	žaljiv	ADJ	Case=Gen Degree=Pos Gender=Neut Number=Plur	22
+,	,	,	PUNCT		21	punct	žaljiv	ADJ	Case=Gen Degree=Pos Gender=Neut Number=Plur	22
 žaljivih	žaljivih	žaljiv	ADJ	Case=Gen Degree=Pos Gender=Neut Number=Plur	22	conj	neresničen	ADJ	Case=Gen Degree=Pos Gender=Neut Number=Plur	18
 dejstev	dejstev	dejstvo	NOUN	Case=Gen Gender=Neut Number=Plur	23	nmod	širjenje	NOUN	Case=Acc Gender=Neut Number=Sing	17
 v	v	v	ADP	Case=Loc	24	case	zveza	NOUN	Case=Loc Gender=Fem Number=Sing	25
@@ -1221,14 +1221,14 @@ z	z	z	ADP	Case=Ins	26	case	župan	NOUN	Case=Ins Gender=Masc Number=Sing	28
 ljubljanskim	ljubljanskim	ljubljanski	ADJ	Case=Ins Degree=Pos Gender=Masc Number=Sing	27	amod	župan	NOUN	Case=Ins Gender=Masc Number=Sing	28
 županom	županom	župan	NOUN	Case=Ins Gender=Masc Number=Sing	28	nmod	zveza	NOUN	Case=Loc Gender=Fem Number=Sing	25
 <g/>
-?	?	?	PUNCT	-	29	punct	vedeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
+?	?	?	PUNCT		29	punct	vedeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg818.12">
-Ja	Ja	ja	PART	-	1	discourse	prebrati	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	6
-seveda	seveda	seveda	PART	-	2	fixed	ja	PART	-	1
+Ja	Ja	ja	PART		1	discourse	prebrati	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	6
+seveda	seveda	seveda	PART		2	fixed	ja	PART		1
 <g/>
-,	,	,	PUNCT	-	3	punct	seveda	PART	-	2
-saj	saj	saj	CCONJ	-	4	cc	prebrati	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	6
+,	,	,	PUNCT		3	punct	seveda	PART		2
+saj	saj	saj	CCONJ		4	cc	prebrati	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	6
 smo	smo	biti	AUX	Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	5	aux	prebrati	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	6
 prebrali	prebrali	prebrati	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	6	root	-	-	-	-
 pol	pol	pol	DET	PronType=Ind	7	det	leto	NOUN	Case=Gen Gender=Neut Number=Sing	8
@@ -1239,10 +1239,10 @@ njenem	njenem	njen	DET	Case=Loc Gender=Masc Gender[psor]=Fem Number=Sing Number[
 facebook	facebook	facebook	NOUN	Case=Nom Gender=Masc Number=Sing	12	nmod	profil	NOUN	Case=Loc Gender=Masc Number=Sing	13
 profilu	profilu	profil	NOUN	Case=Loc Gender=Masc Number=Sing	13	obl	prebrati	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	6
 <g/>
-.	.	.	PUNCT	-	14	punct	prebrati	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	6
+.	.	.	PUNCT		14	punct	prebrati	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	6
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg818.13">
-Ko	Ko	ko	SCONJ	-	1	mark	seznaniti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	8
+Ko	Ko	ko	SCONJ		1	mark	seznaniti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	8
 smo	smo	biti	AUX	Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	2	aux	seznaniti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	8
 predsednico	predsednico	predsednica	NOUN	Case=Acc Gender=Fem Number=Sing	3	obj	seznaniti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	8
 <name type="ORG">
@@ -1253,13 +1253,13 @@ s	s	z	ADP	Case=Ins	6	case	ta	DET	Case=Ins Gender=Neut Number=Sing PronType=Dem	7
 tem	tem	ta	DET	Case=Ins Gender=Neut Number=Sing PronType=Dem	7	obl	seznaniti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	8
 seznanili	seznanili	seznaniti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	8	advcl	povedati	VERB	Aspect=Perf Gender=Fem Number=Sing VerbForm=Part	11
 <g/>
-,	,	,	PUNCT	-	9	punct	seznaniti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	8
+,	,	,	PUNCT		9	punct	seznaniti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	8
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	10	aux	povedati	VERB	Aspect=Perf Gender=Fem Number=Sing VerbForm=Part	11
 povedala	povedala	povedati	VERB	Aspect=Perf Gender=Fem Number=Sing VerbForm=Part	11	root	-	-	-	-
 <g/>
-,	,	,	PUNCT	-	12	punct	vedeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	20
-da	da	da	SCONJ	-	13	mark	vedeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	20
-pač	pač	pač	PART	-	14	advmod	vedeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	20
+,	,	,	PUNCT		12	punct	vedeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	20
+da	da	da	SCONJ		13	mark	vedeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	20
+pač	pač	pač	PART		14	advmod	vedeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	20
 o	o	o	ADP	Case=Loc	15	case	zadeva	NOUN	Case=Loc Gender=Fem Number=Plur	17
 teh	teh	ta	DET	Case=Loc Gender=Fem Number=Plur PronType=Dem	16	det	zadeva	NOUN	Case=Loc Gender=Fem Number=Plur	17
 zadevah	zadevah	zadeva	NOUN	Case=Loc Gender=Fem Number=Plur	17	obl	vedeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	20
@@ -1267,17 +1267,17 @@ nič	nič	nič	PRON	Case=Nom Gender=Neut Number=Sing PronType=Neg	18	obj	vedeti	
 ne	ne	ne	PART	Polarity=Neg	19	advmod	vedeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	20
 ve	ve	vedeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	20	ccomp	povedati	VERB	Aspect=Perf Gender=Fem Number=Sing VerbForm=Part	11
 <g/>
-.	.	.	PUNCT	-	21	punct	povedati	VERB	Aspect=Perf Gender=Fem Number=Sing VerbForm=Part	11
+.	.	.	PUNCT		21	punct	povedati	VERB	Aspect=Perf Gender=Fem Number=Sing VerbForm=Part	11
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg818.14">
-Ko	Ko	ko	SCONJ	-	1	mark	prositi	VERB	Aspect=Imp Gender=Masc Number=Plur VerbForm=Part	5
+Ko	Ko	ko	SCONJ		1	mark	prositi	VERB	Aspect=Imp Gender=Masc Number=Plur VerbForm=Part	5
 smo	smo	biti	AUX	Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	2	aux	prositi	VERB	Aspect=Imp Gender=Masc Number=Plur VerbForm=Part	5
-pa	pa	pa	CCONJ	-	3	advmod	prositi	VERB	Aspect=Imp Gender=Masc Number=Plur VerbForm=Part	5
+pa	pa	pa	CCONJ		3	advmod	prositi	VERB	Aspect=Imp Gender=Masc Number=Plur VerbForm=Part	5
 jo	jo	on	PRON	Case=Acc Gender=Fem Number=Sing Person=3 PronType=Prs Variant=Short	4	obj	prositi	VERB	Aspect=Imp Gender=Masc Number=Plur VerbForm=Part	5
 prosili	prosili	prositi	VERB	Aspect=Imp Gender=Masc Number=Plur VerbForm=Part	5	advcl	določati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	20
 <g/>
-,	,	,	PUNCT	-	6	punct	opraviti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	14
-da	da	da	SCONJ	-	7	mark	opraviti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	14
+,	,	,	PUNCT		6	punct	opraviti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	14
+da	da	da	SCONJ		7	mark	opraviti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	14
 skladno	skladno	skladno	ADV	Degree=Pos	8	advmod	opraviti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	14
 z	z	z	ADP	Case=Ins	9	case	akt	NOUN	Case=Ins Gender=Masc Number=Plur	11
 internimi	internimi	interen	ADJ	Case=Ins Degree=Pos Gender=Masc Number=Plur	10	amod	akt	NOUN	Case=Ins Gender=Masc Number=Plur	11
@@ -1288,15 +1288,15 @@ opravi	opravi	opraviti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres
 test	test	test	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	15	obj	opraviti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	14
 nepristranskosti	nepristranskosti	nepristranskost	NOUN	Case=Gen Gender=Fem Number=Sing	16	nmod	test	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	15
 <g/>
-,	,	,	PUNCT	-	17	punct	določati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	20
+,	,	,	PUNCT		17	punct	določati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	20
 kar	kar	kar	PRON	Case=Nom Gender=Neut Number=Sing PronType=Rel	18	nsubj	določati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	20
-tudi	tudi	tudi	PART	-	19	advmod	določati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	20
+tudi	tudi	tudi	PART		19	advmod	določati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	20
 določa	določa	določati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	20	root	-	-	-	-
 v	v	v	ADP	Case=Loc	21	case	primer	NOUN	Case=Loc Gender=Masc Number=Sing	22
 primeru	primeru	primer	NOUN	Case=Loc Gender=Masc Number=Sing	22	obl	določati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	20
 <g/>
-,	,	,	PUNCT	-	23	punct	pojaviti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	26
-da	da	da	SCONJ	-	24	mark	pojaviti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	26
+,	,	,	PUNCT		23	punct	pojaviti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	26
+da	da	da	SCONJ		24	mark	pojaviti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	26
 se	se	se	PRON	PronType=Prs Reflex=Yes Variant=Short	25	expl	pojaviti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	26
 pojavi	pojavi	pojaviti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	26	acl	primer	NOUN	Case=Loc Gender=Masc Number=Sing	22
 sum	sum	sum	NOUN	Case=Nom Gender=Masc Number=Sing	27	nsubj	pojaviti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	26
@@ -1304,23 +1304,23 @@ nepristranskosti	nepristranskosti	nepristranskost	NOUN	Case=Gen Gender=Fem Numbe
 pri	pri	pri	ADP	Case=Loc	29	case	kandidat	NOUN	Case=Loc Gender=Masc Number=Plur	30
 kandidatih	kandidatih	kandidat	NOUN	Case=Loc Gender=Masc Number=Plur	30	nmod	nepristranskost	NOUN	Case=Gen Gender=Fem Number=Sing	28
 <g/>
-,	,	,	PUNCT	-	31	punct	pojaviti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	26
-pa	pa	pa	CCONJ	-	32	advmod	pripravljen	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing VerbForm=Part	35
+,	,	,	PUNCT		31	punct	pojaviti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	26
+pa	pa	pa	CCONJ		32	advmod	pripravljen	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing VerbForm=Part	35
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	33	aux	pripravljen	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing VerbForm=Part	35
 bila	bila	biti	AUX	Gender=Fem Number=Sing VerbForm=Part	34	cop	pripravljen	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing VerbForm=Part	35
 pripravljena	pripravljena	pripravljen	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing VerbForm=Part	35	parataxis	določati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	20
 to	to	ta	DET	Case=Acc Gender=Neut Number=Sing PronType=Dem	36	obj	narediti	VERB	Aspect=Perf VerbForm=Inf	37
 narediti	narediti	narediti	VERB	Aspect=Perf VerbForm=Inf	37	ccomp	pripravljen	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing VerbForm=Part	35
 <g/>
-,	,	,	PUNCT	-	38	punct	pripravljen	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing VerbForm=Part	35
+,	,	,	PUNCT		38	punct	pripravljen	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing VerbForm=Part	35
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	39	aux	pripravljen	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing VerbForm=Part	41
 bila	bila	biti	AUX	Gender=Fem Number=Sing VerbForm=Part	40	cop	pripravljen	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing VerbForm=Part	41
 pripravljena	pripravljena	pripravljen	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing VerbForm=Part	41	parataxis	pripravljen	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing VerbForm=Part	35
 to	to	ta	DET	Case=Acc Gender=Neut Number=Sing PronType=Dem	42	obj	narediti	VERB	Aspect=Perf VerbForm=Inf	43
 narediti	narediti	narediti	VERB	Aspect=Perf VerbForm=Inf	43	ccomp	pripravljen	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing VerbForm=Part	41
 <g/>
-,	,	,	PUNCT	-	44	punct	pripravljen	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing VerbForm=Part	41
-ampak	ampak	ampak	CCONJ	-	45	cc	podpreti	VERB	Aspect=Perf Gender=Fem Number=Sing VerbForm=Part	51
+,	,	,	PUNCT		44	punct	pripravljen	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing VerbForm=Part	41
+ampak	ampak	ampak	CCONJ		45	cc	podpreti	VERB	Aspect=Perf Gender=Fem Number=Sing VerbForm=Part	51
 žal	žal	žal	ADV	Degree=Pos	46	advmod	podpreti	VERB	Aspect=Perf Gender=Fem Number=Sing VerbForm=Part	51
 vladajoča	vladajoča	vladajoč	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing VerbForm=Part	47	amod	koalicija	NOUN	Case=Nom Gender=Fem Number=Sing	48
 koalicija	koalicija	koalicija	NOUN	Case=Nom Gender=Fem Number=Sing	48	nsubj	podpreti	VERB	Aspect=Perf Gender=Fem Number=Sing VerbForm=Part	51
@@ -1328,24 +1328,24 @@ tega	tega	ta	DET	Case=Gen Gender=Neut Number=Sing PronType=Dem	49	obj	podpreti	V
 ni	ni	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin	50	aux	podpreti	VERB	Aspect=Perf Gender=Fem Number=Sing VerbForm=Part	51
 podprla	podprla	podpreti	VERB	Aspect=Perf Gender=Fem Number=Sing VerbForm=Part	51	conj	narediti	VERB	Aspect=Perf VerbForm=Inf	43
 <g/>
-.	.	.	PUNCT	-	52	punct	pripravljen	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing VerbForm=Part	35
+.	.	.	PUNCT		52	punct	pripravljen	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing VerbForm=Part	35
 </s>
 </p>
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg819" lang="Slovenian">
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg819.1">
-Naj	Naj	naj	PART	-	1	advmod	poudariti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
-še	še	še	PART	-	2	advmod	poudariti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
+Naj	Naj	naj	PART		1	advmod	poudariti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
+še	še	še	PART		2	advmod	poudariti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
 poudarim	poudarim	poudariti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3	root	-	-	-	-
 <g/>
-,	,	,	PUNCT	-	4	punct	doseči	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	41
-da	da	da	SCONJ	-	5	mark	doseči	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	41
+,	,	,	PUNCT		4	punct	doseči	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	41
+da	da	da	SCONJ		5	mark	doseči	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	41
 vsi	vsi	ves	DET	Case=Nom Gender=Masc Number=Plur PronType=Tot	6	det	poskus	NOUN	Case=Nom Gender=Masc Number=Plur	8
 ti	ti	ta	DET	Case=Nom Gender=Masc Number=Plur PronType=Dem	7	det	poskus	NOUN	Case=Nom Gender=Masc Number=Plur	8
 poskusi	poskusi	poskus	NOUN	Case=Nom Gender=Masc Number=Plur	8	nsubj	doseči	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	41
 utišanja	utišanja	utišanje	NOUN	Case=Gen Gender=Neut Number=Sing	9	nmod	poskus	NOUN	Case=Nom Gender=Masc Number=Plur	8
-ali	ali	ali	CCONJ	-	10	cc	opozicija	NOUN	Case=Gen Gender=Fem Number=Sing	11
+ali	ali	ali	CCONJ		10	cc	opozicija	NOUN	Case=Gen Gender=Fem Number=Sing	11
 opozicije	opozicije	opozicija	NOUN	Case=Gen Gender=Fem Number=Sing	11	conj	utišanje	NOUN	Case=Gen Gender=Neut Number=Sing	9
-ali	ali	ali	CCONJ	-	12	cc	medij	NOUN	Case=Gen Gender=Masc Number=Plur	13
+ali	ali	ali	CCONJ		12	cc	medij	NOUN	Case=Gen Gender=Masc Number=Plur	13
 medijev	medijev	medij	NOUN	Case=Gen Gender=Masc Number=Plur	13	conj	utišanje	NOUN	Case=Gen Gender=Neut Number=Sing	9
 v	v	v	ADP	Case=Loc	14	case	zveza	NOUN	Case=Loc Gender=Fem Number=Sing	15
 zvezi	zvezi	zveza	NOUN	Case=Loc Gender=Fem Number=Sing	15	nmod	poskus	NOUN	Case=Nom Gender=Masc Number=Plur	8
@@ -1356,47 +1356,47 @@ besed	besed	beseda	NOUN	Case=Gen Gender=Fem Number=Plur	19	nmod	izražanje	NOUN	
 o	o	o	ADP	Case=Loc	20	case	župan	NOUN	Case=Loc Gender=Masc Number=Sing	22
 ljubljanskem	ljubljanskem	ljubljanski	ADJ	Case=Loc Degree=Pos Gender=Masc Number=Sing	21	amod	župan	NOUN	Case=Loc Gender=Masc Number=Sing	22
 županu	županu	župan	NOUN	Case=Loc Gender=Masc Number=Sing	22	nmod	beseda	NOUN	Case=Gen Gender=Fem Number=Plur	19
-ali	ali	ali	CCONJ	-	23	cc	kdo	PRON	Case=Loc Gender=Masc Number=Sing PronType=Int	27
-pa	pa	pa	CCONJ	-	24	advmod	nagnjen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	32
-še	še	še	PART	-	25	advmod	doseči	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	41
+ali	ali	ali	CCONJ		23	cc	kdo	PRON	Case=Loc Gender=Masc Number=Sing PronType=Int	27
+pa	pa	pa	CCONJ		24	advmod	nagnjen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	32
+še	še	še	PART		25	advmod	doseči	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	41
 o	o	o	ADP	Case=Loc	26	case	kdo	PRON	Case=Loc Gender=Masc Number=Sing PronType=Int	27
 kom	kom	kdo	PRON	Case=Loc Gender=Masc Number=Sing PronType=Int	27	conj	župan	NOUN	Case=Loc Gender=Masc Number=Sing	22
 <g/>
-,	,	,	PUNCT	-	28	punct	nagnjen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	32
-ki	ki	ki	SCONJ	-	29	mark	nagnjen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	32
+,	,	,	PUNCT		28	punct	nagnjen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	32
+ki	ki	ki	SCONJ		29	mark	nagnjen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	32
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	30	cop	nagnjen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	32
-morda	morda	morda	PART	-	31	advmod	nagnjen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	32
+morda	morda	morda	PART		31	advmod	nagnjen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	32
 nagnjen	nagnjen	nagnjen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	32	acl	kdo	PRON	Case=Loc Gender=Masc Number=Sing PronType=Int	27
 malce	malce	malce	ADV	Degree=Pos	33	advmod	bolj	ADV	Degree=Cmp	34
 bolj	bolj	bolj	ADV	Degree=Cmp	34	advmod	nagnjen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	32
 v	v	v	ADP	Case=Acc	35	case	levo	ADV	Degree=Pos	36
 levo	levo	levo	ADV	Degree=Pos	36	advmod	nagnjen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	32
 <g/>
-,	,	,	PUNCT	-	37	punct	nagnjen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	32
+,	,	,	PUNCT		37	punct	nagnjen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	32
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	38	aux	doseči	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	41
 na	na	na	ADP	Case=Loc	39	case	sodišče	NOUN	Case=Loc Gender=Neut Number=Sing	40
 sodišču	sodišču	sodišče	NOUN	Case=Loc Gender=Neut Number=Sing	40	obl	doseči	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	41
 dosegel	dosegel	doseči	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	41	parataxis	poudariti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
 epilog	epilog	epilog	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	42	obj	doseči	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	41
 <g/>
-,	,	,	PUNCT	-	43	punct	morati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	49
+,	,	,	PUNCT		43	punct	morati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	49
 takšen	takšen	takšen	DET	Case=Nom Gender=Masc Number=Sing PronType=Dem	44	nsubj	doseči	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	41
-kot	kot	kot	SCONJ	-	45	case	država	NOUN	Case=Loc Gender=Fem Number=Sing	48
+kot	kot	kot	SCONJ		45	case	država	NOUN	Case=Loc Gender=Fem Number=Sing	48
 v	v	v	ADP	Case=Loc	46	case	država	NOUN	Case=Loc Gender=Fem Number=Sing	48
 pravni	pravni	praven	ADJ	Case=Loc Degree=Pos Gender=Fem Number=Sing	47	amod	država	NOUN	Case=Loc Gender=Fem Number=Sing	48
 državi	državi	država	NOUN	Case=Loc Gender=Fem Number=Sing	48	obl	morati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	49
 mora	mora	morati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	49	acl	takšen	DET	Case=Nom Gender=Masc Number=Sing PronType=Dem	44
 <g/>
-.	.	.	PUNCT	-	50	punct	poudariti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
+.	.	.	PUNCT		50	punct	poudariti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg819.2">
-Ampak	Ampak	ampak	CCONJ	-	1	cc	postavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
+Ampak	Ampak	ampak	CCONJ		1	cc	postavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
 vseeno	vseeno	vseeno	ADV	Degree=Pos	2	advmod	postavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
 se	se	se	PRON	PronType=Prs Reflex=Yes Variant=Short	3	expl	postavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
 postavlja	postavlja	postavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4	root	-	-	-	-
 vprašanje	vprašanje	vprašanje	NOUN	Case=Nom Gender=Neut Number=Sing	5	nsubj	postavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
 <g/>
-,	,	,	PUNCT	-	6	punct	podpreti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	13
+,	,	,	PUNCT		6	punct	podpreti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	13
 ali	ali	ali	ADV	Degree=Pos	7	mark	podpreti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	13
 lahko	lahko	lahko	ADV	Degree=Pos	8	advmod	podpreti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	13
 <name type="ORG">
@@ -1407,8 +1407,8 @@ takšnega	takšnega	takšen	DET	Case=Gen Gender=Masc Number=Sing PronType=Dem	11
 sodnika	sodnika	sodnik	NOUN	Case=Gen Gender=Masc Number=Sing	12	nmod	zbor	NOUN	Case=Nom Gender=Masc Number=Sing	10
 podpre	podpre	podpreti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	13	acl	vprašanje	NOUN	Case=Nom Gender=Neut Number=Sing	5
 <g/>
-,	,	,	PUNCT	-	14	punct	imeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	16
-ker	ker	ker	SCONJ	-	15	mark	imeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	16
+,	,	,	PUNCT		14	punct	imeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	16
+ker	ker	ker	SCONJ		15	mark	imeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	16
 ima	ima	imeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	16	advcl	podpreti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	13
 <name type="ORG">
 Državni	Državni	državen	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing	17	amod	zbor	NOUN	Case=Nom Gender=Masc Number=Sing	18
@@ -1418,24 +1418,24 @@ vlogo	vlogo	vloga	NOUN	Case=Acc Gender=Fem Number=Sing	19	obj	imeti	VERB	Aspect=
 v	v	v	ADP	Case=Loc	20	case	postopek	NOUN	Case=Loc Gender=Masc Number=Sing	22
 tem	tem	ta	DET	Case=Loc Gender=Masc Number=Sing PronType=Dem	21	det	postopek	NOUN	Case=Loc Gender=Masc Number=Sing	22
 postopku	postopku	postopek	NOUN	Case=Loc Gender=Masc Number=Sing	22	obl	imeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	16
-samo	samo	samo	PART	-	23	advmod	imeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	16
+samo	samo	samo	PART		23	advmod	imeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	16
 v	v	v	ADP	Case=Loc	24	case	faza	NOUN	Case=Loc Gender=Fem Number=Sing	26
 prvi	prvi	prvi	ADJ	Case=Loc Gender=Fem Number=Sing NumType=Ord	25	amod	faza	NOUN	Case=Loc Gender=Fem Number=Sing	26
 fazi	fazi	faza	NOUN	Case=Loc Gender=Fem Number=Sing	26	obl	imeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	16
 <g/>
-,	,	,	PUNCT	-	27	punct	imeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	16
-torej	torej	torej	CCONJ	-	28	advmod	faza	NOUN	Case=Loc Gender=Fem Number=Sing	30
+,	,	,	PUNCT		27	punct	imeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	16
+torej	torej	torej	CCONJ		28	advmod	faza	NOUN	Case=Loc Gender=Fem Number=Sing	30
 v	v	v	ADP	Case=Loc	29	case	faza	NOUN	Case=Loc Gender=Fem Number=Sing	30
 fazi	fazi	faza	NOUN	Case=Loc Gender=Fem Number=Sing	30	appos	faza	NOUN	Case=Loc Gender=Fem Number=Sing	26
 imenovanja	imenovanja	imenovanje	NOUN	Case=Gen Gender=Neut Number=Sing	31	nmod	faza	NOUN	Case=Loc Gender=Fem Number=Sing	30
 <g/>
-,	,	,	PUNCT	-	32	punct	pogled	NOUN	Case=Loc Gender=Masc Number=Sing	35
+,	,	,	PUNCT		32	punct	pogled	NOUN	Case=Loc Gender=Masc Number=Sing	35
 v	v	v	ADP	Case=Loc	33	case	pogled	NOUN	Case=Loc Gender=Masc Number=Sing	35
 tem	tem	ta	DET	Case=Loc Gender=Masc Number=Sing PronType=Dem	34	det	pogled	NOUN	Case=Loc Gender=Masc Number=Sing	35
 pogledu	pogledu	pogled	NOUN	Case=Loc Gender=Masc Number=Sing	35	conj	faza	NOUN	Case=Loc Gender=Fem Number=Sing	30
 <g/>
-,	,	,	PUNCT	-	36	punct	narediti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	43
-če	če	če	SCONJ	-	37	mark	narediti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	43
+,	,	,	PUNCT		36	punct	narediti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	43
+če	če	če	SCONJ		37	mark	narediti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	43
 bo	bo	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Fut VerbForm=Fin	38	aux	narediti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	43
 <name type="ORG">
 Državni	Državni	državen	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing	39	amod	zbor	NOUN	Case=Nom Gender=Masc Number=Sing	40
@@ -1445,9 +1445,9 @@ to	to	ta	DET	Case=Acc Gender=Fem Number=Sing PronType=Dem	41	det	potrditev	NOUN	
 potrditev	potrditev	potrditev	NOUN	Case=Acc Gender=Fem Number=Sing	42	obj	narediti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	43
 naredil	naredil	narediti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	43	acl	pogled	NOUN	Case=Loc Gender=Masc Number=Sing	35
 <g/>
-,	,	,	PUNCT	-	44	punct	opravljen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	52
+,	,	,	PUNCT		44	punct	opravljen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	52
 ne	ne	ne	PART	Polarity=Neg	45	mark	opravljen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	52
-da	da	da	SCONJ	-	46	fixed	ne	PART	Polarity=Neg	45
+da	da	da	SCONJ		46	fixed	ne	PART	Polarity=Neg	45
 bi	bi	biti	AUX	Mood=Cnd VerbForm=Fin	47	aux	opravljen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	52
 bil	bil	biti	AUX	Gender=Masc Number=Sing VerbForm=Part	48	cop	opravljen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	52
 ta	ta	ta	DET	Case=Nom Gender=Masc Number=Sing PronType=Dem	49	det	test	NOUN	Case=Nom Gender=Masc Number=Sing	50
@@ -1455,7 +1455,7 @@ test	test	test	NOUN	Case=Nom Gender=Masc Number=Sing	50	nsubj	opravljen	ADJ	Case
 nepristranskosti	nepristranskosti	nepristranskost	NOUN	Case=Gen Gender=Fem Number=Sing	51	nmod	test	NOUN	Case=Nom Gender=Masc Number=Sing	50
 opravljen	opravljen	opravljen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	52	advcl	opraviti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	60
 <g/>
-,	,	,	PUNCT	-	53	punct	opravljen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	52
+,	,	,	PUNCT		53	punct	opravljen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	52
 <name type="ORG">
 Državni	Državni	državen	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing	54	amod	zbor	NOUN	Case=Nom Gender=Masc Number=Sing	55
 zbor	zbor	zbor	NOUN	Case=Nom Gender=Masc Number=Sing	55	nsubj	opraviti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	60
@@ -1466,31 +1466,31 @@ ne	ne	ne	PART	Polarity=Neg	58	advmod	opraviti	VERB	Aspect=Perf Gender=Masc Numbe
 bo	bo	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Fut VerbForm=Fin	59	aux	opraviti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	60
 opravil	opravil	opraviti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	60	parataxis	postavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
 <g/>
-,	,	,	PUNCT	-	61	punct	opraviti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	60
-in	in	in	CCONJ	-	62	cc	zgoditi	VERB	Aspect=Perf Gender=Neut Number=Sing VerbForm=Part	66
-morda	morda	morda	PART	-	63	advmod	zgoditi	VERB	Aspect=Perf Gender=Neut Number=Sing VerbForm=Part	66
+,	,	,	PUNCT		61	punct	opraviti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	60
+in	in	in	CCONJ		62	cc	zgoditi	VERB	Aspect=Perf Gender=Neut Number=Sing VerbForm=Part	66
+morda	morda	morda	PART		63	advmod	zgoditi	VERB	Aspect=Perf Gender=Neut Number=Sing VerbForm=Part	66
 se	se	se	PRON	PronType=Prs Reflex=Yes Variant=Short	64	expl	zgoditi	VERB	Aspect=Perf Gender=Neut Number=Sing VerbForm=Part	66
 bo	bo	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Fut VerbForm=Fin	65	aux	zgoditi	VERB	Aspect=Perf Gender=Neut Number=Sing VerbForm=Part	66
 zgodilo	zgodilo	zgoditi	VERB	Aspect=Perf Gender=Neut Number=Sing VerbForm=Part	66	conj	opraviti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	60
 <g/>
-,	,	,	PUNCT	-	67	punct	spustiti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	73
-da	da	da	SCONJ	-	68	mark	spustiti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	73
+,	,	,	PUNCT		67	punct	spustiti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	73
+da	da	da	SCONJ		68	mark	spustiti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	73
 bomo	bomo	biti	AUX	Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Fut VerbForm=Fin	69	aux	spustiti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	73
 v	v	v	ADP	Case=Acc	70	case	sistem	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	72
 pravosodni	pravosodni	pravosoden	ADJ	Case=Acc Definite=Def Degree=Pos Gender=Masc Number=Sing	71	amod	sistem	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	72
 sistem	sistem	sistem	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	72	obl	spustiti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	73
 spustili	spustili	spustiti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	73	csubj	zgoditi	VERB	Aspect=Perf Gender=Neut Number=Sing VerbForm=Part	66
-še	še	še	PART	-	74	advmod	spustiti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	73
+še	še	še	PART		74	advmod	spustiti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	73
 enega	enega	en	NUM	Case=Acc Gender=Masc Number=Sing NumForm=Word NumType=Card	75	nummod	sodnik	NOUN	Animacy=Anim Case=Acc Gender=Masc Number=Sing	77
 pristranskega	pristranskega	pristranski	ADJ	Case=Acc Degree=Pos Gender=Masc Number=Sing	76	amod	sodnik	NOUN	Animacy=Anim Case=Acc Gender=Masc Number=Sing	77
 sodnika	sodnika	sodnik	NOUN	Animacy=Anim Case=Acc Gender=Masc Number=Sing	77	obj	spustiti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	73
 <g/>
-.	.	.	PUNCT	-	78	punct	postavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
+.	.	.	PUNCT		78	punct	postavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
 </s>
 </p>
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg820" lang="Slovenian">
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg820.1">
-Zato	Zato	zato	CCONJ	-	1	cc	podpreti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	10
+Zato	Zato	zato	CCONJ		1	cc	podpreti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	10
 v	v	v	ADP	Case=Loc	2	case	stranka	NOUN	Case=Loc Gender=Fem Number=Sing	5
 <name type="ORG">
 Slovenski	Slovenski	slovenski	ADJ	Case=Loc Degree=Pos Gender=Fem Number=Sing	3	amod	stranka	NOUN	Case=Loc Gender=Fem Number=Sing	5
@@ -1503,12 +1503,12 @@ ne	ne	ne	PART	Polarity=Neg	8	advmod	podpreti	VERB	Aspect=Perf Gender=Masc Number
 bomo	bomo	biti	AUX	Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Fut VerbForm=Fin	9	aux	podpreti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	10
 podprli	podprli	podpreti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	10	root	-	-	-	-
 <g/>
-.	.	.	PUNCT	-	11	punct	podpreti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	10
+.	.	.	PUNCT		11	punct	podpreti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	10
 </s>
 </p>
 </speech>
 <note type="speaker" content="PREDSEDNIK DR. MILAN BRGLEZ:"/>
-<speech id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.u218" text_id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20" subcorpus="Reference" house="Lower house" term="7" session="-" meeting="20" sitting="-" agenda="-" from="2016-06-21" to="2016-06-21" title="Minutes of the National Assembly of the Republic of Slovenia, Term 7, Regular Session 20, 21.6.2016" speaker_role="Chairperson" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka modernega centra" party_status="-" speaker_gender="M" speaker_birth="1967">
+<speech id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.u218" text_id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20" subcorpus="Reference" house="Lower house" term="7" session="" meeting="20" sitting="" agenda="" from="2016-06-21" to="2016-06-21" title="Minutes of the National Assembly of the Republic of Slovenia, Term 7, Regular Session 20, 21.6.2016" speaker_role="Chairperson" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_type="MP" speaker_party="SMC" speaker_party_name="Stranka modernega centra" party_status="" speaker_gender="M" speaker_birth="1967">
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg821" lang="Slovenian">
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg821.1">
 Zaključili	Zaključili	zaključiti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	1	root	-	-	-	-
@@ -1518,7 +1518,7 @@ predstavitvijo	predstavitvijo	predstavitev	NOUN	Case=Ins Gender=Fem Number=Sing	
 stališča	stališča	stališče	NOUN	Case=Gen Gender=Neut Number=Sing	5	nmod	predstavitev	NOUN	Case=Ins Gender=Fem Number=Sing	4
 poslanske	poslanske	poslanski	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Sing	6	amod	skupina	NOUN	Case=Gen Gender=Fem Number=Sing	7
 skupine	skupine	skupina	NOUN	Case=Gen Gender=Fem Number=Sing	7	nmod	stališče	NOUN	Case=Gen Gender=Neut Number=Sing	5
-in	in	in	CCONJ	-	8	cc	prehajati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	9
+in	in	in	CCONJ		8	cc	prehajati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	9
 prehajamo	prehajamo	prehajati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	9	conj	zaključiti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	1
 na	na	na	ADP	Case=Acc	10	case	odločanje	NOUN	Case=Acc Gender=Neut Number=Sing	11
 odločanje	odločanje	odločanje	NOUN	Case=Acc Gender=Neut Number=Sing	11	obl	prehajati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	9
@@ -1526,7 +1526,7 @@ o	o	o	ADP	Case=Loc	12	case	predlog	NOUN	Case=Loc Gender=Masc Number=Plur	13
 predlogih	predlogih	predlog	NOUN	Case=Loc Gender=Masc Number=Plur	13	nmod	odločanje	NOUN	Case=Acc Gender=Neut Number=Sing	11
 sklepov	sklepov	sklep	NOUN	Case=Gen Gender=Masc Number=Plur	14	nmod	predlog	NOUN	Case=Loc Gender=Masc Number=Plur	13
 <g/>
-.	.	.	PUNCT	-	15	punct	zaključiti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	1
+.	.	.	PUNCT		15	punct	zaključiti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	1
 </s>
 </p>
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg822" lang="Slovenian">
@@ -1551,7 +1551,7 @@ sodnice	sodnice	sodnica	NOUN	Case=Gen Gender=Fem Number=Sing	15	nmod	mesto	NOUN	
 na	na	na	ADP	Case=Loc	16	case	sodišče	NOUN	Case=Loc Gender=Neut Number=Sing	20
 <name type="ORG">
 Delovnem	Delovnem	deloven	ADJ	Case=Loc Degree=Pos Gender=Neut Number=Sing	17	amod	sodišče	NOUN	Case=Loc Gender=Neut Number=Sing	20
-in	in	in	CCONJ	-	18	cc	socialen	ADJ	Case=Loc Degree=Pos Gender=Neut Number=Sing	19
+in	in	in	CCONJ		18	cc	socialen	ADJ	Case=Loc Degree=Pos Gender=Neut Number=Sing	19
 socialnem	socialnem	socialen	ADJ	Case=Loc Degree=Pos Gender=Neut Number=Sing	19	conj	deloven	ADJ	Case=Loc Degree=Pos Gender=Neut Number=Sing	17
 sodišču	sodišču	sodišče	NOUN	Case=Loc Gender=Neut Number=Sing	20	nmod	sodnica	NOUN	Case=Gen Gender=Fem Number=Sing	15
 </name>
@@ -1560,32 +1560,32 @@ v	v	v	ADP	Case=Loc	21	case	Ljubljana	PROPN	Case=Loc Gender=Fem Number=Sing	22
 Ljubljani	Ljubljani	Ljubljana	PROPN	Case=Loc Gender=Fem Number=Sing	22	nmod	sodišče	NOUN	Case=Loc Gender=Neut Number=Sing	20
 <g/>
 </name>
-.	.	.	PUNCT	-	23	punct	dajati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
+.	.	.	PUNCT		23	punct	dajati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
 </s>
 </p>
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg823" lang="Slovenian">
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg823.1">
 Glasujemo	Glasujemo	glasovati	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 <g/>
-.	.	.	PUNCT	-	2	punct	glasovati	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
+.	.	.	PUNCT		2	punct	glasovati	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg823.2">
 Navzočih	Navzočih	navzoč	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	1	root	-	-	-	-
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	2	cop	navzoč	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	1
 68	68	68	NUM	NumForm=Digit NumType=Card	3	nummod	poslanka	NOUN	Case=Gen Gender=Fem Number=Plur	4
 poslank	poslank	poslanka	NOUN	Case=Gen Gender=Fem Number=Plur	4	nsubj	navzoč	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	1
-in	in	in	CCONJ	-	5	cc	poslanec	NOUN	Case=Gen Gender=Masc Number=Plur	6
+in	in	in	CCONJ		5	cc	poslanec	NOUN	Case=Gen Gender=Masc Number=Plur	6
 poslancev	poslancev	poslanec	NOUN	Case=Gen Gender=Masc Number=Plur	6	conj	poslanka	NOUN	Case=Gen Gender=Fem Number=Plur	4
 <g/>
-,	,	,	PUNCT	-	7	punct	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
+,	,	,	PUNCT		7	punct	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
 za	za	za	ADP	Case=Acc	8	mark	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	9	aux	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
 glasovalo	glasovalo	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10	parataxis	navzoč	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	1
 47	47	47	NUM	NumForm=Digit NumType=Card	11	advmod	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
 <g/>
-,	,	,	PUNCT	-	12	punct	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
+,	,	,	PUNCT		12	punct	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
 proti	proti	proti	ADP	Case=Dat	13	case	6.	NUM	NumForm=Digit NumType=Ord	15
-pa	pa	pa	CCONJ	-	14	advmod	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
+pa	pa	pa	CCONJ		14	advmod	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
 6.	6.	6.	NUM	NumForm=Digit NumType=Ord	15	conj	47	NUM	NumForm=Digit NumType=Card	11
 </s>
 </p>
@@ -1595,13 +1595,13 @@ pa	pa	pa	CCONJ	-	14	advmod	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg825.1">
 Ugotavljam	Ugotavljam	ugotavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 <g/>
-,	,	,	PUNCT	-	2	punct	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6
-da	da	da	SCONJ	-	3	mark	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6
+,	,	,	PUNCT		2	punct	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6
+da	da	da	SCONJ		3	mark	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	4	cop	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6
 sklep	sklep	sklep	NOUN	Case=Nom Gender=Masc Number=Sing	5	nsubj	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6
 sprejet	sprejet	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6	ccomp	ugotavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 <g/>
-.	.	.	PUNCT	-	7	punct	ugotavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
+.	.	.	PUNCT		7	punct	ugotavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 </s>
 </p>
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg826" lang="Slovenian">
@@ -1633,32 +1633,32 @@ v	v	v	ADP	Case=Loc	19	case	Ljubljana	PROPN	Case=Loc Gender=Fem Number=Sing	20
 Ljubljani	Ljubljani	Ljubljana	PROPN	Case=Loc Gender=Fem Number=Sing	20	nmod	sodišče	NOUN	Case=Loc Gender=Neut Number=Sing	18
 <g/>
 </name>
-.	.	.	PUNCT	-	21	punct	dajati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
+.	.	.	PUNCT		21	punct	dajati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
 </s>
 </p>
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg827" lang="Slovenian">
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg827.1">
 Glasujemo	Glasujemo	glasovati	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 <g/>
-.	.	.	PUNCT	-	2	punct	glasovati	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
+.	.	.	PUNCT		2	punct	glasovati	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg827.2">
 Navzočih	Navzočih	navzoč	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	1	root	-	-	-	-
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	2	cop	navzoč	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	1
 69	69	69	NUM	NumForm=Digit NumType=Card	3	nummod	poslanka	NOUN	Case=Gen Gender=Fem Number=Plur	4
 poslank	poslank	poslanka	NOUN	Case=Gen Gender=Fem Number=Plur	4	nsubj	navzoč	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	1
-in	in	in	CCONJ	-	5	cc	poslanec	NOUN	Case=Gen Gender=Masc Number=Plur	6
+in	in	in	CCONJ		5	cc	poslanec	NOUN	Case=Gen Gender=Masc Number=Plur	6
 poslancev	poslancev	poslanec	NOUN	Case=Gen Gender=Masc Number=Plur	6	conj	poslanka	NOUN	Case=Gen Gender=Fem Number=Plur	4
 <g/>
-,	,	,	PUNCT	-	7	punct	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
+,	,	,	PUNCT		7	punct	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
 za	za	za	ADP	Case=Acc	8	mark	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	9	aux	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
 glasovalo	glasovalo	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10	parataxis	navzoč	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	1
 48	48	48	NUM	NumForm=Digit NumType=Card	11	advmod	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
 <g/>
-,	,	,	PUNCT	-	12	punct	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
+,	,	,	PUNCT		12	punct	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
 proti	proti	proti	ADP	Case=Dat	13	case	15.	NUM	NumForm=Digit NumType=Ord	15
-pa	pa	pa	CCONJ	-	14	advmod	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
+pa	pa	pa	CCONJ		14	advmod	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
 15.	15.	15.	NUM	NumForm=Digit NumType=Ord	15	conj	48	NUM	NumForm=Digit NumType=Card	11
 </s>
 </p>
@@ -1668,13 +1668,13 @@ pa	pa	pa	CCONJ	-	14	advmod	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg829.1">
 Ugotavljam	Ugotavljam	ugotavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 <g/>
-,	,	,	PUNCT	-	2	punct	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6
-da	da	da	SCONJ	-	3	mark	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6
+,	,	,	PUNCT		2	punct	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6
+da	da	da	SCONJ		3	mark	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	4	cop	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6
 sklep	sklep	sklep	NOUN	Case=Nom Gender=Masc Number=Sing	5	nsubj	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6
 sprejet	sprejet	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6	ccomp	ugotavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 <g/>
-.	.	.	PUNCT	-	7	punct	ugotavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
+.	.	.	PUNCT		7	punct	ugotavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 </s>
 </p>
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg830" lang="Slovenian">
@@ -1706,32 +1706,32 @@ v	v	v	ADP	Case=Loc	19	case	Ljubljana	PROPN	Case=Loc Gender=Fem Number=Sing	20
 Ljubljani	Ljubljani	Ljubljana	PROPN	Case=Loc Gender=Fem Number=Sing	20	nmod	sodišče	NOUN	Case=Loc Gender=Neut Number=Sing	18
 <g/>
 </name>
-.	.	.	PUNCT	-	21	punct	dajati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
+.	.	.	PUNCT		21	punct	dajati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
 </s>
 </p>
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg831" lang="Slovenian">
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg831.1">
 Glasujemo	Glasujemo	glasovati	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 <g/>
-.	.	.	PUNCT	-	2	punct	glasovati	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
+.	.	.	PUNCT		2	punct	glasovati	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg831.2">
 Navzočih	Navzočih	navzoč	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	1	root	-	-	-	-
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	2	cop	navzoč	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	1
 70	70	70	NUM	NumForm=Digit NumType=Card	3	nummod	poslanka	NOUN	Case=Gen Gender=Fem Number=Plur	4
 poslank	poslank	poslanka	NOUN	Case=Gen Gender=Fem Number=Plur	4	nsubj	navzoč	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	1
-in	in	in	CCONJ	-	5	cc	poslanec	NOUN	Case=Gen Gender=Masc Number=Plur	6
+in	in	in	CCONJ		5	cc	poslanec	NOUN	Case=Gen Gender=Masc Number=Plur	6
 poslancev	poslancev	poslanec	NOUN	Case=Gen Gender=Masc Number=Plur	6	conj	poslanka	NOUN	Case=Gen Gender=Fem Number=Plur	4
 <g/>
-,	,	,	PUNCT	-	7	punct	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
+,	,	,	PUNCT		7	punct	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
 za	za	za	ADP	Case=Acc	8	mark	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	9	aux	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
 glasovalo	glasovalo	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10	parataxis	navzoč	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	1
 49	49	49	NUM	NumForm=Digit NumType=Card	11	advmod	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
 <g/>
-,	,	,	PUNCT	-	12	punct	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
+,	,	,	PUNCT		12	punct	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
 proti	proti	proti	ADP	Case=Dat	13	case	1.	NUM	NumForm=Digit NumType=Ord	15
-pa	pa	pa	CCONJ	-	14	advmod	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
+pa	pa	pa	CCONJ		14	advmod	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
 1.	1.	1.	NUM	NumForm=Digit NumType=Ord	15	conj	49	NUM	NumForm=Digit NumType=Card	11
 </s>
 </p>
@@ -1741,13 +1741,13 @@ pa	pa	pa	CCONJ	-	14	advmod	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg833.1">
 Ugotavljam	Ugotavljam	ugotavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 <g/>
-,	,	,	PUNCT	-	2	punct	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6
-da	da	da	SCONJ	-	3	mark	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6
+,	,	,	PUNCT		2	punct	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6
+da	da	da	SCONJ		3	mark	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	4	cop	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6
 sklep	sklep	sklep	NOUN	Case=Nom Gender=Masc Number=Sing	5	nsubj	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6
 sprejet	sprejet	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6	ccomp	ugotavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 <g/>
-.	.	.	PUNCT	-	7	punct	ugotavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
+.	.	.	PUNCT		7	punct	ugotavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 </s>
 </p>
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg834" lang="Slovenian">
@@ -1769,7 +1769,7 @@ Republike	Republike	republika	NOUN	Case=Gen Gender=Fem Number=Sing	13	nmod	komun
 Slovenije	Slovenije	Slovenija	PROPN	Case=Gen Gender=Fem Number=Sing	14	nmod	republika	NOUN	Case=Gen Gender=Fem Number=Sing	13
 <g/>
 </name>
-.	.	.	PUNCT	-	15	punct	prehajati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
+.	.	.	PUNCT		15	punct	prehajati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg834.2">
 Predlog	Predlog	predlog	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	1	obj	predložiti	VERB	Aspect=Perf Gender=Fem Number=Sing VerbForm=Part	7
@@ -1784,7 +1784,7 @@ Mandatno-volilna	Mandatno-volilna	mandatnovvolilen	ADJ	Case=Nom Degree=Pos Gende
 komisija	komisija	komisija	NOUN	Case=Nom Gender=Fem Number=Sing	9	nsubj	predložiti	VERB	Aspect=Perf Gender=Fem Number=Sing VerbForm=Part	7
 <g/>
 </name>
-.	.	.	PUNCT	-	10	punct	predložiti	VERB	Aspect=Perf Gender=Fem Number=Sing VerbForm=Part	7
+.	.	.	PUNCT		10	punct	predložiti	VERB	Aspect=Perf Gender=Fem Number=Sing VerbForm=Part	7
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg834.3">
 Prijavljenih	Prijavljenih	prijavljen	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur VerbForm=Part	1	nsubj	biti	VERB	Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin	4
@@ -1792,7 +1792,7 @@ k	k	k	ADP	Case=Dat	2	case	razprava	NOUN	Case=Dat Gender=Fem Number=Sing	3
 razpravi	razpravi	razprava	NOUN	Case=Dat Gender=Fem Number=Sing	3	nmod	prijavljen	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur VerbForm=Part	1
 ni	ni	biti	VERB	Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin	4	root	-	-	-	-
 <g/>
-.	.	.	PUNCT	-	5	punct	biti	VERB	Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin	4
+.	.	.	PUNCT		5	punct	biti	VERB	Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin	4
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg834.4">
 Prehajamo	Prehajamo	prehajati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
@@ -1813,32 +1813,32 @@ Republike	Republike	republika	NOUN	Case=Gen Gender=Fem Number=Sing	14	nmod	komun
 Slovenije	Slovenije	Slovenija	PROPN	Case=Gen Gender=Fem Number=Sing	15	nmod	republika	NOUN	Case=Gen Gender=Fem Number=Sing	14
 <g/>
 </name>
-.	.	.	PUNCT	-	16	punct	prehajati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
+.	.	.	PUNCT		16	punct	prehajati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
 </s>
 </p>
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg835" lang="Slovenian">
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg835.1">
 Glasujemo	Glasujemo	glasovati	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 <g/>
-.	.	.	PUNCT	-	2	punct	glasovati	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
+.	.	.	PUNCT		2	punct	glasovati	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg835.2">
 Navzočih	Navzočih	navzoč	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	1	root	-	-	-	-
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	2	cop	navzoč	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	1
 72	72	72	NUM	NumForm=Digit NumType=Card	3	nummod	poslanka	NOUN	Case=Gen Gender=Fem Number=Plur	4
 poslank	poslank	poslanka	NOUN	Case=Gen Gender=Fem Number=Plur	4	nsubj	navzoč	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	1
-in	in	in	CCONJ	-	5	cc	poslanec	NOUN	Case=Gen Gender=Masc Number=Plur	6
+in	in	in	CCONJ		5	cc	poslanec	NOUN	Case=Gen Gender=Masc Number=Plur	6
 poslancev	poslancev	poslanec	NOUN	Case=Gen Gender=Masc Number=Plur	6	conj	poslanka	NOUN	Case=Gen Gender=Fem Number=Plur	4
 <g/>
-,	,	,	PUNCT	-	7	punct	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
+,	,	,	PUNCT		7	punct	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
 za	za	za	ADP	Case=Acc	8	mark	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	9	aux	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
 glasovalo	glasovalo	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10	parataxis	navzoč	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	1
 50	50	50	NUM	NumForm=Digit NumType=Card	11	advmod	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
 <g/>
-,	,	,	PUNCT	-	12	punct	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
+,	,	,	PUNCT		12	punct	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
 proti	proti	proti	ADP	Case=Dat	13	case	1.	NUM	NumForm=Digit NumType=Ord	15
-pa	pa	pa	CCONJ	-	14	advmod	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
+pa	pa	pa	CCONJ		14	advmod	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
 1.	1.	1.	NUM	NumForm=Digit NumType=Ord	15	conj	50	NUM	NumForm=Digit NumType=Card	11
 </s>
 </p>
@@ -1848,13 +1848,13 @@ pa	pa	pa	CCONJ	-	14	advmod	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg837.1">
 Ugotavljam	Ugotavljam	ugotavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 <g/>
-,	,	,	PUNCT	-	2	punct	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6
-da	da	da	SCONJ	-	3	mark	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6
+,	,	,	PUNCT		2	punct	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6
+da	da	da	SCONJ		3	mark	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	4	cop	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6
 sklep	sklep	sklep	NOUN	Case=Nom Gender=Masc Number=Sing	5	nsubj	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6
 sprejet	sprejet	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6	ccomp	ugotavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 <g/>
-.	.	.	PUNCT	-	7	punct	ugotavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
+.	.	.	PUNCT		7	punct	ugotavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 </s>
 </p>
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg838" lang="Slovenian">
@@ -1867,7 +1867,7 @@ sklepa	sklepa	sklep	NOUN	Case=Gen Gender=Masc Number=Sing	5	nmod	predlog	NOUN	Ca
 o	o	o	ADP	Case=Loc	6	case	razrešitev	NOUN	Case=Loc Gender=Fem Number=Sing	7
 razrešitvi	razrešitvi	razrešitev	NOUN	Case=Loc Gender=Fem Number=Sing	7	nmod	sklep	NOUN	Case=Gen Gender=Masc Number=Sing	5
 podpredsednika	podpredsednika	podpredsednik	NOUN	Case=Gen Gender=Masc Number=Sing	8	nmod	razrešitev	NOUN	Case=Loc Gender=Fem Number=Sing	7
-in	in	in	CCONJ	-	9	cc	imenovanje	NOUN	Case=Loc Gender=Neut Number=Sing	10
+in	in	in	CCONJ		9	cc	imenovanje	NOUN	Case=Loc Gender=Neut Number=Sing	10
 imenovanju	imenovanju	imenovanje	NOUN	Case=Loc Gender=Neut Number=Sing	10	conj	razrešitev	NOUN	Case=Loc Gender=Fem Number=Sing	7
 podpredsednice	podpredsednice	podpredsednica	NOUN	Case=Gen Gender=Fem Number=Sing	11	nmod	imenovanje	NOUN	Case=Loc Gender=Neut Number=Sing	10
 <name type="ORG">
@@ -1877,7 +1877,7 @@ zunanjo	zunanjo	zunanji	ADJ	Case=Acc Degree=Pos Gender=Fem Number=Sing	14	amod	p
 politiko	politiko	politika	NOUN	Case=Acc Gender=Fem Number=Sing	15	nmod	odbor	NOUN	Case=Gen Gender=Masc Number=Sing	12
 <g/>
 </name>
-.	.	.	PUNCT	-	16	punct	prehajati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
+.	.	.	PUNCT		16	punct	prehajati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg838.2">
 Predlog	Predlog	predlog	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	1	obj	predložiti	VERB	Aspect=Perf Gender=Fem Number=Sing VerbForm=Part	7
@@ -1896,7 +1896,7 @@ upokojencev	upokojencev	upokojenec	NOUN	Case=Gen Gender=Masc Number=Plur	12	nmod
 Slovenije	Slovenije	Slovenija	PROPN	Case=Gen Gender=Fem Number=Sing	13	nmod	upokojenec	NOUN	Case=Gen Gender=Masc Number=Plur	12
 <g/>
 </name>
-.	.	.	PUNCT	-	14	punct	predložiti	VERB	Aspect=Perf Gender=Fem Number=Sing VerbForm=Part	7
+.	.	.	PUNCT		14	punct	predložiti	VERB	Aspect=Perf Gender=Fem Number=Sing VerbForm=Part	7
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg838.3">
 Prijavljeni	Prijavljeni	prijavljen	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing VerbForm=Part	1	nsubj	biti	VERB	Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin	4
@@ -1904,7 +1904,7 @@ k	k	k	ADP	Case=Dat	2	case	razprava	NOUN	Case=Dat Gender=Fem Number=Sing	3
 razpravi	razpravi	razprava	NOUN	Case=Dat Gender=Fem Number=Sing	3	nmod	prijavljen	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing VerbForm=Part	1
 ni	ni	biti	VERB	Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin	4	root	-	-	-	-
 <g/>
-.	.	.	PUNCT	-	5	punct	biti	VERB	Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin	4
+.	.	.	PUNCT		5	punct	biti	VERB	Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin	4
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg838.4">
 Prehajamo	Prehajamo	prehajati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
@@ -1914,7 +1914,7 @@ o	o	o	ADP	Case=Loc	4	case	predlog	NOUN	Case=Loc Gender=Masc Number=Sing	5
 predlogu	predlogu	predlog	NOUN	Case=Loc Gender=Masc Number=Sing	5	nmod	odločanje	NOUN	Case=Acc Gender=Neut Number=Sing	3
 sklepa	sklepa	sklep	NOUN	Case=Gen Gender=Masc Number=Sing	6	nmod	predlog	NOUN	Case=Loc Gender=Masc Number=Sing	5
 <g/>
-,	,	,	PUNCT	-	7	punct	razrešiti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	16
+,	,	,	PUNCT		7	punct	razrešiti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	16
 s	s	z	ADP	Case=Ins	8	case	kateri	DET	Case=Ins Gender=Masc Number=Sing PronType=Int	9
 katerim	katerim	kateri	DET	Case=Ins Gender=Masc Number=Sing PronType=Int	9	obl	razrešiti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	16
 se	se	se	PRON	PronType=Prs Reflex=Yes Variant=Short	10	expl	razrešiti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	16
@@ -1933,10 +1933,10 @@ Peter	Peter	Peter	PROPN	Case=Nom Gender=Masc Number=Sing	19	nmod	podpredsednik	N
 Vilfan	Vilfan	Vilfan	PROPN	Case=Nom Gender=Masc Number=Sing	20	flat:name	Peter	PROPN	Case=Nom Gender=Masc Number=Sing	19
 <g/>
 </name>
-,	,	,	PUNCT	-	21	punct	razrešiti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	16
+,	,	,	PUNCT		21	punct	razrešiti	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	16
 za	za	za	ADP	Case=Acc	22	case	podpredsednica	NOUN	Case=Acc Gender=Fem Number=Sing	23
 podpredsednico	podpredsednico	podpredsednica	NOUN	Case=Acc Gender=Fem Number=Sing	23	obl	imenovati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	26
-pa	pa	pa	CCONJ	-	24	advmod	imenovati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	26
+pa	pa	pa	CCONJ		24	advmod	imenovati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	26
 se	se	se	PRON	PronType=Prs Reflex=Yes Variant=Short	25	expl	imenovati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	26
 imenuje	imenuje	imenovati	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	26	parataxis	prehajati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
 mag.	mag.	mag.	X	Abbr=Yes	27	nmod	Julijana	PROPN	Case=Nom Gender=Fem Number=Sing	28
@@ -1946,37 +1946,37 @@ Bizjak	Bizjak	Bizjak	PROPN	Case=Nom Gender=Fem Number=Sing	29	flat:name	Julijana
 Mlakar	Mlakar	Mlakar	PROPN	Case=Nom Gender=Fem Number=Sing	30	flat:name	Bizjak	PROPN	Case=Nom Gender=Fem Number=Sing	29
 <g/>
 </name>
-.	.	.	PUNCT	-	31	punct	prehajati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
+.	.	.	PUNCT		31	punct	prehajati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
 </s>
 </p>
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg839" lang="Slovenian">
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg839.1">
 Glasujemo	Glasujemo	glasovati	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 <g/>
-.	.	.	PUNCT	-	2	punct	glasovati	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
+.	.	.	PUNCT		2	punct	glasovati	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg839.2">
 Navzočih	Navzočih	navzoč	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	1	root	-	-	-	-
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	2	cop	navzoč	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	1
 71	71	71	NUM	NumForm=Digit NumType=Card	3	nummod	poslanka	NOUN	Case=Gen Gender=Fem Number=Plur	4
 poslank	poslank	poslanka	NOUN	Case=Gen Gender=Fem Number=Plur	4	nsubj	navzoč	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	1
-in	in	in	CCONJ	-	5	cc	poslanec	NOUN	Case=Gen Gender=Masc Number=Plur	6
+in	in	in	CCONJ		5	cc	poslanec	NOUN	Case=Gen Gender=Masc Number=Plur	6
 poslancev	poslancev	poslanec	NOUN	Case=Gen Gender=Masc Number=Plur	6	conj	poslanka	NOUN	Case=Gen Gender=Fem Number=Plur	4
 <g/>
-,	,	,	PUNCT	-	7	punct	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
+,	,	,	PUNCT		7	punct	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
 za	za	za	ADP	Case=Acc	8	mark	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	9	aux	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
 glasovalo	glasovalo	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10	parataxis	navzoč	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	1
 70	70	70	NUM	NumForm=Digit NumType=Card	11	advmod	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
 <g/>
-,	,	,	PUNCT	-	12	punct	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
+,	,	,	PUNCT		12	punct	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
 proti	proti	proti	ADP	Case=Dat	13	mark	biti	AUX	Gender=Masc Number=Sing VerbForm=Part	16
-pa	pa	pa	CCONJ	-	14	advmod	biti	AUX	Gender=Masc Number=Sing VerbForm=Part	16
+pa	pa	pa	CCONJ		14	advmod	biti	AUX	Gender=Masc Number=Sing VerbForm=Part	16
 ni	ni	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin	15	aux	biti	AUX	Gender=Masc Number=Sing VerbForm=Part	16
 bil	bil	biti	AUX	Gender=Masc Number=Sing VerbForm=Part	16	parataxis	navzoč	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	1
 nihče	nihče	nihče	PRON	Case=Nom Gender=Masc Number=Sing PronType=Neg	17	nsubj	biti	AUX	Gender=Masc Number=Sing VerbForm=Part	16
 <g/>
-.	.	.	PUNCT	-	18	punct	navzoč	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	1
+.	.	.	PUNCT		18	punct	navzoč	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	1
 </s>
 </p>
 <note type="vote-ayes" content="Za je glasovalo 70."/>
@@ -1985,13 +1985,13 @@ nihče	nihče	nihče	PRON	Case=Nom Gender=Masc Number=Sing PronType=Neg	17	nsubj
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg841.1">
 Ugotavljam	Ugotavljam	ugotavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 <g/>
-,	,	,	PUNCT	-	2	punct	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6
-da	da	da	SCONJ	-	3	mark	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6
+,	,	,	PUNCT		2	punct	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6
+da	da	da	SCONJ		3	mark	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	4	cop	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6
 sklep	sklep	sklep	NOUN	Case=Nom Gender=Masc Number=Sing	5	nsubj	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6
 sprejet	sprejet	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6	ccomp	ugotavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 <g/>
-.	.	.	PUNCT	-	7	punct	ugotavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
+.	.	.	PUNCT		7	punct	ugotavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg841.2">
 S	S	z	ADP	Case=Ins	1	case	ta	DET	Case=Ins Gender=Neut Number=Sing PronType=Dem	2
@@ -2002,7 +2002,7 @@ točko	točko	točka	NOUN	Case=Acc Gender=Fem Number=Sing	5	obj	zaključevati	VE
 dnevnega	dnevnega	dneven	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Sing	6	amod	red	NOUN	Case=Gen Gender=Masc Number=Sing	7
 reda	reda	red	NOUN	Case=Gen Gender=Masc Number=Sing	7	nmod	točka	NOUN	Case=Acc Gender=Fem Number=Sing	5
 <g/>
-.	.	.	PUNCT	-	8	punct	zaključevati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
+.	.	.	PUNCT		8	punct	zaključevati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg841.3">
 Nadaljujemo	Nadaljujemo	nadaljevati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
@@ -2013,7 +2013,7 @@ točko	točko	točka	NOUN	Case=Ins Gender=Fem Number=Sing	5	obl	nadaljevati	VERB
 dnevnega	dnevnega	dneven	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Sing	6	amod	red	NOUN	Case=Gen Gender=Masc Number=Sing	7
 reda	reda	red	NOUN	Case=Gen Gender=Masc Number=Sing	7	nmod	točka	NOUN	Case=Ins Gender=Fem Number=Sing	5
 <g/>
-,	,	,	PUNCT	-	8	punct	biti	VERB	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	10
+,	,	,	PUNCT		8	punct	biti	VERB	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	10
 to	to	ta	DET	Case=Nom Gender=Neut Number=Sing PronType=Dem	9	nsubj	biti	VERB	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	10
 je	je	biti	VERB	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	10	parataxis	nadaljevati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
 s	s	z	ADP	Case=Ins	11	case	obravnava	NOUN	Case=Ins Gender=Fem Number=Sing	13
@@ -2030,7 +2030,7 @@ okviru	okviru	okvir	NOUN	Case=Loc Gender=Masc Number=Sing	19	obl	biti	VERB	Mood=
 rednega	rednega	reden	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Sing	20	amod	postopek	NOUN	Case=Gen Gender=Masc Number=Sing	21
 postopka	postopka	postopek	NOUN	Case=Gen Gender=Masc Number=Sing	21	nmod	okvir	NOUN	Case=Loc Gender=Masc Number=Sing	19
 <g/>
-.	.	.	PUNCT	-	22	punct	nadaljevati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
+.	.	.	PUNCT		22	punct	nadaljevati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
 </s>
 </p>
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg842" lang="Slovenian">
@@ -2041,12 +2041,12 @@ je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fi
 v	v	v	ADP	Case=Acc	4	case	torek	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	5
 torek	torek	torek	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	5	obl	opraviti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	11
 <g/>
-,	,	,	PUNCT	-	6	punct	2016	NUM	NumForm=Digit NumType=Card	9
+,	,	,	PUNCT		6	punct	2016	NUM	NumForm=Digit NumType=Card	9
 14.	14.	14.	NUM	NumForm=Digit NumType=Ord	7	nummod	torek	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	5
 6.	6.	6.	NUM	NumForm=Digit NumType=Ord	8	conj	14.	NUM	NumForm=Digit NumType=Ord	7
 2016	2016	2016	NUM	NumForm=Digit NumType=Card	9	conj	14.	NUM	NumForm=Digit NumType=Ord	7
 <g/>
-,	,	,	PUNCT	-	10	punct	2016	NUM	NumForm=Digit NumType=Card	9
+,	,	,	PUNCT		10	punct	2016	NUM	NumForm=Digit NumType=Card	9
 opravil	opravil	opraviti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	11	root	-	-	-	-
 drugo	drugo	drug	ADJ	Case=Acc Gender=Fem Number=Sing	12	amod	obravnava	NOUN	Case=Acc Gender=Fem Number=Sing	13
 obravnavo	obravnavo	obravnava	NOUN	Case=Acc Gender=Fem Number=Sing	13	obj	opraviti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	11
@@ -2054,10 +2054,10 @@ navedenega	navedenega	naveden	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Sing Ve
 predloga	predloga	predlog	NOUN	Case=Gen Gender=Masc Number=Sing	15	nmod	obravnava	NOUN	Case=Acc Gender=Fem Number=Sing	13
 zakona	zakona	zakon	NOUN	Case=Gen Gender=Masc Number=Sing	16	nmod	predlog	NOUN	Case=Gen Gender=Masc Number=Sing	15
 <g/>
-.	.	.	PUNCT	-	17	punct	opraviti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	11
+.	.	.	PUNCT		17	punct	opraviti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	11
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg842.2">
-Ker	Ker	ker	SCONJ	-	1	mark	sprejet	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Plur VerbForm=Part	7
+Ker	Ker	ker	SCONJ		1	mark	sprejet	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Plur VerbForm=Part	7
 so	so	biti	AUX	Mood=Ind Number=Plur Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	2	aux	sprejet	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Plur VerbForm=Part	7
 bili	bili	biti	AUX	Gender=Masc Number=Plur VerbForm=Part	3	cop	sprejet	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Plur VerbForm=Part	7
 v	v	v	ADP	Case=Loc	4	case	obravnava	NOUN	Case=Loc Gender=Fem Number=Sing	6
@@ -2067,14 +2067,14 @@ sprejeti	sprejeti	sprejet	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Plur VerbFo
 amandmaji	amandmaji	amandma	NOUN	Case=Nom Gender=Masc Number=Plur	8	nsubj	sprejet	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Plur VerbForm=Part	7
 k	k	k	ADP	Case=Dat	9	case	desetina	NOUN	Case=Dat Gender=Fem Number=Sing	12
 manj	manj	manj	DET	PronType=Ind	10	advmod	desetina	NOUN	Case=Dat Gender=Fem Number=Sing	12
-kot	kot	kot	SCONJ	-	11	fixed	manj	DET	PronType=Ind	10
+kot	kot	kot	SCONJ		11	fixed	manj	DET	PronType=Ind	10
 desetini	desetini	desetina	NOUN	Case=Dat Gender=Fem Number=Sing	12	obl	sprejet	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Plur VerbForm=Part	7
 členov	členov	člen	NOUN	Case=Gen Gender=Masc Number=Plur	13	nmod	desetina	NOUN	Case=Dat Gender=Fem Number=Sing	12
 dopolnjenega	dopolnjenega	dopolnjen	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Sing VerbForm=Part	14	amod	predlog	NOUN	Case=Gen Gender=Masc Number=Sing	15
 predloga	predloga	predlog	NOUN	Case=Gen Gender=Masc Number=Sing	15	nmod	člen	NOUN	Case=Gen Gender=Masc Number=Plur	13
 zakona	zakona	zakon	NOUN	Case=Gen Gender=Masc Number=Sing	16	nmod	predlog	NOUN	Case=Gen Gender=Masc Number=Sing	15
 <g/>
-,	,	,	PUNCT	-	17	punct	sprejet	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Plur VerbForm=Part	7
+,	,	,	PUNCT		17	punct	sprejet	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Plur VerbForm=Part	7
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	18	aux	skleniti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	25
 zbor	zbor	zbor	NOUN	Case=Nom Gender=Masc Number=Sing	19	nsubj	skleniti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	25
 na	na	na	ADP	Case=Acc	20	case	predlog	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	21
@@ -2084,8 +2084,8 @@ predloga	predloga	predlog	NOUN	Case=Gen Gender=Masc Number=Sing	23	nmod	predlaga
 zakona	zakona	zakon	NOUN	Case=Gen Gender=Masc Number=Sing	24	nmod	predlog	NOUN	Case=Gen Gender=Masc Number=Sing	23
 sklenil	sklenil	skleniti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	25	root	-	-	-	-
 <g/>
-,	,	,	PUNCT	-	26	punct	opraviti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	41
-da	da	da	SCONJ	-	27	mark	opraviti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	41
+,	,	,	PUNCT		26	punct	opraviti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	41
+da	da	da	SCONJ		27	mark	opraviti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	41
 bo	bo	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Fut VerbForm=Fin	28	aux	opraviti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	41
 na	na	na	ADP	Case=Loc	29	case	podlaga	NOUN	Case=Loc Gender=Fem Number=Sing	30
 podlagi	podlagi	podlaga	NOUN	Case=Loc Gender=Fem Number=Sing	30	obl	opraviti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	41
@@ -2097,7 +2097,7 @@ odstavka	odstavka	odstavek	NOUN	Case=Gen Gender=Masc Number=Sing	32	nmod	podlaga
 Poslovnika	Poslovnika	poslovnik	NOUN	Case=Gen Gender=Masc Number=Sing	35	nmod	člen	NOUN	Case=Gen Gender=Masc Number=Sing	34
 zbora	zbora	zbor	NOUN	Case=Gen Gender=Masc Number=Sing	36	nmod	poslovnik	NOUN	Case=Gen Gender=Masc Number=Sing	35
 </name>
-še	še	še	PART	-	37	advmod	opraviti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	41
+še	še	še	PART		37	advmod	opraviti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	41
 na	na	na	ADP	Case=Loc	38	case	seja	NOUN	Case=Loc Gender=Fem Number=Sing	40
 tej	tej	ta	DET	Case=Loc Gender=Fem Number=Sing PronType=Dem	39	det	seja	NOUN	Case=Loc Gender=Fem Number=Sing	40
 seji	seji	seja	NOUN	Case=Loc Gender=Fem Number=Sing	40	obl	opraviti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	41
@@ -2107,13 +2107,13 @@ obravnavo	obravnavo	obravnava	NOUN	Case=Acc Gender=Fem Number=Sing	43	obj	opravi
 predloga	predloga	predlog	NOUN	Case=Gen Gender=Masc Number=Sing	44	nmod	obravnava	NOUN	Case=Acc Gender=Fem Number=Sing	43
 zakona	zakona	zakon	NOUN	Case=Gen Gender=Masc Number=Sing	45	nmod	predlog	NOUN	Case=Gen Gender=Masc Number=Sing	44
 <g/>
-.	.	.	PUNCT	-	46	punct	skleniti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	25
+.	.	.	PUNCT		46	punct	skleniti	VERB	Aspect=Perf Gender=Masc Number=Sing VerbForm=Part	25
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg842.3">
 Ugotavljam	Ugotavljam	ugotavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 <g/>
-,	,	,	PUNCT	-	2	punct	vložen	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur VerbForm=Part	12
-da	da	da	SCONJ	-	3	mark	vložen	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur VerbForm=Part	12
+,	,	,	PUNCT		2	punct	vložen	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur VerbForm=Part	12
+da	da	da	SCONJ		3	mark	vložen	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur VerbForm=Part	12
 k	k	k	ADP	Case=Dat	4	case	predlog	NOUN	Case=Dat Gender=Masc Number=Sing	5
 predlogu	predlogu	predlog	NOUN	Case=Dat Gender=Masc Number=Sing	5	obl	vložen	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur VerbForm=Part	12
 zakona	zakona	zakon	NOUN	Case=Gen Gender=Masc Number=Sing	6	nmod	predlog	NOUN	Case=Dat Gender=Masc Number=Sing	5
@@ -2125,41 +2125,41 @@ bilo	bilo	biti	AUX	Gender=Neut Number=Sing VerbForm=Part	11	cop	vložen	ADJ	Case
 vloženih	vloženih	vložen	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur VerbForm=Part	12	ccomp	ugotavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 amandmajev	amandmajev	amandma	NOUN	Case=Gen Gender=Masc Number=Plur	13	nsubj	vložen	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur VerbForm=Part	12
 <g/>
-.	.	.	PUNCT	-	14	punct	ugotavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
+.	.	.	PUNCT		14	punct	ugotavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg842.4">
 Obveščam	Obveščam	obveščati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 vas	vas	ti	PRON	Case=Acc Number=Plur Person=2 PronType=Prs	2	iobj	obveščati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 <g/>
-,	,	,	PUNCT	-	3	punct	opozoriti	VERB	Aspect=Perf Gender=Masc Number=Dual VerbForm=Part	11
-da	da	da	SCONJ	-	4	mark	opozoriti	VERB	Aspect=Perf Gender=Masc Number=Dual VerbForm=Part	11
+,	,	,	PUNCT		3	punct	opozoriti	VERB	Aspect=Perf Gender=Masc Number=Dual VerbForm=Part	11
+da	da	da	SCONJ		4	mark	opozoriti	VERB	Aspect=Perf Gender=Masc Number=Dual VerbForm=Part	11
 me	me	jaz	PRON	Case=Acc Number=Sing Person=1 PronType=Prs Variant=Short	5	iobj	opozoriti	VERB	Aspect=Perf Gender=Masc Number=Dual VerbForm=Part	11
 <name type="ORG">
 Zakonodajno-pravna	Zakonodajno-pravna	zakonodajnovpraven	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	6	amod	služba	NOUN	Case=Nom Gender=Fem Number=Sing	7
 služba	služba	služba	NOUN	Case=Nom Gender=Fem Number=Sing	7	nsubj	opozoriti	VERB	Aspect=Perf Gender=Masc Number=Dual VerbForm=Part	11
 </name>
-oziroma	oziroma	oziroma	CCONJ	-	8	cc	vlada	NOUN	Case=Nom Gender=Fem Number=Sing	9
+oziroma	oziroma	oziroma	CCONJ		8	cc	vlada	NOUN	Case=Nom Gender=Fem Number=Sing	9
 <name type="ORG">
 Vlada	Vlada	vlada	NOUN	Case=Nom Gender=Fem Number=Sing	9	conj	služba	NOUN	Case=Nom Gender=Fem Number=Sing	7
 </name>
 nista	nista	biti	AUX	Mood=Ind Number=Dual Person=3 Polarity=Neg Tense=Pres VerbForm=Fin	10	aux	opozoriti	VERB	Aspect=Perf Gender=Masc Number=Dual VerbForm=Part	11
 opozorili	opozorili	opozoriti	VERB	Aspect=Perf Gender=Masc Number=Dual VerbForm=Part	11	ccomp	obveščati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 <g/>
-,	,	,	PUNCT	-	12	punct	neusklajen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing	34
-da	da	da	SCONJ	-	13	mark	neusklajen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing	34
+,	,	,	PUNCT		12	punct	neusklajen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing	34
+da	da	da	SCONJ		13	mark	neusklajen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing	34
 bi	bi	biti	AUX	Mood=Cnd VerbForm=Fin	14	aux	neusklajen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing	34
 bil	bil	biti	AUX	Gender=Masc Number=Sing VerbForm=Part	15	cop	neusklajen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing	34
 zaradi	zaradi	zaradi	ADP	Case=Gen	16	case	amandma	NOUN	Case=Gen Gender=Masc Number=Plur	17
 amandmajev	amandmajev	amandma	NOUN	Case=Gen Gender=Masc Number=Plur	17	obl	neusklajen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing	34
 <g/>
-,	,	,	PUNCT	-	18	punct	sprejet	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur VerbForm=Part	19
+,	,	,	PUNCT		18	punct	sprejet	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur VerbForm=Part	19
 sprejetih	sprejetih	sprejet	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur VerbForm=Part	19	amod	amandma	NOUN	Case=Gen Gender=Masc Number=Plur	17
 na	na	na	ADP	Case=Loc	20	case	seja	NOUN	Case=Loc Gender=Fem Number=Sing	21
 seji	seji	seja	NOUN	Case=Loc Gender=Fem Number=Sing	21	obl	sprejet	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur VerbForm=Part	19
 matičnega	matičnega	matičen	ADJ	Case=Gen Degree=Pos Gender=Neut Number=Sing	22	amod	telo	NOUN	Case=Gen Gender=Neut Number=Sing	24
 delovnega	delovnega	deloven	ADJ	Case=Gen Degree=Pos Gender=Neut Number=Sing	23	amod	telo	NOUN	Case=Gen Gender=Neut Number=Sing	24
 telesa	telesa	telo	NOUN	Case=Gen Gender=Neut Number=Sing	24	nmod	seja	NOUN	Case=Loc Gender=Fem Number=Sing	21
-oziroma	oziroma	oziroma	CCONJ	-	25	cc	zbor	NOUN	Case=Gen Gender=Masc Number=Sing	27
+oziroma	oziroma	oziroma	CCONJ		25	cc	zbor	NOUN	Case=Gen Gender=Masc Number=Sing	27
 <name type="ORG">
 Državnega	Državnega	državen	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Sing	26	amod	zbor	NOUN	Case=Gen Gender=Masc Number=Sing	27
 zbora	zbora	zbor	NOUN	Case=Gen Gender=Masc Number=Sing	27	conj	telo	NOUN	Case=Gen Gender=Neut Number=Sing	24
@@ -2168,12 +2168,12 @@ v	v	v	ADP	Case=Loc	28	case	obravnava	NOUN	Case=Loc Gender=Fem Number=Sing	30
 drugi	drugi	drug	ADJ	Case=Loc Gender=Fem Number=Sing	29	amod	obravnava	NOUN	Case=Loc Gender=Fem Number=Sing	30
 obravnavi	obravnavi	obravnava	NOUN	Case=Loc Gender=Fem Number=Sing	30	nmod	zbor	NOUN	Case=Gen Gender=Masc Number=Sing	27
 <g/>
-,	,	,	PUNCT	-	31	punct	opozoriti	VERB	Aspect=Perf Gender=Masc Number=Dual VerbForm=Part	11
+,	,	,	PUNCT		31	punct	opozoriti	VERB	Aspect=Perf Gender=Masc Number=Dual VerbForm=Part	11
 predlog	predlog	predlog	NOUN	Case=Nom Gender=Masc Number=Sing	32	nsubj	neusklajen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing	34
 zakona	zakona	zakon	NOUN	Case=Gen Gender=Masc Number=Sing	33	nmod	predlog	NOUN	Case=Nom Gender=Masc Number=Sing	32
 neusklajen	neusklajen	neusklajen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing	34	ccomp	obveščati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 <g/>
-.	.	.	PUNCT	-	35	punct	obveščati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
+.	.	.	PUNCT		35	punct	obveščati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg842.5">
 Prehajamo	Prehajamo	prehajati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
@@ -2183,30 +2183,30 @@ o	o	o	ADP	Case=Loc	4	case	predlog	NOUN	Case=Loc Gender=Masc Number=Sing	5
 predlogu	predlogu	predlog	NOUN	Case=Loc Gender=Masc Number=Sing	5	nmod	odločanje	NOUN	Case=Acc Gender=Neut Number=Sing	3
 zakona	zakona	zakon	NOUN	Case=Gen Gender=Masc Number=Sing	6	nmod	predlog	NOUN	Case=Loc Gender=Masc Number=Sing	5
 <g/>
-.	.	.	PUNCT	-	7	punct	prehajati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
+.	.	.	PUNCT		7	punct	prehajati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
 </s>
 </p>
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg843" lang="Slovenian">
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg843.1">
 Glasujemo	Glasujemo	glasovati	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 <g/>
-.	.	.	PUNCT	-	2	punct	glasovati	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
+.	.	.	PUNCT		2	punct	glasovati	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
 </s>
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg843.2">
 Navzočih	Navzočih	navzoč	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	1	root	-	-	-	-
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	2	cop	navzoč	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	1
 72	72	72	NUM	NumForm=Digit NumType=Card	3	nummod	poslanka	NOUN	Case=Gen Gender=Fem Number=Plur	4
 poslank	poslank	poslanka	NOUN	Case=Gen Gender=Fem Number=Plur	4	nsubj	navzoč	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	1
-in	in	in	CCONJ	-	5	cc	poslanec	NOUN	Case=Gen Gender=Masc Number=Plur	6
+in	in	in	CCONJ		5	cc	poslanec	NOUN	Case=Gen Gender=Masc Number=Plur	6
 poslancev	poslancev	poslanec	NOUN	Case=Gen Gender=Masc Number=Plur	6	conj	poslanka	NOUN	Case=Gen Gender=Fem Number=Plur	4
 <g/>
-,	,	,	PUNCT	-	7	punct	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
+,	,	,	PUNCT		7	punct	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
 za	za	za	ADP	Case=Acc	8	mark	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	9	aux	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
 glasovalo	glasovalo	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10	parataxis	navzoč	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur	1
 51	51	51	NUM	NumForm=Digit NumType=Card	11	advmod	glasovati	VERB	Gender=Neut Number=Sing VerbForm=Part	10
 <g/>
-,	,	,	PUNCT	-	12	punct	2.	NUM	NumForm=Digit NumType=Ord	14
+,	,	,	PUNCT		12	punct	2.	NUM	NumForm=Digit NumType=Ord	14
 proti	proti	proti	ADP	Case=Dat	13	case	2.	NUM	NumForm=Digit NumType=Ord	14
 2.	2.	2.	NUM	NumForm=Digit NumType=Ord	14	conj	51	NUM	NumForm=Digit NumType=Card	11
 </s>
@@ -2217,13 +2217,13 @@ proti	proti	proti	ADP	Case=Dat	13	case	2.	NUM	NumForm=Digit NumType=Ord	14
 <s id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg845.1">
 Ugotavljam	Ugotavljam	ugotavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 <g/>
-,	,	,	PUNCT	-	2	punct	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6
-da	da	da	SCONJ	-	3	mark	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6
+,	,	,	PUNCT		2	punct	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6
+da	da	da	SCONJ		3	mark	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	4	cop	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6
 zakon	zakon	zakon	NOUN	Case=Nom Gender=Masc Number=Sing	5	nsubj	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6
 sprejet	sprejet	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	6	ccomp	ugotavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 <g/>
-.	.	.	PUNCT	-	7	punct	ugotavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
+.	.	.	PUNCT		7	punct	ugotavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 </s>
 </p>
 <p id="ParlaMint-SI_2016-06-21-SDZ7-Redna-20.seg846" lang="Slovenian">
@@ -2235,8 +2235,8 @@ to	to	ta	DET	Case=Acc Gender=Fem Number=Sing PronType=Dem	4	det	točka	NOUN	Case
 točko	točko	točka	NOUN	Case=Acc Gender=Fem Number=Sing	5	obj	zaključevati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
 dnevnega	dnevnega	dneven	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Sing	6	amod	red	NOUN	Case=Gen Gender=Masc Number=Sing	7
 reda	reda	red	NOUN	Case=Gen Gender=Masc Number=Sing	7	nmod	točka	NOUN	Case=Acc Gender=Fem Number=Sing	5
-ter	ter	ter	CCONJ	-	8	cc	seja	NOUN	Case=Acc Gender=Fem Number=Sing	11
-tudi	tudi	tudi	PART	-	9	advmod	zaključevati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
+ter	ter	ter	CCONJ		8	cc	seja	NOUN	Case=Acc Gender=Fem Number=Sing	11
+tudi	tudi	tudi	PART		9	advmod	zaključevati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
 20.	20.	20.	NUM	NumForm=Digit NumType=Ord	10	nummod	seja	NOUN	Case=Acc Gender=Fem Number=Sing	11
 sejo	sejo	seja	NOUN	Case=Acc Gender=Fem Number=Sing	11	conj	točka	NOUN	Case=Acc Gender=Fem Number=Sing	5
 <name type="ORG">
@@ -2244,7 +2244,7 @@ Državnega	Državnega	državen	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Sing	1
 zbora	zbora	zbor	NOUN	Case=Gen Gender=Masc Number=Sing	13	nmod	seja	NOUN	Case=Acc Gender=Fem Number=Sing	11
 <g/>
 </name>
-.	.	.	PUNCT	-	14	punct	zaključevati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
+.	.	.	PUNCT		14	punct	zaključevati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
 </s>
 </p>
 </speech>

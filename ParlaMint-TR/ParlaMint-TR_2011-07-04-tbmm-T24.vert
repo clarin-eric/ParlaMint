@@ -1,11 +1,11 @@
 <note type="time" content="14.03"/>
 <note type="chair" content="Osman Oktay Ekşi"/>
-<speech id="tbmm-2011-07-04s01p001" text_id="ParlaMint-TR_2011-07-04-tbmm-T24" subcorpus="Reference" house="-" term="24" session="2" meeting="-" sitting="-" agenda="-" from="2011-07-04" to="2011-07-04" title="The Turkish parliamentary corpus ParlaMint-TR, Term 24, Session 2" speaker_role="Regular" speaker_id="OsmanOktay.Ekşi" speaker_name="Ekşi, Osman Oktay" speaker_type="MP" speaker_party="CHP" speaker_party_name="Cumhuriyet Halk Partisi" party_status="opposition" speaker_gender="M" speaker_birth="">
+<speech id="tbmm-2011-07-04s01p001" text_id="ParlaMint-TR_2011-07-04-tbmm-T24" subcorpus="Reference" house="" term="24" session="2" meeting="" sitting="" agenda="" from="2011-07-04" to="2011-07-04" title="The Turkish parliamentary corpus ParlaMint-TR, Term 24, Session 2" speaker_role="Chairperson" speaker_id="OsmanOktay.Ekşi" speaker_name="Ekşi, Osman Oktay" speaker_type="MP" speaker_party="CHP" speaker_party_name="Cumhuriyet Halk Partisi" party_status="Opposition" speaker_gender="M" speaker_birth="">
 <p id="tbmm-2011-07-04s01p001.seg0" lang="Turkish">
 <s id="tbmm-2011-07-04s01p001-000010">
 <name type="ORG">
 Türkiye	Türkiye	Türkiye	PROPN	Case=Nom Number=Sing	t1	nmod	birleşim	NOUN	Case=Acc Number=Sing Number[psor]=Sing Person[psor]=2	t6
-Büyük	Büyük	büyük	ADJ	-	t2	amod	millet	NOUN	Case=Nom Number=Sing	t3
+Büyük	Büyük	büyük	ADJ		t2	amod	millet	NOUN	Case=Nom Number=Sing	t3
 Millet	Millet	millet	NOUN	Case=Nom Number=Sing	t3	nmod	meclis	NOUN	Case=Gen Number=Sing Number[psor]=Sing Person[psor]=2	t4
 Meclisinin	Meclisinin	meclis	NOUN	Case=Gen Number=Sing Number[psor]=Sing Person[psor]=2	t4	nmod	birleşim	NOUN	Case=Acc Number=Sing Number[psor]=Sing Person[psor]=2	t6
 </name>
@@ -13,11 +13,11 @@ Meclisinin	Meclisinin	meclis	NOUN	Case=Gen Number=Sing Number[psor]=Sing Person[
 Birleşimini	Birleşimini	birleşim	NOUN	Case=Acc Number=Sing Number[psor]=Sing Person[psor]=2	t6	obj	aç	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres	t7
 açıyorum	açıyorum	aç	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres	t7	root	-	-	-	-
 <g/>
-.	.	.	PUNCT	-	t8	punct	aç	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres	t7
+.	.	.	PUNCT		t8	punct	aç	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres	t7
 </s>
 </p>
 </speech>
-<speech id="tbmm-2011-07-04s01p002" text_id="ParlaMint-TR_2011-07-04-tbmm-T24" subcorpus="Reference" house="-" term="24" session="2" meeting="-" sitting="-" agenda="-" from="2011-07-04" to="2011-07-04" title="The Turkish parliamentary corpus ParlaMint-TR, Term 24, Session 2" speaker_role="Regular" speaker_id="OsmanOktay.Ekşi" speaker_name="Ekşi, Osman Oktay" speaker_type="MP" speaker_party="CHP" speaker_party_name="Cumhuriyet Halk Partisi" party_status="opposition" speaker_gender="M" speaker_birth="">
+<speech id="tbmm-2011-07-04s01p002" text_id="ParlaMint-TR_2011-07-04-tbmm-T24" subcorpus="Reference" house="" term="24" session="2" meeting="" sitting="" agenda="" from="2011-07-04" to="2011-07-04" title="The Turkish parliamentary corpus ParlaMint-TR, Term 24, Session 2" speaker_role="Chairperson" speaker_id="OsmanOktay.Ekşi" speaker_name="Ekşi, Osman Oktay" speaker_type="MP" speaker_party="CHP" speaker_party_name="Cumhuriyet Halk Partisi" party_status="Opposition" speaker_gender="M" speaker_birth="">
 <p id="tbmm-2011-07-04s01p002.seg0" lang="Turkish">
 <s id="tbmm-2011-07-04s01p002-000010">
 <name type="LOC">
@@ -29,18 +29,18 @@ var	var	var	NOUN	Case=Nom Number=Sing	t3	conj	çoğunluk	NOUN	Case=Nom Number=Si
 <g/>
 dır	dır	i	AUX	Mood=Gen Number=Sing Person=3	t4	cop	var	NOUN	Case=Nom Number=Sing	t3
 <g/>
-,	,	,	PUNCT	-	t5	punct	var	NOUN	Case=Nom Number=Sing	t3
+,	,	,	PUNCT		t5	punct	var	NOUN	Case=Nom Number=Sing	t3
 gündeme	gündeme	gündem	NOUN	Case=Dat Number=Sing	t6	nmod	milletvekili	NOUN	Case=Nom Number=Sing Number[psor]=Plur Person[psor]=3	t9
 geçiyoruz	geçiyoruz	geç	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Plur Person=1 Tense=Pres	t7	compound	gündem	NOUN	Case=Dat Number=Sing	t6
-sayın	sayın	sayın	ADJ	-	t8	amod	milletvekili	NOUN	Case=Nom Number=Sing Number[psor]=Plur Person[psor]=3	t9
+sayın	sayın	sayın	ADJ		t8	amod	milletvekili	NOUN	Case=Nom Number=Sing Number[psor]=Plur Person[psor]=3	t9
 milletvekilleri	milletvekilleri	milletvekili	NOUN	Case=Nom Number=Sing Number[psor]=Plur Person[psor]=3	t9	root	-	-	-	-
 <g/>
-.	.	.	PUNCT	-	t10	punct	milletvekili	NOUN	Case=Nom Number=Sing Number[psor]=Plur Person[psor]=3	t9
+.	.	.	PUNCT		t10	punct	milletvekili	NOUN	Case=Nom Number=Sing Number[psor]=Plur Person[psor]=3	t9
 </s>
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="tbmm-2011-07-04s02p089" text_id="ParlaMint-TR_2011-07-04-tbmm-T24" subcorpus="Reference" house="-" term="24" session="2" meeting="-" sitting="-" agenda="-" from="2011-07-04" to="2011-07-04" title="The Turkish parliamentary corpus ParlaMint-TR, Term 24, Session 2" speaker_role="Regular" speaker_id="Cemil.Çiçek" speaker_name="Çiçek, Cemil" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="coalition" speaker_gender="M" speaker_birth="">
+<speech id="tbmm-2011-07-04s02p089" text_id="ParlaMint-TR_2011-07-04-tbmm-T24" subcorpus="Reference" house="" term="24" session="2" meeting="" sitting="" agenda="" from="2011-07-04" to="2011-07-04" title="The Turkish parliamentary corpus ParlaMint-TR, Term 24, Session 2" speaker_role="Regular" speaker_id="Cemil.Çiçek" speaker_name="Çiçek, Cemil" speaker_type="MP" speaker_party="AKP AK Party" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="Coalition" speaker_gender="M" speaker_birth="">
 <p id="tbmm-2011-07-04s02p089.seg0" lang="Turkish">
 <s id="tbmm-2011-07-04s02p089-000010">
 <name type="ORG">
@@ -49,24 +49,24 @@ Hepinize	Hepinize	hepiniz	PRON	Case=Dat Number=Plur Person=2	t1	obl	sun	VERB	Asp
 saygılar	saygılar	saygı	NOUN	Case=Nom Number=Plur	t2	obj	sun	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres	t3
 sunuyorum	sunuyorum	sun	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres	t3	root	-	-	-	-
 <g/>
-.	.	.	PUNCT	-	t4	punct	sun	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres	t3
+.	.	.	PUNCT		t4	punct	sun	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres	t3
 </s>
 </p>
 </speech>
 <note type="-" content="AK PARTİ, CHP ve MHP sıralarından alkışlar"/>
-<speech id="tbmm-2011-07-04s02p090" text_id="ParlaMint-TR_2011-07-04-tbmm-T24" subcorpus="Reference" house="-" term="24" session="2" meeting="-" sitting="-" agenda="-" from="2011-07-04" to="2011-07-04" title="The Turkish parliamentary corpus ParlaMint-TR, Term 24, Session 2" speaker_role="Regular" speaker_id="OsmanOktay.Ekşi" speaker_name="Ekşi, Osman Oktay" speaker_type="MP" speaker_party="CHP" speaker_party_name="Cumhuriyet Halk Partisi" party_status="opposition" speaker_gender="M" speaker_birth="">
+<speech id="tbmm-2011-07-04s02p090" text_id="ParlaMint-TR_2011-07-04-tbmm-T24" subcorpus="Reference" house="" term="24" session="2" meeting="" sitting="" agenda="" from="2011-07-04" to="2011-07-04" title="The Turkish parliamentary corpus ParlaMint-TR, Term 24, Session 2" speaker_role="Chairperson" speaker_id="OsmanOktay.Ekşi" speaker_name="Ekşi, Osman Oktay" speaker_type="MP" speaker_party="CHP" speaker_party_name="Cumhuriyet Halk Partisi" party_status="Opposition" speaker_gender="M" speaker_birth="">
 <p id="tbmm-2011-07-04s02p090.seg0" lang="Turkish">
 <s id="tbmm-2011-07-04s02p090-000010">
-Sayın	Sayın	sayın	ADJ	-	t1	amod	milletvekili	NOUN	Case=Nom Number=Sing Number[psor]=Plur Person[psor]=3	t2
+Sayın	Sayın	sayın	ADJ		t1	amod	milletvekili	NOUN	Case=Nom Number=Sing Number[psor]=Plur Person[psor]=3	t2
 milletvekilleri	milletvekilleri	milletvekili	NOUN	Case=Nom Number=Sing Number[psor]=Plur Person[psor]=3	t2	nsubj	15	NUM	NumType=Dist	t48
 <g/>
-,	,	,	PUNCT	-	t3	punct	15	NUM	NumType=Dist	t48
+,	,	,	PUNCT		t3	punct	15	NUM	NumType=Dist	t48
 <name type="ORG">
 Birleşmiş	Birleşmiş	birleş	VERB	Aspect=Perf Evident=Nfh Mood=Ind Tense=Past	t4	nmod	15	NUM	NumType=Dist	t48
 Millet	Millet	millet	NOUN	Case=Nom Number=Plur	t5	obl	15	NUM	NumType=Dist	t48
 <g/>
 ler	ler	i	AUX	Number=Plur Person=3	t6	cop	millet	NOUN	Case=Nom Number=Plur	t5
-Geçici	Geçici	geçici	ADJ	-	t7	amod	görev	NOUN	Case=Nom Number=Sing	t8
+Geçici	Geçici	geçici	ADJ		t7	amod	görev	NOUN	Case=Nom Number=Sing	t8
 Görev	Görev	görev	NOUN	Case=Nom Number=Sing	t8	conj	15	NUM	NumType=Dist	t48
 Gücü	Gücü	güç	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t9	nmod	bünye	NOUN	Case=Loc Number=Sing Number[psor]=Sing Person[psor]=3	t10
 </name>
@@ -82,10 +82,10 @@ Eylül	Eylül	eylül	NOUN	Case=Nom Number=Sing	t16	obl	15	NUM	NumType=Dist	t48
 2011	2011	2011	NUM	Case=Nom Number=Sing	t17	nummod	15	NUM	NumType=Dist	t48
 tarihinden	tarihinden	tarih	NOUN	Case=Abl Number=Sing Number[psor]=Sing Person[psor]=3	t18	nmod	15	NUM	NumType=Dist	t48
 </name>
-itibaren	itibaren	itibaren	ADP	-	t19	case	tarih	NOUN	Case=Abl Number=Sing Number[psor]=Sing Person[psor]=3	t18
+itibaren	itibaren	itibaren	ADP		t19	case	tarih	NOUN	Case=Abl Number=Sing Number[psor]=Sing Person[psor]=3	t18
 bir	bir	bir	DET	Definite=Ind	t20	det	15	NUM	NumType=Dist	t48
 yıl	yıl	yıl	NOUN	Case=Nom Number=Sing	t21	compound	bir	DET	Definite=Ind	t20
-daha	daha	daha	ADV	-	t22	advmod	UNIFIL	PROPN	Abbr=Yes Case=Nom Number=Sing	t23
+daha	daha	daha	ADV		t22	advmod	UNIFIL	PROPN	Abbr=Yes Case=Nom Number=Sing	t23
 <name type="ORG">
 UNIFIL	UNIFIL	UNIFIL	PROPN	Abbr=Yes Case=Nom Number=Sing	t23	obl	görüş	VERB	Case=Nom Number=Sing VerbForm=Vnoun	t39
 Harekâtına	Harekâtına	harekât	NOUN	Case=Dat Number=Sing Number[psor]=Sing Person[psor]=2	t24	nmod	iştirak	NOUN	Case=Nom Number=Sing	t25
@@ -100,15 +100,15 @@ Hükûmete	Hükûmete	hükûmet	NOUN	Case=Dat Number=Sing	t32	obl	görüş	VERB	
 </name>
 izin	izin	iz	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=2	t33	obl	görüş	VERB	Case=Nom Number=Sing VerbForm=Vnoun	t39
 verilmesine	verilmesine	ver	VERB	Case=Dat Number=Sing Number[psor]=Sing Person[psor]=3 VerbForm=Vnoun Voice=Pass	t34	compound	iz	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=2	t33
-dair	dair	dair	ADP	-	t35	case	iz	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=2	t33
-Başbakan	Başbakan	başbakan	NOUN	-	t36	obl	görüş	VERB	Case=Nom Number=Sing VerbForm=Vnoun	t39
+dair	dair	dair	ADP		t35	case	iz	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=2	t33
+Başbakan	Başbakan	başbakan	NOUN		t36	obl	görüş	VERB	Case=Nom Number=Sing VerbForm=Vnoun	t39
 <g/>
-lık	lık	lik	ADJ	-	t37	amod	tezkere	NOUN	Case=Acc Number=Sing Number[psor]=Sing Person[psor]=3	t38
+lık	lık	lik	ADJ		t37	amod	tezkere	NOUN	Case=Acc Number=Sing Number[psor]=Sing Person[psor]=3	t38
 tezkeresini	tezkeresini	tezkere	NOUN	Case=Acc Number=Sing Number[psor]=Sing Person[psor]=3	t38	obl	görüş	VERB	Case=Nom Number=Sing VerbForm=Vnoun	t39
 görüşmek	görüşmek	görüş	VERB	Case=Nom Number=Sing VerbForm=Vnoun	t39	nmod	15	NUM	NumType=Dist	t48
-için	için	için	ADP	-	t40	case	görüş	VERB	Case=Nom Number=Sing VerbForm=Vnoun	t39
+için	için	için	ADP		t40	case	görüş	VERB	Case=Nom Number=Sing VerbForm=Vnoun	t39
 <g/>
-,	,	,	PUNCT	-	t41	punct	görüş	VERB	Case=Nom Number=Sing VerbForm=Vnoun	t39
+,	,	,	PUNCT		t41	punct	görüş	VERB	Case=Nom Number=Sing VerbForm=Vnoun	t39
 <name type="ORG">
 5	5	5	NUM	Case=Nom Number=Sing	t42	nummod	gün	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t46
 Temmuz	Temmuz	temmuz	NOUN	Case=Nom Number=Sing	t43	nmod	gün	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t46
@@ -121,14 +121,14 @@ saat	saat	saat	NOUN	Case=Nom Number=Sing	t47	obl	15	NUM	NumType=Dist	t48
 </s>
 <s id="tbmm-2011-07-04s02p090-000020">
 <name type="LOC">
-00’te	00’te	00’te	X	-	t1	obj	topla	VERB	Case=Nom Number=Sing VerbForm=Vnoun Voice=Pass	t2
+00’te	00’te	00’te	X		t1	obj	topla	VERB	Case=Nom Number=Sing VerbForm=Vnoun Voice=Pass	t2
 </name>
 toplanmak	toplanmak	topla	VERB	Case=Nom Number=Sing VerbForm=Vnoun Voice=Pass	t2	nmod	kapa	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres Voice=Cau	t5
-üzere	üzere	üzere	ADP	-	t3	case	topla	VERB	Case=Nom Number=Sing VerbForm=Vnoun Voice=Pass	t2
+üzere	üzere	üzere	ADP		t3	case	topla	VERB	Case=Nom Number=Sing VerbForm=Vnoun Voice=Pass	t2
 birleşimi	birleşimi	birleşim	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t4	obj	kapa	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres Voice=Cau	t5
 kapatıyorum	kapatıyorum	kapa	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres Voice=Cau	t5	root	-	-	-	-
 <g/>
-.	.	.	PUNCT	-	t6	punct	kapa	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres Voice=Cau	t5
+.	.	.	PUNCT		t6	punct	kapa	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres Voice=Cau	t5
 </s>
 </p>
 </speech>
