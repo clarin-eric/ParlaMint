@@ -130,6 +130,11 @@
 	<term>Bicameralism</term>
 	<term>Lower house</term>
       </xsl:when>
+      <xsl:when test="$country-code = 'RO'">
+	<term>Legislature</term>
+	<term>Bicameralism</term>
+	<term>Lower house</term>
+      </xsl:when>
       <xsl:otherwise>
 	<xsl:message terminate="yes" select="concat('FATAL ', /tei:TEI/@xml:id, 
 					     ': BAD COUNTRY!')"/>
