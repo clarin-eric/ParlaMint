@@ -208,7 +208,18 @@
 	  <xsl:variable name="country-code" select="substring-after(
 					    ancestor::tei:teiCorpus/@xml:id, '-')"/>
 	  <category xml:id="{current-grouping-key()}-{$country-code}">
-	    <xsl:for-each select="current-group()/tei:*">
+	    <xsl:for-each select="current-group()/tei:catDesc">
+	      <xsl:copy>
+		<xsl:attribute name="corresp"
+			       select="concat('#', ancestor::tei:teiCorpus/@xml:id)"/>
+		<xsl:if test="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang != 'en'">
+		  <xsl:attribute name="xml:lang"
+				 select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
+		</xsl:if>
+		<xsl:apply-templates/>
+	      </xsl:copy>
+	    </xsl:for-each>
+	    <xsl:for-each select="current-group()/tei:category">
 	      <xsl:copy>
 		<xsl:attribute name="corresp"
 			       select="concat('#', ancestor::tei:teiCorpus/@xml:id)"/>
