@@ -205,9 +205,9 @@
 				    tei:teiCorpus/tei:teiHeader//tei:classDecl/
 				    tei:taxonomy[@xml:id = $id]/tei:category"
 			    group-by="@xml:id">
-	  <xsl:variable name="code" select="substring-after(
+	  <xsl:variable name="country-code" select="substring-after(
 					    ancestor::tei:teiCorpus/@xml:id, '-')"/>
-	  <category xml:id="{current-grouping-key()}-{$code}">
+	  <category xml:id="{current-grouping-key()}-{$country-code}">
 	    <xsl:for-each select="current-group()/tei:*">
 	      <xsl:copy>
 		<xsl:attribute name="corresp"
@@ -223,6 +223,17 @@
 	</xsl:for-each-group>
       </xsl:variable>
       <xsl:copy-of select="$taxonomies"/>
+    </xsl:copy>
+  </xsl:template>
+  
+  <xsl:template match="tei:category">
+    <xsl:variable name="country-code" select="substring-after(
+					      ancestor::tei:teiCorpus/@xml:id, '-')"/>
+    <xsl:variable name="id" select="concat(@xml:id, '-', $country-code)"/>
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <xsl:attribute name="xml:id" select="$id"/>
+      <xsl:apply-templates/>
     </xsl:copy>
   </xsl:template>
   
