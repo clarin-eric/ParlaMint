@@ -1,4 +1,4 @@
-<speech id="ParlaMint-HU_2018-10-24-urgent_question-AC8_2943_segmented" text_id="ParlaMint-HU_2018-10-24" subcorpus="COVID" house="" term="8" session="" meeting="" sitting="" agenda="" from="2018-10-24" to="2018-10-24" title="Minutes of the National Assembly of Hungary, Term 8" speaker_role="Regular" speaker_id="SándorSzékely" speaker_name="Székely, Sándor" speaker_type="MP" speaker_party="DK" speaker_party_name="Demokratikus Koalíció" party_status="" speaker_gender="M" speaker_birth="1977">
+<speech id="ParlaMint-HU_2018-10-24-urgent_question-AC8_2943_segmented" text_id="ParlaMint-HU_2018-10-24" subcorpus="Reference" house="" term="8" session="" meeting="" sitting="" agenda="" from="2018-10-24" to="2018-10-24" title="Minutes of the National Assembly of Hungary, Term 8" speaker_role="Regular" speaker_id="SándorSzékely" speaker_name="Székely, Sándor" speaker_type="MP" speaker_party="DK" speaker_party_name="Demokratikus Koalíció" party_status="" speaker_gender="M" speaker_birth="1977">
 <note type="-" content="SZÉKELY SÁNDOR (DK):"/>
 <p id="AC8_2943.1" lang="Hungarian">
 <s id="AC8_2943_2.1.1">
@@ -361,7 +361,7 @@ szépen	szépen	szép	ADJ	Case=Ess Degree=Pos Number=Sing	2	amod:mode	köszön	N
 </p>
 <note type="kinesic:applause" content="Taps az ellenzék soraiból."/>
 </speech>
-<speech id="ParlaMint-HU_2018-10-24-urgent_question-AC8_2944_segmented" text_id="ParlaMint-HU_2018-10-24" subcorpus="COVID" house="" term="8" session="" meeting="" sitting="" agenda="" from="2018-10-24" to="2018-10-24" title="Minutes of the National Assembly of Hungary, Term 8" speaker_role="Regular" speaker_id="IldikóBangónéBorbély" speaker_name="Bangóné Borbély, Ildikó" speaker_type="MP" speaker_party="MSZP" speaker_party_name="Magyar Szocialista Párt" party_status="" speaker_gender="F" speaker_birth="1972">
+<speech id="ParlaMint-HU_2018-10-24-urgent_question-AC8_2944_segmented" text_id="ParlaMint-HU_2018-10-24" subcorpus="Reference" house="" term="8" session="" meeting="" sitting="" agenda="" from="2018-10-24" to="2018-10-24" title="Minutes of the National Assembly of Hungary, Term 8" speaker_role="Regular" speaker_id="IldikóBangónéBorbély" speaker_name="Bangóné Borbély, Ildikó" speaker_type="MP" speaker_party="MSZP" speaker_party_name="Magyar Szocialista Párt" party_status="" speaker_gender="F" speaker_birth="1972">
 <note type="-" content="BANGÓNÉ BORBÉLY ILDIKÓ (MSZP):"/>
 <p id="AC8_2944.1" lang="Hungarian">
 <s id="AC8_2944_2.1.1">
@@ -786,7 +786,7 @@ válaszát	válaszát	válasz	NOUN	Case=Acc Number=Sing Number[psor]=Sing Person
 <note type="kinesic:applause" content="Taps az MSZP soraiban."/>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-HU_2018-10-24-urgent_question-AC8_2956_segmented" text_id="ParlaMint-HU_2018-10-24" subcorpus="COVID" house="" term="8" session="" meeting="" sitting="" agenda="" from="2018-10-24" to="2018-10-24" title="Minutes of the National Assembly of Hungary, Term 8" speaker_role="Regular" speaker_id="ImreVejkey" speaker_name="Vejkey, Imre" speaker_type="MP" speaker_party="KDNP" speaker_party_name="Kereszténydemokrata Néppárt" party_status="" speaker_gender="M" speaker_birth="1964">
+<speech id="ParlaMint-HU_2018-10-24-urgent_question-AC8_2956_segmented" text_id="ParlaMint-HU_2018-10-24" subcorpus="Reference" house="" term="8" session="" meeting="" sitting="" agenda="" from="2018-10-24" to="2018-10-24" title="Minutes of the National Assembly of Hungary, Term 8" speaker_role="Regular" speaker_id="ImreVejkey" speaker_name="Vejkey, Imre" speaker_type="MP" speaker_party="KDNP" speaker_party_name="Kereszténydemokrata Néppárt" party_status="" speaker_gender="M" speaker_birth="1964">
 <note type="-" content="DR. VEJKEY IMRE (KDNP):"/>
 <p id="AC8_2956.1" lang="Hungarian">
 <s id="AC8_2956_2.1.1">
@@ -1085,7 +1085,7 @@ Köszönöm	Köszönöm	Köszönöm	PROPN	Case=Nom Number=Sing	1	root	-	-	-	-
 </p>
 <note type="kinesic:applause" content="Taps a kormánypárti padsorokból."/>
 </speech>
-<speech id="ParlaMint-HU_2018-10-24-urgent_question-AC8_2957_segmented" text_id="ParlaMint-HU_2018-10-24" subcorpus="COVID" house="" term="8" session="" meeting="" sitting="" agenda="" from="2018-10-24" to="2018-10-24" title="Minutes of the National Assembly of Hungary, Term 8" speaker_role="Regular" speaker_id="GyörgyHubay" speaker_name="Hubay, György" speaker_type="MP" speaker_party="Fidesz" speaker_party_name="Fidesz – Magyar Polgári Szövetség" party_status="" speaker_gender="M" speaker_birth="">
+<speech id="ParlaMint-HU_2018-10-24-urgent_question-AC8_2957_segmented" text_id="ParlaMint-HU_2018-10-24" subcorpus="Reference" house="" term="8" session="" meeting="" sitting="" agenda="" from="2018-10-24" to="2018-10-24" title="Minutes of the National Assembly of Hungary, Term 8" speaker_role="Regular" speaker_id="GyörgyHubay" speaker_name="Hubay, György" speaker_type="MP" speaker_party="Fidesz" speaker_party_name="Fidesz – Magyar Polgári Szövetség" party_status="" speaker_gender="M" speaker_birth="">
 <note type="-" content="HUBAY GYÖRGY (Fidesz):"/>
 <p id="AC8_2957.1" lang="Hungarian">
 <s id="AC8_2957_2.1.1">

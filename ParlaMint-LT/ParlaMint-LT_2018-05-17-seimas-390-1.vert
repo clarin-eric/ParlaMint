@@ -1,6 +1,6 @@
 <note type="head" content="LIETUVOS RESPUBLIKOS SEIMAS, IV (PAVASARIO) SESIJOS, VAKARINIO POSĖDŽIO NR. 173 STENOGRAMA, 2018 m. gegužės 17 d."/>
 <note type="head" content="Pirmininkauja Lietuvos Respublikos Seimo Pirmininko pavaduotojai I. DEGUTIENĖ ir A. NEKROŠIUS"/>
-<speech id="ParlaMint-LT_2018-05-17-seimas-390-1.u1" text_id="ParlaMint-LT_2018-05-17-seimas-390-1" subcorpus="COVID" house="" term="8" session="4" meeting="173" sitting="" agenda="" from="2018-05-17" to="2018-05-17" title="Transcripts of the Meetings of the Seimas of the Republic of Lithuania, Term 8, Regular Session 4 (2018-05-17)" speaker_role="Chairperson" speaker_id="DegutienėIrena" speaker_name="Degutienė, Irena" speaker_type="MP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="F" speaker_birth="1949">
+<speech id="ParlaMint-LT_2018-05-17-seimas-390-1.u1" text_id="ParlaMint-LT_2018-05-17-seimas-390-1" subcorpus="Reference" house="" term="8" session="4" meeting="173" sitting="" agenda="" from="2018-05-17" to="2018-05-17" title="Transcripts of the Meetings of the Seimas of the Republic of Lithuania, Term 8, Regular Session 4 (2018-05-17)" speaker_role="Chairperson" speaker_id="DegutienėIrena" speaker_name="Degutienė, Irena" speaker_type="MP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="F" speaker_birth="1949">
 <p id="ParlaMint-LT_2018-05-17-seimas-390-1.seg173472" lang="Lithuanian">
 <s id="ParlaMint-LT_2018-05-17-seimas-390-1.seg173472.1">
 Gerbiami	Gerbiami	gerbiamas	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Plur	1	root	-	-	-	-
@@ -33,7 +33,7 @@ narių	narių	narė	NOUN	Case=Gen Gender=Masc Number=Plur	4	nmod	60	NUM	Definite
 </speech>
 <note type="time" content="15.03"/>
 <note type="debate" content="Seimo nutarimo &#34;Dėl Lietuvos Respublikos Seimo 2018 m. kovo 15 d. nutarimo Nr. XIII-1031 &#34;Dėl Lietuvos Respublikos Seimo IV (pavasario) sesijos darbų programos&#34; pakeitimo&#34; projektas Nr. XIIIP-2149 (pateikimas, svarstymas ir priėmimas)"/>
-<speech id="ParlaMint-LT_2018-05-17-seimas-390-1.u2" text_id="ParlaMint-LT_2018-05-17-seimas-390-1" subcorpus="COVID" house="" term="8" session="4" meeting="173" sitting="" agenda="" from="2018-05-17" to="2018-05-17" title="Transcripts of the Meetings of the Seimas of the Republic of Lithuania, Term 8, Regular Session 4 (2018-05-17)" speaker_role="Chairperson" speaker_id="DegutienėIrena" speaker_name="Degutienė, Irena" speaker_type="MP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="F" speaker_birth="1949">
+<speech id="ParlaMint-LT_2018-05-17-seimas-390-1.u2" text_id="ParlaMint-LT_2018-05-17-seimas-390-1" subcorpus="Reference" house="" term="8" session="4" meeting="173" sitting="" agenda="" from="2018-05-17" to="2018-05-17" title="Transcripts of the Meetings of the Seimas of the Republic of Lithuania, Term 8, Regular Session 4 (2018-05-17)" speaker_role="Chairperson" speaker_id="DegutienėIrena" speaker_name="Degutienė, Irena" speaker_type="MP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="F" speaker_birth="1949">
 <p id="ParlaMint-LT_2018-05-17-seimas-390-1.seg173474" lang="Lithuanian">
 <s id="ParlaMint-LT_2018-05-17-seimas-390-1.seg173474.1">
 Taigi	Taigi	Taigi	PART		1	advmod	klausimas	NOUN	Case=Nom Gender=Masc Number=Sing	5
@@ -113,7 +113,7 @@ Kasčiūną	Kasčiūną	Kasčiūną	NOUN	Case=Acc Gender=Masc Number=Sing	6	obl	
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-LT_2018-05-17-seimas-390-1.u241" text_id="ParlaMint-LT_2018-05-17-seimas-390-1" subcorpus="COVID" house="" term="8" session="4" meeting="173" sitting="" agenda="" from="2018-05-17" to="2018-05-17" title="Transcripts of the Meetings of the Seimas of the Republic of Lithuania, Term 8, Regular Session 4 (2018-05-17)" speaker_role="Regular" speaker_id="ŠimonytėIngrida" speaker_name="Šimonytė, Ingrida" speaker_type="MP" speaker_party="TS-LKDF" speaker_party_name="Tėvynės sąjungos-Lietuvos krikščionių demokratų frakcija" party_status="Opposition" speaker_gender="F" speaker_birth="1974">
+<speech id="ParlaMint-LT_2018-05-17-seimas-390-1.u241" text_id="ParlaMint-LT_2018-05-17-seimas-390-1" subcorpus="Reference" house="" term="8" session="4" meeting="173" sitting="" agenda="" from="2018-05-17" to="2018-05-17" title="Transcripts of the Meetings of the Seimas of the Republic of Lithuania, Term 8, Regular Session 4 (2018-05-17)" speaker_role="Regular" speaker_id="ŠimonytėIngrida" speaker_name="Šimonytė, Ingrida" speaker_type="MP" speaker_party="TS-LKDF" speaker_party_name="Tėvynės sąjungos-Lietuvos krikščionių demokratų frakcija" party_status="Opposition" speaker_gender="F" speaker_birth="1974">
 <p id="ParlaMint-LT_2018-05-17-seimas-390-1.seg173828" lang="Lithuanian">
 <s id="ParlaMint-LT_2018-05-17-seimas-390-1.seg173828.1">
 Labai	Labai	labas	ADV	Degree=Pos	1	advmod	ačiū	X	Abbr=Yes	2
@@ -180,7 +180,7 @@ Ačiū	Ačiū	Ačiū	X	Abbr=Yes	1	root	-	-	-	-
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-LT_2018-05-17-seimas-390-1.u242" text_id="ParlaMint-LT_2018-05-17-seimas-390-1" subcorpus="COVID" house="" term="8" session="4" meeting="173" sitting="" agenda="" from="2018-05-17" to="2018-05-17" title="Transcripts of the Meetings of the Seimas of the Republic of Lithuania, Term 8, Regular Session 4 (2018-05-17)" speaker_role="Chairperson" speaker_id="DegutienėIrena" speaker_name="Degutienė, Irena" speaker_type="MP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="F" speaker_birth="1949">
+<speech id="ParlaMint-LT_2018-05-17-seimas-390-1.u242" text_id="ParlaMint-LT_2018-05-17-seimas-390-1" subcorpus="Reference" house="" term="8" session="4" meeting="173" sitting="" agenda="" from="2018-05-17" to="2018-05-17" title="Transcripts of the Meetings of the Seimas of the Republic of Lithuania, Term 8, Regular Session 4 (2018-05-17)" speaker_role="Chairperson" speaker_id="DegutienėIrena" speaker_name="Degutienė, Irena" speaker_type="MP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="F" speaker_birth="1949">
 <p id="ParlaMint-LT_2018-05-17-seimas-390-1.seg173829" lang="Lithuanian">
 <s id="ParlaMint-LT_2018-05-17-seimas-390-1.seg173829.1">
 Registruojamės	Registruojamės	Registruojamės	VERB	Mood=Ind Number=Sing Person=2 Polarity=Pos Tense=Pres VerbForm=Fin	1	nmod	posėdis	NOUN	Case=Acc Gender=Masc Number=Sing	4
