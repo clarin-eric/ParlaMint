@@ -201,11 +201,13 @@
     <xsl:copy>
       <xsl:attribute name="xml:id" select="$id"/>
       <xsl:variable name="taxonomies">
-	<xsl:for-each-group select="$docs/tei:item/document(.)/
+	<xsl:for-each-group select="$docs/document(tei:item)/
 				    tei:teiCorpus/tei:teiHeader//tei:classDecl/
 				    tei:taxonomy[@xml:id = $id]/tei:category"
 			    group-by="@xml:id">
-	  <category xml:id="{current-grouping-key()}">
+	  <xsl:variable name="code" select="substring-after(
+					    ancestor::tei:teiCorpus/@xml:id, '-')"/>
+	  <category xml:id="{current-grouping-key()}-{$code}">
 	    <xsl:for-each select="current-group()/tei:*">
 	      <xsl:copy>
 		<xsl:attribute name="corresp"
