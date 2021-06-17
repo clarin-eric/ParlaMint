@@ -32,10 +32,10 @@
     <xsl:copy-of select="."/>
     <xsl:for-each select="$docs//tei:item">
       <xsl:for-each select="document(.)/tei:teiCorpus">
-	<xsl:variable name="corpus" select="@xml:id"/>
+	<xsl:variable name="id" select="@xml:id"/>
 	<xsl:for-each select="tei:teiHeader//tei:titleStmt/tei:respStmt">
 	  <xsl:copy>
-	    <xsl:attribute name="n" select="$corpus"/>
+	    <xsl:attribute name="corresp" select="concat('#', $id)"/>
 	    <xsl:for-each select="tei:persName[not(@xml:lang) or @xml:lang != 'bg']">
 	      <xsl:copy>
 		<xsl:value-of select="."/>
@@ -43,7 +43,6 @@
 	    </xsl:for-each>
 	    <xsl:for-each select="tei:resp[ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']]">
 	      <xsl:copy>
-		<!--xsl:value-of select="concat($corpus, ': ', .)"/-->
 		<xsl:value-of select="."/>
 	      </xsl:copy>
 	    </xsl:for-each>
@@ -77,7 +76,7 @@
     </funder>
     <xsl:for-each select="$docs//tei:item">
       <xsl:for-each select="document(.)/tei:teiCorpus">
-	<xsl:variable name="corpus" select="@xml:id"/>
+	<xsl:variable name="id" select="@xml:id"/>
 	<xsl:variable name="funders">
 	  <xsl:for-each select="tei:teiHeader//tei:titleStmt/tei:funder">
 	    <xsl:if test="not(contains(., ' CLARIN '))">
@@ -86,7 +85,7 @@
 	  </xsl:for-each>
 	</xsl:variable>
 	<xsl:if test="normalize-space($funders)">
-	  <funder n="{$corpus}">
+	  <funder corresp="#{$id}">
 	    <xsl:copy-of select="$funders"/>
 	  </funder>
 	</xsl:if>
@@ -166,7 +165,7 @@
     <xsl:for-each select="$docs/tei:item/document(.)/tei:teiCorpus">
       <xsl:sort select="@xml:id"/>
       <listBibl>
-	<xsl:attribute name="n" select="@xml:id"/>
+	<xsl:attribute name="corresp" select="concat('#', @xml:id)"/>
 	<head>
 	  <xsl:value-of select="@xml:id"/>
 	</head>
@@ -183,12 +182,11 @@
     <xsl:variable name="name" select="name()"/>
     <xsl:copy>
       <xsl:for-each select="document($docs//tei:item)/tei:teiCorpus">
-	<xsl:variable name="corpus" select="@xml:id"/>
+	<xsl:variable name="id" select="@xml:id"/>
 	<xsl:for-each select="tei:teiHeader/tei:encodingDesc/
 			      tei:editorialDecl/tei:*[name() = $name]/tei:p">
 	  <xsl:copy>
-	    <xsl:attribute name="n" select="$corpus"/>
-	    <!--xsl:value-of select="concat($corpus, ': ', .)"/-->
+	    <xsl:attribute name="corresp" select="concat('#', $id)"/>
 	    <xsl:value-of select="."/>
 	  </xsl:copy>
 	</xsl:for-each>
@@ -250,10 +248,10 @@
   
   <xsl:template match="tei:appInfo">
     <xsl:for-each select="document($docs//tei:item)/tei:teiCorpus">
-      <xsl:variable name="corpus" select="@xml:id"/>
+      <xsl:variable name="id" select="@xml:id"/>
       <xsl:for-each select="tei:teiHeader/tei:encodingDesc/tei:appInfo">
 	<xsl:copy>
-	  <xsl:attribute name="n" select="$corpus"/>
+	  <xsl:attribute name="corresp" select="concat('#', $id)"/>
 	  <xsl:apply-templates/>
 	</xsl:copy>
       </xsl:for-each>
@@ -263,11 +261,20 @@
   <xsl:template match="tei:settingDesc">
     <xsl:copy>
       <xsl:for-each select="$docs//document(tei:item)/tei:teiCorpus">
-	<setting n="{@xml:id}">
+	<setting corresp="#{@xml:id}">
 	  <xsl:copy-of select="tei:teiHeader//tei:setting/tei:*"/>
 	</setting>
       </xsl:for-each>
     </xsl:copy>
+  </xsl:template>
+    
+  <xsl:template match="tei:langUsage">
+    <xsl:for-each select="$docs//document(tei:item)//tei:langUsage">
+      <xsl:variable name="id" select="ancestor::tei:teiCorpus/@xml:id"/>
+      <langUsage corresp="#{$id}">
+	<xsl:copy-of select="tei:*"/>
+      </langUsage>
+    </xsl:for-each>
   </xsl:template>
     
   <xsl:template match="tei:change/@when">
