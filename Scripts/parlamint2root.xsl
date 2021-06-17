@@ -205,7 +205,7 @@
 			    group-by="@xml:id">
 	  <xsl:variable name="country-code" select="substring-after(
 					    ancestor::tei:teiCorpus/@xml:id, '-')"/>
-	  <category xml:id="{current-grouping-key()}-{$country-code}">
+	  <category xml:id="{current-grouping-key()}">
 	    <xsl:for-each select="current-group()/tei:catDesc">
 	      <xsl:copy>
 		<xsl:attribute name="corresp"
