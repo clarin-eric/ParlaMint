@@ -2,7 +2,7 @@
 
 The [CLARIN ParlaMint
 project](https://www.clarin.eu/content/parlamint-towards-comparable-parliamentary-corpora)
-compiled comparable parliamentary corpora for a number of countries/languages. 
+compiled comparable parliamentary corpora for a number of countries and languages. 
 
 ParlaMint corpora are interoperable, i.e. encoded to a very constrained common ParlaMint schema, a
 specialisation of the [Parla-CLARIN recommendations](https://clarin-eric.github.io/parla-clarin/),
@@ -10,12 +10,12 @@ which are a customisation of the [TEI Guidelines](https://tei-c.org/guidelines/p
 can process any of the ParlaMint corpora, despite the differing parliamentary systems of the
 countries, the kind of information included in the corpora, and, of course, language.
 
-The latest version of ParlaMint is 2.1 which contains corpora for 17 countries and is available from
-the CLARIN.SI repository, where it is split into the linguistically
-[unannotated](http://hdl.handle.net/11356/1432) and [annotated](http://hdl.handle.net/11356/1432)
-versions.
+The latest version of ParlaMint is 2.1 which contains corpora for 17 countries (and 16 languages)
+and is available from the CLARIN.SI repository, where it is avaliable as the linguistically
+unannotated ([http://hdl.handle.net/11356/1432](http://hdl.handle.net/11356/1432)) and
+annotated ([(http://hdl.handle.net/11356/1431)](http://hdl.handle.net/11356/1431) variants.
 
-This Git contains the ParlaMint RelaxNG schemas, the scripts used to validate,
+This Git contains the ParlaMint XML schemas, the scripts used to validate,
 and convert the XML corpora to some useful derived formats, and samples of the
 ParlaMint corpora:
 
@@ -23,9 +23,8 @@ ParlaMint corpora:
 four types of files present in the corpora. The README in this
 directory provides more information.
 * The *[Scripts](Scripts/) folder* contains the XSLT scripts (and their Perl wrappers) used to:
-  * convert the first generation ParlaMint corpora to the present one;
-  * validate the corpora, in addition to schema validation also for links and metadata consistency;
-  * prepare the full corpora for distribution;
+  * finalize the corpora submitted by the project partners to V2.1;
+  * validate the corpora (in addition to schema validation also for links and metadata consistency);
   * convert the TEI encoded corpora to derived formats.
 * The *sample country directories* should include:
   * `ParlaMint-XX.xml`: teiCorpus root file of the sample with (e.g. speaker and party) metadata and
