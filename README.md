@@ -13,7 +13,7 @@ countries, the kind of information included in the corpora, and, of course, lang
 The latest version of ParlaMint is 2.1 which contains corpora for 17 countries (and 16 languages)
 and is available from the CLARIN.SI repository, where it is avaliable as the linguistically
 unannotated ([http://hdl.handle.net/11356/1432](http://hdl.handle.net/11356/1432)) and
-annotated ([(http://hdl.handle.net/11356/1431)](http://hdl.handle.net/11356/1431) variants.
+annotated ([http://hdl.handle.net/11356/1431](http://hdl.handle.net/11356/1431)) variants.
 
 This Git contains the ParlaMint XML schemas, the scripts used to validate,
 and convert the XML corpora to some useful derived formats, and samples of the
