@@ -39,11 +39,15 @@ foreach my $inDir (glob "$inDirs") {
     my @compFiles = ();
     my @compAnaFiles = ();
     foreach $inFile (glob "$inDir/*.xml") {
-	if    ($inFile =~ m|ParlaMint-..\.xml|) {$rootFile = $inFile}
-	elsif ($inFile =~ m|ParlaMint-..\.ana\.xml|) {$rootAnaFile = $inFile}
+	if    ($inFile =~ m|ParlaMint-[^_]+\.xml|) {$rootFile = $inFile}
+	elsif ($inFile =~ m|ParlaMint-[^_]+\.ana\.xml|) {$rootAnaFile = $inFile}
     }
     $/ = '>';
+    if (not $rootFile and not $rootAnaFile) {
+	die "FATAL: Cannot file root file in $inDir!\n"
+    }
     if ($rootFile) {
+	print STDERR "INFO: Validating TEI root $rootFile\n";
 	&run("$Jing $schemaDir/ParlaMint-teiCorpus.rng", $rootFile);
 	&run("$Saxon -xsl:$Valid", $rootFile);
 	&run("$Saxon -xsl:$Links", $rootFile);
@@ -53,6 +57,7 @@ foreach my $inDir (glob "$inDirs") {
 		m| href="(.+?)"|;
 		$file = "$inDir/$1";
 		if (-e $file) {
+		    print STDERR "INFO: Validating component TEI file $file\n";
 		    &run("$Jing $schemaDir/ParlaMint-TEI.rng", $file);
 		    &run("$Saxon -xsl:$Valid", $file);
 		    &run("$Saxon meta=$rootFile -xsl:$Links", $file);
@@ -66,6 +71,7 @@ foreach my $inDir (glob "$inDirs") {
 	# print STDERR "WARN: No text root file found in $inDir\n"
     }
     if ($rootAnaFile) {
+	print STDERR "INFO: Validating TEI.ana root $rootAnaFile\n";
 	&run("$Jing $schemaDir/ParlaMint-teiCorpus.ana.rng", $rootAnaFile);
 	&run("$Saxon -xsl:$Valid", $rootAnaFile);
 	&run("$Saxon -xsl:$Links", $rootAnaFile);
@@ -75,6 +81,7 @@ foreach my $inDir (glob "$inDirs") {
 		m| href="(.+?)"|;
 		$file = "$inDir/$1";
 		if (-e $file) {
+		    print STDERR "INFO: Validating component TEI.ana file $file\n";
 		    &run("$Jing $schemaDir/ParlaMint-TEI.ana.rng", $file);
 		    &run("$Saxon -xsl:$Valid", $file);
 		    &run("$Saxon meta=$rootAnaFile -xsl:$Links", $file);
