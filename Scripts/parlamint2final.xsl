@@ -29,10 +29,10 @@
   <!-- Directories must have absolute paths! -->
   <xsl:param name="outDir">.</xsl:param>
   <xsl:param name="anaDir">.</xsl:param>
-  <xsl:param name="version">2.1</xsl:param>
+  <xsl:param name="version">2.2</xsl:param>
   <xsl:param name="covid-date" as="xs:date">2019-11-01</xsl:param>
-  <xsl:param name="handle-txt">http://hdl.handle.net/11356/1432</xsl:param>
-  <xsl:param name="handle-ana">http://hdl.handle.net/11356/1431</xsl:param>
+  <xsl:param name="handle-txt">http://hdl.handle.net/11356/XXXX</xsl:param>
+  <xsl:param name="handle-ana">http://hdl.handle.net/11356/XXXX</xsl:param>
   <xsl:param name="type">
     <xsl:choose>
       <xsl:when test="contains(/tei:teiCorpus/@xml:id, '.ana')">ana</xsl:when>
@@ -40,7 +40,7 @@
     </xsl:choose>
   </xsl:param>
   <xsl:param name="country-code" select="replace(/tei:teiCorpus/@xml:id, 
-					 '.*-(..).*', '$1')"/>
+					 '.*?-(.+)', '$1')"/>
   <xsl:param name="country-name" select="replace(/tei:teiCorpus/tei:teiHeader/
 					 tei:fileDesc/tei:titleStmt/
 					 tei:title[@type='main' and @xml:lang='en'],
@@ -96,6 +96,10 @@
 	<term>Legislature</term>
 	<term>Bicameralism</term>
 	<term>Lower house</term>
+      </xsl:when>
+      <xsl:when test="$country-code = 'ES-CT'">
+	<term>Legislature</term>
+	<term>Unicameralism</term>
       </xsl:when>
       <xsl:when test="$country-code = 'FR'">
 	<term>Legislature</term>
