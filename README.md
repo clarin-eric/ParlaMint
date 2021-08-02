@@ -11,7 +11,7 @@ can process any of the ParlaMint corpora, despite the differing parliamentary sy
 countries, the kind of information included in the corpora, and, of course, language.
 
 The latest version of ParlaMint is 2.1 which contains corpora for 17 countries (and 16 languages)
-and is available from the CLARIN.SI repository, where it is avaliable as the linguistically
+and is available from the CLARIN.SI repository, both in the linguistically
 unannotated ([http://hdl.handle.net/11356/1432](http://hdl.handle.net/11356/1432)) and
 annotated ([http://hdl.handle.net/11356/1431](http://hdl.handle.net/11356/1431)) variants.
 
