@@ -62,6 +62,37 @@
     </xsl:copy>
   </xsl:template>
   
+  <xsl:template match="tei:titleStmt/tei:meeting">
+    <xsl:for-each select="$docs//tei:item">
+      <xsl:for-each select="document(.)/tei:teiCorpus">
+	<xsl:variable name="id" select="@xml:id"/>
+	<xsl:variable name="country-code">
+	  <!-- Doesn't work cause of GB! -->
+	  <!--xsl:value-of select=".//tei:setting/tei:name[@type='country']/@key"/-->
+	  <xsl:value-of select="substring-after(@xml:id, '-')"/>
+	</xsl:variable>
+	<xsl:for-each select="tei:teiHeader//tei:titleStmt/tei:meeting">
+	  <!--meeting ana="#parla.lower #parla.term" n="54">54-ste zittingsperiode</meeting-->
+	  <xsl:copy>
+	    <xsl:apply-templates select="@*"/>
+	    <xsl:attribute name="xml:lang" select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
+	    <xsl:attribute name="corresp" select="concat('#', $id)"/>
+	    <xsl:attribute name="ana">
+	      <xsl:variable name="ana">
+		<xsl:for-each select="tokenize(@ana, ' ')">
+		  <xsl:value-of select="concat(., '-', $country-code)"/>
+		  <xsl:text>&#32;</xsl:text>
+		</xsl:for-each>
+	      </xsl:variable>
+	      <xsl:value-of select="normalize-space($ana)"/>
+	    </xsl:attribute>
+	    <xsl:apply-templates/>
+	  </xsl:copy>
+	</xsl:for-each>
+      </xsl:for-each>
+    </xsl:for-each>
+  </xsl:template>
+    
   <xsl:template match="tei:publicationStmt/tei:date">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
@@ -264,6 +295,19 @@
 	<setting corresp="#{@xml:id}">
 	  <xsl:copy-of select="tei:teiHeader//tei:setting/tei:*"/>
 	</setting>
+      </xsl:for-each>
+    </xsl:copy>
+  </xsl:template>
+  
+  <xsl:template match="tei:textClass">
+    <xsl:copy>
+      <xsl:for-each select="$docs//document(tei:item)/tei:teiCorpus//tei:textClass/tei:catRef">
+	<xsl:variable name="id" select="ancestor::tei:teiCorpus/@xml:id"/>
+	<xsl:copy>
+	  <xsl:apply-templates select="@*"/>
+	  <xsl:attribute name="corresp" select="concat('#', $id)"/>
+	  <xsl:apply-templates/>
+	</xsl:copy>
       </xsl:for-each>
     </xsl:copy>
   </xsl:template>
