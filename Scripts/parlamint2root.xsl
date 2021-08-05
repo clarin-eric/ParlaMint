@@ -150,23 +150,28 @@
   
   <xsl:template match="tei:extent/tei:measure">
     <xsl:variable name="unit" select="@unit"/>
-    <xsl:variable name="quant">
-      <xsl:variable name="quants">
-	<xsl:for-each select="$docs/tei:item/document(.)/tei:teiCorpus/tei:teiHeader//
-			      tei:extent/tei:measure
-			      [ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']][@unit = $unit]">
-	  <item>
-	    <xsl:value-of select="@quantity"/>
-	  </item>
-	</xsl:for-each>
-      </xsl:variable>
-      <xsl:value-of select="sum($quants/tei:item)"/>
+    <xsl:variable name="quants">
+      <xsl:for-each select="$docs/tei:item/document(.)/tei:teiCorpus/tei:teiHeader//
+			    tei:extent/tei:measure
+			    [ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']][@unit = $unit]">
+	<xsl:copy>
+	  <xsl:apply-templates select="@unit"/>
+	  <xsl:apply-templates select="@quantity"/>
+	  <xsl:attribute name="corresp">
+	    <xsl:text>#</xsl:text>
+	    <xsl:value-of select="ancestor::tei:teiCorpus/@xml:id"/>
+	  </xsl:attribute>
+	  <xsl:apply-templates/>
+	</xsl:copy>
+      </xsl:for-each>
     </xsl:variable>
+    <xsl:variable name="quant" select="sum($quants/tei:measure/@quantity)"/>
     <xsl:copy>
       <xsl:attribute name="unit" select="$unit"/>
       <xsl:attribute name="quantity" select="format-number($quant, '#')"/>
       <xsl:value-of select="concat(format-number($quant, '###,###,###'), ' ', $unit)"/>
     </xsl:copy>
+    <xsl:copy-of select="$quants"/>
   </xsl:template>
   
   <xsl:template match="tei:tagUsage">
@@ -174,7 +179,15 @@
       <xsl:for-each select="$docs/tei:item/document(.)/tei:teiCorpus/tei:teiHeader//
 			    tei:tagsDecl//tei:tagUsage">
 	<xsl:sort select="@gi"/>
-	<xsl:copy-of select="."/>
+	<xsl:copy>
+	  <xsl:apply-templates select="@gi"/>
+	  <xsl:apply-templates select="@occurs"/>
+	  <xsl:attribute name="corresp">
+	    <xsl:text>#</xsl:text>
+	    <xsl:value-of select="ancestor::tei:teiCorpus/@xml:id"/>
+	  </xsl:attribute>
+	  <xsl:apply-templates/>
+	</xsl:copy>
       </xsl:for-each>
     </xsl:variable>
     <xsl:for-each select="$tagUsages/tei:tagUsage">
@@ -190,6 +203,7 @@
         <tagUsage gi="{$gi}" occurs="{format-number(sum($occurences/tei:item), '#')}"/>
       </xsl:if>
     </xsl:for-each>
+    <xsl:copy-of select="$tagUsages"/>
   </xsl:template>
   
   <xsl:template match="tei:sourceDesc/tei:bibl">
