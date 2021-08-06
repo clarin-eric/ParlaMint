@@ -1,3 +1,8 @@
+#Table1: Make LaTeX table with basic info on corpora
+table-overview:
+	$s mode=tsv -xsl:Scripts/parlamint2tbl-overview.xsl ParlaMint.xml > Metadata/ParlaMint-overview.tsv
+	$s mode=tex -xsl:Scripts/parlamint2tbl-overview.xsl ParlaMint.xml > Metadata/ParlaMint-overview.tex
+
 #Make TSV with dates and sizes for all corpora from vert files
 chrono:
 	Scripts/vert2chronotsv.pl 'ParlaMint-??'
