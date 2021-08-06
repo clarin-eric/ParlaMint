@@ -1,4 +1,8 @@
-#Table1: Make LaTeX table with basic info on corpora
+#Table2: Make table with metadata on corpora
+table-meta:
+	$s mode=tsv -xsl:Scripts/parlamint2tbl-meta.xsl ParlaMint.xml > Metadata/ParlaMint-meta.tsv
+	$s mode=tex -xsl:Scripts/parlamint2tbl-meta.xsl ParlaMint.xml > Metadata/ParlaMint-meta.tex
+#Table1: Make table with basic info on corpora
 table-overview:
 	$s mode=tsv -xsl:Scripts/parlamint2tbl-overview.xsl ParlaMint.xml > Metadata/ParlaMint-overview.tsv
 	$s mode=tex -xsl:Scripts/parlamint2tbl-overview.xsl ParlaMint.xml > Metadata/ParlaMint-overview.tex
