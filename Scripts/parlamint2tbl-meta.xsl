@@ -57,7 +57,7 @@
     <xsl:value-of select="$col-sep"/>
     <xsl:text>Birth</xsl:text>  <!-- Speakers with birth dates -->
     <xsl:value-of select="$col-sep"/>
-    <xsl:text>URL</xsl:text>  <!-- Speakers with URL (contact, twitter, facebook) -->
+    <xsl:text>URLs</xsl:text>  <!-- Speakers with one or more URLs (contact, twitter, facebook) -->
     <xsl:value-of select="$col-sep"/>
     <xsl:text>IMG</xsl:text>  <!-- Speakers with images -->
     <xsl:value-of select="$line-sep"/>
