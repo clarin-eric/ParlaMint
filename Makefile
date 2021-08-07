@@ -1,3 +1,10 @@
+#Table3: Make table with data on corpora
+table-data:
+	$s mode=tsv -xsl:Scripts/parlamint2tbl-data.xsl ../V2/Master/ParlaMint.xml > Metadata/ParlaMint-data.tsv
+	$s mode=tex -xsl:Scripts/parlamint2tbl-data.xsl ../V2/Master//ParlaMint.xml > Metadata/ParlaMint-data.tex
+test-table-data:
+	$s mode=tsv -xsl:Scripts/parlamint2tbl-data.xsl ParlaMint.xml > Metadata/ParlaMint-data.tsv
+	$s mode=tex -xsl:Scripts/parlamint2tbl-data.xsl ParlaMint.xml > Metadata/ParlaMint-data.tex
 #Table2: Make table with metadata on corpora
 table-meta:
 	$s mode=tsv -xsl:Scripts/parlamint2tbl-meta.xsl ParlaMint.xml > Metadata/ParlaMint-meta.tsv
