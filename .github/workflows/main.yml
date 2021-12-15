@@ -96,6 +96,6 @@ jobs:
         lang: ${{ fromJSON(needs.Validate.outputs.clanguages_process) }}
     steps:
       - name: Cleaning old sample files [${{matrix.lang}}] (the files that has been automatically created)
-      - run: |
+        run: |
           echo "TODO: create sample files"
 
