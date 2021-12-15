@@ -60,7 +60,7 @@ jobs:
       - name: detect-changes
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
-          changed_files=$(git diff --name-only ${{ github.event.before }}..${{ github.event.after }})
+          changed_files=$(git diff --name-only ${{ github.event.before }}..${{ github.event.after }}) # not working when action is called from GitHub web interface
           changed_languages=$(echo "$changed_files"|grep 'ParlaMint-.*/'|sed 's/^ParlaMint-\([-A-Z]*\).*$/\1/'|sort|uniq|tr '\n' ' ')
           changed_scripts=$(echo "$changed_files"|grep -vc 'ParlaMint-.*')
           all_languages=$(echo ParlaMint-*|sed 's/ParlaMint-\([-A-Z]*\)/\1/g'|sort)
@@ -93,7 +93,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        lang: ${{ fromJSON(needs.Validate.outputs.clanguages_process) }}
+        lang: ${{ fromJSON(needs.Validate.outputs.languages_process) }}
     steps:
       - name: Cleaning old sample files [${{matrix.lang}}] (the files that has been automatically created)
         run: |
