@@ -20,10 +20,10 @@ jobs:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
     outputs:
-      changed_languages_list: ${{ steps.detect-changes.outputs.changed_languages }}
-      changed_scripts: ${{steps.detect-changes.outputs.changed_scripts}} # number of changed files that are out of country directories
-      changed_files_list: ${{steps.detect-changes.outputs.changed_files}}
-      languages_process:  '${{ toJSON(steps.detect-changes.outputs.languages_process) }}'
+      #changed_languages_list: ${{ steps.detect-changes.outputs.changed_languages }}
+      #changed_scripts: ${{steps.detect-changes.outputs.changed_scripts}} # number of changed files that are out of country directories
+      #changed_files_list: ${{steps.detect-changes.outputs.changed_files}}
+      languages_process:  '${{ toJSON(steps.detect-changes.languages_process) }}'
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Setup Java JDK
@@ -70,7 +70,7 @@ jobs:
           echo "DEBUG: changed_languages=${changed_languages}"
           echo "DEBUG: changed_scripts=${changed_scripts}"
           echo "DEBUG: all_languages=${all_languages}"
-          echo "DEBUG: languages_process=${languages_process}"
+          echo "::set-output name=languages_process::${languages_process}"
       - name: Validate corpus root / text
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
