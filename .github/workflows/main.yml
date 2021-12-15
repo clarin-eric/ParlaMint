@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Validate Schema
+name: Validate and create sample files
 
 # Controls when the action will run. 
 on:
@@ -19,7 +19,11 @@ jobs:
   Validate:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-
+    outputs:
+      changed_languages_list: ${{ steps.detect-changes.outputs.changed_languages }}
+      changed_scripts: ${{step.detect-changes.outputs.changed_scripts}} # number of changed files that are out of country directories
+      changed_files_list: ${{step.detect-changes.outputs.changed_files}}
+      languages_process:  '${{ toJSON(step.detect-changes.outputs.languages_process) }}'
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Setup Java JDK
@@ -49,9 +53,24 @@ jobs:
         uses: actions/checkout@v2
         with:
           path: ParlaMint
+          fetch-depth: 0
       # Runs a set of commands using the runners shell
       #- name: Navigate to repository
       #  run: cd $GITHUB_WORKSPACE/ParlaMint
+      - name: detect-changes
+        run: |
+          cd $GITHUB_WORKSPACE/ParlaMint
+          changed_files=$(git diff --name-only ${{ github.event.before }}..${{ github.event.after }})
+          changed_languages=$(echo "$changed_files"|grep 'ParlaMint-.*/'|sed 's/^ParlaMint-\([-A-Z]*\).*$/\1/'|sort|uniq|tr '\n' ' ')
+          changed_scripts=$(echo "$changed_files"|grep -vc 'ParlaMint-.*')
+          all_languages=$(echo ParlaMint-*|sed 's/ParlaMint-\([-A-Z]*\)/\1/g'|sort)
+          languages_process=$(test -z "${changed_languages}" && echo "${all_languages}" || echo "${changed_languages}")
+          languages_process=$(echo "[$languages_process]"|tr ' ' ',')
+          echo "DEBUG: changed_files=${changed_files}"
+          echo "DEBUG: changed_languages=${changed_languages}"
+          echo "DEBUG: changed_scripts=${changed_scripts}"
+          echo "DEBUG: all_languages=${all_languages}"
+          echo "DEBUG: languages_process=${languages_process}"
       - name: Validate corpus root / text
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
@@ -68,4 +87,15 @@ jobs:
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
           ls ParlaMint-*/ParlaMint-*.xml | grep    '.ana.' | grep    '_' | xargs -t java -jar $GITHUB_WORKSPACE/jing/build/jing.jar -t Schema/ParlaMint-TEI.ana.rng
-          
+  # Creates sample files and commits them
+  MakeSample:
+    needs: Validate
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        lang: ${{ fromJSON(needs.Validate.outputs.clanguages_process) }}
+    steps:
+      - name: Cleaning old sample files [${{matrix.lang}}] (the files that has been automatically created)
+      - run: |
+          echo "TODO: create sample files"
+
