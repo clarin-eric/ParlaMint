@@ -61,7 +61,8 @@ jobs:
         id: detect-changes
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
-          changed_files=$(git diff --name-only ${{ github.event.before }}..${{ github.event.after }}) # not working when action is called from GitHub web interface
+          # changed_files=$(git diff --name-only ${{ github.event.before }}..${{ github.event.after }}) # not working when action is called from GitHub web interface
+          changed_files=$(git diff --name-only HEAD HEAD~1)
           changed_languages=$(echo "$changed_files"|grep 'ParlaMint-.*/'|sed 's/^ParlaMint-\([-A-Z]*\).*$/\1/'|sort|uniq|tr '\n' ' ')
           changed_scripts=$(echo "$changed_files"|grep -vc 'ParlaMint-.*')
           all_languages=$(echo ParlaMint-*|sed 's/ParlaMint-\([-A-Z]*\)/\1/g'|sort)
