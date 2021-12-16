@@ -15,9 +15,7 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  Validate:
-    # The type of runner that the job will run on
+  Changes:
     runs-on: ubuntu-latest
     outputs:
       #changed_languages_list: ${{ steps.detect-changes.outputs.changed_languages }}
@@ -26,29 +24,6 @@ jobs:
       languages_process:  '${{ steps.detect-changes.outputs.languages_process }}'
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - name: Setup Java JDK
-        uses: actions/setup-java@v1.4.3
-        with:
-          # The Java version to make available on the path. Takes a whole or semver Java version, or 1.x syntax (e.g. 1.8 => Java 8.x). Early access versions can be specified in the form of e.g. 14-ea, 14.0.0-ea, or 14.0.0-ea.28
-          java-version: 1.15
-          # The package type (jre, jdk, jdk+fx)
-          java-package: jdk
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - name: Checkout jing
-        uses: actions/checkout@v2
-        with:
-          repository: relaxng/jing-trang
-          path: jing
-
-      - name: Check java info
-        run: |
-          echo $(java -version)
-          echo $JAVA_HOME
-
-      - name: Build jing
-        run: |
-          cd $GITHUB_WORKSPACE/jing
-          ./ant
       - name: Checkout ParlaMint
         uses: actions/checkout@v2
         with:
@@ -73,29 +48,64 @@ jobs:
           echo "DEBUG: changed_scripts=${changed_scripts}"
           echo "DEBUG: all_languages=${all_languages}"
           echo ::set-output name=languages_process::${languages_process}
+
+  Validate:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    needs: Changes
+    strategy:
+      matrix:
+        lang: ${{ fromJSON(needs.Changes.outputs.languages_process) }}
+    steps:
+      - name: Setup Java JDK
+        uses: actions/setup-java@v1.4.3
+        with:
+          # The Java version to make available on the path. Takes a whole or semver Java version, or 1.x syntax (e.g. 1.8 => Java 8.x). Early access versions can be specified in the form of e.g. 14-ea, 14.0.0-ea, or 14.0.0-ea.28
+          java-version: 1.15
+          # The package type (jre, jdk, jdk+fx)
+          java-package: jdk
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout jing
+        uses: actions/checkout@v2
+        with:
+          repository: relaxng/jing-trang
+          path: jing
+      - name: Check java info
+        run: |
+          echo $(java -version)
+          echo $JAVA_HOME
+
+      - name: Build jing
+        run: |
+          cd $GITHUB_WORKSPACE/jing
+          ./ant
+      - name: Checkout ParlaMint
+        uses: actions/checkout@v2
+        with:
+          path: ParlaMint
       - name: Validate corpus root / text
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
-          ls ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs -t java -jar $GITHUB_WORKSPACE/jing/build/jing.jar -t Schema/ParlaMint-teiCorpus.rng 
+          ls ParlaMint-${{matrix.lang}}/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs -t java -jar $GITHUB_WORKSPACE/jing/build/jing.jar -t Schema/ParlaMint-teiCorpus.rng
       - name: Validate corpus component / text
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
-          ls ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep    '_' | xargs -t java -jar $GITHUB_WORKSPACE/jing/build/jing.jar -t Schema/ParlaMint-TEI.rng
+          ls ParlaMint-${{matrix.lang}}/ParlaMint-*.xml | grep -v '.ana.' | grep    '_' | xargs -t java -jar $GITHUB_WORKSPACE/jing/build/jing.jar -t Schema/ParlaMint-TEI.rng
       - name: Validate corpus root / analysed
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
-          ls ParlaMint-*/ParlaMint-*.xml | grep    '.ana.' | grep -v '_' | xargs -t java -jar $GITHUB_WORKSPACE/jing/build/jing.jar -t Schema/ParlaMint-teiCorpus.ana.rng
+          ls ParlaMint-${{matrix.lang}}/ParlaMint-*.xml | grep    '.ana.' | grep -v '_' | xargs -t java -jar $GITHUB_WORKSPACE/jing/build/jing.jar -t Schema/ParlaMint-teiCorpus.ana.rng
       - name: Validate corpus component / analysed
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
-          ls ParlaMint-*/ParlaMint-*.xml | grep    '.ana.' | grep    '_' | xargs -t java -jar $GITHUB_WORKSPACE/jing/build/jing.jar -t Schema/ParlaMint-TEI.ana.rng
+          ls ParlaMint-${{matrix.lang}}/ParlaMint-*.xml | grep    '.ana.' | grep    '_' | xargs -t java -jar $GITHUB_WORKSPACE/jing/build/jing.jar -t Schema/ParlaMint-TEI.ana.rng
   # Creates sample files and commits them
   MakeSample:
     needs: Validate
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        lang: ${{ fromJSON(needs.Validate.outputs.languages_process) }}
+        lang: ${{ fromJSON(needs.Changes.outputs.languages_process) }}
     steps:
       - name: Cleaning old sample files [${{matrix.lang}}]
         run: |
