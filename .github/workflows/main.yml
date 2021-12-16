@@ -71,6 +71,7 @@ jobs:
           echo "DEBUG: changed_scripts=${changed_scripts}"
           echo "DEBUG: all_languages=${all_languages}"
           echo "::set-output name=languages_process::${languages_process}"
+          echo DEBUG
           echo ${{ toJSON(steps.detect-changes.outputs.languages_process) }}
           echo ${{steps.detect-changes.outputs.languages_process}}
       - name: Validate corpus root / text
