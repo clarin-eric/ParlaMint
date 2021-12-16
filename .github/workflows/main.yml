@@ -93,12 +93,19 @@ jobs:
   MakeSample:
     needs: Validate
     runs-on: ubuntu-latest
-    #strategy:
-    #  matrix:
-    #    lang: ${{ fromJSON(needs.Validate.outputs.languages_process) }}
+    strategy:
+      matrix:
+        lang: ${{ fromJSON(needs.Validate.outputs.languages_process) }}
     steps:
-      - name: Cleaning old sample files [${{matrix.lang}}] (the files that has been automatically created)
+      - name: Cleaning old sample files [${{matrix.lang}}]
         run: |
-          echo "TODO: create sample files"
-          echo ${{ fromJSON(needs.Validate.outputs.languages_process) }}
+          cd $GITHUB_WORKSPACE/ParlaMint
+          echo "TODO: clean old sample files"
+          ls ParlaMint-${{matrix.lang}}
+      - name: New sample files [${{matrix.lang}}]
+        run: |
+          echo "TODO: create new sample files"
+      - name: Commit new sample files [${{matrix.lang}}]
+        run: |
+          echo "TODO: commit new sample files"
 
