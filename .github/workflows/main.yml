@@ -114,13 +114,17 @@ jobs:
       - name: Cleaning old sample files [${{matrix.lang}}]
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
-          echo "TODO: clean old sample files"
-          ls ParlaMint-${{matrix.lang}}
+          rm ParlaMint-${{matrix.lang}}/ParlaMint-*.{txt,tsv,conllu,vert}
       - name: New sample files [${{matrix.lang}}]
         run: |
           echo "TODO: create new sample files"
+      - name: changed files [${{matrix.lang}}] by this job
+        run: |
+          git diff --name-status ParlaMint-${{matrix.lang}}/
       - name: Commit new sample files [${{matrix.lang}}]
         if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true)
         run: |
+          git diff --name-status ParlaMint-${{matrix.lang}}/
           echo "TODO: commit new sample files"
+
 
