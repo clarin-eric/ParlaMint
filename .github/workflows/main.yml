@@ -137,12 +137,19 @@ jobs:
           then
             java -jar $GITHUB_WORKSPACE/Saxon.jar outDir=$DIR -xsl:$SAMPLE ParlaMint-${{matrix.lang}}/ParlaMint-${{matrix.lang}}.ana.xml
           fi
+          Scripts/parlamintp-tei2text.pl $DIR $DIR
+          Scripts/parlamintp-tei2vert.pl $DIR $DIR
+          Scripts/parlamintp-tei2conllu.pl $DIR $DIR
           cd $DIR
           mv * ../
       - name: changed files [${{matrix.lang}}] by this job
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
           git diff --name-status ParlaMint-${{matrix.lang}}/
+      - name: diff [${{matrix.lang}}] by this job
+        run: |
+          cd $GITHUB_WORKSPACE/ParlaMint
+          git diff --color-words ParlaMint-${{matrix.lang}}/
       - name: Commit new sample files [${{matrix.lang}}]
         if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true)
         run: |
