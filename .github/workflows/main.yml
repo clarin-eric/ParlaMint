@@ -107,6 +107,16 @@ jobs:
       matrix:
         lang: ${{ fromJSON(needs.Changes.outputs.languages_process) }}
     steps:
+      - name: Setup Java JDK
+        uses: actions/setup-java@v1.4.3
+        with:
+          # The Java version to make available on the path. Takes a whole or semver Java version, or 1.x syntax (e.g. 1.8 => Java 8.x). Early access versions can be specified in the form of e.g. 14-ea, 14.0.0-ea, or 14.0.0-ea.28
+          java-version: 1.15
+          # The package type (jre, jdk, jdk+fx)
+          java-package: jdk
+      - name: Download Saxon
+        run: |
+          wget https://search.maven.org/remotecontent?filepath=net/sf/saxon/Saxon-HE/10.6/Saxon-HE-10.6.jar -O Saxon.jar
       - name: Checkout ParlaMint
         uses: actions/checkout@v2
         with:
@@ -117,7 +127,15 @@ jobs:
           rm ParlaMint-${{matrix.lang}}/ParlaMint-*.{txt,tsv,conllu,vert}
       - name: New sample files [${{matrix.lang}}]
         run: |
+          cd $GITHUB_WORKSPACE/ParlaMint
+          DIR=ParlaMint-${{matrix.lang}}
+          SAMPLE=Scripts/corpus2sample.xsl
           echo "TODO: create new sample files"
+          java -jar $GITHUB_WORKSPACE/Saxon.jar outDir=$DIR -xsl:$SAMPLE $DIR/ParlaMint-${{matrix.lang}}.xml
+          if [[ -e $DIR/ParlaMint-${{matrix.lang}}.ana.xml ]]
+          then
+            java -jar $GITHUB_WORKSPACE/Saxon.jar outDir=$DIR -xsl:$SAMPLE $DIR/ParlaMint-${{matrix.lang}}.ana.xml
+          fi
       - name: changed files [${{matrix.lang}}] by this job
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
