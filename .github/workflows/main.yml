@@ -23,7 +23,7 @@ jobs:
       #changed_languages_list: ${{ steps.detect-changes.outputs.changed_languages }}
       #changed_scripts: ${{steps.detect-changes.outputs.changed_scripts}} # number of changed files that are out of country directories
       #changed_files_list: ${{steps.detect-changes.outputs.changed_files}}
-      languages_process:  '${{ toJSON(steps.detect-changes.outputs.languages_process) }}'
+      languages_process:  '${{ steps.detect-changes.outputs.languages_process }}'
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Setup Java JDK
@@ -53,11 +53,12 @@ jobs:
         uses: actions/checkout@v2
         with:
           path: ParlaMint
-          fetch-depth: 0
+          # fetch-depth: 0 # when called a pull_request - test is run on test merge -> full history is not needed to detect changes
       # Runs a set of commands using the runners shell
       #- name: Navigate to repository
       #  run: cd $GITHUB_WORKSPACE/ParlaMint
-      - name: detect-changes
+      - name: Detect changed files
+        id: detect-changes
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
           changed_files=$(git diff --name-only ${{ github.event.before }}..${{ github.event.after }}) # not working when action is called from GitHub web interface
@@ -70,7 +71,7 @@ jobs:
           echo "DEBUG: changed_languages=${changed_languages}"
           echo "DEBUG: changed_scripts=${changed_scripts}"
           echo "DEBUG: all_languages=${all_languages}"
-          echo "::set-output name=languages_process::${languages_process}"
+          echo ::set-output languages_process=${languages_process}
           echo DEBUG
           echo ${{ toJSON(steps.detect-changes.outputs.languages_process) }}
           echo ${{steps.detect-changes.outputs.languages_process}}
