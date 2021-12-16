@@ -107,6 +107,10 @@ jobs:
       matrix:
         lang: ${{ fromJSON(needs.Changes.outputs.languages_process) }}
     steps:
+      - name: Checkout ParlaMint
+        uses: actions/checkout@v2
+        with:
+          path: ParlaMint
       - name: Cleaning old sample files [${{matrix.lang}}]
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
@@ -116,6 +120,7 @@ jobs:
         run: |
           echo "TODO: create new sample files"
       - name: Commit new sample files [${{matrix.lang}}]
+        if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true)
         run: |
           echo "TODO: commit new sample files"
 
