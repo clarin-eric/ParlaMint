@@ -133,11 +133,12 @@ jobs:
           SAMPLE=Scripts/corpus2sample.xsl
           echo "TODO: create new sample files"
           java -jar $GITHUB_WORKSPACE/Saxon.jar outDir=$DIR -xsl:$SAMPLE ParlaMint-${{matrix.lang}}/ParlaMint-${{matrix.lang}}.xml
-          if [[ -e $DIR/ParlaMint-${{matrix.lang}}.ana.xml ]]
+          if [[ -e ParlaMint-${{matrix.lang}}/ParlaMint-${{matrix.lang}}.ana.xml ]]
           then
             java -jar $GITHUB_WORKSPACE/Saxon.jar outDir=$DIR -xsl:$SAMPLE ParlaMint-${{matrix.lang}}/ParlaMint-${{matrix.lang}}.ana.xml
           fi
-          find .
+          cd $DIR
+          mv * ../
       - name: changed files [${{matrix.lang}}] by this job
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
