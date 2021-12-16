@@ -95,11 +95,12 @@ jobs:
   MakeSample:
     needs: Validate
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        lang: ${{ fromJSON(needs.Validate.outputs.languages_process) }}
+    #strategy:
+    #  matrix:
+    #    lang: ${{ fromJSON(needs.Validate.outputs.languages_process) }}
     steps:
       - name: Cleaning old sample files [${{matrix.lang}}] (the files that has been automatically created)
         run: |
           echo "TODO: create sample files"
+          echo ${{ needs.Validate.outputs.languages_process }}
 
