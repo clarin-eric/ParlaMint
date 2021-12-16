@@ -120,11 +120,12 @@ jobs:
           echo "TODO: create new sample files"
       - name: changed files [${{matrix.lang}}] by this job
         run: |
+          cd $GITHUB_WORKSPACE/ParlaMint
           git diff --name-status ParlaMint-${{matrix.lang}}/
       - name: Commit new sample files [${{matrix.lang}}]
         if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true)
         run: |
-          git diff --name-status ParlaMint-${{matrix.lang}}/
+          cd $GITHUB_WORKSPACE/ParlaMint
           echo "TODO: commit new sample files"
 
 
