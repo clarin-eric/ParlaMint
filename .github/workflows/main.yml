@@ -72,9 +72,7 @@ jobs:
           echo "DEBUG: changed_languages=${changed_languages}"
           echo "DEBUG: changed_scripts=${changed_scripts}"
           echo "DEBUG: all_languages=${all_languages}"
-          echo ::set-output languages_process=${languages_process}
-          echo DEBUG
-          echo ${{steps.detect-changes.outputs.languages_process}}
+          echo ::set-output name=languages_process::${languages_process}
       - name: Validate corpus root / text
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
