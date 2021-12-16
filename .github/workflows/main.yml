@@ -67,14 +67,13 @@ jobs:
           changed_scripts=$(echo "$changed_files"|grep -vc 'ParlaMint-.*')
           all_languages=$(echo ParlaMint-*|sed 's/ParlaMint-\([-A-Z]*\)/\1/g'|sort)
           languages_process=$(test -z "${changed_languages}" && echo "${all_languages}" || echo "${changed_languages}")
-          languages_process=$(echo "[$languages_process]"|tr ' ' ',')
+          languages_process=$(echo "[\"$languages_process\"]"|sed 's/  */","/g')
           echo "DEBUG: changed_files=${changed_files}"
           echo "DEBUG: changed_languages=${changed_languages}"
           echo "DEBUG: changed_scripts=${changed_scripts}"
           echo "DEBUG: all_languages=${all_languages}"
           echo ::set-output languages_process=${languages_process}
           echo DEBUG
-          echo ${{ toJSON(steps.detect-changes.outputs.languages_process) }}
           echo ${{steps.detect-changes.outputs.languages_process}}
       - name: Validate corpus root / text
         run: |
