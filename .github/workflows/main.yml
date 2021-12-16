@@ -137,9 +137,10 @@ jobs:
           then
             java -jar $GITHUB_WORKSPACE/Saxon.jar outDir=$DIR -xsl:$SAMPLE ParlaMint-${{matrix.lang}}/ParlaMint-${{matrix.lang}}.ana.xml
           fi
+          mkdir Scripts/tmp
           Scripts/parlamintp-tei2text.pl $DIR $DIR
           Scripts/parlamintp-tei2vert.pl $DIR $DIR
-          Scripts/parlamintp-tei2conllu.pl $DIR $DIR
+          Scripts/parlamintp2conllu.pl $DIR $DIR
           cd $DIR
           mv * ../
       - name: changed files [${{matrix.lang}}] by this job
