@@ -101,7 +101,7 @@ jobs:
           ls ParlaMint-${{matrix.lang}}/ParlaMint-*.xml | grep    '.ana.' | grep    '_' | xargs -t java -jar $GITHUB_WORKSPACE/jing/build/jing.jar -t Schema/ParlaMint-TEI.ana.rng
   # Creates sample files and commits them
   MakeSample:
-    needs: Validate
+    needs: [Changes, Validate]
     runs-on: ubuntu-latest
     strategy:
       matrix:
