@@ -145,10 +145,10 @@ jobs:
           mkdir $DIR
           SAMPLE=Scripts/corpus2sample.xsl
           echo "TODO: create new sample files"
-          java -jar $GITHUB_WORKSPACE/Saxon.jar outDir=$DIR -xsl:$SAMPLE ParlaMint-${{matrix.lang}}/ParlaMint-${{matrix.lang}}.xml
+          java -jar $GITHUB_WORKSPACE/Saxon.jar outDir=$DIR revRespPers='GitHub Action' -xsl:$SAMPLE ParlaMint-${{matrix.lang}}/ParlaMint-${{matrix.lang}}.xml
           if [[ -e ParlaMint-${{matrix.lang}}/ParlaMint-${{matrix.lang}}.ana.xml ]]
           then
-            java -jar $GITHUB_WORKSPACE/Saxon.jar outDir=$DIR -xsl:$SAMPLE ParlaMint-${{matrix.lang}}/ParlaMint-${{matrix.lang}}.ana.xml
+            java -jar $GITHUB_WORKSPACE/Saxon.jar outDir=$DIR revRespPers='GitHub Action' -xsl:$SAMPLE ParlaMint-${{matrix.lang}}/ParlaMint-${{matrix.lang}}.ana.xml
           fi
           mkdir Scripts/tmp
           echo "CONVERT to text and metadata"
