@@ -84,7 +84,7 @@
   <xsl:template match="tei:titleStmt/tei:title[@type='main']">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
-      <xsl:value-of select="replace(., '\]', ' SAMPLE]')"/>
+      <xsl:value-of select="replace(., '( SAMPLE)?\]', ' SAMPLE]')"/>
     </xsl:copy>
   </xsl:template>
     
