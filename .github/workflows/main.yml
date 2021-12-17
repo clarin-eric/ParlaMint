@@ -130,6 +130,9 @@ jobs:
         with:
           repository: UniversalDependencies/tools
           path: $GITHUB_WORKSPACE/ParlaMint/Scripts/tools
+      - name: DEBUG
+        run: |
+          find $GITHUB_WORKSPACE/ParlaMint -type d
       - name: Cleaning old sample files [${{matrix.lang}}]
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
