@@ -33,19 +33,19 @@
     <xsl:choose>
       <!-- When too few files -->
       <xsl:when test="$n &lt;= $Files + 1">
-	<xsl:message select="concat('INFO: from ', $n , ' files  selecting all of them: ')"/>
-	<xsl:for-each select="//xi:include">
-	  <xsl:message select="concat('INFO: selecting file ', @href)"/>
-	  <xsl:copy-of select="."/>
-	</xsl:for-each>
+        <xsl:message select="concat('INFO: from ', $n , ' files  selecting all of them: ')"/>
+        <xsl:for-each select="//xi:include">
+          <xsl:message select="concat('INFO: selecting file ', @href)"/>
+          <xsl:copy-of select="."/>
+        </xsl:for-each>
       </xsl:when>
       <xsl:otherwise>
-	<xsl:message select="concat('INFO: from ', $n , ' files  selecting ~', $Files, ' files:')"/>
+        <xsl:message select="concat('INFO: from ', $n , ' files  selecting ~', $Files, ' files:')"/>
       <xsl:for-each select="//xi:include">
-	<xsl:if test="(position()-1) mod floor($n div $Files) = 1">
-	  <xsl:message select="concat('INFO: selecting file ', @href)"/>
-	  <xsl:copy-of select="."/>
-	</xsl:if>
+        <xsl:if test="(position()-1) mod floor($n div $Files) = 1">
+          <xsl:message select="concat('INFO: selecting file ', @href)"/>
+          <xsl:copy-of select="."/>
+        </xsl:if>
       </xsl:for-each>
       </xsl:otherwise>
     </xsl:choose>
@@ -65,7 +65,7 @@
       <!-- Get rid of subdirectories if in original -->
       <xsl:variable name="href" select="replace(@href, '.+/', '')"/>
       <xsl:result-document href="{$outDir}/{$href}" method="xml">
-	<xsl:apply-templates mode="component" select="document(concat($inDir, '/', @href))"/>
+        <xsl:apply-templates mode="component" select="document(concat($inDir, '/', @href))"/>
       </xsl:result-document>
     </xsl:for-each>
   </xsl:template>
@@ -79,7 +79,7 @@
       <xsl:apply-templates select="@*"/>
       <xsl:apply-templates select="tei:teiHeader"/>
       <xsl:for-each select="$components/xi:include">
-	<xi:include href="{replace(@href, '.+/', '')}"/>
+        <xi:include href="{replace(@href, '.+/', '')}"/>
       </xsl:for-each>
     </xsl:copy>
   </xsl:template>
@@ -119,7 +119,7 @@
     </idno>
     <pubPlace>
       <ref target="{$GitHub-project}">
-	<xsl:value-of select="$GitHub-project"/>
+        <xsl:value-of select="$GitHub-project"/>
       </ref>
     </pubPlace>
   </xsl:template>
@@ -127,8 +127,8 @@
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
       <bibl>
-	<title>Multilingual comparable corpora of parliamentary debates ParlaMint 1.0</title>
-	<xsl:copy-of select="ancestor::tei:teiHeader//tei:publicationStmt/tei:idno[@type='handle']"/>
+        <title>Multilingual comparable corpora of parliamentary debates ParlaMint 1.0</title>
+        <xsl:copy-of select="ancestor::tei:teiHeader//tei:publicationStmt/tei:idno[@type='handle']"/>
       </bibl>
       <xsl:apply-templates/>
     </xsl:copy>
@@ -161,28 +161,28 @@
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
       <xsl:variable name="to">
-	<xsl:choose>
-	  <!-- If there is too few <u>s in the document -->
-	  <xsl:when test="$all &lt; $Range">
-	    <xsl:value-of select="(.//tei:u)[last()]/@xml:id"/>
-	  </xsl:when>
-	  <xsl:otherwise>
-	    <xsl:value-of select="(.//tei:u)[position() = $Range]/@xml:id"/>
-	  </xsl:otherwise>
-	</xsl:choose>
+        <xsl:choose>
+          <!-- If there is too few <u>s in the document -->
+          <xsl:when test="$all &lt; $Range">
+            <xsl:value-of select="(.//tei:u)[last()]/@xml:id"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="(.//tei:u)[position() = $Range]/@xml:id"/>
+          </xsl:otherwise>
+        </xsl:choose>
       </xsl:variable>
       <xsl:variable name="from">
-	<xsl:choose>
-	  <!-- If there is too few <u>s in the document -->
-	  <xsl:when test="$all &lt; 2 * $Range">0</xsl:when>
-	  <xsl:otherwise>
-	    <xsl:value-of select="(.//tei:u)[position() = $all - ($Range - 1)]/@xml:id"/>
-	  </xsl:otherwise>
-	</xsl:choose>
+        <xsl:choose>
+          <!-- If there is too few <u>s in the document -->
+          <xsl:when test="$all &lt; 2 * $Range">0</xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="(.//tei:u)[position() = $all - ($Range - 1)]/@xml:id"/>
+          </xsl:otherwise>
+        </xsl:choose>
       </xsl:variable>
       <xsl:apply-templates>
-	<xsl:with-param name="from" select="$from"/>
-	<xsl:with-param name="to" select="$to"/>
+        <xsl:with-param name="from" select="$from"/>
+        <xsl:with-param name="to" select="$to"/>
       </xsl:apply-templates>
     </xsl:copy>
   </xsl:template>
@@ -193,22 +193,22 @@
     <!--xsl:message select="concat('SELECTING ', /tei:TEI/@xml:id, ': ', $to, ' AND ', $from)"/-->
     <xsl:variable name="div">
       <xsl:copy>
-	<xsl:apply-templates select="@*"/>
-	<xsl:variable name="incipit">
-	  <xsl:apply-templates>
-	    <xsl:with-param name="to" select="$to"/>
-	  </xsl:apply-templates>
-	</xsl:variable>
-	<xsl:variable name="explicit">
-	  <xsl:apply-templates>
-	    <xsl:with-param name="from" select="$from"/>
-	  </xsl:apply-templates>
-	</xsl:variable>
-	<xsl:if test="$incipit/tei:*">
-	  <xsl:copy-of select="$incipit"/>
-	  <gap reason="editorial"><desc xml:lang="en">SAMPLING</desc></gap>
-	</xsl:if>
-	<xsl:copy-of select="$explicit"/>
+        <xsl:apply-templates select="@*"/>
+        <xsl:variable name="incipit">
+          <xsl:apply-templates>
+            <xsl:with-param name="to" select="$to"/>
+          </xsl:apply-templates>
+        </xsl:variable>
+        <xsl:variable name="explicit">
+          <xsl:apply-templates>
+            <xsl:with-param name="from" select="$from"/>
+          </xsl:apply-templates>
+        </xsl:variable>
+        <xsl:if test="$incipit/tei:*">
+          <xsl:copy-of select="$incipit"/>
+          <gap reason="editorial"><desc xml:lang="en">SAMPLING</desc></gap>
+        </xsl:if>
+        <xsl:copy-of select="$explicit"/>
       </xsl:copy>
     </xsl:variable>
     <xsl:if test="$div//tei:u">
@@ -220,17 +220,17 @@
     <xsl:param name="from">0</xsl:param>
     <xsl:param name="to">0</xsl:param>
     <xsl:if test="($from = '0' and (self::tei:* | following::tei:*)[@xml:id = $to]) or 
-		  ($to   = '0' and (self::tei:* | preceding::tei:*)[@xml:id = $from])">
+                  ($to   = '0' and (self::tei:* | preceding::tei:*)[@xml:id = $from])">
       <xsl:choose>
-	<xsl:when test="self::tei:*">
-	  <xsl:copy>
-	    <xsl:apply-templates select="@*"/>
-	    <xsl:apply-templates/>
-	  </xsl:copy>
-	</xsl:when>
-	<xsl:when test="self::text()">
-	  <xsl:value-of select="."/>
-	</xsl:when>
+        <xsl:when test="self::tei:*">
+          <xsl:copy>
+            <xsl:apply-templates select="@*"/>
+            <xsl:apply-templates/>
+          </xsl:copy>
+        </xsl:when>
+        <xsl:when test="self::text()">
+          <xsl:value-of select="."/>
+        </xsl:when>
       </xsl:choose>
     </xsl:if>
   </xsl:template>
