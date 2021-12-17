@@ -13,6 +13,9 @@
   <!-- Output directory for samples -->
   <xsl:param name="outDir"/>
   
+  <!-- Revision responsible person  -->
+  <xsl:param name="revRespPers">Tomaž Erjavec</xsl:param>
+
   <!-- How many TEI files to take -->
   <xsl:param name="Files">3</xsl:param>
 
@@ -131,7 +134,7 @@
   <xsl:template match="tei:revisionDesc">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
-      <change when="{$today}"><name>Tomaž Erjavec</name>: Made sample.</change>
+      <change when="{$today}"><name><xsl:value-of select="$revRespPers"/></name>: Made sample.</change>
       <xsl:apply-templates/>
     </xsl:copy>
   </xsl:template>
