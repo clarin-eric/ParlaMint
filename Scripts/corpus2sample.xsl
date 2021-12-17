@@ -83,7 +83,19 @@
       </xsl:for-each>
     </xsl:copy>
   </xsl:template>
-    
+
+    <xsl:template match="tei:teiHeader">
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <xsl:apply-templates/>
+      <xsl:if test="not(./tei:revisionDesc)">
+        <revisionDesc>
+          <xsl:call-template name="revisionSample"/>
+        </revisionDesc>
+      </xsl:if>
+    </xsl:copy>
+  </xsl:template>
+
   <xsl:template match="tei:titleStmt/tei:title[@type='main']">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
@@ -134,11 +146,14 @@
   <xsl:template match="tei:revisionDesc">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
-      <change when="{$today}"><name><xsl:value-of select="$revRespPers"/></name>: Made sample.</change>
+      <xsl:call-template name="revisionSample"/>
       <xsl:apply-templates/>
     </xsl:copy>
   </xsl:template>
-    
+
+  <xsl:template name="revisionSample">
+    <change when="{$today}"><name><xsl:value-of select="$revRespPers"/></name>: Made sample.</change>
+  </xsl:template>
   <!-- Here we pick the first and last $Range utterances and all
        immediatelly preceding and intervening other elements -->
   <xsl:template match="tei:body">
