@@ -129,7 +129,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: UniversalDependencies/tools
-          path: $GITHUB_WORKSPACE/ParlaMint/Scripts/tools
+          path: ParlaMint/Scripts/tools
       - name: DEBUG
         run: |
           find $GITHUB_WORKSPACE/ParlaMint -type d
