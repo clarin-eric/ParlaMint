@@ -74,31 +74,23 @@ jobs:
         run: |
           echo $(java -version)
           echo $JAVA_HOME
-
+      - name: Download Saxon
+        run: |
+          wget https://search.maven.org/remotecontent?filepath=net/sf/saxon/Saxon-HE/10.6/Saxon-HE-10.6.jar -O Saxon.jar
+          sudo ln -s $GITHUB_WORKSPACE/Saxon.jar /usr/share/java/saxon.jar
       - name: Build jing
         run: |
           cd $GITHUB_WORKSPACE/jing
           ./ant
+          sudo ln -s $GITHUB_WORKSPACE/jing/build/jing.jar /usr/share/java/jing.jar
       - name: Checkout ParlaMint
         uses: actions/checkout@v2
         with:
           path: ParlaMint
-      - name: Validate corpus root / text
+      - name: Validate ParlaMint
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
-          ls ParlaMint-${{matrix.lang}}/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs -t java -jar $GITHUB_WORKSPACE/jing/build/jing.jar -t Schema/ParlaMint-teiCorpus.rng
-      - name: Validate corpus component / text
-        run: |
-          cd $GITHUB_WORKSPACE/ParlaMint
-          ls ParlaMint-${{matrix.lang}}/ParlaMint-*.xml | grep -v '.ana.' | grep    '_' | xargs -t java -jar $GITHUB_WORKSPACE/jing/build/jing.jar -t Schema/ParlaMint-TEI.rng
-      - name: Validate corpus root / analysed
-        run: |
-          cd $GITHUB_WORKSPACE/ParlaMint
-          ls ParlaMint-${{matrix.lang}}/ParlaMint-*.xml | grep    '.ana.' | grep -v '_' | xargs -t java -jar $GITHUB_WORKSPACE/jing/build/jing.jar -t Schema/ParlaMint-teiCorpus.ana.rng
-      - name: Validate corpus component / analysed
-        run: |
-          cd $GITHUB_WORKSPACE/ParlaMint
-          ls ParlaMint-${{matrix.lang}}/ParlaMint-*.xml | grep    '.ana.' | grep    '_' | xargs -t java -jar $GITHUB_WORKSPACE/jing/build/jing.jar -t Schema/ParlaMint-TEI.ana.rng
+          Scripts/validate-parlamint.pl ParlaMint-${{matrix.lang}}
   # Creates sample files and commits them
   MakeSample:
     needs: [Changes, Validate]
