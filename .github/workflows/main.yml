@@ -87,10 +87,10 @@ jobs:
         uses: actions/checkout@v2
         with:
           path: ParlaMint
-      - name: Validate ParlaMint
+      - name: Validate ParlaMint-${{matrix.lang}}
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
-          Scripts/validate-parlamint.pl ParlaMint-${{matrix.lang}}
+          Scripts/validate-parlamint.pl Schema ParlaMint-${{matrix.lang}}
   # Creates sample files and commits them
   MakeSample:
     needs: [Changes, Validate]
