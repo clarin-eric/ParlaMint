@@ -1,6 +1,7 @@
 name: 'Initialize ParlaMint Environment'
 #description: ''
 runs:
+  using: "composite"
   steps:
     - name: Setup Java JDK
       uses: actions/setup-java@v1.4.3
