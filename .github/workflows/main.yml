@@ -57,8 +57,12 @@ jobs:
       matrix:
         lang: ${{ fromJSON(needs.Changes.outputs.languages_process) }}
     steps:
+      - name: Checkout ParlaMint
+        uses: actions/checkout@v2
+        with:
+          path: ParlaMint
       - name: Setup
-        uses: ./.github/actions/ParlaMintEnvSetup
+        uses: ParlaMint/.github/actions/ParlaMintEnvSetup
 
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout jing
@@ -79,10 +83,6 @@ jobs:
           cd $GITHUB_WORKSPACE/jing
           ./ant
           sudo ln -s $GITHUB_WORKSPACE/jing/build/jing.jar /usr/share/java/jing.jar
-      - name: Checkout ParlaMint
-        uses: actions/checkout@v2
-        with:
-          path: ParlaMint
       - name: Validate ParlaMint-${{matrix.lang}}
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
