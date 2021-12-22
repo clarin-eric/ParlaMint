@@ -144,7 +144,7 @@ jobs:
           echo "CONVERT to text and metadata"
           Scripts/parlamintp-tei2text.pl $SAMPLE_DIR $SAMPLE_DIR
       - name: New sample files [${{matrix.lang}}] ANNOTATED
-        if: ${{hashFiles("$GITHUB_WORKSPACE/ParlaMint/ParlaMint-${{matrix.lang}}/ParlaMint-${{matrix.lang}}.ana.xml") != ''}}
+        if: ${{hashFiles(format("$GITHUB_WORKSPACE/ParlaMint/ParlaMint-{0}/ParlaMint-{0}.ana.xml",matrix.lang)) != ''}}
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
           java -jar $GITHUB_WORKSPACE/Saxon.jar outDir=$SAMPLE_DIR revRespPers='GitHub Action' -xsl:$SAMPLE_SCRIPT ParlaMint-${{matrix.lang}}/ParlaMint-${{matrix.lang}}.ana.xml
