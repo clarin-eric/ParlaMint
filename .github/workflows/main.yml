@@ -62,7 +62,7 @@ jobs:
         with:
           path: ParlaMint
       - name: Setup
-        uses: ./.github/actions/ParlaMintEnvSetup
+        uses: ./ParlaMint/.github/actions/ParlaMintEnvSetup
 
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout jing
