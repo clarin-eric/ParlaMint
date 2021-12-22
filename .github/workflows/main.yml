@@ -63,26 +63,6 @@ jobs:
           path: ParlaMint
       - name: Setup
         uses: ./ParlaMint/.github/actions/ParlaMintEnvSetup
-
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - name: Checkout jing
-        uses: actions/checkout@v2
-        with:
-          repository: relaxng/jing-trang
-          path: jing
-      - name: Check java info
-        run: |
-          echo $(java -version)
-          echo $JAVA_HOME
-      - name: Download Saxon
-        run: |
-          wget https://search.maven.org/remotecontent?filepath=net/sf/saxon/Saxon-HE/10.6/Saxon-HE-10.6.jar -O Saxon.jar
-          sudo ln -s $GITHUB_WORKSPACE/Saxon.jar /usr/share/java/saxon.jar
-      - name: Build jing
-        run: |
-          cd $GITHUB_WORKSPACE/jing
-          ./ant
-          sudo ln -s $GITHUB_WORKSPACE/jing/build/jing.jar /usr/share/java/jing.jar
       - name: Validate ParlaMint-${{matrix.lang}}
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
