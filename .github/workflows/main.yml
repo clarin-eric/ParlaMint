@@ -99,6 +99,12 @@ jobs:
       matrix:
         lang: ${{ fromJSON(needs.Changes.outputs.languages_process) }}
     steps:
+      - name: Set shared variables
+        run: |
+          export SAMPLE_DIR=ParlaMint-${{matrix.lang}}/SAMPLE
+          echo "::set-env name=SAMPLE_DIR::$SAMPLE_DIR"
+          export SAMPLE_SCRIPT=Scripts/corpus2sample.xsl
+          echo "::set-env name=SAMPLE_SCRIPT::$SAMPLE_SCRIPT"
       - name: Install deps
         run: |
           sudo apt-get install rename
@@ -118,38 +124,38 @@ jobs:
         uses: actions/checkout@v2
         with:
           path: ParlaMint
+      - name: Prepare temporary directories
+        run: |
+          mkdir "$GITHUB_WORKSPACE/ParlaMint/$SAMPLE_DIR"
+          mkdir "$GITHUB_WORKSPACE/ParlaMint/Scripts/tmp"
       - name: Checkout UniversalDependencies tools
         uses: actions/checkout@v2
         with:
           repository: UniversalDependencies/tools
           path: ParlaMint/Scripts/tools
-      - name: DEBUG
-        run: |
-          find $GITHUB_WORKSPACE/ParlaMint -type d
       - name: Cleaning old sample files [${{matrix.lang}}]
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
           rm ParlaMint-${{matrix.lang}}/ParlaMint-*.{txt,tsv,conllu,vert}
-      - name: New sample files [${{matrix.lang}}]
+      - name: New sample files [${{matrix.lang}}] TEXT
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
-          DIR=ParlaMint-${{matrix.lang}}/SAMPLE
-          mkdir $DIR
-          SAMPLE=Scripts/corpus2sample.xsl
-          echo "TODO: create new sample files"
-          java -jar $GITHUB_WORKSPACE/Saxon.jar outDir=$DIR revRespPers='GitHub Action' -xsl:$SAMPLE ParlaMint-${{matrix.lang}}/ParlaMint-${{matrix.lang}}.xml
-          if [[ -e ParlaMint-${{matrix.lang}}/ParlaMint-${{matrix.lang}}.ana.xml ]]
-          then
-            java -jar $GITHUB_WORKSPACE/Saxon.jar outDir=$DIR revRespPers='GitHub Action' -xsl:$SAMPLE ParlaMint-${{matrix.lang}}/ParlaMint-${{matrix.lang}}.ana.xml
-          fi
-          mkdir Scripts/tmp
+          java -jar $GITHUB_WORKSPACE/Saxon.jar outDir=$SAMPLE_DIR revRespPers='GitHub Action' -xsl:$SAMPLE_SCRIPT ParlaMint-${{matrix.lang}}/ParlaMint-${{matrix.lang}}.xml
           echo "CONVERT to text and metadata"
-          Scripts/parlamintp-tei2text.pl $DIR $DIR
+          Scripts/parlamintp-tei2text.pl $SAMPLE_DIR $SAMPLE_DIR
+      - name: New sample files [${{matrix.lang}}] ANNOTATED
+        if: ${{hasFiles($GITHUB_WORKSPACE/ParlaMint/ParlaMint-${{matrix.lang}}/ParlaMint-${{matrix.lang}}.ana.xml)}}
+        run: |
+          cd $GITHUB_WORKSPACE/ParlaMint
+          java -jar $GITHUB_WORKSPACE/Saxon.jar outDir=$SAMPLE_DIR revRespPers='GitHub Action' -xsl:$SAMPLE_SCRIPT ParlaMint-${{matrix.lang}}/ParlaMint-${{matrix.lang}}.ana.xml
           echo "CONVERT to vert"
-          Scripts/parlamintp-tei2vert.pl $DIR $DIR
+          Scripts/parlamintp-tei2vert.pl $SAMPLE_DIR $SAMPLE_DIR
           echo "CONVERT to conllu"
-          Scripts/parlamintp2conllu.pl $DIR $DIR
-          cd $DIR
+          Scripts/parlamintp2conllu.pl $SAMPLE_DIR $SAMPLE_DIR
+      - name: Move new sample files to ParlaMint-${{matrix.lang}}
+        run: |
+          cd $GITHUB_WORKSPACE/ParlaMint
+          cd $SAMPLE_DIR
           mv * ../
       - name: changed files [${{matrix.lang}}] by this job
         run: |
