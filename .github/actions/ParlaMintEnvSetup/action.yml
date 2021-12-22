@@ -3,6 +3,16 @@ name: 'Initialize ParlaMint Environment'
 runs:
   using: "composite"
   steps:
+    - name: Set shared variables
+      run: |
+          export SAMPLE_DIR=ParlaMint-${{matrix.lang}}/SAMPLE
+          echo "SAMPLE_DIR=$SAMPLE_DIR"  >> $GITHUB_ENV
+          export SAMPLE_SCRIPT=Scripts/corpus2sample.xsl
+          echo "SAMPLE_SCRIPT=$SAMPLE_SCRIPT"  >> $GITHUB_ENV
+    - name: Install deps
+      run: |
+          sudo apt-get install rename
+          pip3 install --user regex
     - name: Setup Java JDK
       uses: actions/setup-java@v1.4.3
       with:
@@ -10,3 +20,30 @@ runs:
         java-version: 1.15
         # The package type (jre, jdk, jdk+fx)
         java-package: jdk
+    - name: Check java info
+      run: |
+          echo $(java -version)
+          echo $JAVA_HOME
+    - name: Prepare temporary directories
+      run: |
+          mkdir "$GITHUB_WORKSPACE/ParlaMint/${{env.SAMPLE_DIR}}"
+          mkdir "$GITHUB_WORKSPACE/ParlaMint/Scripts/tmp"
+    - name: Checkout UniversalDependencies tools
+      uses: actions/checkout@v2
+      with:
+        repository: UniversalDependencies/tools
+        path: ParlaMint/Scripts/tools
+    - name: Download Saxon
+      run: |
+          wget https://search.maven.org/remotecontent?filepath=net/sf/saxon/Saxon-HE/10.6/Saxon-HE-10.6.jar -O Saxon.jar
+          sudo ln -s $GITHUB_WORKSPACE/Saxon.jar /usr/share/java/saxon.jar
+    - name: Checkout jing
+      uses: actions/checkout@v2
+      with:
+        repository: relaxng/jing-trang
+        path: jing
+    - name: Build jing
+        run: |
+          cd $GITHUB_WORKSPACE/jing
+          ./ant
+          sudo ln -s $GITHUB_WORKSPACE/jing/build/jing.jar /usr/share/java/jing.jar
