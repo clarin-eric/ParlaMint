@@ -39,25 +39,27 @@
   </xsl:variable>
   
   <!-- If LaTeX -->
-  <xsl:variable name="preamble">\begin{tabular}{l|rrrrrrrrr}&#10;</xsl:variable>
+  <xsl:variable name="preamble">\begin{tabular}{l|rrr|rrrrrrr}&#10;</xsl:variable>
   <xsl:variable name="header-row">
     <xsl:text>ID</xsl:text> <!-- ISO country code -->
     <xsl:value-of select="$col-sep"/>
-    <xsl:text>Parties</xsl:text> <!-- Number of political parties -->
+    <xsl:text>Prts</xsl:text> <!-- Number of political parties -->
+    <xsl:value-of select="$col-sep"/>
+    <xsl:text>C/O</xsl:text> <!-- Number of coalitions + oppositions -->
     <xsl:value-of select="$col-sep"/>
     <xsl:text>Orgs</xsl:text>  <!-- Number of other organistations -->
     <xsl:value-of select="$col-sep"/>
-    <xsl:text>Speakers</xsl:text>  <!-- Number of speakers -->
+    <xsl:text>Spkrs</xsl:text>  <!-- Number of speakers -->
     <xsl:value-of select="$col-sep"/>
     <xsl:text>Sex</xsl:text>  <!-- Number of speakers with gender -->
     <xsl:value-of select="$col-sep"/>
-    <xsl:text>MPs</xsl:text>  <!-- Number of MPs -->
+    <xsl:text>MP</xsl:text>  <!-- Number of MPs -->
     <xsl:value-of select="$col-sep"/>
-    <xsl:text>Affill.</xsl:text>  <!-- Number of MPs affiliated with political parties -->
+    <xsl:text>Affill</xsl:text>  <!-- Number of MPs affiliated with political parties -->
     <xsl:value-of select="$col-sep"/>
     <xsl:text>Birth</xsl:text>  <!-- Speakers with birth dates -->
     <xsl:value-of select="$col-sep"/>
-    <xsl:text>URLs</xsl:text>  <!-- Speakers with one or more URLs (contact, twitter, facebook) -->
+    <xsl:text>URL</xsl:text>  <!-- Speakers with one or more URLs (contact, twitter, facebook) -->
     <xsl:value-of select="$col-sep"/>
     <xsl:text>IMG</xsl:text>  <!-- Speakers with images -->
     <xsl:value-of select="$line-sep"/>
@@ -94,6 +96,9 @@
 			  tei:org[@role='politicalParty' or @role='politicalGroup'])"/>
     <xsl:value-of select="$col-sep"/>
     <xsl:value-of select="et:cnt(.//tei:particDesc//
+			  tei:relation[@name='coalition' or @name='opposition'])"/>
+    <xsl:value-of select="$col-sep"/>
+    <xsl:value-of select="et:cnt(.//tei:particDesc//
 			  tei:org[@role!='politicalParty' and @role!='politicalGroup'])"/>
     <xsl:value-of select="$col-sep"/>
     <xsl:value-of select="et:cnt(.//tei:particDesc//tei:person)"/>
@@ -102,21 +107,24 @@
     <xsl:value-of select="$col-sep"/>
     <xsl:value-of select="et:cnt(.//tei:particDesc//tei:person[tei:affiliation[@role='MP']])"/>
     <xsl:value-of select="$col-sep"/>
+    <!-- tei:affiliation[@role='MP'] and -->
     <xsl:value-of select="et:cnt(.//tei:particDesc//tei:person[
-			  tei:affiliation[@role='MP'] and 
 			  tei:affiliation[(@role='member' or @role='candidateMP') and 
 			  key('ref', @ref)[@role='politicalParty' or @role='politicalGroup']]
 			  ])"/>
+    <!-- [tei:affiliation[@role='MP']] -->
     <xsl:value-of select="$col-sep"/>
-    <xsl:value-of select="et:cnt(.//tei:particDesc//tei:person[tei:affiliation[@role='MP']]
+    <xsl:value-of select="et:cnt(.//tei:particDesc//tei:person
 			  [tei:birth]
 			  )"/>
+    <!-- [tei:affiliation[@role='MP']] -->
     <xsl:value-of select="$col-sep"/>
-    <xsl:value-of select="et:cnt(.//tei:particDesc//tei:person[tei:affiliation[@role='MP']]
+    <xsl:value-of select="et:cnt(.//tei:particDesc//tei:person
 			  [tei:idno[@type='URI']]
 			  )"/>
+    <!-- [tei:affiliation[@role='MP']] -->
     <xsl:value-of select="$col-sep"/>
-    <xsl:value-of select="et:cnt(.//tei:particDesc//tei:person[tei:affiliation[@role='MP']]
+    <xsl:value-of select="et:cnt(.//tei:particDesc//tei:person
 			  [tei:figure]
 			  )"/>
     <xsl:value-of select="$line-sep"/>
