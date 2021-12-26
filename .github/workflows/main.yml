@@ -8,7 +8,7 @@ on:
   push:
     branches: [ main , actions ]
   pull_request:
-    branches: [ main ]
+    branches: [ main , main_test ]
     types: [opened, synchronize, reopened, closed]
 
   # Allows you to run this workflow manually from the Actions tab
