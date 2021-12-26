@@ -120,7 +120,7 @@ jobs:
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
           git status
-          echo "TODO: commit new sample files ${{github.event.number}}"
+          commit -m "action: generating ParlaMint-${{matrix.lang}} sample files with #${{github.event.number}}" ParlaMint-${{matrix.lang}}
 
   Validate:
     runs-on: ubuntu-latest
