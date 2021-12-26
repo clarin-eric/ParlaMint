@@ -9,6 +9,7 @@ on:
     branches: [ main , actions ]
   pull_request:
     branches: [ main ]
+    types: [opened, synchronize, reopened, closed]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -115,10 +116,11 @@ jobs:
           cd $GITHUB_WORKSPACE/ParlaMint
           git diff --color-words ParlaMint-${{matrix.lang}}/
       - name: Commit new sample files [${{matrix.lang}}]
-        if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true)
+        if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.pull_request.merged == true)
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
-          echo "TODO: commit new sample files"
+          git status
+          echo "TODO: commit new sample files ${{github.event.number}}"
 
   Validate:
     runs-on: ubuntu-latest
