@@ -62,8 +62,10 @@ runs:
           cd $GITHUB_WORKSPACE/ParlaMint
           git config --global user.name 'Matyáš Kopp (through GitHub Action)'
           git config --global user.email 'matyaskopp@users.noreply.github.com'
+      shell: bash
     - name: Set git origin
       if: ${{ inputs.repo_token }}
       run: |
           cd $GITHUB_WORKSPACE/ParlaMint
           git remote set-url origin https://x-access-token:${{ inputs.repo_token }}@github.com/${{ github.repository }}
+      shell: bash
