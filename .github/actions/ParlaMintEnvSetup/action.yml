@@ -1,5 +1,9 @@
 name: 'Initialize ParlaMint Environment'
 #description: ''
+inputs:
+  repo_token:
+    description: 'contains repository secret token'
+    required: false
 runs:
   using: "composite"
   steps:
@@ -58,5 +62,8 @@ runs:
           cd $GITHUB_WORKSPACE/ParlaMint
           git config --global user.name 'Matyáš Kopp (through GitHub Action)'
           git config --global user.email 'matyaskopp@users.noreply.github.com'
-          echo TODO set ParlaMint secret token in repo
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+    - name: Set git origin
+      if: ${{ inputs.repo_token }}
+      run: |
+          cd $GITHUB_WORKSPACE/ParlaMint
+          git remote set-url origin https://x-access-token:${{ inputs.repo_token }}@github.com/${{ github.repository }}
