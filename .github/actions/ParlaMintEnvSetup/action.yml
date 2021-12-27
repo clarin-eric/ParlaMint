@@ -45,12 +45,12 @@ runs:
       uses: actions/cache@v2
       with:
         path: |
-          ~/ParlaMint/Scripts/tools
-          ~/Saxon.jar
+          ParlaMint/Scripts/tools
+          Saxon.jar
           /usr/share/java/saxon.jar
-          ~/jing/build/jing.jar
+          jing/build/jing.jar
           /usr/share/java/jing.jar
-        key: ${{ runner.os }}-ParlaMint-deps-V2
+        key: ${{ runner.os }}-ParlaMint-deps-V3
     - name: Cache hit
       if: steps.cache_deps.outputs.cache-hit == 'true'
       run: |
