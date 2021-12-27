@@ -36,22 +36,42 @@ runs:
           mkdir "$GITHUB_WORKSPACE/ParlaMint/${{env.SAMPLE_DIR}}"
           mkdir "$GITHUB_WORKSPACE/ParlaMint/Scripts/tmp"
       shell: bash
+    - name: Cache dependencies
+      id: cache_deps
+      uses: actions/cache@v2
+      with:
+        path: |
+          $GITHUB_WORKSPACE/ParlaMint/Scripts/tools
+          $GITHUB_WORKSPACE/Saxon.jar
+          /usr/share/java/saxon.jar
+          $GITHUB_WORKSPACE/jing/build/jing.jar
+          /usr/share/java/jing.jar
+        key: ${{ runner.os }}-ParlaMint-deps
+    - name: Cache hit
+      if: steps.cache_deps.outputs.cache-hit == 'true'
+      run: |
+        echo "::debug::Dependencies cache hit"
+      shell: bash
     - name: Checkout UniversalDependencies tools
+      if: steps.cache_deps.outputs.cache-hit != 'true'
       uses: actions/checkout@v2
       with:
         repository: UniversalDependencies/tools
         path: ParlaMint/Scripts/tools
     - name: Download Saxon
+      if: steps.cache_deps.outputs.cache-hit != 'true'
       run: |
           wget https://search.maven.org/remotecontent?filepath=net/sf/saxon/Saxon-HE/10.6/Saxon-HE-10.6.jar -O Saxon.jar
           sudo ln -s $GITHUB_WORKSPACE/Saxon.jar /usr/share/java/saxon.jar
       shell: bash
     - name: Checkout jing
+      if: steps.cache_deps.outputs.cache-hit != 'true'
       uses: actions/checkout@v2
       with:
         repository: relaxng/jing-trang
         path: jing
     - name: Build jing
+      if: steps.cache_deps.outputs.cache-hit != 'true'
       run: |
           cd $GITHUB_WORKSPACE/jing
           ./ant
