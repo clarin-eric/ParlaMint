@@ -66,6 +66,8 @@ jobs:
           path: ParlaMint
       - name: Setup
         uses: ./ParlaMint/.github/actions/ParlaMintEnvSetup
+        with:
+          country: ${{matrix.lang}}
       - name: Validate ParlaMint-${{matrix.lang}}
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
@@ -86,6 +88,7 @@ jobs:
         uses: ./ParlaMint/.github/actions/ParlaMintEnvSetup
         with:
           repo_token: ${{secrets.GITHUB_TOKEN}}
+          country: ${{matrix.lang}}
       - name: Cleaning old sample files [${{matrix.lang}}]
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
