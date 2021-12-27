@@ -51,6 +51,12 @@ runs:
       if: steps.cache_deps.outputs.cache-hit == 'true'
       run: |
         echo "::debug::Dependencies cache hit"
+        pwd
+        ls -l $GITHUB_WORKSPACE/ParlaMint/Scripts/tools \
+          $GITHUB_WORKSPACE/Saxon.jar \
+          /usr/share/java/saxon.jar \
+          $GITHUB_WORKSPACE/jing/build/jing.jar \
+          /usr/share/java/jing.jar \
       shell: bash
     - name: Checkout UniversalDependencies tools
       if: steps.cache_deps.outputs.cache-hit != 'true'
