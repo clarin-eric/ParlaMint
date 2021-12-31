@@ -12,7 +12,7 @@ runs:
     - name: Set shared variables
       if: ${{inputs.country}}
       run: |
-          export SAMPLE_DIR=ParlaMint-${{matrix.lang}}/SAMPLE
+          export SAMPLE_DIR=SAMPLE
           echo "SAMPLE_DIR=$SAMPLE_DIR"  >> $GITHUB_ENV
           export SAMPLE_SCRIPT=Scripts/corpus2sample.xsl
           echo "SAMPLE_SCRIPT=$SAMPLE_SCRIPT"  >> $GITHUB_ENV

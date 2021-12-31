@@ -112,7 +112,7 @@ jobs:
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
           cd ${{env.SAMPLE_DIR}}
-          mv * ../
+          mv * ParlaMint-${{matrix.lang}}/
       - name: changed files [${{matrix.lang}}] by this job
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
