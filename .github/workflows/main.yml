@@ -111,8 +111,8 @@ jobs:
       - name: Move new sample files to ParlaMint-${{matrix.lang}}
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
-          cd ${{env.SAMPLE_DIR}}
-          mv * ParlaMint-${{matrix.lang}}/
+          mv ${{env.SAMPLE_DIR}}/* ParlaMint-${{matrix.lang}}/
+          git add ParlaMint-${{matrix.lang}}/ParlaMint-*.{txt,tsv,conllu,vert}
       - name: changed files [${{matrix.lang}}] by this job
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
