@@ -30,11 +30,17 @@ runs:
           changed_files=$(git diff --name-only HEAD HEAD~1)
           echo A "$changed_files"
           echo "$changed_files"
+          echo "-"
           echo "$changed_files"|grep 'ParlaMint-.*/'
+          echo "-"
           echo "$changed_files"|grep 'ParlaMint-.*/'|sed 's/^ParlaMint-\([-A-Z]*\).*$/\1/'
+          echo "-"
           echo "$changed_files"|grep 'ParlaMint-.*/'|sed 's/^ParlaMint-\([-A-Z]*\).*$/\1/'|sort
+          echo "-"
           echo "$changed_files"|grep 'ParlaMint-.*/'|sed 's/^ParlaMint-\([-A-Z]*\).*$/\1/'|sort|uniq
+          echo "-"
           echo "$changed_files"|grep 'ParlaMint-.*/'|sed 's/^ParlaMint-\([-A-Z]*\).*$/\1/'|sort|uniq|tr '\n' ' '
+          echo "-"
           parla_changed=$(echo "$changed_files"|grep 'ParlaMint-.*/'|sed 's/^ParlaMint-\([-A-Z]*\).*$/\1/'|sort|uniq|tr '\n' ' ')
           echo B "$parla_changed"
           scripts_changed=$(echo "$changed_files"|grep -vc 'ParlaMint-.*')
