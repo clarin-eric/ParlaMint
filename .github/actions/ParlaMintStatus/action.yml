@@ -7,13 +7,13 @@ inputs:
 outputs:
   parla_process:
     description: "Parliaments that should be processes (is affected by change script or parliament change)"
-    value: '${{ steps.detect-changes.outputs.parla_process }}'
+    value: '${{ steps.status.outputs.parla_process }}'
   parla_all:
     description: "List of all Parliaments"
-    value: '${{ steps.detect-changes.outputs.parla_all }}'
+    value: '${{ steps.status.outputs.parla_all }}'
   parla_changed:
     description: "List of changed Parliaments"
-    value: '${{ steps.detect-changes.outputs.parla_changed }}'
+    value: '${{ steps.status.outputs.parla_changed }}'
 runs:
   using: "composite"
   steps:
@@ -23,5 +23,6 @@ runs:
           echo "test if fetch == 2"
       shell: bash
     - name: Detect Changes
+      id: status
       run: ${{ github.action_path }}/status.sh
       shell: bash
