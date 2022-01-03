@@ -26,7 +26,8 @@ runs:
       run: |
           pwd
           cd ParlaMint
-          ls
+          pwd
+          git status
           changed_files=$(git diff --name-only HEAD HEAD~1)
           parla_changed=$(echo "$changed_files"|grep 'ParlaMint-.*/'|sed 's/^ParlaMint-\([-A-Z]*\).*$/\1/'|sort|uniq|tr '\n' ' ')
           echo "#################### TODO script change should only detect changes in scripts or github actions"
