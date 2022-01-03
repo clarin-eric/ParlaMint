@@ -28,7 +28,8 @@ runs:
           cd ParlaMint
           pwd
           changed_files=$(git diff --name-only HEAD HEAD~1)
-          echo A
+          echo A "$changed_files"
+          echo "$changed_files"|grep 'ParlaMint-.*/'|sed 's/^ParlaMint-\([-A-Z]*\).*$/\1/'|sort|uniq|tr '\n' ' '
           parla_changed=$(echo "$changed_files"|grep 'ParlaMint-.*/'|sed 's/^ParlaMint-\([-A-Z]*\).*$/\1/'|sort|uniq|tr '\n' ' ')
           echo B
           scripts_changed=$(echo "$changed_files"|grep -vc 'ParlaMint-.*')
