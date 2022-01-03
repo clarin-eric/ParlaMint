@@ -22,7 +22,7 @@ jobs:
       #changed_languages_list: ${{ steps.detect-changes.outputs.changed_languages }}
       #changed_scripts: ${{steps.detect-changes.outputs.changed_scripts}} # number of changed files that are out of country directories
       #changed_files_list: ${{steps.detect-changes.outputs.changed_files}}
-      languages_process:  '${{ steps.detect-changes.outputs.languages_process }}'
+      parla_process:  '${{ steps.detect-changes.outputs.parla_process }}'
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Checkout ParlaMint
@@ -44,13 +44,13 @@ jobs:
           changed_languages=$(echo "$changed_files"|grep 'ParlaMint-.*/'|sed 's/^ParlaMint-\([-A-Z]*\).*$/\1/'|sort|uniq|tr '\n' ' ')
           changed_scripts=$(echo "$changed_files"|grep -vc 'ParlaMint-.*')
           all_languages=$(echo ParlaMint-*|sed 's/ParlaMint-\([-A-Z]*\)/\1/g'|sort)
-          languages_process=$(test -z "${changed_languages}" && echo "${all_languages}" || echo "${changed_languages}")
-          languages_process=$(echo "[\"$languages_process\"]"|sed 's/  */","/g')
+          parla_process=$(test -z "${changed_languages}" && echo "${all_languages}" || echo "${changed_languages}")
+          parla_process=$(echo "[\"$parla_process\"]"|sed 's/  */","/g')
           echo "DEBUG: changed_files=${changed_files}"
           echo "DEBUG: changed_languages=${changed_languages}"
           echo "DEBUG: changed_scripts=${changed_scripts}"
           echo "DEBUG: all_languages=${all_languages}"
-          echo ::set-output name=languages_process::${languages_process}
+          echo ::set-output name=parla_process::${parla_process}
 
   ValidateCountries:
     # The type of runner that the job will run on
@@ -58,7 +58,7 @@ jobs:
     needs: Changes
     strategy:
       matrix:
-        lang: ${{ fromJSON(needs.Changes.outputs.languages_process) }}
+        parla: ${{ fromJSON(needs.Changes.outputs.parla_process) }}
     steps:
       - name: Checkout ParlaMint
         uses: actions/checkout@v2
@@ -67,18 +67,18 @@ jobs:
       - name: Setup
         uses: ./ParlaMint/.github/actions/ParlaMintEnvSetup
         with:
-          country: ${{matrix.lang}}
-      - name: Validate ParlaMint-${{matrix.lang}}
+          country: ${{matrix.parla}}
+      - name: Validate ParlaMint-${{matrix.parla}}
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
-          Scripts/validate-parlamint.pl Schema ParlaMint-${{matrix.lang}}
+          Scripts/validate-parlamint.pl Schema ParlaMint-${{matrix.parla}}
   # Creates sample files and commits them
   MakeSample:
     needs: [Changes, ValidateCountries]
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        lang: ${{ fromJSON(needs.Changes.outputs.languages_process) }}
+        parla: ${{ fromJSON(needs.Changes.outputs.parla_process) }}
     steps:
       - name: Checkout ParlaMint
         uses: actions/checkout@v2
@@ -88,45 +88,45 @@ jobs:
         uses: ./ParlaMint/.github/actions/ParlaMintEnvSetup
         with:
           repo_token: ${{secrets.GITHUB_TOKEN}}
-          country: ${{matrix.lang}}
-      - name: Cleaning old sample files [${{matrix.lang}}]
+          parla: ${{matrix.parla}}
+      - name: Cleaning old sample files [${{matrix.parla}}]
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
-          rm ParlaMint-${{matrix.lang}}/ParlaMint-*.{txt,tsv,conllu,vert}
-      - name: New sample files [${{matrix.lang}}] TEXT
+          rm ParlaMint-${{matrix.parla}}/ParlaMint-*.{txt,tsv,conllu,vert}
+      - name: New sample files [${{matrix.parla}}] TEXT
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
-          java -jar $GITHUB_WORKSPACE/Saxon.jar outDir=${{env.SAMPLE_DIR}} revRespPers='GitHub Action' -xsl:${{env.SAMPLE_SCRIPT}} ParlaMint-${{matrix.lang}}/ParlaMint-${{matrix.lang}}.xml
+          java -jar $GITHUB_WORKSPACE/Saxon.jar outDir=${{env.SAMPLE_DIR}} revRespPers='GitHub Action' -xsl:${{env.SAMPLE_SCRIPT}} ParlaMint-${{matrix.parla}}/ParlaMint-${{matrix.parla}}.xml
           echo "CONVERT to text and metadata"
           Scripts/parlamintp-tei2text.pl ${{env.SAMPLE_DIR}} ${{env.SAMPLE_DIR}}
-      - name: New sample files [${{matrix.lang}}] ANNOTATED
-        if: ${{hashFiles(format('ParlaMint/ParlaMint-{0}/ParlaMint-{0}.ana.xml',matrix.lang)) != ''}}
+      - name: New sample files [${{matrix.parla}}] ANNOTATED
+        if: ${{hashFiles(format('ParlaMint/ParlaMint-{0}/ParlaMint-{0}.ana.xml',matrix.parla)) != ''}}
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
-          java -jar $GITHUB_WORKSPACE/Saxon.jar outDir=${{env.SAMPLE_DIR}} revRespPers='GitHub Action' -xsl:${{env.SAMPLE_SCRIPT}} ParlaMint-${{matrix.lang}}/ParlaMint-${{matrix.lang}}.ana.xml
+          java -jar $GITHUB_WORKSPACE/Saxon.jar outDir=${{env.SAMPLE_DIR}} revRespPers='GitHub Action' -xsl:${{env.SAMPLE_SCRIPT}} ParlaMint-${{matrix.parla}}/ParlaMint-${{matrix.parla}}.ana.xml
           echo "CONVERT to vert"
           Scripts/parlamintp-tei2vert.pl ${{env.SAMPLE_DIR}} ${{env.SAMPLE_DIR}}
           echo "CONVERT to conllu"
           Scripts/parlamintp2conllu.pl ${{env.SAMPLE_DIR}} ${{env.SAMPLE_DIR}}
-      - name: Move new sample files to ParlaMint-${{matrix.lang}}
+      - name: Move new sample files to ParlaMint-${{matrix.parla}}
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
-          mv ${{env.SAMPLE_DIR}}/* ParlaMint-${{matrix.lang}}/
-          git add ParlaMint-${{matrix.lang}}/ParlaMint-*.{txt,tsv,conllu,vert}
-      - name: changed files [${{matrix.lang}}] by this job
+          mv ${{env.SAMPLE_DIR}}/* ParlaMint-${{matrix.parla}}/
+          git add ParlaMint-${{matrix.parla}}/ParlaMint-*.{txt,tsv,conllu,vert}
+      - name: changed files [${{matrix.parla}}] by this job
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
-          git diff --name-status ParlaMint-${{matrix.lang}}/
-      - name: diff [${{matrix.lang}}] by this job
+          git diff --name-status ParlaMint-${{matrix.parla}}/
+      - name: diff [${{matrix.parla}}] by this job
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
-          git diff --color-words ParlaMint-${{matrix.lang}}/
-      - name: Commit new sample files [${{matrix.lang}}]
+          git diff --color-words ParlaMint-${{matrix.parla}}/
+      - name: Commit new sample files [${{matrix.parla}}]
         if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.pull_request.merged == true)
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
           git status
-          git commit -m "action: generating ParlaMint-${{matrix.lang}} sample files with #${{github.event.number}}" ParlaMint-${{matrix.lang}}
+          git commit -m "action: generating ParlaMint-${{matrix.parla}} sample files with #${{github.event.number}}" ParlaMint-${{matrix.parla}}
           # git push
   Validate:
     runs-on: ubuntu-latest
