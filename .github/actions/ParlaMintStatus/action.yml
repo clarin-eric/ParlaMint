@@ -18,12 +18,7 @@ runs:
   using: "composite"
   steps:
     - name: Test if prereqs are installed
-      run: |
-          cd ParlaMint
-          find .git
-          git rev-list --count --first-parent HEAD
-          echo TODO
-          echo "test if fetch == 2"
+      run: ${{ github.action_path }}/prereqs.sh
       shell: bash
     - name: Detect Changes
       id: status
