@@ -69,7 +69,7 @@ jobs:
             mv ${{env.SAMPLE_DIR}}/* ParlaMint-$parla/
             git add ParlaMint-$parla/ParlaMint-*.{txt,tsv,conllu,vert}
             echo "::notice::Changed files in ParlaMint-$parla"
-            git diff --name-status ParlaMint-parla/
+            git diff --name-status ParlaMint-$parla/
             echo "::notice::Diff files in ParlaMint-$parla"
             git diff --color-words ParlaMint-$parla/
             rm ${{env.SAMPLE_DIR}}/*
