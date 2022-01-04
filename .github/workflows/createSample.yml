@@ -1,15 +1,13 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Validate and create sample files
+name: Create sample files
 
 # Controls when the action will run. 
 on:
-  # Triggers the workflow on push or pull request events but only for the main branch
-  push:
-    branches: [ main , actions ]
+
   pull_request:
     branches: [ main , main_test ]
-    types: [opened, synchronize, reopened, closed]
+    types: [closed, synchronize] # synchronize is temporary for debugging
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -19,11 +17,7 @@ jobs:
   Changes:
     runs-on: ubuntu-latest
     outputs:
-      #changed_languages_list: ${{ steps.detect-changes.outputs.changed_languages }}
-      #changed_scripts: ${{steps.detect-changes.outputs.changed_scripts}} # number of changed files that are out of country directories
-      #changed_files_list: ${{steps.detect-changes.outputs.changed_files}}
       parla_process:  '${{ steps.detect-changes.outputs.parla_process }}'
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Checkout ParlaMint
         uses: actions/checkout@v2
@@ -32,37 +26,15 @@ jobs:
           fetch-depth: 2 # when called a pull_request - test is run on test merge -> full history is not needed to detect changes
       - name: Setup # initialize dependencies cache - used in next steps
         uses: ./ParlaMint/.github/actions/ParlaMintEnvSetup
-      # Runs a set of commands using the runners shell
-      #- name: Navigate to repository
-      #  run: cd $GITHUB_WORKSPACE/ParlaMint
       - name: ParlaMint status (Detect changed files and get list of parliaments that should be processed)
         id: detect-changes
         uses: ./ParlaMint/.github/actions/ParlaMintStatus
 
-  ValidateCountries:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
-    needs: Changes
-    strategy:
-      matrix:
-        parla: ${{ fromJSON(needs.Changes.outputs.parla_process) }}
-    steps:
-      - name: Checkout ParlaMint
-        uses: actions/checkout@v2
-        with:
-          path: ParlaMint
-      - name: Setup
-        uses: ./ParlaMint/.github/actions/ParlaMintEnvSetup
-        with:
-          country: ${{matrix.parla}}
-      - name: Validate ParlaMint-${{matrix.parla}}
-        run: |
-          cd $GITHUB_WORKSPACE/ParlaMint
-          Scripts/validate-parlamint.pl Schema ParlaMint-${{matrix.parla}}
   # Creates sample files and commits them
-  MakeSample:
-    needs: [Changes, ValidateCountries]
+  CreateSample:
+    needs: [Changes]
     runs-on: ubuntu-latest
+    ## TEMPORARY SKIP if: (github.event_name == 'pull_request' && github.event.pull_request.merged == true)
     strategy:
       matrix:
         parla: ${{ fromJSON(needs.Changes.outputs.parla_process) }}
@@ -109,15 +81,9 @@ jobs:
           cd $GITHUB_WORKSPACE/ParlaMint
           git diff --color-words ParlaMint-${{matrix.parla}}/
       - name: Commit new sample files [${{matrix.parla}}]
-        if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.pull_request.merged == true)
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
           git status
           git commit -m "action: generating ParlaMint-${{matrix.parla}} sample files with #${{github.event.number}}" ParlaMint-${{matrix.parla}}
           # git push
-  Validate:
-    runs-on: ubuntu-latest
-    needs: [ValidateCountries, MakeSample]
-    steps:
-      - run: echo Done!
 
