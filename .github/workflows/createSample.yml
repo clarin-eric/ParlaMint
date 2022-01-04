@@ -48,7 +48,7 @@ jobs:
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
           for parla in $(jq -r '.[]' <<< '${{needs.Changes.outputs.parla_process}}' ); do
-            echo "::group::Processing ParlaMint-$parla"
+            #echo "::group::Processing ParlaMint-$parla"
             echo "::notice::Cleaning old sample files [$parla]"
             rm ParlaMint-$parla/ParlaMint-*.{txt,tsv,conllu,vert}
             echo "::notice::New sample files [$parla] TEXT"
@@ -73,7 +73,7 @@ jobs:
             echo "::notice::Diff files in ParlaMint-$parla"
             git diff --color-words ParlaMint-$parla/
             rm ${{env.SAMPLE_DIR}}/*
-            echo "::endgroup::"
+            #echo "::endgroup::"
           done
       - name: Commit new sample files ${{needs.Changes.outputs.parla_process}}
         run: |
