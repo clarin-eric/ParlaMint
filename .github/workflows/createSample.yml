@@ -35,9 +35,6 @@ jobs:
     needs: [Changes]
     runs-on: ubuntu-latest
     ## TEMPORARY SKIP if: (github.event_name == 'pull_request' && github.event.pull_request.merged == true)
-    strategy:
-      matrix:
-        parla: ${{ fromJSON(needs.Changes.outputs.parla_process) }}
     steps:
       - name: Checkout ParlaMint
         uses: actions/checkout@v2
@@ -48,42 +45,37 @@ jobs:
         with:
           repo_token: ${{secrets.GITHUB_TOKEN}}
           parla: ${{matrix.parla}}
-      - name: Cleaning old sample files [${{matrix.parla}}]
+      - name: Run Parliaments ${{needs.Changes.outputs.parla_process}}
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
-          rm ParlaMint-${{matrix.parla}}/ParlaMint-*.{txt,tsv,conllu,vert}
-      - name: New sample files [${{matrix.parla}}] TEXT
-        run: |
-          cd $GITHUB_WORKSPACE/ParlaMint
-          java -jar $GITHUB_WORKSPACE/Saxon.jar outDir=${{env.SAMPLE_DIR}} revRespPers='GitHub Action' -xsl:${{env.SAMPLE_SCRIPT}} ParlaMint-${{matrix.parla}}/ParlaMint-${{matrix.parla}}.xml
-          echo "CONVERT to text and metadata"
-          Scripts/parlamintp-tei2text.pl ${{env.SAMPLE_DIR}} ${{env.SAMPLE_DIR}}
-      - name: New sample files [${{matrix.parla}}] ANNOTATED
-        if: ${{hashFiles(format('ParlaMint/ParlaMint-{0}/ParlaMint-{0}.ana.xml',matrix.parla)) != ''}}
-        run: |
-          cd $GITHUB_WORKSPACE/ParlaMint
-          java -jar $GITHUB_WORKSPACE/Saxon.jar outDir=${{env.SAMPLE_DIR}} revRespPers='GitHub Action' -xsl:${{env.SAMPLE_SCRIPT}} ParlaMint-${{matrix.parla}}/ParlaMint-${{matrix.parla}}.ana.xml
-          echo "CONVERT to vert"
-          Scripts/parlamintp-tei2vert.pl ${{env.SAMPLE_DIR}} ${{env.SAMPLE_DIR}}
-          echo "CONVERT to conllu"
-          Scripts/parlamintp2conllu.pl ${{env.SAMPLE_DIR}} ${{env.SAMPLE_DIR}}
-      - name: Move new sample files to ParlaMint-${{matrix.parla}}
-        run: |
-          cd $GITHUB_WORKSPACE/ParlaMint
-          mv ${{env.SAMPLE_DIR}}/* ParlaMint-${{matrix.parla}}/
-          git add ParlaMint-${{matrix.parla}}/ParlaMint-*.{txt,tsv,conllu,vert}
-      - name: changed files [${{matrix.parla}}] by this job
-        run: |
-          cd $GITHUB_WORKSPACE/ParlaMint
-          git diff --name-status ParlaMint-${{matrix.parla}}/
-      - name: diff [${{matrix.parla}}] by this job
-        run: |
-          cd $GITHUB_WORKSPACE/ParlaMint
-          git diff --color-words ParlaMint-${{matrix.parla}}/
-      - name: Commit new sample files [${{matrix.parla}}]
+          for parla in $(jq -r '.[]' <<< "${{needs.Changes.outputs.parla_process}}" ); do
+            echo "Cleaning old sample files [$parla]"
+            rm ParlaMint-$parla/ParlaMint-*.{txt,tsv,conllu,vert}
+            echo "New sample files [$parla] TEXT"
+            java -jar $GITHUB_WORKSPACE/Saxon.jar outDir=${{env.SAMPLE_DIR}} revRespPers='GitHub Action' -xsl:${{env.SAMPLE_SCRIPT}} ParlaMint-${{matrix.parla}}/ParlaMint-${{matrix.parla}}.xml
+            echo "CONVERT to text and metadata"
+            Scripts/parlamintp-tei2text.pl ${{env.SAMPLE_DIR}} ${{env.SAMPLE_DIR}}
+            echo "New sample files [$parla] ANNOTATED"
+            if [ -f "ParlaMint-$parla/ParlaMint-$parla.ana.xml" ] ; then
+              java -jar $GITHUB_WORKSPACE/Saxon.jar outDir=${{env.SAMPLE_DIR}} revRespPers='GitHub Action' -xsl:${{env.SAMPLE_SCRIPT}} ParlaMint-$parla/ParlaMint-$parla.ana.xml
+              echo "CONVERT to vert"
+              Scripts/parlamintp-tei2vert.pl ${{env.SAMPLE_DIR}} ${{env.SAMPLE_DIR}}
+              echo "CONVERT to conllu"
+              Scripts/parlamintp2conllu.pl ${{env.SAMPLE_DIR}} ${{env.SAMPLE_DIR}}
+            else
+              echo "skipping annotated conversion - missing corpus root file"
+            fi
+            echo "Move new sample files to ParlaMint-$parla"
+            mv ${{env.SAMPLE_DIR}}/* ParlaMint-$parla/
+            git add ParlaMint-$parla/ParlaMint-*.{txt,tsv,conllu,vert}
+            git diff --name-status ParlaMint-parla/
+            git diff --color-words ParlaMint-$parla/
+            rm ${{env.SAMPLE_DIR}}/*
+          done
+      - name: Commit new sample files ${{needs.Changes.outputs.parla_process}}
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
           git status
-          git commit -m "action: generating ParlaMint-${{matrix.parla}} sample files with #${{github.event.number}}" ParlaMint-${{matrix.parla}}
+          git commit -m "action: generating ParlaMint-${{needs.Changes.outputs.parla_process}} sample files with #${{github.event.number}}"
           # git push
 
