@@ -72,7 +72,7 @@ jobs:
             git diff --name-status ParlaMint-$parla/
             echo "::notice::Diff files in ParlaMint-$parla"
             git diff --color-words ParlaMint-$parla/
-            rm ${{env.SAMPLE_DIR}}/*
+            #rm ${{env.SAMPLE_DIR}}/*
             #echo "::endgroup::"
           done
       - name: Commit new sample files ${{needs.Changes.outputs.parla_process}}
