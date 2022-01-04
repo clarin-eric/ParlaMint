@@ -52,7 +52,7 @@ jobs:
             echo "Cleaning old sample files [$parla]"
             rm ParlaMint-$parla/ParlaMint-*.{txt,tsv,conllu,vert}
             echo "New sample files [$parla] TEXT"
-            java -jar $GITHUB_WORKSPACE/Saxon.jar outDir=${{env.SAMPLE_DIR}} revRespPers='GitHub Action' -xsl:${{env.SAMPLE_SCRIPT}} ParlaMint-${{matrix.parla}}/ParlaMint-${{matrix.parla}}.xml
+            java -jar $GITHUB_WORKSPACE/Saxon.jar outDir=${{env.SAMPLE_DIR}} revRespPers='GitHub Action' -xsl:${{env.SAMPLE_SCRIPT}} ParlaMint-$parla/ParlaMint-$parla.xml
             echo "CONVERT to text and metadata"
             Scripts/parlamintp-tei2text.pl ${{env.SAMPLE_DIR}} ${{env.SAMPLE_DIR}}
             echo "New sample files [$parla] ANNOTATED"
