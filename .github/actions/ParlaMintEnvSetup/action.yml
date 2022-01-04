@@ -10,7 +10,6 @@ runs:
   using: "composite"
   steps:
     - name: Set shared variables
-      if: ${{inputs.parla}}
       run: |
           export SAMPLE_DIR=SAMPLE
           echo "SAMPLE_DIR=$SAMPLE_DIR"  >> $GITHUB_ENV
@@ -35,7 +34,6 @@ runs:
           echo $JAVA_HOME
       shell: bash
     - name: Prepare temporary directories
-      if: ${{inputs.parla}}
       run: |
           mkdir "$GITHUB_WORKSPACE/ParlaMint/${{env.SAMPLE_DIR}}"
           mkdir "$GITHUB_WORKSPACE/ParlaMint/Scripts/tmp"

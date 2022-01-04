@@ -44,7 +44,6 @@ jobs:
         uses: ./ParlaMint/.github/actions/ParlaMintEnvSetup
         with:
           repo_token: ${{secrets.GITHUB_TOKEN}}
-          parla: ${{matrix.parla}}
       - name: Run Parliaments ${{needs.Changes.outputs.parla_process}}
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
