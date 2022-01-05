@@ -60,7 +60,7 @@ foreach $inFile (glob($corpusFiles)) {
 `rm -f $inDir/*.conllu`;
 foreach $inFile (@compAnaFiles) {
     my ($fName) = $inFile =~ m|([^/]+)\.ana\.xml|;
-    my ($country) = $inFile =~ /ParlaMint-(..)/ or die;
+    my ($country) = $inFile =~ /.*ParlaMint-(..)/ or die;
     my ($langs) = $country2lang{$country};
     #One corpus, one language
     if ($langs !~ /,/) {
