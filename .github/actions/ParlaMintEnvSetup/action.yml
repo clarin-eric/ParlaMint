@@ -48,7 +48,7 @@ runs:
           /usr/share/java/saxon.jar
           jing/build/jing.jar
           /usr/share/java/jing.jar
-        key: ${{ runner.os }}-ParlaMint-deps-V3
+        key: ${{ runner.os }}-ParlaMint-deps-V4
     - name: Cache hit
       if: steps.cache_deps.outputs.cache-hit == 'true'
       run: |
