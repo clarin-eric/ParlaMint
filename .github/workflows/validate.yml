@@ -54,7 +54,7 @@ jobs:
           if [ -f "ParlaMint-${{matrix.parla}}/ParlaMint-${{matrix.parla}}.ana.xml" ] ; then
               echo "::notice::CONVERT and VALIDATE CoNLLu format"
               mkdir ParlaMint-${{matrix.parla}}/out
-              Scripts/parlamintp2conllu.pl ParlaMint-${{matrix.parla}} ParlaMint-${{matrix.parla}}/out
+              Scripts/parlamint2conllu.pl ParlaMint-${{matrix.parla}} ParlaMint-${{matrix.parla}}/out
           else
               echo "::warning::skipping annotated version validation - missing corpus root file"
           fi

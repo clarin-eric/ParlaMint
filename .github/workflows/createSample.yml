@@ -56,14 +56,14 @@ jobs:
             echo "::notice::New sample files [$parla] TEXT"
             java -jar $GITHUB_WORKSPACE/Saxon.jar outDir=$DIR revRespPers='GitHub Action' -xsl:${{env.SAMPLE_SCRIPT}} ParlaMint-$parla/ParlaMint-$parla.xml
             echo "::notice::CONVERT to text and metadata"
-            Scripts/parlamintp-tei2text.pl $DIR $DIR
+            Scripts/parlamint-tei2text.pl $DIR $DIR
             echo "::notice::New sample files [$parla] ANNOTATED"
             if [ -f "ParlaMint-$parla/ParlaMint-$parla.ana.xml" ] ; then
               java -jar $GITHUB_WORKSPACE/Saxon.jar outDir=$DIR revRespPers='GitHub Action' -xsl:${{env.SAMPLE_SCRIPT}} ParlaMint-$parla/ParlaMint-$parla.ana.xml
               echo "::notice::CONVERT to vert"
-              Scripts/parlamintp-tei2vert.pl $DIR $DIR
+              Scripts/parlamint-tei2vert.pl $DIR $DIR
               echo "::notice::CONVERT to conllu"
-              Scripts/parlamintp2conllu.pl $DIR $DIR
+              Scripts/parlamint2conllu.pl $DIR $DIR
             else
               echo "::warning::skipping annotated conversion - missing corpus root file"
             fi
