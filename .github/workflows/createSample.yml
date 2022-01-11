@@ -56,7 +56,7 @@ jobs:
             echo "::notice::New sample files [$parla] TEXT"
             java -jar $GITHUB_WORKSPACE/Saxon.jar outDir=$DIR revRespPers='GitHub Action' -xsl:${{env.SAMPLE_SCRIPT}} ParlaMint-$parla/ParlaMint-$parla.xml
             echo "::notice::CONVERT to text and metadata"
-            Scripts/parlamint-tei2text.pl $DIR $DIR
+            Scripts/parlamintp-tei2text.pl $DIR $DIR
             echo "::notice::New sample files [$parla] ANNOTATED"
             if [ -f "ParlaMint-$parla/ParlaMint-$parla.ana.xml" ] ; then
               java -jar $GITHUB_WORKSPACE/Saxon.jar outDir=$DIR revRespPers='GitHub Action' -xsl:${{env.SAMPLE_SCRIPT}} ParlaMint-$parla/ParlaMint-$parla.ana.xml
