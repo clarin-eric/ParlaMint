@@ -143,7 +143,11 @@
     <!-- From and To -->
     <xsl:variable name="date">
       <xsl:choose>
-	<!-- BE, TR have bugs in sitting -->
+	<!-- LV has bug sitting and sourceDesc, have to insert it by hand! -->
+	<xsl:when test="$corpus = '#ParlaMint-LV'">
+	  <tei:date from="2014-11-04" to="2021-02-04"/>
+	</xsl:when>
+	<!-- BE, TR have bugs in sitting but not in sourceDesc -->
 	<xsl:when test="$corpus = '#ParlaMint-BE' or $corpus = '#ParlaMint-TR'">
 	  <xsl:copy-of select=".//tei:sourceDesc/tei:listBibl[@corresp=$corpus]/tei:bibl[1]/tei:date"/>
 	</xsl:when>
