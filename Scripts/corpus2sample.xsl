@@ -222,6 +222,7 @@
     <xsl:if test="($from = '0' and (self::tei:* | following::tei:*)[@xml:id = $to]) or 
                   ($to   = '0' and (self::tei:* | preceding::tei:*)[@xml:id = $from])">
       <xsl:choose>
+        <xsl:when test="self::tei:gap[@reason='editorial' and ./tei:desc/text() = 'SAMPLING']" /> <!-- don't copy gap/desc SAMPLING -->
         <xsl:when test="self::tei:*">
           <xsl:copy>
             <xsl:apply-templates select="@*"/>
