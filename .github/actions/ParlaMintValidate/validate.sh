@@ -11,20 +11,19 @@ for parla in $(jq -r '.[]' <<< $1 ); do
   echo "::notice::Cleaning old sample files [$parla]"
   rm -f ParlaMint-$parla/ParlaMint-*.{txt,tsv,conllu,vert}
 
-  Scripts/validate-parlamint.pl Schema ParlaMint-$parla 2>&1 | tee $DIR/validate.log
-  cat $DIR/validate.log | grep -i "error"|sed "s/^/::error::/"
+  Scripts/validate-parlamint.pl Schema ParlaMint-$parla 2>&1 | tee $DIR/validate.log | sed "s/^\(.*\)\(error\)/::error::\1\2/i"
 
   echo "::notice::CONVERT to text and metadata"
-  Scripts/parlamintp-tei2text.pl ParlaMint-$parla $DIR
+  Scripts/parlamintp-tei2text.pl ParlaMint-$parla $DIR 2>&1 | tee $DIR/text.log | sed "s/^\(.*\)\(error\)/::error::\1\2/i"
 
 
   if [ -f "ParlaMint-$parla/ParlaMint-$parla.ana.xml" ] ; then
 
     echo "::notice::CONVERT to vert"
-    Scripts/parlamint-tei2vert.pl ParlaMint-$parla $DIR
+    Scripts/parlamint-tei2vert.pl ParlaMint-$parla $DIR 2>&1 | tee $DIR/vert.log | sed "s/^\(.*\)\(error\)/::error::\1\2/i"
 
     echo "::notice::CONVERT and VALIDATE CoNLLu format"
-    Scripts/parlamint2conllu.pl ParlaMint-$parla $DIR
+    Scripts/parlamint2conllu.pl ParlaMint-$parla $DIR 2>&1 | tee $DIR/conllu.log | sed "s/^\(.*\)\(error\)/::error::\1\2/i"
 
   else
     echo "::warning::skipping annotated version validation - missing corpus root file"
