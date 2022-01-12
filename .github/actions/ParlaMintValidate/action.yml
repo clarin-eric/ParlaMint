@@ -8,5 +8,5 @@ runs:
   using: "composite"
   steps:
     - name: Convert and Validate
-      run: ${{ github.action_path }}/validate.sh
+      run: ${{ github.action_path }}/validate.sh '${{inputs.parlas}}'
       shell: bash
