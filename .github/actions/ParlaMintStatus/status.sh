@@ -8,7 +8,7 @@ parla_all=$(echo ParlaMint-*|sed 's/ParlaMint-\([-A-Z]*\)/\1/g'|sort)
 
 
 parla_process=$(test -z "${parla_changed}" && echo "${parla_all}" || echo "${parla_changed}")
-parla_process=$(echo "[\"$parla_process\"]"|sed 's/  */","/g')
+parla_process=$(echo "[\"$parla_process\"]"|sed 's/  */","/g'| sed 's/^\[""\]$/[]/;s/,""//')
 
 parla_changed=$(echo "[\"$parla_changed\"]"|sed 's/  */","/g'| sed 's/^\[""\]$/[]/;s/,""//')
 
