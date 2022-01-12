@@ -38,6 +38,7 @@ jobs:
     strategy:
       matrix:
         parla: ${{ fromJSON(needs.Changes.outputs.parla_process) }}
+      fail-fast: false
     steps:
       - name: Checkout ParlaMint
         uses: actions/checkout@v2
