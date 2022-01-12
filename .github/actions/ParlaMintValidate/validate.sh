@@ -1,6 +1,7 @@
 pwd
 cd ParlaMint
 
+FAIL=0
 
 
 for parla in $(jq -r '.[]' <<< $1 ); do
@@ -10,7 +11,8 @@ for parla in $(jq -r '.[]' <<< $1 ); do
   echo "::notice::Cleaning old sample files [$parla]"
   rm -f ParlaMint-$parla/ParlaMint-*.{txt,tsv,conllu,vert}
 
-  Scripts/validate-parlamint.pl Schema ParlaMint-$parla
+  Scripts/validate-parlamint.pl Schema ParlaMint-$parla 2>&1 | tee $DIR/validate.log
+  cat $DIR/validate.log | grep -i "error"|sed "s/^/::error::/"
 
   echo "::notice::CONVERT to text and metadata"
   Scripts/parlamintp-tei2text.pl ParlaMint-$parla $DIR
@@ -29,7 +31,14 @@ for parla in $(jq -r '.[]' <<< $1 ); do
   fi
 
   echo "::notice::Move new files to ParlaMint-$parla"
-  mv $DIR/* ParlaMint-$parla/
+  mv $DIR/ParlaMint-*.{txt,tsv,conllu,vert} ParlaMint-$parla/
   echo "::endgroup::"
-
+  if cat $DIR/*.log | grep -iq 'error' ; then
+    FAIL=1
+    echo "::error:: ParlaMint-$parla validation failed"
+  fi
 done
+
+if [ $FAIL -eq 1 ] ; then
+  exit 1
+fi
