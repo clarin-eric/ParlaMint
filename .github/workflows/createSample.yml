@@ -72,7 +72,7 @@ jobs:
           parlas: '${{needs.Changes.outputs.parla_process}}'
 
       - name: Commit new sample files ${{needs.Changes.outputs.parla_process}}
-        if: succeeded()
+        if: ${{ success() }}
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
           git status
