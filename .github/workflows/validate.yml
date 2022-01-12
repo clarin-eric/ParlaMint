@@ -48,17 +48,9 @@ jobs:
         with:
           parla: ${{matrix.parla}}
       - name: Validate ParlaMint-${{matrix.parla}}
-        run: |
-          cd $GITHUB_WORKSPACE/ParlaMint
-          Scripts/validate-parlamint.pl Schema ParlaMint-${{matrix.parla}}
-          if [ -f "ParlaMint-${{matrix.parla}}/ParlaMint-${{matrix.parla}}.ana.xml" ] ; then
-              echo "::notice::CONVERT and VALIDATE CoNLLu format"
-              mkdir ParlaMint-${{matrix.parla}}/out
-              Scripts/parlamint2conllu.pl ParlaMint-${{matrix.parla}} ParlaMint-${{matrix.parla}}/out
-          else
-              echo "::warning::skipping annotated version validation - missing corpus root file"
-          fi
-
+        uses: ./ParlaMint/.github/actions/ParlaMintValidate
+        with:
+          parla: '["${{matrix.parla}}"]'
   Validate:
     runs-on: ubuntu-latest
     needs: [ValidateCountries]
