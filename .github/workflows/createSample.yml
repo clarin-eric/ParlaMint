@@ -78,8 +78,12 @@ jobs:
           cd $GITHUB_WORKSPACE/ParlaMint
           for parla in $(jq -r '.[]' <<< '${{needs.Changes.outputs.parla_changed}}' ); do
             git add ParlaMint-$parla/ParlaMint-*.{txt,tsv,conllu,vert}
+            for file in $(echo ParlaMint-$parla/ParlaMint-$parla\_*.xml) ; do
+              echo "testing $file"
+              cat ParlaMint-$parla/ParlaMint-$parla{,.ana}.xml | grep -Fq "$file" || git rm "$file"
+            done
           done
           git status
-          git commit -m "action: generating ParlaMint-${{needs.Changes.outputs.parla_changed}} sample files with #${{github.event.number}}"
+          git commit -a -m "action: generating ParlaMint-${{needs.Changes.outputs.parla_changed}} sample files with #${{github.event.number}}"
           git push
 
