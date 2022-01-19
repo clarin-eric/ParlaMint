@@ -17,7 +17,7 @@ jobs:
   Changes:
     runs-on: ubuntu-latest
     outputs:
-      parla_process:  '${{ steps.detect-changes.outputs.parla_process }}'
+      parla_changed:  '${{ steps.detect-changes.outputs.parla_changed }}'
     steps:
       - name: Checkout ParlaMint
         uses: actions/checkout@v2
@@ -45,10 +45,10 @@ jobs:
         with:
           repo_token: ${{secrets.GITHUB_TOKEN}}
 
-      - name: Create Parliaments Samples ${{needs.Changes.outputs.parla_process}}
+      - name: Create Parliaments Samples ${{needs.Changes.outputs.parla_changed}}
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
-          for parla in $(jq -r '.[]' <<< '${{needs.Changes.outputs.parla_process}}' ); do
+          for parla in $(jq -r '.[]' <<< '${{needs.Changes.outputs.parla_changed}}' ); do
             echo "::group::Processing ParlaMint-$parla"
             DIR="${{env.SAMPLE_DIR}}/$parla"
             mkdir $DIR
@@ -66,19 +66,19 @@ jobs:
             echo "::endgroup::"
           done
 
-      - name: Create Derived files and Validate ${{needs.Changes.outputs.parla_process}}
+      - name: Create Derived files and Validate ${{needs.Changes.outputs.parla_changed}}
         uses: ./ParlaMint/.github/actions/ParlaMintValidate
         with:
-          parlas: '${{needs.Changes.outputs.parla_process}}'
+          parlas: '${{needs.Changes.outputs.parla_changed}}'
 
-      - name: Commit new sample files ${{needs.Changes.outputs.parla_process}}
+      - name: Commit new sample files ${{needs.Changes.outputs.parla_changed}}
         if: ${{ success() }}
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
-          for parla in $(jq -r '.[]' <<< '${{needs.Changes.outputs.parla_process}}' ); do
+          for parla in $(jq -r '.[]' <<< '${{needs.Changes.outputs.parla_changed}}' ); do
             git add ParlaMint-$parla/ParlaMint-*.{txt,tsv,conllu,vert}
           done
           git status
-          git commit -m "action: generating ParlaMint-${{needs.Changes.outputs.parla_process}} sample files with #${{github.event.number}}"
+          git commit -m "action: generating ParlaMint-${{needs.Changes.outputs.parla_changed}} sample files with #${{github.event.number}}"
           # git push
 
