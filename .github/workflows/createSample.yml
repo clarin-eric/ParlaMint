@@ -34,7 +34,7 @@ jobs:
   CreateSample:
     needs: [Changes]
     runs-on: ubuntu-latest
-    if: ('${{ needs.Changes.outputs.parla_changed }}' != '[]')
+    if: ${{ needs.Changes.outputs.parla_changed != '[]' }}
     ## TEMPORARY SKIP if: (github.event_name == 'pull_request' && github.event.pull_request.merged == true)
     steps:
       - name: Checkout ParlaMint
