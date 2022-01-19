@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165" xml:lang="cs" ana="#parla.agenda #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="cs">Český parlamentní korpus ParlaMint-CZ, 2016-04-13 ps2013-044-02-004-165 [ParlaMint]</title>
+        <title type="main" xml:lang="en">Czech parliamentary corpus ParlaMint-CZ, 2016-04-13 ps2013-044-02-004-165 [ParlaMint]</title>
+        <title type="sub" xml:lang="cs">Parlament České republiky, Poslanecká sněmovna, 2016-04-13, 165. Vládní návrh zákona, kterým se mění zákon č. 108/2006 Sb., o sociálních službách, ve znění pozdějších předpisů, a zákon č. 292/2013 Sb., o zvláštních řízeních soudních, ve znění zákona č. 87/2015 Sb. /sněmovní tisk 689/ - třetí čtení</title>
+        <title type="sub" xml:lang="en">Parliament of the Czech Republic, Chamber of Deputies, 2016-04-13</title>
+        <meeting ana="#parla.term #parla.lower #parliament.PSP7" n="ps2013">ps2013</meeting>
+        <meeting ana="#parla.meeting #parla.lower" n="ps2013/044">ps2013/044</meeting>
+        <meeting ana="#parla.sitting #parla.lower" n="ps2013/044/02">ps2013/044/02</meeting>
+        <meeting ana="#parla.agenda #parla.lower" n="ps2013/044/165">ps2013/044/165</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-7953-8783">Matyáš Kopp</persName>
+          <resp xml:lang="en">TEI XML corpus encoding</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <orgName xml:lang="cs">Výzkumná infrastruktura CLARIN</orgName>
+        </funder>
+        <funder>
+          <orgName xml:lang="cs">LINDAT/CLARIAH-CZ: Digitální výzkumná infrastruktura pro jazykové technologie, umění a humanitní vědy</orgName>
+          <orgName xml:lang="en">LINDAT/CLARIAH-CZ: Digital Research Infrastructure for Language Technologies, Arts and Humanities</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure unit="speeches" quantity="16" xml:lang="cs">16 promluv</measure>
+        <measure unit="speeches" quantity="16" xml:lang="en">16 speeches</measure>
+        <measure unit="words" quantity="1847" xml:lang="cs">1847 slov</measure>
+        <measure unit="words" quantity="1847" xml:lang="en">1847 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <orgName xml:lang="cs">Výzkumná infrastruktura CLARIN</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="URL">https://github.com/clarin-eric/ParlaMint</idno>
+        <pubPlace>
+          <ref target="https://github.com/clarin-eric/ParlaMint">https://github.com/clarin-eric/ParlaMint</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+          <p xml:lang="cs">Toto dílo je licencováno <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Uveďte původ 4.0 Mezinárodní Veřejná licence</ref>.</p>
+        </availability>
+        <date when="2021">RELEASE_DATE</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="cs">Parlament České republiky, Poslanecká sněmovna</title>
+          <title type="main" xml:lang="en">Parliament of the Czech Republic, Chamber of Deputies</title>
+          <idno type="URI">https://www.psp.cz/eknih/2013ps/stenprot/044schuz/s044049.htm</idno>
+          <date when="2016-04-13">13.04.2016</date>
+        </bibl>
+        <recordingStmt>
+          <recording type="audio">
+            <media xml:id="ps2013-044-02-004-165.audio1" mimeType="audio/mp3" source="https://www.psp.cz/eknih/2013ps/audio/2016/04/13/2016041311381152.mp3" url="2013ps/audio/2016/04/13/2016041311381152.mp3"/>
+            <media xml:id="ps2013-044-02-004-165.audio2" mimeType="audio/mp3" source="https://www.psp.cz/eknih/2013ps/audio/2016/04/13/2016041311481202.mp3" url="2013ps/audio/2016/04/13/2016041311481202.mp3"/>
+            <media xml:id="ps2013-044-02-004-165.audio3" mimeType="audio/mp3" source="https://www.psp.cz/eknih/2013ps/audio/2016/04/13/2016041311581212.mp3" url="2013ps/audio/2016/04/13/2016041311581212.mp3"/>
+          </recording>
+        </recordingStmt>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="cs">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+        <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="note" occurs="18"/>
+          <tagUsage gi="pb" occurs="3"/>
+          <tagUsage gi="u" occurs="16"/>
+          <tagUsage gi="seg" occurs="43"/>
+          <tagUsage gi="kinesic" occurs="0"/>
+          <tagUsage gi="vocal" occurs="2"/>
+          <tagUsage gi="incident" occurs="0"/>
+          <tagUsage gi="gap" occurs="0"/>
+          <tagUsage gi="desc" occurs="2"/>
+          <tagUsage gi="time" occurs="2"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="org">
+            Parlament České republiky - Poslanecká sněmovna
+          </name>
+          <name type="address">
+            Sněmovní 176/4
+          </name>
+          <name type="city">
+            Praha
+          </name>
+          <name type="country" key="CZ">
+            Czech Republic
+          </name>
+          <date when="2016-04-13" ana="#parla.sitting">2016-04-13</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text ana="#reference">
+    <body>
+      <div type="debateSection">
+        <pb source="https://www.psp.cz/eknih/2013ps/stenprot/044schuz/s044049.htm" n="1" xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.pb1" corresp="#ps2013-044-02-004-165.audio1"/>
+        <note type="speaker">Místopředsedkyně PSP Jaroslava Jermanová</note>
+        <u who="#JaroslavaPokornaJermanova.1970" ana="#chair" xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u1">
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u1.p1">165. Vládní návrh zákona, kterým se mění zákon č. 108/2006 Sb., o sociálních službách, ve znění pozdějších předpisů, a zákon č. 292/2013 Sb., o zvláštních řízeních soudních, ve znění zákona č. 87/2015 Sb. /sněmovní tisk 689/ - třetí čtení</seg>
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u1.p2">Prosím, aby místo u stolku zpravodajů zaujala za navrhovatele ministryně práce a sociálních věcí Michaela Marksová - poprosím pana ministra financí, aby jí uvolnil místo - a zpravodaj garančního výboru, výboru pro sociální politiku, pan poslanec Vít Kaňkovský. Pozměňovací návrhy jsou uvedeny ve sněmovním tisku 689/2, který byl doručen dne 10. března 2016. Usnesení garančního výboru bylo doručeno jako sněmovní tisk 689/4.</seg>
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u1.p3">Táži se paní navrhovatelky, zda má zájem vystoupit před otevřením rozpravy. Má. Tak prosím, paní ministryně, máte slovo.</seg>
+        </u>
+        <note type="speaker">Ministryně práce a sociálních věcí ČR Michaela Marksová</note>
+        <u who="#MichaelaMarksova.1969" ana="#regular" xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u2" source="https://www.psp.cz/eknih/2013ps/stenprot/044schuz/s044049.htm#r9">
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u2.p1">Děkuji za slovo. Vážená paní místopředsedkyně, poslankyně a poslanci, já chci jenom připomenout, že to je tzv. malá novela zákona o sociálních službách, kde jde především o to navýšit částky příspěvků na péči ve všech stupních o 10 % od 1. srpna 2016. Dále se tam technicky v souladu s Úmluvou o ochraně lidských práv upravují podmínky pro poskytování sociálních služeb bez souhlasu klienta a je tam také opatření, které reaguje na narůstající nelegální poskytování sociálních služeb.</seg>
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u2.p2">Co se týče pozměňovacích návrhů vzešlých z druhého čtení, tak chci říci, že podporuji pouze pozměňovací návrh poslance Kaňkovského, který byl připraven ve spolupráci jak s naším ministerstvem, tak s ministerstvem zdravotnictví. Děkuji.</seg>
+        </u>
+        <note type="speaker">Místopředsedkyně PSP Jaroslava Jermanová</note>
+        <u who="#JaroslavaPokornaJermanova.1970" ana="#chair" xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u3" source="https://www.psp.cz/eknih/2013ps/stenprot/044schuz/s044049.htm#r10">
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u3.p1">Já děkuji paní ministryni a otevírám rozpravu, do které se hlásí paní poslankyně Hnyková. Prosím ji k mikrofonu. Prosím, máte slovo.</seg>
+        </u>
+        <note type="speaker">Poslankyně Jana Hnyková</note>
+        <u who="#JanaHnykova.1963" ana="#regular" xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u4" source="https://www.psp.cz/eknih/2013ps/stenprot/044schuz/s044049.htm#r11">
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u4.p1">Děkuji, paní předsedající. Vážené dámy a pánové, máme zde třetí čtení zákona 108/2006, o sociálních službách, jak řekla paní ministryně, tzv. malou novelu tohoto zákona, který především navyšuje příspěvek na péči ve všech stupních o 10 %. Poslanecký klub Úsvit podpoří návrh zákona i pozměňující návrhy kolegy Kaňkovského. Myslíme si, že je to pro tuto oblast velmi přínosné. Přesto dovolte pár vět na závěr.</seg>
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u4.p2">Požádala bych, aby se ministerstvo a vláda při další novele zákona o sociálních službách vrátily k příspěvku na péči a stanovily jeho valorizaci tak, aby zdravotně postižení měli důstojné podmínky k životu a nemuseli za ně tak bojovat, jako to bylo u tohoto navýšení.</seg>
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u4.p3">Žádám paní ministryni, aby ve velké novele zákona, která se připravuje, zrušila možnost vzniku nebo fungování neregistrovaných neboli, jak už tady zaznělo, nelegálních zařízení. Pokud se někdo chce starat o seniory, o lidi, kteří potřebují péči pobytového zařízení, tak musí splňovat standardy jak pro chod zařízení, tak hlavně v péči o klienty. Musí mít personál, který ví, jak péči poskytovat, a musí se také vzdělávat. Myslím si, že v sociálních službách se od uvedení zákona do praxe hodně věcí zlepšilo, ale řada neregistrovaných zařízení dělá sociálním službám špatnou vizitku. Proto žádám razantnější řešení v této oblasti. Takové zacházení s klienty, kteří potřebují pomoc, přece naše společnost nemůže dopustit.</seg>
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u4.p4">Poslední oblast, kterou novela řeší a upravuje, se týká podmínek, za kterých je držení osoby v pobytových sociálních službách bez jejího souhlasu přípustné. Doufám, že takových případů bude velmi málo, protože to bude přinášet organizačně řadu problémů v praxi. Ale věřím, že se zvládne i tato oblast.</seg>
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u4.p5">V závěru bych vás chtěla požádat o podporu pozměňujícího návrhu, kterým zdravotně postižení žádají o návrat posuzování příspěvku na péči před rok 2012. Řada z vás tady v Poslanecké sněmovně byla a obhajovali jste zdravotně postižené v této době. Věřím, že pomůžete prohlasovat tento pozměňující návrh, a tak naplnit i požadavky zdravotně postižených, které vyjádřili ve své petici, pod kterou se, znovu připomínám, podepsalo 11 373 lidí.</seg>
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u4.p6">Chci poděkovat všem členům výboru pro sociální politiku, kteří podpořili tento pozměňující návrh v garančním výboru.</seg>
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u4.p7">Vážené kolegyně a kolegové, děkuji vám za podporu mého pozměňujícího návrhu a za pozornost.</seg>
+        </u>
+        <note type="speaker">Místopředsedkyně PSP Jaroslava Jermanová</note>
+        <u who="#JaroslavaPokornaJermanova.1970" ana="#chair" xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u5" source="https://www.psp.cz/eknih/2013ps/stenprot/044schuz/s044049.htm#r12">
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u5.p1">Já děkuji a táži se, zda se ještě někdo hlásí do rozpravy. Zpravodaj pan poslanec Kaňkovský. Prosím.</seg>
+        </u>
+        <pb source="https://www.psp.cz/eknih/2013ps/stenprot/044schuz/s044050.htm" n="2" xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.pb2" corresp="#ps2013-044-02-004-165.audio2"/>
+        <note type="time">
+               <time when="2016-04-13T11:50:00">(11.50 hodin)</time>
+            </note>
+        <note type="speaker">Poslanec Vít Kaňkovský</note>
+        <u who="#VitKankovsky.1970" ana="#regular" xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u6" source="https://www.psp.cz/eknih/2013ps/stenprot/044schuz/s044050.htm#r1">
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u6.p1">Dobré dopoledne, vážená paní předsedající, členové vlády, milé dámy, vážení pánové. Dovolte mi, abych se krátce ještě vrátil ke svému pozměňovacímu návrhu, který jste v přehledu pozměňovacích návrhů obdrželi pod písmenem C. Tento pozměňovací návrh je alternativou k pozměňovacímu návrhu, který přijal výbor pro sociální politiku a který je v přehledu pozměňovacích návrhů pod písmenem A. Věcně si oba pozměňovací návrhy kladou za cíl vyřešit stejný problém, už jsem tady o tom hovořil ve druhém čtení, a tím je velmi neutěšená situace v oblasti řízení o příspěvku na péči u osob, které jsou dlouhodobě hospitalizované ve zdravotnických zařízeních různého typu pro jednu diagnózu. Typově se jedná o pacienty s těžkým poškozením míchy, pacienty s těžkým poškozením mozku, pacienty po amputacích končetin, ale i některé další stavy.</seg>
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u6.p2">Současná praxe je taková, že po celou dobu hospitalizace je u těchto osob přerušeno řízení o příspěvku na péči, čímž se pak stává, že se pacient dostane do domácího ošetřování po řadě měsíců a nemá v tu chvíli vlastně přiznaný příspěvek na péči. A co je ještě horší, to řízení na péči pak probíhá ještě celou řadu měsíců. Proto jsem do výboru pro sociální politiku předložil pozměňovací návrh, který tenkrát výbor pro sociální politiku přijal. Byl to pozměňovací návrh, který připravovala Národní rada osob se zdravotním postižením. Na jednání výboru jsme ale dospěli k tomu, že věcně i legislativně tento návrh není úplně v pořádku a že hlavně v praxi by byl velmi obtížně realizovatelný. Proto jsme po dohodě s Ministerstvem práce a sociálních věcí přistoupili k přípravě alternativního návrhu a právě ten je předložen ve formě pozměňovacího návrhu pod písmenem C.</seg>
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u6.p3">Chtěl bych vás zdvořile požádat, abyste v hlasování podpořili právě tento pozměňovací návrh, který komplexně řeší tuto problematiku. Řešení je dohodnuto i s Ministerstvem zdravotnictví, to znamená, bude vyřešena i součinnost zdravotnických zařízení při řízení o příspěvku na péči. Bude umožněno příslušným orgánům spolupracovat s těmi zdravotnickými zařízeními. Osobně považuji to řešení, které je předloženo do druhého čtení, jako významně lepší. Proto si vás dovoluji požádat, abyste podpořili pozměňovací návrh pod písmenem C.</seg>
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u6.p4">Děkuji vám za pozornost.</seg>
+        </u>
+        <note type="speaker">Místopředsedkyně PSP Jaroslava Jermanová</note>
+        <u who="#JaroslavaPokornaJermanova.1970" ana="#chair" xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u7" source="https://www.psp.cz/eknih/2013ps/stenprot/044schuz/s044050.htm#r2">
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u7.p1">Děkuji. Eviduji zde faktickou poznámku pana poslance Borky. Tak to je omyl, odmažu. Táži se tedy znovu, jestli se někdo hlásí do rozpravy. Nikoho nevidím, tudíž rozpravu končím. Táži se paní navrhovatelky, zda má zájem o závěrečná slova. Není tomu tak. Pan zpravodaj? Také ne.</seg>
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u7.p2">Nyní přikročíme k hlasování o pozměňovacích návrzích. Poprosím pana zpravodaje garančního výboru, aby nás seznámil s procedurou hlasování. Prosím.</seg>
+        </u>
+        <note type="speaker">Poslanec Vít Kaňkovský</note>
+        <u who="#VitKankovsky.1970" ana="#regular" xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u8" source="https://www.psp.cz/eknih/2013ps/stenprot/044schuz/s044050.htm#r3">
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u8.p1">Ještě jednou dobré dopoledne, milé kolegyně, vážení kolegové. K předloženému návrhu zákona, kterým se mění zákon č. 108/2006 Sb., o sociálních službách, ve znění pozdějších předpisů, a zákon č. 292/2013 Sb., o zvláštních řízeních soudních, ve znění zákona č. 87/2015 Sb., mi dovolte krátké shrnutí dosavadního legislativního procesu.</seg>
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u8.p2">Ve druhém čtení návrhu zákona nebyl vznesen návrh na zamítnutí zákona. Čeká nás tedy nyní hlasování o pozměňovacích návrzích, které vzešly z jednání výboru pro sociální politiku, o němž jsem hovořil před okamžikem, a ze druhého čtení tohoto návrhu zákona, tak jak jsou uvedeny ve sněmovním dokumentu pod č. 689/2, který jste všichni obdrželi. O těchto návrzích jednal v souladu s jednacím řádem garanční výbor, tedy výbor pro sociální politiku, na své schůzi dne 16. března 2016, který doporučil Poslanecké sněmovně hlasovací proceduru a zaujal stanoviska k jednotlivým pozměňovacím návrhům. Usnesení garančního výboru jste obdrželi jako sněmovní tisk č. 689/4.</seg>
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u8.p3">Nyní k návrhu hlasovací procedury. Návrh na zamítnutí zákona podán nebyl. Jako první krok je garančním výborem navrženo hlasovat o návrzích legislativně technických úprav přednesených ve třetím čtení - což se nestalo. Tento krok tedy v hlasovací proceduře odpadá.</seg>
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u8.p4">Jako druhý krok je navrženo hlasování o pozměňovacích návrzích pod písmenem C společně jedním hlasováním, tedy společně C1 i C2. Věcně jde o můj pozměňovací návrh, který jsem před chvílí zmiňoval, který řeší zahájení a průběh řízení o příspěvku na péči u osob, které jsou dlouhodobě hospitalizovány ve zdravotnických zařízeních různých typů a u nichž je predikce dlouhodobě nepříznivého zdravotního stavu s potřebou čerpat sociální služby.</seg>
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u8.p5">Jako třetí krok je navrženo hlasovat o návrzích pod písmenem A, což jsou pozměňovací návrhy výboru pro sociální politiku. Věcně jde o stejnou problematiku, a jak jsem zmiňoval, je to návrh, který dle mého názoru je věcně i legislativně hůře proveditelný, což ale už do této procedury nepatří. I tady je navrženo hlasováním jedním společným hlasováním, přičemž pokud bude přijat návrh pod písmenem C, je tento návrh nehlasovatelný.</seg>
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u8.p6">Jako čtvrtý krok je navrženo hlasovat o návrzích pod písmenem B společně jedním hlasováním. Jde o pozměňovací návrh paní poslankyně Jany Hnykové, který řeší posuzování stupně závislosti na pomoci jiné osoby a kde předkladatelka navrhuje změnit současných 10 posuzovaných úkonů na 36. Jde tedy o navrácení stavu zákona před jeho změnou v rámci tzv. úsporných balíčků.</seg>
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u8.p7">A konečně jako pátý krok je navrženo hlasovat o návrhu zákona jako celku.</seg>
+        </u>
+        <note type="speaker">Místopředsedkyně PSP Jaroslava Jermanová</note>
+        <u who="#JaroslavaPokornaJermanova.1970" ana="#chair" xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u9" source="https://www.psp.cz/eknih/2013ps/stenprot/044schuz/s044050.htm#r4">
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u9.p1">Děkuji, pane zpravodaji. Táži se, zda někdo chce vystoupit k proceduře. Není tomu tak. Myslím si, že je poměrně jednoduchá, takže se podle ní můžeme řídit i bez hlasování. Ano, je tady požadavek na hlasování procedury. Dříve než zahájím hlasování o proceduře, všechny vás odhlásím a poprosím, abyste se znovu přihlásili svými kartami.</seg>
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u9.p2">Nyní přistoupíme k hlasování o navržené proceduře. Zahajuji hlasování a táži se, kdo je pro, zmáčkněte tlačítko a zvedněte ruku. Proti?</seg>
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u9.p3">Hlasování končím. Je to hlasování s pořadovým číslem 79, do kterého je přihlášeno 157 přítomných, pro 151, proti nikdo. Konstatuji, že procedura byla schválena.</seg>
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u9.p4">Nyní prosím pana zpravodaje, aby nás provedl hlasováním.</seg>
+        </u>
+        <note type="speaker">Poslanec Vít Kaňkovský</note>
+        <u who="#VitKankovsky.1970" ana="#regular" xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u10" source="https://www.psp.cz/eknih/2013ps/stenprot/044schuz/s044050.htm#r5">
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u10.p1">Takže podle toho, jak jsme schválili proceduru, bychom nyní měli hlasovat jako první pozměňovací návrhy pod písmenem C, a to jedním hlasováním. Stanovisko garančního výboru je doporučující.</seg>
+        </u>
+        <vocal type="speaking">
+          <desc>(Stanovisko ministryně Marksové: Souhlas.)</desc>
+        </vocal>
+        <note type="speaker">Místopředsedkyně PSP Jaroslava Jermanová</note>
+        <u who="#JaroslavaPokornaJermanova.1970" ana="#chair" xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u11" source="https://www.psp.cz/eknih/2013ps/stenprot/044schuz/s044050.htm#r6">
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u11.p1">Zahajuji hlasování a táži se, kdo je pro, zmáčkněte tlačítko a zvedněte ruku. Proti?</seg>
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u11.p2">Hlasování končím. Je to hlasování s pořadovým číslem 80, do kterého je přihlášeno 161 přítomných, pro 160, proti nikdo. Konstatuji, že návrh byl přijat. Prosím další návrh.</seg>
+        </u>
+        <note type="speaker">Poslanec Vít Kaňkovský</note>
+        <u who="#VitKankovsky.1970" ana="#regular" xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u12" source="https://www.psp.cz/eknih/2013ps/stenprot/044schuz/s044050.htm#r7">
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u12.p1">Tím, že byly schváleny pozměňovací návrhy pod písmenem C, se pozměňovací návrhy pod písmenem A staly nehlasovatelné. V tomto případě tedy přistupme k hlasování o pozměňovacích návrzích pod písmenem B, a to jedním hlasováním. Stanovisko garančního výboru je doporučující.</seg>
+        </u>
+        <vocal type="speaking">
+          <desc>(Stanovisko ministryně Marksové: Nesouhlas.)</desc>
+        </vocal>
+        <note type="speaker">Místopředsedkyně PSP Jaroslava Jermanová</note>
+        <u who="#JaroslavaPokornaJermanova.1970" ana="#chair" xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u13" source="https://www.psp.cz/eknih/2013ps/stenprot/044schuz/s044050.htm#r8">
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u13.p1">Zahajuji hlasování a táži se, kdo je pro, zmáčkněte tlačítko a zvedněte ruku. Proti? Hlasování končím.</seg>
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u13.p2">Je to hlasování s pořadovým číslem 81, do kterého je přihlášeno 160 přítomných, pro 38, proti 92. Návrh byl zamítnut.</seg>
+        </u>
+        <note type="speaker">Poslanec Vít Kaňkovský</note>
+        <u who="#VitKankovsky.1970" ana="#regular" xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u14" source="https://www.psp.cz/eknih/2013ps/stenprot/044schuz/s044050.htm#r9">
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u14.p1">Tím jsme vyčerpali hlasování o pozměňovacích návrzích a nyní bychom měli přistoupit k hlasování o návrhu zákona jako celku.</seg>
+        </u>
+        <note type="speaker">Místopředsedkyně PSP Jaroslava Jermanová</note>
+        <u who="#JaroslavaPokornaJermanova.1970" ana="#chair" xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u15" source="https://www.psp.cz/eknih/2013ps/stenprot/044schuz/s044050.htm#r10">
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u15.p1">Přednesu návrh usnesení: "Poslanecká sněmovna vyslovuje souhlas s vládním návrhem zákona, kterým se mění zákon č. 108/2006 Sb., o sociálních službách, ve znění pozdějších předpisů, a zákon č. 292/2013 Sb., o zvláštních řízeních soudních, ve znění zákona č. 87/2015 Sb., podle sněmovního tisku 689, ve znění schváleném Poslaneckou sněmovnou."</seg>
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u15.p2">Zahajuji hlasování a táži se, kdo je pro, zmáčkněte tlačítko a zvedněte ruku. Proti?</seg>
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u15.p3">Hlasování končím. Je to hlasování s pořadovým číslem 82, do kterého je přihlášeno 161 přítomných, pro 161, proti nikdo. Konstatuji, že s návrhem zákona byl vysloven souhlas, a děkuji panu zpravodaji a paní ministryni.</seg>
+        </u>
+        <pb source="https://www.psp.cz/eknih/2013ps/stenprot/044schuz/s044051.htm" n="3" xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.pb3" corresp="#ps2013-044-02-004-165.audio3"/>
+        <note type="time">
+               <time when="2016-04-13T12:00:00">(12.00 hodin)</time>
+            </note>
+        <note type="speaker">Místopředseda PSP Vojtěch Filip</note>
+        <u who="#VojtechFilip.1955" ana="#chair" xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u16" source="https://www.psp.cz/eknih/2013ps/stenprot/044schuz/s044051.htm#r1">
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u16.p1">Dobré poledne, vážené paní poslankyně, vážení páni poslanci. Než budeme pokračovat, mohu konstatovat omluvu došlou předsedovi Poslanecké sněmovny, a to poslance Stanislava Berkovce, který se od 15 hodin do konce jednacího dne omlouvá z dnešního jednání z pracovních důvodů.</seg>
+          <seg xml:id="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.u16.p2">Dalším bodem našeho jednání je bod číslo</seg>
+        </u>
+      </div>
+    </body>
+  </text>
+</TEI>
