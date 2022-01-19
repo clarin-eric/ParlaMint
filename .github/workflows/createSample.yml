@@ -7,15 +7,16 @@ on:
 
   pull_request:
     branches: [ main , main_test ]
-    types: [closed, synchronize] # synchronize is temporary for debugging
+    types: [closed] # synchronize is temporary for debugging
 
   # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+  # workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   Changes:
     runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'pull_request' && github.event.pull_request.merged == true }}
     outputs:
       parla_changed:  '${{ steps.detect-changes.outputs.parla_changed }}'
     steps:
@@ -34,8 +35,7 @@ jobs:
   CreateSample:
     needs: [Changes]
     runs-on: ubuntu-latest
-    if: ${{ needs.Changes.outputs.parla_changed != '[]' }}
-    ## TEMPORARY SKIP if: (github.event_name == 'pull_request' && github.event.pull_request.merged == true)
+    if: ${{ needs.Changes.outputs.parla_changed != '[]' && github.event_name == 'pull_request' && github.event.pull_request.merged == true }}
     steps:
       - name: Checkout ParlaMint
         uses: actions/checkout@v2
@@ -81,5 +81,5 @@ jobs:
           done
           git status
           git commit -m "action: generating ParlaMint-${{needs.Changes.outputs.parla_changed}} sample files with #${{github.event.number}}"
-          # git push
+          git push
 
