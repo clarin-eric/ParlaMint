@@ -114,8 +114,12 @@
       </tagsDecl>
       <classDecl>
         <taxonomy xml:id="parla.legislature">
-          <desc xml:lang="cs"><term>Zákonodárná moc</term></desc>
-          <desc xml:lang="en"><term>Legislature</term></desc>
+          <desc xml:lang="cs">
+                  <term>Zákonodárná moc</term>
+               </desc>
+          <desc xml:lang="en">
+                  <term>Legislature</term>
+               </desc>
           <category xml:id="parla.geo-political">
             <catDesc xml:lang="cs"><term>Geo-politické nebo administrativní jednotky</term></catDesc>
             <catDesc xml:lang="en"><term>Geo-political or administrative units</term></catDesc>
@@ -246,16 +250,24 @@
           </category>
         </taxonomy>
         <taxonomy xml:id="meeting.parts">
-          <desc xml:lang="cs"><term>Bod</term></desc>
-          <desc xml:lang="en"><term>Agenda</term></desc>
+          <desc xml:lang="cs">
+                  <term>Bod</term>
+               </desc>
+          <desc xml:lang="en">
+                  <term>Agenda</term>
+               </desc>
           <category xml:id="parla.agenda">
             <catDesc xml:lang="cs"><term>Bod jednání</term></catDesc>
             <catDesc xml:lang="en"><term>Agenda</term>: topic discussed during sitting</catDesc>
           </category>
         </taxonomy>
         <taxonomy xml:id="parla.links">
-          <desc xml:lang="cs"><term>Druhy odkazů</term></desc>
-          <desc xml:lang="en"><term>Types of links</term></desc>
+          <desc xml:lang="cs">
+                  <term>Druhy odkazů</term>
+               </desc>
+          <desc xml:lang="en">
+                  <term>Types of links</term>
+               </desc>
           <category xml:id="parla.voting">
             <catDesc xml:lang="cs"><term>Hlasování</term></catDesc>
             <catDesc xml:lang="en"><term>Voting</term></catDesc>
@@ -266,8 +278,12 @@
           </category>
         </taxonomy>
         <taxonomy xml:id="speaker_types">
-          <desc xml:lang="cs"><term>Druhy řečníků</term></desc>
-          <desc xml:lang="en"><term>Types of speakers</term></desc>
+          <desc xml:lang="cs">
+                  <term>Druhy řečníků</term>
+               </desc>
+          <desc xml:lang="en">
+                  <term>Types of speakers</term>
+               </desc>
           <category xml:id="chair">
             <catDesc xml:lang="cs"><term>Předsedající</term>: předsedá zasedání</catDesc>
             <catDesc xml:lang="en"><term>Chairperson</term>: chairman of a sitting</catDesc>
@@ -282,7 +298,9 @@
           </category>
         </taxonomy>
         <taxonomy xml:id="UD-SYN">
-          <desc xml:lang="en"><term>UD syntactic relations</term></desc>
+          <desc xml:lang="en">
+                  <term>UD syntactic relations</term>
+               </desc>
           <category xml:id="acl">
             <catDesc xml:lang="en"><term>acl</term>: Clausal modifier of noun (adjectival clause)</catDesc>
           </category>
@@ -426,7 +444,9 @@
           </category>
         </taxonomy>
         <taxonomy xml:id="NER">
-          <desc xml:lang="en"><term>Named entities</term></desc>
+          <desc xml:lang="en">
+                  <term>Named entities</term>
+               </desc>
           <category xml:id="PER">
             <catDesc xml:lang="cs"><term>osoba</term></catDesc>
             <catDesc xml:lang="en"><term>person</term></catDesc>
@@ -445,7 +465,9 @@
           </category>
         </taxonomy>
         <taxonomy xml:id="NER.cnec2.0">
-          <desc xml:lang="en"><term>CNEC 2.0 Named Entities</term></desc>
+          <desc xml:lang="en">
+                  <term>CNEC 2.0 Named Entities</term>
+               </desc>
           <category xml:id="NER.cnec2.0.P">
             <catDesc xml:lang="en"><term>person name</term></catDesc>
           </category>
@@ -622,8 +644,12 @@
           </category>
         </taxonomy>
         <taxonomy xml:id="subcorpus">
-          <desc xml:lang="cs"><term>Podkorpusy</term></desc>
-          <desc xml:lang="en"><term>Subcorpora</term></desc>
+          <desc xml:lang="cs">
+                  <term>Podkorpusy</term>
+               </desc>
+          <desc xml:lang="en">
+                  <term>Subcorpora</term>
+               </desc>
           <category xml:id="reference">
             <catDesc xml:lang="cs"><term>Referenční</term>: referenční podkorpus, do 2019-10-31</catDesc>
             <catDesc xml:lang="en"><term>Reference</term>: reference subcorpus, until 2019-10-31</catDesc>
@@ -645,21 +671,11 @@
       <appInfo>
         <application ident="UDPipe" version="2">
           <label>UDPipe 2 (czech-pdt-ud-2.6-200830 model)</label>
-          <desc>
-            POS tagging, lemmatization and dependency parsing done with UDPipe 2 (
-            <ref target="http://ufal.mff.cuni.cz/udpipe/2">http://ufal.mff.cuni.cz/udpipe/2</ref>
-            ) with czech-pdt-ud-2.6-200830 model
-          </desc>
+          <desc>POS tagging, lemmatization and dependency parsing done with UDPipe 2 (<ref target="http://ufal.mff.cuni.cz/udpipe/2">http://ufal.mff.cuni.cz/udpipe/2</ref>) with czech-pdt-ud-2.6-200830 model</desc>
         </application>
         <application ident="NameTag" version="2">
           <label>NameTag 2 (czech-cnec2.0-200831 model)</label>
-          <desc>
-            Name entity recognition done with NameTag 2 (
-            <ref target="http://ufal.mff.cuni.cz/nametag/2">http://ufal.mff.cuni.cz/nametag/2</ref>
-            ) with czech-cnec2.0-200831 model (
-            <ref target="http://hdl.handle.net/11234/1-3443">http://hdl.handle.net/11234/1-3443</ref>
-            ). Posprocessing: nested named entities has been merged to four categories (PER, LOC, ORG, MISC).
-          </desc>
+          <desc>Name entity recognition done with NameTag 2 (<ref target="http://ufal.mff.cuni.cz/nametag/2">http://ufal.mff.cuni.cz/nametag/2</ref>) with czech-cnec2.0-200831 model (<ref target="http://hdl.handle.net/11234/1-3443">http://hdl.handle.net/11234/1-3443</ref>). Posprocessing: nested named entities has been merged to four categories (PER, LOC, ORG, MISC).</desc>
         </application>
       </appInfo>
     </encodingDesc>
