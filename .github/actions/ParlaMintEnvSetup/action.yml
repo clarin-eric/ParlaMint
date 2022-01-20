@@ -1,0 +1,99 @@
+name: 'Initialize ParlaMint Environment'
+#description: ''
+inputs:
+  repo_token:
+    description: 'contains repository secret token'
+    required: false
+  parla:
+    required: false
+runs:
+  using: "composite"
+  steps:
+    - name: Set shared variables
+      run: |
+          export SAMPLE_DIR=SAMPLE
+          echo "SAMPLE_DIR=$SAMPLE_DIR"  >> $GITHUB_ENV
+          export SAMPLE_SCRIPT=Scripts/corpus2sample.xsl
+          echo "SAMPLE_SCRIPT=$SAMPLE_SCRIPT"  >> $GITHUB_ENV
+      shell: bash
+    - name: Install deps
+      run: |
+          sudo apt-get install rename
+          pip3 install --user regex
+      shell: bash
+    - name: Setup Java JDK
+      uses: actions/setup-java@v1.4.3
+      with:
+        # The Java version to make available on the path. Takes a whole or semver Java version, or 1.x syntax (e.g. 1.8 => Java 8.x). Early access versions can be specified in the form of e.g. 14-ea, 14.0.0-ea, or 14.0.0-ea.28
+        java-version: 1.15
+        # The package type (jre, jdk, jdk+fx)
+        java-package: jdk
+    - name: Check java info
+      run: |
+          echo $(java -version)
+          echo $JAVA_HOME
+      shell: bash
+    - name: Prepare temporary directories
+      run: |
+          mkdir "$GITHUB_WORKSPACE/ParlaMint/${{env.SAMPLE_DIR}}"
+          mkdir "$GITHUB_WORKSPACE/ParlaMint/Scripts/tmp"
+      shell: bash
+    - name: Cache dependencies
+      id: cache_deps
+      uses: actions/cache@v2
+      with:
+        path: |
+          ParlaMint/Scripts/tools
+          Saxon.jar
+          /usr/share/java/saxon.jar
+          jing/build/jing.jar
+          /usr/share/java/jing.jar
+        key: ${{ runner.os }}-ParlaMint-deps-V4
+    - name: Cache hit
+      if: steps.cache_deps.outputs.cache-hit == 'true'
+      run: |
+        echo "::debug::Dependencies cache hit"
+        pwd
+        ls -l $GITHUB_WORKSPACE/ParlaMint/Scripts/tools \
+          $GITHUB_WORKSPACE/Saxon.jar \
+          /usr/share/java/saxon.jar \
+          $GITHUB_WORKSPACE/jing/build/jing.jar \
+          /usr/share/java/jing.jar \
+      shell: bash
+    - name: Checkout UniversalDependencies tools
+      if: steps.cache_deps.outputs.cache-hit != 'true'
+      uses: actions/checkout@v2
+      with:
+        repository: UniversalDependencies/tools
+        path: ParlaMint/Scripts/tools
+    - name: Download Saxon
+      if: steps.cache_deps.outputs.cache-hit != 'true'
+      run: |
+          wget https://search.maven.org/remotecontent?filepath=net/sf/saxon/Saxon-HE/10.6/Saxon-HE-10.6.jar -O Saxon.jar
+          sudo ln -s $GITHUB_WORKSPACE/Saxon.jar /usr/share/java/saxon.jar
+      shell: bash
+    - name: Checkout jing
+      if: steps.cache_deps.outputs.cache-hit != 'true'
+      uses: actions/checkout@v2
+      with:
+        repository: relaxng/jing-trang
+        path: jing
+    - name: Build jing
+      if: steps.cache_deps.outputs.cache-hit != 'true'
+      run: |
+          cd $GITHUB_WORKSPACE/jing
+          ./ant
+          sudo ln -s $GITHUB_WORKSPACE/jing/build/jing.jar /usr/share/java/jing.jar
+      shell: bash
+    - name: Setup git
+      run: |
+          cd $GITHUB_WORKSPACE/ParlaMint
+          git config --global user.name 'Matyáš Kopp (through GitHub Action)'
+          git config --global user.email 'matyaskopp@users.noreply.github.com'
+      shell: bash
+    - name: Set git origin
+      if: ${{ inputs.repo_token }}
+      run: |
+          cd $GITHUB_WORKSPACE/ParlaMint
+          git remote set-url origin https://x-access-token:${{ inputs.repo_token }}@github.com/${{ github.repository }}
+      shell: bash
