@@ -20,7 +20,7 @@ for parla in $(jq -r '.[]' <<< $1 ); do
   if [ -f "ParlaMint-$parla/ParlaMint-$parla.ana.xml" ] ; then
 
     echo "::notice::CONVERT to vert"
-    Scripts/parlamint-tei2vert.pl ParlaMint-$parla $DIR 2>&1 | tee $DIR/vert.log | sed "s/^\(.*\)\(error\)/::error::\1\2/i"
+    Scripts/parlamint-tei2vert.pl ParlaMint-$parla/ParlaMint-$parla.ana.xml $DIR 2>&1 | tee $DIR/vert.log | sed "s/^\(.*\)\(error\)/::error::\1\2/i"
 
     echo "::notice::CONVERT and VALIDATE CoNLLu format"
     Scripts/parlamint2conllu.pl ParlaMint-$parla $DIR 2>&1 | tee $DIR/conllu.log | sed "s/^\(.*\)\(error\)/::error::\1\2/i"

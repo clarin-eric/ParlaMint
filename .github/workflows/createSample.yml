@@ -86,7 +86,7 @@ jobs:
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
           for parla in $(jq -r '.[]' <<< '${{needs.Changes.outputs.parla_changed}}' ); do
-            git add ParlaMint-$parla/ParlaMint-*.{txt,tsv,conllu,vert}
+            git add ParlaMint-$parla/ParlaMint-*.{txt,tsv,conllu,vert} || echo "::warning:: $parla suppress fatal: pathspec '<FILE>' did not match any files"
             git diff --name-only ParlaMint-$parla
           done
           git status
