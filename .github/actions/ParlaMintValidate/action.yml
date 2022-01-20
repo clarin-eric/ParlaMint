@@ -1,0 +1,12 @@
+name: 'Create derived files and Validate'
+#description: ''
+inputs:
+  parlas:
+    description: 'list of parliament codes'
+    required: true
+runs:
+  using: "composite"
+  steps:
+    - name: Convert and Validate
+      run: ${{ github.action_path }}/validate.sh '${{inputs.parlas}}'
+      shell: bash

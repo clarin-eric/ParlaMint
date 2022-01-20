@@ -1,0 +1,26 @@
+name: 'Detect Changes in ParlaMint Repository'
+#description: ''
+inputs:
+  repo_token:
+    description: 'contains repository secret token'
+    required: false
+outputs:
+  parla_process:
+    description: "Parliaments that should be processes (is affected by change script or parliament change)"
+    value: '${{ steps.status.outputs.parla_process }}'
+  parla_all:
+    description: "List of all Parliaments"
+    value: '${{ steps.status.outputs.parla_all }}'
+  parla_changed:
+    description: "List of changed Parliaments"
+    value: '${{ steps.status.outputs.parla_changed }}'
+runs:
+  using: "composite"
+  steps:
+    - name: Test if prereqs are installed
+      run: ${{ github.action_path }}/prereqs.sh
+      shell: bash
+    - name: Detect Changes
+      id: status
+      run: ${{ github.action_path }}/status.sh
+      shell: bash
