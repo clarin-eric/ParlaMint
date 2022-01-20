@@ -95,5 +95,6 @@ runs:
       if: ${{ inputs.repo_token }}
       run: |
           cd $GITHUB_WORKSPACE/ParlaMint
-          git remote set-url origin https://x-access-token:${{ inputs.repo_token }}@github.com/${{ github.repository }}
+          git remote -v
+          #git remote set-url origin https://x-access-token:${{ inputs.repo_token }}@github.com/${{ github.repository }}
       shell: bash
