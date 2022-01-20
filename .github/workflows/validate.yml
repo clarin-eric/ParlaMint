@@ -1,0 +1,60 @@
+name: Validate
+
+# Controls when the action will run. 
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main , actions ]
+  pull_request:
+    branches: [ main , main_test ]
+    types: [opened, synchronize, reopened]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  Changes:
+    runs-on: ubuntu-latest
+    outputs:
+      parla_process:  '${{ steps.detect-changes.outputs.parla_process }}'
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - name: Checkout ParlaMint
+        uses: actions/checkout@v2
+        with:
+          path: ParlaMint
+          fetch-depth: 2 # when called a pull_request - test is run on test merge -> full history is not needed to detect changes
+      - name: Setup # initialize dependencies cache - used in next steps
+        uses: ./ParlaMint/.github/actions/ParlaMintEnvSetup
+      - name: ParlaMint status (Detect changed files and get list of parliaments that should be processed)
+        id: detect-changes
+        uses: ./ParlaMint/.github/actions/ParlaMintStatus
+
+  ValidateCountries:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    needs: Changes
+    strategy:
+      matrix:
+        parla: ${{ fromJSON(needs.Changes.outputs.parla_process) }}
+      fail-fast: false
+    steps:
+      - name: Checkout ParlaMint
+        uses: actions/checkout@v2
+        with:
+          path: ParlaMint
+      - name: Setup
+        uses: ./ParlaMint/.github/actions/ParlaMintEnvSetup
+        with:
+          parla: ${{matrix.parla}}
+      - name: Validate ParlaMint-${{matrix.parla}}
+        uses: ./ParlaMint/.github/actions/ParlaMintValidate
+        with:
+          parlas: '["${{matrix.parla}}"]'
+  Validate:
+    runs-on: ubuntu-latest
+    needs: [ValidateCountries]
+    steps:
+      - run: echo Done!
+

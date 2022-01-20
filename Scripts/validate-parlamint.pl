@@ -39,8 +39,8 @@ foreach my $inDir (glob "$inDirs") {
     my @compFiles = ();
     my @compAnaFiles = ();
     foreach $inFile (glob "$inDir/*.xml") {
-	if    ($inFile =~ m|ParlaMint-[^_]+\.xml|) {$rootFile = $inFile}
-	elsif ($inFile =~ m|ParlaMint-[^_]+\.ana\.xml|) {$rootAnaFile = $inFile}
+	if    ($inFile =~ m|ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?\.xml|) {$rootFile = $inFile}
+	elsif ($inFile =~ m|ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?\.ana\.xml|) {$rootAnaFile = $inFile}
     }
     $/ = '>';
     if (not $rootFile and not $rootAnaFile) {
