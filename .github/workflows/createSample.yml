@@ -66,7 +66,16 @@ jobs:
             mv $DIR/* ParlaMint-$parla/
             echo "::endgroup::"
           done
-
+      - name: Remove unused data from repository
+        run: |
+          cd $GITHUB_WORKSPACE/ParlaMint
+          for parla in $(jq -r '.[]' <<< '${{needs.Changes.outputs.parla_changed}}' ); do
+            for file in $(echo ParlaMint-$parla/ParlaMint-$parla\_*) ; do
+              echo "testing $file"
+              xmlfile=$(echo $file|sed -E 's/(-meta\.tsv|\.conllu|\.txt|\.vert)$/.xml/')
+              cat ParlaMint-$parla/ParlaMint-$parla{,.ana}.xml | grep -Fq "$xmlfile" || git rm "$file"
+            done
+          done
       - name: Create Derived files and Validate ${{needs.Changes.outputs.parla_changed}}
         uses: ./ParlaMint/.github/actions/ParlaMintValidate
         with:
@@ -78,10 +87,7 @@ jobs:
           cd $GITHUB_WORKSPACE/ParlaMint
           for parla in $(jq -r '.[]' <<< '${{needs.Changes.outputs.parla_changed}}' ); do
             git add ParlaMint-$parla/ParlaMint-*.{txt,tsv,conllu,vert}
-            for file in $(echo ParlaMint-$parla/ParlaMint-$parla\_*.xml) ; do
-              echo "testing $file"
-              cat ParlaMint-$parla/ParlaMint-$parla{,.ana}.xml | grep -Fq "$file" || git rm "$file"
-            done
+            git diff --name-only ParlaMint-$parla
           done
           git status
           git commit -a -m "action: generating ParlaMint-${{needs.Changes.outputs.parla_changed}} sample files with #${{github.event.number}}"
