@@ -5,6 +5,9 @@ on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
     branches: [ action_sandbox ]
+  pull_request_target:
+    branches: [ action_sandbox, action_sandbox_target]
+    types: [closed]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -23,8 +26,13 @@ jobs:
         uses: ./ParlaMint/.github/actions/ParlaMintEnvSetup
         with:
           repo_token: ${{secrets.GITHUB_TOKEN}}
+      - name: EVENT
+        if: ${{github.event_name == 'pull_request_target'}}
+        run: |
+          echo ${{github.event.pull_request_target.merged}}
       - name: Test add-commit-rm-commit-push sequence
         run: |
+          echo ${{github.event_name}}
           cd $GITHUB_WORKSPACE/ParlaMint
           echo "TEST CONTENT" > TMP-testPush
           git add TMP-testPush
