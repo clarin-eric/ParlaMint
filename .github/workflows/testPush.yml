@@ -1,0 +1,43 @@
+name: testPush
+
+# Controls when the action will run. 
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ action_sandbox ]
+  pull_request_target:
+    branches: [ action_sandbox, action_sandbox_target]
+    types: [closed]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  testGitPush:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout ParlaMint
+        uses: actions/checkout@v2
+        with:
+          path: ParlaMint
+          fetch-depth: 2 # when called a pull_request - test is run on test merge -> full history is not needed to detect changes
+      - name: Setup # initialize dependencies cache - used in next steps
+        uses: ./ParlaMint/.github/actions/ParlaMintEnvSetup
+        with:
+          repo_token: ${{secrets.GITHUB_TOKEN}}
+      - name: EVENT
+        if: ${{github.event_name == 'pull_request_target'}}
+        run: |
+          echo ${{github.event.pull_request_target.merged}}
+      - name: Test add-commit-rm-commit-push sequence
+        run: |
+          echo ${{github.event_name}}
+          cd $GITHUB_WORKSPACE/ParlaMint
+          echo "TEST CONTENT" > TMP-testPush
+          git add TMP-testPush
+          git diff
+          git commit -m "testPush: adding and commiting new file" TMP-testPush
+          git rm TMP-testPush
+          git commit -m "testPush: removing file" TMP-testPush
+          git push
