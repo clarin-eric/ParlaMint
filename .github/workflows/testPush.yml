@@ -30,6 +30,7 @@ jobs:
         if: ${{github.event_name == 'pull_request_target'}}
         run: |
           echo ${{github.event.pull_request_target.merged}}
+          echo ${{github.event.pull_request.merged}}
       - name: Test add-commit-rm-commit-push sequence
         run: |
           echo ${{github.event_name}}
