@@ -23,3 +23,13 @@ jobs:
         uses: ./ParlaMint/.github/actions/ParlaMintEnvSetup
         with:
           repo_token: ${{secrets.GITHUB_TOKEN}}
+      - name: Test add-commit-rm-commit-push sequence
+        run: |
+          cd $GITHUB_WORKSPACE/ParlaMint
+          echo "TEST CONTENT" > TMP-testPush
+          git add TMP-testPush
+          git diff
+          git commit -m "testPush: adding and commiting new file" TMP-testPush
+          git rm TMP-testPush
+          git commit -m "testPush: removing file" TMP-testPush
+          git push
