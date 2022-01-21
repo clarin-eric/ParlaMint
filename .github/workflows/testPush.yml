@@ -21,4 +21,5 @@ jobs:
           fetch-depth: 2 # when called a pull_request - test is run on test merge -> full history is not needed to detect changes
       - name: Setup # initialize dependencies cache - used in next steps
         uses: ./ParlaMint/.github/actions/ParlaMintEnvSetup
+        with:
           repo_token: ${{secrets.GITHUB_TOKEN}}
