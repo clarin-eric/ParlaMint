@@ -31,7 +31,7 @@ jobs:
         id: detect-changes
         uses: ./ParlaMint/.github/actions/ParlaMintStatus
       - name: Test total TEI file size limit
-        if: ${{ needs.Changes.outputs.parla_changed_size > 100 }}
+        if: ${{ steps.detect-changes.outputs.parla_changed_size > 100 }}
         run: |
           echo "::error::100MB file limit has been exceed"
           exit 1
