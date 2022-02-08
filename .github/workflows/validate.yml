@@ -4,9 +4,9 @@ name: Validate
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ main , actions ]
+    branches: [ data , actions ]
   pull_request:
-    branches: [ main , main_test ]
+    branches: [ main , data, main_test ]
     types: [opened, synchronize, reopened]
 
   # Allows you to run this workflow manually from the Actions tab
@@ -30,6 +30,11 @@ jobs:
       - name: ParlaMint status (Detect changed files and get list of parliaments that should be processed)
         id: detect-changes
         uses: ./ParlaMint/.github/actions/ParlaMintStatus
+      - name: Test total TEI file size limit
+        if: ${{ steps.detect-changes.outputs.parla_changed_size > 100 }}
+        run: |
+          echo "::error::100MB file limit has been exceed"
+          exit 1
 
   ValidateCountries:
     # The type of runner that the job will run on
