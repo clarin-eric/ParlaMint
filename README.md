@@ -2,22 +2,32 @@
 
 The [CLARIN ParlaMint
 project](https://www.clarin.eu/content/parlamint-towards-comparable-parliamentary-corpora)
-compiled comparable parliamentary corpora for a number of countries and languages. 
+is compiling comparable parliamentary corpora for a number of countries and languages. 
 
 ParlaMint corpora are interoperable, i.e. encoded to a very constrained common ParlaMint schema, a
 specialisation of the [Parla-CLARIN recommendations](https://clarin-eric.github.io/parla-clarin/),
 which are a customisation of the [TEI Guidelines](https://tei-c.org/guidelines/p5/).  Common scripts
-can process any of the ParlaMint corpora, despite the differing parliamentary systems of the
-countries, the kind of information included in the corpora, and, of course, language.
+should process the common data in any ParlaMint corpus, despite the differing parliamentary
+systems of the countries, the kind of information included in the corpora, and, of course, language.
 
-The latest version of ParlaMint is 2.1 which contains corpora for 17 countries (and 16 languages)
-and is available from the CLARIN.SI repository, both in the linguistically
-unannotated ([http://hdl.handle.net/11356/1432](http://hdl.handle.net/11356/1432)) and
-annotated ([http://hdl.handle.net/11356/1431](http://hdl.handle.net/11356/1431)) variants.
+The latest version of ParlaMint is [https://github.com/clarin-eric/ParlaMint/releases/tag/v2.1](2.1)
+which contains corpora for 17 countries (and 16 languages) and is available from the CLARIN.SI
+repository ([http://hdl.handle.net/11356/1432](http://hdl.handle.net/11356/1432)), also with SoA
+linguistic annotations ([http://hdl.handle.net/11356/1431](http://hdl.handle.net/11356/1431)).
+The background and 2.1 corpus is further described in:
 
-This Git contains the ParlaMint XML schemas, the scripts used to validate,
-and convert the XML corpora to some useful derived formats, and samples of the
-ParlaMint corpora:
+Erjavec, T., Ogrodniczuk, M., Osenova, P. et al. The ParlaMint corpora of parliamentary proceedings.
+   Language Resources & Evaluation (2022). [https://doi.org/10.1007/s10579-021-09574-0]
+   
+We are now working on extending the ParlaMint corpora with newer proceedings and with new countries,
+   languages, and modalities, cf. the CLARIN ERIC 
+   [(https://www.clarin.eu/content/parlamint-towards-comparable-parliamentary-corpora)](ParlaMint
+   project description).
+   
+****
+
+This Git repository contains the ParlaMint XML schemas, the scripts used to validate and convert the
+ParlaMint TEI XML corpora to some useful derived formats, and samples of the ParlaMint corpora:
 
 * The *[Schema](Schema/) folder* contains the schemas for validating the
 four types of files present in the corpora. The README in this
