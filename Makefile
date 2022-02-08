@@ -120,13 +120,23 @@ all:	val-all
 val-all:
 	Scripts/validate-parlamint.pl Schema 'ParlaMint-??'
 # ParlaMint validation with Jing only, but also with Parla-CLARIN
-val-jing:
-	ls ParlaMint-??/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs ${pc}
-	ls ParlaMint-??/ParlaMint-*.xml | grep    '.ana.' | grep -v '_' | xargs ${pc}
+val-jing: val-jing-parla-clarin val-jing-parlamint
+
+val-jing-parlamint:
 	ls ParlaMint-??/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs ${vrt}
 	ls ParlaMint-??/ParlaMint-*.xml | grep -v '.ana.' | grep    '_' | xargs ${vct}
 	ls ParlaMint-??/ParlaMint-*.xml | grep    '.ana.' | grep -v '_' | xargs ${vra}
 	ls ParlaMint-??/ParlaMint-*.xml | grep    '.ana.' | grep    '_' | xargs ${vca}
+
+val-jing-parla-clarin: create-all-in-one
+	ls ParlaMint-??/ParlaMint-*.xml.all-in-one.xml | grep -v '.ana.' | xargs ${pc}
+	ls ParlaMint-??/ParlaMint-*.xml.all-in-one.xml | grep    '.ana.' | xargs ${pc}
+	rm -f ParlaMint-??/*.xml.all-in-one.xml
+
+create-all-in-one:
+	rm -f ParlaMint-??/*.xml.all-in-one.xml
+	ls ParlaMint-??/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs ${copy}
+	ls ParlaMint-??/ParlaMint-*.xml | grep    '.ana.' | grep -v '_' | xargs ${copy}
 
 #Generation and validation of CoNLL-U files
 #If you want to use, first do:
@@ -379,7 +389,8 @@ clean:
 s = java -jar /usr/share/java/saxon.jar
 P = parallel --gnu --halt 2
 j = java -jar /usr/share/java/jing.jar 
-pc = -I % $s -xi -xsl:Scripts/copy.xsl % | $j Schema/parla-clarin.rng
+copy = -I % $s -xi:on -xsl:Scripts/copy.xsl -s:% -o:%.all-in-one.xml
+pc =  $j Schema/parla-clarin.rng
 vrt = $j Schema/ParlaMint-teiCorpus.rng 	# Corpus root / text
 vct = $j Schema/ParlaMint-TEI.rng		# Corpus component / text
 vra = $j Schema/ParlaMint-teiCorpus.ana.rng	# Corpus root / analysed
