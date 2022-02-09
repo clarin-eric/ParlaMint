@@ -10,19 +10,18 @@ which are a customisation of the [TEI Guidelines](https://tei-c.org/guidelines/p
 should process the common data in any ParlaMint corpus, despite the differing parliamentary
 systems of the countries, the kind of information included in the corpora, and, of course, language.
 
-The latest version of ParlaMint is [https://github.com/clarin-eric/ParlaMint/releases/tag/v2.1](2.1)
+The latest version of ParlaMint is [2.1](https://github.com/clarin-eric/ParlaMint/releases/tag/v2.1)
 which contains corpora for 17 countries (and 16 languages) and is available from the CLARIN.SI
 repository ([http://hdl.handle.net/11356/1432](http://hdl.handle.net/11356/1432)), also with SoA
 linguistic annotations ([http://hdl.handle.net/11356/1431](http://hdl.handle.net/11356/1431)).
 The background and 2.1 corpus is further described in:
 
 Erjavec, T., Ogrodniczuk, M., Osenova, P. et al. The ParlaMint corpora of parliamentary proceedings.
-   Language Resources & Evaluation (2022). [https://doi.org/10.1007/s10579-021-09574-0]
+   Language Resources & Evaluation (2022). https://doi.org/10.1007/s10579-021-09574-0
    
 We are now working on extending the ParlaMint corpora with newer proceedings and with new countries,
    languages, and modalities, cf. the CLARIN ERIC 
-   [https://www.clarin.eu/content/parlamint-towards-comparable-parliamentary-corpora](ParlaMint
-   project description).
+   [ParlaMint project description](https://www.clarin.eu/content/parlamint-towards-comparable-parliamentary-corpora).
    
 ****
 
