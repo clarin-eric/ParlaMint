@@ -21,7 +21,7 @@ Erjavec, T., Ogrodniczuk, M., Osenova, P. et al. The ParlaMint corpora of parlia
    
 We are now working on extending the ParlaMint corpora with newer proceedings and with new countries,
    languages, and modalities, cf. the CLARIN ERIC 
-   [(https://www.clarin.eu/content/parlamint-towards-comparable-parliamentary-corpora)](ParlaMint
+   [https://www.clarin.eu/content/parlamint-towards-comparable-parliamentary-corpora](ParlaMint
    project description).
    
 ****
