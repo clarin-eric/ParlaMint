@@ -139,7 +139,7 @@
 	root will XInclude its corpus component files, so a corpus root will be in fact
 	encoded similarly to the follwing example:
 
-        <eg xml:id="exa-xinclude">
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-xinclude">
           <teiCorpus>
             <teiHeader>
               <!-- Common corpus metadata -->
@@ -152,15 +152,16 @@
 		     href="2014/ParlaMint-NL_2014-04-17.xml"/>]]>
 	    <!-- References to more corpus components -->
           </teiCorpus>
-        </eg>
+        </egXML>
         </p>
 
-        <p>Each corpus component should should contain the transcripts for one day.
+        <p>Each corpus component should should contain the transcripts for one day;
         Note, however, that several components can contain the transcript for the same
-        day, but e.g. for different (types of) sittings. How and if these further
-        subdivisions are realised is depedent on the corpus, as the granularity of
-        parliamentary proceedings corpora, not to mention the national rules of
-        structuring the workings of the parliament, differ substantially.</p>
+        day, but e.g. for different (types of) meetings. How and if these further
+        subdivisions into separete components are realised is depedent on the corpus, as
+        the granularity of parliamentary proceedings corpora, not to mention the
+        national rules of structuring the workings of the parliament, differ
+        substantially.</p>
 
 	<p>A corpus component will thus be rooted in the <gi>TEI</gi> element, which
 	then contains its own <gi>teiHeader</gi>, followed by the <gi>text</gi> element,
@@ -173,9 +174,7 @@
               <!-- Corpus component metadata -->
             </teiHeader>
             <text>
-              <body>
-                <!-- Transcription -->
-              </body>
+              <!-- Transcription -->
             </text>
           </TEI>
         </egXML>
@@ -342,23 +341,26 @@
 	    component files (i.e. the <gi>teiCorpus</gi> and <gi>TEI</gi> elements), but did
 	    not elaborate on their attribtues; these are presented in this section.</p>
 
-	    <p>Both elements have the same required attributes, as shown below on a corpus
-	    root tag:
-            <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-teiCorpus">
+	    <p>The corpus root has three required attributes, as shown below:
+	    
+            <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-teiCorpusRoot">
               <![CDATA[<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-FR" xml:lang="fr">]]>
 	    </egXML>
-	    All three three attributes can also be used on any other element, and are thus of
+
+	    All three attributes can also be used on any other element, and are thus of
 	    special importance:
 	    <list>
 	      <item><att>xmlns</att> determines the namespace of the element, and this should
-	      always be the TEI namespace, i.e. <code>http://www.tei-c.org/ns/1.0</code>. Note
+	      always be the TEI namespace, i.e. <val>http://www.tei-c.org/ns/1.0</val>. Note
 	      that all lower level elements in the same file inherit this namespace, so it is
 	      not necessary (although it is not an error) for other elements to also define
 	      their namespace.</item>
 	      
 	      <item><att>xml:id</att> is an attribute form the XML namespace, and gives the
 	      identifier for the corpus root or component.  The value should be unique in the
-	      corpus as a whole.  For the corpus root and component files it is required that
+	      corpus as a whole and should obey format requirements as defined by <ref
+	      target="https://www.w3.org/TR/xml-id/">W3C</ref>.
+	      For the corpus root and component files it is required that
 	      this top level identifier is identical to the file name (without the file
 	      extension). <att>xml:id</att> is a global attribute, so any element can have
 	      it. While this is not required, it is necessary for any element that is then
@@ -374,7 +376,35 @@
 	      proportion of the languages is about equal, then the <q>mul</q> code for
 	      multiple languages should be used.</item>
 	    </list>
-	    </p>	    
+	    </p>
+
+            <p>A corpus component also has the three required attributes, but
+            additionally also the <att>ana</att> attribute:
+	    
+	      <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-teiCorpusComp">
+              <![CDATA[<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-FR_2017-07-04-E1001" xml:lang="fr" ana="#parla.sitting #reference">]]>
+	      </egXML>
+
+	      The same as for the corpus root, the component also sets the TEI namespace, and
+	      gives the language of its textual content, while its <att>xml:id</att>, of
+	      course, identifies the particular component. The analysis attribute,
+	      <att>ana</att> which is also used by many other elements, so we introduce it
+	      here at more length:
+	      <!-- Officially, the info in @ana should actually go in the
+	           profileDesc/textClass - but it might be too late to change this now -->
+	      <list>
+		<item><att>ana</att> serves to provide an analysis or, in ParlaMint, to
+		classify an element according to some pre-determined vocabulary. It is a
+		pointing attribute, which has as its value a white-space delimited sequence of
+		ID references, i.e. references to the values of some <att>xml:id</att>
+		attribute in the corpus. In general, they refer to the element IDs given in
+		other parts of the corpus root header, in this case the categories of taxonomy
+		elements that specify that this component contains the trasnscrption of one
+		sitting and belongs to the reference subcorpus; the structure and content of
+		the taxonomies used is further explained in the Section on <ref
+		target="#sec-classDecl">The class declaration</ref>.</item>
+	      </list>
+	    </p>
 	  </div>
 	</div>
 	
@@ -464,7 +494,7 @@
 	    The title statement starts with two titles (one main, the other subordinate), both
 	    in English and the local language, with the appropriate language code possibly
 	    inherited from a superordinate element. They are distinguished by the value
-	    <code>main</code> or <code>sub</code> of their <att>type</att> attribute and the
+	    <val>main</val> or <val>sub</val> of their <att>type</att> attribute and the
 	    value of their <att>xml:lang</att> attribute.</p>
 	    
 	    <p>The main title has a formulaic structure <q>&lt;Country name&gt; parliamentary
@@ -488,20 +518,22 @@
 	    of the Republic of Slovenia. In terms of encoding, these elements can give, as the
 	    value of their <att>n</att> attribute the number of the - in the case above -
 	    meetings that the corpus covers, and their text content can give a free-text
-	    description of the terms in the local language. The formal information is given in
-	    the values of the <att>corresp</att> and <att>ana</att> attributes. These are
-	    pointing attributes, and they refer to the appropriate elements given in other
-	    parts of the corpus root header, in particular the definition of organisations
-	    further explained in the Section on <ref target="#sec-orgs">Party and other
-	    organisational metadata</ref> and the categories of taxonomy elements, further
-	    explained in the Section on <ref target="#sec-classDecl">The class
-	    declaration</ref>. The value of the <att>corresp</att> attribute points to the
-	    governmental body of which a particular meeting element is a meeting of (in this
-	    case the National Assembly of the Republic of Slovenia), while the <att>ana</att>
-	    attribute contains a space-delimited sequence of pointers:
-	    <code>#parla.lower</code> points to the definition of the lower house,
-	    <code>#parla.term</code> to the definition of a parliamentary term, and
-	    <code>#DZ.7</code> to the definition of the seventh mandate.
+	    description of the terms in the local language.</p>
+
+	    <p>The formal information is given in the values of the <att>corresp</att> and
+	    <att>ana</att> attributes, which are pointing attributes, as already explained in
+	    the Section on <ref target="sec-roottags">Attributes of top-level
+	    elements</ref>. Here they refer the definition of organisations further explained
+	    in the Section on <ref target="#sec-orgs">Organisations</ref> and the categories
+	    of taxonomy elements, further explained in the Section on <ref
+	    target="#sec-classDecl">The class declaration</ref>. The value of the
+	    <att>corresp</att> attribute points to the governmental body of which a particular
+	    meeting element is a meeting of (in this case the National Assembly of the
+	    Republic of Slovenia), while the <att>ana</att> attribute contains a
+	    space-delimited sequence of pointers: <val>#parla.lower</val> points to the
+	    definition of the lower house, <val>#parla.term</val> to the definition of a
+	    parliamentary term, and <val>#DZ.7</val> to the definition of the seventh
+	    mandate.
 	    <!-- This is silly, why two attributes, why DZ in one, lowe in the other?? Issue? -->
 	    </p>
 	    
@@ -584,7 +616,7 @@
 	    <p>The <gi>extent</gi> element gives information on selected sizes of the
 	    complete corpus (in the corpus root) or of one corpus component, as illustrated
 	    below in the case of a corpus root extent:
-	    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-fileDesc">
+	    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-extent">
               <extent>
 		<measure unit="speeches" quantity="75122" xml:lang="sl">75.122 govorov</measure>
 		<measure unit="speeches" quantity="75122" xml:lang="en">75,122 speeches</measure>
@@ -667,7 +699,7 @@
 	         received the dump directly from the government? Have a look at the French
 	         data! -->
 	    Apart from the bi-lingual <gi>title</gi>s, it should also give in <gi>idno</gi>
-	    with the fixed <att>type</att> as <code>URI</code> the government URL where the
+	    with the fixed <att>type</att> as <val>URI</val> the government URL where the
 	    transcripts were first harvested from and the <gi>date</gi>s <att>from</att> and
 	    <att>to</att> of the dates of the earliest and latest transcript in the corpus. As
 	    usual, the values of these attributes should be according to ISO 8601, while the
@@ -676,23 +708,43 @@
 	    <p>For corpus components the source description is very similar to the one for the
 	    corpus root, except that the <gi>title</gi> and, optionally, <gi>edition</gi> can
 	    be modified to give constrain the description to the exact meeting the component
-	    contains, as illustrated below:
+	    contains. Furthermore, if the audio or video of a corpus component is available,
+	    this informations can also be added in the <gi>recodingStmt</gi>, as illustrated
+	    below:
 
 	      <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-sourceDescComp">
 		<sourceDesc>
 		  <bibl>
-		    <title type="main" xml:lang="en">Minutes of the National Assembly of the Republic of Slovenia</title>
-		    <title type="main" xml:lang="sl">Zapisi sej Državnega zbora Republike Slovenije</title>
-		    <edition xml:lang="sl">Nepreverjen zapis seje</edition>
-		    <edition xml:lang="en">Unverified session record</edition>
-		    <idno type="URI">https://www.dz-rs.si/wps/portal/Home/deloDZ/seje/evidenca?mandat=VII&amp;type=sz&amp;uid=28D5F7801B8A357FC125827A0048EF01</idno>
-		    <date when="2018-04-13">13.4.2018</date>
+		    <title type="main" xml:lang="cs">Parlament České republiky, Poslanecká sněmovna</title>
+		    <title type="main" xml:lang="en">Parliament of the Czech Republic, Chamber of Deputies</title>
+		    <idno type="URI">https://www.psp.cz/eknih/2013ps/stenprot/044schuz/s044033.htm</idno>
+		    <date when="2016-04-13">13.04.2016</date>
 		  </bibl>
+		  <recordingStmt>
+		    <recording type="audio">
+		      <media xml:id="ps2013-044-02-000-000.audio1" mimeType="audio/mp3" source="https://www.psp.cz/eknih/2013ps/audio/2016/04/13/2016041308580912.mp3" url="2013ps/audio/2016/04/13/2016041308580912.mp3"/>
+		    </recording>
+		  </recordingStmt>
 		</sourceDesc>
 	      </egXML>
 	      
 	      Crucially, the <gi>idno</gi> and <gi>date</gi> should give the URL where this
-	      meeting transcription is available, and when it took place.</p>
+	      meeting transcription is available, and when the meeting took place.
+
+	      The exemplified optional audio (or video) recording information is meant for
+	      cases where the media file or, in general, URL encompasses the complete
+	      transcription of the corpus component; for cases when the media are further
+	      segmented, e.g. by speech, a different encoding is used, which is further
+	      explained in the Section on XXX (TO DO!).</p>
+
+	      <p>As the example shows, the recording statement contains a <gi>recording</gi>
+	      element, which specifies the <att>type</att> of the recording (<val>audio</val> or
+	      <val>video</val>), and then contains a <gi>media</gi> element giving the ID of the
+	      file, its <att>mimeType</att>, the URL of the <att>source</att> of the recording
+	      (typically the official govermental site for parliamentary proceedings) and the
+	      local (possibly processed) copy of the file; this can be a local file, even though
+	      it won't be distributed together with the ParlaMint corpus or, better, a Web-based
+	      file on a stable location.</p>
 	  </div>
 	</div>
 	
@@ -717,57 +769,69 @@
 	    <div xml:id="sec-projectDesc">
               <head>The project description</head>
 	      
-	      <p>The project description <gi>encodingDesc</gi> of the corpus root contains
+	      <p>The project description <gi>projectDesc</gi> of the corpus root
+	      contains a short description if the project in the scope of which the
+	      corpus was compiled:
 	      
 	      <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-projectDesc">
 		<projectDesc>
+		  <p xml:lang="sl">Glavni cilji projekta <ref
+		  target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> so
+		  (1) izdelati večjezično množico na enak način kodiranih korpusov
+		  zapiskov parlamentarnih sej, (2) jezikoslovno označiti te korpuse; (3)
+		  narediti korpuse dostopne za prevzem in prek konkordančnikov; in (4)
+		  pripraviti primere uporabe korpusov v politologiji in digitalni
+		  humanistiki.</p>
+		  <p xml:lang="en">The <ref
+		  target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+		  project aims to (1) create a multilingual set of uniformly encoded
+		  comparable corpora of parliamentary proceedings (2) process the
+		  corpora linguistically; (3) make the corpora available for download
+		  and through concordancers; and (4) build use cases in Political
+		  Sciences and Digital Humanities based on the corpus data.</p>
 		</projectDesc>
+		The description above is written for the CLARIN ParlaMint project and
+		the English language part can be used as is in the produced corpora for
+		version 3.
 	      </egXML>
-	      
 	      </p>
 	    </div>
 	    
 	    <div xml:id="sec-editorialDecl">
               <head>The editorial declaration</head>
               
-              <p>Difficult encoding situations that are not covered by the TEI Guidelines
-              should be documented in the <gi>editorialDecl</gi> of the corpus TEI header.  In
-              particular, if the source texts has been changed (so, omitting or normalising
-              figures, text, EOL hyphens, quotes, special characters, etc. as discussed above)
-              this practice should be documented in the <gi>correction</gi>,
-              <gi>normalization</gi>, <gi>quotation</gi>, and <gi>hyphenation</gi> element of
-              the editorial declaration. Two further elements, namely <gi>segmentation</gi>
-              and <gi>interpretation</gi> can also be used to document these aspects of the
-              encoding process. The example below illustrates the use of these elements:
+              <p>The editorial declaration, <gi>editorialDecl</gi> is used only in the
+              corpus root and contains prose descriptions of editorial decision made in
+              the process of compiling the corpus, along several dimensions, in
+              particular what, if any types of <gi>correction</gi>,
+              <gi>normalization</gi>, <gi>quotation</gi>, <gi>hyphenation</gi>, and
+              <gi>segmenatoin</gi> was performed on the source texts of the corpus. The
+              example below illustrates the use of these elements:
 	      
               <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-editorial">
 		<editorialDecl>
 		  <correction>
-                    <p>Found typos in the source have been silently corrected.</p>
+		    <p xml:lang="en">No correction of source texts was performed.</p>
 		  </correction>
 		  <normalization>
-                    <p>Tables have been omitted from the corpus. Spacing has been normalised
-                    to single space. Soft hyphens have been removed.</p>
+		    <p xml:lang="en">Text has not been normalised, except for spacing.</p>
 		  </normalization>
 		  <hyphenation>
-                    <p>End-of-line hyphens have been silently removed.</p>
+		    <p xml:lang="en">No end-of-line hyphens were present in the source.</p>
 		  </hyphenation>
 		  <quotation>
-                    <p>Quotation marks have been left in the text and are not explicitly
-                    marked up.</p>
+		    <p xml:lang="en">Quotation marks have been left in the text and are not explicitly marked up.</p>
 		  </quotation>
 		  <segmentation>
-                    <p>The texts are segmented into utterances, segments (corresponding to
-                    paragraphs in the source transcription), sentences, words and
-                    punctuation.</p>
+		    <p xml:lang="en">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
 		  </segmentation>
-		  <!-- This goes to the linguistic part! -->
-		  <interpretation>
-                    <p>Word-level linguistic annotation comprises the lemma of a word and its
-                    morphosyntactic description, which follow the
-                    <ref target="http://nl.ijs.si/ME/V6/msd/">MULTEXT-East morphosyntactic
-                    specification Version 6</ref> for Slovene.</p>
-		  </interpretation>
+		  <!-- This goes to the linguistic part!
+		       <interpretation>
+                       <p xml:lang="en">Word-level linguistic annotation comprises the lemma of a word and its
+                       morphosyntactic description, which follow the
+                       <ref target="http://nl.ijs.si/ME/V6/msd/">MULTEXT-East morphosyntactic
+                       specification Version 6</ref> for Slovene.</p>
+		       </interpretation -->
 		</editorialDecl>
               </egXML>
               </p>
@@ -776,383 +840,605 @@
 	    <div xml:id="sec-tagsDecl">
               <head>The tags declaration</head>
 	      
-	      <p>The tags declaration <gi>tagsDecl</gi> of the corpus root contains
+	      <p>The tags declaration, <gi>tagsDecl</gi> of the corpus root gives the
+	      count of all the XML tags used in the data part (so, not in the TEI
+	      header) of the corpus (for the corpus root) or in an individual component
+	      of the corpus. To distinguish the TEI elements from the possible use of
+	      elements from other namespaces, a <gi>namespace</gi>, element giving the
+	      TEI namespace it its <att>name</att> attribute, is introduced
+	      first. Inside it, each TEI tag is listed in its own <gi>tagUsage</gi>
+	      element, with the attribute <att>gi</att> giving the name of the tag and
+	      <att>occurs</att> the number of occurences, as shown in the following
+	      example:
 	      
 	      <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-tagsDecl">
 		<tagsDecl>
+		  <namespace name="http://www.tei-c.org/ns/1.0">
+		    <tagUsage gi="text" occurs="414"/>
+		    <tagUsage gi="body" occurs="414"/>
+		    <tagUsage gi="div" occurs="414"/>
+		    <tagUsage gi="head" occurs="826"/>
+		    <tagUsage gi="u" occurs="75122"/>
+		    <tagUsage gi="seg" occurs="280971"/>
+		    <tagUsage gi="note" occurs="85525"/>
+		    <tagUsage gi="gap" occurs="7897"/>
+		    <tagUsage gi="vocal" occurs="1740"/>
+		    <tagUsage gi="incident" occurs="37"/>
+		    <tagUsage gi="kinesic" occurs="560"/>
+		    <tagUsage gi="desc" occurs="10234"/>
+		  </namespace>
 		</tagsDecl>
 	      </egXML>
 	      
-	      </p>
+	      It should be noted that, similar to the extents (as explained in the Section
+	      <ref target="#sec-extent">The extent</ref>) the tag usage is inserted into
+	      the TEI headers in the finalisation of a corpus (cf. the Section on <ref
+	      target="#sec-conversion">Validation and conversion</ref>) by a common
+	      script, so it is not necessary compute it the process of developing a
+	      ParlaMint corpus.</p>
 	    </div>
 	    
             <div xml:id="sec-classDecl">
               <head>The class declaration</head>
 	      
-              <p>Parla-CLARIN corpora can make many distinctions, such as types of
-              governance or sessions, that can have controlled vocabularies.
-              TEI supports encoding and referrencing of formalised <q>ontologies</q>
-              further explained in the Section on <ref
-              target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD55">Classification
-              Declaration</ref> of the TEI Guidelines, by using the <gi>taxonomy</gi> element. To illusrate,
-              we give below the start of a speaker-type taxonomy:
+              <p>The class declaration, <gi>classDecl</gi> is used only in the corpus
+              root, and contains the definition of controlled vocabularies used in
+              ParlaMint corpora and encoded as taxonomies, using the <gi>taxonomy</gi>
+              element.  ParlaMint requires three taxonomies to be defined in the root
+              class declaration. In the example below, we give only the simplest of
+              them, which contains the categories that defined two subcorpora of a
+              ParlaMint corpus, namely the COVID part, and the reference part, predating
+              the COVID part:
               
               <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-taxo">
-		<category xml:id="chair">
-		  <catDesc xml:lang="is">
-		  <term>Þingforseti</term>: forseti alþingis</catDesc>
-		  <catDesc xml:lang="en">
-		  <term>Chairperson</term>: chairman of a meeting</catDesc>
-		</category>
-		<category xml:id="regular">
-		  <catDesc xml:lang="is">
-		  <term>Venjulegur</term>: venjulegur ræðumaður á fundi</catDesc>
-		  <catDesc xml:lang="en">
-		  <term>Regular</term>: a regular speaker at a meeting</catDesc>
-		</category>
+		<classDecl>
+		  ...
+		  <taxonomy xml:id="subcorpus">
+		    <desc xml:lang="sl">
+                      <term>Podkorpusi</term>
+		    </desc>
+		    <desc xml:lang="en">
+                      <term>Subcorpora</term>
+		    </desc>
+		    <category xml:id="reference">
+                      <catDesc xml:lang="sl">
+                      <term>Referenca</term>: referenčni podkorpus, do 2019-10-31</catDesc>
+                      <catDesc xml:lang="en">
+                      <term>Reference</term>: reference subcorpus, until 2019-10-31</catDesc>
+		    </category>
+		    <category xml:id="covid">
+                      <catDesc xml:lang="sl">
+                      <term>COVID</term>: COVID podkorpus, od 2019-11-01 dalje</catDesc>
+                      <catDesc xml:lang="en">
+                      <term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
+		    </category>
+		  </taxonomy>
+		</classDecl>
               </egXML>
-              </p>
+	      
+	      A <gi>taxonomy</gi> thus first bilingualy describes, via <gi>desc</gi>, what it
+	      is a taxonomy of, and then lists (the possibly nested) categories in
+	      <gi>category</gi> elements. Crucial here is the value of their <att>xml:id</att>
+	      attributes, by which a category is referred to, e.g. via the <att>ana</att>
+	      attribute of some other element, as was already explained in the Section on <ref
+	      target="sec-roottags">Attributes of top-level elements</ref>, in connection with
+	      classfying a corpus component via the <att>ana</att> attribute of its
+	      <gi>TEI</gi> element. The category then bilingualy glosses its meaning in its
+	      <gi>catDesc</gi> elements, which shoull always first contain the short name of
+	      the category, encoded in the <gi>term</gi> element.</p>
+
+	      <p>As mentioned, ParlaMint requires three taxonomies to be defined in the class
+	      declaration of the corpus root (as well as a fourth one for the linguistically
+	      annotated corpus, as further described in the Section on <ref
+	      target="#sec-lingHeader">Linguistic metadata</ref>). The taxonomies are, for
+	      ParlaMint corpora, defined globaly and available as part of the data on the <ref
+	      target="https://github.com/clarin-eric/ParlaMint/">ParlaMint GitHub
+	      repository</ref>. They should be inserted unchanged in the corpus header but if
+	      there is a need to modify them, e.g. by inserting translations into a new local
+	      language, then this change needs to be agreeed to and pushed to the repository.</p>
+
+	      <p>The three defined taxonomies are:
+	      
+	      <list>
+		<item>The <hi>subcorpus</hi> taxonomy, already given in the example</item>
+		
+		<item>The taxonomy of <hi>speaker types</hi>, which distinguishes e.g. the
+		chair, a ordinary speaker, and a guest speaker.</item>
+		
+		<item>The <hi>legislature</hi> taxonomy, which gives the possible
+		organisatoins of a parliament, and is by far the most complex one, and will
+		likely still have to be updated in line with the requirements of new corpora.</item>
+		
+	      </list>
+	      </p>
             </div>
 	  </div>
-      
-        <div xml:id="sec-speakers">
-          <head>Speaker metadata</head>
-          <p>Unlike some other proposals, in particular Akoma Ntoso, the Parla-CLARIN recommendations
-          assume that speaker meta-data is also included in the corpus,<note>Of course, this
-          does not meant that links with corpus-external URIs are not allowed.</note> as
-          this allows the corpus to be stand-alone with all the relevant data necessary for
-          analysis already included in it.</p>
-          
-          <p>Information on speakers is given in the corpus TEI header, in particular in the
-          <gi>listPerson</gi> element, itself a part of the participant description,
-          i.e. the <gi>particDesc</gi> element.</p>
 
-          <p>A <gi>listPerson</gi> typically contains <gi>person</gi> elements, which give
-          information on an individual person, as the example below illustrates.
-          
-          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-speakers">
-            <person xml:id="KučanMilan1">
-              <persName>
-                <forename>Milan</forename>
-                <surname>Kučan</surname>
-              </persName>
-              <sex value="M">male</sex>
-              <birth when="1941-01-14">
-                <placeName ref="http://www.geonames.org/3197229">Križevci</placeName>
-              </birth>
-            </person>
-          </egXML>
+          <div xml:id="sec-profileDesc">
+            <head>The profile description</head>
+	    
+	    <p>The profile description, <gi>profileDesc</gi> is the third main division of the
+	    metadata provided by the TEI header and contains a description of
+	    non-bibliographic aspects of the corpus, for example the list of speakers with
+	    their metadata. For the corpus root, it contains four elements, of which only the
+	    first, the <gi>settingDesc</gi> is used in corpus components. The elements are
+	    listed below:
 
-          Each <gi>person</gi> must have an <att>xml:id</att> attribute, so that it can be referred
-          to from the transcription. Apart from that, the only required element is
-          <gi>persName</gi>, giving the name of the person. This can be contained directly in the
-          element, or, as the preferred option, further decomposed into the person surname(s) and
-          forename(s) or even other elements, as explained in the Section on <ref
-          target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ND.html#NDPER">Personal
-          Names</ref> of the TEI Guidelines.</p>
+	    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-profileDesc">
+	      <profileDesc>
+		<settingDesc>...</settingDesc>
+		<textClass>...</textClass>
+		<particDesc>...</particDesc>
+		<langUsage>...</langUsage>
+	      </profileDesc>
+	    </egXML>
+	    We explain the contents of each element in the following sections.
+	    </p>	    
+	    
+            <div xml:id="sec-settingDesc">
+              <head>The setting description</head>
+	      
+	      <p>The setting description, <gi>settingDesc</gi>, is used by both the corpus
+	      root and corpus components, and contains only one element, <gi>setting</gi>,
+	      which then gives information on where and when the meetings included too place.
+	      Below is given an example of a corpus root setting description:
+	      
+	      <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-settingDescRoot">
+		<settingDesc>
+		  <setting>
+		    <name type="place">Westminster</name>
+		    <name type="city">London</name>
+		    <name type="country" key="GB">U.K.</name>
+		    <date from="2015-01-01" to="2021-03-31"/>
+		  </setting>
+		</settingDesc>
+	      </egXML>
+	      
+	      As can be seen, the location of the meeting is given in <gi>name</gi> elements
+	      with the <att>type</att> attribute further specifying what kind of location this
+	      is, with <val>country</val> (or <val>region</val> for regional parliaments)
+	      additionaly having the <att>key</att>, which gives is ISO 3166 code, as
+	      explained in the Section on <ref target="sec-standard">Standard values</ref>.
+	      It also cotanins the interval (for the corpus root) of the dates of the
+	      transcripts included in the corpus. Note that this date range is also given in
+	      the <gi>sourceDesc</gi>, as explained in the Section on <ref
+	      target="#sec-sourceDesc">The source description</ref>.</p>
+	      
+	      <p>The setting description is also present in corpus components, and is very
+	      similar to the one in the corpus root, except that it can additionaly specify
+	      the location of the meeting and give its exact date, as illustrated below:
+	      
+	      <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-settingDescComp">
+		<settingDesc>
+		  <setting>
+		    <name type="place">Commons Chamber</name>
+		    <name type="place">Westminster</name>
+		    <name type="city">London</name>
+		    <name type="country" key="GB">U.K.</name>
+		    <date when="2019-02-18">February 18th, 2019</date>
+		  </setting>
+		</settingDesc>
+	      </egXML>
+	      </p>
+	    </div>
+	    
+            <div xml:id="sec-textClass">
+              <head>The text class</head>
+	      
+	      <p>The text class, <gi>textClass</gi> groups information which describes the
+	      nature or topic of the corpus in terms of a standard classification scheme. In a
+	      ParlaMint corpus root it contains only the category reference, <gi>catRef</gi>
+	      element:
+	      
+	      <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-textClass">
+		<textClass>
+		  <catRef scheme="#parla.legislature"
+			  target="#parla.bi #parla.lower #parla.upper"/>
+		</textClass>
+	      </egXML>
 
-          <p>As illustrated above, further person metadata can contain the sex of the person and
-          their birth date and place. Other potentially useful elements are the persons
-          <gi>death</gi> date and place, as well as (possibly time stamped) <gi>education</gi>,
-          <gi>occupation</gi>, and <gi>affiliation</gi>.</p>
+	      The category reference specifies in the value of the <att>scheme</att> attribute
+	      which scheme it uses, and this will always be a pointer to the ParlaMint-wide
+	      taxonomy on legislature, as further explained in the Section on <ref
+	      target="#sec-classDecl">The class declaration</ref>. The <att>target</att>
+	      attribute then gives pointers to the kind of legislature types the country or
+	      region has and what the corpus contains; in the case above, the country has a
+	      bicameral parliament, and the corpus contains the transcriptions of both the
+	      upper and lower house sittings. In general, the options are:
+	      
+	      <list>
+		<item><val>#parla.uni</val>: Unicameral parliament</item>
+		<item><val>#parla.bi #parla.lower</val>: Bicameral parliament, lower house only</item>
+		<item><val>#parla.bi #parla.upper</val>: Bicameral parliament, upper house only</item>
+		<item><val>#parla.bi #parla.lower #parla.upper</val>: Bicameral parliament,
+		both houses</item>
+	      </list>
+	      </p>	    
+	    </div>
+	    
+            <div xml:id="sec-particDesc">
+              <head>The participant description</head>
+	      
+	      <p>The participant description, <gi>particDesc</gi> gives the information about
+	      political parties and other <q>organisations</q> relevant to the corpus and the
+	      information about the speakers whose speeches constitute the corpus transcrpts.
+	      This informations is given in dedicated types of lists, <gi>listOrg</gi> for
+	      organisations, and <gi>listPerson</gi> for the speakers, as illustrated below:
+	      
+	      <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-particDesc">
+		<particDesc>
+		  <listOrg>...</listOrg>
+		  <listPerson>...</listPerson>
+		</particDesc>
+	      </egXML>
+	      The two section below detail the kind of information ParlaMint requires and allows
+	      to describe the organisations and persons.
+	      </p>
+	      
+              <div xml:id="sec-orgs">
+		<head>Organisations</head>
+		
+		<p>Information on political parties, as well as other groupings of people,
+		such as the parliament or ministries, is given in the <gi>listOrg</gi>
+		element, which then contains <gi>org</gi> elements giving information about
+		one organisation and followed by the <gi>listRelations</gi> element giving a
+		list of relations between organisations:
 
-          <p>In the context of PPCs, the <gi>affiliation</gi> element is especially important, as it
-          can denote the person's membership in a political party, or their role in the parliament,
-          such as being an MP. Different types of affiliations are distinguished by the different
-          values of the <att>role</att> attribute, such as <q>member</q> (of a party) or <q>MP</q>.
-          As affiliations are not necessarily fixed, and the <gi>affiliation</gi> element can
-          be marked for its temporal duration, as explained in the Section on
-	  <ref target="#sec-temporal">Temporal information</ref>.
-	  The example below illustrates the encoding of various affiliations.
-          
-          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-affiliation">
-            <person xml:id="AnderličAnton">
-              <persName>
-                <surname>Anderlič</surname>
-                <forename>Anton</forename>
-              </persName>
-              <affiliation role="member" ref="#party.ZSMS" from="1990-05-08" to="1990-11-09"/>
-              <affiliation role="member" ref="#party.LDS.1" from="1990-11-10" to="1994-03-11"/>
-              <affiliation role="MP" ref="#DruzPolZb" from="1990-05-08" to="1992-12-22" ana="#SK.11"/>
-              <affiliation role="MP" ref="#DZ" from="1992-12-23" to="1996-11-27" ana="#DZ.1"/>
-	    </person>
-          </egXML>
-	  </p>
+		<egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-listOrg">
+		  <listOrg>
+		    <org>...</org>
+		    <org>...</org>
+		    <org>...</org>
+		    ...
+		    <listRelation>...</listRelation>
+		  </listOrg>
+		</egXML>
+		</p>
+
+		<p>We first exemplify the structure of one organisation giving the information
+		about a political party:
+		
+		<!-- Note that @full="init" is misused, at least according to the TEI definition:
+		     https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.personal.html
+		     Legal values are:	
+		     yes (yes) the name component is spelled out in full. [Default] 
+		     abb (abbreviated) the name component is given in an abbreviated form.
+		     init (initial letter) the name component is indicated only by one initial.
+		-->
+		
+		<egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-parties">
+		  <org xml:id="party.PS" role="politicalParty">
+                    <orgName full="yes" xml:lang="sl">Pozitivna Slovenija</orgName>
+                    <orgName full="yes" xml:lang="en">Positive Slovenia</orgName>
+                    <orgName full="init">PS</orgName>
+                    <event from="2011-10-22">
+                      <label xml:lang="en">existence</label>
+                    </event>
+                    <idno type="URI" xml:lang="sl" subtype="wikimedia">https://sl.wikipedia.org/wiki/Pozitivna_Slovenija</idno>
+                    <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Positive_Slovenia</idno>
+		  </org>
+		</egXML>
+		
+		First, each organisation must have an <att>xml:id</att> attribute, so that
+		other elements can refer to it. The fact that the organisation is a political
+		party is encoded in the <att>role</att> attribute, and we elaborate on this
+		below.  The name of the party is (preferably bilingualy) given in the
+		<gi>orgName</gi> element, which also uses the <att>full</att> attribute to
+		distinguish between the <val>full</val> name of the party and the
+		<val>init</val>ials of the party. Parties are also created and dissolved, and
+		this is indicated by the <gi>event</gi> element, which has as its
+		<gi>label</gi> <val>existence</val>, and where the start of its existence is
+		given in the <att>from</att> attribute; as there is no <att>to</att>
+		attribute, this also means that the party still exists. Finally, there can
+		also be external links giving URLs to further information about the
+		parties. In the example above, these are the Slovene and English Wikipedia
+		pages.</p>
+
+		<p>Returning to the <att>role</att> attribute, it is the ParlaMint schema
+		(cf. the Section on <ref target="#sec-schemas">ParlaMint schemas</ref>) that
+		gives its set of allowed values. Currently, the list is quite long, as we left
+		it up to the partners of ParlaMint 1 to determine the values, but the main
+		ones are:
+		<list>
+		  <item><val>government</val>: the government of the country or region,
+		  further exemplified below</item>
+		  <item><val>parliament</val>: the parliament of the country or region,
+		  further exemplified below</item>
+		  <item><val>politicalParty</val>: a political party</item>
+		  <!-- The following could surely be better formulated: -->
+		  <item><val>politicalGroup</val>: a grouping of political parties for the
+		  purpuse of acting as one in the government.</item>
+		</list>
+		</p>
+		
+		<p>The government organisation is required to be present in the
+		<gi>listOrg</gi> of every corpus root and is, by convention, the first
+		organisation in the list. It gives the ID and name of the overall government,
+		but can also introduce the sucessive governments using the dedicated list
+		element for events, <gi>listEvent</gi>, which then gives the various
+		governments as a series of <gi>event</gi> elements:
+		
+		<!-- FR misuses role="government" to specify ministers! Post issue! -->
+		
+		<egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-government">
+		  <org xml:id="GOV" role="government">
+                    <orgName xml:lang="sl" full="yes">Vlada Republike Slovenije</orgName>
+                    <orgName xml:lang="en" full="yes">Government of the Republic of Slovenia</orgName>
+                    <event from="1990-05-16">
+                      <label xml:lang="en">existence</label>
+                    </event>
+                    <idno type="URI" xml:lang="sl" subtype="wikimedia">https://sl.wikipedia.org/wiki/Vlada_Republike_Slovenije</idno>
+                    <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Government_of_Slovenia</idno>
+                    <listEvent>
+                      <event xml:id="GOV.11" from="2013-03-20" to="2014-09-18">
+                        <label xml:lang="sl">11. vlada Republike Slovenije (20. marec 2013 - 18. september 2014)</label>
+                        <label xml:lang="en">11th Government of the Republic of Slovenia (20 March 2013 - 18 September 2014)</label>
+                      </event>
+		      ...
+                      <event xml:id="GOV.14" from="2018-03-13">
+                        <label xml:lang="sl">14. vlada Republike Slovenije (13. marec 2020 - danes)</label>
+                        <label xml:lang="en">14th Government of the Republic of Slovenia (March 13, 2020 - today)</label>
+                      </event>
+                    </listEvent>
+		  </org>
+		</egXML>
+		</p>
+		
+		<p>The parliament organisation is also required to be present in the
+		<gi>listOrg</gi> of every corpus root and is, by convention, the second
+		organisation in the list. The structure is identical to the one for the
+		government, i.e. it gives the ID and name of the parliament, but can, just as
+		the government, also introduce the sucessive parliaments (leusing the
+		<gi>event</gi> element:
+		
+		<egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-parliament">
+		  <org ana="#parla.federal #parla.lower"
+                       role="parliament"
+                       xml:id="be_federal_parliament">
+                    <orgName full="yes" xml:lang="nl">Federaal Parlement van België</orgName>
+                    <orgName full="yes" xml:lang="en">Belgian Federal Parliament</orgName>
+                    <event from="1831-02-07">
+                      <label xml:lang="en">existence</label>
+                    </event>
+                    <idno xml:lang="nl" type="wikimedia">https://nl.wikipedia.org/wiki/Federaal_Parlement_van_Belgi%C3%AB</idno>
+                    <idno xml:lang="en" type="wikimedia">https://en.wikipedia.org/wiki/Belgian_Federal_Parliament</idno>
+                    <listEvent>
+                      <head xml:lang="nl">Zittingsperiode</head>
+                      <head xml:lang="en">Legislative period</head>
+                      <event to="2007-05-02" from="2003-06-05" xml:id="period_51">
+                        <label xml:lang="nl">Zittingsperiode 51</label>
+                        <label xml:lang="en">Legislative period 51</label>
+                      </event>
+		      ...
+                      <event from="2019-06-20" xml:id="period_55">
+                        <label xml:lang="nl">Zittingsperiode 55</label>
+                        <label xml:lang="en">Legislative period 55</label>
+                      </event>
+                    </listEvent>
+		  </org>
+		</egXML>
+		</p>
+
+		<p>As mentined, the relations between various organisations, in particular,
+		which political parties or groups are in the coalition or in opposition and
+		when, are encoded in the final element of <gi>listOrg</gi>, namely
+		<gi>listRelation</gi>, which then contains <gi>relation</gi> elements, as
+		shown in the example below:
+		
+		<egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-relations">
+		  <listRelation>
+                    <relation name="coalition"
+                              mutual="#MR #OpenVld #N-VA #CD_en_V"
+                              from="2014-10-11"
+                              to="2018-12-09"
+                              ana="#period_54"/>
+                    <relation name="opposition"
+                              active="#Ecolo #cdH #DéFi #Vuye_Wouters #sp.a #PP #PS #PTB #FDF"
+                              passive="#government.BE"
+                              from="2014-10-11"
+                              to="2018-12-09"
+                              ana="#period_54"/>
+		    ...
+		  </listRelation>
+		</egXML>
+
+		The type of relation (which can only be <val>coalition</val> or
+		<val>opposition</val>) is given in the <att>name</att> attribute. As a
+		coalition is a mutual relation, the pointers to the party IDs are given in the
+		<att>mutual</att> attribute, whereas an opposition is a <att>active</att>
+		relation of the opposing parties to the government, the pointer to which is
+		given in the <att>passive</att> attribute.  It is also necessary to specify
+		<att>from</att> when and (in cases of past oppositions) <att>to</att> when the
+		parties as listed were in opposition. Finaly, it is possible, but not
+		necessary to also give the legislative period and/or the government when this
+		particular coalition / opposition existed.
+		</p>
+              </div>
+
+              <div xml:id="sec-speakers">
+		<head>Speakers</head>
+		
+		<p>As mentioned, the information on speakers is given in the
+		<gi>listPerson</gi> element of the participant description. This element then
+		contains the list of <gi>person</gi> elements, each of which give information
+		on an individual speaker, as the example below illustrates:
+		
+		<egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-speakers">
+		  <listPerson>
+		    <person xml:id="AccettoMatej">
+                      <persName>
+			<surname>Accetto</surname>
+			<forename>Matej</forename>
+                      </persName>
+                      <sex value="M">moški</sex>
+		    </person>
+		    ...
+		  </listPerson>
+		</egXML>
+
+		Each <gi>person</gi> must have an <att>xml:id</att> attribute, so that it can
+		be referred to from the transcription. The person name, <gi>persName</gi>
+		gives the name of the person which is further decomposed into the person
+		<gi>surname</gi>(s) and <gi>forename</gi>(s). The person must also have the
+		<gi>sex</gi> element, with the <att>value</att> attribute being one of the
+		controlled values: <val>M</val> for male, <val>F</val> for female,
+		<val>O</val> for other, <val>N</val> for none or <val>U</val> for unknown.</p>
+
+		<p>Apart from the obligatory metadata on the speakers above, the speakers who
+		are MPs or members of political parties (or groups) should also have this
+		information recorded in their <gi>affiliation</gi> elements, as shown in the
+		following example:
+
+		<egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-affiliation">
+		  <person xml:id="BahŽibertAnja">
+                    <persName>
+                      <surname>Bah</surname>
+                      <surname>Žibert</surname>
+                      <forename>Anja</forename>
+                    </persName>
+                    <sex value="F">ženski</sex>
+                    <affiliation role="MP"
+				 ref="#DZ"
+				 from="2014-08-01"
+				 to="2018-06-21"
+				 ana="#DZ.7"/>
+                    <affiliation role="member"
+				 ref="#party.SDS.2"
+				 from="2014-08-01"
+				 to="2018-06-21"
+				 ana="#DZ.7"/>
+                    <affiliation role="MP" ref="#DZ" from="2018-06-22" ana="#DZ.8"/>
+                    <affiliation role="member" ref="#party.SDS.2" from="2018-06-22" ana="#DZ.8"/>
+		  </person>
+		</egXML>
+		The type of affiliation is given in the <att>role</att> attribute of
+		<gi>affiliation</gi>, which has controlled values given by the ParlaMint
+		schema. Apart from <val>MP</val> for members of parliament and
+		<val>member</val> for membership in e.g. political parties or groups (but
+		possibly also commissions etc.) the other legal values are
+		<val>substituteMP</val>, <val>president</val>, <val>vicePresident</val>,
+		<val>chairman</val>, <val>viceChairman</val>, and <val>minister</val>.</p>
+
+		<p>The <att>ref</att> attribute points to the organisation that the person has
+		a role in. For MPs, this will always be the ID of the parliament or, for
+		bicamreal parliaments, one of the houses. For membership in a party this is,
+		of course, be the ID of the party organisation.  The affiliation element also
+		has the usual <att>from</att> and <att>to</att> attributes. Finally, it can
+		also have the <att>ana</att> attribute, which points to the appropriate
+		legislative period when the person was affiliated with the specified
+		organisation.</p>
+
+		<p>Finally, the person element can also contain other, optional information,
+		such as the date and place of <gi>birth</gi> (and <gi>death</gi>), their
+		official Web page, and a picture of the speaker, as illustrated below:
+
+		<egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-personextra">
+		  <person xml:id="SayeedaWarsi">
+                    <persName>
+                      <forename>Sayeeda</forename>
+                      <surname>Warsi</surname>
+                    </persName>
+                    <sex value="F">Female</sex>
+                    <birth when="1971-03-28">
+                      <placeName ref="https://www.geonames.org/2651286/">Dewsbury</placeName>
+                    </birth>
+                    <affiliation from="2007-10-11" ref="#parla.lower" role="MP"/>
+                    <affiliation from="2007-10-11" ref="#party.CON" role="member"/>
+                    <affiliation from="2010-05-12" ref="#PoGB" role="minister" to="2012-09-06"/>
+                    <affiliation from="2012-09-06" ref="#PoGB" role="minister" to="2014-08-05"/>
+                    <idno type="URI" subtype="contact">https://members.parliament.uk/member/3839/contact</idno>
+		    <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Sayeeda_Warsi,_Baroness_Warsi</idno>
+		    <idno type="URI" subtype="viaf">http://viaf.org/viaf/33149912470406211798</idno>
+                    <figure>
+                      <graphic url="https://api.parliament.uk/photo/Paa3j0vS.jpg?crop=CU_1:1"/>
+                    </figure>
+		  </person>
+		</egXML>
+		</p>
+              </div>
+	    </div>
 	  
-          <p>The example above uses, via the <att>ref</att> attribute, stand-off annotation to refer
-          to the names of the parties, which should then be defined in a <gi>taxonomy</gi> element in
-          the <gi>teiHeader</gi>, as explained in the Section on <ref target="#sec-party">Party
-          metadata</ref>. The same can be done for the MP affiliation to the national assembly,
-          where, additionally, a reference, via the <att>ana</att> attribute, is given to the
-          legislative period in which the person was an MP.</p>
-
-	  <p>Alternatively (or additionally), the name of the party or national assembly can also be
-	  given directly in the <gi>affiliation</gi> element using the <gi>orgName</gi> element, as
-	  illustrated below. The example also illustrates the additional information, encoded as a
-	  subordinate <gi>affiliation</gi> with the appropriate <att>role</att>, that the person was
-	  elected as an MP to represent a certain constituency, giving its name and location.
+          <div xml:id="sec-langUsage">
+            <head>The language usage</head>
+	    
+	    <p>The language usage, <gi>langUsage</gi> is the fourth and last element of the
+	    profile description of a corpus root and defines the languages that are used in
+	    the corpus. Typically the language use will define (bilingualy) only two
+	    languages, the language of the transcription and English, as the language used in
+	    the metadata, for example:
+	    
+	    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-langUsage">
+              <langUsage>
+		<language ident="sl" xml:lang="sl">slovenski</language>
+		<language ident="en" xml:lang="sl">angleški</language>
+		<language ident="sl" xml:lang="en">Slovenian</language>
+		<language ident="en" xml:lang="en">English</language>
+              </langUsage>
+	    </egXML>
+	    </p>
+	    
+	  <p>In cases where the transcription contains more than one language, the
+          percentage of their use can also be indicated in the <att>usage</att> element of
+          the <gi>language</gi> elements, as illustrated in the example below:
 	  
-          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-constituency">
-            <affiliation role="MP" ref="#DruzPolZb" from="1990-05-08" to="1996-11-27">
-              <orgName xml:lang="sl">Državni zbor Republike Slovenije</orgName>
-              <orgName xml:lang="en">National Assembly of the Republic of Slovenia</orgName>
-	      <affiliation role="consituency">
-                <placeName ref="https://www.geonames.org/3194351">Novo mesto</placeName>
-	      </affiliation>
-	    </affiliation>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-langusage2">
+            <langUsage>
+              <language ident="en" xml:lang="en">English</language>
+              <language ident="en" xml:lang="nl">Engels</language>
+              <language usage="45" ident="nl" xml:lang="en">Dutch</language>
+              <language usage="45" ident="nl" xml:lang="nl">Nederlands</language>
+              <language usage="55" ident="fr" xml:lang="en">French</language>
+              <language usage="55" ident="fr" xml:lang="nl">Frans</language>
+            </langUsage>
           </egXML>
           </p>
+	  </div>
 
-          <p>Persons can have further attributes, and TEI offers various elements (typically typed)
-          to express them; they are introduced in the Section on <ref
-          target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ND.html#NDPERSEpc">Personal
-          Characteristics</ref> of the TEI Guidelines. The two more general ones are <gi>state</gi>,
-          which contains the description of some status or quality attributed to a person (or
-          organisation), often at some specific time or for a specific date range and <gi>trait</gi>,
-          which differs from <gi>state</gi> that it is independent of the volition or action of the
-          holder and usually not at some specific time or for a specific date range. The former
-          could, for example, be used to encode the fact that a PM was jailed for a given period of
-          time, while the latter would e.g. be used for the information that a PM is handicapped.</p>
-
-          <p>It is often advantageous to refer to external knowledge sources about a person, such as
-          Wikipedia or VIAF. This is encoded using the <gi>idno</gi> element, whose content is
-          typically a URI, while the <att>type</att> attribute denotes the kind of knowledge source
-          referred to.
-          
-          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-external">
-            <person xml:id="KučanMilan">
-              <persName>
-                <surname>Kučan</surname>
-                <forename>Milan</forename>
-              </persName>
-              <idno type="wikimedia" xml:lang="sl">https://sl.wikipedia.org/wiki/Milan_Ku%C4%8Dan</idno>
-              <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Milan_Ku%C4%8Dan</idno>
-              <idno type="viaf">https://viaf.org/viaf/68121580/</idno>
-            </person>
-          </egXML>
-          </p>
-        </div>
-        
-        <div xml:id="sec-orgs">
-          <head>Party and other organisational metadata</head>
-          <p>Information on political parties, as well as other groupings of people, such as
-          ministries, is contained in the <gi>listOrg</gi> element, which is, just as
-          <gi>listPerson</gi> element, contained in the <gi>particDesc</gi> element of the
-          corpus TEI header. The Section on <ref
-          target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ND.html#ND-org">Organizational
-          Data</ref> of the TEI Guidelines gives the particulars on how to encode data on
-          organisations. An example of two <gi>org</gi> elements with a complex name
-          structure and interdependencies is given below:
-          
-          <!-- Note that @full="init" is misused, at least according to the TEI definition:
-               https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.personal.html
-               Legal values are:	
-               yes (yes) the name component is spelled out in full. [Default] 
-               abb (abbreviated) the name component is given in an abbreviated form.
-               init (initial letter) the name component is indicated only by one initial.
-          -->
-          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-parties">
-            <org xml:id="pp.SDZ" role="politicalParty" xml:lang="sl">
-              <event from="1989-01-11" to="1991-10-13">
-                <label xml:lang="en">existence</label>
-              </event>
-              <orgName full="yes">Slovenska demokratična zveza</orgName>
-              <orgName full="yes" xml:lang="en">Slovenian Democratic Union</orgName>
-              <orgName full="init">SDZ</orgName>
-              <idno type="wikimedia">https://en.wikipedia.org/wiki/Slovenian_Democratic_Union</idno>
-            </org>
-            <org xml:id="pp.DS" role="politicalParty">
-              <orgName full="yes" from="1989-02-16" to="2003-09">Socialdemokratska stranka Slovenije</orgName>
-              <orgName full="yes"  xml:lang="en" from="1989-02-16" to="2003-09">Social Democratic Party of Slovenia</orgName>
-              <orgName full="init" from="1989-02-16" to="2003-09">SDSS</orgName>
-              <orgName full="yes" from="2003-09">Slovenska demokratska stranka</orgName>
-              <orgName full="yes"  xml:lang="en" from="2003-09">Slovenian Democratic Party</orgName>
-              <orgName full="init" from="2003-09">SDS</orgName>
-              <idno type="wikimedia">https://en.wikipedia.org/wiki/Slovenian_Democratic_Party</idno>
-            </org>
-          </egXML>
-          
-          As with persons, each organisation must contain an <att>xml:id</att> attribute, so
-          that <gi>person</gi> elements can refer to it. The fact that the organisation is a
-          political party is encoded in the <att>role</att> attribute, where the suggested
-          values are defined in the Parla-CLARIN schema. The name(s) of the party are given in
-          the <gi>orgName</gi> element, which also uses the <att>full</att> attribute to
-          distinguish between the full name of the part and the initials of the party. Parties
-          are also created and dissolved, and can also change their name.  The former is
-          indicated by the <gi>event</gi> element, which, in the example above, we have typed
-          as "existence" and where the dates of its existence are given in the <att>from</att>
-          and <att>to</att> attributes. The same attributes on the <gi>orgName</gi> elements
-          indicate the temporal duration of the parties names.<note>Note that there can exist a
-          date where both names are valid names of the party - it is up to the processing
-          software to make sense of this situation.</note></p>
-        </div>
-
-        <div xml:id="sec-relation">
-          <head>Relationships between people and parties</head>
-          
-          <p>It is also possible to encode relations between people and parties, e.g. kinship between
-          MPs, or that one party is the successor of another one. For this purpose, TEI defines the
-          <gi>listRelation</gi> element explained in detail in the Section on <ref
-          target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ND.html#NDPERSREL">Personal
-          Relationships</ref> of the TEI Guidelines. This element can be contained by the
-          <gi>listPerson</gi> or <gi>listOrg</gi> elements and, in turn, contains the
-          <gi>relation</gi> elements, each of which defines one relation. The example below shows a
-          relation between people.
-
-          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-relatpers">
-            <relation name="parent" passive="#sbi243926" active="#sbi243926-0 #sbi243926-1"/>
-          </egXML>
-
-          The relation defines the relationship "parent" between the <att>active</att> persons of
-          this relationship (i.e. those defined in the <gi>person</gi> element with the
-          <att>xml:id</att> values of <val>sbi243926-0</val> and <val>sbi243926-1</val>) and the
-          <att>passive</att> person of this relationship (i.e. the <gi>person</gi> element with the
-          <att>xml:id</att> value of <val>sbi243926</val>).</p>
-
-          <p>Relationships can also be mutual, e.g. in the case of spouses, as illustrated below
-          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-relatmutual">
-            <relation name="spouse" mutual="#sbi243926 #sbi243929"/>
-          </egXML>
-          </p>
-
-          <p>Relationship can also exist between parties (i.e. organisations), for example the
-          fact that one party is a successor of another. This can be expressed as in the
-          example below.
-
-          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-succparty">
-            <relation name="successor" passive="#pp.SDZ" active="#pp.DS"/>
-          </egXML>
-
-          Another example is the set of parties that make up the coalition or opposition in
-          a given time interval. As shown below, a coalition is also encoded as a
-          <gi>relation</gi>, where the references to the parties comprising it are encoded
-          in the <att>mutual</att> attribute. In contrast, the opposition <gi>relation</gi>
-          distinguishes the <att>active</att> parties which comprise it, and the
-          <att>passive</att> pointer to the definition of the government to which the
-          parties are opposed:
-          
-          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-relatorg-simple">
-            <listRelation>
-              <relation name="coalition"
-                        mutual="#party.S #party.F"
-                        from="2013-05-23"
-                        to="2017-01-10"/>
-              <relation name="opposition"
-                        active="#party.Vg #party.Bf #party.V #party.P #party.Sf"
-                        passive="#GOV_LV"
-                        from="2013-05-23"
-                        to="2017-01-10"/>
-            </listRelation>
-          </egXML>
-
-          If a coalition or opposition needs to have more information associated with it,
-          e.g. its name, then a more complex encoding needs to be used, as illustrated
-          below. Here all the information about the coalition (i.e. an <gi>org</gi> of
-          <att>type</att> coalition) is encoded in a <gi>listOrg</gi> element, which then
-          defines the name of the coalition, followed by its <gi>listRelation</gi>, as
-          before.
-          
-          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-relatorg-complex">
-            <listOrg>
-              <org xml:id="cl.DEMOS" role="coalition">
-                <orgName full="init">DEMOS</orgName>
-              </org>
-              <listRelation>
-                <relation type="coalition"
-                          pasive="#cl.DEMOS"
-                          active="#pp.SDZ #pp.SDSS #pp.SKD #pp.SKZ #pp.SOS #pp.ZS"/>
-              </listRelation>
-            </listOrg>
-          </egXML>
-          </p>
-        </div>
+	  <div xml:id="sec-revisionDesc">
+	    <head>The revision description</head>
+            <p>The revision description, <gi>revisionDesc</gi> is the fourth, and last element
+            of the TEI header. It is an optional element that can appear in the corpus root or
+            component, and documents the revisions made in the corpus or component. Its
+            structure is illustrated below:
+	    
+            <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-revisionDesc">
+	      <revisionDesc>
+		<change when="2021-06-11">
+		<name>Tomaž Erjavec</name>: Finalized encoding.</change>
+		<change when="2021-05-28">
+		<name>Tomaž Erjavec</name>: Built corpus.</change>
+	      </revisionDesc>
+	    </egXML>
+	    The revision description consists of a series of <gi>change</gi> elements, with
+	    the attribute <att>when</att> giving the date of the change, and the content
+	    containing the <gi>name</gi> of the person responsible for the change, and a
+	    free-text description of the change.</p>
+	  </div>
+	</div>
       </div>
-      
+
       <div xml:id="sec-transcript">
         <head>Transcriptions</head>
         
-          <p>In the text <gi>body</gi> the element that further organises the content
-          into sections is the division, <gi>div</gi>, and each of the three
-          text-bearing elements (if present) should contain at least one division.</p>
+        <p>The transcriptions are encoded in the <gi>body</gi> element of <gi>text</gi>. The
+        body should contain at least one division, <gi>div</gi> marked with the
+        <att>type</att> attribute with the value <val>debateSection</val>, as illustrated below:
 	
-          <p>The divisions can be nested, as shown in the example below:
-          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-divsimple">
-            <body>
-              <div>
-                ...
-                <div>
-                  <head>Representation of members of the Federal Government</head>
-                  ...
-                </div>
-                <div>
-                  <head>Hour of topical interest</head>
-                  ...
-                </div>
-                <div>
-                  <head>Announcement of an urgent request</head>
-                  ...
-                </div>
-              </div>
-            </body>
-          </egXML>
-          In general it is a complicated question what should constitute a division of a
-          transcription, with the pragmatic solution being that a division will be whatever has
-          a heading (than can be recognised by the up-conversion software) in the source
-          transcription.</p>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-divsimple">
+	  <text>
+	    <body>
+	      <div type="debateSection">...</div>
+	    </body>
+	  </text>
+        </egXML>
+	
+	A text body can also contain a series of divisions in cases when the source document
+	can be reliably split into sections, which is typically done on the basis of headings
+	identified in the source.</p>
 
-          <p>If used, the values of the <att>type</att> and <att>subtype</att> attributes will
-          depend on the parliamentary rules of the particular country, on the need to
-          distinguish the types of divisions, as well as on the ability to automatically
-          recognise them or the available effort to manually add them. The Parla-CLARIN
-          specification does therefore not enforce the use of these attributes nor does it
-          restrict their values.  However, the definition of <gi>div</gi> does give a set of
-          sample values for <att>type</att>, which correspond to the names of the structure
-          elements defined by <ref target="#sec-akoma">Akoma Ntoso</ref>. Below we give an
-          example of a relatively complex structure made on the basis of an Akoma
-          Ntoso document, where the <att>subtype</att> attribute encodes the values of the
-          corresponding <att>name</att> attribute of AKN:
-          
-          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-divakn">
-            <body>
-              <div type="prayers">
-                <head>Prayers</head>
-                ...
-              </div>
-              <div type="oralStatements">
-                <head>Speaker’s Statement</head>
-                ...
-              </div>
-              <div type="questions">
-                <head>Oral Answers to Questions</head>
-                <div type="debateSection" subtype="topic">
-                  <head>Health</head>
-                  <div type="debateSection" subtype="askedPerson">
-                    <head>The Secretary of State was asked—</head>
-                    <div type="debateSection" subtype="questionAnswer">
-                      <head>Ambulance Waiting Times</head>
-                      ...
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div type="pointOfOrder">
-                <head>Points of Order</head>
-                ...
-              </div>
-            </body>
-          </egXML>
-          </p>
-        </div>
-        
-        <p>The transcriptions of the parliamentary debates are the central part of these
-        recommendations and this section explains how to encode the transcriptions of
-        speeches proper, and how to treat the commentary inserted by the
-        transcribers, which often marks various verbal and non-verbal incidents, such
-        as applause, interruption of speeches, voting (with results) etc.  Most of
-        these elements are explained in the Chapter on <ref
-        target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/TS.html">Transcription
-        of Speech</ref> of the TEI Guidelines, and we illustrate the essential ones
-        below.</p>
+<!-- Till here! -->
+	<p>Inside a division, the main element is the </p>
+
         
         <div xml:id="sec-uterrance">
           <head>Utterances</head>
@@ -1411,98 +1697,12 @@
           </egXML>
           </p>
         </div>
-
+	
       </div>
       
       <div xml:id="sec-linguistic">
         <head>Linguistic annotation</head>
 
-	<div>
-          <p>However, as such URIs can be very long, TEI also offers another way of pointing, which
-	  can be used to shorten such long URIs, and this is defined by the <gi>prefixDef</gi>
-	  element in the TEI header, as illustrated below:
-
-	  <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-prefixDef">
-            <prefixDef ident="mte" matchPattern="(.+)" 
-                       replacementPattern="http://nl.ijs.si/ME/V6/msd/tables/msd-fslib-sl.xml#$1">
-              <p xml:lang="en">Private URIs with this prefix point to feature-structure elements defining the Slovenian MULTEXT-East Version 6 MSDs.</p>
-            </prefixDef>
-          </egXML>
-
-	  With such a definition, we can use much shorter pointers in the markup of words,
-	  such as <val>mte:Pd-nsg</val>, which are then, via a regular expression mapping in the
-	  prefix definition, converted to the full URI <val>http://nl.ijs.si/ME/V6/msd/tables/msd-fslib-sl.xml#Pd-nsg</val>.
-          </p>
-	</div>
-	
-        <div xml:id="sec-idents">
-          <head>Identifiers and referencing</head>
-          <p>In order to simply refer to elements of a TEI document (i.e. a Parla-CLARIN
-          corpus), elements can be marked with an ID, i.e. given the <att>xml:id</att> attribute
-          with a unique value, obeying certain format requirements as defined by
-          <ref target="https://www.w3.org/TR/xml-id/">W3C</ref>.</p>
-          
-          <p>Parla-CLARIN requires an <att>xml:id</att> attribute on the root element of
-          each corpus file, which should, furthermore, be identical to the filename (modulo
-          the file extension).  Parla-CLARIN also recommends that the divisions of the
-          document (element <gi>div</gi>) should also be given identifiers. While any
-          element can be given an <att>xml:id</att>, this is, in general, not a good idea;
-          rather, only those elements that will or could be referenced should be marked with
-          this attribute.</p>
-          
-          <p>TEI offers a number of attributes that contain (URI) pointers.  Where the reference
-          is to an element inside the document, the value of the <att>xml:id</att> being
-          referred to should be preceded by a hash (#), as mandated by the XML standard. If the
-          ID pointed to is from another document, then the full URI needs to be used.</p>
-	  
-	</div>
-        
-<div>
-	<!-- Metadata section! -->
-	  <p>It is good practice to document the languages used in the <gi>langUsage</gi>
-          element of the TEI header. The language names can be given in more than one
-          language, and, when more languages are used in the transcriptions, the
-          percentage of their use can also be indicated in the <att>usage</att> element of
-          the <gi>language</gi> elements, as illustrated in the example below.
-          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-langusage">
-            <langUsage>
-              <language ident="en" xml:lang="en">English</language>
-              <language ident="en" xml:lang="nl">Engels</language>
-              <language usage="45" ident="nl" xml:lang="en">Dutch</language>
-              <language usage="45" ident="nl" xml:lang="nl">Nederlands</language>
-              <language usage="55" ident="fr" xml:lang="en">French</language>
-              <language usage="55" ident="fr" xml:lang="nl">Frans</language>
-            </langUsage>
-          </egXML>
-          </p>
-
-        </div>
-
-        <div xml:id="sec-temporal">
-          <p>Parla-CLARIN users are free to use any of the TEI temporal attributes and
-          elements, however, for most purposes, the following five attributes will suffice:
-          <list>
-            <item><att>when</att>: when a certain event happened;</item>
-            <item><att>from</att>, <att>to</att>: the start and end of an event or state;</item>
-            <item><att>notBefore</att>, <att>notAfter</att>: the earliest and latest known
-            time that an event or state took place, used in cases where the exact time
-            is not known.</item>
-          </list>
-          </p>
-          <p>To illustrate, we give below two elements that are marked with temporal attributes.
-          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-temporal">
-            <birth when="1965-06-06">
-              <placeName>Oudenaarde</placeName>
-            </birth>
-            ...
-            <event to="2007-05-02" from="2003-06-05" xml:id="period_51">
-              <label>Legislative period 51</label>
-            </event>
-          </egXML>
-          </p>
-
-	</div>
-	
         <p>This section introduces basic types of linguistic annotation that can be added
         to PPCs; the examples should be sufficient for users to be able to add further types
         of linguistic annotation to PPC corpora.</p>
@@ -1522,7 +1722,29 @@
         with the other annotations, rather than in a separate document with pointers into the
         base text.</p>
         
-	<div>
+	<div xml:id="sec-lingHeader">
+          <head>Linguistic metadata</head>
+          <p>However, as such URIs can be very long, TEI also offers another way of pointing, which
+	  can be used to shorten such long URIs, and this is defined by the <gi>prefixDef</gi>
+	  element in the TEI header, as illustrated below:
+	  
+	  <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-prefixDef">
+            <prefixDef ident="mte" matchPattern="(.+)" 
+                       replacementPattern="http://nl.ijs.si/ME/V6/msd/tables/msd-fslib-sl.xml#$1">
+              <p xml:lang="en">Private URIs with this prefix point to feature-structure elements defining the Slovenian MULTEXT-East Version 6 MSDs.</p>
+            </prefixDef>
+          </egXML>
+
+	  With such a definition, we can use much shorter pointers in the markup of words,
+	  such as <val>mte:Pd-nsg</val>, which are then, via a regular expression mapping in
+	  the prefix definition, converted to the full URI
+	  <val>http://nl.ijs.si/ME/V6/msd/tables/msd-fslib-sl.xml#Pd-nsg</val>.
+          </p>
+	</div>
+        
+
+      <div>
+	<head>Linguistic markup</head>
         <p>When automatic procedures have been used to encode the texts (most prominently, to
           add linguistic markup, as discussed in the Section on <ref
           target="#sec-linguistic">Linguistic annotation</ref>) this should be documented in
@@ -1619,7 +1841,7 @@
 	  <p>Such feature structures are grouped together in the feature-value library
 	  (<gi>fvLib</gi>) element, which can be contained in its own <gi>TEI</gi> element of
 	  the corpus. As <att>ana</att> is a pointer, it can also contain complete URLs
-	  (e.g. <code>http://nl.ijs.si/ME/V6/msd/tables/msd-fslib2-sl.xml#Pd-nsg</code>) which
+	  (e.g. <val>http://nl.ijs.si/ME/V6/msd/tables/msd-fslib2-sl.xml#Pd-nsg</val>) which
 	  enables the feature-structure definitions to be stored externaly to the
 	  corpus. However, prefixing such PoS tags for each token by the complete URL would
 	  lead to very large files. This is why the TEI offers a mechanism to shorten 
@@ -1810,7 +2032,7 @@
           first link group specifies the Universal Dependencies syntactic analysis of the
           sentence, while the second one gives its semantic role labels.  They are distinguished
           by their <att>type</att> attribute<note>We do not specify the values of
-          <att>type</att> of the link gropu as the range of possibilities is too great and not
+          <att>type</att> of the link group as the range of possibilities is too great and not
           known in advance.</note>, while the <att>targFunc</att> attribute explains the
           functions of the references given in the <att>target</att> attributes of the contained
           <gi>link</gi> elements.</p>
@@ -1826,7 +2048,6 @@
           element of the sentence, i.e. the fifth link of the UD analysis ties together the
           sentence with the top-most token of the sentence.</p>
         </div>
-        
       </div>
       
       <div xml:id="sec-multimedia">
@@ -2010,274 +2231,20 @@
         developed for transforming source formats into Parla-CLARIN and from Parla-CLARIN into
         formats immediately usable by software and are available in the Git repository of
         Parla-CLARIN.</p>
-        
-        <div xml:id="sec-convakn">
-          <head>Conversion from Akoma Ntoso</head>
-          <p>As mentioned in the Section on <ref target="#sec-akoma">Introducing Akoma
-          Ntoso</ref>, this standard is used to encode parliamentary proceedings of several
-          countries, and this section introduces the developed conversion of AKN documents to
-          Parla-CLARIN. The example documents and conversion script can be found in the
-          <code>Examples/AkomaNtoso</code> folder of the Parla-CLARIN Git repository. For a
-          detailed treatment of the conversion, the XSLT script <code>akn2tei.xsl</code> should
-          be consulted, while we here mention only some of the more aspects of the
-          conversion.</p>
-
-          <p>First, and on a minor point, the conversion to TEI attempts to preserve the IDs of
-          the source AKN document, however, Akoma Ntoso distinguishes three ID-bearing
-          attributes, namely <att>eId</att> (expression identifier), <att>wId</att> (work
-          identifier) and <att>GUID</att> (globally unique identifier). The first is simply
-          mapped to the <att>xml:id</att> attribute of the TEI document, while the latter two
-          are given in the <gi>publicationStmt</gi> of the TEI header and in the 
-          <gi>idno</gi> element, as the following example illustrates:
-
-          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-akn-id">
-            <idno type="wId" corresp="#section_2_1">section_2_2</idno>
-            <idno type="GUID" corresp="#section_2_2">X13242</idno>
-          </egXML>
-          </p>
-
-          <div xml:id="sec-convakn-frbr">
-            <head>FRBR data</head>
-            <p>Akoma Ntoso makes use of <ref
-            target="https://en.wikipedia.org/wiki/Functional_Requirements_for_Bibliographic_Records">FRBR</ref>,
-            in particular to distinguish a <q>work</q> from its <q>expression</q>, and this one
-            from its <q>manifestation</q>. This information is in AKN encoded in the
-            <gi>identification</gi> element, which appears inside the <gi>meta</gi> element, as
-            shown in the example below:
-
-            <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-frbr-akn">
-              <identification source="#palmirani">
-                <FRBRWork>
-                  <FRBRthis value="/akn/ke/debaterecord/2011-06-10/!main"/>
-                  <FRBRuri value="/akn/ke/debaterecord/2011-06-10"/>
-                  <FRBRdate date="2011-06-10" name="generation"/>
-                  <FRBRauthor href="#parliament" as="#author"/>
-                  <FRBRcountry value="ak"/>
-                </FRBRWork>
-                <FRBRExpression>
-                  <FRBRthis value="/akn/ke/minutes/2011-06-10/eng@/!main"/>
-                  <FRBRuri value="/akn/ke/minutes/2011-06-10/eng@"/>
-                  <FRBRdate date="2011-06-25" name="markup"/>
-                  <FRBRauthor href="#palmirani" as="#editor"/>
-                  <FRBRlanguage language="eng"/>
-                </FRBRExpression>
-                <FRBRManifestation>
-                  <FRBRthis value="/akn/ke/minutes/2011-06-10/eng@/!main.xml"/>
-                  <FRBRuri value="/akn/ke/minutes/2011-06-10/eng@.akn"/>
-                  <FRBRdate date="2011-06-25" name="publication"/>
-                  <FRBRauthor href="#palmirani" as="#editor"/>
-                </FRBRManifestation>
-              </identification>
-            </egXML>
-            
-            Some of these elements are mapped to specific TEI elements or attributes, e.g. the
-            language of the text specified in the <gi>FRBRExpression</gi> maps to the
-            <att>xml:lang</att> of the <gi>TEI</gi> element, but this does not hold for all the
-            FRBR information, which we also wanted to retain in the TEI document.</p>
-            
-            <p>To convert all FRBR information to TEI, we used the recommendations of <ref
-            target="https://tei-c.org/extra/teiinlibraries/">Best Practices for TEI in
-            Libraries</ref>, in particular as given the Section on <ref
-            target="https://tei-c.org/extra/teiinlibraries/4.0.0/bptl-driver.html#frbr">The TEI
-            Header and FRBR</ref>,<note>Encoding FRBR in TEI is (at greater length than in the
-            official documentation) also discussed in <ref
-            target="https://github.com/kshawkin/Best-Practices-for-TEI-in-Libraries/issues/64">Issue
-            #64</ref> of Best-Practices-for-TEI-in-Libraries GitHub repository.</note> where
-            it is recommended that FRBR information is encoded in the <gi>sourceDesc</gi>
-            element of the TEI header as a <gi>listRelation</gi>. As opposed to the original
-            AKN <gi>identification</gi> the <gi>listRelation</gi> contains a simple list of
-            <gi>relation</gi> elements, so these must also specify the relation between the
-            particular piece of data and the fact that it belongs to the FRBR <q>work</q>,
-            <q>expression</q>, or <q>manifestation</q>. These and other formalised relations
-            are taken from the formal vocabularies of <ref
-            target="https://www.w3.org/">W3C</ref> (for RDF and OWL) and (via <ref
-            target="http://purl.org/">purl.org</ref>) of <ref
-            target="https://www.dublincore.org/">Dublin Core</ref> and <ref
-            target="http://vocab.org/">vocab.org</ref>.
-            The example below exemplifies the conversion of the preceding AKN example into TEI:
-            
-            <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-frbr-tei">
-              <listRelation type="FRBR" resp="#palmirani">
-                <relation ref="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-                          active="/akn/ke/debaterecord/2011-06-10/!main"
-                          passive="http://purl.org/vocab/frbr/core#Work"/>
-                <relation ref="http://www.w3.org/2002/07/owl#sameAs"
-                          active="http://purl.org/vocab/frbr/core#Work"
-                          passive="https://w3id.org/akn/ontology/allot/FRBRWork"/>
-                <relation ref="http://purl.org/dc/terms/isPartOf"
-                          active="/akn/ke/debaterecord/2011-06-10/!main"
-                          passive="/akn/ke/debaterecord/2011-06-10"/>
-                <relation name="generation"
-                          ref="http://purl.org/dc/elements/1.1/date"
-                          active="/akn/ke/debaterecord/2011-06-10/!main"
-                          passive="2011-06-10"/>
-                <relation ref="http://purl.org/dc/elements/1.1/creator"
-                          active="/akn/ontology/organization/akn/parliament"
-                          passive="/akn/ke/debaterecord/2011-06-10/!main"/>
-                <relation ref="/akn/ontology/role/akn/author"
-                          active="/akn/ontology/organization/akn/parliament"
-                          passive="/akn/ke/debaterecord/2011-06-10/!main"/>
-                <relation ref="http://purl.org/vocab/frbr/core#Place"
-                          active="/akn/ke/debaterecord/2011-06-10/!main"
-                          passive="http://eulersharp.sourceforge.net/2003/03swap/countries#ak"/>
-                <relation active="/akn/ke/debaterecord/2011-06-10/!main"
-                          ref="http://purl.org/vocab/frbr/core#realization"
-                          passive="/akn/ke/minutes/2011-06-10/eng@/!main"/>
-                <relation ref="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-                          active="/akn/ke/minutes/2011-06-10/eng@/!main"
-                          passive="http://purl.org/vocab/frbr/core#Expression"/>
-                <relation ref="http://www.w3.org/2002/07/owl#sameAs"
-                          active="http://purl.org/vocab/frbr/core#Expression"
-                          passive="https://w3id.org/akn/ontology/allot/FRBRExpression"/>
-                <relation ref="http://purl.org/dc/terms/isPartOf"
-                          active="/akn/ke/minutes/2011-06-10/eng@/!main"
-                          passive="/akn/ke/minutes/2011-06-10/eng@"/>
-                <relation name="markup"
-                          ref="http://purl.org/dc/elements/1.1/date"
-                          active="/akn/ke/minutes/2011-06-10/eng@/!main"
-                          passive="2011-06-25"/>
-                <relation ref="http://purl.org/dc/elements/1.1/creator"
-                          active="/akn/ontology/person/ita/editors/palmirani"
-                          passive="/akn/ke/minutes/2011-06-10/eng@/!main"/>
-                <relation ref="/akn/ontology/role/akn/editor"
-                          active="/akn/ontology/person/ita/editors/palmirani"
-                          passive="/akn/ke/minutes/2011-06-10/eng@/!main"/>
-                <relation ref="http://purl.org/dc/elements/1.1/language"
-                          active="/akn/ke/minutes/2011-06-10/eng@/!main"
-                          passive="eng"/>
-                <relation active="/akn/ke/minutes/2011-06-10/eng@/!main"
-                          ref="http://purl.org/vocab/frbr/core#embodiment"
-                          passive="/akn/ke/minutes/2011-06-10/eng@/!main.xml"/>
-                <relation ref="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-                          active="/akn/ke/minutes/2011-06-10/eng@/!main.xml"
-                          passive="http://purl.org/vocab/frbr/core.html#term-Manifestation"/>
-                <relation ref="http://www.w3.org/2002/07/owl#sameAs"
-                          active="http://purl.org/vocab/frbr/core.html#term-Manifestation"
-                          passive="https://w3id.org/akn/ontology/allot/FRBRManifestation"/>
-                <relation ref="http://purl.org/dc/terms/isPartOf"
-                          active="/akn/ke/minutes/2011-06-10/eng@/!main.xml"
-                          passive="/akn/ke/minutes/2011-06-10/eng@.akn"/>
-                <relation name="publication"
-                          ref="http://purl.org/dc/elements/1.1/date"
-                          active="/akn/ke/minutes/2011-06-10/eng@/!main.xml"
-                          passive="2011-06-25"/>
-                <relation ref="http://purl.org/dc/elements/1.1/creator"
-                          active="/akn/ontology/person/ita/editors/palmirani"
-                          passive="/akn/ke/minutes/2011-06-10/eng@/!main.xml"/>
-                <relation ref="/akn/ontology/role/akn/editor"
-                          active="/akn/ontology/person/ita/editors/palmirani"
-                          passive="/akn/ke/minutes/2011-06-10/eng@/!main.xml"/>
-              </listRelation>
-            </egXML>
-            There are few points to notice in this conversion:
-            <list>
-              <item>Where AKN qualifies its FRBR statements with the additional <att>name</att>
-              attribute, which does not have a controlled vocabulary, its value is retained in
-              the <att>name</att> attribute of the TEI <gi>relation</gi>.</item>
-
-              <item>The conversion also specifies the formal equivalence (OWL
-              <code>sameAs</code>) of the official FRBR definition of <q>work</q>,
-              <q>expression</q>, and <q>manifestation</q> (so, <ref
-              target="http://purl.org/vocab/frbr/">http://purl.org/vocab/frbr/</ref>) with the
-              AKN recommended ontology of these terms, namely <ref
-              target="https://w3id.org/akn/ontology/allot">https://w3id.org/akn/ontology/allot/</ref>.</item>
-            </list>
-          </p>
-        </div>
-
-        <div xml:id="sec-convakn-qa">
-          <head>Converting addressee, role, questions and answers</head>
-          <p>Akoma Ntoso can directly specify not only the speaker of an utterance (as the
-          value of the <att>by</att> attribute) but also the role of the speaker for a
-          particular utterance (<att>as</att> attribute) and to whom the speech is addressed
-          to (<att>to</att> attribute), as exemplified below:
-          
-          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-akn-to">
-            <speech by="#khalwale" to="#speaker" as="#pm">
-              <p>Mr. Speaker, Sir, I beg to give notice of the following Motion:-</p>
-              ...
-            </speech>
-          </egXML>
-
-	  TEI has the attribute <att>toWhom</att>, which directly corresponds to the <att>to</att>
-	  attribute. TEI, however, does not have an attribute that would correspond to the AKN
-	  <att>as</att>, so this is encoded as the value of the general <att>ana</att> attribute,
-	  which should point to the appropriate <gi>category</gi> of the pertinent taxonomy for
-	  defining the roles of the speakers. The Parla-CLARIN encoding is thus:
-
-          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-akn-totei">
-            <u who="#khalwale" ana="#pm" toWhom="#speaker">
-              <seg>Mr. Speaker, Sir, I beg to give notice of the following Motion:-</seg>
-              ...
-            </u>
-          </egXML>
-          </p>
-          
-          <p>A similar problem, and its solution, concerns the distinction made in Akoma
-          Ntoso between questions and answers, each of which has in AKN a dedicated element,
-          as shown in the following example:
-          
-          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-akn-qa">
-            <question eId="question_1" by="#kappa" to="#ministerEducation">
-              <p>I would like to ask the Minister for Education about ...</p>
-            </question>
-            <answer eId="answer_1" by="#eta" as="#ministerEducation">
-              <p>Mr. Speaker, BNAT was the only umbrella professional body for...</p>
-            </answer>
-          </egXML>
-
-          In the conversion to TEI we note that someting is a question or answer (or, in fact, any
-          other type of utterance) by assuming a taxonomy specifying the categories corresponding
-          to the types of speeches that we wish to distinguish, and the <val>question</val> and
-          <val>answer</val> are IDs of the appropriate categories. We can then refer to these
-          categories in the <att>ana</att> attribute of the utterance. Furthermore, and in case we
-          wish to direclty link the question and answer, we can use for this the <gi>relation</gi>
-          element using its <att>name</att> with the value <code>questionAnswer</code>. Such
-          <gi>listRelation</gi> can be placed in an arbitrary portion of the document, as it
-          contains links to IDs, but is, by convention, best placed inside the answer. We exemplify
-          the Parla-CLARIN encoding of a question and answer below:
-          
-          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-akn-qa-tei">
-            <u xml:id="question_1" who="#kappa" toWhom="#ministerEducation" ana="#question">
-              <seg>I would like to ask the Minister for Education about ...</seg>
-            </u>
-            <u xml:id="answer_1" who="#eta" ana="#ministerEducation #answer" toWhom="#kappa">
-              <seg>Mr. Speaker, BNAT was the only umbrella professional body for ...</seg>
-	      <listRelation>
-                <relation name="questionAnswer" active="#question_1" passive="#answer_1"/>
-	      </listRelation>
-            </u>
-          </egXML>
-          </p>
-        </div>          
       </div>
-      
-      <div xml:id="sec-conrdf">
-        <head>Conversion to RDF</head>
-        <p>As explained in the Section on <ref target="#sec-rdf">Introducing
-        RDF</ref>, this data model would be a useful <q>down-conversion</q> of
-        Parla-CLARIN corpora.</p>
-        
-        <p>On the tei-l mailing list there have already been discussions on how to
-        link TEI with RDF, summarised and with further links in <ref
-        target="https://github.com/TEIC/TEI/issues/1860">Issue #1860</ref> of the
-        <ref target="https://github.com/TEIC/TEI/">TEI GitHub project</ref>.
-        The best way seems to be to either directly turn TEI markup into RDF triples,
-        or, where this is not possible, to use the RDFa attribute on TEI elements.</p>
-
-        <p>An implementation might be best approached from the opposite direction,
-        i.e. developing an <q>up-conversion</q> to TEI of an existing RDF-encoded
-        CPP.</p>
-      </div>
-    </div>
     
     <div xml:id="sec-validation">
       <head>Validation and conversion</head>
-      <item><ref target="#sec-conversion">Section 7</ref> introduces scripts to
-      validate and convert a ParlaMint corpus to other formats;</item>
+      <p>Scripts to validate and convert a ParlaMint corpus to other formats</p>
+
+      <div xml:id="sec-schemas">
+	<head>ParlaMint schemas</head>
+	<p>...</p>
+      </div>
+      
     </div>
 	  
-	  <div xml:id="sec-ack">
+    <div xml:id="sec-ack">
       <head>Acknowledgements</head>
       
       <p>The authors would like to thank all the participants of the <ref

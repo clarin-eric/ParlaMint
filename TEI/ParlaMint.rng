@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2022-02-09T17:50:06Z. 2022-02-08.
+Schema generated from ODD source 2022-02-13T18:35:34Z. 2022-02-12.
 TEI Edition: Version 4.3.0. Last updated on
         31st August 2021, revision b4f72b1ff
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.3.0/
@@ -4046,8 +4046,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                       xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       context="tei:div[@type = $div.types.debate]">
                <sch:assert test="not(parent::tei:div[@type = $div.types.debate])">
-                           A text division of type <sch:value-of select="@type"/> should not occur inside div with type value <sch:value-of select="parent::tei:div/@type"/>.
-                        </sch:assert>
+                  A text division of type <sch:value-of select="@type"/> should not occur inside div with type value <sch:value-of select="parent::tei:div/@type"/>.
+                </sch:assert>
             </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
