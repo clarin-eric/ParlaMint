@@ -17,7 +17,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>CLARIN</publisher>
-        <date>2022-02-12</date>
+        <date>2022-02-13</date>
         <availability status="free">
           <p>This file is freely available and you are hereby authorised to copy, modify, and redistribute it in any way without further reference or permissions.</p>
         </availability>
@@ -38,7 +38,7 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
-      <change when="2022-02-09">Tomaž Erjavec: first draft.</change>
+      <change when="2022-02-13">Tomaž Erjavec: first draft.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -50,7 +50,7 @@
           of ParlaMint corpora</ref></titlePart>
         </docTitle>
         <docEdition>v0.1</docEdition>
-        <docDate>2022-02-12</docDate>
+        <docDate>2022-02-13</docDate>
         <!--byline>Tomaž Erjavec and Matyáš Kopp</byline-->
       </titlePage>
       <p></p>
@@ -401,8 +401,8 @@
 		other parts of the corpus root header, in this case the categories of taxonomy
 		elements that specify that this component contains the trasnscrption of one
 		sitting and belongs to the reference subcorpus; the structure and content of
-		the taxonomies used is further explained in the Section on <ref
-		target="#sec-classDecl">The class declaration</ref>.</item>
+		the taxonomies used is further explained in the Section on the <ref
+		target="#sec-classDecl">Class declaration</ref>.</item>
 	      </list>
 	    </p>
 	  </div>
@@ -441,7 +441,7 @@
 	  </p>
 	  
 	  <div xml:id="sec-fileDesc">
-	    <head>The file description</head>
+	    <head>File description</head>
             <p>The file description, <gi>fileDesc</gi> is composed of file obligatory
             elements, namely the title statement, <gi>titleStmt</gi>, the edition statement,
             <gi>editionStmt</gi>, the extent, <gi>extent</gi>, the publication statement,
@@ -459,7 +459,7 @@
 	    </p>
 	    
 	  <div xml:id="sec-titleStmt">
-	    <head>The title statement</head>
+	    <head>Title statement</head>
 	    
 	    <p>The title statement, <gi>titleStmt</gi> gives the title of the corpus root or
 	    component, along with the specification of the particular session(s) of the
@@ -525,8 +525,8 @@
 	    the Section on <ref target="sec-roottags">Attributes of top-level
 	    elements</ref>. Here they refer the definition of organisations further explained
 	    in the Section on <ref target="#sec-orgs">Organisations</ref> and the categories
-	    of taxonomy elements, further explained in the Section on <ref
-	    target="#sec-classDecl">The class declaration</ref>. The value of the
+	    of taxonomy elements, further explained in the Section on the <ref
+	    target="#sec-classDecl">Class declaration</ref>. The value of the
 	    <att>corresp</att> attribute points to the governmental body of which a particular
 	    meeting element is a meeting of (in this case the National Assembly of the
 	    Republic of Slovenia), while the <att>ana</att> attribute contains a
@@ -591,7 +591,7 @@
 	  </div>
 	    
 	  <div xml:id="sec-editionStmt">
-            <head>The edition statement</head>
+            <head>Edition statement</head>
 	    <p>ParlaMint corpora have their edition statement, <gi>editionStmt</gi> both in
 	    the corpus root and components. As illustrated below, the only element it contains
 	    is <gi>edition</gi>:
@@ -611,7 +611,7 @@
 	  </div>
 
 	  <div xml:id="sec-extent">
-            <head>The extent</head>
+            <head>Extent</head>
 	    
 	    <p>The <gi>extent</gi> element gives information on selected sizes of the
 	    complete corpus (in the corpus root) or of one corpus component, as illustrated
@@ -639,7 +639,7 @@
 	  </div>
 
 	  <div xml:id="sec-publicationStmt">
-            <head>The publication statement</head>
+            <head>Publication statement</head>
 
 	    <p>The publication statement <gi>publicationStmt</gi> must appear in the corpus
 	    root as well as, in identical form, in the corpus components. As illustrated
@@ -679,7 +679,7 @@
 	  </div>
 	  
 	  <div xml:id="sec-sourceDesc">
-            <head>The source description</head>
+            <head>Source description</head>
 
 	    <p>The source description <gi>sourceDesc</gi> of the corpus root encodes the
 	    original digital source of the ParlaMint corpus in the <gi>bibl</gi> element, as
@@ -749,7 +749,7 @@
 	</div>
 	
 	<div xml:id="sec-encodingDesc">
-          <head>The encoding description</head>
+          <head>Encoding description</head>
 	    
 	    <p>The encoding description <gi>encodingDesc</gi> of the corpus root contains
 	    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-encodingDescRoot">
@@ -767,7 +767,7 @@
 	    <gi>tagsDecl</gi>.</p>
 
 	    <div xml:id="sec-projectDesc">
-              <head>The project description</head>
+              <head>Project description</head>
 	      
 	      <p>The project description <gi>projectDesc</gi> of the corpus root
 	      contains a short description if the project in the scope of which the
@@ -798,7 +798,7 @@
 	    </div>
 	    
 	    <div xml:id="sec-editorialDecl">
-              <head>The editorial declaration</head>
+              <head>Editorial declaration</head>
               
               <p>The editorial declaration, <gi>editorialDecl</gi> is used only in the
               corpus root and contains prose descriptions of editorial decision made in
@@ -838,7 +838,7 @@
 	    </div>
 
 	    <div xml:id="sec-tagsDecl">
-              <head>The tags declaration</head>
+              <head>Tags declaration</head>
 	      
 	      <p>The tags declaration, <gi>tagsDecl</gi> of the corpus root gives the
 	      count of all the XML tags used in the data part (so, not in the TEI
@@ -879,7 +879,7 @@
 	    </div>
 	    
             <div xml:id="sec-classDecl">
-              <head>The class declaration</head>
+              <head>Class declaration</head>
 	      
               <p>The class declaration, <gi>classDecl</gi> is used only in the corpus
               root, and contains the definition of controlled vocabularies used in
@@ -955,7 +955,7 @@
 	  </div>
 
           <div xml:id="sec-profileDesc">
-            <head>The profile description</head>
+            <head>Profile description</head>
 	    
 	    <p>The profile description, <gi>profileDesc</gi> is the third main division of the
 	    metadata provided by the TEI header and contains a description of
@@ -976,7 +976,7 @@
 	    </p>	    
 	    
             <div xml:id="sec-settingDesc">
-              <head>The setting description</head>
+              <head>Setting description</head>
 	      
 	      <p>The setting description, <gi>settingDesc</gi>, is used by both the corpus
 	      root and corpus components, and contains only one element, <gi>setting</gi>,
@@ -1001,8 +1001,8 @@
 	      explained in the Section on <ref target="sec-standard">Standard values</ref>.
 	      It also cotanins the interval (for the corpus root) of the dates of the
 	      transcripts included in the corpus. Note that this date range is also given in
-	      the <gi>sourceDesc</gi>, as explained in the Section on <ref
-	      target="#sec-sourceDesc">The source description</ref>.</p>
+	      the <gi>sourceDesc</gi>, as explained in the Section on the <ref
+	      target="#sec-sourceDesc">Source description</ref>.</p>
 	      
 	      <p>The setting description is also present in corpus components, and is very
 	      similar to the one in the corpus root, except that it can additionaly specify
@@ -1023,7 +1023,7 @@
 	    </div>
 	    
             <div xml:id="sec-textClass">
-              <head>The text class</head>
+              <head>Text class</head>
 	      
 	      <p>The text class, <gi>textClass</gi> groups information which describes the
 	      nature or topic of the corpus in terms of a standard classification scheme. In a
@@ -1039,8 +1039,8 @@
 
 	      The category reference specifies in the value of the <att>scheme</att> attribute
 	      which scheme it uses, and this will always be a pointer to the ParlaMint-wide
-	      taxonomy on legislature, as further explained in the Section on <ref
-	      target="#sec-classDecl">The class declaration</ref>. The <att>target</att>
+	      taxonomy on legislature, as further explained in the Section on the <ref
+	      target="#sec-classDecl">Class declaration</ref>. The <att>target</att>
 	      attribute then gives pointers to the kind of legislature types the country or
 	      region has and what the corpus contains; in the case above, the country has a
 	      bicameral parliament, and the corpus contains the transcriptions of both the
@@ -1057,7 +1057,7 @@
 	    </div>
 	    
             <div xml:id="sec-particDesc">
-              <head>The participant description</head>
+              <head>Participant description</head>
 	      
 	      <p>The participant description, <gi>particDesc</gi> gives the information about
 	      political parties and other <q>organisations</q> relevant to the corpus and the
@@ -1359,7 +1359,7 @@
 	    </div>
 	  
           <div xml:id="sec-langUsage">
-            <head>The language usage</head>
+            <head>Language usage</head>
 	    
 	    <p>The language usage, <gi>langUsage</gi> is the fourth and last element of the
 	    profile description of a corpus root and defines the languages that are used in
@@ -1395,7 +1395,7 @@
 	  </div>
 
 	  <div xml:id="sec-revisionDesc">
-	    <head>The revision description</head>
+	    <head>Revision description</head>
             <p>The revision description, <gi>revisionDesc</gi> is the fourth, and last element
             of the TEI header. It is an optional element that can appear in the corpus root or
             component, and documents the revisions made in the corpus or component. Its
