@@ -303,11 +303,11 @@
 	      underscore and the date of the transcript, for example
 	      <q>ParlaMint-NL_2018-10-30.xml</q></item>
 
-	      <item>In case a corpus component is further distinguished by e.g... the type of
+	      <item>In case a corpus component is further distinguished by e.g. the type of
 	      session because there are several components with the same date, the corpus
 	      compilers are free to extend the file name by a hyphen and any suffix, which
 	      should, however, contain only ASCII letters and numbers and the hyphen
-	      character, e.g... <q>ParlaMint-NL_2018-10-30-eerstekamer-4.xml</q> or, for a Czech
+	      character, e.g. <q>ParlaMint-NL_2018-10-30-eerstekamer-4.xml</q> or, for a Czech
 	      component file, <q>ParlaMint-CZ_2016-04-13-ps2013-044-02-016-098.xml</q></item>
 
 	      <item>The file names of the corpus as a whole or corpus components that have been
@@ -616,10 +616,10 @@
 	    </egXML>
 	    We use semantic versioning to specify the version of the corpus, i.e. giving the
 	    version number, where a new version means substantial changes to the corpus, while
-	    the minor version is reserved for e.g.......... correcting errata or other minor
+	    the minor version is reserved for e.g. correcting errata or other minor
 	    changes. We do not use the patch number. It should be noted that - at least so far
 	    - all the ParlaMint corpora were released together, so that they are all of the
-	    same edition, i.e... have the same version number. At the time of writing, the
+	    same edition, i.e. have the same version number. At the time of writing, the
 	    latest version is 2.1, with the next one planned to be 3.0.</p>
 	  </div>
 
@@ -747,7 +747,7 @@
 	      The exemplified optional audio (or video) recording information is meant for
 	      cases where the media file or, in general, URL encompasses the complete
 	      transcription of the corpus component; for cases when the media are further
-	      segmented, e.g........... by speech, a different encoding is used, which is further
+	      segmented, e.g. by speech, a different encoding is used, which is further
 	      explained in the Section on XXX (TO DO!).</p>
 
 	      <p>As the example shows, the recording statement contains a <gi>recording</gi>
@@ -932,7 +932,7 @@
 	      A <gi>taxonomy</gi> thus first bilingually describes, via <gi>desc</gi>, what it
 	      is a taxonomy of, and then lists (the possibly nested) categories in
 	      <gi>category</gi> elements. Crucial here is the value of their <att>xml:id</att>
-	      attributes, by which a category is referred to, e.g............... via the <att>ana</att>
+	      attributes, by which a category is referred to, e.g. via the <att>ana</att>
 	      attribute of some other element, as was already explained in the Section on <ref
 	      target="sec-roottags">Attributes of top-level elements</ref>, in connection with
 	      classifying a corpus component via the <att>ana</att> attribute of its
@@ -947,7 +947,7 @@
 	      ParlaMint corpora, defined globally and available as part of the data on the <ref
 	      target="https://github.com/clarin-eric/ParlaMint/">ParlaMint GitHub
 	      repository</ref>. They should be inserted unchanged in the corpus header but if
-	      there is a need to modify them, e.g.................. by inserting translations into a new local
+	      there is a need to modify them, e.g. by inserting translations into a new local
 	      language, then this change needs to be agreed to and pushed to the repository.</p>
 
 	      <p>The three defined taxonomies are:
@@ -955,7 +955,7 @@
 	      <list>
 		<item>The <hi>subcorpus</hi> taxonomy, already given in the example</item>
 		
-		<item>The taxonomy of <hi>speaker types</hi>, which distinguishes e.g................... the
+		<item>The taxonomy of <hi>speaker types</hi>, which distinguishes e.g. the
 		chair, a ordinary speaker, and a guest speaker.</item>
 		
 		<item>The <hi>legislature</hi> taxonomy, which gives the possible
@@ -1200,7 +1200,7 @@
 		<p>The parliament organisation is also required to be present in the
 		<gi>listOrg</gi> of every corpus root and is, by convention, the second
 		organisation in the list. The structure is identical to the one for the
-		government, i.e.................. it gives the ID and name of the parliament, but can, just as
+		government, i.e. it gives the ID and name of the parliament, but can, just as
 		the government, also introduce the successive parliaments (reusing the
 		<gi>event</gi> element:
 		
@@ -1330,7 +1330,7 @@
 		The type of affiliation is given in the <att>role</att> attribute of
 		<gi>affiliation</gi>, which has controlled values given by the ParlaMint
 		schema. Apart from <val>MP</val> for members of parliament and
-		<val>member</val> for membership in e.g............................. political parties or groups (but
+		<val>member</val> for membership in e.g. political parties or groups (but
 		possibly also commissions etc.) the other legal values are
 		<val>substituteMP</val>, <val>president</val>, <val>vicePresident</val>,
 		<val>chairman</val>, <val>viceChairman</val>, and <val>minister</val>.</p>
@@ -1473,7 +1473,7 @@
           <gi>person</gi> element containing the metadata of the speaker. The <gi>u</gi>
           element can also have the <att>ana</att> attribute giving one or more pointers to a
           typology of types of speakers. In our case, it would point to a category that
-          specifies that the speaker is a regular speaker (rather than, e.g.............................., the chair) of the
+          specifies that the speaker is a regular speaker (rather than, e.g., the chair) of the
           session.</p>
           
           <p>The utterances can (but are not required to) be segmented using the generic
@@ -1529,7 +1529,7 @@
           elements that correspond to various types of transcriber's comments:
           <list>
             <item><gi>vocal</gi> marks any vocalized but not necessarily lexical phenomenon,
-            e.g................................ laughter, sounds of (dis)agreement from the benches etc.</item>
+            e.g. laughter, sounds of (dis)agreement from the benches etc.</item>
             <item><gi>kinesic</gi> marks any communicative phenomenon, not necessarily
             vocalized, for example clapping, a gesture or frown, etc.</item>
             <item><gi>incident</gi> marks any phenomenon or occurrence, not necessarily
@@ -1558,7 +1558,7 @@
           inside them (so, on the same level as <gi>seg</gi> elements) or even inside
           <gi>seg</gi> elements. It is recommended to place them as far up the hierarchy as
           possible, and especially avoid having them inside elements with otherwise contain
-          text only (i.e......................... utterances or segments), as placing elements there leads to mixed
+          text only (i.e. utterances or segments), as placing elements there leads to mixed
           content, which is difficult to process further, in particular if the text is to
           be linguistically annotated. However, if a transcriber comment is placed in the
           middle of the text, then it needs to be encoded inside the utterance, except if
@@ -1570,7 +1570,7 @@
           <head>Gaps</head>
 
 	  <p>The transcribers can also comment that a part of the speech was not
-	  transcribed, e.g................................ because the recording was not understood, sometimes also noting
+	  transcribed, e.g. because the recording was not understood, sometimes also noting
 	  the reason why, such as that the microphone was not turned on, that there was
 	  noise in the chamber, or that the speaker was speaking too quietly. These notes
 	  can be encoded as the <gi>gap</gi> element, which is then also marked by
@@ -1723,7 +1723,7 @@
 
         <p>This section introduces the linguistic annotation that is required by
         ParlaMint. An important note is that a linguistically annotated ParlaMint corpus is
-        stored separately from its base (or <term>plain-text</term>) version, i.e.......................... the
+        stored separately from its base (or <term>plain-text</term>) version, i.e. the
         version that has been discussed in the preceding sections. The linguistically
         annotated version differs from the plain-text one in the following respects:
 	
@@ -1736,13 +1736,13 @@
 	  <code>ParlaMint-CZ_2016-04-13.xml</code> the linguistically annotated one will
 	  be <code>ParlaMint-CZ_2016-04-13.ana.xml</code></item>
 	  
-	  <item>Because the file ID (i.e........................... the value of the top level element attribute
+	  <item>Because the file ID (i.e. the value of the top level element attribute
 	  <att>xml:id</att>, as explained in the Section on <ref
 	  target="#sec-roottags">Attributes of top-level elements</ref>) should be the
 	  same as the file name (cf. the Section on <ref target="#sec-files">File names and
 	  directory structure</ref>), the previous point also means that the
 	  linguistically annotated files should have the top level ID suffixed with
-	  <code>.ana</code>, e.g.................................. <code>&lt;teiCorpus
+	  <code>.ana</code>, e.g. <code>&lt;teiCorpus
 	  xml:id="ParlaMint-FR.ana"&gt;</code></item>
 
 	  <item>The corpus stamp in the main title of the corpus root or components
@@ -1750,7 +1750,7 @@
 	  <code>[ParlaMint]</code> in the plain-text version, should be
 	  <code>[ParlaMint.ana]</code> for the linguistically annotated version.</item>
 	  
-	  <item>All the plain text of the utterance segments (i.e........................... the text immediately
+	  <item>All the plain text of the utterance segments (i.e. the text immediately
 	  contained by the <gi>seg</gi> elements) of the plain-text version should be
 	  linguistically annotated on the specified levels, as is further explained in the
 	  following Section on <ref target="#sec-ana-markup">Linguistic
@@ -1767,7 +1767,7 @@
 	  <head>Linguistic markup</head>
 
 	  <p>ParlaMint requires the following additional markup to be present in the utterance
-	  segments, i.e............................ <gi>seg</gi> elements:
+	  segments, i.e. <gi>seg</gi> elements:
 	  <list>
 	    <item>tokens: what is a word, and what is punctuation, with preserved
 	    information on inter-token spaces;</item>
@@ -1834,7 +1834,7 @@
 	    <p>For <term>synthetic tagsets</term>, such as the <ref
 	    target="https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html">Penn
 	    Treebank tagset</ref>, which have atomic tags that cannot always be decomposed
-	    into attribute-value pairs (e.g..................................... the tag <q>TO</q> for the word <q>to</q>)
+	    into attribute-value pairs (e.g. the tag <q>TO</q> for the word <q>to</q>)
 	    should be encoded using the <att>pos</att> on words and punctuation symbols, as
 	    shown in the example below:
 
@@ -1929,7 +1929,7 @@
           </egXML>
 	  In this case, if such a multi-token syntactic word would not have a space following
 	  it, <code>join="right"</code> should be added to the last token,
-	  i.e................................. <q>lepši</q>.</p>
+	  i.e. <q>lepši</q>.</p>
 	  
 	</div>
 	
@@ -2038,9 +2038,9 @@
           the corpus; how to insert this taxonomy is specified in the Section on <ref
           target="#sec-ana-taxo">Linguistic taxonomies</ref>. There is one more detail to watch
           out for, namely, that UD allows the colon symbol <code>:</code> to appear in extended
-          relation, e.g.......................................... <code>acl:relcl</code> for relative clause modifier. As we already use
+          relation, e.g. <code>acl:relcl</code> for relative clause modifier. As we already use
           the colon for the extended pointer prefix, the colons in the relations should be
-          changed to underscore, e.g........................................... to <code>ud-syn:acl_relcl</code>. Note, however, that the
+          changed to underscore, e.g.to <code>ud-syn:acl_relcl</code>. Note, however, that the
           relations specified in a <gi>link</gi> <att>ana</att> attribute are just pointers,
           and could have any value; it is the UD taxonomy that actually determines the correct
           value of the relation.</p>
@@ -2170,10 +2170,10 @@
 	  <p>Pointing attributes, such as <att>ana</att>, take as their value a series of
 	  references to the value of <att>xml:id</att> elements in an XML document. If this
 	  is the same document, then the reference to the ID is the character hash,
-	  <code>#</code> prefixed to the particular ID, e.g............................................... <val>#parla.uni</val> and if
+	  <code>#</code> prefixed to the particular ID, e.g. <val>#parla.uni</val> and if
 	  they are in another XML document, then the hash is prefixed with the URL of the
-	  document,
-	  e.g............................................... <val>https://nl.ijs.si/ME/V6/msd/tables/msd-fslib2-sl.xml#Vmpr1p</val>.</p>
+	  document, e.g.
+	  <val>https://nl.ijs.si/ME/V6/msd/tables/msd-fslib2-sl.xml#Vmpr1p</val>.</p>
 
 	  <p>Because the complete URL tends to be long, which is especially inconvenient
 	  when such references are given to every token in a corpus, TEI introduces the so
@@ -2208,10 +2208,10 @@
 	  prefix in its <att>matchPattern</att> attribute, and its substitution as the value
 	  of the <att>replacementPattern</att> attribute. The first prefix definition thus
 	  defined the <code>ud-syn</code> prefix, so for any ID reference with this prefix,
-	  e.g................................................. <val>ud-syn:acl_relcl</val>, the part after the prefix
+	  e.g. <val>ud-syn:acl_relcl</val>, the part after the prefix
 	  (<code>acl_relcl</code>) should me matches against <code>(.+)</code> and the result
 	  being the matched part (here the entire relation <code>acl_relcl</code>)
-	  substituted then substituted by <code>#$1</code>, i.e.......................................... by the hash character
+	  substituted then substituted by <code>#$1</code>, i.e. by the hash character
 	  followed by the original value, so that <val>ud-syn:acl_relcl</val> gives
 	  <val>#acl_relcl</val>. This substitution is of course trivial, and hardly
 	  necessary, but was implemented so that all fixed-vocabulary linguistic analyses
@@ -2566,10 +2566,10 @@
               <valList type="open">
                 <!-- AKN -->
                 <valItem ident="narrative">
-                  <desc xml:lang="en">Description in the third person of events taking place in the meeting, e.g................................................. "Mr X. takes the Chair".</desc>
+                  <desc xml:lang="en">Description in the third person of events taking place in the meeting, e.g. "Mr X. takes the Chair".</desc>
                 </valItem>
                 <valItem ident="summary">
-                  <desc xml:lang="en">Summaries of speeches that are individually not interesting, e.g................................................. "Question put and agreed to".</desc>
+                  <desc xml:lang="en">Summaries of speeches that are individually not interesting, e.g. "Question put and agreed to".</desc>
                 </valItem>
                 <!-- AKN and slovParl -->
                 <valItem ident="speaker">
