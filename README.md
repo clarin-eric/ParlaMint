@@ -35,7 +35,7 @@ directory provides more information.
   * finalize the corpora submitted by the project partners to V2.1;
   * validate the corpora (in addition to schema validation also for links and metadata consistency);
   * convert the TEI encoded corpora to derived formats.
-* The *sample country directories* should include:
+* The *[Data](Data/) folder* contains *sample country directories* that should include:
   * `ParlaMint-XX.xml`: teiCorpus root file of the sample with (e.g. speaker and party) metadata and
      XIncludes to its component TEI files;
   * `ParlaMint-XX_*.xml`: sample TEI component, a few speeches from the full text
