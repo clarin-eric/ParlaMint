@@ -18,7 +18,7 @@ for parla in $(jq -r '.[]' <<< $1 ); do
   Scripts/validate-parlamint.pl Schema ${DATADIR}/ParlaMint-$parla 2>&1 | tee $DIR/validate.log | sed "s/^\(.*\)\(error\)/::error::\1\2/i"
 
   echo "Validating parla-CLARIN (TEI)"
-  java -jar /usr/share/java/saxon.jar -xi -xsl:Scripts/copy.xsl ParlaMint-$parla/ParlaMint-$parla.xml > $TESTDIR/ParlaMint-$parla.xml
+  java -jar /usr/share/java/saxon.jar -xi -xsl:Scripts/copy.xsl ${DATADIR}/ParlaMint-$parla/ParlaMint-$parla.xml > $TESTDIR/ParlaMint-$parla.xml
   java -jar /usr/share/java/jing.jar Schema/parla-clarin.rng $TESTDIR/ParlaMint-$parla.xml|tee $DIR/parla-clarin-validate-tei.log | sed "s/^\(.*\)\(error\)/::error::\1\2/i"
 
   echo "::notice::CONVERT to text and metadata"
