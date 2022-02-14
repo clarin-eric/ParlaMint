@@ -68,7 +68,7 @@ text-lang:
 	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-${LANG}/{/.}.txt'
 meta-lang:
 	ls ${DATADIR}/ParlaMint-${LANG}/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../ParlaMint-${LANG}/ParlaMint-${LANG}.xml -xsl:Scripts/parlamint2meta.xsl \
+	'$s hdr=../${DATADIR}/ParlaMint-${LANG}/ParlaMint-${LANG}.xml -xsl:Scripts/parlamint2meta.xsl \
 	{} > ${DATADIR}/ParlaMint-${LANG}/{/.}-meta.tsv'
 conllu-lang:
 	Scripts/parlamint2conllu.pl ${DATADIR}/ParlaMint-${LANG} ${DATADIR}/ParlaMint-${LANG}
@@ -84,7 +84,7 @@ val-pc-lang:
 conllu-si:
 	rm -f ${DATADIR}/ParlaMint-SI/*.conllu
 	ls ${DATADIR}/ParlaMint-SI/*_*.ana.xml | $P --jobs 10 \
-	'$s meta=../ParlaMint-SI/ParlaMint-SI.ana.xml -xsl:Scripts/parlamint2conllu.xsl {} > {.}.conllu'
+	'$s meta=../${DATADIR}/ParlaMint-SI/ParlaMint-SI.ana.xml -xsl:Scripts/parlamint2conllu.xsl {} > {.}.conllu'
 	rename 's/\.ana\.conllu/.conllu/' ${DATADIR}/ParlaMint-SI/*.ana.conllu
 	python3 Scripts/tools/validate.py --lang sl --level 1 ${DATADIR}/ParlaMint-SI/*.conllu
 	python3 Scripts/tools/validate.py --lang sl --level 2 ${DATADIR}/ParlaMint-SI/*.conllu
@@ -92,7 +92,7 @@ conllu-si:
 
 SI = ParlaMint-SI_2018-04-13-SDZ7-Izredna-59
 test-conllu-si:
-	$s meta=../ParlaMint-SI/ParlaMint-SI.ana.xml -xsl:Scripts/parlamint2conllu.xsl \
+	$s meta=../${DATADIR}/ParlaMint-SI/ParlaMint-SI.ana.xml -xsl:Scripts/parlamint2conllu.xsl \
 	${DATADIR}/ParlaMint-SI/${SI}.ana.xml > ${DATADIR}/ParlaMint-SI/${SI}.conllu
 	python3 Scripts/tools/validate.py --lang sl --level 1 ${DATADIR}/ParlaMint-SI/${SI}.conllu
 	python3 Scripts/tools/validate.py --lang sl --level 2 ${DATADIR}/ParlaMint-SI/${SI}.conllu
@@ -100,7 +100,7 @@ test-conllu-si:
 
 CZ = ParlaMint-CZ_2013-11-25-ps2013-001-01-001-001
 test-conllu-cz:
-	$s meta=../ParlaMint-CZ/ParlaMint-CZ.ana.xml -xsl:Scripts/parlamint2conllu.xsl \
+	$s meta=../${DATADIR}/ParlaMint-CZ/ParlaMint-CZ.ana.xml -xsl:Scripts/parlamint2conllu.xsl \
 	${DATADIR}/ParlaMint-CZ/${CZ}.ana.xml > ${DATADIR}/ParlaMint-CZ/${CZ}.conllu
 	python3 Scripts/tools/validate.py --lang cs --level 1 ${DATADIR}/ParlaMint-CZ/${CZ}.conllu
 	python3 Scripts/tools/validate.py --lang cs --level 2 ${DATADIR}/ParlaMint-CZ/${CZ}.conllu
@@ -108,7 +108,7 @@ test-conllu-cz:
 
 DK = ParlaMint-DK_2018-11-22-20181-M24
 test-conllu-dk:
-	$s meta=../ParlaMint-DK/ParlaMint-DK.ana.xml -xsl:Scripts/parlamint2conllu.xsl \
+	$s meta=../${DATADIR}/ParlaMint-DK/ParlaMint-DK.ana.xml -xsl:Scripts/parlamint2conllu.xsl \
 	${DATADIR}/ParlaMint-DK/${DK}.ana.xml > ${DATADIR}/ParlaMint-DK/${DK}.conllu
 	python3 Scripts/tools/validate.py --lang dk --level 1 ${DATADIR}/ParlaMint-DK/${DK}.conllu
 	python3 Scripts/tools/validate.py --lang dk --level 2 ${DATADIR}/ParlaMint-DK/${DK}.conllu
@@ -117,12 +117,12 @@ test-conllu-dk:
 BE = ParlaMint-BE_2015-06-10-54-commissie-ic189x
 test-conllu-be:	test-conllu-be-nl test-conllu-be-fr
 test-conllu-be-nl:
-	$s seg-lang=nl meta=../ParlaMint-BE/ParlaMint-BE.ana.xml -xsl:Scripts/parlamint2conllu.xsl \
+	$s seg-lang=nl meta=../${DATADIR}/ParlaMint-BE/ParlaMint-BE.ana.xml -xsl:Scripts/parlamint2conllu.xsl \
 	${DATADIR}/ParlaMint-BE/${BE}.ana.xml > ${DATADIR}/ParlaMint-BE/${BE}-nl.conllu
 	python3 Scripts/tools/validate.py --lang nl --level 1 ${DATADIR}/ParlaMint-BE/${BE}-nl.conllu
 	-python3 Scripts/tools/validate.py --lang nl --level 2 ${DATADIR}/ParlaMint-BE/${BE}-nl.conllu
 test-conllu-be-fr:
-	$s seg-lang=fr meta=../ParlaMint-BE/ParlaMint-BE.ana.xml -xsl:Scripts/parlamint2conllu.xsl \
+	$s seg-lang=fr meta=../${DATADIR}/ParlaMint-BE/ParlaMint-BE.ana.xml -xsl:Scripts/parlamint2conllu.xsl \
 	${DATADIR}/ParlaMint-BE/${BE}.ana.xml > ${DATADIR}/ParlaMint-BE/${BE}-fr.conllu
 	python3 Scripts/tools/validate.py --lang fr --level 1 ${DATADIR}/ParlaMint-BE/${BE}-fr.conllu
 	-python3 Scripts/tools/validate.py --lang fr --level 2 ${DATADIR}/ParlaMint-BE/${BE}-fr.conllu
@@ -189,75 +189,75 @@ meta:
 	rm -f ${DATADIR}/ParlaMint-??/*-meta.tsv
 
 	ls ${DATADIR}/ParlaMint-BE/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../ParlaMint-BE/ParlaMint-BE.xml -xsl:Scripts/parlamint2meta.xsl \
+	'$s hdr=../${DATADIR}/ParlaMint-BE/ParlaMint-BE.xml -xsl:Scripts/parlamint2meta.xsl \
 	{} > ${DATADIR}/ParlaMint-BE/{/.}-meta.tsv'
 
 	ls ${DATADIR}/ParlaMint-BG/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../ParlaMint-BG/ParlaMint-BG.xml -xsl:Scripts/parlamint2meta.xsl \
+	'$s hdr=../${DATADIR}/ParlaMint-BG/ParlaMint-BG.xml -xsl:Scripts/parlamint2meta.xsl \
 	{} > ${DATADIR}/ParlaMint-BG/{/.}-meta.tsv'
 
 	ls ${DATADIR}/ParlaMint-CZ/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../ParlaMint-CZ/ParlaMint-CZ.xml -xsl:Scripts/parlamint2meta.xsl \
+	'$s hdr=../${DATADIR}/ParlaMint-CZ/ParlaMint-CZ.xml -xsl:Scripts/parlamint2meta.xsl \
 	{} > ${DATADIR}/ParlaMint-CZ/{/.}-meta.tsv'
 
 	ls ${DATADIR}/ParlaMint-DK/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../ParlaMint-DK/ParlaMint-DK.xml -xsl:Scripts/parlamint2meta.xsl \
+	'$s hdr=../${DATADIR}/ParlaMint-DK/ParlaMint-DK.xml -xsl:Scripts/parlamint2meta.xsl \
 	{} > ${DATADIR}/ParlaMint-DK/{/.}-meta.tsv'
 
 	ls ${DATADIR}/ParlaMint-ES/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../ParlaMint-ES/ParlaMint-ES.xml -xsl:Scripts/parlamint2meta.xsl \
+	'$s hdr=../${DATADIR}/ParlaMint-ES/ParlaMint-ES.xml -xsl:Scripts/parlamint2meta.xsl \
 	{} > ${DATADIR}/ParlaMint-ES/{/.}-meta.tsv'
 
 	ls ${DATADIR}/ParlaMint-FR/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../ParlaMint-FR/ParlaMint-FR.xml -xsl:Scripts/parlamint2meta.xsl \
+	'$s hdr=../${DATADIR}/ParlaMint-FR/ParlaMint-FR.xml -xsl:Scripts/parlamint2meta.xsl \
 	{} > ${DATADIR}/ParlaMint-FR/{/.}-meta.tsv'
 
 	ls ${DATADIR}/ParlaMint-GB/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../ParlaMint-GB/ParlaMint-GB.xml -xsl:Scripts/parlamint2meta.xsl \
+	'$s hdr=../${DATADIR}/ParlaMint-GB/ParlaMint-GB.xml -xsl:Scripts/parlamint2meta.xsl \
 	{} > ${DATADIR}/ParlaMint-GB/{/.}-meta.tsv'
 
 	ls ${DATADIR}/ParlaMint-HR/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../ParlaMint-HR/ParlaMint-HR.xml -xsl:Scripts/parlamint2meta.xsl \
+	'$s hdr=../${DATADIR}/ParlaMint-HR/ParlaMint-HR.xml -xsl:Scripts/parlamint2meta.xsl \
 	{} > ${DATADIR}/ParlaMint-HR/{/.}-meta.tsv'
 
 	ls ${DATADIR}/ParlaMint-HU/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../ParlaMint-HU/ParlaMint-HU.xml -xsl:Scripts/parlamint2meta.xsl \
+	'$s hdr=../${DATADIR}/ParlaMint-HU/ParlaMint-HU.xml -xsl:Scripts/parlamint2meta.xsl \
 	{} > ${DATADIR}/ParlaMint-HU/{/.}-meta.tsv'
 
 	ls ${DATADIR}/ParlaMint-IS/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../ParlaMint-IS/ParlaMint-IS.xml -xsl:Scripts/parlamint2meta.xsl \
+	'$s hdr=../${DATADIR}/ParlaMint-IS/ParlaMint-IS.xml -xsl:Scripts/parlamint2meta.xsl \
 	{} > ${DATADIR}/ParlaMint-IS/{/.}-meta.tsv'
 
 	ls ${DATADIR}/ParlaMint-IT/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../ParlaMint-IT/ParlaMint-IT.xml -xsl:Scripts/parlamint2meta.xsl \
+	'$s hdr=../${DATADIR}/ParlaMint-IT/ParlaMint-IT.xml -xsl:Scripts/parlamint2meta.xsl \
 	{} > ${DATADIR}/ParlaMint-IT/{/.}-meta.tsv'
 
 	ls ${DATADIR}/ParlaMint-LT/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../ParlaMint-LT/ParlaMint-LT.xml -xsl:Scripts/parlamint2meta.xsl \
+	'$s hdr=../${DATADIR}/ParlaMint-LT/ParlaMint-LT.xml -xsl:Scripts/parlamint2meta.xsl \
 	{} > ${DATADIR}/ParlaMint-LT/{/.}-meta.tsv'
 
 	ls ${DATADIR}/ParlaMint-LV/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../ParlaMint-LV/ParlaMint-LV.xml -xsl:Scripts/parlamint2meta.xsl \
+	'$s hdr=../${DATADIR}/ParlaMint-LV/ParlaMint-LV.xml -xsl:Scripts/parlamint2meta.xsl \
 	{} > ${DATADIR}/ParlaMint-LV/{/.}-meta.tsv'
 
 	ls ${DATADIR}/ParlaMint-NL/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../ParlaMint-NL/ParlaMint-NL.xml -xsl:Scripts/parlamint2meta.xsl \
+	'$s hdr=../${DATADIR}/ParlaMint-NL/ParlaMint-NL.xml -xsl:Scripts/parlamint2meta.xsl \
 	{} > ${DATADIR}/ParlaMint-NL/{/.}-meta.tsv'
 
 	ls ${DATADIR}/ParlaMint-PL/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../ParlaMint-PL/ParlaMint-PL.xml -xsl:Scripts/parlamint2meta.xsl \
+	'$s hdr=../${DATADIR}/ParlaMint-PL/ParlaMint-PL.xml -xsl:Scripts/parlamint2meta.xsl \
 	{} > ${DATADIR}/ParlaMint-PL/{/.}-meta.tsv'
 
 	# ls ${DATADIR}/ParlaMint-RO/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	# '$s hdr=../ParlaMint-RO/ParlaMint-RO.xml -xsl:Scripts/parlamint2meta.xsl \
+	# '$s hdr=../${DATADIR}/ParlaMint-RO/ParlaMint-RO.xml -xsl:Scripts/parlamint2meta.xsl \
 	# {} > ${DATADIR}/ParlaMint-RO/{/.}-meta.tsv'
 
 	ls ${DATADIR}/ParlaMint-SI/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../ParlaMint-SI/ParlaMint-SI.xml -xsl:Scripts/parlamint2meta.xsl \
+	'$s hdr=../${DATADIR}/ParlaMint-SI/ParlaMint-SI.xml -xsl:Scripts/parlamint2meta.xsl \
 	{} > ${DATADIR}/ParlaMint-SI/{/.}-meta.tsv'
 
 	ls ${DATADIR}/ParlaMint-TR/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../ParlaMint-TR/ParlaMint-TR.xml -xsl:Scripts/parlamint2meta.xsl \
+	'$s hdr=../${DATADIR}/ParlaMint-TR/ParlaMint-TR.xml -xsl:Scripts/parlamint2meta.xsl \
 	{} > ${DATADIR}/ParlaMint-TR/{/.}-meta.tsv'
 
 #Generation of character profiles
