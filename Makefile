@@ -1,6 +1,22 @@
 
 DATADIR = Data
 
+
+# test settings and prerequisites for makefile run
+prereq:
+	@test -f /usr/share/java/saxon.jar
+	@unzip -p /usr/share/java/saxon.jar META-INF/MANIFEST.MF|grep 'Main-Class:'| grep -q 'net.sf.saxon.Transform'
+	@echo "Saxon: OK"
+	@test -f /usr/share/java/jing.jar
+	@unzip -p /usr/share/java/jing.jar META-INF/MANIFEST.MF|grep 'Main-Class:'| grep -q 'relaxng'
+	@echo "Jing: OK"
+	@test -f Scripts/tools/validate.py
+	@python -m re
+	@echo "UD tools: OK"
+	@echo "INFO: Maximum java heap size (saxon needs 5-times more than the size of processed xml file)"
+	@java -XX:+PrintFlagsFinal -version 2>&1| grep " MaxHeapSize"|sed "s/^.*= *//;s/ .*$$//"|awk '{print "\t" $$1/1024/1024/1024 " GB"}'
+
+
 #Table3: Make table with data on corpora
 table-data:
 	$s mode=tsv -xsl:Scripts/parlamint2tbl-data.xsl ../V2/Master/ParlaMint.xml > ${DATADIR}/Metadata/ParlaMint-data.tsv
@@ -122,14 +138,25 @@ all:	val-all
 # ParlaMint validation
 val-all:
 	Scripts/validate-parlamint.pl Schema '${DATADIR}/ParlaMint-??'
+
 # ParlaMint validation with Jing only, but also with Parla-CLARIN
-val-jing:
-	ls ${DATADIR}/ParlaMint-??/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs ${pc}
-	ls ${DATADIR}/ParlaMint-??/ParlaMint-*.xml | grep    '.ana.' | grep -v '_' | xargs ${pc}
+val-jing: val-jing-parla-clarin val-jing-parlamint
+
+val-jing-parlamint:
 	ls ${DATADIR}/ParlaMint-??/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs ${vrt}
 	ls ${DATADIR}/ParlaMint-??/ParlaMint-*.xml | grep -v '.ana.' | grep    '_' | xargs ${vct}
 	ls ${DATADIR}/ParlaMint-??/ParlaMint-*.xml | grep    '.ana.' | grep -v '_' | xargs ${vra}
 	ls ${DATADIR}/ParlaMint-??/ParlaMint-*.xml | grep    '.ana.' | grep    '_' | xargs ${vca}
+
+val-jing-parla-clarin: create-all-in-one
+	ls ${DATADIR}/ParlaMint-??/ParlaMint-*.xml.all-in-one.xml | grep -v '.ana.' | xargs ${pc}
+	ls ${DATADIR}/ParlaMint-??/ParlaMint-*.xml.all-in-one.xml | grep    '.ana.' | xargs ${pc}
+	rm -f  ${DATADIR}/ParlaMint-??/*.xml.all-in-one.xml
+
+create-all-in-one:
+	rm -f  ${DATADIR}/ParlaMint-??/*.xml.all-in-one.xml
+	ls  ${DATADIR}/ParlaMint-??/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs ${copy}
+	ls  ${DATADIR}/ParlaMint-??/ParlaMint-*.xml | grep    '.ana.' | grep -v '_' | xargs ${copy}
 
 #Generation and validation of CoNLL-U files
 #If you want to use, first do:
@@ -382,7 +409,8 @@ clean:
 s = java -jar /usr/share/java/saxon.jar
 P = parallel --gnu --halt 2
 j = java -jar /usr/share/java/jing.jar 
-pc = -I % $s -xi -xsl:Scripts/copy.xsl % | $j Schema/parla-clarin.rng
+copy = -I % $s -xi:on -xsl:Scripts/copy.xsl -s:% -o:%.all-in-one.xml
+pc =  $j Schema/parla-clarin.rng
 vrt = $j Schema/ParlaMint-teiCorpus.rng 	# Corpus root / text
 vct = $j Schema/ParlaMint-TEI.rng		# Corpus component / text
 vra = $j Schema/ParlaMint-teiCorpus.ana.rng	# Corpus root / analysed
