@@ -1638,7 +1638,7 @@
           </egXML>
           
 	  As the example shows, the original content of the transcriber comment is retained in the
-	  <gi>desc</gi> element, Note that in cases when the agent of an incident is know, they
+	  <gi>desc</gi> element, Note that in cases when the agent of an incident is known, they
 	  can be specified in the optional <att>who</att> attribute.</p>
 
           <p>It should be noted that <gi>note</gi> and the four incident elements can be placed
@@ -1835,7 +1835,7 @@
             retain the linguistically significant whitespace, the <att>join</att> element
             with the value <val>right</val> is used, meaning there should be no whitespace
             to the right of the token. There can be (depending on the language and
-            annotation tool used) and added complication with tokenisation, which is
+            annotation tool used) an added complication with tokenisation, which is
             further taken up in the next Section on <ref target="sec-ana-norm">Syntactic
             words</ref>.
 
@@ -1853,7 +1853,7 @@
 	    another tagset<note>These are typically tagset developed and used for specific
 	    languages and can be found in the XPOS column of CoNLL-U files, which is the
 	    native format for UD treebanks.</note> to be added to the linguistic
-	    annotation. Where this information is encoded, depends of the type of tagset.</p>
+	    annotation. Where this information is encoded, depends on the type of tagset.</p>
 
 	    <p>For <term>synthetic tagsets</term>, such as the <ref
 	    target="https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html">Penn
@@ -1941,11 +1941,11 @@
 	    <code>join="right"</code> should be added to the top level word.</p>
 	    
             <p>While we do not have examples of such a practice yet, there could also be cases
-            where two (or more) tokens words correspond to one syntactic word. In such cases it
+            where two (or more) tokens words correspond to one syntactic word. In such cases, it
             is the syntactic word that is on the top level, while the inner words are the actual
             tokens. To take an example from historical language, Slovene used to form the
             superlative form of adjectives with the word <q>naj</q> written separately (and often
-            as <q>nar</q>), while in contemporary Slovene the <q>naj</q> is a prefix of the
+            as <q>nar</q>), while in contemporary Slovene, the <q>naj</q> is a prefix of the
             adjective. This would be encoded as follows:
             
             <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-ana-norm2">
@@ -2016,8 +2016,8 @@
           <div xml:id="sec-parses">
             <head>Syntactic parses</head>
             
-            <p>The final ParlaMint annotation level is that of dependency syntax, more precisely
-            the syntactic analysis according to the Universal Dependences for the particular
+            <p>The final ParlaMint annotation level is that of dependency syntax, more precisely,
+            the syntactic analysis according to the Universal Dependencies for the particular
             language. These analyses are encoded inside their sentence mark-up, although in a
             stand-off manner. This means that each token must be given an ID, while the syntactic
             analysis is stored in the link group, <gi>linkGrp</gi> element, which is then
@@ -2047,9 +2047,9 @@
 	    <att>type</att>, both with fixed values, and that it contains a series of empty
 	    <gi>link</gi> elements.</p>
 	    
-            <p>The link elements then give, via the value of their <att>target</att> attribute
-            references the head and argument tokens of the syntactic relation which is specified
-            in the <att>ana</att> attribute. By convention the links are ordered so that the
+            <p>The link elements then give, via the value of their <att>target</att> attribute,
+            references the head and argument tokens of the syntactic relation, which is specified
+            in the <att>ana</att> attribute. By convention, the links are ordered so that the
             argument token references follow the ordering of the tokens in the sentence. Note
             also that for the top level <code>root</code> relation, the head is the sentence
             ID.</p>
@@ -2206,7 +2206,7 @@
 	    reference, and the value of this prefix is determined via the <gi>prefixDef</gi>
 	    element in the <gi>profileDesc</gi> of the TEI header. ParlaMint uses this
 	    mechanism for all linguistic annotations with a closed vocabulary, in particular
-	    for the Universal Dependences syntactic relations and for the optional and
+	    for the Universal Dependencies syntactic relations and for the optional and
 	    corpus-specific analytical part-of-speech tags, as discussed in the Section on <ref
 	    target="#sec-parses">Syntactic parses</ref> and <ref
 	    target="#sec-ana-words">Word-level annotation</ref>. The example below illustrates
@@ -2442,7 +2442,7 @@
 	  and a set of schemas that were made from scratch for ParlaMint.</p>
 
 	  <p>The TEI customisation is written as a TEI ODD document, and is, in fact, the XML
-	  version of this document as available in the <ref
+	  version of this document is available in the <ref
 	  target="https://github.com/clarin-eric/ParlaMint/tree/main/TEI">TEI/
 	  directory</ref> of the ParlaMint GitHub repository. The XML contains not only the
 	  prose guidelines, but also the formal specification of the TEI schema in <ref
@@ -2476,7 +2476,7 @@
 	  and one for its components. These schemas can be found in the <ref
 	  target="https://github.com/clarin-eric/ParlaMint/tree/main/Schema">Schema/
 	  directory</ref> of the ParlaMint GitHub repository, with the README file giving
-	  instructions how to use them.</p>
+	  instructions on how to use them.</p>
 
 	  <p>While validating with XML schemas checks the formal structure of XML files, it is
 	  less successful in validating other aspects of conformance, such as the textual content
@@ -2510,7 +2510,7 @@
 	  
           <p>While the vast majority of converting source encodings into the ParlaMint corpus
           format is left to the compilers of a corpus, there are a few elements that can be
-          produces by common scripts on the basis of nearly finished corpora and lead to the final
+          produced by common scripts on the basis of nearly finished corpora and lead to the final
           version of the corpus for a particular release. This includes setting the date, edition
           and handle under which the corpus will be distributed, and also calculating the size of
           the corpus (cf. the Sections on <ref target="#sec-extent">Extents</ref> and on <ref
