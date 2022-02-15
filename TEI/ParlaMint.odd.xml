@@ -72,9 +72,9 @@
 	target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN</ref>, itself a
 	customisation the <ref
 	target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html">TEI
-	Guidelines</ref>. But while Parla-CLARIN gives fairly general recommendation for
-	encoding corpora of parliamentary proceeding, ParlaMint, as mentioned, is much
-	stricter and this document gives very specific encoding recommendations, without
+	Guidelines</ref>. But while Parla-CLARIN gives fairly general recommendations for
+	encoding corpora of parliamentary proceedings, ParlaMint, as mentioned, is much
+	stricter. This document gives very specific encoding recommendations without
 	necessarily stating the reasons for their choice.</p>
 
 	<p>The document is not meant as a tutorial on TEI or ParlaMint, but as a reference to
@@ -107,7 +107,7 @@
           and the file-naming conventions a ParlaMint corpus has to meet; it also introduces
           the top level elements of a corpus root and components and their attributes;</item>
 
-          <item><ref target="#sec-metadata">Chapter 4</ref> concentrates on the encoding the
+          <item><ref target="#sec-metadata">Chapter 4</ref> concentrates on encoding the
           rich corpus metadata, such as information on speakers and political parties;</item>
           
           <item><ref target="#chp-transcript">Chapter 5</ref> treats the encoding of the
@@ -119,7 +119,7 @@
           <item><ref target="#chp-validation">Chapter 7</ref> introduces scripts to finalise,
           validate and convert a ParlaMint corpus to other formats;</item>
 
-          <item><ref target="#chp-contributing">Chapter 8</ref> gives instructions how to
+          <item><ref target="#chp-contributing">Chapter 8</ref> gives instructions on how to
           contribute samples of a ParlaMint corpus to GitHub;</item>
 
           <item><ref target="#schema">Appendix A</ref> gives the formal specification of
@@ -178,8 +178,8 @@
         </egXML>
         </p>
 
-        <p>Each corpus component should contain at most the transcripts for one day, atlthough
-        several components can contain the transcript for the same day but e.g. for different
+        <p>Each corpus component should contain at most the transcripts for one day, although
+        several components can contain the transcript for the same day, e.g. for different
         (types of) meetings. How and if these further subdivisions into separate components
         are realised is dependent on the corpus, as the granularity of parliamentary
         proceedings corpora, not to mention the national rules of structuring the workings of
@@ -222,7 +222,7 @@
           <p>The corpus should be encoded in Unicode, using the UTF-8 character encoding, at
           least for European languages.  In cases where the original contains characters from
           the Unicode Private Use Area, these should, if possible, be given their closest
-          Unicode equivalents, or substituted by the Unicode replacement character
+          Unicode equivalents or substituted by the Unicode replacement character
           U+FFFD. End-of-line hyphens, if present in the source files, should be removed, and
           the split words joined in order to enhance searching the corpus and to simplify
           linguistic processing.</p>
@@ -274,7 +274,7 @@
 	    parliaments) and <ref target="https://en.wikipedia.org/wiki/ISO_3166-2">ISO
 	    3166-2</ref> for the names of country subdivision (for parliaments of autonomous
 	    provinces). So, for example, the country code for Spain is "ES", while the code
-	    for the Basque autonomous community is "ES-PV".</item>
+	    for the autonomous Basque community is "ES-PV".</item>
 	    
 	    <item>The codes for the languages used in the corpora (i.e. the possible values
 	    of the <att>xml:lang</att> attribute) should follow <ref
@@ -292,10 +292,10 @@
 	    </item>
 	    
 	    <item>ParlaMint also makes a lot of use of temporal information, i.e. to
-	    determine when a session took place, or from (and maybe to) when a certain
+	    determine when a session took place or from (and maybe to) when a certain
 	    person was an MP. To specify a date or time <ref
 	    target="https://en.wikipedia.org/wiki/ISO_8601">ISO 8601</ref> should be used,
-	    for ParlaMint typically giving just the date, e.g. "2022-04-01". Temporal values
+	    for ParlaMint typically gives just the date, e.g. "2022-04-01". Temporal values
 	    are usually stored in the <att>when</att>, <att>from</att> and <att>to</att>
 	    attributes of various elements.</item>
 	  </list>
@@ -341,7 +341,7 @@
 
 	  The complete corpus should be stored in a directory that has the same name prefix
 	  as the corpus root file. The directory then contains the corpus root file, while
-	  the corpus components should be found in subdirectory, one per year, for example:
+	  the corpus components should be found in a subdirectory, one per year, for example:
 	  
           <eg xml:id="exa-directories">
 	    <code>ParlaMint-BE.TEI/ParlaMint-BE.xml</code><lb/>
@@ -383,7 +383,7 @@
 	    be unique in the corpus as a whole and should obey format requirements as
 	    defined by <ref target="https://www.w3.org/TR/xml-id/">W3C</ref>.
 	    
-	    For the corpus root and component files it is required that
+	    For the corpus root and component files, it is required that
 	    this top level identifier is identical to the file name (without the file
 	    extension).
 
@@ -404,7 +404,7 @@
 	    <item><att>xml:lang</att> is also a global attribute and gives the language code
 	    of the text content of the element. The convention is that language of the text
 	    content of an element is determined by the value of the first
-	    <att>xml:lang</att> attribute on it ancestor axis. In cases where the content is
+	    <att>xml:lang</att> attribute on its ancestor axis. In cases where the content is
 	    multilingual, the language code should be of the majority language. When the
 	    proportion of the languages is about equal, then the <q>mul</q> code for
 	    multiple languages should be used.</item>
@@ -431,10 +431,10 @@
 	    pointing attribute, which has as its value a white-space delimited sequence of
 	    ID references, i.e. references to the values of some <att>xml:id</att>
 	    attribute in the corpus. In general, they refer to the element IDs given in
-	    other parts of the corpus root header, in this case the categories of taxonomy
+	    other parts of the corpus root header, in this case, the categories of taxonomy
 	    elements that specify that this component contains the transcription of one
 	    sitting and belongs to the reference subcorpus; the structure and content of
-	    the taxonomies used is further explained in the Section on the <ref
+	    the taxonomies used are further explained in the Section on the <ref
 	    target="#sec-classDecl">Class declaration</ref>.</item>
 	  </list>
 	  </p>
@@ -454,7 +454,7 @@
 	<p>As a general remark, most metadata contains free text, and it is a requirement of
 	ParlaMint that this data is given in the English language, to help researchers for
 	other countries to understand it, but also in the local language in which the (main
-	portion of) parliamentary transcripts is written, in order for local researcher to
+	portion of) parliamentary transcripts is written, for a local researcher to
 	be able to use it in their native tongue.</p>
 
 	<p>A ParlaMint <gi>teiHeader</gi> contains three obligatory elements: the file
@@ -556,7 +556,7 @@
 	    <p>The formal information is given in the values of the <att>corresp</att> and
 	    <att>ana</att> attributes, which are pointing attributes, as already explained in
 	    the Section on <ref target="sec-roottags">Attributes of top-level
-	    elements</ref>. Here they refer the definition of organisations further explained
+	    elements</ref>. Here they refer to the definition of organisations further explained
 	    in the Section on <ref target="#sec-orgs">Organisations</ref> and the categories
 	    of taxonomy elements, further explained in the Section on the <ref
 	    target="#sec-classDecl">Class declaration</ref>. The value of the
@@ -584,7 +584,7 @@
 	    <p>A corpus component has a very similar title statement to the corpus root,
 	    except that certain elements specify the metadata of the component, rather than
 	    the complete corpus. Unlike with most other elements in the component header, we
-	    here also have some redundant metadata, in particular the responsibility statement
+	    here also have some redundant metadata, in particular, the responsibility statement
 	    and the funder, as illustrated in the example below:
 	    
 	    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-titleStmtComp">
@@ -618,7 +618,7 @@
 	    text. Both titles must be unique in the complete corpus.</p>
 
 	    <p>The other difference is in the <gi>meeting</gi> elements, which here specify a
-	    particular meeting, in this case an extraordinary meeting of the lower house in
+	    particular meeting, in this case, an extraordinary meeting of the lower house in
 	    the seventh term of the National Assembly of the Republic of Slovenia.
 	    </p>
 	  </div>
@@ -661,13 +661,13 @@
 	    distinguished by their <att>unit</att> attribute, namely the number of speeches
 	    and the number of words. The exact quantity is given in the <att>quantity</att>
 	    attribute, while the text content of <gi>measure</gi> gives the quantity together
-	    with the with the unit - if possible, the number here should contain the thousands
+	    with the unit - if possible, the number here should contain the thousands
 	    separator appropriate for the language.</p>
 
 	    <p>It should be noted that both sizes are somewhat complex to compute and are
 	    inserted into the TEI headers in the finalisation of a corpus (cf. the Section on
 	    <ref target="#sec-final">Finalisation of corpora</ref>) by a common script,
-	    so it is not necessary insert the extent in the process of developing a ParlaMint
+	    so it is not necessary to insert the extent in the process of developing a ParlaMint
 	    corpus.</p>
 	  </div>
 
@@ -740,7 +740,7 @@
 
 	    <p>For corpus components the source description is very similar to the one for the
 	    corpus root, except that the <gi>title</gi> and, optionally, <gi>edition</gi> can
-	    be modified to give constrain the description to the exact meeting the component
+	    be modified to constrain the description to the exact meeting the component
 	    contains. Furthermore, if the audio or video of a corpus component is available,
 	    this informations can also be added in the <gi>recodingStmt</gi>, as illustrated
 	    below:
@@ -803,7 +803,7 @@
             <head>Project description</head>
 	    
 	    <p>The project description <gi>projectDesc</gi> of the corpus root
-	    contains a short description if the project in the scope of which the
+	    contains a short description of the project in the scope of which the
 	    corpus was compiled:
 	    
 	    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-projectDesc">
@@ -834,7 +834,7 @@
             <head>Editorial declaration</head>
             
             <p>The editorial declaration, <gi>editorialDecl</gi> is used only in the
-            corpus root and contains prose descriptions of editorial decision made in
+            corpus root and contains prose descriptions of the editorial decision made in
             the process of compiling the corpus, along several dimensions, in
             particular what, if any types of <gi>correction</gi>,
             <gi>normalization</gi>, <gi>quotation</gi>, <gi>hyphenation</gi>, and
@@ -877,8 +877,8 @@
 	    count of all the XML tags used in the data part (so, not in the TEI
 	    header) of the corpus (for the corpus root) or in an individual component
 	    of the corpus. To distinguish the TEI elements from the possible use of
-	    elements from other namespaces, a <gi>namespace</gi>, element giving the
-	    TEI namespace it its <att>name</att> attribute, is introduced
+	    elements from other namespaces, a <gi>namespace</gi> element giving the
+	    TEI namespace in its <att>name</att> attribute is introduced
 	    first. Inside it, each TEI tag is listed in its own <gi>tagUsage</gi>
 	    element, with the attribute <att>gi</att> giving the name of the tag and
 	    <att>occurs</att> the number of occurrences, as shown in the following
@@ -903,7 +903,7 @@
 	      </tagsDecl>
 	    </egXML>
 	    
-	    It should be noted that, similar to the extents (as explained in the Section on
+	    It should be noted that similar to the extents (as explained in the Section on
 	    <ref target="#sec-extent">Extents</ref>) the tag usage is inserted into
 	    the TEI headers in the finalisation of a corpus (cf. the Section on <ref
 	    target="#sec-conversion">Validation and conversion</ref>) by a common
@@ -966,7 +966,7 @@
 	    target="#sec-ana-metadata">Linguistic metadata</ref>). The taxonomies are, for
 	    ParlaMint corpora, defined globally and available as part of the data on the <ref
 	    target="https://github.com/clarin-eric/ParlaMint/">ParlaMint GitHub
-	    repository</ref>. They should be inserted unchanged in the corpus header but if
+	    repository</ref>. They should be inserted unchanged in the corpus header, but if
 	    there is a need to modify them, e.g. by inserting translations into a new local
 	    language, then this change needs to be agreed to and pushed to the repository.</p>
 
@@ -976,7 +976,7 @@
 	      <item>The <hi>subcorpus</hi> taxonomy, already given in the example</item>
 	      
 	      <item>The taxonomy of <hi>speaker types</hi>, which distinguishes e.g. the
-	      chair, a ordinary speaker, and a guest speaker.</item>
+	      chair, an ordinary speaker, and a guest speaker.</item>
 	      
 	      <item>The <hi>legislature</hi> taxonomy, which gives the possible
 	      organisations of a parliament, and is by far the most complex one, and will
@@ -991,7 +991,7 @@
           <head>Profile description</head>
 	  
 	  <p>The profile description, <gi>profileDesc</gi> is the third main division of the
-	  metadata provided by the TEI header and contains a description of
+	  metadata provided by the TEI header. It contains a description of
 	  non-bibliographic aspects of the corpus, for example the list of speakers with
 	  their metadata. For the corpus root, it contains four elements, of which only the
 	  first, the <gi>settingDesc</gi> is used in corpus components. The elements are
@@ -1060,7 +1060,7 @@
 	    
 	    <p>The text class, <gi>textClass</gi> groups information which describes the
 	    nature or topic of the corpus in terms of a standard classification scheme. In a
-	    ParlaMint corpus root it contains only the category reference, <gi>catRef</gi>
+	    ParlaMint corpus root, it contains only the category reference, <gi>catRef</gi>
 	    element:
 	    
 	    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-textClass">
@@ -1278,7 +1278,7 @@
 	      The type of relation (which can only be <val>coalition</val> or
 	      <val>opposition</val>) is given in the <att>name</att> attribute. As a
 	      coalition is a mutual relation, the pointers to the party IDs are given in the
-	      <att>mutual</att> attribute, whereas an opposition is a <att>active</att>
+	      <att>mutual</att> attribute, whereas an opposition is an <att>active</att>
 	      relation of the opposing parties to the government, the pointer to which is
 	      given in the <att>passive</att> attribute.  It is also necessary to specify
 	      <att>from</att> when and (in cases of past oppositions) <att>to</att> when the
@@ -1293,7 +1293,7 @@
 	      
 	      <p>As mentioned, the information on speakers is given in the
 	      <gi>listPerson</gi> element of the participant description. This element then
-	      contains the list of <gi>person</gi> elements, each of which give information
+	      contains the list of <gi>person</gi> elements, each of which gives information
 	      on an individual speaker, as the example below illustrates:
 
 	      <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-speakers">
@@ -1355,8 +1355,8 @@
 	      <val>substituteMP</val>, <val>president</val>, <val>vicePresident</val>,
 	      <val>chairman</val>, <val>viceChairman</val>, and <val>minister</val>.</p>
 
-	      <p>The <att>ref</att> attribute points to the organisation that the person has
-	      a role in. For MPs, this will always be the ID of the parliament or, for
+	      <p>The <att>ref</att> attribute points to the organisation in which the person has
+	      a role. For MPs, this will always be the ID of the parliament or, for
 	      bicameral parliaments, one of the houses. For membership in a party this is,
 	      of course, be the ID of the party organisation.  The affiliation element also
 	      has the usual <att>from</att> and <att>to</att> attributes. Finally, it can
@@ -1608,15 +1608,15 @@
           also be further qualified by the <att>type</att> attribute, with the values being
           determined by the ParlaMint schema. The three incident elements are:
           <list>
-            <item><gi>vocal</gi> marks any vocalized but not necessarily lexical phenomenon, with
+            <item><gi>vocal</gi> marks any vocalised but not necessarily lexical phenomenon, with
             the values of the (for this element) obligatory <att>type</att> attribute being
             e.g. <val>interruption</val>, <val>laughter</val>, <val>murmuring</val>.</item>
 	    
-            <item><gi>kinesic</gi> marks any communicative phenomenon, not necessarily vocalized,
+            <item><gi>kinesic</gi> marks any communicative phenomenon, not necessarily vocalised,
             with the optional <att>type</att> values being e.g. <val>applause</val>,
             <val>laughter</val>, <val>gesture</val>.</item>
 	    
-            <item><gi>incident</gi> marks any phenomenon or occurrence, not necessarily vocalized
+            <item><gi>incident</gi> marks any phenomenon or occurrence, not necessarily vocalised
             or communicative, with the optional <att>type</att> values being
             e.g. <val>break</val>, <val>sound</val>, <val>action</val>.</item>
           </list>
