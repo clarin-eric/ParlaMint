@@ -1459,7 +1459,7 @@
         <head>Transcriptions</head>
         
         <p>The transcriptions are encoded in the <gi>text</gi> element of corpus components.  This
-        element contains only the element <gi>body</gi>, which should should then contain at least
+        element contains only the element <gi>body</gi>, which should then contain at least
         one division, <gi>div</gi>, as illustrated below:
 	
         <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-div">
@@ -1475,7 +1475,7 @@
 	As shown, the <gi>text</gi> element should be (as is the top level <gi>TEI</gi> element,
 	as discussed in the Section on <ref target="#sec-roottags">Attributes of top-level
 	elements</ref>) marked with the <att>ana</att> attribute as to which subcorpus the text
-	belongs to, with the subcorpora themselves defined in the approproate taxonomy (cf. the
+	belongs to, with the subcorpora themselves defined in the appropriate taxonomy (cf. the
 	Section on <ref target="#sec-classDecl">Class declaration</ref>).</p>
 
 	<div xml:id="chp-div">
@@ -1518,7 +1518,7 @@
 	    </text>
 	  </egXML>
 	  
-	  It should be noted that heads, i.e. the element <gi>head</gi> can appear only at the
+	  It should be noted that heads, i.e... the element <gi>head</gi> can appear only at the
 	  start of divisions, while notes can be interspersed with speeches anywhere and can also
 	  appear inside speeches. It is also possible to specify the type of note, and, in fact,
 	  to use more precise elements than just note, which is further explained in the Section
@@ -1558,9 +1558,9 @@
           The most important attribute of an utterance is <att>who</att>, which gives the pointer
           to the <gi>person</gi> element containing the metadata of the speaker, which is
           discussed in the Section on <ref target="#sec-speakers">Speakers</ref>. Despite its
-          importance in allowing analayses of speeches by speaker (and their metadata) it does
+          importance in allowing analyses of speeches by speaker (and their metadata) it does
           happen that the speaker of every speech cannot be determined; for such cases, the
-          <att>who</att> attribute should be ommited.</p>
+          <att>who</att> attribute should be omitted.</p>
 
 	  <p>The <gi>u</gi> element should also have the <att>ana</att> attribute giving a pointer
 	  to the typology of types of speakers, which is especially important to enable the
@@ -1586,7 +1586,7 @@
 
           <p>In general, transcriber comments are encoded using <gi>note</gi>, which can be
           further qualified via its <att>type</att> attribute; note that we do not, currently,
-          specify what the valid values of this attribte are. Some comments can also be encoded
+          specify what the valid values of this attribute are. Some comments can also be encoded
           using more precise TEI elements, as further explained below. The following example gives
           typical transcriber comments:
           
@@ -1612,15 +1612,15 @@
           <list>
             <item><gi>vocal</gi> marks any vocalized but not necessarily lexical phenomenon, with
             the values of the (for this element) obligatory <att>type</att> attribute being
-            e.g. <val>interruption</val>, <val>laughter</val>, <val>murmuring</val>.</item>
+            e.g...... <val>interruption</val>, <val>laughter</val>, <val>murmuring</val>.</item>
 	    
             <item><gi>kinesic</gi> marks any communicative phenomenon, not necessarily vocalized,
-            with the optional <att>type</att> values being e.g. <val>applause</val>,
+            with the optional <att>type</att> values being e.g...... <val>applause</val>,
             <val>laughter</val>, <val>gesture</val>.</item>
 	    
             <item><gi>incident</gi> marks any phenomenon or occurrence, not necessarily vocalized
             or communicative, with the optional <att>type</att> values being
-            e.g. <val>break</val>, <val>sound</val>, <val>action</val>.</item>
+            e.g...... <val>break</val>, <val>sound</val>, <val>action</val>.</item>
           </list>
           
           The example below illustrates the use of these three elements:
@@ -1641,7 +1641,7 @@
           
 	  As the example shows, the original content of the transcriber comment is retained in the
 	  <gi>desc</gi> element, Note that in cases when the agent of an incident is know, they
-	  can be specificed in the optional <att>who</att> attribute.</p>
+	  can be specified in the optional <att>who</att> attribute.</p>
 
           <p>It should be noted that <gi>note</gi> and the four incident elements can be placed
           directly inside <gi>div</gi>, <gi>u</gi> or <gi>seg</gi>. It is recommended to place
@@ -1658,7 +1658,7 @@
           <head>Gaps</head>
 
 	  <p>The transcribers can also comment that a part of the speech was not
-	  transcribed, e.g. because the recording was not understood, sometimes also noting
+	  transcribed, e.g....... because the recording was not understood, sometimes also noting
 	  the reason why, such as that the microphone was not turned on, that there was
 	  noise in the chamber, or that the speaker was speaking too quietly. These notes
 	  can be encoded as the <gi>gap</gi> element, which is then also marked by
@@ -1733,9 +1733,9 @@
           it problems for automatic linguistic processing, as, ideally, the parts should be first
           joined, and only then processed.</note>. In the example the speaker of the interrupting
           speech has also been identified and marked in the <att>who</att> attribute; in cases
-          where this is not possible, this attribute can be ommitted. An additional problem occurs
+          where this is not possible, this attribute can be omitted. An additional problem occurs
           with the type of speaker encoded as the value of <att>ana</att>, which is a required
-          atribute but this information is not explicitly present in the source
+          attribute but this information is not explicitly present in the source
           transcription. Probably the only way in which the type of interrupting speaker can be
           determined is to check the other speeches by this speaker in the same session, and
           assign the same value to <att>ana</att>. But if the speaker cannot be identified or has
@@ -1748,7 +1748,7 @@
 
         <p>This section introduces the linguistic annotation that is required by
         ParlaMint. An important note is that a linguistically annotated ParlaMint corpus is
-        stored separately from its base (or <term>plain-text</term>) version, i.e. the
+        stored separately from its base (or <term>plain-text</term>) version, i.e......... the
         version that has been discussed in the preceding sections. The linguistically
         annotated version differs from the plain-text one in the following respects:
 	
@@ -1761,13 +1761,13 @@
 	  <code>ParlaMint-CZ_2016-04-13.xml</code> the linguistically annotated one will
 	  be <code>ParlaMint-CZ_2016-04-13.ana.xml</code></item>
 	  
-	  <item>Because the file ID (i.e. the value of the top level element attribute
+	  <item>Because the file ID (i.e......... the value of the top level element attribute
 	  <att>xml:id</att>, as explained in the Section on <ref
 	  target="#sec-roottags">Attributes of top-level elements</ref>) should be the
 	  same as the file name (cf. the Section on <ref target="#sec-files">File names and
 	  directory structure</ref>), the previous point also means that the
 	  linguistically annotated files should have the top level ID suffixed with
-	  <code>.ana</code>, e.g. <code>&lt;teiCorpus
+	  <code>.ana</code>, e.g......... <code>&lt;teiCorpus
 	  xml:id="ParlaMint-FR.ana"&gt;</code></item>
 
 	  <item>The corpus stamp in the main title of the corpus root or components
@@ -1775,7 +1775,7 @@
 	  <code>[ParlaMint]</code> in the plain-text version, should be
 	  <code>[ParlaMint.ana]</code> for the linguistically annotated version.</item>
 	  
-	  <item>All the plain text of the utterance segments (i.e. the text immediately
+	  <item>All the plain text of the utterance segments (i.e......... the text immediately
 	  contained by the <gi>seg</gi> elements) of the plain-text version should be
 	  linguistically annotated on the specified levels, as is further explained in the
 	  following Section on <ref target="#sec-ana-markup">Linguistic
@@ -1860,7 +1860,7 @@
 	    <p>For <term>synthetic tagsets</term>, such as the <ref
 	    target="https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html">Penn
 	    Treebank tagset</ref>, which have atomic tags that cannot always be decomposed
-	    into attribute-value pairs (e.g. the tag <q>TO</q> for the word <q>to</q>)
+	    into attribute-value pairs (e.g......... the tag <q>TO</q> for the word <q>to</q>)
 	    should be encoded using the <att>pos</att> on words and punctuation symbols, as
 	    shown in the example below:
 
@@ -1955,7 +1955,7 @@
             </egXML>
 	    In this case, if such a multi-token syntactic word would not have a space following
 	    it, <code>join="right"</code> should be added to the last token,
-	    i.e. <q>lepši</q>.</p>
+	    i.e......... <q>lepši</q>.</p>
 	    
 	  </div>
 	  
@@ -2064,9 +2064,9 @@
             the corpus; how to insert this taxonomy is specified in the Section on <ref
             target="#sec-ana-taxo">Linguistic taxonomies</ref>. There is one more detail to watch
             out for, namely, that UD allows the colon symbol <code>:</code> to appear in extended
-            relation, e.g. <code>acl:relcl</code> for relative clause modifier. As we already use
+            relation, e.g......... <code>acl:relcl</code> for relative clause modifier. As we already use
             the colon for the extended pointer prefix, the colons in the relations should be
-            changed to underscore, e.g.to <code>ud-syn:acl_relcl</code>. Note, however, that the
+            changed to underscore, e.g. to <code>ud-syn:acl_relcl</code>. Note, however, that the
             relations specified in a <gi>link</gi> <att>ana</att> attribute are just pointers,
             and could have any value; it is the UD taxonomy that actually determines the correct
             value of the relation.</p>
@@ -2196,9 +2196,9 @@
 	    <p>Pointing attributes, such as <att>ana</att>, take as their value a series of
 	    references to the value of <att>xml:id</att> elements in an XML document. If this
 	    is the same document, then the reference to the ID is the character hash,
-	    <code>#</code> prefixed to the particular ID, e.g. <val>#parla.uni</val> and if
+	    <code>#</code> prefixed to the particular ID, e.g.......... <val>#parla.uni</val> and if
 	    they are in another XML document, then the hash is prefixed with the URL of the
-	    document, e.g.
+	    document, e.g..........
 	    <val>https://nl.ijs.si/ME/V6/msd/tables/msd-fslib2-sl.xml#Vmpr1p</val>.</p>
 
 	    <p>Because the complete URL tends to be long, which is especially inconvenient
@@ -2234,10 +2234,10 @@
 	    prefix in its <att>matchPattern</att> attribute, and its substitution as the value
 	    of the <att>replacementPattern</att> attribute. The first prefix definition thus
 	    defined the <code>ud-syn</code> prefix, so for any ID reference with this prefix,
-	    e.g. <val>ud-syn:acl_relcl</val>, the part after the prefix
+	    e.g.......... <val>ud-syn:acl_relcl</val>, the part after the prefix
 	    (<code>acl_relcl</code>) should me matches against <code>(.+)</code> and the result
 	    being the matched part (here the entire relation <code>acl_relcl</code>)
-	    substituted then substituted by <code>#$1</code>, i.e. by the hash character
+	    substituted then substituted by <code>#$1</code>, i.e.......... by the hash character
 	    followed by the original value, so that <val>ud-syn:acl_relcl</val> gives
 	    <val>#acl_relcl</val>. This substitution is of course trivial, and hardly
 	    necessary, but was implemented so that all fixed-vocabulary linguistic analyses
@@ -2450,7 +2450,7 @@
 	  prose guidelines, but also the formal specification of the TEI schema in <ref
 	  target="#schema">Appendix A</ref> in the on-line version converted to a reference
 	  resource to all the elements, attributes and classes used in ParlaMint corpora. The ODD
-	  document is not immediatelly useful for XML validation, but has to be converted with TEI
+	  document is not immediately useful for XML validation, but has to be converted with TEI
 	  XSLT stylesheets first in order to obtain a RelaxNG schema, and this schema is also
 	  available in the same directory under the name of <ref
 	  target="https://github.com/clarin-eric/ParlaMint/blob/main/TEI/ParlaMint.rng">ParlaMint.rng</ref>
@@ -2481,7 +2481,7 @@
 	  instructions how to use them.</p>
 
 	  <p>While validating with XML schemas checks the formal structure of XML files, it is
-	  less sucessfull in validating other aspects of conformance, such as the textual content
+	  less successful in validating other aspects of conformance, such as the textual content
 	  or linking of pointer attributes. For this reason, we have also developed an XSLT script
 	  that assumes a schema-validated ParlaMint file on its input, and checks various other
 	  aspects of conformance. These validation scripts can be found in the <ref
@@ -2496,7 +2496,7 @@
 	    format for CQP-type concordancers, both from the linguistically annotated version of
 	    the corpus. The Universal Dependencies project provides a program for validating the
 	    formatting and linguistic analyses in CoNLL-U files, and this validation is used on
-	    the CoNNL-U files derived from their XML source, up to level 2 conformance. The
+	    the CoNLL-U files derived from their XML source, up to level 2 conformance. The
 	    vertical files, on the other hand, are first compiled with manatee (the back end of
 	    (no)Sketch Engine) and this compilation can also expose various errors.</item>
 
