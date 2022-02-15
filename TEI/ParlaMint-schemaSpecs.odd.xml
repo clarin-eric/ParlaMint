@@ -1,0 +1,168 @@
+<schemaSpec xmlns="http://www.tei-c.org/ns/1.0"
+	    xmlns:sch="http://purl.oclc.org/dsdl/schematron" 
+	    xmlns:eg="http://www.tei-c.org/ns/Examples"
+	    xmlns:egXML="http://www.tei-c.org/ns/Examples"
+	    ident="parlamint"
+	    start="TEI teiCorpus"
+	    prefix="tei_"
+	    docLang="en"
+	    xml:lang="en">
+  <!-- The TEI modle should be further contstrained, but it is difficult: -->
+  <moduleRef key="tei"/>
+  <moduleRef key="core" include="bibl date desc email gap graphic head label measure media meeting name note num p pb pubPlace publisher ref resp respStmt teiCorpus term time title unit"/>
+  <moduleRef key="header" include="appInfo application availability catDesc catRef category change classDecl correction edition editionStmt editorialDecl encodingDesc extent fileDesc funder hyphenation idno langUsage language licence listPrefixDef namespace normalization prefixDef profileDesc projectDesc publicationStmt quotation revisionDesc segmentation sourceDesc tagUsage tagsDecl taxonomy teiHeader textClass titleStmt"/>
+  <moduleRef key="textstructure"
+             include="TEI body div text"/>
+  <moduleRef key="corpus" include="particDesc setting settingDesc"/>
+  <moduleRef key="spoken" include="equipment incident kinesic recording recordingStmt u vocal"/>
+  <moduleRef key="namesdates" include="addName affiliation birth death education event forename listEvent listOrg listPerson listRelation nameLink occupation org orgName persName person placeName relation roleName sex surname"/>
+  <!-- Removed ab, as it is not use - but does appear in the ParlaMint RelaxNG! -->
+  <moduleRef key="linking" include="link linkGrp seg"/>
+  <moduleRef key="figures" include="figure"/>
+  <moduleRef key="analysis" include="pc s w"/>
+  <!--moduleRef key="iso-fs" include=""/-->
+  
+  <elementSpec ident="div" module="textstructure" mode="change">
+    <constraintSpec scheme="schematron" ident="divtype">
+      <constraint>
+        <sch:rule context="tei:div[@type = $div.types.debate]">
+          <sch:assert test="not(parent::tei:div[@type = $div.types.debate])">
+            A text division of type <sch:value-of select="@type"/> should not occur inside div with type value <sch:value-of select="parent::tei:div/@type"/>.
+          </sch:assert>
+        </sch:rule>
+      </constraint>
+    </constraintSpec>
+    <attList>
+      <attDef ident="type" mode="replace" usage="rec">
+        <valList type="open">
+          <!-- debateSection -->
+          <valItem ident="debateSection">
+            <desc xml:lang="en">General purpose text division for all parts of
+            parliamentary proceedings. The suggested values below are
+	    adapted from Akoma Ntoso.
+	    If needed, the @subtype attribute can be used for
+	    additional content classification.</desc>
+          </valItem>
+          <valItem ident="address">
+            <desc xml:lang="en">Part of a debate relevant to addresses</desc>
+          </valItem>
+          <valItem ident="adjournment">
+            <desc xml:lang="en">Part of a debate containing adjournment notices</desc>
+          </valItem>
+          <valItem ident="administrationOfOath">
+            <desc xml:lang="en">Part of a debate containing the administration of an oath</desc>
+          </valItem>
+          <valItem ident="communication">
+            <desc xml:lang="en">Part of a debate containing communications from the house</desc>
+          </valItem>
+          <valItem ident="declarationOfVote">
+            <desc xml:lang="en">Part of a debate relevant to the declaration of votes</desc>
+          </valItem>
+          <valItem ident="ministerialStatements">
+            <desc xml:lang="en">Part of a debate containing written statements by participants</desc>
+          </valItem>
+          <valItem ident="nationalInterest">
+            <desc xml:lang="en">Part of a debate containing resolutions</desc>
+          </valItem>
+          <valItem ident="noticesOfMotion">
+            <desc xml:lang="en">Part of a debate relevant to the notices of motions</desc>
+          </valItem>
+          <valItem ident="oralStatements">
+            <desc xml:lang="en">Part of a debate containing oral statements by participants</desc>
+          </valItem>
+          <valItem ident="papers">
+            <desc xml:lang="en">Part of a debate relevant to the display of papers</desc>
+          </valItem>
+          <valItem ident="petitions">
+            <desc xml:lang="en">Part of a debate relevant to petitions</desc>
+          </valItem>
+          <valItem ident="prayers">
+            <desc xml:lang="en">Part of a debate containing prayers</desc>
+          </valItem>
+          <valItem ident="proceduralMotions">
+            <desc xml:lang="en">Part of a debate relevant to procedural motions</desc>
+          </valItem>
+          <valItem ident="pointOfOrder">
+            <desc xml:lang="en">Part of a debate relevant to points of order</desc>
+          </valItem>
+          <valItem ident="personalStatements">
+            <desc xml:lang="en">Part of a debate containing written statements by participants</desc>
+          </valItem>
+          <valItem ident="questions">
+            <desc xml:lang="en">Part of a debate relevant to questions</desc>
+          </valItem>
+          <valItem ident="resolutions">
+            <desc xml:lang="en">Part of a debate containing resolutions</desc>
+          </valItem>
+          <valItem ident="rollCall">
+            <desc xml:lang="en">Part of a debate containing a roll call of individuals</desc>
+          </valItem>
+          <valItem ident="writtenStatements">
+            <desc xml:lang="en">Part of a debate containing written statements by participants</desc>
+          </valItem>
+        </valList>
+      </attDef>
+    </attList>
+  </elementSpec>
+  
+  <elementSpec ident="note" mode="change" module="core">
+    <attList>
+      <attDef ident="type" mode="replace" usage="rec">
+        <valList type="open">
+          <!-- AKN -->
+          <valItem ident="narrative">
+            <desc xml:lang="en">Description in the third person of events taking place in the meeting, e.g. "Mr X. takes the Chair".</desc>
+          </valItem>
+          <valItem ident="summary">
+            <desc xml:lang="en">Summaries of speeches that are individually not interesting, e.g. "Question put and agreed to".</desc>
+          </valItem>
+          <!-- AKN and slovParl -->
+          <valItem ident="speaker">
+            <desc xml:lang="en">Name, role and possible description of a person doing the speech</desc>
+          </valItem>
+          <valItem ident="vote">
+            <desc xml:lang="en">Outcome of a vote</desc>
+          </valItem>
+          <!-- slovParl -->
+          <valItem ident="location">
+            <desc xml:lang="en">The location of the speaker, who was not on the podium</desc>
+          </valItem>
+          <valItem ident="date">
+            <desc xml:lang="en">Date of the session</desc>
+          </valItem>
+          <valItem ident="president">
+            <desc xml:lang="en">Chairman of a meeting</desc>
+          </valItem>
+          <valItem ident="comment">
+            <desc xml:lang="en">Comment of parliamentary reporter</desc>
+          </valItem>
+          <valItem ident="time">
+            <desc xml:lang="en">Date and time of the beginning and end of the debate</desc>
+          </valItem>
+          <valItem ident="quorum">
+            <desc xml:lang="en">The presence of the members of parliament</desc>
+          </valItem>
+          <valItem ident="debate">
+            <desc xml:lang="en">Comments on the conduct of debates</desc>
+          </valItem>
+        </valList>
+      </attDef>
+    </attList>
+  </elementSpec>
+  
+  <!--elementSpec ident="u" module="spoken" mode="change">
+      <attList>
+      <attDef ident="xml:id" mode="replace" usage="req">
+      <datatype><dataRef name="ID"/></datatype>
+      </attDef>
+      </attList>
+      </elementSpec-->
+  
+  <constraintSpec scheme="schematron" ident="parla-clarin.sch-variables">
+    <constraint>
+      <sch:pattern>
+        <sch:let name="div.types.debate" value="('address', 'adjournment', 'administrationOfOath', 'communication', 'declarationOfVote', 'ministerialStatements', 'nationalInterest', 'noticesOfMotion', 'oralStatements', 'papers', 'petitions', 'prayers', 'proceduralMotions', 'pointOfOrder', 'personalStatements', 'questions', 'resolutions', 'rollCall', 'writtenStatements')"/>
+      </sch:pattern>
+    </constraint>
+  </constraintSpec>
+</schemaSpec>
