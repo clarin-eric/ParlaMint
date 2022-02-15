@@ -5,10 +5,10 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2022-02-13T18:47:21Z. 2022-02-13.
-TEI Edition: Version 4.3.0. Last updated on
-        31st August 2021, revision b4f72b1ff
-TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.3.0/
+Schema generated from ODD source 2022-02-15T17:04:20Z. 2022-02-15.
+TEI Edition: Version 4.4.0a. Last updated on
+        19th January 2022, revision daab99ca7
+TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
   
 --><!--This file is freely available and you are hereby authorised to copy, modify, and redistribute it in any way without further reference or permissions.-->
    <define name="tei_macro.paraContent">
@@ -1898,41 +1898,29 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
    <define name="tei_model.pLike">
       <choice>
          <ref name="tei_p"/>
-         <ref name="tei_ab"/>
       </choice>
    </define>
    <define name="tei_model.pLike_alternation">
       <choice>
          <ref name="tei_p"/>
-         <ref name="tei_ab"/>
       </choice>
    </define>
    <define name="tei_model.pLike_sequence">
       <ref name="tei_p"/>
-      <ref name="tei_ab"/>
    </define>
    <define name="tei_model.pLike_sequenceOptional">
       <optional>
          <ref name="tei_p"/>
-      </optional>
-      <optional>
-         <ref name="tei_ab"/>
       </optional>
    </define>
    <define name="tei_model.pLike_sequenceOptionalRepeatable">
       <zeroOrMore>
          <ref name="tei_p"/>
       </zeroOrMore>
-      <zeroOrMore>
-         <ref name="tei_ab"/>
-      </zeroOrMore>
    </define>
    <define name="tei_model.pLike_sequenceRepeatable">
       <oneOrMore>
          <ref name="tei_p"/>
-      </oneOrMore>
-      <oneOrMore>
-         <ref name="tei_ab"/>
       </oneOrMore>
    </define>
    <define name="tei_model.stageLike">
@@ -3931,7 +3919,9 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                <group>
                   <oneOrMore>
                      <group>
-                        <ref name="tei_model.common"/>
+                        <choice>
+                           <ref name="tei_model.common"/>
+                        </choice>
                         <zeroOrMore>
                            <ref name="tei_model.global"/>
                         </zeroOrMore>
@@ -4006,7 +3996,9 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                      <group>
                         <oneOrMore>
                            <group>
-                              <ref name="tei_model.common"/>
+                              <choice>
+                                 <ref name="tei_model.common"/>
+                              </choice>
                               <zeroOrMore>
                                  <ref name="tei_model.global"/>
                               </zeroOrMore>
@@ -4036,20 +4028,6 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                </group>
             </optional>
          </group>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="parlamint-div-divtype-constraint-rule-10">
-            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:eg="http://www.tei-c.org/ns/Examples"
-                      xmlns:egXML="http://www.tei-c.org/ns/Examples"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                      context="tei:div[@type = $div.types.debate]">
-               <sch:assert test="not(parent::tei:div[@type = $div.types.debate])">
-                  A text division of type <sch:value-of select="@type"/> should not occur inside div with type value <sch:value-of select="parent::tei:div/@type"/>.
-                </sch:assert>
-            </sch:rule>
-         </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="parlamint-div-abstractModel-structure-l-constraint-report-9">
             <rule context="tei:div">
@@ -5129,7 +5107,7 @@ Sample values include: 1] primary; 2] other; 3] paid; 4] unpaid</a:documentation
             <ref name="tei_desc"/>
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="parlamint-relation-reforkeyorname-constraint-assert-7">
+                  id="parlamint-relation-reforkeyorname-constraint-assert-6">
             <rule context="tei:relation">
                <assert xmlns:eg="http://www.tei-c.org/ns/Examples"
                        xmlns:egXML="http://www.tei-c.org/ns/Examples"
@@ -5340,7 +5318,7 @@ Sample values include: 1] explicit; 2] implicit</a:documentation>
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(link) defines an association or hypertextual link among elements or passages, of some type not more precisely specifiable by other elements. [16.1. Links]</a:documentation>
          <empty/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="parlamint-link-linkTargets3-constraint-assert-8">
+                  id="parlamint-link-linkTargets3-constraint-assert-7">
             <rule context="tei:link">
                <sch:assert xmlns="http://www.tei-c.org/ns/1.0"
                            xmlns:eg="http://www.tei-c.org/ns/Examples"
@@ -5374,46 +5352,6 @@ Sample values include: 1] explicit; 2] implicit</a:documentation>
          </group>
          <ref name="tei_att.global.attributes"/>
          <ref name="tei_att.pointing.group.attributes"/>
-         <empty/>
-      </element>
-   </define>
-   <define name="tei_ab">
-      <element name="ab">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(anonymous block) contains any arbitrary component-level unit of text, acting as an anonymous container for phrase or inter level elements analogous to, but without the semantic baggage of, a paragraph. [16.3. Blocks, Segments, and Anchors]</a:documentation>
-         <ref name="tei_macro.paraContent"/>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="parlamint-ab-abstractModel-structure-ab-constraint-report-13">
-            <rule context="tei:ab">
-               <report xmlns:eg="http://www.tei-c.org/ns/Examples"
-                       xmlns:egXML="http://www.tei-c.org/ns/Examples"
-                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                       xmlns:xi="http://www.w3.org/2001/XInclude"
-                       xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                       test="not(ancestor::tei:floatingText) and (ancestor::tei:p or ancestor::tei:ab)          and not(parent::tei:exemplum         |parent::tei:item         |parent::tei:note         |parent::tei:q         |parent::tei:quote         |parent::tei:remarks         |parent::tei:said         |parent::tei:sp         |parent::tei:stage         |parent::tei:cell         |parent::tei:figure)">
-        Abstract model violation: ab may not occur inside paragraphs or other ab elements.
-      </report>
-            </rule>
-         </pattern>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="parlamint-ab-abstractModel-structure-l-constraint-report-14">
-            <rule context="tei:ab">
-               <report xmlns:eg="http://www.tei-c.org/ns/Examples"
-                       xmlns:egXML="http://www.tei-c.org/ns/Examples"
-                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                       xmlns:xi="http://www.w3.org/2001/XInclude"
-                       xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                       test="(ancestor::tei:l or ancestor::tei:lg) and not(parent::tei:figure or parent::tei:note or ancestor::tei:floatingText)">
-        Abstract model violation: Lines may not contain higher-level divisions such as p or ab, unless ab is a child of figure or note, or is a descendant of floatingText.
-      </report>
-            </rule>
-         </pattern>
-         <ref name="tei_att.global.attributes"/>
-         <ref name="tei_att.typed.attributes"/>
-         <ref name="tei_att.declaring.attributes"/>
-         <ref name="tei_att.fragmentable.attributes"/>
-         <ref name="tei_att.written.attributes"/>
          <empty/>
       </element>
    </define>
@@ -5549,7 +5487,7 @@ Sample values include: 1] explicit; 2] implicit</a:documentation>
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(s-unit) contains a sentence-like division of a text. [17.1. Linguistic Segment Categories 8.4.1. Segmentation]</a:documentation>
          <ref name="tei_macro.phraseSeq"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="parlamint-s-noNestedS-constraint-report-15">
+                  id="parlamint-s-noNestedS-constraint-report-13">
             <rule context="tei:s">
                <report xmlns:eg="http://www.tei-c.org/ns/Examples"
                        xmlns:egXML="http://www.tei-c.org/ns/Examples"
@@ -5641,13 +5579,4 @@ Sample values include: 1] explicit; 2] implicit</a:documentation>
          <ref name="tei_teiCorpus"/>
       </choice>
    </start>
-   <sch:pattern xmlns="http://www.tei-c.org/ns/1.0"
-                xmlns:eg="http://www.tei-c.org/ns/Examples"
-                xmlns:egXML="http://www.tei-c.org/ns/Examples"
-                xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-      <sch:let name="div.types.debate"
-               value="('address', 'adjournment', 'administrationOfOath', 'communication', 'declarationOfVote', 'ministerialStatements', 'nationalInterest', 'noticesOfMotion', 'oralStatements', 'papers', 'petitions', 'prayers', 'proceduralMotions', 'pointOfOrder', 'personalStatements', 'questions', 'resolutions', 'rollCall', 'writtenStatements')"/>
-   </sch:pattern>
 </grammar>

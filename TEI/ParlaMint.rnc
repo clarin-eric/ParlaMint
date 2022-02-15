@@ -11,10 +11,10 @@ namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 namespace xsl = "http://www.w3.org/1999/XSL/Transform"
 
-# Schema generated from ODD source 2022-02-13T18:47:25Z. 2022-02-13.
-# TEI Edition: Version 4.3.0. Last updated on
-#         31st August 2021, revision b4f72b1ff
-# TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.3.0/
+# Schema generated from ODD source 2022-02-15T17:04:24Z. 2022-02-15.
+# TEI Edition: Version 4.4.0a. Last updated on
+#         19th January 2022, revision daab99ca7
+# TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
 #
 
 # This file is freely available and you are hereby authorised to copy, modify, and redistribute it in any way without further reference or permissions.
@@ -1204,12 +1204,12 @@ tei_model.lLike_sequence = empty
 tei_model.lLike_sequenceOptional = empty
 tei_model.lLike_sequenceOptionalRepeatable = empty
 tei_model.lLike_sequenceRepeatable = notAllowed
-tei_model.pLike = tei_p | tei_ab
-tei_model.pLike_alternation = tei_p | tei_ab
-tei_model.pLike_sequence = tei_p, tei_ab
-tei_model.pLike_sequenceOptional = tei_p?, tei_ab?
-tei_model.pLike_sequenceOptionalRepeatable = tei_p*, tei_ab*
-tei_model.pLike_sequenceRepeatable = tei_p+, tei_ab+
+tei_model.pLike = tei_p
+tei_model.pLike_alternation = tei_p
+tei_model.pLike_sequence = tei_p
+tei_model.pLike_sequenceOptional = tei_p?
+tei_model.pLike_sequenceOptionalRepeatable = tei_p*
+tei_model.pLike_sequenceRepeatable = tei_p+
 tei_model.stageLike = notAllowed
 tei_model.stageLike_alternation = notAllowed
 tei_model.stageLike_sequence = empty
@@ -2576,7 +2576,7 @@ tei_body =
      ((tei_model.divLike, (tei_model.global | tei_model.divGenLike)*)+
       | (tei_model.div1Like,
          (tei_model.global | tei_model.divGenLike)*)+
-      | ((tei_model.common, tei_model.global*)+,
+      | (((tei_model.common), tei_model.global*)+,
          ((tei_model.divLike,
            (tei_model.global | tei_model.divGenLike)*)+
           | (tei_model.div1Like,
@@ -2592,34 +2592,10 @@ tei_div =
   element div {
     ((tei_model.divTop | tei_model.global)*,
      ((((tei_model.divLike | tei_model.divGenLike), tei_model.global*)+
-       | ((tei_model.common, tei_model.global*)+,
+       | (((tei_model.common), tei_model.global*)+,
           ((tei_model.divLike | tei_model.divGenLike),
            tei_model.global*)*)),
       (tei_model.divBottom, tei_model.global*)*)?)
-    >> sch:pattern [
-         id = "parlamint-div-divtype-constraint-rule-10"
-         "\x{a}" ~
-         "            "
-         sch:rule [
-           context = "tei:div[@type = $div.types.debate]"
-           "\x{a}" ~
-           "               "
-           sch:assert [
-             test = "not(parent::tei:div[@type = $div.types.debate])"
-             "\x{a}" ~
-             "                  A text division of type "
-             sch:value-of [ select = "@type" ]
-             " should not occur inside div with type value "
-             sch:value-of [ select = "parent::tei:div/@type" ]
-             ".\x{a}" ~
-             "                "
-           ]
-           "\x{a}" ~
-           "            "
-         ]
-         "\x{a}" ~
-         "         "
-       ]
     >> sch:pattern [
          id =
            "parlamint-div-abstractModel-structure-l-constraint-report-9"
@@ -3337,7 +3313,7 @@ tei_relation =
   element relation {
     (tei_desc?)
     >> sch:pattern [
-         id = "parlamint-relation-reforkeyorname-constraint-assert-7"
+         id = "parlamint-relation-reforkeyorname-constraint-assert-6"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -3497,7 +3473,7 @@ tei_link =
   element link {
     empty
     >> sch:pattern [
-         id = "parlamint-link-linkTargets3-constraint-assert-8"
+         id = "parlamint-link-linkTargets3-constraint-assert-7"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -3529,62 +3505,6 @@ tei_linkGrp =
     (tei_model.descLike*, (tei_link)+),
     tei_att.global.attributes,
     tei_att.pointing.group.attributes,
-    empty
-  }
-tei_ab =
-  
-  ## (anonymous block) contains any arbitrary component-level unit of text, acting as an anonymous container for phrase or inter level elements analogous to, but without the semantic baggage of, a paragraph. [16.3. Blocks, Segments, and Anchors]
-  element ab {
-    tei_macro.paraContent
-    >> sch:pattern [
-         id =
-           "parlamint-ab-abstractModel-structure-ab-constraint-report-13"
-         "\x{a}" ~
-         "            "
-         sch:rule [
-           context = "tei:ab"
-           "\x{a}" ~
-           "               "
-           sch:report [
-             test =
-               "not(ancestor::tei:floatingText) and (ancestor::tei:p or ancestor::tei:ab)          and not(parent::tei:exemplum         |parent::tei:item         |parent::tei:note         |parent::tei:q         |parent::tei:quote         |parent::tei:remarks         |parent::tei:said         |parent::tei:sp         |parent::tei:stage         |parent::tei:cell         |parent::tei:figure)"
-             "\x{a}" ~
-             "        Abstract model violation: ab may not occur inside paragraphs or other ab elements.\x{a}" ~
-             "      "
-           ]
-           "\x{a}" ~
-           "            "
-         ]
-         "\x{a}" ~
-         "         "
-       ]
-    >> sch:pattern [
-         id =
-           "parlamint-ab-abstractModel-structure-l-constraint-report-14"
-         "\x{a}" ~
-         "            "
-         sch:rule [
-           context = "tei:ab"
-           "\x{a}" ~
-           "               "
-           sch:report [
-             test =
-               "(ancestor::tei:l or ancestor::tei:lg) and not(parent::tei:figure or parent::tei:note or ancestor::tei:floatingText)"
-             "\x{a}" ~
-             "        Abstract model violation: Lines may not contain higher-level divisions such as p or ab, unless ab is a child of figure or note, or is a descendant of floatingText.\x{a}" ~
-             "      "
-           ]
-           "\x{a}" ~
-           "            "
-         ]
-         "\x{a}" ~
-         "         "
-       ],
-    tei_att.global.attributes,
-    tei_att.typed.attributes,
-    tei_att.declaring.attributes,
-    tei_att.fragmentable.attributes,
-    tei_att.written.attributes,
     empty
   }
 tei_seg =
@@ -3701,7 +3621,7 @@ tei_s =
   element s {
     tei_macro.phraseSeq
     >> sch:pattern [
-         id = "parlamint-s-noNestedS-constraint-report-15"
+         id = "parlamint-s-noNestedS-constraint-report-13"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -3778,14 +3698,3 @@ tei_pc =
     empty
   }
 start = tei_TEI | tei_teiCorpus
-sch:pattern [
-  "\x{a}" ~
-  "      "
-  sch:let [
-    name = "div.types.debate"
-    value =
-      "('address', 'adjournment', 'administrationOfOath', 'communication', 'declarationOfVote', 'ministerialStatements', 'nationalInterest', 'noticesOfMotion', 'oralStatements', 'papers', 'petitions', 'prayers', 'proceduralMotions', 'pointOfOrder', 'personalStatements', 'questions', 'resolutions', 'rollCall', 'writtenStatements')"
-  ]
-  "\x{a}" ~
-  "   "
-]
