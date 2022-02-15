@@ -60,25 +60,42 @@
     <body>
       <div xml:id="chp-intro">
         <head>Introduction</head>
-        <p>This document details the structure of ParlaMint corpora of parliamentary
-        proceedings. In order for the ParlaMint corpora to be interoperable (i.e. so that the
-        same scripts can be used to process them), their structure is fairly rigid, both in
-        terms of file names and folder structure, as well as their actual XML encoding. This is
-        not to say that all the corpora have to contain exactly the same information, as we
-        distinguish obligatory information, which all the corpora should contain, from that
-        which is optional, and present only in the corpora for which it has been possible to
-        gather it from the corpus sources.</p>
+        <p>This document is meant so server as a reference for the encoding of ParlaMint corpora
+        of parliamentary proceedings. In order for the ParlaMint corpora to be interoperable
+        (i.e. so that the same scripts can be used to process them), their structure is fairly
+        rigid, both in terms of file names and folder structure, as well as their TEI XML
+        encoding. This is not to say that all the corpora have to contain exactly the same
+        information, as we distinguish obligatory information, which all the corpora should
+        contain, from that which is optional, and present only in the corpora for which it has
+        been possible to gather it from the corpus sources.</p>
 
 	<p>This document is a specialisation of <ref
-	target="https://clarin-eric.github.io/parla-clarin/">Parla-CLARIN</ref>, itself a
+	target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN</ref>, itself a
 	customisation of TEI, the Text Encoding Initiative Guidelines. But while Parla-CLARIN
-	gives fairly general recommendation for encoding corpora of parliamentary proceeding,
-	and makes good introductory reading, ParlaMint, as mentioned, is much stricter and
-	this document, while copying certain parts of the Parla-CLARIN recommendations, in
-	general, just gives very specific encoding recommendations, without necessarily
-	stating the reasons for their choice.</p>
+	gives fairly general recommendation for encoding corpora of parliamentary proceeding, and
+	makes good introductory reading, ParlaMint, as mentioned, is much stricter and this
+	document gives very specific encoding recommendations, without necessarily stating the
+	reasons for their choice.</p>
 
-	<!-- Mention that they should look at the ParlaMint samples for a holictic view -->
+	<p>The document is not meant as a tutorial on TEI or ParlaMint, but as a reference to
+	elements, their nesting and attributes exemplified by snippets from the existing ParlaMint
+	corpora. Other sources can help in understanding the encoding of ParlaMint corpora:
+	<list>
+	  <item>The freely available paper:<lb/> Erjavec, T., Ogrodniczuk, M., Osenova, P. et
+	  al. The ParlaMint corpora of parliamentary proceedings.  Language Resources &amp;
+	  Evaluation (2022). <ref
+	  target="https://doi.org/10.1007/s10579-021-09574-0">https://doi.org/10.1007/s10579-021-09574-0</ref></item>
+	  
+	  <item>The <ref target="https://clarin-eric.github.io/parla-clarin/">Parla-CLARIN</ref>
+	  guidelines, which provide general guidelines for encoding parliamentary corpora in
+	  TEI</item>
+	  
+	  <item>Samples of ParlaMint corpora, available in the <ref
+	  target="https://github.com/clarin-eric/ParlaMint/tree/main/Data">Data directory</ref> of
+	  the ParlaMint GitHub repository, esp. useful as they give the complete picture of a
+	  ParlaMint corpus.</item>
+	</list>
+	</p>
 
         <p>The rest of these recommendations are structured as follows:
         <list>
@@ -86,11 +103,12 @@
           structure of a ParlaMint corpus, and introduces the distinction between the
           corpus root and corpus components;</item>
 
-          <item><ref target="#chp-general">Chapter 3</ref> explains some general requirements
-          and the file-naming conventions a ParlaMint corpus has to meet;</item>
+          <item><ref target="#chp-general">Chapter 3</ref> explains some general requirements and
+          the file-naming conventions a ParlaMint corpus has to meet; it also introduces the top
+          level elements of a corpus root and component, and their attributes;</item>
 
-          <item><ref target="#sec-metadata">Chapter 4</ref> concentrates on encoding the corpus
-          metadata, such as information on speakers or political parties;</item>
+          <item><ref target="#sec-metadata">Chapter 4</ref> concentrates on the encoding the rich
+          corpus metadata, such as information on speakers and political parties;</item>
           
           <item><ref target="#chp-transcript">Chapter 5</ref> treats the encoding of the
           transcripts;</item>
@@ -100,6 +118,9 @@
 
           <item><ref target="#chp-validation">Chapter 7</ref> introduces scripts to finalise,
           validate and convert a ParlaMint corpus to other formats;</item>
+
+          <item><ref target="#chp-contributing">Chapter 8</ref> gives instructions how to
+          contribute samples of a ParlaMint corpus to GitHub;</item>
 
           <item><ref target="#schema">Appendix A</ref> gives the formal specification of
           the Parla-CLARIN schema.</item>
@@ -625,7 +646,7 @@
 	  </div>
 
 	  <div xml:id="sec-extent">
-            <head>Extent</head>
+            <head>Extents</head>
 	    
 	    <p>The <gi>extent</gi> element gives information on selected sizes of the
 	    complete corpus (in the corpus root) or of one corpus component, as illustrated
@@ -647,7 +668,7 @@
 
 	    <p>It should be noted that both sizes are somewhat complex to compute and are
 	    inserted into the TEI headers in the finalisation of a corpus (cf. the Section on
-	    <ref target="#sec-conversion">Validation and conversion</ref>) by a common script,
+	    <ref target="#sec-final">Finalisation of corpora</ref>) by a common script,
 	    so it is not necessary insert the extent in the process of developing a ParlaMint
 	    corpus.</p>
 	  </div>
@@ -884,8 +905,8 @@
 	      </tagsDecl>
 	    </egXML>
 	    
-	    It should be noted that, similar to the extents (as explained in the Section
-	    <ref target="#sec-extent">The extent</ref>) the tag usage is inserted into
+	    It should be noted that, similar to the extents (as explained in the Section on
+	    <ref target="#sec-extent">Extents</ref>) the tag usage is inserted into
 	    the TEI headers in the finalisation of a corpus (cf. the Section on <ref
 	    target="#sec-conversion">Validation and conversion</ref>) by a common
 	    script, so it is not necessary compute it the process of developing a
@@ -1455,7 +1476,7 @@
 	as discussed in the Section on <ref target="#sec-roottags">Attributes of top-level
 	elements</ref>) marked with the <att>ana</att> attribute as to which subcorpus the text
 	belongs to, with the subcorpora themselves defined in the approproate taxonomy (cf. the
-	Section on <ref target="#sec-classDecl">Class declaration</ref>).
+	Section on <ref target="#sec-classDecl">Class declaration</ref>).</p>
 
 	<div xml:id="chp-div">
           <head>Divisions</head>
@@ -1472,7 +1493,7 @@
 	  page breaks, and these can also appear directly inside the section(s), as illustrated
 	  below:
 	  
-          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-div">
+          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-div-detail">
 	    <text ana="#reference">
 	      <body>
 		<div type="debateSection">
@@ -2409,32 +2430,129 @@
           </div>
 	  </div-->
       
-      <div xml:id="sec-conversion">
-        <head>Conversions</head>
-        <p>A TEI encoded document is, in general, not meant to be used directly by software
-        programs, rather it serves as an interchange and storage format.  Furthermore, most TEI
-        documents are not "born TEI", but rather converted into TEI from some source format.
-        In this section we discuss some up- and down-conversion scripts that have already been
-        developed for transforming source formats into Parla-CLARIN and from Parla-CLARIN into
-        formats immediately usable by software and are available in the Git repository of
-        Parla-CLARIN.</p>
-      </div>
-      
       <div xml:id="chp-validation">
 	<head>Validation and conversion</head>
-	<p>Scripts to validate and convert a ParlaMint corpus to other formats</p>
+	
+	<p>The chapter explains how to validate and finalise a ParlaMint corpus, and introduces
+	scripts for converting a ParlaMint corpus to other, derived formats</p>
 
 	<div xml:id="sec-schemas">
-	  <head>ParlaMint schemas</head>
-	  <p>...</p>
+	  <head>Validating ParlaMint corpora</head>
+	  
+	  <p>The XML structure of ParlaMint corpora can be validated via RelaxNG schemas, which
+	  exist in two versions, one that was produced as a customisation of the TEI Guidelines,
+	  and a set of schemas that were made from scratch for ParlaMint.</p>
+
+	  <p>The TEI customisation is written as a TEI ODD document, and is, in fact, the XML
+	  version of this document as available in the <ref
+	  target="https://github.com/clarin-eric/ParlaMint/tree/main/TEI">TEI/
+	  directory</ref> of the ParlaMint GitHub repository. The XML contains not only the
+	  prose guidelines, but also the formal specification of the TEI schema in <ref
+	  target="#schema">Appendix A</ref> in the on-line version converted to a reference
+	  resource to all the elements, attributes and classes used in ParlaMint corpora. The ODD
+	  document is not immediatelly useful for XML validation, but has to be converted with TEI
+	  XSLT stylesheets first in order to obtain a RelaxNG schema, and this schema is also
+	  available in the same directory under the name of <ref
+	  target="https://github.com/clarin-eric/ParlaMint/blob/main/TEI/ParlaMint.rng">ParlaMint.rng</ref>
+	  (in RelaxNG XML syntax) or <ref
+	  target="https://github.com/clarin-eric/ParlaMint/blob/main/TEI/ParlaMint.rnc">ParlaMint.rnc</ref>
+	  (in RelaxNG compact syntax). This schema should be used to check that ParlaMint
+	  component files validate against TEI.</p>
+  
+	  <p>However, the TEI ParlaMint schema has two drawbacks in using it for ParlaMint corpus
+	  validation. First, while the component corpus files can most likely be validated with
+	  it, the root file can only be validated by first XIncluding all the component files in
+	  the root in order to get a complete <gi>teiCorpus</gi> rooted XML document. But a
+	  typical ParlaMint corpus will be too large to perform this kind of validation, so it is
+	  not possible to validate the complete corpus; validation can, however, be performed on
+	  the much smaller sample corpora as available in the GitHub repository of the
+	  project. Secondly, it is difficult to constrain a TEI ODD-derived XML schema to allow
+	  only the kinds of nestings and attributes that should appear in a ParlaMint corpus, so
+	  this schema allows (and lists <ref target="#schema">Appendix A</ref>) attributes that
+	  are in fact forbidden in ParlaMint corpora.</p>
+	  
+	  <p>For this reason, we have also developed a set of RelaxNG schemas from scratch, which
+	  do allow only those elements, attributes and content models that are in fact valid for a
+	  ParlaMint corpus. There are all together four schemas, one for a "plain-text" corpus
+	  root, one for its corpus components, one for the linguistically annotated corpus root,
+	  and one for its components. These schemas can be found in the <ref
+	  target="https://github.com/clarin-eric/ParlaMint/tree/main/Schema">Schema/
+	  directory</ref> of the ParlaMint GitHub repository, with the README file giving
+	  instructions how to use them.</p>
+
+	  <p>While validating with XML schemas checks the formal structure of XML files, it is
+	  less sucessfull in validating other aspects of conformance, such as the textual content
+	  or linking of pointer attributes. For this reason, we have also developed an XSLT script
+	  that assumes a schema-validated ParlaMint file on its input, and checks various other
+	  aspects of conformance. These validation scripts can be found in the <ref
+	  target="https://github.com/clarin-eric/ParlaMint/tree/main/Scripts">Scripts/
+	  directory</ref> of the ParlaMint GitHub repository, with the README file listing them.</p>
+
+	  <p>While each contributor of a ParlaMint corpus should validate their files with the
+	  schema and XSLT script, there also exist further stages of validation, which are also
+	  applied to ParlaMint corpora:
+	  <list>
+	    <item>The corpora are converted to derived formats, in particular CoNLL-U and vertical
+	    format for CQP-type concordancers, both from the linguistically annotated version of
+	    the corpus. The Universal Dependencies project provides a program for validating the
+	    formatting and linguistic analyses in CoNLL-U files, and this validation is used on
+	    the CoNNL-U files derived from their XML source, up to level 2 conformance. The
+	    vertical files, on the other hand, are first compiled with manatee (the back end of
+	    (no)Sketch Engine) and this compilation can also expose various errors.</item>
+
+	    <item>The last stage in validation is <q>human validation</q> where e.g. simply
+	    looking at various produced metadata files or at the concordances of a corpus exposes
+	    errors.</item>
+	  </list>
+	  </p>
 	</div>
 	
+	<div xml:id="sec-final">
+          <head>Finalisation of corpora</head>
+	  
+          <p>While the vast majority of converting source encodings into the ParlaMint corpus
+          format is left to the compilers of a corpus, there are a few elements that can be
+          produces by common scripts on the basis of nearly finished corpora and lead to the final
+          version of the corpus for a particular release. This includes setting the date, edition
+          and handle under which the corpus will be distributed, and also calculating the size of
+          the corpus (cf. the Sections on <ref target="#sec-extent">Extents</ref> and on <ref
+          target="#sec-tagsDecl">Tags declaration</ref>).
+
+	  The script for finalisation can be found in the <ref
+	  target="https://github.com/clarin-eric/ParlaMint/tree/main/Scripts">Scripts/
+	  directory</ref> of the ParlaMint GitHub repository and the README file briefly explains
+	  its function; more comments can be found in the script itself.
+	  <!-- This script is for V2.1, it has to be updated for 3.0!! -->
+	  </p>
+	</div>
+	
+	<div xml:id="sec-conversion">
+          <head>Conversions</head>
+	  
+          <p>A TEI encoded document is, in general, not meant to be used directly by software
+          programs, rather, it serves as an interchange and storage format. The ParlaMint project
+          has produced various scripts to down-convert the XML encoded corpora to other formats
+          and they can be found in the <ref
+          target="https://github.com/clarin-eric/ParlaMint/tree/main/Scripts">Scripts/
+          directory</ref> of the ParlaMint GitHub repository, with the README file listing them
+          and explaining their function. In short, the programs convert the ParlaMint XML to plain
+          text, to CoNLL-U, and to vertical format. There is also a script that takes a ParlaMint
+          corpus and makes from it a sample for inclusion to the <ref
+          target="https://github.com/clarin-eric/ParlaMint/">ParlaMint GitHub
+          repository</ref>.</p>
+	</div>
+      </div>
+      
+      <div xml:id="chp-contributing">
+	<head>Contributing to the GitHub repository</head>
+	
+	<p>To do.</p>
       </div>
       
       <div xml:id="sec-ack">
 	<head>Acknowledgements</head>
 	
-	<p>The authors would like to thank all the participants of the <ref
+	<!--p>The authors would like to thank all the participants of the <ref
 	target="https://www.clarin.eu/blog/clarin-parlaformat-workshop">CLARIN
 	ParlaFormat</ref> workshop (May 23-24, 2019, Amersfoort) for their very useful comments
 	and suggestions.</p>
@@ -2445,7 +2563,7 @@
 	target="https://dariah-eric.github.io/lexicalresources/pages/TEILex0/TEILex0.html">TEI
 	Lex0</ref> to develop an interchange encoding for machine readable dictionaries, and
 	the <ref target="https://www.distant-reading.net/eltec/">ELTeC corpus</ref> initiative
-	by the COST Action CA16204 <q>Distant Reading for European Literary History</q>.</p>
+	by the COST Action CA16204 <q>Distant Reading for European Literary History</q>.</p-->
 	
 	<p>The work on these recommendations was funded by the <ref
 	target="https://www.clarin.eu/">CLARIN</ref> Research Infrastructure for Language
