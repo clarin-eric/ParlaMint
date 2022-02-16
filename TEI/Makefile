@@ -33,15 +33,15 @@ val-schema:
 
 # Validate examples
 val-examples:
-	$s -xi -xsl:../Scripts/copy.xsl ../Data/ParlaMint-SI/ParlaMint-SI.xml > tmp/ParlaMint-SI.xml
+	$s -xi -xsl:copy-odd.xsl ../Data/ParlaMint-SI/ParlaMint-SI.xml > tmp/ParlaMint-SI.xml
 	$j ParlaMint.rng tmp/ParlaMint-SI.xml
-	$s -xi -xsl:../Scripts/copy.xsl ../Data/ParlaMint-SI/ParlaMint-SI.ana.xml > tmp/ParlaMint-SI.ana.xml
+	$s -xi -xsl:copy-odd.xsl ../Data/ParlaMint-SI/ParlaMint-SI.ana.xml > tmp/ParlaMint-SI.ana.xml
 	$j ParlaMint.rng tmp/ParlaMint-SI.ana.xml
 
 # Make one file from the ODD
 prepare:
 	rm -f tmp/*
-	$s -xi -xsl:../Scripts/copy.xsl ParlaMint.odd.xml > tmp/ParlaMint.xml
+	$s -xi -xsl:copy-odd.xsl ParlaMint.odd.xml > tmp/ParlaMint.xml
 
 ### Location of Jing (for RelaxNG validation) and Saxon (for XSLT stylesheets)
 j = java -jar /usr/share/java/jing.jar
