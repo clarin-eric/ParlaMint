@@ -1,3 +1,7 @@
+setup:
+	mkdir tmp
+	git clone git@github.com:TEIC/Stylesheets.git
+
 # Validate 
 all:	prepare val-schema xml-schemas val-examples html
 
@@ -9,7 +13,7 @@ SUBSET = --localsource=p5subset.xml
 #SUBSET = --localsource=https://tei-c.org/release/xml/tei/odd/p5subset.xml
 
 # Location and directory name of the profile for conversion to HTML
-PROFILE = --profiledir=/project/corpora/Parla/ParlaMint/ParlaMint/TEI --profile=profile
+PROFILE = --profiledir=$(shell pwd) --profile=profile
 
 # Convert to HTML
 html:	val-schema
