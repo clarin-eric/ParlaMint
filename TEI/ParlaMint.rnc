@@ -10,7 +10,7 @@ namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 namespace xsl = "http://www.w3.org/1999/XSL/Transform"
 
-# Schema generated from ODD source 2022-02-19T17:31:00Z. 2022-02-19.
+# Schema generated from ODD source 2022-02-19T21:50:00Z. 2022-02-19.
 # TEI Edition: Version 4.4.0a. Last updated on
 #         19th January 2022, revision daab99ca7
 # TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
@@ -847,7 +847,7 @@ tei_note =
   
   ## (note) contains a note or annotation. [3.9.1. Notes and Simple Annotation 2.2.6. The Notes Statement 3.12.2.8. Notes and Statement of Language 9.3.5.4. Notes within Entries]
   element note {
-    tei_macro.specialPara,
+    (text | tei_time)*,
     tei_att.global.attributes,
     tei_att.placement.attributes,
     tei_att.pointing.attributes,
@@ -1641,7 +1641,13 @@ tei_div =
   ## (text division) contains a subdivision of the front, body, or back of a text. [4.1. Divisions of the Body]
   element div {
     tei_head*,
-    ((tei_note | tei_pb | tei_u)+)
+    ((tei_note
+      | tei_vocal
+      | tei_kinesic
+      | tei_incident
+      | tei_gap
+      | tei_pb
+      | tei_u)+)
     >> sch:pattern [
          id =
            "parlamint-div-abstractModel-structure-l-constraint-report-8"
@@ -1785,7 +1791,13 @@ tei_u =
   
   ## (utterance) contains a stretch of speech usually preceded and followed by silence or by a change of speaker. [8.3.1. Utterances]
   element u {
-    tei_macro.paraContent,
+    (tei_note
+     | tei_vocal
+     | tei_kinesic
+     | tei_incident
+     | tei_gap
+     | tei_pb
+     | tei_seg)+,
     tei_att.global.attributes,
     tei_att.timed.attributes,
     tei_att.declaring.attributes,
@@ -2374,7 +2386,13 @@ tei_seg =
   
   ## (arbitrary segment) represents any segmentation of text below the chunk level. [16.3. Blocks, Segments, and Anchors 6.2. Components of the Verse Line 7.2.5. Speech Contents]
   element seg {
-    tei_macro.paraContent,
+    (tei_note
+     | tei_vocal
+     | tei_kinesic
+     | tei_incident
+     | tei_gap
+     | tei_pb
+     | (text | tei_s)*)+,
     tei_att.global.attributes,
     tei_att.segLike.attributes,
     tei_att.typed.attributes,

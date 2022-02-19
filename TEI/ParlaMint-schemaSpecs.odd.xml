@@ -41,6 +41,7 @@
   <classRef key="att.edition" include=""/>
   <!-- Why isn't u included in att.fragmentable? Issue to tei-c? -->
   <classRef key="att.fragmentable" include=""/>
+  <!-- Cannot have xml: in include/except! -->
   <!--classRef key="att.global" include="xml:id xml:lang n"/-->
   <classRef key="att.global" except=""/>
   <classRef key="att.global.analytic" include="ana"/>
@@ -70,6 +71,7 @@
   <classRef key="att.typed" include="type subtype"/>
   <classRef key="att.written" include=""/>
 
+  <!-- Change element specifications -->
   <elementSpec ident="TEI" module="textstructure" mode="change">
     <content>
       <elementRef key="teiHeader"/>
@@ -105,6 +107,11 @@
 	</datatype>
       </attDef>
     </attList>
+    <!-- Could also add:
+	desc
+	exemplum
+	remarks
+    -->    
   </elementSpec>
   
   <elementSpec ident="text" module="textstructure" mode="change">
@@ -124,7 +131,10 @@
       <elementRef key="head" minOccurs="0" maxOccurs="unbounded"/>
       <alternate minOccurs="1" maxOccurs="unbounded">
 	<elementRef key="note"/>
-	<elementRef key="comment"/>
+	<elementRef key="vocal"/>
+	<elementRef key="kinesic"/>
+	<elementRef key="incident"/>
+	<elementRef key="gap"/>
 	<elementRef key="pb"/>
 	<elementRef key="u"/>
       </alternate>
@@ -141,15 +151,15 @@
         </valList>
       </attDef>
     </attList>
-    <!-- Could also add:
-	desc
-	exemplum
-	remarks
-    -->
   </elementSpec>
   
-
   <elementSpec ident="note" mode="change" module="core">
+    <content>
+      <alternate minOccurs="0" maxOccurs="unbounded">
+	<textNode/>
+	<elementRef key="time"/>
+      </alternate>
+    </content>
     <!-- These are note/@type values we have in 2.1:
 
      agendaItem, answer, articlesExam, articlesVoting, chair, comment, debate, description,
@@ -162,7 +172,6 @@
      - they should all be in camel-case (musical_performance, vote-ayes, vote-noes)
      - some should be changed (vote vs. voting)
      - some are probably too specfic (voting vs. articlesVoting, finalVoting)
-
     -->
     <attList>
       <attDef ident="type" mode="replace" usage="rec">
@@ -208,12 +217,543 @@
     </attList>
   </elementSpec>
   
-  <!--elementSpec ident="u" module="spoken" mode="change">
-      <attList>
+  <elementSpec ident="u" module="spoken" mode="change">
+    <content>
+      <alternate minOccurs="1" maxOccurs="unbounded">
+	<elementRef key="note"/>
+	<elementRef key="vocal"/>
+	<elementRef key="kinesic"/>
+	<elementRef key="incident"/>
+	<elementRef key="gap"/>
+	<elementRef key="pb"/>
+	<elementRef key="seg"/>
+      </alternate>
+    </content>
+    <!--attList>
       <attDef ident="xml:id" mode="replace" usage="req">
       <datatype><dataRef name="ID"/></datatype>
       </attDef>
-      </attList>
-      </elementSpec-->
+      </attList-->
+  </elementSpec>
   
+  <elementSpec ident="seg" module="linking" mode="change">
+    <content>
+      <alternate minOccurs="1" maxOccurs="unbounded">
+	<elementRef key="note"/>
+	<elementRef key="vocal"/>
+	<elementRef key="kinesic"/>
+	<elementRef key="incident"/>
+	<elementRef key="gap"/>
+	<elementRef key="pb"/>
+	<alternate minOccurs="0" maxOccurs="unbounded">
+	  <textNode/>
+	  <elementRef key="s"/>
+	</alternate>
+      </alternate>
+    </content>
+  </elementSpec>
+  
+  <!-- To Do:
+    <elementSpec ident="bibl" module="core" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="date" module="core" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="desc" module="core" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="email" module="core" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="gap" module="core" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="graphic" module="core" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="head" module="core" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="label" module="core" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="measure" module="core" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="media" module="core" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="meeting" module="core" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="name" module="core" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="num" module="core" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="p" module="core" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="pb" module="core" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="pubPlace" module="core" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="publisher" module="core" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="ref" module="core" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="resp" module="core" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="respStmt" module="core" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="teiCorpus" module="core" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="term" module="core" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="time" module="core" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="title" module="core" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="unit" module="core" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="appInfo" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="application" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="availability" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="catDesc" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="catRef" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="category" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="change" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="classDecl" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="correction" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="edition" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="editionStmt" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="editorialDecl" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="encodingDesc" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="extent" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="fileDesc" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="funder" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="hyphenation" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="idno" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="langUsage" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="language" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="licence" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="listPrefixDef" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="namespace" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="normalization" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="prefixDef" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="profileDesc" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="projectDesc" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="publicationStmt" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="quotation" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="revisionDesc" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="segmentation" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="sourceDesc" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="tagUsage" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="tagsDecl" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="taxonomy" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="teiHeader" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="textClass" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="titleStmt" module="header" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="particDesc" module="corpus" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="setting" module="corpus" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="settingDesc" module="corpus" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="equipment" module="spoken" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="incident" module="spoken" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="kinesic" module="spoken" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="recording" module="spoken" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="recordingStmt" module="spoken" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="vocal" module="spoken" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="addName" module="namesdates" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="affiliation" module="namesdates" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="birth" module="namesdates" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="death" module="namesdates" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="education" module="namesdates" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="event" module="namesdates" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="forename" module="namesdates" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="listEvent" module="namesdates" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="listOrg" module="namesdates" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="listPerson" module="namesdates" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="listRelation" module="namesdates" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="nameLink" module="namesdates" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="occupation" module="namesdates" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="org" module="namesdates" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="orgName" module="namesdates" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="persName" module="namesdates" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="person" module="namesdates" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="placeName" module="namesdates" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="relation" module="namesdates" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="roleName" module="namesdates" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="sex" module="namesdates" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="surname" module="namesdates" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="link" module="linking" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="linkGrp" module="linking" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="figure" module="figures" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="pc" module="analysis" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="s" module="analysis" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    <elementSpec ident="w" module="analysis" mode="change">
+      <content>
+      </content>
+    </elementSpec>
+
+    -->
 </schemaSpec>
+    

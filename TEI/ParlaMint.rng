@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2022-02-19T17:30:56Z. 2022-02-19.
+Schema generated from ODD source 2022-02-19T21:49:56Z. 2022-02-19.
 TEI Edition: Version 4.4.0a. Last updated on
         19th January 2022, revision daab99ca7
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
@@ -1626,7 +1626,12 @@ Measures]</a:documentation>
    <define name="tei_note">
       <element name="note">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(note) contains a note or annotation. [3.9.1. Notes and Simple Annotation 2.2.6. The Notes Statement 3.12.2.8. Notes and Statement of Language 9.3.5.4. Notes within Entries]</a:documentation>
-         <ref name="tei_macro.specialPara"/>
+         <zeroOrMore>
+            <choice>
+               <text/>
+               <ref name="tei_time"/>
+            </choice>
+         </zeroOrMore>
          <ref name="tei_att.global.attributes"/>
          <ref name="tei_att.placement.attributes"/>
          <ref name="tei_att.pointing.attributes"/>
@@ -2661,6 +2666,10 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          <oneOrMore>
             <choice>
                <ref name="tei_note"/>
+               <ref name="tei_vocal"/>
+               <ref name="tei_kinesic"/>
+               <ref name="tei_incident"/>
+               <ref name="tei_gap"/>
                <ref name="tei_pb"/>
                <ref name="tei_u"/>
             </choice>
@@ -2872,7 +2881,17 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
    <define name="tei_u">
       <element name="u">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(utterance) contains a stretch of speech usually preceded and followed by silence or by a change of speaker. [8.3.1. Utterances]</a:documentation>
-         <ref name="tei_macro.paraContent"/>
+         <oneOrMore>
+            <choice>
+               <ref name="tei_note"/>
+               <ref name="tei_vocal"/>
+               <ref name="tei_kinesic"/>
+               <ref name="tei_incident"/>
+               <ref name="tei_gap"/>
+               <ref name="tei_pb"/>
+               <ref name="tei_seg"/>
+            </choice>
+         </oneOrMore>
          <ref name="tei_att.global.attributes"/>
          <ref name="tei_att.timed.attributes"/>
          <ref name="tei_att.declaring.attributes"/>
@@ -3705,7 +3724,22 @@ Sample values include: 1] explicit; 2] implicit</a:documentation>
    <define name="tei_seg">
       <element name="seg">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(arbitrary segment) represents any segmentation of text below the chunk level. [16.3. Blocks, Segments, and Anchors 6.2. Components of the Verse Line 7.2.5. Speech Contents]</a:documentation>
-         <ref name="tei_macro.paraContent"/>
+         <oneOrMore>
+            <choice>
+               <ref name="tei_note"/>
+               <ref name="tei_vocal"/>
+               <ref name="tei_kinesic"/>
+               <ref name="tei_incident"/>
+               <ref name="tei_gap"/>
+               <ref name="tei_pb"/>
+               <zeroOrMore>
+                  <choice>
+                     <text/>
+                     <ref name="tei_s"/>
+                  </choice>
+               </zeroOrMore>
+            </choice>
+         </oneOrMore>
          <ref name="tei_att.global.attributes"/>
          <ref name="tei_att.segLike.attributes"/>
          <ref name="tei_att.typed.attributes"/>
