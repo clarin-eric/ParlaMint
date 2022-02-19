@@ -1,5 +1,5 @@
 # Validate 
-all:	prepare val-schema xml-schemas val-examples html mount
+all:	prepare val-schema xml-schemas val-samples html mount
 
 # ParlaMint TEI documentation and schema, as expanded by prepare target
 ODD = tmp/ParlaMint.xml
@@ -28,13 +28,17 @@ xml-schemas:	val-schema
 	#Stylesheets/bin/teitoxsd        ${SUBSET} ${ODD} ParlaMint.xsd
 	#Stylesheets/bin/teitoschematron ${SUBSET} ${ODD} ParlaMint.sch
 
-val:	val-schema val-examples
+val:	val-schema val-samples
 val-schema:
 	$j tei_odds.rng tmp/ParlaMint.xml
 
-# Validate examples
-val-examples:
-	validate.pl ../Data
+# Validate samples
+val-samples:
+	validate.pl samples ../Data
+
+# Validate all the full set of components
+val-master:
+	validate.pl master ../../V2/MasterV2.1
 
 # Make one file from the ODD
 prepare:

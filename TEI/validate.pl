@@ -12,11 +12,25 @@ binmode(STDERR, ':utf8');
 
 use FindBin qw($Bin);
 
+$what = shift;
+if ($what eq 'samples') {
+    $tmpDir = "$Bin/tmp";
+    $maskTxt = 'ParlaMint-??/ParlaMint-??.xml';
+    $maskAna = 'ParlaMint-??/ParlaMint-??.ana.xml';
+}
+elsif ($what eq 'master') {
+    $maskTxt  = 'ParlaMint-??.TEI/ParlaMint-??_*.xml ';
+    $maskTxt .= 'ParlaMint-??.TEI/*/ParlaMint-??_*.xml';
+    $maskAna  = 'ParlaMint-??.TEI.ana/ParlaMint-??_*.ana.xml ';
+    $maskAna .= 'ParlaMint-??.TEI.ana/*/ParlaMint-??_*.ana.xml';
+}
+else {
+    die "First parameter must be 'samples' or 'master'\n"
+}
 $inDir = shift;
-$tmpDir = "$Bin/tmp";
-$maskTxt = 'ParlaMint-??/ParlaMint-??.xml';
-$maskAna = 'ParlaMint-??/ParlaMint-??.ana.xml';
-
+unless (-d $inDir) {
+    die "Second parameter must be top level input directory\n"
+}
 #Execution
 $Jing   = "java -jar /usr/share/java/jing.jar";
 $Saxon  = "java -jar /usr/share/java/saxon.jar";
@@ -25,10 +39,15 @@ $Saxon  = "java -Xmx120g -jar /usr/share/java/saxon.jar";
 $Copy   = "$Bin/copy-odd.xsl";
 $Schema = "$Bin/ParlaMint.rng";
 
-foreach my $file (glob "$inDir/$maskTxt $inDir/$maskAna") {
-    ($fName) = $file =~ m|([^/]+\.xml)|;
+foreach my $inFile (glob "$inDir/$maskTxt $inDir/$maskAna") {
+    ($fName) = $inFile =~ m|([^/]+\.xml)|;
     print STDERR "INFO: Validating $fName\n";
-    $tmpFile = "$tmpDir/$fName";
-    `$Saxon -xi -xsl:$Copy $file > $tmpFile`;
-    `$Jing $Schema $tmpFile`;
+    if ($what eq 'samples') {
+	$tmpFile = "$tmpDir/$fName";
+	`$Saxon -xi -xsl:$Copy $inFile > $tmpFile`;
+	`$Jing $Schema $tmpFile`
+    }
+    elsif ($what eq 'master') {
+	`$Jing $Schema $inFile`
+    }
 }
