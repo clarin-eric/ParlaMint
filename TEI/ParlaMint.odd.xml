@@ -1151,7 +1151,7 @@
 	    <p>The participant description, <gi>particDesc</gi> gives the information about
 	    political parties and other <q>organisations</q> relevant to the corpus and the
 	    information about the speakers whose speeches constitute the corpus transcripts.
-	    This information is given in the <gi>corpus root</gi> in the dedicated types of
+	    This information is given in the <hi>corpus root</hi> in the dedicated types of
 	    lists, <gi>listOrg</gi> for organisations, and <gi>listPerson</gi> for the
 	    speakers, as show below:
 	    
@@ -1226,10 +1226,10 @@
 	      English Wikipedia pages.</p>
 
 	      <p>Returning to the <att>role</att> attribute, it is the ParlaMint schema
-	      (cf. the Section on <ref target="#sec-schemas">ParlaMint schemas</ref>) that
-	      gives its set of allowed values. Currently, the list is quite long, as we left
-	      it up to the partners of ParlaMint 1 to determine the values, but the main
-	      ones are:
+	      (cf. the Section on <ref target="#sec-validate">Validating ParlaMint
+	      corpora</ref>) that gives its set of allowed values. Currently, the list is
+	      quite long, as we left it up to the partners of ParlaMint 1 to determine the
+	      values, but the main ones are:
 	      <list>
 		<item><val>government</val>: the government of the country or region,
 		further exemplified below</item>
@@ -2498,71 +2498,77 @@
 	<head>Validation and conversion</head>
 	
 	<p>The chapter explains how to validate and finalise a ParlaMint corpus, and introduces
-	scripts for converting a ParlaMint corpus to other, derived formats</p>
+	scripts for converting a ParlaMint corpus to other, derived formats.</p>
 
-	<div xml:id="sec-schemas">
+	<div xml:id="sec-validate">
 	  <head>Validating ParlaMint corpora</head>
 	  
 	  <p>The XML structure of ParlaMint corpora can be validated via RelaxNG schemas, which
 	  exist in two versions, one that was produced as a customisation of the TEI Guidelines,
 	  and a set of schemas that were made from scratch for ParlaMint.</p>
 
-	  <p>The TEI customisation is written as a TEI ODD document, and is, in fact, the XML
-	  version of this document, as is available in the <ref
+	  <p>The TEI customisation is written as a TEI ODD document, which is, in fact, the XML
+	  version of this document, and is available in the <ref
 	  target="https://github.com/clarin-eric/ParlaMint/tree/main/TEI">TEI/ directory</ref> of
 	  the ParlaMint GitHub repository. The XML contains not only the prose guidelines, but
-	  also the formal specification of the TEI schema in <ref target="#schema">Appendix
-	  A</ref> in the on-line version converted to a reference resource to all the elements,
-	  attributes and classes used in ParlaMint corpora. The ODD document is not immediately
-	  useful for XML validation, but has to be converted with TEI XSLT stylesheets first in
-	  order to obtain a RelaxNG schema, and this schema is also available in the same
-	  directory under the name of <ref
+	  also the formal specification of the TEI schema, which is given in the <ref
+	  target="#schema">Appendix A</ref>. In the XML it contains the formal schema
+	  specification, while in the on-line version this is converted to a reference to all the
+	  elements, attributes and classes used in ParlaMint corpora. The ODD document is not
+	  immediately useful for XML validation, but has to be converted with TEI XSLT
+	  stylesheets first in order to obtain a RelaxNG schema, and this schema is also
+	  available in the same directory under the name of <ref
 	  target="https://github.com/clarin-eric/ParlaMint/blob/main/TEI/ParlaMint.rng">ParlaMint.rng</ref>
-	  (in RelaxNG XML syntax) or <ref
+	  (in RelaxNG XML syntax) and <ref
 	  target="https://github.com/clarin-eric/ParlaMint/blob/main/TEI/ParlaMint.rnc">ParlaMint.rnc</ref>
 	  (in RelaxNG compact syntax). This schema should be used to check that ParlaMint
 	  component files validate against TEI.</p>
   
-	  <p>However, the TEI ParlaMint schema has two drawbacks in using it for ParlaMint corpus
+	  <p>However, the TEI ParlaMint schema has two drawbacks in using it for ParlaMint
 	  validation. First, while the component corpus files can most likely be validated with
 	  it, the root file can only be validated by first XIncluding all the component files in
 	  the root in order to get a complete <gi>teiCorpus</gi> rooted XML document. But a
 	  typical ParlaMint corpus will be too large to perform this kind of validation, so it is
-	  not possible to validate the complete corpus; validation can, however, be performed on
-	  the much smaller sample corpora as available in the GitHub repository of the
-	  project. Secondly, it is difficult to constrain a TEI ODD-derived XML schema to allow
-	  only the kinds of nestings and attributes that should appear in a ParlaMint corpus, so
-	  this schema allows (and lists <ref target="#schema">Appendix A</ref>) attributes that
-	  are in fact forbidden in ParlaMint corpora.</p>
+	  not possible to validate the complete corpus; such validation can, however, be
+	  performed on the much smaller sample corpora as available in the GitHub repository of
+	  the project. Secondly, it is difficult to constrain a TEI ODD-derived XML schema to
+	  allow only the kinds of nestings and attributes that should appear in a ParlaMint
+	  corpus, so this schema allows (and lists <ref target="#schema">Appendix A</ref>)
+	  nesting of elements, as well as attributes that are in fact forbidden in ParlaMint
+	  corpora.</p>
 	  
 	  <p>For this reason, we have also developed a set of RelaxNG schemas from scratch, which
-	  do allow only those elements, attributes and content models that are in fact valid for a
-	  ParlaMint corpus. There are all together four schemas, one for a "plain-text" corpus
-	  root, one for its corpus components, one for the linguistically annotated corpus root,
-	  and one for its components. These schemas can be found in the <ref
+	  do allow only those elements, attributes and content models that are in fact valid for
+	  a ParlaMint corpus. There are all together four such schemas, one for a "plain-text"
+	  corpus root, one for its corpus components, one for the linguistically annotated corpus
+	  root, and one for its components. These schemas can be found in the <ref
 	  target="https://github.com/clarin-eric/ParlaMint/tree/main/Schema">Schema/
 	  directory</ref> of the ParlaMint GitHub repository, with the README file giving
 	  instructions on how to use them.</p>
 
-	  <p>While validating with XML schemas checks the formal structure of XML files, it is
-	  less successful in validating other aspects of conformance, such as the textual content
-	  or linking of pointer attributes. For this reason, we have also developed an XSLT script
+	  <p>Validating with XML schemas checks the formal structure of XML files but is less
+	  successful in validating other aspects of conformance, such as the textual content or
+	  linking of pointer attributes. For this reason, we have also developed an XSLT script
 	  that assumes a schema-validated ParlaMint file on its input, and checks various other
 	  aspects of conformance. These validation scripts can be found in the <ref
 	  target="https://github.com/clarin-eric/ParlaMint/tree/main/Scripts">Scripts/
-	  directory</ref> of the ParlaMint GitHub repository, with the README file listing them.</p>
+	  directory</ref> of the ParlaMint GitHub repository, with the README file listing
+	  them.</p>
 
-	  <p>While each contributor of a ParlaMint corpus should validate their files with the
-	  schema and XSLT script, there also exist further stages of validation, which are also
-	  applied to ParlaMint corpora:
+	  <p>While each contributor of a corpus should validate their files with the ParlaMint
+	  schemas and validation script, there also exist further stages of validation, which are
+	  also applied to ParlaMint corpora:
 	  <list>
-	    <item>The corpora are converted to derived formats, in particular CoNLL-U and vertical
-	    format for CQP-type concordancers, both from the linguistically annotated version of
-	    the corpus. The Universal Dependencies project provides a program for validating the
-	    formatting and linguistic analyses in CoNLL-U files, and this validation is used on
-	    the CoNLL-U files derived from their XML source, up to level 2 conformance. The
-	    vertical files, on the other hand, are first compiled with manatee (the back end of
-	    (no)Sketch Engine) and this compilation can also expose various errors.</item>
+	    <item>The corpora are converted to derived formats, in particular, the linguistically
+	    annotated version of the corpus to CoNLL-U and to the so called vertical format for
+	    CQP-type concordancers. The Universal Dependencies project provides a <ref
+	    target="https://universaldependencies.org/release_checklist.html#validation">program</ref>
+	    for validating the formatting and linguistic analyses in CoNLL-U files, and this
+	    validation is used on the CoNLL-U files derived from their XML source, up to level 2
+	    conformance. The vertical files, on the other hand, are first compiled with <ref
+	    target="https://nlp.fi.muni.cz/trac/noske">manatee</ref> (the back end of <ref
+	    target="https://www.sketchengine.eu/nosketch-engine/">(no)Sketch Engine</ref>) and
+	    this compilation can also expose various errors.</item>
 
 	    <item>The last stage in validation is <q>human validation</q> where e.g. simply
 	    looking at various produced metadata files or at the concordances of a corpus exposes
@@ -2575,18 +2581,20 @@
           <head>Finalisation of corpora</head>
 	  
           <p>While the vast majority of converting source encodings into the ParlaMint corpus
-          format is left to the compilers of a corpus, there are a few elements that can be
-          produced by common scripts on the basis of nearly finished corpora and lead to the final
-          version of the corpus for a particular release. This includes setting the date, edition
-          and handle under which the corpus will be distributed, and also calculating the size of
-          the corpus (cf. the Sections on <ref target="#sec-extent">Extents</ref> and on <ref
-          target="#sec-tagsDecl">Tags declaration</ref>).
+          format is left to the compilers of a corpus, there are a few metadata elements that can
+          be produced by a common script on the basis of nearly finished corpora, which then
+          results in the final version of the corpus for a particular release. This includes
+          setting the date, edition and handle under which the corpus will be distributed, and
+          also calculating the size of the corpus (cf. the Sections on <ref
+          target="#sec-extent">Extents</ref> and on <ref target="#sec-tagsDecl">Tags
+          declaration</ref>).
 
 	  The script for finalisation can be found in the <ref
 	  target="https://github.com/clarin-eric/ParlaMint/tree/main/Scripts">Scripts/
 	  directory</ref> of the ParlaMint GitHub repository and the README file briefly explains
 	  its function; more comments can be found in the script itself.
-	  <!-- This script is for V2.1, it has to be updated for 3.0!! -->
+	  <!-- The README there does not in fact mention finalisation, needs updating -->
+	  <!-- This script is for V2.1, it has to be updated for 3.0 -->
 	  </p>
 	</div>
 	
@@ -2599,7 +2607,7 @@
           and they can be found in the <ref
           target="https://github.com/clarin-eric/ParlaMint/tree/main/Scripts">Scripts/
           directory</ref> of the ParlaMint GitHub repository, with the README file listing them
-          and explaining their function. In short, the programs convert the ParlaMint XML to plain
+          and explaining their function. In short, the scripts convert the ParlaMint XML to plain
           text, to CoNLL-U, and to vertical format. There is also a script that takes a ParlaMint
           corpus and makes from it a sample for inclusion to the <ref
           target="https://github.com/clarin-eric/ParlaMint/">ParlaMint GitHub
@@ -2610,19 +2618,32 @@
       <div xml:id="chp-contributing">
 	<head>Contributing to the GitHub repository</head>
 	
-        <p>There are four stable branches to make development more transparent:
+        <p>The <ref target="https://github.com/clarin-eric/ParlaMint/">ParlaMint GitHub
+        repository</ref> contains these guidelines, the ParlaMint XML schemas, the scripts used
+        to validate, finalise and convert the ParlaMint TEI XML corpora to derived formats, and
+        samples of the ParlaMint corpora. There are four stable branches in the repository, to
+        make development more transparent:
           <list>
             <item><ref target="https://github.com/clarin-eric/ParlaMint/tree/main">main</ref>
               is the default branch used for the synchronisation of other branches.
               It is also used for releasing sample files that correspond to published corpora.</item>
             <item><ref target="https://github.com/clarin-eric/ParlaMint/tree/data">data</ref>
-              serves as a pushing place for new sample files in ./Data/ParlaMint-XX directories. </item>
+              serves as a pushing place for new sample files in ./Data/ParlaMint-XX directories.</item>
             <item><ref target="https://github.com/clarin-eric/ParlaMint/tree/devel">devel</ref>
               serves development scripts, and schemas</item>
-            <item><ref target="https://github.com/clarin-eric/ParlaMint/tree/documentation">documentation</ref>
-              serves development documentation and GitHub pages deployment.</item>
+            <item><ref target="https://github.com/clarin-eric/ParlaMint/tree/documentation">documentation</ref>             serves development documentation and GitHub pages deployment.</item>
           </list>
         </p>
+
+	<p>Those contributing to the ParlaMint corpora should first make a fork of the
+	ParlaMint repository, and then clone the fork to their local machine. They should
+	then develop their ParlaMint corpus, and validate it as explained in the Section on
+	<ref target="#sec-validate">Validating ParlaMint corpora</ref>.</p>
+
+	<p>Then, the samples should be produced and put in the <code>data</code> branch of
+	the local copy of the repository, which should then be pushed to their fork of the
+	repository. Finally, a pull request should be made to the main ParlaMint GitHub
+	repository.</p>
       </div>
       
       <div xml:id="sec-ack">
@@ -2658,6 +2679,7 @@
 	  <xi:include href="../Examples/Parla-CLARIN-Exemplar.xml"/>
 	  </egXML>
 	  </div-->
+      
       <div xml:id="schema">
 	<head>Formal specification</head>
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
