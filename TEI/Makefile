@@ -1,9 +1,5 @@
-# Put the docs directory somewhere where the HTML can be viewed
-mount:
-	rsync -a ../docs/ tomaz@nl.ijs.si:/home/tomaz/www/tmp/ParlaMint/Pages
-
 # Validate 
-all:	prepare val-schema xml-schemas val-examples html
+all:	prepare val-schema xml-schemas val-examples html mount
 
 # ParlaMint TEI documentation and schema, as expanded by prepare target
 ODD = tmp/ParlaMint.xml
@@ -14,6 +10,11 @@ SUBSET = --localsource=p5subset.xml
 
 # Location and directory name of the profile for conversion to HTML
 PROFILE = --profiledir=$(shell pwd) --profile=profile
+
+# Put the docs directory somewhere where the HTML can be viewed
+# This is a local thing!
+mount:
+	rsync -a ../docs/ tomaz@nl.ijs.si:/home/tomaz/www/tmp/ParlaMint/Pages
 
 # Convert to HTML
 html:	prepare val-schema
@@ -33,7 +34,7 @@ val-schema:
 
 # Validate examples
 val-examples:
-	validate-samples.pl ../Data
+	validate.pl ../Data
 
 # Make one file from the ODD
 prepare:

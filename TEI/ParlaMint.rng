@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2022-02-19T12:11:52Z. 2022-02-19.
+Schema generated from ODD source 2022-02-19T17:30:56Z. 2022-02-19.
 TEI Edition: Version 4.4.0a. Last updated on
         19th January 2022, revision daab99ca7
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
@@ -656,29 +656,6 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
          <ref name="tei_head"/>
       </choice>
    </define>
-   <define name="tei_model.headLike_alternation">
-      <choice>
-         <ref name="tei_head"/>
-      </choice>
-   </define>
-   <define name="tei_model.headLike_sequence">
-      <ref name="tei_head"/>
-   </define>
-   <define name="tei_model.headLike_sequenceOptional">
-      <optional>
-         <ref name="tei_head"/>
-      </optional>
-   </define>
-   <define name="tei_model.headLike_sequenceOptionalRepeatable">
-      <zeroOrMore>
-         <ref name="tei_head"/>
-      </zeroOrMore>
-   </define>
-   <define name="tei_model.headLike_sequenceRepeatable">
-      <oneOrMore>
-         <ref name="tei_head"/>
-      </oneOrMore>
-   </define>
    <define name="tei_model.labelLike">
       <choice>
          <ref name="tei_desc"/>
@@ -1044,17 +1021,6 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
          <ref name="tei_meeting"/>
       </choice>
    </define>
-   <define name="tei_model.divTopPart">
-      <choice>
-         <ref name="tei_model.headLike"/>
-      </choice>
-   </define>
-   <define name="tei_model.divTop">
-      <choice>
-         <ref name="tei_model.divWrapper"/>
-         <ref name="tei_model.divTopPart"/>
-      </choice>
-   </define>
    <define name="tei_model.divBottomPart">
       <notAllowed/>
    </define>
@@ -1264,17 +1230,6 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
          <ref name="tei_model.phrase.xml"/>
          <ref name="tei_model.pPart.data"/>
       </choice>
-   </define>
-   <define name="tei_model.divLike">
-      <choice>
-         <ref name="tei_div"/>
-      </choice>
-   </define>
-   <define name="tei_model.divGenLike">
-      <notAllowed/>
-   </define>
-   <define name="tei_model.div1Like">
-      <notAllowed/>
    </define>
    <define name="tei_model.applicationLike">
       <choice>
@@ -2624,22 +2579,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
    <define name="tei_TEI">
       <element name="TEI">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(TEI document) contains a single TEI-conformant document, combining a single TEI header with one or more members of the model.resource class. Multiple <code xmlns="http://www.w3.org/1999/xhtml">&lt;TEI&gt;</code> elements may be combined within a <code xmlns="http://www.w3.org/1999/xhtml">&lt;TEI&gt;</code> (or <code xmlns="http://www.w3.org/1999/xhtml">&lt;teiCorpus&gt;</code>) element. [4. Default Text Structure 15.1. Varieties of Composite Text]</a:documentation>
-         <group>
-            <ref name="tei_teiHeader"/>
-            <choice>
-               <group>
-                  <oneOrMore>
-                     <ref name="tei_model.resource"/>
-                  </oneOrMore>
-                  <zeroOrMore>
-                     <ref name="tei_TEI"/>
-                  </zeroOrMore>
-               </group>
-               <oneOrMore>
-                  <ref name="tei_TEI"/>
-               </oneOrMore>
-            </choice>
-         </group>
+         <ref name="tei_teiHeader"/>
+         <ref name="tei_text"/>
          <sch:ns xmlns="http://www.tei-c.org/ns/1.0"
                  xmlns:eg="http://www.tei-c.org/ns/Examples"
                  xmlns:egXML="http://www.tei-c.org/ns/Examples"
@@ -2664,33 +2605,35 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                  prefix="rng"
                  uri="http://relaxng.org/ns/structure/1.0"/>
-         <ref name="tei_att.global.attributes"/>
-         <ref name="tei_att.typed.attributes"/>
-         <optional>
-            <attribute name="version">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the version number of the TEI Guidelines against which this document is valid.</a:documentation>
-               <data type="token">
-                  <param name="pattern">[\d]+(\.[\d]+){0,2}</param>
-               </data>
-            </attribute>
-         </optional>
+         <attribute name="xml:id">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            <data type="ID"/>
+         </attribute>
+         <attribute name="xml:lang">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            <choice>
+               <data type="language"/>
+               <choice>
+                  <value/>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               </choice>
+            </choice>
+         </attribute>
+         <attribute name="ana">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI"/>
+               </oneOrMore>
+            </list>
+         </attribute>
          <empty/>
       </element>
    </define>
    <define name="tei_text">
       <element name="text">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(text) contains a single text of any kind, whether unitary or composite, for example a poem or drama, a collection of essays, a novel, a dictionary, or a corpus sample. [4. Default Text Structure 15.1. Varieties of Composite Text]</a:documentation>
-         <group>
-            <zeroOrMore>
-               <ref name="tei_model.global"/>
-            </zeroOrMore>
-            <choice>
-               <ref name="tei_body"/>
-            </choice>
-            <zeroOrMore>
-               <ref name="tei_model.global"/>
-            </zeroOrMore>
-         </group>
+         <ref name="tei_body"/>
          <ref name="tei_att.global.attributes"/>
          <ref name="tei_att.declaring.attributes"/>
          <ref name="tei_att.typed.attributes"/>
@@ -2701,103 +2644,9 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
    <define name="tei_body">
       <element name="body">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(text body) contains the whole body of a single unitary text, excluding any front or back matter. [4. Default Text Structure]</a:documentation>
-         <group>
-            <zeroOrMore>
-               <ref name="tei_model.global"/>
-            </zeroOrMore>
-            <optional>
-               <group>
-                  <ref name="tei_model.divTop"/>
-                  <zeroOrMore>
-                     <choice>
-                        <ref name="tei_model.global"/>
-                        <ref name="tei_model.divTop"/>
-                     </choice>
-                  </zeroOrMore>
-               </group>
-            </optional>
-            <optional>
-               <group>
-                  <ref name="tei_model.divGenLike"/>
-                  <zeroOrMore>
-                     <choice>
-                        <ref name="tei_model.global"/>
-                        <ref name="tei_model.divGenLike"/>
-                     </choice>
-                  </zeroOrMore>
-               </group>
-            </optional>
-            <choice>
-               <oneOrMore>
-                  <group>
-                     <ref name="tei_model.divLike"/>
-                     <zeroOrMore>
-                        <choice>
-                           <ref name="tei_model.global"/>
-                           <ref name="tei_model.divGenLike"/>
-                        </choice>
-                     </zeroOrMore>
-                  </group>
-               </oneOrMore>
-               <oneOrMore>
-                  <group>
-                     <ref name="tei_model.div1Like"/>
-                     <zeroOrMore>
-                        <choice>
-                           <ref name="tei_model.global"/>
-                           <ref name="tei_model.divGenLike"/>
-                        </choice>
-                     </zeroOrMore>
-                  </group>
-               </oneOrMore>
-               <group>
-                  <oneOrMore>
-                     <group>
-                        <choice>
-                           <ref name="tei_model.common"/>
-                        </choice>
-                        <zeroOrMore>
-                           <ref name="tei_model.global"/>
-                        </zeroOrMore>
-                     </group>
-                  </oneOrMore>
-                  <optional>
-                     <choice>
-                        <oneOrMore>
-                           <group>
-                              <ref name="tei_model.divLike"/>
-                              <zeroOrMore>
-                                 <choice>
-                                    <ref name="tei_model.global"/>
-                                    <ref name="tei_model.divGenLike"/>
-                                 </choice>
-                              </zeroOrMore>
-                           </group>
-                        </oneOrMore>
-                        <oneOrMore>
-                           <group>
-                              <ref name="tei_model.div1Like"/>
-                              <zeroOrMore>
-                                 <choice>
-                                    <ref name="tei_model.global"/>
-                                    <ref name="tei_model.divGenLike"/>
-                                 </choice>
-                              </zeroOrMore>
-                           </group>
-                        </oneOrMore>
-                     </choice>
-                  </optional>
-               </group>
-            </choice>
-            <zeroOrMore>
-               <group>
-                  <ref name="tei_model.divBottom"/>
-                  <zeroOrMore>
-                     <ref name="tei_model.global"/>
-                  </zeroOrMore>
-               </group>
-            </zeroOrMore>
-         </group>
+         <oneOrMore>
+            <ref name="tei_div"/>
+         </oneOrMore>
          <ref name="tei_att.global.attributes"/>
          <ref name="tei_att.declaring.attributes"/>
          <empty/>
@@ -2806,62 +2655,16 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
    <define name="tei_div">
       <element name="div">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(text division) contains a subdivision of the front, body, or back of a text. [4.1. Divisions of the Body]</a:documentation>
-         <group>
-            <zeroOrMore>
-               <choice>
-                  <ref name="tei_model.divTop"/>
-                  <ref name="tei_model.global"/>
-               </choice>
-            </zeroOrMore>
-            <optional>
-               <group>
-                  <choice>
-                     <oneOrMore>
-                        <group>
-                           <choice>
-                              <ref name="tei_model.divLike"/>
-                              <ref name="tei_model.divGenLike"/>
-                           </choice>
-                           <zeroOrMore>
-                              <ref name="tei_model.global"/>
-                           </zeroOrMore>
-                        </group>
-                     </oneOrMore>
-                     <group>
-                        <oneOrMore>
-                           <group>
-                              <choice>
-                                 <ref name="tei_model.common"/>
-                              </choice>
-                              <zeroOrMore>
-                                 <ref name="tei_model.global"/>
-                              </zeroOrMore>
-                           </group>
-                        </oneOrMore>
-                        <zeroOrMore>
-                           <group>
-                              <choice>
-                                 <ref name="tei_model.divLike"/>
-                                 <ref name="tei_model.divGenLike"/>
-                              </choice>
-                              <zeroOrMore>
-                                 <ref name="tei_model.global"/>
-                              </zeroOrMore>
-                           </group>
-                        </zeroOrMore>
-                     </group>
-                  </choice>
-                  <zeroOrMore>
-                     <group>
-                        <ref name="tei_model.divBottom"/>
-                        <zeroOrMore>
-                           <ref name="tei_model.global"/>
-                        </zeroOrMore>
-                     </group>
-                  </zeroOrMore>
-               </group>
-            </optional>
-         </group>
+         <zeroOrMore>
+            <ref name="tei_head"/>
+         </zeroOrMore>
+         <oneOrMore>
+            <choice>
+               <ref name="tei_note"/>
+               <ref name="tei_pb"/>
+               <ref name="tei_u"/>
+            </choice>
+         </oneOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="parlamint-div-abstractModel-structure-l-constraint-report-8">
             <rule context="tei:div">

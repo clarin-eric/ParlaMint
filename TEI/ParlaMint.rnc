@@ -10,7 +10,7 @@ namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 namespace xsl = "http://www.w3.org/1999/XSL/Transform"
 
-# Schema generated from ODD source 2022-02-19T12:11:56Z. 2022-02-19.
+# Schema generated from ODD source 2022-02-19T17:31:00Z. 2022-02-19.
 # TEI Edition: Version 4.4.0a. Last updated on
 #         19th January 2022, revision daab99ca7
 # TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
@@ -298,11 +298,6 @@ tei_model.biblLike_sequenceOptional = tei_bibl?
 tei_model.biblLike_sequenceOptionalRepeatable = tei_bibl*
 tei_model.biblLike_sequenceRepeatable = tei_bibl+
 tei_model.headLike = tei_head
-tei_model.headLike_alternation = tei_head
-tei_model.headLike_sequence = tei_head
-tei_model.headLike_sequenceOptional = tei_head?
-tei_model.headLike_sequenceOptionalRepeatable = tei_head*
-tei_model.headLike_sequenceRepeatable = tei_head+
 tei_model.labelLike = tei_desc | tei_label
 tei_model.labelLike_alternation = tei_desc | tei_label
 tei_model.labelLike_sequence = tei_desc, tei_label
@@ -403,8 +398,6 @@ tei_model.attributable_sequenceRepeatable =
   tei_model.quoteLike_sequenceRepeatable+
 tei_model.respLike = tei_respStmt | tei_meeting | tei_funder
 tei_model.divWrapper = tei_meeting
-tei_model.divTopPart = tei_model.headLike
-tei_model.divTop = tei_model.divWrapper | tei_model.divTopPart
 tei_model.divBottomPart = notAllowed
 tei_model.divBottom = tei_model.divWrapper | tei_model.divBottomPart
 tei_model.imprintPart = tei_publisher | tei_pubPlace
@@ -501,9 +494,6 @@ tei_model.limitedPhrase =
   | tei_model.ptrLike
   | tei_model.phrase.xml
   | tei_model.pPart.data
-tei_model.divLike = tei_div
-tei_model.divGenLike = notAllowed
-tei_model.div1Like = notAllowed
 tei_model.applicationLike = tei_application
 tei_model.teiHeaderPart = tei_encodingDesc | tei_profileDesc
 tei_model.sourceDescPart = tei_recordingStmt
@@ -1600,28 +1590,37 @@ tei_TEI =
     ]
   ]
   element TEI {
-    (tei_teiHeader,
-     ((tei_model.resource+, tei_TEI*) | tei_TEI+))
+    tei_teiHeader,
+    tei_text
     >> sch:ns [ prefix = "tei" uri = "http://www.tei-c.org/ns/1.0" ]
     >> sch:ns [ prefix = "xs" uri = "http://www.w3.org/2001/XMLSchema" ]
     >> sch:ns [
          prefix = "rng"
          uri = "http://relaxng.org/ns/structure/1.0"
        ],
-    tei_att.global.attributes,
-    tei_att.typed.attributes,
     
-    ## specifies the version number of the TEI Guidelines against which this document is valid.
-    attribute version {
-      xsd:token { pattern = "[\d]+(\.[\d]+){0,2}" }
-    }?,
+    ##
+    attribute xml:id { xsd:ID },
+    
+    ##
+    attribute xml:lang {
+      xsd:language
+      | (
+         ##
+         "")
+    },
+    
+    ##
+    attribute ana {
+      list { xsd:anyURI+ }
+    },
     empty
   }
 tei_text =
   
   ## (text) contains a single text of any kind, whether unitary or composite, for example a poem or drama, a collection of essays, a novel, a dictionary, or a corpus sample. [4. Default Text Structure 15.1. Varieties of Composite Text]
   element text {
-    (tei_model.global*, (tei_body), tei_model.global*),
+    tei_body,
     tei_att.global.attributes,
     tei_att.declaring.attributes,
     tei_att.typed.attributes,
@@ -1632,19 +1631,7 @@ tei_body =
   
   ## (text body) contains the whole body of a single unitary text, excluding any front or back matter. [4. Default Text Structure]
   element body {
-    (tei_model.global*,
-     (tei_model.divTop, (tei_model.global | tei_model.divTop)*)?,
-     (tei_model.divGenLike,
-      (tei_model.global | tei_model.divGenLike)*)?,
-     ((tei_model.divLike, (tei_model.global | tei_model.divGenLike)*)+
-      | (tei_model.div1Like,
-         (tei_model.global | tei_model.divGenLike)*)+
-      | (((tei_model.common), tei_model.global*)+,
-         ((tei_model.divLike,
-           (tei_model.global | tei_model.divGenLike)*)+
-          | (tei_model.div1Like,
-             (tei_model.global | tei_model.divGenLike)*)+)?)),
-     (tei_model.divBottom, tei_model.global*)*),
+    tei_div+,
     tei_att.global.attributes,
     tei_att.declaring.attributes,
     empty
@@ -1653,12 +1640,8 @@ tei_div =
   
   ## (text division) contains a subdivision of the front, body, or back of a text. [4.1. Divisions of the Body]
   element div {
-    ((tei_model.divTop | tei_model.global)*,
-     ((((tei_model.divLike | tei_model.divGenLike), tei_model.global*)+
-       | (((tei_model.common), tei_model.global*)+,
-          ((tei_model.divLike | tei_model.divGenLike),
-           tei_model.global*)*)),
-      (tei_model.divBottom, tei_model.global*)*)?)
+    tei_head*,
+    ((tei_note | tei_pb | tei_u)+)
     >> sch:pattern [
          id =
            "parlamint-div-abstractModel-structure-l-constraint-report-8"

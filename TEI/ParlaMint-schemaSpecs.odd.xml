@@ -70,7 +70,65 @@
   <classRef key="att.typed" include="type subtype"/>
   <classRef key="att.written" include=""/>
 
+  <elementSpec ident="TEI" module="textstructure" mode="change">
+    <content>
+      <elementRef key="teiHeader"/>
+      <elementRef key="text"/>
+    </content>
+    <!-- Make @xml:id, @xml:lang and @ana required -->
+    <attList>
+      <attDef ident="xml:base" mode="delete"/>
+      <attDef ident="xml:space" mode="delete"/>
+      <attDef ident="n" mode="delete"/>
+      <attDef ident="type" mode="delete"/>
+      <attDef ident="subtype" mode="delete"/>
+      <attDef ident="corresp" mode="delete"/>
+      <attDef ident="synch" mode="delete"/>
+      <attDef ident="next" mode="delete"/>
+      <attDef ident="prev" mode="delete"/>
+      <attDef ident="resp" mode="delete"/>
+      <attDef ident="source" mode="delete"/>
+      <attDef ident="version" mode="delete"/>
+      <attDef ident="xml:id" mode="replace" usage="req">
+	<datatype>
+	  <dataRef name="ID"/>
+	</datatype>
+      </attDef>
+      <attDef ident="xml:lang" mode="replace" usage="req">
+	<datatype>
+	  <dataRef key="teidata.language"/>
+	</datatype>
+      </attDef>
+      <attDef ident="ana" mode="replace" usage="req">
+	<datatype maxOccurs="unbounded">
+	  <dataRef key="teidata.pointer"/>
+	</datatype>
+      </attDef>
+    </attList>
+  </elementSpec>
+  
+  <elementSpec ident="text" module="textstructure" mode="change">
+    <content>
+      <elementRef key="body"/>
+    </content>
+  </elementSpec>
+  
+  <elementSpec ident="body" module="textstructure" mode="change">
+    <content>
+      <elementRef key="div" minOccurs="1" maxOccurs="unbounded"/>
+    </content>
+  </elementSpec>
+  
   <elementSpec ident="div" module="textstructure" mode="change">
+    <content>
+      <elementRef key="head" minOccurs="0" maxOccurs="unbounded"/>
+      <alternate minOccurs="1" maxOccurs="unbounded">
+	<elementRef key="note"/>
+	<elementRef key="comment"/>
+	<elementRef key="pb"/>
+	<elementRef key="u"/>
+      </alternate>
+    </content>
     <attList>
       <attDef ident="type" mode="replace" usage="rec">
         <valList type="closed">
@@ -83,6 +141,11 @@
         </valList>
       </attDef>
     </attList>
+    <!-- Could also add:
+	desc
+	exemplum
+	remarks
+    -->
   </elementSpec>
   
 
