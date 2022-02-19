@@ -1,6 +1,6 @@
-setup:
-	mkdir tmp
-	git clone git@github.com:TEIC/Stylesheets.git
+# Put the docs directory somewhere where the HTML can be viewed
+mount:
+	rsync -a ../docs/ tomaz@nl.ijs.si:/home/tomaz/www/tmp/ParlaMint/Pages
 
 # Validate 
 all:	prepare val-schema xml-schemas val-examples html
@@ -33,15 +33,17 @@ val-schema:
 
 # Validate examples
 val-examples:
-	$s -xi -xsl:copy-odd.xsl ../Data/ParlaMint-SI/ParlaMint-SI.xml > tmp/ParlaMint-SI.xml
-	$j ParlaMint.rng tmp/ParlaMint-SI.xml
-	$s -xi -xsl:copy-odd.xsl ../Data/ParlaMint-SI/ParlaMint-SI.ana.xml > tmp/ParlaMint-SI.ana.xml
-	$j ParlaMint.rng tmp/ParlaMint-SI.ana.xml
+	validate-samples.pl ../Data
 
 # Make one file from the ODD
 prepare:
 	rm -f tmp/*
 	$s -xi -xsl:copy-odd.xsl ParlaMint.odd.xml > tmp/ParlaMint.xml
+
+# Initialise
+setup:
+	mkdir tmp
+	git clone git@github.com:TEIC/Stylesheets.git
 
 ### Location of Jing (for RelaxNG validation) and Saxon (for XSLT stylesheets)
 j = java -jar /usr/share/java/jing.jar

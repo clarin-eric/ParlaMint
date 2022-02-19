@@ -21,91 +21,86 @@
   <moduleRef key="figures" include="figure"/>
   <moduleRef key="analysis" include="pc s w"/>
   <!--moduleRef key="iso-fs" include=""/-->
-  
+
+  <!-- Changes to classes -->
+  <classRef key="att.anchoring" include=""/>
+  <classRef key="att.cReferencing" include=""/>
+  <classRef key="att.datable" include=""/>
+  <classRef key="att.datable.custom" include=""/>
+  <classRef key="att.datable.iso" include=""/>
+  <classRef key="att.datcat" include=""/>
+  <classRef key="att.declarable" include=""/>
+  <classRef key="att.declaring" include=""/>
+  <classRef key="att.dimensions" include=""/>
+  <classRef key="att.divLike" include=""/>
+  <classRef key="att.docStatus" include=""/>
+  <!--classRef key="att.duration" include=""/-->
+  <classRef key="att.duration.iso" include=""/>
+  <!--classRef key="att.duration.w3c" include=""/-->
+  <classRef key="att.editLike" include=""/>
+  <classRef key="att.edition" include=""/>
+  <!-- Why isn't u included in att.fragmentable? Issue to tei-c? -->
+  <classRef key="att.fragmentable" include=""/>
+  <!--classRef key="att.global" include="xml:id xml:lang n"/-->
+  <classRef key="att.global" except=""/>
+  <classRef key="att.global.analytic" include="ana"/>
+  <classRef key="att.global.linking" include="corresp synch next prev "/>
+  <classRef key="att.global.rendition" include=""/>
+  <classRef key="att.global.responsibility" include="resp"/>
+  <classRef key="att.global.source" include="source"/>
+  <classRef key="att.internetMedia" include="mimeType"/>
+  <classRef key="att.lexicographic.normalized" include="norm"/>
+  <classRef key="att.linguistic" include="lemma pos msd join"/>
+  <classRef key="att.locatable" include=""/>
+  <classRef key="att.measurement" include="unit quantity"/>
+  <classRef key="att.media" include=""/>
+  <classRef key="att.naming" include="role"/>
+  <classRef key="att.notated" include=""/>
+  <classRef key="att.patternReplacement" include="matchPattern replacementPattern"/>
+  <classRef key="att.personal" include="full"/>
+  <classRef key="att.placement" include=""/>
+  <classRef key="att.pointing" include="target targetLang"/>
+  <classRef key="att.pointing.group" include=""/>
+  <classRef key="att.ranging" include=""/>
+  <classRef key="att.resourced" include="url"/>
+  <classRef key="att.segLike" include=""/>
+  <classRef key="att.sortable" include=""/>
+  <classRef key="att.spanning" include=""/>
+  <classRef key="att.timed" include=""/>
+  <classRef key="att.typed" include="type subtype"/>
+  <classRef key="att.written" include=""/>
+
   <elementSpec ident="div" module="textstructure" mode="change">
-    <constraintSpec scheme="schematron" ident="divtype">
-      <constraint>
-        <sch:rule context="tei:div[@type = $div.types.debate]">
-          <sch:assert test="not(parent::tei:div[@type = $div.types.debate])">
-            A text division of type <sch:value-of select="@type"/> should not occur inside div with type value <sch:value-of select="parent::tei:div/@type"/>.
-          </sch:assert>
-        </sch:rule>
-      </constraint>
-    </constraintSpec>
     <attList>
       <attDef ident="type" mode="replace" usage="rec">
-        <valList type="open">
-          <!-- debateSection -->
+        <valList type="closed">
           <valItem ident="debateSection">
             <desc xml:lang="en">General purpose text division for all parts of
-            parliamentary proceedings. The suggested values below are
-	    adapted from Akoma Ntoso.
+            parliamentary proceedings. 
 	    If needed, the @subtype attribute can be used for
 	    additional content classification.</desc>
-          </valItem>
-          <valItem ident="address">
-            <desc xml:lang="en">Part of a debate relevant to addresses</desc>
-          </valItem>
-          <valItem ident="adjournment">
-            <desc xml:lang="en">Part of a debate containing adjournment notices</desc>
-          </valItem>
-          <valItem ident="administrationOfOath">
-            <desc xml:lang="en">Part of a debate containing the administration of an oath</desc>
-          </valItem>
-          <valItem ident="communication">
-            <desc xml:lang="en">Part of a debate containing communications from the house</desc>
-          </valItem>
-          <valItem ident="declarationOfVote">
-            <desc xml:lang="en">Part of a debate relevant to the declaration of votes</desc>
-          </valItem>
-          <valItem ident="ministerialStatements">
-            <desc xml:lang="en">Part of a debate containing written statements by participants</desc>
-          </valItem>
-          <valItem ident="nationalInterest">
-            <desc xml:lang="en">Part of a debate containing resolutions</desc>
-          </valItem>
-          <valItem ident="noticesOfMotion">
-            <desc xml:lang="en">Part of a debate relevant to the notices of motions</desc>
-          </valItem>
-          <valItem ident="oralStatements">
-            <desc xml:lang="en">Part of a debate containing oral statements by participants</desc>
-          </valItem>
-          <valItem ident="papers">
-            <desc xml:lang="en">Part of a debate relevant to the display of papers</desc>
-          </valItem>
-          <valItem ident="petitions">
-            <desc xml:lang="en">Part of a debate relevant to petitions</desc>
-          </valItem>
-          <valItem ident="prayers">
-            <desc xml:lang="en">Part of a debate containing prayers</desc>
-          </valItem>
-          <valItem ident="proceduralMotions">
-            <desc xml:lang="en">Part of a debate relevant to procedural motions</desc>
-          </valItem>
-          <valItem ident="pointOfOrder">
-            <desc xml:lang="en">Part of a debate relevant to points of order</desc>
-          </valItem>
-          <valItem ident="personalStatements">
-            <desc xml:lang="en">Part of a debate containing written statements by participants</desc>
-          </valItem>
-          <valItem ident="questions">
-            <desc xml:lang="en">Part of a debate relevant to questions</desc>
-          </valItem>
-          <valItem ident="resolutions">
-            <desc xml:lang="en">Part of a debate containing resolutions</desc>
-          </valItem>
-          <valItem ident="rollCall">
-            <desc xml:lang="en">Part of a debate containing a roll call of individuals</desc>
-          </valItem>
-          <valItem ident="writtenStatements">
-            <desc xml:lang="en">Part of a debate containing written statements by participants</desc>
           </valItem>
         </valList>
       </attDef>
     </attList>
   </elementSpec>
   
+
   <elementSpec ident="note" mode="change" module="core">
+    <!-- These are note/@type values we have in 2.1:
+
+     agendaItem, answer, articlesExam, articlesVoting, chair, comment, debate, description,
+     discussion, document, error, finalVoting, generalDiscussion, link, musical_performance,
+     notPassingPoposal, preliminaryExceptions, preliminarySuspensiveException, president, role,
+     signing, speaker, status, summary, suspensiveExceptions, time, vote, vote-ayes, vote-noes,
+     voteOfConfidence, voting
+
+     Note that:
+     - they should all be in camel-case (musical_performance, vote-ayes, vote-noes)
+     - some should be changed (vote vs. voting)
+     - some are probably too specfic (voting vs. articlesVoting, finalVoting)
+
+    -->
     <attList>
       <attDef ident="type" mode="replace" usage="rec">
         <valList type="open">
@@ -158,11 +153,4 @@
       </attList>
       </elementSpec-->
   
-  <constraintSpec scheme="schematron" ident="parla-clarin.sch-variables">
-    <constraint>
-      <sch:pattern>
-        <sch:let name="div.types.debate" value="('address', 'adjournment', 'administrationOfOath', 'communication', 'declarationOfVote', 'ministerialStatements', 'nationalInterest', 'noticesOfMotion', 'oralStatements', 'papers', 'petitions', 'prayers', 'proceduralMotions', 'pointOfOrder', 'personalStatements', 'questions', 'resolutions', 'rollCall', 'writtenStatements')"/>
-      </sch:pattern>
-    </constraint>
-  </constraintSpec>
 </schemaSpec>
