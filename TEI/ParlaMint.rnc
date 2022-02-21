@@ -10,7 +10,7 @@ namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 namespace xsl = "http://www.w3.org/1999/XSL/Transform"
 
-# Schema generated from ODD source 2022-02-19T21:50:00Z. 2022-02-19.
+# Schema generated from ODD source 2022-02-20T21:02:38Z. 2022-02-20.
 # TEI Edition: Version 4.4.0a. Last updated on
 #         19th January 2022, revision daab99ca7
 # TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
@@ -379,7 +379,6 @@ tei_model.publicationStmtPart.detail =
   | tei_idno
   | tei_availability
 tei_model.availabilityPart = tei_licence
-tei_model.certLike = notAllowed
 tei_model.descLike = tei_desc
 tei_model.quoteLike = notAllowed
 tei_model.quoteLike_alternation = notAllowed
@@ -512,8 +511,6 @@ tei_model.editorialDeclPart =
   | tei_segmentation
 tei_model.profileDescPart =
   tei_langUsage | tei_textClass | tei_particDesc | tei_settingDesc
-tei_model.resource = tei_text
-tei_model.describedResource = tei_teiCorpus | tei_TEI
 tei_model.placeLike = notAllowed
 tei_p =
   
@@ -574,7 +571,7 @@ tei_desc =
   
   ## (description) contains a short description of the purpose, function, or use of its parent element, or when the parent is a documentation element, describes or defines the object being documented.  [22.4.1. Description of Components]
   element desc {
-    tei_macro.limitedContent
+    (tei_term?, text, tei_ref?)
     >> sch:pattern [
          id =
            "parlamint-desc-deprecationInfo-only-in-deprecated-constraint-rule-4"
@@ -598,18 +595,7 @@ tei_desc =
          "\x{a}" ~
          "         "
        ],
-    tei_att.global.attributes,
-    tei_att.typed.attribute.subtype,
-    
-    ## characterizes the element in some sense, using any convenient classification scheme or typology.
-    ## Suggested values include: 1] deprecationInfo (deprecation information)
-    attribute type {
-      
-      ## (deprecation
-      ##           information) This element describes why or how its parent element is being deprecated, typically including recommendations for alternate encoding.
-      "deprecationInfo"
-      | xsd:token { pattern = "[^\p{C}\p{Z}]+" }
-    }?,
+    tei_att.global.attribute.xmllang,
     empty
   }
 tei_term =
@@ -630,39 +616,19 @@ tei_gap =
   
   ## (gap) indicates a point where material has been omitted in a transcription, whether for editorial reasons described in the TEI header, as part of sampling practice, or because the material is illegible, invisible, or inaudible. [3.5.3. Additions, Deletions, and Omissions]
   element gap {
-    (tei_model.descLike | tei_model.certLike)*,
-    tei_att.global.attributes,
-    tei_att.timed.attributes,
+    tei_desc,
+    tei_att.global.attribute.xmllang,
     tei_att.editLike.attributes,
     tei_att.dimensions.attributes,
     
-    ## (reason) gives the reason for omission
-    ## Suggested values include: 1] cancelled (cancelled); 2] deleted (deleted); 3] editorial (editorial); 4] illegible (illegible); 5] inaudible (inaudible); 6] irrelevant (irrelevant); 7] sampling (sampling)
+    ##
     attribute reason {
-      list {
-        (
-         ## (cancelled) 
-         "cancelled"
-         | 
-           ## (deleted) 
-           "deleted"
-         | 
-           ## (editorial) for features omitted from transcription due to editorial policy
-           "editorial"
-         | 
-           ## (illegible) 
-           "illegible"
-         | 
-           ## (inaudible) 
-           "inaudible"
-         | 
-           ## (irrelevant) 
-           "irrelevant"
-         | 
-           ## (sampling) 
-           "sampling"
-         | xsd:token { pattern = "[^\p{C}\p{Z}]+" })+
-      }
+      
+      ##
+      "inaudible"
+      | 
+        ##
+        "editorial"
     }?,
     
     ## (agent) in the case of text omitted because of damage, categorizes the cause of the damage, if it can be identified.
@@ -848,7 +814,11 @@ tei_note =
   ## (note) contains a note or annotation. [3.9.1. Notes and Simple Annotation 2.2.6. The Notes Statement 3.12.2.8. Notes and Statement of Language 9.3.5.4. Notes within Entries]
   element note {
     (text | tei_time)*,
-    tei_att.global.attributes,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
+    tei_att.global.responsibility.attribute.resp,
+    tei_att.global.source.attribute.source,
     tei_att.placement.attributes,
     tei_att.pointing.attributes,
     tei_att.typed.attribute.subtype,
@@ -1017,9 +987,20 @@ tei_teiCorpus =
     ]
   ]
   element teiCorpus {
-    (tei_teiHeader, tei_model.resource*, tei_model.describedResource+),
-    tei_att.global.attributes,
-    tei_att.typed.attributes,
+    tei_teiHeader,
+    (tei_TEI | tei_include)+,
+    tei_att.global.attribute.xmlbase,
+    
+    ##
+    attribute xml:id { xsd:ID },
+    
+    ##
+    attribute xml:lang {
+      xsd:language
+      | (
+         ##
+         "")
+    },
     
     ## (version) specifies the version number of the TEI Guidelines against which this document is valid.
     attribute version {
@@ -1598,6 +1579,7 @@ tei_TEI =
          prefix = "rng"
          uri = "http://relaxng.org/ns/structure/1.0"
        ],
+    tei_att.global.attribute.xmlbase,
     
     ##
     attribute xml:id { xsd:ID },
@@ -1621,9 +1603,13 @@ tei_text =
   ## (text) contains a single text of any kind, whether unitary or composite, for example a poem or drama, a collection of essays, a novel, a dictionary, or a corpus sample. [4. Default Text Structure 15.1. Varieties of Composite Text]
   element text {
     tei_body,
-    tei_att.global.attributes,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
+    tei_att.global.attribute.xmlbase,
+    tei_att.global.analytic.attribute.ana,
+    tei_att.global.source.attribute.source,
     tei_att.declaring.attributes,
-    tei_att.typed.attributes,
     tei_att.written.attributes,
     empty
   }
@@ -1632,7 +1618,7 @@ tei_body =
   ## (text body) contains the whole body of a single unitary text, excluding any front or back matter. [4. Default Text Structure]
   element body {
     tei_div+,
-    tei_att.global.attributes,
+    tei_att.global.attribute.xmllang,
     tei_att.declaring.attributes,
     empty
   }
@@ -1692,7 +1678,9 @@ tei_div =
          "\x{a}" ~
          "         "
        ],
-    tei_att.global.attributes,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
     tei_att.divLike.attributes,
     tei_att.typed.attribute.subtype,
     tei_att.declaring.attributes,
@@ -1798,39 +1786,65 @@ tei_u =
      | tei_gap
      | tei_pb
      | tei_seg)+,
-    tei_att.global.attributes,
-    tei_att.timed.attributes,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
+    tei_att.global.linking.attribute.next,
+    tei_att.global.linking.attribute.prev,
+    tei_att.global.analytic.attribute.ana,
+    tei_att.global.source.attribute.source,
     tei_att.declaring.attributes,
-    tei_att.ascribed.directed.attributes,
+    tei_att.ascribed.attribute.who,
     tei_att.notated.attributes,
-    
-    ## (transition) indicates the nature of the transition between this utterance and the previous one.
-    [ a:defaultValue = "smooth" ]
-    attribute trans {
-      
-      ## this utterance begins without unusual pause or rapidity.
-      "smooth"
-      | 
-        ## this utterance begins with a markedly shorter pause than normal.
-        "latching"
-      | 
-        ## this utterance begins before the previous one has finished.
-        "overlap"
-      | 
-        ## this utterance begins after a noticeable pause.
-        "pause"
-    }?,
     empty
   }
 tei_vocal =
   
   ## (vocal) marks any vocalized but not necessarily lexical phenomenon, for example voiced pauses, non-lexical backchannels, etc. [8.3.3. Vocal, Kinesic, Incident]
   element vocal {
-    tei_model.descLike*,
-    tei_att.global.attributes,
-    tei_att.timed.attributes,
+    tei_desc,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
     tei_att.ascribed.directed.attributes,
-    tei_att.typed.attributes,
+    tei_att.typed.attribute.subtype,
+    
+    ##
+    attribute type {
+      
+      ##
+      "greeting"
+      | 
+        ##
+        "question"
+      | 
+        ##
+        "clarification"
+      | 
+        ##
+        "speaking"
+      | 
+        ##
+        "interruption"
+      | 
+        ##
+        "exclamat"
+      | 
+        ##
+        "laughter"
+      | 
+        ##
+        "shouting"
+      | 
+        ##
+        "murmuring"
+      | 
+        ##
+        "noise"
+      | 
+        ##
+        "signal"
+    }?,
     
     ## indicates whether or not the phenomenon is repeated.
     [ a:defaultValue = "false" ]
@@ -1849,11 +1863,46 @@ tei_kinesic =
   
   ## (kinesic) marks any communicative phenomenon, not necessarily vocalized, for example a gesture, frown, etc. [8.3.3. Vocal, Kinesic, Incident]
   element kinesic {
-    tei_model.descLike*,
-    tei_att.global.attributes,
-    tei_att.timed.attributes,
-    tei_att.typed.attributes,
+    tei_desc,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
+    tei_att.typed.attribute.subtype,
     tei_att.ascribed.directed.attributes,
+    
+    ##
+    attribute type {
+      
+      ##
+      "kinesic"
+      | 
+        ##
+        "applause"
+      | 
+        ##
+        "ringing"
+      | 
+        ##
+        "signal"
+      | 
+        ##
+        "playback"
+      | 
+        ##
+        "gesture"
+      | 
+        ##
+        "smiling"
+      | 
+        ##
+        "laughter"
+      | 
+        ##
+        "snapping"
+      | 
+        ##
+        "noise"
+    }?,
     
     ## indicates whether or not the phenomenon is repeated.
     [ a:defaultValue = "false" ]
@@ -1872,11 +1921,37 @@ tei_incident =
   
   ## (incident) marks any phenomenon or occurrence, not necessarily vocalized or communicative, for example incidental noises or other events affecting communication. [8.3.3. Vocal, Kinesic, Incident]
   element incident {
-    tei_model.descLike*,
-    tei_att.global.attributes,
-    tei_att.timed.attributes,
-    tei_att.typed.attributes,
+    tei_desc,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
+    tei_att.typed.attribute.subtype,
     tei_att.ascribed.attributes,
+    
+    ##
+    attribute type {
+      
+      ##
+      "action"
+      | 
+        ##
+        "incident"
+      | 
+        ##
+        "leaving"
+      | 
+        ##
+        "entering"
+      | 
+        ##
+        "break"
+      | 
+        ##
+        "sound"
+      | 
+        ##
+        "editorial"
+    }?,
     empty
   }
 tei_model.persNamePart =
@@ -2368,18 +2443,37 @@ tei_link =
          "\x{a}" ~
          "         "
        ],
-    tei_att.global.attributes,
-    tei_att.pointing.attributes,
-    tei_att.typed.attributes,
+    tei_att.global.attribute.xmllang,
+    
+    ##
+    attribute ana { xsd:anyURI },
+    
+    ##
+    attribute target {
+      list { xsd:anyURI, xsd:anyURI? }
+    },
     empty
   }
 tei_linkGrp =
   
   ## (link group) defines a collection of associations or hypertextual links. [16.1. Links]
   element linkGrp {
-    (tei_model.descLike*, (tei_link)+),
-    tei_att.global.attributes,
-    tei_att.pointing.group.attributes,
+    tei_link+,
+    tei_att.global.attribute.xmllang,
+    
+    ##
+    attribute targFunc {
+      
+      ##
+      "head argument"
+    },
+    
+    ##
+    attribute type {
+      
+      ##
+      "UD-SYN"
+    },
     empty
   }
 tei_seg =
@@ -2393,9 +2487,10 @@ tei_seg =
      | tei_gap
      | tei_pb
      | (text | tei_s)*)+,
-    tei_att.global.attributes,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
     tei_att.segLike.attributes,
-    tei_att.typed.attributes,
     tei_att.written.attributes,
     tei_att.notated.attributes,
     empty
@@ -2419,7 +2514,15 @@ tei_s =
   
   ## (s-unit) contains a sentence-like division of a text. [17.1. Linguistic Segment Categories 8.4.1. Segmentation]
   element s {
-    tei_macro.phraseSeq
+    (tei_w
+     | tei_pc
+     | tei_name
+     | tei_note
+     | tei_vocal
+     | tei_kinesic
+     | tei_incident
+     | tei_gap)+,
+    tei_linkGrp
     >> sch:pattern [
          id = "parlamint-s-noNestedS-constraint-report-12"
          "\x{a}" ~
@@ -2439,9 +2542,10 @@ tei_s =
          "\x{a}" ~
          "         "
        ],
-    tei_att.global.attributes,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
     tei_att.segLike.attributes,
-    tei_att.typed.attributes,
     tei_att.notated.attributes,
     empty
   }
@@ -2449,31 +2553,45 @@ tei_w =
   
   ## (word) represents a grammatical (not necessarily orthographic) word. [17.1. Linguistic Segment Categories 17.4.2. Lightweight Linguistic Annotation]
   element w {
-    (text
-     | tei_model.gLike
-     | tei_seg
-     | tei_w
-     | tei_pc
-     | tei_model.global
-     | tei_model.lPart
-     | tei_model.hiLike
-     | tei_model.pPart.edit)*,
-    tei_att.global.attributes,
+    (text | tei_w)+,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
+    tei_att.global.analytic.attribute.ana,
     tei_att.segLike.attributes,
-    tei_att.typed.attributes,
-    tei_att.linguistic.attributes,
+    tei_att.linguistic.attribute.pos,
+    tei_att.linguistic.attribute.join,
+    tei_att.lexicographic.normalized.attribute.norm,
     tei_att.notated.attributes,
+    
+    ##
+    attribute xml:id { xsd:ID },
+    
+    ##
+    attribute lemma { xsd:string },
+    
+    ##
+    attribute msd { xsd:string },
     empty
   }
 tei_pc =
   
   ## (punctuation character) contains a character or string of characters regarded as constituting a single punctuation mark. [17.1.2. Below the Word Level 17.4.2. Lightweight Linguistic Annotation]
   element pc {
-    (text | tei_model.gLike | tei_model.pPart.edit)*,
-    tei_att.global.attributes,
+    text,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
+    tei_att.global.analytic.attribute.ana,
     tei_att.segLike.attributes,
-    tei_att.typed.attributes,
-    tei_att.linguistic.attributes,
+    tei_att.linguistic.attribute.lemma,
+    tei_att.linguistic.attribute.pos,
+    tei_att.linguistic.attribute.join,
+    tei_att.lexicographic.normalized.attribute.norm,
+    
+    ##
+    attribute xml:id { xsd:ID },
+    
+    ##
+    attribute msd { xsd:string },
     
     ## indicates the extent to which this punctuation mark conventionally separates words or phrases
     attribute force {
@@ -2631,18 +2749,10 @@ tei_att.internetMedia.attribute.mimeType =
       xsd:token { pattern = "[^\p{C}\p{Z}]+" }+
     }
   }?
-tei_att.lexicographic.normalized.attributes =
-  tei_att.lexicographic.normalized.attribute.norm
 tei_att.lexicographic.normalized.attribute.norm =
   
   ## (normalized) provides the normalized/standardized form of information present in the source text in a non-normalized form
   attribute norm { xsd:string }?
-tei_att.linguistic.attributes =
-  tei_att.lexicographic.normalized.attributes,
-  tei_att.linguistic.attribute.lemma,
-  tei_att.linguistic.attribute.pos,
-  tei_att.linguistic.attribute.msd,
-  tei_att.linguistic.attribute.join
 tei_att.linguistic.attribute.lemma =
   
   ## provides a lemma (base form) for the word, typically uninflected and serving both as an identifier (e.g. in dictionary contexts, as a headword), and as a basis for potential inflections.
@@ -2651,24 +2761,6 @@ tei_att.linguistic.attribute.pos =
   
   ## (part of speech) indicates the part of speech assigned to a token (i.e. information on whether it is a noun, adjective, or verb), usually according to some official reference vocabulary (e.g. for German: STTS, for English: CLAWS, for Polish: NKJP, etc.).
   attribute pos { xsd:string }?
-tei_att.linguistic.attribute.msd =
-  [
-    a:documentation [
-      "(morphosyntactic description) supplies morphosyntactic information for a token, usually according to some official reference vocabulary (e.g. for German: "
-      ns1:a [
-        href =
-          "http://www.ims.uni-stuttgart.de/forschung/ressourcen/lexika/TagSets/stts-1999.pdf"
-        "STTS-large tagset"
-      ]
-      "; for a feature description system designed as (pragmatically) universal, see "
-      ns1:a [
-        href = "http://universaldependencies.org/u/feat/index.html"
-        "Universal Features"
-      ]
-      ")."
-    ]
-  ]
-  attribute msd { xsd:string }?
 tei_att.linguistic.attribute.join =
   
   ## when present, it provides information on whether the token in question is adjacent to another, and if so, on which side. The definition of this attribute is adapted from ISO MAF (Morpho-syntactic Annotation Framework), ISO 24611:2012.
@@ -2831,56 +2923,13 @@ tei_att.personal.attribute.full =
       "init"
   }?
 tei_att.placement.attributes = empty
-tei_att.pointing.attributes =
-  tei_att.pointing.attribute.targetLang,
-  tei_att.pointing.attribute.target
-tei_att.pointing.attribute.targetLang =
-  [
-    a:documentation [
-      "specifies the language of the content to be found at the destination referenced by "
-      ns1:code [ "@target" ]
-      ", using a language tag generated according to "
-      ns1:a [
-        href = "http://www.rfc-editor.org/rfc/bcp/bcp47.txt"
-        "BCP 47"
-      ]
-      "."
-    ]
-  ]
-  attribute targetLang {
-    xsd:language
-    | (
-       ##
-       "")
-  }?
-sch:pattern [
-  id = "parlamint-att.pointing-targetLang-targetLang-constraint-rule-6"
-  "\x{a}" ~
-  "      "
-  sch:rule [
-    context = "tei:*[not(self::tei:schemaSpec)][@targetLang]"
-    "\x{a}" ~
-    "         "
-    sch:assert [
-      test = "@target"
-      "@targetLang should only be used on "
-      sch:name [ ]
-      " if @target is specified."
-    ]
-    "\x{a}" ~
-    "      "
-  ]
-  "\x{a}" ~
-  "   "
-]
+tei_att.pointing.attributes = tei_att.pointing.attribute.target
 tei_att.pointing.attribute.target =
   
   ## specifies the destination of the reference by supplying one or more URI References
   attribute target {
     list { xsd:anyURI+ }
   }?
-tei_att.pointing.group.attributes =
-  tei_att.pointing.attributes, tei_att.typed.attributes
 tei_att.ranging.attributes = empty
 tei_att.resourced.attributes = tei_att.resourced.attribute.url
 tei_att.resourced.attribute.url =
@@ -2907,7 +2956,7 @@ tei_att.typed.attribute.subtype =
     xsd:token { pattern = "[^\p{C}\p{Z}]+" }
   }?
 sch:pattern [
-  id = "parlamint-att.typed-subtypeTyped-constraint-rule-7"
+  id = "parlamint-att.typed-subtypeTyped-constraint-rule-6"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -2927,4 +2976,14 @@ sch:pattern [
   "   "
 ]
 tei_att.written.attributes = empty
+tei_include =
+  
+  ##
+  element xi:include {
+    empty,
+    
+    ##
+    attribute href { xsd:anyURI }?,
+    empty
+  }
 start = tei_TEI | tei_teiCorpus

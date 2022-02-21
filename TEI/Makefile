@@ -32,6 +32,15 @@ val:	val-schema val-samples
 val-schema:
 	$j tei_odds.rng tmp/ParlaMint.xml
 
+# Validate 1 sample
+val-SI:
+	$j ParlaMint.rng tmp/ParlaMint-SI.ana.xml
+	$j ParlaMint.rng tmp/ParlaMint-SI.xml
+	$j ParlaMint.rng ../Data/ParlaMint-SI/ParlaMint-SI.xml
+	$j ParlaMint.rng ../Data/ParlaMint-SI/ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.xml
+	$j ParlaMint.rng ../Data/ParlaMint-SI/ParlaMint-SI.ana.xml
+	$j ParlaMint.rng ../Data/ParlaMint-SI/ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.ana.xml
+
 # Validate samples
 val-samples:
 	validate.pl samples ../Data

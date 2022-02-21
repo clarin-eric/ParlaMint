@@ -19,8 +19,10 @@ if ($what eq 'samples') {
     $maskAna = 'ParlaMint-??/ParlaMint-??.ana.xml';
 }
 elsif ($what eq 'master') {
+    $maskTxt  = 'ParlaMint-??.TEI/ParlaMint-??.xml ';
     $maskTxt  = 'ParlaMint-??.TEI/ParlaMint-??_*.xml ';
     $maskTxt .= 'ParlaMint-??.TEI/*/ParlaMint-??_*.xml';
+    $maskAna  = 'ParlaMint-??.TEI.ana/ParlaMint-??.ana.xml ';
     $maskAna  = 'ParlaMint-??.TEI.ana/ParlaMint-??_*.ana.xml ';
     $maskAna .= 'ParlaMint-??.TEI.ana/*/ParlaMint-??_*.ana.xml';
 }
@@ -45,7 +47,8 @@ foreach my $inFile (glob "$inDir/$maskTxt $inDir/$maskAna") {
     if ($what eq 'samples') {
 	$tmpFile = "$tmpDir/$fName";
 	`$Saxon -xi -xsl:$Copy $inFile > $tmpFile`;
-	`$Jing $Schema $tmpFile`
+	#print STDERR "Doing: $Jing $Schema $tmpFile\n";
+	system("$Jing $Schema $tmpFile");
     }
     elsif ($what eq 'master') {
 	`$Jing $Schema $inFile`
