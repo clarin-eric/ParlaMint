@@ -20,10 +20,11 @@ if ($what eq 'samples') {
 }
 elsif ($what eq 'master') {
     $maskTxt  = 'ParlaMint-??.TEI/ParlaMint-??.xml ';
-    $maskTxt  = 'ParlaMint-??.TEI/ParlaMint-??_*.xml ';
+    $maskTxt .= 'ParlaMint-??.TEI/ParlaMint-??_*.xml ';
     $maskTxt .= 'ParlaMint-??.TEI/*/ParlaMint-??_*.xml';
+    
     $maskAna  = 'ParlaMint-??.TEI.ana/ParlaMint-??.ana.xml ';
-    $maskAna  = 'ParlaMint-??.TEI.ana/ParlaMint-??_*.ana.xml ';
+    $maskAna .= 'ParlaMint-??.TEI.ana/ParlaMint-??_*.ana.xml ';
     $maskAna .= 'ParlaMint-??.TEI.ana/*/ParlaMint-??_*.ana.xml';
 }
 else {

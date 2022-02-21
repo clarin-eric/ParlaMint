@@ -1,3 +1,4 @@
+<!-- ODD schema specifications for ParlaMint corpora -->
 <schemaSpec xmlns="http://www.tei-c.org/ns/1.0"
 	    xmlns:sch="http://purl.oclc.org/dsdl/schematron" 
 	    xmlns:eg="http://www.tei-c.org/ns/Examples"
@@ -71,12 +72,19 @@
   <classRef key="att.typed" include="type subtype"/>
   <classRef key="att.written" include=""/>
 
-  <!-- Change element content models (and attributes) -->
+  <!-- Change element content models and attributes of elements -->
   
+  <!-- We could also add:
+	desc
+	exemplum
+	remarks
+  -->
+  
+  <!-- Top level elements -->
   <elementSpec ident="teiCorpus" module="core" mode="change">
     <content>
       <elementRef key="teiHeader"/>
-      <!-- We allow XIncludes to enable separate validation of corpus root -->
+      <!-- We allow XIncludes in order to enable separate validation of corpus root -->
       <alternate minOccurs="1" maxOccurs="unbounded">
 	<elementRef key="TEI"/>
 	<elementRef key="include"/>
@@ -84,6 +92,16 @@
     </content>
     <!-- Make @xml:id, @xml:lang required, remove the other attributes -->
     <attList>
+      <attDef ident="xml:id" mode="replace" usage="req">
+	<datatype>
+	  <dataRef name="ID"/>
+	</datatype>
+      </attDef>
+      <attDef ident="xml:lang" mode="replace" usage="req">
+	<datatype>
+	  <dataRef key="teidata.language"/>
+	</datatype>
+      </attDef>
       <attDef ident="xml:space" mode="delete"/>
       <attDef ident="n" mode="delete"/>
       <attDef ident="type" mode="delete"/>
@@ -95,16 +113,6 @@
       <attDef ident="prev" mode="delete"/>
       <attDef ident="resp" mode="delete"/>
       <attDef ident="source" mode="delete"/>
-      <attDef ident="xml:id" mode="replace" usage="req">
-	<datatype>
-	  <dataRef name="ID"/>
-	</datatype>
-      </attDef>
-      <attDef ident="xml:lang" mode="replace" usage="req">
-	<datatype>
-	  <dataRef key="teidata.language"/>
-	</datatype>
-      </attDef>
     </attList>
   </elementSpec>
   <!-- Definition of XInclude -->
@@ -126,17 +134,6 @@
     </content>
     <!-- Make @xml:id, @xml:lang and @ana required, remove the other attributes -->
     <attList>
-      <attDef ident="xml:space" mode="delete"/>
-      <attDef ident="n" mode="delete"/>
-      <attDef ident="type" mode="delete"/>
-      <attDef ident="subtype" mode="delete"/>
-      <attDef ident="corresp" mode="delete"/>
-      <attDef ident="synch" mode="delete"/>
-      <attDef ident="next" mode="delete"/>
-      <attDef ident="prev" mode="delete"/>
-      <attDef ident="resp" mode="delete"/>
-      <attDef ident="source" mode="delete"/>
-      <attDef ident="version" mode="delete"/>
       <attDef ident="xml:id" mode="replace" usage="req">
 	<datatype>
 	  <dataRef name="ID"/>
@@ -152,12 +149,18 @@
 	  <dataRef key="teidata.pointer"/>
 	</datatype>
       </attDef>
+      <attDef ident="xml:space" mode="delete"/>
+      <attDef ident="n" mode="delete"/>
+      <attDef ident="type" mode="delete"/>
+      <attDef ident="subtype" mode="delete"/>
+      <attDef ident="corresp" mode="delete"/>
+      <attDef ident="synch" mode="delete"/>
+      <attDef ident="next" mode="delete"/>
+      <attDef ident="prev" mode="delete"/>
+      <attDef ident="resp" mode="delete"/>
+      <attDef ident="source" mode="delete"/>
+      <attDef ident="version" mode="delete"/>
     </attList>
-    <!-- Could also add:
-	desc
-	exemplum
-	remarks
-    -->    
   </elementSpec>
   
   <elementSpec ident="text" module="textstructure" mode="change">
@@ -210,17 +213,8 @@
 	<elementRef key="u"/>
       </alternate>
     </content>
-    <!-- Remove all, except xml:id, xml:lang, n, subtype, redefine type values -->
+    <!-- redefine type values, remove other attributes except xml:id, xml:lang, n, subtype -->
     <attList>
-      <attDef ident="xml:space" mode="delete"/>
-      <attDef ident="xml:base" mode="delete"/>
-      <attDef ident="corresp" mode="delete"/>
-      <attDef ident="synch" mode="delete"/>
-      <attDef ident="next" mode="delete"/>
-      <attDef ident="prev" mode="delete"/>
-      <attDef ident="ana" mode="delete"/>
-      <attDef ident="resp" mode="delete"/>
-      <attDef ident="source" mode="delete"/>
       <attDef ident="type" mode="replace" usage="rec">
         <valList type="closed">
           <valItem ident="debateSection">
@@ -231,18 +225,6 @@
           </valItem>
         </valList>
       </attDef>
-    </attList>
-  </elementSpec>
-  
-  <elementSpec ident="note" mode="change" module="core">
-    <content>
-      <alternate minOccurs="0" maxOccurs="unbounded">
-	<textNode/>
-	<elementRef key="time"/>
-      </alternate>
-    </content>
-    <!-- Remove all, except xml:id, xml:lang, n, subtype, redefine type values -->
-    <attList>
       <attDef ident="xml:space" mode="delete"/>
       <attDef ident="xml:base" mode="delete"/>
       <attDef ident="corresp" mode="delete"/>
@@ -250,6 +232,21 @@
       <attDef ident="next" mode="delete"/>
       <attDef ident="prev" mode="delete"/>
       <attDef ident="ana" mode="delete"/>
+      <attDef ident="resp" mode="delete"/>
+      <attDef ident="source" mode="delete"/>
+    </attList>
+  </elementSpec>
+  
+  <!-- Transcriber notes -->
+  <elementSpec ident="note" mode="change" module="core">
+    <content>
+      <alternate minOccurs="0" maxOccurs="unbounded">
+	<textNode/>
+	<elementRef key="time"/>
+      </alternate>
+    </content>
+    <!-- Redefine type values, remove other attributes except xml:id, xml:lang, n, subtype -->
+    <attList>
       <!-- @type needs work -->
       <attDef ident="type" mode="replace" usage="rec">
 	<!-- These are note/@type values we have in 2.1:
@@ -304,15 +301,6 @@
           </valItem>
         </valList>
       </attDef>
-    </attList>
-  </elementSpec>
-  
-  <elementSpec ident="vocal" module="spoken" mode="change">
-    <content>
-      <elementRef key="desc"/>
-    </content>
-    <!-- Remove all, except xml:id, xml:lang, n, who, subtype, redefine type values -->
-    <attList>
       <attDef ident="xml:space" mode="delete"/>
       <attDef ident="xml:base" mode="delete"/>
       <attDef ident="corresp" mode="delete"/>
@@ -320,9 +308,15 @@
       <attDef ident="next" mode="delete"/>
       <attDef ident="prev" mode="delete"/>
       <attDef ident="ana" mode="delete"/>
-      <attDef ident="resp" mode="delete"/>
-      <attDef ident="source" mode="delete"/>
-      <attDef ident="dur" mode="delete"/>
+    </attList>
+  </elementSpec>
+  
+  <elementSpec ident="vocal" module="spoken" mode="change">
+    <content>
+      <elementRef key="desc"/>
+    </content>
+    <!-- Redefine type values, remove other attributes except xml:id, xml:lang, n, who, subtype -->
+    <attList>
       <attDef ident="type" mode="replace" usage="rec">
         <valList type="closed">
           <valItem ident="greeting"/>
@@ -338,15 +332,6 @@
           <valItem ident="signal"/>
         </valList>
       </attDef>
-    </attList>
-  </elementSpec>
-  
-  <elementSpec ident="kinesic" module="spoken" mode="change">
-    <content>
-      <elementRef key="desc"/>
-    </content>
-    <!-- Remove all, except xml:id, xml:lang, n, who, subtype, redefine type values -->
-    <attList>
       <attDef ident="xml:space" mode="delete"/>
       <attDef ident="xml:base" mode="delete"/>
       <attDef ident="corresp" mode="delete"/>
@@ -357,6 +342,15 @@
       <attDef ident="resp" mode="delete"/>
       <attDef ident="source" mode="delete"/>
       <attDef ident="dur" mode="delete"/>
+    </attList>
+  </elementSpec>
+  
+  <elementSpec ident="kinesic" module="spoken" mode="change">
+    <content>
+      <elementRef key="desc"/>
+    </content>
+    <!-- Redefine type values, remove others attributes except xml:id, xml:lang, n, who, subtype -->
+    <attList>
       <attDef ident="type" mode="replace" usage="rec">
         <valList type="closed">
           <valItem ident="kinesic"/>
@@ -371,15 +365,6 @@
           <valItem ident="noise"/>
         </valList>
       </attDef>
-    </attList>
-  </elementSpec>
-  
-  <elementSpec ident="incident" module="spoken" mode="change">
-    <content>
-      <elementRef key="desc"/>
-    </content>
-    <!-- Remove all, except xml:id, xml:lang, n, who, subtype, redefine type values -->
-    <attList>
       <attDef ident="xml:space" mode="delete"/>
       <attDef ident="xml:base" mode="delete"/>
       <attDef ident="corresp" mode="delete"/>
@@ -390,6 +375,15 @@
       <attDef ident="resp" mode="delete"/>
       <attDef ident="source" mode="delete"/>
       <attDef ident="dur" mode="delete"/>
+    </attList>
+  </elementSpec>
+  
+  <elementSpec ident="incident" module="spoken" mode="change">
+    <content>
+      <elementRef key="desc"/>
+    </content>
+    <!-- Redefine type values, remove others attributes except xml:id, xml:lang, n, who, subtype -->
+    <attList>
       <attDef ident="type" mode="replace" usage="rec">
         <valList type="closed">
           <valItem ident="action"/>
@@ -401,6 +395,16 @@
           <valItem ident="editorial"/>
         </valList>
       </attDef>
+      <attDef ident="xml:space" mode="delete"/>
+      <attDef ident="xml:base" mode="delete"/>
+      <attDef ident="corresp" mode="delete"/>
+      <attDef ident="synch" mode="delete"/>
+      <attDef ident="next" mode="delete"/>
+      <attDef ident="prev" mode="delete"/>
+      <attDef ident="ana" mode="delete"/>
+      <attDef ident="resp" mode="delete"/>
+      <attDef ident="source" mode="delete"/>
+      <attDef ident="dur" mode="delete"/>
     </attList>
   </elementSpec>
   
@@ -410,6 +414,12 @@
     </content>
     <!-- Remove all except @reason and specify its values -->
     <attList>
+      <attDef ident="reason" mode="replace" usage="rec">
+        <valList type="closed">
+          <valItem ident="inaudible"/>
+          <valItem ident="editorial"/>
+        </valList>
+      </attDef>
       <attDef ident="xml:id" mode="delete"/>
       <attDef ident="xml:space" mode="delete"/>
       <attDef ident="xml:base" mode="delete"/>
@@ -422,22 +432,18 @@
       <attDef ident="resp" mode="delete"/>
       <attDef ident="source" mode="delete"/>
       <attDef ident="dur" mode="delete"/>
-      <attDef ident="reason" mode="replace" usage="rec">
-        <valList type="closed">
-          <valItem ident="inaudible"/>
-          <valItem ident="editorial"/>
-        </valList>
-      </attDef>
     </attList>
   </elementSpec>
 
-  <!-- This one appears in taxonomy, application and incidents! -->
+  <!-- <desc> appears in taxonomy, application and incidents -->
   <elementSpec ident="desc" module="core" mode="change">
     <content>
       <sequence>
 	<elementRef minOccurs="0" key="term"/>
-	<textNode/>
-	<elementRef minOccurs="0" key="ref"/>
+	<alternate minOccurs="1" maxOccurs="unbounded">
+	  <textNode/>
+	  <elementRef key="ref"/>
+	</alternate>
       </sequence>
     </content>
     <!-- Remove all except optional xml:lang -->
@@ -515,12 +521,17 @@
     </attList>
   </elementSpec>
   
+  <!-- Linguistic elements for ParlaMint.ana -->
+  
   <elementSpec ident="s" module="analysis" mode="change">
     <content>
       <alternate minOccurs="1" maxOccurs="unbounded">
 	<elementRef key="w"/>
 	<elementRef key="pc"/>
 	<elementRef key="name"/>
+	<elementRef key="num"/>
+	<elementRef key="date"/>
+	<elementRef key="time"/>
 	<elementRef key="note"/>
 	<elementRef key="vocal"/>
 	<elementRef key="kinesic"/>
@@ -553,7 +564,8 @@
 	<elementRef key="w"/>
       </alternate>
     </content>
-    <!-- Remove all except optional xml:lang, norm, join, ana, pos and obligatory xml:id, msd, lemma -->
+    <!-- Remove attributes except for xml:id, msd, lemma, xml:lang, norm, join, ana, pos -->
+    <!-- Cannot make any attributes obligatory, because of surface words -->
     <attList>
       <attDef ident="xml:space" mode="delete"/>
       <attDef ident="xml:base" mode="delete"/>
@@ -565,21 +577,6 @@
       <attDef ident="source" mode="delete"/>
       <attDef ident="type" mode="delete"/>
       <attDef ident="subtype" mode="delete"/>
-      <attDef ident="xml:id" mode="replace" usage="req">
-	<datatype>
-	  <dataRef name="ID"/>
-	</datatype>
-      </attDef>
-      <attDef ident="msd" mode="replace" usage="req">
-	<datatype>
-	  <dataRef key="teidata.text"/>
-	</datatype>
-      </attDef>
-      <attDef ident="lemma" mode="replace" usage="req">
-	<datatype>
-	  <dataRef key="teidata.text"/>
-	</datatype>
-      </attDef>
     </attList>
   </elementSpec>
   
@@ -587,18 +584,9 @@
     <content>
       <textNode/>
     </content>
-    <!-- Remove all except optional xml:lang, norm, join, ana, pos and obligatory xml:id, msd -->
+    <!-- Make xml:id, msd obligatory, 
+	 remove other attributes except xml:lang, norm, join, ana, pos -->
     <attList>
-      <attDef ident="xml:space" mode="delete"/>
-      <attDef ident="xml:base" mode="delete"/>
-      <attDef ident="corresp" mode="delete"/>
-      <attDef ident="synch" mode="delete"/>
-      <attDef ident="next" mode="delete"/>
-      <attDef ident="prev" mode="delete"/>
-      <attDef ident="resp" mode="delete"/>
-      <attDef ident="source" mode="delete"/>
-      <attDef ident="type" mode="delete"/>
-      <attDef ident="subtype" mode="delete"/>
       <attDef ident="xml:id" mode="replace" usage="req">
 	<datatype>
 	  <dataRef name="ID"/>
@@ -609,6 +597,16 @@
 	  <dataRef key="teidata.text"/>
 	</datatype>
       </attDef>
+      <attDef ident="xml:space" mode="delete"/>
+      <attDef ident="xml:base" mode="delete"/>
+      <attDef ident="corresp" mode="delete"/>
+      <attDef ident="synch" mode="delete"/>
+      <attDef ident="next" mode="delete"/>
+      <attDef ident="prev" mode="delete"/>
+      <attDef ident="resp" mode="delete"/>
+      <attDef ident="source" mode="delete"/>
+      <attDef ident="type" mode="delete"/>
+      <attDef ident="subtype" mode="delete"/>
     </attList>
   </elementSpec>
   
@@ -616,8 +614,18 @@
     <content>
       <elementRef maxOccurs="unbounded" key="link"/>
     </content>
-    <!-- Remove all, redefine targFunc and type -->
+    <!-- Narrow down targFunc and type values, remove all other attributes -->
     <attList>
+      <attDef ident="targFunc" mode="replace" usage="req">
+        <valList type="closed">
+          <valItem ident="head argument"/>
+        </valList>
+      </attDef>
+      <attDef ident="type" mode="replace" usage="req">
+        <valList type="closed">
+          <valItem ident="UD-SYN"/>
+        </valList>
+      </attDef>
       <attDef ident="xml:id" mode="delete"/>
       <attDef ident="xml:space" mode="delete"/>
       <attDef ident="xml:base" mode="delete"/>
@@ -631,22 +639,22 @@
       <attDef ident="source" mode="delete"/>
       <attDef ident="target" mode="delete"/>
       <attDef ident="subtype" mode="delete"/>
-      <attDef ident="targFunc" mode="replace" usage="req">
-        <valList type="closed">
-          <valItem ident="head argument"/>
-        </valList>
-      </attDef>
-      <attDef ident="type" mode="replace" usage="req">
-        <valList type="closed">
-          <valItem ident="UD-SYN"/>
-        </valList>
-      </attDef>
     </attList>
   </elementSpec>
   
   <elementSpec ident="link" module="linking" mode="change">
-    <!-- Remove all, redefine ana, target as obligatory -->
+    <!-- Make ana, target obligatory, remove all other attributes -->
     <attList>
+      <attDef ident="ana" mode="replace" usage="req">
+	<datatype maxOccurs="1">
+	  <dataRef key="teidata.pointer"/>
+	</datatype>
+      </attDef>
+      <attDef ident="target" mode="replace" usage="req">
+	<datatype maxOccurs="2">
+	  <dataRef key="teidata.pointer"/>
+	</datatype>
+      </attDef>
       <attDef ident="xml:id" mode="delete"/>
       <attDef ident="xml:space" mode="delete"/>
       <attDef ident="xml:base" mode="delete"/>
@@ -659,26 +667,109 @@
       <attDef ident="source" mode="delete"/>
       <attDef ident="type" mode="delete"/>
       <attDef ident="subtype" mode="delete"/>
-      <attDef ident="ana" mode="replace" usage="req">
-	<datatype maxOccurs="1">
-	  <dataRef key="teidata.pointer"/>
-	</datatype>
-      </attDef>
-      <attDef ident="target" mode="replace" usage="req">
-	<datatype maxOccurs="2">
-	  <dataRef key="teidata.pointer"/>
-	</datatype>
-      </attDef>
     </attList>
   </elementSpec>
   
+<!-- Appears in body, but also in the TEI header, e.g.
+     <name type="city">Brussel</name>
+     <name type="country" key="BE">België</name>
+-->
+  <elementSpec ident="name" module="core" mode="change">
+    <content>
+      <alternate minOccurs="1" maxOccurs="unbounded">
+	<elementRef key="w"/>
+	<elementRef key="pc"/>
+	<elementRef key="name"/>
+	<elementRef key="date"/>
+	<elementRef key="num"/>
+	<!--elementRef key="note"/>
+	<elementRef key="vocal"/>
+	<elementRef key="kinesic"/>
+	<elementRef key="incident"/>
+	<elementRef key="gap"/-->
+	
+	<textNode/>
+      </alternate>
+    </content>
+    <!-- Redefine type values, 
+	 remove all other attributes except xml:id, xml:lang, ana, full, subtype  -->
+    <attList>
+      <attDef ident="type" mode="replace" usage="opt">
+        <valList type="closed">
+          <valItem ident="PER"/>
+          <valItem ident="LOC"/>
+          <valItem ident="ORG"/>
+          <valItem ident="MISC"/>
+
+	  <!-- Values used in the teiHeader: -->
+	  <valItem ident="city"/>
+	  <valItem ident="country"/>
+	  <!-- Used by BG, arguably wrong: 
+               <name type="address">Parliament square</name>
+	  -->
+	  <valItem ident="address"/>
+	  <!-- Used by CZ, arguably wrong: 
+               <name type="org">Parlament České republiky - Poslanecká sněmovna</name>
+	  -->
+	  <valItem ident="org"/>
+	  <!-- Used by GB, arguably wrong: 
+               <name type="place">Westminster</name>
+	  -->
+	  <valItem ident="place"/>
+	</valList>
+      </attDef>
+      <attDef ident="xml:space" mode="delete"/>
+      <attDef ident="xml:base" mode="delete"/>
+      <attDef ident="corresp" mode="delete"/>
+      <attDef ident="synch" mode="delete"/>
+      <attDef ident="next" mode="delete"/>
+      <attDef ident="prev" mode="delete"/>
+      <attDef ident="resp" mode="delete"/>
+      <attDef ident="source" mode="delete"/>
+      <attDef ident="role" mode="delete"/>
+      <attDef ident="ref" mode="delete"/>
+      <attDef ident="when" mode="delete"/>
+      <attDef ident="from" mode="delete"/>
+      <attDef ident="to" mode="delete"/>
+      <attDef ident="notBefore" mode="delete"/>
+      <attDef ident="notAfter" mode="delete"/>
+    </attList>
+  </elementSpec>
+  
+  <elementSpec ident="num" module="core" mode="change">
+    <content>
+      <alternate minOccurs="1" maxOccurs="unbounded">
+	<elementRef key="w"/>
+	<elementRef key="pc"/>
+	<textNode/>
+      </alternate>
+    </content>
+    <!-- Remove all attributes except xml:id, xml:lang, ana, type, subtype -->
+    <attList>
+      <attDef ident="xml:space" mode="delete"/>
+      <attDef ident="xml:base" mode="delete"/>
+      <attDef ident="corresp" mode="delete"/>
+      <attDef ident="synch" mode="delete"/>
+      <attDef ident="next" mode="delete"/>
+      <attDef ident="prev" mode="delete"/>
+      <attDef ident="resp" mode="delete"/>
+      <attDef ident="source" mode="delete"/>
+    </attList>
+  </elementSpec>
+
   <!-- To Do:
-    <elementSpec ident="bibl" module="core" mode="change">
+  Appears both in TEI heder and in .ana body for CZ
+  <elementSpec ident="date" module="core" mode="change">
+    <content>
+    </content>
+  </elementSpec>
+
+    <elementSpec ident="time" module="core" mode="change">
       <content>
       </content>
     </elementSpec>
 
-    <elementSpec ident="date" module="core" mode="change">
+    <elementSpec ident="bibl" module="core" mode="change">
       <content>
       </content>
     </elementSpec>
@@ -714,16 +805,6 @@
     </elementSpec>
 
     <elementSpec ident="meeting" module="core" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="name" module="core" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="num" module="core" mode="change">
       <content>
       </content>
     </elementSpec>
@@ -764,11 +845,6 @@
     </elementSpec>
 
     <elementSpec ident="term" module="core" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="time" module="core" mode="change">
       <content>
       </content>
     </elementSpec>
@@ -1117,7 +1193,6 @@
       <content>
       </content>
     </elementSpec>
-
     -->
 </schemaSpec>
     

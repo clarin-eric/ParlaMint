@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2022-02-20T21:02:35Z. 2022-02-20.
+Schema generated from ODD source 2022-02-21T17:25:06Z. 2022-02-21.
 TEI Edition: Version 4.4.0a. Last updated on
         19th January 2022, revision daab99ca7
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
@@ -1318,10 +1318,12 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
             <optional>
                <ref name="tei_term"/>
             </optional>
-            <text/>
-            <optional>
-               <ref name="tei_ref"/>
-            </optional>
+            <oneOrMore>
+               <choice>
+                  <text/>
+                  <ref name="tei_ref"/>
+               </choice>
+            </oneOrMore>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="parlamint-desc-deprecationInfo-only-in-deprecated-constraint-rule-4">
@@ -1390,12 +1392,49 @@ Sample values include: 1] rubbing (rubbing); 2] mildew (mildew); 3] smoke (smoke
    <define name="tei_name">
       <element name="name">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(name, proper noun) contains a proper noun or noun phrase. [3.6.1. Referring Strings]</a:documentation>
-         <ref name="tei_macro.phraseSeq"/>
-         <ref name="tei_att.global.attributes"/>
-         <ref name="tei_att.personal.attributes"/>
-         <ref name="tei_att.datable.attributes"/>
+         <oneOrMore>
+            <choice>
+               <ref name="tei_w"/>
+               <ref name="tei_pc"/>
+               <ref name="tei_name"/>
+               <ref name="tei_date"/>
+               <ref name="tei_num"/>
+               <text/>
+            </choice>
+         </oneOrMore>
+         <ref name="tei_att.global.attribute.xmlid"/>
+         <ref name="tei_att.global.attribute.n"/>
+         <ref name="tei_att.global.attribute.xmllang"/>
+         <ref name="tei_att.global.analytic.attribute.ana"/>
+         <ref name="tei_att.personal.attribute.full"/>
+         <ref name="tei_att.canonical.attribute.key"/>
          <ref name="tei_att.editLike.attributes"/>
-         <ref name="tei_att.typed.attributes"/>
+         <ref name="tei_att.typed.attribute.subtype"/>
+         <optional>
+            <attribute name="type">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <choice>
+                  <value>PER</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>LOC</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>ORG</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>MISC</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>city</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>country</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>address</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>org</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>place</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               </choice>
+            </attribute>
+         </optional>
          <empty/>
       </element>
    </define>
@@ -1411,8 +1450,17 @@ Sample values include: 1] rubbing (rubbing); 2] mildew (mildew); 3] smoke (smoke
       <element name="num">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(number) contains a number, written in any form. [3.6.3. Numbers and
 Measures]</a:documentation>
-         <ref name="tei_macro.phraseSeq"/>
-         <ref name="tei_att.global.attributes"/>
+         <oneOrMore>
+            <choice>
+               <ref name="tei_w"/>
+               <ref name="tei_pc"/>
+               <text/>
+            </choice>
+         </oneOrMore>
+         <ref name="tei_att.global.attribute.xmlid"/>
+         <ref name="tei_att.global.attribute.n"/>
+         <ref name="tei_att.global.attribute.xmllang"/>
+         <ref name="tei_att.global.analytic.attribute.ana"/>
          <ref name="tei_att.typed.attribute.subtype"/>
          <ref name="tei_att.ranging.attributes"/>
          <optional>
@@ -3832,6 +3880,9 @@ Sample values include: 1] explicit; 2] implicit</a:documentation>
                <ref name="tei_w"/>
                <ref name="tei_pc"/>
                <ref name="tei_name"/>
+               <ref name="tei_num"/>
+               <ref name="tei_date"/>
+               <ref name="tei_time"/>
                <ref name="tei_note"/>
                <ref name="tei_vocal"/>
                <ref name="tei_kinesic"/>
@@ -3869,26 +3920,13 @@ Sample values include: 1] explicit; 2] implicit</a:documentation>
                <ref name="tei_w"/>
             </choice>
          </oneOrMore>
+         <ref name="tei_att.global.attribute.xmlid"/>
          <ref name="tei_att.global.attribute.n"/>
          <ref name="tei_att.global.attribute.xmllang"/>
          <ref name="tei_att.global.analytic.attribute.ana"/>
          <ref name="tei_att.segLike.attributes"/>
-         <ref name="tei_att.linguistic.attribute.pos"/>
-         <ref name="tei_att.linguistic.attribute.join"/>
-         <ref name="tei_att.lexicographic.normalized.attribute.norm"/>
+         <ref name="tei_att.linguistic.attributes"/>
          <ref name="tei_att.notated.attributes"/>
-         <attribute name="xml:id">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-            <data type="ID"/>
-         </attribute>
-         <attribute name="lemma">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-            <data type="string"/>
-         </attribute>
-         <attribute name="msd">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-            <data type="string"/>
-         </attribute>
          <empty/>
       </element>
    </define>
@@ -4164,6 +4202,9 @@ Sample values include: 1] explicit; 2] implicit</a:documentation>
          </attribute>
       </optional>
    </define>
+   <define name="tei_att.lexicographic.normalized.attributes">
+      <ref name="tei_att.lexicographic.normalized.attribute.norm"/>
+   </define>
    <define name="tei_att.lexicographic.normalized.attribute.norm">
       <optional>
          <attribute name="norm">
@@ -4171,6 +4212,13 @@ Sample values include: 1] explicit; 2] implicit</a:documentation>
             <data type="string"/>
          </attribute>
       </optional>
+   </define>
+   <define name="tei_att.linguistic.attributes">
+      <ref name="tei_att.lexicographic.normalized.attributes"/>
+      <ref name="tei_att.linguistic.attribute.lemma"/>
+      <ref name="tei_att.linguistic.attribute.pos"/>
+      <ref name="tei_att.linguistic.attribute.msd"/>
+      <ref name="tei_att.linguistic.attribute.join"/>
    </define>
    <define name="tei_att.linguistic.attribute.lemma">
       <optional>
@@ -4184,6 +4232,16 @@ Sample values include: 1] explicit; 2] implicit</a:documentation>
       <optional>
          <attribute name="pos">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(part of speech) indicates the part of speech assigned to a token (i.e. information on whether it is a noun, adjective, or verb), usually according to some official reference vocabulary (e.g. for German: STTS, for English: CLAWS, for Polish: NKJP, etc.).</a:documentation>
+            <data type="string"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.linguistic.attribute.msd">
+      <optional>
+         <attribute name="msd">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(morphosyntactic description) supplies morphosyntactic information for a token, usually according to some official reference vocabulary (e.g. for German: <a xmlns="http://www.w3.org/1999/xhtml"
+                  href="http://www.ims.uni-stuttgart.de/forschung/ressourcen/lexika/TagSets/stts-1999.pdf">STTS-large tagset</a>; for a feature description system designed as (pragmatically) universal, see <a xmlns="http://www.w3.org/1999/xhtml"
+                  href="http://universaldependencies.org/u/feat/index.html">Universal Features</a>).</a:documentation>
             <data type="string"/>
          </attribute>
       </optional>

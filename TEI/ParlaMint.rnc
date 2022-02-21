@@ -10,7 +10,7 @@ namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 namespace xsl = "http://www.w3.org/1999/XSL/Transform"
 
-# Schema generated from ODD source 2022-02-20T21:02:38Z. 2022-02-20.
+# Schema generated from ODD source 2022-02-21T17:25:10Z. 2022-02-21.
 # TEI Edition: Version 4.4.0a. Last updated on
 #         19th January 2022, revision daab99ca7
 # TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
@@ -571,7 +571,7 @@ tei_desc =
   
   ## (description) contains a short description of the purpose, function, or use of its parent element, or when the parent is a documentation element, describes or defines the object being documented.  [22.4.1. Description of Components]
   element desc {
-    (tei_term?, text, tei_ref?)
+    (tei_term?, (text | tei_ref)+)
     >> sch:pattern [
          id =
            "parlamint-desc-deprecationInfo-only-in-deprecated-constraint-rule-4"
@@ -642,12 +642,46 @@ tei_name =
   
   ## (name, proper noun) contains a proper noun or noun phrase. [3.6.1. Referring Strings]
   element name {
-    tei_macro.phraseSeq,
-    tei_att.global.attributes,
-    tei_att.personal.attributes,
-    tei_att.datable.attributes,
+    (tei_w | tei_pc | tei_name | tei_date | tei_num | text)+,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
+    tei_att.global.analytic.attribute.ana,
+    tei_att.personal.attribute.full,
+    tei_att.canonical.attribute.key,
     tei_att.editLike.attributes,
-    tei_att.typed.attributes,
+    tei_att.typed.attribute.subtype,
+    
+    ##
+    attribute type {
+      
+      ##
+      "PER"
+      | 
+        ##
+        "LOC"
+      | 
+        ##
+        "ORG"
+      | 
+        ##
+        "MISC"
+      | 
+        ##
+        "city"
+      | 
+        ##
+        "country"
+      | 
+        ##
+        "address"
+      | 
+        ##
+        "org"
+      | 
+        ##
+        "place"
+    }?,
     empty
   }
 tei_email =
@@ -661,8 +695,11 @@ tei_num =
   ## (number) contains a number, written in any form. [3.6.3. Numbers and
   ## Measures]
   element num {
-    tei_macro.phraseSeq,
-    tei_att.global.attributes,
+    (tei_w | tei_pc | text)+,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
+    tei_att.global.analytic.attribute.ana,
     tei_att.typed.attribute.subtype,
     tei_att.ranging.attributes,
     
@@ -2517,6 +2554,9 @@ tei_s =
     (tei_w
      | tei_pc
      | tei_name
+     | tei_num
+     | tei_date
+     | tei_time
      | tei_note
      | tei_vocal
      | tei_kinesic
@@ -2554,23 +2594,13 @@ tei_w =
   ## (word) represents a grammatical (not necessarily orthographic) word. [17.1. Linguistic Segment Categories 17.4.2. Lightweight Linguistic Annotation]
   element w {
     (text | tei_w)+,
+    tei_att.global.attribute.xmlid,
     tei_att.global.attribute.n,
     tei_att.global.attribute.xmllang,
     tei_att.global.analytic.attribute.ana,
     tei_att.segLike.attributes,
-    tei_att.linguistic.attribute.pos,
-    tei_att.linguistic.attribute.join,
-    tei_att.lexicographic.normalized.attribute.norm,
+    tei_att.linguistic.attributes,
     tei_att.notated.attributes,
-    
-    ##
-    attribute xml:id { xsd:ID },
-    
-    ##
-    attribute lemma { xsd:string },
-    
-    ##
-    attribute msd { xsd:string },
     empty
   }
 tei_pc =
@@ -2749,10 +2779,18 @@ tei_att.internetMedia.attribute.mimeType =
       xsd:token { pattern = "[^\p{C}\p{Z}]+" }+
     }
   }?
+tei_att.lexicographic.normalized.attributes =
+  tei_att.lexicographic.normalized.attribute.norm
 tei_att.lexicographic.normalized.attribute.norm =
   
   ## (normalized) provides the normalized/standardized form of information present in the source text in a non-normalized form
   attribute norm { xsd:string }?
+tei_att.linguistic.attributes =
+  tei_att.lexicographic.normalized.attributes,
+  tei_att.linguistic.attribute.lemma,
+  tei_att.linguistic.attribute.pos,
+  tei_att.linguistic.attribute.msd,
+  tei_att.linguistic.attribute.join
 tei_att.linguistic.attribute.lemma =
   
   ## provides a lemma (base form) for the word, typically uninflected and serving both as an identifier (e.g. in dictionary contexts, as a headword), and as a basis for potential inflections.
@@ -2761,6 +2799,24 @@ tei_att.linguistic.attribute.pos =
   
   ## (part of speech) indicates the part of speech assigned to a token (i.e. information on whether it is a noun, adjective, or verb), usually according to some official reference vocabulary (e.g. for German: STTS, for English: CLAWS, for Polish: NKJP, etc.).
   attribute pos { xsd:string }?
+tei_att.linguistic.attribute.msd =
+  [
+    a:documentation [
+      "(morphosyntactic description) supplies morphosyntactic information for a token, usually according to some official reference vocabulary (e.g. for German: "
+      ns1:a [
+        href =
+          "http://www.ims.uni-stuttgart.de/forschung/ressourcen/lexika/TagSets/stts-1999.pdf"
+        "STTS-large tagset"
+      ]
+      "; for a feature description system designed as (pragmatically) universal, see "
+      ns1:a [
+        href = "http://universaldependencies.org/u/feat/index.html"
+        "Universal Features"
+      ]
+      ")."
+    ]
+  ]
+  attribute msd { xsd:string }?
 tei_att.linguistic.attribute.join =
   
   ## when present, it provides information on whether the token in question is adjacent to another, and if so, on which side. The definition of this attribute is adapted from ISO MAF (Morpho-syntactic Annotation Framework), ISO 24611:2012.
