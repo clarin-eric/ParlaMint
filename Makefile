@@ -1,10 +1,11 @@
 .DEFAULT_GOAL := help
-PARLIAMENTS = CZ SI
+PARLIAMENTS = AT BE BG CZ DK EE ES ES-CT ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RO SE SI TR
 DATADIR = Data
 WORKINGDIR = DataTMP
-#### Setup
-## prereq ## test if prerequisities are installed
-prereq:
+
+###### Setup
+## check-prereq ## test if prerequisities are installed
+check-prereq:
 	@test -f /usr/share/java/saxon.jar
 	@unzip -p /usr/share/java/saxon.jar META-INF/MANIFEST.MF|grep 'Main-Class:'| grep -q 'net.sf.saxon.Transform'
 	@echo "Saxon: OK"
@@ -206,7 +207,13 @@ $(PARLIAMENTS):
 .PHONY: help
 ## help ## print this help
 help:
+	@echo "replace XX with country code or run target without -XX to process all countries: \n\t ${PARLIAMENTS}\n "
 	@grep -E '^## *[a-zA-Z_-]+.*?##.*$$|^####' $(MAKEFILE_LIST) | awk 'BEGIN {FS = " *## *"}; {printf "\033[1m%s\033[0m\033[36m%-25s\033[0m %s\n", $$4, $$2, $$3}'
+
+######ADVANCED
+####if you want tu run target on multiple targets but not all
+####you can overwrite PARLIAMENTS variable
+####e.g. make check-links PARLIAMENTS="GB CZ"
 
 
 $(addprefix working-dir-, $(PARLIAMENTS)): working-dir-%: %
