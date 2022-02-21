@@ -123,7 +123,7 @@ $(validate-parlamint-XX): validate-parlamint-%: %
 
 
 
-###### Convert and validate
+###### Convert (and validate)
 
 
 chars-XX = $(addprefix chars-, $(PARLIAMENTS))
@@ -150,22 +150,6 @@ $(text-XX): text-%: %
 	rm -f ${DATADIR}/ParlaMint-<$/*.txt
 	ls ${DATADIR}/ParlaMint-$</*_*.xml | grep -v '.ana.' | $P --jobs 10 \
 	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-$</{/.}.txt'
-
-text-ana-XX = $(addprefix text-ana-, $(PARLIAMENTS))
-## text-ana ## <NOT IMPLEMENTED> create text version from tei files to DataTMP directory
-text-ana: $(text-ana-XX)
-## text-ana-XX ## <NOT IMPLEMENTED> ...
-$(text-ana-XX): text-ana-%: % working-dir-%
-	echo "TODO: tei2text ignores join attribute (it works only on unanotated files)"
-	#ls ${DATADIR}/ParlaMint-$</*_*.xml | grep '.ana.' | $P --jobs 10 \
-	#'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${WORKINGDIR}/ParlaMint-$</{/.}.txt'
-
-val-text-XX = $(addprefix val-text-, $(PARLIAMENTS))
-## val-text ## <NOT IMPLEMENTED> create text version from tei and ana files and compare them
-val-text: $(val-text-XX)
-## val-text-XX ## <NOT IMPLEMENTED> ...
-$(val-text-XX): val-text-%: % text-% text-ana-%
-	echo "TODO"
 
 
 
@@ -200,7 +184,7 @@ $(vertana-XX): vertana-%: %
 
 
 
-######
+######---------------
 .PHONY: $(PARLIAMENTS)
 $(PARLIAMENTS):
 
