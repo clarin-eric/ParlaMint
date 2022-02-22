@@ -60,6 +60,7 @@ foreach $inFile (glob($corpusFiles)) {
 `rm -f $inDir/*.conllu`;
 foreach $inFile (@compAnaFiles) {
     my ($fName) = $inFile =~ m|([^/]+)\.ana\.xml|;
+    # if the language is present in filename, then use that language otherwise language from country2lang is used
     my ($country, $langs) = $inFile =~ /.*ParlaMint-([A-Z]{2}(?:-[A-Z0-9]{1,3})?)(?:-([a-z]{2,3}))?/ or die "ERROR: Wrong filename $inFile";
     $langs = $country2lang{$country} unless defined $langs;
     die "ERROR: Language is not defined for $country" unless defined $langs
