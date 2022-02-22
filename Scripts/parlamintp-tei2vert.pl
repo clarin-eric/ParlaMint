@@ -25,8 +25,8 @@ my @compAnaFiles = ();
 $inDir =~ s|[^/]+\.xml$||; # If a specific filename is given, get rid of it
 $corpusFiles = "$inDir/*.ana.xml $inDir/*/*.ana.xml";
 foreach $inFile (glob($corpusFiles)) {
-    if ($inFile =~ m|ParlaMint-..\.ana\.xml|) {$rootAnaFile = $inFile}
-    elsif ($inFile =~ m|ParlaMint-.._.+\.ana\.xml|) {push(@compAnaFiles, $inFile)}
+    if ($inFile =~ m|ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?\.ana\.xml|) {$rootAnaFile = $inFile}
+    elsif ($inFile =~ m|ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?_.+\.ana\.xml|) {push(@compAnaFiles, $inFile)}
 }
 
 die "Cannot find root file in $inDir!\n"
