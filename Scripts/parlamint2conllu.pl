@@ -54,14 +54,15 @@ my @compAnaFiles = ();
 $inDir =~ s|[^/]+\.xml$||; # If specific (hopefully root) filename give, get rid of it
 $corpusFiles = "$inDir/*.ana.xml $inDir/*/*.ana.xml";
 foreach $inFile (glob($corpusFiles)) {
-    if ($inFile =~ m|ParlaMint-..\.ana\.xml|) {$rootAnaFile = $inFile}
-    elsif ($inFile =~ m|ParlaMint-.._.+\.ana\.xml|) {push(@compAnaFiles, $inFile)}
+    if ($inFile =~ m|ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?\.ana\.xml|) {$rootAnaFile = $inFile}
+    elsif ($inFile =~ m|ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?_.+\.ana\.xml|) {push(@compAnaFiles, $inFile)}
 }
 `rm -f $inDir/*.conllu`;
 foreach $inFile (@compAnaFiles) {
     my ($fName) = $inFile =~ m|([^/]+)\.ana\.xml|;
-    my ($country) = $inFile =~ /.*ParlaMint-(..)/ or die;
-    my ($langs) = $country2lang{$country};
+    my ($country, $langs) = $inFile =~ /.*ParlaMint-([A-Z]{2}(?:-[A-Z0-9]{1,3})?)(?:-([a-z]{2,3}))?/ or die "ERROR: Wrong filename $inFile";
+    $langs = $country2lang{$country} unless defined $langs;
+    die "ERROR: Language is not defined for $country" unless defined $langs
     #One corpus, one language
     if ($langs !~ /,/) {
 	my $outFile = "$outDir/$fName.conllu";
