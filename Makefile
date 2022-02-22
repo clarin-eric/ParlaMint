@@ -131,7 +131,7 @@ chars-XX = $(addprefix chars-, $(PARLIAMENTS))
 chars: $(chars-XX)
 ## chars-XX ## ...
 $(chars-XX): chars-%: %
-	rm -f ${DATADIR}/ParlaMint-$</chars-files-$<.txt
+	rm -f ${DATADIR}/ParlaMint-$</chars-files-$<.tbl
 	rm -f ${DATADIR}/ParlaMint-$</*.tmp
 	nice find ${DATADIR}/ParlaMint-$</ -name '*.txt' | \
 	$P --jobs 20 'cut -f2 {} > {.}.tmp'
