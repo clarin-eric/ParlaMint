@@ -1,5 +1,15 @@
-# Validate 
-all:	prepare val-schema xml-schemas val-samples html mount
+# Validate and compile ODD to RelaxNG, validate samples, make HTML
+all:	prepare val-schema xml-schemas val-samples html
+
+# Builds html and pushes it
+deploy:	html
+	git commit -m "Deploy GitHub pages" ../docs
+	git push
+
+# Put the docs directory somewhere where the HTML can be viewed
+# This is a local thing!
+mount:
+	rsync -a ../docs/ tomaz@nl.ijs.si:/home/tomaz/www/tmp/ParlaMint/Pages
 
 # ParlaMint TEI documentation and schema, as expanded by prepare target
 ODD = tmp/ParlaMint.xml
@@ -10,11 +20,6 @@ SUBSET = --localsource=p5subset.xml
 
 # Location and directory name of the profile for conversion to HTML
 PROFILE = --profiledir=$(shell pwd) --profile=profile
-
-# Put the docs directory somewhere where the HTML can be viewed
-# This is a local thing!
-mount:
-	rsync -a ../docs/ tomaz@nl.ijs.si:/home/tomaz/www/tmp/ParlaMint/Pages
 
 # Convert to HTML
 html:	prepare val-schema
@@ -45,7 +50,7 @@ val-SI:
 val-samples:
 	validate.pl samples ../Data
 
-# Validate all the full set of components
+# Validate all the full set of components; this is a local thing!
 val-master:
 	validate.pl master ../../V2/MasterV2.1
 
