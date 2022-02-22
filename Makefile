@@ -147,7 +147,7 @@ text-XX = $(addprefix text-, $(PARLIAMENTS))
 text: $(text-XX)
 ## text-XX ## convert tei files to text
 $(text-XX): text-%: %
-	rm -f ${DATADIR}/ParlaMint-<$/*.txt
+	rm -f ${DATADIR}/ParlaMint-$</*.txt
 	ls ${DATADIR}/ParlaMint-$</*_*.xml | grep -v '.ana.' | $P --jobs 10 \
 	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-$</{/.}.txt'
 
