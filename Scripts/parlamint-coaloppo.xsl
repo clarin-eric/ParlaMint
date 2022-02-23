@@ -17,7 +17,7 @@
     <xsl:for-each select="//xi:include">
       <!-- We need "../" as the this XSLT is in Scripts! -->
       <xsl:variable name="href" select="concat('../', @href)"/>
-      <xsl:variable name="country" select="replace(@href, '.+ParlaMint-(..).*', '$1')"/>
+      <xsl:variable name="country" select="replace(@href, '.+ParlaMint-([A-Z]{2}(-[A-Z0-9]{1,3})?).*', '$1')"/>
       <xsl:variable name="coalition">
 	<xsl:apply-templates select="document($href)//tei:relation[@name = 'coalition']">
 	  <xsl:with-param name="country" select="$country"/>
