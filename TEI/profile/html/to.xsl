@@ -35,10 +35,12 @@
    <xsl:param name="autoToc">false</xsl:param>
    <xsl:param name="tocFront">false</xsl:param>
    <xsl:param name="tocBack">true</xsl:param>
-   <xsl:param name="tocDepth">3</xsl:param>
+   <xsl:param name="tocDepth">2</xsl:param>
    <xsl:param name="subTocDepth">5</xsl:param>
    <xsl:param name="numberFigures"/>
    <xsl:param name="footnoteBackLink">true</xsl:param>
    <xsl:param name="autoEndNotes">true</xsl:param>   
    <xsl:param name="outputEncoding">utf-8</xsl:param>
+
+   <xsl:param name="copyrightStatement"><a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></xsl:param>
 </xsl:stylesheet>
