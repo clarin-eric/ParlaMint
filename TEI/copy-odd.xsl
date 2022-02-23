@@ -6,7 +6,6 @@
     xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:eg="http://www.tei-c.org/ns/Examples"
     exclude-result-prefixes="xsl">
-  <xsl:strip-space elements="*"/>
   <xsl:output indent="no"/>
   <xsl:template match="tei:* | eg:*">
     <xsl:copy>
