@@ -86,7 +86,7 @@ foreach my $inDir (glob "$inDirs") {
 		    &run("$Saxon -xsl:$Valid", $file);
 		    &run("$Saxon meta=$rootAnaFile -xsl:$Links", $file);
 		}
-		else {print STDERR "ERROR: $rootFile XIncluded file $file does not exist!\n"}
+		else {print STDERR "ERROR: $rootAnaFile XIncluded file $file does not exist!\n"}
 	    }
 	}
 	close IN;
