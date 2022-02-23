@@ -203,6 +203,18 @@ help:
 $(addprefix working-dir-, $(PARLIAMENTS)): working-dir-%: %
 	mkdir -p ${WORKINGDIR}/ParlaMint-$<
 
+
+######DEVEL
+##DEV-list-script-local-deps## for each file in Scripts folder shows list of dependencies in Script folder
+DEV-list-script-local-deps:
+	regex=`ls -p Scripts| grep -v "/"| tr '\n' '|'|sed 's/|$$//'`; \
+	for file in `ls -p Scripts| grep -v "/"`; do \
+	  echo -n "$$file:\t"; \
+	  grep -Eo "$$regex" Scripts/$$file|grep -v "^$$file$$"|sort|uniq| tr '\n' ' '; \
+	  echo;\
+	done
+
+
 s = java -jar /usr/share/java/saxon.jar
 P = parallel --gnu --halt 2
 j = java -jar /usr/share/java/jing.jar
