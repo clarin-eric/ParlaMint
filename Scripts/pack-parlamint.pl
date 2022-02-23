@@ -62,7 +62,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     `rm -fr $outDir/$outTxt`;
     die "Can't find $inDir/$teiDir\n" unless -e "$inDir/$teiDir"; 
     die "Can't find $inDir/$TxtDir\n" unless -e "$inDir/$TxtDir";
-    `cd $inDir; tar -czf $outTxt $teiDir $TxtDir`;
+    `cd $inDir; tar -czf $outTxt --mode='a+rwX' $teiDir $TxtDir`;
     move("$inDir/$outTxt", $outDir);
     
     print STDERR "INFO: *Packing $anaDir, $ConlDir, $VertDir\n";
@@ -71,7 +71,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	die "Can't find $inDir/$anaDir\n" unless -e "$inDir/$anaDir"; 
 	die "Can't find $inDir/$ConlDir\n" unless -e "$inDir/$ConlDir";
 	die "Can't find $inDir/$VertDir\n" unless -e "$inDir/$VertDir";
-	`cd $inDir; tar -czf $outAna $anaDir $ConlDir $VertDir`;
+	`cd $inDir; tar -czf $outAna --mode='a+rwX' $anaDir $ConlDir $VertDir`;
 	move("$inDir/$outAna", $outDir);
     }
     else {
