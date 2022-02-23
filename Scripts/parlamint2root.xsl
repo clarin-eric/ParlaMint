@@ -69,7 +69,7 @@
 	<xsl:variable name="country-code">
 	  <!-- Doesn't work cause of GB! -->
 	  <!--xsl:value-of select=".//tei:setting/tei:name[@type='country']/@key"/-->
-	  <xsl:value-of select="substring-after(@xml:id, '-')"/>
+	  <xsl:value-of select="substring-after(@xml:id, '-')"/> <!-- TODO: not working for translated version with language suffix -->
 	</xsl:variable>
 	<xsl:for-each select="tei:teiHeader//tei:titleStmt/tei:meeting">
 	  <!--meeting ana="#parla.lower #parla.term" n="54">54-ste zittingsperiode</meeting-->
@@ -249,7 +249,7 @@
 				    tei:taxonomy[@xml:id = $id]/tei:category"
 			    group-by="@xml:id">
 	  <xsl:variable name="country-code" select="substring-after(
-					    ancestor::tei:teiCorpus/@xml:id, '-')"/>
+					    ancestor::tei:teiCorpus/@xml:id, '-')"/> <!-- TODO: not working for translated version with language suffix -->
 	  <category xml:id="{current-grouping-key()}">
 	    <xsl:for-each select="current-group()/tei:catDesc">
 	      <xsl:copy>
@@ -282,7 +282,7 @@
   
   <xsl:template match="tei:category">
     <xsl:variable name="country-code" select="substring-after(
-					      ancestor::tei:teiCorpus/@xml:id, '-')"/>
+					      ancestor::tei:teiCorpus/@xml:id, '-')"/> <!-- TODO: not working for translated version with language suffix -->
     <xsl:variable name="id" select="concat(@xml:id, '-', $country-code)"/>
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
