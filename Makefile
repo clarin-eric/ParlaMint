@@ -1,8 +1,16 @@
 .DEFAULT_GOAL := help
+
+##$PARLIAMENTS##Space separated list of parliaments codes.
 PARLIAMENTS = AT BE BG CZ DK EE ES ES-CT ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RO SE SI TR
-CORPUSDIR_SUFFIX =
+##$DATADIR## Folder with country corpus folders. Default value is 'Data'.
 DATADIR = Data
+##$WORKINGDIR## In this folder will be stored temporary files. Default value is 'DataTMP'.
 WORKINGDIR = DataTMP
+##$CORPUSDIR_SUFFIX## This value is appended to corpus folder so corpus directory name shouldn't be prefix
+##$##                 of corpus root file. E.g. setting CORPUSDIR_SUFFIX=.TEI allow running targets on content
+##$##                 of ParlaMint-XX.TEI folder that contains corresponding ParlaMint-XX(.ana).xml files.
+##$##                 Default value is ''.
+CORPUSDIR_SUFFIX =
 
 ###### Setup
 ## check-prereq ## test if prerequisities are installed
@@ -189,11 +197,22 @@ $(vertana-XX): vertana-%: %
 .PHONY: $(PARLIAMENTS)
 $(PARLIAMENTS):
 
+help-intro:
+	@echo "replace XX with country code or run target without -XX to process all countries: \n\t ${PARLIAMENTS}\n "
+
+help-variables:
+	@echo "\033[1m\033[32mVARIABLES:\033[0m"
+	@echo "Variable VAR with value 'value' can be set when calling target TARGET in $(MAKEFILE_LIST): make VAR=value TARGET"
+	@grep -E '^## *\$$[a-zA-Z_-]*.*?##.*$$' $(MAKEFILE_LIST) |sed 's/^## *\$$/##/'| awk 'BEGIN {FS = " *## *"}; {printf "\033[1m%s\033[0m\033[36m%-18s\033[0m %s\n", $$4, $$2, $$3}'
+
+help-targets:
+	@echo "\033[1m\033[32mTARGETS:\033[0m"
+	@grep -E '^## *[a-zA-Z_-]+.*?##.*$$|^####' $(MAKEFILE_LIST) | awk 'BEGIN {FS = " *## *"}; {printf "\033[1m%s\033[0m\033[36m%-25s\033[0m %s\n", $$4, $$2, $$3}'
+
+
 .PHONY: help
 ## help ## print this help
-help:
-	@echo "replace XX with country code or run target without -XX to process all countries: \n\t ${PARLIAMENTS}\n "
-	@grep -E '^## *[a-zA-Z_-]+.*?##.*$$|^####' $(MAKEFILE_LIST) | awk 'BEGIN {FS = " *## *"}; {printf "\033[1m%s\033[0m\033[36m%-25s\033[0m %s\n", $$4, $$2, $$3}'
+help: help-intro help-variables help-targets
 
 ######ADVANCED
 ####if you want tu run target on multiple targets but not all
