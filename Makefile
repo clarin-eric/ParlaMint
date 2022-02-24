@@ -214,18 +214,21 @@ help-targets:
 ## help ## print this help
 help: help-intro help-variables help-targets
 
-######ADVANCED
-####if you want tu run target on multiple targets but not all
-####you can overwrite PARLIAMENTS variable
-####e.g. make check-links PARLIAMENTS="GB CZ"
+## help-advanced ## print full help
+help-advanced: help
+	@echo "\033[1m\033[32mADVANCED:\033[0m"
+	@echo "If you want to run target on multiple targets but not all, you can overwrite PARLIAMENTS variable. E.g. make check-links PARLIAMENTS=\"GB CZ\""
+	@grep -E '^## *![a-zA-Z_-]+.*?##.*$$|^##!##' $(MAKEFILE_LIST) |sed 's/^## *!/##/'| awk 'BEGIN {FS = " *## *"}; {printf "\033[1m%s\033[0m\033[35m%-25s\033[0m %s\n", $$4, $$2, $$3}'
+
+
 
 
 $(addprefix working-dir-, $(PARLIAMENTS)): working-dir-%: %
 	mkdir -p ${WORKINGDIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}
 
 
-######DEVEL
-##DEV-list-script-local-deps## for each file in Scripts folder shows list of dependencies in Script folder
+##!####DEVEL
+##!DEV-list-script-local-deps## for each file in Scripts folder shows list of dependencies in Script folder
 DEV-list-script-local-deps:
 	regex=`ls -p Scripts| grep -v "/"| tr '\n' '|'|sed 's/|$$//'`; \
 	for file in `ls -p Scripts| grep -v "/"`; do \
