@@ -48,11 +48,11 @@ val-SI:
 
 # Validate samples
 val-samples:
-	validate.pl samples ../Data
+	./validate.pl samples ../Data
 
 # Validate all the full set of components; this is a local thing!
 val-master:
-	validate.pl master ../../V2/MasterV2.1
+	./validate.pl master ../../V2/MasterV2.1
 
 # Make one file from the ODD
 prepare:
