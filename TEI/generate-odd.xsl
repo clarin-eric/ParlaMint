@@ -6,7 +6,7 @@
     xmlns:eg="http://www.tei-c.org/ns/Examples"
     xmlns:fn="http://www.w3.org/2005/xpath-functions"
     xmlns:pm="ParlaMint"
-    exclude-result-prefixes="xsl">
+    exclude-result-prefixes="xsl pm">
   <xsl:output indent="yes"/>
 
   <xsl:param name="tei_odd"/>
@@ -59,7 +59,7 @@
       <xsl:for-each select="./tei:attList/tei:attDef/@ident | ./tei:attList/tei:attRef/@name">
         <xsl:variable name="attr" select="." />
         <xsl:if test="contains($all_included_attrs, concat(' ',$attr,' '))">
-          <xsl:if test="not($list/tei:attDef[@ident=$attr] | $list/tei:attRef[@name=$attr] | $list/pm:attPreserve[@ident=$attr])">
+          <xsl:if test="not($list//tei:attDef[@ident=$attr] | $list//tei:attRef[@name=$attr] | $list//pm:attPreserve[@ident=$attr])">
             <xsl:message>REMOVING <xsl:value-of select="$elem"/>/@<xsl:value-of select="$attr"/></xsl:message>
             <xsl:element namespace="http://www.tei-c.org/ns/1.0" name="attDef">
               <xsl:attribute name="ident" select="$attr"/>
