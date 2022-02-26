@@ -55,9 +55,14 @@ val-master:
 	./validate.pl master ../../V2/MasterV2.1
 
 # Make one file from the ODD
-prepare:
+prepare: generate-schemaSpecs
 	rm -f tmp/*
 	$s -xi -xsl:copy-odd.xsl ParlaMint.odd.xml > tmp/ParlaMint.xml
+
+
+# generate schemaSpecs.odd file
+generate-schemaSpecs:
+	$s -xi -xsl:generate-odd.xsl tei_odd=p5subset.xml ParlaMint-schemaSpecs.odd.xml > ParlaMint-schemaSpecs.generated.odd.xml
 
 # Initialise
 setup:
