@@ -15,8 +15,6 @@
 
   <!-- print WARNING when exclude is used !!! -->
 
-  <!-- remove class ref if include is empty -->
-  <xsl:template match="tei:classRef[@include='']" />
 
   <xsl:template match="tei:attList[ancestor::tei:elementSpec[@ident]]">
     <xsl:copy>
