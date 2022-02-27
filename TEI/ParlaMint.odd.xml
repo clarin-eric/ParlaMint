@@ -23,7 +23,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>CLARIN</publisher>
-        <date>2022-02-21</date>
+        <date>2022-02-27</date>
         <availability status="free">
           <p>This file is freely available and you are hereby authorised to copy, modify, and
           redistribute it in any way without further reference or permissions.</p>
@@ -45,6 +45,7 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
+      <change when="2022-02-27">Tomaž Erjavec: small changes to prose.</change>
       <change when="2022-02-21">Tomaž Erjavec: better schemaSpec.</change>
       <change when="2022-02-16">Tomaž Erjavec: first draft.</change>
     </revisionDesc>
@@ -58,7 +59,7 @@
           corpora</ref></titlePart>
         </docTitle>
         <!--docEdition>v0.2</docEdition-->
-        <docDate>2022-02-21</docDate>
+        <docDate>2022-02-27</docDate>
         <!--byline>Tomaž Erjavec and Matyáš Kopp</byline-->
       </titlePage>
       <p></p>
@@ -2550,6 +2551,12 @@
 	  target="https://github.com/clarin-eric/ParlaMint/blob/main/Scripts/README.md">README</ref>
 	  file listing them.</p>
 
+	  <p>It should be noted that it is not necessary to run the validation scripts directly, as
+	  the validation can be performed by the main <ref
+	  target="https://github.com/clarin-eric/ParlaMint/blob/main/Makefile">Makefile</ref> of the
+	  project. The Makefile is self-documenting, i.e. to see how to use it, please run
+	  <code>make help</code> in the top level directory of the ParlaMint project.</p>
+	  
 	  <p>While each contributor of a corpus should validate their files with the ParlaMint
 	  schemas and validation script, there also exist further stages of validation, which are
 	  also applied to ParlaMint corpora:
