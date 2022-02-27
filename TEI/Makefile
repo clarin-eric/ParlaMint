@@ -62,7 +62,7 @@ prepare: generate-schemaSpecs
 
 # generate schemaSpecs.odd file
 generate-schemaSpecs:
-	$s -xi -xsl:generate-odd.xsl tei_odd=p5subset.xml ParlaMint-schemaSpecs.odd.xml > ParlaMint-schemaSpecs.generated.odd.xml
+	$s -xi -xsl:generate-odd.xsl tei_odd=p5subset.xml ParlaMint-schemaSpecs.editing.odd.xml > ParlaMint-schemaSpecs.odd.xml
 
 # Initialise
 setup:
