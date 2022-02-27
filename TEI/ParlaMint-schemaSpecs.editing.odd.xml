@@ -2,7 +2,8 @@
 <schemaSpec xmlns="http://www.tei-c.org/ns/1.0"
 	    xmlns:sch="http://purl.oclc.org/dsdl/schematron" 
 	    xmlns:eg="http://www.tei-c.org/ns/Examples"
-	    xmlns:egXML="http://www.tei-c.org/ns/Examples"
+      xmlns:egXML="http://www.tei-c.org/ns/Examples"
+      xmlns:pm="ParlaMint"
 	    ident="parlamint"
 	    start="TEI teiCorpus"
 	    prefix="tei_"
@@ -102,17 +103,6 @@
 	  <dataRef key="teidata.language"/>
 	</datatype>
       </attDef>
-      <attDef ident="xml:space" mode="delete"/>
-      <attDef ident="n" mode="delete"/>
-      <attDef ident="type" mode="delete"/>
-      <attDef ident="subtype" mode="delete"/>
-      <attDef ident="ana" mode="delete"/>
-      <attDef ident="corresp" mode="delete"/>
-      <attDef ident="synch" mode="delete"/>
-      <attDef ident="next" mode="delete"/>
-      <attDef ident="prev" mode="delete"/>
-      <attDef ident="resp" mode="delete"/>
-      <attDef ident="source" mode="delete"/>
     </attList>
   </elementSpec>
   <!-- Definition of XInclude -->
@@ -149,17 +139,6 @@
 	  <dataRef key="teidata.pointer"/>
 	</datatype>
       </attDef>
-      <attDef ident="xml:space" mode="delete"/>
-      <attDef ident="n" mode="delete"/>
-      <attDef ident="type" mode="delete"/>
-      <attDef ident="subtype" mode="delete"/>
-      <attDef ident="corresp" mode="delete"/>
-      <attDef ident="synch" mode="delete"/>
-      <attDef ident="next" mode="delete"/>
-      <attDef ident="prev" mode="delete"/>
-      <attDef ident="resp" mode="delete"/>
-      <attDef ident="source" mode="delete"/>
-      <attDef ident="version" mode="delete"/>
     </attList>
   </elementSpec>
   
@@ -169,14 +148,11 @@
     </content>
     <!-- Remove attributes except for ana and optional xml:id, xml:lang, n, source -->
     <attList>
-      <attDef ident="xml:space" mode="delete"/>
-      <attDef ident="type" mode="delete"/>
-      <attDef ident="subtype" mode="delete"/>
-      <attDef ident="corresp" mode="delete"/>
-      <attDef ident="synch" mode="delete"/>
-      <attDef ident="next" mode="delete"/>
-      <attDef ident="prev" mode="delete"/>
-      <attDef ident="resp" mode="delete"/>
+      <pm:attPreserve ident="ana"/>
+      <pm:attPreserve ident="xml:id"/>
+      <pm:attPreserve ident="xml:lang"/>
+      <pm:attPreserve ident="n"/>
+      <pm:attPreserve ident="source"/>
     </attList>
   </elementSpec>
   
@@ -186,17 +162,7 @@
     </content>
     <!-- Remove all attributes -->
     <attList>
-      <attDef ident="xml:id" mode="delete"/>
-      <attDef ident="xml:space" mode="delete"/>
-      <attDef ident="xml:base" mode="delete"/>
-      <attDef ident="n" mode="delete"/>
-      <attDef ident="corresp" mode="delete"/>
-      <attDef ident="synch" mode="delete"/>
-      <attDef ident="next" mode="delete"/>
-      <attDef ident="prev" mode="delete"/>
-      <attDef ident="ana" mode="delete"/>
-      <attDef ident="resp" mode="delete"/>
-      <attDef ident="source" mode="delete"/>
+      <!-- empty list -> remove all attributes -->
     </attList>
   </elementSpec>
   
@@ -225,15 +191,10 @@
           </valItem>
         </valList>
       </attDef>
-      <attDef ident="xml:space" mode="delete"/>
-      <attDef ident="xml:base" mode="delete"/>
-      <attDef ident="corresp" mode="delete"/>
-      <attDef ident="synch" mode="delete"/>
-      <attDef ident="next" mode="delete"/>
-      <attDef ident="prev" mode="delete"/>
-      <attDef ident="ana" mode="delete"/>
-      <attDef ident="resp" mode="delete"/>
-      <attDef ident="source" mode="delete"/>
+      <pm:attPreserve ident="xml:id"/>
+      <pm:attPreserve ident="xml:lang"/>
+      <pm:attPreserve ident="n"/>
+      <pm:attPreserve ident="subtype"/>
     </attList>
   </elementSpec>
   
@@ -301,13 +262,10 @@
           </valItem>
         </valList>
       </attDef>
-      <attDef ident="xml:space" mode="delete"/>
-      <attDef ident="xml:base" mode="delete"/>
-      <attDef ident="corresp" mode="delete"/>
-      <attDef ident="synch" mode="delete"/>
-      <attDef ident="next" mode="delete"/>
-      <attDef ident="prev" mode="delete"/>
-      <attDef ident="ana" mode="delete"/>
+      <pm:attPreserve ident="xml:id"/>
+      <pm:attPreserve ident="xml:lang"/>
+      <pm:attPreserve ident="n"/>
+      <pm:attPreserve ident="subtype"/>
     </attList>
   </elementSpec>
   
@@ -332,16 +290,11 @@
           <valItem ident="signal"/>
         </valList>
       </attDef>
-      <attDef ident="xml:space" mode="delete"/>
-      <attDef ident="xml:base" mode="delete"/>
-      <attDef ident="corresp" mode="delete"/>
-      <attDef ident="synch" mode="delete"/>
-      <attDef ident="next" mode="delete"/>
-      <attDef ident="prev" mode="delete"/>
-      <attDef ident="ana" mode="delete"/>
-      <attDef ident="resp" mode="delete"/>
-      <attDef ident="source" mode="delete"/>
-      <attDef ident="dur" mode="delete"/>
+      <pm:attPreserve ident="xml:id"/>
+      <pm:attPreserve ident="xml:lang"/>
+      <pm:attPreserve ident="n"/>
+      <pm:attPreserve ident="who"/>
+      <pm:attPreserve ident="subtype"/>
     </attList>
   </elementSpec>
   
@@ -365,16 +318,11 @@
           <valItem ident="noise"/>
         </valList>
       </attDef>
-      <attDef ident="xml:space" mode="delete"/>
-      <attDef ident="xml:base" mode="delete"/>
-      <attDef ident="corresp" mode="delete"/>
-      <attDef ident="synch" mode="delete"/>
-      <attDef ident="next" mode="delete"/>
-      <attDef ident="prev" mode="delete"/>
-      <attDef ident="ana" mode="delete"/>
-      <attDef ident="resp" mode="delete"/>
-      <attDef ident="source" mode="delete"/>
-      <attDef ident="dur" mode="delete"/>
+      <pm:attPreserve ident="xml:id"/>
+      <pm:attPreserve ident="xml:lang"/>
+      <pm:attPreserve ident="n"/>
+      <pm:attPreserve ident="who"/>
+      <pm:attPreserve ident="subtype"/>
     </attList>
   </elementSpec>
   
@@ -395,16 +343,11 @@
           <valItem ident="editorial"/>
         </valList>
       </attDef>
-      <attDef ident="xml:space" mode="delete"/>
-      <attDef ident="xml:base" mode="delete"/>
-      <attDef ident="corresp" mode="delete"/>
-      <attDef ident="synch" mode="delete"/>
-      <attDef ident="next" mode="delete"/>
-      <attDef ident="prev" mode="delete"/>
-      <attDef ident="ana" mode="delete"/>
-      <attDef ident="resp" mode="delete"/>
-      <attDef ident="source" mode="delete"/>
-      <attDef ident="dur" mode="delete"/>
+      <pm:attPreserve ident="xml:id"/>
+      <pm:attPreserve ident="xml:lang"/>
+      <pm:attPreserve ident="n"/>
+      <pm:attPreserve ident="who"/>
+      <pm:attPreserve ident="subtype"/>
     </attList>
   </elementSpec>
   
@@ -420,18 +363,6 @@
           <valItem ident="editorial"/>
         </valList>
       </attDef>
-      <attDef ident="xml:id" mode="delete"/>
-      <attDef ident="xml:space" mode="delete"/>
-      <attDef ident="xml:base" mode="delete"/>
-      <attDef ident="n" mode="delete"/>
-      <attDef ident="corresp" mode="delete"/>
-      <attDef ident="synch" mode="delete"/>
-      <attDef ident="next" mode="delete"/>
-      <attDef ident="prev" mode="delete"/>
-      <attDef ident="ana" mode="delete"/>
-      <attDef ident="resp" mode="delete"/>
-      <attDef ident="source" mode="delete"/>
-      <attDef ident="dur" mode="delete"/>
     </attList>
   </elementSpec>
 
@@ -448,19 +379,7 @@
     </content>
     <!-- Remove all except optional xml:lang -->
     <attList>
-      <attDef ident="xml:id" mode="delete"/>
-      <attDef ident="xml:space" mode="delete"/>
-      <attDef ident="xml:base" mode="delete"/>
-      <attDef ident="n" mode="delete"/>
-      <attDef ident="corresp" mode="delete"/>
-      <attDef ident="synch" mode="delete"/>
-      <attDef ident="next" mode="delete"/>
-      <attDef ident="prev" mode="delete"/>
-      <attDef ident="ana" mode="delete"/>
-      <attDef ident="resp" mode="delete"/>
-      <attDef ident="source" mode="delete"/>
-      <attDef ident="type" mode="delete"/>
-      <attDef ident="subtype" mode="delete"/>
+      <pm:attPreserve ident="xml:lang"/>
     </attList>
   </elementSpec>
 
@@ -478,14 +397,14 @@
     </content>
     <!-- Remove all except optional xml:id, xml:lang, n, prev, next, who, ana, source  -->
     <attList>
-      <attDef ident="xml:space" mode="delete"/>
-      <attDef ident="xml:base" mode="delete"/>
-      <attDef ident="corresp" mode="delete"/>
-      <attDef ident="synch" mode="delete"/>
-      <attDef ident="resp" mode="delete"/>
-      <attDef ident="dur" mode="delete"/>
-      <attDef ident="toWhom" mode="delete"/>
-      <attDef ident="trans" mode="delete"/>
+      <pm:attPreserve ident="xml:id"/>
+      <pm:attPreserve ident="xml:lang"/>
+      <pm:attPreserve ident="n"/>
+      <pm:attPreserve ident="prev"/>
+      <pm:attPreserve ident="next"/>
+      <pm:attPreserve ident="who"/>
+      <pm:attPreserve ident="ana"/>
+      <pm:attPreserve ident="source"/>
     </attList>
   </elementSpec>
   
@@ -507,17 +426,9 @@
     </content>
     <!-- Remove all except optional xml:id, xml:lang, n -->
     <attList>
-      <attDef ident="xml:space" mode="delete"/>
-      <attDef ident="xml:base" mode="delete"/>
-      <attDef ident="corresp" mode="delete"/>
-      <attDef ident="synch" mode="delete"/>
-      <attDef ident="next" mode="delete"/>
-      <attDef ident="prev" mode="delete"/>
-      <attDef ident="ana" mode="delete"/>
-      <attDef ident="resp" mode="delete"/>
-      <attDef ident="source" mode="delete"/>
-      <attDef ident="type" mode="delete"/>
-      <attDef ident="subtype" mode="delete"/>
+      <pm:attPreserve ident="xml:id"/>
+      <pm:attPreserve ident="xml:lang"/>
+      <pm:attPreserve ident="n"/>
     </attList>
   </elementSpec>
   
@@ -542,17 +453,9 @@
     </content>
     <!-- Remove all except optional xml:id, xml:lang, n -->
     <attList>
-      <attDef ident="xml:space" mode="delete"/>
-      <attDef ident="xml:base" mode="delete"/>
-      <attDef ident="corresp" mode="delete"/>
-      <attDef ident="synch" mode="delete"/>
-      <attDef ident="next" mode="delete"/>
-      <attDef ident="prev" mode="delete"/>
-      <attDef ident="ana" mode="delete"/>
-      <attDef ident="resp" mode="delete"/>
-      <attDef ident="source" mode="delete"/>
-      <attDef ident="type" mode="delete"/>
-      <attDef ident="subtype" mode="delete"/>
+      <pm:attPreserve ident="xml:id"/>
+      <pm:attPreserve ident="xml:lang"/>
+      <pm:attPreserve ident="n"/>
     </attList>
   </elementSpec>
 
@@ -567,16 +470,14 @@
     <!-- Remove attributes except for xml:id, msd, lemma, xml:lang, norm, join, ana, pos -->
     <!-- Cannot make any attributes obligatory, because of surface words -->
     <attList>
-      <attDef ident="xml:space" mode="delete"/>
-      <attDef ident="xml:base" mode="delete"/>
-      <attDef ident="corresp" mode="delete"/>
-      <attDef ident="synch" mode="delete"/>
-      <attDef ident="next" mode="delete"/>
-      <attDef ident="prev" mode="delete"/>
-      <attDef ident="resp" mode="delete"/>
-      <attDef ident="source" mode="delete"/>
-      <attDef ident="type" mode="delete"/>
-      <attDef ident="subtype" mode="delete"/>
+      <pm:attPreserve ident="xml:id"/>
+      <pm:attPreserve ident="msd"/>
+      <pm:attPreserve ident="lemma"/>
+      <pm:attPreserve ident="xml:lang"/>
+      <pm:attPreserve ident="norm"/>
+      <pm:attPreserve ident="join"/>
+      <pm:attPreserve ident="ana"/>
+      <pm:attPreserve ident="pos"/>
     </attList>
   </elementSpec>
   
@@ -597,16 +498,11 @@
 	  <dataRef key="teidata.text"/>
 	</datatype>
       </attDef>
-      <attDef ident="xml:space" mode="delete"/>
-      <attDef ident="xml:base" mode="delete"/>
-      <attDef ident="corresp" mode="delete"/>
-      <attDef ident="synch" mode="delete"/>
-      <attDef ident="next" mode="delete"/>
-      <attDef ident="prev" mode="delete"/>
-      <attDef ident="resp" mode="delete"/>
-      <attDef ident="source" mode="delete"/>
-      <attDef ident="type" mode="delete"/>
-      <attDef ident="subtype" mode="delete"/>
+      <pm:attPreserve ident="xml:lang"/>
+      <pm:attPreserve ident="norm"/>
+      <pm:attPreserve ident="join"/>
+      <pm:attPreserve ident="ana"/>
+      <pm:attPreserve ident="pos"/>
     </attList>
   </elementSpec>
   
@@ -626,19 +522,6 @@
           <valItem ident="UD-SYN"/>
         </valList>
       </attDef>
-      <attDef ident="xml:id" mode="delete"/>
-      <attDef ident="xml:space" mode="delete"/>
-      <attDef ident="xml:base" mode="delete"/>
-      <attDef ident="n" mode="delete"/>
-      <attDef ident="corresp" mode="delete"/>
-      <attDef ident="synch" mode="delete"/>
-      <attDef ident="next" mode="delete"/>
-      <attDef ident="prev" mode="delete"/>
-      <attDef ident="ana" mode="delete"/>
-      <attDef ident="resp" mode="delete"/>
-      <attDef ident="source" mode="delete"/>
-      <attDef ident="target" mode="delete"/>
-      <attDef ident="subtype" mode="delete"/>
     </attList>
   </elementSpec>
   
@@ -655,18 +538,6 @@
 	  <dataRef key="teidata.pointer"/>
 	</datatype>
       </attDef>
-      <attDef ident="xml:id" mode="delete"/>
-      <attDef ident="xml:space" mode="delete"/>
-      <attDef ident="xml:base" mode="delete"/>
-      <attDef ident="n" mode="delete"/>
-      <attDef ident="corresp" mode="delete"/>
-      <attDef ident="synch" mode="delete"/>
-      <attDef ident="next" mode="delete"/>
-      <attDef ident="prev" mode="delete"/>
-      <attDef ident="resp" mode="delete"/>
-      <attDef ident="source" mode="delete"/>
-      <attDef ident="type" mode="delete"/>
-      <attDef ident="subtype" mode="delete"/>
     </attList>
   </elementSpec>
   

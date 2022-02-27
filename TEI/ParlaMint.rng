@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2022-02-27T18:56:34Z. 2022-02-21.
+Schema generated from ODD source 2022-02-27T19:24:24Z. 2022-02-21.
 TEI Edition: Version 4.4.0a. Last updated on
         19th January 2022, revision daab99ca7
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
@@ -71,22 +71,6 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
       <optional>
          <attribute name="who">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the person, or group of people, to whom the element content is ascribed.</a:documentation>
-            <list>
-               <oneOrMore>
-                  <data type="anyURI"/>
-               </oneOrMore>
-            </list>
-         </attribute>
-      </optional>
-   </define>
-   <define name="tei_att.ascribed.directed.attributes">
-      <ref name="tei_att.ascribed.attributes"/>
-      <ref name="tei_att.ascribed.directed.attribute.toWhom"/>
-   </define>
-   <define name="tei_att.ascribed.directed.attribute.toWhom">
-      <optional>
-         <attribute name="toWhom">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the person, or group of people, to whom a speech act or action is directed.</a:documentation>
             <list>
                <oneOrMore>
                   <data type="anyURI"/>
@@ -229,6 +213,7 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:eg="http://www.tei-c.org/ns/Examples"
                 xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                xmlns:pm="ParlaMint"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -242,6 +227,7 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:eg="http://www.tei-c.org/ns/Examples"
                 xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                xmlns:pm="ParlaMint"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -255,6 +241,7 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:eg="http://www.tei-c.org/ns/Examples"
                 xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                xmlns:pm="ParlaMint"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -1283,6 +1270,7 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
             <rule context="tei:p">
                <report xmlns:eg="http://www.tei-c.org/ns/Examples"
                        xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                       xmlns:pm="ParlaMint"
                        xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -1296,6 +1284,7 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
             <rule context="tei:p">
                <report xmlns:eg="http://www.tei-c.org/ns/Examples"
                        xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                       xmlns:pm="ParlaMint"
                        xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -1330,6 +1319,7 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:eg="http://www.tei-c.org/ns/Examples"
                       xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                      xmlns:pm="ParlaMint"
                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -1363,7 +1353,6 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
       <element name="gap">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(gap) indicates a point where material has been omitted in a transcription, whether for editorial reasons described in the TEI header, as part of sampling practice, or because the material is illegible, invisible, or inaudible. [3.5.3. Additions, Deletions, and Omissions]</a:documentation>
          <ref name="tei_desc"/>
-         <ref name="tei_att.global.attribute.xmllang"/>
          <ref name="tei_att.editLike.attributes"/>
          <ref name="tei_att.dimensions.attributes"/>
          <optional>
@@ -1375,15 +1364,6 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
                   <value>editorial</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                </choice>
-            </attribute>
-         </optional>
-         <optional>
-            <attribute name="agent">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(agent) in the case of text omitted because of damage, categorizes the cause of the damage, if it can be identified.
-Sample values include: 1] rubbing (rubbing); 2] mildew (mildew); 3] smoke (smoke)</a:documentation>
-               <data type="token">
-                  <param name="pattern">[^\p{C}\p{Z}]+</param>
-               </data>
             </attribute>
          </optional>
          <empty/>
@@ -1578,6 +1558,7 @@ Measures]</a:documentation>
             <rule context="tei:ref">
                <report xmlns:eg="http://www.tei-c.org/ns/Examples"
                        xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                       xmlns:pm="ParlaMint"
                        xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -1638,10 +1619,7 @@ Measures]</a:documentation>
          <ref name="tei_att.global.attribute.xmlid"/>
          <ref name="tei_att.global.attribute.n"/>
          <ref name="tei_att.global.attribute.xmllang"/>
-         <ref name="tei_att.global.responsibility.attribute.resp"/>
-         <ref name="tei_att.global.source.attribute.source"/>
          <ref name="tei_att.placement.attributes"/>
-         <ref name="tei_att.pointing.attributes"/>
          <ref name="tei_att.typed.attribute.subtype"/>
          <ref name="tei_att.written.attributes"/>
          <ref name="tei_att.anchoring.attributes"/>
@@ -1845,7 +1823,6 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
                <ref name="tei_include"/>
             </choice>
          </oneOrMore>
-         <ref name="tei_att.global.attribute.xmlbase"/>
          <attribute name="xml:id">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <data type="ID"/>
@@ -1860,14 +1837,6 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
                </choice>
             </choice>
          </attribute>
-         <optional>
-            <attribute name="version">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(version) specifies the version number of the TEI Guidelines against which this document is valid.</a:documentation>
-               <data type="token">
-                  <param name="pattern">[\d]+(\.[\d]+){0,2}</param>
-               </data>
-            </attribute>
-         </optional>
          <empty/>
       </element>
    </define>
@@ -2201,6 +2170,7 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
             <rule context="tei:quotation">
                <report xmlns:eg="http://www.tei-c.org/ns/Examples"
                        xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                       xmlns:pm="ParlaMint"
                        xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -2607,6 +2577,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          <sch:ns xmlns="http://www.tei-c.org/ns/1.0"
                  xmlns:eg="http://www.tei-c.org/ns/Examples"
                  xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                 xmlns:pm="ParlaMint"
                  xmlns:rng="http://relaxng.org/ns/structure/1.0"
                  xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -2615,6 +2586,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          <sch:ns xmlns="http://www.tei-c.org/ns/1.0"
                  xmlns:eg="http://www.tei-c.org/ns/Examples"
                  xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                 xmlns:pm="ParlaMint"
                  xmlns:rng="http://relaxng.org/ns/structure/1.0"
                  xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -2623,12 +2595,12 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          <sch:ns xmlns="http://www.tei-c.org/ns/1.0"
                  xmlns:eg="http://www.tei-c.org/ns/Examples"
                  xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                 xmlns:pm="ParlaMint"
                  xmlns:rng="http://relaxng.org/ns/structure/1.0"
                  xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                  prefix="rng"
                  uri="http://relaxng.org/ns/structure/1.0"/>
-         <ref name="tei_att.global.attribute.xmlbase"/>
          <attribute name="xml:id">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <data type="ID"/>
@@ -2661,7 +2633,6 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          <ref name="tei_att.global.attribute.xmlid"/>
          <ref name="tei_att.global.attribute.n"/>
          <ref name="tei_att.global.attribute.xmllang"/>
-         <ref name="tei_att.global.attribute.xmlbase"/>
          <ref name="tei_att.global.analytic.attribute.ana"/>
          <ref name="tei_att.global.source.attribute.source"/>
          <ref name="tei_att.declaring.attributes"/>
@@ -2675,7 +2646,6 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          <oneOrMore>
             <ref name="tei_div"/>
          </oneOrMore>
-         <ref name="tei_att.global.attribute.xmllang"/>
          <ref name="tei_att.declaring.attributes"/>
          <empty/>
       </element>
@@ -2702,6 +2672,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
             <rule context="tei:div">
                <report xmlns:eg="http://www.tei-c.org/ns/Examples"
                        xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                       xmlns:pm="ParlaMint"
                        xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -2715,6 +2686,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
             <rule context="tei:div">
                <report xmlns:eg="http://www.tei-c.org/ns/Examples"
                        xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                       xmlns:pm="ParlaMint"
                        xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -2937,7 +2909,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          <ref name="tei_att.global.attribute.xmlid"/>
          <ref name="tei_att.global.attribute.n"/>
          <ref name="tei_att.global.attribute.xmllang"/>
-         <ref name="tei_att.ascribed.directed.attributes"/>
+         <ref name="tei_att.ascribed.attribute.who"/>
          <ref name="tei_att.typed.attribute.subtype"/>
          <optional>
             <attribute name="type">
@@ -2968,22 +2940,6 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                </choice>
             </attribute>
          </optional>
-         <optional>
-            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                       name="iterated"
-                       a:defaultValue="false">
-               <a:documentation>indicates whether or not the phenomenon is repeated.</a:documentation>
-               <choice>
-                  <data type="boolean"/>
-                  <choice>
-                     <value>unknown</value>
-                     <a:documentation/>
-                     <value>inapplicable</value>
-                     <a:documentation/>
-                  </choice>
-               </choice>
-            </attribute>
-         </optional>
          <empty/>
       </element>
    </define>
@@ -2995,7 +2951,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          <ref name="tei_att.global.attribute.n"/>
          <ref name="tei_att.global.attribute.xmllang"/>
          <ref name="tei_att.typed.attribute.subtype"/>
-         <ref name="tei_att.ascribed.directed.attributes"/>
+         <ref name="tei_att.ascribed.attribute.who"/>
          <optional>
             <attribute name="type">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -3020,22 +2976,6 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                   <value>noise</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               </choice>
-            </attribute>
-         </optional>
-         <optional>
-            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                       name="iterated"
-                       a:defaultValue="false">
-               <a:documentation>indicates whether or not the phenomenon is repeated.</a:documentation>
-               <choice>
-                  <data type="boolean"/>
-                  <choice>
-                     <value>unknown</value>
-                     <a:documentation/>
-                     <value>inapplicable</value>
-                     <a:documentation/>
-                  </choice>
                </choice>
             </attribute>
          </optional>
@@ -3654,6 +3594,7 @@ Sample values include: 1] primary; 2] other; 3] paid; 4] unpaid</a:documentation
             <rule context="tei:relation">
                <assert xmlns:eg="http://www.tei-c.org/ns/Examples"
                        xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                       xmlns:pm="ParlaMint"
                        xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -3666,6 +3607,7 @@ Sample values include: 1] primary; 2] other; 3] paid; 4] unpaid</a:documentation
             <rule context="tei:relation">
                <report xmlns:eg="http://www.tei-c.org/ns/Examples"
                        xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                       xmlns:pm="ParlaMint"
                        xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -3678,6 +3620,7 @@ Sample values include: 1] primary; 2] other; 3] paid; 4] unpaid</a:documentation
             <rule context="tei:relation">
                <report xmlns:eg="http://www.tei-c.org/ns/Examples"
                        xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                       xmlns:pm="ParlaMint"
                        xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -3776,6 +3719,7 @@ Sample values include: 1] explicit; 2] implicit</a:documentation>
                <sch:assert xmlns="http://www.tei-c.org/ns/1.0"
                            xmlns:eg="http://www.tei-c.org/ns/Examples"
                            xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                           xmlns:pm="ParlaMint"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                            xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -3784,7 +3728,6 @@ Sample values include: 1] explicit; 2] implicit</a:documentation>
                </sch:assert>
             </rule>
          </pattern>
-         <ref name="tei_att.global.attribute.xmllang"/>
          <attribute name="ana">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <data type="anyURI"/>
@@ -3807,7 +3750,6 @@ Sample values include: 1] explicit; 2] implicit</a:documentation>
          <oneOrMore>
             <ref name="tei_link"/>
          </oneOrMore>
-         <ref name="tei_att.global.attribute.xmllang"/>
          <attribute name="targFunc">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <choice>
@@ -3896,6 +3838,7 @@ Sample values include: 1] explicit; 2] implicit</a:documentation>
             <rule context="tei:s">
                <report xmlns:eg="http://www.tei-c.org/ns/Examples"
                        xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                       xmlns:pm="ParlaMint"
                        xmlns:rng="http://relaxng.org/ns/structure/1.0"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -3921,7 +3864,6 @@ Sample values include: 1] explicit; 2] implicit</a:documentation>
             </choice>
          </oneOrMore>
          <ref name="tei_att.global.attribute.xmlid"/>
-         <ref name="tei_att.global.attribute.n"/>
          <ref name="tei_att.global.attribute.xmllang"/>
          <ref name="tei_att.global.analytic.attribute.ana"/>
          <ref name="tei_att.segLike.attributes"/>
@@ -3934,11 +3876,9 @@ Sample values include: 1] explicit; 2] implicit</a:documentation>
       <element name="pc">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(punctuation character) contains a character or string of characters regarded as constituting a single punctuation mark. [17.1.2. Below the Word Level 17.4.2. Lightweight Linguistic Annotation]</a:documentation>
          <text/>
-         <ref name="tei_att.global.attribute.n"/>
          <ref name="tei_att.global.attribute.xmllang"/>
          <ref name="tei_att.global.analytic.attribute.ana"/>
          <ref name="tei_att.segLike.attributes"/>
-         <ref name="tei_att.linguistic.attribute.lemma"/>
          <ref name="tei_att.linguistic.attribute.pos"/>
          <ref name="tei_att.linguistic.attribute.join"/>
          <ref name="tei_att.lexicographic.normalized.attribute.norm"/>
@@ -3950,33 +3890,6 @@ Sample values include: 1] explicit; 2] implicit</a:documentation>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <data type="string"/>
          </attribute>
-         <optional>
-            <attribute name="force">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the extent to which this punctuation mark conventionally separates words or phrases</a:documentation>
-               <choice>
-                  <value>strong</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the punctuation mark is a word separator</a:documentation>
-                  <value>weak</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the punctuation mark is not a word separator</a:documentation>
-                  <value>inter</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the punctuation mark may or may not be a word separator</a:documentation>
-               </choice>
-            </attribute>
-         </optional>
-         <optional>
-            <attribute name="unit">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides a name for the kind of unit delimited by this punctuation mark.</a:documentation>
-               <data type="token">
-                  <param name="pattern">[^\p{C}\p{Z}]+</param>
-               </data>
-            </attribute>
-         </optional>
-         <optional>
-            <attribute name="pre">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates whether this punctuation mark precedes or follows the unit it delimits.</a:documentation>
-               <data type="boolean"/>
-            </attribute>
-         </optional>
          <empty/>
       </element>
    </define>
@@ -4342,6 +4255,7 @@ Suggested values include: 1] m (metre); 2] kg (kilogram); 3] s (second); 4] Hz (
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:eg="http://www.tei-c.org/ns/Examples"
                 xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                xmlns:pm="ParlaMint"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -4483,6 +4397,7 @@ Suggested values include: 1] m (metre); 2] kg (kilogram); 3] s (second); 4] Hz (
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:eg="http://www.tei-c.org/ns/Examples"
                 xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                xmlns:pm="ParlaMint"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 xmlns:xi="http://www.w3.org/2001/XInclude"

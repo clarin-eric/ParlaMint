@@ -2,6 +2,7 @@ namespace a = "http://relaxng.org/ns/compatibility/annotations/1.0"
 namespace eg = "http://www.tei-c.org/ns/Examples"
 namespace egXML = "http://www.tei-c.org/ns/Examples"
 namespace ns1 = "http://www.w3.org/1999/xhtml"
+namespace pm = "ParlaMint"
 namespace rng = "http://relaxng.org/ns/structure/1.0"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 default namespace tei = "http://www.tei-c.org/ns/1.0"
@@ -10,7 +11,7 @@ namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 namespace xsl = "http://www.w3.org/1999/XSL/Transform"
 
-# Schema generated from ODD source 2022-02-27T18:56:40Z. 2022-02-21.
+# Schema generated from ODD source 2022-02-27T19:24:30Z. 2022-02-21.
 # TEI Edition: Version 4.4.0a. Last updated on
 #         19th January 2022, revision daab99ca7
 # TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
@@ -46,15 +47,6 @@ tei_att.ascribed.attribute.who =
   
   ## indicates the person, or group of people, to whom the element content is ascribed.
   attribute who {
-    list { xsd:anyURI+ }
-  }?
-tei_att.ascribed.directed.attributes =
-  tei_att.ascribed.attributes,
-  tei_att.ascribed.directed.attribute.toWhom
-tei_att.ascribed.directed.attribute.toWhom =
-  
-  ## indicates the person, or group of people, to whom a speech act or action is directed.
-  attribute toWhom {
     list { xsd:anyURI+ }
   }?
 tei_att.canonical.attributes =
@@ -617,7 +609,6 @@ tei_gap =
   ## (gap) indicates a point where material has been omitted in a transcription, whether for editorial reasons described in the TEI header, as part of sampling practice, or because the material is illegible, invisible, or inaudible. [3.5.3. Additions, Deletions, and Omissions]
   element gap {
     tei_desc,
-    tei_att.global.attribute.xmllang,
     tei_att.editLike.attributes,
     tei_att.dimensions.attributes,
     
@@ -629,12 +620,6 @@ tei_gap =
       | 
         ##
         "editorial"
-    }?,
-    
-    ## (agent) in the case of text omitted because of damage, categorizes the cause of the damage, if it can be identified.
-    ## Sample values include: 1] rubbing (rubbing); 2] mildew (mildew); 3] smoke (smoke)
-    attribute agent {
-      xsd:token { pattern = "[^\p{C}\p{Z}]+" }
     }?,
     empty
   }
@@ -854,10 +839,7 @@ tei_note =
     tei_att.global.attribute.xmlid,
     tei_att.global.attribute.n,
     tei_att.global.attribute.xmllang,
-    tei_att.global.responsibility.attribute.resp,
-    tei_att.global.source.attribute.source,
     tei_att.placement.attributes,
-    tei_att.pointing.attributes,
     tei_att.typed.attribute.subtype,
     tei_att.written.attributes,
     tei_att.anchoring.attributes,
@@ -1026,7 +1008,6 @@ tei_teiCorpus =
   element teiCorpus {
     tei_teiHeader,
     (tei_TEI | tei_include)+,
-    tei_att.global.attribute.xmlbase,
     
     ##
     attribute xml:id { xsd:ID },
@@ -1038,11 +1019,6 @@ tei_teiCorpus =
          ##
          "")
     },
-    
-    ## (version) specifies the version number of the TEI Guidelines against which this document is valid.
-    attribute version {
-      xsd:token { pattern = "[\d]+(\.[\d]+){0,2}" }
-    }?,
     empty
   }
 tei_teiHeader =
@@ -1616,7 +1592,6 @@ tei_TEI =
          prefix = "rng"
          uri = "http://relaxng.org/ns/structure/1.0"
        ],
-    tei_att.global.attribute.xmlbase,
     
     ##
     attribute xml:id { xsd:ID },
@@ -1643,7 +1618,6 @@ tei_text =
     tei_att.global.attribute.xmlid,
     tei_att.global.attribute.n,
     tei_att.global.attribute.xmllang,
-    tei_att.global.attribute.xmlbase,
     tei_att.global.analytic.attribute.ana,
     tei_att.global.source.attribute.source,
     tei_att.declaring.attributes,
@@ -1653,12 +1627,7 @@ tei_text =
 tei_body =
   
   ## (text body) contains the whole body of a single unitary text, excluding any front or back matter. [4. Default Text Structure]
-  element body {
-    tei_div+,
-    tei_att.global.attribute.xmllang,
-    tei_att.declaring.attributes,
-    empty
-  }
+  element body { tei_div+, tei_att.declaring.attributes, empty }
 tei_div =
   
   ## (text division) contains a subdivision of the front, body, or back of a text. [4.1. Divisions of the Body]
@@ -1843,7 +1812,7 @@ tei_vocal =
     tei_att.global.attribute.xmlid,
     tei_att.global.attribute.n,
     tei_att.global.attribute.xmllang,
-    tei_att.ascribed.directed.attributes,
+    tei_att.ascribed.attribute.who,
     tei_att.typed.attribute.subtype,
     
     ##
@@ -1882,18 +1851,6 @@ tei_vocal =
         ##
         "signal"
     }?,
-    
-    ## indicates whether or not the phenomenon is repeated.
-    [ a:defaultValue = "false" ]
-    attribute iterated {
-      xsd:boolean
-      | (
-         ##
-         "unknown"
-         | 
-           ##
-           "inapplicable")
-    }?,
     empty
   }
 tei_kinesic =
@@ -1905,7 +1862,7 @@ tei_kinesic =
     tei_att.global.attribute.n,
     tei_att.global.attribute.xmllang,
     tei_att.typed.attribute.subtype,
-    tei_att.ascribed.directed.attributes,
+    tei_att.ascribed.attribute.who,
     
     ##
     attribute type {
@@ -1939,18 +1896,6 @@ tei_kinesic =
       | 
         ##
         "noise"
-    }?,
-    
-    ## indicates whether or not the phenomenon is repeated.
-    [ a:defaultValue = "false" ]
-    attribute iterated {
-      xsd:boolean
-      | (
-         ##
-         "unknown"
-         | 
-           ##
-           "inapplicable")
     }?,
     empty
   }
@@ -2480,7 +2425,6 @@ tei_link =
          "\x{a}" ~
          "         "
        ],
-    tei_att.global.attribute.xmllang,
     
     ##
     attribute ana { xsd:anyURI },
@@ -2496,7 +2440,6 @@ tei_linkGrp =
   ## (link group) defines a collection of associations or hypertextual links. [16.1. Links]
   element linkGrp {
     tei_link+,
-    tei_att.global.attribute.xmllang,
     
     ##
     attribute targFunc {
@@ -2595,7 +2538,6 @@ tei_w =
   element w {
     (text | tei_w)+,
     tei_att.global.attribute.xmlid,
-    tei_att.global.attribute.n,
     tei_att.global.attribute.xmllang,
     tei_att.global.analytic.attribute.ana,
     tei_att.segLike.attributes,
@@ -2608,11 +2550,9 @@ tei_pc =
   ## (punctuation character) contains a character or string of characters regarded as constituting a single punctuation mark. [17.1.2. Below the Word Level 17.4.2. Lightweight Linguistic Annotation]
   element pc {
     text,
-    tei_att.global.attribute.n,
     tei_att.global.attribute.xmllang,
     tei_att.global.analytic.attribute.ana,
     tei_att.segLike.attributes,
-    tei_att.linguistic.attribute.lemma,
     tei_att.linguistic.attribute.pos,
     tei_att.linguistic.attribute.join,
     tei_att.lexicographic.normalized.attribute.norm,
@@ -2622,27 +2562,6 @@ tei_pc =
     
     ##
     attribute msd { xsd:string },
-    
-    ## indicates the extent to which this punctuation mark conventionally separates words or phrases
-    attribute force {
-      
-      ## the punctuation mark is a word separator
-      "strong"
-      | 
-        ## the punctuation mark is not a word separator
-        "weak"
-      | 
-        ## the punctuation mark may or may not be a word separator
-        "inter"
-    }?,
-    
-    ## provides a name for the kind of unit delimited by this punctuation mark.
-    attribute unit {
-      xsd:token { pattern = "[^\p{C}\p{Z}]+" }
-    }?,
-    
-    ## indicates whether this punctuation mark precedes or follows the unit it delimits.
-    attribute pre { xsd:boolean }?,
     empty
   }
 tei_att.anchoring.attributes = empty
