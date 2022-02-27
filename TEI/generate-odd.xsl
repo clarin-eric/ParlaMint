@@ -15,6 +15,7 @@
 
   <!-- print WARNING when exclude is used !!! -->
 
+  <xsl:template match="tei:classRef[@include='']" />
 
   <xsl:template match="tei:attList[ancestor::tei:elementSpec[@ident]]">
     <xsl:copy>
@@ -64,7 +65,7 @@
       <!-- check attributes -->
       <xsl:for-each select="./tei:attList/tei:attDef/@ident | ./tei:attList/tei:attRef/@name">
         <xsl:variable name="attr" select="." />
-        <xsl:if test="contains($all_included_attrs, concat(' ',$attr,' '))">
+        <!--<xsl:if test="contains($all_included_attrs, concat(' ',$attr,' '))">-->
           <xsl:if test="not($list//tei:attDef[@ident=$attr] | $list//tei:attRef[@name=$attr] | $list//pm:attPreserve[@ident=$attr])">
             <xsl:message>REMOVING <xsl:value-of select="$elem"/>/@<xsl:value-of select="$attr"/></xsl:message>
             <xsl:element namespace="http://www.tei-c.org/ns/1.0" name="attDef">
@@ -72,7 +73,7 @@
               <xsl:attribute name="mode" select="'delete'"/>
             </xsl:element>
           </xsl:if>
-        </xsl:if>
+        <!--</xsl:if>-->
         <!-- otestovat, jestli je to zároveň definováno v classRef/@include (promenná ) a není to v list -->
       </xsl:for-each>
       <xsl:for-each select="./tei:classes/tei:memberOf[@key]">
