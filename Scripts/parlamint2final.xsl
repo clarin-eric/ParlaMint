@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- Finalize the encoding of a ParlaMint corpus -->
+<!-- Finalize the encoding of a ParlaMint corpus (Source language version) -->
 <!-- Takes root file as input, and outputs it and all finalized component files to outDir:
      - set release date to today
      - set version and handles for 2.1

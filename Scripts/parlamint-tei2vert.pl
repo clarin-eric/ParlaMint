@@ -31,10 +31,10 @@ while (<IN>) {
 }
 close IN;
 foreach $inFile (@inFiles) {
-    if (($fName) = $inFile =~ m|(ParlaMint-.._[^/]+)\.ana\.xml|) {
+    if (($fName) = $inFile =~ m|(ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?_[^/]+)\.ana\.xml|) {
 	print STDERR "INFO: Converting $fName\n";
     }
-    elsif (($fName) = $inFile =~ m|(ParlaMint-.._[^/]+)\.xml|) {
+    elsif (($fName) = $inFile =~ m|(ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?_[^/]+)\.xml|) {
 	print STDERR "INFO: Debug conversion of $fName\n";
     }
     else {die "Weird input file $inFile\n"}
