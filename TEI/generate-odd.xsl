@@ -28,6 +28,7 @@
           <xsl:message>SKIPPING attribute modification: <xsl:value-of select="$elem"/></xsl:message>
         </xsl:when>
       <xsl:otherwise>
+        <xsl:apply-templates select="pm:attPreserve" />
         <xsl:call-template name="attributes-to-delete">
           <xsl:with-param name="elem" select="$elem"/>
           <xsl:with-param name="ident" select="$elem"/>
@@ -36,6 +37,10 @@
         </xsl:otherwise>
       </xsl:choose>
     </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="pm:attPreserve">
+    <xsl:comment><xsl:value-of select="./ancestor::tei:elementSpec[@ident][1]/@ident"/>/@<xsl:value-of select="./@ident"/></xsl:comment>
   </xsl:template>
 
   <xsl:template match="tei:* | eg:*">
