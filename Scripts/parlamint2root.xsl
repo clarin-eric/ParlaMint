@@ -9,14 +9,16 @@
   exclude-result-prefixes="#all"
   version="2.0">
 
+  <!-- Directory relative to location of this script, where the ParlaMint corpora are found -->
+  <xsl:param name="base">../Data</xsl:param>
+  
   <xsl:variable name="today" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
   <xsl:output method="xml" indent="yes"/>
   
   <xsl:variable name="docs">
     <xsl:for-each select="//xi:include">
-      <!-- We need "../" as the this XSLT is in Scripts! -->
       <item>
-	<xsl:value-of select="concat('../', @href)"/>
+	<xsl:value-of select="concat($base, '/', @href)"/>
       </item>
     </xsl:for-each>
   </xsl:variable>
