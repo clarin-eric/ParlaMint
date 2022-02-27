@@ -2525,18 +2525,10 @@
 	  (in RelaxNG compact syntax). This schema should be used to check that ParlaMint
 	  component files validate against TEI.</p>
   
-	  <p>However, the TEI ParlaMint schema has two drawbacks in using it for ParlaMint
-	  validation. First, while the component corpus files can most likely be validated with
-	  it, the root file can only be validated by first XIncluding all the component files in
-	  the root in order to get a complete <gi>teiCorpus</gi> rooted XML document. But a
-	  typical ParlaMint corpus will be too large to perform this kind of validation, so it is
-	  not possible to validate the complete corpus; such validation can, however, be
-	  performed on the much smaller sample corpora as available in the GitHub repository of
-	  the project. Secondly, it is difficult to constrain a TEI ODD-derived XML schema to
-	  allow only the kinds of nestings and attributes that should appear in a ParlaMint
-	  corpus, so this schema allows (and lists <ref target="#schema">Appendix A</ref>)
-	  nesting of elements, as well as attributes that are in fact forbidden in ParlaMint
-	  corpora.</p>
+	  <p>However, it is difficult to constrain a TEI ODD-derived XML schema to allow only the
+	  kinds of nestings and attributes that should appear in a ParlaMint corpus, so this
+	  schema allows (and lists <ref target="#schema">Appendix A</ref>) nesting of elements,
+	  as well as attributes that are in fact forbidden in ParlaMint corpora.</p>
 	  
 	  <p>For this reason, we have also developed a set of RelaxNG schemas from scratch, which
 	  do allow only those elements, attributes and content models that are in fact valid for
@@ -2544,8 +2536,9 @@
 	  corpus root, one for its corpus components, one for the linguistically annotated corpus
 	  root, and one for its components. These schemas can be found in the <ref
 	  target="https://github.com/clarin-eric/ParlaMint/tree/main/Schema">Schema/
-	  directory</ref> of the ParlaMint GitHub repository, with the README file giving
-	  instructions on how to use them.</p>
+	  directory</ref> of the ParlaMint GitHub repository, with the
+	  <ref target="https://github.com/clarin-eric/ParlaMint/blob/main/Schema/README.md">README</ref>
+	  file giving instructions on how to use them.</p>
 
 	  <p>Validating with XML schemas checks the formal structure of XML files but is less
 	  successful in validating other aspects of conformance, such as the textual content or
@@ -2553,8 +2546,9 @@
 	  that assumes a schema-validated ParlaMint file on its input, and checks various other
 	  aspects of conformance. These validation scripts can be found in the <ref
 	  target="https://github.com/clarin-eric/ParlaMint/tree/main/Scripts">Scripts/
-	  directory</ref> of the ParlaMint GitHub repository, with the README file listing
-	  them.</p>
+	  directory</ref> of the ParlaMint GitHub repository, with the <ref
+	  target="https://github.com/clarin-eric/ParlaMint/blob/main/Scripts/README.md">README</ref>
+	  file listing them.</p>
 
 	  <p>While each contributor of a corpus should validate their files with the ParlaMint
 	  schemas and validation script, there also exist further stages of validation, which are
@@ -2592,7 +2586,9 @@
 
 	  The script for finalisation can be found in the <ref
 	  target="https://github.com/clarin-eric/ParlaMint/tree/main/Scripts">Scripts/
-	  directory</ref> of the ParlaMint GitHub repository and the README file briefly explains
+	  directory</ref> of the ParlaMint GitHub repository and the
+	  <ref target="https://github.com/clarin-eric/ParlaMint/blob/main/Scripts/README.md">README</ref>
+	  file briefly explains
 	  its function; more comments can be found in the script itself.
 	  <!-- The README there does not in fact mention finalisation, needs updating -->
 	  <!-- This script is for V2.1, it has to be updated for 3.0 -->
@@ -2607,7 +2603,9 @@
           has produced various scripts to down-convert the XML encoded corpora to other formats
           and they can be found in the <ref
           target="https://github.com/clarin-eric/ParlaMint/tree/main/Scripts">Scripts/
-          directory</ref> of the ParlaMint GitHub repository, with the README file listing them
+          directory</ref> of the ParlaMint GitHub repository, with the
+	  <ref target="https://github.com/clarin-eric/ParlaMint/blob/main/Scripts/README.md">README</ref>
+	  file listing them
           and explaining their function. In short, the scripts convert the ParlaMint XML to plain
           text, to CoNLL-U, and to vertical format. There is also a script that takes a ParlaMint
           corpus and makes from it a sample for inclusion to the <ref

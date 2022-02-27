@@ -1,7 +1,6 @@
 #!/usr/bin/perl
-# Validate the samples with the ParlaMint ODD derived schema
-# Tomaž Erjavec <tomaz.erjavec@ijs.si>
-# License: GNU GPL
+# Validate ParlaMint corpora (either samples or complete corpora)
+# with the ParlaMint ODD derived schema
 
 use warnings;
 use utf8;
