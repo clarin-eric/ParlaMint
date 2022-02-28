@@ -431,7 +431,17 @@
       <pm:attPreserve ident="n"/>
     </attList>
   </elementSpec>
-  
+
+  <elementSpec ident="pb" module="core" mode="change">
+    <content>
+    </content>
+    <attList>
+      <pm:attPreserve ident="xml:id"/>
+      <pm:attPreserve ident="n"/>
+      <pm:attPreserve ident="source"/>
+      <pm:attPreserve ident="corresp"/>
+    </attList>
+  </elementSpec>
   <!-- Linguistic elements for ParlaMint.ana -->
   
   <elementSpec ident="s" module="analysis" mode="change">
@@ -563,7 +573,7 @@
       </alternate>
     </content>
     <!-- Redefine type values, 
-	 remove all other attributes except xml:id, xml:lang, ana, full, subtype  -->
+	 remove all other attributes except xml:id, xml:lang, ana, key, full, subtype   -->
     <attList>
       <attDef ident="type" mode="replace" usage="opt">
         <valList type="closed">
@@ -574,7 +584,7 @@
 
 	  <!-- Values used in the teiHeader: -->
 	  <valItem ident="city"/>
-	  <valItem ident="country"/>
+	  <valItem ident="country"/> <!-- used together with @key="CODE" -->
 	  <!-- Used by BG, arguably wrong: 
                <name type="address">Parliament square</name>
 	  -->
@@ -589,21 +599,12 @@
 	  <valItem ident="place"/>
 	</valList>
       </attDef>
-      <attDef ident="xml:space" mode="delete"/>
-      <attDef ident="xml:base" mode="delete"/>
-      <attDef ident="corresp" mode="delete"/>
-      <attDef ident="synch" mode="delete"/>
-      <attDef ident="next" mode="delete"/>
-      <attDef ident="prev" mode="delete"/>
-      <attDef ident="resp" mode="delete"/>
-      <attDef ident="source" mode="delete"/>
-      <attDef ident="role" mode="delete"/>
-      <attDef ident="ref" mode="delete"/>
-      <attDef ident="when" mode="delete"/>
-      <attDef ident="from" mode="delete"/>
-      <attDef ident="to" mode="delete"/>
-      <attDef ident="notBefore" mode="delete"/>
-      <attDef ident="notAfter" mode="delete"/>
+      <pm:attPreserve ident="xml:id"/>
+      <pm:attPreserve ident="xml:lang"/>
+      <pm:attPreserve ident="ana"/>
+      <pm:attPreserve ident="key"/>
+      <pm:attPreserve ident="full"/>
+      <pm:attPreserve ident="subtype"/>
     </attList>
   </elementSpec>
   
@@ -617,38 +618,314 @@
     </content>
     <!-- Remove all attributes except xml:id, xml:lang, ana, type, subtype -->
     <attList>
-      <attDef ident="xml:space" mode="delete"/>
-      <attDef ident="xml:base" mode="delete"/>
-      <attDef ident="corresp" mode="delete"/>
-      <attDef ident="synch" mode="delete"/>
-      <attDef ident="next" mode="delete"/>
-      <attDef ident="prev" mode="delete"/>
-      <attDef ident="resp" mode="delete"/>
-      <attDef ident="source" mode="delete"/>
+      <pm:attPreserve ident="xml:id"/>
+      <pm:attPreserve ident="xml:lang"/>
+      <pm:attPreserve ident="ana"/>
+      <pm:attPreserve ident="type"/>
+      <pm:attPreserve ident="subtype"/>
     </attList>
   </elementSpec>
 
-  <!-- To Do:
-  Appears both in TEI heder and in .ana body for CZ
   <elementSpec ident="date" module="core" mode="change">
     <content>
+      <alternate minOccurs="1" maxOccurs="unbounded">
+        <elementRef key="w"/>
+        <elementRef key="pc"/>
+        <elementRef key="date"/>
+        <textNode/>
+      </alternate>
     </content>
+    <!-- Remove all attributes except xml:id, xml:lang, ana, type, subtype -->
+    <attList>
+      <pm:attPreserve ident="xml:id"/>
+      <pm:attPreserve ident="xml:lang"/>
+      <pm:attPreserve ident="ana"/>
+      <pm:attPreserve ident="type"/>
+      <pm:attPreserve ident="subtype"/>
+      <pm:attPreserve ident="when"/>
+      <pm:attPreserve ident="to"/>
+      <pm:attPreserve ident="from"/>
+    </attList>
+  </elementSpec>
+  <elementSpec ident="time" module="core" mode="change">
+    <content>
+      <alternate minOccurs="1" maxOccurs="unbounded">
+        <elementRef key="w"/>
+        <elementRef key="pc"/>
+        <textNode/>
+      </alternate>
+    </content>
+    <!-- Remove all attributes except xml:id, xml:lang, ana, type, subtype -->
+    <attList>
+      <pm:attPreserve ident="xml:id"/>
+      <pm:attPreserve ident="xml:lang"/>
+      <pm:attPreserve ident="ana"/>
+      <pm:attPreserve ident="type"/>
+      <pm:attPreserve ident="subtype"/>
+      <pm:attPreserve ident="when"/>
+      <pm:attPreserve ident="to"/>
+      <pm:attPreserve ident="from"/>
+    </attList>
   </elementSpec>
 
-    <elementSpec ident="time" module="core" mode="change">
-      <content>
-      </content>
-    </elementSpec>
+  <elementSpec ident="email" module="core" mode="change">
+    <content>
+      <alternate minOccurs="1" maxOccurs="unbounded">
+        <elementRef key="w"/>
+        <elementRef key="pc"/>
+        <textNode/>
+      </alternate>
+    </content>
+    <!-- Remove all attributes except xml:id, xml:lang, ana, type, subtype -->
+    <attList>
+      <pm:attPreserve ident="xml:id"/>
+      <pm:attPreserve ident="xml:lang"/>
+      <pm:attPreserve ident="ana"/>
+      <pm:attPreserve ident="type"/>
+      <pm:attPreserve ident="subtype"/>
+      <pm:attPreserve ident="when"/>
+      <pm:attPreserve ident="to"/>
+      <pm:attPreserve ident="from"/>
+    </attList>
+  </elementSpec>
 
-    <elementSpec ident="bibl" module="core" mode="change">
-      <content>
-      </content>
-    </elementSpec>
 
-    <elementSpec ident="email" module="core" mode="change">
-      <content>
-      </content>
-    </elementSpec>
+
+  <!-- teiHeader (in DFS order) -->
+  <elementSpec ident="teiHeader" module="header" mode="change">
+    <content>
+      <elementRef key="fileDesc"/>
+      <elementRef key="encodingDesc"/>
+      <elementRef key="profileDesc"/>
+      <elementRef key="revisionDesc" minOccurs="0" maxOccurs="1"/>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="fileDesc" module="header" mode="change">
+    <content>
+      <elementRef key="titleStmt"/>
+      <elementRef key="editionStmt"/>
+      <elementRef key="extent"/>
+      <elementRef key="publicationStmt"/>
+      <elementRef key="sourceDesc"/>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="titleStmt" module="header" mode="change">
+    <content>
+      <elementRef key="title" minOccurs="1" maxOccurs="unbounded"/>
+      <elementRef key="meeting" minOccurs="1" maxOccurs="unbounded"/>
+      <!-- LV: missing respStmt in component files -->
+      <elementRef key="respStmt" minOccurs="0" maxOccurs="unbounded"/>
+      <!-- GB, LV: missing funder in component files  -->
+      <elementRef key="funder" minOccurs="0" maxOccurs="unbounded"/>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="title" module="core" mode="change">
+    <content>
+      <textNode/>
+    </content>
+    <attList>
+      <attDef ident="type" mode="replace" usage="rec">
+        <!-- obligatory in titleStmt, optional in text-->
+        <valList type="closed">
+          <valItem ident="main"/>
+          <valItem ident="sub"/>
+        </valList>
+        <remarks xml:lang="en"><p>Attribute is required in <gi>titleStmt</gi> context.</p></remarks>      </attDef>
+      <pm:attPreserve ident="xml:lang"/>
+    </attList>
+  </elementSpec>
+
+  <elementSpec ident="meeting" module="core" mode="change">
+    <content>
+      <textNode/>
+    </content>
+    <attList>
+      <pm:attPreserve ident="xml:lang"/>
+      <pm:attPreserve ident="corresp"/>
+      <pm:attPreserve ident="ana"/>
+      <pm:attPreserve ident="n"/>
+    </attList>
+  </elementSpec>
+
+  <elementSpec ident="respStmt" module="core" mode="change">
+    <content>
+      <elementRef key="persName" minOccurs="1" maxOccurs="unbounded"/>
+      <elementRef key="resp" minOccurs="1" maxOccurs="unbounded"/>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="persName" module="namesdates" mode="change">
+    <content>
+      <alternate minOccurs="1" maxOccurs="1">
+        <alternate minOccurs="1" maxOccurs="unbounded">
+          <!-- in personList -->
+          <elementRef key="forename" minOccurs="1" maxOccurs="unbounded"/>
+          <elementRef key="addName" minOccurs="0" maxOccurs="unbounded"/>
+          <elementRef key="nameLink" minOccurs="0" maxOccurs="1"/>
+          <elementRef key="roleName" minOccurs="0" maxOccurs="unbounded"/>
+          <elementRef key="surname" minOccurs="1" maxOccurs="unbounded"/>
+        </alternate>
+        <alternate minOccurs="1" maxOccurs="unbounded">
+          <elementRef key="term"/>
+        </alternate>
+        <alternate minOccurs="1" maxOccurs="1">
+          <textNode/>
+        </alternate>
+      </alternate>
+    </content>
+    <attList>
+      <pm:attPreserve ident="xml:lang"/>
+      <pm:attPreserve ident="ref"/>
+    </attList>
+    <remarks xml:lang="en">
+      <p>Special persons (like '<val>anonymous</val>', '<val>group</val>' etc.)
+         have their name in <gi>term</gi>.
+      </p>
+    </remarks>
+  </elementSpec>
+
+  <elementSpec ident="funder" module="header" mode="change">
+    <content>
+      <elementRef key="orgName" minOccurs="1" maxOccurs="unbounded"/>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="orgName" module="namesdates" mode="change">
+    <content>
+      <textNode/>
+    </content>
+    <attList>
+      <attDef ident="full" mode="replace" usage="opt">
+        <valList type="closed">
+          <valItem ident="yes"/>
+          <valItem ident="init"/>
+        </valList>
+      </attDef>
+      <attDef ident="from" mode="change" usage="opt">
+        <remarks xml:lang="en"><p>Used when "the same" party changes its name</p></remarks>
+      </attDef>
+      <attDef ident="to" mode="change" usage="opt">
+        <remarks xml:lang="en"><p>Used when "the same" party changes its name</p></remarks>
+      </attDef>
+      <pm:attPreserve ident="xml:lang"/>
+      <pm:attPreserve ident="ref"/>
+    </attList>
+  </elementSpec>
+
+  <elementSpec ident="editionStmt" module="header" mode="change">
+    <content>
+      <elementRef key="edition" minOccurs="1" maxOccurs="1"/>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="edition" module="header" mode="change">
+    <content>
+      <textNode/>
+    </content>
+    <attList>
+      <pm:attPreserve ident="xml:lang"/>
+    </attList>
+  </elementSpec>
+
+  <elementSpec ident="extent" module="header" mode="change">
+    <content>
+      <elementRef key="measure"  minOccurs="1" maxOccurs="unbounded"/>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="measure" module="core" mode="change">
+    <content>
+      <textNode/>
+    </content>
+    <attList>
+      <attDef ident="unit" mode="replace" usage="req">
+        <valList type="closed">
+          <valItem ident="speeches"/>
+          <valItem ident="words"/>
+          <valItem ident="tokens">
+            <desc xml:lang="en">optional value</desc>
+          </valItem>
+        </valList>
+      </attDef>
+      <attDef ident="quantity" mode="change" usage="req"/>
+      <pm:attPreserve ident="xml:lang" />
+    </attList>
+  </elementSpec>
+
+  <elementSpec ident="publicationStmt" module="header" mode="change">
+    <content>
+      <elementRef key="publisher"/>
+      <elementRef key="idno"/>
+      <elementRef key="pubPlace" minOccurs="0" maxOccurs="1"/>
+      <elementRef key="availability"/>
+      <elementRef key="date"/>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="publisher" module="core" mode="change">
+    <content>
+      <alternate minOccurs="1" maxOccurs="1">
+        <sequence>
+          <elementRef key="orgName" minOccurs="1" maxOccurs="unbounded"/>
+          <elementRef key="ref" minOccurs="0" maxOccurs="1"/>
+        </sequence>
+        <textNode/>
+      </alternate>
+    </content>
+    <attList>
+      <pm:attPreserve ident="xml:lang"/>
+    </attList>
+  </elementSpec>
+
+  <elementSpec ident="idno" module="header" mode="change">
+    <content>
+      <textNode/>
+    </content>
+    <attList>
+      <attDef ident="type" mode="change" usage="req"/>
+      <attDef ident="subtype" mode="replace" usage="rec">
+        <valList type="semi">
+          <valItem ident="facebook"/>
+          <valItem ident="twitter"/>
+          <valItem ident="wikipedia"/>
+          <valItem ident="wikimedia"/>
+          <valItem ident="wikidata"/>
+        </valList>
+        <remarks xml:lang="en"><p>sample values recomended to use with <att>type</att>="<val>URI</val>"</p></remarks>
+      </attDef>
+      <pm:attPreserve ident="xml:lang"/>
+    </attList>
+  </elementSpec>
+
+  <elementSpec ident="bibl" module="core" mode="change">
+    <content>
+      <elementRef key="title" minOccurs="1" maxOccurs="unbounded"/>
+      <alternate minOccurs="1" maxOccurs="unbounded">
+        <elementRef key="edition" minOccurs="0" maxOccurs="1"/>
+        <elementRef key="publisher" minOccurs="0" maxOccurs="1"/>
+        <elementRef key="idno" minOccurs="0" maxOccurs="unbounded"/>
+        <elementRef key="date" minOccurs="1" maxOccurs="1"/>
+      </alternate>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+
+
+  <!-- To Do:
+  Appears both in TEI heder and in .ana body for CZ
+
 
     <elementSpec ident="graphic" module="core" mode="change">
       <content>
@@ -665,20 +942,14 @@
       </content>
     </elementSpec>
 
-    <elementSpec ident="measure" module="core" mode="change">
-      <content>
-      </content>
-    </elementSpec>
+
 
     <elementSpec ident="media" module="core" mode="change">
       <content>
       </content>
     </elementSpec>
 
-    <elementSpec ident="meeting" module="core" mode="change">
-      <content>
-      </content>
-    </elementSpec>
+
 
     <elementSpec ident="p" module="core" mode="change">
       <content>
@@ -695,10 +966,7 @@
       </content>
     </elementSpec>
 
-    <elementSpec ident="publisher" module="core" mode="change">
-      <content>
-      </content>
-    </elementSpec>
+
 
     <elementSpec ident="ref" module="core" mode="change">
       <content>
@@ -710,20 +978,13 @@
       </content>
     </elementSpec>
 
-    <elementSpec ident="respStmt" module="core" mode="change">
-      <content>
-      </content>
-    </elementSpec>
+
 
     <elementSpec ident="term" module="core" mode="change">
       <content>
       </content>
     </elementSpec>
 
-    <elementSpec ident="title" module="core" mode="change">
-      <content>
-      </content>
-    </elementSpec>
 
     <elementSpec ident="unit" module="core" mode="change">
       <content>
@@ -775,15 +1036,7 @@
       </content>
     </elementSpec>
 
-    <elementSpec ident="edition" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
 
-    <elementSpec ident="editionStmt" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
 
     <elementSpec ident="editorialDecl" module="header" mode="change">
       <content>
@@ -795,30 +1048,17 @@
       </content>
     </elementSpec>
 
-    <elementSpec ident="extent" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
 
-    <elementSpec ident="fileDesc" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
 
-    <elementSpec ident="funder" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
+
+
+
 
     <elementSpec ident="hyphenation" module="header" mode="change">
       <content>
       </content>
     </elementSpec>
 
-    <elementSpec ident="idno" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
 
     <elementSpec ident="langUsage" module="header" mode="change">
       <content>
@@ -865,10 +1105,7 @@
       </content>
     </elementSpec>
 
-    <elementSpec ident="publicationStmt" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
+
 
     <elementSpec ident="quotation" module="header" mode="change">
       <content>
@@ -905,20 +1142,13 @@
       </content>
     </elementSpec>
 
-    <elementSpec ident="teiHeader" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
 
     <elementSpec ident="textClass" module="header" mode="change">
       <content>
       </content>
     </elementSpec>
 
-    <elementSpec ident="titleStmt" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
+
 
     <elementSpec ident="particDesc" module="corpus" mode="change">
       <content>
@@ -1020,15 +1250,9 @@
       </content>
     </elementSpec>
 
-    <elementSpec ident="orgName" module="namesdates" mode="change">
-      <content>
-      </content>
-    </elementSpec>
 
-    <elementSpec ident="persName" module="namesdates" mode="change">
-      <content>
-      </content>
-    </elementSpec>
+
+
 
     <elementSpec ident="person" module="namesdates" mode="change">
       <content>

@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2022-02-27T19:24:24Z. 2022-02-21.
+Schema generated from ODD source 2022-02-28T13:40:13Z. 2022-02-21.
 TEI Edition: Version 4.4.0a. Last updated on
         19th January 2022, revision daab99ca7
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
@@ -103,16 +103,177 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
          </attribute>
       </optional>
    </define>
-   <define name="tei_att.breaking.attributes">
-      <ref name="tei_att.breaking.attribute.break"/>
+   <define name="tei_att.ranging.attributes">
+      <ref name="tei_att.ranging.attribute.atLeast"/>
+      <ref name="tei_att.ranging.attribute.atMost"/>
+      <ref name="tei_att.ranging.attribute.min"/>
+      <ref name="tei_att.ranging.attribute.max"/>
+      <ref name="tei_att.ranging.attribute.confidence"/>
    </define>
-   <define name="tei_att.breaking.attribute.break">
+   <define name="tei_att.ranging.attribute.atLeast">
       <optional>
-         <attribute name="break">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates whether or not the element bearing this attribute should be considered to mark the end of an orthographic token in the same way as whitespace.</a:documentation>
+         <attribute name="atLeast">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">gives a minimum estimated value for the approximate measurement.</a:documentation>
+            <choice>
+               <data type="double"/>
+               <data type="token">
+                  <param name="pattern">(\-?[\d]+/\-?[\d]+)</param>
+               </data>
+               <data type="decimal"/>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.ranging.attribute.atMost">
+      <optional>
+         <attribute name="atMost">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">gives a maximum estimated value for the approximate measurement.</a:documentation>
+            <choice>
+               <data type="double"/>
+               <data type="token">
+                  <param name="pattern">(\-?[\d]+/\-?[\d]+)</param>
+               </data>
+               <data type="decimal"/>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.ranging.attribute.min">
+      <optional>
+         <attribute name="min">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">where the measurement summarizes more than one observation or a range, supplies the minimum value observed.</a:documentation>
+            <choice>
+               <data type="double"/>
+               <data type="token">
+                  <param name="pattern">(\-?[\d]+/\-?[\d]+)</param>
+               </data>
+               <data type="decimal"/>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.ranging.attribute.max">
+      <optional>
+         <attribute name="max">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">where the measurement summarizes more than one observation or a range, supplies the maximum value observed.</a:documentation>
+            <choice>
+               <data type="double"/>
+               <data type="token">
+                  <param name="pattern">(\-?[\d]+/\-?[\d]+)</param>
+               </data>
+               <data type="decimal"/>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.ranging.attribute.confidence">
+      <optional>
+         <attribute name="confidence">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the degree of statistical confidence (between zero and one) that a value falls within the range specified by <code xmlns="http://www.w3.org/1999/xhtml">@min</code> and <code xmlns="http://www.w3.org/1999/xhtml">@max</code>, or the proportion of observed values that fall within that range.</a:documentation>
+            <data type="double"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.dimensions.attributes">
+      <ref name="tei_att.ranging.attributes"/>
+      <ref name="tei_att.dimensions.attribute.unit"/>
+      <ref name="tei_att.dimensions.attribute.quantity"/>
+      <ref name="tei_att.dimensions.attribute.extent"/>
+      <ref name="tei_att.dimensions.attribute.precision"/>
+      <ref name="tei_att.dimensions.attribute.scope"/>
+   </define>
+   <define name="tei_att.dimensions.attribute.unit">
+      <optional>
+         <attribute name="unit">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">names the unit used for the measurement
+Suggested values include: 1] cm (centimetres); 2] mm (millimetres); 3] in (inches); 4] line; 5] char (characters)</a:documentation>
+            <choice>
+               <value>cm</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(centimetres) </a:documentation>
+               <value>mm</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(millimetres) </a:documentation>
+               <value>in</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(inches) </a:documentation>
+               <value>line</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">lines of text</a:documentation>
+               <value>char</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(characters) characters of text</a:documentation>
+               <data type="token">
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
+               </data>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.dimensions.attribute.quantity">
+      <optional>
+         <attribute name="quantity">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the length in the units specified</a:documentation>
+            <choice>
+               <data type="double"/>
+               <data type="token">
+                  <param name="pattern">(\-?[\d]+/\-?[\d]+)</param>
+               </data>
+               <data type="decimal"/>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.dimensions.attribute.extent">
+      <optional>
+         <attribute name="extent">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the size of the object concerned using a project-specific vocabulary combining quantity and units in a single string of words.</a:documentation>
+            <data type="string"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.dimensions.attribute.precision">
+      <optional>
+         <attribute name="precision">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the precision of the values specified by the other attributes.</a:documentation>
+            <choice>
+               <value>high</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>medium</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>low</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>unknown</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.dimensions.attribute.scope">
+      <optional>
+         <attribute name="scope">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">where the measurement summarizes more than one observation, specifies the applicability of this measurement.
+Sample values include: 1] all; 2] most; 3] range</a:documentation>
             <data type="token">
                <param name="pattern">[^\p{C}\p{Z}]+</param>
             </data>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.written.attributes">
+      <ref name="tei_att.written.attribute.hand"/>
+   </define>
+   <define name="tei_att.written.attribute.hand">
+      <optional>
+         <attribute name="hand">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to a <code xmlns="http://www.w3.org/1999/xhtml">&lt;handNote&gt;</code> element describing the hand considered responsible for the content of the element concerned.</a:documentation>
+            <data type="anyURI"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.cReferencing.attributes">
+      <ref name="tei_att.cReferencing.attribute.cRef"/>
+   </define>
+   <define name="tei_att.cReferencing.attribute.cRef">
+      <optional>
+         <attribute name="cRef">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(canonical reference) specifies the destination of the pointer by supplying a canonical reference expressed using the scheme defined in a <code xmlns="http://www.w3.org/1999/xhtml">&lt;refsDecl&gt;</code> element in the TEI header</a:documentation>
+            <data type="string"/>
          </attribute>
       </optional>
    </define>
@@ -250,6 +411,150 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
          <sch:report test="@notAfter" role="nonfatal">The @to and @notAfter attributes cannot be used together.</sch:report>
       </sch:rule>
    </pattern>
+   <define name="tei_att.datable.attributes">
+      <ref name="tei_att.datable.w3c.attributes"/>
+      <ref name="tei_att.datable.iso.attributes"/>
+      <ref name="tei_att.datable.custom.attributes"/>
+      <ref name="tei_att.datable.attribute.calendar"/>
+      <ref name="tei_att.datable.attribute.period"/>
+   </define>
+   <define name="tei_att.datable.attribute.calendar">
+      <optional>
+         <attribute name="calendar">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates one or more systems or calendars to which the date represented by the content of this element belongs.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI"/>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="parlamint-att.datable-calendar-calendar-constraint-rule-4">
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:eg="http://www.tei-c.org/ns/Examples"
+                xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                xmlns:pm="ParlaMint"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:xi="http://www.w3.org/2001/XInclude"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                context="tei:*[@calendar]">
+         <sch:assert test="string-length(.) gt 0"> @calendar indicates one or more systems or calendars to
+              which the date represented by the content of this element belongs, but this
+              <sch:name/> element has no textual content.</sch:assert>
+      </sch:rule>
+   </pattern>
+   <define name="tei_att.datable.attribute.period">
+      <optional>
+         <attribute name="period">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies pointers to one or more definitions of named periods of time (typically <code xmlns="http://www.w3.org/1999/xhtml">&lt;category&gt;</code>s or <code xmlns="http://www.w3.org/1999/xhtml">&lt;calendar&gt;</code>s) within which the datable item is understood to have occurred.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI"/>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.datcat.attribute.datcat">
+      <optional>
+         <attribute name="datcat" ns="http://www.isocat.org/ns/dcr">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a PID (persistent identifier) that aligns the given element with the appropriate Data Category (or categories) in ISOcat.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI"/>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.datcat.attribute.valueDatcat">
+      <optional>
+         <attribute name="valueDatcat" ns="http://www.isocat.org/ns/dcr">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a PID (persistent identifier) that aligns the content of the given element or the value of the given attribute with the appropriate simple Data Category (or categories) in ISOcat.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI"/>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.declarable.attributes">
+      <ref name="tei_att.declarable.attribute.default"/>
+   </define>
+   <define name="tei_att.declarable.attribute.default">
+      <optional>
+         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                    name="default"
+                    a:defaultValue="false">
+            <a:documentation>indicates whether or not this element is selected by default when its parent is selected.</a:documentation>
+            <choice>
+               <value>true</value>
+               <a:documentation>This element is selected if its parent is selected</a:documentation>
+               <value>false</value>
+               <a:documentation>This element can only be selected explicitly, unless it is the only one of its kind, in which case it is selected if its parent is selected.</a:documentation>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.declaring.attributes">
+      <ref name="tei_att.declaring.attribute.decls"/>
+   </define>
+   <define name="tei_att.declaring.attribute.decls">
+      <optional>
+         <attribute name="decls">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">identifies one or more declarable elements within the header, which are understood to apply to the element bearing this attribute and its content.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI"/>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.fragmentable.attributes">
+      <ref name="tei_att.fragmentable.attribute.part"/>
+   </define>
+   <define name="tei_att.fragmentable.attribute.part">
+      <optional>
+         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                    name="part"
+                    a:defaultValue="N">
+            <a:documentation>specifies whether or not its parent element is fragmented in some way, typically by some other overlapping structure: for example a speech which is divided between two or more verse stanzas, a paragraph which is split across a page division, a verse line which is divided between two speakers.</a:documentation>
+            <choice>
+               <value>Y</value>
+               <a:documentation>(yes) the element is fragmented in some (unspecified) respect</a:documentation>
+               <value>N</value>
+               <a:documentation>(no) the element is not fragmented, or no claim is made as to its completeness</a:documentation>
+               <value>I</value>
+               <a:documentation>(initial) this is the initial part of a fragmented element</a:documentation>
+               <value>M</value>
+               <a:documentation>(medial) this is a medial part of a fragmented element</a:documentation>
+               <value>F</value>
+               <a:documentation>(final) this is the final part of a fragmented element</a:documentation>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.docStatus.attributes">
+      <ref name="tei_att.docStatus.attribute.status"/>
+   </define>
+   <define name="tei_att.docStatus.attribute.status">
+      <optional>
+         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                    name="status"
+                    a:defaultValue="draft">
+            <a:documentation>describes the status of a document either currently or, when associated with a dated element, at the time indicated.
+Sample values include: 1] approved; 2] candidate; 3] cleared; 4] deprecated; 5] draft; 6] embargoed; 7] expired; 8] frozen; 9] galley; 10] proposed; 11] published; 12] recommendation; 13] submitted; 14] unfinished; 15] withdrawn</a:documentation>
+            <data type="token">
+               <param name="pattern">[^\p{C}\p{Z}]+</param>
+            </data>
+         </attribute>
+      </optional>
+   </define>
    <define name="tei_att.duration.w3c.attributes">
       <ref name="tei_att.duration.w3c.attribute.dur"/>
    </define>
@@ -258,6 +563,224 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
          <attribute name="dur">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(duration) indicates the length of this element in time.</a:documentation>
             <data type="duration"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.editLike.attributes">
+      <ref name="tei_att.editLike.attribute.evidence"/>
+      <ref name="tei_att.editLike.attribute.instant"/>
+   </define>
+   <define name="tei_att.editLike.attribute.evidence">
+      <optional>
+         <attribute name="evidence">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the nature of the evidence supporting the reliability or accuracy of the intervention or interpretation.
+Suggested values include: 1] internal; 2] external; 3] conjecture</a:documentation>
+            <list>
+               <oneOrMore>
+                  <choice>
+                     <value>internal</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">there is internal evidence to support the intervention.</a:documentation>
+                     <value>external</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">there is external evidence to support the intervention.</a:documentation>
+                     <value>conjecture</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the intervention or interpretation has been made by the editor, cataloguer, or scholar on the basis of their expertise.</a:documentation>
+                     <data type="token">
+                        <param name="pattern">[^\p{C}\p{Z}]+</param>
+                     </data>
+                  </choice>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.editLike.attribute.instant">
+      <optional>
+         <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                    name="instant"
+                    a:defaultValue="false">
+            <a:documentation>indicates whether this is an instant revision or not.</a:documentation>
+            <choice>
+               <data type="boolean"/>
+               <choice>
+                  <value>unknown</value>
+                  <a:documentation/>
+                  <value>inapplicable</value>
+                  <a:documentation/>
+               </choice>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.global.rendition.attributes">
+      <ref name="tei_att.global.rendition.attribute.rend"/>
+      <ref name="tei_att.global.rendition.attribute.style"/>
+      <ref name="tei_att.global.rendition.attribute.rendition"/>
+   </define>
+   <define name="tei_att.global.rendition.attribute.rend">
+      <optional>
+         <attribute name="rend">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(rendition) indicates how the element in question was rendered or presented in the source text.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="token">
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
+                  </data>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.global.rendition.attribute.style">
+      <optional>
+         <attribute name="style">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains an expression in some formal style definition language which defines the rendering or presentation used for this element in the source text</a:documentation>
+            <data type="string"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.global.rendition.attribute.rendition">
+      <optional>
+         <attribute name="rendition">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to a description of the rendering or presentation used for this element in the source text.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI"/>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.media.attributes">
+      <ref name="tei_att.internetMedia.attributes"/>
+      <ref name="tei_att.media.attribute.width"/>
+      <ref name="tei_att.media.attribute.height"/>
+      <ref name="tei_att.media.attribute.scale"/>
+   </define>
+   <define name="tei_att.media.attribute.width">
+      <optional>
+         <attribute name="width">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Where the media are displayed, indicates the display width</a:documentation>
+            <data type="token">
+               <param name="pattern">[\-+]?\d+(\.\d+)?(%|cm|mm|in|pt|pc|px|em|ex|gd|rem|vw|vh|vm)</param>
+            </data>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.media.attribute.height">
+      <optional>
+         <attribute name="height">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Where the media are displayed, indicates the display height</a:documentation>
+            <data type="token">
+               <param name="pattern">[\-+]?\d+(\.\d+)?(%|cm|mm|in|pt|pc|px|em|ex|gd|rem|vw|vh|vm)</param>
+            </data>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.media.attribute.scale">
+      <optional>
+         <attribute name="scale">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Where the media are displayed, indicates a scale factor to be applied when generating the desired display size</a:documentation>
+            <choice>
+               <data type="double"/>
+               <data type="token">
+                  <param name="pattern">(\-?[\d]+/\-?[\d]+)</param>
+               </data>
+               <data type="decimal"/>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.placement.attributes">
+      <ref name="tei_att.placement.attribute.place"/>
+   </define>
+   <define name="tei_att.placement.attribute.place">
+      <optional>
+         <attribute name="place">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies where this item is placed.
+Suggested values include: 1] top; 2] bottom; 3] margin; 4] opposite; 5] overleaf; 6] above; 7] right; 8] below; 9] left; 10] end; 11] inline; 12] inspace</a:documentation>
+            <list>
+               <oneOrMore>
+                  <choice>
+                     <value>top</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">at the top of the page</a:documentation>
+                     <value>bottom</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">at the foot of the page</a:documentation>
+                     <value>margin</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">in the margin (left, right, or both)</a:documentation>
+                     <value>opposite</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">on the opposite, i.e. facing, page</a:documentation>
+                     <value>overleaf</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">on the other side of the leaf</a:documentation>
+                     <value>above</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">above the line</a:documentation>
+                     <value>right</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">to the right, e.g. to the right of a vertical line of text, or to the right of a figure</a:documentation>
+                     <value>below</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">below the line</a:documentation>
+                     <value>left</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">to the left, e.g. to the left of a vertical line of text, or to the left of a figure</a:documentation>
+                     <value>end</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">at the end of e.g. chapter or volume.</a:documentation>
+                     <value>inline</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">within the body of the text.</a:documentation>
+                     <value>inspace</value>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">in a predefined space, for example left by an earlier scribe.</a:documentation>
+                     <data type="token">
+                        <param name="pattern">[^\p{C}\p{Z}]+</param>
+                     </data>
+                  </choice>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.sortable.attributes">
+      <ref name="tei_att.sortable.attribute.sortKey"/>
+   </define>
+   <define name="tei_att.sortable.attribute.sortKey">
+      <optional>
+         <attribute name="sortKey">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies the sort key for this element in an index, list or group which contains it.</a:documentation>
+            <data type="token">
+               <param name="pattern">[^\p{C}\p{Z}]+</param>
+            </data>
+         </attribute>
+      </optional>
+   </define>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="parlamint-att.spanning-spanTo-spanTo-2-constraint-rule-5">
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:eg="http://www.tei-c.org/ns/Examples"
+                xmlns:egXML="http://www.tei-c.org/ns/Examples"
+                xmlns:pm="ParlaMint"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:xi="http://www.w3.org/2001/XInclude"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                context="tei:*[@spanTo]">
+         <sch:assert test="id(substring(@spanTo,2)) and following::*[@xml:id=substring(current()/@spanTo,2)]">
+The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow the current element <sch:name/>
+         </sch:assert>
+      </sch:rule>
+   </pattern>
+   <define name="tei_att.timed.attributes">
+      <ref name="tei_att.duration.attributes"/>
+      <ref name="tei_att.timed.attribute.start"/>
+      <ref name="tei_att.timed.attribute.end"/>
+   </define>
+   <define name="tei_att.timed.attribute.start">
+      <optional>
+         <attribute name="start">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the location within a temporal alignment at which this element begins.</a:documentation>
+            <data type="anyURI"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.timed.attribute.end">
+      <optional>
+         <attribute name="end">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the location within a temporal alignment at which this element ends.</a:documentation>
+            <data type="anyURI"/>
          </attribute>
       </optional>
    </define>
@@ -923,20 +1446,6 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
          <ref name="tei_listPerson"/>
       </choice>
    </define>
-   <define name="tei_model.publicationStmtPart.agency">
-      <choice>
-         <ref name="tei_publisher"/>
-      </choice>
-   </define>
-   <define name="tei_model.publicationStmtPart.detail">
-      <choice>
-         <ref name="tei_model.ptrLike"/>
-         <ref name="tei_date"/>
-         <ref name="tei_pubPlace"/>
-         <ref name="tei_idno"/>
-         <ref name="tei_availability"/>
-      </choice>
-   </define>
    <define name="tei_model.availabilityPart">
       <choice>
          <ref name="tei_licence"/>
@@ -993,13 +1502,6 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
          <ref name="tei_model.quoteLike_sequenceRepeatable"/>
       </oneOrMore>
    </define>
-   <define name="tei_model.respLike">
-      <choice>
-         <ref name="tei_respStmt"/>
-         <ref name="tei_meeting"/>
-         <ref name="tei_funder"/>
-      </choice>
-   </define>
    <define name="tei_model.divWrapper">
       <choice>
          <ref name="tei_meeting"/>
@@ -1012,12 +1514,6 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
       <choice>
          <ref name="tei_model.divWrapper"/>
          <ref name="tei_model.divBottomPart"/>
-      </choice>
-   </define>
-   <define name="tei_model.imprintPart">
-      <choice>
-         <ref name="tei_publisher"/>
-         <ref name="tei_pubPlace"/>
       </choice>
    </define>
    <define name="tei_model.catDescPart">
@@ -1154,17 +1650,6 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
          <ref name="tei_figure"/>
       </choice>
    </define>
-   <define name="tei_model.biblPart">
-      <choice>
-         <ref name="tei_model.respLike"/>
-         <ref name="tei_model.imprintPart"/>
-         <ref name="tei_bibl"/>
-         <ref name="tei_edition"/>
-         <ref name="tei_extent"/>
-         <ref name="tei_availability"/>
-         <ref name="tei_listRelation"/>
-      </choice>
-   </define>
    <define name="tei_model.pPart.data">
       <choice>
          <ref name="tei_model.dateLike"/>
@@ -1220,12 +1705,6 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
          <ref name="tei_application"/>
       </choice>
    </define>
-   <define name="tei_model.teiHeaderPart">
-      <choice>
-         <ref name="tei_encodingDesc"/>
-         <ref name="tei_profileDesc"/>
-      </choice>
-   </define>
    <define name="tei_model.sourceDescPart">
       <choice>
          <ref name="tei_recordingStmt"/>
@@ -1258,8 +1737,36 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
          <ref name="tei_settingDesc"/>
       </choice>
    </define>
+   <define name="tei_att.locatable.attributes">
+      <ref name="tei_att.locatable.attribute.where"/>
+   </define>
+   <define name="tei_att.locatable.attribute.where">
+      <optional>
+         <attribute name="where">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates one or more locations by pointing to a <code xmlns="http://www.w3.org/1999/xhtml">&lt;place&gt;</code> element or other canonical description.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI"/>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
    <define name="tei_model.placeLike">
       <notAllowed/>
+   </define>
+   <define name="tei_att.duration.iso.attributes">
+      <ref name="tei_att.duration.iso.attribute.dur-iso"/>
+   </define>
+   <define name="tei_att.duration.iso.attribute.dur-iso">
+      <optional>
+         <attribute name="dur-iso">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(duration) indicates the length of this element in time.</a:documentation>
+            <data type="token">
+               <param name="pattern">[0-9.,DHMPRSTWYZ/:+\-]+</param>
+            </data>
+         </attribute>
+      </optional>
    </define>
    <define name="tei_p">
       <element name="p">
@@ -1315,7 +1822,7 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
             </oneOrMore>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="parlamint-desc-deprecationInfo-only-in-deprecated-constraint-rule-4">
+                  id="parlamint-desc-deprecationInfo-only-in-deprecated-constraint-rule-6">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:eg="http://www.tei-c.org/ns/Examples"
                       xmlns:egXML="http://www.tei-c.org/ns/Examples"
@@ -1353,8 +1860,6 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
       <element name="gap">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(gap) indicates a point where material has been omitted in a transcription, whether for editorial reasons described in the TEI header, as part of sampling practice, or because the material is illegible, invisible, or inaudible. [3.5.3. Additions, Deletions, and Omissions]</a:documentation>
          <ref name="tei_desc"/>
-         <ref name="tei_att.editLike.attributes"/>
-         <ref name="tei_att.dimensions.attributes"/>
          <optional>
             <attribute name="reason">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -1383,12 +1888,10 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
             </choice>
          </oneOrMore>
          <ref name="tei_att.global.attribute.xmlid"/>
-         <ref name="tei_att.global.attribute.n"/>
          <ref name="tei_att.global.attribute.xmllang"/>
          <ref name="tei_att.global.analytic.attribute.ana"/>
          <ref name="tei_att.personal.attribute.full"/>
          <ref name="tei_att.canonical.attribute.key"/>
-         <ref name="tei_att.editLike.attributes"/>
          <ref name="tei_att.typed.attribute.subtype"/>
          <optional>
             <attribute name="type">
@@ -1421,8 +1924,16 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
    <define name="tei_email">
       <element name="email">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(electronic mail address) contains an email address identifying a location to which email messages can be delivered. [3.6.2. Addresses]</a:documentation>
-         <ref name="tei_macro.phraseSeq"/>
-         <ref name="tei_att.global.attributes"/>
+         <oneOrMore>
+            <choice>
+               <ref name="tei_w"/>
+               <ref name="tei_pc"/>
+               <text/>
+            </choice>
+         </oneOrMore>
+         <ref name="tei_att.global.attribute.xmlid"/>
+         <ref name="tei_att.global.attribute.xmllang"/>
+         <ref name="tei_att.global.analytic.attribute.ana"/>
          <empty/>
       </element>
    </define>
@@ -1438,11 +1949,9 @@ Measures]</a:documentation>
             </choice>
          </oneOrMore>
          <ref name="tei_att.global.attribute.xmlid"/>
-         <ref name="tei_att.global.attribute.n"/>
          <ref name="tei_att.global.attribute.xmllang"/>
          <ref name="tei_att.global.analytic.attribute.ana"/>
          <ref name="tei_att.typed.attribute.subtype"/>
-         <ref name="tei_att.ranging.attributes"/>
          <optional>
             <attribute name="type">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the type of numeric value.
@@ -1462,18 +1971,6 @@ Suggested values include: 1] cardinal; 2] ordinal; 3] fraction; 4] percentage</a
                </choice>
             </attribute>
          </optional>
-         <optional>
-            <attribute name="value">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies the value of the number in standard form.</a:documentation>
-               <choice>
-                  <data type="double"/>
-                  <data type="token">
-                     <param name="pattern">(\-?[\d]+/\-?[\d]+)</param>
-                  </data>
-                  <data type="decimal"/>
-               </choice>
-            </attribute>
-         </optional>
          <empty/>
       </element>
    </define>
@@ -1481,18 +1978,29 @@ Suggested values include: 1] cardinal; 2] ordinal; 3] fraction; 4] percentage</a
       <element name="measure">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(measure) contains a word or phrase referring to some quantity of an object or commodity, usually comprising a number, a unit, and a commodity name. [3.6.3. Numbers and
 Measures]</a:documentation>
-         <ref name="tei_macro.phraseSeq"/>
-         <ref name="tei_att.global.attributes"/>
-         <ref name="tei_att.typed.attribute.subtype"/>
-         <ref name="tei_att.measurement.attributes"/>
-         <optional>
-            <attribute name="type">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the type of measurement in any convenient typology.</a:documentation>
+         <text/>
+         <ref name="tei_att.global.attribute.xmllang"/>
+         <attribute name="unit">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            <choice>
+               <value>speeches</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>words</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>tokens</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">optional value</a:documentation>
+            </choice>
+         </attribute>
+         <attribute name="quantity">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(quantity) specifies the number of the specified units that comprise the measurement</a:documentation>
+            <choice>
+               <data type="double"/>
                <data type="token">
-                  <param name="pattern">[^\p{C}\p{Z}]+</param>
+                  <param name="pattern">(\-?[\d]+/\-?[\d]+)</param>
                </data>
-            </attribute>
-         </optional>
+               <data type="decimal"/>
+            </choice>
+         </attribute>
          <empty/>
       </element>
    </define>
@@ -1510,20 +2018,20 @@ Measures]</a:documentation>
    <define name="tei_date">
       <element name="date">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(date) contains a date in any format. [3.6.4. Dates and Times 2.2.4. Publication, Distribution, Licensing, etc. 2.6. The Revision Description 3.12.2.4. Imprint, Size of a Document, and Reprint Information 15.2.3. The Setting Description 13.4. Dates]</a:documentation>
-         <zeroOrMore>
+         <oneOrMore>
             <choice>
+               <ref name="tei_w"/>
+               <ref name="tei_pc"/>
+               <ref name="tei_date"/>
                <text/>
-               <ref name="tei_model.gLike"/>
-               <ref name="tei_model.phrase"/>
-               <ref name="tei_model.global"/>
             </choice>
-         </zeroOrMore>
-         <ref name="tei_att.global.attributes"/>
-         <ref name="tei_att.canonical.attributes"/>
-         <ref name="tei_att.datable.attributes"/>
-         <ref name="tei_att.duration.attributes"/>
-         <ref name="tei_att.editLike.attributes"/>
-         <ref name="tei_att.dimensions.attributes"/>
+         </oneOrMore>
+         <ref name="tei_att.global.attribute.xmlid"/>
+         <ref name="tei_att.global.attribute.xmllang"/>
+         <ref name="tei_att.global.analytic.attribute.ana"/>
+         <ref name="tei_att.datable.w3c.attribute.when"/>
+         <ref name="tei_att.datable.w3c.attribute.from"/>
+         <ref name="tei_att.datable.w3c.attribute.to"/>
          <ref name="tei_att.typed.attributes"/>
          <empty/>
       </element>
@@ -1531,20 +2039,19 @@ Measures]</a:documentation>
    <define name="tei_time">
       <element name="time">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(time) contains a phrase defining a time of day in any format. [3.6.4. Dates and Times]</a:documentation>
-         <zeroOrMore>
+         <oneOrMore>
             <choice>
+               <ref name="tei_w"/>
+               <ref name="tei_pc"/>
                <text/>
-               <ref name="tei_model.gLike"/>
-               <ref name="tei_model.phrase"/>
-               <ref name="tei_model.global"/>
             </choice>
-         </zeroOrMore>
-         <ref name="tei_att.global.attributes"/>
-         <ref name="tei_att.datable.attributes"/>
-         <ref name="tei_att.canonical.attributes"/>
-         <ref name="tei_att.duration.attributes"/>
-         <ref name="tei_att.editLike.attributes"/>
-         <ref name="tei_att.dimensions.attributes"/>
+         </oneOrMore>
+         <ref name="tei_att.global.attribute.xmlid"/>
+         <ref name="tei_att.global.attribute.xmllang"/>
+         <ref name="tei_att.global.analytic.attribute.ana"/>
+         <ref name="tei_att.datable.w3c.attribute.when"/>
+         <ref name="tei_att.datable.w3c.attribute.from"/>
+         <ref name="tei_att.datable.w3c.attribute.to"/>
          <ref name="tei_att.typed.attributes"/>
          <empty/>
       </element>
@@ -1619,10 +2126,7 @@ Measures]</a:documentation>
          <ref name="tei_att.global.attribute.xmlid"/>
          <ref name="tei_att.global.attribute.n"/>
          <ref name="tei_att.global.attribute.xmllang"/>
-         <ref name="tei_att.placement.attributes"/>
          <ref name="tei_att.typed.attribute.subtype"/>
-         <ref name="tei_att.written.attributes"/>
-         <ref name="tei_att.anchoring.attributes"/>
          <optional>
             <attribute name="type">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">
@@ -1641,6 +2145,9 @@ Sample values include: 1] narrative; 2] summary; 3] speaker; 4] vote; 5] locatio
          </zeroOrMore>
          <ref name="tei_att.typed.attributes"/>
          <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.media.attribute.width"/>
+         <ref name="tei_att.media.attribute.height"/>
+         <ref name="tei_att.media.attribute.scale"/>
          <ref name="tei_att.resourced.attributes"/>
          <ref name="tei_att.declaring.attributes"/>
          <ref name="tei_att.timed.attributes"/>
@@ -1675,43 +2182,22 @@ Sample values include: 1] narrative; 2] summary; 3] speaker; 4] vote; 5] locatio
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(page beginning) marks the beginning of a new page in a paginated document. [3.11.3. Milestone
 Elements]</a:documentation>
          <empty/>
-         <ref name="tei_att.global.attributes"/>
-         <ref name="tei_att.typed.attributes"/>
-         <ref name="tei_att.edition.attributes"/>
-         <ref name="tei_att.spanning.attributes"/>
-         <ref name="tei_att.breaking.attributes"/>
+         <ref name="tei_att.global.attribute.xmlid"/>
+         <ref name="tei_att.global.attribute.n"/>
+         <ref name="tei_att.global.linking.attribute.corresp"/>
+         <ref name="tei_att.global.source.attribute.source"/>
          <empty/>
       </element>
    </define>
    <define name="tei_respStmt">
       <element name="respStmt">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(statement of responsibility) supplies a statement of responsibility for the intellectual content of a text, edition, recording, or series, where the specialized elements for authors, editors, etc. do not suffice or do not apply. May also be used to encode information about individuals or organizations which have played a role in the production or distribution of a bibliographic work. [3.12.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.2. The Edition Statement 2.2.5. The Series Statement]</a:documentation>
-         <group>
-            <choice>
-               <group>
-                  <oneOrMore>
-                     <ref name="tei_resp"/>
-                  </oneOrMore>
-                  <oneOrMore>
-                     <ref name="tei_model.nameLike.agent"/>
-                  </oneOrMore>
-               </group>
-               <group>
-                  <oneOrMore>
-                     <ref name="tei_model.nameLike.agent"/>
-                  </oneOrMore>
-                  <oneOrMore>
-                     <ref name="tei_resp"/>
-                  </oneOrMore>
-               </group>
-            </choice>
-            <zeroOrMore>
-               <ref name="tei_note"/>
-            </zeroOrMore>
-         </group>
-         <ref name="tei_att.global.attributes"/>
-         <ref name="tei_att.canonical.attributes"/>
-         <empty/>
+         <oneOrMore>
+            <ref name="tei_persName"/>
+         </oneOrMore>
+         <oneOrMore>
+            <ref name="tei_resp"/>
+         </oneOrMore>
       </element>
    </define>
    <define name="tei_resp">
@@ -1727,34 +2213,16 @@ Elements]</a:documentation>
    <define name="tei_title">
       <element name="title">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(title) contains a title for any kind of work. [3.12.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.5. The Series Statement]</a:documentation>
-         <ref name="tei_macro.paraContent"/>
-         <ref name="tei_att.global.attributes"/>
-         <ref name="tei_att.typed.attribute.subtype"/>
-         <ref name="tei_att.canonical.attributes"/>
-         <ref name="tei_att.datable.attributes"/>
+         <text/>
+         <ref name="tei_att.global.attribute.xmllang"/>
          <optional>
             <attribute name="type">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">classifies the title according to some convenient typology.
-Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] short; 5] desc (descriptive)</a:documentation>
-               <data type="token">
-                  <param name="pattern">[^\p{C}\p{Z}]+</param>
-               </data>
-            </attribute>
-         </optional>
-         <optional>
-            <attribute name="level">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the bibliographic level for a title, that is, whether it identifies an article, book, journal, series, or unpublished material.</a:documentation>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <choice>
-                  <value>a</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(analytic) the title applies to an analytic item, such as an article, poem, or other work published as part of a larger item.</a:documentation>
-                  <value>m</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(monographic) the title applies to a monograph such as a book or other item considered to be a distinct publication, including single volumes of multi-volume works</a:documentation>
-                  <value>j</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(journal) the title applies to any serial or periodical publication such as a journal, magazine, or newspaper</a:documentation>
-                  <value>s</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(series) the title applies to a series of otherwise distinct publications such as a collection</a:documentation>
-                  <value>u</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(unpublished) the title applies to any unpublished material (including theses and dissertations unless published by a commercial press)</a:documentation>
+                  <value>main</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>sub</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                </choice>
             </attribute>
          </optional>
@@ -1764,19 +2232,29 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
    <define name="tei_meeting">
       <element name="meeting">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains the formalized descriptive title for a meeting or conference, for use in a bibliographic description for an item derived from such a meeting, or as a heading or preamble to publications emanating from it. [3.12.2.2. Titles, Authors, and Editors]</a:documentation>
-         <ref name="tei_macro.limitedContent"/>
-         <ref name="tei_att.global.attributes"/>
-         <ref name="tei_att.datable.attributes"/>
-         <ref name="tei_att.canonical.attributes"/>
+         <text/>
+         <ref name="tei_att.global.attribute.n"/>
+         <ref name="tei_att.global.attribute.xmllang"/>
+         <ref name="tei_att.global.linking.attribute.corresp"/>
+         <ref name="tei_att.global.analytic.attribute.ana"/>
          <empty/>
       </element>
    </define>
    <define name="tei_publisher">
       <element name="publisher">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(publisher) provides the name of the organization responsible for the publication or distribution of a bibliographic item. [3.12.2.4. Imprint, Size of a Document, and Reprint Information 2.2.4. Publication, Distribution, Licensing, etc.]</a:documentation>
-         <ref name="tei_macro.phraseSeq"/>
-         <ref name="tei_att.global.attributes"/>
-         <ref name="tei_att.canonical.attributes"/>
+         <choice>
+            <group>
+               <oneOrMore>
+                  <ref name="tei_orgName"/>
+               </oneOrMore>
+               <optional>
+                  <ref name="tei_ref"/>
+               </optional>
+            </group>
+            <text/>
+         </choice>
+         <ref name="tei_att.global.attribute.xmllang"/>
          <empty/>
       </element>
    </define>
@@ -1792,25 +2270,23 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
    <define name="tei_bibl">
       <element name="bibl">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(bibliographic citation) contains a loosely-structured bibliographic citation of which the sub-components may or may not be explicitly tagged. [3.12.1. Methods of Encoding Bibliographic References and Lists of References 2.2.7. The Source Description 15.3.2. Declarable Elements]</a:documentation>
-         <zeroOrMore>
+         <oneOrMore>
+            <ref name="tei_title"/>
+         </oneOrMore>
+         <oneOrMore>
             <choice>
-               <text/>
-               <ref name="tei_model.gLike"/>
-               <ref name="tei_model.highlighted"/>
-               <ref name="tei_model.pPart.data"/>
-               <ref name="tei_model.pPart.edit"/>
-               <ref name="tei_model.segLike"/>
-               <ref name="tei_model.ptrLike"/>
-               <ref name="tei_model.biblPart"/>
-               <ref name="tei_model.global"/>
+               <optional>
+                  <ref name="tei_edition"/>
+               </optional>
+               <optional>
+                  <ref name="tei_publisher"/>
+               </optional>
+               <zeroOrMore>
+                  <ref name="tei_idno"/>
+               </zeroOrMore>
+               <ref name="tei_date"/>
             </choice>
-         </zeroOrMore>
-         <ref name="tei_att.global.attributes"/>
-         <ref name="tei_att.declarable.attributes"/>
-         <ref name="tei_att.typed.attributes"/>
-         <ref name="tei_att.sortable.attributes"/>
-         <ref name="tei_att.docStatus.attributes"/>
-         <empty/>
+         </oneOrMore>
       </element>
    </define>
    <define name="tei_teiCorpus">
@@ -1843,118 +2319,81 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
    <define name="tei_teiHeader">
       <element name="teiHeader">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(TEI header) supplies descriptive and declarative metadata associated with a digital resource or set of resources. [2.1.1. The TEI Header and Its Components 15.1. Varieties of Composite Text]</a:documentation>
-         <group>
-            <ref name="tei_fileDesc"/>
-            <zeroOrMore>
-               <ref name="tei_model.teiHeaderPart"/>
-            </zeroOrMore>
-            <optional>
-               <ref name="tei_revisionDesc"/>
-            </optional>
-         </group>
-         <ref name="tei_att.global.attributes"/>
-         <empty/>
+         <ref name="tei_fileDesc"/>
+         <ref name="tei_encodingDesc"/>
+         <ref name="tei_profileDesc"/>
+         <optional>
+            <ref name="tei_revisionDesc"/>
+         </optional>
       </element>
    </define>
    <define name="tei_fileDesc">
       <element name="fileDesc">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(file description) contains a full bibliographic description of an electronic file. [2.2. The File Description 2.1.1. The TEI Header and Its Components]</a:documentation>
-         <group>
-            <group>
-               <ref name="tei_titleStmt"/>
-               <optional>
-                  <ref name="tei_editionStmt"/>
-               </optional>
-               <optional>
-                  <ref name="tei_extent"/>
-               </optional>
-               <ref name="tei_publicationStmt"/>
-            </group>
-            <oneOrMore>
-               <ref name="tei_sourceDesc"/>
-            </oneOrMore>
-         </group>
-         <ref name="tei_att.global.attributes"/>
-         <empty/>
+         <ref name="tei_titleStmt"/>
+         <ref name="tei_editionStmt"/>
+         <ref name="tei_extent"/>
+         <ref name="tei_publicationStmt"/>
+         <ref name="tei_sourceDesc"/>
       </element>
    </define>
    <define name="tei_titleStmt">
       <element name="titleStmt">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(title statement) groups information about the title of a work and those responsible for its content. [2.2.1. The Title Statement 2.2. The File Description]</a:documentation>
-         <group>
-            <oneOrMore>
-               <ref name="tei_title"/>
-            </oneOrMore>
-            <zeroOrMore>
-               <ref name="tei_model.respLike"/>
-            </zeroOrMore>
-         </group>
-         <ref name="tei_att.global.attributes"/>
-         <empty/>
+         <oneOrMore>
+            <ref name="tei_title"/>
+         </oneOrMore>
+         <oneOrMore>
+            <ref name="tei_meeting"/>
+         </oneOrMore>
+         <zeroOrMore>
+            <ref name="tei_respStmt"/>
+         </zeroOrMore>
+         <zeroOrMore>
+            <ref name="tei_funder"/>
+         </zeroOrMore>
       </element>
    </define>
    <define name="tei_funder">
       <element name="funder">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(funding body) specifies the name of an individual, institution, or organization responsible for the funding of a project or text. [2.2.1. The Title Statement]</a:documentation>
-         <ref name="tei_macro.phraseSeq.limited"/>
-         <ref name="tei_att.global.attributes"/>
-         <ref name="tei_att.canonical.attributes"/>
-         <ref name="tei_att.datable.attributes"/>
-         <empty/>
+         <oneOrMore>
+            <ref name="tei_orgName"/>
+         </oneOrMore>
       </element>
    </define>
    <define name="tei_editionStmt">
       <element name="editionStmt">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(edition statement) groups information relating to one edition of a text. [2.2.2. The Edition Statement 2.2. The File Description]</a:documentation>
-         <choice>
-            <oneOrMore>
-               <ref name="tei_model.pLike"/>
-            </oneOrMore>
-            <group>
-               <ref name="tei_edition"/>
-               <zeroOrMore>
-                  <ref name="tei_model.respLike"/>
-               </zeroOrMore>
-            </group>
-         </choice>
-         <ref name="tei_att.global.attributes"/>
-         <empty/>
+         <ref name="tei_edition"/>
       </element>
    </define>
    <define name="tei_edition">
       <element name="edition">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(edition) describes the particularities of one edition of a text. [2.2.2. The Edition Statement]</a:documentation>
-         <ref name="tei_macro.phraseSeq"/>
-         <ref name="tei_att.global.attributes"/>
+         <text/>
+         <ref name="tei_att.global.attribute.xmllang"/>
          <empty/>
       </element>
    </define>
    <define name="tei_extent">
       <element name="extent">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(extent) describes the approximate size of a text stored on some carrier medium or of some other object, digital or non-digital, specified in any convenient units. [2.2.3. Type and Extent of File 2.2. The File Description 3.12.2.4. Imprint, Size of a Document, and Reprint Information 10.7.1. Object Description]</a:documentation>
-         <ref name="tei_macro.phraseSeq"/>
-         <ref name="tei_att.global.attributes"/>
-         <empty/>
+         <oneOrMore>
+            <ref name="tei_measure"/>
+         </oneOrMore>
       </element>
    </define>
    <define name="tei_publicationStmt">
       <element name="publicationStmt">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(publication statement) groups information concerning the publication or distribution of an electronic or other text. [2.2.4. Publication, Distribution, Licensing, etc. 2.2. The File Description]</a:documentation>
-         <choice>
-            <oneOrMore>
-               <group>
-                  <ref name="tei_model.publicationStmtPart.agency"/>
-                  <zeroOrMore>
-                     <ref name="tei_model.publicationStmtPart.detail"/>
-                  </zeroOrMore>
-               </group>
-            </oneOrMore>
-            <oneOrMore>
-               <ref name="tei_model.pLike"/>
-            </oneOrMore>
-         </choice>
-         <ref name="tei_att.global.attributes"/>
-         <empty/>
+         <ref name="tei_publisher"/>
+         <ref name="tei_idno"/>
+         <optional>
+            <ref name="tei_pubPlace"/>
+         </optional>
+         <ref name="tei_availability"/>
+         <ref name="tei_date"/>
       </element>
    </define>
    <define name="tei_idno">
@@ -2635,8 +3074,6 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          <ref name="tei_att.global.attribute.xmllang"/>
          <ref name="tei_att.global.analytic.attribute.ana"/>
          <ref name="tei_att.global.source.attribute.source"/>
-         <ref name="tei_att.declaring.attributes"/>
-         <ref name="tei_att.written.attributes"/>
          <empty/>
       </element>
    </define>
@@ -2646,8 +3083,6 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          <oneOrMore>
             <ref name="tei_div"/>
          </oneOrMore>
-         <ref name="tei_att.declaring.attributes"/>
-         <empty/>
       </element>
    </define>
    <define name="tei_div">
@@ -2698,10 +3133,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          <ref name="tei_att.global.attribute.xmlid"/>
          <ref name="tei_att.global.attribute.n"/>
          <ref name="tei_att.global.attribute.xmllang"/>
-         <ref name="tei_att.divLike.attributes"/>
          <ref name="tei_att.typed.attribute.subtype"/>
-         <ref name="tei_att.declaring.attributes"/>
-         <ref name="tei_att.written.attributes"/>
          <optional>
             <attribute name="type">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -2896,9 +3328,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          <ref name="tei_att.global.linking.attribute.prev"/>
          <ref name="tei_att.global.analytic.attribute.ana"/>
          <ref name="tei_att.global.source.attribute.source"/>
-         <ref name="tei_att.declaring.attributes"/>
          <ref name="tei_att.ascribed.attribute.who"/>
-         <ref name="tei_att.notated.attributes"/>
          <empty/>
       </element>
    </define>
@@ -3015,6 +3445,101 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          <empty/>
       </element>
    </define>
+   <define name="tei_att.datable.custom.attributes">
+      <ref name="tei_att.datable.custom.attribute.when-custom"/>
+      <ref name="tei_att.datable.custom.attribute.notBefore-custom"/>
+      <ref name="tei_att.datable.custom.attribute.notAfter-custom"/>
+      <ref name="tei_att.datable.custom.attribute.from-custom"/>
+      <ref name="tei_att.datable.custom.attribute.to-custom"/>
+      <ref name="tei_att.datable.custom.attribute.datingPoint"/>
+      <ref name="tei_att.datable.custom.attribute.datingMethod"/>
+   </define>
+   <define name="tei_att.datable.custom.attribute.when-custom">
+      <optional>
+         <attribute name="when-custom">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies the value of a date or time in some custom standard form.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="token">
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
+                  </data>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.datable.custom.attribute.notBefore-custom">
+      <optional>
+         <attribute name="notBefore-custom">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the earliest possible date for the event in some custom standard form.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="token">
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
+                  </data>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.datable.custom.attribute.notAfter-custom">
+      <optional>
+         <attribute name="notAfter-custom">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the latest possible date for the event in some custom standard form.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="token">
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
+                  </data>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.datable.custom.attribute.from-custom">
+      <optional>
+         <attribute name="from-custom">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the starting point of the period in some custom standard form.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="token">
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
+                  </data>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.datable.custom.attribute.to-custom">
+      <optional>
+         <attribute name="to-custom">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the ending point of the period in some custom standard form.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="token">
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
+                  </data>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.datable.custom.attribute.datingPoint">
+      <optional>
+         <attribute name="datingPoint">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies a pointer to some location defining a named point in time with reference to which the datable item is understood to have occurred</a:documentation>
+            <data type="anyURI"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.datable.custom.attribute.datingMethod">
+      <optional>
+         <attribute name="datingMethod">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies a pointer to a <code xmlns="http://www.w3.org/1999/xhtml">&lt;calendar&gt;</code> element or other means of interpreting the values of the custom dating attributes.</a:documentation>
+            <data type="anyURI"/>
+         </attribute>
+      </optional>
+   </define>
    <define name="tei_model.persNamePart">
       <choice>
          <ref name="tei_surname"/>
@@ -3091,27 +3616,197 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          <ref name="tei_roleName"/>
       </oneOrMore>
    </define>
+   <define name="tei_att.datable.iso.attributes">
+      <ref name="tei_att.datable.iso.attribute.when-iso"/>
+      <ref name="tei_att.datable.iso.attribute.notBefore-iso"/>
+      <ref name="tei_att.datable.iso.attribute.notAfter-iso"/>
+      <ref name="tei_att.datable.iso.attribute.from-iso"/>
+      <ref name="tei_att.datable.iso.attribute.to-iso"/>
+   </define>
+   <define name="tei_att.datable.iso.attribute.when-iso">
+      <optional>
+         <attribute name="when-iso">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies the value of a date or time in a standard form.</a:documentation>
+            <choice>
+               <data type="date"/>
+               <data type="gYear"/>
+               <data type="gMonth"/>
+               <data type="gDay"/>
+               <data type="gYearMonth"/>
+               <data type="gMonthDay"/>
+               <data type="time"/>
+               <data type="dateTime"/>
+               <data type="token">
+                  <param name="pattern">[0-9.,DHMPRSTWYZ/:+\-]+</param>
+               </data>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.datable.iso.attribute.notBefore-iso">
+      <optional>
+         <attribute name="notBefore-iso">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the earliest possible date for the event in standard form, e.g. yyyy-mm-dd.</a:documentation>
+            <choice>
+               <data type="date"/>
+               <data type="gYear"/>
+               <data type="gMonth"/>
+               <data type="gDay"/>
+               <data type="gYearMonth"/>
+               <data type="gMonthDay"/>
+               <data type="time"/>
+               <data type="dateTime"/>
+               <data type="token">
+                  <param name="pattern">[0-9.,DHMPRSTWYZ/:+\-]+</param>
+               </data>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.datable.iso.attribute.notAfter-iso">
+      <optional>
+         <attribute name="notAfter-iso">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the latest possible date for the event in standard form, e.g. yyyy-mm-dd.</a:documentation>
+            <choice>
+               <data type="date"/>
+               <data type="gYear"/>
+               <data type="gMonth"/>
+               <data type="gDay"/>
+               <data type="gYearMonth"/>
+               <data type="gMonthDay"/>
+               <data type="time"/>
+               <data type="dateTime"/>
+               <data type="token">
+                  <param name="pattern">[0-9.,DHMPRSTWYZ/:+\-]+</param>
+               </data>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.datable.iso.attribute.from-iso">
+      <optional>
+         <attribute name="from-iso">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the starting point of the period in standard form.</a:documentation>
+            <choice>
+               <data type="date"/>
+               <data type="gYear"/>
+               <data type="gMonth"/>
+               <data type="gDay"/>
+               <data type="gYearMonth"/>
+               <data type="gMonthDay"/>
+               <data type="time"/>
+               <data type="dateTime"/>
+               <data type="token">
+                  <param name="pattern">[0-9.,DHMPRSTWYZ/:+\-]+</param>
+               </data>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_att.datable.iso.attribute.to-iso">
+      <optional>
+         <attribute name="to-iso">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the ending point of the period in standard form.</a:documentation>
+            <choice>
+               <data type="date"/>
+               <data type="gYear"/>
+               <data type="gMonth"/>
+               <data type="gDay"/>
+               <data type="gYearMonth"/>
+               <data type="gMonthDay"/>
+               <data type="time"/>
+               <data type="dateTime"/>
+               <data type="token">
+                  <param name="pattern">[0-9.,DHMPRSTWYZ/:+\-]+</param>
+               </data>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
    <define name="tei_orgName">
       <element name="orgName">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(organization name) contains an organizational name. [13.2.2. Organizational Names]</a:documentation>
-         <ref name="tei_macro.phraseSeq"/>
-         <ref name="tei_att.global.attributes"/>
-         <ref name="tei_att.datable.attributes"/>
-         <ref name="tei_att.editLike.attributes"/>
-         <ref name="tei_att.personal.attributes"/>
-         <ref name="tei_att.typed.attributes"/>
+         <text/>
+         <ref name="tei_att.global.attribute.xmllang"/>
+         <ref name="tei_att.canonical.attribute.ref"/>
+         <optional>
+            <attribute name="from">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the starting point of the period in standard form, e.g. yyyy-mm-dd.</a:documentation>
+               <choice>
+                  <data type="date"/>
+                  <data type="gYear"/>
+                  <data type="gMonth"/>
+                  <data type="gDay"/>
+                  <data type="gYearMonth"/>
+                  <data type="gMonthDay"/>
+                  <data type="time"/>
+                  <data type="dateTime"/>
+               </choice>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="to">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the ending point of the period in standard form, e.g. yyyy-mm-dd.</a:documentation>
+               <choice>
+                  <data type="date"/>
+                  <data type="gYear"/>
+                  <data type="gMonth"/>
+                  <data type="gDay"/>
+                  <data type="gYearMonth"/>
+                  <data type="gMonthDay"/>
+                  <data type="time"/>
+                  <data type="dateTime"/>
+               </choice>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="full">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <choice>
+                  <value>yes</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>init</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               </choice>
+            </attribute>
+         </optional>
          <empty/>
       </element>
    </define>
    <define name="tei_persName">
       <element name="persName">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(personal name) contains a proper noun or proper-noun phrase referring to a person, possibly including one or more of the person's forenames, surnames, honorifics, added names, etc. [13.2.1. Personal Names]</a:documentation>
-         <ref name="tei_macro.phraseSeq"/>
-         <ref name="tei_att.global.attributes"/>
-         <ref name="tei_att.datable.attributes"/>
-         <ref name="tei_att.editLike.attributes"/>
-         <ref name="tei_att.personal.attributes"/>
-         <ref name="tei_att.typed.attributes"/>
+         <choice>
+            <oneOrMore>
+               <choice>
+                  <oneOrMore>
+                     <ref name="tei_forename"/>
+                  </oneOrMore>
+                  <zeroOrMore>
+                     <ref name="tei_addName"/>
+                  </zeroOrMore>
+                  <optional>
+                     <ref name="tei_nameLink"/>
+                  </optional>
+                  <zeroOrMore>
+                     <ref name="tei_roleName"/>
+                  </zeroOrMore>
+                  <oneOrMore>
+                     <ref name="tei_surname"/>
+                  </oneOrMore>
+               </choice>
+            </oneOrMore>
+            <oneOrMore>
+               <choice>
+                  <ref name="tei_term"/>
+               </choice>
+            </oneOrMore>
+            <choice>
+               <text/>
+            </choice>
+         </choice>
+         <ref name="tei_att.global.attribute.xmllang"/>
+         <ref name="tei_att.canonical.attribute.ref"/>
          <empty/>
       </element>
    </define>
@@ -3590,7 +4285,7 @@ Sample values include: 1] primary; 2] other; 3] paid; 4] unpaid</a:documentation
             <ref name="tei_desc"/>
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="parlamint-relation-reforkeyorname-constraint-assert-2">
+                  id="parlamint-relation-reforkeyorname-constraint-assert-4">
             <rule context="tei:relation">
                <assert xmlns:eg="http://www.tei-c.org/ns/Examples"
                        xmlns:egXML="http://www.tei-c.org/ns/Examples"
@@ -3714,7 +4409,7 @@ Sample values include: 1] explicit; 2] implicit</a:documentation>
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(link) defines an association or hypertextual link among elements or passages, of some type not more precisely specifiable by other elements. [16.1. Links]</a:documentation>
          <empty/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="parlamint-link-linkTargets3-constraint-assert-3">
+                  id="parlamint-link-linkTargets3-constraint-assert-5">
             <rule context="tei:link">
                <sch:assert xmlns="http://www.tei-c.org/ns/1.0"
                            xmlns:eg="http://www.tei-c.org/ns/Examples"
@@ -3789,9 +4484,6 @@ Sample values include: 1] explicit; 2] implicit</a:documentation>
          <ref name="tei_att.global.attribute.xmlid"/>
          <ref name="tei_att.global.attribute.n"/>
          <ref name="tei_att.global.attribute.xmllang"/>
-         <ref name="tei_att.segLike.attributes"/>
-         <ref name="tei_att.written.attributes"/>
-         <ref name="tei_att.notated.attributes"/>
          <empty/>
       </element>
    </define>
@@ -3849,8 +4541,6 @@ Sample values include: 1] explicit; 2] implicit</a:documentation>
          <ref name="tei_att.global.attribute.xmlid"/>
          <ref name="tei_att.global.attribute.n"/>
          <ref name="tei_att.global.attribute.xmllang"/>
-         <ref name="tei_att.segLike.attributes"/>
-         <ref name="tei_att.notated.attributes"/>
          <empty/>
       </element>
    </define>
@@ -3866,9 +4556,7 @@ Sample values include: 1] explicit; 2] implicit</a:documentation>
          <ref name="tei_att.global.attribute.xmlid"/>
          <ref name="tei_att.global.attribute.xmllang"/>
          <ref name="tei_att.global.analytic.attribute.ana"/>
-         <ref name="tei_att.segLike.attributes"/>
          <ref name="tei_att.linguistic.attributes"/>
-         <ref name="tei_att.notated.attributes"/>
          <empty/>
       </element>
    </define>
@@ -3878,7 +4566,6 @@ Sample values include: 1] explicit; 2] implicit</a:documentation>
          <text/>
          <ref name="tei_att.global.attribute.xmllang"/>
          <ref name="tei_att.global.analytic.attribute.ana"/>
-         <ref name="tei_att.segLike.attributes"/>
          <ref name="tei_att.linguistic.attribute.pos"/>
          <ref name="tei_att.linguistic.attribute.join"/>
          <ref name="tei_att.lexicographic.normalized.attribute.norm"/>
@@ -3892,53 +4579,6 @@ Sample values include: 1] explicit; 2] implicit</a:documentation>
          </attribute>
          <empty/>
       </element>
-   </define>
-   <define name="tei_att.anchoring.attributes">
-      <empty/>
-   </define>
-   <define name="tei_att.cReferencing.attributes">
-      <empty/>
-   </define>
-   <define name="tei_att.datable.attributes">
-      <ref name="tei_att.datable.w3c.attributes"/>
-      <ref name="tei_att.datable.iso.attributes"/>
-      <ref name="tei_att.datable.custom.attributes"/>
-   </define>
-   <define name="tei_att.datable.custom.attributes">
-      <empty/>
-   </define>
-   <define name="tei_att.datable.iso.attributes">
-      <empty/>
-   </define>
-   <define name="tei_att.datcat.attributes">
-      <empty/>
-   </define>
-   <define name="tei_att.declarable.attributes">
-      <empty/>
-   </define>
-   <define name="tei_att.declaring.attributes">
-      <empty/>
-   </define>
-   <define name="tei_att.dimensions.attributes">
-      <ref name="tei_att.ranging.attributes"/>
-   </define>
-   <define name="tei_att.divLike.attributes">
-      <ref name="tei_att.fragmentable.attributes"/>
-   </define>
-   <define name="tei_att.docStatus.attributes">
-      <empty/>
-   </define>
-   <define name="tei_att.duration.iso.attributes">
-      <empty/>
-   </define>
-   <define name="tei_att.editLike.attributes">
-      <empty/>
-   </define>
-   <define name="tei_att.edition.attributes">
-      <empty/>
-   </define>
-   <define name="tei_att.fragmentable.attributes">
-      <empty/>
    </define>
    <define name="tei_att.global.attributes">
       <ref name="tei_att.global.rendition.attributes"/>
@@ -4065,9 +4705,6 @@ Sample values include: 1] explicit; 2] implicit</a:documentation>
          </attribute>
       </optional>
    </define>
-   <define name="tei_att.global.rendition.attributes">
-      <empty/>
-   </define>
    <define name="tei_att.global.responsibility.attributes">
       <ref name="tei_att.global.responsibility.attribute.resp"/>
    </define>
@@ -4178,9 +4815,6 @@ Sample values include: 1] explicit; 2] implicit</a:documentation>
          </attribute>
       </optional>
    </define>
-   <define name="tei_att.locatable.attributes">
-      <empty/>
-   </define>
    <define name="tei_att.measurement.attributes">
       <ref name="tei_att.measurement.attribute.unit"/>
       <ref name="tei_att.measurement.attribute.quantity"/>
@@ -4251,7 +4885,7 @@ Suggested values include: 1] m (metre); 2] kg (kilogram); 3] s (second); 4] Hz (
       </optional>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="parlamint-att.measurement-att-measurement-unitRef-constraint-rule-5">
+            id="parlamint-att.measurement-att-measurement-unitRef-constraint-rule-7">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:eg="http://www.tei-c.org/ns/Examples"
                 xmlns:egXML="http://www.tei-c.org/ns/Examples"
@@ -4264,9 +4898,6 @@ Suggested values include: 1] m (metre); 2] kg (kilogram); 3] s (second); 4] Hz (
          <sch:report test="@unit" role="info">The @unit attribute may be unnecessary when @unitRef is present.</sch:report>
       </sch:rule>
    </pattern>
-   <define name="tei_att.media.attributes">
-      <ref name="tei_att.internetMedia.attributes"/>
-   </define>
    <define name="tei_att.naming.attributes">
       <ref name="tei_att.canonical.attributes"/>
       <ref name="tei_att.naming.attribute.role"/>
@@ -4284,9 +4915,6 @@ Suggested values include: 1] m (metre); 2] kg (kilogram); 3] s (second); 4] Hz (
             </list>
          </attribute>
       </optional>
-   </define>
-   <define name="tei_att.notated.attributes">
-      <empty/>
    </define>
    <define name="tei_att.patternReplacement.attributes">
       <ref name="tei_att.patternReplacement.attribute.matchPattern"/>
@@ -4325,9 +4953,6 @@ Suggested values include: 1] m (metre); 2] kg (kilogram); 3] s (second); 4] Hz (
          </attribute>
       </optional>
    </define>
-   <define name="tei_att.placement.attributes">
-      <empty/>
-   </define>
    <define name="tei_att.pointing.attributes">
       <ref name="tei_att.pointing.attribute.target"/>
    </define>
@@ -4343,9 +4968,6 @@ Suggested values include: 1] m (metre); 2] kg (kilogram); 3] s (second); 4] Hz (
          </attribute>
       </optional>
    </define>
-   <define name="tei_att.ranging.attributes">
-      <empty/>
-   </define>
    <define name="tei_att.resourced.attributes">
       <ref name="tei_att.resourced.attribute.url"/>
    </define>
@@ -4354,19 +4976,6 @@ Suggested values include: 1] m (metre); 2] kg (kilogram); 3] s (second); 4] Hz (
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(uniform resource locator) specifies the URL from which the media concerned may be obtained.</a:documentation>
          <data type="anyURI"/>
       </attribute>
-   </define>
-   <define name="tei_att.segLike.attributes">
-      <ref name="tei_att.datcat.attributes"/>
-      <ref name="tei_att.fragmentable.attributes"/>
-   </define>
-   <define name="tei_att.sortable.attributes">
-      <empty/>
-   </define>
-   <define name="tei_att.spanning.attributes">
-      <empty/>
-   </define>
-   <define name="tei_att.timed.attributes">
-      <ref name="tei_att.duration.attributes"/>
    </define>
    <define name="tei_att.typed.attributes">
       <ref name="tei_att.typed.attribute.type"/>
@@ -4393,7 +5002,7 @@ Suggested values include: 1] m (metre); 2] kg (kilogram); 3] s (second); 4] Hz (
       </optional>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="parlamint-att.typed-subtypeTyped-constraint-rule-6">
+            id="parlamint-att.typed-subtypeTyped-constraint-rule-8">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:eg="http://www.tei-c.org/ns/Examples"
                 xmlns:egXML="http://www.tei-c.org/ns/Examples"
@@ -4406,9 +5015,6 @@ Suggested values include: 1] m (metre); 2] kg (kilogram); 3] s (second); 4] Hz (
          <sch:assert test="@type">The <sch:name/> element should not be categorized in detail with @subtype unless also categorized in general with @type</sch:assert>
       </sch:rule>
    </pattern>
-   <define name="tei_att.written.attributes">
-      <empty/>
-   </define>
    <define name="tei_include">
       <element name="include" ns="http://www.w3.org/2001/XInclude">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>

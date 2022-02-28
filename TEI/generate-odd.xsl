@@ -74,7 +74,6 @@
             </xsl:element>
           </xsl:if>
         <!--</xsl:if>-->
-        <!-- otestovat, jestli je to zároveň definováno v classRef/@include (promenná ) a není to v list -->
       </xsl:for-each>
       <xsl:for-each select="./tei:classes/tei:memberOf[@key]">
         <!-- check classes -->

@@ -705,6 +705,36 @@
          <attDef ident="notation" mode="delete"/>
       </attList>
    </elementSpec>
+   <elementSpec ident="pb" module="core" mode="change">
+      <content>
+    </content>
+      <attList><!--pb/@xml:id--><!--pb/@n--><!--pb/@source--><!--pb/@corresp-->
+         <attDef ident="xml:lang" mode="delete"/>
+         <attDef ident="xml:base" mode="delete"/>
+         <attDef ident="xml:space" mode="delete"/>
+         <attDef ident="rend" mode="delete"/>
+         <attDef ident="style" mode="delete"/>
+         <attDef ident="rendition" mode="delete"/>
+         <attDef ident="synch" mode="delete"/>
+         <attDef ident="sameAs" mode="delete"/>
+         <attDef ident="copyOf" mode="delete"/>
+         <attDef ident="next" mode="delete"/>
+         <attDef ident="prev" mode="delete"/>
+         <attDef ident="exclude" mode="delete"/>
+         <attDef ident="select" mode="delete"/>
+         <attDef ident="ana" mode="delete"/>
+         <attDef ident="facs" mode="delete"/>
+         <attDef ident="change" mode="delete"/>
+         <attDef ident="cert" mode="delete"/>
+         <attDef ident="resp" mode="delete"/>
+         <attDef ident="type" mode="delete"/>
+         <attDef ident="subtype" mode="delete"/>
+         <attDef ident="ed" mode="delete"/>
+         <attDef ident="edRef" mode="delete"/>
+         <attDef ident="spanTo" mode="delete"/>
+         <attDef ident="break" mode="delete"/>
+      </attList>
+   </elementSpec>
    <!-- Linguistic elements for ParlaMint.ana -->
    <elementSpec ident="s" module="analysis" mode="change">
       <content>
@@ -964,7 +994,7 @@
          </alternate>
       </content>
       <!-- Redefine type values, 
-	 remove all other attributes except xml:id, xml:lang, ana, full, subtype  -->
+	 remove all other attributes except xml:id, xml:lang, ana, key, full, subtype   -->
       <attList>
          <attDef ident="type" mode="replace" usage="opt">
             <valList type="closed">
@@ -975,6 +1005,7 @@
                <!-- Values used in the teiHeader: -->
                <valItem ident="city"/>
                <valItem ident="country"/>
+               <!-- used together with @key="CODE" -->
                <!-- Used by BG, arguably wrong: 
                <name type="address">Parliament square</name>
 	  -->
@@ -989,21 +1020,56 @@
                <valItem ident="place"/>
             </valList>
          </attDef>
-         <attDef ident="xml:space" mode="delete"/>
+         <!--name/@xml:id-->
+         <!--name/@xml:lang-->
+         <!--name/@ana-->
+         <!--name/@key-->
+         <!--name/@full-->
+         <!--name/@subtype-->
+         <attDef ident="n" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
+         <attDef ident="xml:space" mode="delete"/>
+         <attDef ident="rend" mode="delete"/>
+         <attDef ident="style" mode="delete"/>
+         <attDef ident="rendition" mode="delete"/>
          <attDef ident="corresp" mode="delete"/>
          <attDef ident="synch" mode="delete"/>
+         <attDef ident="sameAs" mode="delete"/>
+         <attDef ident="copyOf" mode="delete"/>
          <attDef ident="next" mode="delete"/>
          <attDef ident="prev" mode="delete"/>
+         <attDef ident="exclude" mode="delete"/>
+         <attDef ident="select" mode="delete"/>
+         <attDef ident="facs" mode="delete"/>
+         <attDef ident="change" mode="delete"/>
+         <attDef ident="cert" mode="delete"/>
          <attDef ident="resp" mode="delete"/>
          <attDef ident="source" mode="delete"/>
+         <attDef ident="sort" mode="delete"/>
          <attDef ident="role" mode="delete"/>
+         <attDef ident="nymRef" mode="delete"/>
          <attDef ident="ref" mode="delete"/>
+         <attDef ident="calendar" mode="delete"/>
+         <attDef ident="period" mode="delete"/>
          <attDef ident="when" mode="delete"/>
-         <attDef ident="from" mode="delete"/>
-         <attDef ident="to" mode="delete"/>
          <attDef ident="notBefore" mode="delete"/>
          <attDef ident="notAfter" mode="delete"/>
+         <attDef ident="from" mode="delete"/>
+         <attDef ident="to" mode="delete"/>
+         <attDef ident="when-iso" mode="delete"/>
+         <attDef ident="notBefore-iso" mode="delete"/>
+         <attDef ident="notAfter-iso" mode="delete"/>
+         <attDef ident="from-iso" mode="delete"/>
+         <attDef ident="to-iso" mode="delete"/>
+         <attDef ident="when-custom" mode="delete"/>
+         <attDef ident="notBefore-custom" mode="delete"/>
+         <attDef ident="notAfter-custom" mode="delete"/>
+         <attDef ident="from-custom" mode="delete"/>
+         <attDef ident="to-custom" mode="delete"/>
+         <attDef ident="datingPoint" mode="delete"/>
+         <attDef ident="datingMethod" mode="delete"/>
+         <attDef ident="evidence" mode="delete"/>
+         <attDef ident="instant" mode="delete"/>
       </attList>
    </elementSpec>
    <elementSpec ident="num" module="core" mode="change">
@@ -1015,38 +1081,933 @@
          </alternate>
       </content>
       <!-- Remove all attributes except xml:id, xml:lang, ana, type, subtype -->
-      <attList>
-         <attDef ident="xml:space" mode="delete"/>
+      <attList><!--num/@xml:id--><!--num/@xml:lang--><!--num/@ana--><!--num/@type--><!--num/@subtype-->
+         <attDef ident="value" mode="delete"/>
+         <attDef ident="n" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
+         <attDef ident="xml:space" mode="delete"/>
+         <attDef ident="rend" mode="delete"/>
+         <attDef ident="style" mode="delete"/>
+         <attDef ident="rendition" mode="delete"/>
          <attDef ident="corresp" mode="delete"/>
          <attDef ident="synch" mode="delete"/>
+         <attDef ident="sameAs" mode="delete"/>
+         <attDef ident="copyOf" mode="delete"/>
          <attDef ident="next" mode="delete"/>
          <attDef ident="prev" mode="delete"/>
+         <attDef ident="exclude" mode="delete"/>
+         <attDef ident="select" mode="delete"/>
+         <attDef ident="facs" mode="delete"/>
+         <attDef ident="change" mode="delete"/>
+         <attDef ident="cert" mode="delete"/>
+         <attDef ident="resp" mode="delete"/>
+         <attDef ident="source" mode="delete"/>
+         <attDef ident="atLeast" mode="delete"/>
+         <attDef ident="atMost" mode="delete"/>
+         <attDef ident="min" mode="delete"/>
+         <attDef ident="max" mode="delete"/>
+         <attDef ident="confidence" mode="delete"/>
+      </attList>
+   </elementSpec>
+   <elementSpec ident="date" module="core" mode="change">
+      <content>
+         <alternate minOccurs="1" maxOccurs="unbounded">
+            <elementRef key="w"/>
+            <elementRef key="pc"/>
+            <elementRef key="date"/>
+            <textNode/>
+         </alternate>
+      </content>
+      <!-- Remove all attributes except xml:id, xml:lang, ana, type, subtype -->
+      <attList><!--date/@xml:id--><!--date/@xml:lang--><!--date/@ana--><!--date/@type--><!--date/@subtype--><!--date/@when--><!--date/@to--><!--date/@from-->
+         <attDef ident="n" mode="delete"/>
+         <attDef ident="xml:base" mode="delete"/>
+         <attDef ident="xml:space" mode="delete"/>
+         <attDef ident="rend" mode="delete"/>
+         <attDef ident="style" mode="delete"/>
+         <attDef ident="rendition" mode="delete"/>
+         <attDef ident="corresp" mode="delete"/>
+         <attDef ident="synch" mode="delete"/>
+         <attDef ident="sameAs" mode="delete"/>
+         <attDef ident="copyOf" mode="delete"/>
+         <attDef ident="next" mode="delete"/>
+         <attDef ident="prev" mode="delete"/>
+         <attDef ident="exclude" mode="delete"/>
+         <attDef ident="select" mode="delete"/>
+         <attDef ident="facs" mode="delete"/>
+         <attDef ident="change" mode="delete"/>
+         <attDef ident="cert" mode="delete"/>
+         <attDef ident="resp" mode="delete"/>
+         <attDef ident="source" mode="delete"/>
+         <attDef ident="key" mode="delete"/>
+         <attDef ident="ref" mode="delete"/>
+         <attDef ident="calendar" mode="delete"/>
+         <attDef ident="period" mode="delete"/>
+         <attDef ident="notBefore" mode="delete"/>
+         <attDef ident="notAfter" mode="delete"/>
+         <attDef ident="when-iso" mode="delete"/>
+         <attDef ident="notBefore-iso" mode="delete"/>
+         <attDef ident="notAfter-iso" mode="delete"/>
+         <attDef ident="from-iso" mode="delete"/>
+         <attDef ident="to-iso" mode="delete"/>
+         <attDef ident="when-custom" mode="delete"/>
+         <attDef ident="notBefore-custom" mode="delete"/>
+         <attDef ident="notAfter-custom" mode="delete"/>
+         <attDef ident="from-custom" mode="delete"/>
+         <attDef ident="to-custom" mode="delete"/>
+         <attDef ident="datingPoint" mode="delete"/>
+         <attDef ident="datingMethod" mode="delete"/>
+         <attDef ident="dur" mode="delete"/>
+         <attDef ident="dur-iso" mode="delete"/>
+         <attDef ident="evidence" mode="delete"/>
+         <attDef ident="instant" mode="delete"/>
+         <attDef ident="unit" mode="delete"/>
+         <attDef ident="quantity" mode="delete"/>
+         <attDef ident="extent" mode="delete"/>
+         <attDef ident="precision" mode="delete"/>
+         <attDef ident="scope" mode="delete"/>
+         <attDef ident="atLeast" mode="delete"/>
+         <attDef ident="atMost" mode="delete"/>
+         <attDef ident="min" mode="delete"/>
+         <attDef ident="max" mode="delete"/>
+         <attDef ident="confidence" mode="delete"/>
+      </attList>
+   </elementSpec>
+   <elementSpec ident="time" module="core" mode="change">
+      <content>
+         <alternate minOccurs="1" maxOccurs="unbounded">
+            <elementRef key="w"/>
+            <elementRef key="pc"/>
+            <textNode/>
+         </alternate>
+      </content>
+      <!-- Remove all attributes except xml:id, xml:lang, ana, type, subtype -->
+      <attList><!--time/@xml:id--><!--time/@xml:lang--><!--time/@ana--><!--time/@type--><!--time/@subtype--><!--time/@when--><!--time/@to--><!--time/@from-->
+         <attDef ident="n" mode="delete"/>
+         <attDef ident="xml:base" mode="delete"/>
+         <attDef ident="xml:space" mode="delete"/>
+         <attDef ident="rend" mode="delete"/>
+         <attDef ident="style" mode="delete"/>
+         <attDef ident="rendition" mode="delete"/>
+         <attDef ident="corresp" mode="delete"/>
+         <attDef ident="synch" mode="delete"/>
+         <attDef ident="sameAs" mode="delete"/>
+         <attDef ident="copyOf" mode="delete"/>
+         <attDef ident="next" mode="delete"/>
+         <attDef ident="prev" mode="delete"/>
+         <attDef ident="exclude" mode="delete"/>
+         <attDef ident="select" mode="delete"/>
+         <attDef ident="facs" mode="delete"/>
+         <attDef ident="change" mode="delete"/>
+         <attDef ident="cert" mode="delete"/>
+         <attDef ident="resp" mode="delete"/>
+         <attDef ident="source" mode="delete"/>
+         <attDef ident="calendar" mode="delete"/>
+         <attDef ident="period" mode="delete"/>
+         <attDef ident="notBefore" mode="delete"/>
+         <attDef ident="notAfter" mode="delete"/>
+         <attDef ident="when-iso" mode="delete"/>
+         <attDef ident="notBefore-iso" mode="delete"/>
+         <attDef ident="notAfter-iso" mode="delete"/>
+         <attDef ident="from-iso" mode="delete"/>
+         <attDef ident="to-iso" mode="delete"/>
+         <attDef ident="when-custom" mode="delete"/>
+         <attDef ident="notBefore-custom" mode="delete"/>
+         <attDef ident="notAfter-custom" mode="delete"/>
+         <attDef ident="from-custom" mode="delete"/>
+         <attDef ident="to-custom" mode="delete"/>
+         <attDef ident="datingPoint" mode="delete"/>
+         <attDef ident="datingMethod" mode="delete"/>
+         <attDef ident="key" mode="delete"/>
+         <attDef ident="ref" mode="delete"/>
+         <attDef ident="dur" mode="delete"/>
+         <attDef ident="dur-iso" mode="delete"/>
+         <attDef ident="evidence" mode="delete"/>
+         <attDef ident="instant" mode="delete"/>
+         <attDef ident="unit" mode="delete"/>
+         <attDef ident="quantity" mode="delete"/>
+         <attDef ident="extent" mode="delete"/>
+         <attDef ident="precision" mode="delete"/>
+         <attDef ident="scope" mode="delete"/>
+         <attDef ident="atLeast" mode="delete"/>
+         <attDef ident="atMost" mode="delete"/>
+         <attDef ident="min" mode="delete"/>
+         <attDef ident="max" mode="delete"/>
+         <attDef ident="confidence" mode="delete"/>
+      </attList>
+   </elementSpec>
+   <elementSpec ident="email" module="core" mode="change">
+      <content>
+         <alternate minOccurs="1" maxOccurs="unbounded">
+            <elementRef key="w"/>
+            <elementRef key="pc"/>
+            <textNode/>
+         </alternate>
+      </content>
+      <!-- Remove all attributes except xml:id, xml:lang, ana, type, subtype -->
+      <attList><!--email/@xml:id--><!--email/@xml:lang--><!--email/@ana--><!--email/@type--><!--email/@subtype--><!--email/@when--><!--email/@to--><!--email/@from-->
+         <attDef ident="n" mode="delete"/>
+         <attDef ident="xml:base" mode="delete"/>
+         <attDef ident="xml:space" mode="delete"/>
+         <attDef ident="rend" mode="delete"/>
+         <attDef ident="style" mode="delete"/>
+         <attDef ident="rendition" mode="delete"/>
+         <attDef ident="corresp" mode="delete"/>
+         <attDef ident="synch" mode="delete"/>
+         <attDef ident="sameAs" mode="delete"/>
+         <attDef ident="copyOf" mode="delete"/>
+         <attDef ident="next" mode="delete"/>
+         <attDef ident="prev" mode="delete"/>
+         <attDef ident="exclude" mode="delete"/>
+         <attDef ident="select" mode="delete"/>
+         <attDef ident="facs" mode="delete"/>
+         <attDef ident="change" mode="delete"/>
+         <attDef ident="cert" mode="delete"/>
          <attDef ident="resp" mode="delete"/>
          <attDef ident="source" mode="delete"/>
       </attList>
    </elementSpec>
+   <!-- teiHeader (in DFS order) -->
+   <elementSpec ident="teiHeader" module="header" mode="change">
+      <content>
+         <elementRef key="fileDesc"/>
+         <elementRef key="encodingDesc"/>
+         <elementRef key="profileDesc"/>
+         <elementRef key="revisionDesc" minOccurs="0" maxOccurs="1"/>
+      </content>
+      <attList><!-- remove all attributes -->
+         <attDef ident="xml:id" mode="delete"/>
+         <attDef ident="n" mode="delete"/>
+         <attDef ident="xml:lang" mode="delete"/>
+         <attDef ident="xml:base" mode="delete"/>
+         <attDef ident="xml:space" mode="delete"/>
+         <attDef ident="rend" mode="delete"/>
+         <attDef ident="style" mode="delete"/>
+         <attDef ident="rendition" mode="delete"/>
+         <attDef ident="corresp" mode="delete"/>
+         <attDef ident="synch" mode="delete"/>
+         <attDef ident="sameAs" mode="delete"/>
+         <attDef ident="copyOf" mode="delete"/>
+         <attDef ident="next" mode="delete"/>
+         <attDef ident="prev" mode="delete"/>
+         <attDef ident="exclude" mode="delete"/>
+         <attDef ident="select" mode="delete"/>
+         <attDef ident="ana" mode="delete"/>
+         <attDef ident="facs" mode="delete"/>
+         <attDef ident="change" mode="delete"/>
+         <attDef ident="cert" mode="delete"/>
+         <attDef ident="resp" mode="delete"/>
+         <attDef ident="source" mode="delete"/>
+      </attList>
+   </elementSpec>
+   <elementSpec ident="fileDesc" module="header" mode="change">
+      <content>
+         <elementRef key="titleStmt"/>
+         <elementRef key="editionStmt"/>
+         <elementRef key="extent"/>
+         <elementRef key="publicationStmt"/>
+         <elementRef key="sourceDesc"/>
+      </content>
+      <attList><!-- remove all attributes -->
+         <attDef ident="xml:id" mode="delete"/>
+         <attDef ident="n" mode="delete"/>
+         <attDef ident="xml:lang" mode="delete"/>
+         <attDef ident="xml:base" mode="delete"/>
+         <attDef ident="xml:space" mode="delete"/>
+         <attDef ident="rend" mode="delete"/>
+         <attDef ident="style" mode="delete"/>
+         <attDef ident="rendition" mode="delete"/>
+         <attDef ident="corresp" mode="delete"/>
+         <attDef ident="synch" mode="delete"/>
+         <attDef ident="sameAs" mode="delete"/>
+         <attDef ident="copyOf" mode="delete"/>
+         <attDef ident="next" mode="delete"/>
+         <attDef ident="prev" mode="delete"/>
+         <attDef ident="exclude" mode="delete"/>
+         <attDef ident="select" mode="delete"/>
+         <attDef ident="ana" mode="delete"/>
+         <attDef ident="facs" mode="delete"/>
+         <attDef ident="change" mode="delete"/>
+         <attDef ident="cert" mode="delete"/>
+         <attDef ident="resp" mode="delete"/>
+         <attDef ident="source" mode="delete"/>
+      </attList>
+   </elementSpec>
+   <elementSpec ident="titleStmt" module="header" mode="change">
+      <content>
+         <elementRef key="title" minOccurs="1" maxOccurs="unbounded"/>
+         <elementRef key="meeting" minOccurs="1" maxOccurs="unbounded"/>
+         <!-- LV: missing respStmt in component files -->
+         <elementRef key="respStmt" minOccurs="0" maxOccurs="unbounded"/>
+         <!-- GB, LV: missing funder in component files  -->
+         <elementRef key="funder" minOccurs="0" maxOccurs="unbounded"/>
+      </content>
+      <attList><!-- remove all attributes -->
+         <attDef ident="xml:id" mode="delete"/>
+         <attDef ident="n" mode="delete"/>
+         <attDef ident="xml:lang" mode="delete"/>
+         <attDef ident="xml:base" mode="delete"/>
+         <attDef ident="xml:space" mode="delete"/>
+         <attDef ident="rend" mode="delete"/>
+         <attDef ident="style" mode="delete"/>
+         <attDef ident="rendition" mode="delete"/>
+         <attDef ident="corresp" mode="delete"/>
+         <attDef ident="synch" mode="delete"/>
+         <attDef ident="sameAs" mode="delete"/>
+         <attDef ident="copyOf" mode="delete"/>
+         <attDef ident="next" mode="delete"/>
+         <attDef ident="prev" mode="delete"/>
+         <attDef ident="exclude" mode="delete"/>
+         <attDef ident="select" mode="delete"/>
+         <attDef ident="ana" mode="delete"/>
+         <attDef ident="facs" mode="delete"/>
+         <attDef ident="change" mode="delete"/>
+         <attDef ident="cert" mode="delete"/>
+         <attDef ident="resp" mode="delete"/>
+         <attDef ident="source" mode="delete"/>
+      </attList>
+   </elementSpec>
+   <elementSpec ident="title" module="core" mode="change">
+      <content>
+         <textNode/>
+      </content>
+      <attList>
+         <attDef ident="type" mode="replace" usage="rec">
+        <!-- obligatory in titleStmt, optional in text-->
+            <valList type="closed">
+               <valItem ident="main"/>
+               <valItem ident="sub"/>
+            </valList>
+            <remarks xml:lang="en">
+               <p>Attribute is required in <gi>titleStmt</gi> context.</p>
+            </remarks>
+         </attDef>
+         <!--title/@xml:lang-->
+         <attDef ident="level" mode="delete"/>
+         <attDef ident="xml:id" mode="delete"/>
+         <attDef ident="n" mode="delete"/>
+         <attDef ident="xml:base" mode="delete"/>
+         <attDef ident="xml:space" mode="delete"/>
+         <attDef ident="rend" mode="delete"/>
+         <attDef ident="style" mode="delete"/>
+         <attDef ident="rendition" mode="delete"/>
+         <attDef ident="corresp" mode="delete"/>
+         <attDef ident="synch" mode="delete"/>
+         <attDef ident="sameAs" mode="delete"/>
+         <attDef ident="copyOf" mode="delete"/>
+         <attDef ident="next" mode="delete"/>
+         <attDef ident="prev" mode="delete"/>
+         <attDef ident="exclude" mode="delete"/>
+         <attDef ident="select" mode="delete"/>
+         <attDef ident="ana" mode="delete"/>
+         <attDef ident="facs" mode="delete"/>
+         <attDef ident="change" mode="delete"/>
+         <attDef ident="cert" mode="delete"/>
+         <attDef ident="resp" mode="delete"/>
+         <attDef ident="source" mode="delete"/>
+         <attDef ident="subtype" mode="delete"/>
+         <attDef ident="key" mode="delete"/>
+         <attDef ident="ref" mode="delete"/>
+         <attDef ident="calendar" mode="delete"/>
+         <attDef ident="period" mode="delete"/>
+         <attDef ident="when" mode="delete"/>
+         <attDef ident="notBefore" mode="delete"/>
+         <attDef ident="notAfter" mode="delete"/>
+         <attDef ident="from" mode="delete"/>
+         <attDef ident="to" mode="delete"/>
+         <attDef ident="when-iso" mode="delete"/>
+         <attDef ident="notBefore-iso" mode="delete"/>
+         <attDef ident="notAfter-iso" mode="delete"/>
+         <attDef ident="from-iso" mode="delete"/>
+         <attDef ident="to-iso" mode="delete"/>
+         <attDef ident="when-custom" mode="delete"/>
+         <attDef ident="notBefore-custom" mode="delete"/>
+         <attDef ident="notAfter-custom" mode="delete"/>
+         <attDef ident="from-custom" mode="delete"/>
+         <attDef ident="to-custom" mode="delete"/>
+         <attDef ident="datingPoint" mode="delete"/>
+         <attDef ident="datingMethod" mode="delete"/>
+      </attList>
+   </elementSpec>
+   <elementSpec ident="meeting" module="core" mode="change">
+      <content>
+         <textNode/>
+      </content>
+      <attList><!--meeting/@xml:lang--><!--meeting/@corresp--><!--meeting/@ana--><!--meeting/@n-->
+         <attDef ident="xml:id" mode="delete"/>
+         <attDef ident="xml:base" mode="delete"/>
+         <attDef ident="xml:space" mode="delete"/>
+         <attDef ident="rend" mode="delete"/>
+         <attDef ident="style" mode="delete"/>
+         <attDef ident="rendition" mode="delete"/>
+         <attDef ident="synch" mode="delete"/>
+         <attDef ident="sameAs" mode="delete"/>
+         <attDef ident="copyOf" mode="delete"/>
+         <attDef ident="next" mode="delete"/>
+         <attDef ident="prev" mode="delete"/>
+         <attDef ident="exclude" mode="delete"/>
+         <attDef ident="select" mode="delete"/>
+         <attDef ident="facs" mode="delete"/>
+         <attDef ident="change" mode="delete"/>
+         <attDef ident="cert" mode="delete"/>
+         <attDef ident="resp" mode="delete"/>
+         <attDef ident="source" mode="delete"/>
+         <attDef ident="calendar" mode="delete"/>
+         <attDef ident="period" mode="delete"/>
+         <attDef ident="when" mode="delete"/>
+         <attDef ident="notBefore" mode="delete"/>
+         <attDef ident="notAfter" mode="delete"/>
+         <attDef ident="from" mode="delete"/>
+         <attDef ident="to" mode="delete"/>
+         <attDef ident="when-iso" mode="delete"/>
+         <attDef ident="notBefore-iso" mode="delete"/>
+         <attDef ident="notAfter-iso" mode="delete"/>
+         <attDef ident="from-iso" mode="delete"/>
+         <attDef ident="to-iso" mode="delete"/>
+         <attDef ident="when-custom" mode="delete"/>
+         <attDef ident="notBefore-custom" mode="delete"/>
+         <attDef ident="notAfter-custom" mode="delete"/>
+         <attDef ident="from-custom" mode="delete"/>
+         <attDef ident="to-custom" mode="delete"/>
+         <attDef ident="datingPoint" mode="delete"/>
+         <attDef ident="datingMethod" mode="delete"/>
+         <attDef ident="key" mode="delete"/>
+         <attDef ident="ref" mode="delete"/>
+      </attList>
+   </elementSpec>
+   <elementSpec ident="respStmt" module="core" mode="change">
+      <content>
+         <elementRef key="persName" minOccurs="1" maxOccurs="unbounded"/>
+         <elementRef key="resp" minOccurs="1" maxOccurs="unbounded"/>
+      </content>
+      <attList><!-- remove all attributes -->
+         <attDef ident="xml:id" mode="delete"/>
+         <attDef ident="n" mode="delete"/>
+         <attDef ident="xml:lang" mode="delete"/>
+         <attDef ident="xml:base" mode="delete"/>
+         <attDef ident="xml:space" mode="delete"/>
+         <attDef ident="rend" mode="delete"/>
+         <attDef ident="style" mode="delete"/>
+         <attDef ident="rendition" mode="delete"/>
+         <attDef ident="corresp" mode="delete"/>
+         <attDef ident="synch" mode="delete"/>
+         <attDef ident="sameAs" mode="delete"/>
+         <attDef ident="copyOf" mode="delete"/>
+         <attDef ident="next" mode="delete"/>
+         <attDef ident="prev" mode="delete"/>
+         <attDef ident="exclude" mode="delete"/>
+         <attDef ident="select" mode="delete"/>
+         <attDef ident="ana" mode="delete"/>
+         <attDef ident="facs" mode="delete"/>
+         <attDef ident="change" mode="delete"/>
+         <attDef ident="cert" mode="delete"/>
+         <attDef ident="resp" mode="delete"/>
+         <attDef ident="source" mode="delete"/>
+         <attDef ident="key" mode="delete"/>
+         <attDef ident="ref" mode="delete"/>
+      </attList>
+   </elementSpec>
+   <elementSpec ident="persName" module="namesdates" mode="change">
+      <content>
+         <alternate minOccurs="1" maxOccurs="1">
+            <alternate minOccurs="1" maxOccurs="unbounded">
+          <!-- in personList -->
+               <elementRef key="forename" minOccurs="1" maxOccurs="unbounded"/>
+               <elementRef key="addName" minOccurs="0" maxOccurs="unbounded"/>
+               <elementRef key="nameLink" minOccurs="0" maxOccurs="1"/>
+               <elementRef key="roleName" minOccurs="0" maxOccurs="unbounded"/>
+               <elementRef key="surname" minOccurs="1" maxOccurs="unbounded"/>
+            </alternate>
+            <alternate minOccurs="1" maxOccurs="unbounded">
+               <elementRef key="term"/>
+            </alternate>
+            <alternate minOccurs="1" maxOccurs="1">
+               <textNode/>
+            </alternate>
+         </alternate>
+      </content>
+      <attList><!--persName/@xml:lang--><!--persName/@ref-->
+         <attDef ident="xml:id" mode="delete"/>
+         <attDef ident="n" mode="delete"/>
+         <attDef ident="xml:base" mode="delete"/>
+         <attDef ident="xml:space" mode="delete"/>
+         <attDef ident="rend" mode="delete"/>
+         <attDef ident="style" mode="delete"/>
+         <attDef ident="rendition" mode="delete"/>
+         <attDef ident="corresp" mode="delete"/>
+         <attDef ident="synch" mode="delete"/>
+         <attDef ident="sameAs" mode="delete"/>
+         <attDef ident="copyOf" mode="delete"/>
+         <attDef ident="next" mode="delete"/>
+         <attDef ident="prev" mode="delete"/>
+         <attDef ident="exclude" mode="delete"/>
+         <attDef ident="select" mode="delete"/>
+         <attDef ident="ana" mode="delete"/>
+         <attDef ident="facs" mode="delete"/>
+         <attDef ident="change" mode="delete"/>
+         <attDef ident="cert" mode="delete"/>
+         <attDef ident="resp" mode="delete"/>
+         <attDef ident="source" mode="delete"/>
+         <attDef ident="calendar" mode="delete"/>
+         <attDef ident="period" mode="delete"/>
+         <attDef ident="when" mode="delete"/>
+         <attDef ident="notBefore" mode="delete"/>
+         <attDef ident="notAfter" mode="delete"/>
+         <attDef ident="from" mode="delete"/>
+         <attDef ident="to" mode="delete"/>
+         <attDef ident="when-iso" mode="delete"/>
+         <attDef ident="notBefore-iso" mode="delete"/>
+         <attDef ident="notAfter-iso" mode="delete"/>
+         <attDef ident="from-iso" mode="delete"/>
+         <attDef ident="to-iso" mode="delete"/>
+         <attDef ident="when-custom" mode="delete"/>
+         <attDef ident="notBefore-custom" mode="delete"/>
+         <attDef ident="notAfter-custom" mode="delete"/>
+         <attDef ident="from-custom" mode="delete"/>
+         <attDef ident="to-custom" mode="delete"/>
+         <attDef ident="datingPoint" mode="delete"/>
+         <attDef ident="datingMethod" mode="delete"/>
+         <attDef ident="evidence" mode="delete"/>
+         <attDef ident="instant" mode="delete"/>
+         <attDef ident="full" mode="delete"/>
+         <attDef ident="sort" mode="delete"/>
+         <attDef ident="role" mode="delete"/>
+         <attDef ident="nymRef" mode="delete"/>
+         <attDef ident="key" mode="delete"/>
+         <attDef ident="type" mode="delete"/>
+         <attDef ident="subtype" mode="delete"/>
+      </attList>
+      <remarks xml:lang="en">
+         <p>Special persons (like '<val>anonymous</val>', '<val>group</val>' etc.)
+         have their name in <gi>term</gi>.
+      </p>
+      </remarks>
+   </elementSpec>
+   <elementSpec ident="funder" module="header" mode="change">
+      <content>
+         <elementRef key="orgName" minOccurs="1" maxOccurs="unbounded"/>
+      </content>
+      <attList><!-- remove all attributes -->
+         <attDef ident="xml:id" mode="delete"/>
+         <attDef ident="n" mode="delete"/>
+         <attDef ident="xml:lang" mode="delete"/>
+         <attDef ident="xml:base" mode="delete"/>
+         <attDef ident="xml:space" mode="delete"/>
+         <attDef ident="rend" mode="delete"/>
+         <attDef ident="style" mode="delete"/>
+         <attDef ident="rendition" mode="delete"/>
+         <attDef ident="corresp" mode="delete"/>
+         <attDef ident="synch" mode="delete"/>
+         <attDef ident="sameAs" mode="delete"/>
+         <attDef ident="copyOf" mode="delete"/>
+         <attDef ident="next" mode="delete"/>
+         <attDef ident="prev" mode="delete"/>
+         <attDef ident="exclude" mode="delete"/>
+         <attDef ident="select" mode="delete"/>
+         <attDef ident="ana" mode="delete"/>
+         <attDef ident="facs" mode="delete"/>
+         <attDef ident="change" mode="delete"/>
+         <attDef ident="cert" mode="delete"/>
+         <attDef ident="resp" mode="delete"/>
+         <attDef ident="source" mode="delete"/>
+         <attDef ident="key" mode="delete"/>
+         <attDef ident="ref" mode="delete"/>
+         <attDef ident="calendar" mode="delete"/>
+         <attDef ident="period" mode="delete"/>
+         <attDef ident="when" mode="delete"/>
+         <attDef ident="notBefore" mode="delete"/>
+         <attDef ident="notAfter" mode="delete"/>
+         <attDef ident="from" mode="delete"/>
+         <attDef ident="to" mode="delete"/>
+         <attDef ident="when-iso" mode="delete"/>
+         <attDef ident="notBefore-iso" mode="delete"/>
+         <attDef ident="notAfter-iso" mode="delete"/>
+         <attDef ident="from-iso" mode="delete"/>
+         <attDef ident="to-iso" mode="delete"/>
+         <attDef ident="when-custom" mode="delete"/>
+         <attDef ident="notBefore-custom" mode="delete"/>
+         <attDef ident="notAfter-custom" mode="delete"/>
+         <attDef ident="from-custom" mode="delete"/>
+         <attDef ident="to-custom" mode="delete"/>
+         <attDef ident="datingPoint" mode="delete"/>
+         <attDef ident="datingMethod" mode="delete"/>
+      </attList>
+   </elementSpec>
+   <elementSpec ident="orgName" module="namesdates" mode="change">
+      <content>
+         <textNode/>
+      </content>
+      <attList>
+         <attDef ident="full" mode="replace" usage="opt">
+            <valList type="closed">
+               <valItem ident="yes"/>
+               <valItem ident="init"/>
+            </valList>
+         </attDef>
+         <attDef ident="from" mode="change" usage="opt">
+            <remarks xml:lang="en">
+               <p>Used when "the same" party changes its name</p>
+            </remarks>
+         </attDef>
+         <attDef ident="to" mode="change" usage="opt">
+            <remarks xml:lang="en">
+               <p>Used when "the same" party changes its name</p>
+            </remarks>
+         </attDef>
+         <!--orgName/@xml:lang-->
+         <!--orgName/@ref-->
+         <attDef ident="xml:id" mode="delete"/>
+         <attDef ident="n" mode="delete"/>
+         <attDef ident="xml:base" mode="delete"/>
+         <attDef ident="xml:space" mode="delete"/>
+         <attDef ident="rend" mode="delete"/>
+         <attDef ident="style" mode="delete"/>
+         <attDef ident="rendition" mode="delete"/>
+         <attDef ident="corresp" mode="delete"/>
+         <attDef ident="synch" mode="delete"/>
+         <attDef ident="sameAs" mode="delete"/>
+         <attDef ident="copyOf" mode="delete"/>
+         <attDef ident="next" mode="delete"/>
+         <attDef ident="prev" mode="delete"/>
+         <attDef ident="exclude" mode="delete"/>
+         <attDef ident="select" mode="delete"/>
+         <attDef ident="ana" mode="delete"/>
+         <attDef ident="facs" mode="delete"/>
+         <attDef ident="change" mode="delete"/>
+         <attDef ident="cert" mode="delete"/>
+         <attDef ident="resp" mode="delete"/>
+         <attDef ident="source" mode="delete"/>
+         <attDef ident="calendar" mode="delete"/>
+         <attDef ident="period" mode="delete"/>
+         <attDef ident="when" mode="delete"/>
+         <attDef ident="notBefore" mode="delete"/>
+         <attDef ident="notAfter" mode="delete"/>
+         <attDef ident="when-iso" mode="delete"/>
+         <attDef ident="notBefore-iso" mode="delete"/>
+         <attDef ident="notAfter-iso" mode="delete"/>
+         <attDef ident="from-iso" mode="delete"/>
+         <attDef ident="to-iso" mode="delete"/>
+         <attDef ident="when-custom" mode="delete"/>
+         <attDef ident="notBefore-custom" mode="delete"/>
+         <attDef ident="notAfter-custom" mode="delete"/>
+         <attDef ident="from-custom" mode="delete"/>
+         <attDef ident="to-custom" mode="delete"/>
+         <attDef ident="datingPoint" mode="delete"/>
+         <attDef ident="datingMethod" mode="delete"/>
+         <attDef ident="evidence" mode="delete"/>
+         <attDef ident="instant" mode="delete"/>
+         <attDef ident="sort" mode="delete"/>
+         <attDef ident="role" mode="delete"/>
+         <attDef ident="nymRef" mode="delete"/>
+         <attDef ident="key" mode="delete"/>
+         <attDef ident="type" mode="delete"/>
+         <attDef ident="subtype" mode="delete"/>
+      </attList>
+   </elementSpec>
+   <elementSpec ident="editionStmt" module="header" mode="change">
+      <content>
+         <elementRef key="edition" minOccurs="1" maxOccurs="1"/>
+      </content>
+      <attList><!-- remove all attributes -->
+         <attDef ident="xml:id" mode="delete"/>
+         <attDef ident="n" mode="delete"/>
+         <attDef ident="xml:lang" mode="delete"/>
+         <attDef ident="xml:base" mode="delete"/>
+         <attDef ident="xml:space" mode="delete"/>
+         <attDef ident="rend" mode="delete"/>
+         <attDef ident="style" mode="delete"/>
+         <attDef ident="rendition" mode="delete"/>
+         <attDef ident="corresp" mode="delete"/>
+         <attDef ident="synch" mode="delete"/>
+         <attDef ident="sameAs" mode="delete"/>
+         <attDef ident="copyOf" mode="delete"/>
+         <attDef ident="next" mode="delete"/>
+         <attDef ident="prev" mode="delete"/>
+         <attDef ident="exclude" mode="delete"/>
+         <attDef ident="select" mode="delete"/>
+         <attDef ident="ana" mode="delete"/>
+         <attDef ident="facs" mode="delete"/>
+         <attDef ident="change" mode="delete"/>
+         <attDef ident="cert" mode="delete"/>
+         <attDef ident="resp" mode="delete"/>
+         <attDef ident="source" mode="delete"/>
+      </attList>
+   </elementSpec>
+   <elementSpec ident="edition" module="header" mode="change">
+      <content>
+         <textNode/>
+      </content>
+      <attList><!--edition/@xml:lang-->
+         <attDef ident="xml:id" mode="delete"/>
+         <attDef ident="n" mode="delete"/>
+         <attDef ident="xml:base" mode="delete"/>
+         <attDef ident="xml:space" mode="delete"/>
+         <attDef ident="rend" mode="delete"/>
+         <attDef ident="style" mode="delete"/>
+         <attDef ident="rendition" mode="delete"/>
+         <attDef ident="corresp" mode="delete"/>
+         <attDef ident="synch" mode="delete"/>
+         <attDef ident="sameAs" mode="delete"/>
+         <attDef ident="copyOf" mode="delete"/>
+         <attDef ident="next" mode="delete"/>
+         <attDef ident="prev" mode="delete"/>
+         <attDef ident="exclude" mode="delete"/>
+         <attDef ident="select" mode="delete"/>
+         <attDef ident="ana" mode="delete"/>
+         <attDef ident="facs" mode="delete"/>
+         <attDef ident="change" mode="delete"/>
+         <attDef ident="cert" mode="delete"/>
+         <attDef ident="resp" mode="delete"/>
+         <attDef ident="source" mode="delete"/>
+      </attList>
+   </elementSpec>
+   <elementSpec ident="extent" module="header" mode="change">
+      <content>
+         <elementRef key="measure" minOccurs="1" maxOccurs="unbounded"/>
+      </content>
+      <attList><!-- remove all attributes -->
+         <attDef ident="xml:id" mode="delete"/>
+         <attDef ident="n" mode="delete"/>
+         <attDef ident="xml:lang" mode="delete"/>
+         <attDef ident="xml:base" mode="delete"/>
+         <attDef ident="xml:space" mode="delete"/>
+         <attDef ident="rend" mode="delete"/>
+         <attDef ident="style" mode="delete"/>
+         <attDef ident="rendition" mode="delete"/>
+         <attDef ident="corresp" mode="delete"/>
+         <attDef ident="synch" mode="delete"/>
+         <attDef ident="sameAs" mode="delete"/>
+         <attDef ident="copyOf" mode="delete"/>
+         <attDef ident="next" mode="delete"/>
+         <attDef ident="prev" mode="delete"/>
+         <attDef ident="exclude" mode="delete"/>
+         <attDef ident="select" mode="delete"/>
+         <attDef ident="ana" mode="delete"/>
+         <attDef ident="facs" mode="delete"/>
+         <attDef ident="change" mode="delete"/>
+         <attDef ident="cert" mode="delete"/>
+         <attDef ident="resp" mode="delete"/>
+         <attDef ident="source" mode="delete"/>
+      </attList>
+   </elementSpec>
+   <elementSpec ident="measure" module="core" mode="change">
+      <content>
+         <textNode/>
+      </content>
+      <attList>
+         <attDef ident="unit" mode="replace" usage="req">
+            <valList type="closed">
+               <valItem ident="speeches"/>
+               <valItem ident="words"/>
+               <valItem ident="tokens">
+                  <desc xml:lang="en">optional value</desc>
+               </valItem>
+            </valList>
+         </attDef>
+         <attDef ident="quantity" mode="change" usage="req"/>
+         <!--measure/@xml:lang-->
+         <attDef ident="type" mode="delete"/>
+         <attDef ident="xml:id" mode="delete"/>
+         <attDef ident="n" mode="delete"/>
+         <attDef ident="xml:base" mode="delete"/>
+         <attDef ident="xml:space" mode="delete"/>
+         <attDef ident="rend" mode="delete"/>
+         <attDef ident="style" mode="delete"/>
+         <attDef ident="rendition" mode="delete"/>
+         <attDef ident="corresp" mode="delete"/>
+         <attDef ident="synch" mode="delete"/>
+         <attDef ident="sameAs" mode="delete"/>
+         <attDef ident="copyOf" mode="delete"/>
+         <attDef ident="next" mode="delete"/>
+         <attDef ident="prev" mode="delete"/>
+         <attDef ident="exclude" mode="delete"/>
+         <attDef ident="select" mode="delete"/>
+         <attDef ident="ana" mode="delete"/>
+         <attDef ident="facs" mode="delete"/>
+         <attDef ident="change" mode="delete"/>
+         <attDef ident="cert" mode="delete"/>
+         <attDef ident="resp" mode="delete"/>
+         <attDef ident="source" mode="delete"/>
+         <attDef ident="type" mode="delete"/>
+         <attDef ident="subtype" mode="delete"/>
+         <attDef ident="unitRef" mode="delete"/>
+         <attDef ident="commodity" mode="delete"/>
+      </attList>
+   </elementSpec>
+   <elementSpec ident="publicationStmt" module="header" mode="change">
+      <content>
+         <elementRef key="publisher"/>
+         <elementRef key="idno"/>
+         <elementRef key="pubPlace" minOccurs="0" maxOccurs="1"/>
+         <elementRef key="availability"/>
+         <elementRef key="date"/>
+      </content>
+      <attList><!-- remove all attributes -->
+         <attDef ident="xml:id" mode="delete"/>
+         <attDef ident="n" mode="delete"/>
+         <attDef ident="xml:lang" mode="delete"/>
+         <attDef ident="xml:base" mode="delete"/>
+         <attDef ident="xml:space" mode="delete"/>
+         <attDef ident="rend" mode="delete"/>
+         <attDef ident="style" mode="delete"/>
+         <attDef ident="rendition" mode="delete"/>
+         <attDef ident="corresp" mode="delete"/>
+         <attDef ident="synch" mode="delete"/>
+         <attDef ident="sameAs" mode="delete"/>
+         <attDef ident="copyOf" mode="delete"/>
+         <attDef ident="next" mode="delete"/>
+         <attDef ident="prev" mode="delete"/>
+         <attDef ident="exclude" mode="delete"/>
+         <attDef ident="select" mode="delete"/>
+         <attDef ident="ana" mode="delete"/>
+         <attDef ident="facs" mode="delete"/>
+         <attDef ident="change" mode="delete"/>
+         <attDef ident="cert" mode="delete"/>
+         <attDef ident="resp" mode="delete"/>
+         <attDef ident="source" mode="delete"/>
+      </attList>
+   </elementSpec>
+   <elementSpec ident="publisher" module="core" mode="change">
+      <content>
+         <alternate minOccurs="1" maxOccurs="1">
+            <sequence>
+               <elementRef key="orgName" minOccurs="1" maxOccurs="unbounded"/>
+               <elementRef key="ref" minOccurs="0" maxOccurs="1"/>
+            </sequence>
+            <textNode/>
+         </alternate>
+      </content>
+      <attList><!--publisher/@xml:lang-->
+         <attDef ident="xml:id" mode="delete"/>
+         <attDef ident="n" mode="delete"/>
+         <attDef ident="xml:base" mode="delete"/>
+         <attDef ident="xml:space" mode="delete"/>
+         <attDef ident="rend" mode="delete"/>
+         <attDef ident="style" mode="delete"/>
+         <attDef ident="rendition" mode="delete"/>
+         <attDef ident="corresp" mode="delete"/>
+         <attDef ident="synch" mode="delete"/>
+         <attDef ident="sameAs" mode="delete"/>
+         <attDef ident="copyOf" mode="delete"/>
+         <attDef ident="next" mode="delete"/>
+         <attDef ident="prev" mode="delete"/>
+         <attDef ident="exclude" mode="delete"/>
+         <attDef ident="select" mode="delete"/>
+         <attDef ident="ana" mode="delete"/>
+         <attDef ident="facs" mode="delete"/>
+         <attDef ident="change" mode="delete"/>
+         <attDef ident="cert" mode="delete"/>
+         <attDef ident="resp" mode="delete"/>
+         <attDef ident="source" mode="delete"/>
+         <attDef ident="key" mode="delete"/>
+         <attDef ident="ref" mode="delete"/>
+      </attList>
+   </elementSpec>
+   <elementSpec ident="idno" module="header" mode="change">
+      <content>
+         <textNode/>
+      </content>
+      <attList>
+         <attDef ident="type" mode="change" usage="req"/>
+         <attDef ident="subtype" mode="replace" usage="rec">
+            <valList type="semi">
+               <valItem ident="facebook"/>
+               <valItem ident="twitter"/>
+               <valItem ident="wikipedia"/>
+               <valItem ident="wikimedia"/>
+               <valItem ident="wikidata"/>
+            </valList>
+            <remarks xml:lang="en">
+               <p>sample values recomended to use with <att>type</att>="<val>URI</val>"</p>
+            </remarks>
+         </attDef>
+         <!--idno/@xml:lang-->
+         <attDef ident="xml:id" mode="delete"/>
+         <attDef ident="n" mode="delete"/>
+         <attDef ident="xml:base" mode="delete"/>
+         <attDef ident="xml:space" mode="delete"/>
+         <attDef ident="rend" mode="delete"/>
+         <attDef ident="style" mode="delete"/>
+         <attDef ident="rendition" mode="delete"/>
+         <attDef ident="corresp" mode="delete"/>
+         <attDef ident="synch" mode="delete"/>
+         <attDef ident="sameAs" mode="delete"/>
+         <attDef ident="copyOf" mode="delete"/>
+         <attDef ident="next" mode="delete"/>
+         <attDef ident="prev" mode="delete"/>
+         <attDef ident="exclude" mode="delete"/>
+         <attDef ident="select" mode="delete"/>
+         <attDef ident="ana" mode="delete"/>
+         <attDef ident="facs" mode="delete"/>
+         <attDef ident="change" mode="delete"/>
+         <attDef ident="cert" mode="delete"/>
+         <attDef ident="resp" mode="delete"/>
+         <attDef ident="source" mode="delete"/>
+         <attDef ident="sortKey" mode="delete"/>
+         <attDef ident="calendar" mode="delete"/>
+         <attDef ident="period" mode="delete"/>
+         <attDef ident="when" mode="delete"/>
+         <attDef ident="notBefore" mode="delete"/>
+         <attDef ident="notAfter" mode="delete"/>
+         <attDef ident="from" mode="delete"/>
+         <attDef ident="to" mode="delete"/>
+         <attDef ident="when-iso" mode="delete"/>
+         <attDef ident="notBefore-iso" mode="delete"/>
+         <attDef ident="notAfter-iso" mode="delete"/>
+         <attDef ident="from-iso" mode="delete"/>
+         <attDef ident="to-iso" mode="delete"/>
+         <attDef ident="when-custom" mode="delete"/>
+         <attDef ident="notBefore-custom" mode="delete"/>
+         <attDef ident="notAfter-custom" mode="delete"/>
+         <attDef ident="from-custom" mode="delete"/>
+         <attDef ident="to-custom" mode="delete"/>
+         <attDef ident="datingPoint" mode="delete"/>
+         <attDef ident="datingMethod" mode="delete"/>
+      </attList>
+   </elementSpec>
+   <elementSpec ident="bibl" module="core" mode="change">
+      <content>
+         <elementRef key="title" minOccurs="1" maxOccurs="unbounded"/>
+         <alternate minOccurs="1" maxOccurs="unbounded">
+            <elementRef key="edition" minOccurs="0" maxOccurs="1"/>
+            <elementRef key="publisher" minOccurs="0" maxOccurs="1"/>
+            <elementRef key="idno" minOccurs="0" maxOccurs="unbounded"/>
+            <elementRef key="date" minOccurs="1" maxOccurs="1"/>
+         </alternate>
+      </content>
+      <attList><!-- remove all attributes -->
+         <attDef ident="xml:id" mode="delete"/>
+         <attDef ident="n" mode="delete"/>
+         <attDef ident="xml:lang" mode="delete"/>
+         <attDef ident="xml:base" mode="delete"/>
+         <attDef ident="xml:space" mode="delete"/>
+         <attDef ident="rend" mode="delete"/>
+         <attDef ident="style" mode="delete"/>
+         <attDef ident="rendition" mode="delete"/>
+         <attDef ident="corresp" mode="delete"/>
+         <attDef ident="synch" mode="delete"/>
+         <attDef ident="sameAs" mode="delete"/>
+         <attDef ident="copyOf" mode="delete"/>
+         <attDef ident="next" mode="delete"/>
+         <attDef ident="prev" mode="delete"/>
+         <attDef ident="exclude" mode="delete"/>
+         <attDef ident="select" mode="delete"/>
+         <attDef ident="ana" mode="delete"/>
+         <attDef ident="facs" mode="delete"/>
+         <attDef ident="change" mode="delete"/>
+         <attDef ident="cert" mode="delete"/>
+         <attDef ident="resp" mode="delete"/>
+         <attDef ident="source" mode="delete"/>
+         <attDef ident="default" mode="delete"/>
+         <attDef ident="type" mode="delete"/>
+         <attDef ident="subtype" mode="delete"/>
+         <attDef ident="sortKey" mode="delete"/>
+         <attDef ident="status" mode="delete"/>
+      </attList>
+   </elementSpec>
    <!-- To Do:
   Appears both in TEI heder and in .ana body for CZ
-  <elementSpec ident="date" module="core" mode="change">
-    <content>
-    </content>
-  </elementSpec>
 
-    <elementSpec ident="time" module="core" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="bibl" module="core" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="email" module="core" mode="change">
-      <content>
-      </content>
-    </elementSpec>
 
     <elementSpec ident="graphic" module="core" mode="change">
       <content>
@@ -1063,20 +2024,14 @@
       </content>
     </elementSpec>
 
-    <elementSpec ident="measure" module="core" mode="change">
-      <content>
-      </content>
-    </elementSpec>
+
 
     <elementSpec ident="media" module="core" mode="change">
       <content>
       </content>
     </elementSpec>
 
-    <elementSpec ident="meeting" module="core" mode="change">
-      <content>
-      </content>
-    </elementSpec>
+
 
     <elementSpec ident="p" module="core" mode="change">
       <content>
@@ -1093,10 +2048,7 @@
       </content>
     </elementSpec>
 
-    <elementSpec ident="publisher" module="core" mode="change">
-      <content>
-      </content>
-    </elementSpec>
+
 
     <elementSpec ident="ref" module="core" mode="change">
       <content>
@@ -1108,20 +2060,13 @@
       </content>
     </elementSpec>
 
-    <elementSpec ident="respStmt" module="core" mode="change">
-      <content>
-      </content>
-    </elementSpec>
+
 
     <elementSpec ident="term" module="core" mode="change">
       <content>
       </content>
     </elementSpec>
 
-    <elementSpec ident="title" module="core" mode="change">
-      <content>
-      </content>
-    </elementSpec>
 
     <elementSpec ident="unit" module="core" mode="change">
       <content>
@@ -1173,15 +2118,7 @@
       </content>
     </elementSpec>
 
-    <elementSpec ident="edition" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
 
-    <elementSpec ident="editionStmt" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
 
     <elementSpec ident="editorialDecl" module="header" mode="change">
       <content>
@@ -1193,30 +2130,17 @@
       </content>
     </elementSpec>
 
-    <elementSpec ident="extent" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
 
-    <elementSpec ident="fileDesc" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
 
-    <elementSpec ident="funder" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
+
+
+
 
     <elementSpec ident="hyphenation" module="header" mode="change">
       <content>
       </content>
     </elementSpec>
 
-    <elementSpec ident="idno" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
 
     <elementSpec ident="langUsage" module="header" mode="change">
       <content>
@@ -1263,10 +2187,7 @@
       </content>
     </elementSpec>
 
-    <elementSpec ident="publicationStmt" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
+
 
     <elementSpec ident="quotation" module="header" mode="change">
       <content>
@@ -1303,20 +2224,13 @@
       </content>
     </elementSpec>
 
-    <elementSpec ident="teiHeader" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
 
     <elementSpec ident="textClass" module="header" mode="change">
       <content>
       </content>
     </elementSpec>
 
-    <elementSpec ident="titleStmt" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
+
 
     <elementSpec ident="particDesc" module="corpus" mode="change">
       <content>
@@ -1418,15 +2332,9 @@
       </content>
     </elementSpec>
 
-    <elementSpec ident="orgName" module="namesdates" mode="change">
-      <content>
-      </content>
-    </elementSpec>
 
-    <elementSpec ident="persName" module="namesdates" mode="change">
-      <content>
-      </content>
-    </elementSpec>
+
+
 
     <elementSpec ident="person" module="namesdates" mode="change">
       <content>
