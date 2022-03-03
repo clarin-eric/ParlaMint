@@ -383,6 +383,32 @@
     </attList>
   </elementSpec>
 
+  <elementSpec ident="term" module="core" mode="change">
+    <content>
+      <textNode/>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="ref" module="core" mode="change">
+    <content>
+      <textNode/>
+    </content>
+    <attList>
+      <attDef ident="target" mode="change" usage="rec"/>
+    </attList>
+  </elementSpec>
+
+  <elementSpec ident="pb" module="core" mode="change">
+    <content></content>
+    <attList>
+      <pm:attPreserve ident="xml:id"/>
+      <pm:attPreserve ident="n"/>
+      <pm:attPreserve ident="source"/>
+      <pm:attPreserve ident="corresp"/>
+    </attList>
+  </elementSpec>
+
   <elementSpec ident="u" module="spoken" mode="change">
     <content>
       <alternate minOccurs="1" maxOccurs="unbounded">
@@ -791,6 +817,51 @@
     </remarks>
   </elementSpec>
 
+  <elementSpec ident="forename" module="namesdates" mode="change">
+    <content>
+      <textNode/>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="addName" module="namesdates" mode="change">
+    <content>
+      <textNode/>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="nameLink" module="namesdates" mode="change">
+    <content>
+      <textNode/>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+
+  <elementSpec ident="roleName" module="namesdates" mode="change">
+    <content>
+      <textNode/>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="surname" module="namesdates" mode="change">
+    <content>
+      <textNode/>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="resp" module="core" mode="change">
+    <content>
+      <textNode/>
+    </content>
+    <attList>
+      <pm:attPreserve ident="xml:lang"/>
+    </attList>
+  </elementSpec>
+
   <elementSpec ident="funder" module="header" mode="change">
     <content>
       <elementRef key="orgName" minOccurs="1" maxOccurs="unbounded"/>
@@ -893,6 +964,7 @@
       <textNode/>
     </content>
     <attList>
+      <!-- TODO force @type value-->
       <attDef ident="type" mode="change" usage="req"/>
       <attDef ident="subtype" mode="replace" usage="rec">
         <valList type="semi">
@@ -908,6 +980,57 @@
     </attList>
   </elementSpec>
 
+  <elementSpec ident="pubPlace" module="core" mode="change">
+    <content>
+      <alternate minOccurs="1" maxOccurs="1">
+        <elementRef key="ref"/>
+        <textNode/>
+      </alternate>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="availability" module="header" mode="change">
+    <content>
+      <elementRef key="licence"/>
+      <elementRef key="p" minOccurs="1" maxOccurs="unbounded" />
+    </content>
+    <attList>
+      <attDef ident="status" mode="replace" usage="req">
+        <valList type="closed">
+          <valItem ident="free"/>
+        </valList>
+      </attDef>
+    </attList>
+  </elementSpec>
+
+  <elementSpec ident="licence" module="header" mode="change">
+    <content>
+      <dataRef name="anyURI"/>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="p" module="core" mode="change">
+    <content>
+      <alternate minOccurs="1" maxOccurs="unbounded">
+        <elementRef key="ref"/>
+        <textNode/>
+      </alternate>
+    </content>
+    <attList>
+      <pm:attPreserve ident="xml:lang" />
+    </attList>
+  </elementSpec>
+
+  <elementSpec ident="sourceDesc" module="header" mode="change">
+    <content>
+      <elementRef key="bibl" minOccurs="1" maxOccurs="unbounded"/>
+      <elementRef key="recordingStmt" minOccurs="0" maxOccurs="1"/>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
   <elementSpec ident="bibl" module="core" mode="change">
     <content>
       <elementRef key="title" minOccurs="1" maxOccurs="unbounded"/>
@@ -921,69 +1044,640 @@
     <attList><!-- remove all attributes --></attList>
   </elementSpec>
 
+  <elementSpec ident="recordingStmt" module="spoken" mode="change">
+    <content>
+      <elementRef key="recording" minOccurs="1" maxOccurs="unbounded"/>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
 
+  <elementSpec ident="recording" module="spoken" mode="change">
+    <content>
+      <elementRef key="media" minOccurs="1" maxOccurs="unbounded"/>
+    </content>
+    <attList>
+      <pm:attPreserve ident="type"/>
+    </attList>
+  </elementSpec>
+
+  <elementSpec ident="media" module="core" mode="change">
+    <content>
+    </content>
+    <attList>
+      <pm:attPreserve ident="xml:id"/>
+      <pm:attPreserve ident="mimeType"/>
+      <pm:attPreserve ident="source"/>
+      <pm:attPreserve ident="url"/>
+    </attList>
+  </elementSpec>
+
+  <elementSpec ident="encodingDesc" module="header" mode="change">
+    <content>
+      <elementRef key="projectDesc"/>
+      <elementRef key="editorialDecl" minOccurs="0" maxOccurs="1"/> <!-- used in teiCorpus -->
+      <elementRef key="tagsDecl"/>
+      <!-- used in teiCorpus: -->
+      <elementRef key="classDecl" minOccurs="0" maxOccurs="1"/>
+      <elementRef key="listPrefixDef" minOccurs="0" maxOccurs="1"/>
+      <elementRef key="appInfo" minOccurs="0" maxOccurs="1"/>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="projectDesc" module="header" mode="change">
+    <content>
+      <elementRef key="p" minOccurs="1" maxOccurs="unbounded"/>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="editorialDecl" module="header" mode="change">
+    <content>
+      <alternate minOccurs="1" maxOccurs="unbounded">
+        <elementRef key="correction"/>
+        <elementRef key="normalization"/>
+        <elementRef key="hyphenation"/>
+        <elementRef key="quotation"/>
+        <elementRef key="segmentation"/>
+      </alternate>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="correction" module="header" mode="change">
+    <content>
+      <elementRef key="p" minOccurs="1" maxOccurs="unbounded"/>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="normalization" module="header" mode="change">
+    <content>
+      <elementRef key="p" minOccurs="1" maxOccurs="unbounded"/>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="hyphenation" module="header" mode="change">
+    <content>
+      <elementRef key="p" minOccurs="1" maxOccurs="unbounded"/>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="quotation" module="header" mode="change">
+    <content>
+      <elementRef key="p" minOccurs="1" maxOccurs="unbounded"/>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="segmentation" module="header" mode="change">
+    <content>
+      <elementRef key="p" minOccurs="1" maxOccurs="unbounded"/>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="tagsDecl" module="header" mode="change">
+   <content>
+      <elementRef key="namespace"/>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="namespace" module="header" mode="change">
+     <content>
+      <elementRef key="tagUsage" minOccurs="1" maxOccurs="unbounded"/>
+    </content>
+    <attList>
+      <attDef ident="name" mode="replace" usage="req">
+        <valList type="closed">
+          <valItem ident="http://www.tei-c.org/ns/1.0"/>
+        </valList>
+      </attDef>
+    </attList>
+  </elementSpec>
+  <elementSpec ident="tagUsage" module="header" mode="change">
+    <content>
+    </content>
+    <attList>
+      <attDef ident="gi" mode="change" usage="req">
+        <desc versionDate="2013-11-20" xml:lang="en">specifies the name
+      (generic identifier) of the element indicated by the tag,  within the namespace indicated by the parent
+        <gi>namespace</gi> element. All descendats of <gi>text</gi> element and <gi>text</gi> element counts
+        has to be included. </desc>
+      </attDef>
+      <attDef ident="occurs" mode="change" usage="req"/>
+    </attList>
+  </elementSpec>
+
+  <elementSpec ident="classDecl" module="header" mode="change">
+    <content>
+      <elementRef key="taxonomy" minOccurs="1" maxOccurs="unbounded"/>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="taxonomy" module="header" mode="change">
+    <content>
+      <elementRef key="desc" minOccurs="1" maxOccurs="unbounded"/>
+      <elementRef key="category" minOccurs="1" maxOccurs="unbounded"/>
+    </content>
+    <attList>
+      <attDef ident="xml:id" mode="change" usage="req"/>
+    </attList>
+  </elementSpec>
+
+  <elementSpec ident="category" module="header" mode="change">
+    <content>
+      <elementRef key="catDesc" minOccurs="1" maxOccurs="unbounded"/>
+      <elementRef key="category" minOccurs="0" maxOccurs="unbounded"/>
+    </content>
+    <attList>
+      <attDef ident="xml:id" mode="change" usage="req"/>
+      <!-- in SI: -->
+      <attDef ident="ana" mode="change" usage="opt"/>
+    </attList>
+  </elementSpec>
+
+  <elementSpec ident="catDesc" module="core" mode="change">
+    <content>
+      <sequence>
+        <elementRef key="term"/>
+        <alternate minOccurs="1" maxOccurs="unbounded">
+          <textNode/>
+          <elementRef key="ref"/>
+        </alternate>
+      </sequence>
+    </content>
+    <attList>
+      <pm:attPreserve ident="xml:lang"/>
+    </attList>
+  </elementSpec>
+
+  <elementSpec ident="listPrefixDef" module="header" mode="change">
+    <content>
+      <elementRef key="prefixDef" minOccurs="1" maxOccurs="unbounded"/>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="prefixDef" module="header" mode="change">
+    <content>
+      <elementRef key="p" minOccurs="1" maxOccurs="unbounded"/>
+    </content>
+    <attList>
+      <attDef ident="ident" mode="change" usage="req"/>
+      <attDef ident="replacementPattern" mode="change" usage="req">
+        <remarks xml:lang="en"><p>Using TEI-defined XPointer schemes is not allowed.</p></remarks>
+      </attDef>
+      <attDef ident="matchPattern" mode="change" usage="req"/>
+    </attList>
+  </elementSpec>
+
+  <elementSpec ident="appInfo" module="header" mode="change">
+     <content>
+      <elementRef key="application" minOccurs="1" maxOccurs="unbounded"/>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="application" module="header" mode="change">
+    <content>
+      <elementRef key="label"/>
+      <elementRef key="desc" minOccurs="1" maxOccurs="unbounded"/>
+    </content>
+    <attList>
+      <attDef ident="ident" mode="change" usage="req"/>
+      <attDef ident="version" mode="change" usage="req"/>
+    </attList>
+  </elementSpec>
+
+  <elementSpec ident="label" module="core" mode="change">
+    <content>
+      <textNode/>
+    </content>
+    <attList>
+      <pm:attPreserve ident="xml:lang"/>
+    </attList>
+  </elementSpec>
+
+  <elementSpec ident="profileDesc" module="header" mode="change">
+    <content>
+      <elementRef key="settingDesc"/>
+      <!-- teiCorpus: -->
+      <elementRef key="textClass" minOccurs="0" maxOccurs="1"/>
+      <elementRef key="particDesc" minOccurs="0" maxOccurs="1"/>
+      <elementRef key="langUsage" minOccurs="0" maxOccurs="1"/>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="settingDesc" module="corpus" mode="change">
+    <content>
+      <elementRef key="setting" minOccurs="1" maxOccurs="unbounded"/>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="setting" module="corpus" mode="change">
+    <content>
+      <elementRef key="name" minOccurs="1" maxOccurs="unbounded"/>
+      <elementRef key="date"/>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="textClass" module="header" mode="change">
+    <content>
+      <elementRef key="catRef"/>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="catRef" module="header" mode="change">
+    <content></content>
+    <attList>
+      <attDef ident="scheme" mode="change" usage="req"/>
+      <attDef ident="target" mode="change" usage="req"/>
+    </attList>
+  </elementSpec>
+
+  <elementSpec ident="particDesc" module="corpus" mode="change">
+    <content>
+      <sequence>
+        <elementRef key="listOrg" minOccurs="1" maxOccurs="unbounded"/>
+        <elementRef key="listPerson" minOccurs="1" maxOccurs="unbounded"/>
+      </sequence>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="listOrg" module="namesdates" mode="change">
+    <content>
+      <sequence>
+        <elementRef key="head" minOccurs="0" maxOccurs="unbounded"/>
+        <elementRef key="org" minOccurs="1" maxOccurs="unbounded"/>
+        <elementRef key="listRelation" minOccurs="0" maxOccurs="1"/>
+      </sequence>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="head" module="core" mode="change">
+    <content>
+      <alternate minOccurs="1" maxOccurs="unbounded">
+        <elementRef key="note"/>
+        <textNode/>
+      </alternate>
+    </content>
+    <attList>
+      <pm:attPreserve ident="xml:lang" />
+      <pm:attPreserve ident="type" />
+    </attList>
+  </elementSpec>
+
+  <elementSpec ident="org" module="namesdates" mode="change">
+    <content>
+      <sequence>
+        <elementRef key="head" minOccurs="0" maxOccurs="unbounded"/>
+        <elementRef key="orgName" minOccurs="1" maxOccurs="unbounded"/>
+        <elementRef key="event" minOccurs="0" maxOccurs="unbounded"/>
+        <elementRef key="idno" minOccurs="0" maxOccurs="unbounded"/>
+        <elementRef key="desc" minOccurs="0" maxOccurs="1"/>
+        <elementRef key="listEvent" minOccurs="0" maxOccurs="1"/>
+      </sequence>
+    </content>
+    <attList>
+      <attDef ident="xml:id" mode="change" usage="req"/>
+      <attDef ident="role" mode="replace" usage="req">
+        <valList type="closed">
+          <valItem ident="government"/>
+          <valItem ident="parliament"/>
+          <valItem ident="politicalParty"/>
+          <valItem ident="politicalGroup"/>
+          <valItem ident="conferenceOfChairs"/>
+          <valItem ident="boardOfParliament"/>
+          <valItem ident="coalition"/>
+          <valItem ident="ngo"/>
+          <valItem ident="president"/>
+          <valItem ident="institution"/>
+          <valItem ident="senate"/>
+          <valItem ident="committee"/>
+          <valItem ident="subcommittee"/>
+          <valItem ident="commission"/>
+          <valItem ident="delegation"/>
+          <valItem ident="supervisoryBoard"/>
+          <valItem ident="workingGroup"/>
+          <valItem ident="interparliamentaryFriendshipGroup"/>
+          <valItem ident="nationalCouncil"/>
+          <valItem ident="chamberOfThePeople"/>
+          <valItem ident="chamberOfTheNations"/>
+          <valItem ident="europeanParliament"/>
+          <valItem ident="internationalOrganizations"/>
+          <valItem ident="boardOfDirectors"/>
+          <valItem ident="ethnicCommunity"/>
+          <valItem ident="independent"/>
+        </valList>
+      </attDef>
+      <pm:attPreserve ident="ana"/>
+    </attList>
+  </elementSpec>
+
+  <elementSpec ident="event" module="namesdates" mode="change">
+    <content>
+      <elementRef key="label" minOccurs="1" maxOccurs="unbounded"/>
+    </content>
+    <attList>
+      <pm:attPreserve ident="xml:id"/>
+      <pm:attPreserve ident="when"/>
+      <pm:attPreserve ident="from"/>
+      <pm:attPreserve ident="to"/>
+    </attList>
+  </elementSpec>
+
+  <elementSpec ident="listEvent" module="namesdates" mode="change">
+    <content>
+      <sequence>
+        <elementRef key="head" minOccurs="0" maxOccurs="unbounded"/>
+        <elementRef key="event" minOccurs="0" maxOccurs="unbounded"/>
+      </sequence>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="listRelation" module="namesdates" mode="change">
+    <content>
+      <elementRef key="relation" minOccurs="1" maxOccurs="unbounded"/>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="relation" module="namesdates" mode="change">
+    <content></content>
+    <attList>
+      <attDef ident="name" mode="change" usage="req">
+        <valList type="closed">
+          <valItem ident="coalition"/>
+          <valItem ident="opposition"/>
+          <valItem ident="renaming"/>
+          <valItem ident="successor"/>
+        </valList>
+      </attDef>
+      <attDef ident="mutual" mode="change" usage="opt"/>
+
+      <attDef ident="active" mode="change" usage="opt"/>
+      <attDef ident="passive" mode="change" usage="opt"/>
+
+      <pm:attPreserve ident="ana"/>
+      <pm:attPreserve ident="when"/>
+      <pm:attPreserve ident="from"/>
+      <pm:attPreserve ident="to"/>
+    </attList>
+  </elementSpec>
+
+
+
+  <elementSpec ident="listPerson" module="namesdates" mode="change">
+    <content>
+      <sequence>
+        <elementRef key="head" minOccurs="0" maxOccurs="unbounded"/>
+        <elementRef key="person" minOccurs="1" maxOccurs="unbounded"/>
+      </sequence>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="person" module="namesdates" mode="change">
+    <content>
+      <sequence>
+        <elementRef key="persName" minOccurs="1" maxOccurs="unbounded"/>
+        <alternate minOccurs="0" maxOccurs="unbounded">
+          <elementRef key="sex" minOccurs="0" maxOccurs="1"/>
+          <elementRef key="birth" minOccurs="0" maxOccurs="1"/>
+          <elementRef key="death" minOccurs="0" maxOccurs="1"/>
+          <elementRef key="affiliation" minOccurs="0" maxOccurs="unbounded"/>
+          <elementRef key="occupation" minOccurs="0" maxOccurs="unbounded"/>
+          <elementRef key="education" minOccurs="0" maxOccurs="unbounded"/>
+          <elementRef key="idno" minOccurs="0" maxOccurs="unbounded"/>
+          <elementRef key="figure" minOccurs="0" maxOccurs="unbounded"/>
+        </alternate>
+      </sequence>
+    </content>
+    <attList>
+      <pm:attPreserve ident="xml:id" />
+      <pm:attPreserve ident="xml:lang" />
+      <!-- BG use @n -->
+      <pm:attPreserve ident="n" />
+    </attList>
+  </elementSpec>
+
+  <elementSpec ident="sex" module="namesdates" mode="change">
+    <content>
+      <textNode/>
+    </content>
+    <attList>
+      <attDef ident="value" mode="replace" usage="req">
+        <valList type="closed">
+          <valItem ident="M"/>
+          <valItem ident="F"/>
+          <valItem ident="U"/>
+        </valList>
+      </attDef>
+    </attList>
+  </elementSpec>
+
+  <elementSpec ident="birth" module="namesdates" mode="change">
+    <content>
+      <alternate>
+        <elementRef key="placeName" minOccurs="0" maxOccurs="1"/>
+        <textNode/>
+      </alternate>
+    </content>
+    <attList>
+      <attDef ident="when" mode="change" usage="req"/>
+    </attList>
+  </elementSpec>
+
+  <elementSpec ident="death" module="namesdates" mode="change">
+    <content>
+      <alternate>
+        <elementRef key="placeName" minOccurs="0" maxOccurs="1"/>
+        <textNode/>
+      </alternate>
+    </content>
+    <attList>
+      <attDef ident="when" mode="change" usage="req"/>
+    </attList>
+  </elementSpec>
+
+  <elementSpec ident="placeName" module="namesdates" mode="change">
+    <content>
+      <alternate>
+        <elementRef key="name" minOccurs="0" maxOccurs="1"/>
+        <textNode/>
+      </alternate>
+    </content>
+    <attList>
+      <pm:attPreserve ident="ref"/>
+    </attList>
+  </elementSpec>
+
+  <elementSpec ident="affiliation" module="namesdates" mode="change">
+    <content>
+      <textNode/>
+    </content>
+    <attList>
+      <attDef ident="role" mode="replace" usage="req">
+        <valList type="closed">
+          <valItem ident="member"/>
+          <valItem ident="president"/>
+          <valItem ident="vicePresident"/>
+          <valItem ident="chairman"/>
+          <valItem ident="viceChairman"/>
+          <valItem ident="minister"/>
+          <valItem ident="MP"/>
+          <valItem ident="substituteMP"/>
+
+          <valItem ident="associateMember"/>
+          <valItem ident="nonAttachedMember"/>
+          <valItem ident="ministerDelegate"/>
+          <valItem ident="ministerOfState"/>
+          <valItem ident="secretaryOfState"/>
+
+          <valItem ident="observer"/>
+          <valItem ident="verifier"/>
+          <valItem ident="vicePublicDefenderOfRights"/>
+          <valItem ident="headOfDelegation"/>
+          <valItem ident="presidiumMember"/>
+          <valItem ident="publicDefenderOfRights"/>
+          <valItem ident="alternateOfDelegation"/>
+          <valItem ident="replacement"/>
+          <valItem ident="candidateMP"/>
+
+          <valItem ident="academician"/>
+          <valItem ident="candidateChairman"/>
+          <valItem ident="chairperson"/>
+          <valItem ident="chiefInspector"/>
+          <valItem ident="commander"/>
+          <valItem ident="constitutionalJudge"/>
+          <valItem ident="deputyChief"/>
+          <valItem ident="deputyMinister"/>
+          <valItem ident="deputyPrimeMinister"/>
+          <valItem ident="director"/>
+          <valItem ident="headOfDepartment"/>
+          <valItem ident="leader"/>
+          <valItem ident="ombudsman"/>
+          <valItem ident="presidentEP"/>
+          <valItem ident="primeMinister"/>
+          <valItem ident="prosecutorGeneral"/>
+          <valItem ident="secretary"/>
+          <valItem ident="secretaryGeneral"/>
+
+          <valItem ident="viceDirector"/>
+          <valItem ident="speaker"/>
+        </valList>
+      </attDef>
+      <pm:attPreserve ident="key"/>
+      <pm:attPreserve ident="ref"/>
+
+      <pm:attPreserve ident="when"/>
+      <pm:attPreserve ident="from"/>
+      <pm:attPreserve ident="to"/>
+      <pm:attPreserve ident="ana"/> <!-- usually points to event in org -->
+    </attList>
+    <remarks xml:lang="en">
+      <p>Affiliation to organization can be done in three ways (sorted from most concrete - the best solution):
+        <list>
+          <item><att>ref</att></item>
+          <item><att>key</att></item>
+          <item>text value</item>
+        </list>
+      </p>
+    </remarks>
+  </elementSpec>
+
+  <elementSpec ident="occupation" module="namesdates" mode="change">
+    <content>
+      <textNode/>
+    </content>
+    <attList>
+      <pm:attPreserve ident="xml:lang"/>
+      <pm:attPreserve ident="when"/>
+      <pm:attPreserve ident="from"/>
+      <pm:attPreserve ident="to"/>
+    </attList>
+  </elementSpec>
+
+  <elementSpec ident="education" module="namesdates" mode="change">
+    <content>
+      <textNode/>
+    </content>
+    <attList>
+      <pm:attPreserve ident="xml:lang"/>
+      <pm:attPreserve ident="n"/>
+      <pm:attPreserve ident="when"/>
+      <pm:attPreserve ident="from"/>
+      <pm:attPreserve ident="to"/>
+    </attList>
+  </elementSpec>
+
+  <elementSpec ident="figure" module="figures" mode="change">
+    <content>
+      <elementRef key="head" minOccurs="0" maxOccurs="1"/>
+      <elementRef key="graphic" minOccurs="1" maxOccurs="1"/>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="graphic" module="core" mode="change">
+    <content></content>
+    <attList>
+      <pm:attPreserve ident="url"/>
+      <pm:attPreserve ident="scale"/>
+    </attList>
+  </elementSpec>
+
+  <elementSpec ident="langUsage" module="header" mode="change">
+    <content>
+      <elementRef key="language" minOccurs="1" maxOccurs="unbounded"/>
+    </content>
+    <attList><!-- remove all attributes --></attList>
+  </elementSpec>
+
+  <elementSpec ident="language" module="header" mode="change">
+    <content>
+      <textNode/>
+    </content>
+    <attList>
+      <pm:attPreserve ident="xml:lang"/>
+      <pm:attPreserve ident="ident"/>
+      <pm:attPreserve ident="usage"/>
+    </attList>
+  </elementSpec>
+
+  <elementSpec ident="revisionDesc" module="header" mode="change">
+    <content>
+      <elementRef key="change" minOccurs="1" maxOccurs="unbounded"/>
+    </content>
+    <attList>
+      <pm:attPreserve ident="xml:lang"/>
+    </attList>
+  </elementSpec>
+
+  <elementSpec ident="change" module="header" mode="change">
+    <content>
+      <elementRef key="name"/>
+      <textNode/>
+    </content>
+    <attList>
+      <pm:attPreserve ident="when"/>
+    </attList>
+  </elementSpec>
 
   <!-- To Do:
   Appears both in TEI heder and in .ana body for CZ
-
-
-    <elementSpec ident="graphic" module="core" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="head" module="core" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="label" module="core" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-
-
-    <elementSpec ident="media" module="core" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-
-
-    <elementSpec ident="p" module="core" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="pb" module="core" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="pubPlace" module="core" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-
-
-    <elementSpec ident="ref" module="core" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="resp" module="core" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-
-
-    <elementSpec ident="term" module="core" mode="change">
-      <content>
-      </content>
-    </elementSpec>
 
 
     <elementSpec ident="unit" module="core" mode="change">
@@ -991,303 +1685,13 @@
       </content>
     </elementSpec>
 
-    <elementSpec ident="appInfo" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
 
-    <elementSpec ident="application" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="availability" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="catDesc" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="catRef" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="category" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="change" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="classDecl" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="correction" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-
-
-    <elementSpec ident="editorialDecl" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="encodingDesc" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-
-
-
-
-
-
-    <elementSpec ident="hyphenation" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-
-    <elementSpec ident="langUsage" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="language" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="licence" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="listPrefixDef" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="namespace" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="normalization" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="prefixDef" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="profileDesc" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="projectDesc" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-
-
-    <elementSpec ident="quotation" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="revisionDesc" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="segmentation" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="sourceDesc" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="tagUsage" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="tagsDecl" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="taxonomy" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-
-    <elementSpec ident="textClass" module="header" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-
-
-    <elementSpec ident="particDesc" module="corpus" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="setting" module="corpus" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="settingDesc" module="corpus" mode="change">
-      <content>
-      </content>
-    </elementSpec>
 
     <elementSpec ident="equipment" module="spoken" mode="change">
       <content>
       </content>
     </elementSpec>
 
-    <elementSpec ident="recording" module="spoken" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="recordingStmt" module="spoken" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="addName" module="namesdates" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="affiliation" module="namesdates" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="birth" module="namesdates" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="death" module="namesdates" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="education" module="namesdates" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="event" module="namesdates" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="forename" module="namesdates" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="listEvent" module="namesdates" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="listOrg" module="namesdates" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="listPerson" module="namesdates" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="listRelation" module="namesdates" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="nameLink" module="namesdates" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="occupation" module="namesdates" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="org" module="namesdates" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-
-
-
-
-    <elementSpec ident="person" module="namesdates" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="placeName" module="namesdates" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="relation" module="namesdates" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="roleName" module="namesdates" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="sex" module="namesdates" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="surname" module="namesdates" mode="change">
-      <content>
-      </content>
-    </elementSpec>
-
-    <elementSpec ident="figure" module="figures" mode="change">
-      <content>
-      </content>
-    </elementSpec>
     -->
 </schemaSpec>
     
