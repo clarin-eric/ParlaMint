@@ -97,7 +97,7 @@
     <xsl:variable name="path" select="replace(base-uri(), '/[^/]+$', '/')"/>
     <list>
       <xsl:for-each select="//xi:include">
-	<xsl:variable name="country" select="replace(@href, '.+-(..)\.xml', '$1')"/>
+	<xsl:variable name="country" select="replace(@href, 'ParlaMint-([A-Z]{2}(-[A-Z0-9]{1,3})?)(-[a-z]{2,3})?\.xml', '$1')"/>
 	<xsl:variable name="listOrg" select="document(concat($path, @href))//tei:listOrg"/>
 	<item>
 	  <country>

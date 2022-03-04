@@ -26,10 +26,10 @@ foreach my $inDir (glob "$inDirs") {
     foreach $inFile (glob "$inDir/*.xml") {
 	my ($fName) = $inFile =~ m|([^/]+)$|
 	    or die "Bad file '$inFile'!\n";
-	if    ($fName =~ m|ParlaMint-..\.xml|) {$rootFile = $inFile}
-	elsif ($fName =~ m|ParlaMint-..\.ana\.xml|) {$rootAnaFile = $inFile}
-	elsif ($fName =~ m|ParlaMint-.._.+\.ana\.xml|) {push(@compAnaFiles, $inFile)}
-	elsif ($fName =~ m|ParlaMint-.._.+\.xml|) {push(@compFiles, $inFile)}
+	if    ($fName =~ m|ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?\.xml|) {$rootFile = $inFile}
+	elsif ($fName =~ m|ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?\.ana\.xml|) {$rootAnaFile = $inFile}
+	elsif ($fName =~ m|ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?_.+\.ana\.xml|) {push(@compAnaFiles, $inFile)}
+	elsif ($fName =~ m|ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?_.+\.xml|) {push(@compFiles, $inFile)}
 	else {die "Bad file '$fName' in '$inFile'!\n"}
     }
     if ($rootFile) {
