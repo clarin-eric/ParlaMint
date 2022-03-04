@@ -104,7 +104,10 @@ unless ($countryCodes) {
 }
 foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     print STDERR "INFO: ***Converting $countryCode\n";
-    
+    if($countryCode =~ m/-[a-z]{2,3}$/){
+      print STDERR "ERROR: Script should process original (not translated version) of corpus\n";
+      next;
+    }
     $XX = $XX_template;
     $XX =~ s|XX|$countryCode|g;
     
