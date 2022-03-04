@@ -5,7 +5,7 @@ PARLIAMENTS = AT BE BG CZ DK EE ES ES-CT ES-PV FI FR GB GR HR HU IS IT LT LV NL 
 ##$DATADIR## Folder with country corpus folders. Default value is 'Data'.
 DATADIR = Data
 ##$WORKINGDIR## In this folder will be stored temporary files. Default value is 'DataTMP'.
-WORKINGDIR = DataTMP
+WORKINGDIR = Data/TMP
 ##$CORPUSDIR_SUFFIX## This value is appended to corpus folder so corpus directory name shouldn't be prefix
 ##$##                 of corpus root file. E.g. setting CORPUSDIR_SUFFIX=.TEI allow running targets on content
 ##$##                 of ParlaMint-XX.TEI folder that contains corresponding ParlaMint-XX(.ana).xml files.
