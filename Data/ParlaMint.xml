@@ -4,6 +4,7 @@
       <fileDesc>
          <titleStmt>
             <title type="main">Multilingual comparable parliamentary corpora ParlaMint [ParlaMint]</title>
+            <title type="sub">Automatically generated root (not valid because of ID conflicts)</title>
             <meeting ana="#parla.lower-BE #parla.term-BE"
                      n="54"
                      xml:lang="nl"
@@ -28,6 +29,10 @@
                      n="ps2017"
                      xml:lang="cs"
                      corresp="#ParlaMint-CZ">ps2017</meeting>
+            <meeting ana="#parla.term-CZ #parla.lower-CZ #parliament.PSP9-CZ"
+                     n="ps2021"
+                     xml:lang="cs"
+                     corresp="#ParlaMint-CZ">ps2021</meeting>
             <meeting n="20141"
                      corresp="#ParlaMint-DK"
                      ana="#parla.session-DK #FT.20141-DK"
@@ -100,14 +105,6 @@
                      corresp="#ParlaMint-HR"
                      ana="#parla.term-HR #HS.9-HR"
                      xml:lang="hr">9. mandat</meeting>
-            <meeting ana="#parla.term-HU #OGY.7-HU"
-                     corresp="#ParlaMint-HU"
-                     n="7"
-                     xml:lang="hu">7. ciklus</meeting>
-            <meeting ana="#parla.term-HU #OGY.8-HU"
-                     corresp="#ParlaMint-HU"
-                     n="8"
-                     xml:lang="hu">8. ciklus</meeting>
             <meeting n="21"
                      ana="#parla.term-IS #LV.21-IS"
                      xml:lang="is"
@@ -236,7 +233,6 @@
             </respStmt>
             <respStmt corresp="#ParlaMint-CZ">
                <persName>Matyáš Kopp</persName>
-               <resp>Data retrieval</resp>
                <resp>TEI XML corpus encoding</resp>
             </respStmt>
             <respStmt corresp="#ParlaMint-DK">
@@ -268,11 +264,6 @@
             </respStmt>
             <respStmt corresp="#ParlaMint-HR">
                <persName>Tomaž Erjavec</persName>
-               <resp>Parla-CLARIN TEI XML corpus encoding</resp>
-            </respStmt>
-            <respStmt corresp="#ParlaMint-HU">
-               <persName>Miklós Sebők</persName>
-               <persName>Orsolya Ring</persName>
                <resp>Parla-CLARIN TEI XML corpus encoding</resp>
             </respStmt>
             <respStmt corresp="#ParlaMint-IS">
@@ -349,9 +340,6 @@
             <funder corresp="#ParlaMint-ES">
                <orgName xml:lang="en">Ministry of Science and Innovation of Spain</orgName>
             </funder>
-            <funder corresp="#ParlaMint-HU">
-               <orgName xml:lang="en">Centre for Social Sciences, Eötvös Loránd Research Network</orgName>
-            </funder>
             <funder corresp="#ParlaMint-PL">
                <orgName xml:lang="en">European Commission</orgName>
                <orgName xml:lang="en">Institute of Computer Science, Polish Academy of Sciences</orgName>
@@ -363,20 +351,19 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>2.1</edition>
+            <edition>2.1.1</edition>
          </editionStmt>
          <extent>
-            <measure unit="corpora" quantity="17">17 corpora</measure>
-            <measure unit="speeches" quantity="3774224">3,774,224 speeches</measure>
+            <measure unit="corpora" quantity="16">16 corpora</measure>
+            <measure unit="speeches" quantity="3618079">3,618,079 speeches</measure>
             <measure unit="speeches" quantity="148425" corresp="#ParlaMint-BE">148,425 speeches</measure>
             <measure unit="speeches" quantity="147428" corresp="#ParlaMint-BG">147,428 speeches</measure>
-            <measure unit="speeches" quantity="154460" corresp="#ParlaMint-CZ">154,460 speeches</measure>
+            <measure unit="speeches" quantity="1401" corresp="#ParlaMint-CZ">1401 speeches</measure>
             <measure unit="speeches" quantity="287144" corresp="#ParlaMint-DK">287,144 speeches</measure>
             <measure unit="speeches" quantity="49919" corresp="#ParlaMint-ES">49,919 speeches</measure>
             <measure unit="speeches" quantity="481604" corresp="#ParlaMint-FR">481,604 speeches</measure>
             <measure unit="speeches" quantity="552103" corresp="#ParlaMint-GB">552,103 speeches</measure>
             <measure unit="speeches" quantity="124496" corresp="#ParlaMint-HR">124,496 speeches</measure>
-            <measure unit="speeches" quantity="3086" corresp="#ParlaMint-HU">3,086 speeches</measure>
             <measure unit="speeches" quantity="74132" corresp="#ParlaMint-IS">74,132 speeches</measure>
             <measure unit="speeches" quantity="214300" corresp="#ParlaMint-IT">214,300 speeches</measure>
             <measure unit="speeches" quantity="244835" corresp="#ParlaMint-LT">244,835 speeches</measure>
@@ -385,16 +372,15 @@
             <measure unit="speeches" quantity="331044" corresp="#ParlaMint-PL">331,044 speeches</measure>
             <measure unit="speeches" quantity="75122" corresp="#ParlaMint-SI">75,122 speeches</measure>
             <measure unit="speeches" quantity="289026" corresp="#ParlaMint-TR">289,026 speeches</measure>
-            <measure unit="words" quantity="494949904">494,949,904 words</measure>
+            <measure unit="words" quantity="471814595">471,814,595 words</measure>
             <measure unit="words" quantity="31369704" corresp="#ParlaMint-BE">31,369,704 words</measure>
             <measure unit="words" quantity="20016839" corresp="#ParlaMint-BG">20,016,839 words</measure>
-            <measure unit="words" quantity="22559770" corresp="#ParlaMint-CZ">22,559,770 words</measure>
+            <measure unit="words" quantity="295438" corresp="#ParlaMint-CZ">295438 words</measure>
             <measure unit="words" quantity="29401796" corresp="#ParlaMint-DK">29,401,796 words</measure>
             <measure unit="words" quantity="13098642" corresp="#ParlaMint-ES">13,098,642 words</measure>
             <measure unit="words" quantity="32732720" corresp="#ParlaMint-FR">32,732,720 words</measure>
             <measure unit="words" quantity="109304196" corresp="#ParlaMint-GB">109,304,196 words</measure>
             <measure unit="words" quantity="20652854" corresp="#ParlaMint-HR">20,652,854 words</measure>
-            <measure unit="words" quantity="870977" corresp="#ParlaMint-HU">870,977 words</measure>
             <measure unit="words" quantity="23660386" corresp="#ParlaMint-IS">23,660,386 words</measure>
             <measure unit="words" quantity="26941029" corresp="#ParlaMint-IT">26,941,029 words</measure>
             <measure unit="words" quantity="14780871" corresp="#ParlaMint-LT">14,780,871 words</measure>
@@ -409,12 +395,11 @@
                <orgName>CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1432</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2021-08-05">August 5, 2021</date>
+            <date when="2022-02-27">February 27, 2022</date>
          </publicationStmt>
          <sourceDesc>
             <listBibl corresp="#ParlaMint-BE">
@@ -449,7 +434,7 @@
                   <title type="main" xml:lang="cs">Parlament České republiky, Poslanecká sněmovna</title>
                   <title type="main">Parliament of the Czech Republic, Chamber of Deputies</title>
                   <idno type="URI">https://www.psp.cz/eknih/</idno>
-                  <date from="2013-11-25" to="2021-04-01">25.11.2013 - 01.04.2021</date>
+                  <date from="2016-04-13" to="2022-01-14">13.04.2016 - 14.01.2022</date>
                </bibl>
             </listBibl>
             <listBibl corresp="#ParlaMint-DK">
@@ -494,15 +479,6 @@
                   <idno type="URI">https://parlametar.hr/</idno>
                   <idno type="URI">http://www.sabor.hr/</idno>
                   <date from="2016-11-15" to="2020-05-18">2016-11-15 - 2020-05-18</date>
-               </bibl>
-            </listBibl>
-            <listBibl corresp="#ParlaMint-HU">
-               <head>ParlaMint-HU</head>
-               <bibl>
-                  <title type="main" xml:lang="hu">A Magyar Országgyűlés ülései</title>
-                  <title type="main">Minutes of the National Assembly of Hungary</title>
-                  <idno type="URI">https://https://www.parlament.hu/</idno>
-                  <date from="2018-02-19" to="2020-12-14">2018. 02. 19. - 2020. 12. 14.</date>
                </bibl>
             </listBibl>
             <listBibl corresp="#ParlaMint-IS">
@@ -606,7 +582,6 @@
                <p corresp="#ParlaMint-FR">No correction of source texts was performed.</p>
                <p corresp="#ParlaMint-GB">No correction of source texts was performed.</p>
                <p corresp="#ParlaMint-HR">No correction of source texts was performed.</p>
-               <p corresp="#ParlaMint-HU">No correction of source texts was performed.</p>
                <p corresp="#ParlaMint-IS">No correction of source texts was performed.</p>
                <p corresp="#ParlaMint-IT">No correction of source texts was performed.</p>
                <p corresp="#ParlaMint-LT">No correction of source texts was performed.</p>
@@ -625,7 +600,6 @@
                <p corresp="#ParlaMint-FR">Text has not been normalised, except for removing non-breaking spaces.</p>
                <p corresp="#ParlaMint-GB">Text has not been normalised, except for spacing.</p>
                <p corresp="#ParlaMint-HR">Text has not been normalised, except for spacing.</p>
-               <p corresp="#ParlaMint-HU">Normalisation was performed only on the meta-data, e.g. person names.</p>
                <p corresp="#ParlaMint-IS">Text has not been normalised, except for spacing</p>
                <p corresp="#ParlaMint-IT">Text has not been normalised, except for spacing.</p>
                <p corresp="#ParlaMint-LT">Text has not been normalised.</p>
@@ -644,7 +618,6 @@
                <p corresp="#ParlaMint-FR">No end-of-line hyphens were present in the source.</p>
                <p corresp="#ParlaMint-GB">Hyphenation has not been altered with respect to the source files.</p>
                <p corresp="#ParlaMint-HR">No end-of-line hyphens were present in the source.</p>
-               <p corresp="#ParlaMint-HU">No end-of-line hyphens were present in the source.</p>
                <p corresp="#ParlaMint-IS">No end-of-line hyphens were present in the source.</p>
                <p corresp="#ParlaMint-IT">No end-of-line hyphens were present in the source.</p>
                <p corresp="#ParlaMint-LT">No end-of-line hyphens were present in the source.</p>
@@ -663,7 +636,6 @@
                <p corresp="#ParlaMint-FR">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p corresp="#ParlaMint-GB">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p corresp="#ParlaMint-HR">Quotation marks have been left in the text and are not explicitly marked up.</p>
-               <p corresp="#ParlaMint-HU">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p corresp="#ParlaMint-IS">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p corresp="#ParlaMint-IT">Quotation marks have been left in the text and are not explicitly marked up.</p>
                <p corresp="#ParlaMint-LT">Quotation marks have been left in the text and are not explicitly marked up.</p>
@@ -683,7 +655,6 @@
                <p corresp="#ParlaMint-FR">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
                <p corresp="#ParlaMint-GB">The texts are segmented into utterances (contributions) and segments (corresponding to paragraphs in the source transcription).</p>
                <p corresp="#ParlaMint-HR">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
-               <p corresp="#ParlaMint-HU">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
                <p corresp="#ParlaMint-IS">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
                <p corresp="#ParlaMint-IT">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
                <p corresp="#ParlaMint-LT">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription). </p>
@@ -696,31 +667,29 @@
          </editorialDecl>
          <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="body" occurs="22329"/>
-               <tagUsage gi="desc" occurs="405333"/>
-               <tagUsage gi="div" occurs="93261"/>
-               <tagUsage gi="gap" occurs="21600"/>
+               <tagUsage gi="body" occurs="16760"/>
+               <tagUsage gi="desc" occurs="379115"/>
+               <tagUsage gi="div" occurs="87692"/>
+               <tagUsage gi="gap" occurs="20741"/>
                <tagUsage gi="head" occurs="71692"/>
-               <tagUsage gi="incident" occurs="7114"/>
-               <tagUsage gi="kinesic" occurs="240842"/>
-               <tagUsage gi="note" occurs="1343752"/>
-               <tagUsage gi="pb" occurs="42570"/>
-               <tagUsage gi="ref" occurs="34208"/>
-               <tagUsage gi="seg" occurs="9401695"/>
-               <tagUsage gi="text" occurs="18640"/>
-               <tagUsage gi="time" occurs="22337"/>
-               <tagUsage gi="u" occurs="4927003"/>
-               <tagUsage gi="vocal" occurs="136940"/>
+               <tagUsage gi="incident" occurs="6976"/>
+               <tagUsage gi="kinesic" occurs="226903"/>
+               <tagUsage gi="note" occurs="1157040"/>
+               <tagUsage gi="pb" occurs="17313"/>
+               <tagUsage gi="seg" occurs="8993398"/>
+               <tagUsage gi="text" occurs="13071"/>
+               <tagUsage gi="time" occurs="286"/>
+               <tagUsage gi="u" occurs="4770858"/>
+               <tagUsage gi="vocal" occurs="121906"/>
                <tagUsage gi="w" occurs="34681551"/>
                <tagUsage gi="body" occurs="1691" corresp="#ParlaMint-BE"/>
                <tagUsage gi="body" occurs="717" corresp="#ParlaMint-BG"/>
-               <tagUsage gi="body" occurs="5409" corresp="#ParlaMint-CZ"/>
+               <tagUsage gi="body" occurs="33" corresp="#ParlaMint-CZ"/>
                <tagUsage gi="body" occurs="688" corresp="#ParlaMint-DK"/>
                <tagUsage gi="body" occurs="308" corresp="#ParlaMint-ES"/>
                <tagUsage gi="body" occurs="1015" corresp="#ParlaMint-FR"/>
                <tagUsage gi="body" occurs="1795" corresp="#ParlaMint-GB"/>
                <tagUsage gi="body" occurs="16" corresp="#ParlaMint-HR"/>
-               <tagUsage gi="body" occurs="193" corresp="#ParlaMint-HU"/>
                <tagUsage gi="body" occurs="709" corresp="#ParlaMint-IS"/>
                <tagUsage gi="body" occurs="1199" corresp="#ParlaMint-IT"/>
                <tagUsage gi="body" occurs="876" corresp="#ParlaMint-LT"/>
@@ -731,7 +700,7 @@
                <tagUsage gi="body" occurs="1167" corresp="#ParlaMint-TR"/>
                <tagUsage gi="desc" occurs="876" corresp="#ParlaMint-BE"/>
                <tagUsage gi="desc" occurs="34335" corresp="#ParlaMint-BG"/>
-               <tagUsage gi="desc" occurs="26571" corresp="#ParlaMint-CZ"/>
+               <tagUsage gi="desc" occurs="353" corresp="#ParlaMint-CZ"/>
                <tagUsage gi="desc" occurs="62709" corresp="#ParlaMint-FR"/>
                <tagUsage gi="desc" occurs="23756" corresp="#ParlaMint-HR"/>
                <tagUsage gi="desc" occurs="41405" corresp="#ParlaMint-IS"/>
@@ -741,13 +710,12 @@
                <tagUsage gi="desc" occurs="10234" corresp="#ParlaMint-SI"/>
                <tagUsage gi="div" occurs="1691" corresp="#ParlaMint-BE"/>
                <tagUsage gi="div" occurs="717" corresp="#ParlaMint-BG"/>
-               <tagUsage gi="div" occurs="5409" corresp="#ParlaMint-CZ"/>
+               <tagUsage gi="div" occurs="33" corresp="#ParlaMint-CZ"/>
                <tagUsage gi="div" occurs="10544" corresp="#ParlaMint-DK"/>
                <tagUsage gi="div" occurs="1785" corresp="#ParlaMint-ES"/>
                <tagUsage gi="div" occurs="12574" corresp="#ParlaMint-FR"/>
                <tagUsage gi="div" occurs="31389" corresp="#ParlaMint-GB"/>
                <tagUsage gi="div" occurs="16" corresp="#ParlaMint-HR"/>
-               <tagUsage gi="div" occurs="193" corresp="#ParlaMint-HU"/>
                <tagUsage gi="div" occurs="709" corresp="#ParlaMint-IS"/>
                <tagUsage gi="div" occurs="15059" corresp="#ParlaMint-IT"/>
                <tagUsage gi="div" occurs="876" corresp="#ParlaMint-LT"/>
@@ -757,7 +725,7 @@
                <tagUsage gi="div" occurs="414" corresp="#ParlaMint-SI"/>
                <tagUsage gi="div" occurs="5753" corresp="#ParlaMint-TR"/>
                <tagUsage gi="gap" occurs="11" corresp="#ParlaMint-BE"/>
-               <tagUsage gi="gap" occurs="879" corresp="#ParlaMint-CZ"/>
+               <tagUsage gi="gap" occurs="20" corresp="#ParlaMint-CZ"/>
                <tagUsage gi="gap" occurs="11914" corresp="#ParlaMint-HR"/>
                <tagUsage gi="gap" occurs="899" corresp="#ParlaMint-PL"/>
                <tagUsage gi="gap" occurs="7897" corresp="#ParlaMint-SI"/>
@@ -773,24 +741,23 @@
                <tagUsage gi="head" occurs="826" corresp="#ParlaMint-SI"/>
                <tagUsage gi="incident" occurs="33" corresp="#ParlaMint-BE"/>
                <tagUsage gi="incident" occurs="1068" corresp="#ParlaMint-BG"/>
-               <tagUsage gi="incident" occurs="139" corresp="#ParlaMint-CZ"/>
+               <tagUsage gi="incident" occurs="1" corresp="#ParlaMint-CZ"/>
                <tagUsage gi="incident" occurs="4387" corresp="#ParlaMint-FR"/>
                <tagUsage gi="incident" occurs="49" corresp="#ParlaMint-IS"/>
                <tagUsage gi="incident" occurs="1401" corresp="#ParlaMint-IT"/>
                <tagUsage gi="incident" occurs="37" corresp="#ParlaMint-SI"/>
                <tagUsage gi="kinesic" occurs="341" corresp="#ParlaMint-BE"/>
                <tagUsage gi="kinesic" occurs="11436" corresp="#ParlaMint-BG"/>
-               <tagUsage gi="kinesic" occurs="10364" corresp="#ParlaMint-CZ"/>
+               <tagUsage gi="kinesic" occurs="177" corresp="#ParlaMint-CZ"/>
                <tagUsage gi="kinesic" occurs="47708" corresp="#ParlaMint-FR"/>
                <tagUsage gi="kinesic" occurs="544" corresp="#ParlaMint-HR"/>
-               <tagUsage gi="kinesic" occurs="3752" corresp="#ParlaMint-HU"/>
                <tagUsage gi="kinesic" occurs="32882" corresp="#ParlaMint-IS"/>
                <tagUsage gi="kinesic" occurs="51570" corresp="#ParlaMint-IT"/>
                <tagUsage gi="kinesic" occurs="10039" corresp="#ParlaMint-LT"/>
                <tagUsage gi="kinesic" occurs="71646" corresp="#ParlaMint-PL"/>
                <tagUsage gi="kinesic" occurs="560" corresp="#ParlaMint-SI"/>
                <tagUsage gi="note" occurs="140512" corresp="#ParlaMint-BE"/>
-               <tagUsage gi="note" occurs="188563" corresp="#ParlaMint-CZ"/>
+               <tagUsage gi="note" occurs="1851" corresp="#ParlaMint-CZ"/>
                <tagUsage gi="note" occurs="10544" corresp="#ParlaMint-DK"/>
                <tagUsage gi="note" occurs="46976" corresp="#ParlaMint-ES"/>
                <tagUsage gi="note" occurs="12498" corresp="#ParlaMint-FR"/>
@@ -804,18 +771,16 @@
                <tagUsage gi="note" occurs="9453" corresp="#ParlaMint-PL"/>
                <tagUsage gi="note" occurs="85525" corresp="#ParlaMint-SI"/>
                <tagUsage gi="note" occurs="142415" corresp="#ParlaMint-TR"/>
-               <tagUsage gi="pb" occurs="25550" corresp="#ParlaMint-CZ"/>
+               <tagUsage gi="pb" occurs="293" corresp="#ParlaMint-CZ"/>
                <tagUsage gi="pb" occurs="17020" corresp="#ParlaMint-ES"/>
-               <tagUsage gi="ref" occurs="34208" corresp="#ParlaMint-CZ"/>
                <tagUsage gi="seg" occurs="710969" corresp="#ParlaMint-BE"/>
                <tagUsage gi="seg" occurs="727563" corresp="#ParlaMint-BG"/>
-               <tagUsage gi="seg" occurs="398482" corresp="#ParlaMint-CZ"/>
+               <tagUsage gi="seg" occurs="4301" corresp="#ParlaMint-CZ"/>
                <tagUsage gi="seg" occurs="287144" corresp="#ParlaMint-DK"/>
                <tagUsage gi="seg" occurs="147283" corresp="#ParlaMint-ES"/>
                <tagUsage gi="seg" occurs="823092" corresp="#ParlaMint-FR"/>
                <tagUsage gi="seg" occurs="1143313" corresp="#ParlaMint-GB"/>
                <tagUsage gi="seg" occurs="521449" corresp="#ParlaMint-HR"/>
-               <tagUsage gi="seg" occurs="14116" corresp="#ParlaMint-HU"/>
                <tagUsage gi="seg" occurs="270312" corresp="#ParlaMint-IS"/>
                <tagUsage gi="seg" occurs="214300" corresp="#ParlaMint-IT"/>
                <tagUsage gi="seg" occurs="390179" corresp="#ParlaMint-LT"/>
@@ -826,27 +791,25 @@
                <tagUsage gi="seg" occurs="1576728" corresp="#ParlaMint-TR"/>
                <tagUsage gi="text" occurs="1691" corresp="#ParlaMint-BE"/>
                <tagUsage gi="text" occurs="717" corresp="#ParlaMint-BG"/>
-               <tagUsage gi="text" occurs="5409" corresp="#ParlaMint-CZ"/>
+               <tagUsage gi="text" occurs="33" corresp="#ParlaMint-CZ"/>
                <tagUsage gi="text" occurs="688" corresp="#ParlaMint-DK"/>
                <tagUsage gi="text" occurs="1795" corresp="#ParlaMint-GB"/>
                <tagUsage gi="text" occurs="16" corresp="#ParlaMint-HR"/>
-               <tagUsage gi="text" occurs="193" corresp="#ParlaMint-HU"/>
                <tagUsage gi="text" occurs="709" corresp="#ParlaMint-IS"/>
                <tagUsage gi="text" occurs="876" corresp="#ParlaMint-LT"/>
                <tagUsage gi="text" occurs="419" corresp="#ParlaMint-LV"/>
                <tagUsage gi="text" occurs="5197" corresp="#ParlaMint-NL"/>
                <tagUsage gi="text" occurs="516" corresp="#ParlaMint-PL"/>
                <tagUsage gi="text" occurs="414" corresp="#ParlaMint-SI"/>
-               <tagUsage gi="time" occurs="22337" corresp="#ParlaMint-CZ"/>
+               <tagUsage gi="time" occurs="286" corresp="#ParlaMint-CZ"/>
                <tagUsage gi="u" occurs="148425" corresp="#ParlaMint-BE"/>
                <tagUsage gi="u" occurs="147432" corresp="#ParlaMint-BG"/>
-               <tagUsage gi="u" occurs="154460" corresp="#ParlaMint-CZ"/>
+               <tagUsage gi="u" occurs="1401" corresp="#ParlaMint-CZ"/>
                <tagUsage gi="u" occurs="287144" corresp="#ParlaMint-DK"/>
                <tagUsage gi="u" occurs="49919" corresp="#ParlaMint-ES"/>
                <tagUsage gi="u" occurs="481604" corresp="#ParlaMint-FR"/>
                <tagUsage gi="u" occurs="552103" corresp="#ParlaMint-GB"/>
                <tagUsage gi="u" occurs="124496" corresp="#ParlaMint-HR"/>
-               <tagUsage gi="u" occurs="3086" corresp="#ParlaMint-HU"/>
                <tagUsage gi="u" occurs="74132" corresp="#ParlaMint-IS"/>
                <tagUsage gi="u" occurs="79373" corresp="#ParlaMint-IT"/>
                <tagUsage gi="u" occurs="244835" corresp="#ParlaMint-LT"/>
@@ -857,7 +820,7 @@
                <tagUsage gi="u" occurs="1576728" corresp="#ParlaMint-TR"/>
                <tagUsage gi="vocal" occurs="491" corresp="#ParlaMint-BE"/>
                <tagUsage gi="vocal" occurs="21823" corresp="#ParlaMint-BG"/>
-               <tagUsage gi="vocal" occurs="15189" corresp="#ParlaMint-CZ"/>
+               <tagUsage gi="vocal" occurs="155" corresp="#ParlaMint-CZ"/>
                <tagUsage gi="vocal" occurs="10614" corresp="#ParlaMint-FR"/>
                <tagUsage gi="vocal" occurs="11298" corresp="#ParlaMint-HR"/>
                <tagUsage gi="vocal" occurs="8474" corresp="#ParlaMint-IS"/>
@@ -911,12 +874,6 @@
                      <term>Organizacija</term>
                   </catDesc>
                   <catDesc corresp="#ParlaMint-HR">
-                     <term>Organization</term>
-                  </catDesc>
-                  <catDesc corresp="#ParlaMint-HU" xml:lang="hu">
-                     <term>Szervezet</term>
-                  </catDesc>
-                  <catDesc corresp="#ParlaMint-HU">
                      <term>Organization</term>
                   </catDesc>
                   <catDesc corresp="#ParlaMint-IS" xml:lang="is">
@@ -1630,94 +1587,6 @@
                         </catDesc>
                      </category>
                   </category>
-                  <category corresp="#ParlaMint-HU" xml:lang="hu">
-                     <catDesc>
-                        <term>Kamara</term>
-                     </catDesc>
-                     <catDesc>
-                        <term>Chambers</term>
-                     </catDesc>
-                     <category xml:id="parla.uni-HU">
-                        <catDesc>
-                           <term>Egykamarás</term>
-                        </catDesc>
-                        <catDesc>
-                           <term>Unicameralism</term>
-                        </catDesc>
-                     </category>
-                     <category xml:id="parla.bi-HU">
-                        <catDesc>
-                           <term>Kétkamarás</term>
-                        </catDesc>
-                        <catDesc>
-                           <term>Bicameralism</term>
-                        </catDesc>
-                        <category xml:id="parla.upper-HU">
-                           <catDesc>
-                              <term>Felsőház</term>
-                           </catDesc>
-                           <catDesc>
-                              <term>Upper house</term>
-                           </catDesc>
-                        </category>
-                        <category xml:id="parla.lower-HU">
-                           <catDesc>
-                              <term>Alsóház</term>
-                           </catDesc>
-                           <catDesc>
-                              <term>Lower house</term>
-                           </catDesc>
-                        </category>
-                     </category>
-                     <category xml:id="parla.multi-HU">
-                        <catDesc>
-                           <term>Többkamarás</term>
-                        </catDesc>
-                        <catDesc>
-                           <term>Multicameralism</term>
-                        </catDesc>
-                        <category xml:id="parla.chamber-HU">
-                           <catDesc>
-                              <term>Kamara</term>
-                           </catDesc>
-                           <catDesc>
-                              <term>Chamber</term>
-                           </catDesc>
-                        </category>
-                     </category>
-                  </category>
-                  <category corresp="#ParlaMint-HU" xml:lang="hu">
-                     <catDesc>
-                        <term>Bizottságok</term>
-                     </catDesc>
-                     <catDesc>
-                        <term>Committee</term>
-                     </catDesc>
-                     <category xml:id="parla.committee.standing-HU">
-                        <catDesc>
-                           <term>Állandó bizottságok</term>
-                        </catDesc>
-                        <catDesc>
-                           <term>Standing committee</term>
-                        </catDesc>
-                     </category>
-                     <category xml:id="parla.committee.special-HU">
-                        <catDesc>
-                           <term>Eseti bizottságok</term>
-                        </catDesc>
-                        <catDesc>
-                           <term>Special committee</term>
-                        </catDesc>
-                     </category>
-                     <category xml:id="parla.committee.inquiry-HU">
-                        <catDesc>
-                           <term>Vizsgálati bizottságok</term>
-                        </catDesc>
-                        <catDesc>
-                           <term>Committee of inquiry</term>
-                        </catDesc>
-                     </category>
-                  </category>
                   <category corresp="#ParlaMint-IS" xml:lang="is">
                      <catDesc>
                         <term>Þingdeildir</term>
@@ -2238,11 +2107,6 @@
                      <term>Zakonodavno razdoblje</term>
                   </catDesc>
                   <catDesc corresp="#ParlaMint-HR">
-                     <term>Legislative period</term>: term of the parliament between general elections.</catDesc>
-                  <catDesc corresp="#ParlaMint-HU" xml:lang="hu">
-                     <term>Törvényhozási ciklus</term>
-                  </catDesc>
-                  <catDesc corresp="#ParlaMint-HU">
                      <term>Legislative period</term>: term of the parliament between general elections.</catDesc>
                   <catDesc corresp="#ParlaMint-IS" xml:lang="is">
                      <term>Kjörtímabil</term>: tímabil milli tveggja reglulegra kosninga</catDesc>
@@ -2787,124 +2651,6 @@
                            </catDesc>
                            <catDesc>
                               <term>Sitting</term>: sitting day</catDesc>
-                        </category>
-                     </category>
-                  </category>
-                  <category corresp="#ParlaMint-HU" xml:lang="hu">
-                     <catDesc>
-                        <term>Ülésszak</term>
-                     </catDesc>
-                     <catDesc>
-                        <term>Legislative session</term>: the period of time in which a legislature is convened for purpose of lawmaking, usually being one of two or more smaller divisions of the entire time between two elections. A session is a meeting or series of connected meetings devoted to a single order of business, program, agenda, or announced purpose.</catDesc>
-                     <category xml:id="parla.meeting-HU">
-                        <catDesc>
-                           <term>Ülés</term>
-                        </catDesc>
-                        <catDesc>
-                           <term>Meeting</term>: Each meeting may be a separate session or part of a group of meetings constituting a session. The session/meeting may take one or more days.</catDesc>
-                        <category xml:id="parla.meeting-types-HU">
-                           <catDesc>
-                              <term>Üléstípus</term>
-                           </catDesc>
-                           <catDesc>
-                              <term>Types of meetings</term>
-                           </catDesc>
-                           <category xml:id="parla.meeting.regular-HU">
-                              <catDesc>
-                                 <term>Rendes ülés</term>
-                              </catDesc>
-                              <catDesc>
-                                 <term>Regular meeting</term>
-                              </catDesc>
-                           </category>
-                           <category xml:id="parla.meeting.special-HU">
-                              <catDesc>
-                                 <term>Különleges ülés</term>
-                              </catDesc>
-                              <catDesc>
-                                 <term>Special meeting</term>
-                              </catDesc>
-                              <category xml:id="parla.meeting.extraordinary-HU">
-                                 <catDesc>
-                                    <term>Rendkívüli ülés</term>
-                                 </catDesc>
-                                 <catDesc>
-                                    <term>Extraordinary meeting</term>
-                                 </catDesc>
-                              </category>
-                              <category xml:id="parla.meeting.urgent-HU">
-                                 <catDesc>
-                                    <term>Sürgős ülés</term>
-                                 </catDesc>
-                                 <catDesc>
-                                    <term>Urgent meeting</term>
-                                 </catDesc>
-                              </category>
-                              <category xml:id="parla.meeting.ceremonial-HU">
-                                 <catDesc>
-                                    <term>Ünnepi ülés</term>
-                                 </catDesc>
-                                 <catDesc>
-                                    <term>Ceremonial meeting</term>
-                                 </catDesc>
-                              </category>
-                              <category xml:id="parla.meeting.commemorative-HU">
-                                 <catDesc>
-                                    <term>Emlékülés</term>
-                                 </catDesc>
-                                 <catDesc>
-                                    <term>Commemorative meeting</term>
-                                 </catDesc>
-                              </category>
-                           </category>
-                           <category xml:id="parla.meeting.continued-HU">
-                              <catDesc>
-                                 <term>Folytatólagos ülés</term>
-                              </catDesc>
-                              <catDesc>
-                                 <term>Continued meeting</term>
-                              </catDesc>
-                           </category>
-                           <category xml:id="parla.speech-types-HU">
-                              <catDesc>
-                                 <term>Beszédtípusok</term>
-                              </catDesc>
-                              <catDesc>
-                                 <term>Types of speeches</term>
-                              </catDesc>
-                              <category xml:id="parla.speech.interpellation-HU">
-                                 <catDesc>
-                                    <term>Interpelláció</term>
-                                 </catDesc>
-                                 <catDesc>
-                                    <term>Interpellation</term>
-                                 </catDesc>
-                                 <category xml:id="parla.speech.urgent-question-HU">
-                                    <catDesc>
-                                       <term>Azonnali kérdés</term>
-                                    </catDesc>
-                                    <catDesc>
-                                       <term>Urgent question</term>
-                                    </catDesc>
-                                    <category xml:id="parla.speech.regular-HU">
-                                       <catDesc>
-                                          <term>Felszólalás</term>
-                                       </catDesc>
-                                       <catDesc>
-                                          <term>Regular speech</term>
-                                       </catDesc>
-                                    </category>
-                                 </category>
-                              </category>
-                           </category>
-                        </category>
-                        <category xml:id="parla.sitting-HU">
-                           <catDesc>
-                              <term>Ülés</term>
-                           </catDesc>
-                           <catDesc>
-                              <term>Sitting</term>
-                           </catDesc>
                         </category>
                      </category>
                   </category>
@@ -3546,12 +3292,6 @@
                   <catDesc corresp="#ParlaMint-HR">
                      <term>Geo-political or administrative units</term>
                   </catDesc>
-                  <catDesc corresp="#ParlaMint-HU" xml:lang="hu">
-                     <term>Geo-politikai vagy közigazgatási egységek</term>
-                  </catDesc>
-                  <catDesc corresp="#ParlaMint-HU">
-                     <term>Geo-political or administrative units</term>
-                  </catDesc>
                   <catDesc corresp="#ParlaMint-IT" xml:lang="it">
                      <term>Unità geo-politica o amministrativa</term>
                   </catDesc>
@@ -3687,38 +3427,6 @@
                   <category corresp="#ParlaMint-HR" xml:lang="hr">
                      <catDesc>
                         <term>Lokalno zakonodavstvo</term>
-                     </catDesc>
-                     <catDesc>
-                        <term>Local legislature</term>
-                     </catDesc>
-                  </category>
-                  <category corresp="#ParlaMint-HU" xml:lang="hu">
-                     <catDesc>
-                        <term>Szupranacionális parlament</term>
-                     </catDesc>
-                     <catDesc>
-                        <term>Supranational legislature</term>
-                     </catDesc>
-                  </category>
-                  <category corresp="#ParlaMint-HU" xml:lang="hu">
-                     <catDesc>
-                        <term>Nemzeti törvényhozás</term>
-                     </catDesc>
-                     <catDesc>
-                        <term>National legislature</term>
-                     </catDesc>
-                  </category>
-                  <category corresp="#ParlaMint-HU" xml:lang="hu">
-                     <catDesc>
-                        <term>Területi önkormányzati képviselőtestület</term>
-                     </catDesc>
-                     <catDesc>
-                        <term>Regional legislature</term>
-                     </catDesc>
-                  </category>
-                  <category corresp="#ParlaMint-HU" xml:lang="hu">
-                     <catDesc>
-                        <term>Helyi önkormányzati képviselőtestület</term>
                      </catDesc>
                      <catDesc>
                         <term>Local legislature</term>
@@ -3885,10 +3593,6 @@
                      <term>Predsjedavajući</term>: predsjedavajući zasjedanja</catDesc>
                   <catDesc corresp="#ParlaMint-HR">
                      <term>Chairperson</term>: chairman of a meeting</catDesc>
-                  <catDesc corresp="#ParlaMint-HU" xml:lang="hu">
-                     <term>Házelnök</term>: az ülés elnöke</catDesc>
-                  <catDesc corresp="#ParlaMint-HU">
-                     <term>Chairperson</term>: chairman of a meeting</catDesc>
                   <catDesc corresp="#ParlaMint-IS" xml:lang="is">
                      <term>Þingforseti</term>: forseti alþingis</catDesc>
                   <catDesc corresp="#ParlaMint-IS">
@@ -3943,10 +3647,6 @@
                   <catDesc corresp="#ParlaMint-HR" xml:lang="hr">
                      <term>Redovni</term>: redovni govornik na zasjedanju</catDesc>
                   <catDesc corresp="#ParlaMint-HR">
-                     <term>Regular</term>: a regular speaker at a meeting</catDesc>
-                  <catDesc corresp="#ParlaMint-HU" xml:lang="hu">
-                     <term>Képviselő</term>: rendes résztvevője a találkozónak</catDesc>
-                  <catDesc corresp="#ParlaMint-HU">
                      <term>Regular</term>: a regular speaker at a meeting</catDesc>
                   <catDesc corresp="#ParlaMint-IS" xml:lang="is">
                      <term>Venjulegur</term>: venjulegur ræðumaður á fundi</catDesc>
@@ -4143,12 +3843,6 @@
                   <catDesc corresp="#ParlaMint-FR">
                      <term>Government</term>: member of government invited at a meeting</catDesc>
                </category>
-               <category xml:id="irregular">
-                  <catDesc corresp="#ParlaMint-HU" xml:lang="hu">
-                     <term>Vendég</term>: az ülés külső résztvevője</catDesc>
-                  <catDesc corresp="#ParlaMint-HU">
-                     <term>Guest</term>: a guest speaker at a meeting</catDesc>
-               </category>
             </taxonomy>
             <taxonomy xml:id="subcorpus">
                <category xml:id="reference">
@@ -4179,10 +3873,6 @@
                   <catDesc corresp="#ParlaMint-HR" xml:lang="hr">
                      <term>Referenca</term>: referenčni podkorpus, do 2019-10-31</catDesc>
                   <catDesc corresp="#ParlaMint-HR">
-                     <term>Reference</term>: reference subcorpus, until 2019-10-31</catDesc>
-                  <catDesc corresp="#ParlaMint-HU" xml:lang="hu">
-                     <term>Referencia</term>: referencia részkorpusz, 2019. 10. 31-ig</catDesc>
-                  <catDesc corresp="#ParlaMint-HU">
                      <term>Reference</term>: reference subcorpus, until 2019-10-31</catDesc>
                   <catDesc corresp="#ParlaMint-IT" xml:lang="it">
                      <term>Reference</term>: reference subcorpus, fino al 31-10-2019</catDesc>
@@ -4238,10 +3928,6 @@
                      <term>COVID</term>: COVID podkorpus, od 2019-11-01 dalje</catDesc>
                   <catDesc corresp="#ParlaMint-HR">
                      <term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
-                  <catDesc corresp="#ParlaMint-HU" xml:lang="hu">
-                     <term>COVID</term>: COVID részkorpusz, 2019. 11. 01-tól</catDesc>
-                  <catDesc corresp="#ParlaMint-HU">
-                     <term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
                   <catDesc corresp="#ParlaMint-IT" xml:lang="it">
                      <term>COVID</term>: COVID subcorpus, dal 01-11-2019</catDesc>
                   <catDesc corresp="#ParlaMint-IT">
@@ -4284,11 +3970,19 @@
                <date from="2014-10-27" to="2020-07-31"/>
             </setting>
             <setting corresp="#ParlaMint-CZ">
-               <name type="org">Parlament České republiky - Poslanecká sněmovna</name>
-               <name type="address">Sněmovní 176/4</name>
-               <name type="city">Praha</name>
-               <name key="CZ" type="country">Czech Republic</name>
-               <date from="2013-11-25" to="2021-04-01">25.11.2013 - 01.04.2021</date>
+               <name type="org">
+            Parlament České republiky - Poslanecká sněmovna
+          </name>
+               <name type="address">
+            Sněmovní 176/4
+          </name>
+               <name type="city">
+            Praha
+          </name>
+               <name type="country" key="CZ">
+            Czech Republic
+          </name>
+               <date from="2016-04-13" to="2022-01-14">13.04.2016 - 14.01.2022</date>
             </setting>
             <setting corresp="#ParlaMint-DK">
                <name type="address">Folketinget, Christiansborg</name>
@@ -4317,12 +4011,6 @@
                <name type="city">Zagreb</name>
                <name type="country" key="HR">Croatia</name>
                <date from="2016-11-15" to="2020-05-18">15.11.2016 - 18.5.2020</date>
-            </setting>
-            <setting corresp="#ParlaMint-HU">
-               <name type="adress">Kossuth tér 1-3.</name>
-               <name type="city">Budapest</name>
-               <name type="country" key="HU">Hungary</name>
-               <date from="2014-05-09" to="2020-12-14">9.05.2014 - 14.12.2020</date>
             </setting>
             <setting corresp="#ParlaMint-IS">
                <name type="address">Kirkjustræti</name>
@@ -4380,9 +4068,6 @@
                     target="#parla.uni"
                     corresp="#ParlaMint-BG"/>
             <catRef scheme="#parla.legislature"
-                    target="#parla.bi #parla.lower"
-                    corresp="#ParlaMint-CZ"/>
-            <catRef scheme="#parla.legislature"
                     target="#parla.uni"
                     corresp="#ParlaMint-DK"/>
             <catRef scheme="#parla.legislature"
@@ -4397,9 +4082,6 @@
             <catRef scheme="#parla.legislature"
                     target="#parla.uni"
                     corresp="#ParlaMint-HR"/>
-            <catRef scheme="#parla.legislature"
-                    target="#parla.uni"
-                    corresp="#ParlaMint-HU"/>
             <catRef scheme="#parla.legislature"
                     target="#parla.uni"
                     corresp="#ParlaMint-IS"/>
@@ -4477,10 +4159,6 @@
             <language ident="en" xml:lang="hr">engleski</language>
             <language ident="en" xml:lang="en">English</language>
          </langUsage>
-         <langUsage corresp="#ParlaMint-HU">
-            <language ident="en" xml:lang="en">English</language>
-            <language ident="hu" xml:lang="hu">Hungarian</language>
-         </langUsage>
          <langUsage corresp="#ParlaMint-IS">
             <language ident="en">English</language>
             <language ident="is">Icelandic</language>
@@ -4527,7 +4205,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-08-05">
+         <change when="2022-02-27">
             <name>Tomaž Erjavec</name>: Generate root</change>
       </revisionDesc>
    </teiHeader>
@@ -4547,8 +4225,6 @@
                href="ParlaMint-GB/ParlaMint-GB.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-HR/ParlaMint-HR.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-HU/ParlaMint-HU.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-IS/ParlaMint-IS.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"

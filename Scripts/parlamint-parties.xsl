@@ -18,7 +18,7 @@
       <!-- We need "../" as the this XSLT is in Scripts! -->
       <xsl:variable name="href" select="concat('../', @href)"/>
       <xsl:apply-templates select="document($href)//tei:particDesc//tei:org">
-	<xsl:with-param name="country" select="replace(@href, '.+ParlaMint-(..).*', '$1')"/>
+	<xsl:with-param name="country" select="replace(@href, '.+ParlaMint-([A-Z]{2}(-[A-Z0-9]{1,3})?).*', '$1')"/>
       </xsl:apply-templates>
     </xsl:for-each>
   </xsl:template>

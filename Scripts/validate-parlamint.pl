@@ -39,8 +39,8 @@ foreach my $inDir (glob "$inDirs") {
     my @compFiles = ();
     my @compAnaFiles = ();
     foreach $inFile (glob "$inDir/*.xml") {
-	if    ($inFile =~ m|ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?\.xml|) {$rootFile = $inFile}
-	elsif ($inFile =~ m|ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?\.ana\.xml|) {$rootAnaFile = $inFile}
+	if    ($inFile =~ m|ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?\.xml|) {$rootFile = $inFile}
+	elsif ($inFile =~ m|ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?\.ana\.xml|) {$rootAnaFile = $inFile}
     }
     $/ = '>';
     if (not $rootFile and not $rootAnaFile) {
@@ -86,7 +86,7 @@ foreach my $inDir (glob "$inDirs") {
 		    &run("$Saxon -xsl:$Valid", $file);
 		    &run("$Saxon meta=$rootAnaFile -xsl:$Links", $file);
 		}
-		else {print STDERR "ERROR: $rootFile XIncluded file $file does not exist!\n"}
+		else {print STDERR "ERROR: $rootAnaFile XIncluded file $file does not exist!\n"}
 	    }
 	}
 	close IN;

@@ -1,9 +1,20 @@
+.DEFAULT_GOAL := help
 
+##$PARLIAMENTS##Space separated list of parliaments codes.
+PARLIAMENTS = AT BE BG CZ DK EE ES ES-CT ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RO SE SI TR
+##$DATADIR## Folder with country corpus folders. Default value is 'Data'.
 DATADIR = Data
+##$WORKINGDIR## In this folder will be stored temporary files. Default value is 'DataTMP'.
+WORKINGDIR = Data/TMP
+##$CORPUSDIR_SUFFIX## This value is appended to corpus folder so corpus directory name shouldn't be prefix
+##$##                 of corpus root file. E.g. setting CORPUSDIR_SUFFIX=.TEI allow running targets on content
+##$##                 of ParlaMint-XX.TEI folder that contains corresponding ParlaMint-XX(.ana).xml files.
+##$##                 Default value is ''.
+CORPUSDIR_SUFFIX =
 
-
-# test settings and prerequisites for makefile run
-prereq:
+###### Setup
+## check-prereq ## test if prerequisities are installed
+check-prereq:
 	@test -f /usr/share/java/saxon.jar
 	@unzip -p /usr/share/java/saxon.jar META-INF/MANIFEST.MF|grep 'Main-Class:'| grep -q 'net.sf.saxon.Transform'
 	@echo "Saxon: OK"
@@ -15,6 +26,7 @@ prereq:
 	@echo "UD tools: OK"
 	@echo "INFO: Maximum java heap size (saxon needs 5-times more than the size of processed xml file)"
 	@java -XX:+PrintFlagsFinal -version 2>&1| grep " MaxHeapSize"|sed "s/^.*= *//;s/ .*$$//"|awk '{print "\t" $$1/1024/1024/1024 " GB"}'
+
 
 setup-parliament:
 ifndef PARLIAMENT-CODE
@@ -43,400 +55,238 @@ setup-parliament-newInParlaMint2:
 	make setup-parliament PARLIAMENT-NAME='Romania' PARLIAMENT-CODE='RO' LANG-LIST='ro (Romanian)'
 	make setup-parliament PARLIAMENT-NAME='Sweden' PARLIAMENT-CODE='SE' LANG-LIST='sv (Swedish)'
 
+###### Validate with Relax NG schema
+val-schema-XX = $(addprefix val-schema-, $(PARLIAMENTS))
+val-schema-tei-XX = $(addprefix val-schema-tei-, $(PARLIAMENTS))
+val-schema-ana-XX = $(addprefix val-schema-ana-, $(PARLIAMENTS))
+val-schema-ParlaMint-XX = $(addprefix val-schema-ParlaMint-, $(PARLIAMENTS))
+val-schema-ParlaCLARIN-XX = $(addprefix val-schema-ParlaCLARIN-, $(PARLIAMENTS))
+val-schema-tei-ParlaMint-XX = $(addprefix val-schema-tei-ParlaMint-, $(PARLIAMENTS))
+val-schema-tei-ParlaCLARIN-XX = $(addprefix val-schema-tei-ParlaCLARIN-, $(PARLIAMENTS))
+val-schema-ana-ParlaMint-XX = $(addprefix val-schema-ana-ParlaMint-, $(PARLIAMENTS))
+val-schema-ana-ParlaCLARIN-XX = $(addprefix val-schema-ana-ParlaCLARIN-, $(PARLIAMENTS))
 
-#Table3: Make table with data on corpora
-table-data:
-	$s mode=tsv -xsl:Scripts/parlamint2tbl-data.xsl ../V2/Master/ParlaMint.xml > ${DATADIR}/Metadata/ParlaMint-data.tsv
-	$s mode=tex -xsl:Scripts/parlamint2tbl-data.xsl ../V2/Master//ParlaMint.xml > ${DATADIR}/Metadata/ParlaMint-data.tex
-test-table-data:
-	$s mode=tsv -xsl:Scripts/parlamint2tbl-data.xsl ParlaMint.xml > ${DATADIR}/Metadata/ParlaMint-data.tsv
-	$s mode=tex -xsl:Scripts/parlamint2tbl-data.xsl ParlaMint.xml > ${DATADIR}/Metadata/ParlaMint-data.tex
-#Table2: Make table with metadata on corpora
-table-meta:
-	$s mode=tsv -xsl:Scripts/parlamint2tbl-meta.xsl ParlaMint.xml > ${DATADIR}/Metadata/ParlaMint-meta.tsv
-	$s mode=tex -xsl:Scripts/parlamint2tbl-meta.xsl ParlaMint.xml > ${DATADIR}/Metadata/ParlaMint-meta.tex
-#Table1: Make table with basic info on corpora
-table-overview:
-	$s mode=tsv -xsl:Scripts/parlamint2tbl-overview.xsl ParlaMint.xml > ${DATADIR}/Metadata/ParlaMint-overview.tsv
-	$s mode=tex -xsl:Scripts/parlamint2tbl-overview.xsl ParlaMint.xml > ${DATADIR}/Metadata/ParlaMint-overview.tex
+## val-schema ## run all corpora Relax NG validation on tei+ana versions
+####with ParlaMint and Parla-CLARIN schemas
+val-schema: $(val-schema-XX)
 
-#Make TSV with dates and sizes for all corpora from vert files
-chrono:
-	Scripts/vert2chronotsv.pl '${DATADIR}/ParlaMint-??'
+## val-schema-XX ## run country XX  Relax NG validation on tei+ana versions with ParlaMint and Parla-CLARIN schemas
+$(val-schema-XX): val-schema-%: val-schema-ParlaMint-% val-schema-ParlaCLARIN-%
+	echo "parliament validation $@ | " $(subst val-,,$@)
 
-#Dump all parties in TSV file
-parties:
-	$s -xsl:Scripts/parlamint-parties.xsl ParlaMint.xml > ${DATADIR}/Metadata/ParlaMint-parties.tsv
-	$s -xsl:Scripts/parlamint-coaloppo.xsl ParlaMint.xml > ${DATADIR}/Metadata/ParlaMint-coaloppo.tsv
+## val-schema-tei ## run all corpora Relax NG validation on tei versions with ParlaMint and Parla-CLARIN schemas
+val-schema-tei: $(val-schema-tei-XX)
+## val-schema-tei-XX ## ...
+$(val-schema-tei-XX): val-schema-tei-%: val-schema-tei-ParlaMint-% val-schema-tei-ParlaCLARIN-%
 
-#Make ParlaMint corpus root
+## val-schema-ana ## run all corpora Relax NG validation on ana versions with ParlaMint and Parla-CLARIN schemas
+val-schema-ana: $(val-schema-ana-XX)
+## val-schema-ana-XX ## ...
+$(val-schema-ana-XX): val-schema-ana-%: val-schema-ana-ParlaMint-% val-schema-ana-ParlaCLARIN-%
+
+## val-schema-ParlaMint ## run all corpora Relax NG validation on tei+ana versions with ParlaMint schema
+val-schema-ParlaMint: $(val-schema-ParlaMint-XX)
+## val-schema-ParlaMint-XX ## ...
+$(val-schema-ParlaMint-XX): val-schema-ParlaMint-%: val-schema-tei-ParlaMint-% val-schema-ana-ParlaMint-%
+
+## val-schema-ParlaCLARIN ## run all corpora Relax NG validation on tei+ana versions with Parla-CLARIN schema
+val-schema-ParlaCLARIN: $(val-schema-ParlaCLARIN-XX)
+## val-schema-ParlaCLARIN-XX ## ...
+$(val-schema-ParlaCLARIN-XX): val-schema-ParlaCLARIN-%: val-schema-tei-ParlaCLARIN-% val-schema-ana-ParlaCLARIN-%
+
+$(val-schema-tei-ParlaMint-XX): val-schema-tei-ParlaMint-%: %
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep -v '.ana.' | grep -v '_' | xargs ${vrt}
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep -v '.ana.' | grep    '_' | xargs ${vct}
+
+$(val-schema-ana-ParlaMint-XX): val-schema-ana-ParlaMint-%: %
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep    '.ana.' | grep -v '_' | xargs ${vra}
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep    '.ana.' | grep    '_' | xargs ${vca}
+
+
+$(val-schema-tei-ParlaCLARIN-XX): val-schema-tei-ParlaCLARIN-%: % working-dir-%
+	test -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.xml \
+	  && $s -xi:on -xsl:Scripts/copy.xsl -s:${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.xml -o:${WORKINGDIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.xml \
+	  && ${pc} ${WORKINGDIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.xml \
+	  || echo "WARNING skipping/failing $@"
+
+
+$(val-schema-ana-ParlaCLARIN-XX): val-schema-ana-ParlaCLARIN-%: % working-dir-%
+	test -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.ana.xml \
+	  && $s -xi:on -xsl:Scripts/copy.xsl -s:${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.ana.xml -o:${WORKINGDIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.ana.xml \
+	  && ${pc} ${WORKINGDIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.ana.xml \
+	  || echo "WARNING skipping/failing $@"
+
+
+
+###### Check links
+check-links-XX = $(addprefix check-links-, $(PARLIAMENTS))
+## check-links ## validate all corpora with Scripts/check-links.xsl
+check-links: $(check-links-XX)
+## check-links-XX ## ...
+$(check-links-XX): check-links-%: %
+	for root in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep -v '_'`;	do \
+	  echo "checking links in root:" $${root}; \
+	  ${s} ${vlink} $${root}; \
+	  for component in `echo $${root}| xargs ${getincludes}`; do \
+	    echo "checking links in component:" ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/$${component}; \
+	    ${s} meta=$(PWD)/$${root} ${vlink} ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/$${component}; \
+	  done; \
+	done
+
+
+
+###### Check content
+check-content-XX = $(addprefix check-content-, $(PARLIAMENTS))
+## check-content ## validate all corpora with Scripts/validate-parlamint.xsl
+check-content: $(check-content-XX)
+## check-content-XX ## ...
+$(check-content-XX): check-content-%: %
+	for root in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep -v '_'`;	do \
+	  echo "checking content in root:" $${root}; \
+	  ${s} ${vcontent} $${root}; \
+	  for component in `echo $${root}| xargs ${getincludes}`; do \
+	    echo "checking content in component:" ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/$${component}; \
+	    ${s} ${vcontent} ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/$${component}; \
+	  done; \
+	done
+
+
+
+###### Validate ParlaMint validate-parlamint.pl
+validate-parlamint-XX = $(addprefix validate-parlamint-, $(PARLIAMENTS))
+## validate-parlamint ## validate all corpora with Scripts/validate-parlamint.pl
+validate-parlamint: $(validate-parlamint-XX)
+## validate-parlamint-XX ## validate country XX (equivalent to val-lang in previous makefile)
+$(validate-parlamint-XX): validate-parlamint-%: %
+	Scripts/validate-parlamint.pl Schema '${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}'
+
+
+
+###### Convert (and validate)
+
+## root ## Make ParlaMint corpus root
 root:
-	$s -xsl:Scripts/parlamint2root.xsl Scripts/ParlaMint-template.xml > ParlaMint.xml
-	$s -xsl:Scripts/parlamint2root.xsl Scripts/ParlaMint-template.ana.xml > ParlaMint.ana.xml
+	$s -xsl:Scripts/parlamint2root.xsl Scripts/ParlaMint-template.xml > ${DATADIR}/ParlaMint.xml
+	$s -xsl:Scripts/parlamint2root.xsl Scripts/ParlaMint-template.ana.xml > ${DATADIR}/ParlaMint.ana.xml
 
-# Validate and derive formats for 1 language
-LANG = CZ
-PREF = /project/corpora/Parla/ParlaMint/ParlaMint
-all-lang:	all-lang-tei all-lang-ana
-all-lang-tei:	val-pc-lang val-lang text-lang meta-lang chars-lang
-all-lang-ana:	vertana-lang conllu-lang
-chars-lang:
-	rm -f ${DATADIR}/ParlaMint-${LANG}/chars-files-${LANG}.txt
-	rm -f ${DATADIR}/ParlaMint-${LANG}/*.tmp
-	nice find ${DATADIR}/ParlaMint-${LANG}/ -name '*.txt' | \
+
+chars-XX = $(addprefix chars-, $(PARLIAMENTS))
+## chars ## create character tables
+chars: $(chars-XX)
+## chars-XX ## ...
+$(chars-XX): chars-%: %
+	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/chars-files-$<.tbl
+	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.tmp
+	nice find ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ -name 'ParlaMint-$<_*.txt' | \
 	$P --jobs 20 'cut -f2 {} > {.}.tmp'
-	nice find ${DATADIR}/ParlaMint-${LANG}/ -name '*.tmp' | \
-	$P --jobs 20 'Scripts/chars.pl {} >> ${DATADIR}/ParlaMint-${LANG}/chars-files-${LANG}.tbl'
-	Scripts/chars-summ.pl < ${DATADIR}/ParlaMint-${LANG}/chars-files-${LANG}.tbl \
-	> ${DATADIR}/ParlaMint-${LANG}/chars-${LANG}.tbl
-	rm -f ${DATADIR}/ParlaMint-${LANG}/*.tmp
-text-lang:
-	ls ${DATADIR}/ParlaMint-${LANG}/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-${LANG}/{/.}.txt'
-meta-lang:
-	ls ${DATADIR}/ParlaMint-${LANG}/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../${DATADIR}/ParlaMint-${LANG}/ParlaMint-${LANG}.xml -xsl:Scripts/parlamint2meta.xsl \
-	{} > ${DATADIR}/ParlaMint-${LANG}/{/.}-meta.tsv'
-conllu-lang:
-	Scripts/parlamint2conllu.pl ${DATADIR}/ParlaMint-${LANG} ${DATADIR}/ParlaMint-${LANG}
+	nice find ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ -name 'ParlaMint-$<_*.tmp' | \
+	$P --jobs 20 'Scripts/chars.pl {} >> ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/chars-files-$<.tbl'
+	test -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.xml \
+	 && Scripts/chars-summ.pl < ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/chars-files-$<.tbl \
+	    > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/chars-$<.tbl \
+	  || echo "WARNING skipping/failing $@ (missing txt files or chars-summ.pl failed)"
+	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.tmp
 
-vertana-lang:
-	Scripts/parlamint-tei2vert.pl ${DATADIR}/ParlaMint-${LANG}/ParlaMint-${LANG}.ana.xml ${DATADIR}/ParlaMint-${LANG}
-val-lang:
-	Scripts/validate-parlamint.pl Schema '${DATADIR}/ParlaMint-${LANG}'
-val-pc-lang:
-	ls ${DATADIR}/ParlaMint-${LANG}/ParlaMint-${LANG}.xml | xargs ${pc}
-	ls ${DATADIR}/ParlaMint-${LANG}/ParlaMint-${LANG}.ana.xml | xargs ${pc}
 
-conllu-si:
-	rm -f ${DATADIR}/ParlaMint-SI/*.conllu
-	ls ${DATADIR}/ParlaMint-SI/*_*.ana.xml | $P --jobs 10 \
-	'$s meta=../${DATADIR}/ParlaMint-SI/ParlaMint-SI.ana.xml -xsl:Scripts/parlamint2conllu.xsl {} > {.}.conllu'
-	rename 's/\.ana\.conllu/.conllu/' ${DATADIR}/ParlaMint-SI/*.ana.conllu
-	python3 Scripts/tools/validate.py --lang sl --level 1 ${DATADIR}/ParlaMint-SI/*.conllu
-	python3 Scripts/tools/validate.py --lang sl --level 2 ${DATADIR}/ParlaMint-SI/*.conllu
-	python3 Scripts/tools/validate.py --lang sl --level 3 ${DATADIR}/ParlaMint-SI/*.conllu
+text-XX = $(addprefix text-, $(PARLIAMENTS))
+## text ## create text version from tei files
+text: $(text-XX)
+## text-XX ## convert tei files to text
+$(text-XX): text-%: %
+	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.txt
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.xml" | grep -v '.ana.' | $P --jobs 10 \
+	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{/.}.txt'
 
-SI = ParlaMint-SI_2018-04-13-SDZ7-Izredna-59
-test-conllu-si:
-	$s meta=../${DATADIR}/ParlaMint-SI/ParlaMint-SI.ana.xml -xsl:Scripts/parlamint2conllu.xsl \
-	${DATADIR}/ParlaMint-SI/${SI}.ana.xml > ${DATADIR}/ParlaMint-SI/${SI}.conllu
-	python3 Scripts/tools/validate.py --lang sl --level 1 ${DATADIR}/ParlaMint-SI/${SI}.conllu
-	python3 Scripts/tools/validate.py --lang sl --level 2 ${DATADIR}/ParlaMint-SI/${SI}.conllu
-	python3 Scripts/tools/validate.py --lang sl --level 3 ${DATADIR}/ParlaMint-SI/${SI}.conllu
 
-CZ = ParlaMint-CZ_2013-11-25-ps2013-001-01-001-001
-test-conllu-cz:
-	$s meta=../${DATADIR}/ParlaMint-CZ/ParlaMint-CZ.ana.xml -xsl:Scripts/parlamint2conllu.xsl \
-	${DATADIR}/ParlaMint-CZ/${CZ}.ana.xml > ${DATADIR}/ParlaMint-CZ/${CZ}.conllu
-	python3 Scripts/tools/validate.py --lang cs --level 1 ${DATADIR}/ParlaMint-CZ/${CZ}.conllu
-	python3 Scripts/tools/validate.py --lang cs --level 2 ${DATADIR}/ParlaMint-CZ/${CZ}.conllu
-	python3 Scripts/tools/validate.py --lang cs --level 3 ${DATADIR}/ParlaMint-CZ/${CZ}.conllu
 
-DK = ParlaMint-DK_2018-11-22-20181-M24
-test-conllu-dk:
-	$s meta=../${DATADIR}/ParlaMint-DK/ParlaMint-DK.ana.xml -xsl:Scripts/parlamint2conllu.xsl \
-	${DATADIR}/ParlaMint-DK/${DK}.ana.xml > ${DATADIR}/ParlaMint-DK/${DK}.conllu
-	python3 Scripts/tools/validate.py --lang dk --level 1 ${DATADIR}/ParlaMint-DK/${DK}.conllu
-	python3 Scripts/tools/validate.py --lang dk --level 2 ${DATADIR}/ParlaMint-DK/${DK}.conllu
-	python3 Scripts/tools/validate.py --lang dk --level 3 ${DATADIR}/ParlaMint-DK/${DK}.conllu
+meta-XX = $(addprefix meta-, $(PARLIAMENTS))
+## meta ## generate metadata tables from unanotated version
+meta: $(meta-XX)
+## meta-XX ## ...
+$(meta-XX): meta-%: %
+	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*-meta.tsv
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*_*.xml" | grep -v '.ana.' | $P --jobs 10 \
+	'$s hdr=../${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.xml -xsl:Scripts/parlamint2meta.xsl \
+	{} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{/.}-meta.tsv'
 
-BE = ParlaMint-BE_2015-06-10-54-commissie-ic189x
-test-conllu-be:	test-conllu-be-nl test-conllu-be-fr
-test-conllu-be-nl:
-	$s seg-lang=nl meta=../${DATADIR}/ParlaMint-BE/ParlaMint-BE.ana.xml -xsl:Scripts/parlamint2conllu.xsl \
-	${DATADIR}/ParlaMint-BE/${BE}.ana.xml > ${DATADIR}/ParlaMint-BE/${BE}-nl.conllu
-	python3 Scripts/tools/validate.py --lang nl --level 1 ${DATADIR}/ParlaMint-BE/${BE}-nl.conllu
-	-python3 Scripts/tools/validate.py --lang nl --level 2 ${DATADIR}/ParlaMint-BE/${BE}-nl.conllu
-test-conllu-be-fr:
-	$s seg-lang=fr meta=../${DATADIR}/ParlaMint-BE/ParlaMint-BE.ana.xml -xsl:Scripts/parlamint2conllu.xsl \
-	${DATADIR}/ParlaMint-BE/${BE}.ana.xml > ${DATADIR}/ParlaMint-BE/${BE}-fr.conllu
-	python3 Scripts/tools/validate.py --lang fr --level 1 ${DATADIR}/ParlaMint-BE/${BE}-fr.conllu
-	-python3 Scripts/tools/validate.py --lang fr --level 2 ${DATADIR}/ParlaMint-BE/${BE}-fr.conllu
 
-#### Validation and generation of various types of files for all V2.1 languages 
 
-# Validation for all corpora
-# Parla-CLARIN validation
-nohup:
-	nohup time make all > nohup.val &
-all:	val-all
+conllu-XX = $(addprefix conllu-, $(PARLIAMENTS))
+## conllu ## create connlu format files and valide them (parlamint2conllu.pl)
+conllu: $(conllu-XX)
+## conllu-XX ##
+$(conllu-XX): conllu-%: %
+	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*.conllu
+	test -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.ana.xml \
+	  && Scripts/parlamint2conllu.pl ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} \
+	  || echo "WARNING skipping/failing $@"
 
-# ParlaMint validation
-val-all:
-	Scripts/validate-parlamint.pl Schema '${DATADIR}/ParlaMint-??'
 
-# ParlaMint validation with Jing only, but also with Parla-CLARIN
-val-jing: val-jing-parla-clarin val-jing-parlamint
+vertana-XX = $(addprefix vertana-, $(PARLIAMENTS))
+## vertana ## create anotated vertical file (parlamint-tei2vert.pl)
+vertana: $(vertana-XX)
+## vertana-XX ##
+$(vertana-XX): vertana-%: %
+	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*.vert
+	test -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.ana.xml \
+	  && Scripts/parlamint-tei2vert.pl ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.ana.xml ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} \
+	  || echo "WARNING skipping/failing $@"
 
-val-jing-parlamint:
-	ls ${DATADIR}/ParlaMint-??/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs ${vrt}
-	ls ${DATADIR}/ParlaMint-??/ParlaMint-*.xml | grep -v '.ana.' | grep    '_' | xargs ${vct}
-	ls ${DATADIR}/ParlaMint-??/ParlaMint-*.xml | grep    '.ana.' | grep -v '_' | xargs ${vra}
-	ls ${DATADIR}/ParlaMint-??/ParlaMint-*.xml | grep    '.ana.' | grep    '_' | xargs ${vca}
 
-val-jing-parla-clarin: create-all-in-one
-	ls ${DATADIR}/ParlaMint-??/ParlaMint-*.xml.all-in-one.xml | grep -v '.ana.' | xargs ${pc}
-	ls ${DATADIR}/ParlaMint-??/ParlaMint-*.xml.all-in-one.xml | grep    '.ana.' | xargs ${pc}
-	rm -f  ${DATADIR}/ParlaMint-??/*.xml.all-in-one.xml
 
-create-all-in-one:
-	rm -f  ${DATADIR}/ParlaMint-??/*.xml.all-in-one.xml
-	ls  ${DATADIR}/ParlaMint-??/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs ${copy}
-	ls  ${DATADIR}/ParlaMint-??/ParlaMint-*.xml | grep    '.ana.' | grep -v '_' | xargs ${copy}
 
-#Generation and validation of CoNLL-U files
-#If you want to use, first do:
-#$ cd Scripts; git clone git@github.com:UniversalDependencies/tools.git
-nohup-conllu:
-	nohup time make conllu &
-conllu:
-	rm -f ${DATADIR}/ParlaMint-??/*.conllu
-	Scripts/parlamint2conllu.pl ${DATADIR}/ParlaMint-BE ${DATADIR}/ParlaMint-BE 2> ${DATADIR}/ParlaMint-BE/ParlaMint-BE.conllu.log
-	Scripts/parlamint2conllu.pl ${DATADIR}/ParlaMint-BG ${DATADIR}/ParlaMint-BG 2> ${DATADIR}/ParlaMint-BG/ParlaMint-BG.conllu.log
-	Scripts/parlamint2conllu.pl ${DATADIR}/ParlaMint-CZ ${DATADIR}/ParlaMint-CZ 2> ${DATADIR}/ParlaMint-CZ/ParlaMint-CZ.conllu.log
-	Scripts/parlamint2conllu.pl ${DATADIR}/ParlaMint-DK ${DATADIR}/ParlaMint-DK 2> ${DATADIR}/ParlaMint-DK/ParlaMint-DK.conllu.log
-	Scripts/parlamint2conllu.pl ${DATADIR}/ParlaMint-ES ${DATADIR}/ParlaMint-ES 2> ${DATADIR}/ParlaMint-ES/ParlaMint-ES.conllu.log
-	Scripts/parlamint2conllu.pl ${DATADIR}/ParlaMint-FR ${DATADIR}/ParlaMint-FR 2> ${DATADIR}/ParlaMint-FR/ParlaMint-FR.conllu.log
-	Scripts/parlamint2conllu.pl ${DATADIR}/ParlaMint-GB ${DATADIR}/ParlaMint-GB 2> ${DATADIR}/ParlaMint-GB/ParlaMint-GB.conllu.log
-	Scripts/parlamint2conllu.pl ${DATADIR}/ParlaMint-HR ${DATADIR}/ParlaMint-HR 2> ${DATADIR}/ParlaMint-HR/ParlaMint-HR.conllu.log
-	Scripts/parlamint2conllu.pl ${DATADIR}/ParlaMint-HU ${DATADIR}/ParlaMint-HU 2> ${DATADIR}/ParlaMint-HU/ParlaMint-HU.conllu.log
-	Scripts/parlamint2conllu.pl ${DATADIR}/ParlaMint-IS ${DATADIR}/ParlaMint-IS 2> ${DATADIR}/ParlaMint-IS/ParlaMint-IS.conllu.log
-	Scripts/parlamint2conllu.pl ${DATADIR}/ParlaMint-IT ${DATADIR}/ParlaMint-IT 2> ${DATADIR}/ParlaMint-IT/ParlaMint-IT.conllu.log
-	Scripts/parlamint2conllu.pl ${DATADIR}/ParlaMint-LT ${DATADIR}/ParlaMint-LT 2> ${DATADIR}/ParlaMint-LT/ParlaMint-LT.conllu.log
-	Scripts/parlamint2conllu.pl ${DATADIR}/ParlaMint-LV ${DATADIR}/ParlaMint-LV 2> ${DATADIR}/ParlaMint-LV/ParlaMint-LV.conllu.log
-	Scripts/parlamint2conllu.pl ${DATADIR}/ParlaMint-NL ${DATADIR}/ParlaMint-NL 2> ${DATADIR}/ParlaMint-NL/ParlaMint-NL.conllu.log
-	Scripts/parlamint2conllu.pl ${DATADIR}/ParlaMint-PL ${DATADIR}/ParlaMint-PL 2> ${DATADIR}/ParlaMint-PL/ParlaMint-PL.conllu.log
-	#Scripts/parlamint2conllu.pl ${DATADIR}/ParlaMint-RO ${DATADIR}/ParlaMint-RO 2> ${DATADIR}/ParlaMint-RO/ParlaMint-RO.conllu.log
-	Scripts/parlamint2conllu.pl ${DATADIR}/ParlaMint-SI ${DATADIR}/ParlaMint-SI 2> ${DATADIR}/ParlaMint-SI/ParlaMint-SI.conllu.log
-	Scripts/parlamint2conllu.pl ${DATADIR}/ParlaMint-TR ${DATADIR}/ParlaMint-TR 2> ${DATADIR}/ParlaMint-TR/ParlaMint-TR.conllu.log
+######---------------
+.PHONY: $(PARLIAMENTS)
+$(PARLIAMENTS):
 
-#Generation of meta-data files
-meta:
-	rm -f ${DATADIR}/ParlaMint-??/*-meta.tsv
+help-intro:
+	@echo "replace XX with country code or run target without -XX to process all countries: \n\t ${PARLIAMENTS}\n "
 
-	ls ${DATADIR}/ParlaMint-BE/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../${DATADIR}/ParlaMint-BE/ParlaMint-BE.xml -xsl:Scripts/parlamint2meta.xsl \
-	{} > ${DATADIR}/ParlaMint-BE/{/.}-meta.tsv'
+help-variables:
+	@echo "\033[1m\033[32mVARIABLES:\033[0m"
+	@echo "Variable VAR with value 'value' can be set when calling target TARGET in $(MAKEFILE_LIST): make VAR=value TARGET"
+	@grep -E '^## *\$$[a-zA-Z_-]*.*?##.*$$' $(MAKEFILE_LIST) |sed 's/^## *\$$/##/'| awk 'BEGIN {FS = " *## *"}; {printf "\033[1m%s\033[0m\033[36m%-18s\033[0m %s\n", $$4, $$2, $$3}'
 
-	ls ${DATADIR}/ParlaMint-BG/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../${DATADIR}/ParlaMint-BG/ParlaMint-BG.xml -xsl:Scripts/parlamint2meta.xsl \
-	{} > ${DATADIR}/ParlaMint-BG/{/.}-meta.tsv'
+help-targets:
+	@echo "\033[1m\033[32mTARGETS:\033[0m"
+	@grep -E '^## *[a-zA-Z_-]+.*?##.*$$|^####' $(MAKEFILE_LIST) | awk 'BEGIN {FS = " *## *"}; {printf "\033[1m%s\033[0m\033[36m%-25s\033[0m %s\n", $$4, $$2, $$3}'
 
-	ls ${DATADIR}/ParlaMint-CZ/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../${DATADIR}/ParlaMint-CZ/ParlaMint-CZ.xml -xsl:Scripts/parlamint2meta.xsl \
-	{} > ${DATADIR}/ParlaMint-CZ/{/.}-meta.tsv'
 
-	ls ${DATADIR}/ParlaMint-DK/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../${DATADIR}/ParlaMint-DK/ParlaMint-DK.xml -xsl:Scripts/parlamint2meta.xsl \
-	{} > ${DATADIR}/ParlaMint-DK/{/.}-meta.tsv'
+.PHONY: help
+## help ## print this help
+help: help-intro help-variables help-targets
 
-	ls ${DATADIR}/ParlaMint-ES/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../${DATADIR}/ParlaMint-ES/ParlaMint-ES.xml -xsl:Scripts/parlamint2meta.xsl \
-	{} > ${DATADIR}/ParlaMint-ES/{/.}-meta.tsv'
+## help-advanced ## print full help
+help-advanced: help
+	@echo "\033[1m\033[32mADVANCED:\033[0m"
+	@echo "If you want to run target on multiple targets but not all, you can overwrite PARLIAMENTS variable. E.g. make check-links PARLIAMENTS=\"GB CZ\""
+	@grep -E '^## *![a-zA-Z_-]+.*?##.*$$|^##!##' $(MAKEFILE_LIST) |sed 's/^## *!/##/'| awk 'BEGIN {FS = " *## *"}; {printf "\033[1m%s\033[0m\033[35m%-25s\033[0m %s\n", $$4, $$2, $$3}'
 
-	ls ${DATADIR}/ParlaMint-FR/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../${DATADIR}/ParlaMint-FR/ParlaMint-FR.xml -xsl:Scripts/parlamint2meta.xsl \
-	{} > ${DATADIR}/ParlaMint-FR/{/.}-meta.tsv'
 
-	ls ${DATADIR}/ParlaMint-GB/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../${DATADIR}/ParlaMint-GB/ParlaMint-GB.xml -xsl:Scripts/parlamint2meta.xsl \
-	{} > ${DATADIR}/ParlaMint-GB/{/.}-meta.tsv'
 
-	ls ${DATADIR}/ParlaMint-HR/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../${DATADIR}/ParlaMint-HR/ParlaMint-HR.xml -xsl:Scripts/parlamint2meta.xsl \
-	{} > ${DATADIR}/ParlaMint-HR/{/.}-meta.tsv'
 
-	ls ${DATADIR}/ParlaMint-HU/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../${DATADIR}/ParlaMint-HU/ParlaMint-HU.xml -xsl:Scripts/parlamint2meta.xsl \
-	{} > ${DATADIR}/ParlaMint-HU/{/.}-meta.tsv'
+$(addprefix working-dir-, $(PARLIAMENTS)): working-dir-%: %
+	mkdir -p ${WORKINGDIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}
 
-	ls ${DATADIR}/ParlaMint-IS/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../${DATADIR}/ParlaMint-IS/ParlaMint-IS.xml -xsl:Scripts/parlamint2meta.xsl \
-	{} > ${DATADIR}/ParlaMint-IS/{/.}-meta.tsv'
 
-	ls ${DATADIR}/ParlaMint-IT/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../${DATADIR}/ParlaMint-IT/ParlaMint-IT.xml -xsl:Scripts/parlamint2meta.xsl \
-	{} > ${DATADIR}/ParlaMint-IT/{/.}-meta.tsv'
+##!####DEVEL
+##!DEV-list-script-local-deps## for each file in Scripts folder shows list of dependencies in Script folder
+DEV-list-script-local-deps:
+	regex=`ls -p Scripts| grep -v "/"| tr '\n' '|'|sed 's/|$$//'`; \
+	for file in `ls -p Scripts| grep -v "/"`; do \
+	  echo -n "$$file:\t"; \
+	  grep -Eo "$$regex" Scripts/$$file|grep -v "^$$file$$"|sort|uniq| tr '\n' ' '; \
+	  echo;\
+	done
 
-	ls ${DATADIR}/ParlaMint-LT/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../${DATADIR}/ParlaMint-LT/ParlaMint-LT.xml -xsl:Scripts/parlamint2meta.xsl \
-	{} > ${DATADIR}/ParlaMint-LT/{/.}-meta.tsv'
 
-	ls ${DATADIR}/ParlaMint-LV/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../${DATADIR}/ParlaMint-LV/ParlaMint-LV.xml -xsl:Scripts/parlamint2meta.xsl \
-	{} > ${DATADIR}/ParlaMint-LV/{/.}-meta.tsv'
-
-	ls ${DATADIR}/ParlaMint-NL/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../${DATADIR}/ParlaMint-NL/ParlaMint-NL.xml -xsl:Scripts/parlamint2meta.xsl \
-	{} > ${DATADIR}/ParlaMint-NL/{/.}-meta.tsv'
-
-	ls ${DATADIR}/ParlaMint-PL/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../${DATADIR}/ParlaMint-PL/ParlaMint-PL.xml -xsl:Scripts/parlamint2meta.xsl \
-	{} > ${DATADIR}/ParlaMint-PL/{/.}-meta.tsv'
-
-	# ls ${DATADIR}/ParlaMint-RO/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	# '$s hdr=../${DATADIR}/ParlaMint-RO/ParlaMint-RO.xml -xsl:Scripts/parlamint2meta.xsl \
-	# {} > ${DATADIR}/ParlaMint-RO/{/.}-meta.tsv'
-
-	ls ${DATADIR}/ParlaMint-SI/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../${DATADIR}/ParlaMint-SI/ParlaMint-SI.xml -xsl:Scripts/parlamint2meta.xsl \
-	{} > ${DATADIR}/ParlaMint-SI/{/.}-meta.tsv'
-
-	ls ${DATADIR}/ParlaMint-TR/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../${DATADIR}/ParlaMint-TR/ParlaMint-TR.xml -xsl:Scripts/parlamint2meta.xsl \
-	{} > ${DATADIR}/ParlaMint-TR/{/.}-meta.tsv'
-
-#Generation of character profiles
-#Now that we have plain text, would be better to compute char counts from those!
-chars-xml:
-	rm -f ${DATADIR}/ParlaMint-??/chars-*.tbl
-
-	ls ${DATADIR}/ParlaMint-BE/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'Scripts/chars.pl {} >> ${DATADIR}/ParlaMint-BE/chars-files-BE.tbl'
-	Scripts/chars-summ.pl < ${DATADIR}/ParlaMint-BE/chars-files-BE.tbl > ${DATADIR}/ParlaMint-BE/chars-BE.tbl
-
-	ls ${DATADIR}/ParlaMint-BG/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'Scripts/chars.pl {} >> ${DATADIR}/ParlaMint-BG/chars-files-BG.tbl'
-	Scripts/chars-summ.pl < ${DATADIR}/ParlaMint-BG/chars-files-BG.tbl > ${DATADIR}/ParlaMint-BG/chars-BG.tbl
-
-	ls ${DATADIR}/ParlaMint-CZ/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'Scripts/chars.pl {} >> ${DATADIR}/ParlaMint-CZ/chars-files-CZ.tbl'
-	Scripts/chars-summ.pl < ${DATADIR}/ParlaMint-CZ/chars-files-CZ.tbl > ${DATADIR}/ParlaMint-CZ/chars-CZ.tbl
-
-	ls ${DATADIR}/ParlaMint-DK/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'Scripts/chars.pl {} >> ${DATADIR}/ParlaMint-DK/chars-files-DK.tbl'
-	Scripts/chars-summ.pl < ${DATADIR}/ParlaMint-DK/chars-files-DK.tbl > ${DATADIR}/ParlaMint-DK/chars-DK.tbl
-
-	ls ${DATADIR}/ParlaMint-ES/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'Scripts/chars.pl {} >> ${DATADIR}/ParlaMint-ES/chars-files-ES.tbl'
-	Scripts/chars-summ.pl < ${DATADIR}/ParlaMint-ES/chars-files-ES.tbl > ${DATADIR}/ParlaMint-ES/chars-ES.tbl
-
-	ls ${DATADIR}/ParlaMint-FR/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'Scripts/chars.pl {} >> ${DATADIR}/ParlaMint-FR/chars-files-FR.tbl'
-	Scripts/chars-summ.pl < ${DATADIR}/ParlaMint-FR/chars-files-FR.tbl > ${DATADIR}/ParlaMint-FR/chars-FR.tbl
-
-	ls ${DATADIR}/ParlaMint-GB/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'Scripts/chars.pl {} >> ${DATADIR}/ParlaMint-GB/chars-files-GB.tbl'
-	Scripts/chars-summ.pl < ${DATADIR}/ParlaMint-GB/chars-files-GB.tbl > ${DATADIR}/ParlaMint-GB/chars-GB.tbl
-
-	ls ${DATADIR}/ParlaMint-HR/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'Scripts/chars.pl {} >> ${DATADIR}/ParlaMint-HR/chars-files-HR.tbl'
-	Scripts/chars-summ.pl < ${DATADIR}/ParlaMint-HR/chars-files-HR.tbl > ${DATADIR}/ParlaMint-HR/chars-HR.tbl
-
-	ls ${DATADIR}/ParlaMint-HU/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'Scripts/chars.pl {} >> ${DATADIR}/ParlaMint-HU/chars-files-HU.tbl'
-	Scripts/chars-summ.pl < ${DATADIR}/ParlaMint-HU/chars-files-HU.tbl > ${DATADIR}/ParlaMint-HU/chars-HU.tbl
-
-	ls ${DATADIR}/ParlaMint-IS/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'Scripts/chars.pl {} >> ${DATADIR}/ParlaMint-IS/chars-files-IS.tbl'
-	Scripts/chars-summ.pl < ${DATADIR}/ParlaMint-IS/chars-files-IS.tbl > ${DATADIR}/ParlaMint-IS/chars-IS.tbl
-
-	ls ${DATADIR}/ParlaMint-IT/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'Scripts/chars.pl {} >> ${DATADIR}/ParlaMint-IT/chars-files-IT.tbl'
-	Scripts/chars-summ.pl < ${DATADIR}/ParlaMint-IT/chars-files-IT.tbl > ${DATADIR}/ParlaMint-IT/chars-IT.tbl
-
-	ls ${DATADIR}/ParlaMint-LT/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'Scripts/chars.pl {} >> ${DATADIR}/ParlaMint-LT/chars-files-LT.tbl'
-	Scripts/chars-summ.pl < ${DATADIR}/ParlaMint-LT/chars-files-LT.tbl > ${DATADIR}/ParlaMint-LT/chars-LT.tbl
-
-	ls ${DATADIR}/ParlaMint-LV/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'Scripts/chars.pl {} >> ${DATADIR}/ParlaMint-LV/chars-files-LV.tbl'
-	Scripts/chars-summ.pl < ${DATADIR}/ParlaMint-LV/chars-files-LV.tbl > ${DATADIR}/ParlaMint-LV/chars-LV.tbl
-
-	ls ${DATADIR}/ParlaMint-NL/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'Scripts/chars.pl {} >> ${DATADIR}/ParlaMint-NL/chars-files-NL.tbl'
-	Scripts/chars-summ.pl < ${DATADIR}/ParlaMint-NL/chars-files-NL.tbl > ${DATADIR}/ParlaMint-NL/chars-NL.tbl
-
-	ls ${DATADIR}/ParlaMint-PL/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'Scripts/chars.pl {} >> ${DATADIR}/ParlaMint-PL/chars-files-PL.tbl'
-	Scripts/chars-summ.pl < ${DATADIR}/ParlaMint-PL/chars-files-PL.tbl > ${DATADIR}/ParlaMint-PL/chars-PL.tbl
-
-	# ls ${DATADIR}/ParlaMint-RO/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	# 'Scripts/chars.pl {} >> ${DATADIR}/ParlaMint-RO/chars-files-RO.tbl'
-	# Scripts/chars-summ.pl < ${DATADIR}/ParlaMint-RO/chars-files-RO.tbl > ${DATADIR}/ParlaMint-RO/chars-RO.tbl
-
-	ls ${DATADIR}/ParlaMint-SI/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'Scripts/chars.pl {} >> ${DATADIR}/ParlaMint-SI/chars-files-SI.tbl'
-	Scripts/chars-summ.pl < ${DATADIR}/ParlaMint-SI/chars-files-SI.tbl > ${DATADIR}/ParlaMint-SI/chars-SI.tbl
-
-	ls ${DATADIR}/ParlaMint-TR/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'Scripts/chars.pl {} >> ${DATADIR}/ParlaMint-TR/chars-files-TR.tbl'
-	Scripts/chars-summ.pl < ${DATADIR}/ParlaMint-TR/chars-files-TR.tbl > ${DATADIR}/ParlaMint-TR/chars-TR.tbl
-
-texts:
-	rm -f ${DATADIR}/ParlaMint-??/*.txt
-
-	ls ${DATADIR}/ParlaMint-BE/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-BE/{/.}.txt'
-	ls ${DATADIR}/ParlaMint-BG/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-BG/{/.}.txt'
-	ls ${DATADIR}/ParlaMint-CZ/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-CZ/{/.}.txt'
-	ls ${DATADIR}/ParlaMint-DK/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-DK/{/.}.txt'
-	ls ${DATADIR}/ParlaMint-ES/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-ES/{/.}.txt'
-	ls ${DATADIR}/ParlaMint-FR/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-FR/{/.}.txt'
-	ls ${DATADIR}/ParlaMint-GB/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-GB/{/.}.txt'
-	ls ${DATADIR}/ParlaMint-HR/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-HR/{/.}.txt'
-	ls ${DATADIR}/ParlaMint-HU/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-HU/{/.}.txt'
-	ls ${DATADIR}/ParlaMint-IS/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-IS/{/.}.txt'
-	ls ${DATADIR}/ParlaMint-IT/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-IT/{/.}.txt'
-	ls ${DATADIR}/ParlaMint-LT/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-LT/{/.}.txt'
-	ls ${DATADIR}/ParlaMint-LV/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-LV/{/.}.txt'
-	ls ${DATADIR}/ParlaMint-NL/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-NL/{/.}.txt'
-	ls ${DATADIR}/ParlaMint-PL/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-PL/{/.}.txt'
-	ls ${DATADIR}/ParlaMint-SI/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-SI/{/.}.txt'
-	ls ${DATADIR}/ParlaMint-TR/*_*.xml | grep -v '.ana.' | $P --jobs 10 \
-	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-TR/{/.}.txt'
-
-verts:
-	rm -f ${DATADIR}/ParlaMint-??/*.vert
-	Scripts/parlamint-tei2vert.pl ${DATADIR}/ParlaMint-BE/ParlaMint-BE.ana.xml ${DATADIR}/ParlaMint-BE
-	Scripts/parlamint-tei2vert.pl ${DATADIR}/ParlaMint-BG/ParlaMint-BG.ana.xml ${DATADIR}/ParlaMint-BG
-	Scripts/parlamint-tei2vert.pl ${DATADIR}/ParlaMint-CZ/ParlaMint-CZ.ana.xml ${DATADIR}/ParlaMint-CZ
-	Scripts/parlamint-tei2vert.pl ${DATADIR}/ParlaMint-DK/ParlaMint-DK.ana.xml ${DATADIR}/ParlaMint-DK
-	Scripts/parlamint-tei2vert.pl ${DATADIR}/ParlaMint-ES/ParlaMint-ES.ana.xml ${DATADIR}/ParlaMint-ES
-	Scripts/parlamint-tei2vert.pl ${DATADIR}/ParlaMint-FR/ParlaMint-FR.ana.xml ${DATADIR}/ParlaMint-FR
-	Scripts/parlamint-tei2vert.pl ${DATADIR}/ParlaMint-GB/ParlaMint-GB.ana.xml ${DATADIR}/ParlaMint-GB
-	Scripts/parlamint-tei2vert.pl ${DATADIR}/ParlaMint-HR/ParlaMint-HR.ana.xml ${DATADIR}/ParlaMint-HR
-	Scripts/parlamint-tei2vert.pl ${DATADIR}/ParlaMint-HU/ParlaMint-HU.ana.xml ${DATADIR}/ParlaMint-HU
-	Scripts/parlamint-tei2vert.pl ${DATADIR}/ParlaMint-IS/ParlaMint-IS.ana.xml ${DATADIR}/ParlaMint-IS
-	Scripts/parlamint-tei2vert.pl ${DATADIR}/ParlaMint-IT/ParlaMint-IT.ana.xml ${DATADIR}/ParlaMint-IT
-	Scripts/parlamint-tei2vert.pl ${DATADIR}/ParlaMint-LT/ParlaMint-LT.ana.xml ${DATADIR}/ParlaMint-LT
-	Scripts/parlamint-tei2vert.pl ${DATADIR}/ParlaMint-LV/ParlaMint-LV.ana.xml ${DATADIR}/ParlaMint-LV
-	Scripts/parlamint-tei2vert.pl ${DATADIR}/ParlaMint-NL/ParlaMint-NL.ana.xml ${DATADIR}/ParlaMint-NL
-	Scripts/parlamint-tei2vert.pl ${DATADIR}/ParlaMint-PL/ParlaMint-PL.ana.xml ${DATADIR}/ParlaMint-PL
-	#Scripts/parlamint-tei2vert.pl ${DATADIR}/ParlaMint-RO/ParlaMint-RO.ana.xml ${DATADIR}/ParlaMint-RO
-	Scripts/parlamint-tei2vert.pl ${DATADIR}/ParlaMint-SI/ParlaMint-SI.ana.xml ${DATADIR}/ParlaMint-SI
-	Scripts/parlamint-tei2vert.pl ${DATADIR}/ParlaMint-TR/ParlaMint-TR.ana.xml ${DATADIR}/ParlaMint-TR
-
-#Make HTML, not yet operative
-H = /project/corpora/Parla/ParlaMint/ParlaMint/
-htm:	val-all
-	Scripts/Stylesheets/bin/teitohtml --profiledir=$H --profile=profile \
-	docs/ParlaMint-summary.xml docs/index.html
-
-clean:
-	rm -f ${DATADIR}/ParlaMint-??/*.xml
-
-################################################
 s = java -jar /usr/share/java/saxon.jar
 P = parallel --gnu --halt 2
-j = java -jar /usr/share/java/jing.jar 
+j = java -jar /usr/share/java/jing.jar
 copy = -I % $s -xi:on -xsl:Scripts/copy.xsl -s:% -o:%.all-in-one.xml
+vlink = -xsl:Scripts/check-links.xsl
+vcontent = -xsl:Scripts/validate-parlamint.xsl
+getincludes = -I % xmllint --xpath '//*[local-name()="include"]/@href' % |sed 's/^ *href="//;s/"//'
 pc =  $j Schema/parla-clarin.rng
 vrt = $j Schema/ParlaMint-teiCorpus.rng 	# Corpus root / text
 vct = $j Schema/ParlaMint-TEI.rng		# Corpus component / text

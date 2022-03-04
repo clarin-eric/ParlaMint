@@ -4,6 +4,7 @@
       <fileDesc>
          <titleStmt>
            <title type="main">Multilingual comparable parliamentary corpora ParlaMint [ParlaMint]</title>
+           <title type="sub">Automatically generated root (not valid because of ID conflicts)</title>
 	   <meeting/>
            <respStmt>
              <persName>Maciej Ogrodniczuk</persName>
@@ -17,7 +18,7 @@
            <funder/>
          </titleStmt>
          <editionStmt>
-           <edition>2.1</edition>
+           <edition>2.1.1</edition>
          </editionStmt>
          <extent>
            <measure unit="speeches"/>
@@ -28,7 +29,8 @@
              <orgName>CLARIN research infrastructure</orgName>
              <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
            </publisher>
-           <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1432</idno>
+	   <!-- Wait with the <idno> to have the handle for the next version -->
+           <!--idno type="URI" subtype="handle">http://hdl.handle.net/11356/1432</idno-->
            <availability status="free">
              <licence>http://creativecommons.org/licenses/by/4.0/</licence>
              <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
@@ -83,14 +85,14 @@
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-FR/ParlaMint-FR.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-GB/ParlaMint-GB.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-HR/ParlaMint-HR.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-HU/ParlaMint-HU.xml"/>
+   <!-- We will no longer support HU, as they are not in the ParlaMint II project -->
+   <!--xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-HU/ParlaMint-HU.xml"/-->
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS/ParlaMint-IS.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IT/ParlaMint-IT.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-LT/ParlaMint-LT.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-LV/ParlaMint-LV.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-NL/ParlaMint-NL.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-PL/ParlaMint-PL.xml"/>
-   <!--xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-RO/ParlaMint-RO.xml"/-->
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-SI/ParlaMint-SI.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-TR/ParlaMint-TR.xml"/>
 </teiCorpus>

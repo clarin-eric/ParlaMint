@@ -9,14 +9,16 @@
   exclude-result-prefixes="#all"
   version="2.0">
 
+  <!-- Directory relative to location of this script, where the ParlaMint corpora are found -->
+  <xsl:param name="base">../Data</xsl:param>
+  
   <xsl:variable name="today" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
   <xsl:output method="xml" indent="yes"/>
   
   <xsl:variable name="docs">
     <xsl:for-each select="//xi:include">
-      <!-- We need "../" as the this XSLT is in Scripts! -->
       <item>
-	<xsl:value-of select="concat('../', @href)"/>
+	<xsl:value-of select="concat($base, '/', @href)"/>
       </item>
     </xsl:for-each>
   </xsl:variable>
@@ -69,7 +71,7 @@
 	<xsl:variable name="country-code">
 	  <!-- Doesn't work cause of GB! -->
 	  <!--xsl:value-of select=".//tei:setting/tei:name[@type='country']/@key"/-->
-	  <xsl:value-of select="substring-after(@xml:id, '-')"/>
+	  <xsl:value-of select="substring-after(@xml:id, '-')"/> <!-- TODO: not working for translated version with language suffix -->
 	</xsl:variable>
 	<xsl:for-each select="tei:teiHeader//tei:titleStmt/tei:meeting">
 	  <!--meeting ana="#parla.lower #parla.term" n="54">54-ste zittingsperiode</meeting-->
@@ -249,7 +251,7 @@
 				    tei:taxonomy[@xml:id = $id]/tei:category"
 			    group-by="@xml:id">
 	  <xsl:variable name="country-code" select="substring-after(
-					    ancestor::tei:teiCorpus/@xml:id, '-')"/>
+					    ancestor::tei:teiCorpus/@xml:id, '-')"/> <!-- TODO: not working for translated version with language suffix -->
 	  <category xml:id="{current-grouping-key()}">
 	    <xsl:for-each select="current-group()/tei:catDesc">
 	      <xsl:copy>
@@ -282,7 +284,7 @@
   
   <xsl:template match="tei:category">
     <xsl:variable name="country-code" select="substring-after(
-					      ancestor::tei:teiCorpus/@xml:id, '-')"/>
+					      ancestor::tei:teiCorpus/@xml:id, '-')"/> <!-- TODO: not working for translated version with language suffix -->
     <xsl:variable name="id" select="concat(@xml:id, '-', $country-code)"/>
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
