@@ -1,7 +1,6 @@
 #!/usr/bin/perl
-# Validate the samples with the ParlaMint ODD derived schema
-# Tomaž Erjavec <tomaz.erjavec@ijs.si>
-# License: GNU GPL
+# Validate ParlaMint corpora (either samples or complete corpora)
+# with the ParlaMint ODD derived schema
 
 use warnings;
 use utf8;
@@ -14,18 +13,13 @@ use FindBin qw($Bin);
 
 $what = shift;
 if ($what eq 'samples') {
-    $tmpDir = "$Bin/tmp";
-    $maskTxt = 'ParlaMint-??/ParlaMint-??.xml';
-    $maskAna = 'ParlaMint-??/ParlaMint-??.ana.xml';
+    $mask = 'ParlaMint-*/ParlaMint-*.xml';
 }
 elsif ($what eq 'master') {
-    $maskTxt  = 'ParlaMint-??.TEI/ParlaMint-??.xml ';
-    $maskTxt .= 'ParlaMint-??.TEI/ParlaMint-??_*.xml ';
-    $maskTxt .= 'ParlaMint-??.TEI/*/ParlaMint-??_*.xml';
-    
-    $maskAna  = 'ParlaMint-??.TEI.ana/ParlaMint-??.ana.xml ';
-    $maskAna .= 'ParlaMint-??.TEI.ana/ParlaMint-??_*.ana.xml ';
-    $maskAna .= 'ParlaMint-??.TEI.ana/*/ParlaMint-??_*.ana.xml';
+    $mask  = 'ParlaMint-*.TEI/ParlaMint-*.xml ';
+    $mask .= 'ParlaMint-*.TEI/*/ParlaMint-*.xml ';
+    $mask .= 'ParlaMint-*.TEI.ana/ParlaMint-*.xml ';
+    $mask .= 'ParlaMint-*.TEI.ana/*/ParlaMint-*.xml';
 }
 else {
     die "First parameter must be 'samples' or 'master'\n"
@@ -36,22 +30,11 @@ unless (-d $inDir) {
 }
 #Execution
 $Jing   = "java -jar /usr/share/java/jing.jar";
-$Saxon  = "java -jar /usr/share/java/saxon.jar";
-# Problem with Out of heap space with TR, NL, GB for ana
-$Saxon  = "java -Xmx120g -jar /usr/share/java/saxon.jar";
-$Copy   = "$Bin/copy-odd.xsl";
 $Schema = "$Bin/ParlaMint.rng";
-
-foreach my $inFile (glob "$inDir/$maskTxt $inDir/$maskAna") {
+foreach my $inFile (glob "$inDir/$mask") {
     ($fName) = $inFile =~ m|([^/]+\.xml)|;
     print STDERR "INFO: Validating $fName\n";
-    if ($what eq 'samples') {
-	$tmpFile = "$tmpDir/$fName";
-	`$Saxon -xi -xsl:$Copy $inFile > $tmpFile`;
-	#print STDERR "Doing: $Jing $Schema $tmpFile\n";
-	system("$Jing $Schema $tmpFile");
-    }
-    elsif ($what eq 'master') {
-	`$Jing $Schema $inFile`
-    }
+    #`$Jing $Schema $inFile`;
+    system("$Jing $Schema $inFile") == 0
+	or print STDERR "ERROR: Validation of $fName failed!\n";
 }
