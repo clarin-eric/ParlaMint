@@ -145,16 +145,16 @@ chars: $(chars-XX)
 ## chars-XX ## ...
 $(chars-XX): chars-%: %
 	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/chars-files-$<.tbl
-	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*.tmp
-	nice find ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ -name '*.txt' | \
+	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.tmp
+	nice find ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ -name 'ParlaMint-$<_*.txt' | \
 	$P --jobs 20 'cut -f2 {} > {.}.tmp'
-	nice find ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ -name '*.tmp' | \
+	nice find ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ -name 'ParlaMint-$<_*.tmp' | \
 	$P --jobs 20 'Scripts/chars.pl {} >> ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/chars-files-$<.tbl'
 	test -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.xml \
 	 && Scripts/chars-summ.pl < ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/chars-files-$<.tbl \
 	    > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/chars-$<.tbl \
 	  || echo "WARNING skipping/failing $@ (missing txt files or chars-summ.pl failed)"
-	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*.tmp
+	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.tmp
 
 
 text-XX = $(addprefix text-, $(PARLIAMENTS))
@@ -162,8 +162,8 @@ text-XX = $(addprefix text-, $(PARLIAMENTS))
 text: $(text-XX)
 ## text-XX ## convert tei files to text
 $(text-XX): text-%: %
-	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*.txt
-	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*_*.xml" | grep -v '.ana.' | $P --jobs 10 \
+	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.txt
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.xml" | grep -v '.ana.' | $P --jobs 10 \
 	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{/.}.txt'
 
 
