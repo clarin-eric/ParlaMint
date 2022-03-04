@@ -10,13 +10,14 @@
 
   <xsl:variable name="fileName" select="replace(base-uri(), '^.*?([^/]+\.xml)$', '$1')"/>
   <xsl:variable name="id" select="/tei:*/@xml:id"/>
+  <xsl:variable name="idTemplate" select="'ParlaMint-[A-Z]{2}(-[A-Z0-9]{1,3})?(-[a-z]{2,3})?'"/>
   
   <xsl:variable name="type">
     <xsl:choose>
-      <xsl:when test="matches($fileName, 'ParlaMint-..\.ana\.xml$')">ana</xsl:when>
-      <xsl:when test="matches($fileName, 'ParlaMint-.._.+\.ana\.xml$')">ana</xsl:when>
-      <xsl:when test="matches($fileName, 'ParlaMint-..\.xml$')">txt</xsl:when>
-      <xsl:when test="matches($fileName, 'ParlaMint-.._.+\.xml$')">txt</xsl:when>
+      <xsl:when test="matches($fileName, concat($idTemplate,'\.ana\.xml$'))">ana</xsl:when>
+      <xsl:when test="matches($fileName, concat($idTemplate,'_.+\.ana\.xml$'))">ana</xsl:when>
+      <xsl:when test="matches($fileName, concat($idTemplate,'\.xml$'))">txt</xsl:when>
+      <xsl:when test="matches($fileName, concat($idTemplate,'_.+\.xml$'))">txt</xsl:when>
       <xsl:otherwise>
 	<xsl:call-template name="error">
 	  <xsl:with-param name="msg" select="concat('Bad filename ', $fileName)"/>
@@ -27,8 +28,8 @@
   
   <xsl:variable name="level">
     <xsl:choose>
-      <xsl:when test="matches($fileName, 'ParlaMint-.._')">component</xsl:when>
-      <xsl:when test="matches($fileName, 'ParlaMint-..(\.ana)?\.xml$')">root</xsl:when>
+      <xsl:when test="matches($fileName, concat($idTemplate,'_'))">component</xsl:when>
+      <xsl:when test="matches($fileName, concat($idTemplate,'(\.ana)?\.xml$'))">root</xsl:when>
       <xsl:otherwise>
 	<xsl:call-template name="error">
 	  <xsl:with-param name="msg" select="concat('Bad filename ', $fileName)"/>
@@ -48,17 +49,17 @@
 	<xsl:with-param name="msg">Wrong ID of teiCorpus</xsl:with-param>
       </xsl:call-template>
     </xsl:if>
-    <xsl:if test="$type = 'txt' and not(matches($id, 'ParlaMint-..'))">
+    <xsl:if test="$type = 'txt' and not(matches($id, $idTemplate))">
       <xsl:call-template name="error">
 	<xsl:with-param name="msg">
-	  <xsl:text>teiCorpus ID should be ParlaMint-XX</xsl:text>
+	  <xsl:text>teiCorpus ID should match ParlaMint-{ISO3166}(-{ISO639})?</xsl:text>
 	</xsl:with-param>
       </xsl:call-template>
     </xsl:if>
-    <xsl:if test="$type = 'ana' and not(matches($id, 'ParlaMint-..\.ana'))">
+    <xsl:if test="$type = 'ana' and not(matches($id, concat($idTemplate,'\.ana')))">
       <xsl:call-template name="error">
 	<xsl:with-param name="msg">
-	  <xsl:text>teiCorpus ID should be ParlaMint-XX.ana</xsl:text>
+	  <xsl:text>teiCorpus ID should match ParlaMint-{ISO3166}(-{ISO639})?.ana</xsl:text>
 	</xsl:with-param>
       </xsl:call-template>
     </xsl:if>
@@ -77,10 +78,10 @@
       </xsl:call-template>
     </xsl:if>
     <xsl:choose>
-      <xsl:when test="not(matches($id, 'ParlaMint-.._'))">
+      <xsl:when test="not(matches($id, concat($idTemplate,'_')))">
 	<xsl:call-template name="error">
 	  <xsl:with-param name="msg">
-	    <xsl:text>TEI ID should be ParlaMint-XX_...</xsl:text>
+	    <xsl:text>TEI ID should match ParlaMint-{ISO3166}(-{ISO639})?_...</xsl:text>
 	  </xsl:with-param>
 	</xsl:call-template>
       </xsl:when>
@@ -128,7 +129,7 @@
   <xsl:template match="tei:titleStmt">
     <xsl:variable name="title" select="tei:title[@type = 'main']
 				       [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'en']"/>
-    <xsl:variable name="title-prefix">[^ ]+( [^ ]+)? parliamentary corpus ParlaMint-..</xsl:variable>
+    <xsl:variable name="title-prefix">[^ ]+( [^ ]+)? parliamentary corpus <xsl:value-of select="$idTemplate"/></xsl:variable>
     <xsl:variable name="title-suffix">
       <xsl:choose>
 	<xsl:when test="/tei:teiCorpus and $type = 'txt'"> \[ParlaMint( SAMPLE)?\]$</xsl:when>

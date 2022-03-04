@@ -18,7 +18,7 @@ foreach my $inDir (glob "$inDirs") {
     @files = glob "$inDir/*";
     if (scalar @files > $MAX) {
 	foreach $file (@files) {
-	    if (($year) = $file =~ m|ParlaMint-.._(\d\d\d\d)|) {
+	    if (($year) = $file =~ m|ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?_(\d\d\d\d)|) {
 		$newDir = "$inDir/$year";
 		mkdir($newDir) unless -d $newDir;
 		move($file, $newDir);
