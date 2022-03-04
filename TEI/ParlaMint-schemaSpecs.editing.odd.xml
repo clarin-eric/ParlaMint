@@ -1332,10 +1332,11 @@
 
   <elementSpec ident="head" module="core" mode="change">
     <content>
-      <alternate minOccurs="1" maxOccurs="unbounded">
+      <textNode/>
+      <!--alternate minOccurs="1" maxOccurs="unbounded">
         <elementRef key="note"/>
         <textNode/>
-      </alternate>
+      </alternate-->
     </content>
     <attList>
       <pm:attPreserve ident="xml:lang" />

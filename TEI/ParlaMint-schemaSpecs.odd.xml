@@ -3517,10 +3517,11 @@
    </elementSpec>
    <elementSpec ident="head" module="core" mode="change">
       <content>
-         <alternate minOccurs="1" maxOccurs="unbounded">
-            <elementRef key="note"/>
-            <textNode/>
-         </alternate>
+         <textNode/>
+         <!--alternate minOccurs="1" maxOccurs="unbounded">
+        <elementRef key="note"/>
+        <textNode/>
+      </alternate-->
       </content>
       <attList><!--head/@xml:lang--><!--head/@type-->
          <attDef ident="xml:id" mode="delete"/>

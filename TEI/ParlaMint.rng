@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2022-03-03T20:22:35Z. 2022-02-27.
+Schema generated from ODD source 2022-03-04T18:41:25Z. 2022-02-27.
 TEI Edition: Version 4.4.0a. Last updated on
         19th January 2022, revision daab99ca7
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
@@ -1295,12 +1295,7 @@ Measures]</a:documentation>
    <define name="tei_head">
       <element name="head">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(heading) contains any type of heading, for example the title of a section, or the heading of a list, glossary, manuscript description, etc. [4.2.1. Headings and Trailers]</a:documentation>
-         <oneOrMore>
-            <choice>
-               <ref name="tei_note"/>
-               <text/>
-            </choice>
-         </oneOrMore>
+         <text/>
          <ref name="tei_att.global.attribute.xmllang"/>
          <ref name="tei_att.typed.attribute.type"/>
          <empty/>
