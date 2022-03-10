@@ -19,12 +19,12 @@ xsd:
 	$t ParlaMint-teiCorpus.rng ParlaMint-teiCorpus.xsd
 	$t ParlaMint-teiCorpus.ana.rng ParlaMint-teiCorpus.ana.xsd
 val:
-	ls ../Data/ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs ${pc}
-	ls ../Data/ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs ${vrt}
-	ls ../Data/ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep    '_' | xargs ${vct}
-	ls ../Data/ParlaMint-*/ParlaMint-*.xml | grep    '.ana.' | grep -v '_' | xargs ${pc}
-	ls ../Data/ParlaMint-*/ParlaMint-*.xml | grep    '.ana.' | grep -v '_' | xargs ${vra}
-	ls ../Data/ParlaMint-*/ParlaMint-*.xml | grep    '.ana.' | grep    '_' | xargs ${vca}
+	-ls ../Data/ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs ${pc}
+	-ls ../Data/ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs ${vrt}
+	-ls ../Data/ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep    '_' | xargs ${vct}
+	-ls ../Data/ParlaMint-*/ParlaMint-*.xml | grep    '.ana.' | grep -v '_' | xargs ${pc}
+	-ls ../Data/ParlaMint-*/ParlaMint-*.xml | grep    '.ana.' | grep -v '_' | xargs ${vra}
+	-ls ../Data/ParlaMint-*/ParlaMint-*.xml | grep    '.ana.' | grep    '_' | xargs ${vca}
 
 s = java -jar /usr/share/java/saxon.jar
 j = java -jar /usr/share/java/jing.jar

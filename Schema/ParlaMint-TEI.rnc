@@ -187,7 +187,7 @@ idno =
     lang.att,
     attribute type { "URI" | "VIAF" | xsd:Name },
     attribute subtype { xsd:Name }?,
-    xsd:anyURI
+    xsd:anyURI { pattern = "https?://.+" }
   }
 name-header =
   element name {
@@ -295,7 +295,15 @@ head =
   element head {
     attribute type { xsd:token }?,
     global.atts,
-    (note | pb | text)+
+    text
+    # oneOrMore>
+    #   <choice>
+    #     <ref name="note"/>
+    #     <ref name="pb"/>
+    #     <text/>
+    #   </choice>
+    # </oneOrMore
+    
   }
 ref =
   element ref {
