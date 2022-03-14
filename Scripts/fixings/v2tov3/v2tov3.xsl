@@ -69,6 +69,13 @@
     </xsl:message>
   </xsl:template>
 
+  <xsl:template match="tei:idno[$country='IS' and text() = 'www.athingi.is']">
+    <xsl:message>
+      <xsl:text>INFO: fixing idno url: </xsl:text> <xsl:copy-of select="."/>
+    </xsl:message>
+    <idno type="URI" subtype="parliament">https://www.althingi.is/</idno>
+  </xsl:template>
+
   <xsl:template match="tei:idno">
     <xsl:copy>
       <xsl:apply-templates select="@*[not(contains(' type subtype ', local-name()))]"/>
