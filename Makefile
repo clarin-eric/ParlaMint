@@ -282,15 +282,29 @@ DEV-list-script-local-deps:
 
 
 fix-v2tov3-XX = $(addprefix fix-v2tov3-, $(PARLIAMENTS-v2))
-## fix-v2tov3 ## convert ParlaMint v2 format to ParlaMint v3 format
+##!fix-v2tov3 ## convert ParlaMint v2 format to ParlaMint v3 format
 fix-v2tov3: $(fix-v2tov3-XX)
-## fix-v2tov3-XX ##
+##!fix-v2tov3-XX ##
 $(fix-v2tov3-XX): fix-v2tov3-%: % working-dir-%
 	rm -rf ${WORKINGDIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/fix-v2tov3/ParlaMint-$<${CORPUSDIR_SUFFIX}
 	./Scripts/fixings/v2tov3/v2tov3.pl '${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/**.xml' ${WORKINGDIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/fix-v2tov3
 	@echo -n "INFO: "
 	@find ${WORKINGDIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/fix-v2tov3/ParlaMint-$<${CORPUSDIR_SUFFIX} -type f | wc -l | tr -d '\n'
 	@echo " fixed files are stored in ${WORKINGDIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/fix-v2tov3/ParlaMint-$<${CORPUSDIR_SUFFIX}"
+
+
+fix-v2tov3-diff-XX = $(addprefix fix-v2tov3-diff-, $(PARLIAMENTS-v2))
+##!fix-v2tov3-diff## show diff between ParlaMint v2 format and converted ParlaMint v3 format
+fix-v2tov3-diff: $(fix-v2tov3-XX)
+##!fix-v2tov3-diff-XX##
+$(fix-v2tov3-diff-XX): fix-v2tov3-diff-%: %
+	@find ${WORKINGDIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/fix-v2tov3/ParlaMint-$<${CORPUSDIR_SUFFIX} -type f -printf '%f\n' \
+	  | xargs -I {} \
+	      diff --text --width=250 --suppress-common-lines --side-by-side --ignore-space-change \
+	           ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{} \
+	           ${WORKINGDIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/fix-v2tov3/ParlaMint-$<${CORPUSDIR_SUFFIX}/{} \
+	  || : # supress exit error when files are different
+
 
 s = java -jar /usr/share/java/saxon.jar
 P = parallel --gnu --halt 2
