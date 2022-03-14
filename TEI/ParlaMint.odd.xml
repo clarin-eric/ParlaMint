@@ -474,6 +474,21 @@
 	  </list>
 	  </p>
 	</div>
+	<!--div xml:id="sec-pointing">
+          Something like this should be here:
+          <head>Pointing attributes</head>
+	  <p>Hyperlinks to reference URLs are typically given in the <gi>idno</gi> element,
+	  which contains the URL, and is qualified by the <att>type</att> and
+	  <att>subtype</att> attributes, e.g.
+          <eg xml:id="exa-id-element">
+	    <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1432</idno>
+	    <idno type="URI" subtype="parliament">https://www.dz-rs.si</idno>
+            <idno subtype="contact" type="URI">https://members.parliament.uk/member/4384/contact</idno>
+            <idno subtype="twitter" type="URI">https://twitter.com/mikejwood</idno>
+	  </eg>
+	  </p>
+	</div-->
+
       </div>
       
       <div xml:id="sec-metadata">
@@ -1199,8 +1214,8 @@
                   <event from="2011-10-22">
                     <label xml:lang="en">existence</label>
                   </event>
-                  <idno type="URI" xml:lang="sl" subtype="wikimedia">https://sl.wikipedia.org/wiki/Pozitivna_Slovenija</idno>
-                  <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Positive_Slovenia</idno>
+                  <idno type="URI" subtype="wikimedia" xml:lang="sl">https://sl.wikipedia.org/wiki/Pozitivna_Slovenija</idno>
+                  <idno type="URI" subtype="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Positive_Slovenia</idno>
 		</org>
 	      </egXML>
 	      
@@ -1262,8 +1277,8 @@
                   <event from="1990-05-16">
                     <label xml:lang="en">existence</label>
                   </event>
-                  <idno type="URI" xml:lang="sl" subtype="wikimedia">https://sl.wikipedia.org/wiki/Vlada_Republike_Slovenije</idno>
-                  <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Government_of_Slovenia</idno>
+                  <idno type="URI" subtype="wikimedia" xml:lang="sl">https://sl.wikipedia.org/wiki/Vlada_Republike_Slovenije</idno>
+                  <idno type="URI" subtype="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Government_of_Slovenia</idno>
                   <listEvent>
                     <event xml:id="GOV.11" from="2013-03-20" to="2014-09-18">
                       <label xml:lang="sl">11. vlada Republike Slovenije (20. marec 2013 - 18. september 2014)</label>
