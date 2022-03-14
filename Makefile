@@ -2,6 +2,7 @@
 
 ##$PARLIAMENTS##Space separated list of parliaments codes.
 PARLIAMENTS = AT BE BG CZ DK EE ES ES-CT ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RO SE SI TR
+PARLIAMENTS-v2 = BE BG CZ DK ES FR GB GR HR HU IS IT LT LV NL PL SI TR
 ##$DATADIR## Folder with country corpus folders. Default value is 'Data'.
 DATADIR = Data
 ##$WORKINGDIR## In this folder will be stored temporary files. Default value is 'DataTMP'.
@@ -279,6 +280,17 @@ DEV-list-script-local-deps:
 	  echo;\
 	done
 
+
+fix-v2tov3-XX = $(addprefix fix-v2tov3-, $(PARLIAMENTS-v2))
+## fix-v2tov3 ## convert ParlaMint v2 format to ParlaMint v3 format
+fix-v2tov3: $(fix-v2tov3-XX)
+## fix-v2tov3-XX ##
+$(fix-v2tov3-XX): fix-v2tov3-%: % working-dir-%
+	rm -rf ${WORKINGDIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/fix-v2tov3/ParlaMint-$<${CORPUSDIR_SUFFIX}
+	./Scripts/fixings/v2tov3/v2tov3.pl '${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/**.xml' ${WORKINGDIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/fix-v2tov3
+	@echo -n "INFO: "
+	@find ${WORKINGDIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/fix-v2tov3/ParlaMint-$<${CORPUSDIR_SUFFIX} -type f | wc -l | tr -d '\n'
+	@echo " fixed files are stored in ${WORKINGDIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/fix-v2tov3/ParlaMint-$<${CORPUSDIR_SUFFIX}"
 
 s = java -jar /usr/share/java/saxon.jar
 P = parallel --gnu --halt 2
