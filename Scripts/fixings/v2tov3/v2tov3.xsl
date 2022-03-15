@@ -5,8 +5,9 @@
   xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:fn="http://www.w3.org/2005/xpath-functions"
   xmlns:et="http://nl.ijs.si/et"
+  xmlns:mk="http://ufal.mff.cuni.cz/mk"
   xmlns:saxon="http://saxon.sf.net/"
-  exclude-result-prefixes="et fn tei saxon">
+  exclude-result-prefixes="et mk fn tei saxon">
   <xsl:output indent="yes"/>
   <xsl:strip-space elements="*"/>
   <xsl:preserve-space elements="tei:change tei:seg"/>
@@ -248,6 +249,51 @@
       <xsl:value-of select="."/>
     </xsl:copy>
   </xsl:template>
+
+
+  <!-- Fixing affiliations -->
+  <xsl:template match="tei:affiliation[not(text()) and not(@ref)]">
+    <xsl:choose>
+      <xsl:when test="@role='member'"><!-- BG -->
+        <xsl:message>
+          <xsl:text>INFO: removing senseless affiliation (missing ref and text): </xsl:text> <xsl:copy-of select="."/>
+        </xsl:message>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:variable name="orgRole" select="mk:person_role_to_org_role(./@role)"/>
+        <xsl:variable name="org" select="./ancestor::tei:particDesc/tei:listOrg/tei:org[@role=$orgRole and @xml:id]"/>
+        <xsl:choose>
+          <xsl:when test="$orgRole=''">
+            <xsl:message><xsl:value-of select="concat('ERROR: ',./@role,' does not have implicit organization - impossible to determine correct affiliation')"/></xsl:message>
+            <xsl:message><xsl:text>--INFO: removing affiliation: </xsl:text> <xsl:copy-of select="."/></xsl:message>
+          </xsl:when>
+          <xsl:when test="count($org) = 1">
+            <xsl:message>
+              <xsl:value-of select="concat('INFO: adding reference to ',$orgRole, ' affiliation/@ref=#',$org/@xml:id,' to ')"/>
+              <xsl:copy-of select="."/>
+            </xsl:message>
+            <xsl:copy>
+              <xsl:apply-templates select="@*"/>
+              <xsl:attribute name="ref">#<xsl:value-of select="$org/@xml:id"/></xsl:attribute>
+              <xsl:apply-templates/>
+            </xsl:copy>
+          </xsl:when>
+          <xsl:when test="count($org)>1">
+            <!-- NL-parliament -->
+            <xsl:message><xsl:value-of select="concat('ERROR: ',count($org),' ',$orgRole,' organizations - impossible to determine correct affiliation')"/></xsl:message>
+            <xsl:message><xsl:text>--INFO: removing affiliation: </xsl:text> <xsl:copy-of select="."/></xsl:message>
+          </xsl:when>
+          <xsl:otherwise>
+            <!-- PL - missing parliament organization-->
+            <xsl:message><xsl:value-of select="concat('ERROR: missing ',$orgRole,' organization')"/></xsl:message>
+            <xsl:message><xsl:text>--INFO: removing affiliation: </xsl:text> <xsl:copy-of select="."/></xsl:message>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
+
   
   <!-- COPY REST -->
   <xsl:template match="*">
@@ -264,5 +310,29 @@
   <xsl:template match="comment()">
     <xsl:copy/>
   </xsl:template>
+
+
+
+  <!-- FUNCTIONS -->
+  <xsl:function name="mk:person_role_to_org_role">
+    <xsl:param name="role"/>
+    <xsl:choose>
+      <!-- ?? NL secretary -->
+      <!-- ?? LT leader -->
+
+      <!-- parliament -->
+      <xsl:when test="$role = 'MP'">parliament</xsl:when> <!-- HR HU -->
+      <xsl:when test="$country = 'DK' and $role = 'chairman'">parliament</xsl:when>
+      <xsl:when test="$country = 'DK' and $role = 'viceChairman'">parliament</xsl:when>
+      <xsl:when test="$country = 'LT' and $role = 'chairperson'">parliament</xsl:when>
+      <xsl:when test="$country = 'LT' and $role = 'viceChairman'">parliament</xsl:when>
+      <xsl:when test="$country = 'NL' and $role = 'chairperson'">parliament</xsl:when>
+      <!-- government -->
+      <xsl:when test="$role = 'minister'">government</xsl:when> <!-- DK NL -->
+      <xsl:when test="$country = 'DK' and $role = 'deputyMinister'">government</xsl:when>
+      <xsl:when test="$country = 'DK' and $role = 'primeMinister'">government</xsl:when>
+      <xsl:otherwise><xsl:message>ERROR: unknown role: <xsl:value-of select="$role"/></xsl:message></xsl:otherwise>
+    </xsl:choose>
+  </xsl:function>
 
 </xsl:stylesheet>
