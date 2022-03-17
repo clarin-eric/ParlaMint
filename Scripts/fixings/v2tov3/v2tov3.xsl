@@ -59,20 +59,20 @@
 
   <xsl:template match="tei:idno[not(text())]">
     <xsl:message>
-      <xsl:text>ERROR: empty string in idno: </xsl:text> <xsl:copy-of select="."/>
+      <xsl:text>ERROR: empty string in idno: </xsl:text> <xsl:apply-templates select="." mode="serialize"/>
     </xsl:message>
     <xsl:next-match/>
   </xsl:template>
 
   <xsl:template match="tei:bibl/tei:idno[contains(./text(), 'parlametar.bg') and $country='BG']">
     <xsl:message>
-      <xsl:text>INFO: removing parlameter idno: </xsl:text> <xsl:copy-of select="."/>
+      <xsl:text>INFO: removing parlameter idno: </xsl:text> <xsl:apply-templates select="." mode="serialize"/>
     </xsl:message>
   </xsl:template>
 
   <xsl:template match="tei:idno[$country='IS' and text() = 'www.athingi.is']">
     <xsl:message>
-      <xsl:text>INFO: fixing idno url: </xsl:text> <xsl:copy-of select="."/>
+      <xsl:text>INFO: fixing idno url: </xsl:text> <xsl:apply-templates select="." mode="serialize"/>
     </xsl:message>
     <idno type="URI" subtype="parliament">https://www.althingi.is/</idno>
   </xsl:template>
@@ -101,12 +101,12 @@
         </xsl:when>
         <xsl:when test="$country='BG' and contains(./text(), 'parlametar.bg') and ./parent::tei:bibl">
           <xsl:message>
-            <xsl:text>ERROR: parlametar should be removes</xsl:text> <xsl:copy-of select="./parent::*"/>
+            <xsl:text>ERROR: parlametar should be removes</xsl:text> <xsl:apply-templates select="./parent::*" mode="serialize"/>
           </xsl:message>
         </xsl:when>
         <xsl:when test="$country='BG' and (contains(./text(), 'government.bg') or contains(./text(), 'comdos.bg'))">
           <xsl:message>
-            <xsl:text>WARN: removing idno/@subtype </xsl:text> <xsl:copy-of select="."/>
+            <xsl:text>WARN: removing idno/@subtype </xsl:text> <xsl:apply-templates select="." mode="serialize"/>
           </xsl:message>
         </xsl:when>
         <xsl:when test="$country='BG' and (contains(./text(), 'kalinveliov.com') or contains(./text(), 'aop.bg/'))">
@@ -232,15 +232,15 @@
 
         <!-- no country specific fix -->
         <xsl:when test="contains(' wikidata facebook twitter tiktok instagram ',concat(' ',@type,' '))">
-          <xsl:message><xsl:text>WARN: ussing all lang patch (orgs) idno/@subtype </xsl:text> <xsl:copy-of select="."/></xsl:message>
+          <xsl:message><xsl:text>WARN: ussing all lang patch (orgs) idno/@subtype </xsl:text> <xsl:apply-templates select="." mode="serialize"/></xsl:message>
           <xsl:attribute name="subtype" select="@type"/>
         </xsl:when>
         <xsl:when test="contains(concat(' ',@sub,' ',@subtype), ' wiki') and @subtype != 'wikimedia'">
-          <xsl:message><xsl:text>WARN: ussing all lang patch (wiki) idno/@subtype </xsl:text> <xsl:copy-of select="."/></xsl:message>
+          <xsl:message><xsl:text>WARN: ussing all lang patch (wiki) idno/@subtype </xsl:text> <xsl:apply-templates select="." mode="serialize"/></xsl:message>
           <xsl:attribute name="subtype">wikimedia</xsl:attribute>
         </xsl:when>
         <xsl:otherwise>
-          <xsl:message terminate="no"><xsl:text>ERROR otherwise </xsl:text> <xsl:value-of select="$country"/><xsl:text> </xsl:text><xsl:copy-of select="."/></xsl:message>
+          <xsl:message terminate="no"><xsl:text>ERROR otherwise </xsl:text> <xsl:value-of select="$country"/><xsl:text> </xsl:text><xsl:apply-templates select="." mode="serialize"/></xsl:message>
           <!-- no fixture - just copy attribute -->
           <xsl:apply-templates select="@subtype"/>
         </xsl:otherwise>
@@ -256,7 +256,7 @@
     <xsl:choose>
       <xsl:when test="@role='member'"><!-- BG -->
         <xsl:message>
-          <xsl:text>INFO: removing senseless affiliation (missing ref and text): </xsl:text> <xsl:copy-of select="."/>
+          <xsl:text>INFO: removing senseless affiliation (missing ref and text): </xsl:text> <xsl:apply-templates select="." mode="serialize"/>
         </xsl:message>
       </xsl:when>
       <xsl:otherwise>
@@ -265,12 +265,12 @@
         <xsl:choose>
           <xsl:when test="$orgRole=''">
             <xsl:message><xsl:value-of select="concat('ERROR: ',./@role,' does not have implicit organization - impossible to determine correct affiliation')"/></xsl:message>
-            <xsl:message><xsl:text>--INFO: removing affiliation: </xsl:text> <xsl:copy-of select="."/></xsl:message>
+            <xsl:comment>removing affiliation - unable to determine @ref: <xsl:apply-templates select="." mode="serialize"/></xsl:comment>
           </xsl:when>
           <xsl:when test="count($org) = 1">
             <xsl:message>
               <xsl:value-of select="concat('INFO: adding reference to ',$orgRole, ' affiliation/@ref=#',$org/@xml:id,' to ')"/>
-              <xsl:copy-of select="."/>
+              <xsl:apply-templates select="." mode="serialize"/>
             </xsl:message>
             <xsl:copy>
               <xsl:apply-templates select="@*"/>
@@ -281,18 +281,79 @@
           <xsl:when test="count($org)>1">
             <!-- NL-parliament -->
             <xsl:message><xsl:value-of select="concat('ERROR: ',count($org),' ',$orgRole,' organizations - impossible to determine correct affiliation')"/></xsl:message>
-            <xsl:message><xsl:text>--INFO: removing affiliation: </xsl:text> <xsl:copy-of select="."/></xsl:message>
+            <xsl:comment>removing affiliation - unable to determine @ref (multiple <xsl:value-of select="$orgRole"/> org): <xsl:apply-templates select="." mode="serialize"/></xsl:comment>
           </xsl:when>
           <xsl:otherwise>
             <!-- PL - missing parliament organization-->
             <xsl:message><xsl:value-of select="concat('ERROR: missing ',$orgRole,' organization')"/></xsl:message>
-            <xsl:message><xsl:text>--INFO: removing affiliation: </xsl:text> <xsl:copy-of select="."/></xsl:message>
+            <xsl:comment>removing affiliation - unable to determine @ref (missing <xsl:value-of select="$orgRole"/> org): <xsl:apply-templates select="." mode="serialize"/></xsl:comment>
           </xsl:otherwise>
         </xsl:choose>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
 
+  <xsl:template match="tei:affiliation[text() and @ref]">
+    <xsl:choose>
+      <xsl:when test="$country = 'BG' and @ref='#NS' and contains(' MP chairman viceChairman', @role) and text()='депутат'">
+        <xsl:copy><xsl:apply-templates select="@*"/></xsl:copy>
+        <xsl:message>INFO: removing text from <xsl:value-of select="@role"/> (<xsl:value-of select="text()"/>) affiliation</xsl:message>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:message><xsl:text>WARN: affiliation - ref+text: </xsl:text> <xsl:apply-templates select="." mode="serialize"/></xsl:message>
+        <xsl:next-match/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
+  <xsl:template match="tei:affiliation[text() and not(@ref)]">
+    <xsl:choose>
+      <xsl:when test="$country = 'BG' and text()='депутат'">
+        <xsl:copy>
+          <xsl:apply-templates select="@*"/>
+          <xsl:attribute name="ref">#NS</xsl:attribute>
+        </xsl:copy>
+        <xsl:message>INFO: adding @ref='#NS' and removing text from <xsl:value-of select="@role"/> (<xsl:value-of select="text()"/>) affiliation</xsl:message>
+      </xsl:when>
+      <xsl:when test="$country = 'BG' and @role='primeMinister' and text()='Министър-председател'">
+        <xsl:copy>
+          <xsl:apply-templates select="@*"/>
+          <xsl:attribute name="ref">#gov.IzvSv</xsl:attribute>
+        </xsl:copy>
+        <xsl:message>INFO: adding @ref='#gov.IzvSv' and removing text from <xsl:value-of select="@role"/> (<xsl:value-of select="text()"/>) affiliation</xsl:message>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:variable name="orgRole" select="mk:person_role_to_org_role(./@role)"/>
+        <xsl:variable name="org" select="./ancestor::tei:particDesc/tei:listOrg/tei:org[@role=$orgRole and @xml:id]"/>
+        <xsl:choose>
+          <xsl:when test="$orgRole=''">
+            <xsl:message><xsl:value-of select="concat('ERROR: ',./@role,' does not have implicit organization - impossible to determine correct affiliation')"/></xsl:message>
+            <xsl:comment>removing affiliation - unable to determine @ref: <xsl:apply-templates select="." mode="serialize"/></xsl:comment>
+          </xsl:when>
+          <xsl:when test="count($org) = 1">
+            <xsl:message>
+              <xsl:value-of select="concat('INFO: adding reference to ',$orgRole, ' affiliation/@ref=#',$org/@xml:id,' to ')"/>
+              <xsl:apply-templates select="." mode="serialize"/>
+            </xsl:message>
+            <xsl:copy>
+              <xsl:apply-templates select="@*"/>
+              <xsl:attribute name="ref">#<xsl:value-of select="$org/@xml:id"/></xsl:attribute>
+              <xsl:apply-templates/>
+            </xsl:copy>
+          </xsl:when>
+          <xsl:when test="count($org)>1">
+            <!-- NL-parliament -->
+            <xsl:message><xsl:value-of select="concat('ERROR: ',count($org),' ',$orgRole,' organizations - impossible to determine correct affiliation')"/></xsl:message>
+            <xsl:comment>removing affiliation - unable to determine @ref (multiple <xsl:value-of select="$orgRole"/> org): <xsl:apply-templates select="." mode="serialize"/></xsl:comment>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:message><xsl:value-of select="concat('ERROR: missing ',$orgRole,' organization')"/></xsl:message>
+            <xsl:comment>removing affiliation - unable to determine @ref (missing <xsl:value-of select="$orgRole"/> org): <xsl:apply-templates select="." mode="serialize"/></xsl:comment>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
 
   
   <!-- COPY REST -->
@@ -313,25 +374,86 @@
 
 
 
+
+
+
+<xsl:template match="*" mode="serialize">
+    <xsl:text>[</xsl:text>
+    <xsl:value-of select="name()"/>
+    <xsl:apply-templates select="@*" mode="serialize" />
+    <xsl:choose>
+        <xsl:when test="node()">
+            <xsl:text>]</xsl:text>
+            <xsl:apply-templates mode="serialize" />
+            <xsl:text>[/</xsl:text>
+            <xsl:value-of select="name()"/>
+            <xsl:text>]</xsl:text>
+        </xsl:when>
+        <xsl:otherwise>
+            <xsl:text> /]</xsl:text>
+        </xsl:otherwise>
+    </xsl:choose>
+</xsl:template>
+
+<xsl:template match="@*" mode="serialize">
+    <xsl:text> </xsl:text>
+    <xsl:value-of select="name()"/>
+    <xsl:text>="</xsl:text>
+    <xsl:value-of select="."/>
+    <xsl:text>"</xsl:text>
+</xsl:template>
+
+<xsl:template match="text()" mode="serialize">
+    <xsl:value-of select="."/>
+</xsl:template>
+
   <!-- FUNCTIONS -->
   <xsl:function name="mk:person_role_to_org_role">
     <xsl:param name="role"/>
     <xsl:choose>
-      <!-- ?? NL secretary -->
-      <!-- ?? LT leader -->
 
-      <!-- parliament -->
-      <xsl:when test="$role = 'MP'">parliament</xsl:when> <!-- HR HU -->
+      <xsl:when test="$country = 'BG' and $role = 'minister'">government</xsl:when>
+      <xsl:when test="$country = 'BG' and $role = 'primeMinister'">government</xsl:when>
+      <xsl:when test="$country = 'BG' and $role = 'deputyMinister'"></xsl:when>
+      <xsl:when test="$country = 'BG' and $role = 'deputyPrimeMinister'">government</xsl:when>
+      <xsl:when test="$country = 'BG' and $role = 'chairman'"></xsl:when>
+      <xsl:when test="$country = 'BG' and $role = 'viceChairman'"></xsl:when>
+      <xsl:when test="$country = 'BG' and $role = 'presidentEP'"></xsl:when>
+      <xsl:when test="$country = 'BG' and $role = 'secretary'"></xsl:when>
+      <xsl:when test="$country = 'BG' and $role = 'headOfDepartment'"></xsl:when>
+      <xsl:when test="$country = 'BG' and $role = 'deputyChief'"></xsl:when>
+      <xsl:when test="$country = 'BG' and $role = 'director'"></xsl:when>
+      <xsl:when test="$country = 'BG' and $role = 'viceDirector'"></xsl:when>
+      <xsl:when test="$country = 'BG' and $role = 'candidateChairman'"></xsl:when>
+      <xsl:when test="$country = 'BG' and $role = 'ombudsman'"></xsl:when>
+      <xsl:when test="$country = 'BG' and $role = 'secretaryGeneral'"></xsl:when>
+      <xsl:when test="$country = 'BG' and $role = 'prosecutorGeneral'"></xsl:when>
+      <xsl:when test="$country = 'BG' and $role = 'vicePresident'"></xsl:when>
+      <xsl:when test="$country = 'BG' and $role = 'constitutionalJudge'"></xsl:when>
+      <xsl:when test="$country = 'BG' and $role = 'president'"></xsl:when>
+      <xsl:when test="$country = 'BG' and $role = 'chiefInspector'"></xsl:when>
+      <xsl:when test="$country = 'BG' and $role = 'commander'"></xsl:when>
+
       <xsl:when test="$country = 'DK' and $role = 'chairman'">parliament</xsl:when>
       <xsl:when test="$country = 'DK' and $role = 'viceChairman'">parliament</xsl:when>
-      <xsl:when test="$country = 'LT' and $role = 'chairperson'">parliament</xsl:when>
-      <xsl:when test="$country = 'LT' and $role = 'viceChairman'">parliament</xsl:when>
-      <xsl:when test="$country = 'NL' and $role = 'chairperson'">parliament</xsl:when>
-      <!-- government -->
-      <xsl:when test="$role = 'minister'">government</xsl:when> <!-- DK NL -->
+      <xsl:when test="$country = 'DK' and $role = 'minister'">government</xsl:when>
       <xsl:when test="$country = 'DK' and $role = 'deputyMinister'">government</xsl:when>
       <xsl:when test="$country = 'DK' and $role = 'primeMinister'">government</xsl:when>
-      <xsl:otherwise><xsl:message>ERROR: unknown role: <xsl:value-of select="$role"/></xsl:message></xsl:otherwise>
+
+      <xsl:when test="$country = 'HR' and $role = 'MP'">parliament</xsl:when>
+
+      <xsl:when test="$country = 'LT' and $role = 'chairperson'">parliament</xsl:when>
+      <xsl:when test="$country = 'LT' and $role = 'viceChairman'">parliament</xsl:when>
+      <xsl:when test="$country = 'LT' and $role = 'leader'"></xsl:when>
+
+      <xsl:when test="$country = 'NL' and $role = 'chairperson'">parliament</xsl:when>
+      <xsl:when test="$country = 'NL' and $role = 'primeMinister'">government</xsl:when>
+      <xsl:when test="$country = 'NL' and $role = 'minister'">government</xsl:when>
+      <xsl:when test="$country = 'NL' and $role = 'secretary'"></xsl:when>
+
+      <xsl:when test="$country = 'PL' and $role = 'MP'">parliament</xsl:when>
+
+      <xsl:otherwise><xsl:message>ERROR: ===== <xsl:value-of select="$country"/> === unknown role: <xsl:value-of select="$role"/></xsl:message></xsl:otherwise>
     </xsl:choose>
   </xsl:function>
 
