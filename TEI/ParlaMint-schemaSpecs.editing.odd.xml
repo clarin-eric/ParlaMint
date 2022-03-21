@@ -67,8 +67,9 @@
    <classRef key="att.typed" include="type subtype"/>
    <classRef key="att.written" include=""/>
    <elementSpec ident="teiCorpus" module="core" mode="change">
-      <desc versionDate="2017-02-07" xml:lang="en">contains the whole of a TEI encoded corpus, comprising a single corpus header and one or
-    more <gi>TEI</gi> elements, each containing a single text header and a text.</desc>
+      <desc versionDate="2017-02-07" xml:lang="en">contains the whole of a TEI encoded corpus,
+      comprising a single corpus header and one or more <gi>TEI</gi> elements, each containing
+      a single text header and a text.</desc>
       <content>
          <elementRef key="teiHeader"/>
          <alternate minOccurs="1" maxOccurs="unbounded">
