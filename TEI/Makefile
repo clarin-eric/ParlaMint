@@ -59,6 +59,9 @@ prepare: generate-schemaSpecs
 	rm -f tmp/*
 	$s -xi -xsl:copy-odd.xsl ParlaMint.odd.xml > tmp/ParlaMint.xml
 
+prepare-p5subset:
+	$s -xsl:add-desc.xsl ParlaMint-schemaSpecs.editing.original.odd.xml \
+	> ParlaMint-schemaSpecs.editing.odd.xml
 
 # generate schemaSpecs.odd file
 generate-schemaSpecs:

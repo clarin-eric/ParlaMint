@@ -3,6 +3,7 @@
             xmlns:eg="http://www.tei-c.org/ns/Examples"
             xmlns:egXML="http://www.tei-c.org/ns/Examples"
             xmlns:pm="ParlaMint"
+            xmlns:rng="http://relaxng.org/ns/structure/1.0"
             xmlns:sch="http://purl.oclc.org/dsdl/schematron"
             ident="parlamint"
             start="TEI teiCorpus"
@@ -66,9 +67,7 @@
    <classRef key="att.typed" include="type subtype"/>
    <classRef key="att.written" include=""/>
    <elementSpec ident="teiCorpus" module="core" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2017-02-07"
-            xml:lang="en">contains the whole of a TEI encoded corpus, comprising a single corpus header and one or
+      <desc versionDate="2017-02-07" xml:lang="en">contains the whole of a TEI encoded corpus, comprising a single corpus header and one or
     more <gi>TEI</gi> elements, each containing a single text header and a text.</desc>
       <content>
          <elementRef key="teiHeader"/>
@@ -89,7 +88,7 @@
             </datatype>
          </attDef>
       </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="feasible" source="#UND">
             <teiCorpus version="3.3.0">
                <teiHeader>
@@ -126,9 +125,7 @@
       </attList>
    </elementSpec>
    <elementSpec ident="TEI" module="textstructure" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2019-06-27"
-            xml:lang="en">contains a single TEI-conformant document, combining
+      <desc versionDate="2019-06-27" xml:lang="en">contains a single TEI-conformant document, combining
     a single TEI header with one or more members of the <ident type="class">model.resource</ident> class. Multiple <gi>TEI</gi>
     elements may be combined within a <gi>TEI</gi> (or <gi>teiCorpus</gi>) element.</desc>
       <content>
@@ -152,7 +149,7 @@
             </datatype>
          </attDef>
       </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#NONE">
             <TEI version="3.3.0">
                <teiHeader>
@@ -177,7 +174,7 @@
             </TEI>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#NONE">
             <TEI version="2.9.1">
                <teiHeader>
@@ -204,16 +201,14 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="text" module="textstructure" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2005-01-14"
-            xml:lang="en">contains a single text of any kind, whether unitary or composite, for example a poem or
+      <desc versionDate="2005-01-14" xml:lang="en">contains a single text of any kind, whether unitary or composite, for example a poem or
     drama, a collection of essays, a novel, a dictionary, or a corpus sample.</desc>
       <content>
          <elementRef key="body"/>
       </content>
       <attList>
     </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#lowellAut">
             <text>
                <front>
@@ -228,7 +223,7 @@
             </text>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <p>The body of a text may be replaced by a group of nested texts, as in the following schematic:</p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="feasible" source="#UND">
             <text>
@@ -248,9 +243,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="body" module="textstructure" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2005-01-14"
-            xml:lang="en">contains the whole body of a single unitary text, excluding any front or back matter.</desc>
+      <desc versionDate="2005-01-14" xml:lang="en">contains the whole body of a single unitary text, excluding any front or back matter.</desc>
       <content>
          <elementRef key="div" minOccurs="1" maxOccurs="unbounded"/>
       </content>
@@ -258,9 +251,7 @@
     </attList>
    </elementSpec>
    <elementSpec ident="div" module="textstructure" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2005-01-14"
-            xml:lang="en">contains a subdivision of the front, body, or back of a text.</desc>
+      <desc versionDate="2005-01-14" xml:lang="en">contains a subdivision of the front, body, or back of a text.</desc>
       <content>
          <elementRef key="head" minOccurs="0" maxOccurs="unbounded"/>
          <alternate minOccurs="1" maxOccurs="unbounded">
@@ -285,7 +276,7 @@
             </valList>
          </attDef>
       </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#bentham">
             <body>
                <div type="part">
@@ -312,9 +303,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="note" mode="change" module="core">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2005-01-14"
-            xml:lang="en">contains a note or annotation.</desc>
+      <desc versionDate="2005-01-14" xml:lang="en">contains a note or annotation.</desc>
       <content>
          <alternate minOccurs="0" maxOccurs="unbounded">
             <textNode/>
@@ -360,7 +349,7 @@
             </valList>
          </attDef>
       </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <p>In the following example, the translator has supplied a footnote
       containing an explanation of the term translated as "painterly":</p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#NOTE-eg">And yet it is not only
@@ -385,7 +374,7 @@ psychological significance.
       code <ident>MDMH</ident> must be defined elsewhere, for example by
       means of a responsibility statement in the associated TEI header.</p>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <p>The global <att>n</att> attribute may be used to supply the symbol or number used to mark the
       note's point of attachment in the source text, as in the
     following example: </p>
@@ -400,9 +389,7 @@ psychological significance.
       </exemplum>
    </elementSpec>
    <elementSpec ident="vocal" module="spoken" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2012-12-27"
-            xml:lang="en">marks any vocalized but not necessarily lexical phenomenon, for
+      <desc versionDate="2012-12-27" xml:lang="en">marks any vocalized but not necessarily lexical phenomenon, for
   example voiced pauses, non-lexical backchannels, etc.</desc>
       <content>
          <elementRef key="desc"/>
@@ -424,7 +411,7 @@ psychological significance.
             </valList>
          </attDef>
       </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <vocal dur="PT12S">
                <desc>whistles</desc>
@@ -436,9 +423,7 @@ psychological significance.
       </exemplum>
    </elementSpec>
    <elementSpec ident="kinesic" module="spoken" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2012-12-27"
-            xml:lang="en">marks any communicative phenomenon, not necessarily vocalized, for
+      <desc versionDate="2012-12-27" xml:lang="en">marks any communicative phenomenon, not necessarily vocalized, for
   example a gesture, frown, etc.</desc>
       <content>
          <elementRef key="desc"/>
@@ -459,7 +444,7 @@ psychological significance.
             </valList>
          </attDef>
       </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <kinesic dur="PT1.5S" iterated="true" type="reinforcing">
                <desc>nodding head vigorously</desc>
@@ -468,9 +453,7 @@ psychological significance.
       </exemplum>
    </elementSpec>
    <elementSpec ident="incident" module="spoken" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2012-12-27"
-            xml:lang="en">marks any phenomenon or occurrence, not necessarily vocalized or
+      <desc versionDate="2012-12-27" xml:lang="en">marks any phenomenon or occurrence, not necessarily vocalized or
 communicative, for example incidental noises or other events affecting
 communication.</desc>
       <content>
@@ -489,7 +472,7 @@ communication.</desc>
             </valList>
          </attDef>
       </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <incident>
                <desc>ceiling collapses</desc>
@@ -498,9 +481,7 @@ communication.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="gap" module="core" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2008-01-24"
-            xml:lang="en">indicates a point where material has been omitted in a transcription, whether for editorial
+      <desc versionDate="2008-01-24" xml:lang="en">indicates a point where material has been omitted in a transcription, whether for editorial
     reasons described in the TEI header, as part of sampling practice, or because the material is
     illegible, invisible, or inaudible.</desc>
       <content>
@@ -514,33 +495,31 @@ communication.</desc>
             </valList>
          </attDef>
       </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#UND">
             <gap quantity="4" unit="chars" reason="illegible"/>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#UND">
             <gap quantity="1" unit="essay" reason="sampling"/>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#UND">
             <del>
                <gap atLeast="4" atMost="8" unit="chars" reason="illegible"/>
             </del>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#UND">
             <gap extent="several lines" reason="lost"/>
          </egXML>
       </exemplum>
    </elementSpec>
    <elementSpec ident="desc" module="core" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2021-03-15"
-            xml:lang="en">contains a short description of the purpose, function, or
+      <desc versionDate="2021-03-15" xml:lang="en">contains a short description of the purpose, function, or
     use of its parent element,
     or when the parent is a documentation element, describes or defines the object being documented. 
    <!--Alternate: provides a short description of that which its parent element represents or documents.-->
@@ -556,9 +535,7 @@ communication.</desc>
       </content>
       <attList>
     </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xml:lang="en"
-                versionDate="2021-03-15">
+      <exemplum xml:lang="en" versionDate="2021-03-15">
          <p>Example of a <gi>desc</gi> element inside a documentation element.</p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#SELF">
             <dataSpec module="tei" ident="teidata.point">
@@ -570,9 +547,7 @@ communication.</desc>
             </dataSpec>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xml:lang="en"
-                versionDate="2021-03-15">
+      <exemplum xml:lang="en" versionDate="2021-03-15">
          <p>Example of a <gi>desc</gi> element in a non-documentation element.</p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#SELF">
             <place xml:id="KERG2">
@@ -587,63 +562,57 @@ communication.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="term" module="core" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2005-01-14"
-            xml:lang="en">contains a single-word, multi-word, or symbolic
+      <desc versionDate="2005-01-14" xml:lang="en">contains a single-word, multi-word, or symbolic
     designation which is regarded as a technical term.</desc>
       <content>
          <textNode/>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#COHTG-eg-43">A computational device that infers structure
       from grammatical strings of words is known as a <term>parser</term>, and much of the history
       of NLP over the last 20 years has been occupied with the design of parsers.</egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#COHTG-eg-42">We may define <term xml:id="TDPV1" rend="sc">discoursal point of view</term> as <gloss target="#TDPV1">the relationship, expressed
         through discourse structure, between the implied author or some other addresser, and the
         fiction.</gloss>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#COHTG-eg-42">We may define <term ref="#TDPV2" rend="sc">discoursal point of view</term> as <gloss xml:id="TDPV2">the relationship, expressed
         through discourse structure, between the implied author or some other addresser, and the
         fiction.</gloss>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#NONE">We discuss Leech's concept of <term ref="myGlossary.xml#TDPV2" rend="sc">discoursal point of view</term> below. </egXML>
       </exemplum>
    </elementSpec>
    <elementSpec ident="ref" module="core" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2006-01-11"
-            xml:lang="en">defines a reference to another location, possibly modified by additional text or comment.</desc>
+      <desc versionDate="2006-01-11" xml:lang="en">defines a reference to another location, possibly modified by additional text or comment.</desc>
       <content>
          <textNode/>
       </content>
       <attList>
          <attDef ident="target" mode="change" usage="rec"/>
       </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">See especially <ref target="http://www.natcorp.ox.ac.uk/Texts/A02.xml#s2">the second
       sentence</ref>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">See also <ref target="#locution">s.v. <term>locution</term>
             </ref>.</egXML>
       </exemplum>
    </elementSpec>
    <elementSpec ident="pb" module="core" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2017-06-14"
-            xml:lang="en">marks the beginning of a new page in a paginated document.</desc>
+      <desc versionDate="2017-06-14" xml:lang="en">marks the beginning of a new page in a paginated document.</desc>
       <content/>
       <attList>
     </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <p>Page numbers may vary in different editions of a text.</p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <p> ... <pb n="145" ed="ed2"/>
@@ -651,7 +620,7 @@ communication.</desc>
                <!-- Page 283 in edition "ed1" starts here--> ... </p>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <p>A page break may be associated with a facsimile image of the page it introduces by means of
       the <att>facs</att> attribute</p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#UND">
@@ -672,9 +641,7 @@ communication.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="u" module="spoken" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2012-12-27"
-            xml:lang="en">contains a stretch of speech usually preceded and followed by
+      <desc versionDate="2012-12-27" xml:lang="en">contains a stretch of speech usually preceded and followed by
 silence or by a change of speaker.</desc>
       <content>
          <alternate minOccurs="1" maxOccurs="unbounded">
@@ -689,7 +656,7 @@ silence or by a change of speaker.</desc>
       </content>
       <attList>
     </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <u who="#spkr1">if did you set</u>
             <u trans="latching" who="#spkr2">well Joe and I set it between us</u>
@@ -701,8 +668,7 @@ silence or by a change of speaker.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="seg" module="linking" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2008-01-31"
             xml:lang="en">represents any segmentation of text below the <soCalled>chunk</soCalled> level.</desc>
       <content>
@@ -721,25 +687,19 @@ silence or by a change of speaker.</desc>
       </content>
       <attList>
     </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <seg>When are you leaving?</seg>
             <seg>Tomorrow.</seg>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <s>
                <seg rend="caps" type="initial-cap">So father's only</seg> glory was the ballfield. </s>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <seg type="preamble">
                <seg>Sigmund, <seg type="patronym">the son of Volsung</seg>, was a king in Frankish country.</seg>
@@ -750,14 +710,12 @@ silence or by a change of speaker.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="pb" module="core" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2017-06-14"
-            xml:lang="en">marks the beginning of a new page in a paginated document.</desc>
+      <desc versionDate="2017-06-14" xml:lang="en">marks the beginning of a new page in a paginated document.</desc>
       <content>
     </content>
       <attList>
     </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <p>Page numbers may vary in different editions of a text.</p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <p> ... <pb n="145" ed="ed2"/>
@@ -765,7 +723,7 @@ silence or by a change of speaker.</desc>
                <!-- Page 283 in edition "ed1" starts here--> ... </p>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <p>A page break may be associated with a facsimile image of the page it introduces by means of
       the <att>facs</att> attribute</p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#UND">
@@ -786,9 +744,7 @@ silence or by a change of speaker.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="s" module="analysis" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2005-01-14"
-            xml:lang="en">contains a sentence-like division of a text.</desc>
+      <desc versionDate="2005-01-14" xml:lang="en">contains a sentence-like division of a text.</desc>
       <content>
          <alternate minOccurs="1" maxOccurs="unbounded">
             <elementRef key="w"/>
@@ -807,7 +763,7 @@ silence or by a change of speaker.</desc>
       </content>
       <attList>
     </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <head>
                <s>A short affair</s>
@@ -818,9 +774,7 @@ silence or by a change of speaker.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="w" module="analysis" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2005-01-14"
-            xml:lang="en">represents a grammatical (not necessarily orthographic) word.</desc>
+      <desc versionDate="2005-01-14" xml:lang="en">represents a grammatical (not necessarily orthographic) word.</desc>
       <content>
          <alternate minOccurs="1" maxOccurs="unbounded">
             <textNode/>
@@ -829,9 +783,7 @@ silence or by a change of speaker.</desc>
       </content>
       <attList>
     </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                versionDate="2018-02-15"
-                xml:lang="en">
+      <exemplum versionDate="2018-02-15" xml:lang="en">
          <p>This example is adapted from the Folger Library’s Early Modern
     English Drama version of <ref target="https://emed.folger.edu/wits">The Wits: a Comedy</ref> by
     William Davenant.</p>
@@ -882,9 +834,7 @@ silence or by a change of speaker.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="pc" module="analysis" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2012-12-27"
-            xml:lang="en">contains a character or string of characters regarded as constituting a
+      <desc versionDate="2012-12-27" xml:lang="en">contains a character or string of characters regarded as constituting a
   single punctuation mark.</desc>
       <content>
          <textNode/>
@@ -901,7 +851,7 @@ silence or by a change of speaker.</desc>
             </datatype>
          </attDef>
       </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <phr>
                <w>do</w>
@@ -911,7 +861,7 @@ silence or by a change of speaker.</desc>
             </phr>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <p>Example encoding of the German sentence <mentioned>Wir fahren in den Urlaub.</mentioned>, encoded with attributes from 
       <ident type="class">att.linguistic</ident> discussed in section <ptr target="#AILALW"/>.</p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
@@ -927,8 +877,7 @@ silence or by a change of speaker.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="linkGrp" module="linking" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2005-01-14"
             xml:lang="en">defines a collection of associations or hypertextual links.</desc>
       <content>
@@ -948,8 +897,7 @@ silence or by a change of speaker.</desc>
       </attList>
    </elementSpec>
    <elementSpec ident="link" module="linking" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2005-01-14"
             xml:lang="en">defines an association or hypertextual link among elements or passages, of some type not more precisely specifiable by other elements.</desc>
       <attList>
@@ -964,9 +912,7 @@ silence or by a change of speaker.</desc>
             </datatype>
          </attDef>
       </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <s n="1">The state Supreme Court has refused to release <rs xml:id="R1">
                   <rs xml:id="R2">Rahway State Prison</rs> inmate</rs>
@@ -983,9 +929,7 @@ silence or by a change of speaker.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="name" module="core" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2005-01-14"
-            xml:lang="en">contains a proper noun or noun phrase.</desc>
+      <desc versionDate="2005-01-14" xml:lang="en">contains a proper noun or noun phrase.</desc>
       <content>
          <alternate minOccurs="1" maxOccurs="unbounded">
             <elementRef key="w"/>
@@ -1013,9 +957,7 @@ silence or by a change of speaker.</desc>
       </attList>
    </elementSpec>
    <elementSpec ident="num" module="core" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2005-01-14"
-            xml:lang="en">contains a number, written in any form.</desc>
+      <desc versionDate="2005-01-14" xml:lang="en">contains a number, written in any form.</desc>
       <content>
          <alternate minOccurs="1" maxOccurs="unbounded">
             <elementRef key="w"/>
@@ -1025,7 +967,7 @@ silence or by a change of speaker.</desc>
       </content>
       <attList>
     </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <p>I reached <num type="cardinal" value="21">twenty-one</num> on
 my <num type="ordinal" value="21">twenty-first</num> birthday</p>
@@ -1035,9 +977,7 @@ my <num type="ordinal" value="21">twenty-first</num> birthday</p>
       </exemplum>
    </elementSpec>
    <elementSpec ident="date" module="core" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2005-01-14"
-            xml:lang="en">contains a date in any format.</desc>
+      <desc versionDate="2005-01-14" xml:lang="en">contains a date in any format.</desc>
       <content>
          <alternate minOccurs="1" maxOccurs="unbounded">
             <elementRef key="w"/>
@@ -1048,27 +988,25 @@ my <num type="ordinal" value="21">twenty-first</num> birthday</p>
       </content>
       <attList>
     </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <date when="1980-02">early February 1980</date>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">Given on the <date when="1977-06-12">Twelfth Day
         of June in the Year of Our Lord One Thousand Nine Hundred and Seventy-seven of the Republic
         the Two Hundredth and first and of the University the Eighty-Sixth.</date>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <date when="1990-09">September 1990</date>
          </egXML>
       </exemplum>
    </elementSpec>
    <elementSpec ident="time" module="core" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2006-03-20"
-            xml:lang="en">contains a phrase defining a time of day in any format.</desc>
+      <desc versionDate="2006-03-20" xml:lang="en">contains a phrase defining a time of day in any format.</desc>
       <content>
          <alternate minOccurs="1" maxOccurs="unbounded">
             <elementRef key="w"/>
@@ -1078,16 +1016,14 @@ my <num type="ordinal" value="21">twenty-first</num> birthday</p>
       </content>
       <attList>
     </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#CONADA-eg-143">As he sat smiling, the
       quarter struck — <time when="11:45:00">the quarter to twelve</time>.</egXML>
          <!-- Woolf, Mrs Dalloway, p64 -->
       </exemplum>
    </elementSpec>
    <elementSpec ident="email" module="core" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2007-02-15"
-            xml:lang="en">contains an email address identifying a location to which
+      <desc versionDate="2007-02-15" xml:lang="en">contains an email address identifying a location to which
         email messages can be delivered.</desc>
       <content>
          <alternate minOccurs="1" maxOccurs="unbounded">
@@ -1100,8 +1036,7 @@ my <num type="ordinal" value="21">twenty-first</num> birthday</p>
     </attList>
    </elementSpec>
    <elementSpec ident="teiHeader" module="header" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2016-02-19"
             xml:lang="en">supplies descriptive and
     declarative metadata associated with a digital resource or set of
@@ -1113,9 +1048,7 @@ my <num type="ordinal" value="21">twenty-first</num> birthday</p>
          <elementRef key="revisionDesc" minOccurs="0" maxOccurs="1"/>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <teiHeader>
                <fileDesc>
@@ -1193,8 +1126,7 @@ my <num type="ordinal" value="21">twenty-first</num> birthday</p>
       </exemplum>
    </elementSpec>
    <elementSpec ident="fileDesc" module="header" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2005-01-14"
             xml:lang="en">contains a full bibliographic description of an electronic file.</desc>
       <content>
@@ -1205,9 +1137,7 @@ my <num type="ordinal" value="21">twenty-first</num> birthday</p>
          <elementRef key="sourceDesc"/>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <fileDesc>
                <titleStmt>
@@ -1224,8 +1154,7 @@ my <num type="ordinal" value="21">twenty-first</num> birthday</p>
       </exemplum>
    </elementSpec>
    <elementSpec ident="titleStmt" module="header" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2012-04-17"
             xml:lang="en">groups information about the title of a work and those responsible for its content.</desc>
       <content>
@@ -1235,9 +1164,7 @@ my <num type="ordinal" value="21">twenty-first</num> birthday</p>
          <elementRef key="funder" minOccurs="0" maxOccurs="unbounded"/>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <titleStmt>
                <title>Capgrave's Life of St. John Norbert: a machine-readable transcription</title>
@@ -1250,9 +1177,7 @@ my <num type="ordinal" value="21">twenty-first</num> birthday</p>
       </exemplum>
    </elementSpec>
    <elementSpec ident="title" module="core" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2008-10-25"
-            xml:lang="en">contains a title for any kind of work.</desc>
+      <desc versionDate="2008-10-25" xml:lang="en">contains a title for any kind of work.</desc>
       <content>
          <textNode/>
       </content>
@@ -1267,14 +1192,14 @@ my <num type="ordinal" value="21">twenty-first</num> birthday</p>
             </remarks>
          </attDef>
       </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <title>Information Technology and the Research Process: Proceedings of
                                         a conference held at Cranfield Institute of Technology, UK,
                                         18–21 July 1989</title>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <title>Hardy's Tess of the D'Urbervilles: a machine readable
                               edition</title>
@@ -1282,9 +1207,7 @@ my <num type="ordinal" value="21">twenty-first</num> birthday</p>
       </exemplum>
    </elementSpec>
    <elementSpec ident="meeting" module="core" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2007-10-15"
-            xml:lang="en">contains the formalized descriptive title for a meeting or conference, for use in a
+      <desc versionDate="2007-10-15" xml:lang="en">contains the formalized descriptive title for a meeting or conference, for use in a
     bibliographic description for an item derived from such a meeting, or as a heading or preamble
     to publications emanating from it.</desc>
       <content>
@@ -1292,7 +1215,7 @@ my <num type="ordinal" value="21">twenty-first</num> birthday</p>
       </content>
       <attList>
     </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <div>
                <meeting>Ninth International Conference on Middle High German Textual Criticism, Aachen,
@@ -1313,9 +1236,7 @@ my <num type="ordinal" value="21">twenty-first</num> birthday</p>
       </exemplum>
    </elementSpec>
    <elementSpec ident="respStmt" module="core" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2011-11-16"
-            xml:lang="en">supplies a statement of responsibility for the intellectual content of a text, edition,
+      <desc versionDate="2011-11-16" xml:lang="en">supplies a statement of responsibility for the intellectual content of a text, edition,
     recording, or series, where the specialized elements for authors, editors, etc. do not suffice
     or do not apply. May also be used to encode information about individuals or organizations 
     which have played a role in the production or distribution of a bibliographic work.</desc>
@@ -1324,7 +1245,7 @@ my <num type="ordinal" value="21">twenty-first</num> birthday</p>
          <elementRef key="resp" minOccurs="1" maxOccurs="unbounded"/>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <respStmt>
                <resp>transcribed from original ms</resp>
@@ -1332,9 +1253,7 @@ my <num type="ordinal" value="21">twenty-first</num> birthday</p>
             </respStmt>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                versionDate="2012-07-16"
-                xml:lang="en">
+      <exemplum versionDate="2012-07-16" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <respStmt>
                <resp>converted to XML encoding</resp>
@@ -1344,8 +1263,7 @@ my <num type="ordinal" value="21">twenty-first</num> birthday</p>
       </exemplum>
    </elementSpec>
    <elementSpec ident="persName" module="namesdates" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2012-03-13"
             xml:lang="en">contains a proper noun or proper-noun phrase referring to a
   person, possibly including one or more of
@@ -1374,9 +1292,7 @@ my <num type="ordinal" value="21">twenty-first</num> birthday</p>
          have their name in <gi>term</gi>.
       </p>
       </remarks>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <persName>
                <forename>Edward</forename>
@@ -1389,17 +1305,14 @@ my <num type="ordinal" value="21">twenty-first</num> birthday</p>
       </exemplum>
    </elementSpec>
    <elementSpec ident="forename" module="namesdates" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2005-10-16"
             xml:lang="en">contains a forename, given or baptismal name.</desc>
       <content>
          <textNode/>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <persName>
                <roleName>Ex-President</roleName>
@@ -1410,8 +1323,7 @@ my <num type="ordinal" value="21">twenty-first</num> birthday</p>
       </exemplum>
    </elementSpec>
    <elementSpec ident="addName" module="namesdates" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2005-01-14"
             xml:lang="en">contains an additional name component, such as a nickname, epithet, or alias, or any other descriptive phrase used within a personal
     name.</desc>
@@ -1419,9 +1331,7 @@ my <num type="ordinal" value="21">twenty-first</num> birthday</p>
          <textNode/>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#NONE">
             <persName>
                <forename>Frederick</forename>
@@ -1432,8 +1342,7 @@ my <num type="ordinal" value="21">twenty-first</num> birthday</p>
       </exemplum>
    </elementSpec>
    <elementSpec ident="nameLink" module="namesdates" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2005-01-14"
             xml:lang="en">contains a connecting phrase or link used within a name but not regarded as part of it, such as <mentioned>van der</mentioned> or
             <mentioned>of</mentioned>.</desc>
@@ -1443,8 +1352,7 @@ my <num type="ordinal" value="21">twenty-first</num> birthday</p>
       <attList/>
    </elementSpec>
    <elementSpec ident="roleName" module="namesdates" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2005-01-14"
             xml:lang="en">contains a name component which indicates that the referent has a particular role or position in society, such as an official title or
         rank.</desc>
@@ -1452,9 +1360,7 @@ my <num type="ordinal" value="21">twenty-first</num> birthday</p>
          <textNode/>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <persName>
                <forename>William</forename>
@@ -1463,8 +1369,7 @@ my <num type="ordinal" value="21">twenty-first</num> birthday</p>
             </persName>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude"
                 xml:lang="en"
                 versionDate="2019-07-15">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
@@ -1472,8 +1377,7 @@ my <num type="ordinal" value="21">twenty-first</num> birthday</p>
       including the Supreme Court justices, required by statute to be “learned in the law.”</p>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude"
                 xml:lang="en"
                 versionDate="2019-07-15">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
@@ -1488,33 +1392,28 @@ my <num type="ordinal" value="21">twenty-first</num> birthday</p>
       </exemplum>
    </elementSpec>
    <elementSpec ident="surname" module="namesdates" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2005-01-14"
             xml:lang="en">contains a family (inherited) name, as opposed to a given, baptismal, or nick name.</desc>
       <content>
          <textNode/>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <surname type="combine">St John Stevas</surname>
          </egXML>
       </exemplum>
    </elementSpec>
    <elementSpec ident="resp" module="core" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2011-11-16"
-            xml:lang="en">contains a phrase describing the nature of a person's intellectual responsibility, or an organization's role 
+      <desc versionDate="2011-11-16" xml:lang="en">contains a phrase describing the nature of a person's intellectual responsibility, or an organization's role 
     in the production or distribution of a work.</desc>
       <content>
          <textNode/>
       </content>
       <attList>
     </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <respStmt>
                <resp ref="http://id.loc.gov/vocabulary/relators/com.html">compiler</resp>
@@ -1524,8 +1423,7 @@ my <num type="ordinal" value="21">twenty-first</num> birthday</p>
       </exemplum>
    </elementSpec>
    <elementSpec ident="funder" module="header" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2005-01-14"
             xml:lang="en">specifies the name of an individual, institution, or organization responsible for the
     funding of a project or text.</desc>
@@ -1533,9 +1431,7 @@ my <num type="ordinal" value="21">twenty-first</num> birthday</p>
          <elementRef key="orgName" minOccurs="1" maxOccurs="unbounded"/>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <funder>The National Endowment for the Humanities, an independent federal agency</funder>
             <funder>Directorate General XIII of the Commission of the European Communities</funder>
@@ -1545,8 +1441,7 @@ my <num type="ordinal" value="21">twenty-first</num> birthday</p>
       </exemplum>
    </elementSpec>
    <elementSpec ident="orgName" module="namesdates" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2005-01-14"
             xml:lang="en">contains an organizational name.</desc>
       <content>
@@ -1570,25 +1465,20 @@ my <num type="ordinal" value="21">twenty-first</num> birthday</p>
             </remarks>
          </attDef>
       </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">About a year back, a question of considerable interest was agitated in the <orgName key="PAS1" type="voluntary">
                <placeName key="PEN">Pennsyla.</placeName> Abolition Society</orgName> [...]</egXML>
       </exemplum>
    </elementSpec>
    <elementSpec ident="editionStmt" module="header" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2005-01-14"
             xml:lang="en">groups information relating to one edition of a text.</desc>
       <content>
          <elementRef key="edition" minOccurs="1" maxOccurs="1"/>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <editionStmt>
                <edition n="S2">Students' edition</edition>
@@ -1599,9 +1489,7 @@ my <num type="ordinal" value="21">twenty-first</num> birthday</p>
             </editionStmt>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <editionStmt>
                <p>First edition, <date>Michaelmas Term, 1991.</date>
@@ -1611,8 +1499,7 @@ my <num type="ordinal" value="21">twenty-first</num> birthday</p>
       </exemplum>
    </elementSpec>
    <elementSpec ident="edition" module="header" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2005-01-14"
             xml:lang="en">describes the particularities of one edition of a text.</desc>
       <content>
@@ -1620,9 +1507,7 @@ my <num type="ordinal" value="21">twenty-first</num> birthday</p>
       </content>
       <attList>
     </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <edition>First edition <date>Oct 1990</date>
             </edition>
@@ -1631,25 +1516,21 @@ my <num type="ordinal" value="21">twenty-first</num> birthday</p>
       </exemplum>
    </elementSpec>
    <elementSpec ident="extent" module="header" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2013-01-07"
             xml:lang="en">describes the approximate size of a text stored on some carrier medium or of some other object, digital  or non-digital,  specified in any convenient units.</desc>
       <content>
          <elementRef key="measure" minOccurs="1" maxOccurs="unbounded"/>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <extent>3200 sentences</extent>
             <extent>between 10 and 20 Mb</extent>
             <extent>ten 3.5 inch high density diskettes</extent>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude"
                 versionDate="2016-11-04"
                 xml:lang="en">
          <p>The  <gi>measure</gi> element may be used to supply normalised
@@ -1664,9 +1545,7 @@ material</measure>
       </exemplum>
    </elementSpec>
    <elementSpec ident="measure" module="core" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2005-01-14"
-            xml:lang="en">contains a word or phrase referring to some quantity of an object or commodity, usually
+      <desc versionDate="2005-01-14" xml:lang="en">contains a word or phrase referring to some quantity of an object or commodity, usually
         comprising a number, a unit, and a commodity name.</desc>
       <content>
          <textNode/>
@@ -1683,9 +1562,7 @@ material</measure>
          </attDef>
          <attDef ident="quantity" mode="change" usage="req"/>
       </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                versionDate="2019-07-09"
-                xml:lang="en">
+      <exemplum versionDate="2019-07-09" xml:lang="en">
          <p>This example references a definition of a measurement unit declared in the TEI header: </p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#NONE">
             <measure type="weight">
@@ -1704,7 +1581,7 @@ material</measure>
             </encodingDesc>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <measure quantity="40" unit="hogshead" commodity="rum">2 score hh rum</measure>
             <measure quantity="12" unit="count" commodity="roses">1 doz. roses</measure>
@@ -1713,8 +1590,7 @@ material</measure>
       </exemplum>
    </elementSpec>
    <elementSpec ident="publicationStmt" module="header" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2005-01-14"
             xml:lang="en">groups information concerning the publication or distribution of an electronic or other text.</desc>
       <content>
@@ -1725,9 +1601,7 @@ material</measure>
          <elementRef key="date"/>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <publicationStmt>
                <publisher>Chadwyck Healey</publisher>
@@ -1739,9 +1613,7 @@ material</measure>
             </publicationStmt>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <publicationStmt>
                <publisher>Zea Books</publisher>
@@ -1756,9 +1628,7 @@ material</measure>
       </exemplum>
    </elementSpec>
    <elementSpec ident="publisher" module="core" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2005-01-14"
-            xml:lang="en">provides the name of the organization responsible for the publication or distribution of a
+      <desc versionDate="2005-01-14" xml:lang="en">provides the name of the organization responsible for the publication or distribution of a
         bibliographic item.</desc>
       <content>
          <alternate minOccurs="1" maxOccurs="1">
@@ -1771,7 +1641,7 @@ material</measure>
       </content>
       <attList>
     </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <imprint>
                <pubPlace>Oxford</pubPlace>
@@ -1782,8 +1652,7 @@ material</measure>
       </exemplum>
    </elementSpec>
    <elementSpec ident="idno" module="header" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2010-04-30"
             xml:lang="en">supplies any form of identifier used to identify some object,
   such as a bibliographic item, a person, a title, an organization,
@@ -1808,9 +1677,7 @@ material</measure>
       </attList>
    </elementSpec>
    <elementSpec ident="pubPlace" module="core" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2005-01-14"
-            xml:lang="en">contains the name of the place where a bibliographic item was published.</desc>
+      <desc versionDate="2005-01-14" xml:lang="en">contains the name of the place where a bibliographic item was published.</desc>
       <content>
          <alternate minOccurs="1" maxOccurs="1">
             <elementRef key="ref"/>
@@ -1818,7 +1685,7 @@ material</measure>
          </alternate>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <publicationStmt>
                <publisher>Oxford University Press</publisher>
@@ -1829,8 +1696,7 @@ material</measure>
       </exemplum>
    </elementSpec>
    <elementSpec ident="availability" module="header" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2011-11-17"
             xml:lang="en">supplies information about the availability of a text, for example any restrictions on its
     use or distribution, its copyright status, any licence applying to it, etc.</desc>
@@ -1845,9 +1711,7 @@ material</measure>
             </valList>
          </attDef>
       </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <availability status="restricted">
                <p>Available for academic research purposes only.</p>
@@ -1860,9 +1724,7 @@ material</measure>
             </availability>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <availability>
                <licence target="http://opensource.org/licenses/MIT">
@@ -1890,8 +1752,7 @@ material</measure>
       </exemplum>
    </elementSpec>
    <elementSpec ident="licence" module="header" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2011-04-25"
             xml:lang="en">contains information about a licence or other legal agreement
   applicable to the text.</desc>
@@ -1899,18 +1760,14 @@ material</measure>
          <dataRef name="anyURI"/>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <licence target="http://www.nzetc.org/tm/scholarly/tei-NZETC-Help.html#licensing">
         Licence: Creative Commons Attribution-Share Alike 3.0 New Zealand Licence
       </licence>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/"
@@ -1924,9 +1781,7 @@ material</measure>
       </exemplum>
    </elementSpec>
    <elementSpec ident="p" module="core" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2005-01-14"
-            xml:lang="en">marks paragraphs in prose.</desc>
+      <desc versionDate="2005-01-14" xml:lang="en">marks paragraphs in prose.</desc>
       <content>
          <alternate minOccurs="1" maxOccurs="unbounded">
             <elementRef key="ref"/>
@@ -1935,7 +1790,7 @@ material</measure>
       </content>
       <attList>
     </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#NJAL">
             <p>Hallgerd was outside. <q>There is blood on your axe,</q> she said. <q>What have you
                     done?</q>
@@ -1951,8 +1806,7 @@ material</measure>
       </exemplum>
    </elementSpec>
    <elementSpec ident="sourceDesc" module="header" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2008-12-09"
             xml:lang="en">describes the source(s) from which an electronic text was derived or generated, typically a
     bibliographic description in the case of a digitized text, or a phrase such as "born digital"
@@ -1962,9 +1816,7 @@ material</measure>
          <elementRef key="recordingStmt" minOccurs="0" maxOccurs="1"/>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <sourceDesc>
                <bibl>
@@ -1975,9 +1827,7 @@ material</measure>
             </sourceDesc>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <sourceDesc>
                <p>Born digital: no previous source exists.</p>
@@ -1986,9 +1836,7 @@ material</measure>
       </exemplum>
    </elementSpec>
    <elementSpec ident="bibl" module="core" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2005-01-14"
-            xml:lang="en">contains a loosely-structured bibliographic citation of which the sub-components may or may
+      <desc versionDate="2005-01-14" xml:lang="en">contains a loosely-structured bibliographic citation of which the sub-components may or may
     not be explicitly tagged.</desc>
       <content>
          <elementRef key="title" minOccurs="1" maxOccurs="unbounded"/>
@@ -2000,13 +1848,13 @@ material</measure>
          </alternate>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <bibl>Blain, Clements and Grundy: Feminist Companion to Literature in English (Yale,
       1990)</bibl>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <bibl>
                <title level="a">The Interesting story of the Children in the Wood</title>. In
@@ -2015,7 +1863,7 @@ material</measure>
                <date>1968</date>. </bibl>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <bibl type="article" subtype="book_chapter" xml:id="carlin_2003">
                <author>
@@ -2049,15 +1897,13 @@ material</measure>
       </exemplum>
    </elementSpec>
    <elementSpec ident="recordingStmt" module="spoken" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2007-04-27"
-            xml:lang="en">describes a set of recordings used as the basis for transcription of a
+      <desc versionDate="2007-04-27" xml:lang="en">describes a set of recordings used as the basis for transcription of a
 spoken text.</desc>
       <content>
          <elementRef key="recording" minOccurs="1" maxOccurs="unbounded"/>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <recordingStmt>
                <recording type="audio" dur="P30M">
@@ -2074,7 +1920,7 @@ spoken text.</desc>
             </recordingStmt>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <recordingStmt>
                <p>Three
@@ -2085,9 +1931,7 @@ distinct recordings made by hidden microphone in early February
       </exemplum>
    </elementSpec>
    <elementSpec ident="recording" module="spoken" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2012-12-27"
-            xml:lang="en">provides details of an audio or video recording event
+      <desc versionDate="2012-12-27" xml:lang="en">provides details of an audio or video recording event
 used as the source of a spoken text, either directly or from
 a public broadcast.</desc>
       <content>
@@ -2095,7 +1939,7 @@ a public broadcast.</desc>
       </content>
       <attList>
     </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <recording type="audio" dur="P30M">
                <equipment>
@@ -2106,7 +1950,7 @@ a public broadcast.</desc>
             </recording>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <recording type="audio" dur="P10M">
                <equipment>
@@ -2137,15 +1981,13 @@ a public broadcast.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="media" module="core" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2013-01-10"
-            xml:lang="en">indicates the location of any form of external media such as
+      <desc versionDate="2013-01-10" xml:lang="en">indicates the location of any form of external media such as
   an audio or video clip etc.</desc>
       <content>
     </content>
       <attList>
     </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <figure>
                <media mimeType="image/png" url="fig1.png"/>
@@ -2155,14 +1997,14 @@ a public broadcast.</desc>
             </figure>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <media mimeType="audio/wav" url="dingDong.wav" dur="PT10S">
                <desc>Ten seconds of bellringing sound</desc>
             </media>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <media mimeType="video/mp4" url="clip45.mp4" dur="PT45M" width="500px">
                <desc>A 45 minute video clip to be displayed in a window 500
@@ -2172,8 +2014,7 @@ a public broadcast.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="encodingDesc" module="header" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2005-01-14"
             xml:lang="en">documents the relationship between an electronic text and the
 source or sources from which it was derived.</desc>
@@ -2186,9 +2027,7 @@ source or sources from which it was derived.</desc>
          <elementRef key="appInfo" minOccurs="0" maxOccurs="1"/>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <encodingDesc>
                <p>Basic encoding, capturing lexical information only. All
@@ -2199,8 +2038,7 @@ formatting or layout information preserved.</p>
       </exemplum>
    </elementSpec>
    <elementSpec ident="projectDesc" module="header" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2005-01-14"
             xml:lang="en">describes in detail the aim or purpose for which an electronic file was encoded, together
     with any other relevant information concerning the process by which it was assembled or
@@ -2209,9 +2047,7 @@ formatting or layout information preserved.</p>
          <elementRef key="p" minOccurs="1" maxOccurs="unbounded"/>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <projectDesc>
                <p>Texts collected for use in the Claremont Shakespeare Clinic, June 1990</p>
@@ -2220,8 +2056,7 @@ formatting or layout information preserved.</p>
       </exemplum>
    </elementSpec>
    <elementSpec ident="editorialDecl" module="header" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2005-01-14"
             xml:lang="en">provides details of editorial principles and practices applied
 during the encoding of a text.</desc>
@@ -2235,9 +2070,7 @@ during the encoding of a text.</desc>
          </alternate>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <editorialDecl>
                <normalization>
@@ -2254,17 +2087,14 @@ during the encoding of a text.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="correction" module="header" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2005-01-14"
             xml:lang="en">states how and under what circumstances corrections have been made in the text.</desc>
       <content>
          <elementRef key="p" minOccurs="1" maxOccurs="unbounded"/>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <correction>
                <p>Errors in transcription controlled by using the WordPerfect spelling checker, with a user
@@ -2275,8 +2105,7 @@ during the encoding of a text.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="normalization" module="header" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2005-01-14"
             xml:lang="en">indicates the extent of normalization or regularization of the original source carried out
     in converting it to electronic form.</desc>
@@ -2284,9 +2113,7 @@ during the encoding of a text.</desc>
          <elementRef key="p" minOccurs="1" maxOccurs="unbounded"/>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <editorialDecl>
                <normalization method="markup">
@@ -2308,8 +2135,7 @@ during the encoding of a text.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="hyphenation" module="header" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2005-01-14"
             xml:lang="en">summarizes the way in which hyphenation in a source text has been treated in an encoded
     version of it.</desc>
@@ -2317,9 +2143,7 @@ during the encoding of a text.</desc>
          <elementRef key="p" minOccurs="1" maxOccurs="unbounded"/>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <hyphenation eol="some">
                <p>End-of-line hyphenation silently removed where appropriate</p>
@@ -2328,17 +2152,14 @@ during the encoding of a text.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="quotation" module="header" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2005-01-14"
             xml:lang="en">specifies editorial practice adopted with respect to quotation marks in the original.</desc>
       <content>
          <elementRef key="p" minOccurs="1" maxOccurs="unbounded"/>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <quotation marks="none">
                <p>No quotation marks have been retained. Instead, the <att>rend</att> attribute on the
@@ -2357,9 +2178,7 @@ during the encoding of a text.</desc>
             </quotation>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <quotation marks="all">
                <p>All quotation marks are retained in the text and are represented by appropriate Unicode
@@ -2369,8 +2188,7 @@ during the encoding of a text.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="segmentation" module="header" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2005-01-14"
             xml:lang="en">describes the principles according to which the text has been segmented, for example into
     sentences, tone-units, graphemic strata, etc.</desc>
@@ -2378,9 +2196,7 @@ during the encoding of a text.</desc>
          <elementRef key="p" minOccurs="1" maxOccurs="unbounded"/>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <segmentation>
                <p>
@@ -2389,9 +2205,7 @@ during the encoding of a text.</desc>
             </segmentation>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <p>
                <gi>seg</gi> elements are used to mark functional constituents of various types within each
@@ -2402,16 +2216,14 @@ during the encoding of a text.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="tagsDecl" module="header" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2007-04-27"
             xml:lang="en">provides detailed information about the tagging applied to a document.</desc>
       <content>
          <elementRef key="namespace"/>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude"
                 xml:lang="en"
                 versionDate="2016-12-05">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
@@ -2431,8 +2243,7 @@ during the encoding of a text.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="namespace" module="header" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2006-02-07"
             xml:lang="en">supplies the formal name of the namespace to which the elements documented by its children
     belong.</desc>
@@ -2446,9 +2257,7 @@ during the encoding of a text.</desc>
             </valList>
          </attDef>
       </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="hi" occurs="28" withId="2"> Used only to mark English words
@@ -2458,8 +2267,7 @@ during the encoding of a text.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="tagUsage" module="header" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2016-02-16"
             xml:lang="en">documents the usage of a specific element within a specified document.</desc>
       <content>
@@ -2473,8 +2281,7 @@ during the encoding of a text.</desc>
          </attDef>
          <attDef ident="occurs" mode="change" usage="req"/>
       </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude"
                 xml:lang="en"
                 versionDate="2016-12-05">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
@@ -2491,8 +2298,7 @@ during the encoding of a text.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="classDecl" module="header" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2005-01-14"
             xml:lang="en">contains one or more taxonomies defining any classificatory
 codes used elsewhere in the text.</desc>
@@ -2500,9 +2306,7 @@ codes used elsewhere in the text.</desc>
          <elementRef key="taxonomy" minOccurs="1" maxOccurs="unbounded"/>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <classDecl>
                <taxonomy xml:id="LCSH">
@@ -2521,8 +2325,7 @@ codes used elsewhere in the text.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="taxonomy" module="header" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2011-11-02"
             xml:lang="en">defines a typology either implicitly, by means of a bibliographic
   citation, or explicitly by a structured taxonomy.</desc>
@@ -2533,9 +2336,7 @@ codes used elsewhere in the text.</desc>
       <attList>
          <attDef ident="xml:id" mode="change" usage="req"/>
       </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <taxonomy xml:id="tax.b">
                <bibl>Brown Corpus</bibl>
@@ -2572,9 +2373,7 @@ codes used elsewhere in the text.</desc>
             </taxonomy>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <taxonomy>
                <category xml:id="literature">
@@ -2629,8 +2428,7 @@ codes used elsewhere in the text.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="category" module="header" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2005-01-14"
             xml:lang="en">contains an individual descriptive category, possibly nested within a superordinate
   category, within a user-defined taxonomy.</desc>
@@ -2642,18 +2440,14 @@ codes used elsewhere in the text.</desc>
          <attDef ident="xml:id" mode="change" usage="req"/>
          <attDef ident="ana" mode="change" usage="opt"/>
       </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <category xml:id="b1">
                <catDesc>Prose reportage</catDesc>
             </category>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <category xml:id="b2">
                <catDesc>Prose </catDesc>
@@ -2668,8 +2462,7 @@ codes used elsewhere in the text.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="catDesc" module="core" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2005-01-14"
             xml:lang="en">describes some category within a taxonomy or text typology, either in the form of a brief
     prose description or in terms of the situational parameters used by the TEI formal <gi>textDesc</gi>.</desc>
@@ -2684,16 +2477,12 @@ codes used elsewhere in the text.</desc>
       </content>
       <attList>
     </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <catDesc>Prose reportage</catDesc>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <catDesc>
                <textDesc n="novel">
@@ -2712,16 +2501,14 @@ codes used elsewhere in the text.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="listPrefixDef" module="header" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2012-11-23"
             xml:lang="en">contains a list of definitions of prefixing schemes used in <ident type="datatype">teidata.pointer</ident> values, showing how abbreviated URIs using each scheme may be expanded into full URIs.</desc>
       <content>
          <elementRef key="prefixDef" minOccurs="1" maxOccurs="unbounded"/>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude"
                 xml:lang="en"
                 versionDate="2012-11-22">
          <p>In this example, two private URI scheme prefixes are defined and patterns are provided 
@@ -2754,8 +2541,7 @@ codes used elsewhere in the text.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="prefixDef" module="header" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2012-12-26"
             xml:lang="en">defines a prefixing scheme used in <ident type="datatype">teidata.pointer</ident> values,
   showing how abbreviated URIs using the scheme may be expanded into full URIs.</desc>
@@ -2771,8 +2557,7 @@ codes used elsewhere in the text.</desc>
          </attDef>
          <attDef ident="matchPattern" mode="change" usage="req"/>
       </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude"
                 xml:lang="en"
                 versionDate="2012-11-22">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
@@ -2789,8 +2574,7 @@ codes used elsewhere in the text.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="appInfo" module="header" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2007-07-31"
             xml:lang="en">records information about an application which has
   edited the TEI file.</desc>
@@ -2798,9 +2582,7 @@ codes used elsewhere in the text.</desc>
          <elementRef key="application" minOccurs="1" maxOccurs="unbounded"/>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#NONE">
             <appInfo>
                <application version="1.24" ident="Xaira">
@@ -2812,8 +2594,7 @@ codes used elsewhere in the text.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="application" module="header" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2007-07-31"
             xml:lang="en">provides information about an application which has acted upon the document.</desc>
       <content>
@@ -2824,9 +2605,7 @@ codes used elsewhere in the text.</desc>
          <attDef ident="ident" mode="change" usage="req"/>
          <attDef ident="version" mode="change" usage="req"/>
       </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#NONE">
             <appInfo>
                <application version="1.5" ident="ImageMarkupTool1" notAfter="2006-06-01">
@@ -2843,16 +2622,14 @@ codes used elsewhere in the text.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="label" module="core" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2011-11-05"
-            xml:lang="en">contains any label or heading used to identify part of a text,
+      <desc versionDate="2011-11-05" xml:lang="en">contains any label or heading used to identify part of a text,
   typically but not exclusively in a list or glossary.</desc>
       <content>
          <textNode/>
       </content>
       <attList>
     </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <p>Labels are commonly used for the headwords in glossary
     lists; note the use of the global <att>xml:lang</att> attribute to
     set the default language of the glossary list to Middle English,
@@ -2894,7 +2671,7 @@ codes used elsewhere in the text.</desc>
             </list>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <p>Labels may also be used to record explicitly the numbers or letters which mark list items in
       ordered lists, as in this extract from Gibbon's <title>Autobiography</title>. In this usage
       the <gi>label</gi> element is synonymous with the <att>n</att> attribute on the <gi>item</gi>
@@ -2909,7 +2686,7 @@ codes used elsewhere in the text.</desc>
             </list>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <p>Labels may also be used for other structured list items, as in this extract from the journal
       of Edward Gibbon:</p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#GibAut">
@@ -2930,7 +2707,7 @@ codes used elsewhere in the text.</desc>
 <gi>item</gi> rather than as its sibling. Though syntactically valid,
 this usage is not recommended TEI practice.</p>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <p>Labels may also be used to represent a label or heading attached to
 a paragraph or sequence of paragraphs not treated as a structural
 division, or to a group of verse lines. Note that, in this case, the
@@ -2961,8 +2738,7 @@ entre les Romains.</label>
       </exemplum>
    </elementSpec>
    <elementSpec ident="profileDesc" module="header" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2005-01-14"
             xml:lang="en">provides a detailed description of non-bibliographic aspects of a text, specifically the
     languages and sublanguages used, the situation in which it was produced, the participants and
@@ -2974,9 +2750,7 @@ entre les Romains.</label>
          <elementRef key="langUsage" minOccurs="0" maxOccurs="1"/>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <profileDesc>
                <langUsage>
@@ -3004,16 +2778,14 @@ entre les Romains.</label>
       </exemplum>
    </elementSpec>
    <elementSpec ident="settingDesc" module="corpus" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2014-01-06"
-            xml:lang="en">describes the setting or settings within which a
+      <desc versionDate="2014-01-06" xml:lang="en">describes the setting or settings within which a
         language interaction takes place, or other places otherwise referred to in a text, edition,
         or metadata.</desc>
       <content>
          <elementRef key="setting" minOccurs="1" maxOccurs="unbounded"/>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <settingDesc>
                <p>Texts recorded in the
@@ -3023,16 +2795,14 @@ entre les Romains.</label>
       </exemplum>
    </elementSpec>
    <elementSpec ident="setting" module="corpus" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2005-01-14"
-            xml:lang="en">describes one particular setting in which a language
+      <desc versionDate="2005-01-14" xml:lang="en">describes one particular setting in which a language
   interaction takes place.</desc>
       <content>
          <elementRef key="name" minOccurs="1" maxOccurs="unbounded"/>
          <elementRef key="date"/>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <setting>
                <placeName>New York City, US</placeName>
@@ -3044,8 +2814,7 @@ entre les Romains.</label>
       </exemplum>
    </elementSpec>
    <elementSpec ident="textClass" module="header" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2005-01-14"
             xml:lang="en">groups information which describes the nature or topic of a text in terms of a standard
     classification scheme, thesaurus, etc.</desc>
@@ -3053,9 +2822,7 @@ entre les Romains.</label>
          <elementRef key="catRef"/>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <taxonomy>
                <category xml:id="acprose">
@@ -3078,8 +2845,7 @@ entre les Romains.</label>
       </exemplum>
    </elementSpec>
    <elementSpec ident="catRef" module="header" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2005-01-14"
             xml:lang="en">specifies one or more defined categories within some taxonomy or text typology.</desc>
       <content/>
@@ -3087,8 +2853,7 @@ entre les Romains.</label>
          <attDef ident="scheme" mode="change" usage="req"/>
          <attDef ident="target" mode="change" usage="req"/>
       </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude"
                 versionDate="2013-12-20"
                 xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
@@ -3109,9 +2874,7 @@ entre les Romains.</label>
       </exemplum>
    </elementSpec>
    <elementSpec ident="particDesc" module="corpus" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2014-01-06"
-            xml:lang="en">describes the identifiable speakers, voices, or
+      <desc versionDate="2014-01-06" xml:lang="en">describes the identifiable speakers, voices, or
         other participants in any kind of text or other persons named or otherwise referred to in a
         text, edition, or metadata.</desc>
       <content>
@@ -3121,7 +2884,7 @@ entre les Romains.</label>
          </sequence>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <particDesc>
                <listPerson>
@@ -3156,8 +2919,7 @@ entre les Romains.</label>
       </exemplum>
    </elementSpec>
    <elementSpec ident="listOrg" module="namesdates" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2008-04-29"
             xml:lang="en">contains a list of elements, each of which provides information about an identifiable
         organization.</desc>
@@ -3169,9 +2931,7 @@ entre les Romains.</label>
          </sequence>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ND-eg-99">
             <listOrg>
                <head>Libyans</head>
@@ -3198,16 +2958,14 @@ entre les Romains.</label>
       </exemplum>
    </elementSpec>
    <elementSpec ident="head" module="core" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2005-12-13"
-            xml:lang="en">contains any type of heading, for example the title of a section, or the heading of a list,
+      <desc versionDate="2005-12-13" xml:lang="en">contains any type of heading, for example the title of a section, or the heading of a list,
     glossary, manuscript description, etc.</desc>
       <content>
          <textNode/>
       </content>
       <attList>
     </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <p>The most common use for the <gi>head</gi> element is to mark the headings of sections. In
       older writings, the headings or <term>incipits</term> may be rather longer than usual in
       modern works. If a section has an explicit ending as well as a heading, it should be marked as
@@ -3227,7 +2985,7 @@ entre les Romains.</label>
             </div1>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <p>When headings are not inline with the running text (see e.g. 
       <ref target="http://diglib.hab.de/show_image.php?dir=drucke/ed000364&amp;pointer=34">the heading "Secunda conclusio"</ref>) 
       they might however be encoded as if. 
@@ -3246,7 +3004,7 @@ entre les Romains.</label>
             </div>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <p>The <gi>head</gi> element is also used to mark headings of other units, such as lists:</p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples">With a few exceptions, connectives are equally
       useful in all kinds of discourse: description, narration, exposition, argument. <list rend="bulleted">
@@ -3262,8 +3020,7 @@ entre les Romains.</label>
       </exemplum>
    </elementSpec>
    <elementSpec ident="org" module="namesdates" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2007-06-14"
             xml:lang="en">provides information
   about an identifiable organization such as a business, a tribe, or
@@ -3311,9 +3068,7 @@ entre les Romains.</label>
             </valList>
          </attDef>
       </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <org xml:id="JAMs">
                <orgName>Justified Ancients of Mummu</orgName>
@@ -3331,8 +3086,7 @@ entre les Romains.</label>
       </exemplum>
    </elementSpec>
    <elementSpec ident="event" module="namesdates" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2007-08-01"
             xml:lang="en">contains data relating to any kind of significant event associated with a person, place, or organization.</desc>
       <content>
@@ -3340,9 +3094,7 @@ entre les Romains.</label>
       </content>
       <attList>
     </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <person>
                <event type="mat" when="1972-10-12">
@@ -3356,8 +3108,7 @@ entre les Romains.</label>
       </exemplum>
    </elementSpec>
    <elementSpec ident="listEvent" module="namesdates" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2009-01-21"
             xml:lang="en">contains a list of descriptions, each of which provides information
     about an identifiable event.</desc>
@@ -3368,9 +3119,7 @@ entre les Romains.</label>
          </sequence>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <listEvent>
                <head>Battles of the American Civil War: Kentucky</head>
@@ -3409,8 +3158,7 @@ raiders and saved the town from capture.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="listRelation" module="namesdates" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2011-12-02"
             xml:lang="en">provides information about relationships identified amongst people, places, and
     organizations, either informally as prose or as formally expressed relation links.</desc>
@@ -3418,9 +3166,7 @@ raiders and saved the town from capture.</desc>
          <elementRef key="relation" minOccurs="1" maxOccurs="unbounded"/>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#UND">
             <listPerson>
                <person xml:id="pp1">
@@ -3442,8 +3188,7 @@ raiders and saved the town from capture.</desc>
          <p>The persons with identifiers pp1 and pp2 are the parents of pp3 and pp4; they are also married to
       each other; pp1 is the employer of pp3, pp5, pp6, and pp7.</p>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude"
                 xml:lang="en"
                 versionDate="2017-06-30">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#UND">
@@ -3468,9 +3213,7 @@ raiders and saved the town from capture.</desc>
          </egXML>
          <p>The persons with identifiers en_pp1 and en_pp2 live in en_pl1.</p>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <listRelation>
                <p>All speakers are members of the Ceruli family, born in Naples.</p>
@@ -3479,8 +3222,7 @@ raiders and saved the town from capture.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="relation" module="namesdates" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2013-04-12"
             xml:lang="en">describes any kind of relationship or linkage amongst a
   specified group of places, events, persons, objects or other items.</desc>
@@ -3498,9 +3240,7 @@ raiders and saved the town from capture.</desc>
          <attDef ident="active" mode="change" usage="opt"/>
          <attDef ident="passive" mode="change" usage="opt"/>
       </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#UND">
             <relation type="social"
                       name="supervisor"
@@ -3509,17 +3249,13 @@ raiders and saved the town from capture.</desc>
          </egXML>
          <p>This indicates that the person with identifier p1 is supervisor of persons p2, p3, and p4.</p>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#UND">
             <relation type="personal" name="friends" mutual="#p2 #p3 #p4"/>
          </egXML>
          <p>This indicates that p2, p3, and p4 are all friends.</p>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#UND">
             <relation type="CRM"
                       name="P89_falls_within"
@@ -3529,9 +3265,7 @@ raiders and saved the town from capture.</desc>
          <p>This indicates that there is a relation, defined by CIDOC CRM,
     between two resources identified by URLs.</p>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#SAWS">
             <relation resp="http://viaf.org/viaf/44335536/"
                       ref="http://purl.org/saws/ontology#isVariantOf"
@@ -3544,8 +3278,7 @@ raiders and saved the town from capture.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="listPerson" module="namesdates" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2006-10-08"
             xml:lang="en">contains a list of descriptions, each of which provides information about an identifiable
     person or a group of people, for example the participants in a language interaction, or the
@@ -3557,9 +3290,7 @@ raiders and saved the town from capture.</desc>
          </sequence>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#UND">
             <listPerson type="respondents">
                <personGrp xml:id="PXXX"/>
@@ -3573,8 +3304,7 @@ raiders and saved the town from capture.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="person" module="namesdates" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2005-12-14"
             xml:lang="en">provides information about an identifiable individual, for example a participant in a language interaction, or a person referred to in a
         historical source.</desc>
@@ -3595,9 +3325,7 @@ raiders and saved the town from capture.</desc>
       </content>
       <attList>
     </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <person sex="F" age="adult">
                <p>Female respondent, well-educated, born in Shropshire UK, 12 Jan 1950, of unknown occupation. Speaks French fluently. Socio-Economic
@@ -3605,9 +3333,7 @@ raiders and saved the town from capture.</desc>
             </person>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <person sex="intersex" role="god" age="immortal">
                <persName>Hermaphroditos</persName>
@@ -3615,9 +3341,7 @@ raiders and saved the town from capture.</desc>
             </person>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <person xml:id="Ovi01" sex="1" role="poet">
                <persName xml:lang="en">Ovid</persName>
@@ -3637,8 +3361,7 @@ raiders and saved the town from capture.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="sex" module="namesdates" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2006-06-21"
             xml:lang="en">specifies the sex of a person.</desc>
       <content>
@@ -3653,38 +3376,29 @@ raiders and saved the town from capture.</desc>
             </valList>
          </attDef>
       </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <sex value="M">male</sex>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <sex value="2">female</sex>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <sex value="I">Intersex</sex>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <sex value="TG F">Female (TransWoman)</sex>
          </egXML>
       </exemplum>
    </elementSpec>
    <elementSpec ident="birth" module="namesdates" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2005-01-14"
             xml:lang="en">contains information about a person's birth, such as its date and place.</desc>
       <content>
@@ -3696,16 +3410,12 @@ raiders and saved the town from capture.</desc>
       <attList>
          <attDef ident="when" mode="change" usage="req"/>
       </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <birth>Before 1920, Midlands region.</birth>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <birth when="1960-12-10">In a small cottage near <name type="place">Aix-la-Chapelle</name>,
         early in the morning of <date>10 Dec 1960</date>
@@ -3714,8 +3424,7 @@ raiders and saved the town from capture.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="death" module="namesdates" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2005-12-13"
             xml:lang="en">contains information about a person's death, such as its date and place.</desc>
       <content>
@@ -3727,17 +3436,14 @@ raiders and saved the town from capture.</desc>
       <attList>
          <attDef ident="when" mode="change" usage="req"/>
       </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <death when="1960-12-10">Passed away near <name type="place">Aix-la-Chapelle</name>, after suffering from cerebral palsy. </death>
          </egXML>
       </exemplum>
    </elementSpec>
    <elementSpec ident="placeName" module="namesdates" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2005-01-14"
             xml:lang="en">contains an absolute or relative place name.</desc>
       <content>
@@ -3748,9 +3454,7 @@ raiders and saved the town from capture.</desc>
       </content>
       <attList>
     </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <placeName>
                <settlement>Rochester</settlement>
@@ -3758,9 +3462,7 @@ raiders and saved the town from capture.</desc>
             </placeName>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <placeName>
                <geogName>Arrochar Alps</geogName>
@@ -3768,9 +3470,7 @@ raiders and saved the town from capture.</desc>
             </placeName>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <placeName>
                <measure>10 miles</measure>
@@ -3781,8 +3481,7 @@ raiders and saved the town from capture.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="affiliation" module="namesdates" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2005-01-14"
             xml:lang="en">contains an informal description of a person's present or past affiliation with some
         organization, for example an employer or sponsor.</desc>
@@ -3850,17 +3549,14 @@ raiders and saved the town from capture.</desc>
             </list>
          </p>
       </remarks>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#NONE">
             <affiliation>Junior project officer for the US <name type="org">National Endowment for
                     the Humanities</name>
             </affiliation>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude"
                 xml:lang="en"
                 versionDate="2018-10-30">
          <p>This example indicates that the person was affiliated with the
@@ -3872,8 +3568,7 @@ raiders and saved the town from capture.</desc>
             </affiliation>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude"
                 xml:lang="en"
                 versionDate="2018-10-30">
          <p>This example indicates that the person was affiliated with Mount Holyoke College throughout the entire span of the date range listed.</p>
@@ -3883,8 +3578,7 @@ raiders and saved the town from capture.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="occupation" module="namesdates" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2005-01-14"
             xml:lang="en">contains an informal description of a person's trade, profession or occupation.</desc>
       <content>
@@ -3892,24 +3586,19 @@ raiders and saved the town from capture.</desc>
       </content>
       <attList>
     </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <occupation>accountant</occupation>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <occupation scheme="#occupationtaxonomy" code="#acc">accountant</occupation>
          </egXML>
       </exemplum>
    </elementSpec>
    <elementSpec ident="education" module="namesdates" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2005-12-14"
             xml:lang="en">contains a description of the educational experience of a person.</desc>
       <content>
@@ -3917,16 +3606,14 @@ raiders and saved the town from capture.</desc>
       </content>
       <attList>
     </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude"
                 xml:lang="en"
                 versionDate="2014-08-06">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <education>Left school at age 16</education>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude"
                 xml:lang="en"
                 versionDate="2014-08-06">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
@@ -3934,8 +3621,7 @@ raiders and saved the town from capture.</desc>
             </education>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude"
                 xml:lang="en"
                 versionDate="2014-08-06">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
@@ -3947,16 +3633,14 @@ raiders and saved the town from capture.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="figure" module="figures" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2011-11-05"
-            xml:lang="en">groups elements representing or containing graphic information
+      <desc versionDate="2011-11-05" xml:lang="en">groups elements representing or containing graphic information
   such as an illustration, formula,  or    figure.</desc>
       <content>
          <elementRef key="head" minOccurs="0" maxOccurs="1"/>
          <elementRef key="graphic" minOccurs="1" maxOccurs="1"/>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <figure>
                <head>The View from the Bridge</head>
@@ -3968,14 +3652,12 @@ raiders and saved the town from capture.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="graphic" module="core" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            versionDate="2016-03-07"
-            xml:lang="en">indicates the location of a graphic or illustration, either forming
+      <desc versionDate="2016-03-07" xml:lang="en">indicates the location of a graphic or illustration, either forming
     part of a text, or providing an image of it.</desc>
       <content/>
       <attList>
     </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <figure>
                <graphic url="fig1.png"/>
@@ -3985,9 +3667,7 @@ raiders and saved the town from capture.</desc>
             </figure>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                versionDate="2016-03-07"
-                xml:lang="en">
+      <exemplum versionDate="2016-03-07" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:lang="und" source="#UND">
             <facsimile>
                <surfaceGrp n="leaf1">
@@ -4004,8 +3684,7 @@ raiders and saved the town from capture.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="langUsage" module="header" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2008-01-28"
             xml:lang="en">describes the languages, sublanguages, registers, dialects, etc.
 represented within a text.</desc>
@@ -4013,9 +3692,7 @@ represented within a text.</desc>
          <elementRef key="language" minOccurs="1" maxOccurs="unbounded"/>
       </content>
       <attList/>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <langUsage>
                <language ident="fr-CA" usage="60">Québecois</language>
@@ -4026,8 +3703,7 @@ represented within a text.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="language" module="header" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2005-01-14"
             xml:lang="en">characterizes a single language or sublanguage used within a text.</desc>
       <content>
@@ -4035,9 +3711,7 @@ represented within a text.</desc>
       </content>
       <attList>
     </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:lang="en">
             <langUsage>
                <language ident="en-US" usage="75">modern American English</language>
@@ -4048,8 +3722,7 @@ represented within a text.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="revisionDesc" module="header" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2005-01-14"
             xml:lang="en">summarizes the revision history for a file.</desc>
       <content>
@@ -4057,9 +3730,7 @@ represented within a text.</desc>
       </content>
       <attList>
     </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <revisionDesc status="embargoed">
                <change when="1991-11-11" who="#LB"> deleted chapter 10 </change>
@@ -4068,8 +3739,7 @@ represented within a text.</desc>
       </exemplum>
    </elementSpec>
    <elementSpec ident="change" module="header" mode="change">
-      <desc xmlns:rng="http://relaxng.org/ns/structure/1.0"
-            xmlns:xi="http://www.w3.org/2001/XInclude"
+      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
             versionDate="2011-10-31"
             xml:lang="en">documents a change or set of changes made during the production
     of a source document, or during the revision of an electronic file.</desc>
@@ -4079,9 +3749,7 @@ represented within a text.</desc>
       </content>
       <attList>
     </attList>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <titleStmt>
                <title> ... </title>
@@ -4100,9 +3768,7 @@ represented within a text.</desc>
             </revisionDesc>
          </egXML>
       </exemplum>
-      <exemplum xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en">
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <profileDesc>
                <creation>
