@@ -1,3 +1,6 @@
+source:
+	$s -xsl:add-source.xsl ParlaMint-schemaSpecs.editing.odd.xml > ParlaMint-schemaSpecs.editing2.odd.xml
+
 # Validate and compile ODD to RelaxNG, validate samples, make HTML
 all:	prepare val-schema xml-schemas val-samples html
 
