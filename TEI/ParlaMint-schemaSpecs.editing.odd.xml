@@ -2678,19 +2678,35 @@ codes used elsewhere in the text.</desc>
          <attDef ident="version" mode="change" usage="req"/>
       </attList>
       <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#NONE">
-            <appInfo>
-               <application version="1.5" ident="ImageMarkupTool1" notAfter="2006-06-01">
-                  <label>Image Markup Tool</label>
-                  <ptr target="#P1"/>
-                  <ptr target="#P2"/>
-               </application>
-            </appInfo>
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	    <appInfo>
+            <application version="1" ident="app-stanza">
+               <label>Stanza</label>
+               <desc xml:lang="en">
+                  <ref target="https://stanfordnlp.github.io/stanza/index.html">Stanza</ref>: a jointly trained neural tagger, lemmatizer and dependency parser. Pretrained model based on the italian-isdt-ud-2.5 treebank</desc>
+            </application>
+            <application version="1" ident="app-t2k">
+               <label>T2K</label>
+               <desc xml:lang="en">
+                  <ref target="http://www.italianlp.it/demo/t2k-text-to-knowledge/">T2K</ref>: contains a named entity recognition module for Italian.</desc>
+            </application>
+            <application version="1" ident="conll-U2TEIXML">
+               <label>CoNLL-U 2 TEI XML</label>
+               <desc xml:lang="en">
+                  <ref target="http://conllu2teixml">CoNLL-U 2 TEI XML</ref>: converter from CoNLL-U format to (ParlaClarin/ParlaMint) Tei XML Format</desc>
+            </application>
+         </appInfo>
          </egXML>
-         <p>This example shows an appInfo element documenting the fact that version 1.5 of the Image
-      Markup Tool1 application has an interest in two parts of a document which was last saved on
-      June 6 2006. The parts concerned are accessible at the URLs given as target for the two
-        <gi>ptr</gi> elements. </p>
+      </exemplum>
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	  <appInfo>
+            <application version="4.0" ident="stanford-corenlp">
+               <label>Stanford CoreNLP</label>
+               <desc>Tokenisation, POS tagging, NER and dependency parsed using Stanford CoreNLP <ref target="https://stanfordnlp.github.io/CoreNLP/">https://stanfordnlp.github.io/CoreNLP/</ref>.</desc>
+            </application>
+         </appInfo>
+	</egXML>
       </exemplum>
    </elementSpec>
    <elementSpec ident="label" module="core" mode="change">
