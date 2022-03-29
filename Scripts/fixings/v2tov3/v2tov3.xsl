@@ -4,10 +4,11 @@
   xmlns:tei="http://www.tei-c.org/ns/1.0"
   xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:fn="http://www.w3.org/2005/xpath-functions"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns:et="http://nl.ijs.si/et"
   xmlns:mk="http://ufal.mff.cuni.cz/mk"
   xmlns:saxon="http://saxon.sf.net/"
-  exclude-result-prefixes="et mk fn tei saxon">
+  exclude-result-prefixes="et mk fn xs tei saxon">
   <xsl:output indent="yes"/>
   <xsl:strip-space elements="*"/>
   <xsl:preserve-space elements="tei:change tei:seg"/>
@@ -273,9 +274,9 @@
               <xsl:apply-templates select="." mode="serialize"/>
             </xsl:message>
             <xsl:copy>
-              <xsl:apply-templates select="@*"/>
+              <xsl:apply-templates select="@*[name() != 'ana']"/>
               <xsl:attribute name="ref">#<xsl:value-of select="$org/@xml:id"/></xsl:attribute>
-              <xsl:apply-templates/>
+              <xsl:call-template name="affiliation-ana"><xsl:with-param name="ref" select="concat('#',$org/@xml:id)"/></xsl:call-template>
             </xsl:copy>
           </xsl:when>
           <xsl:when test="count($org)>1">
@@ -296,7 +297,10 @@
   <xsl:template match="tei:affiliation[text() and @ref]">
     <xsl:choose>
       <xsl:when test="$country = 'BG' and @ref='#NS' and contains(' MP chairman viceChairman', @role) and text()='депутат'">
-        <xsl:copy><xsl:apply-templates select="@*"/></xsl:copy>
+        <xsl:copy>
+          <xsl:apply-templates select="@*[name() != 'ana']"/>
+          <xsl:call-template name="affiliation-ana"><xsl:with-param name="ref" select="@ref"/></xsl:call-template>
+        </xsl:copy>
         <xsl:message>INFO: removing text from <xsl:value-of select="@role"/> (<xsl:value-of select="text()"/>) affiliation</xsl:message>
       </xsl:when>
       <xsl:otherwise>
@@ -336,9 +340,10 @@
               <xsl:apply-templates select="." mode="serialize"/>
             </xsl:message>
             <xsl:copy>
-              <xsl:apply-templates select="@*"/>
+              <xsl:apply-templates select="@*[name() != 'ana']"/>
               <xsl:attribute name="ref">#<xsl:value-of select="$org/@xml:id"/></xsl:attribute>
-              <xsl:apply-templates/>
+              <xsl:call-template name="affiliation-ana"><xsl:with-param name="ref" select="concat('#',$org/@xml:id)"/></xsl:call-template>
+              <xsl:comment><xsl:apply-templates select="./text()" mode="serialize"/></xsl:comment>
             </xsl:copy>
           </xsl:when>
           <xsl:when test="count($org)>1">
@@ -355,6 +360,13 @@
     </xsl:choose>
   </xsl:template>
 
+  <xsl:template match="tei:affiliation[@ref]">
+    <xsl:message>AFFILIATION <xsl:apply-templates select="." mode="serialize"/></xsl:message>
+    <xsl:copy>
+      <xsl:apply-templates select="@*[name() != 'ana']"/>
+      <xsl:call-template name="affiliation-ana"><xsl:with-param name="ref" select="@ref"/></xsl:call-template>
+    </xsl:copy>
+  </xsl:template>
   
   <!-- COPY REST -->
   <xsl:template match="*">
@@ -407,6 +419,45 @@
     <xsl:value-of select="."/>
 </xsl:template>
 
+  <!-- NAMED TEMPLATES -->
+  <xsl:template name="affiliation-ana">
+    <xsl:param name="ref"/>
+    <xsl:if test="contains(' MP minister primeMinister ', concat(' ',./@role,' '))">
+      <xsl:variable name="orgRole" select="mk:person_role_to_org_role(./@role)"/>
+      <xsl:variable name="org" select="./ancestor::tei:particDesc/tei:listOrg/tei:org[@role=$orgRole and @xml:id=substring-after($ref,'#')]"/>
+
+      <xsl:variable name="aff" select="."/>
+      <xsl:variable name="from" select="mk:get_from($aff)"/>
+      <xsl:variable name="to" select="mk:get_to($aff)"/>
+      <xsl:message><xsl:value-of select="concat(xs:date($from),' -- ',xs:date($to),'   ')"/>  <xsl:apply-templates select="$aff" mode="serialize"/></xsl:message>
+      <xsl:if test="$org">
+        <xsl:choose>
+          <xsl:when test="$org/tei:listEvent/tei:event[xs:date($from) >= xs:date(mk:get_from(.)) and xs:date(mk:get_to(.)) >= xs:date($to)]">
+            <xsl:variable name="event" select="$org/tei:listEvent/tei:event[xs:date($from) >= xs:date(mk:get_from(.)) and xs:date(mk:get_to(.)) >= xs:date($to)]"/>
+            <xsl:variable name="ana" select="concat('#',$event/@xml:id)"/>
+            <xsl:choose>
+              <xsl:when test="not(@ana)">
+                <xsl:attribute name="ana">#<xsl:value-of select="$event/@xml:id"/></xsl:attribute>
+                <xsl:message>INFO: adding corresponding event to @ana: <xsl:apply-templates select="$event" mode="serialize"/></xsl:message>
+              </xsl:when>
+              <xsl:when test="@ana != $ana">
+                <xsl:message>WARN: fixing corresponding event in @ana from '<xsl:value-of select="./@ana"/>' to '<xsl:value-of select="$ana"/>' </xsl:message>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:apply-templates select="@ana"/>
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:message>ERROR: unable to add corresponding event</xsl:message>
+            <xsl:comment>unable to add @ana - missing organization corresponding event</xsl:comment>
+          </xsl:otherwise>
+
+        </xsl:choose>
+      </xsl:if>
+    </xsl:if>
+  </xsl:template>
+
   <!-- FUNCTIONS -->
   <xsl:function name="mk:person_role_to_org_role">
     <xsl:param name="role"/>
@@ -453,7 +504,34 @@
 
       <xsl:when test="$country = 'PL' and $role = 'MP'">parliament</xsl:when>
 
+
+      <xsl:when test="$role = 'MP'">parliament</xsl:when>
+
       <xsl:otherwise><xsl:message>ERROR: ===== <xsl:value-of select="$country"/> === unknown role: <xsl:value-of select="$role"/></xsl:message></xsl:otherwise>
+    </xsl:choose>
+  </xsl:function>
+
+  <xsl:function name="mk:get_from">
+    <xsl:param name="node"/>
+    <xsl:choose>
+      <xsl:when test="$node/@from"><xsl:value-of select="$node/@from"/></xsl:when>
+      <xsl:when test="$node/@when"><xsl:value-of select="$node/@from"/></xsl:when>
+      <xsl:when test="not($node/parent::tei:bibl/parent::tei:sourceDesc/parent::tei:fileDesc)">
+        <xsl:value-of select="mk:get_from($node/ancestor::tei:teiHeader//tei:sourceDesc/tei:bibl[1]/tei:date)"/>
+      </xsl:when>
+      <xsl:otherwise>1900-01-01</xsl:otherwise>
+    </xsl:choose>
+  </xsl:function>
+
+  <xsl:function name="mk:get_to">
+    <xsl:param name="node"/>
+    <xsl:choose>
+      <xsl:when test="$node/@to"><xsl:value-of select="$node/@to"/></xsl:when>
+      <xsl:when test="$node/@when"><xsl:value-of select="$node/@to"/></xsl:when>
+      <xsl:when test="not($node/parent::tei:bibl/parent::tei:sourceDesc/parent::tei:fileDesc)">
+        <xsl:value-of select="mk:get_to($node/ancestor::tei:teiHeader//tei:sourceDesc/tei:bibl[1]/tei:date)"/>
+      </xsl:when>
+      <xsl:otherwise><xsl:value-of select="$node/ancestor::tei:teiHeader//tei:publicationStmt/tei:date/@when"/></xsl:otherwise>
     </xsl:choose>
   </xsl:function>
 
