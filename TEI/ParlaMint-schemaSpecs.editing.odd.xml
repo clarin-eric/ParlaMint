@@ -3010,27 +3010,44 @@ entre les Romains.</label>
       </content>
       <attList/>
       <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <listOrg>
-               <head>Libyans</head>
-               <org>
-                  <orgName>Adyrmachidae</orgName>
-                  <desc>These people have, in most points, the same customs as the Egyptians, but
-                        use the costume of the Libyans. Their women wear on each leg a ring made of
-                        bronze [...]</desc>
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+             <listOrg>
+               <org xml:id="government.GB" role="government">
+                  <orgName xml:lang="en" full="yes"> Government</orgName>
                </org>
-               <org>
-                  <orgName>Nasamonians</orgName>
-                  <desc>In summer they leave their flocks and herds upon the sea-shore, and go up
-                        the country to a place called Augila, where they gather the dates from the
-                        palms [...]</desc>
+               <org xml:id="PoGB" role="parliament">
+                  <orgName full="yes">Parliament of the United Kingdom of Great Britain and Northern Ireland</orgName>
+                  <listEvent>
+                     <event xml:id="PoGB.55" from="2010-05-18" to="2015-03-30">
+                        <label>Fifty-fifth Parliament of the United Kingdom</label>
+                     </event>
+		     <event xml:id="PoGB.56" from="2015-05-27" to="2017-05-03">
+                        <label>Fifty-sixth Parliament of the United Kingdom</label>
+                     </event>
+		     <!--...-->
+                  </listEvent>
                </org>
-               <org>
-                  <orgName>Garamantians</orgName>
-                  <desc>[...] avoid all society or intercourse with their fellow-men, have no
-                        weapon of war, and do not know how to defend themselves. [...]</desc>
-                  <!-- ... -->
+               <org role="politicalParty" xml:id="party.LI">
+                  <orgName full="yes">Labour Independent</orgName>
+                  <orgName full="init">LI</orgName>
                </org>
+               <org role="politicalParty" xml:id="party.LD">
+                  <orgName full="yes">Liberal Democrat</orgName>
+                  <orgName full="init">LD</orgName>
+               </org>
+	       <!--...-->
+	        <listRelation>
+                  <relation name="coalition"
+                            mutual="#party.CON #party.LD"
+                            from="2010-05-06"
+                            to="2015-05-07"/>
+                  <relation name="opposition"
+                            active="#party.LAB #party.SO0T #party.64RT #party.SDLP #party.L1QU #party.0UBS #party.BI #party.LI #party.LB #party.LJ95 #party.IGC #party.NPBE #party.CB #party.QMZZ #party.IL #party.UUP #party.FZPG #party.A #party.GP #party.SNP #party.I #party.L8TA #party.CON #party.NA #party.DUP #party.UUSL #party.ZKPW #party.UKIP #party.PC"
+                            passive="#government.GB"
+                            from="2010-05-06"
+                            to="2015-05-07"/>
+		  <!--...-->
+		</listRelation>
             </listOrg>
          </egXML>
       </exemplum>
@@ -3146,20 +3163,46 @@ entre les Romains.</label>
          </attDef>
       </attList>
       <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <org xml:id="JAMs">
-               <orgName>Justified Ancients of Mummu</orgName>
-               <desc>An underground anarchist collective spearheaded by
-        <persName>Hagbard Celine</persName>, who fight the Illuminati
-        from a golden submarine, the <name>Leif Ericson</name>
-               </desc>
-               <bibl>
-                  <author>Robert Shea</author>
-                  <author>Robert Anton Wilson</author>
-                  <title>The Illuminatus! Trilogy</title>
-               </bibl>
-            </org>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	  <listOrg>
+	    <org>...</org>
+	    <org>...</org>
+	    <org>...</org>
+	    ...
+	    <listRelation>...</listRelation>
+	  </listOrg>
+	</egXML>
+      </exemplum>
+      <p>Basic structure of the &lt;org&gt; element
+      </p>
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+           <org xml:id="boardOfDirectors.SRVZP.438" role="boardOfDirectors">
+                  <orgName full="yes" xml:lang="cs">Správní rada VZP</orgName>
+                  <orgName full="yes" xml:lang="en">The Board of Directors of the General Health Insurance Company of the Czech Republic</orgName>
+                  <orgName full="init">SRVZP</orgName>
+                  <event from="1992-01-01">
+                     <label xml:lang="en">existence</label>
+                  </event>
+               </org>
          </egXML>
+      </exemplum>
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	  <org xml:id="party.PS"
+	       role="politicalParty">
+	    <orgName full="yes" xml:lang="sl">Pozitivna Slovenija</orgName>
+	    <orgName full="yes" xml:lang="en">Positive Slovenia</orgName>
+	    <orgName full="init">PS</orgName>
+	    <event from="2011-10-22">
+	      <label xml:lang="en">existence</label>
+	    </event>
+	    <idno type="URI" xml:lang="sl"
+		  subtype="wikimedia">https://sl.wikipedia.org/wiki/Pozitivna_Slovenija</idno>
+	    <idno type="URI" xml:lang="en"
+		  subtype="wikimedia">https://en.wikipedia.org/wiki/Positive_Slovenia</idno>
+	  </org>
+	</egXML>
       </exemplum>
    </elementSpec>
    <elementSpec ident="event" module="namesdates" mode="change">
