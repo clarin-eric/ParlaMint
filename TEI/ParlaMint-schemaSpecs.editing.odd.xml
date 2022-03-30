@@ -3171,18 +3171,35 @@ entre les Romains.</label>
       </content>
       <attList>
     </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <person>
-               <event type="mat" when="1972-10-12">
-                  <label>matriculation</label>
-               </event>
-               <event type="grad" when="1975-06-23">
-                  <label>graduation</label>
-               </event>
-            </person>
-         </egXML>
+      <exemplum>
+	<egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	   <listEvent>
+                     <event xml:id="PoGB.55" from="2010-05-18" to="2015-03-30">
+                        <label>Fifty-fifth Parliament of the United Kingdom</label>
+                     </event>
+                     <event xml:id="PoGB.56" from="2015-05-27" to="2017-05-03">
+                        <label>Fifty-sixth Parliament of the United Kingdom</label>
+                     </event>
+                     <event xml:id="PoGB.57" from="2017-06-21" to="2019-11-06">
+                        <label>Fifty-seventh Parliament of the United Kingdom</label>
+                     </event>
+                     <event xml:id="PoGB.58" from="2019-12-17">
+                        <label>Fifty-eighth Parliament of the United Kingdom</label>
+                     </event>
+                  </listEvent>
+	</egXML>
       </exemplum>
+       <exemplum>
+	 <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	    <org xml:id="government.HR" role="government">
+                  <orgName xml:lang="hr" full="yes">Vlada Republike Hrvatske</orgName>
+                  <orgName xml:lang="en" full="yes">Government of the Republic of Croatia</orgName>
+                  <event from="1990-05-30">
+                     <label xml:lang="en">existence</label>
+                  </event>
+               </org>
+	 </egXML>
+       </exemplum>
    </elementSpec>
    <elementSpec ident="listEvent" module="namesdates" mode="change">
       <desc xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -3197,42 +3214,43 @@ entre les Romains.</label>
       </content>
       <attList/>
       <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <listEvent>
-               <head>Battles of the American Civil War: Kentucky</head>
-               <event xml:id="event01" when="1861-09-19">
-                  <label>Barbourville</label>
-                  <desc>The Battle of Barbourville was one of the early engagements of
-the American Civil War. It occurred September 19, 1861, in Knox
-County, Kentucky during the campaign known as the Kentucky Confederate
-Offensive. The battle is considered the first Confederate victory in
-the commonwealth, and threw a scare into Federal commanders, who
-rushed troops to central Kentucky in an effort to repel the invasion,
-which was finally thwarted at the <ref target="#event02">Battle of
-Camp Wildcat</ref> in October.</desc>
-               </event>
-               <event xml:id="event02" when="1861-10-21">
-                  <label>Camp Wild Cat</label>
-                  <desc>
-The Battle of Camp Wildcat (also known as Wildcat Mountain and Camp
-Wild Cat) was one of the early engagements of the American Civil
-War. It occurred October 21, 1861, in northern Laurel County, Kentucky
-during the campaign known as the Kentucky Confederate Offensive. The
-battle is considered one of the very first Union victories, and marked
-the first engagement of troops in the commonwealth of Kentucky.</desc>
-               </event>
-               <event xml:id="event03" from="1864-06-11" to="1864-06-12">
-                  <label>Cynthiana</label>
-                  <desc>The Battle of Cynthiana (or Kellar’s Bridge) was an engagement
-during the American Civil War that was fought on June 11 and 12, 1864,
-in Harrison County, Kentucky, near the town of Cynthiana. A part of
-Confederate Brigadier General John Hunt Morgan's 1864 Raid into
-Kentucky, the battle resulted in a victory by Union forces over the
-raiders and saved the town from capture.</desc>
-               </event>
-            </listEvent>
-         </egXML>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	  <listEvent>
+                     <event xml:id="GOV.11" from="2013-03-20" to="2014-09-18">
+                        <label xml:lang="sl">11. vlada Republike Slovenije (20. marec 2013 - 18. september 2014)</label>
+                        <label xml:lang="en">11th Government of the Republic of Slovenia (20 March 2013 - 18 September 2014)</label>
+                     </event>
+                     <event xml:id="GOV.12" from="2014-09-18" to="2018-09-13">
+                        <label xml:lang="sl">12. vlada Republike Slovenije (18. september 2014 - 13. september 2018)</label>
+                        <label xml:lang="en">12th Government of the Republic of Slovenia (18 September 2014 - 13 September 2018)</label>
+                     </event>
+		     <!--...-->
+		     <event xml:id="GOV.14" from="2018-03-13">
+                        <label xml:lang="sl">14. vlada Republike Slovenije (13. marec 2020 - danes)</label>
+                        <label xml:lang="en">14th Government of the Republic of Slovenia (March 13, 2020 - today)</label>
+                     </event>
+	  </listEvent>
+	</egXML>
       </exemplum>
+       <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	   <org ana="#parla.national #parla.upper" role="parliament" xml:id="LEG">
+	      <orgName full="yes" xml:lang="it">Senato della Repubblica Italiana</orgName>
+                  <orgName full="yes" xml:lang="it">Senate of the Republic of Italy</orgName>
+	     <!--...-->
+	     <listEvent>
+                     <event from="2013-03-15" to="2018-03-22" xml:id="LEG.17">
+                        <label xml:lang="it">XVII Legislatura</label>
+                        <label xml:lang="en">XVII Legislative Term</label>
+                     </event>
+                     <event from="2018-03-23" xml:id="LEG.18">
+                        <label xml:lang="it">XVIII Legislatura</label>
+                        <label xml:lang="en">XVIII Legislative Term</label>
+                     </event>
+                  </listEvent>
+               </org>
+	 </egXML>
+       </exemplum>
    </elementSpec>
    <elementSpec ident="listRelation" module="namesdates" mode="change">
       <desc xmlns:xi="http://www.w3.org/2001/XInclude"
