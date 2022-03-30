@@ -34,13 +34,20 @@ $Convert = "$Bin/parlamint2conllu.xsl";
 $Meta = "$Bin/parlamint2meta.xsl";
 $Valid = "$Bin/tools/validate.py";
 
-$country2lang{'BG'} = 'bg';
+$country2lang{'AT'} = 'de';
 $country2lang{'BE'} = 'fr, nl';
+$country2lang{'BG'} = 'bg';
 $country2lang{'CZ'} = 'cs';
 $country2lang{'DK'} = 'da';
+$country2lang{'EE'} = 'et';
 $country2lang{'ES'} = 'es';
+$country2lang{'ES-CT'} = 'ca';
+$country2lang{'ES-GA'} = 'gl';
+$country2lang{'ES-PV'} = 'eu';
+$country2lang{'FI'} = 'fi';
 $country2lang{'FR'} = 'fr';
 $country2lang{'GB'} = 'en';
+$country2lang{'GR'} = 'el';
 $country2lang{'HR'} = 'hr';
 $country2lang{'HU'} = 'hu';
 $country2lang{'IS'} = 'is';
@@ -48,10 +55,15 @@ $country2lang{'IT'} = 'it';
 $country2lang{'LT'} = 'lt';
 $country2lang{'LV'} = 'lv';
 $country2lang{'NL'} = 'nl';
+$country2lang{'NO'} = 'no';
 $country2lang{'PL'} = 'pl';
+$country2lang{'PT'} = 'pt';
 $country2lang{'RO'} = 'ro';
+$country2lang{'RO'} = 'ro';
+$country2lang{'SE'} = 'sv';
 $country2lang{'SI'} = 'sl';
 $country2lang{'TR'} = 'tr';
+
 
 print STDERR "INFO: Converting directory $inDir\n";
 my $rootAnaFile = '';
