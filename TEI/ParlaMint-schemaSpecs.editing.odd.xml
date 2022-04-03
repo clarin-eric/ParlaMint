@@ -1528,8 +1528,27 @@ my <num type="ordinal" value="21">twenty-first</num> birthday</p>
          </attDef>
       </attList>
       <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">About a year back, a question of considerable interest was agitated in the <orgName key="PAS1" type="voluntary">
-               <placeName key="PEN">Pennsyla.</placeName> Abolition Society</orgName> [...]</egXML>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	   <org xml:id="government.GB" role="government">
+                  <orgName xml:lang="en" full="yes"> Government</orgName>
+               </org>
+	 </egXML>
+      </exemplum>
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	   <org xml:id="party.HDZ" role="politicalParty">
+                  <orgName full="yes" xml:lang="hr">Klub Hrvatske demokratske zajednice</orgName>
+                  <orgName full="init">HDZ</orgName>
+               </org>
+	 </egXML>
+      </exemplum>
+            <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+               <org xml:id="TBMM" role="parliament" ana="#parla.national">
+                  <orgName full="yes" xml:lang="en">National Assembly of the Republic of Turkey</orgName>
+                  <orgName full="yes" xml:lang="en">Türkiye Büyük Millet Meclisi</orgName>
+	       </org>
+	 </egXML>
       </exemplum>
    </elementSpec>
    <elementSpec ident="editionStmt" module="header" mode="change">
@@ -3429,14 +3448,40 @@ entre les Romains.</label>
       </content>
       <attList/>
       <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <listPerson type="respondents">
-               <personGrp xml:id="PXXX"/>
-               <person xml:id="P1234" sex="2" age="mid"/>
-               <person xml:id="P4332" sex="1" age="mid"/>
-               <listRelation>
-                  <relation type="personal" name="spouse" mutual="#P1234 #P4332"/>
-               </listRelation>
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+            <listPerson>
+               <head>List of speakers</head>
+               <person xml:id="SayeedaWarsi">
+                  <persName>
+                     <forename>Sayeeda</forename>
+                     <surname>Warsi</surname>
+                  </persName>
+                  <sex value="F">Female</sex>
+                  <affiliation from="2007-10-11" ref="#parla.lower" role="MP"/>
+                  <affiliation from="2007-10-11" ref="#party.CON" role="member"/>
+                  <affiliation from="2010-05-12" ref="#PoGB" role="minister" to="2012-09-06"/>
+                  <affiliation from="2012-09-06" ref="#PoGB" role="minister" to="2014-08-05"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/3839/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/Paa3j0vS.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+	        <person xml:id="DavidHamilton">
+                  <persName>
+                     <forename>David</forename>
+                     <surname>Hamilton</surname>
+                  </persName>
+                  <sex value="M">Male</sex>
+                  <affiliation from="2001-06-07" ref="#parla.lower" role="MP" to="2005-05-05"/>
+                  <affiliation from="2001-06-07"
+                               ref="#party.LAB"
+                               role="member"
+                               to="2015-03-30"/>
+                  <affiliation from="2005-05-05" ref="#parla.lower" role="MP" to="2010-05-06"/>
+                  <affiliation from="2010-05-06" ref="#parla.lower" role="MP" to="2015-03-30"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/1432/contact</idno>
+		</person>
+		<!--...-->
             </listPerson>
          </egXML>
       </exemplum>
