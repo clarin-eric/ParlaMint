@@ -1349,11 +1349,6 @@
     </content>
     <attList>
     </attList>
-    <remarks xml:lang="en">
-      <p>Special persons (like '<val>anonymous</val>', '<val>group</val>' etc.)
-      have their name in <gi>term</gi>.
-      </p>
-    </remarks>
     <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
         <persName>
@@ -1365,6 +1360,11 @@
         </persName>
       </egXML>
     </exemplum>
+    <remarks xml:lang="en">
+      <p>Special persons (like '<val>anonymous</val>', '<val>group</val>' etc.)
+      have their name in <gi>term</gi>.
+      </p>
+    </remarks>
   </elementSpec>
   <elementSpec ident="forename" module="namesdates" mode="change">
     <desc xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -3638,19 +3638,6 @@
         </valList>
       </attDef>
     </attList>
-    <remarks xml:lang="en">
-      <p>Affiliation to organization can be done in three ways (sorted from most concrete - the best solution):
-      <list>
-        <item>
-          <att>ref</att>
-        </item>
-        <item>
-          <att>key</att>
-        </item>
-        <item>text value</item>
-      </list>
-      </p>
-    </remarks>
     <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
         <affiliation>Junior project officer for the US <name type="org">National Endowment for
@@ -3678,6 +3665,19 @@
         <affiliation from="1902-01-01" to="1906-01-01">Was an assistant professor at Mount Holyoke College.</affiliation>
       </egXML>
     </exemplum>
+    <remarks xml:lang="en">
+      <p>Affiliation to organization can be done in three ways (sorted from most concrete - the best solution):
+      <list>
+        <item>
+          <att>ref</att>
+        </item>
+        <item>
+          <att>key</att>
+        </item>
+        <item>text value</item>
+      </list>
+      </p>
+    </remarks>
   </elementSpec>
   <elementSpec ident="occupation" module="namesdates" mode="change">
     <desc xmlns:xi="http://www.w3.org/2001/XInclude"
