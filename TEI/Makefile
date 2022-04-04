@@ -1,8 +1,3 @@
-fix-pm:
-	$s -xsl:add-pm.xsl src=ParlaMint-schemaSpecs.orig.odd.xml ParlaMint-schemaSpecs.editing.bad.odd.xml \
-	> ParlaMint-schemaSpecs.editing.odd.xml
-	diff -w ParlaMint-schemaSpecs.editing.bad.odd.xml ParlaMint-schemaSpecs.editing.odd.xml
-
 # Validate and compile ODD to RelaxNG, validate samples, make HTML
 all:	prepare val-schema xml-schemas val-samples html
 
@@ -63,6 +58,12 @@ val-master:
 prepare: generate-schemaSpecs
 	rm -f tmp/*
 	$s -xi -xsl:copy-odd.xsl ParlaMint.odd.xml > tmp/ParlaMint.xml
+
+# This was done, and we don't want to re-run this script.
+xxx-fix-pm:
+	$s -xsl:add-pm.xsl src=ParlaMint-schemaSpecs.orig.odd.xml ParlaMint-schemaSpecs.editing.bad.odd.xml \
+	> ParlaMint-schemaSpecs.editing.odd.xml
+	diff -w ParlaMint-schemaSpecs.editing.bad.odd.xml ParlaMint-schemaSpecs.editing.odd.xml
 
 # This was done, and we don't want to re-run this script.
 xxx-prepare-p5subset:
