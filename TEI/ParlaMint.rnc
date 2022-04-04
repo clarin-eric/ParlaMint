@@ -12,7 +12,7 @@ namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 namespace xsl = "http://www.w3.org/1999/XSL/Transform"
 
-# Schema generated from ODD source 2022-04-04T10:58:25Z. 2022-03-04.
+# Schema generated from ODD source 2022-04-04T13:19:04Z. 2022-03-04.
 # TEI Edition: Version 4.4.0a. Last updated on
 #         15th February 2022, revision 118a5a6e0
 # TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
@@ -25,6 +25,7 @@ tei_macro.phraseSeq =
    | tei_model.attributable
    | tei_model.phrase
    | tei_model.global)*
+tei_att.ascribed.attributes = tei_att.ascribed.attribute.who
 tei_att.ascribed.attribute.who =
   
   ## indicates the person, or group of people, to whom the element content is ascribed.
@@ -304,6 +305,14 @@ tei_att.global.rendition.attribute.rendition =
   attribute rendition {
     list { xsd:anyURI+ }
   }?
+tei_att.media.attribute.scale =
+  
+  ## Where the media are displayed, indicates a scale factor to be applied when generating the desired display size
+  attribute scale {
+    xsd:double
+    | xsd:token { pattern = "(\-?[\d]+/\-?[\d]+)" }
+    | xsd:decimal
+  }?
 sch:pattern [
   id =
     "parlamint-att.spanning-spanTo-spanTo-points-to-following-constraint-rule-5"
@@ -544,7 +553,9 @@ tei_p =
          ]
          "\x{a}" ~
          "         "
-       ]
+       ],
+    tei_att.global.attribute.xmllang,
+    empty
   }
 tei_desc =
   
@@ -573,7 +584,9 @@ tei_desc =
          ]
          "\x{a}" ~
          "         "
-       ]
+       ],
+    tei_att.global.attribute.xmllang,
+    empty
   }
 tei_term =
   
@@ -601,6 +614,12 @@ tei_name =
   ## (name, proper noun) contains a proper noun or noun phrase. [3.6.1. Referring Strings]
   element name {
     (tei_w | tei_pc | tei_name | tei_date | tei_num | text)+,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.xmllang,
+    tei_att.global.analytic.attribute.ana,
+    tei_att.personal.attribute.full,
+    tei_att.canonical.attribute.key,
+    tei_att.typed.attribute.subtype,
     
     ##
     attribute type {
@@ -637,18 +656,50 @@ tei_name =
 tei_email =
   
   ## (electronic mail address) contains an email address identifying a location to which email messages can be delivered. [3.6.2. Addresses]
-  element email { (tei_w | tei_pc | text)+ }
+  element email {
+    (tei_w | tei_pc | text)+,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.xmllang,
+    tei_att.global.analytic.attribute.ana,
+    empty
+  }
 tei_num =
   
   ## (number) contains a number, written in any form. [3.6.3. Numbers and
   ## Measures]
-  element num { (tei_w | tei_pc | text)+ }
+  element num {
+    (tei_w | tei_pc | text)+,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.xmllang,
+    tei_att.global.analytic.attribute.ana,
+    tei_att.typed.attribute.subtype,
+    
+    ## indicates the type of numeric value.
+    ## Suggested values include: 1] cardinal; 2] ordinal; 3] fraction; 4] percentage
+    attribute type {
+      
+      ## absolute number, e.g. 21, 21.5
+      "cardinal"
+      | 
+        ## ordinal number, e.g. 21st
+        "ordinal"
+      | 
+        ## fraction, e.g. one half or three-quarters
+        "fraction"
+      | 
+        ## a percentage
+        "percentage"
+      | xsd:token { pattern = "[^\p{C}\p{Z}]+" }
+    }?,
+    empty
+  }
 tei_measure =
   
   ## (measure) contains a word or phrase referring to some quantity of an object or commodity, usually comprising a number, a unit, and a commodity name. [3.6.3. Numbers and
   ## Measures]
   element measure {
     text,
+    tei_att.global.attribute.xmllang,
     
     ##
     attribute unit {
@@ -685,11 +736,31 @@ tei_unit =
 tei_date =
   
   ## (date) contains a date in any format. [3.6.4. Dates and Times 2.2.4. Publication, Distribution, Licensing, etc. 2.6. The Revision Description 3.12.2.4. Imprint, Size of a Document, and Reprint Information 15.2.3. The Setting Description 13.4. Dates]
-  element date { (tei_w | tei_pc | tei_date | text)+ }
+  element date {
+    (tei_w | tei_pc | tei_date | text)+,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.xmllang,
+    tei_att.global.analytic.attribute.ana,
+    tei_att.datable.w3c.attribute.when,
+    tei_att.datable.w3c.attribute.from,
+    tei_att.datable.w3c.attribute.to,
+    tei_att.typed.attributes,
+    empty
+  }
 tei_time =
   
   ## (time) contains a phrase defining a time of day in any format. [3.6.4. Dates and Times]
-  element time { (tei_w | tei_pc | text)+ }
+  element time {
+    (tei_w | tei_pc | text)+,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.xmllang,
+    tei_att.global.analytic.attribute.ana,
+    tei_att.datable.w3c.attribute.when,
+    tei_att.datable.w3c.attribute.from,
+    tei_att.datable.w3c.attribute.to,
+    tei_att.typed.attributes,
+    empty
+  }
 tei_ref =
   
   ## (reference) defines a reference to another location, possibly modified by additional text or comment. [3.7. Simple Links and Cross-References 16.1. Links]
@@ -727,16 +798,25 @@ tei_ref =
 tei_label =
   
   ## (label) contains any label or heading used to identify part of a text, typically but not exclusively in a list or glossary. [3.8. Lists]
-  element label { text }
+  element label { text, tei_att.global.attribute.xmllang, empty }
 tei_head =
   
   ## (heading) contains any type of heading, for example the title of a section, or the heading of a list, glossary, manuscript description, etc. [4.2.1. Headings and Trailers]
-  element head { text }
+  element head {
+    text,
+    tei_att.global.attribute.xmllang,
+    tei_att.typed.attribute.type,
+    empty
+  }
 tei_note =
   
   ## (note) contains a note or annotation. [3.9.1. Notes and Simple Annotation 2.2.6. The Notes Statement 3.12.2.8. Notes and Statement of Language 9.3.5.4. Notes within Entries]
   element note {
     (text | tei_time)*,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
+    tei_att.typed.attribute.subtype,
     
     ## 
     ## Sample values include: 1] narrative; 2] summary; 3] speaker; 4] vote; 5] location; 6] date; 7] president; 8] comment; 9] time; 10] quorum; 11] debate
@@ -746,16 +826,41 @@ tei_note =
 tei_media =
   
   ## indicates the location of any form of external media such as an audio or video clip etc. [3.10. Graphics and Other Non-textual Components]
-  element media { empty }
+  element media {
+    empty,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.source.attribute.source,
+    tei_att.resourced.attributes,
+    
+    ## (MIME media type) specifies the applicable multimedia internet mail extension (MIME) media type
+    attribute mimeType {
+      list {
+        xsd:token { pattern = "[^\p{C}\p{Z}]+" }+
+      }
+    },
+    empty
+  }
 tei_graphic =
   
   ## (graphic) indicates the location of a graphic or illustration, either forming part of a text, or providing an image of it. [3.10. Graphics and Other Non-textual Components 11.1. Digital Facsimiles]
-  element graphic { empty }
+  element graphic {
+    empty,
+    tei_att.media.attribute.scale,
+    tei_att.resourced.attributes,
+    empty
+  }
 tei_pb =
   
   ## (page beginning) marks the beginning of a new page in a paginated document.marks the beginning of a new page in a paginated document. [3.11.3. Milestone
   ## Elements]
-  element pb { empty }
+  element pb {
+    empty,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.n,
+    tei_att.global.linking.attribute.corresp,
+    tei_att.global.source.attribute.source,
+    empty
+  }
 tei_respStmt =
   
   ## (statement of responsibility) supplies a statement of responsibility for the intellectual content of a text, edition, recording, or series, where the specialized elements for authors, editors, etc. do not suffice or do not apply. May also be used to encode information about individuals or organizations which have played a role in the production or distribution of a bibliographic work. [3.12.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.2. The Edition Statement 2.2.5. The Series Statement]
@@ -763,12 +868,13 @@ tei_respStmt =
 tei_resp =
   
   ## (responsibility) contains a phrase describing the nature of a person's intellectual responsibility, or an organization's role in the production or distribution of a work. [3.12.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.2. The Edition Statement 2.2.5. The Series Statement]
-  element resp { text }
+  element resp { text, tei_att.global.attribute.xmllang, empty }
 tei_title =
   
   ## (title) contains a title for any kind of work. [3.12.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.5. The Series Statement]
   element title {
     text,
+    tei_att.global.attribute.xmllang,
     
     ##
     attribute type {
@@ -784,11 +890,22 @@ tei_title =
 tei_meeting =
   
   ## contains the formalized descriptive title for a meeting or conference, for use in a bibliographic description for an item derived from such a meeting, or as a heading or preamble to publications emanating from it. [3.12.2.2. Titles, Authors, and Editors]
-  element meeting { text }
+  element meeting {
+    text,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
+    tei_att.global.linking.attribute.corresp,
+    tei_att.global.analytic.attribute.ana,
+    empty
+  }
 tei_publisher =
   
   ## (publisher) provides the name of the organization responsible for the publication or distribution of a bibliographic item. [3.12.2.4. Imprint, Size of a Document, and Reprint Information 2.2.4. Publication, Distribution, Licensing, etc.]
-  element publisher { (tei_orgName+, tei_ref?) | text }
+  element publisher {
+    ((tei_orgName+, tei_ref?) | text),
+    tei_att.global.attribute.xmllang,
+    empty
+  }
 tei_pubPlace =
   
   ## (publication place) contains the name of the place where a bibliographic item was published. [3.12.2.4. Imprint, Size of a Document, and Reprint Information]
@@ -856,7 +973,7 @@ tei_editionStmt =
 tei_edition =
   
   ## (edition) describes the particularities of one edition of a text. [2.2.2. The Edition Statement]
-  element edition { text }
+  element edition { text, tei_att.global.attribute.xmllang, empty }
 tei_extent =
   
   ## (extent) describes the approximate size of a text stored on some carrier medium or of some other object, digital or non-digital, specified in any convenient units. [2.2.3. Type and Extent of File 2.2. The File Description 3.12.2.4. Imprint, Size of a Document, and Reprint Information 10.7.1. Object Description]
@@ -872,6 +989,7 @@ tei_idno =
   ## (identifier) supplies any form of identifier used to identify some object, such as a bibliographic item, a person, a title, an organization, etc. in a standardized way. [13.3.1. Basic Principles 2.2.4. Publication, Distribution, Licensing, etc. 2.2.5. The Series Statement 3.12.2.4. Imprint, Size of a Document, and Reprint Information]
   element idno {
     text,
+    tei_att.global.attribute.xmllang,
     
     ## categorizes the identifier, for example as an ISBN, Social Security number, etc.
     ## Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7] OCLC
@@ -1134,7 +1252,11 @@ tei_catDesc =
       ". [2.3.7. The Classification Declaration]"
     ]
   ]
-  element catDesc { tei_term, (text | tei_ref)+ }
+  element catDesc {
+    (tei_term, (text | tei_ref)+),
+    tei_att.global.attribute.xmllang,
+    empty
+  }
 tei_appInfo =
   
   ## (application information) records information about an application which has edited the TEI file. [2.3.11. The Application Information Element]
@@ -1170,7 +1292,29 @@ tei_langUsage =
 tei_language =
   
   ## (language) characterizes a single language or sublanguage used within a text. [2.4.2. Language Usage]
-  element language { text }
+  element language {
+    text,
+    tei_att.global.attribute.xmllang,
+    [
+      a:documentation [
+        "(identifier) Supplies a language code constructed as defined in "
+        ns1:a [ href = "https://tools.ietf.org/html/bcp47" "BCP 47" ]
+        " which is used to identify the language documented by this element, and which is referenced by the global "
+        ns1:code [ "@xml:lang" ]
+        " attribute."
+      ]
+    ]
+    attribute ident {
+      xsd:language
+      | (
+         ##
+         "")
+    },
+    
+    ## specifies the approximate percentage (by volume) of the text which uses this language.
+    attribute usage { xsd:nonNegativeInteger }?,
+    empty
+  }
 tei_textClass =
   
   ## (text classification) groups information which describes the nature or topic of a text in terms of a standard classification scheme, thesaurus, etc. [2.4.3. The Text Classification]
@@ -1198,11 +1342,15 @@ tei_catRef =
 tei_revisionDesc =
   
   ## (revision description) summarizes the revision history for a file. [2.6. The Revision Description 2.1.1. The TEI Header and Its Components]
-  element revisionDesc { tei_change+ }
+  element revisionDesc {
+    tei_change+, tei_att.global.attribute.xmllang, empty
+  }
 tei_change =
   
   ## (change) documents a change or set of changes made during the production of a source document, or during the revision of an electronic file. [2.6. The Revision Description 2.4.1. Creation 11.7. Identifying Changes and Revisions]
-  element change { tei_name, text }
+  element change {
+    tei_name, text, tei_att.datable.w3c.attribute.when, empty
+  }
 tei_TEI =
   [
     a:documentation [
@@ -1245,7 +1393,15 @@ tei_TEI =
 tei_text =
   
   ## (text) contains a single text of any kind, whether unitary or composite, for example a poem or drama, a collection of essays, a novel, a dictionary, or a corpus sample. [4. Default Text Structure 15.1. Varieties of Composite Text]
-  element text { tei_body }
+  element text {
+    tei_body,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
+    tei_att.global.analytic.attribute.ana,
+    tei_att.global.source.attribute.source,
+    empty
+  }
 tei_body =
   
   ## (text body) contains the whole body of a single unitary text, excluding any front or back matter. [4. Default Text Structure]
@@ -1306,6 +1462,10 @@ tei_div =
          "\x{a}" ~
          "         "
        ],
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
+    tei_att.typed.attribute.subtype,
     
     ##
     attribute type {
@@ -1335,7 +1495,21 @@ tei_recordingStmt =
 tei_recording =
   
   ## (recording event) provides details of an audio or video recording event used as the source of a spoken text, either directly or from a public broadcast. [8.2. Documenting the Source of Transcribed Speech 15.3.2. Declarable Elements]
-  element recording { tei_media+ }
+  element recording {
+    tei_media+,
+    
+    ## the kind of recording.
+    [ a:defaultValue = "audio" ]
+    attribute type {
+      
+      ## audio recording
+      "audio"
+      | 
+        ## audio and video recording
+        "video"
+    }?,
+    empty
+  }
 tei_u =
   
   ## (utterance) contains a stretch of speech usually preceded and followed by silence or by a change of speaker. [8.3.1. Utterances]
@@ -1346,13 +1520,27 @@ tei_u =
      | tei_incident
      | tei_gap
      | tei_pb
-     | tei_seg)+
+     | tei_seg)+,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
+    tei_att.global.linking.attribute.next,
+    tei_att.global.linking.attribute.prev,
+    tei_att.global.analytic.attribute.ana,
+    tei_att.global.source.attribute.source,
+    tei_att.ascribed.attribute.who,
+    empty
   }
 tei_vocal =
   
   ## (vocal) marks any vocalized but not necessarily lexical phenomenon, for example voiced pauses, non-lexical backchannels, etc. [8.3.3. Vocal, Kinesic, Incident]
   element vocal {
     tei_desc,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
+    tei_att.ascribed.attribute.who,
+    tei_att.typed.attribute.subtype,
     
     ##
     attribute type {
@@ -1397,6 +1585,11 @@ tei_kinesic =
   ## (kinesic) marks any communicative phenomenon, not necessarily vocalized, for example a gesture, frown, etc. [8.3.3. Vocal, Kinesic, Incident]
   element kinesic {
     tei_desc,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
+    tei_att.typed.attribute.subtype,
+    tei_att.ascribed.attribute.who,
     
     ##
     attribute type {
@@ -1438,6 +1631,11 @@ tei_incident =
   ## (incident) marks any phenomenon or occurrence, not necessarily vocalized or communicative, for example incidental noises or other events affecting communication. [8.3.3. Vocal, Kinesic, Incident]
   element incident {
     tei_desc,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
+    tei_att.typed.attribute.subtype,
+    tei_att.ascribed.attributes,
     
     ##
     attribute type {
@@ -1617,6 +1815,8 @@ tei_orgName =
   ## (organization name) contains an organizational name. [13.2.2. Organizational Names]
   element orgName {
     text,
+    tei_att.global.attribute.xmllang,
+    tei_att.canonical.attribute.ref,
     
     ## indicates the starting point of the period in standard form, e.g. yyyy-mm-dd.
     attribute from {
@@ -1657,13 +1857,16 @@ tei_persName =
   
   ## (personal name) contains a proper noun or proper-noun phrase referring to a person, possibly including one or more of the person's forenames, surnames, honorifics, added names, etc. [13.2.1. Personal Names]
   element persName {
-    (tei_forename+
-     | tei_addName*
-     | tei_nameLink?
-     | tei_roleName*
-     | tei_surname+)+
-    | (tei_term)+
-    | (text)
+    ((tei_forename+
+      | tei_addName*
+      | tei_nameLink?
+      | tei_roleName*
+      | tei_surname+)+
+     | (tei_term)+
+     | (text)),
+    tei_att.global.attribute.xmllang,
+    tei_att.canonical.attribute.ref,
+    empty
   }
 tei_surname =
   
@@ -1688,12 +1891,20 @@ tei_roleName =
 tei_placeName =
   
   ## (place name) contains an absolute or relative place name. [13.2.3. Place Names]
-  element placeName { tei_name? | text }
+  element placeName {
+    (tei_name? | text), tei_att.canonical.attribute.ref, empty
+  }
 tei_affiliation =
   
   ## (affiliation) contains an informal description of a person's present or past affiliation with some organization, for example an employer or sponsor. [15.2.2. The Participant Description]
   element affiliation {
     text,
+    tei_att.global.analytic.attribute.ana,
+    tei_att.datable.w3c.attribute.when,
+    tei_att.datable.w3c.attribute.from,
+    tei_att.datable.w3c.attribute.to,
+    tei_att.canonical.attribute.key,
+    tei_att.canonical.attribute.ref,
     
     ##
     attribute role {
@@ -1867,11 +2078,26 @@ tei_death =
 tei_education =
   
   ## (education) contains a description of the educational experience of a person. [15.2.2. The Participant Description]
-  element education { text }
+  element education {
+    text,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
+    tei_att.datable.w3c.attribute.when,
+    tei_att.datable.w3c.attribute.from,
+    tei_att.datable.w3c.attribute.to,
+    empty
+  }
 tei_event =
   
   ## (event) contains data relating to any kind of significant event associated with a person, place, or organization. [13.3.1. Basic Principles]
-  element event { tei_label+ }
+  element event {
+    tei_label+,
+    tei_att.global.attribute.xmlid,
+    tei_att.datable.w3c.attribute.when,
+    tei_att.datable.w3c.attribute.from,
+    tei_att.datable.w3c.attribute.to,
+    empty
+  }
 tei_listOrg =
   
   ## (list of organizations) contains a list of elements, each of which provides information about an identifiable organization. [13.2.2. Organizational Names]
@@ -1891,7 +2117,14 @@ tei_listRelation =
 tei_occupation =
   
   ## (occupation) contains an informal description of a person's trade, profession or occupation. [15.2.2. The Participant Description]
-  element occupation { text }
+  element occupation {
+    text,
+    tei_att.global.attribute.xmllang,
+    tei_att.datable.w3c.attribute.when,
+    tei_att.datable.w3c.attribute.from,
+    tei_att.datable.w3c.attribute.to,
+    empty
+  }
 tei_org =
   
   ## (organization) provides information about an identifiable organization such as a business, a tribe, or any other grouping of people. [13.3.3. Organizational Data]
@@ -1902,6 +2135,7 @@ tei_org =
      tei_idno*,
      tei_desc?,
      tei_listEvent?),
+    tei_att.global.analytic.attribute.ana,
     
     ## (identifier) provides a unique identifier for the element bearing the attribute.
     attribute xml:id { xsd:ID },
@@ -1993,15 +2227,19 @@ tei_person =
   
   ## (person) provides information about an identifiable individual, for example a participant in a language interaction, or a person referred to in a historical source. [13.3.2. The Person Element 15.2.2. The Participant Description]
   element person {
-    tei_persName+,
-    (tei_sex?
-     | tei_birth?
-     | tei_death?
-     | tei_affiliation*
-     | tei_occupation*
-     | tei_education*
-     | tei_idno*
-     | tei_figure*)*
+    (tei_persName+,
+     (tei_sex?
+      | tei_birth?
+      | tei_death?
+      | tei_affiliation*
+      | tei_occupation*
+      | tei_education*
+      | tei_idno*
+      | tei_figure*)*),
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
+    empty
   }
 tei_relation =
   
@@ -2062,6 +2300,10 @@ tei_relation =
          "\x{a}" ~
          "         "
        ],
+    tei_att.global.analytic.attribute.ana,
+    tei_att.datable.w3c.attribute.when,
+    tei_att.datable.w3c.attribute.from,
+    tei_att.datable.w3c.attribute.to,
     (
      ## identifies the active participants in a non-mutual relationship, or all the participants in a mutual one.
      attribute active {
@@ -2171,7 +2413,11 @@ tei_seg =
      | tei_incident
      | tei_gap
      | tei_pb
-     | (text | tei_s)*)+
+     | (text | tei_s)*)+,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
+    empty
   }
 tei_figure =
   
@@ -2211,17 +2457,33 @@ tei_s =
          ]
          "\x{a}" ~
          "         "
-       ]
+       ],
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
+    empty
   }
 tei_w =
   
   ## (word) represents a grammatical (not necessarily orthographic) word. [17.1. Linguistic Segment Categories 17.4.2. Lightweight Linguistic Annotation]
-  element w { (text | tei_w)+ }
+  element w {
+    (text | tei_w)+,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.xmllang,
+    tei_att.global.analytic.attribute.ana,
+    tei_att.linguistic.attributes,
+    empty
+  }
 tei_pc =
   
   ## (punctuation character) contains a character or string of characters regarded as constituting a single punctuation mark. [17.1.2. Below the Word Level 17.4.2. Lightweight Linguistic Annotation]
   element pc {
     text,
+    tei_att.global.attribute.xmllang,
+    tei_att.global.analytic.attribute.ana,
+    tei_att.linguistic.attribute.pos,
+    tei_att.linguistic.attribute.join,
+    tei_att.lexicographic.normalized.attribute.norm,
     
     ##
     attribute xml:id { xsd:ID },
@@ -2343,10 +2605,64 @@ tei_att.internetMedia.attribute.mimeType =
       xsd:token { pattern = "[^\p{C}\p{Z}]+" }+
     }
   }?
+tei_att.lexicographic.normalized.attributes =
+  tei_att.lexicographic.normalized.attribute.norm
 tei_att.lexicographic.normalized.attribute.norm =
   
   ## (normalized) provides the normalized/standardized form of information present in the source text in a non-normalized form
   attribute norm { xsd:string }?
+tei_att.linguistic.attributes =
+  tei_att.lexicographic.normalized.attributes,
+  tei_att.linguistic.attribute.lemma,
+  tei_att.linguistic.attribute.pos,
+  tei_att.linguistic.attribute.msd,
+  tei_att.linguistic.attribute.join
+tei_att.linguistic.attribute.lemma =
+  
+  ## provides a lemma (base form) for the word, typically uninflected and serving both as an identifier (e.g. in dictionary contexts, as a headword), and as a basis for potential inflections.
+  attribute lemma { xsd:string }?
+tei_att.linguistic.attribute.pos =
+  
+  ## (part of speech) indicates the part of speech assigned to a token (i.e. information on whether it is a noun, adjective, or verb), usually according to some official reference vocabulary (e.g. for German: STTS, for English: CLAWS, for Polish: NKJP, etc.).
+  attribute pos { xsd:string }?
+tei_att.linguistic.attribute.msd =
+  [
+    a:documentation [
+      "(morphosyntactic description) supplies morphosyntactic information for a token, usually according to some official reference vocabulary (e.g. for German: "
+      ns1:a [
+        href =
+          "http://www.ims.uni-stuttgart.de/forschung/ressourcen/lexika/TagSets/stts-1999.pdf"
+        "STTS-large tagset"
+      ]
+      "; for a feature description system designed as (pragmatically) universal, see "
+      ns1:a [
+        href = "http://universaldependencies.org/u/feat/index.html"
+        "Universal Features"
+      ]
+      ")."
+    ]
+  ]
+  attribute msd { xsd:string }?
+tei_att.linguistic.attribute.join =
+  
+  ## when present, it provides information on whether the token in question is adjacent to another, and if so, on which side. The definition of this attribute is adapted from ISO MAF (Morpho-syntactic Annotation Framework), ISO 24611:2012.
+  attribute join {
+    
+    ## (the token is not adjacent to another) 
+    "no"
+    | 
+      ## (there is no whitespace on the left side of the token) 
+      "left"
+    | 
+      ## (there is no whitespace on the right side of the token) 
+      "right"
+    | 
+      ## (there is no whitespace on either side of the token) 
+      "both"
+    | 
+      ## (the token overlaps with another; other devices (specifying the extent and the area of overlap) are needed to more precisely locate this token in the character stream) 
+      "overlap"
+  }?
 tei_att.measurement.attributes =
   tei_att.measurement.attribute.unit,
   tei_att.measurement.attribute.quantity
@@ -2450,12 +2766,32 @@ tei_att.naming.attribute.role =
       xsd:token { pattern = "[^\p{C}\p{Z}]+" }+
     }
   }?
+tei_att.personal.attribute.full =
+  
+  ## indicates whether the name component is given in full, as an abbreviation or simply as an initial.
+  [ a:defaultValue = "yes" ]
+  attribute full {
+    
+    ## (yes) the name component is spelled out in full.
+    "yes"
+    | 
+      ## (abbreviated) the name component is given in an abbreviated form.
+      "abb"
+    | 
+      ## (initial letter) the name component is indicated only by one initial.
+      "init"
+  }?
 tei_att.pointing.attribute.target =
   
   ## specifies the destination of the reference by supplying one or more URI References
   attribute target {
     list { xsd:anyURI+ }
   }?
+tei_att.resourced.attributes = tei_att.resourced.attribute.url
+tei_att.resourced.attribute.url =
+  
+  ## (uniform resource locator) specifies the URL from which the media concerned may be obtained.
+  attribute url { xsd:anyURI }
 tei_att.typed.attributes =
   tei_att.typed.attribute.type, tei_att.typed.attribute.subtype
 tei_att.typed.attribute.type =

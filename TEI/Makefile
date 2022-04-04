@@ -1,3 +1,8 @@
+fix-pm:
+	$s -xsl:add-pm.xsl src=ParlaMint-schemaSpecs.orig.odd.xml ParlaMint-schemaSpecs.editing.bad.odd.xml \
+	> ParlaMint-schemaSpecs.editing.odd.xml
+	diff -w ParlaMint-schemaSpecs.editing.bad.odd.xml ParlaMint-schemaSpecs.editing.odd.xml
+
 # Validate and compile ODD to RelaxNG, validate samples, make HTML
 all:	prepare val-schema xml-schemas val-samples html
 

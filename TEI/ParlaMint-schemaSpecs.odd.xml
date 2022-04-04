@@ -226,10 +226,7 @@
       <content>
          <elementRef key="body"/>
       </content>
-      <attList>
-         <attDef ident="xml:id" mode="delete"/>
-         <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
+      <attList><!--text/@ana--><!--text/@xml:id--><!--text/@xml:lang--><!--text/@n--><!--text/@source-->
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -243,12 +240,10 @@
          <attDef ident="prev" mode="delete"/>
          <attDef ident="exclude" mode="delete"/>
          <attDef ident="select" mode="delete"/>
-         <attDef ident="ana" mode="delete"/>
          <attDef ident="facs" mode="delete"/>
          <attDef ident="change" mode="delete"/>
          <attDef ident="cert" mode="delete"/>
          <attDef ident="resp" mode="delete"/>
-         <attDef ident="source" mode="delete"/>
          <attDef ident="decls" mode="delete"/>
          <attDef ident="type" mode="delete"/>
          <attDef ident="subtype" mode="delete"/>
@@ -344,9 +339,10 @@
                </valItem>
             </valList>
          </attDef>
-         <attDef ident="xml:id" mode="delete"/>
-         <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
+         <!--div/@xml:id-->
+         <!--div/@xml:lang-->
+         <!--div/@n-->
+         <!--div/@subtype-->
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -372,7 +368,6 @@
          <attDef ident="real" mode="delete"/>
          <attDef ident="rhyme" mode="delete"/>
          <attDef ident="part" mode="delete"/>
-         <attDef ident="subtype" mode="delete"/>
          <attDef ident="decls" mode="delete"/>
          <attDef ident="hand" mode="delete"/>
       </attList>
@@ -448,9 +443,10 @@
                </valItem>
             </valList>
          </attDef>
-         <attDef ident="xml:id" mode="delete"/>
-         <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
+         <!--note/@xml:id-->
+         <!--note/@xml:lang-->
+         <!--note/@n-->
+         <!--note/@subtype-->
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -474,7 +470,6 @@
          <attDef ident="targetLang" mode="delete"/>
          <attDef ident="target" mode="delete"/>
          <attDef ident="evaluate" mode="delete"/>
-         <attDef ident="subtype" mode="delete"/>
          <attDef ident="hand" mode="delete"/>
          <attDef ident="anchored" mode="delete"/>
          <attDef ident="targetEnd" mode="delete"/>
@@ -539,10 +534,12 @@
                <valItem ident="signal"/>
             </valList>
          </attDef>
+         <!--vocal/@xml:id-->
+         <!--vocal/@xml:lang-->
+         <!--vocal/@n-->
+         <!--vocal/@who-->
+         <!--vocal/@subtype-->
          <attDef ident="iterated" mode="delete"/>
-         <attDef ident="xml:id" mode="delete"/>
-         <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -567,8 +564,6 @@
          <attDef ident="dur" mode="delete"/>
          <attDef ident="dur-iso" mode="delete"/>
          <attDef ident="toWhom" mode="delete"/>
-         <attDef ident="who" mode="delete"/>
-         <attDef ident="subtype" mode="delete"/>
       </attList>
       <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
@@ -620,10 +615,12 @@
                <valItem ident="noise"/>
             </valList>
          </attDef>
+         <!--kinesic/@xml:id-->
+         <!--kinesic/@xml:lang-->
+         <!--kinesic/@n-->
+         <!--kinesic/@who-->
+         <!--kinesic/@subtype-->
          <attDef ident="iterated" mode="delete"/>
-         <attDef ident="xml:id" mode="delete"/>
-         <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -647,9 +644,7 @@
          <attDef ident="end" mode="delete"/>
          <attDef ident="dur" mode="delete"/>
          <attDef ident="dur-iso" mode="delete"/>
-         <attDef ident="subtype" mode="delete"/>
          <attDef ident="toWhom" mode="delete"/>
-         <attDef ident="who" mode="delete"/>
       </attList>
       <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
@@ -699,9 +694,11 @@
                <valItem ident="editorial"/>
             </valList>
          </attDef>
-         <attDef ident="xml:id" mode="delete"/>
-         <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
+         <!--incident/@xml:id-->
+         <!--incident/@xml:lang-->
+         <!--incident/@n-->
+         <!--incident/@who-->
+         <!--incident/@subtype-->
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -725,8 +722,6 @@
          <attDef ident="end" mode="delete"/>
          <attDef ident="dur" mode="delete"/>
          <attDef ident="dur-iso" mode="delete"/>
-         <attDef ident="subtype" mode="delete"/>
-         <attDef ident="who" mode="delete"/>
       </attList>
       <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
@@ -851,11 +846,10 @@
             </alternate>
          </sequence>
       </content>
-      <attList>
+      <attList><!--desc/@xml:lang-->
          <attDef ident="type" mode="delete"/>
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -1016,16 +1010,13 @@
    <elementSpec ident="pb" module="core" mode="change">
       <desc versionDate="2017-06-14" xml:lang="en">marks the beginning of a new page in a paginated document.</desc>
       <content/>
-      <attList>
-         <attDef ident="xml:id" mode="delete"/>
-         <attDef ident="n" mode="delete"/>
+      <attList><!--pb/@xml:id--><!--pb/@n--><!--pb/@source--><!--pb/@corresp--><!--pb/@xml:id--><!--pb/@n--><!--pb/@source--><!--pb/@corresp-->
          <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
          <attDef ident="style" mode="delete"/>
          <attDef ident="rendition" mode="delete"/>
-         <attDef ident="corresp" mode="delete"/>
          <attDef ident="synch" mode="delete"/>
          <attDef ident="sameAs" mode="delete"/>
          <attDef ident="copyOf" mode="delete"/>
@@ -1038,7 +1029,6 @@
          <attDef ident="change" mode="delete"/>
          <attDef ident="cert" mode="delete"/>
          <attDef ident="resp" mode="delete"/>
-         <attDef ident="source" mode="delete"/>
          <attDef ident="type" mode="delete"/>
          <attDef ident="subtype" mode="delete"/>
          <attDef ident="ed" mode="delete"/>
@@ -1088,11 +1078,8 @@
             <elementRef key="seg"/>
          </alternate>
       </content>
-      <attList>
+      <attList><!--u/@xml:id--><!--u/@xml:lang--><!--u/@n--><!--u/@prev--><!--u/@next--><!--u/@who--><!--u/@ana--><!--u/@source-->
          <attDef ident="trans" mode="delete"/>
-         <attDef ident="xml:id" mode="delete"/>
-         <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -1102,23 +1089,18 @@
          <attDef ident="synch" mode="delete"/>
          <attDef ident="sameAs" mode="delete"/>
          <attDef ident="copyOf" mode="delete"/>
-         <attDef ident="next" mode="delete"/>
-         <attDef ident="prev" mode="delete"/>
          <attDef ident="exclude" mode="delete"/>
          <attDef ident="select" mode="delete"/>
-         <attDef ident="ana" mode="delete"/>
          <attDef ident="facs" mode="delete"/>
          <attDef ident="change" mode="delete"/>
          <attDef ident="cert" mode="delete"/>
          <attDef ident="resp" mode="delete"/>
-         <attDef ident="source" mode="delete"/>
          <attDef ident="start" mode="delete"/>
          <attDef ident="end" mode="delete"/>
          <attDef ident="dur" mode="delete"/>
          <attDef ident="dur-iso" mode="delete"/>
          <attDef ident="decls" mode="delete"/>
          <attDef ident="toWhom" mode="delete"/>
-         <attDef ident="who" mode="delete"/>
          <attDef ident="notation" mode="delete"/>
       </attList>
       <exemplum xml:lang="en">
@@ -1150,10 +1132,7 @@
             </alternate>
          </alternate>
       </content>
-      <attList>
-         <attDef ident="xml:id" mode="delete"/>
-         <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
+      <attList><!--seg/@xml:id--><!--seg/@xml:lang--><!--seg/@n-->
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -1211,16 +1190,13 @@
       <desc versionDate="2017-06-14" xml:lang="en">marks the beginning of a new page in a paginated document.</desc>
       <content>
     </content>
-      <attList>
-         <attDef ident="xml:id" mode="delete"/>
-         <attDef ident="n" mode="delete"/>
+      <attList><!--pb/@xml:id--><!--pb/@n--><!--pb/@source--><!--pb/@corresp--><!--pb/@xml:id--><!--pb/@n--><!--pb/@source--><!--pb/@corresp-->
          <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
          <attDef ident="style" mode="delete"/>
          <attDef ident="rendition" mode="delete"/>
-         <attDef ident="corresp" mode="delete"/>
          <attDef ident="synch" mode="delete"/>
          <attDef ident="sameAs" mode="delete"/>
          <attDef ident="copyOf" mode="delete"/>
@@ -1233,7 +1209,6 @@
          <attDef ident="change" mode="delete"/>
          <attDef ident="cert" mode="delete"/>
          <attDef ident="resp" mode="delete"/>
-         <attDef ident="source" mode="delete"/>
          <attDef ident="type" mode="delete"/>
          <attDef ident="subtype" mode="delete"/>
          <attDef ident="ed" mode="delete"/>
@@ -1287,10 +1262,7 @@
          </alternate>
          <elementRef key="linkGrp"/>
       </content>
-      <attList>
-         <attDef ident="xml:id" mode="delete"/>
-         <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
+      <attList><!--s/@xml:id--><!--s/@xml:lang--><!--s/@n-->
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -1339,10 +1311,8 @@
             <elementRef key="w"/>
          </alternate>
       </content>
-      <attList>
-         <attDef ident="xml:id" mode="delete"/>
+      <attList><!--w/@xml:id--><!--w/@msd--><!--w/@lemma--><!--w/@xml:lang--><!--w/@norm--><!--w/@join--><!--w/@ana--><!--w/@pos-->
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -1356,7 +1326,6 @@
          <attDef ident="prev" mode="delete"/>
          <attDef ident="exclude" mode="delete"/>
          <attDef ident="select" mode="delete"/>
-         <attDef ident="ana" mode="delete"/>
          <attDef ident="facs" mode="delete"/>
          <attDef ident="change" mode="delete"/>
          <attDef ident="cert" mode="delete"/>
@@ -1371,12 +1340,7 @@
          <attDef ident="part" mode="delete"/>
          <attDef ident="type" mode="delete"/>
          <attDef ident="subtype" mode="delete"/>
-         <attDef ident="lemma" mode="delete"/>
          <attDef ident="lemmaRef" mode="delete"/>
-         <attDef ident="pos" mode="delete"/>
-         <attDef ident="msd" mode="delete"/>
-         <attDef ident="join" mode="delete"/>
-         <attDef ident="norm" mode="delete"/>
          <attDef ident="orig" mode="delete"/>
          <attDef ident="notation" mode="delete"/>
       </attList>
@@ -1447,11 +1411,15 @@
                <dataRef key="teidata.text"/>
             </datatype>
          </attDef>
+         <!--pc/@xml:lang-->
+         <!--pc/@norm-->
+         <!--pc/@join-->
+         <!--pc/@ana-->
+         <!--pc/@pos-->
          <attDef ident="force" mode="delete"/>
          <attDef ident="unit" mode="delete"/>
          <attDef ident="pre" mode="delete"/>
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -1465,7 +1433,6 @@
          <attDef ident="prev" mode="delete"/>
          <attDef ident="exclude" mode="delete"/>
          <attDef ident="select" mode="delete"/>
-         <attDef ident="ana" mode="delete"/>
          <attDef ident="facs" mode="delete"/>
          <attDef ident="change" mode="delete"/>
          <attDef ident="cert" mode="delete"/>
@@ -1482,9 +1449,6 @@
          <attDef ident="subtype" mode="delete"/>
          <attDef ident="lemma" mode="delete"/>
          <attDef ident="lemmaRef" mode="delete"/>
-         <attDef ident="pos" mode="delete"/>
-         <attDef ident="join" mode="delete"/>
-         <attDef ident="norm" mode="delete"/>
          <attDef ident="orig" mode="delete"/>
       </attList>
       <exemplum xml:lang="en">
@@ -1642,9 +1606,13 @@
                <valItem ident="place"/>
             </valList>
          </attDef>
-         <attDef ident="xml:id" mode="delete"/>
+         <!--name/@xml:id-->
+         <!--name/@xml:lang-->
+         <!--name/@ana-->
+         <!--name/@key-->
+         <!--name/@full-->
+         <!--name/@subtype-->
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -1658,17 +1626,14 @@
          <attDef ident="prev" mode="delete"/>
          <attDef ident="exclude" mode="delete"/>
          <attDef ident="select" mode="delete"/>
-         <attDef ident="ana" mode="delete"/>
          <attDef ident="facs" mode="delete"/>
          <attDef ident="change" mode="delete"/>
          <attDef ident="cert" mode="delete"/>
          <attDef ident="resp" mode="delete"/>
          <attDef ident="source" mode="delete"/>
-         <attDef ident="full" mode="delete"/>
          <attDef ident="sort" mode="delete"/>
          <attDef ident="role" mode="delete"/>
          <attDef ident="nymRef" mode="delete"/>
-         <attDef ident="key" mode="delete"/>
          <attDef ident="ref" mode="delete"/>
          <attDef ident="calendar" mode="delete"/>
          <attDef ident="period" mode="delete"/>
@@ -1691,7 +1656,6 @@
          <attDef ident="datingMethod" mode="delete"/>
          <attDef ident="evidence" mode="delete"/>
          <attDef ident="instant" mode="delete"/>
-         <attDef ident="subtype" mode="delete"/>
       </attList>
    </elementSpec>
    <elementSpec ident="num" module="core" mode="change">
@@ -1703,12 +1667,9 @@
             <textNode/>
          </alternate>
       </content>
-      <attList>
-         <attDef ident="type" mode="delete"/>
+      <attList><!--num/@xml:id--><!--num/@xml:lang--><!--num/@ana--><!--num/@type--><!--num/@subtype-->
          <attDef ident="value" mode="delete"/>
-         <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -1722,14 +1683,11 @@
          <attDef ident="prev" mode="delete"/>
          <attDef ident="exclude" mode="delete"/>
          <attDef ident="select" mode="delete"/>
-         <attDef ident="ana" mode="delete"/>
          <attDef ident="facs" mode="delete"/>
          <attDef ident="change" mode="delete"/>
          <attDef ident="cert" mode="delete"/>
          <attDef ident="resp" mode="delete"/>
          <attDef ident="source" mode="delete"/>
-         <attDef ident="type" mode="delete"/>
-         <attDef ident="subtype" mode="delete"/>
          <attDef ident="atLeast" mode="delete"/>
          <attDef ident="atMost" mode="delete"/>
          <attDef ident="min" mode="delete"/>
@@ -1755,10 +1713,8 @@
             <textNode/>
          </alternate>
       </content>
-      <attList>
-         <attDef ident="xml:id" mode="delete"/>
+      <attList><!--date/@xml:id--><!--date/@xml:lang--><!--date/@ana--><!--date/@type--><!--date/@subtype--><!--date/@when--><!--date/@to--><!--date/@from-->
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -1772,7 +1728,6 @@
          <attDef ident="prev" mode="delete"/>
          <attDef ident="exclude" mode="delete"/>
          <attDef ident="select" mode="delete"/>
-         <attDef ident="ana" mode="delete"/>
          <attDef ident="facs" mode="delete"/>
          <attDef ident="change" mode="delete"/>
          <attDef ident="cert" mode="delete"/>
@@ -1782,11 +1737,8 @@
          <attDef ident="ref" mode="delete"/>
          <attDef ident="calendar" mode="delete"/>
          <attDef ident="period" mode="delete"/>
-         <attDef ident="when" mode="delete"/>
          <attDef ident="notBefore" mode="delete"/>
          <attDef ident="notAfter" mode="delete"/>
-         <attDef ident="from" mode="delete"/>
-         <attDef ident="to" mode="delete"/>
          <attDef ident="when-iso" mode="delete"/>
          <attDef ident="notBefore-iso" mode="delete"/>
          <attDef ident="notAfter-iso" mode="delete"/>
@@ -1813,8 +1765,6 @@
          <attDef ident="min" mode="delete"/>
          <attDef ident="max" mode="delete"/>
          <attDef ident="confidence" mode="delete"/>
-         <attDef ident="type" mode="delete"/>
-         <attDef ident="subtype" mode="delete"/>
       </attList>
       <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
@@ -1842,10 +1792,8 @@
             <textNode/>
          </alternate>
       </content>
-      <attList>
-         <attDef ident="xml:id" mode="delete"/>
+      <attList><!--time/@xml:id--><!--time/@xml:lang--><!--time/@ana--><!--time/@type--><!--time/@subtype--><!--time/@when--><!--time/@to--><!--time/@from-->
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -1859,7 +1807,6 @@
          <attDef ident="prev" mode="delete"/>
          <attDef ident="exclude" mode="delete"/>
          <attDef ident="select" mode="delete"/>
-         <attDef ident="ana" mode="delete"/>
          <attDef ident="facs" mode="delete"/>
          <attDef ident="change" mode="delete"/>
          <attDef ident="cert" mode="delete"/>
@@ -1867,11 +1814,8 @@
          <attDef ident="source" mode="delete"/>
          <attDef ident="calendar" mode="delete"/>
          <attDef ident="period" mode="delete"/>
-         <attDef ident="when" mode="delete"/>
          <attDef ident="notBefore" mode="delete"/>
          <attDef ident="notAfter" mode="delete"/>
-         <attDef ident="from" mode="delete"/>
-         <attDef ident="to" mode="delete"/>
          <attDef ident="when-iso" mode="delete"/>
          <attDef ident="notBefore-iso" mode="delete"/>
          <attDef ident="notAfter-iso" mode="delete"/>
@@ -1900,8 +1844,6 @@
          <attDef ident="min" mode="delete"/>
          <attDef ident="max" mode="delete"/>
          <attDef ident="confidence" mode="delete"/>
-         <attDef ident="type" mode="delete"/>
-         <attDef ident="subtype" mode="delete"/>
       </attList>
       <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">As he sat smiling, the
@@ -1919,10 +1861,8 @@
             <textNode/>
          </alternate>
       </content>
-      <attList>
-         <attDef ident="xml:id" mode="delete"/>
+      <attList><!--email/@xml:id--><!--email/@xml:lang--><!--email/@ana--><!--email/@type--><!--email/@subtype--><!--email/@when--><!--email/@to--><!--email/@from-->
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -1936,7 +1876,6 @@
          <attDef ident="prev" mode="delete"/>
          <attDef ident="exclude" mode="delete"/>
          <attDef ident="select" mode="delete"/>
-         <attDef ident="ana" mode="delete"/>
          <attDef ident="facs" mode="delete"/>
          <attDef ident="change" mode="delete"/>
          <attDef ident="cert" mode="delete"/>
@@ -2169,10 +2108,10 @@
                <p>Attribute is required in <gi>titleStmt</gi> context.</p>
             </remarks>
          </attDef>
+         <!--title/@xml:lang-->
          <attDef ident="level" mode="delete"/>
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -2236,16 +2175,13 @@
       <content>
          <textNode/>
       </content>
-      <attList>
+      <attList><!--meeting/@xml:lang--><!--meeting/@corresp--><!--meeting/@ana--><!--meeting/@n-->
          <attDef ident="xml:id" mode="delete"/>
-         <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
          <attDef ident="style" mode="delete"/>
          <attDef ident="rendition" mode="delete"/>
-         <attDef ident="corresp" mode="delete"/>
          <attDef ident="synch" mode="delete"/>
          <attDef ident="sameAs" mode="delete"/>
          <attDef ident="copyOf" mode="delete"/>
@@ -2253,7 +2189,6 @@
          <attDef ident="prev" mode="delete"/>
          <attDef ident="exclude" mode="delete"/>
          <attDef ident="select" mode="delete"/>
-         <attDef ident="ana" mode="delete"/>
          <attDef ident="facs" mode="delete"/>
          <attDef ident="change" mode="delete"/>
          <attDef ident="cert" mode="delete"/>
@@ -2376,10 +2311,9 @@
             </alternate>
          </alternate>
       </content>
-      <attList>
+      <attList><!--persName/@xml:lang--><!--persName/@ref-->
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -2425,7 +2359,6 @@
          <attDef ident="role" mode="delete"/>
          <attDef ident="nymRef" mode="delete"/>
          <attDef ident="key" mode="delete"/>
-         <attDef ident="ref" mode="delete"/>
          <attDef ident="type" mode="delete"/>
          <attDef ident="subtype" mode="delete"/>
       </attList>
@@ -2702,10 +2635,9 @@
       <content>
          <textNode/>
       </content>
-      <attList>
+      <attList><!--resp/@xml:lang-->
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -2842,9 +2774,10 @@
                <p>Used when "the same" party changes its name</p>
             </remarks>
          </attDef>
+         <!--orgName/@xml:lang-->
+         <!--orgName/@ref-->
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -2887,7 +2820,6 @@
          <attDef ident="role" mode="delete"/>
          <attDef ident="nymRef" mode="delete"/>
          <attDef ident="key" mode="delete"/>
-         <attDef ident="ref" mode="delete"/>
          <attDef ident="type" mode="delete"/>
          <attDef ident="subtype" mode="delete"/>
       </attList>
@@ -2967,10 +2899,9 @@
       <content>
          <textNode/>
       </content>
-      <attList>
+      <attList><!--edition/@xml:lang-->
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -3068,10 +2999,10 @@
             </valList>
          </attDef>
          <attDef ident="quantity" mode="change" usage="req"/>
+         <!--measure/@xml:lang-->
          <attDef ident="type" mode="delete"/>
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -3196,10 +3127,9 @@
             <textNode/>
          </alternate>
       </content>
-      <attList>
+      <attList><!--publisher/@xml:lang-->
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -3255,9 +3185,9 @@
                <p>sample values recomended to use with <att>type</att>="<val>URI</val>"</p>
             </remarks>
          </attDef>
+         <!--idno/@xml:lang-->
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -3506,10 +3436,9 @@
             <textNode/>
          </alternate>
       </content>
-      <attList>
+      <attList><!--p/@xml:lang-->
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -3755,8 +3684,7 @@
       <content>
          <elementRef key="media" minOccurs="1" maxOccurs="unbounded"/>
       </content>
-      <attList>
-         <attDef ident="type" mode="delete"/>
+      <attList><!--recording/@type-->
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
          <attDef ident="xml:lang" mode="delete"/>
@@ -3782,7 +3710,6 @@
          <attDef ident="default" mode="delete"/>
          <attDef ident="dur" mode="delete"/>
          <attDef ident="dur-iso" mode="delete"/>
-         <attDef ident="type" mode="delete"/>
          <attDef ident="subtype" mode="delete"/>
       </attList>
       <exemplum xml:lang="en">
@@ -3831,11 +3758,9 @@
     an audio or video clip etc.</desc>
       <content>
     </content>
-      <attList>
-         <attDef ident="mimeType" mode="delete"/>
+      <attList><!--media/@xml:id--><!--media/@mimeType--><!--media/@source--><!--media/@url-->
          <attDef ident="type" mode="delete"/>
          <attDef ident="subtype" mode="delete"/>
-         <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
          <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
@@ -3856,12 +3781,9 @@
          <attDef ident="change" mode="delete"/>
          <attDef ident="cert" mode="delete"/>
          <attDef ident="resp" mode="delete"/>
-         <attDef ident="source" mode="delete"/>
          <attDef ident="width" mode="delete"/>
          <attDef ident="height" mode="delete"/>
          <attDef ident="scale" mode="delete"/>
-         <attDef ident="mimeType" mode="delete"/>
-         <attDef ident="url" mode="delete"/>
          <attDef ident="decls" mode="delete"/>
          <attDef ident="start" mode="delete"/>
          <attDef ident="end" mode="delete"/>
@@ -4685,10 +4607,9 @@
             </alternate>
          </sequence>
       </content>
-      <attList>
+      <attList><!--catDesc/@xml:lang-->
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -4988,10 +4909,9 @@
       <content>
          <textNode/>
       </content>
-      <attList>
+      <attList><!--label/@xml:lang-->
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -5514,10 +5434,9 @@
       <content>
          <textNode/>
       </content>
-      <attList>
+      <attList><!--head/@xml:lang--><!--head/@type-->
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -5537,7 +5456,6 @@
          <attDef ident="cert" mode="delete"/>
          <attDef ident="resp" mode="delete"/>
          <attDef ident="source" mode="delete"/>
-         <attDef ident="type" mode="delete"/>
          <attDef ident="subtype" mode="delete"/>
          <attDef ident="place" mode="delete"/>
          <attDef ident="hand" mode="delete"/>
@@ -5643,6 +5561,7 @@
                <valItem ident="independent"/>
             </valList>
          </attDef>
+         <!--org/@ana-->
          <attDef ident="n" mode="delete"/>
          <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
@@ -5658,7 +5577,6 @@
          <attDef ident="prev" mode="delete"/>
          <attDef ident="exclude" mode="delete"/>
          <attDef ident="select" mode="delete"/>
-         <attDef ident="ana" mode="delete"/>
          <attDef ident="facs" mode="delete"/>
          <attDef ident="change" mode="delete"/>
          <attDef ident="cert" mode="delete"/>
@@ -5704,8 +5622,7 @@
       <content>
          <elementRef key="label" minOccurs="1" maxOccurs="unbounded"/>
       </content>
-      <attList>
-         <attDef ident="xml:id" mode="delete"/>
+      <attList><!--event/@xml:id--><!--event/@when--><!--event/@from--><!--event/@to-->
          <attDef ident="n" mode="delete"/>
          <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
@@ -5729,11 +5646,8 @@
          <attDef ident="source" mode="delete"/>
          <attDef ident="calendar" mode="delete"/>
          <attDef ident="period" mode="delete"/>
-         <attDef ident="when" mode="delete"/>
          <attDef ident="notBefore" mode="delete"/>
          <attDef ident="notAfter" mode="delete"/>
-         <attDef ident="from" mode="delete"/>
-         <attDef ident="to" mode="delete"/>
          <attDef ident="when-iso" mode="delete"/>
          <attDef ident="notBefore-iso" mode="delete"/>
          <attDef ident="notAfter-iso" mode="delete"/>
@@ -5958,6 +5872,10 @@
          <attDef ident="mutual" mode="change" usage="opt"/>
          <attDef ident="active" mode="change" usage="opt"/>
          <attDef ident="passive" mode="change" usage="opt"/>
+         <!--relation/@ana-->
+         <!--relation/@when-->
+         <!--relation/@from-->
+         <!--relation/@to-->
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
          <attDef ident="xml:lang" mode="delete"/>
@@ -5974,7 +5892,6 @@
          <attDef ident="prev" mode="delete"/>
          <attDef ident="exclude" mode="delete"/>
          <attDef ident="select" mode="delete"/>
-         <attDef ident="ana" mode="delete"/>
          <attDef ident="facs" mode="delete"/>
          <attDef ident="change" mode="delete"/>
          <attDef ident="cert" mode="delete"/>
@@ -5982,11 +5899,8 @@
          <attDef ident="source" mode="delete"/>
          <attDef ident="calendar" mode="delete"/>
          <attDef ident="period" mode="delete"/>
-         <attDef ident="when" mode="delete"/>
          <attDef ident="notBefore" mode="delete"/>
          <attDef ident="notAfter" mode="delete"/>
-         <attDef ident="from" mode="delete"/>
-         <attDef ident="to" mode="delete"/>
          <attDef ident="when-iso" mode="delete"/>
          <attDef ident="notBefore-iso" mode="delete"/>
          <attDef ident="notAfter-iso" mode="delete"/>
@@ -6119,13 +6033,10 @@
             </alternate>
          </sequence>
       </content>
-      <attList>
+      <attList><!--person/@xml:id--><!--person/@xml:lang--><!--person/@n-->
          <attDef ident="role" mode="delete"/>
          <attDef ident="sex" mode="delete"/>
          <attDef ident="age" mode="delete"/>
-         <attDef ident="xml:id" mode="delete"/>
-         <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -6440,7 +6351,7 @@
             <textNode/>
          </alternate>
       </content>
-      <attList>
+      <attList><!--placeName/@ref-->
          <attDef ident="calendar" mode="delete"/>
          <attDef ident="period" mode="delete"/>
          <attDef ident="when" mode="delete"/>
@@ -6489,7 +6400,6 @@
          <attDef ident="role" mode="delete"/>
          <attDef ident="nymRef" mode="delete"/>
          <attDef ident="key" mode="delete"/>
-         <attDef ident="ref" mode="delete"/>
          <attDef ident="type" mode="delete"/>
          <attDef ident="subtype" mode="delete"/>
       </attList>
@@ -6574,6 +6484,12 @@
                <valItem ident="speaker"/>
             </valList>
          </attDef>
+         <!--affiliation/@key-->
+         <!--affiliation/@ref-->
+         <!--affiliation/@when-->
+         <!--affiliation/@from-->
+         <!--affiliation/@to-->
+         <!--affiliation/@ana-->
          <attDef ident="type" mode="delete"/>
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
@@ -6591,7 +6507,6 @@
          <attDef ident="prev" mode="delete"/>
          <attDef ident="exclude" mode="delete"/>
          <attDef ident="select" mode="delete"/>
-         <attDef ident="ana" mode="delete"/>
          <attDef ident="facs" mode="delete"/>
          <attDef ident="change" mode="delete"/>
          <attDef ident="cert" mode="delete"/>
@@ -6601,11 +6516,8 @@
          <attDef ident="instant" mode="delete"/>
          <attDef ident="calendar" mode="delete"/>
          <attDef ident="period" mode="delete"/>
-         <attDef ident="when" mode="delete"/>
          <attDef ident="notBefore" mode="delete"/>
          <attDef ident="notAfter" mode="delete"/>
-         <attDef ident="from" mode="delete"/>
-         <attDef ident="to" mode="delete"/>
          <attDef ident="when-iso" mode="delete"/>
          <attDef ident="notBefore-iso" mode="delete"/>
          <attDef ident="notAfter-iso" mode="delete"/>
@@ -6619,8 +6531,6 @@
          <attDef ident="datingPoint" mode="delete"/>
          <attDef ident="datingMethod" mode="delete"/>
          <attDef ident="nymRef" mode="delete"/>
-         <attDef ident="key" mode="delete"/>
-         <attDef ident="ref" mode="delete"/>
          <attDef ident="type" mode="delete"/>
          <attDef ident="subtype" mode="delete"/>
       </attList>
@@ -6672,13 +6582,12 @@
       <content>
          <textNode/>
       </content>
-      <attList>
+      <attList><!--occupation/@xml:lang--><!--occupation/@when--><!--occupation/@from--><!--occupation/@to-->
          <attDef ident="type" mode="delete"/>
          <attDef ident="scheme" mode="delete"/>
          <attDef ident="code" mode="delete"/>
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -6700,11 +6609,8 @@
          <attDef ident="source" mode="delete"/>
          <attDef ident="calendar" mode="delete"/>
          <attDef ident="period" mode="delete"/>
-         <attDef ident="when" mode="delete"/>
          <attDef ident="notBefore" mode="delete"/>
          <attDef ident="notAfter" mode="delete"/>
-         <attDef ident="from" mode="delete"/>
-         <attDef ident="to" mode="delete"/>
          <attDef ident="when-iso" mode="delete"/>
          <attDef ident="notBefore-iso" mode="delete"/>
          <attDef ident="notAfter-iso" mode="delete"/>
@@ -6744,11 +6650,9 @@
       <content>
          <textNode/>
       </content>
-      <attList>
+      <attList><!--education/@xml:lang--><!--education/@n--><!--education/@when--><!--education/@from--><!--education/@to-->
          <attDef ident="type" mode="delete"/>
          <attDef ident="xml:id" mode="delete"/>
-         <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -6772,11 +6676,8 @@
          <attDef ident="instant" mode="delete"/>
          <attDef ident="calendar" mode="delete"/>
          <attDef ident="period" mode="delete"/>
-         <attDef ident="when" mode="delete"/>
          <attDef ident="notBefore" mode="delete"/>
          <attDef ident="notAfter" mode="delete"/>
-         <attDef ident="from" mode="delete"/>
-         <attDef ident="to" mode="delete"/>
          <attDef ident="when-iso" mode="delete"/>
          <attDef ident="notBefore-iso" mode="delete"/>
          <attDef ident="notAfter-iso" mode="delete"/>
@@ -6872,7 +6773,7 @@
       <desc versionDate="2016-03-07" xml:lang="en">indicates the location of a graphic or illustration, either forming
     part of a text, or providing an image of it.</desc>
       <content/>
-      <attList>
+      <attList><!--graphic/@url--><!--graphic/@scale-->
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
          <attDef ident="xml:lang" mode="delete"/>
@@ -6897,9 +6798,7 @@
          <attDef ident="source" mode="delete"/>
          <attDef ident="width" mode="delete"/>
          <attDef ident="height" mode="delete"/>
-         <attDef ident="scale" mode="delete"/>
          <attDef ident="mimeType" mode="delete"/>
-         <attDef ident="url" mode="delete"/>
          <attDef ident="decls" mode="delete"/>
       </attList>
       <exemplum xml:lang="en">
@@ -6978,12 +6877,9 @@
       <content>
          <textNode/>
       </content>
-      <attList>
-         <attDef ident="ident" mode="delete"/>
-         <attDef ident="usage" mode="delete"/>
+      <attList><!--language/@xml:lang--><!--language/@ident--><!--language/@usage-->
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -7021,10 +6917,9 @@
       <content>
          <elementRef key="change" minOccurs="1" maxOccurs="unbounded"/>
       </content>
-      <attList>
+      <attList><!--revisionDesc/@xml:lang-->
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -7063,12 +6958,11 @@
          <elementRef key="name"/>
          <textNode/>
       </content>
-      <attList>
+      <attList><!--change/@when-->
          <attDef ident="target" mode="delete"/>
          <attDef ident="who" mode="delete"/>
          <attDef ident="calendar" mode="delete"/>
          <attDef ident="period" mode="delete"/>
-         <attDef ident="when" mode="delete"/>
          <attDef ident="notBefore" mode="delete"/>
          <attDef ident="notAfter" mode="delete"/>
          <attDef ident="from" mode="delete"/>
