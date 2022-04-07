@@ -3104,34 +3104,34 @@
       </content>
       <attList/>
       <exemplum xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <particDesc>
-               <listPerson>
-                  <person xml:id="P-1234" sex="2" age="mid">
-                     <p>Female informant, well-educated, born in
-              Shropshire UK, 12 Jan 1950, of unknown occupation. Speaks French fluently.
-              Socio-Economic status B2.</p>
-                  </person>
-                  <person xml:id="P-4332" sex="1">
-                     <persName>
-                        <surname>Hancock</surname>
-                        <forename>Antony</forename>
-                        <forename>Aloysius</forename>
-                        <forename>St John</forename>
-                     </persName>
-                     <residence notAfter="1959">
-                        <address>
-                           <street>Railway Cuttings</street>
-                           <settlement>East Cheam</settlement>
-                        </address>
-                     </residence>
-                     <occupation>comedian</occupation>
-                  </person>
-                  <listRelation>
-                     <relation type="personal" name="spouse" mutual="#P-1234 #P-4332"/>
-                  </listRelation>
-               </listPerson>
-            </particDesc>
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+           <particDesc>
+            <listOrg>
+              <org role="politicalGroup" xml:id="politicalGroup.LVŽSF">
+                 <orgName full="yes" xml:lang="lt">Lietuvos valstiečių ir žaliųjų sąjungos frakcija</orgName>
+                 <orgName full="init">LVŽSF</orgName>
+                 <orgName full="yes" xml:lang="en">Faction of the Lithuanian Farmers and Greens Union</orgName>
+               </org>
+	       <!--...-->
+	    </listOrg>
+	     <listPerson>
+               <head xml:lang="lt">Pasisakiusiųjų sąrašas</head>
+               <head xml:lang="en">List of speakers</head>
+               <person xml:id="AčienėVida">
+                  <persName>
+                     <forename>Vida</forename>
+                     <surname>Ačienė</surname>
+                  </persName>
+	       </person>
+	        <person xml:id="GustainisŠarūnas">
+                  <persName>
+                     <forename>Šarūnas</forename>
+                     <surname>Gustainis</surname>
+                  </persName>
+		</person>
+	       <!--...-->
+	     </listPerson>
+	   </particDesc>
          </egXML>
          <p>This example shows both a very simple person description, and a very detailed one, using
       some of the more specialized elements from the module for Names and Dates. </p>
@@ -3952,12 +3952,13 @@
       </content>
       <attList/>
       <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <langUsage>
-               <language ident="fr-CA" usage="60">Québecois</language>
-               <language ident="en-CA" usage="20">Canadian business English</language>
-               <language ident="en-GB" usage="20">British English</language>
-            </langUsage>
+            <language ident="sl" xml:lang="sl">slovenski</language>
+            <language ident="en" xml:lang="sl">angleški</language>
+            <language ident="sl" xml:lang="en">Slovenian</language>
+            <language ident="en" xml:lang="en">English</language>
+         </langUsage>
          </egXML>
       </exemplum>
    </elementSpec>
@@ -3974,11 +3975,23 @@
          <pm:attPreserve ident="usage"/>
       </attList>
       <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <langUsage>
-               <language ident="en-US" usage="75">modern American English</language>
-               <language ident="i-az-Arab" usage="20">Azerbaijani in Arabic script</language>
-               <language ident="x-lap" usage="05">Pig Latin</language>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	  <langUsage>
+	    <language ident="es" xml:lang="es">Español</language>
+            <language ident="es" xml:lang="en">Spanish</language>
+         </langUsage>
+         </egXML>
+      </exemplum>
+       <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	    <langUsage>
+              <language ident="bg-Latn" xml:lang="en">Bulgarian in Latin script</language>
+              <language ident="bg" xml:lang="bg">български</language>
+              <language ident="bg" xml:lang="en">Bulgarian</language>
+              <language ident="en" xml:lang="bg">английски</language>
+              <language ident="en" xml:lang="en">English</language>
+              <language ident="fr" xml:lang="bg">френски</language>
+              <language ident="fr" xml:lang="en">French</language>
             </langUsage>
          </egXML>
       </exemplum>
