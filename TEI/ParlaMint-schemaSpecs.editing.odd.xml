@@ -151,7 +151,7 @@
          </attDef>
       </attList>
       <exemplum xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <TEI version="3.3.0">
                <teiHeader>
                   <fileDesc>
@@ -176,29 +176,39 @@
          </egXML>
       </exemplum>
       <exemplum xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <TEI version="2.9.1">
-               <teiHeader>
-                  <fileDesc>
-                     <titleStmt>
-                        <title>A TEI Document containing four page images </title>
-                     </titleStmt>
-                     <publicationStmt>
-                        <p>Unpublished demonstration file.</p>
-                     </publicationStmt>
-                     <sourceDesc>
-                        <p>No source: this is an original work.</p>
-                     </sourceDesc>
-                  </fileDesc>
-               </teiHeader>
-               <facsimile>
-                  <graphic url="page1.png"/>
-                  <graphic url="page2.png"/>
-                  <graphic url="page3.png"/>
-                  <graphic url="page4.png"/>
-               </facsimile>
-            </TEI>
-         </egXML>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+          <TEI xmlns="http://www.tei-c.org/ns/1.0"
+	       xml:id="ParlaMint-GB_2017-01-24-lords.ana"
+	       xml:lang="en"
+	       ana="#parla.sitting #reference">
+	    <teiHeader>
+	      <fileDesc>
+		<titleStmt>
+		  <title type="main">Great Britain parliamentary corpus ParlaMint-GB, Lords, 2017-01-24</title>
+		  <title type="sub">Minutes of the House of Lords, Daily Session 2017-01-24</title>
+		</titleStmt>
+		<publicationStmt>
+		  <publisher>
+		    <orgName>CLARIN research infrastructure</orgName>
+		    <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+		  </publisher>
+		</publicationStmt>
+		<sourceDesc>
+		  <bibl>
+		    <title>UK Parliamentary Corpus. Volume 778. Tuesday 24th January 2017.</title>
+		    <idno type="URI">https://hansard-api.parliament.uk/debates/debate/274aedf2-bd98-4197-b93a-7fe487c6e079.xml</idno>
+		    <date when="2017-01-24"/>
+		  </bibl>
+		</sourceDesc>
+	      </fileDesc>
+	      <text ana="#reference">
+		<body>
+		  <!--...-->
+		</body>
+	      </text>
+	    </teiHeader>
+          </TEI>
+        </egXML>
       </exemplum>
    </elementSpec>
    <elementSpec ident="text" module="textstructure" mode="change">
@@ -1502,18 +1512,18 @@
             versionDate="2005-01-14"
             xml:lang="en">contains an additional name component, such as a nickname, epithet, or alias, or any other descriptive phrase used within a personal
     name.</desc>
-      <content>
-         <textNode/>
+    <content>
+        <textNode/>
       </content>
       <attList/>
       <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <persName>
-               <forename>Frederick</forename>
-               <addName type="epithet">the Great</addName>
-               <roleName>Emperor of Prussia</roleName>
-            </persName>
-         </egXML>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	  <persName>
+            <surname>Möderndorfer</surname>
+            <forename>Jani</forename>
+            <addName>Janko</addName>
+          </persName>
+        </egXML>
       </exemplum>
    </elementSpec>
    <elementSpec ident="nameLink" module="namesdates" mode="change">
@@ -1907,16 +1917,14 @@
          </attDef>
       </attList>
       <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <availability status="restricted">
-               <p>Available for academic research purposes only.</p>
-            </availability>
-            <availability status="free">
-               <p>In the public domain</p>
-            </availability>
-            <availability status="restricted">
-               <p>Available under licence from the publishers.</p>
-            </availability>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	  <availability status="free">
+            <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="hr">Ovaj rad je dostupan pod <ref target="http://creativecommons.org/licenses/by/4.0/">međunarodnom licencom Creative Commons Imenovanje 4.0</ref>
+               </p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+          </availability>
          </egXML>
       </exemplum>
       <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
@@ -2045,51 +2053,23 @@
       </content>
       <attList/>
       <exemplum xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <bibl>Blain, Clements and Grundy: Feminist Companion to Literature in English (Yale,
-	1990)</bibl>
-         </egXML>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	  <bibl>
+            <title type="main">Minutes of the National Assembly of the Republic of Bulgaria</title>
+            <date when="2020-03-11">2020-03-11</date>
+          </bibl>
+        </egXML>
       </exemplum>
       <exemplum xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <bibl>
-               <title level="a">The Interesting story of the Children in the Wood</title>. In
-          <author>Victor E Neuberg</author>, <title>The Penny Histories</title>.
-          <publisher>OUP</publisher>
-               <date>1968</date>. </bibl>
-         </egXML>
-      </exemplum>
-      <exemplum xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <bibl type="article" subtype="book_chapter" xml:id="carlin_2003">
-               <author>
-                  <name>
-                     <surname>Carlin</surname>
-            (<forename>Claire</forename>)</name>
-               </author>,
-            <title level="a">The Staging of Impotence : France’s last
-            congrès</title> dans
-            <bibl type="monogr">
-                  <title level="m">Theatrum mundi : studies in honor of Ronald W.
-              Tobin</title>, éd.
-              <editor>
-                     <name>
-                        <forename>Claire</forename>
-                        <surname>Carlin</surname>
-                     </name>
-                  </editor> et
-		<editor>
-                     <name>
-                        <forename>Kathleen</forename>
-                        <surname>Wine</surname>
-                     </name>
-                  </editor>,
-		  <pubPlace>Charlottesville, Va.</pubPlace>,
-		  <publisher>Rookwood Press</publisher>,
-		  <date when="2003">2003</date>.
-            </bibl>
-            </bibl>
-         </egXML>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	  <bibl>
+            <title type="main" xml:lang="en">https://www.tbmm.gov.tr/tutanak/donem24/yil2/bas/b013m.htm</title>
+            <edition xml:lang="en">Official session record</edition>
+            <publisher xml:lang="en">The Turkish Parliament</publisher>
+            <idno type="URI">https://www.tbmm.gov.tr/</idno>
+            <date when="2011-10-27">2011-10-27</date>
+          </bibl>
+        </egXML>
       </exemplum>
    </elementSpec>
    <elementSpec ident="recordingStmt" module="spoken" mode="change">
@@ -2785,14 +2765,29 @@
       </content>
       <attList/>
       <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <appInfo>
-               <application version="1.24" ident="Xaira">
-                  <label>XAIRA Indexer</label>
-                  <ptr target="#P1"/>
-               </application>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+           <appInfo>
+              <application version="4.0" ident="stanford-corenlp">
+              <label>Stanford CoreNLP</label>
+               <desc>Tokenisation, POS tagging, NER and dependency parsed using Stanford CoreNLP <ref target="https://stanfordnlp.github.io/CoreNLP/">https://stanfordnlp.github.io/CoreNLP/</ref>.</desc>
+            </application>
             </appInfo>
          </egXML>
+      </exemplum>
+      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+          <appInfo>
+            <application version="1.0" ident="reldi-tokeniser">
+              <label>ReLDI tokeniser</label>
+            </application>
+            <application version="1.0" ident="classla-stanfordnlp">
+               <label>CLASSLA-StanfordNLP</label>
+            </application>
+            <application version="1.0" ident="janes-ner">
+              <label>NER system for South Slavic languages</label>
+            </application>
+          </appInfo>
+        </egXML>
       </exemplum>
    </elementSpec>
    <elementSpec ident="application" module="header" mode="change">
