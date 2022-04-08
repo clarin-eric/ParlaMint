@@ -3785,32 +3785,62 @@
          <pm:attPreserve ident="ana"/>
       </attList>
       <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <affiliation>Junior project officer for the US <name type="org">National Endowment for
-        the Humanities</name>
-            </affiliation>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	   <person xml:id="PeterFowler">
+                  <persName>
+                     <forename>Peter</forename>
+                     <surname>Fowler</surname>
+                  </persName>
+                  <affiliation from="1970-06-18" ref="#parla.lower" role="MP" to="1974-02-28"/>
+                  <affiliation from="1970-06-18"
+                               ref="#party.CON"
+                               role="member"
+                               to="2001-06-07"/>
+                  <affiliation from="1974-02-28" ref="#parla.lower" role="MP" to="1974-10-10"/>
+                  <affiliation from="1974-10-10" ref="#parla.lower" role="MP" to="1979-05-03"/>
+                  <affiliation from="1979-05-03" ref="#parla.lower" role="MP" to="1983-06-09"/>
+                  <affiliation from="1979-05-11" ref="#PoGB" role="minister" to="1981-01-05"/>
+                  <affiliation from="1981-01-05" ref="#PoGB" role="minister" to="1981-09-14"/>
+                  <affiliation from="1981-09-14" ref="#PoGB" role="minister" to="1987-06-13"/>
+                  <affiliation from="1983-06-09" ref="#parla.lower" role="MP" to="1987-06-11"/>
+                  <affiliation from="1987-06-11" ref="#parla.lower" role="MP" to="1992-04-09"/>
+                  <affiliation from="1987-06-13" ref="#PoGB" role="minister" to="1990-01-02"/>
+                  <affiliation from="1992-04-09" ref="#parla.lower" role="MP" to="1997-05-01"/>
+                  <affiliation from="1997-05-01" ref="#parla.lower" role="MP" to="2001-06-07"/>
+                  <affiliation from="2001-07-03" ref="#parla.lower" role="MP"/>
+                  <affiliation from="2001-07-03"
+                               ref="#party.CON"
+                               role="member"
+                               to="2016-09-01"/>
+                  <affiliation from="2016-09-01" ref="#party.I" role="member"/>
+                  <affiliation from="2016-09-01" ref="#parla.upper" role="speaker"/>
+               </person>
          </egXML>
       </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en"
-                versionDate="2018-10-30">
-         <p>This example indicates that the person was affiliated with the
-      Australian Journalists Association at some point between the dates
-      listed.</p>
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <affiliation notAfter="1960-01-01" notBefore="1957-02-28">Paid up member of the
-        <orgName>Australian Journalists Association</orgName>
-            </affiliation>
-         </egXML>
-      </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en"
-                versionDate="2018-10-30">
-         <p>This example indicates that the person was affiliated with Mount Holyoke College throughout the entire span of the date range listed.</p>
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <affiliation from="1902-01-01" to="1906-01-01">Was an assistant professor at Mount Holyoke College.</affiliation>
-         </egXML>
-      </exemplum>
+       <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	   <p>The affiliation element can also include an ana attribute, which points to the appropriate legislative period when the person was affiliated with the specified organisation.</p>
+	  <person xml:id="BahŽibertAnja">
+	    <persName>
+              <surname>Bah</surname>
+              <surname>Žibert</surname>
+                     <forename>Anja</forename>
+            </persName>
+                       <affiliation role="MP"
+                         ref="#DZ"
+                         from="2014-08-01"
+                         to="2018-06-21"
+                         ana="#DZ.7"/>
+            <affiliation role="member"
+                         ref="#party.SDS.2"
+                         from="2014-08-01"
+                         to="2018-06-21"
+                         ana="#DZ.7"/>
+            <affiliation role="MP" ref="#DZ" from="2018-06-22" ana="#DZ.8"/>
+            <affiliation role="member" ref="#party.SDS.2" from="2018-06-22" ana="#DZ.8"/>
+          </person>
+	</egXML>
+       </exemplum>
       <remarks xml:lang="en">
          <p>Affiliation to organization can be done in three ways (sorted from most concrete - the best solution):
       <list>
