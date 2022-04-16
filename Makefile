@@ -1,7 +1,7 @@
 .DEFAULT_GOAL := help
 
 ##$PARLIAMENTS##Space separated list of parliaments codes.
-PARLIAMENTS = AT BE BG CZ DK EE ES ES-CT ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RO SE SI TR
+PARLIAMENTS = AT BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RO SE SI TR
 PARLIAMENTS-v2 = BE BG CZ DK ES FR GB GR HR HU IS IT LT LV NL PL SI TR
 ##$DATADIR## Folder with country corpus folders. Default value is 'Data'.
 DATADIR = Data
@@ -55,6 +55,7 @@ setup-parliament-newInParlaMint2:
 	make setup-parliament PARLIAMENT-NAME='Portugal' PARLIAMENT-CODE='PT' LANG-LIST='pt (Portuguese)'
 	make setup-parliament PARLIAMENT-NAME='Romania' PARLIAMENT-CODE='RO' LANG-LIST='ro (Romanian)'
 	make setup-parliament PARLIAMENT-NAME='Sweden' PARLIAMENT-CODE='SE' LANG-LIST='sv (Swedish)'
+	make setup-parliament PARLIAMENT-NAME='Galicia' PARLIAMENT-CODE='ES-GA' LANG-LIST='gl (Galician)'
 
 ###### Validate with Relax NG schema
 val-schema-XX = $(addprefix val-schema-, $(PARLIAMENTS))
