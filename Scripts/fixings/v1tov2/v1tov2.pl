@@ -11,7 +11,7 @@ binmode(STDERR, 'utf8');
 
 $Saxon = 'java -jar /usr/share/java/saxon.jar';
 $CNV = "$Bin/v1tov2.xsl";
-$POLISH = "$Bin/polish-xml.pl";
+$POLISH = "$Bin/../../polish-xml.pl";
 
 foreach $inFile (glob $inFiles) {
     my ($thisDir, $fName) = $inFile =~ m|([^/]+)/([^/]+)$|
