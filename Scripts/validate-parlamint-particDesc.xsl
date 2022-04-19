@@ -20,6 +20,7 @@
 
     <xsl:if test="$text">
       <xsl:call-template name="affiliation-error">
+        <xsl:with-param name="ident">02</xsl:with-param>
         <xsl:with-param name="msg">
           <xsl:text>Contains text value</xsl:text>
         </xsl:with-param>
@@ -39,6 +40,7 @@
             <xsl:if test="following-sibling::tei:affiliation
                             [@role='member'][not(@from or @to)][@ref = $ref]">
               <xsl:call-template name="error">
+                <xsl:with-param name="ident">01</xsl:with-param>
                 <xsl:with-param name="msg">
                   <xsl:text>Duplicate party affiliation for </xsl:text>
                   <xsl:value-of select="@ref"/>
@@ -68,6 +70,7 @@
                     <xsl:otherwise>WARN</xsl:otherwise>
                   </xsl:choose>
                 </xsl:with-param>
+                <xsl:with-param name="ident">08</xsl:with-param>
                 <xsl:with-param name="msg">
                   <xsl:text>Affiliate from date (</xsl:text>
                   <xsl:value-of select="$affFrom"/>
@@ -83,6 +86,7 @@
             </xsl:if>
             <xsl:if test="affTo > $orgTo ">
               <xsl:call-template name="error">
+                <xsl:with-param name="ident">07</xsl:with-param>
                 <xsl:with-param name="msg">
                   <xsl:text>Affiliate to date (</xsl:text>
                   <xsl:value-of select="$affTo"/>
@@ -100,6 +104,7 @@
             <!-- MP affiliation to organizations with roles: parliament,   -->
             <xsl:if test="./@role = 'MP' and not(contains(' parliament ', concat(' ',$affWith/@role,' ')))">
               <xsl:call-template name="error">
+                <xsl:with-param name="ident">06</xsl:with-param>
                 <xsl:with-param name="msg">
                   <xsl:text>Wrong affiliation role (MP) with </xsl:text>
                   <xsl:value-of select="$affWith/@xml:id"/>
@@ -110,18 +115,17 @@
 
           </xsl:when>
           <xsl:when test="not($affWith)"> <!-- ref contain reference inside current corpus file -->
-            <xsl:if test="following-sibling::tei:affiliation
-                            [@role='member'][not(@from or @to)][@ref = $ref]">
-              <xsl:call-template name="error">
-                <xsl:with-param name="msg">
-                  <xsl:text>Wrong affiliation ref=</xsl:text>
-                  <xsl:value-of select="@ref"/>
-                </xsl:with-param>
-              </xsl:call-template>
-            </xsl:if>
+            <xsl:call-template name="error">
+              <xsl:with-param name="ident">03</xsl:with-param>
+              <xsl:with-param name="msg">
+                <xsl:text>Wrong affiliation ref=</xsl:text>
+                <xsl:value-of select="@ref"/>
+              </xsl:with-param>
+            </xsl:call-template>
           </xsl:when>
           <xsl:otherwise> <!-- affiliation is not with organization -->
             <xsl:call-template name="affiliation-error">
+              <xsl:with-param name="ident">04</xsl:with-param>
               <xsl:with-param name="msg">
                 <xsl:text>Affiliation with </xsl:text>
                 <xsl:value-of select="$affWith/local-name()" />
@@ -133,6 +137,7 @@
       </xsl:when>
       <xsl:otherwise>
         <xsl:call-template name="affiliation-error">
+          <xsl:with-param name="ident">05</xsl:with-param>
           <xsl:with-param name="msg">
             <xsl:text>Missing reference</xsl:text>
           </xsl:with-param>
@@ -145,6 +150,7 @@
   <xsl:template match="tei:org">
     <xsl:if test="not(@role)">
       <xsl:call-template name="error">
+        <xsl:with-param name="ident">09</xsl:with-param>
         <xsl:with-param name="msg">
           <xsl:text>Organisation without role for </xsl:text>
           <xsl:value-of select="."/>
@@ -158,6 +164,7 @@
         <xsl:variable name="affCnt" select="count(./ancestor::tei:teiCorpus//tei:affiliation[@ref = concat('#',$orgId)])"/>
 
         <xsl:call-template name="error">
+          <xsl:with-param name="ident">10</xsl:with-param>
           <xsl:with-param name="severity">INFO</xsl:with-param>
           <xsl:with-param name="msg">
             <xsl:text>Total number of affiliations with </xsl:text>
@@ -168,6 +175,7 @@
         </xsl:call-template>
         <xsl:if test="$affCnt = 0">
           <xsl:call-template name="error">
+            <xsl:with-param name="ident">10</xsl:with-param>
             <xsl:with-param name="msg">
               <xsl:text>Organisation without affiliation: #</xsl:text>
               <xsl:value-of select="@xml:id"/>
@@ -177,6 +185,7 @@
       </xsl:when>
       <xsl:otherwise>
         <xsl:call-template name="error">
+          <xsl:with-param name="ident">11</xsl:with-param>
           <xsl:with-param name="msg">
             <xsl:text>Organisation has not id </xsl:text>
             <xsl:apply-templates select="." mode="serialize"/>
@@ -224,6 +233,7 @@
           <xsl:variable name="eventTo" select="mk:fix_date(mk:get_to($eventNode),'-12-31','T23:59:59')" />
           <xsl:if test="$eventFrom > $date or $date > $eventTo">
             <xsl:call-template name="error">
+              <xsl:with-param name="ident">13</xsl:with-param>
               <xsl:with-param name="msg">
                 <xsl:text>Event #</xsl:text>
                 <xsl:value-of select="$actRef"/>
@@ -251,6 +261,7 @@
     <xsl:param name="severity">ERROR</xsl:param>
     <xsl:variable name="cnt" select="count(.//tei:org[@role=$role])"/>
     <xsl:call-template name="error">
+      <xsl:with-param name="ident">11</xsl:with-param>
       <xsl:with-param name="severity">
         <xsl:choose>
           <xsl:when test="$min > $cnt "><xsl:value-of select="$severity"/></xsl:when>
@@ -271,10 +282,14 @@
   <xsl:template name="affiliation-error">
     <xsl:param name="msg">???</xsl:param>
     <xsl:param name="severity">ERROR</xsl:param>
+    <xsl:param name="ident">??</xsl:param>
     <xsl:variable name="personId" select="./parent::tei:person/@xml:id"/>
     <xsl:call-template name="error">
       <xsl:with-param name="severity">
         <xsl:value-of select="$severity"/>
+      </xsl:with-param>
+      <xsl:with-param name="ident">
+        <xsl:value-of select="$ident"/>
       </xsl:with-param>
       <xsl:with-param name="msg">
         <xsl:value-of select="$msg"/>
@@ -290,9 +305,12 @@
   <xsl:template name="error">
     <xsl:param name="msg">???</xsl:param>
     <xsl:param name="severity">ERROR</xsl:param>
+    <xsl:param name="ident">??</xsl:param>
     <xsl:message>
       <xsl:value-of select="$severity"/>
-      <xsl:text>&#32;</xsl:text>
+      <xsl:text>[</xsl:text>
+      <xsl:value-of select="$ident"/>
+      <xsl:text>]&#32;</xsl:text>
       <xsl:value-of select="/tei:*/@xml:id"/>
       <xsl:text>:</xsl:text>
       <xsl:value-of select="./@LINE"/>
