@@ -64,13 +64,8 @@
             <!-- test if affiliation correspond to organization existence -->
             <xsl:if test="$orgFrom > $affFrom ">
               <xsl:call-template name="error">
-                <xsl:with-param name="severity">
-                  <xsl:choose>
-                    <xsl:when test="$orgFrom > xs:dateTime($affFrom) + xs:yearMonthDuration('P12M')">ERROR</xsl:when>
-                    <xsl:otherwise>WARN</xsl:otherwise>
-                  </xsl:choose>
-                </xsl:with-param>
                 <xsl:with-param name="ident">08</xsl:with-param>
+                <xsl:with-param name="severity">WARN</xsl:with-param>
                 <xsl:with-param name="msg">
                   <xsl:text>Affiliate from date (</xsl:text>
                   <xsl:value-of select="$affFrom"/>
@@ -87,6 +82,7 @@
             <xsl:if test="affTo > $orgTo ">
               <xsl:call-template name="error">
                 <xsl:with-param name="ident">07</xsl:with-param>
+                <xsl:with-param name="severity">WARN</xsl:with-param>
                 <xsl:with-param name="msg">
                   <xsl:text>Affiliate to date (</xsl:text>
                   <xsl:value-of select="$affTo"/>
@@ -176,6 +172,7 @@
         <xsl:if test="$affCnt = 0">
           <xsl:call-template name="error">
             <xsl:with-param name="ident">10</xsl:with-param>
+            <xsl:with-param name="severity">WARN</xsl:with-param>
             <xsl:with-param name="msg">
               <xsl:text>Organisation without affiliation: #</xsl:text>
               <xsl:value-of select="@xml:id"/>
@@ -234,6 +231,7 @@
           <xsl:if test="$eventFrom > $date or $date > $eventTo">
             <xsl:call-template name="error">
               <xsl:with-param name="ident">13</xsl:with-param>
+              <xsl:with-param name="severity">WARN</xsl:with-param>
               <xsl:with-param name="msg">
                 <xsl:text>Event #</xsl:text>
                 <xsl:value-of select="$actRef"/>
@@ -261,7 +259,7 @@
     <xsl:param name="severity">ERROR</xsl:param>
     <xsl:variable name="cnt" select="count(.//tei:org[@role=$role])"/>
     <xsl:call-template name="error">
-      <xsl:with-param name="ident">11</xsl:with-param>
+      <xsl:with-param name="ident">12</xsl:with-param>
       <xsl:with-param name="severity">
         <xsl:choose>
           <xsl:when test="$min > $cnt "><xsl:value-of select="$severity"/></xsl:when>
