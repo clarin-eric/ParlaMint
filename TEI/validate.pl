@@ -30,7 +30,7 @@ unless (-d $inDir) {
 }
 #Execution
 $Jing   = "java -jar /usr/share/java/jing.jar";
-$Schema = "$Bin/ParlaMint.rng";
+$Schema = "$Bin/ParlaMint.odd.rng";
 foreach my $inFile (glob "$inDir/$mask") {
     ($fName) = $inFile =~ m|([^/]+\.xml)|;
     print STDERR "INFO: Validating $fName\n";

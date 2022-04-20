@@ -27,11 +27,11 @@ html:	prepare val-schema
 
 # Compile schemas to RelaxNG, DTD and XSD; best use the RelaxNG one.
 xml-schemas:	val-schema
-	Stylesheets/bin/teitorelaxng    ${SUBSET} ${ODD} ParlaMint.rng
-	Stylesheets/bin/teitornc        ${SUBSET} ${ODD} ParlaMint.rnc
-	#Stylesheets/bin/teitodtd        ${SUBSET} ${ODD} ParlaMint.dtd
-	#Stylesheets/bin/teitoxsd        ${SUBSET} ${ODD} ParlaMint.xsd
-	#Stylesheets/bin/teitoschematron ${SUBSET} ${ODD} ParlaMint.sch
+	Stylesheets/bin/teitorelaxng    ${SUBSET} ${ODD} ParlaMint.odd.rng
+	Stylesheets/bin/teitornc        ${SUBSET} ${ODD} ParlaMint.odd.rnc
+	Stylesheets/bin/teitoschematron ${SUBSET} ${ODD} ParlaMint.odd.sch
+	#Stylesheets/bin/teitodtd        ${SUBSET} ${ODD} ParlaMint.odd.dtd
+	#Stylesheets/bin/teitoxsd        ${SUBSET} ${ODD} ParlaMint.odd.xsd
 
 val:	val-schema val-samples
 val-schema:
@@ -39,12 +39,12 @@ val-schema:
 
 # Validate 1 sample
 val-SI:
-	$j ParlaMint.rng tmp/ParlaMint-SI.ana.xml
-	$j ParlaMint.rng tmp/ParlaMint-SI.xml
-	$j ParlaMint.rng ../Data/ParlaMint-SI/ParlaMint-SI.xml
-	$j ParlaMint.rng ../Data/ParlaMint-SI/ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.xml
-	$j ParlaMint.rng ../Data/ParlaMint-SI/ParlaMint-SI.ana.xml
-	$j ParlaMint.rng ../Data/ParlaMint-SI/ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.ana.xml
+	$j ParlaMint.odd.rng tmp/ParlaMint-SI.ana.xml
+	$j ParlaMint.odd.rng tmp/ParlaMint-SI.xml
+	$j ParlaMint.odd.rng ../Data/ParlaMint-SI/ParlaMint-SI.xml
+	$j ParlaMint.odd.rng ../Data/ParlaMint-SI/ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.xml
+	$j ParlaMint.odd.rng ../Data/ParlaMint-SI/ParlaMint-SI.ana.xml
+	$j ParlaMint.odd.rng ../Data/ParlaMint-SI/ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.ana.xml
 
 # Validate samples
 val-samples:
