@@ -2631,23 +2631,23 @@
          <attDef ident="ana" mode="change" usage="opt"/>
       </attList>
       <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <category xml:id="b1">
-               <catDesc>Prose reportage</catDesc>
-            </category>
-         </egXML>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	  <category xml:id="parla.session">
+            <catDesc xml:lang="en">
+            <term>Session</term>: A parliamentary year, which always begins on the first Tuesday in October at 12.00 o’clock noon and ends on the same date at the same time the following year. However, parliamentary work at Christiansborg is organised in such a way that it primarily takes place from October to June.</catDesc>
+          </category>
+        </egXML>
       </exemplum>
       <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <category xml:id="b2">
-               <catDesc>Prose </catDesc>
-               <category xml:id="b11">
-                  <catDesc>journalism</catDesc>
-               </category>
-               <category xml:id="b12">
-                  <catDesc>fiction</catDesc>
-               </category>
-            </category>
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+           <category xml:id="parla.term">
+             <catDesc xml:lang="nl">
+               <term>Zittingsperiode</term>
+             </catDesc>
+             <catDesc xml:lang="en">
+               <term>Legislative period</term>
+             </catDesc>
+           </category>
          </egXML>
       </exemplum>
    </elementSpec>
@@ -3114,7 +3114,7 @@
       <exemplum xmlns:xi="http://www.w3.org/2001/XInclude"
                 versionDate="2013-12-20"
                 xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
            <catRef scheme="#parla.legislature" target="#parla.uni"/>
            <!-- elsewhere -->
 	   <taxonomy xml:id="parla.legislature">
