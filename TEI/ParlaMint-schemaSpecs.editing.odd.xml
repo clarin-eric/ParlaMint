@@ -264,6 +264,15 @@
          <elementRef key="div" minOccurs="1" maxOccurs="unbounded"/>
       </content>
       <attList/>
+      <exemplum xml:lang="en">
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	  <body>
+	    <div type="debateSection">...</div>
+	    <div type="debateSection">...</div>
+	    ...
+	  </body>
+	</egXML>
+      </exemplum>
    </elementSpec>
    <elementSpec ident="div" module="textstructure" mode="change">
       <desc versionDate="2005-01-14" xml:lang="en">contains a subdivision of the front, body, or back of a text.</desc>
@@ -2660,25 +2669,60 @@
          <pm:attPreserve ident="xml:lang"/>
       </attList>
       <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <catDesc>Prose reportage</catDesc>
-         </egXML>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	   <taxonomy xml:id="parla.legislature">
+             <desc xml:lang="en">
+               <term>Legislature</term>
+             </desc>
+             <desc xml:lang="bg">
+               <term>Законодателство</term>
+             </desc>
+             <category xml:id="parla.organization">
+               <catDesc xml:lang="en">
+                 <term>Organization</term>
+               </catDesc>
+               <catDesc xml:lang="bg">
+                 <term>Организация</term>
+               </catDesc>
+               <category xml:id="parla.chambers">
+                 <catDesc xml:lang="en">
+                   <term>Chambers</term>
+                 </catDesc>
+                 <catDesc xml:lang="bg">
+                   <term>Парламент</term>
+                 </catDesc>
+                 <category xml:id="parla.uni">
+                   <catDesc xml:lang="en">
+                     <term>Unicameralism</term>
+                   </catDesc>
+                   <catDesc xml:lang="bg">
+                     <term>Еднокамарен</term>
+                   </catDesc>
+                 </category>
+               </category>
+	     </category>
+	   </taxonomy>
+        </egXML>
       </exemplum>
       <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <catDesc>
-               <textDesc n="novel">
-                  <channel mode="w">print; part issues</channel>
-                  <constitution type="single"/>
-                  <derivation type="original"/>
-                  <domain type="art"/>
-                  <factuality type="fiction"/>
-                  <interaction type="none"/>
-                  <preparedness type="prepared"/>
-                  <purpose type="entertain" degree="high"/>
-                  <purpose type="inform" degree="medium"/>
-               </textDesc>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	  <category xml:id="parla.geo-political">
+            <catDesc xml:lang="sl">
+              <term>Geopolitične ali upravne enote</term>
             </catDesc>
+            <catDesc xml:lang="en">
+              <term>Geo-political or administrative units</term>
+            </catDesc>
+            <category xml:id="parla.supranational">
+              <catDesc xml:lang="sl">
+                <term>Nadnacionalna zakonodajna oblast</term>
+              </catDesc>
+	      <catDesc xml:lang="en">
+                <term>Supranational legislature</term>
+              </catDesc>
+	      <!--...-->
+	    </category>
+	  </category>
          </egXML>
       </exemplum>
    </elementSpec>
@@ -3071,19 +3115,19 @@
                 versionDate="2013-12-20"
                 xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <catRef scheme="#myTopics" target="#news #prov #sales2"/>
-            <!-- elsewhere -->
-            <taxonomy xml:id="myTopics">
-               <category xml:id="news">
-                  <catDesc>Newspapers</catDesc>
-               </category>
-               <category xml:id="prov">
-                  <catDesc>Provincial</catDesc>
-               </category>
-               <category xml:id="sales2">
-                  <catDesc>Low to average annual sales</catDesc>
-               </category>
-            </taxonomy>
+           <catRef scheme="#parla.legislature" target="#parla.uni"/>
+           <!-- elsewhere -->
+	   <taxonomy xml:id="parla.legislature">
+	    <!--...-->
+	     <category xml:id="parla.uni">
+               <catDesc xml:lang="lt">
+                 <term>Vienų rūmų parlamentas</term>
+               </catDesc>
+               <catDesc xml:lang="en">
+                 <term>Unicameralism</term>
+               </catDesc>
+             </category>
+           </taxonomy>
          </egXML>
       </exemplum>
    </elementSpec>
@@ -3647,16 +3691,19 @@
          <attDef ident="when" mode="change" usage="req"/>
       </attList>
       <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <birth>Before 1920, Midlands region.</birth>
-         </egXML>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+          <person xml:id="ReinerŽeljko" n="1291">
+	    <!-- persName -->
+            <birth when="1953-05-28">28.05.1953</birth>
+	   </person>
+        </egXML>
       </exemplum>
       <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <birth when="1960-12-10">In a small cottage near <name type="place">Aix-la-Chapelle</name>,
-        early in the morning of <date>10 Dec 1960</date>
-            </birth>
-         </egXML>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	  <birth when="1966-03-22">
+	    <placeName ref="https://www.geonames.org/2523918">Palermo</placeName>
+          </birth>
+        </egXML>
       </exemplum>
    </elementSpec>
    <elementSpec ident="death" module="namesdates" mode="change">
