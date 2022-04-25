@@ -2285,13 +2285,13 @@
       </content>
       <attList/>
       <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
+	  <editorialDecl>
             <correction>
-               <p>Errors in transcription controlled by using the WordPerfect spelling checker, with a user
-          defined dictionary of 500 extra words taken from Chambers Twentieth Century
-          Dictionary.</p>
+              <p>No correction of source texts was performed.</p>
             </correction>
-         </egXML>
+	  </editorialDecl>
+        </egXML>
       </exemplum>
    </elementSpec>
    <elementSpec ident="normalization" module="header" mode="change">
@@ -2497,21 +2497,30 @@
       </content>
       <attList/>
       <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <classDecl>
-               <taxonomy xml:id="LCSH">
-                  <bibl>Library of Congress Subject Headings</bibl>
-               </taxonomy>
-            </classDecl>
-            <!-- ... -->
-            <textClass>
-               <keywords scheme="#LCSH">
-                  <term>Political science</term>
-                  <term>United States -- Politics and government —
-            Revolution, 1775-1783</term>
-               </keywords>
-            </textClass>
-         </egXML>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+          <classDecl>
+	    <taxonomy xml:id="subcorpus">
+              <desc xml:lang="cs">
+                <term>Podkorpusy</term>
+              </desc>
+              <desc xml:lang="en">
+                <term>Subcorpora</term>
+              </desc>
+              <category xml:id="reference">
+                <catDesc xml:lang="cs">
+                <term>Referenční</term>: referenční podkorpus, do 2019-10-31</catDesc>
+                <catDesc xml:lang="en">
+                <term>Reference</term>: reference subcorpus, until 2019-10-31</catDesc>
+              </category>
+              <category xml:id="covid">
+                <catDesc xml:lang="cs">
+                <term>COVID</term>: COVID podkorpus, od 2019-11-01 dále</catDesc>
+                <catDesc xml:lang="en">
+                <term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
+              </category>
+            </taxonomy>
+          </classDecl>
+        </egXML>
       </exemplum>
    </elementSpec>
    <elementSpec ident="taxonomy" module="header" mode="change">
@@ -2670,13 +2679,6 @@
       </attList>
       <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-	   <taxonomy xml:id="parla.legislature">
-             <desc xml:lang="en">
-               <term>Legislature</term>
-             </desc>
-             <desc xml:lang="bg">
-               <term>Законодателство</term>
-             </desc>
              <category xml:id="parla.organization">
                <catDesc xml:lang="en">
                  <term>Organization</term>
@@ -2684,46 +2686,8 @@
                <catDesc xml:lang="bg">
                  <term>Организация</term>
                </catDesc>
-               <category xml:id="parla.chambers">
-                 <catDesc xml:lang="en">
-                   <term>Chambers</term>
-                 </catDesc>
-                 <catDesc xml:lang="bg">
-                   <term>Парламент</term>
-                 </catDesc>
-                 <category xml:id="parla.uni">
-                   <catDesc xml:lang="en">
-                     <term>Unicameralism</term>
-                   </catDesc>
-                   <catDesc xml:lang="bg">
-                     <term>Еднокамарен</term>
-                   </catDesc>
-                 </category>
-               </category>
 	     </category>
-	   </taxonomy>
         </egXML>
-      </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-        <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-	  <category xml:id="parla.geo-political">
-            <catDesc xml:lang="sl">
-              <term>Geopolitične ali upravne enote</term>
-            </catDesc>
-            <catDesc xml:lang="en">
-              <term>Geo-political or administrative units</term>
-            </catDesc>
-            <category xml:id="parla.supranational">
-              <catDesc xml:lang="sl">
-                <term>Nadnacionalna zakonodajna oblast</term>
-              </catDesc>
-	      <catDesc xml:lang="en">
-                <term>Supranational legislature</term>
-              </catDesc>
-	      <!--...-->
-	    </category>
-	  </category>
-         </egXML>
       </exemplum>
    </elementSpec>
    <elementSpec ident="listPrefixDef" module="header" mode="change">
@@ -4085,38 +4049,16 @@
          <pm:attPreserve ident="when"/>
       </attList>
       <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <titleStmt>
-               <title> ... </title>
-               <editor xml:id="LDB">Lou Burnard</editor>
-               <respStmt xml:id="BZ">
-                  <resp>copy editing</resp>
-                  <name>Brett Zamir</name>
-               </respStmt>
-            </titleStmt>
-            <!-- ... -->
-            <revisionDesc status="published">
-               <change who="#BZ" when="2008-02-02" status="public">Finished chapter 23</change>
-               <change who="#BZ" when="2008-01-02" status="draft">Finished chapter 2</change>
-               <change n="P2.2" when="1991-12-21" who="#LDB">Added examples to section 3</change>
-               <change when="1991-11-11" who="#MSM">Deleted chapter 10</change>
-            </revisionDesc>
-         </egXML>
-      </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <profileDesc>
-               <creation>
-                  <listChange>
-                     <change xml:id="DRAFT1">First draft in pencil</change>
-                     <change xml:id="DRAFT2" notBefore="1880-12-09">First revision, mostly
-	      using green ink</change>
-                     <change xml:id="DRAFT3" notBefore="1881-02-13">Final corrections as
-	      supplied to printer.</change>
-                  </listChange>
-               </creation>
-            </profileDesc>
-         </egXML>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	  <revisionDesc>
+            <change when="2021-02-02">
+            <name>Tommaso Agnoloni</name>:Made sample.</change>
+            <change when="2021-01-28">
+            <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+            <change when="2021-02-26">
+            <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+	  </revisionDesc>
+        </egXML>
       </exemplum>
    </elementSpec>
 </schemaSpec>
