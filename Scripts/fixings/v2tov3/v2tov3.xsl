@@ -444,7 +444,7 @@
       <xsl:if test="$org">
         <xsl:choose>
           <xsl:when test="$org/tei:listEvent/tei:event[xs:date($from) >= xs:date(mk:get_from(.)) and xs:date(mk:get_to(.)) >= xs:date($to)]">
-            <xsl:variable name="event" select="$org/tei:listEvent/tei:event[xs:date($from) >= xs:date(mk:get_from(.)) and xs:date(mk:get_to(.)) >= xs:date($to)]"/>
+            <xsl:variable name="event" select="$org/tei:listEvent/tei:event[xs:date($from) >= xs:date(mk:get_from(.)) and xs:date(mk:get_to(.)) >= xs:date($to)][last()]"/>
             <xsl:variable name="ana" select="concat('#',$event/@xml:id)"/>
             <xsl:choose>
               <xsl:when test="not(@ana)">
@@ -524,9 +524,10 @@
 
   <xsl:function name="mk:get_from">
     <xsl:param name="node"/>
+    <xsl:variable name="crop" select="10"/>
     <xsl:choose>
-      <xsl:when test="$node/@from"><xsl:value-of select="$node/@from"/></xsl:when>
-      <xsl:when test="$node/@when"><xsl:value-of select="$node/@from"/></xsl:when>
+      <xsl:when test="$node/@from"><xsl:value-of select="substring($node/@from,1,$crop)"/></xsl:when>
+      <xsl:when test="$node/@when"><xsl:value-of select="substring($node/@when,1,$crop)"/></xsl:when>
       <xsl:when test="$node and not($node/parent::tei:bibl/parent::tei:sourceDesc/parent::tei:fileDesc)">
         <xsl:value-of select="mk:get_from($node/ancestor::tei:teiHeader//tei:sourceDesc/tei:bibl[1]/tei:date)"/>
       </xsl:when>
@@ -536,9 +537,10 @@
 
   <xsl:function name="mk:get_to">
     <xsl:param name="node"/>
+    <xsl:variable name="crop" select="10"/>
     <xsl:choose>
-      <xsl:when test="$node/@to"><xsl:value-of select="$node/@to"/></xsl:when>
-      <xsl:when test="$node/@when"><xsl:value-of select="$node/@to"/></xsl:when>
+      <xsl:when test="$node/@to"><xsl:value-of select="substring($node/@to,1,$crop)"/></xsl:when>
+      <xsl:when test="$node/@when"><xsl:value-of select="substring($node/@when,1,$crop)"/></xsl:when>
       <xsl:when test="$node and not($node/parent::tei:bibl/parent::tei:sourceDesc/parent::tei:fileDesc)">
         <xsl:value-of select="mk:get_to($node/ancestor::tei:teiHeader//tei:sourceDesc/tei:bibl[1]/tei:date)"/>
       </xsl:when>
