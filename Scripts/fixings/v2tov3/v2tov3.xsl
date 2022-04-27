@@ -375,7 +375,11 @@
       <xsl:call-template name="affiliation-ana"><xsl:with-param name="ref" select="@ref"/></xsl:call-template>
     </xsl:copy>
   </xsl:template>
-  
+
+  <xsl:template match="text()[contains(' birth death affiliation ',concat(' ',parent::tei:*/local-name(),' '))]">
+    <xsl:message>removing text content from <xsl:apply-templates select="./parent::tei:*" mode="serialize"/></xsl:message>
+  </xsl:template>
+
   <!-- COPY REST -->
   <xsl:template match="*">
     <xsl:copy>
