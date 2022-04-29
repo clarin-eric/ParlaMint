@@ -368,7 +368,7 @@
     </xsl:choose>
   </xsl:template>
 
-  <xsl:template match="tei:affiliation[@ref]">
+  <xsl:template match="tei:affiliation[@ref and not(@ana)]">
     <xsl:message>AFFILIATION <xsl:apply-templates select="." mode="serialize"/></xsl:message>
     <xsl:copy>
       <xsl:apply-templates select="@*[name() != 'ana']"/>
@@ -520,6 +520,7 @@
 
 
       <xsl:when test="$role = 'MP'">parliament</xsl:when>
+      <xsl:when test="$role = 'minister'">government</xsl:when>
 
       <xsl:otherwise><xsl:message>ERROR: ===== <xsl:value-of select="$country"/> === unknown role: <xsl:value-of select="$role"/></xsl:message></xsl:otherwise>
     </xsl:choose>
