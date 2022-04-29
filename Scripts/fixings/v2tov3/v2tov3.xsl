@@ -451,9 +451,12 @@
                 <xsl:attribute name="ana">#<xsl:value-of select="$event/@xml:id"/></xsl:attribute>
                 <xsl:message>INFO: adding corresponding event to @ana: <xsl:apply-templates select="$event" mode="serialize"/></xsl:message>
               </xsl:when>
+<!--
               <xsl:when test="@ana != $ana">
+                <xsl:attribute name="ana">#<xsl:value-of select="$event/@xml:id"/></xsl:attribute>
                 <xsl:message>WARN: fixing corresponding event in @ana from '<xsl:value-of select="./@ana"/>' to '<xsl:value-of select="$ana"/>' </xsl:message>
               </xsl:when>
+-->
               <xsl:otherwise>
                 <xsl:apply-templates select="@ana"/>
               </xsl:otherwise>
