@@ -13,6 +13,7 @@ rnc:
 	$t ParlaMint-TEI.ana.rng ParlaMint-TEI.ana.rnc
 	$t ParlaMint-teiCorpus.rng ParlaMint-teiCorpus.rnc
 	$t ParlaMint-teiCorpus.ana.rng ParlaMint-teiCorpus.ana.rnc
+
 #Doesn't work, cf. https://github.com/clarin-eric/ParlaMint/issues/74
 xsd:
 	$t ParlaMint-TEI.rng ParlaMint-TEI.xsd
@@ -20,12 +21,12 @@ xsd:
 	$t ParlaMint-teiCorpus.rng ParlaMint-teiCorpus.xsd
 	$t ParlaMint-teiCorpus.ana.rng ParlaMint-teiCorpus.ana.xsd
 val:
-	ls ../ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs ${pc}
-	ls ../ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs ${vrt}
-	ls ../ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep    '_' | xargs ${vct}
-	ls ../ParlaMint-*/ParlaMint-*.xml | grep    '.ana.' | grep -v '_' | xargs ${pc}
-	ls ../ParlaMint-*/ParlaMint-*.xml | grep    '.ana.' | grep -v '_' | xargs ${vra}
-	ls ../ParlaMint-*/ParlaMint-*.xml | grep    '.ana.' | grep    '_' | xargs ${vca}
+	-ls ../Data/ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs ${pc}
+	-ls ../Data/ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs ${vrt}
+	-ls ../Data/ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep    '_' | xargs ${vct}
+	-ls ../Data/ParlaMint-*/ParlaMint-*.xml | grep    '.ana.' | grep -v '_' | xargs ${pc}
+	-ls ../Data/ParlaMint-*/ParlaMint-*.xml | grep    '.ana.' | grep -v '_' | xargs ${vra}
+	-ls ../Data/ParlaMint-*/ParlaMint-*.xml | grep    '.ana.' | grep    '_' | xargs ${vca}
 
 s = java -jar /usr/share/java/saxon.jar
 j = java -jar /usr/share/java/jing.jar
@@ -39,4 +40,4 @@ P = parallel --citation --gnu --halt 2
 #Count things like org/@role
 what = grep ' corresp=' | grep corresp
 what:
-	cat ../ParlaMint-*/ParlaMint-*.xml | ${what}
+	cat ../Data/ParlaMint-*/ParlaMint-*.xml | ${what}
