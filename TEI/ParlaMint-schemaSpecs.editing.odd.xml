@@ -17,7 +17,7 @@
   
   <!-- The elements used in ParlaMint: -->
   <moduleRef key="tei"/>
-  <moduleRef key="core" include="bibl date desc email gap graphic head label measure media meeting name note num p pb pubPlace publisher ref resp respStmt teiCorpus term time title unit"/>
+  <moduleRef key="core" include="bibl date desc email gap graphic head label measure media meeting name note num p pb publisher ref resp respStmt teiCorpus term time title unit"/>
   <moduleRef key="header" include="appInfo application availability catDesc catRef category change classDecl correction edition editionStmt editorialDecl encodingDesc extent fileDesc funder hyphenation idno langUsage language licence listPrefixDef namespace normalization prefixDef profileDesc projectDesc publicationStmt quotation revisionDesc segmentation sourceDesc tagUsage tagsDecl taxonomy teiHeader textClass titleStmt"/>
   <moduleRef key="textstructure"
              include="TEI body div text"/>
@@ -942,7 +942,6 @@
     <content>
       <elementRef key="publisher"/>
       <elementRef key="idno"/>
-      <elementRef key="pubPlace" minOccurs="0" maxOccurs="1"/>
       <elementRef key="availability"/>
       <elementRef key="date"/>
     </content>
@@ -983,16 +982,6 @@
       </attDef>
       <pm:attPreserve ident="xml:lang"/>
     </attList>
-  </elementSpec>
-
-  <elementSpec ident="pubPlace" module="core" mode="change">
-    <content>
-      <alternate minOccurs="1" maxOccurs="1">
-        <elementRef key="ref"/>
-        <textNode/>
-      </alternate>
-    </content>
-    <attList><!-- remove all attributes --></attList>
   </elementSpec>
 
   <elementSpec ident="availability" module="header" mode="change">
