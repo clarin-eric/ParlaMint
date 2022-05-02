@@ -74,8 +74,6 @@ publicationStmt =
   element publicationStmt {
     publisher,
     idno,
-    # bg is missing pubPlace but we don't really need it
-    element pubPlace { (text, ref)+ }?,
     element availability {
       attribute status { "free" },
       element licence {
@@ -295,7 +293,15 @@ head =
   element head {
     attribute type { xsd:token }?,
     global.atts,
-    (note | pb | text)+
+    text
+    # oneOrMore>
+    #   <choice>
+    #     <ref name="note"/>
+    #     <ref name="pb"/>
+    #     <text/>
+    #   </choice>
+    # </oneOrMore
+    
   }
 ref =
   element ref {

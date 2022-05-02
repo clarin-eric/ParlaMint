@@ -129,15 +129,6 @@
       <a:documentation>Publications statement.</a:documentation>
       <ref name="publisher"/>
       <ref name="idno"/>
-      <!-- bg is missing pubPlace but we don't really need it -->
-      <optional> 
-	<element name="pubPlace">
-	  <oneOrMore>
-	    <text/>
-	    <ref name="ref"/>
-	  </oneOrMore>
-	</element>
-      </optional>
       <element name="availability">
 	<attribute name="status">
 	  <value>free</value>
