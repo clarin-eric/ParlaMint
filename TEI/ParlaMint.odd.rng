@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2022-05-03T11:05:40Z. 2022-03-04.
+Schema generated from ODD source 2022-05-03T12:46:39Z. 2022-03-04.
 TEI Edition: Version 4.4.0a. Last updated on
         14th March 2022, revision 3a89ab0a0
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
@@ -1434,6 +1434,15 @@ Elements]</a:documentation>
          <empty/>
       </element>
    </define>
+   <define name="tei_pubPlace">
+      <element name="pubPlace">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(publication place) contains the name of the place where a bibliographic item was published. [3.12.2.4. Imprint, Size of a Document, and Reprint Information]</a:documentation>
+         <choice>
+            <ref name="tei_ref"/>
+            <text/>
+         </choice>
+      </element>
+   </define>
    <define name="tei_bibl">
       <element name="bibl">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(bibliographic citation) contains a loosely-structured bibliographic citation of which the sub-components may or may not be explicitly tagged. [3.12.1. Methods of Encoding Bibliographic References and Lists of References 2.2.7. The Source Description 15.3.2. Declarable Elements]</a:documentation>
@@ -1556,6 +1565,9 @@ Elements]</a:documentation>
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(publication statement) groups information concerning the publication or distribution of an electronic or other text. [2.2.4. Publication, Distribution, Licensing, etc. 2.2. The File Description]</a:documentation>
          <ref name="tei_publisher"/>
          <ref name="tei_idno"/>
+         <optional>
+            <ref name="tei_pubPlace"/>
+         </optional>
          <ref name="tei_availability"/>
          <ref name="tei_date"/>
       </element>

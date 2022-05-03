@@ -18,7 +18,7 @@
   <!-- The elements used in ParlaMint: -->
    <moduleRef key="tei"/>
    <moduleRef key="core"
-              include="bibl date desc email gap graphic head label measure media meeting name note num p pb publisher ref resp respStmt teiCorpus term time title unit"/>
+              include="bibl date desc email gap graphic head label measure media meeting name note num p pb pubPlace publisher ref resp respStmt teiCorpus term time title unit"/>
    <moduleRef key="header"
               include="appInfo application availability catDesc catRef category change classDecl correction edition editionStmt editorialDecl encodingDesc extent fileDesc funder hyphenation idno langUsage language licence listPrefixDef namespace normalization prefixDef profileDesc projectDesc publicationStmt quotation revisionDesc segmentation sourceDesc tagUsage tagsDecl taxonomy teiHeader textClass titleStmt"/>
    <moduleRef key="textstructure" include="TEI body div text"/>
@@ -2175,6 +2175,7 @@
       <content>
          <elementRef key="publisher"/>
          <elementRef key="idno"/>
+         <elementRef key="pubPlace" minOccurs="0" maxOccurs="1"/>
          <elementRef key="availability"/>
          <elementRef key="date"/>
       </content>
@@ -2299,6 +2300,42 @@
          <attDef ident="to-custom" mode="delete"/>
          <attDef ident="datingPoint" mode="delete"/>
          <attDef ident="datingMethod" mode="delete"/>
+      </attList>
+   </elementSpec>
+   <elementSpec ident="pubPlace" module="core" mode="change">
+      <content>
+         <alternate minOccurs="1" maxOccurs="1">
+            <elementRef key="ref"/>
+            <textNode/>
+         </alternate>
+      </content>
+      <attList>
+         <attDef ident="xml:id" mode="delete"/>
+         <attDef ident="n" mode="delete"/>
+         <attDef ident="xml:lang" mode="delete"/>
+         <attDef ident="xml:base" mode="delete"/>
+         <attDef ident="xml:space" mode="delete"/>
+         <attDef ident="rend" mode="delete"/>
+         <attDef ident="style" mode="delete"/>
+         <attDef ident="rendition" mode="delete"/>
+         <attDef ident="corresp" mode="delete"/>
+         <attDef ident="synch" mode="delete"/>
+         <attDef ident="sameAs" mode="delete"/>
+         <attDef ident="copyOf" mode="delete"/>
+         <attDef ident="next" mode="delete"/>
+         <attDef ident="prev" mode="delete"/>
+         <attDef ident="exclude" mode="delete"/>
+         <attDef ident="select" mode="delete"/>
+         <attDef ident="ana" mode="delete"/>
+         <attDef ident="facs" mode="delete"/>
+         <attDef ident="change" mode="delete"/>
+         <attDef ident="cert" mode="delete"/>
+         <attDef ident="resp" mode="delete"/>
+         <attDef ident="source" mode="delete"/>
+         <attDef ident="role" mode="delete"/>
+         <attDef ident="nymRef" mode="delete"/>
+         <attDef ident="key" mode="delete"/>
+         <attDef ident="ref" mode="delete"/>
       </attList>
    </elementSpec>
    <elementSpec ident="availability" module="header" mode="change">
