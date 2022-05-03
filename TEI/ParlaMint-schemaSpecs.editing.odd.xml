@@ -13,7 +13,7 @@
   <!-- Elements used in ParlaMint: -->
   <moduleRef key="tei"/>
   <moduleRef key="core" 
-             include="bibl date desc email gap graphic head label measure media meeting name note num p pb publisher ref resp respStmt teiCorpus term time title unit"/>
+             include="bibl date desc email gap graphic head label measure media meeting name note num p pb pubPlace publisher ref resp respStmt teiCorpus term time title unit"/>
   <moduleRef key="header"
              include="appInfo application availability catDesc catRef category change classDecl correction edition editionStmt editorialDecl encodingDesc extent fileDesc funder hyphenation idno langUsage language licence listPrefixDef namespace normalization prefixDef profileDesc projectDesc publicationStmt quotation revisionDesc segmentation sourceDesc tagUsage tagsDecl taxonomy teiHeader textClass titleStmt"/>
   <moduleRef key="textstructure"
@@ -855,48 +855,6 @@
           <seg>Sinfiotli was the eldest of his sons ...</seg>
           <seg>Borghild, Sigmund's wife, had a brother ... </seg>
         </seg>
-      </egXML>
-    </exemplum>
-  </elementSpec>
-  <elementSpec ident="pb" module="core" mode="change">
-    <desc versionDate="2017-06-14" xml:lang="en">marks the beginning of a new page in a paginated document.</desc>
-    <content>
-    </content>
-    <attList>
-      <pm:attPreserve ident="xml:id"/>
-      <pm:attPreserve ident="n"/>
-      <pm:attPreserve ident="source"/>
-      <pm:attPreserve ident="corresp"/>
-      <pm:attPreserve ident="xml:id"/>
-      <pm:attPreserve ident="n"/>
-      <pm:attPreserve ident="source"/>
-      <pm:attPreserve ident="corresp"/>
-    </attList>
-    <exemplum xml:lang="en">
-      <p>Page numbers may vary in different editions of a text.</p>
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <p> ... <pb n="145" ed="ed2"/>
-        <!-- Page 145 in edition "ed2" starts here --> ... <pb n="283" ed="ed1"/>
-        <!-- Page 283 in edition "ed1" starts here--> ... </p>
-      </egXML>
-    </exemplum>
-    <exemplum xml:lang="en">
-      <p>A page break may be associated with a facsimile image of the page it introduces by means of
-      the <att>facs</att> attribute</p>
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <body>
-          <pb n="1" facs="page1.png"/>
-          <!-- page1.png contains an image of the page;
-               the text it contains is encoded here -->
-          <p>
-            <!-- ... -->
-          </p>
-          <pb n="2" facs="page2.png"/>
-          <!-- similarly, for page 2 -->
-          <p>
-            <!-- ... -->
-          </p>
-        </body>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -1825,6 +1783,7 @@
     <content>
       <elementRef key="publisher"/>
       <elementRef key="idno"/>
+      <elementRef key="pubPlace" minOccurs="0" maxOccurs="1"/>
       <elementRef key="availability"/>
       <elementRef key="date"/>
     </content>
@@ -1902,6 +1861,15 @@
       </attDef>
       <pm:attPreserve ident="xml:lang"/>
     </attList>
+  </elementSpec>
+  <elementSpec ident="pubPlace" module="core" mode="change">
+    <content>
+      <alternate minOccurs="1" maxOccurs="1">
+        <elementRef key="ref"/>
+        <textNode/>
+      </alternate>
+    </content>
+    <attList/>
   </elementSpec>
   <elementSpec ident="availability" module="header" mode="change">
     <desc
