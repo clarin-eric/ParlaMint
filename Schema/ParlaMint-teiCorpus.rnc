@@ -161,7 +161,7 @@ person =
     (persName+),
     (element sex {
        attribute value { "M" | "F" | "U" },
-       text
+       empty
      }?
      & element birth { life-event.content }?
      & element death { life-event.content }?
@@ -242,7 +242,7 @@ affiliation =
         "viceDirector"
       | "speaker"
     },
-    text
+    empty
   }
 occupation = element occupation { global.atts, temporal.atts?, text }
 education = element education { global.atts, temporal.atts?, text }
@@ -271,13 +271,11 @@ langUsage =
 
 ## The content of elements that describe life
 ##     events: they can have an partial date (e.g. year only) in temporal
-##     attributes, and have as content plain text giving the date and
-##     possibly the placeName where the event happened.
+##     attributes. The content can be empty, or gives the placeName where
+##     the event happened.
 life-event.content =
   attribute when { xsd:date | xsd:gYearMonth | xsd:gYear },
-  mixed {
-    element placeName { ref.att, text }*
-  }
+  element placeName { ref.att }?
 event =
   element event {
     global.atts,

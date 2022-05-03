@@ -641,7 +641,8 @@
   </define>
   
   <define name="date-simple">
-    <a:documentation>A simple date, just with @when</a:documentation>
+    <a:documentation>A simple date, just with @when. It can also have textual
+    content with the date type-set according to the object language.</a:documentation>
     <element name="date">
       <ref name="when.att"/>
       <text/>
@@ -649,7 +650,8 @@
   </define>
   
   <define name="date">
-    <a:documentation>A date with with all possible temporal information.</a:documentation>
+    <a:documentation>A date with with all possible temporal information. It can also have textual
+    content with the date type-set according to the object language.</a:documentation>
     <element name="date">
       <ref name="global.atts"/>
       <ref name="temporal.atts"/>

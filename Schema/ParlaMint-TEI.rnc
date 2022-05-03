@@ -321,10 +321,12 @@ media =
 ## The time element
 time = element time { temporal.atts, text }
 
-## A simple date, just with @when
+## A simple date, just with @when. It can also have textual
+##     content with the date type-set according to the object language.
 date-simple = element date { when.att, text }
 
-## A date with with all possible temporal information.
+## A date with with all possible temporal information. It can also have textual
+##     content with the date type-set according to the object language.
 date = element date { global.atts, temporal.atts, ana.att?, text }
 annotated-text = mixed { ref* }
 temporal.val = xsd:dateTime | xsd:date | xsd:gYearMonth | xsd:gYear
