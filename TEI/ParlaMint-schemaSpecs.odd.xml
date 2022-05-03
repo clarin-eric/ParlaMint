@@ -10,9 +10,10 @@
             prefix="tei_"
             docLang="en"
             xml:lang="en">
+  <!-- Elements used in ParlaMint: -->
    <moduleRef key="tei"/>
    <moduleRef key="core"
-              include="bibl date desc email gap graphic head label measure media meeting name note num p pb pubPlace publisher ref resp respStmt teiCorpus term time title unit"/>
+              include="bibl date desc email gap graphic head label measure media meeting name note num p pb publisher ref resp respStmt teiCorpus term time title unit"/>
    <moduleRef key="header"
               include="appInfo application availability catDesc catRef category change classDecl correction edition editionStmt editorialDecl encodingDesc extent fileDesc funder hyphenation idno langUsage language licence listPrefixDef namespace normalization prefixDef profileDesc projectDesc publicationStmt quotation revisionDesc segmentation sourceDesc tagUsage tagsDecl taxonomy teiHeader textClass titleStmt"/>
    <moduleRef key="textstructure" include="TEI body div text"/>
@@ -24,6 +25,10 @@
    <moduleRef key="linking" include="link linkGrp seg"/>
    <moduleRef key="figures" include="figure"/>
    <moduleRef key="analysis" include="pc s w"/>
+   <!-- Attributes used in ParlaMint: -->
+   <!-- Why isn't u included in att.fragmentable? Issue to tei-c? -->
+   <!-- Cannot have xml: in include or except! -->
+   <!--classRef key="att.global" include="xml:id xml:lang n"/-->
    <classRef key="att.global" except=""/>
    <classRef key="att.global.analytic" include="ana"/>
    <classRef key="att.global.linking" include="corresp synch next prev"/>
@@ -40,17 +45,21 @@
    <classRef key="att.pointing.group" include="targFunc"/>
    <classRef key="att.resourced" include="url"/>
    <classRef key="att.typed" include="type subtype"/>
+   <!-- Change element content models and attributes of elements -->
+   <!-- Top level elements -->
    <elementSpec ident="teiCorpus" module="core" mode="change">
       <desc versionDate="2017-02-07" xml:lang="en">contains the whole of a TEI encoded corpus,
     comprising a single corpus header and one or more <gi>TEI</gi> elements, each containing
     a single text header and a text.</desc>
       <content>
          <elementRef key="teiHeader"/>
+         <!-- We allow XIncludes in order to enable separate validation of corpus root -->
          <alternate minOccurs="1" maxOccurs="unbounded">
             <elementRef key="TEI"/>
             <elementRef key="include"/>
          </alternate>
       </content>
+      <!-- Make @xml:id, @xml:lang required, remove the other attributes -->
       <attList>
          <attDef ident="xml:id" mode="replace" usage="req">
             <datatype>
@@ -113,6 +122,7 @@
          </egXML>
       </exemplum>
    </elementSpec>
+   <!-- Definition of XInclude -->
    <elementSpec ident="include" mode="add" ns="http://www.w3.org/2001/XInclude">
       <attList>
          <attDef ident="href" mode="add">
@@ -130,6 +140,7 @@
          <elementRef key="teiHeader"/>
          <elementRef key="text"/>
       </content>
+      <!-- Make @xml:id, @xml:lang and @ana required, remove the other attributes -->
       <attList>
          <attDef ident="xml:id" mode="replace" usage="req">
             <datatype>
@@ -170,7 +181,7 @@
          <attDef ident="subtype" mode="delete"/>
       </attList>
       <exemplum xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <TEI version="3.3.0">
                <teiHeader>
                   <fileDesc>
@@ -195,27 +206,36 @@
          </egXML>
       </exemplum>
       <exemplum xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <TEI version="2.9.1">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+            <TEI xml:id="ParlaMint-GB_2017-01-24-lords.ana"
+                 xml:lang="en"
+                 ana="#parla.sitting #reference">
                <teiHeader>
                   <fileDesc>
                      <titleStmt>
-                        <title>A TEI Document containing four page images </title>
+                        <title type="main">Great Britain parliamentary corpus ParlaMint-GB, Lords, 2017-01-24</title>
+                        <title type="sub">Minutes of the House of Lords, Daily Session 2017-01-24</title>
                      </titleStmt>
                      <publicationStmt>
-                        <p>Unpublished demonstration file.</p>
+                        <publisher>
+                           <orgName>CLARIN research infrastructure</orgName>
+                           <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+                        </publisher>
                      </publicationStmt>
                      <sourceDesc>
-                        <p>No source: this is an original work.</p>
+                        <bibl>
+                           <title>UK Parliamentary Corpus. Volume 778. Tuesday 24th January 2017.</title>
+                           <idno type="URI">https://hansard-api.parliament.uk/debates/debate/274aedf2-bd98-4197-b93a-7fe487c6e079.xml</idno>
+                           <date when="2017-01-24"/>
+                        </bibl>
                      </sourceDesc>
                   </fileDesc>
+                  <text ana="#reference">
+                     <body>
+		<!--...-->
+	      </body>
+                  </text>
                </teiHeader>
-               <facsimile>
-                  <graphic url="page1.png"/>
-                  <graphic url="page2.png"/>
-                  <graphic url="page3.png"/>
-                  <graphic url="page4.png"/>
-               </facsimile>
             </TEI>
          </egXML>
       </exemplum>
@@ -226,6 +246,7 @@
       <content>
          <elementRef key="body"/>
       </content>
+      <!-- Remove attributes except for ana and optional xml:id, xml:lang, n, source -->
       <attList><!--text/@ana--><!--text/@xml:id--><!--text/@xml:lang--><!--text/@n--><!--text/@source-->
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
@@ -313,6 +334,15 @@
          <attDef ident="source" mode="delete"/>
          <attDef ident="decls" mode="delete"/>
       </attList>
+      <exemplum xml:lang="en">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+            <body>
+               <div type="debateSection">...</div>
+               <div type="debateSection">...</div>
+	  ...
+	</body>
+         </egXML>
+      </exemplum>
    </elementSpec>
    <elementSpec ident="div" module="textstructure" mode="change">
       <desc versionDate="2005-01-14" xml:lang="en">contains a subdivision of the front, body, or back of a text.</desc>
@@ -328,6 +358,7 @@
             <elementRef key="u"/>
          </alternate>
       </content>
+      <!-- Redefine type values, remove other attributes except xml:id, xml:lang, n, subtype -->
       <attList>
          <attDef ident="type" mode="replace" usage="rec">
             <valList type="closed">
@@ -1115,9 +1146,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="seg" module="linking" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2008-01-31"
-            xml:lang="en">represents any segmentation of text below the <soCalled>chunk</soCalled> level.</desc>
+      <desc versionDate="2008-01-31" xml:lang="en">represents any segmentation of text below the <soCalled>chunk</soCalled> level.</desc>
       <content>
          <alternate minOccurs="1" maxOccurs="unbounded">
             <elementRef key="note"/>
@@ -1164,19 +1193,19 @@
          <attDef ident="hand" mode="delete"/>
          <attDef ident="notation" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <seg>When are you leaving?</seg>
             <seg>Tomorrow.</seg>
          </egXML>
       </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <s>
                <seg rend="caps" type="initial-cap">So father's only</seg> glory was the ballfield. </s>
          </egXML>
       </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <seg type="preamble">
                <seg>Sigmund, <seg type="patronym">the son of Volsung</seg>, was a king in Frankish country.</seg>
@@ -1477,9 +1506,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="linkGrp" module="linking" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2005-01-14"
-            xml:lang="en">defines a collection of associations or hypertextual links.</desc>
+      <desc versionDate="2005-01-14" xml:lang="en">defines a collection of associations or hypertextual links.</desc>
       <content>
          <elementRef maxOccurs="unbounded" key="link"/>
       </content>
@@ -1524,9 +1551,7 @@
       </attList>
    </elementSpec>
    <elementSpec ident="link" module="linking" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2005-01-14"
-            xml:lang="en">defines an association or hypertextual link among elements or passages, of some type not more precisely specifiable by other elements.</desc>
+      <desc versionDate="2005-01-14" xml:lang="en">defines an association or hypertextual link among elements or passages, of some type not more precisely specifiable by other elements.</desc>
       <attList>
          <attDef ident="ana" mode="replace" usage="req">
             <datatype maxOccurs="1">
@@ -1564,7 +1589,7 @@
          <attDef ident="type" mode="delete"/>
          <attDef ident="subtype" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <s n="1">The state Supreme Court has refused to release <rs xml:id="R1">
                   <rs xml:id="R2">Rahway State Prison</rs> inmate</rs>
@@ -1884,9 +1909,7 @@
       </attList>
    </elementSpec>
    <elementSpec ident="teiHeader" module="header" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2016-02-19"
-            xml:lang="en">supplies descriptive and
+      <desc versionDate="2016-02-19" xml:lang="en">supplies descriptive and
     declarative metadata associated with a digital resource or set of
     resources.</desc>
       <content>
@@ -1919,7 +1942,7 @@
          <attDef ident="resp" mode="delete"/>
          <attDef ident="source" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <teiHeader>
                <fileDesc>
@@ -1997,9 +2020,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="fileDesc" module="header" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2005-01-14"
-            xml:lang="en">contains a full bibliographic description of an electronic file.</desc>
+      <desc versionDate="2005-01-14" xml:lang="en">contains a full bibliographic description of an electronic file.</desc>
       <content>
          <elementRef key="titleStmt"/>
          <elementRef key="editionStmt"/>
@@ -2031,7 +2052,7 @@
          <attDef ident="resp" mode="delete"/>
          <attDef ident="source" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <fileDesc>
                <titleStmt>
@@ -2048,9 +2069,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="titleStmt" module="header" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2012-04-17"
-            xml:lang="en">groups information about the title of a work and those responsible for its content.</desc>
+      <desc versionDate="2012-04-17" xml:lang="en">groups information about the title of a work and those responsible for its content.</desc>
       <content>
          <elementRef key="title" minOccurs="1" maxOccurs="unbounded"/>
          <elementRef key="meeting" minOccurs="1" maxOccurs="unbounded"/>
@@ -2081,7 +2100,7 @@
          <attDef ident="resp" mode="delete"/>
          <attDef ident="source" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <titleStmt>
                <title>Capgrave's Life of St. John Norbert: a machine-readable transcription</title>
@@ -2289,9 +2308,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="persName" module="namesdates" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2012-03-13"
-            xml:lang="en">contains a proper noun or proper-noun phrase referring to a
+      <desc versionDate="2012-03-13" xml:lang="en">contains a proper noun or proper-noun phrase referring to a
     person, possibly including one or more of
     the person's forenames, surnames, honorifics, added names, etc.</desc>
       <content>
@@ -2362,7 +2379,7 @@
          <attDef ident="type" mode="delete"/>
          <attDef ident="subtype" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <persName>
                <forename>Edward</forename>
@@ -2380,45 +2397,8 @@
       </remarks>
    </elementSpec>
    <elementSpec ident="forename" module="namesdates" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2005-10-16"
-            xml:lang="en">contains a forename, given or baptismal name.</desc>
-      <content>
-         <textNode/>
-      </content>
-      <attList>
-         <attDef ident="xml:id" mode="delete"/>
-         <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
-         <attDef ident="xml:base" mode="delete"/>
-         <attDef ident="xml:space" mode="delete"/>
-         <attDef ident="rend" mode="delete"/>
-         <attDef ident="style" mode="delete"/>
-         <attDef ident="rendition" mode="delete"/>
-         <attDef ident="corresp" mode="delete"/>
-         <attDef ident="synch" mode="delete"/>
-         <attDef ident="sameAs" mode="delete"/>
-         <attDef ident="copyOf" mode="delete"/>
-         <attDef ident="next" mode="delete"/>
-         <attDef ident="prev" mode="delete"/>
-         <attDef ident="exclude" mode="delete"/>
-         <attDef ident="select" mode="delete"/>
-         <attDef ident="ana" mode="delete"/>
-         <attDef ident="facs" mode="delete"/>
-         <attDef ident="change" mode="delete"/>
-         <attDef ident="cert" mode="delete"/>
-         <attDef ident="resp" mode="delete"/>
-         <attDef ident="source" mode="delete"/>
-         <attDef ident="full" mode="delete"/>
-         <attDef ident="sort" mode="delete"/>
-         <attDef ident="role" mode="delete"/>
-         <attDef ident="nymRef" mode="delete"/>
-         <attDef ident="key" mode="delete"/>
-         <attDef ident="ref" mode="delete"/>
-         <attDef ident="type" mode="delete"/>
-         <attDef ident="subtype" mode="delete"/>
-      </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <desc versionDate="2005-10-16" xml:lang="en">contains a forename, given or baptismal name.</desc>
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <persName>
                <roleName>Ex-President</roleName>
@@ -2429,9 +2409,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="addName" module="namesdates" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2005-01-14"
-            xml:lang="en">contains an additional name component, such as a nickname, epithet, or alias, or any other descriptive phrase used within a personal
+      <desc versionDate="2005-01-14" xml:lang="en">contains an additional name component, such as a nickname, epithet, or alias, or any other descriptive phrase used within a personal
     name.</desc>
       <content>
          <textNode/>
@@ -2468,20 +2446,18 @@
          <attDef ident="type" mode="delete"/>
          <attDef ident="subtype" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
+      <exemplum xml:lang="en">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <persName>
-               <forename>Frederick</forename>
-               <addName type="epithet">the Great</addName>
-               <roleName>Emperor of Prussia</roleName>
+               <surname>Möderndorfer</surname>
+               <forename>Jani</forename>
+               <addName>Janko</addName>
             </persName>
          </egXML>
       </exemplum>
    </elementSpec>
    <elementSpec ident="nameLink" module="namesdates" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2005-01-14"
-            xml:lang="en">contains a connecting phrase or link used within a name but not regarded as part of it, such as <mentioned>van der</mentioned> or
+      <desc versionDate="2005-01-14" xml:lang="en">contains a connecting phrase or link used within a name but not regarded as part of it, such as <mentioned>van der</mentioned> or
     <mentioned>of</mentioned>.</desc>
       <content>
          <textNode/>
@@ -2514,9 +2490,7 @@
       </attList>
    </elementSpec>
    <elementSpec ident="roleName" module="namesdates" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2005-01-14"
-            xml:lang="en">contains a name component which indicates that the referent has a particular role or position in society, such as an official title or
+      <desc versionDate="2005-01-14" xml:lang="en">contains a name component which indicates that the referent has a particular role or position in society, such as an official title or
     rank.</desc>
       <content>
          <textNode/>
@@ -2553,7 +2527,7 @@
          <attDef ident="type" mode="delete"/>
          <attDef ident="subtype" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <persName>
                <forename>William</forename>
@@ -2562,17 +2536,13 @@
             </persName>
          </egXML>
       </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en"
-                versionDate="2019-07-15">
+      <exemplum xml:lang="en" versionDate="2019-07-15">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <p>The <roleName role="#solicitor_general">S.G.</roleName> is the only national public official,
 	including the Supreme Court justices, required by statute to be “learned in the law.”</p>
          </egXML>
       </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en"
-                versionDate="2019-07-15">
+      <exemplum xml:lang="en" versionDate="2019-07-15">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <p>
                <persName ref="#NJF">
@@ -2585,9 +2555,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="surname" module="namesdates" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2005-01-14"
-            xml:lang="en">contains a family (inherited) name, as opposed to a given, baptismal, or nick name.</desc>
+      <desc versionDate="2005-01-14" xml:lang="en">contains a family (inherited) name, as opposed to a given, baptismal, or nick name.</desc>
       <content>
          <textNode/>
       </content>
@@ -2623,7 +2591,7 @@
          <attDef ident="type" mode="delete"/>
          <attDef ident="subtype" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <surname type="combine">St John Stevas</surname>
          </egXML>
@@ -2689,9 +2657,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="funder" module="header" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2005-01-14"
-            xml:lang="en">specifies the name of an individual, institution, or organization responsible for the
+      <desc versionDate="2005-01-14" xml:lang="en">specifies the name of an individual, institution, or organization responsible for the
     funding of a project or text.</desc>
       <content>
          <elementRef key="orgName" minOccurs="1" maxOccurs="unbounded"/>
@@ -2741,7 +2707,7 @@
          <attDef ident="datingPoint" mode="delete"/>
          <attDef ident="datingMethod" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <funder>The National Endowment for the Humanities, an independent federal agency</funder>
             <funder>Directorate General XIII of the Commission of the European Communities</funder>
@@ -2751,9 +2717,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="orgName" module="namesdates" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2005-01-14"
-            xml:lang="en">contains an organizational name.</desc>
+      <desc versionDate="2005-01-14" xml:lang="en">contains an organizational name.</desc>
       <content>
          <textNode/>
       </content>
@@ -2823,7 +2787,7 @@
          <attDef ident="type" mode="delete"/>
          <attDef ident="subtype" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <funder>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
@@ -2831,9 +2795,9 @@
             </funder>
          </egXML>
       </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-            <org xml:id="party.PS" role="politicalParty">
+            <org xml:id="party.PS1" role="politicalParty">
                <orgName full="yes" xml:lang="en">Positive Slovenia</orgName>
                <orgName full="yes" xml:lang="sl">Pozitivna Slovenija</orgName>
                <orgName full="init" xml:lang="sl">PS</orgName>
@@ -2842,9 +2806,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="editionStmt" module="header" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2005-01-14"
-            xml:lang="en">groups information relating to one edition of a text.</desc>
+      <desc versionDate="2005-01-14" xml:lang="en">groups information relating to one edition of a text.</desc>
       <content>
          <elementRef key="edition" minOccurs="1" maxOccurs="1"/>
       </content>
@@ -2872,7 +2834,7 @@
          <attDef ident="resp" mode="delete"/>
          <attDef ident="source" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <editionStmt>
                <edition n="S2">Students' edition</edition>
@@ -2883,7 +2845,7 @@
             </editionStmt>
          </egXML>
       </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <editionStmt>
                <p>First edition, <date>Michaelmas Term, 1991.</date>
@@ -2893,9 +2855,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="edition" module="header" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2005-01-14"
-            xml:lang="en">describes the particularities of one edition of a text.</desc>
+      <desc versionDate="2005-01-14" xml:lang="en">describes the particularities of one edition of a text.</desc>
       <content>
          <textNode/>
       </content>
@@ -2922,7 +2882,7 @@
          <attDef ident="resp" mode="delete"/>
          <attDef ident="source" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <edition>First edition <date>Oct 1990</date>
             </edition>
@@ -2931,9 +2891,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="extent" module="header" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2013-01-07"
-            xml:lang="en">describes the approximate size of a text stored on some carrier medium or of some other object, digital  or non-digital,  specified in any convenient units.</desc>
+      <desc versionDate="2013-01-07" xml:lang="en">describes the approximate size of a text stored on some carrier medium or of some other object, digital  or non-digital,  specified in any convenient units.</desc>
       <content>
          <elementRef key="measure" minOccurs="1" maxOccurs="unbounded"/>
       </content>
@@ -2961,16 +2919,14 @@
          <attDef ident="resp" mode="delete"/>
          <attDef ident="source" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <extent>3200 sentences</extent>
             <extent>between 10 and 20 Mb</extent>
             <extent>ten 3.5 inch high density diskettes</extent>
          </egXML>
       </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude"
-                versionDate="2016-11-04"
-                xml:lang="en">
+      <exemplum versionDate="2016-11-04" xml:lang="en">
          <p>The  <gi>measure</gi> element may be used to supply normalised
       or machine tractable versions of the size or sizes concerned.</p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
@@ -3055,9 +3011,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="publicationStmt" module="header" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2005-01-14"
-            xml:lang="en">groups information concerning the publication or distribution of an electronic or other text.</desc>
+      <desc versionDate="2005-01-14" xml:lang="en">groups information concerning the publication or distribution of an electronic or other text.</desc>
       <content>
          <elementRef key="publisher"/>
          <elementRef key="idno"/>
@@ -3089,7 +3043,7 @@
          <attDef ident="resp" mode="delete"/>
          <attDef ident="source" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <publicationStmt>
                <publisher>Chadwyck Healey</publisher>
@@ -3101,7 +3055,7 @@
             </publicationStmt>
          </egXML>
       </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <publicationStmt>
                <publisher>Zea Books</publisher>
@@ -3163,9 +3117,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="idno" module="header" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2010-04-30"
-            xml:lang="en">supplies any form of identifier used to identify some object,
+      <desc versionDate="2010-04-30" xml:lang="en">supplies any form of identifier used to identify some object,
     such as a bibliographic item, a person, a title, an organization,
     etc. in a standardized way.</desc>
       <content>
@@ -3276,9 +3228,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="availability" module="header" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2011-11-17"
-            xml:lang="en">supplies information about the availability of a text, for example any restrictions on its
+      <desc versionDate="2011-11-17" xml:lang="en">supplies information about the availability of a text, for example any restrictions on its
     use or distribution, its copyright status, any licence applying to it, etc.</desc>
       <content>
          <elementRef key="licence"/>
@@ -3314,20 +3264,18 @@
          <attDef ident="source" mode="delete"/>
          <attDef ident="default" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <availability status="restricted">
-               <p>Available for academic research purposes only.</p>
-            </availability>
+      <exemplum xml:lang="en">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <availability status="free">
-               <p>In the public domain</p>
-            </availability>
-            <availability status="restricted">
-               <p>Available under licence from the publishers.</p>
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="hr">Ovaj rad je dostupan pod <ref target="http://creativecommons.org/licenses/by/4.0/">međunarodnom licencom Creative Commons Imenovanje 4.0</ref>
+               </p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
             </availability>
          </egXML>
       </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <availability>
                <licence target="http://opensource.org/licenses/MIT">
@@ -3355,9 +3303,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="licence" module="header" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2011-04-25"
-            xml:lang="en">contains information about a licence or other legal agreement
+      <desc versionDate="2011-04-25" xml:lang="en">contains information about a licence or other legal agreement
     applicable to the text.</desc>
       <content>
          <dataRef name="anyURI"/>
@@ -3408,14 +3354,14 @@
          <attDef ident="datingPoint" mode="delete"/>
          <attDef ident="datingMethod" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <licence target="http://www.nzetc.org/tm/scholarly/tei-NZETC-Help.html#licensing">
           Licence: Creative Commons Attribution-Share Alike 3.0 New Zealand Licence
 	</licence>
          </egXML>
       </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/"
@@ -3478,9 +3424,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="sourceDesc" module="header" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2008-12-09"
-            xml:lang="en">describes the source(s) from which an electronic text was derived or generated, typically a
+      <desc versionDate="2008-12-09" xml:lang="en">describes the source(s) from which an electronic text was derived or generated, typically a
     bibliographic description in the case of a digitized text, or a phrase such as "born digital"
     for a text which has no previous existence.</desc>
       <content>
@@ -3512,7 +3456,7 @@
          <attDef ident="source" mode="delete"/>
          <attDef ident="default" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <sourceDesc>
                <bibl>
@@ -3523,7 +3467,7 @@
             </sourceDesc>
          </egXML>
       </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <sourceDesc>
                <p>Born digital: no previous source exists.</p>
@@ -3573,49 +3517,21 @@
          <attDef ident="status" mode="delete"/>
       </attList>
       <exemplum xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <bibl>Blain, Clements and Grundy: Feminist Companion to Literature in English (Yale,
-	1990)</bibl>
-         </egXML>
-      </exemplum>
-      <exemplum xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <bibl>
-               <title level="a">The Interesting story of the Children in the Wood</title>. In
-          <author>Victor E Neuberg</author>, <title>The Penny Histories</title>.
-          <publisher>OUP</publisher>
-               <date>1968</date>. </bibl>
+               <title type="main">Minutes of the National Assembly of the Republic of Bulgaria</title>
+               <date when="2020-03-11">2020-03-11</date>
+            </bibl>
          </egXML>
       </exemplum>
       <exemplum xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <bibl type="article" subtype="book_chapter" xml:id="carlin_2003">
-               <author>
-                  <name>
-                     <surname>Carlin</surname>
-            (<forename>Claire</forename>)</name>
-               </author>,
-            <title level="a">The Staging of Impotence : France’s last
-            congrès</title> dans
-            <bibl type="monogr">
-                  <title level="m">Theatrum mundi : studies in honor of Ronald W.
-              Tobin</title>, éd.
-              <editor>
-                     <name>
-                        <forename>Claire</forename>
-                        <surname>Carlin</surname>
-                     </name>
-                  </editor> et
-		<editor>
-                     <name>
-                        <forename>Kathleen</forename>
-                        <surname>Wine</surname>
-                     </name>
-                  </editor>,
-		  <pubPlace>Charlottesville, Va.</pubPlace>,
-		  <publisher>Rookwood Press</publisher>,
-		  <date when="2003">2003</date>.
-            </bibl>
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+            <bibl>
+               <title type="main" xml:lang="en">https://www.tbmm.gov.tr/tutanak/donem24/yil2/bas/b013m.htm</title>
+               <edition xml:lang="en">Official session record</edition>
+               <publisher xml:lang="en">The Turkish Parliament</publisher>
+               <idno type="URI">https://www.tbmm.gov.tr/</idno>
+               <date when="2011-10-27">2011-10-27</date>
             </bibl>
          </egXML>
       </exemplum>
@@ -3817,9 +3733,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="encodingDesc" module="header" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2005-01-14"
-            xml:lang="en">documents the relationship between an electronic text and the
+      <desc versionDate="2005-01-14" xml:lang="en">documents the relationship between an electronic text and the
     source or sources from which it was derived.</desc>
       <content>
          <elementRef key="projectDesc"/>
@@ -3853,7 +3767,7 @@
          <attDef ident="resp" mode="delete"/>
          <attDef ident="source" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <encodingDesc>
                <p>Basic encoding, capturing lexical information only. All
@@ -3864,9 +3778,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="projectDesc" module="header" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2005-01-14"
-            xml:lang="en">describes in detail the aim or purpose for which an electronic file was encoded, together
+      <desc versionDate="2005-01-14" xml:lang="en">describes in detail the aim or purpose for which an electronic file was encoded, together
     with any other relevant information concerning the process by which it was assembled or
     collected.</desc>
       <content>
@@ -3897,7 +3809,7 @@
          <attDef ident="source" mode="delete"/>
          <attDef ident="default" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <projectDesc>
                <p>Texts collected for use in the Claremont Shakespeare Clinic, June 1990</p>
@@ -3906,9 +3818,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="editorialDecl" module="header" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2005-01-14"
-            xml:lang="en">provides details of editorial principles and practices applied
+      <desc versionDate="2005-01-14" xml:lang="en">provides details of editorial principles and practices applied
     during the encoding of a text.</desc>
       <content>
          <alternate minOccurs="1" maxOccurs="unbounded">
@@ -3944,7 +3854,7 @@
          <attDef ident="source" mode="delete"/>
          <attDef ident="default" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <editorialDecl>
                <normalization>
@@ -3961,9 +3871,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="correction" module="header" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2005-01-14"
-            xml:lang="en">states how and under what circumstances corrections have been made in the text.</desc>
+      <desc versionDate="2005-01-14" xml:lang="en">states how and under what circumstances corrections have been made in the text.</desc>
       <content>
          <elementRef key="p" minOccurs="1" maxOccurs="unbounded"/>
       </content>
@@ -3994,20 +3902,18 @@
          <attDef ident="source" mode="delete"/>
          <attDef ident="default" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <correction>
-               <p>Errors in transcription controlled by using the WordPerfect spelling checker, with a user
-          defined dictionary of 500 extra words taken from Chambers Twentieth Century
-          Dictionary.</p>
-            </correction>
+            <editorialDecl>
+               <correction>
+                  <p>No correction of source texts was performed.</p>
+               </correction>
+            </editorialDecl>
          </egXML>
       </exemplum>
    </elementSpec>
    <elementSpec ident="normalization" module="header" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2005-01-14"
-            xml:lang="en">indicates the extent of normalization or regularization of the original source carried out
+      <desc versionDate="2005-01-14" xml:lang="en">indicates the extent of normalization or regularization of the original source carried out
     in converting it to electronic form.</desc>
       <content>
          <elementRef key="p" minOccurs="1" maxOccurs="unbounded"/>
@@ -4038,7 +3944,7 @@
          <attDef ident="source" mode="delete"/>
          <attDef ident="default" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <editorialDecl>
                <normalization method="markup">
@@ -4060,9 +3966,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="hyphenation" module="header" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2005-01-14"
-            xml:lang="en">summarizes the way in which hyphenation in a source text has been treated in an encoded
+      <desc versionDate="2005-01-14" xml:lang="en">summarizes the way in which hyphenation in a source text has been treated in an encoded
     version of it.</desc>
       <content>
          <elementRef key="p" minOccurs="1" maxOccurs="unbounded"/>
@@ -4093,7 +3997,7 @@
          <attDef ident="source" mode="delete"/>
          <attDef ident="default" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <hyphenation eol="some">
                <p>End-of-line hyphenation silently removed where appropriate</p>
@@ -4102,9 +4006,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="quotation" module="header" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2005-01-14"
-            xml:lang="en">specifies editorial practice adopted with respect to quotation marks in the original.</desc>
+      <desc versionDate="2005-01-14" xml:lang="en">specifies editorial practice adopted with respect to quotation marks in the original.</desc>
       <content>
          <elementRef key="p" minOccurs="1" maxOccurs="unbounded"/>
       </content>
@@ -4134,7 +4036,7 @@
          <attDef ident="source" mode="delete"/>
          <attDef ident="default" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <quotation marks="none">
                <p>No quotation marks have been retained. Instead, the <att>rend</att> attribute on the
@@ -4153,7 +4055,7 @@
             </quotation>
          </egXML>
       </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <quotation marks="all">
                <p>All quotation marks are retained in the text and are represented by appropriate Unicode
@@ -4163,9 +4065,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="segmentation" module="header" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2005-01-14"
-            xml:lang="en">describes the principles according to which the text has been segmented, for example into
+      <desc versionDate="2005-01-14" xml:lang="en">describes the principles according to which the text has been segmented, for example into
     sentences, tone-units, graphemic strata, etc.</desc>
       <content>
          <elementRef key="p" minOccurs="1" maxOccurs="unbounded"/>
@@ -4195,7 +4095,7 @@
          <attDef ident="source" mode="delete"/>
          <attDef ident="default" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <segmentation>
                <p>
@@ -4204,7 +4104,7 @@
             </segmentation>
          </egXML>
       </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <p>
                <gi>seg</gi> elements are used to mark functional constituents of various types within each
@@ -4215,9 +4115,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="tagsDecl" module="header" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2007-04-27"
-            xml:lang="en">provides detailed information about the tagging applied to a document.</desc>
+      <desc versionDate="2007-04-27" xml:lang="en">provides detailed information about the tagging applied to a document.</desc>
       <content>
          <elementRef key="namespace"/>
       </content>
@@ -4246,9 +4144,7 @@
          <attDef ident="resp" mode="delete"/>
          <attDef ident="source" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en"
-                versionDate="2016-12-05">
+      <exemplum xml:lang="en" versionDate="2016-12-05">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <tagsDecl partial="true">
                <rendition xml:id="rend-it" scheme="css" selector="emph, hi, name, title">font-style: italic;</rendition>
@@ -4266,9 +4162,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="namespace" module="header" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2006-02-07"
-            xml:lang="en">supplies the formal name of the namespace to which the elements documented by its children
+      <desc versionDate="2006-02-07" xml:lang="en">supplies the formal name of the namespace to which the elements documented by its children
     belong.</desc>
       <content>
          <elementRef key="tagUsage" minOccurs="1" maxOccurs="unbounded"/>
@@ -4302,7 +4196,7 @@
          <attDef ident="resp" mode="delete"/>
          <attDef ident="source" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="hi" occurs="28" withId="2"> Used only to mark English words
@@ -4312,9 +4206,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="tagUsage" module="header" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2016-02-16"
-            xml:lang="en">documents the usage of a specific element within a specified document.</desc>
+      <desc versionDate="2016-02-16" xml:lang="en">documents the usage of a specific element within a specified document.</desc>
       <content>
     </content>
       <attList>
@@ -4349,9 +4241,7 @@
          <attDef ident="resp" mode="delete"/>
          <attDef ident="source" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en"
-                versionDate="2016-12-05">
+      <exemplum xml:lang="en" versionDate="2016-12-05">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <tagsDecl partial="true">
                <rendition xml:id="it" scheme="css" selector="foreign, hi"> font-style: italic; </rendition>
@@ -4366,9 +4256,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="classDecl" module="header" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2005-01-14"
-            xml:lang="en">contains one or more taxonomies defining any classificatory
+      <desc versionDate="2005-01-14" xml:lang="en">contains one or more taxonomies defining any classificatory
     codes used elsewhere in the text.</desc>
       <content>
          <elementRef key="taxonomy" minOccurs="1" maxOccurs="unbounded"/>
@@ -4397,28 +4285,35 @@
          <attDef ident="resp" mode="delete"/>
          <attDef ident="source" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
+      <exemplum xml:lang="en">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <classDecl>
-               <taxonomy xml:id="LCSH">
-                  <bibl>Library of Congress Subject Headings</bibl>
+               <taxonomy xml:id="subcorpus">
+                  <desc xml:lang="cs">
+                     <term>Podkorpusy</term>
+                  </desc>
+                  <desc xml:lang="en">
+                     <term>Subcorpora</term>
+                  </desc>
+                  <category xml:id="reference">
+                     <catDesc xml:lang="cs">
+                        <term>Referenční</term>: referenční podkorpus, do 2019-10-31</catDesc>
+                     <catDesc xml:lang="en">
+                        <term>Reference</term>: reference subcorpus, until 2019-10-31</catDesc>
+                  </category>
+                  <category xml:id="covid">
+                     <catDesc xml:lang="cs">
+                        <term>COVID</term>: COVID podkorpus, od 2019-11-01 dále</catDesc>
+                     <catDesc xml:lang="en">
+                        <term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
+                  </category>
                </taxonomy>
             </classDecl>
-            <!-- ... -->
-            <textClass>
-               <keywords scheme="#LCSH">
-                  <term>Political science</term>
-                  <term>United States -- Politics and government —
-            Revolution, 1775-1783</term>
-               </keywords>
-            </textClass>
          </egXML>
       </exemplum>
    </elementSpec>
    <elementSpec ident="taxonomy" module="header" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2011-11-02"
-            xml:lang="en">defines a typology either implicitly, by means of a bibliographic
+      <desc versionDate="2011-11-02" xml:lang="en">defines a typology either implicitly, by means of a bibliographic
     citation, or explicitly by a structured taxonomy.</desc>
       <content>
          <elementRef key="desc" minOccurs="1" maxOccurs="unbounded"/>
@@ -4448,7 +4343,7 @@
          <attDef ident="resp" mode="delete"/>
          <attDef ident="source" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <taxonomy xml:id="tax.b">
                <bibl>Brown Corpus</bibl>
@@ -4485,7 +4380,7 @@
             </taxonomy>
          </egXML>
       </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <taxonomy>
                <category xml:id="literature">
@@ -4540,9 +4435,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="category" module="header" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2005-01-14"
-            xml:lang="en">contains an individual descriptive category, possibly nested within a superordinate
+      <desc versionDate="2005-01-14" xml:lang="en">contains an individual descriptive category, possibly nested within a superordinate
     category, within a user-defined taxonomy.</desc>
       <content>
          <elementRef key="catDesc" minOccurs="1" maxOccurs="unbounded"/>
@@ -4572,31 +4465,29 @@
          <attDef ident="resp" mode="delete"/>
          <attDef ident="source" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <category xml:id="b1">
-               <catDesc>Prose reportage</catDesc>
+      <exemplum xml:lang="en">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+            <category xml:id="parla.session">
+               <catDesc xml:lang="en">
+                  <term>Session</term>: A parliamentary year, which always begins on the first Tuesday in October at 12.00 o’clock noon and ends on the same date at the same time the following year. However, parliamentary work at Christiansborg is organised in such a way that it primarily takes place from October to June.</catDesc>
             </category>
          </egXML>
       </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <category xml:id="b2">
-               <catDesc>Prose </catDesc>
-               <category xml:id="b11">
-                  <catDesc>journalism</catDesc>
-               </category>
-               <category xml:id="b12">
-                  <catDesc>fiction</catDesc>
-               </category>
+      <exemplum xml:lang="en">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+            <category xml:id="parla.term">
+               <catDesc xml:lang="nl">
+                  <term>Zittingsperiode</term>
+               </catDesc>
+               <catDesc xml:lang="en">
+                  <term>Legislative period</term>
+               </catDesc>
             </category>
          </egXML>
       </exemplum>
    </elementSpec>
    <elementSpec ident="catDesc" module="core" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2005-01-14"
-            xml:lang="en">describes some category within a taxonomy or text typology, either in the form of a brief
+      <desc versionDate="2005-01-14" xml:lang="en">describes some category within a taxonomy or text typology, either in the form of a brief
     prose description or in terms of the situational parameters used by the TEI formal <gi>textDesc</gi>.</desc>
       <content>
          <sequence>
@@ -4632,33 +4523,21 @@
          <attDef ident="key" mode="delete"/>
          <attDef ident="ref" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <catDesc>Prose reportage</catDesc>
-         </egXML>
-      </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <catDesc>
-               <textDesc n="novel">
-                  <channel mode="w">print; part issues</channel>
-                  <constitution type="single"/>
-                  <derivation type="original"/>
-                  <domain type="art"/>
-                  <factuality type="fiction"/>
-                  <interaction type="none"/>
-                  <preparedness type="prepared"/>
-                  <purpose type="entertain" degree="high"/>
-                  <purpose type="inform" degree="medium"/>
-               </textDesc>
-            </catDesc>
+      <exemplum xml:lang="en">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+            <category xml:id="parla.organization">
+               <catDesc xml:lang="en">
+                  <term>Organization</term>
+               </catDesc>
+               <catDesc xml:lang="bg">
+                  <term>Организация</term>
+               </catDesc>
+            </category>
          </egXML>
       </exemplum>
    </elementSpec>
    <elementSpec ident="listPrefixDef" module="header" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2012-11-23"
-            xml:lang="en">contains a list of definitions of prefixing schemes used in <ident type="datatype">teidata.pointer</ident> values, showing how abbreviated URIs using each scheme may be expanded into full URIs.</desc>
+      <desc versionDate="2012-11-23" xml:lang="en">contains a list of definitions of prefixing schemes used in <ident type="datatype">teidata.pointer</ident> values, showing how abbreviated URIs using each scheme may be expanded into full URIs.</desc>
       <content>
          <elementRef key="prefixDef" minOccurs="1" maxOccurs="unbounded"/>
       </content>
@@ -4686,9 +4565,7 @@
          <attDef ident="resp" mode="delete"/>
          <attDef ident="source" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en"
-                versionDate="2012-11-22">
+      <exemplum xml:lang="en" versionDate="2012-11-22">
          <p>In this example, two private URI scheme prefixes are defined and patterns are provided 
       for dereferencing them. Each prefix is also supplied with a human-readable explanation in a
       <gi>p</gi> element.</p>
@@ -4719,9 +4596,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="prefixDef" module="header" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2012-12-26"
-            xml:lang="en">defines a prefixing scheme used in <ident type="datatype">teidata.pointer</ident> values,
+      <desc versionDate="2012-12-26" xml:lang="en">defines a prefixing scheme used in <ident type="datatype">teidata.pointer</ident> values,
     showing how abbreviated URIs using the scheme may be expanded into full URIs.</desc>
       <content>
          <elementRef key="p" minOccurs="1" maxOccurs="unbounded"/>
@@ -4757,9 +4632,7 @@
          <attDef ident="resp" mode="delete"/>
          <attDef ident="source" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en"
-                versionDate="2012-11-22">
+      <exemplum xml:lang="en" versionDate="2012-11-22">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <prefixDef ident="ref"
                        matchPattern="([a-z]+)"
@@ -4774,9 +4647,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="appInfo" module="header" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2007-07-31"
-            xml:lang="en">records information about an application which has
+      <desc versionDate="2007-07-31" xml:lang="en">records information about an application which has
     edited the TEI file.</desc>
       <content>
          <elementRef key="application" minOccurs="1" maxOccurs="unbounded"/>
@@ -4805,21 +4676,34 @@
          <attDef ident="resp" mode="delete"/>
          <attDef ident="source" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
+      <exemplum xml:lang="en">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <appInfo>
-               <application version="1.24" ident="Xaira">
-                  <label>XAIRA Indexer</label>
-                  <ptr target="#P1"/>
+               <application version="4.0" ident="stanford-corenlp">
+                  <label>Stanford CoreNLP</label>
+                  <desc>Tokenisation, POS tagging, NER and dependency parsed using Stanford CoreNLP <ref target="https://stanfordnlp.github.io/CoreNLP/">https://stanfordnlp.github.io/CoreNLP/</ref>.</desc>
+               </application>
+            </appInfo>
+         </egXML>
+      </exemplum>
+      <exemplum xml:lang="en">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+            <appInfo>
+               <application version="1.0" ident="reldi-tokeniser">
+                  <label>ReLDI tokeniser</label>
+               </application>
+               <application version="1.0" ident="classla-stanfordnlp">
+                  <label>CLASSLA-StanfordNLP</label>
+               </application>
+               <application version="1.0" ident="janes-ner">
+                  <label>NER system for South Slavic languages</label>
                </application>
             </appInfo>
          </egXML>
       </exemplum>
    </elementSpec>
    <elementSpec ident="application" module="header" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2007-07-31"
-            xml:lang="en">provides information about an application which has acted upon the document.</desc>
+      <desc versionDate="2007-07-31" xml:lang="en">provides information about an application which has acted upon the document.</desc>
       <content>
          <elementRef key="label"/>
          <elementRef key="desc" minOccurs="1" maxOccurs="unbounded"/>
@@ -4871,7 +4755,7 @@
          <attDef ident="datingPoint" mode="delete"/>
          <attDef ident="datingMethod" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <appInfo>
                <application version="1" ident="app-stanza">
@@ -4892,7 +4776,7 @@
             </appInfo>
          </egXML>
       </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <appInfo>
                <application version="4.0" ident="stanford-corenlp">
@@ -5045,9 +4929,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="profileDesc" module="header" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2005-01-14"
-            xml:lang="en">provides a detailed description of non-bibliographic aspects of a text, specifically the
+      <desc versionDate="2005-01-14" xml:lang="en">provides a detailed description of non-bibliographic aspects of a text, specifically the
     languages and sublanguages used, the situation in which it was produced, the participants and
     their setting.</desc>
       <content>
@@ -5080,7 +4962,7 @@
          <attDef ident="resp" mode="delete"/>
          <attDef ident="source" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <profileDesc>
                <langUsage>
@@ -5192,9 +5074,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="textClass" module="header" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2005-01-14"
-            xml:lang="en">groups information which describes the nature or topic of a text in terms of a standard
+      <desc versionDate="2005-01-14" xml:lang="en">groups information which describes the nature or topic of a text in terms of a standard
     classification scheme, thesaurus, etc.</desc>
       <content>
          <elementRef key="catRef"/>
@@ -5224,7 +5104,7 @@
          <attDef ident="source" mode="delete"/>
          <attDef ident="default" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <taxonomy>
                <category xml:id="acprose">
@@ -5247,9 +5127,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="catRef" module="header" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2005-01-14"
-            xml:lang="en">specifies one or more defined categories within some taxonomy or text typology.</desc>
+      <desc versionDate="2005-01-14" xml:lang="en">specifies one or more defined categories within some taxonomy or text typology.</desc>
       <content/>
       <attList>
          <attDef ident="scheme" mode="change" usage="req"/>
@@ -5279,21 +5157,19 @@
          <attDef ident="targetLang" mode="delete"/>
          <attDef ident="evaluate" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude"
-                versionDate="2013-12-20"
-                xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <catRef scheme="#myTopics" target="#news #prov #sales2"/>
+      <exemplum versionDate="2013-12-20" xml:lang="en">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+            <catRef scheme="#parla.legislature" target="#parla.uni"/>
             <!-- elsewhere -->
-            <taxonomy xml:id="myTopics">
-               <category xml:id="news">
-                  <catDesc>Newspapers</catDesc>
-               </category>
-               <category xml:id="prov">
-                  <catDesc>Provincial</catDesc>
-               </category>
-               <category xml:id="sales2">
-                  <catDesc>Low to average annual sales</catDesc>
+            <taxonomy xml:id="parla.legislature">
+	  <!--...-->
+               <category xml:id="parla.uni">
+                  <catDesc xml:lang="lt">
+                     <term>Vienų rūmų parlamentas</term>
+                  </catDesc>
+                  <catDesc xml:lang="en">
+                     <term>Unicameralism</term>
+                  </catDesc>
                </category>
             </taxonomy>
          </egXML>
@@ -5335,32 +5211,32 @@
          <attDef ident="default" mode="delete"/>
       </attList>
       <exemplum xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <particDesc>
+               <listOrg>
+                  <org role="politicalGroup" xml:id="politicalGroup.LVŽSF">
+                     <orgName full="yes" xml:lang="lt">Lietuvos valstiečių ir žaliųjų sąjungos frakcija</orgName>
+                     <orgName full="init">LVŽSF</orgName>
+                     <orgName full="yes" xml:lang="en">Faction of the Lithuanian Farmers and Greens Union</orgName>
+                  </org>
+                  <!--...-->
+               </listOrg>
                <listPerson>
-                  <person xml:id="P-1234" sex="2" age="mid">
-                     <p>Female informant, well-educated, born in
-              Shropshire UK, 12 Jan 1950, of unknown occupation. Speaks French fluently.
-              Socio-Economic status B2.</p>
-                  </person>
-                  <person xml:id="P-4332" sex="1">
+                  <head xml:lang="lt">Pasisakiusiųjų sąrašas</head>
+                  <head xml:lang="en">List of speakers</head>
+                  <person xml:id="AčienėVida">
                      <persName>
-                        <surname>Hancock</surname>
-                        <forename>Antony</forename>
-                        <forename>Aloysius</forename>
-                        <forename>St John</forename>
+                        <forename>Vida</forename>
+                        <surname>Ačienė</surname>
                      </persName>
-                     <residence notAfter="1959">
-                        <address>
-                           <street>Railway Cuttings</street>
-                           <settlement>East Cheam</settlement>
-                        </address>
-                     </residence>
-                     <occupation>comedian</occupation>
                   </person>
-                  <listRelation>
-                     <relation type="personal" name="spouse" mutual="#P-1234 #P-4332"/>
-                  </listRelation>
+                  <person xml:id="GustainisŠarūnas">
+                     <persName>
+                        <forename>Šarūnas</forename>
+                        <surname>Gustainis</surname>
+                     </persName>
+                  </person>
+                  <!--...-->
                </listPerson>
             </particDesc>
          </egXML>
@@ -5369,9 +5245,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="listOrg" module="namesdates" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2008-04-29"
-            xml:lang="en">contains a list of elements, each of which provides information about an identifiable
+      <desc versionDate="2008-04-29" xml:lang="en">contains a list of elements, each of which provides information about an identifiable
     organization.</desc>
       <content>
          <sequence>
@@ -5408,7 +5282,7 @@
          <attDef ident="default" mode="delete"/>
          <attDef ident="sortKey" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <listOrg>
                <org xml:id="government.GB" role="government">
@@ -5514,9 +5388,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="org" module="namesdates" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2007-06-14"
-            xml:lang="en">provides information
+      <desc versionDate="2007-06-14" xml:lang="en">provides information
     about an identifiable organization such as a business, a tribe, or
     any other grouping of people.</desc>
       <content>
@@ -5588,7 +5460,7 @@
          <attDef ident="instant" mode="delete"/>
          <attDef ident="sortKey" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <org xml:id="boardOfDirectors.SRVZP.438" role="boardOfDirectors">
                <orgName full="yes" xml:lang="cs">Správní rada VZP</orgName>
@@ -5600,9 +5472,9 @@
             </org>
          </egXML>
       </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-            <org xml:id="party.PS" role="politicalParty">
+            <org xml:id="party.PS2" role="politicalParty">
                <orgName full="yes" xml:lang="sl">Pozitivna Slovenija</orgName>
                <orgName full="yes" xml:lang="en">Positive Slovenia</orgName>
                <orgName full="init">PS</orgName>
@@ -5616,9 +5488,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="event" module="namesdates" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2007-08-01"
-            xml:lang="en">contains data relating to any kind of significant event associated with a person, place, or organization.</desc>
+      <desc versionDate="2007-08-01" xml:lang="en">contains data relating to any kind of significant event associated with a person, place, or organization.</desc>
       <content>
          <elementRef key="label" minOccurs="1" maxOccurs="unbounded"/>
       </content>
@@ -5691,9 +5561,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="listEvent" module="namesdates" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2009-01-21"
-            xml:lang="en">contains a list of descriptions, each of which provides information
+      <desc versionDate="2009-01-21" xml:lang="en">contains a list of descriptions, each of which provides information
     about an identifiable event.</desc>
       <content>
          <sequence>
@@ -5729,7 +5597,7 @@
          <attDef ident="default" mode="delete"/>
          <attDef ident="sortKey" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <listEvent>
                <event xml:id="GOV.11" from="2013-03-20" to="2014-09-18">
@@ -5744,7 +5612,7 @@
             </listEvent>
          </egXML>
       </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <org ana="#parla.national #parla.upper" role="parliament" xml:id="LEG">
                <orgName full="yes" xml:lang="it">Senato della Repubblica Italiana</orgName>
@@ -5765,9 +5633,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="listRelation" module="namesdates" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2011-12-02"
-            xml:lang="en">provides information about relationships identified amongst people, places, and
+      <desc versionDate="2011-12-02" xml:lang="en">provides information about relationships identified amongst people, places, and
     organizations, either informally as prose or as formally expressed relation links.</desc>
       <content>
          <elementRef key="relation" minOccurs="1" maxOccurs="unbounded"/>
@@ -5799,7 +5665,7 @@
          <attDef ident="subtype" mode="delete"/>
          <attDef ident="sortKey" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <listPerson>
                <person xml:id="pp1">
@@ -5821,9 +5687,7 @@
          <p>The persons with identifiers pp1 and pp2 are the parents of pp3 and pp4; they are also married to
       each other; pp1 is the employer of pp3, pp5, pp6, and pp7.</p>
       </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en"
-                versionDate="2017-06-30">
+      <exemplum xml:lang="en" versionDate="2017-06-30">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <listPerson>
                <person xml:id="en_pp1">
@@ -5846,7 +5710,7 @@
          </egXML>
          <p>The persons with identifiers en_pp1 and en_pp2 live in en_pl1.</p>
       </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <listRelation>
                <p>All speakers are members of the Ceruli family, born in Naples.</p>
@@ -5855,9 +5719,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="relation" module="namesdates" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2013-04-12"
-            xml:lang="en">describes any kind of relationship or linkage amongst a
+      <desc versionDate="2013-04-12" xml:lang="en">describes any kind of relationship or linkage amongst a
     specified group of places, events, persons, objects or other items.</desc>
       <content/>
       <attList>
@@ -5921,7 +5783,7 @@
          <attDef ident="type" mode="delete"/>
          <attDef ident="subtype" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <relation type="social"
                       name="supervisor"
@@ -5930,13 +5792,13 @@
          </egXML>
          <p>This indicates that the person with identifier p1 is supervisor of persons p2, p3, and p4.</p>
       </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <relation type="personal" name="friends" mutual="#p2 #p3 #p4"/>
          </egXML>
          <p>This indicates that p2, p3, and p4 are all friends.</p>
       </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <relation type="CRM"
                       name="P89_falls_within"
@@ -5946,7 +5808,7 @@
          <p>This indicates that there is a relation, defined by CIDOC CRM,
       between two resources identified by URLs.</p>
       </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <relation resp="http://viaf.org/viaf/44335536/"
                       ref="http://purl.org/saws/ontology#isVariantOf"
@@ -5959,9 +5821,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="listPerson" module="namesdates" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2006-10-08"
-            xml:lang="en">contains a list of descriptions, each of which provides information about an identifiable
+      <desc versionDate="2006-10-08" xml:lang="en">contains a list of descriptions, each of which provides information about an identifiable
     person or a group of people, for example the participants in a language interaction, or the
     people referred to in a historical source.</desc>
       <content>
@@ -5998,7 +5858,7 @@
          <attDef ident="default" mode="delete"/>
          <attDef ident="sortKey" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <listPerson>
                <head>List of speakers</head>
@@ -6014,9 +5874,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="person" module="namesdates" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2005-12-14"
-            xml:lang="en">provides information about an identifiable individual, for example a participant in a language interaction, or a person referred to in a
+      <desc versionDate="2005-12-14" xml:lang="en">provides information about an identifiable individual, for example a participant in a language interaction, or a person referred to in a
     historical source.</desc>
       <content>
          <sequence>
@@ -6033,7 +5891,7 @@
             </alternate>
          </sequence>
       </content>
-      <attList><!--person/@xml:id--><!--person/@xml:lang--><!--person/@n-->
+      <attList><!-- BG uses @n --><!--person/@xml:id--><!--person/@xml:lang--><!--person/@n-->
          <attDef ident="role" mode="delete"/>
          <attDef ident="sex" mode="delete"/>
          <attDef ident="age" mode="delete"/>
@@ -6060,7 +5918,7 @@
          <attDef ident="instant" mode="delete"/>
          <attDef ident="sortKey" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <person sex="F" age="adult">
                <p>Female respondent, well-educated, born in Shropshire UK, 12 Jan 1950, of unknown occupation. Speaks French fluently. Socio-Economic
@@ -6068,7 +5926,7 @@
             </person>
          </egXML>
       </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <person sex="intersex" role="god" age="immortal">
                <persName>Hermaphroditos</persName>
@@ -6076,7 +5934,7 @@
             </person>
          </egXML>
       </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <person xml:id="Ovi01" sex="1" role="poet">
                <persName xml:lang="en">Ovid</persName>
@@ -6096,11 +5954,9 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="sex" module="namesdates" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2006-06-21"
-            xml:lang="en">specifies the sex of a person.</desc>
+      <desc versionDate="2006-06-21" xml:lang="en">specifies the sex of a person.</desc>
       <content>
-         <textNode/>
+         <empty/>
       </content>
       <attList>
          <attDef ident="value" mode="replace" usage="req">
@@ -6157,35 +6013,18 @@
          <attDef ident="type" mode="delete"/>
          <attDef ident="subtype" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <sex value="M">male</sex>
-         </egXML>
-      </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <sex value="2">female</sex>
-         </egXML>
-      </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <sex value="I">Intersex</sex>
-         </egXML>
-      </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <sex value="TG F">Female (TransWoman)</sex>
+            <sex value="M"/>
          </egXML>
       </exemplum>
    </elementSpec>
    <elementSpec ident="birth" module="namesdates" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2005-01-14"
-            xml:lang="en">contains information about a person's birth, such as its date and place.</desc>
+      <desc versionDate="2005-01-14" xml:lang="en">contains information about a person's birth, such as its date and place.</desc>
       <content>
          <alternate>
             <elementRef key="placeName" minOccurs="0" maxOccurs="1"/>
-            <textNode/>
+            <empty/>
          </alternate>
       </content>
       <attList>
@@ -6250,27 +6089,28 @@
          <attDef ident="type" mode="delete"/>
          <attDef ident="subtype" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <birth>Before 1920, Midlands region.</birth>
+      <exemplum xml:lang="en">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+            <person xml:id="ReinerŽeljko" n="1291">
+	  <!-- persName -->
+               <birth when="1953-05-28"/>
+            </person>
          </egXML>
       </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <birth when="1960-12-10">In a small cottage near <name type="place">Aix-la-Chapelle</name>,
-        early in the morning of <date>10 Dec 1960</date>
+      <exemplum xml:lang="en">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+            <birth when="1966-03-22">
+               <placeName ref="https://www.geonames.org/2523918">Palermo</placeName>
             </birth>
          </egXML>
       </exemplum>
    </elementSpec>
    <elementSpec ident="death" module="namesdates" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2005-12-13"
-            xml:lang="en">contains information about a person's death, such as its date and place.</desc>
+      <desc versionDate="2005-12-13" xml:lang="en">contains information about a person's death, such as its date and place.</desc>
       <content>
          <alternate>
             <elementRef key="placeName" minOccurs="0" maxOccurs="1"/>
-            <textNode/>
+            <empty/>
          </alternate>
       </content>
       <attList>
@@ -6335,16 +6175,14 @@
          <attDef ident="type" mode="delete"/>
          <attDef ident="subtype" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <death when="1960-12-10">Passed away near <name type="place">Aix-la-Chapelle</name>, after suffering from cerebral palsy. </death>
          </egXML>
       </exemplum>
    </elementSpec>
    <elementSpec ident="placeName" module="namesdates" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2005-01-14"
-            xml:lang="en">contains an absolute or relative place name.</desc>
+      <desc versionDate="2005-01-14" xml:lang="en">contains an absolute or relative place name.</desc>
       <content>
          <alternate>
             <elementRef key="name" minOccurs="0" maxOccurs="1"/>
@@ -6403,7 +6241,7 @@
          <attDef ident="type" mode="delete"/>
          <attDef ident="subtype" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <placeName>
                <settlement>Rochester</settlement>
@@ -6411,7 +6249,7 @@
             </placeName>
          </egXML>
       </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <placeName>
                <geogName>Arrochar Alps</geogName>
@@ -6419,7 +6257,7 @@
             </placeName>
          </egXML>
       </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <placeName>
                <measure>10 miles</measure>
@@ -6430,12 +6268,10 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="affiliation" module="namesdates" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2005-01-14"
-            xml:lang="en">contains an informal description of a person's present or past affiliation with some
+      <desc versionDate="2005-01-14" xml:lang="en">contains an informal description of a person's present or past affiliation with some
     organization, for example an employer or sponsor.</desc>
       <content>
-         <textNode/>
+         <empty/>
       </content>
       <attList>
          <attDef ident="role" mode="replace" usage="req">
@@ -6484,7 +6320,6 @@
                <valItem ident="speaker"/>
             </valList>
          </attDef>
-         <!--affiliation/@key-->
          <!--affiliation/@ref-->
          <!--affiliation/@when-->
          <!--affiliation/@from-->
@@ -6531,34 +6366,65 @@
          <attDef ident="datingPoint" mode="delete"/>
          <attDef ident="datingMethod" mode="delete"/>
          <attDef ident="nymRef" mode="delete"/>
+         <attDef ident="key" mode="delete"/>
          <attDef ident="type" mode="delete"/>
          <attDef ident="subtype" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <affiliation>Junior project officer for the US <name type="org">National Endowment for
-        the Humanities</name>
-            </affiliation>
+      <exemplum xml:lang="en">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+            <person xml:id="PeterFowler">
+               <persName>
+                  <forename>Peter</forename>
+                  <surname>Fowler</surname>
+               </persName>
+               <affiliation from="1970-06-18" ref="#parla.lower" role="MP" to="1974-02-28"/>
+               <affiliation from="1970-06-18"
+                            ref="#party.CON"
+                            role="member"
+                            to="2001-06-07"/>
+               <affiliation from="1974-02-28" ref="#parla.lower" role="MP" to="1974-10-10"/>
+               <affiliation from="1974-10-10" ref="#parla.lower" role="MP" to="1979-05-03"/>
+               <affiliation from="1979-05-03" ref="#parla.lower" role="MP" to="1983-06-09"/>
+               <affiliation from="1979-05-11" ref="#PoGB" role="minister" to="1981-01-05"/>
+               <affiliation from="1981-01-05" ref="#PoGB" role="minister" to="1981-09-14"/>
+               <affiliation from="1981-09-14" ref="#PoGB" role="minister" to="1987-06-13"/>
+               <affiliation from="1983-06-09" ref="#parla.lower" role="MP" to="1987-06-11"/>
+               <affiliation from="1987-06-11" ref="#parla.lower" role="MP" to="1992-04-09"/>
+               <affiliation from="1987-06-13" ref="#PoGB" role="minister" to="1990-01-02"/>
+               <affiliation from="1992-04-09" ref="#parla.lower" role="MP" to="1997-05-01"/>
+               <affiliation from="1997-05-01" ref="#parla.lower" role="MP" to="2001-06-07"/>
+               <affiliation from="2001-07-03" ref="#parla.lower" role="MP"/>
+               <affiliation from="2001-07-03"
+                            ref="#party.CON"
+                            role="member"
+                            to="2016-09-01"/>
+               <affiliation from="2016-09-01" ref="#party.I" role="member"/>
+               <affiliation from="2016-09-01" ref="#parla.upper" role="speaker"/>
+            </person>
          </egXML>
       </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en"
-                versionDate="2018-10-30">
-         <p>This example indicates that the person was affiliated with the
-      Australian Journalists Association at some point between the dates
-      listed.</p>
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <affiliation notAfter="1960-01-01" notBefore="1957-02-28">Paid up member of the
-        <orgName>Australian Journalists Association</orgName>
-            </affiliation>
-         </egXML>
-      </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en"
-                versionDate="2018-10-30">
-         <p>This example indicates that the person was affiliated with Mount Holyoke College throughout the entire span of the date range listed.</p>
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <affiliation from="1902-01-01" to="1906-01-01">Was an assistant professor at Mount Holyoke College.</affiliation>
+      <exemplum xml:lang="en">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+            <p>The affiliation element can also include an ana attribute, which points to the appropriate legislative period when the person was affiliated with the specified organisation.</p>
+            <person xml:id="BahŽibertAnja">
+               <persName>
+                  <surname>Bah</surname>
+                  <surname>Žibert</surname>
+                  <forename>Anja</forename>
+               </persName>
+               <affiliation role="MP"
+                            ref="#DZ"
+                            from="2014-08-01"
+                            to="2018-06-21"
+                            ana="#DZ.7"/>
+               <affiliation role="member"
+                            ref="#party.SDS.2"
+                            from="2014-08-01"
+                            to="2018-06-21"
+                            ana="#DZ.7"/>
+               <affiliation role="MP" ref="#DZ" from="2018-06-22" ana="#DZ.8"/>
+               <affiliation role="member" ref="#party.SDS.2" from="2018-06-22" ana="#DZ.8"/>
+            </person>
          </egXML>
       </exemplum>
       <remarks xml:lang="en">
@@ -6576,9 +6442,7 @@
       </remarks>
    </elementSpec>
    <elementSpec ident="occupation" module="namesdates" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2005-01-14"
-            xml:lang="en">contains an informal description of a person's trade, profession or occupation.</desc>
+      <desc versionDate="2005-01-14" xml:lang="en">contains an informal description of a person's trade, profession or occupation.</desc>
       <content>
          <textNode/>
       </content>
@@ -6632,21 +6496,19 @@
          <attDef ident="type" mode="delete"/>
          <attDef ident="subtype" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <occupation>accountant</occupation>
          </egXML>
       </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <occupation scheme="#occupationtaxonomy" code="#acc">accountant</occupation>
          </egXML>
       </exemplum>
    </elementSpec>
    <elementSpec ident="education" module="namesdates" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2005-12-14"
-            xml:lang="en">contains a description of the educational experience of a person.</desc>
+      <desc versionDate="2005-12-14" xml:lang="en">contains a description of the educational experience of a person.</desc>
       <content>
          <textNode/>
       </content>
@@ -6697,24 +6559,18 @@
          <attDef ident="type" mode="delete"/>
          <attDef ident="subtype" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en"
-                versionDate="2014-08-06">
+      <exemplum xml:lang="en" versionDate="2014-08-06">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <education>Left school at age 16</education>
          </egXML>
       </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en"
-                versionDate="2014-08-06">
+      <exemplum xml:lang="en" versionDate="2014-08-06">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <education from="1986-01-01" to="1990-06-30">Attended <name>Cherwell School</name>
             </education>
          </egXML>
       </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude"
-                xml:lang="en"
-                versionDate="2014-08-06">
+      <exemplum xml:lang="en" versionDate="2014-08-06">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <education notBefore="1685-07" notAfter="1690-06">Anthony Hammond
 	smuggled her into the University of Cambridge, where she was
@@ -6828,9 +6684,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="langUsage" module="header" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2008-01-28"
-            xml:lang="en">describes the languages, sublanguages, registers, dialects, etc.
+      <desc versionDate="2008-01-28" xml:lang="en">describes the languages, sublanguages, registers, dialects, etc.
     represented within a text.</desc>
       <content>
          <elementRef key="language" minOccurs="1" maxOccurs="unbounded"/>
@@ -6860,20 +6714,19 @@
          <attDef ident="source" mode="delete"/>
          <attDef ident="default" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
+      <exemplum xml:lang="en">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <langUsage>
-               <language ident="fr-CA" usage="60">Québecois</language>
-               <language ident="en-CA" usage="20">Canadian business English</language>
-               <language ident="en-GB" usage="20">British English</language>
+               <language ident="sl" xml:lang="sl">slovenski</language>
+               <language ident="en" xml:lang="sl">angleški</language>
+               <language ident="sl" xml:lang="en">Slovenian</language>
+               <language ident="en" xml:lang="en">English</language>
             </langUsage>
          </egXML>
       </exemplum>
    </elementSpec>
    <elementSpec ident="language" module="header" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2005-01-14"
-            xml:lang="en">characterizes a single language or sublanguage used within a text.</desc>
+      <desc versionDate="2005-01-14" xml:lang="en">characterizes a single language or sublanguage used within a text.</desc>
       <content>
          <textNode/>
       </content>
@@ -6900,20 +6753,30 @@
          <attDef ident="resp" mode="delete"/>
          <attDef ident="source" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
+      <exemplum xml:lang="en">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <langUsage>
-               <language ident="en-US" usage="75">modern American English</language>
-               <language ident="i-az-Arab" usage="20">Azerbaijani in Arabic script</language>
-               <language ident="x-lap" usage="05">Pig Latin</language>
+               <language ident="es" xml:lang="es">Español</language>
+               <language ident="es" xml:lang="en">Spanish</language>
+            </langUsage>
+         </egXML>
+      </exemplum>
+      <exemplum xml:lang="en">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+            <langUsage>
+               <language ident="bg-Latn" xml:lang="en">Bulgarian in Latin script</language>
+               <language ident="bg" xml:lang="bg">български</language>
+               <language ident="bg" xml:lang="en">Bulgarian</language>
+               <language ident="en" xml:lang="bg">английски</language>
+               <language ident="en" xml:lang="en">English</language>
+               <language ident="fr" xml:lang="bg">френски</language>
+               <language ident="fr" xml:lang="en">French</language>
             </langUsage>
          </egXML>
       </exemplum>
    </elementSpec>
    <elementSpec ident="revisionDesc" module="header" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2005-01-14"
-            xml:lang="en">summarizes the revision history for a file.</desc>
+      <desc versionDate="2005-01-14" xml:lang="en">summarizes the revision history for a file.</desc>
       <content>
          <elementRef key="change" minOccurs="1" maxOccurs="unbounded"/>
       </content>
@@ -6941,7 +6804,7 @@
          <attDef ident="source" mode="delete"/>
          <attDef ident="status" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
+      <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
             <revisionDesc status="embargoed">
                <change when="1991-11-11" who="#LB"> deleted chapter 10 </change>
@@ -6950,9 +6813,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="change" module="header" mode="change">
-      <desc xmlns:xi="http://www.w3.org/2001/XInclude"
-            versionDate="2011-10-31"
-            xml:lang="en">documents a change or set of changes made during the production
+      <desc versionDate="2011-10-31" xml:lang="en">documents a change or set of changes made during the production
     of a source document, or during the revision of an electronic file.</desc>
       <content>
          <elementRef key="name"/>
@@ -7005,39 +6866,30 @@
          <attDef ident="type" mode="delete"/>
          <attDef ident="subtype" mode="delete"/>
       </attList>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <titleStmt>
-               <title> ... </title>
-               <editor xml:id="LDB">Lou Burnard</editor>
-               <respStmt xml:id="BZ">
-                  <resp>copy editing</resp>
-                  <name>Brett Zamir</name>
-               </respStmt>
-            </titleStmt>
-            <!-- ... -->
-            <revisionDesc status="published">
-               <change who="#BZ" when="2008-02-02" status="public">Finished chapter 23</change>
-               <change who="#BZ" when="2008-01-02" status="draft">Finished chapter 2</change>
-               <change n="P2.2" when="1991-12-21" who="#LDB">Added examples to section 3</change>
-               <change when="1991-11-11" who="#MSM">Deleted chapter 10</change>
+      <exemplum xml:lang="en">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+            <revisionDesc>
+               <change when="2021-02-02">
+                  <name>Tommaso Agnoloni</name>: Made sample.</change>
+               <change when="2021-01-28">
+                  <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
+               <change when="2021-02-26">
+                  <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
             </revisionDesc>
          </egXML>
       </exemplum>
-      <exemplum xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-            <profileDesc>
-               <creation>
-                  <listChange>
-                     <change xml:id="DRAFT1">First draft in pencil</change>
-                     <change xml:id="DRAFT2" notBefore="1880-12-09">First revision, mostly
-	      using green ink</change>
-                     <change xml:id="DRAFT3" notBefore="1881-02-13">Final corrections as
-	      supplied to printer.</change>
-                  </listChange>
-               </creation>
-            </profileDesc>
-         </egXML>
-      </exemplum>
    </elementSpec>
+   <!-- To Do:
+       Appears both in TEI heder and in .ana body for CZ
+
+  <elementSpec ident="unit" module="core" mode="change">
+    <content>
+    </content>
+  </elementSpec>
+
+  <elementSpec ident="equipment" module="spoken" mode="change">
+    <content>
+    </content>
+  </elementSpec>
+  -->
 </schemaSpec>

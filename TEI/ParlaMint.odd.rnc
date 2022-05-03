@@ -12,9 +12,9 @@ namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 namespace xsl = "http://www.w3.org/1999/XSL/Transform"
 
-# Schema generated from ODD source 2022-04-04T13:34:10Z. 2022-03-04.
+# Schema generated from ODD source 2022-05-03T12:35:45Z. 2022-03-04.
 # TEI Edition: Version 4.4.0a. Last updated on
-#         15th February 2022, revision 118a5a6e0
+#         14th March 2022, revision 3a89ab0a0
 # TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
 #
 
@@ -906,10 +906,6 @@ tei_publisher =
     tei_att.global.attribute.xmllang,
     empty
   }
-tei_pubPlace =
-  
-  ## (publication place) contains the name of the place where a bibliographic item was published. [3.12.2.4. Imprint, Size of a Document, and Reprint Information]
-  element pubPlace { tei_ref | text }
 tei_bibl =
   
   ## (bibliographic citation) contains a loosely-structured bibliographic citation of which the sub-components may or may not be explicitly tagged. [3.12.1. Methods of Encoding Bibliographic References and Lists of References 2.2.7. The Source Description 15.3.2. Declarable Elements]
@@ -982,7 +978,7 @@ tei_publicationStmt =
   
   ## (publication statement) groups information concerning the publication or distribution of an electronic or other text. [2.2.4. Publication, Distribution, Licensing, etc. 2.2. The File Description]
   element publicationStmt {
-    tei_publisher, tei_idno, tei_pubPlace?, tei_availability, tei_date
+    tei_publisher, tei_idno, tei_availability, tei_date
   }
 tei_idno =
   
@@ -1012,8 +1008,16 @@ tei_idno =
       | 
         ## Digital Object Identifier: a unique string of letters and numbers assigned to an electronic document.
         "DOI"
-      | 
-        ## Uniform Resource Identifier: a string of characters to uniquely identify a resource which usually contains indication of the means of accessing that resource, the name of its host, and its filepath.
+      | [
+          a:documentation [
+            "Uniform Resource Identifier: a string of characters to uniquely identify a resource, following the syntax of "
+            ns1:a [
+              href = "https://datatracker.ietf.org/doc/html/rfc3986"
+              "RFC 3986"
+            ]
+            "."
+          ]
+        ]
         "URI"
       | 
         ## A data number in the Virtual Internet Authority File assigned to link different names in catalogs around the world for the same entity.
@@ -1875,7 +1879,13 @@ tei_surname =
 tei_forename =
   
   ## (forename) contains a forename, given or baptismal name. [13.2.1. Personal Names]
-  element forename { text }
+  element forename {
+    tei_macro.phraseSeq,
+    tei_att.global.attributes,
+    tei_att.personal.attributes,
+    tei_att.typed.attributes,
+    empty
+  }
 tei_nameLink =
   
   ## (name link) contains a connecting phrase or link used within a name but not regarded as part of it, such as van der or of. [13.2.1. Personal Names]
@@ -1898,12 +1908,11 @@ tei_affiliation =
   
   ## (affiliation) contains an informal description of a person's present or past affiliation with some organization, for example an employer or sponsor. [15.2.2. The Participant Description]
   element affiliation {
-    text,
+    empty,
     tei_att.global.analytic.attribute.ana,
     tei_att.datable.w3c.attribute.when,
     tei_att.datable.w3c.attribute.from,
     tei_att.datable.w3c.attribute.to,
-    tei_att.canonical.attribute.key,
     tei_att.canonical.attribute.ref,
     
     ##
@@ -2041,7 +2050,7 @@ tei_birth =
   
   ## (birth) contains information about a person's birth, such as its date and place. [15.2.2. The Participant Description]
   element birth {
-    (tei_placeName? | text),
+    (tei_placeName?),
     
     ## supplies the value of the date or time in a standard form, e.g. yyyy-mm-dd.
     attribute when {
@@ -2060,7 +2069,7 @@ tei_death =
   
   ## (death) contains information about a person's death, such as its date and place. [15.2.2. The Participant Description]
   element death {
-    (tei_placeName? | text),
+    (tei_placeName?),
     
     ## supplies the value of the date or time in a standard form, e.g. yyyy-mm-dd.
     attribute when {
@@ -2330,7 +2339,7 @@ tei_sex =
   
   ## (sex) specifies the sex of a person. [13.3.2.1. Personal Characteristics]
   element sex {
-    text,
+    empty,
     
     ##
     attribute value {
@@ -2758,6 +2767,8 @@ sch:pattern [
   "\x{a}" ~
   "   "
 ]
+tei_att.naming.attributes =
+  tei_att.canonical.attributes, tei_att.naming.attribute.role
 tei_att.naming.attribute.role =
   
   ## may be used to specify further information about the entity referenced by this name in the form of a set of whitespace-separated values, for example the occupation of a person, or the status of a place.
@@ -2766,6 +2777,8 @@ tei_att.naming.attribute.role =
       xsd:token { pattern = "[^\p{C}\p{Z}]+" }+
     }
   }?
+tei_att.personal.attributes =
+  tei_att.naming.attributes, tei_att.personal.attribute.full
 tei_att.personal.attribute.full =
   
   ## indicates whether the name component is given in full, as an abbreviation or simply as an initial.
