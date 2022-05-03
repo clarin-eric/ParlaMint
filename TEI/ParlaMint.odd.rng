@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2022-05-02T11:53:46Z. 2022-03-04.
+Schema generated from ODD source 2022-05-03T11:05:40Z. 2022-03-04.
 TEI Edition: Version 4.4.0a. Last updated on
         14th March 2022, revision 3a89ab0a0
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
@@ -2736,7 +2736,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
    <define name="tei_affiliation">
       <element name="affiliation">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(affiliation) contains an informal description of a person's present or past affiliation with some organization, for example an employer or sponsor. [15.2.2. The Participant Description]</a:documentation>
-         <text/>
+         <empty/>
          <ref name="tei_att.global.analytic.attribute.ana"/>
          <ref name="tei_att.datable.w3c.attribute.when"/>
          <ref name="tei_att.datable.w3c.attribute.from"/>
@@ -2842,7 +2842,6 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
             <optional>
                <ref name="tei_placeName"/>
             </optional>
-            <text/>
          </choice>
          <attribute name="when">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies the value of the date or time in a standard form, e.g. yyyy-mm-dd.</a:documentation>
@@ -2867,7 +2866,6 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
             <optional>
                <ref name="tei_placeName"/>
             </optional>
-            <text/>
          </choice>
          <attribute name="when">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies the value of the date or time in a standard form, e.g. yyyy-mm-dd.</a:documentation>
@@ -3192,7 +3190,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
    <define name="tei_sex">
       <element name="sex">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(sex) specifies the sex of a person. [13.3.2.1. Personal Characteristics]</a:documentation>
-         <text/>
+         <empty/>
          <attribute name="value">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <choice>
