@@ -211,9 +211,40 @@
     <xsl:call-template name="org-role-cnt">
       <xsl:with-param name="role">ministry</xsl:with-param>
     </xsl:call-template>
+    <!-- affiliation statistics -->
+    <!-- total number of affiliations -->
+    <xsl:call-template name="error">
+      <xsl:with-param name="severity">INFO</xsl:with-param>
+      <xsl:with-param name="msg">
+        <xsl:text>Total number of affiliations </xsl:text>
+        <xsl:value-of select="count(.//tei:affiliation)"/>
+      </xsl:with-param>
+    </xsl:call-template>
+    <!-- affiliations by role -->
+    <xsl:call-template name="error">
+      <xsl:with-param name="severity">INFO</xsl:with-param>
+      <xsl:with-param name="msg">
+        <xsl:text>Total number of NO-role affiliations </xsl:text>
+        <xsl:value-of select="count(.//tei:affiliation[not(@role)])"/>
+      </xsl:with-param>
+    </xsl:call-template>
+    <xsl:variable name="roles" select=".//tei:affiliation/@role"/>
+    <xsl:variable name="particDesc" select="."/>
+    <xsl:for-each select="distinct-values(data($roles))">
+      <xsl:variable name="role" select="."/>
+        <xsl:for-each select="$particDesc"><!-- changing context back to particDesc -->
+        <xsl:call-template name="error">
+          <xsl:with-param name="severity">INFO</xsl:with-param>
+          <xsl:with-param name="msg">
+            <xsl:text>Total number of '</xsl:text>
+            <xsl:value-of select="$role"/>
+            <xsl:text>' role affiliations </xsl:text>
+            <xsl:value-of select="count(.//tei:affiliation[@role=$role])"/>
+          </xsl:with-param>
+        </xsl:call-template>
+      </xsl:for-each>
+    </xsl:for-each>
   </xsl:template>
-
-
 
   <xsl:template name="check-in-event">
     <xsl:param name="refs"/>
