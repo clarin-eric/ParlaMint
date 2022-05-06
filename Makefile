@@ -13,7 +13,7 @@ WORKINGDIR = Data/TMP
 CORPUSDIR_SUFFIX =
 
 ###### Setup
-## check-prereq ## test if prerequisities are installed
+## check-prereq ## test if prerequisities are installed, more about installing prerequisities in CONTRIBUTING.md file
 check-prereq:
 	@test -f /usr/share/java/saxon.jar
 	@unzip -p /usr/share/java/saxon.jar META-INF/MANIFEST.MF|grep 'Main-Class:'| grep -q 'net.sf.saxon.Transform'

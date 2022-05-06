@@ -64,6 +64,58 @@ git push
  - create a pull request: https://github.com/clarin-eric/ParlaMint/compare/data...USER-ORG:data
 
 
+## Install prerequisites
+
+You can check if all prerequisites are installed with the command `make check-prereq` if all success the output is:
+
+```
+Saxon: OK
+Jing: OK
+UD tools: OK
+INFO: Maximum java heap size (saxon needs 5-times more than the size of processed xml file)
+  1.80469 GB
+```
+
+### Saxon
+
+Saxon is expected to be at this location in your system: `/usr/share/java/saxon.jar`
+You need superuser privileges to do this.
+
+```bash
+# download saxon file into /opt folder
+sudo wget https://search.maven.org/remotecontent?filepath=net/sf/saxon/Saxon-HE/10.6/Saxon-HE-10.6.jar -O /opt/saxon.jar
+# create a symbolic link to the correct location
+sudo ln -s /opt/saxon.jar /usr/share/java/saxon.jar
+```
+
+**Important note: jing archive below also contains Saxon. But that version of Saxon does not support all features that are needed.**
+
+### Jing
+
+Jing is expected to be at this location in your system: `/usr/share/java/jing.jar`
+You need superuser privileges to do this.
+
+```bash
+# download jing into tmp folder
+wget https://github.com/relaxng/jing-trang/releases/download/V20181222/jing-20181222.zip -O /tmp/jing-20181222.zip
+# extract jinfg into /opt
+sudo unzip /tmp/jing-20181222.zip jing-20181222/bin/* -d /opt
+# create a symbolic link to the correct location
+sudo ln -s /opt/jing-20181222/bin/jing.jar /usr/share/java/jing.jar
+rm /tmp/jing-20181222.zip
+```
+
+
+### UD tools
+
+- Change directory to `Scripts` folder: `cd Scripts`
+- Clone UD tools repository: `git clone https://github.com/UniversalDependencies/tools.git`
+- Install Python regex library: `pip3 install --user regex`
+
+
+
+
+
 ## Local validation
 
 Running *`make help`* in the repository root folder provides a make targets list with a description.
