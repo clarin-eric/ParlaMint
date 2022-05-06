@@ -59,22 +59,25 @@
   </xsl:template>
 
   <xsl:template match="tei:idno[not(text())]">
-    <xsl:message>
-      <xsl:text>ERROR: empty string in idno: </xsl:text> <xsl:apply-templates select="." mode="serialize"/>
-    </xsl:message>
+    <xsl:call-template name="error">
+      <xsl:with-param name="severity">ERROR</xsl:with-param>
+      <xsl:with-param name="msg"><xsl:text>empty string in idno: </xsl:text> <xsl:apply-templates select="." mode="serialize"/></xsl:with-param>
+    </xsl:call-template>
     <xsl:next-match/>
   </xsl:template>
 
   <xsl:template match="tei:bibl/tei:idno[contains(./text(), 'parlametar.bg') and $country='BG']">
-    <xsl:message>
-      <xsl:text>INFO: removing parlameter idno: </xsl:text> <xsl:apply-templates select="." mode="serialize"/>
-    </xsl:message>
+    <xsl:call-template name="error">
+      <xsl:with-param name="severity">INFO</xsl:with-param>
+      <xsl:with-param name="msg">removing parlameter idno: <xsl:apply-templates select="." mode="serialize"/></xsl:with-param>
+    </xsl:call-template>
   </xsl:template>
 
   <xsl:template match="tei:idno[$country='IS' and text() = 'www.athingi.is']">
-    <xsl:message>
-      <xsl:text>INFO: fixing idno url: </xsl:text> <xsl:apply-templates select="." mode="serialize"/>
-    </xsl:message>
+    <xsl:call-template name="error">
+      <xsl:with-param name="severity">INFO</xsl:with-param>
+      <xsl:with-param name="msg"><xsl:text>fixing idno url: </xsl:text> <xsl:apply-templates select="." mode="serialize"/></xsl:with-param>
+    </xsl:call-template>
     <idno type="URI" subtype="parliament">https://www.althingi.is/</idno>
   </xsl:template>
 
@@ -82,9 +85,10 @@
     <xsl:copy>
       <xsl:apply-templates select="@*[not(contains(' type subtype ', local-name()))]"/>
       <xsl:if test="@type and @type=upper-case(@type) and not(contains(' URI URL ', @type))">
-        <xsl:message>
-          <xsl:text>ERROR: unexpected value idno/@type=</xsl:text> <xsl:value-of select="@type"/>
-        </xsl:message>
+        <xsl:call-template name="error">
+          <xsl:with-param name="severity">ERROR</xsl:with-param>
+          <xsl:with-param name="msg"><xsl:text>unexpected value idno/@type=</xsl:text> <xsl:value-of select="@type"/></xsl:with-param>
+        </xsl:call-template>
       </xsl:if>
       <xsl:attribute name="type">URI</xsl:attribute>
       <xsl:choose>
@@ -101,19 +105,22 @@
           <xsl:attribute name="subtype">parliament</xsl:attribute>
         </xsl:when>
         <xsl:when test="$country='BG' and contains(./text(), 'parlametar.bg') and ./parent::tei:bibl">
-          <xsl:message>
-            <xsl:text>ERROR: parlametar should be removes</xsl:text> <xsl:apply-templates select="./parent::*" mode="serialize"/>
-          </xsl:message>
+          <xsl:call-template name="error">
+            <xsl:with-param name="severity">WARN</xsl:with-param>
+            <xsl:with-param name="msg"><xsl:text>parlametar should be removes</xsl:text> <xsl:apply-templates select="./parent::*" mode="serialize"/></xsl:with-param>
+          </xsl:call-template>
         </xsl:when>
         <xsl:when test="$country='BG' and (contains(./text(), 'government.bg') or contains(./text(), 'comdos.bg'))">
-          <xsl:message>
-            <xsl:text>WARN: removing idno/@subtype </xsl:text> <xsl:apply-templates select="." mode="serialize"/>
-          </xsl:message>
+          <xsl:call-template name="error">
+            <xsl:with-param name="severity">WARN</xsl:with-param>
+            <xsl:with-param name="msg"><xsl:text>WARN: removing idno/@subtype </xsl:text> <xsl:apply-templates select="." mode="serialize"/></xsl:with-param>
+          </xsl:call-template>
         </xsl:when>
         <xsl:when test="$country='BG' and (contains(./text(), 'kalinveliov.com') or contains(./text(), 'aop.bg/'))">
-          <xsl:message>
-            <xsl:text>WARN: no subtype</xsl:text>
-          </xsl:message>
+          <xsl:call-template name="error">
+            <xsl:with-param name="severity">ERROR</xsl:with-param>
+            <xsl:with-param name="msg"><xsl:text>no subtype</xsl:text></xsl:with-param>
+          </xsl:call-template>
         </xsl:when>
         <!-- CZ -->
         <xsl:when test="$country='CZ' and contains(./text(), 'psp.cz')">
@@ -233,15 +240,24 @@
 
         <!-- no country specific fix -->
         <xsl:when test="contains(' wikidata facebook twitter tiktok instagram ',concat(' ',@type,' '))">
-          <xsl:message><xsl:text>WARN: ussing all lang patch (orgs) idno/@subtype </xsl:text> <xsl:apply-templates select="." mode="serialize"/></xsl:message>
+          <xsl:call-template name="error">
+            <xsl:with-param name="severity">WARN</xsl:with-param>
+            <xsl:with-param name="msg"><xsl:text>using all lang patch (orgs) idno/@subtype </xsl:text> <xsl:apply-templates select="." mode="serialize"/></xsl:with-param>
+          </xsl:call-template>
           <xsl:attribute name="subtype" select="@type"/>
         </xsl:when>
         <xsl:when test="contains(concat(' ',@sub,' ',@subtype), ' wiki') and @subtype != 'wikimedia'">
-          <xsl:message><xsl:text>WARN: ussing all lang patch (wiki) idno/@subtype </xsl:text> <xsl:apply-templates select="." mode="serialize"/></xsl:message>
+          <xsl:call-template name="error">
+            <xsl:with-param name="severity">WARN</xsl:with-param>
+            <xsl:with-param name="msg"><xsl:text>using all lang patch (wiki) idno/@subtype </xsl:text> <xsl:apply-templates select="." mode="serialize"/></xsl:with-param>
+          </xsl:call-template>
           <xsl:attribute name="subtype">wikimedia</xsl:attribute>
         </xsl:when>
         <xsl:otherwise>
-          <xsl:message terminate="no"><xsl:text>ERROR otherwise </xsl:text> <xsl:value-of select="$country"/><xsl:text> </xsl:text><xsl:apply-templates select="." mode="serialize"/></xsl:message>
+          <xsl:call-template name="error">
+            <xsl:with-param name="severity">ERROR</xsl:with-param>
+            <xsl:with-param name="msg"><xsl:text>otherwise </xsl:text> <xsl:value-of select="$country"/><xsl:text> </xsl:text><xsl:apply-templates select="." mode="serialize"/></xsl:with-param>
+          </xsl:call-template>
           <!-- no fixture - just copy attribute -->
           <xsl:apply-templates select="@subtype"/>
         </xsl:otherwise>
@@ -256,23 +272,27 @@
   <xsl:template match="tei:affiliation[not(text()) and not(@ref)]">
     <xsl:choose>
       <xsl:when test="@role='member'"><!-- BG -->
-        <xsl:message>
-          <xsl:text>INFO: removing senseless affiliation (missing ref and text): </xsl:text> <xsl:apply-templates select="." mode="serialize"/>
-        </xsl:message>
+        <xsl:call-template name="error">
+          <xsl:with-param name="severity">INFO</xsl:with-param>
+          <xsl:with-param name="msg"><xsl:text>removing senseless affiliation (missing ref and text): </xsl:text> <xsl:apply-templates select="." mode="serialize"/></xsl:with-param>
+        </xsl:call-template>
       </xsl:when>
       <xsl:otherwise>
         <xsl:variable name="orgRole" select="mk:person_role_to_org_role(./@role)"/>
         <xsl:variable name="org" select="./ancestor::tei:particDesc/tei:listOrg/tei:org[@role=$orgRole and @xml:id]"/>
         <xsl:choose>
           <xsl:when test="$orgRole=''">
-            <xsl:message><xsl:value-of select="concat('ERROR: ',./@role,' does not have implicit organization - impossible to determine correct affiliation')"/></xsl:message>
+            <xsl:call-template name="error">
+              <xsl:with-param name="severity">ERROR</xsl:with-param>
+              <xsl:with-param name="msg"><xsl:value-of select="@role" /> does not have implicit organization - impossible to determine correct affiliation</xsl:with-param>
+            </xsl:call-template>
             <xsl:comment>removing affiliation - unable to determine @ref: <xsl:apply-templates select="." mode="serialize"/></xsl:comment>
           </xsl:when>
           <xsl:when test="count($org) = 1">
-            <xsl:message>
-              <xsl:value-of select="concat('INFO: adding reference to ',$orgRole, ' affiliation/@ref=#',$org/@xml:id,' to ')"/>
-              <xsl:apply-templates select="." mode="serialize"/>
-            </xsl:message>
+            <xsl:call-template name="error">
+              <xsl:with-param name="severity">INFO</xsl:with-param>
+              <xsl:with-param name="msg">adding reference to '<xsl:value-of select="$orgRole"/>' affiliation/@ref=#'<xsl:value-of select="$org/@xml:id"/>' to <xsl:apply-templates select="." mode="serialize"/></xsl:with-param>
+            </xsl:call-template>
             <xsl:copy>
               <xsl:apply-templates select="@*[name() != 'ana']"/>
               <xsl:attribute name="ref">#<xsl:value-of select="$org/@xml:id"/></xsl:attribute>
@@ -281,12 +301,18 @@
           </xsl:when>
           <xsl:when test="count($org)>1">
             <!-- NL-parliament -->
-            <xsl:message><xsl:value-of select="concat('ERROR: ',count($org),' ',$orgRole,' organizations - impossible to determine correct affiliation')"/></xsl:message>
+            <xsl:call-template name="error">
+              <xsl:with-param name="severity">ERROR</xsl:with-param>
+              <xsl:with-param name="msg"><xsl:value-of select="count($org)"/> <xsl:value-of select="$orgRole"/> organizations - impossible to determine correct affiliation</xsl:with-param>
+            </xsl:call-template>
             <xsl:comment>removing affiliation - unable to determine @ref (multiple <xsl:value-of select="$orgRole"/> org): <xsl:apply-templates select="." mode="serialize"/></xsl:comment>
           </xsl:when>
           <xsl:otherwise>
             <!-- PL - missing parliament organization-->
-            <xsl:message><xsl:value-of select="concat('ERROR: missing ',$orgRole,' organization')"/></xsl:message>
+            <xsl:call-template name="error">
+              <xsl:with-param name="severity">ERROR</xsl:with-param>
+              <xsl:with-param name="msg">missing <xsl:value-of select="$orgRole"/> organization</xsl:with-param>
+            </xsl:call-template>
             <xsl:comment>removing affiliation - unable to determine @ref (missing <xsl:value-of select="$orgRole"/> org): <xsl:apply-templates select="." mode="serialize"/></xsl:comment>
           </xsl:otherwise>
         </xsl:choose>
@@ -324,7 +350,10 @@
           <xsl:attribute name="ref">#NS</xsl:attribute>
           <xsl:call-template name="affiliation-ana"><xsl:with-param name="ref" select="'#NS'"/></xsl:call-template>
         </xsl:copy>
-        <xsl:message>INFO: adding @ref='#NS' and removing text from <xsl:value-of select="@role"/> (<xsl:value-of select="text()"/>) affiliation</xsl:message>
+        <xsl:call-template name="error">
+          <xsl:with-param name="severity">INFO</xsl:with-param>
+          <xsl:with-param name="msg">adding @ref='#NS' and removing text from <xsl:value-of select="@role"/> (<xsl:value-of select="text()"/>) affiliation</xsl:with-param>
+        </xsl:call-template>
       </xsl:when>
       <xsl:when test="$country = 'BG' and @role='primeMinister' and text()='Министър-председател'">
         <xsl:copy>
@@ -332,21 +361,27 @@
           <xsl:attribute name="ref">#gov.IzvSv</xsl:attribute>
           <xsl:call-template name="affiliation-ana"><xsl:with-param name="ref" select="'#gov.IzvSv'"/></xsl:call-template>
         </xsl:copy>
-        <xsl:message>INFO: adding @ref='#gov.IzvSv' and removing text from <xsl:value-of select="@role"/> (<xsl:value-of select="text()"/>) affiliation</xsl:message>
+        <xsl:call-template name="error">
+          <xsl:with-param name="severity">INFO</xsl:with-param>
+          <xsl:with-param name="msg"> adding @ref='#gov.IzvSv' and removing text from <xsl:value-of select="@role"/> (<xsl:value-of select="text()"/>) affiliation</xsl:with-param>
+        </xsl:call-template>
       </xsl:when>
       <xsl:otherwise>
         <xsl:variable name="orgRole" select="mk:person_role_to_org_role(./@role)"/>
         <xsl:variable name="org" select="./ancestor::tei:particDesc/tei:listOrg/tei:org[@role=$orgRole and @xml:id]"/>
         <xsl:choose>
           <xsl:when test="$orgRole=''">
-            <xsl:message><xsl:value-of select="concat('ERROR: ',./@role,' does not have implicit organization - impossible to determine correct affiliation')"/></xsl:message>
+            <xsl:call-template name="error">
+              <xsl:with-param name="severity">ERROR</xsl:with-param>
+              <xsl:with-param name="msg"><xsl:value-of select="./@role"/> does not have implicit organization - impossible to determine correct affiliation</xsl:with-param>
+            </xsl:call-template>
             <xsl:comment>removing affiliation - unable to determine @ref: <xsl:apply-templates select="." mode="serialize"/></xsl:comment>
           </xsl:when>
           <xsl:when test="count($org) = 1">
-            <xsl:message>
-              <xsl:value-of select="concat('INFO: adding reference to ',$orgRole, ' affiliation/@ref=#',$org/@xml:id,' to ')"/>
-              <xsl:apply-templates select="." mode="serialize"/>
-            </xsl:message>
+            <xsl:call-template name="error">
+              <xsl:with-param name="severity">INFO</xsl:with-param>
+              <xsl:with-param name="msg">adding reference to <xsl:value-of select="$orgRole"/> affiliation/@ref=#<xsl:value-of select="$org/@xml:id"/> to <xsl:apply-templates select="." mode="serialize"/></xsl:with-param>
+            </xsl:call-template>
             <xsl:copy>
               <xsl:apply-templates select="@*[name() != 'ana']"/>
               <xsl:attribute name="ref">#<xsl:value-of select="$org/@xml:id"/></xsl:attribute>
@@ -356,11 +391,17 @@
           </xsl:when>
           <xsl:when test="count($org)>1">
             <!-- NL-parliament -->
-            <xsl:message><xsl:value-of select="concat('ERROR: ',count($org),' ',$orgRole,' organizations - impossible to determine correct affiliation')"/></xsl:message>
+            <xsl:call-template name="error">
+              <xsl:with-param name="severity">ERROR</xsl:with-param>
+              <xsl:with-param name="msg"><xsl:value-of select="count($org)"/> <xsl:value-of select="$orgRole"/> organizations - impossible to determine correct affiliation</xsl:with-param>
+            </xsl:call-template>
             <xsl:comment>removing affiliation - unable to determine @ref (multiple <xsl:value-of select="$orgRole"/> org): <xsl:apply-templates select="." mode="serialize"/></xsl:comment>
           </xsl:when>
           <xsl:otherwise>
-            <xsl:message><xsl:value-of select="concat('ERROR: missing ',$orgRole,' organization')"/></xsl:message>
+            <xsl:call-template name="error">
+              <xsl:with-param name="severity">ERROR</xsl:with-param>
+              <xsl:with-param name="msg">missing <xsl:value-of select="$orgRole"/> organization</xsl:with-param>
+            </xsl:call-template>
             <xsl:comment>removing affiliation - unable to determine @ref (missing <xsl:value-of select="$orgRole"/> org): <xsl:apply-templates select="." mode="serialize"/></xsl:comment>
           </xsl:otherwise>
         </xsl:choose>
@@ -369,7 +410,6 @@
   </xsl:template>
 
   <xsl:template match="tei:affiliation[@ref and not(@ana)]">
-    <xsl:message>AFFILIATION <xsl:apply-templates select="." mode="serialize"/></xsl:message>
     <xsl:copy>
       <xsl:apply-templates select="@*[name() != 'ana']"/>
       <xsl:call-template name="affiliation-ana"><xsl:with-param name="ref" select="@ref"/></xsl:call-template>
@@ -377,7 +417,10 @@
   </xsl:template>
 
   <xsl:template match="text()[contains(' birth death affiliation ',concat(' ',parent::tei:*/local-name(),' '))]">
-    <xsl:message>removing text content from <xsl:apply-templates select="./parent::tei:*" mode="serialize"/></xsl:message>
+    <xsl:call-template name="error">
+      <xsl:with-param name="severity">INFO</xsl:with-param>
+      <xsl:with-param name="msg">removing text content from <xsl:apply-templates select="./parent::tei:*" mode="serialize"/></xsl:with-param>
+    </xsl:call-template>
   </xsl:template>
 
   <!-- COPY REST -->
@@ -388,9 +431,12 @@
     </xsl:copy>
   </xsl:template>
 
-  <xsl:template match="@*">
+  <xsl:template match="@*[not(name()='LINE')]">
     <xsl:copy/>
   </xsl:template>
+
+  <xsl:template match="@LINE"/>
+
 
   <xsl:template match="comment()">
     <xsl:copy/>
@@ -419,13 +465,15 @@
     </xsl:choose>
 </xsl:template>
 
-<xsl:template match="@*" mode="serialize">
+<xsl:template match="@*[not(name()='LINE')]" mode="serialize">
     <xsl:text> </xsl:text>
     <xsl:value-of select="name()"/>
     <xsl:text>="</xsl:text>
     <xsl:value-of select="."/>
     <xsl:text>"</xsl:text>
 </xsl:template>
+
+<xsl:template match="@LINE" mode="serialize"></xsl:template>
 
 <xsl:template match="text()" mode="serialize">
     <xsl:value-of select="."/>
@@ -449,7 +497,10 @@
             <xsl:choose>
               <xsl:when test="not(@ana)">
                 <xsl:attribute name="ana">#<xsl:value-of select="$event/@xml:id"/></xsl:attribute>
-                <xsl:message>INFO: adding corresponding event to @ana: <xsl:apply-templates select="$event" mode="serialize"/></xsl:message>
+                <xsl:call-template name="error">
+                  <xsl:with-param name="severity">INFO</xsl:with-param>
+                  <xsl:with-param name="msg">adding corresponding event to @ana: <xsl:apply-templates select="$event" mode="serialize"/></xsl:with-param>
+                </xsl:call-template>
               </xsl:when>
 <!--
               <xsl:when test="@ana != $ana">
@@ -463,13 +514,34 @@
             </xsl:choose>
           </xsl:when>
           <xsl:otherwise>
-            <xsl:message>ERROR: unable to add corresponding event</xsl:message>
+            <xsl:call-template name="error">
+              <xsl:with-param name="severity">ERROR</xsl:with-param>
+              <xsl:with-param name="msg">INFO: unable to add corresponding event</xsl:with-param>
+            </xsl:call-template>
             <xsl:comment>unable to add @ana - missing organization corresponding event</xsl:comment>
           </xsl:otherwise>
 
         </xsl:choose>
       </xsl:if>
     </xsl:if>
+  </xsl:template>
+
+
+  <xsl:template name="error">
+    <xsl:param name="msg">???</xsl:param>
+    <xsl:param name="severity">ERROR</xsl:param>
+    <xsl:param name="ident">??</xsl:param>
+    <xsl:message>
+      <xsl:value-of select="$severity"/>
+      <xsl:text>[</xsl:text>
+      <xsl:value-of select="$ident"/>
+      <xsl:text>]&#32;</xsl:text>
+      <xsl:value-of select="/tei:*/@xml:id"/>
+      <xsl:text>:</xsl:text>
+      <xsl:value-of select="./@LINE"/>
+      <xsl:text>&#32;</xsl:text>
+      <xsl:value-of select="$msg"/>
+    </xsl:message>
   </xsl:template>
 
   <!-- FUNCTIONS -->
@@ -522,7 +594,9 @@
       <xsl:when test="$role = 'MP'">parliament</xsl:when>
       <xsl:when test="$role = 'minister'">government</xsl:when>
 
-      <xsl:otherwise><xsl:message>ERROR: ===== <xsl:value-of select="$country"/> === unknown role: <xsl:value-of select="$role"/></xsl:message></xsl:otherwise>
+      <xsl:otherwise>
+        <xsl:text></xsl:text>
+      </xsl:otherwise>
     </xsl:choose>
   </xsl:function>
 
