@@ -18,7 +18,7 @@
     <change when="{$today-iso}"><name>Matyáš Kopp</name>: Fixes for Version 3.</change>
   </xsl:param>
   <xsl:variable name="today-iso" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
-  <xsl:variable name="id" select="replace(document-uri(/), '.+/([^/]+)\.xml', '$1')"/>
+  <xsl:variable name="id" select="replace(/tei:*/@xml:id, '.+/([^/]+)\.xml', '$1')"/>
   <xsl:variable name="lang" select="/tei:*/@xml:lang"/>
   <xsl:variable name="country" select="replace($id, 'ParlaMint-([^._]+).*', '$1')"/>
 
@@ -35,11 +35,6 @@
   </xsl:variable>
   
   <xsl:template match="/">
-    <!--xsl:message>
-      <xsl:text>INFO: converting </xsl:text>
-      <xsl:value-of select="tei:*/@xml:id"/>
-    </xsl:message-->
-    <!--xsl:text>&#10;</xsl:text-->
     <xsl:apply-templates/>
   </xsl:template>
 
