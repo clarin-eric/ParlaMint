@@ -2154,12 +2154,13 @@
     </content>
     <attList/>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <encodingDesc>
-          <p>Basic encoding, capturing lexical information only. All
-	  hyphenation, punctuation, and variant spellings normalized. No
-	  formatting or layout information preserved.</p>
-        </encodingDesc>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<teiHeader>
+	  <fileDesc>...</fileDesc>
+	  <encodingDesc>...</encodingDesc>
+	  <profileDesc>...</profileDesc>
+	  <revisionDesc>...</revisionDesc>
+	</teiHeader>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -3825,26 +3826,8 @@
     <exemplum
         xml:lang="en"
         versionDate="2014-08-06">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <education>Left school at age 16</education>
-      </egXML>
-    </exemplum>
-    <exemplum
-        xml:lang="en"
-        versionDate="2014-08-06">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <education from="1986-01-01" to="1990-06-30">Attended <name>Cherwell School</name>
-        </education>
-      </egXML>
-    </exemplum>
-    <exemplum
-        xml:lang="en"
-        versionDate="2014-08-06">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <education notBefore="1685-07" notAfter="1690-06">Anthony Hammond
-	smuggled her into the University of Cambridge, where she was
-	disguised as his male cousin, Jack. She remained there for some
-	months learning grammar, logic, rhetoric, and ethics</education>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+        <education>Bachelor of Science, Electrical and Information Technology Engineer</education>
       </egXML>
     </exemplum>
   </elementSpec>
