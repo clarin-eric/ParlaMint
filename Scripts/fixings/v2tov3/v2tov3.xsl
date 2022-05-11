@@ -56,9 +56,8 @@
   <xsl:template match="tei:idno[not(text())]">
     <xsl:call-template name="error">
       <xsl:with-param name="severity">ERROR</xsl:with-param>
-      <xsl:with-param name="msg"><xsl:text>empty string in idno: </xsl:text> <xsl:apply-templates select="." mode="serialize"/></xsl:with-param>
+      <xsl:with-param name="msg"><xsl:text>removing due to empty string in idno: </xsl:text> <xsl:apply-templates select="." mode="serialize"/></xsl:with-param>
     </xsl:call-template>
-    <xsl:next-match/>
   </xsl:template>
 
   <xsl:template match="tei:bibl/tei:idno[contains(./text(), 'parlametar.bg') and $country='BG']">
@@ -71,7 +70,7 @@
   <xsl:template match="tei:idno[$country='IS' and text() = 'www.athingi.is']">
     <xsl:call-template name="error">
       <xsl:with-param name="severity">INFO</xsl:with-param>
-      <xsl:with-param name="msg"><xsl:text>fixing idno url: </xsl:text> <xsl:apply-templates select="." mode="serialize"/></xsl:with-param>
+      <xsl:with-param name="msg"><xsl:text>fixing idno url and adding subtype: </xsl:text> <xsl:apply-templates select="." mode="serialize"/></xsl:with-param>
     </xsl:call-template>
     <idno type="URI" subtype="parliament">https://www.althingi.is/</idno>
   </xsl:template>
@@ -87,6 +86,14 @@
       </xsl:if>
       <xsl:attribute name="type">URI</xsl:attribute>
       <xsl:choose>
+
+        <xsl:when test="contains(./text(), 'wikipedia.org') and @subtype='wikimedia'"> <!-- no change is needed -->
+          <xsl:apply-templates select="@subtype"/>
+        </xsl:when>
+        <xsl:when test="contains(./text(), 'fb.com') and @subtype='facebook'"> <!-- no change is needed -->
+          <xsl:apply-templates select="@subtype"/>
+        </xsl:when>
+
         <!-- BE -->
         <xsl:when test="$country='BE' and contains(./text(), 'www.dekamer.be')">
           <xsl:attribute name="subtype">parliament</xsl:attribute>
@@ -99,17 +106,11 @@
         <xsl:when test="$country='BG' and contains(./text(), 'parliament.bg')">
           <xsl:attribute name="subtype">parliament</xsl:attribute>
         </xsl:when>
-        <xsl:when test="$country='BG' and contains(./text(), 'parlametar.bg') and ./parent::tei:bibl">
-          <xsl:call-template name="error">
-            <xsl:with-param name="severity">WARN</xsl:with-param>
-            <xsl:with-param name="msg"><xsl:text>parlametar should be removes</xsl:text> <xsl:apply-templates select="./parent::*" mode="serialize"/></xsl:with-param>
-          </xsl:call-template>
+        <xsl:when test="$country='BG' and contains(./text(), 'government.bg')">
+          <xsl:attribute name="subtype">government</xsl:attribute>
         </xsl:when>
-        <xsl:when test="$country='BG' and (contains(./text(), 'government.bg') or contains(./text(), 'comdos.bg'))">
-          <xsl:call-template name="error">
-            <xsl:with-param name="severity">WARN</xsl:with-param>
-            <xsl:with-param name="msg"><xsl:text>WARN: removing idno/@subtype </xsl:text> <xsl:apply-templates select="." mode="serialize"/></xsl:with-param>
-          </xsl:call-template>
+        <xsl:when test="$country='BG' and contains(./text(), 'comdos.bg')">
+          <xsl:attribute name="subtype">publicService</xsl:attribute>
         </xsl:when>
         <xsl:when test="$country='BG' and (contains(./text(), 'kalinveliov.com') or contains(./text(), 'aop.bg/'))">
           <xsl:call-template name="error">
@@ -117,6 +118,7 @@
             <xsl:with-param name="msg"><xsl:text>no subtype</xsl:text></xsl:with-param>
           </xsl:call-template>
         </xsl:when>
+
         <!-- CZ -->
         <xsl:when test="$country='CZ' and contains(./text(), 'psp.cz')">
           <xsl:attribute name="subtype">parliament</xsl:attribute>
@@ -156,15 +158,26 @@
           <xsl:attribute name="subtype">parliament</xsl:attribute>
         </xsl:when>
 
+        <!-- GR -->
+        <xsl:when test="$country='GR' and contains(./text(), 'hellenicparliament.gr')">
+          <xsl:attribute name="subtype">parliament</xsl:attribute>
+        </xsl:when>
+
         <!-- HR -->
         <xsl:when test="$country='HR' and contains(./text(), 'www.sabor.hr')">
           <xsl:attribute name="subtype">parliament</xsl:attribute>
         </xsl:when>
-        <xsl:when test="$country='HR' and contains(./text(), 'https://parlametar.hr')">
-          <xsl:attribute name="subtype">bussiness</xsl:attribute>
+        <xsl:when test="$country='HR' and contains(./text(), 'parlametar.hr')">
+          <xsl:attribute name="subtype">business</xsl:attribute>
         </xsl:when>
 
-        <!-- HU skipping-->
+        <!-- HU -->
+        <xsl:when test="$country='HU' and contains(./text(), 'parlament.hu')">
+          <xsl:attribute name="subtype">parliament</xsl:attribute>
+        </xsl:when>
+        <xsl:when test="$country='HU' and contains(./text(), 'wikipedia.org')">
+          <xsl:attribute name="subtype">wikimedia</xsl:attribute>
+        </xsl:when>
 
         <!-- IS -->
         <xsl:when test="$country='IS' and contains(./text(),'althingi.is')">
