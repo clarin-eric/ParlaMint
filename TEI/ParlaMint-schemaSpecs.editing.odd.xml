@@ -326,28 +326,14 @@
       <pm:attPreserve ident="subtype"/>
     </attList>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <body>
-          <div type="part">
-            <head>Fallacies of Authority</head>
-            <p>The subject of which is Authority in various shapes, and the object, to repress all
-            exercise of the reasoning faculty.</p>
-            <div n="1" type="chapter">
-              <head>The Nature of Authority</head>
-              <p>With reference to any proposed measures having for their object the greatest
-              happiness of the greatest number [...]</p>
-              <div n="1.1" type="section">
-                <head>Analysis of Authority</head>
-                <p>What on any given occasion is the legitimate weight or influence to be attached to
-		authority [...] </p>
-              </div>
-              <div n="1.2" type="section">
-                <head>Appeal to Authority, in What Cases Fallacious.</head>
-                <p>Reference to authority is open to the charge of fallacy when [...] </p>
-              </div>
-            </div>
-          </div>
-        </body>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<text ana="#reference">
+	  <body>
+	    <div type="debateSection">...</div>
+	    <div type="debateSection">...</div>
+	    ...
+	  </body>
+	</text>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -623,26 +609,14 @@
       </attDef>
     </attList>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
         <gap quantity="4" unit="chars" reason="illegible"/>
       </egXML>
     </exemplum>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <gap quantity="1" unit="essay" reason="sampling"/>
-      </egXML>
-    </exemplum>
-    <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
         <gap reason="inaudible">
           <desc>microphone muted</desc>
-        </gap>
-      </egXML>
-    </exemplum>
-    <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <gap reason="editorial">
-          <desc>sampling</desc>
         </gap>
       </egXML>
     </exemplum>
@@ -666,28 +640,39 @@
       <pm:attPreserve ident="xml:lang"/>
     </attList>
     <exemplum xml:lang="en" versionDate="2021-03-15">
-      <p>Example of a <gi>desc</gi> element inside a documentation element.</p>
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <dataSpec module="tei" ident="teidata.point">
-          <desc versionDate="2010-10-17" xml:lang="en">defines the data type used to express a point in cartesian space.</desc>
-          <content>
-            <dataRef name="token" restriction="(-?[0-9]+(\.[0-9]+)?,-?[0-9]+(\.[0-9]+)?)"/>
-          </content>
-          <!-- ... -->
-        </dataSpec>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<p>Example of a <gi>desc</gi> element for transcriber comments:</p>
+	<vocal type="interruption">
+	  <desc>sounds from the chamber</desc>
+	</vocal>
+	...
+	<kinesic type="signal">
+	  <desc>signal for end of debate</desc>
+	</kinesic>
+	...
+	
+	<incident type="action">
+	  <desc>minute of silence</desc>
+	</incident>
       </egXML>
     </exemplum>
     <exemplum xml:lang="en" versionDate="2021-03-15">
-      <p>Example of a <gi>desc</gi> element in a non-documentation element.</p>
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <place xml:id="KERG2">
-          <placeName>Kerguelen Islands</placeName>
-          <!-- ... -->
-          <terrain>
-            <desc>antarctic tundra</desc>
-          </terrain>
-          <!-- ... -->
-        </place>
+      <p>Example of a <gi>desc</gi> element used as a part of taxonomy:</p> 
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<taxonomy xml:id="parla.legislature">
+          <desc><term>Legislature</term></desc>
+	  ...
+	</taxonomy>
+      </egXML>
+    </exemplum>
+        <exemplum xml:lang="en" versionDate="2021-03-15">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<p>Example of a <gi>desc</gi> to describe gaps in the transcript:</p>
+	... I would further state that
+	<gap reason="inaudible">
+	  <desc>speaker spoke too quietly, not understood</desc>
+	</gap>
+	and furthermore ...
       </egXML>
     </exemplum>
   </elementSpec>
@@ -1659,13 +1644,9 @@
     </content>
     <attList/>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <editionStmt>
-          <edition n="S2">Students' edition</edition>
-          <respStmt>
-            <resp>Adapted by </resp>
-            <name>Elizabeth Kirk</name>
-          </respStmt>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<editionStmt>
+          <edition>2.1</edition>
         </editionStmt>
       </egXML>
     </exemplum>
@@ -1689,10 +1670,8 @@
       <pm:attPreserve ident="xml:lang"/>
     </attList>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <edition>First edition <date>Oct 1990</date>
-        </edition>
-        <edition n="S2">Students' edition</edition>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+        <edition>2.1</edition>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -2218,18 +2197,24 @@
     </content>
     <attList/>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <editorialDecl>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<editorialDecl>
+          <correction>
+            <p>No correction of source texts was performed.</p>
+          </correction>
           <normalization>
-            <p>All words converted to Modern American spelling using
-	    Websters 9th Collegiate dictionary
-	    </p>
+            <p>Text has not been normalised, except for spacing.</p>
           </normalization>
-          <quotation marks="all">
-            <p>All opening quotation marks converted to “ all closing
-	    quotation marks converted to &amp;cdq;.</p>
+          <hyphenation>
+            <p>Hyphenation has not been altered with respect to the source files.</p>
+          </hyphenation>
+          <quotation>
+            <p>Quotation marks have been left in the text and are not explicitly marked up.</p>
           </quotation>
-        </editorialDecl>
+          <segmentation>
+            <p>The texts are segmented into utterances (contributions) and segments (corresponding to paragraphs in the source transcription).</p>
+          </segmentation>
+	</editorialDecl>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -3627,8 +3612,8 @@
       <attDef ident="when" mode="change" usage="req"/>
     </attList>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <death when="1960-12-10">Passed away near <name type="place">Aix-la-Chapelle</name>, after suffering from cerebral palsy. </death>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<death when="2020-12-29"/>
       </egXML>
     </exemplum>
   </elementSpec>
