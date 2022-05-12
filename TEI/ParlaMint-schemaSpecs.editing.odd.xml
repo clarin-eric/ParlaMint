@@ -1284,18 +1284,48 @@
     </content>
     <attList/>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <fileDesc>
+      <p>Basic structure of the <gi>fileDesc</gi> element:
+      </p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<fileDesc>
+	  <titleStmt>...</titleStmt>
+	  <editionStmt>...</editionStmt>
+	  <extent>...</extent>
+	  <publicationStmt>...</publicationStmt>
+	  <sourceDesc>...</sourceDesc>
+	</fileDesc>
+      </egXML>
+    </exemplum>
+    <exemplum xml:lang="en">
+      <p>Example of the <gi>fileDesc</gi> element in the corpus:
+      </p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<fileDesc>
           <titleStmt>
-            <title>The shortest possible TEI document</title>
-          </titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL</title>
+	  </titleStmt>
+          <editionStmt>
+            <edition>2.1</edition>
+          </editionStmt>
+	  <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="474964">474,964 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="474964">474,964 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="51451191">51,451,191 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="51451191">51,451,191 words</measure>
+          </extent>
           <publicationStmt>
-            <p>Distributed as part of TEI P5</p>
+            <publisher>
+	      <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+            </publisher>
+            <date when="2021-06-10">2021-06-10</date>
           </publicationStmt>
           <sourceDesc>
-            <p>No print source exists: this is an original digital text</p>
+            <bibl>
+	      <title type="main">Minutes of the Eerste Kamer of The Netherlands</title>
+	      <date from="2014-12-15" to="2020-11-03">2014-12-15 - 2020-11-03</date>
+	    </bibl>
           </sourceDesc>
-        </fileDesc>
+	</fileDesc>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -1462,12 +1492,11 @@
         versionDate="2005-10-16"
         xml:lang="en">contains a forename, given or baptismal name.</desc>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <persName>
-          <roleName>Ex-President</roleName>
-          <forename>George</forename>
-          <surname>Bush</surname>
-        </persName>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<persName>
+          <surname>Bongiorno</surname>
+          <forename>Giulia</forename>
+	</persName>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -1582,11 +1611,11 @@
     </content>
     <attList/>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <funder>The National Endowment for the Humanities, an independent federal agency</funder>
-        <funder>Directorate General XIII of the Commission of the European Communities</funder>
-        <funder>The Andrew W. Mellon Foundation</funder>
-        <funder>The Social Sciences and Humanities Research Council of Canada</funder>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<funder>
+          <orgName xml:lang="es">CLARIN infraestructura de investigación científica</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -1684,23 +1713,17 @@
     </content>
     <attList/>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <extent>3200 sentences</extent>
-        <extent>between 10 and 20 Mb</extent>
-        <extent>ten 3.5 inch high density diskettes</extent>
-      </egXML>
-    </exemplum>
-    <exemplum
-        versionDate="2016-11-04"
-        xml:lang="en">
-      <p>The  <gi>measure</gi> element may be used to supply normalised
-      or machine tractable versions of the size or sizes concerned.</p>
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <extent>
-          <measure unit="MiB" quantity="4.2">About four megabytes</measure>
-          <measure unit="pages" quantity="245">245 pages of source
-	  material</measure>
-        </extent>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<extent>
+	  <measure unit="speeches" quantity="75122"
+		   xml:lang="sl">75.122 govorov</measure>
+	  <measure unit="speeches" quantity="75122"
+		   xml:lang="en">75,122 speeches</measure>
+	  <measure unit="words" quantity="20190034"
+		   xml:lang="sl">20.190.034 besed</measure>
+	  <measure unit="words" quantity="20190034"
+		   xml:lang="en">20,190,034 words</measure>
+	</extent>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -3840,13 +3863,10 @@
     </content>
     <attList/>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <figure>
-          <head>The View from the Bridge</head>
-          <figDesc>A Whistleresque view showing four or five sailing boats in the foreground, and a
-          series of buoys strung out between them.</figDesc>
-          <graphic url="http://www.example.org/fig1.png" scale="0.5"/>
-        </figure>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<figure>
+	  <graphic url="https://www.psp.cz/eknih/cdrom/2017ps/eknih/2017ps/poslanci/i6497.jpg"/>
+	</figure>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -3859,28 +3879,10 @@
       <pm:attPreserve ident="scale"/>
     </attList>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <figure>
-          <graphic url="fig1.png"/>
-          <head>Figure One: The View from the Bridge</head>
-          <figDesc>A Whistleresque view showing four or five sailing boats in the foreground, and a
-          series of buoys strung out between them.</figDesc>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<figure>
+          <graphic url="https://www.dekamer.be//site/wwwroot/images/cv/06595.gif"/>
         </figure>
-      </egXML>
-    </exemplum>
-    <exemplum versionDate="2016-03-07" xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <facsimile>
-          <surfaceGrp n="leaf1">
-            <surface>
-              <graphic url="page1.png"/>
-            </surface>
-            <surface>
-              <graphic url="page2-highRes.png"/>
-              <graphic url="page2-lowRes.png"/>
-            </surface>
-          </surfaceGrp>
-        </facsimile>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -3941,7 +3943,7 @@
   <elementSpec ident="revisionDesc" module="header" mode="change">
     <desc
         versionDate="2005-01-14"
-        xml:lang="en">summarizes the revision history for a file.</desc>
+        xml:lang="en">summarizes the revision history for a file</desc>
     <content>
       <elementRef key="change" minOccurs="1" maxOccurs="unbounded"/>
     </content>
