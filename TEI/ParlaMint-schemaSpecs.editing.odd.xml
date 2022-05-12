@@ -3150,23 +3150,12 @@
       <pm:attPreserve ident="type"/>
     </attList>
     <exemplum xml:lang="en">
-      <p>The most common use for the <gi>head</gi> element is to mark the headings of sections. In
-      older writings, the headings or <term>incipits</term> may be rather longer than usual in
-      modern works. If a section has an explicit ending as well as a heading, it should be marked as
-      a <gi>trailer</gi>, as in this example:</p>
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <div1 n="I" type="book">
-          <head>In the name of Christ here begins the first book of the ecclesiastical history of
-          Georgius Florentinus, known as Gregory, Bishop of Tours.</head>
-          <div2 type="section">
-            <head>In the name of Christ here begins Book I of the history.</head>
-            <p>Proposing as I do ...</p>
-            <p>From the Passion of our Lord until the death of Saint Martin four hundred and twelve
-            years passed.</p>
-            <trailer>Here ends the first Book, which covers five thousand, five hundred and ninety-six
-            years from the beginning of the world down to the death of Saint Martin.</trailer>
-          </div2>
-        </div1>
+      <p>The most common use for the <gi>head</gi> element is to mark the headings of sections:</p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<div type="debateSection">
+	  <head>Regulation of Health and Social Care Professions Etc. Bill [HL]</head>
+	  ...
+	</div>
       </egXML>
     </exemplum>
     <exemplum xml:lang="en">
