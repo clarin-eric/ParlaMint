@@ -97,15 +97,12 @@
               </xsl:call-template>
             </xsl:if>
 
-            <!-- MP affiliation to organizations with roles: parliament,   -->
-            <xsl:if test="./@role = 'MP' and not(contains(' parliament ', concat(' ',$affWith/@role,' ')))">
-              <xsl:call-template name="error">
-                <xsl:with-param name="ident">06</xsl:with-param>
-                <xsl:with-param name="msg">
-                  <xsl:text>Wrong affiliation role (MP) with </xsl:text>
-                  <xsl:value-of select="$affWith/@xml:id"/>
-                  <xsl:text> organization</xsl:text>
-                </xsl:with-param>
+            <xsl:variable name="role-msg" select="mk:affiliation-role-test(@role,$affWith/@role)"/>
+            <xsl:if test="not($role-msg = 'PASS')">
+              <xsl:call-template name="affiliation-error">
+                <xsl:with-param name="ident"><xsl:value-of select="substring-before($role-msg,':')"/></xsl:with-param>
+                <xsl:with-param name="severity"><xsl:value-of select="substring-after(substring-before($role-msg,')'),':')"/></xsl:with-param>
+                <xsl:with-param name="msg"><xsl:text>Invalid role '</xsl:text><xsl:value-of select="@role"/><xsl:text>' - </xsl:text><xsl:value-of select="substring-after($role-msg,')')"/></xsl:with-param>
               </xsl:call-template>
             </xsl:if>
 
@@ -383,7 +380,19 @@
 </xsl:template>
 
 
-
+  <xsl:function name="mk:affiliation-role-test">
+    <xsl:param name="role"/>
+    <xsl:param name="orgrole"/>
+    <xsl:choose>
+      <!-- TODO: extend rules -->
+      <xsl:when test="$role = 'MP'">14:ERROR)not allowed in any context</xsl:when>
+      <xsl:when test="$orgrole = 'parliament' and contains(' minister primeMinister chairman viceChairman ', mk:borders($role))">15:ERROR)invalid affiliation role with parliament organization</xsl:when>
+      <xsl:when test="$orgrole = 'parliament' and not(contains(' president member vicePresident verifier speaker ', mk:borders($role)))">15:WARN)invalid affiliation role with parliament organization</xsl:when>
+      <xsl:when test="$orgrole = 'government' and not(contains(' president member minister ', mk:borders($role)))">16:WARN)invalid affiliation role with government organization</xsl:when>
+      <xsl:when test="$orgrole = 'parliamentaryGroup' and not(contains(' president member ', mk:borders($role)))">17:WARN)invalid affiliation role with parliamentary group organization</xsl:when>
+      <xsl:otherwise>PASS</xsl:otherwise>
+    </xsl:choose>
+  </xsl:function>
 
   <xsl:function name="mk:get_org_from">
     <xsl:param name="org"/>
