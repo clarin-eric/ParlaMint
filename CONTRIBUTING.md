@@ -21,6 +21,7 @@ Sample data should be pushed to the Data branch of the ParlaMint repository dire
 
 ```bash
 cd ParlaMint
+git remote add upstream https://github.com/clarin-eric/ParlaMint.git
 git fetch upstream
 git checkout -b data upstream/data
 git push -u origin data
