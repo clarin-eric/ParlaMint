@@ -317,7 +317,22 @@ $(fix-v2tov3-diff-XX): fix-v2tov3-diff-%: %
 	           ${WORKINGDIR}/fix-v2tov3/ParlaMint-$<${CORPUSDIR_SUFFIX}/{} \
 	  || : # supress exit error when files are different
 
+######################Generating and ingesting TSV added metadata
 
+## Generate TSV files for minister affiliations on the basis of the root files.
+generate-ministers:
+	$s outDir=Data/Metadata -xsl:Scripts/ministers-tei2tsv.xsl Data/ParlaMint.xml
+
+## Insert minister affiliations from TSV file into a root file.
+MC = BG
+insert-ministries-test:
+	$s tsv=../Data/Metadata/ParlaMint_ministers-${MC}.tsv -xsl:Scripts/ministers-tsv2tei.xsl \
+	Data/ParlaMint-${MC}/ParlaMint-${MC}.xml > Scripts/tmp/ParlaMint-${MC}.xml
+	-diff -b Data/ParlaMint-${MC}/ParlaMint-${MC}.xml Scripts/tmp/ParlaMint-${MC}.xml
+	${vrt} Scripts/tmp/ParlaMint-${MC}.xml
+	${vlink} Scripts/tmp/ParlaMint-${MC}.xml
+
+######################VARIABLES
 s = java -jar /usr/share/java/saxon.jar
 P = parallel --gnu --halt 2
 j = java -jar /usr/share/java/jing.jar
@@ -325,7 +340,7 @@ copy = -I % $s -xi:on -xsl:Scripts/copy.xsl -s:% -o:%.all-in-one.xml
 vlink = -xsl:Scripts/check-links.xsl
 vcontent = -xsl:Scripts/validate-parlamint.xsl
 getincludes = -I % xmllint --xpath '//*[local-name()="include"]/@href' % |sed 's/^ *href="//;s/"//'
-pc =  $j Schema/parla-clarin.rng
+pc =  $j Schema/parla-clarin.rng                # Validate with Parla-CLARIN schema
 vrt = $j Schema/ParlaMint-teiCorpus.rng 	# Corpus root / text
 vct = $j Schema/ParlaMint-TEI.rng		# Corpus component / text
 vra = $j Schema/ParlaMint-teiCorpus.ana.rng	# Corpus root / analysed
