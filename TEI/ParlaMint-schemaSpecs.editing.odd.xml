@@ -135,6 +135,7 @@
   </elementSpec>
   
   <!-- Definition of XInclude -->
+  <!--@Tomaž -->
   <elementSpec ident="include" mode="add" ns="http://www.w3.org/2001/XInclude">
     <attList>
       <attDef ident="href" mode="add">
@@ -511,28 +512,28 @@
       <pm:attPreserve ident="subtype"/>
     </attList>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
         <kinesic dur="PT1.5S" iterated="true" type="reinforcing">
           <desc>nodding head vigorously</desc>
         </kinesic>
       </egXML>
     </exemplum>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
         <kinesic type="signal">
           <desc>sign for the end of discussion</desc>
         </kinesic>
       </egXML>
     </exemplum>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
         <kinesic type="gesture">
           <desc>shows</desc>
         </kinesic>
       </egXML>
     </exemplum>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
         <kinesic type="applause">
           <desc>applause</desc>
         </kinesic>
@@ -565,28 +566,21 @@
       <pm:attPreserve ident="subtype"/>
     </attList>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <incident>
-          <desc>ceiling collapses</desc>
-        </incident>
-      </egXML>
-    </exemplum>
-    <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
         <incident type="action">
           <desc>He stands and with him the whole Assembly</desc>
         </incident>
       </egXML>
     </exemplum>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
         <incident type="sound">
           <desc>The Assembly observed a minute of silence. Applause.</desc>
         </incident>
       </egXML>
     </exemplum>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
         <incident type="entering">
           <desc>Arrival of the President of the Republic of Poland</desc>
         </incident>
@@ -1858,6 +1852,27 @@
       </attDef>
       <pm:attPreserve ident="xml:lang"/>
     </attList>
+     <exemplum xml:lang="en">
+       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	 <publicationStmt>
+	   ...
+	   <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1432</idno>
+	   ...
+	 </publicationStmt>
+       </egXML>
+     </exemplum>
+     <exemplum xml:lang="en">
+       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	 <sourceDesc>
+	   <bibl>
+	     <title type="main" xml:lang="sl">Zapisi sej Državnega zbora Republike Slovenije</title>
+	     ...
+	     <idno type="URI">https://www.dz-rs.si</idno>
+	     ...
+	   </bibl>
+	 </sourceDesc>
+       </egXML>
+    </exemplum>
   </elementSpec>
   <elementSpec ident="pubPlace" module="core" mode="change">
     <content>
@@ -2300,10 +2315,16 @@
     </content>
     <attList/>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <hyphenation eol="some">
-          <p>End-of-line hyphenation silently removed where appropriate</p>
-        </hyphenation>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<p>The element <gi>hyphenation</gi> is used in the context of the <gi>editorialDecl</gi> to describe the editorial decisions made in the process of compiling the corpus:
+	</p>
+	<editorialDecl>
+          ...
+          <hyphenation>
+            <p xml:lang="en">No end-of-line hyphens were present in the source.</p>
+          </hyphenation>
+	  ...
+        </editorialDecl>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -2818,60 +2839,37 @@
       <pm:attPreserve ident="xml:lang"/>
     </attList>
     <exemplum xml:lang="en">
-      <p>Labels are commonly used for the headwords in glossary
-      lists; note the use of the global <att>xml:lang</att> attribute to
-      set the default language of the glossary list to Middle English,
-      and identify the glosses and headings as modern English or
-      Latin:</p>
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <list type="gloss" xml:lang="enm">
-          <head xml:lang="en">Vocabulary</head>
-          <headLabel xml:lang="en">Middle English</headLabel>
-          <headItem xml:lang="en">New English</headItem>
-          <label>nu</label>
-          <item xml:lang="en">now</item>
-          <label>lhude</label>
-          <item xml:lang="en">loudly</item>
-          <label>bloweth</label>
-          <item xml:lang="en">blooms</item>
-          <label>med</label>
-          <item xml:lang="en">meadow</item>
-          <label>wude</label>
-          <item xml:lang="en">wood</item>
-          <label>awe</label>
-          <item xml:lang="en">ewe</item>
-          <label>lhouth</label>
-          <item xml:lang="en">lows</item>
-          <label>sterteth</label>
-          <item xml:lang="en">bounds, frisks (cf. <cit>
-          <ref>Chaucer, K.T.644</ref>
-          <quote>a courser, <term>sterting</term>as the fyr</quote>
-        </cit>
-          </item>
-          <label>verteth</label>
-          <item xml:lang="la">pedit</item>
-          <label>murie</label>
-          <item xml:lang="en">merrily</item>
-          <label>swik</label>
-          <item xml:lang="en">cease</item>
-          <label>naver</label>
-          <item xml:lang="en">never</item>
-        </list>
+      <p>Labels denote the existence of organizations and connected events: </p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<org xml:id="DZ" role="parliament" ana="#parla.national #parla.lower">
+          <orgName xml:lang="sl" full="yes">Državni zbor Republike Slovenije</orgName>
+          <orgName xml:lang="en" full="yes">National Assembly of the Republic of Slovenia</orgName>
+          <event from="1992-12-23">
+            <label xml:lang="en">existence</label>
+          </event>
+          ...
+          <listEvent>
+            <head xml:lang="sl">Mandatno obdobje</head>
+            <head xml:lang="en">Legislative period</head>
+            <event xml:id="DZ.7" from="2014-08-01" to="2018-06-21">
+              <label xml:lang="sl">7. mandat</label>
+              <label xml:lang="en">Term 7</label>
+            </event>
+            <event xml:id="DZ.8" from="2018-06-22">
+              <label xml:lang="sl">8. mandat</label>
+              <label xml:lang="en">Term 8</label>
+            </event>
+          </listEvent>
+        </org>
       </egXML>
     </exemplum>
     <exemplum xml:lang="en">
-      <p>Labels may also be used to record explicitly the numbers or letters which mark list items in
-      ordered lists, as in this extract from Gibbon's <title>Autobiography</title>. In this usage
-      the <gi>label</gi> element is synonymous with the <att>n</att> attribute on the <gi>item</gi>
-      element:</p>
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">I will add two facts, which have seldom occurred
-      in the composition of six, or at least of five quartos. <list rend="runon" type="ordered">
-      <label>(1)</label>
-      <item>My first rough manuscript, without any intermediate copy, has been sent to the press.</item>
-      <label>(2) </label>
-      <item>Not a sheet has been seen by any human eyes, excepting those of the author and the
-      printer: the faults and the merits are exclusively my own.</item>
-    </list>
+      <p>Labels may also be used to give a name to the tools used in compiling the corpus:</p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<application ident="int-tagger" version="1.0">
+          <label>INT Tagger, lemmatizer and Tokenizer</label>
+          <desc xml:lang="en">INT Tagger, lemmatizer and Tokenizer for modern Dutch, based on old-school machine learning (SVM). It provides the legacy PoS tags (encoded in w/@ana) and the lemmata for Dutch. Not publicly available.</desc>
+        </application>
       </egXML>
     </exemplum>
     <exemplum xml:lang="en">
