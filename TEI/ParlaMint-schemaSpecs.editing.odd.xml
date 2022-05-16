@@ -390,41 +390,18 @@
       <pm:attPreserve ident="subtype"/>
     </attList>
     <exemplum xml:lang="en">
-      <p>In the following example, the translator has supplied a footnote
-      containing an explanation of the term translated as "painterly":</p>
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">And yet it is not only
-      in the great line of Italian renaissance art, but even in the
-      painterly <note place="bottom" type="gloss" resp="#MDMH">
-      <term xml:lang="de">Malerisch</term>. This word has, in the German, two
-      distinct meanings, one objective, a quality residing in the object,
-      the other subjective, a mode of apprehension and creation.  To avoid
-      confusion, they have been distinguished in English as
-      <mentioned>picturesque</mentioned> and
-      <mentioned>painterly</mentioned> respectively.</note> style of the
-      Dutch genre painters of the seventeenth century that drapery has this
-      psychological significance. 
-      <!-- elsewhere in the document -->
-      
-      <respStmt xml:id="MDMH">
-        <resp>translation from German to English</resp>
-        <name>Hottinger, Marie Donald Mackie</name>
-      </respStmt>
+      <p><gi>note</gi> element can be used to encode transcriber comments such as who spoke, what the time was, interruptions, notes on what is happening in the chamber, results of voting...:
+      </p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<note type="speaker">The president, Dr. Milan Brglez:</note>
+	...
+	<note type="time">The session began at 10 o'clock.</note>
+	...
+	<note type="vote-ayes">84 voted for the adoption of the measure.</note>
+	...
+	<note type="vote-noes">2 voted against the adoption of the measure.</note>
+	...
       </egXML>
-      <p>For this example to be valid, the
-      code <ident>MDMH</ident> must be defined elsewhere, for example by
-      means of a responsibility statement in the associated TEI header.</p>
-    </exemplum>
-    <exemplum xml:lang="en">
-      <p>The global <att>n</att> attribute may be used to supply the symbol or number used to mark the
-      note's point of attachment in the source text, as in the
-      following example: </p>
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">Mevorakh b. Saadya's mother, the matriarch of the
-      family during the second half of the eleventh century, <note n="126" anchored="true"> The
-      alleged mention of Judah Nagid's mother in a letter from 1071 is, in fact, a reference to
-      Judah's children; cf. above, nn. 111 and 54. </note> is well known from Geniza documents
-      published by Jacob Mann.</egXML>
-      <p>However, if notes are numbered in sequence and their
-      numbering can be reconstructed automatically by processing software, it may well be considered unnecessary to record the note numbers.</p>
     </exemplum>
   </elementSpec>
   <elementSpec ident="vocal" module="spoken" mode="change">
@@ -1109,6 +1086,43 @@
       <pm:attPreserve ident="full"/>
       <pm:attPreserve ident="subtype"/>
     </attList>
+    <exemplum xml:lang="en">
+      <p>Element <gi>name</gi> can be used to specify location of the meeting:
+      </p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<name type="place">Westminster</name>
+	<name type="city">London</name>
+	<name type="country" key="GB">U.K.</name>
+      </egXML>
+    </exemplum>
+    <exemplum xml:lang="en">
+      <p>The element may also be used to denote person's responsibility for possible changes:
+      </p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<revisionDesc>
+	  <change when="2021-06-11">
+	  <name>Tomaž Erjavec</name>: Finalized encoding.</change>
+	  <change when="2021-05-28">
+	  <name>Tomaž Erjavec</name>: Built corpus.</change>
+	</revisionDesc>
+      </egXML>
+    </exemplum>
+    <exemplum xml:lang="en">
+      <p><gi>name</gi> element can also be used to mark up Named Entities:
+      </p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	...
+	<w lemma="and" msd="UPosTag=CCONJ">and</w>
+	<name type="ORG">
+	  <w lemma="Westminster"
+	     msd="UPosTag=PROPN|Number=Sing">Westminster</w>
+	  <w join="right" lemma="Hall"
+	     msd="UPosTag=PROPN|Number=Sing">Hall</w>
+	</name>
+	<w lemma="," msd="UPosTag=PUNCT">,</w>
+	...
+      </egXML>
+    </exemplum>
   </elementSpec>
   <elementSpec ident="num" module="core" mode="change">
     <desc versionDate="2005-01-14" xml:lang="en">contains a number, written in any form.</desc>
@@ -1127,11 +1141,14 @@
       <pm:attPreserve ident="subtype"/>
     </attList>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <p>I reached <num type="cardinal" value="21">twenty-one</num> on
-	my <num type="ordinal" value="21">twenty-first</num> birthday</p>
-        <p>Light travels at <num value="3E10">3×10<hi rend="sup">10</hi>
-        </num> cm per second.</p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<num ana="ne:n_"
+             xml:id="ParlaMint-CZ_2018-11-13-ps2017-020-09-004-010.ne138">
+          <w xml:id="ParlaMint-CZ_2018-11-13-ps2017-020-09-004-010.u6.p17.s3.w12"
+             lemma="428"
+             msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+             join="right">428</w>
+        </num>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -1558,6 +1575,19 @@
       <textNode/>
     </content>
     <attList/>
+    <exemplum xml:lang="en">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+        <person xml:id="PicóAntoni">
+	  <persName>
+            <forename>Antoni</forename>
+            <surname>Picó</surname>
+            <nameLink>i</nameLink>
+            <surname>Azanza</surname>
+	  </persName>
+	  ...
+	</person>
+      </egXML>
+    </exemplum>
   </elementSpec>
   <elementSpec ident="roleName" module="namesdates" mode="change">
     <desc
@@ -2301,23 +2331,14 @@
     </content>
     <attList/>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <editorialDecl>
-          <normalization method="markup">
-            <p>Where both upper- and lower-case i, j, u, v, and vv have been normalized, to modern
-            20th century typographical practice, the <gi>choice</gi> element has been used to
-            enclose <gi>orig</gi> and <gi>reg</gi> elements giving the original and new values
-            respectively. ... </p>
-          </normalization>
-          <normalization method="silent">
-            <p>Spacing between words and following punctuation has been regularized to zero spaces;
-            spacing between words has been regularized to one space.</p>
-          </normalization>
-          <normalization source="http://www.dict.sztaki.hu/webster">
-            <p>Spelling converted throughout to Modern American usage, based on Websters 9th
-            Collegiate dictionary.</p>
-          </normalization>
-        </editorialDecl>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<editorialDecl>
+	  ...
+	  <normalization>
+	    <p xml:lang="en">Text has not been normalised, except for spacing.</p>
+	  </normalization>
+	  ...
+	</editorialDecl>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -2451,11 +2472,25 @@
       </attDef>
     </attList>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="hi" occurs="28" withId="2"> Used only to mark English words
-          italicized in the copy text </tagUsage>
-        </namespace>
+      <p>To distinguish the TEI elements from the possible use of elements from other namespaces, a <gi>namespace</gi> element giving the TEI namespace is introduced first:
+      </p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<tagsDecl>
+	  <namespace name="http://www.tei-c.org/ns/1.0">
+	    <tagUsage gi="text" occurs="414"/>
+	    <tagUsage gi="body" occurs="414"/>
+	    <tagUsage gi="div" occurs="414"/>
+	    <tagUsage gi="head" occurs="826"/>
+	    <tagUsage gi="u" occurs="75122"/>
+	    <tagUsage gi="seg" occurs="280971"/>
+	    <tagUsage gi="note" occurs="85525"/>
+	    <tagUsage gi="gap" occurs="7897"/>
+	    <tagUsage gi="vocal" occurs="1740"/>
+	    <tagUsage gi="incident" occurs="37"/>
+	    <tagUsage gi="kinesic" occurs="560"/>
+	    <tagUsage gi="desc" occurs="10234"/>
+	  </namespace>
+	</tagsDecl>
       </egXML>
     </exemplum>
   </elementSpec>
