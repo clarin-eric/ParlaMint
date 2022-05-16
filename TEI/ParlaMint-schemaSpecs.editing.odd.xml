@@ -1005,6 +1005,32 @@
         </valList>
       </attDef>
     </attList>
+    <exemplum xml:lang="en">
+      <p>Syntactic analysis is stored in the link group, <gi>linkGrp</gi> element, which is then composed of <gi>link</gi> elements. The example below illustrating this is given, for readability, without the word-level linguistic attributes and with shortened IDs: </p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<s xml:id="ParlaMint-GB_2021-01-06.seg393.8">
+	  <w xml:id="ParlaMint-GB_2021-01-06.seg393.8.1">I</w>
+	  <w xml:id="ParlaMint-GB_2021-01-06.seg393.8.2">support</w>
+	  <w xml:id="ParlaMint-GB_2021-01-06.seg393.8.3">the</w>
+	  <w join="right"
+	     xml:id="ParlaMint-GB_2021-01-06.seg393.8.4">amendment</w>
+	  <pc xml:id="ParlaMint-GB_2021-01-06.seg393.8.5">.</pc>
+	  <linkGrp targFunc="head argument"
+		   type="UD-SYN">
+	    <link ana="ud-syn:nsubj"
+		  target="#ParlaMint-GB_2021-01-06.seg393.8.2 #ParlaMint-GB_2021-01-06.seg393.8.1"/>
+	    <link ana="ud-syn:root"
+		  target="#ParlaMint-GB_2021-01-06.seg393.8 #ParlaMint-GB_2021-01-06.seg393.8.2"/>
+	    <link ana="ud-syn:det"
+		  target="#ParlaMint-GB_2021-01-06.seg393.8.4 #ParlaMint-GB_2021-01-06.seg393.8.3"/>
+	    <link ana="ud-syn:obj"
+		  target="#ParlaMint-GB_2021-01-06.seg393.8.2 #ParlaMint-GB_2021-01-06.seg393.8.4"/>
+	    <link ana="ud-syn:punct"
+		  target="#ParlaMint-GB_2021-01-06.seg393.8.2 #ParlaMint-GB_2021-01-06.seg393.8.5"/>
+	  </linkGrp>
+	</s>
+      </egXML>
+    </exemplum>
   </elementSpec>
   <elementSpec ident="link" module="linking" mode="change">
     <desc
@@ -1023,18 +1049,30 @@
       </attDef>
     </attList>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <s n="1">The state Supreme Court has refused to release <rs xml:id="R1">
-        <rs xml:id="R2">Rahway State Prison</rs> inmate</rs>
-        <rs xml:id="R3">James Scott</rs> on bail.</s>
-        <s n="2">
-          <rs xml:id="R4">The fighter</rs> is serving 30-40 years
-	for a 1975 armed robbery conviction in <rs xml:id="R5">the penitentiary</rs>.</s>
-        <!-- ... -->
-        <linkGrp type="periphrasis">
-          <link target="#R1 #R3 #R4"/>
-          <link target="#R2 #R5"/>
-        </linkGrp>
+      <p>Element <gi>link</gi>, given in <gi>linkGrp</gi> joins two tokens according to their syntactic dependency. The example below illustrating this is given, for readability, without the word-level linguistic attributes and with shortened IDs:
+      </p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<s xml:id="ParlaMint-GB_2021-01-06.seg393.8">
+	  <w xml:id="ParlaMint-GB_2021-01-06.seg393.8.1">I</w>
+	  <w xml:id="ParlaMint-GB_2021-01-06.seg393.8.2">support</w>
+	  <w xml:id="ParlaMint-GB_2021-01-06.seg393.8.3">the</w>
+	  <w join="right"
+	     xml:id="ParlaMint-GB_2021-01-06.seg393.8.4">amendment</w>
+	  <pc xml:id="ParlaMint-GB_2021-01-06.seg393.8.5">.</pc>
+	  <linkGrp targFunc="head argument"
+		   type="UD-SYN">
+	    <link ana="ud-syn:nsubj"
+		  target="#ParlaMint-GB_2021-01-06.seg393.8.2 #ParlaMint-GB_2021-01-06.seg393.8.1"/>
+	    <link ana="ud-syn:root"
+		  target="#ParlaMint-GB_2021-01-06.seg393.8 #ParlaMint-GB_2021-01-06.seg393.8.2"/>
+	    <link ana="ud-syn:det"
+		  target="#ParlaMint-GB_2021-01-06.seg393.8.4 #ParlaMint-GB_2021-01-06.seg393.8.3"/>
+	    <link ana="ud-syn:obj"
+		  target="#ParlaMint-GB_2021-01-06.seg393.8.2 #ParlaMint-GB_2021-01-06.seg393.8.4"/>
+	    <link ana="ud-syn:punct"
+		  target="#ParlaMint-GB_2021-01-06.seg393.8.2 #ParlaMint-GB_2021-01-06.seg393.8.5"/>
+	  </linkGrp>
+	</s>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -1391,22 +1429,20 @@
       <pm:attPreserve ident="n"/>
     </attList>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <div>
-          <meeting>Ninth International Conference on Middle High German Textual Criticism, Aachen,
-          June 1998.</meeting>
-          <list type="attendance">
-            <head>List of Participants</head>
-            <item>
-              <persName>...</persName>
-            </item>
-            <item>
-              <persName>...</persName>
-            </item>
-            <!--...-->
-          </list>
-          <p>...</p>
-        </div>
+      <p> specification of the particular sessions that the corpus contains are encoded as <gi>meeting</gi>
+      </p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<titleStmt>
+	  <title type="main">Slovenski parlamentarni korpus ParlaMint-SI [ParlaMint]</title>
+	  <title type="main" xml:lang="en">Slovenian parliamentary corpus ParlaMint-SI [ParlaMint]</title>
+	  <title type="sub">Zapisi sej Državnega zbora Republike Slovenije, 7. in 8. mandat (2014 - 2020)</title>
+	  <title type="sub" xml:lang="en">Minutes of the National Assembly of the Republic of Slovenia, Term 7 and 8 (2014 - 2020)</title>
+	  <meeting n="7" corresp="#DZ"
+		   ana="#parla.lower #parla.term #DZ.7">7. mandat</meeting>
+	  <meeting n="8" corresp="#DZ"
+		   ana="#parla.lower #parla.term #DZ.8">8. mandat</meeting>
+	  ...
+	</titleStmt>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -1741,29 +1777,15 @@
       <pm:attPreserve ident="xml:lang"/>
     </attList>
     <exemplum versionDate="2019-07-09" xml:lang="en">
-      <p>This example references a definition of a measurement unit declared in the TEI header: </p>
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <measure type="weight">
-        <num>2</num> pounds of flesh</measure>
-        <measure type="currency">£10-11-6d</measure>
-        <measure type="area" unitRef="#merk">2 <unit>merks</unit> of old extent</measure>
-        <!-- In the TEI Header: -->
-        <encodingDesc>
-          <unitDecl>
-            <unitDef xml:id="merk" type="area">
-              <label>merk</label>
-              <placeName ref="#Scotland"/>
-              <desc>A merk was an area of land determined variably by its agricultural productivity.</desc>
-            </unitDef>
-          </unitDecl>
-        </encodingDesc>
-      </egXML>
-    </exemplum>
-    <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <measure quantity="40" unit="hogshead" commodity="rum">2 score hh rum</measure>
-        <measure quantity="12" unit="count" commodity="roses">1 doz. roses</measure>
-        <measure quantity="1" unit="count" commodity="tulips">a yellow tulip</measure>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<measure unit="speeches" quantity="75122"
+		 xml:lang="sl">75.122 govorov</measure>
+	<measure unit="speeches" quantity="75122"
+		 xml:lang="en">75,122 speeches</measure>
+	<measure unit="words" quantity="20190034"
+		 xml:lang="sl">20.190.034 besed</measure>
+	<measure unit="words" quantity="20190034"
+		 xml:lang="en">20,190,034 words</measure>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -1947,22 +1969,22 @@
     </content>
     <attList/>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <licence target="http://www.nzetc.org/tm/scholarly/tei-NZETC-Help.html#licensing">
-          Licence: Creative Commons Attribution-Share Alike 3.0 New Zealand Licence
-	</licence>
+      <p>The <gi>licence</gi> specifies fixed-value CC BY 4.0 URL, and in the following paragraph gives a prose description of the licence:
+      </p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+        <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+        <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+        </p>
       </egXML>
     </exemplum>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <availability>
-          <licence target="http://creativecommons.org/licenses/by/3.0/"
-                   notBefore="2013-01-01">
-            <p>The Creative Commons Attribution 3.0 Unported (CC BY 3.0) Licence 
-	    applies to this document.</p>
-            <p>The licence was added on January 1, 2013.</p>
-          </licence>
-        </availability>
+      <p>The textual information on licence can be given in more than one language</p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<licence>http://creativecommons.org/licenses/by/4.0/</licence>
+        <p xml:lang="hr">Ovaj rad je dostupan pod <ref target="http://creativecommons.org/licenses/by/4.0/">međunarodnom licencom Creative Commons Imenovanje 4.0</ref>
+        </p>
+        <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+        </p>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -2152,28 +2174,22 @@
       <pm:attPreserve ident="url"/>
     </attList>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <figure>
-          <media mimeType="image/png" url="fig1.png"/>
-          <head>Figure One: The View from the Bridge</head>
-          <figDesc>A Whistleresque view showing four or five sailing boats in the foreground, and a
-          series of buoys strung out between them.</figDesc>
-        </figure>
-      </egXML>
-    </exemplum>
-    <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <media mimeType="audio/wav" url="dingDong.wav" dur="PT10S">
-          <desc>Ten seconds of bellringing sound</desc>
-        </media>
-      </egXML>
-    </exemplum>
-    <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <media mimeType="video/mp4" url="clip45.mp4" dur="PT45M" width="500px">
-          <desc>A 45 minute video clip to be displayed in a window 500
-	  px wide</desc>
-        </media>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+        <recording type="audio">
+          <media xml:id="ps2013-009-01-001-001.audio1"
+		 mimeType="audio/mp3"
+		 source="https://www.psp.cz/eknih/2013ps/audio/2014/05/07/2014050713581412.mp3"
+		 url="2013ps/audio/2014/05/07/2014050713581412.mp3"/>
+          <media xml:id="ps2013-009-01-001-001.audio2"
+		 mimeType="audio/mp3"
+		 source="https://www.psp.cz/eknih/2013ps/audio/2014/05/07/2014050714081422.mp3"
+		 url="2013ps/audio/2014/05/07/2014050714081422.mp3"/>
+          <media xml:id="ps2013-009-01-001-001.audio3"
+		 mimeType="audio/mp3"
+		 source="https://www.psp.cz/eknih/2013ps/audio/2014/05/07/2014050714181432.mp3"
+		 url="2013ps/audio/2014/05/07/2014050714181432.mp3"/>
+	  ...
+	</recording>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -2691,7 +2707,7 @@
       <p>In this example, two private URI scheme prefixes are defined and patterns are provided 
       for dereferencing them. Each prefix is also supplied with a human-readable explanation in a
       <gi>p</gi> element.</p>
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
         <listPrefixDef>
           <prefixDef ident="psn"
                      matchPattern="([A-Z]+)"
@@ -2712,6 +2728,12 @@
               expanded to form URIs which retrieve the relevant 
               bibliographical reference from www.example.com.
             </p>
+          </prefixDef>
+	  <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
+            <p>Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI header.</p>
+          </prefixDef>
+          <prefixDef ident="ne" matchPattern="(.+)" replacementPattern="#NER.cnec2.0.$1">
+            <p>Taxonomy for named entities (cnec2.0)</p>
           </prefixDef>
         </listPrefixDef>
       </egXML>
@@ -3355,57 +3377,34 @@
     </content>
     <attList/>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <listPerson>
-          <person xml:id="pp1">
-            <!-- data about person pp1 -->
-          </person>
-          <person xml:id="pp2">
-            <!-- data about person pp1 -->
-          </person>
-          <!-- more person (pp3, pp4) elements here -->
-          <listRelation type="personal">
-            <relation name="parent" active="#pp1 #pp2" passive="#pp3 #pp4"/>
-            <relation name="spouse" mutual="#pp1 #pp2"/>
-          </listRelation>
-          <listRelation type="social">
-            <relation name="employer" active="#pp1" passive="#pp3 #pp5 #pp6 #pp7"/>
-          </listRelation>
-        </listPerson>
-      </egXML>
-      <p>The persons with identifiers pp1 and pp2 are the parents of pp3 and pp4; they are also married to
-      each other; pp1 is the employer of pp3, pp5, pp6, and pp7.</p>
-    </exemplum>
-    <exemplum
-        xml:lang="en"
-        versionDate="2017-06-30">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <listPerson>
-          <person xml:id="en_pp1">
-            <!-- data about person en_pp1 -->
-          </person>
-          <person xml:id="en_pp2">
-            <!-- data about person en_pp2 -->
-          </person>
-          <!-- more person (en_pp3, en_pp4) elements here -->
-        </listPerson>
-        <listPlace>
-          <place xml:id="en_pl1">
-            <!-- data about place en_pl1 -->
-          </place>
-          <!-- more place (en_pl2, en_pl3) elements here -->
-        </listPlace>
-        <listRelation>
-          <relation name="residence" active="#en_pp1 #en_pp2" passive="#en_pl1"/>
-        </listRelation>
-      </egXML>
-      <p>The persons with identifiers en_pp1 and en_pp2 live in en_pl1.</p>
-    </exemplum>
-    <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <listRelation>
-          <p>All speakers are members of the Ceruli family, born in Naples.</p>
-        </listRelation>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+        <listOrg>
+          <org role="politicalParty" xml:id="party.LD">
+            <orgName full="yes">Liberal Democrat</orgName>
+            <orgName full="init">LD</orgName>
+          </org>
+	  <org role="politicalParty" xml:id="party.I">
+            <orgName full="yes">Independent</orgName>
+            <orgName full="init">I</orgName>
+          </org>
+          <org role="politicalParty" xml:id="party.0UBS">
+            <orgName full="yes">Independent Conservative</orgName>
+            <orgName full="init">0UBS</orgName>
+          </org>
+	  <org>... </org>
+          <listRelation>
+            <relation name="coalition"
+                      mutual="#party.CON #party.LD"
+                      from="2010-05-06"
+                      to="2015-05-07"/>
+	    <relation name="opposition"
+                      active="#party.LAB #party.SO0T #party.64RT #party.SDLP #party.L1QU #party.0UBS #party.BI #party.LI #party.LB #party.LJ95 #party.IGC #party.NPBE #party.CB #party.QMZZ #party.IL #party.UUP #party.FZPG #party.A #party.GP #party.SNP #party.I #party.L8TA #party.CON #party.NA #party.DUP #party.UUSL #party.ZKPW #party.UKIP #party.PC"
+                      passive="#government.GB"
+                      from="2010-05-06"
+                      to="2015-05-07"/>
+	    <relation>...</relation>
+	  </listRelation>
+	</listOrg>
       </egXML>
     </exemplum>
   </elementSpec>
