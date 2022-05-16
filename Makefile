@@ -293,6 +293,17 @@ $(DEV-validate-particDesc-XX): DEV-validate-particDesc-%: % working-dir-%
 	done
 
 
+DEV-idpointers-summ-XX = $(addprefix DEV-idpointers-summ-, $(PARLIAMENTS))
+##!DEV-idpointers-summ## print table with numbers of #id-pointers for corpus root files (# fromElement fromAttribute toElement)
+DEV-idpointers-summ:
+	make $(DEV-idpointers-summ-XX) | perl -e 'my (%tab,%country);while(<>){my($$n,$$c,$$t)=/^(\d+)\t([^\t]*)\t(.*)/; next unless $$c; $$country{$$c}=1;$$tab{$$t}//={};$$tab{$$t}->{$$c}=$$n;};foreach $$c (sort keys %country){printnum($$c)};print "fromEl\tfromAt\ttoEl\n";foreach my $$t (sort keys %tab){foreach $$c (sort keys %country){printnum($$tab{$$t}->{$$c}//"-")};print "$$t\n"};sub printnum{print shift . "\t"}'
+##!DEV-idpointers-summ-XX## ...
+$(DEV-idpointers-summ-XX): DEV-idpointers-summ-%: %
+	@for root in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep -v '_'`;	do \
+	  ${s} -xsl:Scripts/idpointers-list-source-target-names.xsl $${root} 2>&1; \
+	done | sort|uniq -c|sed "s/^ *//"|tr -s " "| tr " " "\t"
+
+
 fix-v2tov3-XX = $(addprefix fix-v2tov3-, $(PARLIAMENTS-v2))
 ##!fix-v2tov3 ## convert ParlaMint v2 format to ParlaMint v3 format
 fix-v2tov3: $(fix-v2tov3-XX)
