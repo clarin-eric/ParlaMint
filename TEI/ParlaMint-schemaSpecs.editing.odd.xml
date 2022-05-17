@@ -107,7 +107,7 @@
       </attDef>
     </attList>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
         <teiCorpus version="3.3.0">
           <teiHeader>
             <!-- header for corpus -->
@@ -246,36 +246,14 @@
       <pm:attPreserve ident="source"/>
     </attList>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <text>
-          <front>
-            <docTitle>
-              <titlePart>Autumn Haze</titlePart>
-            </docTitle>
-          </front>
-          <body>
-            <l>Is it a dragonfly or a maple leaf</l>
-            <l>That settles softly down upon the water?</l>
-          </body>
-        </text>
-      </egXML>
-    </exemplum>
-    <exemplum xml:lang="en">
-      <p>The body of a text may be replaced by a group of nested texts, as in the following schematic:</p>
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <text>
-          <front>
-            <!-- front matter for the whole group -->
-          </front>
-          <group>
-            <text>
-              <!-- first text -->
-            </text>
-            <text>
-              <!-- second text -->
-            </text>
-          </group>
-        </text>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<text ana="#reference">
+	  <body>
+	    <div type="debateSection">...</div>
+	    <div type="debateSection">...</div>
+	    ...
+	  </body>
+	</text>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -655,24 +633,27 @@
     </content>
     <attList/>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">A computational device that infers structure
-      from grammatical strings of words is known as a <term>parser</term>, and much of the history
-      of NLP over the last 20 years has been occupied with the design of parsers.</egXML>
-    </exemplum>
-    <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">We may define <term xml:id="TDPV1" rend="sc">discoursal point of view</term> as <gloss target="#TDPV1">the relationship, expressed
-      through discourse structure, between the implied author or some other addresser, and the
-      fiction.</gloss>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<desc xml:lang="sl">
+	  <term>Podkorpusi</term>
+	</desc>
+	<desc xml:lang="en">
+	  <term>Subcorpora</term>
+	</desc>
       </egXML>
     </exemplum>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">We may define <term ref="#TDPV2" rend="sc">discoursal point of view</term> as <gloss xml:id="TDPV2">the relationship, expressed
-      through discourse structure, between the implied author or some other addresser, and the
-      fiction.</gloss>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<catDesc xml:lang="en">
+	  <term>acl</term>: Clausal modifier of noun (adjectival clause)
+	</catDesc>
+	<catDesc xml:lang="en">
+	  <term>dep</term>: Unspecified dependency
+	</catDesc>
+	<catDesc xml:lang="en">
+	  <term>punct</term>: Punctuation
+	</catDesc>
       </egXML>
-    </exemplum>
-    <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">We discuss Leech's concept of <term ref="myGlossary.xml#TDPV2" rend="sc">discoursal point of view</term> below. </egXML>
     </exemplum>
   </elementSpec>
   <elementSpec ident="ref" module="core" mode="change">
@@ -1205,9 +1186,12 @@
       <pm:attPreserve ident="from"/>
     </attList>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">As he sat smiling, the
-      quarter struck — <time when="11:45:00">the quarter to twelve</time>.</egXML>
-      <!-- Woolf, Mrs Dalloway, p64 -->
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<!-- audio recording -->
+	<note type="time">
+          <time when="2016-04-13T14:50:00">(14.50 hour)</time>
+        </note>
+      </egXML>
     </exemplum>
   </elementSpec>
   <elementSpec ident="email" module="core" mode="change">
@@ -1245,79 +1229,79 @@
     </content>
     <attList/>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <teiHeader>
-          <fileDesc>
+      <p>Basic structure of the <gi>teiHeader</gi>:
+      </p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<teiHeader>
+	  <fileDesc>...</fileDesc>
+	  <encodingDesc>...</encodingDesc>
+	  <profileDesc>...</profileDesc>
+	  <revisionDesc>...</revisionDesc>
+	</teiHeader>
+      </egXML>
+    </exemplum>
+    <exemplum xml:lang="en">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<teiHeader>
+	  <fileDesc>
             <titleStmt>
-              <title>Shakespeare: the first folio (1623) in electronic form</title>
-              <author>Shakespeare, William (1564–1616)</author>
-              <respStmt>
-                <resp>Originally prepared by</resp>
-                <name>Trevor Howard-Hill</name>
-              </respStmt>
-              <respStmt>
-                <resp>Revised and edited by</resp>
-                <name>Christine Avern-Carr</name>
-              </respStmt>
+              <title type="main" xml:lang="lv">Latvijas parlamenta corpus ParlaMint-LV, 13. Saeima, 2020-03-10</title>
+              <title type="main" xml:lang="en">Latvian parliamentary corpus ParlaMint-LV, 13th Term, 2020-03-10</title>
+              <meeting corresp="#PT" ana="#parla.meeting.regular">Regulārā</meeting>
+              <meeting n="13" corresp="#PT" ana="#parla.term #PT.13">13. sasaukums</meeting>
             </titleStmt>
+            <editionStmt>
+              <edition>2.1</edition>
+            </editionStmt>
+            <extent>
+              <measure unit="speeches" quantity="504" xml:lang="en">504 speeches</measure>
+              <measure unit="words" quantity="35964" xml:lang="en">35,964 words</measure>
+              <measure unit="tokens" quantity="45141" xml:lang="en">45141 tokens</measure>
+            </extent>
             <publicationStmt>
-              <distributor>Oxford Text Archive</distributor>
-              <address>
-                <addrLine>13 Banbury Road, Oxford OX2 6NN, UK</addrLine>
-              </address>
-              <idno type="OTA">119</idno>
-              <availability>
-                <p>Freely available on a non-commercial basis.</p>
+              <publisher>
+		<orgName xml:lang="en">CLARIN research infrastructure</orgName>
+		<ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+              </publisher>
+              <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1431</idno>
+              <availability status="free">
+		<licence>http://creativecommons.org/licenses/by/4.0/</licence>
+		<p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
               </availability>
-              <date when="1968">1968</date>
+              <date when="2021-06-10">2021-06-10</date>
             </publicationStmt>
             <sourceDesc>
-              <bibl>The first folio of Shakespeare, prepared by Charlton Hinman (The Norton Facsimile,
-              1968)</bibl>
+              <bibl>
+		<title type="main" xml:lang="lv">Saeimas sēžu stenogrammas</title>
+		<idno type="URI">https://www.saeima.lv/lv/transcripts/view/2047</idno>
+              </bibl>
             </sourceDesc>
-          </fileDesc>
-          <encodingDesc>
+	  </fileDesc>
+	  <encodingDesc>
             <projectDesc>
-              <p>Originally prepared for use in the production of a series of old-spelling
-              concordances in 1968, this text was extensively checked and revised for use during the
-              editing of the new Oxford Shakespeare (Wells and Taylor, 1989).</p>
+              <p xml:lang="en">
+		<ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+              </p>
             </projectDesc>
-            <editorialDecl>
-              <correction>
-                <p>Turned letters are silently corrected.</p>
-              </correction>
-              <normalization>
-                <p>Original spelling and typography is retained, except that long s and ligatured
-                forms are not encoded.</p>
-              </normalization>
-            </editorialDecl>
-            <refsDecl xml:id="ASLREF">
-              <cRefPattern matchPattern="(\S+) ([^.]+)\.(.*)"
-                           replacementPattern="#xpath(//div1[@n='$1']/div2/[@n='$2']//lb[@n='$3'])">
-                <p>A reference is created by assembling the following, in the reverse order as that
-                listed here: <list>
-                <item>the <att>n</att> value of the preceding <gi>lb</gi>
-                </item>
-                <item>a period</item>
-                <item>the <att>n</att> value of the ancestor <gi>div2</gi>
-                </item>
-                <item>a space</item>
-                <item>the <att>n</att> value of the parent <gi>div1</gi>
-                </item>
-              </list>
-                </p>
-              </cRefPattern>
-            </refsDecl>
-          </encodingDesc>
-          <revisionDesc>
-            <list>
-              <item>
-              <date when="1989-04-12">12 Apr 89</date> Last checked by CAC</item>
-              <item>
-              <date when="1989-03-01">1 Mar 89</date> LB made new file</item>
-            </list>
-          </revisionDesc>
-        </teiHeader>
+            <tagsDecl>
+              <namespace name="http://www.tei-c.org/ns/1.0">
+		<tagUsage gi="text" occurs="1"/>
+		<tagUsage gi="body" occurs="1"/>
+		<tagUsage gi="div" occurs="1"/>
+		...
+              </namespace>
+            </tagsDecl>
+	  </encodingDesc>
+	  <profileDesc>
+            <settingDesc>
+              <setting>
+		<name type="city">Rīga</name>
+		<name type="country" key="LV">Latvija</name>
+		<date when="2020-03-10" ana="#parla.sitting">2020-03-10</date>
+              </setting>
+            </settingDesc>
+	  </profileDesc>
+	</teiHeader>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -1420,16 +1404,9 @@
       <pm:attPreserve ident="xml:lang"/>
     </attList>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <title>Information Technology and the Research Process: Proceedings of
-        a conference held at Cranfield Institute of Technology, UK,
-        18–21 July 1989</title>
-      </egXML>
-    </exemplum>
-    <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <title>Hardy's Tess of the D'Urbervilles: a machine readable
-        edition</title>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<title type="main" xml:lang="cs">Parlament České republiky, Poslanecká sněmovna</title>
+        <title type="main" xml:lang="en">Parliament of the Czech Republic, Chamber of Deputies</title>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -2440,20 +2417,19 @@
     <exemplum
         xml:lang="en"
         versionDate="2016-12-05">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <tagsDecl partial="true">
-          <rendition xml:id="rend-it" scheme="css" selector="emph, hi, name, title">font-style: italic;</rendition>
-          <namespace name="http://www.tei-c.org/ns/1.0">
-            <tagUsage gi="hi" occurs="467"/>
-            <tagUsage gi="title" occurs="45"/>
-          </namespace>
-          <namespace name="http://docbook.org/ns/docbook">
-            <tagUsage gi="para" occurs="10"/>
-          </namespace>
-        </tagsDecl>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<encodingDesc>
+	  ...
+	  <tagsDecl>
+	    <namespace name="http://www.tei-c.org/ns/1.0">
+	      <tagUsage gi="text" occurs="414"/>
+	      <tagUsage gi="body" occurs="414"/>
+	      <tagUsage gi="div" occurs="414"/>
+	      ...
+	    </namespace>
+	  </tagsDecl>
+	</encodingDesc>
       </egXML>
-      <p>If the <att>partial</att> attribute were not specified here, the implication would be that
-      the document in question contains only <gi>hi</gi>, <gi>title</gi>, and <gi>para</gi> elements.</p>
     </exemplum>
   </elementSpec>
   <elementSpec ident="namespace" module="header" mode="change">
@@ -2512,16 +2488,23 @@
     <exemplum
         xml:lang="en"
         versionDate="2016-12-05">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <tagsDecl partial="true">
-          <rendition xml:id="it" scheme="css" selector="foreign, hi"> font-style: italic; </rendition>
-          <!-- ... -->
-          <namespace name="http://www.tei-c.org/ns/1.0">
-            <tagUsage gi="hi" occurs="28" withId="2"> Used to mark English words italicized in the copy text.</tagUsage>
-            <tagUsage gi="foreign">Used to mark non-English words in the copy text.</tagUsage>
-            <!-- ... -->
-          </namespace>
-        </tagsDecl>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<tagsDecl>
+	  <namespace name="http://www.tei-c.org/ns/1.0">
+	    <tagUsage gi="text" occurs="414"/>
+	    <tagUsage gi="body" occurs="414"/>
+	    <tagUsage gi="div" occurs="414"/>
+	    <tagUsage gi="head" occurs="826"/>
+	    <tagUsage gi="u" occurs="75122"/>
+	    <tagUsage gi="seg" occurs="280971"/>
+	    <tagUsage gi="note" occurs="85525"/>
+	    <tagUsage gi="gap" occurs="7897"/>
+	    <tagUsage gi="vocal" occurs="1740"/>
+	    <tagUsage gi="incident" occurs="37"/>
+	    <tagUsage gi="kinesic" occurs="560"/>
+	    <tagUsage gi="desc" occurs="10234"/>
+	  </namespace>
+	</tagsDecl>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -2574,95 +2557,71 @@
       <attDef ident="xml:id" mode="change" usage="req"/>
     </attList>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <taxonomy xml:id="tax.b">
-          <bibl>Brown Corpus</bibl>
-          <category xml:id="tax.b.a">
-            <catDesc>Press Reportage</catDesc>
-            <category xml:id="tax.b.a1">
-              <catDesc>Daily</catDesc>
-            </category>
-            <category xml:id="tax.b.a2">
-              <catDesc>Sunday</catDesc>
-            </category>
-            <category xml:id="tax.b.a3">
-              <catDesc>National</catDesc>
-            </category>
-            <category xml:id="tax.b.a4">
-              <catDesc>Provincial</catDesc>
-            </category>
-            <category xml:id="tax.b.a5">
-              <catDesc>Political</catDesc>
-            </category>
-            <category xml:id="tax.b.a6">
-              <catDesc>Sports</catDesc>
-            </category>
-          </category>
-          <category xml:id="tax.b.d">
-            <catDesc>Religion</catDesc>
-            <category xml:id="tax.b.d1">
-              <catDesc>Books</catDesc>
-            </category>
-            <category xml:id="tax.b.d2">
-              <catDesc>Periodicals and tracts</catDesc>
-            </category>
-          </category>
-        </taxonomy>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<taxonomy xml:id="subcorpus">
+	  <desc xml:lang="sl">
+	    <term>Podkorpusi</term>
+	  </desc>
+	  <desc xml:lang="en">
+	    <term>Subcorpora</term>
+	  </desc>
+	  <category xml:id="reference">
+	    <catDesc xml:lang="sl">
+	    <term>Referenca</term>: referenčni podkorpus, do 2019-10-31</catDesc>
+	    <catDesc xml:lang="en">
+	    <term>Reference</term>: reference subcorpus, until 2019-10-31</catDesc>
+	  </category>
+	  <category xml:id="covid">
+	    <catDesc xml:lang="sl">
+	    <term>COVID</term>: COVID podkorpus, od 2019-11-01 dalje</catDesc>
+	    <catDesc xml:lang="en">
+	    <term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
+	  </category>
+	</taxonomy>
       </egXML>
     </exemplum>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <taxonomy>
-          <category xml:id="literature">
-            <catDesc>Literature</catDesc>
-            <category xml:id="poetry">
-              <catDesc>Poetry</catDesc>
-              <category xml:id="sonnet">
-                <catDesc>Sonnet</catDesc>
-                <category xml:id="shakesSonnet">
-                  <catDesc>Shakespearean Sonnet</catDesc>
-                </category>
-                <category xml:id="petraSonnet">
-                  <catDesc>Petrarchan Sonnet</catDesc>
-                </category>
-              </category>
-              <category xml:id="haiku">
-                <catDesc>Haiku</catDesc>
-              </category>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<taxonomy xml:id="parla.legislature">
+          <desc xml:lang="it">
+            <term>Legislatura</term>
+          </desc>
+          <desc xml:lang="en">
+            <term>Legislature</term>
+          </desc>
+          <category xml:id="parla.geo-political">
+            <catDesc xml:lang="it">
+              <term>Unità geo-politica o amministrativa</term>
+            </catDesc>
+            <catDesc xml:lang="en">
+              <term>Geo-political or administrative units</term>
+            </catDesc>
+            <category xml:id="parla.supranational">
+              <catDesc xml:lang="it">
+                <term>Legislatura sovranazionale</term>
+              </catDesc>
+              <catDesc xml:lang="en">
+                <term>Supranational legislature</term>
+              </catDesc>
             </category>
-            <category xml:id="drama">
-              <catDesc>Drama</catDesc>
-            </category>
-          </category>
-          <category xml:id="meter">
-            <catDesc>Metrical Categories</catDesc>
-            <category xml:id="feet">
-              <catDesc>Metrical Feet</catDesc>
-              <category xml:id="iambic">
-                <catDesc>Iambic</catDesc>
-              </category>
-              <category xml:id="trochaic">
-                <catDesc>trochaic</catDesc>
-              </category>
-            </category>
-            <category xml:id="feetNumber">
-              <catDesc>Number of feet</catDesc>
-              <category xml:id="pentameter">
-                <catDesc>&gt;Pentameter</catDesc>
-              </category>
-              <category xml:id="tetrameter">
-                <catDesc>&gt;Tetrameter</catDesc>
-              </category>
-            </category>
-          </category>
+            <category xml:id="parla.national">
+              <catDesc xml:lang="it">
+                <term>Legislatura nazionale</term>
+              </catDesc>
+              <catDesc xml:lang="en">
+                <term>National legislature</term>
+              </catDesc>
+	    </category>
+	    ...
+	  </category>
         </taxonomy>
-        <!-- elsewhere in document -->
-        <lg ana="#shakesSonnet #iambic #pentameter">
-          <l>Shall I compare thee to a summer's day</l>
-          <!-- ... -->
-        </lg>
+	<!--Somewhere else in the document-->
+	<org ana="#parla.national #parla.upper" role="parliament" xml:id="LEG">
+          <orgName full="yes" xml:lang="it">Senato della Repubblica Italiana</orgName>
+          <orgName full="yes" xml:lang="it">Senate of the Republic of Italy</orgName>
+	</org>
       </egXML>
-    </exemplum>
+    </exemplum>    
   </elementSpec>
   <elementSpec ident="category" module="header" mode="change">
     <desc
@@ -3053,24 +3012,13 @@
     </content>
     <attList/>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <taxonomy>
-          <category xml:id="acprose">
-            <catDesc>Academic prose</catDesc>
-          </category>
-          <!-- other categories here -->
-        </taxonomy>
-        <!-- ... -->
-        <textClass>
-          <catRef target="#acprose"/>
-          <classCode scheme="http://www.udcc.org">001.9</classCode>
-          <keywords scheme="http://authorities.loc.gov">
-            <list>
-              <item>End of the world</item>
-              <item>History - philosophy</item>
-            </list>
-          </keywords>
-        </textClass>
+      <p>The element <gi>textClass</gi> groups information which describes the nature or topic of the corpus in terms of a standard classification scheme:
+      </p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<textClass>
+	  <catRef scheme="#parla.legislature"
+		  target="#parla.bi #parla.lower #parla.upper"/>
+	</textClass>
       </egXML>
     </exemplum>
   </elementSpec>
