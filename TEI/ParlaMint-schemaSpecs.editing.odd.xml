@@ -684,13 +684,15 @@
       <attDef ident="target" mode="change" usage="rec"/>
     </attList>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">See especially <ref target="http://www.natcorp.ox.ac.uk/Texts/A02.xml#s2">the second
-      sentence</ref>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	 <projectDesc>
+            <p xml:lang="cs">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
       </egXML>
-    </exemplum>
-    <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">See also <ref target="#locution">s.v. <term>locution</term>
-      </ref>.</egXML>
     </exemplum>
   </elementSpec>
   <elementSpec ident="pb" module="core" mode="change">
@@ -708,7 +710,7 @@
     </attList>
     <exemplum xml:lang="en">
       <p>Page numbers may vary in different editions of a text.</p>
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
         <p> ... <pb n="145" ed="ed2"/>
         <!-- Page 145 in edition "ed2" starts here --> ... <pb n="283" ed="ed1"/>
         <!-- Page 283 in edition "ed1" starts here--> ... </p>
@@ -717,7 +719,7 @@
     <exemplum xml:lang="en">
       <p>A page break may be associated with a facsimile image of the page it introduces by means of
       the <att>facs</att> attribute</p>
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
         <body>
           <pb n="1" facs="page1.png"/>
           <!-- page1.png contains an image of the page;
@@ -939,13 +941,20 @@
       <pm:attPreserve ident="pos"/>
     </attList>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <phr>
-          <w>do</w>
-          <w>you</w>
-          <w>understand</w>
-          <pc type="interrogative">?</pc>
-        </phr>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<s xml:id="ParlaMint-GB_2017-03-28-commons.seg2.2">
+	  <w join="right" lemma="[" msd="UPosTag=PUNCT" pos="-LRB-">[</w>
+	  <w lemma="Hon." msd="UPosTag=PROPN|Number=Sing" pos="NNP">Hon.</w>
+	  <w join="right" lemma="Members" msd="UPosTag=PROPN|Number=Sing" pos="NNP">Members</w>
+	  <w lemma=":" msd="UPosTag=PUNCT" pos=":">:</w>
+	  <w join="right" lemma="“" msd="UPosTag=PUNCT" pos="``" >“</w>
+	  <w join="right" lemma="hear" msd="UPosTag=VERB|VerbForm=Inf" pos="VB">Hear</w>
+	  <w lemma="," msd="UPosTag=PUNCT" pos="," >,</w>
+	  <w join="right" lemma="hear" msd="UPosTag=VERB|VerbForm=Inf" pos="VB">hear</w>
+	  <pc msd="UPosTag=PUNCT" pos=".">!</pc>
+	  <w join="right" lemma="”" msd="UPosTag=PUNCT" pos="''">”</w>
+	  <w lemma="]" msd="UPosTag=PUNCT" pos="-RRB-">]</w>
+        </s>
       </egXML>
     </exemplum>
     <exemplum xml:lang="en">
@@ -1518,15 +1527,20 @@
       <pm:attPreserve ident="ref"/>
     </attList>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <persName>
-          <forename>Edward</forename>
-          <forename>George</forename>
-          <surname type="linked">Bulwer-Lytton</surname>, <roleName>Baron Lytton of
-          <placeName>Knebworth</placeName>
-        </roleName>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<persName>
+          <surname>Broekers-Knol</surname>
+          <forename>Ankie</forename>
         </persName>
       </egXML>
+    </exemplum>
+     <exemplum xml:lang="en">
+       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+         <respStmt>
+           <persName>Matthew Coole</persName>
+           <resp>TEI corpus encoding</resp>
+         </respStmt>
+       </egXML>
     </exemplum>
     <remarks xml:lang="en">
       <p>Special persons (like '<val>anonymous</val>', '<val>group</val>' etc.)
@@ -1653,10 +1667,11 @@
       <pm:attPreserve ident="xml:lang"/>
     </attList>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
         <respStmt>
-          <resp ref="http://id.loc.gov/vocabulary/relators/com.html">compiler</resp>
-          <name>Edward Child</name>
+	  <persName>Andrej Pančur</persName>
+	  <resp>Kodiranje TEI</resp>
+	  <resp xml:lang="en">TEI corpus encoding</resp>
         </respStmt>
       </egXML>
     </exemplum>
@@ -1832,26 +1847,21 @@
     </content>
     <attList/>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <publicationStmt>
-          <publisher>Chadwyck Healey</publisher>
-          <availability>
-            <p>Available under licence only</p>
-          </availability>
-          <date when="1992">1992</date>
-        </publicationStmt>
-      </egXML>
-    </exemplum>
-    <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <publicationStmt>
-          <publisher>Zea Books</publisher>
-          <date>2017</date>
-          <availability>
-            <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license.</p>
-          </availability>
-          <ptr target="http://digitalcommons.unl.edu/zeabook/55"/>
-        </publicationStmt>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<publicationStmt>
+	  <publisher>
+	    <orgName xml:lang="sl">Raziskovalna infrastrukutra CLARIN</orgName>
+	    <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+	    <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+	  </publisher>
+	  <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1432</idno>
+	  <availability status="free">
+	    <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+	    <p xml:lang="sl">To delo je ponujeno pod <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Priznanje avtorstva 4.0 mednarodna licenca</ref>.</p>
+	    <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+	  </availability>
+	  <date when="2021-06-11">11. 6. 2021</date>
+	</publicationStmt>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -1871,11 +1881,11 @@
       <pm:attPreserve ident="xml:lang"/>
     </attList>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <imprint>
-          <publisher>Clarendon Press</publisher>
-          <date>1987</date>
-        </imprint>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<publisher>
+          <orgName>CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -1934,6 +1944,13 @@
       </alternate>
     </content>
     <attList/>
+    <exemplum xml:lang="en">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<pubPlace>
+          <ref target="https://github.com/clarin-eric/ParlaMint">https://github.com/clarin-eric/ParlaMint</ref>
+        </pubPlace>
+      </egXML>
+    </exemplum>
   </elementSpec>
   <elementSpec ident="availability" module="header" mode="change">
     <desc
@@ -2030,17 +2047,20 @@
       <pm:attPreserve ident="xml:lang"/>
     </attList>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <p>Hallgerd was outside. <q>There is blood on your axe,</q> she said. <q>What have you
-        done?</q>
-        </p>
-        <p>
-        <q>I have now arranged that you can be married a second time,</q> replied Thjostolf.</p>
-        <p>
-        <q>Then you must mean that Thorvald is dead,</q> she said.</p>
-        <p>
-          <q>Yes,</q> said Thjostolf. <q>And now you must think up some plan for me.</q>
-        </p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<projectDesc>
+          <p><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+          </p>
+        </projectDesc>
+      </egXML>
+    </exemplum>
+    <exemplum xml:lang="en">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+               <p>This work is also licensed under the <ref target="https://www.parliament.uk/site-information/copyright-parliament/open-parliament-licence/">Open Parliament Licence v3.0</ref>.</p>
+        </availability>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -2115,19 +2135,23 @@
     </content>
     <attList/>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
         <recordingStmt>
-          <recording type="audio" dur="P30M">
-            <respStmt>
-              <resp>Location recording by</resp>
-              <name>Sound Services Ltd.</name>
-            </respStmt>
-            <equipment>
-              <p>Multiple close microphones mixed down to stereo Digital
-	      Audio Tape, standard play, 44.1 KHz sampling frequency</p>
-            </equipment>
-            <date>12 Jan 1987</date>
-          </recording>
+          <recording type="audio">
+            <media xml:id="ps2017-020-09-004-010.audio1"
+                   mimeType="audio/mp3"
+                   source="https://www.psp.cz/eknih/2017ps/audio/2018/11/13/2018111318081822.mp3"
+                   url="2017ps/audio/2018/11/13/2018111318081822.mp3"/>
+            <media xml:id="ps2017-020-09-004-010.audio2"
+                   mimeType="audio/mp3"
+                   source="https://www.psp.cz/eknih/2017ps/audio/2018/11/13/2018111318181832.mp3"
+                   url="2017ps/audio/2018/11/13/2018111318181832.mp3"/>
+            <media xml:id="ps2017-020-09-004-010.audio3"
+                   mimeType="audio/mp3"
+                   source="https://www.psp.cz/eknih/2017ps/audio/2018/11/13/2018111318281842.mp3"
+                   url="2017ps/audio/2018/11/13/2018111318281842.mp3"/>
+	    ...
+	  </recording>
         </recordingStmt>
       </egXML>
     </exemplum>
@@ -2152,43 +2176,13 @@
       <pm:attPreserve ident="type"/>
     </attList>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <recording type="audio" dur="P30M">
-          <equipment>
-            <p>Recorded on a Sony TR444 walkman by unknown participants; remastered 
-	    to digital tape at <placeName>Borehamwood Studios</placeName> by
-	    <orgName>Transcription Services Inc</orgName>.</p>
-          </equipment>
-        </recording>
-      </egXML>
-    </exemplum>
-    <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <recording type="audio" dur="P10M">
-          <equipment>
-            <p>Recorded from FM Radio to digital tape</p>
-          </equipment>
-          <broadcast>
-            <bibl>
-              <title>Interview on foreign policy</title>
-              <author>BBC Radio 5</author>
-              <respStmt>
-                <resp>interviewer</resp>
-                <name>Robin Day</name>
-              </respStmt>
-              <respStmt>
-                <resp>interviewee</resp>
-                <name>Margaret Thatcher</name>
-              </respStmt>
-              <series>
-                <title>The World Tonight</title>
-              </series>
-              <note>First broadcast on
-              <date when="1989-11-27">27 Nov 89</date>
-              </note>
-            </bibl>
-          </broadcast>
-        </recording>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	  <recording type="audio">
+	    <media xml:id="ps2013-044-02-000-000.audio1"
+		   mimeType="audio/mp3"
+		   source="https://www.psp.cz/eknih/2013ps/audio/2016/04/13/2016041308580912.mp3"
+		   url="2013ps/audio/2016/04/13/2016041308580912.mp3"/>
+	  </recording>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -2259,10 +2253,21 @@
     </content>
     <attList/>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <projectDesc>
-          <p>Texts collected for use in the Claremont Shakespeare Clinic, June 1990</p>
-        </projectDesc>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<projectDesc>
+	  <p xml:lang="sl">Glavni cilji projekta <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> so
+	  (1) izdelati večjezično množico na enak način kodiranih korpusov
+	  zapiskov parlamentarnih sej, (2) jezikoslovno označiti te korpuse; (3)
+	  narediti korpuse dostopne za prevzem in prek konkordančnikov; in (4)
+	  pripraviti primere uporabe korpusov v politologiji in digitalni
+	  humanistiki.</p>
+	  <p xml:lang="en">The <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+	  project aims to (1) create a multilingual set of uniformly encoded
+	  comparable corpora of parliamentary proceedings (2) process the
+	  corpora linguistically; (3) make the corpora available for download
+	  and through concordancers; and (4) build use cases in Political
+	  Sciences and Digital Humanities based on the corpus data.</p>
+	</projectDesc>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -2374,30 +2379,13 @@
     </content>
     <attList/>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <quotation marks="none">
-          <p>No quotation marks have been retained. Instead, the <att>rend</att> attribute on the
-          <gi>q</gi> element is used to specify what kinds of quotation mark was used, according
-          to the following list: <list type="gloss">
-          <label>dq</label>
-          <item>double quotes, open and close</item>
-          <label>sq</label>
-          <item>single quotes, open and close</item>
-          <label>dash</label>
-          <item>long dash open, no close</item>
-          <label>dg</label>
-          <item>double guillemets, open and close</item>
-        </list>
-          </p>
-        </quotation>
-      </egXML>
-    </exemplum>
-    <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <quotation marks="all">
-          <p>All quotation marks are retained in the text and are represented by appropriate Unicode
-          characters.</p>
-        </quotation>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<editorialDecl>
+	  ...
+	  <quotation>
+	    <p xml:lang="en">Quotation marks have been left in the text and are not explicitly marked up.</p>
+	  </quotation>
+	</editorialDecl>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -2794,15 +2782,11 @@
     <exemplum
         xml:lang="en"
         versionDate="2012-11-22">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <prefixDef ident="ref"
-                   matchPattern="([a-z]+)"
-                   replacementPattern="../../references/references.xml#$1">
-          <p>
-            In the context of this project, private URIs with 
-            the prefix "ref" point to <gi>div</gi> elements in 
-            the project's global references.xml file.
-          </p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<prefixDef ident="mte"
+                   matchPattern="(.+)"
+                   replacementPattern="http://nl.ijs.si/ME/V6/msd/tables/msd-fslib-hbs.xml#$1">
+          <p xml:lang="en">Private URIs with this prefix point to feature-structure elements defining the Serbocroatian MULTEXT-East Version 6 MSDs.</p>
         </prefixDef>
       </egXML>
     </exemplum>
@@ -2994,29 +2978,15 @@
     </content>
     <attList/>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <profileDesc>
-          <langUsage>
-            <language ident="fr">French</language>
-          </langUsage>
-          <textDesc n="novel">
-            <channel mode="w">print; part issues</channel>
-            <constitution type="single"/>
-            <derivation type="original"/>
-            <domain type="art"/>
-            <factuality type="fiction"/>
-            <interaction type="none"/>
-            <preparedness type="prepared"/>
-            <purpose type="entertain" degree="high"/>
-            <purpose type="inform" degree="medium"/>
-          </textDesc>
-          <settingDesc>
-            <setting>
-              <name>Paris, France</name>
-              <time>Late 19th century</time>
-            </setting>
-          </settingDesc>
-        </profileDesc>
+      <p>Basic structure of the element <gi>profileDesc</gi>: 
+      </p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<profileDesc>
+	  <settingDesc>...</settingDesc>
+	  <textClass>...</textClass>
+	  <particDesc>...</particDesc>
+	  <langUsage>...</langUsage>
+	</profileDesc>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -3467,40 +3437,14 @@
       <pm:attPreserve ident="to"/>
     </attList>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <relation type="social"
-                  name="supervisor"
-                  active="#p1"
-                  passive="#p2 #p3 #p4"/>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<relation name="coalition"
+		  mutual="#MR #OpenVld #N-VA #CD_en_V" from="2014-10-11" to="2018-12-09"
+		  ana="#period_54"/>
+	<relation name="opposition"
+		  active="#Ecolo #cdH #DéFi #Vuye_Wouters #sp.a #PP #PS #PTB #FDF" passive="#government.BE"
+		  from="2014-10-11" to="2018-12-09" ana="#period_54"/>
       </egXML>
-      <p>This indicates that the person with identifier p1 is supervisor of persons p2, p3, and p4.</p>
-    </exemplum>
-    <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <relation type="personal" name="friends" mutual="#p2 #p3 #p4"/>
-      </egXML>
-      <p>This indicates that p2, p3, and p4 are all friends.</p>
-    </exemplum>
-    <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <relation type="CRM"
-                  name="P89_falls_within"
-                  active="http://id.clarosnet.org/places/metamorphoses/place/italy-orvieto"
-                  passive="http://id.clarosnet.org/places/metamorphoses/country/IT"/>
-      </egXML>
-      <p>This indicates that there is a relation, defined by CIDOC CRM,
-      between two resources identified by URLs.</p>
-    </exemplum>
-    <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <relation resp="http://viaf.org/viaf/44335536/"
-                  ref="http://purl.org/saws/ontology#isVariantOf"
-                  active="http://www.ancientwisdoms.ac.uk/cts/urn:cts:greekLit:tlg3017.Syno298.sawsGrc01:divedition.divsection1.o14.a107"
-                  passive="http://data.perseus.org/citations/urn:cts:greekLit:tlg0031.tlg002.perseus-grc1:9.35"/>
-      </egXML>
-      <p>This example records a relationship, defined by the SAWS ontology, between a passage of text
-      identified by a CTS URN, and a variant passage of text in the Perseus Digital Library, and assigns
-      the identification of the relationship to a particular editor (all using resolvable URIs).</p>
     </exemplum>
   </elementSpec>
   <elementSpec ident="listPerson" module="namesdates" mode="change">
@@ -3558,36 +3502,31 @@
       <pm:attPreserve ident="n"/>
     </attList>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <person sex="F" age="adult">
-          <p>Female respondent, well-educated, born in Shropshire UK, 12 Jan 1950, of unknown occupation. Speaks French fluently. Socio-Economic
-          status B2.</p>
-        </person>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<person xml:id="AliciaKearns">
+          <persName>
+            <forename>Alicia</forename>
+            <forename>Alexandra Martha</forename>
+            <surname>Kearns</surname>
+          </persName>
+	  <sex value="F">Female</sex>
+          <affiliation from="2019-12-12" ref="#parla.lower" role="MP"/>
+          <affiliation from="2019-12-12" ref="#party.CON" role="member"/>
+          <idno subtype="contact" type="URI">https://members.parliament.uk/member/4805/contact</idno>
+	</person>
       </egXML>
     </exemplum>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <person sex="intersex" role="god" age="immortal">
-          <persName>Hermaphroditos</persName>
-          <persName xml:lang="grc">Ἑρμαφρόδιτος</persName>
-        </person>
-      </egXML>
-    </exemplum>
-    <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <person xml:id="Ovi01" sex="1" role="poet">
-          <persName xml:lang="en">Ovid</persName>
-          <persName xml:lang="la">Publius Ovidius Naso</persName>
-          <birth when="-0044-03-20"> 20 March 43 BC <placeName>
-          <settlement type="city">Sulmona</settlement>
-          <country key="IT">Italy</country>
-        </placeName>
-          </birth>
-          <death notBefore="0017" notAfter="0018">17 or 18 AD <placeName>
-          <settlement type="city">Tomis (Constanta)</settlement>
-          <country key="RO">Romania</country>
-        </placeName>
-          </death>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<person xml:id="AdamowiczPiotr">
+          <persName>
+            <forename>Piotr</forename>
+            <surname>Adamowicz</surname>
+          </persName>
+          <birth when="1961-06-26">26.06.1961</birth>
+          <sex value="M">mężczyzna</sex>
+          <affiliation role="member" ref="#party.KO"/>
+          <affiliation role="MP"/>
         </person>
       </egXML>
     </exemplum>
@@ -3676,28 +3615,17 @@
       <pm:attPreserve ident="ref"/>
     </attList>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <placeName>
-          <settlement>Rochester</settlement>
-          <region>New York</region>
-        </placeName>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+        <birth when="1966-03-22">
+          <placeName ref="https://www.geonames.org/2523918">Palermo</placeName>
+        </birth>
       </egXML>
     </exemplum>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <placeName>
-          <geogName>Arrochar Alps</geogName>
-          <region>Argylshire</region>
-        </placeName>
-      </egXML>
-    </exemplum>
-    <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <placeName>
-          <measure>10 miles</measure>
-          <offset>Northeast of</offset>
-          <settlement>Attica</settlement>
-        </placeName>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<birth when="1952-06-06">
+          <placeName>Tours-Saint-Symphorien, Indre-et-Loire</placeName>
+        </birth>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -3843,13 +3771,13 @@
       <pm:attPreserve ident="to"/>
     </attList>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <occupation>accountant</occupation>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+        <occupation>politician</occupation>
       </egXML>
     </exemplum>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <occupation scheme="#occupationtaxonomy" code="#acc">accountant</occupation>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+        <occupation scheme="#occupationtaxonomy" code="#acc">economist</occupation>
       </egXML>
     </exemplum>
   </elementSpec>
