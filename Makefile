@@ -293,15 +293,18 @@ $(DEV-validate-particDesc-XX): DEV-validate-particDesc-%: % working-dir-%
 	done
 
 
-DEV-idpointers-summ-XX = $(addprefix DEV-idpointers-summ-, $(PARLIAMENTS))
-##!DEV-idpointers-summ## print table with numbers of #id-pointers for corpus root files (# fromElement fromAttribute toElement)
-DEV-idpointers-summ:
-	make $(DEV-idpointers-summ-XX) | perl -e 'my (%tab,%country);while(<>){my($$n,$$c,$$t)=/^(\d+)\t([^\t]*)\t(.*)/; next unless $$c; $$country{$$c}=1;$$tab{$$t}//={};$$tab{$$t}->{$$c}=$$n;};foreach $$c (sort keys %country){printnum($$c)};print "fromEl\tfromAt\ttoEl\n";foreach my $$t (sort keys %tab){foreach $$c (sort keys %country){printnum($$tab{$$t}->{$$c}//"-")};print "$$t\n"};sub printnum{print shift . "\t"}'
-##!DEV-idpointers-summ-XX## ...
-$(DEV-idpointers-summ-XX): DEV-idpointers-summ-%: %
+DEV-links-summ-XX = $(addprefix DEV-links-summ-, $(PARLIAMENTS))
+##!DEV-links-summ## print table with numbers of links by type for corpus root files (file fromAttribute fromElement toElement linkType #)
+DEV-links-summ:
+	make $(DEV-links-summ-XX) | perl -e 'my (%tab,%country);while(<>){my($$n,$$c,$$t)=/^(\d+)\t([^\t]*)\t(.*)/; next unless $$c; $$country{$$c}=1;$$tab{$$t}//={};$$tab{$$t}->{$$c}=$$n;};print "file\tfromAt\tfromEl\ttoEl\ttarget";foreach $$c (sort keys %country){printnum($$c)};print "\n";foreach my $$t (sort keys %tab){print "$$t";foreach $$c (sort keys %country){printnum($$tab{$$t}->{$$c}//"-")};print "\n"};sub printnum{print "\t" . shift}'
+##!DEV-links-summ-XX## ...
+$(DEV-links-summ-XX): DEV-links-summ-%: %
 	@for root in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep -v '_'`;	do \
-	  ${s} -xsl:Scripts/idpointers-list-source-target-names.xsl $${root} 2>&1; \
-	done | sort|uniq -c|sed "s/^ *//"|tr -s " "| tr " " "\t"
+	  ${s} ${listlink} $${root} 2>&1; \
+	  for component in `echo $${root}| xargs ${getincludes}`; do \
+	    ${s} meta=$(PWD)/$${root} ${listlink} ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/$${component} 2>&1; \
+	  done \
+	done |sed "s/ [^ ]*$$//"| sort|uniq -c|sed "s/^ *//"|tr -s " "| tr " " "\t"
 
 
 fix-v2tov3-XX = $(addprefix fix-v2tov3-, $(PARLIAMENTS-v2))
@@ -349,6 +352,7 @@ P = parallel --gnu --halt 2
 j = java -jar /usr/share/java/jing.jar
 copy = -I % $s -xi:on -xsl:Scripts/copy.xsl -s:% -o:%.all-in-one.xml
 vlink = -xsl:Scripts/check-links.xsl
+listlink = -xsl:Scripts/list-links.xsl
 vcontent = -xsl:Scripts/validate-parlamint.xsl
 getincludes = -I % xmllint --xpath '//*[local-name()="include"]/@href' % |sed 's/^ *href="//;s/"//'
 pc =  $j Schema/parla-clarin.rng                # Validate with Parla-CLARIN schema
