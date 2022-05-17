@@ -293,6 +293,20 @@ $(DEV-validate-particDesc-XX): DEV-validate-particDesc-%: % working-dir-%
 	done
 
 
+DEV-links-summ-XX = $(addprefix DEV-links-summ-, $(PARLIAMENTS))
+##!DEV-links-summ## print table with numbers of links by type for corpus root files (file fromAttribute fromElement toElement linkType #)
+DEV-links-summ:
+	make $(DEV-links-summ-XX) | perl -e 'my (%tab,%country);while(<>){my($$n,$$c,$$t)=/^(\d+)\t([^\t]*)\t(.*)/; next unless $$c; $$country{$$c}=1;$$tab{$$t}//={};$$tab{$$t}->{$$c}=$$n;};print "file\tfromAt\tfromEl\ttoEl\ttarget";foreach $$c (sort keys %country){printnum($$c)};print "\n";foreach my $$t (sort keys %tab){print "$$t";foreach $$c (sort keys %country){printnum($$tab{$$t}->{$$c}//"-")};print "\n"};sub printnum{print "\t" . shift}'
+##!DEV-links-summ-XX## ...
+$(DEV-links-summ-XX): DEV-links-summ-%: %
+	@for root in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep -v '_'`;	do \
+	  ${s} ${listlink} $${root} 2>&1; \
+	  for component in `echo $${root}| xargs ${getincludes}`; do \
+	    ${s} meta=$(PWD)/$${root} ${listlink} ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/$${component} 2>&1; \
+	  done \
+	done |sed "s/ [^ ]*$$//"| sort|uniq -c|sed "s/^ *//"|tr -s " "| tr " " "\t"
+
+
 fix-v2tov3-XX = $(addprefix fix-v2tov3-, $(PARLIAMENTS-v2))
 ##!fix-v2tov3 ## convert ParlaMint v2 format to ParlaMint v3 format
 fix-v2tov3: $(fix-v2tov3-XX)
@@ -317,15 +331,31 @@ $(fix-v2tov3-diff-XX): fix-v2tov3-diff-%: %
 	           ${WORKINGDIR}/fix-v2tov3/ParlaMint-$<${CORPUSDIR_SUFFIX}/{} \
 	  || : # supress exit error when files are different
 
+######################Generating and ingesting TSV added metadata
 
+## Generate TSV files for minister affiliations on the basis of the root files.
+generate-ministers:
+	$s outDir=Data/Metadata -xsl:Scripts/ministers-tei2tsv.xsl Data/ParlaMint.xml
+
+## Insert minister affiliations from TSV file into a root file.
+MC = BG
+insert-ministries-test:
+	$s tsv=../Data/Metadata/ParlaMint_ministers-${MC}.tsv -xsl:Scripts/ministers-tsv2tei.xsl \
+	Data/ParlaMint-${MC}/ParlaMint-${MC}.xml > Scripts/tmp/ParlaMint-${MC}.xml
+	-diff -b Data/ParlaMint-${MC}/ParlaMint-${MC}.xml Scripts/tmp/ParlaMint-${MC}.xml
+	${vrt} Scripts/tmp/ParlaMint-${MC}.xml
+	${vlink} Scripts/tmp/ParlaMint-${MC}.xml
+
+######################VARIABLES
 s = java -jar /usr/share/java/saxon.jar
 P = parallel --gnu --halt 2
 j = java -jar /usr/share/java/jing.jar
 copy = -I % $s -xi:on -xsl:Scripts/copy.xsl -s:% -o:%.all-in-one.xml
 vlink = -xsl:Scripts/check-links.xsl
+listlink = -xsl:Scripts/list-links.xsl
 vcontent = -xsl:Scripts/validate-parlamint.xsl
 getincludes = -I % xmllint --xpath '//*[local-name()="include"]/@href' % |sed 's/^ *href="//;s/"//'
-pc =  $j Schema/parla-clarin.rng
+pc =  $j Schema/parla-clarin.rng                # Validate with Parla-CLARIN schema
 vrt = $j Schema/ParlaMint-teiCorpus.rng 	# Corpus root / text
 vct = $j Schema/ParlaMint-TEI.rng		# Corpus component / text
 vra = $j Schema/ParlaMint-teiCorpus.ana.rng	# Corpus root / analysed
