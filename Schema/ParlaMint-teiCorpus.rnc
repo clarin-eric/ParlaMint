@@ -275,7 +275,7 @@ langUsage =
 ##     the event happened.
 life-event.content =
   attribute when { xsd:date | xsd:gYearMonth | xsd:gYear },
-  element placeName { ref.att }?
+  element placeName { ref.att, text }?
 event =
   element event {
     global.atts,
