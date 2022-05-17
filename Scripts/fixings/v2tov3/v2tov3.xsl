@@ -50,7 +50,11 @@
   <xsl:include href="v2tov3-affiliation.xsl" />
 
 
+  <!-- remove pubPlace (CZ) -->
+  <xsl:template match="tei:pubPlace[$country = 'CZ']"/>
 
+  <!-- remove text content from some elements -->
+  <xsl:template match="text()[contains(' affiliation birth death sex ',mk:borders(../name()))]"/>
 
   <!-- COPY REST -->
   <xsl:template match="*">
@@ -150,4 +154,8 @@
     </xsl:choose>
   </xsl:function>
 
+  <xsl:function name="mk:borders">
+    <xsl:param name="str"/>
+    <xsl:value-of select="concat(' ',$str,' ')"/>
+  </xsl:function>
 </xsl:stylesheet>
