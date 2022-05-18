@@ -306,6 +306,14 @@ $(DEV-links-summ-XX): DEV-links-summ-%: %
 	  done \
 	done |sed "s/ [^ ]*$$//"| sort|uniq -c|sed "s/^ *//"|tr -s " "| tr " " "\t"
 
+DEV-roles-summ-XX = $(addprefix DEV-roles-summ-, $(PARLIAMENTS))
+##!DEV-roles-summ## print table with numbers of roles (affiliation -> organisation) use unanotated corpus file (affiliationRole orgRole #)
+DEV-roles-summ:
+	make $(DEV-roles-summ-XX) | perl -e 'my (%tab,%country);while(<>){my($$n,$$c,$$t)=/^(\d+)\t([^\t]*)\t(.*)/; next unless $$c; $$country{$$c}=1;$$tab{$$t}//={};$$tab{$$t}->{$$c}=$$n;};print "affiliationRole\torgRole";foreach $$c (sort keys %country){printnum($$c)};print "\n";foreach my $$t (sort keys %tab){print "$$t";foreach $$c (sort keys %country){printnum($$tab{$$t}->{$$c}//"-")};print "\n"};sub printnum{print "\t" . shift}'
+##!DEV-roles-summ-XX## ...
+$(DEV-roles-summ-XX): DEV-roles-summ-%: %
+	@find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.xml" | \
+	  xargs -I {} ${s} ${listrole} {} 2>&1 |sort|uniq -c|sed "s/^ *//"|tr -s " "| tr " " "\t"
 
 fix-v2tov3-XX = $(addprefix fix-v2tov3-, $(PARLIAMENTS-v2))
 ##!fix-v2tov3 ## convert ParlaMint v2 format to ParlaMint v3 format
@@ -353,6 +361,7 @@ j = java -jar /usr/share/java/jing.jar
 copy = -I % $s -xi:on -xsl:Scripts/copy.xsl -s:% -o:%.all-in-one.xml
 vlink = -xsl:Scripts/check-links.xsl
 listlink = -xsl:Scripts/list-links.xsl
+listrole = -xsl:Scripts/list-affiliation-org-role-pairs.xsl
 vcontent = -xsl:Scripts/validate-parlamint.xsl
 getincludes = -I % xmllint --xpath '//*[local-name()="include"]/@href' % |sed 's/^ *href="//;s/"//'
 pc =  $j Schema/parla-clarin.rng                # Validate with Parla-CLARIN schema
