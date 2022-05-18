@@ -18,10 +18,20 @@
   </xsl:template>
 
   <xsl:template match="tei:idno[not(text())]">
-    <xsl:call-template name="error">
-      <xsl:with-param name="severity">ERROR</xsl:with-param>
-      <xsl:with-param name="msg"><xsl:text>removing due to empty string in idno: </xsl:text> <xsl:apply-templates select="." mode="serialize"/></xsl:with-param>
-    </xsl:call-template>
+    <xsl:choose>
+      <xsl:when test="$country='LV' and @subtype='handle' and./parent::tei:publicationStmt">
+        <xsl:copy>
+          <xsl:attribute name="type">URI</xsl:attribute>
+          <xsl:text>https://github.com/clarin-eric/ParlaMint</xsl:text>
+        </xsl:copy>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:call-template name="error">
+          <xsl:with-param name="severity">ERROR</xsl:with-param>
+          <xsl:with-param name="msg"><xsl:text>removing due to empty string in idno: </xsl:text> <xsl:apply-templates select="." mode="serialize"/></xsl:with-param>
+        </xsl:call-template>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
   <xsl:template match="tei:bibl/tei:idno[contains(./text(), 'parlametar.bg') and $country='BG']">
