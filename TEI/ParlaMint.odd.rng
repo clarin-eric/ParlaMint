@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2022-05-03T12:58:44Z. 2022-03-04.
+Schema generated from ODD source 2022-05-18T16:31:14Z. 2022-03-04.
 TEI Edition: Version 4.4.0a. Last updated on
         14th March 2022, revision 3a89ab0a0
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
@@ -1467,7 +1467,7 @@ Elements]</a:documentation>
    </define>
    <define name="tei_teiCorpus">
       <element name="teiCorpus">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(TEI corpus) contains the whole of a TEI encoded corpus, comprising a single corpus header and one or more <code xmlns="http://www.w3.org/1999/xhtml">&lt;TEI&gt;</code> elements, each containing a single text header and a text. [4. Default Text Structure 15.1. Varieties of Composite Text]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(TEI corpus) contains one whole corpus, stored in the corpus root file comprising the corpus header and XInclude references to corpus component files, each containing a <code xmlns="http://www.w3.org/1999/xhtml">&lt;TEI&gt;</code> element. [4. Default Text Structure 15.1. Varieties of Composite Text]</a:documentation>
          <ref name="tei_teiHeader"/>
          <oneOrMore>
             <choice>
@@ -1991,7 +1991,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
    </define>
    <define name="tei_revisionDesc">
       <element name="revisionDesc">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(revision description) summarizes the revision history for a file. [2.6. The Revision Description 2.1.1. The TEI Header and Its Components]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(revision description) summarizes the revision history for a file [2.6. The Revision Description 2.1.1. The TEI Header and Its Components]</a:documentation>
          <oneOrMore>
             <ref name="tei_change"/>
          </oneOrMore>
@@ -3801,7 +3801,7 @@ Suggested values include: 1] m (metre); 2] kg (kilogram); 3] s (second); 4] Hz (
    </pattern>
    <define name="tei_include">
       <element name="include" ns="http://www.w3.org/2001/XInclude">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">used to include a corpus component (a <code xmlns="http://www.w3.org/1999/xhtml">&lt;TEI&gt;</code> element) into the corpus root (the <code xmlns="http://www.w3.org/1999/xhtml">&lt;teiCorpus&gt;</code> element).</a:documentation>
          <empty/>
          <optional>
             <attribute name="href">

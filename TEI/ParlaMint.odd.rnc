@@ -12,7 +12,7 @@ namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 namespace xsl = "http://www.w3.org/1999/XSL/Transform"
 
-# Schema generated from ODD source 2022-05-03T12:58:48Z. 2022-03-04.
+# Schema generated from ODD source 2022-05-18T16:31:18Z. 2022-03-04.
 # TEI Edition: Version 4.4.0a. Last updated on
 #         14th March 2022, revision 3a89ab0a0
 # TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
@@ -919,9 +919,9 @@ tei_bibl =
 tei_teiCorpus =
   [
     a:documentation [
-      "(TEI corpus) contains the whole of a TEI encoded corpus, comprising a single corpus header and one or more "
+      "(TEI corpus) contains one whole corpus, stored in the corpus root file comprising the corpus header and XInclude references to corpus component files, each containing a "
       ns1:code [ "<TEI>" ]
-      " elements, each containing a single text header and a text. [4. Default Text Structure 15.1. Varieties of Composite Text]"
+      " element. [4. Default Text Structure 15.1. Varieties of Composite Text]"
     ]
   ]
   element teiCorpus {
@@ -1349,7 +1349,7 @@ tei_catRef =
   }
 tei_revisionDesc =
   
-  ## (revision description) summarizes the revision history for a file. [2.6. The Revision Description 2.1.1. The TEI Header and Its Components]
+  ## (revision description) summarizes the revision history for a file [2.6. The Revision Description 2.1.1. The TEI Header and Its Components]
   element revisionDesc {
     tei_change+, tei_att.global.attribute.xmllang, empty
   }
@@ -2844,8 +2844,15 @@ sch:pattern [
   "   "
 ]
 tei_include =
-  
-  ##
+  [
+    a:documentation [
+      "used to include a corpus component (a "
+      ns1:code [ "<TEI>" ]
+      " element) into the corpus root (the "
+      ns1:code [ "<teiCorpus>" ]
+      " element)."
+    ]
+  ]
   element xi:include {
     empty,
     

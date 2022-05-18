@@ -82,9 +82,9 @@
 
   <!-- Top level elements -->
   <elementSpec ident="teiCorpus" module="core" mode="change">
-    <desc versionDate="2017-02-07" xml:lang="en">contains the whole of a TEI encoded corpus,
-    comprising a single corpus header and one or more <gi>TEI</gi> elements, each containing
-    a single text header and a text.</desc>
+    <desc versionDate="2022-05-18" xml:lang="en">contains one whole corpus,
+    stored in the corpus root file comprising the corpus header and XInclude references to corpus
+    component files, each containing a <gi>TEI</gi> element.</desc>
     <content>
       <elementRef key="teiHeader"/>
       <!-- We allow XIncludes in order to enable separate validation of corpus root -->
@@ -107,36 +107,31 @@
       </attDef>
     </attList>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-        <teiCorpus version="3.3.0">
+      <!--egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint"-->
+      <!-- egXML croaks because of XInclude, need to check how eg looks like in HTML! -->
+      <eg source="#ParlaMint">
+	<![CDATA[
+        <teiCorpus xml:lang="en" xml:id="ParlaMint-GB">
           <teiHeader>
             <!-- header for corpus -->
           </teiHeader>
-          <TEI>
-            <teiHeader>
-              <!-- header for first text -->
-            </teiHeader>
-            <text>
-              <!-- content of first text -->
-            </text>
-          </TEI>
-          <TEI>
-            <teiHeader>
-              <!-- header for second text -->
-            </teiHeader>
-            <text>
-              <!-- content of second text -->
-            </text>
-          </TEI>
-          <!-- more TEI elements here -->
+          <!-- First (oldest) corpus component -->
+	  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
+	              href="2015/ParlaMint-GB_2015-01-05-commons.xml"/>
+          <!-- Second corpus component -->
+          <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
+	              href="2015/ParlaMint-GB_2015-01-06-commons.xml"/>
+	  <!-- etc. -->
         </teiCorpus>
-      </egXML>
+      ]]>
+      </eg>
     </exemplum>
   </elementSpec>
   
   <!-- Definition of XInclude -->
-  <!--@Tomaž -->
   <elementSpec ident="include" mode="add" ns="http://www.w3.org/2001/XInclude">
+    <desc versionDate="2022-05-18" xml:lang="en">used to include a corpus component (a
+    <gi>TEI</gi> element) into the corpus root (the <gi>teiCorpus</gi> element).</desc>
     <attList>
       <attDef ident="href" mode="add">
         <datatype>
@@ -144,7 +139,27 @@
         </datatype>
       </attDef>
     </attList>
+    <exemplum xml:lang="en">
+      <!--egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint"-->
+      <eg source="#ParlaMint">
+	<![CDATA[
+        <teiCorpus xml:lang="en" xml:id="ParlaMint-GB">
+          <teiHeader>
+            <!-- header for corpus -->
+          </teiHeader>
+          <!-- First (oldest) corpus component -->
+	  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
+	              href="2015/ParlaMint-GB_2015-01-05-commons.xml"/>
+          <!-- Second corpus component -->
+          <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
+	              href="2015/ParlaMint-GB_2015-01-06-commons.xml"/>
+	  <!-- etc. -->
+        </teiCorpus>
+      ]]>
+      </eg>
+    </exemplum>
   </elementSpec>
+  
   <elementSpec ident="TEI" module="textstructure" mode="change">
     <desc versionDate="2019-06-27" xml:lang="en">contains a single TEI-conformant document, combining
     a single TEI header with one or more members of the <ident type="class">model.resource</ident> class. Multiple <gi>TEI</gi>
