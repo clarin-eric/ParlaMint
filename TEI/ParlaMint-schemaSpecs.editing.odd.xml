@@ -729,30 +729,13 @@
       <pm:attPreserve ident="corresp"/>
     </attList>
     <exemplum xml:lang="en">
-      <p>Page numbers may vary in different editions of a text.</p>
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <p> ... <pb n="145" ed="ed2"/>
-        <!-- Page 145 in edition "ed2" starts here --> ... <pb n="283" ed="ed1"/>
-        <!-- Page 283 in edition "ed1" starts here--> ... </p>
-      </egXML>
-    </exemplum>
-    <exemplum xml:lang="en">
-      <p>A page break may be associated with a facsimile image of the page it introduces by means of
-      the <att>facs</att> attribute</p>
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <body>
-          <pb n="1" facs="page1.png"/>
-          <!-- page1.png contains an image of the page;
-               the text it contains is encoded here -->
-          <p>
-            <!-- ... -->
-          </p>
-          <pb n="2" facs="page2.png"/>
-          <!-- similarly, for page 2 -->
-          <p>
-            <!-- ... -->
-          </p>
-        </body>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<body>
+          <div type="debateSection">
+            <pb source="https://www.psp.cz/eknih/2013ps/stenprot/017schuz/s017357.htm" n="1" xml:id="ParlaMint-CZ_2014-10-01-ps2013-017-09-003-036.pb1" corresp="#ps2013-017-09-003-036.audio1"/>
+	    ...
+	  </div>
+	</body>
       </egXML>
     </exemplum>
   </elementSpec>
