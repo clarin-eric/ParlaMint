@@ -411,28 +411,28 @@
       <pm:attPreserve ident="subtype"/>
     </attList>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
         <vocal dur="PT12S">
           <desc>whistles</desc>
         </vocal>
       </egXML>
     </exemplum>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
         <vocal iterated="true">
           <desc>whistles intermittently</desc>
         </vocal>
       </egXML>
     </exemplum>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
         <vocal type="interruption">
           <desc>noise from the hall</desc>
         </vocal>
       </egXML>
     </exemplum>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
         <vocal type="speaking">
           <desc>Agreement</desc>
         </vocal>
@@ -742,13 +742,13 @@
       <pm:attPreserve ident="source"/>
     </attList>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <u who="#spkr1">if did you set</u>
-        <u trans="latching" who="#spkr2">well Joe and I set it between us</u>
-        <list type="speakers">
-          <item xml:id="spkr1"/>
-          <item xml:id="spkr2"/>
-        </list>
+      <p>The element <gi>u</gi> marks up a speech, as illustrated below:
+      </p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<u who="#DavidPrior" ana="#regular">
+	  <seg>I ask that the draft Regulations laid before the House on 5 December be approved.</seg>
+	  <seg>The relevant document is the 20th Report from the Legislation Committee.</seg>
+	</u>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -841,52 +841,32 @@
       <pm:attPreserve ident="pos"/>
     </attList>
     <exemplum versionDate="2018-02-15" xml:lang="en">
-      <p>This example is adapted from the Folger Library’s Early Modern
-      English Drama version of <ref target="https://emed.folger.edu/wits">The Wits: a Comedy</ref> by
-      William Davenant.</p>
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <l>
-          <w lemma="it" pos="pn" xml:id="A19883-003-a-0100">IT</w>
-          <w lemma="have" pos="vvz" xml:id="A19883-003-a-0110">hath</w>
-          <w lemma="be" pos="vvn" xml:id="A19883-003-a-0120">been</w>
-          <w lemma="say" pos="vvn" xml:id="A19883-003-a-0130">said</w>
-          <w lemma="of" pos="acp-p" xml:id="A19883-003-a-0140">of</w>
-          <w lemma="old" pos="j" xml:id="A19883-003-a-0150">old</w>
-          <pc xml:id="A19883-003-a-0160">,</pc>
-          <w lemma="that" pos="cs" xml:id="A19883-003-a-0170">that</w>
-          <w lemma="play" pos="vvz" xml:id="A19883-003-a-0180">
-            <choice>
-              <orig>Playes</orig>
-              <reg>Plays</reg>
-            </choice>
-          </w>
-          <w lemma="be" pos="vvb" xml:id="A19883-003-a-0190">are</w>
-          <w lemma="feast" pos="n2" xml:id="A19883-003-a-0200">Feasts</w>
-          <pc xml:id="A19883-003-a-0210">,</pc>
-        </l>
-        <l xml:id="A19883-e100220">
-          <w lemma="poet" pos="n2" xml:id="A19883-003-a-0220">Poets</w>
-          <w lemma="the" pos="d" xml:id="A19883-003-a-0230">the</w>
-          <w lemma="cook" pos="n2" xml:id="A19883-003-a-0240">
-            <choice>
-              <orig>Cookes</orig>
-              <reg>Cooks</reg>
-            </choice>
-          </w>
-          <pc xml:id="A19883-003-a-0250">,</pc>
-          <w lemma="and" pos="cc" xml:id="A19883-003-a-0260">and</w>
-          <w lemma="the" pos="d" xml:id="A19883-003-a-0270">the</w>
-          <w lemma="spectator" pos="n2" xml:id="A19883-003-a-0280">Spectators</w>
-          <w lemma="guest" pos="n2" xml:id="A19883-003-a-0290">Guests</w>
-          <pc xml:id="A19883-003-a-0300">,</pc>
-        </l>
-        <l xml:id="A19883-e100230">
-          <w lemma="the" pos="d" xml:id="A19883-003-a-0310">The</w>
-          <w lemma="actor" pos="n2" xml:id="A19883-003-a-0320">Actors</w>
-          <w lemma="waiter" pos="n2" xml:id="A19883-003-a-0330">Waiters</w>
-          <pc xml:id="A19883-003-a-0340">:</pc>
-          <!-- ... -->
-        </l>
+      <p>The <gi>w</gi> element marks the word in the sentence:
+      </p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<s>
+	  <w lemma="I"
+	     msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" pos="PRP">I</w>
+	  <w lemma="support"
+	     msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin" pos="VBP">support</w>
+	  <w lemma="the"
+	     msd="UPosTag=DET|Definite=Def|PronType=Art" pos="DT">the</w>
+	  <w lemma="amendment"
+	     msd="UPosTag=NOUN|Number=Sing" pos="NN" join="right">amendment</w>
+	  <pc msd="UPosTag=PUNCT" pos=".">.</pc>
+	</s>
+      </egXML>
+    </exemplum>
+        <exemplum versionDate="2018-02-15" xml:lang="en">
+      <p>Certain frameworks, in particular the Universal Dependencies, allow for tokens to be decomposed into several words, and it is these syntactic words, and not tokens, that are further annotated. For example, Czech has the word ‘abyste’ which is in UD decomposed into two syntactic words, ‘aby’ and ‘byste’, which can be encoded in the <gi>w</gi> element:
+      </p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<w>abyste
+	<w norm="aby" lemma="aby"
+	   msd="UPosTag=SCONJ"/>
+	<w norm="byste" lemma="být"
+	   msd="UPosTag=AUX|Mood=Cnd|Number=Plur|Person=2|VerbForm=Fin"/>
+	</w>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -927,20 +907,6 @@
 	  <pc msd="UPosTag=PUNCT" pos=".">!</pc>
 	  <w join="right" lemma="”" msd="UPosTag=PUNCT" pos="''">”</w>
 	  <w lemma="]" msd="UPosTag=PUNCT" pos="-RRB-">]</w>
-        </s>
-      </egXML>
-    </exemplum>
-    <exemplum xml:lang="en">
-      <p>Example encoding of the German sentence <mentioned>Wir fahren in den Urlaub.</mentioned>, encoded with attributes from 
-      <ident type="class">att.linguistic</ident> discussed in section <ptr target="#AILALW"/>.</p>
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <s>
-          <w pos="PPER" msd="1.Pl.*.Nom">Wir</w>
-          <w pos="VVFIN" msd="1.Pl.Pres.Ind">fahren</w>
-          <w pos="APPR" msd="--">in</w>
-          <w pos="ART" msd="Def.Masc.Akk.Sg.">den</w>
-          <w pos="NN" msd="Masc.Akk.Sg.">Urlaub</w>
-          <pc pos="$." msd="--" join="left">.</pc>
         </s>
       </egXML>
     </exemplum>
@@ -1375,14 +1341,33 @@
     </content>
     <attList/>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <titleStmt>
-          <title>Capgrave's Life of St. John Norbert: a machine-readable transcription</title>
-          <respStmt>
-            <resp>compiled by</resp>
-            <name>P.J. Lucas</name>
-          </respStmt>
-        </titleStmt>
+      <p>The <gi>titleStmt</gi> element gives the title of the corpus root or component, along with the specification of the particular session(s) of the parliament contained, the persons responsible for compiling the corpus, and the funder(s) of the project:
+      </p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<titleStmt>
+	  <title type="main">Slovenski parlamentarni korpus ParlaMint-SI [ParlaMint]</title>
+	  <title type="main" xml:lang="en">Slovenian parliamentary corpus ParlaMint-SI [ParlaMint]</title>
+	  <title type="sub">Zapisi sej Državnega zbora Republike Slovenije, 7. in 8. mandat (2014 - 2020)</title>
+	  <title type="sub" xml:lang="en">Minutes of the National Assembly of the Republic of Slovenia, Term 7 and 8 (2014 - 2020)</title>
+	  <meeting n="7" corresp="#DZ"
+		   ana="#parla.lower #parla.term #DZ.7">7. mandat</meeting>
+	  <meeting n="8" corresp="#DZ"
+		   ana="#parla.lower #parla.term #DZ.8">8. mandat</meeting>
+	  <respStmt>
+	    <persName ref="https://orcid.org/0000-0001-6143-6877">Andrej Pančur</persName>
+	    <persName ref="https://orcid.org/0000-0002-1560-4099">Tomaž Erjavec</persName>
+	    <resp>Kodiranje ParlaMint TEI XML</resp>
+	    <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+	  </respStmt>
+	  <funder>
+	    <orgName>Raziskovalna infrastruktura CLARIN</orgName>
+	    <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+	  </funder>
+	  <funder>
+	    <orgName>Slovenska raziskovalna infrastruktura CLARIN.SI</orgName>
+	    <orgName xml:lang="en">The Slovenian research infrastructure CLARIN.SI</orgName>
+	  </funder>
+	</titleStmt>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -1725,14 +1710,6 @@
         </editionStmt>
       </egXML>
     </exemplum>
-    <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <editionStmt>
-          <p>First edition, <date>Michaelmas Term, 1991.</date>
-          </p>
-        </editionStmt>
-      </egXML>
-    </exemplum>
   </elementSpec>
   <elementSpec ident="edition" module="header" mode="change">
     <desc
@@ -1950,32 +1927,6 @@
         </availability>
       </egXML>
     </exemplum>
-    <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <availability>
-          <licence target="http://opensource.org/licenses/MIT">
-            <p>The MIT License
-            applies to this document.</p>
-            <p>Copyright (C) 2011 by The University of Victoria</p>
-            <p>Permission is hereby granted, free of charge, to any person obtaining a copy
-            of this software and associated documentation files (the "Software"), to deal
-            in the Software without restriction, including without limitation the rights
-            to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-            copies of the Software, and to permit persons to whom the Software is
-            furnished to do so, subject to the following conditions:</p>
-            <p>The above copyright notice and this permission notice shall be included in
-            all copies or substantial portions of the Software.</p>
-            <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-            IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-            FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-            AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-            LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-            OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-            THE SOFTWARE.</p>
-          </licence>
-        </availability>
-      </egXML>
-    </exemplum>
   </elementSpec>
   <elementSpec ident="licence" module="header" mode="change">
     <desc
@@ -2144,15 +2095,6 @@
         </recordingStmt>
       </egXML>
     </exemplum>
-    <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <recordingStmt>
-          <p>Three
-	  distinct recordings made by hidden microphone in early February
-	  2001.</p>
-        </recordingStmt>
-      </egXML>
-    </exemplum>
   </elementSpec>
   <elementSpec ident="recording" module="spoken" mode="change">
     <desc versionDate="2012-12-27" xml:lang="en">provides details of an audio or video recording event
@@ -2306,7 +2248,7 @@
     </content>
     <attList/>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
 	<editorialDecl>
           <correction>
             <p>No correction of source texts was performed.</p>
@@ -2388,21 +2330,12 @@
     </content>
     <attList/>
     <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
 	<editorialDecl>
 	  <segmentation>
 	    <p xml:lang="en">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
 	  </segmentation>
 	</editorialDecl>
-      </egXML>
-    </exemplum>
-    <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <p>
-          <gi>seg</gi> elements are used to mark functional constituents of various types within each
-          <gi>s</gi>; the typology used is defined by a <gi>taxonomy</gi> element in the corpus
-          header <gi>classDecl</gi>
-        </p>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -2885,54 +2818,21 @@
       </egXML>
     </exemplum>
     <exemplum xml:lang="en">
-      <p>Labels may also be used for other structured list items, as in this extract from the journal
-      of Edward Gibbon:</p>
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <list type="gloss">
-          <label>March 1757.</label>
-          <item>I wrote some critical observations upon Plautus.</item>
-          <label>March 8th.</label>
-          <item>I wrote a long dissertation upon some lines of Virgil.</item>
-          <label>June.</label>
-          <item>I saw Mademoiselle Curchod — <quote xml:lang="la">Omnia vincit amor, et nos cedamus
-          amori.</quote>
-          </item>
-          <label>August.</label>
-          <item>I went to Crassy, and staid two days.</item>
-        </list>
+      <p>Labels may also be used for other structured list items:</p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<listEvent>
+          <head xml:lang="lv">Saeimas sasaukumi</head>
+          <head xml:lang="en">Legislative period</head>
+          <event xml:id="PT.12" from="2014-11-04" to="2018-11-05">
+            <label xml:lang="lv">12. Saeima</label>
+            <label xml:lang="en">Term 12</label>
+          </event>
+          <event xml:id="PT.13" from="2018-11-06">
+            <label xml:lang="lv">13. Saeima</label>
+            <label xml:lang="en">Term 13</label>
+          </event>
+        </listEvent>
       </egXML>
-      <p>Note that the <gi>label</gi> might also appear within the
-      <gi>item</gi> rather than as its sibling. Though syntactically valid,
-      this usage is not recommended TEI practice.</p>
-    </exemplum>
-    <exemplum xml:lang="en">
-      <p>Labels may also be used to represent a label or heading attached to
-      a paragraph or sequence of paragraphs not treated as a structural
-      division, or to a group of verse lines. Note that, in this case, the
-      <gi>label</gi> element appears <emph>within</emph> the <gi>p</gi> or
-      <gi>lg</gi> element, rather than as a preceding sibling of it.</p>
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <p>[...]
-	<lb/>&amp; n’entrer en mauuais &amp; mal-heu-
-	<lb/>ré meſnage. Or des que le conſente-
-	<lb/>ment des parties y eſt le mariage eſt
-	<lb/> arreſté, quoy que de faict il ne ſoit
-	<label place="margin">Puiſſance maritale 
-	entre les Romains.</label>
-        <lb/> conſommé. Depuis la conſomma-
-	<lb/>tion du mariage la femme eſt ſoubs
-	<lb/> la puiſſance du mary, s’il n’eſt eſcla-
-	<lb/>ue ou enfant de famille : car en ce
-	<lb/> cas, la femme, qui a eſpouſé vn en-
-	<lb/>fant de famille, eſt ſous la puiſſance
-	[...]</p>
-      </egXML>
-      <p>In this example the text of the label appears in the right hand
-      margin of the original source, next to the paragraph it describes, but
-      approximately in the middle of it. 
-      <!-- graphic url="Images/marginal-label.png"/--></p>
-      <p>If so desired the <att>type</att> attribute may be used to
-      distinguish different categories of label.</p>
     </exemplum>
   </elementSpec>
   <elementSpec ident="profileDesc" module="header" mode="change">
@@ -3149,35 +3049,24 @@
       </egXML>
     </exemplum>
     <exemplum xml:lang="en">
-      <p>When headings are not inline with the running text (see e.g. 
-      <ref target="http://diglib.hab.de/show_image.php?dir=drucke/ed000364&amp;pointer=34">the heading "Secunda conclusio"</ref>) 
-      they might however be encoded as if. 
-      The actual placement in the source document can be captured with the <att>place</att> attribute. </p>
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
-        <div type="subsection">
-          <head place="margin">Secunda conclusio</head>
-          <p>
-            <lb n="1251"/>
-            <hi rend="large">Potencia: habitus: et actus: recipiunt speciem ab obiectis<supplied>.</supplied>
-            </hi>
-            <lb n="1252"/>Probatur sic. Omne importans necessariam habitudinem ad proprium
-            [...]
-          </p>
-        </div>
-      </egXML>
-    </exemplum>
-    <exemplum xml:lang="en">
-      <p>The <gi>head</gi> element is also used to mark headings of other units, such as lists:</p>
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">With a few exceptions, connectives are equally
-      useful in all kinds of discourse: description, narration, exposition, argument. <list rend="bulleted">
-      <head>Connectives</head>
-      <item>above</item>
-      <item>accordingly</item>
-      <item>across from</item>
-      <item>adjacent to</item>
-      <item>again</item>
-      <item><!-- ... --></item>
-    </list>
+      <p>The <gi>label</gi> element may also be used to mark events in relation to the parliament organisations:</p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<org ana="#parla.federal #parla.lower"
+	     role="parliament" xml:id="be_federal_parliament">
+	  <orgName full="yes" xml:lang="nl">Federaal Parlement van België</orgName>
+	  <orgName full="yes" xml:lang="en">Belgian Federal Parliament</orgName>
+	  ...
+	  <listEvent>
+	    <head xml:lang="nl">Zittingsperiode</head>
+	    <head xml:lang="en">Legislative period</head>
+	    <event to="2007-05-02" from="2003-06-05"
+		   xml:id="period_51">
+	      <label xml:lang="nl">Zittingsperiode 51</label>
+	      <label xml:lang="en">Legislative period 51</label>
+	    </event>
+	    ...
+	  </listEvent>
+	</org>
       </egXML>
     </exemplum>
   </elementSpec>
