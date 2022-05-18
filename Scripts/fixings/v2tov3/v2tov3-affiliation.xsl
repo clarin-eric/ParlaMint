@@ -166,8 +166,25 @@
     </xsl:call-template>
   </xsl:template>
 
+  <xsl:template match="@role[./parent::tei:affiliation]" priority="1">
+    <xsl:attribute name="role">
+      <xsl:choose>
+        <xsl:when test=". = 'MP'">member</xsl:when>
+        <xsl:when test="$country = 'CZ' and . = 'candidateMP'">representative</xsl:when>
+        <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
+      </xsl:choose>
+    </xsl:attribute>
+  </xsl:template>
 
-
+  <xsl:template match="@role[./parent::tei:org]" priority="1">
+    <xsl:attribute name="role">
+      <xsl:choose>
+        <xsl:when test="not($country = 'CZ') and . = 'politicalParty'">parliamentaryGroup</xsl:when>
+        <xsl:when test=". = 'politicalGroup'">parliamentaryGroup</xsl:when>
+        <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
+      </xsl:choose>
+    </xsl:attribute>
+  </xsl:template>
   <!-- NAMED TEMPLATES -->
   <xsl:template name="affiliation-ana">
     <xsl:param name="ref"/>
