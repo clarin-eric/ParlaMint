@@ -172,6 +172,8 @@
       </attDef>
     </attList>
     <exemplum xml:lang="en">
+      <p>Example of basic <gi>TEI</gi> element structure:
+      </p>
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
         <TEI version="3.3.0">
           <teiHeader>
@@ -221,12 +223,14 @@
 		</bibl>
 	      </sourceDesc>
 	    </fileDesc>
-	    <text ana="#reference">
-	      <body>
-		<!--...-->
-	      </body>
-	    </text>
 	  </teiHeader>
+	  <text ana="#reference">
+	    <body>
+	      <div type="debateSection">...</div>
+	      <div type="debateSection">...</div>
+	      ...
+	    </body>
+	  </text>
         </TEI>
       </egXML>
     </exemplum>
@@ -266,8 +270,23 @@
     <exemplum xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
 	<body>
-	  <div type="debateSection">...</div>
-	  <div type="debateSection">...</div>
+	  <div type="debateSection">
+	    <pb n="1"/>
+	    <head>Child Poverty Unit</head>
+	    <note>Question</note>
+	    <note>Asked by</note>
+	    <u>...</u>
+	    ...
+	    <pb n="2"/>
+	    ...
+	  </div>
+	  <div type="debateSection">
+	    <head>Trade Union Act 2016 (Political Funds)</head>
+	    <note>Motion to Approve</note>
+	    <note>Moved by</note>
+	    <u>...</u>
+	    ...
+	  </div>
 	  ...
 	</body>
       </egXML>
@@ -379,6 +398,26 @@
 	...
 	<note type="vote-noes">2 voted against the adoption of the measure.</note>
 	...
+      </egXML>
+    </exemplum>
+        <exemplum xml:lang="en">
+      <p>The <gi>note</gi> element may also be used to mark additional information on debate sections:
+      </p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<div type="debateSection">
+          <head>Business Before Questions</head>
+          <note>Death of a Member</note>
+	  <u xml:id="ParlaMint-GB_2019-02-18-commons.u1"
+             ana="#chair"
+             who="#JohnBercow">
+            <seg xml:id="ParlaMint-GB_2019-02-18-commons.seg1">
+              <s xml:id="ParlaMint-GB_2019-02-18-commons.seg1.1">
+		...
+	      </s>
+	    </seg>
+	  </u>
+	  <note>End of debateSection.</note>
+	</div>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -691,7 +730,7 @@
     </attList>
     <exemplum xml:lang="en">
       <p>Page numbers may vary in different editions of a text.</p>
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
         <p> ... <pb n="145" ed="ed2"/>
         <!-- Page 145 in edition "ed2" starts here --> ... <pb n="283" ed="ed1"/>
         <!-- Page 283 in edition "ed1" starts here--> ... </p>
@@ -700,7 +739,7 @@
     <exemplum xml:lang="en">
       <p>A page break may be associated with a facsimile image of the page it introduces by means of
       the <att>facs</att> attribute</p>
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#TEI">
         <body>
           <pb n="1" facs="page1.png"/>
           <!-- page1.png contains an image of the page;
@@ -841,8 +880,6 @@
       <pm:attPreserve ident="pos"/>
     </attList>
     <exemplum versionDate="2018-02-15" xml:lang="en">
-      <p>The <gi>w</gi> element marks the word in the sentence:
-      </p>
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
 	<s>
 	  <w lemma="I"
@@ -857,7 +894,7 @@
 	</s>
       </egXML>
     </exemplum>
-        <exemplum versionDate="2018-02-15" xml:lang="en">
+    <exemplum versionDate="2018-02-15" xml:lang="en">
       <p>Certain frameworks, in particular the Universal Dependencies, allow for tokens to be decomposed into several words, and it is these syntactic words, and not tokens, that are further annotated. For example, Czech has the word ‘abyste’ which is in UD decomposed into two syntactic words, ‘aby’ and ‘byste’, which can be encoded in the <gi>w</gi> element:
       </p>
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
@@ -895,19 +932,17 @@
     </attList>
     <exemplum xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-	<s xml:id="ParlaMint-GB_2017-03-28-commons.seg2.2">
-	  <w join="right" lemma="[" msd="UPosTag=PUNCT" pos="-LRB-">[</w>
-	  <w lemma="Hon." msd="UPosTag=PROPN|Number=Sing" pos="NNP">Hon.</w>
-	  <w join="right" lemma="Members" msd="UPosTag=PROPN|Number=Sing" pos="NNP">Members</w>
-	  <w lemma=":" msd="UPosTag=PUNCT" pos=":">:</w>
-	  <w join="right" lemma="“" msd="UPosTag=PUNCT" pos="``" >“</w>
-	  <w join="right" lemma="hear" msd="UPosTag=VERB|VerbForm=Inf" pos="VB">Hear</w>
-	  <w lemma="," msd="UPosTag=PUNCT" pos="," >,</w>
-	  <w join="right" lemma="hear" msd="UPosTag=VERB|VerbForm=Inf" pos="VB">hear</w>
-	  <pc msd="UPosTag=PUNCT" pos=".">!</pc>
-	  <w join="right" lemma="”" msd="UPosTag=PUNCT" pos="''">”</w>
-	  <w lemma="]" msd="UPosTag=PUNCT" pos="-RRB-">]</w>
-        </s>
+	<s>
+	  <w lemma="I"
+	     msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" pos="PRP">I</w>
+	  <w lemma="support"
+	     msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin" pos="VBP">support</w>
+	  <w lemma="the"
+	     msd="UPosTag=DET|Definite=Def|PronType=Art" pos="DT">the</w>
+	  <w lemma="amendment"
+  msd="UPosTag=NOUN|Number=Sing" pos="NN" join="right">amendment</w>
+	  <pc msd="UPosTag=PUNCT" pos=".">.</pc>
+	</s>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -1121,7 +1156,7 @@
       <pm:attPreserve ident="from"/>
     </attList>
     <exemplum xml:lang="en">
-      <p>The element <gi>date</gi> gives the date of the release, where the when gives the date in the ISO 8601 format, while the textual content can give it according to the conventions used in the local language:</p>
+      <p>The element <gi>date</gi> gives the date of the release in the ISO 8601 format, while the textual content can give it according to the conventions used in the local language:</p>
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
 	<date when="2021-06-08">2021-06-08</date>
       </egXML>
@@ -1341,7 +1376,7 @@
     </content>
     <attList/>
     <exemplum xml:lang="en">
-      <p>The <gi>titleStmt</gi> element gives the title of the corpus root or component, along with the specification of the particular session(s) of the parliament contained, the persons responsible for compiling the corpus, and the funder(s) of the project:
+      <p>The <gi>titleStmt</gi> element gives the title of the corpus root or component, along with the specification of the particular session(s) of the parliament contained, the persons responsible for compiling the corpus and the funder(s) of the project:
       </p>
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
 	<titleStmt>
@@ -1947,7 +1982,7 @@
       </egXML>
     </exemplum>
     <exemplum xml:lang="en">
-      <p>The textual information on licence can be given in more than one language</p>
+      <p>The textual information on licence can be given in more than one language:</p>
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
 	<licence>http://creativecommons.org/licenses/by/4.0/</licence>
         <p xml:lang="hr">Ovaj rad je dostupan pod <ref target="http://creativecommons.org/licenses/by/4.0/">međunarodnom licencom Creative Commons Imenovanje 4.0</ref>
@@ -2289,8 +2324,6 @@
     <attList/>
     <exemplum xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-	<p>The element <gi>hyphenation</gi> is used in the context of the <gi>editorialDecl</gi> to describe the editorial decisions made in the process of compiling the corpus:
-	</p>
 	<editorialDecl>
           ...
           <hyphenation>
@@ -2912,8 +2945,6 @@
     </content>
     <attList/>
     <exemplum xml:lang="en">
-      <p>The element <gi>textClass</gi> groups information which describes the nature or topic of the corpus in terms of a standard classification scheme:
-      </p>
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
 	<textClass>
 	  <catRef scheme="#parla.legislature"
@@ -2935,7 +2966,9 @@
         versionDate="2013-12-20"
         xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-        <catRef scheme="#parla.legislature" target="#parla.uni"/>
+	<textClass>
+          <catRef scheme="#parla.legislature" target="#parla.uni"/>
+	</textClass>
         <!-- elsewhere -->
 	<taxonomy xml:id="parla.legislature">
 	  <!--...-->
@@ -2992,8 +3025,6 @@
 	  </listPerson>
 	</particDesc>
       </egXML>
-      <p>This example shows both a very simple person description, and a very detailed one, using
-      some of the more specialized elements from the module for Names and Dates. </p>
     </exemplum>
   </elementSpec>
   <elementSpec ident="listOrg" module="namesdates" mode="change">
@@ -3262,6 +3293,7 @@
                       from="2010-05-06"
                       to="2015-05-07"/>
 	    <relation>...</relation>
+	    ...
 	  </listRelation>
 	</listOrg>
       </egXML>
@@ -3627,11 +3659,6 @@
     <exemplum xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
         <occupation>politician</occupation>
-      </egXML>
-    </exemplum>
-    <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-        <occupation scheme="#occupationtaxonomy" code="#acc">economist</occupation>
       </egXML>
     </exemplum>
   </elementSpec>
