@@ -732,7 +732,9 @@
   </elementSpec>
   <elementSpec ident="pb" module="core" mode="change">
     <desc versionDate="2017-06-14" xml:lang="en">marks the beginning of a new page in a paginated document.</desc>
-    <content/>
+    <content>
+      <empty/>
+    </content>
     <attList>
       <pm:attPreserve ident="xml:id"/>
       <pm:attPreserve ident="n"/>
@@ -2955,7 +2957,9 @@
     <desc
         versionDate="2005-01-14"
         xml:lang="en">specifies one or more defined categories within some taxonomy or text typology.</desc>
-    <content/>
+    <content>
+      <empty/>
+    </content>
     <attList>
       <attDef ident="scheme" mode="change" usage="req"/>
       <attDef ident="target" mode="change" usage="req"/>
@@ -3302,7 +3306,9 @@
         versionDate="2013-04-12"
         xml:lang="en">describes any kind of relationship or linkage amongst a
     specified group of places, events, persons, objects or other items.</desc>
-    <content/>
+    <content>
+      <empty/>
+    </content>
     <attList>
       <attDef ident="name" mode="change" usage="req">
         <valList type="closed">
@@ -3701,7 +3707,9 @@
   <elementSpec ident="graphic" module="core" mode="change">
     <desc versionDate="2016-03-07" xml:lang="en">indicates the location of a graphic or illustration, either forming
     part of a text, or providing an image of it.</desc>
-    <content/>
+    <content>
+      <empty/>
+    </content>
     <attList>
       <pm:attPreserve ident="url"/>
       <pm:attPreserve ident="scale"/>
@@ -3815,17 +3823,120 @@
     </exemplum>
   </elementSpec>
   
-  <!-- To Do:
-       Appears both in TEI heder and in .ana body for CZ
-
+  <!-- To Do: This is CZ only! Make examples -->
+  
   <elementSpec ident="unit" module="core" mode="change">
+    <desc versionDate="2018-07-17" xml:lang="en">contains a symbol, a word or a phrase referring to a unit of measurement in any kind of formal or informal system.</desc>
     <content>
+      <alternate minOccurs="1" maxOccurs="unbounded">
+        <elementRef key="w"/>
+        <elementRef key="pc"/>
+        <elementRef key="name"/>
+        <elementRef key="date"/>
+        <elementRef key="time"/>
+        <elementRef key="num"/>
+        <elementRef key="unit"/>
+        <elementRef key="email"/>
+        <elementRef key="ref"/>
+        <elementRef key="note"/>
+        <elementRef key="gap"/>
+        <elementRef key="kinesic"/>
+        <elementRef key="incident"/>
+        <elementRef key="vocal"/>
+      </alternate>
     </content>
+    <attList>
+      <pm:attPreserve ident="xml:id"/>
+      <pm:attPreserve ident="xml:lang"/>
+      <pm:attPreserve ident="n"/>
+      <pm:attPreserve ident="ana"/>
+      <pm:attPreserve ident="from"/>
+      <pm:attPreserve ident="to"/>
+    </attList>
+    <exemplum xml:lang="en" versionDate="2019-07-10">
+      <p>Here is an example of a <gi>unit</gi> element holding a <att>unitRef</att> attribute that points to a definition of the unit in the TEI header.</p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples">
+	<measure><num>3</num> <unit unitRef="#ell">ells</unit></measure>
+	
+	<!-- In the TEI Header: -->
+	
+	<encodingDesc>
+          <unitDecl>
+            <unitDef xml:id="ell">
+              <label>ell</label>
+              <placeName ref="#iceland"/>
+              <desc>A unit of measure for cloth, roughly equivalent to 18 inches, or from an adult male’s elbow to the tip of the middle finger.</desc>
+            </unitDef>
+          </unitDecl>
+	</encodingDesc>
+      </egXML>
+    </exemplum>
+    <exemplum xml:lang="en">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples">
+	<measure>
+          <num>2</num>
+        <unit>kg</unit></measure>
+      </egXML>
+    </exemplum>
+    <exemplum xml:lang="en">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples">
+	<measure type="value"><num>3</num><unit type="time" unit="min">minute</unit></measure>
+      </egXML>
+    </exemplum>
+    <exemplum xml:lang="en">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples">
+	<measure type="interval"><num atLeast="1.2">1.2</num> to <num atMost="5.6">5.6</num>
+        <unit type="velocity" unit="km/h">km/h</unit></measure>
+      </egXML>
+    </exemplum>
+    <exemplum xml:lang="en">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples">
+	<p>Light travels at <num value="3E10">3×10^10</num>
+        <unit type="rate" unit="cm/s">
+          <unit type="space">cm</unit> per <unit type="time">second</unit>
+        </unit>.</p>
+      </egXML>
+    </exemplum>
+    <listRef>
+      <ptr target="#CONANU" type="div3"/>
+    </listRef>
+  </elementSpec>
+  
+  <!-- Appears both in TEI header and in .ana body for CZ: fix + add examples  -->
+  <elementSpec module="spoken" ident="equipment">
+    <gloss xml:lang="en" versionDate="2009-04-17">equipment</gloss>
+    <desc versionDate="2005-01-14" xml:lang="en">provides technical details of the equipment and media used for
+    an audio or video recording used as the source for a spoken text.</desc>
+    <classes>
+      <memberOf key="att.global"/>
+      <memberOf key="att.declarable"/>
+      <memberOf key="model.recordingPart"/>
+    </classes>
+    <content>
+      <classRef key="model.pLike" minOccurs="1" maxOccurs="unbounded"/>
+    </content>
+    <exemplum xml:lang="en">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples">
+	<equipment>
+          <p>"Hi-8" 8 mm NTSC camcorder with integral directional
+	  microphone and windshield and stereo digital sound
+	  recording channel.
+	  </p>
+	</equipment>
+      </egXML>
+    </exemplum>
+    <exemplum xml:lang="en">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples">
+	<equipment>
+          <p>8-track analogue transfer mixed down to 19 cm/sec audio
+	  tape for cassette mastering</p>
+	</equipment>
+      </egXML>
+    </exemplum>
+    <listRef>
+      <ptr target="#HD32"/>
+      <ptr target="#CCAS2"/>
+    </listRef>
   </elementSpec>
 
-  <elementSpec ident="equipment" module="spoken" mode="change">
-    <content>
-    </content>
-  </elementSpec>
-  -->
 </schemaSpec>
