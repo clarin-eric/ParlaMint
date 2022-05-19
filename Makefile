@@ -315,6 +315,20 @@ $(DEV-roles-summ-XX): DEV-roles-summ-%: %
 	@find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.xml" | \
 	  xargs -I {} ${s} ${listrole} {} 2>&1 |sort|uniq -c|sed "s/^ *//"|tr -s " "| tr " " "\t"
 
+DEV-attributes-summ-XX = $(addprefix DEV-attributes-summ-, $(PARLIAMENTS))
+##!DEV-attributes-summ## print table with numbers of element-attributes pairs (element attribute #)
+DEV-attributes-summ:
+	make $(DEV-attributes-summ-XX) | perl -e 'my (%tab,%country);while(<>){my($$n,$$c,$$t)=/^(\d+)\t([^\t]*)\t(.*)/; next unless $$c; $$country{$$c}=1;$$tab{$$t}//={};$$tab{$$t}->{$$c}=$$n;};print "element\tattribute";foreach $$c (sort keys %country){printnum($$c)};print "\n";foreach my $$t (sort keys %tab){print "$$t";foreach $$c (sort keys %country){printnum($$tab{$$t}->{$$c}//"-")};print "\n"};sub printnum{print "\t" . shift}'
+##!DEV-attributes-summ-XX## ...
+$(DEV-attributes-summ-XX): DEV-attributes-summ-%: %
+	@for root in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep -v '_'`;	do \
+	  ${s} ${listattr} $${root} 2>&1; \
+	  for component in `echo $${root}| xargs ${getincludes}`; do \
+	    ${s} ${listattr} ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/$${component} 2>&1; \
+	  done \
+	done | sort|uniq -c|sed "s/^ *//"|tr -s " "| tr " " "\t"
+
+
 fix-v2tov3-XX = $(addprefix fix-v2tov3-, $(PARLIAMENTS-v2))
 ##!fix-v2tov3 ## convert ParlaMint v2 format to ParlaMint v3 format
 fix-v2tov3: $(fix-v2tov3-XX)
@@ -362,6 +376,7 @@ copy = -I % $s -xi:on -xsl:Scripts/copy.xsl -s:% -o:%.all-in-one.xml
 vlink = -xsl:Scripts/check-links.xsl
 listlink = -xsl:Scripts/list-links.xsl
 listrole = -xsl:Scripts/list-affiliation-org-role-pairs.xsl
+listattr = -xsl:Scripts/list-element-attribute.xsl
 vcontent = -xsl:Scripts/validate-parlamint.xsl
 getincludes = -I % xmllint --xpath '//*[local-name()="include"]/@href' % |sed 's/^ *href="//;s/"//'
 pc =  $j Schema/parla-clarin.rng                # Validate with Parla-CLARIN schema
