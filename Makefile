@@ -378,7 +378,7 @@ listlink = -xsl:Scripts/list-links.xsl
 listrole = -xsl:Scripts/list-affiliation-org-role-pairs.xsl
 listattr = -xsl:Scripts/list-element-attribute.xsl
 vcontent = -xsl:Scripts/validate-parlamint.xsl
-getincludes = -I % xmllint --xpath '//*[local-name()="include"]/@href' % |sed 's/^ *href="//;s/"//'
+getincludes = -I % java -cp /usr/share/java/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -qs:'//*[local-name()="include"]/@href' -s:% |sed 's/^ *href="//;s/"//'
 pc =  $j Schema/parla-clarin.rng                # Validate with Parla-CLARIN schema
 vrt = $j Schema/ParlaMint-teiCorpus.rng 	# Corpus root / text
 vct = $j Schema/ParlaMint-TEI.rng		# Corpus component / text
