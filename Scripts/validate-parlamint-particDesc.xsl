@@ -12,6 +12,7 @@
 
   <xsl:template match="tei:affiliation">
     <xsl:variable name="personId" select="./parent::tei:person/@xml:id"/>
+    <xsl:variable name="person" select="./parent::tei:person"/>
     <xsl:variable name="ref" select="@ref"/>
     <xsl:variable name="from" select="@from"/>
     <xsl:variable name="to" select="@to"/>
@@ -105,6 +106,19 @@
                 <xsl:with-param name="msg"><xsl:text>Invalid role '</xsl:text><xsl:value-of select="@role"/><xsl:text>' - </xsl:text><xsl:value-of select="substring-after($role-msg,')')"/></xsl:with-param>
               </xsl:call-template>
             </xsl:if>
+
+            <xsl:variable name="implicated-role" select="mk:affiliation-implicated-role(@role,$affWith/@role)"/>
+            <xsl:if test="not($implicated-role = '')">
+              <xsl:variable name="implicated-affiliation" select="$person/affiliation[@role=$implicated-role and $affFrom>=mk:get_from(.) and mk:get_to(.)>=$affTo ]"/>
+              <xsl:if test="not($implicated-affiliation)">
+              <xsl:call-template name="affiliation-error">
+                <xsl:with-param name="ident">18</xsl:with-param>
+                <xsl:with-param name="severity">ERROR</xsl:with-param>
+                <xsl:with-param name="msg"><xsl:text>Missing implicated affiliation role '</xsl:text><xsl:value-of select="$implicated-role"/><xsl:text>'</xsl:text></xsl:with-param>
+              </xsl:call-template>
+              </xsl:if>
+            </xsl:if>
+
 
           </xsl:when>
           <xsl:when test="not($affWith)"> <!-- ref contain reference inside current corpus file -->
@@ -396,6 +410,21 @@
       <xsl:when test="$orgrole = 'government' and not(contains(' president member minister ', mk:borders($role)))">16:WARN)invalid affiliation role with government organization</xsl:when>
       <xsl:when test="$orgrole = 'parliamentaryGroup' and not(contains(' president member ', mk:borders($role)))">17:WARN)invalid affiliation role with parliamentary group organization</xsl:when>
       <xsl:otherwise>PASS</xsl:otherwise>
+    </xsl:choose>
+  </xsl:function>
+
+  <xsl:function name="mk:affiliation-implicated-role">
+    <xsl:param name="role"/>
+    <xsl:param name="orgrole"/>
+    <xsl:choose>
+      <xsl:when test="$role='president' and $orgrole='parliament'">member</xsl:when>
+      <xsl:when test="$role='vicePresident' and $orgrole='parliament'">member</xsl:when>
+      <xsl:when test="$role='president' and $orgrole='parliamentaryGroup'">member</xsl:when>
+      <xsl:when test="$role='vicePresident' and $orgrole='parliamentaryGroup'">member</xsl:when>
+      <xsl:when test="$role='president' and $orgrole='government'">member</xsl:when>
+      <xsl:when test="$role='vicePresident' and $orgrole='government'">member</xsl:when>
+      <xsl:when test="$role='minister' and $orgrole='government'">member</xsl:when>
+      <xsl:otherwise><xsl:text/></xsl:otherwise>
     </xsl:choose>
   </xsl:function>
 
