@@ -12,9 +12,9 @@ namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 namespace xsl = "http://www.w3.org/1999/XSL/Transform"
 
-# Schema generated from ODD source 2022-05-23T10:59:00Z. 2022-05-19.
+# Schema generated from ODD source 2022-05-23T16:55:18Z. 2022-05-19.
 # TEI Edition: Version 4.4.0a. Last updated on
-#         19th January 2022, revision daab99ca7
+#         14th March 2022, revision 3a89ab0a0
 # TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
 #
 
@@ -314,7 +314,8 @@ tei_att.media.attribute.scale =
     | xsd:decimal
   }?
 sch:pattern [
-  id = "parlamint-att.spanning-spanTo-spanTo-2-constraint-rule-5"
+  id =
+    "parlamint-att.spanning-spanTo-spanTo-points-to-following-constraint-rule-5"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -511,7 +512,7 @@ tei_p =
     ((tei_ref | text)+)
     >> sch:pattern [
          id =
-           "parlamint-p-abstractModel-structure-p-constraint-report-4"
+           "parlamint-p-abstractModel-structure-p-in-ab-or-p-constraint-report-4"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -520,7 +521,7 @@ tei_p =
            "               "
            sch:report [
              test =
-               "not(ancestor::tei:floatingText) and (ancestor::tei:p or ancestor::tei:ab)          and not(parent::tei:exemplum                |parent::tei:item                |parent::tei:note                |parent::tei:q                |parent::tei:quote                |parent::tei:remarks                |parent::tei:said                |parent::tei:sp                |parent::tei:stage                |parent::tei:cell                |parent::tei:figure                )"
+               "    (ancestor::tei:ab or ancestor::tei:p)                          and not( ancestor::tei:floatingText                                 |parent::tei:exemplum                                 |parent::tei:item                                 |parent::tei:note                                 |parent::tei:q                                 |parent::tei:quote                                 |parent::tei:remarks                                 |parent::tei:said                                 |parent::tei:sp                                 |parent::tei:stage                                 |parent::tei:cell                                 |parent::tei:figure                                )"
              "\x{a}" ~
              "        Abstract model violation: Paragraphs may not occur inside other paragraphs or ab elements.\x{a}" ~
              "      "
@@ -533,7 +534,7 @@ tei_p =
        ]
     >> sch:pattern [
          id =
-           "parlamint-p-abstractModel-structure-l-constraint-report-5"
+           "parlamint-p-abstractModel-structure-p-in-l-or-lg-constraint-report-5"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -542,7 +543,7 @@ tei_p =
            "               "
            sch:report [
              test =
-               "(ancestor::tei:l or ancestor::tei:lg) and not(parent::tei:figure or parent::tei:note or ancestor::tei:floatingText)"
+               "    (ancestor::tei:l or ancestor::tei:lg)                          and not( ancestor::tei:floatingText                                 |parent::tei:figure                                 |parent::tei:note                                )"
              "\x{a}" ~
              "        Abstract model violation: Lines may not contain higher-level structural elements such as div, p, or ab, unless p is a child of figure or note, or is a descendant of floatingText.\x{a}" ~
              "      "
@@ -1025,8 +1026,16 @@ tei_idno =
       | 
         ## Digital Object Identifier: a unique string of letters and numbers assigned to an electronic document.
         "DOI"
-      | 
-        ## Uniform Resource Identifier: a string of characters to uniquely identify a resource which usually contains indication of the means of accessing that resource, the name of its host, and its filepath.
+      | [
+          a:documentation [
+            "Uniform Resource Identifier: a string of characters to uniquely identify a resource, following the syntax of "
+            ns1:a [
+              href = "https://datatracker.ietf.org/doc/html/rfc3986"
+              "RFC 3986"
+            ]
+            "."
+          ]
+        ]
         "URI"
       | 
         ## A data number in the Virtual Internet Authority File assigned to link different names in catalogs around the world for the same entity.
@@ -1433,7 +1442,7 @@ tei_div =
       | tei_u)+)
     >> sch:pattern [
          id =
-           "parlamint-div-abstractModel-structure-l-constraint-report-8"
+           "parlamint-div-abstractModel-structure-div-in-l-or-lg-constraint-report-8"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -1455,7 +1464,7 @@ tei_div =
        ]
     >> sch:pattern [
          id =
-           "parlamint-div-abstractModel-structure-p-constraint-report-9"
+           "parlamint-div-abstractModel-structure-div-in-ab-or-p-constraint-report-9"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -1944,9 +1953,6 @@ tei_affiliation =
       | 
         ##
         "minister"
-      | 
-        ##
-        "MP"
       | 
         ##
         "substituteMP"

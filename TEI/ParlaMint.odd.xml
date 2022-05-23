@@ -25,7 +25,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>CLARIN</publisher>
-        <date>2022-05-16</date>
+        <date>2022-05-23</date>
         <availability status="free">
           <p>This file is freely available and you are hereby authorised to copy, modify, and
           redistribute it in any way without further reference or permissions.</p>
@@ -47,6 +47,7 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
+      <change when="2022-05-23">Tomaž Erjavec: change affiliation/@role from MP to member.</change>
       <change when="2022-05-18">Katja Meden: add ParlaMint examples in exemplums.</change>
       <change when="2022-05-16">Tomaž Erjavec: add section 3.5 on referring attributes.</change>
       <change when="2022-03-04">Matyáš Kopp: finish first pass through schemaSpecs.</change>
@@ -1431,8 +1432,8 @@
 
 	      <p>Apart from the obligatory metadata on the speakers above, the speakers who
 	      are MPs or members of political parties (or groups) should also have this
-	      information recorded in their <gi>affiliation</gi> elements, as shown in the
-	      following example:
+	      information recorded in their <gi>affiliation</gi> elements with the <q>member</q> role,
+	      as shown in the following example:
 	      
 	      <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-affiliation">
 		<person xml:id="BahŽibertAnja">
@@ -1443,31 +1444,23 @@
                     <surname>Žibert</surname>
                   </persName>
                   <sex value="F"/>
-                  <affiliation role="MP"
-			       ref="#DZ"
-			       from="2014-08-01"
-			       to="2018-06-21"
-			       ana="#DZ.7"/>
-                  <affiliation role="member"
-			       ref="#party.SDS.2"
-			       from="2014-08-01"
-			       to="2018-06-21"
-			       ana="#DZ.7"/>
-                  <affiliation role="MP" ref="#DZ" from="2018-06-22" ana="#DZ.8"/>
+                  <affiliation role="member" ref="#lowerHouse" from="2014-08-01" to="2018-06-21" ana="#DZ.7"/>
+                  <affiliation role="member" ref="#lowerHouse" from="2018-06-22" ana="#DZ.8"/>
+                  <affiliation role="member" ref="#party.SDS.2" from="2014-08-01" to="2018-06-21" ana="#DZ.7"/>
                   <affiliation role="member" ref="#party.SDS.2" from="2018-06-22" ana="#DZ.8"/>
 		</person>
 	      </egXML>
 	      
 	      The type of affiliation is given in the <att>role</att> attribute of
 	      <gi>affiliation</gi>, which has controlled values given by the ParlaMint
-	      schema. Apart from <val>MP</val> for members of parliament and
-	      <val>member</val> for membership in e.g. political parties or groups (but
+	      schema. The main one is <val>member</val> for members of parliament (MPs), 
+	      for membership in e.g. political parties or groups (but
 	      possibly also commissions etc.) the other legal values are currently
 	      <val>substituteMP</val>, <val>president</val>, <val>vicePresident</val>,
 	      <val>chairman</val>, <val>viceChairman</val>, and <val>minister</val>.</p>
 
 	      <p>The <att>ref</att> attribute points to the organisation in which the person
-	      has a role. For the MP affiliation this will always be the ID of the parliament
+	      has a role. For MPs this will always be the ID of the parliament
 	      or, for bicameral parliaments, one of the houses. For membership in a party
 	      this is, of course, the ID of the party organisation.  The affiliation element
 	      also has the usual <att>from</att> and <att>to</att> attributes. Finally, it
@@ -1489,7 +1482,7 @@
                   <birth when="1971-03-28">
                     <placeName ref="https://www.geonames.org/2651286/">Dewsbury</placeName>
                   </birth>
-                  <affiliation from="2007-10-11" ref="#parla.lower" role="MP"/>
+                  <affiliation from="2007-10-11" ref="#parla.lower" role="member"/>
                   <affiliation from="2007-10-11" ref="#party.CON" role="member"/>
                   <affiliation from="2010-05-12" ref="#PoGB" role="minister" to="2012-09-06"/>
                   <affiliation from="2012-09-06" ref="#PoGB" role="minister" to="2014-08-05"/>
