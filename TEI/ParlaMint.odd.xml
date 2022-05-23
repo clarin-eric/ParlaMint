@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="tei_odds.rng" type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns:rng="http://relaxng.org/ns/structure/1.0" 
      xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:sch="http://purl.oclc.org/dsdl/schematron" 
@@ -23,7 +25,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>CLARIN</publisher>
-        <date>2022-05-03</date>
+        <date>2022-05-16</date>
         <availability status="free">
           <p>This file is freely available and you are hereby authorised to copy, modify, and
           redistribute it in any way without further reference or permissions.</p>
@@ -46,6 +48,7 @@
     </encodingDesc>
     <revisionDesc>
       <change when="2022-05-18">Katja Meden: add ParlaMint examples in exemplums.</change>
+      <change when="2022-05-16">Tomaž Erjavec: add section 3.5 on referring attributes.</change>
       <change when="2022-03-04">Matyáš Kopp: finish first pass through schemaSpecs.</change>
       <change when="2022-02-21">Tomaž Erjavec: better schemaSpec.</change>
       <change when="2022-02-16">Tomaž Erjavec: first draft.</change>
@@ -125,7 +128,7 @@
 
           <item><ref target="#chp-general">Chapter 3</ref> explains some general requirements
           and the file-naming conventions a ParlaMint corpus has to meet; it also introduces
-          the top level elements of a corpus root and components and their attributes;</item>
+          the top level elements and their attributes and the main pointing attributes;</item>
 
           <item><ref target="#sec-metadata">Chapter 4</ref> concentrates on encoding the
           rich corpus metadata, such as information on speakers and political parties;</item>
@@ -443,6 +446,9 @@
           <p>A corpus component also has the same three required attributes, but
           additionally also the <att>ana</att> attribute:
 	  
+	  <!-- The info in @ana should actually go in the
+	       TEI/teiHeader/profileDesc/textClass - but it is probably too late to change
+	       this now -->
 	  <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-teiCorpusComp">
             <![CDATA[
             <TEI xmlns="http://www.tei-c.org/ns/1.0" 
@@ -454,40 +460,68 @@
 
 	  The same as for the corpus root, the component also sets the TEI namespace, and
 	  gives the language of its textual content, while its <att>xml:id</att>, of
-	  course, identifies the particular component. The analysis attribute,
-	  <att>ana</att> which is also used by many other elements, so we introduce it
-	  here at more length:
+	  course, identifies the particular component. The <att>ana</att> attribute is a
+	  pointing attribute, and we introduce the these attributes in the next
+	  section.</p>
+	</div>
+
+	<div xml:id="sec-pointing">
+          <head>Pointing attributes</head>
+
+	  <p>The ParlaMint encoding uses pointing attributes for a number of purposes,
+	  e.g. for references to taxonomy categories, to speaker metadata, or to
+	  linguistic categories.</p>
+
+	  <p>While a few elements have dedicated pointing attributes, there are three
+	  generally used ones. They share the characteristics that they are all used by a
+	  large number of different elements and that their value is a series of pointers,
+	  i.e.  a white-space delimited sequence of references to the values of some
+	  <att>xml:id</att> attribute in the corpus or, in general, to an URI.
+	  The three attributes are:
+
 	  <list>
-	  <!-- The info in @ana should actually go in the
-	       TEI/teiHeader/profileDesc/textClass - but it is probably too late to change
-	       this now -->
-	    <item><att>ana</att> serves to provide an analysis or, in ParlaMint, to
-	    classify an element according to some pre-determined vocabulary. It is a
-	    pointing attribute, which has as its value a white-space delimited sequence of
-	    ID references, i.e. references to the values of some <att>xml:id</att>
-	    attribute in the corpus. In general, they refer to the element IDs given in
-	    other parts of the corpus root header. In the example above, these are the
-	    categories of taxonomy elements that specify that this component contains the
-	    transcription of one sitting and belongs to the reference subcorpus; the
-	    structure and content of the taxonomies used are further explained in the
-	    Section on the <ref target="#sec-classDecl">Class declaration</ref>.</item>
+	    <item><att>ana</att> serves to provide an analysis or to classify an element
+	    according to some pre-determined vocabulary. In ParlaMint the target element will
+	    typically be a category in a taxonomy, an event or date, or an organisation.</item>
+	    <item><att>corresp</att> points to items that correspond to the current
+	    element in some way, e.g. the (URL of a) media file to a page break.
+	    </item>
+	    <item><att>ref</att> provides an explicit reference to the full definition or
+	    identity for the entity being named. In ParlaMit it is used e.g. for
+	    connecting a person's affiliation with a particular organisation. The value(s)
+	    of this attribute are often, but not always, URLs, e.g. for associating a
+	    place name with its GeoNames URL.</item>
 	  </list>
 	  </p>
+
+	  <p>To illustrate, the example below gives some elements that contain one or more of these
+	  attributes:
+	    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-pointing">
+              <meeting ana="#parla.upper #parla.term #LEG.18">18 Legislatura</meeting>
+	      <!-- ... -->
+	      <affiliation ref="#group.L-SP-PSd.Az" role="member" ana="#LEG.18" from="2018-03-27"/>
+	      <!-- ... -->
+	      <placeName ref="https://www.geonames.org/2523918">Palermo</placeName>
+	      <!-- ... -->
+              <link ana="ud-syn:det" target="#ParlaMint-IT.seg1.2.6 #ParlaMint-IT.seg1.2.5"/>
+	  </egXML>
+	  The first example, with the <gi>meeting</gi> element classifies it (the
+	  definitions are given in the relevant taxonomy) as a meeting of the upper house,
+	  in the scope of a parlimentary term, specifically in the XVIII Legislative Term.
+	  The example with <gi>affiliation</gi> (again, the definitions are given the
+	  elements with the pointed-to ID) specifies that the (person that has this)
+	  affiliation is a member of the parliamentary group <q>Lega-Salvini
+	  Premier-Partito Sardo d'Azione</q> in the scope of the XVIII Legislative
+	  Term. The <gi>placeName</gi> example gives the definition of Palermo in the
+	  GeoNames database via the used URL. Finally, the <gi>link</gi> example
+	  illustrates a Universal Dependencies determiner syntactic link between two
+	  tokens. The link uses the TEI extended pointer syntax, further explained in the
+	  Section on <ref target="#sec-ana-prefixDef">Prefix definitions</ref>.</p>
+
+	  <p>It is often difficult to decide which of the attribute to use for a
+	  particular pointer, therefore examples of usage given with the relevant element
+	  should be always consulted.</p>
 	</div>
-	<!--div xml:id="sec-pointing">
-          Something like this should be here:
-          <head>Pointing attributes</head>
-	  <p>Hyperlinks to reference URLs are typically given in the <gi>idno</gi> element,
-	  which contains the URL, and is qualified by the <att>type</att> and
-	  <att>subtype</att> attributes, e.g.
-          <eg xml:id="exa-id-element">
-	    <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1432</idno>
-	    <idno type="URI" subtype="parliament">https://www.dz-rs.si</idno>
-            <idno subtype="contact" type="URI">https://members.parliament.uk/member/4384/contact</idno>
-            <idno subtype="twitter" type="URI">https://twitter.com/mikejwood</idno>
-	  </eg>
-	  </p>
-	</div-->
 
       </div>
       
