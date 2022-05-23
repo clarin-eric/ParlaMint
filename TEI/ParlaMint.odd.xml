@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="tei_odds.rng" type="application/xml" 
+<?xml-model href="tei_odds.rng" type="application/xml"
             schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns:rng="http://relaxng.org/ns/structure/1.0" 
      xmlns="http://www.tei-c.org/ns/1.0"
@@ -47,9 +47,9 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
+      <change when="2022-05-18">Katja Meden: add ParlaMint examples in exemplums.</change>
       <change when="2022-05-16">Tomaž Erjavec: add section 3.5 on referring attributes.</change>
       <change when="2022-03-04">Matyáš Kopp: finish first pass through schemaSpecs.</change>
-      <change when="2022-02-27">Tomaž Erjavec: small changes to prose.</change>
       <change when="2022-02-21">Tomaž Erjavec: better schemaSpec.</change>
       <change when="2022-02-16">Tomaž Erjavec: first draft.</change>
     </revisionDesc>
@@ -63,7 +63,7 @@
           corpora</ref></titlePart>
         </docTitle>
         <!--docEdition>v0.2</docEdition-->
-        <docDate>2022-03-04</docDate>
+        <docDate>2022-05-19</docDate>
         <!--byline>Tomaž Erjavec and Matyáš Kopp</byline-->
       </titlePage>
       <p></p>
@@ -464,14 +464,14 @@
 	  pointing attribute, and we introduce the these attributes in the next
 	  section.</p>
 	</div>
-	  
+
 	<div xml:id="sec-pointing">
           <head>Pointing attributes</head>
-	  
+
 	  <p>The ParlaMint encoding uses pointing attributes for a number of purposes,
 	  e.g. for references to taxonomy categories, to speaker metadata, or to
 	  linguistic categories.</p>
-	  
+
 	  <p>While a few elements have dedicated pointing attributes, there are three
 	  generally used ones. They share the characteristics that they are all used by a
 	  large number of different elements and that their value is a series of pointers,
