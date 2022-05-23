@@ -199,14 +199,18 @@
     <!-- test parliament existence -->
     <xsl:call-template name="org-role-cnt">
       <xsl:with-param name="role">parliament</xsl:with-param>
+      <xsl:with-param name="min">1</xsl:with-param>
     </xsl:call-template>
     <!-- test government existence -->
     <xsl:call-template name="org-role-cnt">
       <xsl:with-param name="role">government</xsl:with-param>
+      <xsl:with-param name="min">1</xsl:with-param>
+      <xsl:with-param name="max">1</xsl:with-param>
     </xsl:call-template>
-    <!-- test ministry existence -->
+    <!-- test parliamentaryGroup existence -->
     <xsl:call-template name="org-role-cnt">
-      <xsl:with-param name="role">ministry</xsl:with-param>
+      <xsl:with-param name="role">parliamentaryGroup</xsl:with-param>
+      <xsl:with-param name="min">1</xsl:with-param>
     </xsl:call-template>
     <!-- affiliation statistics -->
     <!-- total number of affiliations -->
@@ -282,7 +286,8 @@
   </xsl:template>
 
   <xsl:template name="org-role-cnt">
-    <xsl:param name="min">1</xsl:param>
+    <xsl:param name="min">0</xsl:param>
+    <xsl:param name="max">-1</xsl:param>
     <xsl:param name="role"/>
     <xsl:param name="severity">ERROR</xsl:param>
     <xsl:variable name="cnt" select="count(.//tei:org[@role=$role])"/>
@@ -290,7 +295,7 @@
       <xsl:with-param name="ident">12</xsl:with-param>
       <xsl:with-param name="severity">
         <xsl:choose>
-          <xsl:when test="$min > $cnt "><xsl:value-of select="$severity"/></xsl:when>
+          <xsl:when test="$min >= $cnt and ($max=-1 or $cnt >= $max) "><xsl:value-of select="$severity"/></xsl:when>
           <xsl:otherwise>INFO</xsl:otherwise>
         </xsl:choose>
       </xsl:with-param>
