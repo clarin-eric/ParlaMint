@@ -56,6 +56,11 @@
   <!-- remove text content from some elements -->
   <xsl:template match="text()[contains(' affiliation birth death sex ',mk:borders(../name()))]"/>
 
+  <!-- replace @full='init' with @full='abb' -->
+  <xsl:template match="@full[./parent::tei:orgName/parent::tei:org and .='init']" priority="1">
+    <xsl:attribute name="full">abb</xsl:attribute>
+  </xsl:template>
+
   <!-- COPY REST -->
   <xsl:template match="*">
     <xsl:copy>
