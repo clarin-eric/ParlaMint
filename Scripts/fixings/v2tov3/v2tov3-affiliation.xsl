@@ -114,7 +114,8 @@
       </xsl:when>
       <xsl:when test="$country = 'BG' and @role='primeMinister' and text()='Министър-председател'">
         <xsl:copy>
-          <xsl:apply-templates select="@*"/>
+          <xsl:apply-templates select="@*[not(name()='role')]"/>
+          <xsl:attribute name="role"><xsl:value-of select="mk:affiliation-role-patch(@role,'government')"/></xsl:attribute>
           <xsl:attribute name="ref">#gov.IzvSv</xsl:attribute>
           <xsl:call-template name="affiliation-ana"><xsl:with-param name="ref" select="'#gov.IzvSv'"/></xsl:call-template>
         </xsl:copy>
@@ -140,7 +141,8 @@
               <xsl:with-param name="msg">adding reference to <xsl:value-of select="$orgRole"/> affiliation/@ref=#<xsl:value-of select="$org/@xml:id"/> to <xsl:apply-templates select="." mode="serialize"/></xsl:with-param>
             </xsl:call-template>
             <xsl:copy>
-              <xsl:apply-templates select="@*[name() != 'ana']"/>
+              <xsl:apply-templates select="@*[name() != 'ana' and name() != 'role']"/>
+              <xsl:attribute name="role"><xsl:value-of select="mk:affiliation-role-patch(@role,$org/@role)"/></xsl:attribute>
               <xsl:attribute name="ref">#<xsl:value-of select="$org/@xml:id"/></xsl:attribute>
               <xsl:call-template name="affiliation-ana"><xsl:with-param name="ref" select="concat('#',$org/@xml:id)"/></xsl:call-template>
               <xsl:comment><xsl:apply-templates select="./text()" mode="serialize"/></xsl:comment>
@@ -397,7 +399,7 @@
       <xsl:when test="contains(' vicePresident viceChairman ', mk:borders($role)) and $orgrole='parliamentaryGroup'">vicePresident</xsl:when>
       <!-- government -->
       <xsl:when test="contains(' president chairman primeMinister ', mk:borders($role)) and $orgrole='government'">president</xsl:when>
-      <xsl:when test="contains(' vicePresident viceChairman ', mk:borders($role)) and $orgrole='government'">vicePresident</xsl:when>
+      <xsl:when test="contains(' vicePresident viceChairman deputyPrimeMinister ', mk:borders($role)) and $orgrole='government'">vicePresident</xsl:when>
 
       <!-- general organization - do nothing -->
       <xsl:otherwise><xsl:value-of select="$role"/></xsl:otherwise>
