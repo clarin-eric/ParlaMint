@@ -18,7 +18,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>2.1</edition>
+            <edition>3.0a</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="122136" xml:lang="en">122,136 speeches</measure>
@@ -42,7 +42,7 @@
             <bibl>
                <title type="main" xml:lang="lv">Latvijas Republikas Saeimas stenogrammu korpuss</title>
                <title type="main" xml:lang="en">The Corpus of Parliament of Latvia [ParlaMint-LV]</title>
-               <idno type="URI">https://www.saeima.lv/</idno>
+               <idno type="URI" subtype="parliament">https://www.saeima.lv/</idno>
                <date from="1993-07-06" to="2020-12-21">06.07.1993 - 21.12.2020</date>
             </bibl>
          </sourceDesc>
@@ -277,8 +277,8 @@
                <org xml:id="PT" role="parliament" ana="#parla.uni">
                   <orgName xml:lang="lv" full="yes">Latvijas Republikas Saeima</orgName>
                   <orgName xml:lang="en" full="yes">Saeima of the Republic of Latvia</orgName>
-                  <idno type="wikimedia" xml:lang="lv">https://lv.wikipedia.org/wiki/Saeima</idno>
-                  <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Saeima</idno>
+                  <idno xml:lang="lv" type="URI" subtype="wikimedia">https://lv.wikipedia.org/wiki/Saeima</idno>
+                  <idno xml:lang="en" type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Saeima</idno>
                   <listEvent>
                      <head xml:lang="lv">Saeimas sasaukumi</head>
                      <head xml:lang="en">Legislative period</head>
@@ -292,47 +292,47 @@
                      </event>
                   </listEvent>
                </org>
-               <org xml:id="group.AP" role="politicalGroup">
+               <org xml:id="group.AP" role="parliamentaryGroup">
                   <orgName full="yes">Attīstībai/Par!</orgName>
                   <orgName full="init">AP</orgName>
                </org>
-               <org xml:id="group.NA" role="politicalGroup">
+               <org xml:id="group.NA" role="parliamentaryGroup">
                   <orgName full="yes">Nacionālā apvienība "Visu Latvijai!"–"Tēvzemei un Brīvībai/LNNK"</orgName>
                   <orgName full="init">NA</orgName>
                </org>
-               <org xml:id="group.JV" role="politicalGroup">
+               <org xml:id="group.JV" role="parliamentaryGroup">
                   <orgName full="yes">JAUNĀ VIENOTĪBA</orgName>
                   <orgName full="init">JV</orgName>
                </org>
-               <org xml:id="group.JK" role="politicalGroup">
+               <org xml:id="group.JK" role="parliamentaryGroup">
                   <orgName full="yes">Jaunā konservatīvā</orgName>
                   <orgName full="init">JK</orgName>
                </org>
-               <org xml:id="group.SASKAŅA" role="politicalGroup">
+               <org xml:id="group.SASKAŅA" role="parliamentaryGroup">
                   <orgName full="yes">SASKAŅA</orgName>
                   <orgName full="init">SASKAŅA</orgName>
                </org>
-               <org xml:id="group.KPV-LV" role="politicalGroup">
+               <org xml:id="group.KPV-LV" role="parliamentaryGroup">
                   <orgName full="yes">Kam pieder valsts?</orgName>
                   <orgName full="init">KPV-LV</orgName>
                </org>
-               <org xml:id="group.ZZS" role="politicalGroup">
+               <org xml:id="group.ZZS" role="parliamentaryGroup">
                   <orgName full="yes">Zaļo un Zemnieku savienība</orgName>
                   <orgName full="init">ZZS</orgName>
                </org>
-               <org xml:id="group.SAKAŅA" role="politicalGroup">
+               <org xml:id="group.SAKAŅA" role="parliamentaryGroup">
                   <orgName full="yes">SAKAŅA</orgName>
                   <orgName full="init">SAKAŅA</orgName>
                </org>
-               <org xml:id="group.VIENOTĪBA" role="politicalGroup">
+               <org xml:id="group.VIENOTĪBA" role="parliamentaryGroup">
                   <orgName full="yes">VIENOTĪBA</orgName>
                   <orgName full="init">VIENOTĪBA</orgName>
                </org>
-               <org xml:id="group.LRA" role="politicalGroup">
+               <org xml:id="group.LRA" role="parliamentaryGroup">
                   <orgName full="yes">Latvijas Reģionu apvienība</orgName>
                   <orgName full="init">LRA</orgName>
                </org>
-               <org xml:id="group.NSL" role="politicalGroup">
+               <org xml:id="group.NSL" role="parliamentaryGroup">
                   <orgName full="yes">No sirds Latvijai</orgName>
                   <orgName full="init">NSL</orgName>
                </org>
@@ -345,21 +345,21 @@
                      <surname>Graužiņiene</surname>
                      <forename>Loreta</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                </person>
                <person xml:id="ZariņšIvars">
                   <persName>
                      <surname>Zariņš</surname>
                      <forename>Ivars</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-05"
                                ref="#group.SASKAŅA"
                                role="member"
                                to="2021-02-04"/>
                   <affiliation from="2014-11-05"
                                ref="#group.SASKAŅA"
-                               role="MP"
+                               role="member"
                                to="2021-02-04"/>
                </person>
                <person xml:id="BiteInga">
@@ -367,30 +367,30 @@
                      <surname>Bite</surname>
                      <forename>Inga</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                </person>
                <person xml:id="Beitnere-LeGallaDagmāra">
                   <persName>
                      <surname>Beitnere-Le Galla</surname>
                      <forename>Dagmāra</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2018-12-06" ref="#group.JK" role="member" to="2021-01-28"/>
-                  <affiliation from="2018-12-06" ref="#group.JK" role="MP" to="2021-01-28"/>
+                  <affiliation from="2018-12-06" ref="#group.JK" role="member" to="2021-01-28"/>
                </person>
                <person xml:id="LoskutovsAleksejs">
                   <persName>
                      <surname>Loskutovs</surname>
                      <forename>Aleksejs</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-27"
                                ref="#group.VIENOTĪBA"
                                role="member"
                                to="2018-09-27"/>
                   <affiliation from="2014-11-27"
                                ref="#group.VIENOTĪBA"
-                               role="MP"
+                               role="member"
                                to="2018-09-27"/>
                </person>
                <person xml:id="DolgopolovsSergejs">
@@ -398,14 +398,14 @@
                      <surname>Dolgopolovs</surname>
                      <forename>Sergejs</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-05"
                                ref="#group.SASKAŅA"
                                role="member"
                                to="2021-02-04"/>
                   <affiliation from="2014-11-05"
                                ref="#group.SASKAŅA"
-                               role="MP"
+                               role="member"
                                to="2021-02-04"/>
                </person>
                <person xml:id="ŠadurskisKārlis">
@@ -413,14 +413,14 @@
                      <surname>Šadurskis</surname>
                      <forename>Kārlis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-13"
                                ref="#group.VIENOTĪBA"
                                role="member"
                                to="2016-02-11"/>
                   <affiliation from="2014-11-13"
                                ref="#group.VIENOTĪBA"
-                               role="MP"
+                               role="member"
                                to="2016-02-11"/>
                </person>
                <person xml:id="BondarsMārtiņš">
@@ -428,32 +428,32 @@
                      <surname>Bondars</surname>
                      <forename>Mārtiņš</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2018-11-13" ref="#group.AP" role="member" to="2021-02-04"/>
-                  <affiliation from="2018-11-13" ref="#group.AP" role="MP" to="2021-02-04"/>
+                  <affiliation from="2018-11-13" ref="#group.AP" role="member" to="2021-02-04"/>
                </person>
                <person xml:id="KolsRihards">
                   <persName>
                      <surname>Kols</surname>
                      <forename>Rihards</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2015-01-22" ref="#group.NA" role="member" to="2021-02-04"/>
-                  <affiliation from="2015-01-22" ref="#group.NA" role="MP" to="2021-02-04"/>
+                  <affiliation from="2015-01-22" ref="#group.NA" role="member" to="2021-02-04"/>
                </person>
                <person xml:id="BoķisInesis">
                   <persName>
                      <surname>Boķis</surname>
                      <forename>Inesis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-27"
                                ref="#group.VIENOTĪBA"
                                role="member"
                                to="2017-07-21"/>
                   <affiliation from="2014-11-27"
                                ref="#group.VIENOTĪBA"
-                               role="MP"
+                               role="member"
                                to="2017-07-21"/>
                </person>
                <person xml:id="StaķisMārtiņš">
@@ -461,35 +461,38 @@
                      <surname>Staķis</surname>
                      <forename>Mārtiņš</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2018-11-22" ref="#group.AP" role="member" to="2020-05-14"/>
-                  <affiliation from="2018-11-22" ref="#group.AP" role="MP" to="2020-05-14"/>
+                  <affiliation from="2018-11-22" ref="#group.AP" role="member" to="2020-05-14"/>
                </person>
                <person xml:id="SiliņšAndris">
                   <persName>
                      <surname>Siliņš</surname>
                      <forename>Andris</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-05"
                                ref="#group.ZZS"
                                role="member"
                                to="2017-02-16"/>
-                  <affiliation from="2014-11-05" ref="#group.ZZS" role="MP" to="2017-02-16"/>
+                  <affiliation from="2014-11-05"
+                               ref="#group.ZZS"
+                               role="member"
+                               to="2017-02-16"/>
                </person>
                <person xml:id="ŠvecovaĻubova">
                   <persName>
                      <surname>Švecova</surname>
                      <forename>Ļubova</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2018-12-06"
                                ref="#group.SASKAŅA"
                                role="member"
                                to="2020-09-17"/>
                   <affiliation from="2018-12-06"
                                ref="#group.SASKAŅA"
-                               role="MP"
+                               role="member"
                                to="2020-09-17"/>
                   <affiliation from="2020-11-27"
                                ref="#group.SASKAŅA"
@@ -497,7 +500,7 @@
                                to="2020-11-27"/>
                   <affiliation from="2020-11-27"
                                ref="#group.SASKAŅA"
-                               role="MP"
+                               role="member"
                                to="2020-11-27"/>
                </person>
                <person xml:id="Ločmele-LuņovaRegīna">
@@ -505,14 +508,14 @@
                      <surname>Ločmele-Luņova</surname>
                      <forename>Regīna</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2014-11-05"
                                ref="#group.SASKAŅA"
                                role="member"
                                to="2020-09-24"/>
                   <affiliation from="2014-11-05"
                                ref="#group.SASKAŅA"
-                               role="MP"
+                               role="member"
                                to="2020-09-24"/>
                </person>
                <person xml:id="ZemļinskisMihails">
@@ -520,14 +523,14 @@
                      <surname>Zemļinskis</surname>
                      <forename>Mihails</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-12-18"
                                ref="#group.SASKAŅA"
                                role="member"
                                to="2017-03-02"/>
                   <affiliation from="2014-12-18"
                                ref="#group.SASKAŅA"
-                               role="MP"
+                               role="member"
                                to="2017-03-02"/>
                </person>
                <person xml:id="VectirānsJuris">
@@ -535,40 +538,43 @@
                      <surname>Vectirāns</surname>
                      <forename>Juris</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2015-01-29"
                                ref="#group.ZZS"
                                role="member"
                                to="2018-09-20"/>
-                  <affiliation from="2015-01-29" ref="#group.ZZS" role="MP" to="2018-09-20"/>
+                  <affiliation from="2015-01-29"
+                               ref="#group.ZZS"
+                               role="member"
+                               to="2018-09-20"/>
                </person>
                <person xml:id="Hadsona-DīnaŠarona">
                   <persName>
                      <surname>Hadsona-Dīna</surname>
                      <forename>Šarona</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                </person>
                <person xml:id="EglītsJānis">
                   <persName>
                      <surname>Eglīts</surname>
                      <forename>Jānis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                </person>
                <person xml:id="PimenovsIgors">
                   <persName>
                      <surname>Pimenovs</surname>
                      <forename>Igors</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-05"
                                ref="#group.SASKAŅA"
                                role="member"
                                to="2021-02-04"/>
                   <affiliation from="2014-11-05"
                                ref="#group.SASKAŅA"
-                               role="MP"
+                               role="member"
                                to="2021-02-04"/>
                </person>
                <person xml:id="DālderisInts">
@@ -576,14 +582,14 @@
                      <surname>Dālderis</surname>
                      <forename>Ints</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-27"
                                ref="#group.VIENOTĪBA"
                                role="member"
                                to="2018-11-01"/>
                   <affiliation from="2014-11-27"
                                ref="#group.VIENOTĪBA"
-                               role="MP"
+                               role="member"
                                to="2018-11-01"/>
                </person>
                <person xml:id="DambeValters">
@@ -591,78 +597,84 @@
                      <surname>Dambe</surname>
                      <forename>Valters</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2015-04-30"
                                ref="#group.ZZS"
                                role="member"
                                to="2018-10-11"/>
-                  <affiliation from="2015-04-30" ref="#group.ZZS" role="MP" to="2018-10-11"/>
+                  <affiliation from="2015-04-30"
+                               ref="#group.ZZS"
+                               role="member"
+                               to="2018-10-11"/>
                </person>
                <person xml:id="LatkovskisAinars">
                   <persName>
                      <surname>Latkovskis</surname>
                      <forename>Ainars</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-04"
                                ref="#group.VIENOTĪBA"
                                role="member"
                                to="2018-11-01"/>
                   <affiliation from="2014-11-04"
                                ref="#group.VIENOTĪBA"
-                               role="MP"
+                               role="member"
                                to="2018-11-01"/>
                   <affiliation from="2018-11-29" ref="#group.JV" role="member" to="2020-12-21"/>
-                  <affiliation from="2018-11-29" ref="#group.JV" role="MP" to="2020-12-21"/>
+                  <affiliation from="2018-11-29" ref="#group.JV" role="member" to="2020-12-21"/>
                </person>
                <person xml:id="ŠnoreEdvīns">
                   <persName>
                      <surname>Šnore</surname>
                      <forename>Edvīns</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-20" ref="#group.NA" role="member" to="2020-12-03"/>
-                  <affiliation from="2014-11-20" ref="#group.NA" role="MP" to="2020-12-03"/>
+                  <affiliation from="2014-11-20" ref="#group.NA" role="member" to="2020-12-03"/>
                </person>
                <person xml:id="RuksJānis">
                   <persName>
                      <surname>Ruks</surname>
                      <forename>Jānis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                </person>
                <person xml:id="MežulisAinārs">
                   <persName>
                      <surname>Mežulis</surname>
                      <forename>Ainārs</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2015-02-19"
                                ref="#group.ZZS"
                                role="member"
                                to="2018-04-12"/>
-                  <affiliation from="2015-02-19" ref="#group.ZZS" role="MP" to="2018-04-12"/>
+                  <affiliation from="2015-02-19"
+                               ref="#group.ZZS"
+                               role="member"
+                               to="2018-04-12"/>
                </person>
                <person xml:id="KrūmiņšVaris">
                   <persName>
                      <surname>Krūmiņš</surname>
                      <forename>Varis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                </person>
                <person xml:id="ĀboltiņaSolvita">
                   <persName>
                      <surname>Āboltiņa</surname>
                      <forename>Solvita</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2014-11-27"
                                ref="#group.VIENOTĪBA"
                                role="member"
                                to="2017-11-23"/>
                   <affiliation from="2014-11-27"
                                ref="#group.VIENOTĪBA"
-                               role="MP"
+                               role="member"
                                to="2017-11-23"/>
                </person>
                <person xml:id="KalniņšGuntis">
@@ -670,33 +682,36 @@
                      <surname>Kalniņš</surname>
                      <forename>Guntis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2016-01-14"
                                ref="#group.ZZS"
                                role="member"
                                to="2018-04-12"/>
-                  <affiliation from="2016-01-14" ref="#group.ZZS" role="MP" to="2018-04-12"/>
+                  <affiliation from="2016-01-14"
+                               ref="#group.ZZS"
+                               role="member"
+                               to="2018-04-12"/>
                </person>
                <person xml:id="ŠicsMārtiņš">
                   <persName>
                      <surname>Šics</surname>
                      <forename>Mārtiņš</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                </person>
                <person xml:id="TretjakaZenta">
                   <persName>
                      <surname>Tretjaka</surname>
                      <forename>Zenta</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2015-02-19"
                                ref="#group.SASKAŅA"
                                role="member"
                                to="2018-11-01"/>
                   <affiliation from="2015-02-19"
                                ref="#group.SASKAŅA"
-                               role="MP"
+                               role="member"
                                to="2018-11-01"/>
                </person>
                <person xml:id="UlmeArvīds">
@@ -704,35 +719,38 @@
                      <surname>Ulme</surname>
                      <forename>Arvīds</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2018-09-20"
                                ref="#group.ZZS"
                                role="member"
                                to="2018-11-01"/>
-                  <affiliation from="2018-09-20" ref="#group.ZZS" role="MP" to="2018-11-01"/>
+                  <affiliation from="2018-09-20"
+                               ref="#group.ZZS"
+                               role="member"
+                               to="2018-11-01"/>
                </person>
                <person xml:id="StrīķeJuta">
                   <persName>
                      <surname>Strīķe</surname>
                      <forename>Juta</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2018-11-13" ref="#group.JK" role="member" to="2020-03-06"/>
-                  <affiliation from="2018-11-13" ref="#group.JK" role="MP" to="2020-03-06"/>
+                  <affiliation from="2018-11-13" ref="#group.JK" role="member" to="2020-03-06"/>
                </person>
                <person xml:id="RubiksRaimonds">
                   <persName>
                      <surname>Rubiks</surname>
                      <forename>Raimonds</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2016-02-25"
                                ref="#group.SASKAŅA"
                                role="member"
                                to="2017-01-26"/>
                   <affiliation from="2016-02-25"
                                ref="#group.SASKAŅA"
-                               role="MP"
+                               role="member"
                                to="2017-01-26"/>
                </person>
                <person xml:id="RībenaInguna">
@@ -740,48 +758,48 @@
                      <surname>Rībena</surname>
                      <forename>Inguna</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2015-04-23" ref="#group.NA" role="member" to="2019-01-31"/>
-                  <affiliation from="2015-04-23" ref="#group.NA" role="MP" to="2019-01-31"/>
+                  <affiliation from="2015-04-23" ref="#group.NA" role="member" to="2019-01-31"/>
                </person>
                <person xml:id="BluķeDace">
                   <persName>
                      <surname>Bluķe</surname>
                      <forename>Dace</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2019-02-14" ref="#group.AP" role="member" to="2020-11-05"/>
-                  <affiliation from="2019-02-14" ref="#group.AP" role="MP" to="2020-11-05"/>
+                  <affiliation from="2019-02-14" ref="#group.AP" role="member" to="2020-11-05"/>
                </person>
                <person xml:id="MedneLinda">
                   <persName>
                      <surname>Medne</surname>
                      <forename>Linda</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2021-01-14" ref="#group.JK" role="member" to="2021-01-28"/>
-                  <affiliation from="2021-01-14" ref="#group.JK" role="MP" to="2021-01-28"/>
+                  <affiliation from="2021-01-14" ref="#group.JK" role="member" to="2021-01-28"/>
                </person>
                <person xml:id="BalodisRingolds">
                   <persName>
                      <surname>Balodis</surname>
                      <forename>Ringolds</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                </person>
                <person xml:id="RubiksArtūrs">
                   <persName>
                      <surname>Rubiks</surname>
                      <forename>Artūrs</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-27"
                                ref="#group.SASKAŅA"
                                role="member"
                                to="2021-01-21"/>
                   <affiliation from="2014-11-27"
                                ref="#group.SASKAŅA"
-                               role="MP"
+                               role="member"
                                to="2021-01-21"/>
                </person>
                <person xml:id="AugulisUldis">
@@ -789,47 +807,53 @@
                      <surname>Augulis</surname>
                      <forename>Uldis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2019-01-24"
                                ref="#group.ZZS"
                                role="member"
                                to="2021-01-14"/>
-                  <affiliation from="2019-01-24" ref="#group.ZZS" role="MP" to="2021-01-14"/>
+                  <affiliation from="2019-01-24"
+                               ref="#group.ZZS"
+                               role="member"
+                               to="2021-01-14"/>
                </person>
                <person xml:id="ŠuplinskaIlga">
                   <persName>
                      <surname>Šuplinska</surname>
                      <forename>Ilga</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2018-12-06" ref="#group.JK" role="member" to="2018-12-06"/>
-                  <affiliation from="2018-12-06" ref="#group.JK" role="MP" to="2018-12-06"/>
+                  <affiliation from="2018-12-06" ref="#group.JK" role="member" to="2018-12-06"/>
                </person>
                <person xml:id="ZakatistovsAtis">
                   <persName>
                      <surname>Zakatistovs</surname>
                      <forename>Atis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2018-11-29"
                                ref="#group.KPV-LV"
                                role="member"
                                to="2020-10-16"/>
-                  <affiliation from="2018-11-29" ref="#group.KPV-LV" role="MP" to="2020-10-16"/>
+                  <affiliation from="2018-11-29"
+                               ref="#group.KPV-LV"
+                               role="member"
+                               to="2020-10-16"/>
                </person>
                <person xml:id="AbuMeriHosams1974">
                   <persName>
                      <surname>Abu Meri</surname>
                      <forename>Hosams</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2015-01-15"
                                ref="#group.VIENOTĪBA"
                                role="member"
                                to="2018-11-01"/>
                   <affiliation from="2015-01-15"
                                ref="#group.VIENOTĪBA"
-                               role="MP"
+                               role="member"
                                to="2018-11-01"/>
                </person>
                <person xml:id="BrigmanisAugusts">
@@ -837,57 +861,66 @@
                      <surname>Brigmanis</surname>
                      <forename>Augusts</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-12-17"
                                ref="#group.ZZS"
                                role="member"
                                to="2018-10-04"/>
-                  <affiliation from="2014-12-17" ref="#group.ZZS" role="MP" to="2018-10-04"/>
+                  <affiliation from="2014-12-17"
+                               ref="#group.ZZS"
+                               role="member"
+                               to="2018-10-04"/>
                </person>
                <person xml:id="KrauzeArmands">
                   <persName>
                      <surname>Krauze</surname>
                      <forename>Armands</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-13"
                                ref="#group.ZZS"
                                role="member"
                                to="2021-01-21"/>
-                  <affiliation from="2014-11-13" ref="#group.ZZS" role="MP" to="2021-01-21"/>
+                  <affiliation from="2014-11-13"
+                               ref="#group.ZZS"
+                               role="member"
+                               to="2021-01-21"/>
                </person>
                <person xml:id="BrīversIvars">
                   <persName>
                      <surname>Brīvers</surname>
                      <forename>Ivars</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                </person>
                <person xml:id="SkujiņšValdis">
                   <persName>
                      <surname>Skujiņš</surname>
                      <forename>Valdis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2015-05-28"
                                ref="#group.ZZS"
                                role="member"
                                to="2018-10-25"/>
-                  <affiliation from="2015-05-28" ref="#group.ZZS" role="MP" to="2018-10-25"/>
+                  <affiliation from="2015-05-28"
+                               ref="#group.ZZS"
+                               role="member"
+                               to="2018-10-25"/>
                </person>
                <person xml:id="GustovskisArtis">
                   <persName>
                      <surname>Gustovskis</surname>
                      <forename>Artis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2018-03-08"
                                ref="#group.VIENOTĪBA"
                                role="member"
                                to="2018-11-01"/>
                   <affiliation from="2018-03-08"
                                ref="#group.VIENOTĪBA"
-                               role="MP"
+                               role="member"
                                to="2018-11-01"/>
                </person>
                <person xml:id="JudinsAndrejs">
@@ -895,57 +928,60 @@
                      <surname>Judins</surname>
                      <forename>Andrejs</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-13"
                                ref="#group.VIENOTĪBA"
                                role="member"
                                to="2018-10-25"/>
                   <affiliation from="2014-11-13"
                                ref="#group.VIENOTĪBA"
-                               role="MP"
+                               role="member"
                                to="2018-10-25"/>
                   <affiliation from="2018-11-22" ref="#group.JV" role="member" to="2021-02-04"/>
-                  <affiliation from="2018-11-22" ref="#group.JV" role="MP" to="2021-02-04"/>
+                  <affiliation from="2018-11-22" ref="#group.JV" role="member" to="2021-02-04"/>
                </person>
                <person xml:id="PanteļējevsAndrejs">
                   <persName>
                      <surname>Panteļējevs</surname>
                      <forename>Andrejs</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                </person>
                <person xml:id="PucensĒriks">
                   <persName>
                      <surname>Pucens</surname>
                      <forename>Ēriks</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2018-12-20"
                                ref="#group.KPV-LV"
                                role="member"
                                to="2021-01-21"/>
-                  <affiliation from="2018-12-20" ref="#group.KPV-LV" role="MP" to="2021-01-21"/>
+                  <affiliation from="2018-12-20"
+                               ref="#group.KPV-LV"
+                               role="member"
+                               to="2021-01-21"/>
                </person>
                <person xml:id="Kalniņa-LukaševicaZanda">
                   <persName>
                      <surname>Kalniņa-Lukaševica</surname>
                      <forename>Zanda</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                </person>
                <person xml:id="PapuleEvija">
                   <persName>
                      <surname>Papule</surname>
                      <forename>Evija</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2019-01-23"
                                ref="#group.SASKAŅA"
                                role="member"
                                to="2020-09-24"/>
                   <affiliation from="2019-01-23"
                                ref="#group.SASKAŅA"
-                               role="MP"
+                               role="member"
                                to="2020-09-24"/>
                </person>
                <person xml:id="PabriksArtis">
@@ -953,28 +989,28 @@
                      <surname>Pabriks</surname>
                      <forename>Artis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                </person>
                <person xml:id="BļodnieceBaiba">
                   <persName>
                      <surname>Bļodniece</surname>
                      <forename>Baiba</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                </person>
                <person xml:id="OrlovsVitālijs">
                   <persName>
                      <surname>Orlovs</surname>
                      <forename>Vitālijs</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-20"
                                ref="#group.SASKAŅA"
                                role="member"
                                to="2021-01-21"/>
                   <affiliation from="2014-11-20"
                                ref="#group.SASKAŅA"
-                               role="MP"
+                               role="member"
                                to="2021-01-21"/>
                </person>
                <person xml:id="CilevičsBoriss">
@@ -982,14 +1018,14 @@
                      <surname>Cilevičs</surname>
                      <forename>Boriss</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-05"
                                ref="#group.SASKAŅA"
                                role="member"
                                to="2021-01-21"/>
                   <affiliation from="2014-11-05"
                                ref="#group.SASKAŅA"
-                               role="MP"
+                               role="member"
                                to="2021-01-21"/>
                </person>
                <person xml:id="SpolītisVeiko">
@@ -997,14 +1033,14 @@
                      <surname>Spolītis</surname>
                      <forename>Veiko</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-27"
                                ref="#group.VIENOTĪBA"
                                role="member"
                                to="2018-11-01"/>
                   <affiliation from="2014-11-27"
                                ref="#group.VIENOTĪBA"
-                               role="MP"
+                               role="member"
                                to="2018-11-01"/>
                </person>
                <person xml:id="BelēvičsGuntis">
@@ -1012,26 +1048,29 @@
                      <surname>Belēvičs</surname>
                      <forename>Guntis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-12-18"
                                ref="#group.ZZS"
                                role="member"
                                to="2016-01-21"/>
-                  <affiliation from="2014-12-18" ref="#group.ZZS" role="MP" to="2016-01-21"/>
+                  <affiliation from="2014-12-18"
+                               ref="#group.ZZS"
+                               role="member"
+                               to="2016-01-21"/>
                </person>
                <person xml:id="JakimovsAleksandrs">
                   <persName>
                      <surname>Jakimovs</surname>
                      <forename>Aleksandrs</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2016-06-16"
                                ref="#group.SASKAŅA"
                                role="member"
                                to="2018-10-25"/>
                   <affiliation from="2016-06-16"
                                ref="#group.SASKAŅA"
-                               role="MP"
+                               role="member"
                                to="2018-10-25"/>
                </person>
                <person xml:id="BērziņšAndris">
@@ -1039,28 +1078,28 @@
                      <surname>Bērziņš</surname>
                      <forename>Andris</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                </person>
                <person xml:id="RinkēvičsEdgars">
                   <persName>
                      <surname>Rinkēvičs</surname>
                      <forename>Edgars</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                </person>
                <person xml:id="UpenieksJānis">
                   <persName>
                      <surname>Upenieks</surname>
                      <forename>Jānis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-27"
                                ref="#group.VIENOTĪBA"
                                role="member"
                                to="2018-10-11"/>
                   <affiliation from="2014-11-27"
                                ref="#group.VIENOTĪBA"
-                               role="MP"
+                               role="member"
                                to="2018-10-11"/>
                </person>
                <person xml:id="DombrovskisVjačeslavs">
@@ -1068,14 +1107,14 @@
                      <surname>Dombrovskis</surname>
                      <forename>Vjačeslavs</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-13"
                                ref="#group.VIENOTĪBA"
                                role="member"
                                to="2015-03-26"/>
                   <affiliation from="2014-11-13"
                                ref="#group.VIENOTĪBA"
-                               role="MP"
+                               role="member"
                                to="2015-03-26"/>
                   <affiliation from="2018-11-29"
                                ref="#group.SASKAŅA"
@@ -1083,7 +1122,7 @@
                                to="2020-09-17"/>
                   <affiliation from="2018-11-29"
                                ref="#group.SASKAŅA"
-                               role="MP"
+                               role="member"
                                to="2020-09-17"/>
                </person>
                <person xml:id="NestorsEiki">
@@ -1091,72 +1130,75 @@
                      <surname>Nestors</surname>
                      <forename>Eiki</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                </person>
                <person xml:id="SiliņaEvika">
                   <persName>
                      <surname>Siliņa</surname>
                      <forename>Evika</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                </person>
                <person xml:id="BerkovsDžons">
                   <persName>
                      <surname>Berkovs</surname>
                      <forename>Džons</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                </person>
                <person xml:id="VilksAndris">
                   <persName>
                      <surname>Vilks</surname>
                      <forename>Andris</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-12-11" ref="#group.NA" role="member" to="2014-12-11"/>
-                  <affiliation from="2014-12-11" ref="#group.NA" role="MP" to="2014-12-11"/>
+                  <affiliation from="2014-12-11" ref="#group.NA" role="member" to="2014-12-11"/>
                </person>
                <person xml:id="MiloslavskisRomans">
                   <persName>
                      <surname>Miloslavskis</surname>
                      <forename>Romans</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                </person>
                <person xml:id="KrapāneIeva">
                   <persName>
                      <surname>Krapāne</surname>
                      <forename>Ieva</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2019-05-02"
                                ref="#group.KPV-LV"
                                role="member"
                                to="2021-02-04"/>
-                  <affiliation from="2019-05-02" ref="#group.KPV-LV" role="MP" to="2021-02-04"/>
+                  <affiliation from="2019-05-02"
+                               ref="#group.KPV-LV"
+                               role="member"
+                               to="2021-02-04"/>
                </person>
                <person xml:id="SkrideAndris">
                   <persName>
                      <surname>Skride</surname>
                      <forename>Andris</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2018-11-22" ref="#group.AP" role="member" to="2020-12-21"/>
-                  <affiliation from="2018-11-22" ref="#group.AP" role="MP" to="2020-12-21"/>
+                  <affiliation from="2018-11-22" ref="#group.AP" role="member" to="2020-12-21"/>
                </person>
                <person xml:id="RibakovsIvans">
                   <persName>
                      <surname>Ribakovs</surname>
                      <forename>Ivans</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2015-02-19"
                                ref="#group.SASKAŅA"
                                role="member"
                                to="2020-10-28"/>
                   <affiliation from="2015-02-19"
                                ref="#group.SASKAŅA"
-                               role="MP"
+                               role="member"
                                to="2020-10-28"/>
                </person>
                <person xml:id="Benhena-BēkenaIveta">
@@ -1164,26 +1206,29 @@
                      <surname>Benhena-Bēkena</surname>
                      <forename>Iveta</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2018-12-06"
                                ref="#group.KPV-LV"
                                role="member"
                                to="2021-02-04"/>
-                  <affiliation from="2018-12-06" ref="#group.KPV-LV" role="MP" to="2021-02-04"/>
+                  <affiliation from="2018-12-06"
+                               ref="#group.KPV-LV"
+                               role="member"
+                               to="2021-02-04"/>
                </person>
                <person xml:id="TutinsJānis">
                   <persName>
                      <surname>Tutins</surname>
                      <forename>Jānis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-27"
                                ref="#group.SASKAŅA"
                                role="member"
                                to="2020-10-28"/>
                   <affiliation from="2014-11-27"
                                ref="#group.SASKAŅA"
-                               role="MP"
+                               role="member"
                                to="2020-10-28"/>
                </person>
                <person xml:id="PutraEdgars">
@@ -1191,43 +1236,46 @@
                      <surname>Putra</surname>
                      <forename>Edgars</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-27"
                                ref="#group.ZZS"
                                role="member"
                                to="2018-11-01"/>
-                  <affiliation from="2014-11-27" ref="#group.ZZS" role="MP" to="2018-11-01"/>
+                  <affiliation from="2014-11-27"
+                               ref="#group.ZZS"
+                               role="member"
+                               to="2018-11-01"/>
                </person>
                <person xml:id="AdamovičsAldis">
                   <persName>
                      <surname>Adamovičs</surname>
                      <forename>Aldis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-05"
                                ref="#group.VIENOTĪBA"
                                role="member"
                                to="2018-11-01"/>
                   <affiliation from="2014-11-05"
                                ref="#group.VIENOTĪBA"
-                               role="MP"
+                               role="member"
                                to="2018-11-01"/>
                   <affiliation from="2018-12-06" ref="#group.JV" role="member" to="2020-12-17"/>
-                  <affiliation from="2018-12-06" ref="#group.JV" role="MP" to="2020-12-17"/>
+                  <affiliation from="2018-12-06" ref="#group.JV" role="member" to="2020-12-17"/>
                </person>
                <person xml:id="MirskisSergejs">
                   <persName>
                      <surname>Mirskis</surname>
                      <forename>Sergejs</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2015-11-03"
                                ref="#group.SASKAŅA"
                                role="member"
                                to="2018-09-06"/>
                   <affiliation from="2015-11-03"
                                ref="#group.SASKAŅA"
-                               role="MP"
+                               role="member"
                                to="2018-09-06"/>
                </person>
                <person xml:id="EglītisGatis">
@@ -1235,241 +1283,262 @@
                      <surname>Eglītis</surname>
                      <forename>Gatis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2018-11-29" ref="#group.JK" role="member" to="2021-02-04"/>
-                  <affiliation from="2018-11-29" ref="#group.JK" role="MP" to="2021-02-04"/>
+                  <affiliation from="2018-11-29" ref="#group.JK" role="member" to="2021-02-04"/>
                </person>
                <person xml:id="SudrabaInguna">
                   <persName>
                      <surname>Sudraba</surname>
                      <forename>Inguna</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                </person>
                <person xml:id="ZnotiņšReinis">
                   <persName>
                      <surname>Znotiņš</surname>
                      <forename>Reinis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2018-11-29" ref="#group.JK" role="member" to="2021-01-28"/>
-                  <affiliation from="2018-11-29" ref="#group.JK" role="MP" to="2021-01-28"/>
+                  <affiliation from="2018-11-29" ref="#group.JK" role="member" to="2021-01-28"/>
                </person>
                <person xml:id="PlešsArtūrsToms">
                   <persName>
                      <surname>Plešs</surname>
                      <forename>Artūrs Toms</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2018-12-20" ref="#group.AP" role="member" to="2020-12-17"/>
-                  <affiliation from="2018-12-20" ref="#group.AP" role="MP" to="2020-12-17"/>
+                  <affiliation from="2018-12-20" ref="#group.AP" role="member" to="2020-12-17"/>
                </person>
                <person xml:id="PlatpersArvīds">
                   <persName>
                      <surname>Platpers</surname>
                      <forename>Arvīds</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                </person>
                <person xml:id="ĢirģensKaspars">
                   <persName>
                      <surname>Ģirģens</surname>
                      <forename>Kaspars</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2019-01-31"
                                ref="#group.KPV-LV"
                                role="member"
                                to="2021-01-28"/>
-                  <affiliation from="2019-01-31" ref="#group.KPV-LV" role="MP" to="2021-01-28"/>
+                  <affiliation from="2019-01-31"
+                               ref="#group.KPV-LV"
+                               role="member"
+                               to="2021-01-28"/>
                </person>
                <person xml:id="KļaviņšAskolds">
                   <persName>
                      <surname>Kļaviņš</surname>
                      <forename>Askolds</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2016-09-08"
                                ref="#group.ZZS"
                                role="member"
                                to="2018-06-21"/>
-                  <affiliation from="2016-09-08" ref="#group.ZZS" role="MP" to="2018-06-21"/>
+                  <affiliation from="2016-09-08"
+                               ref="#group.ZZS"
+                               role="member"
+                               to="2018-06-21"/>
                </person>
                <person xml:id="PugaIvars">
                   <persName>
                      <surname>Puga</surname>
                      <forename>Ivars</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2019-01-31"
                                ref="#group.KPV-LV"
                                role="member"
                                to="2021-02-04"/>
-                  <affiliation from="2019-01-31" ref="#group.KPV-LV" role="MP" to="2021-02-04"/>
+                  <affiliation from="2019-01-31"
+                               ref="#group.KPV-LV"
+                               role="member"
+                               to="2021-02-04"/>
                </person>
                <person xml:id="JurašsJuris">
                   <persName>
                      <surname>Jurašs</surname>
                      <forename>Juris</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2018-12-06" ref="#group.JK" role="member" to="2021-02-04"/>
-                  <affiliation from="2018-12-06" ref="#group.JK" role="MP" to="2021-02-04"/>
+                  <affiliation from="2018-12-06" ref="#group.JK" role="member" to="2021-02-04"/>
                </person>
                <person xml:id="VitenbergsJānis">
                   <persName>
                      <surname>Vitenbergs</surname>
                      <forename>Jānis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2018-12-13"
                                ref="#group.KPV-LV"
                                role="member"
                                to="2020-03-20"/>
-                  <affiliation from="2018-12-13" ref="#group.KPV-LV" role="MP" to="2020-03-20"/>
+                  <affiliation from="2018-12-13"
+                               ref="#group.KPV-LV"
+                               role="member"
+                               to="2020-03-20"/>
                </person>
                <person xml:id="KūtrisGunārs">
                   <persName>
                      <surname>Kūtris</surname>
                      <forename>Gunārs</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                </person>
                <person xml:id="MārtužaEva">
                   <persName>
                      <surname>Mārtuža</surname>
                      <forename>Eva</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2020-07-09" ref="#group.JK" role="member" to="2020-12-17"/>
-                  <affiliation from="2020-07-09" ref="#group.JK" role="MP" to="2020-12-17"/>
+                  <affiliation from="2020-07-09" ref="#group.JK" role="member" to="2020-12-17"/>
                </person>
                <person xml:id="SprūdeKarina">
                   <persName>
                      <surname>Sprūde</surname>
                      <forename>Karina</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2018-12-06"
                                ref="#group.KPV-LV"
                                role="member"
                                to="2019-06-06"/>
-                  <affiliation from="2018-12-06" ref="#group.KPV-LV" role="MP" to="2019-06-06"/>
+                  <affiliation from="2018-12-06"
+                               ref="#group.KPV-LV"
+                               role="member"
+                               to="2019-06-06"/>
                </person>
                <person xml:id="VītolsAndris">
                   <persName>
                      <surname>Vītols</surname>
                      <forename>Andris</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                </person>
                <person xml:id="NorlēnsAndreass">
                   <persName>
                      <surname>Norlēns</surname>
                      <forename>Andreass</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                </person>
                <person xml:id="KlaužsJānis">
                   <persName>
                      <surname>Klaužs</surname>
                      <forename>Jānis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-12-17"
                                ref="#group.ZZS"
                                role="member"
                                to="2018-10-11"/>
-                  <affiliation from="2014-12-17" ref="#group.ZZS" role="MP" to="2018-10-11"/>
+                  <affiliation from="2014-12-17"
+                               ref="#group.ZZS"
+                               role="member"
+                               to="2018-10-11"/>
                </person>
                <person xml:id="ŠteinsMārtiņš">
                   <persName>
                      <surname>Šteins</surname>
                      <forename>Mārtiņš</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2019-03-07" ref="#group.AP" role="member" to="2021-02-04"/>
-                  <affiliation from="2019-03-07" ref="#group.AP" role="MP" to="2021-02-04"/>
+                  <affiliation from="2019-03-07" ref="#group.AP" role="member" to="2021-02-04"/>
                </person>
                <person xml:id="PavļutsDaniels">
                   <persName>
                      <surname>Pavļuts</surname>
                      <forename>Daniels</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2018-11-29" ref="#group.AP" role="member" to="2021-01-07"/>
-                  <affiliation from="2018-11-29" ref="#group.AP" role="MP" to="2021-01-07"/>
+                  <affiliation from="2018-11-29" ref="#group.AP" role="member" to="2021-01-07"/>
                </person>
                <person xml:id="KariņšArtursKrišjānis">
                   <persName>
                      <surname>Kariņš</surname>
                      <forename>Arturs Krišjānis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                </person>
                <person xml:id="JansonsJuris">
                   <persName>
                      <surname>Jansons</surname>
                      <forename>Juris</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                </person>
                <person xml:id="ValainisViktors">
                   <persName>
                      <surname>Valainis</surname>
                      <forename>Viktors</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2015-11-30"
                                ref="#group.VIENOTĪBA"
                                role="member"
                                to="2018-01-11"/>
                   <affiliation from="2015-11-30"
                                ref="#group.VIENOTĪBA"
-                               role="MP"
+                               role="member"
                                to="2018-01-11"/>
                   <affiliation from="2018-11-29"
                                ref="#group.ZZS"
                                role="member"
                                to="2021-02-04"/>
-                  <affiliation from="2018-11-29" ref="#group.ZZS" role="MP" to="2021-02-04"/>
+                  <affiliation from="2018-11-29"
+                               ref="#group.ZZS"
+                               role="member"
+                               to="2021-02-04"/>
                </person>
                <person xml:id="ŠimfaSilvija">
                   <persName>
                      <surname>Šimfa</surname>
                      <forename>Silvija</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                </person>
                <person xml:id="DūrītisIlmārs">
                   <persName>
                      <surname>Dūrītis</surname>
                      <forename>Ilmārs</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2018-12-13" ref="#group.AP" role="member" to="2021-02-04"/>
-                  <affiliation from="2018-12-13" ref="#group.AP" role="MP" to="2021-02-04"/>
+                  <affiliation from="2018-12-13" ref="#group.AP" role="member" to="2021-02-04"/>
                </person>
                <person xml:id="LiepiņšDainis">
                   <persName>
                      <surname>Liepiņš</surname>
                      <forename>Dainis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                </person>
                <person xml:id="RažuksRomualds">
                   <persName>
                      <surname>Ražuks</surname>
                      <forename>Romualds</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-13"
                                ref="#group.VIENOTĪBA"
                                role="member"
                                to="2018-11-01"/>
                   <affiliation from="2014-11-13"
                                ref="#group.VIENOTĪBA"
-                               role="MP"
+                               role="member"
                                to="2018-11-01"/>
                </person>
                <person xml:id="NemiroRalfs">
@@ -1477,26 +1546,29 @@
                      <surname>Nemiro</surname>
                      <forename>Ralfs</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2018-12-20"
                                ref="#group.KPV-LV"
                                role="member"
                                to="2021-02-04"/>
-                  <affiliation from="2018-12-20" ref="#group.KPV-LV" role="MP" to="2021-02-04"/>
+                  <affiliation from="2018-12-20"
+                               ref="#group.KPV-LV"
+                               role="member"
+                               to="2021-02-04"/>
                </person>
                <person xml:id="ĀdamsonsJānis">
                   <persName>
                      <surname>Ādamsons</surname>
                      <forename>Jānis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-05"
                                ref="#group.SASKAŅA"
                                role="member"
                                to="2019-12-18"/>
                   <affiliation from="2014-11-05"
                                ref="#group.SASKAŅA"
-                               role="MP"
+                               role="member"
                                to="2019-12-18"/>
                </person>
                <person xml:id="KlementjevsIvans">
@@ -1504,14 +1576,14 @@
                      <surname>Klementjevs</surname>
                      <forename>Ivans</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-05"
                                ref="#group.SASKAŅA"
                                role="member"
                                to="2021-01-28"/>
                   <affiliation from="2014-11-05"
                                ref="#group.SASKAŅA"
-                               role="MP"
+                               role="member"
                                to="2021-01-28"/>
                </person>
                <person xml:id="LaizāneInese">
@@ -1519,23 +1591,23 @@
                      <surname>Laizāne</surname>
                      <forename>Inese</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2014-11-27" ref="#group.NA" role="member" to="2018-06-20"/>
-                  <affiliation from="2014-11-27" ref="#group.NA" role="MP" to="2018-06-20"/>
+                  <affiliation from="2014-11-27" ref="#group.NA" role="member" to="2018-06-20"/>
                </person>
                <person xml:id="StepaņenkoJūlija">
                   <persName>
                      <surname>Stepaņenko</surname>
                      <forename>Jūlija</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2014-12-17"
                                ref="#group.SASKAŅA"
                                role="member"
                                to="2018-10-04"/>
                   <affiliation from="2014-12-17"
                                ref="#group.SASKAŅA"
-                               role="MP"
+                               role="member"
                                to="2018-10-04"/>
                </person>
                <person xml:id="FērijsDžordžs">
@@ -1543,77 +1615,83 @@
                      <surname>Fērijs</surname>
                      <forename>Džordžs</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                </person>
                <person xml:id="GobzemsAldis">
                   <persName>
                      <surname>Gobzems</surname>
                      <forename>Aldis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2018-12-06"
                                ref="#group.KPV-LV"
                                role="member"
                                to="2019-01-31"/>
-                  <affiliation from="2018-12-06" ref="#group.KPV-LV" role="MP" to="2019-01-31"/>
+                  <affiliation from="2018-12-06"
+                               ref="#group.KPV-LV"
+                               role="member"
+                               to="2019-01-31"/>
                </person>
                <person xml:id="RusiņšGunārs">
                   <persName>
                      <surname>Rusiņš</surname>
                      <forename>Gunārs</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-12-11" ref="#group.NA" role="member" to="2015-02-19"/>
-                  <affiliation from="2014-12-11" ref="#group.NA" role="MP" to="2015-02-19"/>
+                  <affiliation from="2014-12-11" ref="#group.NA" role="member" to="2015-02-19"/>
                </person>
                <person xml:id="LevitsEgils">
                   <persName>
                      <surname>Levits</surname>
                      <forename>Egils</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                </person>
                <person xml:id="MežeckisRomāns">
                   <persName>
                      <surname>Mežeckis</surname>
                      <forename>Romāns</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                </person>
                <person xml:id="KaimiņšArtuss">
                   <persName>
                      <surname>Kaimiņš</surname>
                      <forename>Artuss</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2018-11-13"
                                ref="#group.KPV-LV"
                                role="member"
                                to="2019-12-19"/>
-                  <affiliation from="2018-11-13" ref="#group.KPV-LV" role="MP" to="2019-12-19"/>
+                  <affiliation from="2018-11-13"
+                               ref="#group.KPV-LV"
+                               role="member"
+                               to="2019-12-19"/>
                </person>
                <person xml:id="Kursīte-PakuleJanīna">
                   <persName>
                      <surname>Kursīte-Pakule</surname>
                      <forename>Janīna</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2014-12-11" ref="#group.NA" role="member" to="2021-01-21"/>
-                  <affiliation from="2014-12-11" ref="#group.NA" role="MP" to="2021-01-21"/>
+                  <affiliation from="2014-12-11" ref="#group.NA" role="member" to="2021-01-21"/>
                </person>
                <person xml:id="UrbanovičsJānis">
                   <persName>
                      <surname>Urbanovičs</surname>
                      <forename>Jānis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-05"
                                ref="#group.SASKAŅA"
                                role="member"
                                to="2019-12-18"/>
                   <affiliation from="2014-11-05"
                                ref="#group.SASKAŅA"
-                               role="MP"
+                               role="member"
                                to="2019-12-18"/>
                </person>
                <person xml:id="ŠulcsJuris">
@@ -1621,14 +1699,14 @@
                      <surname>Šulcs</surname>
                      <forename>Juris</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-12-11"
                                ref="#group.VIENOTĪBA"
                                role="member"
                                to="2018-10-25"/>
                   <affiliation from="2014-12-11"
                                ref="#group.VIENOTĪBA"
-                               role="MP"
+                               role="member"
                                to="2018-10-25"/>
                </person>
                <person xml:id="MelgailisRihards">
@@ -1636,21 +1714,21 @@
                      <surname>Melgailis</surname>
                      <forename>Rihards</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                </person>
                <person xml:id="PotapkinsSergejs">
                   <persName>
                      <surname>Potapkins</surname>
                      <forename>Sergejs</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2015-12-10"
                                ref="#group.SASKAŅA"
                                role="member"
                                to="2018-09-27"/>
                   <affiliation from="2015-12-10"
                                ref="#group.SASKAŅA"
-                               role="MP"
+                               role="member"
                                to="2018-09-27"/>
                </person>
                <person xml:id="CilinskisEinārs">
@@ -1658,65 +1736,71 @@
                      <surname>Cilinskis</surname>
                      <forename>Einārs</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-12-04" ref="#group.NA" role="member" to="2018-11-01"/>
-                  <affiliation from="2014-12-04" ref="#group.NA" role="MP" to="2018-11-01"/>
+                  <affiliation from="2014-12-04" ref="#group.NA" role="member" to="2018-11-01"/>
                </person>
                <person xml:id="BērziņšAndris1955">
                   <persName>
                      <surname>Bērziņš</surname>
                      <forename>Andris</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2015-01-22"
                                ref="#group.ZZS"
                                role="member"
                                to="2018-10-25"/>
-                  <affiliation from="2015-01-22" ref="#group.ZZS" role="MP" to="2018-10-25"/>
+                  <affiliation from="2015-01-22"
+                               ref="#group.ZZS"
+                               role="member"
+                               to="2018-10-25"/>
                </person>
                <person xml:id="BarčaAija">
                   <persName>
                      <surname>Barča</surname>
                      <forename>Aija</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2014-12-04"
                                ref="#group.ZZS"
                                role="member"
                                to="2018-11-01"/>
-                  <affiliation from="2014-12-04" ref="#group.ZZS" role="MP" to="2018-11-01"/>
+                  <affiliation from="2014-12-04"
+                               ref="#group.ZZS"
+                               role="member"
+                               to="2018-11-01"/>
                </person>
                <person xml:id="ButānsJānis">
                   <persName>
                      <surname>Butāns</surname>
                      <forename>Jānis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2019-03-07" ref="#group.JK" role="member" to="2021-01-21"/>
-                  <affiliation from="2019-03-07" ref="#group.JK" role="MP" to="2021-01-21"/>
+                  <affiliation from="2019-03-07" ref="#group.JK" role="member" to="2021-01-21"/>
                </person>
                <person xml:id="ParādnieksImants">
                   <persName>
                      <surname>Parādnieks</surname>
                      <forename>Imants</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-05" ref="#group.NA" role="member" to="2018-11-01"/>
-                  <affiliation from="2014-11-05" ref="#group.NA" role="MP" to="2018-11-01"/>
+                  <affiliation from="2014-11-05" ref="#group.NA" role="member" to="2018-11-01"/>
                </person>
                <person xml:id="ŅikiforovsŅikita">
                   <persName>
                      <surname>Ņikiforovs</surname>
                      <forename>Ņikita</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2014-11-05"
                                ref="#group.SASKAŅA"
                                role="member"
                                to="2017-04-20"/>
                   <affiliation from="2014-11-05"
                                ref="#group.SASKAŅA"
-                               role="MP"
+                               role="member"
                                to="2017-04-20"/>
                </person>
                <person xml:id="ČigāneLolita">
@@ -1724,14 +1808,14 @@
                      <surname>Čigāne</surname>
                      <forename>Lolita</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2014-11-05"
                                ref="#group.VIENOTĪBA"
                                role="member"
                                to="2018-11-01"/>
                   <affiliation from="2014-11-05"
                                ref="#group.VIENOTĪBA"
-                               role="MP"
+                               role="member"
                                to="2018-11-01"/>
                </person>
                <person xml:id="SmiltēnsEdvards">
@@ -1739,14 +1823,14 @@
                      <surname>Smiltēns</surname>
                      <forename>Edvards</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-13"
                                ref="#group.VIENOTĪBA"
                                role="member"
                                to="2017-07-28"/>
                   <affiliation from="2014-11-13"
                                ref="#group.VIENOTĪBA"
-                               role="MP"
+                               role="member"
                                to="2017-07-28"/>
                </person>
                <person xml:id="LinkaitsTālis">
@@ -1754,40 +1838,40 @@
                      <surname>Linkaits</surname>
                      <forename>Tālis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2018-12-13" ref="#group.JK" role="member" to="2018-12-20"/>
-                  <affiliation from="2018-12-13" ref="#group.JK" role="MP" to="2018-12-20"/>
+                  <affiliation from="2018-12-13" ref="#group.JK" role="member" to="2018-12-20"/>
                </person>
                <person xml:id="KalniņšOjārsĒriks">
                   <persName>
                      <surname>Kalniņš</surname>
                      <forename>Ojārs Ēriks</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-20"
                                ref="#group.VIENOTĪBA"
                                role="member"
                                to="2018-11-01"/>
                   <affiliation from="2014-11-20"
                                ref="#group.VIENOTĪBA"
-                               role="MP"
+                               role="member"
                                to="2018-11-01"/>
                   <affiliation from="2018-12-06" ref="#group.JV" role="member" to="2021-01-28"/>
-                  <affiliation from="2018-12-06" ref="#group.JV" role="MP" to="2021-01-28"/>
+                  <affiliation from="2018-12-06" ref="#group.JV" role="member" to="2021-01-28"/>
                </person>
                <person xml:id="NikonovsVladimirs">
                   <persName>
                      <surname>Nikonovs</surname>
                      <forename>Vladimirs</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2015-11-19"
                                ref="#group.SASKAŅA"
                                role="member"
                                to="2019-04-03"/>
                   <affiliation from="2015-11-19"
                                ref="#group.SASKAŅA"
-                               role="MP"
+                               role="member"
                                to="2019-04-03"/>
                </person>
                <person xml:id="GudfinsonsEinars">
@@ -1795,21 +1879,21 @@
                      <surname>Gudfinsons</surname>
                      <forename>Einars</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                </person>
                <person xml:id="LazarevaJeļena">
                   <persName>
                      <surname>Lazareva</surname>
                      <forename>Jeļena</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2017-07-28"
                                ref="#group.SASKAŅA"
                                role="member"
                                to="2018-06-21"/>
                   <affiliation from="2017-07-28"
                                ref="#group.SASKAŅA"
-                               role="MP"
+                               role="member"
                                to="2018-06-21"/>
                </person>
                <person xml:id="LatkovskisIlmārs">
@@ -1817,47 +1901,53 @@
                      <surname>Latkovskis</surname>
                      <forename>Ilmārs</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-13" ref="#group.NA" role="member" to="2017-06-08"/>
-                  <affiliation from="2014-11-13" ref="#group.NA" role="MP" to="2017-06-08"/>
+                  <affiliation from="2014-11-13" ref="#group.NA" role="member" to="2017-06-08"/>
                </person>
                <person xml:id="TavarsEdgars">
                   <persName>
                      <surname>Tavars</surname>
                      <forename>Edgars</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2021-01-07"
                                ref="#group.ZZS"
                                role="member"
                                to="2021-02-04"/>
-                  <affiliation from="2021-01-07" ref="#group.ZZS" role="MP" to="2021-02-04"/>
+                  <affiliation from="2021-01-07"
+                               ref="#group.ZZS"
+                               role="member"
+                               to="2021-02-04"/>
                </person>
                <person xml:id="BlumbergsAldis">
                   <persName>
                      <surname>Blumbergs</surname>
                      <forename>Aldis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2019-02-07"
                                ref="#group.KPV-LV"
                                role="member"
                                to="2019-12-19"/>
-                  <affiliation from="2019-02-07" ref="#group.KPV-LV" role="MP" to="2019-12-19"/>
+                  <affiliation from="2019-02-07"
+                               ref="#group.KPV-LV"
+                               role="member"
+                               to="2019-12-19"/>
                </person>
                <person xml:id="ĶirsisVilnis">
                   <persName>
                      <surname>Ķirsis</surname>
                      <forename>Vilnis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-05"
                                ref="#group.VIENOTĪBA"
                                role="member"
                                to="2017-05-18"/>
                   <affiliation from="2014-11-05"
                                ref="#group.VIENOTĪBA"
-                               role="MP"
+                               role="member"
                                to="2017-05-18"/>
                </person>
                <person xml:id="RasnačsDzintars">
@@ -1865,30 +1955,30 @@
                      <surname>Rasnačs</surname>
                      <forename>Dzintars</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                </person>
                <person xml:id="BudriķisUldis">
                   <persName>
                      <surname>Budriķis</surname>
                      <forename>Uldis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2018-11-20" ref="#group.JK" role="member" to="2021-02-04"/>
-                  <affiliation from="2018-11-20" ref="#group.JK" role="MP" to="2021-02-04"/>
+                  <affiliation from="2018-11-20" ref="#group.JK" role="member" to="2021-02-04"/>
                </person>
                <person xml:id="PutniņšRenārs">
                   <persName>
                      <surname>Putniņš</surname>
                      <forename>Renārs</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2017-11-22"
                                ref="#group.VIENOTĪBA"
                                role="member"
                                to="2018-06-21"/>
                   <affiliation from="2017-11-22"
                                ref="#group.VIENOTĪBA"
-                               role="MP"
+                               role="member"
                                to="2018-06-21"/>
                </person>
                <person xml:id="MeijaAivars">
@@ -1896,69 +1986,72 @@
                      <surname>Meija</surname>
                      <forename>Aivars</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                </person>
                <person xml:id="KrēsliņšKārlis">
                   <persName>
                      <surname>Krēsliņš</surname>
                      <forename>Kārlis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-05" ref="#group.NA" role="member" to="2018-10-18"/>
-                  <affiliation from="2014-11-05" ref="#group.NA" role="MP" to="2018-10-18"/>
+                  <affiliation from="2014-11-05" ref="#group.NA" role="member" to="2018-10-18"/>
                </person>
                <person xml:id="DūklavsJānis">
                   <persName>
                      <surname>Dūklavs</surname>
                      <forename>Jānis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2018-11-29"
                                ref="#group.ZZS"
                                role="member"
                                to="2020-12-10"/>
-                  <affiliation from="2018-11-29" ref="#group.ZZS" role="MP" to="2020-12-10"/>
+                  <affiliation from="2018-11-29"
+                               ref="#group.ZZS"
+                               role="member"
+                               to="2020-12-10"/>
                </person>
                <person xml:id="DombravaJānis">
                   <persName>
                      <surname>Dombrava</surname>
                      <forename>Jānis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-05" ref="#group.NA" role="member" to="2021-01-28"/>
-                  <affiliation from="2014-11-05" ref="#group.NA" role="MP" to="2021-01-28"/>
+                  <affiliation from="2014-11-05" ref="#group.NA" role="member" to="2021-01-28"/>
                </person>
                <person xml:id="IndriksoneIlze">
                   <persName>
                      <surname>Indriksone</surname>
                      <forename>Ilze</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2019-01-10" ref="#group.NA" role="member" to="2021-02-04"/>
-                  <affiliation from="2019-01-10" ref="#group.NA" role="MP" to="2021-02-04"/>
+                  <affiliation from="2019-01-10" ref="#group.NA" role="member" to="2021-02-04"/>
                </person>
                <person xml:id="CielēnsJānis">
                   <persName>
                      <surname>Cielēns</surname>
                      <forename>Jānis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2019-05-23" ref="#group.JK" role="member" to="2020-11-30"/>
-                  <affiliation from="2019-05-23" ref="#group.JK" role="MP" to="2020-11-30"/>
+                  <affiliation from="2019-05-23" ref="#group.JK" role="member" to="2020-11-30"/>
                </person>
                <person xml:id="ZujevsIgors">
                   <persName>
                      <surname>Zujevs</surname>
                      <forename>Igors</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2018-03-08"
                                ref="#group.SASKAŅA"
                                role="member"
                                to="2018-03-08"/>
                   <affiliation from="2018-03-08"
                                ref="#group.SASKAŅA"
-                               role="MP"
+                               role="member"
                                to="2018-03-08"/>
                </person>
                <person xml:id="KazinovskisAndris">
@@ -1966,121 +2059,133 @@
                      <surname>Kazinovskis</surname>
                      <forename>Andris</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2019-01-31" ref="#group.JK" role="member" to="2020-05-26"/>
-                  <affiliation from="2019-01-31" ref="#group.JK" role="MP" to="2020-05-26"/>
+                  <affiliation from="2019-01-31" ref="#group.JK" role="member" to="2020-05-26"/>
                </person>
                <person xml:id="ŽunnaNormunds">
                   <persName>
                      <surname>Žunna</surname>
                      <forename>Normunds</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2018-12-20" ref="#group.JK" role="member" to="2021-02-04"/>
-                  <affiliation from="2018-12-20" ref="#group.JK" role="MP" to="2021-02-04"/>
+                  <affiliation from="2018-12-20" ref="#group.JK" role="member" to="2021-02-04"/>
                </person>
                <person xml:id="Reizniece-OzolaDana">
                   <persName>
                      <surname>Reizniece-Ozola</surname>
                      <forename>Dana</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2018-11-29"
                                ref="#group.ZZS"
                                role="member"
                                to="2020-12-21"/>
-                  <affiliation from="2018-11-29" ref="#group.ZZS" role="MP" to="2020-12-21"/>
+                  <affiliation from="2018-11-29"
+                               ref="#group.ZZS"
+                               role="member"
+                               to="2020-12-21"/>
                </person>
                <person xml:id="GolubevaMarija">
                   <persName>
                      <surname>Golubeva</surname>
                      <forename>Marija</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2018-11-22" ref="#group.AP" role="member" to="2021-01-28"/>
-                  <affiliation from="2018-11-22" ref="#group.AP" role="MP" to="2021-01-28"/>
+                  <affiliation from="2018-11-22" ref="#group.AP" role="member" to="2021-01-28"/>
                </person>
                <person xml:id="VējonisRaimonds">
                   <persName>
                      <surname>Vējonis</surname>
                      <forename>Raimonds</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                </person>
                <person xml:id="VucānsJānis">
                   <persName>
                      <surname>Vucāns</surname>
                      <forename>Jānis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-27"
                                ref="#group.ZZS"
                                role="member"
                                to="2021-01-28"/>
-                  <affiliation from="2014-11-27" ref="#group.ZZS" role="MP" to="2021-01-28"/>
+                  <affiliation from="2014-11-27"
+                               ref="#group.ZZS"
+                               role="member"
+                               to="2021-01-28"/>
                </person>
                <person xml:id="AizstrautaInese">
                   <persName>
                      <surname>Aizstrauta</surname>
                      <forename>Inese</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2018-03-22"
                                ref="#group.ZZS"
                                role="member"
                                to="2018-10-11"/>
-                  <affiliation from="2018-03-22" ref="#group.ZZS" role="MP" to="2018-10-11"/>
+                  <affiliation from="2018-03-22"
+                               ref="#group.ZZS"
+                               role="member"
+                               to="2018-10-11"/>
                </person>
                <person xml:id="LiepiņaLiene">
                   <persName>
                      <surname>Liepiņa</surname>
                      <forename>Liene</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2018-12-20"
                                ref="#group.KPV-LV"
                                role="member"
                                to="2019-05-30"/>
-                  <affiliation from="2018-12-20" ref="#group.KPV-LV" role="MP" to="2019-05-30"/>
+                  <affiliation from="2018-12-20"
+                               ref="#group.KPV-LV"
+                               role="member"
+                               to="2019-05-30"/>
                </person>
                <person xml:id="KrūmiņaElita">
                   <persName>
                      <surname>Krūmiņa</surname>
                      <forename>Elita</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                </person>
                <person xml:id="Rukšāne-ŠčipčinskaDace">
                   <persName>
                      <surname>Rukšāne-Ščipčinska</surname>
                      <forename>Dace</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2018-12-13" ref="#group.AP" role="member" to="2021-01-14"/>
-                  <affiliation from="2018-12-13" ref="#group.AP" role="MP" to="2021-01-14"/>
+                  <affiliation from="2018-12-13" ref="#group.AP" role="member" to="2021-01-14"/>
                </person>
                <person xml:id="BikšeAigars">
                   <persName>
                      <surname>Bikše</surname>
                      <forename>Aigars</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2020-12-21" ref="#group.AP" role="member" to="2020-12-21"/>
-                  <affiliation from="2020-12-21" ref="#group.AP" role="MP" to="2020-12-21"/>
+                  <affiliation from="2020-12-21" ref="#group.AP" role="member" to="2020-12-21"/>
                </person>
                <person xml:id="KucinsEdgars">
                   <persName>
                      <surname>Kucins</surname>
                      <forename>Edgars</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2019-02-21"
                                ref="#group.SASKAŅA"
                                role="member"
                                to="2021-02-04"/>
                   <affiliation from="2019-02-21"
                                ref="#group.SASKAŅA"
-                               role="MP"
+                               role="member"
                                to="2021-02-04"/>
                </person>
                <person xml:id="GerhardsKaspars">
@@ -2088,71 +2193,77 @@
                      <surname>Gerhards</surname>
                      <forename>Kaspars</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                </person>
                <person xml:id="KursīteJanīna">
                   <persName>
                      <surname>Kursīte</surname>
                      <forename>Janīna</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2015-05-14"
                                ref="#group.VIENOTĪBA"
                                role="member"
                                to="2015-09-17"/>
                   <affiliation from="2015-05-14"
                                ref="#group.VIENOTĪBA"
-                               role="MP"
+                               role="member"
                                to="2015-09-17"/>
                   <affiliation from="2019-04-11"
                                ref="#group.KPV-LV"
                                role="member"
                                to="2020-12-03"/>
-                  <affiliation from="2019-04-11" ref="#group.KPV-LV" role="MP" to="2020-12-03"/>
+                  <affiliation from="2019-04-11"
+                               ref="#group.KPV-LV"
+                               role="member"
+                               to="2020-12-03"/>
                </person>
                <person xml:id="IkstenaInese">
                   <persName>
                      <surname>Ikstena</surname>
                      <forename>Inese</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2018-12-06" ref="#group.AP" role="member" to="2021-01-28"/>
-                  <affiliation from="2018-12-06" ref="#group.AP" role="MP" to="2021-01-28"/>
+                  <affiliation from="2018-12-06" ref="#group.AP" role="member" to="2021-01-28"/>
                </person>
                <person xml:id="ŠmitsDidzis">
                   <persName>
                      <surname>Šmits</surname>
                      <forename>Didzis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2018-12-06"
                                ref="#group.KPV-LV"
                                role="member"
                                to="2019-06-13"/>
-                  <affiliation from="2018-12-06" ref="#group.KPV-LV" role="MP" to="2019-06-13"/>
+                  <affiliation from="2018-12-06"
+                               ref="#group.KPV-LV"
+                               role="member"
+                               to="2019-06-13"/>
                </person>
                <person xml:id="MuižnieceAnita">
                   <persName>
                      <surname>Muižniece</surname>
                      <forename>Anita</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2018-11-20" ref="#group.JK" role="member" to="2021-02-04"/>
-                  <affiliation from="2018-11-20" ref="#group.JK" role="MP" to="2021-02-04"/>
+                  <affiliation from="2018-11-20" ref="#group.JK" role="member" to="2021-02-04"/>
                </person>
                <person xml:id="MatīssAnrijs">
                   <persName>
                      <surname>Matīss</surname>
                      <forename>Anrijs</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2016-01-21"
                                ref="#group.VIENOTĪBA"
                                role="member"
                                to="2018-06-07"/>
                   <affiliation from="2016-01-21"
                                ref="#group.VIENOTĪBA"
-                               role="MP"
+                               role="member"
                                to="2018-06-07"/>
                </person>
                <person xml:id="KabanovsNikolajs">
@@ -2160,14 +2271,14 @@
                      <surname>Kabanovs</surname>
                      <forename>Nikolajs</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2018-12-06"
                                ref="#group.SASKAŅA"
                                role="member"
                                to="2021-02-04"/>
                   <affiliation from="2018-12-06"
                                ref="#group.SASKAŅA"
-                               role="MP"
+                               role="member"
                                to="2021-02-04"/>
                </person>
                <person xml:id="BērziņšGaidis">
@@ -2175,32 +2286,32 @@
                      <surname>Bērziņš</surname>
                      <forename>Gaidis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-13" ref="#group.NA" role="member" to="2018-11-01"/>
-                  <affiliation from="2014-11-13" ref="#group.NA" role="MP" to="2018-11-01"/>
+                  <affiliation from="2014-11-13" ref="#group.NA" role="member" to="2018-11-01"/>
                </person>
                <person xml:id="OzolaLinda">
                   <persName>
                      <surname>Ozola</surname>
                      <forename>Linda</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2018-11-13" ref="#group.JK" role="member" to="2020-09-17"/>
-                  <affiliation from="2018-11-13" ref="#group.JK" role="MP" to="2020-09-17"/>
+                  <affiliation from="2018-11-13" ref="#group.JK" role="member" to="2020-09-17"/>
                </person>
                <person xml:id="MorozovsAndris">
                   <persName>
                      <surname>Morozovs</surname>
                      <forename>Andris</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2017-10-19"
                                ref="#group.SASKAŅA"
                                role="member"
                                to="2018-09-20"/>
                   <affiliation from="2017-10-19"
                                ref="#group.SASKAŅA"
-                               role="MP"
+                               role="member"
                                to="2018-09-20"/>
                </person>
                <person xml:id="ViņķeleIlze">
@@ -2208,14 +2319,14 @@
                      <surname>Viņķele</surname>
                      <forename>Ilze</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2014-11-05"
                                ref="#group.VIENOTĪBA"
                                role="member"
                                to="2017-07-28"/>
                   <affiliation from="2014-11-05"
                                ref="#group.VIENOTĪBA"
-                               role="MP"
+                               role="member"
                                to="2017-07-28"/>
                </person>
                <person xml:id="DaudzeGundars">
@@ -2223,45 +2334,51 @@
                      <surname>Daudze</surname>
                      <forename>Gundars</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2015-01-22"
                                ref="#group.ZZS"
                                role="member"
                                to="2020-12-10"/>
-                  <affiliation from="2015-01-22" ref="#group.ZZS" role="MP" to="2020-12-10"/>
+                  <affiliation from="2015-01-22"
+                               ref="#group.ZZS"
+                               role="member"
+                               to="2020-12-10"/>
                </person>
                <person xml:id="GeidānsAivars">
                   <persName>
                      <surname>Geidāns</surname>
                      <forename>Aivars</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2019-04-25"
                                ref="#group.KPV-LV"
                                role="member"
                                to="2021-02-04"/>
-                  <affiliation from="2019-04-25" ref="#group.KPV-LV" role="MP" to="2021-02-04"/>
+                  <affiliation from="2019-04-25"
+                               ref="#group.KPV-LV"
+                               role="member"
+                               to="2021-02-04"/>
                </person>
                <person xml:id="MiezainisJurģis">
                   <persName>
                      <surname>Miezainis</surname>
                      <forename>Jurģis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                </person>
                <person xml:id="KrišānsJānis">
                   <persName>
                      <surname>Krišāns</surname>
                      <forename>Jānis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2019-01-17"
                                ref="#group.SASKAŅA"
                                role="member"
                                to="2020-12-17"/>
                   <affiliation from="2019-01-17"
                                ref="#group.SASKAŅA"
-                               role="MP"
+                               role="member"
                                to="2020-12-17"/>
                </person>
                <person xml:id="Lībiņa-EgnereInese">
@@ -2269,50 +2386,53 @@
                      <surname>Lībiņa-Egnere</surname>
                      <forename>Inese</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2014-11-27"
                                ref="#group.VIENOTĪBA"
                                role="member"
                                to="2018-11-01"/>
                   <affiliation from="2014-11-27"
                                ref="#group.VIENOTĪBA"
-                               role="MP"
+                               role="member"
                                to="2018-11-01"/>
                   <affiliation from="2018-11-22" ref="#group.JV" role="member" to="2021-01-28"/>
-                  <affiliation from="2018-11-22" ref="#group.JV" role="MP" to="2021-01-28"/>
+                  <affiliation from="2018-11-22" ref="#group.JV" role="member" to="2021-01-28"/>
                </person>
                <person xml:id="ĢirģensSandis">
                   <persName>
                      <surname>Ģirģens</surname>
                      <forename>Sandis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                </person>
                <person xml:id="SeržantsKārlis">
                   <persName>
                      <surname>Seržants</surname>
                      <forename>Kārlis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-05"
                                ref="#group.ZZS"
                                role="member"
                                to="2018-11-01"/>
-                  <affiliation from="2014-11-05" ref="#group.ZZS" role="MP" to="2018-11-01"/>
+                  <affiliation from="2014-11-05"
+                               ref="#group.ZZS"
+                               role="member"
+                               to="2018-11-01"/>
                </person>
                <person xml:id="KlementjevsAndrejs">
                   <persName>
                      <surname>Klementjevs</surname>
                      <forename>Andrejs</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-05"
                                ref="#group.SASKAŅA"
                                role="member"
                                to="2021-02-04"/>
                   <affiliation from="2014-11-05"
                                ref="#group.SASKAŅA"
-                               role="MP"
+                               role="member"
                                to="2021-02-04"/>
                </person>
                <person xml:id="BergmanisRaimonds">
@@ -2320,67 +2440,70 @@
                      <surname>Bergmanis</surname>
                      <forename>Raimonds</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2015-05-07"
                                ref="#group.ZZS"
                                role="member"
                                to="2021-01-14"/>
-                  <affiliation from="2015-05-07" ref="#group.ZZS" role="MP" to="2021-01-14"/>
+                  <affiliation from="2015-05-07"
+                               ref="#group.ZZS"
+                               role="member"
+                               to="2021-01-14"/>
                </person>
                <person xml:id="NaudiņšRomāns">
                   <persName>
                      <surname>Naudiņš</surname>
                      <forename>Romāns</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-12-18" ref="#group.NA" role="member" to="2020-10-22"/>
-                  <affiliation from="2014-12-18" ref="#group.NA" role="MP" to="2020-10-22"/>
+                  <affiliation from="2014-12-18" ref="#group.NA" role="member" to="2020-10-22"/>
                </person>
                <person xml:id="ReirsJānis">
                   <persName>
                      <surname>Reirs</surname>
                      <forename>Jānis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                </person>
                <person xml:id="DzintarsRaivis">
                   <persName>
                      <surname>Dzintars</surname>
                      <forename>Raivis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2015-06-03" ref="#group.NA" role="member" to="2021-02-04"/>
-                  <affiliation from="2015-06-03" ref="#group.NA" role="MP" to="2021-02-04"/>
+                  <affiliation from="2015-06-03" ref="#group.NA" role="member" to="2021-02-04"/>
                </person>
                <person xml:id="BordānsJānis">
                   <persName>
                      <surname>Bordāns</surname>
                      <forename>Jānis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2018-11-22" ref="#group.JK" role="member" to="2019-01-23"/>
-                  <affiliation from="2018-11-22" ref="#group.JK" role="MP" to="2019-01-23"/>
+                  <affiliation from="2018-11-22" ref="#group.JK" role="member" to="2019-01-23"/>
                </person>
                <person xml:id="KleinbergaNellija">
                   <persName>
                      <surname>Kleinberga</surname>
                      <forename>Nellija</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                </person>
                <person xml:id="AgešinsValērijs">
                   <persName>
                      <surname>Agešins</surname>
                      <forename>Valērijs</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-27"
                                ref="#group.SASKAŅA"
                                role="member"
                                to="2021-01-14"/>
                   <affiliation from="2014-11-27"
                                ref="#group.SASKAŅA"
-                               role="MP"
+                               role="member"
                                to="2021-01-14"/>
                </person>
                <person xml:id="LejiņšAtis">
@@ -2388,31 +2511,31 @@
                      <surname>Lejiņš</surname>
                      <forename>Atis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2015-01-22"
                                ref="#group.VIENOTĪBA"
                                role="member"
                                to="2018-11-01"/>
                   <affiliation from="2015-01-22"
                                ref="#group.VIENOTĪBA"
-                               role="MP"
+                               role="member"
                                to="2018-11-01"/>
                   <affiliation from="2019-01-31" ref="#group.JV" role="member" to="2021-01-28"/>
-                  <affiliation from="2019-01-31" ref="#group.JV" role="MP" to="2021-01-28"/>
+                  <affiliation from="2019-01-31" ref="#group.JV" role="member" to="2021-01-28"/>
                </person>
                <person xml:id="ElksniņšAndrejs">
                   <persName>
                      <surname>Elksniņš</surname>
                      <forename>Andrejs</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-05"
                                ref="#group.SASKAŅA"
                                role="member"
                                to="2017-06-01"/>
                   <affiliation from="2014-11-05"
                                ref="#group.SASKAŅA"
-                               role="MP"
+                               role="member"
                                to="2017-06-01"/>
                </person>
                <person xml:id="KozlovskaLīga">
@@ -2420,129 +2543,138 @@
                      <surname>Kozlovska</surname>
                      <forename>Līga</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2017-10-05"
                                ref="#group.ZZS"
                                role="member"
                                to="2018-09-27"/>
-                  <affiliation from="2017-10-05" ref="#group.ZZS" role="MP" to="2018-09-27"/>
+                  <affiliation from="2017-10-05"
+                               ref="#group.ZZS"
+                               role="member"
+                               to="2018-09-27"/>
                </person>
                <person xml:id="Zālīte-GrosaEvita">
                   <persName>
                      <surname>Zālīte-Grosa</surname>
                      <forename>Evita</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2018-12-20" ref="#group.JK" role="member" to="2021-01-21"/>
-                  <affiliation from="2018-12-20" ref="#group.JK" role="MP" to="2021-01-21"/>
+                  <affiliation from="2018-12-20" ref="#group.JK" role="member" to="2021-01-21"/>
                </person>
                <person xml:id="ViļumsJuris">
                   <persName>
                      <surname>Viļums</surname>
                      <forename>Juris</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                </person>
                <person xml:id="BuiķisAndris">
                   <persName>
                      <surname>Buiķis</surname>
                      <forename>Andris</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-27" ref="#group.NA" role="member" to="2015-07-08"/>
-                  <affiliation from="2014-11-27" ref="#group.NA" role="MP" to="2015-07-08"/>
+                  <affiliation from="2014-11-27" ref="#group.NA" role="member" to="2015-07-08"/>
                </person>
                <person xml:id="VoikaInese">
                   <persName>
                      <surname>Voika</surname>
                      <forename>Inese</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2018-12-06" ref="#group.AP" role="member" to="2021-02-04"/>
-                  <affiliation from="2018-12-06" ref="#group.AP" role="MP" to="2021-02-04"/>
+                  <affiliation from="2018-12-06" ref="#group.AP" role="member" to="2021-02-04"/>
                </person>
                <person xml:id="TēraudaVitaAnda">
                   <persName>
                      <surname>Tērauda</surname>
                      <forename>Vita Anda</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2018-11-22" ref="#group.AP" role="member" to="2021-01-28"/>
-                  <affiliation from="2018-11-22" ref="#group.AP" role="MP" to="2021-01-28"/>
+                  <affiliation from="2018-11-22" ref="#group.AP" role="member" to="2021-01-28"/>
                </person>
                <person xml:id="FeldmansKrišjānis">
                   <persName>
                      <surname>Feldmans</surname>
                      <forename>Krišjānis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2018-11-22" ref="#group.JK" role="member" to="2021-02-04"/>
-                  <affiliation from="2018-11-22" ref="#group.JK" role="MP" to="2021-02-04"/>
+                  <affiliation from="2018-11-22" ref="#group.JK" role="member" to="2021-02-04"/>
                </person>
                <person xml:id="TrupovnieksJānis">
                   <persName>
                      <surname>Trupovnieks</surname>
                      <forename>Jānis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-27"
                                ref="#group.ZZS"
                                role="member"
                                to="2018-11-01"/>
-                  <affiliation from="2014-11-27" ref="#group.ZZS" role="MP" to="2018-11-01"/>
+                  <affiliation from="2014-11-27"
+                               ref="#group.ZZS"
+                               role="member"
+                               to="2018-11-01"/>
                </person>
                <person xml:id="PetravičaRamona">
                   <persName>
                      <surname>Petraviča</surname>
                      <forename>Ramona</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2018-11-29"
                                ref="#group.KPV-LV"
                                role="member"
                                to="2020-12-21"/>
-                  <affiliation from="2018-11-29" ref="#group.KPV-LV" role="MP" to="2020-12-21"/>
+                  <affiliation from="2018-11-29"
+                               ref="#group.KPV-LV"
+                               role="member"
+                               to="2020-12-21"/>
                </person>
                <person xml:id="PūceJuris">
                   <persName>
                      <surname>Pūce</surname>
                      <forename>Juris</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2018-12-06" ref="#group.AP" role="member" to="2019-01-10"/>
-                  <affiliation from="2018-12-06" ref="#group.AP" role="MP" to="2019-01-10"/>
+                  <affiliation from="2018-12-06" ref="#group.AP" role="member" to="2019-01-10"/>
                </person>
                <person xml:id="AšeradensArvils">
                   <persName>
                      <surname>Ašeradens</surname>
                      <forename>Arvils</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2018-12-06" ref="#group.JV" role="member" to="2020-10-29"/>
-                  <affiliation from="2018-12-06" ref="#group.JV" role="MP" to="2020-10-29"/>
+                  <affiliation from="2018-12-06" ref="#group.JV" role="member" to="2020-10-29"/>
                </person>
                <person xml:id="MūrnieceInāra">
                   <persName>
                      <surname>Mūrniece</surname>
                      <forename>Ināra</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2015-01-22" ref="#group.NA" role="member" to="2021-01-28"/>
-                  <affiliation from="2015-01-22" ref="#group.NA" role="MP" to="2021-01-28"/>
+                  <affiliation from="2015-01-22" ref="#group.NA" role="member" to="2021-01-28"/>
                </person>
                <person xml:id="ZaķisDzintars">
                   <persName>
                      <surname>Zaķis</surname>
                      <forename>Dzintars</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-13"
                                ref="#group.VIENOTĪBA"
                                role="member"
                                to="2018-05-24"/>
                   <affiliation from="2014-11-13"
                                ref="#group.VIENOTĪBA"
-                               role="MP"
+                               role="member"
                                to="2018-05-24"/>
                </person>
                <person xml:id="TeirumnieksEdmunds">
@@ -2550,51 +2682,54 @@
                      <surname>Teirumnieks</surname>
                      <forename>Edmunds</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2019-02-14" ref="#group.NA" role="member" to="2020-06-10"/>
-                  <affiliation from="2019-02-14" ref="#group.NA" role="MP" to="2020-06-10"/>
+                  <affiliation from="2019-02-14" ref="#group.NA" role="member" to="2020-06-10"/>
                </person>
                <person xml:id="BaumaneKrista">
                   <persName>
                      <surname>Baumane</surname>
                      <forename>Krista</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2020-08-18" ref="#group.AP" role="member" to="2021-02-04"/>
-                  <affiliation from="2020-08-18" ref="#group.AP" role="MP" to="2021-02-04"/>
+                  <affiliation from="2020-08-18" ref="#group.AP" role="member" to="2021-02-04"/>
                </person>
                <person xml:id="PuntulisNauris">
                   <persName>
                      <surname>Puntulis</surname>
                      <forename>Nauris</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                </person>
                <person xml:id="JalinskaJanīna">
                   <persName>
                      <surname>Jalinska</surname>
                      <forename>Janīna</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2018-12-06"
                                ref="#group.ZZS"
                                role="member"
                                to="2021-01-07"/>
-                  <affiliation from="2018-12-06" ref="#group.ZZS" role="MP" to="2021-01-07"/>
+                  <affiliation from="2018-12-06"
+                               ref="#group.ZZS"
+                               role="member"
+                               to="2021-01-07"/>
                </person>
                <person xml:id="LočmeleRegīna">
                   <persName>
                      <surname>Ločmele</surname>
                      <forename>Regīna</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2020-10-01"
                                ref="#group.SASKAŅA"
                                role="member"
                                to="2021-02-04"/>
                   <affiliation from="2020-10-01"
                                ref="#group.SASKAŅA"
-                               role="MP"
+                               role="member"
                                to="2021-02-04"/>
                </person>
                <person xml:id="MožvilloMāris">
@@ -2602,38 +2737,44 @@
                      <surname>Možvillo</surname>
                      <forename>Māris</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2020-12-02"
                                ref="#group.KPV-LV"
                                role="member"
                                to="2020-12-21"/>
-                  <affiliation from="2020-12-02" ref="#group.KPV-LV" role="MP" to="2020-12-21"/>
+                  <affiliation from="2020-12-02"
+                               ref="#group.KPV-LV"
+                               role="member"
+                               to="2020-12-21"/>
                </person>
                <person xml:id="LīdakaIngmārs">
                   <persName>
                      <surname>Līdaka</surname>
                      <forename>Ingmārs</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-04"
                                ref="#group.ZZS"
                                role="member"
                                to="2018-03-01"/>
-                  <affiliation from="2014-11-04" ref="#group.ZZS" role="MP" to="2018-03-01"/>
+                  <affiliation from="2014-11-04"
+                               ref="#group.ZZS"
+                               role="member"
+                               to="2018-03-01"/>
                </person>
                <person xml:id="GoldbergaInga">
                   <persName>
                      <surname>Goldberga</surname>
                      <forename>Inga</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2018-12-06"
                                ref="#group.SASKAŅA"
                                role="member"
                                to="2021-02-04"/>
                   <affiliation from="2018-12-06"
                                ref="#group.SASKAŅA"
-                               role="MP"
+                               role="member"
                                to="2021-02-04"/>
                </person>
                <person xml:id="StraujumaLaimdota">
@@ -2641,14 +2782,14 @@
                      <surname>Straujuma</surname>
                      <forename>Laimdota</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2014-11-05"
                                ref="#group.VIENOTĪBA"
                                role="member"
                                to="2018-11-01"/>
                   <affiliation from="2014-11-05"
                                ref="#group.VIENOTĪBA"
-                               role="MP"
+                               role="member"
                                to="2018-11-01"/>
                </person>
                <person xml:id="HarjuAstrīda">
@@ -2656,14 +2797,14 @@
                      <surname>Harju</surname>
                      <forename>Astrīda</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2017-10-19"
                                ref="#group.VIENOTĪBA"
                                role="member"
                                to="2018-10-11"/>
                   <affiliation from="2017-10-19"
                                ref="#group.VIENOTĪBA"
-                               role="MP"
+                               role="member"
                                to="2018-10-11"/>
                </person>
                <person xml:id="KučinskisMāris">
@@ -2671,126 +2812,138 @@
                      <surname>Kučinskis</surname>
                      <forename>Māris</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-27"
                                ref="#group.ZZS"
                                role="member"
                                to="2021-01-21"/>
-                  <affiliation from="2014-11-27" ref="#group.ZZS" role="MP" to="2021-01-21"/>
+                  <affiliation from="2014-11-27"
+                               ref="#group.ZZS"
+                               role="member"
+                               to="2021-01-21"/>
                </person>
                <person xml:id="RasmanisArtis">
                   <persName>
                      <surname>Rasmanis</surname>
                      <forename>Artis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2015-10-22"
                                ref="#group.ZZS"
                                role="member"
                                to="2017-01-26"/>
-                  <affiliation from="2015-10-22" ref="#group.ZZS" role="MP" to="2017-01-26"/>
+                  <affiliation from="2015-10-22"
+                               ref="#group.ZZS"
+                               role="member"
+                               to="2017-01-26"/>
                </person>
                <person xml:id="ArnītisRingolds">
                   <persName>
                      <surname>Arnītis</surname>
                      <forename>Ringolds</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                </person>
                <person xml:id="MelbārdeDace">
                   <persName>
                      <surname>Melbārde</surname>
                      <forename>Dace</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2018-12-13" ref="#group.NA" role="member" to="2018-12-13"/>
-                  <affiliation from="2018-12-13" ref="#group.NA" role="MP" to="2018-12-13"/>
+                  <affiliation from="2018-12-13" ref="#group.NA" role="member" to="2018-12-13"/>
                </person>
                <person xml:id="KalnozolsValdis">
                   <persName>
                      <surname>Kalnozols</surname>
                      <forename>Valdis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2016-03-03"
                                ref="#group.ZZS"
                                role="member"
                                to="2018-11-01"/>
-                  <affiliation from="2016-03-03" ref="#group.ZZS" role="MP" to="2018-11-01"/>
+                  <affiliation from="2016-03-03"
+                               ref="#group.ZZS"
+                               role="member"
+                               to="2018-11-01"/>
                </person>
                <person xml:id="RancānsJuris">
                   <persName>
                      <surname>Rancāns</surname>
                      <forename>Juris</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2019-01-31" ref="#group.JK" role="member" to="2021-02-04"/>
-                  <affiliation from="2019-01-31" ref="#group.JK" role="MP" to="2021-02-04"/>
+                  <affiliation from="2019-01-31" ref="#group.JK" role="member" to="2021-02-04"/>
                </person>
                <person xml:id="KozlovskisRihards">
                   <persName>
                      <surname>Kozlovskis</surname>
                      <forename>Rihards</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-11-05"
                                ref="#group.VIENOTĪBA"
                                role="member"
                                to="2014-11-05"/>
                   <affiliation from="2014-11-05"
                                ref="#group.VIENOTĪBA"
-                               role="MP"
+                               role="member"
                                to="2014-11-05"/>
                   <affiliation from="2019-03-14" ref="#group.JV" role="member" to="2020-11-24"/>
-                  <affiliation from="2019-03-14" ref="#group.JV" role="MP" to="2020-11-24"/>
+                  <affiliation from="2019-03-14" ref="#group.JV" role="member" to="2020-11-24"/>
                </person>
                <person xml:id="JansonsRitvars">
                   <persName>
                      <surname>Jansons</surname>
                      <forename>Ritvars</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2015-04-23" ref="#group.NA" role="member" to="2021-01-07"/>
-                  <affiliation from="2015-04-23" ref="#group.NA" role="MP" to="2021-01-07"/>
+                  <affiliation from="2015-04-23" ref="#group.NA" role="member" to="2021-01-07"/>
                </person>
                <person xml:id="RiekstiņšSandis">
                   <persName>
                      <surname>Riekstiņš</surname>
                      <forename>Sandis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2018-12-13" ref="#group.JK" role="member" to="2021-02-04"/>
-                  <affiliation from="2018-12-13" ref="#group.JK" role="MP" to="2021-02-04"/>
+                  <affiliation from="2018-12-13" ref="#group.JK" role="member" to="2021-02-04"/>
                </person>
                <person xml:id="ČakšaAnda">
                   <persName>
                      <surname>Čakša</surname>
                      <forename>Anda</forename>
                   </persName>
-                  <sex value="F">Sieviete</sex>
+                  <sex value="F"/>
                   <affiliation from="2019-01-10"
                                ref="#group.ZZS"
                                role="member"
                                to="2019-06-20"/>
-                  <affiliation from="2019-01-10" ref="#group.ZZS" role="MP" to="2019-06-20"/>
+                  <affiliation from="2019-01-10"
+                               ref="#group.ZZS"
+                               role="member"
+                               to="2019-06-20"/>
                </person>
                <person xml:id="KiršteinsAleksandrs">
                   <persName>
                      <surname>Kiršteins</surname>
                      <forename>Aleksandrs</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2014-12-04" ref="#group.NA" role="member" to="2021-02-04"/>
-                  <affiliation from="2014-12-04" ref="#group.NA" role="MP" to="2021-02-04"/>
+                  <affiliation from="2014-12-04" ref="#group.NA" role="member" to="2021-02-04"/>
                </person>
                <person xml:id="IesalnieksJānis">
                   <persName>
                      <surname>Iesalnieks</surname>
                      <forename>Jānis</forename>
                   </persName>
-                  <sex value="M">Vīrietis</sex>
+                  <sex value="M"/>
                   <affiliation from="2019-01-31" ref="#group.NA" role="member" to="2021-01-14"/>
-                  <affiliation from="2019-01-31" ref="#group.NA" role="MP" to="2021-01-14"/>
+                  <affiliation from="2019-01-31" ref="#group.NA" role="member" to="2021-01-14"/>
                </person>
             </listPerson>
          </particDesc>
