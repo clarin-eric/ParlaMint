@@ -392,7 +392,7 @@
     <xsl:param name="orgrole"/>
     <xsl:choose>
       <!-- parliament -->
-      <xsl:when test="contains(' president chairman ', mk:borders($role)) and $orgrole='parliament'">president</xsl:when>
+      <xsl:when test="contains(' president chairman speaker ', mk:borders($role)) and $orgrole='parliament'">president</xsl:when>
       <xsl:when test="contains(' vicePresident viceChairman ', mk:borders($role)) and $orgrole='parliament'">vicePresident</xsl:when>
       <!-- parliamentaryGroup -->
       <xsl:when test="contains(' president chairman chairperson ', mk:borders($role)) and $orgrole='parliamentaryGroup'">president</xsl:when>
@@ -402,6 +402,9 @@
       <xsl:when test="contains(' vicePresident viceChairman deputyPrimeMinister ', mk:borders($role)) and $orgrole='government'">vicePresident</xsl:when>
 
       <!-- general organization - do nothing -->
+      <xsl:when test="contains(' president chairman chairperson speaker leader ', mk:borders($role))">president</xsl:when>
+      <xsl:when test="contains(' vicePresident viceChairman ', mk:borders($role))">vicePresident</xsl:when>
+
       <xsl:otherwise><xsl:value-of select="$role"/></xsl:otherwise>
     </xsl:choose>
   </xsl:function>
