@@ -111,11 +111,17 @@
             <xsl:if test="not($implicated-role = '')">
               <xsl:variable name="implicated-affiliation" select="$person/affiliation[@role=$implicated-role and $affFrom>=mk:get_from(.) and mk:get_to(.)>=$affTo ]"/>
               <xsl:if test="not($implicated-affiliation)">
-              <xsl:call-template name="affiliation-error">
-                <xsl:with-param name="ident">18</xsl:with-param>
-                <xsl:with-param name="severity">ERROR</xsl:with-param>
-                <xsl:with-param name="msg"><xsl:text>Missing implicated affiliation role '</xsl:text><xsl:value-of select="$implicated-role"/><xsl:text>'</xsl:text></xsl:with-param>
-              </xsl:call-template>
+                <xsl:variable name="severity">
+                  <xsl:choose>
+                    <xsl:when test="mk:is-obligatory('org',$affWith/@role)">ERROR</xsl:when>
+                    <xsl:otherwise>WARN</xsl:otherwise>
+                  </xsl:choose>
+                </xsl:variable>
+                <xsl:call-template name="affiliation-error">
+                  <xsl:with-param name="ident">18</xsl:with-param>
+                  <xsl:with-param name="severity"><xsl:value-of select="$severity"/></xsl:with-param>
+                  <xsl:with-param name="msg"><xsl:text>Missing implicated affiliation role '</xsl:text><xsl:value-of select="$implicated-role"/><xsl:text>'</xsl:text></xsl:with-param>
+                </xsl:call-template>
               </xsl:if>
             </xsl:if>
 
@@ -417,14 +423,32 @@
     <xsl:param name="role"/>
     <xsl:param name="orgrole"/>
     <xsl:choose>
+      <!-- parliament -->
       <xsl:when test="$role='president' and $orgrole='parliament'">member</xsl:when>
       <xsl:when test="$role='vicePresident' and $orgrole='parliament'">member</xsl:when>
+      <!-- parliamentaryGroup -->
       <xsl:when test="$role='president' and $orgrole='parliamentaryGroup'">member</xsl:when>
       <xsl:when test="$role='vicePresident' and $orgrole='parliamentaryGroup'">member</xsl:when>
+      <!-- government -->
       <xsl:when test="$role='president' and $orgrole='government'">member</xsl:when>
       <xsl:when test="$role='vicePresident' and $orgrole='government'">member</xsl:when>
       <xsl:when test="$role='minister' and $orgrole='government'">member</xsl:when>
+
+      <!-- general organization -->
+      <xsl:when test="$role='president'">member</xsl:when>
+      <xsl:when test="$role='vicePresident'">member</xsl:when>
       <xsl:otherwise><xsl:text/></xsl:otherwise>
+    </xsl:choose>
+  </xsl:function>
+
+  <xsl:function name="mk:is-obligatory">
+    <xsl:param name="elem"/>
+    <xsl:param name="role"/>
+    <xsl:choose>
+      <xsl:when test="$elem='org' and $role='parliament'"><xsl:sequence select="true()"/></xsl:when>
+      <xsl:when test="$elem='org' and $role='government'"><xsl:sequence select="true()"/></xsl:when>
+      <xsl:when test="$elem='org' and $role='parliamentaryGroup'"><xsl:sequence select="true()"/></xsl:when>
+      <xsl:otherwise><xsl:sequence select="false()"/></xsl:otherwise>
     </xsl:choose>
   </xsl:function>
 
