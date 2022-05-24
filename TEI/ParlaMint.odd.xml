@@ -1248,7 +1248,7 @@
 	      <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-parliamentaryGroup">
 		<org role="parliamentaryGroup" xml:id="group.LN-Aut">
                   <orgName full="yes" xml:lang="it">Lega Nord e Autonomie</orgName>
-                  <orgName full="init">LN-Aut</orgName>
+                  <orgName full="abb">LN-Aut</orgName>
                   <event from="2013-03-15" to="2018-03-22">
                     <label xml:lang="en">existence</label>
                   </event>
@@ -1257,27 +1257,19 @@
 	      
 	      First, each organisation must have an <att>xml:id</att> attribute, so that
 	      other elements can refer to it. The fact that the organisation is a
-	      parliamentary group of political parties 
-	      is encoded in the <att>role</att> attribute, and we elaborate on this
-	      below.  The name of the parliamentary group is given in the
-	      <gi>orgName</gi> element, which also uses the <att>full</att> attribute to
-	      distinguish between the <val>full</val> name of the party and the
-	      <val>init</val> for the initials of the party group, and both forms should be present,
-	      at least for the parliamentary groups of parties.</p>
+	      parliamentary group of political parties is encoded in the <att>role</att>
+	      attribute, and we elaborate on this below.  The name of the parliamentary
+	      group is given in the <gi>orgName</gi> element, which also uses the
+	      <att>full</att> attribute to distinguish between the <val>full</val> name of
+	      the party and the <val>abb</val> for the abbreviated name of the party
+	      group, and both forms should be present, at least for the parliamentary
+	      groups of parties.</p>
 	      
 	      <p>Parties are also created and dissolved, and this information is encoded in the
 	      <gi>event</gi> element, which has as its <gi>label</gi> <val>existence</val>,
 	      and where the start of its existence is given in the <att>from</att> attribute;
 	      as there is no <att>to</att> attribute, this also means that the party still
 	      exists.</p>
-
-	      <!-- Note that @full="init" is misused, at least according to the TEI definition:
-		   https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.personal.html
-		   Legal values are:	
-		   yes (yes) the name component is spelled out in full. [Default] 
-		   abb (abbreviated) the name component is given in an abbreviated form.
-		   init (initial letter) the name component is indicated only by one initial.
-	      -->
 
 	      <p>The example above gives the minimal required information about an
 	      organisation but ParlaMint also allows further data to be added, as exemplified by
@@ -1287,7 +1279,7 @@
 		<org xml:id="party.PS" role="parliamentaryGroup">
                   <orgName full="yes" xml:lang="sl">Pozitivna Slovenija</orgName>
                   <orgName full="yes" xml:lang="en">Positive Slovenia</orgName>
-                  <orgName full="init">PS</orgName>
+                  <orgName full="abb">PS</orgName>
                   <event from="2011-10-22">
                     <label xml:lang="en">existence</label>
                   </event>

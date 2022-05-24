@@ -137,7 +137,7 @@ orgName =
     
     ## Used when "the same" party changes its name
     (temporal.atts?),
-    attribute full { "yes" | "init" },
+    attribute full { "yes" | "abb" },
     text
   }
 listEvent = element listEvent { head*, event+ }
