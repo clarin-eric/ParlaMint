@@ -217,7 +217,8 @@
 	      <value>boardOfDirectors</value>
 	      <a:documentation>The following used only by SI:</a:documentation>
               <value>ethnicCommunity</value>
-              <value>independent</value>
+	      <!-- No longer used: -->
+              <!--value>independent</value-->
 	    </choice>
 	  </attribute>
 	  <oneOrMore>
@@ -427,8 +428,10 @@
 	  <value>member</value>
 	  <value>president</value>
 	  <value>vicePresident</value>
-	  <value>chairman</value>
-	  <value>viceChairman</value>
+	  <!-- Change to "president" -->
+	  <!--value>chairman</value-->
+	  <!-- Change to "vicePresident" -->
+	  <!--value>viceChairman</value-->
 	  <value>minister</value>
 	  <value>substituteMP</value>
 	  
@@ -473,7 +476,8 @@
 	  <value>viceDirector</value>
 	  
 	  <a:documentation>The following used only by GB:</a:documentation>
-          <value>speaker</value>
+	  <!-- Change to "president" -->
+          <!--value>speaker</value-->
 	</choice>
       </attribute>
       <empty/>

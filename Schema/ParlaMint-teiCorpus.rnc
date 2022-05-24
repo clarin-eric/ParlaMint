@@ -115,8 +115,13 @@ listOrg =
         | 
           ## The following used only by SI:
           "boardOfDirectors"
-        | "ethnicCommunity"
-        | "independent"
+        | [
+            # No longer used:
+            
+            # value>independent</value
+            
+          ]
+          "ethnicCommunity"
       },
       orgName+,
       event*,
@@ -193,9 +198,14 @@ affiliation =
       "member"
       | "president"
       | "vicePresident"
-      | "chairman"
-      | "viceChairman"
-      | "minister"
+      | # Change to "president"
+        
+        # value>chairman</value
+        
+        # Change to "vicePresident"
+        
+        # value>viceChairman</value
+        "minister"
       | 
         ## The following used only by FR:
         "substituteMP"
@@ -238,8 +248,13 @@ affiliation =
       | "viceChairman"
       | 
         ## The following used only by GB:
+        [
+          # Change to "president"
+          
+          # value>speaker</value
+          
+        ]
         "viceDirector"
-      | "speaker"
     },
     empty
   }
