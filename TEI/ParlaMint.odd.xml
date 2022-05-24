@@ -1451,24 +1451,29 @@
 	      
 	      The type of affiliation is given in the <att>role</att> attribute of
 	      <gi>affiliation</gi>, which has controlled values given by the ParlaMint
-	      schema. The main one is <val>member</val> for members of parliament (MPs), 
-	      for membership in e.g. political parties or groups (but
-	      possibly also commissions etc.) the other legal values are currently
-	      <val>substituteMP</val>, <val>president</val>, <val>vicePresident</val>,
-	      <val>chairman</val>, <val>viceChairman</val>, and <val>minister</val>.</p>
+	      schema. The main one is <val>member</val> for members of parliament (MPs) and
+	      for membership in political parties or groups, and possibly commissions etc.
+	      The second important value is that of <val>president</val> (and <val>vicePresident</val>),
+	      which is used not only for presidents (and vice presidents), but also for all other
+	      lead persons in a ParlaMint organisation, such as prime minister, chairman, or speaker.
+	      Finally, the role <val>minister</val> designates a minister in a government.</p>
 
 	      <p>The <att>ref</att> attribute points to the organisation in which the person
-	      has a role. For MPs this will always be the ID of the parliament
+	      has the specified role. For MPs this will always be the ID of the parliament
 	      or, for bicameral parliaments, one of the houses. For membership in a party
-	      this is, of course, the ID of the party organisation.  The affiliation element
-	      also has the usual <att>from</att> and <att>to</att> attributes. Finally, it
-	      can also have the <att>ana</att> attribute, which points to the appropriate
+	      or, more commonly, a parliamentary group of parties, this is, of course, the ID of the
+	      party or parliamentary group organisation.</p>
+
+	      <p>The affiliation element
+	      also has the usual <att>from</att> and <att>to</att> attributes. Affiliation 
+	      can also have the classification <att>ana</att> attribute, which, in this case,
+	      points to the appropriate
 	      legislative period when the person was affiliated with the specified
 	      organisation.</p>
 
 	      <p>Finally, the person element can also contain other optional information,
-	      such as the date and place of <gi>birth</gi> (and <gi>death</gi>), their
-	      official Web page, and a picture of the speaker, as illustrated below:
+	      such as the date and place of <gi>birth</gi> (and <gi>death</gi>), the
+	      official Web page of the person, their VIAF, photo etc., as illustrated below:
 
 	      <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-personextra">
 		<person xml:id="SayeedaWarsi">
@@ -1483,7 +1488,6 @@
                   <affiliation from="2007-10-11" ref="#parla.lower" role="member"/>
                   <affiliation from="2007-10-11" ref="#party.CON" role="member"/>
                   <affiliation from="2010-05-12" ref="#PoGB" role="minister" to="2012-09-06"/>
-                  <affiliation from="2012-09-06" ref="#PoGB" role="minister" to="2014-08-05"/>
                   <idno type="URI" subtype="contact">https://members.parliament.uk/member/3839/contact</idno>
 		  <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Sayeeda_Warsi,_Baroness_Warsi</idno>
 		  <idno type="URI" subtype="viaf">http://viaf.org/viaf/33149912470406211798</idno>

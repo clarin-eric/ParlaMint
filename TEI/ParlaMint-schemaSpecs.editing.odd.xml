@@ -3148,7 +3148,8 @@
           <valItem ident="internationalOrganizations"/>
           <valItem ident="boardOfDirectors"/>
           <valItem ident="ethnicCommunity"/>
-          <valItem ident="independent"/>
+	  <!-- No longer used -->
+          <!--valItem ident="independent"/-->
         </valList>
       </attDef>
       <pm:attPreserve ident="ana"/>
@@ -3532,8 +3533,10 @@
           <valItem ident="member"/>
           <valItem ident="president"/>
           <valItem ident="vicePresident"/>
-          <valItem ident="chairman"/>
-          <valItem ident="viceChairman"/>
+	  <!-- Use president instead -->
+          <!--valItem ident="chairman"/-->
+	  <!-- Use vicePresident instead -->
+          <!--valItem ident="viceChairman"/-->
           <valItem ident="minister"/>
           <valItem ident="substituteMP"/>
           <valItem ident="associateMember"/>
@@ -3569,7 +3572,8 @@
           <valItem ident="secretary"/>
           <valItem ident="secretaryGeneral"/>
           <valItem ident="viceDirector"/>
-          <valItem ident="speaker"/>
+	  <!-- Use president instead -->
+          <!--valItem ident="speaker"/-->
         </valList>
       </attDef>
       <pm:attPreserve ident="ref"/>
