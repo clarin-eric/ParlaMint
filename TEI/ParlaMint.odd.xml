@@ -1221,10 +1221,11 @@
             <div xml:id="sec-orgs">
 	      <head>Organisations</head>
 	      
-	      <p>Information on political parties, as well as other groupings of people,
-	      such as the parliament or ministries, is given in the <gi>listOrg</gi>
-	      element, which then contains <gi>org</gi> elements giving information about
-	      one organisation and followed by the <gi>listRelations</gi> element giving a
+	      <p>Information on the parliament (and possibly ministires), on parliamentary groups of
+	      political parties (and possibly political parties themselves), as well as other
+	      parlimanentary structures (e.g. committees) is given in the corpus <gi>listOrg</gi>
+	      element, which then contains a list of <gi>org</gi> elements, each giving information about
+	      one organisation, and followed by the <gi>listRelations</gi> element giving a
 	      list of relations between organisations:
 
 	      <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-listOrg">
@@ -1238,8 +1239,18 @@
 	      </egXML>
 	      </p>
 
-	      <p>We first exemplify the structure of one organisation giving the information
+	      <p>We first exemplify the structure of one organisation element by giving the information
 	      about a political party:
+	      
+	      <!--egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-parliamentaryGroup">
+               <org role="politicalGroup" xml:id="group.LN-Aut">
+                  <orgName full="yes" xml:lang="it">Lega Nord e Autonomie</orgName>
+                  <orgName full="init">LN-Aut</orgName>
+                  <event from="2013-03-15" to="2018-03-22">
+                     <label xml:lang="en">existence</label>
+                  </event>
+               </org>
+	      </egXML-->
 	      
 	      <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-parties">
 		<org xml:id="party.PS" role="politicalParty">
@@ -1429,9 +1440,15 @@
 	      <val>U</val> for unknown.</p>
 
 	      <p>Apart from the obligatory metadata on the speakers above, the speakers who
-	      are MPs or members of political parties (or groups) should also have this
-	      information recorded in their <gi>affiliation</gi> elements with the <q>member</q> role,
-	      as shown in the following example:
+	      are members of the government, parliament, parliamentary groups of political
+	      parties<note>Note that parliaments also have independent (or unaffiliated) MPs,
+	      that can either belong to a special <q>unaffiliated</q> parliamentary group or
+	      don't belong to any parliamentary group. For the former, they are simply not
+	      affiliated to any parliamentary group. For the latter, an <q>unaffiliated</q>
+	      parlimentaryGroup organisation must be created, and such MPs are affiliated with
+	      it as members.</note> (or political parties themselves) should have this
+	      information recorded in their <gi>affiliation</gi> elements with the
+	      <q>member</q> role, as shown in the following example:
 	      
 	      <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-affiliation">
 		<person xml:id="BahŽibertAnja">
