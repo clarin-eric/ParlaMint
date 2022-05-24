@@ -296,6 +296,15 @@ $(DEV-validate-particDesc-XX): DEV-validate-particDesc-%: % working-dir-%
 	done
 
 
+DEV-val-schema-ParlaMintODD-XX = $(addprefix DEV-val-schema-ParlaMintODD-, $(PARLIAMENTS))
+##!DEV-val-schema-ParlaMintODD ## run all corpora Relax NG validation on tei+ana versions with ParlaMint schema
+DEV-val-schema-ParlaMintODD: $(DEV-val-schema-ParlaMintODD-XX)
+##!DEV-val-schema-ParlaMintODD-XX ## ...
+$(DEV-val-schema-ParlaMintODD-XX): DEV-val-schema-ParlaMintODD-%: %
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | xargs ${vodd}
+
+
+
 DEV-links-summ-XX = $(addprefix DEV-links-summ-, $(PARLIAMENTS))
 ##!DEV-links-summ## print table with numbers of links by type for corpus root files (file fromAttribute fromElement toElement linkType #)
 DEV-links-summ:
@@ -387,3 +396,4 @@ vrt = $j Schema/ParlaMint-teiCorpus.rng 	# Corpus root / text
 vct = $j Schema/ParlaMint-TEI.rng		# Corpus component / text
 vra = $j Schema/ParlaMint-teiCorpus.ana.rng	# Corpus root / analysed
 vca = $j Schema/ParlaMint-TEI.ana.rng		# Corpus component / analysed
+vodd = $j TEI/ParlaMint.rng		# validate with rng derived from odd
