@@ -102,7 +102,8 @@
     <xsl:choose>
       <xsl:when test="$country = 'BG' and text()='депутат'">
         <xsl:copy>
-          <xsl:apply-templates select="@*"/>
+          <xsl:apply-templates select="@*[not(name()='role')]"/>
+          <xsl:attribute name="role"><xsl:value-of select="mk:affiliation-role-patch(@role,'parliament')"/></xsl:attribute>
           <xsl:attribute name="ref">#NS</xsl:attribute>
           <xsl:call-template name="affiliation-ana"><xsl:with-param name="ref" select="'#NS'"/></xsl:call-template>
         </xsl:copy>
