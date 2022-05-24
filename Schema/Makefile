@@ -12,6 +12,7 @@ rnc:
 	$t ParlaMint-TEI.ana.rng ParlaMint-TEI.ana.rnc
 	$t ParlaMint-teiCorpus.rng ParlaMint-teiCorpus.rnc
 	$t ParlaMint-teiCorpus.ana.rng ParlaMint-teiCorpus.ana.rnc
+
 #Doesn't work, cf. https://github.com/clarin-eric/ParlaMint/issues/74
 xsd:
 	$t ParlaMint-TEI.rng ParlaMint-TEI.xsd

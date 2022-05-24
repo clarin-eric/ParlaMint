@@ -191,7 +191,7 @@
               <value>government</value>
               <value>parliament</value>
               <value>politicalParty</value>
-	      <value>politicalGroup</value>
+	      <value>parliamentaryGroup</value>
 	      <a:documentation>The following used only by LT:</a:documentation>
               <value>conferenceOfChairs</value>
               <value>boardOfParliament</value>
@@ -217,7 +217,8 @@
 	      <value>boardOfDirectors</value>
 	      <a:documentation>The following used only by SI:</a:documentation>
               <value>ethnicCommunity</value>
-              <value>independent</value>
+	      <!-- No longer used: -->
+              <!--value>independent</value-->
 	    </choice>
 	  </attribute>
 	  <oneOrMore>
@@ -337,7 +338,7 @@
 		<value>U</value>
 	      </choice>
 	    </attribute>
-	    <text/>
+	    <empty/>
 	  </element>
 	</optional>
 	<optional>
@@ -427,10 +428,11 @@
 	  <value>member</value>
 	  <value>president</value>
 	  <value>vicePresident</value>
-	  <value>chairman</value>
-	  <value>viceChairman</value>
+	  <!-- Change to "president" -->
+	  <!--value>chairman</value-->
+	  <!-- Change to "vicePresident" -->
+	  <!--value>viceChairman</value-->
 	  <value>minister</value>
-	  <value>MP</value>
 	  <value>substituteMP</value>
 	  
 	  <a:documentation>The following used only by FR:</a:documentation>
@@ -449,7 +451,7 @@
 	  <value>publicDefenderOfRights</value>
 	  <value>alternateOfDelegation</value>
 	  <value>replacement</value>
-	  <value>candidateMP</value>
+	  <value>representative</value>
 	  
 	  <a:documentation>The following used only by BG:</a:documentation>
 	  <value>academician</value>
@@ -474,10 +476,11 @@
 	  <value>viceDirector</value>
 	  
 	  <a:documentation>The following used only by GB:</a:documentation>
-          <value>speaker</value>
+	  <!-- Change to "president" -->
+          <!--value>speaker</value-->
 	</choice>
       </attribute>
-      <text/>
+      <empty/>
     </element>
   </define>
 
@@ -550,8 +553,8 @@
   <define name="life-event.content">
     <a:documentation>The content of elements that describe life
     events: they can have an partial date (e.g. year only) in temporal
-    attributes, and have as content plain text giving the date and
-    possibly the placeName where the event happened.</a:documentation>
+    attributes. The content can be empty, or gives the placeName where
+    the event happened.</a:documentation>
     <attribute name="when">
       <choice>
 	<data type="date"/>
@@ -559,14 +562,12 @@
 	<data type="gYear"/>
       </choice>
     </attribute>
-    <mixed>
-      <zeroOrMore>
-	<element name="placeName">
-	  <ref name="ref.att"/>
-	  <text/>
-	</element>
-      </zeroOrMore>
-    </mixed>
+    <optional>
+      <element name="placeName">
+	<ref name="ref.att"/>
+	<text/>
+      </element>
+    </optional>
   </define>
   
   <define name="event">

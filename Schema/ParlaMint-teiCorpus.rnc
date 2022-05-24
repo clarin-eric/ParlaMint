@@ -88,7 +88,7 @@ listOrg =
         | "politicalParty"
         | 
           ## The following used only by LT:
-          "politicalGroup"
+          "parliamentaryGroup"
         | "conferenceOfChairs"
         | 
           ## The following used only by BG:
@@ -115,8 +115,13 @@ listOrg =
         | 
           ## The following used only by SI:
           "boardOfDirectors"
-        | "ethnicCommunity"
-        | "independent"
+        | [
+            # No longer used:
+            
+            # value>independent</value
+            
+          ]
+          "ethnicCommunity"
       },
       orgName+,
       event*,
@@ -161,7 +166,7 @@ person =
     (persName+),
     (element sex {
        attribute value { "M" | "F" | "U" },
-       text
+       empty
      }?
      & element birth { life-event.content }?
      & element death { life-event.content }?
@@ -193,10 +198,14 @@ affiliation =
       "member"
       | "president"
       | "vicePresident"
-      | "chairman"
-      | "viceChairman"
-      | "minister"
-      | "MP"
+      | # Change to "president"
+        
+        # value>chairman</value
+        
+        # Change to "vicePresident"
+        
+        # value>viceChairman</value
+        "minister"
       | 
         ## The following used only by FR:
         "substituteMP"
@@ -217,7 +226,7 @@ affiliation =
       | "replacement"
       | 
         ## The following used only by BG:
-        "candidateMP"
+        "representative"
       | "academician"
       | "candidateChairman"
       | "chairperson"
@@ -239,10 +248,15 @@ affiliation =
       | "viceChairman"
       | 
         ## The following used only by GB:
+        [
+          # Change to "president"
+          
+          # value>speaker</value
+          
+        ]
         "viceDirector"
-      | "speaker"
     },
-    text
+    empty
   }
 occupation = element occupation { global.atts, temporal.atts?, text }
 education = element education { global.atts, temporal.atts?, text }
@@ -271,13 +285,11 @@ langUsage =
 
 ## The content of elements that describe life
 ##     events: they can have an partial date (e.g. year only) in temporal
-##     attributes, and have as content plain text giving the date and
-##     possibly the placeName where the event happened.
+##     attributes. The content can be empty, or gives the placeName where
+##     the event happened.
 life-event.content =
   attribute when { xsd:date | xsd:gYearMonth | xsd:gYear },
-  mixed {
-    element placeName { ref.att, text }*
-  }
+  element placeName { ref.att, text }?
 event =
   element event {
     global.atts,
