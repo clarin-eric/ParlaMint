@@ -14,7 +14,7 @@ WORKINGDIR = Data/TMP
 CORPUSDIR_SUFFIX =
 
 ###### Setup
-## check-prereq ## test if prerequisities are installed
+## check-prereq ## test if prerequisities are installed, more about installing prerequisities in CONTRIBUTING.md file
 check-prereq:
 	@test -f /usr/share/java/saxon.jar
 	@unzip -p /usr/share/java/saxon.jar META-INF/MANIFEST.MF|grep 'Main-Class:'| grep -q 'net.sf.saxon.Transform'
@@ -396,4 +396,4 @@ vrt = $j Schema/ParlaMint-teiCorpus.rng 	# Corpus root / text
 vct = $j Schema/ParlaMint-TEI.rng		# Corpus component / text
 vra = $j Schema/ParlaMint-teiCorpus.ana.rng	# Corpus root / analysed
 vca = $j Schema/ParlaMint-TEI.ana.rng		# Corpus component / analysed
-vodd = $j TEI/ParlaMint.rng		# validate with rng derived from odd
+vodd = $j TEI/ParlaMint.odd.rng		# validate with rng derived from odd
