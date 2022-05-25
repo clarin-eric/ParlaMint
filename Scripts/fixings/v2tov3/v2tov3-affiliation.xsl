@@ -373,7 +373,9 @@
       <xsl:when test="$role='vicePresident' and $orgrole='government'">member</xsl:when>
       <xsl:when test="$role='minister' and $orgrole='government'">member</xsl:when>
 
-      <!-- general organization - do nothing -->
+      <!-- general organization -->
+      <xsl:when test="$role='president'">member</xsl:when>
+      <xsl:when test="$role='vicePresident'">member</xsl:when>
       <xsl:otherwise><xsl:text/></xsl:otherwise>
     </xsl:choose>
   </xsl:function>
@@ -384,7 +386,7 @@
     <xsl:param name="ref"/>
     <xsl:param name="from"/>
     <xsl:param name="to"/>
-    <xsl:sequence select="$person/tei:affiliation[@role=$role and @ref=$ref and (($from >= mk:get_from(.) and mk:get_to(.) >= $from) or ($to >= mk:get_from(.) and mk:get_to(.) >= $to))]"/>
+    <xsl:sequence select="$person/tei:affiliation[@role=$role and @ref=$ref and $from >= mk:get_from(.) and mk:get_to(.) >= $to]"/>
   </xsl:function>
 
   <xsl:function name="mk:affiliation-role-patch">
