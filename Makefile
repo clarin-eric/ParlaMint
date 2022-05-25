@@ -396,4 +396,4 @@ vrt = $j Schema/ParlaMint-teiCorpus.rng 	# Corpus root / text
 vct = $j Schema/ParlaMint-TEI.rng		# Corpus component / text
 vra = $j Schema/ParlaMint-teiCorpus.ana.rng	# Corpus root / analysed
 vca = $j Schema/ParlaMint-TEI.ana.rng		# Corpus component / analysed
-vodd = $j TEI/ParlaMint.rng		# validate with rng derived from odd
+vodd = $j TEI/ParlaMint.odd.rng		# validate with rng derived from odd
