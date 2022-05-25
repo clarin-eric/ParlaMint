@@ -50,6 +50,11 @@
   <xsl:include href="v2tov3-affiliation.xsl" />
 
 
+  <!-- fix (HU) -->
+  <xsl:template match="@type[$country = 'HU' and ./parent::tei:name and .='adress']" priority="1">
+    <xsl:attribute name="type">address</xsl:attribute>
+  </xsl:template>
+
   <!-- remove pubPlace (CZ) -->
   <xsl:template match="tei:pubPlace[$country = 'CZ']"/>
 
