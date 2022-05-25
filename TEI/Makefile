@@ -1,5 +1,7 @@
 # Validate and compile ODD to RelaxNG, validate samples, make HTML
 all:	prepare val-schema xml-schemas val-samples html
+# We cannot currently validate samples, as they need first to be updated.
+xall:	prepare val-schema xml-schemas val-samples html
 
 # Builds html and pushes it
 deploy:	html
@@ -27,11 +29,11 @@ html:	prepare val-schema
 
 # Compile schemas to RelaxNG, DTD and XSD; best use the RelaxNG one.
 xml-schemas:	val-schema
-	Stylesheets/bin/teitorelaxng    ${SUBSET} ${ODD} ParlaMint.rng
-	Stylesheets/bin/teitornc        ${SUBSET} ${ODD} ParlaMint.rnc
-	#Stylesheets/bin/teitodtd        ${SUBSET} ${ODD} ParlaMint.dtd
-	#Stylesheets/bin/teitoxsd        ${SUBSET} ${ODD} ParlaMint.xsd
-	#Stylesheets/bin/teitoschematron ${SUBSET} ${ODD} ParlaMint.sch
+	Stylesheets/bin/teitorelaxng    ${SUBSET} ${ODD} ParlaMint.odd.rng
+	Stylesheets/bin/teitornc        ${SUBSET} ${ODD} ParlaMint.odd.rnc
+	Stylesheets/bin/teitoschematron ${SUBSET} ${ODD} ParlaMint.odd.sch
+	#Stylesheets/bin/teitodtd        ${SUBSET} ${ODD} ParlaMint.odd.dtd
+	#Stylesheets/bin/teitoxsd        ${SUBSET} ${ODD} ParlaMint.odd.xsd
 
 val:	val-schema val-samples
 val-schema:
@@ -39,12 +41,12 @@ val-schema:
 
 # Validate 1 sample
 val-SI:
-	$j ParlaMint.rng tmp/ParlaMint-SI.ana.xml
-	$j ParlaMint.rng tmp/ParlaMint-SI.xml
-	$j ParlaMint.rng ../Data/ParlaMint-SI/ParlaMint-SI.xml
-	$j ParlaMint.rng ../Data/ParlaMint-SI/ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.xml
-	$j ParlaMint.rng ../Data/ParlaMint-SI/ParlaMint-SI.ana.xml
-	$j ParlaMint.rng ../Data/ParlaMint-SI/ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.ana.xml
+	$j ParlaMint.odd.rng tmp/ParlaMint-SI.ana.xml
+	$j ParlaMint.odd.rng tmp/ParlaMint-SI.xml
+	$j ParlaMint.odd.rng ../Data/ParlaMint-SI/ParlaMint-SI.xml
+	$j ParlaMint.odd.rng ../Data/ParlaMint-SI/ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.xml
+	$j ParlaMint.odd.rng ../Data/ParlaMint-SI/ParlaMint-SI.ana.xml
+	$j ParlaMint.odd.rng ../Data/ParlaMint-SI/ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.ana.xml
 
 # Validate samples
 val-samples:
@@ -59,6 +61,16 @@ prepare: generate-schemaSpecs
 	rm -f tmp/*
 	$s -xi -xsl:copy-odd.xsl ParlaMint.odd.xml > tmp/ParlaMint.xml
 
+# This was done, and we don't want to re-run this script.
+xxx-fix-pm:
+	$s -xsl:add-pm.xsl src=ParlaMint-schemaSpecs.orig.odd.xml ParlaMint-schemaSpecs.editing.bad.odd.xml \
+	> ParlaMint-schemaSpecs.editing.odd.xml
+	diff -w ParlaMint-schemaSpecs.editing.bad.odd.xml ParlaMint-schemaSpecs.editing.odd.xml
+
+# This was done, and we don't want to re-run this script.
+xxx-prepare-p5subset:
+	$s -xsl:add-desc.xsl ParlaMint-schemaSpecs.editing.original.odd.xml | \
+	$s -xsl:add-source.xsl - > ParlaMint-schemaSpecs.editing.odd.xml
 
 # generate schemaSpecs.odd file
 generate-schemaSpecs:

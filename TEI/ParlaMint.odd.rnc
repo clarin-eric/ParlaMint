@@ -12,9 +12,9 @@ namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 namespace xsl = "http://www.w3.org/1999/XSL/Transform"
 
-# Schema generated from ODD source 2022-03-04T18:46:49Z. 2022-03-04.
+# Schema generated from ODD source 2022-05-24T14:58:43Z. 2022-05-19.
 # TEI Edition: Version 4.4.0a. Last updated on
-#         19th January 2022, revision daab99ca7
+#         14th March 2022, revision 3a89ab0a0
 # TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
 #
 
@@ -314,7 +314,8 @@ tei_att.media.attribute.scale =
     | xsd:decimal
   }?
 sch:pattern [
-  id = "parlamint-att.spanning-spanTo-spanTo-2-constraint-rule-5"
+  id =
+    "parlamint-att.spanning-spanTo-spanTo-points-to-following-constraint-rule-5"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -511,7 +512,7 @@ tei_p =
     ((tei_ref | text)+)
     >> sch:pattern [
          id =
-           "parlamint-p-abstractModel-structure-p-constraint-report-4"
+           "parlamint-p-abstractModel-structure-p-in-ab-or-p-constraint-report-4"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -520,7 +521,7 @@ tei_p =
            "               "
            sch:report [
              test =
-               "not(ancestor::tei:floatingText) and (ancestor::tei:p or ancestor::tei:ab)          and not(parent::tei:exemplum                |parent::tei:item                |parent::tei:note                |parent::tei:q                |parent::tei:quote                |parent::tei:remarks                |parent::tei:said                |parent::tei:sp                |parent::tei:stage                |parent::tei:cell                |parent::tei:figure                )"
+               "    (ancestor::tei:ab or ancestor::tei:p)                          and not( ancestor::tei:floatingText                                 |parent::tei:exemplum                                 |parent::tei:item                                 |parent::tei:note                                 |parent::tei:q                                 |parent::tei:quote                                 |parent::tei:remarks                                 |parent::tei:said                                 |parent::tei:sp                                 |parent::tei:stage                                 |parent::tei:cell                                 |parent::tei:figure                                )"
              "\x{a}" ~
              "        Abstract model violation: Paragraphs may not occur inside other paragraphs or ab elements.\x{a}" ~
              "      "
@@ -533,7 +534,7 @@ tei_p =
        ]
     >> sch:pattern [
          id =
-           "parlamint-p-abstractModel-structure-l-constraint-report-5"
+           "parlamint-p-abstractModel-structure-p-in-l-or-lg-constraint-report-5"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -542,7 +543,7 @@ tei_p =
            "               "
            sch:report [
              test =
-               "(ancestor::tei:l or ancestor::tei:lg) and not(parent::tei:figure or parent::tei:note or ancestor::tei:floatingText)"
+               "    (ancestor::tei:l or ancestor::tei:lg)                          and not( ancestor::tei:floatingText                                 |parent::tei:figure                                 |parent::tei:note                                )"
              "\x{a}" ~
              "        Abstract model violation: Lines may not contain higher-level structural elements such as div, p, or ab, unless p is a child of figure or note, or is a descendant of floatingText.\x{a}" ~
              "      "
@@ -726,10 +727,24 @@ tei_unit =
   ## contains a symbol, a word or a phrase referring to a unit of measurement in any kind of formal or informal system. [3.6.3. Numbers and
   ## Measures]
   element unit {
-    tei_macro.phraseSeq,
-    tei_att.global.attributes,
-    tei_att.typed.attributes,
-    tei_att.measurement.attributes,
+    (tei_w
+     | tei_pc
+     | tei_name
+     | tei_date
+     | tei_time
+     | tei_num
+     | tei_unit
+     | tei_email
+     | tei_ref
+     | tei_note
+     | tei_gap
+     | tei_kinesic
+     | tei_incident
+     | tei_vocal)+,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
+    tei_att.global.analytic.attribute.ana,
     empty
   }
 tei_date =
@@ -918,9 +933,9 @@ tei_bibl =
 tei_teiCorpus =
   [
     a:documentation [
-      "(TEI corpus) contains the whole of a TEI encoded corpus, comprising a single corpus header and one or more "
+      "(TEI corpus) contains one whole corpus, stored in the corpus root file comprising the corpus header and XInclude references to corpus component files, each containing a "
       ns1:code [ "<TEI>" ]
-      " elements, each containing a single text header and a text. [4. Default Text Structure 15.1. Varieties of Composite Text]"
+      " element. [4. Default Text Structure 15.1. Varieties of Composite Text]"
     ]
   ]
   element teiCorpus {
@@ -1011,8 +1026,16 @@ tei_idno =
       | 
         ## Digital Object Identifier: a unique string of letters and numbers assigned to an electronic document.
         "DOI"
-      | 
-        ## Uniform Resource Identifier: a string of characters to uniquely identify a resource which usually contains indication of the means of accessing that resource, the name of its host, and its filepath.
+      | [
+          a:documentation [
+            "Uniform Resource Identifier: a string of characters to uniquely identify a resource, following the syntax of "
+            ns1:a [
+              href = "https://datatracker.ietf.org/doc/html/rfc3986"
+              "RFC 3986"
+            ]
+            "."
+          ]
+        ]
         "URI"
       | 
         ## A data number in the Virtual Internet Authority File assigned to link different names in catalogs around the world for the same entity.
@@ -1340,7 +1363,7 @@ tei_catRef =
   }
 tei_revisionDesc =
   
-  ## (revision description) summarizes the revision history for a file. [2.6. The Revision Description 2.1.1. The TEI Header and Its Components]
+  ## (revision description) summarizes the revision history for a file [2.6. The Revision Description 2.1.1. The TEI Header and Its Components]
   element revisionDesc {
     tei_change+, tei_att.global.attribute.xmllang, empty
   }
@@ -1419,7 +1442,7 @@ tei_div =
       | tei_u)+)
     >> sch:pattern [
          id =
-           "parlamint-div-abstractModel-structure-l-constraint-report-8"
+           "parlamint-div-abstractModel-structure-div-in-l-or-lg-constraint-report-8"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -1441,7 +1464,7 @@ tei_div =
        ]
     >> sch:pattern [
          id =
-           "parlamint-div-abstractModel-structure-p-constraint-report-9"
+           "parlamint-div-abstractModel-structure-div-in-ab-or-p-constraint-report-9"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -1848,7 +1871,7 @@ tei_orgName =
       "yes"
       | 
         ##
-        "init"
+        "abb"
     }?,
     empty
   }
@@ -1874,7 +1897,13 @@ tei_surname =
 tei_forename =
   
   ## (forename) contains a forename, given or baptismal name. [13.2.1. Personal Names]
-  element forename { text }
+  element forename {
+    tei_macro.phraseSeq,
+    tei_att.global.attributes,
+    tei_att.personal.attributes,
+    tei_att.typed.attributes,
+    empty
+  }
 tei_nameLink =
   
   ## (name link) contains a connecting phrase or link used within a name but not regarded as part of it, such as van der or of. [13.2.1. Personal Names]
@@ -1897,12 +1926,11 @@ tei_affiliation =
   
   ## (affiliation) contains an informal description of a person's present or past affiliation with some organization, for example an employer or sponsor. [15.2.2. The Participant Description]
   element affiliation {
-    text,
+    empty,
     tei_att.global.analytic.attribute.ana,
     tei_att.datable.w3c.attribute.when,
     tei_att.datable.w3c.attribute.from,
     tei_att.datable.w3c.attribute.to,
-    tei_att.canonical.attribute.key,
     tei_att.canonical.attribute.ref,
     
     ##
@@ -1918,16 +1946,7 @@ tei_affiliation =
         "vicePresident"
       | 
         ##
-        "chairman"
-      | 
-        ##
-        "viceChairman"
-      | 
-        ##
         "minister"
-      | 
-        ##
-        "MP"
       | 
         ##
         "substituteMP"
@@ -2030,9 +2049,6 @@ tei_affiliation =
       | 
         ##
         "viceDirector"
-      | 
-        ##
-        "speaker"
     },
     empty
   }
@@ -2040,7 +2056,7 @@ tei_birth =
   
   ## (birth) contains information about a person's birth, such as its date and place. [15.2.2. The Participant Description]
   element birth {
-    (tei_placeName? | text),
+    (tei_placeName?),
     
     ## supplies the value of the date or time in a standard form, e.g. yyyy-mm-dd.
     attribute when {
@@ -2059,7 +2075,7 @@ tei_death =
   
   ## (death) contains information about a person's death, such as its date and place. [15.2.2. The Participant Description]
   element death {
-    (tei_placeName? | text),
+    (tei_placeName?),
     
     ## supplies the value of the date or time in a standard form, e.g. yyyy-mm-dd.
     attribute when {
@@ -2152,7 +2168,7 @@ tei_org =
         "politicalParty"
       | 
         ##
-        "politicalGroup"
+        "parliamentaryGroup"
       | 
         ##
         "conferenceOfChairs"
@@ -2216,9 +2232,6 @@ tei_org =
       | 
         ##
         "ethnicCommunity"
-      | 
-        ##
-        "independent"
     },
     empty
   }
@@ -2329,7 +2342,7 @@ tei_sex =
   
   ## (sex) specifies the sex of a person. [13.3.2.1. Personal Characteristics]
   element sex {
-    text,
+    empty,
     
     ##
     attribute value {
@@ -2662,81 +2675,6 @@ tei_att.linguistic.attribute.join =
       ## (the token overlaps with another; other devices (specifying the extent and the area of overlap) are needed to more precisely locate this token in the character stream) 
       "overlap"
   }?
-tei_att.measurement.attributes =
-  tei_att.measurement.attribute.unit,
-  tei_att.measurement.attribute.quantity
-tei_att.measurement.attribute.unit =
-  
-  ## (unit) indicates the units used for the measurement, usually using the standard symbol for the desired units.
-  ## Suggested values include: 1] m (metre); 2] kg (kilogram); 3] s (second); 4] Hz (hertz); 5] Pa (pascal); 6] Ω (ohm); 7] L (litre); 8] t (tonne); 9] ha (hectare); 10] Å (ångström); 11] mL (millilitre); 12] cm (centimetre); 13] dB (decibel); 14] kbit (kilobit); 15] Kibit (kibibit); 16] kB (kilobyte); 17] KiB (kibibyte); 18] MB (megabyte); 19] MiB (mebibyte)
-  attribute unit {
-    
-    ## (metre) SI base unit of length
-    "m"
-    | 
-      ## (kilogram) SI base unit of mass
-      "kg"
-    | 
-      ## (second) SI base unit of time
-      "s"
-    | 
-      ## (hertz) SI unit of frequency
-      "Hz"
-    | 
-      ## (pascal) SI unit of pressure or stress
-      "Pa"
-    | 
-      ## (ohm) SI unit of electric resistance
-      "Ω"
-    | 
-      ## (litre) 1 dm³
-      "L"
-    | 
-      ## (tonne) 10³ kg
-      "t"
-    | 
-      ## (hectare) 1 hm²
-      "ha"
-    | 
-      ## (ångström) 10⁻¹⁰ m
-      "Å"
-    | 
-      ## (millilitre) 
-      "mL"
-    | 
-      ## (centimetre) 
-      "cm"
-    | 
-      ## (decibel) see remarks, below
-      "dB"
-    | 
-      ## (kilobit) 10³ or 1000 bits
-      "kbit"
-    | 
-      ## (kibibit) 2¹⁰ or 1024 bits
-      "Kibit"
-    | 
-      ## (kilobyte) 10³ or 1000 bytes
-      "kB"
-    | 
-      ## (kibibyte) 2¹⁰ or 1024 bytes
-      "KiB"
-    | 
-      ## (megabyte) 10⁶ or 1 000 000 bytes
-      "MB"
-    | 
-      ## (mebibyte) 2²⁰ or 1 048 576 bytes
-      "MiB"
-    | xsd:token { pattern = "[^\p{C}\p{Z}]+" }
-  }?
-tei_att.measurement.attribute.quantity =
-  
-  ## (quantity) specifies the number of the specified units that comprise the measurement
-  attribute quantity {
-    xsd:double
-    | xsd:token { pattern = "(\-?[\d]+/\-?[\d]+)" }
-    | xsd:decimal
-  }?
 sch:pattern [
   id =
     "parlamint-att.measurement-att-measurement-unitRef-constraint-rule-7"
@@ -2757,6 +2695,8 @@ sch:pattern [
   "\x{a}" ~
   "   "
 ]
+tei_att.naming.attributes =
+  tei_att.canonical.attributes, tei_att.naming.attribute.role
 tei_att.naming.attribute.role =
   
   ## may be used to specify further information about the entity referenced by this name in the form of a set of whitespace-separated values, for example the occupation of a person, or the status of a place.
@@ -2765,6 +2705,8 @@ tei_att.naming.attribute.role =
       xsd:token { pattern = "[^\p{C}\p{Z}]+" }+
     }
   }?
+tei_att.personal.attributes =
+  tei_att.naming.attributes, tei_att.personal.attribute.full
 tei_att.personal.attribute.full =
   
   ## indicates whether the name component is given in full, as an abbreviation or simply as an initial.
@@ -2826,8 +2768,15 @@ sch:pattern [
   "   "
 ]
 tei_include =
-  
-  ##
+  [
+    a:documentation [
+      "used to include a corpus component (a "
+      ns1:code [ "<TEI>" ]
+      " element) into the corpus root (the "
+      ns1:code [ "<teiCorpus>" ]
+      " element)."
+    ]
+  ]
   element xi:include {
     empty,
     

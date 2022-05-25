@@ -185,7 +185,7 @@ idno =
     lang.att,
     attribute type { "URI" | "VIAF" | xsd:Name },
     attribute subtype { xsd:Name }?,
-    xsd:anyURI
+    xsd:anyURI { pattern = "https?://.+" }
   }
 name-header =
   element name {

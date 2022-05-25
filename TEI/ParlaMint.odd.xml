@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="tei_odds.rng" type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns:rng="http://relaxng.org/ns/structure/1.0" 
      xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:sch="http://purl.oclc.org/dsdl/schematron" 
@@ -23,7 +25,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>CLARIN</publisher>
-        <date>2022-03-04</date>
+        <date>2022-05-23</date>
         <availability status="free">
           <p>This file is freely available and you are hereby authorised to copy, modify, and
           redistribute it in any way without further reference or permissions.</p>
@@ -45,8 +47,10 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
+      <change when="2022-05-23">Tomaž Erjavec: change affiliation/@role from MP to member.</change>
+      <change when="2022-05-18">Katja Meden: add ParlaMint examples in exemplums.</change>
+      <change when="2022-05-16">Tomaž Erjavec: add section 3.5 on referring attributes.</change>
       <change when="2022-03-04">Matyáš Kopp: finish first pass through schemaSpecs.</change>
-      <change when="2022-02-27">Tomaž Erjavec: small changes to prose.</change>
       <change when="2022-02-21">Tomaž Erjavec: better schemaSpec.</change>
       <change when="2022-02-16">Tomaž Erjavec: first draft.</change>
     </revisionDesc>
@@ -60,7 +64,7 @@
           corpora</ref></titlePart>
         </docTitle>
         <!--docEdition>v0.2</docEdition-->
-        <docDate>2022-03-04</docDate>
+        <docDate>2022-05-19</docDate>
         <!--byline>Tomaž Erjavec and Matyáš Kopp</byline-->
       </titlePage>
       <p></p>
@@ -125,7 +129,7 @@
 
           <item><ref target="#chp-general">Chapter 3</ref> explains some general requirements
           and the file-naming conventions a ParlaMint corpus has to meet; it also introduces
-          the top level elements of a corpus root and components and their attributes;</item>
+          the top level elements and their attributes and the main pointing attributes;</item>
 
           <item><ref target="#sec-metadata">Chapter 4</ref> concentrates on encoding the
           rich corpus metadata, such as information on speakers and political parties;</item>
@@ -443,6 +447,9 @@
           <p>A corpus component also has the same three required attributes, but
           additionally also the <att>ana</att> attribute:
 	  
+	  <!-- The info in @ana should actually go in the
+	       TEI/teiHeader/profileDesc/textClass - but it is probably too late to change
+	       this now -->
 	  <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-teiCorpusComp">
             <![CDATA[
             <TEI xmlns="http://www.tei-c.org/ns/1.0" 
@@ -454,26 +461,69 @@
 
 	  The same as for the corpus root, the component also sets the TEI namespace, and
 	  gives the language of its textual content, while its <att>xml:id</att>, of
-	  course, identifies the particular component. The analysis attribute,
-	  <att>ana</att> which is also used by many other elements, so we introduce it
-	  here at more length:
+	  course, identifies the particular component. The <att>ana</att> attribute is a
+	  pointing attribute, and we introduce the these attributes in the next
+	  section.</p>
+	</div>
+
+	<div xml:id="sec-pointing">
+          <head>Pointing attributes</head>
+
+	  <p>The ParlaMint encoding uses pointing attributes for a number of purposes,
+	  e.g. for references to taxonomy categories, to speaker metadata, or to
+	  linguistic categories.</p>
+
+	  <p>While a few elements have dedicated pointing attributes, there are three
+	  generally used ones. They share the characteristics that they are all used by a
+	  large number of different elements and that their value is a series of pointers,
+	  i.e.  a white-space delimited sequence of references to the values of some
+	  <att>xml:id</att> attribute in the corpus or, in general, to an URI.
+	  The three attributes are:
+
 	  <list>
-	  <!-- The info in @ana should actually go in the
-	       TEI/teiHeader/profileDesc/textClass - but it is probably too late to change
-	       this now -->
-	    <item><att>ana</att> serves to provide an analysis or, in ParlaMint, to
-	    classify an element according to some pre-determined vocabulary. It is a
-	    pointing attribute, which has as its value a white-space delimited sequence of
-	    ID references, i.e. references to the values of some <att>xml:id</att>
-	    attribute in the corpus. In general, they refer to the element IDs given in
-	    other parts of the corpus root header. In the example above, these are the
-	    categories of taxonomy elements that specify that this component contains the
-	    transcription of one sitting and belongs to the reference subcorpus; the
-	    structure and content of the taxonomies used are further explained in the
-	    Section on the <ref target="#sec-classDecl">Class declaration</ref>.</item>
+	    <item><att>ana</att> serves to provide an analysis or to classify an element
+	    according to some pre-determined vocabulary. In ParlaMint the target element will
+	    typically be a category in a taxonomy, an event or date, or an organisation.</item>
+	    <item><att>corresp</att> points to items that correspond to the current
+	    element in some way, e.g. the (URL of a) media file to a page break.
+	    </item>
+	    <item><att>ref</att> provides an explicit reference to the full definition or
+	    identity for the entity being named. In ParlaMit it is used e.g. for
+	    connecting a person's affiliation with a particular organisation. The value(s)
+	    of this attribute are often, but not always, URLs, e.g. for associating a
+	    place name with its GeoNames URL.</item>
 	  </list>
 	  </p>
+
+	  <p>To illustrate, the example below gives some elements that contain one or more of these
+	  attributes:
+	    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-pointing">
+              <meeting ana="#parla.upper #parla.term #LEG.18">18 Legislatura</meeting>
+	      <!-- ... -->
+	      <affiliation ref="#group.L-SP-PSd.Az" role="member" ana="#LEG.18" from="2018-03-27"/>
+	      <!-- ... -->
+	      <placeName ref="https://www.geonames.org/2523918">Palermo</placeName>
+	      <!-- ... -->
+              <link ana="ud-syn:det" target="#ParlaMint-IT.seg1.2.6 #ParlaMint-IT.seg1.2.5"/>
+	  </egXML>
+	  The first example, with the <gi>meeting</gi> element classifies it (the
+	  definitions are given in the relevant taxonomy) as a meeting of the upper house,
+	  in the scope of a parlimentary term, specifically in the XVIII Legislative Term.
+	  The example with <gi>affiliation</gi> (again, the definitions are given the
+	  elements with the pointed-to ID) specifies that the (person that has this)
+	  affiliation is a member of the parliamentary group <q>Lega-Salvini
+	  Premier-Partito Sardo d'Azione</q> in the scope of the XVIII Legislative
+	  Term. The <gi>placeName</gi> example gives the definition of Palermo in the
+	  GeoNames database via the used URL. Finally, the <gi>link</gi> example
+	  illustrates a Universal Dependencies determiner syntactic link between two
+	  tokens. The link uses the TEI extended pointer syntax, further explained in the
+	  Section on <ref target="#sec-ana-prefixDef">Prefix definitions</ref>.</p>
+
+	  <p>It is often difficult to decide which of the attribute to use for a
+	  particular pointer, therefore examples of usage given with the relevant element
+	  should be always consulted.</p>
 	</div>
+
       </div>
       
       <div xml:id="sec-metadata">
@@ -1152,9 +1202,12 @@
             <head>Participant description</head>
 	    
 	    <p>The participant description, <gi>particDesc</gi> gives the information about
-	    political parties and other <q>organisations</q> relevant to the corpus and the
-	    information about the speakers whose speeches constitute the corpus transcripts.
-	    This information is given in the <hi>corpus root</hi> in the dedicated types of
+	    about the speakers whose speeches constitute the corpus transcripts, as well as 
+	    information about the government, parliament, parliamentary groups of 
+	    political parties and other <q>organisations</q> relevant to the affiliations
+	    of the speaker or the corpus in general.
+	    The <gi>particDesc</gi> is a part of the TEI header of the <hi>corpus root</hi>
+	    and contains two dedicated types of
 	    lists, <gi>listOrg</gi> for organisations, and <gi>listPerson</gi> for the
 	    speakers, as show below:
 	    
@@ -1171,10 +1224,11 @@
             <div xml:id="sec-orgs">
 	      <head>Organisations</head>
 	      
-	      <p>Information on political parties, as well as other groupings of people,
-	      such as the parliament or ministries, is given in the <gi>listOrg</gi>
-	      element, which then contains <gi>org</gi> elements giving information about
-	      one organisation and followed by the <gi>listRelations</gi> element giving a
+	      <p>Information on the parliament (and possibly ministires), on parliamentary groups of
+	      political parties (and possibly political parties themselves), as well as other
+	      optional parlimanentary structures (e.g. committees) is given in the corpus <gi>listOrg</gi>
+	      element, which then contains a list of <gi>org</gi> elements, each giving information about
+	      one organisation, followed by the <gi>listRelations</gi> element giving a
 	      list of relations between organisations:
 
 	      <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-listOrg">
@@ -1188,82 +1242,89 @@
 	      </egXML>
 	      </p>
 
-	      <p>We first exemplify the structure of one organisation giving the information
-	      about a political party:
+	      <p>We first exemplify the structure of one organisation element by giving the basic
+	      information about a parliamentary group of political parties:
 	      
-	      <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-parties">
-		<org xml:id="party.PS" role="politicalParty">
-                  <orgName full="yes" xml:lang="sl">Pozitivna Slovenija</orgName>
-                  <orgName full="yes" xml:lang="en">Positive Slovenia</orgName>
-                  <orgName full="init">PS</orgName>
-                  <event from="2011-10-22">
+	      <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-parliamentaryGroup">
+		<org role="parliamentaryGroup" xml:id="group.LN-Aut">
+                  <orgName full="yes" xml:lang="it">Lega Nord e Autonomie</orgName>
+                  <orgName full="abb">LN-Aut</orgName>
+                  <event from="2013-03-15" to="2018-03-22">
                     <label xml:lang="en">existence</label>
                   </event>
-                  <idno type="URI" xml:lang="sl" subtype="wikimedia">https://sl.wikipedia.org/wiki/Pozitivna_Slovenija</idno>
-                  <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Positive_Slovenia</idno>
 		</org>
 	      </egXML>
 	      
 	      First, each organisation must have an <att>xml:id</att> attribute, so that
-	      other elements can refer to it. The fact that the organisation is a political
-	      party is encoded in the <att>role</att> attribute, and we elaborate on this
-	      below.  The name of the party is (preferably bilingually) given in the
-	      <gi>orgName</gi> element, which also uses the <att>full</att> attribute to
-	      distinguish between the <val>full</val> name of the party and the
-	      <val>init</val> for the initials of the party.
-
-	      <!-- Note that @full="init" is misused, at least according to the TEI definition:
-		   https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.personal.html
-		   Legal values are:	
-		   yes (yes) the name component is spelled out in full. [Default] 
-		   abb (abbreviated) the name component is given in an abbreviated form.
-		   init (initial letter) the name component is indicated only by one initial.
-	      -->
+	      other elements can refer to it. The fact that the organisation is a
+	      parliamentary group of political parties is encoded in the <att>role</att>
+	      attribute, and we elaborate on this below.  The name of the parliamentary
+	      group is given in the <gi>orgName</gi> element, which also uses the
+	      <att>full</att> attribute to distinguish between the <val>full</val> name of
+	      the party and the <val>abb</val> for the abbreviated name of the party
+	      group, and both forms should be present, at least for the parliamentary
+	      groups of parties.</p>
 	      
-	      Parties are also created and dissolved, and this is indicated by the
+	      <p>Parties are also created and dissolved, and this information is encoded in the
 	      <gi>event</gi> element, which has as its <gi>label</gi> <val>existence</val>,
 	      and where the start of its existence is given in the <att>from</att> attribute;
 	      as there is no <att>to</att> attribute, this also means that the party still
-	      exists. Finally, there can also be external links giving URLs to further
-	      information about the parties. In the example above, these are the Slovene and
-	      English Wikipedia pages.</p>
+	      exists.</p>
+
+	      <p>The example above gives the minimal required information about an
+	      organisation but ParlaMint also allows further data to be added, as exemplified by
+	      the following example:
+	      
+	      <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-parties">
+		<org xml:id="party.PS" role="parliamentaryGroup">
+                  <orgName full="yes" xml:lang="sl">Pozitivna Slovenija</orgName>
+                  <orgName full="yes" xml:lang="en">Positive Slovenia</orgName>
+                  <orgName full="abb">PS</orgName>
+                  <event from="2011-10-22">
+                    <label xml:lang="en">existence</label>
+                  </event>
+                  <idno type="URI" subtype="wikimedia" xml:lang="sl">https://sl.wikipedia.org/wiki/Pozitivna_Slovenija</idno>
+                  <idno type="URI" subtype="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Positive_Slovenia</idno>
+		</org>
+	      </egXML>
+	      
+	      Here the full name of the organisation is also given in English, and there two
+	      external links giving URLs to further information about the organisation. In the
+	      example above, these are the Slovene and English Wikipedia pages, as indicated
+	      by the appropriate values of the two attribtes on the <gi>idno</gi> element.</p>
 
 	      <p>Returning to the <att>role</att> attribute, it is the ParlaMint schema
 	      (cf. the Section on <ref target="#sec-validate">Validating ParlaMint
 	      corpora</ref>) that gives its set of allowed values. Currently, the list is
-	      quite long, as we left it up to the partners of ParlaMint 1 to determine the
+	      quite long, as we left it up to the partners of ParlaMint I to determine the
 	      values, but the main ones are:
 	      <list>
 		<item><val>government</val>: the government of the country or region,
 		further exemplified below</item>
-		<item><val>parliament</val>: the parliament of the country or region,
-		further exemplified below</item>
-		<item><val>politicalParty</val>: a political party</item>
-		<!-- The following could surely be better formulated, cf. 
-		     https://github.com/clarin-eric/ParlaMint/issues/155 -->
-		<item><val>politicalGroup</val>: a grouping of political parties for the
+		<item><val>parliament</val>: the parliament, upper or lower house of the
+		country or region, further exemplified below</item>
+		<item><val>parliamentaryGroup</val>: a grouping of political parties for the
 		purpose of acting as one in the government.</item>
 	      </list>
 	      </p>
 	      
-	      <p>The government organisation is required to be present in the
-	      <gi>listOrg</gi> of every corpus root and is, by convention, the first
-	      organisation in the list. It gives the ID and name of the country or region
-	      government, and can also introduce the list of specific governments using the
-	      dedicated list element for events, <gi>listEvent</gi>, which then gives the
-	      these governments as a series of <gi>event</gi> elements:
-	      
-	      <!-- FR misuses role="government" to specify ministers! Post issue! -->
+	      <p>The <hi>government organisation</hi>, distinguished by the role
+	      <q>government</q>, is required to be present in the <gi>listOrg</gi> of every
+	      corpus root and is, by convention, the first organisation in the list. It gives
+	      the ID and name of the country or region government, and also contains the list
+	      of specific governments by using the dedicated list element for events,
+	      <gi>listEvent</gi>, which then gives the these governments as a series of
+	      <gi>event</gi> elements:
 	      
 	      <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-government">
-		<org xml:id="GOV" role="government">
+		<org xml:id="ParlaMint-SI-GOV" role="government">
                   <orgName xml:lang="sl" full="yes">Vlada Republike Slovenije</orgName>
                   <orgName xml:lang="en" full="yes">Government of the Republic of Slovenia</orgName>
                   <event from="1990-05-16">
                     <label xml:lang="en">existence</label>
                   </event>
-                  <idno type="URI" xml:lang="sl" subtype="wikimedia">https://sl.wikipedia.org/wiki/Vlada_Republike_Slovenije</idno>
-                  <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Government_of_Slovenia</idno>
+                  <idno type="URI" subtype="wikimedia" xml:lang="sl">https://sl.wikipedia.org/wiki/Vlada_Republike_Slovenije</idno>
+                  <idno type="URI" subtype="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Government_of_Slovenia</idno>
                   <listEvent>
                     <event xml:id="GOV.11" from="2013-03-20" to="2014-09-18">
                       <label xml:lang="sl">11. vlada Republike Slovenije (20. marec 2013 - 18. september 2014)</label>
@@ -1279,12 +1340,32 @@
 	      </egXML>
 	      </p>
 	      
-	      <p>The parliament organisation is also required to be present in the
-	      <gi>listOrg</gi> of every corpus root and is, by convention, the second
-	      organisation in the list. The structure is identical to the one for the
-	      government, i.e. it gives the ID and name of the parliament, but can, just as
-	      the government, also introduce the successive parliaments, using the
-	      <gi>event</gi> element:
+	      <p>The parliament organisations, distinguished by the role <q>parliament</q>,
+	      are also required to be present in the <gi>listOrg</gi> of every corpus root and
+	      are, by convention, the second and third organisation in the list. There will be
+	      two parliament organisations for bicameral chambers, at least in cases where the
+	      corpus contains the transcripts of both the upper and the lower house. For
+	      unicameral ones, or if the transcripts contains only the lower house, there will
+	      be only one parliament organisation. Which of the three options the organisation
+	      encoded is determined by the value of the <att>ana</att> attribute, which refers
+	      to the appropriate ID of the category in the legislature taxonomy (cf. the
+	      Section on <ref target="#sec-classDecl">Class declaration</ref>). The
+	      <att>ana</att> attribute should also specify whether the parliament is national
+	      or regional, with the categories also specified in the legislature taxonomy. In
+	      short, the theoretically possible values of <att>ana</att> for the parliament
+	      organisations are:
+	      <list>
+		<item><code>#parla.federal #parla.uni</code>: federal parliament, unicameral system</item>
+		<item><code>#parla.federal #parla.lower</code>: federal parliament, lower house</item>
+		<item><code>#parla.federal #parla.upper</code>: federal parliament, upper house</item>
+		<item><code>#parla.regional #parla.uni</code>: regional parliament, unicameral system</item>
+		<item><code>#parla.regional #parla.lower</code>: regional parliament, lower house</item>
+		<item><code>#parla.regional #parla.upper</code>: regional parliament, upper house</item>
+	      </list>
+
+	      Otherwise, the structure of the parliament organisations is identical to the one
+	      for the government, i.e. it gives the ID and name of the parliament and encodes
+	      the successive parliaments, using the <gi>event</gi> element:
 	      
 	      <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-parliament">
 		<org ana="#parla.federal #parla.lower"
@@ -1295,8 +1376,6 @@
                   <event from="1831-02-07">
                     <label xml:lang="en">existence</label>
                   </event>
-                  <idno xml:lang="nl" type="wikimedia">https://nl.wikipedia.org/wiki/Federaal_Parlement_van_Belgi%C3%AB</idno>
-                  <idno xml:lang="en" type="wikimedia">https://en.wikipedia.org/wiki/Belgian_Federal_Parliament</idno>
                   <listEvent>
                     <head xml:lang="nl">Zittingsperiode</head>
                     <head xml:lang="en">Legislative period</head>
@@ -1315,10 +1394,10 @@
 	      </p>
 
 	      <p>As mentioned, the relations between various organisations, in particular,
-	      which political parties or groups are in the coalition or in opposition and
-	      when, are encoded in the final element of <gi>listOrg</gi>, namely
-	      <gi>listRelation</gi>, which then contains <gi>relation</gi> elements, as shown
-	      in the example below:
+	      which parliamentary groups of political parties are in the <hi>coalition</hi> or in
+	      <hi>opposition</hi> and when, are encoded in the final element of <gi>listOrg</gi>,
+	      namely <gi>listRelation</gi>, which then contains <gi>relation</gi> elements, as
+	      shown in the example below:
 	      
 	      <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-relations">
 		<listRelation>
@@ -1365,7 +1444,7 @@
 		      <surname>Accetto</surname>
 		      <forename>Matej</forename>
                     </persName>
-                    <sex value="M">moški</sex>
+                    <sex value="M"/>
 		  </person>
 		  ...
 		</listPerson>
@@ -1381,9 +1460,15 @@
 	      <val>U</val> for unknown.</p>
 
 	      <p>Apart from the obligatory metadata on the speakers above, the speakers who
-	      are MPs or members of political parties (or groups) should also have this
-	      information recorded in their <gi>affiliation</gi> elements, as shown in the
-	      following example:
+	      are members of the government, parliament, parliamentary groups of political
+	      parties<note>Note that parliaments also have independent (or unaffiliated) MPs,
+	      that can either belong to a special <q>unaffiliated</q> parliamentary group or
+	      don't belong to any parliamentary group. For the former, they are simply not
+	      affiliated to any parliamentary group. For the latter, an <q>unaffiliated</q>
+	      parlimentaryGroup organisation must be created, and such MPs are affiliated with
+	      it as members.</note> (or political parties themselves) should have this
+	      information recorded in their <gi>affiliation</gi> elements with the
+	      <q>member</q> role, as shown in the following example:
 	      
 	      <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-affiliation">
 		<person xml:id="BahŽibertAnja">
@@ -1393,42 +1478,39 @@
                     <surname>Bah</surname>
                     <surname>Žibert</surname>
                   </persName>
-                  <sex value="F">ženski</sex>
-                  <affiliation role="MP"
-			       ref="#DZ"
-			       from="2014-08-01"
-			       to="2018-06-21"
-			       ana="#DZ.7"/>
-                  <affiliation role="member"
-			       ref="#party.SDS.2"
-			       from="2014-08-01"
-			       to="2018-06-21"
-			       ana="#DZ.7"/>
-                  <affiliation role="MP" ref="#DZ" from="2018-06-22" ana="#DZ.8"/>
+                  <sex value="F"/>
+                  <affiliation role="member" ref="#lowerHouse" from="2014-08-01" to="2018-06-21" ana="#DZ.7"/>
+                  <affiliation role="member" ref="#lowerHouse" from="2018-06-22" ana="#DZ.8"/>
+                  <affiliation role="member" ref="#party.SDS.2" from="2014-08-01" to="2018-06-21" ana="#DZ.7"/>
                   <affiliation role="member" ref="#party.SDS.2" from="2018-06-22" ana="#DZ.8"/>
 		</person>
 	      </egXML>
 	      
 	      The type of affiliation is given in the <att>role</att> attribute of
 	      <gi>affiliation</gi>, which has controlled values given by the ParlaMint
-	      schema. Apart from <val>MP</val> for members of parliament and
-	      <val>member</val> for membership in e.g. political parties or groups (but
-	      possibly also commissions etc.) the other legal values are currently
-	      <val>substituteMP</val>, <val>president</val>, <val>vicePresident</val>,
-	      <val>chairman</val>, <val>viceChairman</val>, and <val>minister</val>.</p>
+	      schema. The main one is <val>member</val> for members of parliament (MPs) and
+	      for membership in political parties or groups, and possibly commissions etc.
+	      The second important value is that of <val>president</val> (and <val>vicePresident</val>),
+	      which is used not only for presidents (and vice presidents), but also for all other
+	      lead persons in a ParlaMint organisation, such as prime minister, chairman, or speaker.
+	      Finally, the role <val>minister</val> designates a minister in a government.</p>
 
 	      <p>The <att>ref</att> attribute points to the organisation in which the person
-	      has a role. For the MP affiliation this will always be the ID of the parliament
+	      has the specified role. For MPs this will always be the ID of the parliament
 	      or, for bicameral parliaments, one of the houses. For membership in a party
-	      this is, of course, the ID of the party organisation.  The affiliation element
-	      also has the usual <att>from</att> and <att>to</att> attributes. Finally, it
-	      can also have the <att>ana</att> attribute, which points to the appropriate
+	      or, more commonly, a parliamentary group of parties, this is, of course, the ID of the
+	      party or parliamentary group organisation.</p>
+
+	      <p>The affiliation element
+	      also has the usual <att>from</att> and <att>to</att> attributes. Affiliation 
+	      can also have the classification <att>ana</att> attribute, which, in this case,
+	      points to the appropriate
 	      legislative period when the person was affiliated with the specified
 	      organisation.</p>
 
 	      <p>Finally, the person element can also contain other optional information,
-	      such as the date and place of <gi>birth</gi> (and <gi>death</gi>), their
-	      official Web page, and a picture of the speaker, as illustrated below:
+	      such as the date and place of <gi>birth</gi> (and <gi>death</gi>), the
+	      official Web page of the person, their VIAF, photo etc., as illustrated below:
 
 	      <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-personextra">
 		<person xml:id="SayeedaWarsi">
@@ -1436,14 +1518,13 @@
                     <forename>Sayeeda</forename>
                     <surname>Warsi</surname>
                   </persName>
-                  <sex value="F">Female</sex>
+                  <sex value="F"/>
                   <birth when="1971-03-28">
                     <placeName ref="https://www.geonames.org/2651286/">Dewsbury</placeName>
                   </birth>
-                  <affiliation from="2007-10-11" ref="#parla.lower" role="MP"/>
+                  <affiliation from="2007-10-11" ref="#parla.lower" role="member"/>
                   <affiliation from="2007-10-11" ref="#party.CON" role="member"/>
                   <affiliation from="2010-05-12" ref="#PoGB" role="minister" to="2012-09-06"/>
-                  <affiliation from="2012-09-06" ref="#PoGB" role="minister" to="2014-08-05"/>
                   <idno type="URI" subtype="contact">https://members.parliament.uk/member/3839/contact</idno>
 		  <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Sayeeda_Warsi,_Baroness_Warsi</idno>
 		  <idno type="URI" subtype="viaf">http://viaf.org/viaf/33149912470406211798</idno>

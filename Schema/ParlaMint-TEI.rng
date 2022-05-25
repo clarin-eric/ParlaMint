@@ -360,7 +360,9 @@
 	  <data type="Name"/>
 	</attribute>
       </optional>
-      <data type="anyURI"/>
+      <data type="anyURI">
+	<param name="pattern">https?://.+</param>
+      </data>
     </element>
   </define>
   
