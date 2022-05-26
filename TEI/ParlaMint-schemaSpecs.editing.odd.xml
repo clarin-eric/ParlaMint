@@ -187,65 +187,13 @@
       </attDef>
     </attList>
     <exemplum xml:lang="en">
-      <p>Example of basic <gi>TEI</gi> element structure:
-      </p>
+      <p>Example of ParlaMint corpus component:</p>
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-        <TEI version="3.3.0">
-          <teiHeader>
-            <fileDesc>
-              <titleStmt>
-                <title>The shortest TEI Document Imaginable</title>
-              </titleStmt>
-              <publicationStmt>
-                <p>First published as part of TEI P2, this is the P5
-		version using a name space.</p>
-              </publicationStmt>
-              <sourceDesc>
-                <p>No source: this is an original work.</p>
-              </sourceDesc>
-            </fileDesc>
-          </teiHeader>
-          <text>
-            <body>
-              <p>This is about the shortest TEI document imaginable.</p>
-            </body>
-          </text>
-        </TEI>
-      </egXML>
-    </exemplum>
-    <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-        <TEI xml:id="ParlaMint-GB_2017-01-24-lords.ana"
-	     xml:lang="en"
-	     ana="#parla.sitting #reference">
-	  <teiHeader>
-	    <fileDesc>
-	      <titleStmt>
-		<title type="main">Great Britain parliamentary corpus ParlaMint-GB, Lords, 2017-01-24</title>
-		<title type="sub">Minutes of the House of Lords, Daily Session 2017-01-24</title>
-	      </titleStmt>
-	      <publicationStmt>
-		<publisher>
-		  <orgName>CLARIN research infrastructure</orgName>
-		  <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
-		</publisher>
-	      </publicationStmt>
-	      <sourceDesc>
-		<bibl>
-		  <title>UK Parliamentary Corpus. Volume 778. Tuesday 24th January 2017.</title>
-		  <idno type="URI">https://hansard-api.parliament.uk/debates/debate/274aedf2-bd98-4197-b93a-7fe487c6e079.xml</idno>
-		  <date when="2017-01-24"/>
-		</bibl>
-	      </sourceDesc>
-	    </fileDesc>
-	  </teiHeader>
+	<TEI xml:id="ParlaMint-GB_2015-01-06-commons" xml:lang="en" ana="#parla.sitting #reference">
+	  <teiHeader>...</teiHeader>
 	  <text ana="#reference">
-	    <body>
-	      <div type="debateSection">...</div>
-	      <div type="debateSection">...</div>
-	      ...
-	    </body>
-	  </text>
+            <body>...</body>
+          </text>
         </TEI>
       </egXML>
     </exemplum>
@@ -285,23 +233,8 @@
     <exemplum xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
 	<body>
-	  <div type="debateSection">
-	    <pb n="1"/>
-	    <head>Child Poverty Unit</head>
-	    <note>Question</note>
-	    <note>Asked by</note>
-	    <u>...</u>
-	    ...
-	    <pb n="2"/>
-	    ...
-	  </div>
-	  <div type="debateSection">
-	    <head>Trade Union Act 2016 (Political Funds)</head>
-	    <note>Motion to Approve</note>
-	    <note>Moved by</note>
-	    <u>...</u>
-	    ...
-	  </div>
+	  <div type="debateSection">...</div>
+	  <div type="debateSection">...</div>
 	  ...
 	</body>
       </egXML>
@@ -340,13 +273,13 @@
     </attList>
     <exemplum xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-	<text ana="#reference">
-	  <body>
-	    <div type="debateSection">...</div>
-	    <div type="debateSection">...</div>
-	    ...
-	  </body>
-	</text>
+	<div type="debateSection">
+          <head>Devolution of Power (Cities)</head>
+          <u xml:id="ParlaMint-GB_2015-01-06-commons.u1">...</u>
+          <u xml:id="ParlaMint-GB_2015-01-06-commons.u2">...</u>
+	  ...
+	  <note>House adjourned.</note>
+	</div>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -402,7 +335,9 @@
       <pm:attPreserve ident="subtype"/>
     </attList>
     <exemplum xml:lang="en">
-      <p><gi>note</gi> element can be used to encode transcriber comments such as who spoke, what the time was, interruptions, notes on what is happening in the chamber, results of voting...:
+      <p><gi>note</gi> element is used to encode transcriber comments such as who spoke, what
+      the time was, interruptions, notes on what is happening in the chamber, results of
+      voting etc.:
       </p>
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
 	<note type="speaker">The president, Dr. Milan Brglez:</note>
@@ -415,22 +350,14 @@
 	...
       </egXML>
     </exemplum>
-        <exemplum xml:lang="en">
-      <p>The <gi>note</gi> element may also be used to mark additional information on debate sections:
-      </p>
+    <exemplum xml:lang="en">
+      <p>The <gi>note</gi> element may also be used to mark additional information on debate sections:</p>
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
 	<div type="debateSection">
           <head>Business Before Questions</head>
           <note>Death of a Member</note>
-	  <u xml:id="ParlaMint-GB_2019-02-18-commons.u1"
-             ana="#chair"
-             who="#JohnBercow">
-            <seg xml:id="ParlaMint-GB_2019-02-18-commons.seg1">
-              <s xml:id="ParlaMint-GB_2019-02-18-commons.seg1.1">
-		...
-	      </s>
-	    </seg>
-	  </u>
+	  <u xml:id="ParlaMint-GB_2019-02-18-commons.u1">...</u>
+	  ...
 	  <note>End of debateSection.</note>
 	</div>
       </egXML>
@@ -466,29 +393,8 @@
     </attList>
     <exemplum xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-        <vocal dur="PT12S">
-          <desc>whistles</desc>
-        </vocal>
-      </egXML>
-    </exemplum>
-    <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-        <vocal iterated="true">
-          <desc>whistles intermittently</desc>
-        </vocal>
-      </egXML>
-    </exemplum>
-    <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
         <vocal type="interruption">
-          <desc>noise from the hall</desc>
-        </vocal>
-      </egXML>
-    </exemplum>
-    <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-        <vocal type="speaking">
-          <desc>Agreement</desc>
+	  <desc>Interruption from the chair: Your time is up.</desc>
         </vocal>
       </egXML>
     </exemplum>
@@ -520,13 +426,6 @@
       <pm:attPreserve ident="who"/>
       <pm:attPreserve ident="subtype"/>
     </attList>
-    <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-        <kinesic dur="PT1.5S" iterated="true" type="reinforcing">
-          <desc>nodding head vigorously</desc>
-        </kinesic>
-      </egXML>
-    </exemplum>
     <exemplum xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
         <kinesic type="signal">
