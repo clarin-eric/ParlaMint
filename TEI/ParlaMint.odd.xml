@@ -25,7 +25,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>CLARIN</publisher>
-        <date>2022-05-24</date>
+        <date>2022-05-26</date>
         <availability status="free">
           <p>This file is freely available and you are hereby authorised to copy, modify, and
           redistribute it in any way without further reference or permissions.</p>
@@ -47,7 +47,7 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
-      <change when="2022-05-24">Tomaž Erjavec: many small changes.</change>
+      <change when="2022-05-26">Tomaž Erjavec: many changes to (explanation of) structure.</change>
       <change when="2022-05-18">Katja Meden: add ParlaMint examples in exemplums.</change>
       <change when="2022-05-16">Tomaž Erjavec: add section 3.5 on referring attributes.</change>
       <change when="2022-03-04">Matyáš Kopp: finish first pass through schemaSpecs.</change>
@@ -64,7 +64,7 @@
           corpora</ref></titlePart>
         </docTitle>
         <!--docEdition>v0.2</docEdition-->
-        <docDate>2022-05-24</docDate>
+        <docDate>2022-05-26</docDate>
         <!--byline>Tomaž Erjavec and Matyáš Kopp</byline-->
       </titlePage>
       <p></p>
@@ -1563,13 +1563,15 @@
 		  <item><val>member</val> specifies that a person is a member of the
 		  organisation.</item>
 		  
-		  <item><val>president</val> is used for the lead person in an
+		  <item><val>head</val> is used for the lead person in an
 		  organisaion, regardless of how this role is named in the specific
 		  country and for the specific organisation, i.e. it is used for the
-		  president, prime minister, chairman, speaker, etc.</item>
+		  president, prime minister, chairperson, speaker, etc.</item>
 		  
-		  <item><val>vicePresident</val> is the vice or deputy head of the
-		  organisation.</item>
+		  <item><val>deputyHead</val> is the deputy head of
+		  the organisation, again, regardless of how this role is named in the specific
+		  country and for the specific organisation, i.e. it is used for the
+		  vice president, deputy chairperson, etc.</item>
 
 		  <item><val>minister</val> is used to indicate that the person is the
 		  minister in the government and - if this information is included in the

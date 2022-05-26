@@ -426,12 +426,8 @@
       <attribute name="role">
 	<choice>
 	  <value>member</value>
-	  <value>president</value>
-	  <value>vicePresident</value>
-	  <!-- Change to "president" -->
-	  <!--value>chairman</value-->
-	  <!-- Change to "vicePresident" -->
-	  <!--value>viceChairman</value-->
+	  <value>head</value>
+	  <value>deputyHead</value>
 	  <value>minister</value>
 	  <value>substituteMP</value>
 	  
@@ -456,8 +452,6 @@
 	  <a:documentation>The following used only by BG:</a:documentation>
 	  <value>academician</value>
 	  <value>candidateChairman</value>
-	  <!-- Should be changed to "president" -->
-	  <!--value>chairperson</value-->
 	  <value>chiefInspector</value>
 	  <value>commander</value>
 	  <value>constitutionalJudge</value>
@@ -475,10 +469,6 @@
 	  <value>secretaryGeneral</value>
 	  <value>viceChairman</value>
 	  <value>viceDirector</value>
-	  
-	  <a:documentation>The following used only by GB:</a:documentation>
-	  <!-- Change to "president" -->
-          <!--value>speaker</value-->
 	</choice>
       </attribute>
       <zeroOrMore>
