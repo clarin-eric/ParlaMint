@@ -25011,8 +25011,748 @@ rm -rf Data-v2tov3-20220524/fix-v2tov3/ParlaMint-LV
 ./Scripts/fixings/v2tov3/v2tov3.pl 'Data-data-v2tov3-fixings/ParlaMint-LV/**.xml' Data-v2tov3-20220524/fix-v2tov3
 INFO: Converting ParlaMint-LV.ana.xml
 $ awk '{gsub(/(<[a-zA-Z:]+)/,"& LINE=\"" NR "\"",$0);print}' /home/matyas/Documents/UFAL/REP/ParlaMint-clarin-eric/Data-data-v2tov3-fixings/ParlaMint-LV/ParlaMint-LV.ana.xml | java -jar /usr/share/java/saxon.jar -l  -xsl:/home/matyas/Documents/UFAL/REP/ParlaMint-clarin-eric/Scripts/fixings/v2tov3/v2tov3.xsl -s:-  > /home/matyas/Documents/UFAL/REP/ParlaMint-clarin-eric/Data-v2tov3-20220524/fix-v2tov3/ParlaMint-LV/ParlaMint-LV.ana.xml
+INFO[??] ParlaMint-LV.ana:602 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.SASKAŅA" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV.ana:602 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:621 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-06" ref="#group.JK" role="MP" to="2021-01-28" /]
+ERROR[??] ParlaMint-LV.ana:621 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:633 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-27" ref="#group.VIENOTĪBA" role="MP" to="2018-09-27" /]
+INFO[??] ParlaMint-LV.ana:633 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:648 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.SASKAŅA" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV.ana:648 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:663 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-13" ref="#group.VIENOTĪBA" role="MP" to="2016-02-11" /]
+INFO[??] ParlaMint-LV.ana:663 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:675 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-13" ref="#group.AP" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV.ana:675 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:684 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-01-22" ref="#group.NA" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV.ana:684 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:696 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-27" ref="#group.VIENOTĪBA" role="MP" to="2017-07-21" /]
+INFO[??] ParlaMint-LV.ana:696 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:708 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-22" ref="#group.AP" role="MP" to="2020-05-14" /]
+INFO[??] ParlaMint-LV.ana:708 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:720 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.ZZS" role="MP" to="2017-02-16" /]
+INFO[??] ParlaMint-LV.ana:720 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:732 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-06" ref="#group.SASKAŅA" role="MP" to="2020-09-17" /]
+INFO[??] ParlaMint-LV.ana:732 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:740 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2020-11-27" ref="#group.SASKAŅA" role="MP" to="2020-11-27" /]
+INFO[??] ParlaMint-LV.ana:740 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:755 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.SASKAŅA" role="MP" to="2020-09-24" /]
+ERROR[??] ParlaMint-LV.ana:755 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:770 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-12-18" ref="#group.SASKAŅA" role="MP" to="2017-03-02" /]
+INFO[??] ParlaMint-LV.ana:770 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:785 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-01-29" ref="#group.ZZS" role="MP" to="2018-09-20" /]
+INFO[??] ParlaMint-LV.ana:785 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:811 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.SASKAŅA" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV.ana:811 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:826 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-27" ref="#group.VIENOTĪBA" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV.ana:826 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:841 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-04-30" ref="#group.ZZS" role="MP" to="2018-10-11" /]
+INFO[??] ParlaMint-LV.ana:841 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:853 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-04" ref="#group.VIENOTĪBA" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV.ana:853 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:858 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-29" ref="#group.JV" role="MP" to="2020-12-21" /]
+INFO[??] ParlaMint-LV.ana:858 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:867 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-20" ref="#group.NA" role="MP" to="2020-12-03" /]
+ERROR[??] ParlaMint-LV.ana:867 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:886 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-02-19" ref="#group.ZZS" role="MP" to="2018-04-12" /]
+INFO[??] ParlaMint-LV.ana:886 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:905 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-27" ref="#group.VIENOTĪBA" role="MP" to="2017-11-23" /]
+INFO[??] ParlaMint-LV.ana:905 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:920 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2016-01-14" ref="#group.ZZS" role="MP" to="2018-04-12" /]
+INFO[??] ParlaMint-LV.ana:920 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:939 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-02-19" ref="#group.SASKAŅA" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV.ana:939 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:954 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-09-20" ref="#group.ZZS" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV.ana:954 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:963 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-13" ref="#group.JK" role="MP" to="2020-03-06" /]
+INFO[??] ParlaMint-LV.ana:963 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:975 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2016-02-25" ref="#group.SASKAŅA" role="MP" to="2017-01-26" /]
+INFO[??] ParlaMint-LV.ana:975 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:987 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-04-23" ref="#group.NA" role="MP" to="2019-01-31" /]
+ERROR[??] ParlaMint-LV.ana:987 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:996 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-02-14" ref="#group.AP" role="MP" to="2020-11-05" /]
+INFO[??] ParlaMint-LV.ana:996 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:1005 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2021-01-14" ref="#group.JK" role="MP" to="2021-01-28" /]
+ERROR[??] ParlaMint-LV.ana:1005 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:1024 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-27" ref="#group.SASKAŅA" role="MP" to="2021-01-21" /]
+ERROR[??] ParlaMint-LV.ana:1024 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:1039 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-01-24" ref="#group.ZZS" role="MP" to="2021-01-14" /]
+ERROR[??] ParlaMint-LV.ana:1039 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:1048 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-06" ref="#group.JK" role="MP" to="2018-12-06" /]
+INFO[??] ParlaMint-LV.ana:1048 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:1060 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-29" ref="#group.KPV-LV" role="MP" to="2020-10-16" /]
+INFO[??] ParlaMint-LV.ana:1060 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:1072 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-01-15" ref="#group.VIENOTĪBA" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV.ana:1072 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:1087 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-12-17" ref="#group.ZZS" role="MP" to="2018-10-04" /]
+INFO[??] ParlaMint-LV.ana:1087 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:1099 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-13" ref="#group.ZZS" role="MP" to="2021-01-21" /]
+ERROR[??] ParlaMint-LV.ana:1099 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:1118 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-05-28" ref="#group.ZZS" role="MP" to="2018-10-25" /]
+INFO[??] ParlaMint-LV.ana:1118 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:1130 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-03-08" ref="#group.VIENOTĪBA" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV.ana:1130 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:1145 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-13" ref="#group.VIENOTĪBA" role="MP" to="2018-10-25" /]
+INFO[??] ParlaMint-LV.ana:1145 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:1150 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-22" ref="#group.JV" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV.ana:1150 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:1169 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-20" ref="#group.KPV-LV" role="MP" to="2021-01-21" /]
+ERROR[??] ParlaMint-LV.ana:1169 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:1188 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-01-23" ref="#group.SASKAŅA" role="MP" to="2020-09-24" /]
+INFO[??] ParlaMint-LV.ana:1188 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:1217 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-20" ref="#group.SASKAŅA" role="MP" to="2021-01-21" /]
+ERROR[??] ParlaMint-LV.ana:1217 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:1232 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.SASKAŅA" role="MP" to="2021-01-21" /]
+ERROR[??] ParlaMint-LV.ana:1232 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:1247 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-27" ref="#group.VIENOTĪBA" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV.ana:1247 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:1262 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-12-18" ref="#group.ZZS" role="MP" to="2016-01-21" /]
+INFO[??] ParlaMint-LV.ana:1262 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:1274 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2016-06-16" ref="#group.SASKAŅA" role="MP" to="2018-10-25" /]
+INFO[??] ParlaMint-LV.ana:1274 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:1303 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-27" ref="#group.VIENOTĪBA" role="MP" to="2018-10-11" /]
+INFO[??] ParlaMint-LV.ana:1303 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:1318 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-13" ref="#group.VIENOTĪBA" role="MP" to="2015-03-26" /]
+INFO[??] ParlaMint-LV.ana:1318 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:1326 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-29" ref="#group.SASKAŅA" role="MP" to="2020-09-17" /]
+INFO[??] ParlaMint-LV.ana:1326 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:1359 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-12-11" ref="#group.NA" role="MP" to="2014-12-11" /]
+INFO[??] ParlaMint-LV.ana:1359 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:1378 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-05-02" ref="#group.KPV-LV" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV.ana:1378 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:1387 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-22" ref="#group.AP" role="MP" to="2020-12-21" /]
+INFO[??] ParlaMint-LV.ana:1387 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:1399 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-02-19" ref="#group.SASKAŅA" role="MP" to="2020-10-28" /]
+ERROR[??] ParlaMint-LV.ana:1399 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:1414 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-06" ref="#group.KPV-LV" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV.ana:1414 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:1426 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-27" ref="#group.SASKAŅA" role="MP" to="2020-10-28" /]
+ERROR[??] ParlaMint-LV.ana:1426 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:1441 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-27" ref="#group.ZZS" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV.ana:1441 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:1453 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.VIENOTĪBA" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV.ana:1453 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:1458 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-06" ref="#group.JV" role="MP" to="2020-12-17" /]
+INFO[??] ParlaMint-LV.ana:1458 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:1470 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-11-03" ref="#group.SASKAŅA" role="MP" to="2018-09-06" /]
+INFO[??] ParlaMint-LV.ana:1470 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:1482 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-29" ref="#group.JK" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV.ana:1482 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:1498 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-29" ref="#group.JK" role="MP" to="2021-01-28" /]
+ERROR[??] ParlaMint-LV.ana:1498 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:1507 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-20" ref="#group.AP" role="MP" to="2020-12-17" /]
+INFO[??] ParlaMint-LV.ana:1507 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:1526 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-01-31" ref="#group.KPV-LV" role="MP" to="2021-01-28" /]
+ERROR[??] ParlaMint-LV.ana:1526 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:1538 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2016-09-08" ref="#group.ZZS" role="MP" to="2018-06-21" /]
+INFO[??] ParlaMint-LV.ana:1538 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:1550 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-01-31" ref="#group.KPV-LV" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV.ana:1550 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:1559 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-06" ref="#group.JK" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV.ana:1559 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:1571 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-13" ref="#group.KPV-LV" role="MP" to="2020-03-20" /]
+INFO[??] ParlaMint-LV.ana:1571 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:1587 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2020-07-09" ref="#group.JK" role="MP" to="2020-12-17" /]
+INFO[??] ParlaMint-LV.ana:1587 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:1599 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-06" ref="#group.KPV-LV" role="MP" to="2019-06-06" /]
+INFO[??] ParlaMint-LV.ana:1599 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:1625 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-12-17" ref="#group.ZZS" role="MP" to="2018-10-11" /]
+INFO[??] ParlaMint-LV.ana:1625 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:1634 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-03-07" ref="#group.AP" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV.ana:1634 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:1643 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-29" ref="#group.AP" role="MP" to="2021-01-07" /]
+ERROR[??] ParlaMint-LV.ana:1643 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:1669 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-11-30" ref="#group.VIENOTĪBA" role="MP" to="2018-01-11" /]
+INFO[??] ParlaMint-LV.ana:1669 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:1677 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-29" ref="#group.ZZS" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV.ana:1677 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:1693 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-13" ref="#group.AP" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV.ana:1693 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:1712 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-13" ref="#group.VIENOTĪBA" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV.ana:1712 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:1727 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-20" ref="#group.KPV-LV" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV.ana:1727 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:1739 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.SASKAŅA" role="MP" to="2019-12-18" /]
+ERROR[??] ParlaMint-LV.ana:1739 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:1754 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.SASKAŅA" role="MP" to="2021-01-28" /]
+ERROR[??] ParlaMint-LV.ana:1754 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:1766 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-27" ref="#group.NA" role="MP" to="2018-06-20" /]
+INFO[??] ParlaMint-LV.ana:1766 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:1778 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-12-17" ref="#group.SASKAŅA" role="MP" to="2018-10-04" /]
+INFO[??] ParlaMint-LV.ana:1778 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:1800 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-06" ref="#group.KPV-LV" role="MP" to="2019-01-31" /]
+INFO[??] ParlaMint-LV.ana:1800 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:1809 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-12-11" ref="#group.NA" role="MP" to="2015-02-19" /]
+INFO[??] ParlaMint-LV.ana:1809 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:1835 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-13" ref="#group.KPV-LV" role="MP" to="2019-12-19" /]
+INFO[??] ParlaMint-LV.ana:1835 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:1844 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-12-11" ref="#group.NA" role="MP" to="2021-01-21" /]
+ERROR[??] ParlaMint-LV.ana:1844 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:1856 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.SASKAŅA" role="MP" to="2019-12-18" /]
+ERROR[??] ParlaMint-LV.ana:1856 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:1871 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-12-11" ref="#group.VIENOTĪBA" role="MP" to="2018-10-25" /]
+INFO[??] ParlaMint-LV.ana:1871 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:1893 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-12-10" ref="#group.SASKAŅA" role="MP" to="2018-09-27" /]
+INFO[??] ParlaMint-LV.ana:1893 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:1905 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-12-04" ref="#group.NA" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV.ana:1905 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:1917 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-01-22" ref="#group.ZZS" role="MP" to="2018-10-25" /]
+INFO[??] ParlaMint-LV.ana:1917 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:1929 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-12-04" ref="#group.ZZS" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV.ana:1929 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:1938 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-03-07" ref="#group.JK" role="MP" to="2021-01-21" /]
+ERROR[??] ParlaMint-LV.ana:1938 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:1947 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.NA" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV.ana:1947 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:1959 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.SASKAŅA" role="MP" to="2017-04-20" /]
+INFO[??] ParlaMint-LV.ana:1959 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:1974 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.VIENOTĪBA" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV.ana:1974 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:1989 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-13" ref="#group.VIENOTĪBA" role="MP" to="2017-07-28" /]
+INFO[??] ParlaMint-LV.ana:1989 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:2001 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-13" ref="#group.JK" role="MP" to="2018-12-20" /]
+INFO[??] ParlaMint-LV.ana:2001 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:2013 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-20" ref="#group.VIENOTĪBA" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV.ana:2013 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:2018 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-06" ref="#group.JV" role="MP" to="2021-01-28" /]
+ERROR[??] ParlaMint-LV.ana:2018 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:2030 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-11-19" ref="#group.SASKAŅA" role="MP" to="2019-04-03" /]
+ERROR[??] ParlaMint-LV.ana:2030 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:2052 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2017-07-28" ref="#group.SASKAŅA" role="MP" to="2018-06-21" /]
+INFO[??] ParlaMint-LV.ana:2052 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:2064 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-13" ref="#group.NA" role="MP" to="2017-06-08" /]
+INFO[??] ParlaMint-LV.ana:2064 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:2076 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2021-01-07" ref="#group.ZZS" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV.ana:2076 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:2088 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-02-07" ref="#group.KPV-LV" role="MP" to="2019-12-19" /]
+INFO[??] ParlaMint-LV.ana:2088 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:2100 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.VIENOTĪBA" role="MP" to="2017-05-18" /]
+INFO[??] ParlaMint-LV.ana:2100 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:2119 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-20" ref="#group.JK" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV.ana:2119 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:2131 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2017-11-22" ref="#group.VIENOTĪBA" role="MP" to="2018-06-21" /]
+INFO[??] ParlaMint-LV.ana:2131 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:2150 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.NA" role="MP" to="2018-10-18" /]
+INFO[??] ParlaMint-LV.ana:2150 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:2162 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-29" ref="#group.ZZS" role="MP" to="2020-12-10" /]
+INFO[??] ParlaMint-LV.ana:2162 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:2171 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.NA" role="MP" to="2021-01-28" /]
+ERROR[??] ParlaMint-LV.ana:2171 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:2180 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-01-10" ref="#group.NA" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV.ana:2180 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:2189 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-05-23" ref="#group.JK" role="MP" to="2020-11-30" /]
+INFO[??] ParlaMint-LV.ana:2189 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:2201 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-03-08" ref="#group.SASKAŅA" role="MP" to="2018-03-08" /]
+INFO[??] ParlaMint-LV.ana:2201 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:2213 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-01-31" ref="#group.JK" role="MP" to="2020-05-26" /]
+INFO[??] ParlaMint-LV.ana:2213 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:2222 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-20" ref="#group.JK" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV.ana:2222 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:2234 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-29" ref="#group.ZZS" role="MP" to="2020-12-21" /]
+INFO[??] ParlaMint-LV.ana:2234 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:2243 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-22" ref="#group.AP" role="MP" to="2021-01-28" /]
+ERROR[??] ParlaMint-LV.ana:2243 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:2262 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-27" ref="#group.ZZS" role="MP" to="2021-01-28" /]
+ERROR[??] ParlaMint-LV.ana:2262 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:2274 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-03-22" ref="#group.ZZS" role="MP" to="2018-10-11" /]
+INFO[??] ParlaMint-LV.ana:2274 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:2286 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-20" ref="#group.KPV-LV" role="MP" to="2019-05-30" /]
+INFO[??] ParlaMint-LV.ana:2286 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:2302 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-13" ref="#group.AP" role="MP" to="2021-01-14" /]
+ERROR[??] ParlaMint-LV.ana:2302 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:2311 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2020-12-21" ref="#group.AP" role="MP" to="2020-12-21" /]
+INFO[??] ParlaMint-LV.ana:2311 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:2323 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-02-21" ref="#group.SASKAŅA" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV.ana:2323 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:2345 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-05-14" ref="#group.VIENOTĪBA" role="MP" to="2015-09-17" /]
+INFO[??] ParlaMint-LV.ana:2345 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:2353 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-04-11" ref="#group.KPV-LV" role="MP" to="2020-12-03" /]
+INFO[??] ParlaMint-LV.ana:2353 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:2362 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-06" ref="#group.AP" role="MP" to="2021-01-28" /]
+ERROR[??] ParlaMint-LV.ana:2362 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:2374 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-06" ref="#group.KPV-LV" role="MP" to="2019-06-13" /]
+INFO[??] ParlaMint-LV.ana:2374 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:2383 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-20" ref="#group.JK" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV.ana:2383 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:2395 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2016-01-21" ref="#group.VIENOTĪBA" role="MP" to="2018-06-07" /]
+INFO[??] ParlaMint-LV.ana:2395 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:2410 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-06" ref="#group.SASKAŅA" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV.ana:2410 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:2422 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-13" ref="#group.NA" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV.ana:2422 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:2431 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-13" ref="#group.JK" role="MP" to="2020-09-17" /]
+INFO[??] ParlaMint-LV.ana:2431 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:2443 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2017-10-19" ref="#group.SASKAŅA" role="MP" to="2018-09-20" /]
+INFO[??] ParlaMint-LV.ana:2443 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:2458 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.VIENOTĪBA" role="MP" to="2017-07-28" /]
+INFO[??] ParlaMint-LV.ana:2458 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:2473 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-01-22" ref="#group.ZZS" role="MP" to="2020-12-10" /]
+ERROR[??] ParlaMint-LV.ana:2473 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:2485 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-04-25" ref="#group.KPV-LV" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV.ana:2485 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:2504 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-01-17" ref="#group.SASKAŅA" role="MP" to="2020-12-17" /]
+INFO[??] ParlaMint-LV.ana:2504 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:2519 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-27" ref="#group.VIENOTĪBA" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV.ana:2519 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:2524 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-22" ref="#group.JV" role="MP" to="2021-01-28" /]
+ERROR[??] ParlaMint-LV.ana:2524 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:2543 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.ZZS" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV.ana:2543 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:2555 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.SASKAŅA" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV.ana:2555 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:2570 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-05-07" ref="#group.ZZS" role="MP" to="2021-01-14" /]
+ERROR[??] ParlaMint-LV.ana:2570 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:2579 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-12-18" ref="#group.NA" role="MP" to="2020-10-22" /]
+ERROR[??] ParlaMint-LV.ana:2579 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:2595 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-06-03" ref="#group.NA" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV.ana:2595 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:2604 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-22" ref="#group.JK" role="MP" to="2019-01-23" /]
+INFO[??] ParlaMint-LV.ana:2604 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:2623 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-27" ref="#group.SASKAŅA" role="MP" to="2021-01-14" /]
+ERROR[??] ParlaMint-LV.ana:2623 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:2638 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-01-22" ref="#group.VIENOTĪBA" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV.ana:2638 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:2643 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-01-31" ref="#group.JV" role="MP" to="2021-01-28" /]
+ERROR[??] ParlaMint-LV.ana:2643 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:2655 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.SASKAŅA" role="MP" to="2017-06-01" /]
+INFO[??] ParlaMint-LV.ana:2655 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:2670 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2017-10-05" ref="#group.ZZS" role="MP" to="2018-09-27" /]
+INFO[??] ParlaMint-LV.ana:2670 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:2679 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-20" ref="#group.JK" role="MP" to="2021-01-21" /]
+ERROR[??] ParlaMint-LV.ana:2679 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:2695 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-27" ref="#group.NA" role="MP" to="2015-07-08" /]
+INFO[??] ParlaMint-LV.ana:2695 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:2704 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-06" ref="#group.AP" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV.ana:2704 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:2713 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-22" ref="#group.AP" role="MP" to="2021-01-28" /]
+ERROR[??] ParlaMint-LV.ana:2713 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:2722 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-22" ref="#group.JK" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV.ana:2722 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:2734 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-27" ref="#group.ZZS" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV.ana:2734 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:2746 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-29" ref="#group.KPV-LV" role="MP" to="2020-12-21" /]
+INFO[??] ParlaMint-LV.ana:2746 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:2755 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-06" ref="#group.AP" role="MP" to="2019-01-10" /]
+INFO[??] ParlaMint-LV.ana:2755 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:2764 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-06" ref="#group.JV" role="MP" to="2020-10-29" /]
+INFO[??] ParlaMint-LV.ana:2764 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:2773 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-01-22" ref="#group.NA" role="MP" to="2021-01-28" /]
+ERROR[??] ParlaMint-LV.ana:2773 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:2785 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-13" ref="#group.VIENOTĪBA" role="MP" to="2018-05-24" /]
+INFO[??] ParlaMint-LV.ana:2785 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:2797 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-02-14" ref="#group.NA" role="MP" to="2020-06-10" /]
+INFO[??] ParlaMint-LV.ana:2797 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:2806 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2020-08-18" ref="#group.AP" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV.ana:2806 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:2825 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-06" ref="#group.ZZS" role="MP" to="2021-01-07" /]
+ERROR[??] ParlaMint-LV.ana:2825 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:2837 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2020-10-01" ref="#group.SASKAŅA" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV.ana:2837 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:2852 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2020-12-02" ref="#group.KPV-LV" role="MP" to="2020-12-21" /]
+INFO[??] ParlaMint-LV.ana:2852 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:2864 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-04" ref="#group.ZZS" role="MP" to="2018-03-01" /]
+INFO[??] ParlaMint-LV.ana:2864 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:2876 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-06" ref="#group.SASKAŅA" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV.ana:2876 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:2891 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.VIENOTĪBA" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV.ana:2891 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:2906 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2017-10-19" ref="#group.VIENOTĪBA" role="MP" to="2018-10-11" /]
+INFO[??] ParlaMint-LV.ana:2906 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:2921 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-27" ref="#group.ZZS" role="MP" to="2021-01-21" /]
+ERROR[??] ParlaMint-LV.ana:2921 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:2933 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-10-22" ref="#group.ZZS" role="MP" to="2017-01-26" /]
+INFO[??] ParlaMint-LV.ana:2933 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:2949 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-13" ref="#group.NA" role="MP" to="2018-12-13" /]
+INFO[??] ParlaMint-LV.ana:2949 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:2961 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2016-03-03" ref="#group.ZZS" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV.ana:2961 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:2970 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-01-31" ref="#group.JK" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV.ana:2970 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:2982 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.VIENOTĪBA" role="MP" to="2014-11-05" /]
+INFO[??] ParlaMint-LV.ana:2982 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV.ana:2987 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-03-14" ref="#group.JV" role="MP" to="2020-11-24" /]
+INFO[??] ParlaMint-LV.ana:2987 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:2996 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-04-23" ref="#group.NA" role="MP" to="2021-01-07" /]
+ERROR[??] ParlaMint-LV.ana:2996 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:3005 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-13" ref="#group.JK" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV.ana:3005 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:3017 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-01-10" ref="#group.ZZS" role="MP" to="2019-06-20" /]
+INFO[??] ParlaMint-LV.ana:3017 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV.ana:3026 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-12-04" ref="#group.NA" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV.ana:3026 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV.ana:3035 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-01-31" ref="#group.NA" role="MP" to="2021-01-14" /]
+ERROR[??] ParlaMint-LV.ana:3035 INFO: unable to add corresponding event
 INFO: Converting ParlaMint-LV.xml
 $ awk '{gsub(/(<[a-zA-Z:]+)/,"& LINE=\"" NR "\"",$0);print}' /home/matyas/Documents/UFAL/REP/ParlaMint-clarin-eric/Data-data-v2tov3-fixings/ParlaMint-LV/ParlaMint-LV.xml | java -jar /usr/share/java/saxon.jar -l  -xsl:/home/matyas/Documents/UFAL/REP/ParlaMint-clarin-eric/Scripts/fixings/v2tov3/v2tov3.xsl -s:-  > /home/matyas/Documents/UFAL/REP/ParlaMint-clarin-eric/Data-v2tov3-20220524/fix-v2tov3/ParlaMint-LV/ParlaMint-LV.xml
+INFO[??] ParlaMint-LV:360 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.SASKAŅA" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV:360 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:379 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-06" ref="#group.JK" role="MP" to="2021-01-28" /]
+ERROR[??] ParlaMint-LV:379 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:391 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-27" ref="#group.VIENOTĪBA" role="MP" to="2018-09-27" /]
+INFO[??] ParlaMint-LV:391 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:406 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.SASKAŅA" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV:406 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:421 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-13" ref="#group.VIENOTĪBA" role="MP" to="2016-02-11" /]
+INFO[??] ParlaMint-LV:421 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:433 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-13" ref="#group.AP" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV:433 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:442 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-01-22" ref="#group.NA" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV:442 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:454 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-27" ref="#group.VIENOTĪBA" role="MP" to="2017-07-21" /]
+INFO[??] ParlaMint-LV:454 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:466 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-22" ref="#group.AP" role="MP" to="2020-05-14" /]
+INFO[??] ParlaMint-LV:466 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:478 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.ZZS" role="MP" to="2017-02-16" /]
+INFO[??] ParlaMint-LV:478 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:490 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-06" ref="#group.SASKAŅA" role="MP" to="2020-09-17" /]
+INFO[??] ParlaMint-LV:490 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:498 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2020-11-27" ref="#group.SASKAŅA" role="MP" to="2020-11-27" /]
+INFO[??] ParlaMint-LV:498 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:513 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.SASKAŅA" role="MP" to="2020-09-24" /]
+ERROR[??] ParlaMint-LV:513 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:528 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-12-18" ref="#group.SASKAŅA" role="MP" to="2017-03-02" /]
+INFO[??] ParlaMint-LV:528 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:543 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-01-29" ref="#group.ZZS" role="MP" to="2018-09-20" /]
+INFO[??] ParlaMint-LV:543 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:569 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.SASKAŅA" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV:569 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:584 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-27" ref="#group.VIENOTĪBA" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV:584 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:599 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-04-30" ref="#group.ZZS" role="MP" to="2018-10-11" /]
+INFO[??] ParlaMint-LV:599 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:611 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-04" ref="#group.VIENOTĪBA" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV:611 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:616 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-29" ref="#group.JV" role="MP" to="2020-12-21" /]
+INFO[??] ParlaMint-LV:616 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:625 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-20" ref="#group.NA" role="MP" to="2020-12-03" /]
+ERROR[??] ParlaMint-LV:625 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:644 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-02-19" ref="#group.ZZS" role="MP" to="2018-04-12" /]
+INFO[??] ParlaMint-LV:644 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:663 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-27" ref="#group.VIENOTĪBA" role="MP" to="2017-11-23" /]
+INFO[??] ParlaMint-LV:663 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:678 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2016-01-14" ref="#group.ZZS" role="MP" to="2018-04-12" /]
+INFO[??] ParlaMint-LV:678 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:697 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-02-19" ref="#group.SASKAŅA" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV:697 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:712 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-09-20" ref="#group.ZZS" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV:712 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:721 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-13" ref="#group.JK" role="MP" to="2020-03-06" /]
+INFO[??] ParlaMint-LV:721 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:733 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2016-02-25" ref="#group.SASKAŅA" role="MP" to="2017-01-26" /]
+INFO[??] ParlaMint-LV:733 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:745 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-04-23" ref="#group.NA" role="MP" to="2019-01-31" /]
+ERROR[??] ParlaMint-LV:745 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:754 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-02-14" ref="#group.AP" role="MP" to="2020-11-05" /]
+INFO[??] ParlaMint-LV:754 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:763 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2021-01-14" ref="#group.JK" role="MP" to="2021-01-28" /]
+ERROR[??] ParlaMint-LV:763 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:782 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-27" ref="#group.SASKAŅA" role="MP" to="2021-01-21" /]
+ERROR[??] ParlaMint-LV:782 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:797 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-01-24" ref="#group.ZZS" role="MP" to="2021-01-14" /]
+ERROR[??] ParlaMint-LV:797 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:806 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-06" ref="#group.JK" role="MP" to="2018-12-06" /]
+INFO[??] ParlaMint-LV:806 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:818 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-29" ref="#group.KPV-LV" role="MP" to="2020-10-16" /]
+INFO[??] ParlaMint-LV:818 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:830 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-01-15" ref="#group.VIENOTĪBA" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV:830 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:845 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-12-17" ref="#group.ZZS" role="MP" to="2018-10-04" /]
+INFO[??] ParlaMint-LV:845 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:857 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-13" ref="#group.ZZS" role="MP" to="2021-01-21" /]
+ERROR[??] ParlaMint-LV:857 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:876 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-05-28" ref="#group.ZZS" role="MP" to="2018-10-25" /]
+INFO[??] ParlaMint-LV:876 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:888 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-03-08" ref="#group.VIENOTĪBA" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV:888 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:903 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-13" ref="#group.VIENOTĪBA" role="MP" to="2018-10-25" /]
+INFO[??] ParlaMint-LV:903 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:908 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-22" ref="#group.JV" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV:908 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:927 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-20" ref="#group.KPV-LV" role="MP" to="2021-01-21" /]
+ERROR[??] ParlaMint-LV:927 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:946 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-01-23" ref="#group.SASKAŅA" role="MP" to="2020-09-24" /]
+INFO[??] ParlaMint-LV:946 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:975 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-20" ref="#group.SASKAŅA" role="MP" to="2021-01-21" /]
+ERROR[??] ParlaMint-LV:975 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:990 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.SASKAŅA" role="MP" to="2021-01-21" /]
+ERROR[??] ParlaMint-LV:990 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:1005 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-27" ref="#group.VIENOTĪBA" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV:1005 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:1020 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-12-18" ref="#group.ZZS" role="MP" to="2016-01-21" /]
+INFO[??] ParlaMint-LV:1020 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:1032 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2016-06-16" ref="#group.SASKAŅA" role="MP" to="2018-10-25" /]
+INFO[??] ParlaMint-LV:1032 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:1061 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-27" ref="#group.VIENOTĪBA" role="MP" to="2018-10-11" /]
+INFO[??] ParlaMint-LV:1061 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:1076 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-13" ref="#group.VIENOTĪBA" role="MP" to="2015-03-26" /]
+INFO[??] ParlaMint-LV:1076 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:1084 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-29" ref="#group.SASKAŅA" role="MP" to="2020-09-17" /]
+INFO[??] ParlaMint-LV:1084 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:1117 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-12-11" ref="#group.NA" role="MP" to="2014-12-11" /]
+INFO[??] ParlaMint-LV:1117 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:1136 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-05-02" ref="#group.KPV-LV" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV:1136 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:1145 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-22" ref="#group.AP" role="MP" to="2020-12-21" /]
+INFO[??] ParlaMint-LV:1145 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:1157 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-02-19" ref="#group.SASKAŅA" role="MP" to="2020-10-28" /]
+ERROR[??] ParlaMint-LV:1157 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:1172 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-06" ref="#group.KPV-LV" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV:1172 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:1184 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-27" ref="#group.SASKAŅA" role="MP" to="2020-10-28" /]
+ERROR[??] ParlaMint-LV:1184 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:1199 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-27" ref="#group.ZZS" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV:1199 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:1211 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.VIENOTĪBA" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV:1211 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:1216 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-06" ref="#group.JV" role="MP" to="2020-12-17" /]
+INFO[??] ParlaMint-LV:1216 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:1228 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-11-03" ref="#group.SASKAŅA" role="MP" to="2018-09-06" /]
+INFO[??] ParlaMint-LV:1228 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:1240 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-29" ref="#group.JK" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV:1240 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:1256 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-29" ref="#group.JK" role="MP" to="2021-01-28" /]
+ERROR[??] ParlaMint-LV:1256 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:1265 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-20" ref="#group.AP" role="MP" to="2020-12-17" /]
+INFO[??] ParlaMint-LV:1265 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:1284 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-01-31" ref="#group.KPV-LV" role="MP" to="2021-01-28" /]
+ERROR[??] ParlaMint-LV:1284 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:1296 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2016-09-08" ref="#group.ZZS" role="MP" to="2018-06-21" /]
+INFO[??] ParlaMint-LV:1296 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:1308 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-01-31" ref="#group.KPV-LV" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV:1308 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:1317 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-06" ref="#group.JK" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV:1317 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:1329 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-13" ref="#group.KPV-LV" role="MP" to="2020-03-20" /]
+INFO[??] ParlaMint-LV:1329 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:1345 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2020-07-09" ref="#group.JK" role="MP" to="2020-12-17" /]
+INFO[??] ParlaMint-LV:1345 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:1357 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-06" ref="#group.KPV-LV" role="MP" to="2019-06-06" /]
+INFO[??] ParlaMint-LV:1357 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:1383 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-12-17" ref="#group.ZZS" role="MP" to="2018-10-11" /]
+INFO[??] ParlaMint-LV:1383 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:1392 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-03-07" ref="#group.AP" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV:1392 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:1401 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-29" ref="#group.AP" role="MP" to="2021-01-07" /]
+ERROR[??] ParlaMint-LV:1401 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:1427 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-11-30" ref="#group.VIENOTĪBA" role="MP" to="2018-01-11" /]
+INFO[??] ParlaMint-LV:1427 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:1435 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-29" ref="#group.ZZS" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV:1435 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:1451 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-13" ref="#group.AP" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV:1451 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:1470 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-13" ref="#group.VIENOTĪBA" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV:1470 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:1485 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-20" ref="#group.KPV-LV" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV:1485 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:1497 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.SASKAŅA" role="MP" to="2019-12-18" /]
+ERROR[??] ParlaMint-LV:1497 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:1512 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.SASKAŅA" role="MP" to="2021-01-28" /]
+ERROR[??] ParlaMint-LV:1512 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:1524 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-27" ref="#group.NA" role="MP" to="2018-06-20" /]
+INFO[??] ParlaMint-LV:1524 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:1536 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-12-17" ref="#group.SASKAŅA" role="MP" to="2018-10-04" /]
+INFO[??] ParlaMint-LV:1536 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:1558 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-06" ref="#group.KPV-LV" role="MP" to="2019-01-31" /]
+INFO[??] ParlaMint-LV:1558 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:1567 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-12-11" ref="#group.NA" role="MP" to="2015-02-19" /]
+INFO[??] ParlaMint-LV:1567 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:1593 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-13" ref="#group.KPV-LV" role="MP" to="2019-12-19" /]
+INFO[??] ParlaMint-LV:1593 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:1602 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-12-11" ref="#group.NA" role="MP" to="2021-01-21" /]
+ERROR[??] ParlaMint-LV:1602 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:1614 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.SASKAŅA" role="MP" to="2019-12-18" /]
+ERROR[??] ParlaMint-LV:1614 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:1629 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-12-11" ref="#group.VIENOTĪBA" role="MP" to="2018-10-25" /]
+INFO[??] ParlaMint-LV:1629 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:1651 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-12-10" ref="#group.SASKAŅA" role="MP" to="2018-09-27" /]
+INFO[??] ParlaMint-LV:1651 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:1663 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-12-04" ref="#group.NA" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV:1663 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:1675 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-01-22" ref="#group.ZZS" role="MP" to="2018-10-25" /]
+INFO[??] ParlaMint-LV:1675 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:1687 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-12-04" ref="#group.ZZS" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV:1687 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:1696 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-03-07" ref="#group.JK" role="MP" to="2021-01-21" /]
+ERROR[??] ParlaMint-LV:1696 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:1705 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.NA" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV:1705 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:1717 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.SASKAŅA" role="MP" to="2017-04-20" /]
+INFO[??] ParlaMint-LV:1717 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:1732 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.VIENOTĪBA" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV:1732 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:1747 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-13" ref="#group.VIENOTĪBA" role="MP" to="2017-07-28" /]
+INFO[??] ParlaMint-LV:1747 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:1759 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-13" ref="#group.JK" role="MP" to="2018-12-20" /]
+INFO[??] ParlaMint-LV:1759 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:1771 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-20" ref="#group.VIENOTĪBA" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV:1771 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:1776 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-06" ref="#group.JV" role="MP" to="2021-01-28" /]
+ERROR[??] ParlaMint-LV:1776 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:1788 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-11-19" ref="#group.SASKAŅA" role="MP" to="2019-04-03" /]
+ERROR[??] ParlaMint-LV:1788 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:1810 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2017-07-28" ref="#group.SASKAŅA" role="MP" to="2018-06-21" /]
+INFO[??] ParlaMint-LV:1810 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:1822 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-13" ref="#group.NA" role="MP" to="2017-06-08" /]
+INFO[??] ParlaMint-LV:1822 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:1834 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2021-01-07" ref="#group.ZZS" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV:1834 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:1846 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-02-07" ref="#group.KPV-LV" role="MP" to="2019-12-19" /]
+INFO[??] ParlaMint-LV:1846 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:1858 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.VIENOTĪBA" role="MP" to="2017-05-18" /]
+INFO[??] ParlaMint-LV:1858 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:1877 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-20" ref="#group.JK" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV:1877 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:1889 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2017-11-22" ref="#group.VIENOTĪBA" role="MP" to="2018-06-21" /]
+INFO[??] ParlaMint-LV:1889 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:1908 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.NA" role="MP" to="2018-10-18" /]
+INFO[??] ParlaMint-LV:1908 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:1920 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-29" ref="#group.ZZS" role="MP" to="2020-12-10" /]
+INFO[??] ParlaMint-LV:1920 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:1929 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.NA" role="MP" to="2021-01-28" /]
+ERROR[??] ParlaMint-LV:1929 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:1938 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-01-10" ref="#group.NA" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV:1938 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:1947 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-05-23" ref="#group.JK" role="MP" to="2020-11-30" /]
+INFO[??] ParlaMint-LV:1947 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:1959 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-03-08" ref="#group.SASKAŅA" role="MP" to="2018-03-08" /]
+INFO[??] ParlaMint-LV:1959 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:1971 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-01-31" ref="#group.JK" role="MP" to="2020-05-26" /]
+INFO[??] ParlaMint-LV:1971 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:1980 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-20" ref="#group.JK" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV:1980 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:1992 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-29" ref="#group.ZZS" role="MP" to="2020-12-21" /]
+INFO[??] ParlaMint-LV:1992 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:2001 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-22" ref="#group.AP" role="MP" to="2021-01-28" /]
+ERROR[??] ParlaMint-LV:2001 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:2020 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-27" ref="#group.ZZS" role="MP" to="2021-01-28" /]
+ERROR[??] ParlaMint-LV:2020 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:2032 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-03-22" ref="#group.ZZS" role="MP" to="2018-10-11" /]
+INFO[??] ParlaMint-LV:2032 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:2044 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-20" ref="#group.KPV-LV" role="MP" to="2019-05-30" /]
+INFO[??] ParlaMint-LV:2044 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:2060 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-13" ref="#group.AP" role="MP" to="2021-01-14" /]
+ERROR[??] ParlaMint-LV:2060 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:2069 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2020-12-21" ref="#group.AP" role="MP" to="2020-12-21" /]
+INFO[??] ParlaMint-LV:2069 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:2081 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-02-21" ref="#group.SASKAŅA" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV:2081 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:2103 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-05-14" ref="#group.VIENOTĪBA" role="MP" to="2015-09-17" /]
+INFO[??] ParlaMint-LV:2103 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:2111 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-04-11" ref="#group.KPV-LV" role="MP" to="2020-12-03" /]
+INFO[??] ParlaMint-LV:2111 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:2120 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-06" ref="#group.AP" role="MP" to="2021-01-28" /]
+ERROR[??] ParlaMint-LV:2120 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:2132 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-06" ref="#group.KPV-LV" role="MP" to="2019-06-13" /]
+INFO[??] ParlaMint-LV:2132 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:2141 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-20" ref="#group.JK" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV:2141 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:2153 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2016-01-21" ref="#group.VIENOTĪBA" role="MP" to="2018-06-07" /]
+INFO[??] ParlaMint-LV:2153 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:2168 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-06" ref="#group.SASKAŅA" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV:2168 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:2180 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-13" ref="#group.NA" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV:2180 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:2189 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-13" ref="#group.JK" role="MP" to="2020-09-17" /]
+INFO[??] ParlaMint-LV:2189 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:2201 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2017-10-19" ref="#group.SASKAŅA" role="MP" to="2018-09-20" /]
+INFO[??] ParlaMint-LV:2201 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:2216 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.VIENOTĪBA" role="MP" to="2017-07-28" /]
+INFO[??] ParlaMint-LV:2216 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:2231 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-01-22" ref="#group.ZZS" role="MP" to="2020-12-10" /]
+ERROR[??] ParlaMint-LV:2231 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:2243 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-04-25" ref="#group.KPV-LV" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV:2243 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:2262 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-01-17" ref="#group.SASKAŅA" role="MP" to="2020-12-17" /]
+INFO[??] ParlaMint-LV:2262 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:2277 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-27" ref="#group.VIENOTĪBA" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV:2277 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:2282 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-22" ref="#group.JV" role="MP" to="2021-01-28" /]
+ERROR[??] ParlaMint-LV:2282 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:2301 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.ZZS" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV:2301 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:2313 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.SASKAŅA" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV:2313 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:2328 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-05-07" ref="#group.ZZS" role="MP" to="2021-01-14" /]
+ERROR[??] ParlaMint-LV:2328 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:2337 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-12-18" ref="#group.NA" role="MP" to="2020-10-22" /]
+ERROR[??] ParlaMint-LV:2337 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:2353 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-06-03" ref="#group.NA" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV:2353 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:2362 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-22" ref="#group.JK" role="MP" to="2019-01-23" /]
+INFO[??] ParlaMint-LV:2362 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:2381 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-27" ref="#group.SASKAŅA" role="MP" to="2021-01-14" /]
+ERROR[??] ParlaMint-LV:2381 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:2396 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-01-22" ref="#group.VIENOTĪBA" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV:2396 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:2401 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-01-31" ref="#group.JV" role="MP" to="2021-01-28" /]
+ERROR[??] ParlaMint-LV:2401 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:2413 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.SASKAŅA" role="MP" to="2017-06-01" /]
+INFO[??] ParlaMint-LV:2413 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:2428 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2017-10-05" ref="#group.ZZS" role="MP" to="2018-09-27" /]
+INFO[??] ParlaMint-LV:2428 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:2437 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-20" ref="#group.JK" role="MP" to="2021-01-21" /]
+ERROR[??] ParlaMint-LV:2437 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:2453 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-27" ref="#group.NA" role="MP" to="2015-07-08" /]
+INFO[??] ParlaMint-LV:2453 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:2462 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-06" ref="#group.AP" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV:2462 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:2471 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-22" ref="#group.AP" role="MP" to="2021-01-28" /]
+ERROR[??] ParlaMint-LV:2471 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:2480 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-22" ref="#group.JK" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV:2480 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:2492 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-27" ref="#group.ZZS" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV:2492 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:2504 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-11-29" ref="#group.KPV-LV" role="MP" to="2020-12-21" /]
+INFO[??] ParlaMint-LV:2504 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:2513 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-06" ref="#group.AP" role="MP" to="2019-01-10" /]
+INFO[??] ParlaMint-LV:2513 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:2522 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-06" ref="#group.JV" role="MP" to="2020-10-29" /]
+INFO[??] ParlaMint-LV:2522 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:2531 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-01-22" ref="#group.NA" role="MP" to="2021-01-28" /]
+ERROR[??] ParlaMint-LV:2531 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:2543 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-13" ref="#group.VIENOTĪBA" role="MP" to="2018-05-24" /]
+INFO[??] ParlaMint-LV:2543 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:2555 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-02-14" ref="#group.NA" role="MP" to="2020-06-10" /]
+INFO[??] ParlaMint-LV:2555 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:2564 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2020-08-18" ref="#group.AP" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV:2564 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:2583 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-06" ref="#group.ZZS" role="MP" to="2021-01-07" /]
+ERROR[??] ParlaMint-LV:2583 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:2595 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2020-10-01" ref="#group.SASKAŅA" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV:2595 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:2610 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2020-12-02" ref="#group.KPV-LV" role="MP" to="2020-12-21" /]
+INFO[??] ParlaMint-LV:2610 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:2622 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-04" ref="#group.ZZS" role="MP" to="2018-03-01" /]
+INFO[??] ParlaMint-LV:2622 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:2634 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-06" ref="#group.SASKAŅA" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV:2634 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:2649 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.VIENOTĪBA" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV:2649 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:2664 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2017-10-19" ref="#group.VIENOTĪBA" role="MP" to="2018-10-11" /]
+INFO[??] ParlaMint-LV:2664 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:2679 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-27" ref="#group.ZZS" role="MP" to="2021-01-21" /]
+ERROR[??] ParlaMint-LV:2679 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:2691 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-10-22" ref="#group.ZZS" role="MP" to="2017-01-26" /]
+INFO[??] ParlaMint-LV:2691 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:2707 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-13" ref="#group.NA" role="MP" to="2018-12-13" /]
+INFO[??] ParlaMint-LV:2707 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:2719 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2016-03-03" ref="#group.ZZS" role="MP" to="2018-11-01" /]
+INFO[??] ParlaMint-LV:2719 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:2728 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-01-31" ref="#group.JK" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV:2728 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:2740 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-11-05" ref="#group.VIENOTĪBA" role="MP" to="2014-11-05" /]
+INFO[??] ParlaMint-LV:2740 adding corresponding event to @ana: [event xml:id="PT.12" from="2014-11-04" to="2018-11-05"][label xml:lang="lv"]12. Saeima[/label][label xml:lang="en"]Term 12[/label][/event]
+INFO[??] ParlaMint-LV:2745 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-03-14" ref="#group.JV" role="MP" to="2020-11-24" /]
+INFO[??] ParlaMint-LV:2745 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:2754 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2015-04-23" ref="#group.NA" role="MP" to="2021-01-07" /]
+ERROR[??] ParlaMint-LV:2754 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:2763 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2018-12-13" ref="#group.JK" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV:2763 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:2775 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-01-10" ref="#group.ZZS" role="MP" to="2019-06-20" /]
+INFO[??] ParlaMint-LV:2775 adding corresponding event to @ana: [event xml:id="PT.13" from="2018-11-06"][label xml:lang="lv"]13. Saeima[/label][label xml:lang="en"]Term 13[/label][/event]
+INFO[??] ParlaMint-LV:2784 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2014-12-04" ref="#group.NA" role="MP" to="2021-02-04" /]
+ERROR[??] ParlaMint-LV:2784 INFO: unable to add corresponding event
+INFO[??] ParlaMint-LV:2793 adding reference to parliament affiliation/@ref=#PT to [affiliation from="2019-01-31" ref="#group.NA" role="MP" to="2021-01-14" /]
+ERROR[??] ParlaMint-LV:2793 INFO: unable to add corresponding event
 INFO: Converting ParlaMint-LV_PT12-2014-11-05-265.ana.xml
 $ awk '{gsub(/(<[a-zA-Z:]+)/,"& LINE=\"" NR "\"",$0);print}' /home/matyas/Documents/UFAL/REP/ParlaMint-clarin-eric/Data-data-v2tov3-fixings/ParlaMint-LV/ParlaMint-LV_PT12-2014-11-05-265.ana.xml | java -jar /usr/share/java/saxon.jar -l  -xsl:/home/matyas/Documents/UFAL/REP/ParlaMint-clarin-eric/Scripts/fixings/v2tov3/v2tov3.xsl -s:-  > /home/matyas/Documents/UFAL/REP/ParlaMint-clarin-eric/Data-v2tov3-20220524/fix-v2tov3/ParlaMint-LV/ParlaMint-LV_PT12-2014-11-05-265.ana.xml
 INFO: Converting ParlaMint-LV_PT12-2014-11-05-265.xml
