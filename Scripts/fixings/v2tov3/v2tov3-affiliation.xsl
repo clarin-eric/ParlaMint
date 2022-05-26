@@ -11,95 +11,14 @@
   exclude-result-prefixes="et mk fn xs tei saxon">
 
 
-  <!-- Fixing affiliations -->
-  <xsl:template match="tei:affiliation[not(text()) and not(@ref)]">
+  <xsl:template match="tei:affiliation[not(@ref)]">
     <xsl:choose>
-      <xsl:when test="@role='member'"><!-- BG -->
+      <xsl:when test="@role='member' and not(text())">
         <xsl:call-template name="error">
           <xsl:with-param name="severity">INFO</xsl:with-param>
           <xsl:with-param name="msg"><xsl:text>removing senseless affiliation (missing ref and text): </xsl:text> <xsl:apply-templates select="." mode="serialize"/></xsl:with-param>
         </xsl:call-template>
       </xsl:when>
-      <xsl:otherwise>
-        <xsl:variable name="orgRole" select="mk:person_role_to_org_role(./@role)"/>
-        <xsl:variable name="org" select="./ancestor::tei:particDesc/tei:listOrg/tei:org[@role=$orgRole and @xml:id]"/>
-        <xsl:choose>
-          <xsl:when test="$orgRole=''">
-            <xsl:call-template name="error">
-              <xsl:with-param name="severity">ERROR</xsl:with-param>
-              <xsl:with-param name="msg"><xsl:value-of select="@role" /> does not have implicit organization - impossible to determine correct affiliation</xsl:with-param>
-            </xsl:call-template>
-            <xsl:comment>removing affiliation - unable to determine @ref: <xsl:apply-templates select="." mode="serialize"/></xsl:comment>
-          </xsl:when>
-          <xsl:when test="count($org) = 1">
-            <xsl:call-template name="error">
-              <xsl:with-param name="severity">INFO</xsl:with-param>
-              <xsl:with-param name="msg">adding reference to '<xsl:value-of select="$orgRole"/>' affiliation/@ref=#'<xsl:value-of select="$org/@xml:id"/>' to <xsl:apply-templates select="." mode="serialize"/></xsl:with-param>
-            </xsl:call-template>
-            <xsl:copy>
-              <xsl:apply-templates select="@*[name() != 'ana']"/>
-              <xsl:attribute name="ref">#<xsl:value-of select="$org/@xml:id"/></xsl:attribute>
-              <xsl:call-template name="affiliation-ana"><xsl:with-param name="ref" select="concat('#',$org/@xml:id)"/></xsl:call-template>
-            </xsl:copy>
-            <xsl:variable name="implicated-role" select="mk:affiliation-implicated-role(@role,$orgRole)"/>
-            <xsl:if test="not($implicated-role='')">
-              <xsl:call-template name="error">
-                <xsl:with-param name="severity">INFO</xsl:with-param>
-                <xsl:with-param name="msg">adding implicated affiliation(role='<xsl:value-of select="$implicated-role"/>') to '<xsl:value-of select="$orgRole"/>'</xsl:with-param>
-              </xsl:call-template>
-              <xsl:copy>
-                <xsl:apply-templates select="@*[name() != 'ana' and name() != 'role']"/>
-                <xsl:attribute name="ref">#<xsl:value-of select="$org/@xml:id"/></xsl:attribute>
-                <xsl:attribute name="role"><xsl:value-of select="$implicated-role"/></xsl:attribute>
-                <xsl:call-template name="affiliation-ana"><xsl:with-param name="ref" select="concat('#',$org/@xml:id)"/></xsl:call-template>
-              </xsl:copy>
-            </xsl:if>
-          </xsl:when>
-          <xsl:when test="count($org)>1">
-            <!-- NL-parliament -->
-            <xsl:call-template name="error">
-              <xsl:with-param name="severity">ERROR</xsl:with-param>
-              <xsl:with-param name="msg"><xsl:value-of select="count($org)"/> <xsl:value-of select="$orgRole"/> organizations - impossible to determine correct affiliation</xsl:with-param>
-            </xsl:call-template>
-            <xsl:comment>removing affiliation - unable to determine @ref (multiple <xsl:value-of select="$orgRole"/> org): <xsl:apply-templates select="." mode="serialize"/></xsl:comment>
-          </xsl:when>
-          <xsl:otherwise>
-            <!-- PL - missing parliament organization-->
-            <xsl:call-template name="error">
-              <xsl:with-param name="severity">ERROR</xsl:with-param>
-              <xsl:with-param name="msg">missing <xsl:value-of select="$orgRole"/> organization</xsl:with-param>
-            </xsl:call-template>
-            <xsl:comment>removing affiliation - unable to determine @ref (missing <xsl:value-of select="$orgRole"/> org): <xsl:apply-templates select="." mode="serialize"/></xsl:comment>
-          </xsl:otherwise>
-        </xsl:choose>
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>
-
-<!-- covered with other template
-  <xsl:template match="tei:affiliation[text() and @ref]">
-    <xsl:choose>
-      <xsl:when test="$country = 'BG' and @ref='#NS' and contains(' MP chairman viceChairman', @role) and text()='депутат'">
-        <xsl:copy>
-          <xsl:apply-templates select="@*[name() != 'ana']"/>
-          <xsl:call-template name="affiliation-ana"><xsl:with-param name="ref" select="@ref"/></xsl:call-template>
-        </xsl:copy>
-        <xsl:message>INFO: removing text from <xsl:value-of select="@role"/> (<xsl:value-of select="text()"/>) affiliation</xsl:message>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:message><xsl:text>WARN: affiliation - ref+text: </xsl:text> <xsl:apply-templates select="." mode="serialize"/></xsl:message>
-        <xsl:copy>
-          <xsl:apply-templates select="@*[name() != 'ana']"/>
-          <xsl:call-template name="affiliation-ana"><xsl:with-param name="ref" select="@ref"/></xsl:call-template>
-        </xsl:copy>
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>
--->
-
-
-  <xsl:template match="tei:affiliation[text() and not(@ref)]">
-    <xsl:choose>
       <xsl:when test="$country = 'BG' and text()='депутат'">
         <xsl:copy>
           <xsl:apply-templates select="@*[not(name()='role')]"/>
@@ -136,18 +55,19 @@
             <xsl:comment>removing affiliation - unable to determine @ref: <xsl:apply-templates select="." mode="serialize"/></xsl:comment>
           </xsl:when>
           <xsl:when test="count($org) = 1">
+            <xsl:variable name="role" select="mk:affiliation-role-patch(@role,$org/@role)"/>
             <xsl:call-template name="error">
               <xsl:with-param name="severity">INFO</xsl:with-param>
               <xsl:with-param name="msg">adding reference to <xsl:value-of select="$orgRole"/> affiliation/@ref=#<xsl:value-of select="$org/@xml:id"/> to <xsl:apply-templates select="." mode="serialize"/></xsl:with-param>
             </xsl:call-template>
             <xsl:copy>
               <xsl:apply-templates select="@*[name() != 'ana' and name() != 'role']"/>
-              <xsl:attribute name="role"><xsl:value-of select="mk:affiliation-role-patch(@role,$org/@role)"/></xsl:attribute>
+              <xsl:attribute name="role"><xsl:value-of select="$role"/></xsl:attribute>
               <xsl:attribute name="ref">#<xsl:value-of select="$org/@xml:id"/></xsl:attribute>
               <xsl:call-template name="affiliation-ana"><xsl:with-param name="ref" select="concat('#',$org/@xml:id)"/></xsl:call-template>
-              <xsl:comment><xsl:apply-templates select="./text()" mode="serialize"/></xsl:comment>
+              <xsl:if test="text()"><xsl:comment><xsl:apply-templates select="./text()" mode="serialize"/></xsl:comment></xsl:if>
             </xsl:copy>
-            <xsl:variable name="implicated-role" select="mk:affiliation-implicated-role(@role,$orgRole)"/>
+            <xsl:variable name="implicated-role" select="mk:affiliation-implicated-role($role,$orgRole)"/>
             <xsl:if test="not($implicated-role='')">
               <xsl:call-template name="error">
                 <xsl:with-param name="severity">INFO</xsl:with-param>
@@ -406,6 +326,7 @@
       <!-- general organization - do nothing -->
       <xsl:when test="contains(' president chairman chairperson speaker leader ', mk:borders($role))">president</xsl:when>
       <xsl:when test="contains(' vicePresident viceChairman ', mk:borders($role))">vicePresident</xsl:when>
+      <xsl:when test="contains(' MP ', mk:borders($role))">member</xsl:when>
 
       <xsl:otherwise><xsl:value-of select="$role"/></xsl:otherwise>
     </xsl:choose>
