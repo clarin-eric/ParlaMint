@@ -11,7 +11,7 @@
   exclude-result-prefixes="et mk fn xs tei saxon">
 
 
-  <xsl:template match="tei:affiliation[not(@ref)]">
+  <xsl:template match="tei:affiliation[not(@ref) or ($country = 'LV' and @role='MP')]">
     <xsl:choose>
       <xsl:when test="@role='member' and not(text())">
         <xsl:call-template name="error">
@@ -108,7 +108,7 @@
   </xsl:template>
 
 
-  <xsl:template match="tei:affiliation[@ref]">
+  <xsl:template match="tei:affiliation[@ref and not($country = 'LV' and @role='MP')]">
     <xsl:variable name="ref" select="@ref"/>
     <xsl:variable name="orgRole" select="./ancestor::tei:particDesc/tei:listOrg/tei:org[@xml:id=substring-after($ref,'#')]/@role"/>
     <xsl:variable name="role" select="mk:affiliation-role-patch(@role,$orgRole)"/>
