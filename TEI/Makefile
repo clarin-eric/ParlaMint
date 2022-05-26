@@ -39,18 +39,12 @@ val:	val-schema val-samples
 val-schema:
 	$j tei_odds.rng tmp/ParlaMint.xml
 
-# Validate 1 sample
-val-SI:
-	$j ParlaMint.odd.rng tmp/ParlaMint-SI.ana.xml
-	$j ParlaMint.odd.rng tmp/ParlaMint-SI.xml
-	$j ParlaMint.odd.rng ../Data/ParlaMint-SI/ParlaMint-SI.xml
-	$j ParlaMint.odd.rng ../Data/ParlaMint-SI/ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.xml
-	$j ParlaMint.odd.rng ../Data/ParlaMint-SI/ParlaMint-SI.ana.xml
-	$j ParlaMint.odd.rng ../Data/ParlaMint-SI/ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.ana.xml
-
 # Validate samples
+#DATA = ../Data
+DATA = ../../ParlaMint-v2tov3/Data
+
 val-samples:
-	./validate.pl samples ../Data
+	./validate.pl samples ${DATA}
 
 # Validate all the full set of components; this is a local thing!
 val-master:
