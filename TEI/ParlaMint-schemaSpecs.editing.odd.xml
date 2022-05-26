@@ -435,15 +435,15 @@
     </exemplum>
     <exemplum xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-        <kinesic type="gesture">
-          <desc>shows</desc>
+        <kinesic type="laughter">
+          <desc xml:lang="hr">smijeh.</desc>
         </kinesic>
       </egXML>
     </exemplum>
     <exemplum xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
         <kinesic type="applause">
-          <desc>applause</desc>
+          <desc xml:lang="sl">ploskanje</desc>
         </kinesic>
       </egXML>
     </exemplum>
@@ -543,7 +543,16 @@
     </attList>
     <exemplum xml:lang="en" versionDate="2021-03-15">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-	<p>Example of a <gi>desc</gi> element for transcriber comments:</p>
+	<p>Example of <gi>desc</gi> elements for transcriber comments:</p>
+	
+	<gap reason="inaudible">
+	  <desc>speaker spoke too quietly, not understood</desc>
+	</gap>
+	
+        <kinesic type="applause">
+          <desc xml:lang="sl">ploskanje</desc>
+        </kinesic>
+	
 	<vocal type="interruption">
 	  <desc>sounds from the chamber</desc>
 	</vocal>
@@ -552,29 +561,23 @@
 	  <desc>signal for end of debate</desc>
 	</kinesic>
 	...
-	
 	<incident type="action">
 	  <desc>minute of silence</desc>
 	</incident>
       </egXML>
     </exemplum>
     <exemplum xml:lang="en" versionDate="2021-03-15">
-      <p>Example of a <gi>desc</gi> element used as a part of taxonomy:</p> 
+      <p>Example of <gi>desc</gi> elements used as a part of taxonomy:</p> 
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
 	<taxonomy xml:id="parla.legislature">
-          <desc><term>Legislature</term></desc>
+          <desc xml:lang="sl">
+            <term>Zakonodajna oblast</term>
+          </desc>
+          <desc>
+	    <term>Legislature</term>
+	  </desc>
 	  ...
 	</taxonomy>
-      </egXML>
-    </exemplum>
-        <exemplum xml:lang="en" versionDate="2021-03-15">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-	<p>Example of a <gi>desc</gi> to describe gaps in the transcript:</p>
-	... I would further state that
-	<gap reason="inaudible">
-	  <desc>speaker spoke too quietly, not understood</desc>
-	</gap>
-	and furthermore ...
       </egXML>
     </exemplum>
   </elementSpec>
@@ -586,13 +589,23 @@
     </content>
     <attList/>
     <exemplum xml:lang="en">
+      <p><gi>term</gi> is used inside taxonomies to name the taxonomy and its categories:</p> 
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-	<desc xml:lang="sl">
-	  <term>Podkorpusi</term>
-	</desc>
-	<desc xml:lang="en">
-	  <term>Subcorpora</term>
-	</desc>
+        <taxonomy xml:id="subcorpus">
+          <desc xml:lang="sl">
+            <term>Podkorpusi</term>
+          </desc>
+          <desc xml:lang="en">
+            <term>Subcorpora</term>
+          </desc>
+          <category xml:id="reference">
+            <catDesc xml:lang="sl">
+            <term>Referenca</term>: referenčni podkorpus, do 2019-10-31</catDesc>
+            <catDesc xml:lang="en">
+            <term>Reference</term>: reference subcorpus, until 2019-10-31</catDesc>
+          </category>
+	  ...
+	</taxonomy>
       </egXML>
     </exemplum>
     <exemplum xml:lang="en">
@@ -620,11 +633,11 @@
     <exemplum xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
 	 <projectDesc>
-            <p xml:lang="cs">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
-            </p>
-            <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a
+            project that aims to create a multilingual set of comparable corpora of
+            parliamentary proceedings uniformly encoded according to the <ref
+            target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN
+            recommendations</ref> and ...</p>
          </projectDesc>
       </egXML>
     </exemplum>
@@ -748,14 +761,15 @@
     <exemplum xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
 	 <s xml:id="ParlaMint-GB_2017-10-30-lords.seg4.1">
-	   <w lemma="I">I</w>
-	   <w lemma="thank">thank</w>
-	   <w lemma="the">the</w>
-	   <w lemma="Minister">Minister</w>
-	   <w lemma="for">for</w>
-	   <w lemma="he">his</w>
-	   <w lemma="response">response</w>
-	   <pc msd="UPosTag=PUNCT" pos=".">.</pc>
+	  <w lemma="I"
+	     msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" pos="PRP">I</w>
+	  <w lemma="support"
+	     msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin" pos="VBP">support</w>
+	  <w lemma="the"
+	     msd="UPosTag=DET|Definite=Def|PronType=Art" pos="DT">the</w>
+	  <w lemma="amendment"
+	     msd="UPosTag=NOUN|Number=Sing" pos="NN" join="right">amendment</w>
+	  <pc msd="UPosTag=PUNCT" pos=".">.</pc>
 	 </s>
       </egXML>
     </exemplum>
@@ -780,7 +794,7 @@
     </attList>
     <exemplum versionDate="2018-02-15" xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-	<s>
+	<s xml:id="ParlaMint-GB_2017-10-30-lords.seg4.1">
 	  <w lemma="I"
 	     msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs" pos="PRP">I</w>
 	  <w lemma="support"
@@ -935,6 +949,9 @@
       </egXML>
     </exemplum>
   </elementSpec>
+  
+  <!-- ET: checked examples to here! -->
+  
   <elementSpec ident="name" module="core" mode="change">
     <desc versionDate="2005-01-14" xml:lang="en">contains a proper noun or noun phrase.</desc>
     <content>
