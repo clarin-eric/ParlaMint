@@ -20,11 +20,13 @@
         </xsl:call-template>
       </xsl:when>
       <xsl:when test="$country = 'BG' and text()='депутат'">
+        <xsl:variable name="role" select="mk:affiliation-role-patch(@role,'parliament')"/>
         <xsl:copy>
           <xsl:apply-templates select="@*[not(name()='role')]"/>
-          <xsl:attribute name="role"><xsl:value-of select="mk:affiliation-role-patch(@role,'parliament')"/></xsl:attribute>
+          <xsl:attribute name="role"><xsl:value-of select="$role"/></xsl:attribute>
           <xsl:attribute name="ref">#NS</xsl:attribute>
           <xsl:call-template name="affiliation-ana"><xsl:with-param name="ref" select="'#NS'"/></xsl:call-template>
+          <xsl:call-template name="affiliation-roleName"><xsl:with-param name="newRole" select="$role"/><xsl:with-param name="orgRole" select="'parliament'"/></xsl:call-template>
         </xsl:copy>
         <xsl:call-template name="error">
           <xsl:with-param name="severity">INFO</xsl:with-param>
@@ -32,11 +34,13 @@
         </xsl:call-template>
       </xsl:when>
       <xsl:when test="$country = 'BG' and @role='primeMinister' and text()='Министър-председател'">
+        <xsl:variable name="role" select="mk:affiliation-role-patch(@role,'government')"/>
         <xsl:copy>
           <xsl:apply-templates select="@*[not(name()='role')]"/>
-          <xsl:attribute name="role"><xsl:value-of select="mk:affiliation-role-patch(@role,'government')"/></xsl:attribute>
+          <xsl:attribute name="role"><xsl:value-of select="$role"/></xsl:attribute>
           <xsl:attribute name="ref">#gov.IzvSv</xsl:attribute>
           <xsl:call-template name="affiliation-ana"><xsl:with-param name="ref" select="'#gov.IzvSv'"/></xsl:call-template>
+          <xsl:call-template name="affiliation-roleName"><xsl:with-param name="newRole" select="$role"/><xsl:with-param name="orgRole" select="'government'"/></xsl:call-template>
         </xsl:copy>
         <xsl:call-template name="error">
           <xsl:with-param name="severity">INFO</xsl:with-param>
@@ -66,6 +70,7 @@
               <xsl:attribute name="ref">#<xsl:value-of select="$org/@xml:id"/></xsl:attribute>
               <xsl:call-template name="affiliation-ana"><xsl:with-param name="ref" select="concat('#',$org/@xml:id)"/></xsl:call-template>
               <xsl:if test="text()"><xsl:comment><xsl:apply-templates select="./text()" mode="serialize"/></xsl:comment></xsl:if>
+              <xsl:call-template name="affiliation-roleName"><xsl:with-param name="newRole" select="$role"/><xsl:with-param name="orgRole" select="$orgRole"/></xsl:call-template>
             </xsl:copy>
             <xsl:variable name="implicated-role" select="mk:affiliation-implicated-role($role,$orgRole)"/>
             <xsl:if test="not($implicated-role='')">
@@ -78,6 +83,7 @@
                 <xsl:attribute name="ref">#<xsl:value-of select="$org/@xml:id"/></xsl:attribute>
                 <xsl:attribute name="role"><xsl:value-of select="$implicated-role"/></xsl:attribute>
                 <xsl:call-template name="affiliation-ana"><xsl:with-param name="ref" select="concat('#',$org/@xml:id)"/></xsl:call-template>
+                <xsl:call-template name="affiliation-roleName"><xsl:with-param name="newRole" select="$implicated-role"/><xsl:with-param name="orgRole" select="$orgRole"/></xsl:call-template>
               </xsl:copy>
             </xsl:if>
           </xsl:when>
@@ -103,16 +109,17 @@
 
 
   <xsl:template match="tei:affiliation[@ref]">
+    <xsl:variable name="ref" select="@ref"/>
+    <xsl:variable name="orgRole" select="./ancestor::tei:particDesc/tei:listOrg/tei:org[@xml:id=substring-after($ref,'#')]/@role"/>
+    <xsl:variable name="role" select="mk:affiliation-role-patch(@role,$orgRole)"/>
+    <xsl:variable name="implicated-role" select="mk:affiliation-implicated-role($role,$orgRole)"/>
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
       <xsl:if test="not(@ana)">
         <xsl:call-template name="affiliation-ana"><xsl:with-param name="ref" select="@ref"/></xsl:call-template>
       </xsl:if>
+      <xsl:call-template name="affiliation-roleName"><xsl:with-param name="newRole" select="$role"/><xsl:with-param name="orgRole" select="$orgRole"/></xsl:call-template>
     </xsl:copy>
-    <xsl:variable name="ref" select="@ref"/>
-    <xsl:variable name="orgRole" select="./ancestor::tei:particDesc/tei:listOrg/tei:org[@xml:id=substring-after($ref,'#')]/@role"/>
-    <xsl:variable name="role" select="mk:affiliation-role-patch(@role,$orgRole)"/>
-    <xsl:variable name="implicated-role" select="mk:affiliation-implicated-role($role,$orgRole)"/>
     <xsl:if test="not($implicated-role='')">
       <xsl:variable name="implicated-affiliation" select="mk:affiliation-implicated-role-existence(./parent::tei:person,$implicated-role, $ref, mk:get_from(.), mk:get_to(.))"/>
       <xsl:choose>
@@ -133,6 +140,7 @@
             <xsl:if test="not(@ana)">
               <xsl:call-template name="affiliation-ana"><xsl:with-param name="ref" select="$ref"/></xsl:call-template>
             </xsl:if>
+            <xsl:call-template name="affiliation-roleName"><xsl:with-param name="newRole" select="$implicated-role"/><xsl:with-param name="orgRole" select="$orgRole"/></xsl:call-template>
           </xsl:copy>
         </xsl:otherwise>
       </xsl:choose>
@@ -214,12 +222,33 @@
               <xsl:with-param name="severity">ERROR</xsl:with-param>
               <xsl:with-param name="msg">INFO: unable to add corresponding event</xsl:with-param>
             </xsl:call-template>
-            <xsl:comment>unable to add @ana - missing organization corresponding event</xsl:comment>
           </xsl:otherwise>
-
         </xsl:choose>
       </xsl:if>
     </xsl:if>
+  </xsl:template>
+
+  <xsl:template name="affiliation-roleName">
+    <xsl:param name="newRole"><xsl:value-of select="./@role"/></xsl:param>
+    <xsl:param name="orgRole"/>
+    <xsl:variable name="roleName" select="mk:affiliation-roleName-default(@role, $newRole, $orgRole)"/>
+    <xsl:choose>
+      <!-- copy current roleName elements -->
+      <xsl:when test="tei:roleName">
+        <xsl:apply-templates select="tei:roleName"/>
+      </xsl:when>
+      <!-- copy text content into roleName element -->
+      <xsl:when test="normalize-space(text())">
+        <xsl:element name="roleName"><xsl:value-of select="text()"/></xsl:element>
+      </xsl:when>
+      <!-- use default value if any -->
+      <xsl:when test="$roleName">
+        <xsl:element name="roleName">
+          <xsl:attribute name="xml:lang">en</xsl:attribute>
+          <xsl:value-of select="$roleName"/>
+        </xsl:element>
+      </xsl:when>
+    </xsl:choose>
   </xsl:template>
 
   <!-- FUNCTIONS -->
@@ -331,4 +360,41 @@
     </xsl:choose>
   </xsl:function>
 
+  <xsl:function name="mk:affiliation-roleName-default">
+    <xsl:param name="old"/>
+    <xsl:param name="new"/>
+    <xsl:param name="org"/>
+    <xsl:choose>
+      <xsl:when test="$org = 'parliament' and $new='member'">MP</xsl:when>
+      <xsl:when test="$org != 'parliament' and $org and $new='member'">Member</xsl:when>
+      <xsl:when test="$old = 'MP' and $new='member'">MP</xsl:when>
+      <xsl:when test="$new = 'member'">Member</xsl:when>
+      <xsl:when test="$old = 'presidiumMember'">Presidium Member</xsl:when>
+      <xsl:when test="$old = 'president'">President</xsl:when>
+      <xsl:when test="$old = 'chairman'">Chair Person</xsl:when>
+      <xsl:when test="$old = 'chairperson'">Chair Person</xsl:when>
+      <xsl:when test="$old = 'speaker'">Speaker</xsl:when>
+      <xsl:when test="$old = 'headOfDelegation'">Head of Delegation</xsl:when>
+      <xsl:when test="$old = 'leader'">Leader</xsl:when>
+      <xsl:when test="$old = 'presidentEP'">President of EP</xsl:when>
+      <xsl:when test="$old = 'primeMinister'">Prime Minister</xsl:when>
+      <xsl:when test="$old = 'director'">Director</xsl:when>
+      <xsl:when test="$old = 'headOfDepartment'">Head of Department</xsl:when>
+      <xsl:when test="$old = 'chiefInspector'">Chief Inspector</xsl:when>
+      <xsl:when test="$old = 'commander'">Commander</xsl:when>
+      <xsl:when test="$old = 'vicePresident'">Vice President</xsl:when>
+      <xsl:when test="$old = 'viceChairman'">Vice Chairman</xsl:when>
+      <xsl:when test="$old = 'viceDirector'">Vice Director</xsl:when>
+      <xsl:when test="$old = 'deputyChief'">Deputy Chief</xsl:when>
+      <xsl:when test="$old = 'deputyPrimeMinister'">Deputy Prime Minister</xsl:when>
+      <xsl:when test="$old = 'candidateMP'">Candidate MP</xsl:when>
+      <xsl:when test="$old = 'minister'">Minister</xsl:when>
+      <xsl:when test="$old = 'ministerOfState'">Minister of State</xsl:when>
+      <xsl:when test="$old = 'deputyMinister'">Deputy Minister</xsl:when>
+      <xsl:when test="$new = 'secretary'">Secretary</xsl:when>
+      <xsl:when test="$old = 'substituteMP'">Substitute MP</xsl:when>
+      <xsl:when test="$old = 'replacement'">Replacement</xsl:when>
+      <xsl:otherwise/>
+    </xsl:choose>
+  </xsl:function>
 </xsl:stylesheet>
