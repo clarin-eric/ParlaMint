@@ -283,19 +283,19 @@
     <xsl:param name="orgrole"/>
     <xsl:choose>
       <!-- parliament -->
-      <xsl:when test="$role='president' and $orgrole='parliament'">member</xsl:when>
-      <xsl:when test="$role='vicePresident' and $orgrole='parliament'">member</xsl:when>
+      <xsl:when test="$role='head' and $orgrole='parliament'">member</xsl:when>
+      <xsl:when test="$role='deputyHead' and $orgrole='parliament'">member</xsl:when>
       <!-- parliamentaryGroup -->
-      <xsl:when test="$role='president' and $orgrole='parliamentaryGroup'">member</xsl:when>
-      <xsl:when test="$role='vicePresident' and $orgrole='parliamentaryGroup'">member</xsl:when>
+      <xsl:when test="$role='head' and $orgrole='parliamentaryGroup'">member</xsl:when>
+      <xsl:when test="$role='deputyHead' and $orgrole='parliamentaryGroup'">member</xsl:when>
       <!-- government -->
-      <xsl:when test="$role='president' and $orgrole='government'">member</xsl:when>
-      <xsl:when test="$role='vicePresident' and $orgrole='government'">member</xsl:when>
+      <xsl:when test="$role='head' and $orgrole='government'">member</xsl:when>
+      <xsl:when test="$role='deputyHead' and $orgrole='government'">member</xsl:when>
       <xsl:when test="$role='minister' and $orgrole='government'">member</xsl:when>
 
       <!-- general organization -->
-      <xsl:when test="$role='president'">member</xsl:when>
-      <xsl:when test="$role='vicePresident'">member</xsl:when>
+      <xsl:when test="$role='head'">member</xsl:when>
+      <xsl:when test="$role='deputyHead'">member</xsl:when>
       <xsl:otherwise><xsl:text/></xsl:otherwise>
     </xsl:choose>
   </xsl:function>
@@ -313,20 +313,19 @@
     <xsl:param name="role"/>
     <xsl:param name="orgrole"/>
     <xsl:choose>
-      <!-- parliament -->
-      <xsl:when test="contains(' president chairman speaker ', mk:borders($role)) and $orgrole='parliament'">president</xsl:when>
-      <xsl:when test="contains(' vicePresident viceChairman ', mk:borders($role)) and $orgrole='parliament'">vicePresident</xsl:when>
-      <!-- parliamentaryGroup -->
-      <xsl:when test="contains(' president chairman chairperson ', mk:borders($role)) and $orgrole='parliamentaryGroup'">president</xsl:when>
-      <xsl:when test="contains(' vicePresident viceChairman ', mk:borders($role)) and $orgrole='parliamentaryGroup'">vicePresident</xsl:when>
-      <!-- government -->
-      <xsl:when test="contains(' president chairman primeMinister ', mk:borders($role)) and $orgrole='government'">president</xsl:when>
-      <xsl:when test="contains(' vicePresident viceChairman deputyPrimeMinister ', mk:borders($role)) and $orgrole='government'">vicePresident</xsl:when>
+      <!-- government - specific -->
+      <xsl:when test="contains(' primeMinister ', mk:borders($role)) and $orgrole='government'">head</xsl:when>
+      <xsl:when test="contains(' deputyPrimeMinister ', mk:borders($role)) and $orgrole='government'">deputyHead</xsl:when>
+      <xsl:when test="contains(' ministerOfState ', mk:borders($role)) and $orgrole='government'">minister</xsl:when>
 
-      <!-- general organization - do nothing -->
-      <xsl:when test="contains(' president chairman chairperson speaker leader ', mk:borders($role))">president</xsl:when>
-      <xsl:when test="contains(' vicePresident viceChairman ', mk:borders($role))">vicePresident</xsl:when>
-      <xsl:when test="contains(' MP ', mk:borders($role))">member</xsl:when>
+      <!-- ministry - specific -->
+      <xsl:when test="contains(' deputyMinister ', mk:borders($role)) and $orgrole='ministry'">minister</xsl:when>
+
+      <xsl:when test="contains(' president chairman chairperson speaker headOfDelegation leader presidentEP director headOfDepartment chiefInspector commander ', mk:borders($role))">head</xsl:when>
+      <xsl:when test="contains(' vicePresident viceChairman viceDirector deputyChief ', mk:borders($role))">deputyHead</xsl:when>
+      <xsl:when test="contains(' MP presidiumMember ', mk:borders($role))">member</xsl:when>
+      <xsl:when test="contains(' candidateMP ', mk:borders($role))">representative</xsl:when>
+      <xsl:when test="contains(' substituteMP ', mk:borders($role))">replacement</xsl:when>
 
       <xsl:otherwise><xsl:value-of select="$role"/></xsl:otherwise>
     </xsl:choose>
