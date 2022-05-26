@@ -1367,9 +1367,9 @@
 	      short, the theoretically possible values of <att>ana</att> for the parliament
 	      organisations are:
 	      <list>
-		<item><code>#parla.federal #parla.uni</code>: federal parliament, unicameral system</item>
-		<item><code>#parla.federal #parla.lower</code>: federal parliament, lower house</item>
-		<item><code>#parla.federal #parla.upper</code>: federal parliament, upper house</item>
+		<item><code>#parla.national #parla.uni</code>: national parliament, unicameral system</item>
+		<item><code>#parla.national #parla.lower</code>: national parliament, lower house</item>
+		<item><code>#parla.national #parla.upper</code>: national parliament, upper house</item>
 		<item><code>#parla.regional #parla.uni</code>: regional parliament, unicameral system</item>
 		<item><code>#parla.regional #parla.lower</code>: regional parliament, lower house</item>
 		<item><code>#parla.regional #parla.upper</code>: regional parliament, upper house</item>
@@ -1380,7 +1380,7 @@
 	      the successive parliaments, using the <gi>event</gi> element:
 	      
 	      <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-parliament">
-		<org ana="#parla.federal #parla.lower"
+		<org ana="#parla.national #parla.lower"
                      role="parliament"
                      xml:id="be_federal_parliament">
                   <orgName full="yes" xml:lang="nl">Federaal Parlement van België</orgName>
