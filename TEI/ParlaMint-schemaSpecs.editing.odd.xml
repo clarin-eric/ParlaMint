@@ -1620,7 +1620,13 @@
     <content>
       <textNode/>
     </content>
-    <attList/>
+    <attList>
+      <attDef ident="xml:lang" mode="replace" usage="opt">
+        <datatype>
+          <dataRef key="teidata.language"/>
+        </datatype>
+      </attDef>
+    </attList>
     <exemplum xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
 	<persName>
@@ -1628,6 +1634,14 @@
           <forename>Jasna</forename>
           <roleName>dr.</roleName>
         </persName>
+      </egXML>
+    </exemplum>
+    <exemplum xml:lang="en">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+        <affiliation role="minister" ref="#GOV" from="2020-08-01">
+	  <roleName xml:lang="sl">Minister za obrambo</roleName>
+	  <roleName xml:lang="en">Minister of Defence</roleName>
+	</affiliation>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -2156,6 +2170,7 @@
     <desc versionDate="2013-01-10" xml:lang="en">indicates the location of any form of external media such as
     an audio or video clip etc.</desc>
     <content>
+      <empty/>
     </content>
     <attList>
       <pm:attPreserve ident="xml:id"/>
@@ -2441,6 +2456,7 @@
         versionDate="2016-02-16"
         xml:lang="en">documents the usage of a specific element within a specified document.</desc>
     <content>
+      <empty/>
     </content>
     <attList>
       <attDef ident="gi" mode="change" usage="req">
@@ -3525,7 +3541,7 @@
         xml:lang="en">contains an informal description of a person's present or past affiliation with some
     organization, for example an employer or sponsor.</desc>
     <content>
-      <empty/>
+      <elementRef key="roleName" minOccurs="0" maxOccurs="unbounded"/>
     </content>
     <attList>
       <attDef ident="role" mode="replace" usage="req">

@@ -481,7 +481,12 @@
           <!--value>speaker</value-->
 	</choice>
       </attribute>
-      <empty/>
+      <zeroOrMore>
+	<element name="roleName">
+	  <ref name="lang.att"/>
+	  <text/>
+	</element>
+      </zeroOrMore>
     </element>
   </define>
 

@@ -583,9 +583,7 @@
   
   <define name="desc">
     <element name="desc">
-      <optional>
-	<ref name="lang.att"/>
-      </optional>
+      <ref name="lang.att"/>
       <text/>
     </element>
   </define>
@@ -733,9 +731,7 @@
     <optional>
       <ref name="id.att"/>
     </optional>
-    <optional>
-      <ref name="lang.att"/>
-    </optional>
+    <ref name="lang.att"/>
     <optional>
       <attribute name="n">
         <data type="string"/>

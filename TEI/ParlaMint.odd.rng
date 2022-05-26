@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2022-05-26T09:40:58Z. 2022-05-24.
+Schema generated from ODD source 2022-05-26T10:02:12Z. 2022-05-24.
 TEI Edition: Version 4.4.0a. Last updated on
         14th March 2022, revision 3a89ab0a0
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
@@ -2752,6 +2752,19 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
       <element name="roleName">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(role name) contains a name component which indicates that the referent has a particular role or position in society, such as an official title or rank. [13.2.1. Personal Names]</a:documentation>
          <text/>
+         <optional>
+            <attribute name="xml:lang">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <choice>
+                  <data type="language"/>
+                  <choice>
+                     <value/>
+                     <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  </choice>
+               </choice>
+            </attribute>
+         </optional>
+         <empty/>
       </element>
    </define>
    <define name="tei_placeName">
@@ -2770,7 +2783,9 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
    <define name="tei_affiliation">
       <element name="affiliation">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(affiliation) contains an informal description of a person's present or past affiliation with some organization, for example an employer or sponsor. [15.2.2. The Participant Description]</a:documentation>
-         <empty/>
+         <zeroOrMore>
+            <ref name="tei_roleName"/>
+         </zeroOrMore>
          <ref name="tei_att.global.analytic.attribute.ana"/>
          <ref name="tei_att.datable.w3c.attribute.when"/>
          <ref name="tei_att.datable.w3c.attribute.from"/>

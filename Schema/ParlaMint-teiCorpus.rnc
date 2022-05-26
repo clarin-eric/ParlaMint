@@ -258,7 +258,7 @@ affiliation =
         ]
         "viceDirector"
     },
-    empty
+    element roleName { lang.att, text }*
   }
 occupation = element occupation { global.atts, temporal.atts?, text }
 education = element education { global.atts, temporal.atts?, text }

@@ -2532,9 +2532,13 @@
          <textNode/>
       </content>
       <attList>
+         <attDef ident="xml:lang" mode="replace" usage="opt">
+            <datatype>
+               <dataRef key="teidata.language"/>
+            </datatype>
+         </attDef>
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -2570,6 +2574,14 @@
                <forename>Jasna</forename>
                <roleName>dr.</roleName>
             </persName>
+         </egXML>
+      </exemplum>
+      <exemplum xml:lang="en">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+            <affiliation role="minister" ref="#GOV" from="2020-08-01">
+               <roleName xml:lang="sl">Minister za obrambo</roleName>
+               <roleName xml:lang="en">Minister of Defence</roleName>
+            </affiliation>
          </egXML>
       </exemplum>
    </elementSpec>
@@ -3627,7 +3639,8 @@
       <desc versionDate="2013-01-10" xml:lang="en">indicates the location of any form of external media such as
     an audio or video clip etc.</desc>
       <content>
-    </content>
+         <empty/>
+      </content>
       <attList><!--media/@xml:id--><!--media/@mimeType--><!--media/@source--><!--media/@url-->
          <attDef ident="type" mode="delete"/>
          <attDef ident="subtype" mode="delete"/>
@@ -4156,7 +4169,8 @@
    <elementSpec ident="tagUsage" module="header" mode="change">
       <desc versionDate="2016-02-16" xml:lang="en">documents the usage of a specific element within a specified document.</desc>
       <content>
-    </content>
+         <empty/>
+      </content>
       <attList>
          <attDef ident="gi" mode="change" usage="req">
             <desc versionDate="2013-11-20" xml:lang="en">specifies the name
@@ -6051,7 +6065,7 @@
       <desc versionDate="2005-01-14" xml:lang="en">contains an informal description of a person's present or past affiliation with some
     organization, for example an employer or sponsor.</desc>
       <content>
-         <empty/>
+         <elementRef key="roleName" minOccurs="0" maxOccurs="unbounded"/>
       </content>
       <attList>
          <attDef ident="role" mode="replace" usage="req">
