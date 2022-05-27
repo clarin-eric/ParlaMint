@@ -14,16 +14,17 @@
     <xsl:variable name="personId" select="./parent::tei:person/@xml:id"/>
     <xsl:variable name="person" select="./parent::tei:person"/>
     <xsl:variable name="ref" select="@ref"/>
-    <xsl:variable name="from" select="@from"/>
-    <xsl:variable name="to" select="@to"/>
+    <xsl:variable name="from" select="mk:get_from(.)"/>
+    <xsl:variable name="to" select="mk:get_to(.)"/>
     <xsl:variable name="ana" select="@ana"/>
-    <xsl:variable name="text" select="./text()"/>
+    <xsl:variable name="text" select="./text()[normalize-space(.)]"/>
 
     <xsl:if test="$text">
       <xsl:call-template name="affiliation-error">
         <xsl:with-param name="ident">02</xsl:with-param>
         <xsl:with-param name="msg">
-          <xsl:text>Contains text value</xsl:text>
+          <xsl:text>Contains text value'</xsl:text>
+          <xsl:value-of select="$text"/><xsl:text>'</xsl:text>
         </xsl:with-param>
       </xsl:call-template>
     </xsl:if>
@@ -35,8 +36,8 @@
           <xsl:when test="$affWith/local-name()='org'"> <!-- affiliation with organization -->
             <xsl:variable name="orgFrom" select="mk:get_org_from($affWith)"/>
             <xsl:variable name="orgTo" select="mk:get_org_to($affWith)"/>
-            <xsl:variable name="affFrom" select="mk:fix_date(mk:get_from(.),'-01-01','T00:00:00')"/>
-            <xsl:variable name="affTo" select="mk:fix_date(mk:get_to(.),'-12-31','T23:59:59')"/>
+            <xsl:variable name="affFrom" select="mk:fix_date($from,'-01-01','T00:00:00')"/>
+            <xsl:variable name="affTo" select="mk:fix_date($to,'-12-31','T23:59:59')"/>
 
             <xsl:if test="following-sibling::tei:affiliation
                             [@role='member'][not(@from or @to)][@ref = $ref]">
@@ -109,7 +110,13 @@
 
             <xsl:variable name="implicated-role" select="mk:affiliation-implicated-role(@role,$affWith/@role)"/>
             <xsl:if test="not($implicated-role = '')">
-              <xsl:variable name="implicated-affiliation" select="$person/affiliation[@role=$implicated-role and $affFrom>=mk:get_from(.) and mk:get_to(.)>=$affTo ]"/>
+              <xsl:message>DEBUG:<xsl:value-of select="$implicated-role"/>|<xsl:value-of select="$ref"/>|<xsl:value-of select="$from"/>...<xsl:value-of select="$to"/>|<xsl:apply-templates mode="serialize" select="$person/tei:affiliation[@role=$implicated-role and @ref=$ref and $from>=mk:get_from(.) and mk:get_to(.)>=$to ]"/></xsl:message>
+              <xsl:message>DEBUG:    FROM   <xsl:apply-templates mode="serialize" select="$person/tei:affiliation[@role=$implicated-role and @ref=$ref and $from>=mk:get_from(.) and mk:get_to(.)>=$from ]"/></xsl:message>
+              <xsl:message>DEBUG:    TO     <xsl:apply-templates mode="serialize" select="$person/tei:affiliation[@role=$implicated-role and @ref=$ref and $to>=mk:get_from(.) and mk:get_to(.)>=$to ]"/></xsl:message>
+              <xsl:message>DEBUG:    ??     <xsl:apply-templates mode="serialize" select="$person/tei:affiliation[@role=$implicated-role and @ref=$ref]"/></xsl:message>
+              <xsl:message>DEBUG:  all affs <xsl:apply-templates mode="serialize" select="$person/tei:affiliation[@ref=$ref]"/></xsl:message>
+
+              <xsl:variable name="implicated-affiliation" select="$person/tei:affiliation[@role=$implicated-role and @ref=$ref and $from>=mk:get_from(.) and mk:get_to(.)>=$to ]"/>
               <xsl:if test="not($implicated-affiliation)">
                 <xsl:variable name="severity">
                   <xsl:choose>
@@ -170,6 +177,14 @@
         </xsl:with-param>
       </xsl:call-template>
     </xsl:if>
+    <xsl:if test="@role='parliament' and not( (contains(mk:borders(@ana),' #parla.national ') or contains(mk:borders(@ana),' #parla.regional ')) and (contains(mk:borders(@ana),' #parla.uni ') or contains(mk:borders(@ana),' #parla.lower ') or contains(mk:borders(@ana),' #parla.upper '))) ">
+      <xsl:call-template name="error">
+        <xsl:with-param name="ident">19</xsl:with-param>
+        <xsl:with-param name="msg">
+          <xsl:text>Parliament organization without geo-political(#parla.national/#parla.regional) or chamber(#parla.uni/#parla.lower/#parla.upper) classification</xsl:text>
+        </xsl:with-param>
+      </xsl:call-template>
+    </xsl:if>
     <xsl:choose>
       <xsl:when test="@xml:id">
         <!-- organization without affiliation -->
@@ -189,9 +204,15 @@
         <xsl:if test="$affCnt = 0">
           <xsl:call-template name="error">
             <xsl:with-param name="ident">10</xsl:with-param>
-            <xsl:with-param name="severity">WARN</xsl:with-param>
+            <xsl:with-param name="severity">
+              <xsl:choose>
+                <xsl:when test="mk:is-obligatory('org',./@role)">ERROR</xsl:when>
+                <xsl:otherwise>WARN</xsl:otherwise>
+              </xsl:choose>
+            </xsl:with-param>
             <xsl:with-param name="msg">
-              <xsl:text>Organisation without affiliation: #</xsl:text>
+              <xsl:value-of select="@role"/>
+              <xsl:text>-role organisation without affiliation: #</xsl:text>
               <xsl:value-of select="@xml:id"/>
             </xsl:with-param>
           </xsl:call-template>
@@ -315,7 +336,7 @@
       <xsl:with-param name="ident">12</xsl:with-param>
       <xsl:with-param name="severity">
         <xsl:choose>
-          <xsl:when test="$min >= $cnt and ($max=-1 or $cnt >= $max) "><xsl:value-of select="$severity"/></xsl:when>
+          <xsl:when test="$min > $cnt or ($max >=0 and $cnt > $max) "><xsl:value-of select="$severity"/></xsl:when>
           <xsl:otherwise>INFO</xsl:otherwise>
         </xsl:choose>
       </xsl:with-param>
@@ -410,11 +431,11 @@
     <xsl:param name="orgrole"/>
     <xsl:choose>
       <!-- TODO: extend rules -->
-      <xsl:when test="$role = 'MP'">14:ERROR)not allowed in any context</xsl:when>
-      <xsl:when test="$orgrole = 'parliament' and contains(' minister primeMinister chairman viceChairman ', mk:borders($role))">15:ERROR)invalid affiliation role with parliament organization</xsl:when>
-      <xsl:when test="$orgrole = 'parliament' and not(contains(' president member vicePresident verifier speaker ', mk:borders($role)))">15:WARN)invalid affiliation role with parliament organization</xsl:when>
-      <xsl:when test="$orgrole = 'government' and not(contains(' president member minister ', mk:borders($role)))">16:WARN)invalid affiliation role with government organization</xsl:when>
-      <xsl:when test="$orgrole = 'parliamentaryGroup' and not(contains(' president member ', mk:borders($role)))">17:WARN)invalid affiliation role with parliamentary group organization</xsl:when>
+      <xsl:when test="contains(' MP primeMinister chairman viceChairman ', $role)">14:ERROR)not allowed in any context</xsl:when>
+      <xsl:when test="$orgrole = 'parliament' and contains(' minister ', mk:borders($role))">15:ERROR)invalid affiliation role with parliament organization</xsl:when>
+      <xsl:when test="$orgrole = 'parliament' and not(contains(' head member deputyHead ', mk:borders($role)))">15:WARN)unexpected affiliation role with parliament organization</xsl:when>
+      <xsl:when test="$orgrole = 'government' and not(contains(' head member deputyHead minister ', mk:borders($role)))">16:WARN)unexpected affiliation role with government organization</xsl:when>
+      <xsl:when test="$orgrole = 'parliamentaryGroup' and not(contains(' head deputyHead member ', mk:borders($role)))">17:WARN)unexpected affiliation role with parliamentary group organization</xsl:when>
       <xsl:otherwise>PASS</xsl:otherwise>
     </xsl:choose>
   </xsl:function>
@@ -424,19 +445,19 @@
     <xsl:param name="orgrole"/>
     <xsl:choose>
       <!-- parliament -->
-      <xsl:when test="$role='president' and $orgrole='parliament'">member</xsl:when>
-      <xsl:when test="$role='vicePresident' and $orgrole='parliament'">member</xsl:when>
+      <xsl:when test="$role='head' and $orgrole='parliament'">member</xsl:when>
+      <xsl:when test="$role='deputyHead' and $orgrole='parliament'">member</xsl:when>
       <!-- parliamentaryGroup -->
-      <xsl:when test="$role='president' and $orgrole='parliamentaryGroup'">member</xsl:when>
-      <xsl:when test="$role='vicePresident' and $orgrole='parliamentaryGroup'">member</xsl:when>
+      <xsl:when test="$role='head' and $orgrole='parliamentaryGroup'">member</xsl:when>
+      <xsl:when test="$role='deputyHead' and $orgrole='parliamentaryGroup'">member</xsl:when>
       <!-- government -->
-      <xsl:when test="$role='president' and $orgrole='government'">member</xsl:when>
-      <xsl:when test="$role='vicePresident' and $orgrole='government'">member</xsl:when>
+      <xsl:when test="$role='head' and $orgrole='government'">member</xsl:when>
+      <xsl:when test="$role='deputyHead' and $orgrole='government'">member</xsl:when>
       <xsl:when test="$role='minister' and $orgrole='government'">member</xsl:when>
 
       <!-- general organization -->
-      <xsl:when test="$role='president'">member</xsl:when>
-      <xsl:when test="$role='vicePresident'">member</xsl:when>
+      <xsl:when test="$role='head'">member</xsl:when>
+      <xsl:when test="$role='deputyHead'">member</xsl:when>
       <xsl:otherwise><xsl:text/></xsl:otherwise>
     </xsl:choose>
   </xsl:function>
