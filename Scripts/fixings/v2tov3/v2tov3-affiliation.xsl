@@ -188,6 +188,9 @@
   <xsl:template match="@role[./parent::tei:org]" priority="1">
     <xsl:attribute name="role">
       <xsl:choose>
+        <xsl:when test="($country = 'GB' or $country = 'NL' or $country = 'PL') and . = 'politicalParty'"><!-- do  not fix bicameral with both houses -->
+          <xsl:value-of select="."/>
+        </xsl:when>
         <xsl:when test="not($country = 'CZ') and . = 'politicalParty'">parliamentaryGroup</xsl:when>
         <xsl:when test=". = 'politicalGroup'">parliamentaryGroup</xsl:when>
         <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
