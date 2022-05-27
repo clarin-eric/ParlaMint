@@ -287,7 +287,7 @@ comment =
       who.att?,
       desc
     }
-desc = element desc { lang.att?, text }
+desc = element desc { lang.att, text }
 # GENERALLY USEFUL DEFINITIONS
 head =
   element head {
@@ -343,7 +343,7 @@ who.att = attribute who { xsd:anyURI }
 ref.att = attribute ref { xsd:anyURI }?
 global.atts =
   id.att?,
-  lang.att?,
+  lang.att,
   attribute n { xsd:string }?
 
 ## "analysis" indicates one or more elements

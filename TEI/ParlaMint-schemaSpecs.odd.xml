@@ -10,6 +10,7 @@
             prefix="tei_"
             docLang="en"
             xml:lang="en">
+
   <!-- Elements used in ParlaMint: -->
    <moduleRef key="tei"/>
    <moduleRef key="core"
@@ -196,64 +197,14 @@
          <attDef ident="subtype" mode="delete"/>
       </attList>
       <exemplum xml:lang="en">
-         <p>Example of basic <gi>TEI</gi> element structure:
-      </p>
+         <p>Example of ParlaMint corpus component:</p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-            <TEI version="3.3.0">
-               <teiHeader>
-                  <fileDesc>
-                     <titleStmt>
-                        <title>The shortest TEI Document Imaginable</title>
-                     </titleStmt>
-                     <publicationStmt>
-                        <p>First published as part of TEI P2, this is the P5
-		version using a name space.</p>
-                     </publicationStmt>
-                     <sourceDesc>
-                        <p>No source: this is an original work.</p>
-                     </sourceDesc>
-                  </fileDesc>
-               </teiHeader>
-               <text>
-                  <body>
-                     <p>This is about the shortest TEI document imaginable.</p>
-                  </body>
-               </text>
-            </TEI>
-         </egXML>
-      </exemplum>
-      <exemplum xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-            <TEI xml:id="ParlaMint-GB_2017-01-24-lords.ana"
+            <TEI xml:id="ParlaMint-GB_2015-01-06-commons"
                  xml:lang="en"
                  ana="#parla.sitting #reference">
-               <teiHeader>
-                  <fileDesc>
-                     <titleStmt>
-                        <title type="main">Great Britain parliamentary corpus ParlaMint-GB, Lords, 2017-01-24</title>
-                        <title type="sub">Minutes of the House of Lords, Daily Session 2017-01-24</title>
-                     </titleStmt>
-                     <publicationStmt>
-                        <publisher>
-                           <orgName>CLARIN research infrastructure</orgName>
-                           <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
-                        </publisher>
-                     </publicationStmt>
-                     <sourceDesc>
-                        <bibl>
-                           <title>UK Parliamentary Corpus. Volume 778. Tuesday 24th January 2017.</title>
-                           <idno type="URI">https://hansard-api.parliament.uk/debates/debate/274aedf2-bd98-4197-b93a-7fe487c6e079.xml</idno>
-                           <date when="2017-01-24"/>
-                        </bibl>
-                     </sourceDesc>
-                  </fileDesc>
-               </teiHeader>
+               <teiHeader>...</teiHeader>
                <text ana="#reference">
-                  <body>
-                     <div type="debateSection">...</div>
-                     <div type="debateSection">...</div>
-	      ...
-	    </body>
+                  <body>...</body>
                </text>
             </TEI>
          </egXML>
@@ -334,23 +285,8 @@
       <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <body>
-               <div type="debateSection">
-                  <pb n="1"/>
-                  <head>Child Poverty Unit</head>
-                  <note>Question</note>
-                  <note>Asked by</note>
-                  <u>...</u>
-	    ...
-	    <pb n="2"/>
-	    ...
-	  </div>
-               <div type="debateSection">
-                  <head>Trade Union Act 2016 (Political Funds)</head>
-                  <note>Motion to Approve</note>
-                  <note>Moved by</note>
-                  <u>...</u>
-	    ...
-	  </div>
+               <div type="debateSection">...</div>
+               <div type="debateSection">...</div>
 	  ...
 	</body>
          </egXML>
@@ -416,13 +352,13 @@
       </attList>
       <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-            <text ana="#reference">
-               <body>
-                  <div type="debateSection">...</div>
-                  <div type="debateSection">...</div>
-	    ...
-	  </body>
-            </text>
+            <div type="debateSection">
+               <head>Devolution of Power (Cities)</head>
+               <u xml:id="ParlaMint-GB_2015-01-06-commons.u1">...</u>
+               <u xml:id="ParlaMint-GB_2015-01-06-commons.u2">...</u>
+	  ...
+	  <note>House adjourned.</note>
+            </div>
          </egXML>
       </exemplum>
    </elementSpec>
@@ -505,7 +441,9 @@
       </attList>
       <exemplum xml:lang="en">
          <p>
-            <gi>note</gi> element can be used to encode transcriber comments such as who spoke, what the time was, interruptions, notes on what is happening in the chamber, results of voting...:
+            <gi>note</gi> element is used to encode transcriber comments such as who spoke, what
+      the time was, interruptions, notes on what is happening in the chamber, results of
+      voting etc.:
       </p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <note type="speaker">The president, Dr. Milan Brglez:</note>
@@ -519,22 +457,14 @@
       </egXML>
       </exemplum>
       <exemplum xml:lang="en">
-         <p>The <gi>note</gi> element may also be used to mark additional information on debate sections:
-      </p>
+         <p>The <gi>note</gi> element may also be used to mark additional information on debate sections:</p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <div type="debateSection">
                <head>Business Before Questions</head>
                <note>Death of a Member</note>
-               <u xml:id="ParlaMint-GB_2019-02-18-commons.u1"
-                  ana="#chair"
-                  who="#JohnBercow">
-                  <seg xml:id="ParlaMint-GB_2019-02-18-commons.seg1">
-                     <s xml:id="ParlaMint-GB_2019-02-18-commons.seg1.1">
-		...
-	      </s>
-                  </seg>
-               </u>
-               <note>End of debateSection.</note>
+               <u xml:id="ParlaMint-GB_2019-02-18-commons.u1">...</u>
+	  ...
+	  <note>End of debateSection.</note>
             </div>
          </egXML>
       </exemplum>
@@ -594,29 +524,8 @@
       </attList>
       <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-            <vocal dur="PT12S">
-               <desc>whistles</desc>
-            </vocal>
-         </egXML>
-      </exemplum>
-      <exemplum xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-            <vocal iterated="true">
-               <desc>whistles intermittently</desc>
-            </vocal>
-         </egXML>
-      </exemplum>
-      <exemplum xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <vocal type="interruption">
-               <desc>noise from the hall</desc>
-            </vocal>
-         </egXML>
-      </exemplum>
-      <exemplum xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-            <vocal type="speaking">
-               <desc>Agreement</desc>
+               <desc>Interruption from the chair: Your time is up.</desc>
             </vocal>
          </egXML>
       </exemplum>
@@ -675,13 +584,6 @@
       </attList>
       <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-            <kinesic dur="PT1.5S" iterated="true" type="reinforcing">
-               <desc>nodding head vigorously</desc>
-            </kinesic>
-         </egXML>
-      </exemplum>
-      <exemplum xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <kinesic type="signal">
                <desc>sign for the end of discussion</desc>
             </kinesic>
@@ -689,15 +591,15 @@
       </exemplum>
       <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-            <kinesic type="gesture">
-               <desc>shows</desc>
+            <kinesic type="laughter">
+               <desc xml:lang="hr">smijeh.</desc>
             </kinesic>
          </egXML>
       </exemplum>
       <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <kinesic type="applause">
-               <desc>applause</desc>
+               <desc xml:lang="sl">ploskanje</desc>
             </kinesic>
          </egXML>
       </exemplum>
@@ -883,7 +785,13 @@
       </attList>
       <exemplum xml:lang="en" versionDate="2021-03-15">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-            <p>Example of a <gi>desc</gi> element for transcriber comments:</p>
+            <p>Example of <gi>desc</gi> elements for transcriber comments:</p>
+            <gap reason="inaudible">
+               <desc>speaker spoke too quietly, not understood</desc>
+            </gap>
+            <kinesic type="applause">
+               <desc xml:lang="sl">ploskanje</desc>
+            </kinesic>
             <vocal type="interruption">
                <desc>sounds from the chamber</desc>
             </vocal>
@@ -892,32 +800,24 @@
                <desc>signal for end of debate</desc>
             </kinesic>
 	...
-	
 	<incident type="action">
                <desc>minute of silence</desc>
             </incident>
          </egXML>
       </exemplum>
       <exemplum xml:lang="en" versionDate="2021-03-15">
-         <p>Example of a <gi>desc</gi> element used as a part of taxonomy:</p>
+         <p>Example of <gi>desc</gi> elements used as a part of taxonomy:</p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <taxonomy xml:id="parla.legislature">
+               <desc xml:lang="sl">
+                  <term>Zakonodajna oblast</term>
+               </desc>
                <desc>
                   <term>Legislature</term>
                </desc>
 	  ...
 	</taxonomy>
          </egXML>
-      </exemplum>
-      <exemplum xml:lang="en" versionDate="2021-03-15">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-            <p>Example of a <gi>desc</gi> to describe gaps in the transcript:</p>
-	... I would further state that
-	<gap reason="inaudible">
-               <desc>speaker spoke too quietly, not understood</desc>
-            </gap>
-	and furthermore ...
-      </egXML>
       </exemplum>
    </elementSpec>
    <elementSpec ident="term" module="core" mode="change">
@@ -961,13 +861,24 @@
          <attDef ident="cRef" mode="delete"/>
       </attList>
       <exemplum xml:lang="en">
+         <p>
+            <gi>term</gi> is used inside taxonomies to name the taxonomy and its categories:</p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-            <desc xml:lang="sl">
-               <term>Podkorpusi</term>
-            </desc>
-            <desc xml:lang="en">
-               <term>Subcorpora</term>
-            </desc>
+            <taxonomy xml:id="subcorpus">
+               <desc xml:lang="sl">
+                  <term>Podkorpusi</term>
+               </desc>
+               <desc xml:lang="en">
+                  <term>Subcorpora</term>
+               </desc>
+               <category xml:id="reference">
+                  <catDesc xml:lang="sl">
+                     <term>Referenca</term>: referenčni podkorpus, do 2019-10-31</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>Reference</term>: reference subcorpus, until 2019-10-31</catDesc>
+               </category>
+	  ...
+	</taxonomy>
          </egXML>
       </exemplum>
       <exemplum xml:lang="en">
@@ -1024,11 +935,11 @@
       <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <projectDesc>
-               <p xml:lang="cs">
-                  <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
-               </p>
-               <p xml:lang="en">
-                  <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+               <p>
+                  <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a
+            project that aims to create a multilingual set of comparable corpora of
+            parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN
+            recommendations</ref> and ...</p>
             </projectDesc>
          </egXML>
       </exemplum>
@@ -1237,13 +1148,17 @@
       <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <s xml:id="ParlaMint-GB_2017-10-30-lords.seg4.1">
-               <w lemma="I">I</w>
-               <w lemma="thank">thank</w>
-               <w lemma="the">the</w>
-               <w lemma="Minister">Minister</w>
-               <w lemma="for">for</w>
-               <w lemma="he">his</w>
-               <w lemma="response">response</w>
+               <w lemma="I"
+                  msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                  pos="PRP">I</w>
+               <w lemma="support"
+                  msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin"
+                  pos="VBP">support</w>
+               <w lemma="the" msd="UPosTag=DET|Definite=Def|PronType=Art" pos="DT">the</w>
+               <w lemma="amendment"
+                  msd="UPosTag=NOUN|Number=Sing"
+                  pos="NN"
+                  join="right">amendment</w>
                <pc msd="UPosTag=PUNCT" pos=".">.</pc>
             </s>
          </egXML>
@@ -1292,7 +1207,7 @@
       </attList>
       <exemplum versionDate="2018-02-15" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-            <s>
+            <s xml:id="ParlaMint-GB_2017-10-30-lords.seg4.1">
                <w lemma="I"
                   msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
                   pos="PRP">I</w>
@@ -1609,7 +1524,7 @@
          <attDef ident="instant" mode="delete"/>
       </attList>
       <exemplum xml:lang="en">
-         <p>Element <gi>name</gi> can be used to specify location of the meeting:
+         <p>Element <gi>name</gi> is used  in the TEI header to specify location of the parliament:
       </p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <name type="place">Westminster</name>
@@ -1618,7 +1533,7 @@
          </egXML>
       </exemplum>
       <exemplum xml:lang="en">
-         <p>The element may also be used to denote person's responsibility for possible changes:
+         <p>The element is used in the TEI header to denote person's responsibility for changes:
       </p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <revisionDesc>
@@ -1630,8 +1545,8 @@
          </egXML>
       </exemplum>
       <exemplum xml:lang="en">
-         <p>
-            <gi>name</gi> element can also be used to mark up Named Entities:
+         <p>The element is used to mark up Named Entities in the linguistically analysed corpus,
+      in which case it should have the <att>type</att> attribute with one of the allowed values:
       </p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
 	...
@@ -1682,6 +1597,8 @@
          <attDef ident="confidence" mode="delete"/>
       </attList>
       <exemplum xml:lang="en">
+         <p>The element can be used for fine-grained Named Entities which include numbers:
+      </p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <num ana="ne:n_"
                  xml:id="ParlaMint-CZ_2018-11-13-ps2017-020-09-004-010.ne138">
@@ -1757,14 +1674,17 @@
          <attDef ident="confidence" mode="delete"/>
       </attList>
       <exemplum xml:lang="en">
-         <p>The element <gi>date</gi> gives the date of the release in the ISO 8601 format, while the textual content can give it according to the conventions used in the local language:</p>
+         <p>The element <gi>date</gi> gives the date in the <att>when</att> attribute in the
+      ISO 8601 format, while the textual content is not constrained:</p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <date when="2021-06-08">2021-06-08</date>
          </egXML>
       </exemplum>
       <exemplum xml:lang="en">
+         <p>The textual content can be given according to the conventions used in the local
+      language:</p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-            <date when="2018-04-13">13.4.2018</date>
+            <date when="2018-04-13" xml:lang="sl">13.4.2018</date>
          </egXML>
       </exemplum>
    </elementSpec>
@@ -1834,7 +1754,7 @@
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
 	<!-- audio recording -->
             <note type="time">
-               <time when="2016-04-13T14:50:00">(14.50 hour)</time>
+               <time when="2016-04-13T14:50:00">14:50</time>
             </note>
          </egXML>
       </exemplum>
@@ -1870,6 +1790,16 @@
          <attDef ident="resp" mode="delete"/>
          <attDef ident="source" mode="delete"/>
       </attList>
+      <exemplum xml:lang="en">
+         <p>The element can be used for fine-grained Named Entities which include e-mail addresses:</p>
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+            <email ana="ne:me" xml:id="ParlaMint-CZ_2014-12-09-ps2013-023-05-003-133.ne87">
+               <w xml:id="ParlaMint-CZ_2014-12-09-ps2013-023-05-003-133.u4.p9.s3.w13"
+                  lemma="namraza@cd.cz"
+                  msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos">namraza@cd.cz</w>
+            </email>
+         </egXML>
+      </exemplum>
    </elementSpec>
    <elementSpec ident="teiHeader" module="header" mode="change">
       <desc versionDate="2016-02-19" xml:lang="en">supplies descriptive and
@@ -1906,8 +1836,7 @@
          <attDef ident="source" mode="delete"/>
       </attList>
       <exemplum xml:lang="en">
-         <p>Basic structure of the <gi>teiHeader</gi>:
-      </p>
+         <p>Basic structure of the <gi>teiHeader</gi>:</p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <teiHeader>
                <fileDesc>...</fileDesc>
@@ -1918,12 +1847,13 @@
          </egXML>
       </exemplum>
       <exemplum xml:lang="en">
+         <p>Example of a ParlaMint corpus component <gi>teiHeader</gi>:</p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <teiHeader>
                <fileDesc>
                   <titleStmt>
-                     <title type="main" xml:lang="lv">Latvijas parlamenta corpus ParlaMint-LV, 13. Saeima, 2020-03-10</title>
-                     <title type="main" xml:lang="en">Latvian parliamentary corpus ParlaMint-LV, 13th Term, 2020-03-10</title>
+                     <title type="main" xml:lang="lv">Latvijas parlamenta corpus ParlaMint-LV, 12. Saeima, 2014-11-04 [ParlaMint]</title>
+                     <title type="main" xml:lang="en">Latvian parliamentary corpus ParlaMint-LV, 12th Term, 2014-11-04 [ParlaMint]</title>
                      <meeting corresp="#PT" ana="#parla.meeting.regular">Regulārā</meeting>
                      <meeting n="13" corresp="#PT" ana="#parla.term #PT.13">13. sasaukums</meeting>
                   </titleStmt>
@@ -1931,26 +1861,26 @@
                      <edition>2.1</edition>
                   </editionStmt>
                   <extent>
-                     <measure unit="speeches" quantity="504" xml:lang="en">504 speeches</measure>
-                     <measure unit="words" quantity="35964" xml:lang="en">35,964 words</measure>
-                     <measure unit="tokens" quantity="45141" xml:lang="en">45141 tokens</measure>
+                     <measure unit="speeches" quantity="257" xml:lang="en">257 speeches</measure>
+                     <measure unit="words" quantity="11847" xml:lang="en">11,847 words</measure>
+                     <measure unit="tokens" quantity="14628" xml:lang="en">14628 tokens</measure>
                   </extent>
                   <publicationStmt>
                      <publisher>
                         <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                         <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
                      </publisher>
-                     <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1431</idno>
+                     <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
                      <availability status="free">
                         <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                         <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                      </availability>
-                     <date when="2021-06-10">2021-06-10</date>
+                     <date when="2021-06-10">June 10, 2021</date>
                   </publicationStmt>
                   <sourceDesc>
                      <bibl>
                         <title type="main" xml:lang="lv">Saeimas sēžu stenogrammas</title>
-                        <idno type="URI">https://www.saeima.lv/lv/transcripts/view/2047</idno>
+                        <idno type="URI">https://www.saeima.lv/lv/transcripts/view/264</idno>
                      </bibl>
                   </sourceDesc>
                </fileDesc>
@@ -1965,8 +1895,11 @@
                         <tagUsage gi="text" occurs="1"/>
                         <tagUsage gi="body" occurs="1"/>
                         <tagUsage gi="div" occurs="1"/>
-		...
-              </namespace>
+                        <tagUsage gi="head" occurs="2"/>
+                        <tagUsage gi="note" occurs="257"/>
+                        <tagUsage gi="u" occurs="257"/>
+                        <tagUsage gi="seg" occurs="647"/>
+                     </namespace>
                   </tagsDecl>
                </encodingDesc>
                <profileDesc>
@@ -1974,7 +1907,7 @@
                      <setting>
                         <name type="city">Rīga</name>
                         <name type="country" key="LV">Latvija</name>
-                        <date when="2020-03-10" ana="#parla.sitting">2020-03-10</date>
+                        <date when="2014-11-04" ana="#parla.sitting">2014-11-04</date>
                      </setting>
                   </settingDesc>
                </profileDesc>
@@ -2029,12 +1962,26 @@
          </egXML>
       </exemplum>
       <exemplum xml:lang="en">
-         <p>Example of the <gi>fileDesc</gi> element in the corpus:
-      </p>
+         <p>Example of the <gi>fileDesc</gi> element in a corpus root:</p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <fileDesc>
                <titleStmt>
-                  <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL</title>
+                  <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL [ParlaMint]</title>
+                  <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL [ParlaMint]</title>
+                  <title type="sub" xml:lang="en">Minutes of the Eerste Kamer and Tweede Kamer of The Netherlands (2015-2020)</title>
+                  <title type="sub" xml:lang="nl">Minuten van de Eerste en Tweede Kamer van Nederland (2015-2020)</title>
+                  <meeting n="28-lower" ana="#parla.lower #parla.term">28ste Tweede Kamer</meeting>
+                  <meeting n="29-lower" ana="#parla.lower #parla.term">29ste Tweede Kamer</meeting>
+                  <meeting n="34-upper" ana="#parla.upper #parla.term">34ste Eerste Kamer</meeting>
+                  <meeting n="35-upper" ana="#parla.upper #parla.term">35ste Eerste Kamer</meeting>
+                  <meeting n="36-upper" ana="#parla.upper #parla.term">36ste Eerste Kamer</meeting>
+                  <respStmt>
+                     <persName xml:lang="nl">Ruben van Heusden</persName>
+                     <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+                  </respStmt>
+                  <funder>
+                     <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+                  </funder>
                </titleStmt>
                <editionStmt>
                   <edition>2.1</edition>
@@ -2048,13 +1995,77 @@
                <publicationStmt>
                   <publisher>
                      <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+                     <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
                   </publisher>
-                  <date when="2021-06-10">2021-06-10</date>
+                  <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+                  <availability status="free">
+                     <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+                     <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+                     </p>
+                  </availability>
+                  <date when="2021-06-10">June 10, 2021</date>
                </publicationStmt>
                <sourceDesc>
                   <bibl>
                      <title type="main">Minutes of the Eerste Kamer of The Netherlands</title>
+                     <idno type="URI">https://www.eerstekamer.nl/</idno>
                      <date from="2014-12-15" to="2020-11-03">2014-12-15 - 2020-11-03</date>
+                  </bibl>
+                  <bibl>
+                     <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+                     <idno type="URI">https://www.tweedekamer.nl/</idno>
+                     <date from="2014-04-16" to="2020-10-14">2014-04-16 - 2020-10-14</date>
+                  </bibl>
+               </sourceDesc>
+            </fileDesc>
+         </egXML>
+      </exemplum>
+      <exemplum xml:lang="en">
+         <p>Example of the <gi>fileDesc</gi> element in a corpus component:</p>
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+            <fileDesc>
+               <titleStmt>
+                  <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2014-04-16 [ParlaMint]</title>
+                  <title type="main" xml:lang="nl">Corpus van het Nederlandse parlement ParlaMint-NL, Tweede Kamer 2014-04-16 [ParlaMint]</title>
+                  <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 76, Session 2 (2014-04-16)</title>
+                  <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 76, Session 2 (2014-04-16)</title>
+                  <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="76">Meeting 76</meeting>
+                  <meeting ana="#parla.lower #parla.session" corresp="#TK" n="2">Session 2</meeting>
+                  <meeting ana="#parla.lower #parla.term #TK.28" corresp="#TK" n="28-lower">Meeting of the 28th Tweede Kamer</meeting>
+                  <respStmt>
+                     <persName>Ruben van Heusden</persName>
+                     <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+                  </respStmt>
+                  <funder>
+                     <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+                  </funder>
+               </titleStmt>
+               <editionStmt>
+                  <edition>2.1</edition>
+               </editionStmt>
+               <extent>
+                  <measure unit="speeches" xml:lang="nl" quantity="18">18 toespraken</measure>
+                  <measure unit="speeches" xml:lang="en" quantity="18">18 speeches</measure>
+                  <measure unit="words" xml:lang="nl" quantity="1094">1,094 woorden</measure>
+                  <measure unit="words" xml:lang="en" quantity="1094">1,094 words</measure>
+               </extent>
+               <publicationStmt>
+                  <publisher>
+                     <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+                     <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+                  </publisher>
+                  <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+                  <availability status="free">
+                     <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+                     <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+                  </availability>
+                  <date when="2021-06-10">June 10, 2021</date>
+               </publicationStmt>
+               <sourceDesc>
+                  <bibl>
+                     <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+                     <idno type="URI">https://www.tweedekamer.nl/</idno>
+                     <date when="2014-04-16">2014-04-16</date>
                   </bibl>
                </sourceDesc>
             </fileDesc>
@@ -2184,9 +2195,23 @@
          <attDef ident="datingMethod" mode="delete"/>
       </attList>
       <exemplum xml:lang="en">
+         <p>The <gi>title</gi> element as used in the <gi>titleStmt</gi> of the corpus root
+      <gi>teiHeader</gi>:</p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-            <title type="main" xml:lang="cs">Parlament České republiky, Poslanecká sněmovna</title>
-            <title type="main" xml:lang="en">Parliament of the Czech Republic, Chamber of Deputies</title>
+            <title type="main" xml:lang="cs">Český parlamentní korpus ParlaMint-CZ [ParlaMint]</title>
+            <title type="main" xml:lang="en">Czech parliamentary corpus ParlaMint-CZ [ParlaMint]</title>
+            <title type="sub" xml:lang="cs">Parlament České republiky, Poslanecká sněmovna</title>
+            <title type="sub" xml:lang="en">Parliament of the Czech Republic, Chamber of Deputies</title>
+         </egXML>
+      </exemplum>
+      <exemplum xml:lang="en">
+         <p>The <gi>title</gi> element as used in the <gi>titleStmt</gi> of the corpus component
+      <gi>teiHeader</gi>:</p>
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+            <title type="main" xml:lang="cs">Český parlamentní korpus ParlaMint-CZ, 2013-11-25 ps2013-001-01-000-000 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Czech parliamentary corpus ParlaMint-CZ, 2013-11-25 ps2013-001-01-000-000 [ParlaMint]</title>
+            <title type="sub" xml:lang="cs">Parlament České republiky, Poslanecká sněmovna, 2013-11-25, Začátek schůze Poslanecké sněmovny 25. listopadu 2013 ve 14.05 hodin Přítomno: 199 poslanců</title>
+            <title type="sub" xml:lang="en">Parliament of the Czech Republic, Chamber of Deputies, 2013-11-25</title>
          </egXML>
       </exemplum>
    </elementSpec>
@@ -2239,18 +2264,11 @@
          <attDef ident="ref" mode="delete"/>
       </attList>
       <exemplum xml:lang="en">
-         <p> specification of the particular sessions that the corpus contains are encoded as <gi>meeting</gi>
-         </p>
+         <p>The specification of the particular sessions that the corpus or corpus component
+      contains are encoded with <gi>meeting</gi>:</p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-            <titleStmt>
-               <title type="main">Slovenski parlamentarni korpus ParlaMint-SI [ParlaMint]</title>
-               <title type="main" xml:lang="en">Slovenian parliamentary corpus ParlaMint-SI [ParlaMint]</title>
-               <title type="sub">Zapisi sej Državnega zbora Republike Slovenije, 7. in 8. mandat (2014 - 2020)</title>
-               <title type="sub" xml:lang="en">Minutes of the National Assembly of the Republic of Slovenia, Term 7 and 8 (2014 - 2020)</title>
-               <meeting n="7" corresp="#DZ" ana="#parla.lower #parla.term #DZ.7">7. mandat</meeting>
-               <meeting n="8" corresp="#DZ" ana="#parla.lower #parla.term #DZ.8">8. mandat</meeting>
-	  ...
-	</titleStmt>
+            <meeting n="7" corresp="#DZ" ana="#parla.lower #parla.term #DZ.7">7. mandat</meeting>
+            <meeting n="8" corresp="#DZ" ana="#parla.lower #parla.term #DZ.8">8. mandat</meeting>
          </egXML>
       </exemplum>
    </elementSpec>
@@ -2532,9 +2550,13 @@
          <textNode/>
       </content>
       <attList>
+         <attDef ident="xml:lang" mode="replace" usage="opt">
+            <datatype>
+               <dataRef key="teidata.language"/>
+            </datatype>
+         </attDef>
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -2570,6 +2592,14 @@
                <forename>Jasna</forename>
                <roleName>dr.</roleName>
             </persName>
+         </egXML>
+      </exemplum>
+      <exemplum xml:lang="en">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+            <affiliation role="minister" ref="#GOV" from="2020-08-01">
+               <roleName xml:lang="sl">Minister za obrambo</roleName>
+               <roleName xml:lang="en">Minister of Defence</roleName>
+            </affiliation>
          </egXML>
       </exemplum>
    </elementSpec>
@@ -3176,6 +3206,12 @@
             </sourceDesc>
          </egXML>
       </exemplum>
+      <exemplum xml:lang="en">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+            <idno type="URI" subtype="wikimedia" xml:lang="sl">https://sl.wikipedia.org/wiki/Pozitivna_Slovenija</idno>
+            <idno type="URI" subtype="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Positive_Slovenia</idno>
+         </egXML>
+      </exemplum>
    </elementSpec>
    <elementSpec ident="pubPlace" module="core" mode="change">
       <content>
@@ -3627,7 +3663,8 @@
       <desc versionDate="2013-01-10" xml:lang="en">indicates the location of any form of external media such as
     an audio or video clip etc.</desc>
       <content>
-    </content>
+         <empty/>
+      </content>
       <attList><!--media/@xml:id--><!--media/@mimeType--><!--media/@source--><!--media/@url-->
          <attDef ident="type" mode="delete"/>
          <attDef ident="subtype" mode="delete"/>
@@ -3716,13 +3753,14 @@
          <attDef ident="source" mode="delete"/>
       </attList>
       <exemplum xml:lang="en">
+         <p>Genera structure of an encoding description:</p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-            <teiHeader>
-               <fileDesc>...</fileDesc>
-               <encodingDesc>...</encodingDesc>
-               <profileDesc>...</profileDesc>
-               <revisionDesc>...</revisionDesc>
-            </teiHeader>
+            <encodingDesc>
+               <projectDesc>...</projectDesc>
+               <editorialDecl>...</editorialDecl>
+               <tagsDecl>...</tagsDecl>
+               <classDecl>...</classDecl>
+            </encodingDesc>
          </egXML>
       </exemplum>
    </elementSpec>
@@ -3763,16 +3801,10 @@
             <projectDesc>
                <p xml:lang="sl">Glavni cilji projekta <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> so
 	  (1) izdelati večjezično množico na enak način kodiranih korpusov
-	  zapiskov parlamentarnih sej, (2) jezikoslovno označiti te korpuse; (3)
-	  narediti korpuse dostopne za prevzem in prek konkordančnikov; in (4)
-	  pripraviti primere uporabe korpusov v politologiji in digitalni
-	  humanistiki.</p>
+	  zapiskov parlamentarnih sej, ...</p>
                <p xml:lang="en">The <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
 	  project aims to (1) create a multilingual set of uniformly encoded
-	  comparable corpora of parliamentary proceedings (2) process the
-	  corpora linguistically; (3) make the corpora available for download
-	  and through concordancers; and (4) build use cases in Political
-	  Sciences and Digital Humanities based on the corpus data.</p>
+	  comparable corpora of parliamentary proceedings, ...</p>
             </projectDesc>
          </egXML>
       </exemplum>
@@ -4156,7 +4188,8 @@
    <elementSpec ident="tagUsage" module="header" mode="change">
       <desc versionDate="2016-02-16" xml:lang="en">documents the usage of a specific element within a specified document.</desc>
       <content>
-    </content>
+         <empty/>
+      </content>
       <attList>
          <attDef ident="gi" mode="change" usage="req">
             <desc versionDate="2013-11-20" xml:lang="en">specifies the name
@@ -4502,26 +4535,6 @@
       <gi>p</gi> element.</p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <listPrefixDef>
-               <prefixDef ident="psn"
-                          matchPattern="([A-Z]+)"
-                          replacementPattern="personography.xml#$1">
-                  <p>
-              Private URIs using the <code>psn</code> 
-              prefix are pointers to <gi>person</gi> 
-              elements in the personography.xml file. 
-              For example, <code>psn:MDH</code> 
-              dereferences to <code>personography.xml#MDH</code>.
-            </p>
-               </prefixDef>
-               <prefixDef ident="bibl"
-                          matchPattern="([a-z]+[a-z0-9]*)"
-                          replacementPattern="http://www.example.com/getBibl.xql?id=$1">
-                  <p>
-              Private URIs using the <code>bibl</code> prefix can be 
-              expanded to form URIs which retrieve the relevant 
-              bibliographical reference from www.example.com.
-            </p>
-               </prefixDef>
                <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
                   <p>Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI header.</p>
                </prefixDef>
@@ -4754,7 +4767,7 @@
          <attDef ident="hand" mode="delete"/>
       </attList>
       <exemplum xml:lang="en">
-         <p>Labels denote the existence of organizations and connected events: </p>
+         <p>Labels denote the existence of organizations and connected events:</p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <org xml:id="DZ" role="parliament" ana="#parla.national #parla.lower">
                <orgName xml:lang="sl" full="yes">Državni zbor Republike Slovenije</orgName>
@@ -4840,7 +4853,7 @@
          <attDef ident="source" mode="delete"/>
       </attList>
       <exemplum xml:lang="en">
-         <p>Basic structure of the element <gi>profileDesc</gi>: 
+         <p>General structure of the element <gi>profileDesc</gi>: 
       </p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <profileDesc>
@@ -5201,24 +5214,17 @@
          </egXML>
       </exemplum>
       <exemplum xml:lang="en">
-         <p>The <gi>label</gi> element may also be used to mark events in relation to the parliament organisations:</p>
+         <p>The <gi>head</gi> element may also be used to give the title to specialised lists:</p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-            <org ana="#parla.federal #parla.lower"
-                 role="parliament"
-                 xml:id="be_federal_parliament">
-               <orgName full="yes" xml:lang="nl">Federaal Parlement van België</orgName>
-               <orgName full="yes" xml:lang="en">Belgian Federal Parliament</orgName>
+            <listEvent>
+               <head xml:lang="nl">Zittingsperiode</head>
+               <head xml:lang="en">Legislative period</head>
+               <event to="2007-05-02" from="2003-06-05" xml:id="period_51">
+                  <label xml:lang="nl">Zittingsperiode 51</label>
+                  <label xml:lang="en">Legislative period 51</label>
+               </event>
 	  ...
-	  <listEvent>
-                  <head xml:lang="nl">Zittingsperiode</head>
-                  <head xml:lang="en">Legislative period</head>
-                  <event to="2007-05-02" from="2003-06-05" xml:id="period_51">
-                     <label xml:lang="nl">Zittingsperiode 51</label>
-                     <label xml:lang="en">Legislative period 51</label>
-                  </event>
-	    ...
-	  </listEvent>
-            </org>
+	</listEvent>
          </egXML>
       </exemplum>
    </elementSpec>
@@ -5298,13 +5304,20 @@
       </attList>
       <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-            <org xml:id="boardOfDirectors.SRVZP.438" role="boardOfDirectors">
-               <orgName full="yes" xml:lang="cs">Správní rada VZP</orgName>
-               <orgName full="yes" xml:lang="en">The Board of Directors of the General Health Insurance Company of the Czech Republic</orgName>
-               <orgName full="abb">SRVZP</orgName>
-               <event from="1992-01-01">
+            <org xml:id="government.BE" role="government">
+               <orgName xml:lang="en" full="yes">Federal Government of Belgium</orgName>
+               <orgName xml:lang="nl" full="yes">Federale regering</orgName>
+               <orgName xml:lang="fr" full="yes">Gouvernement fédéral</orgName>
+            </org>
+            <org ana="#parla.federal #parla.lower"
+                 role="parliament"
+                 xml:id="be_federal_parliament">
+               <orgName full="yes" xml:lang="nl">Federaal Parlement van België</orgName>
+               <orgName full="yes" xml:lang="en">Belgian Federal Parliament</orgName>
+               <event from="1831-02-07">
                   <label xml:lang="en">existence</label>
                </event>
+               <!-- ... -->
             </org>
          </egXML>
       </exemplum>
@@ -6051,18 +6064,14 @@
       <desc versionDate="2005-01-14" xml:lang="en">contains an informal description of a person's present or past affiliation with some
     organization, for example an employer or sponsor.</desc>
       <content>
-         <empty/>
+         <elementRef key="roleName" minOccurs="0" maxOccurs="unbounded"/>
       </content>
       <attList>
          <attDef ident="role" mode="replace" usage="req">
             <valList type="closed">
                <valItem ident="member"/>
-               <valItem ident="president"/>
-               <valItem ident="vicePresident"/>
-               <!-- Use president instead -->
-               <!--valItem ident="chairman"/-->
-               <!-- Use vicePresident instead -->
-               <!--valItem ident="viceChairman"/-->
+               <valItem ident="head"/>
+               <valItem ident="deputyHead"/>
                <valItem ident="minister"/>
                <valItem ident="substituteMP"/>
                <valItem ident="associateMember"/>
@@ -6078,7 +6087,7 @@
                <valItem ident="publicDefenderOfRights"/>
                <valItem ident="alternateOfDelegation"/>
                <valItem ident="replacement"/>
-               <valItem ident="candidateMP"/>
+               <valItem ident="representative"/>
                <valItem ident="academician"/>
                <valItem ident="candidateChairman"/>
                <valItem ident="chairperson"/>
@@ -6098,8 +6107,6 @@
                <valItem ident="secretary"/>
                <valItem ident="secretaryGeneral"/>
                <valItem ident="viceDirector"/>
-               <!-- Use president instead -->
-               <!--valItem ident="speaker"/-->
             </valList>
          </attDef>
          <!--affiliation/@ref-->
@@ -6154,58 +6161,83 @@
       </attList>
       <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-            <person xml:id="PeterFowler">
+            <person xml:id="AdamKalous.1979">
                <persName>
-                  <forename>Peter</forename>
-                  <surname>Fowler</surname>
+                  <surname>Kalous</surname>
+                  <forename>Adam</forename>
                </persName>
-               <affiliation from="1970-06-18"
-                            ref="#parla.lower"
+               <sex value="M">mužské</sex>
+               <birth when="1979-10-06"/>
+               <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6497</idno>
+               <figure>
+                  <graphic url="https://www.psp.cz/eknih/cdrom/2017ps/eknih/2017ps/poslanci/i6497.jpg"/>
+               </figure>
+               <affiliation ref="#subcommittee.PD.1340"
                             role="member"
-                            to="1974-02-28"/>
-               <affiliation from="1970-06-18"
-                            ref="#party.CON"
+                            from="2020-06-04T00:00:00"/>
+               <affiliation ref="#interparliamentaryFriendshipGroup.BH.1514"
                             role="member"
-                            to="2001-06-07"/>
-               <affiliation from="1974-02-28"
-                            ref="#parla.lower"
+                            from="2019-11-28T00:00:00"/>
+               <affiliation ref="#subcommittee.PMRVZCH.1376"
                             role="member"
-                            to="1974-10-10"/>
-               <affiliation from="1974-10-10"
-                            ref="#parla.lower"
+                            from="2019-10-02T00:00:00"/>
+               <affiliation ref="#subcommittee.PCR.1391"
                             role="member"
-                            to="1979-05-03"/>
-               <affiliation from="1979-05-03"
-                            ref="#parla.lower"
+                            from="2019-09-05T00:00:00"/>
+               <affiliation ref="#interparliamentaryFriendshipGroup.QA.1509"
                             role="member"
-                            to="1983-06-09"/>
-               <affiliation from="1979-05-11" ref="#PoGB" role="minister" to="1981-01-05"/>
-               <affiliation from="1981-01-05" ref="#PoGB" role="minister" to="1981-09-14"/>
-               <affiliation from="1981-09-14" ref="#PoGB" role="minister" to="1987-06-13"/>
-               <affiliation from="1983-06-09"
-                            ref="#parla.lower"
+                            from="2019-05-09T00:00:00"/>
+               <affiliation ref="#interparliamentaryFriendshipGroup.SK.1443"
                             role="member"
-                            to="1987-06-11"/>
-               <affiliation from="1987-06-11"
-                            ref="#parla.lower"
+                            from="2018-09-10T00:00:00"/>
+               <affiliation ref="#interparliamentaryFriendshipGroup.BG.1439"
                             role="member"
-                            to="1992-04-09"/>
-               <affiliation from="1987-06-13" ref="#PoGB" role="minister" to="1990-01-02"/>
-               <affiliation from="1992-04-09"
-                            ref="#parla.lower"
+                            from="2018-06-26T00:00:00"
+                            to="2019-10-31T00:00:00"/>
+               <affiliation ref="#interparliamentaryFriendshipGroup.KW.1464"
                             role="member"
-                            to="1997-05-01"/>
-               <affiliation from="1997-05-01"
-                            ref="#parla.lower"
+                            from="2018-05-22T00:00:00"/>
+               <affiliation ref="#interparliamentaryFriendshipGroup.USA.1445"
                             role="member"
-                            to="2001-06-07"/>
-               <affiliation from="2001-07-03" ref="#parla.lower" role="member"/>
-               <affiliation from="2001-07-03"
-                            ref="#party.CON"
+                            from="2018-04-10T00:00:00"/>
+               <affiliation ref="#interparliamentaryFriendshipGroup.ARE.1446"
                             role="member"
-                            to="2016-09-01"/>
-               <affiliation from="2016-09-01" ref="#party.I" role="member"/>
-               <affiliation from="2016-09-01" ref="#parla.upper" role="speaker"/>
+                            from="2018-04-10T00:00:00"/>
+               <affiliation ref="#interparliamentaryFriendshipGroup.ISR.1447"
+                            role="member"
+                            from="2018-04-10T00:00:00"/>
+               <affiliation ref="#interparliamentaryFriendshipGroup.OMN.1448"
+                            role="member"
+                            from="2018-04-10T00:00:00"
+                            to="2018-09-10T00:00:00"/>
+               <affiliation ref="#subcommittee.PEFPS.1414"
+                            role="chairman"
+                            from="2018-03-14T00:00:00"/>
+               <affiliation ref="#subcommittee.PEFPS.1414"
+                            role="member"
+                            from="2018-03-14T00:00:00"/>
+               <affiliation ref="#commission.SKBIS.1326"
+                            role="member"
+                            from="2017-12-12T00:00:00"/>
+               <affiliation ref="#commission.SKVZ.1328"
+                            role="member"
+                            from="2017-12-12T00:00:00"
+                            to="2019-07-10T12:00:00"/>
+               <affiliation ref="#committee.VSR.1315"
+                            role="viceChairman"
+                            from="2017-12-06T16:00:00"/>
+               <affiliation ref="#committee.VEZ.1308"
+                            role="verifier"
+                            from="2017-11-29T16:00:00"/>
+               <affiliation ref="#committee.VEZ.1308" role="member" from="2017-11-28T16:00:00"/>
+               <affiliation ref="#committee.VSR.1315" role="member" from="2017-11-28T16:00:00"/>
+               <affiliation ref="#politicalGroup.ANO.1292"
+                            role="member"
+                            from="2017-10-24T00:00:00"/>
+               <affiliation ref="#parliament.PSP8" role="MP" from="2017-10-21T14:00:00"/>
+               <affiliation ref="#politicalParty.ANO2011.1104"
+                            role="candidateMP"
+                            from="2017-10-21"/>
             </person>
          </egXML>
       </exemplum>
@@ -6304,7 +6336,19 @@
       </attList>
       <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-            <occupation>politician</occupation>
+            <person n="2678" xml:id="SimeonovValeri">
+               <persName xml:lang="bg">
+                  <forename>Валери</forename>
+                  <surname>Симеонов</surname>
+               </persName>
+               <sex value="M"/>
+               <birth when="1955-03-14">
+                  <placeName>Долни Чифлик, България</placeName>
+               </birth>
+               <education>инженер</education>
+               <occupation>политик</occupation>
+	  ...
+	</person>
          </egXML>
       </exemplum>
    </elementSpec>
@@ -6650,7 +6694,6 @@
          </egXML>
       </exemplum>
    </elementSpec>
-   <!-- To Do: This is CZ only! Make examples -->
    <elementSpec ident="unit" module="core" mode="change">
       <desc versionDate="2018-07-17" xml:lang="en">contains a symbol, a word or a phrase referring to a unit of measurement in any kind of formal or informal system.</desc>
       <content>
@@ -6698,61 +6741,26 @@
          <attDef ident="commodity" mode="delete"/>
       </attList>
       <exemplum xml:lang="en" versionDate="2019-07-10">
-         <p>Here is an example of a <gi>unit</gi> element holding a <att>unitRef</att> attribute that points to a definition of the unit in the TEI header.</p>
-         <egXML xmlns="http://www.tei-c.org/ns/Examples">
-            <measure>
-               <num>3</num>
-               <unit unitRef="#ell">ells</unit>
-            </measure>
-            <!-- In the TEI Header: -->
-            <encodingDesc>
-               <unitDecl>
-                  <unitDef xml:id="ell">
-                     <label>ell</label>
-                     <placeName ref="#iceland"/>
-                     <desc>A unit of measure for cloth, roughly equivalent to 18 inches, or from an adult male’s elbow to the tip of the middle finger.</desc>
-                  </unitDef>
-               </unitDecl>
-            </encodingDesc>
+         <p>The element can be used for fine-grained Named Entities which include units:</p>
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+            <num ana="ne:nc" xml:id="ParlaMint-CZ_2013-12-06-ps2013-003-01-001-001.ne53">
+               <w xml:id="ParlaMint-CZ_2013-12-06-ps2013-003-01-001-001.u2.p10.s1.w9"
+                  lemma="3"
+                  msd="UPosTag=NUM|NumForm=Digit|NumType=Card">3</w>
+               <w xml:id="ParlaMint-CZ_2013-12-06-ps2013-003-01-001-001.u2.p10.s1.w10"
+                  lemma="miliarda"
+                  msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos">miliardy</w>
+            </num>
+            <unit ana="ne:om" xml:id="ParlaMint-CZ_2013-12-06-ps2013-003-01-001-001.ne54">
+               <w xml:id="ParlaMint-CZ_2013-12-06-ps2013-003-01-001-001.u2.p10.s1.w11"
+                  lemma="Kč"
+                  msd="UPosTag=NOUN|Gender=Fem|Polarity=Pos"
+                  join="right">Kč</w>
+            </unit>
          </egXML>
       </exemplum>
-      <exemplum xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples">
-            <measure>
-               <num>2</num>
-               <unit>kg</unit>
-            </measure>
-         </egXML>
-      </exemplum>
-      <exemplum xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples">
-            <measure type="value">
-               <num>3</num>
-               <unit type="time" unit="min">minute</unit>
-            </measure>
-         </egXML>
-      </exemplum>
-      <exemplum xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples">
-            <measure type="interval">
-               <num atLeast="1.2">1.2</num> to <num atMost="5.6">5.6</num>
-               <unit type="velocity" unit="km/h">km/h</unit>
-            </measure>
-         </egXML>
-      </exemplum>
-      <exemplum xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples">
-            <p>Light travels at <num value="3E10">3×10^10</num>
-               <unit type="rate" unit="cm/s">
-                  <unit type="space">cm</unit> per <unit type="time">second</unit>
-               </unit>.</p>
-         </egXML>
-      </exemplum>
-      <listRef>
-         <ptr target="#CONANU" type="div3"/>
-      </listRef>
    </elementSpec>
-   <!-- Appears both in TEI header and in .ana body for CZ: fix + add examples  -->
+   <!-- So far appears nowhere! (even though it should be one of the CZ named entities  -->
    <elementSpec module="spoken" ident="equipment">
       <gloss xml:lang="en" versionDate="2009-04-17">equipment</gloss>
       <desc versionDate="2005-01-14" xml:lang="en">provides technical details of the equipment and media used for
@@ -6766,7 +6774,7 @@
          <classRef key="model.pLike" minOccurs="1" maxOccurs="unbounded"/>
       </content>
       <exemplum xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <equipment>
                <p>"Hi-8" 8 mm NTSC camcorder with integral directional
 	  microphone and windshield and stereo digital sound
@@ -6775,17 +6783,5 @@
             </equipment>
          </egXML>
       </exemplum>
-      <exemplum xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples">
-            <equipment>
-               <p>8-track analogue transfer mixed down to 19 cm/sec audio
-	  tape for cassette mastering</p>
-            </equipment>
-         </egXML>
-      </exemplum>
-      <listRef>
-         <ptr target="#HD32"/>
-         <ptr target="#CCAS2"/>
-      </listRef>
    </elementSpec>
 </schemaSpec>

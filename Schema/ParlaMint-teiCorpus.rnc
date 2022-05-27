@@ -196,16 +196,9 @@ affiliation =
     ref.att?,
     attribute role {
       "member"
-      | "president"
-      | "vicePresident"
-      | # Change to "president"
-        
-        # value>chairman</value
-        
-        # Change to "vicePresident"
-        
-        # value>viceChairman</value
-        "minister"
+      | "head"
+      | "deputyHead"
+      | "minister"
       | 
         ## The following used only by FR:
         "substituteMP"
@@ -229,10 +222,7 @@ affiliation =
         "representative"
       | "academician"
       | "candidateChairman"
-      | # Should be changed to "president"
-        
-        # value>chairperson</value
-        "chiefInspector"
+      | "chiefInspector"
       | "commander"
       | "constitutionalJudge"
       | "deputyChief"
@@ -248,17 +238,9 @@ affiliation =
       | "secretary"
       | "secretaryGeneral"
       | "viceChairman"
-      | 
-        ## The following used only by GB:
-        [
-          # Change to "president"
-          
-          # value>speaker</value
-          
-        ]
-        "viceDirector"
+      | "viceDirector"
     },
-    empty
+    element roleName { lang.att, text }*
   }
 occupation = element occupation { global.atts, temporal.atts?, text }
 education = element education { global.atts, temporal.atts?, text }
