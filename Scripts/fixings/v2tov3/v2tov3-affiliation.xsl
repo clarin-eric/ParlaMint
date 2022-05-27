@@ -11,7 +11,7 @@
   exclude-result-prefixes="et mk fn xs tei saxon">
 
 
-  <xsl:template match="tei:affiliation[not(@ref) or ($country = 'LV' and @role='MP')]">
+  <xsl:template match="tei:affiliation[not(@ref) or ($country = 'LV' and @role='MP') or ($country = 'NL' and @role='MP')]">
     <xsl:choose>
       <xsl:when test="@role='member' and not(text())">
         <xsl:call-template name="error">
@@ -93,7 +93,7 @@
               <xsl:with-param name="severity">ERROR</xsl:with-param>
               <xsl:with-param name="msg"><xsl:value-of select="count($org)"/> <xsl:value-of select="$orgRole"/> organizations - impossible to determine correct affiliation</xsl:with-param>
             </xsl:call-template>
-            <xsl:comment>removing affiliation - unable to determine @ref (multiple <xsl:value-of select="$orgRole"/> org): <xsl:apply-templates select="." mode="serialize"/></xsl:comment>
+            <xsl:comment>removing affiliation - unable to <xsl:choose><xsl:when test="@ref">fix</xsl:when><xsl:otherwise>determine</xsl:otherwise></xsl:choose> @ref (multiple <xsl:value-of select="$orgRole"/> org): <xsl:apply-templates select="." mode="serialize"/></xsl:comment>
           </xsl:when>
           <xsl:otherwise>
             <xsl:call-template name="error">
@@ -108,7 +108,7 @@
   </xsl:template>
 
 
-  <xsl:template match="tei:affiliation[@ref and not($country = 'LV' and @role='MP')]">
+  <xsl:template match="tei:affiliation[@ref and not($country = 'LV' and @role='MP') and not($country = 'NL' and @role='MP')]">
     <xsl:variable name="ref" select="@ref"/>
     <xsl:variable name="orgRole" select="./ancestor::tei:particDesc/tei:listOrg/tei:org[@xml:id=substring-after($ref,'#')]/@role"/>
     <xsl:variable name="role" select="mk:affiliation-role-patch(@role,$orgRole)"/>
