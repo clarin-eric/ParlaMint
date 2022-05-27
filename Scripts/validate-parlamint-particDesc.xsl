@@ -196,9 +196,15 @@
         <xsl:if test="$affCnt = 0">
           <xsl:call-template name="error">
             <xsl:with-param name="ident">10</xsl:with-param>
-            <xsl:with-param name="severity">WARN</xsl:with-param>
+            <xsl:with-param name="severity">
+              <xsl:choose>
+                <xsl:when test="mk:is-obligatory('org',./@role)">ERROR</xsl:when>
+                <xsl:otherwise>WARN</xsl:otherwise>
+              </xsl:choose>
+            </xsl:with-param>
             <xsl:with-param name="msg">
-              <xsl:text>Organisation without affiliation: #</xsl:text>
+              <xsl:value-of select="@role"/>
+              <xsl:text>-role organisation without affiliation: #</xsl:text>
               <xsl:value-of select="@xml:id"/>
             </xsl:with-param>
           </xsl:call-template>
