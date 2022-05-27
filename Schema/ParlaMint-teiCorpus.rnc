@@ -88,7 +88,7 @@ listOrg =
         | "politicalParty"
         | 
           ## The following used only by LT:
-          "politicalGroup"
+          "parliamentaryGroup"
         | "conferenceOfChairs"
         | 
           ## The following used only by BG:
@@ -115,8 +115,13 @@ listOrg =
         | 
           ## The following used only by SI:
           "boardOfDirectors"
-        | "ethnicCommunity"
-        | "independent"
+        | [
+            # No longer used:
+            
+            # value>independent</value
+            
+          ]
+          "ethnicCommunity"
       },
       orgName+,
       event*,
@@ -132,7 +137,7 @@ orgName =
     
     ## Used when "the same" party changes its name
     (temporal.atts?),
-    attribute full { "yes" | "init" },
+    attribute full { "yes" | "abb" },
     text
   }
 listEvent = element listEvent { head*, event+ }
@@ -191,12 +196,9 @@ affiliation =
     ref.att?,
     attribute role {
       "member"
-      | "president"
-      | "vicePresident"
-      | "chairman"
-      | "viceChairman"
+      | "head"
+      | "deputyHead"
       | "minister"
-      | "MP"
       | 
         ## The following used only by FR:
         "substituteMP"
@@ -217,10 +219,9 @@ affiliation =
       | "replacement"
       | 
         ## The following used only by BG:
-        "candidateMP"
+        "representative"
       | "academician"
       | "candidateChairman"
-      | "chairperson"
       | "chiefInspector"
       | "commander"
       | "constitutionalJudge"
@@ -237,12 +238,9 @@ affiliation =
       | "secretary"
       | "secretaryGeneral"
       | "viceChairman"
-      | 
-        ## The following used only by GB:
-        "viceDirector"
-      | "speaker"
+      | "viceDirector"
     },
-    empty
+    element roleName { lang.att, text }*
   }
 occupation = element occupation { global.atts, temporal.atts?, text }
 education = element education { global.atts, temporal.atts?, text }

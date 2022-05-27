@@ -176,7 +176,7 @@
 	  </xsl:message>
 	</xsl:if>
 	<xsl:value-of select="concat(et:speaker-type($speaker), '&#9;')"/>
-	<xsl:value-of select="concat(et:speaker-party($speaker, 'init'), '&#9;')"/>
+	<xsl:value-of select="concat(et:speaker-party($speaker, 'abb'), '&#9;')"/>
 	<xsl:value-of select="concat(et:speaker-party($speaker, 'yes'), '&#9;')"/>
 	<xsl:value-of select="concat(et:party-status($speaker), '&#9;')"/>
 	<xsl:value-of select="concat(et:format-name($speaker//tei:persName[1]), '&#9;')"/>

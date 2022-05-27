@@ -30,6 +30,7 @@ $Convert = "$Bin/parlamint2conllu.xsl";
 $Valid = "$Bin/tools/validate.py";
 
 $country2lang{'AT'} = 'de';
+$country2lang{'BA'} = 'bs';
 $country2lang{'BE'} = 'fr, nl';
 $country2lang{'BG'} = 'bg';
 $country2lang{'CZ'} = 'cs';
@@ -55,6 +56,7 @@ $country2lang{'PL'} = 'pl';
 $country2lang{'PT'} = 'pt';
 $country2lang{'RO'} = 'ro';
 $country2lang{'RO'} = 'ro';
+$country2lang{'RS'} = 'sr';
 $country2lang{'SE'} = 'sv';
 $country2lang{'SI'} = 'sl';
 $country2lang{'TR'} = 'tr';
