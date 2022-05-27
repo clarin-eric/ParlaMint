@@ -322,7 +322,7 @@
       <xsl:with-param name="ident">12</xsl:with-param>
       <xsl:with-param name="severity">
         <xsl:choose>
-          <xsl:when test="$min >= $cnt and ($max=-1 or $cnt >= $max) "><xsl:value-of select="$severity"/></xsl:when>
+          <xsl:when test="$min > $cnt or ($max >=0 and $cnt > $max) "><xsl:value-of select="$severity"/></xsl:when>
           <xsl:otherwise>INFO</xsl:otherwise>
         </xsl:choose>
       </xsl:with-param>
