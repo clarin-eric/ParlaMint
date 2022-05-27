@@ -25776,10 +25776,14 @@ rm -rf Data-v2tov3-20220524/fix-v2tov3/ParlaMint-NL
 INFO: Converting ParlaMint-NL.ana.xml
 $ awk '{gsub(/(<[a-zA-Z:]+)/,"& LINE=\"" NR "\"",$0);print}' /home/matyas/Documents/UFAL/REP/ParlaMint-clarin-eric/Data-data-v2tov3-fixings/ParlaMint-NL/ParlaMint-NL.ana.xml | java -jar /usr/share/java/saxon.jar -l  -xsl:/home/matyas/Documents/UFAL/REP/ParlaMint-clarin-eric/Scripts/fixings/v2tov3/v2tov3.xsl -s:-  > /home/matyas/Documents/UFAL/REP/ParlaMint-clarin-eric/Data-v2tov3-20220524/fix-v2tov3/ParlaMint-NL/ParlaMint-NL.ana.xml
 ERROR[??] ParlaMint-NL.ana:1209 2parliament organizations - impossible to determine correct affiliation
+ERROR[??] ParlaMint-NL.ana:1211 2parliament organizations - impossible to determine correct affiliation
 ERROR[??] ParlaMint-NL.ana:1212 missing  organization
 ERROR[??] ParlaMint-NL.ana:1221 2parliament organizations - impossible to determine correct affiliation
+ERROR[??] ParlaMint-NL.ana:1222 2parliament organizations - impossible to determine correct affiliation
+ERROR[??] ParlaMint-NL.ana:1230 2parliament organizations - impossible to determine correct affiliation
 ERROR[??] ParlaMint-NL.ana:1232 2parliament organizations - impossible to determine correct affiliation
 ERROR[??] ParlaMint-NL.ana:1240 2parliament organizations - impossible to determine correct affiliation
+ERROR[??] ParlaMint-NL.ana:1242 2parliament organizations - impossible to determine correct affiliation
 ERROR[??] ParlaMint-NL.ana:1251 2parliament organizations - impossible to determine correct affiliation
 ERROR[??] ParlaMint-NL.ana:1260 2parliament organizations - impossible to determine correct affiliation
 ERROR[??] ParlaMint-NL.ana:1261 missing  organization
@@ -26386,10 +26390,14 @@ ERROR[??] ParlaMint-NL.ana:5765 2parliament organizations - impossible to determ
 INFO: Converting ParlaMint-NL.xml
 $ awk '{gsub(/(<[a-zA-Z:]+)/,"& LINE=\"" NR "\"",$0);print}' /home/matyas/Documents/UFAL/REP/ParlaMint-clarin-eric/Data-data-v2tov3-fixings/ParlaMint-NL/ParlaMint-NL.xml | java -jar /usr/share/java/saxon.jar -l  -xsl:/home/matyas/Documents/UFAL/REP/ParlaMint-clarin-eric/Scripts/fixings/v2tov3/v2tov3.xsl -s:-  > /home/matyas/Documents/UFAL/REP/ParlaMint-clarin-eric/Data-v2tov3-20220524/fix-v2tov3/ParlaMint-NL/ParlaMint-NL.xml
 ERROR[??] ParlaMint-NL:572 2parliament organizations - impossible to determine correct affiliation
+ERROR[??] ParlaMint-NL:574 2parliament organizations - impossible to determine correct affiliation
 ERROR[??] ParlaMint-NL:575 missing  organization
 ERROR[??] ParlaMint-NL:584 2parliament organizations - impossible to determine correct affiliation
+ERROR[??] ParlaMint-NL:585 2parliament organizations - impossible to determine correct affiliation
+ERROR[??] ParlaMint-NL:593 2parliament organizations - impossible to determine correct affiliation
 ERROR[??] ParlaMint-NL:595 2parliament organizations - impossible to determine correct affiliation
 ERROR[??] ParlaMint-NL:603 2parliament organizations - impossible to determine correct affiliation
+ERROR[??] ParlaMint-NL:605 2parliament organizations - impossible to determine correct affiliation
 ERROR[??] ParlaMint-NL:614 2parliament organizations - impossible to determine correct affiliation
 ERROR[??] ParlaMint-NL:623 2parliament organizations - impossible to determine correct affiliation
 ERROR[??] ParlaMint-NL:624 missing  organization
