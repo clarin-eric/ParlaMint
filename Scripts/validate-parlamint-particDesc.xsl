@@ -177,6 +177,14 @@
         </xsl:with-param>
       </xsl:call-template>
     </xsl:if>
+    <xsl:if test="@role='parliament' and not( (contains(mk:borders(@ana),' #parla.national ') or contains(mk:borders(@ana),' #parla.regional ')) and (contains(mk:borders(@ana),' #parla.uni ') or contains(mk:borders(@ana),' #parla.lower ') or contains(mk:borders(@ana),' #parla.upper '))) ">
+      <xsl:call-template name="error">
+        <xsl:with-param name="ident">19</xsl:with-param>
+        <xsl:with-param name="msg">
+          <xsl:text>Parliament organization without geo-political(#parla.national/#parla.regional) or chamber(#parla.uni/#parla.lower/#parla.upper) classification</xsl:text>
+        </xsl:with-param>
+      </xsl:call-template>
+    </xsl:if>
     <xsl:choose>
       <xsl:when test="@xml:id">
         <!-- organization without affiliation -->
