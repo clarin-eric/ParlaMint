@@ -17,13 +17,14 @@
     <xsl:variable name="from" select="mk:get_from(.)"/>
     <xsl:variable name="to" select="mk:get_to(.)"/>
     <xsl:variable name="ana" select="@ana"/>
-    <xsl:variable name="text" select="./text()"/>
+    <xsl:variable name="text" select="./text()[normalize-space(.)]"/>
 
     <xsl:if test="$text">
       <xsl:call-template name="affiliation-error">
         <xsl:with-param name="ident">02</xsl:with-param>
         <xsl:with-param name="msg">
-          <xsl:text>Contains text value</xsl:text>
+          <xsl:text>Contains text value'</xsl:text>
+          <xsl:value-of select="$text"/><xsl:text>'</xsl:text>
         </xsl:with-param>
       </xsl:call-template>
     </xsl:if>
@@ -418,9 +419,9 @@
       <!-- TODO: extend rules -->
       <xsl:when test="contains(' MP primeMinister chairman viceChairman ', $role)">14:ERROR)not allowed in any context</xsl:when>
       <xsl:when test="$orgrole = 'parliament' and contains(' minister ', mk:borders($role))">15:ERROR)invalid affiliation role with parliament organization</xsl:when>
-      <xsl:when test="$orgrole = 'parliament' and not(contains(' president member vicePresident ', mk:borders($role)))">15:WARN)unexpected affiliation role with parliament organization</xsl:when>
-      <xsl:when test="$orgrole = 'government' and not(contains(' president member vicePresident minister ', mk:borders($role)))">16:WARN)unexpected affiliation role with government organization</xsl:when>
-      <xsl:when test="$orgrole = 'parliamentaryGroup' and not(contains(' president vicePresident member ', mk:borders($role)))">17:WARN)unexpected affiliation role with parliamentary group organization</xsl:when>
+      <xsl:when test="$orgrole = 'parliament' and not(contains(' head member deputyHead ', mk:borders($role)))">15:WARN)unexpected affiliation role with parliament organization</xsl:when>
+      <xsl:when test="$orgrole = 'government' and not(contains(' head member deputyHead minister ', mk:borders($role)))">16:WARN)unexpected affiliation role with government organization</xsl:when>
+      <xsl:when test="$orgrole = 'parliamentaryGroup' and not(contains(' head deputyHead member ', mk:borders($role)))">17:WARN)unexpected affiliation role with parliamentary group organization</xsl:when>
       <xsl:otherwise>PASS</xsl:otherwise>
     </xsl:choose>
   </xsl:function>
@@ -430,19 +431,19 @@
     <xsl:param name="orgrole"/>
     <xsl:choose>
       <!-- parliament -->
-      <xsl:when test="$role='president' and $orgrole='parliament'">member</xsl:when>
-      <xsl:when test="$role='vicePresident' and $orgrole='parliament'">member</xsl:when>
+      <xsl:when test="$role='head' and $orgrole='parliament'">member</xsl:when>
+      <xsl:when test="$role='deputyHead' and $orgrole='parliament'">member</xsl:when>
       <!-- parliamentaryGroup -->
-      <xsl:when test="$role='president' and $orgrole='parliamentaryGroup'">member</xsl:when>
-      <xsl:when test="$role='vicePresident' and $orgrole='parliamentaryGroup'">member</xsl:when>
+      <xsl:when test="$role='head' and $orgrole='parliamentaryGroup'">member</xsl:when>
+      <xsl:when test="$role='deputyHead' and $orgrole='parliamentaryGroup'">member</xsl:when>
       <!-- government -->
-      <xsl:when test="$role='president' and $orgrole='government'">member</xsl:when>
-      <xsl:when test="$role='vicePresident' and $orgrole='government'">member</xsl:when>
+      <xsl:when test="$role='head' and $orgrole='government'">member</xsl:when>
+      <xsl:when test="$role='deputyHead' and $orgrole='government'">member</xsl:when>
       <xsl:when test="$role='minister' and $orgrole='government'">member</xsl:when>
 
       <!-- general organization -->
-      <xsl:when test="$role='president'">member</xsl:when>
-      <xsl:when test="$role='vicePresident'">member</xsl:when>
+      <xsl:when test="$role='head'">member</xsl:when>
+      <xsl:when test="$role='deputyHead'">member</xsl:when>
       <xsl:otherwise><xsl:text/></xsl:otherwise>
     </xsl:choose>
   </xsl:function>
