@@ -74,17 +74,28 @@
             </xsl:copy>
             <xsl:variable name="implicated-role" select="mk:affiliation-implicated-role($role,$orgRole)"/>
             <xsl:if test="not($implicated-role='')">
-              <xsl:call-template name="error">
-                <xsl:with-param name="severity">INFO</xsl:with-param>
-                <xsl:with-param name="msg">adding implicated affiliation(role='<xsl:value-of select="$implicated-role"/>') to '<xsl:value-of select="$orgRole"/>'</xsl:with-param>
-              </xsl:call-template>
-              <xsl:copy>
-                <xsl:apply-templates select="@*[name() != 'ana' and name() != 'role']"/>
-                <xsl:attribute name="ref">#<xsl:value-of select="$org/@xml:id"/></xsl:attribute>
-                <xsl:attribute name="role"><xsl:value-of select="$implicated-role"/></xsl:attribute>
-                <xsl:call-template name="affiliation-ana"><xsl:with-param name="ref" select="concat('#',$org/@xml:id)"/></xsl:call-template>
-                <xsl:call-template name="affiliation-roleName"><xsl:with-param name="newRole" select="$implicated-role"/><xsl:with-param name="orgRole" select="$orgRole"/></xsl:call-template>
-              </xsl:copy>
+              <xsl:variable name="implicated-affiliation" select="mk:affiliation-implicated-role-existence(./parent::tei:person,$implicated-role, concat('#',$org/@xml:id), mk:get_from(.), mk:get_to(.))"/>
+              <xsl:choose>
+                <xsl:when test="$implicated-affiliation">
+                  <xsl:call-template name="error">
+                    <xsl:with-param name="severity">INFO</xsl:with-param>
+                    <xsl:with-param name="msg">implicated affiliation(role='<xsl:value-of select="$implicated-role"/>') exists</xsl:with-param>
+                  </xsl:call-template>
+                </xsl:when>
+                <xsl:otherwise>
+                  <xsl:call-template name="error">
+                    <xsl:with-param name="severity">INFO</xsl:with-param>
+                    <xsl:with-param name="msg">adding implicated affiliation(role='<xsl:value-of select="$implicated-role"/>') to '<xsl:value-of select="$orgRole"/>'</xsl:with-param>
+                  </xsl:call-template>
+                  <xsl:copy>
+                    <xsl:apply-templates select="@*[name() != 'ana' and name() != 'role']"/>
+                    <xsl:attribute name="ref">#<xsl:value-of select="$org/@xml:id"/></xsl:attribute>
+                    <xsl:attribute name="role"><xsl:value-of select="$implicated-role"/></xsl:attribute>
+                    <xsl:call-template name="affiliation-ana"><xsl:with-param name="ref" select="concat('#',$org/@xml:id)"/></xsl:call-template>
+                    <xsl:call-template name="affiliation-roleName"><xsl:with-param name="newRole" select="$implicated-role"/><xsl:with-param name="orgRole" select="$orgRole"/></xsl:call-template>
+                  </xsl:copy>
+                </xsl:otherwise>
+              </xsl:choose>
             </xsl:if>
           </xsl:when>
           <xsl:when test="count($org)>1">
@@ -335,7 +346,7 @@
     <xsl:param name="ref"/>
     <xsl:param name="from"/>
     <xsl:param name="to"/>
-    <xsl:sequence select="$person/tei:affiliation[@role=$role and @ref=$ref and $from >= mk:get_from(.) and mk:get_to(.) >= $to]"/>
+    <xsl:sequence select="$person/tei:affiliation[mk:affiliation-role-patch(@role,'')=$role and @ref=$ref and $from >= mk:get_from(.) and mk:get_to(.) >= $to]"/>
   </xsl:function>
 
   <xsl:function name="mk:affiliation-role-patch">
