@@ -49,7 +49,7 @@
                                                         [@role=$role][@ref = $ref][not(@ana) or @ana != $ana]
                                                         [$from=mk:get_to(.) or $to = mk:get_from(.)][1]"/>
             <xsl:variable name="aff-cover" select="(preceding-sibling::tei:affiliation,following-sibling::tei:affiliation)
-                                                        [@role=$role][@ref = $ref]
+                                                        [@role=$role][@ref = $ref][not(@ana) or @ana != $ana]
                                                         [$from >= mk:get_from(.) and  mk:get_to(.) >= $to and not($from = mk:get_from(.) and $to = mk:get_to(.))][1]"/>
             <xsl:variable name="aff-overlap" select="following-sibling::tei:affiliation
                                                         [@role=$role][@ref = $ref][not(@ana) or @ana != $ana]
@@ -58,6 +58,7 @@
               <xsl:when test="$aff-duplicit">
                 <xsl:call-template name="affiliation-error-overlap">
                   <xsl:with-param name="ident">01</xsl:with-param>
+                  <xsl:with-param name="severity">ERROR</xsl:with-param>
                   <xsl:with-param name="msg">is duplicated by</xsl:with-param>
                   <xsl:with-param name="aff-overlaps" select="$aff-duplicit"/>
                 </xsl:call-template>
@@ -73,6 +74,7 @@
               <xsl:when test="$aff-cover"> <!-- inside other affiliation -->
                 <xsl:call-template name="affiliation-error-overlap">
                   <xsl:with-param name="ident">01</xsl:with-param>
+                  <xsl:with-param name="severity">ERROR</xsl:with-param>
                   <xsl:with-param name="msg">is inside</xsl:with-param>
                   <xsl:with-param name="aff-overlaps" select="$aff-cover"/>
                 </xsl:call-template>
@@ -80,6 +82,12 @@
               <xsl:when test="$aff-overlap">
                 <xsl:call-template name="affiliation-error-overlap">
                   <xsl:with-param name="ident">01</xsl:with-param>
+                  <xsl:with-param name="severity">
+                    <xsl:choose>
+                      <xsl:when test="$role = 'member'">ERROR</xsl:when>
+                      <xsl:otherwise>WARN</xsl:otherwise>
+                    </xsl:choose>
+                  </xsl:with-param>
                   <xsl:with-param name="msg">has multiple days overlap with</xsl:with-param>
                   <xsl:with-param name="aff-overlaps" select="$aff-overlap"/>
                 </xsl:call-template>
