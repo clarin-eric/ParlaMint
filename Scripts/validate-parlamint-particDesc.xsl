@@ -43,16 +43,23 @@
 
             <!-- overlapping affiliations with same role and same organization -->
             <xsl:variable name="aff-duplicit" select="following-sibling::tei:affiliation
-                                                        [@role=$role][@ref = $ref]
+                                                        [@role=$role]
+                                                        [@ref = $ref]
                                                         [$from=mk:get_from(.) and $to = mk:get_to(.)][1]"/>
             <xsl:variable name="aff-day-overlap" select="following-sibling::tei:affiliation
-                                                        [@role=$role][@ref = $ref][not(@ana) or @ana != $ana]
+                                                        [@role=$role]
+                                                        [@ref = $ref]
+                                                        [not(@ana) or @ana = $ana]
                                                         [$from=mk:get_to(.) or $to = mk:get_from(.)][1]"/>
             <xsl:variable name="aff-cover" select="(preceding-sibling::tei:affiliation,following-sibling::tei:affiliation)
-                                                        [@role=$role][@ref = $ref][not(@ana) or @ana != $ana]
+                                                        [@role=$role]
+                                                        [@ref = $ref]
+                                                        [not(@ana) or @ana = $ana]
                                                         [$from >= mk:get_from(.) and  mk:get_to(.) >= $to and not($from = mk:get_from(.) and $to = mk:get_to(.))][1]"/>
             <xsl:variable name="aff-overlap" select="following-sibling::tei:affiliation
-                                                        [@role=$role][@ref = $ref][not(@ana) or @ana != $ana]
+                                                        [@role=$role]
+                                                        [@ref = $ref]
+                                                        [not(@ana) or @ana = $ana]
                                                         [($from > mk:get_from(.) and  mk:get_to(.) > $from) or ($to > mk:get_from(.) and  mk:get_to(.) > $to)][1]"/>
             <xsl:choose>
               <xsl:when test="$aff-duplicit">
@@ -151,12 +158,6 @@
 
             <xsl:variable name="implicated-role" select="mk:affiliation-implicated-role(@role,$affWith/@role)"/>
             <xsl:if test="not($implicated-role = '')">
-              <xsl:message>DEBUG:<xsl:value-of select="$implicated-role"/>|<xsl:value-of select="$ref"/>|<xsl:value-of select="$from"/>...<xsl:value-of select="$to"/>|<xsl:apply-templates mode="serialize" select="$person/tei:affiliation[@role=$implicated-role and @ref=$ref and $from>=mk:get_from(.) and mk:get_to(.)>=$to ]"/></xsl:message>
-              <xsl:message>DEBUG:    FROM   <xsl:apply-templates mode="serialize" select="$person/tei:affiliation[@role=$implicated-role and @ref=$ref and $from>=mk:get_from(.) and mk:get_to(.)>=$from ]"/></xsl:message>
-              <xsl:message>DEBUG:    TO     <xsl:apply-templates mode="serialize" select="$person/tei:affiliation[@role=$implicated-role and @ref=$ref and $to>=mk:get_from(.) and mk:get_to(.)>=$to ]"/></xsl:message>
-              <xsl:message>DEBUG:    ??     <xsl:apply-templates mode="serialize" select="$person/tei:affiliation[@role=$implicated-role and @ref=$ref]"/></xsl:message>
-              <xsl:message>DEBUG:  all affs <xsl:apply-templates mode="serialize" select="$person/tei:affiliation[@ref=$ref]"/></xsl:message>
-
               <xsl:variable name="implicated-affiliation" select="$person/tei:affiliation[@role=$implicated-role and @ref=$ref and $from>=mk:get_from(.) and mk:get_to(.)>=$to ]"/>
               <xsl:if test="not($implicated-affiliation)">
                 <xsl:variable name="severity">
