@@ -144,7 +144,9 @@
     <xsl:choose>
       <xsl:when test="$node/@from"><xsl:value-of select="substring($node/@from,1,$crop)"/></xsl:when>
       <xsl:when test="$node/@when"><xsl:value-of select="substring($node/@when,1,$crop)"/></xsl:when>
-      <xsl:when test="$node and not($node/parent::tei:bibl/parent::tei:sourceDesc/parent::tei:fileDesc)">
+      <xsl:when test="$node
+                        and $node/ancestor::tei:teiHeader//tei:sourceDesc/tei:bibl[1]/tei:date
+                        and not($node/parent::tei:bibl/parent::tei:sourceDesc/parent::tei:fileDesc)">
         <xsl:value-of select="mk:get_from($node/ancestor::tei:teiHeader//tei:sourceDesc/tei:bibl[1]/tei:date)"/>
       </xsl:when>
       <xsl:otherwise>1900-01-01</xsl:otherwise>
@@ -157,7 +159,9 @@
     <xsl:choose>
       <xsl:when test="$node/@to"><xsl:value-of select="substring($node/@to,1,$crop)"/></xsl:when>
       <xsl:when test="$node/@when"><xsl:value-of select="substring($node/@when,1,$crop)"/></xsl:when>
-      <xsl:when test="$node and not($node/parent::tei:bibl/parent::tei:sourceDesc/parent::tei:fileDesc)">
+      <xsl:when test="$node
+                        and $node/ancestor::tei:teiHeader//tei:sourceDesc/tei:bibl[1]/tei:date
+                        and not($node/parent::tei:bibl/parent::tei:sourceDesc/parent::tei:fileDesc)">
         <xsl:value-of select="mk:get_to($node/ancestor::tei:teiHeader//tei:sourceDesc/tei:bibl[1]/tei:date)"/>
       </xsl:when>
       <xsl:otherwise><xsl:value-of select="$node/ancestor::tei:teiHeader//tei:publicationStmt/tei:date/@when"/></xsl:otherwise>
