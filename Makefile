@@ -367,6 +367,18 @@ $(fix-v2tov3-diff-XX): fix-v2tov3-diff-%: %
 	           ${WORKINGDIR}/fix-v2tov3/ParlaMint-$<${CORPUSDIR_SUFFIX}/{} \
 	  || : # supress exit error when files are different
 
+fix-overlapping-affiliations-XX = $(addprefix fix-overlapping-affiliations-, $(PARLIAMENTS-v2))
+##!fix-overlapping-affiliations ## convert ParlaMint v2 format to ParlaMint v3 format
+fix-overlapping-affiliations: $(fix-overlapping-affiliations-XX)
+##!fix-overlapping-affiliations-XX ##
+$(fix-overlapping-affiliations-XX): fix-overlapping-affiliations-%: % working-dir-%
+	rm -rf ${WORKINGDIR}/fix-overlapping-affiliations/ParlaMint-$<${CORPUSDIR_SUFFIX}
+	mkdir -p ${WORKINGDIR}/fix-overlapping-affiliations/ParlaMint-$<${CORPUSDIR_SUFFIX}
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<*.xml" -printf '%f\n' | grep -v '_' \
+	| xargs -I {} $s ${faff} -s:${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{} -o:${WORKINGDIR}/fix-overlapping-affiliations/ParlaMint-$<${CORPUSDIR_SUFFIX}/{}
+
+
+
 ######################Generating and ingesting TSV added metadata
 
 ## Generate TSV files for minister affiliations on the basis of the root files.
@@ -391,6 +403,7 @@ vlink = -xsl:Scripts/check-links.xsl
 listlink = -xsl:Scripts/list-links.xsl
 listrole = -xsl:Scripts/list-affiliation-org-role-pairs.xsl
 listattr = -xsl:Scripts/list-element-attribute.xsl
+faff = -xsl:Scripts/fixings/fix-overlapping-affiliations.xsl
 vcontent = -xsl:Scripts/validate-parlamint.xsl
 getincludes = -I % java -cp /usr/share/java/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -qs:'//*[local-name()="include"]/@href' -s:% |sed 's/^ *href="//;s/"//'
 pc =  $j Schema/parla-clarin.rng                # Validate with Parla-CLARIN schema
