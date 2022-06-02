@@ -30,6 +30,7 @@ $Jing  = 'java -jar /usr/share/java/jing.jar';
 $Saxon = 'java -jar /usr/share/java/saxon.jar';
 $Links = "$Bin/check-links.xsl";
 $Valid = "$Bin/validate-parlamint.xsl";
+$Valid_particDesc = "$Bin/validate-parlamint-particDesc.xsl";
 
 foreach my $inDir (glob "$inDirs") {
     next unless -d $inDir;
@@ -50,6 +51,7 @@ foreach my $inDir (glob "$inDirs") {
 	print STDERR "INFO: Validating TEI root $rootFile\n";
 	&run("$Jing $schemaDir/ParlaMint-teiCorpus.rng", $rootFile);
 	&run("$Saxon -xsl:$Valid", $rootFile);
+	&run("$Saxon -xsl:$Valid_particDesc", $rootFile);
 	&run("$Saxon -xsl:$Links", $rootFile);
 	open(IN, '<:utf8', $rootFile);
 	while (<IN>) {
@@ -74,6 +76,7 @@ foreach my $inDir (glob "$inDirs") {
 	print STDERR "INFO: Validating TEI.ana root $rootAnaFile\n";
 	&run("$Jing $schemaDir/ParlaMint-teiCorpus.ana.rng", $rootAnaFile);
 	&run("$Saxon -xsl:$Valid", $rootAnaFile);
+	&run("$Saxon -xsl:$Valid_particDesc", $rootAnaFile);
 	&run("$Saxon -xsl:$Links", $rootAnaFile);
 	open(IN, '<:utf8', $rootAnaFile);
 	while (<IN>) {
@@ -106,6 +109,9 @@ sub run {
     }
     elsif ($command =~ /$Valid/) {
 	print STDERR "INFO: Content validaton for $fName\n"
+    }
+    elsif ($command =~ /$Valid_particDesc/) {
+	print STDERR "INFO: particDesc content validaton for $fName\n"
     }
     elsif ($command =~ /$Links/) {
 	print STDERR "INFO: Link checking for $fName\n"
