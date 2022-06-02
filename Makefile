@@ -355,7 +355,7 @@ $(fix-v2tov3-XX): fix-v2tov3-%: % working-dir-%
 
 fix-v2tov3-diff-XX = $(addprefix fix-v2tov3-diff-, $(PARLIAMENTS-v2))
 ##!fix-v2tov3-diff## show diff between ParlaMint v2 format and converted ParlaMint v3 format
-fix-v2tov3-diff: $(fix-v2tov3-XX)
+fix-v2tov3-diff: $(fix-v2tov3-diff-XX)
 ##!fix-v2tov3-diff-XX##
 $(fix-v2tov3-diff-XX): fix-v2tov3-diff-%: %
 	@find ${WORKINGDIR}/fix-v2tov3/ParlaMint-$<${CORPUSDIR_SUFFIX} -type f -printf '%f\n' \

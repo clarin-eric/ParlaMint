@@ -21,7 +21,9 @@ foreach my $inFile (glob $inFiles) {
     `mkdir -p $outputDir` unless -e "$outputDir";
     my $outFile = "$outputDir/$fName";
     print STDERR "INFO: Converting $fName\n";
-    my $command = "$Saxon -xsl:$CNV $inFile " . ($POLISH ? "| $POLISH": "") . " > $outFile";
-    #print STDERR "\$ $command\n";
+    my $command = "awk '{gsub(/(<[a-zA-Z:]+)/,"
+                 .'"& LINE=\"" NR "\"",$0);print}'
+                 ."' $inFile | $Saxon -xsl:$CNV -s:- " . ($POLISH ? "| $POLISH": "") . " > $outFile";
+    print STDERR "\$ $command\n";
     `$command`;
 }
