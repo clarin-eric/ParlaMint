@@ -357,7 +357,7 @@ $(fix-v2tov3-XX): fix-v2tov3-%: % working-dir-%
 
 fix-v2tov3-diff-XX = $(addprefix fix-v2tov3-diff-, $(PARLIAMENTS-v2))
 ##!fix-v2tov3-diff## show diff between ParlaMint v2 format and converted ParlaMint v3 format
-fix-v2tov3-diff: $(fix-v2tov3-XX)
+fix-v2tov3-diff: $(fix-v2tov3-diff-XX)
 ##!fix-v2tov3-diff-XX##
 $(fix-v2tov3-diff-XX): fix-v2tov3-diff-%: %
 	@find ${WORKINGDIR}/fix-v2tov3/ParlaMint-$<${CORPUSDIR_SUFFIX} -type f -printf '%f\n' \
@@ -376,6 +376,19 @@ $(fix-overlapping-affiliations-XX): fix-overlapping-affiliations-%: % working-di
 	mkdir -p ${WORKINGDIR}/fix-overlapping-affiliations/ParlaMint-$<${CORPUSDIR_SUFFIX}
 	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<*.xml" -printf '%f\n' | grep -v '_' \
 	| xargs -I {} $s ${faff} -s:${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{} -o:${WORKINGDIR}/fix-overlapping-affiliations/ParlaMint-$<${CORPUSDIR_SUFFIX}/{}
+
+
+fix-v2tov3-full-XX = $(addprefix fix-v2tov3-full-, $(PARLIAMENTS-v2))
+##!fix-v2tov3-full ## convert ParlaMint v2 format to ParlaMint v3 format and fix overlapping affiliations
+fix-v2tov3-full: $(fix-v2tov3-full-XX)
+##!fix-v2tov3-full-XX ##
+$(fix-v2tov3-full-XX): fix-v2tov3-full-%: % working-dir-% fix-v2tov3-%
+	rm -rf ${WORKINGDIR}/fix-v2tov3-full/ParlaMint-$<${CORPUSDIR_SUFFIX}
+	mkdir -p ${WORKINGDIR}/fix-v2tov3-full/ParlaMint-$<${CORPUSDIR_SUFFIX}
+	make fix-overlapping-affiliations-$< DATADIR=${WORKINGDIR}/fix-v2tov3
+	rsync -av ${WORKINGDIR}/fix-v2tov3/ParlaMint-$<${CORPUSDIR_SUFFIX}/ ${WORKINGDIR}/fix-v2tov3-full/ParlaMint-$<${CORPUSDIR_SUFFIX}
+	rsync -av ${WORKINGDIR}/fix-overlapping-affiliations/ParlaMint-$<${CORPUSDIR_SUFFIX}/ ${WORKINGDIR}/fix-v2tov3-full/ParlaMint-$<${CORPUSDIR_SUFFIX}
+
 
 
 
