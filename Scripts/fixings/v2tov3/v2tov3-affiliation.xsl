@@ -206,6 +206,15 @@
     </xsl:attribute>
   </xsl:template>
 
+  <xsl:template match="tei:org[$country = 'SI' and @role='independent' and @xml:id='party.NeP']" priority="1"/>
+  <xsl:template match="tei:affiliation[$country = 'SI' and @ref='#party.NeP']" priority="1"/>
+
+  <xsl:template match="tei:org[$country = 'GR' and @role='independent' and @xml:id='party.ΑΝΕΞΑΡΤΗΤΟΙ_ΕΚΤΟΣ_ΚΟΜΜΑΤΟΣ']" priority="1"/>
+  <xsl:template match="tei:affiliation[$country = 'GR' and @ref='#party.ΑΝΕΞΑΡΤΗΤΟΙ_ΕΚΤΟΣ_ΚΟΜΜΑΤΟΣ']" priority="1"/>
+
+  <xsl:template match="tei:org[$country = 'GR' and @role='independent' and @xml:id='party.ΕΞΩΚΟΙΝΟΒΟΥΛΕΥΤΙΚΟΣ']" priority="1"/>
+  <xsl:template match="tei:affiliation[$country = 'GR' and @ref='#party.ΕΞΩΚΟΙΝΟΒΟΥΛΕΥΤΙΚΟΣ']" priority="1"/>
+
   <xsl:template match="tei:org">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
@@ -233,6 +242,7 @@
           <xsl:value-of select="."/>
         </xsl:when>
         <xsl:when test="not($country = 'CZ') and . = 'politicalParty'">parliamentaryGroup</xsl:when>
+        <xsl:when test="$country = 'SI' and . = 'independent'">parliamentaryGroup</xsl:when>
         <xsl:when test=". = 'politicalGroup'">parliamentaryGroup</xsl:when>
         <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
       </xsl:choose>
