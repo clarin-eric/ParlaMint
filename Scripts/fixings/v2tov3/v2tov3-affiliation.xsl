@@ -206,6 +206,26 @@
     </xsl:attribute>
   </xsl:template>
 
+  <xsl:template match="tei:org">
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <xsl:if test="@role='parliament'">
+        <xsl:variable name="ana">
+          <xsl:choose>
+            <xsl:when test="contains(' BE FR ',mk:borders($country))">#parla.national #parla.lower</xsl:when>
+            <xsl:when test="contains('  ',mk:borders($country))">#parla.national #parla.upper</xsl:when>
+            <xsl:when test="contains(' BG DK GR IS LT LV TR ',mk:borders($country))">#parla.national #parla.uni</xsl:when>
+          </xsl:choose>
+        </xsl:variable>
+        <xsl:if test="$ana != ''">
+          <xsl:attribute name="ana" select="$ana"/>
+        </xsl:if>
+      </xsl:if>
+      <xsl:apply-templates/>
+    </xsl:copy>
+  </xsl:template>
+
+
   <xsl:template match="@role[./parent::tei:org]" priority="1">
     <xsl:attribute name="role">
       <xsl:choose>
