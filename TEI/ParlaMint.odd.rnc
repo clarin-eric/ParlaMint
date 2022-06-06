@@ -12,10 +12,10 @@ namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 namespace xsl = "http://www.w3.org/1999/XSL/Transform"
 
-# Schema generated from ODD source 2022-05-27T10:35:36Z. 2022-05-27.
-# TEI Edition: Version 4.4.0a. Last updated on
-#         14th March 2022, revision 3a89ab0a0
-# TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0a./
+# Schema generated from ODD source 2022-06-06T09:09:53Z. 2022-06-06.
+# TEI Edition: Version 4.5.0a. Last updated on
+#         1st June 2022, revision aeba95253
+# TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.5.0a./
 #
 
 # This file is freely available and you are hereby authorised to copy, modify, and redistribute it in any way without further reference or permissions.
@@ -30,7 +30,9 @@ tei_att.ascribed.attribute.who =
   
   ## indicates the person, or group of people, to whom the element content is ascribed.
   attribute who {
-    list { xsd:anyURI+ }
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
   }?
 tei_att.canonical.attributes =
   tei_att.canonical.attribute.key, tei_att.canonical.attribute.ref
@@ -42,7 +44,9 @@ tei_att.canonical.attribute.ref =
   
   ## (reference) provides an explicit means of locating a full definition or identity for the entity being named by means of one or more URIs.
   attribute ref {
-    list { xsd:anyURI+ }
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
   }?
 tei_att.ranging.attribute.atLeast =
   
@@ -237,13 +241,17 @@ tei_att.datcat.attribute.datcat =
   
   ## contains a PID (persistent identifier) that aligns the given element with the appropriate Data Category (or categories) in ISOcat.
   attribute ns2:datcat {
-    list { xsd:anyURI+ }
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
   }?
 tei_att.datcat.attribute.valueDatcat =
   
   ## contains a PID (persistent identifier) that aligns the content of the given element or the value of the given attribute with the appropriate simple Data Category (or categories) in ISOcat.
   attribute ns2:valueDatcat {
-    list { xsd:anyURI+ }
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
   }?
 tei_att.declarable.attribute.default =
   
@@ -303,7 +311,9 @@ tei_att.global.rendition.attribute.rendition =
   
   ## points to a description of the rendering or presentation used for this element in the source text.
   attribute rendition {
-    list { xsd:anyURI+ }
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
   }?
 tei_att.media.attribute.scale =
   
@@ -805,7 +815,9 @@ tei_ref =
     
     ## specifies the destination of the reference by supplying one or more URI References
     attribute target {
-      list { xsd:anyURI+ }
+      list {
+        xsd:anyURI { pattern = "\S+" }+
+      }
     }?,
     empty
   }
@@ -1262,7 +1274,9 @@ tei_category =
       ]
     ]
     attribute ana {
-      list { xsd:anyURI+ }
+      list {
+        xsd:anyURI { pattern = "\S+" }+
+      }
     }?,
     empty
   }
@@ -1349,7 +1363,9 @@ tei_catRef =
     
     ## specifies the destination of the reference by supplying one or more URI References
     attribute target {
-      list { xsd:anyURI+ }
+      list {
+        xsd:anyURI { pattern = "\S+" }+
+      }
     },
     [
       a:documentation [
@@ -1358,7 +1374,9 @@ tei_catRef =
         " element, or by some other resource."
       ]
     ]
-    attribute scheme { xsd:anyURI },
+    attribute scheme {
+      xsd:anyURI { pattern = "\S+" }
+    },
     empty
   }
 tei_revisionDesc =
@@ -1408,7 +1426,9 @@ tei_TEI =
     
     ##
     attribute ana {
-      list { xsd:anyURI+ }
+      list {
+        xsd:anyURI { pattern = "\S+" }+
+      }
     },
     empty
   }
@@ -1728,7 +1748,9 @@ tei_att.datable.custom.attribute.to-custom =
 tei_att.datable.custom.attribute.datingPoint =
   
   ## supplies a pointer to some location defining a named point in time with reference to which the datable item is understood to have occurred
-  attribute datingPoint { xsd:anyURI }?
+  attribute datingPoint {
+    xsd:anyURI { pattern = "\S+" }
+  }?
 tei_att.datable.custom.attribute.datingMethod =
   [
     a:documentation [
@@ -1737,7 +1759,9 @@ tei_att.datable.custom.attribute.datingMethod =
       " element or other means of interpreting the values of the custom dating attributes."
     ]
   ]
-  attribute datingMethod { xsd:anyURI }?
+  attribute datingMethod {
+    xsd:anyURI { pattern = "\S+" }
+  }?
 tei_model.persNamePart =
   tei_surname | tei_forename | tei_nameLink | tei_addName | tei_roleName
 tei_model.persNamePart_alternation =
@@ -2330,12 +2354,16 @@ tei_relation =
     (
      ## identifies the active participants in a non-mutual relationship, or all the participants in a mutual one.
      attribute active {
-       list { xsd:anyURI+ }
+       list {
+         xsd:anyURI { pattern = "\S+" }+
+       }
      }?
      | 
        ## supplies a list of participants amongst all of whom the relationship holds equally.
        attribute mutual {
-         list { xsd:anyURI+ }
+         list {
+           xsd:anyURI { pattern = "\S+" }+
+         }
        }?),
     
     ## supplies a name for the kind of relationship of which this is an instance.
@@ -2345,7 +2373,9 @@ tei_relation =
     
     ## identifies the passive participants in a non-mutual relationship.
     attribute passive {
-      list { xsd:anyURI+ }
+      list {
+        xsd:anyURI { pattern = "\S+" }+
+      }
     }?,
     empty
   }
@@ -2397,11 +2427,16 @@ tei_link =
        ],
     
     ##
-    attribute ana { xsd:anyURI },
+    attribute ana {
+      xsd:anyURI { pattern = "\S+" }
+    },
     
     ##
     attribute target {
-      list { xsd:anyURI, xsd:anyURI? }
+      list {
+        xsd:anyURI { pattern = "\S+" },
+        xsd:anyURI { pattern = "\S+" }?
+      }
     },
     empty
   }
@@ -2554,7 +2589,9 @@ tei_att.global.attribute.xmllang =
 tei_att.global.attribute.xmlbase =
   
   ## provides a base URI reference with which applications can resolve relative URI references into absolute URI references.
-  attribute xml:base { xsd:anyURI }?
+  attribute xml:base {
+    xsd:anyURI { pattern = "\S+" }
+  }?
 tei_att.global.attribute.xmlspace =
   
   ## signals an intention about how white space should be managed by applications.
@@ -2577,7 +2614,9 @@ tei_att.global.analytic.attribute.ana =
     ]
   ]
   attribute ana {
-    list { xsd:anyURI+ }
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
   }?
 tei_att.global.linking.attributes =
   tei_att.global.linking.attribute.corresp,
@@ -2588,29 +2627,39 @@ tei_att.global.linking.attribute.corresp =
   
   ## (corresponds) points to elements that correspond to the current element in some way.
   attribute corresp {
-    list { xsd:anyURI+ }
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
   }?
 tei_att.global.linking.attribute.synch =
   
   ## (synchronous) points to elements that are synchronous with the current element.
   attribute synch {
-    list { xsd:anyURI+ }
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
   }?
 tei_att.global.linking.attribute.next =
   
   ## points to the next element of a virtual aggregate of which the current element is part.
-  attribute next { xsd:anyURI }?
+  attribute next {
+    xsd:anyURI { pattern = "\S+" }
+  }?
 tei_att.global.linking.attribute.prev =
   
   ## (previous) points to the previous element of a virtual aggregate of which the current element is part.
-  attribute prev { xsd:anyURI }?
+  attribute prev {
+    xsd:anyURI { pattern = "\S+" }
+  }?
 tei_att.global.responsibility.attributes =
   tei_att.global.responsibility.attribute.resp
 tei_att.global.responsibility.attribute.resp =
   
   ## (responsible party) indicates the agency responsible for the intervention or interpretation, for example an editor or transcriber.
   attribute resp {
-    list { xsd:anyURI+ }
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
   }?
 tei_att.global.source.attributes =
   tei_att.global.source.attribute.source
@@ -2618,8 +2667,44 @@ tei_att.global.source.attribute.source =
   
   ## specifies the source from which some aspect of this element is drawn.
   attribute source {
-    list { xsd:anyURI+ }
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
   }?
+sch:pattern [
+  id =
+    "parlamint-att.global.source-source-only_1_ODD_source-constraint-rule-7"
+  "\x{a}" ~
+  "      "
+  sch:rule [
+    context = "tei:*/@source"
+    "\x{a}" ~
+    "         "
+    sch:let [
+      name = "srcs"
+      value = "tokenize( normalize-space(.),' ')"
+    ]
+    "\x{a}" ~
+    "         "
+    sch:report [
+      test =
+        "( parent::tei:classRef                               | parent::tei:dataRef                               | parent::tei:elementRef                               | parent::tei:macroRef                               | parent::tei:moduleRef                               | parent::tei:schemaSpec )                               and                               $srcs[2]"
+      "\x{a}" ~
+      "              When used on a schema description element (like\x{a}" ~
+      "              "
+      sch:value-of [ select = "name(..)" ]
+      "), the @source attribute\x{a}" ~
+      "              should have only 1 value. (This one has "
+      sch:value-of [ select = "count($srcs)" ]
+      ".)\x{a}" ~
+      "            "
+    ]
+    "\x{a}" ~
+    "      "
+  ]
+  "\x{a}" ~
+  "   "
+]
 tei_att.internetMedia.attribute.mimeType =
   
   ## (MIME media type) specifies the applicable multimedia internet mail extension (MIME) media type
@@ -2688,7 +2773,7 @@ tei_att.linguistic.attribute.join =
   }?
 sch:pattern [
   id =
-    "parlamint-att.measurement-att-measurement-unitRef-constraint-rule-7"
+    "parlamint-att.measurement-att-measurement-unitRef-constraint-rule-8"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -2737,13 +2822,17 @@ tei_att.pointing.attribute.target =
   
   ## specifies the destination of the reference by supplying one or more URI References
   attribute target {
-    list { xsd:anyURI+ }
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
   }?
 tei_att.resourced.attributes = tei_att.resourced.attribute.url
 tei_att.resourced.attribute.url =
   
   ## (uniform resource locator) specifies the URL from which the media concerned may be obtained.
-  attribute url { xsd:anyURI }
+  attribute url {
+    xsd:anyURI { pattern = "\S+" }
+  }
 tei_att.typed.attributes =
   tei_att.typed.attribute.type, tei_att.typed.attribute.subtype
 tei_att.typed.attribute.type =
@@ -2759,7 +2848,7 @@ tei_att.typed.attribute.subtype =
     xsd:token { pattern = "[^\p{C}\p{Z}]+" }
   }?
 sch:pattern [
-  id = "parlamint-att.typed-subtypeTyped-constraint-rule-8"
+  id = "parlamint-att.typed-subtypeTyped-constraint-rule-9"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -2792,7 +2881,9 @@ tei_include =
     empty,
     
     ##
-    attribute href { xsd:anyURI }?,
+    attribute href {
+      xsd:anyURI { pattern = "\S+" }
+    }?,
     empty
   }
 start = tei_TEI | tei_teiCorpus

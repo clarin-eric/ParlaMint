@@ -25,7 +25,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>CLARIN</publisher>
-        <date>2022-05-27</date>
+        <date>2022-06-06</date>
         <availability status="free">
           <p>This file is freely available and you are hereby authorised to copy, modify, and
           redistribute it in any way without further reference or permissions.</p>
@@ -48,7 +48,7 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
-      <change when="2022-05-27">Tomaž Erjavec: many changes to (explanation of) structure.</change>
+      <change when="2022-06-06">Tomaž Erjavec: many changes to (explanation of) structure.</change>
       <change when="2022-05-18">Katja Meden: add ParlaMint examples in exemplums.</change>
       <change when="2022-05-16">Tomaž Erjavec: add section 3.5 on referring attributes.</change>
       <change when="2022-03-04">Matyáš Kopp: finish first pass through schemaSpecs.</change>
@@ -64,8 +64,8 @@
           target="https://github.com/clarin-eric/ParlaMint">ParlaMint
           corpora</ref></titlePart>
         </docTitle>
-        <!--docEdition>v0.2</docEdition-->
-        <docDate>2022-05-27</docDate>
+        <!--docEdition>v0.3</docEdition-->
+        <docDate>2022-06-06</docDate>
         <!--byline>Tomaž Erjavec and Matyáš Kopp</byline-->
       </titlePage>
       <p></p>
@@ -74,7 +74,7 @@
     <body>
       <div xml:id="chp-intro">
         <head>Introduction</head>
-        <p>This document is meant so serve as a reference for the encoding of ParlaMint
+        <p>This document is meant to serve as a reference for the encoding of ParlaMint
         corpora of parliamentary proceedings. In order for the ParlaMint corpora to be
         interoperable (i.e. so that the same scripts can be used to process them), their
         structure is fairly rigid, both in terms of file names and folder structure, as well
@@ -166,17 +166,13 @@
         examples in this section.</note> below:
         
         <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-docstructure">
-          <teiCorpus>
-            <!-- Common corpus metadata: -->
-            <teiHeader>...</teiHeader>
-	    <!-- First corpus component: -->
-            <TEI>...</TEI>
-	    <!-- Second corpus component: -->
-            <TEI>...</TEI>
-	    <!-- More corpus components: -->
-	    ...
-          </teiCorpus>
-        </egXML>
+<![CDATA[<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>...</teiHeader>
+  <TEI>...</TEI>
+  <TEI>...</TEI>
+  ...
+  </teiCorpus>]]>
+</egXML>
 	
 	The fact that a corpus is one XML document does not mean that it is also stored
 	in one file. In fact, ParlaMint requires that each corpus component is
@@ -184,22 +180,20 @@
 
 	<p>To enable one XML document to be composed of many files, we use the <ref
 	target="https://www.w3.org/TR/xinclude/">XInclude</ref> mechanism, and the
-	<term>corpus root</term> will XInclude its <term>corpus component</term> files, so a
-	corpus root will be in fact encoded similarly to the following example:
+	<term>corpus root</term> uses this mechanism (i.e. the <gi>include</gi>
+	elements in the XInclude namespace) to include its <term>corpus component</term>
+	files, so a corpus root will be in fact encoded similarly to the following
+	example:
 
         <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-docstructure-root">
-          <teiCorpus>
-            <!-- Common corpus metadata: -->
+          <![CDATA[<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" >
             <teiHeader>...</teiHeader>
-	    <!-- Reference to the first corpus component: -->
-            <![CDATA[<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-		     href="2014/ParlaMint-NL_2014-04-16.xml"/>]]>
-	    <!-- Reference to the second corpus component: -->
-            <![CDATA[<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-		     href="2014/ParlaMint-NL_2014-04-17.xml"/>]]>
-	    <!-- References to more corpus components: -->
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+		     href="2014/ParlaMint-NL_2014-04-16.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+		     href="2014/ParlaMint-NL_2014-04-17.xml"/>
 	    ...
-          </teiCorpus>
+          </teiCorpus>]]>
         </egXML>
         </p>
 
@@ -217,9 +211,7 @@
 	
         <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-docstructure-comp">
           <TEI>
-	    <!-- Corpus component metadata: -->
             <teiHeader>...</teiHeader>
-	    <!-- Transcription: -->
             <text>...</text>
           </TEI>
         </egXML>
@@ -500,11 +492,11 @@
 	  attributes:
 	    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-pointing">
               <meeting ana="#parla.upper #parla.term #LEG.18">18 Legislatura</meeting>
-	      <!-- ... -->
+	      ...
 	      <affiliation ref="#group.L-SP-PSd.Az" role="member" ana="#LEG.18" from="2018-03-27"/>
-	      <!-- ... -->
+	      ...
 	      <placeName ref="https://www.geonames.org/2523918">Palermo</placeName>
-	      <!-- ... -->
+	      ...
               <link ana="ud-syn:det" target="#ParlaMint-IT.seg1.2.6 #ParlaMint-IT.seg1.2.5"/>
 	    </egXML>
 	    
@@ -1014,7 +1006,7 @@
 	    <ref target="#sec-extent">Extents</ref>) the tag usage is inserted into
 	    the TEI headers in the finalisation of a corpus (cf. the Section on <ref
 	    target="#sec-conversion">Validation and conversion</ref>) by a common
-	    script, so it is not necessary compute it the process of developing a
+	    script, so it is not necessary to compute it the process of developing a
 	    ParlaMint corpus.</p>
 	  </div>
 	  
@@ -2589,10 +2581,8 @@
           <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-pb">
           <body>
           <pb facs="PNG/page1.png"/>
-          <!- Text contained on page 1 encoded here: ->
 	  ...
           <pb facs="PNG/page2.png"/>
-          <!- Text contained on page 2 encoded here: ->
           ...
           </body>
           </egXML>
