@@ -572,6 +572,15 @@
 	</taxonomy>
       </egXML>
     </exemplum>
+    <exemplum xml:lang="en" versionDate="2021-03-15">
+      <p>Element <gi>desc</gi> can also be used to describe tool(s) used to linguistically annotate the corpus:</p> 
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<application version="1.0" ident="reldi-tokeniser">
+          <label>ReLDI tokeniser</label>
+          <desc xml:lang="en">Tokenisation and sentence segmentation with ReLDI tokeniser, available from <ref target="https://github.com/clarinsi/reldi-tokeniser">https://github.com/clarinsi/reldi-tokeniser</ref>.</desc>
+        </application>
+      </egXML>
+    </exemplum>
   </elementSpec>
   <elementSpec ident="term" module="core" mode="change">
     <desc versionDate="2005-01-14" xml:lang="en">contains a single-word, multi-word, or symbolic
@@ -2212,7 +2221,7 @@
     </content>
     <attList/>
     <exemplum xml:lang="en">
-      <p>Genera structure of an encoding description:</p>
+      <p>General structure of an encoding description:</p>
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
       <encodingDesc>
          <projectDesc>...</projectDesc>
@@ -2220,6 +2229,71 @@
          <tagsDecl>...</tagsDecl>
          <classDecl>...</classDecl>
       </encodingDesc>
+      </egXML>
+    </exemplum>
+    <exemplum xml:lang="en">
+      <p>Structure of an encoding description for unannotated corpus root:</p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<encodingDesc>
+          <projectDesc>
+	    <p xml:lang="sl"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded...</p>
+	  </projectDesc>
+          <editorialDecl>
+	    <correction>...</correction>
+	    <normalization>...</normalization>
+	    <hyphenation>...</hyphenation>
+            <quotation>...</quotation>
+            <segmentation>...</segmentation>
+	  </editorialDecl>
+          <tagsDecl>
+	    <namespace name="http://www.tei-c.org/ns/1.0">
+              <tagUsage gi="body" occurs="414"/>
+              <tagUsage gi="desc" occurs="10234"/>
+              <tagUsage gi="div" occurs="414"/>
+	    </namespace>
+	  </tagsDecl>
+          <classDecl>
+            <taxonomy xml:id="parla.legislature">...</taxonomy>
+	    <taxonomy xml:id="speaker_types">...</taxonomy>
+	    <taxonomy xml:id="subcorpus">...</taxonomy>
+	  </classDecl>
+	</encodingDesc>
+      </egXML>
+    </exemplum>
+    <exemplum xml:lang="en">
+      <p>Example of encoding description of an annotated corpus root. The structure includes two additional taxonomies in the <gi>classDecl</gi>, as well as two additional elements, <gi>listPrefixDef</gi> and <gi>appInfo</gi>.</p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<encodingDesc>
+          <projectDesc>... </projectDesc>
+          <editorialDecl>...</editorialDecl>
+          <tagsDecl>...</tagsDecl>
+          <classDecl>
+            <taxonomy xml:id="parla.legislature">...</taxonomy>
+	    <taxonomy xml:id="speaker_types">...</taxonomy>
+	    <taxonomy xml:id="subcorpus">...</taxonomy>
+	    <taxonomy xml:id="NER">...</taxonomy>
+	    <taxonomy xml:id="UD-SYN">...</taxonomy>
+	  </classDecl>
+	  <listPrefixDef>
+            <prefixDef ident="mte" matchPattern="(.+)" replacementPattern="http://nl.ijs.si/ME/V6/msd/tables/msd-fslib-sl.xml#$1">
+              <p xml:lang="en">Private URIs with this prefix point to feature-structure elements defining the Slovenian MULTEXT-East Version 6 MSDs.</p>
+            </prefixDef>
+	  </listPrefixDef>
+	  <appInfo>
+            <application>...</application>
+	  </appInfo>
+	</encodingDesc>
+      </egXML>
+    </exemplum>
+    <exemplum xml:lang="en">
+      <p>Example of encoding description of a corpus component (annotated or unannotated). In contrast to the corpus root, the encoding description of a corpus component contains only two elements, namely, the <gi>projectDesc</gi> and the <gi>tagsDecl</gi>.</p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<encodingDesc>
+	  <projectDesc>...</projectDesc>
+          <tagsDecl>...</tagsDecl>
+	</encodingDesc>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -2392,6 +2466,8 @@
     <exemplum
         xml:lang="en"
         versionDate="2016-12-05">
+      <p>The tags declaration, <gi>tagsDecl</gi> of the corpus root gives the count of all the XML tags used in the data part (so, not in the TEI header) of the corpus (for the corpus root) or in an individual component of the corpus.
+      </p>
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
 	<encodingDesc>
 	  ...
@@ -2873,6 +2949,60 @@
     <attList/>
     <exemplum xml:lang="en">
       <p>General structure of the element <gi>profileDesc</gi>: 
+      </p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<profileDesc>
+	  <settingDesc>...</settingDesc>
+	  <textClass>...</textClass>
+	  <particDesc>...</particDesc>
+	  <langUsage>...</langUsage>
+	</profileDesc>
+      </egXML>
+    </exemplum>
+    <exemplum xml:lang="en">
+      <p>Profile description of an unannotated corpus root (annotated or unannotated): 
+      </p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<profileDesc>
+	  <settingDesc>
+	    <setting>
+              <name type="address">Šubičeva ulica 4</name>
+              <name type="city">Ljubljana</name>
+              <name type="country" key="SI">Slovenia</name>
+              <date from="2014-08-01" to="2020-07-16">1.8.2014 - 16.7.2020</date>
+            </setting>
+	  </settingDesc>
+	  <textClass>
+	    <textClass>
+              <catRef scheme="#parla.legislature" target="#parla.bi #parla.lower"/>
+            </textClass>
+	  </textClass>
+	  <particDesc>
+	    <listOrg>
+              <org xml:id="DZ" role="parliament" ana="#parla.national #parla.lower">...</org>
+	      <org xml:id="GOV" role="government">...</org>
+	      ...
+	    </listOrg>
+	    <listPerson>
+              <head xml:lang="sl">Seznam govornikov</head>
+              <head xml:lang="en">List of speakers</head>
+              <person xml:id="AccettoMatej">...</person>
+	      ...
+	    </listPerson>
+	  </particDesc>
+	  <langUsage>
+	    <langUsage>
+              <language ident="sl" xml:lang="sl">slovenski</language>
+              <language ident="en" xml:lang="sl">angleški</language>
+              <language ident="sl" xml:lang="en">Slovenian</language>
+              <language ident="en" xml:lang="en">English</language>
+            </langUsage>
+	  </langUsage>
+	</profileDesc>
+      </egXML>
+    </exemplum>
+    <exemplum xml:lang="en">
+      <p>Profile description for a corpus component. In contrast to the corpus root, only the first, the <gi>settingDesc</gi> is used in corpus components.
       </p>
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
 	<profileDesc>
