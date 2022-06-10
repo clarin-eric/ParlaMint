@@ -2960,7 +2960,7 @@
       </egXML>
     </exemplum>
     <exemplum xml:lang="en">
-      <p>Profile description of an unannotated corpus root (annotated or unannotated): 
+      <p>Profile description of a corpus root: 
       </p>
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
 	<profileDesc>
@@ -3006,10 +3006,13 @@
       </p>
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
 	<profileDesc>
-	  <settingDesc>...</settingDesc>
-	  <textClass>...</textClass>
-	  <particDesc>...</particDesc>
-	  <langUsage>...</langUsage>
+          <settingDesc>
+            <setting>
+              <name type="city">Ljubljana</name>
+              <name type="country" key="SI">Slovenija</name>
+              <date when="2014-08-28" ana="#parla.sitting">28.8.2014</date>
+            </setting>
+          </settingDesc>
 	</profileDesc>
       </egXML>
     </exemplum>
