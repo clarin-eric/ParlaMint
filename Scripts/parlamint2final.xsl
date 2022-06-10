@@ -736,6 +736,7 @@
   <xsl:template match="tei:revisionDesc">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
+      <xsl:apply-templates select="*"/>
       <change when="{$today}"><name>Tomaž Erjavec</name>: Finalize encoding.</change>
     </xsl:copy>
   </xsl:template>
