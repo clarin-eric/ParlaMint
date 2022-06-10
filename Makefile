@@ -238,6 +238,23 @@ $(vertana-XX): vertana-%: %
 	  || echo "WARNING skipping/failing $@"
 
 
+###### Fixings and common content
+
+add-common-content-XX = $(addprefix add-common-content-, $(PARLIAMENTS))
+## add-common-content ## calculate and add common content (tagUsage,)
+add-common-content: $(add-common-content-XX)
+## add-common-content-XX ##
+$(add-common-content-XX): add-common-content-%: %
+	rm -rf ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/add-common-content
+	mkdir -p ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/add-common-content
+	$s outDir=${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/add-common-content \
+	   -xsl:Scripts/parlamint-add-common-content.xsl \
+	   ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.ana.xml || :
+	$s outDir=${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/add-common-content \
+	   anaDir=`pwd`/${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/add-common-content/ParlaMint-$<${CORPUSDIR_SUFFIX} \
+	   -xsl:Scripts/parlamint-add-common-content.xsl \
+	   ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.xml || :
+
 
 
 ######---------------
