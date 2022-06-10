@@ -40,7 +40,7 @@
     </xsl:choose>
   </xsl:param>
   <xsl:param name="country-code" select="replace(/tei:teiCorpus/@xml:id, 
-					 '.*?-(.+)', '$1')"/>
+					 '.*?-([^._]+).*', '$1')"/>
   <xsl:param name="country-name" select="replace(/tei:teiCorpus/tei:teiHeader/
 					 tei:fileDesc/tei:titleStmt/
 					 tei:title[@type='main' and @xml:lang='en'],
