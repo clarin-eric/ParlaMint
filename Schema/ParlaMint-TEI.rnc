@@ -178,7 +178,8 @@ publisher =
   }
 funder =
   element funder {
-    element orgName { lang.att, text }+
+    element orgName { lang.att, text }+,
+    ref?
   }
 idno =
   element idno {
