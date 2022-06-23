@@ -382,13 +382,17 @@
     </xsl:copy>
   </xsl:template>  
 
-  <xsl:template mode="comp" match="tei:tagsDecl/tei:namespace">
+  <xsl:template mode="comp" match="tei:encodingDesc">
     <xsl:param name="tagUsages"/>
     <xsl:copy copy-namespaces="no">
       <xsl:apply-templates select="@*"/>
-      <xsl:copy-of copy-namespaces="no" select="$tagUsages/*"/>
+      <xsl:apply-templates select="./tei:projectDesc"/>
+      <xsl:call-template name="add-tagsDecl">
+        <xsl:with-param name="tagUsages" select="$tagUsages"/>
+      </xsl:call-template>
     </xsl:copy>
   </xsl:template>
+
 
   <!-- Give IDs to segs without them (if u has ID, otherwise complain) -->
   <xsl:template mode="comp" match="tei:seg[not(@xml:id)]">
@@ -713,23 +717,35 @@
     <xsl:message select="concat('INFO ', /tei:teiCorpus/@xml:id, 
                          ': deleting redundant pubPlace')"/>
   </xsl:template>
-  
-  <xsl:template match="tei:tagsDecl/tei:namespace">
+
+  <xsl:template match="tei:encodingDesc">
+    <xsl:variable name="tagUsagesSum">
+    </xsl:variable>
     <xsl:copy copy-namespaces="no">
       <xsl:apply-templates select="@*"/>
-      <xsl:variable name="context-node" select="."/>
-      <xsl:for-each select="distinct-values($tagUsages//@gi)">
-          <xsl:sort select="."/>
-          <xsl:variable name="elem-name" select="."/>
+      <xsl:apply-templates select="./tei:projectDesc"/>
+      <xsl:apply-templates select="./tei:editorialDecl"/>
 
-          <xsl:element name="tagUsage">
-            <xsl:attribute name="gi" select="$elem-name"/>
-            <xsl:attribute name="occurs" select="sum($tagUsages//*[@gi=$elem-name]/@occurs)"/>
-          </xsl:element>
-        </xsl:for-each>
+      <xsl:call-template name="add-tagsDecl">
+        <xsl:with-param name="tagUsages">
+          <xsl:for-each select="distinct-values($tagUsages//@gi)">
+            <xsl:sort select="."/>
+            <xsl:variable name="elem-name" select="."/>
+            <xsl:element name="tagUsage">
+              <xsl:attribute name="gi" select="$elem-name"/>
+              <xsl:attribute name="occurs" select="sum($tagUsages//*[@gi=$elem-name]/@occurs)"/>
+            </xsl:element>
+          </xsl:for-each>
+         </xsl:with-param>
+      </xsl:call-template>
+
+      <xsl:apply-templates select="./tei:classDecl"/>
+      <xsl:apply-templates select="./tei:listPrefixDef"/>
+      <xsl:apply-templates select="./tei:appInfo"/>
     </xsl:copy>
   </xsl:template>
-    
+
+
   <!-- Insert government organisation if missing -->
   <xsl:template match="tei:listOrg">
     <xsl:copy>
@@ -782,6 +798,17 @@
         </xsl:attribute>
       </xsl:if>
     </xsl:copy>
+  </xsl:template>
+
+
+  <xsl:template name="add-tagsDecl">
+    <xsl:param name="tagUsages"/>
+    <xsl:element name="tagsDecl">
+      <xsl:element name="namespace">
+        <xsl:attribute name="name">http://www.tei-c.org/ns/1.0</xsl:attribute>
+        <xsl:copy-of copy-namespaces="no" select="$tagUsages/*"/>
+      </xsl:element>
+    </xsl:element>
   </xsl:template>
   
   <!-- Format number-->
