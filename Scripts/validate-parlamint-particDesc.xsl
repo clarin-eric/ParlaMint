@@ -248,7 +248,7 @@
             <xsl:with-param name="ident">10</xsl:with-param>
             <xsl:with-param name="severity">
               <xsl:choose>
-                <xsl:when test="mk:is-obligatory('org',./@role)">ERROR</xsl:when>
+                <xsl:when test="mk:is-obligatory('org',./@role) and @role != 'parliamentaryGroup'">ERROR</xsl:when>
                 <xsl:otherwise>WARN</xsl:otherwise>
               </xsl:choose>
             </xsl:with-param>
