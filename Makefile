@@ -3,6 +3,8 @@
 ##$PARLIAMENTS##Space separated list of parliaments codes.
 PARLIAMENTS = AT BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RO SE SI TR BA RS
 PARLIAMENTS-v2 = BE BG CZ DK ES FR GB GR HR HU IS IT LT LV NL PL SI TR
+
+
 ##$DATADIR## Folder with country corpus folders. Default value is 'Data'.
 DATADIR = Data
 ##$WORKINGDIR## In this folder will be stored temporary files. Default value is 'DataTMP'.
