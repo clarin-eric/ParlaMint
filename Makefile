@@ -359,6 +359,16 @@ $(DEV-attributes-summ-XX): DEV-attributes-summ-%: %
 	  done \
 	done | sort|uniq -c|sed "s/^ *//"|tr -s " "| tr " " "\t"
 
+##!DEV-speaker_types-in-taxonomy## print speaker types: id english_term ParlaMint-XX local_term
+DEV-speaker_types-in-taxonomy:
+	@echo -n "category_id\tterm_en\tcode\tterm_local\n"
+	@for root in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-*${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep -v '_'| grep -v '.ana.xml'`; do \
+	  java -cp /usr/share/java/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive \
+	      -qs:'//*:taxonomy[@xml:id="speaker_types"]//*:category/concat(@xml:id,"|"  ,.//*:term[ancestor-or-self::*[@xml:lang][1]/@xml:lang="en"],"|"   ,/*:teiCorpus/@xml:id,"|"   ,.//*:term[not(ancestor-or-self::*[@xml:lang][1]/@xml:lang="en") ])' \
+	      -s:$${root} ; \
+	  echo;\
+	done | sed 's/^"//;s/"$$//;s/ParlaMint-//;s/|/\t/g'|sort|uniq
+
 
 fix-v2tov3-XX = $(addprefix fix-v2tov3-, $(PARLIAMENTS-v2))
 ##!fix-v2tov3 ## convert ParlaMint v2 format to ParlaMint v3 format
