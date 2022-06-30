@@ -1,0 +1,3022 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ca" xml:id="ParlaMint-ES-CT">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="ca">Corpus parlamentari en Català ParlaMint-ES-CT</title>
+            <title type="main" xml:lang="en">Catalan parliamentary corpus ParlaMint-ES-CT</title>
+            <title type="sub" xml:lang="ca">Actes del Parlament de Catalunya, legislatures XI-XII (2015 - 2020)</title>
+            <title type="sub" xml:lang="en">Minutes from  the Parliament of Catalonia, terms XI XII (2015 - 2020)</title>
+            <meeting n="11" corresp="#PC" ana="#parla.term #PC.11">Term 11</meeting>
+            <meeting n="12" corresp="#PC" ana="#parla.term #PC.12">Term 12</meeting>
+            <respStmt>
+               <persName>Iván Antiba Cartazo</persName>
+               <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+			<funder>
+               <orgName xml:lang="ca">Cap financiació  </orgName>
+               <orgName xml:lang="en">No funder</orgName>
+            </funder>
+         </titleStmt>
+		 <editionStmt>
+            <edition>1.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+         	<measure unit="speeches" quantity="39520" xml:lang="ca">39520 intervencions</measure>
+         	<measure unit="speeches" quantity="39520" xml:lang="en">39520 speeches</measure>
+         	<measure quantity="11796666" unit="words" xml:lang="ca">11796666 paraules</measure>
+         	<measure quantity="11796666" unit="words" xml:lang="en">11796666 words</measure>
+         </extent>
+		 <publicationStmt>
+            <publisher>
+               <orgName xml:lang="ca">Infraestructura d'investigació CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="ca">Aquest treball es troba protegit per la llicència <ref target="https://creativecommons.org/licenses/by/4.0/">Atribución 4.0 Internacional</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2021">2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title xml:lang="ca" type="main">Parlament de Catalunya diaris de sessions de parlamentaries</title>
+               <title type="main" xml:lang="en">Parliament of Catalonia daily sessions </title>
+               <idno type="URI">https://www.parlament.cat/</idno>
+               <date from="2015-10-26" to="2020-12-18">26.10.2015 - 18.12.2020</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="ca">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p xml:lang="en">No correction of source texts was performed.</p>
+            </correction>
+            <normalization>
+               <p xml:lang="en">Text has not been normalised, except for spacing.</p>
+            </normalization>
+            <hyphenation>
+               <p xml:lang="en">No end-of-line hyphens were present in the source.</p>
+            </hyphenation>
+            <quotation>
+               <p xml:lang="en">Quotation marks have been left in the text and are not explicitly marked up.</p>
+            </quotation>
+            <segmentation>
+               <p xml:lang="en">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+            </segmentation>
+         </editorialDecl>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="211"/>
+               <tagUsage gi="div" occurs="211"/>
+               <tagUsage gi="head" occurs="0"/>
+               <tagUsage gi="note" occurs="0"/>
+               <tagUsage gi="pb" occurs="0"/>
+            	<tagUsage gi="seg" occurs="177845"/>
+            	<tagUsage gi="u" occurs="39520"/>
+            </namespace>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="parla.legislature">
+               <desc xml:lang="ca">
+                  <term>Legislatura</term>
+               </desc>
+               <desc xml:lang="en">
+                  <term>Legislature</term>
+               </desc>
+               <category xml:id="parla.geo-political">
+                  <catDesc xml:lang="ca">
+                     <term>Entitats geopolítiques o administratives</term>
+                  </catDesc>
+                  <catDesc xml:lang="en">
+                     <term>Geo-political or administrative units</term>
+                  </catDesc>
+                  <category xml:id="parla.regional">
+                     <catDesc xml:lang="ca">
+                        <term>Àmbit legislatiu  regional</term>
+                     </catDesc>
+                     <catDesc xml:lang="en">
+                        <term>Regional legislature</term>
+                     </catDesc>
+                  </category>
+                  <category xml:id="parla.local">
+                     <catDesc xml:lang="ca">
+                        <term>Àmbit legislatiu local</term>
+                     </catDesc>
+                     <catDesc xml:lang="en">
+                        <term>Local legislature</term>
+                     </catDesc>
+                  </category>
+               </category>
+               <category xml:id="parla.organization">
+                  <catDesc xml:lang="ca">
+                     <term>Organització</term>
+                  </catDesc>
+                  <catDesc xml:lang="en">
+                     <term>Organization</term>
+                  </catDesc>
+                  <category xml:id="parla.chambers">
+                     <catDesc xml:lang="ca">
+                        <term>Cambra</term>
+                     </catDesc>
+                     <catDesc xml:lang="en">
+                        <term>Chamber</term>
+                     </catDesc>
+                     <category xml:id="parla.uni">
+                        <catDesc xml:lang="ca">
+                           <term>Unicameralisme</term>
+                        </catDesc>
+                        <catDesc xml:lang="en">
+                           <term>Unicameralism</term>
+                        </catDesc>
+                     </category>
+                  </category>
+               </category>
+               <category xml:id="parla.term">
+                  <catDesc xml:lang="ca">
+                     <term>Legislatura</term>: mandat parlamentari d'entre eleccions.</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>Legislative period</term>: term of the parliament between general elections.</catDesc>
+                  <category xml:id="parla.session">
+                     <catDesc xml:lang="ca">
+                        <term>Periode de sessions</term>:Període en què se celebren les sessions parlamentàries amb propòsits legislatius. Generalment, durant la legislatura s'hi troben un o dos períodes de sessions. Una sessió es convoca per tractar un ordre del dia en un o més reunions parlamentàries.</catDesc>
+                     <catDesc xml:lang="en">
+                        <term>Legislative session</term>: The period of time in which a legislature is convened for purpose of lawmaking, usually being one of two or more smaller divisions of the entire time between two elections. A session is a meeting or series of connected meetings devoted to a single order of business, program, agenda, or announced purpose.</catDesc>
+                     <category xml:id="parla.meeting">
+                        <catDesc xml:lang="ca">
+                           <term>Sessió</term>:Reunió d'un òrgan parlamentari en una o més reunions, per tractar un ordre del dia.</catDesc>
+                        <catDesc xml:lang="en">
+                           <term>Meeting</term>: each meeting may be a separate session or part of a group of meetings constituting a session. The session/meeting may take one or more days.</catDesc>
+                        <category xml:id="parla.meeting-types">
+                           <catDesc xml:lang="ca">
+                              <term>Tipus de sessions</term>
+                           </catDesc>
+                           <catDesc xml:lang="en">
+                              <term>Types of meetings</term>
+                           </catDesc>
+                           <category xml:id="parla.meeting.member">
+                              <catDesc xml:lang="ca">
+                                 <term>Sessió ordinaria</term>
+                              </catDesc>
+                              <catDesc xml:lang="en">
+                                 <term>member meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.special">
+                              <catDesc xml:lang="ca">
+                                 <term>Sessió especial</term>
+                              </catDesc>
+                              <catDesc xml:lang="en">
+                                 <term>Special meeting</term>
+                              </catDesc>
+                              <category xml:id="parla.meeting.extraordinary">
+                                 <catDesc xml:lang="ca">
+                                    <term>Sessió extraordinària</term>
+                                 </catDesc>
+                                 <catDesc xml:lang="en">
+                                    <term>Extraordinary meeting</term>
+                                 </catDesc>
+                              </category>
+                           </category>
+                           <category xml:id="parla.meeting.continued">
+                              <catDesc xml:lang="ca">
+                                 <term>Reanudació de la sessió</term>
+                              </catDesc>
+                              <catDesc xml:lang="en">
+                                 <term>Continued meeting</term>
+                              </catDesc>
+                           </category>
+                        </category>
+                        <category xml:id="parla.sitting">
+                           <catDesc xml:lang="ca">
+                              <term>Sesseió plenària</term>: dia del ple</catDesc>
+                           <catDesc xml:lang="en">
+                              <term>Sitting</term>: sitting day</catDesc>
+                        </category>
+                     </category>
+                  </category>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="speaker_types">
+                 <desc xml:lang="ca">
+                   <term>Tipus d'oradors</term>
+                 </desc>
+                 <desc xml:lang="en">
+                   <term>Types of speakers</term>
+                 </desc>
+               <category xml:id="chair">
+                  <catDesc xml:lang="ca">
+                     <term>Presidència</term>: persona que presideix la sessió</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>Chairman</term>: chairperson of a meeting</catDesc>
+               </category>
+               <category xml:id="member">
+                  <catDesc xml:lang="ca">
+                     <term>Diputat/da</term>: representant en el Parlament</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>member</term>: a member speaker at a meeting</catDesc>
+               </category>
+               <category xml:id="guest">
+                  <catDesc xml:lang="ca">
+                     <term>Orador/a invitat/da</term>: persona invitada per parlar devant del ple</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>Guest</term>: a guest speaker at a meeting</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="subcorpus">
+               <desc xml:lang="ca">
+                  <term>Subcorpus</term>
+               </desc>
+               <desc xml:lang="en">
+                  <term>Subcorpora</term>
+               </desc>
+               <category xml:id="reference">
+                  <catDesc xml:lang="ca">
+                     <term>Corpus de referència</term>: Corpus que inclou tots els texts recopilats fins el 18 de desembre del 2020</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>Reference</term>: Reference subcorpus, until 2020-12-18.</catDesc>
+               </category>
+               <category xml:id="covid">
+                  <catDesc xml:lang="ca">
+                     <term>Corpus COVID</term>: Corpus que inclou tots els texts recopilats des de l'1 de novembre del 2019</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
+               </category>
+            </taxonomy>
+			<taxonomy xml:id="NER">
+               <desc xml:lang="en">
+                  <term>Named entities</term>
+               </desc>
+               <category xml:id="PER">
+                  <catDesc xml:lang="en">
+                     <term>person</term>
+                  </catDesc>
+               </category>
+               <category xml:id="LOC">
+                  <catDesc xml:lang="en">
+                     <term>location</term>
+                  </catDesc>
+               </category>
+               <category xml:id="ORG">
+                  <catDesc xml:lang="en">
+                     <term>organization</term>
+                  </catDesc>
+               </category>
+               <category xml:id="MISC">
+                  <catDesc xml:lang="en">
+                     <term>miscellaneous</term>
+                  </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="UD-SYN">
+               <desc xml:lang="en">
+                  <term>UD syntactic relations</term>
+               </desc>
+               <category xml:id="acl">
+                  <catDesc xml:lang="en">
+                     <term>acl</term>: Clausal modifier of noun (adjectival clause)</catDesc>
+               </category>
+               <category xml:id="acl_relcl">
+                  <catDesc xml:lang="en">
+                     <term>acl:relcl</term>: Relative clause modifier</catDesc>
+               </category>
+               <category xml:id="advcl">
+                  <catDesc xml:lang="en">
+                     <term>advcl</term>: Adverbial clause modifier</catDesc>
+               </category>
+               <category xml:id="advmod">
+                  <catDesc xml:lang="en">
+                     <term>advmod</term>: Adverbial modifier</catDesc>
+               </category>
+               <category xml:id="amod">
+                  <catDesc xml:lang="en">
+                     <term>amod</term>: Adjectival modifier</catDesc>
+               </category>
+               <category xml:id="appos">
+                  <catDesc xml:lang="en">
+                     <term>appos</term>: Appositional modifier</catDesc>
+               </category>
+               <category xml:id="aux">
+                  <catDesc xml:lang="en">
+                     <term>aux</term>: Auxiliary</catDesc>
+               </category>
+               <category xml:id="aux_pass">
+                  <catDesc xml:lang="en">
+                     <term>aux:pass</term>: Passive auxiliary</catDesc>
+               </category>
+               <category xml:id="case">
+                  <catDesc xml:lang="en">
+                     <term>case</term>: Case marking</catDesc>
+               </category>
+               <category xml:id="cc">
+                  <catDesc xml:lang="en">
+                     <term>cc</term>: Coordinating conjunction</catDesc>
+               </category>
+               <category xml:id="ccomp">
+                  <catDesc xml:lang="en">
+                     <term>ccomp</term>: Clausal complement</catDesc>
+               </category>
+               <category xml:id="cc_preconj">
+                  <catDesc>
+                     <term>cc:preconj</term>: Preconjunct</catDesc>
+               </category>
+               <category xml:id="compound">
+                  <catDesc xml:lang="en">
+                     <term>compound</term>: Compound</catDesc>
+               </category>
+               <category xml:id="compound_prt">
+                  <catDesc>
+                     <term>compound:prt</term>: Phrasal verb particle</catDesc>
+               </category>
+               <category xml:id="conj">
+                  <catDesc xml:lang="en">
+                     <term>conj</term>: Conjunct</catDesc>
+               </category>
+               <category xml:id="cop">
+                  <catDesc xml:lang="en">
+                     <term>cop</term>: Copula</catDesc>
+               </category>
+               <category xml:id="csubj">
+                  <catDesc xml:lang="en">
+                     <term>csubj</term>: Clausal subject</catDesc>
+               </category>
+               <category xml:id="csubj_pass">
+                  <catDesc xml:lang="en">
+                     <term>csubj:pass</term>: Clausal passive subject</catDesc>
+               </category>
+               <category xml:id="dep">
+                  <catDesc xml:lang="en">
+                     <term>dep</term>: Unspecified dependency</catDesc>
+               </category>
+               <category xml:id="det">
+                  <catDesc xml:lang="en">
+                     <term>det</term>: Determiner</catDesc>
+               </category>
+               <category xml:id="det_predet">
+                  <catDesc>
+                     <term>det:predet</term>: Predeterminer</catDesc>
+               </category>
+               <category xml:id="det_qmod">
+                  <catDesc>
+                     <term>det:qmod</term>: Special relation quantificational modifier</catDesc>
+               </category>
+               <category xml:id="discourse">
+                  <catDesc xml:lang="en">
+                     <term>discourse</term>: Discourse element</catDesc>
+               </category>
+               <category xml:id="expl">
+                  <catDesc xml:lang="en">
+                     <term>expl</term>: Expletive</catDesc>
+               </category>
+               <category xml:id="expl_impers">
+                  <catDesc xml:lang="en">
+                     <term>expl:impers</term>: Expletive impersonal</catDesc>
+               </category>
+               <category xml:id="expl_pass">
+                  <catDesc xml:lang="en">
+                     <term>expl:pass</term>: Expletive passive</catDesc>
+               </category>
+               <category xml:id="expl_pv">
+                  <catDesc xml:lang="en">
+                     <term>expl:pv</term>: Reflexive clitic with an inherently reflexive verb</catDesc>
+               </category>
+               <category xml:id="fixed">
+                  <catDesc xml:lang="en">
+                     <term>fixed</term>: Fixed multiword expression</catDesc>
+               </category>
+               <category xml:id="flat">
+                  <catDesc xml:lang="en">
+                     <term>flat</term>: Flat multiword expression</catDesc>
+               </category>
+               <category xml:id="goeswith">
+                  <catDesc xml:lang="en">
+                     <term>goeswith</term>
+                  </catDesc>
+               </category>
+               <category xml:id="flat_name">
+                  <catDesc>
+                     <term>flat:name</term>: Flat name</catDesc>
+               </category>
+               <category xml:id="iobj">
+                  <catDesc xml:lang="en">
+                     <term>iobj</term>: Indirect object</catDesc>
+               </category>
+               <category xml:id="list">
+                  <catDesc xml:lang="en">
+                     <term>list</term>: List</catDesc>
+               </category>
+               <category xml:id="mark">
+                  <catDesc xml:lang="en">
+                     <term>mark</term>: Marker</catDesc>
+               </category>
+               <category xml:id="nmod">
+                  <catDesc xml:lang="en">
+                     <term>nmod</term>: Nominal modifier</catDesc>
+               </category>
+               <category xml:id="nmod_poss">
+                  <catDesc>
+                     <term>nmod:poss</term>: Possessive nominal modifier</catDesc>
+               </category>
+               <category xml:id="nsubj">
+                  <catDesc xml:lang="en">
+                     <term>nsubj</term>: Nominal subject</catDesc>
+               </category>
+               <category xml:id="nsubj_pass">
+                  <catDesc xml:lang="en">
+                     <term>nsubj:pass</term>: Passive nominal subject</catDesc>
+               </category>
+               <category xml:id="nsubj_xsubj">
+                  <catDesc>
+                     <term>nsubj:xsubj</term>: Controlling subject (enhanced dependency)</catDesc>
+               </category>
+               <category xml:id="nsubj_pass_xsubj">
+                  <catDesc>
+                     <term>nsubj:pass:xsubj</term>: Controlling passive subject (enhanced dependency)</catDesc>
+               </category>
+               <category xml:id="nummod">
+                  <catDesc xml:lang="en">
+                     <term>nummod</term>: Numeric modifier</catDesc>
+               </category>
+               <category xml:id="obj">
+                  <catDesc xml:lang="en">
+                     <term>obj</term>: Object</catDesc>
+               </category>
+               <category xml:id="obl">
+                  <catDesc xml:lang="en">
+                     <term>obl</term>: Oblique nominal</catDesc>
+               </category>
+               <category xml:id="obl_agent">
+                  <catDesc>
+                     <term>obl:agent</term>: Agent modifier</catDesc>
+               </category>
+               <category xml:id="obl_npmod">
+                  <catDesc>
+                     <term>obl</term>: Oblique nominal noun phrase modifier</catDesc>
+               </category>
+               <category xml:id="obl_tmod">
+                  <catDesc>
+                     <term>obl:tmod</term>: Temporal modifier</catDesc>
+               </category>
+               <category xml:id="orphan">
+                  <catDesc xml:lang="en">
+                     <term>orphan</term>: Orphan-to-orphan relation in gapping</catDesc>
+               </category>
+               <category xml:id="parataxis">
+                  <catDesc xml:lang="en">
+                     <term>parataxis</term>: Parataxis</catDesc>
+               </category>
+               <category xml:id="punct">
+                  <catDesc xml:lang="en">
+                     <term>punct</term>: Punctuation</catDesc>
+               </category>
+               <category xml:id="ref">
+                  <catDesc>
+                     <term>ref</term>: Relative clause (enhanced dependency)</catDesc>
+               </category>
+               <category xml:id="reparandum">
+                  <catDesc xml:lang="en">
+                     <term>reparandum</term>: Overridden disfluency (here used for program mistakes!)</catDesc>
+               </category>
+               <category xml:id="root">
+                  <catDesc xml:lang="en">
+                     <term>root</term>: Root</catDesc>
+               </category>
+               <category xml:id="vocative">
+                  <catDesc xml:lang="en">
+                     <term>vocative</term>: Vocative</catDesc>
+               </category>
+               <category xml:id="xcomp">
+                  <catDesc xml:lang="en">
+                     <term>xcomp</term>: Open clausal complement</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+		   <listPrefixDef>
+            <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
+               <p xml:lang="en">Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI header.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <appInfo>
+            <application ident="stanza" version="1.2.0">
+               <label>Stanza</label>
+               <desc xml:lang="en">Tokenisation, POS tagging, NER and dependency parsed using Stanza, a Python NLP language analysis package <ref target="https://stanfordnlp.github.io/stanza/">https://stanfordnlp.github.io/stanza/</ref>. UD parsing was trained on the Catalan AnCora Treebank <ref target="https://github.com/UniversalDependencies/UD_Catalan-AnCora">https://github.com/UniversalDependencies/UD_Catalan-AnCora</ref>.</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Parc de la Ciutadella, s/n 08003</name>
+               <name type="city">Barcelona</name>
+               <name type="country" key="ES">Spain</name>
+               <date from="2015-10-26" to="2020-12-18">26.10.2015 - 18.12.2020</date>
+            </setting>
+         </settingDesc>
+         <particDesc>
+            <listOrg>
+               <org xml:id="PC" role="parliament" ana="#parla.regional">
+                  <orgName xml:lang="ca" full="yes">Parlament de Catalunya</orgName>
+                  <orgName xml:lang="en" full="yes">Parliament of Catalonia</orgName>
+                  <event from="1932-11-20">
+                     <label xml:lang="en">existence</label>
+                  </event>
+                  <idno type="URI" xml:lang="ca" subtype="wikimedia">https://ca.wikipedia.org/wiki/Parlament_de_Catalunya</idno>
+                  <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Parliament_of_Catalonia</idno>
+                  <listEvent>
+                     <head xml:lang="ca">Legislatura</head>
+                     <head xml:lang="en">Legislative period</head>
+                     <event xml:id="PC.11" from="2015-10-26" to="2017-10-27">
+                        <label xml:lang="ca">Legislatura XI</label>
+                        <label xml:lang="en">Term 11</label>
+                     </event>
+                     <event xml:id="PC.12" from="2018-01-17" to="2020-12-21">
+                        <label xml:lang="ca">Legislatura XII</label>
+                        <label xml:lang="en">Term 12</label>
+                     </event>
+                  </listEvent>
+               </org>
+               <org xml:id="GOV" role="government">
+                  <orgName xml:lang="ca" full="yes">Govern de Catalunya</orgName>
+                  <orgName xml:lang="en" full="yes">Executive Council of Catalonia</orgName>
+                  <event from="1931-04-28">
+                     <label xml:lang="en">existence</label>
+                  </event>
+                  <idno type="URI" xml:lang="ca" subtype="wikimedia">https://ca.wikipedia.org/wiki/Govern_de_Catalunya</idno>
+                  <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Executive_Council_of_Catalonia</idno>
+                  <listEvent>
+                     <event xml:id="GOV.14" from="2016-01-12" to="2017-10-27">
+                        <label xml:lang="ca">Catorzè Govern de Catalunya (12.01.2016 - 27.10 2017)</label>
+                        <label xml:lang="en">14th Government of Catalonia (12.01.2016 - 27.10-2017)</label>
+                     </event>
+                     <event xml:id="GOV.15" from="2018-05-29" >
+                        <label xml:lang="ca">Quinzè Govern de Catalunya (29.05.2018-)</label>
+                        <label xml:lang="en">15th Government of Catalonia (29 05.2018-)</label>
+                     </event>
+                  </listEvent>
+               </org>
+               <org role="politicalParty" xml:id="party.JUNTS">
+                  <orgName full="init">JuntsPelSí</orgName>
+                  <orgName full="yes">Junts pel Sí</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.Cs">
+                  <orgName full="init">Cs</orgName>
+                  <orgName full="yes">Ciudadanos</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.PSC">
+                  <orgName full="init">PSC (PSC PSOE)</orgName>
+                  <orgName full="yes">Partit Socialista de Catalunya</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.PP">
+                  <orgName full="init">PP</orgName>
+                  <orgName full="yes">Partido Popular</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.CUP">
+                  <orgName full="init">CUP</orgName>
+                  <orgName full="yes">Candidatura d'Unitat Popular</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.CSQP">
+                  <orgName full="init">CSQP</orgName>
+                  <orgName full="yes">Catalunya Sí que es Pot</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.PSOE">
+                  <orgName full="init">PSOE</orgName>
+                  <orgName full="yes">Partido Socialista Obrero Español</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.PODEMOS">
+                  <orgName full="init">PODEMOS</orgName>
+                  <orgName full="yes">Podemos</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.ICV">
+                  <orgName full="init">ICV</orgName>
+                  <orgName full="yes">Iniciativa per Catalunya Verds</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.PDECAT">
+                  <orgName full="init">PDECAT</orgName>
+                  <orgName full="yes">Partit Demòcrata Europeu Català</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.ERC">
+                  <orgName full="init">ERC</orgName>
+                  <orgName full="yes">Esquerra Republicana de Catalunya</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.DC">
+                  <orgName full="init">DC</orgName>
+                  <orgName full="yes">Demòcrates de Catalunya</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.EUiA">
+                  <orgName full="init">EUiA</orgName>
+                  <orgName full="yes">Esquerra Unida i Alternativa</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.MES">
+                  <orgName full="init">MES</orgName>
+                  <orgName full="yes">Moviment d'Esquerres</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.AVANCEM">
+                  <orgName full="init">AVANCEM</orgName>
+                  <orgName full="yes">Avancem</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.CatenComú-PODEM">
+                  <orgName full="init">CCP</orgName>
+                  <orgName full="yes">Catalunya en Comú-Podem</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.JxCAT">
+                  <orgName full="init">JxCAT</orgName>
+                  <orgName full="yes">Junts per Catalunya</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.Units">
+                  <orgName full="init">Units</orgName>
+                  <orgName full="yes">Units per Avançar</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.Independent">
+                  <orgName full="init">Independent</orgName>
+                  <orgName full="yes">Independent</orgName>
+               </org>
+            </listOrg>
+            <listPerson>
+               <head xml:lang="ca">Llista d'Oradors/Oradores</head>
+               <head xml:lang="en">List of speakers</head>
+               <person xml:id="AbellánConcepción">
+		<persName>
+			<forename>Concepción</forename>
+			<surname>Abellán Carretero</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1984-06-10"/>
+		<affiliation ana="#PC" role="member" ref="#party.CatenCumú-PODEM" from="2019-04-16" to="2020-12-18"/>
+ </person>
+               <person xml:id="AlamanyElisenda">
+    <persName>
+			 <forename>Elisenda</forename>
+			 <surname>Alamany Gutiérrez</surname>
+    </persName>
+    <sex value="F"/>
+    <birth when="1983"/>
+    <affiliation ana="#PC" role="member" ref="#party.CatenCumú-PODEM" from="2018-01-17" to="2019-04-02"/>
+ </person>
+               <person xml:id="AlbertJordi">
+		<persName>
+			 <forename>Jordi</forename>
+			 <surname>Albert i Caballero</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1978-02-14"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-01-17" to="2020-12-18"/>
+ </person>
+               <person xml:id="AlbiachJèssica">
+		<persName>
+			 <forename>Jèssica</forename>
+			 <surname>Albiach Satorres</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1979-05-29"/>
+		<affiliation ana="#PC" role="member" ref="#party.CSQP" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.CatenCumú-PODEM" from="2018-01-17" to="2020-12-18"/>
+ </person>
+               <person xml:id="AlonsoMatías">
+		<persName>
+			 <forename>Matías</forename>
+			 <surname>Alonso Ruiz</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1952-04-08"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2018-01-17" to="2020-12-18"/>
+	</person>
+               <person xml:id="AmatOriol">
+		<persName>
+			<forename>Oriol</forename>
+			<surname>Amat i Sales</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1957-03-14"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+	</person>
+	             <person xml:id="AmellòHéctor">
+		<persName>
+			<forename>Héctor</forename>
+			<surname>Amellò Montiu</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1977"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2018-01-17" to="2020-12-18"/>
+	</person>
+               <person xml:id="AmorósOriol">
+		<persName>
+			<forename>Oriol</forename>
+			<surname>Amorós i March</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1970-10-24"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2016-02-04"/>
+	</person>
+               <person xml:id="AragonèsPere">
+		<persName>
+			<forename>Pere</forename>
+			<surname>Aragonès i Garcia</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1982-11-16"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2016-01-21"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="ArrimadasInés">
+		<persName>
+			<forename>Inés</forename>
+			<surname>Arrimadas García</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1981-07-03"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2018-01-17" to="2020-12-18"/>
+	</person>
+               <person xml:id="ArtadiElsa">
+		<persName>
+			<forename>Elsa</forename>
+			<surname>Artadi i Vila</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1976-08-19"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-01-17" to="2020-12-18"/>
+	</person>
+            	<person xml:id="BaigetJordi">
+            		<persName>
+            			<forename>Jordi</forename>
+            			<surname>Baiget i Cantons</surname>
+            		</persName>
+            		<sex value="M"/>
+            		<birth when="1963-12-30"/>
+            		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2016-01-14" to="2017-07-04"/>
+            	</person>
+	             <person xml:id="BalaschAntoni">
+		<persName>
+			<forename>Antoni</forename>
+			<surname>Balasch i Parisi</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1958-11-02"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+	</person>
+	             <person xml:id="BañosAntonio">
+		<persName>
+			<forename>Antonio</forename>
+			<surname>Baños Boncompain</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1967-04-18"/>
+		<affiliation ana="#PC" role="member" ref="#party.CUP" from="2015-10-26" to="2016-01-12"/>
+	</person>
+	             <person xml:id="BargallóGerard">
+		<persName>
+			<forename>Gerard</forename>
+			<surname>Bargalló Voivin</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1977-12-02"/>
+		<affiliation ana="#PC" role="member" ref="#party.CSQP" from="2015-10-26" to="2015-11-30"/>
+	</person>
+	             <person xml:id="BaróEva">
+		<persName>
+			<forename>Eva</forename>
+			<surname>Baró i Ramos</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1974-10-23"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-01-17" to="2019-07-16"/>
+	</person>
+	             <person xml:id="BarraMartin">
+		<persName>
+			<forename>Martin Eusebio</forename>
+			<surname>Barra López</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1956"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="BarrufetRamona">
+		<persName>
+			<forename>Ramona</forename>
+			<surname>Barrufet i Santacana</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1959-10-09"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+	</person>
+	             <person xml:id="BassaDolors">
+		<persName>
+			<forename>Dolors</forename>
+			<surname>Bassa i Coll</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1959-02-02"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-01-17" to="2018-03-22"/>
+	</person>
+	             <person xml:id="BatallaAlbert">
+		<persName>
+			<forename>Albert</forename>
+			<surname>Batalla i Siscart</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1977-10-25"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+	</person>
+	             <person xml:id="BatetAlbert">
+		<persName>
+			<forename>Albert</forename>
+			<surname>Batet Canadell</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1979-03-05"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="BelGermà">
+		<persName>
+			<forename>Germà</forename>
+			<surname>Bel Queralt</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1963-03-15"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+	</person>
+	             <person xml:id="BeltránSusana">
+		<persName>
+			<forename>Susana</forename>
+			<surname>Beltrán Garcia</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1966"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="BetranDavid">
+		<persName>
+			<forename>David</forename>
+			<surname>Betran Román</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1989-08-26"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="BonvehíDavid">
+		<persName>
+			<forename>David</forename>
+			<surname>Bonvehí i Torras</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1979"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+	</person>
+	             <person xml:id="BorràsLaura">
+		<persName>
+			<forename>Laura</forename>
+			<surname>Borràs i Castanyer</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1970-10-05"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-01-17" to="2019-05-20"/>
+	</person>
+            	<person xml:id="BorràsMeritxell">
+            		<persName>
+            			<forename>Meritxell</forename>
+            			<surname>Borràs i Solè</surname>
+            		</persName>
+            		<sex value="F"/>
+            		<birth when="1964-04-12"/>
+            		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2016-01-14" to="2017-10-27"/>
+            	</person>
+            	<person xml:id="BoschAlfred">
+            		<persName>
+            			<forename>Alfred</forename>
+            			<surname>Bosch i Pascual</surname>
+            		</persName>
+            		<sex value="M"/>
+            		<birth when="1961-04-17"/>
+            		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-11-23" to="2020-03-09"/>
+            	</person>
+               <person xml:id="BotranAlbert">
+		<persName>
+			<forename>Albert</forename>
+			<surname>Botran i Pahissa</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1984-01-14"/>
+		<affiliation ana="#PC" role="member" ref="#party.CUP" from="2015-10-26" to="2017-11-27"/>
+	</person>
+               <person xml:id="BoyaMireia">
+		<persName>
+			<forename>Mireia</forename>
+			<surname>Boya e Busquet</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1979-11-28"/>
+		<affiliation ana="#PC" role="member" ref="#party.CUP" from="2016-01-19" to="2017-11-27"/>
+	</person>
+	             <person xml:id="BravoMarina">
+		<persName>
+			<forename>Marina</forename>
+			<surname>Bravo Sobrino</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1978"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="BrugueraRafel">
+		<persName>
+			<forename>Rafel</forename>
+			<surname>Bruguera Batalla</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1956-10-11"/>
+		<affiliation ana="#PC" role="member" ref="#party.PSC" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.PSC" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="BuchMiquel">
+		<persName>
+			<forename>Miquel</forename>
+			<surname>Buch i Moya</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1975-08-03"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2019-05-28" to="2020-12-18"/>
+	</person>
+            	<person xml:id="BudóMeritxell">
+            		<persName>
+            			<forename>Meritxell</forename>
+            			<surname>Budó i Pla</surname>
+            		</persName>
+            		<sex value="F"/>
+            		<birth when="1969-03-08"/>
+            		<affiliation ana="#PC" role="member" ref="#JxCAT" from="2019-03-24" to="2020-12-18"/>
+            	</person>
+            	<person xml:id="BargallóJosep">
+            		<persName>
+            			<forename>Josep</forename>
+            			<surname>BargallóJosep</surname>
+            		</persName>
+            		<sex value="M"/>
+            		<birth when="1958-10-03"/>
+            		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-05-18" to="2020-12-18"/>
+            	</person>
+	             <person xml:id="BusquetaJosep">
+		<persName>
+			<forename>Josep Manel</forename>
+			<surname>Busqueta i Franco</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1973"/>
+		<affiliation ana="#PC" role="member" ref="#party.CUP" from="2015-10-26" to="2016-01-12"/>
+	</person>
+	             <person xml:id="CaballolJoan">
+		<persName>
+			<forename>Joan Antoni</forename>
+			<surname>Caballol i Angelats</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="19647"/>
+		<affiliation ana="#PC" role="member" ref="#party.PSC" from="2020-09-18" to="2020-12-18"/>
+	</person>
+            	<person xml:id="CalvetDamià">
+            		<persName>
+            			<forename>Damiàa</forename>
+            			<surname>Calvet i Valera</surname>
+            		</persName>
+            		<sex value="M"/>
+            		<birth when="1968-05-23"/>
+            		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-05-29" to="2020-12-18"/>
+            	</person>
+	             <person xml:id="CampdepadrósEusebi">
+		<persName>
+			<forename>Eusebi</forename>
+			<surname>Campdepadrós i Pucurull</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1961-09-23"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-01-17" to="2020-12-18"/>
+	</person>
+               <person xml:id="CandiniMontserrat">
+		<persName>
+			<forename>Montserrat</forename>
+			<surname>Candini i Puig</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1957-09-04"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+	</person>
+	             <person xml:id="CanoJose">
+		<persName>
+			<forename>José María</forename>
+			<surname>Cano Navarro</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1969-02-18"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2018-01-17" to="2020-12-18"/>
+	</person>
+            	<person xml:id="CapellaEster">
+            		<persName>
+            			<forename>Ester</forename>
+            			<surname>Capella i Farré</surname>
+            		</persName>
+            		<sex value="F"/>
+            		<birth when="1963-04-03"/>
+            		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-05-19" to="2020-12-18"/>
+            	</person>
+               <person xml:id="CarbonellAurora">
+		<persName>
+			<forename>Aurora</forename>
+			<surname>Carbonell i Abella</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1966"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2019-07-25" to="2020-12-18"/>
+	</person>
+	             <person xml:id="CarrizosaCarlos">
+		<persName>
+			<forename>Carlos</forename>
+			<surname>Carrizosa Torres</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1964-03-22"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="CasalsMuriel">
+		<persName>
+			<forename>Muriel</forename>
+			<surname>Casals i Couturier</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1945-04-06"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+	</person>
+	             <person xml:id="CasamitjanaMagdalena">
+		<persName>
+			<forename>Magdalena</forename>
+			<surname>Casamitjana i Aguilà</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1963-01-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-03-23" to="2018-11-30"/>
+	</person>
+	             <person xml:id="CastelJean">
+		<persName>
+			<forename>Jean</forename>
+			<surname>Castel Sucarrat</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1966-03-18"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="CastellàAntoni">
+		<persName>
+			<forename>Antoni</forename>
+			<surname>Castellà i Clavè</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1970-06-26"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="CastellvíCarmina">
+		<persName>
+			<forename>Carmina</forename>
+			<surname>Castellví i Vallverdú</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1967"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+	</person>
+	             <person xml:id="CastillejoPilar">
+		<persName>
+			<forename>Pilar</forename>
+			<surname>Castillejo i Medina</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1969"/>
+		<affiliation ana="#PC" role="member" ref="#party.CUP" from="2016-02-16" to="2016-10-14"/>
+	</person>
+               <person xml:id="CastilloCarlos">
+		<persName>
+			<forename>Carlos</forename>
+			<surname>Castillo Rosique</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1975"/>
+		<affiliation ana="#PC" role="member" ref="#party.PSC" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.PSC" from="2018-01-17" to="2020-09-14"/>
+	</person>
+               <person xml:id="CaulaAnna">
+		<persName>
+			<forename>Anna</forename>
+			<surname>Caula i Paretas</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1971-04-06"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="CerveraViolant">
+		<persName>
+			<forename>Violant</forename>
+			<surname>Cervera i Gòdia</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1969-06-13"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+	</person>
+	             <person xml:id="CidDavid">
+		<persName>
+			<forename>David</forename>
+			<surname>Cid Colomer</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1980"/>
+		<affiliation ana="#PC" role="member" ref="#party.CatenCumú-PODEM" from="2018-01-17" to="2020-12-18"/>
+	</person>
+               <person xml:id="CivitFerran">
+		<persName>
+			<forename>Ferran</forename>
+			<surname>Civit Martí</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1977"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="ClaraNarcis">
+		<persName>
+			<forename>Narcis</forename>
+			<surname>Clara i Lloret</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1960"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="ComínAntoni">
+		<persName>
+			<forename>Antoni</forename>
+			<surname>Comín i Oliveres</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1971-03-07"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-01-17" to="2020-01-07"/>
+	</person>
+               <person xml:id="CorominasLluís">
+		<persName>
+			<forename>Lluís Maria</forename>
+			<surname>Corominas i Diaz</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1963-02-14"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+	</person>
+	             <person xml:id="CoscubielaJoan">
+		<persName>
+			<forename>Joan</forename>
+			<surname>Coscubiela i Conesa</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1954-08-16"/>
+		<affiliation ana="#PC" role="member" ref="#party.CSQP" from="2015-10-26" to="2017-11-27"/>
+	</person>
+	             <person xml:id="CostaJosep">
+		<persName>
+			<forename>Josep</forename>
+			<surname>Costa i Rosselló</surname>
+		</persName>
+		<sex value="M"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="CuminalJordi">
+		<persName>
+			<forename>Jordi</forename>
+			<surname>Cuminal i Roquet</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1977-02-23"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+	</person>
+               <person xml:id="DalmasesFrancesc">
+		<persName>
+			<forename>Francesc</forename>
+			<surname>de Dalmases i Thió</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1970"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="DanteAlbano">
+		<persName>
+			<forename>Albano Dante</forename>
+			<surname>Fachin Pozzi</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1976-04-22"/>
+		<affiliation ana="#PC" role="member" ref="#party.CSQP" from="2015-10-26" to="2017-11-27"/>
+	</person>
+               <person xml:id="DeJòdarJulià">
+		<persName>
+			<forename>Julià</forename>
+			<surname>de Jòdar i Muñoz</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1942-12-28"/>
+		<affiliation ana="#PC" role="member" ref="#party.CUP" from="2015-10-26" to="2016-01-11"/>
+	</person>
+	             <person xml:id="DelaCalleNoemí">
+		<persName>
+			<forename>Noemí</forename>
+			<surname>de la Calle Sifré</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1979"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2018-01-17" to="2020-12-18"/>
+	</person>
+               <person xml:id="DelgadoAdriana">
+		<persName>
+			<forename>Adriana</forename>
+			<surname>Delgado i Herreros</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1978"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2016-02-24" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="DePáramoFernando">
+		<persName>
+			<forename>Fernando</forename>
+			<surname>de Páramo Goméz</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1987-11-25"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2018-01-17" to="2018-07-31"/>
+	</person>
+	             <person xml:id="DeRiveraCarmen">
+		<persName>
+			<forename>Carmen</forename>
+			<surname>de Rivera Pla</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1956-04-18"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="DiazJenn">
+		<persName>
+			<forename>Jenn</forename>
+			<surname>Diaz Ruiz</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1988-04-25"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-01-17" to="2020-12-18"/>
+	</person>
+               <person xml:id="DomènechXavier">
+		<persName>
+			<forename>Xavier</forename>
+			<surname>Domènech i Sampere</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1974-12-02"/>
+		<affiliation ana="#PC" role="member" ref="#party.CatenCumú-PODEM" from="2018-01-17" to="2018-09-12"/>
+	</person>
+	             <person xml:id="DomínguezFrancisco">
+		<persName>
+			<forename>Francisco Javier</forename>
+			<surname>Domínguez Serrano</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1968"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="BenNajat">
+		<persName>
+			<forename>Najat Driouech</forename>
+			<surname>Ben Moussa</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1981"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="ElGarbhiSawia">
+		<persName>
+			<forename>Sawia</forename>
+			<surname>El Garbhi</surname>
+		</persName>
+		<sex value="F"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-01-29" to="2020-12-18"/>
+	</person>
+	             <person xml:id="ElHomraniChakir">
+		<persName>
+			<forename>Chakir</forename>
+			<surname>El Homrani Lesfar</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1979"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-03-23" to="2018-06-14"/>
+	</person>
+	             <person xml:id="ErraAnna">
+		<persName>
+			<forename>Anna</forename>
+			<surname>Erra i Solà</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1965-10-07"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-06-19" to="2020-12-18"/>
+	</person>
+	             <person xml:id="EscarpAssumpta">
+		<persName>
+			<forename>Assumpta</forename>
+			<surname>Escarp Gibert</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1957"/>
+		<affiliation ana="#PC" role="member" ref="#party.PSC" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.PSC" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="EscofetMercè">
+		<persName>
+			<forename>Mercè</forename>
+			<surname>Escofet Sala</surname>
+		</persName>
+		<sex value="F"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2019-05-28" to="2020-12-18"/>
+	</person>
+	             <person xml:id="EspadalerRamon">
+		<persName>
+			<forename>Ramon</forename>
+			<surname>Espadaler i Parcerisas</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1963-09-19"/>
+		<affiliation ana="#PC" role="member" ref="#party.PSC" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="Espejo-Saavedra">
+		<persName>
+			<forename>José María</forename>
+			<surname>Espejo Saavedra Conesa</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1976-07-20"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2018-01-17" to="2019-05-20"/>
+	</person>
+               <person xml:id="EspigaresGemma">
+		<persName>
+			<forename>Gemma</forename>
+			<surname>Espigares i Tribño</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1988"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-01-17" to="2020-12-18"/>
+	</person>
+               <person xml:id="EspinosaAntonio">
+		<persName>
+			<forename>Antonio</forename>
+			<surname>Espinosa Cerrato</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1959"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="FeijóoJorge">
+		<persName>
+			<forename>Jorge</forename>
+			<surname>Feijóo</surname>
+		</persName>
+		<sex value="M"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2019-05-28" to="2020-12-18"/>
+	</person>
+               <person xml:id="FernándezAlejandro">
+		<persName>
+			<forename>Alejandro</forename>
+			<surname>Fernández Álvarez</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1976-05-30"/>
+		<affiliation ana="#PC" role="member" ref="#party.PP" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.PP" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="FernándezMaialen">
+		<persName>
+			<forename>Maialen</forename>
+			<surname>Fernández Cabezas</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1974"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="FernándezMaria">
+		<persName>
+			<forename>Maria del Camino</forename>
+			<surname>Fernández Riol</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1975"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="FernándezMunia">
+		<persName>
+			<forename>Munia</forename>
+			<surname>Jordán Celorio</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1972"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2018-01-17" to="2020-12-18"/>
+	</person>
+               <person xml:id="FerrerMaria">
+		<persName>
+			<forename>Maria Isabel</forename>
+			<surname>Ferrer i Àlvarez</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1963"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-01-17" to="2018-06-08"/>
+	</person>
+             	 <person xml:id="FerroLucas">
+		<persName>
+			<forename>Lucas Silvano</forename>
+			<surname>Ferro Solé</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1990"/>
+		<affiliation ana="#PC" role="member" ref="#party.CatenCumú-PODEM" from="2018-09-26" to="2020-12-18"/>
+	</person>
+	             <person xml:id="FiguerasAnna">
+		<persName>
+			<forename>Anna</forename>
+			<surname>Figueras i Ibañez</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1969"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+	</person>
+	             <person xml:id="FiguerasNatàlia">
+		<persName>
+			<forename>Natàlia</forename>
+			<surname>Figueras i Pagès</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1989-02-07"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+	</person>
+               <person xml:id="FontLluís">
+		<persName>
+			<forename>Lluís</forename>
+			<surname>Font i Espinós</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1958"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-01-17" to="2020-12-18"/>
+	</person>
+               <person xml:id="ForcadellCarme">
+		<persName>
+			<forename>Carme</forename>
+			<surname>Forcadell i Lluís</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1955-05-29"/>
+		<affiliation ana="#PC" role="chairperson" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-01-17" to="2018-03-22"/>
+	</person>
+	             <person xml:id="FornèJosep">
+		<persName>
+			<forename>Josep Maria</forename>
+			<surname>Fornè i Febrer</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1962"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-01-17" to="2020-12-18"/>
+	</person>
+               <person xml:id="FornellsMontserrat">
+		<persName>
+			<forename>Montserrat</forename>
+			<surname>Fornells i Solè</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1983"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="FornJoaquim">
+		<persName>
+			<forename>Joaquim</forename>
+			<surname>Forn i Chiariello</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1964-04-01"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-01-17" to="2018-01-23"/>
+	</person>
+               <person xml:id="FornósIrene">
+		<persName>
+			<forename>Irene</forename>
+			<surname>Fornós i Curto</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1980-08-17"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="FortMaria">
+		<persName>
+			<forename>Maria Elena</forename>
+			<surname>Fort i Cisneros</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1970"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2019-05-25" to="2020-12-18"/>
+	</person>
+	             <person xml:id="FrancoJosep">
+		<persName>
+			<forename>Josep Lluís</forename>
+			<surname>Franco Rabell</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1954-02-17"/>
+		<affiliation ana="#PC" role="member" ref="#party.CSQP" from="2015-10-26" to="2017-11-27"/>
+	</person>
+	             <person xml:id="FreixaGlòria">
+		<persName>
+			<forename>Glòria</forename>
+			<surname>Freixa i Vilardell</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1969"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2019-05-28" to="2020-12-18"/>
+	</person>
+	             <person xml:id="GabrielAnna">
+		<persName>
+			<forename>Anna</forename>
+			<surname>Gabriel i Sabaté</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1975-09-13"/>
+		<affiliation ana="#PC" role="member" ref="#party.CUP" from="2015-10-26" to="2017-11-27"/>
+	</person>
+               <person xml:id="GalianoJesús">
+		<persName>
+			<forename>Jesús</forename>
+			<surname>Galiano Gutierrez</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1951"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2015-10-26" to="2016-03-15"/>
+	</person>
+               <person xml:id="GallardoImma">
+		<persName>
+			<forename>Imma</forename>
+			<surname>Gallardo Barceló</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1966-09-12"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-01-17" to="2020-12-18"/>
+	</person>
+               <person xml:id="GallegoAntonio">
+		<persName>
+			<forename>Antonio</forename>
+			<surname>Gallego Burgos</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1975-10-02"/>
+		<affiliation ana="#PC" role="member" ref="#party.PP" from="2015-10-26" to="2017-11-27"/>
+	</person>
+	             <person xml:id="GarcíaEsperanza">
+		<persName>
+			<forename>Esperanza</forename>
+			<surname>García González</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1975"/>
+		<affiliation ana="#PC" role="member" ref="#party.PP" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.PP" from="2019-02-06" to="2020-10-06"/>
+	</person>
+               <person xml:id="GarcíaJoan">
+		<persName>
+			<forename>Joan</forename>
+			<surname>García González</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1975"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="GarcíaMJose">
+		<persName>
+			<forename>Mª José</forename>
+			<surname>García Cuevas</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1964-03-18"/>
+		<affiliation ana="#PC" role="member" ref="#party.PP" from="2015-10-26" to="2017-11-27"/>
+	</person>
+               <person xml:id="GarcíaXavier">
+		<persName>
+			<forename>Xavier</forename>
+			<surname>García Albiol</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1967-12-08"/>
+		<affiliation ana="#PC" role="member" ref="#party.PP" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.PP" from="2018-01-17" to="2019-01-31"/>
+	</person>
+	             <person xml:id="GarrigaJoan">
+		<persName>
+			<forename>Joan</forename>
+			<surname>Garriga i Quadres</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1953"/>
+		<affiliation ana="#PC" role="member" ref="#party.CUP" from="2016-01-19" to="2017-11-27"/>
+	</person>
+               <person xml:id="GeisGemma">
+		<persName>
+			<forename>Gemma</forename>
+			<surname>Geis i Carreras</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1960"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="GeliAnna">
+		<persName>
+			<forename>Anna</forename>
+			<surname>Geli España</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1978"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="GibertPol">
+		<persName>
+			<forename>Pol</forename>
+			<surname>Gibert Horcas</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1987-04-04"/>
+		<affiliation ana="#PC" role="member" ref="#party.PSC" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.PSC" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="GinerJoan">
+		<persName>
+			<forename>Joan</forename>
+			<surname>Giner Miguelez</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1989-07-26"/>
+		<affiliation ana="#PC" role="member" ref="#party.CSQP" from="2015-10-26" to="2017-11-27"/>
+	</person>
+	             <person xml:id="GomézGerard">
+		<persName>
+			<forename>Gerard</forename>
+			<surname>Moral i Fuster</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1989-10-17"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="GordòGermà">
+		<persName>
+			<forename>Germà</forename>
+			<surname>Gordò i Aubarell</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1963"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+	</person>
+	             <person xml:id="GrageraDimas">
+		<persName>
+			<forename>Dimas</forename>
+			<surname>Gragera Velaz</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1984-03-25"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2018-01-17" to="2020-12-18"/>
+	</person>
+               <person xml:id="GranadosEva">
+		<persName>
+			<forename>Eva Maria</forename>
+			<surname>Granados Galiano</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1975-01-06"/>
+		<affiliation ana="#PC" role="member" ref="#party.PSC" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.PSC" from="2018-01-17" to="2020-12-18"/>
+	</person>
+               <person xml:id="GrauHortènsia">
+		<persName>
+			<forename>Hortènsia</forename>
+			<surname>Grau Juan</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1960"/>
+		<affiliation ana="#PC" role="member" ref="#party.CSQP" from="2015-11-06" to="2017-11-27"/>
+	</person>
+	             <person xml:id="GuilarteMaria">
+		<persName>
+			<forename>Maria Luz</forename>
+			<surname>Guilarte Sánchez</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1971"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2018-01-17" to="2019-07-18"/>
+	</person>
+	             <person xml:id="GuinóLluís">
+		<persName>
+			<forename>Lluís</forename>
+			<surname>Guinó i Subirós</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1969-05-29"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="HervíasFran">
+		<persName>
+			<forename>Fran</forename>
+			<surname>Hervías Chirosa</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1983-09-28"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2015-10-26" to="2016-01-11"/>
+	</person>
+	             <person xml:id="IbarraRosa">
+		<persName>
+			<forename>Rosa M.</forename>
+			<surname>Ibarra Ollé</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1969-07-26"/>
+		<affiliation ana="#PC" role="member" ref="#party.PSC" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.PSC" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="IcetaMiquel">
+		<persName>
+			<forename>Miquel</forename>
+			<surname>Iceta i Llorens</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1960-08-17"/>
+		<affiliation ana="#PC" role="member" ref="#party.PSC" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.PSC" from="2018-01-17" to="2020-12-18"/>
+	</person>
+            	<person xml:id="JanéJordi">
+            		<persName>
+            			<forename>Jordi</forename>
+            			<surname>Jané i Guasch</surname>
+            		</persName>
+            		<sex value="M"/>
+            		<birth when="1983"/>
+            		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2016-01-14" to="2017-07-17"/>
+            	</person>
+            	<person xml:id="JordàTeresa">
+            		<persName>
+            			<forename>Teresa</forename>
+            			<surname>Jordà i Roura</surname>
+            		</persName>
+            		<sex value="F"/>
+            		<birth when="1972-06-19"/>
+            		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-05-19" to="2020-12-18"/>
+            	</person>
+	             <person xml:id="JovéJosep">
+		<persName>
+			<forename>Josep Maria</forename>
+			<surname>Jové i Lladó</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1979"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="JunquerasOriol">
+		<persName>
+			<forename>Oriol</forename>
+			<surname>Junqueras i Vies</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1969-04-11"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-01-17" to="2019-05-20"/>
+	</person>
+               <person xml:id="LaïllaAssumpció">
+		<persName>
+			<forename>Assumpció</forename>
+			<surname>Laïlla i Jou</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1975-10-03"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2016-02-16" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-03-23" to="2020-12-18"/>
+	</person>
+	             <person xml:id="LevyAndrea">
+		<persName>
+			<forename>Andrea</forename>
+			<surname>Levy Soler</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1984-05-03"/>
+		<affiliation ana="#PC" role="member" ref="#party.PP" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.PP" from="2018-01-17" to="2019-05-09"/>
+	</person>
+	             <person xml:id="LienasGemma">
+		<persName>
+			<forename>Gemma</forename>
+			<surname>Lienas i Massot</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1951-01-16"/>
+		<affiliation ana="#PC" role="member" ref="#party.CSQP" from="2015-10-26" to="2017-11-27"/>
+	</person>
+               <person xml:id="LlachLluís">
+		<persName>
+			<forename>Lluís</forename>
+			<surname>Llach i Grande</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1948-05-07"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+	</person>
+	             <person xml:id="LlauradóNoemi">
+		<persName>
+			<forename>Noemi</forename>
+			<surname>Llauradó i Sans</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1978-06-04"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-01-17" to="2020-12-18"/>
+	</person>
+               <person xml:id="LlopLluïsa">
+		<persName>
+			<forename>Lluïsa</forename>
+			<surname>Llop i Fernàndez</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1970-12-19"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-06-14" to="2020-12-18"/>
+	</person>
+	             <person xml:id="LloverasNeus">
+		<persName>
+			<forename>Neus</forename>
+			<surname>Lloveras i Massana</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1963-08-03"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+	</person>
+               <person xml:id="LópezYolanda">
+		<persName>
+			<forename>Yolanda</forename>
+			<surname>López Fernández</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1966"/>
+		<affiliation ana="#PC" role="member" ref="#party.CatenCumú-PODEM" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="LosadaManuel">
+		<persName>
+			<forename>Manuel</forename>
+			<surname>Losada Seivane</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1970-08-14"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2019-07-18" to="2020-12-18"/>
+	</person>
+	             <person xml:id="MaciàMontserrat">
+		<persName>
+			<forename>Montserrat</forename>
+			<surname>Macià Gou</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1962"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-01-17" to="2020-12-18"/>
+	</person>
+               <person xml:id="MadaulaAurora">
+		<persName>
+			<forename>Aurora</forename>
+			<surname>Madaula i Giménez</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1978-11-12"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="MadrenasMarta">
+		<persName>
+			<forename>Marta</forename>
+			<surname>Madrenas i Mir</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1967-11-01"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="MaragallErnest">
+		<persName>
+			<forename>Ernest</forename>
+			<surname>Maragall i Mira</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1943-01-05"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="MartínezÀngels">
+		<persName>
+			<forename>Àngels</forename>
+			<surname>Martínez i Castells</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1948-05-09"/>
+		<affiliation ana="#PC" role="member" ref="#party.CSQP" from="2015-10-26" to="2017-11-27"/>
+	</person>
+	             <person xml:id="MartínezEva">
+		<persName>
+			<forename>Eva Maria</forename>
+			<surname>Martínez Morales</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1976-07-26"/>
+		<affiliation ana="#PC" role="member" ref="#party.PSC" from="2015-10-26" to="2017-11-27"/>
+	</person>
+	             <person xml:id="MartínIgnacio">
+		<persName>
+			<forename>Ignacio</forename>
+			<surname>Martín Blanco</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1982-08-02"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="MasArtur">
+		<persName>
+			<forename>Artur</forename>
+			<surname>Mas i Gavarró</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1956-01-31"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2016-01-13"/>
+	</person>
+	             <person xml:id="MascarellFerran">
+		<persName>
+			<forename>Ferran</forename>
+			<surname>Mascarell i Canalda</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1951"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2020-02-04" to="2020-12-18"/>
+	</person>
+               <person xml:id="MejíaDavid">
+		<persName>
+			<forename>David</forename>
+			<surname>Mejía Ayra</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1984"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="MetgeAlba">
+		<persName>
+			<forename>Alba</forename>
+			<surname>Metge i Climent</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1982-10-15"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2020-01-22" to="2020-12-18"/>
+	</person>
+	             <person xml:id="MilllanJuan">
+		<persName>
+			<forename>Juan</forename>
+			<surname>Millan Querol</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1981-08-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.PP" from="2015-10-26" to="2017-11-27"/>
+	</person>
+               <person xml:id="MilloJosep">
+		<persName>
+			<forename>Josep Enric</forename>
+			<surname>Millio i Rocher</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1960-11-24"/>
+		<affiliation ana="#PC" role="member" ref="#party.PP" from="2015-10-26" to="2017-11-27"/>
+	</person>
+	             <person xml:id="MohedanoFabian">
+		<persName>
+			<forename>Fabian</forename>
+			<surname>Mohedano i Morales</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1975"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2016-01-20" to="2017-11-27"/>
+	</person>
+	             <person xml:id="MorenoRaúl">
+		<persName>
+			<forename>Raúl</forename>
+			<surname>Moreno Montaña</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1978-12-20"/>
+		<affiliation ana="#PC" role="member" ref="#party.PSC" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.PSC" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="MoretaMarta">
+		<persName>
+			<forename>Marta</forename>
+			<surname>Moreta Rovira</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1969-01-20"/>
+		<affiliation ana="#PC" role="member" ref="#party.PSC" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.PSC" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="MorralAntoni">
+		<persName>
+			<forename>Antoni</forename>
+			<surname>Morral i Berenguer</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1957-08-26"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-01-23" to="2020-12-18"/>
+	</person>
+            	<person xml:id="MundóCarles">
+            		<persName>
+            			<forename>Carles</forename>
+            			<surname>Mundó i Blanch</surname>
+            		</persName>
+            		<sex value="F"/>
+            		<birth when="1976-03-03"/>
+            		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2016-01-14" to="2017-01-14"/>
+            	</person>
+               <person xml:id="MunellJordi">
+		<persName>
+			<forename>Jordi</forename>
+			<surname>Munell i Garcia</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1965-11-17"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="MuntéNeus">
+		<persName>
+			<forename>Neus</forename>
+			<surname>Munté i Fernàndez</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1970-11-13"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-01-17"/>
+	</person>
+	             <person xml:id="NavarroBlanca">
+		<persName>
+			<forename>Blanca Victoria</forename>
+			<surname>Navarro Pacheco</surname>
+		</persName>
+		<sex value="F"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="NiubóEsther">
+		<persName>
+			<forename>Esther</forename>
+			<surname>Niubó Cindoncha</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1980-10-01"/>
+		<affiliation ana="#PC" role="member" ref="#party.PSC" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.PSC" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="NuetJoan">
+		<persName>
+			<forename>Joan Josep</forename>
+			<surname>Nuet i Pujals</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1964-08-06"/>
+		<affiliation ana="#PC" role="member" ref="#party.CSQP" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.CatenCumú-PODEM" from="2018-01-17" to="2019-03-20"/>
+	</person>
+	             <person xml:id="OrdeigÒscar">
+		<persName>
+			<forename>Òscar</forename>
+			<surname>Ordeig Molist</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1978-03-14"/>
+		<affiliation ana="#PC" role="member" ref="#party.PSC" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.PSC" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="OrobitgJordi">
+		<persName>
+			<forename>Jordi</forename>
+			<surname>Orobitg i Solè</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1966-10-15"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-12-11" to="2020-12-18"/>
+	</person>
+               <person xml:id="PachaméMartí">
+		<persName>
+			<forename>Martí</forename>
+			<surname>Pachamé Barrera</surname>
+		</persName>
+		<sex value="M"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2018-09-04" to="2020-12-18"/>
+	</person>
+	             <person xml:id="PalacinMònica">
+		<persName>
+			<forename>Mònica</forename>
+			<surname>Palacin i París</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1972-10-30"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="PalauMontserrat">
+		<persName>
+			<forename>Montserrat</forename>
+			<surname>Palau Vergès</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1958"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+	</person>
+	             <person xml:id="PallarèsTeresa">
+		<persName>
+			<forename>Teresa</forename>
+			<surname>Pallarès Piqué</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1964"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="ParésMarc">
+		<persName>
+			<forename>Marc</forename>
+			<surname>Parés Franzi</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1979-02-24"/>
+		<affiliation ana="#PC" role="member" ref="#party.CatenCumú-PODEM" from="2019-03-04" to="2020-12-18"/>
+	</person>
+	             <person xml:id="PascalMarta">
+		<persName>
+			<forename>Marta</forename>
+			<surname>Pascal i Capdevila</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1983-04-10"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+	</person>
+	             <person xml:id="PedretFerran">
+		<persName>
+			<forename>Ferran</forename>
+			<surname>Pedret i Santos</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1979-08-18"/>
+		<affiliation ana="#PC" role="member" ref="#party.PSC" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.PSC" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="PérezDavid">
+		<persName>
+			<forename>David</forename>
+			<surname>Pérez Ibáñez</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1960-12-14"/>
+		<affiliation ana="#PC" role="member" ref="#party.PSC" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.PSC" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="PerisÒscar">
+		<persName>
+			<forename>Òscar</forename>
+			<surname>Peris i Ròdenas</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1974-04-30"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-01-17" to="2018-07-24"/>
+	</person>
+               <person xml:id="PicasNúria">
+		<persName>
+			<forename>Núria</forename>
+			<surname>Picas i Albets</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1976-11-02"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2019-05-28" to="2020-12-18"/>
+	</person>
+               <person xml:id="PonsaÀngels">
+		<persName>
+			<forename>Àngels</forename>
+			<surname>Ponsa i Roca</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1960-03-10"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+	</person>
+	             <person xml:id="PonsetiClara">
+		<persName>
+			<forename>Clara</forename>
+			<surname>Ponseti i Obiols</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1957-03-19"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-01-17" to="2018-01-29"/>
+	</person>
+               <person xml:id="PratsCarles">
+		<persName>
+			<forename>Carles</forename>
+			<surname>Prats i Cot</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1971"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2026-02-02" to="2017-11-27"/>
+	</person>
+	             <person xml:id="PuigdemontCarles">
+		<persName>
+			<forename>Carles</forename>
+			<surname>Puigdemont i Casamajò</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1962-12-29"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-01-17" to="2020-01-07"/>
+	</person>
+               <person xml:id="PuigJosep">
+		<persName>
+			<forename>Josep</forename>
+			<surname>Puig i Boix</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1947"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2019-05-28" to="2020-12-18"/>
+	</person>
+               <person xml:id="PuigLluís">
+		<persName>
+			<forename>Lluís</forename>
+			<surname>Puig i Gordi</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1959-10-18"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-01-17" to="2018-01-29"/>
+	</person>
+            	<person xml:id="PuigneróJordi">
+            		<persName>
+            			<forename>Jordi</forename>
+            			<surname>Puigneró i Ferrer</surname>
+            		</persName>
+            		<sex value="M"/>
+            		<birth when="1974-02-02"/>
+            		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-05-19" to="2020-12-18"/>
+            	</person>
+	             <person xml:id="PujolEduard">
+		<persName>
+			<forename>Eduard</forename>
+			<surname>Pujol i Bonell</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1969-10-13"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-01-17" to="2020-10-27"/>
+	</person>
+               <person xml:id="QuinquillàXavier">
+		<persName>
+			<forename>Xavier</forename>
+			<surname>Quinquillà Durich</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1969"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="RamonJoan">
+		<persName>
+			<forename>Joan Ramon</forename>
+			<surname>Casals i Mata</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1974-08-02"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+	</person>
+             	 <person xml:id="ReguantEulàlia">
+		<persName>
+			<forename>Eulàlia</forename>
+			<surname>Reguant Cura</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1979-09-19"/>
+		<affiliation ana="#PC" role="member" ref="#party.CUP" from="2015-10-26" to="2017-11-11"/>
+	</person>
+            	 <person xml:id="ReyesEduardo">
+		<persName>
+			<forename>Eduardo</forename>
+			<surname>Reyes i Pino</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1951-04-25"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2019-11-26" to="2020-12-18"/>
+	</person>
+             	 <person xml:id="ReyesManuel">
+		<persName>
+			<forename>Manuel</forename>
+			<surname>Reyes López</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1976-05-16"/>
+		<affiliation ana="#PC" role="member" ref="#party.PP" from="2020-10-13" to="2020-12-18"/>
+	</person>
+            	 <person xml:id="RibasMarta">
+		<persName>
+			<forename>Marta</forename>
+			<surname>Ribas Frías</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1975"/>
+		<affiliation ana="#PC" role="member" ref="#party.CSQP" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.CatenCumú-PODEM" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="RibasRut">
+		<persName>
+			<forename>Rut</forename>
+			<surname>Ribas i Martí</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1990"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="RieraCarles">
+		<persName>
+			<forename>Carles</forename>
+			<surname>Riera i Albert</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1960"/>
+		<affiliation ana="#PC" role="member" ref="#party.CUP" from="2016-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.CUP" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="RieraJosep">
+		<persName>
+			<forename>Josep</forename>
+			<surname>Riera i Font</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1963"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="RigauIrene">
+		<persName>
+			<forename>Irene</forename>
+			<surname>Rigau i Oliver</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1951-06-22"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+	</person>
+	             <person xml:id="RivasJavier">
+		<persName>
+			<forename>Javier</forename>
+			<surname>Rivas Escamilla</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1963"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2018-01-17" to="2020-12-18"/>
+	</person>
+               <person xml:id="RodriguezDavid">
+		<persName>
+			<forename>David</forename>
+			<surname>Rodriguez i González</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1967-11-08"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-01-29" to="2018-09-20"/>
+	</person>
+	             <person xml:id="RodriguezJosé">
+		<persName>
+			<forename>José</forename>
+			<surname>Rodriguez Fernández</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1976"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2019-05-28" to="2020-12-18"/>
+	</person>
+               <person xml:id="RodriguezManuel">
+		<persName>
+			<forename>Manuel</forename>
+			<surname>Rodriguez de l'Hotellerie de Fallois</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1960"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="RodriguezSantiago">
+		<persName>
+			<forename>Santiago</forename>
+			<surname>Rodriguez Serra</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1964-04-18"/>
+		<affiliation ana="#PC" role="member" ref="#party.PP" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.PP" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="RoigèMeritxell">
+		<persName>
+			<forename>Meritxell</forename>
+			<surname>Roigè Pedrola</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1976-01-15"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+	</person>
+	             <person xml:id="RoldánLorena">
+		<persName>
+			<forename>Lorena</forename>
+			<surname>Roldán Suárez</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1981-08-07"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="RomeroAlícia">
+		<persName>
+			<forename>Alícia</forename>
+			<surname>Romero Llano</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1976-06-20"/>
+		<affiliation ana="#PC" role="member" ref="#party.PSC" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.PSC" from="2018-01-17" to="2020-12-18"/>
+	</person>
+               <person xml:id="RomevaRaül">
+		<persName>
+			<forename>Raül</forename>
+			<surname>Romeva i Rueda</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1971-03-12"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-01-17" to="2019-10-29"/>
+	</person>
+	             <person xml:id="RoquerFerran">
+		<persName>
+			<forename>Ferran</forename>
+			<surname>Roquer Padrosa</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1967-12-06"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-01-29" to="2020-12-18"/>
+	</person>
+	             <person xml:id="RosellMaria">
+		<persName>
+			<forename>Maria Assumpta</forename>
+			<surname>Rosell i Medall</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1959"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2016-01-28" to="2017-11-27"/>
+	</person>
+	             <person xml:id="RoviraMarta">
+		<persName>
+			<forename>Marta</forename>
+			<surname>Rovira i Vergés</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1977-01-25"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-01-17" to="2018-03-22"/>
+	</person>
+	             <person xml:id="RovirolaMaria">
+		<persName>
+			<forename>Maria Dolors</forename>
+			<surname>Rovirola i Coromí</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1960"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+	</person>
+            	<person xml:id="RuizMeritxell">
+            		<persName>
+            			<forename>Meritxell</forename>
+            			<surname>Ruiz i Isern</surname>
+            		</persName>
+            		<sex value="F"/>
+            		<birth when="1978"/>
+            		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2016-01-14" to="2017-07-14"/>
+            	</person>
+	             <person xml:id="RullJosep">
+		<persName>
+			<forename>Josep</forename>
+			<surname>Rull i Andreu</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1968-09-02"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-01-17" to="2019-05-17"/>
+	</person>
+               <person xml:id="SabriàSergi">
+		<persName>
+			<forename>Sergi</forename>
+			<surname>Sabrià i Benito</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1975-07-02"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="SafontXavier">
+		<persName>
+			<forename>Xavier</forename>
+			<surname>Safont-Tria i Ramon</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1969"/>
+		<affiliation ana="#PC" role="member" ref="#party.CUP" from="2017-10-24" to="2017-11-27"/>
+	</person>
+    <person xml:id="SàmperMiquel">
+            		<persName>
+            			<forename>Miquel</forename>
+            			<surname>Sàmper i Rodríguez</surname>
+            		</persName>
+            		<sex value="M"/>
+            		<birth when="1966"/>
+            		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2020-09-03" to="2020-12-18"/>
+       </person>
+	             <person xml:id="SaladiéSergi">
+		<persName>
+			<forename>Sergi</forename>
+			<surname>Saladié i Gil</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1974"/>
+		<affiliation ana="#PC" role="member" ref="#party.CUP" from="2015-10-26" to="2017-11-27"/>
+	</person>
+               <person xml:id="SalellasBenet">
+		<persName>
+			<forename>Benet</forename>
+			<surname>Salellas i Vilar</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1977"/>
+		<affiliation ana="#PC" role="member" ref="#party.CUP" from="2015-10-26" to="2017-11-27"/>
+	</person>
+	             <person xml:id="SalesMònica">
+		<persName>
+			<forename>Mònica</forename>
+			<surname>Sales de la Cruz</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1983-08-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="SalvadóJosep">
+		<persName>
+			<forename>Josep Lluís</forename>
+			<surname>Salvadó Tenesa</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1969-03-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2016-01-21"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-01-17" to="2016-01-21"/>
+	</person>
+               <person xml:id="SánchezAlfonso">
+		<persName>
+			<forename>Alfonso</forename>
+			<surname>Sánchez Fisac</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1986-05-08"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="SánchezCarlos">
+		<persName>
+			<forename>Carlos</forename>
+			<surname>Sánchez Martin</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1980"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="SànchezJordi">
+		<persName>
+			<forename>Jordi</forename>
+			<surname>Sànchez i Picanyol</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1964-10-01"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-01-17" to="2019-05-17"/>
+	</person>
+	             <person xml:id="SànchezNatàlia">
+		<persName>
+			<forename>Natàlia</forename>
+			<surname>Sànchez Dipp</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1983"/>
+		<affiliation ana="#PC" role="member" ref="#party.CUP" from="2018-01-17" to="2020-12-18"/>
+	</person>
+               <person xml:id="SanglasMarc">
+		<persName>
+			<forename>Marc</forename>
+			<surname>Sanglas i Alcantarilla</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1971-10-23"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-06-14" to="2020-12-18"/>
+	</person>
+               <person xml:id="SansRaquel">
+		<persName>
+			<forename>Raquel</forename>
+			<surname>Sans i Guerra</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1980"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-10-02" to="2020-12-18"/>
+	</person>
+	             <person xml:id="SanzSergi">
+		<persName>
+			<forename>Sergi</forename>
+			<surname>Sanz Jiménez</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1982"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2018-01-17" to="2020-12-18"/>
+	</person>
+            	 <person xml:id="SegoviaSusana">
+		<persName>
+			<forename>Susana</forename>
+			<surname>Segovia Sánchez</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1973"/>
+		<affiliation ana="#PC" role="member" ref="#party.CatenCumú-PODEM" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="SendraJordi">
+		<persName>
+			<forename>Jordi Miquel</forename>
+			<surname>Sendra Vellvè</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1961-11-15"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+	</person>
+	             <person xml:id="SenserrichMaria">
+		<persName>
+			<forename>Maria</forename>
+			<surname>Senserrich i Guitart</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1980"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2015-10-26" to="2020-11-24"/>
+	</person>
+	             <person xml:id="SerraMaria">
+		<persName>
+			<forename>Maria Gabriela</forename>
+			<surname>Serra i Frediani</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1951-12-18"/>
+		<affiliation ana="#PC" role="member" ref="#party.CUP" from="2015-10-26" to="2017-11-27"/>
+	</person>
+	             <person xml:id="SerranoDaniel">
+		<persName>
+			<forename>Daniel</forename>
+			<surname>Serrano Coronado</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1976-06-18"/>
+		<affiliation ana="#PC" role="member" ref="#party.PP" from="2019-05-15" to="2020-12-18"/>
+	</person>
+	             <person xml:id="SerretMeritxell">
+		<persName>
+			<forename>Meritxell</forename>
+			<surname>Serret i Aleu</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1975-06-19"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-01-17" to="2018-01-29"/>
+	</person>
+	             <person xml:id="SierraSonia">
+		<persName>
+			<forename>Sonia</forename>
+			<surname>Sierra Infante</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1973-04-22"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2018-01-17" to="2020-12-18"/>
+	</person>
+               <person xml:id="SilvaBeatriz">
+		<persName>
+			<forename>Beatriz</forename>
+			<surname>Silva Gallardo</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1969-09-11"/>
+		<affiliation ana="#PC" role="member" ref="#party.PSC" from="2018-01-17" to="2020-12-18"/>
+	</person>
+               <person xml:id="SimóAnna">
+		<persName>
+			<forename>Anna</forename>
+			<surname>Simó i Castelló</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1968-07-26"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+	</person>
+	             <person xml:id="SirventMaria">
+		<persName>
+			<forename>Maria</forename>
+			<surname>Sirvent Escrig</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1987"/>
+		<affiliation ana="#PC" role="member" ref="#party.CUP" from="2018-01-17" to="2020-12-18"/>
+	</person>
+            	 <person xml:id="SoléBernat">
+		<persName>
+			<forename>Bernat</forename>
+			<surname>Solé i Barril</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1975-01-30"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-01-17" to="2020-12-18"/>
+	</person>
+               <person xml:id="SolerJorge">
+		<persName>
+			<forename>Jorge</forename>
+			<surname>Soler Gonzaléz</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1975"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.Cs" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="SolsonaMarc">
+		<persName>
+			<forename>Marc</forename>
+			<surname>Solsona i Aixalà</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1976-04-07"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="TarrésAnna">
+		<persName>
+			<forename>Anna</forename>
+			<surname>Tarrés i Campa</surname>
+		</persName>
+		<sex value="F"/>
+		<birth when="1967-10-19"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="TenFrancesc">
+		<persName>
+			<forename>Francesc Xavier</forename>
+			<surname>Ten i Costa</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1968-05-15"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="TerradesJordi">
+		<persName>
+			<forename>Jordi</forename>
+			<surname>Terrades i Santacreu</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1957-01-26"/>
+		<affiliation ana="#PC" role="member" ref="#party.PSC" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.PSC" from="2018-01-17" to="2020-12-18"/>
+	</person>
+            	<person xml:id="TremosaRamon">
+            		<persName>
+            			<forename>Ramon</forename>
+            			<surname>Tremosa i Balcells</surname>
+            		</persName>
+            		<sex value="M"/>
+            		<birth when="1965-06-30"/>
+            		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2020-09-03" to="2020-12-18"/>
+            	</person>
+               <person xml:id="TorraJoaquim">
+		<persName>
+			<forename>Joaquim</forename>
+			<surname>Torra i Pla</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1962-12-28"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-01-17" to="2020-01-20"/>
+	</person>
+	             <person xml:id="TorrentRoger">
+		<persName>
+			<forename>Roger</forename>
+			<surname>Torrent i Ramió</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1979-07-19"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="chairperson" ref="#party.ERC" from="2018-01-17" to="2020-12-18"/>
+	</person>
+	             <person xml:id="TurrullJordi">
+		<persName>
+			<forename>Jordi</forename>
+			<surname>Turull Negre</surname>
+		</persName>
+		<sex value="M"/>
+		<birth when="1966-09-06"/>
+		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2018-01-17" to="2019-05-17"/>
+	</person>
+	             <person xml:id="UsallRamon">
+		             <persName>
+			             <forename>Ramon</forename>
+			             <surname>Usall i Santa</surname>
+		             </persName>
+		             <sex value="M"/>
+		             <birth when="1977-12-03"/>
+		             <affiliation ana="#PC" role="member" ref="#party.CUP" from="2015-10-26" to="2016-01-11"/>
+	             </person>
+	             <person xml:id="ValenciaElisabeth">
+                 <persName>
+			             <forename>Elisabeth</forename>
+			             <surname>Valencia Mimbrero</surname>
+		             </persName>
+		             <sex value="F"/>
+		             <birth when="1980"/>
+		             <affiliation ana="#PC" role="member" ref="#party.Cs" from="2015-10-26" to="2017-11-27"/>
+		             <affiliation ana="#PC" role="member" ref="#party.Cs" from="2018-01-17" to="2020-12-18"/>
+	             </person>
+               <person xml:id="ValleMaria">
+		             <persName>
+			             <forename>Maria Francisca</forename>
+			             <surname>Valle Fuentes</surname>
+		             </persName>
+		             <sex value="F"/>
+		             <birth when="1964"/>
+		             <affiliation ana="#PC" role="member" ref="#party.Cs" from="2015-10-26" to="2017-11-27"/>
+		             <affiliation ana="#PC" role="member" ref="#party.Cs" from="2018-01-17" to="2020-12-18"/>
+	             </person>
+	             <person xml:id="VallverdúTeresa">
+		             <persName>
+			             <forename>Teresa</forename>
+                   <surname>Vallverdú Albornà</surname>
+		             </persName>
+		             <sex value="F"/>
+                 <birth when="1968-02-02"/>
+                 <affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+	             </person>
+	             <person xml:id="VehíMireia">
+		             <persName>
+                   <forename>Mireia</forename>
+		               	<surname>Vehí i Cantenys</surname>
+		             </persName>
+		             <sex value="F"/>
+                 <birth when="1985-02-09"/>
+	               	<affiliation ana="#PC" role="member" ref="#party.CUP" from="2016-01-19" to="2017-11-27"/>
+               </person>
+	             <person xml:id="VergèsAlba">
+		             <persName>
+			             <forename>Alba</forename>
+			             <surname>Vergès i Bosch</surname>
+		             </persName>
+		             <sex value="F"/>
+		             <birth when="1978-09-03"/>
+                 <affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+		             <affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-01-17" to="2018-06-14"/>
+	             </person>
+	             <person xml:id="ViaplanaFrancesc">
+		             <persName>
+			             <forename>Francesc</forename>
+			             <surname>Viaplana i Manresa</surname>
+		             </persName>
+		             <sex value="M"/>
+		             <birth when="1981"/>
+		             <affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-01-17" to="2020-12-18"/>
+	             </person>
+	             <person xml:id="VidalMarc">
+		             <persName>
+			             <forename>Marc</forename>
+			             <surname>Vidal i Pou</surname>
+		             </persName>
+		             <sex value="M"/>
+		             <birth when="1954"/>
+		             <affiliation ana="#PC" role="member" ref="#party.CSQP" from="2015-10-26" to="2017-11-27"/>
+	             </person>
+            	<person xml:id="VilaSanti">
+            		<persName>
+            			<forename>Santi</forename>
+            			<surname>Vila i Vicente</surname>
+            		</persName>
+            		<sex value="M"/>
+            		<birth when="1973-03-15"/>
+            		<affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2016-01-14" to="2017-07-05"/>
+            	</person>
+            	<person xml:id="VillallongaMariàngela">
+            		<persName>
+            			<forename>Mariàngela</forename>
+            			<surname>Villallonga Vives</surname>
+            		</persName>
+            		<sex value="F"/>
+            		<birth when="1952-04-03"/>
+            		<affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2019-03-23" to="2020-09-03"/>
+            	</person>
+               <person xml:id="VilaltaMarta">
+		             <persName>
+			             <forename>Marta</forename>
+			             <surname>Vilalta i Torres</surname>
+		             </persName>
+                 <sex value="F"/>
+		             <birth when="1984-12-03"/>
+		             <affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-10-02" to="2020-12-18"/>
+	             </person>
+               <person xml:id="VilanovaSantiago">
+		             <persName>
+			             <forename>Santiago</forename>
+			             <surname>Vilanova i Tané</surname>
+		             </persName>
+		             <sex value="M"/>
+		             <birth when="1947-01-09"/>
+		             <affiliation ana="#PC" role="member" ref="#party.JxCAT" from="2020-11-17" to="2020-12-18"/>
+               </person>
+               <person xml:id="VílchezLaura">
+		             <persName>
+			             <forename>Laura</forename>
+			             <surname>Vílchez Sánchez</surname>
+		             </persName>
+		             <sex value="F"/>
+		             <birth when="1979"/>
+		             <affiliation ana="#PC" role="member" ref="#party.Cs" from="2015-10-26" to="2017-11-27"/>
+		             <affiliation ana="#PC" role="member" ref="#party.Cs" from="2018-01-17" to="2020-12-18"/>
+	             </person>
+	             <person xml:id="VilellaMontserrat">
+		             <persName>
+			             <forename>Montserrat</forename>
+			             <surname>Vilella Cuadrada</surname>
+		             </persName>
+		             <sex value="F"/>
+		             <birth when="1966"/>
+		             <affiliation ana="#PC" role="member" ref="#party.JuntsPelSí" from="2015-10-26" to="2017-11-27"/>
+	             </person>
+	             <person xml:id="VillagrasaAlberto">
+		             <persName>
+			             <forename>Alberto</forename>
+		         	     <surname>Villagrasa Gil</surname>
+		             </persName>
+		             <sex value="M"/>
+		             <birth when="1971"/>
+		             <affiliation ana="#PC" role="member" ref="#party.PP" from="2015-10-26" to="2017-11-27"/>
+	             </person>
+               <person xml:id="WagensbergRuben">
+		             <persName>
+			             <forename>Ruben</forename>
+			             <surname>Ruben Wagensberg</surname>
+		             </persName>
+                     <sex value="M"/>
+		             <birth when="1986-09-10"/>
+		             <affiliation ana="#PC" role="member" ref="#party.ERC" from="2018-01-17" to="2020-12-18"/>
+	             </person>
+                 <person xml:id="XandriMarisa">
+                     <persName>
+			             <forename>Marisa</forename>
+			              <surname>Xandri Pujol</surname>
+                     </persName>
+		             <sex value="F"/>
+		             <birth when="1973-12-09"/>
+		             <affiliation ana="#PC" role="member" ref="#party.PP" from="2015-10-26" to="2017-11-27"/>
+	             </person>
+             </listPerson>
+         </particDesc>
+         <langUsage>
+            <language ident="ca" xml:lang="ca">Català</language>
+            <language ident="ca" xml:lang="en">Catalan</language>
+            <language ident="en" xml:lang="ca">Anglès</language>
+            <language ident="en" xml:lang="en">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+		href="ParlaMint-ES-CT_2015-10-26.ana.xml"/>
+ </teiCorpus>
