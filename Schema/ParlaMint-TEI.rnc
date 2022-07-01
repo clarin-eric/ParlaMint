@@ -241,7 +241,7 @@ comment =
   note
   | element gap {
       attribute reason { "editorial" | "inaudible" },
-      desc
+      desc+
     }
   | element kinesic {
       attribute type {
@@ -257,7 +257,7 @@ comment =
         | "noise"
       }?,
       who.att?,
-      desc
+      desc+
     }
   | element incident {
       attribute type {
@@ -270,7 +270,7 @@ comment =
         | "editorial"
       }?,
       who.att?,
-      desc
+      desc+
     }
   | element vocal {
       attribute type {
@@ -287,7 +287,7 @@ comment =
         | "signal"
       },
       who.att?,
-      desc
+      desc+
     }
 desc = element desc { lang.att, text }
 # GENERALLY USEFUL DEFINITIONS

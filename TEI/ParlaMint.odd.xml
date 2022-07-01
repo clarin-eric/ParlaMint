@@ -1787,85 +1787,107 @@
           explained at the start of this chapter, cf. the <ref
           target="#exa-div">Example</ref> there.</p>
 
-          <p>In general, transcriber comments are encoded using <gi>note</gi>, which can be
-          further qualified via its <att>type</att> attribute. We do not currently specify
-          what the valid values of this attribute are. Some comments can also be encoded
-          using more precise TEI elements, as further explained below. The following example
-          gives typical transcriber comments:
-          
-          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-notes">
-            <note type="speaker">The president, Dr. Milan Brglez:</note>
-	    ...
-            <note type="vote-ayes">84 voted for the adoption of the measure.</note>
-	    ...
-            <note type="vote-noes">2 voted against the adoption of the measure.</note>
-	    ...
-            <note type="time">The session began at 10 o'clock.</note>
-	    ...
-          </egXML>
-          
-          The first note simply gives the speaker of the utterance that would follow it, the
-          second and third are notes on the voting results, while the fourth gives the time
-          when the session started. Note that in this case we can also explicitly add the
-          time when the sessions started, as in the following example:
-          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-note-time">
-            <note type="time">The session began at <time when="2016-04-13T010:00:00">10 o'clock</time>.</note>
-          </egXML>
-	  Note that, in ParlaMint, the <att>when</att> attribute of <gi>time</gi> must
-	  contain not only the time, but the date as well, so that users of the corpus do
-	  not need to infer it.
-	  </p>
-
-          <p>Some types of transcriber comments, which we term <term>incidents</term> can
-          also be encoded using more specific TEI elements. These elements can also be
-          further qualified by the <att>type</att> attribute, with the values being
-          determined by the ParlaMint schema. The three incident elements are:
-          <list>
-            <item><gi>vocal</gi> marks any vocalised but not necessarily lexical phenomenon,
-            with the values of the (for this element) obligatory <att>type</att> attribute
-            being, for example <val>interruption</val>, <val>laughter</val>,
-            <val>murmuring</val> etc.</item>
+	  <p>Apart from head elements, transcriber comments are encoded using the
+	  <gi>note</gi> element or one of several so called <q>incident</q> elements, as
+	  explained below. These elements can be placed directly inside <gi>div</gi>,
+	  <gi>u</gi> or <gi>seg</gi>. It is recommended to place them as far up the
+	  hierarchy as possible, and, if possible, avoid having them inside <gi>seg</gi>
+	  (which contains text), as placing these elements there leads to mixed content,
+	  which is difficult to process further, in particular when linguistically
+	  annotating the corpus. However, if a transcriber comment is placed in the middle
+	  of the text, then it needs to be encoded inside the segment, except if the
+	  utterance is split, as is further explained in the Section on <ref
+	  target="#sec-interruptions">Interrupted utterances</ref>.</p>
 	    
-            <item><gi>kinesic</gi> marks any communicative phenomenon, not necessarily vocalised,
-            with the optional <att>type</att> values being e.g. <val>applause</val>,
-            <val>laughter</val>, <val>gesture</val>.</item>
-	    <!-- laughter should surely be under vocal! -->
+          <div xml:id="sec-notes">
+            <head>Notes</head>
 	    
-            <item><gi>incident</gi> marks any phenomenon or occurrence, not necessarily vocalised
-            or communicative, with the optional <att>type</att> values being
-            e.g. <val>break</val>, <val>sound</val>, <val>action</val>.</item>
-          </list>
-          
-          The example below illustrates the use of these three elements:
-          
-          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-incidents">
-            <vocal type="interruption">
-              <desc>sounds from the chamber</desc>
-            </vocal>
-	    ...
-            <kinesic type="signal">
-              <desc>signal for end of debate</desc>
-            </kinesic>
-	    ...
-	    <incident type="action">
-              <desc>minute of silence</desc>
-            </incident>
-          </egXML>
-          
-	  As the example shows, the original content of the transcriber comment is retained
-	  in the <gi>desc</gi> element. Note that in cases when the agent of an incident is
-	  known, they can be specified in the optional <att>who</att> attribute, just as on
-	  utterances.</p>
-
-          <p>The <gi>note</gi> element and the four incident elements can be placed directly
-          inside <gi>div</gi>, <gi>u</gi> or <gi>seg</gi>. It is recommended to place them as
-          far up the hierarchy as possible, and especially avoid having them inside
-          <gi>seg</gi> (which contains text), as placing these elements there leads to mixed
-          content, which is difficult to process further, in particular when linguistically
-          annotating the corpus. However, if a transcriber comment is placed in the middle of
-          the text, then it needs to be encoded inside the segment, except if the utterance
-          is split, as is further explained in the Section on <ref
-          target="#sec-interruptions">Interrupted utterances</ref>.</p>
+            <p>In general, transcriber comments are encoded using <gi>note</gi>, which can be
+            further qualified via its <att>type</att> attribute. We do not currently specify
+            what the valid values of this attribute are. Some comments can also be encoded
+            using more precise TEI elements, as further explained below. The following example
+            gives typical transcriber comments:
+            
+            <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-notes">
+              <note type="speaker">The president, Dr. Milan Brglez:</note>
+	      ...
+              <note type="vote-ayes">84 voted for the adoption of the measure.</note>
+	      ...
+              <note type="vote-noes">2 voted against the adoption of the measure.</note>
+	      ...
+              <note type="time">The session began at 10 o'clock.</note>
+	      ...
+            </egXML>
+            
+            The first note simply gives the speaker of the utterance that would follow it, the
+            second and third are notes on the voting results, while the fourth gives the time
+            when the session started. Note that in this case we can also explicitly add the
+            time when the sessions started, as in the following example:
+            <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-note-time">
+              <note type="time">The session began at <time when="2016-04-13T010:00:00">10 o'clock</time>.</note>
+            </egXML>
+	    Note that, in ParlaMint, the <att>when</att> attribute of <gi>time</gi> must
+	    contain not only the time, but the date as well, so that users of the corpus do
+	    not need to infer it.
+	    </p>
+	  </div>
+	  
+          <div xml:id="sec-incidents">
+            <head>Incidents</head>
+            <p>Some types of transcriber comments, which we term <term>incidents</term> can
+            be encoded using more specific TEI elements. These elements can also be
+            further qualified by the <att>type</att> attribute, with the values being
+            determined by the ParlaMint schema. The three incident elements are:
+	    
+            <list>
+              <item><gi>vocal</gi> marks any vocalised but not necessarily lexical phenomenon,
+              with the values of the (for this element) obligatory <att>type</att> attribute
+              being, for example <val>interruption</val>, <val>laughter</val>,
+              <val>murmuring</val> etc.</item>
+	      
+              <item><gi>kinesic</gi> marks any communicative phenomenon, not necessarily vocalised,
+              with the optional <att>type</att> values being e.g. <val>applause</val>,
+              <val>laughter</val>, <val>gesture</val>.</item>
+	      <!-- laughter should surely be under vocal! -->
+	      
+              <item><gi>incident</gi> marks any phenomenon or occurrence, not necessarily vocalised
+              or communicative, with the optional <att>type</att> values being
+              e.g. <val>break</val>, <val>sound</val>, <val>action</val>.</item>
+            </list>
+            
+            The example below illustrates the use of these three elements:
+            
+            <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-incidents">
+              <vocal type="interruption">
+		<desc>sounds from the chamber</desc>
+              </vocal>
+	      ...
+              <kinesic type="signal">
+		<desc>signal for end of debate</desc>
+              </kinesic>
+	      ...
+	      <incident type="action">
+		<desc>minute of silence</desc>
+              </incident>
+            </egXML>
+            
+	    As the example shows, the original content of the transcriber comment is retained
+	    in the <gi>desc</gi> element. Note that in cases when the agent of an incident is
+	    known, they can be specified in the optional <att>who</att> attribute, just as on
+	    utterances.</p>
+	    
+	    <p>While the incidents must have at least one <gi>desc</gi> element, they can also
+	    have several, so that the description of the incident can be, if so desired,
+	    translated into English, as illustrated in the following example:
+	    
+	    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-incidents-descs">
+              <vocal type="interruption">
+		<desc xml:lang="sl">oglašanje z dvoraner</desc>
+		<desc xml:lang="en">sounds from the chamber</desc>
+              </vocal>
+	    </egXML>
+	    </p>
+	  </div>
         </div>
 
         <div xml:id="sec-gaps">
@@ -1901,7 +1923,17 @@
             </gap>
           </egXML>
 	  </p>
-
+	  
+	  <p>As with <ref target="#sec-incidents">incidents</ref>, gaps can also contain
+	  several descriptions so that they can be, if so desired, translated:
+	  
+	  <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-gap-descs">
+	    <gap reason="editorial">
+              <desc xml:lang="de">Zitierte Druckfassung entfernt</desc>
+              <desc xml:lang="en">Quoted printed matter omited</desc>
+	    </gap>
+	  </egXML>
+	  </p>
 	</div>
 	
         <div xml:id="sec-interruptions">
@@ -1918,7 +1950,7 @@
           
           The standard manner in which such interruptions are encoded is using the default
           <gi>note</gi> element, or, much better, the <gi>vocal</gi> element, as explained in the
-          Section on <ref target="#sec-comments">Transcriber comments</ref>, as below:
+          Section on <ref target="#sec-incidents">Incidents</ref>, as below:
 
           <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-split-vocal">
             <u who="#BorisJohnson" ana="#regular">
@@ -1928,7 +1960,7 @@
 	    </u>
           </egXML>
 
-	  This solution is easy to implement and valid in ParlaMint, however, it has the
+	  This solution is relatively easy to implement and valid in ParlaMint, however, it has the
 	  disadvantage of leaving what is essentially a speech as the content of a
 	  comment. In cases where it is possible to consistently identify such <q>mini
 	  speeches</q>, an alternative and more useful encoding will turn this comment into a

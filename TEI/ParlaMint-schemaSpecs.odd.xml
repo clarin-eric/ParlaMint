@@ -471,7 +471,7 @@
       <desc versionDate="2012-12-27" xml:lang="en">marks any vocalized but not necessarily lexical phenomenon, for
     example voiced pauses, non-lexical backchannels, etc.</desc>
       <content>
-         <elementRef key="desc"/>
+         <elementRef key="desc" minOccurs="1" maxOccurs="unbounded"/>
       </content>
       <attList>
          <attDef ident="type" mode="replace" usage="rec">
@@ -532,7 +532,7 @@
       <desc versionDate="2012-12-27" xml:lang="en">marks any communicative phenomenon, not necessarily vocalized, for
     example a gesture, frown, etc.</desc>
       <content>
-         <elementRef key="desc"/>
+         <elementRef key="desc" minOccurs="1" maxOccurs="unbounded"/>
       </content>
       <attList>
          <attDef ident="type" mode="replace" usage="rec">
@@ -607,7 +607,7 @@
     communicative, for example incidental noises or other events affecting
     communication.</desc>
       <content>
-         <elementRef key="desc"/>
+         <elementRef key="desc" minOccurs="1" maxOccurs="unbounded"/>
       </content>
       <attList>
          <attDef ident="type" mode="replace" usage="rec">
@@ -677,7 +677,7 @@
     reasons described in the TEI header, as part of sampling practice, or because the material is
     illegible, invisible, or inaudible.</desc>
       <content>
-         <elementRef key="desc"/>
+         <elementRef key="desc" minOccurs="1" maxOccurs="unbounded"/>
       </content>
       <attList>
          <attDef ident="reason" mode="replace" usage="rec">
@@ -735,6 +735,14 @@
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <gap reason="inaudible">
                <desc>microphone muted</desc>
+            </gap>
+         </egXML>
+      </exemplum>
+      <exemplum xml:lang="en">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+            <gap reason="editorial">
+               <desc xml:lang="de">Zitierte Druckfassung entfernt</desc>
+               <desc xml:lang="en">Quoted printed matter omited</desc>
             </gap>
          </egXML>
       </exemplum>

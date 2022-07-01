@@ -12,7 +12,7 @@ namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 namespace xsl = "http://www.w3.org/1999/XSL/Transform"
 
-# Schema generated from ODD source 2022-07-01T13:05:52Z. 2022-06-06.
+# Schema generated from ODD source 2022-07-01T14:01:50Z. 2022-06-06.
 # TEI Edition: Version 4.5.0a. Last updated on
 #         1st June 2022, revision aeba95253
 # TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.5.0a./
@@ -561,7 +561,7 @@ tei_gap =
   
   ## (gap) indicates a point where material has been omitted in a transcription, whether for editorial reasons described in the TEI header, as part of sampling practice, or because the material is illegible, invisible, or inaudible. [3.5.3. Additions, Deletions, and Omissions]
   element gap {
-    tei_desc,
+    tei_desc+,
     
     ##
     attribute reason {
@@ -1531,7 +1531,7 @@ tei_vocal =
   
   ## (vocal) marks any vocalized but not necessarily lexical phenomenon, for example voiced pauses, non-lexical backchannels, etc. [8.3.3. Vocal, Kinesic, Incident]
   element vocal {
-    tei_desc,
+    tei_desc+,
     tei_att.global.attribute.xmlid,
     tei_att.global.attribute.n,
     tei_att.global.attribute.xmllang,
@@ -1580,7 +1580,7 @@ tei_kinesic =
   
   ## (kinesic) marks any communicative phenomenon, not necessarily vocalized, for example a gesture, frown, etc. [8.3.3. Vocal, Kinesic, Incident]
   element kinesic {
-    tei_desc,
+    tei_desc+,
     tei_att.global.attribute.xmlid,
     tei_att.global.attribute.n,
     tei_att.global.attribute.xmllang,
@@ -1626,7 +1626,7 @@ tei_incident =
   
   ## (incident) marks any phenomenon or occurrence, not necessarily vocalized or communicative, for example incidental noises or other events affecting communication. [8.3.3. Vocal, Kinesic, Incident]
   element incident {
-    tei_desc,
+    tei_desc+,
     tei_att.global.attribute.xmlid,
     tei_att.global.attribute.n,
     tei_att.global.attribute.xmllang,
