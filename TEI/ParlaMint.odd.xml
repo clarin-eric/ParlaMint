@@ -1796,17 +1796,25 @@
           <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-notes">
             <note type="speaker">The president, Dr. Milan Brglez:</note>
 	    ...
-            <note type="time">The session began at 10 o'clock.</note>
-	    ...
             <note type="vote-ayes">84 voted for the adoption of the measure.</note>
 	    ...
             <note type="vote-noes">2 voted against the adoption of the measure.</note>
 	    ...
+            <note type="time">The session began at 10 o'clock.</note>
+	    ...
           </egXML>
           
           The first note simply gives the speaker of the utterance that would follow it, the
-          second one gives the time when the session started, while the third and fourth are notes
-          on the voting results.</p>
+          second and third are notes on the voting results, while the fourth gives the time
+          when the session started. Note that in this case we can also explicitly add the
+          time when the sessions started, as in the following example:
+          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-note-time">
+            <note type="time">The session began at <time when="2016-04-13T010:00:00">10 o'clock</time>.</note>
+          </egXML>
+	  Note that, in ParlaMint, the <att>when</att> attribute of <gi>time</gi> must
+	  contain not only the time, but the date as well, so that users of the corpus do
+	  not need to infer it.
+	  </p>
 
           <p>Some types of transcriber comments, which we term <term>incidents</term> can
           also be encoded using more specific TEI elements. These elements can also be
