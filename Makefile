@@ -2,7 +2,7 @@
 
 ##$PARLIAMENTS##Space separated list of parliaments codes.
 PARLIAMENTS = AT BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RO SE SI TR BA RS
-PARLIAMENTS-v2 = BE BG CZ DK ES FR GB GR HR HU IS IT LT LV NL PL SI TR
+PARLIAMENTS-v2 = BE BG CZ DK ES FR GB HR HU IS IT LT LV NL PL SI TR
 
 
 ##$DATADIR## Folder with country corpus folders. Default value is 'Data'.
@@ -434,10 +434,10 @@ $(DEV-data-XX-create-branch-XX): DEV-data-XX-create-branch-%: %
 
 DEV-data-XX-reset-data-XX = $(addprefix DEV-data-XX-reset-data-, $(PARLIAMENTS-v2))
 ##!DEV-data-XX-reset-data ##
-DEV-data-XX-reset-data-XX: .update_DATA_XX_REP $(DEV-data-XX-reset-data-XX)
+DEV-data-XX-reset-data: .update_DATA_XX_REP $(DEV-data-XX-reset-data-XX)
 ##!DEV-data-XX-reset-data-XX ##
 $(DEV-data-XX-reset-data-XX): DEV-data-XX-reset-data-%: %
-	git -C ${DATA_XX_REP} fetch origin data
+	git -C ${DATA_XX_REP} pull origin data
 	git -C ${DATA_XX_REP} checkout data-$<
 	# this avoid merge conflicts, we just want to overwrite xml content with content drom data branch:
 	rm -f ${DATA_XX_REP}/${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<*.xml
@@ -447,6 +447,16 @@ $(DEV-data-XX-reset-data-XX): DEV-data-XX-reset-data-%: %
 	  || echo "No change in xml data"
 	# merge other changes to keep data-XX branch updated
 	git -C ${DATA_XX_REP} merge data
+
+DEV-data-XX-sync-with-data-and-push-XX = $(addprefix DEV-data-XX-sync-with-data-and-push-, $(PARLIAMENTS-v2))
+##!DEV-data-XX-sync-with-data-and-push ##
+DEV-data-XX-sync-with-data-and-push: .update_DATA_XX_REP $(DEV-data-XX-sync-with-data-and-push-XX)
+##!DEV-data-XX-sync-with-data-and-push-XX ##
+$(DEV-data-XX-sync-with-data-and-push-XX): DEV-data-XX-sync-with-data-and-push-%: %
+	git -C ${DATA_XX_REP} pull origin data
+	git -C ${DATA_XX_REP} checkout data-$<
+	git -C ${DATA_XX_REP} merge data
+	git -C ${DATA_XX_REP} push --set-upstream origin data-$<
 
 DEV-data-XX-fix-XX = $(addprefix DEV-data-XX-fix-, $(PARLIAMENTS-v2))
 ##!DEV-data-XX-fix ##
