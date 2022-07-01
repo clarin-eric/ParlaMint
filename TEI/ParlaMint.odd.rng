@@ -5,23 +5,12 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2022-06-06T18:57:19Z. 2022-06-06.
+Schema generated from ODD source 2022-07-01T13:05:48Z. 2022-06-06.
 TEI Edition: Version 4.5.0a. Last updated on
         1st June 2022, revision aeba95253
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.5.0a./
   
 --><!--This file is freely available and you are hereby authorised to copy, modify, and redistribute it in any way without further reference or permissions.-->
-   <define name="tei_macro.phraseSeq">
-      <zeroOrMore>
-         <choice>
-            <text/>
-            <ref name="tei_model.gLike"/>
-            <ref name="tei_model.attributable"/>
-            <ref name="tei_model.phrase"/>
-            <ref name="tei_model.global"/>
-         </choice>
-      </zeroOrMore>
-   </define>
    <define name="tei_att.ascribed.attributes">
       <ref name="tei_att.ascribed.attribute.who"/>
    </define>
@@ -470,14 +459,6 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
          <ref name="tei_persName"/>
       </oneOrMore>
    </define>
-   <define name="tei_model.segLike">
-      <choice>
-         <ref name="tei_seg"/>
-         <ref name="tei_s"/>
-         <ref name="tei_w"/>
-         <ref name="tei_pc"/>
-      </choice>
-   </define>
    <define name="tei_model.hiLike">
       <notAllowed/>
    </define>
@@ -535,12 +516,6 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
       <oneOrMore>
          <ref name="tei_title"/>
       </oneOrMore>
-   </define>
-   <define name="tei_model.highlighted">
-      <choice>
-         <ref name="tei_model.hiLike"/>
-         <ref name="tei_model.emphLike"/>
-      </choice>
    </define>
    <define name="tei_model.dateLike">
       <choice>
@@ -634,12 +609,6 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
          <ref name="tei_unit"/>
       </oneOrMore>
    </define>
-   <define name="tei_model.graphicLike">
-      <choice>
-         <ref name="tei_media"/>
-         <ref name="tei_graphic"/>
-      </choice>
-   </define>
    <define name="tei_model.offsetLike">
       <notAllowed/>
    </define>
@@ -656,9 +625,6 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
       <empty/>
    </define>
    <define name="tei_model.offsetLike_sequenceRepeatable">
-      <notAllowed/>
-   </define>
-   <define name="tei_model.pPart.msdesc">
       <notAllowed/>
    </define>
    <define name="tei_model.pPart.editorial">
@@ -696,50 +662,6 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
    </define>
    <define name="tei_model.pPart.transcriptional_sequenceRepeatable">
       <notAllowed/>
-   </define>
-   <define name="tei_model.pPart.edit">
-      <choice>
-         <ref name="tei_model.pPart.editorial"/>
-         <ref name="tei_model.pPart.transcriptional"/>
-      </choice>
-   </define>
-   <define name="tei_model.ptrLike">
-      <choice>
-         <ref name="tei_ref"/>
-      </choice>
-   </define>
-   <define name="tei_model.lPart">
-      <notAllowed/>
-   </define>
-   <define name="tei_model.global.meta">
-      <choice>
-         <ref name="tei_link"/>
-         <ref name="tei_linkGrp"/>
-      </choice>
-   </define>
-   <define name="tei_model.milestoneLike">
-      <choice>
-         <ref name="tei_pb"/>
-      </choice>
-   </define>
-   <define name="tei_model.gLike">
-      <notAllowed/>
-   </define>
-   <define name="tei_model.phrase.xml">
-      <notAllowed/>
-   </define>
-   <define name="tei_model.specDescLike">
-      <notAllowed/>
-   </define>
-   <define name="tei_model.noteLike">
-      <choice>
-         <ref name="tei_note"/>
-      </choice>
-   </define>
-   <define name="tei_model.global.edit">
-      <choice>
-         <ref name="tei_gap"/>
-      </choice>
    </define>
    <define name="tei_model.placeNamePart">
       <choice>
@@ -814,11 +736,6 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
    </define>
    <define name="tei_model.quoteLike_sequenceRepeatable">
       <notAllowed/>
-   </define>
-   <define name="tei_model.attributable">
-      <choice>
-         <ref name="tei_model.quoteLike"/>
-      </choice>
    </define>
    <define name="tei_model.addressLike">
       <choice>
@@ -935,38 +852,6 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
       <oneOrMore>
          <ref name="tei_model.persNamePart_sequenceRepeatable"/>
       </oneOrMore>
-   </define>
-   <define name="tei_model.global">
-      <choice>
-         <ref name="tei_model.global.meta"/>
-         <ref name="tei_model.milestoneLike"/>
-         <ref name="tei_model.noteLike"/>
-         <ref name="tei_model.global.edit"/>
-         <ref name="tei_model.global.spoken"/>
-         <ref name="tei_figure"/>
-      </choice>
-   </define>
-   <define name="tei_model.pPart.data">
-      <choice>
-         <ref name="tei_model.dateLike"/>
-         <ref name="tei_model.measureLike"/>
-         <ref name="tei_model.addressLike"/>
-         <ref name="tei_model.nameLike"/>
-      </choice>
-   </define>
-   <define name="tei_model.phrase">
-      <choice>
-         <ref name="tei_model.segLike"/>
-         <ref name="tei_model.highlighted"/>
-         <ref name="tei_model.graphicLike"/>
-         <ref name="tei_model.pPart.msdesc"/>
-         <ref name="tei_model.pPart.edit"/>
-         <ref name="tei_model.ptrLike"/>
-         <ref name="tei_model.lPart"/>
-         <ref name="tei_model.phrase.xml"/>
-         <ref name="tei_model.specDescLike"/>
-         <ref name="tei_model.pPart.data"/>
-      </choice>
    </define>
    <define name="tei_att.duration.iso.attributes">
       <ref name="tei_att.duration.iso.attribute.dur-iso"/>
@@ -2216,13 +2101,6 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          <ref name="tei_date"/>
       </element>
    </define>
-   <define name="tei_model.global.spoken">
-      <choice>
-         <ref name="tei_vocal"/>
-         <ref name="tei_kinesic"/>
-         <ref name="tei_incident"/>
-      </choice>
-   </define>
    <define name="tei_recordingStmt">
       <element name="recordingStmt">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(recording statement) describes a set of recordings used as the basis for transcription of a spoken text. [8.2. Documenting the Source of Transcribed Speech 2.2.7. The Source Description]</a:documentation>
@@ -2753,7 +2631,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
    <define name="tei_forename">
       <element name="forename">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(forename) contains a forename, given or baptismal name. [13.2.1. Personal Names]</a:documentation>
-         <ref name="tei_macro.phraseSeq"/>
+         <text/>
          <ref name="tei_att.global.attributes"/>
          <ref name="tei_att.personal.attributes"/>
          <ref name="tei_att.typed.attributes"/>
