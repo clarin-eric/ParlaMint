@@ -343,7 +343,14 @@
       </egXML>
     </exemplum>
     <exemplum xml:lang="en">
-      <p>The <gi>note</gi> element may also be used to mark additional information on debate sections:</p>
+      <p>The <gi>note</gi> element can be further qualified by the <gi>time</gi> element to specify the
+      date and time recorded in the note:</p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+        <note type="time">The session began at <time when="2016-04-13T010:00:00">10 o'clock</time>.</note>
+      </egXML>
+    </exemplum>
+    <exemplum xml:lang="en">
+      <p>The <gi>note</gi> element may also be used to mark any additional information on debate sections:</p>
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
 	<div type="debateSection">
           <head>Business Before Questions</head>
@@ -1563,6 +1570,9 @@
     <desc
         versionDate="2005-10-16"
         xml:lang="en">contains a forename, given or baptismal name.</desc>
+    <content>
+      <textNode/>
+    </content>
     <exemplum xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
 	<persName>
