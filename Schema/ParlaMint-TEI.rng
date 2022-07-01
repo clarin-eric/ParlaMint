@@ -518,7 +518,9 @@
 	    <value>inaudible</value>
 	  </choice>
 	</attribute>
-	<ref name="desc"/>
+	<oneOrMore>
+	  <ref name="desc"/>
+	</oneOrMore>
       </element>
       <element name="kinesic">
 	<optional>
@@ -540,7 +542,9 @@
 	<optional>
 	  <ref name="who.att"/>
 	</optional>
-	<ref name="desc"/>
+	<oneOrMore>
+	  <ref name="desc"/>
+	</oneOrMore>
       </element>
       <element name="incident">
 	<optional>
@@ -559,7 +563,9 @@
 	<optional>
 	  <ref name="who.att"/>
 	</optional>
-	<ref name="desc"/>
+	<oneOrMore>
+	  <ref name="desc"/>
+	</oneOrMore>
       </element>
       <element name="vocal">
 	<attribute name="type">
@@ -580,7 +586,9 @@
 	<optional>
 	  <ref name="who.att"/>
 	</optional>
-	<ref name="desc"/>
+	<oneOrMore>
+	  <ref name="desc"/>
+	</oneOrMore>
       </element>
     </choice>
   </define>
