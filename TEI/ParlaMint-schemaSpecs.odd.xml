@@ -1487,6 +1487,7 @@
          </attDef>
          <!--name/@xml:id-->
          <!--name/@xml:lang-->
+         <!--name/@ref-->
          <!--name/@ana-->
          <!--name/@key-->
          <!--name/@full-->
@@ -1513,7 +1514,6 @@
          <attDef ident="sort" mode="delete"/>
          <attDef ident="role" mode="delete"/>
          <attDef ident="nymRef" mode="delete"/>
-         <attDef ident="ref" mode="delete"/>
          <attDef ident="calendar" mode="delete"/>
          <attDef ident="period" mode="delete"/>
          <attDef ident="when" mode="delete"/>
@@ -1537,7 +1537,7 @@
          <attDef ident="instant" mode="delete"/>
       </attList>
       <exemplum xml:lang="en">
-         <p>Element <gi>name</gi> is used  in the TEI header to specify location of the parliament:
+         <p>Element <gi>name</gi> is used in the TEI header to specify location of the parliament:
       </p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <name type="place">Westminster</name>
@@ -1558,15 +1558,15 @@
          </egXML>
       </exemplum>
       <exemplum xml:lang="en">
-         <p>The element is used to mark up Named Entities in the linguistically analysed corpus,
-      in which case it should have the <att>type</att> attribute with one of the allowed values:
+         <p>The element is also used to mark up Named Entities in the linguistically analysed corpus,
+      in which case it should have the <att>type</att> attribute with one of the allowed values.
+      It can also have a <att>ref</att> attribute to link it a definition:
       </p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
 	...
 	<w lemma="and" msd="UPosTag=CCONJ">and</w>
-            <name type="ORG">
-               <w lemma="Westminster" msd="UPosTag=PROPN|Number=Sing">Westminster</w>
-               <w join="right" lemma="Hall" msd="UPosTag=PROPN|Number=Sing">Hall</w>
+            <name type="ORG" ref="https://en.wikipedia.org/wiki/Westminster">
+               <w join="right" lemma="Westminster" msd="UPosTag=PROPN|Number=Sing">Westminster</w>
             </name>
             <w lemma="," msd="UPosTag=PUNCT">,</w>
 	...
