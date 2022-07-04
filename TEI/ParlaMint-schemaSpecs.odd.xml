@@ -358,6 +358,7 @@
       <content>
          <alternate minOccurs="0" maxOccurs="unbounded">
             <textNode/>
+            <elementRef key="pb"/>
             <elementRef key="time"/>
          </alternate>
       </content>
@@ -449,9 +450,9 @@
       </exemplum>
       <exemplum xml:lang="en">
          <p>The <gi>note</gi> element can be further qualified by the <gi>time</gi> element to specify the
-      date and time recorded in the note:</p>
+      date and time recorded in the note; and can also contain a page break, <gi>pb</gi>:</p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-            <note type="time">The session began at <time when="2016-04-13T010:00:00">10 o'clock</time>.</note>
+            <note type="time">The session began <pb/> at <time when="2016-04-13T010:00:00">10 o'clock</time>.</note>
          </egXML>
       </exemplum>
       <exemplum xml:lang="en">

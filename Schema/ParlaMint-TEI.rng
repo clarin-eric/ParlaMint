@@ -492,10 +492,13 @@
 	  <data type="NCName"/>
 	</attribute>
       </optional>
-      <choice>
-        <text/>
-	<ref name="time"/>
-      </choice>
+      <oneOrMore>
+	<choice>
+	  <ref name="time"/>
+	  <ref name="pb"/>
+          <text/>
+	</choice>
+      </oneOrMore>
     </element>
   </define>
   

@@ -1725,10 +1725,11 @@
 	  target="#sec-comments">Transcriber comments</ref>.</p>
 
 	  <p>Page breaks, <gi>pb</gi> are an optional element, and can also appear both
-	  inside divisions and inside speeches. They are used to preserve the page breaks
-	  from the digital source, possibly together with the page number, as the value of
-	  the <att>n</att> attribute. They can also point to the source of a particular page
-	  in the corpus via the <att>source</att> attribute and to their media file via the
+	  inside divisions and inside speeches (as well as inside the <gi>note</gi>
+	  element). They are used to preserve the page breaks from the digital source,
+	  possibly together with the page number, as the value of the <att>n</att>
+	  attribute. They can also point to the source of a particular page in the corpus
+	  via the <att>source</att> attribute and to their media file via the
 	  <att>corresp</att> attribute (cf. the Section on <ref
 	  target="#sec-sourceDesc">Source description</ref> and esp. the <ref
 	  target="#exa-sourceDescComp">Example on the source description of a component
@@ -1760,14 +1761,35 @@
           pointer to the <gi>person</gi> element containing the metadata of the speaker,
           which is discussed in the Section on <ref
           target="#sec-speakers">Speakers</ref>. Despite its importance in allowing analyses
-          of speeches by speaker and their metadata, it does happen that the speaker of every
-          speech cannot be determined; for such cases, the <att>who</att> attribute should be
-          omitted.</p>
+          of speeches by speaker and their metadata, it does happen that the speaker of
+          every speech cannot be determined; for such cases, the <att>who</att> attribute
+          should be omitted.
 
-	  <p>The <gi>u</gi> element should also have the <att>ana</att> attribute giving a pointer
-	  to the typology of types of speakers, which is especially important to enable the
-	  distinction between the speeches of a session chair (who mostly speak on procedural
-	  matters) from regular, and, possibly, guest speakers.</p>
+	  <!-- Not sure we should actually have this, because, what if the person is a #guest, 
+	       and we don't know who they are? Are they then marked as "#guest #unknown"?
+	       
+	  By convention the fact that the speaker is unknown is
+          additionally marked by the value of <val>#unknown</val> in the <att>ana</att>
+          attribute, which points to the appropriate speaker type taxonomy. </p>
+
+          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-speech">
+            <u ana="#unknown">
+              <seg>I will present to you an issue that I consider very important.</seg>
+              ...
+            </u>
+          </egXML>
+          -->
+	  </p>
+	  
+	  <p>The <gi>u</gi> element should also have the <att>ana</att> attribute giving a
+	  pointer to the typology of types of speakers, which is especially important to
+	  enable the distinction between the speeches of a session chair (who mostly speak
+	  on procedural matters) from regular, and, possibly, guest speakers. Note that we
+	  used the <val>#regular</val> values not only for MPs but for all other speakers
+	  that can regularly speak in a parliament, e.g. ministers, the MP, members of
+	  parlimentary commissions etc. There is also a special type of speaker, called
+	  <val>#interrupting</val>, which we discuss further in the Section on <ref
+	  target="#sec-interruptions">Interrupted utterances</ref>.</p>
           
           <p>The utterances are then segmented using the <gi>seg</gi> element, which encodes the
           paragraphs of the source transcription. Even if the source files do not contain
@@ -1960,34 +1982,38 @@
 	    </u>
           </egXML>
 
-	  This solution is relatively easy to implement and valid in ParlaMint, however, it has the
-	  disadvantage of leaving what is essentially a speech as the content of a
+	  This solution is relatively easy to implement and valid in ParlaMint, however, it
+	  has the disadvantage of leaving what is essentially a speech as the content of a
 	  comment. In cases where it is possible to consistently identify such <q>mini
-	  speeches</q>, an alternative and more useful encoding will turn this comment into a
-	  separate speech, and splits the main utterance into two (or more) pieces. The
+	  speeches</q>, an alternative and more useful encoding will turn this comment into
+	  a separate speech, and split the main utterance into two (or more) pieces. The
 	  example below illustrates how this is encoded:
           
           <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-splitu">
             <u who="#BorisJohnson" ana="#regular" xml:id="GB001.8.3" next="#GB001.8.5">I propose a no-deal Brexit.</u>
-            <u who="#JeremyCorbyn" ana="#regular" xml:id="GB001.8.4">Traitor!</u>
+            <u who="#JeremyCorbyn" ana="#regular #interrupting" xml:id="GB001.8.4">Traitor!</u>
             <u who="#BorisJohnson" ana="#regular" xml:id="GB001.8.5" prev="#GB001.8.3">Because England does not want any dealings with the European Union.</u>
           </egXML>
           
-          As can be seen, the split is indicated by the use of the <att>next</att> attribute on
-          the first part of the split utterance and by the <att>prev</att> attribute of the next
-          part of the split utterance. The values of the attributes are pointers to the next of
-          previous identifiers of the appropriate part of the split utterance.<note>Note that, in
-          general, the utterance can also be split in the middle of a sentence, which brings with
-          it problems for automatic linguistic processing, as, ideally, the parts should be first
-          joined, and only then processed.</note>. In the example the speaker of the interrupting
-          speech has also been identified and marked in the <att>who</att> attribute; in cases
-          where this is not possible, this attribute can be omitted. An additional problem occurs
-          with the type of speaker encoded as the value of <att>ana</att>, which is a required
-          attribute but this information is not explicitly present in the source
-          transcription. Probably the only way in which the type of interrupting speaker can be
-          determined is to check the other speeches by this speaker in the same session, and
-          assign the same value to <att>ana</att>. But if the speaker cannot be identified or has
-          not spoken, then we suggest that the <val>#regular</val> speaker is assumed.</p>
+          As can be seen, the split is indicated by the use of the <att>next</att> attribute
+          on the first part of the split utterance and by the <att>prev</att> attribute of
+          the next part of the split utterance, while the fact that an utterance interrupts
+          another one is signaled by the addition of <val>#interrupting</val> to the
+          <att>ana</att> attribute.  The values of the <att>next</att> and <att>prev</att>
+          attributes are pointers to the next of previous identifiers of the appropriate
+          part of the split utterance.<note>Note that, in general, the utterance can also be
+          split in the middle of a sentence, which brings with it problems for automatic
+          linguistic processing, as, ideally, the parts should be first joined, and only
+          then processed.</note>.</p>
+
+	  <p>In the example the speaker of the interrupting speech has also been identified
+	  and marked in the <att>who</att> attribute; in cases where this is not possible,
+	  this attribute can be omitted.  As mentioned this speaker should also have the
+	  value <val>#interrupting</val> in their <att>ana</att> attribute; this value comes
+	  from the appropriate category of the ParlaMint speaker type taxonomy. In case the
+	  speaker is identified, and their status can be determined, <att>ana</att> should
+	  also contain the type proper of the speaker, i.e. whether they are
+	  <val>#chair</val>, <val>#regular</val> or <val>#guest</val> speaker is assumed.</p>
         </div>
       </div>
       

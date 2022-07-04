@@ -234,7 +234,7 @@ note =
   element note {
     global.atts,
     attribute type { xsd:NCName }?,
-    (text | time)
+    (time | pb | text)+
   }
 pb = element pb { global.atts, corresp.att, source.att, empty }
 comment =
