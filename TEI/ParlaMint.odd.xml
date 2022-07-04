@@ -25,7 +25,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>CLARIN</publisher>
-        <date>2022-06-06</date>
+        <date>2022-07-04</date>
         <availability status="free">
           <p>This file is freely available and you are hereby authorised to copy, modify, and
           redistribute it in any way without further reference or permissions.</p>
@@ -48,7 +48,7 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
-      <change when="2022-06-06">Tomaž Erjavec: many changes to (explanation of) structure.</change>
+      <change when="2022-07-04">Tomaž Erjavec: many changes to (explanation of) structure.</change>
       <change when="2022-05-18">Katja Meden: add ParlaMint examples in exemplums.</change>
       <change when="2022-05-16">Tomaž Erjavec: add section 3.5 on referring attributes.</change>
       <change when="2022-03-04">Matyáš Kopp: finish first pass through schemaSpecs.</change>
@@ -65,7 +65,7 @@
           corpora</ref></titlePart>
         </docTitle>
         <!--docEdition>v0.3</docEdition-->
-        <docDate>2022-06-06</docDate>
+        <docDate>2022-07-04</docDate>
         <!--byline>Tomaž Erjavec and Matyáš Kopp</byline-->
       </titlePage>
       <p></p>
@@ -481,9 +481,9 @@
 	    element in some way, e.g. the (URL of a) media file to a page break.
 	    </item>
 	    <item><att>ref</att> provides an explicit reference to the full definition or
-	    identity for the entity being named. In ParlaMit it is used e.g. for
-	    connecting a person's affiliation with a particular organisation. The value(s)
-	    of this attribute are often, but not always, URLs, e.g. for associating a
+	    identity for the entity being named. In ParlaMint it is used e.g. for
+	    connecting a person's affiliation with a particular organisation. The value
+	    of this attribute is often, but not always, an URL, e.g. for associating a
 	    place name with its GeoNames URL.</item>
 	  </list>
 	  </p>
@@ -1425,16 +1425,34 @@
 		</listRelation>
 	      </egXML>
 
-	      The type of relation (which can currently only be <val>coalition</val> or
-	      <val>opposition</val>) is given in the <att>name</att> attribute. As a
-	      coalition is a mutual relation, the pointers to the party IDs are given in the
-	      <att>mutual</att> attribute, whereas an opposition is an <att>active</att>
-	      relation of the opposing parties to the government, the pointer to which is
-	      given in the <att>passive</att> attribute.  It is also necessary to specify
-	      <att>from</att> when and (in cases of past oppositions) <att>to</att> when the
-	      listed parties were in the coalition or opposition. Finally, it is possible,
-	      but not necessary, to also give the legislative period and/or the government
-	      when this particular coalition or opposition existed.
+	      The type of relation is given in the <att>name</att> attribute.
+	      ParlaMint allows the following values of <att>name</att>:
+
+	      <list>
+		<item><val>coalition</val>: the pointers to the organisations
+		(i.e. parliamentary groups or political parties) are given in the <att>mutual</att>
+		attribute (because a coalition is mutual relation betweent its members);</item>
+		
+		<item><val>opposition</val>: the pointers to the organisations are given in
+		the <att>active</att> attribute, as the organisations are in an active relation to the
+		government, the pointer to which is given in the <att>passive</att> attribute;</item>
+		
+		<item><val>renaming</val>: the two organisation (typically political parties)
+		referred to are essentially the same organistion, which has been, however, renamed at
+		some point in time; the reference to the old organisation is given in the
+		<att>passive</att> attribute, while the reference to the new one is given in the
+		<att>active</att> attribute;</item>
+		
+		<item><val>successor</val>: an organisation (again, typically a political party), or
+		several of them, ceased to exist, but a sucessor was created; as with renaming, the
+		previous organisation is given as the value of the <att>passive</att> attribute,
+		while the new one uses the <att>active</att> attribute.</item>
+	      </list>
+	      
+	      For the relations it is typically also necessary to specify <att>from</att>
+	      and possibly <att>to</att> when the relation was in force. Finally, it is
+	      possible, but not necessary, to also give the legislative period and/or the
+	      government when this particular coalition or opposition existed.
 	      </p>
 	    </div>
           </div>
