@@ -15,6 +15,9 @@ WORKINGDIR = Data/TMP
 ##$##                 Default value is ''.
 CORPUSDIR_SUFFIX =
 
+DATA_XX_REP = ParlaMint-data-XX
+CURRENT_COMMIT := $(shell git rev-parse --short HEAD)
+
 ###### Setup
 ## check-prereq ## test if prerequisities are installed, more about installing prerequisities in CONTRIBUTING.md file
 check-prereq:
@@ -359,6 +362,16 @@ $(DEV-attributes-summ-XX): DEV-attributes-summ-%: %
 	  done \
 	done | sort|uniq -c|sed "s/^ *//"|tr -s " "| tr " " "\t"
 
+##!DEV-speaker_types-in-taxonomy## print speaker types: id english_term ParlaMint-XX local_term
+DEV-speaker_types-in-taxonomy:
+	@echo -n "category_id\tterm_en\tcode\tterm_local\n"
+	@for root in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-*${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep -v '_'| grep -v '.ana.xml'`; do \
+	  java -cp /usr/share/java/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive \
+	      -qs:'//*:taxonomy[@xml:id="speaker_types"]//*:category/concat(@xml:id,"|"  ,.//*:term[ancestor-or-self::*[@xml:lang][1]/@xml:lang="en"],"|"   ,/*:teiCorpus/@xml:id,"|"   ,.//*:term[not(ancestor-or-self::*[@xml:lang][1]/@xml:lang="en") ])' \
+	      -s:$${root} ; \
+	  echo;\
+	done | sed 's/^"//;s/"$$//;s/ParlaMint-//;s/|/\t/g'|sort|uniq
+
 
 fix-v2tov3-XX = $(addprefix fix-v2tov3-, $(PARLIAMENTS-v2))
 ##!fix-v2tov3 ## convert ParlaMint v2 format to ParlaMint v3 format
@@ -407,6 +420,52 @@ $(fix-v2tov3-full-XX): fix-v2tov3-full-%: % working-dir-% fix-v2tov3-%
 	rsync -av ${WORKINGDIR}/fix-overlapping-affiliations/ParlaMint-$<${CORPUSDIR_SUFFIX}/ ${WORKINGDIR}/fix-v2tov3-full/ParlaMint-$<${CORPUSDIR_SUFFIX}
 
 
+##! DEV-data-XX-clone-in-subfolder##
+DEV-data-XX-clone-in-subfolder:
+	git clone git@github.com:clarin-eric/ParlaMint.git ${DATA_XX_REP}
+
+DEV-data-XX-create-branch-XX = $(addprefix DEV-data-XX-create-branch-, $(PARLIAMENTS-v2))
+##!DEV-data-XX-create-branch ## create data-XX branch for each country from data branch in DATA_XX_REP folder
+DEV-data-XX-create-branch: .update_DATA_XX_REP $(DEV-data-XX-create-branch-XX)
+##!DEV-data-XX-create-branch-XX ##
+$(DEV-data-XX-create-branch-XX): DEV-data-XX-create-branch-%: %
+	git -C ${DATA_XX_REP} checkout data
+	git -C ${DATA_XX_REP} checkout -b data-$<
+
+DEV-data-XX-reset-data-XX = $(addprefix DEV-data-XX-reset-data-, $(PARLIAMENTS-v2))
+##!DEV-data-XX-reset-data ##
+DEV-data-XX-reset-data-XX: .update_DATA_XX_REP $(DEV-data-XX-reset-data-XX)
+##!DEV-data-XX-reset-data-XX ##
+$(DEV-data-XX-reset-data-XX): DEV-data-XX-reset-data-%: %
+	git -C ${DATA_XX_REP} fetch origin data
+	git -C ${DATA_XX_REP} checkout data-$<
+	# this avoid merge conflicts, we just want to overwrite xml content with content drom data branch:
+	rm -f ${DATA_XX_REP}/${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<*.xml
+	git -C ${DATA_XX_REP} checkout data ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<*.xml
+	git -C ${DATA_XX_REP} commit -m "reset xml content of data-$< with data" \
+	                             ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<*.xml \
+	  || echo "No change in xml data"
+	# merge other changes to keep data-XX branch updated
+	git -C ${DATA_XX_REP} merge data
+
+DEV-data-XX-fix-XX = $(addprefix DEV-data-XX-fix-, $(PARLIAMENTS-v2))
+##!DEV-data-XX-fix ##
+DEV-data-XX-fix-XX: $(DEV-data-XX-fix-XX)
+##!DEV-data-XX-fix-XX ##
+$(DEV-data-XX-fix-XX): DEV-data-XX-fix-%: % DEV-data-XX-reset-data-%
+	git -C ${DATA_XX_REP} checkout data-$<
+	make fix-v2tov3-full-$< DATADIR=${DATA_XX_REP}/${DATADIR} WORKINGDIR=${DATA_XX_REP}/${WORKINGDIR}
+	rsync -av ${DATA_XX_REP}/${WORKINGDIR}/fix-v2tov3-full/ParlaMint-$<${CORPUSDIR_SUFFIX}/ \
+	          ${DATA_XX_REP}/${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}
+	git -C ${DATA_XX_REP} status
+	git -C ${DATA_XX_REP} commit -m "fix data-$< with  v2tov3 [${CURRENT_COMMIT}]" \
+	                             ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<*.xml
+	echo "to push changes:"
+	echo "git -C ${DATA_XX_REP} push --set-upstream origin data-$<"
+
+
+.update_DATA_XX_REP:
+	git -C ${DATA_XX_REP} pull --all
 
 
 ######################Generating and ingesting TSV added metadata

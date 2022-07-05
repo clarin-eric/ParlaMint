@@ -232,6 +232,8 @@
         <!-- organization without affiliation -->
         <xsl:variable name="orgId" select="@xml:id"/>
         <xsl:variable name="affCnt" select="count(./ancestor::tei:teiCorpus//tei:affiliation[@ref = concat('#',$orgId)])"/>
+        <xsl:variable name="affCnt-no-from-to"
+                      select="count(./ancestor::tei:teiCorpus//tei:affiliation[@ref = concat('#',$orgId) and not(@from) and not(@to)])"/>
 
         <xsl:call-template name="error">
           <xsl:with-param name="ident">10</xsl:with-param>
@@ -243,6 +245,26 @@
             <xsl:value-of select="$affCnt"/>
           </xsl:with-param>
         </xsl:call-template>
+
+        <xsl:if test="$affCnt > 0 and $affCnt-no-from-to > 0">
+          <xsl:call-template name="error">
+            <xsl:with-param name="ident">20</xsl:with-param>
+            <xsl:with-param name="severity">
+              <xsl:choose>
+                <xsl:when test="contains(' parliament government ', @role) and ($affCnt-no-from-to div $affCnt > 0.5)">ERROR</xsl:when> <!-- more than 50% are covering whole period -->
+                <xsl:otherwise>INFO</xsl:otherwise>
+              </xsl:choose>
+            </xsl:with-param>
+            <xsl:with-param name="msg">
+            <xsl:text>Total number of whole-corpus-period-covering affiliations with </xsl:text>
+            <xsl:value-of select="$orgId"/>
+            <xsl:text>: </xsl:text>
+            <xsl:value-of select="$affCnt-no-from-to"/>
+            <xsl:value-of select="concat(' (',format-number(100 * $affCnt-no-from-to div $affCnt,'0.00'),'%)')"/>
+            </xsl:with-param>
+          </xsl:call-template>
+        </xsl:if>
+
         <xsl:if test="$affCnt = 0">
           <xsl:call-template name="error">
             <xsl:with-param name="ident">10</xsl:with-param>
@@ -510,7 +532,7 @@
       <xsl:when test="contains(' MP primeMinister chairman viceChairman ', $role)">14:ERROR)not allowed in any context</xsl:when>
       <xsl:when test="$orgrole = 'parliament' and contains(' minister ', mk:borders($role))">15:ERROR)invalid affiliation role with parliament organization</xsl:when>
       <xsl:when test="$orgrole = 'parliament' and not(contains(' head member deputyHead ', mk:borders($role)))">15:WARN)unexpected affiliation role with parliament organization</xsl:when>
-      <xsl:when test="$orgrole = 'government' and not(contains(' head member deputyHead minister ', mk:borders($role)))">16:WARN)unexpected affiliation role with government organization</xsl:when>
+      <xsl:when test="$orgrole = 'government' and not(contains(' head member deputyHead minister deputyMinister ', mk:borders($role)))">16:WARN)unexpected affiliation role with government organization</xsl:when>
       <xsl:when test="$orgrole = 'parliamentaryGroup' and not(contains(' head deputyHead member ', mk:borders($role)))">17:WARN)unexpected affiliation role with parliamentary group organization</xsl:when>
       <xsl:otherwise>PASS</xsl:otherwise>
     </xsl:choose>
