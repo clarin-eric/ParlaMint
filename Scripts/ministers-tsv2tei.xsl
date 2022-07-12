@@ -7,59 +7,57 @@
   xmlns:tei="http://www.tei-c.org/ns/1.0"
   xmlns:fn="http://www.w3.org/2005/xpath-functions"
   exclude-result-prefixes="fn tei">
+  
   <!-- File with TSV data -->
   <xsl:param name="tsv"/>
   
   <xsl:output method="xml" version="1.0" encoding="utf-8" indent="yes" omit-xml-declaration="no"/>
-
   <xsl:key name="id" match="tei:*" use="@xml:id"/>
-  
   <xsl:variable name="profileDesc" select="tei:teiCorpus/tei:teiHeader/tei:profileDesc"/>
   
   <!-- NOTE: we have to discuss how to name "regions" in setting! -->
-  <xsl:variable name="corpusCountry" select="$profileDesc/
-					     tei:settingDesc/tei:setting/tei:name
-				       [@type = 'country' or @type = 'region']/@key
-				       "/>
+  <xsl:variable name="corpusCountry"
+		select="$profileDesc/
+			tei:settingDesc/tei:setting/tei:name
+			[@type = 'country' or @type = 'region']/@key"/>
+  
   <!-- Parse TSV into a 
-       listPerson/person[@xml:id]/affiliation
-       [@role='minister']
-       [@from][@to]
-       [@ref][@ana] 
+       listPerson/person[@xml:id]/affiliation[@role='minister']@from][@to][@ref][@ana] 
        structure -->
   <xsl:variable name="data">
     <listPerson>
       <xsl:variable name="text" select="unparsed-text($tsv, 'UTF-8')"/>
-      <xsl:for-each select="tokenize($text, '\n')">
+      <xsl:for-each select="tokenize($text, '&#10;')">
 	<xsl:if test="matches(., '\t') and not(matches(., '^Country'))">
-	  <person>
-	    <xsl:analyze-string select="." regex="^([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)">
-	      <xsl:matching-substring>
-		<xsl:variable name="country" select="regex-group(1)"/>
-		<xsl:variable name="personID" select="regex-group(2)"/>
-		<xsl:variable name="role" select="regex-group(3)"/>
-		<xsl:variable name="from" select="regex-group(4)"/>
-		<xsl:variable name="to" select="regex-group(5)"/>
-		<xsl:variable name="ref" select="regex-group(6)"/>
-		<xsl:variable name="ana" select="regex-group(7)"/>
-
-		<xsl:if test = '$country != $corpusCountry'>
-		  <xsl:message terminate="yes"
-			       select="concat('FATAL: TEI corpus country = ', $corpusCountry, 
-				       ' does not match TSV country = ', $country,
-				       ' in TSV line&#10;', .)"/>
-		</xsl:if>
-		<xsl:if test = "not(key('id', $personID, $profileDesc)/self::tei:person)">
-		  <xsl:message terminate="yes"
-			       select="concat('FATAL: No person ', $personID, 
-				       ' found in TEI corpus! TSV is:&#10;', .)"/>
-		</xsl:if>
-		<xsl:attribute name="xml:id" select="$personID"/>
-		<xsl:if test = "$role != 'minister'">
-		  <xsl:message terminate="yes"
-			       select="concat('FATAL: Role ', $role, 
-				       ' does not match minister! TSV is:&#10;', .)"/>
-		</xsl:if>
+	  <xsl:analyze-string select="."
+			      regex="^([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*).*">
+	    <xsl:matching-substring>
+	      <xsl:variable name="country" select="regex-group(1)"/>
+	      <xsl:variable name="personID" select="regex-group(2)"/>
+	      <xsl:variable name="role" select="regex-group(3)"/>
+	      <xsl:variable name="from" select="regex-group(4)"/>
+	      <xsl:variable name="to" select="regex-group(5)"/>
+	      <xsl:variable name="ref" select="regex-group(6)"/>
+	      <xsl:variable name="ana" select="regex-group(7)"/>
+	      
+	      <xsl:if test = '$country != $corpusCountry'>
+		<xsl:message terminate="yes"
+			     select="concat('FATAL: TEI corpus country = ', $corpusCountry, 
+				     ' does not match TSV country = ', $country,
+				     ' in TSV line&#10;', .)"/>
+	      </xsl:if>
+	      <xsl:if test = "not(key('id', $personID, $profileDesc)/self::tei:person)">
+		<xsl:message terminate="yes"
+			     select="concat('FATAL: No person ', $personID, 
+				     ' found in TEI corpus! TSV is:&#10;', .)"/>
+	      </xsl:if>
+	      <xsl:if test = "$role != 'minister'">
+		<xsl:message terminate="yes"
+			     select="concat('FATAL: Role ', $role, 
+				     ' does not match minister! TSV is:&#10;', .)"/>
+	      </xsl:if>
+	      <!--xsl:message select="concat('INFO: Found minister ', $personID)"/-->
+	      <person xml:id="{$personID}">
 		<affiliation role="minister">
 		  <!-- Re-insert # in references to IDs for affiliation/@ref -->
 		  <xsl:if test="normalize-space($ref) and $ref != '-'">
@@ -76,18 +74,18 @@
 		    <xsl:attribute name="ana" select="concat('#', replace($ana, ' ', ' #'))"/>
 		  </xsl:if>
 		</affiliation>
-              </xsl:matching-substring>
-	      <xsl:non-matching-substring>
-		<xsl:message terminate="yes"
-			     select="concat('FATAL: Bad line in TSV: ', .)"/>
-	      </xsl:non-matching-substring>
-	    </xsl:analyze-string>
-	  </person>
+	      </person>
+            </xsl:matching-substring>
+	    <xsl:non-matching-substring>
+	      <xsl:message terminate="yes"
+			   select="concat('FATAL: Bad line in TSV: ', .)"/>
+	    </xsl:non-matching-substring>
+	  </xsl:analyze-string>
 	</xsl:if>
       </xsl:for-each>
     </listPerson>
   </xsl:variable>
-
+  
   <xsl:template match="/">
     <xsl:text>&#10;</xsl:text>
     <xsl:apply-templates/>
