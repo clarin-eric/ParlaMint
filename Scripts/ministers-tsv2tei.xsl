@@ -33,7 +33,7 @@
       <xsl:for-each select="tokenize($text, '\n')">
 	<xsl:if test="matches(., '\t') and not(matches(., '^Country'))">
 	  <person>
-	    <xsl:analyze-string select="." regex="^(.*)\t(.*)\t(.*)\t(.*)\t(.*)\t(.*)\t(.*)$">
+	    <xsl:analyze-string select="." regex="^([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]*)\t([^\t]*)\t([^\t]*)\t([^\t]*)">
 	      <xsl:matching-substring>
 		<xsl:variable name="country" select="regex-group(1)"/>
 		<xsl:variable name="personID" select="regex-group(2)"/>
