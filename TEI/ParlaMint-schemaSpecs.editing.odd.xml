@@ -3460,6 +3460,7 @@
           <valItem ident="opposition"/>
           <valItem ident="renaming"/>
           <valItem ident="successor"/>
+          <valItem ident="representing"/>
         </valList>
       </attDef>
       <attDef ident="mutual" mode="change" usage="opt"/>
@@ -3471,6 +3472,8 @@
       <pm:attPreserve ident="to"/>
     </attList>
     <exemplum xml:lang="en">
+      <p>Specification of coalition and opposition political parties (or parliamentary groups) in a given
+      time period and legislative period:</p>
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
 	<relation name="coalition"
 		  mutual="#MR #OpenVld #N-VA #CD_en_V" from="2014-10-11" to="2018-12-09"
@@ -3478,6 +3481,14 @@
 	<relation name="opposition"
 		  active="#Ecolo #cdH #DéFi #Vuye_Wouters #sp.a #PP #PS #PTB #FDF" passive="#government.BE"
 		  from="2014-10-11" to="2018-12-09" ana="#period_54"/>
+      </egXML>
+    </exemplum>
+    <exemplum xml:lang="en">
+      <p>Specification of parliamentary group representing political parties in the parliament:</p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<relation name="representing" active="#parliamentaryGroup.CSSD.1107"
+		  passive="#politicalParty.CSSD.153 #politicalParty.ENO.1"
+		  from="2013-10-29" to="2017-10-26"/>
       </egXML>
     </exemplum>
   </elementSpec>

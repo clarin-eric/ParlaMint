@@ -25,7 +25,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>CLARIN</publisher>
-        <date>2022-07-07</date>
+        <date>2022-07-12</date>
         <availability status="free">
           <p>This file is freely available and you are hereby authorised to copy, modify, and
           redistribute it in any way without further reference or permissions.</p>
@@ -48,7 +48,7 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
-      <change when="2022-07-07">Tomaž Erjavec: many changes to (explanation of) structure.</change>
+      <change when="2022-07-07">Tomaž Erjavec: many changes to (explanations of) structure.</change>
       <change when="2022-05-18">Katja Meden: add ParlaMint examples in exemplums.</change>
       <change when="2022-05-16">Tomaž Erjavec: add section 3.5 on referring attributes.</change>
       <change when="2022-03-04">Matyáš Kopp: finish first pass through schemaSpecs.</change>
@@ -65,7 +65,7 @@
           corpora</ref></titlePart>
         </docTitle>
         <!--docEdition>v0.3</docEdition-->
-        <docDate>2022-07-07</docDate>
+        <docDate>2022-07-12</docDate>
         <!--byline>Tomaž Erjavec and Matyáš Kopp</byline-->
       </titlePage>
       <p></p>
@@ -1414,17 +1414,19 @@
 	      <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-relations">
 		<listRelation>
                   <relation name="coalition"
-                            mutual="#MR #OpenVld #N-VA #CD_en_V"
+                            mutual="#parliamentaryGroup.MR #parliamentaryGroup.OpenVld"
                             from="2014-10-11"
                             to="2018-12-09"
                             ana="#period_54"/>
                   <relation name="opposition"
-                            active="#Ecolo #cdH #DéFi #Vuye_Wouters #sp.a #PP #PS #PTB #FDF"
+                            active="#parliamentaryGroup.Ecolo #parliamentaryGroup.cdH"
                             passive="#government.BE"
                             from="2014-10-11"
                             to="2018-12-09"
                             ana="#period_54"/>
-		  ...
+		  <relation name="representing" active="#parliamentaryGroup.MR"
+			    passive="#politicalParty.CSSD.153 #politicalParty.ENO.1"
+			    from="2013-10-29" to="2017-10-26"/>
 		</listRelation>
 	      </egXML>
 
@@ -1440,6 +1442,11 @@
 		the <att>active</att> attribute, as the organisations are in an active relation to the
 		government, the pointer to which is given in the <att>passive</att> attribute;</item>
 		
+		<item><val>representing</val>: a parliamentary group representing one or more political
+		parties in the parliament. The parliamentary group is given as the value of the
+		<att>active</att> attribute, while the political parties are given as the value of
+		the <att>passive</att> attribute.</item>
+		
 		<item><val>renaming</val>: the two organisation (typically political parties)
 		referred to are essentially the same organistion, which has been, however, renamed at
 		some point in time; the reference to the old organisation is given in the
@@ -1450,6 +1457,7 @@
 		several of them, ceased to exist, but a sucessor was created; as with renaming, the
 		previous organisation is given as the value of the <att>passive</att> attribute,
 		while the new one uses the <att>active</att> attribute.</item>
+
 	      </list>
 	      
 	      For the relations it is typically also necessary to specify <att>from</att>
