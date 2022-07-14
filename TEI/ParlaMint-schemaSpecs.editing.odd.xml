@@ -3460,6 +3460,7 @@
           <valItem ident="opposition"/>
           <valItem ident="renaming"/>
           <valItem ident="successor"/>
+          <valItem ident="representing"/>
         </valList>
       </attDef>
       <attDef ident="mutual" mode="change" usage="opt"/>
@@ -3471,6 +3472,8 @@
       <pm:attPreserve ident="to"/>
     </attList>
     <exemplum xml:lang="en">
+      <p>Specification of coalition and opposition political parties (or parliamentary groups) in a given
+      time period and legislative period:</p>
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
 	<relation name="coalition"
 		  mutual="#MR #OpenVld #N-VA #CD_en_V" from="2014-10-11" to="2018-12-09"
@@ -3478,6 +3481,14 @@
 	<relation name="opposition"
 		  active="#Ecolo #cdH #DéFi #Vuye_Wouters #sp.a #PP #PS #PTB #FDF" passive="#government.BE"
 		  from="2014-10-11" to="2018-12-09" ana="#period_54"/>
+      </egXML>
+    </exemplum>
+    <exemplum xml:lang="en">
+      <p>Specification of parliamentary group representing political parties in the parliament:</p>
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+	<relation name="representing" active="#parliamentaryGroup.CSSD.1107"
+		  passive="#politicalParty.CSSD.153 #politicalParty.ENO.1"
+		  from="2013-10-29" to="2017-10-26"/>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -3543,7 +3554,7 @@
             <forename>Alexandra Martha</forename>
             <surname>Kearns</surname>
           </persName>
-	  <sex value="F">Female</sex>
+	  <sex value="F"/>
           <affiliation from="2019-12-12" ref="#parla.lower" role="member"/>
           <affiliation from="2019-12-12" ref="#party.CON" role="member"/>
           <idno subtype="contact" type="URI">https://members.parliament.uk/member/4805/contact</idno>
@@ -3558,7 +3569,7 @@
             <surname>Adamowicz</surname>
           </persName>
           <birth when="1961-06-26">26.06.1961</birth>
-          <sex value="M">mężczyzna</sex>
+          <sex value="M"/>
           <affiliation role="member" ref="#party.KO"/>
         </person>
       </egXML>
@@ -3728,71 +3739,85 @@
             <surname>Kalous</surname>
             <forename>Adam</forename>
           </persName>
-          <sex value="M">mužské</sex>
+          <sex value="M"/>
           <birth when="1979-10-06"/>
           <idno type="URI">https://www.psp.cz/sqw/detail.sqw?id=6497</idno>
-          <figure>
-            <graphic url="https://www.psp.cz/eknih/cdrom/2017ps/eknih/2017ps/poslanci/i6497.jpg"/>
-          </figure>
-          <affiliation ref="#subcommittee.PD.1340" role="member" from="2020-06-04T00:00:00"/>
-          <affiliation ref="#interparliamentaryFriendshipGroup.BH.1514" role="member" from="2019-11-28T00:00:00"/>
-          <affiliation ref="#subcommittee.PMRVZCH.1376" role="member" from="2019-10-02T00:00:00"/>
-          <affiliation ref="#subcommittee.PCR.1391" role="member" from="2019-09-05T00:00:00"/>
-          <affiliation ref="#interparliamentaryFriendshipGroup.QA.1509" role="member" from="2019-05-09T00:00:00"/>
-          <affiliation ref="#interparliamentaryFriendshipGroup.SK.1443" role="member" from="2018-09-10T00:00:00"/>
-          <affiliation ref="#interparliamentaryFriendshipGroup.BG.1439" role="member" from="2018-06-26T00:00:00" to="2019-10-31T00:00:00"/>
-          <affiliation ref="#interparliamentaryFriendshipGroup.KW.1464" role="member" from="2018-05-22T00:00:00"/>
-          <affiliation ref="#interparliamentaryFriendshipGroup.USA.1445" role="member" from="2018-04-10T00:00:00"/>
-          <affiliation ref="#interparliamentaryFriendshipGroup.ARE.1446" role="member" from="2018-04-10T00:00:00"/>
-          <affiliation ref="#interparliamentaryFriendshipGroup.ISR.1447" role="member" from="2018-04-10T00:00:00"/>
-          <affiliation ref="#interparliamentaryFriendshipGroup.OMN.1448" role="member" from="2018-04-10T00:00:00" to="2018-09-10T00:00:00"/>
-          <affiliation ref="#subcommittee.PEFPS.1414" role="chairman" from="2018-03-14T00:00:00"/>
-          <affiliation ref="#subcommittee.PEFPS.1414" role="member" from="2018-03-14T00:00:00"/>
-          <affiliation ref="#commission.SKBIS.1326" role="member" from="2017-12-12T00:00:00"/>
-          <affiliation ref="#commission.SKVZ.1328" role="member" from="2017-12-12T00:00:00" to="2019-07-10T12:00:00"/>
-          <affiliation ref="#committee.VSR.1315" role="viceChairman" from="2017-12-06T16:00:00"/>
-          <affiliation ref="#committee.VEZ.1308" role="verifier" from="2017-11-29T16:00:00"/>
-          <affiliation ref="#committee.VEZ.1308" role="member" from="2017-11-28T16:00:00"/>
-          <affiliation ref="#committee.VSR.1315" role="member" from="2017-11-28T16:00:00"/>
-          <affiliation ref="#politicalGroup.ANO.1292" role="member" from="2017-10-24T00:00:00"/>
-          <affiliation ref="#parliament.PSP8" role="MP" from="2017-10-21T14:00:00"/>
-          <affiliation ref="#politicalParty.ANO2011.1104" role="candidateMP" from="2017-10-21"/>
+          <affiliation ref="#subcommittee.PEFPS.1414"
+                       role="head"
+                       from="2018-03-14T00:00:00"
+                       to="2021-10-21T00:00:00">
+            <roleName xml:lang="en">Chair Person</roleName>
+          </affiliation>
+          <affiliation ref="#subcommittee.PEFPS.1414"
+                       role="member"
+                       from="2018-03-14T00:00:00"
+                       to="2021-10-21T00:00:00">
+            <roleName xml:lang="en">Member</roleName>
+          </affiliation>
+          <affiliation ref="#committee.VSR.1315"
+                       role="deputyHead"
+                       from="2017-12-06T16:00:00"
+                       to="2021-10-21T00:00:00">
+            <roleName xml:lang="en">Vice Chairman</roleName>
+          </affiliation>
+          <affiliation ref="#committee.VSR.1315"
+                       role="member"
+                       from="2017-11-28T16:00:00"
+                       to="2021-10-21T00:00:00">
+            <roleName xml:lang="en">Member</roleName>
+          </affiliation>
+          <affiliation ref="#politicalGroup.ANO.1292"
+                       role="member"
+                       from="2017-10-24T00:00:00"
+                       to="2021-10-21T00:00:00">
+            <roleName xml:lang="en">Member</roleName>
+          </affiliation>
+          <affiliation ref="#politicalParty.ANO2011.1104"
+                       role="representative"
+                       from="2017-10-21"
+                       to="2021-10-21">
+            <roleName xml:lang="en">Candidate MP</roleName>
+          </affiliation>
+          <affiliation ref="#parliament"
+                       ana="#parliament.PSP8"
+                       role="member"
+                       from="2017-10-21T14:00:00"
+                       to="2021-10-21T00:00:00">
+            <roleName xml:lang="en">MP</roleName>
+          </affiliation>
         </person>
       </egXML>
     </exemplum>
     <exemplum xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-	<p>The affiliation element can also include an ana attribute, which points to the appropriate legislative period when the person was affiliated with the specified organisation.</p>
+	<p>The affiliation element can also include an <att>ana</att> attribute, which points to the appropriate legislative period when the person was affiliated with the specified organisation:</p>
 	<person xml:id="BahŽibertAnja">
 	  <persName>
             <surname>Bah</surname>
             <surname>Žibert</surname>
             <forename>Anja</forename>
           </persName>
+          <sex value="F"/>
           <affiliation role="member"
                        ref="#DZ"
                        from="2014-08-01"
                        to="2018-06-21"
-                       ana="#DZ.7"/>
+                       ana="#DZ.7">
+            <roleName xml:lang="en">MP</roleName>
+          </affiliation>
           <affiliation role="member"
                        ref="#party.SDS.2"
                        from="2014-08-01"
                        to="2018-06-21"
-                       ana="#DZ.7"/>
-          <affiliation role="member" ref="#DZ" from="2018-06-22" ana="#DZ.8"/>
-          <affiliation role="member" ref="#party.SDS.2" from="2018-06-22" ana="#DZ.8"/>
+                       ana="#DZ.7">
+            <roleName xml:lang="en">Member</roleName>
+          </affiliation>
+          <affiliation role="member" ref="#DZ" from="2018-06-22" ana="#DZ.8">
+            <roleName xml:lang="en">MP</roleName>
+          </affiliation>
         </person>
       </egXML>
     </exemplum>
-    <remarks xml:lang="en">
-      <p>Affiliation to organization can be done in three ways (sorted from most concrete - the best solution):
-      <list>
-        <item><att>ref</att></item>
-        <item><att>key</att></item>
-        <item>text value</item>
-      </list>
-      </p>
-    </remarks>
   </elementSpec>
   <elementSpec ident="occupation" module="namesdates" mode="change">
     <desc
