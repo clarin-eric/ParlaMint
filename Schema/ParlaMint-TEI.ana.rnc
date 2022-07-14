@@ -20,17 +20,19 @@ include "ParlaMint-TEI.rnc" {
 sentence =
   element s { global.atts, (comment | ner | word | punct)+, syntax }
 
-## NER-like elements, used by CZ
+## NER elements
 ner =
   
   ## Standard name element
   (element name {
      global.atts,
+     ref.att,
      attribute ana { xsd:anyURI }?,
      attribute type { "PER" | "LOC" | "ORG" | "MISC" }?,
      attribute subtype { xsd:token }?,
      ner_tokens
    }
+   >> a:documentation [ "Additional content used by CZ" ]
    | element date { ner.atts, temporal.atts?, ner_tokens }
    | element time { ner.atts, ner_tokens }
    | element num { ner.atts, ner_tokens }

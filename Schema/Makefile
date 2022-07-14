@@ -1,7 +1,7 @@
 list:
 	grep '<element name=' ParlaMint-*.rng | perl -pe 's|.+="||; s|">||' | sort | uniq
 nohup:
-	nohup time make all > nohup.all &
+	nohup time make all > compile.log &
 all:	val trang
 
 #Authored, strangely enough, in .rng!
