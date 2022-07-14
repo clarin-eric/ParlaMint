@@ -1,3 +1,5 @@
+check: prepare val-schema html mount
+
 # Validate and compile ODD to RelaxNG, validate samples, make HTML
 all:	prepare val-schema xml-schemas val-samples html
 # We cannot currently validate samples, as they need first to be updated.
