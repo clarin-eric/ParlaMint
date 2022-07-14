@@ -40,7 +40,7 @@
     </xsl:choose>
   </xsl:param>
   <xsl:param name="country-code" select="replace(/tei:teiCorpus/@xml:id, 
-					 '.*?-(.+)', '$1')"/>
+					 '.*?-([^._]+).*', '$1')"/>
   <xsl:param name="country-name" select="replace(/tei:teiCorpus/tei:teiHeader/
 					 tei:fileDesc/tei:titleStmt/
 					 tei:title[@type='main' and @xml:lang='en'],
@@ -358,56 +358,7 @@
       <xsl:value-of select="normalize-space(replace(., '\.ana ', ' '))"/>
     </xsl:copy>
   </xsl:template>
-  
-  <!-- Add date to CZ en subheading -->
-  <xsl:template mode="comp" match="tei:titleStmt/tei:title[@type='sub' and @xml:lang='en']">
-    <xsl:choose>
-      <xsl:when test="$country-code = 'CZ'">
-	<xsl:copy>
-	  <xsl:apply-templates mode="comp" select="@*"/>
-	  <xsl:value-of select="normalize-space(
-				concat(., ', ', 
-				ancestor::tei:fileDesc/tei:sourceDesc/tei:bibl/tei:date/@when
-				))"/>
-	</xsl:copy>
-      </xsl:when>
-      <xsl:otherwise>
-	<xsl:copy>
-	  <xsl:apply-templates mode="comp" select="@*"/>
-	  <xsl:value-of select="normalize-space(.)"/>
-	</xsl:copy>
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>
-    
-  <!-- Merge two subheadings in CZ -->
-  <xsl:template mode="comp" match="tei:titleStmt/tei:title[@type='sub' and @xml:lang='cs']">
-    <xsl:choose>
-      <xsl:when test="preceding-sibling::tei:title[@type='sub' and @xml:lang='cs']">
-	<xsl:message select="concat('INFO ', /tei:TEI/@xml:id, 
-			     ': removing cs subtitle ', .)"/>
-      </xsl:when>
-      <xsl:when test="following-sibling::tei:title[@type='sub' and @xml:lang='cs']">
-	<xsl:variable name="content"
-		      select="concat(., ', ', 
-			      ancestor::tei:fileDesc/tei:sourceDesc/tei:bibl/tei:date/@when, ', ',
-			      following-sibling::tei:title[@type='sub' and @xml:lang='cs'][1])"/>
-	<xsl:message select="concat('INFO ', /tei:TEI/@xml:id, 
-			     ': changing cs subtitle to ', $content)"/>
-	<xsl:copy>
-	  <xsl:apply-templates select="@*"/>
-	  <xsl:value-of select="$content"/>
-	</xsl:copy>
-      </xsl:when>
-      <xsl:otherwise>
-	<xsl:copy>
-	  <xsl:apply-templates select="@*"/>
-	  <xsl:apply-templates/>
-	</xsl:copy>
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>
-    
+
   <!-- Same as for root -->
   <xsl:template mode="comp" match="tei:publicationStmt/tei:date">
     <xsl:apply-templates select="."/>
@@ -736,6 +687,7 @@
   <xsl:template match="tei:revisionDesc">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
+      <xsl:apply-templates select="*"/>
       <change when="{$today}"><name>Tomaž Erjavec</name>: Finalize encoding.</change>
     </xsl:copy>
   </xsl:template>

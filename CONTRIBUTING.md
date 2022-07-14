@@ -46,8 +46,15 @@ git pull
 ```bash
 # replace XX with your country code
 git add Data/ParlaMint-XX/*.xml
-git commit -m ‘XX’ Data/ParlaMint-XX/ParlaMint-XX*.xml
+git commit -m 'XX' Data/ParlaMint-XX/ParlaMint-XX*.xml
 ```
+
+- Add common content (tagUsages, word extents, version):
+
+  - edit files and save in `Data/ParlaMint-XX/add-common-content/ParlaMint-XX/` folder: `make add-common-content-XX`
+  - check if modified files are ok
+  - replace `Data/ParlaMint-XX/*.xml` files with `Data/ParlaMint-XX/add-common-content/ParlaMint-XX/` content
+  - commit changes `git commit -m 'XX add common content' Data/ParlaMint-XX/ParlaMint-XX*.xml`
 
 - Push data to your Fork:
 

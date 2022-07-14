@@ -14,6 +14,7 @@
     <xsl:variable name="personId" select="./parent::tei:person/@xml:id"/>
     <xsl:variable name="person" select="./parent::tei:person"/>
     <xsl:variable name="ref" select="@ref"/>
+    <xsl:variable name="role" select="@role"/>
     <xsl:variable name="from" select="mk:get_from(.)"/>
     <xsl:variable name="to" select="mk:get_to(.)"/>
     <xsl:variable name="ana" select="@ana"/>
@@ -39,20 +40,67 @@
             <xsl:variable name="affFrom" select="mk:fix_date($from,'-01-01','T00:00:00')"/>
             <xsl:variable name="affTo" select="mk:fix_date($to,'-12-31','T23:59:59')"/>
 
-            <xsl:if test="following-sibling::tei:affiliation
-                            [@role='member'][not(@from or @to)][@ref = $ref]">
-              <xsl:call-template name="error">
-                <xsl:with-param name="ident">01</xsl:with-param>
-                <xsl:with-param name="msg">
-                  <xsl:text>Duplicate party affiliation for </xsl:text>
-                  <xsl:value-of select="@ref"/>
-                </xsl:with-param>
-              </xsl:call-template>
-            </xsl:if>
 
-    <!-- WARN ana correspond to organization event - it is not necesary in case of commisions -->
-    <!-- test overlapping affiliation with same role and organization -->
-    <!-- ministry and government affiliations -->
+            <!-- overlapping affiliations with same role and same organization -->
+            <xsl:variable name="aff-duplicit" select="following-sibling::tei:affiliation
+                                                        [@role=$role]
+                                                        [@ref = $ref]
+                                                        [$from=mk:get_from(.) and $to = mk:get_to(.)][1]"/>
+            <xsl:variable name="aff-day-overlap" select="following-sibling::tei:affiliation
+                                                        [@role=$role]
+                                                        [@ref = $ref]
+                                                        [not(@ana) or @ana = $ana]
+                                                        [$from=mk:get_to(.) or $to = mk:get_from(.)][1]"/>
+            <xsl:variable name="aff-cover" select="(preceding-sibling::tei:affiliation,following-sibling::tei:affiliation)
+                                                        [@role=$role]
+                                                        [@ref = $ref]
+                                                        [not(@ana) or @ana = $ana]
+                                                        [$from >= mk:get_from(.) and  mk:get_to(.) >= $to and not($from = mk:get_from(.) and $to = mk:get_to(.))][1]"/>
+            <xsl:variable name="aff-overlap" select="following-sibling::tei:affiliation
+                                                        [@role=$role]
+                                                        [@ref = $ref]
+                                                        [not(@ana) or @ana = $ana]
+                                                        [($from > mk:get_from(.) and  mk:get_to(.) > $from) or ($to > mk:get_from(.) and  mk:get_to(.) > $to)][1]"/>
+            <xsl:choose>
+              <xsl:when test="$aff-duplicit">
+                <xsl:call-template name="affiliation-error-overlap">
+                  <xsl:with-param name="ident">01</xsl:with-param>
+                  <xsl:with-param name="severity">ERROR</xsl:with-param>
+                  <xsl:with-param name="msg">is duplicated by</xsl:with-param>
+                  <xsl:with-param name="aff-overlaps" select="$aff-duplicit"/>
+                </xsl:call-template>
+              </xsl:when>
+              <xsl:when test="$aff-day-overlap"> <!-- one day overlap -->
+                <xsl:call-template name="affiliation-error-overlap">
+                  <xsl:with-param name="ident">01</xsl:with-param>
+                  <xsl:with-param name="severity">WARN</xsl:with-param>
+                  <xsl:with-param name="msg">has one day overlap with</xsl:with-param>
+                  <xsl:with-param name="aff-overlaps" select="aff-day-overlap"/>
+                </xsl:call-template>
+              </xsl:when>
+              <xsl:when test="$aff-cover"> <!-- inside other affiliation -->
+                <xsl:call-template name="affiliation-error-overlap">
+                  <xsl:with-param name="ident">01</xsl:with-param>
+                  <xsl:with-param name="severity">ERROR</xsl:with-param>
+                  <xsl:with-param name="msg">is inside</xsl:with-param>
+                  <xsl:with-param name="aff-overlaps" select="$aff-cover"/>
+                </xsl:call-template>
+              </xsl:when>
+              <xsl:when test="$aff-overlap">
+                <xsl:call-template name="affiliation-error-overlap">
+                  <xsl:with-param name="ident">01</xsl:with-param>
+                  <xsl:with-param name="severity">
+                    <xsl:choose>
+                      <xsl:when test="$role = 'member'">ERROR</xsl:when>
+                      <xsl:otherwise>WARN</xsl:otherwise>
+                    </xsl:choose>
+                  </xsl:with-param>
+                  <xsl:with-param name="msg">has multiple days overlap with</xsl:with-param>
+                  <xsl:with-param name="aff-overlaps" select="$aff-overlap"/>
+                </xsl:call-template>
+              </xsl:when>
+            </xsl:choose>
+            <!-- -->
 
             <xsl:call-template name="check-in-event">
               <xsl:with-param name="refs"><xsl:value-of select="@ana"/></xsl:with-param>
@@ -110,12 +158,6 @@
 
             <xsl:variable name="implicated-role" select="mk:affiliation-implicated-role(@role,$affWith/@role)"/>
             <xsl:if test="not($implicated-role = '')">
-              <xsl:message>DEBUG:<xsl:value-of select="$implicated-role"/>|<xsl:value-of select="$ref"/>|<xsl:value-of select="$from"/>...<xsl:value-of select="$to"/>|<xsl:apply-templates mode="serialize" select="$person/tei:affiliation[@role=$implicated-role and @ref=$ref and $from>=mk:get_from(.) and mk:get_to(.)>=$to ]"/></xsl:message>
-              <xsl:message>DEBUG:    FROM   <xsl:apply-templates mode="serialize" select="$person/tei:affiliation[@role=$implicated-role and @ref=$ref and $from>=mk:get_from(.) and mk:get_to(.)>=$from ]"/></xsl:message>
-              <xsl:message>DEBUG:    TO     <xsl:apply-templates mode="serialize" select="$person/tei:affiliation[@role=$implicated-role and @ref=$ref and $to>=mk:get_from(.) and mk:get_to(.)>=$to ]"/></xsl:message>
-              <xsl:message>DEBUG:    ??     <xsl:apply-templates mode="serialize" select="$person/tei:affiliation[@role=$implicated-role and @ref=$ref]"/></xsl:message>
-              <xsl:message>DEBUG:  all affs <xsl:apply-templates mode="serialize" select="$person/tei:affiliation[@ref=$ref]"/></xsl:message>
-
               <xsl:variable name="implicated-affiliation" select="$person/tei:affiliation[@role=$implicated-role and @ref=$ref and $from>=mk:get_from(.) and mk:get_to(.)>=$to ]"/>
               <xsl:if test="not($implicated-affiliation)">
                 <xsl:variable name="severity">
@@ -190,6 +232,8 @@
         <!-- organization without affiliation -->
         <xsl:variable name="orgId" select="@xml:id"/>
         <xsl:variable name="affCnt" select="count(./ancestor::tei:teiCorpus//tei:affiliation[@ref = concat('#',$orgId)])"/>
+        <xsl:variable name="affCnt-no-from-to"
+                      select="count(./ancestor::tei:teiCorpus//tei:affiliation[@ref = concat('#',$orgId) and not(@from) and not(@to)])"/>
 
         <xsl:call-template name="error">
           <xsl:with-param name="ident">10</xsl:with-param>
@@ -201,12 +245,32 @@
             <xsl:value-of select="$affCnt"/>
           </xsl:with-param>
         </xsl:call-template>
+
+        <xsl:if test="$affCnt > 0 and $affCnt-no-from-to > 0">
+          <xsl:call-template name="error">
+            <xsl:with-param name="ident">20</xsl:with-param>
+            <xsl:with-param name="severity">
+              <xsl:choose>
+                <xsl:when test="contains(' parliament government ', @role) and ($affCnt-no-from-to div $affCnt > 0.5)">ERROR</xsl:when> <!-- more than 50% are covering whole period -->
+                <xsl:otherwise>INFO</xsl:otherwise>
+              </xsl:choose>
+            </xsl:with-param>
+            <xsl:with-param name="msg">
+            <xsl:text>Total number of whole-corpus-period-covering affiliations with </xsl:text>
+            <xsl:value-of select="$orgId"/>
+            <xsl:text>: </xsl:text>
+            <xsl:value-of select="$affCnt-no-from-to"/>
+            <xsl:value-of select="concat(' (',format-number(100 * $affCnt-no-from-to div $affCnt,'0.00'),'%)')"/>
+            </xsl:with-param>
+          </xsl:call-template>
+        </xsl:if>
+
         <xsl:if test="$affCnt = 0">
           <xsl:call-template name="error">
             <xsl:with-param name="ident">10</xsl:with-param>
             <xsl:with-param name="severity">
               <xsl:choose>
-                <xsl:when test="mk:is-obligatory('org',./@role)">ERROR</xsl:when>
+                <xsl:when test="mk:is-obligatory('org',./@role) and @role != 'parliamentaryGroup'">ERROR</xsl:when>
                 <xsl:otherwise>WARN</xsl:otherwise>
               </xsl:choose>
             </xsl:with-param>
@@ -373,6 +437,40 @@
     </xsl:call-template>
   </xsl:template>
 
+  <xsl:template name="affiliation-error-overlap">
+    <xsl:param name="msg">???</xsl:param>
+    <xsl:param name="severity">ERROR</xsl:param>
+    <xsl:param name="ident">??</xsl:param>
+    <xsl:param name="aff-overlaps"/>
+    <xsl:variable name="personId" select="./parent::tei:person/@xml:id"/>
+    <xsl:call-template name="error">
+      <xsl:with-param name="severity">
+        <xsl:value-of select="$severity"/>
+      </xsl:with-param>
+      <xsl:with-param name="ident">
+        <xsl:value-of select="$ident"/>
+      </xsl:with-param>
+      <xsl:with-param name="msg">
+        <xsl:text>affiliation collision: (</xsl:text>
+        <xsl:value-of select="mk:get_from(.)"/>
+        <xsl:text> --- </xsl:text>
+        <xsl:value-of select="mk:get_to(.)"/>
+        <xsl:text>) </xsl:text>
+        <xsl:value-of select="$msg"/>
+        <xsl:text> (</xsl:text>
+        <xsl:value-of select="mk:get_from($aff-overlaps)"/>
+        <xsl:text> --- </xsl:text>
+        <xsl:value-of select="mk:get_to($aff-overlaps)"/>
+        <xsl:text>) affiliation (line:</xsl:text>
+        <xsl:value-of select="$aff-overlaps/@LINE"/>
+        <xsl:text>) </xsl:text>
+        <xsl:value-of select="@role"/>
+        <xsl:text>-</xsl:text>
+        <xsl:value-of select="@ref"/>
+      </xsl:with-param>
+    </xsl:call-template>
+  </xsl:template>
+
 
   <xsl:template name="error">
     <xsl:param name="msg">???</xsl:param>
@@ -434,7 +532,7 @@
       <xsl:when test="contains(' MP primeMinister chairman viceChairman ', $role)">14:ERROR)not allowed in any context</xsl:when>
       <xsl:when test="$orgrole = 'parliament' and contains(' minister ', mk:borders($role))">15:ERROR)invalid affiliation role with parliament organization</xsl:when>
       <xsl:when test="$orgrole = 'parliament' and not(contains(' head member deputyHead ', mk:borders($role)))">15:WARN)unexpected affiliation role with parliament organization</xsl:when>
-      <xsl:when test="$orgrole = 'government' and not(contains(' head member deputyHead minister ', mk:borders($role)))">16:WARN)unexpected affiliation role with government organization</xsl:when>
+      <xsl:when test="$orgrole = 'government' and not(contains(' head member deputyHead minister deputyMinister ', mk:borders($role)))">16:WARN)unexpected affiliation role with government organization</xsl:when>
       <xsl:when test="$orgrole = 'parliamentaryGroup' and not(contains(' head deputyHead member ', mk:borders($role)))">17:WARN)unexpected affiliation role with parliamentary group organization</xsl:when>
       <xsl:otherwise>PASS</xsl:otherwise>
     </xsl:choose>
@@ -495,7 +593,9 @@
     <xsl:choose>
       <xsl:when test="$node/@from"><xsl:value-of select="$node/@from"/></xsl:when>
       <xsl:when test="$node/@when"><xsl:value-of select="$node/@from"/></xsl:when>
-      <xsl:when test="$node and not($node/parent::tei:bibl/parent::tei:sourceDesc/parent::tei:fileDesc)">
+      <xsl:when test="$node
+                       and $node/ancestor::tei:teiHeader//tei:sourceDesc/tei:bibl[1]/tei:date
+                       and not($node/parent::tei:bibl/parent::tei:sourceDesc/parent::tei:fileDesc)">
         <xsl:value-of select="mk:get_from($node/ancestor::tei:teiHeader//tei:sourceDesc/tei:bibl[1]/tei:date)"/>
       </xsl:when>
       <xsl:otherwise>1500-01-01</xsl:otherwise>
@@ -507,7 +607,9 @@
     <xsl:choose>
       <xsl:when test="$node/@to"><xsl:value-of select="$node/@to"/></xsl:when>
       <xsl:when test="$node/@when"><xsl:value-of select="$node/@to"/></xsl:when>
-      <xsl:when test="$node and not($node/parent::tei:bibl/parent::tei:sourceDesc/parent::tei:fileDesc)">
+      <xsl:when test="$node
+                       and $node/ancestor::tei:teiHeader//tei:sourceDesc/tei:bibl[1]/tei:date
+                       and not($node/parent::tei:bibl/parent::tei:sourceDesc/parent::tei:fileDesc)">
         <xsl:value-of select="mk:get_to($node/ancestor::tei:teiHeader//tei:sourceDesc/tei:bibl[1]/tei:date)"/>
       </xsl:when>
       <xsl:otherwise><xsl:value-of select="$node/ancestor::tei:teiHeader//tei:publicationStmt/tei:date/@when"/></xsl:otherwise>
