@@ -140,7 +140,29 @@
     </xsl:copy>
   </xsl:template>
 
-  <xsl:template match="tei:affiliation[@ref and not($country = 'LV' and @role='MP') and not($country = 'NL' and @role='MP') and not($country = 'IS' and matches(@ref,'^#GOV_LV.[0-9]*$'))]">
+  <xsl:template match="tei:affiliation[$country = 'IT' and matches(@ref,'^#GOV\.[A-Z]*\.[0-9]*$')]">
+    <xsl:variable name="ref" select="@ref"/>
+    <xsl:variable name="role" select="mk:affiliation-role-patch(@role,'government')"/>
+    <xsl:variable name="implicated-role" select="mk:affiliation-implicated-role($role,'government')"/>
+    <xsl:copy>
+      <xsl:apply-templates select="@role"/>
+      <xsl:attribute name="ref">#GOV</xsl:attribute>
+      <xsl:apply-templates select="@from"/>
+      <xsl:apply-templates select="@to"/>
+      <xsl:attribute name="ana" select="@ref"/>
+      <xsl:call-template name="affiliation-roleName"><xsl:with-param name="newRole" select="$role"/><xsl:with-param name="orgRole" select="'government'"/></xsl:call-template>
+    </xsl:copy>
+    <xsl:copy>
+      <xsl:attribute name="role" select="$implicated-role"/>
+      <xsl:attribute name="ref">#GOV</xsl:attribute>
+      <xsl:apply-templates select="@from"/>
+      <xsl:apply-templates select="@to"/>
+      <xsl:attribute name="ana" select="@ref"/>
+      <xsl:call-template name="affiliation-roleName"><xsl:with-param name="newRole" select="$implicated-role"/><xsl:with-param name="orgRole" select="'government'"/></xsl:call-template>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="tei:affiliation[@ref and not($country = 'LV' and @role='MP') and not($country = 'NL' and @role='MP') and not($country = 'IS' and matches(@ref,'^#GOV_LV.[0-9]*$')) and not($country = 'IT' and matches(@ref,'^#GOV\.[A-Z]*\.[0-9]*$'))]">
     <xsl:variable name="ref" select="@ref"/>
     <xsl:variable name="orgRole" select="./ancestor::tei:particDesc/tei:listOrg/tei:org[@xml:id=substring-after($ref,'#')]/@role"/>
     <xsl:variable name="role" select="mk:affiliation-role-patch(@role,$orgRole)"/>
