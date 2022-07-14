@@ -212,7 +212,7 @@
 
   <xsl:template match="@role[./parent::tei:affiliation]" priority="1">
     <xsl:variable name="ref" select="./parent::tei:affiliation/@ref"/>
-    <xsl:variable name="orgRole" select="./ancestor::tei:particDesc/tei:listOrg/tei:org[@xml:id=substring-after($ref,'#')]/@role"/>
+    <xsl:variable name="orgRole" select="./ancestor::tei:particDesc/tei:listOrg/tei:org[.//@xml:id=substring-after($ref,'#')]/@role"/> <!-- use organization id or any descendatn(usually event) -->
     <xsl:variable name="role" select="mk:affiliation-role-patch(.,$orgRole)"/>
     <xsl:attribute name="role">
       <xsl:choose>
