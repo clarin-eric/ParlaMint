@@ -45,11 +45,12 @@
   </define>
 
   <define name="ner">
-    <a:documentation>NER-like elements, used by CZ</a:documentation>
+    <a:documentation>NER elements</a:documentation>
     <choice>
       <a:documentation>Standard name element</a:documentation>
       <element name="name">
 	<ref name="global.atts"/>
+	<ref name="ref.att"/>
 	<optional>
 	  <attribute name="ana">
 	    <data type="anyURI"/>
@@ -72,6 +73,7 @@
 	</optional>
 	<ref name="ner_tokens"/>
       </element>
+      <a:documentation>Additional content used by CZ</a:documentation>
       <element name="date">
 	<ref name="ner.atts"/>
 	<optional>
