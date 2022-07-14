@@ -142,14 +142,18 @@ orgName =
   }
 listEvent = element listEvent { head*, event+ }
 
-## Currently used to link political parties in -si: 3 relations.
+## Used to specify relations between politicalParties and/or parliamentaryGroups.
 listRelation =
   element listRelation {
     element relation {
       ana.att?,
       temporal.atts?,
       attribute name {
-        "coalition" | "opposition" | "renaming" | "successor"
+        "coalition"
+        | "opposition"
+        | "renaming"
+        | "successor"
+        | "representing"
       },
       (attribute mutual { anyURIs }
        | (attribute active { anyURIs },
@@ -165,7 +169,7 @@ person =
     ##	or, rather, scripts. Used by bg.
     (persName+),
     (element sex {
-       attribute value { "M" | "F" | "U" },
+       attribute value { "M" | "F" | "U" | "O" | "N" },
        empty
      }?
      & element birth { life-event.content }?
