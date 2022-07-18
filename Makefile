@@ -484,16 +484,16 @@ $(DEV-data-XX-fix-XX): DEV-data-XX-fix-%: % DEV-data-XX-reset-data-%
 
 ## Generate TSV files for minister affiliations on the basis of the root files.
 generate-ministers:
-	$s outDir=Data/Metadata -xsl:Scripts/ministers-tei2tsv.xsl Data/ParlaMint.xml
+	$s outDir=${DATADIR}/Metadata -xsl:Scripts/ministers-tei2tsv.xsl ${DATADIR}/ParlaMint.xml
 
-## Insert minister affiliations from TSV file into a root file.
+## Test of inserting minister affiliations from TSV file into a root file.
 MC = SI
 insert-ministries-test:
 	$s tsv=../Data/Metadata/ParlaMint_ministers-${MC}.tsv -xsl:Scripts/ministers-tsv2tei.xsl \
-	Data/ParlaMint-${MC}/ParlaMint-${MC}.xml > Scripts/tmp/ParlaMint-${MC}.xml
-	-diff -b Data/ParlaMint-${MC}/ParlaMint-${MC}.xml Scripts/tmp/ParlaMint-${MC}.xml
+	${DATADIR}/ParlaMint-${MC}/ParlaMint-${MC}.xml > Scripts/tmp/ParlaMint-${MC}.xml
+	-diff -b ${DATADIR}/ParlaMint-${MC}/ParlaMint-${MC}.xml Scripts/tmp/ParlaMint-${MC}.xml
 	${vrt} Scripts/tmp/ParlaMint-${MC}.xml
-	${vlink} Scripts/tmp/ParlaMint-${MC}.xml
+	${s} ${vlink} Scripts/tmp/ParlaMint-${MC}.xml
 
 ######################VARIABLES
 s = java -jar /usr/share/java/saxon.jar

@@ -37,8 +37,8 @@
 	      <xsl:variable name="role" select="regex-group(3)"/>
 	      <xsl:variable name="from" select="regex-group(4)"/>
 	      <xsl:variable name="to" select="regex-group(5)"/>
-	      <xsl:variable name="ref" select="regex-group(6)"/>
-	      <xsl:variable name="ana" select="regex-group(7)"/>
+	      <xsl:variable name="government" select="regex-group(6)"/>
+	      <xsl:variable name="ministry" select="regex-group(7)"/>
 	      
 	      <xsl:if test = '$country != $corpusCountry'>
 		<xsl:message terminate="yes"
@@ -60,18 +60,37 @@
 	      <person xml:id="{$personID}">
 		<affiliation role="minister">
 		  <!-- Re-insert # in references to IDs for affiliation/@ref -->
-		  <xsl:if test="normalize-space($ref) and $ref != '-'">
-		    <xsl:attribute name="ref" select="concat('#', $ref)"/>
-		  </xsl:if>
 		  <xsl:if test="normalize-space($from) and $from != '-'">
 		    <xsl:attribute name="from" select="$from"/>
 		  </xsl:if>
 		  <xsl:if test="normalize-space($to) and $to != '-'">
 		    <xsl:attribute name="to" select="$to"/>
 		  </xsl:if>
-		  <!-- Re-insert # in references to IDs for affiliation/@ana -->
-		  <xsl:if test="normalize-space($ana) and $ana != '-'">
-		    <xsl:attribute name="ana" select="concat('#', replace($ana, ' ', ' #'))"/>
+		  <xsl:if test="normalize-space($government) and $government != '-'">
+		    <xsl:attribute name="ref">
+		      <xsl:variable name="org" select="key('id', $government, $profileDesc)/
+						       ancestor::tei:org/@xml:id"/>
+		      <xsl:if test = "not(normalize-space($org))">
+			<xsl:message terminate="yes"
+				     select="concat('FATAL: Cant find government organisation for term ', 
+					     $government, 
+					     '! TSV is:&#10;', .)"/>
+		      </xsl:if>
+		      <xsl:value-of select="concat('#', $org)"/>
+		    </xsl:attribute>
+		  </xsl:if>
+		  <xsl:if test="(normalize-space($government) and $government != '-') or
+				(normalize-space($ministry) and $ministry != '-')">
+		    <xsl:variable name="ana">
+		      <xsl:if test="normalize-space($government) and $government != '-'">
+			<xsl:value-of select="concat('#', replace($government, ' ', ' #'))"/>
+		      </xsl:if>
+		      <xsl:text>&#32;</xsl:text>
+		      <xsl:if test="normalize-space($ministry) and $ministry != '-'">
+			<xsl:value-of select="concat('#', replace($ministry, ' ', ' #'))"/>
+		      </xsl:if>
+		    </xsl:variable>
+		    <xsl:attribute name="ana" select="normalize-space($ana)"/>
 		  </xsl:if>
 		</affiliation>
 	      </person>
