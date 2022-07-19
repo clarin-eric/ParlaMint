@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- Dump all ministers as TSV file -->
+<!-- Dump all ministers in a corpus as TSV file -->
 <xsl:stylesheet 
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -9,7 +9,7 @@
   exclude-result-prefixes="#all"
   version="2.0">
 
-  <!-- Where the corpora can be found (relative to the location of this script). -->
+  <!-- Where the corpora can be found (if relative then to the location of this script). -->
   <xsl:param name="path">../Data</xsl:param>
   <!-- Directory where the output TSV files are written to -->
   <xsl:param name="outDir">../Data/Metadata</xsl:param>
@@ -28,7 +28,7 @@
 					   'ParlaMint_ministers-', $country, '.tsv')"/>
       <xsl:message select="concat('INFO: Creating ', $outFile)"/>
       <xsl:result-document href="{$outFile}" method="text">
-	<xsl:text>Country&#9;PersonID&#9;Role&#9;From&#9;To&#9;Ref.&#9;Ana.&#10;</xsl:text>
+	<xsl:text>Country&#9;PersonID&#9;Role&#9;From&#9;To&#9;Gov.&#9;Ministry&#9;Comment&#10;</xsl:text>
 	<xsl:variable name="content">
 	  <xsl:apply-templates select="document($href)//tei:listPerson/tei:person/
 				       tei:affiliation[@role = 'minister']">
@@ -42,7 +42,7 @@
 	  <xsl:otherwise>
 	    <xsl:for-each select="1 to $maxLines">
 	      <xsl:value-of select="concat($country, '&#9;', '-', '&#9;', 'minister', '&#9;', 
-		'-', '&#9;', '-', '&#9;', '-', '&#10;')"/>
+		'-', '&#9;', '-', '&#9;', '-', '&#9;', '-', '&#9;', '-', '&#10;')"/>
 	    </xsl:for-each>
 	  </xsl:otherwise>
 	</xsl:choose>
@@ -85,6 +85,8 @@
       </xsl:when>
       <xsl:otherwise>-</xsl:otherwise>
     </xsl:choose>
+    <xsl:text>&#9;</xsl:text>
+    <xsl:text>-</xsl:text>
     <xsl:text>&#10;</xsl:text>
   </xsl:template>
 </xsl:stylesheet>

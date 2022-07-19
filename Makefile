@@ -485,6 +485,8 @@ $(DEV-data-XX-fix-XX): DEV-data-XX-fix-%: % DEV-data-XX-reset-data-%
 ## Generate TSV files for minister affiliations on the basis of the root files.
 generate-ministers:
 	$s outDir=${DATADIR}/Metadata -xsl:Scripts/ministers-tei2tsv.xsl ${DATADIR}/ParlaMint.xml
+	#For testing:
+	#$s outDir=Scripts/tmp/ -xsl:Scripts/ministers-tei2tsv.xsl ${DATADIR}/ParlaMint.xml
 
 ## Test of inserting minister affiliations from TSV file into a root file.
 MC = IS
