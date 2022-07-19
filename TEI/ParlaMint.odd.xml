@@ -25,7 +25,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>CLARIN</publisher>
-        <date>2022-07-12</date>
+        <date>2022-07-19</date>
         <availability status="free">
           <p>This file is freely available and you are hereby authorised to copy, modify, and
           redistribute it in any way without further reference or permissions.</p>
@@ -48,7 +48,7 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
-      <change when="2022-07-07">Tomaž Erjavec: many changes to (explanations of) structure.</change>
+      <change when="2022-07-19">Tomaž Erjavec: many changes to (explanations of) structure.</change>
       <change when="2022-05-18">Katja Meden: add ParlaMint examples in exemplums.</change>
       <change when="2022-05-16">Tomaž Erjavec: add section 3.5 on referring attributes.</change>
       <change when="2022-03-04">Matyáš Kopp: finish first pass through schemaSpecs.</change>
@@ -65,7 +65,7 @@
           corpora</ref></titlePart>
         </docTitle>
         <!--docEdition>v0.3</docEdition-->
-        <docDate>2022-07-12</docDate>
+        <docDate>2022-07-19</docDate>
         <!--byline>Tomaž Erjavec and Matyáš Kopp</byline-->
       </titlePage>
       <p></p>
@@ -334,7 +334,7 @@
 	    e.g. <code>ParlaMint-NL.xml</code> or <code>ParlaMint-ES-CT</code>.</item>
 	    
 	    <item>For special cases, such as a corpus that has been (machine-)translated
-	    to a language different from the original language of the transcriptions, we
+	    to a language different from the local language, we
 	    also require the code of the language to follow the country code,
 	    e.g. <code>ParlaMint-NL-en.xml</code>.
 	    </item>
@@ -431,7 +431,7 @@
 	    <item><att>xml:lang</att> is also a global attribute and gives the language
 	    code of the text content of the element; for the corpus root this does not
 	    (just) mean the content of its TEI header, but primarily the textual content
-	    of its XIncluded components.. The convention is that language of the text
+	    of its XIncluded components. The convention is that language of the text
 	    content of an element is determined by the value of the first
 	    <att>xml:lang</att> attribute on its ancestor axis. In cases where the content
 	    is multilingual, the language code should be of the majority language. When
@@ -1590,7 +1590,7 @@
 		<list>
 		  
 		  <item><val>member</val> specifies that a person is a member of the
-		  organisation.</item>
+		  organisation</item>
 		  
 		  <item><val>head</val> is used for the lead person in an
 		  organisaion, regardless of how this role is named in the specific
@@ -1609,9 +1609,9 @@
 		</p>
 
 		<p>Because the roles are quite generic, ParlaMint also allows to specify
-		the exact name of a role for an organisation in a particular country or
-		region using the <gi>roleName</gi> element, preferably both in the object
-		language of the corpus, as well as in English, as illustrated in the
+		the exact name of the affiliation role for a particular country or
+		region using the <gi>roleName</gi> element, preferably both in the 
+		local language, as well as in English, as illustrated in the
 		following example:
 		
 		<egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-roleName">
@@ -1623,10 +1623,11 @@
 		</p>
 		
 		<p>An important point to note is that ParlaMint makes no assumptions on
-		the interconnection between various roles, e.g. we do not assue that if
-		somebody has a minister role in the government organisatoin that they are
+		the interconnection between various roles, e.g. we do not assume that if
+		somebody has a minister role in the government that they are
 		also a member of the government. Therefore it is necessary to specify all
-		the desired affiliations with their particular roles.</p>
+		the desired affiliations with their particular roles, e.g. both as
+		<val>minister</val> and as <val>member</val>.</p>
 	      </div>
             </div>
 	  </div>
@@ -1637,8 +1638,8 @@
 	    <p>The language usage, <gi>langUsage</gi> is the fourth and last element of the
 	    profile description of a corpus root and defines the languages that are used in
 	    the corpus. Typically the language use will define (bilingually) only two
-	    languages, the local language (.e. the language of the transcription) and
-	    English, as the language used in the metadata, for example:
+	    languages, the local language and English, as the language used in the metadata,
+	    for example:
 	    
 	    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-langUsage">
               <langUsage>
