@@ -28,7 +28,7 @@
 					   'ParlaMint_ministers-', $country, '.tsv')"/>
       <xsl:message select="concat('INFO: Creating ', $outFile)"/>
       <xsl:result-document href="{$outFile}" method="text">
-	<xsl:text>Country&#9;PersonID&#9;Role&#9;From&#9;To&#9;Gov.&#9;Ministry&#9;Comment&#10;</xsl:text>
+	<xsl:text>Country&#9;PersonID&#9;Role&#9;From&#9;To&#9;Gov.&#9;Ministry&#9;Name-xx&#9;Name-en&#9;Comment&#10;</xsl:text>
 	<xsl:variable name="content">
 	  <xsl:apply-templates select="document($href)//tei:listPerson/tei:person/
 				       tei:affiliation[@role = 'minister']">
@@ -42,7 +42,7 @@
 	  <xsl:otherwise>
 	    <xsl:for-each select="1 to $maxLines">
 	      <xsl:value-of select="concat($country, '&#9;', '-', '&#9;', 'minister', '&#9;', 
-		'-', '&#9;', '-', '&#9;', '-', '&#9;', '-', '&#9;', '-', '&#10;')"/>
+		'-', '&#9;', '-', '&#9;', '-', '&#9;', '-', '&#9;', '-', '&#9;', '-', '&#9;', '-', '&#10;')"/>
 	    </xsl:for-each>
 	  </xsl:otherwise>
 	</xsl:choose>
@@ -52,12 +52,16 @@
     
   <xsl:template match="tei:affiliation[@role = 'minister']">
     <xsl:param name="country"/>
+    <!-- Country / Region -->
     <xsl:value-of select="$country"/>
     <xsl:text>&#9;</xsl:text>
+    <!-- Person ID -->
     <xsl:value-of select="ancestor::tei:person/@xml:id"/>
     <xsl:text>&#9;</xsl:text>
+    <!-- Affiliation role, fixed to minister -->
     <xsl:text>minister</xsl:text>
     <xsl:text>&#9;</xsl:text>
+    <!-- From date -->
     <xsl:choose>
       <xsl:when test="@from">
 	<xsl:value-of select="@from"/>
@@ -65,6 +69,7 @@
       <xsl:otherwise>-</xsl:otherwise>
     </xsl:choose>
     <xsl:text>&#9;</xsl:text>
+    <!-- To date -->
     <xsl:choose>
       <xsl:when test="@to">
 	<xsl:value-of select="@to"/>
@@ -72,6 +77,7 @@
       <xsl:otherwise>-</xsl:otherwise>
     </xsl:choose>
     <xsl:text>&#9;</xsl:text>
+    <!-- Government term, CURRENTLY THE OLD WAY! -->
     <xsl:choose>
       <xsl:when test="@ref">
 	<xsl:value-of select="replace(@ref, '#', '')"/>
@@ -79,12 +85,31 @@
       <xsl:otherwise>-</xsl:otherwise>
     </xsl:choose>
     <xsl:text>&#9;</xsl:text>
+    <!-- Ministry ID -->
     <xsl:choose>
       <xsl:when test="@ana">
 	<xsl:value-of select="replace(@ana, '#', '')"/>
       </xsl:when>
       <xsl:otherwise>-</xsl:otherwise>
     </xsl:choose>
+    <xsl:text>&#9;</xsl:text>
+    <!-- Minister free text in local language, THE OLD WAY! -->
+    <xsl:variable name="lang" select="ancestor::tei:teiCorpus/@xml:lang"/>
+    <xsl:choose>
+      <xsl:when test="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = $lang and normalize-space(.)">
+	<xsl:value-of select="normalize-space(.)"/>
+      </xsl:when>
+      <xsl:otherwise>-</xsl:otherwise>
+    </xsl:choose>
+    <xsl:text>&#9;</xsl:text>
+    <!-- Minister free text in English -->
+    <xsl:choose>
+      <xsl:when test="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'en' and normalize-space(.)">
+	<xsl:value-of select="normalize-space(.)"/>
+      </xsl:when>
+      <xsl:otherwise>-</xsl:otherwise>
+    </xsl:choose>
+    <!-- Comment -->
     <xsl:text>&#9;</xsl:text>
     <xsl:text>-</xsl:text>
     <xsl:text>&#10;</xsl:text>
