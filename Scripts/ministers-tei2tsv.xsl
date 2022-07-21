@@ -14,6 +14,7 @@
   <!-- Directory where the output TSV files are written to -->
   <xsl:param name="outDir">../Data/Metadata</xsl:param>
   <!-- How many template lines to output for corpora without any ministers -->
+  <xsl:param name="outFilePrefix">ParlaMint_ministers-</xsl:param>
   <xsl:param name="maxLines">1</xsl:param>
 
   <xsl:template match="text()"/>
@@ -25,7 +26,7 @@
 					   '.+ParlaMint-([A-Z]{2}(-[A-Z0-9]{1,3})?).*', 
 					   '$1')"/>
       <xsl:variable name="outFile" select="concat($outDir, '/', 
-					   'ParlaMint_ministers-', $country, '.tsv')"/>
+					   $outFilePrefix, $country, '.tsv')"/>
       <xsl:message select="concat('INFO: Creating ', $outFile)"/>
       <xsl:result-document href="{$outFile}" method="text">
 	<xsl:text>Country&#9;PersonID&#9;Role&#9;From&#9;To&#9;Ref.&#9;Ana.&#10;</xsl:text>
