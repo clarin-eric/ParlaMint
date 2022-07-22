@@ -30,9 +30,7 @@
       <xsl:result-document href="{$outFile}" method="text">
 	<xsl:text>Country&#9;orgID&#9;orgType&#9;Name-en&#9;Name-xx&#9;From&#9;To&#9;Orientation&#9;Comment&#10;</xsl:text>
 	<xsl:apply-templates select="document($href)//tei:particDesc//tei:org
-				       [@role = 'parliamentaryGroup' or @role = 'politicalParty'
-				       or contains(@role, 'political')]">
-	  <!-- Previous line: to catch party roles! -->
+				       [@role = 'parliamentaryGroup' or @role = 'politicalParty']">
 	  <xsl:with-param name="country" select="$country"/>
 	</xsl:apply-templates>
       </xsl:result-document>

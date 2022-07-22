@@ -484,8 +484,8 @@ $(DEV-data-XX-fix-XX): DEV-data-XX-fix-%: % DEV-data-XX-reset-data-%
 
 ## Generate TSV files for party orientation on the basis of the corpus root files.
 generate-orientation:
-	$s outDir=Data/Metadata -xsl:Scripts/orientation-tei2tsv.xsl ${DATADIR}/ParlaMint.xml \
-	2> Data/Metadata/ParlaMint_orientations.log
+	$s path=../${DATADIR} outDir=Data/Metadata -xsl:Scripts/orientation-tei2tsv.xsl \
+	${DATADIR}/ParlaMint.xml 2> Data/Metadata/ParlaMint_orientations.log
 
 ## Generate TSV files for minister affiliations on the basis of the corpus root files.
 generate-ministers:
