@@ -11,12 +11,16 @@
   exclude-result-prefixes="et mk fn xs tei saxon">
 
 
-  <xsl:template match="tei:affiliation[not(@ref) or ($country = 'LV' and @role='MP') or ($country = 'NL' and @role='MP')]">
+  <xsl:template match="tei:affiliation[not(@ref) or 
+		       ($country = 'LV' and @role='MP') or ($country = 'NL' and @role='MP')]">
     <xsl:choose>
       <xsl:when test="@role='member' and not(text())">
         <xsl:call-template name="error">
           <xsl:with-param name="severity">INFO</xsl:with-param>
-          <xsl:with-param name="msg"><xsl:text>removing senseless affiliation (missing ref and text): </xsl:text> <xsl:apply-templates select="." mode="serialize"/></xsl:with-param>
+          <xsl:with-param name="msg">
+	    <xsl:text>removing senseless affiliation (missing ref and text): </xsl:text>
+	    <xsl:apply-templates select="." mode="serialize"/>
+	  </xsl:with-param>
         </xsl:call-template>
       </xsl:when>
       <xsl:when test="$country = 'BG' and text()='депутат'">
@@ -25,12 +29,23 @@
           <xsl:apply-templates select="@*[not(name()='role')]"/>
           <xsl:attribute name="role"><xsl:value-of select="$role"/></xsl:attribute>
           <xsl:attribute name="ref">#NS</xsl:attribute>
-          <xsl:call-template name="affiliation-ana"><xsl:with-param name="ref" select="'#NS'"/></xsl:call-template>
-          <xsl:call-template name="affiliation-roleName"><xsl:with-param name="newRole" select="$role"/><xsl:with-param name="orgRole" select="'parliament'"/></xsl:call-template>
+          <xsl:call-template name="affiliation-ana">
+	    <xsl:with-param name="ref" select="'#NS'"/>
+	  </xsl:call-template>
+          <xsl:call-template name="affiliation-roleName">
+	    <xsl:with-param name="newRole" select="$role"/>
+	    <xsl:with-param name="orgRole" select="'parliament'"/>
+	  </xsl:call-template>
         </xsl:copy>
         <xsl:call-template name="error">
           <xsl:with-param name="severity">INFO</xsl:with-param>
-          <xsl:with-param name="msg">adding @ref='#NS' and removing text from <xsl:value-of select="@role"/> (<xsl:value-of select="text()"/>) affiliation</xsl:with-param>
+          <xsl:with-param name="msg">
+	    <xsl:text>adding @ref='#NS' and removing text from </xsl:text>
+	    <xsl:value-of select="@role"/>
+	    <xsl:text> (</xsl:text>
+	    <xsl:value-of select="text()"/>
+	    <xsl:text>) affiliation</xsl:text>
+	  </xsl:with-param>
         </xsl:call-template>
       </xsl:when>
       <xsl:when test="$country = 'BG' and @role='primeMinister' and text()='Министър-председател'">
@@ -39,24 +54,42 @@
           <xsl:apply-templates select="@*[not(name()='role')]"/>
           <xsl:attribute name="role"><xsl:value-of select="$role"/></xsl:attribute>
           <xsl:attribute name="ref">#gov.IzvSv</xsl:attribute>
-          <xsl:call-template name="affiliation-ana"><xsl:with-param name="ref" select="'#gov.IzvSv'"/></xsl:call-template>
-          <xsl:call-template name="affiliation-roleName"><xsl:with-param name="newRole" select="$role"/><xsl:with-param name="orgRole" select="'government'"/></xsl:call-template>
+          <xsl:call-template name="affiliation-ana">
+	    <xsl:with-param name="ref" select="'#gov.IzvSv'"/>
+	  </xsl:call-template>
+          <xsl:call-template name="affiliation-roleName">
+	    <xsl:with-param name="newRole" select="$role"/>
+	    <xsl:with-param name="orgRole" select="'government'"/>
+	  </xsl:call-template>
         </xsl:copy>
         <xsl:call-template name="error">
           <xsl:with-param name="severity">INFO</xsl:with-param>
-          <xsl:with-param name="msg"> adding @ref='#gov.IzvSv' and removing text from <xsl:value-of select="@role"/> (<xsl:value-of select="text()"/>) affiliation</xsl:with-param>
+          <xsl:with-param name="msg">
+	    <xsl:text> adding @ref='#gov.IzvSv' and removing text from </xsl:text>
+	    <xsl:value-of select="@role"/>
+	    <xsl:text> (</xsl:text>
+	    <xsl:value-of select="text()"/>
+	    <xsl:text>) affiliation</xsl:text>
+	  </xsl:with-param>
         </xsl:call-template>
       </xsl:when>
       <xsl:otherwise>
         <xsl:variable name="orgRole" select="mk:person_role_to_org_role(./@role)"/>
-        <xsl:variable name="org" select="./ancestor::tei:particDesc/tei:listOrg/tei:org[@role=$orgRole and @xml:id]"/>
+        <xsl:variable name="org" select="./ancestor::tei:particDesc/tei:listOrg/
+					 tei:org[@role=$orgRole and @xml:id]"/>
         <xsl:choose>
           <xsl:when test="$orgRole=''">
             <xsl:call-template name="error">
               <xsl:with-param name="severity">ERROR</xsl:with-param>
-              <xsl:with-param name="msg"><xsl:value-of select="./@role"/> does not have implicit organization - impossible to determine correct affiliation</xsl:with-param>
+              <xsl:with-param name="msg">
+	        <xsl:value-of select="./@role"/>
+	        <xsl:text> does not have implicit organization - impossible to determine correct affiliation</xsl:text>
+	      </xsl:with-param>
             </xsl:call-template>
-            <xsl:comment>removing affiliation - unable to determine @ref: <xsl:apply-templates select="." mode="serialize"/></xsl:comment>
+            <xsl:comment>
+	      <xsl:text>removing affiliation - unable to determine @ref: </xsl:text>
+	      <xsl:apply-templates select="." mode="serialize"/>
+	    </xsl:comment>
           </xsl:when>
           <xsl:when test="count($org) = 1">
             <xsl:variable name="role" select="mk:affiliation-role-patch(@role,$org/@role)"/>
@@ -262,7 +295,8 @@
   <xsl:template match="@role[./parent::tei:org]" priority="1">
     <xsl:attribute name="role">
       <xsl:choose>
-        <xsl:when test="($country = 'GB' or $country = 'NL' or $country = 'PL') and . = 'politicalParty'"><!-- do  not fix bicameral with both houses -->
+	<!-- do not fix bicameral with both houses -->
+        <xsl:when test="($country = 'GB' or $country = 'NL' or $country = 'PL') and . = 'politicalParty'">
           <xsl:value-of select="."/>
         </xsl:when>
         <xsl:when test="not($country = 'CZ') and . = 'politicalParty'">parliamentaryGroup</xsl:when>
