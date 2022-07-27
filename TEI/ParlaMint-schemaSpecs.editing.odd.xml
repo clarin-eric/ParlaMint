@@ -1482,7 +1482,7 @@
   <elementSpec ident="respStmt" module="core" mode="change">
     <desc versionDate="2011-11-16" xml:lang="en">supplies a statement of responsibility for the intellectual content of a text, edition,
     recording, or series, where the specialized elements for authors, editors, etc. do not suffice
-    or do not apply. May also be used to encode information about individuals or organizations 
+    or do not apply. May also be used to encode information about individuals or organisations 
     which have played a role in the production or distribution of a bibliographic work.</desc>
     <content>
       <elementRef key="persName" minOccurs="1" maxOccurs="unbounded"/>
@@ -1684,7 +1684,7 @@
     </exemplum>
   </elementSpec>
   <elementSpec ident="resp" module="core" mode="change">
-    <desc versionDate="2011-11-16" xml:lang="en">contains a phrase describing the nature of a person's intellectual responsibility, or an organization's role 
+    <desc versionDate="2011-11-16" xml:lang="en">contains a phrase describing the nature of a person's intellectual responsibility, or an organisation's role 
     in the production or distribution of a work.</desc>
     <content>
       <textNode/>
@@ -1705,7 +1705,7 @@
   <elementSpec ident="funder" module="header" mode="change">
     <desc
         versionDate="2005-01-14"
-        xml:lang="en">specifies the name of an individual, institution, or organization responsible for the
+        xml:lang="en">specifies the name of an individual, institution, or organisation responsible for the
     funding of a project or text.</desc>
     <content>
       <elementRef key="orgName" minOccurs="1" maxOccurs="unbounded"/>
@@ -1723,7 +1723,7 @@
   <elementSpec ident="orgName" module="namesdates" mode="change">
     <desc
         versionDate="2005-01-14"
-        xml:lang="en">contains an organizational name.</desc>
+        xml:lang="en">contains an organisational name.</desc>
     <content>
       <textNode/>
     </content>
@@ -1884,7 +1884,7 @@
     </exemplum>
   </elementSpec>
   <elementSpec ident="publisher" module="core" mode="change">
-    <desc versionDate="2005-01-14" xml:lang="en">provides the name of the organization responsible for the publication or distribution of a
+    <desc versionDate="2005-01-14" xml:lang="en">provides the name of the organisation responsible for the publication or distribution of a
     bibliographic item.</desc>
     <content>
       <alternate minOccurs="1" maxOccurs="1">
@@ -1911,7 +1911,7 @@
     <desc
         versionDate="2010-04-30"
         xml:lang="en">supplies any form of identifier used to identify some object,
-    such as a bibliographic item, a person, a title, an organization,
+    such as a bibliographic item, a person, a title, an organisation,
     etc. in a standardized way.</desc>
     <content>
       <textNode/>
@@ -2747,9 +2747,9 @@
     </attList>
     <exemplum xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-        <category xml:id="parla.organization">
+        <category xml:id="parla.organisation">
           <catDesc xml:lang="en">
-            <term>Organization</term>
+            <term>Organisation</term>
           </catDesc>
           <catDesc xml:lang="bg">
             <term>Организация</term>
@@ -2902,7 +2902,7 @@
       <pm:attPreserve ident="xml:lang"/>
     </attList>
     <exemplum xml:lang="en">
-      <p>Labels denote the existence of organizations and connected events:</p>
+      <p>Labels denote the existence of organisations and connected events:</p>
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
 	<org xml:id="DZ" role="parliament" ana="#parla.national #parla.lower">
           <orgName xml:lang="sl" full="yes">Državni zbor Republike Slovenije</orgName>
@@ -3175,7 +3175,7 @@
     <desc
         versionDate="2008-04-29"
         xml:lang="en">contains a list of elements, each of which provides information about an identifiable
-    organization.</desc>
+    organisation.</desc>
     <content>
       <sequence>
         <elementRef key="head" minOccurs="0" maxOccurs="unbounded"/>
@@ -3243,7 +3243,7 @@
     <desc
         versionDate="2007-06-14"
         xml:lang="en">provides information
-    about an identifiable organization such as a business, a tribe, or
+    about an identifiable organisation such as a business, a tribe, or
     any other grouping of people.</desc>
     <content>
       <sequence>
@@ -3282,7 +3282,7 @@
           <valItem ident="europeanCommission"/>
           <valItem ident="europeanParliament"/>
           <valItem ident="europeanInstitution"/>
-          <valItem ident="internationalOrganization"/>
+          <valItem ident="internationalOrganisation"/>
           <valItem ident="boardOfDirectors"/>
           <valItem ident="ethnicCommunity"/>
         </valList>
@@ -3326,7 +3326,7 @@
   <elementSpec ident="event" module="namesdates" mode="change">
     <desc
         versionDate="2007-08-01"
-        xml:lang="en">contains data relating to any kind of significant event associated with a person, place, or organization.</desc>
+        xml:lang="en">contains data relating to any kind of significant event associated with a person, place, or organisation.</desc>
     <content>
       <elementRef key="label" minOccurs="1" maxOccurs="unbounded"/>
     </content>
@@ -3406,7 +3406,7 @@
     <desc
         versionDate="2011-12-02"
         xml:lang="en">provides information about relationships identified amongst people, places, and
-    organizations, either informally as prose or as formally expressed relation links.</desc>
+    organisations, either informally as prose or as formally expressed relation links.</desc>
     <content>
       <elementRef key="relation" minOccurs="1" maxOccurs="unbounded"/>
     </content>
@@ -3678,7 +3678,7 @@
     <desc
         versionDate="2005-01-14"
         xml:lang="en">contains an informal description of a person's present or past affiliation with some
-    organization, for example an employer or sponsor.</desc>
+    organisation, for example an employer or sponsor.</desc>
     <content>
       <elementRef key="roleName" minOccurs="0" maxOccurs="unbounded"/>
     </content>
