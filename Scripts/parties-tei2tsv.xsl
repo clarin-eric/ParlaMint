@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- Dump all parliamentary groups and political parties as TSV file for manual orientation annotation -->
+<!-- Dump all parliamentary groups and political parties as TSV file for manual editing -->
 <xsl:stylesheet 
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -14,7 +14,7 @@
   <!-- Directory where the output TSV files are written to -->
   <xsl:param name="outDir">../Data/Metadata</xsl:param>
   <!-- How many template lines to output for corpora without any ministers -->
-  <xsl:param name="outFilePrefix">ParlaMint_orientations-</xsl:param>
+  <xsl:param name="outFilePrefix">ParlaMint_parties-</xsl:param>
 
   <xsl:template match="text()"/>
   <xsl:template match="tei:*"/>
@@ -28,7 +28,7 @@
 					   $outFilePrefix, $country, '.tsv')"/>
       <xsl:message select="concat('INFO: Processing ', @href)"/>
       <xsl:result-document href="{$outFile}" method="text">
-	<xsl:text>Country&#9;orgType&#9;orgID&#9;Abb-xx&#9;Abb-en&#9;Full-en&#9;From&#9;To&#9;Orientation&#9;Comment&#10;</xsl:text>
+	<xsl:text>Country&#9;orgType&#9;orgID&#9;Abb-xx&#9;Abb-en&#9;Full-xx&#9;Full-en&#9;From&#9;To&#9;Orientation&#9;Comment&#10;</xsl:text>
 	<xsl:apply-templates select="document($href)//tei:particDesc//tei:org
 				       [@role = 'parliamentaryGroup' or @role = 'politicalParty']">
 	  <xsl:with-param name="country" select="$country"/>
@@ -75,10 +75,10 @@
     <xsl:text>&#9;</xsl:text>
     <xsl:value-of select="et:output($name-en-abb[1])"/>
     <xsl:text>&#9;</xsl:text>
+    <xsl:value-of select="et:output($name-xx-full[1])"/>
+    <xsl:text>&#9;</xsl:text>
     <xsl:value-of select="et:output($name-en-full[1])"/>
     <xsl:text>&#9;</xsl:text>
-    <!--xsl:value-of select="et:output($name-xx-full[1])"/>
-    <xsl:text>&#9;</xsl:text-->
     <xsl:value-of select="et:output(tei:event[tei:label = 'existence']/@from)"/>
     <xsl:text>&#9;</xsl:text>
     <xsl:value-of select="et:output(tei:event[tei:label = 'existence']/@to)"/>

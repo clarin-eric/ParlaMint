@@ -12,7 +12,7 @@
   <!-- Where the corpora can be found (if relative then to the location of this script). -->
   <xsl:param name="path">../Data</xsl:param>
   <!-- Directory where the output TSV files are written to -->
-  <xsl:param name="outDir">../Data/Metadata</xsl:param>
+  <xsl:param name="outDir">../Data/Metadata/Ministers</xsl:param>
   <!-- How many template lines to output for corpora without any ministers -->
   <xsl:param name="outFilePrefix">ParlaMint_ministers-</xsl:param>
   <xsl:param name="maxLines">1</xsl:param>
