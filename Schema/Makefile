@@ -1,8 +1,7 @@
 list:
 	grep '<element name=' ParlaMint-*.rng | perl -pe 's|.+="||; s|">||' | sort | uniq
-
 nohup:
-	nohup time make all > nohup.all &
+	nohup time make all > compile.log &
 all:	val trang
 
 #Authored, strangely enough, in .rng!
@@ -13,19 +12,23 @@ rnc:
 	$t ParlaMint-TEI.ana.rng ParlaMint-TEI.ana.rnc
 	$t ParlaMint-teiCorpus.rng ParlaMint-teiCorpus.rnc
 	$t ParlaMint-teiCorpus.ana.rng ParlaMint-teiCorpus.ana.rnc
+
 #Doesn't work, cf. https://github.com/clarin-eric/ParlaMint/issues/74
 xsd:
 	$t ParlaMint-TEI.rng ParlaMint-TEI.xsd
 	$t ParlaMint-TEI.ana.rng ParlaMint-TEI.ana.xsd
 	$t ParlaMint-teiCorpus.rng ParlaMint-teiCorpus.xsd
 	$t ParlaMint-teiCorpus.ana.rng ParlaMint-teiCorpus.ana.xsd
+#DATA = ../Data
+# For testing v3 corpora
+DATA = ../../ParlaMint-v2tov3/Data
 val:
-	ls ../ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs ${pc}
-	ls ../ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs ${vrt}
-	ls ../ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep    '_' | xargs ${vct}
-	ls ../ParlaMint-*/ParlaMint-*.xml | grep    '.ana.' | grep -v '_' | xargs ${pc}
-	ls ../ParlaMint-*/ParlaMint-*.xml | grep    '.ana.' | grep -v '_' | xargs ${vra}
-	ls ../ParlaMint-*/ParlaMint-*.xml | grep    '.ana.' | grep    '_' | xargs ${vca}
+	-ls ${DATA}/ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs ${pc}
+	-ls ${DATA}/ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs ${vrt}
+	-ls ${DATA}/ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep    '_' | xargs ${vct}
+	-ls ${DATA}/ParlaMint-*/ParlaMint-*.xml | grep    '.ana.' | grep -v '_' | xargs ${pc}
+	-ls ${DATA}/ParlaMint-*/ParlaMint-*.xml | grep    '.ana.' | grep -v '_' | xargs ${vra}
+	-ls ${DATA}/ParlaMint-*/ParlaMint-*.xml | grep    '.ana.' | grep    '_' | xargs ${vca}
 
 s = java -jar /usr/share/java/saxon.jar
 j = java -jar /usr/share/java/jing.jar
@@ -39,4 +42,4 @@ P = parallel --citation --gnu --halt 2
 #Count things like org/@role
 what = grep ' corresp=' | grep corresp
 what:
-	cat ../ParlaMint-*/ParlaMint-*.xml | ${what}
+	cat ${DATA}/ParlaMint-*/ParlaMint-*.xml | ${what}

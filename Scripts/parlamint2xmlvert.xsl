@@ -158,7 +158,7 @@
 	      <xsl:attribute name="speaker_id" select="$speaker/@xml:id"/>
 	      <xsl:attribute name="speaker_name" select="et:format-name($speaker//tei:persName[1])"/>
 	      <xsl:attribute name="speaker_type" select="et:speaker-type($speaker)"/>
-	      <xsl:attribute name="speaker_party" select="et:speaker-party($speaker, 'init')"/>
+	      <xsl:attribute name="speaker_party" select="et:speaker-party($speaker, 'abb')"/>
 	      <xsl:attribute name="speaker_party_name" select="et:speaker-party($speaker, 'yes')"/>
 	      <xsl:attribute name="party_status" select="et:party-status($speaker)"/>
 	      <xsl:attribute name="speaker_gender" select="$speaker/tei:sex/@value"/>
@@ -644,7 +644,7 @@
   <!-- Output the name of the party (or parties!) the speaker belongs to when speaking -->
   <xsl:function name="et:speaker-party" as="xs:string">
     <xsl:param name="speaker" as="element(tei:person)"/>
-    <!-- Output full ('yes') or abbreviated ('init') name of the party -->
+    <!-- Output full ('yes') or abbreviated ('abb') name of the party -->
     <xsl:param name="full" as="xs:string"/>
     <!-- Collect all affiliation references where the speaker is a member and are in 
 	 the correct time-frame for the speech -->
