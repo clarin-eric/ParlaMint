@@ -73,7 +73,7 @@
               <xsl:when test="$aff-day-overlap"> <!-- one day overlap -->
                 <xsl:call-template name="affiliation-error-overlap">
                   <xsl:with-param name="ident">01</xsl:with-param>
-                  <xsl:with-param name="severity">WARN</xsl:with-param>
+                  <xsl:with-param name="severity">INFO</xsl:with-param>
                   <xsl:with-param name="msg">has one day overlap with</xsl:with-param>
                   <xsl:with-param name="aff-overlaps" select="aff-day-overlap"/>
                 </xsl:call-template>
