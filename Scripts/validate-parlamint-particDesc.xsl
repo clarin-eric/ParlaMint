@@ -365,7 +365,7 @@
         <xsl:if test="$eventNode">
           <xsl:variable name="eventFrom" select="mk:fix_date(mk:get_from($eventNode),'-01-01','T00:00:00')" />
           <xsl:variable name="eventTo" select="mk:fix_date(mk:get_to($eventNode),'-12-31','T23:59:59')" />
-          <xsl:if test="$eventFrom > $date or $date > $eventTo">
+          <xsl:if test="($eventFrom > $date or $date > $eventTo) and $eventTo >= $eventFrom">
             <xsl:call-template name="error">
               <xsl:with-param name="ident">13</xsl:with-param>
               <xsl:with-param name="severity">WARN</xsl:with-param>
