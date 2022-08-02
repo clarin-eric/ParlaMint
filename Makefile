@@ -482,14 +482,19 @@ $(DEV-data-XX-fix-XX): DEV-data-XX-fix-%: % DEV-data-XX-reset-data-%
 
 ######################Generating and ingesting TSV added metadata
 
-## Generate TSV files for minister affiliations on the basis of the root files.
-generate-ministers:
-	$s outDir=${DATADIR}/Metadata -xsl:Scripts/ministers-tei2tsv.xsl ${DATADIR}/ParlaMint.xml
+## Generate TSV files for party information on the basis of the corpus root files.
+generate-parties:
+	$s path=../${DATADIR} outDir=Data/Metadata/Parties -xsl:Scripts/parties-tei2tsv.xsl \
+	${DATADIR}/ParlaMint.xml 2> Data/Metadata/Parties/ParlaMint_parties.log
 
-## Test of inserting minister affiliations from TSV file into a root file.
-MC = SI
+## Generate TSV files for minister affiliations on the basis of the corpus root files.
+generate-ministers:
+	$s outDir=Data/Metadata/Ministers -xsl:Scripts/ministers-tei2tsv.xsl ${DATADIR}/ParlaMint.xml
+
+## Insert minister affiliations from TSV file into a root file.
+MC = IS
 insert-ministries-test:
-	$s tsv=../Data/Metadata/ParlaMint_ministers-${MC}.tsv -xsl:Scripts/ministers-tsv2tei.xsl \
+	$s tsv=../Data/Metadata/Ministers/ParlaMint_ministers-${MC}.tsv -xsl:Scripts/ministers-tsv2tei.xsl \
 	${DATADIR}/ParlaMint-${MC}/ParlaMint-${MC}.xml > Scripts/tmp/ParlaMint-${MC}.xml
 	-diff -b ${DATADIR}/ParlaMint-${MC}/ParlaMint-${MC}.xml Scripts/tmp/ParlaMint-${MC}.xml
 	${vrt} Scripts/tmp/ParlaMint-${MC}.xml
