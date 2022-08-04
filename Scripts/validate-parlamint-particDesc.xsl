@@ -39,27 +39,40 @@
             <xsl:variable name="orgTo" select="mk:get_org_to($affWith)"/>
             <xsl:variable name="affFrom" select="mk:fix_date($from,'-01-01','T00:00:00')"/>
             <xsl:variable name="affTo" select="mk:fix_date($to,'-12-31','T23:59:59')"/>
+            <xsl:variable name="roleNames" select="concat('|',
+                                                          string-join('|',
+                                                               ./roleName/concat(./ancestor-or-self::*/@xml:lang[1],
+                                                                                 '=',
+                                                                                text()
+                                                                                )
+                                                              ),
+                                                          '|'
+                                                          )"/>
 
 
             <!-- overlapping affiliations with same role and same organization -->
             <xsl:variable name="aff-duplicit" select="following-sibling::tei:affiliation
                                                         [@role=$role]
                                                         [@ref = $ref]
+                                                        [mk:contains(., 'roleName', $roleNames)]
                                                         [$from=mk:get_from(.) and $to = mk:get_to(.)][1]"/>
             <xsl:variable name="aff-day-overlap" select="following-sibling::tei:affiliation
                                                         [@role=$role]
                                                         [@ref = $ref]
                                                         [not(@ana) or @ana = $ana]
+                                                        [mk:contains(., 'roleName', $roleNames)]
                                                         [$from=mk:get_to(.) or $to = mk:get_from(.)][1]"/>
             <xsl:variable name="aff-cover" select="(preceding-sibling::tei:affiliation,following-sibling::tei:affiliation)
                                                         [@role=$role]
                                                         [@ref = $ref]
                                                         [not(@ana) or @ana = $ana]
+                                                        [mk:contains(., 'roleName', $roleNames)]
                                                         [$from >= mk:get_from(.) and  mk:get_to(.) >= $to and not($from = mk:get_from(.) and $to = mk:get_to(.))][1]"/>
             <xsl:variable name="aff-overlap" select="following-sibling::tei:affiliation
                                                         [@role=$role]
                                                         [@ref = $ref]
                                                         [not(@ana) or @ana = $ana]
+                                                        [mk:contains(., 'roleName', $roleNames)]
                                                         [($from > mk:get_from(.) and  mk:get_to(.) > $from) or ($to > mk:get_from(.) and  mk:get_to(.) > $to)][1]"/>
             <xsl:choose>
               <xsl:when test="$aff-duplicit">
@@ -73,7 +86,7 @@
               <xsl:when test="$aff-day-overlap"> <!-- one day overlap -->
                 <xsl:call-template name="affiliation-error-overlap">
                   <xsl:with-param name="ident">01</xsl:with-param>
-                  <xsl:with-param name="severity">WARN</xsl:with-param>
+                  <xsl:with-param name="severity">INFO</xsl:with-param>
                   <xsl:with-param name="msg">has one day overlap with</xsl:with-param>
                   <xsl:with-param name="aff-overlaps" select="aff-day-overlap"/>
                 </xsl:call-template>
@@ -365,7 +378,7 @@
         <xsl:if test="$eventNode">
           <xsl:variable name="eventFrom" select="mk:fix_date(mk:get_from($eventNode),'-01-01','T00:00:00')" />
           <xsl:variable name="eventTo" select="mk:fix_date(mk:get_to($eventNode),'-12-31','T23:59:59')" />
-          <xsl:if test="$eventFrom > $date or $date > $eventTo">
+          <xsl:if test="($eventFrom > $date or $date > $eventTo) and $eventTo >= $eventFrom">
             <xsl:call-template name="error">
               <xsl:with-param name="ident">13</xsl:with-param>
               <xsl:with-param name="severity">WARN</xsl:with-param>
@@ -630,5 +643,22 @@
   <xsl:function name="mk:borders">
     <xsl:param name="str"/>
     <xsl:value-of select="concat(' ',$str,' ')"/>
+  </xsl:function>
+
+  <xsl:function name="mk:contains">
+    <xsl:param name="node"/>
+    <xsl:param name="elem-name"/>
+    <xsl:param name="text-content"/>
+    <xsl:variable name="cnt-elem" select="count($node/*[name() = $elem-name])"/>
+    <xsl:choose>
+      <xsl:when test="not($node/*[name() = $elem-name])"><xsl:sequence select="true()"/></xsl:when>
+      <xsl:when test="$node/*[name() = $elem-name] and $elem-name = '||'"><xsl:sequence select="true()"/></xsl:when>
+      <xsl:when test="count($node/*[name() = $elem-name]
+                             [contains($text-content,
+                                        concat('|',ancestor-or-self/@xml:lang[1],'=',text(),'|')
+                                      )]
+                          ) = $cnt-elem"><xsl:sequence select="true()"/></xsl:when>
+      <xsl:otherwise><xsl:sequence select="false()"/></xsl:otherwise>
+    </xsl:choose>
   </xsl:function>
 </xsl:stylesheet>
