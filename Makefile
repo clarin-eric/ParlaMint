@@ -2,7 +2,7 @@
 
 ##$PARLIAMENTS##Space separated list of parliaments codes.
 PARLIAMENTS = AT BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RO SE SI TR BA RS
-PARLIAMENTS-v2 = BE BG CZ DK ES FR GB GR HR HU IS IT LT LV NL PL SI TR
+PARLIAMENTS-v2 = BE BG CZ DK ES FR GB HR HU IS IT LT LV NL PL SI TR
 
 
 ##$DATADIR## Folder with country corpus folders. Default value is 'Data'.
@@ -154,6 +154,8 @@ $(check-content-XX): check-content-%: %
 	for root in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep -v '_'`;	do \
 	  echo "checking content in root:" $${root}; \
 	  ${s} ${vcontent} $${root}; \
+	  awk '{gsub(/(<[a-zA-Z:]+)/,"& LINE=\"" NR "\"",$$0);print}' "$${root}" \
+	      | java -jar /usr/share/java/saxon.jar -xsl:Scripts/validate-parlamint-particDesc.xsl -s:- ;\
 	  for component in `echo $${root}| xargs ${getincludes}`; do \
 	    echo "checking content in component:" ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/$${component}; \
 	    ${s} ${vcontent} ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/$${component}; \
@@ -434,10 +436,10 @@ $(DEV-data-XX-create-branch-XX): DEV-data-XX-create-branch-%: %
 
 DEV-data-XX-reset-data-XX = $(addprefix DEV-data-XX-reset-data-, $(PARLIAMENTS-v2))
 ##!DEV-data-XX-reset-data ##
-DEV-data-XX-reset-data-XX: .update_DATA_XX_REP $(DEV-data-XX-reset-data-XX)
+DEV-data-XX-reset-data: .update_DATA_XX_REP $(DEV-data-XX-reset-data-XX)
 ##!DEV-data-XX-reset-data-XX ##
 $(DEV-data-XX-reset-data-XX): DEV-data-XX-reset-data-%: %
-	git -C ${DATA_XX_REP} fetch origin data
+	git -C ${DATA_XX_REP} pull origin data
 	git -C ${DATA_XX_REP} checkout data-$<
 	# this avoid merge conflicts, we just want to overwrite xml content with content drom data branch:
 	rm -f ${DATA_XX_REP}/${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<*.xml
@@ -447,6 +449,16 @@ $(DEV-data-XX-reset-data-XX): DEV-data-XX-reset-data-%: %
 	  || echo "No change in xml data"
 	# merge other changes to keep data-XX branch updated
 	git -C ${DATA_XX_REP} merge data
+
+DEV-data-XX-sync-with-data-and-push-XX = $(addprefix DEV-data-XX-sync-with-data-and-push-, $(PARLIAMENTS-v2))
+##!DEV-data-XX-sync-with-data-and-push ##
+DEV-data-XX-sync-with-data-and-push: .update_DATA_XX_REP $(DEV-data-XX-sync-with-data-and-push-XX)
+##!DEV-data-XX-sync-with-data-and-push-XX ##
+$(DEV-data-XX-sync-with-data-and-push-XX): DEV-data-XX-sync-with-data-and-push-%: %
+	git -C ${DATA_XX_REP} pull origin data
+	git -C ${DATA_XX_REP} checkout data-$<
+	git -C ${DATA_XX_REP} merge data
+	git -C ${DATA_XX_REP} push --set-upstream origin data-$<
 
 DEV-data-XX-fix-XX = $(addprefix DEV-data-XX-fix-, $(PARLIAMENTS-v2))
 ##!DEV-data-XX-fix ##
@@ -470,18 +482,23 @@ $(DEV-data-XX-fix-XX): DEV-data-XX-fix-%: % DEV-data-XX-reset-data-%
 
 ######################Generating and ingesting TSV added metadata
 
-## Generate TSV files for minister affiliations on the basis of the root files.
+## Generate TSV files for party information on the basis of the corpus root files.
+generate-parties:
+	$s path=../${DATADIR} outDir=Data/Metadata/Parties -xsl:Scripts/parties-tei2tsv.xsl \
+	${DATADIR}/ParlaMint.xml 2> Data/Metadata/Parties/ParlaMint_parties.log
+
+## Generate TSV files for minister affiliations on the basis of the corpus root files.
 generate-ministers:
-	$s outDir=Data/Metadata -xsl:Scripts/ministers-tei2tsv.xsl Data/ParlaMint.xml
+	$s outDir=Data/Metadata/Ministers -xsl:Scripts/ministers-tei2tsv.xsl ${DATADIR}/ParlaMint.xml
 
 ## Insert minister affiliations from TSV file into a root file.
-MC = BG
+MC = IS
 insert-ministries-test:
-	$s tsv=../Data/Metadata/ParlaMint_ministers-${MC}.tsv -xsl:Scripts/ministers-tsv2tei.xsl \
-	Data/ParlaMint-${MC}/ParlaMint-${MC}.xml > Scripts/tmp/ParlaMint-${MC}.xml
-	-diff -b Data/ParlaMint-${MC}/ParlaMint-${MC}.xml Scripts/tmp/ParlaMint-${MC}.xml
+	$s tsv=../Data/Metadata/Ministers/ParlaMint_ministers-${MC}.tsv -xsl:Scripts/ministers-tsv2tei.xsl \
+	${DATADIR}/ParlaMint-${MC}/ParlaMint-${MC}.xml > Scripts/tmp/ParlaMint-${MC}.xml
+	-diff -b ${DATADIR}/ParlaMint-${MC}/ParlaMint-${MC}.xml Scripts/tmp/ParlaMint-${MC}.xml
 	${vrt} Scripts/tmp/ParlaMint-${MC}.xml
-	${vlink} Scripts/tmp/ParlaMint-${MC}.xml
+	${s} ${vlink} Scripts/tmp/ParlaMint-${MC}.xml
 
 ######################VARIABLES
 s = java -jar /usr/share/java/saxon.jar
