@@ -11,7 +11,12 @@
   exclude-result-prefixes="et mk fn xs tei saxon">
 
 
-  <xsl:template match=" tei:idno[@type='URI' and @subtype='wikimedia' and contains(./text(), 'wikipedia.org')] | tei:idno[@type='URI' and @subtype and contains(./text(), concat(@subtype,'.') ) ] | tei:idno[@type='URI' and not(@subtype) and contains(./text(), 'github.com' ) ] ">
+  <xsl:template match="tei:idno[@type='URI' 
+		       and @subtype='wikimedia' and contains(./text(), 'wikipedia.org')] | 
+		       tei:idno[@type='URI' 
+		       and @subtype and contains(./text(), concat(@subtype,'.') ) ] | 
+		       tei:idno[@type='URI' and 
+		       not(@subtype) and contains(./text(), 'github.com' ) ] ">
     <xsl:copy>
       <xsl:apply-templates select="@* | * | text() | comment()"/>
     </xsl:copy>
@@ -28,7 +33,10 @@
       <xsl:otherwise>
         <xsl:call-template name="error">
           <xsl:with-param name="severity">ERROR</xsl:with-param>
-          <xsl:with-param name="msg"><xsl:text>removing due to empty string in idno: </xsl:text> <xsl:apply-templates select="." mode="serialize"/></xsl:with-param>
+          <xsl:with-param name="msg">
+	    <xsl:text>removing due to empty string in idno: </xsl:text>
+	    <xsl:apply-templates select="." mode="serialize"/>
+	  </xsl:with-param>
         </xsl:call-template>
       </xsl:otherwise>
     </xsl:choose>
@@ -37,14 +45,20 @@
   <xsl:template match="tei:bibl/tei:idno[contains(./text(), 'parlametar.bg') and $country='BG']">
     <xsl:call-template name="error">
       <xsl:with-param name="severity">INFO</xsl:with-param>
-      <xsl:with-param name="msg">removing parlameter idno: <xsl:apply-templates select="." mode="serialize"/></xsl:with-param>
+      <xsl:with-param name="msg">
+	<xsl:text>removing parlameter idno: </xsl:text>
+	<xsl:apply-templates select="." mode="serialize"/>
+      </xsl:with-param>
     </xsl:call-template>
   </xsl:template>
 
   <xsl:template match="tei:idno[$country='IS' and text() = 'www.athingi.is']">
     <xsl:call-template name="error">
       <xsl:with-param name="severity">INFO</xsl:with-param>
-      <xsl:with-param name="msg"><xsl:text>fixing idno url and adding subtype: </xsl:text> <xsl:apply-templates select="." mode="serialize"/></xsl:with-param>
+      <xsl:with-param name="msg">
+	<xsl:text>fixing idno url and adding subtype: </xsl:text>
+	<xsl:apply-templates select="." mode="serialize"/>
+      </xsl:with-param>
     </xsl:call-template>
     <idno type="URI" subtype="parliament">https://www.althingi.is/</idno>
   </xsl:template>
@@ -55,16 +69,20 @@
       <xsl:if test="@type and @type=upper-case(@type) and not(contains(' URI URL ', @type))">
         <xsl:call-template name="error">
           <xsl:with-param name="severity">ERROR</xsl:with-param>
-          <xsl:with-param name="msg"><xsl:text>unexpected value idno/@type=</xsl:text> <xsl:value-of select="@type"/></xsl:with-param>
+          <xsl:with-param name="msg">
+	    <xsl:text>unexpected value idno/@type=</xsl:text>
+	    <xsl:value-of select="@type"/>
+	  </xsl:with-param>
         </xsl:call-template>
       </xsl:if>
       <xsl:attribute name="type">URI</xsl:attribute>
       <xsl:choose>
-
-        <xsl:when test="contains(./text(), 'wikipedia.org') and @subtype='wikimedia'"> <!-- no change is needed -->
+	<!-- no change needed -->
+        <xsl:when test="contains(./text(), 'wikipedia.org') and @subtype='wikimedia'"> 
           <xsl:apply-templates select="@subtype"/>
         </xsl:when>
-        <xsl:when test="contains(./text(), 'fb.com') and @subtype='facebook'"> <!-- no change is needed -->
+	<!-- no change needed -->
+        <xsl:when test="contains(./text(), 'fb.com') and @subtype='facebook'">
           <xsl:apply-templates select="@subtype"/>
         </xsl:when>
 
@@ -224,21 +242,32 @@
         <xsl:when test="contains(' wikidata facebook twitter tiktok instagram ',concat(' ',@type,' '))">
           <xsl:call-template name="error">
             <xsl:with-param name="severity">WARN</xsl:with-param>
-            <xsl:with-param name="msg"><xsl:text>using all lang patch (orgs) idno/@subtype </xsl:text> <xsl:apply-templates select="." mode="serialize"/></xsl:with-param>
+            <xsl:with-param name="msg">
+	      <xsl:text>using all lang patch (orgs) idno/@subtype </xsl:text>
+	      <xsl:apply-templates select="." mode="serialize"/>
+	    </xsl:with-param>
           </xsl:call-template>
           <xsl:attribute name="subtype" select="@type"/>
         </xsl:when>
         <xsl:when test="contains(concat(' ',@sub,' ',@subtype), ' wiki') and @subtype != 'wikimedia'">
           <xsl:call-template name="error">
             <xsl:with-param name="severity">WARN</xsl:with-param>
-            <xsl:with-param name="msg"><xsl:text>using all lang patch (wiki) idno/@subtype </xsl:text> <xsl:apply-templates select="." mode="serialize"/></xsl:with-param>
+            <xsl:with-param name="msg">
+	      <xsl:text>using all lang patch (wiki) idno/@subtype </xsl:text>
+	      <xsl:apply-templates select="." mode="serialize"/>
+	    </xsl:with-param>
           </xsl:call-template>
           <xsl:attribute name="subtype">wikimedia</xsl:attribute>
         </xsl:when>
         <xsl:otherwise>
           <xsl:call-template name="error">
             <xsl:with-param name="severity">ERROR</xsl:with-param>
-            <xsl:with-param name="msg"><xsl:text>otherwise </xsl:text> <xsl:value-of select="$country"/><xsl:text> </xsl:text><xsl:apply-templates select="." mode="serialize"/></xsl:with-param>
+            <xsl:with-param name="msg">
+	      <xsl:text>otherwise </xsl:text>
+	      <xsl:value-of select="$country"/>
+	      <xsl:text> </xsl:text>
+	      <xsl:apply-templates select="." mode="serialize"/>
+	    </xsl:with-param>
           </xsl:call-template>
           <!-- no fixture - just copy attribute -->
           <xsl:apply-templates select="@subtype"/>
