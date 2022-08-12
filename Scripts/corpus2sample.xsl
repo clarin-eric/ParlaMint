@@ -32,7 +32,7 @@
     <xsl:variable name="n" select="count(/tei:teiCorpus/xi:include)"/>
     <xsl:choose>
       <!-- When too few files -->
-      <xsl:when test="$n &lt;= $Files + 1">
+      <xsl:when test="$n &lt; 2 * $Files">
         <xsl:message select="concat('INFO: from ', $n , ' files  selecting all of them: ')"/>
         <xsl:for-each select="//xi:include">
           <xsl:message select="concat('INFO: selecting file ', @href)"/>
@@ -42,7 +42,7 @@
       <xsl:otherwise>
         <xsl:message select="concat('INFO: from ', $n , ' files  selecting ~', $Files, ' files:')"/>
       <xsl:for-each select="//xi:include">
-        <xsl:if test="(position()-1) mod floor($n div $Files) = 1">
+        <xsl:if test="(position()-1) mod floor($n div $Files) = floor($n div $Files) - 1">
           <xsl:message select="concat('INFO: selecting file ', @href)"/>
           <xsl:copy-of select="."/>
         </xsl:if>
