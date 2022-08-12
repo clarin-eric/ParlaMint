@@ -86,10 +86,10 @@
 14	.	.	PUNCT	_	_	4	punct	_	NER=O
 
 # sent_id = ParlaMint-CZ_2022-01-25-ps2021-006-05-000-000.u1.p2.s3
-# text = D náhradní kartou dnes bude jednat a hlasovat pan místopředseda Skopeček, je to náhradní karta s číslem 34.
-1	D	d	NOUN	_	Gender=Neut|Polarity=Pos	6	obl	_	NER=O
+# text = S náhradní kartou dnes bude jednat a hlasovat pan místopředseda Skopeček, je to náhradní karta s číslem 34.
+1	S	s	ADP	_	AdpType=Prep|Case=Ins	3	case	_	NER=O
 2	náhradní	náhradní	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	3	amod	_	NER=O
-3	kartou	karta	NOUN	_	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	6	obl	_	NER=O
+3	kartou	karta	NOUN	_	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	6	obl:arg	_	NER=O
 4	dnes	dnes	ADV	_	_	6	advmod	_	NER=O
 5	bude	být	AUX	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	6	aux	_	NER=O
 6	jednat	jednat	VERB	_	Aspect=Imp|Polarity=Pos|VerbForm=Inf	0	root	_	NER=O
@@ -110,7 +110,7 @@
 
 # newpar id = ParlaMint-CZ_2022-01-25-ps2021-006-05-000-000.u1.p3
 # sent_id = ParlaMint-CZ_2022-01-25-ps2021-006-05-000-000.u1.p3.s1
-# text = Dále sděluji, že o omluvení své neúčasti na jednání požádali tito poslanci: paní Markéta Pekarová Adamová ze zdravotních důvodů, Ivan Adamec z pracovních důvodů... ... dobře, pane poslanče, vaší omluvu ruším.
+# text = Dále sděluji, že o omluvení své neúčasti na jednání požádali tito poslanci: paní Markéta Pekarová
 1	Dále	dále	ADV	_	_	2	advmod	_	NER=O
 2	sděluji	sdělovat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O|SpaceAfter=No
 3	,	,	PUNCT	_	_	11	punct	_	NER=O
@@ -119,42 +119,45 @@
 6	omluvení	omluvení	NOUN	_	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	11	obl:arg	_	NER=O
 7	své	svůj	DET	_	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	8	det	_	NER=O
 8	neúčasti	neúčast	NOUN	_	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	6	nmod	_	NER=O
-9	na	na	ADP	_	AdpType=Prep|Case=Acc	10	case	_	NER=O
-10	jednání	jednání	NOUN	_	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	6	nmod	_	NER=O
+9	na	na	ADP	_	AdpType=Prep|Case=Loc	10	case	_	NER=O
+10	jednání	jednání	NOUN	_	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	6	nmod	_	NER=O
 11	požádali	požádat	VERB	_	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	2	ccomp	_	NER=O
 12	tito	tento	DET	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	13	det	_	NER=O
 13	poslanci	poslanec	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	11	nsubj	_	NER=O|SpaceAfter=No
 14	:	:	PUNCT	_	_	15	punct	_	NER=O
-15	paní	paní	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	11	conj	_	NER=O
+15	paní	paní	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	13	appos	_	NER=O
 16	Markéta	Markéta	PROPN	_	Case=Nom|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos	15	flat	_	NER=B-PER
 17	Pekarová	Pekarová	PROPN	_	Case=Nom|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos	15	flat	_	NER=I-PER
-18	Adamová	Adamová	PROPN	_	Case=Nom|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos	15	flat	_	NER=I-PER
-19	ze	z	ADP	_	AdpType=Voc|Case=Gen	21	case	_	NER=O
-20	zdravotních	zdravotní	ADJ	_	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	21	amod	_	NER=O
-21	důvodů	důvod	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	15	conj	_	NER=O|SpaceAfter=No
-22	,	,	PUNCT	_	_	23	punct	_	NER=O
-23	Ivan	Ivan	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	15	conj	_	NER=B-PER
-24	Adamec	Adamec	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	23	flat	_	NER=I-PER
-25	z	z	ADP	_	AdpType=Prep|Case=Gen	27	case	_	NER=O
-26	pracovních	pracovní	ADJ	_	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	27	amod	_	NER=O
-27	důvodů	důvod	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	15	conj	_	NER=O|SpaceAfter=No
-28	.	.	PUNCT	_	_	34	punct	_	NER=O|SpaceAfter=No
-29	.	.	PUNCT	_	_	34	punct	_	NER=O|SpaceAfter=No
-30	.	.	PUNCT	_	_	34	punct	_	NER=O
-31	.	.	PUNCT	_	_	34	punct	_	NER=O|SpaceAfter=No
-32	.	.	PUNCT	_	_	34	punct	_	NER=O|SpaceAfter=No
-33	.	.	PUNCT	_	_	34	punct	_	NER=O
-34	dobře	dobře	ADV	_	Degree=Pos|Polarity=Pos	41	advmod	_	NER=O|SpaceAfter=No
-35	,	,	PUNCT	_	_	41	punct	_	NER=O
-36	pane	pan	NOUN	_	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing|Polarity=Pos	37	nmod	_	NER=O
-37	poslanče	poslanč	NOUN	_	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing|Polarity=Pos	41	vocative	_	NER=O|SpaceAfter=No
-38	,	,	PUNCT	_	_	41	punct	_	NER=O
-39	vaší	tvůj	DET	_	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs	40	det	_	NER=O
-40	omluvu	omluva	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	41	obj	_	NER=O
-41	ruším	rušit	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	_	NER=O|SpaceAfter=No
-42	.	.	PUNCT	_	_	2	punct	_	NER=O
 
 # sent_id = ParlaMint-CZ_2022-01-25-ps2021-006-05-000-000.u1.p3.s2
+# text = Adamová ze zdravotních důvodů, Ivan Adamec z pracovních důvodů...
+1	Adamová	Adamová	PROPN	_	Case=Nom|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos	0	root	_	NER=B-PER
+2	ze	z	ADP	_	AdpType=Voc|Case=Gen	4	case	_	NER=O
+3	zdravotních	zdravotní	ADJ	_	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	4	amod	_	NER=O
+4	důvodů	důvod	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	1	dep	_	NER=O|SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	NER=O
+6	Ivan	Ivan	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	4	orphan	_	NER=B-PER
+7	Adamec	Adamec	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	6	flat	_	NER=I-PER
+8	z	z	ADP	_	AdpType=Prep|Case=Gen	10	case	_	NER=O
+9	pracovních	pracovní	ADJ	_	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	10	amod	_	NER=O
+10	důvodů	důvod	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	6	orphan	_	NER=O|SpaceAfter=No
+11	.	.	PUNCT	_	_	1	punct	_	NER=O|SpaceAfter=No
+12	.	.	PUNCT	_	_	1	punct	_	NER=O|SpaceAfter=No
+13	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2022-01-25-ps2021-006-05-000-000.u1.p3.s3
+# text = Dobře, pane poslanče, vaši omluvu ruším.
+1	Dobře	dobře	ADV	_	Degree=Pos|Polarity=Pos	8	dep	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	_	_	8	punct	_	NER=O
+3	pane	pan	NOUN	_	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing|Polarity=Pos	4	nmod	_	NER=O
+4	poslanče	poslanč	NOUN	_	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing|Polarity=Pos	8	vocative	_	NER=O|SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	NER=O
+6	vaši	tvůj	DET	_	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs	7	det	_	NER=O
+7	omluvu	omluva	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	8	obj	_	NER=O
+8	ruším	rušit	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O|SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	NER=O
+
+# sent_id = ParlaMint-CZ_2022-01-25-ps2021-006-05-000-000.u1.p3.s4
 # text = Dále paní poslankyně Věra Adámková ze zdravotních důvodů, Vladimír Balaš ze zdravotních důvodů, Pavel Bělobrádek ze zdravotních důvodů, Ondřej Benešík ze zdravotních důvodů, Jan Berki - zdravotní důvody, Stanislav Blaha - zdravotní důvody, Jan Bureš - zdravotní důvody, Jaroslav Bžoch z důvodu zahraniční cesty, Oldřich Černý - zdravotní důvody, Jaroslav Dvořák - zdravotní důvody, Jaroslav Faltýnek bez udání důvodu, Jan Farský bez udání důvodu, Milan Feranec ze zdravotních důvodů, Ivan Jáč ze zdravotních důvodů, Věra Kovářová ze zdravotních důvodů, Václav Král ze zdravotních důvodů, Jana Krutáková z pracovních důvodů, Petr Letocha ze zdravotních důvodů, Petr Liška - pracovní důvody, Karla Maříková - zdravotní důvody, Nina Nováková - zdravotní důvody, Jaroslava Jermanová Pokorná - zdravotní důvody, Jiří Strýček - zdravotní důvody, David Štolpa - zdravotní důvody, Lukáš Vlček - zdravotní důvody, Radek Vondráček - pracovní důvody, Milan Wenzl - zdravotní důvody.
 1	Dále	dále	ADV	_	_	0	root	_	NER=O
 2	paní	paní	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	1	conj	_	NER=O
