@@ -73,8 +73,8 @@ generate-schemaSpecs:
 
 # Initialise
 setup:
-	mkdir tmp
-	git clone git@github.com:TEIC/Stylesheets.git
+	mkdir -p tmp
+	git -C ../Scripts clone git@github.com:TEIC/Stylesheets.git
 
 ### Location of Jing (for RelaxNG validation) and Saxon (for XSLT stylesheets)
 j = java -jar /usr/share/java/jing.jar
