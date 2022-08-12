@@ -97,7 +97,6 @@ listOrg =
         | 
           ## The following used only by CZ:
           "ngo"
-        | "president"
         | "institution"
         | "senate"
         | "committee"
@@ -111,17 +110,15 @@ listOrg =
         | "chamberOfThePeople"
         | "chamberOfTheNations"
         | "europeanParliament"
-        | "internationalOrganizations"
+        | "internationalOrganisation"
         | 
           ## The following used only by SI:
           "boardOfDirectors"
-        | [
-            # No longer used:
-            
-            # value>independent</value
-            
-          ]
+        | 
+          ## The following used only by AT:
           "ethnicCommunity"
+        | "europeanCommission"
+        | "europeanInstitution"
       },
       orgName+,
       event*,
