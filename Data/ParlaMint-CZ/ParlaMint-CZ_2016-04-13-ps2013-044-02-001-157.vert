@@ -1,5 +1,5 @@
 <note type="speaker" content="Předseda PSP Jan Hamáček"/>
-<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-001-157.u1" text_id="ParlaMint-CZ_2016-04-13-ps2013-044-02-001-157" subcorpus="Reference" house="Lower house" term="ps2013" session="" meeting="ps2013/044" sitting="ps2013/044/02" agenda="ps2013/044/157" from="2016-04-13" to="2016-04-13" title="Parliament of the Czech Republic, Chamber of Deputies, 2016-04-13" speaker_role="Chairperson" speaker_id="JanHamacek.1978" speaker_name="Hamáček, Jan" speaker_type="MP" speaker_party="ČSSD" speaker_party_name="Poslanecký klub České strany sociálně demokratické" party_status="" speaker_gender="M" speaker_birth="1978">
+<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-001-157.u1" text_id="ParlaMint-CZ_2016-04-13-ps2013-044-02-001-157" subcorpus="Reference" house="Lower house" term="ps2013" session="" meeting="ps2013/044" sitting="ps2013/044/02" agenda="ps2013/044/157" from="2016-04-13" to="2016-04-13" title="Parliament of the Czech Republic, Chamber of Deputies, 2016-04-13" speaker_role="Chairperson" speaker_id="JanHamacek.1978" speaker_name="Hamáček, Jan" speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="1978">
 <p id="ParlaMint-CZ_2016-04-13-ps2013-044-02-001-157.u1.p1" lang="Czech">
 <s id="ParlaMint-CZ_2016-04-13-ps2013-044-02-001-157.u1.p1.s1">
 157	157	157	NUM	NumForm=Digit NumType=Card	w1	root	-	-	-	-
@@ -153,7 +153,7 @@ slovo	slovo	slovo	NOUN	Case=Acc Gender=Neut Number=Sing Polarity=Pos	w4	obj	mít
 </p>
 </speech>
 <note type="speaker" content="Místopředseda vlády ČR a ministr financí Andrej Babiš"/>
-<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-001-157.u2" text_id="ParlaMint-CZ_2016-04-13-ps2013-044-02-001-157" subcorpus="Reference" house="Lower house" term="ps2013" session="" meeting="ps2013/044" sitting="ps2013/044/02" agenda="ps2013/044/157" from="2016-04-13" to="2016-04-13" title="Parliament of the Czech Republic, Chamber of Deputies, 2016-04-13" speaker_role="Regular" speaker_id="AndrejBabis.1954" speaker_name="Babiš, Andrej" speaker_type="MP" speaker_party="ANO" speaker_party_name="Poslanecký klub ANO 2011" party_status="" speaker_gender="M" speaker_birth="1954">
+<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-001-157.u2" text_id="ParlaMint-CZ_2016-04-13-ps2013-044-02-001-157" subcorpus="Reference" house="Lower house" term="ps2013" session="" meeting="ps2013/044" sitting="ps2013/044/02" agenda="ps2013/044/157" from="2016-04-13" to="2016-04-13" title="Parliament of the Czech Republic, Chamber of Deputies, 2016-04-13" speaker_role="Regular" speaker_id="AndrejBabis.1954" speaker_name="Babiš, Andrej" speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="1954">
 <p id="ParlaMint-CZ_2016-04-13-ps2013-044-02-001-157.u2.p1" lang="Czech">
 <s id="ParlaMint-CZ_2016-04-13-ps2013-044-02-001-157.u2.p1.s1">
 Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-
@@ -2120,7 +2120,7 @@ pozornost	pozornost	pozornost	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-001-157.u135" text_id="ParlaMint-CZ_2016-04-13-ps2013-044-02-001-157" subcorpus="Reference" house="Lower house" term="ps2013" session="" meeting="ps2013/044" sitting="ps2013/044/02" agenda="ps2013/044/157" from="2016-04-13" to="2016-04-13" title="Parliament of the Czech Republic, Chamber of Deputies, 2016-04-13" speaker_role="Regular" speaker_id="ZbynekStanjura.1964" speaker_name="Stanjura, Zbyněk" speaker_type="MP" speaker_party="ODS" speaker_party_name="Poslanecký klub Občanské demokratické strany" party_status="" speaker_gender="M" speaker_birth="1964">
+<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-001-157.u135" text_id="ParlaMint-CZ_2016-04-13-ps2013-044-02-001-157" subcorpus="Reference" house="Lower house" term="ps2013" session="" meeting="ps2013/044" sitting="ps2013/044/02" agenda="ps2013/044/157" from="2016-04-13" to="2016-04-13" title="Parliament of the Czech Republic, Chamber of Deputies, 2016-04-13" speaker_role="Regular" speaker_id="ZbynekStanjura.1964" speaker_name="Stanjura, Zbyněk" speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="1964">
 <p id="ParlaMint-CZ_2016-04-13-ps2013-044-02-001-157.u135.p1" lang="Czech">
 <s id="ParlaMint-CZ_2016-04-13-ps2013-044-02-001-157.u135.p1.s1">
 Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-
@@ -2366,7 +2366,7 @@ Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=
 </p>
 </speech>
 <note type="speaker" content="Místopředsedkyně PSP Jaroslava Jermanová"/>
-<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-001-157.u136" text_id="ParlaMint-CZ_2016-04-13-ps2013-044-02-001-157" subcorpus="Reference" house="Lower house" term="ps2013" session="" meeting="ps2013/044" sitting="ps2013/044/02" agenda="ps2013/044/157" from="2016-04-13" to="2016-04-13" title="Parliament of the Czech Republic, Chamber of Deputies, 2016-04-13" speaker_role="Chairperson" speaker_id="JaroslavaPokornaJermanova.1970" speaker_name="Pokorná Jermanová, Jaroslava" speaker_type="MP" speaker_party="ANO" speaker_party_name="Poslanecký klub ANO 2011" party_status="" speaker_gender="F" speaker_birth="1970">
+<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-001-157.u136" text_id="ParlaMint-CZ_2016-04-13-ps2013-044-02-001-157" subcorpus="Reference" house="Lower house" term="ps2013" session="" meeting="ps2013/044" sitting="ps2013/044/02" agenda="ps2013/044/157" from="2016-04-13" to="2016-04-13" title="Parliament of the Czech Republic, Chamber of Deputies, 2016-04-13" speaker_role="Chairperson" speaker_id="JaroslavaPokornaJermanova.1970" speaker_name="Pokorná Jermanová, Jaroslava" speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="F" speaker_birth="1970">
 <p id="ParlaMint-CZ_2016-04-13-ps2013-044-02-001-157.u136.p1" lang="Czech">
 <s id="ParlaMint-CZ_2016-04-13-ps2013-044-02-001-157.u136.p1.s1">
 Já	Já	já	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	w1	nsubj	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w2
