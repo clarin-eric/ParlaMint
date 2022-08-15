@@ -199,22 +199,18 @@ affiliation =
       "member"
       | "head"
       | "deputyHead"
-      | "minister"
       | 
         ## The following used only by FR:
-        "substituteMP"
+        "minister"
       | "associateMember"
       | "nonAttachedMember"
       | "ministerDelegate"
-      | "ministerOfState"
       | 
         ## The following used only by CZ:
         "secretaryOfState"
       | "observer"
       | "verifier"
       | "vicePublicDefenderOfRights"
-      | "headOfDelegation"
-      | "presidiumMember"
       | "publicDefenderOfRights"
       | "alternateOfDelegation"
       | "replacement"
@@ -223,23 +219,12 @@ affiliation =
         "representative"
       | "academician"
       | "candidateChairman"
-      | "chiefInspector"
-      | "commander"
       | "constitutionalJudge"
-      | "deputyChief"
       | "deputyMinister"
-      | "deputyPrimeMinister"
-      | "director"
-      | "headOfDepartment"
-      | "leader"
       | "ombudsman"
-      | "presidentEP"
-      | "primeMinister"
       | "prosecutorGeneral"
       | "secretary"
       | "secretaryGeneral"
-      | "viceChairman"
-      | "viceDirector"
     },
     element roleName { lang.att, text }*
   }
