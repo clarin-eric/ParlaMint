@@ -2288,7 +2288,7 @@
    <elementSpec ident="respStmt" module="core" mode="change">
       <desc versionDate="2011-11-16" xml:lang="en">supplies a statement of responsibility for the intellectual content of a text, edition,
     recording, or series, where the specialized elements for authors, editors, etc. do not suffice
-    or do not apply. May also be used to encode information about individuals or organizations 
+    or do not apply. May also be used to encode information about individuals or organisations 
     which have played a role in the production or distribution of a bibliographic work.</desc>
       <content>
          <elementRef key="persName" minOccurs="1" maxOccurs="unbounded"/>
@@ -2666,7 +2666,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="resp" module="core" mode="change">
-      <desc versionDate="2011-11-16" xml:lang="en">contains a phrase describing the nature of a person's intellectual responsibility, or an organization's role 
+      <desc versionDate="2011-11-16" xml:lang="en">contains a phrase describing the nature of a person's intellectual responsibility, or an organisation's role 
     in the production or distribution of a work.</desc>
       <content>
          <textNode/>
@@ -2726,7 +2726,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="funder" module="header" mode="change">
-      <desc versionDate="2005-01-14" xml:lang="en">specifies the name of an individual, institution, or organization responsible for the
+      <desc versionDate="2005-01-14" xml:lang="en">specifies the name of an individual, institution, or organisation responsible for the
     funding of a project or text.</desc>
       <content>
          <elementRef key="orgName" minOccurs="1" maxOccurs="unbounded"/>
@@ -2786,7 +2786,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="orgName" module="namesdates" mode="change">
-      <desc versionDate="2005-01-14" xml:lang="en">contains an organizational name.</desc>
+      <desc versionDate="2005-01-14" xml:lang="en">contains an organisational name.</desc>
       <content>
          <textNode/>
       </content>
@@ -3092,7 +3092,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="publisher" module="core" mode="change">
-      <desc versionDate="2005-01-14" xml:lang="en">provides the name of the organization responsible for the publication or distribution of a
+      <desc versionDate="2005-01-14" xml:lang="en">provides the name of the organisation responsible for the publication or distribution of a
     bibliographic item.</desc>
       <content>
          <alternate minOccurs="1" maxOccurs="1">
@@ -3139,7 +3139,7 @@
    </elementSpec>
    <elementSpec ident="idno" module="header" mode="change">
       <desc versionDate="2010-04-30" xml:lang="en">supplies any form of identifier used to identify some object,
-    such as a bibliographic item, a person, a title, an organization,
+    such as a bibliographic item, a person, a title, an organisation,
     etc. in a standardized way.</desc>
       <content>
          <textNode/>
@@ -4576,9 +4576,9 @@
       </attList>
       <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-            <category xml:id="parla.organization">
+            <category xml:id="parla.organisation">
                <catDesc xml:lang="en">
-                  <term>Organization</term>
+                  <term>Organisation</term>
                </catDesc>
                <catDesc xml:lang="bg">
                   <term>Организация</term>
@@ -4854,7 +4854,7 @@
          <attDef ident="hand" mode="delete"/>
       </attList>
       <exemplum xml:lang="en">
-         <p>Labels denote the existence of organizations and connected events:</p>
+         <p>Labels denote the existence of organisations and connected events:</p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <org xml:id="DZ" role="parliament" ana="#parla.national #parla.lower">
                <orgName xml:lang="sl" full="yes">Državni zbor Republike Slovenije</orgName>
@@ -5260,7 +5260,7 @@
    </elementSpec>
    <elementSpec ident="listOrg" module="namesdates" mode="change">
       <desc versionDate="2008-04-29" xml:lang="en">contains a list of elements, each of which provides information about an identifiable
-    organization.</desc>
+    organisation.</desc>
       <content>
          <sequence>
             <elementRef key="head" minOccurs="0" maxOccurs="unbounded"/>
@@ -5374,7 +5374,7 @@
    </elementSpec>
    <elementSpec ident="org" module="namesdates" mode="change">
       <desc versionDate="2007-06-14" xml:lang="en">provides information
-    about an identifiable organization such as a business, a tribe, or
+    about an identifiable organisation such as a business, a tribe, or
     any other grouping of people.</desc>
       <content>
          <sequence>
@@ -5398,7 +5398,6 @@
                <valItem ident="boardOfParliament"/>
                <valItem ident="coalition"/>
                <valItem ident="ngo"/>
-               <valItem ident="president"/>
                <valItem ident="institution"/>
                <valItem ident="senate"/>
                <valItem ident="committee"/>
@@ -5411,12 +5410,12 @@
                <valItem ident="nationalCouncil"/>
                <valItem ident="chamberOfThePeople"/>
                <valItem ident="chamberOfTheNations"/>
+               <valItem ident="europeanCommission"/>
                <valItem ident="europeanParliament"/>
-               <valItem ident="internationalOrganizations"/>
+               <valItem ident="europeanInstitution"/>
+               <valItem ident="internationalOrganisation"/>
                <valItem ident="boardOfDirectors"/>
                <valItem ident="ethnicCommunity"/>
-               <!-- No longer used -->
-               <!--valItem ident="independent"/-->
             </valList>
          </attDef>
          <!--org/@ana-->
@@ -5481,7 +5480,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="event" module="namesdates" mode="change">
-      <desc versionDate="2007-08-01" xml:lang="en">contains data relating to any kind of significant event associated with a person, place, or organization.</desc>
+      <desc versionDate="2007-08-01" xml:lang="en">contains data relating to any kind of significant event associated with a person, place, or organisation.</desc>
       <content>
          <elementRef key="label" minOccurs="1" maxOccurs="unbounded"/>
       </content>
@@ -5627,7 +5626,7 @@
    </elementSpec>
    <elementSpec ident="listRelation" module="namesdates" mode="change">
       <desc versionDate="2011-12-02" xml:lang="en">provides information about relationships identified amongst people, places, and
-    organizations, either informally as prose or as formally expressed relation links.</desc>
+    organisations, either informally as prose or as formally expressed relation links.</desc>
       <content>
          <elementRef key="relation" minOccurs="1" maxOccurs="unbounded"/>
       </content>
@@ -6221,51 +6220,55 @@
    </elementSpec>
    <elementSpec ident="affiliation" module="namesdates" mode="change">
       <desc versionDate="2005-01-14" xml:lang="en">contains an informal description of a person's present or past affiliation with some
-    organization, for example an employer or sponsor.</desc>
+    organisation, for example an employer or sponsor.</desc>
       <content>
          <elementRef key="roleName" minOccurs="0" maxOccurs="unbounded"/>
       </content>
       <attList>
          <attDef ident="role" mode="replace" usage="req">
             <valList type="closed">
-               <valItem ident="member"/>
-               <valItem ident="head"/>
-               <valItem ident="deputyHead"/>
-               <valItem ident="minister"/>
-               <valItem ident="substituteMP"/>
-               <valItem ident="associateMember"/>
-               <valItem ident="nonAttachedMember"/>
-               <valItem ident="ministerDelegate"/>
-               <valItem ident="ministerOfState"/>
-               <valItem ident="secretaryOfState"/>
-               <valItem ident="observer"/>
-               <valItem ident="verifier"/>
-               <valItem ident="vicePublicDefenderOfRights"/>
-               <valItem ident="headOfDelegation"/>
-               <valItem ident="presidiumMember"/>
-               <valItem ident="publicDefenderOfRights"/>
+               <valItem ident="academician"/>
                <valItem ident="alternateOfDelegation"/>
+               <valItem ident="associateMember"/>
+               <valItem ident="candidateChairman"/>
+               <valItem ident="constitutionalJudge"/>
+               <valItem ident="deputyHead"/>
+               <valItem ident="deputyMinister"/>
+               <valItem ident="head"/>
+               <valItem ident="member"/>
+               <valItem ident="minister"/>
+               <valItem ident="ministerDelegate"/>
+               <valItem ident="nonAttachedMember"/>
+               <valItem ident="observer"/>
+               <valItem ident="ombudsman"/>
+               <valItem ident="prosecutorGeneral"/>
+               <valItem ident="publicDefenderOfRights"/>
                <valItem ident="replacement"/>
                <valItem ident="representative"/>
-               <valItem ident="academician"/>
-               <valItem ident="candidateChairman"/>
-               <valItem ident="chairperson"/>
-               <valItem ident="chiefInspector"/>
-               <valItem ident="commander"/>
-               <valItem ident="constitutionalJudge"/>
-               <valItem ident="deputyChief"/>
-               <valItem ident="deputyMinister"/>
-               <valItem ident="deputyPrimeMinister"/>
-               <valItem ident="director"/>
-               <valItem ident="headOfDepartment"/>
-               <valItem ident="leader"/>
-               <valItem ident="ombudsman"/>
-               <valItem ident="presidentEP"/>
-               <valItem ident="primeMinister"/>
-               <valItem ident="prosecutorGeneral"/>
                <valItem ident="secretary"/>
                <valItem ident="secretaryGeneral"/>
-               <valItem ident="viceDirector"/>
+               <valItem ident="secretaryOfState"/>
+               <valItem ident="verifier"/>
+               <valItem ident="vicePublicDefenderOfRights"/>
+               <!-- Old roles, no longer valid: -->
+               <!--valItem ident="candidateMP"/-->
+               <!--valItem ident="chairperson"/-->
+               <!--valItem ident="chiefInspector"/-->
+               <!--valItem ident="commander"/-->
+               <!--valItem ident="deputyChief"/-->
+               <!--valItem ident="deputyPrimeMinister"/-->
+               <!--valItem ident="director"/-->
+               <!--valItem ident="headOfDelegation"/-->
+               <!--valItem ident="headOfDepartment"/-->
+               <!--valItem ident="leader"/-->
+               <!--valItem ident="ministerOfState"/-->
+               <!--valItem ident="presidentEP"/-->
+               <!--valItem ident="presidiumMember"/-->
+               <!--valItem ident="primeMinister"/-->
+               <!--valItem ident="substituteMP"/-->
+               <!--valItem ident="viceChairman"/-->
+               <!--valItem ident="viceDirector"/-->
+               <!--valItem ident="vicePresident"/-->
             </valList>
          </attDef>
          <!--affiliation/@ref-->
