@@ -32,13 +32,13 @@
         <xsl:variable name="from" select="mk:get_from(.)"/>
         <xsl:variable name="to" select="mk:get_to(.)"/>
         <xsl:variable name="ana" select="@ana"/>
-        <xsl:variable name="text" select="normalize-space(./tei:roleName/text())"/>
+        <xsl:variable name="text" select="./tei:roleName[1]/text()/normalize-space()"/>
 
         <xsl:variable name="aff-duplicit-diff-ana" select="following-sibling::tei:affiliation
                                                   [@role='member'][@role=$role]
                                                   [@ref = $ref]
                                                   [@ana != $ana]
-                                                  [not(./tei:roleName/text()) or normalize-space(./tei:roleName/text()) = $text]
+                                                  [not(./tei:roleName/text()) or ./tei:roleName/text()/normalize-space() = $text]
                                                   [$from=mk:get_from(.) and $to = mk:get_to(.)]"/>
         <xsl:choose>
           <!-- ========= remove: ========= -->
@@ -46,7 +46,7 @@
           <xsl:when test="preceding-sibling::tei:affiliation
                                                   [@role='member'][@role=$role]
                                                   [@ref = $ref]
-                                                  [not(./tei:roleName/text()) or normalize-space(./tei:roleName/text()) = $text]
+                                                  [not(./tei:roleName/text()) or ./tei:roleName/text()/normalize-space() = $text]
                                                   [$from=mk:get_from(.) and $to = mk:get_to(.)]">
             <xsl:message>removing: <xsl:copy-of select="."/> - affiliation is duplicit</xsl:message>
           </xsl:when>
@@ -55,7 +55,7 @@
                                                   [@role=$role]
                                                   [@ref = $ref]
                                                   [not(@ana) or @ana = $ana]
-                                                  [not(./tei:roleName/text()) or normalize-space(./tei:roleName/text()) = $text]
+                                                  [not(./tei:roleName/text()) or ./tei:roleName/text()/normalize-space() = $text]
                                                   [$from >= mk:get_from(.) and  mk:get_to(.) >= $to and not($from = mk:get_from(.) and $to = mk:get_to(.))]">
             <xsl:message>removing: <xsl:copy-of select="."/> - affiliation is covered with other affiliation</xsl:message>
           </xsl:when>
@@ -64,7 +64,7 @@
                                                   [@role='member'][@role=$role]
                                                   [@ref = $ref]
                                                   [not(@ana) or @ana = $ana]
-                                                  [not(./tei:roleName/text()) or normalize-space(./tei:roleName/text()) = $text]
+                                                  [not(./tei:roleName/text()) or ./tei:roleName/text()/normalize-space() = $text]
                                                   [($from > mk:get_from(.) and  mk:get_to(.) > $from) or ($to > mk:get_from(.) and  mk:get_to(.) > $to)]">
             <xsl:message>removing: <xsl:copy-of select="."/> - preceding affiliation overlapping</xsl:message>
           </xsl:when>
@@ -88,7 +88,7 @@
                                                   [@role='member'][@role=$role]
                                                   [@ref = $ref]
                                                   [not(@ana) or @ana = $ana]
-                                                  [not(./tei:roleName/text()) or normalize-space(./tei:roleName/text()) = $text]
+                                                  [not(./tei:roleName/text()) or ./tei:roleName/text()/normalize-space() = $text]
                                                   [($from > mk:get_from(.) and  mk:get_to(.) > $from) or ($to > mk:get_from(.) and  mk:get_to(.) > $to)]">
 
             <xsl:variable name="new-interval" select="mk:get_overlapping_affiliations_interval(./parent::*,$role,$ref,$ana,$text,$from,$to)"/>
@@ -99,7 +99,7 @@
                                                   [@role='member'][@role=$role]
                                                   [@ref = $ref]
                                                   [not(@ana) or @ana = $ana]
-                                                  [not(./tei:roleName/text()) or normalize-space(./tei:roleName/text()) = $text]
+                                                  [not(./tei:roleName/text()) or ./tei:roleName/text()/normalize-space() = $text]
                                                   [mk:get_from(.) >= $new-from and  $new-to >= mk:get_to(.)]"/>
 
             <xsl:choose>
@@ -168,7 +168,7 @@
                                                        [@role='member'][@role=$role]
                                                        [@ref = $ref]
                                                        [not(@ana) or @ana = $ana]
-                                                       [not(./tei:roleName/text()) or normalize-space(./tei:roleName/text()) = $text]
+                                                       [not(./tei:roleName/text()) or ./tei:roleName/text()/normalize-space() = $text]
                                                        [($from > mk:get_from(.) and  mk:get_to(.) > $from) or ($to > mk:get_from(.) and  mk:get_to(.) > $to)][1]"/>
     <xsl:message><xsl:text>     </xsl:text><xsl:copy-of select="$extend-iterval-node"/></xsl:message>
     <xsl:choose>
