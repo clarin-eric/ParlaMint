@@ -439,14 +439,19 @@ DEV-data-XX-reset-data-XX = $(addprefix DEV-data-XX-reset-data-, $(PARLIAMENTS-v
 DEV-data-XX-reset-data: .update_DATA_XX_REP $(DEV-data-XX-reset-data-XX)
 ##!DEV-data-XX-reset-data-XX ##
 $(DEV-data-XX-reset-data-XX): DEV-data-XX-reset-data-%: %
-	git -C ${DATA_XX_REP} pull origin data
+	git -C ${DATA_XX_REP} checkout data
+	git -C ${DATA_XX_REP} pull
 	git -C ${DATA_XX_REP} checkout data-$<
 	# this avoid merge conflicts, we just want to overwrite xml content with content drom data branch:
 	rm -f ${DATA_XX_REP}/${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<*.xml
-	git -C ${DATA_XX_REP} checkout data ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<*.xml
+	git -C ${DATA_XX_REP} checkout data ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/
+	# git -C ${DATA_XX_REP} ls-files --deleted|xargs -C ${DATA_XX_REP} git rm
 	git -C ${DATA_XX_REP} commit -m "reset xml content of data-$< with data" \
 	                             ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<*.xml \
 	  || echo "No change in xml data"
+	git -C ${DATA_XX_REP} restore --staged ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}
+	git -C ${DATA_XX_REP} ls-files --modified | xargs git -C ${DATA_XX_REP} checkout
+	git -C ${DATA_XX_REP} ls-files --others --exclude-standard |sed "s@^@${DATA_XX_REP}/@"| xargs -I {} rm {}
 	# merge other changes to keep data-XX branch updated
 	git -C ${DATA_XX_REP} merge data
 
@@ -470,8 +475,9 @@ $(DEV-data-XX-fix-XX): DEV-data-XX-fix-%: % DEV-data-XX-reset-data-%
 	rsync -av ${DATA_XX_REP}/${WORKINGDIR}/fix-v2tov3-full/ParlaMint-$<${CORPUSDIR_SUFFIX}/ \
 	          ${DATA_XX_REP}/${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}
 	git -C ${DATA_XX_REP} status
-	git -C ${DATA_XX_REP} commit -m "fix data-$< with  v2tov3 [${CURRENT_COMMIT}]" \
-	                             ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<*.xml
+	#git -C ${DATA_XX_REP} commit -m "fix data-$< with  v2tov3 [${CURRENT_COMMIT}]" \
+	#                             ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<*.xml
+	git -C ${DATA_XX_REP} commit -a -m "fix data-$< with  v2tov3 [${CURRENT_COMMIT}]"
 	echo "to push changes:"
 	echo "git -C ${DATA_XX_REP} push --set-upstream origin data-$<"
 
