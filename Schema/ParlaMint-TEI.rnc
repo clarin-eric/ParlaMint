@@ -74,8 +74,6 @@ publicationStmt =
   element publicationStmt {
     publisher,
     idno,
-    # bg is missing pubPlace but we don't really need it
-    element pubPlace { (text, ref)+ }?,
     element availability {
       attribute status { "free" },
       element licence {
@@ -180,19 +178,21 @@ publisher =
   }
 funder =
   element funder {
-    element orgName { lang.att, text }+
+    element orgName { lang.att, text }+,
+    ref?
   }
 idno =
   element idno {
     lang.att,
     attribute type { "URI" | "VIAF" | xsd:Name },
     attribute subtype { xsd:Name }?,
-    xsd:anyURI
+    xsd:anyURI { pattern = "https?://.+" }
   }
 name-header =
   element name {
     attribute type { xsd:Name }?,
     attribute key { xsd:Name }?,
+    lang.att,
     text
   }
 # Paragraphs. Appear in the header only.
@@ -234,14 +234,14 @@ note =
   element note {
     global.atts,
     attribute type { xsd:NCName }?,
-    (text | time)
+    (time | pb | text)+
   }
 pb = element pb { global.atts, corresp.att, source.att, empty }
 comment =
   note
   | element gap {
       attribute reason { "editorial" | "inaudible" },
-      desc
+      desc+
     }
   | element kinesic {
       attribute type {
@@ -257,7 +257,7 @@ comment =
         | "noise"
       }?,
       who.att?,
-      desc
+      desc+
     }
   | element incident {
       attribute type {
@@ -270,7 +270,7 @@ comment =
         | "editorial"
       }?,
       who.att?,
-      desc
+      desc+
     }
   | element vocal {
       attribute type {
@@ -287,15 +287,23 @@ comment =
         | "signal"
       },
       who.att?,
-      desc
+      desc+
     }
-desc = element desc { lang.att?, text }
+desc = element desc { lang.att, text }
 # GENERALLY USEFUL DEFINITIONS
 head =
   element head {
     attribute type { xsd:token }?,
     global.atts,
-    (note | pb | text)+
+    text
+    # oneOrMore>
+    #   <choice>
+    #     <ref name="note"/>
+    #     <ref name="pb"/>
+    #     <text/>
+    #   </choice>
+    # </oneOrMore
+    
   }
 ref =
   element ref {
@@ -315,10 +323,12 @@ media =
 ## The time element
 time = element time { temporal.atts, text }
 
-## A simple date, just with @when
+## A simple date, just with @when. It can also have textual
+##     content with the date type-set according to the object language.
 date-simple = element date { when.att, text }
 
-## A date with with all possible temporal information.
+## A date with with all possible temporal information. It can also have textual
+##     content with the date type-set according to the object language.
 date = element date { global.atts, temporal.atts, ana.att?, text }
 annotated-text = mixed { ref* }
 temporal.val = xsd:dateTime | xsd:date | xsd:gYearMonth | xsd:gYear
@@ -335,7 +345,7 @@ who.att = attribute who { xsd:anyURI }
 ref.att = attribute ref { xsd:anyURI }?
 global.atts =
   id.att?,
-  lang.att?,
+  lang.att,
   attribute n { xsd:string }?
 
 ## "analysis" indicates one or more elements

@@ -129,15 +129,6 @@
       <a:documentation>Publications statement.</a:documentation>
       <ref name="publisher"/>
       <ref name="idno"/>
-      <!-- bg is missing pubPlace but we don't really need it -->
-      <optional> 
-	<element name="pubPlace">
-	  <oneOrMore>
-	    <text/>
-	    <ref name="ref"/>
-	  </oneOrMore>
-	</element>
-      </optional>
       <element name="availability">
 	<attribute name="status">
 	  <value>free</value>
@@ -351,6 +342,9 @@
 	  <text/>
 	</element>
       </oneOrMore>
+      <optional>
+	<ref name="ref"/>
+      </optional>
     </element>
   </define>
 
@@ -369,7 +363,9 @@
 	  <data type="Name"/>
 	</attribute>
       </optional>
-      <data type="anyURI"/>
+      <data type="anyURI">
+	<param name="pattern">https?://.+</param>
+      </data>
     </element>
   </define>
   
@@ -385,6 +381,7 @@
 	  <data type="Name"/>
 	</attribute>
       </optional>
+      <ref name="lang.att"/>
       <text/>
     </element>
   </define>
@@ -495,10 +492,13 @@
 	  <data type="NCName"/>
 	</attribute>
       </optional>
-      <choice>
-        <text/>
-	<ref name="time"/>
-      </choice>
+      <oneOrMore>
+	<choice>
+	  <ref name="time"/>
+	  <ref name="pb"/>
+          <text/>
+	</choice>
+      </oneOrMore>
     </element>
   </define>
   
@@ -521,7 +521,9 @@
 	    <value>inaudible</value>
 	  </choice>
 	</attribute>
-	<ref name="desc"/>
+	<oneOrMore>
+	  <ref name="desc"/>
+	</oneOrMore>
       </element>
       <element name="kinesic">
 	<optional>
@@ -543,7 +545,9 @@
 	<optional>
 	  <ref name="who.att"/>
 	</optional>
-	<ref name="desc"/>
+	<oneOrMore>
+	  <ref name="desc"/>
+	</oneOrMore>
       </element>
       <element name="incident">
 	<optional>
@@ -562,7 +566,9 @@
 	<optional>
 	  <ref name="who.att"/>
 	</optional>
-	<ref name="desc"/>
+	<oneOrMore>
+	  <ref name="desc"/>
+	</oneOrMore>
       </element>
       <element name="vocal">
 	<attribute name="type">
@@ -583,16 +589,16 @@
 	<optional>
 	  <ref name="who.att"/>
 	</optional>
-	<ref name="desc"/>
+	<oneOrMore>
+	  <ref name="desc"/>
+	</oneOrMore>
       </element>
     </choice>
   </define>
   
   <define name="desc">
     <element name="desc">
-      <optional>
-	<ref name="lang.att"/>
-      </optional>
+      <ref name="lang.att"/>
       <text/>
     </element>
   </define>
@@ -650,7 +656,8 @@
   </define>
   
   <define name="date-simple">
-    <a:documentation>A simple date, just with @when</a:documentation>
+    <a:documentation>A simple date, just with @when. It can also have textual
+    content with the date type-set according to the object language.</a:documentation>
     <element name="date">
       <ref name="when.att"/>
       <text/>
@@ -658,7 +665,8 @@
   </define>
   
   <define name="date">
-    <a:documentation>A date with with all possible temporal information.</a:documentation>
+    <a:documentation>A date with with all possible temporal information. It can also have textual
+    content with the date type-set according to the object language.</a:documentation>
     <element name="date">
       <ref name="global.atts"/>
       <ref name="temporal.atts"/>
@@ -738,9 +746,7 @@
     <optional>
       <ref name="id.att"/>
     </optional>
-    <optional>
-      <ref name="lang.att"/>
-    </optional>
+    <ref name="lang.att"/>
     <optional>
       <attribute name="n">
         <data type="string"/>

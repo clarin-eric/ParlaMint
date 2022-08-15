@@ -191,7 +191,7 @@
               <value>government</value>
               <value>parliament</value>
               <value>politicalParty</value>
-	      <value>politicalGroup</value>
+	      <value>parliamentaryGroup</value>
 	      <a:documentation>The following used only by LT:</a:documentation>
               <value>conferenceOfChairs</value>
               <value>boardOfParliament</value>
@@ -199,7 +199,6 @@
               <value>coalition</value>
               <value>ngo</value>
 	      <a:documentation>The following used only by CZ:</a:documentation>
-	      <value>president</value>
 	      <value>institution</value>
 	      <value>senate</value>
 	      <value>committee</value>
@@ -213,11 +212,13 @@
 	      <value>chamberOfThePeople</value>
 	      <value>chamberOfTheNations</value>
 	      <value>europeanParliament</value>
-	      <value>internationalOrganizations</value>
+	      <value>internationalOrganisation</value>
 	      <value>boardOfDirectors</value>
 	      <a:documentation>The following used only by SI:</a:documentation>
               <value>ethnicCommunity</value>
-              <value>independent</value>
+	      <a:documentation>The following used only by AT:</a:documentation>
+	      <value>europeanCommission</value>
+	      <value>europeanInstitution</value>
 	    </choice>
 	  </attribute>
 	  <oneOrMore>
@@ -253,7 +254,7 @@
       <attribute name="full">
 	<choice>
 	  <value>yes</value>
-	  <value>init</value>
+	  <value>abb</value>
 	</choice>
       </attribute>
       <text/>
@@ -272,7 +273,7 @@
   </define>
 
   <define name="listRelation">
-    <a:documentation>Currently used to link political parties in -si: 3 relations.</a:documentation>
+    <a:documentation>Used to specify relations between politicalParties and/or parliamentaryGroups.</a:documentation>
     <element name="listRelation">
       <oneOrMore>
 	<element name="relation">
@@ -288,6 +289,7 @@
 	      <value>opposition</value>
 	      <value>renaming</value>
 	      <value>successor</value>
+	      <value>representing</value>
 	    </choice>
 	  </attribute>
 	  <choice>
@@ -335,9 +337,11 @@
 		<value>M</value>
 		<value>F</value>
 		<value>U</value>
+		<value>O</value>
+		<value>N</value>
 	      </choice>
 	    </attribute>
-	    <text/>
+	    <empty/>
 	  </element>
 	</optional>
 	<optional>
@@ -425,59 +429,42 @@
       <attribute name="role">
 	<choice>
 	  <value>member</value>
-	  <value>president</value>
-	  <value>vicePresident</value>
-	  <value>chairman</value>
-	  <value>viceChairman</value>
+	  <value>head</value>
+	  <value>deputyHead</value>
 	  <value>minister</value>
-	  <value>MP</value>
-	  <value>substituteMP</value>
 	  
 	  <a:documentation>The following used only by FR:</a:documentation>
 	  <value>associateMember</value>
 	  <value>nonAttachedMember</value>
 	  <value>ministerDelegate</value>
-	  <value>ministerOfState</value>
 	  <value>secretaryOfState</value>
 	  
 	  <a:documentation>The following used only by CZ:</a:documentation>
 	  <value>observer</value>
 	  <value>verifier</value>
 	  <value>vicePublicDefenderOfRights</value>
-	  <value>headOfDelegation</value>
-	  <value>presidiumMember</value>
 	  <value>publicDefenderOfRights</value>
 	  <value>alternateOfDelegation</value>
 	  <value>replacement</value>
-	  <value>candidateMP</value>
+	  <value>representative</value>
 	  
 	  <a:documentation>The following used only by BG:</a:documentation>
 	  <value>academician</value>
 	  <value>candidateChairman</value>
-	  <value>chairperson</value>
-	  <value>chiefInspector</value>
-	  <value>commander</value>
 	  <value>constitutionalJudge</value>
-	  <value>deputyChief</value>
 	  <value>deputyMinister</value>
-	  <value>deputyPrimeMinister</value>
-	  <value>director</value>
-	  <value>headOfDepartment</value>
-	  <value>leader</value>
 	  <value>ombudsman</value>
-	  <value>presidentEP</value>
-	  <value>primeMinister</value>
 	  <value>prosecutorGeneral</value>
 	  <value>secretary</value>
 	  <value>secretaryGeneral</value>
-	  <value>viceChairman</value>
-	  <value>viceDirector</value>
-	  
-	  <a:documentation>The following used only by GB:</a:documentation>
-          <value>speaker</value>
 	</choice>
       </attribute>
-      <text/>
+      <zeroOrMore>
+	<element name="roleName">
+	  <ref name="lang.att"/>
+	  <text/>
+	</element>
+      </zeroOrMore>
     </element>
   </define>
 
@@ -550,8 +537,8 @@
   <define name="life-event.content">
     <a:documentation>The content of elements that describe life
     events: they can have an partial date (e.g. year only) in temporal
-    attributes, and have as content plain text giving the date and
-    possibly the placeName where the event happened.</a:documentation>
+    attributes. The content can be empty, or gives the placeName where
+    the event happened.</a:documentation>
     <attribute name="when">
       <choice>
 	<data type="date"/>
@@ -559,14 +546,12 @@
 	<data type="gYear"/>
       </choice>
     </attribute>
-    <mixed>
-      <zeroOrMore>
-	<element name="placeName">
-	  <ref name="ref.att"/>
-	  <text/>
-	</element>
-      </zeroOrMore>
-    </mixed>
+    <optional>
+      <element name="placeName">
+	<ref name="ref.att"/>
+	<text/>
+      </element>
+    </optional>
   </define>
   
   <define name="event">

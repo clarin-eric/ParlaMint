@@ -88,7 +88,7 @@ listOrg =
         | "politicalParty"
         | 
           ## The following used only by LT:
-          "politicalGroup"
+          "parliamentaryGroup"
         | "conferenceOfChairs"
         | 
           ## The following used only by BG:
@@ -97,7 +97,6 @@ listOrg =
         | 
           ## The following used only by CZ:
           "ngo"
-        | "president"
         | "institution"
         | "senate"
         | "committee"
@@ -111,12 +110,15 @@ listOrg =
         | "chamberOfThePeople"
         | "chamberOfTheNations"
         | "europeanParliament"
-        | "internationalOrganizations"
+        | "internationalOrganisation"
         | 
           ## The following used only by SI:
           "boardOfDirectors"
-        | "ethnicCommunity"
-        | "independent"
+        | 
+          ## The following used only by AT:
+          "ethnicCommunity"
+        | "europeanCommission"
+        | "europeanInstitution"
       },
       orgName+,
       event*,
@@ -132,19 +134,23 @@ orgName =
     
     ## Used when "the same" party changes its name
     (temporal.atts?),
-    attribute full { "yes" | "init" },
+    attribute full { "yes" | "abb" },
     text
   }
 listEvent = element listEvent { head*, event+ }
 
-## Currently used to link political parties in -si: 3 relations.
+## Used to specify relations between politicalParties and/or parliamentaryGroups.
 listRelation =
   element listRelation {
     element relation {
       ana.att?,
       temporal.atts?,
       attribute name {
-        "coalition" | "opposition" | "renaming" | "successor"
+        "coalition"
+        | "opposition"
+        | "renaming"
+        | "successor"
+        | "representing"
       },
       (attribute mutual { anyURIs }
        | (attribute active { anyURIs },
@@ -160,8 +166,8 @@ person =
     ##	or, rather, scripts. Used by bg.
     (persName+),
     (element sex {
-       attribute value { "M" | "F" | "U" },
-       text
+       attribute value { "M" | "F" | "U" | "O" | "N" },
+       empty
      }?
      & element birth { life-event.content }?
      & element death { life-event.content }?
@@ -191,58 +197,36 @@ affiliation =
     ref.att?,
     attribute role {
       "member"
-      | "president"
-      | "vicePresident"
-      | "chairman"
-      | "viceChairman"
-      | "minister"
-      | "MP"
+      | "head"
+      | "deputyHead"
       | 
         ## The following used only by FR:
-        "substituteMP"
+        "minister"
       | "associateMember"
       | "nonAttachedMember"
       | "ministerDelegate"
-      | "ministerOfState"
       | 
         ## The following used only by CZ:
         "secretaryOfState"
       | "observer"
       | "verifier"
       | "vicePublicDefenderOfRights"
-      | "headOfDelegation"
-      | "presidiumMember"
       | "publicDefenderOfRights"
       | "alternateOfDelegation"
       | "replacement"
       | 
         ## The following used only by BG:
-        "candidateMP"
+        "representative"
       | "academician"
       | "candidateChairman"
-      | "chairperson"
-      | "chiefInspector"
-      | "commander"
       | "constitutionalJudge"
-      | "deputyChief"
       | "deputyMinister"
-      | "deputyPrimeMinister"
-      | "director"
-      | "headOfDepartment"
-      | "leader"
       | "ombudsman"
-      | "presidentEP"
-      | "primeMinister"
       | "prosecutorGeneral"
       | "secretary"
       | "secretaryGeneral"
-      | "viceChairman"
-      | 
-        ## The following used only by GB:
-        "viceDirector"
-      | "speaker"
     },
-    text
+    element roleName { lang.att, text }*
   }
 occupation = element occupation { global.atts, temporal.atts?, text }
 education = element education { global.atts, temporal.atts?, text }
@@ -271,13 +255,11 @@ langUsage =
 
 ## The content of elements that describe life
 ##     events: they can have an partial date (e.g. year only) in temporal
-##     attributes, and have as content plain text giving the date and
-##     possibly the placeName where the event happened.
+##     attributes. The content can be empty, or gives the placeName where
+##     the event happened.
 life-event.content =
   attribute when { xsd:date | xsd:gYearMonth | xsd:gYear },
-  mixed {
-    element placeName { ref.att, text }*
-  }
+  element placeName { ref.att, text }?
 event =
   element event {
     global.atts,
