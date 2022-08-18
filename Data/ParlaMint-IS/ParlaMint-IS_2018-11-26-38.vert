@@ -1,4 +1,4 @@
-<speech id="ParlaMint-IS_2018-11-26-38.u1" text_id="ParlaMint-IS_2018-11-26-38" subcorpus="Reference" house="" term="23" session="149" meeting="38" sitting="" agenda="" from="2018-11-26" to="2018-11-26" title="Speeches in the national parliament of Iceland, 23. term, regular meeting 149-38, 26.11.2018." speaker_role="Regular" speaker_id="JonValdimarsson" speaker_name="Valdimarsson, Jón Steindór" speaker_type="MP" speaker_party="V" speaker_party_name="Viðreisn" party_status="Opposition" speaker_gender="M" speaker_birth="1958">
+<speech id="ParlaMint-IS_2018-11-26-38.u1" text_id="ParlaMint-IS_2018-11-26-38" subcorpus="Reference" house="" term="23" session="149" meeting="38" sitting="" agenda="" from="2018-11-26" to="2018-11-26" title="Speeches in the national parliament of Iceland, 23. term, regular meeting 149-38, 26.11.2018." speaker_role="Regular" speaker_id="JonValdimarsson" speaker_name="Valdimarsson, Jón Steindór" speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="1958">
 <p id="ParlaMint-IS_2018-11-26-38.seg1" lang="">
 <s id="ParlaMint-IS_2018-11-26-38.seg1.1">
 Herra	Herra	herra	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	1	root	-	-	-	-
@@ -30,9 +30,7 @@ ekki	ekki	ekki	ADV		10	advmod	eiga	VERB	VerbForm=Sup Voice=Act	11
 átt	átt	eiga	VERB	VerbForm=Sup Voice=Act	11	acl	svíða	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	5
 samneyti	samneyti	samneyti	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Sing	12	obj	eiga	VERB	VerbForm=Sup Voice=Act	11
 við	við	við	ADP		13	case	VG	NOUN	Case=Acc Definite=Ind Gender=Fem Number=Sing	14
-<name type="ORG">
 VG	VG	VG	NOUN	Case=Acc Definite=Ind Gender=Fem Number=Sing	14	obl	eiga	VERB	VerbForm=Sup Voice=Act	11
-</name>
 í	í	í	ADP		15	case	ríkisstjórn	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Sing	16
 ríkisstjórn	ríkisstjórn	ríkisstjórn	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Sing	16	obl	eiga	VERB	VerbForm=Sup Voice=Act	11
 <g/>
@@ -50,9 +48,7 @@ gaman	gaman	gaman	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	8	nsubj	hug
 að	að	að	PART		9	mark	VG	NOUN	Case=Acc Definite=Ind Gender=Masc Number=Sing	12
 vera	vera	vera	AUX	VerbForm=Inf Voice=Act	10	cop	að	PART		9
 með	með	með	ADP		11	case	VG	NOUN	Case=Acc Definite=Ind Gender=Masc Number=Sing	12
-<name type="ORG">
 VG	VG	VG	NOUN	Case=Acc Definite=Ind Gender=Masc Number=Sing	12	obl	hugsa	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
-</name>
 í	í	í	ADP		13	case	ríkisstjórn	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Sing	14
 ríkisstjórn	ríkisstjórn	ríkisstjórn	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Sing	14	obl	hugsa	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 <g/>
@@ -70,10 +66,8 @@ halda	halda	halda	VERB	VerbForm=Inf Voice=Act	6	acl	langa	VERB	Mood=Ind Number=S
 áfram	áfram	áfram	ADV		7	advmod	halda	VERB	VerbForm=Inf Voice=Act	6
 aftur	aftur	aftur	ADV		8	advmod	halda	VERB	VerbForm=Inf Voice=Act	6
 með	með	með	ADP		9	case	VG	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Sing	10
-<name type="ORG">
 VG	VG	VG	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Sing	10	obl	halda	VERB	VerbForm=Inf Voice=Act	6
 <g/>
-</name>
 .	.	.	PUNCT		11	punct	VG	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Sing	10
 </s>
 <s id="ParlaMint-IS_2018-11-26-38.seg2.2">
@@ -97,12 +91,12 @@ segja	segja	segja	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voi
 líka	líka	líka	ADV		3	advmod	segja	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 í	í	í	ADP		4	case	stefna	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Sing	5
 stefnu	stefnu	stefna	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Sing	5	obl	segja	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
-sinni	sinni	sinn	PRON	Case=Dat Gender=Fem Number=Sing PronType=Prs	6	nmod:poss	stefna	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Sing	5
+sinni	sinni	sinn	PRON	Case=Dat Gender=Fem Number=Sing PronType=Prs	6	nmod_poss	stefna	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Sing	5
 <g/>
 ,	,	,	PUNCT		7	punct	sinn	PRON	Case=Dat Gender=Fem Number=Sing PronType=Prs	6
 með	með	með	ADP		8	case	leyfi	NOUN	Case=Dat Definite=Ind Gender=Neut Number=Sing	9
 leyfi	leyfi	leyfi	NOUN	Case=Dat Definite=Ind Gender=Neut Number=Sing	9	obl	segja	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
-forseta	forseta	forseti	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Sing	10	nmod:poss	leyfi	NOUN	Case=Dat Definite=Ind Gender=Neut Number=Sing	9
+forseta	forseta	forseti	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Sing	10	nmod_poss	leyfi	NOUN	Case=Dat Definite=Ind Gender=Neut Number=Sing	9
 <g/>
 :	:	:	PUNCT		11	punct	forseti	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Sing	10
 </s>
@@ -147,7 +141,7 @@ veiðiaðferðum	veiðiaðferðum	veiðiaðferð	NOUN	Case=Dat Definite=Ind Gend
 ,	,	,	PUNCT		31	punct	veiðiaðferð	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Plur	30
 og	og	og	CCONJ		32	cc	vegur	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Sing	34
 hins	hins	hinn	DET	Case=Gen Gender=Masc Number=Sing PronType=Dem	33	det	vegur	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Sing	34
-vegar	vegar	vegur	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Sing	34	nmod:poss	uppboð	NOUN	Case=Dat Definite=Ind Gender=Neut Number=Sing	36
+vegar	vegar	vegur	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Sing	34	nmod_poss	uppboð	NOUN	Case=Dat Definite=Ind Gender=Neut Number=Sing	36
 í	í	í	ADP		35	case	vegur	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Sing	34
 uppboði	uppboði	uppboð	NOUN	Case=Dat Definite=Ind Gender=Neut Number=Sing	36	conj	fela	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Mid	3
 <g/>
@@ -156,7 +150,7 @@ að	að	að	SCONJ		38	mark	bundinn	VERB	Case=Nom Definite=Ind Degree=Pos Gender=
 hluta	hluta	hluti	NOUN	Case=Dat Definite=Ind Gender=Masc Number=Sing	39	nsubj	bundinn	VERB	Case=Nom Definite=Ind Degree=Pos Gender=Neut Number=Plur	40
 bundin	bundin	bundinn	VERB	Case=Nom Definite=Ind Degree=Pos Gender=Neut Number=Plur	40	ccomp	fela	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Mid	3
 svæðum	svæðum	svæði	NOUN	Case=Dat Definite=Ind Gender=Neut Number=Plur	41	obl	bundinn	VERB	Case=Nom Definite=Ind Degree=Pos Gender=Neut Number=Plur	40
-landsins	landsins	land	NOUN	Case=Gen Definite=Def Gender=Neut Number=Sing	42	nmod:poss	svæði	NOUN	Case=Dat Definite=Ind Gender=Neut Number=Plur	41
+landsins	landsins	land	NOUN	Case=Gen Definite=Def Gender=Neut Number=Sing	42	nmod_poss	svæði	NOUN	Case=Dat Definite=Ind Gender=Neut Number=Plur	41
 og	og	og	CCONJ		43	cc	sveitarfélag	NOUN	Case=Dat Definite=Ind Gender=Neut Number=Plur	44
 sveitarfélögum	sveitarfélögum	sveitarfélag	NOUN	Case=Dat Definite=Ind Gender=Neut Number=Plur	44	conj	svæði	NOUN	Case=Dat Definite=Ind Gender=Neut Number=Plur	41
 og	og	og	CCONJ		45	cc	bjóða	VERB	Case=Nom Gender=Neut Number=Sing VerbForm=Part Voice=Act	48
@@ -185,7 +179,7 @@ kveðið	kveðið	kveða	VERB	Case=Nom Gender=Neut Number=Sing VerbForm=Part Voi
 á	á	á	ADP		11	case	eignarhald	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Sing	13
 um	um	um	ADP		12	case	eignarhald	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Sing	13
 eignarhald	eignarhald	eignarhald	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Sing	13	obl	kveða	VERB	Case=Nom Gender=Neut Number=Sing VerbForm=Part Voice=Act	10
-þjóðarinnar	þjóðarinnar	þjóð	NOUN	Case=Gen Definite=Def Gender=Fem Number=Sing	14	nmod:poss	eignarhald	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Sing	13
+þjóðarinnar	þjóðarinnar	þjóð	NOUN	Case=Gen Definite=Def Gender=Fem Number=Sing	14	nmod_poss	eignarhald	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Sing	13
 <g/>
 ,	,	,	PUNCT		15	punct	þjóð	NOUN	Case=Gen Definite=Def Gender=Fem Number=Sing	14
 að	að	að	SCONJ		16	mark	óframseljanlegur	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing	19
@@ -196,7 +190,7 @@ og	og	og	CCONJ		20	cc	óframseljanlegur	ADJ	Case=Nom Definite=Ind Degree=Pos Gen
 það	það	sá	DET	Case=Acc Gender=Neut Number=Sing PronType=Dem	21	det	veiðigjald	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Sing	22
 veiðigjald	veiðigjald	veiðigjald	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Sing	22	amod	óframseljanlegur	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing	19
 sem	sem	sem	SCONJ		23	mark	rukka	VERB	Case=Nom Gender=Neut Number=Sing VerbForm=Part Voice=Act	24
-rukkað	rukkað	rukka	VERB	Case=Nom Gender=Neut Number=Sing VerbForm=Part Voice=Act	24	acl:relcl	veiðigjald	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Sing	22
+rukkað	rukkað	rukka	VERB	Case=Nom Gender=Neut Number=Sing VerbForm=Part Voice=Act	24	acl_relcl	veiðigjald	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Sing	22
 verður	verður	verða	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	25	aux	.	PUNCT		26
 <g/>
 .	.	.	PUNCT		26	punct	rukka	VERB	Case=Nom Gender=Neut Number=Sing VerbForm=Part Voice=Act	24
@@ -214,10 +208,10 @@ vera	vera	vera	AUX	VerbForm=Inf Voice=Act	4	cop	finna	VERB	Mood=Ind Number=Sing 
 eins	eins	eins	ADV		5	advmod	finna	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Mid	2
 og	og	og	ADP		6	case	lesa	VERB	VerbForm=Sup Voice=Act	7
 lesið	lesið	lesa	VERB	VerbForm=Sup Voice=Act	7	obl	eins	ADV		5
-upp	upp	upp	ADP		8	compound:prt	lesa	VERB	VerbForm=Sup Voice=Act	7
+upp	upp	upp	ADP		8	compound_prt	lesa	VERB	VerbForm=Sup Voice=Act	7
 úr	úr	úr	ADP		9	case	tillaga	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Plur	10
 tillögum	tillögum	tillaga	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Plur	10	obl	lesa	VERB	VerbForm=Sup Voice=Act	7
-okkar	okkar	ég	PRON	Case=Gen Number=Plur Person=1 PronType=Prs	11	nmod:poss	tillaga	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Plur	10
+okkar	okkar	ég	PRON	Case=Gen Number=Plur Person=1 PronType=Prs	11	nmod_poss	tillaga	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Plur	10
 sem	sem	sem	SCONJ		12	mark	minna	VERB	Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin Voice=Mid	14
 ég	ég	ég	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	13	nsubj	minna	VERB	Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin Voice=Mid	14
 minntist	minntist	minna	VERB	Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin Voice=Mid	14	advcl	lesa	VERB	VerbForm=Sup Voice=Act	7
@@ -242,11 +236,9 @@ túlka	túlka	túlka	VERB	VerbForm=Inf Voice=Act	12	acl	biðja	VERB	VerbForm=Inf
 orð	orð	orð	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Plur	13	obj	túlka	VERB	VerbForm=Inf Voice=Act	12
 og	og	og	CCONJ		14	cc	orð	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Plur	13
 hugsanir	hugsanir	hugsun	NOUN	Case=Acc Definite=Ind Gender=Fem Number=Plur	15	conj	orð	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Plur	13
-<name type="ORG">
 Vinstri	Vinstri	vinstri	ADJ	Case=Gen Definite=Def Degree=Pos Gender=Fem Number=Sing	16	amod	grænn	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Plur	17
-grænna	grænna	grænn	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Plur	17	nmod:poss	orð	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Plur	13
+grænna	grænna	grænn	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Plur	17	nmod_poss	orð	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Plur	13
 <g/>
-</name>
 .	.	.	PUNCT		18	punct	grænn	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Plur	17
 </s>
 <s id="ParlaMint-IS_2018-11-26-38.seg4.3">
@@ -263,7 +255,7 @@ en	en	en	ADP		7	case	ég	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	8
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-IS_2018-11-26-38.u2" text_id="ParlaMint-IS_2018-11-26-38" subcorpus="Reference" house="" term="23" session="149" meeting="38" sitting="" agenda="" from="2018-11-26" to="2018-11-26" title="Speeches in the national parliament of Iceland, 23. term, regular meeting 149-38, 26.11.2018." speaker_role="Regular" speaker_id="OddnyHardardottir" speaker_name="Harðardóttir, Oddný G." speaker_type="MP" speaker_party="Sf" speaker_party_name="Samfylking" party_status="Opposition" speaker_gender="F" speaker_birth="1957">
+<speech id="ParlaMint-IS_2018-11-26-38.u2" text_id="ParlaMint-IS_2018-11-26-38" subcorpus="Reference" house="" term="23" session="149" meeting="38" sitting="" agenda="" from="2018-11-26" to="2018-11-26" title="Speeches in the national parliament of Iceland, 23. term, regular meeting 149-38, 26.11.2018." speaker_role="Regular" speaker_id="OddnyHardardottir" speaker_name="Harðardóttir, Oddný G." speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="F" speaker_birth="1957">
 <p id="ParlaMint-IS_2018-11-26-38.seg5" lang="">
 <s id="ParlaMint-IS_2018-11-26-38.seg5.1">
 Herra	Herra	herra	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	1	root	-	-	-	-
@@ -286,10 +278,8 @@ ekki	ekki	ekki	ADV		6	advmod	skilja	VERB	Mood=Ind Number=Sing Person=1 Tense=Pre
 En	En	en	CCONJ		1	cc	þingmaður	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Plur	3
 hv.	hv.	hv.	NUM		2	nummod	þingmaður	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Plur	3
 þingmenn	þingmenn	þingmaður	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Plur	3	nsubj	verða	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	6
-<name type="ORG">
 Vinstri	Vinstri	vinstri	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing	4	amod	þingmaður	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Plur	3
 grænna	grænna	grænn	ADJ	Case=Nom Definite=Def Degree=Cmp Gender=Neut Number=Sing	5	amod	vinstri	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing	4
-</name>
 verða	verða	verða	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	6	root	-	-	-	-
 auðvitað	auðvitað	auðvitað	ADV		7	advmod	verða	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	6
 að	að	að	PART		8	mark	útskýra	VERB	VerbForm=Inf Voice=Act	9
@@ -299,12 +289,12 @@ að	að	að	PART		8	mark	útskýra	VERB	VerbForm=Inf Voice=Act	9
 .	.	.	PUNCT		11	punct	það	PRON	Case=Acc Gender=Neut Number=Sing PronType=Prs	10
 </s>
 <s id="ParlaMint-IS_2018-11-26-38.seg5.4">
-Það	Það	sá	PRON	Case=Nom Gender=Neut Number=Sing PronType=Dem	1	det	á	ADP		7
+Það	Það	það	PRON	Case=Nom Gender=Neut Number=Sing PronType=Dem	1	det	á	ADP		7
 sem	sem	sem	SCONJ		2	mark	hissa	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Sing	6
 ég	ég	ég	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	3	nsubj	hissa	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Sing	6
 er	er	vera	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	4	cop	ég	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	3
 svo	svo	svo	ADV		5	amod	hissa	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Sing	6
-hissa	hissa	hissa	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Sing	6	acl:relcl	sá	PRON	Case=Nom Gender=Neut Number=Sing PronType=Dem	1
+hissa	hissa	hissa	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Sing	6	acl_relcl	það	PRON	Case=Nom Gender=Neut Number=Sing PronType=Dem	1
 á	á	á	ADP		7	case	vera	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	8
 er	er	vera	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	8	cop	ákafur	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Plur	10
 hversu	hversu	hversu	ADV		9	advmod	ákafur	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Plur	10
@@ -312,10 +302,8 @@ hversu	hversu	hversu	ADV		9	advmod	ákafur	ADJ	Case=Nom Definite=Ind Degree=Pos 
 stuðningsmenn	stuðningsmenn	stuðningsmaður	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Plur	11	nsubj	grænn	ADJ	Case=Nom Definite=Def Degree=Cmp Gender=Neut Number=Sing	15
 hv.	hv.	hv.	NUM	NumType=Card	12	nummod	þingmaður	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Plur	13
 þingmenn	þingmenn	þingmaður	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Plur	13	conj	stuðningsmaður	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Plur	11
-<name type="ORG">
 Vinstri	Vinstri	vinstri	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing	14	amod	þingmaður	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Plur	13
 grænna	grænna	grænn	ADJ	Case=Nom Definite=Def Degree=Cmp Gender=Neut Number=Sing	15	root	-	-	-	-
-</name>
 eru	eru	vera	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	16	cop	grænn	ADJ	Case=Nom Definite=Def Degree=Cmp Gender=Neut Number=Sing	15
 við	við	við	ADP		17	case	frumvarp	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Sing	19
 þetta	þetta	þessi	DET	Case=Acc Gender=Neut Number=Sing PronType=Dem	18	det	frumvarp	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Sing	19
@@ -397,7 +385,7 @@ ræðum	ræðum	ræða	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Plur	8	obl	h
 eða	eða	eða	CCONJ		9	cc	ræða	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Plur	8
 fjölmiðlaumfjöllun	fjölmiðlaumfjöllun	fjölmiðlaumfjöllun	NOUN	Case=Acc Definite=Ind Gender=Fem Number=Sing	10	conj	ræða	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Plur	8
 hv.	hv.	hv.	ADJ		11	amod	þingmaður	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Plur	12
-þingmanna	þingmanna	þingmaður	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Plur	12	nmod:poss	heyra	VERB	VerbForm=Sup Voice=Act	5
+þingmanna	þingmanna	þingmaður	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Plur	12	nmod_poss	heyra	VERB	VerbForm=Sup Voice=Act	5
 <g/>
 .	.	.	PUNCT		13	punct	þingmaður	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Plur	12
 </s>
@@ -429,7 +417,7 @@ lotu	lotu	lota	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Sing	21	obl	búinn	V
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-IS_2018-11-26-38.u259" text_id="ParlaMint-IS_2018-11-26-38" subcorpus="Reference" house="" term="23" session="149" meeting="38" sitting="" agenda="" from="2018-11-26" to="2018-11-26" title="Speeches in the national parliament of Iceland, 23. term, regular meeting 149-38, 26.11.2018." speaker_role="Regular" speaker_id="JonValdimarsson" speaker_name="Valdimarsson, Jón Steindór" speaker_type="MP" speaker_party="V" speaker_party_name="Viðreisn" party_status="Opposition" speaker_gender="M" speaker_birth="1958">
+<speech id="ParlaMint-IS_2018-11-26-38.u259" text_id="ParlaMint-IS_2018-11-26-38" subcorpus="Reference" house="" term="23" session="149" meeting="38" sitting="" agenda="" from="2018-11-26" to="2018-11-26" title="Speeches in the national parliament of Iceland, 23. term, regular meeting 149-38, 26.11.2018." speaker_role="Regular" speaker_id="JonValdimarsson" speaker_name="Valdimarsson, Jón Steindór" speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="1958">
 <p id="ParlaMint-IS_2018-11-26-38.seg795" lang="">
 <s id="ParlaMint-IS_2018-11-26-38.seg795.1">
 Virðulegur	Virðulegur	virðulegur	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing	1	amod	forseti	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	2
@@ -454,7 +442,7 @@ til	til	til	ADP		3	case	rifja	VERB	VerbForm=Inf Voice=Act	5
 að	að	að	PART		4	mark	rifja	VERB	VerbForm=Inf Voice=Act	5
 rifja	rifja	rifja	VERB	VerbForm=Inf Voice=Act	5	obl	langa	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 aðeins	aðeins	aðeins	ADV		6	advmod	rifja	VERB	VerbForm=Inf Voice=Act	5
-upp	upp	upp	ADP		7	compound:prt	rifja	VERB	VerbForm=Inf Voice=Act	5
+upp	upp	upp	ADP		7	compound_prt	rifja	VERB	VerbForm=Inf Voice=Act	5
 að	að	að	SCONJ		8	mark	það	PRON	Case=Nom Gender=Neut Number=Sing PronType=Prs	9
 það	það	það	PRON	Case=Nom Gender=Neut Number=Sing PronType=Prs	9	ccomp	rifja	VERB	VerbForm=Inf Voice=Act	5
 er	er	vera	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	10	cop	það	PRON	Case=Nom Gender=Neut Number=Sing PronType=Prs	9
@@ -484,7 +472,7 @@ greinargerð	greinargerð	greinargerð	NOUN	Case=Nom Definite=Ind Gender=Fem Num
 frá	frá	frá	ADP		4	case	formaður	NOUN	Case=Dat Definite=Ind Gender=Masc Number=Sing	5
 formanni	formanni	formaður	NOUN	Case=Dat Definite=Ind Gender=Masc Number=Sing	5	obl	koma	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	2
 þess	þess	sá	DET	Case=Gen Gender=Masc Number=Sing PronType=Dem	6	det	hópur	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Sing	7
-hóps	hóps	hópur	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Sing	7	nmod:poss	formaður	NOUN	Case=Dat Definite=Ind Gender=Masc Number=Sing	5
+hóps	hóps	hópur	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Sing	7	nmod_poss	formaður	NOUN	Case=Dat Definite=Ind Gender=Masc Number=Sing	5
 <g/>
 .	.	.	PUNCT		8	punct	hópur	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Sing	7
 </s>
@@ -492,13 +480,13 @@ hóps	hóps	hópur	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Sing	7	nmod:pos
 Þar	Þar	þar	ADV		1	advmod	koma	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	2
 kom	kom	koma	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	2	root	-	-	-	-
 m.a.	m.a.	m.a.	NOUN		3	nsubj	koma	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	2
-fram	fram	fram	ADP		4	compound:prt	koma	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	2
+fram	fram	fram	ADP		4	compound_prt	koma	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	2
 að	að	að	SCONJ		5	mark	nefnd	VERB	Case=Nom Gender=Fem Number=Sing VerbForm=Part Voice=Act	15
 fulltrúar	fulltrúar	fulltrúi	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Plur	6	nsubj	nefnd	VERB	Case=Nom Gender=Fem Number=Sing VerbForm=Part Voice=Act	15
 allra	allra	allur	DET	Case=Gen Gender=Masc Number=Plur PronType=Ind	7	amod	flokkur	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Plur	8
-flokka	flokka	flokkur	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Plur	8	nmod:poss	fulltrúi	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Plur	6
+flokka	flokka	flokkur	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Plur	8	nmod_poss	fulltrúi	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Plur	6
 sem	sem	sem	SCONJ		9	mark	eiga	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	10
-áttu	áttu	eiga	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	10	acl:relcl	nefnd	VERB	Case=Nom Gender=Fem Number=Sing VerbForm=Part Voice=Act	15
+áttu	áttu	eiga	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	10	acl_relcl	nefnd	VERB	Case=Nom Gender=Fem Number=Sing VerbForm=Part Voice=Act	15
 sæti	sæti	sæti	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Sing	11	obj	eiga	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	10
 í	í	í	ADP		12	case	ágætur	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Sing	14
 þeirri	þeirri	sá	DET	Case=Dat Gender=Fem Number=Sing PronType=Dem	13	det	ágætur	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Sing	14
@@ -526,7 +514,7 @@ fiskveiðiauðlindinni	fiskveiðiauðlindinni	fiskveiðiauðlind	NOUN	Case=Dat D
 reyndar	reyndar	reyndar	ADV		3	advmod	þurfa	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 að	að	að	PART		4	mark	taka	VERB	VerbForm=Inf Voice=Act	5
 taka	taka	taka	VERB	VerbForm=Inf Voice=Act	5	acl	þurfa	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
-fram	fram	fram	ADP		6	compound:prt	taka	VERB	VerbForm=Inf Voice=Act	5
+fram	fram	fram	ADP		6	compound_prt	taka	VERB	VerbForm=Inf Voice=Act	5
 að	að	að	SCONJ		7	mark	sammála	ADJ	Case=Nom Degree=Pos Gender=Neut Number=Plur	12
 einn	einn	einn	DET	Case=Nom Gender=Masc Number=Sing NumType=Card	8	det	flokkur	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	9
 flokkur	flokkur	flokkur	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	9	nsubj	sammála	ADJ	Case=Nom Degree=Pos Gender=Neut Number=Plur	12
@@ -541,28 +529,22 @@ að	að	að	SCONJ		17	mark	geta	VERB	Case=Nom Gender=Neut Number=Sing VerbForm=P
 menn	menn	maður	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Plur	18	nsubj	geta	VERB	Case=Nom Gender=Neut Number=Sing VerbForm=Part Voice=Act	20
 geti	geti	geta	AUX	Mood=Sub Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	19	aux	geta	VERB	Case=Nom Gender=Neut Number=Sing VerbForm=Part Voice=Act	20
 getið	getið	geta	VERB	Case=Nom Gender=Neut Number=Sing VerbForm=Part Voice=Act	20	ccomp	halda	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	16
-upp	upp	upp	ADP		21	compound:prt	geta	VERB	Case=Nom Gender=Neut Number=Sing VerbForm=Part Voice=Act	20
+upp	upp	upp	ADP		21	compound_prt	geta	VERB	Case=Nom Gender=Neut Number=Sing VerbForm=Part Voice=Act	20
 á	á	á	ADP		22	case	það	PRON	Case=Dat Gender=Neut Number=Sing PronType=Prs	23
 því	því	það	PRON	Case=Dat Gender=Neut Number=Sing PronType=Prs	23	obl	geta	VERB	Case=Nom Gender=Neut Number=Sing VerbForm=Part Voice=Act	20
 að	að	að	SCONJ		24	mark	það	PRON	Case=Nom Gender=Neut Number=Sing PronType=Prs	25
 það	það	það	PRON	Case=Nom Gender=Neut Number=Sing PronType=Prs	25	ccomp	það	PRON	Case=Dat Gender=Neut Number=Sing PronType=Prs	23
 var	var	vera	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	26	cop	það	PRON	Case=Nom Gender=Neut Number=Sing PronType=Prs	25
-<name type="ORG">
 Sjálfstæðisflokkurinn	Sjálfstæðisflokkurinn	Sjálfstæðisflokkur	PROPN	Case=Nom Definite=Def Gender=Masc Number=Sing	27	xcomp	það	PRON	Case=Nom Gender=Neut Number=Sing PronType=Prs	25
 <g/>
-</name>
 .	.	.	PUNCT		28	punct	Sjálfstæðisflokkur	PROPN	Case=Nom Definite=Def Gender=Masc Number=Sing	27
 </s>
 <s id="ParlaMint-IS_2018-11-26-38.seg795.7">
 En	En	en	CCONJ		1	cc	Framsóknarflokkur	PROPN	Case=Nom Definite=Ind Gender=Masc Number=Sing	2
-<name type="ORG">
 Framsóknarflokkur	Framsóknarflokkur	Framsóknarflokkur	PROPN	Case=Nom Definite=Ind Gender=Masc Number=Sing	2	nsubj	útfærsla	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Sing	9
-</name>
 og	og	og	CCONJ		3	cc	grænn	NOUN	Case=Nom Definite=Ind Gender=Fem Number=Plur	5
-<name type="ORG">
 Vinstri	Vinstri	vinstri	ADJ	Case=Acc Definite=Def Degree=Pos Gender=Fem Number=Sing	4	amod	grænn	NOUN	Case=Nom Definite=Ind Gender=Fem Number=Plur	5
 grænir	grænir	grænn	NOUN	Case=Nom Definite=Ind Gender=Fem Number=Plur	5	conj	Framsóknarflokkur	PROPN	Case=Nom Definite=Ind Gender=Masc Number=Sing	2
-</name>
 voru	voru	vera	AUX	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	6	cop	útfærsla	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Sing	9
 sammála	sammála	sammála	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	7	amod	útfærsla	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Sing	9
 þessari	þessari	þessi	DET	Case=Dat Gender=Fem Number=Sing PronType=Dem	8	det	útfærsla	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Sing	9
@@ -596,9 +578,7 @@ að	að	að	SCONJ		5	mark	það	PRON	Case=Nom Gender=Neut Number=Sing PronType=P
 er	er	vera	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	7	cop	það	PRON	Case=Nom Gender=Neut Number=Sing PronType=Prs	6
 eins	eins	eins	ADV		8	advmod	það	PRON	Case=Nom Gender=Neut Number=Sing PronType=Prs	6
 og	og	og	ADP		9	case	ná	VERB	VerbForm=Sup Voice=Act	14
-<name type="ORG">
 Sjálfstæðisflokkurinn	Sjálfstæðisflokkurinn	Sjálfstæðisflokkur	NOUN	Case=Nom Definite=Def Gender=Masc Number=Sing	10	nsubj	ná	VERB	VerbForm=Sup Voice=Act	14
-</name>
 hafi	hafi	hafa	AUX	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	11	aux	ná	VERB	VerbForm=Sup Voice=Act	14
 einhvern	einhvern	einhver	DET	Case=Acc Gender=Masc Number=Sing PronType=Ind	12	amod	vegur	NOUN	Case=Acc Definite=Def Gender=Masc Number=Sing	13
 veginn	veginn	vegur	NOUN	Case=Acc Definite=Def Gender=Masc Number=Sing	13	obl	ná	VERB	VerbForm=Sup Voice=Act	14
@@ -635,7 +615,7 @@ að	að	að	PART		5	mark	rýna	VERB	VerbForm=Inf Voice=Act	6
 rýna	rýna	rýna	VERB	VerbForm=Inf Voice=Act	6	acl	reyna	VERB	VerbForm=Sup Voice=Act	3
 í	í	í	ADP		7	case	stefna	NOUN	Case=Acc Definite=Ind Gender=Fem Number=Plur	8
 stefnur	stefnur	stefna	NOUN	Case=Acc Definite=Ind Gender=Fem Number=Plur	8	obl	rýna	VERB	VerbForm=Inf Voice=Act	6
-flokkanna	flokkanna	flokkur	NOUN	Case=Gen Definite=Def Gender=Masc Number=Plur	9	nmod:poss	stefna	NOUN	Case=Acc Definite=Ind Gender=Fem Number=Plur	8
+flokkanna	flokkanna	flokkur	NOUN	Case=Gen Definite=Def Gender=Masc Number=Plur	9	nmod_poss	stefna	NOUN	Case=Acc Definite=Ind Gender=Fem Number=Plur	8
 og	og	og	CCONJ		10	cc	m.a.	NOUN		11
 m.a.	m.a.	m.a.	NOUN		11	conj	stefna	NOUN	Case=Acc Definite=Ind Gender=Fem Number=Plur	8
 hef	hef	hafa	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	12	aux	reyna	VERB	VerbForm=Sup Voice=Act	3
@@ -645,11 +625,9 @@ að	að	að	PART		15	mark	kíkja	VERB	VerbForm=Inf Voice=Act	16
 kíkja	kíkja	kíkja	VERB	VerbForm=Inf Voice=Act	16	acl	reyna	VERB	VerbForm=Sup Voice=Act	3
 í	í	í	ADP		17	case	stefna	NOUN	Case=Acc Definite=Ind Gender=Fem Number=Sing	18
 stefnu	stefnu	stefna	NOUN	Case=Acc Definite=Ind Gender=Fem Number=Sing	18	obl	kíkja	VERB	VerbForm=Inf Voice=Act	16
-<name type="ORG">
 Vinstri	Vinstri	vinstri	ADJ	Case=Gen Definite=Def Degree=Pos Gender=Fem Number=Sing	19	amod	grænn	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Plur	20
-grænna	grænna	grænn	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Plur	20	nmod:poss	stefna	NOUN	Case=Acc Definite=Ind Gender=Fem Number=Sing	18
+grænna	grænna	grænn	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Plur	20	nmod_poss	stefna	NOUN	Case=Acc Definite=Ind Gender=Fem Number=Sing	18
 <g/>
-</name>
 .	.	.	PUNCT		21	punct	grænn	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Plur	20
 </s>
 <s id="ParlaMint-IS_2018-11-26-38.seg797.3">
@@ -664,7 +642,7 @@ setningar	setningar	setning	NOUN	Case=Acc Definite=Ind Gender=Fem Number=Plur	7	
 ,	,	,	PUNCT		8	punct	setning	NOUN	Case=Acc Definite=Ind Gender=Fem Number=Plur	7
 með	með	með	ADP		9	case	leyfi	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Sing	10
 leyfi	leyfi	leyfi	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Sing	10	obl	lesa	VERB	VerbForm=Inf Voice=Act	5
-forseta	forseta	forseti	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Sing	11	nmod:poss	leyfi	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Sing	10
+forseta	forseta	forseti	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Sing	11	nmod_poss	leyfi	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Sing	10
 <g/>
 :	:	:	PUNCT		12	punct	forseti	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Sing	11
 </s>
@@ -673,9 +651,7 @@ forseta	forseta	forseti	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Sing	11	nm
 <s id="ParlaMint-IS_2018-11-26-38.seg798.1">
 „	„	„	PUNCT		1	punct	afleggja	VERB	Case=Nom Gender=Fem Number=Sing VerbForm=Part Voice=Act	10
 <g/>
-<name type="ORG">
 VG	VG	VG	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	2	nsubj	afleggja	VERB	Case=Nom Gender=Fem Number=Sing VerbForm=Part Voice=Act	10
-</name>
 vill	vill	vilja	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	3	aux	afleggja	VERB	Case=Nom Gender=Fem Number=Sing VerbForm=Part Voice=Act	10
 að	að	að	ADP		4	case	kvótaúthlutun	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Sing	5
 kvótaúthlutun	kvótaúthlutun	kvótaúthlutun	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Sing	5	obl	afleggja	VERB	Case=Nom Gender=Fem Number=Sing VerbForm=Part Voice=Act	10
@@ -688,11 +664,11 @@ aflögð	aflögð	afleggja	VERB	Case=Nom Gender=Fem Number=Sing VerbForm=Part Vo
 skrefum	skrefum	skref	NOUN	Case=Dat Definite=Ind Gender=Neut Number=Plur	12	obl	afleggja	VERB	Case=Nom Gender=Fem Number=Sing VerbForm=Part Voice=Act	10
 og	og	og	CCONJ		13	cc	kvóti	VERB	VerbForm=Inf Voice=Act	14
 kvóta	kvóta	kvóti	VERB	VerbForm=Inf Voice=Act	14	conj	afleggja	VERB	Case=Nom Gender=Fem Number=Sing VerbForm=Part Voice=Act	10
-endurútdeilt	endurútdeilt	endurútdeilda	ADJ	Case=Nom Gender=Neut Number=Sing VerbForm=Part Voice=Act	15	amod	kvóti	VERB	VerbForm=Inf Voice=Act	14
+endurútdeilt	endurútdeilt	endurútdeila	ADJ	Case=Nom Gender=Neut Number=Sing VerbForm=Part Voice=Act	15	amod	kvóti	VERB	VerbForm=Inf Voice=Act	14
 á	á	á	ADP		16	case	grundvöllur	NOUN	Case=Dat Definite=Ind Gender=Masc Number=Sing	17
 grundvelli	grundvelli	grundvöllur	NOUN	Case=Dat Definite=Ind Gender=Masc Number=Sing	17	obl	kvóti	VERB	VerbForm=Inf Voice=Act	14
-hagsmuna	hagsmuna	hagsmunir	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Plur	18	nmod:poss	grundvöllur	NOUN	Case=Dat Definite=Ind Gender=Masc Number=Sing	17
-samfélagsins	samfélagsins	samfélag	NOUN	Case=Gen Definite=Def Gender=Masc Number=Sing	19	nmod:poss	hagsmunir	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Plur	18
+hagsmuna	hagsmuna	hagsmunir	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Plur	18	nmod_poss	grundvöllur	NOUN	Case=Dat Definite=Ind Gender=Masc Number=Sing	17
+samfélagsins	samfélagsins	samfélag	NOUN	Case=Gen Definite=Def Gender=Masc Number=Sing	19	nmod_poss	hagsmunir	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Plur	18
 <g/>
 ,	,	,	PUNCT		20	punct	samfélag	NOUN	Case=Gen Definite=Def Gender=Masc Number=Sing	19
 byggða	byggða	byggð	VERB	VerbForm=Inf Voice=Act	21	acl	kvóti	VERB	VerbForm=Inf Voice=Act	14
@@ -717,10 +693,8 @@ t.d.	t.d.	t.d.	NUM		5	nummod	yfirlýsing	NOUN	Case=Nom Definite=Ind Gender=Fem N
 yfirlýsing	yfirlýsing	yfirlýsing	NOUN	Case=Nom Definite=Ind Gender=Fem Number=Sing	7	nsubj	grænn	ADJ	Case=Nom Definite=Def Degree=Cmp Gender=Neut Number=Sing	11
 í	í	í	ADP		8	case	stefna	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Sing	9
 stefnu	stefnu	stefna	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Sing	9	obl	grænn	ADJ	Case=Nom Definite=Def Degree=Cmp Gender=Neut Number=Sing	11
-<name type="ORG">
-Vinstri	Vinstri	vinstri	PROPN	Case=Dat Definite=Ind Gender=Neut Number=Sing	10	nmod:poss	stefna	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Sing	9
+Vinstri	Vinstri	vinstri	PROPN	Case=Dat Definite=Ind Gender=Neut Number=Sing	10	nmod_poss	stefna	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Sing	9
 grænna	grænna	grænn	ADJ	Case=Nom Definite=Def Degree=Cmp Gender=Neut Number=Sing	11	amod	Pírati	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Plur	19
-</name>
 sé	sé	vera	AUX	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	12	cop	grænn	ADJ	Case=Nom Definite=Def Degree=Cmp Gender=Neut Number=Sing	11
 einhvern	einhvern	einhver	DET	Case=Acc Gender=Masc Number=Sing PronType=Ind	13	amod	vegur	NOUN	Case=Acc Definite=Def Gender=Masc Number=Sing	14
 veginn	veginn	vegur	NOUN	Case=Acc Definite=Def Gender=Masc Number=Sing	14	obl	hugmynd	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Plur	17
@@ -728,28 +702,22 @@ veginn	veginn	vegur	NOUN	Case=Acc Definite=Def Gender=Masc Number=Sing	14	obl	hu
 þeim	þeim	sá	DET	Case=Dat Gender=Fem Number=Plur PronType=Dem	16	det	hugmynd	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Plur	17
 hugmyndum	hugmyndum	hugmynd	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Plur	17	conj	Pírati	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Plur	19
 sem	sem	sem	SCONJ		18	mark	Pírati	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Plur	19
-<name type="MISC">
 Píratar	Píratar	Pírati	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Plur	19	conj	og	CCONJ		22
 <g/>
-</name>
 ,	,	,	PUNCT		20	punct	Pírati	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Plur	19
-<name type="ORG">
 Viðreisn	Viðreisn	Viðreisn	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Plur	21	conj	Pírati	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Plur	19
-</name>
 og	og	og	CCONJ		22	cc	Samfylking	PROPN	Case=Nom Definite=Ind Gender=Masc Number=Sing	23
-<name type="ORG">
 Samfylking	Samfylking	Samfylking	PROPN	Case=Nom Definite=Ind Gender=Masc Number=Sing	23	conj	telja	VERB	Case=Nom Definite=Ind Gender=Masc Number=Sing	1
-</name>
 eru	eru	vera	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	24	cop	telja	VERB	Case=Nom Definite=Ind Gender=Masc Number=Sing	1
 að	að	að	PART		25	mark	leggja	VERB	VerbForm=Inf Voice=Act	26
 leggja	leggja	leggja	VERB	VerbForm=Inf Voice=Act	26	acl	telja	VERB	Case=Nom Definite=Ind Gender=Masc Number=Sing	1
-til	til	til	ADP		27	compound:prt	leggja	VERB	VerbForm=Inf Voice=Act	26
+til	til	til	ADP		27	compound_prt	leggja	VERB	VerbForm=Inf Voice=Act	26
 <g/>
 ?	?	?	PUNCT		28	punct	til	ADP		27
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-IS_2018-11-26-38.u260" text_id="ParlaMint-IS_2018-11-26-38" subcorpus="Reference" house="" term="23" session="149" meeting="38" sitting="" agenda="" from="2018-11-26" to="2018-11-26" title="Speeches in the national parliament of Iceland, 23. term, regular meeting 149-38, 26.11.2018." speaker_role="Regular" speaker_id="OddnyHardardottir" speaker_name="Harðardóttir, Oddný G." speaker_type="MP" speaker_party="Sf" speaker_party_name="Samfylking" party_status="Opposition" speaker_gender="F" speaker_birth="1957">
+<speech id="ParlaMint-IS_2018-11-26-38.u260" text_id="ParlaMint-IS_2018-11-26-38" subcorpus="Reference" house="" term="23" session="149" meeting="38" sitting="" agenda="" from="2018-11-26" to="2018-11-26" title="Speeches in the national parliament of Iceland, 23. term, regular meeting 149-38, 26.11.2018." speaker_role="Regular" speaker_id="OddnyHardardottir" speaker_name="Harðardóttir, Oddný G." speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="F" speaker_birth="1957">
 <p id="ParlaMint-IS_2018-11-26-38.seg800" lang="">
 <s id="ParlaMint-IS_2018-11-26-38.seg800.1">
 Herra	Herra	herra	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	1	root	-	-	-	-
@@ -775,23 +743,15 @@ fjórir	fjórir	fjórir	NUM	Case=Nom Gender=Masc Number=Plur NumType=Card	6	numm
 flokkar	flokkar	flokkur	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Plur	7	ccomp	halda	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 <g/>
 ,	,	,	PUNCT		8	punct	Viðreisn	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Plur	9
-<name type="ORG">
 Viðreisn	Viðreisn	Viðreisn	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Plur	9	conj	flokkur	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Plur	7
 <g/>
-</name>
 ,	,	,	PUNCT		10	punct	Pírati	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Plur	11
-<name type="ORG">
 Píratar	Píratar	Pírati	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Plur	11	conj	flokkur	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Plur	7
 <g/>
-</name>
 ,	,	,	PUNCT		12	punct	Samfylking	PROPN	Case=Nom Definite=Ind Gender=Masc Number=Sing	13
-<name type="ORG">
 Samfylking	Samfylking	Samfylking	PROPN	Case=Nom Definite=Ind Gender=Masc Number=Sing	13	conj	flokkur	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Plur	7
-</name>
 og	og	og	CCONJ		14	cc	finna	VERB	VerbForm=Sup Voice=Act	18
-<name type="ORG">
 VG	VG	VG	NOUN	Case=Nom Definite=Ind Gender=Fem Number=Sing	15	nsubj	finna	VERB	VerbForm=Sup Voice=Act	18
-</name>
 gætu	gætu	geta	AUX	Mood=Sub Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	16	aux	finna	VERB	VerbForm=Sup Voice=Act	18
 alveg	alveg	alveg	ADV		17	advmod	finna	VERB	VerbForm=Sup Voice=Act	18
 fundið	fundið	finna	VERB	VerbForm=Sup Voice=Act	18	conj	halda	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
@@ -820,10 +780,8 @@ væri	væri	vera	AUX	Mood=Sub Number=Sing Person=3 Tense=Past VerbForm=Fin Voice
 hægt	hægt	hægur	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Neut Number=Sing	3	root	-	-	-	-
 að	að	að	PART		4	mark	fá	VERB	VerbForm=Inf Voice=Act	5
 fá	fá	fá	VERB	VerbForm=Inf Voice=Act	5	acl	hægur	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Neut Number=Sing	3
-<name type="ORG">
 Framsókn	Framsókn	Framsókn	NOUN	Case=Acc Definite=Ind Gender=Fem Number=Sing	6	obj	fá	VERB	VerbForm=Inf Voice=Act	5
-</name>
-inn	inn	inn	ADP		7	compound:prt	fá	VERB	VerbForm=Inf Voice=Act	5
+inn	inn	inn	ADP		7	compound_prt	fá	VERB	VerbForm=Inf Voice=Act	5
 á	á	á	ADP		8	case	samningur	NOUN	Case=Acc Definite=Ind Gender=Masc Number=Plur	10
 tímabundna	tímabundna	tímabundinn	ADJ	Case=Acc Definite=Ind Degree=Pos Gender=Fem Number=Sing	9	amod	samningur	NOUN	Case=Acc Definite=Ind Gender=Masc Number=Plur	10
 samninga	samninga	samningur	NOUN	Case=Acc Definite=Ind Gender=Masc Number=Plur	10	obl	fá	VERB	VerbForm=Inf Voice=Act	5
@@ -862,7 +820,7 @@ væri	væri	vera	AUX	Mood=Sub Number=Sing Person=3 Tense=Past VerbForm=Fin Voice
 hægt	hægt	hægur	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Neut Number=Sing	6	amod	finna	VERB	VerbForm=Inf Voice=Act	8
 að	að	að	PART		7	mark	finna	VERB	VerbForm=Inf Voice=Act	8
 finna	finna	finna	VERB	VerbForm=Inf Voice=Act	8	ccomp	hugsa	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
-flöt	flöt	flöt	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Plur	9	obj	finna	VERB	VerbForm=Inf Voice=Act	8
+flöt	flöt	flötur	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Plur	9	obj	finna	VERB	VerbForm=Inf Voice=Act	8
 á	á	á	ADP		10	case	það	PRON	Case=Dat Gender=Neut Number=Sing PronType=Prs	11
 því	því	það	PRON	Case=Dat Gender=Neut Number=Sing PronType=Prs	11	obl	finna	VERB	VerbForm=Inf Voice=Act	8
 <g/>
@@ -875,9 +833,7 @@ En	En	en	CCONJ		1	cc	ráða	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbFo
 af	af	af	ADP		2	case	hver	PRON	Case=Dat Gender=Neut Number=Sing PronType=Int	3
 hverju	hverju	hver	PRON	Case=Dat Gender=Neut Number=Sing PronType=Int	3	obl	ráða	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	4
 ræður	ræður	ráða	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	4	root	-	-	-	-
-<name type="ORG">
 Sjálfstæðisflokkurinn	Sjálfstæðisflokkurinn	Sjálfstæðisflokkur	NOUN	Case=Nom Definite=Def Gender=Masc Number=Sing	5	nsubj	ráða	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	4
-</name>
 öllu	öllu	allur	DET	Case=Dat Gender=Neut Number=Sing PronType=Ind	6	obj	ráða	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	4
 <g/>
 ?	?	?	PUNCT		7	punct	allur	DET	Case=Dat Gender=Neut Number=Sing PronType=Ind	6
@@ -908,21 +864,15 @@ var	var	vera	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act
 ekki	ekki	ekki	ADV		3	advmod	ganga	VERB	Case=Nom Gender=Fem Number=Sing VerbForm=Part Voice=Act	4
 gengin	gengin	ganga	VERB	Case=Nom Gender=Fem Number=Sing VerbForm=Part Voice=Act	4	root	-	-	-	-
 í	í	í	ADP		5	case	Samfylkingin	NOUN	Case=Acc Definite=Def Gender=Fem Number=Sing	6
-<name type="ORG">
 Samfylkinguna	Samfylkinguna	Samfylkingin	NOUN	Case=Acc Definite=Def Gender=Fem Number=Sing	6	obl	ganga	VERB	Case=Nom Gender=Fem Number=Sing VerbForm=Part Voice=Act	4
-</name>
 þegar	þegar	þegar	ADP		7	case	fara	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	9
-<name type="ORG">
 Samfylkingin	Samfylkingin	Samfylkingin	PROPN	Case=Nom Definite=Def Gender=Fem Number=Sing	8	nsubj	fara	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	9
-</name>
 fór	fór	fara	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	9	obl	ganga	VERB	Case=Nom Gender=Fem Number=Sing VerbForm=Part Voice=Act	4
 í	í	í	ADP		10	case	samstarf	NOUN	Case=Acc Definite=Ind Gender=Masc Number=Sing	11
 samstarf	samstarf	samstarf	NOUN	Case=Acc Definite=Ind Gender=Masc Number=Sing	11	obl	fara	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	9
 með	með	með	ADP		12	case	Sjálfstæðisflokkur	NOUN	Case=Dat Definite=Def Gender=Masc Number=Sing	13
-<name type="ORG">
 Sjálfstæðisflokknum	Sjálfstæðisflokknum	Sjálfstæðisflokkur	NOUN	Case=Dat Definite=Def Gender=Masc Number=Sing	13	obl	fara	VERB	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	9
 <g/>
-</name>
 ,	,	,	PUNCT		14	punct	Sjálfstæðisflokkur	NOUN	Case=Dat Definite=Def Gender=Masc Number=Sing	13
 ég	ég	ég	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	15	nsubj	ganga	VERB	Case=Nom Gender=Fem Number=Sing VerbForm=Part Voice=Act	4
 hef	hef	hafa	AUX	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	16	aux	ganga	VERB	Case=Nom Gender=Fem Number=Sing VerbForm=Part Voice=Act	4
@@ -940,9 +890,7 @@ einhvern	einhvern	einhver	DET	Case=Acc Gender=Masc Number=Sing PronType=Ind	4	am
 veginn	veginn	vegur	NOUN	Case=Acc Definite=Def Gender=Masc Number=Sing	5	obl	það	PRON	Case=Nom Gender=Neut Number=Sing PronType=Prs	2
 eins	eins	eins	ADV		6	advmod	það	PRON	Case=Nom Gender=Neut Number=Sing PronType=Prs	2
 og	og	og	ADP		7	case	hafa	AUX	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	9
-<name type="ORG">
 Sjálfstæðisflokkurinn	Sjálfstæðisflokkurinn	Sjálfstæðisflokkur	NOUN	Case=Nom Definite=Def Gender=Masc Number=Sing	8	nsubj	hafa	AUX	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	9
-</name>
 hafi	hafi	hafa	AUX	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	9	obl	eins	ADV		6
 þessi	þessi	þessi	DET	Case=Acc Gender=Neut Number=Plur PronType=Dem	10	det	áhrif	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Plur	11
 áhrif	áhrif	áhrif	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Plur	11	obj	hafa	AUX	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	9
@@ -1002,14 +950,12 @@ til	til	til	ADP		10	case	starfa	VERB	VerbForm=Inf Voice=Act	12
 að	að	að	PART		11	mark	starfa	VERB	VerbForm=Inf Voice=Act	12
 starfa	starfa	starfa	VERB	VerbForm=Inf Voice=Act	12	obl	langa	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	8
 með	með	með	ADP		13	case	VG	NOUN	Case=Acc Definite=Ind Gender=Masc Number=Sing	14
-<name type="ORG">
 VG	VG	VG	NOUN	Case=Acc Definite=Ind Gender=Masc Number=Sing	14	obl	starfa	VERB	VerbForm=Inf Voice=Act	12
-</name>
 í	í	í	ADP		15	case	ríkisstjórn	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Sing	16
 ríkisstjórn	ríkisstjórn	ríkisstjórn	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Sing	16	obl	starfa	VERB	VerbForm=Inf Voice=Act	12
 sem	sem	sem	SCONJ		17	mark	láta	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	19
 ég	ég	ég	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	18	nsubj	láta	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	19
-læt	læt	láta	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	19	acl:relcl	ríkisstjórn	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Sing	16
+læt	læt	láta	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	19	acl_relcl	ríkisstjórn	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Sing	16
 svona	svona	svona	ADV		20	advmod	láta	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	19
 <g/>
 .	.	.	PUNCT		21	punct	svona	ADV		20
@@ -1034,9 +980,9 @@ að	að	að	PART		6	mark	þurfa	VERB	VerbForm=Inf Voice=Act	7
 þurfa	þurfa	þurfa	VERB	VerbForm=Inf Voice=Act	7	acl	beygja	VERB	VerbForm=Inf Voice=Act	18
 að	að	að	PART		8	mark	horfa	VERB	VerbForm=Inf Voice=Act	9
 horfa	horfa	horfa	VERB	VerbForm=Inf Voice=Act	9	acl	þurfa	VERB	VerbForm=Inf Voice=Act	7
-upp	upp	upp	ADP		10	compound:prt	horfa	VERB	VerbForm=Inf Voice=Act	9
+upp	upp	upp	ADP		10	compound_prt	horfa	VERB	VerbForm=Inf Voice=Act	9
 á	á	á	ADP		11	case	félagi	NOUN	Case=Acc Definite=Ind Gender=Masc Number=Plur	14
-mína	mína	minn	PRON	Case=Acc Gender=Masc Number=Plur PronType=Prs	12	nmod:poss	félagi	NOUN	Case=Acc Definite=Ind Gender=Masc Number=Plur	14
+mína	mína	minn	PRON	Case=Acc Gender=Masc Number=Plur PronType=Prs	12	nmod_poss	félagi	NOUN	Case=Acc Definite=Ind Gender=Masc Number=Plur	14
 góðu	góðu	góður	ADJ	Case=Acc Definite=Def Degree=Pos Gender=Masc Number=Plur	13	amod	félagi	NOUN	Case=Acc Definite=Ind Gender=Masc Number=Plur	14
 félaga	félaga	félagi	NOUN	Case=Acc Definite=Ind Gender=Masc Number=Plur	14	obl	horfa	VERB	VerbForm=Inf Voice=Act	9
 og	og	og	CCONJ		15	cc	samstarfsflokkur	NOUN	Case=Acc Definite=Ind Gender=Masc Number=Sing	17
@@ -1049,7 +995,7 @@ af	af	af	ADP		21	case	vegur	NOUN	Case=Dat Definite=Ind Gender=Masc Number=Sing	2
 vegi	vegi	vegur	NOUN	Case=Dat Definite=Ind Gender=Masc Number=Sing	22	obl	beygja	VERB	VerbForm=Inf Voice=Act	18
 og	og	og	CCONJ		23	cc	taka	VERB	VerbForm=Inf Voice=Act	24
 taka	taka	taka	VERB	VerbForm=Inf Voice=Act	24	conj	beygja	VERB	VerbForm=Inf Voice=Act	18
-upp	upp	upp	ADP		25	compound:prt	taka	VERB	VerbForm=Inf Voice=Act	24
+upp	upp	upp	ADP		25	compound_prt	taka	VERB	VerbForm=Inf Voice=Act	24
 þessa	þessa	þessi	DET	Case=Acc Gender=Fem Number=Sing PronType=Dem	26	det	stefna	NOUN	Case=Acc Definite=Ind Gender=Fem Number=Sing	29
 hörðu	hörðu	harður	ADJ	Case=Acc Definite=Def Degree=Pos Gender=Fem Number=Sing	27	amod	stefna	NOUN	Case=Acc Definite=Ind Gender=Fem Number=Sing	29
 hægri	hægri	hægri	ADJ	Case=Acc Definite=Def Degree=Pos Gender=Fem Number=Sing	28	amod	stefna	NOUN	Case=Acc Definite=Ind Gender=Fem Number=Sing	29
