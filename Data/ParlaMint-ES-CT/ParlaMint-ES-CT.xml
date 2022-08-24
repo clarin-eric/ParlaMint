@@ -14,7 +14,7 @@
             	<resp xml:lang="en">Data retrieval, conversion to XML and conversion to ParlaMint TEI</resp>
             </respStmt>
 			<funder>
-               <orgName xml:lang="ca">Cap financiació  </orgName>
+               <orgName xml:lang="ca">Cap financiació</orgName>
                <orgName xml:lang="en">No funder</orgName>
             </funder>
          </titleStmt>
@@ -214,7 +214,7 @@
                  <desc xml:lang="en">
                    <term>Types of speakers</term>
                  </desc>
-               <category xml:id="chairperson">
+               <category xml:id="chair">
                   <catDesc xml:lang="ca">
                      <term>Presidència</term>: persona que presideix la sessió</catDesc>
                   <catDesc xml:lang="en">
@@ -287,7 +287,7 @@
                      </event>
                   </listEvent>
                </org>
-               <org xml:id="GOV" role="government">
+            	<org xml:id="GOV" role="government" ana="#parla.regional">
                   <orgName xml:lang="ca" full="yes">Govern de Catalunya</orgName>
                   <orgName xml:lang="en" full="yes">Executive Council of Catalonia</orgName>
                   <event from="1931-04-28">
@@ -338,9 +338,9 @@
                   <orgName full="init">ERC</orgName>
                   <orgName full="yes">Esquerra Republicana de Catalunya</orgName>
                </org>
-               <org role="politicalParty" xml:id="party.CatenComú-PODEM">
+               <org role="politicalParty" xml:id="party.CatenCumú-PODEM">
                   <orgName full="init">CCP</orgName>
-                  <orgName full="yes">Catalunya en Comú-Podem</orgName>
+                  <orgName full="yes">Catalunya en Cumú-Podem</orgName>
                </org>
                <org role="politicalParty" xml:id="party.JxCAT">
                   <orgName full="init">JxCAT</orgName>
@@ -2724,5 +2724,7 @@
       </profileDesc>
    </teiHeader>
 	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-		href="ParlaMint-ES-CT_2015-10-26.xml"/>
+		href="ParlaMint-ES-CT_2015-11-09-0301.xml"/>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+		href="ParlaMint-ES-CT_2018-01-17-0101.xml"/>
 </teiCorpus>
