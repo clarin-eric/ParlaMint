@@ -5,8 +5,8 @@
       <titleStmt>
         <title type="main" xml:lang="is">Íslenska þingræðumálheildin ParlaMint-IS [ParlaMint.ana SAMPLE]</title>
         <title type="main" xml:lang="en">Icelandic parliamentary corpus ParlaMint-IS [ParlaMint.ana SAMPLE]</title>
-        <title type="sub" xml:lang="is">Ræður frá Alþingi Íslendinga, 2015-01-01 - 2021-12-31.</title>
-        <title type="sub" xml:lang="en">Speeches in the national parliament of Iceland, 2015-01-01 - 2021-12-31.</title>
+        <title type="sub" xml:lang="is">Ræður frá Alþingi Íslendinga, 2015-01-01 - 2022-07-01.</title>
+        <title type="sub" xml:lang="en">Speeches in the national parliament of Iceland, 2015-01-01 - 2022-07-01.</title>
         <meeting n="21" ana="#parla.term #LV.21">21. kjörtímabil</meeting>
         <meeting n="22" ana="#parla.term #LV.22">22. kjörtímabil</meeting>
         <meeting n="23" ana="#parla.term #LV.23">23. kjörtímabil</meeting>
@@ -23,7 +23,7 @@
         </respStmt>
         <funder>
           <orgName xml:lang="is">Rannsóknainnviðanet CLARIN</orgName>
-          <orgName xml:lang="en">Rannsóknainnviðanet CLARIN</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
         </funder>
       </titleStmt>
       <editionStmt>
@@ -36,7 +36,7 @@
       <publicationStmt>
         <publisher>
           <orgName xml:lang="is">Rannsóknainnviðanet CLARIN</orgName>
-          <orgName xml:lang="en">Rannsóknainnviðanet CLARIN</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
           <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
         </publisher>
         <idno type="handle">http://hdl.handle.net/11356/1388</idno>
@@ -45,14 +45,14 @@
           <p xml:lang="is">Þessi texti er gefinn út með <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
           <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
         </availability>
-        <date when="2022-08-18">2022-08-18</date>
+        <date when="2022-08-30">2022-08-30</date>
       </publicationStmt>
       <sourceDesc>
         <bibl>
           <title xml:lang="is">Þingræður haldnar á Alþingi Íslendinga</title>
           <title xml:lang="en">Parliament speeches in the national parliament of Iceland </title>
           <idno type="URI">https://www.althingi.is</idno>
-          <date from="2015-01-01" to="2021-12-31">2015-01-01 - 2021-12-31</date>
+          <date from="2015-01-01" to="2022-07-01">2015-01-01 - 2022-07-01</date>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -79,21 +79,22 @@
       </editorialDecl>
       <tagsDecl>
         <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage occurs="709" gi="text"/>
-          <tagUsage occurs="709" gi="body"/>
-          <tagUsage occurs="709" gi="div"/>
-          <tagUsage occurs="99" gi="note"/>
-          <tagUsage occurs="74132" gi="u"/>
-          <tagUsage occurs="270312" gi="seg"/>
-          <tagUsage occurs="32882" gi="kinesic"/>
-          <tagUsage occurs="41405" gi="desc"/>
-          <tagUsage occurs="8474" gi="vocal"/>
-          <tagUsage occurs="49" gi="incident"/>
-          <tagUsage occurs="11664" gi="s"/>
-          <tagUsage occurs="247049" gi="w"/>
-          <tagUsage occurs="20090" gi="pc"/>
-          <tagUsage occurs="11664" gi="linkGrp"/>
-          <tagUsage occurs="267139" gi="link"/>
+          <tagUsage occurs="928" gi="text"/>
+          <tagUsage occurs="928" gi="body"/>
+          <tagUsage occurs="928" gi="div"/>
+          <tagUsage occurs="95331" gi="u"/>
+          <tagUsage occurs="334424" gi="seg"/>
+          <tagUsage occurs="64" gi="incident"/>
+          <tagUsage occurs="49870" gi="desc"/>
+          <tagUsage occurs="137" gi="note"/>
+          <tagUsage occurs="9597" gi="vocal"/>
+          <tagUsage occurs="40209" gi="kinesic"/>
+          <tagUsage occurs="1509357" gi="s"/>
+          <tagUsage occurs="31192517" gi="w"/>
+          <tagUsage occurs="2562011" gi="pc"/>
+          <tagUsage occurs="1509357" gi="linkGrp"/>
+          <tagUsage occurs="33754528" gi="link"/>
+          <tagUsage occurs="426836" gi="name"/>
         </namespace>
       </tagsDecl>
       <classDecl>
@@ -186,6 +187,14 @@
                     </catDesc>
                     <catDesc xml:lang="en">
                       <term>Special meeting</term>
+                    </catDesc>
+                  </category>
+                  <category xml:id="parla.meeting.unregistered">
+                    <catDesc xml:lang="is">
+                      <term>Þingfundur ekki skráður</term>
+                    </catDesc>
+                    <catDesc xml:lang="en">
+                      <term>Meeting not registered</term>
                     </catDesc>
                   </category>
                 </category>
@@ -13326,9 +13335,49 @@
               <term>Skattar og gjöld</term>
             </catDesc>
           </category>
+          <category xml:id="topic.152_6_M" ana="#cat.2.6 #cat.5.15 #cat.11.31">
+            <catDesc>
+              <term>Uppbygging félagslegs húsnæðis</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_7_M" ana="#cat.2.6 #cat.2.8 #cat.4.11 #cat.5.15">
+            <catDesc>
+              <term>Skattleysi launatekna undir 350.000 kr</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_8_M" ana="#cat.11.32 #cat.2.6 #cat.7.20 #cat.11.29 #cat.11.31">
+            <catDesc>
+              <term>Loftslagsmál</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_9_M" ana="#cat.1.3 #cat.1.5 #cat.11.32 #cat.2.6 #cat.2.8">
+            <catDesc>
+              <term>Tollalög</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_10_M" ana="#cat.2.6 #cat.6.17">
+            <catDesc>
+              <term>Gjaldfrjálsar heilbrigðisskimanir</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_11_M" ana="#cat.9.24 #cat.5.14 #cat.11.30 #cat.11.31">
+            <catDesc>
+              <term>Framkvæmdaleyfi fyrir lagningu Suðurnesjalínu 2</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_12_M" ana="#cat.1.5 #cat.2.6 #cat.11.31">
+            <catDesc>
+              <term>Úttekt á tryggingavernd í kjölfar náttúruhamfara</term>
+            </catDesc>
+          </category>
           <category xml:id="topic.152_13_M" ana="#cat.2.6 #cat.5.15">
             <catDesc>
               <term>Atvinnulýðræði</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_14_M" ana="#cat.2.6 #cat.6.17">
+            <catDesc>
+              <term>Uppbygging geðdeilda</term>
             </catDesc>
           </category>
           <category xml:id="topic.152_15_M" ana="#cat.1.3 #cat.11.31">
@@ -13341,9 +13390,239 @@
               <term>Aðgerðir gegn kynferðisbrotum og aukinn stuðningur við þolendur</term>
             </catDesc>
           </category>
+          <category xml:id="topic.152_18_M" ana="#cat.4.13 #cat.5.15 #cat.5.14">
+            <catDesc>
+              <term>Tekjustofnar sveitarfélaga</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_19_M" ana="#cat.2.6 #cat.11.30">
+            <catDesc>
+              <term>Raforkulög o.fl.</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_20_M" ana="#cat.8.21">
+            <catDesc>
+              <term>Upplýsingamiðlun um heimilisofbeldismál</term>
+            </catDesc>
+          </category>
           <category xml:id="topic.152_22_M" ana="#cat.1.4">
             <catDesc>
               <term>Stjórn fiskveiða</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_23_M" ana="#cat.2.8">
+            <catDesc>
+              <term>Tekjuskattur</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_24_M" ana="#cat.6.17 #cat.8.21">
+            <catDesc>
+              <term>Ávana-og fíkniefni</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_32_M" ana="#cat.1.3 #cat.11.30">
+            <catDesc>
+              <term>Búvörulög</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_33_M" ana="#cat.4.13 #cat.9.24">
+            <catDesc>
+              <term>Hagkvæmisathugun á uppbyggingu Skógarstrandavegar</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_34_M" ana="#cat.11.32 #cat.11.33 #cat.5.15">
+            <catDesc>
+              <term>Samningur Sameinuðu þjóðanna um réttindi fatlaðs fólks</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_35_M" ana="#cat.1.4 #cat.2.8">
+            <catDesc>
+              <term>Fiskistofa</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_36_M" ana="#cat.2.6 #cat.2.8 #cat.4.11 #cat.5.15">
+            <catDesc>
+              <term>Almannatryggingar</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_37_M" ana="#cat.2.6 #cat.6.17 #cat.5.15">
+            <catDesc>
+              <term>Þjónustu- og þekkingarmiðstöð fyrir blinda, sjónskerta og einstaklinga með samþætta sjón- og heyrnarskerðingu</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_38_M" ana="#cat.2.6 #cat.4.11 #cat.5.15">
+            <catDesc>
+              <term>Almannatryggingar og félagsleg aðstoð</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_39_M" ana="#cat.7.20 #cat.4.12">
+            <catDesc>
+              <term>Menntasjóður námsmanna</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_40_M" ana="#cat.6.17 #cat.4.11">
+            <catDesc>
+              <term>Sjúkratryggingar</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_41_M" ana="#cat.1.4 #cat.1.5">
+            <catDesc>
+              <term>Stjórn fiskveiða</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_42_M" ana="#cat.2.6 #cat.4.12 #cat.5.15 #cat.5.14">
+            <catDesc>
+              <term>Umhverfismat framkvæmda og áætlana</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_43_M" ana="#cat.9.23">
+            <catDesc>
+              <term>Fjarskipti</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_44_M" ana="#cat.1.5 #cat.2.8 #cat.9.24 #cat.11.29">
+            <catDesc>
+              <term>Virðisaukaskattur</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_45_M" ana="#cat.2.6 #cat.8.21 #cat.9.24">
+            <catDesc>
+              <term>Sundabraut</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_46_M" ana="#cat.2.6 #cat.4.13 #cat.9.24">
+            <catDesc>
+              <term>Kaup á nýrri Breiðafjarðarferju</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_47_M" ana="#cat.6.17 #cat.4.11 #cat.5.15">
+            <catDesc>
+              <term>Afnám vasapeningafyrirkomulags</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_49_M" ana="#cat.1.5 #cat.5.15">
+            <catDesc>
+              <term>Aukið lýðræði og gagnsæi í lífeyrissjóðum</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_51_M" ana="#cat.6.17 #cat.5.15 #cat.5.14">
+            <catDesc>
+              <term>Búsetuöryggi í dvalar- og hjúkrunarrýmum</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_52_M" ana="#cat.1.5 #cat.11.33 #cat.5.15">
+            <catDesc>
+              <term>Eignarréttur og erfð lífeyris</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_53_M" ana="#cat.2.6 #cat.2.8 #cat.4.11 #cat.5.15">
+            <catDesc>
+              <term>Staðgreiðsla við innborgun í lífeyrissjóði</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_54_M" ana="#cat.2.6 #cat.8.22">
+            <catDesc>
+              <term>Greiðsla ríkissjóðs á bótum til þolenda afbrota</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_55_M" ana="#cat.4.11">
+            <catDesc>
+              <term>Almannatryggingar</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_56_M" ana="#cat.2.6 #cat.7.20 #cat.4.11 #cat.5.15">
+            <catDesc>
+              <term>Félagsleg aðstoð</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_57_M" ana="#cat.5.15">
+            <catDesc>
+              <term>Fjöleignarhús</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_58_M" ana="#cat.2.6 #cat.6.17 #cat.4.11 #cat.5.15">
+            <catDesc>
+              <term>Gjaldfrjálsar tannréttingar fyrir börn</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_59_M" ana="#cat.1.4 #cat.4.12">
+            <catDesc>
+              <term>Stjórn fiskveiða</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_60_M" ana="#cat.1.5 #cat.11.32">
+            <catDesc>
+              <term>Persónuvernd og vinnsla persónuupplýsinga o.fl.</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_61_M" ana="#cat.2.6 #cat.4.11 #cat.5.15">
+            <catDesc>
+              <term>Félagsleg aðstoð</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_65_M" ana="#cat.2.6 #cat.9.25 #cat.9.26">
+            <catDesc>
+              <term>Opinber fjármál</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_68_M" ana="#cat.2.6 #cat.8.22 #cat.4.11">
+            <catDesc>
+              <term>Skaðabótalög</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_69_M" ana="#cat.4.11">
+            <catDesc>
+              <term>Almannatryggingar</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_70_M" ana="#cat.6.17 #cat.5.15">
+            <catDesc>
+              <term>Réttindi sjúklinga</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_71_M" ana="#cat.4.11 #cat.5.15">
+            <catDesc>
+              <term>Almannatryggingar</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_72_M" ana="#cat.2.6 #cat.4.11 #cat.5.15">
+            <catDesc>
+              <term>Skaðabótalög</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_73_M" ana="#cat.1.4">
+            <catDesc>
+              <term>Stjórn fiskveiða</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_74_M" ana="#cat.1.5 #cat.5.15">
+            <catDesc>
+              <term>Stuðningur til kaupa á fyrstu íbúð</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_75_M" ana="#cat.1.5">
+            <catDesc>
+              <term>Neytendalán o.fl.</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_76_M" ana="#cat.1.5 #cat.5.15">
+            <catDesc>
+              <term>Fasteignalán til neytenda og nauðungarsala</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_77_M" ana="#cat.1.5">
+            <catDesc>
+              <term>Innheimtulög</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_78_M" ana="#cat.2.8 #cat.5.15 #cat.5.14">
+            <catDesc>
+              <term>Tekjustofnar sveitarfélaga</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_80_M" ana="#cat.1.5 #cat.2.7 #cat.5.15">
+            <catDesc>
+              <term>Vextir og verðtrygging og húsaleigulög</term>
             </catDesc>
           </category>
           <category xml:id="topic.152_86_M" ana="#cat.1.4 #cat.1.5">
@@ -13351,14 +13630,84 @@
               <term>Stjórn fiskveiða</term>
             </catDesc>
           </category>
+          <category xml:id="topic.152_87_M" ana="#cat.11.32">
+            <catDesc>
+              <term>Framtíð Íslands í svæðisbundinni, fjölþjóðlegri samvinnu</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_90_M" ana="#cat.11.32">
+            <catDesc>
+              <term>Samningur Sameinuðu þjóðanna um bann við kjarnorkuvopnum</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_91_M" ana="#cat.11.32 #cat.8.21 #cat.9.24 #cat.11.29">
+            <catDesc>
+              <term>Friðlýsing Íslands fyrir kjarnorkuvopnum og bann við umferð kjarnorkuknúinna farartækja</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_93_M" ana="#cat.1.3 #cat.1.4 #cat.2.8 #cat.5.14">
+            <catDesc>
+              <term>Endurskoðun á laga- og reglugerðaumhverfi sjókvíaeldis</term>
+            </catDesc>
+          </category>
           <category xml:id="topic.152_96_M" ana="#cat.1.3 #cat.1.5 #cat.11.29">
             <catDesc>
               <term>Þjóðarátak í landgræðslu</term>
             </catDesc>
           </category>
+          <category xml:id="topic.152_98_M" ana="#cat.2.6 #cat.4.11 #cat.5.15">
+            <catDesc>
+              <term>Orlofshúsnæði örorkulífeyrisþega</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_110_M" ana="#cat.2.6 #cat.4.11 #cat.5.15">
+            <catDesc>
+              <term>Greiðslur Tryggingastofnunar til eldri borgara</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_116_M" ana="#cat.7.20 #cat.5.15">
+            <catDesc>
+              <term>Stuðningur við fötluð ungmenni eftir framhaldsskóla</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_117_M" ana="#cat.2.6 #cat.7.18 #cat.11.31">
+            <catDesc>
+              <term>Þjóðarhöll og þjóðarleikvangur fyrir íþróttir</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_118_M" ana="#cat.1.3 #cat.1.5 #cat.8.22">
+            <catDesc>
+              <term>Búvörulög og búnaðarlög</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_119_M" ana="#cat.2.6 #cat.6.17 #cat.4.12 #cat.5.15">
+            <catDesc>
+              <term>Staða mála á Landspítala</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_120_M" ana="#cat.1.5 #cat.2.7 #cat.5.15">
+            <catDesc>
+              <term>Staða heimilanna í efnahagsþrengingum vegna heimsfaraldurs kórónuveiru</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_121_M" ana="#cat.11.34 #cat.4.11 #cat.5.15">
+            <catDesc>
+              <term>Biðlisti barna eftir þjónustu talmeinafræðinga</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_124_M" ana="#cat.4.11 #cat.5.15">
+            <catDesc>
+              <term>Almannatryggingar</term>
+            </catDesc>
+          </category>
           <category xml:id="topic.152_129_M" ana="#cat.2.6 #cat.2.8 #cat.7.19">
             <catDesc>
               <term>Ráðstöfun útvarpsgjalds</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_131_M" ana="#cat.1.5 #cat.9.24 #cat.11.29 #cat.11.31">
+            <catDesc>
+              <term>Nýskráning á bensín- og dísilbílum</term>
             </catDesc>
           </category>
           <category xml:id="topic.152_137_M" ana="#cat.1.5 #cat.2.8">
@@ -13371,14 +13720,34 @@
               <term>Rannsóknir á nýgengi krabbameina á Suðurnesjum</term>
             </catDesc>
           </category>
+          <category xml:id="topic.152_142_M" ana="#cat.1.3 #cat.1.5 #cat.11.32 #cat.2.6 #cat.11.30">
+            <catDesc>
+              <term>Stórefling innlendrar matvælaframleiðslu og öruggt og fyrirsjáanlegt rekstrarumhverfi landbúnaðar</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_143_M" ana="#cat.1.5 #cat.2.6">
+            <catDesc>
+              <term>Tímasett aðgerðaáætlun um einföldun regluverks</term>
+            </catDesc>
+          </category>
           <category xml:id="topic.152_144_M" ana="#cat.2.6 #cat.6.17 #cat.5.15">
             <catDesc>
               <term>Framkvæmdasjóður aldraðra</term>
             </catDesc>
           </category>
+          <category xml:id="topic.152_148_M" ana="#cat.2.6 #cat.6.17 #cat.5.15">
+            <catDesc>
+              <term>Aðgengi að sálfræðiþjónustu óháð efnahag</term>
+            </catDesc>
+          </category>
           <category xml:id="topic.152_149_M" ana="#cat.11.34 #cat.11.32 #cat.2.6 #cat.6.16">
             <catDesc>
               <term>Dýralyf</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_150_M" ana="#cat.11.32 #cat.6.17 #cat.11.33">
+            <catDesc>
+              <term>Réttindi sjúklinga</term>
             </catDesc>
           </category>
           <category xml:id="topic.152_151_M" ana="#cat.11.34 #cat.8.22 #cat.8.21 #cat.11.33">
@@ -13401,9 +13770,24 @@
               <term>Loftferðir</term>
             </catDesc>
           </category>
+          <category xml:id="topic.152_160_M" ana="#cat.4.12 #cat.5.15">
+            <catDesc>
+              <term>Afnám 70 ára aldurstakmörkunar í lögum um réttindi og skyldur starfsmanna ríkisins</term>
+            </catDesc>
+          </category>
           <category xml:id="topic.152_161_M" ana="#cat.2.6">
             <catDesc>
               <term>Staðfesting ríkisreiknings</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_162_M" ana="#cat.2.7 #cat.2.6">
+            <catDesc>
+              <term>Starf Seðlabanka Íslands eftir gildistöku laga nr. 92/2019</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_163_M" ana="#cat.8.21 #cat.5.15">
+            <catDesc>
+              <term>Hjúskaparlög</term>
             </catDesc>
           </category>
           <category xml:id="topic.152_164_M" ana="#cat.1.5 #cat.11.32 #cat.2.7">
@@ -13426,14 +13810,64 @@
               <term>Breytt skipan ráðuneyta í Stjórnarráði Íslands</term>
             </catDesc>
           </category>
+          <category xml:id="topic.152_168_M" ana="#cat.11.33 #cat.5.15">
+            <catDesc>
+              <term>Jöfn meðferð óháð kynþætti og þjóðernisuppruna</term>
+            </catDesc>
+          </category>
           <category xml:id="topic.152_169_M" ana="#cat.1.5 #cat.2.6 #cat.8.21 #cat.9.23">
             <catDesc>
               <term>Fjarskipti o.fl.</term>
             </catDesc>
           </category>
+          <category xml:id="topic.152_170_M" ana="#cat.1.5 #cat.2.6 #cat.7.19">
+            <catDesc>
+              <term>Ríkisútvarpið, fjölmiðill í almannaþágu</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_171_M" ana="#cat.2.6 #cat.4.12 #cat.4.13 #cat.11.30">
+            <catDesc>
+              <term>Hringtenging rafmagns á Vestfjörðum</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_172_M" ana="#cat.11.33 #cat.5.15">
+            <catDesc>
+              <term>Hjúskaparlög</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_173_M" ana="#cat.11.33 #cat.5.15">
+            <catDesc>
+              <term>Hraðari málsmeðferð og bætt réttarstaða þolenda heimilisofbeldis við hjúskaparslit</term>
+            </catDesc>
+          </category>
           <category xml:id="topic.152_174_M" ana="#cat.2.6">
             <catDesc>
               <term>Fjáraukalög 2021</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_175_M" ana="#cat.2.6 #cat.7.20">
+            <catDesc>
+              <term>Menntasjóður námsmanna</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_178_M" ana="#cat.10.28 #cat.10.27">
+            <catDesc>
+              <term>Kirkjugarðar, greftrun og líkbrennsla</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_181_M" ana="#cat.11.32 #cat.8.21 #cat.5.14 #cat.11.31">
+            <catDesc>
+              <term>Almannavarnir</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_185_M" ana="#cat.1.4 #cat.7.20 #cat.4.12 #cat.9.24">
+            <catDesc>
+              <term>Áhafnir skipa</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_186_M" ana="#cat.1.5 #cat.11.32 #cat.2.8 #cat.9.24">
+            <catDesc>
+              <term>Loftferðir</term>
             </catDesc>
           </category>
           <category xml:id="topic.152_188_M" ana="#cat.2.6 #cat.4.12 #cat.5.15">
@@ -13446,9 +13880,829 @@
               <term>Kosningalög</term>
             </catDesc>
           </category>
+          <category xml:id="topic.152_193_M" ana="#cat.2.6 #cat.4.11 #cat.5.15">
+            <catDesc>
+              <term>Úrvinnsla úrbótatillagna í skýrslu Ríkisendurskoðunar um Tryggingastofnun ríkisins og stöðu almannatrygginga</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_197_M" ana="#cat.11.29 #cat.11.30 #cat.11.31">
+            <catDesc>
+              <term>Bygging hátæknisorpbrennslustöðvar</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_198_M" ana="#cat.1.5 #cat.11.32">
+            <catDesc>
+              <term>Ákvörðun nr. 50/2021 um breytingu á IX. viðauka við EES-samninginn</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_201_M" ana="#cat.8.21 #cat.4.12">
+            <catDesc>
+              <term>Atvinnuréttindi útlendinga</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_202_M" ana="#cat.8.22 #cat.8.21 #cat.5.15">
+            <catDesc>
+              <term>Almenn hegningarlög</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_206_M" ana="#cat.1.5 #cat.11.32 #cat.2.8">
+            <catDesc>
+              <term>Fullgilding fríverslunarsamnings Íslands, Noregs og Liechtenstein og Stóra-Bretlands og Norður-Írlands</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_207_M" ana="#cat.8.22 #cat.8.21 #cat.5.15">
+            <catDesc>
+              <term>Þolendamiðuð heildarendurskoðun hegningarlaga</term>
+            </catDesc>
+          </category>
           <category xml:id="topic.152_208_M" ana="#cat.9.25">
             <catDesc>
               <term>Frestun á fundum Alþingis</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_210_M" ana="#cat.1.1 #cat.2.6 #cat.2.8 #cat.4.12">
+            <catDesc>
+              <term>Staðgreiðsla opinberra gjalda o.fl.</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_211_M" ana="#cat.2.8 #cat.11.29 #cat.11.30">
+            <catDesc>
+              <term>Skattar og gjöld</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_218_M" ana="#cat.9.24 #cat.5.14 #cat.11.31">
+            <catDesc>
+              <term>Rannsóknir á möguleikum á byggingu nýs flugvallar í Hvassahrauni</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_220_M" ana="#cat.8.21 #cat.7.20 #cat.4.12">
+            <catDesc>
+              <term>Reynsla og menntun lögreglumanna</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_225_M" ana="#cat.6.17 #cat.4.12">
+            <catDesc>
+              <term>Sjávarspendýr</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_226_M" ana="#cat.6.17 #cat.5.15">
+            <catDesc>
+              <term>Blóðgjöf</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_228_M" ana="#cat.1.5 #cat.8.21 #cat.4.13">
+            <catDesc>
+              <term>Skoðun ökutækja og hagsmunir bifreiðaeigenda á landsbyggðinni</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_232_M" ana="#cat.1.1 #cat.11.32 #cat.2.6 #cat.2.8">
+            <catDesc>
+              <term>Styrkir til rekstraraðila veitingastaða sem hafa sætt takmörkunum á opnunartíma</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_233_M" ana="#cat.2.6 #cat.8.22 #cat.5.15">
+            <catDesc>
+              <term>Skaðabótalög</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_237_M" ana="#cat.3.10 #cat.6.17">
+            <catDesc>
+              <term>Viðurkenning sjúkdómsgreininga yfir landamæri</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_238_M" ana="#cat.1.5 #cat.2.6 #cat.11.30">
+            <catDesc>
+              <term>Val á söluaðila raforku til þrautavara</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_241_M" ana="#cat.6.17 #cat.4.12">
+            <catDesc>
+              <term>Greining á samúðarþreytu og tillögur að úrræðum</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_244_M" ana="#cat.1.5 #cat.11.32 #cat.2.6">
+            <catDesc>
+              <term>Evrópskir áhættufjármagnssjóðir og evrópskir félagslegir framtakssjóðir</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_247_M" ana="#cat.6.17 #cat.8.21 #cat.9.25">
+            <catDesc>
+              <term>Sóttvarnalög</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_248_M" ana="#cat.1.3 #cat.11.32">
+            <catDesc>
+              <term>Ákvörðun um breytingu á II. viðauka við EES-samninginn</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_249_M" ana="#cat.1.5 #cat.11.32">
+            <catDesc>
+              <term>Ákvörðun nr. 214/2020 um breytingu á IX. viðauka við EES-samninginn</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_250_M" ana="#cat.1.3 #cat.1.5 #cat.11.29">
+            <catDesc>
+              <term>Fýsileikakönnun á merkingum kolefnisspors matvæla</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_251_M" ana="#cat.1.4">
+            <catDesc>
+              <term>Stjórn fiskveiða</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_253_M" ana="#cat.1.1 #cat.1.5 #cat.11.32 #cat.2.6 #cat.6.17 #cat.4.12">
+            <catDesc>
+              <term>Fjárstuðningur til minni rekstraraðila vegna heimsfaraldurs kórónuveiru</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_255_M" ana="#cat.11.34 #cat.2.6 #cat.8.21">
+            <catDesc>
+              <term>Rafræn stjórnsýsla við afgreiðslu umsókna hjá Útlendingastofnun</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_265_M" ana="#cat.1.4">
+            <catDesc>
+              <term>Ráðstöfun Fiskistofu á aflaheimildum</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_271_M" ana="#cat.2.6 #cat.8.21 #cat.11.33 #cat.4.12 #cat.5.15 #cat.5.14">
+            <catDesc>
+              <term>Málefni innflytjenda</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_272_M" ana="#cat.11.32 #cat.8.22 #cat.5.15">
+            <catDesc>
+              <term>Stéttarfélög og vinnudeilur</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_279_M" ana="#cat.1.5 #cat.2.7 #cat.5.15">
+            <catDesc>
+              <term>Vísitala neysluverðs</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_288_M" ana="#cat.2.6 #cat.6.17">
+            <catDesc>
+              <term>Eftirlit landlæknis með heilbrigðisþjónustu</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_289_M" ana="#cat.2.6 #cat.4.11 #cat.4.12 #cat.5.15">
+            <catDesc>
+              <term>Starfslokaaldur hjá opinberum hlutafélögum í eigu ríkisins</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_291_M" ana="#cat.1.1 #cat.1.5 #cat.2.7 #cat.2.6 #cat.6.17 #cat.4.12">
+            <catDesc>
+              <term>Viðspyrnustyrkir</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_293_M" ana="#cat.2.6 #cat.8.21">
+            <catDesc>
+              <term>Ákall Fangavarðafélags Íslands</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_294_M" ana="#cat.11.34 #cat.5.15">
+            <catDesc>
+              <term>Framtíðarumhverfi kjarasamninga og vinnumarkaðsmála</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_296_M" ana="#cat.2.6 #cat.8.21 #cat.9.24 #cat.5.14">
+            <catDesc>
+              <term>Staða framkvæmda í Reykjavík vegna samgöngusáttmála höfuðborgarsvæðisins</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_297_M" ana="#cat.1.3 #cat.1.4 #cat.2.8 #cat.5.14">
+            <catDesc>
+              <term>Gjaldtaka í sjókvíaeldi og skipting tekna til sveitarfélaga</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_301_M" ana="#cat.11.32 #cat.8.22 #cat.8.21 #cat.5.15">
+            <catDesc>
+              <term>Áhrif heimilisofbeldis við úrskurð um umgengni</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_304_M" ana="#cat.2.6 #cat.6.17 #cat.5.15">
+            <catDesc>
+              <term>Heildarúttekt heilbrigðisþjónustu við einstaklinga með vímuefnasjúkdóma</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_306_M" ana="#cat.8.22 #cat.8.21 #cat.5.15">
+            <catDesc>
+              <term>Málsmeðferðartími í kynferðisafbrotamálum</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_312_M" ana="#cat.2.6 #cat.8.21 #cat.5.15 #cat.5.14">
+            <catDesc>
+              <term>Áætlaður aukinn kostnaður af þjónustu við flóttafólk</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_316_M" ana="#cat.2.6 #cat.4.13 #cat.9.24">
+            <catDesc>
+              <term>Heilsársvegur yfir Öxi</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_318_M" ana="#cat.1.5 #cat.11.32 #cat.8.21 #cat.4.12">
+            <catDesc>
+              <term>Almenn hegningarlög</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_321_M" ana="#cat.11.32 #cat.2.6 #cat.5.15 #cat.11.29 #cat.11.31">
+            <catDesc>
+              <term>Aðkoma ungs fólks að ákvarðanatöku og stefnumótun</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_325_M" ana="#cat.1.5 #cat.2.7 #cat.5.15">
+            <catDesc>
+              <term>Viðbrögð við efnahagsástandinu</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_329_M" ana="#cat.6.17 #cat.5.15">
+            <catDesc>
+              <term>HPV-bólusetning óháð kyni</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_330_M" ana="#cat.1.5 #cat.2.7 #cat.2.6 #cat.5.15">
+            <catDesc>
+              <term>Mótvægisaðgerðir vegna verðbólgu og hækkana á húsnæðiskostnaði</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_332_M" ana="#cat.11.30 #cat.11.31">
+            <catDesc>
+              <term>Áætlun um vernd og orkunýtingu landsvæða</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_333_M" ana="#cat.2.8 #cat.7.20 #cat.11.29">
+            <catDesc>
+              <term>Hollustuhættir og mengunarvarnir</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_334_M" ana="#cat.11.34 #cat.1.5 #cat.2.6 #cat.8.21">
+            <catDesc>
+              <term>Áfengislög</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_343_M" ana="#cat.11.34 #cat.4.12 #cat.9.26">
+            <catDesc>
+              <term>Samskipti við hagsmunaverði og skráning þeirra</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_344_M" ana="#cat.11.34 #cat.4.12 #cat.9.26">
+            <catDesc>
+              <term>Samskipti við hagsmunaverði og skráning þeirra</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_346_M" ana="#cat.11.34 #cat.4.12 #cat.9.26">
+            <catDesc>
+              <term>Samskipti við hagsmunaverði og skráning þeirra</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_348_M" ana="#cat.11.34 #cat.4.12 #cat.9.26">
+            <catDesc>
+              <term>Samskipti við hagsmunaverði og skráning þeirra</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_349_M" ana="#cat.1.4">
+            <catDesc>
+              <term>Stjórn fiskveiða</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_350_M" ana="#cat.1.2 #cat.1.3 #cat.1.4 #cat.2.6 #cat.7.20">
+            <catDesc>
+              <term>Stjórn fiskveiða og lög um veiðigjald</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_354_M" ana="#cat.1.4 #cat.11.32 #cat.3.10 #cat.8.21">
+            <catDesc>
+              <term>Staðfesting samninga Íslands um afmörkun landgrunnsins handan 200 sjómílna</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_360_M" ana="#cat.1.3 #cat.5.14 #cat.11.31">
+            <catDesc>
+              <term>Endurheimt votlendis</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_361_M" ana="#cat.11.32 #cat.4.12">
+            <catDesc>
+              <term>Dvalar- og atvinnuréttindi fyrir ungt fólk</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_362_M" ana="#cat.6.17 #cat.8.21 #cat.9.26">
+            <catDesc>
+              <term>Aðkoma Alþingis að sóttvarnaráðstöfunum í heimsfaraldri</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_369_M" ana="#cat.4.12 #cat.9.24">
+            <catDesc>
+              <term>Leigubifreiðaakstur</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_376_M" ana="#cat.2.6 #cat.7.19">
+            <catDesc>
+              <term>Minnisvarði um eldgosið á Heimaey</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_383_M" ana="#cat.2.6 #cat.8.21 #cat.7.20 #cat.5.15">
+            <catDesc>
+              <term>Aðgerðir á ábyrgð ráðuneytisins gegn ofbeldi og afleiðingum þess</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_385_M" ana="#cat.1.5 #cat.11.32">
+            <catDesc>
+              <term>Lýsing verðbréfa o.fl.</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_386_M" ana="#cat.1.4 #cat.11.34 #cat.2.6 #cat.11.33">
+            <catDesc>
+              <term>Fiskveiðistjórn</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_387_M" ana="#cat.1.2 #cat.7.20">
+            <catDesc>
+              <term>Tæknifræðinám við Háskólann á Akureyri</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_389_M" ana="#cat.8.22 #cat.11.33">
+            <catDesc>
+              <term>Almenn hegningarlög</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_392_M" ana="#cat.2.6 #cat.4.12">
+            <catDesc>
+              <term>Brotthvarf háskólamenntaðra sérfræðinga af almennum vinnumarkaði</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_396_M" ana="#cat.4.12 #cat.5.15">
+            <catDesc>
+              <term>Aðgerðir gegn einelti á vinnustöðum</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_408_M" ana="#cat.2.6 #cat.7.19">
+            <catDesc>
+              <term>Listamannalaun</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_411_M" ana="#cat.1.5 #cat.11.32 #cat.5.15">
+            <catDesc>
+              <term>Ákvörðun nr. 383/2021 um breytingu á IX. viðauka við EES-samninginn</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_414_M" ana="#cat.11.34 #cat.2.6 #cat.6.17 #cat.11.33">
+            <catDesc>
+              <term>Landlæknir og lýðheilsa</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_415_M" ana="#cat.11.32 #cat.2.6 #cat.6.17 #cat.7.18 #cat.7.20 #cat.5.15">
+            <catDesc>
+              <term>Aðgerðaáætlun í málefnum hinsegin fólks 2022--2025</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_416_M" ana="#cat.1.3 #cat.11.34 #cat.1.5 #cat.2.6 #cat.7.19 #cat.5.14">
+            <catDesc>
+              <term>Eignarráð og nýting fasteigna</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_417_M" ana="#cat.1.5 #cat.11.32">
+            <catDesc>
+              <term>Greiðslureikningar</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_418_M" ana="#cat.6.17 #cat.5.15">
+            <catDesc>
+              <term>Mótun stefnu í aðdraganda aðgerðaáætlunar í heilbrigðisþjónustu við aldraða til ársins 2030</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_419_M" ana="#cat.1.3 #cat.1.4 #cat.1.5">
+            <catDesc>
+              <term>Eignarhald í laxeldi</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_420_M" ana="#cat.11.32">
+            <catDesc>
+              <term>ÖSE-þingið 2021</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_423_M" ana="#cat.2.6 #cat.8.22 #cat.4.12 #cat.5.15">
+            <catDesc>
+              <term>Málarekstur ráðherra fyrir dómstólum</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_424_M" ana="#cat.9.26 #cat.5.14">
+            <catDesc>
+              <term>Kosningalög og starfsemi stjórnmálasamtaka</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_428_M" ana="#cat.2.6 #cat.9.24">
+            <catDesc>
+              <term>Hellisheiði</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_429_M" ana="#cat.11.32">
+            <catDesc>
+              <term>NATO-þingið 2021</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_430_M" ana="#cat.11.32">
+            <catDesc>
+              <term>Alþjóðaþingmannasambandið 2021</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_431_M" ana="#cat.2.6 #cat.9.24 #cat.11.29 #cat.11.30">
+            <catDesc>
+              <term>Grímseyjarferja</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_433_M" ana="#cat.6.17">
+            <catDesc>
+              <term>Heilbrigðisþjónusta</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_434_M" ana="#cat.1.5 #cat.11.32">
+            <catDesc>
+              <term>Ákvörðun nr. 22/2020 um breytingu á IX. viðauka við EES-samninginn</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_436_M" ana="#cat.11.34 #cat.2.6">
+            <catDesc>
+              <term>Stjórnsýsluendurskoðun á samningi íslenska ríkisins við Microsoft</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_441_M" ana="#cat.11.32 #cat.3.10">
+            <catDesc>
+              <term>Utanríkis- og alþjóðamál 2021</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_449_M" ana="#cat.1.5 #cat.11.31">
+            <catDesc>
+              <term>Grænþvottur</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_450_M" ana="#cat.1.5 #cat.2.6 #cat.6.17 #cat.5.15">
+            <catDesc>
+              <term>Rafrettur og áfyllingar fyrir rafrettur</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_451_M" ana="#cat.1.4 #cat.11.32">
+            <catDesc>
+              <term>Stjórn fiskveiða o.fl.</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_454_M" ana="#cat.6.17 #cat.7.20 #cat.4.12">
+            <catDesc>
+              <term>Viðurkenning á heilbrigðismenntun sem aflað hefur verið í öðru landi</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_456_M" ana="#cat.2.6 #cat.4.12 #cat.9.26">
+            <catDesc>
+              <term>Fjáraukalög 2022</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_457_M" ana="#cat.1.3 #cat.11.32 #cat.6.16 #cat.11.29">
+            <catDesc>
+              <term>Hollustuhættir og mengunarvarnir o.fl.</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_458_M" ana="#cat.2.6 #cat.8.21 #cat.7.20">
+            <catDesc>
+              <term>Slysavarnarskóli sjómanna</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_459_M" ana="#cat.2.6 #cat.10.28 #cat.10.27">
+            <catDesc>
+              <term>Kirkjugarðar, greftrun og líkbrennsla</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_461_M" ana="#cat.11.34 #cat.1.5 #cat.11.32 #cat.2.6 #cat.8.21 #cat.11.33 #cat.9.23">
+            <catDesc>
+              <term>Fjarskipti</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_462_M" ana="#cat.1.5 #cat.11.32">
+            <catDesc>
+              <term>Ákvörðun nr. 215/2021 um breytingu á IX. viðauka við EES-samninginn</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_463_M" ana="#cat.11.34 #cat.11.32 #cat.2.6 #cat.9.23">
+            <catDesc>
+              <term>Ákvörðun nr. 274/2021 um breytingu á XI. viðauka og bókun 37 við EES-samninginn o.fl.</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_467_M" ana="#cat.11.34 #cat.2.6 #cat.2.8">
+            <catDesc>
+              <term>Uppfletting í fasteignaskrá</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_470_M" ana="#cat.4.12 #cat.9.24">
+            <catDesc>
+              <term>Leigubifreiðaakstur</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_471_M" ana="#cat.1.3 #cat.11.32 #cat.9.24 #cat.11.29 #cat.11.30 #cat.11.31">
+            <catDesc>
+              <term>Loftslagsmál</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_475_M" ana="#cat.1.3 #cat.1.5 #cat.11.32 #cat.6.16">
+            <catDesc>
+              <term>Matvæli og eftirlit með fóðri, áburði og sáðvöru</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_482_M" ana="#cat.8.21 #cat.4.12">
+            <catDesc>
+              <term>Atvinnuréttindi útlendinga</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_483_M" ana="#cat.11.29 #cat.11.31">
+            <catDesc>
+              <term>Vistmorð</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_492_M" ana="#cat.1.3 #cat.6.16 #cat.11.29">
+            <catDesc>
+              <term>Aukin nýting lífræns úrgangs til áburðar</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_498_M" ana="#cat.11.34 #cat.6.17 #cat.8.22 #cat.8.21 #cat.11.33 #cat.9.24">
+            <catDesc>
+              <term>Sóttvarnalög</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_500_M" ana="#cat.1.5 #cat.11.32">
+            <catDesc>
+              <term>Ákvörðun nr. 171/2021 um breytingu á IX. viðauka við EES-samninginn</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_501_M" ana="#cat.1.5 #cat.11.32">
+            <catDesc>
+              <term>Ákvörðun nr. 76/2022 um breytingu á IX. viðauka við EES-samninginn</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_506_M" ana="#cat.2.6 #cat.6.17">
+            <catDesc>
+              <term>Biðlistar eftir valaðgerðum</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_508_M" ana="#cat.1.5 #cat.11.32 #cat.2.6">
+            <catDesc>
+              <term>Evrópskir langtímafjárfestingarsjóðir</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_513_M" ana="#cat.2.7 #cat.2.6 #cat.5.14">
+            <catDesc>
+              <term>Fjármálaáætlun fyrir árin 2023--2027</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_516_M" ana="#cat.7.18 #cat.5.15 #cat.10.28">
+            <catDesc>
+              <term>Staða barna innan trúfélaga</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_517_M" ana="#cat.11.32 #cat.4.12">
+            <catDesc>
+              <term>Frjáls atvinnu- og búseturéttur launafólks innan Evrópska efnahagssvæðisins</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_518_M" ana="#cat.8.22 #cat.8.21 #cat.5.15">
+            <catDesc>
+              <term>Meðferð sakamála og fullnusta refsinga</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_530_M" ana="#cat.2.6 #cat.5.15 #cat.5.14">
+            <catDesc>
+              <term>Breyting á ýmsum lögum í þágu barna</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_531_M" ana="#cat.1.5 #cat.11.32">
+            <catDesc>
+              <term>Skilameðferð lánastofna og verðbréfafyrirtækja o.fl.</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_532_M" ana="#cat.1.5 #cat.11.32">
+            <catDesc>
+              <term>Fjármálamarkaðir</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_533_M" ana="#cat.1.5 #cat.11.32 #cat.2.6">
+            <catDesc>
+              <term>Fjármálafyrirtæki o.fl.</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_557_M" ana="#cat.4.12 #cat.9.26">
+            <catDesc>
+              <term>Skipan í stjórnir, starfshópa, nefndir, ráð o.þ.h.</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_563_M" ana="#cat.2.6 #cat.4.12 #cat.4.13 #cat.5.14">
+            <catDesc>
+              <term>Stefnumótandi byggðaáætlun fyrir árin 2022--2036</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_568_M" ana="#cat.11.34 #cat.2.7 #cat.5.15">
+            <catDesc>
+              <term>Skyldutrygging lífeyrisréttinda og starfsemi lífeyrissjóða</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_569_M" ana="#cat.1.5 #cat.2.6 #cat.2.8 #cat.7.20">
+            <catDesc>
+              <term>Stuðningur við nýsköpunarfyrirtæki</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_570_M" ana="#cat.1.5 #cat.11.32 #cat.2.6">
+            <catDesc>
+              <term>Peningamarkaðssjóðir</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_571_M" ana="#cat.11.34 #cat.9.26 #cat.5.14">
+            <catDesc>
+              <term>Sveitarstjórnarlög</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_572_M" ana="#cat.11.34 #cat.2.6 #cat.5.15">
+            <catDesc>
+              <term>Húsaleigulög</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_573_M" ana="#cat.11.34 #cat.4.13 #cat.5.14 #cat.11.30">
+            <catDesc>
+              <term>Skipulagslög</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_574_M" ana="#cat.11.34 #cat.2.6 #cat.2.8 #cat.8.21 #cat.9.23 #cat.9.24">
+            <catDesc>
+              <term>Vaktstöð siglinga</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_575_M" ana="#cat.2.6 #cat.6.17">
+            <catDesc>
+              <term>Stefna í geðheilbrigðismálum til ársins 2030</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_579_M" ana="#cat.7.20">
+            <catDesc>
+              <term>Grunnskólar</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_581_M" ana="#cat.11.33 #cat.7.18 #cat.4.12">
+            <catDesc>
+              <term>Samskiptaráðgjafar íþrótta- og æskulýðsstarfs</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_582_M" ana="#cat.2.6 #cat.11.30">
+            <catDesc>
+              <term>Niðurgreiðsla húshitunarkostnaðar</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_583_M" ana="#cat.11.30 #cat.11.31">
+            <catDesc>
+              <term>Verndar- og orkunýtingaráætlun</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_584_M" ana="#cat.5.15 #cat.5.14">
+            <catDesc>
+              <term>Barnaverndarlög</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_587_M" ana="#cat.1.1 #cat.1.5 #cat.2.6">
+            <catDesc>
+              <term>Pakkaferðir og samtengd ferðatilhögun</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_589_M" ana="#cat.2.6 #cat.4.12 #cat.5.15">
+            <catDesc>
+              <term>Starfskjaralög</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_590_M" ana="#cat.4.12 #cat.5.15">
+            <catDesc>
+              <term>Aðbúnaður, hollustuhættir og öryggi á vinnustöðum</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_591_M" ana="#cat.2.6 #cat.4.11 #cat.5.15">
+            <catDesc>
+              <term>Greiðslur vegna umönnunar langveikra eða fatlaðra barna</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_592_M" ana="#cat.2.6 #cat.8.21 #cat.5.15 #cat.5.14">
+            <catDesc>
+              <term>Framkvæmdaáætlun í málefnum innflytjenda</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_593_M" ana="#cat.2.6 #cat.7.20 #cat.4.11 #cat.5.15">
+            <catDesc>
+              <term>Sorgarleyfi</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_594_M" ana="#cat.11.34 #cat.1.5 #cat.2.7 #cat.8.21">
+            <catDesc>
+              <term>Aðgerðir gegn peningaþvætti og fjármögnun hryðjuverka</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_595_M" ana="#cat.11.32 #cat.8.21 #cat.4.12 #cat.5.15">
+            <catDesc>
+              <term>Útlendingar</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_596_M" ana="#cat.1.1 #cat.1.2 #cat.1.5 #cat.8.21">
+            <catDesc>
+              <term>Áfengislög</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_597_M" ana="#cat.11.32 #cat.8.21 #cat.4.12">
+            <catDesc>
+              <term>Útlendingar og atvinnuréttindi útlendinga</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_598_M" ana="#cat.8.21 #cat.11.33 #cat.9.26">
+            <catDesc>
+              <term>Útlendingar</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_599_M" ana="#cat.2.6 #cat.5.15 #cat.5.14">
+            <catDesc>
+              <term>Heimild Reykjavíkurborgar til að skipa nefnd til að kanna starfsemi vöggustofa</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_628_M" ana="#cat.11.33">
+            <catDesc>
+              <term>Veiting ríkisborgararéttar</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_643_M" ana="#cat.11.34 #cat.3.10 #cat.7.20 #cat.11.29 #cat.11.31">
+            <catDesc>
+              <term>Framfylgd ályktana Vestnorræna ráðsins árið 2021</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_650_M" ana="#cat.1.5 #cat.11.32">
+            <catDesc>
+              <term>Málefni kjörræðismanns Íslands í Hvíta-Rússlandi</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_652_M" ana="#cat.11.34 #cat.2.6 #cat.8.21 #cat.4.12 #cat.11.31">
+            <catDesc>
+              <term>Forvarnir og viðbrögð við gróðureldum</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_659_M" ana="#cat.11.32 #cat.4.11 #cat.5.15">
+            <catDesc>
+              <term>Gagnkvæmur réttur til hlunninda sem almannatryggingar veita</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_663_M" ana="#cat.1.3 #cat.1.5 #cat.2.6 #cat.11.31">
+            <catDesc>
+              <term>Tryggingavernd og starfsemi Bjargráðasjóðs</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_678_M" ana="#cat.2.7 #cat.2.6 #cat.2.8 #cat.4.11 #cat.5.15">
+            <catDesc>
+              <term>Tekjuskattur o.fl.</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_679_M" ana="#cat.1.5 #cat.2.6 #cat.2.8 #cat.5.15 #cat.9.24 #cat.11.30">
+            <catDesc>
+              <term>Virðisaukaskattur</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_684_M" ana="#cat.11.34 #cat.2.6 #cat.2.8 #cat.4.12 #cat.11.31">
+            <catDesc>
+              <term>Flutningur fasteignaskrár frá Þjóðskrá Íslands til Húsnæðis- og mannvirkjastofnunar</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_690_M" ana="#cat.2.8 #cat.4.11 #cat.5.15">
+            <catDesc>
+              <term>Hækkun lágmarksiðgjalds til lífeyrissjóðs</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_692_M" ana="#cat.1.5 #cat.2.6 #cat.2.8 #cat.7.19">
+            <catDesc>
+              <term>Tímabundnar endurgreiðslur vegna kvikmyndagerðar á Íslandi</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_696_M" ana="#cat.6.17">
+            <catDesc>
+              <term>Notkun geðlyfja</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_699_M" ana="#cat.11.32 #cat.11.29 #cat.11.31">
+            <catDesc>
+              <term>Hollustuhættir og mengunarvarnir o.fl.</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_715_M" ana="#cat.11.32 #cat.3.10">
+            <catDesc>
+              <term>Staðfesting viðbótarsamninga við Norður-Atlantshafssamninginn um aðild Finnlands og Svíþjóðar</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_723_M" ana="#cat.11.34 #cat.6.17 #cat.4.12 #cat.5.15 #cat.5.14">
+            <catDesc>
+              <term>Skýrsla Ríkisendurskoðunar um geðheilbrigðisþjónustu</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_740_M" ana="#cat.9.25">
+            <catDesc>
+              <term>Samþykki til frestunar á fundum Alþingis</term>
+            </catDesc>
+          </category>
+          <category xml:id="topic.152_741_M" ana="#cat.11.33">
+            <catDesc>
+              <term>Veiting ríkisborgararéttar</term>
             </catDesc>
           </category>
         </taxonomy>
@@ -13713,7 +14967,7 @@
               <term>dómsmálaráðherra</term>
             </catDesc>
             <catDesc xml:lang="en">
-              <term>Minister for Justice</term>
+              <term>Minister of Justice</term>
             </catDesc>
           </category>
           <category xml:id="mstr.efnahagur">
@@ -14109,13 +15363,13 @@
         </prefixDef>
       </listPrefixDef>
       <appInfo>
-        <application ident="tokenizer" version="2.4.0">
+        <application ident="tokenizer" version="3.4.1">
           <label>Tokenizer</label>
-          <desc xml:lang="en">Tokenisation and sentence segmentation with Tokeniser from Miðeind, available from <ref target="https://github.com/mideind/Tokenizer">https://github.com/mideind/Tokenizer</ref>.</desc>
+          <desc xml:lang="en">Tokenisation and sentence segmentation with Tokeniser from Miðeind, available from <ref target="http://hdl.handle.net/20.500.12537/219">http://hdl.handle.net/20.500.12537/219</ref>.</desc>
         </application>
-        <application ident="abltagger-pos" version="2.0.3">
+        <application ident="abltagger-pos" version="3.0.0">
           <label>ABLTagger (PoS)</label>
-          <desc xml:lang="en">Part-of-speech tagging with ABLTagger (PoS), available from <ref target="http://hdl.handle.net/20.500.12537/98">http://hdl.handle.net/20.500.12537/98</ref>.</desc>
+          <desc xml:lang="en">Part-of-speech tagging with ABLTagger (PoS), available from <ref target="http://hdl.handle.net/20.500.12537/115">http://hdl.handle.net/20.500.12537/115</ref>.</desc>
         </application>
         <application ident="nefnir" version="1.0">
           <label>Nefnir</label>
@@ -14123,7 +15377,7 @@
         </application>
         <application ident="ner" version="1.0">
           <label>NER</label>
-          <desc xml:lang="en">Named entity recognition done with the NER program, trained for Icelandic and available at <ref target="https://github.com/bennigeir/NER">https://github.com/bennigeir/NER</ref>.</desc>
+          <desc xml:lang="en">Named entity recognition done with IceBERT model available at <ref target=" http://hdl.handle.net/20.500.12537/159">http://hdl.handle.net/20.500.12537/159</ref>. Only the tags PER, MISC, LOC and ORG were used.</desc>
         </application>
         <application ident="ufal-udpipe" version="1.2.0.3">
           <label>Ufal.udpipe</label>
@@ -14137,7 +15391,7 @@
           <name type="address">Kirkjustræti</name>
           <name type="city">Reykjavik</name>
           <name type="country" key="IS">Iceland</name>
-          <date from="2015-01-01" to="2021-12-31"/>
+          <date from="2015-01-01" to="2022-07-01"/>
         </setting>
       </settingDesc>
       <particDesc>
@@ -14196,7 +15450,7 @@
                 <label xml:lang="is">23. kjörtímabil</label>
                 <label xml:lang="en">Term nr. 23</label>
               </event>
-              <event xml:id="LV.24" from="2021-09-25" to="2021-09-24">
+              <event xml:id="LV.24" from="2021-09-25">
                 <label xml:lang="is">24. kjörtímabil</label>
                 <label xml:lang="en">Term nr. 24</label>
               </event>
@@ -14299,7 +15553,8 @@
             <sex value="M"/>
             <birth when="1943-05-14"/>
             <affiliation role="head" ref="#institution.PresidentalOffice" from="1996-08-01" to="2016-07-31">
-              <roleName xml:lang="is">President of the Republic</roleName>
+              <roleName xml:lang="is">Forseti lýðveldisins</roleName>
+              <roleName xml:lang="en">President of the Republic</roleName>
             </affiliation>
             <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=440</idno>
           </person>
@@ -14439,12 +15694,17 @@
             <affiliation role="member" ref="#GOV_LV" from="2017-01-11" to="2017-11-29" ana="#GOV_LV.44"/>
             <affiliation role="member" ref="#party.S" from="2017-10-28" to="2021-09-24" ana="#LV.23"/>
             <affiliation role="member" ref="#LV" from="2017-10-28" to="2021-09-24" ana="#LV.23 #const.Sudvesturkjordaemis"/>
-            <affiliation role="minister" ref="#GOV_LV" from="2017-11-30" to="2022-08-17" ana="#mstr.efnahagur #mstr.fjarmal #GOV_LV.45">
+            <affiliation role="minister" ref="#GOV_LV" from="2017-11-30" to="2021-11-27" ana="#mstr.efnahagur #mstr.fjarmal #GOV_LV.45">
               <roleName xml:lang="is">Fjármála- og efnahagsráðherra</roleName>
               <roleName xml:lang="en">Minister of Finance and Economy</roleName>
             </affiliation>
-            <affiliation role="member" ref="#GOV_LV" from="2017-11-30" to="2022-08-17" ana="#GOV_LV.45"/>
+            <affiliation role="member" ref="#GOV_LV" from="2017-11-30" to="2021-11-27" ana="#GOV_LV.45"/>
             <affiliation role="member" ref="#LV" from="2021-09-25" ana="#LV.24 #const.Sudvesturkjordaemis"/>
+            <affiliation role="minister" ref="#GOV_LV" from="2021-11-28" ana="#mstr.efnahagur #mstr.fjarmal #GOV_LV.46">
+              <roleName xml:lang="is">Fjármála- og efnahagsráðherra</roleName>
+              <roleName xml:lang="en">Minister of Finance and Economy</roleName>
+            </affiliation>
+            <affiliation role="member" ref="#GOV_LV" from="2021-11-28" ana="#GOV_LV.46"/>
             <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=652</idno>
           </person>
           <person xml:id="BjorgvinSigurdsson">
@@ -14488,11 +15748,11 @@
               <roleName xml:lang="en">Minister of Foreign Affairs and Development Cooperation</roleName>
             </affiliation>
             <affiliation role="member" ref="#LV" from="2021-09-25" ana="#LV.24 #const.Reyknesinga"/>
-            <affiliation role="minister" ref="#GOV_LV" from="2021-11-29" to="2022-08-17" ana="#mstr.loftslag #mstr.umhverfismal #mstr.orkumal #GOV_LV.46">
+            <affiliation role="minister" ref="#GOV_LV" from="2021-11-29" ana="#mstr.loftslag #mstr.umhverfismal #mstr.orkumal #GOV_LV.46">
               <roleName xml:lang="is">Umhverfis-, orku- og loftslagsráðherra</roleName>
               <roleName xml:lang="en">Minister of Environment, Energy and Climate</roleName>
             </affiliation>
-            <affiliation role="member" ref="#GOV_LV" from="2021-11-29" to="2022-08-17" ana="#GOV_LV.46"/>
+            <affiliation role="member" ref="#GOV_LV" from="2021-11-29" ana="#GOV_LV.46"/>
             <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=656</idno>
           </person>
           <person xml:id="HelgiHjorvar">
@@ -14584,12 +15844,14 @@
             <birth when="1967-08-26"/>
             <affiliation role="minister" ref="#GOV_LV" from="2013-05-23" to="2016-04-06" ana="#mstr.menning #mstr.menntamál #GOV_LV.42">
               <roleName xml:lang="is">Mennta- og menningarmálaráðherra</roleName>
+              <roleName xml:lang="en">Minister of Eduaction and Culture</roleName>
             </affiliation>
             <affiliation role="member" ref="#GOV_LV" from="2013-05-23" to="2016-04-06" ana="#GOV_LV.42"/>
             <affiliation role="member" ref="#party.S" from="2014-09-09" to="2016-10-28" ana="#LV.21"/>
             <affiliation role="member" ref="#LV" from="2014-09-09" to="2016-10-28" ana="#LV.21 #const.Reyknesinga"/>
             <affiliation role="minister" ref="#GOV_LV" from="2016-04-07" to="2017-01-10" ana="#mstr.menning #mstr.menntamál #GOV_LV.43">
               <roleName xml:lang="is">Mennta- og menningarmálaráðherra</roleName>
+              <roleName xml:lang="en">Minister of Eduaction and Culture</roleName>
             </affiliation>
             <affiliation role="member" ref="#GOV_LV" from="2016-04-07" to="2017-01-10" ana="#GOV_LV.43"/>
             <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=687</idno>
@@ -14617,8 +15879,8 @@
               <roleName xml:lang="is">Innanríkiráðherra</roleName>
               <roleName xml:lang="en">Minister of the Interior</roleName>
             </affiliation>
-            <affiliation role="member" ref="#GOV_LV" from="2021-11-29" to="2022-08-17" ana="#GOV_LV.46"/>
-            <affiliation role="minister" ref="#GOV_LV" from="2022-02-01" to="2022-08-17" ana="#mstr.domsmal #GOV_LV.46">
+            <affiliation role="member" ref="#GOV_LV" from="2021-11-29" ana="#GOV_LV.46"/>
+            <affiliation role="minister" ref="#GOV_LV" from="2022-02-01" ana="#mstr.domsmal #GOV_LV.46">
               <roleName xml:lang="is">Dómsmálaráðherra</roleName>
               <roleName xml:lang="en">Minister of Justice</roleName>
             </affiliation>
@@ -14637,12 +15899,17 @@
             <affiliation role="member" ref="#LV" from="2016-10-29" to="2017-10-27" ana="#LV.22 #const.Reyknesinga"/>
             <affiliation role="member" ref="#party.Vg" from="2017-10-28" to="2021-09-24" ana="#LV.23"/>
             <affiliation role="member" ref="#LV" from="2017-10-28" to="2021-09-24" ana="#LV.23 #const.Reyknesinga"/>
-            <affiliation role="minister" ref="#GOV_LV" from="2017-11-30" to="2022-08-17" ana="#mstr.forsaeti #GOV_LV.45">
+            <affiliation role="minister" ref="#GOV_LV" from="2017-11-30" to="2021-11-27" ana="#mstr.forsaeti #GOV_LV.45">
               <roleName xml:lang="is">Forsætisráðherra</roleName>
               <roleName xml:lang="en">Prime Minister</roleName>
             </affiliation>
-            <affiliation role="member" ref="#GOV_LV" from="2017-11-30" to="2022-08-17" ana="#GOV_LV.45"/>
+            <affiliation role="member" ref="#GOV_LV" from="2017-11-30" to="2021-11-27" ana="#GOV_LV.45"/>
             <affiliation role="member" ref="#LV" from="2021-09-25" ana="#LV.24 #const.Reyknesinga"/>
+            <affiliation role="minister" ref="#GOV_LV" from="2021-11-28" ana="#mstr.forsaeti #GOV_LV.46">
+              <roleName xml:lang="is">Forsætisráðherra</roleName>
+              <roleName xml:lang="en">Prime Minister</roleName>
+            </affiliation>
+            <affiliation role="member" ref="#GOV_LV" from="2021-11-28" ana="#GOV_LV.46"/>
             <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=690</idno>
           </person>
           <person xml:id="KristjanJuliusson">
@@ -14669,6 +15936,7 @@
             <affiliation role="member" ref="#LV" from="2016-10-29" to="2017-10-27" ana="#LV.22 #const.Nordausturkjordaemis"/>
             <affiliation role="minister" ref="#GOV_LV" from="2017-01-11" to="2017-11-29" ana="#mstr.menning #mstr.menntamál #GOV_LV.44">
               <roleName xml:lang="is">Mennta- og menningarmálaráðherra</roleName>
+              <roleName xml:lang="en">Minister of Eduaction and Culture</roleName>
             </affiliation>
             <affiliation role="member" ref="#GOV_LV" from="2017-01-11" to="2017-11-29" ana="#GOV_LV.44"/>
             <affiliation role="minister" ref="#GOV_LV" from="2017-01-24" to="2017-11-29" ana="#mstr.norraen_samstarfsmal #GOV_LV.44">
@@ -14756,9 +16024,9 @@
             </affiliation>
             <affiliation role="member" ref="#party.F" from="2014-09-09" to="2016-10-28" ana="#LV.21"/>
             <affiliation role="member" ref="#LV" from="2014-09-09" to="2016-10-28" ana="#LV.21 #const.Sudvesturkjordaemis"/>
-            <affiliation role="minister" ref="#GOV_LV" from="2016-04-07" to="2017-01-10" ana="#mstr.husnaedi #mstr.felagsmal #GOV_LV.43">
-              <roleName xml:lang="is">Húsnæðis- og félagsmálaráðherra</roleName>
-              <roleName xml:lang="en">Minister of Housing and Social Affairs</roleName>
+            <affiliation role="minister" ref="#GOV_LV" from="2016-04-07" to="2017-01-10" ana="#mstr.norraen_samstarfsmal #GOV_LV.43">
+              <roleName xml:lang="is">Ráðherra norrænna samstarfsmála</roleName>
+              <roleName xml:lang="en">Minister of Nordic Cooperation</roleName>
             </affiliation>
             <affiliation role="member" ref="#GOV_LV" from="2016-04-07" to="2017-01-10" ana="#GOV_LV.43"/>
             <affiliation role="member" ref="#party.F" from="2016-10-29" to="2017-10-27" ana="#LV.22"/>
@@ -14820,11 +16088,11 @@
               <roleName xml:lang="en">Minister of Chidren and Social Affairs</roleName>
             </affiliation>
             <affiliation role="member" ref="#LV" from="2021-09-25" ana="#LV.24 #const.Reyknesinga"/>
-            <affiliation role="minister" ref="#GOV_LV" from="2021-11-29" to="2022-08-17" ana="#mstr.born #mstr.menntamál #GOV_LV.46">
+            <affiliation role="minister" ref="#GOV_LV" from="2021-11-29" ana="#mstr.born #mstr.menntamál #GOV_LV.46">
               <roleName xml:lang="is">Mennta- og barnamálaráðherra</roleName>
               <roleName xml:lang="en">Minister of Education and Children</roleName>
             </affiliation>
-            <affiliation role="member" ref="#GOV_LV" from="2021-11-29" to="2022-08-17" ana="#GOV_LV.46"/>
+            <affiliation role="member" ref="#GOV_LV" from="2021-11-29" ana="#GOV_LV.46"/>
             <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=707</idno>
           </person>
           <person xml:id="RobertMarshall">
@@ -14981,11 +16249,11 @@
             </affiliation>
             <affiliation role="member" ref="#GOV_LV" from="2017-11-30" to="2021-11-27" ana="#GOV_LV.45"/>
             <affiliation role="member" ref="#LV" from="2021-09-25" ana="#LV.24 #const.Sudurkjordaemis"/>
-            <affiliation role="minister" ref="#GOV_LV" from="2021-11-29" to="2022-08-17" ana="#mstr.innvidir #GOV_LV.46">
+            <affiliation role="minister" ref="#GOV_LV" from="2021-11-29" ana="#mstr.innvidir #GOV_LV.46">
               <roleName xml:lang="is">Innviðaráðherra</roleName>
               <roleName xml:lang="en">Minister of Infrastructure</roleName>
             </affiliation>
-            <affiliation role="member" ref="#GOV_LV" from="2021-11-29" to="2022-08-17" ana="#GOV_LV.46"/>
+            <affiliation role="member" ref="#GOV_LV" from="2021-11-29" ana="#GOV_LV.46"/>
             <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=726</idno>
           </person>
           <person xml:id="BirgittaJonsdottir">
@@ -15046,8 +16314,8 @@
               <roleName xml:lang="is">Sjávarútvegs- og landbúnaðarráðherra</roleName>
               <roleName xml:lang="en">Minister of Fisheries and Agriculture</roleName>
             </affiliation>
-            <affiliation role="member" ref="#GOV_LV" from="2021-11-29" to="2022-08-17" ana="#GOV_LV.46"/>
-            <affiliation role="minister" ref="#GOV_LV" from="2022-02-01" to="2022-08-17" ana="#mstr.matvaeli #GOV_LV.46">
+            <affiliation role="member" ref="#GOV_LV" from="2021-11-29" ana="#GOV_LV.46"/>
+            <affiliation role="minister" ref="#GOV_LV" from="2022-02-01" ana="#mstr.matvaeli #GOV_LV.46">
               <roleName xml:lang="is">Matvælaráðherra</roleName>
               <roleName xml:lang="en">Minister of Food</roleName>
             </affiliation>
@@ -15228,6 +16496,17 @@
             <affiliation role="member" ref="#party.F" from="2015-05-26" to="2015-12-14" ana="#LV.21"/>
             <affiliation role="replacement" ref="#LV" from="2015-05-26" to="2015-12-14" ana="#LV.21 #const.Reyknesinga"/>
             <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=1046</idno>
+          </person>
+          <person xml:id="KolbrunBaldursdottir">
+            <persName>
+              <forename>Kolbrún</forename>
+              <surname>Baldursdóttir</surname>
+            </persName>
+            <sex value="F"/>
+            <birth when="1959-03-23"/>
+            <affiliation role="member" ref="#party.Flf" from="2022-02-21" to="2022-03-27" ana="#LV.24"/>
+            <affiliation role="replacement" ref="#LV" from="2022-02-21" to="2022-03-27" ana="#LV.24 #const.Reyknesinga"/>
+            <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=1049</idno>
           </person>
           <person xml:id="JakobMagnusson">
             <persName>
@@ -15594,11 +16873,11 @@
             <affiliation role="member" ref="#party.F" from="2017-10-28" to="2021-09-24" ana="#LV.23"/>
             <affiliation role="member" ref="#LV" from="2017-10-28" to="2021-09-24" ana="#LV.23 #const.Sudvesturkjordaemis"/>
             <affiliation role="member" ref="#LV" from="2021-09-25" ana="#LV.24 #const.Sudvesturkjordaemis"/>
-            <affiliation role="minister" ref="#GOV_LV" from="2021-11-29" to="2022-08-17" ana="#mstr.heilbrigdi #GOV_LV.46">
+            <affiliation role="minister" ref="#GOV_LV" from="2021-11-29" ana="#mstr.heilbrigdi #GOV_LV.46">
               <roleName xml:lang="is">Heilbirigðisráðherra</roleName>
               <roleName xml:lang="en">Minister of Health</roleName>
             </affiliation>
-            <affiliation role="member" ref="#GOV_LV" from="2021-11-29" to="2022-08-17" ana="#GOV_LV.46"/>
+            <affiliation role="member" ref="#GOV_LV" from="2021-11-29" ana="#GOV_LV.46"/>
             <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=1178</idno>
           </person>
           <person xml:id="THorsteinnSaemundsson">
@@ -16019,6 +17298,7 @@
             <affiliation role="member" ref="#LV" from="2017-10-28" to="2021-09-24" ana="#LV.23 #const.Reykjavikurkjordaemis_sudur"/>
             <affiliation role="minister" ref="#GOV_LV" from="2017-11-30" to="2021-11-27" ana="#mstr.menning #mstr.menntamál #GOV_LV.45">
               <roleName xml:lang="is">Mennta- og menningarmálaráðherra</roleName>
+              <roleName xml:lang="en">Minister of Eduaction and Culture</roleName>
             </affiliation>
             <affiliation role="member" ref="#GOV_LV" from="2017-11-30" to="2021-11-27" ana="#GOV_LV.45"/>
             <affiliation role="member" ref="#LV" from="2021-09-25" ana="#LV.24 #const.Reykjavikurkjordaemis_sudur"/>
@@ -16026,8 +17306,8 @@
               <roleName xml:lang="is">Ferðamála,- viðskipta- og menningarmálaráðherra</roleName>
               <roleName xml:lang="en">Minister of Tourism, Commerce and Culture</roleName>
             </affiliation>
-            <affiliation role="member" ref="#GOV_LV" from="2021-11-29" to="2022-08-17" ana="#GOV_LV.46"/>
-            <affiliation role="minister" ref="#GOV_LV" from="2022-02-01" to="2022-08-17" ana="#mstr.vidskipti #mstr.menning #GOV_LV.46">
+            <affiliation role="member" ref="#GOV_LV" from="2021-11-29" ana="#GOV_LV.46"/>
+            <affiliation role="minister" ref="#GOV_LV" from="2022-02-01" ana="#mstr.vidskipti #mstr.menning #GOV_LV.46">
               <roleName xml:lang="is">Vðskipta og -menningarmálaráðherra</roleName>
               <roleName xml:lang="en">Minister of Commerce and Culture</roleName>
             </affiliation>
@@ -16042,7 +17322,8 @@
             <sex value="M"/>
             <birth when="1968-06-26"/>
             <affiliation role="head" ref="#institution.PresidentalOffice" from="2016-08-01">
-              <roleName xml:lang="is">President of the Republic</roleName>
+              <roleName xml:lang="is">Forseti lýðveldisins</roleName>
+              <roleName xml:lang="en">President of the Republic</roleName>
             </affiliation>
             <idno type="URL">https://is.wikipedia.org/wiki/Gu%C3%B0ni_Th._J%C3%B3hannesson</idno>
           </person>
@@ -16137,8 +17418,8 @@
               <roleName xml:lang="is">utanríkis- og þróunarsamvinnuráðherra</roleName>
               <roleName xml:lang="en">Minister of Foreign Affairs and Development Cooperation</roleName>
             </affiliation>
-            <affiliation role="member" ref="#GOV_LV" from="2021-11-29" to="2022-08-17" ana="#GOV_LV.46"/>
-            <affiliation role="minister" ref="#GOV_LV" from="2022-02-01" to="2022-08-17" ana="#mstr.utanrikismal #GOV_LV.46">
+            <affiliation role="member" ref="#GOV_LV" from="2021-11-29" ana="#GOV_LV.46"/>
+            <affiliation role="minister" ref="#GOV_LV" from="2022-02-01" ana="#mstr.utanrikismal #GOV_LV.46">
               <roleName xml:lang="is">Utanríkisráðherra</roleName>
               <roleName xml:lang="en">Minister of Foreign Affairs</roleName>
             </affiliation>
@@ -16241,8 +17522,8 @@
               <roleName xml:lang="is">Vísinda-, iðnaðar- og nýsköpunarráðherra</roleName>
               <roleName xml:lang="en">Minister of Science, Industry and Innovation</roleName>
             </affiliation>
-            <affiliation role="member" ref="#GOV_LV" from="2021-11-29" to="2022-08-17" ana="#GOV_LV.46"/>
-            <affiliation role="minister" ref="#GOV_LV" from="2022-02-01" to="2022-08-17" ana="#mstr.nyskopun #mstr.haskóli #mstr.idnadur #GOV_LV.46">
+            <affiliation role="member" ref="#GOV_LV" from="2021-11-29" ana="#GOV_LV.46"/>
+            <affiliation role="minister" ref="#GOV_LV" from="2022-02-01" ana="#mstr.nyskopun #mstr.haskóli #mstr.idnadur #GOV_LV.46">
               <roleName xml:lang="is">Háskóla-, iðnaðar- og nýsköpunarráð</roleName>
               <roleName xml:lang="en">Minister of Universities, Industry and Innovation</roleName>
             </affiliation>
@@ -16819,12 +18100,12 @@
               <roleName xml:lang="is">Félags- og vinnumarkaðsráðherra</roleName>
               <roleName xml:lang="en">Minister of Social Affairs and Labour Market</roleName>
             </affiliation>
-            <affiliation role="member" ref="#GOV_LV" from="2021-11-29" to="2022-08-17" ana="#GOV_LV.46"/>
-            <affiliation role="minister" ref="#GOV_LV" from="2021-11-30" to="2022-08-17" ana="#mstr.norraen_samstarfsmal #GOV_LV.46">
+            <affiliation role="member" ref="#GOV_LV" from="2021-11-29" ana="#GOV_LV.46"/>
+            <affiliation role="minister" ref="#GOV_LV" from="2021-11-30" ana="#mstr.norraen_samstarfsmal #GOV_LV.46">
               <roleName xml:lang="is">Ráðherra norrænna samstarfsmála</roleName>
               <roleName xml:lang="en">Minister of Nordic Cooperation</roleName>
             </affiliation>
-            <affiliation role="minister" ref="#GOV_LV" from="2022-02-01" to="2022-08-17" ana="#mstr.vinnumarkadur #mstr.felagsmal #GOV_LV.46">
+            <affiliation role="minister" ref="#GOV_LV" from="2022-02-01" ana="#mstr.vinnumarkadur #mstr.felagsmal #GOV_LV.46">
               <roleName xml:lang="is">Félags- og vinnumarkaðsráðherra</roleName>
               <roleName xml:lang="en">Minister of Social Affairs and Labour Market</roleName>
             </affiliation>
@@ -17413,6 +18694,111 @@
             <affiliation role="member" ref="#LV" from="2021-09-25" ana="#LV.24 #const.Sudvesturkjordaemis"/>
             <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=1425</idno>
           </person>
+          <person xml:id="BerglindSvavarsdottir">
+            <persName>
+              <forename>Berglind</forename>
+              <forename>Harpa</forename>
+              <surname>Svavarsdóttir</surname>
+            </persName>
+            <sex value="F"/>
+            <birth when="1975-11-28"/>
+            <affiliation role="member" ref="#party.S" from="2022-02-21" to="2022-02-27" ana="#LV.24"/>
+            <affiliation role="replacement" ref="#LV" from="2022-02-21" to="2022-02-27" ana="#LV.24 #const.Nordausturkjordaemis"/>
+            <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=1426</idno>
+          </person>
+          <person xml:id="HelgiHedinsson">
+            <persName>
+              <forename>Helgi</forename>
+              <surname>Héðinsson</surname>
+            </persName>
+            <sex value="M"/>
+            <birth when="1988-04-13"/>
+            <affiliation role="member" ref="#party.F" from="2022-05-16" to="2022-05-29" ana="#LV.24"/>
+            <affiliation role="replacement" ref="#LV" from="2022-05-16" to="2022-05-29" ana="#LV.24 #const.Nordausturkjordaemis"/>
+            <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=1428</idno>
+          </person>
+          <person xml:id="HildaGisladottir">
+            <persName>
+              <forename>Hilda</forename>
+              <forename>Jana</forename>
+              <surname>Gísladóttir</surname>
+            </persName>
+            <sex value="F"/>
+            <birth when="1976-08-17"/>
+            <affiliation role="member" ref="#party.Sf" from="2022-03-28" to="2022-06-15" ana="#LV.24"/>
+            <affiliation role="replacement" ref="#LV" from="2022-03-28" to="2022-06-15" ana="#LV.24 #const.Nordausturkjordaemis"/>
+            <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=1429</idno>
+          </person>
+          <person xml:id="FridrikSigurdsson">
+            <persName>
+              <forename>Friðrik</forename>
+              <forename>Már</forename>
+              <surname>Sigurðsson</surname>
+            </persName>
+            <sex value="M"/>
+            <birth when="1980-11-19"/>
+            <affiliation role="member" ref="#party.F" from="2022-02-21" to="2022-02-27" ana="#LV.24"/>
+            <affiliation role="replacement" ref="#LV" from="2022-02-21" to="2022-02-27" ana="#LV.24 #const.Nordurland_vestra"/>
+            <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=1434</idno>
+          </person>
+          <person xml:id="IdaJonsdottir">
+            <persName>
+              <forename>Iða</forename>
+              <forename>Marsibil</forename>
+              <surname>Jónsdóttir</surname>
+            </persName>
+            <sex value="F"/>
+            <birth when="1977-10-15"/>
+            <affiliation role="member" ref="#party.F" from="2022-03-28" to="2022-04-03" ana="#LV.24"/>
+            <affiliation role="replacement" ref="#LV" from="2022-03-28" to="2022-04-03" ana="#LV.24 #const.Nordurland_vestra"/>
+            <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=1435</idno>
+          </person>
+          <person xml:id="SigridurSigurdardottir">
+            <persName>
+              <forename>Sigríður</forename>
+              <forename>Elín</forename>
+              <surname>Sigurðardóttir</surname>
+            </persName>
+            <sex value="F"/>
+            <birth when="2000-12-14"/>
+            <affiliation role="member" ref="#party.S" from="2022-06-13" to="2022-06-15" ana="#LV.24"/>
+            <affiliation role="replacement" ref="#LV" from="2022-06-13" to="2022-06-15" ana="#LV.24 #const.Nordurland_vestra"/>
+            <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=1436</idno>
+          </person>
+          <person xml:id="DagbjortHakonardottir">
+            <persName>
+              <forename>Dagbjört</forename>
+              <surname>Hákonardóttir</surname>
+            </persName>
+            <sex value="F"/>
+            <birth when="1984-07-14"/>
+            <affiliation role="member" ref="#party.Sf" from="2022-02-28" to="2022-04-06" ana="#LV.24"/>
+            <affiliation role="replacement" ref="#LV" from="2022-02-28" to="2022-04-06" ana="#LV.24 #const.Reyknesinga"/>
+            <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=1439</idno>
+          </person>
+          <person xml:id="EvaDavidsdottir">
+            <persName>
+              <forename>Eva</forename>
+              <forename>Dögg</forename>
+              <surname>Davíðsdóttir</surname>
+            </persName>
+            <sex value="F"/>
+            <birth when="1988-12-04"/>
+            <affiliation role="member" ref="#party.Vg" from="2022-01-31" to="2022-03-24" ana="#LV.24"/>
+            <affiliation role="replacement" ref="#LV" from="2022-01-31" to="2022-03-24" ana="#LV.24 #const.Reyknesinga"/>
+            <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=1440</idno>
+          </person>
+          <person xml:id="KjartanMagnusson">
+            <persName>
+              <forename>Kjartan</forename>
+              <surname>Magnússon</surname>
+            </persName>
+            <sex value="M"/>
+            <birth when="1967-12-05"/>
+            <affiliation role="member" ref="#party.S" from="2021-11-25" to="2022-02-13" ana="#LV.24"/>
+            <affiliation role="replacement" ref="#LV" from="2021-11-25" to="2022-02-13" ana="#LV.24 #const.Reyknesinga"/>
+            <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=1441</idno>
+          </person>
           <person xml:id="LenyaKarim">
             <persName>
               <forename>Lenya</forename>
@@ -17426,6 +18812,18 @@
             <affiliation role="replacement" ref="#LV" from="2021-12-27" to="2022-06-06" ana="#LV.24 #const.Reyknesinga"/>
             <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=1442</idno>
           </person>
+          <person xml:id="AdalsteinnSverrisson">
+            <persName>
+              <forename>Aðalsteinn</forename>
+              <forename>Haukur</forename>
+              <surname>Sverrisson</surname>
+            </persName>
+            <sex value="M"/>
+            <birth when="1973-07-20"/>
+            <affiliation role="member" ref="#party.F" from="2022-04-04" to="2022-04-10" ana="#LV.24"/>
+            <affiliation role="replacement" ref="#LV" from="2022-04-04" to="2022-04-10" ana="#LV.24 #const.Reykjavikurkjordaemis_sudur"/>
+            <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=1445</idno>
+          </person>
           <person xml:id="DadiKristofersson">
             <persName>
               <forename>Daði</forename>
@@ -17438,6 +18836,18 @@
             <affiliation role="replacement" ref="#LV" from="2021-12-20" to="2022-06-15" ana="#LV.24 #const.Reykjavikurkjordaemis_sudur"/>
             <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=1448</idno>
           </person>
+          <person xml:id="Fridjon">
+            <persName>
+              <forename>Friðjón</forename>
+              <forename>R</forename>
+              <surname>Friðjónsson</surname>
+            </persName>
+            <sex value="M"/>
+            <birth when="1970-04-18"/>
+            <affiliation role="member" ref="#party.S" from="2021-12-22" to="2022-03-20" ana="#LV.24"/>
+            <affiliation role="replacement" ref="#LV" from="2021-12-22" to="2022-03-20" ana="#LV.24 #const.Reykjavikurkjordaemis_sudur"/>
+            <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=1449</idno>
+          </person>
           <person xml:id="GunnhildurHallgrimsdottir">
             <persName>
               <forename>Gunnhildur</forename>
@@ -17449,6 +18859,75 @@
             <affiliation role="member" ref="#party.P" from="2021-12-27" to="2021-12-28" ana="#LV.24"/>
             <affiliation role="replacement" ref="#LV" from="2021-12-27" to="2021-12-28" ana="#LV.24 #const.Reykjavikurkjordaemis_sudur"/>
             <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=1450</idno>
+          </person>
+          <person xml:id="HalldorSvansson">
+            <persName>
+              <forename>Halldór</forename>
+              <forename>Auðar</forename>
+              <surname>Svansson</surname>
+            </persName>
+            <sex value="M"/>
+            <birth when="1979-09-26"/>
+            <affiliation role="member" ref="#party.P" from="2022-02-07" to="2022-05-22" ana="#LV.24"/>
+            <affiliation role="replacement" ref="#LV" from="2022-02-07" to="2022-05-22" ana="#LV.24 #const.Reykjavikurkjordaemis_sudur"/>
+            <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=1451</idno>
+          </person>
+          <person xml:id="WilhelmWessman">
+            <persName>
+              <forename>Wilhelm</forename>
+              <surname>Wessman</surname>
+            </persName>
+            <sex value="M"/>
+            <birth when="1942-10-02"/>
+            <affiliation role="member" ref="#party.Flf" from="2022-03-10" to="2022-03-21" ana="#LV.24"/>
+            <affiliation role="replacement" ref="#LV" from="2022-03-10" to="2022-03-21" ana="#LV.24 #const.Reykjavikurkjordaemis_sudur"/>
+            <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=1453</idno>
+          </person>
+          <person xml:id="BjorgvinJohannesson">
+            <persName>
+              <forename>Björgvin</forename>
+              <surname>Jóhannesson</surname>
+            </persName>
+            <sex value="M"/>
+            <birth when="1978-01-04"/>
+            <affiliation role="member" ref="#party.S" from="2022-06-14" to="2022-06-15" ana="#LV.24"/>
+            <affiliation role="replacement" ref="#LV" from="2022-06-14" to="2022-06-15" ana="#LV.24 #const.Sudurkjordaemis"/>
+            <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=1454</idno>
+          </person>
+          <person xml:id="ErnaBjarnadottir">
+            <persName>
+              <forename>Erna</forename>
+              <surname>Bjarnadóttir</surname>
+            </persName>
+            <sex value="F"/>
+            <birth when="1962-05-26"/>
+            <affiliation role="member" ref="#party.M" from="2022-04-25" to="2022-05-01" ana="#LV.24"/>
+            <affiliation role="replacement" ref="#LV" from="2022-04-25" to="2022-05-01" ana="#LV.24 #const.Sudurkjordaemis"/>
+            <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=1455</idno>
+          </person>
+          <person xml:id="GeorgArnarson">
+            <persName>
+              <forename>Georg</forename>
+              <forename>Eiður</forename>
+              <surname>Arnarson</surname>
+            </persName>
+            <sex value="M"/>
+            <birth when="1964-11-28"/>
+            <affiliation role="member" ref="#party.Flf" from="2022-03-31" to="2022-04-07" ana="#LV.24"/>
+            <affiliation role="replacement" ref="#LV" from="2022-03-31" to="2022-04-07" ana="#LV.24 #const.Sudurkjordaemis"/>
+            <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=1456</idno>
+          </person>
+          <person xml:id="HalldoraTHorvaldsdottir1980">
+            <persName>
+              <forename>Halldóra</forename>
+              <forename>Fríða</forename>
+              <surname>Þorvaldsdóttir</surname>
+            </persName>
+            <sex value="F"/>
+            <birth when="1980-05-08"/>
+            <affiliation role="member" ref="#party.F" from="2022-03-14" to="2022-03-24" ana="#LV.24"/>
+            <affiliation role="replacement" ref="#LV" from="2022-03-14" to="2022-03-24" ana="#LV.24 #const.Sudurkjordaemis"/>
+            <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=1457</idno>
           </person>
           <person xml:id="THorunnPetursdottir">
             <persName>
@@ -17520,6 +18999,17 @@
             <affiliation role="member" ref="#party.P" from="2021-11-23" to="2021-11-29" ana="#LV.24"/>
             <affiliation role="replacement" ref="#LV" from="2021-11-23" to="2021-11-29" ana="#LV.24 #const.Sudvesturkjordaemis"/>
             <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=1468</idno>
+          </person>
+          <person xml:id="KristinHermannsdottir">
+            <persName>
+              <forename>Kristín</forename>
+              <surname>Hermannsdóttir</surname>
+            </persName>
+            <sex value="F"/>
+            <birth when="1998-02-17"/>
+            <affiliation role="member" ref="#party.F" from="2022-03-28" to="2022-04-03" ana="#LV.24"/>
+            <affiliation role="replacement" ref="#LV" from="2022-03-28" to="2022-04-03" ana="#LV.24 #const.Sudvesturkjordaemis"/>
+            <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=1469</idno>
           </person>
           <person xml:id="SigthrudurArmann">
             <persName>
@@ -17599,6 +19089,64 @@
             <affiliation role="replacement" ref="#LV" from="2021-11-23" to="2022-06-15" ana="#LV.24 #const.Nordausturkjordaemis"/>
             <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=1479</idno>
           </person>
+          <person xml:id="AgustaAgustsdottir">
+            <persName>
+              <forename>Ágústa</forename>
+              <surname>Ágústsdóttir</surname>
+            </persName>
+            <sex value="F"/>
+            <birth when="1978-08-11"/>
+            <affiliation role="member" ref="#party.M" from="2022-03-14" to="2022-03-20" ana="#LV.24"/>
+            <affiliation role="replacement" ref="#LV" from="2022-03-14" to="2022-03-20" ana="#LV.24 #const.Nordausturkjordaemis"/>
+            <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=1480</idno>
+          </person>
+          <person xml:id="THorgrimurSigmundsson1976">
+            <persName>
+              <forename>Þorgrímur</forename>
+              <surname>Sigmundsson</surname>
+            </persName>
+            <sex value="M"/>
+            <birth when="1976-04-18"/>
+            <affiliation role="member" ref="#party.M" from="2018-10-11" to="2020-03-15" ana="#LV.23"/>
+            <affiliation role="replacement" ref="#LV" from="2018-10-11" to="2020-03-15" ana="#LV.23 #const.Nordausturkjordaemis"/>
+            <affiliation role="member" ref="#party.M" from="2022-03-21" to="2022-05-22" ana="#LV.24"/>
+            <affiliation role="replacement" ref="#LV" from="2022-03-21" to="2022-05-22" ana="#LV.24 #const.Nordausturkjordaemis"/>
+            <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=1481</idno>
+          </person>
+          <person xml:id="HelgaTHordardottir">
+            <persName>
+              <forename>Helga</forename>
+              <surname>Þórðardóttir</surname>
+            </persName>
+            <sex value="F"/>
+            <birth when="1957-12-28"/>
+            <affiliation role="member" ref="#party.Flf" from="2022-03-22" to="2022-06-07" ana="#LV.24"/>
+            <affiliation role="replacement" ref="#LV" from="2022-03-22" to="2022-06-07" ana="#LV.24 #const.Reykjavikurkjordaemis_sudur"/>
+            <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=1482</idno>
+          </person>
+          <person xml:id="GudnyGudmundsdottir">
+            <persName>
+              <forename>Guðný</forename>
+              <forename>Birna</forename>
+              <surname>Guðmundsdóttir</surname>
+            </persName>
+            <sex value="F"/>
+            <birth when="1982-02-14"/>
+            <affiliation role="member" ref="#party.Sf" from="2022-06-08" to="2022-06-15" ana="#LV.24"/>
+            <affiliation role="replacement" ref="#LV" from="2022-06-08" to="2022-06-15" ana="#LV.24 #const.Sudurkjordaemis"/>
+            <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=1483</idno>
+          </person>
+          <person xml:id="SvanbergHreinsson">
+            <persName>
+              <forename>Svanberg</forename>
+              <surname>Hreinsson</surname>
+            </persName>
+            <sex value="M"/>
+            <birth when="1965-05-23"/>
+            <affiliation role="member" ref="#party.Flf" from="2022-06-08" to="2022-06-15" ana="#LV.24"/>
+            <affiliation role="replacement" ref="#LV" from="2022-06-08" to="2022-06-15" ana="#LV.24 #const.Reykjavikurkjordaemis_sudur"/>
+            <idno type="URL">http://www.althingi.is/altext/cv/is/?nfaerslunr=1484</idno>
+          </person>
         </listPerson>
       </particDesc>
       <langUsage>
@@ -17611,9 +19159,928 @@
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-01-21-54.ana.xml"/>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-01-22-55.ana.xml"/>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-01-26-56.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-01-27-57.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-01-28-58.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-01-29-59.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-02-02-60.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-02-02-61.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-02-03-62.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-02-04-63.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-02-05-64.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-02-16-65.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-02-16-66.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-02-17-67.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-02-18-68.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-02-24-69.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-02-25-70.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-02-26-71.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-02-27-72.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-02-27-73.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-02-27-74.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-03-02-75.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-03-03-76.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-03-04-77.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-03-05-78.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-03-16-79.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-03-17-80.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-03-18-81.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-03-19-82.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-03-23-83.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-03-24-84.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-03-25-85.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-03-26-86.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-04-13-87.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-04-14-88.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-04-15-89.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-04-16-90.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-04-20-91.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-04-20-92.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-04-21-93.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-04-22-94.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-04-27-95.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-04-27-96.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-04-28-97.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-04-29-98.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-04-30-99.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-05-04-100.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-05-04-101.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-05-05-102.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-05-11-103.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-05-11-104.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-05-12-105.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-05-13-106.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-05-15-107.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-05-19-108.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-05-20-109.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-05-21-110.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-05-22-111.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-05-26-112.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-05-27-113.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-05-28-114.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-05-29-115.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-06-01-116.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-06-02-117.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-06-03-118.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-06-04-119.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-06-05-120.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-06-07-121.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-06-08-124.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-06-09-125.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-06-10-126.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-06-11-127.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-06-12-128.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-06-13-129.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-06-13-130.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-06-15-131.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-06-16-132.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-06-19-133.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-06-22-134.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-06-23-135.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-06-24-136.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-06-25-137.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-06-29-138.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-06-30-139.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-06-30-140.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-07-01-141.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-07-01-142.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-07-01-143.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-07-02-144.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-07-02-145.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-07-03-146.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-07-03-147.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-09-08-1.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-09-08-2.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-09-08.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-09-10-3.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-09-11-4.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-09-14-5.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-09-15-6.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-09-16-7.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-09-17-8.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-09-21-9.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-09-22-10.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-09-23-11.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-09-24-12.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-09-24-13.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-10-05-14.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-10-05-15.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-10-06-16.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-10-07-17.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-10-08-18.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-10-13-19.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-10-14-20.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-10-15-21.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-10-19-22.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-10-20-23.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-10-21-24.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-10-22-25.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-11-02-26.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-11-03-27.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-11-04-28.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-11-04-29.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-11-10-30.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-11-11-31.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-11-12-32.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-11-12-33.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-11-16-34.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-11-17-35.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-11-18-36.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-11-19-37.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-11-23-38.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-11-24-39.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-11-25-40.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-11-26-41.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-11-27-42.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-11-30-43.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-11-30-44.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-12-02-45.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-12-03-46.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-12-04-47.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-12-07-48.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-12-08-49.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-12-09-50.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-12-10-51.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-12-11-52.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-12-12-53.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-12-14-54.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-12-15-55.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-12-16-56.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-12-17-57.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-12-18-58.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-12-19-59.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-12-19-60.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2015-12-19-62.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-01-19-63.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-01-20-64.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-01-21-65.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-01-25-66.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-01-26-67.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-01-27-68.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-01-28-69.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-02-01-70.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-02-01-71.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-02-02-72.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-02-03-73.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-02-04-74.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-02-15-75.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-02-16-76.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-02-17-77.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-02-18-78.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-02-23-79.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-02-24-80.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-02-29-81.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-03-01-82.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-03-01-83.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-03-02-84.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-03-09-85.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-03-10-86.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-03-14-87.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-03-15-88.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-03-16-89.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-03-17-90.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-03-18-91.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-04-04-92.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-04-07-93.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-04-08-94.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-04-08-95.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-04-12-96.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-04-13-97.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-04-14-98.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-04-18-100.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-04-18-99.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-04-19-101.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-04-20-102.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-04-28-103.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-04-29-104.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-05-02-105.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-05-02-106.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-05-03-107.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-05-04-108.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-05-10-109.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-05-12-110.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-05-17-111.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-05-18-112.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-05-20-113.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-05-22-114.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-05-22-115.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-05-23-116.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-05-24-117.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-05-25-118.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-05-26-119.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-05-30-120.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-05-30-121.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-05-31-122.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-06-01-123.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-06-02-124.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-06-02-125.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-06-02-126.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-06-02-127.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-06-02-128.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-06-08-129.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-06-08-130.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-06-08-131.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-08-15-132.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-08-16-133.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-08-17-134.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-08-18-135.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-08-19-136.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-08-22-137.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-08-23-138.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-08-24-139.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-08-25-140.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-08-29-141.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-08-30-142.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-08-31-143.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-09-01-144.ana.xml"/>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-09-05-145.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-09-05-146.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-09-06-147.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-09-07-148.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-09-08-149.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-09-12-150.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-09-13-151.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-09-14-152.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-09-19-153.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-09-20-154.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-09-22-155.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-09-23-156.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-09-26-157.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-09-27-158.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-09-28-159.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-09-29-160.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-10-03-161.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-10-03-162.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-10-04-163.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-10-05-164.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-10-06-165.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-10-07-166.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-10-10-167.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-10-11-168.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-10-12-169.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-10-12-170.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-10-13-171.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-10-13-172.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-12-06-1.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-12-06.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-12-07-2.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-12-08-3.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-12-13-4.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-12-15-5.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-12-19-6.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-12-20-7.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-12-20-8.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-12-21-10.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-12-21-9.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-12-22-11.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-12-22-12.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-12-22-13.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2016-12-22-14.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-01-24-15.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-01-24-16.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-01-24-17.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-01-25-18.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-01-26-19.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-01-31-20.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-01-31-21.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-01-31-22.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-02-01-23.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-02-02-24.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-02-06-25.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-02-07-26.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-02-09-28.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-02-21-29.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-02-22-30.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-02-23-31.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-02-24-32.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-02-27-33.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-02-27-34.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-02-27-35.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-02-28-36.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-03-01-37.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-03-02-38.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-03-06-39.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-03-07-40.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-03-08-41.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-03-09-42.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-03-13-43.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-03-20-44.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-03-21-45.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-03-22-46.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-03-23-47.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-03-27-48.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-03-28-49.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-03-29-50.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-03-30-51.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-04-03-52.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-04-03-53.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-04-04-54.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-04-05-55.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-04-06-56.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-04-06-57.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-04-24-58.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-04-25-59.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-04-26-60.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-05-02-61.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-05-03-62.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-05-04-63.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-05-09-64.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-05-15-65.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-05-16-66.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-05-22-67.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-05-22-68.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-05-23-69.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-05-24-70.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-05-24-71.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-05-26-72.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-05-29-73.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-05-29-74.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-05-30-75.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-05-31-76.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-05-31-77.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-06-01-78.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-06-01-79.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-09-12-1.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-09-12.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-09-13-2.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-09-14-3.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-09-18-5.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-09-26-6.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-09-26-7.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-09-27-8.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-12-14-1.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-12-14-2.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-12-14.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-12-15-3.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-12-16-4.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-12-19-5.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-12-21-6.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-12-21-7.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-12-22-8.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-12-22-9.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-12-28-10.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-12-28-11.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-12-29-12.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2017-12-30-13.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-01-22-14.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-01-23-15.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-01-24-16.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-01-25-17.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-01-30-18.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-01-31-19.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-02-01-20.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-02-05-21.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-02-06-22.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-02-07-23.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-02-08-24.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-02-19-25.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-02-20-26.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-02-21-27.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-02-22-28.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-02-26-29.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-02-27-30.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-02-28-31.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-03-01-32.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-03-05-33.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-03-06-34.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-03-06-35.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-03-07-36.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-03-08-37.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-03-08-38.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-03-12-39.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-03-19-40.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-03-20-41.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-03-21-42.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-03-22-43.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-03-23-44.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-04-09-45.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-04-10-46.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-04-11-47.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-04-12-48.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-04-13-49.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-04-16-50.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-04-16-51.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-04-18-52.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-04-23-53.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-04-24-54.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-04-25-55.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-04-26-56.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-04-26-57.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-05-02-58.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-05-03-59.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-05-08-60.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-05-09-61.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-05-28-62.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-05-29-63.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-05-29-64.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-05-31-65.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-06-04-66.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-06-04-67.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-06-05-68.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-06-06-69.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-06-07-70.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-06-08-71.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-06-08-72.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-06-08-73.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-06-08-74.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-06-11-75.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-06-11-76.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-06-12-77.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-06-12-78.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-06-12-79.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-07-17-80.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-07-17-81.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-07-18-82.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-09-11-1.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-09-11.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-09-12-2.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-09-13-3.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-09-14-4.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-09-17-5.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-09-18-6.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-09-19-7.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-09-20-8.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-09-24-9.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-09-25-10.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-09-26-11.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-09-27-12.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-10-09-13.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-10-09-14.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-10-09-15.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-10-09-16.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-10-10-17.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-10-11-18.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-10-15-19.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-10-16-20.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-10-17-21.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-10-18-22.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-10-23-23.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-10-24-24.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-10-25-25.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-11-05-26.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-11-06-27.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-11-07-28.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-11-08-29.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-11-12-30.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-11-14-31.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-11-15-32.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-11-19-33.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-11-20-34.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-11-21-35.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-11-22-36.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-11-23-37.ana.xml"/>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-11-26-38.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-11-27-39.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-12-03-40.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-12-04-41.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-12-05-42.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-12-07-43.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-12-10-44.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-12-10-45.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-12-11-46.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-12-11-47.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-12-12-48.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-12-13-49.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-12-13-50.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-12-14-51.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-12-14-52.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2018-12-14-53.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-01-21-54.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-01-22-55.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-01-23-56.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-01-24-57.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-01-29-58.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-01-30-59.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-01-31-60.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-02-04-61.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-02-05-62.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-02-06-63.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-02-07-64.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-02-07-65.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-02-18-66.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-02-19-67.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-02-20-68.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-02-21-69.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-02-26-70.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-02-27-71.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-02-28-72.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-03-01-73.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-03-04-74.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-03-05-75.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-03-06-76.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-03-07-77.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-03-11-78.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-03-18-79.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-03-19-80.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-03-20-81.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-03-21-82.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-03-25-83.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-03-26-84.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-03-27-85.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-03-28-86.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-04-01-87.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-04-02-88.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-04-08-89.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-04-08-90.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-04-09-91.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-04-10-92.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-04-10-93.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-04-11-94.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-04-29-95.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-04-29-96.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-04-30-97.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-05-02-98.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-05-03-99.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-05-06-100.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-05-07-101.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-05-13-102.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-05-13-103.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-05-14-104.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-05-15-105.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-05-20-106.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-05-21-107.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-05-22-108.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-05-23-109.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-05-24-110.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-05-27-111.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-05-28-112.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-05-29-113.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-05-31-114.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-06-03-115.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-06-04-116.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-06-05-117.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-06-06-118.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-06-07-119.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-06-11-120.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-06-12-121.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-06-13-122.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-06-14-123.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-06-18-124.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-06-19-125.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-06-19-126.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-06-20-127.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-06-20-128.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-06-20-129.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-08-28-130.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-08-29-131.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-09-02-132.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-09-02-133.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-09-10-1.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-09-10.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-09-11-2.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-09-12-3.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-09-13-4.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-09-16-5.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-09-17-6.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-09-19-7.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-09-23-8.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-09-24-9.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-09-25-10.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-09-26-11.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-10-08-12.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-10-08-13.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-10-09-14.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-10-09-15.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-10-10-16.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-10-14-17.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-10-15-18.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-10-16-19.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-10-17-20.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-10-17-21.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-10-21-22.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-10-22-23.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-10-23-24.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-10-24-25.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-11-04-26.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-11-05-27.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-11-06-28.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-11-11-29.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-11-12-30.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-11-13-31.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-11-14-32.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-11-18-33.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-11-25-34.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-11-26-35.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-11-27-36.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-11-28-37.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-12-02-38.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-12-03-39.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-12-04-40.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-12-09-41.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-12-10-42.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-12-11-43.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-12-12-44.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-12-13-45.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-12-16-46.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-12-17-47.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2019-12-17-48.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-01-20-49.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-01-21-50.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-01-22-51.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-01-23-52.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-01-28-53.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-01-29-54.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-01-30-55.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-02-03-56.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-02-04-57.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-02-06-58.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-02-17-59.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-02-18-60.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-02-20-61.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-02-24-62.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-02-24-63.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-02-25-64.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-03-03-65.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-03-03-66.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-03-03-68.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-03-04-69.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-03-05-70.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-03-12-71.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-03-12-72.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-03-13-73.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-03-13-74.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-03-13-75.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-03-17-76.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-03-17-77.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-03-17-78.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-03-20-79.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-03-20-80.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-03-23-81.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-03-23-82.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-03-26-83.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-03-30-84.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-03-30-85.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-04-02-86.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-04-14-87.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-04-14-88.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-04-16-90.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-04-20-91.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-04-22-92.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-04-28-93.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-04-28-94.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-04-30-95.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-05-04-96.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-05-05-97.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-05-06-98.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-05-06-99.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-05-07-100.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-05-11-101.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-05-12-102.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-05-13-103.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-05-18-104.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-05-19-105.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-05-20-106.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-05-20-107.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-05-25-108.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-05-28-109.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-05-29-110.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-05-29-111.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-06-02-112.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-06-03-113.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-06-08-114.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-06-09-115.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-06-12-116.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-06-15-117.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-06-16-118.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-06-18-119.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-06-18-120.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-06-20-121.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-06-22-122.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-06-23-123.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-06-23-124.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-06-23-125.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-06-24-126.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-06-25-127.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-06-26-128.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-06-29-129.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-06-29-130.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-06-30-131.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-08-27-132.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-08-28-133.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-09-02-134.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-09-02-135.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-09-03-136.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-09-03-137.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-09-03-138.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-09-04-139.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-09-04-140.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-09-04-141.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-10-01-1.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-10-01-2.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-10-01.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-10-05-3.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-10-06-4.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-10-07-5.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-10-08-6.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-10-12-7.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-10-13-8.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-10-15-9.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-10-19-10.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-10-20-11.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-10-21-12.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-10-21-13.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-10-22-14.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-11-04-15.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-11-05-16.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-11-05-17.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-11-12-18.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-11-13-19.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-11-13-20.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-11-17-21.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-11-18-22.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-11-19-23.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-11-24-24.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-11-25-25.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-11-26-26.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-11-27-27.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-11-27-28.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-12-02-30.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-12-03-31.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-12-07-32.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-12-08-33.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-12-09-34.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-12-10-35.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-12-11-36.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-12-14-37.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-12-15-38.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-12-16-39.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-12-17-40.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-12-17-41.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-12-18-42.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2020-12-18-43.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-01-18-44.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-01-19-45.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-01-20-46.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-01-21-47.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-01-26-48.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-01-27-49.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-01-28-50.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-02-02-51.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-02-03-52.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-02-04-53.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-02-11-54.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-02-16-55.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-02-17-56.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-02-18-57.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-02-23-58.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-02-24-59.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-02-25-60.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-03-02-61.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-03-03-62.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-03-03-63.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-03-04-64.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-03-11-65.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-03-12-66.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-03-16-67.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-03-17-68.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-03-18-69.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-03-18-70.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-03-18-71.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-03-23-72.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-03-24-73.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-03-25-74.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-03-26-75.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-04-12-76.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-04-13-77.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-04-14-78.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-04-15-79.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-04-19-80.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-04-20-81.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-04-21-82.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-04-22-83.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-04-22-84.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-04-26-85.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-04-27-86.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-04-27-87.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-05-03-88.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-05-04-89.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-05-05-90.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-05-06-91.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-05-10-92.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-05-11-93.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-05-11-94.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-05-11-95.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-05-17-96.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-05-18-97.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-05-19-98.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-05-20-99.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-05-25-100.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-05-26-101.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-05-27-102.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-05-31-103.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-06-01-104.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-06-02-105.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-06-03-106.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-06-04-107.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-06-07-108.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-06-08-109.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-06-09-110.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-06-10-111.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-06-11-112.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-06-12-113.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-06-12-114.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-06-13-115.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-06-13-116.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-06-13-117.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-07-06-118.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-07-06-119.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-07-06-120.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-11-23-1.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-11-25.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-12-01-2.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-12-02-3.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-12-03-4.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-12-04-5.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-12-07-6.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-12-08-7.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-12-09-8.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-12-13-9.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-12-14-10.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-12-15-11.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-12-16-12.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-12-20-13.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-12-21-14.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-12-21-15.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-12-22-16.ana.xml"/>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-12-27-17.ana.xml"/>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-12-28-18.ana.xml"/>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2021-12-28-19.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-01-17-20.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-01-17-21.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-01-18-23.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-01-19-24.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-01-20-25.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-01-25-26.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-01-26-27.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-01-27-28.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-01-31-29.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-01-31-30.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-02-01-31.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-02-02-32.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-02-03-33.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-02-07-34.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-02-08-35.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-02-09-36.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-02-10-37.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-02-21-38.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-02-22-39.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-02-23-40.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-02-24-41.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-02-24-42.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-02-28-43.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-03-01-44.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-03-02-45.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-03-03-46.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-03-07-47.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-03-08-48.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-03-09-49.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-03-10-50.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-03-14-51.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-03-15-52.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-03-21-53.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-03-22-54.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-03-22.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-03-23-55.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-03-23.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-03-24-56.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-03-24.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-03-28-57.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-03-28.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-03-29-59.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-03-29.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-03-30-60.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-04-04-61.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-04-04.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-04-05-62.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-04-05.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-04-06-63.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-04-06.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-04-07-64.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-04-07.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-04-08-65.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-04-08-67.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-04-08.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-04-25-68.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-04-25.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-04-26-69.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-04-26.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-04-27.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-04-28.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-04-29.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-05-16.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-05-17.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-05-18.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-05-23.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-05-24.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-05-30.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-05-31.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-06-01.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-06-02.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-06-07.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-06-08.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-06-09.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-06-10.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-06-13.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-06-14.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-06-15.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS_2022-06-16.ana.xml"/>
 </teiCorpus>
