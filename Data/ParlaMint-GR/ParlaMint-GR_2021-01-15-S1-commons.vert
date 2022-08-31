@@ -1,4 +1,4 @@
-<speech id="ParlaMint-GR_2021-01-15-S1-commons.u1" text_id="ParlaMint-GR_2021-01-15-S1-commons" subcorpus="COVID" house="" term="ΙΗ" session="" meeting="" sitting="" agenda="" from="2021-01-15" to="2021-01-15" title="Minutes of the assembly of the greek parliament, Term 18, session 2, sitting 62, 2021-01-15" speaker_role="Chairperson" speaker_id="ΤΑΣΟΥΛΑΣ_ΑΝΑΣΤΑΣΙΟΥ_ΚΩΝΣΤΑΝΤΙΝΟΣ" speaker_name="ΤΑΣΟΥΛΑΣ, ΚΩΝΣΤΑΝΤΙΝΟΣ" speaker_type="MP" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="" speaker_gender="M" speaker_birth="">
+<speech id="ParlaMint-GR_2021-01-15-S1-commons.u1" text_id="ParlaMint-GR_2021-01-15-S1-commons" subcorpus="COVID" house="" term="ΙΗ" session="" meeting="" sitting="" agenda="" from="2021-01-15" to="2021-01-15" title="Minutes of the assembly of the greek parliament, Term 18, session 2, sitting 62, 2021-01-15" speaker_role="Chairperson" speaker_id="ΤΑΣΟΥΛΑΣ_ΑΝΑΣΤΑΣΙΟΥ_ΚΩΝΣΤΑΝΤΙΝΟΣ" speaker_name="ΤΑΣΟΥΛΑΣ, ΚΩΝΣΤΑΝΤΙΝΟΣ" speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="">
 <p id="ParlaMint-GR_2021-01-15-S1-commons.seg1" lang="greek">
 <s id="ParlaMint-GR_2021-01-15-S1-commons.seg1.1">
 Κυρίες	Κυρίες	κυρία	NOUN	Case=Voc Gender=Fem Number=Plur	1	vocative	αρχίζω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	9
@@ -405,7 +405,7 @@
 </p>
 </speech>
 <note type="vocal:shouting" content="Μάλιστα, μάλιστα."/>
-<speech id="ParlaMint-GR_2021-01-15-S1-commons.u2" text_id="ParlaMint-GR_2021-01-15-S1-commons" subcorpus="COVID" house="" term="ΙΗ" session="" meeting="" sitting="" agenda="" from="2021-01-15" to="2021-01-15" title="Minutes of the assembly of the greek parliament, Term 18, session 2, sitting 62, 2021-01-15" speaker_role="Chairperson" speaker_id="ΤΑΣΟΥΛΑΣ_ΑΝΑΣΤΑΣΙΟΥ_ΚΩΝΣΤΑΝΤΙΝΟΣ" speaker_name="ΤΑΣΟΥΛΑΣ, ΚΩΝΣΤΑΝΤΙΝΟΣ" speaker_type="MP" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="" speaker_gender="M" speaker_birth="">
+<speech id="ParlaMint-GR_2021-01-15-S1-commons.u2" text_id="ParlaMint-GR_2021-01-15-S1-commons" subcorpus="COVID" house="" term="ΙΗ" session="" meeting="" sitting="" agenda="" from="2021-01-15" to="2021-01-15" title="Minutes of the assembly of the greek parliament, Term 18, session 2, sitting 62, 2021-01-15" speaker_role="Chairperson" speaker_id="ΤΑΣΟΥΛΑΣ_ΑΝΑΣΤΑΣΙΟΥ_ΚΩΝΣΤΑΝΤΙΝΟΣ" speaker_name="ΤΑΣΟΥΛΑΣ, ΚΩΝΣΤΑΝΤΙΝΟΣ" speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="">
 <p id="ParlaMint-GR_2021-01-15-S1-commons.seg10" lang="greek">
 <s id="ParlaMint-GR_2021-01-15-S1-commons.seg10.1">
 Συνεπώς	Συνεπώς	συνεπώς	ADV		1	advmod	γίνομαι	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Pass	4
@@ -440,7 +440,7 @@
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-GR_2021-01-15-S1-commons.u106" text_id="ParlaMint-GR_2021-01-15-S1-commons" subcorpus="COVID" house="" term="ΙΗ" session="" meeting="" sitting="" agenda="" from="2021-01-15" to="2021-01-15" title="Minutes of the assembly of the greek parliament, Term 18, session 2, sitting 62, 2021-01-15" speaker_role="Chairperson" speaker_id="ΤΑΣΟΥΛΑΣ_ΑΝΑΣΤΑΣΙΟΥ_ΚΩΝΣΤΑΝΤΙΝΟΣ" speaker_name="ΤΑΣΟΥΛΑΣ, ΚΩΝΣΤΑΝΤΙΝΟΣ" speaker_type="MP" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="" speaker_gender="M" speaker_birth="">
+<speech id="ParlaMint-GR_2021-01-15-S1-commons.u106" text_id="ParlaMint-GR_2021-01-15-S1-commons" subcorpus="COVID" house="" term="ΙΗ" session="" meeting="" sitting="" agenda="" from="2021-01-15" to="2021-01-15" title="Minutes of the assembly of the greek parliament, Term 18, session 2, sitting 62, 2021-01-15" speaker_role="Chairperson" speaker_id="ΤΑΣΟΥΛΑΣ_ΑΝΑΣΤΑΣΙΟΥ_ΚΩΝΣΤΑΝΤΙΝΟΣ" speaker_name="ΤΑΣΟΥΛΑΣ, ΚΩΝΣΤΑΝΤΙΝΟΣ" speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="">
 <p id="ParlaMint-GR_2021-01-15-S1-commons.seg951" lang="greek">
 <s id="ParlaMint-GR_2021-01-15-S1-commons.seg951.1">
 Κυρίες	Κυρίες	κυρία	NOUN	Case=Voc Gender=Fem Number=Plur	1	vocative	ολοκληρώνω	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Pass	12
@@ -492,7 +492,7 @@
 </p>
 </speech>
 <note type="vocal:shouting" content="Μάλιστα, μάλιστα."/>
-<speech id="ParlaMint-GR_2021-01-15-S1-commons.u107" text_id="ParlaMint-GR_2021-01-15-S1-commons" subcorpus="COVID" house="" term="ΙΗ" session="" meeting="" sitting="" agenda="" from="2021-01-15" to="2021-01-15" title="Minutes of the assembly of the greek parliament, Term 18, session 2, sitting 62, 2021-01-15" speaker_role="Chairperson" speaker_id="ΤΑΣΟΥΛΑΣ_ΑΝΑΣΤΑΣΙΟΥ_ΚΩΝΣΤΑΝΤΙΝΟΣ" speaker_name="ΤΑΣΟΥΛΑΣ, ΚΩΝΣΤΑΝΤΙΝΟΣ" speaker_type="MP" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="" speaker_gender="M" speaker_birth="">
+<speech id="ParlaMint-GR_2021-01-15-S1-commons.u107" text_id="ParlaMint-GR_2021-01-15-S1-commons" subcorpus="COVID" house="" term="ΙΗ" session="" meeting="" sitting="" agenda="" from="2021-01-15" to="2021-01-15" title="Minutes of the assembly of the greek parliament, Term 18, session 2, sitting 62, 2021-01-15" speaker_role="Chairperson" speaker_id="ΤΑΣΟΥΛΑΣ_ΑΝΑΣΤΑΣΙΟΥ_ΚΩΝΣΤΑΝΤΙΝΟΣ" speaker_name="ΤΑΣΟΥΛΑΣ, ΚΩΝΣΤΑΝΤΙΝΟΣ" speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="">
 <p id="ParlaMint-GR_2021-01-15-S1-commons.seg953" lang="greek">
 <s id="ParlaMint-GR_2021-01-15-S1-commons.seg953.1">
 Με	Με	με	ADP		1	case	συναίνεση	NOUN	Case=Acc Gender=Fem Number=Sing	3
