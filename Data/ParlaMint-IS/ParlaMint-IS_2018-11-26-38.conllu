@@ -31,7 +31,7 @@
 11	átt	eiga	VERB	sþghen	VerbForm=Sup|Voice=Act	5	acl	_	NER=O
 12	samneyti	samneyti	NOUN	nheo	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	11	obj	_	NER=O
 13	við	við	ADP	af	_	14	case	_	NER=O
-14	VG	VG	NOUN	n----s	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	11	obl	_	NER=O
+14	VG	VG	NOUN	n----s	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	11	obl	_	NER=B-ORG
 15	í	í	ADP	af	_	16	case	_	NER=O
 16	ríkisstjórn	ríkisstjórn	NOUN	nveþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	11	obl	_	NER=O|SpaceAfter=No
 17	.	.	PUNCT	pl	_	16	punct	_	NER=O
@@ -49,7 +49,7 @@
 9	að	að	PART	cn	_	12	mark	_	NER=O
 10	vera	vera	AUX	sng	VerbForm=Inf|Voice=Act	9	cop	_	NER=O
 11	með	með	ADP	af	_	12	case	_	NER=O
-12	VG	VG	NOUN	n----s	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	NER=O
+12	VG	VG	NOUN	n----s	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	NER=B-ORG
 13	í	í	ADP	af	_	14	case	_	NER=O
 14	ríkisstjórn	ríkisstjórn	NOUN	nveþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	NER=O|SpaceAfter=No
 15	.	.	PUNCT	pl	_	14	punct	_	NER=O
@@ -66,7 +66,7 @@
 7	áfram	áfram	ADV	aa	_	6	advmod	_	NER=O
 8	aftur	aftur	ADV	aa	_	6	advmod	_	NER=O
 9	með	með	ADP	af	_	10	case	_	NER=O
-10	VG	VG	NOUN	n----s	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	NER=O|SpaceAfter=No
+10	VG	VG	NOUN	n----s	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	NER=B-ORG|SpaceAfter=No
 11	.	.	PUNCT	pl	_	10	punct	_	NER=O
 
 # sent_id = ParlaMint-IS_2018-11-26-38.seg2.2
@@ -224,8 +224,8 @@
 13	orð	orð	NOUN	nhfo	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur	12	obj	_	NER=O
 14	og	og	CCONJ	c	_	13	cc	_	NER=O
 15	hugsanir	hugsun	NOUN	nvfo	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	13	conj	_	NER=O
-16	Vinstri	vinstri	ADJ	lkfevf	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	NER=O
-17	grænna	grænn	NOUN	lkfesf	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur	13	nmod:poss	_	NER=O|SpaceAfter=No
+16	Vinstri	vinstri	ADJ	lkfevf	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	NER=B-ORG
+17	grænna	grænn	NOUN	lkfesf	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur	13	nmod:poss	_	NER=I-ORG|SpaceAfter=No
 18	.	.	PUNCT	pl	_	17	punct	_	NER=O
 
 # sent_id = ParlaMint-IS_2018-11-26-38.seg4.3
@@ -263,8 +263,8 @@
 1	En	en	CCONJ	c	_	3	cc	_	NER=O
 2	hv.	hv.	NUM	ks	_	3	nummod	_	NER=O
 3	þingmenn	þingmaður	NOUN	nkfn	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	6	nsubj	_	NER=O
-4	Vinstri	vinstri	ADJ	lkfevf	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	NER=O
-5	grænna	grænn	ADJ	lkfesf	Case=Nom|Definite=Def|Degree=Cmp|Gender=Neut|Number=Sing	4	amod	_	NER=O
+4	Vinstri	vinstri	ADJ	lkfevf	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	NER=B-ORG
+5	grænna	grænn	ADJ	lkfesf	Case=Nom|Definite=Def|Degree=Cmp|Gender=Neut|Number=Sing	4	amod	_	NER=I-ORG
 6	verða	verða	VERB	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
 7	auðvitað	auðvitað	ADV	aa	_	6	advmod	_	NER=O
 8	að	að	PART	cn	_	9	mark	_	NER=O
@@ -274,7 +274,7 @@
 
 # sent_id = ParlaMint-IS_2018-11-26-38.seg5.4
 # text = Það sem ég er svo hissa á er hversu ákafir stuðningsmenn hv. þingmenn Vinstri grænna eru við þetta frumvarp.
-1	Það	það	PRON	fphen	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	det	_	NER=O
+1	Það	sá	PRON	fahen	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	det	_	NER=O
 2	sem	sem	SCONJ	ct	_	6	mark	_	NER=O
 3	ég	ég	PRON	fp1en	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	NER=O
 4	er	vera	AUX	sfg1en	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	NER=O
@@ -287,8 +287,8 @@
 11	stuðningsmenn	stuðningsmaður	NOUN	nkfn	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	15	nsubj	_	NER=O
 12	hv.	hv.	NUM	ks	NumType=Card	13	nummod	_	NER=O
 13	þingmenn	þingmaður	NOUN	nkfn	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	11	conj	_	NER=O
-14	Vinstri	vinstri	ADJ	lkfevf	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	NER=O
-15	grænna	grænn	ADJ	lkfesf	Case=Nom|Definite=Def|Degree=Cmp|Gender=Neut|Number=Sing	0	root	_	NER=O
+14	Vinstri	vinstri	ADJ	lkfevf	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	NER=B-ORG
+15	grænna	grænn	ADJ	lkfesf	Case=Nom|Definite=Def|Degree=Cmp|Gender=Neut|Number=Sing	0	root	_	NER=I-ORG
 16	eru	vera	AUX	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	_	NER=O
 17	við	við	ADP	af	_	19	case	_	NER=O
 18	þetta	þessi	DET	faheo	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	19	det	_	NER=O
@@ -513,16 +513,16 @@
 24	að	að	SCONJ	c	_	25	mark	_	NER=O
 25	það	það	PRON	fphen	Case=Nom|Gender=Neut|Number=Sing|PronType=Prs	23	ccomp	_	NER=O
 26	var	vera	AUX	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	25	cop	_	NER=O
-27	Sjálfstæðisflokkurinn	Sjálfstæðisflokkur	PROPN	nkengs	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	25	xcomp	_	NER=O|SpaceAfter=No
+27	Sjálfstæðisflokkurinn	Sjálfstæðisflokkur	PROPN	nkengs	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	25	xcomp	_	NER=B-ORG|SpaceAfter=No
 28	.	.	PUNCT	pl	_	27	punct	_	NER=O
 
 # sent_id = ParlaMint-IS_2018-11-26-38.seg795.7
 # text = En Framsóknarflokkur og Vinstri grænir voru sammála þessari útfærslu.
 1	En	en	CCONJ	c	_	2	cc	_	NER=O
-2	Framsóknarflokkur	Framsóknarflokkur	PROPN	nken-s	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	nsubj	_	NER=O
+2	Framsóknarflokkur	Framsóknarflokkur	PROPN	nken-s	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	nsubj	_	NER=B-ORG
 3	og	og	CCONJ	c	_	5	cc	_	NER=O
-4	Vinstri	vinstri	ADJ	lkfnvf	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	NER=O
-5	grænir	grænn	NOUN	lkfnsf	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	2	conj	_	NER=O
+4	Vinstri	vinstri	ADJ	lkfnvf	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	NER=B-ORG
+5	grænir	grænn	NOUN	lkfnsf	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	2	conj	_	NER=I-ORG
 6	voru	vera	AUX	sfg3fþ	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	_	NER=O
 7	sammála	sammála	ADJ	lkfnof	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	NER=O
 8	þessari	þessi	DET	faveþ	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	NER=O
@@ -555,7 +555,7 @@
 7	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	NER=O
 8	eins	eins	ADV	aa	_	6	advmod	_	NER=O
 9	og	og	ADP	c	_	14	case	_	NER=O
-10	Sjálfstæðisflokkurinn	Sjálfstæðisflokkur	NOUN	nkengs	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	nsubj	_	NER=O
+10	Sjálfstæðisflokkurinn	Sjálfstæðisflokkur	NOUN	nkengs	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	nsubj	_	NER=B-ORG
 11	hafi	hafa	AUX	svg3en	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	_	NER=O
 12	einhvern	einhver	DET	fokeo	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	13	amod	_	NER=O
 13	veginn	vegur	NOUN	nkeog	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	14	obl	_	NER=O
@@ -601,8 +601,8 @@
 16	kíkja	kíkja	VERB	sng	VerbForm=Inf|Voice=Act	3	acl	_	NER=O
 17	í	í	ADP	af	_	18	case	_	NER=O
 18	stefnu	stefna	NOUN	nveo	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	16	obl	_	NER=O
-19	Vinstri	vinstri	ADJ	lkfevf	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	NER=O
-20	grænna	grænn	NOUN	lkfesf	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur	18	nmod:poss	_	NER=O|SpaceAfter=No
+19	Vinstri	vinstri	ADJ	lkfevf	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	NER=B-ORG
+20	grænna	grænn	NOUN	lkfesf	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur	18	nmod:poss	_	NER=I-ORG|SpaceAfter=No
 21	.	.	PUNCT	pl	_	20	punct	_	NER=O
 
 # sent_id = ParlaMint-IS_2018-11-26-38.seg797.3
@@ -624,7 +624,7 @@
 # sent_id = ParlaMint-IS_2018-11-26-38.seg798.1
 # text = „VG vill að kvótaúthlutun í núverandi mynd verði aflögð í skrefum og kvóta endurútdeilt á grundvelli hagsmuna samfélagsins, byggða í landinu og atvinnu.“
 1	„	„	PUNCT	pg	_	10	punct	_	NER=O|SpaceAfter=No
-2	VG	VG	NOUN	n----s	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	10	nsubj	_	NER=O
+2	VG	VG	NOUN	n----s	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	10	nsubj	_	NER=B-ORG
 3	vill	vilja	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	NER=O
 4	að	að	ADP	c	_	5	case	_	NER=O
 5	kvótaúthlutun	kvótaúthlutun	NOUN	nven	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	10	obl	_	NER=O
@@ -637,7 +637,7 @@
 12	skrefum	skref	NOUN	nhfþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur	10	obl	_	NER=O
 13	og	og	CCONJ	c	_	14	cc	_	NER=O
 14	kvóta	kvóti	VERB	nkeþ	VerbForm=Inf|Voice=Act	10	conj	_	NER=O
-15	endurútdeilt	endurútdeila	ADJ	sþghen	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Act	14	amod	_	NER=O
+15	endurútdeilt	endurútdeilda	ADJ	sþgven	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Act	14	amod	_	NER=O
 16	á	á	ADP	af	_	17	case	_	NER=O
 17	grundvelli	grundvöllur	NOUN	nkeþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	NER=O
 18	hagsmuna	hagsmunir	NOUN	nkfe	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur	17	nmod:poss	_	NER=O
@@ -663,8 +663,8 @@
 7	yfirlýsing	yfirlýsing	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	11	nsubj	_	NER=O
 8	í	í	ADP	af	_	9	case	_	NER=O
 9	stefnu	stefna	NOUN	nveþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	11	obl	_	NER=O
-10	Vinstri	vinstri	PROPN	lkfevf	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	9	nmod:poss	_	NER=O
-11	grænna	grænn	ADJ	lkfesf	Case=Nom|Definite=Def|Degree=Cmp|Gender=Neut|Number=Sing	19	amod	_	NER=O
+10	Vinstri	vinstri	PROPN	lkfevf	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	9	nmod:poss	_	NER=B-ORG
+11	grænna	grænn	ADJ	lkfesf	Case=Nom|Definite=Def|Degree=Cmp|Gender=Neut|Number=Sing	19	amod	_	NER=I-ORG
 12	sé	vera	AUX	svg3en	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	NER=O
 13	einhvern	einhver	DET	fokeo	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	14	amod	_	NER=O
 14	veginn	vegur	NOUN	nkeog	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	17	obl	_	NER=O
@@ -672,11 +672,11 @@
 16	þeim	sá	DET	favfþ	Case=Dat|Gender=Fem|Number=Plur|PronType=Dem	17	det	_	NER=O
 17	hugmyndum	hugmynd	NOUN	nvfþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur	19	conj	_	NER=O
 18	sem	sem	SCONJ	ct	_	19	mark	_	NER=O
-19	Píratar	Pírati	NOUN	nkfn-s	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	22	conj	_	NER=O|SpaceAfter=No
+19	Píratar	Pírati	NOUN	nkfn-s	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	22	conj	_	NER=B-MISC|SpaceAfter=No
 20	,	,	PUNCT	pk	_	19	punct	_	NER=O
-21	Viðreisn	Viðreisn	NOUN	nven-s	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	19	conj	_	NER=O
+21	Viðreisn	Viðreisn	NOUN	nven-s	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	19	conj	_	NER=B-ORG
 22	og	og	CCONJ	c	_	23	cc	_	NER=O
-23	Samfylking	Samfylking	PROPN	nven-s	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	conj	_	NER=O
+23	Samfylking	Samfylking	PROPN	nven-s	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	conj	_	NER=B-ORG
 24	eru	vera	AUX	sfg3fn	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	NER=O
 25	að	að	PART	cn	_	26	mark	_	NER=O
 26	leggja	leggja	VERB	sng	VerbForm=Inf|Voice=Act	1	acl	_	NER=O
@@ -709,13 +709,13 @@
 6	fjórir	fjórir	NUM	tfkfn	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	7	nummod	_	NER=O
 7	flokkar	flokkur	NOUN	nkfn	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	2	ccomp	_	NER=O|SpaceAfter=No
 8	,	,	PUNCT	pk	_	9	punct	_	NER=O
-9	Viðreisn	Viðreisn	NOUN	nven-s	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	7	conj	_	NER=O|SpaceAfter=No
+9	Viðreisn	Viðreisn	NOUN	nven-s	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	7	conj	_	NER=B-ORG|SpaceAfter=No
 10	,	,	PUNCT	pk	_	11	punct	_	NER=O
-11	Píratar	Pírati	NOUN	nkfn-s	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	7	conj	_	NER=O|SpaceAfter=No
+11	Píratar	Pírati	NOUN	nkfn-s	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	7	conj	_	NER=B-ORG|SpaceAfter=No
 12	,	,	PUNCT	pk	_	13	punct	_	NER=O
-13	Samfylking	Samfylking	PROPN	nven-s	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	conj	_	NER=O
+13	Samfylking	Samfylking	PROPN	nven-s	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	conj	_	NER=B-ORG
 14	og	og	CCONJ	c	_	18	cc	_	NER=O
-15	VG	VG	NOUN	n----s	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	18	nsubj	_	NER=O
+15	VG	VG	NOUN	n----s	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	18	nsubj	_	NER=B-ORG
 16	gætu	geta	AUX	svg3fþ	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	18	aux	_	NER=O
 17	alveg	alveg	ADV	aa	_	18	advmod	_	NER=O
 18	fundið	finna	VERB	sþghen	VerbForm=Sup|Voice=Act	2	conj	_	NER=O
@@ -744,7 +744,7 @@
 3	hægt	hægur	ADJ	lhensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	NER=O
 4	að	að	PART	cn	_	5	mark	_	NER=O
 5	fá	fá	VERB	sng	VerbForm=Inf|Voice=Act	3	acl	_	NER=O
-6	Framsókn	Framsókn	NOUN	nveo-s	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	obj	_	NER=O
+6	Framsókn	Framsókn	NOUN	nveo-s	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	obj	_	NER=B-ORG
 7	inn	inn	ADP	aa	_	5	compound:prt	_	NER=O
 8	á	á	ADP	af	_	10	case	_	NER=O
 9	tímabundna	tímabundinn	ADJ	lkfosf	Case=Acc|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	NER=O
@@ -782,7 +782,7 @@
 6	hægt	hægur	ADJ	lhensf	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	NER=O
 7	að	að	PART	cn	_	8	mark	_	NER=O
 8	finna	finna	VERB	sng	VerbForm=Inf|Voice=Act	2	ccomp	_	NER=O
-9	flöt	flötur	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur	8	obj	_	NER=O
+9	flöt	flöt	NOUN	nveo	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur	8	obj	_	NER=O
 10	á	á	ADP	af	_	11	case	_	NER=O
 11	því	það	PRON	fpheþ	Case=Dat|Gender=Neut|Number=Sing|PronType=Prs	8	obl	_	NER=O|SpaceAfter=No
 12	.	.	PUNCT	pl	_	11	punct	_	NER=O
@@ -794,7 +794,7 @@
 2	af	af	ADP	af	_	3	case	_	NER=O
 3	hverju	hver	PRON	fsheþ	Case=Dat|Gender=Neut|Number=Sing|PronType=Int	4	obl	_	NER=O
 4	ræður	ráða	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
-5	Sjálfstæðisflokkurinn	Sjálfstæðisflokkur	NOUN	nkengs	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	NER=O
+5	Sjálfstæðisflokkurinn	Sjálfstæðisflokkur	NOUN	nkengs	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	NER=B-ORG
 6	öllu	allur	DET	foheþ	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	4	obj	_	NER=O|SpaceAfter=No
 7	?	?	PUNCT	pl	_	6	punct	_	NER=O
 
@@ -825,14 +825,14 @@
 3	ekki	ekki	ADV	aa	_	4	advmod	_	NER=O
 4	gengin	ganga	VERB	sþgven	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	NER=O
 5	í	í	ADP	af	_	6	case	_	NER=O
-6	Samfylkinguna	Samfylkingin	NOUN	nveogs	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	obl	_	NER=O
+6	Samfylkinguna	Samfylkingin	NOUN	nveogs	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	4	obl	_	NER=B-ORG
 7	þegar	þegar	ADP	c	_	9	case	_	NER=O
-8	Samfylkingin	Samfylkingin	PROPN	nvengs	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	NER=O
+8	Samfylkingin	Samfylkingin	PROPN	nvengs	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	NER=B-ORG
 9	fór	fara	VERB	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	obl	_	NER=O
 10	í	í	ADP	af	_	11	case	_	NER=O
 11	samstarf	samstarf	NOUN	nheo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	NER=O
 12	með	með	ADP	af	_	13	case	_	NER=O
-13	Sjálfstæðisflokknum	Sjálfstæðisflokkur	NOUN	nkeþgs	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	9	obl	_	NER=O|SpaceAfter=No
+13	Sjálfstæðisflokknum	Sjálfstæðisflokkur	NOUN	nkeþgs	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	9	obl	_	NER=B-ORG|SpaceAfter=No
 14	,	,	PUNCT	pk	_	13	punct	_	NER=O
 15	ég	ég	PRON	fp1en	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	NER=O
 16	hef	hafa	AUX	sfg1en	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	NER=O
@@ -850,7 +850,7 @@
 5	veginn	vegur	NOUN	nkeog	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	NER=O
 6	eins	eins	ADV	aa	_	2	advmod	_	NER=O
 7	og	og	ADP	c	_	9	case	_	NER=O
-8	Sjálfstæðisflokkurinn	Sjálfstæðisflokkur	NOUN	nkengs	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	NER=O
+8	Sjálfstæðisflokkurinn	Sjálfstæðisflokkur	NOUN	nkengs	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	NER=B-ORG
 9	hafi	hafa	AUX	svg3en	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	obl	_	NER=O
 10	þessi	þessi	DET	fahfo	Case=Acc|Gender=Neut|Number=Plur|PronType=Dem	11	det	_	NER=O
 11	áhrif	áhrif	NOUN	nhfo	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur	9	obj	_	NER=O
@@ -908,7 +908,7 @@
 11	að	að	PART	cn	_	12	mark	_	NER=O
 12	starfa	starfa	VERB	sng	VerbForm=Inf|Voice=Act	8	obl	_	NER=O
 13	með	með	ADP	af	_	14	case	_	NER=O
-14	VG	VG	NOUN	n----s	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	NER=O
+14	VG	VG	NOUN	n----s	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	NER=B-ORG
 15	í	í	ADP	af	_	16	case	_	NER=O
 16	ríkisstjórn	ríkisstjórn	NOUN	nveþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	12	obl	_	NER=O
 17	sem	sem	SCONJ	ct	_	19	mark	_	NER=O
