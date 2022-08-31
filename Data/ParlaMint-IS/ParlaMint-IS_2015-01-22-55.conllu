@@ -7,23 +7,23 @@
 3	bréf	bréf	NOUN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	1	obj	_	NER=O
 4	frá	frá	ADP	af	_	5	case	_	NER=O
 5	þingflokksformanni	þingflokksformaður	NOUN	nkeþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	1	obl	_	NER=O
-6	Samfylkingarinnar	Samfylkingin	NOUN	nveegs	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	nmod:poss	_	NER=O|SpaceAfter=No
+6	Samfylkingarinnar	Samfylkingin	NOUN	nveegs	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	5	nmod:poss	_	NER=B-ORG|SpaceAfter=No
 7	,	,	PUNCT	pk	_	6	punct	_	NER=O
-8	Helga	Helgi	PROPN	nkeþ-s	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	9	nsubj	_	NER=O
-9	Hjörvar	Hjörvar	VERB	x	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	1	acl:relcl	_	NER=O|SpaceAfter=No
+8	Helga	Helgi	PROPN	nkeþ-s	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	9	nsubj	_	NER=B-PER
+9	Hjörvar	Hjörvar	VERB	x	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	1	acl:relcl	_	NER=I-PER|SpaceAfter=No
 10	,	,	PUNCT	pk	_	9	punct	_	NER=O
 11	um	um	ADP	af	_	15	case	_	NER=O
 12	að	að	SCONJ	c	_	15	mark	_	NER=O
 13	5.	5.	ADJ	ta	_	14	amod	_	NER=O
 14	þm.	þm.	NOUN	ks	_	15	obj	_	NER=O
-15	Norðvest	Norðvest	VERB	kt	_	1	obl	_	NER=O|SpaceAfter=No
+15	Norðvest	Norðvest	VERB	kt	_	1	obl	_	NER=B-LOC|SpaceAfter=No
 16	.	.	PUNCT	pl	_	15	punct	_	NER=O|SpaceAfter=No
 
 # sent_id = ParlaMint-IS_2015-01-22-55.seg1.2
 # text = , Guðbjartur Hannesson, geti ekki gegnt þingmennsku á næstunni.
 1	,	,	PUNCT	pk	_	2	punct	_	NER=O
-2	Guðbjartur	Guðbjartur	PROPN	nken-s	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	nsubj	_	NER=O
-3	Hannesson	Hannesson	PROPN	nken-s	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	flat:name	_	NER=O|SpaceAfter=No
+2	Guðbjartur	Guðbjartur	PROPN	nken-s	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	nsubj	_	NER=B-PER
+3	Hannesson	Hannesson	PROPN	nken-s	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	flat:name	_	NER=I-PER|SpaceAfter=No
 4	,	,	PUNCT	pk	_	3	punct	_	NER=O
 5	geti	geta	AUX	svg3en	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	NER=O
 6	ekki	ekki	ADV	aa	_	7	advmod	_	NER=O
@@ -44,25 +44,25 @@
 7	varamaður	varamaður	NOUN	nken	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	NER=O
 8	á	á	ADP	af	_	9	case	_	NER=O
 9	lista	listi	NOUN	nkeþ	Case=Gen|Definite=Ind|Gender=Fem|Number=Plur	3	obl	_	NER=O
-10	Samfylkingarinnar	Samfylkingin	NOUN	nveegs	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	9	nmod:poss	_	NER=O
+10	Samfylkingarinnar	Samfylkingin	NOUN	nveegs	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	9	nmod:poss	_	NER=B-ORG
 11	í	í	ADP	af	_	12	case	_	NER=O
 12	kjördæminu	kjördæmi	NOUN	nheþg	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	3	obl	_	NER=O|SpaceAfter=No
 13	,	,	PUNCT	pk	_	12	punct	_	NER=O
-14	Ólína	Ólína	PROPN	nven-s	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	3	nsubj	_	NER=O
-15	Þorvarðardóttir	Þorvarðardóttir	PROPN	nven-s	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	14	flat:name	_	NER=O|SpaceAfter=No
+14	Ólína	Ólína	PROPN	nven-s	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	3	nsubj	_	NER=B-PER
+15	Þorvarðardóttir	Þorvarðardóttir	PROPN	nven-s	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	14	flat:name	_	NER=I-PER|SpaceAfter=No
 16	.	.	PUNCT	pl	_	15	punct	_	NER=O
 
 # newpar id = ParlaMint-IS_2015-01-22-55.seg2
 # sent_id = ParlaMint-IS_2015-01-22-55.seg2.1
 # text = Ólína Þorvarðardóttir hefur áður tekið sæti á Alþingi og er boðin velkominn til starfa að nýju.
-1	Ólína	Ólína	PROPN	nven-s	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	5	nsubj	_	NER=O
-2	Þorvarðardóttir	Þorvarðardóttir	PROPN	nven-s	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	1	flat:name	_	NER=O
+1	Ólína	Ólína	PROPN	nven-s	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	5	nsubj	_	NER=B-PER
+2	Þorvarðardóttir	Þorvarðardóttir	PROPN	nven-s	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	1	flat:name	_	NER=I-PER
 3	hefur	hafa	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	NER=O
 4	áður	áður	ADV	aa	_	5	advmod	_	NER=O
 5	tekið	taka	VERB	sþghen	VerbForm=Sup|Voice=Act	0	root	_	NER=O
 6	sæti	sæti	NOUN	nheo	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	5	obj	_	NER=O
 7	á	á	ADP	af	_	8	case	_	NER=O
-8	Alþingi	Alþingi	PROPN	nheþ-s	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	NER=O
+8	Alþingi	Alþingi	PROPN	nheþ-s	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	NER=B-ORG
 9	og	og	CCONJ	c	_	11	cc	_	NER=O
 10	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	NER=O
 11	boðin	bjóða	VERB	sþgven	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	5	conj	_	NER=O
@@ -719,7 +719,7 @@
 15	innan	innan	ADP	af	_	16	case	_	NER=O
 16	stofnana	stofnun	NOUN	nvfe	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	11	obl	_	NER=O
 17	og	og	CCONJ	c	_	18	cc	_	NER=O
-18	Stjórnarráðsins	Stjórnarráðið	PROPN	nheegs	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	16	conj	_	NER=O|SpaceAfter=No
+18	Stjórnarráðsins	Stjórnarráðið	PROPN	nheegs	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	16	conj	_	NER=B-ORG|SpaceAfter=No
 19	.	.	PUNCT	pl	_	18	punct	_	NER=O
 
 # sent_id = ParlaMint-IS_2015-01-22-55.seg540.5

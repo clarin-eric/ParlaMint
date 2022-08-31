@@ -6,27 +6,35 @@ hefur	hefur	hafa	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice
 bréf	bréf	bréf	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	3	obj	bera	VERB	VerbForm=Sup Voice=Mid	1
 frá	frá	frá	ADP		4	case	þingflokksformaður	NOUN	Case=Dat Definite=Ind Gender=Masc Number=Sing	5
 þingflokksformanni	þingflokksformanni	þingflokksformaður	NOUN	Case=Dat Definite=Ind Gender=Masc Number=Sing	5	obl	bera	VERB	VerbForm=Sup Voice=Mid	1
+<name type="ORG">
 Samfylkingarinnar	Samfylkingarinnar	Samfylkingin	NOUN	Case=Gen Definite=Def Gender=Fem Number=Sing	6	nmod_poss	þingflokksformaður	NOUN	Case=Dat Definite=Ind Gender=Masc Number=Sing	5
 <g/>
+</name>
 ,	,	,	PUNCT		7	punct	Samfylkingin	NOUN	Case=Gen Definite=Def Gender=Fem Number=Sing	6
+<name type="PER">
 Helga	Helga	Helgi	PROPN	Case=Nom Definite=Ind Gender=Fem Number=Sing	8	nsubj	Hjörvar	VERB	Case=Nom Definite=Ind Gender=Masc Number=Plur	9
 Hjörvar	Hjörvar	Hjörvar	VERB	Case=Nom Definite=Ind Gender=Masc Number=Plur	9	acl_relcl	bera	VERB	VerbForm=Sup Voice=Mid	1
 <g/>
+</name>
 ,	,	,	PUNCT		10	punct	Hjörvar	VERB	Case=Nom Definite=Ind Gender=Masc Number=Plur	9
 um	um	um	ADP		11	case	Norðvest	VERB		15
 að	að	að	SCONJ		12	mark	Norðvest	VERB		15
 5.	5.	5.	ADJ		13	amod	þm.	NOUN		14
 þm.	þm.	þm.	NOUN		14	obj	Norðvest	VERB		15
+<name type="LOC">
 Norðvest	Norðvest	Norðvest	VERB		15	obl	bera	VERB	VerbForm=Sup Voice=Mid	1
 <g/>
+</name>
 .	.	.	PUNCT		16	punct	Norðvest	VERB		15
 <g/>
 </s>
 <s id="ParlaMint-IS_2015-01-22-55.seg1.2">
 ,	,	,	PUNCT		1	punct	Guðbjartur	PROPN	Case=Nom Definite=Ind Gender=Masc Number=Sing	2
+<name type="PER">
 Guðbjartur	Guðbjartur	Guðbjartur	PROPN	Case=Nom Definite=Ind Gender=Masc Number=Sing	2	nsubj	gegna	VERB	VerbForm=Sup Voice=Act	7
 Hannesson	Hannesson	Hannesson	PROPN	Case=Nom Definite=Ind Gender=Masc Number=Sing	3	flat:name	Guðbjartur	PROPN	Case=Nom Definite=Ind Gender=Masc Number=Sing	2
 <g/>
+</name>
 ,	,	,	PUNCT		4	punct	Hannesson	PROPN	Case=Nom Definite=Ind Gender=Masc Number=Sing	3
 geti	geti	geta	AUX	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	5	aux	gegna	VERB	VerbForm=Sup Voice=Act	7
 ekki	ekki	ekki	ADV		6	advmod	gegna	VERB	VerbForm=Sup Voice=Act	7
@@ -47,27 +55,35 @@ sæti	sæti	sæti	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Sing	5	obj	varam
 varamaður	varamaður	varamaður	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	7	nsubj	taka	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	3
 á	á	á	ADP		8	case	listi	NOUN	Case=Gen Definite=Ind Gender=Fem Number=Plur	9
 lista	lista	listi	NOUN	Case=Gen Definite=Ind Gender=Fem Number=Plur	9	obl	taka	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	3
+<name type="ORG">
 Samfylkingarinnar	Samfylkingarinnar	Samfylkingin	NOUN	Case=Gen Definite=Def Gender=Fem Number=Sing	10	nmod_poss	listi	NOUN	Case=Gen Definite=Ind Gender=Fem Number=Plur	9
+</name>
 í	í	í	ADP		11	case	kjördæmi	NOUN	Case=Dat Definite=Def Gender=Neut Number=Sing	12
 kjördæminu	kjördæminu	kjördæmi	NOUN	Case=Dat Definite=Def Gender=Neut Number=Sing	12	obl	taka	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	3
 <g/>
 ,	,	,	PUNCT		13	punct	kjördæmi	NOUN	Case=Dat Definite=Def Gender=Neut Number=Sing	12
+<name type="PER">
 Ólína	Ólína	Ólína	PROPN	Case=Nom Definite=Ind Gender=Fem Number=Sing	14	nsubj	taka	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	3
 Þorvarðardóttir	Þorvarðardóttir	Þorvarðardóttir	PROPN	Case=Nom Definite=Ind Gender=Fem Number=Sing	15	flat:name	Ólína	PROPN	Case=Nom Definite=Ind Gender=Fem Number=Sing	14
 <g/>
+</name>
 .	.	.	PUNCT		16	punct	Þorvarðardóttir	PROPN	Case=Nom Definite=Ind Gender=Fem Number=Sing	15
 </s>
 </p>
 <p id="ParlaMint-IS_2015-01-22-55.seg2" lang="">
 <s id="ParlaMint-IS_2015-01-22-55.seg2.1">
+<name type="PER">
 Ólína	Ólína	Ólína	PROPN	Case=Nom Definite=Ind Gender=Fem Number=Sing	1	nsubj	taka	VERB	VerbForm=Sup Voice=Act	5
 Þorvarðardóttir	Þorvarðardóttir	Þorvarðardóttir	PROPN	Case=Nom Definite=Ind Gender=Fem Number=Sing	2	flat:name	Ólína	PROPN	Case=Nom Definite=Ind Gender=Fem Number=Sing	1
+</name>
 hefur	hefur	hafa	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	3	aux	taka	VERB	VerbForm=Sup Voice=Act	5
 áður	áður	áður	ADV		4	advmod	taka	VERB	VerbForm=Sup Voice=Act	5
 tekið	tekið	taka	VERB	VerbForm=Sup Voice=Act	5	root	-	-	-	-
 sæti	sæti	sæti	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Sing	6	obj	taka	VERB	VerbForm=Sup Voice=Act	5
 á	á	á	ADP		7	case	Alþingi	PROPN	Case=Dat Definite=Ind Gender=Neut Number=Sing	8
+<name type="ORG">
 Alþingi	Alþingi	Alþingi	PROPN	Case=Dat Definite=Ind Gender=Neut Number=Sing	8	obl	taka	VERB	VerbForm=Sup Voice=Act	5
+</name>
 og	og	og	CCONJ		9	cc	bjóða	VERB	Case=Nom Gender=Fem Number=Sing VerbForm=Part Voice=Act	11
 er	er	vera	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	10	cop	bjóða	VERB	Case=Nom Gender=Fem Number=Sing VerbForm=Part Voice=Act	11
 boðin	boðin	bjóða	VERB	Case=Nom Gender=Fem Number=Sing VerbForm=Part Voice=Act	11	conj	taka	VERB	VerbForm=Sup Voice=Act	5
@@ -749,8 +765,10 @@ starfsfólks	starfsfólks	starfsfólk	NOUN	Case=Gen Definite=Ind Gender=Neut Num
 innan	innan	innan	ADP		15	case	stofnun	NOUN	Case=Acc Definite=Def Gender=Masc Number=Plur	16
 stofnana	stofnana	stofnun	NOUN	Case=Acc Definite=Def Gender=Masc Number=Plur	16	obl	auka	VERB	VerbForm=Inf Voice=Act	11
 og	og	og	CCONJ		17	cc	Stjórnarráðið	PROPN	Case=Gen Definite=Def Gender=Masc Number=Sing	18
+<name type="ORG">
 Stjórnarráðsins	Stjórnarráðsins	Stjórnarráðið	PROPN	Case=Gen Definite=Def Gender=Masc Number=Sing	18	conj	stofnun	NOUN	Case=Acc Definite=Def Gender=Masc Number=Plur	16
 <g/>
+</name>
 .	.	.	PUNCT		19	punct	Stjórnarráðið	PROPN	Case=Gen Definite=Def Gender=Masc Number=Sing	18
 </s>
 <s id="ParlaMint-IS_2015-01-22-55.seg540.5">
