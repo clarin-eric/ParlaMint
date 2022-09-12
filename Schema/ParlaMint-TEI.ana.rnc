@@ -15,10 +15,12 @@ include "ParlaMint-TEI.rnc" {
   ## The only element that contains analysed text is
   ##       segment. It can, however, contain transcription
   ##       commentary.
-  seg = element seg { global.atts, (sentence | comment)+ }
+  seg = element seg { global.atts, (comment | pb | sentence)+ }
 }
 sentence =
-  element s { global.atts, (comment | ner | word | punct)+, syntax }
+  element s {
+    global.atts, (comment | pb | ner | word | punct)+, syntax
+  }
 
 ## NER elements
 ner =
