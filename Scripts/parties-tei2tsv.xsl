@@ -46,9 +46,9 @@
     <xsl:value-of select="@xml:id"/>
     <xsl:text>&#9;</xsl:text>
     <xsl:variable name="lang" select="ancestor::tei:teiCorpus/@xml:lang"/>
-    <xsl:variable name="name-xx-abb" select="tei:orgName[@full = 'abb']
+    <xsl:variable name="name-xx-abb" select="tei:orgName[@full = 'abb' or @full = 'init']
 					 [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = $lang]"/>
-    <xsl:variable name="name-en-abb" select="tei:orgName[@full = 'abb']
+    <xsl:variable name="name-en-abb" select="tei:orgName[@full = 'abb' or @full = 'init']
 					 [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'en']"/>
     <xsl:variable name="name-en-full" select="tei:orgName[@full = 'yes']
 					 [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'en']"/>
