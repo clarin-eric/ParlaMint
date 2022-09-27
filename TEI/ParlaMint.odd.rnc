@@ -12,7 +12,7 @@ namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 namespace xsl = "http://www.w3.org/1999/XSL/Transform"
 
-# Schema generated from ODD source 2022-08-11T15:25:59Z. 2022-07-27.
+# Schema generated from ODD source 2022-09-27T12:23:41Z. 2022-07-27.
 # TEI Edition: Version 4.5.0a. Last updated on
 #         1st June 2022, revision aeba95253
 # TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.5.0a./
@@ -578,7 +578,7 @@ tei_name =
   
   ## (name, proper noun) contains a proper noun or noun phrase. [3.6.1. Referring Strings]
   element name {
-    (tei_w | tei_pc | tei_name | tei_date | tei_num | text)+,
+    (tei_w | tei_pc | tei_name | tei_date | tei_num | tei_pb | text)+,
     tei_att.global.attribute.xmlid,
     tei_att.global.attribute.xmllang,
     tei_att.global.analytic.attribute.ana,
@@ -1653,6 +1653,9 @@ tei_incident =
         "break"
       | 
         ##
+        "pause"
+      | 
+        ##
         "sound"
       | 
         ##
@@ -2414,7 +2417,8 @@ tei_s =
      | tei_vocal
      | tei_kinesic
      | tei_incident
-     | tei_gap)+,
+     | tei_gap
+     | tei_pb)+,
     tei_linkGrp
     >> sch:pattern [
          id = "parlamint-s-noNestedS-constraint-report-12"
