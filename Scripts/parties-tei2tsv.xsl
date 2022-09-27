@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- Dump all parliamentary groups and political parties as TSV file for manual editing -->
+<!-- Dump all parliamentary groups and political parties as TSV file -->
 <xsl:stylesheet 
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -28,7 +28,7 @@
 					   $outFilePrefix, $country, '.tsv')"/>
       <xsl:message select="concat('INFO: Processing ', @href)"/>
       <xsl:result-document href="{$outFile}" method="text">
-	<xsl:text>Country&#9;orgType&#9;orgID&#9;Abb-xx&#9;Abb-en&#9;Full-xx&#9;Full-en&#9;From&#9;To&#9;Orientation&#9;Comment&#10;</xsl:text>
+	<xsl:text>Country&#9;orgType&#9;orgID&#9;Abb-xx&#9;Abb-en&#9;Full-xx&#9;Full-en&#9;From&#9;To&#9;Comment&#10;</xsl:text>
 	<xsl:apply-templates select="document($href)//tei:particDesc//tei:org
 				       [@role = 'parliamentaryGroup' or @role = 'politicalParty']">
 	  <xsl:with-param name="country" select="$country"/>
@@ -46,9 +46,9 @@
     <xsl:value-of select="@xml:id"/>
     <xsl:text>&#9;</xsl:text>
     <xsl:variable name="lang" select="ancestor::tei:teiCorpus/@xml:lang"/>
-    <xsl:variable name="name-xx-abb" select="tei:orgName[@full = 'abb']
+    <xsl:variable name="name-xx-abb" select="tei:orgName[@full = 'abb' or @full = 'init']
 					 [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = $lang]"/>
-    <xsl:variable name="name-en-abb" select="tei:orgName[@full = 'abb']
+    <xsl:variable name="name-en-abb" select="tei:orgName[@full = 'abb' or @full = 'init']
 					 [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'en']"/>
     <xsl:variable name="name-en-full" select="tei:orgName[@full = 'yes']
 					 [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'en']"/>
@@ -83,7 +83,7 @@
     <xsl:text>&#9;</xsl:text>
     <xsl:value-of select="et:output(tei:event[tei:label = 'existence']/@to)"/>
     <xsl:text>&#9;</xsl:text>
-    <xsl:text>&#9;</xsl:text>
+    <xsl:text>-</xsl:text>
     <xsl:text>&#10;</xsl:text>
   </xsl:template>
 
