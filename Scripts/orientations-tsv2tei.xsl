@@ -2,14 +2,39 @@
 <!-- Insert political orientation of parties from TSV file into a root file.
      Note that all existing political orientation of parties in TEI is removed
 -->
-<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+<xsl:stylesheet 
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:xi="http://www.w3.org/2001/XInclude"
   xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:tei="http://www.tei-c.org/ns/1.0"
-  xmlns:fn="http://www.w3.org/2005/xpath-functions"
-  exclude-result-prefixes="fn tei">
+  xmlns:et="http://nl.ijs.si/et" 
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  exclude-result-prefixes="xsl tei et xs xi"
+  version="2.0">
   
   <!-- File with TSV data -->
   <xsl:param name="tsv"/>
+
+  <!-- Prefix used by orientation taxonomy -->
+  <xsl:param name="orientation-prefix">#orientation.</xsl:param>
+  
+  <!-- RE and source for CHES data country -->
+  <xsl:param name="ches-source">
+    <list type="gloss">
+      <label>(AT|BA|BE|BG|CZ|DK|EE|ES|FI|FR|GB|GR|HR|HU|IT|LT|LV|NL|PL|PT|RO|RS|SE|SI)</label>
+      <item>https://www.chesdata.eu/s/CHES2019V3.csv</item>
+      <label>(IS|NO|TR)</label>
+      <item>https://www.chesdata.eu/s/1999-2019_CHES_dataset_meansv3.csv</item>
+    </list>
+  </xsl:param>
+  <xsl:param name="ches-interval">
+    <date from="1999" to="2001"/>
+    <date from="2002" to="2005"/>
+    <date from="2006" to="2009"/>
+    <date from="2010" to="2013"/>
+    <date from="2014" to="2018"/>
+    <date from="2019" to="2019"/>
+  </xsl:param>
   
   <xsl:output method="xml" version="1.0" encoding="utf-8" indent="yes" omit-xml-declaration="no"/>
   <xsl:key name="id" match="tei:*" use="@xml:id"/>
@@ -20,9 +45,8 @@
 			tei:settingDesc/tei:setting/tei:name
 			[@type = 'country' or @type = 'region']/@key"/>
   
-  <!-- Parse TSV into a 
-       listPerson/org[@xml:id]/affiliation[@role='minister']@from][@to][@ref][@ana] 
-       structure -->
+  <!-- Parse TSV into a listOrg/org/state structure with pm_id as orgName[@full="init"] -->
+  <!-- We still need to take care of doubled Wiki lines and that Wiki URL is given only once! -->
   <xsl:variable name="data">
     <listOrg>
       <xsl:variable name="text" select="unparsed-text($tsv, 'UTF-8')"/>
@@ -45,30 +69,18 @@
 				     ' does not match TSV country = ', $country,
 				     ' in TSV line&#10;', .)"/>
 	      </xsl:if>
-	      <xsl:if test = "$role != 'minister'">
-		<xsl:message terminate="yes"
-			     select="concat('FATAL: Role ', $role, 
-				     ' does not match minister! TSV is:&#10;', .)"/>
+	      <xsl:if test="normalize-space($pm_id) and $pm_id != '0')">
+		<xsl:call-template name="parse-orientation">
+		  <xsl:with-param name="country" select="$country"/>
+		  <xsl:with-param name="pm_id" select="$pm_id"/>
+		  <xsl:with-param name="ches_id" select="$ches_id"/>
+		  <xsl:with-param name="year" select="$year"/>
+		  <xsl:with-param name="lrgen" select="$lrgen"/>
+		  <xsl:with-param name="lr" select="$lr"/>
+		  <xsl:with-param name="url" select="$url"/>
+		  <xsl:with-param name="comment" select="$comment"/>
+		</xsl:call-template>
 	      </xsl:if>
-	      <xsl:choose>
-		<xsl:when test = "not(key('id', $personID, $profileDesc)/self::tei:person)">
-		  <xsl:message terminate="no"
-			       select="concat('WARN: Person ', $personID, 
-				       ' not found in TEI corpus, skipping! TSV is:&#10;', .)"/>
-		</xsl:when>
-		<xsl:otherwise>
-		  <!--xsl:message select="concat('INFO: Found minister ', $personID)"/-->
-		  <xsl:call-template name="parse-minister">
-		    <xsl:with-param name="personID" select="$personID"/>
-		    <xsl:with-param name="from" select="$from"/>
-		    <xsl:with-param name="to" select="$to"/>
-		    <xsl:with-param name="government" select="$government"/>
-		    <xsl:with-param name="ministry" select="$ministry"/>
-		    <xsl:with-param name="name-xx" select="$name-xx"/>
-		    <xsl:with-param name="name-en" select="$name-en"/>
-		  </xsl:call-template>
-		</xsl:otherwise>
-	      </xsl:choose>
             </xsl:matching-substring>
 	    <xsl:non-matching-substring>
 	      <xsl:message terminate="yes"
@@ -81,8 +93,8 @@
   </xsl:variable>
   
   <xsl:template match="/">
+    <xsl:copy-of select="$data"/>
     <xsl:text>&#10;</xsl:text>
-    <xsl:apply-templates/>
   </xsl:template>
   
   <xsl:template match="tei:listPerson/tei:person">
@@ -118,66 +130,87 @@
     <xsl:copy/>
   </xsl:template>
 
-  <xsl:template name="parse-minister">
-    <xsl:param name="personID"/>
-    <xsl:param name="from"/>
-    <xsl:param name="to"/>
-    <xsl:param name="government"/>
-    <xsl:param name="ministry"/>
-    <xsl:param name="name-xx"/>
-    <xsl:param name="name-en"/>
-    <person xml:id="{$personID}">
-      <affiliation role="minister">
-	<!-- Re-insert # in references to IDs for affiliation/@ref -->
-	<xsl:if test="normalize-space($from) and $from != '-'">
-	  <xsl:attribute name="from" select="$from"/>
-	</xsl:if>
-	<xsl:if test="normalize-space($to) and $to != '-'">
-	  <xsl:attribute name="to" select="$to"/>
-	</xsl:if>
-	<xsl:if test="normalize-space($government) and $government != '-'">
-	  <xsl:attribute name="ref">
-	    <xsl:variable name="org" select="key('id', $government, $profileDesc)/
-					     ancestor::tei:org/@xml:id"/>
-	    <xsl:choose>
-	      <xsl:when test = "not(normalize-space($org))">
-		<xsl:message terminate="no"
-			     select="concat('ERROR: Cant find government organisation for term ', 
-				     $government
-				     , .)"/>
-		<!-- #, '! TSV is:&#10;' -->
-	      </xsl:when>
-	      <xsl:otherwise>
-		<xsl:value-of select="concat('#', $org)"/>
-	      </xsl:otherwise>
-	    </xsl:choose>
+  <!-- Parse TSV line into an <org> -->
+  <xsl:template name="parse-orientation">
+    <xsl:param name="country"/>
+    <xsl:param name="pm_id"/>
+    <xsl:param name="ches_id"/>
+    <xsl:param name="year"/>
+    <xsl:param name="lrgen"/>
+    <xsl:param name="lr"/>
+    <xsl:param name="url"/>
+    <xsl:param name="comment"/>
+    <org>
+      <orgName full="init">
+	<xsl:value-of select="$pm_id"/>
+      </orgName>
+      <xsl:if test="normalize-space($ches_id) and $ches_id != '0')">
+	<state type="politicalOrientation" subtype="CHES">
+	  <xsl:attribute name="source">
+	    <xsl:for-each select="$ches-source//tei:label">
+	      <xsl:if test="matches($country, .)">
+		<xsl:value-of select="following-sibling::tei:item[1]"/>
+	      </xsl:if>
+	    </xsl:for-each>
 	  </xsl:attribute>
-	</xsl:if>
-	<xsl:if test="(normalize-space($government) and $government != '-') or
-		      (normalize-space($ministry) and $ministry != '-')">
-	  <xsl:variable name="ana">
-	    <xsl:if test="normalize-space($government) and $government != '-'">
-	      <xsl:value-of select="concat('#', replace($government, ' ', ' #'))"/>
-	    </xsl:if>
-	    <xsl:text>&#32;</xsl:text>
-	    <xsl:if test="normalize-space($ministry) and $ministry != '-'">
-	      <xsl:value-of select="concat('#', replace($ministry, ' ', ' #'))"/>
-	    </xsl:if>
-	  </xsl:variable>
-	  <xsl:attribute name="ana" select="normalize-space($ana)"/>
-	</xsl:if>
-	<xsl:if test="(normalize-space($name-xx) and $name-xx != '-')">
-	  <roleName>
-	    <xsl:value-of select="normalize-space($name-xx)"/>
-	  </roleName>
-	</xsl:if>
-	<xsl:if test="(normalize-space($name-en) and $name-en != '-')">
-	  <roleName xml:lang="en">
-	    <xsl:value-of select="normalize-space($name-en)"/>
-	  </roleName>
-	</xsl:if>
-      </affiliation>
-    </person>
+	  <xsl:attribute name="n" select="$lrgen"/>
+	  <xsl:attribute name="ana">
+	    <xsl:value-of select="$orientation-prefix"/>
+	    <xsl:value-of select="et:lrgen2orientation($lrgen)"/>
+	  </xsl:attribute>
+	  <xsl:attribute name="from" select="$year"/>
+	  <xsl:attribute name="to" select="$ches-interval/tei:date[@from = $year]/@to"/>
+	</state>
+      </xsl:if>
+      <xsl:if test="normalize-space($lr) and $lr != '0')">
+	<state type="politicalOrientation" subtype="unknown">
+	  <xsl:if test="normalize-space($url) and $url != '0')">
+	    <xsl:attribute name="source" select="$url"/>
+	  </xsl:if>
+	  <xsl:attribute name="ana">
+	    <xsl:value-of select="$orientation-prefix"/>
+	    <xsl:value-of select="et:check-lr($lr)"/>
+	  </xsl:attribute>
+	  <xsl:if test="normalize-space($comment) and $comment != '0')">
+	    <xsl:value-of select="$comment"/>
+	  </xsl:if>
+	</state>
+      </xsl:if>
+    </org>
   </xsl:template>
   
+  <!-- Check if LR label is correct -->
+  <xsl:function name="et:check-lr" xs:as="string">
+    <xsl:param name="lr"/>
+    <xsl:choose>
+      <xsl:when test="$lr = 'FL'">FL</xsl:when>
+      <xsl:when test="$lr = 'LLF'">LLF</xsl:when>
+      <xsl:when test="$lr = 'L'">L</xsl:when>
+      <xsl:when test="$lr = 'CL'">CL</xsl:when>
+      <xsl:when test="$lr = 'CLL'">CLL</xsl:when>
+      <xsl:when test="$lr = 'CCL'">CCL</xsl:when>
+      <xsl:when test="$lr = 'C'">C</xsl:when>
+      <xsl:when test="$lr = 'CCR'">CCR</xsl:when>
+      <xsl:when test="$lr = 'CRR'">CRR</xsl:when>
+      <xsl:when test="$lr = 'CR'">CR</xsl:when>
+      <xsl:when test="$lr = 'R'">R</xsl:when>
+      <xsl:when test="$lr = 'RRF'">RRF</xsl:when>
+      <xsl:when test="$lr = 'FR'">FR</xsl:when>
+      <xsl:otherwise>
+	<xsl:message select="concat('ERROR: bad value for LR orientation: ', $lr)"/>
+	<xsl:text>XX</xsl:text>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:function>
+  
+  <!-- Change numeric LRGEN to party orientation -->
+  <!-- We use 3 labels, and this is libable to change! -->
+  <xsl:function name="et:lrgen2orientation" xs:as="string">
+    <xsl:param name="lrgen" xs:as="integer"/>
+    <xsl:choose>
+      <xsl:when test="$lrgen &lt; 4.50">L</xsl:when>
+      <xsl:when test="$lrgen &gt; 5.50">R</xsl:when>
+      <xsl:otherwise>C</xsl:otherwise>
+    </xsl:choose>
+  </xsl:function>
 </xsl:stylesheet>
