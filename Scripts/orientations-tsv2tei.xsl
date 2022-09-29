@@ -27,6 +27,7 @@
       <item>https://www.chesdata.eu/s/CHES2019V3.csv</item>
     </list>
   </xsl:param>
+  <!-- If CHES year is @from, then it holds untill @to year -->
   <xsl:param name="ches-interval">
     <date from="1999" to="2001"/>
     <date from="2002" to="2005"/>
@@ -35,17 +36,133 @@
     <date from="2014" to="2018"/>
     <date from="2019" to="2019"/>
   </xsl:param>
-  
+
+  <xsl:variable name="taxonomy-politicalOrientation">
+    <taxonomy xmlns="http://www.tei-c.org/ns/1.0" xml:id="politicalOrientation">
+      <desc xml:lang="en">
+	<term>Political orientation</term>
+      </desc>
+      <desc xml:lang="sl">
+	<term>Politčna orientacija</term>
+      </desc>
+      <category xml:id="orientation.L">
+	<catDesc xml:lang="en">
+	  <term>Left</term>
+	</catDesc>
+	<catDesc xml:lang="sl">
+	  <term>Leva</term>
+	</catDesc>
+      </category>
+      <category xml:id="orientation.C">
+	<catDesc xml:lang="en">
+	  <term>Centre</term>
+	</catDesc>
+	<catDesc xml:lang="sl">
+	  <term>Sredinska</term>
+	</catDesc>
+      </category>
+      <category xml:id="orientation.R">
+	<catDesc xml:lang="en">
+	  <term>Right</term>
+	</catDesc>
+	<catDesc xml:lang="sl">
+	  <term>Desna</term>
+	</catDesc>
+      </category>
+      <category xml:id="orientation.FL">
+	<catDesc xml:lang="en">
+	  <term>Far left</term>
+	</catDesc>
+	<catDesc xml:lang="sl">
+	  <term>Skrajno leva</term>
+	</catDesc>
+      </category>
+      <category xml:id="orientation.FR">
+	<catDesc xml:lang="en">
+	  <term>Far right</term>
+	</catDesc>
+	<catDesc xml:lang="sl">
+	  <term>Skrajno desna</term>
+	</catDesc>
+      </category>
+      <category xml:id="orientation.CL">
+	<catDesc xml:lang="en">
+	  <term>Centre-left</term>
+	</catDesc>
+	<catDesc xml:lang="sl">
+	  <term>Levo sredinska</term>
+	</catDesc>
+      </category>
+      <category xml:id="orientation.CR">
+	<catDesc xml:lang="en">
+	  <term>Centre-right</term>
+	</catDesc>
+	<catDesc xml:lang="sl">
+	  <term>Desno sredinska</term>
+	</catDesc>
+      </category>
+      <category xml:id="orientation.CCL">
+	<catDesc xml:lang="en">
+	  <term>Centre to centre-left</term>
+	</catDesc>
+	<catDesc xml:lang="sl">
+	  <term>Sredinska do levo sredinska</term>
+	</catDesc>
+      </category>
+      <category xml:id="orientation.CCR">
+	<catDesc xml:lang="en">
+	  <term>Centre to centre-right</term>
+	</catDesc>
+	<catDesc xml:lang="sl">
+	  <term>Sredinska do desno sredinska</term>
+	</catDesc>
+      </category>
+      <category xml:id="orientation.CLL">
+	<catDesc xml:lang="en">
+	  <term>Centre-left to left</term>
+	</catDesc>
+	<catDesc xml:lang="sl">
+	  <term>Levo sredinska do sredinska</term>
+	</catDesc>
+      </category>
+      <category xml:id="orientation.CRR">
+	<catDesc xml:lang="en">
+	  <term>Centre-right to right</term>
+	</catDesc>
+	<catDesc xml:lang="sl">
+	  <term>Desno sredinska do sredinska</term>
+	</catDesc>
+      </category>
+      <category xml:id="orientation.LLF">
+	<catDesc xml:lang="en">
+	  <term>Left to far-left</term>
+	</catDesc>
+	<catDesc xml:lang="sl">
+	  <term>Levo do skrajno leva</term>
+	</catDesc>
+      </category>
+      <category xml:id="orientation.RRF">
+	<catDesc xml:lang="en">
+	  <term>Right to far-right</term>
+	</catDesc>
+	<catDesc xml:lang="sl">
+	  <term>Desna do skrajne desna</term>
+	</catDesc>
+      </category>
+    </taxonomy>
+  </xsl:variable>
+
   <xsl:output method="xml" version="1.0" encoding="utf-8" indent="yes" omit-xml-declaration="no"/>
-  <xsl:key name="id" match="tei:*" use="@xml:id"/>
-  <xsl:variable name="profileDesc" select="tei:teiCorpus/tei:teiHeader/tei:profileDesc"/>
+  <!-- @type = 'PM' is the name of the party found in TSV -->
+  <xsl:key name="abbr" match="tei:org" use="tei:orgName[@type = 'PM']"/>
   
+  <xsl:variable name="profileDesc" select="tei:teiCorpus/tei:teiHeader/tei:profileDesc"/>
   <xsl:variable name="corpusCountry"
 		select="$profileDesc/
 			tei:settingDesc/tei:setting/tei:name
 			[@type = 'country' or @type = 'region']/@key"/>
   
-  <!-- Parse TSV into a listOrg/org/state structure with pm_id as orgName[@full="init"] -->
+  <!-- Parse TSV into a listOrg/org/state structures with pm_id as orgName[@full="init"] -->
   <!-- We still need to take care of doubled Wiki lines and that Wiki URL is given only once! -->
   <xsl:variable name="data">
     <xsl:variable name="temp">
@@ -66,31 +183,72 @@
   </xsl:variable>
   
   <xsl:template match="/">
-    <xsl:copy-of select="$data"/>
+    <!--xsl:copy-of select="$data"/-->
     <xsl:text>&#10;</xsl:text>
+    <xsl:apply-templates/>
   </xsl:template>
   
-  <xsl:template match="tei:listPerson/tei:person">
-    <!-- Get affiliation info from TSV for this person, if it exists -->
-    <xsl:variable name="minister" select="key('id', @xml:id, $data)"/>
+  <!-- Insert political orientation taxonomy, if not already present -->
+  <xsl:template match="tei:classDecl">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
       <xsl:apply-templates/>
-      <xsl:if test="$minister/self::tei:person">
-	<xsl:message select="concat('INFO: Inserting minister affiliation(s) for ', @xml:id)"/>
-	<xsl:for-each select="$minister/tei:affiliation">
-	  <xsl:message select="concat('INFO: Inserting affiliation ', 
-			       @ana, ' from ', @from, ' to ', @to)"/>
-	  <xsl:copy-of select="."/>
-	</xsl:for-each>
+      <xsl:if test="not(tei:taxonomy[tei:desc[ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'en']
+		    != 'Political orientation'])">
+	<xsl:apply-templates select="$taxonomy-politicalOrientation"/>
       </xsl:if>
     </xsl:copy>
   </xsl:template>
+  <!-- Do not copy Slovenian terms, if country is not SI -->
+  <xsl:template match="tei:taxonomy/tei:desc | tei:category/tei:catDesc">
+    <xsl:if test="$corpusCountry = 'SI' and 
+		  ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'sl'">
+      <xsl:copy-of select="."/>
+    </xsl:if>
+  </xsl:template>
 
-  <!-- Remove old ministers from TEI -->
-  <xsl:template match="tei:affiliation[@role = 'minister']">
-    <xsl:message select="concat('INFO: Removing minister affiliation for ', 
-			 parent::tei:person/@xml:id, ': ', @ana, ' from ', @from, ' to ', @to)"/>
+  <xsl:template match="tei:listOrg">
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <xsl:copy-of select="tei:org[not(@role = 'politicalParty' or @role = 'parliamentaryGroup')]"/>
+      <xsl:variable name="parties">
+	<xsl:apply-templates mode="insert"
+			     select="tei:org[@role = 'politicalParty' or @role = 'parliamentaryGroup']"/>
+      </xsl:variable>
+      <xsl:copy-of select="$parties"/>
+    </xsl:copy>
+  </xsl:template>
+
+  <!-- Insert <state>s from $data into <org>, mark those covered with @n = $ches_id -->
+  <xsl:template mode="insert" match="tei:org">
+    <xsl:variable name="abbr" select="tei:orgName[@full = 'abb' and 
+				      ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang != 'en']"/>
+    <xsl:variable name="abbr-id" select="replace(@xml:id, '.*\.', '')"/>
+    <xsl:variable name="found">
+      <xsl:choose>
+	<xsl:when test="key('abbr', $abbr, $data)">
+	  <xsl:copy-of select="key('abbr', $abbr, $data)"/>
+	</xsl:when>
+	<xsl:when test="key('abbr', $abbr-id, $data)">
+	  <xsl:copy-of select="key('abbr', $abbr-id, $data)"/>
+	</xsl:when>
+	<xsl:otherwise>
+	  <xsl:message select="concat('ERROR: cant find pm_id in TSV for ', 
+			       $abbr, ' with ID ', @xml:id)"/>
+	</xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <xsl:copy-of select="tei:orgName"/>
+      <xsl:if test="tei:orgName[@full = 'abb'][ancestor-or-self::tei:*[@xml:id][1]/@xml:id != 'en']
+		    != $found//tei:orgName[@type = 'CHES']">
+	<xsl:copy-of select="$found//tei:orgName[@type = 'CHES']"/>
+      </xsl:if>
+      <!-- Remove prior <state> elements -->
+      <xsl:copy-of select="tei:*[not(self::tei:orgName or self::tei:state)]"/>
+      <xsl:copy-of select="$found//tei:state"/>
+    </xsl:copy>
   </xsl:template>
   
   <xsl:template match="*">
@@ -103,51 +261,25 @@
     <xsl:copy/>
   </xsl:template>
 
-  <!-- Merge organisations with same abbrev and give Wikipedia URLs to those missing them -->
-  <xsl:template name="uniq-orgs">
-    <xsl:param name="listOrg"/>
-    <listOrg>
-      <xsl:for-each select="$listOrg//tei:org">
-	<xsl:variable name="abbrev" select="tei:orgName[@full = 'init']"/>
-	<xsl:if test="not(preceding-sibling::tei:org[tei:orgName[@full = 'init'] = $abbrev])">
-	  <xsl:variable name="others"
-			select="following-sibling::tei:org[tei:orgName[@full = 'init'] = $abbrev]"/>
-	  <xsl:copy>
-	    <xsl:copy-of select="tei:orgName[@full = 'init']"/>
-	    <!-- Collect CHES -->
-	    <xsl:copy-of select="tei:state[@subtype = 'CHES']"/>
-	    <xsl:copy-of select="$others/tei:state[@subtype = 'CHES']"/>
-	    <!-- Wikis and other sources -->
-	    <xsl:variable name="lr" select="tei:state[@subtype = 'unknown']/@ana"/>
-	    <xsl:variable name="url" select="tei:state[@subtype = 'unknown']/@source"/>
-	    <xsl:variable name="comment" select="tei:state/text()"/>
-	    <xsl:if test="normalize-space($lr)">
-	      <state type="politicalOrientation">
-		<xsl:choose>
-		  <xsl:when test="normalize-space($url)">
-		    <xsl:attribute name="subtype">Wikipedia</xsl:attribute>
-		    <xsl:attribute name="source" select="$url"/>
-		    <xsl:attribute name="ana" select="$lr"/>
-		  </xsl:when>
-		  <xsl:otherwise>
-		    <xsl:attribute name="subtype">unknown</xsl:attribute>
-		    <xsl:attribute name="ana" select="$lr"/>
-		  </xsl:otherwise>
-		</xsl:choose>
-		<!-- For comment content, if exists -->
-		<xsl:value-of select="$comment"/>
-	      </state>
-	    </xsl:if>
-	  </xsl:copy>
-	</xsl:if>
-      </xsl:for-each>
-    </listOrg>
-  </xsl:template>
-    
+  <!-- Named templates -->
+  
   <!-- Parse data line into an <org> -->
   <xsl:template name="parse-line">
     <xsl:param name="line" select="."/>
-    <xsl:analyze-string select="$line"
+    <!-- Get rid of quotes left over from Excel or similar -->
+    <xsl:variable name="clean-line"
+		  select="replace(
+			  replace(
+			  replace(
+			  replace(
+			  replace($line, 
+			  '&#9;&quot;', '&#9;'),
+			  '&quot;&#9;', '&#9;'),
+			  '^&quot;', ''),
+			  '&quot;$', ''),
+			  '&quot;&quot;', '&quot;')
+			  "/>
+    <xsl:analyze-string select="$clean-line"
 			regex="^([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]*)\t([^\t]*)\t?([^\t]*)\t?([^\t]*)\t?([^\t]*).*">
       <xsl:matching-substring>
 	<xsl:variable name="country" select="regex-group(1)"/>
@@ -195,11 +327,11 @@
     <xsl:param name="url"/>
     <xsl:param name="comment"/>
     <org>
-      <orgName full="init">
+      <orgName type="PM" full="init">
 	<xsl:value-of select="$pm_id"/>
       </orgName>
       <xsl:if test="normalize-space($ches_id) and $ches_id != '0'">
-	<orgName type="CHES" full="init">
+	<orgName type = "CHES" full="init">
 	  <xsl:value-of select="$ches_id"/>
 	</orgName>
 	<state type="politicalOrientation" subtype="CHES">
@@ -238,6 +370,49 @@
       </xsl:if>
     </org>
   </xsl:template>
+  
+  <!-- Merge organisations with same abbrev and give Wikipedia URLs to those missing them -->
+  <xsl:template name="uniq-orgs">
+    <xsl:param name="listOrg"/>
+    <listOrg>
+      <xsl:for-each select="$listOrg//tei:org">
+	<xsl:variable name="abbrev" select="tei:orgName[@type = 'PM']"/>
+	<xsl:if test="not(preceding-sibling::tei:org[tei:orgName[@type = 'PM'] = $abbrev])">
+	  <xsl:variable name="others"
+			select="following-sibling::tei:org[tei:orgName[@type = 'PM'] = $abbrev]"/>
+	  <xsl:copy>
+	    <xsl:copy-of select="tei:orgName"/>
+	    <!-- Collect CHES -->
+	    <xsl:copy-of select="tei:state[@subtype = 'CHES']"/>
+	    <xsl:copy-of select="$others/tei:state[@subtype = 'CHES']"/>
+	    <!-- Wikis and other sources -->
+	    <xsl:variable name="lr" select="tei:state[@subtype = 'unknown']/@ana"/>
+	    <xsl:variable name="url" select="tei:state[@subtype = 'unknown']/@source"/>
+	    <xsl:variable name="comment" select="tei:state/text()"/>
+	    <xsl:if test="normalize-space($lr)">
+	      <state type="politicalOrientation">
+		<xsl:choose>
+		  <xsl:when test="normalize-space($url)">
+		    <xsl:attribute name="subtype">Wikipedia</xsl:attribute>
+		    <xsl:attribute name="source" select="$url"/>
+		    <xsl:attribute name="ana" select="$lr"/>
+		  </xsl:when>
+		  <xsl:otherwise>
+		    <xsl:attribute name="subtype">unknown</xsl:attribute>
+		    <xsl:attribute name="ana" select="$lr"/>
+		  </xsl:otherwise>
+		</xsl:choose>
+		<!-- For comment content, if exists -->
+		<xsl:value-of select="$comment"/>
+	      </state>
+	    </xsl:if>
+	  </xsl:copy>
+	</xsl:if>
+      </xsl:for-each>
+    </listOrg>
+  </xsl:template>
+    
+  <!-- Functions -->
   
   <!-- Check if LR label is correct -->
   <xsl:function name="et:check-lr" xs:as="string">
