@@ -193,16 +193,15 @@
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
       <xsl:apply-templates/>
-      <xsl:if test="not(tei:taxonomy[tei:desc[ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'en']
-		    != 'Political orientation'])">
+      <xsl:if test="not(tei:taxonomy[tei:desc[contains(., 'Political orientation')]])">
 	<xsl:apply-templates select="$taxonomy-politicalOrientation"/>
       </xsl:if>
     </xsl:copy>
   </xsl:template>
   <!-- Do not copy Slovenian terms, if country is not SI -->
-  <xsl:template match="tei:taxonomy/tei:desc | tei:category/tei:catDesc">
-    <xsl:if test="$corpusCountry = 'SI' and 
-		  ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'sl'">
+  <xsl:template match="tei:taxonomy[tei:desc[contains(., 'Political orientation')]]//
+		       tei:*[@xml:lang = 'sl']">
+    <xsl:if test="$corpusCountry = 'SI'">
       <xsl:copy-of select="."/>
     </xsl:if>
   </xsl:template>
@@ -221,9 +220,9 @@
 
   <!-- Insert <state>s from $data into <org>, mark those covered with @n = $ches_id -->
   <xsl:template mode="insert" match="tei:org">
-    <xsl:variable name="abbr" select="tei:orgName[@full = 'abb' and 
-				      ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang != 'en']"/>
-    <xsl:variable name="abbr-id" select="replace(@xml:id, '.*\.', '')"/>
+    <xsl:variable name="abbr" select="lower-case(tei:orgName[@full = 'abb' and 
+				      ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang != 'en'])"/>
+    <xsl:variable name="abbr-id" select="lower-case(replace(@xml:id, '.*\.', ''))"/>
     <xsl:variable name="found">
       <xsl:choose>
 	<xsl:when test="key('abbr', $abbr, $data)">
@@ -272,12 +271,16 @@
 			  replace(
 			  replace(
 			  replace(
+			  replace(
+			  replace(
 			  replace($line, 
 			  '&#9;&quot;', '&#9;'),
 			  '&quot;&#9;', '&#9;'),
 			  '^&quot;', ''),
 			  '&quot;$', ''),
-			  '&quot;&quot;', '&quot;')
+			  '&quot;&quot;', '&quot;'),
+			  '&#x00A0', ' '),
+			  '&#xFEFF', '')
 			  "/>
     <xsl:analyze-string select="$clean-line"
 			regex="^([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]*)\t([^\t]*)\t?([^\t]*)\t?([^\t]*)\t?([^\t]*).*">
@@ -299,7 +302,8 @@
 	<xsl:if test="normalize-space($pm_id) and $pm_id != '0'">
 	  <xsl:call-template name="parse-orientation">
 	    <xsl:with-param name="country" select="normalize-space($country)"/>
-	    <xsl:with-param name="pm_id" select="normalize-space($pm_id)"/>
+	    <!-- We lower case the pm_id and match on that! -->
+	    <xsl:with-param name="pm_id" select="lower-case(normalize-space($pm_id))"/>
 	    <xsl:with-param name="ches_id" select="normalize-space($ches_id)"/>
 	    <xsl:with-param name="year" select="normalize-space($year)"/>
 	    <xsl:with-param name="lrgen" select="normalize-space($lrgen)"/>
