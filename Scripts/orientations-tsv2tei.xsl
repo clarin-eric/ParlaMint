@@ -15,6 +15,8 @@
   <!-- File with TSV data -->
   <xsl:param name="tsv"/>
 
+  <xsl:param name="check-urls" xs:as="boolean" select="true()"/>
+  
   <!-- Prefix used by orientation taxonomy -->
   <xsl:param name="orientation-prefix">#orientation.</xsl:param>
   
@@ -361,6 +363,12 @@
       <xsl:if test="normalize-space($lr) and $lr != '0'">
 	<state type="politicalOrientation" subtype="unknown">
 	  <xsl:if test="normalize-space($url) and $url != '0'">
+	    <!-- Doesn't work?!
+	    <xsl:if test="$check-urls and not(unparsed-text-available(encode-for-uri($url)))">
+		<xsl:message select="concat('ERROR: the URL ', $url, 
+				     ' is not valid for ', $country, '/', $pm_id)"/>
+	    </xsl:if>
+	    -->
 	    <xsl:attribute name="source" select="$url"/>
 	  </xsl:if>
 	  <xsl:attribute name="ana">
