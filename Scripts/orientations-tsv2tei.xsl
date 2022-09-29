@@ -279,8 +279,8 @@
 			  '^&quot;', ''),
 			  '&quot;$', ''),
 			  '&quot;&quot;', '&quot;'),
-			  '&#x00A0', ' '),
-			  '&#xFEFF', '')
+			  '&#x00A0;', ' '),
+			  '&#xFEFF;', '')
 			  "/>
     <xsl:analyze-string select="$clean-line"
 			regex="^([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]*)\t([^\t]*)\t?([^\t]*)\t?([^\t]*)\t?([^\t]*).*">
