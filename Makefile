@@ -494,7 +494,7 @@ generate-parties:
 	${DATADIR}/ParlaMint.xml 2> Data/Metadata/Parties/ParlaMint_parties.log
 
 ## Insert political orientation of parties from TSV file into a root file.
-OC = BE
+OC = BG
 insert-orientation-test:
 	$s tsv=../Data/Metadata/Parties/Orientation-${OC}.tsv -xsl:Scripts/orientations-tsv2tei.xsl \
 	${DATADIR}/ParlaMint-${OC}/ParlaMint-${OC}.xml > Scripts/tmp/ParlaMint-${OC}.xml
