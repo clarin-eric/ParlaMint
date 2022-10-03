@@ -208,7 +208,7 @@
     </xsl:if>
   </xsl:template>
 
-  <xsl:template match="tei:listOrg">
+  <xsl:template match="tei:listOrg[tei:org[@role = 'politicalParty' or @role = 'parliamentaryGroup']]">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
       <xsl:copy-of select="tei:org[not(@role = 'politicalParty' or @role = 'parliamentaryGroup')]"/>
@@ -239,7 +239,7 @@
   <!-- Insert <state>s from $data into <org>, mark those covered with @n = $ches_id -->
   <xsl:template mode="insert" match="tei:org">
     <xsl:variable name="abbr" select="lower-case(tei:orgName[@full = 'abb' and 
-				      ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang != 'en'])"/>
+				      ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang != 'en'][1])"/>
     <xsl:variable name="abbr-id" select="lower-case(replace(@xml:id, '.*\.', ''))"/>
     <xsl:variable name="found">
       <xsl:choose>
