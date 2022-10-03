@@ -416,7 +416,7 @@
 	    <!-- Wikis and other sources -->
 	    <xsl:variable name="lr" select="tei:state[@subtype = 'unknown']/@ana"/>
 	    <xsl:variable name="url" select="tei:state[@subtype = 'unknown']/@source"/>
-	    <xsl:variable name="comment" select="tei:state/text()"/>
+	    <xsl:variable name="comment" select="tei:state/tei:note"/>
 	    <xsl:if test="normalize-space($lr)">
 	      <state type="politicalOrientation">
 		<xsl:choose>
@@ -430,8 +430,7 @@
 		    <xsl:attribute name="ana" select="$lr"/>
 		  </xsl:otherwise>
 		</xsl:choose>
-		<!-- For comment content, if exists -->
-		<xsl:value-of select="$comment"/>
+		<xsl:copy-of select="$comment"/>
 	      </state>
 	    </xsl:if>
 	  </xsl:copy>
