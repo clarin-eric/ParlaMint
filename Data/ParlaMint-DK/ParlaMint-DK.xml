@@ -4,7 +4,7 @@
   <fileDesc>
   <titleStmt>
    <title type="main" xml:lang="en">Danish parliamentary corpus ParlaMint-DK [ParlaMint]</title>
-   <title type="sub" xml:lang="en">Hansards of the Danish Parliament, Folketinget, session 20141 to 20191 (2015-2020)</title>
+   <title type="sub" xml:lang="en">Hansards of the Danish Parliament, Folketinget, session 20141 to 20211 (2015-2022)</title>
    <meeting xml:lang="en" n="20141" corresp="#FT" ana="#parla.session #FT.20141">Session 20141</meeting>
    <meeting xml:lang="en" n="20142" corresp="#FT" ana="#parla.session #FT.20142">Session 20142</meeting>
    <meeting xml:lang="en" n="20151" corresp="#FT" ana="#parla.session #FT.20151">Session 20151</meeting>
@@ -13,6 +13,8 @@
    <meeting xml:lang="en" n="20181" corresp="#FT" ana="#parla.session #FT.20181">Session 20181</meeting>
    <meeting xml:lang="en" n="20182" corresp="#FT" ana="#parla.session #FT.20182">Session 20182</meeting>
    <meeting xml:lang="en" n="20191" corresp="#FT" ana="#parla.session #FT.20191">Session 20191</meeting>
+   <meeting xml:lang="en" n="20201" corresp="#FT" ana="#parla.session #FT.20201">Session 20201</meeting>
+   <meeting xml:lang="en" n="20211" corresp="#FT" ana="#parla.session #FT.20211">Session 20211</meeting>
    <respStmt>
     <persName>Bart Jongejan</persName>
     <persName>Dorte Haltrup Hansen</persName>
@@ -36,6 +38,7 @@
    <measure unit="speeches" quantity="287144" xml:lang="en">287,144 speeches</measure>
    <measure unit="words" quantity="29510762" xml:lang="en">29,510,762 words</measure>
  </extent>
+    
   <publicationStmt>
    <publisher>
     <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
@@ -47,14 +50,14 @@
     <licence>http://creativecommons.org/licenses/by/4.0/</licence>
     <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
   </availability>
-   <date when="2021-02-09">2021-02-09</date>
+   <date when="2022-09-27">2022-09-27</date>
  </publicationStmt>
   <sourceDesc>
    <bibl>
     <title type="main" xml:lang="en">Hansards of the Danish Parliament</title>
     <publisher xml:lang="en">The Danish Parliament</publisher>
      <idno type="URI" subtype="parliament">https://www.ft.dk/</idno>
-    <date from="2014-10-07" to="2020-09-29">7.10.2014 - 29.9.2020</date>
+    <date from="2014-10-07" to="2022-06-07">7.10.2014 - 7.06.2022</date>
   </bibl>
  </sourceDesc>		
 		
@@ -216,14 +219,14 @@
   </taxonomy>
  </classDecl>
 </encodingDesc>
-  <profileDesc>
-						
+   
+  <profileDesc>					
   <settingDesc>
    <setting>
     <name type="address">Folketinget, Christiansborg</name>
     <name type="city">1240 Copenhagen K</name>
     <name type="country" key="DK">Denmark</name>
-    <date from="2014-10-07" to="2020-09-29">7.10.2014 - 29.9.2020</date>
+     <date from="2014-10-07" to="2022-06-07">7.10.2014 - 7.06.2022</date>
   </setting>
  </settingDesc>
   <particDesc>
@@ -284,7 +287,13 @@
           </event>
           <event xml:id="FT.20191" from="2019-10-01" to="2020-09-29">
             <label xml:lang="en">Session 20191</label>
-          </event>					
+          </event>
+          <event xml:id="FT.20201" from="2020-10-06" to="2021-09-09">
+            <label xml:lang="en">Session 20201</label>
+          </event>	
+          <event xml:id="FT.20211" from="2021-10-05" to="2022-06-07">
+            <label xml:lang="en">Session 20211</label>
+          </event>	
         </listEvent>
       </org>
       
@@ -309,6 +318,13 @@
           <label xml:lang="en">existence</label>
         </event>
       </org>
+      <org xml:id="party.FG" role="parliamentaryGroup">
+        <orgName full="yes" xml:lang="da">Frie Grønne</orgName>
+        <orgName full="abb">FG</orgName>
+        <event from="2020-09-07">
+          <label xml:lang="en">existence</label>
+        </event>
+      </org>
       <org xml:id="party.IA" role="parliamentaryGroup">
         <orgName full="yes" xml:lang="da">Inuit Ataqatigiit</orgName>
         <orgName full="abb">IA</orgName>
@@ -323,13 +339,7 @@
           <label xml:lang="en">existence</label>
         </event>
       </org>
-      <org xml:id="party.KD" role="parliamentaryGroup">
-        <orgName full="yes" xml:lang="da">Kristendemokraterne</orgName>
-        <orgName full="abb">KD</orgName>
-        <event from="1970-04-13">
-          <label xml:lang="en">existence</label>
-        </event>
-      </org>
+
       <org xml:id="party.KF" role="parliamentaryGroup">
         <orgName full="yes" xml:lang="da">Det Konservative Folkeparti</orgName>
         <orgName full="abb">KF</orgName>
@@ -400,13 +410,7 @@
           <label xml:lang="en">existence</label>
         </event>
       </org>
-      <org xml:id="party.TF" role="parliamentaryGroup">
-        <orgName full="yes" xml:lang="da">Tjóðveldisflokkurin</orgName>
-        <orgName full="abb">TF</orgName>
-        <event from="1948-05-22" to="2007-09-14">
-          <label xml:lang="en">existence</label>
-        </event>
-      </org>
+
       <org xml:id="party.UFG" role="parliamentaryGroup">
         <orgName full="yes" xml:lang="da">Uden for folketingsgrupperne</orgName>
         <orgName full="abb">UFG</orgName>
@@ -427,8 +431,9 @@
         <relation name="coalition" mutual="#party.V #party.KF #party.LA" from="2016-11-28" to="2019-06-26" ana="#FT.16"/>
         <relation name="coalition" mutual="#party.S" from="2019-06-27" ana="#FT.19"/>
       </listRelation>
-    </listOrg>	
-    
+    </listOrg>
+
+      
    <listPerson>
     <head xml:lang="en">List of speakers</head>
      <person xml:id="LarsenAajaChemnitz">
@@ -441,6 +446,16 @@
        <affiliation role="member" ref="#party.IA"/>
        <affiliation role="member" ref="#FT" from="2015-06-18"/>
      </person>
+     <person xml:id="RazviAbbas">
+       <persName>
+         <forename>Abbas</forename>
+         <surname>Razvi</surname>
+       </persName>
+       <birth when="1948-03-01"/>
+       <sex value="M"/>
+       <affiliation role="member" ref="#party.RV"/>
+       <affiliation role="member" ref="#FT" from="2021-12-06" to="2022-02-06"/>
+     </person>
      <person xml:id="HøeghDamAkiMatilda">
        <persName>
          <forename>Aki-Matilda</forename>
@@ -449,7 +464,7 @@
        <birth when="1996-10-17"/>
        <sex value="F"/>
        <affiliation role="member" ref="#party.SIU"/>
-       <affiliation role="member" ref="#FT" from="2019-06-05" />
+       <affiliation role="member" ref="#FT" from="2019-06-05"/>
      </person>
      <person xml:id="HammondAleqa">
        <persName>
@@ -458,15 +473,10 @@
        </persName>
        <birth when="1965-09-23"/>
        <sex value="F"/>
-       <affiliation role="member" ref="#party.SIU" from="2015-06-18" to="2015-07-01" ana="#FT.20141"/>
-       <affiliation role="member" ref="#party.SIU" from="2015-07-02" to="2015-10-05" ana="#FT.20142"/>
-       <affiliation role="member" ref="#party.SIU" from="2015-10-06" to="2016-08-22" ana="#FT.20151"/>
-       <affiliation role="member" ref="#party.UFG" from="2016-08-23" to="2016-10-03" ana="#FT.20151"/>
-       <affiliation role="member" ref="#party.UFG" from="2016-10-04" to="2017-10-02" ana="#FT.20161"/>
-       <affiliation role="member" ref="#party.UFG" from="2017-10-03" to="2018-04-23" ana="#FT.20171"/>				
-       <affiliation role="member" ref="#party.NQ" from="2018-04-24" to="2018-10-01" ana="#FT.20171"/>
-       <affiliation role="member" ref="#party.NQ" from="2018-10-02" to="2019-06-05" ana="#FT.20181"/>				
-       <affiliation role="member" ref="#FT" from="2015-06-18" to="2019-06-05" />
+       <affiliation role="member" ref="#party.SIU" from="2015-06-18" to="2016-08-22"/>
+       <affiliation role="member" ref="#party.UFG" from="2016-08-23" to="2018-04-24"/>				
+       <affiliation role="member" ref="#party.NQ" from="2018-04-25" to="2019-06-05"/>				
+       <affiliation role="member" ref="#FT" from="2015-06-18" to="2019-06-05"/>
      </person>
      <person xml:id="AhrendtsenAlex">
        <persName>
@@ -477,7 +487,6 @@
        <sex value="M"/>
        <affiliation role="member" ref="#party.DF"/>
        <affiliation role="member" ref="#FT" from="2011-09-15"/>
-       <affiliation role="deputyHead" ref="#FT"/>
      </person>
      <person xml:id="VanopslaghAlex">
        <persName>
@@ -487,7 +496,17 @@
        <birth when="1991-10-17"/>
        <sex value="M"/>
        <affiliation role="member" ref="#party.LA"/>
-       <affiliation role="member" ref="#FT" from="2019-06-05" />
+       <affiliation role="member" ref="#FT" from="2019-06-05"/>
+     </person>
+     <person xml:id="GrandtAlexander">
+       <persName>
+         <forename>Alexander</forename>
+         <surname>Grandt</surname>
+       </persName>
+       <birth when="1989-09-09"/>
+       <sex value="M"/>
+       <affiliation role="member" ref="#party.S"/>
+       <affiliation role="member" ref="#FT" from="2021-09-16" to="2022-01-19"/>
      </person>
      <person xml:id="ChristensenAndersG">
        <persName>
@@ -519,7 +538,7 @@
        <birth when="1982-03-18"/>
        <sex value="M"/>
        <affiliation role="member" ref="#party.S"/>
-       <affiliation role="member" ref="#FT" from="2019-06-05" />
+       <affiliation role="member" ref="#FT" from="2019-06-05"/>
      </person>
      <person xml:id="SamuelsenAnders">
        <persName>
@@ -528,9 +547,9 @@
        </persName>
        <birth when="1967-08-01"/>
        <sex value="M"/>
-       <affiliation role="member" ref="#party.LA"/>     
-       <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2016-11-28" to="2019-06-26" ana="#FT.16">
+       <affiliation role="member" ref="#party.LA"/>      
+       <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2019-06-05" ana="#FT.16"/>
+        <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2019-06-05" ana="#FT.16">
          <roleName xml:lang="da">Udenrigsminister</roleName>
          <roleName xml:lang="en">Minister for Foreign Affairs</roleName>
        </affiliation>
@@ -564,13 +583,16 @@
     <birth when="1983-05-04"/>
     <sex value="F"/>
     <affiliation role="member" ref="#party.S"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2019-06-27" to="2020-09-29" ana="#FT.19">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2022-06-07" ana="#FT.19"/>
+      <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2021-08-16" ana="#FT.19">
         <roleName xml:lang="da">Uddannelses- og forskningsminister</roleName>
         <roleName xml:lang="en">Minister for Higher Education and Science</roleName>
       </affiliation>
-      <affiliation role="member" ref="#FT" from="2011-09-15"/>
-		<affiliation role="deputyHead" ref="#FT"/>
+      <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2021-08-17" to="2022-06-07" ana="#FT.19">
+        <roleName xml:lang="da">Kulturminister og kirkeminister</roleName>
+        <roleName xml:lang="en">Minister for Culture and Minister for Ecclesiastical Affairs</roleName>
+      </affiliation>
+    <affiliation role="member" ref="#FT" from="2011-09-15"/>
   </person>
 
     <person xml:id="BrændemoseAnna">
@@ -591,10 +613,8 @@
    </persName>
     <birth when="1952-04-07"/>
     <sex value="F"/>
-    <affiliation role="member" ref="#party.SF"/>
+    <affiliation role="member" ref="#party.SF"/>				
       <affiliation role="member" ref="#FT" from="2007-11-13" to="2015-06-18"/>
-      <affiliation role="deputyHead" ref="#FT"/>
-
   </person>
 
     <person xml:id="ØstergaardAnneHonoré">
@@ -605,9 +625,19 @@
     <birth when="1981-01-01"/>
     <sex value="F"/>
     <affiliation role="member" ref="#party.V"/>
-      <affiliation role="member" ref="#FT" from="2019-06-05" />
+      <affiliation role="member" ref="#FT" from="2019-06-05"/>
   </person>
- 
+
+     <person xml:id="AndersenAnneMarieGeisler">
+       <persName>
+         <forename>Anne Marie</forename>
+         <surname>Geisler Andersen</surname>
+       </persName>
+       <birth when="1981-04-15"/>
+       <sex value="F"/>
+       <affiliation role="member" ref="#party.RV"/>
+       <affiliation role="member" ref="#FT" from="2018-11-26" to="2019-01-11"/>
+     </person>
 
     <person xml:id="ChristiansenAnneMetteWinther">
     <persName>
@@ -627,9 +657,21 @@
     <birth when="1988-01-05"/>
     <sex value="F"/>
     <affiliation role="member" ref="#party.S"/>
-      <affiliation role="member" ref="#FT" from="2016-02-02" to="2016-06-03" />
-      <affiliation role="member" ref="#FT" from="2019-06-05" />
+      <affiliation role="member" ref="#FT" from="2016-02-02" to="2016-06-03"/>
+      <affiliation role="member" ref="#FT" from="2019-06-05"/>
   </person>
+     
+     <person xml:id="RasmussenAnne">
+       <persName>
+         <forename>Anne</forename>
+         <surname>Rasmussen</surname>
+       </persName>
+       <birth when="1971-04-14"/>
+       <sex value="F"/>
+       <affiliation role="member" ref="#party.V"/>
+       <affiliation role="member" ref="#FT" from="2021-08-12"/>
+     </person>	
+     
     <person xml:id="SinaAnne">
     <persName>
      <forename>Anne</forename>
@@ -648,8 +690,19 @@
     <birth when="1988-12-26"/>
     <sex value="F"/>
     <affiliation role="member" ref="#party.RV"/>
-      <affiliation role="member" ref="#FT" from="2019-06-05" />
+      <affiliation role="member" ref="#FT" from="2019-06-05"/>
   </person>
+     
+     <person xml:id="LindAnnette">
+       <persName>
+         <forename>Annette</forename>
+         <surname>Lind</surname>
+       </persName>
+       <birth when="1969-06-02"/>
+       <sex value="F"/>
+       <affiliation role="member" ref="#party.S"/>
+       <affiliation role="member" ref="#FT" from="2011-09-15"/>	   
+     </person> 
 
     <person xml:id="VilhelmsenAnnette">
     <persName>
@@ -669,7 +722,7 @@
     <birth when="1994-09-16"/>
     <sex value="F"/>
     <affiliation role="member" ref="#party.SF"/>
-      <affiliation role="member" ref="#FT" from="2019-06-05" />
+      <affiliation role="member" ref="#FT" from="2019-06-05"/>
   </person>
 
     <person xml:id="MatthiesenAnni">
@@ -690,7 +743,7 @@
     <birth when="1994-07-12"/>
     <sex value="F"/>
     <affiliation role="member" ref="#party.SF"/>
-      <affiliation role="member" ref="#FT" from="2019-06-05" />
+      <affiliation role="member" ref="#FT" from="2019-06-05"/>
   </person>
     <person xml:id="KragAstrid">
     <persName>
@@ -700,10 +753,14 @@
     <birth when="1982-11-17"/>
     <sex value="F"/>
 	   <affiliation role="member" ref="#party.S"/>
-       <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2019-06-27" to="2020-09-29" ana="#FT.19">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2022-06-07" ana="#FT.19"/>
+      <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2021-01-21" ana="#FT.19">
         <roleName xml:lang="da">Social- og indenrigsminister</roleName>
         <roleName xml:lang="en">Minister for Social Affairs and minister of the Interior</roleName>
+      </affiliation>
+      <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2021-01-22" to="2022-06-07" ana="#FT.19">
+        <roleName xml:lang="da">Social- og ældreminister</roleName>
+        <roleName xml:lang="en">Minister for Social Affairs and Senior Citizens</roleName>
       </affiliation>
       <affiliation role="member" ref="#FT" from="2014-02-04"/>
   </person>
@@ -718,6 +775,18 @@
     <affiliation role="member" ref="#party.SF"/>
     <affiliation role="member" ref="#FT" from="2019-10-30" to="2019-11-15"/>
   </person>
+     
+     <person xml:id="ApolBarbaraGaardlykke">
+       <persName>
+         <forename>Barbara</forename>
+         <surname>Gaardlykke Apol</surname>
+       </persName>
+       <birth when="1995-04-27"/>
+       <sex value="F"/>
+       <affiliation role="member" ref="#party.JF"/>
+       <affiliation role="member" ref="#FT" from="2022-05-16" to="2022-05-23"/>
+       <affiliation role="member" ref="#FT" from="2020-03-17" to="2020-03-24"/>	   
+     </person> 
 
     <person xml:id="EngelbrechtBenny">
     <persName>
@@ -727,17 +796,17 @@
     <birth when="1970-08-04"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.S"/>
-      <affiliation role="member" ref="#FT" from="2007-11-13"/>
-      <affiliation role="deputyHead" ref="#FT"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2014-09-03" to="2015-06-28" ana="#FT.14">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2014-09-03" to="2015-06-28" ana="#FT.14"/>
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2022-06-07" ana="#FT.19"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2014-09-03" to="2015-06-28" ana="#FT.14">
         <roleName xml:lang="da">Skatteminister</roleName>
         <roleName xml:lang="en">Minister for Taxation</roleName>
       </affiliation>
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2019-06-27" to="2020-09-29" ana="#FT.19">
+      <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2022-02-04" ana="#FT.19">
         <roleName xml:lang="da">Transportminister</roleName>
         <roleName xml:lang="en">Minister for Transport</roleName>
       </affiliation>
+      <affiliation role="member" ref="#FT" from="2007-11-13"/>
   </person>
     <person xml:id="BøgstedBent">
     <persName>
@@ -748,7 +817,6 @@
     <sex value="M"/>
     <affiliation role="member" ref="#party.DF"/>
       <affiliation role="member" ref="#FT" from="2007-11-13"/>
-      <affiliation role="deputyHead" ref="#FT"/>
   </person>
  
 
@@ -760,12 +828,11 @@
     <birth when="1944-09-07"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.V"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2015-06-28" to="2016-11-27" ana="#FT.15">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2015-06-28" to="2016-11-27" ana="#FT.15"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2015-06-28" to="2016-11-27" ana="#FT.15">
         <roleName xml:lang="da">Kulturminister og kirkeminister</roleName>
         <roleName xml:lang="en">Minister for Culture and Minister for Ecclesiastical Affairs</roleName>
       </affiliation>
-	<affiliation role="head" ref="#FT"/>
     <affiliation role="member" ref="#FT" from="2011-09-15"/>
   </person>
 
@@ -777,7 +844,7 @@
     <birth when="1967-01-13"/>
     <sex value="F"/>
     <affiliation role="member" ref="#party.KF"/>
-      <affiliation role="member" ref="#FT" from="2019-06-05" />
+      <affiliation role="member" ref="#FT" from="2019-06-05"/>
   </person>
     <person xml:id="JosefsenBirgitte">
     <persName>
@@ -817,13 +884,24 @@
     <birth when="1973-03-01"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.S"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2014-02-03" to="2015-06-28" ana="#FT.14">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2015-06-28" ana="#FT.14"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2015-06-28" ana="#FT.14">
         <roleName xml:lang="da">Finansminister</roleName>
         <roleName xml:lang="en">Minister for Finance</roleName>
       </affiliation>
-      <affiliation role="member" ref="#FT" from="2011-10-03" to="2015-06-28" />
+      <affiliation role="member" ref="#FT" from="2011-10-03" to="2015-06-28"/>
   </person>
+  
+     <person xml:id="LaustsenBjarne">
+       <persName>
+         <forename>Bjarne</forename>
+         <surname>Laustsen</surname>
+       </persName>
+       <birth when="1953-12-08"/>
+       <sex value="M"/>
+       <affiliation role="member" ref="#party.S"/>
+       <affiliation role="member" ref="#FT" from="1998-03-11"/>	   
+     </person> 
 
     <person xml:id="HammerBjarni">
     <persName>
@@ -833,7 +911,7 @@
     <birth when="1975-03-08"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.JF"/>
-    <affiliation role="member" ref="#FT" from="2018-05-07" to="2018-05-13" />
+    <affiliation role="member" ref="#FT" from="2018-05-07" to="2018-05-13"/>
   </person>
     <person xml:id="BrandenborgBjørn">
     <persName>
@@ -843,8 +921,20 @@
     <birth when="1991-12-10"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.S"/>
-      <affiliation role="member" ref="#FT" from="2019-06-05" />
+      <affiliation role="member" ref="#FT" from="2019-06-05"/>
   </person>
+     
+     <person xml:id="BressendorffBrian">
+       <persName>
+         <forename>Brian</forename>
+         <surname>Bressendorff</surname>
+       </persName>
+       <birth when="1987-11-24"/>
+       <sex value="M"/>
+       <affiliation role="member" ref="#party.S"/>
+       <affiliation role="member" ref="#FT" from="2021-10-07" to="2022-05-31"/>	   
+     </person>  
+     
     <person xml:id="MikkelsenBrian">
     <persName>
      <forename>Brian</forename>
@@ -853,8 +943,8 @@
     <birth when="1966-01-31"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.KF"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2016-11-28" to="2018-06-21" ana="#FT.16">
+     <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2018-06-21" ana="#FT.16"/>
+     <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2018-06-21" ana="#FT.16">
         <roleName xml:lang="da">Erhvervsminister</roleName>
         <roleName xml:lang="en">Minister for Industry, Business and Financial Affairs</roleName>
       </affiliation>
@@ -868,7 +958,7 @@
     <birth when="1969-07-21"/>
     <sex value="F"/>
     <affiliation role="member" ref="#party.KF"/>
-      <affiliation role="member" ref="#FT" from="2018-06-22" />
+      <affiliation role="member" ref="#FT" from="2018-06-22"/>
   </person>
 
     <person xml:id="BagerBritt">
@@ -881,7 +971,22 @@
     <affiliation role="member" ref="#party.V"/>
     <affiliation role="member" ref="#FT" from="2015-06-18"/>
   </person>
-  
+ 
+     <person xml:id="JerupBruno">
+       <persName>
+         <forename>Bruno</forename>
+         <surname>Jerup</surname>
+       </persName>
+       <birth when="1957-09-29"/>
+       <sex value="M"/>
+       <affiliation role="member" ref="#party.EL"/>
+       <affiliation role="member" ref="#FT" from="2022-04-01" to="2022-07-31"/>
+       <affiliation role="member" ref="#FT" from="2020-12-15" to="2021-03-31"/>
+       <affiliation role="member" ref="#FT" from="2017-01-01" to="2017-08-31"/>
+       <affiliation role="member" ref="#FT" from="2015-01-26" to="2015-02-01"/>
+     </person>  
+     
+     
     <person xml:id="FabriciusCamilla">
     <persName>
      <forename>Camilla</forename>
@@ -890,7 +995,7 @@
     <birth when="1971-10-20"/>
     <sex value="F"/>
     <affiliation role="member" ref="#party.S"/>
-      <affiliation role="member" ref="#FT" from="2019-06-05" />
+      <affiliation role="member" ref="#FT" from="2019-06-05"/>
   </person>
     <person xml:id="HersomCamilla">
     <persName>
@@ -899,9 +1004,8 @@
    </persName>
     <birth when="1971-07-11"/>
     <sex value="F"/>
-    <affiliation role="member" ref="#party.RV"/>
+    <affiliation role="member" ref="#party.RV"/>				
       <affiliation role="member" ref="#FT" from="2011-09-15" to="2015-06-18"/>
-      <affiliation role="deputyHead" ref="#FT"/>
   </person>
  
     <person xml:id="HolstCarl">
@@ -912,8 +1016,8 @@
     <birth when="1970-04-29"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.V"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2015-06-28" to="2015-09-30" ana="#FT.15">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2015-06-28" to="2015-09-30" ana="#FT.15"/>
+     <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2015-06-28" to="2015-09-30" ana="#FT.15">
         <roleName xml:lang="da">Forsvarsminister og minister for nordisk samarbejde</roleName>
         <roleName xml:lang="en">Minister of Defence and Nordic Cooperation</roleName>
       </affiliation>
@@ -958,8 +1062,8 @@
     <birth when="1957-01-10"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.S"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2014-02-03" to="2015-06-28" ana="#FT.14">
+    <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2015-06-28" ana="#FT.14"/>
+    <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2015-06-28" ana="#FT.14">
         <roleName xml:lang="da">Minister for by, bolig og landdistrikter og minister for nordisk samarbejde</roleName>
         <roleName xml:lang="en">Minister for Housing and Urban Affairs and minister for Nordic Cooperation</roleName>
       </affiliation>
@@ -1048,6 +1152,11 @@
     <birth when="1986-03-24"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.S"/>
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2022-05-03" to="2022-06-07" ana="#FT.19"/>
+      <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2022-05-03" to="2022-06-07" ana="#FT.19">
+        <roleName xml:lang="da">Boligminister</roleName>
+        <roleName xml:lang="en">Minister of the Interior and Housing</roleName>
+      </affiliation>
       <affiliation role="member" ref="#FT" from="2015-06-18"/>
   </person>
     <person xml:id="EgelundChristina">
@@ -1068,13 +1177,25 @@
     <birth when="1965-05-23"/>
     <sex value="F"/>
     <affiliation role="member" ref="#party.S"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2014-02-03" to="2015-06-28" ana="#FT.14">
+    <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2015-06-28" ana="#FT.14"/>
+    <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2015-06-28" ana="#FT.14">
         <roleName xml:lang="da">Undervisningsminister</roleName>
         <roleName xml:lang="en">Minister for Education</roleName>
       </affiliation>
       <affiliation role="member" ref="#FT" from="2011-09-15" to="2018-09-05"/>
   </person>
+     
+     <person xml:id="ThorholmChristina">
+       <persName>
+         <forename>Christina</forename>
+         <surname>Thorholm</surname>
+       </persName>
+       <birth when="1964-08-11"/>
+       <sex value="F"/>
+       <affiliation role="member" ref="#party.RV"/>
+       <affiliation role="member" ref="#FT" from="2021-08-21"/>
+     </person>   
+  
     <person xml:id="MelsonChristofferAagaard">
     <persName>
      <forename>Christoffer Aagaard</forename>
@@ -1093,12 +1214,13 @@
     <birth when="1947-09-04"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.V"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2015-06-28" to="2016-11-27" ana="#FT.15">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2015-06-28" to="2016-11-27"  ana="#FT.15"/>
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2019-06-05" ana="#FT.16"/>
+   <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2015-06-28" to="2016-11-27" ana="#FT.15">
         <roleName xml:lang="da">Finansminister</roleName>
         <roleName xml:lang="en">Minister for Finance</roleName>
       </affiliation>
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2016-11-28" to="2019-06-26" ana="#FT.16">
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2019-06-05" ana="#FT.16">
         <roleName xml:lang="da">Forsvarsminister</roleName>
         <roleName xml:lang="en">Minister of Defence</roleName>
       </affiliation>				
@@ -1114,7 +1236,17 @@
     <affiliation role="member" ref="#party.DF"/>
       <affiliation role="member" ref="#FT" from="2015-06-18" to="2019-06-05"/>
   </person>
- 
+     
+     <person xml:id="LarsenJensenClaus">
+       <persName>
+         <forename>Claus</forename>
+         <surname>Larsen-Jensen</surname>
+       </persName>
+       <birth when="1953-05-09"/>
+       <sex value="M"/>
+       <affiliation role="member" ref="#party.S"/>
+       <affiliation role="member" ref="#FT" from="2017-10-09" to="2018-04-02"/>
+     </person>  
     <person xml:id="RugholmDaniel">
     <persName>
      <forename>Daniel</forename>
@@ -1143,12 +1275,13 @@
     <birth when="1975-06-12"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.S"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2014-02-03" to="2015-06-28" ana="#FT.14">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2015-06-28" ana="#FT.14"/>
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2022-06-07" ana="#FT.19"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2015-06-28" ana="#FT.14">
         <roleName xml:lang="da">Minister for fødevarer, landbrug og fiskeri</roleName>
         <roleName xml:lang="en">Minister for Food, Agriculture and Fisheries</roleName>
       </affiliation>
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2019-06-27" to="2020-09-29" ana="#FT.19">
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2022-06-07" ana="#FT.19">
         <roleName xml:lang="da">Klima-, energi- og forsyningsminister</roleName>
         <roleName xml:lang="en">Minister for Climate, Energy and Utilities</roleName>
       </affiliation>
@@ -1235,6 +1368,19 @@
     <affiliation role="member" ref="#party.SF"/>
       <affiliation role="member" ref="#FT" from="2007-11-13" to="2015-06-18"/>
   </person>
+     
+     <person xml:id="BonnesenErling">
+       <persName>
+         <forename>Erling</forename>
+         <surname>Bonnesen</surname>
+       </persName>
+       <birth when="1955-03-28"/>
+       <sex value="M"/>
+       <affiliation role="member" ref="#party.V"/>
+       <affiliation role="member" ref="#FT" from="2007-11-13"/>
+     </person>
+
+         
     <person xml:id="NørbyEllenTrane">
     <persName>
      <forename>Ellen Trane</forename>
@@ -1243,12 +1389,13 @@
     <birth when="1980-02-01"/>
     <sex value="F"/>
     <affiliation role="member" ref="#party.V"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2015-06-28" to="2016-11-27" ana="#FT.15">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2015-06-28" to="2016-11-27" ana="#FT.15"/>
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2019-06-05" ana="#FT.16"/>
+        <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2015-06-28" to="2016-11-27" ana="#FT.15">
         <roleName xml:lang="da">Minister for børn, undervisning og ligestilling</roleName>
         <roleName xml:lang="en">Minister for Children, Education and Equality</roleName>
       </affiliation>
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2016-11-28" to="2019-06-26" ana="#FT.16">
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2019-06-05" ana="#FT.16">
         <roleName xml:lang="da">Sundhedsminister</roleName>
         <roleName xml:lang="en">Minister for Health</roleName>
       </affiliation>
@@ -1294,16 +1441,18 @@
     <birth when="1978-11-14"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.V"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2015-06-28" to="2016-02-29" ana="#FT.15">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2015-06-28" to="2016-11-27" ana="#FT.15"/>
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2018-05-02" ana="#FT.16"/>
+      
+     <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2015-06-28" to="2016-02-29" ana="#FT.15">
         <roleName xml:lang="da">Uddannelses- og forskningsminister</roleName>
         <roleName xml:lang="en">Minister for Higher Education and Science</roleName>
       </affiliation>      
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2016-03-01" to="2016-11-27" ana="#FT.16">
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2016-03-01" to="2016-11-27" ana="#FT.15">
         <roleName xml:lang="da">Miljø- og fødevareminister</roleName>
         <roleName xml:lang="en">Minister for Food and the Environment</roleName>
       </affiliation>
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2016-11-28" to="2018-05-02" ana="#FT.16">
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2018-05-02" ana="#FT.16">
         <roleName xml:lang="da">Miljø- og fødevareminister</roleName>
         <roleName xml:lang="en">Minister for Food and the Environment</roleName>
       </affiliation>
@@ -1327,12 +1476,13 @@
     <birth when="1964-08-22"/>
     <sex value="F"/>
     <affiliation role="member" ref="#party.V"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2015-06-28" to="2016-02-29" ana="#FT.15">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2015-06-28" to="2016-02-29" ana="#FT.15"/>
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2018-05-03" to="2019-06-05" ana="#FT.16"/>
+    <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2015-06-28" to="2016-02-29" ana="#FT.15">
         <roleName xml:lang="da">Miljø- og fødevareminister</roleName>
         <roleName xml:lang="en">Minister for Food and the Environment</roleName>
       </affiliation>
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2018-05-03" to="2019-06-26" ana="#FT.16">
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2018-05-03" to="2019-06-05" ana="#FT.16">
         <roleName xml:lang="da">Minister for fiskeri og ligestilling og minister for nordisk samarbejde</roleName>
         <roleName xml:lang="en">Minister for Fisheries, Equality and Nordic Cooperation</roleName>
       </affiliation>
@@ -1397,7 +1547,12 @@
     <birth when="1963-07-03"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.S"/>
-      <affiliation role="member" ref="#FT" from="2007-11-13"/>
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2020-11-20" to="2022-06-07" ana="#FT.19"/>
+      <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2020-11-20" to="2022-06-07" ana="#FT.19">
+        <roleName xml:lang="da">Minister for udviklingssamarbejde og minister for nordisk samarbejde</roleName>
+        <roleName xml:lang="en">Minister for Development Cooperation and Nordic Cooperation</roleName>
+      </affiliation>
+     <affiliation role="member" ref="#FT" from="2007-11-13"/>
   </person>
 
     <person xml:id="AaenFrank">
@@ -1410,6 +1565,18 @@
     <affiliation role="member" ref="#party.EL"/>
       <affiliation role="member" ref="#FT" from="2007-11-13" to="2015-06-18"/>
   </person>
+     
+     <person xml:id="WillumsenGitte">
+       <persName>
+         <forename>Gitte</forename>
+         <surname>Willumsen</surname>
+       </persName>
+       <birth when="1967-02-12"/>
+       <sex value="F"/>
+       <affiliation role="member" ref="#party.KF"/>
+       <affiliation role="member" ref="#FT" from="2021-12-21"/>
+       <affiliation role="member" ref="#FT" from="2020-01-01" to="2020-06-30"/>
+     </person>      
  
     <person xml:id="OguzHalime">
     <persName>
@@ -1419,7 +1586,7 @@
     <birth when="1970-06-15"/>
     <sex value="F"/>
     <affiliation role="member" ref="#party.SF"/>
-      <affiliation role="member" ref="#FT" from="2019-06-05" />
+      <affiliation role="member" ref="#FT" from="2019-06-05"/>
   </person>
  
     <person xml:id="BjørnKlausenHanne">
@@ -1430,7 +1597,7 @@
     <birth when="1972-03-25"/>
     <sex value="F"/>
     <affiliation role="member" ref="#party.KF"/>
-      <affiliation role="member" ref="#FT" from="2020-05-12" to="2020-09-29"/>
+      <affiliation role="member" ref="#FT" from="2020-05-12"/>
   </person>
   
      
@@ -1454,8 +1621,8 @@
     <birth when="1953-08-25"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.V"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2015-06-28" to="2016-11-27" ana="#FT.15">
+    <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2015-06-28" to="2016-11-27" ana="#FT.15"/>
+    <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2015-06-28" to="2016-11-27" ana="#FT.15">
         <roleName xml:lang="da">Transport- og bygningsminister</roleName>
         <roleName xml:lang="en">Minister for Transport and Housing</roleName>
       </affiliation>
@@ -1503,6 +1670,17 @@
     <affiliation role="member" ref="#party.RV"/>
       <affiliation role="member" ref="#FT" from="2014-11-03" to="2015-06-18"/>
   </person>
+     
+     <person xml:id="AbrahamsenHelgi">
+       <persName>
+         <forename>Helgi</forename>
+         <surname>Abrahamsen</surname>
+       </persName>
+       <birth when="1966-11-24"/>
+       <sex value="M"/>
+       <affiliation role="member" ref="#party.SP"/>
+       <affiliation role="member" ref="#FT" from="2021-12-07" to="2021-12-14"/>
+     </person>      
 
     <person xml:id="MølvigHelleLøvgreen">
     <persName>
@@ -1514,6 +1692,17 @@
     <affiliation role="member" ref="#party.RV"/>
       <affiliation role="member" ref="#FT" from="2014-08-01" to="2015-06-18"/>
   </person>
+     
+     <person xml:id="FriedrichsenHelleOsther">
+       <persName>
+         <forename>Helle</forename>
+         <surname>Osther Friedrichsen</surname>
+       </persName>
+       <birth when="1963-05-18"/>
+       <sex value="F"/>
+       <affiliation role="member" ref="#party.EL"/>
+       <affiliation role="member" ref="#FT" from="2016-10-26" to="2016-11-11"/>
+     </person>
  
     <person xml:id="ThorningSchmidtHelle">
     <persName>
@@ -1523,14 +1712,12 @@
     <birth when="1966-12-14"/>
     <sex value="F"/>
     <affiliation role="member" ref="#party.S"/>
-      <affiliation role="member" ref="#FT" from="2007-11-13" to="2016-04-03"/>
-			<affiliation role="deputyHead" ref="#FT"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2014-02-03" to="2015-06-28" ana="#FT.14">
+    <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2015-06-28" ana="#FT.14"/>
+    <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2015-06-28" ana="#FT.14">
         <roleName xml:lang="da">Statsminister</roleName>
         <roleName xml:lang="en">Prime Minister</roleName>
       </affiliation>
-
+      <affiliation role="member" ref="#FT" from="2007-11-13" to="2016-04-03"/>
   </person>
     <person xml:id="HyllestedHenning">
     <persName>
@@ -1571,17 +1758,26 @@
     <birth when="1957-01-31"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.S"/>
-    <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-    <affiliation role="member" ref="#FT" from="2007-11-13"/>
-    <affiliation role="head" ref="#FT" />
-    <affiliation role="deputyHead" ref="#FT"/>
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2014-10-11" to="2015-06-28" ana="#FT.14">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2014-10-11" to="2015-06-28" ana="#FT.14"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2014-10-11" to="2015-06-28" ana="#FT.14">
         <roleName xml:lang="da">Beskæftigelsesminister</roleName>
         <roleName xml:lang="en">Minister for Employment</roleName>
       </affiliation>
-
-      
+      <affiliation role="head" ref="#FT" from="2019-06-21"/>
+      <affiliation role="member" ref="#FT" from="2007-11-13"/>
   </person>
+     
+     <person xml:id="VintherHenrik">
+       <persName>
+         <forename>Henrik</forename>
+         <surname>Vinther</surname>
+       </persName>
+       <birth when="1969-07-12"/>
+       <sex value="M"/>
+       <affiliation role="member" ref="#party.RV"/>
+       <affiliation role="member" ref="#FT" from="2020-11-17" to="2021-06-04"/>
+     </person>       
+     
     <person xml:id="HøeghHenrik">
     <persName>
      <forename>Henrik</forename>
@@ -1600,7 +1796,7 @@
     <birth when="1965-11-16"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.S"/>
-      <affiliation role="member" ref="#FT" from="2019-06-05" />
+      <affiliation role="member" ref="#FT" from="2019-06-05"/>
   </person>
  
     <person xml:id="LarsenHenrikSass">
@@ -1611,12 +1807,12 @@
     <birth when="1966-05-29"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.S"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2014-02-03" to="2015-06-28" ana="#FT.14">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2015-06-28" ana="#FT.14"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2015-06-28" ana="#FT.14">
         <roleName xml:lang="da">Erhvervs- og vækstminister</roleName>
         <roleName xml:lang="en">Minister for Business and Growth</roleName>
       </affiliation>
-      <affiliation role="member" ref="#FT" from="2007-11-13"/>
+      <affiliation role="member" ref="#FT" from="2007-11-13" to="2019-09-30"/>
   </person>
 
     <person xml:id="NielsenHolgerK">
@@ -1626,10 +1822,8 @@
    </persName>
     <birth when="1950-04-23"/>
     <sex value="M"/>
-    <affiliation role="member" ref="#party.SF"/>
+    <affiliation role="member" ref="#party.SF"/>				
       <affiliation role="member" ref="#FT" from="2007-11-13" to="2019-06-05"/>
-      <affiliation role="deputyHead" ref="#FT"/>
-
   </person>
  
     <person xml:id="PoulsenIb">
@@ -1670,19 +1864,31 @@
    </persName>
     <birth when="1973-03-16"/>
     <sex value="F"/>
-    <affiliation role="member" ref="#party.V"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2015-06-28" to="2016-11-27" ana="#FT.15">
+      <affiliation role="member" ref="#party.UFG" from="2021-02-05" to="2021-12-21"/>
+      <affiliation role="member" ref="#party.V" from="2007-11-13" to="2021-02-04"/>
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2015-06-28" to="2016-11-27" ana="#FT.15"/>
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2019-06-05" ana="#FT.16"/>
+        <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2015-06-28" to="2016-11-27" ana="#FT.15">
         <roleName xml:lang="da">Udlændinge-, integrations- og boligminister</roleName>
         <roleName xml:lang="en">Minister for Immigration, Integration and Housing</roleName>
       </affiliation>
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2016-11-28" to="2019-06-26" ana="#FT.16">
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2019-06-05" ana="#FT.16">
         <roleName xml:lang="da">Udlændinge- og integrationsminister</roleName>
         <roleName xml:lang="en">Minister for Immigration and Integration</roleName>
       </affiliation>
-      <affiliation role="member" ref="#FT" from="2007-11-13"/>
+      <affiliation role="member" ref="#FT" from="2007-11-13" to="2021-12-21"/>
   </person>
- 
+      <person xml:id="JensenJacob">
+       <persName>
+         <forename>Jacob</forename>
+         <surname>Jensen</surname>
+       </persName>
+       <birth when="1973-05-26"/>
+       <sex value="M"/>
+       <affiliation role="member" ref="#party.V"/>
+       <affiliation role="member" ref="#FT" from="2007-11-13"/>
+     </person>
+     
     <person xml:id="LundJacob">
     <persName>
      <forename>Jacob</forename>
@@ -1693,6 +1899,8 @@
     <affiliation role="member" ref="#party.S"/>
       <affiliation role="member" ref="#FT" from="2014-07-01" to="2015-06-18"/>
   </person>
+     
+     
     <person xml:id="MarkJacob">
     <persName>
      <forename>Jacob</forename>
@@ -1712,8 +1920,8 @@
     <birth when="1973-09-25"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.V"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2018-05-03" to="2019-06-26" ana="#FT.16">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2018-05-03" to="2019-06-05" ana="#FT.16"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2018-05-03" to="2019-06-05" ana="#FT.16">
         <roleName xml:lang="da">Miljø- og fødevareminister</roleName>
         <roleName xml:lang="en">Minister for Food and the Environment</roleName>
       </affiliation>
@@ -1778,7 +1986,19 @@
     <sex value="M"/>
     <affiliation role="member" ref="#party.S"/>
       <affiliation role="member" ref="#FT" from="2011-09-15"/>
-  </person>
+  </person>   
+     
+     <person xml:id="LarsenJanBjergskov">
+       <persName>
+         <forename>Jan</forename>
+         <surname>Bjergskov Larsen</surname>
+       </persName>
+       <birth when="1965-12-16"/>
+       <sex value="M"/>
+       <affiliation role="member" ref="#party.SF"/>
+       <affiliation role="member" ref="#FT" from="2021-11-23" to="2022-06-06"/>
+     </person> 
+     
     <person xml:id="CallesenJanRytkjær">
     <persName>
      <forename>Jan Rytkjær</forename>
@@ -1829,9 +2049,8 @@
    </persName>
     <birth when="1970-04-18"/>
     <sex value="M"/>
-    <affiliation role="member" ref="#party.RV"/>
+    <affiliation role="member" ref="#party.RV"/>				
       <affiliation role="member" ref="#FT" from="2019-06-05"/>
-		  <affiliation role="deputyHead" ref="#FT"/>     
   </person>
   
     <person xml:id="BruusJeppe">
@@ -1842,6 +2061,11 @@
     <birth when="1978-04-20"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.S"/>
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2022-02-05" to="2022-06-07" ana="#FT.19"/>
+      <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2022-02-05" to="2022-06-07" ana="#FT.19">
+        <roleName xml:lang="da">Skatteminister</roleName>
+        <roleName xml:lang="en">Minister for Taxation</roleName>
+      </affiliation>
       <affiliation role="member" ref="#FT" from="2014-01-01" to="2015-06-18"/>
       <affiliation role="member" ref="#FT" from="2019-06-05"/>
   </person>
@@ -1865,8 +2089,8 @@
     <birth when="1974-03-14"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.S"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2019-06-27" to="2020-09-29">
+       <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2022-06-07" ana="#FT.19"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2022-06-07" ana="#FT.19">
         <roleName xml:lang="da">Udenrigsminister</roleName>
         <roleName xml:lang="en">Minister for Foreign Affairs</roleName>
       </affiliation>
@@ -1905,9 +2129,24 @@
     <birth when="1981-08-25"/>
     <sex value="M"/>
 				<affiliation role="member" ref="#party.S"/>
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2021-08-17" to="2022-06-07" ana="#FT.19"/>
+      <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2021-08-17" to="2022-06-07" ana="#FT.19">
+        <roleName xml:lang="da">Uddannelses- og forskningsminister</roleName>
+        <roleName xml:lang="en">Minister for Higher Education and Science</roleName>
+      </affiliation>
       <affiliation role="member" ref="#FT" from="2013-03-21"/>
   </person>
-  
+     
+     <person xml:id="GottliebJette">
+       <persName>
+         <forename>Jette</forename>
+         <surname>Gottlieb</surname>
+       </persName>
+       <birth when="1948-09-23"/>
+       <sex value="F"/>
+       <affiliation role="member" ref="#party.EL"/>
+       <affiliation role="member" ref="#FT" from="2019-06-05"/>
+     </person>  
     <person xml:id="OlsenJoachimB">
     <persName>
      <forename>Joachim B.</forename>
@@ -1955,9 +2194,8 @@
    </persName>
     <birth when="1963-07-12"/>
     <sex value="M"/>
-    <affiliation role="member" ref="#party.S"/>
-    <affiliation role="member" ref="#FT" from="2007-11-13" to="2015-06-18"/>
-    <affiliation role="deputyHead" ref="#FT"/>      
+    <affiliation role="member" ref="#party.S"/>				
+      <affiliation role="member" ref="#FT" from="2007-11-13" to="2015-06-18"/>
   </person>
  
     <person xml:id="DahlJonas">
@@ -1990,12 +2228,12 @@
     <birth when="1949-02-11"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.V"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2015-06-28" to="2016-11-27" ana="#FT.15">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2015-06-28" to="2016-11-27" ana="#FT.15"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2015-06-28" to="2016-11-27" ana="#FT.15">
         <roleName xml:lang="da">Beskæftigelsesminister</roleName>
         <roleName xml:lang="en">Minister for Employment</roleName>
       </affiliation>
-      <affiliation role="member" ref="#FT" from="2015-06-28" to="2016-11-27"  />
+      <affiliation role="member" ref="#FT" from="2015-06-28" to="2016-11-27"/>
   </person>
     <person xml:id="FockJosephine">
     <persName>
@@ -2015,12 +2253,12 @@
     <birth when="1980-08-11"/>
     <sex value="F"/>
     <affiliation role="member" ref="#party.S"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2019-06-27" to="2020-09-29" ana="#FT.19">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2021-08-16" ana="#FT.19"/>
+      <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2021-08-16" ana="#FT.19">
         <roleName xml:lang="da">Kulturminister og kirkeminister</roleName>
         <roleName xml:lang="en">Minister for Culture and Minister for Ecclesiastical Affairs</roleName>
       </affiliation>
-      <affiliation role="member" ref="#FT" from="2019-06-27" to="2020-09-29" />
+      <affiliation role="member" ref="#FT" from="2019-06-27" to="2021-08-16"/>
   </person>
 
 
@@ -2045,21 +2283,44 @@
       <affiliation role="member" ref="#FT" from="2018-11-01" to="2019-06-05"/>
   </person>
      
+     <person xml:id="DybvadKaare">
+       <persName>
+         <forename>Kaare</forename>
+         <surname>Dybvad</surname>
+       </persName>
+       <birth when="1984-08-05"/>
+       <sex value="M"/>
+       <affiliation role="member" ref="#party.S"/>
+       <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2019-11-06" ana="#FT.19"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2019-11-06" ana="#FT.19">
+         <roleName xml:lang="da">Boligminister</roleName>
+         <roleName xml:lang="en">Minister for Housing</roleName>
+       </affiliation>
+       <affiliation role="member" ref="#FT" from="2015-06-18" to="2019-11-06"/>
+     </person>
      
-    <person xml:id="DybvadKaare">
+    <person xml:id="BekKaareDybvad">
     <persName>
      <forename>Kaare</forename>
-     <surname>Dybvad</surname>
+     <surname>Dybvad Bek</surname>
    </persName>
     <birth when="1984-08-05"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.S"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2019-06-27" to="2020-09-29" ana="#FT.19">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2019-11-07" to="2022-06-07" ana="#FT.19"/>
+      <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2019-11-07" to="2021-01-21" ana="#FT.19">
         <roleName xml:lang="da">Boligminister</roleName>
         <roleName xml:lang="en">Minister for Housing</roleName>
       </affiliation>
-      <affiliation role="member" ref="#FT" from="2015-06-18"/>
+      <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2021-01-22" to="2022-05-02" ana="#FT.19">
+        <roleName xml:lang="da">Indenrigs- og boligminister</roleName>
+        <roleName xml:lang="en">Minister of the Interior and Housing</roleName>
+      </affiliation>	
+      <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2022-05-03" to="2022-06-07" ana="#FT.19">
+        <roleName xml:lang="da">Udlændinge- og integrationsminister</roleName>
+        <roleName xml:lang="en">Minister for Immigration and Integration</roleName>
+      </affiliation>
+      <affiliation role="member" ref="#FT" from="2019-11-07"/>
   </person>
      
      
@@ -2071,21 +2332,21 @@
     <birth when="1969-08-26"/>
     <sex value="F"/>
     <affiliation role="member" ref="#party.V"/>
-      <affiliation role="member" ref="#FT" from="2007-11-13"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-				<affiliation role="deputyHead" ref="#FT"/>
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2015-06-28" to="2016-11-27" ana="#FT.15">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2015-06-28" to="2016-11-27" ana="#FT.15"/>
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2018-05-02" ana="#FT.16"/>
+      <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2015-06-28" to="2016-11-27" ana="#FT.15">
         <roleName xml:lang="da">Social- og indenrigsminister</roleName>
         <roleName xml:lang="en">Minister for Social Affairs and minister of the Interior</roleName>
       </affiliation>    
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2016-11-28" to="2017-08-06" ana="#FT.16">
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2017-08-06" ana="#FT.16">
         <roleName xml:lang="da">Minister for ligestilling og minister for nordisk samarbejde</roleName>
         <roleName xml:lang="en">Minister for Equality and Nordic Cooperation</roleName>
       </affiliation>
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2017-08-07" to="2018-05-02" ana="#FT.16">
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2017-08-07" to="2018-05-02" ana="#FT.16">
         <roleName xml:lang="da">Minister for fiskeri og ligestilling og minister for nordisk samarbejde</roleName>
         <roleName xml:lang="en">Minister for Fisheries, Equality and Nordic Cooperation</roleName>
       </affiliation>
+      <affiliation role="member" ref="#FT" from="2007-11-13"/>
   </person>
     <person xml:id="HækkerupKaren">
     <persName>
@@ -2095,8 +2356,8 @@
     <birth when="1974-06-12"/>
     <sex value="F"/>
     <affiliation role="member" ref="#party.S"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2014-02-03" to="2014-10-10" ana="#FT.14">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2014-10-10" ana="#FT.14"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2014-10-10" ana="#FT.14">
         <roleName xml:lang="da">Justitsminister</roleName>
         <roleName xml:lang="en">Minister for Justice</roleName>
       </affiliation>
@@ -2119,9 +2380,8 @@
    </persName>
     <birth when="1947-10-06"/>
     <sex value="F"/>
-    <affiliation role="member" ref="#party.S"/>
+    <affiliation role="member" ref="#party.S"/>				
       <affiliation role="member" ref="#FT" from="2007-11-03" to="2019-06-05"/>
-      <affiliation role="deputyHead" ref="#FT"/>
   </person>
  
     <person xml:id="AdsbølKarina">
@@ -2184,6 +2444,19 @@
     <affiliation role="member" ref="#party.SF"/>
       <affiliation role="member" ref="#FT" from="2014-11-04" to="2014-12-19"/>
   </person>
+     
+     <person xml:id="FilsøKarsten">
+       <persName>
+         <forename>Karsten</forename>
+         <surname>Filsø</surname>
+       </persName>
+       <birth when="1959-09-07"/>
+       <sex value="M"/>
+       <affiliation role="member" ref="#party.SF"/>
+       <affiliation role="member" ref="#FT" from="2021-10-07" to="2021-12-31"/>
+       <affiliation role="member" ref="#FT" from="2022-06-01"/>
+     </person>
+     
     <person xml:id="HøngeKarsten">
     <persName>
      <forename>Karsten</forename>
@@ -2202,16 +2475,17 @@
     <birth when="1983-10-14"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.V"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2015-06-28" to="2016-11-27" ana="#FT.15">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2015-06-28" to="2016-11-27"  ana="#FT.15"/>
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2019-06-05" ana="#FT.16"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2015-06-28" to="2016-11-27" ana="#FT.15">
         <roleName xml:lang="da">Skatteminister</roleName>
         <roleName xml:lang="en">Minister for Taxation</roleName>
       </affiliation>
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2016-11-28" to="2019-06-26" ana="#FT.16">
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2019-06-05" ana="#FT.16">
         <roleName xml:lang="da">Skatteminister</roleName>
         <roleName xml:lang="en">Minister for Taxation</roleName>
       </affiliation>
-      <affiliation role="member" ref="#FT" from="2007-11-13"/>
+      <affiliation role="member" ref="#FT" from="2007-11-13" to="2022-01-31"/>
   </person>
     <person xml:id="NonboKarsten">
     <persName>
@@ -2286,6 +2560,29 @@
     <affiliation role="member" ref="#party.DF"/>
       <affiliation role="member" ref="#FT" from="2015-06-18" to="2019-06-05"/>
   </person>
+     
+     <person xml:id="MikkelsenKenneth">
+       <persName>
+         <forename>Kenneth</forename>
+         <surname>Mikkelsen</surname>
+       </persName>
+       <birth when="1971-08-12"/>
+       <sex value="M"/>
+       <affiliation role="member" ref="#party.V"/>
+       <affiliation role="member" ref="#FT" from="2021-04-01"/>
+     </person> 
+ 
+     <person xml:id="AasKim">
+       <persName>
+         <forename>Kim</forename>
+         <surname>Aas</surname>
+       </persName>
+       <birth when="1970-06-15"/>
+       <sex value="M"/>
+       <affiliation role="member" ref="#party.S"/>
+       <affiliation role="member" ref="#FT" from="2021-10-25" to="2022-01-01"/>
+     </person> 
+     
     <person xml:id="AndersenKim">
     <persName>
      <forename>Kim</forename>
@@ -2325,8 +2622,8 @@
     <birth when="1977-12-14"/>
     <sex value="F"/>
     <affiliation role="member" ref="#party.S"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2014-02-03" to="2015-06-28" ana="#FT.14">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2015-06-28" ana="#FT.14"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2015-06-28" ana="#FT.14">
         <roleName xml:lang="da">Miljøminister</roleName>
         <roleName xml:lang="en">Minister for the Environment</roleName>
       </affiliation>
@@ -2374,16 +2671,17 @@
     <birth when="1971-05-21"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.V"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2015-06-28" to="2016-11-27" ana="#FT.15">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2015-06-28" to="2016-11-27"  ana="#FT.15"/>
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2019-06-05" ana="#FT.16"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2015-06-28" to="2016-11-27" ana="#FT.15">
         <roleName xml:lang="da">Udenrigsminister</roleName>
         <roleName xml:lang="en">Minister for Foreign Affairs</roleName>
       </affiliation>
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2016-11-28" to="2019-06-26" ana="#FT.16">
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2019-06-05" ana="#FT.16">
         <roleName xml:lang="da">Finansminister</roleName>
         <roleName xml:lang="en">Minister for Finance</roleName>
       </affiliation>
-      <affiliation role="member" ref="#FT" from="2007-11-13"/>
+      <affiliation role="member" ref="#FT" from="2007-11-13" to="2021-03-31"/>
   </person>
     <person xml:id="LorentzenKristianPihl">
     <persName>
@@ -2392,9 +2690,8 @@
    </persName>
     <birth when="1961-05-19"/>
     <sex value="M"/>
-    <affiliation role="member" ref="#party.V"/>
+    <affiliation role="member" ref="#party.V"/>				
       <affiliation role="member" ref="#FT" from="2007-11-13"/>
-      <affiliation role="deputyHead" ref="#FT"/>
   </person>
     <person xml:id="DahlKristianThulesen">
     <persName>
@@ -2445,18 +2742,17 @@
     <birth when="1965-03-02"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.V"/>
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2015-06-28" to="2016-11-27" ana="#FT.15"/>
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2019-06-05" ana="#FT.16"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2015-06-28" to="2016-11-27" ana="#FT.15">
+        <roleName xml:lang="da">Energi-, forsynings- og klimaminister</roleName>
+        <roleName xml:lang="en">Minister for Energy, Supply and Climate</roleName>
+      </affiliation>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2019-06-05" ana="#FT.16">
+        <roleName xml:lang="da">Energi-, forsynings- og klimaminister</roleName>
+        <roleName xml:lang="en">Minister for Energy, Supply and Climate</roleName>
+      </affiliation>
       <affiliation role="member" ref="#FT" from="2007-11-13"/>
-      <affiliation role="deputyHead" ref="#FT"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2015-06-28" to="2016-11-27" ana="#FT.15">
-        <roleName xml:lang="da">Energi-, forsynings- og klimaminister</roleName>
-        <roleName xml:lang="en">Minister for Energy, Supply and Climate</roleName>
-      </affiliation>
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2016-11-28" to="2019-06-26" ana="#FT.16">
-        <roleName xml:lang="da">Energi-, forsynings- og klimaminister</roleName>
-        <roleName xml:lang="en">Minister for Energy, Supply and Climate</roleName>
-      </affiliation>
-
   </person>
     <person xml:id="DohnLars">
     <persName>
@@ -2477,12 +2773,13 @@
     <birth when="1964-05-15"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.V"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2015-06-28" to="2016-11-27" ana="#FT.15">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2015-06-28" to="2016-11-27" ana="#FT.15"/>
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2019-06-05" ana="#FT.16"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2015-06-28" to="2016-11-27" ana="#FT.15">
         <roleName xml:lang="da">Statsminister</roleName>
         <roleName xml:lang="en">Prime Minister</roleName>
       </affiliation>
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2016-11-28" to="2019-06-26" ana="#FT.16">
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2019-06-05" ana="#FT.16">
         <roleName xml:lang="da">Statsminister</roleName>
         <roleName xml:lang="en">Prime Minister</roleName>
       </affiliation>
@@ -2506,8 +2803,8 @@
     <birth when="1985-05-10"/>
     <sex value="F"/>
     <affiliation role="member" ref="#party.S"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2019-06-27" to="2020-09-29" ana="#FT.19">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2022-06-07" ana="#FT.19"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2022-06-07" ana="#FT.19">
         <roleName xml:lang="da">Miljøminister</roleName>
         <roleName xml:lang="en">Minister for the Environment</roleName>
       </affiliation>
@@ -2530,9 +2827,8 @@
    </persName>
     <birth when="1945-07-27"/>
     <sex value="M"/>
-    <affiliation role="member" ref="#party.LA"/>
+    <affiliation role="member" ref="#party.LA"/>				
       <affiliation role="member" ref="#FT" from="2011-09-15" to="2019-06-05"/>
-      <affiliation role="deputyHead" ref="#FT"/>
   </person>
     <person xml:id="EspersenLene">
     <persName>
@@ -2625,9 +2921,8 @@
    </persName>
     <birth when="1960-04-16"/>
     <sex value="F"/>
-    <affiliation role="member" ref="#party.RV"/>
+    <affiliation role="member" ref="#party.RV"/>				
       <affiliation role="member" ref="#FT" from="2011-09-15" to="2015-06-18"/>
-      <affiliation role="deputyHead" ref="#FT"/>
   </person>
  
     <person xml:id="RodLotte">
@@ -2661,6 +2956,18 @@
     <affiliation role="member" ref="#party.V"/>
       <affiliation role="member" ref="#FT" from="2017-10-05"/>
   </person>
+     
+     <person xml:id="AndersenMads">
+       <persName>
+         <forename>Mads</forename>
+         <surname>Andersen</surname>
+       </persName>
+       <birth when="1989-04-24"/>
+       <sex value="M"/>
+       <affiliation role="member" ref="#party.KF"/>
+       <affiliation role="member" ref="#FT" from="2021-04-13" to="2021-08-16"/>
+     </person>     
+          
     <person xml:id="RørvigMads">
     <persName>
      <forename>Mads</forename>
@@ -2689,17 +2996,33 @@
     <birth when="1975-01-28"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.S"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2014-02-03" to="2015-06-28" ana="#FT.14">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2015-06-28" ana="#FT.14"/>
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2022-06-07" ana="#FT.19"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2015-06-28" ana="#FT.14">
         <roleName xml:lang="da">Transportminister</roleName>
         <roleName xml:lang="en">Minister for Transport</roleName>
       </affiliation>
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2019-06-27" to="2020-09-29" ana="#FT.19">
+      <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2021-01-21" ana="#FT.19">
         <roleName xml:lang="da">Sundheds- og ældreminister</roleName>
         <roleName xml:lang="en">Minister for Health and Senior Citizens</roleName>
       </affiliation>
+      <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2021-01-22" to="2022-06-07" ana="#FT.19">
+        <roleName xml:lang="da">Sundhedsminister</roleName>
+        <roleName xml:lang="en">Minister for Health</roleName>
+      </affiliation>
       <affiliation role="member" ref="#FT" from="2007-11-13"/>
   </person>
+     
+     <person xml:id="RasmussenMagnus">
+       <persName>
+         <forename>Magnus</forename>
+         <surname>Rasmussen</surname>
+       </persName>
+       <birth when="1962-11-28"/>
+       <sex value="M"/>
+       <affiliation role="member" ref="#party.SP"/>
+       <affiliation role="member" ref="#FT" from="2020-11-03" to="2020-11-10"/>
+     </person>     
 
     <person xml:id="MercadoMai">
     <persName>
@@ -2709,8 +3032,8 @@
     <birth when="1980-08-20"/>
     <sex value="F"/>
     <affiliation role="member" ref="#party.KF"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2016-11-28" to="2019-06-26" ana="#FT.16">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2019-06-05" ana="#FT.16"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2019-06-05" ana="#FT.16">
         <roleName xml:lang="da">Børne- og socialminister</roleName>
         <roleName xml:lang="en">Minister for Children and Social Affairs</roleName>
       </affiliation>
@@ -2736,7 +3059,18 @@
     <affiliation role="member" ref="#party.S"/>
       <affiliation role="member" ref="#FT" from="2009-08-05" to="2019-06-05"/>
   </person>
- 
+     
+     <person xml:id="TorpMaja">
+       <persName>
+         <forename>Maja</forename>
+         <surname>Torp</surname>
+       </persName>
+       <birth when="1973-04-05"/>
+       <sex value="M"/>
+       <affiliation role="member" ref="#party.V"/>
+       <affiliation role="member" ref="#FT" from="2021-03-01" to="2021-04-30"/>
+       <affiliation role="member" ref="#FT" from="2022-02-01"/>
+     </person>  
  
     <person xml:id="LunderødMalou">
     <persName>
@@ -2769,8 +3103,8 @@
     <birth when="1967-05-16"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.RV"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2014-02-03" to="2015-06-28" ana="#FT.14">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2015-06-28" ana="#FT.14"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2015-06-28" ana="#FT.14">
         <roleName xml:lang="da">Minister for børn, ligestilling, integration og sociale forhold</roleName>
         <roleName xml:lang="en">Minister for Children, Equality, Integration and Social Affairs</roleName>
       </affiliation>
@@ -2783,16 +3117,9 @@
    </persName>
     <birth when="1976-04-02"/>
     <sex value="M"/>				
-				<affiliation role="member" ref="#party.V" from="2015-06-18" to="2015-07-01" ana="#FT.20141"/>
-				<affiliation role="member" ref="#party.V" from="2015-07-02" to="2015-10-05" ana="#FT.20142"/>
-				<affiliation role="member" ref="#party.V" from="2015-10-06" to="2016-10-03" ana="#FT.20151"/>
-				<affiliation role="member" ref="#party.V" from="2016-10-04" to="2017-10-02" ana="#FT.20161"/>
-				<affiliation role="member" ref="#party.V" from="2017-10-03" to="2018-10-01" ana="#FT.20171"/>
-				<affiliation role="member" ref="#party.V" from="2018-10-02" to="2019-05-07" ana="#FT.20181"/>
-				<affiliation role="member" ref="#party.V" from="2019-05-08" to="2019-09-30" ana="#FT.20182"/>
-				<affiliation role="member" ref="#party.V" from="2019-10-01" to="2019-11-28" ana="#FT.20191"/>
-				<affiliation role="member" ref="#party.KF" from="2019-11-29" ana="#FT.20191"/>
-      <affiliation role="member" ref="#FT" from="2015-06-18" to="2019-11-28"/>
+      <affiliation role="member" ref="#party.V" from="2015-06-18" to="2019-11-28"/>
+      <affiliation role="member" ref="#party.KF" from="2019-11-29"/>
+      <affiliation role="member" ref="#FT" from="2015-06-18"/>
   </person>
     <person xml:id="VestagerMargrethe">
     <persName>
@@ -2801,8 +3128,8 @@
    </persName>
     <birth when="1968-04-13"/>
     <sex value="F"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2014-02-03" to="2014-09-02" ana="#FT.14">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2014-09-02" ana="#FT.14"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2014-09-02" ana="#FT.14">
         <roleName xml:lang="da">Økonomi- og indenrigsminister</roleName>
         <roleName xml:lang="en">Minister for the Economy and minister of the Interior</roleName>
       </affiliation>
@@ -2827,13 +3154,12 @@
     <birth when="1943-09-05"/>
     <sex value="F"/>
     <affiliation role="member" ref="#party.RV"/>
-      <affiliation role="member" ref="#FT" from="2007-11-13"/>
-      <affiliation role="deputyHead" ref="#FT"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2014-02-03" to="2015-06-28" ana="#FT.14">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2015-06-28" ana="#FT.14"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2015-06-28" ana="#FT.14">
         <roleName xml:lang="da">Kulturminister og kirkeminister</roleName>
         <roleName xml:lang="en">Minister for Culture and Minister for Ecclesiastical Affairs</roleName>
       </affiliation>
+      <affiliation role="member" ref="#FT" from="2007-11-13"/>
   </person>
     <person xml:id="GjerdingMariaReumert">
     <persName>
@@ -2855,6 +3181,18 @@
     <affiliation role="member" ref="#party.V"/>
       <affiliation role="member" ref="#FT" from="2019-06-05"/>
   </person>
+         
+     <person xml:id="GudmeMaria">
+       <persName>
+         <forename>Maria</forename>
+         <surname>Gudme</surname>
+       </persName>
+       <birth when="1989-03-14"/>
+       <sex value="F"/>
+       <affiliation role="member" ref="#party.S"/>
+       <affiliation role="member" ref="#FT" from="2022-05-10"/>
+     </person> 
+     
     <person xml:id="KrarupMarie">
     <persName>
      <forename>Marie</forename>
@@ -2898,6 +3236,18 @@
     <affiliation role="member" ref="#party.DF"/>
       <affiliation role="member" ref="#FT" from="2007-11-13" to="2019-06-05"/>
   </person>
+        
+     <person xml:id="GrossmannMark">
+       <persName>
+         <forename>Mark</forename>
+         <surname>Grossmann</surname>
+       </persName>
+       <birth when="1973-09-23"/>
+       <sex value="M"/>
+       <affiliation role="member" ref="#party.V"/>
+       <affiliation role="member" ref="#FT" from="2021-10-14" to="2021-12-13"/>
+     </person>  
+     
     <person xml:id="GeertsenMartin">
     <persName>
      <forename>Martin</forename>
@@ -2927,8 +3277,8 @@
     <birth when="1966-12-12"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.RV"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2014-02-03" to="2015-06-28" ana="#FT.14">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2015-06-28" ana="#FT.14"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2015-06-28" ana="#FT.14">
         <roleName xml:lang="da">Udenrigsminister</roleName>
         <roleName xml:lang="en">Minister for Foreign Affairs</roleName>
       </affiliation>
@@ -2942,10 +3292,14 @@
     <birth when="1981-03-31"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.S"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2019-06-27" to="2020-09-29" ana="#FT.19">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2022-06-07" ana="#FT.19"/>
+      <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2022-05-02" ana="#FT.19">
         <roleName xml:lang="da">Udlændinge- og integrationsminister</roleName>
         <roleName xml:lang="en">Minister for Immigration and Integration</roleName>
+      </affiliation>	
+      <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2022-05-03" to="2022-06-07" ana="#FT.19">
+        <roleName xml:lang="da">Justitsminister</roleName>
+        <roleName xml:lang="en">Minister for Justice</roleName>
       </affiliation>
       <affiliation role="member" ref="#FT" from="2015-06-18"/>
   </person>
@@ -2977,8 +3331,8 @@
     <birth when="1976-03-01"/>
     <sex value="F"/>
     <affiliation role="member" ref="#party.LA"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2016-11-28" to="2019-06-26" ana="#FT.16">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2019-06-05" ana="#FT.16"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2019-06-05" ana="#FT.16">
         <roleName xml:lang="da">Undervisningsminister</roleName>
         <roleName xml:lang="en">Minister for Education</roleName>
       </affiliation>
@@ -3014,13 +3368,12 @@
     <birth when="1957-07-26"/>
     <sex value="F"/>
     <affiliation role="member" ref="#party.LA"/>
-      <affiliation role="member" ref="#FT" from="2011-09-15" to="2019-06-05"/>
-      <affiliation role="deputyHead" ref="#FT"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2016-11-28" to="2019-06-26" ana="#FT.16">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2019-06-05" ana="#FT.16"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2019-06-05" ana="#FT.16">
         <roleName xml:lang="da">Kulturminister og kirkeminister</roleName>
         <roleName xml:lang="en">Minister for Culture and Minister for Ecclesiastical Affairs</roleName>
-      </affiliation>
+      </affiliation>				
+      <affiliation role="member" ref="#FT" from="2011-09-15" to="2019-06-05"/>
   </person>
  
     <person xml:id="FrederiksenMette">
@@ -3031,22 +3384,35 @@
     <birth when="1977-11-19"/>
     <sex value="F"/>
     <affiliation role="member" ref="#party.S"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2014-02-03" to="2014-10-10" ana="#FT.14">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2014-10-10" ana="#FT.14"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2014-10-10" ana="#FT.14">
         <roleName xml:lang="da">Beskæftigelsesminister</roleName>
         <roleName xml:lang="en">Minister for Employment</roleName>
       </affiliation>
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2014-10-11" to="2015-06-28" ana="#FT.14">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2014-10-11" to="2015-06-28" ana="#FT.14"/>
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2022-06-07" ana="#FT.19"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2014-10-11" to="2015-06-28" ana="#FT.14">
         <roleName xml:lang="da">Justitsminister</roleName>
         <roleName xml:lang="en">Minister for Justice</roleName>
       </affiliation>
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2019-06-27" to="2020-09-29" ana="#FT.19">
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2022-06-07" ana="#FT.19">
         <roleName xml:lang="da">Statsminister</roleName>
         <roleName xml:lang="en">Prime Minister</roleName>
       </affiliation>
       <affiliation role="member" ref="#FT" from="2007-11-13"/>
   </person>
 
+     <person xml:id="GjerskovMette">
+       <persName>
+         <forename>Mette</forename>
+         <surname>Gjerskov</surname>
+       </persName>
+       <birth when="1966-07-28"/>
+       <sex value="F"/>
+       <affiliation role="member" ref="#party.S"/>
+       <affiliation role="member" ref="#FT" from="2007-11-13"/>
+     </person>
+     
     <person xml:id="DenckerMetteHjermind">
     <persName>
      <forename>Mette Hjermind</forename>
@@ -3075,7 +3441,7 @@
     <birth when="1981-12-20"/>
     <sex value="F"/>
     <affiliation role="member" ref="#party.NB"/>
-      <affiliation role="member" ref="#FT" from="2019-06-05" />
+      <affiliation role="member" ref="#FT" from="2019-06-05"/>
   </person>
     <person xml:id="JensenMichaelAastrup">
     <persName>
@@ -3135,12 +3501,13 @@
     <birth when="1963-10-31"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.S"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2014-02-03" to="2015-06-28" ana="#FT.14">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2015-06-28" ana="#FT.14"/>
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2022-06-07" ana="#FT.19"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2015-06-28" ana="#FT.14">
         <roleName xml:lang="da">Handels- og udviklingsminister</roleName>
         <roleName xml:lang="en">Minister of Commerce and Development</roleName>
       </affiliation>
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2019-06-27" to="2020-09-29" ana="#FT.19">
+      <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2020-11-19" ana="#FT.19">
         <roleName xml:lang="da">Minister for fødevarer, fiskeri og ligestilling og minister for nordisk samarbejde</roleName>
         <roleName xml:lang="en">Minister for Food, Fisheries, Agriculture and Nordic Cooperation</roleName>
       </affiliation>
@@ -3154,9 +3521,8 @@
     <birth when="1946-01-09"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.S"/>
+      <affiliation role="head" ref="#FT" from="2011-09-29" to="2015-07-03"/>
       <affiliation role="member" ref="#FT" from="2007-11-13" to="2019-06-05"/>
-      <affiliation role="deputyHead" ref="#FT"/>
-      <affiliation role="head"  ref="#FT"/>
   </person>
     <person xml:id="JuulMona">
     <persName>
@@ -3166,7 +3532,7 @@
     <birth when="1967-09-20"/>
     <sex value="F"/>
     <affiliation role="member" ref="#party.KF"/>
-      <affiliation role="member" ref="#FT" from="2019-06-05" />
+      <affiliation role="member" ref="#FT" from="2019-06-05"/>
   </person>
     <person xml:id="BødskovMorten">
     <persName>
@@ -3176,10 +3542,14 @@
     <birth when="1970-05-01"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.S"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2019-06-27" to="2020-09-29" ana="#FT.19">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2022-06-07" ana="#FT.19"/>
+      <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2022-02-04" ana="#FT.19">
         <roleName xml:lang="da">Skatteminister</roleName>
         <roleName xml:lang="en">Minister for Taxation</roleName>
+      </affiliation>
+      <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2022-02-05" to="2022-06-07" ana="#FT.19">
+        <roleName xml:lang="da">Forsvarsminister</roleName>
+        <roleName xml:lang="en">Minister of Defence</roleName>
       </affiliation>
       <affiliation role="member" ref="#FT" from="2007-11-13"/>
   </person>
@@ -3191,7 +3561,7 @@
     <birth when="1989-05-01"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.V"/>
-      <affiliation role="member" ref="#FT" from="2019-06-05" />
+      <affiliation role="member" ref="#FT" from="2019-06-05"/>
   </person>
     <person xml:id="LøkkegaardMorten">
     <persName>
@@ -3221,7 +3591,7 @@
     <birth when="1980-11-13"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.DF"/>
-      <affiliation role="member" ref="#FT" from="2019-06-05" />
+      <affiliation role="member" ref="#FT" from="2019-06-05"/>
   </person>
     <person xml:id="ØstergaardMorten">
     <persName>
@@ -3231,16 +3601,16 @@
     <birth when="1976-06-17"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.RV"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2014-02-03" to="2014-09-02" ana="#FT.14">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2015-06-28" ana="#FT.14"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2014-09-02" ana="#FT.14">
         <roleName xml:lang="da">Skatteminister</roleName>
         <roleName xml:lang="en">Minister for Taxation</roleName>
       </affiliation>
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2014-09-03" to="2015-06-28" ana="#FT.14">
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2014-09-03" to="2015-06-28" ana="#FT.14">
         <roleName xml:lang="da">Økonomi- og indenrigsminister</roleName>
         <roleName xml:lang="en">Minister for the Economy and minister of the Interior</roleName>
       </affiliation>
-      <affiliation role="member" ref="#FT" from="2007-11-13"/>
+      <affiliation role="member" ref="#FT" from="2007-11-13" to="2021-06-16"/>
   </person>
     <person xml:id="FarooqNadeem">
     <persName>
@@ -3271,16 +3641,17 @@
     <birth when="1968-04-03"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.S"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2014-02-03" to="2015-06-28" ana="#FT.14">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2015-06-28" ana="#FT.14"/>
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2022-06-07" ana="#FT.19"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2015-06-28" ana="#FT.14">
         <roleName xml:lang="da">Minister for sundhed og forebyggelse</roleName>
         <roleName xml:lang="en">Minister for Health</roleName>
       </affiliation>
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2019-06-27" to="2020-09-29" ana="#FT.19">
+      <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2022-05-02" ana="#FT.19">
         <roleName xml:lang="da">Justitsminister</roleName>
         <roleName xml:lang="en">Minister for Justice</roleName>
       </affiliation>
-      <affiliation role="member" ref="#FT" from="2007-11-13"/>
+      <affiliation role="member" ref="#FT" from="2007-11-13" to="2022-05-09"/>
   </person>
     <person xml:id="NielsenNick">
     <persName>
@@ -3300,12 +3671,13 @@
     <birth when="1971-02-07"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.S"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2014-02-03" to="2015-06-28" ana="#FT.14">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2015-06-28" ana="#FT.14"/>
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2022-06-07" ana="#FT.19"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2015-06-28" ana="#FT.14">
         <roleName xml:lang="da">Forsvarsminister</roleName>
         <roleName xml:lang="en">Minister of Defence</roleName>
       </affiliation>
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2019-06-27" to="2020-09-29" ana="#FT.19">
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2022-06-07" ana="#FT.19">
         <roleName xml:lang="da">Finansminister</roleName>
         <roleName xml:lang="en">Minister for Finance</roleName>
       </affiliation>
@@ -3319,7 +3691,7 @@
     <birth when="1974-05-16"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.KF"/>
-      <affiliation role="member" ref="#FT" from="2019-06-05" />
+      <affiliation role="member" ref="#FT" from="2019-06-05"/>
   </person>
 
  
@@ -3382,8 +3754,8 @@
     <birth when="1972-12-21"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.LA"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2016-11-28" to="2019-06-26" ana="#FT.16">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2019-06-05" ana="#FT.16"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2019-06-05" ana="#FT.16">
         <roleName xml:lang="da">Transport-, bygnings- og boligminister</roleName>
         <roleName xml:lang="en">Minister for Transport, Building and Housing</roleName>
       </affiliation>
@@ -3471,11 +3843,22 @@
    </persName>
     <birth when="1955-02-20"/>
     <sex value="M"/>
-    <affiliation role="member" ref="#party.EL"/>
+    <affiliation role="member" ref="#party.EL"/>				
       <affiliation role="member" ref="#FT" from="2007-11-13" to="2015-06-18"/>
-      <affiliation role="deputyHead" ref="#FT"/>
   </person>
  
+     <person xml:id="HustedPer">
+       <persName>
+         <forename>Per</forename>
+         <surname>Husted</surname>
+       </persName>
+       <birth when="1966-04-06"/>
+       <sex value="M"/>
+       <affiliation role="member" ref="#party.S"/>
+       <affiliation role="member" ref="#FT" from="2015-10-08" to="2016-04-27"/>
+       <affiliation role="member" ref="#FT" from="2017-10-03" to="2018-05-31"/>
+     </person>
+     
     <person xml:id="LarsenPer">
     <persName>
      <forename>Per</forename>
@@ -3515,8 +3898,8 @@
     <birth when="1977-01-17"/>
     <sex value="F"/>
     <affiliation role="member" ref="#party.S"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2019-06-27" to="2020-09-29" ana="#FT.19">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2022-06-07" ana="#FT.19"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2022-06-07" ana="#FT.19">
         <roleName xml:lang="da">Børne- og undervisningsminister</roleName>
         <roleName xml:lang="en">Minister for Children and Education</roleName>
       </affiliation>
@@ -3529,14 +3912,9 @@
    </persName>
     <birth when="1967-01-20"/>
     <sex value="F"/>				
-				<affiliation role="member" ref="#party.S" from="2015-06-18" to="2015-07-01" ana="#FT.20141"/>
-    <affiliation role="member" ref="#party.S" from="2015-07-02" to="2015-10-05" ana="#FT.20142"/>
-    <affiliation role="member" ref="#party.S" from="2015-10-06" to="2016-04-23" ana="#FT.20151"/>	
-    <affiliation role="member" ref="#party.ALT" from="2016-04-24" to="2016-10-03" ana="#FT.20151"/>
-				<affiliation role="member" ref="#party.ALT" from="2016-10-04" to="2017-10-02" ana="#FT.20161"/>
-				<affiliation role="member" ref="#party.ALT" from="2017-10-03" to="2018-10-01" ana="#FT.20171"/>
-				<affiliation role="member" ref="#party.ALT" from="2018-10-02" to="2019-06-05" ana="#FT.20181"/>
-      <affiliation role="member" ref="#FT" from="2015-06-18" to="2019-06-05"/>
+				<affiliation role="member" ref="#party.S"/>	
+        <affiliation role="member" ref="#party.ALT"/>
+        <affiliation role="member" ref="#FT" from="2015-06-18" to="2019-06-05"/>
   </person>
     <person xml:id="SkipperPernille">
     <persName>
@@ -3546,7 +3924,7 @@
     <birth when="1984-07-10"/>
     <sex value="F"/>
     <affiliation role="member" ref="#party.EL"/>
-      <affiliation role="member" ref="#FT" from="2011-09-15" to="2019-06-05" />
+      <affiliation role="member" ref="#FT" from="2011-09-15" to="2019-06-05"/>
   </person>
     <person xml:id="VermundPernille">
     <persName>
@@ -3596,13 +3974,14 @@
     <birth when="1975-04-23"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.V"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2015-10-01" to="2016-11-27" ana="#FT.15">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2015-10-01" to="2016-11-27" ana="#FT.15"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2015-10-01" to="2016-11-27" ana="#FT.15">
         <roleName xml:lang="da">Forsvarsminister og minister for nordisk samarbejde</roleName>
         <roleName xml:lang="en">Minister of Defence and Nordic Cooperation</roleName>
       </affiliation>
       <affiliation role="member" ref="#FT" from="2007-11-13" to="2015-06-18"/>
   </person>
+     
     <person xml:id="ThomsenPeterHummelgaard">
     <persName>
      <forename>Peter Hummelgaard</forename>
@@ -3611,13 +3990,38 @@
     <birth when="1983-01-17"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.S"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2019-06-27" to="2020-09-29" ana="#FT.19">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2019-11-20" ana="#FT.19"/>
+      <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2019-11-20" ana="#FT.19">
         <roleName xml:lang="da">Beskæftigelsesminister</roleName>
         <roleName xml:lang="en">Minister for Employment</roleName>
       </affiliation>
-      <affiliation role="member" ref="#FT" from="2015-06-18"/>
+      <affiliation role="member" ref="#FT" from="2015-06-18" to="2019-11-20"/>
   </person>
+   
+     <person xml:id="HummelgaardPeter">
+       <persName>
+         <forename>Peter</forename>
+         <surname>Hummelgaard</surname>
+       </persName>
+       <birth when="1983-01-17"/>
+       <sex value="M"/>
+       <affiliation role="member" ref="#party.S"/>
+       <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2019-11-21" to="2022-06-07" ana="#FT.19"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2019-11-21" to="2020-11-19" ana="#FT.19">
+         <roleName xml:lang="da">Beskæftigelsesminister</roleName>
+         <roleName xml:lang="en">Minister for Employment</roleName>
+       </affiliation>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2020-11-20" to="2022-02-04" ana="#FT.19">
+         <roleName xml:lang="da">Beskæftigelsesminister og minister for ligestilling</roleName>
+         <roleName xml:lang="en">Minister for Employment and and minister for Gender Equality</roleName>
+       </affiliation>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2022-02-05" to="2022-06-07" ana="#FT.19">
+         <roleName xml:lang="da">Beskæftigelsesminister og minister for ligestilling</roleName>
+         <roleName xml:lang="en">Minister for Employment</roleName>
+       </affiliation>
+       <affiliation role="member" ref="#FT" from="2019-11-21"/>
+     </person>
+     
     <person xml:id="JuelJensenPeter">
     <persName>
      <forename>Peter</forename>
@@ -3626,9 +4030,21 @@
     <birth when="1966-05-18"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.V"/>
-      <affiliation role="member" ref="#FT" from="2007-11-13"/>
+      <affiliation role="member" ref="#FT" from="2018-05-23"/>
   </person>
-    <person xml:id="PoulsenPeterKofod">
+     
+     <person xml:id="JensenPeterJuel">
+       <persName>
+         <forename>Peter</forename>
+         <surname>Juel-Jensen</surname>
+       </persName>
+       <birth when="1966-05-18"/>
+       <sex value="M"/>
+       <affiliation role="member" ref="#party.V"/>
+       <affiliation role="member" ref="#FT" from="2007-11-13" to="2018-05-22"/>
+     </person>    
+     
+     <person xml:id="PoulsenPeterKofod">
     <persName>
      <forename>Peter Kofod</forename>
      <surname>Poulsen</surname>
@@ -3636,8 +4052,20 @@
     <birth when="1990-02-27"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.DF"/>
-      <affiliation role="member" ref="#FT" from="2015-06-18" to="2019-06-05"/>
+       <affiliation role="member" ref="#FT" from="2015-06-18" to="2018-05-22"/>
   </person>
+     
+     <person xml:id="KofodPeter">
+       <persName>
+         <forename>Peter</forename>
+         <surname>Kofod</surname>
+       </persName>
+       <birth when="1990-02-27"/>
+       <sex value="M"/>
+       <affiliation role="member" ref="#party.DF"/>
+       <affiliation role="member" ref="#FT" from="2018-05-23" to="2019-06-05"/>
+     </person>
+     
     <person xml:id="LaigaardPeter">
     <persName>
      <forename>Peter</forename>
@@ -3688,11 +4116,9 @@
    </persName>
     <birth when="1947-02-23"/>
     <sex value="F"/>
-    <affiliation role="member" ref="#party.DF"/>				
+    <affiliation role="member" ref="#party.DF"/>
+      <affiliation role="head" ref="#FT" from="2015-07-03" to="2019-06-21"/>
       <affiliation role="member" ref="#FT" from="2007-11-13"/>
-      <affiliation role="deputyHead" ref="#FT"/>
-      <affiliation role="head" ref="#FT"/>
-
   </person>
     <person xml:id="DyhrPiaOlsen">
     <persName>
@@ -3724,8 +4150,8 @@
     <birth when="1968-06-17"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.RV"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2014-02-03" to="2015-06-28" ana="#FT.14">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2015-06-28" ana="#FT.14"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2015-06-28" ana="#FT.14">
         <roleName xml:lang="da">Klima-, energi- og bygningsminister</roleName>
         <roleName xml:lang="en">Minister for Climate, Energy and Building</roleName>
       </affiliation>
@@ -3749,8 +4175,8 @@
     <birth when="1977-04-29"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.KF"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2018-06-22" to="2019-06-26" ana="#FT.16">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2018-06-22" to="2019-06-05" ana="#FT.16"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2018-06-22" to="2019-06-05" ana="#FT.16">
         <roleName xml:lang="da">Erhvervsminister</roleName>
         <roleName xml:lang="en">Minister for Industry, Business and Financial Affairs</roleName>
       </affiliation>
@@ -3764,15 +4190,9 @@
    </persName>
     <birth when="1975-07-18"/>
     <sex value="M"/>
-				<affiliation role="member" ref="#party.ALT" from="2015-06-18" to="2015-07-01" ana="#FT.20141"/>
-				<affiliation role="member" ref="#party.ALT" from="2015-07-02" to="2015-10-05" ana="#FT.20142"/>
-				<affiliation role="member" ref="#party.ALT" from="2015-10-06" to="2016-10-03" ana="#FT.20151"/>
-				<affiliation role="member" ref="#party.ALT" from="2016-10-04" to="2017-10-02" ana="#FT.20161"/>
-				<affiliation role="member" ref="#party.ALT" from="2017-10-03" to="2018-10-01" ana="#FT.20171"/>
-				<affiliation role="member" ref="#party.ALT" from="2018-10-02" to="2019-05-07" ana="#FT.20181"/>
-				<affiliation role="member" ref="#party.ALT" from="2019-05-08" to="2019-09-30" ana="#FT.20182"/>
-				<affiliation role="member" ref="#party.ALT" from="2019-10-01" to="2020-03-09" ana="#FT.20191"/>
-				<affiliation role="member" ref="#party.SF" from="2020-05-13" ana="#FT.20191"/>
+      <affiliation role="member" ref="#party.ALT" from="2015-06-18" to="2020-03-09"/>
+      <affiliation role="member" ref="#party.UFG" from="2020-03-10" to="2020-05-12"/>
+				<affiliation role="member" ref="#party.SF" from="2020-05-13"/>
       <affiliation role="member" ref="#FT" from="2015-06-18"/>
   </person>
     <person xml:id="PrehnRasmus">
@@ -3783,11 +4203,14 @@
     <birth when="1973-06-18"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.S"/>
-
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2019-06-27" to="2020-09-29" ana="#FT.19">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2022-06-07" ana="#FT.19"/>
+      <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2020-11-19" ana="#FT.19">
         <roleName xml:lang="da">Minister for udviklingssamarbejde</roleName>
         <roleName xml:lang="en">Minister for Development Cooperation</roleName>
+      </affiliation>	
+      <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2020-11-20" to="2022-06-07" ana="#FT.19">
+        <roleName xml:lang="da">Minister for fødevarer, landbrug og fiskeri</roleName>
+        <roleName xml:lang="en">Minister for Food, Agriculture and Fisheries</roleName>
       </affiliation>
       <affiliation role="member" ref="#FT" from="2007-11-13"/>
   </person>
@@ -3843,6 +4266,18 @@
     <affiliation role="member" ref="#party.JF"/>
       <affiliation role="member" ref="#FT" from="2019-02-28" to="2019-03-07"/>
   </person>
+ 
+     <person xml:id="MatthisenRoger">
+       <persName>
+         <forename>Roger</forename>
+         <surname>Courage Matthisen</surname>
+       </persName>
+       <birth when="1976-04-01"/>
+       <sex value="M"/>
+       <affiliation role="member" ref="#party.ALT"/>
+       <affiliation role="member" ref="#FT" from="2015-06-18" to="2017-05-18"/>
+     </person>  
+ 
     <person xml:id="MatthisenRogerCourage">
     <persName>
      <forename>Roger Courage</forename>
@@ -3851,7 +4286,8 @@
     <birth when="1976-04-01"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.ALT"/>
-      <affiliation role="member" ref="#FT" from="2015-06-18" to="2019-06-05"/>
+      <affiliation role="member" ref="#FT" from="2017-05-19" to="2019-06-05"/>
+      
   </person>
     <person xml:id="LundRosa">
     <persName>
@@ -3963,7 +4399,7 @@
     <birth when="1990-03-10"/>
     <sex value="F"/>
     <affiliation role="member" ref="#party.SF"/>
-      <affiliation role="member" ref="#FT" from="2019-06-05" />
+      <affiliation role="member" ref="#FT" from="2019-06-05"/>
   </person>
     <person xml:id="SiddiqueSikandar">
     <persName>
@@ -3972,12 +4408,12 @@
    </persName>
     <birth when="1986-10-04"/>
     <sex value="M"/>
-				 <affiliation role="member" ref="#party.ALT" from="2019-05-05" to="2019-05-07" ana="#FT.20181"/>
-				<affiliation role="member" ref="#party.ALT" from="2019-05-08" to="2019-09-30" ana="#FT.20182"/>
-				<affiliation role="member" ref="#party.ALT" from="2019-10-01" to="2020-03-09" ana="#FT.20191"/>
-				<affiliation role="member" ref="#party.UFG" from="2020-03-10" ana="#FT.20191"/>
+      <affiliation role="member" ref="#party.ALT" from="2019-06-05" to="2020-03-09"/>
+      <affiliation role="member" ref="#party.UFG" from="2020-03-10" to="2021-11-02"/>
+      <affiliation role="member" ref="#party.FG" from="2021-11-03"/>
       <affiliation role="member" ref="#FT" from="2019-06-05"/> 
   </person>
+     
     <person xml:id="AmmitzbøllSimonEmil">
     <persName>
      <forename>Simon Emil</forename>
@@ -3985,14 +4421,32 @@
    </persName>
     <birth when="1977-10-20"/>
     <sex value="M"/>
-    <affiliation role="member" ref="#party.LA"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2016-11-28" to="2019-06-26" ana="#FT.19">
+      <affiliation role="member" ref="#party.LA" from="2011-09-15" to="2017-11-22"/>
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2017-11-22" ana="#FT.16"/>
+      <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2017-11-22" ana="#FT.16">
         <roleName xml:lang="da">Økonomi- og indenrigsminister</roleName>
         <roleName xml:lang="en">Minister for the Economy and minister of the Interior</roleName>
       </affiliation>
-      <affiliation role="member" ref="#FT" from="2011-09-15"/>
+      <affiliation role="member" ref="#FT" from="2011-09-15" to="2017-11-22"/>
   </person>
+     
+     <person xml:id="AmmitzbøllBilleSimonEmil">
+       <persName>
+         <forename>Simon Emil</forename>
+         <surname>Ammitzbøll-Bille</surname>
+       </persName>
+       <birth when="1977-10-20"/>
+       <sex value="M"/>
+       <affiliation role="member" ref="#party.LA" from="2017-11-23" to="2019-10-22"/>
+       <affiliation role="member" ref="#party.UFG" from="2019-10-23"/>
+       <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2017-11-23" to="2019-06-05" ana="#FT.16"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2017-11-23" to="2019-06-05" ana="#FT.16">
+         <roleName xml:lang="da">Økonomi- og indenrigsminister</roleName>
+         <roleName xml:lang="en">Minister for the Economy and minister of the Interior</roleName>
+       </affiliation>
+       <affiliation role="member" ref="#FT" from="2011-09-15"/>
+     </person>
+     
     <person xml:id="KollerupSimon">
     <persName>
      <forename>Simon</forename>
@@ -4001,8 +4455,8 @@
     <birth when="1986-05-20"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.S"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2019-06-27" to="2020-09-29" ana="#FT.19">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2022-06-07" ana="#FT.19"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2022-06-07" ana="#FT.19">
         <roleName xml:lang="da">Erhvervsminister</roleName>
         <roleName xml:lang="en">Minister for Industry, Business and Financial Affairs</roleName>
       </affiliation>
@@ -4037,8 +4491,8 @@
     <birth when="1975-05-24"/>
     <sex value="F"/>
     <affiliation role="member" ref="#party.RV"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2014-02-03" to="2015-06-28" ana="#FT.14">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2015-06-28" ana="#FT.14"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2014-02-03" to="2015-06-28" ana="#FT.14">
         <roleName xml:lang="da">Uddannelses- og forskningsminister</roleName>
         <roleName xml:lang="en">Minister for Higher Education and Science</roleName>
       </affiliation>
@@ -4053,17 +4507,41 @@
     <birth when="1983-09-11"/>
     <sex value="F"/>
     <affiliation role="member" ref="#party.V"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2015-06-28" to="2016-11-27" ana="#FT.15">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2015-06-28" to="2016-11-27" ana="#FT.15"/>
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2019-06-05" ana="#FT.16"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2015-06-28" to="2016-11-27" ana="#FT.15">
         <roleName xml:lang="da">Sundheds- og ældreminister</roleName>
         <roleName xml:lang="en">Minister for Health and Senior Citizens</roleName>
       </affiliation>
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2016-11-28" to="2019-06-26" ana="#FT.16">
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2019-06-05" ana="#FT.16">
         <roleName xml:lang="da">Minister for offentlig innovation</roleName>
         <roleName xml:lang="en">Minister for Public Innovation</roleName>
       </affiliation>
       <affiliation role="member" ref="#FT" from="2007-11-13"/>
   </person>
+     
+     <person xml:id="OlsenStinePilt">
+       <persName>
+         <forename>Stine</forename>
+         <surname>Pilt Olsen</surname>
+       </persName>
+       <birth when="1980-09-26"/>
+       <sex value="F"/>
+       <affiliation role="member" ref="#party.KF"/>
+       <affiliation role="member" ref="#FT" from="2021-05-20" to="2021-07-31"/>
+     </person> 
+
+     <person xml:id="KronborgSusan">
+       <persName>
+         <forename>Susan</forename>
+         <surname>Kronborg</surname>
+       </persName>
+       <birth when="1968-07-05"/>
+       <sex value="F"/>
+       <affiliation role="member" ref="#party.RV"/>
+       <affiliation role="member" ref="#FT" from="2021-06-17"/>
+     </person>
+     
     <person xml:id="RasmussenSørenEgge">
     <persName>
      <forename>Søren Egge</forename>
@@ -4081,10 +4559,8 @@
    </persName>
     <birth when="1953-07-20"/>
     <sex value="M"/>
-    <affiliation role="member" ref="#party.DF"/>
+    <affiliation role="member" ref="#party.DF"/>				
       <affiliation role="member" ref="#FT" from="2007-11-13"/>
-      <affiliation role="deputyHead" ref="#FT"/>
-
   </person>
     <person xml:id="GadeSøren">
     <persName>
@@ -4105,8 +4581,8 @@
     <birth when="1971-12-31"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.KF"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2016-11-28" to="2019-06-26" ana="#FT.16">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2019-06-05" ana="#FT.16"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2019-06-05" ana="#FT.16">
         <roleName xml:lang="da">Justitsminister</roleName>
         <roleName xml:lang="en">Minister for Justice</roleName>
       </affiliation>
@@ -4120,12 +4596,13 @@
     <birth when="1969-11-20"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.V"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2015-06-28" to="2016-11-27" ana="#FT.15">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2015-06-28" to="2016-11-27" ana="#FT.15"/>
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2018-05-02" ana="#FT.16"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2015-06-28" to="2016-11-27" ana="#FT.15">
         <roleName xml:lang="da">Justitsminister</roleName>
         <roleName xml:lang="en">Minister for Justice</roleName>
       </affiliation>
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2016-11-28" to="2018-05-02" ana="#FT.16"> 
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2018-05-02" ana="#FT.16"> 
         <roleName xml:lang="da">Uddannelses- og forskningsminister</roleName>
         <roleName xml:lang="en">Minister for Higher Education and Science</roleName>
       </affiliation>
@@ -4148,9 +4625,8 @@
    </persName>
     <birth when="1945-04-09"/>
     <sex value="M"/>
-    <affiliation role="member" ref="#party.SF"/>
+    <affiliation role="member" ref="#party.SF"/>				
       <affiliation role="member" ref="#FT" from="2007-11-13" to="2015-06-18"/>
-      <affiliation role="deputyHead" ref="#FT"/>
   </person>
     <person xml:id="IversenSteenHolm">
     <persName>
@@ -4180,9 +4656,8 @@
    </persName>
     <birth when="1982-04-03"/>
     <sex value="F"/>
-    <affiliation role="member" ref="#party.EL"/>
+    <affiliation role="member" ref="#party.EL"/>				
       <affiliation role="member" ref="#FT" from="2011-09-15" to="2019-06-05"/>
-      <affiliation role="deputyHead" ref="#FT"/>
   </person>
     <person xml:id="LindgreenStinus">
     <persName>
@@ -4211,9 +4686,9 @@
    </persName>
     <birth when="1960-06-09"/>
     <sex value="F"/>
-    <affiliation role="member" ref="#party.ALT" from="2019-06-05" to="2019-09-30" ana="#FT.20182"/>
-    <affiliation role="member" ref="#party.ALT" from="2019-10-01" to="2020-03-09" ana="#FT.20191"/>
-    <affiliation role="member" ref="#party.UFG" from="2020-03-10" ana="#FT.20191"/>
+      <affiliation role="member" ref="#party.ALT" from="2019-06-05" to="2020-03-09"/>
+      <affiliation role="member" ref="#party.UFG" from="2020-03-10" to="2021-11-02"/>
+      <affiliation role="member" ref="#party.FG" from="2021-11-03"/>
       <affiliation role="member" ref="#FT" from="2019-06-05"/>
   </person>
 
@@ -4227,6 +4702,18 @@
     <affiliation role="member" ref="#party.S"/>
       <affiliation role="member" ref="#FT" from="2019-10-01"/>
   </person>
+     
+     <person xml:id="HommeltoftTheisKylling">
+       <persName>
+         <forename>Theis</forename>
+         <surname>Kylling Hommeltoft</surname>
+       </persName>
+       <birth when="1985-04-23"/>
+       <sex value="M"/>
+       <affiliation role="member" ref="#party.S"/>
+       <affiliation role="member" ref="#FT" from="2022-01-20" to="2022-04-24"/>
+     </person> 
+     
     <person xml:id="AndersenTheresaBerg">
     <persName>
      <forename>Theresa Berg</forename>
@@ -4258,6 +4745,16 @@
       <affiliation role="member" ref="#FT" from="2007-11-13"/>
   </person>
  
+     <person xml:id="PedersenTorstenSchack">
+       <persName>
+         <forename>Torsten</forename>
+         <surname>Schack Pedersen</surname>
+       </persName>
+       <birth when="1976-06-26"/>
+       <sex value="M"/>
+       <affiliation role="member" ref="#party.V"/>
+       <affiliation role="member" ref="#FT" from="2007-11-13"/>
+     </person>	 
 
     <person xml:id="FrankThyra">
     <persName>
@@ -4267,8 +4764,8 @@
     <birth when="1952-05-10"/>
     <sex value="F"/>
     <affiliation role="member" ref="#party.LA"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2016-11-28" to="2019-06-26" ana="#FT.16">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2019-06-05" ana="#FT.16"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2019-06-05" ana="#FT.16">
         <roleName xml:lang="da">Ældreminister</roleName>
         <roleName xml:lang="en">Minister for Senior Citizens</roleName>
       </affiliation>
@@ -4323,8 +4820,8 @@
     <birth when="1975-11-18"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.V"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2018-05-03" to="2019-06-26" ana="#FT.16">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2018-05-03" to="2019-06-05" ana="#FT.16"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2018-05-03" to="2019-06-05" ana="#FT.16">
         <roleName xml:lang="da">Uddannelses- og forskningsminister</roleName>
         <roleName xml:lang="en">Minister for Higher Education and Science</roleName>
       </affiliation>
@@ -4369,10 +4866,14 @@
     <birth when="1981-03-26"/>
     <sex value="F"/>
     <affiliation role="member" ref="#party.S"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2019-06-27" to="2020-09-29" ana="#FT.19">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2022-06-07" ana="#FT.19"/>
+      <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2019-06-27" to="2022-02-04" ana="#FT.19">
         <roleName xml:lang="da">Forsvarsminister</roleName>
         <roleName xml:lang="en">Minister of Defence</roleName>
+      </affiliation>
+      <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2022-02-05" to="2022-06-07" ana="#FT.19">
+        <roleName xml:lang="da">Transportminister og minister for ligestilling</roleName>
+        <roleName xml:lang="en">Minister for Transport and minister for Gender Equality</roleName>
       </affiliation>
       <affiliation role="member" ref="#FT" from="2011-09-15"/>
   </person>
@@ -4393,9 +4894,8 @@
    </persName>
     <birth when="1970-02-18"/>
     <sex value="F"/>
-    <affiliation role="member" ref="#party.SF"/>
+    <affiliation role="member" ref="#party.SF"/>				
       <affiliation role="member" ref="#FT" from="2015-06-18"/>
-      <affiliation role="deputyHead" ref="#FT"/>
   </person>
  
     <person xml:id="PoulsenTroelsLund">
@@ -4406,12 +4906,13 @@
     <birth when="1976-03-30"/>
     <sex value="M"/>
     <affiliation role="member" ref="#party.V"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2015-06-28" to="2016-11-27" ana="#FT.16">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2015-06-28" to="2016-11-27" ana="#FT.15"/>
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2019-06-05" ana="#FT.16"/>
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2015-06-28" to="2016-11-27" ana="#FT.15">
         <roleName xml:lang="da">Erhvervs- og vækstminister</roleName>
         <roleName xml:lang="en">Minister for Business and Growth</roleName>
       </affiliation>
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2016-11-28" to="2019-06-26" ana="#FT.16">
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2019-06-05" ana="#FT.16">
         <roleName xml:lang="da">Beskæftigelsesminister</roleName>
         <roleName xml:lang="en">Minister for Employment</roleName>
       </affiliation>
@@ -4434,17 +4935,11 @@
      <surname>Elbæk</surname>
    </persName>
     <birth when="1954-06-15"/>
-    <sex value="M"/>
- 				<affiliation role="member" ref="#party.UFG" from="2014-10-07" to="2015-03-12" ana="#FT.20141"/>				
-				<affiliation role="member" ref="#party.ALT" from="2015-03-13" to="2015-07-01" ana="#FT.20141"/>
-				<affiliation role="member" ref="#party.ALT" from="2015-07-02" to="2015-10-05" ana="#FT.20142"/>
-				<affiliation role="member" ref="#party.ALT" from="2015-10-06" to="2016-10-03" ana="#FT.20151"/>
-				<affiliation role="member" ref="#party.ALT" from="2016-10-04" to="2017-10-02" ana="#FT.20161"/>
-				<affiliation role="member" ref="#party.ALT" from="2017-10-03" to="2018-10-01" ana="#FT.20171"/>
-				<affiliation role="member" ref="#party.ALT" from="2018-10-02" to="2019-05-07" ana="#FT.20181"/>
-				<affiliation role="member" ref="#party.ALT" from="2019-05-08" to="2019-09-30" ana="#FT.20182"/>
-				<affiliation role="member" ref="#party.ALT" from="2019-10-01" to="2020-03-09" ana="#FT.20191"/>
-				<affiliation role="member" ref="#party.UFG" from="2020-03-10" ana="#FT.20191"/>				 				
+    <sex value="M"/>			
+      <affiliation role="member" ref="#party.FG" from="2021-11-03"/>
+      <affiliation role="member" ref="#party.UFG" from="2020-03-10" to="2021-11-02"/>
+      <affiliation role="member" ref="#party.ALT" from="2015-03-13" to="2020-03-09"/>
+			<affiliation role="member" ref="#party.UFG" from="2013-09-17" to="2015-03-12"/>				 				
       <affiliation role="member" ref="#FT" from="2011-09-15"/>
   </person>
     <person xml:id="SandbækUlla">
@@ -4465,12 +4960,14 @@
     <birth when="1962-09-04"/>
     <sex value="F"/>
     <affiliation role="member" ref="#party.V"/>
-      <affiliation role="member" ref="#ParlaMint-DK-GOV" />
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2016-03-01" to="2016-11-27" ana="#FT.15">
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2016-03-01" to="2016-11-27" ana="#FT.15"/>
+      <affiliation role="member" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2019-06-05" ana="#FT.16"/>
+      
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2016-03-01" to="2016-11-27" ana="#FT.15">
         <roleName xml:lang="da">Uddannelses- og forskningsminister</roleName>
         <roleName xml:lang="en">Minister for Higher Education and Science</roleName>
       </affiliation>
-       <affiliation ref="#ParlaMint-DK-GOV" role="minister" from="2016-11-28" to="2019-06-26" ana="#FT.16">
+       <affiliation role="minister" ref="#ParlaMint-DK-GOV" from="2016-11-28" to="2019-06-05" ana="#FT.16">
         <roleName xml:lang="da">Minister for udviklingssamarbejde</roleName>
         <roleName xml:lang="en">Minister for Development Cooperation</roleName>
       </affiliation>
@@ -4519,8 +5016,9 @@
       <affiliation role="member" ref="#FT" from="2011-09-15"/>
   </person>
 </listPerson>
- 
-  </particDesc>
+  
+    
+   </particDesc>
   <langUsage>
    <language ident="da" xml:lang="da">Dansk</language>
    <language ident="en" xml:lang="da">Engelsk</language>
@@ -4528,701 +5026,10 @@
    <language ident="en" xml:lang="en">English</language>
  </langUsage>
 </profileDesc>
-</teiHeader>
-	<!--
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-10-07-20141-M1.xml"/>
-	-->
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-10-08-20141-M2.xml"/>
-	<!--
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-10-09-20141-M3.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-10-10-20141-M4.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-10-21-20141-M5.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-10-22-20141-M6.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-10-23-20141-M7.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-10-24-20141-M8.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-10-30-20141-M9.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-10-31-20141-M10.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-10-31-20141-M11.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-11-04-20141-M12.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-11-05-20141-M13.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-11-06-20141-M14.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-11-07-20141-M15.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-11-11-20141-M16.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-11-12-20141-M17.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-11-13-20141-M18.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-11-14-20141-M19.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-11-18-20141-M20.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-11-19-20141-M21.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-11-20-20141-M22.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-11-21-20141-M23.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-11-25-20141-M24.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-11-26-20141-M25.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-11-27-20141-M26.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-11-28-20141-M27.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-12-02-20141-M28.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-12-03-20141-M29.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-12-04-20141-M30.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-12-05-20141-M31.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-12-09-20141-M32.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-12-10-20141-M33.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-12-11-20141-M34.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-12-12-20141-M35.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-12-16-20141-M36.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-12-17-20141-M37.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-12-18-20141-M38.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-12-19-20141-M39.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-01-13-20141-M40.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-01-14-20141-M41.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-01-15-20141-M42.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-01-16-20141-M43.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-01-20-20141-M44.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-01-21-20141-M45.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-01-22-20141-M46.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-01-23-20141-M47.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-01-27-20141-M48.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-01-28-20141-M49.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-01-29-20141-M50.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-02-03-20141-M51.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-02-04-20141-M52.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-02-05-20141-M53.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-02-06-20141-M54.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-02-17-20141-M55.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-02-18-20141-M56.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-02-19-20141-M57.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-02-24-20141-M58.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-02-25-20141-M59.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-02-26-20141-M60.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-02-27-20141-M61.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-03-10-20141-M62.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-03-11-20141-M63.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-03-17-20141-M64.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-03-18-20141-M65.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-03-19-20141-M66.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-03-20-20141-M67.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-03-24-20141-M68.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-03-25-20141-M69.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-03-26-20141-M70.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-03-27-20141-M71.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-04-07-20141-M72.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-04-08-20141-M73.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-04-09-20141-M74.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-04-10-20141-M75.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-04-14-20141-M76.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-04-15-20141-M77.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-04-16-20141-M78.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-04-17-20141-M79.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-04-21-20141-M80.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-04-22-20141-M81.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-04-24-20141-M82.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-04-28-20141-M83.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-04-29-20141-M84.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-04-30-20141-M85.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-05-05-20141-M86.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-05-06-20141-M87.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-05-07-20141-M88.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-05-08-20141-M89.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-05-12-20141-M90.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-05-12-20141-M91.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-05-13-20141-M92.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-05-19-20141-M93.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-05-20-20141-M94.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-05-21-20141-M95.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-05-22-20141-M96.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-05-26-20141-M97.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-05-27-20141-M98.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-07-02-20142-M1.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-07-03-20142-M2.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-07-03-20142-M3.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-07-09-20142-M4.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-08-21-20142-M5.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-08-26-20142-M6.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-10-06-20151-M1.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-10-07-20151-M2.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-10-08-20151-M3.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-10-20-20151-M4.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-10-21-20151-M5.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-10-22-20151-M6.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-10-23-20151-M7.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-10-29-20151-M8.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-10-30-20151-M9.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-11-03-20151-M10.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-11-04-20151-M11.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-11-05-20151-M12.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-11-06-20151-M13.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-11-10-20151-M14.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-11-11-20151-M15.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-11-12-20151-M16.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-11-13-20151-M17.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-11-16-20151-M18.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-11-17-20151-M19.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-11-18-20151-M20.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-11-18-20151-M21.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-11-19-20151-M22.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-11-20-20151-M23.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-11-20-20151-M24.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-11-20-20151-M25.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-12-04-20151-M26.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-12-08-20151-M27.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-12-09-20151-M28.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-12-10-20151-M29.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-12-11-20151-M30.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-12-15-20151-M31.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-12-16-20151-M32.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-12-17-20151-M33.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-12-18-20151-M34.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2015-12-21-20151-M35.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-01-12-20151-M36.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-01-13-20151-M37.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-01-14-20151-M38.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-01-15-20151-M39.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-01-19-20151-M40.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-01-20-20151-M41.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-01-21-20151-M42.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-01-22-20151-M43.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-01-26-20151-M44.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-01-27-20151-M45.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-01-28-20151-M46.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-02-02-20151-M47.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-02-03-20151-M48.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-02-04-20151-M49.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-02-05-20151-M50.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-02-09-20151-M51.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-02-10-20151-M52.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-02-11-20151-M53.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-02-12-20151-M54.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-02-23-20151-M55.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-02-24-20151-M56.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-02-25-20151-M57.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-02-26-20151-M58.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-03-01-20151-M59.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-03-02-20151-M60.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-03-03-20151-M61.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-03-04-20151-M62.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-03-15-20151-M63.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-03-16-20151-M64.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-03-17-20151-M65.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-03-18-20151-M66.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-03-29-20151-M67.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-03-30-20151-M68.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-03-31-20151-M69.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-04-01-20151-M70.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-04-05-20151-M71.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-04-06-20151-M72.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-04-08-20151-M73.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-04-12-20151-M74.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-04-13-20151-M75.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-04-14-20151-M76.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-04-15-20151-M77.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-04-19-20151-M78.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-04-20-20151-M79.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-04-21-20151-M80.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-04-26-20151-M81.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-04-27-20151-M82.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-04-28-20151-M83.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-04-29-20151-M84.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-05-03-20151-M85.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-05-03-20151-M86.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-05-03-20151-M87.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-05-03-20151-M88.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-05-04-20151-M89.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-05-09-20151-M90.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-05-10-20151-M91.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-05-11-20151-M92.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-05-12-20151-M93.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-05-13-20151-M94.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-05-17-20151-M95.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-05-18-20151-M96.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-05-19-20151-M97.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-05-20-20151-M98.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-05-23-20151-M99.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-05-24-20151-M100.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-05-25-20151-M101.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-05-26-20151-M102.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-05-27-20151-M103.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-05-31-20151-M104.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-05-31-20151-M105.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-06-01-20151-M106.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-06-02-20151-M107.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-06-03-20151-M108.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-08-15-20151-M109.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-08-17-20151-M110.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-08-19-20151-M111.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-09-06-20151-M112.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-10-04-20161-M1.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-10-05-20161-M2.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-10-06-20161-M3.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-10-11-20161-M4.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-10-12-20161-M5.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-10-13-20161-M6.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-10-14-20161-M7.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-10-25-20161-M8.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-10-26-20161-M9.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-10-27-20161-M10.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-10-28-20161-M11.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-11-08-20161-M12.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-11-09-20161-M13.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-11-10-20161-M14.xml"/>
-    -->
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-11-11-20161-M15.xml"/>
-	<!--
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-11-15-20161-M16.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-11-16-20161-M17.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-11-17-20161-M18.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-11-18-20161-M19.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-11-22-20161-M20.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-11-23-20161-M21.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-11-24-20161-M22.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-11-25-20161-M23.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-11-29-20161-M24.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-11-30-20161-M25.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-12-01-20161-M26.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-12-02-20161-M27.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-12-05-20161-M28.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-12-06-20161-M29.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-12-06-20161-M30.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-12-07-20161-M31.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-12-08-20161-M32.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-12-08-20161-M33.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-12-09-20161-M34.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-12-13-20161-M35.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-12-14-20161-M36.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-12-15-20161-M37.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-12-16-20161-M38.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-12-19-20161-M39.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-01-10-20161-M40.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-01-11-20161-M41.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-01-12-20161-M42.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-01-13-20161-M43.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-01-17-20161-M44.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-01-18-20161-M45.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-01-19-20161-M46.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-01-20-20161-M47.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-01-24-20161-M48.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-01-25-20161-M49.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-01-26-20161-M50.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-01-27-20161-M51.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-01-31-20161-M52.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-02-01-20161-M53.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-02-02-20161-M54.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-02-03-20161-M55.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-02-07-20161-M56.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-02-08-20161-M57.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-02-09-20161-M58.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-02-10-20161-M59.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-02-21-20161-M60.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-02-22-20161-M61.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-02-23-20161-M62.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-02-24-20161-M63.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-02-28-20161-M64.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-03-01-20161-M65.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-03-02-20161-M66.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-03-03-20161-M67.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-03-14-20161-M68.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-03-15-20161-M69.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-03-21-20161-M70.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-03-22-20161-M71.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-03-23-20161-M72.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-03-24-20161-M73.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-03-28-20161-M74.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-03-29-20161-M75.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-03-30-20161-M76.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-03-31-20161-M77.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-04-04-20161-M78.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-04-05-20161-M79.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-04-07-20161-M80.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-04-18-20161-M81.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-04-19-20161-M82.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-04-20-20161-M83.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-04-21-20161-M84.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-04-25-20161-M85.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-04-26-20161-M86.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-04-27-20161-M87.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-04-27-20161-M88.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-04-28-20161-M89.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-05-02-20161-M90.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-05-03-20161-M91.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-05-04-20161-M92.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-05-05-20161-M93.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-05-09-20161-M94.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-05-10-20161-M95.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-05-11-20161-M96.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-05-16-20161-M97.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-05-17-20161-M98.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-05-18-20161-M99.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-05-19-20161-M100.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-05-23-20161-M101.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-05-24-20161-M102.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-05-29-20161-M103.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-05-30-20161-M104.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-05-31-20161-M105.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-06-01-20161-M106.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-06-02-20161-M107.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-06-02-20161-M108.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-06-14-20161-M109.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-06-14-20161-M110.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-09-06-20161-M111.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-09-07-20161-M112.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-10-03-20171-M1.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-10-04-20171-M2.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-10-05-20171-M3.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-10-10-20171-M4.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-10-11-20171-M5.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-10-12-20171-M6.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-10-13-20171-M7.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-10-24-20171-M8.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-10-25-20171-M9.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-10-26-20171-M10.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-10-27-20171-M11.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-11-02-20171-M12.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-11-03-20171-M13.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-11-07-20171-M14.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-11-08-20171-M15.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-11-09-20171-M16.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-11-10-20171-M17.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-11-14-20171-M18.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-11-15-20171-M19.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-11-16-20171-M20.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-11-22-20171-M21.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-11-23-20171-M22.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-11-24-20171-M23.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-11-28-20171-M24.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-11-29-20171-M25.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-11-30-20171-M26.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-12-01-20171-M27.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-12-05-20171-M28.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-12-06-20171-M29.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-12-07-20171-M30.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-12-08-20171-M31.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-12-12-20171-M32.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-12-13-20171-M33.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-12-14-20171-M34.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-12-15-20171-M35.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-12-19-20171-M36.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-12-20-20171-M37.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-12-22-20171-M38.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2017-12-22-20171-M39.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-01-09-20171-M40.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-01-10-20171-M41.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-01-11-20171-M42.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-01-12-20171-M43.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-01-16-20171-M44.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-01-17-20171-M45.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-01-18-20171-M46.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-01-19-20171-M47.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-01-23-20171-M48.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-01-24-20171-M49.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-01-25-20171-M50.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-01-26-20171-M51.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-01-30-20171-M52.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-01-31-20171-M53.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-02-01-20171-M54.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-02-02-20171-M55.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-02-06-20171-M56.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-02-07-20171-M57.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-02-08-20171-M58.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-02-09-20171-M59.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-02-20-20171-M60.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-02-21-20171-M61.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-02-22-20171-M62.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-02-23-20171-M63.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-02-27-20171-M64.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-02-28-20171-M65.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-03-01-20171-M66.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-03-02-20171-M67.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-03-13-20171-M68.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-03-14-20171-M69.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-03-15-20171-M70.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-03-16-20171-M71.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-03-20-20171-M72.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-03-21-20171-M73.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-03-23-20171-M74.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-04-03-20171-M75.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-04-04-20171-M76.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-04-05-20171-M77.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-04-06-20171-M78.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-04-10-20171-M79.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-04-11-20171-M80.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-04-12-20171-M81.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-04-13-20171-M82.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-04-17-20171-M83.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-04-18-20171-M84.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-04-19-20171-M85.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-04-20-20171-M86.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-04-24-20171-M87.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-04-25-20171-M88.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-04-26-20171-M89.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-05-02-20171-M90.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-05-03-20171-M91.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-05-04-20171-M92.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-05-08-20171-M93.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-05-09-20171-M94.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-05-15-20171-M95.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-05-16-20171-M96.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-05-17-20171-M97.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-05-18-20171-M98.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-05-22-20171-M99.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-05-23-20171-M100.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-05-24-20171-M101.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-05-25-20171-M102.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-05-29-20171-M103.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-05-30-20171-M104.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-05-31-20171-M105.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-06-01-20171-M106.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-06-04-20171-M107.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-09-06-20171-M108.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-10-02-20181-M1.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-10-03-20181-M2.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-10-04-20181-M3.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-10-09-20181-M4.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-10-10-20181-M5.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-10-11-20181-M6.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-10-12-20181-M7.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-10-23-20181-M8.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-10-24-20181-M9.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-10-25-20181-M10.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-10-26-20181-M11.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-11-01-20181-M12.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-11-02-20181-M13.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-11-06-20181-M14.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-11-07-20181-M15.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-11-08-20181-M16.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-11-09-20181-M17.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-11-13-20181-M18.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-11-14-20181-M19.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-11-15-20181-M20.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-11-16-20181-M21.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-11-20-20181-M22.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-11-21-20181-M23.xml"/>
-    -->
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-11-22-20181-M24.xml"/>
-	<!--
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-11-23-20181-M25.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-11-27-20181-M26.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-11-28-20181-M27.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-11-29-20181-M28.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-11-30-20181-M29.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-12-04-20181-M30.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-12-05-20181-M31.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-12-06-20181-M32.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-12-07-20181-M33.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-12-11-20181-M34.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-12-12-20181-M35.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-12-13-20181-M36.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-12-14-20181-M37.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-12-18-20181-M38.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-12-19-20181-M39.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-12-20-20181-M40.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-01-08-20181-M41.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-01-09-20181-M42.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-01-10-20181-M43.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-01-11-20181-M44.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-01-15-20181-M45.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-01-16-20181-M46.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-01-17-20181-M47.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-01-18-20181-M48.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-01-22-20181-M49.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-01-23-20181-M50.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-01-24-20181-M51.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-01-25-20181-M52.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-01-29-20181-M53.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-01-30-20181-M54.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-01-31-20181-M55.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-02-01-20181-M56.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-02-05-20181-M57.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-02-06-20181-M58.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-02-07-20181-M59.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-02-08-20181-M60.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-02-19-20181-M61.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-02-20-20181-M62.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-02-21-20181-M63.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-02-22-20181-M64.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-02-26-20181-M65.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-02-27-20181-M66.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-02-28-20181-M67.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-03-01-20181-M68.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-03-12-20181-M69.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-03-13-20181-M70.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-03-14-20181-M71.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-03-15-20181-M72.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-03-19-20181-M73.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-03-20-20181-M74.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-03-26-20181-M75.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-03-27-20181-M76.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-03-28-20181-M77.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-03-29-20181-M78.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-04-02-20181-M79.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-04-03-20181-M80.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-04-04-20181-M81.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-04-05-20181-M82.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-04-09-20181-M83.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-04-10-20181-M84.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-04-12-20181-M85.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-04-23-20181-M86.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-04-24-20181-M87.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-04-25-20181-M88.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-04-26-20181-M89.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-04-30-20181-M90.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-05-02-20181-M91.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-05-03-20181-M92.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-05-07-20181-M93.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-06-20-20182-M1.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-06-21-20182-M2.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-06-25-20182-M3.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-07-04-20182-M4.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-08-13-20182-M5.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-08-28-20182-M6.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-09-10-20182-M7.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-09-12-20182-M8.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-10-01-20191-M1.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-10-02-20191-M2.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-10-03-20191-M3.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-10-08-20191-M4.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-10-09-20191-M5.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-10-10-20191-M6.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-10-11-20191-M7.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-10-22-20191-M8.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-10-23-20191-M9.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-10-24-20191-M10.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-10-24-20191-M11.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-10-25-20191-M12.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-10-31-20191-M13.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-11-01-20191-M14.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-11-05-20191-M15.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-11-06-20191-M16.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-11-07-20191-M17.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-11-12-20191-M18.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-11-13-20191-M19.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-11-14-20191-M20.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-11-15-20191-M21.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-11-19-20191-M22.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-11-20-20191-M23.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-11-21-20191-M24.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-11-22-20191-M25.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-11-26-20191-M26.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-11-27-20191-M27.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-11-28-20191-M28.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-11-29-20191-M29.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-12-03-20191-M30.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-12-04-20191-M31.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-12-05-20191-M32.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-12-06-20191-M33.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-12-10-20191-M34.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-12-11-20191-M35.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-12-12-20191-M36.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-12-13-20191-M37.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-12-17-20191-M38.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-12-18-20191-M39.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-12-19-20191-M40.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2019-12-20-20191-M41.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-01-07-20191-M42.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-01-08-20191-M43.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-01-09-20191-M44.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-01-10-20191-M45.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-01-14-20191-M46.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-01-15-20191-M47.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-01-16-20191-M48.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-01-17-20191-M49.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-01-21-20191-M50.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-01-22-20191-M51.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-01-23-20191-M52.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-01-24-20191-M53.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-01-28-20191-M54.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-01-29-20191-M55.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-01-30-20191-M56.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-01-31-20191-M57.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-02-04-20191-M58.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-02-05-20191-M59.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-02-06-20191-M60.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-02-07-20191-M61.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-02-18-20191-M62.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-02-19-20191-M63.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-02-20-20191-M64.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-02-25-20191-M65.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-02-26-20191-M66.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-02-27-20191-M67.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-02-28-20191-M68.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-03-10-20191-M69.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-03-11-20191-M70.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-03-12-20191-M71.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-03-12-20191-M72.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-03-12-20191-M73.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-03-12-20191-M74.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-03-13-20191-M75.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-03-13-20191-M76.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-03-17-20191-M77.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-03-17-20191-M78.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-03-19-20191-M80.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-03-19-20191-M81.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-03-24-20191-M82.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-03-24-20191-M83.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-03-26-20191-M84.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-03-26-20191-M85.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-03-31-20191-M86.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-03-31-20191-M87.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-03-31-20191-M88.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-03-31-20191-M89.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-04-02-20191-M90.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-04-02-20191-M91.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-04-14-20191-M92.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-04-16-20191-M93.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-04-21-20191-M94.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-04-21-20191-M95.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-04-22-20191-M96.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-04-23-20191-M97.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-04-24-20191-M98.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-04-28-20191-M100.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-04-28-20191-M99.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-04-29-20191-M101.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-04-30-20191-M102.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-04-30-20191-M103.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-05-05-20191-M104.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-05-06-20191-M105.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-05-07-20191-M106.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-05-12-20191-M107.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-05-13-20191-M108.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-05-14-20191-M109.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-05-14-20191-M110.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-05-15-20191-M111.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-05-19-20191-M112.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-05-19-20191-M113.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-05-20-20191-M114.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-05-20-20191-M115.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-05-26-20191-M116.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-05-27-20191-M117.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-05-28-20191-M118.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-05-29-20191-M119.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-06-02-20191-M120.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-06-03-20191-M121.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-06-04-20191-M122.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-06-04-20191-M123.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-06-09-20191-M124.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-06-09-20191-M125.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-06-10-20191-M126.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-06-11-20191-M127.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-06-12-20191-M128.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-06-16-20191-M129.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-06-16-20191-M130.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-06-17-20191-M131.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-06-18-20191-M132.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-06-19-20191-M133.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-06-22-20191-M134.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-06-23-20191-M135.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-06-24-20191-M136.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-06-25-20191-M137.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-06-25-20191-M138.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-08-11-20191-M139.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-08-12-20191-M140.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-08-17-20191-M141.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-08-17-20191-M142.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-08-31-20191-M143.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-09-04-20191-M144.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-09-07-20191-M145.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-09-08-20191-M146.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-09-10-20191-M147.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-09-10-20191-M148.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-09-22-20191-M149.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-09-24-20191-M150.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-09-29-20191-M151.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2020-09-29-20191-M152.xml"/>
-    -->
+
+ </teiHeader>
+
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2014-10-08-20141-M2.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2016-11-11-20161-M15.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DK_2018-11-22-20181-M24.xml"/>
 </teiCorpus>
