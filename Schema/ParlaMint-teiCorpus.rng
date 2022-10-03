@@ -12,8 +12,7 @@
   <include href="ParlaMint-TEI.rng">
     
     <start>
-      <a:documentation>Root element of a ParlaMint root
-      file.</a:documentation>
+      <a:documentation>Root element of a ParlaMint root file.</a:documentation>
       <element name="teiCorpus">
 	<ref name="id.att"/>
 	<attribute name="xml:lang">
@@ -181,62 +180,7 @@
 	<ref name="head"/>
       </zeroOrMore>
       <oneOrMore>
-	<element name="org">
-	  <ref name="global.atts"/>
-	  <optional>
-	    <ref name="ana.att"/>
-	  </optional>
-	  <attribute name="role">
-	    <choice>
-              <value>government</value>
-              <value>parliament</value>
-              <value>politicalParty</value>
-	      <value>parliamentaryGroup</value>
-	      <a:documentation>The following used only by LT:</a:documentation>
-              <value>conferenceOfChairs</value>
-              <value>boardOfParliament</value>
-	      <a:documentation>The following used only by BG:</a:documentation>
-              <value>coalition</value>
-              <value>ngo</value>
-	      <a:documentation>The following used only by CZ:</a:documentation>
-	      <value>institution</value>
-	      <value>senate</value>
-	      <value>committee</value>
-	      <value>subcommittee</value>
-	      <value>commission</value>
-	      <value>delegation</value>
-	      <value>supervisoryBoard</value>
-	      <value>workingGroup</value>
-	      <value>interparliamentaryFriendshipGroup</value>
-	      <value>nationalCouncil</value>
-	      <value>chamberOfThePeople</value>
-	      <value>chamberOfTheNations</value>
-	      <value>europeanParliament</value>
-	      <value>internationalOrganisation</value>
-	      <value>boardOfDirectors</value>
-	      <a:documentation>The following used only by SI:</a:documentation>
-              <value>ethnicCommunity</value>
-	      <a:documentation>The following used only by AT:</a:documentation>
-	      <value>europeanCommission</value>
-	      <value>europeanInstitution</value>
-	    </choice>
-	  </attribute>
-	  <oneOrMore>
-	    <ref name="orgName"/>
-	  </oneOrMore>
-	  <zeroOrMore>
-	    <ref name="event"/>
-	  </zeroOrMore>
-	  <zeroOrMore>
-	    <ref name="idno"/>
-	  </zeroOrMore>
-	  <optional>
-	    <ref name="desc"/>
-	  </optional>
-	  <optional>
-	    <ref name="listEvent"/>
-	  </optional>
-	</element>
+	<ref name="org"/>
       </oneOrMore>
       <optional>
 	<ref name="listRelation"/>
@@ -244,6 +188,68 @@
     </element>
   </define>
 
+  <define name="org">
+    <element name="org">
+      <ref name="global.atts"/>
+      <optional>
+	<ref name="ana.att"/>
+      </optional>
+      <attribute name="role">
+	<choice>
+          <value>government</value>
+          <value>parliament</value>
+          <value>politicalParty</value>
+	  <value>parliamentaryGroup</value>
+	  <a:documentation>The following used only by LT:</a:documentation>
+          <value>conferenceOfChairs</value>
+          <value>boardOfParliament</value>
+	  <a:documentation>The following used only by BG:</a:documentation>
+          <value>coalition</value>
+          <value>ngo</value>
+	  <a:documentation>The following used only by CZ:</a:documentation>
+	  <value>institution</value>
+	  <value>senate</value>
+	  <value>committee</value>
+	  <value>subcommittee</value>
+	  <value>commission</value>
+	  <value>delegation</value>
+	  <value>supervisoryBoard</value>
+	  <value>workingGroup</value>
+	  <value>interparliamentaryFriendshipGroup</value>
+	  <value>nationalCouncil</value>
+	  <value>chamberOfThePeople</value>
+	  <value>chamberOfTheNations</value>
+	  <value>europeanParliament</value>
+	  <value>internationalOrganisation</value>
+	  <value>boardOfDirectors</value>
+	  <a:documentation>The following used only by SI:</a:documentation>
+          <value>ethnicCommunity</value>
+	  <a:documentation>The following used only by AT:</a:documentation>
+	  <value>europeanCommission</value>
+	  <value>europeanInstitution</value>
+	</choice>
+      </attribute>
+      <oneOrMore>
+	<ref name="orgName"/>
+      </oneOrMore>
+      <zeroOrMore>
+	<ref name="event"/>
+      </zeroOrMore>
+      <zeroOrMore>
+	<ref name="idno"/>
+      </zeroOrMore>
+      <optional>
+	<ref name="desc"/>
+      </optional>
+      <optional>
+	<ref name="listEvent"/>
+      </optional>
+      <optional>
+	<ref name="state"/>
+      </optional>
+    </element>
+  </define>
+  
   <define name="orgName">
     <element name="orgName">
       <ref name="lang.att"/>
@@ -258,6 +264,61 @@
 	</choice>
       </attribute>
       <text/>
+    </element>
+  </define>
+  
+  <define name="state">
+    <a:documentation>Element defining the political orientation of a politicalParty or
+    parliamentaryGroup.</a:documentation>
+    <element name="state">
+      <attribute name="type">
+	<value>politicalOrientation</value>
+      </attribute>
+      <attribute name="subtype">
+	<choice>
+	  <value>CHES</value>
+	  <value>Wikipedia</value>
+	  <value>unknown</value>
+	</choice>
+      </attribute>
+      <optional>
+	<attribute name="source">
+          <ref name="anyURIs"/>
+	</attribute>
+      </optional>
+      <optional>
+	<attribute name="n">
+	  <data type="decimal"/>
+	</attribute>
+      </optional>
+      <optional>
+	<attribute name="from">
+	  <ref name="temporal.val"/>
+	</attribute>
+      </optional>
+      <optional>
+	<attribute name="to">
+	  <ref name="temporal.val"/>
+	</attribute>
+      </optional>
+      <attribute name="ana">
+        <data type="anyURI"/>
+      </attribute>
+      <optional>
+	<element name="label">
+	  <element name="orgName">
+	    <attribute name="full">
+	      <value>init</value>
+	    </attribute>
+	    <text/>
+	  </element>
+	</element>
+      </optional>
+      <optional>
+	<element name="note">
+	  <text/>
+	</element>
+      </optional>
     </element>
   </define>
   
