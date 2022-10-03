@@ -21,8 +21,9 @@
 	<ref name="global.atts"/>
 	<oneOrMore>
 	  <choice>
-            <ref name="sentence"/>
             <ref name="comment"/>
+            <ref name="pb"/>
+            <ref name="sentence"/>
 	  </choice>
 	</oneOrMore>
       </element>
@@ -35,6 +36,7 @@
       <oneOrMore>
 	<choice>
           <ref name="comment"/>
+          <ref name="pb"/>
           <ref name="ner"/>
           <ref name="word"/>
           <ref name="punct"/>
@@ -116,8 +118,9 @@
       <choice>
         <ref name="word"/>
         <ref name="punct"/>
-        <ref name="ner"/>
 	<ref name="comment"/>
+        <ref name="pb"/>
+        <ref name="ner"/>
       </choice>
     </oneOrMore>
   </define>

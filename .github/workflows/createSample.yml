@@ -16,7 +16,7 @@ on:
 jobs:
   Changes:
     runs-on: ubuntu-latest
-    if: ${{ github.event_name == 'pull_request_target' && github.event.pull_request.merged == true }}
+    if: ${{ github.repository_owner == 'clarin-eric' && github.event_name == 'pull_request_target' && github.event.pull_request.merged == true }}
     outputs:
       parla_changed:  '${{ steps.detect-changes.outputs.parla_changed }}'
     steps:
