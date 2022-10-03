@@ -45,7 +45,7 @@
 	<term>Political orientation</term>
       </desc>
       <desc xml:lang="sl">
-	<term>Politčna orientacija</term>
+	<term>Politična orientacija</term>
       </desc>
       <category xml:id="orientation.L">
 	<catDesc xml:lang="en">
@@ -148,7 +148,7 @@
 	  <term>Right to far-right</term>
 	</catDesc>
 	<catDesc xml:lang="sl">
-	  <term>Desna do skrajne desna</term>
+	  <term>Desna do skrajno desna</term>
 	</catDesc>
       </category>
     </taxonomy>
