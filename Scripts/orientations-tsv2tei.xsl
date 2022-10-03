@@ -216,6 +216,22 @@
 	<xsl:apply-templates mode="insert"
 			     select="tei:org[@role = 'politicalParty' or @role = 'parliamentaryGroup']"/>
       </xsl:variable>
+      <xsl:message>
+	<xsl:text>INFO: </xsl:text>
+	<xsl:value-of select="count($parties/tei:org[tei:state[@type='politicalOrientation']])"/>
+	<xsl:text>/</xsl:text>
+	<xsl:value-of select="count($parties/tei:org)"/>
+	<xsl:text> assigned political orientation: </xsl:text>
+	<xsl:value-of select="count($parties/tei:org
+			      [tei:state[@subtype='CHES'] and not(tei:state[@subtype='Wikipedia'])])"/>
+	<xsl:text> CHES + </xsl:text>
+	<xsl:value-of select="count($parties/tei:org
+			      [not(tei:state[@subtype='CHES']) and tei:state[@subtype='Wikipedia']])"/>
+	<xsl:text> Wikipedia + </xsl:text>
+	<xsl:value-of select="count($parties/tei:org
+			      [tei:state[@subtype='CHES'] and tei:state[@subtype='Wikipedia']])"/>
+	<xsl:text> both</xsl:text>
+      </xsl:message>
       <xsl:copy-of select="$parties"/>
     </xsl:copy>
   </xsl:template>
@@ -242,10 +258,6 @@
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
       <xsl:copy-of select="tei:orgName"/>
-      <xsl:if test="tei:orgName[@full = 'abb'][ancestor-or-self::tei:*[@xml:id][1]/@xml:id != 'en']
-		    != $found//tei:orgName[@type = 'CHES']">
-	<xsl:copy-of select="$found//tei:orgName[@type = 'CHES']"/>
-      </xsl:if>
       <!-- Remove prior <state> elements -->
       <xsl:copy-of select="tei:*[not(self::tei:orgName or self::tei:state)]"/>
       <xsl:copy-of select="$found//tei:state"/>
@@ -337,9 +349,6 @@
 	<xsl:value-of select="$pm_id"/>
       </orgName>
       <xsl:if test="normalize-space($ches_id) and $ches_id != '0'">
-	<orgName type = "CHES" full="init">
-	  <xsl:value-of select="$ches_id"/>
-	</orgName>
 	<state type="politicalOrientation" subtype="CHES">
 	  <xsl:attribute name="source">
 	    <xsl:for-each select="$ches-source//tei:label">
@@ -358,6 +367,11 @@
 	  <xsl:if test="normalize-space($to) and $year &lt; $to">
 	    <xsl:attribute name="to" select="$to"/>
 	  </xsl:if>
+	  <label>
+	    <orgName full="init">
+	      <xsl:value-of select="$ches_id"/>
+	    </orgName>
+	  </label>
 	</state>
       </xsl:if>
       <xsl:if test="normalize-space($lr) and $lr != '0'">
@@ -376,7 +390,9 @@
 	    <xsl:value-of select="et:check-lr($lr)"/>
 	  </xsl:attribute>
 	  <xsl:if test="normalize-space($comment) and $comment != '0'">
-	    <xsl:value-of select="$comment"/>
+	    <note>
+	      <xsl:value-of select="$comment"/>
+	    </note>
 	  </xsl:if>
 	</state>
       </xsl:if>
