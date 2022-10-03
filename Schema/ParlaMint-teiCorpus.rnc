@@ -123,7 +123,7 @@ org =
     idno*,
     desc?,
     listEvent?,
-    state?
+    state*
   }
 orgName =
   element orgName {
@@ -146,13 +146,13 @@ state =
     attribute from { temporal.val }?,
     attribute to { temporal.val }?,
     attribute ana { xsd:anyURI },
-    element label {
-      element orgName {
-        attribute full { "init" },
-        text
-      }
-    }?,
-    element note { text }?
+    (element label {
+       element orgName {
+         attribute full { "init" },
+         text
+       }
+     }
+     | element note { text })?
   }
 listEvent = element listEvent { head*, event+ }
 

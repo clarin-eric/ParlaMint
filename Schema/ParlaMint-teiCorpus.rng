@@ -244,9 +244,9 @@
       <optional>
 	<ref name="listEvent"/>
       </optional>
-      <optional>
+      <zeroOrMore>
 	<ref name="state"/>
-      </optional>
+      </zeroOrMore>
     </element>
   </define>
   
@@ -305,19 +305,19 @@
         <data type="anyURI"/>
       </attribute>
       <optional>
-	<element name="label">
-	  <element name="orgName">
-	    <attribute name="full">
-	      <value>init</value>
-	    </attribute>
+	<choice>
+	  <element name="label">
+	    <element name="orgName">
+	      <attribute name="full">
+		<value>init</value>
+	      </attribute>
+	      <text/>
+	    </element>
+	  </element>
+	  <element name="note">
 	    <text/>
 	  </element>
-	</element>
-      </optional>
-      <optional>
-	<element name="note">
-	  <text/>
-	</element>
+	</choice>
       </optional>
     </element>
   </define>
