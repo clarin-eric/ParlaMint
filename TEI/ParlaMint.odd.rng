@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2022-09-27T12:23:37Z. 2022-07-27.
+Schema generated from ODD source 2022-10-04T09:54:54Z. 2022-07-27.
 TEI Edition: Version 4.5.0a. Last updated on
         1st June 2022, revision aeba95253
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.5.0a./
@@ -1208,7 +1208,10 @@ Measures]</a:documentation>
    <define name="tei_label">
       <element name="label">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(label) contains any label or heading used to identify part of a text, typically but not exclusively in a list or glossary. [3.8. Lists]</a:documentation>
-         <text/>
+         <choice>
+            <text/>
+            <ref name="tei_orgName"/>
+         </choice>
          <ref name="tei_att.global.attribute.xmllang"/>
          <empty/>
       </element>

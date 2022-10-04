@@ -12,7 +12,7 @@ namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 namespace xsl = "http://www.w3.org/1999/XSL/Transform"
 
-# Schema generated from ODD source 2022-09-27T12:23:41Z. 2022-07-27.
+# Schema generated from ODD source 2022-10-04T09:54:58Z. 2022-07-27.
 # TEI Edition: Version 4.5.0a. Last updated on
 #         1st June 2022, revision aeba95253
 # TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.5.0a./
@@ -780,7 +780,9 @@ tei_ref =
 tei_label =
   
   ## (label) contains any label or heading used to identify part of a text, typically but not exclusively in a list or glossary. [3.8. Lists]
-  element label { text, tei_att.global.attribute.xmllang, empty }
+  element label {
+    (text | tei_orgName), tei_att.global.attribute.xmllang, empty
+  }
 tei_head =
   
   ## (heading) contains any type of heading, for example the title of a section, or the heading of a list, glossary, manuscript description, etc. [4.2.1. Headings and Trailers]

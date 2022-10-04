@@ -4825,7 +4825,10 @@
       <desc versionDate="2011-11-05" xml:lang="en">contains any label or heading used to identify part of a text,
     typically but not exclusively in a list or glossary.</desc>
       <content>
-         <textNode/>
+         <alternate>
+            <textNode/>
+            <elementRef key="orgName"/>
+         </alternate>
       </content>
       <attList><!--label/@xml:lang-->
          <attDef ident="xml:id" mode="delete"/>
@@ -5385,6 +5388,7 @@
             <elementRef key="idno" minOccurs="0" maxOccurs="unbounded"/>
             <elementRef key="desc" minOccurs="0" maxOccurs="1"/>
             <elementRef key="listEvent" minOccurs="0" maxOccurs="1"/>
+            <elementRef key="state" minOccurs="0" maxOccurs="unbounded"/>
          </sequence>
       </content>
       <attList>
@@ -5786,6 +5790,151 @@
                       to="2017-10-26"/>
          </egXML>
       </exemplum>
+   </elementSpec>
+   <elementSpec ident="state" module="namesdates" mode="change">
+      <desc versionDate="2022-10-04" xml:lang="en">defines the political orientation of a political party or parliamentary group. The orientation can be taken from CHES, Wikipedia or an unknown source.</desc>
+      <content>
+         <alternate>
+            <elementRef key="label"/>
+            <elementRef key="note"/>
+         </alternate>
+      </content>
+      <attList>
+         <attDef ident="type" mode="change" usage="req">
+            <valList type="closed">
+               <valItem ident="politicalOrientation"/>
+            </valList>
+         </attDef>
+         <attDef ident="subtype" mode="change" usage="req">
+            <valList type="closed">
+               <valItem ident="CHES"/>
+               <valItem ident="Wikipedia"/>
+               <valItem ident="unknown"/>
+            </valList>
+         </attDef>
+         <attDef ident="ana" mode="change" usage="req">
+            <datatype>
+               <dataRef key="teidata.pointer"/>
+            </datatype>
+         </attDef>
+         <!--state/@source-->
+         <!--state/@n-->
+         <!--state/@from-->
+         <!--state/@to-->
+         <attDef ident="xml:id" mode="delete"/>
+         <attDef ident="xml:lang" mode="delete"/>
+         <attDef ident="xml:base" mode="delete"/>
+         <attDef ident="xml:space" mode="delete"/>
+         <attDef ident="rend" mode="delete"/>
+         <attDef ident="style" mode="delete"/>
+         <attDef ident="rendition" mode="delete"/>
+         <attDef ident="corresp" mode="delete"/>
+         <attDef ident="synch" mode="delete"/>
+         <attDef ident="sameAs" mode="delete"/>
+         <attDef ident="copyOf" mode="delete"/>
+         <attDef ident="next" mode="delete"/>
+         <attDef ident="prev" mode="delete"/>
+         <attDef ident="exclude" mode="delete"/>
+         <attDef ident="select" mode="delete"/>
+         <attDef ident="facs" mode="delete"/>
+         <attDef ident="change" mode="delete"/>
+         <attDef ident="cert" mode="delete"/>
+         <attDef ident="resp" mode="delete"/>
+         <attDef ident="calendar" mode="delete"/>
+         <attDef ident="period" mode="delete"/>
+         <attDef ident="when" mode="delete"/>
+         <attDef ident="notBefore" mode="delete"/>
+         <attDef ident="notAfter" mode="delete"/>
+         <attDef ident="when-iso" mode="delete"/>
+         <attDef ident="notBefore-iso" mode="delete"/>
+         <attDef ident="notAfter-iso" mode="delete"/>
+         <attDef ident="from-iso" mode="delete"/>
+         <attDef ident="to-iso" mode="delete"/>
+         <attDef ident="when-custom" mode="delete"/>
+         <attDef ident="notBefore-custom" mode="delete"/>
+         <attDef ident="notAfter-custom" mode="delete"/>
+         <attDef ident="from-custom" mode="delete"/>
+         <attDef ident="to-custom" mode="delete"/>
+         <attDef ident="datingPoint" mode="delete"/>
+         <attDef ident="datingMethod" mode="delete"/>
+         <attDef ident="evidence" mode="delete"/>
+         <attDef ident="instant" mode="delete"/>
+         <attDef ident="role" mode="delete"/>
+         <attDef ident="nymRef" mode="delete"/>
+         <attDef ident="key" mode="delete"/>
+         <attDef ident="ref" mode="delete"/>
+         <attDef ident="unit" mode="delete"/>
+         <attDef ident="quantity" mode="delete"/>
+         <attDef ident="extent" mode="delete"/>
+         <attDef ident="precision" mode="delete"/>
+         <attDef ident="scope" mode="delete"/>
+         <attDef ident="atLeast" mode="delete"/>
+         <attDef ident="atMost" mode="delete"/>
+         <attDef ident="min" mode="delete"/>
+         <attDef ident="max" mode="delete"/>
+         <attDef ident="confidence" mode="delete"/>
+      </attList>
+      <exemplum xml:lang="en">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <state ref="#SCHOL" type="status">
+               <label>scholar</label>
+            </state>
+         </egXML>
+      </exemplum>
+      <exemplum xml:lang="en">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <org>
+               <orgName notAfter="1960">The Silver Beetles</orgName>
+               <orgName notBefore="1960">The Beatles</orgName>
+               <state type="membership" from="1960-08" to="1962-05">
+                  <desc>
+                     <persName>John Lennon</persName>
+                     <persName>Paul McCartney</persName>
+                     <persName>George Harrison</persName>
+                     <persName>Stuart Sutcliffe</persName>
+                     <persName>Pete Best</persName>
+                  </desc>
+               </state>
+               <state type="membership" notBefore="1963">
+                  <desc>
+                     <persName>John Lennon</persName>
+                     <persName>Paul McCartney</persName>
+                     <persName>George Harrison</persName>
+                     <persName>Ringo Starr</persName>
+                  </desc>
+               </state>
+            </org>
+         </egXML>
+      </exemplum>
+      <exemplum versionDate="2008-04-06" xml:lang="fr">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <state cert="high" type="social" from="1987-01-01" to="1997-12-31">
+               <label>Citoyenneté</label>
+               <desc>Entre 1987 et 1997a bénéficié du statut de citoyen naturalisé du ROYAUME-UNI</desc>
+            </state>
+         </egXML>
+      </exemplum>
+      <exemplum xml:lang="zh-TW">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <state ref="#zh-tw_SCHOL" type="status">
+               <label>學者</label>
+            </state>
+         </egXML>
+      </exemplum>
+      <remarks versionDate="2011-12-01" xml:lang="en">
+         <p>Where there is confusion between <gi>trait</gi> and <gi>state</gi> the more general purpose
+      element <gi>state</gi> should be used even for unchanging characteristics. If you wish to
+      distinguish between characteristics that are generally perceived to be time-bound states and
+      those assumed to be fixed traits, then <gi>trait</gi> is available for the more static of
+      these. The <gi>state</gi> element encodes characteristics which are sometimes assumed to
+      change, often at specific times or over a date range, whereas the <gi>trait</gi> elements are
+      used to record characteristics, such as eye-colour, which are less subject to change. Traits are typically, but not necessarily, 
+      independent of the volition or action of the holder.</p>
+      </remarks>
+      <listRef>
+         <ptr target="#NDPERSbp"/>
+         <ptr target="#NDPERSEpc"/>
+      </listRef>
    </elementSpec>
    <elementSpec ident="listPerson" module="namesdates" mode="change">
       <desc versionDate="2006-10-08" xml:lang="en">contains a list of descriptions, each of which provides information about an identifiable
@@ -6893,7 +7042,7 @@
       </exemplum>
    </elementSpec>
    <!-- So far appears nowhere! (even though it should be one of the CZ named entities  -->
-   <elementSpec module="spoken" ident="equipment">
+   <elementSpec ident="equipment" module="spoken">
       <gloss xml:lang="en" versionDate="2009-04-17">equipment</gloss>
       <desc versionDate="2005-01-14" xml:lang="en">provides technical details of the equipment and media used for
     an audio or video recording used as the source for a spoken text.</desc>
