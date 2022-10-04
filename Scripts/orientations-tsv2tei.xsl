@@ -164,7 +164,7 @@
 			tei:settingDesc/tei:setting/tei:name
 			[@type = 'country' or @type = 'region']/@key"/>
   
-  <!-- Parse TSV into a listOrg/org/state structures with pm_id as orgName[@full="init"] -->
+  <!-- Parse TSV into a listOrg/org/state structures with pm_id as orgName[@full="abb"] -->
   <!-- We still need to take care of doubled Wiki lines and that Wiki URL is given only once! -->
   <xsl:variable name="data">
     <xsl:variable name="temp">
@@ -345,7 +345,7 @@
     <xsl:param name="url"/>
     <xsl:param name="comment"/>
     <org>
-      <orgName type="PM" full="init">
+      <orgName type="PM" full="abb">
 	<xsl:value-of select="$pm_id"/>
       </orgName>
       <xsl:if test="normalize-space($ches_id) and $ches_id != '0'">
@@ -368,7 +368,7 @@
 	    <xsl:attribute name="to" select="$to"/>
 	  </xsl:if>
 	  <label>
-	    <orgName full="init">
+	    <orgName full="abb">
 	      <xsl:value-of select="$ches_id"/>
 	    </orgName>
 	  </label>
@@ -390,7 +390,7 @@
 	    <xsl:value-of select="et:check-lr($lr)"/>
 	  </xsl:attribute>
 	  <xsl:if test="normalize-space($comment) and $comment != '0'">
-	    <note>
+	    <note xml:lang="en">
 	      <xsl:value-of select="$comment"/>
 	    </note>
 	  </xsl:if>
