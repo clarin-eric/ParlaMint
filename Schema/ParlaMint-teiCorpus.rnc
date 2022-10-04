@@ -152,7 +152,7 @@ state =
          text
        }
      }
-     | element note { text })?
+     | element note { lang.att, text }+)?
   }
 listEvent = element listEvent { head*, event+ }
 
