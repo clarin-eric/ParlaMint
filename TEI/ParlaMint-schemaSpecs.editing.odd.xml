@@ -24,7 +24,7 @@
   <moduleRef key="spoken"
              include="equipment incident kinesic recording recordingStmt u vocal"/>
   <moduleRef key="namesdates"
-             include="addName affiliation birth death education event forename listEvent listOrg listPerson listRelation nameLink occupation org orgName persName person placeName relation roleName sex surname"/>
+             include="addName affiliation birth death education event forename listEvent listOrg listPerson listRelation nameLink occupation org orgName persName person placeName relation roleName sex state surname"/>
   <moduleRef key="linking"
 	     include="link linkGrp seg"/>
   <moduleRef key="figures"
@@ -3568,28 +3568,7 @@
       </state>
     </egXML>
   </exemplum>
-  <exemplum xml:lang="zh-TW">
-    <egXML xmlns="http://www.tei-c.org/ns/Examples">
-        <state ref="#zh-tw_SCHOL" type="status">
-          <label>學者</label>
-        </state>
-    </egXML>
-  </exemplum>
-  <remarks versionDate="2011-12-01" xml:lang="en">
-    <p>Where there is confusion between <gi>trait</gi> and <gi>state</gi> the more general purpose
-      element <gi>state</gi> should be used even for unchanging characteristics. If you wish to
-      distinguish between characteristics that are generally perceived to be time-bound states and
-      those assumed to be fixed traits, then <gi>trait</gi> is available for the more static of
-      these. The <gi>state</gi> element encodes characteristics which are sometimes assumed to
-      change, often at specific times or over a date range, whereas the <gi>trait</gi> elements are
-      used to record characteristics, such as eye-colour, which are less subject to change. Traits are typically, but not necessarily, 
-      independent of the volition or action of the holder.</p>
-  </remarks>
-  <listRef>
-    <ptr target="#NDPERSbp"/>
-    <ptr target="#NDPERSEpc"/>
-  </listRef>
-</elementSpec>
+  </elementSpec>
   <elementSpec ident="listPerson" module="namesdates" mode="change">
     <desc
         versionDate="2006-10-08"
