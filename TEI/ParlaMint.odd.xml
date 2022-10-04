@@ -1416,27 +1416,31 @@
 	    groups that represent political parties in the parliament (distinguished by the
 	    <att>role</att> <val>parliamentryGroup</val>). These organisations are linked to
 	    <gi>person</gi> elements (i.e. speakers) so that is known to which political party
-	    or parliamentary group the speaker belongs to in a certain moment of time.</p>
+	    or parliamentary group the speaker belongs to in a certain moment of time,
+	    as further explained in the <ref target="#sec-affiliation">Section on Speaker
+	    affiliations</ref>.</p>
 
 	    <p>ParlaMint does not require that a corpus must use both types of organisations,
-	    and the choice to use either political parties, parliamentary groups, or both is
+	    and the choice to use either political parties, parliamentary groups, or both, is
 	    left to the creators of the corpus.</p>
 
 	    <p>The introduction to this chapter already gave examples of how organisations are
-	    encoded, so we here only give examples of how their political orientation is
-	    encoded. The possibly categories of political orientation are given in a dedicated
-	    <q>politicalOrientation</q> taxonomy, and the <gi>state</gi> elements encoding the
-	    orientation refer to this taxonmy via the <att>ana</att> attribute.
+	    encoded in general, so we here only give examples of the encoding of the
+	    political orientation of political parties or parliamentary groups, which is encoded in the
+	    <gi>state</gi> element(s).
+	    The possible categories of political orientation are given in a dedicated
+	    <q>politicalOrientation</q> taxonomy, and the <gi>state</gi> element(s)
+	    refer to the categories of this taxonomy via the <att>ana</att> attribute.
+	    Note that <gi>state</gi> elements should be the last element(s) in the <gi>org</gi>,
+	    and that there can be several <gi>state</gi> elements, corresponding to different
+	    sources, and, in the case of CHES, to different years of the survey.</p> 
 
-	    In ParlaMint we distingish three types of sources that give the political
-	    orientation, namely the <ref target="https://www.chesdata.eu/ches-europe">Chapel
+	    <p>ParlaMint distingishes three types of sources that the specified political
+	    orientation is based on, namely the <ref target="https://www.chesdata.eu/ches-europe">Chapel
 	    Hill Expert Surveys for Europe</ref> (CHES); the pages of political parties from
 	    <ref target="https://en.wikipedia.org">Wikipeida</ref>; and unknown sources.  We
-	    exemplify the encoding of each of these sources in turn, starting from last (the
-	    simplest), to first (the most complicated). Note that one organisation can have
-	    several orientations (i.e. <gi>state</gi> elements) corresponding to different
-	    sources, and, in the case of CHES, to different years of the survey. Note also that the
-	    <gi>state</gi> elements should be the last elements in the <gi>org</gi>.</p>
+	    exemplify the encoding of each of these sources in turn, from last (the
+	    simplest), to first (the most complicated).</p>
 
 	    <p>If the source of the information for the political orientations is unknown,
 	    then the orientation is given as follows:
@@ -1447,9 +1451,10 @@
                   <event from="1995-01-01">
                      <label xml:lang="en">existence</label>
                   </event>
-                  <state type="politicalOrientation"
-                         subtype="unknown"
-                         ana="#orientation.L"/>
+                  <state type="politicalOrientation" subtype="unknown" ana="#orientation.L">
+                    <note xml:lang="en">Orientation determined by encoder, using own knowledge of the
+		    parliamentary group.</note>
+		  </state>
                </org>
 	      </egXML>
 	      As can be seen, the <gi>state</gi> element must be of <att>type</att>
@@ -1457,11 +1462,12 @@
 	      <val>unknown</val>. As mentioned, the <att>ana</att> attribute points to the
 	      political orientation taxonomy, which gives the valid types of categories for
 	      the political orientation, in this case the part is categories as being left
-	      oriented.
+	      oriented. Finally, it is possible (but not required) to give a comment
+	      (preferably in English) about the orientation in the <gi>note</gi> element.
 	    </p>
 	    
 	    <p>If the source of the information for the political orientations is Wikipedia, 
-	    then the <gi>state</gi> element is as follows:
+	    then the <gi>state</gi> element is encoded as follows:
 	    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-orientation-wiki">
               <state type="politicalOrientation"
                      subtype="Wikipedia"
@@ -1473,50 +1479,44 @@
 	    Here, the <att>subtype</att> has the value <val>Wikipedia</val>, while the
 	    Wikipedia URL of the political party or parliamentary group is given as the
 	    value of the <att>source</att> attribute. Note that in cases where the
-	    orientation for a parliamentary group was arrived at by consulting the Wikipedia
+	    orientation of a parliamentary group was arrived at by consulting the Wikipedia
 	    pages of its constituent political parties, the <att>source</att> attribute can
-	    contain the URLs of several political parties, separated by space. Finally, it
-	    is possible (but not required) to give any comments (preferably in English)
-	    about the orientation in the <gi>note</gi> element; a note can also be inserted
-	    into orientations with an unknown source.</p>
+	    contain the URLs of several political parties, separated by the space character.
+	    As with orientations with unknown sources, the optional <gi>note</gi> element can
+	    contain a comment on the orientation.</p>
 	    
 	    <p>Finally, if the source of the information CHES, then the orientation is encoded
 	    as follows:
 	    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-orientation-ches">
-              <state type="politicalOrientation"
-                     subtype="CHES"
+              <state type="politicalOrientation" subtype="CHES"
                      source="https://www.chesdata.eu/s/1999-2019_CHES_dataset_meansv3.csv"
-                     n="2.29"
-                     ana="#orientation.L"
-                     from="2010"
-                     to="2013">
+                     n="2.29" ana="#orientation.L"
+                     from="2010" to="2013">
                 <label>
                   <orgName full="init">Groen</orgName>
                 </label>
               </state>
-              <state type="politicalOrientation"
-                     subtype="CHES"
+              <state type="politicalOrientation" subtype="CHES"
                      source="https://www.chesdata.eu/s/1999-2019_CHES_dataset_meansv3.csv"
-                     n="2.20"
-                     ana="#orientation.L"
-                     from="2014"
-                     to="2018">
+                     n="2.20" ana="#orientation.L"
+                     from="2014" to="2018">
                 <label>
                   <orgName full="abb">Groen</orgName>
                 </label>
               </state>
 	    </egXML>
-	    Here, the <att>subtype</att> has the value <val>CHES</val>, while the URL form the
-	    CSV files from where the information was taken is the value of the
-	    <att>source</att> attribute. The orientation is calculated on the basis of the so
-	    called <q>LRGEN</q> column from the CHES CVS, and this value is recorded in the
-	    <att>n</att> attribute. Because the CHES gives values for each year that the
-	    surves as conducted we also store these years in the <att>from</att> (the year of
-	    the survey) and <att>to</att> (the year preceding the next survey) attributes.
-	    Finaly, the <gi>label</gi> contains the abbreviations of the name of the party as
-	    found in the CHES survey; in the example above the abbreviation is identical to the one
-	    from ParlaMint, but this is not generally the case, so the CHES abbreviation is, for
-	    verifiablitly, preserved in the encoding.</p>
+	    Here, the <att>subtype</att> has the value <val>CHES</val>, while the value of the
+	    <att>source</att> attribute is the URL form the CHES CSV files from where the
+	    information was taken.  The orientation (i.e. the value of <att>ana</att>) is
+	    calculated on the basis of the so called <q>LRGEN</q> column from the CHES CVS, and the
+	    LRGEN value (with 0 meaning extreme left, 5 center, and 10 extreme right) is recorded
+	    in the <att>n</att> attribute. Because the CHES gives values for each year that the
+	    surveys were conducted, we also store these years in the <att>from</att> (the year of
+	    the survey) and <att>to</att> (the year preceding the next survey) attributes.  Finaly,
+	    the <gi>label</gi> contains the CHES abbreviation of the name of the party; in the
+	    example above the abbreviation is identical to the one from ParlaMint but this is not
+	    generally the case, so the CHES abbreviation is, for verifiability, preserved in the
+	    encoding.</p>
 	  </div>
 	  
 	  <div xml:id="sec-relation">

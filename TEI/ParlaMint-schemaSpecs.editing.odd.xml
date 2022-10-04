@@ -3499,7 +3499,7 @@
   <content>
     <alternate>
       <elementRef key="label"/>
-      <elementRef key="note"/>
+      <elementRef key="note" minOccurs="0" maxOccurs="unbounded"/>
     </alternate>
   </content>
   <attList>
@@ -3527,41 +3527,44 @@
   </attList>
   <exemplum xml:lang="en">
     <egXML xmlns="http://www.tei-c.org/ns/Examples">
-      <state ref="#SCHOL" type="status">
-        <label>scholar</label>
-      </state>
+      <state type="politicalOrientation"
+             subtype="unknown"
+             ana="#orientation.L"/>
     </egXML>
   </exemplum>
   <exemplum xml:lang="en">
     <egXML xmlns="http://www.tei-c.org/ns/Examples">
-      <org>
-        <orgName notAfter="1960">The Silver Beetles</orgName>
-        <orgName notBefore="1960">The Beatles</orgName>
-        <state type="membership" from="1960-08" to="1962-05">
-          <desc>
-            <persName>John Lennon</persName>
-            <persName>Paul McCartney</persName>
-            <persName>George Harrison</persName>
-            <persName>Stuart Sutcliffe</persName>
-            <persName>Pete Best</persName>
-          </desc>
-        </state>
-        <state type="membership" notBefore="1963">
-          <desc>
-            <persName>John Lennon</persName>
-            <persName>Paul McCartney</persName>
-            <persName>George Harrison</persName>
-            <persName>Ringo Starr</persName>
-          </desc>
-        </state>
-      </org>
+      <state type="politicalOrientation"
+             subtype="Wikipedia"
+             source="https://en.wikipedia.org/wiki/Christian_Democratic_and_Flemish"
+             ana="#orientation.CCR">
+        <note xml:lang="en">CD&amp;V, CDV, CVP (until 2001)</note>
+      </state>
     </egXML>
   </exemplum>
   <exemplum versionDate="2008-04-06" xml:lang="fr">
     <egXML xmlns="http://www.tei-c.org/ns/Examples">
-      <state cert="high" type="social" from="1987-01-01" to="1997-12-31">
-        <label>Citoyenneté</label>
-        <desc>Entre 1987 et 1997a bénéficié du statut de citoyen naturalisé du ROYAUME-UNI</desc>
+      <state type="politicalOrientation"
+             subtype="CHES"
+             source="https://www.chesdata.eu/s/1999-2019_CHES_dataset_meansv3.csv"
+             n="2.29"
+             ana="#orientation.L"
+             from="2010"
+             to="2013">
+        <label>
+          <orgName full="init">Groen</orgName>
+        </label>
+      </state>
+      <state type="politicalOrientation"
+             subtype="CHES"
+             source="https://www.chesdata.eu/s/1999-2019_CHES_dataset_meansv3.csv"
+             n="2.20"
+             ana="#orientation.L"
+             from="2014"
+             to="2018">
+        <label>
+          <orgName full="abb">Groen</orgName>
+        </label>
       </state>
     </egXML>
   </exemplum>
