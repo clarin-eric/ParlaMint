@@ -47,6 +47,14 @@
       <desc xml:lang="sl">
 	<term>Politična orientacija</term>
       </desc>
+      <category xml:id="orientation.BT">
+	<catDesc xml:lang="en">
+	  <term>Big tent</term>
+	</catDesc>
+	<catDesc xml:lang="sl">
+	  <term>Vseobsegajoča</term>
+	</catDesc>
+      </category>
       <category xml:id="orientation.L">
 	<catDesc xml:lang="en">
 	  <term>Left</term>
@@ -250,7 +258,7 @@
 	  <xsl:copy-of select="key('abbr', $abbr-id, $data)"/>
 	</xsl:when>
 	<xsl:otherwise>
-	  <xsl:message select="concat('ERROR: cant find pm_id in TSV for ', 
+	  <xsl:message select="concat('ERROR: For ', $corpusCountry, ' cant find pm_id in TSV for ', 
 			       $abbr, ' with ID ', @xml:id)"/>
 	</xsl:otherwise>
       </xsl:choose>
