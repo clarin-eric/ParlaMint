@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2022-09-27T12:23:37Z. 2022-07-27.
+Schema generated from ODD source 2022-10-04T16:12:36Z. 2022-10-04.
 TEI Edition: Version 4.5.0a. Last updated on
         1st June 2022, revision aeba95253
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.5.0a./
@@ -694,29 +694,41 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
    <define name="tei_model.placeStateLike">
       <choice>
          <ref name="tei_model.placeNamePart"/>
+         <ref name="tei_state"/>
       </choice>
    </define>
    <define name="tei_model.placeStateLike_alternation">
       <choice>
          <ref name="tei_model.placeNamePart_alternation"/>
+         <ref name="tei_state"/>
       </choice>
    </define>
    <define name="tei_model.placeStateLike_sequence">
       <ref name="tei_model.placeNamePart_sequence"/>
+      <ref name="tei_state"/>
    </define>
    <define name="tei_model.placeStateLike_sequenceOptional">
       <optional>
          <ref name="tei_model.placeNamePart_sequenceOptional"/>
+      </optional>
+      <optional>
+         <ref name="tei_state"/>
       </optional>
    </define>
    <define name="tei_model.placeStateLike_sequenceOptionalRepeatable">
       <zeroOrMore>
          <ref name="tei_model.placeNamePart_sequenceOptionalRepeatable"/>
       </zeroOrMore>
+      <zeroOrMore>
+         <ref name="tei_state"/>
+      </zeroOrMore>
    </define>
    <define name="tei_model.placeStateLike_sequenceRepeatable">
       <oneOrMore>
          <ref name="tei_model.placeNamePart_sequenceRepeatable"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="tei_state"/>
       </oneOrMore>
    </define>
    <define name="tei_model.quoteLike">
@@ -1208,7 +1220,10 @@ Measures]</a:documentation>
    <define name="tei_label">
       <element name="label">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(label) contains any label or heading used to identify part of a text, typically but not exclusively in a list or glossary. [3.8. Lists]</a:documentation>
-         <text/>
+         <choice>
+            <text/>
+            <ref name="tei_orgName"/>
+         </choice>
          <ref name="tei_att.global.attribute.xmllang"/>
          <empty/>
       </element>
@@ -2916,6 +2931,9 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
             <optional>
                <ref name="tei_listEvent"/>
             </optional>
+            <zeroOrMore>
+               <ref name="tei_state"/>
+            </zeroOrMore>
          </group>
          <ref name="tei_att.global.analytic.attribute.ana"/>
          <attribute name="xml:id">
@@ -3136,6 +3154,40 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                <value>N</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             </choice>
+         </attribute>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_state">
+      <element name="state">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(state) defines the political orientation of a political party or parliamentary group. The orientation can be taken from CHES, Wikipedia or an unknown source. [13.3.1. Basic Principles 13.3.2.1. Personal Characteristics]</a:documentation>
+         <choice>
+            <ref name="tei_label"/>
+            <zeroOrMore>
+               <ref name="tei_note"/>
+            </zeroOrMore>
+         </choice>
+         <ref name="tei_att.global.attribute.n"/>
+         <ref name="tei_att.global.source.attribute.source"/>
+         <ref name="tei_att.datable.w3c.attribute.from"/>
+         <ref name="tei_att.datable.w3c.attribute.to"/>
+         <attribute name="ana">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(analysis) indicates one or more elements containing interpretations of the element on which the <code xmlns="http://www.w3.org/1999/xhtml">@ana</code> attribute appears.</a:documentation>
+            <data type="anyURI">
+               <param name="pattern">\S+</param>
+            </data>
+         </attribute>
+         <attribute name="type">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.</a:documentation>
+            <data type="token">
+               <param name="pattern">[^\p{C}\p{Z}]+</param>
+            </data>
+         </attribute>
+         <attribute name="subtype">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(subtype) provides a sub-categorization of the element, if needed</a:documentation>
+            <data type="token">
+               <param name="pattern">[^\p{C}\p{Z}]+</param>
+            </data>
          </attribute>
          <empty/>
       </element>

@@ -24,7 +24,7 @@
   <moduleRef key="spoken"
              include="equipment incident kinesic recording recordingStmt u vocal"/>
   <moduleRef key="namesdates"
-             include="addName affiliation birth death education event forename listEvent listOrg listPerson listRelation nameLink occupation org orgName persName person placeName relation roleName sex surname"/>
+             include="addName affiliation birth death education event forename listEvent listOrg listPerson listRelation nameLink occupation org orgName persName person placeName relation roleName sex state surname"/>
   <moduleRef key="linking"
 	     include="link linkGrp seg"/>
   <moduleRef key="figures"
@@ -2897,7 +2897,10 @@
     <desc versionDate="2011-11-05" xml:lang="en">contains any label or heading used to identify part of a text,
     typically but not exclusively in a list or glossary.</desc>
     <content>
-      <textNode/>
+      <alternate>
+	<textNode/>
+	<elementRef key="orgName"/>
+      </alternate>
     </content>
     <attList>
       <pm:attPreserve ident="xml:lang"/>
@@ -3254,6 +3257,7 @@
         <elementRef key="idno" minOccurs="0" maxOccurs="unbounded"/>
         <elementRef key="desc" minOccurs="0" maxOccurs="1"/>
         <elementRef key="listEvent" minOccurs="0" maxOccurs="1"/>
+        <elementRef key="state" minOccurs="0" maxOccurs="unbounded"/>
       </sequence>
     </content>
     <attList>
@@ -3446,9 +3450,7 @@
     </exemplum>
   </elementSpec>
   <elementSpec ident="relation" module="namesdates" mode="change">
-    <desc
-        versionDate="2013-04-12"
-        xml:lang="en">describes any kind of relationship or linkage amongst a
+    <desc versionDate="2013-04-12" xml:lang="en">describes any kind of relationship or linkage amongst a
     specified group of places, events, persons, objects or other items.</desc>
     <content>
       <empty/>
@@ -3491,6 +3493,81 @@
 		  from="2013-10-29" to="2017-10-26"/>
       </egXML>
     </exemplum>
+  </elementSpec>
+  <elementSpec ident="state" module="namesdates" mode="change">
+    <desc versionDate="2022-10-04" xml:lang="en">defines the political orientation of a political party or parliamentary group. The orientation can be taken from CHES, Wikipedia or an unknown source.</desc>
+  <content>
+    <alternate>
+      <elementRef key="label"/>
+      <elementRef key="note" minOccurs="0" maxOccurs="unbounded"/>
+    </alternate>
+  </content>
+  <attList>
+    <attDef ident="type" mode="change" usage="req">
+      <valList type="closed">
+        <valItem ident="politicalOrientation"/>
+      </valList>
+    </attDef>
+    <attDef ident="subtype" mode="change" usage="req">
+      <valList type="closed">
+        <valItem ident="CHES"/>
+        <valItem ident="Wikipedia"/>
+        <valItem ident="unknown"/>
+      </valList>
+    </attDef>
+    <attDef ident="ana" mode="change" usage="req">
+      <datatype>
+	<dataRef key="teidata.pointer"/>
+      </datatype>
+    </attDef>
+    <pm:attPreserve ident="source"/>
+    <pm:attPreserve ident="n"/>
+    <pm:attPreserve ident="from"/>
+    <pm:attPreserve ident="to"/>
+  </attList>
+  <exemplum xml:lang="en">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <state type="politicalOrientation"
+             subtype="unknown"
+             ana="#orientation.L"/>
+    </egXML>
+  </exemplum>
+  <exemplum xml:lang="en">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <state type="politicalOrientation"
+             subtype="Wikipedia"
+             source="https://en.wikipedia.org/wiki/Christian_Democratic_and_Flemish"
+             ana="#orientation.CCR">
+        <note xml:lang="en">CD&amp;V, CDV, CVP (until 2001)</note>
+      </state>
+    </egXML>
+  </exemplum>
+  <exemplum versionDate="2008-04-06" xml:lang="fr">
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <state type="politicalOrientation"
+             subtype="CHES"
+             source="https://www.chesdata.eu/s/1999-2019_CHES_dataset_meansv3.csv"
+             n="2.29"
+             ana="#orientation.L"
+             from="2010"
+             to="2013">
+        <label>
+          <orgName full="init">Groen</orgName>
+        </label>
+      </state>
+      <state type="politicalOrientation"
+             subtype="CHES"
+             source="https://www.chesdata.eu/s/1999-2019_CHES_dataset_meansv3.csv"
+             n="2.20"
+             ana="#orientation.L"
+             from="2014"
+             to="2018">
+        <label>
+          <orgName full="abb">Groen</orgName>
+        </label>
+      </state>
+    </egXML>
+  </exemplum>
   </elementSpec>
   <elementSpec ident="listPerson" module="namesdates" mode="change">
     <desc
@@ -4054,7 +4131,7 @@
   </elementSpec>
   
   <!-- So far appears nowhere! (even though it should be one of the CZ named entities  -->
-  <elementSpec module="spoken" ident="equipment">
+  <elementSpec ident="equipment" module="spoken">
     <gloss xml:lang="en" versionDate="2009-04-17">equipment</gloss>
     <desc versionDate="2005-01-14" xml:lang="en">provides technical details of the equipment and media used for
     an audio or video recording used as the source for a spoken text.</desc>
