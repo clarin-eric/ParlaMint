@@ -8,8 +8,7 @@ a:documentation [
 ]
 include "ParlaMint-TEI.rnc" {
   
-  ## Root element of a ParlaMint root
-  ##       file.
+  ## Root element of a ParlaMint root file.
   start =
     element teiCorpus {
       id.att,
@@ -76,57 +75,55 @@ category =
 ## Metadata on the organisations (esp. political
 ##     parties) and speakers.
 particDesc = element particDesc { listOrg+, listPerson+ }
-listOrg =
-  element listOrg {
-    head*,
-    element org {
-      global.atts,
-      ana.att?,
-      attribute role {
-        "government"
-        | "parliament"
-        | "politicalParty"
-        | 
-          ## The following used only by LT:
-          "parliamentaryGroup"
-        | "conferenceOfChairs"
-        | 
-          ## The following used only by BG:
-          "boardOfParliament"
-        | "coalition"
-        | 
-          ## The following used only by CZ:
-          "ngo"
-        | "institution"
-        | "senate"
-        | "committee"
-        | "subcommittee"
-        | "commission"
-        | "delegation"
-        | "supervisoryBoard"
-        | "workingGroup"
-        | "interparliamentaryFriendshipGroup"
-        | "nationalCouncil"
-        | "chamberOfThePeople"
-        | "chamberOfTheNations"
-        | "europeanParliament"
-        | "internationalOrganisation"
-        | 
-          ## The following used only by SI:
-          "boardOfDirectors"
-        | 
-          ## The following used only by AT:
-          "ethnicCommunity"
-        | "europeanCommission"
-        | "europeanInstitution"
-      },
-      orgName+,
-      event*,
-      idno*,
-      desc?,
-      listEvent?
-    }+,
-    listRelation?
+listOrg = element listOrg { head*, org+, listRelation? }
+org =
+  element org {
+    global.atts,
+    ana.att?,
+    attribute role {
+      "government"
+      | "parliament"
+      | "politicalParty"
+      | 
+        ## The following used only by LT:
+        "parliamentaryGroup"
+      | "conferenceOfChairs"
+      | 
+        ## The following used only by BG:
+        "boardOfParliament"
+      | "coalition"
+      | 
+        ## The following used only by CZ:
+        "ngo"
+      | "institution"
+      | "senate"
+      | "committee"
+      | "subcommittee"
+      | "commission"
+      | "delegation"
+      | "supervisoryBoard"
+      | "workingGroup"
+      | "interparliamentaryFriendshipGroup"
+      | "nationalCouncil"
+      | "chamberOfThePeople"
+      | "chamberOfTheNations"
+      | "europeanParliament"
+      | "internationalOrganisation"
+      | 
+        ## The following used only by SI:
+        "boardOfDirectors"
+      | 
+        ## The following used only by AT:
+        "ethnicCommunity"
+      | "europeanCommission"
+      | "europeanInstitution"
+    },
+    orgName+,
+    event*,
+    idno*,
+    desc?,
+    listEvent?,
+    state*
   }
 orgName =
   element orgName {
@@ -136,6 +133,26 @@ orgName =
     (temporal.atts?),
     attribute full { "yes" | "abb" },
     text
+  }
+
+## Element defining the political orientation of a politicalParty or
+##     parliamentaryGroup.
+state =
+  element state {
+    attribute type { "politicalOrientation" },
+    attribute subtype { "CHES" | "Wikipedia" | "unknown" },
+    attribute source { anyURIs }?,
+    attribute n { xsd:decimal }?,
+    attribute from { temporal.val }?,
+    attribute to { temporal.val }?,
+    attribute ana { xsd:anyURI },
+    (element label {
+       element orgName {
+         attribute full { "abb" },
+         text
+       }
+     }
+     | element note { lang.att, text }+)?
   }
 listEvent = element listEvent { head*, event+ }
 
