@@ -508,8 +508,24 @@ generate-parties:
 	${DATADIR}/ParlaMint.xml 2> Data/Metadata/Parties/ParlaMint_parties.log
 
 ## Insert political orientation of parties from TSV file into a root file.
+insert-orientation-test-all:
+	make insert-orientation-test OC=BE DATADIR=../ParlaMint-v2tov3/Data
+	make insert-orientation-test OC=BG DATADIR=../ParlaMint-v2tov3/Data
+	make insert-orientation-test OC=CZ DATADIR=../ParlaMint-v2tov3/Data
+	make insert-orientation-test OC=DK DATADIR=../ParlaMint-v2tov3/Data
+	make insert-orientation-test OC=ES DATADIR=../ParlaMint-v2tov3/Data
+	make insert-orientation-test OC=FR DATADIR=../ParlaMint-v2tov3/Data
+	make insert-orientation-test OC=GB DATADIR=../ParlaMint-v2tov3/Data
+	make insert-orientation-test OC=IS DATADIR=../ParlaMint-v2tov3/Data
+	make insert-orientation-test OC=NL DATADIR=../ParlaMint-v2tov3/Data
+	make insert-orientation-test OC=PL DATADIR=../ParlaMint-v2tov3/Data
+	make insert-orientation-test OC=SI DATADIR=../ParlaMint-v2tov3/Data
+	make insert-orientation-test OC=TR DATADIR=../ParlaMint-v2tov3/Data
 OC = BG
 insert-orientation-test:
+	$s tsv=../Data/Metadata/Parties/Orientation-${OC}.tsv -xsl:Scripts/orientations-tsv2tei.xsl \
+	${DATADIR}/ParlaMint-${OC}/ParlaMint-${OC}.xml > Scripts/tmp/ParlaMint-${OC}.xml
+insert-orientation-test-val:
 	$s tsv=../Data/Metadata/Parties/Orientation-${OC}.tsv -xsl:Scripts/orientations-tsv2tei.xsl \
 	${DATADIR}/ParlaMint-${OC}/ParlaMint-${OC}.xml > Scripts/tmp/ParlaMint-${OC}.xml
 	#-diff -b ${DATADIR}/ParlaMint-${OC}/ParlaMint-${OC}.xml Scripts/tmp/ParlaMint-${OC}.xml
