@@ -21,7 +21,8 @@ xsd:
 	$t ParlaMint-teiCorpus.ana.rng ParlaMint-teiCorpus.ana.xsd
 #DATA = ../Data
 # For testing v3 corpora
-DATA = ../../ParlaMint-v2tov3/Data
+#DATA = ../../ParlaMint-v2tov3/Data
+DATA = ../../ParlaMint-data/Data
 val:
 	-ls ${DATA}/ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs ${pc}
 	-ls ${DATA}/ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs ${vrt}

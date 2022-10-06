@@ -85,16 +85,18 @@ org =
       | "parliament"
       | "politicalParty"
       | 
-        ## The following used only by LT:
+        ## The following used only by BG:
         "parliamentaryGroup"
+      | # ET: Removed, as coalition should be encoded with <relation>!
+        
+        # value>coalition</value
+        
+        ## The following used only by LT:
+        "ngo"
       | "conferenceOfChairs"
       | 
-        ## The following used only by BG:
-        "boardOfParliament"
-      | "coalition"
-      | 
         ## The following used only by CZ:
-        "ngo"
+        "boardOfParliament"
       | "institution"
       | "senate"
       | "committee"
