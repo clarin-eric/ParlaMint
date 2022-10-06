@@ -262,7 +262,21 @@ $(add-common-content-XX): add-common-content-%: %
 	   -xsl:Scripts/parlamint-add-common-content.xsl \
 	   ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.xml || :
 
-
+factorize-teiHeader-XX = $(addprefix factorize-teiHeader-, $(PARLIAMENTS))
+## factorize-teiHeader ## calculate and add common content (tagUsage,)
+factorize-teiHeader: $(factorize-teiHeader-XX)
+## factorize-teiHeader-XX ##
+$(factorize-teiHeader-XX): factorize-teiHeader-%: %
+	rm -rf ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/factorize-teiHeader
+	mkdir -p ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/factorize-teiHeader
+	$s outDir=${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/factorize-teiHeader \
+	   prefix="ParlaMint-$<${CORPUSDIR_SUFFIX}-" \
+	   -xsl:Scripts/parlamint-factorize-teiHeader.xsl \
+	   ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.ana.xml || :
+	$s outDir=${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/factorize-teiHeader \
+	   prefix="ParlaMint-$<${CORPUSDIR_SUFFIX}-" \
+	   -xsl:Scripts/parlamint-factorize-teiHeader.xsl \
+	   ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.xml || :
 
 ######---------------
 .PHONY: $(PARLIAMENTS)
