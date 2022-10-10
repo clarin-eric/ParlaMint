@@ -52,19 +52,22 @@ word =
   element w {
     
     ## Simple word
-    ((word.atts, text)
+    ((word.atts, non-empty.string)
      >> a:documentation [ "Word with several normalised words" ]
      | (word-optional.atts,
+        # This doesn't work: error: group of "string" or "data" element
+        
+        # ref name="non-empty.string"/
         text,
         element w { word.atts, empty }+)
        >> a:documentation [
             "Normalised word with several surface words"
           ]
      | (word.atts,
-        element w { text }+,
+        element w { non-empty.string }+,
         empty))
   }
-punct = element pc { token.atts, text }
+punct = element pc { token.atts, non-empty.string }
 syntax =
   element linkGrp {
     attribute targFunc { "head argument" },

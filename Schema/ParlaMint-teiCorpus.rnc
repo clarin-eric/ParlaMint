@@ -136,7 +136,7 @@ orgName =
     ## Used when "the same" party changes its name
     (temporal.atts?),
     attribute full { "yes" | "abb" },
-    text
+    non-empty.string
   }
 
 ## Element defining the political orientation of a politicalParty or
@@ -153,10 +153,10 @@ state =
     (element label {
        element orgName {
          attribute full { "abb" },
-         text
+         non-empty.string
        }
      }
-     | element note { lang.att, text }+)?
+     | element note { lang.att, non-empty.string }+)?
   }
 listEvent = element listEvent { head*, event+ }
 
@@ -205,11 +205,11 @@ persName =
     ## Special persons (like 'anonymous', 'group' etc.) have their name in
     ##	term.
     (term
-     | (element surname { personal.att, text }+
-        & element forename { personal.att, text }+
-        & element addName { personal.att, text }*
-        & element roleName { personal.att, text }*
-        & element nameLink { text }*))
+     | (element surname { personal.att, non-empty.string }+
+        & element forename { personal.att, non-empty.string }+
+        & element addName { personal.att, non-empty.string }*
+        & element roleName { personal.att, non-empty.string }*
+        & element nameLink { non-empty.string }*))
   }
 affiliation =
   element affiliation {
@@ -247,14 +247,16 @@ affiliation =
       | "secretary"
       | "secretaryGeneral"
     },
-    element roleName { lang.att, text }*
+    element roleName { lang.att, non-empty.string }*
   }
-occupation = element occupation { global.atts, temporal.atts?, text }
-education = element education { global.atts, temporal.atts?, text }
+occupation =
+  element occupation { global.atts, temporal.atts?, non-empty.string }
+education =
+  element education { global.atts, temporal.atts?, non-empty.string }
 # Meant as a container of person photo
 figure =
   element figure {
-    element head { text }?,
+    element head { non-empty.string }?,
     element graphic {
       attribute url { xsd:anyURI },
       attribute scale {
@@ -270,7 +272,7 @@ langUsage =
       lang.att,
       attribute ident { lang.vals },
       attribute usage { xsd:nonNegativeInteger }?,
-      text
+      non-empty.string
     }+
   }
 
@@ -280,14 +282,14 @@ langUsage =
 ##     the event happened.
 life-event.content =
   attribute when { xsd:date | xsd:gYearMonth | xsd:gYear },
-  element placeName { ref.att, text }?
+  element placeName { ref.att, non-empty.string }?
 event =
   element event {
     global.atts,
     temporal.atts,
-    element label { lang.att, text }+
+    element label { lang.att, non-empty.string }+
   }
-term = element term { text }
+term = element term { non-empty.string }
 
 ## Text preceded by term, for use in taxonomies.
 term-text = term, annotated-text

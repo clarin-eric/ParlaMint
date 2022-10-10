@@ -79,13 +79,13 @@
 	  <element name="persName">
 	    <ref name="global.atts"/>
 	    <ref name="ref.att"/>
-	    <text/>
+	    <ref name="non-empty.string"/>
 	  </element>
 	</oneOrMore>
 	<oneOrMore>
 	  <element name="resp">
 	    <ref name="lang.att"/>
-	    <text/>
+	    <ref name="non-empty.string"/>
 	  </element>
 	</oneOrMore>
       </oneOrMore>
@@ -96,7 +96,7 @@
     <element name="editionStmt">
       <a:documentation>Edition statement.</a:documentation>
       <element name="edition">
-	<text/>
+	<ref name="non-empty.string"/>
       </element>
     </element>
   </define>
@@ -154,7 +154,7 @@
 	  <zeroOrMore>
 	    <element name="edition">
 	      <ref name="lang.att"/>
-	      <text/>
+	      <ref name="non-empty.string"/>
 	    </element>
 	  </zeroOrMore>
 	  <optional>
@@ -233,6 +233,8 @@
 	    <data type="date"/>
 	  </attribute>
 	  <ref name="name-header"/>
+	  <!-- The following doesn't work: group of "string" or "data" element -->
+	  <!--ref name="non-empty.string"/-->
 	  <text/>
 	</element>
       </oneOrMore>
@@ -284,7 +286,7 @@
 	  <value>sub</value>
 	</choice>
       </attribute>
-      <text/>
+      <ref name="non-empty.string"/>
     </element>
   </define>
   
@@ -301,7 +303,7 @@
 	  </choice>
 	</attribute>
       </optional>
-      <text/>
+      <ref name="non-empty.string"/>
     </element>
   </define>
   
@@ -322,7 +324,7 @@
 	  <oneOrMore>
 	    <element name="orgName">
 	      <ref name="lang.att"/>
-	      <text/>
+	      <ref name="non-empty.string"/>
 	    </element>
 	  </oneOrMore>
 	  <optional>
@@ -339,7 +341,7 @@
       <oneOrMore>
 	<element name="orgName">
 	  <ref name="lang.att"/>
-	  <text/>
+	  <ref name="non-empty.string"/>
 	</element>
       </oneOrMore>
       <optional>
@@ -382,6 +384,8 @@
 	</attribute>
       </optional>
       <ref name="lang.att"/>
+      <!-- The following makes many corpora invalid: -->
+      <!--ref name="non-empty.string"/-->
       <text/>
     </element>
   </define>
@@ -401,7 +405,7 @@
     <oneOrMore>
       <element name="ab">
 	<ref name="global.atts"/>
-	<text/>
+	<ref name="non-empty.string"/>
       </element>
     </oneOrMore>
   </define>
@@ -478,6 +482,7 @@
 	<choice>
           <ref name="comment"/>
 	  <ref name="pb"/>
+	  <!-- Maybe empty segments shold be forbidden, but this needs thinking about -->
           <text/>
 	</choice>
       </oneOrMore>
@@ -600,7 +605,7 @@
   <define name="desc">
     <element name="desc">
       <ref name="lang.att"/>
-      <text/>
+      <ref name="non-empty.string"/>
     </element>
   </define>
 
@@ -614,7 +619,7 @@
 	</attribute>
       </optional>
       <ref name="global.atts"/>
-      <text/>
+      <ref name="non-empty.string"/>
       <!--oneOrMore>
 	<choice>
 	  <ref name="note"/>
@@ -630,7 +635,7 @@
       <attribute name="target">
 	<data type="anyURI"/>
       </attribute>
-      <text/>
+      <ref name="non-empty.string"/>
     </element>
   </define>
   
@@ -676,6 +681,14 @@
       </optional>
       <text/>
     </element>
+  </define>
+  
+  <define name="non-empty.string">
+    <a:documentation>A string that is non-empty and does not start with a white-space
+    character.</a:documentation>
+    <data type="string">
+      <param name="pattern">(\S)|(\S[\S ]*\S)</param>
+    </data>
   </define>
   
   <define name="annotated-text">
