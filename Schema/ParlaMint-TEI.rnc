@@ -345,8 +345,7 @@ date-simple = element date { when.att, text }
 ##     content with the date type-set according to the object language.
 date = element date { global.atts, temporal.atts, ana.att?, text }
 
-## A string that is non-empty and does not start with a white-space
-##     character.
+## A string that is non-empty, does not start or end with a white-space, and contains only ordinary spaces as spacing characters.
 non-empty.string = xsd:string { pattern = "(\S)|(\S[\S ]*\S)" }
 annotated-text = mixed { ref* }
 temporal.val = xsd:dateTime | xsd:date | xsd:gYearMonth | xsd:gYear

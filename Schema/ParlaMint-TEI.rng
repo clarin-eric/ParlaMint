@@ -684,8 +684,7 @@
   </define>
   
   <define name="non-empty.string">
-    <a:documentation>A string that is non-empty and does not start with a white-space
-    character.</a:documentation>
+    <a:documentation>A string that is non-empty, does not start or end with a white-space, and contains only ordinary spaces as spacing characters.</a:documentation>
     <data type="string">
       <param name="pattern">(\S)|(\S[\S ]*\S)</param>
     </data>
