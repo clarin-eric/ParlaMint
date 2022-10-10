@@ -81,23 +81,23 @@
                 </namespace>
             </tagsDecl>
             <classDecl>
-                <taxonomy xml:id="parla.speakers">
+                <taxonomy xml:id="speaker_types">
                     <desc xml:lang="en">
                         <term>Types of speakers</term>
                     </desc>
                     <category xml:id="chair">
-                        <catDesc>
-                            <term/>
+                        <catDesc xml:lang="en">
+                            <term>Chairperson</term>
                         </catDesc>
                     </category>
                     <category xml:id="regular">
-                        <catDesc>
-                            <term/>
+                        <catDesc xml:lang="en">
+                            <term>Regular</term>
                         </catDesc>
                     </category>
                     <category xml:id="guest">
-                        <catDesc>
-                            <term/>
+                        <catDesc xml:lang="en">
+                            <term>Guest</term>
                         </catDesc>
                     </category>
                 </taxonomy>
@@ -166,6 +166,36 @@
                         </catDesc>
                     </category>
                 </taxonomy>
+                <taxonomy xml:id="parla.orientations">
+                    <desc xml:lang="en">
+                        <term>Party orientations</term>
+                    </desc>
+                    <category xml:id="orientation.R">
+                        <catDesc xml:lang="en">
+                            <term>Right</term>
+                        </catDesc>
+                    </category>
+                    <category xml:id="orientation.L">
+                        <catDesc xml:lang="en">
+                            <term>Left</term>
+                        </catDesc>
+                    </category>
+                    <category xml:id="orientation.CR">
+                        <catDesc xml:lang="en">
+                            <term>Center-right</term>
+                        </catDesc>
+                    </category>
+                    <category xml:id="orientation.CL">
+                        <catDesc xml:lang="en">
+                            <term>Center-left</term>
+                        </catDesc>
+                    </category>
+                    <category xml:id="orientation.C">
+                        <catDesc xml:lang="en">
+                            <term>Center</term>
+                        </catDesc>
+                    </category>
+                </taxonomy>
             </classDecl>
         </encodingDesc>
         <profileDesc>
@@ -182,8 +212,7 @@
             </textClass>
             <particDesc>
                 <listOrg>
-                    <org xml:id="Presidency" role="institution">
-                        <orgName xml:lang="pt" full="yes">Presidência</orgName>
+                    <org xml:id="Presidency" role="republic">
                         <orgName xml:lang="pt" full="yes">Presidência da República Portuguesa</orgName>
                         <listEvent>
                             <event xml:id="P.XIX" from="2006-03-09" to="2016-03-08">
@@ -195,7 +224,6 @@
                         </listEvent>
                     </org>
                     <org xml:id="Parliament" role="parliament" ana="#parla.national #parla.uni">
-                        <orgName xml:lang="pt" full="yes">Assembleia da República</orgName>
                         <orgName xml:lang="pt" full="yes">Assembleia da República Portuguesa</orgName>
                         <event from="1974-04-25">
                             <label xml:lang="pt">existência</label>
@@ -234,50 +262,116 @@
                     <org xml:id="PSD" role="politicalParty">
                         <orgName xml:lang="pt" full="yes">Partido Social Democrata</orgName>
                         <orgName xml:lang="pt" full="abb">PSD</orgName>
+                        <event from="1974-04-25">
+                            <label xml:lang="en">existence</label>
+                        </event>
+                        <state type="politicalOrientation" subtype="unknown" ana="#orientation.CR">
+                            <note xml:lang="en">Orientation determined by encoder, using own knowledge of the parliamentary group.</note>
+                        </state>
                     </org>
                     <org xml:id="CDS-PP" role="politicalParty">
                         <orgName xml:lang="pt" full="yes">Centro Democrático Social - Partido Popular</orgName>
                         <orgName xml:lang="pt" full="abb">CDS-PP</orgName>
+                        <event from="1974-04-25">
+                            <label xml:lang="en">existence</label>
+                        </event>
+                        <state type="politicalOrientation" subtype="unknown" ana="#orientation.R">
+                            <note xml:lang="en">Orientation determined by encoder, using own knowledge of the parliamentary group.</note>
+                        </state>
                     </org>
                     <org xml:id="PS" role="politicalParty">
                         <orgName xml:lang="pt" full="yes">Partido Socialista</orgName>
                         <orgName xml:lang="pt" full="abb">PS</orgName>
+                        <event from="1974-04-25">
+                            <label xml:lang="en">existence</label>
+                        </event>
+                        <state type="politicalOrientation" subtype="unknown" ana="#orientation.CL">
+                            <note xml:lang="en">Orientation determined by encoder, using own knowledge of the parliamentary group.</note>
+                        </state>
                     </org>
                     <org xml:id="PCP" role="politicalParty">
                         <orgName xml:lang="pt" full="yes">Partido Comunista Português</orgName>
                         <orgName xml:lang="pt" full="abb">PCP</orgName>
+                        <event from="1974-04-25">
+                            <label xml:lang="en">existence</label>
+                        </event>
+                        <state type="politicalOrientation" subtype="unknown" ana="#orientation.L">
+                            <note xml:lang="en">Orientation determined by encoder, using own knowledge of the parliamentary group.</note>
+                        </state>
                     </org>
                     <org xml:id="BE" role="politicalParty">
                         <orgName xml:lang="pt" full="yes">Bloco de Esquerda</orgName>
                         <orgName xml:lang="pt" full="abb">BE</orgName>
+                        <event from="1974-04-25">
+                            <label xml:lang="en">existence</label>
+                        </event>
+                        <state type="politicalOrientation" subtype="unknown" ana="#orientation.L">
+                            <note xml:lang="en">Orientation determined by encoder, using own knowledge of the parliamentary group.</note>
+                        </state>
                     </org>
                     <org xml:id="PEV" role="politicalParty">
                         <orgName xml:lang="pt" full="yes">Partido Ecologista "Os Verdes"</orgName>
                         <orgName xml:lang="pt" full="abb">PEV</orgName>
+                        <event from="1974-04-25">
+                            <label xml:lang="en">existence</label>
+                        </event>
+                        <state type="politicalOrientation" subtype="unknown" ana="#orientation.L">
+                            <note xml:lang="en">Orientation determined by encoder, using own knowledge of the parliamentary group.</note>
+                        </state>
                     </org>
                     <org xml:id="PAN" role="politicalParty">
                         <orgName xml:lang="pt" full="yes">Pessoas-Animais-Natureza</orgName>
                         <orgName xml:lang="pt" full="abb">PAN</orgName>
+                        <event from="1974-04-25">
+                            <label xml:lang="en">existence</label>
+                        </event>
+                        <state type="politicalOrientation" subtype="unknown" ana="#orientation.L">
+                            <note xml:lang="en">Orientation determined by encoder, using own knowledge of the parliamentary group.</note>
+                        </state>
                     </org>
                     <org xml:id="CH" role="politicalParty">
                         <orgName xml:lang="pt" full="yes">Chega</orgName>
                         <orgName xml:lang="pt" full="abb">CH</orgName>
+                        <event from="1974-04-25">
+                            <label xml:lang="en">existence</label>
+                        </event>
+                        <state type="politicalOrientation" subtype="unknown" ana="#orientation.R">
+                            <note xml:lang="en">Orientation determined by encoder, using own knowledge of the parliamentary group.</note>
+                        </state>
                     </org>
                     <org xml:id="L" role="politicalParty">
                         <orgName xml:lang="pt" full="yes">Livre</orgName>
                         <orgName xml:lang="pt" full="abb">L</orgName>
+                        <event from="1974-04-25">
+                            <label xml:lang="en">existence</label>
+                        </event>
+                        <state type="politicalOrientation" subtype="unknown" ana="#orientation.L">
+                            <note xml:lang="en">Orientation determined by encoder, using own knowledge of the parliamentary group.</note>
+                        </state>
                     </org>
                     <org xml:id="IL" role="politicalParty">
                         <orgName xml:lang="pt" full="yes">Iniciativa Liberal</orgName>
                         <orgName xml:lang="pt" full="abb">IL</orgName>
+                        <event from="1974-04-25">
+                            <label xml:lang="en">existence</label>
+                        </event>
+                        <state type="politicalOrientation" subtype="unknown" ana="#orientation.C">
+                            <note xml:lang="en">Orientation determined by encoder, using own knowledge of the parliamentary group.</note>
+                        </state>
                     </org>
                     <org xml:id="Independente" role="politicalParty">
                         <orgName xml:lang="pt" full="yes">Independente</orgName>
                         <orgName xml:lang="pt" full="abb">Independente</orgName>
+                        <event from="1974-04-25">
+                            <label xml:lang="en">existence</label>
+                        </event>
                     </org>
                     <org xml:id="Não-inscrito" role="politicalParty">
                         <orgName xml:lang="pt" full="yes">Não-inscrito</orgName>
                         <orgName xml:lang="pt" full="abb">Não-inscrito</orgName>
+                        <event from="1974-04-25">
+                            <label xml:lang="en">existence</label>
+                        </event>
                     </org>
                     <org xml:id="PG.PSD" role="parliamentaryGroup">
                         <orgName xml:lang="pt" full="abb">Grupo Parlamentar do PSD</orgName>
@@ -342,7 +436,7 @@
                         <persName>
                             <forename>Acácio</forename>
                             <surname>Santos</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Fonseca</surname>
                             <surname>Pinto</surname>
                         </persName>
@@ -406,7 +500,7 @@
                         <persName>
                             <forename>Adriano</forename>
                             <surname>Rafael</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Sousa</surname>
                             <surname>Moreira</surname>
                         </persName>
@@ -420,7 +514,7 @@
                         <persName>
                             <forename>Afonso</forename>
                             <surname>Gonçalves</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                             <surname>Oliveira</surname>
                         </persName>
@@ -453,7 +547,7 @@
                             <forename>Agostinho</forename>
                             <surname>Gonçalves</surname>
                             <surname>Alves</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Santa</surname>
                         </persName>
                         <sex value="M"/>
@@ -466,7 +560,7 @@
                         <persName>
                             <forename>Agostinho</forename>
                             <surname>Nuno</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Azevedo</surname>
                             <surname>Ferreira</surname>
                             <surname>Lopes</surname>
@@ -505,7 +599,7 @@
                     <person xml:id="AlbertodeSousaMartins">
                         <persName>
                             <forename>Alberto</forename>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Sousa</surname>
                             <surname>Martins</surname>
                         </persName>
@@ -521,7 +615,7 @@
                             <forename>Alberto</forename>
                             <surname>Jorge</surname>
                             <surname>Torres</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                             <surname>Fonseca</surname>
                         </persName>
@@ -557,7 +651,7 @@
                             <surname>Nunes</surname>
                             <surname>Esteves</surname>
                             <surname>Tavares</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Moura</surname>
                         </persName>
                         <sex value="F"/>
@@ -570,7 +664,7 @@
                         <persName>
                             <forename>Alexandre</forename>
                             <surname>Damasceno</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                             <surname>Poço</surname>
                         </persName>
@@ -586,9 +680,9 @@
                             <surname>Nuno</surname>
                             <surname>Vaz</surname>
                             <surname>Batista</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Vieira</surname>
-                            <surname>e</surname>
+                            <nameLink>e</nameLink>
                             <surname>Brito</surname>
                         </persName>
                         <sex value="M"/>
@@ -674,7 +768,7 @@
                         <persName>
                             <forename>Ana</forename>
                             <surname>Cláudia</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Costa</surname>
                             <surname>Pinho</surname>
                         </persName>
@@ -724,7 +818,7 @@
                             <forename>Ana</forename>
                             <surname>Isabel</surname>
                             <surname>Correia</surname>
-                            <surname>dos</surname>
+                            <nameLink>dos</nameLink>
                             <surname>Santos</surname>
                         </persName>
                         <sex value="F"/>
@@ -737,7 +831,7 @@
                         <persName>
                             <forename>Ana</forename>
                             <surname>Isabel</surname>
-                            <surname>dos</surname>
+                            <nameLink>dos</nameLink>
                             <surname>Santos</surname>
                             <surname>Figueiredo</surname>
                             <surname>Pinto</surname>
@@ -767,7 +861,7 @@
                             <forename>Ana</forename>
                             <surname>Lúcia</surname>
                             <surname>Silva</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Passos</surname>
                         </persName>
                         <sex value="F"/>
@@ -804,7 +898,7 @@
                             <forename>Ana</forename>
                             <surname>Margarida</surname>
                             <surname>Balseiro</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Sousa</surname>
                             <surname>Lopes</surname>
                         </persName>
@@ -822,7 +916,7 @@
                             <surname>Pereira</surname>
                             <surname>Abrunhosa</surname>
                             <surname>Trigueiros</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Aragão</surname>
                         </persName>
                         <sex value="F"/>
@@ -838,7 +932,7 @@
                             <forename>Ana</forename>
                             <surname>Maria</surname>
                             <surname>Ribeiro</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                         </persName>
                         <sex value="F"/>
@@ -866,7 +960,7 @@
                             <surname>Miguel</surname>
                             <surname>Marques</surname>
                             <surname>Neves</surname>
-                            <surname>dos</surname>
+                            <nameLink>dos</nameLink>
                             <surname>Santos</surname>
                         </persName>
                         <sex value="F"/>
@@ -975,7 +1069,7 @@
                         <persName>
                             <forename>Ana</forename>
                             <surname>Virgínia</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Costa</surname>
                             <surname>Pereira</surname>
                         </persName>
@@ -988,7 +1082,7 @@
                     <person xml:id="AnabeladeJesusSousaRodrigues">
                         <persName>
                             <forename>Anabela</forename>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Jesus</surname>
                             <surname>Sousa</surname>
                             <surname>Rodrigues</surname>
@@ -1003,7 +1097,7 @@
                         <persName>
                             <forename>Anabela</forename>
                             <surname>Gaspar</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Freitas</surname>
                         </persName>
                         <sex value="F"/>
@@ -1017,7 +1111,7 @@
                             <forename>Anabela</forename>
                             <surname>Maria</surname>
                             <surname>Pinto</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Miranda</surname>
                             <surname>Rodrigues</surname>
                         </persName>
@@ -1102,7 +1196,7 @@
                         <persName>
                             <forename>André</forename>
                             <surname>Lourenço</surname>
-                            <surname>e</surname>
+                            <nameLink>e</nameLink>
                             <surname>Silva</surname>
                         </persName>
                         <sex value="M"/>
@@ -1130,7 +1224,7 @@
                             <forename>André</forename>
                             <surname>Tiago</surname>
                             <surname>Pardal</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                         </persName>
                         <sex value="M"/>
@@ -1144,7 +1238,7 @@
                             <forename>Andreia</forename>
                             <surname>Carina</surname>
                             <surname>Machado</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                             <surname>Neto</surname>
                         </persName>
@@ -1171,7 +1265,7 @@
                             <forename>António</forename>
                             <surname>Alberto</surname>
                             <surname>Maló</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Abreu</surname>
                         </persName>
                         <sex value="M"/>
@@ -1197,7 +1291,7 @@
                         <persName>
                             <forename>António</forename>
                             <surname>André</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                             <surname>Topa</surname>
                         </persName>
@@ -1215,7 +1309,7 @@
                             <surname>Carlos</surname>
                             <surname>Bivar</surname>
                             <surname>Branco</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Penha</surname>
                             <surname>Monteiro</surname>
                         </persName>
@@ -1231,7 +1325,7 @@
                             <surname>Carlos</surname>
                             <surname>Sousa</surname>
                             <surname>Gomes</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                             <surname>Peixoto</surname>
                         </persName>
@@ -1268,10 +1362,10 @@
                     <person xml:id="AntóniodeMagalhãesPiresdeLima">
                         <persName>
                             <forename>António</forename>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Magalhães</surname>
                             <surname>Pires</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Lima</surname>
                         </persName>
                         <sex value="M"/>
@@ -1289,7 +1383,7 @@
                             <surname>Duarte</surname>
                             <surname>Conde</surname>
                             <surname>Almeida</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Cunha</surname>
                         </persName>
                         <sex value="M"/>
@@ -1332,7 +1426,7 @@
                         <persName>
                             <forename>António</forename>
                             <surname>Fernandes</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                             <surname>Braga</surname>
                         </persName>
@@ -1347,7 +1441,7 @@
                             <forename>António</forename>
                             <surname>Fernando</surname>
                             <surname>Couto</surname>
-                            <surname>dos</surname>
+                            <nameLink>dos</nameLink>
                             <surname>Santos</surname>
                         </persName>
                         <sex value="M"/>
@@ -1360,7 +1454,7 @@
                         <persName>
                             <forename>António</forename>
                             <surname>Filipe</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Providência</surname>
                             <surname>Santarém</surname>
                             <surname>Anacoreta</surname>
@@ -1401,7 +1495,7 @@
                             <forename>António</forename>
                             <surname>Francisco</surname>
                             <surname>Costa</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                         </persName>
                         <sex value="M"/>
@@ -1504,7 +1598,7 @@
                             <forename>António</forename>
                             <surname>Luís</surname>
                             <surname>Santos</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Costa</surname>
                         </persName>
                         <sex value="M"/>
@@ -1612,7 +1706,7 @@
                             <forename>António</forename>
                             <surname>Pedro</surname>
                             <surname>Roque</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Visitação</surname>
                             <surname>Oliveira</surname>
                         </persName>
@@ -1683,7 +1777,7 @@
                     <person xml:id="ArméniodosSantos">
                         <persName>
                             <forename>Arménio</forename>
-                            <surname>dos</surname>
+                            <nameLink>dos</nameLink>
                             <surname>Santos</surname>
                         </persName>
                         <sex value="M"/>
@@ -1696,7 +1790,7 @@
                         <persName>
                             <forename>Artur</forename>
                             <surname>Jorge</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                             <surname>Machado</surname>
                         </persName>
@@ -1729,7 +1823,7 @@
                             <surname>Montenegro</surname>
                             <surname>Soveral</surname>
                             <surname>Freire</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Andrade</surname>
                         </persName>
                         <sex value="M"/>
@@ -1743,7 +1837,7 @@
                             <forename>Artur</forename>
                             <surname>Miguel</surname>
                             <surname>Claro</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Fonseca</surname>
                             <surname>Mora</surname>
                             <surname>Coelho</surname>
@@ -1809,10 +1903,10 @@
                         <persName>
                             <forename>Basílio</forename>
                             <surname>Adolfo</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Mendonça</surname>
                             <surname>Horta</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Franca</surname>
                         </persName>
                         <sex value="M"/>
@@ -1840,7 +1934,7 @@
                             <forename>Bebiana</forename>
                             <surname>Maria</surname>
                             <surname>Ribeiro</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Cunha</surname>
                         </persName>
                         <sex value="F"/>
@@ -1882,9 +1976,9 @@
                             <forename>Berta</forename>
                             <surname>Maria</surname>
                             <surname>Correia</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Almeida</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Melo</surname>
                             <surname>Cabral</surname>
                         </persName>
@@ -1983,7 +2077,7 @@
                             <forename>Carla</forename>
                             <surname>Alexandra</surname>
                             <surname>Magalhães</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Sousa</surname>
                         </persName>
                         <sex value="F"/>
@@ -1997,7 +2091,7 @@
                         <persName>
                             <forename>Carla</forename>
                             <surname>Eliana</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Costa</surname>
                             <surname>Tavares</surname>
                         </persName>
@@ -2011,7 +2105,7 @@
                         <persName>
                             <forename>Carla</forename>
                             <surname>Manuela</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Sousa</surname>
                             <surname>Madureira</surname>
                         </persName>
@@ -2025,9 +2119,9 @@
                         <persName>
                             <forename>Carla</forename>
                             <surname>Maria</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Costa</surname>
-                            <surname>e</surname>
+                            <nameLink>e</nameLink>
                             <surname>Cruz</surname>
                         </persName>
                         <sex value="F"/>
@@ -2041,7 +2135,7 @@
                         <persName>
                             <forename>Carla</forename>
                             <surname>Maria</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Pinho</surname>
                             <surname>Rodrigues</surname>
                         </persName>
@@ -2112,7 +2206,7 @@
                             <forename>Carlos</forename>
                             <surname>Eduardo</surname>
                             <surname>Almeida</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Abreu</surname>
                             <surname>Amorim</surname>
                         </persName>
@@ -2127,9 +2221,9 @@
                         <persName>
                             <forename>Carlos</forename>
                             <surname>Eduardo</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
-                            <surname>e</surname>
+                            <nameLink>e</nameLink>
                             <surname>Sousa</surname>
                         </persName>
                         <sex value="M"/>
@@ -2145,7 +2239,7 @@
                             <surname>Vasconcelos</surname>
                             <surname>Fernandes</surname>
                             <surname>Ribeiro</surname>
-                            <surname>dos</surname>
+                            <nameLink>dos</nameLink>
                             <surname>Reis</surname>
                         </persName>
                         <sex value="M"/>
@@ -2158,7 +2252,7 @@
                         <persName>
                             <forename>Carlos</forename>
                             <surname>Filipe</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Andrade</surname>
                             <surname>Neto</surname>
                             <surname>Brandão</surname>
@@ -2175,7 +2269,7 @@
                         <persName>
                             <forename>Carlos</forename>
                             <surname>Henrique</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Costa</surname>
                             <surname>Neves</surname>
                         </persName>
@@ -2208,10 +2302,10 @@
                         <persName>
                             <forename>Carlos</forename>
                             <surname>Manuel</surname>
-                            <surname>dos</surname>
+                            <nameLink>dos</nameLink>
                             <surname>Santos</surname>
                             <surname>Batista</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                         </persName>
                         <sex value="M"/>
@@ -2270,7 +2364,7 @@
                             <forename>Carlos</forename>
                             <surname>Manuel</surname>
                             <surname>Martins</surname>
-                            <surname>do</surname>
+                            <nameLink>do</nameLink>
                             <surname>Vale</surname>
                             <surname>César</surname>
                         </persName>
@@ -2328,9 +2422,9 @@
                         <persName>
                             <forename>Catarina</forename>
                             <surname>Leite</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Faria</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Rocha</surname>
                             <surname>Ferreira</surname>
                         </persName>
@@ -2345,7 +2439,7 @@
                             <forename>Catarina</forename>
                             <surname>Marcelino</surname>
                             <surname>Rosa</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                         </persName>
                         <sex value="F"/>
@@ -2380,7 +2474,7 @@
                             <surname>Teresa</surname>
                             <surname>Rola</surname>
                             <surname>Sarmento</surname>
-                            <surname>e</surname>
+                            <nameLink>e</nameLink>
                             <surname>Castro</surname>
                         </persName>
                         <sex value="F"/>
@@ -2394,7 +2488,7 @@
                         <persName>
                             <forename>Cecília</forename>
                             <surname>Felgueiras</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Meireles</surname>
                             <surname>Graça</surname>
                         </persName>
@@ -2428,7 +2522,7 @@
                             <forename>Célia</forename>
                             <surname>Maria</surname>
                             <surname>Marques</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Rosa</surname>
                             <surname>Paz</surname>
                         </persName>
@@ -2521,7 +2615,7 @@
                             <surname>Sofia</surname>
                             <surname>Gomes</surname>
                             <surname>Monteiro</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Aguiar</surname>
                         </persName>
                         <sex value="F"/>
@@ -2534,7 +2628,7 @@
                         <persName>
                             <forename>Cristina</forename>
                             <surname>Maria</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Fonseca</surname>
                             <surname>Santos</surname>
                             <surname>Bacelar</surname>
@@ -2551,7 +2645,7 @@
                             <forename>Cristina</forename>
                             <surname>Maria</surname>
                             <surname>Domingues</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Jesus</surname>
                         </persName>
                         <sex value="F"/>
@@ -2567,7 +2661,7 @@
                             <surname>Maria</surname>
                             <surname>Figueiredo</surname>
                             <surname>Almeida</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Sousa</surname>
                         </persName>
                         <sex value="F"/>
@@ -2581,7 +2675,7 @@
                             <forename>Cristina</forename>
                             <surname>Maria</surname>
                             <surname>Mendes</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                         </persName>
                         <sex value="F"/>
@@ -2602,7 +2696,7 @@
                     <person xml:id="CristóvãodaConceiçãoVenturaCrespo">
                         <persName>
                             <forename>Cristóvão</forename>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Conceição</surname>
                             <surname>Ventura</surname>
                             <surname>Crespo</surname>
@@ -2635,7 +2729,7 @@
                             <forename>Cristóvão</forename>
                             <surname>Simão</surname>
                             <surname>Oliveira</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Ribeiro</surname>
                         </persName>
                         <sex value="M"/>
@@ -2649,7 +2743,7 @@
                         <persName>
                             <forename>Cátia</forename>
                             <surname>Alexandra</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Sousa</surname>
                             <surname>Silva</surname>
                         </persName>
@@ -2664,7 +2758,7 @@
                             <forename>David</forename>
                             <surname>Jorge</surname>
                             <surname>Ribas</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Costa</surname>
                         </persName>
                         <sex value="M"/>
@@ -2677,7 +2771,7 @@
                         <persName>
                             <forename>Deolinda</forename>
                             <surname>Isabel</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Costa</surname>
                             <surname>Coutinho</surname>
                         </persName>
@@ -2706,7 +2800,7 @@
                         <persName>
                             <forename>Diana</forename>
                             <surname>Vanessa</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Conceição</surname>
                             <surname>Santos</surname>
                         </persName>
@@ -2720,10 +2814,10 @@
                         <persName>
                             <forename>Dinis</forename>
                             <surname>Miguel</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                             <surname>Dantas</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Costa</surname>
                         </persName>
                         <sex value="M"/>
@@ -2765,7 +2859,7 @@
                             <surname>Velez</surname>
                             <surname>Mouta</surname>
                             <surname>Pacheco</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Amorim</surname>
                         </persName>
                         <sex value="M"/>
@@ -2779,7 +2873,7 @@
                             <forename>Domicília</forename>
                             <surname>Maria</surname>
                             <surname>Correia</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Costa</surname>
                         </persName>
                         <sex value="F"/>
@@ -2805,7 +2899,7 @@
                             <forename>Dora</forename>
                             <surname>Maria</surname>
                             <surname>Ramos</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Abreu</surname>
                             <surname>Brandão</surname>
                             <surname>Machado</surname>
@@ -2822,7 +2916,7 @@
                             <forename>Duarte</forename>
                             <surname>Filipe</surname>
                             <surname>Batista</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Matos</surname>
                             <surname>Marques</surname>
                         </persName>
@@ -2839,7 +2933,7 @@
                             <forename>Duarte</forename>
                             <surname>Le</surname>
                             <surname>Falher</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Campos</surname>
                             <surname>Alves</surname>
                         </persName>
@@ -2909,7 +3003,7 @@
                         <persName>
                             <forename>Eduardo</forename>
                             <surname>Arménio</surname>
-                            <surname>do</surname>
+                            <nameLink>do</nameLink>
                             <surname>Nascimento</surname>
                             <surname>Cabrita</surname>
                         </persName>
@@ -2974,7 +3068,7 @@
                             <surname>Sabino</surname>
                             <surname>Guedes</surname>
                             <surname>Barroco</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Melo</surname>
                         </persName>
                         <sex value="M"/>
@@ -2988,7 +3082,7 @@
                             <forename>Eduardo</forename>
                             <surname>Nuno</surname>
                             <surname>Rodrigues</surname>
-                            <surname>e</surname>
+                            <nameLink>e</nameLink>
                             <surname>Pinheiro</surname>
                         </persName>
                         <sex value="M"/>
@@ -3048,10 +3142,10 @@
                     <person xml:id="EmíliadeFátimaMoreiradosSantos">
                         <persName>
                             <forename>Emília</forename>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Fátima</surname>
                             <surname>Moreira</surname>
-                            <surname>dos</surname>
+                            <nameLink>dos</nameLink>
                             <surname>Santos</surname>
                         </persName>
                         <sex value="F"/>
@@ -3067,7 +3161,7 @@
                         <persName>
                             <forename>Eugénia</forename>
                             <surname>Maria</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Oliveira</surname>
                             <surname>Duarte</surname>
                         </persName>
@@ -3082,7 +3176,7 @@
                         <persName>
                             <forename>Eurídice</forename>
                             <surname>Maria</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Sousa</surname>
                             <surname>Pereira</surname>
                         </persName>
@@ -3129,7 +3223,7 @@
                     <person xml:id="FabíoladaCruzNetoCardoso">
                         <persName>
                             <forename>Fabíola</forename>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Cruz</surname>
                             <surname>Neto</surname>
                             <surname>Cardoso</surname>
@@ -3160,13 +3254,13 @@
                             <surname>Juan</surname>
                             <surname>Pablo</surname>
                             <surname>Alfonso</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Todos</surname>
-                            <surname>los</surname>
+                            <nameLink>los</nameLink>
                             <surname>Santos</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Borbón</surname>
-                            <surname>y</surname>
+                            <nameLink>y</nameLink>
                             <surname>Grecia</surname>
                         </persName>
                         <sex value="M"/>
@@ -3178,7 +3272,7 @@
                             <surname>António</surname>
                             <surname>Portela</surname>
                             <surname>Rocha</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Andrade</surname>
                         </persName>
                         <sex value="M"/>
@@ -3218,7 +3312,7 @@
                     <person xml:id="FernandodeCarvalhoRuas">
                         <persName>
                             <forename>Fernando</forename>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Carvalho</surname>
                             <surname>Ruas</surname>
                         </persName>
@@ -3232,7 +3326,7 @@
                         <persName>
                             <forename>Fernando</forename>
                             <surname>José</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>La</surname>
                             <surname>Vieter</surname>
                             <surname>Ribeiro</surname>
@@ -3248,7 +3342,7 @@
                         <persName>
                             <forename>Fernando</forename>
                             <surname>José</surname>
-                            <surname>dos</surname>
+                            <nameLink>dos</nameLink>
                             <surname>Santos</surname>
                             <surname>Anastácio</surname>
                         </persName>
@@ -3263,7 +3357,7 @@
                         <persName>
                             <forename>Fernando</forename>
                             <surname>Luís</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Sousa</surname>
                             <surname>Machado</surname>
                             <surname>Soares</surname>
@@ -3293,7 +3387,7 @@
                         <persName>
                             <forename>Fernando</forename>
                             <surname>Manuel</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Jesus</surname>
                         </persName>
                         <sex value="M"/>
@@ -3357,7 +3451,7 @@
                             <surname>Nuno</surname>
                             <surname>Fernandes</surname>
                             <surname>Ribeiro</surname>
-                            <surname>dos</surname>
+                            <nameLink>dos</nameLink>
                             <surname>Reis</surname>
                         </persName>
                         <sex value="M"/>
@@ -3417,7 +3511,7 @@
                             <forename>Fernando</forename>
                             <surname>Serra</surname>
                             <surname>Leal</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Costa</surname>
                         </persName>
                         <sex value="M"/>
@@ -3435,7 +3529,7 @@
                             <forename>Fernando</forename>
                             <surname>Virgílio</surname>
                             <surname>Cabral</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Cruz</surname>
                             <surname>Macedo</surname>
                         </persName>
@@ -3481,7 +3575,7 @@
                         <persName>
                             <forename>Filipe</forename>
                             <surname>Tiago</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Melo</surname>
                             <surname>Sobral</surname>
                             <surname>Lobo</surname>
@@ -3527,7 +3621,7 @@
                         <persName>
                             <forename>Francisca</forename>
                             <surname>Eugénia</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                             <surname>Dias</surname>
                             <surname>Van</surname>
@@ -3577,7 +3671,7 @@
                             <surname>Dinis</surname>
                             <surname>Reis</surname>
                             <surname>Mendes</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                         </persName>
                         <sex value="M"/>
@@ -3590,7 +3684,7 @@
                         <persName>
                             <forename>Francisco</forename>
                             <surname>José</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Almeida</surname>
                             <surname>Lopes</surname>
                         </persName>
@@ -3607,7 +3701,7 @@
                             <forename>Francisco</forename>
                             <surname>José</surname>
                             <surname>Pereira</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Almeida</surname>
                             <surname>Viegas</surname>
                         </persName>
@@ -3624,7 +3718,7 @@
                             <forename>Francisco</forename>
                             <surname>José</surname>
                             <surname>Pereira</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Assis</surname>
                             <surname>Miranda</surname>
                         </persName>
@@ -3639,7 +3733,7 @@
                             <forename>Francisco</forename>
                             <surname>José</surname>
                             <surname>Pereira</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Oliveira</surname>
                         </persName>
                         <sex value="M"/>
@@ -3653,7 +3747,7 @@
                             <forename>Francisco</forename>
                             <surname>Jose</surname>
                             <surname>Ferreira</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Rocha</surname>
                         </persName>
                         <sex value="M"/>
@@ -3733,7 +3827,7 @@
                         <persName>
                             <forename>Glória</forename>
                             <surname>Maria</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                             <surname>Araújo</surname>
                         </persName>
@@ -3773,7 +3867,7 @@
                             <surname>Henrique</surname>
                             <surname>Valente</surname>
                             <surname>Rodrigues</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                         </persName>
                         <sex value="M"/>
@@ -3790,7 +3884,7 @@
                             <forename>Guilherme</forename>
                             <surname>Waldemar</surname>
                             <surname>Goulão</surname>
-                            <surname>dos</surname>
+                            <nameLink>dos</nameLink>
                             <surname>Reis</surname>
                             <surname>d'Oliveira</surname>
                             <surname>Martins</surname>
@@ -3807,9 +3901,9 @@
                             <forename>Heitor</forename>
                             <surname>Nuno</surname>
                             <surname>Patrício</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Sousa</surname>
-                            <surname>e</surname>
+                            <nameLink>e</nameLink>
                             <surname>Castro</surname>
                         </persName>
                         <sex value="M"/>
@@ -3822,7 +3916,7 @@
                         <persName>
                             <forename>Helena</forename>
                             <surname>Maria</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Oliveira</surname>
                             <surname>Freitas</surname>
                         </persName>
@@ -3878,7 +3972,7 @@
                             <forename>Heloísa</forename>
                             <surname>Augusta</surname>
                             <surname>Baião</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Brito</surname>
                             <surname>Apolónia</surname>
                         </persName>
@@ -3893,7 +3987,7 @@
                         <persName>
                             <forename>Hermínia</forename>
                             <surname>Maria</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Fonseca</surname>
                             <surname>Bexiga</surname>
                             <surname>Azenha</surname>
@@ -3909,7 +4003,7 @@
                             <forename>Hélder</forename>
                             <surname>António</surname>
                             <surname>Guerra</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Sousa</surname>
                             <surname>Silva</surname>
                         </persName>
@@ -3924,7 +4018,7 @@
                             <forename>Hélder</forename>
                             <surname>Manuel</surname>
                             <surname>Gomes</surname>
-                            <surname>dos</surname>
+                            <nameLink>dos</nameLink>
                             <surname>Reis</surname>
                         </persName>
                         <sex value="M"/>
@@ -3972,7 +4066,7 @@
                             <surname>Daniel</surname>
                             <surname>Alves</surname>
                             <surname>Martins</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Carvalho</surname>
                         </persName>
                         <sex value="M"/>
@@ -3986,7 +4080,7 @@
                             <forename>Hugo</forename>
                             <surname>Daniel</surname>
                             <surname>Matos</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Oliveira</surname>
                         </persName>
                         <sex value="M"/>
@@ -4013,7 +4107,7 @@
                             <forename>Hugo</forename>
                             <surname>Miguel</surname>
                             <surname>Carvalheiro</surname>
-                            <surname>dos</surname>
+                            <nameLink>dos</nameLink>
                             <surname>Santos</surname>
                             <surname>Costa</surname>
                         </persName>
@@ -4042,7 +4136,7 @@
                         <persName>
                             <forename>Hugo</forename>
                             <surname>Miguel</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Sousa</surname>
                             <surname>Carneiro</surname>
                         </persName>
@@ -4057,7 +4151,7 @@
                             <forename>Hugo</forename>
                             <surname>Patrício</surname>
                             <surname>Martinho</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Oliveira</surname>
                         </persName>
                         <sex value="M"/>
@@ -4100,7 +4194,7 @@
                             <forename>Ilda</forename>
                             <surname>Maria</surname>
                             <surname>Menezes</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Araújo</surname>
                             <surname>Novo</surname>
                         </persName>
@@ -4114,7 +4208,7 @@
                         <persName>
                             <forename>Ilídia</forename>
                             <surname>Maria</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                             <surname>Fialho</surname>
                             <surname>Quadrado</surname>
@@ -4154,7 +4248,7 @@
                     <person xml:id="InêsdeDrummondLudoviceMendesGomes">
                         <persName>
                             <forename>Inês</forename>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Drummond</surname>
                             <surname>Ludovice</surname>
                             <surname>Mendes</surname>
@@ -4169,14 +4263,14 @@
                     <person xml:id="InêsdeSaint-MauricedeEstevesdeMedeirosVitorinodeAlmeida">
                         <persName>
                             <forename>Inês</forename>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Saint-Maurice</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Esteves</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Medeiros</surname>
                             <surname>Vitorino</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Almeida</surname>
                         </persName>
                         <sex value="F"/>
@@ -4209,7 +4303,7 @@
                     <person xml:id="InêsdosSantosCosta">
                         <persName>
                             <forename>Inês</forename>
-                            <surname>dos</surname>
+                            <nameLink>dos</nameLink>
                             <surname>Santos</surname>
                             <surname>Costa</surname>
                         </persName>
@@ -4252,7 +4346,7 @@
                     <person xml:id="IsabeldeLimaMayerAlvesMoreira">
                         <persName>
                             <forename>Isabel</forename>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Lima</surname>
                             <surname>Mayer</surname>
                             <surname>Alves</surname>
@@ -4270,7 +4364,7 @@
                         <persName>
                             <forename>Isabel</forename>
                             <surname>Maria</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Conceição</surname>
                             <surname>Simões</surname>
                             <surname>Pinto</surname>
@@ -4286,7 +4380,7 @@
                             <forename>Isabel</forename>
                             <surname>Maria</surname>
                             <surname>Duarte</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Almeida</surname>
                             <surname>Rodrigues</surname>
                         </persName>
@@ -4326,7 +4420,7 @@
                             <forename>Isabel</forename>
                             <surname>Maria</surname>
                             <surname>Mousinho</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Almeida</surname>
                             <surname>Galriça</surname>
                             <surname>Neto</surname>
@@ -4356,7 +4450,7 @@
                             <forename>Isaura</forename>
                             <surname>Leonor</surname>
                             <surname>Marques</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Figueiredo</surname>
                             <surname>Silva</surname>
                             <surname>Pedro</surname>
@@ -4386,7 +4480,7 @@
                         <persName>
                             <forename>Isidro</forename>
                             <surname>Gomes</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Araújo</surname>
                         </persName>
                         <sex value="M"/>
@@ -4398,7 +4492,7 @@
                     <person xml:id="IvandaCostaGonçalves">
                         <persName>
                             <forename>Ivan</forename>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Costa</surname>
                             <surname>Gonçalves</surname>
                         </persName>
@@ -4413,7 +4507,7 @@
                         <persName>
                             <forename>Ivo</forename>
                             <surname>Dinis</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Oliveira</surname>
                         </persName>
                         <sex value="M"/>
@@ -4426,7 +4520,7 @@
                         <persName>
                             <forename>Jacinto</forename>
                             <surname>Serrão</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Freitas</surname>
                         </persName>
                         <sex value="M"/>
@@ -4440,7 +4534,7 @@
                             <forename>Jamila</forename>
                             <surname>Bárbara</surname>
                             <surname>Madeira</surname>
-                            <surname>e</surname>
+                            <nameLink>e</nameLink>
                             <surname>Madeira</surname>
                         </persName>
                         <sex value="F"/>
@@ -4457,7 +4551,7 @@
                         <persName>
                             <forename>Jerónimo</forename>
                             <surname>Carvalho</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Sousa</surname>
                         </persName>
                         <sex value="M"/>
@@ -4472,10 +4566,10 @@
                         <persName>
                             <forename>Júlia</forename>
                             <surname>Maria</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Almeida</surname>
                             <surname>Lima</surname>
-                            <surname>e</surname>
+                            <nameLink>e</nameLink>
                             <surname>Sequeira</surname>
                             <surname>Rodrigues</surname>
                         </persName>
@@ -4553,7 +4647,7 @@
                             <surname>Isabel</surname>
                             <surname>Martins</surname>
                             <surname>Rigueiro</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Sá</surname>
                             <surname>Pereira</surname>
                         </persName>
@@ -4605,7 +4699,7 @@
                         <persName>
                             <forename>Joaquim</forename>
                             <surname>Barroso</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Almeida</surname>
                             <surname>Barreto</surname>
                         </persName>
@@ -4621,7 +4715,7 @@
                             <forename>Joaquim</forename>
                             <surname>Carlos</surname>
                             <surname>Vasconcelos</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Ponte</surname>
                         </persName>
                         <sex value="M"/>
@@ -4690,7 +4784,7 @@
                             <surname>Albino</surname>
                             <surname>Rainho</surname>
                             <surname>Ataíde</surname>
-                            <surname>das</surname>
+                            <nameLink>das</nameLink>
                             <surname>Neves</surname>
                         </persName>
                         <sex value="M"/>
@@ -4787,7 +4881,7 @@
                         <persName>
                             <forename>João</forename>
                             <surname>Casanova</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Almeida</surname>
                         </persName>
                         <sex value="M"/>
@@ -4815,9 +4909,9 @@
                             <forename>João</forename>
                             <surname>Fernando</surname>
                             <surname>Brum</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Azevedo</surname>
-                            <surname>e</surname>
+                            <nameLink>e</nameLink>
                             <surname>Castro</surname>
                         </persName>
                         <sex value="M"/>
@@ -4832,7 +4926,7 @@
                             <forename>João</forename>
                             <surname>Fernando</surname>
                             <surname>Cotrim</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Figueiredo</surname>
                         </persName>
                         <sex value="M"/>
@@ -4863,7 +4957,7 @@
                             <surname>Guilherme</surname>
                             <surname>Ramos</surname>
                             <surname>Rosa</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Oliveira</surname>
                         </persName>
                         <sex value="M"/>
@@ -4891,7 +4985,7 @@
                         <persName>
                             <forename>João</forename>
                             <surname>Manuel</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Serpa</surname>
                             <surname>Oliva</surname>
                         </persName>
@@ -4957,7 +5051,7 @@
                             <forename>João</forename>
                             <surname>Manuel</surname>
                             <surname>Lobo</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Araújo</surname>
                         </persName>
                         <sex value="M"/>
@@ -5011,7 +5105,7 @@
                             <forename>João</forename>
                             <surname>Miguel</surname>
                             <surname>Marques</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Costa</surname>
                         </persName>
                         <sex value="M"/>
@@ -5082,7 +5176,7 @@
                         <persName>
                             <forename>João</forename>
                             <surname>Paulo</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Loureiro</surname>
                             <surname>Rebelo</surname>
                         </persName>
@@ -5160,7 +5254,7 @@
                         <persName>
                             <forename>João</forename>
                             <surname>Pedro</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Conceição</surname>
                             <surname>Rodrigues</surname>
                         </persName>
@@ -5175,7 +5269,7 @@
                             <forename>João</forename>
                             <surname>Pedro</surname>
                             <surname>Furtado</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Cunha</surname>
                             <surname>Semedo</surname>
                         </persName>
@@ -5207,7 +5301,7 @@
                             <forename>João</forename>
                             <surname>Pedro</surname>
                             <surname>Soeiro</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Matos</surname>
                             <surname>Fernandes</surname>
                         </persName>
@@ -5248,7 +5342,7 @@
                             <forename>João</forename>
                             <surname>Rodrigo</surname>
                             <surname>Pinho</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Almeida</surname>
                         </persName>
                         <sex value="M"/>
@@ -5292,7 +5386,7 @@
                         <persName>
                             <forename>João</forename>
                             <surname>Saldanha</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Azevedo</surname>
                             <surname>Galamba</surname>
                         </persName>
@@ -5329,7 +5423,7 @@
                         <persName>
                             <forename>João</forename>
                             <surname>Veloso</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                             <surname>Torres</surname>
                         </persName>
@@ -5372,7 +5466,7 @@
                             <forename>Jorge</forename>
                             <surname>Duarte</surname>
                             <surname>Gonçalves</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Costa</surname>
                         </persName>
                         <sex value="M"/>
@@ -5478,7 +5572,7 @@
                         <persName>
                             <forename>Jorge</forename>
                             <surname>Manuel</surname>
-                            <surname>do</surname>
+                            <nameLink>do</nameLink>
                             <surname>Nascimento</surname>
                             <surname>Botelho</surname>
                         </persName>
@@ -5509,7 +5603,7 @@
                             <surname>Manuel</surname>
                             <surname>Lopes</surname>
                             <surname>Moreira</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                         </persName>
                         <sex value="M"/>
@@ -5600,7 +5694,7 @@
                         <persName>
                             <forename>Jorge</forename>
                             <surname>Paulo</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                             <surname>Oliveira</surname>
                         </persName>
@@ -5655,7 +5749,7 @@
                         <persName>
                             <forename>José</forename>
                             <surname>Alberto</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Azeredo</surname>
                             <surname>Ferreira</surname>
                             <surname>Lopes</surname>
@@ -5688,9 +5782,9 @@
                         <persName>
                             <forename>José</forename>
                             <surname>António</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Sousa</surname>
-                            <surname>e</surname>
+                            <nameLink>e</nameLink>
                             <surname>Silva</surname>
                         </persName>
                         <sex value="M"/>
@@ -5705,7 +5799,7 @@
                             <surname>António</surname>
                             <surname>Fonseca</surname>
                             <surname>Vieira</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                         </persName>
                         <sex value="M"/>
@@ -5756,9 +5850,9 @@
                         <persName>
                             <forename>José</forename>
                             <surname>Borges</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Araújo</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Moura</surname>
                             <surname>Soeiro</surname>
                         </persName>
@@ -5789,7 +5883,7 @@
                             <surname>Carlos</surname>
                             <surname>Correia</surname>
                             <surname>Mota</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Andrade</surname>
                         </persName>
                         <sex value="M"/>
@@ -5815,7 +5909,7 @@
                         <persName>
                             <forename>José</forename>
                             <surname>Carlos</surname>
-                            <surname>das</surname>
+                            <nameLink>das</nameLink>
                             <surname>Dores</surname>
                             <surname>Zorrinho</surname>
                         </persName>
@@ -5852,7 +5946,7 @@
                     <person xml:id="JosédeAlmeidaCesário">
                         <persName>
                             <forename>José</forename>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Almeida</surname>
                             <surname>Cesário</surname>
                         </persName>
@@ -5874,7 +5968,7 @@
                             <forename>José</forename>
                             <surname>Diogo</surname>
                             <surname>Santiago</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Albuquerque</surname>
                         </persName>
                         <sex value="M"/>
@@ -5890,10 +5984,10 @@
                         <persName>
                             <forename>José</forename>
                             <surname>Duarte</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Almeida</surname>
                             <surname>Ribeiro</surname>
-                            <surname>e</surname>
+                            <nameLink>e</nameLink>
                             <surname>Castro</surname>
                         </persName>
                         <sex value="M"/>
@@ -5959,7 +6053,7 @@
                         <persName>
                             <forename>José</forename>
                             <surname>Hélder</surname>
-                            <surname>do</surname>
+                            <nameLink>do</nameLink>
                             <surname>Amaral</surname>
                         </persName>
                         <sex value="M"/>
@@ -6065,7 +6159,7 @@
                         <persName>
                             <forename>José</forename>
                             <surname>Manuel</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Albuquerque</surname>
                             <surname>Portocarrero</surname>
                             <surname>Canavarro</surname>
@@ -6080,7 +6174,7 @@
                         <persName>
                             <forename>José</forename>
                             <surname>Manuel</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Matos</surname>
                             <surname>Correia</surname>
                         </persName>
@@ -6095,7 +6189,7 @@
                         <persName>
                             <forename>José</forename>
                             <surname>Manuel</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Sousa</surname>
                             <surname>Rodrigues</surname>
                         </persName>
@@ -6111,7 +6205,7 @@
                             <surname>Manuel</surname>
                             <surname>Lello</surname>
                             <surname>Ribeiro</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Almeida</surname>
                         </persName>
                         <sex value="M"/>
@@ -6125,7 +6219,7 @@
                             <forename>José</forename>
                             <surname>Manuel</surname>
                             <surname>Marques</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                             <surname>Pureza</surname>
                         </persName>
@@ -6141,7 +6235,7 @@
                             <forename>José</forename>
                             <surname>Manuel</surname>
                             <surname>Marques</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Matos</surname>
                             <surname>Rosa</surname>
                         </persName>
@@ -6157,7 +6251,7 @@
                             <forename>José</forename>
                             <surname>Manuel</surname>
                             <surname>Santos</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Magalhães</surname>
                         </persName>
                         <sex value="M"/>
@@ -6242,7 +6336,7 @@
                             <forename>José</forename>
                             <surname>Miguel</surname>
                             <surname>Abreu</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Figueiredo</surname>
                             <surname>Medeiros</surname>
                         </persName>
@@ -6257,7 +6351,7 @@
                             <forename>José</forename>
                             <surname>Paulino</surname>
                             <surname>Carvalho</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Ascenção</surname>
                         </persName>
                         <sex value="M"/>
@@ -6271,7 +6365,7 @@
                             <forename>José</forename>
                             <surname>Pedro</surname>
                             <surname>Correia</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Aguiar</surname>
                             <surname>Branco</surname>
                         </persName>
@@ -6322,7 +6416,7 @@
                             <forename>Laura</forename>
                             <surname>Maria</surname>
                             <surname>Santos</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Sousa</surname>
                             <surname>Esperança</surname>
                         </persName>
@@ -6336,7 +6430,7 @@
                         <persName>
                             <forename>Laura</forename>
                             <surname>Patrícia</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Sousa</surname>
                             <surname>Monteiro</surname>
                             <surname>Magalhães</surname>
@@ -6382,7 +6476,7 @@
                             <surname>Maria</surname>
                             <surname>Bulcão</surname>
                             <surname>Rosa</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silveira</surname>
                             <surname>Dutra</surname>
                         </persName>
@@ -6396,7 +6490,7 @@
                         <persName>
                             <forename>Leonardo</forename>
                             <surname>Bandeira</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Melo</surname>
                             <surname>Mathias</surname>
                         </persName>
@@ -6411,7 +6505,7 @@
                             <surname>Fernando</surname>
                             <surname>Pinto</surname>
                             <surname>Coelho</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Costa</surname>
                         </persName>
                         <sex value="M"/>
@@ -6425,7 +6519,7 @@
                             <forename>Liliana</forename>
                             <surname>Sofia</surname>
                             <surname>Bouça</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                         </persName>
                         <sex value="F"/>
@@ -6451,7 +6545,7 @@
                         <persName>
                             <forename>Lília</forename>
                             <surname>Ana</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Cruz</surname>
                             <surname>Oliveira</surname>
                             <surname>Martins</surname>
@@ -6469,7 +6563,7 @@
                             <surname>Carlota</surname>
                             <surname>Monteiro</surname>
                             <surname>Ferreira</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Oliveira</surname>
                             <surname>Fonseca</surname>
                         </persName>
@@ -6526,7 +6620,7 @@
                             <forename>Luís</forename>
                             <surname>Filipe</surname>
                             <surname>Carrilho</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Castro</surname>
                             <surname>Mendes</surname>
                         </persName>
@@ -6544,7 +6638,7 @@
                             <surname>Filipe</surname>
                             <surname>Montenegro</surname>
                             <surname>Cardoso</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Morais</surname>
                             <surname>Esteves</surname>
                         </persName>
@@ -6574,7 +6668,7 @@
                         <persName>
                             <forename>Luís</forename>
                             <surname>Loureiro</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Castro</surname>
                         </persName>
                         <sex value="M"/>
@@ -6588,7 +6682,7 @@
                             <forename>Luís</forename>
                             <surname>Álvaro</surname>
                             <surname>Barbosa</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Campos</surname>
                             <surname>Ferreira</surname>
                         </persName>
@@ -6610,7 +6704,7 @@
                             <forename>Luís</forename>
                             <surname>Manuel</surname>
                             <surname>Capoulas</surname>
-                            <surname>dos</surname>
+                            <nameLink>dos</nameLink>
                             <surname>Santos</surname>
                         </persName>
                         <sex value="M"/>
@@ -6640,7 +6734,7 @@
                         <persName>
                             <forename>Luís</forename>
                             <surname>Maria</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Barros</surname>
                             <surname>Serra</surname>
                             <surname>Marques</surname>
@@ -6675,7 +6769,7 @@
                         <persName>
                             <forename>Luís</forename>
                             <surname>Miguel</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Graça</surname>
                             <surname>Nunes</surname>
                         </persName>
@@ -6690,7 +6784,7 @@
                         <persName>
                             <forename>Luís</forename>
                             <surname>Miguel</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Freitas</surname>
                             <surname>Marques</surname>
                             <surname>Carvalho</surname>
@@ -6721,7 +6815,7 @@
                             <forename>Luís</forename>
                             <surname>Miguel</surname>
                             <surname>Oliveira</surname>
-                            <surname>dos</surname>
+                            <nameLink>dos</nameLink>
                             <surname>Reis</surname>
                         </persName>
                         <sex value="M"/>
@@ -6752,7 +6846,7 @@
                             <forename>Luís</forename>
                             <surname>Miguel</surname>
                             <surname>Vilhena</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Carvalho</surname>
                         </persName>
                         <sex value="M"/>
@@ -6767,7 +6861,7 @@
                             <surname>Pedro</surname>
                             <surname>Machado</surname>
                             <surname>Sampaio</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Sousa</surname>
                             <surname>Pimentel</surname>
                         </persName>
@@ -6783,7 +6877,7 @@
                             <forename>Luís</forename>
                             <surname>Pedro</surname>
                             <surname>Russo</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Mota</surname>
                             <surname>Soares</surname>
                         </persName>
@@ -6840,7 +6934,7 @@
                             <surname>António</surname>
                             <surname>Magalhães</surname>
                             <surname>Ferrão</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Castello-Branco</surname>
                         </persName>
                         <sex value="M"/>
@@ -6908,7 +7002,7 @@
                         <persName>
                             <forename>Manuel</forename>
                             <surname>António</surname>
-                            <surname>dos</surname>
+                            <nameLink>dos</nameLink>
                             <surname>Santos</surname>
                             <surname>Afonso</surname>
                         </persName>
@@ -6924,7 +7018,7 @@
                             <surname>António</surname>
                             <surname>Gonçalves</surname>
                             <surname>Mota</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                         </persName>
                         <sex value="M"/>
@@ -6949,7 +7043,7 @@
                     <person xml:id="ManueldeHerédiaCaldeiraCabral">
                         <persName>
                             <forename>Manuel</forename>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Herédia</surname>
                             <surname>Caldeira</surname>
                             <surname>Cabral</surname>
@@ -7010,7 +7104,7 @@
                             <forename>Manuel</forename>
                             <surname>Filipe</surname>
                             <surname>Correia</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Jesus</surname>
                         </persName>
                         <sex value="M"/>
@@ -7024,9 +7118,9 @@
                             <forename>Manuel</forename>
                             <surname>Francisco</surname>
                             <surname>Pizarro</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Sampaio</surname>
-                            <surname>e</surname>
+                            <nameLink>e</nameLink>
                             <surname>Castro</surname>
                         </persName>
                         <sex value="M"/>
@@ -7040,7 +7134,7 @@
                             <forename>Manuel</forename>
                             <surname>Frederico</surname>
                             <surname>Tojal</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Valsassina</surname>
                             <surname>Heitor</surname>
                         </persName>
@@ -7073,7 +7167,7 @@
                         <persName>
                             <forename>Manuel</forename>
                             <surname>José</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Faria</surname>
                             <surname>Seabra</surname>
                             <surname>Monteiro</surname>
@@ -7104,7 +7198,7 @@
                             <forename>Manuel</forename>
                             <surname>Pedro</surname>
                             <surname>Cunha</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                             <surname>Pereira</surname>
                         </persName>
@@ -7133,7 +7227,7 @@
                             <surname>Nuno</surname>
                             <surname>Duarte</surname>
                             <surname>Rebelo</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Sousa</surname>
                         </persName>
                         <sex value="M"/>
@@ -7148,7 +7242,7 @@
                             <forename>Marco</forename>
                             <surname>António</surname>
                             <surname>Ribeiro</surname>
-                            <surname>dos</surname>
+                            <nameLink>dos</nameLink>
                             <surname>Santos</surname>
                             <surname>Costa</surname>
                         </persName>
@@ -7164,12 +7258,12 @@
                     <person xml:id="MarcosdaCunhaeLorenaPerestrellodeVasconcellos">
                         <persName>
                             <forename>Marcos</forename>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Cunha</surname>
-                            <surname>e</surname>
+                            <nameLink>e</nameLink>
                             <surname>Lorena</surname>
                             <surname>Perestrello</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Vasconcellos</surname>
                         </persName>
                         <sex value="M"/>
@@ -7207,7 +7301,7 @@
                             <forename>Margarida</forename>
                             <surname>Rosa</surname>
                             <surname>Silva</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Almeida</surname>
                         </persName>
                         <sex value="F"/>
@@ -7260,7 +7354,7 @@
                             <surname>Antónia</surname>
                             <surname>Moreno</surname>
                             <surname>Areias</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Almeida</surname>
                             <surname>Santos</surname>
                         </persName>
@@ -7276,10 +7370,10 @@
                         <persName>
                             <forename>Maria</forename>
                             <surname>Augusta</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Araújo</surname>
                             <surname>Fontes</surname>
-                            <surname>dos</surname>
+                            <nameLink>dos</nameLink>
                             <surname>Santos</surname>
                         </persName>
                         <sex value="F"/>
@@ -7307,7 +7401,7 @@
                             <forename>Maria</forename>
                             <surname>Celeste</surname>
                             <surname>Lopes</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                             <surname>Correia</surname>
                         </persName>
@@ -7353,7 +7447,7 @@
                             <surname>Constança</surname>
                             <surname>Dias</surname>
                             <surname>Urbano</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Sousa</surname>
                         </persName>
                         <sex value="F"/>
@@ -7384,7 +7478,7 @@
                     <person xml:id="MariadaAssunçãoAndradeEsteves">
                         <persName>
                             <forename>Maria</forename>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Assunção</surname>
                             <surname>Andrade</surname>
                             <surname>Esteves</surname>
@@ -7401,7 +7495,7 @@
                     <person xml:id="MariadaConceiçãoAlmeidaFernandesLoureiro">
                         <persName>
                             <forename>Maria</forename>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Conceição</surname>
                             <surname>Almeida</surname>
                             <surname>Fernandes</surname>
@@ -7416,10 +7510,10 @@
                     <person xml:id="MariadaConceiçãoAlvesdosSantosBessaRuãoPinto">
                         <persName>
                             <forename>Maria</forename>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Conceição</surname>
                             <surname>Alves</surname>
-                            <surname>dos</surname>
+                            <nameLink>dos</nameLink>
                             <surname>Santos</surname>
                             <surname>Bessa</surname>
                             <surname>Ruão</surname>
@@ -7435,7 +7529,7 @@
                     <person xml:id="MariadaConceiçãoFelicianoAntunesBrettsJardimPereira">
                         <persName>
                             <forename>Maria</forename>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Conceição</surname>
                             <surname>Feliciano</surname>
                             <surname>Antunes</surname>
@@ -7453,7 +7547,7 @@
                     <person xml:id="MariadaConceiçãoVazBarrosoCarlotoCaldeira">
                         <persName>
                             <forename>Maria</forename>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Conceição</surname>
                             <surname>Vaz</surname>
                             <surname>Barroso</surname>
@@ -7469,9 +7563,9 @@
                     <person xml:id="MariadaGraçadaMoutaSilvaReis">
                         <persName>
                             <forename>Maria</forename>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Graça</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Mouta</surname>
                             <surname>Silva</surname>
                             <surname>Reis</surname>
@@ -7485,10 +7579,10 @@
                     <person xml:id="MariadaGraçaGonçalvesdaMota">
                         <persName>
                             <forename>Maria</forename>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Graça</surname>
                             <surname>Gonçalves</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Mota</surname>
                         </persName>
                         <sex value="F"/>
@@ -7500,7 +7594,7 @@
                     <person xml:id="MariadaLuzGameiroBejaFerreiraRosinha">
                         <persName>
                             <forename>Maria</forename>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Luz</surname>
                             <surname>Gameiro</surname>
                             <surname>Beja</surname>
@@ -7519,7 +7613,7 @@
                     <person xml:id="MariadaLuzMarquesLopes">
                         <persName>
                             <forename>Maria</forename>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Luz</surname>
                             <surname>Marques</surname>
                             <surname>Lopes</surname>
@@ -7533,11 +7627,11 @@
                     <person xml:id="MariadasMercêsGomesBorgesdaSilvaSoares">
                         <persName>
                             <forename>Maria</forename>
-                            <surname>das</surname>
+                            <nameLink>das</nameLink>
                             <surname>Mercês</surname>
                             <surname>Gomes</surname>
                             <surname>Borges</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                             <surname>Soares</surname>
                         </persName>
@@ -7551,12 +7645,12 @@
                     <person xml:id="MariadeAssunçãoOliveiraCristasMachadodaGraça">
                         <persName>
                             <forename>Maria</forename>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Assunção</surname>
                             <surname>Oliveira</surname>
                             <surname>Cristas</surname>
                             <surname>Machado</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Graça</surname>
                         </persName>
                         <sex value="F"/>
@@ -7581,13 +7675,13 @@
                     <person xml:id="MariadeBelémRoseiraMartinsCoelhoHenriquesdePina">
                         <persName>
                             <forename>Maria</forename>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Belém</surname>
                             <surname>Roseira</surname>
                             <surname>Martins</surname>
                             <surname>Coelho</surname>
                             <surname>Henriques</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Pina</surname>
                         </persName>
                         <sex value="F"/>
@@ -7599,7 +7693,7 @@
                     <person xml:id="MariadeFátimaCoelhoFerreira">
                         <persName>
                             <forename>Maria</forename>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Fátima</surname>
                             <surname>Coelho</surname>
                             <surname>Ferreira</surname>
@@ -7613,9 +7707,9 @@
                     <person xml:id="MariadeFátimadeJesusFonseca">
                         <persName>
                             <forename>Maria</forename>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Fátima</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Jesus</surname>
                             <surname>Fonseca</surname>
                         </persName>
@@ -7632,11 +7726,11 @@
                     <person xml:id="MariadeFátimaSimõesRamosdoValeFerreira">
                         <persName>
                             <forename>Maria</forename>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Fátima</surname>
                             <surname>Simões</surname>
                             <surname>Ramos</surname>
-                            <surname>do</surname>
+                            <nameLink>do</nameLink>
                             <surname>Vale</surname>
                             <surname>Ferreira</surname>
                         </persName>
@@ -7649,7 +7743,7 @@
                     <person xml:id="MariadeLurdesMonteiroRibeiro">
                         <persName>
                             <forename>Maria</forename>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Lurdes</surname>
                             <surname>Monteiro</surname>
                             <surname>Ribeiro</surname>
@@ -7664,9 +7758,9 @@
                     <person xml:id="MariadoCéudeOliveiraAntunes">
                         <persName>
                             <forename>Maria</forename>
-                            <surname>do</surname>
+                            <nameLink>do</nameLink>
                             <surname>Céu</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Oliveira</surname>
                             <surname>Antunes</surname>
                         </persName>
@@ -7685,11 +7779,11 @@
                     <person xml:id="MariadoRosárioGambôaLopesdeCarvalho">
                         <persName>
                             <forename>Maria</forename>
-                            <surname>do</surname>
+                            <nameLink>do</nameLink>
                             <surname>Rosário</surname>
                             <surname>Gambôa</surname>
                             <surname>Lopes</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Carvalho</surname>
                         </persName>
                         <sex value="F"/>
@@ -7702,7 +7796,7 @@
                         <persName>
                             <forename>Maria</forename>
                             <surname>Emília</surname>
-                            <surname>e</surname>
+                            <nameLink>e</nameLink>
                             <surname>Sousa</surname>
                             <surname>Cerqueira</surname>
                         </persName>
@@ -7718,9 +7812,9 @@
                             <forename>Maria</forename>
                             <surname>Ester</surname>
                             <surname>Vargas</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Almeida</surname>
-                            <surname>e</surname>
+                            <nameLink>e</nameLink>
                             <surname>Silva</surname>
                         </persName>
                         <sex value="F"/>
@@ -7734,7 +7828,7 @@
                             <forename>Maria</forename>
                             <surname>Eugénia</surname>
                             <surname>Fernandes</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Fonseca</surname>
                             <surname>Neves</surname>
                             <surname>Taveira</surname>
@@ -7791,11 +7885,11 @@
                         <persName>
                             <forename>Maria</forename>
                             <surname>Gabriela</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Cunha</surname>
                             <surname>Baptista</surname>
                             <surname>Rodrigues</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Fonseca</surname>
                         </persName>
                         <sex value="F"/>
@@ -7808,7 +7902,7 @@
                         <persName>
                             <forename>Maria</forename>
                             <surname>Gabriela</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silveira</surname>
                             <surname>Ferreira</surname>
                             <surname>Canavilhas</surname>
@@ -7824,7 +7918,7 @@
                         <persName>
                             <forename>Maria</forename>
                             <surname>Germana</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Sousa</surname>
                             <surname>Rocha</surname>
                         </persName>
@@ -7839,9 +7933,9 @@
                         <persName>
                             <forename>Maria</forename>
                             <surname>Helena</surname>
-                            <surname>do</surname>
+                            <nameLink>do</nameLink>
                             <surname>Rego</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Costa</surname>
                             <surname>Salema</surname>
                             <surname>Roseta</surname>
@@ -7856,7 +7950,7 @@
                         <persName>
                             <forename>Maria</forename>
                             <surname>Helena</surname>
-                            <surname>dos</surname>
+                            <nameLink>dos</nameLink>
                             <surname>Santos</surname>
                             <surname>André</surname>
                         </persName>
@@ -7886,7 +7980,7 @@
                             <forename>Maria</forename>
                             <surname>Isabel</surname>
                             <surname>Cabral</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Abreu</surname>
                             <surname>Castelo</surname>
                             <surname>Branco</surname>
@@ -7920,7 +8014,7 @@
                             <surname>Isabel</surname>
                             <surname>Ferreira</surname>
                             <surname>Coelho</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Sena</surname>
                             <surname>Lino</surname>
                         </persName>
@@ -7955,7 +8049,7 @@
                             <surname>Isilda</surname>
                             <surname>Videira</surname>
                             <surname>Nogueira</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                             <surname>Aguincha</surname>
                         </persName>
@@ -7971,7 +8065,7 @@
                             <surname>Joaquina</surname>
                             <surname>Baptista</surname>
                             <surname>Quintans</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Matos</surname>
                         </persName>
                         <sex value="F"/>
@@ -7985,7 +8079,7 @@
                             <forename>Maria</forename>
                             <surname>João</surname>
                             <surname>Machado</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Ávila</surname>
                         </persName>
                         <sex value="F"/>
@@ -8000,7 +8094,7 @@
                             <forename>Maria</forename>
                             <surname>José</surname>
                             <surname>Pinto</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Cunha</surname>
                             <surname>Avilez</surname>
                             <surname>Nogueira</surname>
@@ -8049,7 +8143,7 @@
                             <surname>Casanova</surname>
                             <surname>Morgado</surname>
                             <surname>Dias</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Albuquerque</surname>
                         </persName>
                         <sex value="F"/>
@@ -8087,7 +8181,7 @@
                         <persName>
                             <forename>Maria</forename>
                             <surname>Manuel</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Almeida</surname>
                             <surname>Rola</surname>
                         </persName>
@@ -8102,7 +8196,7 @@
                         <persName>
                             <forename>Maria</forename>
                             <surname>Manuel</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Lemos</surname>
                             <surname>Leitão</surname>
                             <surname>Marques</surname>
@@ -8166,7 +8260,7 @@
                         <persName>
                             <forename>Maria</forename>
                             <surname>Odete</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Conceição</surname>
                             <surname>João</surname>
                         </persName>
@@ -8193,7 +8287,7 @@
                         <persName>
                             <forename>Maria</forename>
                             <surname>Paula</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Graça</surname>
                             <surname>Cardoso</surname>
                         </persName>
@@ -8207,7 +8301,7 @@
                         <persName>
                             <forename>Maria</forename>
                             <surname>Teresa</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                             <surname>Morais</surname>
                         </persName>
@@ -8240,10 +8334,10 @@
                     <person xml:id="MarianadaConceiçãoPereiradaSilva">
                         <persName>
                             <forename>Mariana</forename>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Conceição</surname>
                             <surname>Pereira</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                         </persName>
                         <sex value="F"/>
@@ -8266,7 +8360,7 @@
                             <forename>Mariana</forename>
                             <surname>Guimarães</surname>
                             <surname>Vieira</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                         </persName>
                         <sex value="F"/>
@@ -8326,7 +8420,7 @@
                     <person xml:id="MarisabeldosSantosRochaMoutela">
                         <persName>
                             <forename>Marisabel</forename>
-                            <surname>dos</surname>
+                            <nameLink>dos</nameLink>
                             <surname>Santos</surname>
                             <surname>Rocha</surname>
                             <surname>Moutela</surname>
@@ -8343,7 +8437,7 @@
                             <surname>Fartura</surname>
                             <surname>Braga</surname>
                             <surname>Temido</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Almeida</surname>
                             <surname>Simões</surname>
                         </persName>
@@ -8364,7 +8458,7 @@
                         <persName>
                             <forename>Marta</forename>
                             <surname>Luísa</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Freitas</surname>
                         </persName>
                         <sex value="F"/>
@@ -8378,7 +8472,7 @@
                             <forename>Martina</forename>
                             <surname>Pires</surname>
                             <surname>Marcelino</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Jesus</surname>
                         </persName>
                         <sex value="F"/>
@@ -8431,11 +8525,11 @@
                             <forename>Miguel</forename>
                             <surname>Bento</surname>
                             <surname>Martins</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Costa</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Macedo</surname>
-                            <surname>e</surname>
+                            <nameLink>e</nameLink>
                             <surname>Silva</surname>
                         </persName>
                         <sex value="M"/>
@@ -8492,7 +8586,7 @@
                     <person xml:id="MigueldeCastroNeto">
                         <persName>
                             <forename>Miguel</forename>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Castro</surname>
                             <surname>Neto</surname>
                         </persName>
@@ -8508,10 +8602,10 @@
                     <person xml:id="MigueldeOliveiraPiresdaCostaMatos">
                         <persName>
                             <forename>Miguel</forename>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Oliveira</surname>
                             <surname>Pires</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Costa</surname>
                             <surname>Matos</surname>
                         </persName>
@@ -8526,7 +8620,7 @@
                             <forename>Miguel</forename>
                             <surname>Fernando</surname>
                             <surname>Cassola</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Miranda</surname>
                             <surname>Relvas</surname>
                         </persName>
@@ -8569,7 +8663,7 @@
                             <forename>Miguel</forename>
                             <surname>João</surname>
                             <surname>Pisoeiro</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Freitas</surname>
                         </persName>
                         <sex value="M"/>
@@ -8597,10 +8691,10 @@
                             <forename>Miguel</forename>
                             <surname>Maria</surname>
                             <surname>Horta</surname>
-                            <surname>e</surname>
+                            <nameLink>e</nameLink>
                             <surname>Costa</surname>
                             <surname>Arrobas</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                         </persName>
                         <sex value="M"/>
@@ -8627,7 +8721,7 @@
                         <persName>
                             <forename>Mónica</forename>
                             <surname>Cláudia</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Castro</surname>
                             <surname>Quintela</surname>
                         </persName>
@@ -8641,7 +8735,7 @@
                         <persName>
                             <forename>Mónica</forename>
                             <surname>Sofia</surname>
-                            <surname>do</surname>
+                            <nameLink>do</nameLink>
                             <surname>Amaral</surname>
                             <surname>Pinto</surname>
                             <surname>Ferro</surname>
@@ -8700,7 +8794,7 @@
                             <forename>Mário</forename>
                             <surname>José</surname>
                             <surname>Gomes</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Freitas</surname>
                             <surname>Centeno</surname>
                         </persName>
@@ -8748,7 +8842,7 @@
                         <persName>
                             <forename>Mário</forename>
                             <surname>Nelson</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                             <surname>Vaz</surname>
                             <surname>Simões</surname>
@@ -8803,7 +8897,7 @@
                         <persName>
                             <forename>Ângela</forename>
                             <surname>Manuela</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Sousa</surname>
                             <surname>Moreira</surname>
                         </persName>
@@ -8832,9 +8926,9 @@
                         <persName>
                             <forename>Ângelo</forename>
                             <surname>Nelson</surname>
-                            <surname>do</surname>
+                            <nameLink>do</nameLink>
                             <surname>Rosário</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Souza</surname>
                         </persName>
                         <sex value="M"/>
@@ -8854,7 +8948,7 @@
                             <forename>Nilza</forename>
                             <surname>Marília</surname>
                             <surname>Mouzinho</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Sena</surname>
                         </persName>
                         <sex value="F"/>
@@ -8883,10 +8977,10 @@
                             <forename>Nuno</forename>
                             <surname>André</surname>
                             <surname>Araújo</surname>
-                            <surname>dos</surname>
+                            <nameLink>dos</nameLink>
                             <surname>Santos</surname>
                             <surname>Reis</surname>
-                            <surname>e</surname>
+                            <nameLink>e</nameLink>
                             <surname>Sá</surname>
                         </persName>
                         <sex value="M"/>
@@ -8902,7 +8996,7 @@
                             <forename>Nuno</forename>
                             <surname>André</surname>
                             <surname>Maia</surname>
-                            <surname>das</surname>
+                            <nameLink>das</nameLink>
                             <surname>Neves</surname>
                         </persName>
                         <sex value="M"/>
@@ -8930,7 +9024,7 @@
                             <surname>Artur</surname>
                             <surname>Neves</surname>
                             <surname>Melo</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                         </persName>
                         <sex value="M"/>
@@ -8953,7 +9047,7 @@
                         <persName>
                             <forename>Nuno</forename>
                             <surname>Filipe</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Sá</surname>
                             <surname>Costa</surname>
                         </persName>
@@ -8982,7 +9076,7 @@
                             <surname>Jorge</surname>
                             <surname>Cardona</surname>
                             <surname>Fazenda</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Almeida</surname>
                         </persName>
                         <sex value="M"/>
@@ -9009,7 +9103,7 @@
                             <forename>Nuno</forename>
                             <surname>Miguel</surname>
                             <surname>Miranda</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Magalhães</surname>
                         </persName>
                         <sex value="M"/>
@@ -9024,7 +9118,7 @@
                             <forename>Nuno</forename>
                             <surname>Miguel</surname>
                             <surname>Oliveira</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Carvalho</surname>
                         </persName>
                         <sex value="M"/>
@@ -9039,9 +9133,9 @@
                             <surname>Miguel</surname>
                             <surname>Pestana</surname>
                             <surname>Chaves</surname>
-                            <surname>e</surname>
+                            <nameLink>e</nameLink>
                             <surname>Castro</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Encarnação</surname>
                         </persName>
                         <sex value="M"/>
@@ -9068,7 +9162,7 @@
                         <persName>
                             <forename>Nuno</forename>
                             <surname>Paulo</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Sousa</surname>
                             <surname>Arrobas</surname>
                             <surname>Crato</surname>
@@ -9086,7 +9180,7 @@
                             <forename>Nuno</forename>
                             <surname>Rafael</surname>
                             <surname>Marona</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Carvalho</surname>
                             <surname>Serra</surname>
                         </persName>
@@ -9111,7 +9205,7 @@
                     <person xml:id="OctáviodeOliveira">
                         <persName>
                             <forename>Octávio</forename>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Oliveira</surname>
                         </persName>
                         <sex value="M"/>
@@ -9124,7 +9218,7 @@
                             <forename>Odete</forename>
                             <surname>Maria</surname>
                             <surname>Loureiro</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                         </persName>
                         <sex value="F"/>
@@ -9140,7 +9234,7 @@
                             <forename>Ofélia</forename>
                             <surname>Isabel</surname>
                             <surname>Andrés</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Conceição</surname>
                             <surname>Ramos</surname>
                         </persName>
@@ -9179,7 +9273,7 @@
                     <person xml:id="OtíliadaConceiçãoFerreiraGomes">
                         <persName>
                             <forename>Otília</forename>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Conceição</surname>
                             <surname>Ferreira</surname>
                             <surname>Gomes</surname>
@@ -9196,7 +9290,7 @@
                             <forename>Palmira</forename>
                             <surname>Maciel</surname>
                             <surname>Fernandes</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Costa</surname>
                         </persName>
                         <sex value="F"/>
@@ -9211,11 +9305,11 @@
                             <forename>Patrícia</forename>
                             <surname>Carla</surname>
                             <surname>Bonança</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Mattamouros</surname>
                             <surname>Resende</surname>
                             <surname>Fonseca</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Oliveira</surname>
                         </persName>
                         <sex value="F"/>
@@ -9286,7 +9380,7 @@
                             <surname>Cristina</surname>
                             <surname>Pereira</surname>
                             <surname>Gonçalves</surname>
-                            <surname>e</surname>
+                            <nameLink>e</nameLink>
                             <surname>Álvaro</surname>
                         </persName>
                         <sex value="F"/>
@@ -9309,7 +9403,7 @@
                             <forename>Paula</forename>
                             <surname>Inês</surname>
                             <surname>Alves</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Sousa</surname>
                             <surname>Real</surname>
                         </persName>
@@ -9326,7 +9420,7 @@
                             <surname>Von</surname>
                             <surname>Hafe</surname>
                             <surname>Teixeira</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Cruz</surname>
                         </persName>
                         <sex value="F"/>
@@ -9343,7 +9437,7 @@
                         <persName>
                             <forename>Paulo</forename>
                             <surname>Alexandre</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Carvalho</surname>
                             <surname>Pisco</surname>
                         </persName>
@@ -9359,7 +9453,7 @@
                         <persName>
                             <forename>Paulo</forename>
                             <surname>Alexandre</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Sousa</surname>
                             <surname>Neves</surname>
                         </persName>
@@ -9411,7 +9505,7 @@
                             <forename>Paulo</forename>
                             <surname>Cardoso</surname>
                             <surname>Correia</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Mota</surname>
                             <surname>Pinto</surname>
                         </persName>
@@ -9439,7 +9533,7 @@
                             <forename>Paulo</forename>
                             <surname>César</surname>
                             <surname>Rios</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Oliveira</surname>
                         </persName>
                         <sex value="M"/>
@@ -9453,7 +9547,7 @@
                     <person xml:id="PaulodeFariaLynceNúncio">
                         <persName>
                             <forename>Paulo</forename>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Faria</surname>
                             <surname>Lynce</surname>
                             <surname>Núncio</surname>
@@ -9502,7 +9596,7 @@
                             <surname>Jorge</surname>
                             <surname>Frazão</surname>
                             <surname>Batista</surname>
-                            <surname>dos</surname>
+                            <nameLink>dos</nameLink>
                             <surname>Santos</surname>
                         </persName>
                         <sex value="M"/>
@@ -9516,7 +9610,7 @@
                             <forename>Paulo</forename>
                             <surname>Jorge</surname>
                             <surname>Oliveira</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Ribeiro</surname>
                             <surname>Campos</surname>
                         </persName>
@@ -9546,7 +9640,7 @@
                             <surname>José</surname>
                             <surname>Ribeiro</surname>
                             <surname>Moita</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Macedo</surname>
                         </persName>
                         <sex value="M"/>
@@ -9562,7 +9656,7 @@
                             <forename>Paulo</forename>
                             <surname>Luís</surname>
                             <surname>Cunha</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Almeida</surname>
                         </persName>
                         <sex value="M"/>
@@ -9575,7 +9669,7 @@
                         <persName>
                             <forename>Paulo</forename>
                             <surname>Miguel</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                             <surname>Santos</surname>
                         </persName>
@@ -9590,11 +9684,11 @@
                         <persName>
                             <forename>Paulo</forename>
                             <surname>Miguel</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Barros</surname>
                             <surname>Pacheco</surname>
                             <surname>Seara</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Sá</surname>
                         </persName>
                         <sex value="M"/>
@@ -9705,7 +9799,7 @@
                             <forename>Pedro</forename>
                             <surname>Augusto</surname>
                             <surname>Lynce</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Faria</surname>
                         </persName>
                         <sex value="M"/>
@@ -9718,10 +9812,10 @@
                         <persName>
                             <forename>Pedro</forename>
                             <surname>Carlos</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                             <surname>Bacelar</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Vasconcelos</surname>
                         </persName>
                         <sex value="M"/>
@@ -9734,10 +9828,10 @@
                     <person xml:id="PedrodoÓBarradasdeOliveiraRamos">
                         <persName>
                             <forename>Pedro</forename>
-                            <surname>do</surname>
+                            <nameLink>do</nameLink>
                             <surname>Ó</surname>
                             <surname>Barradas</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Oliveira</surname>
                             <surname>Ramos</surname>
                         </persName>
@@ -9755,7 +9849,7 @@
                         <persName>
                             <forename>Pedro</forename>
                             <surname>Filipe</surname>
-                            <surname>dos</surname>
+                            <nameLink>dos</nameLink>
                             <surname>Santos</surname>
                             <surname>Alves</surname>
                         </persName>
@@ -9803,7 +9897,7 @@
                         <persName>
                             <forename>Pedro</forename>
                             <surname>Gramaxo</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Carvalho</surname>
                             <surname>Siza</surname>
                             <surname>Vieira</surname>
@@ -9871,7 +9965,7 @@
                             <forename>Pedro</forename>
                             <surname>Manuel</surname>
                             <surname>Dias</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Jesus</surname>
                             <surname>Marques</surname>
                         </persName>
@@ -9927,7 +10021,7 @@
                             <surname>Manuel</surname>
                             <surname>Tavares</surname>
                             <surname>Lopes</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Andrade</surname>
                             <surname>Saraiva</surname>
                         </persName>
@@ -9942,7 +10036,7 @@
                             <forename>Pedro</forename>
                             <surname>Manuel</surname>
                             <surname>Valente</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Sousa</surname>
                         </persName>
                         <sex value="M"/>
@@ -9955,7 +10049,7 @@
                         <persName>
                             <forename>Pedro</forename>
                             <surname>Miguel</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Sousa</surname>
                             <surname>Barrocas</surname>
                             <surname>Martinho</surname>
@@ -9971,7 +10065,7 @@
                         <persName>
                             <forename>Pedro</forename>
                             <surname>Nuno</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Oliveira</surname>
                             <surname>Santos</surname>
                         </persName>
@@ -10014,7 +10108,7 @@
                             <surname>Nuno</surname>
                             <surname>Raposo</surname>
                             <surname>Prazeres</surname>
-                            <surname>do</surname>
+                            <nameLink>do</nameLink>
                             <surname>Carmo</surname>
                         </persName>
                         <sex value="M"/>
@@ -10029,7 +10123,7 @@
                             <forename>Pompeu</forename>
                             <surname>Miguel</surname>
                             <surname>Noval</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Rocha</surname>
                             <surname>Martins</surname>
                         </persName>
@@ -10043,9 +10137,9 @@
                         <persName>
                             <forename>Porfírio</forename>
                             <surname>Simoes</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Carvalho</surname>
-                            <surname>e</surname>
+                            <nameLink>e</nameLink>
                             <surname>Silva</surname>
                         </persName>
                         <sex value="M"/>
@@ -10059,7 +10153,7 @@
                         <persName>
                             <forename>Raúl</forename>
                             <surname>Miguel</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Castro</surname>
                         </persName>
                         <sex value="M"/>
@@ -10074,7 +10168,7 @@
                             <surname>Mário</surname>
                             <surname>Carvalho</surname>
                             <surname>Camelo</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Almeida</surname>
                         </persName>
                         <sex value="M"/>
@@ -10086,12 +10180,12 @@
                     <person xml:id="RaqueldeAlmeidaFerreiraDuarteBessadeMelo">
                         <persName>
                             <forename>Raquel</forename>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Almeida</surname>
                             <surname>Ferreira</surname>
                             <surname>Duarte</surname>
                             <surname>Bessa</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Melo</surname>
                         </persName>
                         <sex value="F"/>
@@ -10104,7 +10198,7 @@
                     <person xml:id="RaqueldeFátimaCardosoFerreira">
                         <persName>
                             <forename>Raquel</forename>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Fátima</surname>
                             <surname>Cardoso</surname>
                             <surname>Ferreira</surname>
@@ -10120,7 +10214,7 @@
                             <forename>Regina</forename>
                             <surname>Maria</surname>
                             <surname>Pinto</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Fonseca</surname>
                             <surname>Ramos</surname>
                             <surname>Bastos</surname>
@@ -10135,7 +10229,7 @@
                         <persName>
                             <forename>Renato</forename>
                             <surname>Luís</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Araújo</surname>
                             <surname>Forte</surname>
                             <surname>Sampaio</surname>
@@ -10152,7 +10246,7 @@
                             <forename>Ricardo</forename>
                             <surname>Augusto</surname>
                             <surname>Pereira</surname>
-                            <surname>dos</surname>
+                            <nameLink>dos</nameLink>
                             <surname>Santos</surname>
                         </persName>
                         <sex value="M"/>
@@ -10180,7 +10274,7 @@
                     <person xml:id="RicardodaPiedadeAbreuSerrãoSantos">
                         <persName>
                             <forename>Ricardo</forename>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Piedade</surname>
                             <surname>Abreu</surname>
                             <surname>Serrão</surname>
@@ -10236,7 +10330,7 @@
                         <persName>
                             <forename>Ricardo</forename>
                             <surname>Manuel</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                             <surname>Monteiro</surname>
                             <surname>Bexiga</surname>
@@ -10251,7 +10345,7 @@
                         <persName>
                             <forename>Ricardo</forename>
                             <surname>Manuel</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Amaral</surname>
                             <surname>Rodrigues</surname>
                         </persName>
@@ -10317,7 +10411,7 @@
                     <person xml:id="RitadaCunhaMendes">
                         <persName>
                             <forename>Rita</forename>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Cunha</surname>
                             <surname>Mendes</surname>
                         </persName>
@@ -10372,7 +10466,7 @@
                         <persName>
                             <forename>Romualda</forename>
                             <surname>Maria</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Conceição</surname>
                             <surname>Martins</surname>
                             <surname>Nunes</surname>
@@ -10413,10 +10507,10 @@
                         <persName>
                             <forename>Rosa</forename>
                             <surname>Maria</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                             <surname>Bastos</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Horta</surname>
                             <surname>Albernaz</surname>
                         </persName>
@@ -10489,7 +10583,7 @@
                         <persName>
                             <forename>Rui</forename>
                             <surname>Celestino</surname>
-                            <surname>dos</surname>
+                            <nameLink>dos</nameLink>
                             <surname>Santos</surname>
                             <surname>Cristina</surname>
                         </persName>
@@ -10503,7 +10597,7 @@
                         <persName>
                             <forename>Rui</forename>
                             <surname>Fernando</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Cunha</surname>
                             <surname>Mendes</surname>
                             <surname>Riso</surname>
@@ -10518,7 +10612,7 @@
                         <persName>
                             <forename>Rui</forename>
                             <surname>Fernando</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                             <surname>Rio</surname>
                         </persName>
@@ -10534,7 +10628,7 @@
                             <surname>Jorge</surname>
                             <surname>Cordeiro</surname>
                             <surname>Gonçalves</surname>
-                            <surname>dos</surname>
+                            <nameLink>dos</nameLink>
                             <surname>Santos</surname>
                         </persName>
                         <sex value="M"/>
@@ -10547,7 +10641,7 @@
                         <persName>
                             <forename>Rui</forename>
                             <surname>Jorge</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Figueiredo</surname>
                             <surname>Caetano</surname>
                         </persName>
@@ -10561,7 +10655,7 @@
                         <persName>
                             <forename>Rui</forename>
                             <surname>José</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Costa</surname>
                             <surname>Pereira</surname>
                         </persName>
@@ -10576,7 +10670,7 @@
                             <forename>Rui</forename>
                             <surname>Manuel</surname>
                             <surname>Ferreira</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                         </persName>
                         <sex value="M"/>
@@ -10592,7 +10686,7 @@
                             <surname>Manuel</surname>
                             <surname>Parente</surname>
                             <surname>Chancerelle</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Machete</surname>
                         </persName>
                         <sex value="M"/>
@@ -10612,7 +10706,7 @@
                         <persName>
                             <forename>Rui</forename>
                             <surname>Miguel</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                             <surname>Barreto</surname>
                         </persName>
@@ -10627,7 +10721,7 @@
                             <forename>Rui</forename>
                             <surname>Miguel</surname>
                             <surname>Rocha</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Cruz</surname>
                         </persName>
                         <sex value="M"/>
@@ -10641,7 +10735,7 @@
                         <persName>
                             <forename>Rui</forename>
                             <surname>Paulo</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                             <surname>Soeiro</surname>
                             <surname>Figueiredo</surname>
@@ -10685,7 +10779,7 @@
                         <persName>
                             <forename>Sandra</forename>
                             <surname>Cristina</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Sequeiros</surname>
                             <surname>Pereira</surname>
                         </persName>
@@ -10741,7 +10835,7 @@
                         <persName>
                             <forename>Sandra</forename>
                             <surname>Mestre</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Cunha</surname>
                         </persName>
                         <sex value="F"/>
@@ -10769,10 +10863,10 @@
                             <forename>Sara</forename>
                             <surname>Martins</surname>
                             <surname>Marques</surname>
-                            <surname>dos</surname>
+                            <nameLink>dos</nameLink>
                             <surname>Santos</surname>
                             <surname>Madruga</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Costa</surname>
                         </persName>
                         <sex value="F"/>
@@ -10799,7 +10893,7 @@
                     <person xml:id="SóniadosReis">
                         <persName>
                             <forename>Sónia</forename>
-                            <surname>dos</surname>
+                            <nameLink>dos</nameLink>
                             <surname>Reis</surname>
                         </persName>
                         <sex value="F"/>
@@ -10813,7 +10907,7 @@
                             <forename>Sónia</forename>
                             <surname>Ermelinda</surname>
                             <surname>Matos</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                             <surname>Fertuzinhos</surname>
                         </persName>
@@ -10829,7 +10923,7 @@
                         <persName>
                             <forename>Sónia</forename>
                             <surname>Patrícia</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                             <surname>Ferreira</surname>
                             <surname>Quintino</surname>
@@ -10860,7 +10954,7 @@
                             <forename>Sérgio</forename>
                             <surname>Humberto</surname>
                             <surname>Pereira</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
                         </persName>
                         <sex value="M"/>
@@ -10882,7 +10976,7 @@
                             <forename>Sérgio</forename>
                             <surname>Paulo</surname>
                             <surname>Mendes</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Sousa</surname>
                             <surname>Pinto</surname>
                         </persName>
@@ -10900,7 +10994,7 @@
                             <surname>Sousa</surname>
                             <surname>Lopes</surname>
                             <surname>Freire</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Azevedo</surname>
                         </persName>
                         <sex value="M"/>
@@ -10926,7 +11020,7 @@
                     <person xml:id="SusanadeFátimaCarvalhoAmador">
                         <persName>
                             <forename>Susana</forename>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Fátima</surname>
                             <surname>Carvalho</surname>
                             <surname>Amador</surname>
@@ -10945,7 +11039,7 @@
                         <persName>
                             <forename>Susana</forename>
                             <surname>Maria</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Oliveira</surname>
                             <surname>Lamas</surname>
                         </persName>
@@ -10973,7 +11067,7 @@
                             <forename>Telmo</forename>
                             <surname>Augusto</surname>
                             <surname>Gomes</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Noronha</surname>
                             <surname>Correia</surname>
                         </persName>
@@ -10999,7 +11093,7 @@
                     <person xml:id="TeresadeAndradeLealCoelho">
                         <persName>
                             <forename>Teresa</forename>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Andrade</surname>
                             <surname>Leal</surname>
                             <surname>Coelho</surname>
@@ -11014,7 +11108,7 @@
                     <person xml:id="TeresadeJesusCostaSantos">
                         <persName>
                             <forename>Teresa</forename>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Jesus</surname>
                             <surname>Costa</surname>
                             <surname>Santos</surname>
@@ -11030,7 +11124,7 @@
                             <forename>Teresa</forename>
                             <surname>Margarida</surname>
                             <surname>Figueiredo</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Vasconcelos</surname>
                             <surname>Caeiro</surname>
                         </persName>
@@ -11048,7 +11142,7 @@
                         <persName>
                             <forename>Teresa</forename>
                             <surname>Maria</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Moura</surname>
                             <surname>Anjinho</surname>
                         </persName>
@@ -11142,7 +11236,7 @@
                             <forename>Valter</forename>
                             <surname>António</surname>
                             <surname>Gaspar</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Bernardino</surname>
                             <surname>Ribeiro</surname>
                         </persName>
@@ -11157,7 +11251,7 @@
                             <forename>Valter</forename>
                             <surname>Ricardo</surname>
                             <surname>Borralho</surname>
-                            <surname>dos</surname>
+                            <nameLink>dos</nameLink>
                             <surname>Loios</surname>
                         </persName>
                         <sex value="M"/>
@@ -11210,7 +11304,7 @@
                             <surname>Lúcia</surname>
                             <surname>Raimundo</surname>
                             <surname>Braz</surname>
-                            <surname>dos</surname>
+                            <nameLink>dos</nameLink>
                             <surname>Santos</surname>
                         </persName>
                         <sex value="F"/>
@@ -11252,11 +11346,11 @@
                             <forename>Vânia</forename>
                             <surname>Carvalho</surname>
                             <surname>Dias</surname>
-                            <surname>da</surname>
+                            <nameLink>da</nameLink>
                             <surname>Silva</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Antas</surname>
-                            <surname>de</surname>
+                            <nameLink>de</nameLink>
                             <surname>Barros</surname>
                         </persName>
                         <sex value="F"/>
