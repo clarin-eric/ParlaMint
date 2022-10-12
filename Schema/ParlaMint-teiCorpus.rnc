@@ -81,20 +81,24 @@ org =
     global.atts,
     ana.att?,
     attribute role {
-      "government"
+      "country"
+      | "republic"
+      | "government"
       | "parliament"
       | "politicalParty"
       | 
-        ## The following used only by LT:
+        ## The following used only by BG:
         "parliamentaryGroup"
+      | # ET: Removed, as coalition should be encoded with <relation>!
+        
+        # value>coalition</value
+        
+        ## The following used only by LT:
+        "ngo"
       | "conferenceOfChairs"
       | 
-        ## The following used only by BG:
-        "boardOfParliament"
-      | "coalition"
-      | 
         ## The following used only by CZ:
-        "ngo"
+        "boardOfParliament"
       | "institution"
       | "senate"
       | "committee"
@@ -132,7 +136,7 @@ orgName =
     ## Used when "the same" party changes its name
     (temporal.atts?),
     attribute full { "yes" | "abb" },
-    text
+    normalized-space.string
   }
 
 ## Element defining the political orientation of a politicalParty or
@@ -149,10 +153,10 @@ state =
     (element label {
        element orgName {
          attribute full { "abb" },
-         text
+         normalized-space.string
        }
      }
-     | element note { lang.att, text }+)?
+     | element note { lang.att, normalized-space.string }+)?
   }
 listEvent = element listEvent { head*, event+ }
 
@@ -201,11 +205,11 @@ persName =
     ## Special persons (like 'anonymous', 'group' etc.) have their name in
     ##	term.
     (term
-     | (element surname { personal.att, text }+
-        & element forename { personal.att, text }+
-        & element addName { personal.att, text }*
-        & element roleName { personal.att, text }*
-        & element nameLink { text }*))
+     | (element surname { personal.att, normalized-space.string }+
+        & element forename { personal.att, normalized-space.string }+
+        & element addName { personal.att, normalized-space.string }*
+        & element roleName { personal.att, normalized-space.string }*
+        & element nameLink { normalized-space.string }*))
   }
 affiliation =
   element affiliation {
@@ -243,14 +247,20 @@ affiliation =
       | "secretary"
       | "secretaryGeneral"
     },
-    element roleName { lang.att, text }*
+    element roleName { lang.att, normalized-space.string }*
   }
-occupation = element occupation { global.atts, temporal.atts?, text }
-education = element education { global.atts, temporal.atts?, text }
+occupation =
+  element occupation {
+    global.atts, temporal.atts?, normalized-space.string
+  }
+education =
+  element education {
+    global.atts, temporal.atts?, normalized-space.string
+  }
 # Meant as a container of person photo
 figure =
   element figure {
-    element head { text }?,
+    element head { normalized-space.string }?,
     element graphic {
       attribute url { xsd:anyURI },
       attribute scale {
@@ -266,7 +276,7 @@ langUsage =
       lang.att,
       attribute ident { lang.vals },
       attribute usage { xsd:nonNegativeInteger }?,
-      text
+      normalized-space.string
     }+
   }
 
@@ -276,14 +286,14 @@ langUsage =
 ##     the event happened.
 life-event.content =
   attribute when { xsd:date | xsd:gYearMonth | xsd:gYear },
-  element placeName { ref.att, text }?
+  element placeName { ref.att, normalized-space.string }?
 event =
   element event {
     global.atts,
     temporal.atts,
-    element label { lang.att, text }+
+    element label { lang.att, normalized-space.string }+
   }
-term = element term { text }
+term = element term { normalized-space.string }
 
 ## Text preceded by term, for use in taxonomies.
 term-text = term, annotated-text

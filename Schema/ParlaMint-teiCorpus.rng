@@ -196,16 +196,19 @@
       </optional>
       <attribute name="role">
 	<choice>
+          <value>country</value>
+          <value>republic</value>
           <value>government</value>
           <value>parliament</value>
           <value>politicalParty</value>
 	  <value>parliamentaryGroup</value>
+	  <a:documentation>The following used only by BG:</a:documentation>
+	  <!-- ET: Removed, as coalition should be encoded with <relation>! -->
+          <!--value>coalition</value--> 
+          <value>ngo</value>
 	  <a:documentation>The following used only by LT:</a:documentation>
           <value>conferenceOfChairs</value>
           <value>boardOfParliament</value>
-	  <a:documentation>The following used only by BG:</a:documentation>
-          <value>coalition</value>
-          <value>ngo</value>
 	  <a:documentation>The following used only by CZ:</a:documentation>
 	  <value>institution</value>
 	  <value>senate</value>
@@ -263,7 +266,7 @@
 	  <value>abb</value>
 	</choice>
       </attribute>
-      <text/>
+      <ref name="normalized-space.string"/>
     </element>
   </define>
   
@@ -311,13 +314,13 @@
 	      <attribute name="full">
 		<value>abb</value>
 	      </attribute>
-	      <text/>
+	      <ref name="normalized-space.string"/>
 	    </element>
 	  </element>
 	  <oneOrMore>
 	    <element name="note">
 	      <ref name="lang.att"/>
-	      <text/>
+	      <ref name="normalized-space.string"/>
 	    </element>
 	  </oneOrMore>
 	</choice>
@@ -448,30 +451,30 @@
 	  <oneOrMore>
 	    <element name="surname">
 	      <ref name="personal.att"/>
-	      <text/>
+	      <ref name="normalized-space.string"/>
 	    </element>
 	  </oneOrMore>
 	  <oneOrMore>
 	    <element name="forename">
 	      <ref name="personal.att"/>
-	      <text/>
+	      <ref name="normalized-space.string"/>
 	    </element>
 	  </oneOrMore>
 	  <zeroOrMore>
 	    <element name="addName">
 	      <ref name="personal.att"/>
-	      <text/>
+	      <ref name="normalized-space.string"/>
 	    </element>
 	  </zeroOrMore>
 	  <zeroOrMore>
 	    <element name="roleName">
 	      <ref name="personal.att"/>
-	      <text/>
+	      <ref name="normalized-space.string"/>
 	    </element>
 	  </zeroOrMore>
 	  <zeroOrMore>
 	    <element name="nameLink">
-	      <text/>
+	      <ref name="normalized-space.string"/>
 	    </element>
 	  </zeroOrMore>
 	</interleave>
@@ -526,7 +529,7 @@
       <zeroOrMore>
 	<element name="roleName">
 	  <ref name="lang.att"/>
-	  <text/>
+	  <ref name="normalized-space.string"/>
 	</element>
       </zeroOrMore>
     </element>
@@ -538,7 +541,7 @@
       <optional>
 	<ref name="temporal.atts"/>
       </optional>
-      <text/>
+      <ref name="normalized-space.string"/>
     </element>
   </define>
 
@@ -548,7 +551,7 @@
       <optional>
 	<ref name="temporal.atts"/>
       </optional>
-      <text/>
+      <ref name="normalized-space.string"/>
     </element>
   </define>
 
@@ -557,7 +560,7 @@
     <element name="figure">
       <optional>
 	<element name="head">
-	  <text/>
+	  <ref name="normalized-space.string"/>
 	</element>
       </optional>
       <element name="graphic">
@@ -592,7 +595,7 @@
 	      <data type="nonNegativeInteger"/>
 	    </attribute>
 	  </optional>
-	  <text/>
+	  <ref name="normalized-space.string"/>
 	</element>
       </oneOrMore>
     </element>
@@ -613,7 +616,7 @@
     <optional>
       <element name="placeName">
 	<ref name="ref.att"/>
-	<text/>
+	<ref name="normalized-space.string"/>
       </element>
     </optional>
   </define>
@@ -625,7 +628,7 @@
       <oneOrMore>
 	<element name="label">
 	  <ref name="lang.att"/>
-	  <text/>
+	  <ref name="normalized-space.string"/>
 	</element>
       </oneOrMore>
     </element>
@@ -633,7 +636,7 @@
 
   <define name="term">
     <element name="term">
-      <text/>
+      <ref name="normalized-space.string"/>
     </element>
   </define>
   
