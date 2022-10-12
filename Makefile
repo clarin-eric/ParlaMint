@@ -263,7 +263,8 @@ $(add-common-content-XX): add-common-content-%: %
 	   ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.xml || :
 
 factorize-teiHeader-XX = $(addprefix factorize-teiHeader-, $(PARLIAMENTS))
-## factorize-teiHeader ## calculate and add common content (tagUsage,)
+## factorize-teiHeader ## move the content of listPerson, listOrg and all taxonomies elements
+#### from teiHeader into separate files and xincludes them
 factorize-teiHeader: $(factorize-teiHeader-XX)
 ## factorize-teiHeader-XX ##
 $(factorize-teiHeader-XX): factorize-teiHeader-%: %
