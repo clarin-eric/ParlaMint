@@ -1,0 +1,12 @@
+namespace a = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace ns1 = "http://www.tei-c.org/ns/1.0"
+namespace xi = "http://www.w3.org/2001/XInclude"
+
+a:documentation [
+  "RelaxNG XML schema for ParlaMint corpora: schema\x{a}" ~
+  "  for taxonomy stored in a separate file."
+]
+include "ParlaMint.rnc" inherit = ns1
+
+## Taxonomy element acting as root.
+start = taxonomy
