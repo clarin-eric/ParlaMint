@@ -114,10 +114,12 @@
    </elementSpec>
    <!-- Definition of XInclude -->
    <elementSpec ident="include" mode="add" ns="http://www.w3.org/2001/XInclude">
-      <desc versionDate="2022-05-18" xml:lang="en">used to include parts of the corpus stored as
-    separate files into the corpus root (rooted in the <gi>teiCorpus</gi> element). In particular,
-    this applies to parts of the corpus root header (listPerson, listOrg and taxonomies) and to
-    corpus components (rooted in the <gi>TEI</gi> element).</desc>
+      <desc versionDate="2022-05-18" xml:lang="en">is an element from the XML namespace of the <ref target="https://www.w3.org/TR/xinclude-11/">XML Inclusions (XInclude)</ref> W3C
+    recommendation. It is used to include, into a ParlaMint <gi>teiCorpus</gi> root file the
+    elements of the corpus that are stored as separate files. These are the <gi>TEI</gi> corpus
+    components and parts of the corpus root <gi>teiHeader</gi>. Inside <gi>particDesc</gi> these
+    are <gi>listPerson</gi> &amp; <gi>listOrg</gi>, and <gi>taxonomy</gi> inside
+    <gi>classDecl</gi>.</desc>
       <attList>
          <attDef ident="href" mode="add">
             <datatype>
@@ -5170,9 +5172,10 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="particDesc" module="corpus" mode="change">
-      <desc versionDate="2014-01-06" xml:lang="en">describes the identifiable speakers, voices, or
-    other participants in any kind of text or other persons named or otherwise referred to in a
-    text, edition, or metadata.</desc>
+      <desc versionDate="2022-10-13" xml:lang="en">describes the identifiable speakers and
+    organisations in a ParlaMint corpus. This informations is given in the corpus root
+    teiHeder. Note that the listPerson and listOrg elements are typically stored in separate
+    files.</desc>
       <content>
          <sequence>
             <alternate>
@@ -5213,7 +5216,6 @@
       <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <particDesc>
-	  <!-- listOrg and listPerson are typically stored in separate files -->
 	  &lt;xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
 	           href="href="ParlaMint-SI-listOrg.xml"/&gt;
 	  &lt;xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 

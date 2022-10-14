@@ -126,10 +126,13 @@
   
   <!-- Definition of XInclude -->
   <elementSpec ident="include" mode="add" ns="http://www.w3.org/2001/XInclude">
-    <desc versionDate="2022-05-18" xml:lang="en">used to include parts of the corpus stored as
-    separate files into the corpus root (rooted in the <gi>teiCorpus</gi> element). In particular,
-    this applies to parts of the corpus root header (listPerson, listOrg and taxonomies) and to
-    corpus components (rooted in the <gi>TEI</gi> element).</desc>
+    <desc versionDate="2022-05-18" xml:lang="en">is an element from the XML namespace of the <ref
+    target="https://www.w3.org/TR/xinclude-11/">XML Inclusions (XInclude)</ref> W3C
+    recommendation. It is used to include, into a ParlaMint <gi>teiCorpus</gi> root file the
+    elements of the corpus that are stored as separate files. These are the <gi>TEI</gi> corpus
+    components and parts of the corpus root <gi>teiHeader</gi>. Inside <gi>particDesc</gi> these
+    are <gi>listPerson</gi> &amp; <gi>listOrg</gi>, and <gi>taxonomy</gi> inside
+    <gi>classDecl</gi>.</desc>
     <attList>
       <attDef ident="href" mode="add">
         <datatype>
