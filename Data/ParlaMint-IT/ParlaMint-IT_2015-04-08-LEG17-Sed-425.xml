@@ -8,7 +8,7 @@
          <titleStmt>
             <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 17, Seduta 425 [ParlaMint SAMPLE]</title>
             <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 17, Sitting 425 [ParlaMint SAMPLE]</title>
-            <title type="sub" xml:lang="it">Resoconto  della seduta del Senato della  Repubblica italiana, Legislatura 17, seduta 425, giorno (2015-04-08)</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 17, seduta 425, giorno (2015-04-08)</title>
             <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 17, Sitting 425, Day (2015-04-08)</title>
             <meeting ana="#parla.upper">Senato</meeting>
             <meeting ana="#parla.upper #parla.term #LEG.17" n="17-upper">17 Legislatura</meeting>
@@ -58,13 +58,13 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>3.0</edition>
+            <edition>3.0a</edition>
          </editionStmt>
-         <extent><!--These numbers do not reflect the size of the sample!-->
+         <extent>
             <measure quantity="122" unit="speeches" xml:lang="it">122 discorsi</measure>
             <measure quantity="122" unit="speeches" xml:lang="en">122 speeches</measure>
-            <measure quantity="25210" unit="words" xml:lang="it">25210 parole</measure>
-            <measure quantity="25210" unit="words" xml:lang="en">25210 words</measure>
+            <measure quantity="25210" unit="words" xml:lang="it"/>
+            <measure quantity="25210" unit="words" xml:lang="en"/>
          </extent>
          <publicationStmt>
             <publisher>
@@ -72,21 +72,13 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1388</idno>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
-               <p xml:lang="it">
-            Quest'opera è rilasciata con 
-            <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>
-            .
-          </p>
-               <p xml:lang="en">
-            This work is licensed under the 
-            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
-            .
-          </p>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref> .</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
             </availability>
-            <date when="2022-10-14">2022-10-14</date>
+            <date when="2022-10-14">October 14, 2022</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -107,16 +99,26 @@
                <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
          </projectDesc>
-         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+         <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="div" occurs="18"/>
-               <tagUsage gi="head" occurs="13"/>
-               <tagUsage gi="note" occurs="123"/>
-               <tagUsage gi="seg" occurs="122"/>
-               <tagUsage gi="u" occurs="47"/>
                <tagUsage gi="body" occurs="1"/>
-               <tagUsage gi="kinesic" occurs="31"/>
-               <tagUsage gi="desc" occurs="31"/>
+               <tagUsage gi="desc" occurs="2"/>
+               <tagUsage gi="div" occurs="4"/>
+               <tagUsage gi="gap" occurs="2"/>
+               <tagUsage gi="head" occurs="2"/>
+               <tagUsage gi="note" occurs="6"/>
+               <tagUsage gi="seg" occurs="4"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="4"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="2"/>
+               <tagUsage gi="div" occurs="4"/>
+               <tagUsage gi="gap" occurs="2"/>
+               <tagUsage gi="head" occurs="2"/>
+               <tagUsage gi="note" occurs="6"/>
+               <tagUsage gi="seg" occurs="4"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="4"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
