@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2022-10-13T17:43:28Z. 2022-10-04.
+Schema generated from ODD source 2022-10-17T14:48:32Z. 2022-10-17.
 TEI Edition: Version 4.5.0a. Last updated on
         1st June 2022, revision aeba95253
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.5.0a./
@@ -2096,7 +2096,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
    </define>
    <define name="tei_particDesc">
       <element name="particDesc">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(participation description) describes the identifiable speakers, voices, or other participants in any kind of text or other persons named or otherwise referred to in a text, edition, or metadata. [15.2. Contextual Information]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(participation description) describes the identifiable speakers and organisations in a ParlaMint corpus. This informations is given in the corpus root teiHeder. Note that the listPerson and listOrg elements are typically stored in separate files. [15.2. Contextual Information]</a:documentation>
          <group>
             <choice>
                <ref name="tei_listOrg"/>
@@ -3757,7 +3757,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
    </pattern>
    <define name="tei_include">
       <element name="include" ns="http://www.w3.org/2001/XInclude">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">used to include parts of the corpus stored as separate files into the corpus root (rooted in the <code xmlns="http://www.w3.org/1999/xhtml">&lt;teiCorpus&gt;</code> element). In particular, this applies to parts of the corpus root header (listPerson, listOrg and taxonomies) and to corpus components (rooted in the <code xmlns="http://www.w3.org/1999/xhtml">&lt;TEI&gt;</code> element).</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">is an element from the XML namespace of the <a xmlns="http://www.w3.org/1999/xhtml"
+               href="https://www.w3.org/TR/xinclude-11/">XML Inclusions (XInclude)</a> W3C recommendation. It is used to include, into a ParlaMint <code xmlns="http://www.w3.org/1999/xhtml">&lt;teiCorpus&gt;</code> root file the elements of the corpus that are stored as separate files. These are the <code xmlns="http://www.w3.org/1999/xhtml">&lt;TEI&gt;</code> corpus components and parts of the corpus root <code xmlns="http://www.w3.org/1999/xhtml">&lt;teiHeader&gt;</code>. Inside <code xmlns="http://www.w3.org/1999/xhtml">&lt;particDesc&gt;</code> these are <code xmlns="http://www.w3.org/1999/xhtml">&lt;listPerson&gt;</code> &amp; <code xmlns="http://www.w3.org/1999/xhtml">&lt;listOrg&gt;</code>, and <code xmlns="http://www.w3.org/1999/xhtml">&lt;taxonomy&gt;</code> inside <code xmlns="http://www.w3.org/1999/xhtml">&lt;classDecl&gt;</code>.</a:documentation>
          <empty/>
          <optional>
             <attribute name="href">
