@@ -22,7 +22,7 @@
    <moduleRef key="spoken"
               include="equipment incident kinesic recording recordingStmt u vocal"/>
    <moduleRef key="namesdates"
-              include="addName affiliation birth death education event forename listEvent listOrg listPerson listRelation nameLink occupation org orgName persName person placeName relation roleName sex surname"/>
+              include="addName affiliation birth death education event forename listEvent listOrg listPerson listRelation nameLink occupation org orgName persName person placeName relation roleName sex state surname"/>
    <moduleRef key="linking" include="link linkGrp seg"/>
    <moduleRef key="figures" include="figure"/>
    <moduleRef key="analysis" include="pc s w"/>
@@ -4825,7 +4825,10 @@
       <desc versionDate="2011-11-05" xml:lang="en">contains any label or heading used to identify part of a text,
     typically but not exclusively in a list or glossary.</desc>
       <content>
-         <textNode/>
+         <alternate>
+            <textNode/>
+            <elementRef key="orgName"/>
+         </alternate>
       </content>
       <attList><!--label/@xml:lang-->
          <attDef ident="xml:id" mode="delete"/>
@@ -5385,19 +5388,21 @@
             <elementRef key="idno" minOccurs="0" maxOccurs="unbounded"/>
             <elementRef key="desc" minOccurs="0" maxOccurs="1"/>
             <elementRef key="listEvent" minOccurs="0" maxOccurs="1"/>
+            <elementRef key="state" minOccurs="0" maxOccurs="unbounded"/>
          </sequence>
       </content>
       <attList>
          <attDef ident="xml:id" mode="change" usage="req"/>
          <attDef ident="role" mode="replace" usage="req">
             <valList type="closed">
+               <valItem ident="country"/>
+               <valItem ident="republic"/>
                <valItem ident="government"/>
                <valItem ident="parliament"/>
                <valItem ident="politicalParty"/>
                <valItem ident="parliamentaryGroup"/>
                <valItem ident="conferenceOfChairs"/>
                <valItem ident="boardOfParliament"/>
-               <valItem ident="coalition"/>
                <valItem ident="ngo"/>
                <valItem ident="institution"/>
                <valItem ident="senate"/>
@@ -5784,6 +5789,131 @@
                       passive="#politicalParty.CSSD.153 #politicalParty.ENO.1"
                       from="2013-10-29"
                       to="2017-10-26"/>
+         </egXML>
+      </exemplum>
+   </elementSpec>
+   <elementSpec ident="state" module="namesdates" mode="change">
+      <desc versionDate="2022-10-04" xml:lang="en">defines the political orientation of a political party or parliamentary group. The orientation can be taken from CHES, Wikipedia or an unknown source.</desc>
+      <content>
+         <alternate>
+            <elementRef key="label"/>
+            <elementRef key="note" minOccurs="0" maxOccurs="unbounded"/>
+         </alternate>
+      </content>
+      <attList>
+         <attDef ident="type" mode="change" usage="req">
+            <valList type="closed">
+               <valItem ident="politicalOrientation"/>
+            </valList>
+         </attDef>
+         <attDef ident="subtype" mode="change" usage="req">
+            <valList type="closed">
+               <valItem ident="CHES"/>
+               <valItem ident="Wikipedia"/>
+               <valItem ident="unknown"/>
+            </valList>
+         </attDef>
+         <attDef ident="ana" mode="change" usage="req">
+            <datatype>
+               <dataRef key="teidata.pointer"/>
+            </datatype>
+         </attDef>
+         <!--state/@source-->
+         <!--state/@n-->
+         <!--state/@from-->
+         <!--state/@to-->
+         <attDef ident="xml:id" mode="delete"/>
+         <attDef ident="xml:lang" mode="delete"/>
+         <attDef ident="xml:base" mode="delete"/>
+         <attDef ident="xml:space" mode="delete"/>
+         <attDef ident="rend" mode="delete"/>
+         <attDef ident="style" mode="delete"/>
+         <attDef ident="rendition" mode="delete"/>
+         <attDef ident="corresp" mode="delete"/>
+         <attDef ident="synch" mode="delete"/>
+         <attDef ident="sameAs" mode="delete"/>
+         <attDef ident="copyOf" mode="delete"/>
+         <attDef ident="next" mode="delete"/>
+         <attDef ident="prev" mode="delete"/>
+         <attDef ident="exclude" mode="delete"/>
+         <attDef ident="select" mode="delete"/>
+         <attDef ident="facs" mode="delete"/>
+         <attDef ident="change" mode="delete"/>
+         <attDef ident="cert" mode="delete"/>
+         <attDef ident="resp" mode="delete"/>
+         <attDef ident="calendar" mode="delete"/>
+         <attDef ident="period" mode="delete"/>
+         <attDef ident="when" mode="delete"/>
+         <attDef ident="notBefore" mode="delete"/>
+         <attDef ident="notAfter" mode="delete"/>
+         <attDef ident="when-iso" mode="delete"/>
+         <attDef ident="notBefore-iso" mode="delete"/>
+         <attDef ident="notAfter-iso" mode="delete"/>
+         <attDef ident="from-iso" mode="delete"/>
+         <attDef ident="to-iso" mode="delete"/>
+         <attDef ident="when-custom" mode="delete"/>
+         <attDef ident="notBefore-custom" mode="delete"/>
+         <attDef ident="notAfter-custom" mode="delete"/>
+         <attDef ident="from-custom" mode="delete"/>
+         <attDef ident="to-custom" mode="delete"/>
+         <attDef ident="datingPoint" mode="delete"/>
+         <attDef ident="datingMethod" mode="delete"/>
+         <attDef ident="evidence" mode="delete"/>
+         <attDef ident="instant" mode="delete"/>
+         <attDef ident="role" mode="delete"/>
+         <attDef ident="nymRef" mode="delete"/>
+         <attDef ident="key" mode="delete"/>
+         <attDef ident="ref" mode="delete"/>
+         <attDef ident="unit" mode="delete"/>
+         <attDef ident="quantity" mode="delete"/>
+         <attDef ident="extent" mode="delete"/>
+         <attDef ident="precision" mode="delete"/>
+         <attDef ident="scope" mode="delete"/>
+         <attDef ident="atLeast" mode="delete"/>
+         <attDef ident="atMost" mode="delete"/>
+         <attDef ident="min" mode="delete"/>
+         <attDef ident="max" mode="delete"/>
+         <attDef ident="confidence" mode="delete"/>
+      </attList>
+      <exemplum xml:lang="en">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <state type="politicalOrientation" subtype="unknown" ana="#orientation.L"/>
+         </egXML>
+      </exemplum>
+      <exemplum xml:lang="en">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <state type="politicalOrientation"
+                   subtype="Wikipedia"
+                   source="https://en.wikipedia.org/wiki/Christian_Democratic_and_Flemish"
+                   ana="#orientation.CCR">
+               <note xml:lang="en">CD&amp;V, CDV, CVP (until 2001)</note>
+            </state>
+         </egXML>
+      </exemplum>
+      <exemplum versionDate="2008-04-06" xml:lang="fr">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <state type="politicalOrientation"
+                   subtype="CHES"
+                   source="https://www.chesdata.eu/s/1999-2019_CHES_dataset_meansv3.csv"
+                   n="2.29"
+                   ana="#orientation.L"
+                   from="2010"
+                   to="2013">
+               <label>
+                  <orgName full="init">Groen</orgName>
+               </label>
+            </state>
+            <state type="politicalOrientation"
+                   subtype="CHES"
+                   source="https://www.chesdata.eu/s/1999-2019_CHES_dataset_meansv3.csv"
+                   n="2.20"
+                   ana="#orientation.L"
+                   from="2014"
+                   to="2018">
+               <label>
+                  <orgName full="abb">Groen</orgName>
+               </label>
+            </state>
          </egXML>
       </exemplum>
    </elementSpec>
@@ -6893,7 +7023,7 @@
       </exemplum>
    </elementSpec>
    <!-- So far appears nowhere! (even though it should be one of the CZ named entities  -->
-   <elementSpec module="spoken" ident="equipment">
+   <elementSpec ident="equipment" module="spoken">
       <gloss xml:lang="en" versionDate="2009-04-17">equipment</gloss>
       <desc versionDate="2005-01-14" xml:lang="en">provides technical details of the equipment and media used for
     an audio or video recording used as the source for a spoken text.</desc>
