@@ -8,8 +8,7 @@ a:documentation [
 ]
 include "ParlaMint-TEI.rnc" {
   
-  ## Root element of a ParlaMint root
-  ##       file.
+  ## Root element of a ParlaMint root file.
   start =
     element teiCorpus {
       id.att,
@@ -76,57 +75,59 @@ category =
 ## Metadata on the organisations (esp. political
 ##     parties) and speakers.
 particDesc = element particDesc { listOrg+, listPerson+ }
-listOrg =
-  element listOrg {
-    head*,
-    element org {
-      global.atts,
-      ana.att?,
-      attribute role {
-        "government"
-        | "parliament"
-        | "politicalParty"
-        | 
-          ## The following used only by LT:
-          "parliamentaryGroup"
-        | "conferenceOfChairs"
-        | 
-          ## The following used only by BG:
-          "boardOfParliament"
-        | "coalition"
-        | 
-          ## The following used only by CZ:
-          "ngo"
-        | "institution"
-        | "senate"
-        | "committee"
-        | "subcommittee"
-        | "commission"
-        | "delegation"
-        | "supervisoryBoard"
-        | "workingGroup"
-        | "interparliamentaryFriendshipGroup"
-        | "nationalCouncil"
-        | "chamberOfThePeople"
-        | "chamberOfTheNations"
-        | "europeanParliament"
-        | "internationalOrganisation"
-        | 
-          ## The following used only by SI:
-          "boardOfDirectors"
-        | 
-          ## The following used only by AT:
-          "ethnicCommunity"
-        | "europeanCommission"
-        | "europeanInstitution"
-      },
-      orgName+,
-      event*,
-      idno*,
-      desc?,
-      listEvent?
-    }+,
-    listRelation?
+listOrg = element listOrg { head*, org+, listRelation? }
+org =
+  element org {
+    global.atts,
+    ana.att?,
+    attribute role {
+      "country"
+      | "republic"
+      | "government"
+      | "parliament"
+      | "politicalParty"
+      | 
+        ## The following used only by BG:
+        "parliamentaryGroup"
+      | # ET: Removed, as coalition should be encoded with <relation>!
+        
+        # value>coalition</value
+        
+        ## The following used only by LT:
+        "ngo"
+      | "conferenceOfChairs"
+      | 
+        ## The following used only by CZ:
+        "boardOfParliament"
+      | "institution"
+      | "senate"
+      | "committee"
+      | "subcommittee"
+      | "commission"
+      | "delegation"
+      | "supervisoryBoard"
+      | "workingGroup"
+      | "interparliamentaryFriendshipGroup"
+      | "nationalCouncil"
+      | "chamberOfThePeople"
+      | "chamberOfTheNations"
+      | "europeanParliament"
+      | "internationalOrganisation"
+      | 
+        ## The following used only by SI:
+        "boardOfDirectors"
+      | 
+        ## The following used only by AT:
+        "ethnicCommunity"
+      | "europeanCommission"
+      | "europeanInstitution"
+    },
+    orgName+,
+    event*,
+    idno*,
+    desc?,
+    listEvent?,
+    state*
   }
 orgName =
   element orgName {
@@ -135,7 +136,27 @@ orgName =
     ## Used when "the same" party changes its name
     (temporal.atts?),
     attribute full { "yes" | "abb" },
-    text
+    normalized-space.string
+  }
+
+## Element defining the political orientation of a politicalParty or
+##     parliamentaryGroup.
+state =
+  element state {
+    attribute type { "politicalOrientation" },
+    attribute subtype { "CHES" | "Wikipedia" | "unknown" },
+    attribute source { anyURIs }?,
+    attribute n { xsd:decimal }?,
+    attribute from { temporal.val }?,
+    attribute to { temporal.val }?,
+    attribute ana { xsd:anyURI },
+    (element label {
+       element orgName {
+         attribute full { "abb" },
+         normalized-space.string
+       }
+     }
+     | element note { lang.att, normalized-space.string }+)?
   }
 listEvent = element listEvent { head*, event+ }
 
@@ -184,11 +205,11 @@ persName =
     ## Special persons (like 'anonymous', 'group' etc.) have their name in
     ##	term.
     (term
-     | (element surname { personal.att, text }+
-        & element forename { personal.att, text }+
-        & element addName { personal.att, text }*
-        & element roleName { personal.att, text }*
-        & element nameLink { text }*))
+     | (element surname { personal.att, normalized-space.string }+
+        & element forename { personal.att, normalized-space.string }+
+        & element addName { personal.att, normalized-space.string }*
+        & element roleName { personal.att, normalized-space.string }*
+        & element nameLink { normalized-space.string }*))
   }
 affiliation =
   element affiliation {
@@ -226,14 +247,20 @@ affiliation =
       | "secretary"
       | "secretaryGeneral"
     },
-    element roleName { lang.att, text }*
+    element roleName { lang.att, normalized-space.string }*
   }
-occupation = element occupation { global.atts, temporal.atts?, text }
-education = element education { global.atts, temporal.atts?, text }
+occupation =
+  element occupation {
+    global.atts, temporal.atts?, normalized-space.string
+  }
+education =
+  element education {
+    global.atts, temporal.atts?, normalized-space.string
+  }
 # Meant as a container of person photo
 figure =
   element figure {
-    element head { text }?,
+    element head { normalized-space.string }?,
     element graphic {
       attribute url { xsd:anyURI },
       attribute scale {
@@ -249,7 +276,7 @@ langUsage =
       lang.att,
       attribute ident { lang.vals },
       attribute usage { xsd:nonNegativeInteger }?,
-      text
+      normalized-space.string
     }+
   }
 
@@ -259,14 +286,14 @@ langUsage =
 ##     the event happened.
 life-event.content =
   attribute when { xsd:date | xsd:gYearMonth | xsd:gYear },
-  element placeName { ref.att, text }?
+  element placeName { ref.att, normalized-space.string }?
 event =
   element event {
     global.atts,
     temporal.atts,
-    element label { lang.att, text }+
+    element label { lang.att, normalized-space.string }+
   }
-term = element term { text }
+term = element term { normalized-space.string }
 
 ## Text preceded by term, for use in taxonomies.
 term-text = term, annotated-text

@@ -19,7 +19,9 @@ til	til	til	ADP		9	case	frestun	NOUN	Case=Gen Definite=Ind Gender=Fem Number=Sin
 frestunar	frestunar	frestun	NOUN	Case=Gen Definite=Ind Gender=Fem Number=Sing	10	obl	mæla	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 á	á	á	ADP		11	case	fundur	NOUN	Case=Dat Definite=Ind Gender=Masc Number=Plur	12
 fundum	fundum	fundur	NOUN	Case=Dat Definite=Ind Gender=Masc Number=Plur	12	obl	mæla	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
+<name type="ORG">
 Alþingis	Alþingis	Alþingi	PROPN	Case=Gen Definite=Ind Gender=Neut Number=Sing	13	nmod_poss	fundur	NOUN	Case=Dat Definite=Ind Gender=Masc Number=Plur	12
+</name>
 samkvæmt	samkvæmt	samkvæmt	ADP		14	case	mgr.	NOUN		16
 1.	1.	1.	NUM	NumType=Card	15	nummod	mgr.	NOUN		16
 mgr.	mgr.	mgr.	NOUN		16	obl	mæla	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
@@ -41,7 +43,9 @@ svohljóðandi	svohljóðandi	svohljóðandi	ADJ	Case=Nom Degree=Pos Gender=Fem 
 <s id="ParlaMint-IS_2021-12-28-19.seg2.1">
 „	„	„	PUNCT		1	punct	álykta	VERB	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin Voice=Act	3
 <g/>
+<name type="ORG">
 Alþingi	Alþingi	Alþingi	PROPN	Case=Nom Definite=Ind Gender=Neut Number=Sing	2	nsubj	álykta	VERB	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin Voice=Act	3
+</name>
 ályktar	ályktar	álykta	VERB	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin Voice=Act	3	root	-	-	-	-
 að	að	að	PART		4	mark	veita	VERB	VerbForm=Inf Voice=Act	5
 veita	veita	veita	VERB	VerbForm=Inf Voice=Act	5	acl	álykta	VERB	Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin Voice=Act	3
@@ -302,8 +306,10 @@ Fyrirkomulagið	Fyrirkomulagið	fyrirkomulag	NOUN	Case=Nom Definite=Def Gender=N
 hefur	hefur	hafa	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	aux	kalla	VERB	Case=Nom Gender=Neut Number=Sing VerbForm=Part Voice=Act	4
 verið	verið	vera	AUX	VerbForm=Sup Voice=Act	3	cop	kalla	VERB	Case=Nom Gender=Neut Number=Sing VerbForm=Part Voice=Act	4
 kallað	kallað	kalla	VERB	Case=Nom Gender=Neut Number=Sing VerbForm=Part Voice=Act	4	root	-	-	-	-
+<name type="MISC">
 Allir	Allir	allur	DET	Case=Nom Gender=Masc Number=Plur PronType=Ind	5	amod	vinna	VERB	VerbForm=Inf Voice=Act	6
 vinna	vinna	vinna	VERB	VerbForm=Inf Voice=Act	6	xcomp	kalla	VERB	Case=Nom Gender=Neut Number=Sing VerbForm=Part Voice=Act	4
+</name>
 og	og	og	CCONJ		7	cc	tímabundinn	NOUN	Case=Dat Definite=Def Gender=Masc Number=Sing	11
 var	var	vera	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	8	cop	tímabundinn	NOUN	Case=Dat Definite=Def Gender=Masc Number=Sing	11
 hluti	hluti	hluti	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	9	nsubj	tímabundinn	NOUN	Case=Dat Definite=Def Gender=Masc Number=Sing	11
@@ -528,7 +534,9 @@ var	var	vera	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act
 veghaldi	veghaldi	veghald	NOUN	Case=Dat Definite=Ind Gender=Neut Number=Sing	7	obl	ábyrgð	VERB	Case=Nom Gender=Fem Number=Sing VerbForm=Part Voice=Act	5
 færð	færð	færa	VERB	Case=Nom Gender=Neut Number=Plur VerbForm=Part Voice=Act	8	advcl	ábyrgð	VERB	Case=Nom Gender=Fem Number=Sing VerbForm=Part Voice=Act	5
 frá	frá	frá	ADP		9	case	Vegagerðin	NOUN	Case=Dat Definite=Def Gender=Fem Number=Sing	10
+<name type="ORG">
 Vegagerðinni	Vegagerðinni	Vegagerðin	NOUN	Case=Dat Definite=Def Gender=Fem Number=Sing	10	obl	færa	VERB	Case=Nom Gender=Neut Number=Plur VerbForm=Part Voice=Act	8
+</name>
 til	til	til	ADP		11	case	sveitarfélag	NOUN	Case=Gen Definite=Ind Gender=Neut Number=Plur	12
 sveitarfélaga	sveitarfélaga	sveitarfélag	NOUN	Case=Gen Definite=Ind Gender=Neut Number=Plur	12	obl	færa	VERB	Case=Nom Gender=Neut Number=Plur VerbForm=Part Voice=Act	8
 <g/>
@@ -538,7 +546,9 @@ sveitarfélaga	sveitarfélaga	sveitarfélag	NOUN	Case=Gen Definite=Ind Gender=Ne
 Árið	Árið	ár	NOUN	Case=Acc Definite=Def Gender=Neut Number=Sing	1	obl	veita	VERB	Case=Nom Gender=Fem Number=Sing VerbForm=Part Voice=Act	5
 2015	2015	2015	NUM	NumType=Card	2	nummod	ár	NOUN	Case=Acc Definite=Def Gender=Neut Number=Sing	1
 var	var	vera	AUX	Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	3	cop	veita	VERB	Case=Nom Gender=Fem Number=Sing VerbForm=Part Voice=Act	5
+<name type="ORG">
 Vegagerðinni	Vegagerðinni	Vegagerðin	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	4	nsubj	veita	VERB	Case=Nom Gender=Fem Number=Sing VerbForm=Part Voice=Act	5
+</name>
 veitt	veitt	veita	VERB	Case=Nom Gender=Fem Number=Sing VerbForm=Part Voice=Act	5	root	-	-	-	-
 heimild	heimild	heimild	NOUN	Case=Nom Definite=Ind Gender=Fem Number=Sing	6	nsubj	veita	VERB	Case=Nom Gender=Fem Number=Sing VerbForm=Part Voice=Act	5
 til	til	til	ADP		7	case	árslok	NOUN	Case=Gen Definite=Ind Gender=Neut Number=Plur	8
@@ -609,12 +619,16 @@ Nefndinni	Nefndinni	nefnd	NOUN	Case=Dat Definite=Def Gender=Fem Number=Sing	1	ob
 bárust	bárust	bera	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Mid	2	root	-	-	-	-
 umsagnir	umsagnir	umsögn	NOUN	Case=Nom Definite=Ind Gender=Fem Number=Plur	3	nsubj	bera	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Mid	2
 frá	frá	frá	ADP		4	case	Reykjavíkurborg	PROPN	Case=Dat Definite=Ind Gender=Fem Number=Sing	5
+<name type="LOC">
 Reykjavíkurborg	Reykjavíkurborg	Reykjavíkurborg	PROPN	Case=Dat Definite=Ind Gender=Fem Number=Sing	5	obl	bera	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Mid	2
+</name>
 og	og	og	CCONJ		6	cc	Samband	PROPN	Case=Dat Definite=Ind Gender=Neut Number=Sing	7
+<name type="ORG">
 Sambandi	Sambandi	Samband	PROPN	Case=Dat Definite=Ind Gender=Neut Number=Sing	7	obl	bera	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Mid	2
 sveitarfélaga	sveitarfélaga	sveitarfélag	NOUN	Case=Gen Definite=Ind Gender=Neut Number=Plur	8	conj	Samband	PROPN	Case=Dat Definite=Ind Gender=Neut Number=Sing	7
 á	á	á	ADP		9	case	höfuðborgarsvæði	NOUN	Case=Dat Definite=Def Gender=Neut Number=Sing	10
 höfuðborgarsvæðinu	höfuðborgarsvæðinu	höfuðborgarsvæði	NOUN	Case=Dat Definite=Def Gender=Neut Number=Sing	10	obl	bera	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Mid	2
+</name>
 þar	þar	þar	ADV		11	advmod	bera	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Mid	2
 sem	sem	sem	SCONJ		12	mark	árétta	ADV	Case=Nom Gender=Neut Number=Sing VerbForm=Part Voice=Act	13
 áréttað	áréttað	árétta	ADV	Case=Nom Gender=Neut Number=Sing VerbForm=Part Voice=Act	13	acl_relcl	þar	ADV		11
@@ -671,7 +685,9 @@ gert	gert	gera	VERB	VerbForm=Sup Voice=Act	31	ccomp	koma	VERB	Mood=Ind Number=Si
 ráð	ráð	ráð	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Sing	32	obj	gera	VERB	VerbForm=Sup Voice=Act	31
 fyrir	fyrir	fyrir	ADP		33	case	standa	VERB	VerbForm=Inf Voice=Act	40
 að	að	að	SCONJ		34	mark	standa	VERB	VerbForm=Inf Voice=Act	40
+<name type="ORG">
 Vegagerðin	Vegagerðin	Vegagerðin	PROPN	Case=Nom Definite=Def Gender=Fem Number=Sing	35	nsubj	standa	VERB	VerbForm=Inf Voice=Act	40
+</name>
 muni	muni	munu	AUX	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	36	aux	standa	VERB	VerbForm=Inf Voice=Act	40
 áfram	áfram	áfram	ADV		37	advmod	standa	VERB	VerbForm=Inf Voice=Act	40
 um	um	um	ADP		38	case	sinn	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Sing	39
@@ -739,7 +755,9 @@ hér	hér	hér	ADV		34	advmod	áðan	ADV		35
 sveitarfélaga	sveitarfélaga	sveitarfélag	NOUN	Case=Gen Definite=Ind Gender=Neut Number=Plur	39	nmod_poss	ábyrgð	NOUN	Case=Acc Definite=Ind Gender=Fem Number=Sing	38
 en	en	en	CCONJ		40	cc	Vegagerðin	NOUN	Case=Gen Definite=Def Gender=Fem Number=Sing	42
 ekki	ekki	ekki	ADV		41	advmod	Vegagerðin	NOUN	Case=Gen Definite=Def Gender=Fem Number=Sing	42
+<name type="ORG">
 Vegagerðarinnar	Vegagerðarinnar	Vegagerðin	NOUN	Case=Gen Definite=Def Gender=Fem Number=Sing	42	conj	árétta	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	3
+</name>
 að	að	að	PART		43	mark	anna	VERB	VerbForm=Inf Voice=Mid	44
 annast	annast	anna	VERB	VerbForm=Inf Voice=Mid	44	acl	Vegagerðin	NOUN	Case=Gen Definite=Def Gender=Fem Number=Sing	42
 veghald	veghald	veghald	NOUN	Case=Acc Definite=Ind Gender=Neut Number=Sing	45	obj	skilavegur	VERB	VerbForm=Inf Voice=Act	46
@@ -799,7 +817,9 @@ nefndaráliti	nefndaráliti	nefndarálit	NOUN	Case=Dat Definite=Ind Gender=Neut 
 <p id="ParlaMint-IS_2021-12-28-19.seg12" lang="">
 <s id="ParlaMint-IS_2021-12-28-19.seg12.1">
 Fyrir	Fyrir	fyrir	ADP		1	case	Alþingi	PROPN	Case=Nom Definite=Ind Gender=Neut Number=Sing	2
+<name type="ORG">
 Alþingi	Alþingi	Alþingi	PROPN	Case=Nom Definite=Ind Gender=Neut Number=Sing	2	obl	liggja	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	3
+</name>
 liggur	liggur	liggja	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	3	root	-	-	-	-
 þingsályktunartillaga	þingsályktunartillaga	þingsályktunartillaga	NOUN	Case=Nom Definite=Ind Gender=Fem Number=Sing	4	nsubj	liggja	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	3
 um	um	um	ADP		5	case	skipan	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Sing	7
@@ -807,8 +827,10 @@ breytta	breytta	breyttur	ADJ	Case=Acc Definite=Ind Degree=Pos Gender=Fem Number=
 skipan	skipan	skipan	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Sing	7	obl	liggja	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	3
 ráðuneyta	ráðuneyta	ráðuneyti	VERB	VerbForm=Inf Voice=Act	8	acl	liggja	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	3
 í	í	í	ADP		9	case	Stjórnarráð	PROPN	Case=Dat Definite=Ind Gender=Masc Number=Sing	10
+<name type="ORG">
 Stjórnarráði	Stjórnarráði	Stjórnarráð	PROPN	Case=Dat Definite=Ind Gender=Masc Number=Sing	10	obl	ráðuneyti	VERB	VerbForm=Inf Voice=Act	8
 Íslands	Íslands	Ísland	PROPN	Case=Gen Definite=Ind Gender=Neut Number=Sing	11	flat:name	Stjórnarráð	PROPN	Case=Dat Definite=Ind Gender=Masc Number=Sing	10
+</name>
 og	og	og	CCONJ		12	cc	stefna	VERB	Case=Nom Gender=Neut Number=Sing VerbForm=Part Voice=Act	13
 stefnt	stefnt	stefna	VERB	Case=Nom Gender=Neut Number=Sing VerbForm=Part Voice=Act	13	conj	liggja	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	3
 er	er	vera	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	14	cop	stefna	VERB	Case=Nom Gender=Neut Number=Sing VerbForm=Part Voice=Act	13
@@ -823,7 +845,9 @@ nýr	nýr	nýr	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing	22	a
 forsetaúrskurður	forsetaúrskurður	forsetaúrskurður	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	23	conj	taka	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	20
 um	um	um	ADP		24	case	skipting	NOUN	Case=Acc Definite=Ind Gender=Fem Number=Sing	25
 skiptingu	skiptingu	skipting	NOUN	Case=Acc Definite=Ind Gender=Fem Number=Sing	25	obl	taka	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	20
+<name type="ORG">
 Stjórnarráðsins	Stjórnarráðsins	Stjórnarráðið	PROPN	Case=Gen Definite=Def Gender=Masc Number=Sing	26	nmod_poss	skipting	NOUN	Case=Acc Definite=Ind Gender=Fem Number=Sing	25
+</name>
 í	í	í	ADP		27	case	ráðuneyti	NOUN	Case=Dat Definite=Ind Gender=Neut Number=Sing	28
 ráðuneyti	ráðuneyti	ráðuneyti	NOUN	Case=Dat Definite=Ind Gender=Neut Number=Sing	28	obl	taka	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	20
 <g/>
@@ -938,7 +962,9 @@ forseti	forseti	forseti	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	2	con
 </s>
 <s id="ParlaMint-IS_2021-12-28-19.seg125.2">
 Forseti	Forseti	forseti	PROPN	Case=Nom Definite=Ind Gender=Masc Number=Sing	1	nsubj	gjöra	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	3
+<name type="LOC">
 Íslands	Íslands	Ísland	PROPN	Case=Gen Definite=Ind Gender=Neut Number=Sing	2	flat:name	forseti	PROPN	Case=Nom Definite=Ind Gender=Masc Number=Sing	1
+</name>
 gjörir	gjörir	gjöra	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	3	root	-	-	-	-
 kunnugt	kunnugt	kunnugur	ADJ	Case=Acc Definite=Ind Degree=Pos Gender=Neut Number=Sing	4	obj	gjöra	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	3
 <g/>
@@ -956,8 +982,10 @@ Að	Að	að	ADP		2	case	ég	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	3
 að	að	að	SCONJ		5	mark	tilskilinn	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	6
 tilskildu	tilskildu	tilskilinn	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	6	root	-	-	-	-
 samþykki	samþykki	samþykki	NOUN	Case=Dat Definite=Ind Gender=Neut Number=Sing	7	obj	tilskilinn	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	6
+<name type="ORG">
 Alþingis	Alþingis	Alþingi	PROPN	Case=Gen Definite=Ind Gender=Neut Number=Sing	8	nmod_poss	samþykki	NOUN	Case=Dat Definite=Ind Gender=Neut Number=Sing	7
 <g/>
+</name>
 ,	,	,	PUNCT		9	punct	Alþingi	PROPN	Case=Gen Definite=Ind Gender=Neut Number=Sing	8
 veiti	veiti	veita	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	10	conj	tilskilinn	VERB	Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	6
 forsætisráðherra	forsætisráðherra	forsætisráðherra	NOUN	Case=Acc Definite=Ind Gender=Masc Number=Sing	11	nsubj	veita	VERB	Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	10
@@ -967,8 +995,10 @@ til	til	til	ADP		13	case	það	PRON	Case=Gen Gender=Neut Number=Sing PronType=Pr
 að	að	að	PART		15	mark	fresta	VERB	VerbForm=Inf Voice=Act	16
 fresta	fresta	fresta	VERB	VerbForm=Inf Voice=Act	16	acl	það	PRON	Case=Gen Gender=Neut Number=Sing PronType=Prs	14
 fundum	fundum	fundur	NOUN	Case=Dat Definite=Ind Gender=Masc Number=Plur	17	iobj	fresta	VERB	VerbForm=Inf Voice=Act	16
+<name type="ORG">
 Alþingis	Alþingis	Alþingi	PROPN	Case=Gen Definite=Ind Gender=Neut Number=Sing	18	nmod_poss	fundur	NOUN	Case=Dat Definite=Ind Gender=Masc Number=Plur	17
 <g/>
+</name>
 ,	,	,	PUNCT		19	punct	Alþingi	PROPN	Case=Gen Definite=Ind Gender=Neut Number=Sing	18
 152.	152.	152.	NUM	NumType=Card	20	nummod	löggjafarþing	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Sing	21
 löggjafarþings	löggjafarþings	löggjafarþing	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Sing	21	obj	fresta	VERB	VerbForm=Inf Voice=Act	16
@@ -999,8 +1029,10 @@ janúar	janúar	janúar	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Plur	36	ob
 <s id="ParlaMint-IS_2021-12-28-19.seg127.1">
 Gjört	Gjört	gjörtja	VERB	Case=Nom Gender=Neut Number=Sing VerbForm=Part Voice=Act	1	root	-	-	-	-
 í	í	í	ADP		2	case	Reykjavík	PROPN	Case=Dat Definite=Ind Gender=Fem Number=Sing	3
+<name type="LOC">
 Reykjavík	Reykjavík	Reykjavík	PROPN	Case=Dat Definite=Ind Gender=Fem Number=Sing	3	obl	gjörtja	VERB	Case=Nom Gender=Neut Number=Sing VerbForm=Part Voice=Act	1
 <g/>
+</name>
 ,	,	,	PUNCT		4	punct	Reykjavík	PROPN	Case=Dat Definite=Ind Gender=Fem Number=Sing	3
 28.	28.	28.	NUM	NumType=Card	5	nummod	desember	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Plur	6
 desember	desember	desember	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Plur	6	obl	gjörtja	VERB	Case=Nom Gender=Neut Number=Sing VerbForm=Part Voice=Act	1
@@ -1011,18 +1043,22 @@ desember	desember	desember	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Plur	6	
 </p>
 <p id="ParlaMint-IS_2021-12-28-19.seg128" lang="">
 <s id="ParlaMint-IS_2021-12-28-19.seg128.1">
+<name type="PER">
 Guðni	Guðni	Guðni	PROPN	Case=Dat Definite=Ind Gender=Masc Number=Sing	1	root	-	-	-	-
 Th.	Th.	Th.	ADJ		2	amod	Guðni	PROPN	Case=Dat Definite=Ind Gender=Masc Number=Sing	1
 Jóhannesson	Jóhannesson	Jóhannesson	PROPN	Case=Nom Definite=Ind Gender=Masc Number=Sing	3	flat:name	Guðni	PROPN	Case=Dat Definite=Ind Gender=Masc Number=Sing	1
 <g/>
+</name>
 .	.	.	PUNCT		4	punct	Jóhannesson	PROPN	Case=Nom Definite=Ind Gender=Masc Number=Sing	3
 </s>
 </p>
 <p id="ParlaMint-IS_2021-12-28-19.seg129" lang="">
 <s id="ParlaMint-IS_2021-12-28-19.seg129.1">
+<name type="PER">
 Katrín	Katrín	Katrín	PROPN	Case=Nom Definite=Ind Gender=Fem Number=Sing	1	root	-	-	-	-
 Jakobsdóttir	Jakobsdóttir	Jakobsdóttir	PROPN	Case=Nom Definite=Ind Gender=Fem Number=Sing	2	flat:name	Katrín	PROPN	Case=Nom Definite=Ind Gender=Fem Number=Sing	1
 <g/>
+</name>
 .	.	.	PUNCT		3	punct	Jakobsdóttir	PROPN	Case=Nom Definite=Ind Gender=Fem Number=Sing	2
 </s>
 </p>
@@ -1030,13 +1066,17 @@ Jakobsdóttir	Jakobsdóttir	Jakobsdóttir	PROPN	Case=Nom Definite=Ind Gender=Fem
 <s id="ParlaMint-IS_2021-12-28-19.seg130.1">
 Bréf	Bréf	bréf	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Plur	1	nsubj	frestun	NOUN	Case=Acc Definite=Ind Gender=Fem Number=Sing	5
 forseta	forseta	forseti	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Sing	2	nmod_poss	bréf	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Plur	1
+<name type="LOC">
 Íslands	Íslands	Ísland	PROPN	Case=Gen Definite=Ind Gender=Neut Number=Sing	3	nmod_poss	forseti	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Sing	2
+</name>
 um	um	um	ADP		4	case	frestun	NOUN	Case=Acc Definite=Ind Gender=Fem Number=Sing	5
 frestun	frestun	frestun	NOUN	Case=Acc Definite=Ind Gender=Fem Number=Sing	5	obl	fundur	NOUN	Case=Dat Definite=Ind Gender=Masc Number=Plur	7
 á	á	á	ADP		6	case	fundur	NOUN	Case=Dat Definite=Ind Gender=Masc Number=Plur	7
 fundum	fundum	fundur	NOUN	Case=Dat Definite=Ind Gender=Masc Number=Plur	7	root	-	-	-	-
+<name type="ORG">
 Alþingis	Alþingis	Alþingi	PROPN	Case=Gen Definite=Ind Gender=Neut Number=Sing	8	nmod_poss	fundur	NOUN	Case=Dat Definite=Ind Gender=Masc Number=Plur	7
 <g/>
+</name>
 .	.	.	PUNCT		9	punct	Alþingi	PROPN	Case=Gen Definite=Ind Gender=Neut Number=Sing	8
 <g/>
 “	“	“	PUNCT		10	punct	.	PUNCT		9
@@ -1052,7 +1092,9 @@ með	með	með	ADP		5	case	vísan	NOUN	Case=Dat Definite=Ind Gender=Fem Number=S
 vísan	vísan	vísan	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Sing	6	conj	umboð	NOUN	Case=Dat Definite=Ind Gender=Neut Number=Sing	3
 til	til	til	ADP		7	case	samþykki	NOUN	Case=Gen Definite=Ind Gender=Neut Number=Sing	8
 samþykkis	samþykkis	samþykki	NOUN	Case=Gen Definite=Ind Gender=Neut Number=Sing	8	obl	umboð	NOUN	Case=Dat Definite=Ind Gender=Neut Number=Sing	3
+<name type="ORG">
 Alþingis	Alþingis	Alþingi	PROPN	Case=Gen Definite=Ind Gender=Neut Number=Sing	9	nmod_poss	samþykki	NOUN	Case=Gen Definite=Ind Gender=Neut Number=Sing	8
+</name>
 fyrr	fyrr	snemma	ADV	Degree=Cmp	10	advmod	lýsa	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	13
 í	í	í	ADP		11	case	dagur	NOUN	Case=Acc Definite=Ind Gender=Masc Number=Sing	12
 dag	dag	dagur	NOUN	Case=Acc Definite=Ind Gender=Masc Number=Sing	12	obl	snemma	ADV	Degree=Cmp	10
@@ -1062,8 +1104,10 @@ lýsi	lýsi	lýsa	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voi
 yfir	yfir	yfir	ADP		16	compound_prt	lýsa	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	13
 að	að	að	ADP		17	case	fundur	NOUN	Case=Dat Definite=Ind Gender=Masc Number=Plur	18
 fundum	fundum	fundur	NOUN	Case=Dat Definite=Ind Gender=Masc Number=Plur	18	obl	lýsa	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	13
+<name type="ORG">
 Alþingis	Alþingis	Alþingi	PROPN	Case=Gen Definite=Ind Gender=Neut Number=Sing	19	nmod_poss	fundur	NOUN	Case=Dat Definite=Ind Gender=Masc Number=Plur	18
 <g/>
+</name>
 ,	,	,	PUNCT		20	punct	Alþingi	PROPN	Case=Gen Definite=Ind Gender=Neut Number=Sing	19
 152.	152.	152.	NUM	NumType=Card	21	nummod	löggjafarþing	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Sing	22
 löggjafarþings	löggjafarþings	löggjafarþing	NOUN	Case=Gen Definite=Ind Gender=Masc Number=Sing	22	nmod_poss	fresta	NOUN	Case=Acc Definite=Ind Gender=Masc Number=Sing	25

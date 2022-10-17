@@ -15,10 +15,12 @@ include "ParlaMint-TEI.rnc" {
   ## The only element that contains analysed text is
   ##       segment. It can, however, contain transcription
   ##       commentary.
-  seg = element seg { global.atts, (sentence | comment)+ }
+  seg = element seg { global.atts, (comment | pb | sentence)+ }
 }
 sentence =
-  element s { global.atts, (comment | ner | word | punct)+, syntax }
+  element s {
+    global.atts, (comment | pb | ner | word | punct)+, syntax
+  }
 
 ## NER elements
 ner =
@@ -42,7 +44,7 @@ ner =
 ner.atts =
   global.atts,
   attribute ana { xsd:anyURI }
-ner_tokens = (word | punct | ner | comment)+
+ner_tokens = (word | punct | comment | pb | ner)+
 tokens = (word | punct)+
 word =
   
@@ -50,19 +52,22 @@ word =
   element w {
     
     ## Simple word
-    ((word.atts, text)
+    ((word.atts, normalized-space.string)
      >> a:documentation [ "Word with several normalised words" ]
      | (word-optional.atts,
+        # This doesn't work: error: group of "string" or "data" element
+        
+        # ref name="normalized-space.string"/
         text,
         element w { word.atts, empty }+)
        >> a:documentation [
             "Normalised word with several surface words"
           ]
      | (word.atts,
-        element w { text }+,
+        element w { normalized-space.string }+,
         empty))
   }
-punct = element pc { token.atts, text }
+punct = element pc { token.atts, normalized-space.string }
 syntax =
   element linkGrp {
     attribute targFunc { "head argument" },

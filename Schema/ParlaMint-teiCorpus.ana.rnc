@@ -39,6 +39,6 @@ application =
       }
     },
     attribute ident { xsd:Name },
-    element label { text },
+    element label { normalized-space.string },
     element desc { lang.att, annotated-text }+
   }

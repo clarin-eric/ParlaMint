@@ -45,14 +45,16 @@ respStmt =
   
   ## Responsibility statement.
   element respStmt {
-    (element persName { global.atts, ref.att, text }+,
-     element resp { lang.att, text }+)+
+    (element persName {
+       global.atts, ref.att, normalized-space.string
+     }+,
+     element resp { lang.att, normalized-space.string }+)+
   }
 editionStmt =
   
   ## Edition statement.
   element editionStmt {
-    element edition { text }
+    element edition { normalized-space.string }
   }
 extent =
   
@@ -90,7 +92,7 @@ sourceDesc =
   element sourceDesc {
     element bibl {
       title+,
-      element edition { lang.att, text }*,
+      element edition { lang.att, normalized-space.string }*,
       publisher?,
       idno+,
       date*
@@ -126,6 +128,9 @@ revisionDesc =
     element change {
       attribute when { xsd:date },
       name-header,
+      # The following doesn't work: group of "string" or "data" element
+      
+      # ref name="normalized-space.string"/
       text
     }+
   }
@@ -156,7 +161,7 @@ title-header =
     
     ## @type is here obligatory.
     attribute type { "main" | "sub" },
-    text
+    normalized-space.string
   }
 title =
   
@@ -166,19 +171,19 @@ title =
     
     ## @type is optional.
     attribute type { "main" | "sub" }?,
-    text
+    normalized-space.string
   }
 meeting = element meeting { global.atts, ana.att, corresp.att, text }
 publisher =
   element publisher {
     lang.att,
-    ((element orgName { lang.att, text }+,
+    ((element orgName { lang.att, normalized-space.string }+,
       ref?)
      | text)
   }
 funder =
   element funder {
-    element orgName { lang.att, text }+,
+    element orgName { lang.att, normalized-space.string }+,
     ref?
   }
 idno =
@@ -193,12 +198,12 @@ name-header =
     attribute type { xsd:Name }?,
     attribute key { xsd:Name }?,
     lang.att,
-    text
+    normalized-space.string
   }
 # Paragraphs. Appear in the header only.
 paras = element p { global.atts, annotated-text }+
 # Anonymous blocks. Appear in the header only.
-abs = element ab { global.atts, text }+
+abs = element ab { global.atts, normalized-space.string }+
 # DATA
 text-body =
   element text {
@@ -229,7 +234,14 @@ u =
     attribute source { anyURIs }?,
     (seg | comment | pb)+
   }
-seg = element seg { global.atts, (comment | pb | text)+ }
+seg =
+  element seg {
+    global.atts,
+    (comment
+     | pb
+     | # Maybe empty segments shold be forbidden, but this needs thinking about
+       text)+
+  }
 note =
   element note {
     global.atts,
@@ -266,6 +278,7 @@ comment =
         | "leaving"
         | "entering"
         | "break"
+        | "pause"
         | "sound"
         | "editorial"
       }?,
@@ -289,13 +302,13 @@ comment =
       who.att?,
       desc+
     }
-desc = element desc { lang.att, text }
+desc = element desc { lang.att, normalized-space.string }
 # GENERALLY USEFUL DEFINITIONS
 head =
   element head {
     attribute type { xsd:token }?,
     global.atts,
-    text
+    normalized-space.string
     # oneOrMore>
     #   <choice>
     #     <ref name="note"/>
@@ -308,7 +321,7 @@ head =
 ref =
   element ref {
     attribute target { xsd:anyURI },
-    text
+    normalized-space.string
   }
 
 ## The media element
@@ -330,6 +343,9 @@ date-simple = element date { when.att, text }
 ## A date with with all possible temporal information. It can also have textual
 ##     content with the date type-set according to the object language.
 date = element date { global.atts, temporal.atts, ana.att?, text }
+
+## A string that is non-empty, does not start or end with a white-space, and contains only ordinary spaces as spacing characters.
+normalized-space.string = xsd:string { pattern = "(\S)|(\S[\S ]*\S)" }
 annotated-text = mixed { ref* }
 temporal.val = xsd:dateTime | xsd:date | xsd:gYearMonth | xsd:gYear
 when.att = attribute when { temporal.val }

@@ -20,7 +20,7 @@
 10	frestunar	frestun	NOUN	nvee	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	NER=O
 11	á	á	ADP	af	_	12	case	_	NER=O
 12	fundum	fundur	NOUN	nkfþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur	2	obl	_	NER=O
-13	Alþingis	Alþingi	PROPN	nhee-s	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	12	nmod:poss	_	NER=O
+13	Alþingis	Alþingi	PROPN	nhee-s	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	12	nmod:poss	_	NER=B-ORG
 14	samkvæmt	samkvæmt	ADP	af	_	16	case	_	NER=O
 15	1.	1.	NUM	ta	NumType=Card	16	nummod	_	NER=O
 16	mgr.	mgr.	NOUN	ks	_	2	obl	_	NER=O
@@ -40,7 +40,7 @@
 # sent_id = ParlaMint-IS_2021-12-28-19.seg2.1
 # text = „Alþingi ályktar að veita samþykki til þess að fundum þingsins verði frestað frá 28. desember 2021 eða síðar, ef nauðsyn krefur, til 17. janúar 2022.“
 1	„	„	PUNCT	pg	_	3	punct	_	NER=O|SpaceAfter=No
-2	Alþingi	Alþingi	PROPN	nhen-s	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	nsubj	_	NER=O
+2	Alþingi	Alþingi	PROPN	nhen-s	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	nsubj	_	NER=B-ORG
 3	ályktar	álykta	VERB	sfg3en	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
 4	að	að	PART	cn	_	5	mark	_	NER=O
 5	veita	veita	VERB	sng	VerbForm=Inf|Voice=Act	3	acl	_	NER=O
@@ -285,8 +285,8 @@
 2	hefur	hafa	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	NER=O
 3	verið	vera	AUX	sþghen	VerbForm=Sup|Voice=Act	4	cop	_	NER=O
 4	kallað	kalla	VERB	sþghen	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	NER=O
-5	Allir	allur	DET	fokfn	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	6	amod	_	NER=O
-6	vinna	vinna	VERB	sfg3fn	VerbForm=Inf|Voice=Act	4	xcomp	_	NER=O
+5	Allir	allur	DET	fokfn	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	6	amod	_	NER=B-MISC
+6	vinna	vinna	VERB	sfg3fn	VerbForm=Inf|Voice=Act	4	xcomp	_	NER=I-MISC
 7	og	og	CCONJ	c	_	11	cc	_	NER=O
 8	var	vera	AUX	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	NER=O
 9	hluti	hluti	NOUN	nken	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	11	nsubj	_	NER=O
@@ -496,7 +496,7 @@
 7	veghaldi	veghald	NOUN	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	NER=O
 8	færð	færa	VERB	sþgven	Case=Nom|Gender=Neut|Number=Plur|VerbForm=Part|Voice=Act	5	advcl	_	NER=O
 9	frá	frá	ADP	af	_	10	case	_	NER=O
-10	Vegagerðinni	Vegagerðin	NOUN	nveþgs	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	8	obl	_	NER=O
+10	Vegagerðinni	Vegagerðin	NOUN	nveþgs	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	8	obl	_	NER=B-ORG
 11	til	til	ADP	af	_	12	case	_	NER=O
 12	sveitarfélaga	sveitarfélag	NOUN	nhfe	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur	8	obl	_	NER=O|SpaceAfter=No
 13	.	.	PUNCT	pl	_	12	punct	_	NER=O
@@ -506,7 +506,7 @@
 1	Árið	ár	NOUN	nheog	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	5	obl	_	NER=O
 2	2015	2015	NUM	ta	NumType=Card	1	nummod	_	NER=O
 3	var	vera	AUX	sfg3eþ	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	NER=O
-4	Vegagerðinni	Vegagerðin	NOUN	nveþgs	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	NER=O
+4	Vegagerðinni	Vegagerðin	NOUN	nveþgs	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	NER=B-ORG
 5	veitt	veita	VERB	sþgven	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	NER=O
 6	heimild	heimild	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	5	nsubj	_	NER=O
 7	til	til	ADP	af	_	8	case	_	NER=O
@@ -576,12 +576,12 @@
 2	bárust	bera	VERB	sfm3fþ	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	NER=O
 3	umsagnir	umsögn	NOUN	nvfn	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	2	nsubj	_	NER=O
 4	frá	frá	ADP	af	_	5	case	_	NER=O
-5	Reykjavíkurborg	Reykjavíkurborg	PROPN	nveþ-s	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	NER=O
+5	Reykjavíkurborg	Reykjavíkurborg	PROPN	nveþ-s	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	NER=B-LOC
 6	og	og	CCONJ	c	_	7	cc	_	NER=O
-7	Sambandi	Samband	PROPN	nheþ-s	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	NER=O
-8	sveitarfélaga	sveitarfélag	NOUN	nhfe	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur	7	conj	_	NER=O
-9	á	á	ADP	af	_	10	case	_	NER=O
-10	höfuðborgarsvæðinu	höfuðborgarsvæði	NOUN	nheþg	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	2	obl	_	NER=O
+7	Sambandi	Samband	PROPN	nheþ-s	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	NER=B-ORG
+8	sveitarfélaga	sveitarfélag	NOUN	nhfe	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur	7	conj	_	NER=I-ORG
+9	á	á	ADP	af	_	10	case	_	NER=I-ORG
+10	höfuðborgarsvæðinu	höfuðborgarsvæði	NOUN	nheþg	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	2	obl	_	NER=I-ORG
 11	þar	þar	ADV	aa	_	2	advmod	_	NER=O
 12	sem	sem	SCONJ	c	_	13	mark	_	NER=O
 13	áréttað	árétta	ADV	sþghen	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Act	11	acl:relcl	_	NER=O
@@ -633,7 +633,7 @@
 32	ráð	ráð	NOUN	nhen	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	31	obj	_	NER=O
 33	fyrir	fyrir	ADP	af	_	40	case	_	NER=O
 34	að	að	SCONJ	c	_	40	mark	_	NER=O
-35	Vegagerðin	Vegagerðin	PROPN	nvengs	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	40	nsubj	_	NER=O
+35	Vegagerðin	Vegagerðin	PROPN	nvengs	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	40	nsubj	_	NER=B-ORG
 36	muni	munu	AUX	svg3en	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	40	aux	_	NER=O
 37	áfram	áfram	ADV	aa	_	40	advmod	_	NER=O
 38	um	um	ADP	af	_	39	case	_	NER=O
@@ -699,7 +699,7 @@
 39	sveitarfélaga	sveitarfélag	NOUN	nhfe	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur	38	nmod:poss	_	NER=O
 40	en	en	CCONJ	c	_	42	cc	_	NER=O
 41	ekki	ekki	ADV	aa	_	42	advmod	_	NER=O
-42	Vegagerðarinnar	Vegagerðin	NOUN	nveegs	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	conj	_	NER=O
+42	Vegagerðarinnar	Vegagerðin	NOUN	nveegs	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	conj	_	NER=B-ORG
 43	að	að	PART	cn	_	44	mark	_	NER=O
 44	annast	anna	VERB	snm	VerbForm=Inf|Voice=Mid	42	acl	_	NER=O
 45	veghald	veghald	NOUN	nheo	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	46	obj	_	NER=O
@@ -755,7 +755,7 @@
 # sent_id = ParlaMint-IS_2021-12-28-19.seg12.1
 # text = Fyrir Alþingi liggur þingsályktunartillaga um breytta skipan ráðuneyta í Stjórnarráði Íslands og stefnt er að því að 1. febrúar taki gildi nýr forsetaúrskurður um skiptingu Stjórnarráðsins í ráðuneyti, með þeim breytingartillögum sem ályktunin felur í sér.
 1	Fyrir	fyrir	ADP	af	_	2	case	_	NER=O
-2	Alþingi	Alþingi	PROPN	nheþ-s	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	NER=O
+2	Alþingi	Alþingi	PROPN	nheþ-s	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	NER=B-ORG
 3	liggur	liggja	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
 4	þingsályktunartillaga	þingsályktunartillaga	NOUN	nven	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	3	nsubj	_	NER=O
 5	um	um	ADP	af	_	7	case	_	NER=O
@@ -763,8 +763,8 @@
 7	skipan	skipan	NOUN	nveo	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	NER=O
 8	ráðuneyta	ráðuneyti	VERB	nhfe	VerbForm=Inf|Voice=Act	3	acl	_	NER=O
 9	í	í	ADP	af	_	10	case	_	NER=O
-10	Stjórnarráði	Stjórnarráð	PROPN	nheþ-s	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	NER=O
-11	Íslands	Ísland	PROPN	nhee-s	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	10	flat:name	_	NER=O
+10	Stjórnarráði	Stjórnarráð	PROPN	nheþ-s	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	NER=B-ORG
+11	Íslands	Ísland	PROPN	nhee-s	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	10	flat:name	_	NER=I-ORG
 12	og	og	CCONJ	c	_	13	cc	_	NER=O
 13	stefnt	stefna	VERB	sþghen	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Act	3	conj	_	NER=O
 14	er	vera	AUX	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	_	NER=O
@@ -779,7 +779,7 @@
 23	forsetaúrskurður	forsetaúrskurður	NOUN	nken	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	20	conj	_	NER=O
 24	um	um	ADP	af	_	25	case	_	NER=O
 25	skiptingu	skipting	NOUN	nveo	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	20	obl	_	NER=O
-26	Stjórnarráðsins	Stjórnarráðið	PROPN	nheegs	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	25	nmod:poss	_	NER=O
+26	Stjórnarráðsins	Stjórnarráðið	PROPN	nheegs	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	25	nmod:poss	_	NER=B-ORG
 27	í	í	ADP	af	_	28	case	_	NER=O
 28	ráðuneyti	ráðuneyti	NOUN	nhfo	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	20	obl	_	NER=O|SpaceAfter=No
 29	,	,	PUNCT	pk	_	28	punct	_	NER=O
@@ -887,7 +887,7 @@
 # sent_id = ParlaMint-IS_2021-12-28-19.seg125.2
 # text = Forseti Íslands gjörir kunnugt:
 1	Forseti	forseti	PROPN	nken	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	NER=O
-2	Íslands	Ísland	PROPN	nhee-s	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	1	flat:name	_	NER=O
+2	Íslands	Ísland	PROPN	nhee-s	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	1	flat:name	_	NER=B-LOC
 3	gjörir	gjöra	VERB	sfg3en	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
 4	kunnugt	kunnugur	ADJ	lheosf	Case=Acc|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	obj	_	NER=O|SpaceAfter=No
 5	:	:	PUNCT	pa	_	4	punct	_	NER=O
@@ -902,7 +902,7 @@
 5	að	að	SCONJ	af	_	6	mark	_	NER=O
 6	tilskildu	tilskilinn	VERB	lheþsf	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	NER=O
 7	samþykki	samþykki	NOUN	nheþ	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	6	obj	_	NER=O
-8	Alþingis	Alþingi	PROPN	nhee-s	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	7	nmod:poss	_	NER=O|SpaceAfter=No
+8	Alþingis	Alþingi	PROPN	nhee-s	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	7	nmod:poss	_	NER=B-ORG|SpaceAfter=No
 9	,	,	PUNCT	pk	_	8	punct	_	NER=O
 10	veiti	veita	VERB	svg1en	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	NER=O
 11	forsætisráðherra	forsætisráðherra	NOUN	nkeþ	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	nsubj	_	NER=O
@@ -912,7 +912,7 @@
 15	að	að	PART	cn	_	16	mark	_	NER=O
 16	fresta	fresta	VERB	sng	VerbForm=Inf|Voice=Act	14	acl	_	NER=O
 17	fundum	fundur	NOUN	nkfþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur	16	iobj	_	NER=O
-18	Alþingis	Alþingi	PROPN	nhee-s	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	17	nmod:poss	_	NER=O|SpaceAfter=No
+18	Alþingis	Alþingi	PROPN	nhee-s	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	17	nmod:poss	_	NER=B-ORG|SpaceAfter=No
 19	,	,	PUNCT	pk	_	18	punct	_	NER=O
 20	152.	152.	NUM	ta	NumType=Card	21	nummod	_	NER=O
 21	löggjafarþings	löggjafarþing	NOUN	nhee	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	16	obj	_	NER=O|SpaceAfter=No
@@ -939,7 +939,7 @@
 # text = Gjört í Reykjavík, 28. desember 2021.
 1	Gjört	gjörtja	VERB	sfg1en	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	NER=O
 2	í	í	ADP	af	_	3	case	_	NER=O
-3	Reykjavík	Reykjavík	PROPN	nveþ-s	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	1	obl	_	NER=O|SpaceAfter=No
+3	Reykjavík	Reykjavík	PROPN	nveþ-s	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	1	obl	_	NER=B-LOC|SpaceAfter=No
 4	,	,	PUNCT	pk	_	3	punct	_	NER=O
 5	28.	28.	NUM	ta	NumType=Card	6	nummod	_	NER=O
 6	desember	desember	NOUN	nkeo	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	1	obl	_	NER=O
@@ -949,16 +949,16 @@
 # newpar id = ParlaMint-IS_2021-12-28-19.seg128
 # sent_id = ParlaMint-IS_2021-12-28-19.seg128.1
 # text = Guðni Th. Jóhannesson.
-1	Guðni	Guðni	PROPN	nken-s	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	NER=O
-2	Th.	Th.	ADJ	ks	_	1	amod	_	NER=O
-3	Jóhannesson	Jóhannesson	PROPN	nken-s	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	flat:name	_	NER=O|SpaceAfter=No
+1	Guðni	Guðni	PROPN	nken-s	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	NER=B-PER
+2	Th.	Th.	ADJ	ks	_	1	amod	_	NER=I-PER
+3	Jóhannesson	Jóhannesson	PROPN	nken-s	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	flat:name	_	NER=I-PER|SpaceAfter=No
 4	.	.	PUNCT	pl	_	3	punct	_	NER=O
 
 # newpar id = ParlaMint-IS_2021-12-28-19.seg129
 # sent_id = ParlaMint-IS_2021-12-28-19.seg129.1
 # text = Katrín Jakobsdóttir.
-1	Katrín	Katrín	PROPN	nven-s	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	NER=O
-2	Jakobsdóttir	Jakobsdóttir	PROPN	nven-s	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	1	flat:name	_	NER=O|SpaceAfter=No
+1	Katrín	Katrín	PROPN	nven-s	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	NER=B-PER
+2	Jakobsdóttir	Jakobsdóttir	PROPN	nven-s	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	1	flat:name	_	NER=I-PER|SpaceAfter=No
 3	.	.	PUNCT	pl	_	2	punct	_	NER=O
 
 # newpar id = ParlaMint-IS_2021-12-28-19.seg130
@@ -966,12 +966,12 @@
 # text = Bréf forseta Íslands um frestun á fundum Alþingis.“
 1	Bréf	bréf	NOUN	nhen	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	5	nsubj	_	NER=O
 2	forseta	forseti	NOUN	nkee	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	1	nmod:poss	_	NER=O
-3	Íslands	Ísland	PROPN	nhee-s	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	2	nmod:poss	_	NER=O
+3	Íslands	Ísland	PROPN	nhee-s	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	2	nmod:poss	_	NER=B-LOC
 4	um	um	ADP	af	_	5	case	_	NER=O
 5	frestun	frestun	NOUN	nveo	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	NER=O
 6	á	á	ADP	af	_	7	case	_	NER=O
 7	fundum	fundur	NOUN	nkfþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur	0	root	_	NER=O
-8	Alþingis	Alþingi	PROPN	nhee-s	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	7	nmod:poss	_	NER=O|SpaceAfter=No
+8	Alþingis	Alþingi	PROPN	nhee-s	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	7	nmod:poss	_	NER=B-ORG|SpaceAfter=No
 9	.	.	PUNCT	pl	_	8	punct	_	NER=O|SpaceAfter=No
 10	“	“	PUNCT	pg	_	9	punct	_	NER=O
 
@@ -986,7 +986,7 @@
 6	vísan	vísan	NOUN	nveþ	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	3	conj	_	NER=O
 7	til	til	ADP	af	_	8	case	_	NER=O
 8	samþykkis	samþykki	NOUN	nhee	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	NER=O
-9	Alþingis	Alþingi	PROPN	nhee-s	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	8	nmod:poss	_	NER=O
+9	Alþingis	Alþingi	PROPN	nhee-s	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	8	nmod:poss	_	NER=B-ORG
 10	fyrr	snemma	ADV	aam	Degree=Cmp	13	advmod	_	NER=O
 11	í	í	ADP	af	_	12	case	_	NER=O
 12	dag	dagur	NOUN	nkeo	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	NER=O
@@ -996,7 +996,7 @@
 16	yfir	yfir	ADP	af	_	13	compound:prt	_	NER=O
 17	að	að	ADP	c	_	18	case	_	NER=O
 18	fundum	fundur	NOUN	nkfþ	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur	13	obl	_	NER=O
-19	Alþingis	Alþingi	PROPN	nhee-s	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	18	nmod:poss	_	NER=O|SpaceAfter=No
+19	Alþingis	Alþingi	PROPN	nhee-s	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	18	nmod:poss	_	NER=B-ORG|SpaceAfter=No
 20	,	,	PUNCT	pk	_	19	punct	_	NER=O
 21	152.	152.	NUM	ta	NumType=Card	22	nummod	_	NER=O
 22	löggjafarþings	löggjafarþing	NOUN	nhee	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	25	nmod:poss	_	NER=O|SpaceAfter=No

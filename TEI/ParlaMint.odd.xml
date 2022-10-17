@@ -25,7 +25,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>CLARIN</publisher>
-        <date>2022-07-27</date>
+        <date>2022-10-04</date>
         <availability status="free">
           <p>This file is freely available and you are hereby authorised to copy, modify, and
           redistribute it in any way without further reference or permissions.</p>
@@ -48,6 +48,7 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
+      <change when="2022-10-04">Tomaž Erjavec: reorganise sect. on organizations, add state.</change>
       <change when="2022-07-27">Tomaž Erjavec: many changes to (explanations of) structure.</change>
       <change when="2022-05-18">Katja Meden: add ParlaMint examples in exemplums.</change>
       <change when="2022-05-16">Tomaž Erjavec: add section 3.5 on referring attributes.</change>
@@ -65,7 +66,7 @@
           corpora</ref></titlePart>
         </docTitle>
         <!--docEdition>v0.3a</docEdition-->
-        <docDate>2022-07-27</docDate>
+        <docDate>2022-10-04</docDate>
         <!--byline>Tomaž Erjavec and Matyáš Kopp</byline-->
       </titlePage>
       <p></p>
@@ -1221,9 +1222,10 @@
             <div xml:id="sec-orgs">
 	      <head>Organisations</head>
 	      
-	      <p>Information on the parliament (and possibly ministries), on parliamentary groups of
-	      political parties (and possibly political parties themselves), as well as other
-	      optional parlimanentary structures (e.g. committees) is given in the corpus <gi>listOrg</gi>
+	      <p>Information on the the government, parliament, political parties or
+	      parliamentary groups of political parties, as well as other
+	      optional parlimanentary structures (e.g. ministries, committees) is given in
+	      the corpus <gi>listOrg</gi>
 	      element, which then contains a list of <gi>org</gi> elements, each giving information about
 	      one organisation, followed by the <gi>listRelations</gi> element giving a
 	      list of relations between organisations:
@@ -1239,30 +1241,30 @@
 	      </egXML>
 	      </p>
 
-	      <p>We first exemplify the structure of one organisation element by giving the basic
+	      <p>We exemplify the structure of one organisation element by giving the basic
 	      information about a parliamentary group of political parties:
 	      
 	      <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-parliamentaryGroup">
 		<org role="parliamentaryGroup" xml:id="group.LN-Aut">
                   <orgName full="yes" xml:lang="it">Lega Nord e Autonomie</orgName>
                   <orgName full="abb">LN-Aut</orgName>
-                  <event from="2013-03-15" to="2018-03-22">
+                  <event from="2013-03-15">
                     <label xml:lang="en">existence</label>
                   </event>
 		</org>
 	      </egXML>
 	      
 	      First, each organisation must have an <att>xml:id</att> attribute, so that
-	      other elements can refer to it. The fact that the organisation is a
+	      other elements (in particular, <gi>person</gi>s) can refer to it.
+	      The fact that the organisation is a
 	      parliamentary group of political parties is encoded in the <att>role</att>
-	      attribute, and we elaborate on this below.  The name of the parliamentary
+	      attribute, and we elaborate on this below.  The name of the organisation
 	      group is given in the <gi>orgName</gi> element, which also uses the
 	      <att>full</att> attribute to distinguish between the <val>full</val> name of
-	      the party and the <val>abb</val> for the abbreviated name of the party
-	      group, and both forms should be present, at least for the parliamentary
-	      groups of parties.</p>
+	      the party and the <val>abb</val>reviated name of the party
+	      group.</p>
 	      
-	      <p>Parties are also created and dissolved, and this information is encoded in the
+	      <p>Organisations are also created and dissolved, and this information is encoded in the
 	      <gi>event</gi> element, which has as its <gi>label</gi> <val>existence</val>,
 	      and where the start of its existence is given in the <att>from</att> attribute;
 	      as there is no <att>to</att> attribute, this also means that the party still
@@ -1288,7 +1290,8 @@
 	      Here the full name of the organisation is also given in English, and there two
 	      external links giving URLs to further information about the organisation. In the
 	      example above, these are the Slovene and English Wikipedia pages, as indicated
-	      by the appropriate values of the two attribtes on the <gi>idno</gi> element.</p>
+	      by the appropriate values of the <att>xml:lang</att> attribtes on the
+	      <gi>idno</gi> element.</p>
 
 	      <p>Returning to the <att>role</att> attribute, it is the ParlaMint schema
 	      (cf. the Section on <ref target="#sec-validate">Validating ParlaMint
@@ -1303,17 +1306,20 @@
 		<item><val>parliament</val>: the parliament, upper or lower house of the
 		country or region, further exemplified below</item>
 
+		<item><val>politicalParty</val>: a political party.</item>
+
 		<item><val>parliamentaryGroup</val>: a grouping of political parties for the
 		purpose of acting as one in the government.</item>
 
 	      </list>
+	      We discuss these types of organisations in the following sections.
 	      </p>
 	      
             <div xml:id="sec-government">
 	      <head>The government organisation</head>
 	      
-	      <p>The government organisation, distinguished by the role
-	      <q>government</q>, is required to be present in the <gi>listOrg</gi> of every
+	      <p>The government organisation, distinguished by the <att>role</att>
+	      <val>government</val>, is required to be present in the <gi>listOrg</gi> of every
 	      corpus root and is, by convention, the first organisation in the list. It gives
 	      the ID and name of the country or region government, and also contains the list
 	      of specific governments by using the dedicated list element for events,
@@ -1348,7 +1354,7 @@
 	    <div xml:id="sec-parliament">
 	      <head>The parliament organisations</head>
 
-	      <p>The parliament organisations, distinguished by the role <q>parliament</q>,
+	      <p>The parliament organisations, distinguished by the <att>role</att> <val>parliament</val>,
 	      are also required to be present in the <gi>listOrg</gi> of every corpus root and
 	      are, by convention, the second and third organisation in the list. There will be
 	      two parliament organisations for bicameral chambers, at least in cases where the
@@ -1402,16 +1408,135 @@
 	      </p>
 	    </div>
 	  
+	  <!--div xml:id="sec-republic">
+	    <head>The "Republic" organisation</head>
+	    <p>ParlaMint also distinguished an organisation that has the <att>role</att>
+	    equal to <val>republic</val>. This organisation is primarily used to give the affiliation
+	    of the president of the republic to ...
+	    </p>
+	  </div-->
+	  
+	  <div xml:id="sec-parties">
+	    <head>Political parties and parliamentary groups</head>
+
+	    <p>In the scope of ParlaMint, very important organisations are political parties
+	    (distinguished by the <att>role</att> <val>politicalParty</val>) and parliamentary
+	    groups that represent political parties in the parliament (distinguished by the
+	    <att>role</att> <val>parliamentryGroup</val>). These organisations are linked to
+	    <gi>person</gi> elements (i.e. speakers) so that is known to which political party
+	    or parliamentary group the speaker belongs to in a certain moment of time,
+	    as further explained in the <ref target="#sec-affiliation">Section on Speaker
+	    affiliations</ref>.</p>
+
+	    <p>ParlaMint does not require that a corpus must use both types of organisations,
+	    and the choice to use either political parties, parliamentary groups, or both, is
+	    left to the creators of the corpus.</p>
+
+	    <p>The introduction to this chapter already gave examples of how organisations are
+	    encoded in general, so we here only give examples of the encoding of the
+	    political orientation of political parties or parliamentary groups, which is encoded in the
+	    <gi>state</gi> element(s).
+	    The possible categories of political orientation are given in a dedicated
+	    <q>politicalOrientation</q> taxonomy, and the <gi>state</gi> element(s)
+	    refer to the categories of this taxonomy via the <att>ana</att> attribute.
+	    Note that <gi>state</gi> elements should be the last element(s) in the <gi>org</gi>,
+	    and that there can be several <gi>state</gi> elements, corresponding to different
+	    sources, and, in the case of CHES, to different years of the survey.</p> 
+
+	    <p>ParlaMint distingishes three types of sources that the specified political
+	    orientation is based on, namely the <ref target="https://www.chesdata.eu/ches-europe">Chapel
+	    Hill Expert Surveys for Europe</ref> (CHES); the pages of political parties from
+	    <ref target="https://en.wikipedia.org">Wikipeida</ref>; and unknown sources.  We
+	    exemplify the encoding of each of these sources in turn, from last (the
+	    simplest), to first (the most complicated).</p>
+
+	    <p>If the source of the information for the political orientations is unknown,
+	    then the orientation is given as follows:
+	      <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-orientation-unknown">
+	        <org xml:id="BANAAN" role="parliamentaryGroup">
+                  <orgName full="abb">BANAAN</orgName>
+                  <orgName full="yes">Beter Alternatieven Nastreven Als Apathisch Nietsdoen</orgName>
+                  <event from="1995-01-01">
+                     <label xml:lang="en">existence</label>
+                  </event>
+                  <state type="politicalOrientation" subtype="unknown" ana="#orientation.L">
+                    <note xml:lang="en">Orientation determined by encoder, using own knowledge of the
+		    parliamentary group.</note>
+		  </state>
+               </org>
+	      </egXML>
+	      As can be seen, the <gi>state</gi> element must be of <att>type</att>
+	      <val>politicalOrientation</val>, while the <att>subtype</att> has the value
+	      <val>unknown</val>. As mentioned, the <att>ana</att> attribute points to the
+	      political orientation taxonomy, which gives the valid types of categories for
+	      the political orientation, in this case the part is categories as being left
+	      oriented. Finally, it is possible (but not required) to give a comment
+	      (preferably in English) about the orientation in the <gi>note</gi> element.
+	    </p>
+	    
+	    <p>If the source of the information for the political orientations is Wikipedia, 
+	    then the <gi>state</gi> element is encoded as follows:
+	    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-orientation-wiki">
+              <state type="politicalOrientation"
+                     subtype="Wikipedia"
+                     source="https://en.wikipedia.org/wiki/Christian_Democratic_and_Flemish"
+                     ana="#orientation.CCR">
+                <note xml:lang="en">CD&amp;V, CDV, CVP (until 2001)</note>
+              </state>
+	    </egXML>
+	    Here, the <att>subtype</att> has the value <val>Wikipedia</val>, while the
+	    Wikipedia URL of the political party or parliamentary group is given as the
+	    value of the <att>source</att> attribute. Note that in cases where the
+	    orientation of a parliamentary group was arrived at by consulting the Wikipedia
+	    pages of its constituent political parties, the <att>source</att> attribute can
+	    contain the URLs of several political parties, separated by the space character.
+	    As with orientations with unknown sources, the optional <gi>note</gi> element can
+	    contain a comment on the orientation.</p>
+	    
+	    <p>Finally, if the source of the information CHES, then the orientation is encoded
+	    as follows:
+	    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-orientation-ches">
+              <state type="politicalOrientation" subtype="CHES"
+                     source="https://www.chesdata.eu/s/1999-2019_CHES_dataset_meansv3.csv"
+                     n="2.29" ana="#orientation.L"
+                     from="2010" to="2013">
+                <label>
+                  <orgName full="init">Groen</orgName>
+                </label>
+              </state>
+              <state type="politicalOrientation" subtype="CHES"
+                     source="https://www.chesdata.eu/s/1999-2019_CHES_dataset_meansv3.csv"
+                     n="2.20" ana="#orientation.L"
+                     from="2014" to="2018">
+                <label>
+                  <orgName full="abb">Groen</orgName>
+                </label>
+              </state>
+	    </egXML>
+	    Here, the <att>subtype</att> has the value <val>CHES</val>, while the value of the
+	    <att>source</att> attribute is the URL form the CHES CSV files from where the
+	    information was taken.  The orientation (i.e. the value of <att>ana</att>) is
+	    calculated on the basis of the so called <q>LRGEN</q> column from the CHES CVS, and the
+	    LRGEN value (with 0 meaning extreme left, 5 center, and 10 extreme right) is recorded
+	    in the <att>n</att> attribute. Because the CHES gives values for each year that the
+	    surveys were conducted, we also store these years in the <att>from</att> (the year of
+	    the survey) and <att>to</att> (the year preceding the next survey) attributes.  Finaly,
+	    the <gi>label</gi> contains the CHES abbreviation of the name of the party; in the
+	    example above the abbreviation is identical to the one from ParlaMint but this is not
+	    generally the case, so the CHES abbreviation is, for verifiability, preserved in the
+	    encoding.</p>
+	  </div>
+	  
 	  <div xml:id="sec-relation">
-	      <head>Relations between organisations</head>
+	    <head>Relations between organisations</head>
 	      
-	      <p>As mentioned, the relations between various organisations, in particular,
-	      which parliamentary groups of political parties are in the <hi>coalition</hi> or in
-	      <hi>opposition</hi> and when, are encoded in the final element of <gi>listOrg</gi>,
-	      namely <gi>listRelation</gi>, which then contains <gi>relation</gi> elements, as
-	      shown in the example below:
-	      
-	      <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-relations">
+	    <p>As mentioned, the relations between various organisations, in particular,
+	    which parliamentary groups of political parties are in the <hi>coalition</hi> or in
+	    <hi>opposition</hi> and when, are encoded in the final element of <gi>listOrg</gi>,
+	    namely <gi>listRelation</gi>, which then contains <gi>relation</gi> elements, as
+	    shown in the example below:
+	    
+	    <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-relations">
 		<listRelation>
                   <relation name="coalition"
                             mutual="#parliamentaryGroup.MR #parliamentaryGroup.OpenVld"
@@ -1762,8 +1887,9 @@
 	  target="#sec-comments">Transcriber comments</ref>.</p>
 
 	  <p>Page breaks, <gi>pb</gi> are an optional element, and can also appear both
-	  inside divisions and inside speeches (as well as inside the <gi>note</gi>
-	  element). They are used to preserve the page breaks from the digital source,
+	  inside divisions and inside speeches or segments (as well as inside the <gi>note</gi>
+	  element, and, for the lingustically analysed version, inside sentences).
+	  They are used to preserve the page breaks from the digital source,
 	  possibly together with the page number, as the value of the <att>n</att>
 	  attribute. They can also point to the source of a particular page in the corpus
 	  via the <att>source</att> attribute and to their media file via the
