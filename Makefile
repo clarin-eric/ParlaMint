@@ -28,7 +28,7 @@ check-prereq:
 	@unzip -p /usr/share/java/jing.jar META-INF/MANIFEST.MF|grep 'Main-Class:'| grep -q 'relaxng'
 	@echo "Jing: OK"
 	@test -f Scripts/tools/validate.py
-	@python -m re
+	@python3 -m re
 	@echo "UD tools: OK"
 	@echo "INFO: Maximum java heap size (saxon needs 5-times more than the size of processed xml file)"
 	@java -XX:+PrintFlagsFinal -version 2>&1| grep " MaxHeapSize"|sed "s/^.*= *//;s/ .*$$//"|awk '{print "\t" $$1/1024/1024/1024 " GB"}'
