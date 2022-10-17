@@ -1,23 +1,43 @@
 F = ../../Factorized
-factorization-test:
+f-test:	f-test-root f-test-anaroot f-test-component f-test-anacomponent f-test-splits f-test-odd
+
+f-test-root:
 	$j ParlaMint-teiCorpus.rng $F/Data/ParlaMint-CZ/ParlaMint-CZ.xml
 	$j ParlaMint-teiCorpus.rng $F/DataXI/ParlaMint-CZ/ParlaMint-CZ.xml
 	$j ParlaMint-teiCorpus.rng $F/Data/ParlaMint-BE/ParlaMint-BE.xml
 	$j ParlaMint-teiCorpus.rng $F/DataXI/ParlaMint-BE/ParlaMint-BE.xml
+f-test-anaroot:
 	$j ParlaMint-teiCorpus.ana.rng $F/Data/ParlaMint-CZ/ParlaMint-CZ.ana.xml
 	$j ParlaMint-teiCorpus.ana.rng $F/DataXI/ParlaMint-CZ/ParlaMint-CZ.ana.xml
 	$j ParlaMint-teiCorpus.ana.rng $F/Data/ParlaMint-BE/ParlaMint-BE.ana.xml
 	$j ParlaMint-teiCorpus.ana.rng $F/DataXI/ParlaMint-BE/ParlaMint-BE.ana.xml
-	$j ParlaMint-TEI.rng       $F/Data/ParlaMint-CZ/ParlaMint-CZ_2016-04-13-ps2013-044-02-013-114.xml
-	$j ParlaMint-TEI.rng       $F/Data/ParlaMint-BE/ParlaMint-BE_2014-06-30-54-plenair-ip002x.xml
+f-test-component:
+	$j ParlaMint-TEI.rng $F/Data/ParlaMint-CZ/ParlaMint-CZ_2016-04-13-ps2013-044-02-013-114.xml
+	$j ParlaMint-TEI.rng $F/Data/ParlaMint-BE/ParlaMint-BE_2014-06-30-54-plenair-ip002x.xml
+f-test-anacomponent:
 	$j ParlaMint-TEI.ana.rng   $F/Data/ParlaMint-CZ/ParlaMint-CZ_2016-04-13-ps2013-044-02-013-114.ana.xml
 	$j ParlaMint-TEI.ana.rng   $F/Data/ParlaMint-BE/ParlaMint-BE_2014-06-30-54-plenair-ip002x.ana.xml
+f-test-splits:
 	$j ParlaMint-taxonomy.rng  $F/DataXI/ParlaMint-CZ/ParlaMint-CZ-taxonomy-*.xml
 	$j ParlaMint-taxonomy.rng  $F/DataXI/ParlaMint-BE/ParlaMint-BE-taxonomy-*.xml
 	$j ParlaMint-listOrg.rng   $F/DataXI/ParlaMint-CZ/ParlaMint-CZ-listOrg.xml
 	$j ParlaMint-listOrg.rng   $F/DataXI/ParlaMint-BE/ParlaMint-BE-listOrg.xml
 	$j ParlaMint-listPerson.rng   $F/DataXI/ParlaMint-CZ/ParlaMint-CZ-listPerson.xml
 	$j ParlaMint-listPerson.rng   $F/DataXI/ParlaMint-BE/ParlaMint-BE-listPerson.xml
+f-test-odd:
+	$j ../TEI/ParlaMint.odd.rng $F/Data/ParlaMint-CZ/ParlaMint-CZ.xml
+	$j ../TEI/ParlaMint.odd.rng $F/DataXI/ParlaMint-CZ/ParlaMint-CZ.xml
+	$j ../TEI/ParlaMint.odd.rng $F/Data/ParlaMint-BE/ParlaMint-BE.xml
+	$j ../TEI/ParlaMint.odd.rng $F/DataXI/ParlaMint-BE/ParlaMint-BE.xml
+	$j ../TEI/ParlaMint.odd.rng $F/Data/ParlaMint-CZ/ParlaMint-CZ.ana.xml
+	$j ../TEI/ParlaMint.odd.rng $F/DataXI/ParlaMint-CZ/ParlaMint-CZ.ana.xml
+	$j ../TEI/ParlaMint.odd.rng $F/Data/ParlaMint-BE/ParlaMint-BE.ana.xml
+	$j ../TEI/ParlaMint.odd.rng $F/DataXI/ParlaMint-BE/ParlaMint-BE.ana.xml
+	$j ../TEI/ParlaMint.odd.rng $F/Data/ParlaMint-CZ/ParlaMint-CZ_2016-04-13-ps2013-044-02-013-114.xml
+	$j ../TEI/ParlaMint.odd.rng $F/Data/ParlaMint-BE/ParlaMint-BE_2014-06-30-54-plenair-ip002x.xml
+	$j ../TEI/ParlaMint.odd.rng   $F/Data/ParlaMint-CZ/ParlaMint-CZ_2016-04-13-ps2013-044-02-013-114.ana.xml
+	$j ../TEI/ParlaMint.odd.rng   $F/Data/ParlaMint-BE/ParlaMint-BE_2014-06-30-54-plenair-ip002x.ana.xml
+
 
 list:
 	grep '<element name=' ParlaMint-*.rng | perl -pe 's|.+="||; s|">||' | sort | uniq
