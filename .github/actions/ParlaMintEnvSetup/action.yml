@@ -25,9 +25,10 @@ runs:
       uses: actions/setup-java@v3
       with:
         # The Java version to make available on the path. Takes a whole or semver Java version, or 1.x syntax (e.g. 1.8 => Java 8.x). Early access versions can be specified in the form of e.g. 14-ea, 14.0.0-ea, or 14.0.0-ea.28
-        java-version: 1.15
+        java-version: 16
         # The package type (jre, jdk, jdk+fx)
         java-package: jdk
+        distribution: 'temurin'
     - name: Check java info
       run: |
           echo $(java -version)
@@ -48,7 +49,7 @@ runs:
           /usr/share/java/saxon.jar
           jing/build/jing.jar
           /usr/share/java/jing.jar
-        key: ${{ runner.os }}-ParlaMint-deps-V5
+        key: ${{ runner.os }}-ParlaMint-deps-V6
     - name: Cache hit
       if: steps.cache_deps.outputs.cache-hit == 'true'
       run: |
