@@ -8,8 +8,14 @@
   xmlns:mk="http://ufal.mff.cuni.cz/matyas-kopp"
   exclude-result-prefixes="tei xi">
 
+  <xsl:import href="parlamint-lib.xsl"/>
+  
   <xsl:output method="text"/>
 
+  <xsl:template match="/">
+    <xsl:apply-templates select="$rootHeader"/>
+  </xsl:template>
+  
   <xsl:template match="tei:affiliation">
     <xsl:variable name="personId" select="./parent::tei:person/@xml:id"/>
     <xsl:variable name="person" select="./parent::tei:person"/>
