@@ -493,6 +493,16 @@ generate-parties:
 	$s path=../${DATADIR} outDir=Data/Metadata/Parties -xsl:Scripts/parties-tei2tsv.xsl \
 	${DATADIR}/ParlaMint.xml 2> Data/Metadata/Parties/ParlaMint_parties.log
 
+## Insert political orientation of parties from TSV file into a root file.
+OC = BG
+insert-orientation-test:
+	$s tsv=../Data/Metadata/Parties/Orientation-${OC}.tsv -xsl:Scripts/orientations-tsv2tei.xsl \
+	${DATADIR}/ParlaMint-${OC}/ParlaMint-${OC}.xml > Scripts/tmp/ParlaMint-${OC}.xml
+	#-diff -b ${DATADIR}/ParlaMint-${OC}/ParlaMint-${OC}.xml Scripts/tmp/ParlaMint-${OC}.xml
+	#${pc} Scripts/tmp/ParlaMint-${OC}.xml
+	#${vrt} Scripts/tmp/ParlaMint-${OC}.xml
+	#${s} ${vlink} Scripts/tmp/ParlaMint-${OC}.xml
+
 ## Generate TSV files for minister affiliations on the basis of the corpus root files.
 generate-ministers:
 	$s outDir=Data/Metadata/Ministers -xsl:Scripts/ministers-tei2tsv.xsl ${DATADIR}/ParlaMint.xml

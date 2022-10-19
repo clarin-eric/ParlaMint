@@ -21,8 +21,9 @@
 	<ref name="global.atts"/>
 	<oneOrMore>
 	  <choice>
-            <ref name="sentence"/>
             <ref name="comment"/>
+            <ref name="pb"/>
+            <ref name="sentence"/>
 	  </choice>
 	</oneOrMore>
       </element>
@@ -35,6 +36,7 @@
       <oneOrMore>
 	<choice>
           <ref name="comment"/>
+          <ref name="pb"/>
           <ref name="ner"/>
           <ref name="word"/>
           <ref name="punct"/>
@@ -116,8 +118,9 @@
       <choice>
         <ref name="word"/>
         <ref name="punct"/>
-        <ref name="ner"/>
 	<ref name="comment"/>
+        <ref name="pb"/>
+        <ref name="ner"/>
       </choice>
     </oneOrMore>
   </define>
@@ -138,11 +141,13 @@
 	<a:documentation>Simple word</a:documentation>
 	<group>
 	  <ref name="word.atts"/>
-	  <text/>
+	  <ref name="normalized-space.string"/>
 	</group>
 	<a:documentation>Word with several normalised words</a:documentation>
 	<group>
 	  <ref name="word-optional.atts"/>
+	  <!-- This doesn't work: error: group of "string" or "data" element -->
+	  <!--ref name="normalized-space.string"/-->
 	  <text/>
 	  <oneOrMore>
 	    <element name="w">
@@ -156,7 +161,7 @@
 	  <ref name="word.atts"/>
 	  <oneOrMore>
 	    <element name="w">
-	      <text/>
+	      <ref name="normalized-space.string"/>
 	    </element>
 	  </oneOrMore>
 	  <empty/>
@@ -168,7 +173,7 @@
   <define name="punct">
     <element name="pc">
       <ref name="token.atts"/>
-      <text/>
+      <ref name="normalized-space.string"/>
     </element>
   </define>
 

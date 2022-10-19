@@ -19,16 +19,17 @@ xsd:
 	$t ParlaMint-TEI.ana.rng ParlaMint-TEI.ana.xsd
 	$t ParlaMint-teiCorpus.rng ParlaMint-teiCorpus.xsd
 	$t ParlaMint-teiCorpus.ana.rng ParlaMint-teiCorpus.ana.xsd
-#DATA = ../Data
+#DATADIR = ../Data
 # For testing v3 corpora
-DATA = ../../ParlaMint-v2tov3/Data
+DATADIR = ../../ParlaMint-data/Data
+#DATADIR = ../../ParlaMint-v2tov3/Data
 val:
-	-ls ${DATA}/ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs ${pc}
-	-ls ${DATA}/ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs ${vrt}
-	-ls ${DATA}/ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep    '_' | xargs ${vct}
-	-ls ${DATA}/ParlaMint-*/ParlaMint-*.xml | grep    '.ana.' | grep -v '_' | xargs ${pc}
-	-ls ${DATA}/ParlaMint-*/ParlaMint-*.xml | grep    '.ana.' | grep -v '_' | xargs ${vra}
-	-ls ${DATA}/ParlaMint-*/ParlaMint-*.xml | grep    '.ana.' | grep    '_' | xargs ${vca}
+	-ls ${DATADIR}/ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs ${pc}
+	-ls ${DATADIR}/ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs ${vrt}
+	-ls ${DATADIR}/ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep    '_' | xargs ${vct}
+	-ls ${DATADIR}/ParlaMint-*/ParlaMint-*.xml | grep    '.ana.' | grep -v '_' | xargs ${pc}
+	-ls ${DATADIR}/ParlaMint-*/ParlaMint-*.xml | grep    '.ana.' | grep -v '_' | xargs ${vra}
+	-ls ${DATADIR}/ParlaMint-*/ParlaMint-*.xml | grep    '.ana.' | grep    '_' | xargs ${vca}
 
 s = java -jar /usr/share/java/saxon.jar
 j = java -jar /usr/share/java/jing.jar
@@ -42,4 +43,4 @@ P = parallel --citation --gnu --halt 2
 #Count things like org/@role
 what = grep ' corresp=' | grep corresp
 what:
-	cat ${DATA}/ParlaMint-*/ParlaMint-*.xml | ${what}
+	cat ${DATADIR}/ParlaMint-*/ParlaMint-*.xml | ${what}
