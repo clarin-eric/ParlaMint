@@ -151,12 +151,13 @@ check-content-XX = $(addprefix check-content-, $(PARLIAMENTS))
 check-content: $(check-content-XX)
 ## check-content-XX ## ...
 $(check-content-XX): check-content-%: %
-	for root in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep -v '_'`;	do \
+	for root in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<${CORPUSDIR_SUFFIX}*.xml" | grep -P "ParlaMint-$<${CORPUSDIR_SUFFIX}(|ana).xml"`;	do \
 	  echo "checking content in root:" $${root}; \
+	  echo "  - general"; \
 	  ${s} ${vcontent} $${root}; \
-	  awk '{gsub(/(<[a-zA-Z:]+)/,"& LINE=\"" NR "\"",$$0);print}' "$${root}" \
-	      | java -jar /usr/share/java/saxon.jar -xsl:Scripts/validate-parlamint-particDesc.xsl -s:- ;\
-	  for component in `echo $${root}| xargs ${getincludes}`; do \
+	  echo "  - organisations + persons"; \
+	  ${s} -xsl:Scripts/validate-parlamint-particDesc.xsl $${root} ;\
+	  for component in `echo $${root}| xargs ${getcomponentincludes}`; do \
 	    echo "checking content in component:" ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/$${component}; \
 	    ${s} ${vcontent} ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/$${component}; \
 	  done; \
@@ -330,8 +331,7 @@ DEV-validate-particDesc: $(DEV-validate-particDesc-XX)
 ##!DEV-validate-particDesc-XX ##
 $(DEV-validate-particDesc-XX): DEV-validate-particDesc-%: % working-dir-%
 	for file in `find ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -name ParlaMint-$<.xml | grep -v "_"`; do \
-	  awk '{gsub(/(<[a-zA-Z:]+)/,"& LINE=\"" NR "\"",$$0);print}' "$$file"\
-	  | java -jar /usr/share/java/saxon.jar -xsl:Scripts/validate-parlamint-particDesc.xsl -s:- ;\
+	  ${s} -xsl:Scripts/validate-parlamint-particDesc.xsl $${file} ;\
 	done
 
 
@@ -563,6 +563,7 @@ listattr = -xsl:Scripts/list-element-attribute.xsl
 faff = -xsl:Scripts/fixings/fix-overlapping-affiliations.xsl
 vcontent = -xsl:Scripts/validate-parlamint.xsl
 getincludes = -I % java -cp /usr/share/java/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -qs:'//*[local-name()="include"]/@href' -s:% |sed 's/^ *href="//;s/"//'
+getcomponentincludes = -I % java -cp /usr/share/java/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -qs:'/*/*[local-name()="include"]/@href' -s:% |sed 's/^ *href="//;s/"//'
 pc =  $j Schema/parla-clarin.rng                # Validate with Parla-CLARIN schema
 vrt = $j Schema/ParlaMint-teiCorpus.rng 	# Corpus root / text
 vct = $j Schema/ParlaMint-TEI.rng		# Corpus component / text
