@@ -3,25 +3,25 @@ namespace a = "http://relaxng.org/ns/compatibility/annotations/1.0"
 namespace xi = "http://www.w3.org/2001/XInclude"
 
 a:documentation [
-  "Schema for ParlaMint linguistically annotated\x{a}" ~
-  "  teiCorpus. Assumed to contain the corpus header and XIncludes of\x{a}" ~
-  "  component TEI files, but which should not be actually\x{a}" ~
-  "  included!"
+  "RelaxNG XML schema for ParlaMint corpora: schema\x{a}" ~
+  "  for linguistically annotated root teiCorpus file."
 ]
 include "ParlaMint-teiCorpus.rnc" {
   
-  ## Encoding description.
+  ## Encoding description linguistically annotated corpus.
   encodingDesc =
     element encodingDesc {
       global.atts,
       element projectDesc { paras },
       editorialDecl,
       tagsDecl,
-      element classDecl { taxonomy+ },
+      element classDecl { (taxonomy | XInclude)+ },
       element listPrefixDef { prefixDef+ },
       element appInfo { application+ }
     }
 }
+
+## Prefix definition for extended TEI pointers.
 prefixDef =
   element prefixDef {
     attribute ident {
@@ -31,6 +31,9 @@ prefixDef =
     attribute replacementPattern { xsd:token },
     paras
   }
+
+## Description of an applications used to linguistically annotate the
+##     corpus.
 application =
   element application {
     attribute version {
@@ -40,5 +43,5 @@ application =
     },
     attribute ident { xsd:Name },
     element label { normalized-space.string },
-    element desc { lang.att, annotated-text }+
+    element desc { lang.att, annotated.text }+
   }

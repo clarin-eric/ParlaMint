@@ -47,6 +47,14 @@
       <desc xml:lang="sl">
 	<term>Politična orientacija</term>
       </desc>
+      <category xml:id="orientation.BT">
+	<catDesc xml:lang="en">
+	  <term>Big tent</term>
+	</catDesc>
+	<catDesc xml:lang="sl">
+	  <term>Vseobsegajoča</term>
+	</catDesc>
+      </category>
       <category xml:id="orientation.L">
 	<catDesc xml:lang="en">
 	  <term>Left</term>
@@ -155,8 +163,9 @@
   </xsl:variable>
 
   <xsl:output method="xml" version="1.0" encoding="utf-8" indent="yes" omit-xml-declaration="no"/>
-  <!-- @type = 'PM' is the name of the party found in TSV -->
-  <xsl:key name="abbr" match="tei:org" use="tei:orgName[@type = 'PM']"/>
+  
+  <!-- @type = 'ParlaMint' is the ParlaMint name of the party found in TSV -->
+  <xsl:key name="abbr" match="tei:org" use="lower-case(tei:orgName[@type = 'ParlaMint'])"/>
   
   <xsl:variable name="profileDesc" select="tei:teiCorpus/tei:teiHeader/tei:profileDesc"/>
   <xsl:variable name="corpusCountry"
@@ -217,20 +226,22 @@
 			     select="tei:org[@role = 'politicalParty' or @role = 'parliamentaryGroup']"/>
       </xsl:variable>
       <xsl:message>
-	<xsl:text>INFO: </xsl:text>
+	<xsl:text>INFO: For </xsl:text>
+	<xsl:value-of select="$corpusCountry"/>
+	<xsl:text> </xsl:text>
 	<xsl:value-of select="count($parties/tei:org[tei:state[@type='politicalOrientation']])"/>
 	<xsl:text>/</xsl:text>
 	<xsl:value-of select="count($parties/tei:org)"/>
 	<xsl:text> assigned political orientation: </xsl:text>
 	<xsl:value-of select="count($parties/tei:org
-			      [tei:state[@subtype='CHES'] and not(tei:state[@subtype='Wikipedia'])])"/>
-	<xsl:text> CHES + </xsl:text>
+			      [tei:state[@subtype='CHES'] and tei:state[@subtype='Wikipedia']])"/>
+	<xsl:text> both + </xsl:text>
 	<xsl:value-of select="count($parties/tei:org
 			      [not(tei:state[@subtype='CHES']) and tei:state[@subtype='Wikipedia']])"/>
 	<xsl:text> Wikipedia + </xsl:text>
 	<xsl:value-of select="count($parties/tei:org
-			      [tei:state[@subtype='CHES'] and tei:state[@subtype='Wikipedia']])"/>
-	<xsl:text> both</xsl:text>
+			      [tei:state[@subtype='CHES'] and not(tei:state[@subtype='Wikipedia'])])"/>
+	<xsl:text> CHES</xsl:text>
       </xsl:message>
       <xsl:copy-of select="$parties"/>
     </xsl:copy>
@@ -240,7 +251,10 @@
   <xsl:template mode="insert" match="tei:org">
     <xsl:variable name="abbr" select="lower-case(tei:orgName[@full = 'abb' and 
 				      ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang != 'en'][1])"/>
-    <xsl:variable name="abbr-id" select="lower-case(replace(@xml:id, '.*\.', ''))"/>
+    <!-- politicalGroup.ANO.1108 -> ano.1108 -->
+    <xsl:variable name="abbr-id" select="lower-case(replace(@xml:id, '.*?\.', ''))"/>
+    <!-- ano.1108 -> ano -->
+    <xsl:variable name="abbr-id2" select="replace($abbr-id, '\..*', '')"/>
     <xsl:variable name="found">
       <xsl:choose>
 	<xsl:when test="key('abbr', $abbr, $data)">
@@ -249,8 +263,11 @@
 	<xsl:when test="key('abbr', $abbr-id, $data)">
 	  <xsl:copy-of select="key('abbr', $abbr-id, $data)"/>
 	</xsl:when>
+	<xsl:when test="key('abbr', $abbr-id2, $data)">
+	  <xsl:copy-of select="key('abbr', $abbr-id2, $data)"/>
+	</xsl:when>
 	<xsl:otherwise>
-	  <xsl:message select="concat('ERROR: cant find pm_id in TSV for ', 
+	  <xsl:message select="concat('ERROR: For ', $corpusCountry, ' cant find pm_id in TSV for ', 
 			       $abbr, ' with ID ', @xml:id)"/>
 	</xsl:otherwise>
       </xsl:choose>
@@ -345,7 +362,7 @@
     <xsl:param name="url"/>
     <xsl:param name="comment"/>
     <org>
-      <orgName type="PM" full="abb">
+      <orgName type="ParlaMint" full="abb">
 	<xsl:value-of select="$pm_id"/>
       </orgName>
       <xsl:if test="normalize-space($ches_id) and $ches_id != '0'">
@@ -404,10 +421,10 @@
     <xsl:param name="listOrg"/>
     <listOrg>
       <xsl:for-each select="$listOrg//tei:org">
-	<xsl:variable name="abbrev" select="tei:orgName[@type = 'PM']"/>
-	<xsl:if test="not(preceding-sibling::tei:org[tei:orgName[@type = 'PM'] = $abbrev])">
+	<xsl:variable name="abbrev" select="tei:orgName[@type = 'ParlaMint']"/>
+	<xsl:if test="not(preceding-sibling::tei:org[tei:orgName[@type = 'ParlaMint'] = $abbrev])">
 	  <xsl:variable name="others"
-			select="following-sibling::tei:org[tei:orgName[@type = 'PM'] = $abbrev]"/>
+			select="following-sibling::tei:org[tei:orgName[@type = 'ParlaMint'] = $abbrev]"/>
 	  <xsl:copy>
 	    <xsl:copy-of select="tei:orgName"/>
 	    <!-- Collect CHES -->
@@ -445,19 +462,11 @@
   <xsl:function name="et:check-lr" xs:as="string">
     <xsl:param name="lr"/>
     <xsl:choose>
-      <xsl:when test="$lr = 'FL'">FL</xsl:when>
-      <xsl:when test="$lr = 'LLF'">LLF</xsl:when>
-      <xsl:when test="$lr = 'L'">L</xsl:when>
-      <xsl:when test="$lr = 'CL'">CL</xsl:when>
-      <xsl:when test="$lr = 'CLL'">CLL</xsl:when>
-      <xsl:when test="$lr = 'CCL'">CCL</xsl:when>
-      <xsl:when test="$lr = 'C'">C</xsl:when>
-      <xsl:when test="$lr = 'CCR'">CCR</xsl:when>
-      <xsl:when test="$lr = 'CRR'">CRR</xsl:when>
-      <xsl:when test="$lr = 'CR'">CR</xsl:when>
-      <xsl:when test="$lr = 'R'">R</xsl:when>
-      <xsl:when test="$lr = 'RRF'">RRF</xsl:when>
-      <xsl:when test="$lr = 'FR'">FR</xsl:when>
+      <xsl:when test="$taxonomy-politicalOrientation//
+		      tei:category[ends-with(@xml:id, $lr)]">
+	<xsl:value-of select="$taxonomy-politicalOrientation//
+			      tei:category[ends-with(@xml:id, $lr)]/@xml:id"/>
+      </xsl:when>
       <xsl:otherwise>
 	<xsl:message select="concat('ERROR: bad value for LR orientation: ', $lr)"/>
 	<xsl:text>XX</xsl:text>
