@@ -835,7 +835,7 @@
           <xsl:copy-of copy-namespaces="no" select="$new"/>
         </xsl:for-each>
 
-        <xsl:copy-of copy-namespaces="no" select="$tagUsages/*"/>
+        <!--xsl:copy-of copy-namespaces="no" select="$tagUsages/*"/-->
       </xsl:element>
     </xsl:element>
   </xsl:template>
