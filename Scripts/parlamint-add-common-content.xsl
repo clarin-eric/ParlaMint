@@ -193,7 +193,7 @@
 
   <!-- Gather URIs of component xi + files and map to new files, incl. .ana files -->
   <xsl:variable name="docs">
-    <xsl:for-each select="//xi:include">
+    <xsl:for-each select="/tei:teiCorpus/xi:include">
       <item>
         <xi-orig>
           <xsl:value-of select="@href"/>
