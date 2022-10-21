@@ -92,6 +92,7 @@ foreach my $inDir (glob "$inDirs") {
 			if($file =~ m/ParlaMint-(?:[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?)?.?(taxonomy|listPerson|listOrg).*\.xml/){
 				print STDERR "INFO: Validating file included in teiHeader $file\n";
 				&run("$Jing $schemaDir/ParlaMint-$1.rng", $file);
+		        &run("$Saxon meta=$rootAnaFile -xsl:$Links", $file);
 			} else {
 		      print STDERR "INFO: Validating component TEI.ana file $file\n";
 		      &run("$Jing $schemaDir/ParlaMint-TEI.ana.rng", $file);
