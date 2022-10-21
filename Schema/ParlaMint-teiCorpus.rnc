@@ -4,45 +4,47 @@ namespace xi = "http://www.w3.org/2001/XInclude"
 
 a:documentation [
   "RelaxNG XML schema for ParlaMint corpora: schema\x{a}" ~
-  "  for root teiCorpus file."
+  '  for "plain-text" root corpus file.'
 ]
 include "ParlaMint-TEI.rnc" {
   
-  ## Root element of a ParlaMint root file.
+  ## Root element of a ParlaMint corpus root file.
   start =
     element teiCorpus {
       id.att,
-      attribute xml:lang { lang.vals },
+      attribute xml:lang { lang.val },
       teiHeader,
-      element xi:include {
-        attribute href { xsd:anyURI }
-      }+
+      XInclude+
     }
   
-  ## Metadata of the corpus.
+  ## Metadata of the "plain-text" corpus.
   teiHeader =
     element teiHeader {
       global.atts, fileDesc, encodingDesc, profileDesc, revisionDesc?
     }
+  
+  ## The title statement.
   titleStmt =
     element titleStmt { title-header+, meeting*, respStmt+, funder+ }
   
-  ## Encoding description.
+  ## The encoding description.
   encodingDesc =
     element encodingDesc {
       global.atts,
       element projectDesc { paras }+,
       editorialDecl,
       tagsDecl,
-      element classDecl { taxonomy+ }
+      element classDecl { (taxonomy | XInclude)+ }
     }
   
-  ## Profile description.
+  ## The profile description.
   profileDesc =
     element profileDesc {
       global.atts, settingDesc, textClass?, particDesc, langUsage
     }
 }
+
+## The editorial declaration.
 editorialDecl =
   element editorialDecl {
     element correction { paras },
@@ -51,6 +53,8 @@ editorialDecl =
     element quotation { paras },
     element segmentation { paras }
   }
+
+## The text class.
 textClass =
   element textClass {
     element catRef {
@@ -58,246 +62,20 @@ textClass =
       attribute target { anyURIs }
     }+
   }
-taxonomy =
-  element taxonomy {
-    id.att,
-    element desc { lang.att, term-text }+,
-    category+
-  }
-category =
-  element category {
-    id.att,
-    ana.att?,
-    element catDesc { lang.att, term-text }+,
-    category*
-  }
 
-## Metadata on the organisations (esp. political
-##     parties) and speakers.
-particDesc = element particDesc { listOrg+, listPerson+ }
-listOrg = element listOrg { head*, org+, listRelation? }
-org =
-  element org {
-    global.atts,
-    ana.att?,
-    attribute role {
-      "country"
-      | "republic"
-      | "government"
-      | "parliament"
-      | "politicalParty"
-      | 
-        ## The following used only by BG:
-        "parliamentaryGroup"
-      | # ET: Removed, as coalition should be encoded with <relation>!
-        
-        # value>coalition</value
-        
-        ## The following used only by LT:
-        "ngo"
-      | "conferenceOfChairs"
-      | 
-        ## The following used only by CZ:
-        "boardOfParliament"
-      | "institution"
-      | "senate"
-      | "committee"
-      | "subcommittee"
-      | "commission"
-      | "delegation"
-      | "supervisoryBoard"
-      | "workingGroup"
-      | "interparliamentaryFriendshipGroup"
-      | "nationalCouncil"
-      | "chamberOfThePeople"
-      | "chamberOfTheNations"
-      | "europeanParliament"
-      | "internationalOrganisation"
-      | 
-        ## The following used only by SI:
-        "boardOfDirectors"
-      | 
-        ## The following used only by AT:
-        "ethnicCommunity"
-      | "europeanCommission"
-      | "europeanInstitution"
-    },
-    orgName+,
-    event*,
-    idno*,
-    desc?,
-    listEvent?,
-    state*
-  }
-orgName =
-  element orgName {
-    lang.att,
-    
-    ## Used when "the same" party changes its name
-    (temporal.atts?),
-    attribute full { "yes" | "abb" },
-    normalized-space.string
-  }
+## Metadata on the organisations (esp. political parties) and speakers.
+##     There can be only one list of organisations and one of speakers, and they can be
+##     XIncluded.
+particDesc =
+  element particDesc { (listOrg | XInclude), (listPerson | XInclude) }
 
-## Element defining the political orientation of a politicalParty or
-##     parliamentaryGroup.
-state =
-  element state {
-    attribute type { "politicalOrientation" },
-    attribute subtype { "CHES" | "Wikipedia" | "unknown" },
-    attribute source { anyURIs }?,
-    attribute n { xsd:decimal }?,
-    attribute from { temporal.val }?,
-    attribute to { temporal.val }?,
-    attribute ana { xsd:anyURI },
-    (element label {
-       element orgName {
-         attribute full { "abb" },
-         normalized-space.string
-       }
-     }
-     | element note { lang.att, normalized-space.string }+)?
-  }
-listEvent = element listEvent { head*, event+ }
-
-## Used to specify relations between politicalParties and/or parliamentaryGroups.
-listRelation =
-  element listRelation {
-    element relation {
-      ana.att?,
-      temporal.atts?,
-      attribute name {
-        "coalition"
-        | "opposition"
-        | "renaming"
-        | "successor"
-        | "representing"
-      },
-      (attribute mutual { anyURIs }
-       | (attribute active { anyURIs },
-          attribute passive { anyURIs }))
-    }+
-  }
-listPerson = element listPerson { head*, person+ }
-person =
-  element person {
-    global.atts,
-    
-    ## Can have person name in several languages,
-    ##	or, rather, scripts. Used by bg.
-    (persName+),
-    (element sex {
-       attribute value { "M" | "F" | "U" | "O" | "N" },
-       empty
-     }?
-     & element birth { life-event.content }?
-     & element death { life-event.content }?
-     & affiliation*
-     & occupation*
-     & education*
-     & idno*
-     & figure*)
-  }
-persName =
-  element persName {
-    lang.att,
-    
-    ## Special persons (like 'anonymous', 'group' etc.) have their name in
-    ##	term.
-    (term
-     | (element surname { personal.att, normalized-space.string }+
-        & element forename { personal.att, normalized-space.string }+
-        & element addName { personal.att, normalized-space.string }*
-        & element roleName { personal.att, normalized-space.string }*
-        & element nameLink { normalized-space.string }*))
-  }
-affiliation =
-  element affiliation {
-    ana.att?,
-    temporal.atts?,
-    ref.att?,
-    attribute role {
-      "member"
-      | "head"
-      | "deputyHead"
-      | 
-        ## The following used only by FR:
-        "minister"
-      | "associateMember"
-      | "nonAttachedMember"
-      | "ministerDelegate"
-      | 
-        ## The following used only by CZ:
-        "secretaryOfState"
-      | "observer"
-      | "verifier"
-      | "vicePublicDefenderOfRights"
-      | "publicDefenderOfRights"
-      | "alternateOfDelegation"
-      | "replacement"
-      | 
-        ## The following used only by BG:
-        "representative"
-      | "academician"
-      | "candidateChairman"
-      | "constitutionalJudge"
-      | "deputyMinister"
-      | "ombudsman"
-      | "prosecutorGeneral"
-      | "secretary"
-      | "secretaryGeneral"
-    },
-    element roleName { lang.att, normalized-space.string }*
-  }
-occupation =
-  element occupation {
-    global.atts, temporal.atts?, normalized-space.string
-  }
-education =
-  element education {
-    global.atts, temporal.atts?, normalized-space.string
-  }
-# Meant as a container of person photo
-figure =
-  element figure {
-    element head { normalized-space.string }?,
-    element graphic {
-      attribute url { xsd:anyURI },
-      attribute scale {
-        xsd:double
-        | xsd:token { pattern = '(\-?[\d]+/\-?[\d]+)"/>' }
-        | xsd:decimal
-      }?
-    }
-  }
+## Used languages.
 langUsage =
   element langUsage {
     element language {
       lang.att,
-      attribute ident { lang.vals },
+      attribute ident { lang.val },
       attribute usage { xsd:nonNegativeInteger }?,
       normalized-space.string
     }+
   }
-
-## The content of elements that describe life
-##     events: they can have an partial date (e.g. year only) in temporal
-##     attributes. The content can be empty, or gives the placeName where
-##     the event happened.
-life-event.content =
-  attribute when { xsd:date | xsd:gYearMonth | xsd:gYear },
-  element placeName { ref.att, normalized-space.string }?
-event =
-  element event {
-    global.atts,
-    temporal.atts,
-    element label { lang.att, normalized-space.string }+
-  }
-term = element term { normalized-space.string }
-
-## Text preceded by term, for use in taxonomies.
-term-text = term, annotated-text
-
-## Attribute for person name elements,
-##     cf. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.personal.html
-personal.att = attribute full { "yes" | "abb" | "init" }?
