@@ -235,10 +235,11 @@
           <attribute name="when">
             <data type="date"/>
           </attribute>
-          <ref name="name-header"/>
-          <!-- The following doesn't work: group of "string" or "data" element -->
-          <!--ref name="normalized-space.string"/-->
-          <text/>
+	  <mixed>
+	    <zeroOrMore>
+              <ref name="name-header"/>
+	    </zeroOrMore>
+	  </mixed>
         </element>
       </oneOrMore>
     </element>
