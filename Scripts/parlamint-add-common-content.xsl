@@ -193,7 +193,7 @@
 
   <!-- Gather URIs of component xi + files and map to new files, incl. .ana files -->
   <xsl:variable name="docs">
-    <xsl:for-each select="//xi:include">
+    <xsl:for-each select="/tei:teiCorpus/xi:include">
       <item>
         <xi-orig>
           <xsl:value-of select="@href"/>
@@ -835,7 +835,7 @@
           <xsl:copy-of copy-namespaces="no" select="$new"/>
         </xsl:for-each>
 
-        <xsl:copy-of copy-namespaces="no" select="$tagUsages/*"/>
+        <!--xsl:copy-of copy-namespaces="no" select="$tagUsages/*"/-->
       </xsl:element>
     </xsl:element>
   </xsl:template>

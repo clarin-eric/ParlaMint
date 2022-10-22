@@ -28,6 +28,9 @@ We are now working on extending the ParlaMint corpora with newer proceedings and
 This Git repository contains the ParlaMint XML schemas, the scripts used to validate and convert the
 ParlaMint TEI XML corpora to some useful derived formats, and samples of the ParlaMint corpora:
 
+* Contributing to ParlaMint repository is described in *[CONTRIBUTING.md](CONTRIBUTING.md) file*
+  * git and GitHub setup
+  * installing prerequisites
 * Running *`make help`* in repository root folder provides make targets list with description.
 * The *[Schema](Schema/) folder* contains the schemas for validating the
 four types of files present in the corpora. The README in this

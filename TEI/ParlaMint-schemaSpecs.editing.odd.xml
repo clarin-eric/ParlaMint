@@ -4027,8 +4027,10 @@
         xml:lang="en">documents a change or set of changes made during the production
     of a source document, or during the revision of an electronic file.</desc>
     <content>
-      <elementRef key="name"/>
-      <textNode/>
+      <alternate minOccurs="1" maxOccurs="unbounded">
+	<elementRef key="name"/>
+	<textNode/>
+      </alternate>
     </content>
     <attList>
       <pm:attPreserve ident="when"/>
@@ -4036,12 +4038,10 @@
     <exemplum xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
 	<revisionDesc>
-          <change when="2021-02-02">
-          <name>Tommaso Agnoloni</name>: Made sample.</change>
           <change when="2021-01-28">
           <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
           <change when="2021-02-26">
-          <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+          <name>Tommaso Agnoloni</name>, <name>Francesca Frontini</name>: Corpus revision, fixing</change>
 	</revisionDesc>
       </egXML>
     </exemplum>
