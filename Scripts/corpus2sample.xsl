@@ -10,6 +10,8 @@
   exclude-result-prefixes="#all"
   version="2.0">
 
+  <xsl:import href="parlamint-lib.xsl"/>
+  
   <!-- Output directory for samples -->
   <xsl:param name="outDir"/>
   
@@ -105,8 +107,8 @@
     
   <xsl:template match="tei:publicationStmt/tei:date">
     <xsl:copy>
-      <xsl:attribute name="when" select="$today"/>
-      <xsl:value-of select="$today"/>
+      <xsl:attribute name="when" select="$today-iso"/>
+      <xsl:value-of select="$today-iso"/>
     </xsl:copy>
   </xsl:template>
     
@@ -152,7 +154,7 @@
   </xsl:template>
 
   <xsl:template name="revisionSample">
-    <change when="{$today}"><name><xsl:value-of select="$revRespPers"/></name>: Made sample.</change>
+    <change when="{$today-iso}"><name><xsl:value-of select="$revRespPers"/></name>: Made sample.</change>
   </xsl:template>
   <!-- Here we pick the first and last $Range utterances and all
        immediatelly preceding and intervening other elements -->
