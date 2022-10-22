@@ -36,16 +36,16 @@
       <!-- When too few files -->
       <xsl:when test="$n &lt; 2 * $Files">
         <xsl:message select="concat('INFO: from ', $n , ' files  selecting all of them: ')"/>
-        <xsl:for-each select="//xi:include">
-          <xsl:message select="concat('INFO: selecting file ', @href)"/>
+        <xsl:for-each select="/tei:teiCorpus/xi:include">
+          <xsl:message select="concat('INFO: selecting component file ', @href)"/>
           <xsl:copy-of select="."/>
         </xsl:for-each>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:message select="concat('INFO: from ', $n , ' files  selecting ~', $Files, ' files:')"/>
-      <xsl:for-each select="//xi:include">
+        <xsl:message select="concat('INFO: from ', $n , ' component files  selecting ~', $Files, ' files:')"/>
+      <xsl:for-each select="/tei:teiCorpus/xi:include">
         <xsl:if test="(position()-1) mod floor($n div $Files) = floor($n div $Files) - 1">
-          <xsl:message select="concat('INFO: selecting file ', @href)"/>
+          <xsl:message select="concat('INFO: selecting component file ', @href)"/>
           <xsl:copy-of select="."/>
         </xsl:if>
       </xsl:for-each>
@@ -63,7 +63,7 @@
     </xsl:result-document>
     <!-- Output component file samples -->
     <xsl:variable name="inDir" select="replace(document-uri(/), '/[^/]+$', '')"/>
-    <xsl:for-each select="$components/xi:include">
+    <xsl:for-each select="$components/xi:include | //tei:teiHeader//xi:include">
       <!-- Get rid of subdirectories if in original -->
       <xsl:variable name="href" select="replace(@href, '.+/', '')"/>
       <xsl:result-document href="{$outDir}/{$href}" method="xml">
@@ -246,6 +246,10 @@
   </xsl:template>
   <xsl:template match="@*">
     <xsl:copy/>
+  </xsl:template>
+  <xsl:template match="xi:include[ancestor::tei:teiHeader]">
+    <xsl:message select="concat('INFO: selecting meta file ', @href)"/>
+    <xsl:copy-of select="."/>
   </xsl:template>
 
 </xsl:stylesheet>
