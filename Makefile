@@ -518,7 +518,11 @@ insert-orientation-test-all:
 	make insert-orientation-test OC=FR DATADIR=../ParlaMint-v2tov3/Data
 	make insert-orientation-test OC=GB DATADIR=../ParlaMint-v2tov3/Data
 	make insert-orientation-test OC=IS DATADIR=../ParlaMint-v2tov3/Data
+	make insert-orientation-test OC=IT DATADIR=../ParlaMint-v2tov3/Data
+	make insert-orientation-test OC=LT DATADIR=../ParlaMint-v2tov3/Data
+	make insert-orientation-test OC=LV DATADIR=../ParlaMint-v2tov3/Data
 	make insert-orientation-test OC=NL DATADIR=../ParlaMint-v2tov3/Data
+	make insert-orientation-test OC=IT DATADIR=../ParlaMint-v2tov3/Data
 	make insert-orientation-test OC=PL DATADIR=../ParlaMint-v2tov3/Data
 	make insert-orientation-test OC=SI DATADIR=../ParlaMint-v2tov3/Data
 	make insert-orientation-test OC=TR DATADIR=../ParlaMint-v2tov3/Data
@@ -527,10 +531,10 @@ OC = DK
 insert-orientation-test-new:
 	$s tsv=../Data/Metadata/Parties/Orientation-${OC}.tsv -xsl:Scripts/orientations-tsv2tei.xsl \
 	${DATADIR}/ParlaMint-${OC}/ParlaMint-${OC}-listOrg.xml > Scripts/tmp/ParlaMint-${OC}-listOrg.xml
-insert-orientation-test-old:
+insert-orientation-test:
 	$s tsv=../Data/Metadata/Parties/Orientation-${OC}.tsv -xsl:Scripts/orientations-tsv2tei.xsl \
 	${DATADIR}/ParlaMint-${OC}/ParlaMint-${OC}.xml > Scripts/tmp/ParlaMint-${OC}.xml
-insert-orientation-test-val-old:
+insert-orientation-test-val:
 	$s tsv=../Data/Metadata/Parties/Orientation-${OC}.tsv -xsl:Scripts/orientations-tsv2tei.xsl \
 	${DATADIR}/ParlaMint-${OC}/ParlaMint-${OC}.xml > Scripts/tmp/ParlaMint-${OC}.xml
 	#-diff -b ${DATADIR}/ParlaMint-${OC}/ParlaMint-${OC}.xml Scripts/tmp/ParlaMint-${OC}.xml
