@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- Insert minister affiliations from TSV into the TEI root file 
+<!-- Insert minister affiliations from TSV into the TEI root file or directly into the listPersons file
      Note that all existing minister affiliations in TEI and removed
 -->
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -8,12 +8,13 @@
   xmlns:fn="http://www.w3.org/2005/xpath-functions"
   exclude-result-prefixes="fn tei">
   
+  <xsl:import href="parlamint-lib.xsl"/>
+  
   <!-- File with TSV data -->
   <xsl:param name="tsv"/>
   
   <xsl:output method="xml" version="1.0" encoding="utf-8" indent="yes" omit-xml-declaration="no"/>
-  <xsl:key name="id" match="tei:*" use="@xml:id"/>
-  <xsl:variable name="profileDesc" select="tei:teiCorpus/tei:teiHeader/tei:profileDesc"/>
+  <xsl:variable name="profileDesc" select="$rootHeader//tei:profileDesc"/>
   
   <!-- NOTE: we have to discuss how to name "regions" in setting! -->
   <xsl:variable name="corpusCountry"

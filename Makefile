@@ -134,10 +134,14 @@ check-links-XX = $(addprefix check-links-, $(PARLIAMENTS))
 check-links: $(check-links-XX)
 ## check-links-XX ## ...
 $(check-links-XX): check-links-%: %
-	for root in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep -v '_'`;	do \
+	for root in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep -P "ParlaMint-$<${CORPUSDIR_SUFFIX}(|ana).xml"`;	do \
 	  echo "checking links in root:" $${root}; \
 	  ${s} ${vlink} $${root}; \
-	  for component in `echo $${root}| xargs ${getincludes}`; do \
+	  for component in `echo $${root}| xargs ${getheaderincludes}`; do \
+	    echo "checking links in header component:" ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/$${component}; \
+	    ${s} meta=$(PWD)/$${root} ${vlink} ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/$${component}; \
+	  done; \
+	  for component in `echo $${root}| xargs ${getcomponentincludes}`; do \
 	    echo "checking links in component:" ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/$${component}; \
 	    ${s} meta=$(PWD)/$${root} ${vlink} ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/$${component}; \
 	  done; \
@@ -151,12 +155,13 @@ check-content-XX = $(addprefix check-content-, $(PARLIAMENTS))
 check-content: $(check-content-XX)
 ## check-content-XX ## ...
 $(check-content-XX): check-content-%: %
-	for root in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep -v '_'`;	do \
+	for root in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<${CORPUSDIR_SUFFIX}*.xml" | grep -P "ParlaMint-$<${CORPUSDIR_SUFFIX}(|ana).xml"`;	do \
 	  echo "checking content in root:" $${root}; \
+	  echo "  - general"; \
 	  ${s} ${vcontent} $${root}; \
-	  awk '{gsub(/(<[a-zA-Z:]+)/,"& LINE=\"" NR "\"",$$0);print}' "$${root}" \
-	      | java -jar /usr/share/java/saxon.jar -xsl:Scripts/validate-parlamint-particDesc.xsl -s:- ;\
-	  for component in `echo $${root}| xargs ${getincludes}`; do \
+	  echo "  - organisations + persons"; \
+	  ${s} -xsl:Scripts/validate-parlamint-particDesc.xsl $${root} ;\
+	  for component in `echo $${root}| xargs ${getcomponentincludes}`; do \
 	    echo "checking content in component:" ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/$${component}; \
 	    ${s} ${vcontent} ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/$${component}; \
 	  done; \
@@ -218,7 +223,7 @@ meta: $(meta-XX)
 $(meta-XX): meta-%: %
 	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*-meta.tsv
 	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*_*.xml" | grep -v '.ana.' | $P --jobs 10 \
-	'$s hdr=../${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.xml -xsl:Scripts/parlamint2meta.xsl \
+	'$s meta=../${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.xml -xsl:Scripts/parlamint2meta.xsl \
 	{} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{/.}-meta.tsv'
 
 
@@ -261,9 +266,15 @@ $(add-common-content-XX): add-common-content-%: %
 	   anaDir=`pwd`/${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/add-common-content/ParlaMint-$<${CORPUSDIR_SUFFIX} \
 	   -xsl:Scripts/parlamint-add-common-content.xsl \
 	   ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.xml || :
+	for component in `echo ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.ana.xml| xargs ${getheaderincludes}`; do \
+	  echo "copying header component: ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/$${component}" ; \
+	    cp ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/$${component} ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/add-common-content/ParlaMint-$<${CORPUSDIR_SUFFIX}; \
+	done;
+	echo "Result is in: ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/add-common-content/ParlaMint-$<${CORPUSDIR_SUFFIX}"
 
 factorize-teiHeader-XX = $(addprefix factorize-teiHeader-, $(PARLIAMENTS))
-## factorize-teiHeader ## calculate and add common content (tagUsage,)
+## factorize-teiHeader ## move the content of listPerson, listOrg and all taxonomies elements
+#### from teiHeader into separate files and xincludes them
 factorize-teiHeader: $(factorize-teiHeader-XX)
 ## factorize-teiHeader-XX ##
 $(factorize-teiHeader-XX): factorize-teiHeader-%: %
@@ -329,8 +340,7 @@ DEV-validate-particDesc: $(DEV-validate-particDesc-XX)
 ##!DEV-validate-particDesc-XX ##
 $(DEV-validate-particDesc-XX): DEV-validate-particDesc-%: % working-dir-%
 	for file in `find ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} -name ParlaMint-$<.xml | grep -v "_"`; do \
-	  awk '{gsub(/(<[a-zA-Z:]+)/,"& LINE=\"" NR "\"",$$0);print}' "$$file"\
-	  | java -jar /usr/share/java/saxon.jar -xsl:Scripts/validate-parlamint-particDesc.xsl -s:- ;\
+	  ${s} -xsl:Scripts/validate-parlamint-particDesc.xsl $${file} ;\
 	done
 
 
@@ -517,11 +527,19 @@ insert-orientation-test-all:
 	make insert-orientation-test OC=FR DATADIR=../ParlaMint-v2tov3/Data
 	make insert-orientation-test OC=GB DATADIR=../ParlaMint-v2tov3/Data
 	make insert-orientation-test OC=IS DATADIR=../ParlaMint-v2tov3/Data
+	make insert-orientation-test OC=IT DATADIR=../ParlaMint-v2tov3/Data
+	make insert-orientation-test OC=LT DATADIR=../ParlaMint-v2tov3/Data
+	make insert-orientation-test OC=LV DATADIR=../ParlaMint-v2tov3/Data
 	make insert-orientation-test OC=NL DATADIR=../ParlaMint-v2tov3/Data
+	make insert-orientation-test OC=IT DATADIR=../ParlaMint-v2tov3/Data
 	make insert-orientation-test OC=PL DATADIR=../ParlaMint-v2tov3/Data
 	make insert-orientation-test OC=SI DATADIR=../ParlaMint-v2tov3/Data
 	make insert-orientation-test OC=TR DATADIR=../ParlaMint-v2tov3/Data
-OC = BG
+
+OC = DK
+insert-orientation-test-new:
+	$s tsv=../Data/Metadata/Parties/Orientation-${OC}.tsv -xsl:Scripts/orientations-tsv2tei.xsl \
+	${DATADIR}/ParlaMint-${OC}/ParlaMint-${OC}-listOrg.xml > Scripts/tmp/ParlaMint-${OC}-listOrg.xml
 insert-orientation-test:
 	$s tsv=../Data/Metadata/Parties/Orientation-${OC}.tsv -xsl:Scripts/orientations-tsv2tei.xsl \
 	${DATADIR}/ParlaMint-${OC}/ParlaMint-${OC}.xml > Scripts/tmp/ParlaMint-${OC}.xml
@@ -535,7 +553,7 @@ insert-orientation-test-val:
 
 ## Generate TSV files for minister affiliations on the basis of the corpus root files.
 generate-ministers:
-	$s outDir=Data/Metadata/Ministers -xsl:Scripts/ministers-tei2tsv.xsl ${DATADIR}/ParlaMint.xml
+	$s outDir=Data/Metadata/Ministers2 -xsl:Scripts/ministers-tei2tsv.xsl ${DATADIR}/ParlaMint.xml
 
 ## Insert minister affiliations from TSV file into a root file.
 MC = IS
@@ -558,6 +576,8 @@ listattr = -xsl:Scripts/list-element-attribute.xsl
 faff = -xsl:Scripts/fixings/fix-overlapping-affiliations.xsl
 vcontent = -xsl:Scripts/validate-parlamint.xsl
 getincludes = -I % java -cp /usr/share/java/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -qs:'//*[local-name()="include"]/@href' -s:% |sed 's/^ *href="//;s/"//'
+getheaderincludes = -I % java -cp /usr/share/java/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -qs:'//*[local-name()="teiHeader"]//*[local-name()="include"]/@href' -s:% |sed 's/^ *href="//;s/"//'
+getcomponentincludes = -I % java -cp /usr/share/java/saxon.jar net.sf.saxon.Query -xi:off \!method=adaptive -qs:'/*/*[local-name()="include"]/@href' -s:% |sed 's/^ *href="//;s/"//'
 pc =  $j Schema/parla-clarin.rng                # Validate with Parla-CLARIN schema
 vrt = $j Schema/ParlaMint-teiCorpus.rng 	# Corpus root / text
 vct = $j Schema/ParlaMint-TEI.rng		# Corpus component / text
