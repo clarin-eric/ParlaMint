@@ -63,7 +63,7 @@ jobs:
               echo "::warning::skipping annotated conversion - missing corpus root file"
             fi
             echo "::notice::Move new sample files to Data/ParlaMint-$parla"
-            mv $DIR/ParlaMint-$parla{.,_}*xml Data/ParlaMint-$parla/
+            ls $DIR|grep "ParlaMint-$parla[\.\_]"|xargs -I {} mv $DIR/{} Data/ParlaMint-$parla/
             echo "::endgroup::"
           done
       - name: Remove unused data from repository
