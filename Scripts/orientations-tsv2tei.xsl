@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- Insert political orientation of parties from TSV file into a root file.
+<!-- Insert political orientation of parties from TSV file into a root or listOrg file.
      Note that all existing political orientation of parties in TEI is removed
 -->
 <xsl:stylesheet 
@@ -29,6 +29,13 @@
       <item>https://www.chesdata.eu/s/CHES2019V3.csv</item>
     </list>
   </xsl:param>
+  
+  <!-- If CHES LRGEN < $ches-left then orientation is taken to be Left -->
+  <!-- If CHES LRGEN > $ches-right then orientation is taken to be Right -->
+  <!-- Otherwise orientation is taken to be Centre -->
+  <xsl:param name="ches-left">4.50</xsl:param>
+  <xsl:param name="ches-right">5.50</xsl:param>
+
   <!-- If CHES year is @from, then it holds untill @to year -->
   <xsl:param name="ches-interval">
     <date from="1999" to="2001"/>
@@ -39,139 +46,16 @@
     <date from="2019" to="2019"/>
   </xsl:param>
 
-  <xsl:variable name="taxonomy-politicalOrientation">
-    <taxonomy xmlns="http://www.tei-c.org/ns/1.0" xml:id="politicalOrientation">
-      <desc xml:lang="en">
-	<term>Political orientation</term>
-      </desc>
-      <desc xml:lang="sl">
-	<term>Politična orientacija</term>
-      </desc>
-      <category xml:id="orientation.BT">
-	<catDesc xml:lang="en">
-	  <term>Big tent</term>
-	</catDesc>
-	<catDesc xml:lang="sl">
-	  <term>Vseobsegajoča</term>
-	</catDesc>
-      </category>
-      <category xml:id="orientation.L">
-	<catDesc xml:lang="en">
-	  <term>Left</term>
-	</catDesc>
-	<catDesc xml:lang="sl">
-	  <term>Leva</term>
-	</catDesc>
-      </category>
-      <category xml:id="orientation.C">
-	<catDesc xml:lang="en">
-	  <term>Centre</term>
-	</catDesc>
-	<catDesc xml:lang="sl">
-	  <term>Sredinska</term>
-	</catDesc>
-      </category>
-      <category xml:id="orientation.R">
-	<catDesc xml:lang="en">
-	  <term>Right</term>
-	</catDesc>
-	<catDesc xml:lang="sl">
-	  <term>Desna</term>
-	</catDesc>
-      </category>
-      <category xml:id="orientation.FL">
-	<catDesc xml:lang="en">
-	  <term>Far left</term>
-	</catDesc>
-	<catDesc xml:lang="sl">
-	  <term>Skrajno leva</term>
-	</catDesc>
-      </category>
-      <category xml:id="orientation.FR">
-	<catDesc xml:lang="en">
-	  <term>Far right</term>
-	</catDesc>
-	<catDesc xml:lang="sl">
-	  <term>Skrajno desna</term>
-	</catDesc>
-      </category>
-      <category xml:id="orientation.CL">
-	<catDesc xml:lang="en">
-	  <term>Centre-left</term>
-	</catDesc>
-	<catDesc xml:lang="sl">
-	  <term>Levo sredinska</term>
-	</catDesc>
-      </category>
-      <category xml:id="orientation.CR">
-	<catDesc xml:lang="en">
-	  <term>Centre-right</term>
-	</catDesc>
-	<catDesc xml:lang="sl">
-	  <term>Desno sredinska</term>
-	</catDesc>
-      </category>
-      <category xml:id="orientation.CCL">
-	<catDesc xml:lang="en">
-	  <term>Centre to centre-left</term>
-	</catDesc>
-	<catDesc xml:lang="sl">
-	  <term>Sredinska do levo sredinska</term>
-	</catDesc>
-      </category>
-      <category xml:id="orientation.CCR">
-	<catDesc xml:lang="en">
-	  <term>Centre to centre-right</term>
-	</catDesc>
-	<catDesc xml:lang="sl">
-	  <term>Sredinska do desno sredinska</term>
-	</catDesc>
-      </category>
-      <category xml:id="orientation.CLL">
-	<catDesc xml:lang="en">
-	  <term>Centre-left to left</term>
-	</catDesc>
-	<catDesc xml:lang="sl">
-	  <term>Levo sredinska do sredinska</term>
-	</catDesc>
-      </category>
-      <category xml:id="orientation.CRR">
-	<catDesc xml:lang="en">
-	  <term>Centre-right to right</term>
-	</catDesc>
-	<catDesc xml:lang="sl">
-	  <term>Desno sredinska do sredinska</term>
-	</catDesc>
-      </category>
-      <category xml:id="orientation.LLF">
-	<catDesc xml:lang="en">
-	  <term>Left to far-left</term>
-	</catDesc>
-	<catDesc xml:lang="sl">
-	  <term>Levo do skrajno leva</term>
-	</catDesc>
-      </category>
-      <category xml:id="orientation.RRF">
-	<catDesc xml:lang="en">
-	  <term>Right to far-right</term>
-	</catDesc>
-	<catDesc xml:lang="sl">
-	  <term>Desna do skrajno desna</term>
-	</catDesc>
-      </category>
-    </taxonomy>
-  </xsl:variable>
-
-  <xsl:output method="xml" version="1.0" encoding="utf-8" indent="yes" omit-xml-declaration="no"/>
+  <xsl:output method="xml" indent="yes" omit-xml-declaration="no"/>
   
   <!-- @type = 'ParlaMint' is the ParlaMint name of the party found in TSV -->
   <xsl:key name="abbr" match="tei:org" use="lower-case(tei:orgName[@type = 'ParlaMint'])"/>
-  
-  <xsl:variable name="profileDesc" select="tei:teiCorpus/tei:teiHeader/tei:profileDesc"/>
+
+  <!-- Get country of corpus from filename -->
   <xsl:variable name="corpusCountry"
-		select="$profileDesc/
-			tei:settingDesc/tei:setting/tei:name
-			[@type = 'country' or @type = 'region']/@key"/>
+		select="replace(base-uri(), 
+			'.+ParlaMint-([A-Z]{2}(-[A-Z0-9]{1,3})?).*', 
+			'$1')"/>
   
   <!-- Parse TSV into a listOrg/org/state structures with pm_id as orgName[@full="abb"] -->
   <!-- We still need to take care of doubled Wiki lines and that Wiki URL is given only once! -->
@@ -199,24 +83,6 @@
     <xsl:apply-templates/>
   </xsl:template>
   
-  <!-- Insert political orientation taxonomy, if not already present -->
-  <xsl:template match="tei:classDecl">
-    <xsl:copy>
-      <xsl:apply-templates select="@*"/>
-      <xsl:apply-templates/>
-      <xsl:if test="not(tei:taxonomy[tei:desc[contains(., 'Political orientation')]])">
-	<xsl:apply-templates select="$taxonomy-politicalOrientation"/>
-      </xsl:if>
-    </xsl:copy>
-  </xsl:template>
-  <!-- Do not copy Slovenian terms, if country is not SI -->
-  <xsl:template match="tei:taxonomy[tei:desc[contains(., 'Political orientation')]]//
-		       tei:*[@xml:lang = 'sl']">
-    <xsl:if test="$corpusCountry = 'SI'">
-      <xsl:copy-of select="."/>
-    </xsl:if>
-  </xsl:template>
-
   <xsl:template match="tei:listOrg[tei:org[@role = 'politicalParty' or @role = 'parliamentaryGroup']]">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
@@ -404,7 +270,7 @@
 	  </xsl:if>
 	  <xsl:attribute name="ana">
 	    <xsl:value-of select="$orientation-prefix"/>
-	    <xsl:value-of select="et:check-lr($lr)"/>
+	    <xsl:value-of select="$lr"/>
 	  </xsl:attribute>
 	  <xsl:if test="normalize-space($comment) and $comment != '0'">
 	    <note xml:lang="en">
@@ -458,29 +324,13 @@
     
   <!-- Functions -->
   
-  <!-- Check if LR label is correct -->
-  <xsl:function name="et:check-lr" xs:as="string">
-    <xsl:param name="lr"/>
-    <xsl:choose>
-      <xsl:when test="$taxonomy-politicalOrientation//
-		      tei:category[ends-with(@xml:id, $lr)]">
-	<xsl:value-of select="$taxonomy-politicalOrientation//
-			      tei:category[ends-with(@xml:id, $lr)]/@xml:id"/>
-      </xsl:when>
-      <xsl:otherwise>
-	<xsl:message select="concat('ERROR: bad value for LR orientation: ', $lr)"/>
-	<xsl:text>XX</xsl:text>
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:function>
-  
   <!-- Change numeric LRGEN to party orientation -->
   <!-- We use 3 labels, and this is libable to change! -->
   <xsl:function name="et:lrgen2orientation" xs:as="string">
     <xsl:param name="lrgen" xs:as="decimal"/>
     <xsl:choose>
-      <xsl:when test="$lrgen &lt; 4.50">L</xsl:when>
-      <xsl:when test="$lrgen &gt; 5.50">R</xsl:when>
+      <xsl:when test="$lrgen &lt; $ches-left">L</xsl:when>
+      <xsl:when test="$lrgen &gt; $ches-right">R</xsl:when>
       <xsl:otherwise>C</xsl:otherwise>
     </xsl:choose>
   </xsl:function>

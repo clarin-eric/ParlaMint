@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <!-- Dump all ministers in a corpus as TSV file -->
+<!-- Takes as input the ParlaMint root file with XIncludes to all the ParlaMint corpora -->
+<!-- Note that this script assumes some constructs to be written in ParlaMint 2.1 way, not V3.0, so this needs to be fixed for the new release! -->
 <xsl:stylesheet 
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -9,29 +11,40 @@
   exclude-result-prefixes="#all"
   version="2.0">
 
+  <xsl:import href="parlamint-lib.xsl"/>
+  
   <!-- Where the corpora can be found (if relative then to the location of this script). -->
   <xsl:param name="path">../Data</xsl:param>
+  
   <!-- Directory where the output TSV files are written to -->
   <xsl:param name="outDir">../Data/Metadata/Ministers</xsl:param>
-  <!-- How many template lines to output for corpora without any ministers -->
+  
+  <!-- Prefix for output files -->
   <xsl:param name="outFilePrefix">ParlaMint_ministers-</xsl:param>
+  
+  <!-- How many template lines to output for corpora without any ministers -->
   <xsl:param name="maxLines">1</xsl:param>
 
   <xsl:template match="text()"/>
   <xsl:template match="tei:*"/>
   <xsl:template match="/">
     <xsl:for-each select="//xi:include">
+      <!-- We need to prefix $path to @href to point to the actual location of corpus roots -->
       <xsl:variable name="href" select="concat($path, '/', @href)"/>
       <xsl:variable name="country" select="replace(@href, 
 					   '.+ParlaMint-([A-Z]{2}(-[A-Z0-9]{1,3})?).*', 
 					   '$1')"/>
       <xsl:variable name="outFile" select="concat($outDir, '/', 
 					   $outFilePrefix, $country, '.tsv')"/>
+      <xsl:message select="concat('INFO: Getting ', $path)"/>
       <xsl:message select="concat('INFO: Creating ', $outFile)"/>
       <xsl:result-document href="{$outFile}" method="text">
 	<xsl:text>Country&#9;PersonID&#9;Role&#9;From&#9;To&#9;Gov.&#9;Ministry&#9;Name-xx&#9;Name-en&#9;Comment&#10;</xsl:text>
 	<xsl:variable name="content">
-	  <xsl:apply-templates select="document($href)//tei:listPerson/tei:person/
+	  <xsl:variable name="rootHeader">
+	    <xsl:apply-templates mode="XInclude" select="document($href)//tei:teiHeader"/>
+	  </xsl:variable>
+	  <xsl:apply-templates select="$rootHeader//tei:listPerson/tei:person/
 				       tei:affiliation[@role = 'minister']">
 	    <xsl:with-param name="country" select="$country"/>
 	  </xsl:apply-templates>

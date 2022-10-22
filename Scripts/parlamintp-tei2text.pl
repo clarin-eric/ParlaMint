@@ -41,7 +41,7 @@ print STDERR "INFO: Making metadata files\n";
 opendir(CORPUSDIR, $inDir);
 @rootFile = grep {/ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?\.xml$/} readdir(CORPUSDIR);
 closedir(CORPUSDIR);
-$command = "$Saxon hdr=".File::Spec->catfile($inDir,$rootFile[0])." -xsl:$Meta {} > $outDir/{/.}-meta.tsv";
+$command = "$Saxon meta=".File::Spec->catfile($inDir,$rootFile[0])." -xsl:$Meta {} > $outDir/{/.}-meta.tsv";
 `cat $fileFile | $Para '$command'`;
 `rm -f $outDir/*.ana-meta.tsv`;
 `rename 's/\.ana//' $outDir/*-meta.tsv`;
