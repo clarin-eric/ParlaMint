@@ -32,20 +32,24 @@
   <!-- Select $Files XInclude components -->
   <xsl:variable name="components">
     <xsl:variable name="n" select="count(/tei:teiCorpus/xi:include)"/>
+    <xsl:for-each select="/tei:teiCorpus/tei:teiHeader//xi:include">
+      <xsl:message select="concat('INFO: selecting meta file ', @href)"/>
+      <xsl:copy-of select="."/>
+    </xsl:for-each>
     <xsl:choose>
       <!-- When too few files -->
       <xsl:when test="$n &lt; 2 * $Files">
         <xsl:message select="concat('INFO: from ', $n , ' files  selecting all of them: ')"/>
-        <xsl:for-each select="//xi:include">
-          <xsl:message select="concat('INFO: selecting file ', @href)"/>
+        <xsl:for-each select="/tei:teiCorpus/xi:include">
+          <xsl:message select="concat('INFO: selecting component file ', @href)"/>
           <xsl:copy-of select="."/>
         </xsl:for-each>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:message select="concat('INFO: from ', $n , ' files  selecting ~', $Files, ' files:')"/>
-      <xsl:for-each select="//xi:include">
+        <xsl:message select="concat('INFO: from ', $n , ' component files  selecting ~', $Files, ' files:')"/>
+      <xsl:for-each select="/tei:teiCorpus/xi:include">
         <xsl:if test="(position()-1) mod floor($n div $Files) = floor($n div $Files) - 1">
-          <xsl:message select="concat('INFO: selecting file ', @href)"/>
+          <xsl:message select="concat('INFO: selecting component file ', @href)"/>
           <xsl:copy-of select="."/>
         </xsl:if>
       </xsl:for-each>
