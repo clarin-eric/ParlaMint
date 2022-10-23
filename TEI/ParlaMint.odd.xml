@@ -25,7 +25,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>CLARIN</publisher>
-        <date>2022-10-22</date>
+        <date>2022-10-23</date>
         <availability status="free">
           <p>This file is freely available and you are hereby authorised to copy, modify, and
           redistribute it in any way without further reference or permissions.</p>
@@ -48,7 +48,7 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
-      <change when="2022-10-22">Tomaž Erjavec: add minister organisation</change>
+      <change when="2022-10-22">Tomaž Erjavec: add minister organisation, fix some errors.</change>
       <change when="2022-10-17">Tomaž Erjavec: add description for new XIncludes, reorganise</change>
       <change when="2022-10-04">Tomaž Erjavec: reorganise sect. on organizations, add state.</change>
       <change when="2022-07-27">Tomaž Erjavec: many changes to (explanations of) structure.</change>
@@ -68,7 +68,7 @@
           corpora</ref></titlePart>
         </docTitle>
         <!--docEdition>v0.3a</docEdition-->
-        <docDate>2022-10-22</docDate>
+        <docDate>2022-10-23</docDate>
         <!--byline>Tomaž Erjavec, Matyáš Kopp, Katja Meden</byline-->
       </titlePage>
       <p></p>
@@ -1408,10 +1408,10 @@
                 <item><val>parliament</val>: the parliament, upper or lower house of the
                 country or region, further exemplified below</item>
 
-                <item><val>politicalParty</val>: a political party.</item>
-
                 <item><val>parliamentaryGroup</val>: a grouping of political parties for the
                 purpose of acting as one in the government.</item>
+
+                <item><val>politicalParty</val>: a political party.</item>
 
               </list>
 
@@ -1523,17 +1523,19 @@
             <head>Political parties and parliamentary groups</head>
 
             <p>In the scope of ParlaMint, very important organisations are political parties
-            (distinguished by the <att>role</att> <val>politicalParty</val>) and parliamentary
-            groups that represent political parties in the parliament (distinguished by the
-            <att>role</att> <val>parliamentryGroup</val>). These organisations are linked to
-            <gi>person</gi> elements (i.e. speakers) so that is known to which political party
-            or parliamentary group the speaker belongs to in a certain moment of time,
-            as further explained in the <ref target="#sec-affiliation">Section on Speaker
-            affiliations</ref>.</p>
+            (distinguished by the <att>role</att> <val>politicalParty</val>) and, even more so,
+            parliamentary groups that represent political parties in the parliament
+            (distinguished by the <att>role</att> <val>parliamentryGroup</val>). These
+            organisations are linked to <gi>person</gi> elements (i.e. speakers) so that is
+            known to which political party or parliamentary group the speaker belongs to or
+            represents in a certain moment of time, as further explained in the <ref
+            target="#sec-affiliation">Section on Speaker affiliations</ref>.</p>
 
-            <p>ParlaMint does not require that a corpus must use both types of organisations,
-            and the choice to use either political parties, parliamentary groups, or both, is
-            left to the creators of the corpus.</p>
+            <p>ParlaMint requires that a corpus must use parliamentary groups, while
+	    the use of political parties is optional. Note that if political parties are used,
+	    it is also expected to encode which political parties constitute a parliamentary group;
+	    this is encoded via the <gi>relation</gi> element, as further explained in the
+	    Section on <ref target="#sec-relation">Relations between organisations</ref>.</p>
 
             <p>The introduction to this chapter already gave examples of how organisations are
             encoded in general, so we here only give examples of the encoding of the
@@ -1779,16 +1781,14 @@
                     </persName>
                     <sex value="F"/>
                     <affiliation role="member"
-                                 ref="#DZ"
+                                 ref="#parliamentSI"
                                  from="2014-08-01"
                                  to="2018-06-21"
                                  ana="#DZ.7"/>
                     <affiliation role="member"
-                                 ref="#party.SDS.2"
-                                 from="2014-08-01"
-                                 to="2018-06-21"
-                                 ana="#DZ.7"/>
-                    <affiliation role="member" ref="#DZ" from="2018-06-22" ana="#DZ.8"/>
+				 ref="#parliamentSI"
+				 from="2018-06-22"
+				 ana="#DZ.8"/>
                   </person>
                 </egXML>
                 
@@ -1796,10 +1796,7 @@
                 case <val>member</val>. The <att>ref</att> attribute points to the ID of
                 the organisation in which the person has the specified role. For MPs this
                 will be the ID of the parliament or one of the two houses (cf. the Section
-                on <ref target="#sec-parliament">The parliament organisations</ref>). For
-                membership in a party or, more commonly, a parliamentary group of parties,
-                this is, of course, the ID of the party or parliamentary group
-                organisation.</p>
+                on <ref target="#sec-parliament">The parliament organisations</ref>).</p>
                 
                 <p>The affiliation element also has the usual <att>from</att> and
                 <att>to</att> attributes, i.e. from and to when the person was affiliated
@@ -1818,6 +1815,11 @@
                   
                   <item><val>member</val> specifies that a person is a member of the
                   organisation</item>
+                  
+                  <!--item><val>representative</val> specifies that a person represents an
+                  organisation and it used to connect persons to parliamentary groups, i.e. to
+                  <gi>org</gi> elements with <att>role</att> =
+                  <val>parliamentaryGroup</val></item-->
                   
                   <item><val>head</val> is used for the lead person in an
                   organisation, regardless of how this role is named in the specific
