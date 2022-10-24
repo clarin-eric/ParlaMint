@@ -15,33 +15,16 @@
     exclude-result-prefixes="tei et" 
     version="2.0">
 
-  <xsl:param name="meta"/>
-  
+  <xsl:import href="parlamint-lib.xsl"/>
+
   <xsl:output encoding="utf-8" method="text"/>
-  <xsl:key name="id" match="tei:*" use="@xml:id"/>
   
   <xsl:variable name="id" select="/tei:*/@xml:id"/>
   
-  <xsl:variable name="teiHeader">
-    <xsl:if test="normalize-space($meta) and not(doc-available($meta))">
-      <xsl:message terminate="yes">
-	<xsl:text>ERROR: meta document </xsl:text>
-	<xsl:value-of select="$meta"/>
-	<xsl:text> not available!</xsl:text>
-      </xsl:message>
-    </xsl:if>
-    <xsl:copy-of select="document($meta)//tei:teiHeader"/>
-  </xsl:variable>
   <xsl:variable name="primary" select="/"/>
+  
   <xsl:variable name="listPrefix">
-    <xsl:choose>
-      <xsl:when test="//tei:teiHeader//tei:listPrefixDef">
-	<xsl:copy-of select="//tei:teiHeader//tei:listPrefixDef"/>
-      </xsl:when>
-      <xsl:when test="$teiHeader//tei:listPrefixDef">
-	<xsl:copy-of select="$teiHeader//tei:listPrefixDef"/>
-      </xsl:when>
-    </xsl:choose>
+    <xsl:copy-of select="$rootHeader//tei:listPrefixDef"/>
   </xsl:variable>
 
   <xsl:template match="/">
@@ -49,7 +32,7 @@
       <xsl:with-param name="severity">INFO</xsl:with-param>
       <xsl:with-param name="msg" select="concat('Checking links in ', 
 					 replace(base-uri(), '.+/', ''))"/>
-    </xsl:call-template-->
+					 </xsl:call-template-->
     <xsl:apply-templates/>
   </xsl:template>
   <xsl:template match="text()"/>
@@ -62,7 +45,7 @@
     <xsl:variable name="lang" select="."/>
     <xsl:if test="(//tei:teiHeader and not(//tei:teiHeader//tei:language[@ident = $lang]))
 		  and
-		  not($teiHeader//tei:language[@ident = $lang])">
+		  not($rootHeader//tei:language[@ident = $lang])">
       <xsl:call-template name="error">
 	<xsl:with-param name="msg" select="concat('No language definition for ', 
 					   parent::tei:*/name(), '/@xml:lang = ', $lang)"/>
@@ -99,7 +82,7 @@
 	<xsl:choose>
 	  <xsl:when test="not(normalize-space($local-id))"/>
 	  <xsl:when test="key('id', $local-id, $primary)"/>
-	  <xsl:when test="$teiHeader and key('id', $local-id, $teiHeader)"/>
+	  <xsl:when test="$rootHeader and key('id', $local-id, $rootHeader)"/>
 	  <xsl:otherwise>
 	    <xsl:call-template name="error">
 	      <xsl:with-param name="msg" select="$message"/>

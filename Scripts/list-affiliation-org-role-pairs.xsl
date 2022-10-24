@@ -9,23 +9,23 @@
     exclude-result-prefixes="tei et mk"
     version="2.0">
 
+  <xsl:import href="parlamint-lib.xsl"/>
+  
   <xsl:output encoding="utf-8" method="text"/>
-  <xsl:key name="id" match="tei:*" use="@xml:id"/>
-  <xsl:variable name="primary" select="/"/>
-  <xsl:variable name="country" select="replace(replace(document-uri(/), '.+/([^/]+)\.xml', '$1'), 'ParlaMint-([^._]+).*', '$1')"/>
-
+  
+  <xsl:variable name="country" select="replace(replace(document-uri(/), 
+				       '.+/([^/]+)\.xml', '$1'), 
+				       'ParlaMint-([^._]+).*', '$1')"/>
   <xsl:template match="/">
-    <xsl:apply-templates/>
+    <xsl:apply-templates select="$rootHeader"/>
   </xsl:template>
 
   <xsl:template match="text()"/>
-
   <xsl:template match="tei:*">
-    <xsl:apply-templates select="@*"/>
     <xsl:apply-templates/>
   </xsl:template>
-
   <xsl:template match="@*"/>
+
 
   <xsl:template match="tei:affiliation">
     <xsl:variable name="aff-role" select="./@role"/>
@@ -38,15 +38,15 @@
     <xsl:param name="ref"/>
     <xsl:variable name="local-id" select="substring-after($ref,'#')"/>
     <xsl:choose>
-      <xsl:when test="not($local-id)"></xsl:when>
-      <xsl:when test="key('id', $local-id, $primary)/name()='org'">
-        <xsl:variable name="org" select="key('id', $local-id, $primary)"/>
+      <xsl:when test="not($local-id)"/>
+      <xsl:when test="key('idr', $ref, $rootHeader)/name()='org'">
+        <xsl:variable name="org" select="key('idr', $ref, $rootHeader)"/>
         <xsl:choose>
-          <xsl:when test="key('id', $local-id, $primary)/@role"><xsl:value-of select="key('id', $local-id, $primary)/@role"/></xsl:when>
-          <xsl:otherwise></xsl:otherwise>
+          <xsl:when test="key('idr', $ref, $rootHeader)/@role">
+	    <xsl:value-of select="key('idr', $ref, $rootHeader)/@role"/>
+	  </xsl:when>
         </xsl:choose>
       </xsl:when>
-      <xsl:otherwise></xsl:otherwise>
     </xsl:choose>
   </xsl:function>
 
