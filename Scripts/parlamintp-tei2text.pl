@@ -27,8 +27,10 @@ $corpusFiles = "$inDir/*_*.xml $inDir/*/*_*.xml";
 #We convert only plain files, not .ana!
 open(TMP, '>:utf8', $fileFile);
 foreach $inFile (glob $corpusFiles) {
-    print TMP "$inFile\n"
-	unless $inFile =~ /\.ana/;
+  # skipping teiHeader files, they can match '/*_*.xml' when _ is present in xml:id
+  next if $inFile =~ /^.*\/ParlaMint(?:-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?)?-(taxonomy|listPerson|listOrg).*\.xml/;
+
+  print TMP "$inFile\n" unless $inFile =~ /\.ana/;
 }
 close TMP;
 
