@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005" xml:lang="cs" ana="#parla.agenda #covid">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005"
+     xml:lang="cs"
+     ana="#parla.agenda #covid">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" xml:lang="cs">Český parlamentní korpus ParlaMint-CZ, 2022-01-11 ps2021-006-01-005-005 [ParlaMint]</title>
-            <title type="main" xml:lang="en">Czech parliamentary corpus ParlaMint-CZ, 2022-01-11 ps2021-006-01-005-005 [ParlaMint]</title>
+            <title type="main" xml:lang="cs">Český parlamentní korpus ParlaMint-CZ, 2022-01-11 ps2021-006-01-005-005 [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Czech parliamentary corpus ParlaMint-CZ, 2022-01-11 ps2021-006-01-005-005 [ParlaMint SAMPLE]</title>
             <title type="sub" xml:lang="cs">Parlament České republiky, Poslanecká sněmovna, 2022-01-11, 5. Vládní návrh zákona, kterým se mění zákon č. 370/2017 Sb., o platebním styku, ve znění pozdějších předpisů, a další související zákony /sněmovní tisk 68/ - prvé čtení</title>
             <title type="sub" xml:lang="en">Parliament of the Czech Republic, Chamber of Deputies, 2022-01-11</title>
             <meeting ana="#parla.term #parla.lower #parliament.PSP9" n="ps2021">ps2021</meeting>
@@ -27,7 +30,7 @@
          <editionStmt>
             <edition>2.0</edition>
          </editionStmt>
-         <extent>
+         <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="7" xml:lang="cs">7 promluv</measure>
             <measure unit="speeches" quantity="7" xml:lang="en">7 speeches</measure>
             <measure unit="words" quantity="758" xml:lang="cs">758 slov</measure>
@@ -45,7 +48,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="cs">Toto dílo je licencováno <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Uveďte původ 4.0 Mezinárodní Veřejná licence</ref>.</p>
             </availability>
-            <date when="2022-10-24">RELEASE_DATE</date>
+            <date when="2022-10-24">2022-10-24</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -56,8 +59,14 @@
             </bibl>
             <recordingStmt>
                <recording type="audio">
-                  <media xml:id="ps2021-006-01-005-005.audio1" mimeType="audio/mp3" source="https://www.psp.cz/eknih/2021ps/audio/2022/01/11/2022011118481902.mp3" url="2021ps/audio/2022/01/11/2022011118481902.mp3"/>
-                  <media xml:id="ps2021-006-01-005-005.audio2" mimeType="audio/mp3" source="https://www.psp.cz/eknih/2021ps/audio/2022/01/11/2022011118581912.mp3" url="2021ps/audio/2022/01/11/2022011118581912.mp3"/>
+                  <media xml:id="ps2021-006-01-005-005.audio1"
+                         mimeType="audio/mp3"
+                         source="https://www.psp.cz/eknih/2021ps/audio/2022/01/11/2022011118481902.mp3"
+                         url="2021ps/audio/2022/01/11/2022011118481902.mp3"/>
+                  <media xml:id="ps2021-006-01-005-005.audio2"
+                         mimeType="audio/mp3"
+                         source="https://www.psp.cz/eknih/2021ps/audio/2022/01/11/2022011118581912.mp3"
+                         url="2021ps/audio/2022/01/11/2022011118581912.mp3"/>
                </recording>
             </recordingStmt>
          </sourceDesc>
@@ -70,7 +79,7 @@
             <p xml:lang="en">
                <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
-         <tagsDecl>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="text" occurs="1"/>
                <tagUsage gi="body" occurs="1"/>
@@ -99,44 +108,47 @@
             </setting>
          </settingDesc>
       </profileDesc>
+      <revisionDesc>
+         <change when="2022-10-24">
+            <name>GitHub Action</name>: Made sample.</change>
+      </revisionDesc>
    </teiHeader>
    <text ana="#covid">
       <body>
          <div type="debateSection">
-            <pb source="https://www.psp.cz/eknih/2021ps/stenprot/006schuz/s006030.htm" n="1" xml:id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.pb1" corresp="#ps2021-006-01-005-005.audio1"/>
+            <pb source="https://www.psp.cz/eknih/2021ps/stenprot/006schuz/s006030.htm"
+                n="1"
+                xml:id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.pb1"
+                corresp="#ps2021-006-01-005-005.audio1"/>
             <note type="speaker">Místopředseda PSP Jan Skopeček</note>
-            <u who="#JanSkopecek.1980" ana="#chair" xml:id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u1">
+            <u who="#JanSkopecek.1980"
+               ana="#chair"
+               xml:id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u1">
                <seg xml:id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u1.p1">5. Vládní návrh zákona, kterým se mění zákon č. 370/2017 Sb., o platebním styku, ve znění pozdějších předpisů, a další související zákony /sněmovní tisk 68/ - prvé čtení</seg>
                <seg xml:id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u1.p2">Z pověření vlády předložený návrh uvede ministr financí Zbyněk Stanjura. Prosím, pane ministře, ujměte se slova.</seg>
             </u>
             <note type="speaker">Ministr financí ČR Zbyněk Stanjura</note>
-            <u who="#ZbynekStanjura.1964" ana="#regular" xml:id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u2" source="https://www.psp.cz/eknih/2021ps/stenprot/006schuz/s006030.htm#r9">
+            <u who="#ZbynekStanjura.1964"
+               ana="#regular"
+               xml:id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u2"
+               source="https://www.psp.cz/eknih/2021ps/stenprot/006schuz/s006030.htm#r9">
                <seg xml:id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u2.p1">Děkuji za slovo. Sněmovní tisk 68 byl vlastně pod jiným číslem předložen Poslanecké sněmovně už v květnu loňského roku, vlastně už předloňského roku - v květnu 2020. Sněmovní tisk byl 863. Mám tady poměrně dlouhé úvodní slovo, nicméně díky času, ve kterém se nacházíme, chci jenom připomenout, že se jedná o směnu měn, kdy může být nabídnuta i jiná měna, než v které se vede platební účet. Mnozí naši občané to znají, když vycestují jako turisté. V České republice je tato služba nabízena především zahraničním návštěvníkům České republiky a je pravda - a ono se to říká tak hezky, že mnohdy jsou ty údaje netransparentní - když to řekneme přesně, jak to je, mnohdy ty kurzy jsou velmi nevýhodné. Na to reagovala Evropská unie svým nařízením a jedná se o adaptaci. Já myslím, že to je správné, že to chrání nejenom ty konkrétní lidi, ale chrání to také pověst České republiky.</seg>
                <seg xml:id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u2.p2">Takže já doporučuji propustit do druhého čtení a tady bych chtěl navrhnout buď já, nebo pan zpravodaj, kdybychom zkrátili lhůtu o 30 dnů na 30 dnů na projednávání ve výborech. Děkuji za pozornost.</seg>
             </u>
-            <note type="speaker">Místopředseda PSP Jan Skopeček</note>
-            <u who="#JanSkopecek.1980" ana="#chair" xml:id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u3" source="https://www.psp.cz/eknih/2021ps/stenprot/006schuz/s006030.htm#r10">
-               <seg xml:id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u3.p1">Děkuji pěkně panu ministrovi. Prosím, aby se slova ujal zpravodaj pro prvé čtení, pan poslanec Patrik Nacher. Pane poslanče, máte slovo.</seg>
-            </u>
-            <note type="speaker">Poslanec Patrik Nacher</note>
-            <u who="#PatrikNacher.1974" ana="#regular" xml:id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u4" source="https://www.psp.cz/eknih/2021ps/stenprot/006schuz/s006030.htm#r11">
-               <seg xml:id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u4.p1">Děkuji za slovo. Vzhledem k tomu času budu mimořádně stručný. My si můžeme ty detaily říct ve třetím čtení. Jak řekl pan ministr, jde zejména tedy o změnu zákona o platebním styku, ale i o navazující změny týkající se živnostenského zákona, zákona o České národní bance či finančním arbitrovi, a týká se to tedy zejména těch platebních služeb, které známe pod zkratkou DCC - dynamic currency conversion, to znamená dynamická směna měn. My si pak k tomu můžeme říct nějaký detail. Jistě i na vás se obrátili občané, kteří využili tento moderní způsob výběru z bankomatu v zahraničí - DCC, což vám nabízí ten bankomat hned jako na prvním místě, a ten kurz je extrémně nevýhodný. Já bych využil této příležitosti a doporučil, aby ti lidé, kterým tam naskočí DCC na bankomatu, tak aby to nevyužívali. Takže je to taková prospotřebitelská věc.</seg>
-               <pb source="https://www.psp.cz/eknih/2021ps/stenprot/006schuz/s006031.htm" n="2" xml:id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.pb2" corresp="#ps2021-006-01-005-005.audio2"/>
-               <note type="time">
-                  <time when="2022-01-11T19:00:00">(19.00 hodin)</time>
-               </note>
-               <seg xml:id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u4.p2">Tím bych toho chtěl využít a požádat vás, kolegové, abyste se přihlásili do podvýboru pro ochranu spotřebitele, protože jsou tam zatím tři, jak mě upozornil předseda hospodářského výboru. Děkuji.</seg>
-            </u>
-            <note type="speaker">Místopředseda PSP Jan Skopeček</note>
-            <u who="#JanSkopecek.1980" ana="#chair" xml:id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u5" source="https://www.psp.cz/eknih/2021ps/stenprot/006schuz/s006031.htm#r1">
-               <seg xml:id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u5.p1">Děkuji panu poslanci za vystoupení i za lekci z finanční gramotnosti. A otevírám obecnou rozpravu, do které se nikdo nehlásí, neeviduji. Pan zpravodaj se hlásí, prosím.</seg>
-            </u>
-            <note type="speaker">Poslanec Patrik Nacher</note>
-            <u who="#PatrikNacher.1974" ana="#regular" xml:id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u6" source="https://www.psp.cz/eknih/2021ps/stenprot/006schuz/s006031.htm#r2">
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u who="#PatrikNacher.1974"
+               ana="#regular"
+               xml:id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u6"
+               source="https://www.psp.cz/eknih/2021ps/stenprot/006schuz/s006031.htm#r2">
                <seg xml:id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u6.p1">Tak já, jak bylo řečeno, navrhnu tedy zkrátit projednávání o 30 dnů na 30 dnů. Děkuji.</seg>
             </u>
             <note type="speaker">Místopředseda PSP Jan Skopeček</note>
-            <u who="#JanSkopecek.1980" ana="#chair" xml:id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u7" source="https://www.psp.cz/eknih/2021ps/stenprot/006schuz/s006031.htm#r3">
+            <u who="#JanSkopecek.1980"
+               ana="#chair"
+               xml:id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u7"
+               source="https://www.psp.cz/eknih/2021ps/stenprot/006schuz/s006031.htm#r3">
                <seg xml:id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u7.p1">Ano. Děkuju pěkně. Ještě někdo se hlásí do obecné rozpravy? Není tomu tak, obecnou rozpravu tedy končím. Ptám se, zda je zájem o případná závěrečná slova? Není tomu tak. Neevidoval jsem návrhy na vrácení ani zamítnutí předloženého návrhu.</seg>
                <seg xml:id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u7.p2">Budeme se tedy nyní zabývat návrhem na přikázání výborům k projednání. Nejprve rozhodneme o přikázání garančnímu výboru. Organizační výbor navrhl přikázat předložený návrh k projednání rozpočtovému výboru jako výboru garančnímu. Ptám se, jestli navrhuje někdo přikázání jinému výboru jako garančnímu? Není tomu tak.</seg>
                <seg xml:id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u7.p3">Přistoupíme tedy k hlasování. Kdo souhlasí s tím, aby předložený návrh byl přikázán k projednání rozpočtovému výboru jako garančnímu výboru?</seg>
