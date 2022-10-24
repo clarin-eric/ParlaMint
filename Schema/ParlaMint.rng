@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="http://www.tei-c.org/ns/1.0"
+         xmlns:xml="http://www.w3.org/XML/1998/namespace"
+         xmlns="http://relaxng.org/ns/structure/1.0"
+         xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+         datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  
+  <a:documentation>RelaxNG XML schema for ParlaMint corpora: common definitions and ParlaMint
+  mandated vocabularis of attributes.</a:documentation>
+
+  <define name="taxonomy">
+    <a:documentation>Taxonomy element included directly in the teiHeader of corpus root or stored
+    in a separate file.</a:documentation>
+    <element name="taxonomy">
+      <ref name="id.att"/>
+      <oneOrMore>
+        <element name="desc">
+          <ref name="lang.att"/>
+          <ref name="catDesc.content"/>
+        </element>
+      </oneOrMore>
+      <oneOrMore>
+        <ref name="category"/>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="category">
+    <element name="category">
+      <ref name="id.att"/>
+      <optional>
+        <ref name="ana.att"/>
+      </optional>
+      <oneOrMore>
+        <element name="catDesc">
+          <ref name="lang.att"/>
+          <ref name="catDesc.content"/>
+        </element>
+      </oneOrMore>
+      <zeroOrMore>
+        <ref name="category"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  
+  <define name="catDesc.content">
+    <a:documentation>Content of a category (or taxomony) description. Contains a term followed by
+    (lighlty) annotated text.</a:documentation>
+    <element name="term">
+      <ref name="normalized-space.string"/>
+    </element>
+    <ref name="annotated.text"/>
+  </define>
+  
+  <define name="listOrg">
+    <a:documentation>Organization list element included directly in the teiHeader of corpus root or
+    stored in a separate file.</a:documentation>
+    <element name="listOrg">
+      <zeroOrMore>
+        <ref name="head"/>
+      </zeroOrMore>
+      <oneOrMore>
+        <ref name="org"/>
+      </oneOrMore>
+      <optional>
+        <ref name="listRelation"/>
+      </optional>
+    </element>
+  </define>
+  
+  <define name="org">
+    <a:documentation>Organization element for storing info on political parties, government,
+    etc.</a:documentation>
+    <element name="org">
+      <ref name="global.atts"/>
+      <optional>
+        <ref name="ana.att"/>
+      </optional>
+      <a:documentation>The type of organization</a:documentation>
+      <attribute name="role">
+        <ref name="orgRole.val"/>
+      </attribute>
+      <oneOrMore>
+        <ref name="orgName"/>
+      </oneOrMore>
+      <zeroOrMore>
+        <ref name="event"/>
+      </zeroOrMore>
+      <zeroOrMore>
+        <ref name="idno"/>
+      </zeroOrMore>
+      <optional>
+        <element name="desc">
+          <ref name="lang.att"/>
+          <ref name="normalized-space.string"/>
+        </element>
+      </optional>
+      <optional>
+        <ref name="listEvent"/>
+      </optional>
+      <zeroOrMore>
+        <ref name="state"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  
+  <define name="orgName">
+    <a:documentation>The name of an organisation.</a:documentation>
+    <element name="orgName">
+      <ref name="lang.att"/>
+      <optional>
+        <a:documentation>Used when "the same" party changes its name:</a:documentation>
+        <ref name="temporal.atts"/>
+      </optional>
+      <attribute name="full">
+        <choice>
+          <value>yes</value>
+          <value>abb</value>
+        </choice>
+      </attribute>
+      <ref name="normalized-space.string"/>
+    </element>
+  </define>
+  
+  <define name="state">
+    <a:documentation>Element defining the political orientation of a politicalParty or
+    parliamentaryGroup.</a:documentation>
+    <element name="state">
+      <a:documentation>The type of state is fixed, as we use state only for political
+      orientation.</a:documentation>
+      <attribute name="type">
+        <ref name="stateType.val"/>
+      </attribute>
+      <a:documentation>The subtype of state gives the source of this information.</a:documentation>
+      <attribute name="subtype">
+        <ref name="stateSubtype.val"/>
+      </attribute>
+      <optional>
+        <a:documentation>The URI of the source where this information was taken
+        from.</a:documentation>
+        <attribute name="source">
+          <ref name="anyURIs"/>
+        </attribute>
+      </optional>
+      <optional>
+        <a:documentation>The political orientation if given as a numeric value.</a:documentation>
+        <attribute name="n">
+          <data type="decimal"/>
+        </attribute>
+      </optional>
+      <a:documentation>From - to when this information holds.</a:documentation>
+      <ref name="temporal.atts"/>
+      <a:documentation>Pointer to category of a political orientation.</a:documentation>
+      <attribute name="ana">
+        <data type="anyURI"/>
+      </attribute>
+      <a:documentation>Abbreviation of the political party in the source.</a:documentation>
+      <optional>
+        <choice>
+          <element name="label">
+            <element name="orgName">
+              <attribute name="full">
+                <value>abb</value>
+              </attribute>
+              <ref name="normalized-space.string"/>
+            </element>
+          </element>
+          <a:documentation>Optional note(s).</a:documentation>
+          <oneOrMore>
+            <element name="note">
+              <ref name="lang.att"/>
+              <ref name="normalized-space.string"/>
+            </element>
+          </oneOrMore>
+        </choice>
+      </optional>
+    </element>
+  </define>
+  
+  <define name="listEvent">
+    <a:documentation>A list of events connected to organisations.</a:documentation>
+    <element name="listEvent">
+      <zeroOrMore>
+        <ref name="head"/>
+      </zeroOrMore>
+      <oneOrMore>
+        <ref name="event"/>
+      </oneOrMore>
+    </element>
+  </define>
+
+  <define name="listRelation">
+    <a:documentation>Used to specify relations between politicalParties and/or
+    parliamentaryGroups.</a:documentation>
+    <element name="listRelation">
+      <oneOrMore>
+        <element name="relation">
+          <optional>
+            <ref name="ana.att"/>
+          </optional>
+          <optional>
+            <ref name="temporal.atts"/>
+          </optional>
+          <attribute name="name">
+            <ref name="relationName.val"/>
+          </attribute>
+          <choice>
+            <attribute name="mutual">
+              <ref name="anyURIs"/>
+            </attribute>
+            <group>
+              <attribute name="active">
+                <ref name="anyURIs"/>
+              </attribute>
+              <attribute name="passive">
+                <ref name="anyURIs"/>
+              </attribute>
+            </group>
+          </choice>
+        </element>
+      </oneOrMore>
+    </element>
+  </define>
+  
+  <define name="listPerson">
+    <a:documentation>A list of persons. This element can be included directly in the teiHeader of a
+    corpus root or stored in a separate file.</a:documentation>
+    <element name="listPerson">
+      <zeroOrMore>
+        <ref name="head"/>
+      </zeroOrMore>
+      <oneOrMore>
+        <ref name="person"/>
+      </oneOrMore>
+    </element>
+  </define>
+  
+  <define name="person">
+    <a:documentation>All informaton pertaining to a person.</a:documentation>
+    <element name="person">
+      <ref name="global.atts"/>
+      <oneOrMore>
+        <a:documentation>We can have person name in several languages, or, rather,
+        scripts.</a:documentation>
+        <ref name="persName"/>
+      </oneOrMore>
+      <interleave>
+        <optional>
+          <element name="sex">
+            <attribute name="value">
+              <choice>
+                <value>M</value>
+                <value>F</value>
+                <value>U</value>
+                <value>O</value>
+                <value>N</value>
+              </choice>
+            </attribute>
+            <empty/>
+          </element>
+        </optional>
+        <optional>
+          <element name="birth">
+            <ref name="life-event.content"/>
+          </element>
+        </optional>
+        <optional>
+          <element name="death">
+            <ref name="life-event.content"/>
+          </element>
+        </optional>
+        <zeroOrMore>
+          <ref name="affiliation"/>
+        </zeroOrMore>
+        <zeroOrMore>
+          <ref name="occupation"/>
+        </zeroOrMore>
+        <zeroOrMore>
+          <ref name="education"/>
+        </zeroOrMore>
+        <zeroOrMore>
+          <ref name="idno"/>
+        </zeroOrMore>
+        <zeroOrMore>
+          <ref name="figure"/>
+        </zeroOrMore>
+      </interleave>
+    </element>
+  </define>
+  
+  <define name="persName">
+    <a:documentation>The name of a person.</a:documentation>
+    <element name="persName">
+      <ref name="lang.att"/>
+      <choice>
+        <a:documentation>Special persons (like 'group') have their name in term. This possibility
+        might have to be revisited.</a:documentation>
+        <element name="term">
+          <ref name="normalized-space.string"/>
+        </element>
+        <interleave>
+          <oneOrMore>
+            <element name="surname">
+              <ref name="personal.att"/>
+              <ref name="normalized-space.string"/>
+            </element>
+          </oneOrMore>
+          <oneOrMore>
+            <element name="forename">
+              <ref name="personal.att"/>
+              <ref name="normalized-space.string"/>
+            </element>
+          </oneOrMore>
+          <zeroOrMore>
+            <element name="addName">
+              <ref name="personal.att"/>
+              <ref name="normalized-space.string"/>
+            </element>
+          </zeroOrMore>
+          <zeroOrMore>
+            <element name="roleName">
+              <ref name="personal.att"/>
+              <ref name="normalized-space.string"/>
+            </element>
+          </zeroOrMore>
+          <zeroOrMore>
+            <element name="nameLink">
+              <ref name="normalized-space.string"/>
+            </element>
+          </zeroOrMore>
+        </interleave>
+      </choice>
+    </element>
+  </define>
+  
+  <define name="affiliation">
+    <a:documentation>The affiliation of a person, with temoral attributes and its type.</a:documentation>
+    <element name="affiliation">
+      <optional>
+        <ref name="ana.att"/>
+      </optional>
+      <optional>
+        <ref name="temporal.atts"/>
+      </optional>
+      <optional>
+        <ref name="ref.att"/>
+      </optional>
+      <attribute name="role">
+        <ref name="affiliationRole.val"/>
+      </attribute>
+      <zeroOrMore>
+        <element name="roleName">
+          <ref name="lang.att"/>
+          <ref name="normalized-space.string"/>
+        </element>
+      </zeroOrMore>
+    </element>
+  </define>
+
+  <define name="occupation">
+    <a:documentation>The occupation of a person.</a:documentation>
+    <element name="occupation">
+      <ref name="global.atts"/>
+      <optional>
+        <ref name="temporal.atts"/>
+      </optional>
+      <ref name="normalized-space.string"/>
+    </element>
+  </define>
+
+  <define name="education">
+    <a:documentation>The education of a person.</a:documentation>
+    <element name="education">
+      <ref name="global.atts"/>
+      <optional>
+        <ref name="temporal.atts"/>
+      </optional>
+      <ref name="normalized-space.string"/>
+    </element>
+  </define>
+
+  <define name="figure">
+    <a:documentation>Figure element is used to give a photo of person.</a:documentation>
+    <element name="figure">
+      <optional>
+        <element name="head">
+          <ref name="normalized-space.string"/>
+        </element>
+      </optional>
+      <element name="graphic">
+        <attribute name="url">
+          <data type="anyURI"/>
+        </attribute>
+        <optional>
+          <attribute name="scale">
+            <choice>
+              <data type="double"/>
+              <data type="token">
+                <param name="pattern">(\-?[\d]+/\-?[\d]+)"/></param>
+              </data>
+              <data type="decimal"/>
+            </choice>
+          </attribute>
+        </optional>
+      </element>
+    </element>
+  </define>
+  
+  <define name="life-event.content">
+    <a:documentation>The content of elements that describe life events: they can have an partial
+    date (e.g. year only) in temporal attributes. The content can be empty, or gives the placeName
+    where the event happened.</a:documentation>
+    <attribute name="when">
+      <choice>
+        <data type="date"/>
+        <data type="gYearMonth"/>
+        <data type="gYear"/>
+      </choice>
+    </attribute>
+    <optional>
+      <element name="placeName">
+        <ref name="ref.att"/>
+        <ref name="normalized-space.string"/>
+      </element>
+    </optional>
+  </define>
+  
+  <define name="event">
+    <a:documentation>The event (or duration) connected with an organisatoin, e.g. the period of its
+    existence.</a:documentation>
+    <element name="event">
+      <ref name="global.atts"/>
+      <ref name="temporal.atts"/>
+      <oneOrMore>
+        <element name="label">
+          <ref name="lang.att"/>
+          <ref name="normalized-space.string"/>
+        </element>
+      </oneOrMore>
+    </element>
+  </define>
+
+  <define name="ref">
+    <a:documentation>The reference element also giving a target URI.</a:documentation>
+    <element name="ref">
+      <attribute name="target">
+        <data type="anyURI"/>
+      </attribute>
+      <ref name="normalized-space.string"/>
+    </element>
+  </define>
+  
+  <define name="head">
+    <a:documentation>The heading element.</a:documentation>
+    <element name="head">
+      <optional>
+        <attribute name="type">
+          <data type="token"/>
+        </attribute>
+      </optional>
+      <ref name="global.atts"/>
+      <ref name="normalized-space.string"/>
+      <!--oneOrMore>
+          <choice>
+          <ref name="note"/>
+          <ref name="pb"/>
+          <text/>
+          </choice>
+          </oneOrMore-->
+    </element>
+  </define>
+  
+  <define name="idno">
+    <a:documentation>The identification number element identifies a corpus element with an URI,
+    and specifies its type and subtype.</a:documentation>
+    <element name="idno">
+      <ref name="lang.att"/>
+      <attribute name="type">
+        <choice>
+          <value>URI</value>
+          <value>VIAF</value>
+          <data type="Name"/>
+        </choice>
+      </attribute>
+      <optional>
+        <attribute name="subtype">
+          <data type="Name"/>
+        </attribute>
+      </optional>
+      <data type="anyURI">
+        <param name="pattern">https?://.+</param>
+      </data>
+    </element>
+  </define>
+  
+  <define name="time">
+    <a:documentation>The specification of a time.  It can have textual content with the date
+    type-set according to the object language.</a:documentation>
+    <element name="time">
+      <ref name="global.atts"/>
+      <ref name="temporal.atts"/>
+      <text/>
+    </element>
+  </define>
+  
+  <define name="date">
+    <a:documentation>A date with with all possible temporal information. It can have textual
+    content with the date type-set according to the object language.</a:documentation>
+    <element name="date">
+      <ref name="global.atts"/>
+      <ref name="temporal.atts"/>
+      <optional>
+        <ref name="ana.att"/>
+      </optional>
+      <text/>
+    </element>
+  </define>
+  
+  <define name="date-simple">
+    <a:documentation>A simple date, just with @when. It can have textual content with the date
+    type-set according to the object language.</a:documentation>
+    <element name="date">
+      <ref name="when.att"/>
+      <text/>
+    </element>
+  </define>
+  
+  <define name="personal.att">
+    <a:documentation>Attribute for the form of a person or organisation name,
+    cf. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.personal.html</a:documentation>
+    <optional>
+      <attribute name="full">
+        <choice>
+          <value>yes</value>
+          <value>abb</value>
+          <value>init</value>
+        </choice>
+      </attribute>
+    </optional>
+  </define>
+  
+  <define name="temporal.atts">
+    <a:documentation>Attributes giving temporal information on the current
+    element.</a:documentation>
+    <choice>
+      <ref name="when.att"/>
+      <group>
+        <attribute name="from">
+          <ref name="temporal.val"/>
+        </attribute>
+        <optional>
+          <attribute name="to">
+            <ref name="temporal.val"/>
+          </attribute>
+        </optional>
+      </group>
+      <group>
+        <attribute name="notBefore">
+          <ref name="temporal.val"/>
+        </attribute>
+        <optional>
+          <attribute name="notAfter">
+            <ref name="temporal.val"/>
+          </attribute>
+        </optional>
+      </group>
+    </choice>
+  </define>
+  
+  <define name="when.att">
+    <a:documentation>When attributes specifying when the content of the curret element
+    happened.</a:documentation>
+    <attribute name="when">
+      <ref name="temporal.val"/>
+    </attribute>
+  </define>
+  
+  <define name="who.att">
+    <a:documentation>The who attribute, giving the reference to the person who spoke the text of
+    the current element.</a:documentation>
+    <attribute name="who">
+      <data type="anyURI"/>
+    </attribute>
+  </define>
+  
+  <define name="source.att">
+    <a:documentation>The source attribute, giving the reference to the source of the element
+    content.</a:documentation>
+    <optional>
+      <attribute name="source">
+        <ref name="anyURIs"/>
+      </attribute>
+    </optional>
+  </define>
+  
+  <define name="ref.att">
+    <a:documentation>Reference attribute, pointing to element(s) containing analyses of the current
+    element.</a:documentation>
+    <optional>
+      <attribute name="ref">
+        <data type="anyURI"/>
+      </attribute>
+    </optional>
+  </define>
+  
+  <define name="ana.att">
+    <a:documentation>The analysis attribute, pointing to element(s) containing interpretations of
+    the current element.</a:documentation>
+    <attribute name="ana">
+      <ref name="anyURIs"/>
+    </attribute>
+  </define>
+  
+  <define name="corresp.att">
+    <a:documentation>The corresponds attribute, pointing to element(s) that correspond to the
+    current element in some way.</a:documentation>
+    <optional>
+      <attribute name="corresp">
+        <ref name="anyURIs"/>
+      </attribute>
+    </optional>
+  </define>
+  
+  <define name="global.atts">
+    <a:documentation>Attributes allowed on most elements.</a:documentation>
+    <optional>
+      <ref name="id.att"/>
+    </optional>
+    <ref name="lang.att"/>
+    <optional>
+      <attribute name="n">
+        <data type="string"/>
+      </attribute>
+    </optional>
+  </define>
+  
+  <define name="id.att">
+    <a:documentation>The identifier attribute, giving the unique ID of the
+    element.</a:documentation>
+    <attribute name="xml:id">
+      <data type="ID"/>
+    </attribute>
+  </define>
+  
+  <define name="lang.att">
+    <a:documentation>The language attribute, which specifies the langauge of the element
+    content. Optional everywhere except on TEI and teiCorpus elements, where its is defined
+    separately.</a:documentation>
+    <optional>
+      <attribute name="xml:lang">
+        <ref name="lang.val"/>
+      </attribute>
+    </optional>
+  </define>
+
+  <define name="temporal.val">
+    <a:documentation>A temporal value, from less to more specific.</a:documentation>
+    <choice>
+      <data type="gYear"/>
+      <data type="gYearMonth"/>
+      <data type="date"/>
+      <data type="dateTime"/>
+    </choice>
+  </define>
+  
+  <define name="lang.val">
+    <a:documentation>A possible value for @xml:lang</a:documentation>
+    <data type="language"/>
+  </define>
+
+  <define name="anyURIs">
+    <a:documentation>A list of URIs, including fragment references.</a:documentation>
+    <list>
+      <oneOrMore>
+        <data type="anyURI"/>
+      </oneOrMore>
+    </list>
+  </define>
+  
+  <define name="annotated.text">
+    <a:documentation>Text maybe containing a reference to some other document.</a:documentation>
+    <mixed>
+      <zeroOrMore>
+        <ref name="ref"/>
+      </zeroOrMore>
+    </mixed>
+  </define>
+  
+  <define name="normalized-space.string">
+    <a:documentation>A string that is non-empty, does not start or end with white-space, and
+    contains only ordinary spaces as spacing characters.</a:documentation>
+    <data type="string">
+      <param name="pattern">(\S)|(\S[\S ]*\S)</param>
+    </data>
+  </define>
+  
+  <define name="XInclude">
+    <a:documentation>XInclude element, which is explicitly allowed at some points in a ParlaMint
+    corpus root.</a:documentation>
+    <element xmlns:xi="http://www.w3.org/2001/XInclude" name="xi:include">
+      <attribute name="href">
+        <data type="anyURI"/>
+      </attribute>
+    </element>
+  </define>
+  
+  <a:documentation>Fixed ParlaMint vocabularies of attribute values:</a:documentation>
+  
+  <define name="stateType.val">
+    <a:documentation>The types of states of organisations distinguished.</a:documentation>
+    <value>politicalOrientation</value>
+  </define>
+  
+  <define name="stateSubtype.val">
+    <a:documentation>The subtypes of states of organisations distinguished.</a:documentation>
+    <choice>
+      <value>CHES</value>
+      <value>Wikipedia</value>
+      <value>unknown</value>
+    </choice>
+  </define>
+  
+  <define name="relationName.val">
+    <a:documentation>Legal values of the names of relation between
+    organisations.</a:documentation>
+    <choice>
+      <value>coalition</value>
+      <value>opposition</value>
+      <value>renaming</value>
+      <value>successor</value>
+      <value>representing</value>
+    </choice>
+  </define>
+  
+  <define name="orgRole.val">
+    <a:documentation>Legal values of the org/@role attribute.</a:documentation>
+    <choice>
+      <a:documentation>Common values:</a:documentation>
+      <value>country</value>
+      <value>republic</value>
+      <value>government</value>
+      <value>ministry</value>
+      <value>parliament</value>
+      <value>politicalParty</value>
+      <value>parliamentaryGroup</value>
+      <a:documentation>The following used only by BG:</a:documentation>
+      <value>ngo</value>
+      <a:documentation>The following used only by LT:</a:documentation>
+      <value>conferenceOfChairs</value>
+      <value>boardOfParliament</value>
+      <a:documentation>The following used only by CZ:</a:documentation>
+      <value>institution</value>
+      <value>senate</value>
+      <value>committee</value>
+      <value>subcommittee</value>
+      <value>commission</value>
+      <value>delegation</value>
+      <value>supervisoryBoard</value>
+      <value>workingGroup</value>
+      <value>interparliamentaryFriendshipGroup</value>
+      <value>nationalCouncil</value>
+      <value>chamberOfThePeople</value>
+      <value>chamberOfTheNations</value>
+      <value>europeanParliament</value>
+      <value>internationalOrganisation</value>
+      <value>boardOfDirectors</value>
+      <a:documentation>The following used only by SI:</a:documentation>
+      <value>ethnicCommunity</value>
+      <a:documentation>The following used only by AT:</a:documentation>
+      <value>europeanCommission</value>
+      <value>europeanInstitution</value>
+    </choice>
+  </define>
+  
+  <define name="affiliationRole.val">
+    <a:documentation>Legal values of the affiliation/@role attribute.</a:documentation>
+    <choice>
+      <value>member</value>
+      <value>head</value>
+      <value>deputyHead</value>
+      <value>minister</value>
+      
+      <a:documentation>The following used only by FR:</a:documentation>
+      <value>associateMember</value>
+      <value>nonAttachedMember</value>
+      <value>ministerDelegate</value>
+      <value>secretaryOfState</value>
+      
+      <a:documentation>The following used only by CZ:</a:documentation>
+      <value>observer</value>
+      <value>verifier</value>
+      <value>vicePublicDefenderOfRights</value>
+      <value>publicDefenderOfRights</value>
+      <value>alternateOfDelegation</value>
+      <value>replacement</value>
+      <value>representative</value>
+      
+      <a:documentation>The following used only by BG:</a:documentation>
+      <value>academician</value>
+      <value>candidateChairman</value>
+      <value>constitutionalJudge</value>
+      <value>deputyMinister</value>
+      <value>ombudsman</value>
+      <value>prosecutorGeneral</value>
+      <value>secretary</value>
+      <value>secretaryGeneral</value>
+    </choice>
+  </define>
+  
+  <define name="kinesicType.val">
+    <a:documentation>Legal values of the kinesic/@type attribute.</a:documentation>
+    <choice>
+      <value>kinesic</value>
+      <value>applause</value>
+      <value>ringing</value>
+      <value>signal</value>
+      <value>playback</value>
+      <value>gesture</value>
+      <value>smiling</value>
+      <value>laughter</value>
+      <value>snapping</value>
+      <value>noise</value>
+    </choice>
+  </define>
+  
+  <define name="incidentType.val">
+    <a:documentation>Legal values of the incident/@type attribute.</a:documentation>
+    <choice>
+      <value>action</value>
+      <value>incident</value>
+      <value>leaving</value>
+      <value>entering</value>
+      <value>break</value>
+      <value>pause</value>
+      <value>sound</value>
+      <value>editorial</value>
+    </choice>
+  </define>
+
+  <define name="vocalType.val">
+    <a:documentation>Legal values of the vocal/@type attribute.</a:documentation>
+    <choice>
+      <value>greeting</value>
+      <value>question</value>
+      <value>clarification</value>
+      <value>speaking</value>
+      <value>interruption</value>
+      <value>exclamat</value>
+      <value>laughter</value>
+      <value>shouting</value>
+      <value>murmuring</value>
+      <value>noise</value>
+      <value>signal</value>
+    </choice>
+  </define>
+</grammar>

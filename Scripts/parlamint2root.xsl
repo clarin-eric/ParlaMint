@@ -9,6 +9,8 @@
   exclude-result-prefixes="#all"
   version="2.0">
 
+  <xsl:import href="parlamint-lib.xsl"/>
+  
   <!-- Directory relative to location of this script, where the ParlaMint corpora are found -->
   <xsl:param name="base">../Data</xsl:param>
   
@@ -98,7 +100,7 @@
   <xsl:template match="tei:publicationStmt/tei:date">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
-      <xsl:attribute name="when" select="$today"/>
+      <xsl:attribute name="when" select="$today-iso"/>
       <xsl:value-of select="format-date(current-date(), '[MNn] [D], [Y]')"/>
     </xsl:copy>
   </xsl:template>
@@ -338,7 +340,7 @@
   </xsl:template>
     
   <xsl:template match="tei:change/@when">
-    <xsl:attribute name="when" select="$today"/>
+    <xsl:attribute name="when" select="$today-iso"/>
   </xsl:template>
     
   <xsl:template match="*">

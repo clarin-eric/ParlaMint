@@ -9,16 +9,24 @@
   exclude-result-prefixes="#all"
   version="2.0">
 
+  <xsl:import href="parlamint-lib.xsl"/>
+  
   <xsl:output method="text"/>
   
   <xsl:template match="text()"/>
   <xsl:template match="/">
-    <xsl:text>Country&#9;Role&#9;ID&#9;From&#9;To&#9;Init&#9;Name&#10;</xsl:text>
+    <xsl:text>Country&#9;Role&#9;ID&#9;From&#9;To&#9;Abb&#9;Name&#10;</xsl:text>
     <xsl:for-each select="//xi:include">
-      <!-- We need "../" as the this XSLT is in Scripts! -->
-      <xsl:variable name="href" select="concat('../', @href)"/>
-      <xsl:apply-templates select="document($href)//tei:particDesc//tei:org">
-	<xsl:with-param name="country" select="replace(@href, '.+ParlaMint-([A-Z]{2}(-[A-Z0-9]{1,3})?).*', '$1')"/>
+      <xsl:variable name="rootHeader">
+      	<xsl:apply-templates mode="XInclude" select="document(@href)//tei:teiHeader"/>
+      </xsl:variable>
+        <!-- Get country of corpus from filename -->
+	<xsl:variable name="corpusCountry"
+		      select="replace(@href, 
+			      '.+ParlaMint-([A-Z]{2}(-[A-Z0-9]{1,3})?).*', 
+			      '$1')"/>
+      <xsl:apply-templates select="$rootHeader//tei:particDesc//tei:org">
+	<xsl:with-param name="country" select="$corpusCountry"/>
       </xsl:apply-templates>
     </xsl:for-each>
   </xsl:template>
@@ -47,13 +55,13 @@
       </xsl:choose>
       <xsl:text>&#9;</xsl:text>
       <xsl:choose>
-	<xsl:when test="tei:orgName[@full = 'init']
+	<xsl:when test="tei:orgName[@full = 'abb']
 			[ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang != 'en']">
-	  <xsl:value-of select="tei:orgName[@full = 'init']
+	  <xsl:value-of select="tei:orgName[@full = 'abb']
 				[ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang != 'en']"/>
 	</xsl:when>
 	<xsl:otherwise>
-	  <xsl:value-of select="tei:orgName[@full = 'init']"/>
+	  <xsl:value-of select="tei:orgName[@full = 'abb']"/>
 	</xsl:otherwise>
       </xsl:choose>
       <xsl:text>&#9;</xsl:text>
@@ -68,7 +76,7 @@
 	    <xsl:value-of select="tei:orgName[@full = 'yes']"/>
 	  </xsl:when>
 	  <xsl:otherwise>
-	    <xsl:value-of select="tei:orgName[@full = 'init'][1]"/>
+	    <xsl:value-of select="tei:orgName[@full = 'abb'][1]"/>
 	  </xsl:otherwise>
 	</xsl:choose>
       </xsl:variable>
