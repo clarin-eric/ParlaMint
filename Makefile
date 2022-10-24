@@ -289,6 +289,20 @@ $(factorize-teiHeader-XX): factorize-teiHeader-%: %
 	   -xsl:Scripts/parlamint-factorize-teiHeader.xsl \
 	   ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.xml || :
 
+factorize-teiHeader-INPLACE-XX = $(addprefix factorize-teiHeader-INPLACE-, $(PARLIAMENTS))
+## factorize-teiHeader-INPLACE ##
+factorize-teiHeader-INPLACE: $(factorize-teiHeader-INPLACE-XX)
+## factorize-teiHeader-XX ##
+$(factorize-teiHeader-INPLACE-XX): factorize-teiHeader-INPLACE-%: % factorize-teiHeader-%
+	@echo "modified files:"
+	@(cd ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/factorize-teiHeader/; ls ParlaMint-$<${CORPUSDIR_SUFFIX}*.xml|grep -v 'ParlaMint-$<${CORPUSDIR_SUFFIX}-')
+	@echo "new files:"
+	@(cd ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/factorize-teiHeader/; ls ParlaMint-$<${CORPUSDIR_SUFFIX}-*.xml ) || :
+	@mv ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/factorize-teiHeader/* ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/
+	@rm -r ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/factorize-teiHeader
+
+
+
 ######---------------
 .PHONY: $(PARLIAMENTS)
 $(PARLIAMENTS):
