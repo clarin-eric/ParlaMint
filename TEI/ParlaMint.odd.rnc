@@ -12,9 +12,9 @@ namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 namespace xsl = "http://www.w3.org/1999/XSL/Transform"
 
-# Schema generated from ODD source 2022-10-06T11:56:36Z. 2022-10-04.
+# Schema generated from ODD source 2022-10-22T15:38:25Z. 2022-10-22.
 # TEI Edition: Version 4.5.0a. Last updated on
-#         1st June 2022, revision aeba95253
+#         29th July 2022, revision 50a1ab835
 # TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.5.0a./
 #
 
@@ -487,7 +487,7 @@ tei_p =
            "               "
            sch:report [
              test =
-               "    (ancestor::tei:ab or ancestor::tei:p)                          and not( ancestor::tei:floatingText                                 |parent::tei:exemplum                                 |parent::tei:item                                 |parent::tei:note                                 |parent::tei:q                                 |parent::tei:quote                                 |parent::tei:remarks                                 |parent::tei:said                                 |parent::tei:sp                                 |parent::tei:stage                                 |parent::tei:cell                                 |parent::tei:figure                                )"
+               "(ancestor::tei:ab or ancestor::tei:p) and not( ancestor::tei:floatingText |parent::tei:exemplum |parent::tei:item |parent::tei:note |parent::tei:q |parent::tei:quote |parent::tei:remarks |parent::tei:said |parent::tei:sp |parent::tei:stage |parent::tei:cell |parent::tei:figure )"
              "\x{a}" ~
              "        Abstract model violation: Paragraphs may not occur inside other paragraphs or ab elements.\x{a}" ~
              "      "
@@ -509,7 +509,7 @@ tei_p =
            "               "
            sch:report [
              test =
-               "    (ancestor::tei:l or ancestor::tei:lg)                          and not( ancestor::tei:floatingText                                 |parent::tei:figure                                 |parent::tei:note                                )"
+               "(ancestor::tei:l or ancestor::tei:lg) and not( ancestor::tei:floatingText |parent::tei:figure |parent::tei:note )"
              "\x{a}" ~
              "        Abstract model violation: Lines may not contain higher-level structural elements such as div, p, or ab, unless p is a child of figure or note, or is a descendant of floatingText.\x{a}" ~
              "      "
@@ -1203,8 +1203,8 @@ tei_listPrefixDef =
   element listPrefixDef { tei_prefixDef+ }
 tei_classDecl =
   
-  ## (classification declarations) contains one or more taxonomies defining any classificatory codes used elsewhere in the text. [2.3.7. The Classification Declaration 2.3. The Encoding Description]
-  element classDecl { tei_taxonomy+ }
+  ## (classification declarations) contains taxonomies defining classificatory codes used elsewhere in the text. Note that the taxonomies are in ParlaMint typically stored in separate files. [2.3.7. The Classification Declaration 2.3. The Encoding Description]
+  element classDecl { (tei_taxonomy | tei_include)+ }
 tei_taxonomy =
   
   ## (taxonomy) defines a typology either implicitly, by means of a bibliographic citation, or explicitly by a structured taxonomy. [2.3.7. The Classification Declaration]
@@ -1348,7 +1348,7 @@ tei_change =
   
   ## (change) documents a change or set of changes made during the production of a source document, or during the revision of an electronic file. [2.6. The Revision Description 2.4.1. Creation 11.7. Identifying Changes and Revisions]
   element change {
-    tei_name, text, tei_att.datable.w3c.attribute.when, empty
+    (tei_name | text)+, tei_att.datable.w3c.attribute.when, empty
   }
 tei_TEI =
   [
@@ -1478,8 +1478,10 @@ tei_div =
   }
 tei_particDesc =
   
-  ## (participation description) describes the identifiable speakers, voices, or other participants in any kind of text or other persons named or otherwise referred to in a text, edition, or metadata. [15.2. Contextual Information]
-  element particDesc { tei_listOrg+, tei_listPerson+ }
+  ## (participation description) describes the identifiable speakers and organisations in a ParlaMint corpus. This informations is given in the corpus root teiHeder. Note that the listPerson and listOrg elements are typically stored in separate files. [15.2. Contextual Information]
+  element particDesc {
+    (tei_listOrg | tei_include), (tei_listPerson | tei_include)
+  }
 tei_settingDesc =
   
   ## (setting description) describes the setting or settings within which a language interaction takes place, or other places otherwise referred to in a text, edition, or metadata. [15.2. Contextual Information 2.4. The Profile Description]
@@ -2120,6 +2122,9 @@ tei_org =
         "government"
       | 
         ##
+        "ministry"
+      | 
+        ##
         "parliament"
       | 
         ##
@@ -2649,7 +2654,7 @@ sch:pattern [
     "         "
     sch:report [
       test =
-        "( parent::tei:classRef                               | parent::tei:dataRef                               | parent::tei:elementRef                               | parent::tei:macroRef                               | parent::tei:moduleRef                               | parent::tei:schemaSpec )                               and                               $srcs[2]"
+        "( parent::tei:classRef | parent::tei:dataRef | parent::tei:elementRef | parent::tei:macroRef | parent::tei:moduleRef | parent::tei:schemaSpec ) and $srcs[2]"
       "\x{a}" ~
       "              When used on a schema description element (like\x{a}" ~
       "              "
@@ -2831,11 +2836,28 @@ sch:pattern [
 tei_include =
   [
     a:documentation [
-      "used to include a corpus component (a "
-      ns1:code [ "<TEI>" ]
-      " element) into the corpus root (the "
+      "is an element from the XML namespace of the "
+      ns1:a [
+        href = "https://www.w3.org/TR/xinclude-11/"
+        "XML Inclusions (XInclude)"
+      ]
+      " W3C recommendation. It is used to include, into a ParlaMint "
       ns1:code [ "<teiCorpus>" ]
-      " element)."
+      " root file the elements of the corpus that are stored as separate files. These are the "
+      ns1:code [ "<TEI>" ]
+      " corpus components and parts of the corpus root "
+      ns1:code [ "<teiHeader>" ]
+      ". Inside "
+      ns1:code [ "<particDesc>" ]
+      " these are "
+      ns1:code [ "<listPerson>" ]
+      " & "
+      ns1:code [ "<listOrg>" ]
+      ", and "
+      ns1:code [ "<taxonomy>" ]
+      " inside "
+      ns1:code [ "<classDecl>" ]
+      "."
     ]
   ]
   element xi:include {

@@ -9,35 +9,18 @@
     exclude-result-prefixes="tei et mk"
     version="2.0">
 
-  <xsl:param name="meta"/>
-
+  <xsl:import href="parlamint-lib.xsl"/>
+  
   <xsl:output encoding="utf-8" method="text"/>
-  <xsl:key name="id" match="tei:*" use="@xml:id"/>
   
   <xsl:variable name="id" select="/tei:*/@xml:id"/>
   <xsl:variable name="type" select="/tei:*/name()"/>
-  <xsl:variable name="teiHeader">
-    <xsl:if test="normalize-space($meta) and not(doc-available($meta))">
-      <xsl:message terminate="yes">
-        <xsl:text>ERROR: meta document </xsl:text>
-        <xsl:value-of select="$meta"/>
-        <xsl:text> not available!</xsl:text>
-      </xsl:message>
-    </xsl:if>
-    <xsl:copy-of select="document($meta)//tei:teiHeader"/>
-  </xsl:variable>
-  <xsl:variable name="primary" select="/"/>
   <xsl:variable name="listPrefix">
-    <xsl:choose>
-      <xsl:when test="//tei:teiHeader//tei:listPrefixDef">
-        <xsl:copy-of select="//tei:teiHeader//tei:listPrefixDef"/>
-      </xsl:when>
-      <xsl:when test="$teiHeader//tei:listPrefixDef">
-        <xsl:copy-of select="$teiHeader//tei:listPrefixDef"/>
-      </xsl:when>
-    </xsl:choose>
+    <xsl:copy-of select="$rootHeader//tei:listPrefixDef"/>
   </xsl:variable>
-  <xsl:variable name="country" select="replace(replace(document-uri(/), '.+/([^/]+)\.xml', '$1'), 'ParlaMint-([^._]+).*', '$1')"/>
+  <xsl:variable name="country" select="replace(replace(document-uri(/), 
+				       '.+/([^/]+)\.xml', '$1'), 
+				       'ParlaMint-([^._]+).*', '$1')"/>
 
   <xsl:template match="/">
     <xsl:apply-templates/>
@@ -71,13 +54,14 @@
           <xsl:value-of select="mk:print_link($elem,$attr,'url','-',$ptr)"/>
         </xsl:when>
         <xsl:when test="not(normalize-space($local-id))"/>
-        <xsl:when test="key('id', $local-id, $primary)">
-          <xsl:value-of select="mk:print_link($elem,$attr,'local',key('id', $local-id, $primary)/name(),$ptr)"/>
+        <xsl:when test="key('id', $local-id, $rootHeader)">
+          <xsl:value-of select="mk:print_link($elem, $attr, 'local',
+				key('id', $local-id, $rootHeader)/name(),$ptr)"/>
         </xsl:when>
-        <xsl:when test="$teiHeader and key('id', $local-id, $teiHeader)">
-          <xsl:value-of select="mk:print_link($elem,$attr,'external',key('id', $local-id, $teiHeader)/name(),$ptr)"/>
+        <xsl:when test="$rootHeader and key('id', $local-id, $rootHeader)">
+          <xsl:value-of select="mk:print_link($elem, $attr, 'external',
+				key('id', $local-id, $rootHeader)/name(), $ptr)"/>
         </xsl:when>
-        <xsl:otherwise></xsl:otherwise>
       </xsl:choose>
     </xsl:for-each>
   </xsl:template>

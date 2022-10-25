@@ -3,26 +3,28 @@ namespace a = "http://relaxng.org/ns/compatibility/annotations/1.0"
 
 a:documentation [
   "RelaxNG XML schema for ParlaMint corpora: schema\x{a}" ~
-  "  for component TEI file."
+  '  for "plain text" corpus component file.'
 ]
+include "ParlaMint.rnc"
+
+## Root element of a ParlaMint component file.
 start =
   
-  ## Root element of a ParlaMint component file.
+  ## Obligatory @xml:id.
   element TEI {
-    id.att >> a:documentation [ "Obligatory @xml:id." ],
-    
-    ## Obligatory @xml:lang.
-    attribute xml:lang { lang.vals },
-    
-    ## Obligatory @ana determining what scope this document has.
+    id.att >> a:documentation [ "Obligatory @xml:lang." ],
+    attribute xml:lang { lang.val }
+    >> a:documentation [
+         "Obligatory @ana determining what scope this document has."
+       ],
     attribute ana { anyURIs },
     teiHeader,
     text-body
   }
 # METADATA
+
+## Metadata of the component.
 teiHeader =
-  
-  ## Metadata of the component.
   element teiHeader {
     global.atts, fileDesc, encodingDesc, profileDesc, revisionDesc?
   }
@@ -37,28 +39,28 @@ fileDesc =
     publicationStmt,
     sourceDesc
   }
+
+## Title statement.
 titleStmt =
-  
-  ## Title statement.
   element titleStmt { title-header+, meeting+, respStmt*, funder* }
+
+## Responsibility statement.
 respStmt =
-  
-  ## Responsibility statement.
   element respStmt {
     (element persName {
        global.atts, ref.att, normalized-space.string
      }+,
      element resp { lang.att, normalized-space.string }+)+
   }
+
+## Edition statement.
 editionStmt =
-  
-  ## Edition statement.
   element editionStmt {
     element edition { normalized-space.string }
   }
+
+## Extent of the document.
 extent =
-  
-  ## Extent of the document.
   element extent {
     element measure {
       attribute unit {
@@ -70,25 +72,27 @@ extent =
       text
     }+
   }
+
+## Publications statement.
 publicationStmt =
-  
-  ## Publications statement.
   element publicationStmt {
     publisher,
     idno,
     element availability {
       attribute status { "free" },
-      element licence {
+      [
         # data type="anyURI"/
-        "http://creativecommons.org/licenses/by/4.0/"
-      },
+        
+        a:documentation [ "Fixed licence CC BY." ]
+      ]
+      element licence { "http://creativecommons.org/licenses/by/4.0/" },
       paras
     },
     date-simple
   }
+
+## Source description.
 sourceDesc =
-  
-  ## Source description.
   element sourceDesc {
     element bibl {
       title+,
@@ -108,35 +112,30 @@ sourceDesc =
       }+
     }?
   }
+
+## Encoding description.
 encodingDesc =
-  
-  ## Encoding description.
   element encodingDesc {
     global.atts,
     element projectDesc { paras },
     tagsDecl
   }
-profileDesc =
-  
-  ## Profile description.
-  element profileDesc { global.atts, settingDesc }
+
+## Profile description.
+profileDesc = element profileDesc { global.atts, settingDesc }
+
+## Revision description.
 revisionDesc =
-  
-  ## Revision description.
   element revisionDesc {
     global.atts,
     element change {
       attribute when { xsd:date },
-      name-header,
-      # The following doesn't work: group of "string" or "data" element
-      
-      # ref name="normalized-space.string"/
-      text
+      mixed { name-header* }
     }+
   }
+
+## Tags declaration.
 tagsDecl =
-  
-  ## Tags declaration.
   element tagsDecl {
     element namespace {
       attribute name { xsd:anyURI },
@@ -147,33 +146,35 @@ tagsDecl =
       }+
     }
   }
+
+## Setting description.
 settingDesc =
-  
-  ## Setting description.
   element settingDesc {
     element setting { name-header+, date }
   }
+
+## A title in the teiHeader. Must have a @type.
 title-header =
-  
-  ## A title in the teiHeader. Must have a @type.
   element title {
-    lang.att,
-    
-    ## @type is here obligatory.
+    lang.att >> a:documentation [ "@type is here obligatory:" ],
     attribute type { "main" | "sub" },
     normalized-space.string
   }
+
+## A title in the text.
 title =
-  
-  ## A title in the text.
   element title {
     lang.att,
     
-    ## @type is optional.
-    attribute type { "main" | "sub" }?,
+    ## @type is optional:
+    (attribute type { "main" | "sub" }?),
     normalized-space.string
   }
+
+## A "meeting" (e.g. session) of the parliament.
 meeting = element meeting { global.atts, ana.att, corresp.att, text }
+
+## Publisher of the corpus.
 publisher =
   element publisher {
     lang.att,
@@ -181,18 +182,16 @@ publisher =
       ref?)
      | text)
   }
+
+## Funder of the corpus compilation.
 funder =
   element funder {
     element orgName { lang.att, normalized-space.string }+,
     ref?
   }
-idno =
-  element idno {
-    lang.att,
-    attribute type { "URI" | "VIAF" | xsd:Name },
-    attribute subtype { xsd:Name }?,
-    xsd:anyURI { pattern = "https?://.+" }
-  }
+
+## A name as it appears in the teiHeader (rather than in the
+##     transcription).
 name-header =
   element name {
     attribute type { xsd:Name }?,
@@ -200,11 +199,17 @@ name-header =
     lang.att,
     normalized-space.string
   }
-# Paragraphs. Appear in the header only.
-paras = element p { global.atts, annotated-text }+
-# Anonymous blocks. Appear in the header only.
+
+## A series of paragraphs. Paragrapgs are only used in the
+##     teiHeader.
+paras = element p { global.atts, annotated.text }+
+
+## A series of anonymous blocks. Anonymous blocks are only used in the
+##     teiHeader.
 abs = element ab { global.atts, normalized-space.string }+
-# DATA
+a:documentation [ "Start of definitions for text" ]
+
+## The definition of the text and body (and division) elements.
 text-body =
   element text {
     global.atts,
@@ -234,95 +239,54 @@ u =
     attribute source { anyURIs }?,
     (seg | comment | pb)+
   }
+
+## A segment (i.e paragraph) inside a speech.
 seg =
   element seg {
     global.atts,
     (comment
      | pb
-     | # Maybe empty segments shold be forbidden, but this needs thinking about
-       text)+
+     | text
+       # ref name="normalized-space.string"/
+       )+
   }
+
+## A transcriber note.
 note =
   element note {
     global.atts,
     attribute type { xsd:NCName }?,
     (time | pb | text)+
   }
+
+## A page break, possible with its source URI.
 pb = element pb { global.atts, corresp.att, source.att, empty }
+
+## Any type of transcriber comment.
 comment =
   note
   | element gap {
       attribute reason { "editorial" | "inaudible" },
-      desc+
+      incidentDesc+
     }
   | element kinesic {
-      attribute type {
-        "kinesic"
-        | "applause"
-        | "ringing"
-        | "signal"
-        | "playback"
-        | "gesture"
-        | "smiling"
-        | "laughter"
-        | "snapping"
-        | "noise"
-      }?,
+      attribute type { kinesicType.val }?,
       who.att?,
-      desc+
+      incidentDesc+
     }
   | element incident {
-      attribute type {
-        "action"
-        | "incident"
-        | "leaving"
-        | "entering"
-        | "break"
-        | "pause"
-        | "sound"
-        | "editorial"
-      }?,
+      attribute type { incidentType.val }?,
       who.att?,
-      desc+
+      incidentDesc+
     }
   | element vocal {
-      attribute type {
-        "greeting"
-        | "question"
-        | "clarification"
-        | "speaking"
-        | "interruption"
-        | "exclamat"
-        | "laughter"
-        | "shouting"
-        | "murmuring"
-        | "noise"
-        | "signal"
-      },
+      attribute type { vocalType.val },
       who.att?,
-      desc+
+      incidentDesc+
     }
-desc = element desc { lang.att, normalized-space.string }
-# GENERALLY USEFUL DEFINITIONS
-head =
-  element head {
-    attribute type { xsd:token }?,
-    global.atts,
-    normalized-space.string
-    # oneOrMore>
-    #   <choice>
-    #     <ref name="note"/>
-    #     <ref name="pb"/>
-    #     <text/>
-    #   </choice>
-    # </oneOrMore
-    
-  }
-ref =
-  element ref {
-    attribute target { xsd:anyURI },
-    normalized-space.string
-  }
+
+## A description of an incident in a speech.
+incidentDesc = element desc { lang.att, normalized-space.string }
 
 ## The media element
 media =
@@ -332,58 +296,3 @@ media =
     source.att,
     attribute url { anyURIs }
   }
-
-## The time element
-time = element time { temporal.atts, text }
-
-## A simple date, just with @when. It can also have textual
-##     content with the date type-set according to the object language.
-date-simple = element date { when.att, text }
-
-## A date with with all possible temporal information. It can also have textual
-##     content with the date type-set according to the object language.
-date = element date { global.atts, temporal.atts, ana.att?, text }
-
-## A string that is non-empty, does not start or end with a white-space, and contains only ordinary spaces as spacing characters.
-normalized-space.string = xsd:string { pattern = "(\S)|(\S[\S ]*\S)" }
-annotated-text = mixed { ref* }
-temporal.val = xsd:dateTime | xsd:date | xsd:gYearMonth | xsd:gYear
-when.att = attribute when { temporal.val }
-temporal.atts =
-  when.att
-  | attribute from { temporal.val }
-  | (attribute from { temporal.val },
-     attribute to { temporal.val })
-  | attribute notBefore { temporal.val }
-  | (attribute notBefore { temporal.val },
-     attribute notAfter { temporal.val })
-who.att = attribute who { xsd:anyURI }
-ref.att = attribute ref { xsd:anyURI }?
-global.atts =
-  id.att?,
-  lang.att,
-  attribute n { xsd:string }?
-
-## "analysis" indicates one or more elements
-##     containing interpretations of the element on which the ana
-##     attribute appears.
-ana.att = attribute ana { anyURIs }
-
-## "corresponds" points to elements that correspond
-##     to the current element in some way.
-corresp.att = attribute corresp { anyURIs }?
-source.att = attribute source { anyURIs }?
-
-## A list of URI, including fragment references.
-anyURIs = list { xsd:anyURI+ }
-
-## Identifier of the element.
-id.att = attribute xml:id { xsd:ID }
-
-## The language of the element content. Optional
-##     everywhere except on TEI and teiCorpus, where its is defined
-##     separately.
-lang.att = attribute xml:lang { lang.vals }?
-
-## Values for @xml:lang - specified sloppily!
-lang.vals = xsd:language

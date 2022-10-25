@@ -59,10 +59,15 @@ foreach my $inDir (glob "$inDirs") {
 		m| href="(.+?)"|;
 		$file = "$inDir/$1";
 		if (-e $file) {
-		    print STDERR "INFO: Validating component TEI file $file\n";
-		    &run("$Jing $schemaDir/ParlaMint-TEI.rng", $file);
-		    &run("$Saxon -xsl:$Valid", $file);
-		    &run("$Saxon meta=$rootFile -xsl:$Links", $file);
+			if($file =~ m/ParlaMint-(?:[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?)?.?(taxonomy|listPerson|listOrg).*\.xml/){
+				print STDERR "INFO: Validating file included in teiHeader $file\n";
+				&run("$Jing $schemaDir/ParlaMint-$1.rng", $file);
+			} else {
+		      print STDERR "INFO: Validating component TEI file $file\n";
+		      &run("$Jing $schemaDir/ParlaMint-TEI.rng", $file);
+		      &run("$Saxon -xsl:$Valid", $file);
+		      &run("$Saxon meta=$rootFile -xsl:$Links", $file);
+		    }
 		}
 		else {print STDERR "ERROR: $rootFile XIncluded file $file does not exist!\n"}
 	    }
@@ -84,10 +89,16 @@ foreach my $inDir (glob "$inDirs") {
 		m| href="(.+?)"|;
 		$file = "$inDir/$1";
 		if (-e $file) {
-		    print STDERR "INFO: Validating component TEI.ana file $file\n";
-		    &run("$Jing $schemaDir/ParlaMint-TEI.ana.rng", $file);
-		    &run("$Saxon -xsl:$Valid", $file);
-		    &run("$Saxon meta=$rootAnaFile -xsl:$Links", $file);
+			if($file =~ m/ParlaMint-(?:[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?)?.?(taxonomy|listPerson|listOrg).*\.xml/){
+				print STDERR "INFO: Validating file included in teiHeader $file\n";
+				&run("$Jing $schemaDir/ParlaMint-$1.rng", $file);
+		        &run("$Saxon meta=$rootAnaFile -xsl:$Links", $file);
+			} else {
+		      print STDERR "INFO: Validating component TEI.ana file $file\n";
+		      &run("$Jing $schemaDir/ParlaMint-TEI.ana.rng", $file);
+		      &run("$Saxon -xsl:$Valid", $file);
+		      &run("$Saxon meta=$rootAnaFile -xsl:$Links", $file);
+		    }
 		}
 		else {print STDERR "ERROR: $rootAnaFile XIncluded file $file does not exist!\n"}
 	    }

@@ -88,7 +88,7 @@
     component files, each containing a <gi>TEI</gi> element.</desc>
     <content>
       <elementRef key="teiHeader"/>
-      <!-- We allow XIncludes in order to enable separate validation of corpus root -->
+      <!-- We allow XIncludes in order to enable separate validation of corpus root and components -->
       <alternate minOccurs="1" maxOccurs="unbounded">
         <elementRef key="TEI"/>
         <elementRef key="include"/>
@@ -126,8 +126,13 @@
   
   <!-- Definition of XInclude -->
   <elementSpec ident="include" mode="add" ns="http://www.w3.org/2001/XInclude">
-    <desc versionDate="2022-05-18" xml:lang="en">used to include a corpus component (a
-    <gi>TEI</gi> element) into the corpus root (the <gi>teiCorpus</gi> element).</desc>
+    <desc versionDate="2022-05-18" xml:lang="en">is an element from the XML namespace of the <ref
+    target="https://www.w3.org/TR/xinclude-11/">XML Inclusions (XInclude)</ref> W3C
+    recommendation. It is used to include, into a ParlaMint <gi>teiCorpus</gi> root file the
+    elements of the corpus that are stored as separate files. These are the <gi>TEI</gi> corpus
+    components and parts of the corpus root <gi>teiHeader</gi>. Inside <gi>particDesc</gi> these
+    are <gi>listPerson</gi> &amp; <gi>listOrg</gi>, and <gi>taxonomy</gi> inside
+    <gi>classDecl</gi>.</desc>
     <attList>
       <attDef ident="href" mode="add">
         <datatype>
@@ -251,10 +256,9 @@
       <attDef ident="type" mode="replace" usage="rec">
         <valList type="closed">
           <valItem ident="debateSection">
-            <desc xml:lang="en">General purpose text division for all parts of
-            parliamentary proceedings. 
-	    If needed, the @subtype attribute can be used for
-	    additional content classification.</desc>
+            <desc xml:lang="en">General purpose text division for all parts of parliamentary
+            proceedings.  If needed, the @subtype attribute can be used for additional content
+            classification.</desc>
           </valItem>
         </valList>
       </attDef>
@@ -954,7 +958,6 @@
       </egXML>
     </exemplum>
   </elementSpec>
-  
   <elementSpec ident="name" module="core" mode="change">
     <desc versionDate="2005-01-14" xml:lang="en">contains a proper noun or noun phrase.</desc>
     <content>
@@ -1151,11 +1154,8 @@
     </exemplum>
   </elementSpec>
   <elementSpec ident="teiHeader" module="header" mode="change">
-    <desc
-        versionDate="2016-02-19"
-        xml:lang="en">supplies descriptive and
-    declarative metadata associated with a digital resource or set of
-    resources.</desc>
+    <desc versionDate="2016-02-19" xml:lang="en">supplies descriptive and declarative metadata
+    associated with a digital resource or set of resources.</desc>
     <content>
       <elementRef key="fileDesc"/>
       <elementRef key="encodingDesc"/>
@@ -2274,28 +2274,19 @@
               <tagUsage gi="div" occurs="414"/>
 	    </namespace>
 	  </tagsDecl>
-          <classDecl>
-            <taxonomy xml:id="parla.legislature">...</taxonomy>
-	    <taxonomy xml:id="speaker_types">...</taxonomy>
-	    <taxonomy xml:id="subcorpus">...</taxonomy>
-	  </classDecl>
+          <classDecl>...</classDecl>
 	</encodingDesc>
       </egXML>
     </exemplum>
     <exemplum xml:lang="en">
-      <p>Example of encoding description of an annotated corpus root. The structure includes two additional taxonomies in the <gi>classDecl</gi>, as well as two additional elements, <gi>listPrefixDef</gi> and <gi>appInfo</gi>.</p>
+      <p>Example of encoding description of an annotated corpus root. The structure includes two
+      additional elements, <gi>listPrefixDef</gi> and <gi>appInfo</gi>.</p>
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
 	<encodingDesc>
           <projectDesc>... </projectDesc>
           <editorialDecl>...</editorialDecl>
           <tagsDecl>...</tagsDecl>
-          <classDecl>
-            <taxonomy xml:id="parla.legislature">...</taxonomy>
-	    <taxonomy xml:id="speaker_types">...</taxonomy>
-	    <taxonomy xml:id="subcorpus">...</taxonomy>
-	    <taxonomy xml:id="NER">...</taxonomy>
-	    <taxonomy xml:id="UD-SYN">...</taxonomy>
-	  </classDecl>
+          <classDecl>...</classDecl>
 	  <listPrefixDef>
             <prefixDef ident="mte" matchPattern="(.+)" replacementPattern="http://nl.ijs.si/ME/V6/msd/tables/msd-fslib-sl.xml#$1">
               <p xml:lang="en">Private URIs with this prefix point to feature-structure elements defining the Slovenian MULTEXT-East Version 6 MSDs.</p>
@@ -2581,37 +2572,24 @@
     </exemplum>
   </elementSpec>
   <elementSpec ident="classDecl" module="header" mode="change">
-    <desc
-        versionDate="2005-01-14"
-        xml:lang="en">contains one or more taxonomies defining any classificatory
-    codes used elsewhere in the text.</desc>
+    <desc versionDate="2022-10-13" xml:lang="en">contains taxonomies defining classificatory codes
+    used elsewhere in the text. Note that the taxonomies are in ParlaMint typically stored in
+    separate files.</desc>
     <content>
-      <elementRef key="taxonomy" minOccurs="1" maxOccurs="unbounded"/>
+      <alternate minOccurs="1" maxOccurs="unbounded">
+	<elementRef key="taxonomy"/>
+        <elementRef key="include"/>
+      </alternate>
     </content>
     <attList/>
     <exemplum xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
         <classDecl>
-	  <taxonomy xml:id="subcorpus">
-            <desc xml:lang="cs">
-              <term>Podkorpusy</term>
-            </desc>
-            <desc xml:lang="en">
-              <term>Subcorpora</term>
-            </desc>
-            <category xml:id="reference">
-              <catDesc xml:lang="cs">
-              <term>Referenční</term>: referenční podkorpus, do 2019-10-31</catDesc>
-              <catDesc xml:lang="en">
-              <term>Reference</term>: reference subcorpus, until 2019-10-31</catDesc>
-            </category>
-            <category xml:id="covid">
-              <catDesc xml:lang="cs">
-              <term>COVID</term>: COVID podkorpus, od 2019-11-01 dále</catDesc>
-              <catDesc xml:lang="en">
-              <term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
-            </category>
-          </taxonomy>
+	  <![CDATA[<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
+	           href="href="ParlaMint-SI-taxonomy-parla.legislature.xml"/>]]>
+	  <![CDATA[<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
+	           href="href="ParlaMint-SI-taxonomy.xml-speaker_types"/>]]>
+	  ...
         </classDecl>
       </egXML>
     </exemplum>
@@ -3001,17 +2979,11 @@
             </textClass>
 	  </textClass>
 	  <particDesc>
-	    <listOrg>
-              <org xml:id="DZ" role="parliament" ana="#parla.national #parla.lower">...</org>
-	      <org xml:id="GOV" role="government">...</org>
-	      ...
-	    </listOrg>
-	    <listPerson>
-              <head xml:lang="sl">Seznam govornikov</head>
-              <head xml:lang="en">List of speakers</head>
-              <person xml:id="AccettoMatej">...</person>
-	      ...
-	    </listPerson>
+	    <!-- listOrg and listPerson are typically stored in separate files -->
+	    <![CDATA[<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
+	             href="href="ParlaMint-SI-listOrg.xml"/>]]>
+	    <![CDATA[<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
+	             href="href="ParlaMint-SI-listPerson.xml"/>]]>
 	  </particDesc>
 	  <langUsage>
 	    <langUsage>
@@ -3133,44 +3105,30 @@
     </exemplum>
   </elementSpec>
   <elementSpec ident="particDesc" module="corpus" mode="change">
-    <desc versionDate="2014-01-06" xml:lang="en">describes the identifiable speakers, voices, or
-    other participants in any kind of text or other persons named or otherwise referred to in a
-    text, edition, or metadata.</desc>
+    <desc versionDate="2022-10-13" xml:lang="en">describes the identifiable speakers and
+    organisations in a ParlaMint corpus. This informations is given in the corpus root
+    teiHeder. Note that the listPerson and listOrg elements are typically stored in separate
+    files.</desc>
     <content>
       <sequence>
-        <elementRef key="listOrg" minOccurs="1" maxOccurs="unbounded"/>
-        <elementRef key="listPerson" minOccurs="1" maxOccurs="unbounded"/>
+	<alternate>
+          <elementRef key="listOrg"/>
+          <elementRef key="include"/>
+	</alternate>
+	<alternate>
+          <elementRef key="listPerson"/>
+          <elementRef key="include"/>
+	</alternate>
       </sequence>
     </content>
     <attList/>
     <exemplum xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
         <particDesc>
-          <listOrg>
-            <org role="parliamentaryGroup" xml:id="parliamentaryGroup.LVŽSF">
-              <orgName full="yes" xml:lang="lt">Lietuvos valstiečių ir žaliųjų sąjungos frakcija</orgName>
-              <orgName full="abb">LVŽSF</orgName>
-              <orgName full="yes" xml:lang="en">Faction of the Lithuanian Farmers and Greens Union</orgName>
-            </org>
-	    ...
-	  </listOrg>
-	  <listPerson>
-            <head xml:lang="lt">Pasisakiusiųjų sąrašas</head>
-            <head xml:lang="en">List of speakers</head>
-            <person xml:id="AčienėVida">
-              <persName>
-                <forename>Vida</forename>
-                <surname>Ačienė</surname>
-              </persName>
-	    </person>
-	    <person xml:id="GustainisŠarūnas">
-              <persName>
-                <forename>Šarūnas</forename>
-                <surname>Gustainis</surname>
-              </persName>
-	    </person>
-	    ...
-	  </listPerson>
+	  <![CDATA[<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
+	           href="href="ParlaMint-SI-listOrg.xml"/>]]>
+	  <![CDATA[<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
+	           href="href="ParlaMint-SI-listPerson.xml"/>]]>
 	</particDesc>
       </egXML>
     </exemplum>
@@ -3267,6 +3225,7 @@
           <valItem ident="country"/>
           <valItem ident="republic"/>
           <valItem ident="government"/>
+          <valItem ident="ministry"/>
           <valItem ident="parliament"/>
           <valItem ident="politicalParty"/>
           <valItem ident="parliamentaryGroup"/>
@@ -4069,8 +4028,10 @@
         xml:lang="en">documents a change or set of changes made during the production
     of a source document, or during the revision of an electronic file.</desc>
     <content>
-      <elementRef key="name"/>
-      <textNode/>
+      <alternate minOccurs="1" maxOccurs="unbounded">
+	<elementRef key="name"/>
+	<textNode/>
+      </alternate>
     </content>
     <attList>
       <pm:attPreserve ident="when"/>
@@ -4078,12 +4039,10 @@
     <exemplum xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
 	<revisionDesc>
-          <change when="2021-02-02">
-          <name>Tommaso Agnoloni</name>: Made sample.</change>
           <change when="2021-01-28">
           <name>Tommaso Agnoloni</name>: Generated corpus in ParlaMint.</change>
           <change when="2021-02-26">
-          <name>Tommaso Agnoloni</name>: Corpus revision, fixing</change>
+          <name>Tommaso Agnoloni</name>, <name>Francesca Frontini</name>: Corpus revision, fixing</change>
 	</revisionDesc>
       </egXML>
     </exemplum>

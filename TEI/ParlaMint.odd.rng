@@ -5,9 +5,9 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2022-10-06T11:56:32Z. 2022-10-04.
+Schema generated from ODD source 2022-10-22T15:38:21Z. 2022-10-22.
 TEI Edition: Version 4.5.0a. Last updated on
-        1st June 2022, revision aeba95253
+        29th July 2022, revision 50a1ab835
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.5.0a./
   
 --><!--This file is freely available and you are hereby authorised to copy, modify, and redistribute it in any way without further reference or permissions.-->
@@ -897,7 +897,7 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                            xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                           test="    (ancestor::tei:ab or ancestor::tei:p)                          and not( ancestor::tei:floatingText                                 |parent::tei:exemplum                                 |parent::tei:item                                 |parent::tei:note                                 |parent::tei:q                                 |parent::tei:quote                                 |parent::tei:remarks                                 |parent::tei:said                                 |parent::tei:sp                                 |parent::tei:stage                                 |parent::tei:cell                                 |parent::tei:figure                                )">
+                           test="(ancestor::tei:ab or ancestor::tei:p) and not( ancestor::tei:floatingText |parent::tei:exemplum |parent::tei:item |parent::tei:note |parent::tei:q |parent::tei:quote |parent::tei:remarks |parent::tei:said |parent::tei:sp |parent::tei:stage |parent::tei:cell |parent::tei:figure )">
         Abstract model violation: Paragraphs may not occur inside other paragraphs or ab elements.
       </sch:report>
             </rule>
@@ -912,7 +912,7 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                            xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                           test="    (ancestor::tei:l or ancestor::tei:lg)                          and not( ancestor::tei:floatingText                                 |parent::tei:figure                                 |parent::tei:note                                )">
+                           test="(ancestor::tei:l or ancestor::tei:lg) and not( ancestor::tei:floatingText |parent::tei:figure |parent::tei:note )">
         Abstract model violation: Lines may not contain higher-level structural elements such as div, p, or ab, unless p is a child of figure or note, or is a descendant of floatingText.
       </sch:report>
             </rule>
@@ -1759,9 +1759,12 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
    </define>
    <define name="tei_classDecl">
       <element name="classDecl">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(classification declarations) contains one or more taxonomies defining any classificatory codes used elsewhere in the text. [2.3.7. The Classification Declaration 2.3. The Encoding Description]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(classification declarations) contains taxonomies defining classificatory codes used elsewhere in the text. Note that the taxonomies are in ParlaMint typically stored in separate files. [2.3.7. The Classification Declaration 2.3. The Encoding Description]</a:documentation>
          <oneOrMore>
-            <ref name="tei_taxonomy"/>
+            <choice>
+               <ref name="tei_taxonomy"/>
+               <ref name="tei_include"/>
+            </choice>
          </oneOrMore>
       </element>
    </define>
@@ -1943,8 +1946,12 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
    <define name="tei_change">
       <element name="change">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(change) documents a change or set of changes made during the production of a source document, or during the revision of an electronic file. [2.6. The Revision Description 2.4.1. Creation 11.7. Identifying Changes and Revisions]</a:documentation>
-         <ref name="tei_name"/>
-         <text/>
+         <oneOrMore>
+            <choice>
+               <ref name="tei_name"/>
+               <text/>
+            </choice>
+         </oneOrMore>
          <ref name="tei_att.datable.w3c.attribute.when"/>
          <empty/>
       </element>
@@ -2093,14 +2100,16 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
    </define>
    <define name="tei_particDesc">
       <element name="particDesc">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(participation description) describes the identifiable speakers, voices, or other participants in any kind of text or other persons named or otherwise referred to in a text, edition, or metadata. [15.2. Contextual Information]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(participation description) describes the identifiable speakers and organisations in a ParlaMint corpus. This informations is given in the corpus root teiHeder. Note that the listPerson and listOrg elements are typically stored in separate files. [15.2. Contextual Information]</a:documentation>
          <group>
-            <oneOrMore>
+            <choice>
                <ref name="tei_listOrg"/>
-            </oneOrMore>
-            <oneOrMore>
+               <ref name="tei_include"/>
+            </choice>
+            <choice>
                <ref name="tei_listPerson"/>
-            </oneOrMore>
+               <ref name="tei_include"/>
+            </choice>
          </group>
       </element>
    </define>
@@ -2949,6 +2958,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>government</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>ministry</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>parliament</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>politicalParty</value>
@@ -3550,7 +3561,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 context="tei:*/@source">
          <sch:let name="srcs" value="tokenize( normalize-space(.),' ')"/>
-         <sch:report test="( parent::tei:classRef                               | parent::tei:dataRef                               | parent::tei:elementRef                               | parent::tei:macroRef                               | parent::tei:moduleRef                               | parent::tei:schemaSpec )                               and                               $srcs[2]">
+         <sch:report test="( parent::tei:classRef | parent::tei:dataRef | parent::tei:elementRef | parent::tei:macroRef | parent::tei:moduleRef | parent::tei:schemaSpec ) and $srcs[2]">
               When used on a schema description element (like
               <sch:value-of select="name(..)"/>), the @source attribute
               should have only 1 value. (This one has <sch:value-of select="count($srcs)"/>.)
@@ -3752,7 +3763,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
    </pattern>
    <define name="tei_include">
       <element name="include" ns="http://www.w3.org/2001/XInclude">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">used to include a corpus component (a <code xmlns="http://www.w3.org/1999/xhtml">&lt;TEI&gt;</code> element) into the corpus root (the <code xmlns="http://www.w3.org/1999/xhtml">&lt;teiCorpus&gt;</code> element).</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">is an element from the XML namespace of the <a xmlns="http://www.w3.org/1999/xhtml"
+               href="https://www.w3.org/TR/xinclude-11/">XML Inclusions (XInclude)</a> W3C recommendation. It is used to include, into a ParlaMint <code xmlns="http://www.w3.org/1999/xhtml">&lt;teiCorpus&gt;</code> root file the elements of the corpus that are stored as separate files. These are the <code xmlns="http://www.w3.org/1999/xhtml">&lt;TEI&gt;</code> corpus components and parts of the corpus root <code xmlns="http://www.w3.org/1999/xhtml">&lt;teiHeader&gt;</code>. Inside <code xmlns="http://www.w3.org/1999/xhtml">&lt;particDesc&gt;</code> these are <code xmlns="http://www.w3.org/1999/xhtml">&lt;listPerson&gt;</code> &amp; <code xmlns="http://www.w3.org/1999/xhtml">&lt;listOrg&gt;</code>, and <code xmlns="http://www.w3.org/1999/xhtml">&lt;taxonomy&gt;</code> inside <code xmlns="http://www.w3.org/1999/xhtml">&lt;classDecl&gt;</code>.</a:documentation>
          <empty/>
          <optional>
             <attribute name="href">

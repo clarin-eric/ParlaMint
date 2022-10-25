@@ -21,7 +21,7 @@ jobs:
       parla_changed:  '${{ steps.detect-changes.outputs.parla_changed }}'
     steps:
       - name: Checkout ParlaMint
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           path: ParlaMint
           fetch-depth: 2 # when called a pull_request - test is run on test merge -> full history is not needed to detect changes
@@ -38,7 +38,7 @@ jobs:
     if: ${{ needs.Changes.outputs.parla_changed != '[]' && github.event_name == 'pull_request_target' && github.event.pull_request.merged == true }}
     steps:
       - name: Checkout ParlaMint
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           path: ParlaMint
       - name: Setup
@@ -63,7 +63,7 @@ jobs:
               echo "::warning::skipping annotated conversion - missing corpus root file"
             fi
             echo "::notice::Move new sample files to Data/ParlaMint-$parla"
-            mv $DIR/* Data/ParlaMint-$parla/
+            ls $DIR|grep "ParlaMint-$parla[\.\_]"|xargs -I {} mv $DIR/{} Data/ParlaMint-$parla/
             echo "::endgroup::"
           done
       - name: Remove unused data from repository
