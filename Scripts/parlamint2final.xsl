@@ -26,6 +26,8 @@
   exclude-result-prefixes="xsl tei et xs xi"
   version="2.0">
 
+  <xsl:import href="parlamint-lib.xsl"/>
+  
   <!-- Directories must have absolute paths! -->
   <xsl:param name="outDir">.</xsl:param>
   <xsl:param name="anaDir">.</xsl:param>
@@ -668,7 +670,7 @@
   <xsl:template match="tei:publicationStmt/tei:date">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
-      <xsl:attribute name="when" select="$today"/>
+      <xsl:attribute name="when" select="$today-iso"/>
       <xsl:value-of select="format-date(current-date(), '[MNn] [D], [Y]')"/>
     </xsl:copy>
   </xsl:template>
@@ -688,7 +690,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
       <xsl:apply-templates select="*"/>
-      <change when="{$today}"><name>Tomaž Erjavec</name>: Finalize encoding.</change>
+      <change when="{$today-iso}"><name>Tomaž Erjavec</name>: Finalize encoding.</change>
     </xsl:copy>
   </xsl:template>
 

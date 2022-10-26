@@ -22,6 +22,8 @@
   exclude-result-prefixes="xsl tei et xs xi"
   version="2.0">
 
+  <xsl:import href="parlamint-lib.xsl"/>
+  
   <!-- Directories must have absolute paths! -->
   <xsl:param name="outDir">.</xsl:param>
   <xsl:param name="anaDir">.</xsl:param>
@@ -191,7 +193,7 @@
 
   <!-- Gather URIs of component xi + files and map to new files, incl. .ana files -->
   <xsl:variable name="docs">
-    <xsl:for-each select="//xi:include">
+    <xsl:for-each select="/tei:teiCorpus/xi:include">
       <item>
         <xi-orig>
           <xsl:value-of select="@href"/>
@@ -675,7 +677,7 @@
   <xsl:template match="tei:publicationStmt/tei:date">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
-      <xsl:attribute name="when" select="$today"/>
+      <xsl:attribute name="when" select="$today-iso"/>
       <xsl:value-of select="format-date(current-date(), '[MNn] [D], [Y]')"/>
     </xsl:copy>
   </xsl:template>
@@ -695,7 +697,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
       <xsl:apply-templates select="*"/>
-      <change when="{$today}"><name>Tomaž Erjavec</name>, <name>Matyáš Kopp</name>: Adding common content.</change>
+      <change when="{$today-iso}"><name>Tomaž Erjavec</name>, <name>Matyáš Kopp</name>: Adding common content.</change>
     </xsl:copy>
   </xsl:template>
 
@@ -833,7 +835,7 @@
           <xsl:copy-of copy-namespaces="no" select="$new"/>
         </xsl:for-each>
 
-        <xsl:copy-of copy-namespaces="no" select="$tagUsages/*"/>
+        <!--xsl:copy-of copy-namespaces="no" select="$tagUsages/*"/-->
       </xsl:element>
     </xsl:element>
   </xsl:template>

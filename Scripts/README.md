@@ -1,10 +1,11 @@
 # ParlaMint scripts
 
-This directory contains various scripts that are used to validate or
-convert ParlaMint corpora to other formats. Most scripts have an
+This directory contains the scripts that are used to validate or
+convert ParlaMint XML corpora to other formats. Most scripts have an
 explanation of how to run them in comments and the start of the
-script. Examples of usage are also given in the repository
-[Makefile](../Makefile).
+script. Note that these scripts should be typically run via the repository
+[Makefile](../Makefile); for instructions how to use it, pls. see the
+repository [CONTRIBUTING](../CONTRIBUTING.md) file.
 
 ## Validation
 
